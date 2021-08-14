@@ -50,15 +50,15 @@ So let's take here as an example - I have a concrete example, where we can say "
 
 So there are different schools of thought here, and one of them being for example to either return a slice of errors, or just return a custom error type. And here we will take the example of returning a custom error type.
 
-We can create for example a custom struct called multi-error, let's say, that can contain some different fields and everything, and more importantly, at some point it contains a slice of errors that we want to kind of mutate throughout the errors.
+We can create for example a custom struct called MultiError, let's say, that can contain some different fields and everything, and more importantly, at some point it contains a slice of errors that we want to kind of mutate throughout the errors.
 
-So we take this multi-error struct, we make it implementing the error interface, and it's a pointer receiver, because the slice needs to be mutated. So in our validate function, what one guy could do in that case is to say "First I'm going to create a variable called 'result'. It's going to be a pointer to multi-error, so I write \[unintelligible 00:07:15.05\] and by default, result is going to be assigned to nil, as the zero value of the pointer is nil.
+So we take this multi-error struct, we make it implementing the error interface, and it's a pointer receiver, because the slice needs to be mutated. So in our validate function, what one guy could do in that case is to say "First I'm going to create a variable called 'result'. It's going to be a pointer to multi-error, so I write var result *MultiError and by default, result is going to be assigned to nil, as the zero value of the pointer is nil.
 
-So let's say that we implement the wall function, we do the sanity checks, and if there's an error, we mutate results to append a new error. And eventually, at the end of the function we say "I am going to return the result variable." So in the end, result can be either nil if we face no errors, or it can be a pointer referencing a multi-error \[unintelligible 00:07:48.26\]
+So let's say that we implement the wall function, we do the sanity checks, and if there's an error, we mutate results to append a new error. And eventually, at the end of the function we say "I am going to return the result variable." So in the end, result can be either nil if we face no errors, or it can be a pointer referencing a multiError \[unintelligible 00:07:48.26\]
 
-\[00:07:52.00\] So let's now say that we implement the consumer side, we called our validation function and we check whether the error is nil or not. And here - surprise, the error is never nil, actually. Even when we faced no errors, the error itself that we return is never nil. So what happened in that case? We have said that eventually we were returning the result variable. So if there is no error, actually what we are going to return is a nil receiver, not a nil value directly. And as the return type was an interface, because we returned an error interface, we didn't return a nil value here; we returned an interface implemented by a nil receiver... Which is actually different from nil, and that's why \[unintelligible 00:08:42.00\] It's because in Go a nil receiver is allowed, which might sound a bit odd at first, but it's actually allowed. And the reason is because a method in Go - it's just some kind of syntactic sugar, just like if the receiver was actually the first argument of a function. And it's actually allowed to pass nil arguments for pointers, right?
+\[00:07:52.00\] So let's now say that we implement the consumer side, we called our validation function and we check whether the error is nil or not. And here - surprise, the error is never nil, actually. Even when we faced no errors, the error itself that we return is never nil. So what happened in that case? We have said that eventually we were returning the result variable. So if there is no error, actually what we are going to return is a nil receiver, not a nil value directly. And as the return type was an interface, because we returned an error interface, we didn't return a nil value here; we returned an interface implemented by a nil receiver... Which is actually different from nil, and that's why the check by the consumer is never nil. It's because in Go a nil receiver is allowed, which might sound a bit odd at first, but it's actually allowed. And the reason is because a method in Go - it's just some kind of syntactic sugar, just like if the receiver was actually the first argument of a function. And it's actually allowed to pass nil arguments for pointers, right?
 
-So a nil receiver is completely allowed. And if we want to fix it in that very case, instead of possibly returning a nil receiver, we should return a nil value directly. So eventually, in the end, we could do "if result = nil, return nil instead of returning result." And it's actually the same on the consumer side, on the other side - if a function accepts an interface, and we pass to it a nil receiver, not a nil value, the variable assigned to this interface won't be nil.
+So a nil receiver is completely allowed. And if we want to fix it in that very case, instead of possibly returning a nil receiver, we should return a nil value directly. So eventually, in the end, we could do "if result == nil { return nil }" instead of returning result. And it's actually the same on the consumer side, on the other side - if a function accepts an interface, and we pass to it a nil receiver, not a nil value, the variable assigned to this interface won't be nil.
 
 So just as a small conclusion here, when a function accepts a returning interface, and that we pass our return a nil receiver, the variable assigned to this interface will never be nil. And in general, actually, having a nil receiver is probably something we never want in Go, and it means a probably bug, so it should be avoided.
 
@@ -118,7 +118,7 @@ So I believe that we may still face the case where we have at some point to retu
 
 **Mark Bates:** Multiple times! I don't. I love David. He deserves all that he gets from putting up with you.
 
-**Mat Ryer:** I love it. I've never had a banter happening and insults concurrently, for both Johnny and Mark at the same time. \[laughter\]
+**Mat Ryer:** I love it. I've never had a banter happening and insults concurrently, from both Johnny and Mark at the same time. \[laughter\]
 
 **Mark Bates:** We try, we try...
 
@@ -172,9 +172,9 @@ So in a nutshell, the merge sort algorithm - we just get a slice as an input, we
 
 So the structure, for example, for this algorithm seems like a perfect fit for concurrency, because we could say every time I can handle each half into a specific goroutine. So the first half in one goroutine, the second in another goroutine, and say I will introduce some sort of synchronization at some point to wait for both goroutines.
 
-So if we implement this parallel version of the algorithm, I run it on my local computer with a certain number of elements, and actually this parallel version is about ten times slower than the sequential version. And despite the fact that the parallel version leverages multiple cores, right? So it's more than ten times slower. And what is the reason for that, if we think a bit about it? As we said, the algorithm is about to repeatedly split lists into two sub-lists; so at some point we will have 1,024elements, then 512, then 256 and so on, until we reach 8, 4, 2 and 1 elements.
+So if we implement this parallel version of the algorithm, I run it on my local computer with a certain number of elements, and actually this parallel version is about ten times slower than the sequential version. And despite the fact that the parallel version leverages multiple cores, right? So it's more than ten times slower. And what is the reason for that, if we think a bit about it? As we said, the algorithm is about to repeatedly split lists into two sub-lists; so at some point we will have 1,024 elements, then 512, then 256 and so on, until we reach 8, 4, 2 and 1 elements.
 
-Now let's try to imagine, in your opinion, what's the fastest between spinning up two goroutines that will both merge two elements and wait for them, or in the current goroutine \[unintelligible 00:19:59.20\] two other elements. And of course, it's gonna be the latter here, right? Because it's gonna be faster to do it in the current goroutine.
+Now let's try to imagine, in your opinion, what's the fastest between spinning up two goroutines that will both merge two elements and wait for them, or in the current goroutine merge two elements and then merge two other elements? And of course, it's gonna be the latter here, right? Because it's gonna be faster to do it in the current goroutine.
 
 \[00:20:10.24\] And if we think about it actually, in the merge sort algorithm, the deeper we go, the less efficient it will be to spin up a goroutine. And sure, goroutines are fast, but spinning up a new goroutine - it has a cost, because we have to wait for its creation, we have to wait for the internal Go scheduler to execute it, we have also the fact that concurrency introduces some form of synchronization because of mutex, or channels, or whatever... So everything has a cost, right?
 
@@ -412,7 +412,7 @@ But it's definitely one of the big issues I see, where people should be starting
 
 **Mat Ryer:** So would you say that people should just by default use lower-case letters everywhere, until you then need to export it for some reason?
 
-**Mark Bates:** Yeah. I mean, you'd have to sell me on why you would wanna do it the other way around. I mean, there are definitely types when I start -- I open up a package and I go "This type has \[unintelligible 00:47:30.09\]
+**Mark Bates:** Yeah. I mean, you'd have to sell me on why you would wanna do it the other way around. I mean, there are definitely types when I start -- I open up a package and I go "This type has to be exported."
 
 **Mat Ryer:** Because you're thinking about the use of that package...
 
@@ -434,13 +434,13 @@ But it's definitely one of the big issues I see, where people should be starting
 
 **Mark Bates:** Yeah, just in-line, because I wanna check "Does it have this method on it?" and if so, I wanna call it. And I don't need some big interface somewhere else, I can just do it right there in-line. And that's one of the nice things about Go, is that you can do that sort of thing. But that's an advanced feature, Johnny. That's a feature that -- I don't know about you, but when I teach... You know, I teach a lot of intro to Go at Gopher Guides, and interfaces is one of those things that people really struggle with coming to Go.
 
-It surprises me, because they're on the surface relatively easy. There's not a lot to them; it's a collection of methods, and you either implement those methods or you don't. But people really struggle with that and they struggle with the implicit versus explicit declaration of an interface... I'm not \[unintelligible 00:49:54.02\] And then they certainly don't realize that you can create in-line, unexported types and interfaces inside of a method to make your life even that much more easy right there.
+It surprises me, because they're on the surface relatively easy. There's not a lot to them; it's a collection of methods, and you either implement those methods or you don't. But people really struggle with that and they struggle with the implicit versus explicit declaration of an interface... I'm not implementing.. this isn't my Foo interface... And then they certainly don't realize that you can create in-line, unexported types and interfaces inside of a method to make your life even that much more easy right there.
 
 **Johnny Boursiquot:** Right, right.
 
 **Mat Ryer:** Yeah, one downside to that technique is you can't hide things inside the function. It's not always obvious -- you have to use docs or something to say "If it implements this interface, then it'll have this different behavior." So it is quite an advanced case, I think..
 
-**Mark Bates:** It's very much so. I use it mostly in an exception case, where I've got an error or something, and I wanna try to see if I can inspect a bit more information out of this thing, if I can... Otherwise, if I'm letting people know that I'm supporting these methods via interfaces, then I'll expose those interfaces, more for the sake of hanging documentation on them. You know, just saying like "Hey, this method is gonna take these five interfaces", so it's a documentation thing versus a \[unintelligible 00:51:01.24\]
+**Mark Bates:** It's very much so. I use it mostly in an exception case, where I've got an error or something, and I wanna try to see if I can inspect a bit more information out of this thing, if I can... Otherwise, if I'm letting people know that I'm supporting these methods via interfaces, then I'll expose those interfaces, more for the sake of hanging documentation on them. You know, just saying like "Hey, this method is gonna take these five interfaces", so it's a documentation thing versus a required to be passed in.
 
 **Mat Ryer:** Well, it's that time again... Teiva, hold this base. Johnny, you're on the drums. Bates, pick up the guitar... It's time for Unpopular Opinions!
 
@@ -468,7 +468,7 @@ It surprises me, because they're on the surface relatively easy. There's not a l
 
 **Johnny Boursiquot:** Oh, mate. Fire!
 
-**Mark Bates:** \[00:52:04.21\] \[Captain Sparrow voice\] "I've been stuck on that island for so long... Thinking about generics and stewing away..." I'm like \[unintelligible 00:52:10.25\] Somehow I gain weight being stranded on a dessert island. I'm not quite sure how that happens.
+**Mark Bates:** \[00:52:04.21\] \[Captain Sparrow voice\] "I've been stuck on that island for so long... Thinking about generics and stewing away..." I'm like \[unintelligible 00:52:10.25\] from Lost. Somehow I gained weight being stranded on a desert island. I'm not quite sure how that happens.
 
 **Mat Ryer:** No, you look great though, mate, really. \[unintelligible 00:52:17.19\]
 
