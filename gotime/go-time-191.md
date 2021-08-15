@@ -54,7 +54,7 @@
 
 **Mat Ryer:** The ball. Clue's in the name.
 
-**Grant Seltzer Richman:** Clever name now, actually. I genuinely didn't actually make that link. Well, Baseball - it gives us lots of metaphors, doesn't it? It contributes the most metaphors, but I don't know... Hana, do you agree? Is baseball a good sport?
+**Mat Ryer:** Clever name now, actually. I genuinely didn't actually make that link. Well, Baseball - it gives us lots of metaphors, doesn't it? It contributes the most metaphors, but I don't know... Hana, do you agree? Is baseball a good sport?
 
 **Hana Kim:** So other than U.S. and some Asian countries, who plays baseball?
 
@@ -400,7 +400,7 @@ Shall we move on to number two?
 
 **Mat Ryer:** Hmmm...?
 
-**Kris Brandow:** I feel like this actually might be an unpopular opinion... I guess it really depends on who you are, but I think a lot of the things we usually see as disadvantages, especially when it comes to the \[unintelligible 00:38:36.27\] space, like race, or gender, or sexual orientation - they can actually be advantages in a lot of ways... Say like "Well, you get less things. You don't get as much of a leg up because you're a black person within a white and Asian-dominated industry...", but I see that as like "Oh, well I have to work harder - yes. But then I know how to work harder, so I can just keep working harder." I have the extra stamina, I have the ability to keep going.
+**Kris Brandow:** I feel like this actually might be an unpopular opinion... I guess it really depends on who you are, but I think a lot of the things we usually see as disadvantages, especially when it comes to the D&I space, like race, or gender, or sexual orientation - they can actually be advantages in a lot of ways... Say like "Well, you get less things. You don't get as much of a leg up because you're a black person within a white and Asian-dominated industry...", but I see that as like "Oh, well I have to work harder - yes. But then I know how to work harder, so I can just keep working harder." I have the extra stamina, I have the ability to keep going.
 
 Or as a queer person, people are like "Oh, I would never wanna be queer", and it's like "Well, I got to choose my life. I got to sit down and think about and figure out what it was that I wanted my life to be", and I see that as like a tremendous advantage.
 
