@@ -1,6 +1,4 @@
-\[00:02:33.24\]
-
-**Gerhard Lazu:** So I really wanted to talk to you about this topic of Kaizen. Kaizen, for those that's the first time they hear this, is the concept of the art of self-improvement specifically. And that is really powerful, because it's the best way that you have to improve yourself, and to always think about "How can I do this better?" It all starts with "How can I do this better?" So with that in mind, what I wanted us to do every tenth episode was to reflect on what can we improve for the application, for our setup, but also the show, because - isn't that the best way of improving? I think it is...
+**Gerhard Lazu:** \[00:02:33.24\] So I really wanted to talk to you about this topic of Kaizen. Kaizen, for those that's the first time they hear this, is the concept of the art of self-improvement specifically. And that is really powerful, because it's the best way that you have to improve yourself, and to always think about "How can I do this better?" It all starts with "How can I do this better?" So with that in mind, what I wanted us to do every tenth episode was to reflect on what can we improve for the application, for our setup, but also the show, because - isn't that the best way of improving? I think it is...
 
 **Adam Stacoviak:** Kaizen. I love it.
 
