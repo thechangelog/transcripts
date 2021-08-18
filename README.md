@@ -342,6 +342,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://www.joeadams.io"><img src="https://avatars.githubusercontent.com/u/2531691?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joe Adams</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sysadmind" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/EvanLongMa"><img src="https://avatars.githubusercontent.com/u/36727778?v=4?s=100" width="100px;" alt=""/><br /><sub><b>EvanLongMa</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=EvanLongMa" title="Documentation">📖</a></td>
   </tr>
 </table>
 
