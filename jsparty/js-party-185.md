@@ -36,7 +36,7 @@ And then the end-to-end encryption is the other part that's really unique. We de
 
 **Nick Nisi:** I'm curious how that works. Could you break that down a little bit for me, of how the URL contains the key, and I send that to somebody, and then - how do they request the file without sending that piece of the key? Is it broken off in the frontend of the recipient, or how does that work?
 
-**Feross Aboukhadijeh:** Yeah, it's a great question. Because you know, your first reaction would be that "Well, okay, when the recipient clicks the link, they're gonna make an HTTP request. Their browser is gonna make an HTTP request, and that's gonna contain the key in it", so obviously our server would get that request and can look at the key. That's what you'd think. But we're using the hash part of the URL, which is the pound sign, or hash symbol, and we put the key after that symbol. What that means is that that's never sent to the server. It's funny, any time any app - it's not just Wormhole, this is not a thing we invented, but it's a common technique when you wanna make any kind of app that deals with security, you can put the key into that part of the URL... And it's totally abusive what that originally was meant for; that part of the URL was meant for scrolling the user down to a certain part of the page.
+**Feross Aboukhadijeh:** Yeah, it's a great question. Because you know, your first reaction would be that "Well, okay, when the recipient clicks the link, they're gonna make an HTTP request. Their browser is gonna make an HTTP request, and that's gonna contain the key in it", so obviously our server would get that request and can look at the key. That's what you'd think. But we're using the hash part of the URL, which is the pound sign, or hash symbol, and we put the key after that symbol. What that means is that that's never sent to the server. It's funny, any time any app - it's not just Wormhole, this is not a thing we invented, but it's a common technique when you wanna make any kind of app that deals with security, you can put the key into that part of the URL... And it's totally an abuse of what that originally was meant for; that part of the URL was meant for scrolling the user down to a certain part of the page.
 
 Usually, the way it works is the browser makes the request for the URL without everything that comes after the hash sign, and then once the page is loaded, then it looks for an element with an ID that has the same name as the part after the hash symbol, and then it scrolls the user to that part of the page. So it's a way to sort of jump -- it's like an anchor link thing, but it's really handy for creating apps where you want to have some piece of data that is accessible only on the client-side, and not sent to the server.
 
@@ -68,7 +68,7 @@ In the case of using Dropbox, they have the key. So it's good that they're locki
 
 This was a real bug for like four hours. You could just get into any account. Rumor has it - I'm not sure this is actually true, but someone who had a friend who worked at Dropbox (so it's very through the rumor mill at this point) told me that it may have been Drew Houston himself that committed that bug...
 
-**Jerod Santo:** \[unintelligible 00:12:01.28\]
+**Jerod Santo:** That would \[unintelligible 00:12:01.28\] poetic-
 
 **Adam Stacoviak:** That makes a good story at least, even if it's not true.
 
@@ -146,7 +146,7 @@ So to help people who have terrible passwords, they combine that with a secret k
 
 **Feross Aboukhadijeh:** Yeah. And then the problem with that is --
 
-**Jerod Santo:** It's like your passwords \[unintelligible 00:25:11.28\]
+**Jerod Santo:** It's like your password's a salt \[00:25:11.28\]
 
 **Feross Aboukhadijeh:** Yeah, exactly. Your password is just an extra little bit of fluff at the end of the true password, which is the key... But then you have the other problem, which is that users can't remember the key, so that the app remembers it the first time you type it in, and then you just use your password as a practical day-to-day unlock of the app. So it's a really cool design. It kind of solves all the problems that you would worry about with the cloud service.
 
@@ -170,11 +170,11 @@ My general thoughts are if it's good enough for 1Password, it's probably gonna b
 
 **Feross Aboukhadijeh:** Yeah. Fun fact - we're actually a PWA right now, so that means if you're using the right browser, you can install Wormhole as an app on your computer... And if you're doing it on the right platform - because it's not on all the platforms yet - then you can...
 
-**Jerod Santo:** A lot of if's...
+**Jerod Santo:** \[laughs\] A lot of if's...
 
 **Feross Aboukhadijeh:** Yeah, I know. You can right-click and select Share on Wormhole and it'll actually do what you described.
 
-**Jerod Santo:** Cool.
+**Jerod Santo:** Oh cool.
 
 **Feross Aboukhadijeh:** Right now if you're on Android and you install Wormhole as an app to your homescreen on Android, that means it'll get added to the Share menu. So anywhere on Android, if you have a file, you can get a Wormhole link from it in a couple taps.
 
@@ -204,7 +204,7 @@ You'd think a test would catch this. A basic test, like "Does it work?" Anyway, 
 
 **Adam Stacoviak:** Gosh...
 
-**Nick Nisi:** \[unintelligible 00:31:57.03\]
+**Nick Nisi:** \[00:31:57.03\] I'm running the beta so...
 
 **Jerod Santo:** It's not even out yet...
 
@@ -212,7 +212,7 @@ You'd think a test would catch this. A basic test, like "Does it work?" Anyway, 
 
 **Jerod Santo:** Yeah. Well, don't run betas...
 
-**Adam Stacoviak:** I've heard, but I have not seen personally myself \[unintelligible 00:32:05.13\]
+**Adam Stacoviak:** I've heard, but I have not seen personally myself the tab snafu \[ 00:32:05.13\]
 
 **Jerod Santo:** \[00:32:07.15\] I'm just hoping it's fixed by the time the thing ships. Well, don't get me started on Apple Podcasts, because they've completely destroyed podcasts, and there's a bug in iOS 14.6 which destroyed downloads for every podcaster in June, and up to now, because they haven't released the fix for it. They've confirmed the bug; it basically breaks downloads, so a bunch of our listeners just aren't getting our shows, and... It may get fixed someday soon, real soon...
 
@@ -252,7 +252,7 @@ But I would argue the true security in iOS doesn't come from Apple reviewing thi
 
 **Nick Nisi:** Yeah.
 
-**Feross Aboukhadijeh:** And also, just deciding -- like, if they want to use the web as their defense against why they're not a monopoly, then they should make sure that the web has all the features that the native platforms have, or else it's not a true defense. That's not really a think that the WebKit engineers can decide; it's more of like an Apple strategy thing, but...
+**Feross Aboukhadijeh:** And also, just deciding -- like, if they want to use the web as their defense against why they're not a monopoly, then they should make sure that the web has all the features that the native platforms have, or else it's not a true defense. That's not really a thing that the WebKit engineers can decide; it's more of like an Apple strategy thing, but...
 
 **Adam Stacoviak:** Right. Well, at least they can petition. If they care about their jobs, and what they're doing, and they have enough passion, they can either keep doing it under that guise, or fight back and say "Listen, this is the way we have to really open up the opportunities for web on iOS." There's a choice there.
 
@@ -264,7 +264,7 @@ But I would argue the true security in iOS doesn't come from Apple reviewing thi
 
 **Adam Stacoviak:** I think the reason why you got into this position though, with this "rant" as you said, is because we're speculating about the future possibilities of Wormhole, right? We got there by talking about the opportunities of files, and iOS, and that kind of thing, so that led us down that road of talking about the different ways you can utilize Wormhole on an Android device, install it as an app, and the features you get from that... Or the flipside, iOS. That's where I think we're at.
 
-And any entrepreneur is gonna have some speculation about the future of the thing they're building, and Jerod's question to you was "Why are you doing this?" And then Nick and I asked you what's the long-term of Wormhole - is it gonna be Dropbox-like, is it gonna be \[unintelligible 00:38:44.02\] So I think these are all valid concerns, because someone like you who in my opinion seems so forward-thinking about the technologies that power the web, you're gonna wanna push the boundaries. And if you can't push the boundaries on one of those prevalent platforms out there, then you're gonna not do it. And that's not innovation.
+And any entrepreneur is gonna have some speculation about the future of the thing they're building, and Jerod's question to you was "Why are you doing this?" And then Nick and I asked you what's the long-term of Wormhole - is it gonna be Dropbox-like, is it gonna be drive-driven, so how are you going to do that technically. \[\00:38:44.02\] So I think these are all valid concerns, because someone like you who in my opinion seems so forward-thinking about the technologies that power the web, you're gonna wanna push the boundaries. And if you can't push the boundaries on one of those prevalent platforms out there, then you're gonna not do it. And that's not innovation.
 
 **Feross Aboukhadijeh:** Yeah, it's definitely holding back innovation, that's for sure. I still have an iPhone, which I'm -- I don't know...
 
@@ -300,7 +300,7 @@ And any entrepreneur is gonna have some speculation about the future of the thin
 
 So when you use the WebTorrent library, this is an implementation of BitTorrent. The key idea about how that works is you take a file or a set of files and you wanna produce this torrent file, which is basically a metadata file. And what's in there is a list of the filenames, and then their hashes, effectively; a hash of each of the files is a way to think about it. And what's cool about that is that means now I can share this metadata file with people, and they can now accept file pieces from anybody, and then reconstruct them together on their computer, hash the file, and then compare it to the hash that they were expecting, and then if it's the same, then they know that they got the file they wanted. And they don't have to trust the person sending them the file.
 
-\[00:44:22.29\] So we use that for the file transfer part of Wormhole. That means when you send that link out to somebody, that share link, they're actually downloading the file pieces from your browser and using the \[unintelligible 00:44:33.20\] protocol under the hood. That means you get nice behavior swarming. So if you have 3-4 people trying to download at the same time, then the downloaders can actually share the partial file pieces with each other, and that all just comes for free from using WebTorrent. So that makes it faster. It means that you're not the bottleneck as the uploader, sending the same file five times to five people. You can send this piece to that person, another piece to this other person, and then they can share amongst themselves, which is another nice little performance benefit.
+\[00:44:22.29\] So we use that for the file transfer part of Wormhole. That means when you send that link out to somebody, that share link, they're actually downloading the file pieces from your browser and using the whole \[unintelligible 00:44:33.20\] bittorrent protocol under the hood. That means you get nice behavior swarming. So if you have 3-4 people trying to download at the same time, then the downloaders can actually share the partial file pieces with each other, and that all just comes for free from using WebTorrent. So that makes it faster. It means that you're not the bottleneck as the uploader, sending the same file five times to five people. You can send this piece to that person, another piece to this other person, and then they can share amongst themselves, which is another nice little performance benefit.
 
 So that's WebTorrent... And then we layer on top the end-to-end encryption. So what we do is before we put the files into WebTorrent, before we create that torrent file, we have to end-to-end encrypt the file using a key that we generate on your device. So for that, we use the WebCrypto API, which is this built-in browser API that lets you do things like generate keys, make secure random numbers, hash things - all that stuff is just built into the browser. We implemented this streaming encryption, and that was based off of the Firefox Send design; we just sort of copied -- they made an RFC and explained how this thing works, and we sort of just said "Oh, that's great. That's exactly what we want." So we implemented the same RFC that we published. And it's streaming, which means that we don't need to have the entire files in memory in one big buffer in order to work on the file... So what we can do is we can actually read it in a little bit at a time from your drive, and then encrypt it as we go. So there's this huge pipeline that's going on.
 
@@ -346,11 +346,11 @@ So maybe it gets some data from these peers, and then it sees "Oh, these peers a
 
 **Jerod Santo:** That's a pretty cool feature. So take us to the receiving end now... You went to wormhole.app, you put a file on there, you got your URL immediately... Let's say it's a 10-gig file, max file size. So you're sitting there, you're still uploading it, but you sent me that link right away. I go post that link into my browser... What do I see? "Stand by" or "Downloading in progress."
 
-**Feross Aboukhadijeh:** Yeah, yeah, so the first thing is that the URL contains two pieces. It contains the room ID (is what we call it). It's just the ID for the files \[unintelligible 00:51:46.00\] and then it contains that secret key that's not sent to the server. So you make a request to the server for that room ID, it tells you "Yeah, there's a room here, but I'm not gonna tell you anything about the room until you prove that you have the key."
+**Feross Aboukhadijeh:** Yeah, yeah, so the first thing is that the URL contains two pieces. It contains the room ID (is what we call it). It's just the ID for the files (the data that contains the files) \[00:51:46.00\] and then it contains that secret key that's not sent to the server. So you make a request to the server for that room ID, it tells you "Yeah, there's a room here, but I'm not gonna tell you anything about the room until you prove that you have the key."
 
 \[00:52:00.07\] Even though everything, like I said, is end-to-end encrypted, you could imagine -- we could have designed it so like if you show up and you say "Hey, I know there's a room with this ID. Give me the files for it, please." We could have just said "Sure, here you go", because we know they're encrypted. We're not worried about your data getting out there.
 
-We don't wanna even give the copy, even of the encrypted files, out to random people, so we add this extra layer of security where you as a downloader take the secret key that's in the URL up there, you take that and you derive a new key from it. So this is a way \[unintelligible 00:52:28.03\] and make a sub-key, and -- how do I describe it...? Basically, all you need is that main key, and then you can always get to this sub-key. You can always deterministically produce the same sub-key. But given the sub-key, you can't go back to the master key. So what you do is --
+We don't wanna even give the copy, even of the encrypted files, out to random people, so we add this extra layer of security where you as a downloader take the secret key that's in the URL up there, you take that and you derive a new key from it. So this is a way to sort of take a key \[00:52:28.03\] and make a sub-key, and -- how do I describe it...? Basically, all you need is that main key, and then you can always get to this sub-key. You can always deterministically produce the same sub-key. But given the sub-key, you can't go back to the master key. So what you do is --
 
 **Jerod Santo:** The one-way hash kind of thing...
 
@@ -380,13 +380,13 @@ So what that means is we're not gonna answer anyone's API requests unless they a
 
 **Jerod Santo:** Because that's how I would do it.
 
-**Feross Aboukhadijeh:** Yeah, it checks every five seconds to see if -- this is another limitation from using torrents that we're gonna work around once we switch to something that's custom... But right now, like I said, we need that full meta-data file, we need that torrent file in order to start doing anything, because that's just how torrents work. You need to kind of have that; it tells you how to make requests and how to validate \[unintelligible 00:55:20.23\] is what you expected... So the downloader is sitting there, waiting for that encryption process to finish on the uploader's side. So it needs to fully read everything and encrypt it. And that shouldn't take that long. It takes maybe a minute at most if it's ten gigs... So it's not too bad. But during that time that the downloader is just sitting there waiting for -- the nice thing is the link works; they can click the link. They don't have to worry about "Oh, the link isn't ready" or something. The link is ready, it's just - the browser is gonna sit there, waiting for that torrent file.
+**Feross Aboukhadijeh:** Yeah, it checks every five seconds to see if -- this is another limitation from using torrents that we're gonna work around once we switch to something that's custom... But right now, like I said, we need that full meta-data file, we need that torrent file in order to start doing anything, because that's just how torrents work. You need to kind of have that; it tells you how to make requests and how to validate that the file you've got back \[00:55:20.23\] is what you expected... So the downloader is sitting there, waiting for that encryption process to finish on the uploader's side. So it needs to fully read everything and encrypt it. And that shouldn't take that long. It takes maybe a minute at most if it's ten gigs... So it's not too bad. But during that time that the downloader is just sitting there waiting for -- the nice thing is the link works; they can click the link. They don't have to worry about "Oh, the link isn't ready" or something. The link is ready, it's just - the browser is gonna sit there, waiting for that torrent file.
 
 \[00:55:49.08\] Once it's available, then the server provides it to them, and then they decrypt it locally, using the master key that they have... And now they can look inside and be like "Oh, these are the files I'm gonna download." So at that point we can show the user in the UI the list of files they're gonna be able to download. At that point, they can also start to connect to the sender using WebTorrent. So it's a peer-to-peer connection; they can connect directly to them and start to download stuff. Meanwhile, the uploader is still maybe uploading stuff into the cloud, but who cares, because we're connected directly to the person with the files and we can just get whatever we want right away.
 
 **Adam Stacoviak:** The cloud is just the backup in that case, right? It's just meant to be -- once it's fully uploaded, if that peer goes down, then the cloud becomes the primary.
 
-**Feross Aboukhadijeh:** Exactly, yeah. And then all the requests that the downloader makes from the seeder are all for encrypted data, so the data needs to be decrypted as it comes out of the torrent. So everything inside there is also encrypted, so you've gotta basically feed it through that -- there's a decryption stream that decrypts the data. And we support decrypting at any point too, which is really cool. That means that we can have a video tag on a page, and if you seek halfway through the video, that causes WebTorrent to realize "Oh, we don't need the pieces at the beginning. We need the pieces at the middle." And your browser will make requests for those pieces that \[unintelligible 00:57:11.03\] and it will get the encrypted data, and then \[unintelligible 00:57:14.06\] is halfway through the encrypted file, and yet we can still figure out how to decrypt that based on how it's designed.
+**Feross Aboukhadijeh:** Exactly, yeah. And then all the requests that the downloader makes from the seeder are all for encrypted data, so the data needs to be decrypted as it comes out of the torrent. So everything inside there is also encrypted, so you've gotta basically feed it through that -- there's a decryption stream that decrypts the data. And we support decrypting at any point too, which is really cool. That means that we can have a video tag on a page, and if you seek halfway through the video, that causes WebTorrent to realize "Oh, we don't need the pieces at the beginning. We need the pieces at the middle." And your browser will make requests for those pieces that it knows that the video tag needs \[00:57:11.03\] and it will get the encrypted data, and then encrypted data \[00:57:14.06\] is halfway through the encrypted file, and yet we can still figure out how to decrypt that based on how it's designed.
 
 **Adam Stacoviak:** Interesting.
 
@@ -410,7 +410,7 @@ So what that means is we're not gonna answer anyone's API requests unless they a
 
 So then they ask for a better quality one, and then they need a way for the video tag to sort of stitch the different qualities together. This is called a media source API, and it's just designed to let these services basically do this thing where you can kind of take different mp4 files and sort of make them seamlessly play as if they were one, even though the details of the files are changing, the resolution is changing, the quality is changing...
 
-\[01:00:01.21\] So that's one way we could do it. We could have done that, and use that same API to get these blobs of video data and then feed them into the video tag with an API, where we just say "Here's the next piece, here's the next piece..." But the problem with that API is that it expects the files to be in a very specific format. You have to produce the mp4 files in a very specific way, with specific options that you pass to FFmpeg or whatever you're using to make your videos... And most files that you find on the internet, like random videos that run on your computer, are not gonna be designed in this specific way for streaming... So that means that if we're trying to use this approach, it kind of fails.
+\[01:00:01.21\] So that's one way we could do it. We could have done that, and use that same API to get these blobs of video data and then feed them into the video tag with an API, where we just say "Here's the next piece, here's the next piece..." But the problem with that API is that it expects the files to be in a very specific format. You have to produce the mp4 files in a very specific way, with specific options that you pass to FFmpeg or whatever you're using to make your videos... And most files that you find on the internet, like random videos that run on your computer, are not gonna be designed in this specific way for streaming... So that means that if we try to use this approach, it kind of fails.
 
 So that's why what we need to do is we wanna use the first approach, where we just do "video source =" and then an HTTP URL, because then the browser can just sort of treat it like any other file that it finds on the internet, it can just sort of make requests for different parts of it, and then all we've gotta do is be the service worker and just intercept those requests and be like "Here's the data you need." And then we don't have to do anything special - we don't have to convert your file, we don't have to process it, we don't have to tell you we can't play that kind of file... So we can support anything the video tag supports, even like mkv's and weird .mov, .whatever, all the different extensions that the video tag supports. We don't have to have special code to process different types of files, or anything like that.
 
