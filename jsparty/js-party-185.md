@@ -146,7 +146,7 @@ So to help people who have terrible passwords, they combine that with a secret k
 
 **Feross Aboukhadijeh:** Yeah. And then the problem with that is --
 
-**Jerod Santo:** It's like your passwords' a salt \[00:25:11.28\]
+**Jerod Santo:** It's like your password's a salt \[00:25:11.28\]
 
 **Feross Aboukhadijeh:** Yeah, exactly. Your password is just an extra little bit of fluff at the end of the true password, which is the key... But then you have the other problem, which is that users can't remember the key, so that the app remembers it the first time you type it in, and then you just use your password as a practical day-to-day unlock of the app. So it's a really cool design. It kind of solves all the problems that you would worry about with the cloud service.
 
