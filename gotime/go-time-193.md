@@ -78,7 +78,7 @@ The module system was a huge improvement over previous plugins, because modules 
 
 **Jon Calhoun:** I guess, sort of... I guess what I'm trying to figure out is it seems like in your case during a complete rewrite was the right choice, and it worked really well for you. But I've also seen several cases where companies, especially startups, will have a pretty rough version, and they'll be like "We're gonna rewrite this." And in some ways, it kind of ends up being the death of them, because getting that v2 out and getting through that phase where they're not releasing as much can be really detrimental... And I think as developers we tend to underestimate how much work it is to rewrite something... So trying to figure out whether it's worth it or not I guess is the type of advice I'm looking for.
 
-**Matt Holt:** \[00:16:02.26\] Yeah, I mean - I think if you can ship it, it's good. It doesn't have to be perfect; just get something out the door. v2 was in beta for almost a year, or like pre-beta \[unintelligible 00:16:11.21\] for about a year. We had like a month or two of release candidates, and then version 2.1, 2.2 came pretty quickly after that. We're on 2.4 now, and it's very close to feature complete, as far as I can tell... But yeah, just ship what you can when you get done, as you get it done; let people be involved and give you feedback, and form it into a really good product.
+**Matt Holt:** \[00:16:02.26\] Yeah, I mean - I think if you can ship it, it's good. It doesn't have to be perfect; just get something out the door. v2 was in beta for almost a year, or like pre-beta must have been for about a year. We had like a month or two of release candidates, and then version 2.1, 2.2 came pretty quickly after that. We're on 2.4 now, and it's very close to feature complete, as far as I can tell... But yeah, just ship what you can when you get it done, as you get it done; let people be involved and give you feedback, and form it into a really good product.
 
 There were a lot of decisions in v2 where I was like "Well, this could kind of go either way. I don't know what's best. I'm just gonna choose one, put it out there, and see what people say." It's in beta, you can do what you want, you can change it... So that was really helpful in shipping a new major version.
 
@@ -130,7 +130,7 @@ It's tricky, because a lot of people will report bugs or issues that are fixed a
 
 But yeah, it's definitely a challenge, and I wish people would update their web servers more often.
 
-**Jon Calhoun:** I can say from my experience, most of my stuff when it falls out of date, it's usually like some small -- the server I mentioned earlier, that basically didn't get updated until it stopped working with the SSL certs, all it was was a URL shortener; so it was \[unintelligible 00:26:21.23\] expand into something else... And it was just something I threw together really quick; it was maybe 200 lines of code. And it had just been up and running because I didn't do much with it, and I occasionally would throw some different URLs in there, but I didn't do much.
+**Jon Calhoun:** I can say from my experience, most of my stuff when it falls out of date, it's usually like some small -- the server I mentioned earlier, that basically didn't get updated until it stopped working with the SSL certs, all it was was a URL shortener; so it was a short path that would expand into something else... And it was just something I threw together really quick; it was maybe 200 lines of code. And it had just been up and running because I didn't do much with it, and I occasionally would throw some different URLs in there, but I didn't do much.
 
 So I do agree with you that auto-updating is -- in an ideal world, auto-updating that worked would be amazing. I can imagine that that's a very complicated task, especially -- like, you have enterprise customers, and I can imagine that's terrifying for them to think something is changing from out under their feet and they don't have control over it.
 
@@ -138,7 +138,7 @@ So I do agree with you that auto-updating is -- in an ideal world, auto-updating
 
 **Jon Calhoun:** Yeah...
 
-**Matt Holt:** And if your web browser \[unintelligible 00:26:57.26\] then you still can't get anything done, you know?
+**Matt Holt:** And if your web browser works then you still can't get anything done, you know?
 
 **Jon Calhoun:** I could just see it being different just because it's on their server. You never really know what's going on... But I don't know, in my mind it's a slightly different beast, but it's a similar problem.
 
@@ -250,13 +250,13 @@ So you just kind of look at those angles, and... But I would like to see open so
 
 **Matt Holt:** Yeah, so we're at 2.4 now... In 2.4 we released remote management, like remote admin endpoint. You configure the admin endpoint through which you manage Caddy configuration and other kind of administrative things. You can asset that up to be securely accessed remotely, so over a TLS connection that's mutually authenticated... And that's really nice. That lays the groundwork for what I've been working on and designing lately, which is kind of a hosted management UI.
 
-\[00:48:19.22\] This has been kind of a dream for 5 or 6 years, where you can log into a website and manage your Caddy instances... So I've been seriously designing that and started working on that now, in the last couple months. It's a bit slow-going... A little slower than designing Caddy 2, where I could kind of drop Caddy 1 on the floor and focus all my attention on designing Caddy 2... Here I can't just drop Caddy 2 on the floor. I have to keep maintaining it, I have to keep evolving the community and such... So it's going a little slower, but the idea is that you'll be able to log into the Caddy website and view your instances there and manage their configuration, and there's lots of cool possibilities there that I won't get into right here... But \[unintelligible 00:49:00.28\] take advantage of these new remote management capabilities. So you can deploy your Caddy instances with a certain static config, with some credentials in it, I guess... And you deploy that and it will just kind of show up in your Caddy dashboard and you can manage it there.
+\[00:48:19.22\] This has been kind of a dream for 5 or 6 years, where you can log into a website and manage your Caddy instances... So I've been seriously designing that and started working on that now, in the last couple months. It's a bit slow-going... A little slower than designing Caddy 2, where I could kind of drop Caddy 1 on the floor and focus all my attention on designing Caddy 2... Here I can't just drop Caddy 2 on the floor. I have to keep maintaining it, I have to keep evolving the community and such... So it's going a little slower, but the idea is that you'll be able to log into the Caddy website and view your instances there and manage their configuration, and there's lots of cool possibilities there that I won't get into right here... But we're gonna take advantage of these new remote management capabilities. So you can deploy your Caddy instances with a certain static config, with some credentials in it, I guess... And you deploy that and it will just kind of show up in your Caddy dashboard and you can manage it there.
 
 **Jon Calhoun:** Awesome. I'm looking forward to seeing that whenever it's released. Alright, so we're gonna more to the Unpopular Opinion...
 
 **Jingle**: \[00:49:26.03\] to \[00:49:43.01\]
 
-**Jon Calhoun:** So the way this usually works is you share an unpopular opinion, preferably in a bite-sized version that they can throw on Twitter and have a poll for... And then they do the poll, and if it's popular, then you have to come back on the show. So you're looking for unpopular, without \[unintelligible 00:49:58.08\]
+**Jon Calhoun:** So the way this usually works is you share an unpopular opinion, preferably in a bite-sized version that they can throw on Twitter and have a poll for... And then they do the poll, and if it's popular, then you have to come back on the show. So you're looking for unpopular, without everybody hating you.
 
 **Matt Holt:** Okay. Like I said, all my opinions are unpopular, but I'll give you one that's been on my mind, because it keeps coming up all the time... And that is that your server's request per second doesn't matter in 2021.
 
@@ -294,7 +294,7 @@ So you have to hash it with a secure hash, like bcrypt, which is slow. So you ge
 
 **Matt Holt:** Yeah. I mean, if NGINX is getting 100,000 per second and Caddy is getting 75,000 per second - "Oh, NGINX is clearly better." Okay... That's fine if you need 100,000 requests per second and no memory safety. Go for it.
 
-**Jon Calhoun:** I think the other hard part is I don't think anybody has ever built a web server \[unintelligible 00:55:37.00\] Caddy, or really anything. It's rare to build one that doesn't end up slowing it down more than the web server itself...
+**Jon Calhoun:** I think the other hard part is I don't think anybody has ever built a web server that's running behind Caddy, or really anything. It's rare to build one that doesn't end up slowing it down more than the web server itself...
 
 **Matt Holt:** Yeah.
 
