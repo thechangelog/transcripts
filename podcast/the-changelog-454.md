@@ -90,7 +90,7 @@ It's been five years, it's probably still the most used software in the world, m
 
 **Jerod Santo:** Right.
 
-**Richard Hipp:** I wish \[unintelligible 00:07:47.13\] I mean, we do have a lot of public tests that are out there, that are public domain as well, but some of our test code is proprietary. Some of it.
+**Richard Hipp:** I wish I could say I thought of this. I mean, we do have a lot of public tests that are out there, that are public domain as well, but some of our test code is proprietary. Some of it.
 
 **Adam Stacoviak:** Why is that? Because it was paid for by somebody?
 
@@ -156,7 +156,7 @@ So we've kept the business small. It's not a promise, but we wanna support SQLit
 
 **Richard Hipp:** Or a month, or whatever, yeah.
 
-**Jerod Santo:** So how big is the company? How many people are working on this support contract \[unintelligible 00:10:58.27\]
+**Jerod Santo:** So how big is the company? How many people are working on this support contract supporting...
 
 **Richard Hipp:** I've got three guys working on it with me right now.
 
@@ -214,11 +214,11 @@ So we've kept the business small. It's not a promise, but we wanna support SQLit
 
 **Jerod Santo:** Yeah, you can't go back and fork your life at that point. You can't just run both tracks and see which one worked out better, but...
 
-**Richard Hipp:** No, everything's worked out really well. We've been able to solve a lot of problems for a lot of people, and it's been just an amazing journey. One of the great things is that I've been able to go out and visit so many different companies and so many different cultures and see so many different styles of development... It's really been an eye-opener. I would have never imagine that there was such a diversity of corporate cultures and development styles out there.
+**Richard Hipp:** No, everything's worked out really well. We've been able to solve a lot of problems for a lot of people, and it's been just an amazing journey. One of the great things is that I've been able to go out and visit so many different companies and so many different cultures and see so many different styles of development... It's really been an eye-opener. I would have never imagined that there was such a diversity of corporate cultures and development styles out there.
 
 **Adam Stacoviak:** \[00:15:54.00\] Jerod mentioned Litestream and Ben Johnson... What are your thoughts on that in particular? This idea that you can -- using the replication process of SQLite, and doing what he's done with that... What are your thoughts on Ben's project in particular?
 
-**Richard Hipp:** I think it's an interesting idea. Dan (one of the other developers) and I had a \[unintelligible 00:16:14.01\] conversation with Dan at one point, and we really appreciate what he's doing. He's not the only one doing that, let me say... There are other groups that are working on that as we speak.
+**Richard Hipp:** I think it's an interesting idea. Dan (one of the other developers) and I had a Jitsi conversation with Dan at one point, and we really appreciate what he's doing. He's not the only one doing that, let me say... There are other groups that are working on that as we speak.
 
 I think it's a great idea, and I really applaud him doing it. Whether or not he gets traction and takes off - I can't predict. I just don't know. I wanna keep what we're doing here with us focused on the database for the edge of the network. I don't personally wanna get involved with making it massively-scalable like that. I think it's a great thing, it's a very important problem that needs to be solved, but just what we have now is enough to keep us busy. And if I try and take on too much, we would lose focus and start making mistakes. You have to find the right balance here, and right now SQLite is pushing the limits of what a small team like this can reasonably control. To go further, I would no longer be able to understand everything that's in the code, and we'd have to start delegating, and who knows where that might lead. I don't think that I would be very good at that, and I don't think that I would enjoy that, so we're not gonna do that.
 
@@ -378,9 +378,9 @@ I got lucky that worked out well in the end, because having control of your own 
 
 **Adam Stacoviak:** Is there anything you've learned though along this journey? You've mentioned writing your own software. It may not be what everyone else might do, but is there any lessons you've learned in particular writing this web server, that you've been able to apply to SQLite, or to Fossil, which we'll talk about? What have you learned doing it that may be a lesson that you wouldn't have learned otherwise?
 
-**Richard Hipp:** You know, I can't point to specific lessons. I do find that it does work well to control your own tools. If you do a diff between Althttpd and the web server that's built into Fossil, you'll find a lot of commonality there, because \[unintelligible 00:31:23.00\] heavily between the two. But what I've found is that when you control your own tools, you can go further and do things that you can't do if you're depending on somebody else for your tools. And I won't use Althttpd as the example, but rather Lemon, the parser generator that I use in SQLite. Most people when they're doing a language parser, they'll bring up Yacc or Bison. But I'd written my own version back in the 1980's, because I was dissatisfied with the interface for Yacc... And I used that for SQLite. \[unintelligible 00:32:01.05\] for open source for a long time and nobody noticed it until it appeared in SQLite. But by using Lemon as the parser generator, I was able to add new features to Lemon to support language features in SQLite that would just not be possible to do with Yacc.
+**Richard Hipp:** You know, I can't point to specific lessons. I do find that it does work well to control your own tools. If you do a diff between Althttpd and the web server that's built into Fossil, you'll find a lot of commonality there, because I borrowed heavily between the two. But what I've found is that when you control your own tools, you can go further and do things that you can't do if you're depending on somebody else for your tools. And I won't use Althttpd as the example, but rather Lemon, the parser generator that I use in SQLite. Most people when they're doing a language parser, they'll bring up Yacc or Bison. But I'd written my own version back in the 1980's, because I was dissatisfied with the interface for Yacc... And I used that for SQLite. And I had had it out there for open source for a long time and nobody noticed it until it appeared in SQLite. But by using Lemon as the parser generator, I was able to add new features to Lemon to support language features in SQLite that would just not be possible to do with Yacc.
 
-\[00:32:21.01\] For example, we've just recently in SQLite added the "materialized" keyword. But suppose there's somebody with a schema out there and they've got a column named materialized. If that became a proper keyword, then suddenly when they try to read their database \[unintelligible 00:32:38.19\] it wouldn't be able to parse the schema because it was using a keyword as the column name. That wouldn't work.
+\[00:32:21.01\] For example, we've just recently in SQLite added the "materialized" keyword. But suppose there's somebody with a schema out there and they've got a column named materialized. If that became a proper keyword, then suddenly when they try to read their database in it wouldn't be able to parse the schema because it was using a keyword as the column name. That wouldn't work.
 
 So we have this feature in Lemon so that if it sees a keyword in a context where it thinks it needs an identifier, and it can't use the keyword there, it will change the keyword into an identifier and use it as an identifier. You can't do stuff like that in Yacc, but because we control the parser generator, we can pull little tricks like that and maintain backwards compatibility.
 
@@ -388,7 +388,7 @@ And we were also able to optimize the code generated by that parser generator so
 
 **Adam Stacoviak:** I like that principle, because something I've learned over the years is certain jobs require certain tools, basically... And it's kind of what you're saying, but sometimes when you have the right tool, hard jobs become easy. And if you control your tool, then you can have the right tool to make a hard job easy, essentially.
 
-**Richard Hipp:** Sure. Think back years ago, the concept of \[unintelligible 00:33:45.22\] they could make their own machinery and they could out-compete. If you had to buy your machinery from somebody else and it just came as is, you had to make do with whatever they had. But if you can make your own tools, you can fine-tune your processes and outcompete.
+**Richard Hipp:** Sure. Think back years ago, I mean, the concept of a tool and die maker. You know, companies that had a big staff of tool and die makers they could make their own machinery and they could out-compete. If you had to buy your machinery from somebody else and it just came as is, you had to make do with whatever they had. But if you can make your own tools, you can fine-tune your processes and outcompete.
 
 **Adam Stacoviak:** Well, it's not just the market being able to offer the tooling too, it's all the effort that goes into it. Survey the options, evaluate the options, test the options, deploy the options, maintain the options. And then if that thing doesn't suit a future need, re-evaluate the options and rinse and repeat the thing.
 
@@ -478,7 +478,7 @@ On the other hand, I'm unwilling to say anything bad about CVS, because I had to
 
 \[00:40:06.26\] I had been doing some work on SQLite with some avionics companies, and I'd come to understand this quality standard called DO-178B. This is a quality standard used in avionics, and I thought "Well, I'm gonna apply this to SQLite." And part of the DO-178B standard is version control, or source control management. And I looked at the requirements that they had, and in my opinion - which doesn't really count for much, but my opinion was that neither Git nor Mercurial really filled the bill here. And I thought "Well, I'm gonna do my own."
 
-The other one that had influenced me was called Monotone. And Monotone, if you've never heard of it, as far as I know, it was the first version control system that was Git-like in the sense that it used SHA-1 hashes to name everything... And I was influenced by Monotone as well. But I wanted a version control system that would work easily from behind a shared hosting environment. This was before the age of ubiquitous virtual private servers. Back then, when you wanted to lease space on a server, they just gave you a shell account and you had your home directory and you put your stuff in your \[unintelligible 00:41:24.21\] And they ran Apache for you, and it just pointed to your directory, and did its thing.
+The other one that had influenced me was called Monotone. And Monotone, if you've never heard of it, as far as I know, it was the first version control system that was Git-like in the sense that it used SHA-1 hashes to name everything... And I was influenced by Monotone as well. But I wanted a version control system that would work easily from behind a shared hosting environment. This was before the age of ubiquitous virtual private servers. Back then, when you wanted to lease space on a server, they just gave you a shell account and you had your home directory and you put your stuff in your ~/bin. And they ran Apache for you, and it just pointed to your directory, and did its thing.
 
 So I wanted something that I could run out of a simple shared hosting account like that, and nothing was available... I wanted something that would meet the standards of DO-178B as I understood them, and there was nothing available, so I thought "Well, shoot, I'll just write my own." So I played around with it for a couple of years. I started working on it even before Git came out.
 
