@@ -2194,6 +2194,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "LucasVance",
+      "name": "Lucas Vance",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47468502?v=4",
+      "profile": "https://github.com/LucasVance",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
