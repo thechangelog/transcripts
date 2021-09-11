@@ -78,7 +78,7 @@ When I create a post on my website, then that also has a hook into my location d
 
 **Jerod Santo:** And your website is a wealth of things. I looked at the copyright, I think it was back to 1999... So I like this -- you have your hub, and everything else is just distribution or broadcasting into other spaces... But aaronparecki.com - that's yours, you own it, you can do whatever you want with it, you've built over time... A lot of us replace our website, but it seems like you've been adding new portions. So you can tie into this lifelong database of GPSes positioning and use it however you like. It's pretty cool.
 
-**Adam Stacoviak:** \[unintelligible 00:12:21.00\] Is that based on your phone, or what?
+**Adam Stacoviak:** Up at the top; is this accurate? The time of day for you, the battery life of your phone or something? And then your cloud? Like, what's the "partly cloudy where you're at, 60 degrees"? Is that based on your phone, or what?
 
 **Aaron Parecki:** \[00:12:33.15\] It's current. That's, again, tapped into that same location database. So my website always knows where I currently am, and whether I'm on a bike, or on a plane... And because it knows where I am, it knows my local time, and it knows the weather.
 
@@ -88,7 +88,7 @@ So I put that on my website as a way to be like "Oh, if you're trying to get in 
 
 **Jerod Santo:** You've made life really easy on a potential stalker. They would just be hooked up with all the tools they need, just to know exactly what you're up to.
 
-**Aaron Parecki:** I have thought of that, and I also definitely recognize that I am extremely privileged in that I am not likely to have a stalked, because I am not a woman on the internet...
+**Aaron Parecki:** I have thought of that, and I also definitely recognize that I am extremely privileged in that I am not likely to have a stalker, because I am not a woman on the internet...
 
 **Jerod Santo:** Right.
 
@@ -114,7 +114,7 @@ So if you want your website to be just a one-page thing about you and what you'r
 
 So for those, it's especially important - put that on your website and then use those platforms, like you're saying, to promote the thing that you wrote on your website and drive people to your own place online.
 
-**Adam Stacoviak:** \[00:20:02.01\] It's really great for a source of truth too, because if use your personal domain as the hub, and you broadcast to Twitter or somewhere else, and somehow in the middle there it changes - well, this is actually the source of truth. It reminds me of the very last episode of Silicon Valley, when he sent the message -- stop me if you've heard this one before, but... He sent a message and purposely put four dots in it, not three, which is a common ellipses. And somehow the AI in the middle there decided to compress it, which \[unintelligible 00:20:31.21\] turned that four-dot ellipses into a three-dot ellipses.
+**Adam Stacoviak:** \[00:20:02.01\] It's really great for a source of truth too, because if use your personal domain as the hub, and you broadcast to Twitter or somewhere else, and somehow in the middle there are changes - well, this is actually the source of truth. It reminds me of the very last episode of Silicon Valley, when he sent the message -- stop me if you've heard this one before, but... He sent a message and purposely put four dots in it, not three, which is a common ellipses. And somehow the AI in the middle there decided to compress it, which taught them how they subjected security, all these fun things, whatever; turned that four-dot ellipses into a three-dot ellipses.
 
 **Jerod Santo:** Oh, boy...
 
@@ -196,7 +196,7 @@ Then the third sort of -- I don't wanna call it a main flow, but the third flow 
 
 **Aaron Parecki:** Right, you can tap into multi-factor auth, you can tap into single sign-on to other systems that the TV doesn't even have to be aware of... Lots of benefits.
 
-**Jerod Santo:** So OAuth can handle that now. Another thing you mentioned in that post which I thought was interesting - it was kind of an aside - is that there's Justin \[unintelligible 00:34:36.00\] has this whole other idea... Transactional authorization. I don't know if that's still a thing. You say maybe eventually that'll be OAuth 3. Has that advanced, or is that still a thing, or what's the situation with that?
+**Jerod Santo:** So OAuth can handle that now. Another thing you mentioned in that post which I thought was interesting - it was kind of an aside - is that there's Justin Richer has this whole other idea... Transactional authorization. I don't know if that's still a thing. You say maybe eventually that'll be OAuth 3. Has that advanced, or is that still a thing, or what's the situation with that?
 
 **Aaron Parecki:** Yeah, there's been quite a lot of movement on that front since 2019. So the -- it was called transactional authorization in 2019 when Justin had originally proposed it, and since then there actually is a new working group formed at the IETF to take on that work... And it's been renamed since then, so now it's called GNAP. And don't even get me started on the naming...
 
@@ -374,7 +374,7 @@ If you have the ability to authenticate the client, then you absolutely should, 
 
 **Adam Stacoviak:** It's very fatiguing as a user to make my friends wait, or make my wife wait or whatever while login. It can be done sort of quickly, because I have a lot more identity and presence on my phone that secures me to it to know; then I can give that code back to the site.
 
-**Jerod Santo:** So you did it, you explained it to us without diagrams... I think you have diagrams somewhere, so let's not make this the only resource for people. Do you wanna learn the new OAuth 2 -- not the new, but the \[unintelligible 01:04:43.05\] listen to the third part of this one episode of the Changelog... No, there's other resources. Aaron, point us towards them. I think you have a book on OAuth 2 simplified, there's guides, there's cheat sheets... How can people visualize this and learn it on their own time?
+**Jerod Santo:** So you did it, you explained it to us without diagrams... I think you have diagrams somewhere, so let's not make this the only resource for people. Do you wanna learn the new OAuth 2 -- not the new, but the preferred OAuth things, you have to listen to the third part of this one episode of the Changelog... No, there's other resources. Aaron, point us towards them. I think you have a book on OAuth 2 simplified, there's guides, there's cheat sheets... How can people visualize this and learn it on their own time?
 
 **Aaron Parecki:** Yeah. I've got a lot of resources available. So the book that I wrote, OAuth 2 Simplified - it is at OAuth2Simplified.com. You can find links to purchase it there. The contents of the book are also on OAuth.com. That is the web-based version of the book. That website is sponsored by Okta. And I also have a video course about OAuth, and that's where we talk through step by step all the flows. There's a whole bunch of exercises in there to actually try the stuff out yourself as well. You can find the link to that one also at OAuth2Simplified.com. The OAuth course is called "The Nuts and Bolts of OAuth."
 
