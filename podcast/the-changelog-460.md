@@ -32,7 +32,7 @@
 
 **Jerod Santo:** I still call Adam out, because he uses the word "literally" non-literally... And it's just like "Jerod, give it up, man. You've lost that battle." \[laughter\]
 
-**Adam Jacob:** Yeah, it's over. \[unintelligible 00:04:29.28\]
+**Adam Jacob:** Yeah, it's over. It's bad it happened though.
 
 **Jerod Santo:** Literal does not mean literal anymore. You just have to live with it.
 
@@ -98,7 +98,7 @@ When I think about open source though, I don't think about companies, I think ab
 
 **Adam Stacoviak:** What about you, Jerod? What's your straight line?
 
-**Jerod Santo:** Yeah, I mean \[unintelligible 00:11:12.24\] just learning about Linux, and seeing my colleagues -- not colleagues; what do you call them in college?
+**Jerod Santo:** Yeah, I mean I mostly came out of college just learning about Linux, and seeing my colleagues -- not colleagues; what do you call them in college?
 
 **Adam Jacob:** Friends?
 
@@ -354,7 +354,7 @@ And venture capital people sometimes talk about those as like lifestyle business
 
 **Adam Jacob:** Maybe it is, yeah. I bet their highest-paying customers are all banks running WordPress instances for something...
 
-**Jerod Santo:** They're probably news organizations \[unintelligible 00:37:05.27\]
+**Jerod Santo:** They're probably news organizations I guess.
 
 **Adam Jacob:** Yeah, it could be.
 
