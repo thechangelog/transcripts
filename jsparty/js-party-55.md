@@ -26,7 +26,7 @@ We were not expecting the result, and as a result, the question was kind of vagu
 
 **Kevin Ball:** That is shocking.
 
-**Laurie Voss:** Yeah. I think the other -- it's not surprising \[unintelligible 00:04:47.25\] is the adoption of React. React is being used by 60% of people who use npm, and no framework has ever got that big before; no framework has got that level of adoption before. The biggest framework prior to that was Angular, which peaked at somewhere between a half and two-thirds of that usage. Angular is a huge framework, but nowhere near as popular as React is now... And part of that is that React isn't a framework, React is one part of a larger framework. It's a solution to Web Components that share state; and you can use them to build web apps, but you can also use them to build mobile apps, and you can also use them to build desktop apps, and I think that's part of why React is seeing such adoption, because people who are not working in the web space at all - they're just working JavaScript per se - are adopting React, and that's fueling React, because it has all of these bug fixes, and it has all of this extra quality that comes from a larger user base that's being pushed back into the web stack, even though there are more people using it than that. So that's a really interesting mechanism there; that decoupling, which is unique in the web frameworks that I'm familiar with, has been tremendously successful for them.
+**Laurie Voss:** Yeah. I think the other -- it's not surprising - except in its magnitude - it is the adoption of React. React is being used by 60% of people who use npm, and no framework has ever got that big before; no framework has got that level of adoption before. The biggest framework prior to that was Angular, which peaked at somewhere between a half and two-thirds of that usage. Angular is a huge framework, but nowhere near as popular as React is now... And part of that is that React isn't a framework, React is one part of a larger framework. It's a solution to Web Components that share state; and you can use them to build web apps, but you can also use them to build mobile apps, and you can also use them to build desktop apps, and I think that's part of why React is seeing such adoption, because people who are not working in the web space at all - they're just working JavaScript per se - are adopting React, and that's fueling React, because it has all of these bug fixes, and it has all of this extra quality that comes from a larger user base that's being pushed back into the web stack, even though there are more people using it than that. So that's a really interesting mechanism there; that decoupling, which is unique in the web frameworks that I'm familiar with, has been tremendously successful for them.
 
 **Kevin Ball:** That is really neat. One of the things I've been seeing is there's a lot of cross-talk across frameworks, in a way that there didn't necessarily use to be... Angular, React, Vue, Dojo - they've all kind of consolidated down to a bunch of best practices, and then they have kind of unique takes on those.
 
@@ -116,7 +116,7 @@ They didn't like the way that you have to put stuff together; like you said, it'
 
 **Laurie Voss:** Right.
 
-**Nick Nisi:** \[unintelligible 00:24:32.09\] was something that was proposed.
+**Nick Nisi:** E4X was something that was proposed.
 
 **Laurie Voss:** Right, yeah. I don't know if you ever used that.
 
@@ -166,7 +166,7 @@ So expressiveness is good, but it's not without downsides. I don't think adding 
 
 **Laurie Voss:** Right, right. Eventually, you end up with a Perl obfuscation contest, where like "Is it line noise or is it Perl?" \[laughter\]
 
-**Kevin Ball:** I heard a description of \[unintelligible 00:30:24.05\] as "It's a write-only language."
+**Kevin Ball:** I heard a description of most Perl as "It's a write-only language."
 
 **Laurie Voss:** Right. That's the problem with sufficient expressiveness - you can express anything, and no one can read it anymore.
 
