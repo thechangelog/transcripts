@@ -52,11 +52,11 @@ I have switched my schedule now to starting at 4 AM and getting off around noon,
 
 **Nick Nisi:** Technically, yeah...
 
-**Suz Hinton:** \[unintelligible00:07:52.16\]
+**Suz Hinton:** New shift, next shift
 
 **Nick Nisi:** \[00:07:57.05\] Right... \[laughter\]
 
-**Jerod Santo:** \[unintelligible 00:07:55.19\] the daytime shift... So one thing that's nice at least is we're not completely talking out of the air. All of us have extensive experience working from home, and have dealt with a lot of the challenges. There are benefits, there are drawbacks; as with anything in the world of software, it depends... So we thought we would talk a little bit about where we work, and then how we work, and then how we not work, and maybe some of the pros and cons, giving tips and tricks along the way, or sharing our experiences...
+**Jerod Santo:** Next shift, your going to start off the daytime shift... So one thing that's nice at least is we're not completely talking out of the air. All of us have extensive experience working from home, and have dealt with a lot of the challenges. There are benefits, there are drawbacks; as with anything in the world of software, it depends... So we thought we would talk a little bit about where we work, and then how we work, and then how we not work, and maybe some of the pros and cons, giving tips and tricks along the way, or sharing our experiences...
 
 I should also mention, a JS Party panelist that couldn't make it today, but also has extensive experience and has written about it is Chris Hiller. He has a great post which we'll put in the show notes called "Pro tips for devs working from home", which he spoke about as I think a pro tip on an episode of JS Party called "You don't have to dress up, but you do have to get dressed" I think is what it's called... Which, Kball, you were on that episode...
 
@@ -78,7 +78,7 @@ But for the kids, for them to understand - which we all just waved at Nick's dau
 
 **Nick Nisi:** \[00:11:54.14\] Yeah, that is a challenge. If you hear kids in the background, it's because I have no choice right now. They can't go anywhere, I can't go anywhere... \[laughter\] But we're all having fun together. I'm wearing Spiderman pajamas, she's wearing Spiderman pajamas, so... You know, we're having fun.
 
-**Kevin Ball:** Yeah. And once again, many folks who are being thrust right now into working from home, at the last minute, no ability to prepare or do anything like that... I've seen some pretty inventive setups. I saw somebody set up a standing desk where they had a cardboard area supported by \[unintelligible 00:12:26.14\] or something like that, and various other things... Like, you can be inventive; circumstances are less than ideal.
+**Kevin Ball:** Yeah. And once again, many folks who are being thrust right now into working from home, at the last minute, no ability to prepare or do anything like that... I've seen some pretty inventive setups. I saw somebody set up a standing desk where they had a cardboard area supported by La Croix or something like that, and various other things... Like, you can be inventive; circumstances are less than ideal.
 
 If you're working from home because of an emergency like this, you can't go and build yourself a new room, like Jerod did, but you can think about how do you create that space, and at least a little bit of mental separation as much as possible.
 
@@ -130,7 +130,7 @@ Anybody have any specific pics, or hardware, or anything in their space?
 
 **Jerod Santo:** I love that.
 
-**Suz Hinton:** \[00:20:02.04\] For me, I like to warm up a space aesthetically... And expanding on that, what I mean is just having things that doesn't make it look like your room is very clinical. Because you're in your own space, you can actually be a bit more creative than perhaps you're allowed to be in an office... So even just things like a cork board - is that what you call it in America? Like a pinboard... And I put little knick-knacks and Polaroid photos and things up there, as well as the cheatsheet for \[unintelligible 00:20:30.18\] and things like that, that I constantly refer to. That makes me really happy.
+**Suz Hinton:** \[00:20:02.04\] For me, I like to warm up a space aesthetically... And expanding on that, what I mean is just having things that doesn't make it look like your room is very clinical. Because you're in your own space, you can actually be a bit more creative than perhaps you're allowed to be in an office... So even just things like a cork board - is that what you call it in America? Like a pinboard... And I put little knick-knacks and Polaroid photos and things up there, as well as the cheatsheet for OpenSCAD and things like that, that I constantly refer to. That makes me really happy.
 
 And as far as being able to just cover walls with things, especially if you're in a rental - I have a giant tapestry, which is just like a piece of cotton with a printed design on it that I got from Society6. It's pinned with two thumbtacks. Sorry, I'm trying to internationalize how I'm describing these items...
 
@@ -170,7 +170,7 @@ So if you're at home, don't beat yourself up because you decided you're gonna ta
 
 Those things are there, and especially now, where we do have to make time for family, they're no different than the time we'd have to make for our co-workers, socially, in the office, and the other things that just kind of come along with being in the office.
 
-So I don't worry anymore about taking breaks, I don't worry anymore about making bread in the afternoon, or something like that. I'm thinking, I'm doing work in my head, I'm just away from my desk, and that's okay. I try to do those things when I need that shift of thinking \[unintelligible 00:27:11.21\] I'll make the bread, I'll take the dog for the walk, I'll go to the grocery store, whatever. So I try to work those tasks into those spaces, too.
+So I don't worry anymore about taking breaks, I don't worry anymore about making bread in the afternoon, or something like that. I'm thinking, I'm doing work in my head, I'm just away from my desk, and that's okay. I try to do those things when I need that shift of thinking in the way of my keys, I'll make the bread, I'll take the dog for the walk, I'll go to the grocery store, whatever. So I try to work those tasks into those spaces, too.
 
 **Mat Ryer:** Yeah, that's a really good point. I think it's a very naive view, and people think that you have to just be working solid amounts; like, you have to work eight hours a day, solid, uninterrupted. I've worked in situations where it's office-based, and sometimes the people around you don't necessarily understand the job in the same way, and they might not be as technical, or just have a different perspective completely...
 
@@ -298,7 +298,7 @@ Again, it's boundaries, separating the psychic space of "This is the home, where
 
 **Mat Ryer:** Yeah, all the Easter Island heads that you bought... \[laughter\]
 
-**Mark Bates:** I have the full collection, by the way. \[unintelligible 00:37:51.24\] But my heart goes out to them...
+**Mark Bates:** I have the full collection, by the way including the one that was just broken but my heart goes out to them...
 
 **Carmen Andoh:** This is one of those things people are probably asking "Should I make that kind of investments with an unclear amount of time that I'm gonna be at home before returning to the office?" I don't know if that's the answer, but this is gonna be more than 5-6 weeks. Your back will thank you if you have the means and the space to invest in a chair.
 
