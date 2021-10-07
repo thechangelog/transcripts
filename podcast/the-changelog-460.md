@@ -66,7 +66,7 @@ Then in the end, what we learned was that we could just never get the mix right,
 
 **Adam Jacob:** Yeah, that was the beginning of Opscode. Before then, we were running a consulting company called HJK that did fully-automated infrastructure for startups... So sort of even before that, that crew of people had been together for a couple of years before Opscode started, before Chef was written.
 
-**Adam Stacoviak:** Was that initials, or -- \[unintelligible 00:07:42.04\]
+**Adam Stacoviak:** Was that initials, or -- ViM wannabe?
 
 **Adam Jacob:** It was initials, yeah. It was my partner and co-founder Nathan Haneysmith, and then a gentleman who was with us in that era, but didn't translate into the Opscode era, Saksiri Kridakara. And then I was the J...
 
@@ -82,7 +82,7 @@ Then in the end, what we learned was that we could just never get the mix right,
 
 **Adam Jacob:** I think okay... But badly... \[laughter\] It turns out that with open source what I care about is, I care about people more than I care about companies. And that's not because I didn't care about my company. I cared deeply about my company. It was very important to me. The one I run now is very important to me. I take that very seriously, it's my career. It's important to me.
 
-When I think about open source though, I don't think about companies, I think about people, and I think about the optionality that those people have in their lives, that they otherwise wouldn't have had... Because that's what open source did for me. When I was 16, 15, whatever I was, and got that first Slackware on floppy disks... Or I think it was \[unintelligible 00:09:18.03\] that opened up the whole world for me in terms of what I could build, and my whole career... My whole life has sort of been -- you could draw a straight line from floppy disks in the back of a book to this podcasts. That's because those opportunities were available to me because those people created open source software and put it into the world... And not only could I use it, but I could break it, I could tinker with it, I could open it up, I could see how it worked on the inside... And that allowed me to create the opportunities for myself that eventually led to Chef, which eventually leads to where I am now, which - I'm in this lovely house, and there's like deer outside, and... My life's great. And it's because these people did this for me. They created this commons, and they created this space; that to me is what's important, and what I care about. And what I came to realize is that when I tried to take a different lens on why that mattered to me, it was false. I didn't care about it because of the money. I like the money, but that's a different thing that I care about. They're not the same. Does that make sense?
+When I think about open source though, I don't think about companies, I think about people, and I think about the optionality that those people have in their lives, that they otherwise wouldn't have had... Because that's what open source did for me. When I was 16, 15, whatever I was, and got that first Slackware on floppy disks... Or I think it was the Yggdrasil, actually, that opened up the whole world for me in terms of what I could build, and my whole career... My whole life has sort of been -- you could draw a straight line from floppy disks in the back of a book to this podcasts. That's because those opportunities were available to me because those people created open source software and put it into the world... And not only could I use it, but I could break it, I could tinker with it, I could open it up, I could see how it worked on the inside... And that allowed me to create the opportunities for myself that eventually led to Chef, which eventually leads to where I am now, which - I'm in this lovely house, and there's like deer outside, and... My life's great. And it's because these people did this for me. They created this commons, and they created this space; that to me is what's important, and what I care about. And what I came to realize is that when I tried to take a different lens on why that mattered to me, it was false. I didn't care about it because of the money. I like the money, but that's a different thing that I care about. They're not the same. Does that make sense?
 
 **Adam Stacoviak:** Yeah. You're optimizing for the accessibility. Even as you said that, I thought about my straight line to this point in time... And Jerod, I'd love for you to do this as well, but... My straight line was Geocities, which was not open source, but it was the on-ramp to putting something on the internet, and I was like "Wow, this is possible..."
 
@@ -116,7 +116,7 @@ When I think about open source though, I don't think about companies, I think ab
 
 **Jerod Santo:** Yeah, exactly.
 
-**Adam Jacob:** When you were in college, yeah. \[unintelligible 00:11:39.14\]
+**Adam Jacob:** When you were in college, yeah. You knew where you're foot --
 
 **Jerod Santo:** Yeah, totally. Free beer, it'd be great. Free software? Awesome, too.
 
@@ -458,7 +458,7 @@ Now, if it was open source and they gave me extra optionality, all of a sudden I
 
 **Adam Stacoviak:** Right. Not open source, but source available. The terminology is source available.
 
-**Adam Jacob:** Yeah. But don't hate me so much, you know? Don't completely hate me \[unintelligible 00:47:46.03\]
+**Adam Jacob:** Yeah. But don't hate me so much, you know? Don't completely hate me for doing it.
 
 **Adam Stacoviak:** Right, right.
 
@@ -474,7 +474,7 @@ Now, if it was open source and they gave me extra optionality, all of a sudden I
 
 **Adam Stacoviak:** You had fun.
 
-**Adam Jacob:** And that community enjoyed itself in that way, and enjoyed being with each other, because we had this shared sense of ownership over this thing that we had all built. And one of the real difficulties in shifting Chef open source to the free software business model was that the Chef brand, which was always mine, they were always Chef's, they always belonged to the company - people really felt strongly that that brand belonged to them, and they were mad that we were no longer producing completely open source builds that were called Chef. They felt duped. And I felt really bad about that. I didn't feel so bad about it I didn't do it, and the \[unintelligible 00:50:10.20\] the software was open source now, that there was nothing that they couldn't have, and that we were gonna collaborate together to build those communities, to build Sink and those things, and it wouldn't be hostile. I think that's what it is.
+**Adam Jacob:** And that community enjoyed itself in that way, and enjoyed being with each other, because we had this shared sense of ownership over this thing that we had all built. And one of the real difficulties in shifting Chef open source to the free software business model was that the Chef brand, which was always mine, they were always Chef's, they always belonged to the company - people really felt strongly that that brand belonged to them, and they were mad that we were no longer producing completely open source builds that were called Chef. They felt duped. And I felt really bad about that. I didn't feel so bad about it I didn't do it, and the salve that I gave them was that the software was open source now, that there was nothing that they couldn't have, and that we were gonna collaborate together to build those communities, to build Sink and those things, and it wouldn't be hostile. I think that's what it is.
 
 And you can rely on that community to get you through those hard things. And when those communities don't exist - well, then you're just a business that's failing. You're just a business that got disrupted. I know what it's like to be disrupted, it sucks. It hurts to get in a spot where you're like "Oh man..." We were growing at 20% quarter over quarter, 150% quarter over quarter, and now we're growing 10%, or negative. That is not fun in business land. But when you have this huge community of people behind you who want you to succeed, not just from a revenue perspective, but from a community perspective...
 
@@ -486,7 +486,7 @@ And you can rely on that community to get you through those hard things. And whe
 
 **Adam Jacob:** Exactly.
 
-**Adam Stacoviak:** They're calling them out, they're saying "That's not cool." \[unintelligible 00:51:13.07\]
+**Adam Stacoviak:** They're calling them out, they're saying "That's not cool." It's how Adam's been here.
 
 **Adam Jacob:** And it's because they've been there, and you've been there, and that thing has been genuine. I don't think you can fake it. I don't think that's a thing you can manufacture. I think it happens because you show up. It happens because you legitimately care about each other. That is the thing I'm most proud of about Chef. Early on in its life we had people come into the IRC channel, it was \#chef on FreeNode when FreeNode was a thing... And they asked us what they should cook; they had their first date in their whole life. So they finally got a date, and they wanted to cook for their first date... And they were like, "What should I make for this person on my first date, to make a good impression?" And this IRC channel full of hundreds of people - like, I've never seen it more engaged than it was in debating what thing this person should cook.
 
@@ -700,7 +700,7 @@ And then we have shown it to people. It's not like no one's seen it. It's just t
 
 **Jerod Santo:** That's where all that VC money went, into the shapes.
 
-**Adam Jacob:** Yeah, they went into the shapes. Look, my partner and co-founder, \[unintelligible 01:11:43.10\] is an incredible person, who does not like to be a public figure, but is one of the greatest products people I have ever known... And working with him is jus a pleasure, every single day. And he makes all that stuff look good and easy, because he is meticulous, and thoughtful, and just such a delight. And so I think - yeah, that's all Alex, in the best possible way.
+**Adam Jacob:** Yeah, they went into the shapes. Look, my partner and co-founder, Alex Ethier, is an incredible person, who does not like to be a public figure, but is one of the greatest products people I have ever known... And working with him is jus a pleasure, every single day. And he makes all that stuff look good and easy, because he is meticulous, and thoughtful, and just such a delight. And so I think - yeah, that's all Alex, in the best possible way.
 
 **Adam Stacoviak:** The blinking cursor is cool. I like your shade of green, it's very similar to what we call "hacker green" around here...
 
