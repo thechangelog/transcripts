@@ -2,7 +2,7 @@
 
 **Ben Johnson:** Yeah.
 
-**Jerod Santo:** Okay.****
+**Jerod Santo:** Okay.
 
 **Ben Johnson:** Yeah, we're Denverites.
 
