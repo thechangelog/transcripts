@@ -342,7 +342,7 @@ I got lucky that worked out well in the end, because having control of your own 
 
 **Richard Hipp:** So you don't put executables there that you don't want.
 
-**Jerod Santo:** \[unintelligible 00:28:58.10\]
+**Jerod Santo:** Alright.
 
 **Richard Hipp:** But the other thing is - it drops itself into a chroot jail. So the executables you put there need to be statically linked, because they're not gonna be able to find the shared libraries in /lib that they need. So you statically link them, and you put just a few that you really do need, like Fossil.
 
@@ -728,9 +728,9 @@ And let me just -- I'm coming back to this subject, but think with me just a sec
 
 **Adam Stacoviak:** Camp anywhere.
 
-**Richard Hipp:** It's not as nice as a \[unintelligible 01:16:31.17\] but you're taking care of yourself.
+**Richard Hipp:** It's not as nice as hampton Inn but you're taking care of yourself.
 
-**Jerod Santo:** There's your new tagline: "Fossil. Not as nice as the \[unintelligible 01:16:38.27\]." \[laughter\] But you're taking care of yourself.
+**Jerod Santo:** There's your new tagline: "Fossil. Not as nice as the hampton Inn." \[laughter\] But you're taking care of yourself.
 
 **Richard Hipp:** Taking care of yourself.
 
