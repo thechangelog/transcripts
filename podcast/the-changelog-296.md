@@ -108,7 +108,7 @@ So what does burnout feel like? What would you describe burnout as? If someone's
 
 **Jessica Rose:** Well...
 
-**Adam Stacoviak:** I was \[unintelligible 00:11:26.15\] I didn't wanna say yes to any of those things, but I couldn't help but doing so. There's times when I get up -- I love what I do, and it's a shame, because I do really enjoy what I do... But not every day. I don't always enjoy it the first thing in the morning. And I was really listening closely when you said you have this bug, or this thing you're dealing with, with a code problem, or whatever... "Oh, by the way, I've gotta take care of the laundry, I've gotta help with this..." - that's what happens to me sometimes. I heard myself in your talk today, basically.
+**Adam Stacoviak:** I was side eyeing, I didn't wanna say yes to any of those things, but I couldn't help but doing so. There's times when I get up -- I love what I do, and it's a shame, because I do really enjoy what I do... But not every day. I don't always enjoy it the first thing in the morning. And I was really listening closely when you said you have this bug, or this thing you're dealing with, with a code problem, or whatever... "Oh, by the way, I've gotta take care of the laundry, I've gotta help with this..." - that's what happens to me sometimes. I heard myself in your talk today, basically.
 
 **Jessica Rose:** \[00:12:04.23\] And everybody's brain works really differently, and neuro diversity is one of the most exciting things about the way people engage with the world around them, and mental processes and social processes are so cool... I think wedding self-care into the way we view our own mental processes and approach the world is absolutely critical.
 
@@ -116,7 +116,7 @@ So what does burnout feel like? What would you describe burnout as? If someone's
 
 **Jessica Rose:** For me, when I was burnt out and coming through recovery, one of the hardest things was you aren't running on all cylinders cognitively, so I had very serious memory issues, which is quite common; I was consistently despairing and miserable, and I had a really hard time seeing success in my own work. So I'd do something, I'd do a measurably good job, and I'd be like "Well, I guess that's okay..."
 
-And for me, if you've heard me wandering around the halls today, you've probably heard me sort of \[unintelligible 00:12:58.11\] "Everything is fine..."
+And for me, if you've heard me wandering around the halls today, you've probably heard me sort of morosely go "Everything is fine..."
 
 **Adam Stacoviak:** To yourself?
 
@@ -126,7 +126,7 @@ And for me, if you've heard me wandering around the halls today, you've probably
 
 Long story short, I was just like -- she thought I was complaining, but I wasn't... But I liked her response to her thinking I was being an abrasive person. I may have been, but I definitely wasn't trying to be... But she says "It's a beautiful day." And I was like, "I'm not a bomb, but you just diffused a bomb." Because you can say that thing -- you say it to yourself, it's not like you say it to other people too, but it's that one thing you can say that's like "You know, everything's fine. It's a beautiful day." It's just something you can say to sort of like take away the stress and crazy chaos that might be coming. What do you think?
 
-**Jessica Rose:** I was gonna say, I've got something that sounds very nice and placid, but actually means "Piss right off!" and I \[unintelligible 00:14:21.02\]
+**Jessica Rose:** I was gonna say, I've got something that sounds very nice and placid, but actually means "Piss right off!" and I suggest you doing that.
 
 **Adam Stacoviak:** Sure, you can do that.
 
@@ -280,7 +280,7 @@ Learning to figure out how to spend the money for a project is really difficult.
 
 But halfway -- not halfway through it... Like a year later, I'm working on Babel in my free time; we use it at work, so why aren't we -- like, we shouldn't wait for me to work on it if we need something... So like "Well, why don't you let me work on it at work then?"
 
-I think I asked for full-time and they gave me half, which was already amazing... So I was like, "That's cool. Okay, I'm good" and I kind of just started working on that. But the problem was that that's always gonna be hard, like "What does it mean to do 50%? Is it like half of my sprints are Babel and the other half is \[unintelligible 00:27:53.13\]?"
+I think I asked for full-time and they gave me half, which was already amazing... So I was like, "That's cool. Okay, I'm good" and I kind of just started working on that. But the problem was that that's always gonna be hard, like "What does it mean to do 50%? Is it like half of my sprints are Babel and the other half is real work?"
 
 **Adam Stacoviak:** \[00:27:54.17\] But how did that work out actually practically? Did it work out? Were you still kind of saying "My responsibility is just like -- oh, now half of it really is this, but it's not."
 
@@ -372,7 +372,7 @@ It should also be said that you live in New York City, right? It's not exactly c
 
 **Henry Zhu:** \[00:40:09.02\] Yeah, it's not enough to cover the rent, and then I have to pay for insurance, too. So even the base of that is already very high... But the good thing is that our Open Collective has a good amount of money there now, so I can at least use that. Then the other plan is to reach out to companies, which I've done - and hopefully those go through soon - and it's like, okay, one idea is this idea of a support contract, which is something that Webpack is doing, where you pay a certain amount, say it's like $1,000/month, and we'll give you two hours of time to help you with whatever.
 
-Then that means I can work a lot less hours and you can still get paid. If you can convince them to do that, that would be really good. And you don't have to do that for a ton of companies, but the problem is \[unintelligible 00:40:58.19\] there's like a huge potential, but right now there's none, so it's like... Where is that?
+Then that means I can work a lot less hours and you can still get paid. If you can convince them to do that, that would be really good. And you only have to do that for like 10 companies, but the problem is that now there's like a huge potential, but right now there's none, so it's like... Where is that?
 
 **Adam Stacoviak:** So after hearing that, I would say maybe you could treat the human side of this equation for you, that these companies are also humans, right? Companies aren't just companies, there's humans behind that; users of Babel, potentially even contributors of Babel, right? Potentially, who knows? And that maybe this is a growth hack that you're using to 1) keep in touch with your constituents, and also potentially get some (for a lack of better terms) sales.
 
@@ -480,7 +480,7 @@ We can change the medium in which we do open source such that it is building up 
 
 After a few of these meetings, a bunch of people said "You know, you really need to talk to this guy Simon Rogers, one of the journalists", because Simon Rogers was the journalist at The Guardian responsible for the infographics, where you publish a graph in the newspaper, and somebody has to phone up a bunch of government agencies and gather the data. He'd been doing this for years and was really good at it. He could get data on anything, and all of this data -- I asked him where it was, and he said "Oh, I've got it in Excel spreadsheets on the computer under my desk." And I'm like "This is gold!"
 
-\[00:56:11.11\] So we got together, we started \[unintelligible 00:56:13.13\] and we ended up thinking, okay, the easiest thing we can do is start a blog - we'll start The Guardian Data Blog and we'll publish these things as Google spreadsheets. We did this, and The Guardian still has a data blog today where they're publishing data behind the stories.
+\[00:56:11.11\] So we got together, we started pulling it and we ended up thinking, okay, the easiest thing we can do is start a blog - we'll start The Guardian Data Blog and we'll publish these things as Google spreadsheets. We did this, and The Guardian still has a data blog today where they're publishing data behind the stories.
 
 **Adam Stacoviak:** Wow.
 
@@ -508,7 +508,7 @@ So I took that, I turned it into a SQLite database, and I've published that as a
 
 **Adam Stacoviak:** So for the uninitiated out there, who are not very familiar with ZEIT Now, you mentioned it was immutable, so that means that you can't write back to a database. So the databases are immutable.
 
-**Simon Willison:** Right. ZEIT Now is hosting where everything is fire and forget. You bundle up your code and other assets, it turns it into a Docker container, you fire it up to them, they deploy it and they give it a URL which will never change... So it will always live in that URL, and in ten years' time if somebody hits that URL, they'll spin it up and they'll start serving \[unintelligible 00:59:13.13\]
+**Simon Willison:** Right. ZEIT Now is hosting where everything is fire and forget. You bundle up your code and other assets, it turns it into a Docker container, you fire it up to them, they deploy it and they give it a URL which will never change... So it will always live in that URL, and in ten years' time if somebody hits that URL, they'll spin it up and they'll start serving requests like that.
 
 **Adam Stacoviak:** I think Guillermo said it was called immutable deploys - is that right?
 
@@ -518,7 +518,7 @@ So I took that, I turned it into a SQLite database, and I've published that as a
 
 **Simon Willison:** So you get atomic deploys, as well. You deploy a new version, you test it, and then you switch the alias over once you're certain that it's gonna work. And it's a really nice way of working. The downside is doesn't give you a regular database that you can post-write to. You can get those, but you have to get those from another vendor, like Compose.io or Heroku Postgres, or something like that. But if your data doesn't change, if it's, say, a list of 190,000 trees in San Francisco, you can package that up in a SQLite database and deploy it alongside the rest of your code, just as part of that regular deploy process. And that, it turns out, is a really cunning trick for doing all sorts of exciting things with semi-static data.
 
-**Adam Stacoviak:** \[01:00:06.24\] The demo you showed earlier \[unintelligible 01:00:08.11\] before your talk, but the demo you did was around \[unintelligible 01:00:13.09\]
+**Adam Stacoviak:** \[01:00:06.24\] The demo you showed earlier well before your talk, but the demo you did was around, was fun, possums, no that was different.
 
 **Simon Willison:** That was a slightly different project, yeah.
 
@@ -545,7 +545,7 @@ So the idea is that if you're somebody who isn't comfortable installing Python c
 
 **Adam Stacoviak:** They have to be.
 
-**Simon Willison:** So data journalism is a very specific sort of subset of journalism where you've got journalists who are all about Python and R and Jupyter \[unintelligible 01:02:46.20\] They're very familiar with this stuff, and they have conferences where they all get together and share tips. These are my people; I'm a huge fan of what they're doing, and that intersection of skills I think is really interesting. But most newspapers can't afford to hire people who have that software engineering background. The really big papers - The New York Times, The Washington Post, they're all doing this stuff... But if you're a little local newspaper, the chances that you can hire somebody with software engineering and journalism skills is pretty slim.
+**Simon Willison:** So data journalism is a very specific sort of subset of journalism where you've got journalists who are all about Python and R and Jupyter and Rail. They're very familiar with this stuff, and they have conferences where they all get together and share tips. These are my people; I'm a huge fan of what they're doing, and that intersection of skills I think is really interesting. But most newspapers can't afford to hire people who have that software engineering background. The really big papers - The New York Times, The Washington Post, they're all doing this stuff... But if you're a little local newspaper, the chances that you can hire somebody with software engineering and journalism skills is pretty slim.
 
 **Adam Stacoviak:** What does it mean then, since you're building this kind of tools...? I mean, one, you're having fun, you're here at ZEIT day, you're showing off some cool tools that you've built, obviously showcasing the performance and abilities of ZEIT - or ZEIT Now, as a matter of fact... When you start to look at how this applies, some of the tooling you're building applies to data journalists, or just people who are curious about data... It seems like you're taking insights from data; what are you trying to build for them with what you're doing?
 
@@ -557,7 +557,7 @@ So the idea is that if you're somebody who isn't comfortable installing Python c
 
 **Adam Stacoviak:** It's a standard.
 
-**Simon Willison:** Well, a semi-standard. Once you get it \[unintelligible 01:03:52.00\]
+**Simon Willison:** Well, a semi-standard. Once you get into quoting rules
 
 **Adam Stacoviak:** It's ubiquitous, let's say that.
 
