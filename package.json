@@ -3,7 +3,9 @@
   "description": "Changelog episode transcripts in Markdown format",
   "scripts": {
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "format:test": "jest",
+    "format": "node format.js"
   },
   "repository": {
     "type": "git",
@@ -15,6 +17,7 @@
   },
   "homepage": "https://github.com/thechangelog/transcripts#readme",
   "devDependencies": {
-    "all-contributors-cli": "^4.10.0"
+    "all-contributors-cli": "^4.10.0",
+    "jest": "^27.2.4"
   }
 }
