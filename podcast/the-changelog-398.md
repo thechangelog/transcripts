@@ -208,7 +208,7 @@ One thing I've started realizing is that every interaction with a person is abou
 
 **Adam Stacoviak:** Sure... Okay, well what about the flipside of that, of being extremely useful?
 
-**Jessica Kerr:** So I do value that. The trick there is that most organizations do have ways of continuing to challenge yourself, and this is where a lot of people get into dev ops, and infrastructure, and architecture... You broaden the scope of your influence and you can continue to have challenges. And this is where we need to automate ourselves out of a job. If you do anything repeatedly, automate it. But then the other challenge is -- it's correct at that level to spend most of your time helping other people get to your level.
+**Jessica Kerr:** So I do value that. The trick there is that most organizations do have ways of continuing to challenge yourself, and this is where a lot of people get into DevOps, and infrastructure, and architecture... You broaden the scope of your influence and you can continue to have challenges. And this is where we need to automate ourselves out of a job. If you do anything repeatedly, automate it. But then the other challenge is -- it's correct at that level to spend most of your time helping other people get to your level.
 
 I read somewhere today on Twitter that senior developers probably commit a lot less feature code than junior developers, because they're influencing at a higher level.
 
@@ -506,7 +506,7 @@ So I can be in "just follow what Avdi is looking at" mode for a while, and then 
 
 **Break:** \[00:41:06.06\]
 
-**Jerod Santo:** Do you wanna talk about dev ops and Honeycomb or anything like that?
+**Jerod Santo:** Do you wanna talk about DevOps and Honeycomb or anything like that?
 
 **Jessica Kerr:** Oh, okay. So Adam, you were talking earlier about brains, and Brain Science, and some of the stuff I've been reading lately about ecological and inactive-something - as people, as animals, we learn about the world in order to act. Acting and learning are entwined. We constantly have to do something, and this is directly related to our learning.
 

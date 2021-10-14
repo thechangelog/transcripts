@@ -212,7 +212,7 @@ People spend so much time talking about what their tools says, versus what someb
 
 **Charity Majors:** Honestly, my heart is in empowering developers. I feel like New Relic is really great at helping developers get this first flash of "Oh wait, you mean I can know what's going on?" But you run into a wall. Everyone I've ever talked to is like, "Yeah, it was great, and now I can't find something", and I think we can do better than that.
 
-Ops people don't need to be sold on this; they generally know what's wrong with our current set of tools. I feel like we're ready for the second wave of dev ops, though. The first wave was all about "Dev ops people write better software" and "Message received." I think we've spent the last 5-6 years leveling up on writing tests, really having infrastructure as code.
+Ops people don't need to be sold on this; they generally know what's wrong with our current set of tools. I feel like we're ready for the second wave of DevOps, though. The first wave was all about "DevOps people write better software" and "Message received." I think we've spent the last 5-6 years leveling up on writing tests, really having infrastructure as code.
 
 Now I think it's time to be just as hard-lined against "Alright developers, time to know how your stuff works. Time to know how to own your services from end to end. Time to know how to architect things, how to maintain things and how to be on call for things." Collectively, we will work to make on-call not miserable; that's not supposed to be like a sentence - "You will go to jail and be on-call for your stuff." But I do think that closing that loop of cause and effect between "I wrote this" and "I have pain when it breaks" to some extent is one of the most efficient things that we can do to write better services and better software.
 
@@ -220,7 +220,7 @@ Also, operations is becoming a specialist gig, honestly, and DBAs are never goin
 
 I think this is an approach that feels a little foreign to ops people, because they're used to predicting how their system will break and building out monitoring tools for that system, and I think it feels very natural and homegrown for software engineers.
 
-**Brian Ketelsen:** So really this is the personification of dev ops in an app.
+**Brian Ketelsen:** So really this is the personification of DevOps in an app.
 
 **Charity Majors:** Absolutely.
 
@@ -308,7 +308,7 @@ I think this is an approach that feels a little foreign to ops people, because t
 
 **Brian Ketelsen:** No, it's in the cloud! My dad was over here a couple days ago and he's like, "What is the cloud?" and I said, "Somebody else's computer." "Oh! Well, that makes more sense." He totally got that... Yeah, that's just somebody else's computer.
 
-**Charity Majors:** \[laughs\] I had a hard time with dev ops for so long... I was just angry, because people would be like, "I want a dev ops engineer" and I'm like, "That's not a thing. That's like saying you want an agile engineer. It's not a thing!" But I'll just get over it... It doesn't mean anything anymore.
+**Charity Majors:** \[laughs\] I had a hard time with DevOps for so long... I was just angry, because people would be like, "I want a DevOps engineer" and I'm like, "That's not a thing. That's like saying you want an agile engineer. It's not a thing!" But I'll just get over it... It doesn't mean anything anymore.
 
 **Erik St. Martin:** Somebody told me of a new thing, it's like "dev sec ops", or something... They're trying to merge security stuff in...
 

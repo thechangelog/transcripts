@@ -236,7 +236,7 @@ And I'm saying this very much in the context of the go command, but Kris, back t
 
 **Marcos Nils:** One last thing that I would like to highlight - it's also a very nice, interesting project to start basically learning about different aspects of technology. Play with Go has a UI, it has Qlang, which is a very trendy technology - or language; I don't know how to describe it, but it's very interesting to learn. It has Go, of course, it has infrastructure, it has containers, because all the infra is running on containers; it has Docker... It has security concerns, because as you may imagine, running a container where you can basically compile and write code, and basically play funky with bandwidth, and some things - it's a challenge, as well.
 
-So if you are into dev ops, coding, UI, content creation, UX, whatever you feel like you can contribute, please talk to us, so we can help you out in whatever you need.
+So if you are into DevOps, coding, UI, content creation, UX, whatever you feel like you can contribute, please talk to us, so we can help you out in whatever you need.
 
 **Paul Jolly:** \[00:56:23.01\] And we're gonna be starting to mark issues in the GitHub issue tracker as "Good first time issues", "Help wanted", sort of categorize things a bit better. And Marcos also had the suggestion of pulling together a GitHub project board, so people can see "Okay, where are we now? What things are planned?"
 

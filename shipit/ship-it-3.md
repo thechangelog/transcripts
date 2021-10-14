@@ -58,13 +58,13 @@ So this is super-exciting, because you have metrics already. I am feature reques
 
 So we have metrics, logs and events. That is a very special trio. Can you tell us a bit more about that, Alex? What are your thoughts on that special trio?
 
-**Gerhard Lazu:** We could start with the abstract and then we can work down into the technical nitty-gritty. So those three that you mentioned just happen to be the pillars of observability. All three of those are the pillars of observability. It's theorized that if you have all three of these pillars in your app, you've achieved the coveted observability, and all your SREs and your dev ops people in your organization will come and shake your hand, and all will be well in the world.
+**Gerhard Lazu:** We could start with the abstract and then we can work down into the technical nitty-gritty. So those three that you mentioned just happen to be the pillars of observability. All three of those are the pillars of observability. It's theorized that if you have all three of these pillars in your app, you've achieved the coveted observability, and all your SREs and your DevOps people in your organization will come and shake your hand, and all will be well in the world.
 
 But jokes aside, the idea is that these three different types of observability tools yield different benefits for your application. So with logs, if you're capturing logs in your applications or your services, you can see in very nitty-gritty detail what's happening on every single request, what's happening if there are errors, if there are warnings, if you're having trouble connecting to other services... You get very fine-grained detail as to what's going on. This is super-awesome, and it's very helpful to have this very in-depth information.
 
 The problem is that you can kind of be inundated by too much information, and it's very difficult to extrapolate higher meaning out of all this nitty-gritty detail. Then, if you've ever run like an ELK Stack and had to administer that, you know the pains of trying to index all this data.
 
-Then you might say "Okay, let's only log what's important", and I'm sure \[unintelligible 00:15:20.22\] have had their dev ops people come to them and say "Hey, let's dial back the logging. It's a little too much, and Elasticsearch is just keeling over."
+Then you might say "Okay, let's only log what's important", and I'm sure \[unintelligible 00:15:20.22\] have had their DevOps people come to them and say "Hey, let's dial back the logging. It's a little too much, and Elasticsearch is just keeling over."
 
 Then you reach for other tools, like metrics. Metrics eventually find their way into some sort of a time series database, and they're usually pretty efficient in comparison to logs, because they're more bounded. You have a measurement, you have a timestamp, and you have some labels associated with it. A little asterisk there, because that kind of depends on what your time series database of choice is. But that's kind of roughly speaking what goes into capturing time series data.
 

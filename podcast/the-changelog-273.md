@@ -298,7 +298,7 @@ I think it really boils down to organizational structures and having that wall i
 
 **Adam Stacoviak:** Very judgmental, very picky...
 
-**Michelle Casbon:** I don't know, I guess it seems like there are these two focuses. One is just on sort of production code, writing things that don't break, and then there's the "No, but machine learning..." and "The math is the most important part..." I just think that like with any two organizations, just like between engineering and dev ops, there's a lot of tension because the goals are a bit different.
+**Michelle Casbon:** I don't know, I guess it seems like there are these two focuses. One is just on sort of production code, writing things that don't break, and then there's the "No, but machine learning..." and "The math is the most important part..." I just think that like with any two organizations, just like between engineering and DevOps, there's a lot of tension because the goals are a bit different.
 
 **Jerod Santo:** Right, and in a certain sense because there's overlapping skillsets, but not identical skillsets, both sides feel threatened by the other one...
 

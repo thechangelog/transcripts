@@ -308,7 +308,7 @@ This is a long and maybe rambling answer to your question...
 
 **Chris Benson:** No, long and rambling is good when you're predicting the future...
 
-**Abe Heifets:** Okay. I also wanna take the opportunity to give credit to the chemists. Real transformation happens at the intersection of multiple different pieces. If you think about AI, there's data and there's algorithms that come together, but those wouldn't be able to be run without a huge success by dev ops, and cloud computing, and GPUs, breakthroughs in the hardware, which are driving much of the --
+**Abe Heifets:** Okay. I also wanna take the opportunity to give credit to the chemists. Real transformation happens at the intersection of multiple different pieces. If you think about AI, there's data and there's algorithms that come together, but those wouldn't be able to be run without a huge success by DevOps, and cloud computing, and GPUs, breakthroughs in the hardware, which are driving much of the --
 
 I was just looking at this - because I'm a nerd, if we didn't already establish this... The ASCI White, the most powerful super-computer in the world, and therefore in the history of our species, up to 2001, ASCI White, clocked in at over a hundred million dollars and a hundred tons. That machine peak FLOPS is an Xbox today. That's an incredible transformation. So if you think about why are we able to do these things with AI today - it's because of the massive success by hardware engineers; that's driving a huge part of it.
 

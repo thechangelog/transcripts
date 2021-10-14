@@ -196,7 +196,7 @@ Even Agile... If you read the first Scrum paper, which was also at OOPSLA, Scrum
 
 So I understand why it happens. People are successful, they can write books, they can go to conferences, people wanna hear more, so of course they're happy to tell them. And it's not a knock on the people that came up with Scrum. In the situation they were working on - small projects, making incremental improvements - it was a great idea; it was much better than trying to do some crazy waterfall project management, which was completely unnecessary, and not responsive to customers, and all that stuff. So Scrum in its correct environment is a good idea, but it got overhyped, like a lot of these things do.
 
-You can look at dev ops, or functional programming; that's sort of what's getting over-hyped right now. Again, when there are good situations where dev ops is an improvement, or a functional language is the right choice, but they're not the magic solution to all software engineering problems.
+You can look at DevOps, or functional programming; that's sort of what's getting over-hyped right now. Again, when there are good situations where DevOps is an improvement, or a functional language is the right choice, but they're not the magic solution to all software engineering problems.
 
 **Jerod Santo:** So you're saying it depends...
 

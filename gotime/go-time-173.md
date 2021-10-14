@@ -70,7 +70,7 @@ So your tool is very practical... It addresses really practical things. Do you f
 
 **Mat Ryer:** So Natalie, what about you? Do you tend to go straight for continuous integration and continuous deployment systems, or would you be comfortable with somebody just deploys it manually for a bit?
 
-**Natalie Pistunovich:** Yeah, releasing and deploying was generally probably one of the biggest mysteries when I started in my career, let's say... The coding part was always clear for me... As much as you can have it clear when you come out of a university versus a bootcamp; so you know lots of concepts, but then you have to go and put them in practice, and that was surprising. But the part of how actually it's being -- like, what happens in the life of a project after you finish writing the code a specific time, let's say, has been something that I was in the beginning a little bit embarrassed, and asked "But how do people end up using what I write?" And then you go to the scary dev ops people and like "What do you do?" "What do you mean what we're doing?" \[laughs\]
+**Natalie Pistunovich:** Yeah, releasing and deploying was generally probably one of the biggest mysteries when I started in my career, let's say... The coding part was always clear for me... As much as you can have it clear when you come out of a university versus a bootcamp; so you know lots of concepts, but then you have to go and put them in practice, and that was surprising. But the part of how actually it's being -- like, what happens in the life of a project after you finish writing the code a specific time, let's say, has been something that I was in the beginning a little bit embarrassed, and asked "But how do people end up using what I write?" And then you go to the scary DevOps people and like "What do you do?" "What do you mean what we're doing?" \[laughs\]
 
 So releasing has never been something that I've done a lot, let's say, and being a developer advocate is definitely even less on my plate these days, because you do lots of projects, you put them on GitHub, and then you write a tutorial... This is the new way of delivering content... \[laughs\] So I am here, I guess, to ask more questions about what is new in releasing, for those people who actually do use this a lot. So Carlos, when you were convincing Johnny to use this, I was also on the being covinced side.
 
@@ -178,7 +178,7 @@ Have there been any challenges with working in that open source world? Like, som
 
 **Natalie Pistunovich:** And then you found out Kubernetes and Docker and everything is written in Go, and you're like "Yes! I made the right choice!"
 
-**Carlos Becker:** I knew about that before, actually. I started as a software engineer, software developer many years ago, and for a while I was working as a dev ops/SRE and all that stuff.
+**Carlos Becker:** I knew about that before, actually. I started as a software engineer, software developer many years ago, and for a while I was working as a DevOps/SRE and all that stuff.
 
 **Break:** \[00:26:00.17\]
 

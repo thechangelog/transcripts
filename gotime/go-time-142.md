@@ -68,13 +68,13 @@ Now, your code that was super-fast when you were working locally is now in an en
 
 So I think the work style and everything has changed, and I think this breakdown between product teams versus infrastructure is contributing to that... And I think it's a positive change.
 
-**Mat Ryer:** Maybe we should bust some of this jargon, because you hear infra, I hear systems engineering, and I hear dev ops... Do we agree at least on what these terms mean?
+**Mat Ryer:** Maybe we should bust some of this jargon, because you hear infra, I hear systems engineering, and I hear DevOps... Do we agree at least on what these terms mean?
 
 **Johnny Boursiquot:** No. \[laughter\] It's kind of funny... Let's take for example one of the hot, new titles out there - SRE. You'd think that would carry some sort of consistency from organization to organization...
 
 **Jaana Dogan:** Yeah.
 
-**Johnny Boursiquot:** ...that is entirely not the case, at all. An SRE at Google is gonna be very different from an SRE at Salesforce, and it's gonna be very different from an SRE at Microsoft. Yes, there is a throughline between these things - and that goes for the other titles as well; systems engineer, dev ops engineer - I cringe a little bit when I say that, but... Basically, these terms are gonna mean different things in different organizations... And even over the lifespan of an engineering team, the definition of that role may also change. So I don't think there's one solid definition of what software engineer, database engineer, infrastructure engineer, ops, whatever it is -- I think it's gonna be different everywhere you go.
+**Johnny Boursiquot:** ...that is entirely not the case, at all. An SRE at Google is gonna be very different from an SRE at Salesforce, and it's gonna be very different from an SRE at Microsoft. Yes, there is a throughline between these things - and that goes for the other titles as well; systems engineer, DevOps engineer - I cringe a little bit when I say that, but... Basically, these terms are gonna mean different things in different organizations... And even over the lifespan of an engineering team, the definition of that role may also change. So I don't think there's one solid definition of what software engineer, database engineer, infrastructure engineer, ops, whatever it is -- I think it's gonna be different everywhere you go.
 
 **Shubheksha Jalan:** Yeah.
 
@@ -112,7 +112,7 @@ Sometimes you can't spin up your own -- well, I guess you could spin up your own
 
 **Shubheksha Jalan:** Yeah, I completely agree.
 
-**Mat Ryer:** Is it because people think that this is the kind of serious thing -- it can't go wrong, and therefore you need lots of experience? Does it fall into that kind of category in people's minds? Because I agree, I've never seen junior -- in fact, whenever I think of SRE or dev ops or the people that know this usually, they've been doing it a long time. So it's a very good observation, but I wonder why it is... And it could be that - that we feel like you can't let these things fail. It's got to stay running, so... Maybe they think they can't trust somebody that's junior to do that.
+**Mat Ryer:** Is it because people think that this is the kind of serious thing -- it can't go wrong, and therefore you need lots of experience? Does it fall into that kind of category in people's minds? Because I agree, I've never seen junior -- in fact, whenever I think of SRE or DevOps or the people that know this usually, they've been doing it a long time. So it's a very good observation, but I wonder why it is... And it could be that - that we feel like you can't let these things fail. It's got to stay running, so... Maybe they think they can't trust somebody that's junior to do that.
 
 **Shubheksha Jalan:** I think that's definitely true, and that's on a lot of people's minds... But I don't think that has anything to do with being junior. When you start in a new role, even if you've been doing something for four years and you start in a new role, on your first day you will be scared of screwing things up. So I don't get how that correlates that with experience, because you might be a backend dev, for example, but you might not have done infra... And you can still screw things up, and people do this.
 
@@ -182,7 +182,7 @@ Something that has personally attracted me to this community has been - Go, as w
 
 **Shubheksha Jalan:** Yeah.
 
-**Mat Ryer:** Okay, so one of the things that I was told off by by my dev ops guy was just a specific example... I didn't set the timeout on an HTTP client; so by default, when you use that default client, there's no timeout. So it basically means that your code can hang if there's problems on the network. That was kind of an early sign that told me "I need to understand the actual environment in which my code is gonna run." Are there other things that you wish developers knew, that any of us wish that developers knew, even if we don't have the scope to become experts in this world?
+**Mat Ryer:** Okay, so one of the things that I was told off by by my DevOps guy was just a specific example... I didn't set the timeout on an HTTP client; so by default, when you use that default client, there's no timeout. So it basically means that your code can hang if there's problems on the network. That was kind of an early sign that told me "I need to understand the actual environment in which my code is gonna run." Are there other things that you wish developers knew, that any of us wish that developers knew, even if we don't have the scope to become experts in this world?
 
 **Shubheksha Jalan:** I have one question for you... Did you think about all of this before the show, or do you just loop it in your head every night, before you go to sleep?
 
@@ -268,7 +268,7 @@ So yeah, there's always that, and I think the other danger is that it sort of se
 
 **Mat Ryer:** Brilliant.
 
-**Shubheksha Jalan:** What Johnny said earlier about dev ops and juniors - I just cry a little bit every time I see someone hiring for that... Because I don't know what they expect or what the candidate should expect when applying for that role... Yeah, I just wish that people would stop doing that. And a non-tech one is that I think pizza is overrated.
+**Shubheksha Jalan:** What Johnny said earlier about DevOps and juniors - I just cry a little bit every time I see someone hiring for that... Because I don't know what they expect or what the candidate should expect when applying for that role... Yeah, I just wish that people would stop doing that. And a non-tech one is that I think pizza is overrated.
 
 **Mat Ryer:** Oh, here we go...!
 

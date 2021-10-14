@@ -32,7 +32,7 @@
 
 \[00:04:13.25\] So at that point in time I kept working on it, essentially. I almost \[unintelligible 00:04:18.04\] that codebase, and because of that, they invited me to join the Node.js Technical Steering Committee. As part of my work at the Node.js Steering Committee, I'm also part of the team that organizes the Collaborator Summit, which is right after Node+JS Interactive, so where all Node collaborators and all OpenJS Foundation collaborators can meet together, and have some sessions and discussions, and meet face-to-face, which is pretty great, and it's a very nice experience.
 
-As part of my daily job I'm managing teams of developers, designers, dev ops, building things with Node.js and other technologies. Also a lot of React, and so on and so forth. At NearForm we're invested a lot in Node.js, and we have several people on the TSC as well. James Snell, for example, or Anna Henningsen... The open source philosophy and Node are a key part of what we do and what we are.
+As part of my daily job I'm managing teams of developers, designers, DevOps, building things with Node.js and other technologies. Also a lot of React, and so on and so forth. At NearForm we're invested a lot in Node.js, and we have several people on the TSC as well. James Snell, for example, or Anna Henningsen... The open source philosophy and Node are a key part of what we do and what we are.
 
 **Nick Nisi:** Very cool.
 
