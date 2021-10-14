@@ -206,7 +206,7 @@ So for me, all of this comes back to pretty much optimization. If you pick somet
 
 At this point in my career I'm kind of boring. I don't like the exciting stuff, especially as an SRE. I don't want exciting with the things that I'm responsible for. It's really like "Beyond the standard library, what else do you need?" and "Can you get away with using the standard library, or some very thin wrapper around that?"
 
-**Jon Calhoun:** A question for you, Johnny... You like using the standard library for it, but I feel like in my experience Postgres is the one that interacts the most poorly with the standard library. And more specifically, I'm referring to -- like, \`lastInsertId\` doesn't work... And then I think -- I don't remember which ones use which, but the characters you use for variables you're putting in...
+**Jon Calhoun:** A question for you, Johnny... You like using the standard library for it, but I feel like in my experience Postgres is the one that interacts the most poorly with the standard library. And more specifically, I'm referring to -- like, `lastInsertId` doesn't work... And then I think -- I don't remember which ones use which, but the characters you use for variables you're putting in...
 
 **Johan Brandhorst:** Dollars, yeah.
 
@@ -364,13 +364,13 @@ That's an elaborate and more complicated way of doing it, but that's one where i
 
 **Mat Ryer:** Yeah, yeah.
 
-**Jon Calhoun:** The worst part is I think all they do is they call \`sql.register\`, and they pass in a name, and then they pass in the driver. I think that's literally the line.
+**Jon Calhoun:** The worst part is I think all they do is they call `sql.register`, and they pass in a name, and then they pass in the driver. I think that's literally the line.
 
 **Johnny Boursiquot:** Well, you hope, yeah... You hope... \[laughter\]
 
 **Jon Calhoun:** You hope that's all they're doing... But the worst part is I look at it and I'm like "If I had to import this package, I could have just written that line myself and been done with it."
 
-**Mat Ryer:** That's right, and I think that was it. It was before we had a lot of experience with Go, I think. It was early days, where that just wasn't obvious. It seems really quite obvious now in retrospect. It's the same with the image packages. If you wanna support gif and JPEG and things, you just have to make sure the packages are imported; you don't use them. It's so weird, and I really don't like it. It's no harm to just say \`sql.register\` and pass the thing in. It's a a bit more verbose... So if you're designing packages, then please just make it verbose. It's so tempting to want to be very nice and make users' lives very easy, and do everything for them... But yeah, I think that's one example where you shouldn't try. Don't try and be too clever, just let them import a package and then use it. And if they don't use it, don't import it. Don't have any side effects to importing a package.
+**Mat Ryer:** That's right, and I think that was it. It was before we had a lot of experience with Go, I think. It was early days, where that just wasn't obvious. It seems really quite obvious now in retrospect. It's the same with the image packages. If you wanna support gif and JPEG and things, you just have to make sure the packages are imported; you don't use them. It's so weird, and I really don't like it. It's no harm to just say `sql.register` and pass the thing in. It's a a bit more verbose... So if you're designing packages, then please just make it verbose. It's so tempting to want to be very nice and make users' lives very easy, and do everything for them... But yeah, I think that's one example where you shouldn't try. Don't try and be too clever, just let them import a package and then use it. And if they don't use it, don't import it. Don't have any side effects to importing a package.
 
 **Johnny Boursiquot:** This is one of the cases where ignorance is not bliss.
 
@@ -434,9 +434,9 @@ And again, a bit like the example earlier, of using SQL most of the time, and th
 
 **Johan Brandhorst:** The danger of an SQL injection is that you provide some sort of user input that maybe prematurely interrupts your SQL statement and then construct its own SQL statement, and in such a way could make changes in the database, or extract data from the database in a very dangerous way. And the way that you protect against that sort of thing is by using these placeholders or extrapolated variables. They have many different names...
 
-And the way that Squirrel makes this easier is by -- like, when you normally use the Go standard library database/SQL interface, you may be tempted to just use \`fmt.sprintf\` to construct your queries... This is kind of the major danger, where you might end up causing an SQL injection without thinking about it.
+And the way that Squirrel makes this easier is by -- like, when you normally use the Go standard library database/SQL interface, you may be tempted to just use `fmt.sprintf` to construct your queries... This is kind of the major danger, where you might end up causing an SQL injection without thinking about it.
 
-If you've ever found yourself "Oh, I don't really want to write out this very long SQL query. I don't want to have to map the names myself. I'll just use a \`fmt.sprintf\` in a helper package somewhere", and then accidentally you may have gotten the argument wrong or something like that, and you ended up with something that the user can manipulate inside of your query - that's super-dangerous, and a sure way to just avoid that thing altogether is to use Squirrel, because all of the variables that you put into the builder automatically become interpolated variables.
+If you've ever found yourself "Oh, I don't really want to write out this very long SQL query. I don't want to have to map the names myself. I'll just use a `fmt.sprintf` in a helper package somewhere", and then accidentally you may have gotten the argument wrong or something like that, and you ended up with something that the user can manipulate inside of your query - that's super-dangerous, and a sure way to just avoid that thing altogether is to use Squirrel, because all of the variables that you put into the builder automatically become interpolated variables.
 
 **Johnny Boursiquot:** I need to ask, have you met Bobby Tables?
 

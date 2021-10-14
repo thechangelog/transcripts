@@ -32,7 +32,7 @@
 
 **Jerod Santo:** Yeah.
 
-**Brandon Bayer:** ...after the call I was thinking about it and I was like "You know what, I think we have all the pieces there now to build a real Ruby on Rails for React", which is Next.js; they had just come out with the \`getServerSideProps\` hook, and so you could just have direct database access, but still use Next.
+**Brandon Bayer:** ...after the call I was thinking about it and I was like "You know what, I think we have all the pieces there now to build a real Ruby on Rails for React", which is Next.js; they had just come out with the `getServerSideProps` hook, and so you could just have direct database access, but still use Next.
 
 **Jerod Santo:** Right.
 
@@ -96,13 +96,13 @@ So we were just exploring different ways, and one day I was brainstorming and I 
 
 **Jerod Santo:** Can you give a concrete example of a function you would write server-side, import client-side and execute, that's a common thing, or that lots of apps are gonna do, so people can say "Oh, that's what he's talking about", versus trying to conceptualize it?
 
-**Brandon Bayer:** Sure. Let's say you have a user model in your database, so you need to do CRUD operations (create, read, update, delete). So for each one of those you're gonna have a \`getUsers\` query and then correspondent mutations for create, update and delete. So in the \`getUsers\` function you'll directly access your database; by default, it's Prisma as your client. So you're gonna access a database, you're going to do anything you need to do on the server, whether it's talking to third-party APIs, doing some type of processing, triggering events... So this is kind of like a Rails controller.
+**Brandon Bayer:** Sure. Let's say you have a user model in your database, so you need to do CRUD operations (create, read, update, delete). So for each one of those you're gonna have a `getUsers` query and then correspondent mutations for create, update and delete. So in the `getUsers` function you'll directly access your database; by default, it's Prisma as your client. So you're gonna access a database, you're going to do anything you need to do on the server, whether it's talking to third-party APIs, doing some type of processing, triggering events... So this is kind of like a Rails controller.
 
 **Jerod Santo:** Gotcha.
 
-**Brandon Bayer:** And then you import that function into your client code, into your React components, and you pass it into the \`useQuery\` hook that Blitz provides. That's built on React Query, which we can talk about that... But that query hook will automatically do the data fetching for you, it will do automatic caching, it will do cache invalidation, it will do revalidation if you come back to the window, and it'll make sure it's up to date. You can do polling, and all of those sort of advanced features.
+**Brandon Bayer:** And then you import that function into your client code, into your React components, and you pass it into the `useQuery` hook that Blitz provides. That's built on React Query, which we can talk about that... But that query hook will automatically do the data fetching for you, it will do automatic caching, it will do cache invalidation, it will do revalidation if you come back to the window, and it'll make sure it's up to date. You can do polling, and all of those sort of advanced features.
 
-And then secondly, for the mutations, which is even a little bit more simple - you don't have a \`useMutation\` hook. The mutation you import into your React component, \[unintelligible 00:14:45.09\] you call await, create user, pass in the data... And that's just like a direct function import in your code, but at build time that's swapped out with the API call.
+And then secondly, for the mutations, which is even a little bit more simple - you don't have a `useMutation` hook. The mutation you import into your React component, \[unintelligible 00:14:45.09\] you call await, create user, pass in the data... And that's just like a direct function import in your code, but at build time that's swapped out with the API call.
 
 **Jerod Santo:** Very cool. So these auto-generated API calls that happen at build time - what can happen with auto-generated code (trust me, I've done it before) is that you have a hard time optimizing for the things that you need, and for fetching too much information, and joining across tables that maybe you had no idea you were joining across... These are some of the reasons why GraphQL is a thing, right? Only give me the data I need, not as much side-loading etc. How optimal are those API calls, and are they editable by the person that says "You know, actually I know more about this than Blitz does (in this particular context) because it's contextual." Can I edit those, or am I stuck with what you give me? How does that work?
 
