@@ -356,7 +356,7 @@ There's so much complexity on every single level, and to me the best design syst
 
 **Kevin Ball:** Right.
 
-**Katie Sylor-Miller:** And thinking about the translation from a CSS class to a consistent property that you pass in in a Javascript component is really interesting. And then I think there's a lot around -- you know, the design system that we use, we sort of provide these structural classes and themes, but then we allow folks to heavily modify. We have -- I think Bootstrap does this, Tailwind does this, where you have margin classes, padding classes, borders, text colors...
+**Katie Sylor-Miller:** And thinking about the translation from a CSS class to a consistent property that you pass in in a JavaScript component is really interesting. And then I think there's a lot around -- you know, the design system that we use, we sort of provide these structural classes and themes, but then we allow folks to heavily modify. We have -- I think Bootstrap does this, Tailwind does this, where you have margin classes, padding classes, borders, text colors...
 
 So there's a lot of thinking you have to do about "Okay, so if someone is building this button and they wanna pass through additional classes and parameters", having your React component set up to allow those properties to just get passed right through into the markup that gets output is really important. Because there's a balance. You can't have a property for every single possible thing that people are gonna wanna do with your components... So it's really about thinking "Okay, how can I make it so that it's really clear when I pass in this prop what's the markup gonna look like when it comes out the other side?"
 

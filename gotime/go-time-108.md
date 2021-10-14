@@ -178,7 +178,7 @@ But on top of that, if the amount of data that you have doesn't fit in a single 
 
 **Francesc Campoy:** Yeah.
 
-**Mat Ryer:** But the interface is GraphQL. And like you said, Javascript developers love that, because -- I mean, I think there's something nice about being able to specify exactly the kind of data that you want back, and nothing more... And also in quite a natural way, because the GraphQL is kind of a JSON format, JSON-ish...
+**Mat Ryer:** But the interface is GraphQL. And like you said, JavaScript developers love that, because -- I mean, I think there's something nice about being able to specify exactly the kind of data that you want back, and nothing more... And also in quite a natural way, because the GraphQL is kind of a JSON format, JSON-ish...
 
 **Francesc Campoy:** Yeah.
 
