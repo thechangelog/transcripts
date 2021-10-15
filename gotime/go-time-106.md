@@ -142,27 +142,27 @@ I think a huge part of it - and maybe some developers out there will also agree 
 
 **Jon Calhoun:** That one is fantastic.
 
-**Mat Ryer:** Yeah. So that's why I ask that. There's a few others, too. They're brilliant. And I love the fact that any of us can extend this, as well. We can contribute too if there's something specific. Sometimes you might need something just for your team, and it's not worth sharing, but often I bet if you solve a problem for yourself, you need other people to do it. Do you have to do it in Javascript though, if you wanna write an extension for VS Code?
+**Mat Ryer:** Yeah. So that's why I ask that. There's a few others, too. They're brilliant. And I love the fact that any of us can extend this, as well. We can contribute too if there's something specific. Sometimes you might need something just for your team, and it's not worth sharing, but often I bet if you solve a problem for yourself, you need other people to do it. Do you have to do it in JavaScript though, if you wanna write an extension for VS Code?
 
-**Ramya Rao:** \[00:24:14.20\] Yes. An extension for VS Code has to be in Javascript, because that's how it can talk to VS Code. So yeah... You can get around that, but... Javascript is pretty easy, and most of our Getting Started guides, especially around extension authoring - we spent quite some time last year in improving the docs, especially around how to extend VS Code. So we have a whole lot of samples targeting different parts of the editor on how would you extend it. How would you extend the file explorer? How would you add a new view on the left side, the activity bar? How would you add a status bar item down below? How would you do this, how would you that...? So there are tons of examples already out there.
+**Ramya Rao:** \[00:24:14.20\] Yes. An extension for VS Code has to be in JavaScript, because that's how it can talk to VS Code. So yeah... You can get around that, but... JavaScript is pretty easy, and most of our Getting Started guides, especially around extension authoring - we spent quite some time last year in improving the docs, especially around how to extend VS Code. So we have a whole lot of samples targeting different parts of the editor on how would you extend it. How would you extend the file explorer? How would you add a new view on the left side, the activity bar? How would you add a status bar item down below? How would you do this, how would you that...? So there are tons of examples already out there.
 
-So if you're someone who's thinking of trying to extend VS Code and might feel that "Oh, but I don't know Javascript", there's a lot of starting points you can jump off of. There's a lot of scaffolding already involved. So we hope that the time we spent last year \[unintelligible 00:25:11.18\] from the team definitely lowers the barrier into getting an extension for VS Code.
+So if you're someone who's thinking of trying to extend VS Code and might feel that "Oh, but I don't know JavaScript", there's a lot of starting points you can jump off of. There's a lot of scaffolding already involved. So we hope that the time we spent last year \[unintelligible 00:25:11.18\] from the team definitely lowers the barrier into getting an extension for VS Code.
 
 **Jon Calhoun:** I can say from personal experience that it definitely has... Just from what I've seen. Because there was a time period where I felt like you had to be a full-time extension developer to do something more complicated... And it's gotten to the point where you can actually find an example that is close enough to what you wanna do that you can start moving in the right direction and actually making progress, and you aren't feeling like "Oh, I have to learn this whole thing all over from the ground up." And it's at that point, which -- or at least the last I checked, it seemed, for the things that I wanted to do, it was... Which was really cool.
 
-**Ramya Rao:** Yeah. And even if you don't wanna spend too much time on Javascript, you can always write things in your own language and shell it out... Exactly how the Go extension does. It creates a new child process called Godev, and it gets back the results, parses it and give it back to VS Code. So you can also choose to keep your Javascript middle person very light, and do all your heavy-lifting maybe if you wanna do it in Go, or any other language that can provide you a command line tool, so you can just shell it out.
+**Ramya Rao:** Yeah. And even if you don't wanna spend too much time on JavaScript, you can always write things in your own language and shell it out... Exactly how the Go extension does. It creates a new child process called Godev, and it gets back the results, parses it and give it back to VS Code. So you can also choose to keep your JavaScript middle person very light, and do all your heavy-lifting maybe if you wanna do it in Go, or any other language that can provide you a command line tool, so you can just shell it out.
 
-**Mat Ryer:** That's a nice idea. That's probably what I'd do if I was gonna build that. And I like Javascript... I just wanna say, I like Javascript. It's common in the Go community to poke fun at it, but I don't. I like it.
+**Mat Ryer:** That's a nice idea. That's probably what I'd do if I was gonna build that. And I like JavaScript... I just wanna say, I like JavaScript. It's common in the Go community to poke fun at it, but I don't. I like it.
 
-**Jon Calhoun:** See, the only thing I dislike about Javascript is I don't like writing Javascript the way that I probably should. I write Javascript more like I write Go code.
+**Jon Calhoun:** See, the only thing I dislike about JavaScript is I don't like writing JavaScript the way that I probably should. I write JavaScript more like I write Go code.
 
 **Mat Ryer:** Hm... That's okay.
 
-**Jon Calhoun:** So as long as you're okay with that, I like Javascript just fine.
+**Jon Calhoun:** So as long as you're okay with that, I like JavaScript just fine.
 
 **Ramya Rao:** Hey, as long as your extension works, I don't think anybody cares... \[laughs\]
 
-**Mat Ryer:** Yeah... But Jon, if you write it in a Go style, then you'll be using a subset probably of Javascript, I suppose.
+**Mat Ryer:** Yeah... But Jon, if you write it in a Go style, then you'll be using a subset probably of JavaScript, I suppose.
 
 **Jon Calhoun:** Oh yeah, I don't use the arrow functions and stuff like that nearly as much as other people do, but I think it's just because it's not what I'm familiar with. I haven't messed with it enough to really get comfortable with all those.
 

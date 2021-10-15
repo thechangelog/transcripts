@@ -462,9 +462,9 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Kevin Ball:** Except TypeScript...
 
-**Divya Sasidharan:** Like, "I'm javascripting right now. I'm on the JavaScript --" I don't know...
+**Divya Sasidharan:** Like, "I'm JavaScripting right now. I'm on the JavaScript --" I don't know...
 
-**Jerod Santo:** "I'm javascripting right now..." \[laughter\]
+**Jerod Santo:** "I'm JavaScripting right now..." \[laughter\]
 
 **Kevin Ball:** We were just talking about one of the extensions of JavaScript to TypeScript. I think the brand is extremely strong. People are trying to ride the JavaScript brand; increasingly, JavaScript is trying to ride the JavaScript brand, because we're the popular ones.
 
