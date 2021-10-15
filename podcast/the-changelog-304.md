@@ -132,7 +132,7 @@ In fact, even just last week we launched an open source model called Cloud Event
 
 **Jerod Santo:** Exactly.
 
-**Corey Sanders:** I also think actually it's a great scenario for automation. This is where we've seen a lot of usage for serverless, in fact maybe even more than IoT, which is every time a VM gets created, do this thing; every time a storage thing happens, do this thing. This type of automation, this type of dev ops experience - I've seen a lot of usage of serverless in very exciting scenarios.
+**Corey Sanders:** I also think actually it's a great scenario for automation. This is where we've seen a lot of usage for serverless, in fact maybe even more than IoT, which is every time a VM gets created, do this thing; every time a storage thing happens, do this thing. This type of automation, this type of DevOps experience - I've seen a lot of usage of serverless in very exciting scenarios.
 
 \[00:11:56.24\] The one that I think is still pending, frankly, is an entire app being written with serverless. It's very hard... It's very hard because the tooling is just not there, and I feel like we're farthest along in some of these things - like, you can do local debugging of functions, so you can basically bring a function down, you can run it locally in your box, you can debug it, you can put breakpoints and so on, just like you'd expect for a normal app... But still, function chaining, which you need to write a large app, is very hard.
 

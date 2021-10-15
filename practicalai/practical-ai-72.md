@@ -74,7 +74,7 @@ This is an infrastructure environment that has pre-cyber-hardened tools that are
 
 So the goal very much is to give our communities of developers access to the same types of things that they would be using if they were doing so in a commercial industry environment, but doing so in a way that gives us confidence about the security of that operation.
 
-In the commercial world, a lot of what we talk about in software development is what's called dev ops (development operations) and the sort of seamless figure 8 loop between those two, where you're constantly adding features, deploying those features, gaining feedback from your users on how those features are used, which informs how you might wanna modify them or come to it with a new batch of features, or overhauled software in more significant ways.
+In the commercial world, a lot of what we talk about in software development is what's called DevOps (development operations) and the sort of seamless figure 8 loop between those two, where you're constantly adding features, deploying those features, gaining feedback from your users on how those features are used, which informs how you might wanna modify them or come to it with a new batch of features, or overhauled software in more significant ways.
 
 In the Department of Defense we have adapted that paradigm to dev sec ops, which sort of recognizes the different security requirements that you might have at each stage in the development and operations process. So for the machine learning world, some of this is relatively uncharted territory, which makes it exciting, but we're finding that a lot of the value that we can add is I'm just taking commercial and academic and open source tools and adapting them to the national security use case.
 

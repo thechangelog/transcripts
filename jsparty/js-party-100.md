@@ -68,7 +68,7 @@ You only really need the bulk data to get the analysis piece to understand which
 
 **Jerod Santo:** Yeah.
 
-**Amal Hussein:** But you know, there's something nice about being in a multi-track conference, because you have an opportunity to connect and break the silos within tech. We're all at All Things Open, and there's a Dev Ops track, and there's a Blockchain track... Guess who didn't go to any blockchain talks...?
+**Amal Hussein:** But you know, there's something nice about being in a multi-track conference, because you have an opportunity to connect and break the silos within tech. We're all at All Things Open, and there's a DevOps track, and there's a Blockchain track... Guess who didn't go to any blockchain talks...?
 
 **Jerod Santo:** This guy.
 

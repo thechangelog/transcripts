@@ -316,7 +316,7 @@ The other approach is a lot of things that we do in the do-gooder space is not s
 
 **Jerod Santo:** Have you tried hosting, or is that something that you don't wanna touch with a ten-foot pole?
 
-**Yaw Anokwa:** \[01:04:02.00\] \[laughs\] I love hosting. I just love dev ops, just as a hobby. I love hosting servers... So I love dev ops, but I think the challenge with hosting for ODK in particular is that there are other folks in the ecosystem who have a pure hosting business. So I as one of the project leaders, I wanna be sensitive to not competing with our community members. There's no point in bankrupting one partner just to fund the project.
+**Yaw Anokwa:** \[01:04:02.00\] \[laughs\] I love hosting. I just love DevOps, just as a hobby. I love hosting servers... So I love DevOps, but I think the challenge with hosting for ODK in particular is that there are other folks in the ecosystem who have a pure hosting business. So I as one of the project leaders, I wanna be sensitive to not competing with our community members. There's no point in bankrupting one partner just to fund the project.
 
 Hosting is something that we've talked about at a project governance level, but currently I don't think it's necessary. I think it's also not -- I think the reality is the largest streams of money, at least in our industry, a lot of it comes from (for lack of a better word) consulting. Services revenue, fells to me, like a better way of funding the project. But you never know... Things change, so we'll adjust as necessary.
 

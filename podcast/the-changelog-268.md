@@ -290,11 +290,11 @@ There is a second reason that in Brazil when our (let's say) Federal Bureau of I
 
 **Eduardo Cuducos:** Well, we would be really proud of you get inspired by some of our ideas and try to do something local. You don't have to help us out in the sense of making this project better in Brazil for the levels of administration we are working at; feel free to take the idea forward. This would be amazing.
 
-If you are just wanting to get in the code and stuff, we have a lot of issues, from deployment to UX, to dev ops, to data science... A lot of analysis we would like to do and we just can't, we just haven't had time to do it. This is basically because we started with this big crowdfunding campaign, and since then we've basically had no other big fundraising, except a recurring crowdfunding campaign we started when we ran out of money.
+If you are just wanting to get in the code and stuff, we have a lot of issues, from deployment to UX, to DevOps, to data science... A lot of analysis we would like to do and we just can't, we just haven't had time to do it. This is basically because we started with this big crowdfunding campaign, and since then we've basically had no other big fundraising, except a recurring crowdfunding campaign we started when we ran out of money.
 
 \[01:00:17.24\] We are really glad because there's people who are supporting us, but unfortunately the amount of money we raise is not enough to put a couple of people (two, three, four people) working full-time on the project, so right now we just have two or three part-time developers in the project.
 
-So if you wanna write code, there's a lot of things to write, from data science to development, to UX, to dev ops, or whatever. There's a lot of communication stuff going on - there is someone looking after our social media, there's people from law school helping us to dig into laws and think about new ways to get better results out of the report, or maybe you think about new hypotheses that could be translated into classifiers...
+So if you wanna write code, there's a lot of things to write, from data science to development, to UX, to DevOps, or whatever. There's a lot of communication stuff going on - there is someone looking after our social media, there's people from law school helping us to dig into laws and think about new ways to get better results out of the report, or maybe you think about new hypotheses that could be translated into classifiers...
 
 Actually, there's a lot of things to do if you wanna help us... Just getting started reading something about us. There's our website - probably the link will go in the podcast post - or maybe in our GitHub, for more tech-savvy people... Feel free to drop a line on GitHub saying hi.
 

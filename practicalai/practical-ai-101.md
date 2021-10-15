@@ -198,7 +198,7 @@ Now, for AI/ML and data science, the transformation I've seen in the field is th
 
 **Chris Benson:** It's fine, yeah.
 
-**Daniel Whitenack:** I think some of those things that I see, like you're talking about, definitely resonate with me. I definitely think-- like, when I first got into data science, the hardware wasn't really... I wasn't thinking a ton about it, and I was also, like you're saying, shipping off that three-gigabyte software container to dev ops Doug, and he was figuring out and hating me because it took however long to build, and all of those things... So it's good to hear you talk about some of those things, and I definitely see how a lot of these main components that you're supporting are really fundamental.
+**Daniel Whitenack:** I think some of those things that I see, like you're talking about, definitely resonate with me. I definitely think-- like, when I first got into data science, the hardware wasn't really... I wasn't thinking a ton about it, and I was also, like you're saying, shipping off that three-gigabyte software container to DevOps Doug, and he was figuring out and hating me because it took however long to build, and all of those things... So it's good to hear you talk about some of those things, and I definitely see how a lot of these main components that you're supporting are really fundamental.
 
 I was just doing some speech recognition stuff end of last week and over the weekend on NVIDIA NeMo, and they were like "Well, you need to install Numba to speed up some of these data augmentation things for the speech files...", which is like a main component of the thing; it's really driving that. And that really influences the actual AI training and the quality of that... So these sort of preprocessing things and all of those are really fundamental.
 
@@ -218,13 +218,13 @@ The previous approaches to data management don't work anymore. But of course, ch
 
 **Break:** \[00:43:28.13\]
 
-**Chris Benson:** Okay, so a few minutes ago we were touching on deployment, and I know Daniel made his dev ops Doug allusion there... So I actually wanna go back to that for a moment.
+**Chris Benson:** Okay, so a few minutes ago we were touching on deployment, and I know Daniel made his DevOps Doug allusion there... So I actually wanna go back to that for a moment.
 
-**Daniel Whitenack:** Some day I really hope dev ops Doug listens to this.
+**Daniel Whitenack:** Some day I really hope DevOps Doug listens to this.
 
 **Chris Benson:** He's gonna send you hate mail.
 
-**Daniel Whitenack:** Just so you know, Peter, Doug was my first dev ops engineer that I worked with when I first started out at a startup, and he taught me all sorts of great things. Anyway, go ahead...
+**Daniel Whitenack:** Just so you know, Peter, Doug was my first DevOps engineer that I worked with when I first started out at a startup, and he taught me all sorts of great things. Anyway, go ahead...
 
 **Chris Benson:** Yeah, we're gonna get our first Practical AI hate mail from every Doug--
 

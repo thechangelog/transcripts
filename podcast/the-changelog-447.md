@@ -286,7 +286,7 @@ Now, I try to limit myself to three. This was my top. The other one is "How to b
 
 **Dave Farley:** Don't trust me either. Try it out. \[laughs\]
 
-**Gerhard Lazu:** Try it out, yeah. That's the best one. And "What's wrong with the state of dev ops?" That's the one that I want to watch again, because that's another very good video. We don't have time to talk about the specifics, but if anything, I feel like we should have another interview. We're just finishing this one, so I'm not sure how that's going to work, but I would definitely like to get together again - maybe this year; if not, next year is fine as well - to do another check-in, see how it's going.
+**Gerhard Lazu:** Try it out, yeah. That's the best one. And "What's wrong with the state of DevOps?" That's the one that I want to watch again, because that's another very good video. We don't have time to talk about the specifics, but if anything, I feel like we should have another interview. We're just finishing this one, so I'm not sure how that's going to work, but I would definitely like to get together again - maybe this year; if not, next year is fine as well - to do another check-in, see how it's going.
 
 Right now, you had like 53,000 subscribers, or 54,000. That was yesterday, by the way. It changes day to day. So let's see how many subscribers you'll have next time. When I started watching, you had like 5,000, 6,000, and then it just exploded. So yeah, the response has been positive. I hope you're pleased with it, because I'm very pleased with this YouTube channel... And thank the pandemic that it happened, right? \[laughter\] It's the weirdest thing to say, but it's the truth. If it wasn't for it, we would never have this YouTube channel.
 

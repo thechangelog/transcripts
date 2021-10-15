@@ -28,7 +28,7 @@
 
 **Adam Stacoviak:** You have to choose a lexicon that everybody gets, right?
 
-**Adam Jacob:** \[00:04:11.01\] Yeah... And I'm a systems administrator, and I hate that dev ops became a job title, because I feel like it meant that my people gave up their identity... But nobody cares, so whatever... I call them dev ops engineers, like everybody else.
+**Adam Jacob:** \[00:04:11.01\] Yeah... And I'm a systems administrator, and I hate that DevOps became a job title, because I feel like it meant that my people gave up their identity... But nobody cares, so whatever... I call them DevOps engineers, like everybody else.
 
 **Jerod Santo:** I still call Adam out, because he uses the word "literally" non-literally... And it's just like "Jerod, give it up, man. You've lost that battle." \[laughter\]
 
@@ -534,7 +534,7 @@ And you can rely on that community to get you through those hard things. And whe
 
 **Adam Jacob:** Yeah. I mean, it's definitely stealth mode. It's real good progress. System Initiative, when I think about the things that I care about and have cared about a long time, I really care about what it feels like day to day to build software and ship it and then to run it in production over time. That's the thing that I'm most nerdy about. And I like it both from the point of view of just like for myself and my own teams, but I love it when it's in the complicated world of the enterprise. I find huge companies and how they've figured out how to do that just fascinating, because there's so many amazing people that work in those companies that often feel a little more like their hands are tied, that folks who work in startups, that tend to feel like they can just sort of do what they want... But if you work at Morgan Stanley or whatever - not to pick on Morgan Stanley; I don't know anything about Morgan Stanley... But they probably don't feel like they can just do whatever they want. There's probably a process they need to weed through.
 
-So that's what I love, and have always loved doing, and I think coming out of Chef and looking at my experience of sort of how dev ops and digital transformation and all of those things had sort of happened - I think we had a lot of real success for a long time at making people feel like they had a superpower in their ability to deliver that software, and they were really orders of magnitude better than they were...
+So that's what I love, and have always loved doing, and I think coming out of Chef and looking at my experience of sort of how DevOps and digital transformation and all of those things had sort of happened - I think we had a lot of real success for a long time at making people feel like they had a superpower in their ability to deliver that software, and they were really orders of magnitude better than they were...
 
 I think what I still see is that the ambition that people have to be good at delivering software and at managing those systems, and the complexity with which they would like to build systems - and by complexity I mean just like, if I wanna build something really great, it might have a lot of moving parts. And so their willingness to build something amazing, that has a lot of moving parts I think has increased, as our use of the internet has increased... All those things are now even more obvious than they were a while ago.
 

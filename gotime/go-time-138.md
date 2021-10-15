@@ -12,7 +12,7 @@ To start off, both of you do have experience diving into Go, so I guess let's ju
 
 **Jacquie Grindrod:** Yeah, sure. So I guess just a quick introduction - my name is Jacquie, as you mentioned, and I'm a developer advocate at HashiCorp, which is one of the driving reasons I really wanted to start getting more into Go. It's my goal to eventually be able to contribute to the future development of some of our products. Otherwise, I got Canada Top 30 Under 30 Developers, so that's like a fun talking point, if anyone wants to talk to me about it. It's still surprising to me; it's been a year, but... \[laughs\]
 
-And then coming out of being a dev ops practitioner for the last five years, with a focus in the healthcare environment... So yeah, I was getting started with Go next, right...?
+And then coming out of being a DevOps practitioner for the last five years, with a focus in the healthcare environment... So yeah, I was getting started with Go next, right...?
 
 **Jon Calhoun:** Yeah, so what was your experience learning Go? How did you go about doing it? I think yours is probably one of the more unique approaches.
 
@@ -316,7 +316,7 @@ But then even beyond that, you just get multiple perspectives from everything. I
 
 **DaShaun Carter:** I'm there.
 
-**Jacquie Grindrod:** Yes! Okay, I'm writing that down, too. But I did have a team where -- we were a dev ops team that was supporting about seven different products. Some were going live, some were old... There was a lot going on. And we made this push that all tasks should be pair-programmed. And we did get a lot of pushback, that was like "Well, there's only four of you, and we have all this stuff going on. It needs to go to prod. We don't have time for you to do that, we don't have the luxury of pair programming." And what ended up happening was that we pushed back, we did the pair programming, and... You know there's that first bump, where you're like "What's the best practice for pair programming?" We literally googled that, and found the first thing and ran with that, where you'd do like 15 minutes driving, and then you'd swap , and the person that wasn't driving would be taking the documentation notes as you go. So now you've already got doc notes, and it's working...
+**Jacquie Grindrod:** Yes! Okay, I'm writing that down, too. But I did have a team where -- we were a DevOps team that was supporting about seven different products. Some were going live, some were old... There was a lot going on. And we made this push that all tasks should be pair-programmed. And we did get a lot of pushback, that was like "Well, there's only four of you, and we have all this stuff going on. It needs to go to prod. We don't have time for you to do that, we don't have the luxury of pair programming." And what ended up happening was that we pushed back, we did the pair programming, and... You know there's that first bump, where you're like "What's the best practice for pair programming?" We literally googled that, and found the first thing and ran with that, where you'd do like 15 minutes driving, and then you'd swap , and the person that wasn't driving would be taking the documentation notes as you go. So now you've already got doc notes, and it's working...
 
 At the end of the day it saved us so much time... As you mentioned, you get that context that you might not have gotten otherwise, and lots of learning experiences.
 
