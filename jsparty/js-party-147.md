@@ -26,7 +26,7 @@
 
 **Jerod Santo:** Emma has buzzed in.
 
-**Emma Bostian:** \`Array.forEach( )\` ?
+**Emma Bostian:** `Array.forEach( )` ?
 
 **Jerod Santo:** I'm sorry, that is not on the list.
 
@@ -46,11 +46,11 @@
 
 **Jerod Santo:** Well, so he's up to win the board, and then his team will full partake... So hold on there, even though you know the answer. Kball, name a JavaScript function that most frontenders know.
 
-**Kevin Ball:** Hm... \`encodeURIComponent( )\`.
+**Kevin Ball:** Hm... `encodeURIComponent( )`.
 
 **Jerod Santo:** \[fail sound\] You're making this way harder than it needs to be... \[laughter\] Back to Emma. Emma, please name a JavaScript -- you already know the question. What have you got?
 
-**Emma Bostian:** How about \`addEventListener( )\`? \[fail sound\] I don't know... This is such a weird question, Jerod.
+**Emma Bostian:** How about `addEventListener( )`? \[fail sound\] I don't know... This is such a weird question, Jerod.
 
 **Jerod Santo:** We've surveyed 112 JS Party listeners... 27 of them said the exact same thing. Kball, what is a JavaScript function that most frontenders know? Frontend Feud off to a hot start... \[laughter\]
 
@@ -72,7 +72,7 @@
 
 **Jerod Santo:** Okay.
 
-**Emma Bostian:** How about \`window.setTimeout( )\`? \[fail sound\]
+**Emma Bostian:** How about `window.setTimeout( )`? \[fail sound\]
 
 **Jerod Santo:** You're getting more obscure. Try to get less obscure. \[laughter\]
 
@@ -90,27 +90,27 @@
 
 **Jerod Santo:** She did. That one is somewhat close, I guess, if you wanna play hot or cold... You're warm.
 
-**Kevin Ball:** Alright, let's say map. \`Array.map( )\`. \[win sound\]
+**Kevin Ball:** Alright, let's say map. `Array.map( )`. \[win sound\]
 
-**Jerod Santo:** That is correct! 27 people said \`Array.map( )\`, so Kball, there are now five answers on the board. You've given one of them. Your team has three chances to name the other four, at which point you get all the points. Or you can pass it to the other team and make them try to answer these. What would you like to do?
+**Jerod Santo:** That is correct! 27 people said `Array.map( )`, so Kball, there are now five answers on the board. You've given one of them. Your team has three chances to name the other four, at which point you get all the points. Or you can pass it to the other team and make them try to answer these. What would you like to do?
 
 **Kevin Ball:** Given how this started, I'm gonna pass.
 
 **Jerod Santo:** You're gonna pass, okay. So team Emma is going to play the board, and we're gonna start with Abenezer, because Emma has had plenty of guesses already. Abenezer, name a JavaScript function that most frontenders know.
 
-**Abenezer Abebe:** \`getElementById( )\`? \[win sound\]
+**Abenezer Abebe:** `getElementById( )`? \[win sound\]
 
-**Jerod Santo:** Correct. Four people answered with \`getElementById( )\`.
+**Jerod Santo:** Correct. Four people answered with `getElementById( )`.
 
 **Emma Bostian:** Hell yes! Sweden for the win!
 
 **Jerod Santo:** You have two of the five. There's three left on the board; slots 2, 3 and 4 are still wide open. Nick, your turn.
 
-**Nick Nisi:** I will go with \`querySelector( )\`. \[win sound\]
+**Nick Nisi:** I will go with `querySelector( )`. \[win sound\]
 
-**Jerod Santo:** \`querySelector( )\` is on there. That's the number four answer. Five people answered \`querySelector( )\`. You're off to a much better start than your team captain... Speaking of - Emma, it's your turn.
+**Jerod Santo:** `querySelector( )` is on there. That's the number four answer. Five people answered `querySelector( )`. You're off to a much better start than your team captain... Speaking of - Emma, it's your turn.
 
-**Emma Bostian:** How about \`getElementsByClassName( )\`? \[fail sound\] Ah, for f\*\*\*\* sake! \[laughter\]
+**Emma Bostian:** How about `getElementsByClassName( )`? \[fail sound\] Ah, for f\*\*\*\* sake! \[laughter\]
 
 **Jerod Santo:** Careful there...
 
@@ -164,7 +164,7 @@
 
 **Jerod Santo:** Yeah, go ahead and discuss.
 
-**Kevin Ball:** I feel like the guesses that we were making upfront - Jerod was saying we were in the right ballpark, and we could only hit number one on those ones... So I'm guessing \`Array.forEach( )\` is probably in there still. What do you all think?
+**Kevin Ball:** I feel like the guesses that we were making upfront - Jerod was saying we were in the right ballpark, and we could only hit number one on those ones... So I'm guessing `Array.forEach( )` is probably in there still. What do you all think?
 
 **Ali Spittel:** No, I think it's in the top five--
 
@@ -180,9 +180,9 @@
 
 **Jerod Santo:** Yeah, you were missing all of them.
 
-**Mikeal Rogers:** I'm a little bit torn right now between a couple... So the ones that I think it may be are \`toString( )\`, because it's all over the place, and pretty obvious... And then the JSON methods for stringify and parse.
+**Mikeal Rogers:** I'm a little bit torn right now between a couple... So the ones that I think it may be are `toString( )`, because it's all over the place, and pretty obvious... And then the JSON methods for stringify and parse.
 
-**Ali Spittel:** Oh, interesting. \`parseInt( )\` would be another interesting one... Or filter.
+**Ali Spittel:** Oh, interesting. `parseInt( )` would be another interesting one... Or filter.
 
 **Mikeal Rogers:** Yeah...
 
@@ -208,7 +208,7 @@
 
 **Mikeal Rogers:** Okay.
 
-**Kevin Ball:** I like either \`parseInt( )\` or \`JSON.stringify( )\`.
+**Kevin Ball:** I like either `parseInt( )` or `JSON.stringify( )`.
 
 **Ali Spittel:** Yeah.
 
@@ -216,11 +216,11 @@
 
 **Ali Spittel:** Either one.
 
-**Mikeal Rogers:** \`JSON.stringify( )\` I think is probably more likely.
+**Mikeal Rogers:** `JSON.stringify( )` I think is probably more likely.
 
-**Kevin Ball:** Let's go with it. \`JSON.stringify( )\`. \[fail sound\] Aww...! Was it \`parseInt( )\`?
+**Kevin Ball:** Let's go with it. `JSON.stringify( )`. \[fail sound\] Aww...! Was it `parseInt( )`?
 
-**Jerod Santo:** I will say that both \`JSON.stringify( )\` and \`parseInt( )\` had been answered, but they were all with one point. Not enough. You're probably gonna kick yourself... The number two answer, with 24 answers, is \`console.log( )\`. \[laughter\]
+**Jerod Santo:** I will say that both `JSON.stringify( )` and `parseInt( )` had been answered, but they were all with one point. Not enough. You're probably gonna kick yourself... The number two answer, with 24 answers, is `console.log( )`. \[laughter\]
 
 **Mikeal Rogers:** Of course.
 
@@ -230,7 +230,7 @@
 
 **Emma Bostian:** To be fair, Jerod, my first original answer was so close... I just want credit for that, because...
 
-**Jerod Santo:** \`forEach( )\`?
+**Jerod Santo:** `forEach( )`?
 
 **Emma Bostian:** Was that my first one?
 
