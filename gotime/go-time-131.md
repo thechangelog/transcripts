@@ -48,7 +48,7 @@ It's also interesting to hear you talk about it this way, Denise, because we've 
 
 I'm wondering how you see the idioms of the community. Do they help/hinder, did they help you in your learning? Do you sometimes find yourself deviating? How do you treat what we generally refer to as idiomatic go?
 
-**Denise Yu:** Personally, I try to follow idioms as much as possible, but I also acknowledge that I've been programming for a couple years now, and for me learning a new language's idioms is not such a high barrier anymore, because I've done it for a bunch of other languages by now... The one thing I think makes onboarding a little easier is that Go ships with tools that in a lot of times enforces these idioms. For \`gofmt\` for example. I don't know if you consider spacing and indentation part of a language's idioms - maybe, maybe not. But if you just run Go Format, it's not even something you need to think about.
+**Denise Yu:** Personally, I try to follow idioms as much as possible, but I also acknowledge that I've been programming for a couple years now, and for me learning a new language's idioms is not such a high barrier anymore, because I've done it for a bunch of other languages by now... The one thing I think makes onboarding a little easier is that Go ships with tools that in a lot of times enforces these idioms. For `gofmt` for example. I don't know if you consider spacing and indentation part of a language's idioms - maybe, maybe not. But if you just run Go Format, it's not even something you need to think about.
 
 **Johnny Boursiquot:** Right.
 

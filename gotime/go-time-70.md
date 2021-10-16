@@ -32,7 +32,7 @@
 
 **Brian Ketelsen:** Okay.
 
-**Leonid Kalneus:** Yeah. After that I started to work on different technical communities in Novosibirsk, so now I lead the Google developer group there, and we have several series of technical meetups - we have meetups about Golang, we have meetups about Android, we have meetups about dev ops, and so on. Also, we have one big conference there called [DevFest Siberia](https://gdg-siberia.com/). We started to organize this conference probably two years ago. We even had [Dave Cheney](https://twitter.com/davecheney) last year... In Siberia, can you imagine that? \[laughter\]
+**Leonid Kalneus:** Yeah. After that I started to work on different technical communities in Novosibirsk, so now I lead the Google developer group there, and we have several series of technical meetups - we have meetups about Golang, we have meetups about Android, we have meetups about DevOps, and so on. Also, we have one big conference there called [DevFest Siberia](https://gdg-siberia.com/). We started to organize this conference probably two years ago. We even had [Dave Cheney](https://twitter.com/davecheney) last year... In Siberia, can you imagine that? \[laughter\]
 
 **Carlisia Thompson:** I can't imagine anybody in Siberia... It's so far and so cold.
 

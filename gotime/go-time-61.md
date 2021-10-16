@@ -16,7 +16,7 @@
 
 **Jason Keene:** Yeah, so I joined Pivotal about two years ago now, and I work explicitly on Cloud Foundry. Cloud Foundry, for people who don't know, is an enterprise platform as a service, similar in style to Heroku, but it's on-prem. You can also run it in the cloud, in Google, or AWS, or whatever. So yeah, that's kind of like what Cloud Foundry is all about.
 
-**Andrew Poydence:** I joined over three years ago, and started on [Loggregator](https://github.com/cloudfoundry/loggregator), which is the log system for Cloud Foundry, where if you have an application running in Cloud Foundry, your `stdout` and `stderr` could be gathered and shipped off to you, as the developer. That's then morphed into also like a dev ops perception, to where all the different VM's and stuff are shipping their logs as well, and starting to ship metrics as well, so that you can have operators maintain this \[unintelligible 00:02:34.19\] deployment involves hundreds and hundreds of VM's.
+**Andrew Poydence:** I joined over three years ago, and started on [Loggregator](https://github.com/cloudfoundry/loggregator), which is the log system for Cloud Foundry, where if you have an application running in Cloud Foundry, your `stdout` and `stderr` could be gathered and shipped off to you, as the developer. That's then morphed into also like a DevOps perception, to where all the different VM's and stuff are shipping their logs as well, and starting to ship metrics as well, so that you can have operators maintain this \[unintelligible 00:02:34.19\] deployment involves hundreds and hundreds of VM's.
 
 **Erik St. Martin:** And just for like a separation of voices, that was Jason who spoke first, and Andrew second, right?
 

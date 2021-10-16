@@ -70,9 +70,9 @@ So we don't do a lot of transforms with the TypeScript compiler, but obviously t
 
 But there's this other project which we got on to that is called SWC, and it effectively is a JavaScript and TypeScript AST compiler and transformer, written fully in Rust... And it is super, super-fast. It is orders of magnitude faster than the Babel and the TypeScript AST compiler. The target for SWC is really to kind of replace WebPack/Babel in Rust. So it's kind of doing that heavy lifting; it can strip types out of TypeScript. So it doesn't enforce types, but it does the type-stripping, which Babel can do as well, and then it emits stuff, and they're beginning to implement the WebPack type of things... And it is super, super-fast.
 
-We have that integrated into Deno at the moment. The main purpose that it serves today - it does two things. If you use Deno Dock and the module, it'll read the JSDoc and emit a text thing to your console of the documentation for the module. If you do it with --json, you'll get a JSON blob emitted out from it, giving you a documentation structure for that. That's all powered by SWC. And then the other thing in Deno that heavily uses it at the moment is that we had Prettier incorporated into Deno... So you do \`deno fmt\` format and it'll reformat your modules for you. The problem is Prettier not being Rust, it's pretty darn slow, and it was a lot of stuff to load into Deno. We were lazily-loading it, so we'd go and fetch it and run it, and it was just becoming a bit of a pain...
+We have that integrated into Deno at the moment. The main purpose that it serves today - it does two things. If you use Deno Dock and the module, it'll read the JSDoc and emit a text thing to your console of the documentation for the module. If you do it with --json, you'll get a JSON blob emitted out from it, giving you a documentation structure for that. That's all powered by SWC. And then the other thing in Deno that heavily uses it at the moment is that we had Prettier incorporated into Deno... So you do `deno fmt` format and it'll reformat your modules for you. The problem is Prettier not being Rust, it's pretty darn slow, and it was a lot of stuff to load into Deno. We were lazily-loading it, so we'd go and fetch it and run it, and it was just becoming a bit of a pain...
 
-David Sherret, who has written a couple really awesome tools, wrote dprint, based on SWC. So 90% of dprint is in Rust, which he usually moves to WASM, but we've integrated it directly into Deno... So \`deno fmt\` is pretty darn fast in reformatting files, and you can reformat your whole project code with it.
+David Sherret, who has written a couple really awesome tools, wrote dprint, based on SWC. So 90% of dprint is in Rust, which he usually moves to WASM, but we've integrated it directly into Deno... So `deno fmt` is pretty darn fast in reformatting files, and you can reformat your whole project code with it.
 
 **Break:** \[00:19:37.21\]
 
@@ -94,7 +94,7 @@ And then communication between V8 and JavaScript, and the sandbox - there's only
 
 **Divya:** Okay... \[laughs\]
 
-**Kitson Kelly:** So what happens is we do a lot of legwork in Rust. For example, when you give a module -- let's say you start on the command line and you give it a module. What we will do is Deno has a built-in cache, which is controllable... So you can move it around. It defaults to a particular location. And if you do \`deno info\`, you'll get the information of where that cache is located, and you can go and introspect that.
+**Kitson Kelly:** So what happens is we do a lot of legwork in Rust. For example, when you give a module -- let's say you start on the command line and you give it a module. What we will do is Deno has a built-in cache, which is controllable... So you can move it around. It defaults to a particular location. And if you do `deno info`, you'll get the information of where that cache is located, and you can go and introspect that.
 
 \[00:23:39.10\] So we get that module, and the first thing we do is we figure out "Hey, are you trying to refer to a local module or a remote module?" This is all happening in Rust, so we do a bit of work there. Then once we figure out the absolute path for that, be it a web server or a local file, we look in the cache and say "Hey, have we seen this file before?" And if it's in the cache, we'll pull it out.
 
@@ -134,7 +134,7 @@ There's two CDNs that are really useful for Deno at the moment. There's pika.dev
 
 The other cool thing is -- Fred, who is kind of the ringleader behind it, worked with us... And we were like "We have all of this TypeScript code out there, that's been transpiled to JavaScript and bundled up, and we have all these other types that are out there available in \[unintelligible 00:34:00.19\] How can we sort of allow Deno to access those types and allow people to safely develop off of stuff in TypeScript on code consuming those packages, but not have the overhead of doing all of that transpilation, and take the advantage of the fact that it's already bundled up?"
 
-So what we added to Deno is a feature where if the remote server sends a header called \`x-typescript-types\`, and it has the content of a URL, Deno will go off and fetch those types, and use that in place of the JavaScript when type-checking any work that's consuming that module or package.
+So what we added to Deno is a feature where if the remote server sends a header called `x-typescript-types`, and it has the content of a URL, Deno will go off and fetch those types, and use that in place of the JavaScript when type-checking any work that's consuming that module or package.
 
 So if you go to pika.dev and you find an Npm package that you want, most of the time - and there's always caveats with it - it'll work under Deno. You'll just be able to import it, you'll get type safety... It works beautifully.
 
@@ -190,7 +190,7 @@ So those are things that -- we didn't even have those originally in our package 
 
 **Kitson Kelly:** Yeah, so deno cache contains the original JavaScript file, the headers - because those actually become important; those TypeScript headers that we talked about earlier, the type headers - they become important. Plus we follow redirects, and all that sort of stuff... So in order to be able to rebuild that locally, and make sure we get the right module and all that sort of stuff, we have to keep the headers... And then, again, if it originally was a TypeScript file, and we've transpiled it to JavaScript, we will cache that in the cache, as well. But that's all just laid out in there.
 
-So again, if you do \`deno info\`, you'll see the location of your deno cache, and you can go in there and look at those files. But it's all persisted the file system, and start up again... Again, we just simply look and say "If we resolve to this URL, or even a local path, is that in the cache?" And we take a look in the cache. If it's in the cache, we don't go fetch it.
+So again, if you do `deno info`, you'll see the location of your deno cache, and you can go in there and look at those files. But it's all persisted the file system, and start up again... Again, we just simply look and say "If we resolve to this URL, or even a local path, is that in the cache?" And we take a look in the cache. If it's in the cache, we don't go fetch it.
 
 **Divya:** Cool.
 

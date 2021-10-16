@@ -120,7 +120,7 @@ I think once a model goes live, so to speak, there ends up being a very similar 
 
 **Patrick Hall:** Yes. But - and I can't explain this aside from sort of a sad level of hype and exceptionalism in data science culture - people in general, in my experience, are failing to apply general software-based best practices to their machine learning. And like I said, I can't explain this except for sort of a sad and regrettable cultural phenomenon. So that's one main issue I see.
 
-**Chris Benson:** Patrick, I'll say - I deal with that every day, trying to get our dev ops folks and our developers working with ML--
+**Chris Benson:** Patrick, I'll say - I deal with that every day, trying to get our DevOps folks and our developers working with ML--
 
 **Patrick Hall:** It makes no sense. It makes no sense to me. So machine learning is essentially -- you know, given its complexity, given its \[unintelligible 00:27:55.22\] characteristics, it's likely even more volatile than some other mission-critical software assets... And so why data scientists are given a pass on basic software quality I'll never understand. So that would be one thing to remedy, just ASAP.
 

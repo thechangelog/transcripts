@@ -390,7 +390,7 @@ If you want to help us as we organize the FOSS Responders initiative, if you go 
 
 And I wanna give a particular shout-out to the Open Source 101 folks, who in the course of about a month pivoted their Open Source 101 Event from Austin to an Open Source 101 at home event, that they're doing virtually on May 12th. We're thrilled to be a sponsor of that event. Tickets are $19, and we know it's the same crew that run All Things Open, and we wanna make sure that we show up and support them.
 
-**Adam Stacoviak:** \[unintelligible 01:13:00.04\] we love the work that they're doing with All Things Open and Open Source 101... $19 for a virtual event is not much to pay whatsoever, and you get to support the thing to keep going, and hopefully -- the one that I'm still waiting for is if All Things Open, in October. We look forward to that each year as well. And I know you do as well, because you're a staple there. I've seen you there several times.
+**Adam Stacoviak:** I'll let go of that one as well, we love the work that they're doing with All Things Open and Open Source 101... $19 for a virtual event is not much to pay whatsoever, and you get to support the thing to keep going, and hopefully -- the one that I'm still waiting for is if All Things Open, in October. We look forward to that each year as well. And I know you do as well, because you're a staple there. I've seen you there several times.
 
 **Duane O'Brien:** Yeah.
 

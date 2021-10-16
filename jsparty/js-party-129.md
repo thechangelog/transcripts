@@ -268,9 +268,9 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** You bet. This returns a new array that is the array joined with other arrays and/or values.
 
-**Emma Bostian:** What is \`concat\`?
+**Emma Bostian:** What is `concat`?
 
-**Jerod Santo:** \[win sound\] You are correct. And I lost my soundboard, so I was furiously looking for it... The array prototype \`concat\` will return a new array that is the array joined with other arrays and/or values. Very good, Emma. You now have 400 points. It is Divya's turn. Emma knows her arrays.
+**Jerod Santo:** \[win sound\] You are correct. And I lost my soundboard, so I was furiously looking for it... The array prototype `concat` will return a new array that is the array joined with other arrays and/or values. Very good, Emma. You now have 400 points. It is Divya's turn. Emma knows her arrays.
 
 **Emma Bostian:** I do.
 
@@ -304,7 +304,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** You bet. This returns a new array containing the results of calling the given function on every element.
 
-**Suz Hinton:** What is \`Array.prototype.map\`?
+**Suz Hinton:** What is `Array.prototype.map`?
 
 **Jerod Santo:** \[win sound\] Very good. 200 points for Suz, bringing you to 600. Emma, your turn.
 
@@ -316,7 +316,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** This adds one or more elements to the front of an array and returns the new length of the array.
 
-**Emma Bostian:** What is \`Array.prototype.unshift\`?
+**Emma Bostian:** What is `Array.prototype.unshift`?
 
 **Jerod Santo:** \[win sound\] Very good! Killing it on the arrays.
 
@@ -404,7 +404,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** Alright... This returns true if every element in the array satisfies the testing function.
 
-**Emma Bostian:** What is \`Array.every\`?
+**Emma Bostian:** What is `Array.every`?
 
 **Jerod Santo:** \[win sound\] You are now a 100%--
 
@@ -608,9 +608,9 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** Okay. Everything here begins with T. An object's sometimes elusive self-reference.
 
-**Suz Hinton:** What is \`this\`?
+**Suz Hinton:** What is `this`?
 
-**Jerod Santo:** \[win sound\] Very good, \`this\`.
+**Jerod Santo:** \[win sound\] Very good, `this`.
 
 **Suz Hinton:** That's not too bad.
 
@@ -618,7 +618,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Emma Bostian:** Okay, Internet of T for 400, please.
 
-**Jerod Santo:** When are we \`new Date\` without any arguments?
+**Jerod Santo:** When are we `new Date` without any arguments?
 
 **Suz Hinton:** \[laughs\]
 
@@ -626,7 +626,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** I've never actually read that one out loud before... That's incredibly confusing.
 
-**Jerod Santo:** Okay, \`new Date\` is an instantiation. You can see the back ticks there. You're calling \`new Date\` without any arguments. Okay, I was saying it for the audience's sake.
+**Jerod Santo:** Okay, `new Date` is an instantiation. You can see the back ticks there. You're calling `new Date` without any arguments. Okay, I was saying it for the audience's sake.
 
 **Emma Bostian:** What is a timestamp?
 
@@ -654,7 +654,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** Suz, your turn.
 
-**Suz Hinton:** What is \`now\`?
+**Suz Hinton:** What is `now`?
 
 **Emma Bostian:** It starts with a t.
 
@@ -662,7 +662,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Divya:** Are you freakin' kidding -- okay...
 
-**Jerod Santo:** What is \`today\`?
+**Jerod Santo:** What is `today`?
 
 **Divya:** Oh, my God! Are you kidding me?!
 
@@ -670,13 +670,13 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Divya:** No, no. That is rubbish.
 
-**Suz Hinton:** It is absolutely "What is \`now\`?"
+**Suz Hinton:** It is absolutely "What is `now`?"
 
 **Emma Bostian:** Can we all agree that question doesn't count? Because that was the stupidest thing I've ever heard.
 
-**Suz Hinton:** I can't believe I lost points for that. It is "What is \`now\`?" How can you possibly allow \`today\`? That is the rudest.
+**Suz Hinton:** I can't believe I lost points for that. It is "What is `now`?" How can you possibly allow `today`? That is the rudest.
 
-**Jerod Santo:** When you call \`new date\` without any arguments, it always returns the current date today. Internet of T. It has to begin with a t.
+**Jerod Santo:** When you call `new date` without any arguments, it always returns the current date today. Internet of T. It has to begin with a t.
 
 **Divya:** Oh, my God... I was like, timezones, whatever...
 
@@ -694,13 +694,13 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Emma Bostian:** I'm angry.
 
-**Jerod Santo:** Suz, it has to begin with t. \`Now\` does not begin with t. Okay, moving on...
+**Jerod Santo:** Suz, it has to begin with t. `Now` does not begin with t. Okay, moving on...
 
 **Suz Hinton:** Oh, my God. I didn't think of that.
 
 **Divya:** Oh, it begins with t... Yes...
 
-**Jerod Santo:** \`Today\`.
+**Jerod Santo:** `Today`.
 
 **Suz Hinton:** Okay, fine. I accept this then. I just forgot the topic.
 
@@ -794,7 +794,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** Internet of T. Reminder, all answers must begin with t. Rotate, scale, skew or translate an element.
 
-**Divya:** What is \`transform\`?
+**Divya:** What is `transform`?
 
 **Jerod Santo:** \[win sound\] Very good.
 
@@ -956,7 +956,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** \[00:36:02.11\] Divya for the steal?
 
-**Divya:** Select active links... Is it like a \`focus\`, or something?
+**Divya:** Select active links... Is it like a `focus`, or something?
 
 **Jerod Santo:** Are you gonna try a steal?
 
@@ -964,7 +964,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** Okay, so what's your steal answer?
 
-**Divya:** \`Focus\`.
+**Divya:** `Focus`.
 
 **Jerod Santo:** \[fail sound\] Sorry, that's incorrect. Suz, would you like to steal?
 
@@ -1378,7 +1378,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** That's correct. How do you select input elements with no required attribute?
 
-**Emma Bostian:** Okay, so it probably uses the \`not\` pseudo-selector... Okay, so the \[required::not\]. I don't know...
+**Emma Bostian:** Okay, so it probably uses the `not` pseudo-selector... Okay, so the \[required::not\]. I don't know...
 
 **Jerod Santo:** \[fail sound\] No.
 

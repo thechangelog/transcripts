@@ -186,7 +186,7 @@ I think it's just like respecting the engineering side - that was a big thing th
 
 **Chris Benson:** Sure.
 
-**Elad Walach:** And the main reason we chose AWS was that it is -- in medicine we say "standard of care." We'd say that's the leader at this point in time still. And that makes it very easy to hire dev ops people that know how to do it, all the new tools that go in that platform. So that was for us a big consideration. The other is just costs. When we picked, those were the two biggest ones - innovation speed and cost, and can we create the architecture.
+**Elad Walach:** And the main reason we chose AWS was that it is -- in medicine we say "standard of care." We'd say that's the leader at this point in time still. And that makes it very easy to hire DevOps people that know how to do it, all the new tools that go in that platform. So that was for us a big consideration. The other is just costs. When we picked, those were the two biggest ones - innovation speed and cost, and can we create the architecture.
 
 The other big element in terms of consideration is who is available and can help you work through those challenges. Again, I think there are several companies that were really accessible, but we really enjoyed interacting with AWS. We had all the \[unintelligible 00:39:52.28\] and I think what I learned as someone that was technical, but not technical on the cloud side - I learned there's so many different elements, so many ways to create your architecture that you really wanna have a \[unintelligible 00:40:08.03\] through those challenges.
 

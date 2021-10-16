@@ -18,7 +18,7 @@
 
 **Ovilia:** I think definitely it makes me more devoted, and I want to make more projects, and interesting, cool stuff on GitHub. But I think the difference is not very large between having 9,000 followers or 9 followers. Maybe the most difference here is when I create a new project, more people will get noticed to it, maybe put a star on it, or so... But the most important thing is to continuously create cool stuff on GitHub.
 
-**Adam Stacoviak:** Let's get into that then. Cool stuff on GitHub, cool projects... As we talked about, you're involved with Apache ECharts, which is a Javascript visualizer... How did you end up as part of that incubator project?
+**Adam Stacoviak:** Let's get into that then. Cool stuff on GitHub, cool projects... As we talked about, you're involved with Apache ECharts, which is a JavaScript visualizer... How did you end up as part of that incubator project?
 
 **Ovilia:** I was looking for a job after graduation. As I said, when I made this online resume, my current boss found my resume and asked me if I got interested in this project. At that time ECharts was quite famous, but I said "No, I haven't heard about it." Luckily, I passed the interview, partly because my research domain was about computer graphics and image processing. So it's quite related to the project.
 

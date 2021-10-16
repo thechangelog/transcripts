@@ -248,7 +248,7 @@ Some designers just feel really comfortable hopping into the code, they actually
 
 **Jerod Santo:** One thing you mentioned, Adam, was Compositor, but we haven't quite defined what that is for the listeners. Can you tell us about Compositor and Compositor Lab that you've been working on?
 
-**Adam Morse:** Yeah. Compositor started when Jackson and I, and this guy John Otander worked on CSS stats together. Jackson and I had launched a web app and we knew nothing about tech ops or dev ops, we knew nothing about servers, Jackson barely knew anything about JavaScript at the time, and this guy comes along and just starts refactoring all of our horrible code right away and making our website way more stable.
+**Adam Morse:** Yeah. Compositor started when Jackson and I, and this guy John Otander worked on CSS stats together. Jackson and I had launched a web app and we knew nothing about tech ops or DevOps, we knew nothing about servers, Jackson barely knew anything about JavaScript at the time, and this guy comes along and just starts refactoring all of our horrible code right away and making our website way more stable.
 
 After I think the 10th amazing pull request in a two-day or three-day spin, I was like "Hey, do you wanna just own this project with us?" Then we all kind of got in a chat room, and... Yeah, every now and then we would do these sprints on CSS stats, and chat, and then sometimes we'd go dark for a few months. But then I started working on Tachyons a lot more and I was stumbling on trying to get certain things done with JavaScript in terms of like dynamic build things... So I asked John for help, and he started helping me out.
 

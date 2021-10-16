@@ -362,11 +362,11 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Jerod Santo:** Wow. Well, thanks so much for joining us. Horse JS, everybody. Horse JS is here... A little birdy actually told me that you're a big fan of JS Party.
 
-**Horse JS:** [keep wondering about why javascript developed this culture](https://twitter.com/horse_js/status/1265859663469383686)
+**Horse JS:** [keep wondering about why JavaScript developed this culture](https://twitter.com/horse_js/status/1265859663469383686)
 
 **Nick Nisi:** Hah! We ask ourselves that same thing every day... But I'm curious, what's your favorite episode so far?
 
-**Horse JS:** [what if. what if we only call it "javascript"](https://twitter.com/horse_js/status/1280680602765836288)
+**Horse JS:** [what if. what if we only call it "JavaScript"](https://twitter.com/horse_js/status/1280680602765836288)
 
 **Jerod Santo:** Oh, you must be thinking about that episode, 101 -- do you guys remember the Yep/Nope debate on rebranding JavaScript? What if we renamed it...? I don't really remember -- what was the final conclusion of that? Did we decide to keep the name, or...? Do you remember, Divya?
 

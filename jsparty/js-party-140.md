@@ -138,15 +138,15 @@ You're right that it's dry. A lot of the stuff we do in TC39 is dry. It's low-le
 
 One of the proposals that went well was object.values and object.entries. Those were relatively straightforward; we already had object.keys... Keys, values and entries were already concepts... There were a bunch of libraries in the ecosystem that already did this stuff, so there weren't that many reasons to reject that proposal. People would just kind of massage the shape of it; they'd have bikeshed type opinions.
 
-But then I had another proposal that was like \`Error.isError()\`, like \`Array.isArray()\`. I wanted a way to determine if something was an error reliably...
+But then I had another proposal that was like `Error.isError()`, like `Array.isArray()`. I wanted a way to determine if something was an error reliably...
 
-**Amal Hussein:** Okay, that sounds super \[unintelligible 00:22:21.09\] \`Error.isError()\` I feel like that is like--
+**Amal Hussein:** Okay, that sounds super \[unintelligible 00:22:21.09\] `Error.isError()` I feel like that is like--
 
 **Emma Bostian:** What's your thought process behind that? \[laughs\]
 
-**Amal Hussein:** Swoosh! \`Error.isError()\` Yeah, explain, please.
+**Amal Hussein:** Swoosh! `Error.isError()` Yeah, explain, please.
 
-**Jordan Harband:** Essentially, there's the concept -- if you're familiar with iFrames, how you can have a different array constructor in an iFrame, and you can't in the regular web page... Those are called realms. So if you wanna -- you can't use instance of array to determine if an array from an iFrame is an array or not, because it's a different array constructor. So you have to use the \`Array.IsArray()\` function to tell you if something is really an array or not. And similarly, there isn't any cross-realm way to say something's an error. You can only say instanceof error, and that doesn't work if it's from an iFrame.
+**Jordan Harband:** Essentially, there's the concept -- if you're familiar with iFrames, how you can have a different array constructor in an iFrame, and you can't in the regular web page... Those are called realms. So if you wanna -- you can't use instance of array to determine if an array from an iFrame is an array or not, because it's a different array constructor. So you have to use the `Array.IsArray()` function to tell you if something is really an array or not. And similarly, there isn't any cross-realm way to say something's an error. You can only say instanceof error, and that doesn't work if it's from an iFrame.
 
 **Amal Hussein:** So realms, for anyone who doesn't know what realms are - realms are different environments within the browser. We can kind of think about it that way. Service workers - its own kind of environment realm where web worker is, iFrames are... So when you're in a browser, your main document is like the main realm, and each of these realms has a different "this" instance. And I think we can get into talking about "this" in a little bit, because Jordan is the one who proposed global "this", which is a thing we can discuss in a bit. So realms are these spaces, these different contexts.
 
@@ -168,7 +168,7 @@ Now that we kind of know what realms are, could you explain again what is all th
 
 **Amal Hussein:** I see, I see. Got it, okay. Thank you for clarifying.
 
-**Jordan Harband:** And if somebody gives you a value and you don't know what it is, and you wanna figure out what kind of thing it is, and you wanna see if it's an array, \`Array.IsArray()\` is the only way to do that that's always correct.
+**Jordan Harband:** And if somebody gives you a value and you don't know what it is, and you wanna figure out what kind of thing it is, and you wanna see if it's an array, `Array.IsArray()` is the only way to do that that's always correct.
 
 **Amal Hussein:** Yeah. Well, I'm just curious though - if somebody passes me a null value or a symbol, and I try to call IsArray or IsError on that...
 
@@ -202,7 +202,7 @@ Now that we kind of know what realms are, could you explain again what is all th
 
 **Amal Hussein:** Yeah. We're holding him hostage, actually. Can we just advance some proposals now that we have you hostage?
 
-**Emma Bostian:** Okay, so I know we've got \`Array.IsArray()\`. I want Array.WhyIsMyArrayNotAnArray. Tell me where it went wrong. \[laughter\]
+**Emma Bostian:** Okay, so I know we've got `Array.IsArray()`. I want Array.WhyIsMyArrayNotAnArray. Tell me where it went wrong. \[laughter\]
 
 **Jordan Harband:** I actually have an npm package called IsThatEqual, where you can pass it two things and there's a why function in it. You can pass it two things and it'll give you some text that tells you why they're different, if that's helpful...
 
@@ -244,7 +244,7 @@ Now that we kind of know what realms are, could you explain again what is all th
 
 **Amal Hussein:** Okay. Alright, so Sindre Sorhus said this one time - he's actually kind of a fountain of knowledge, but he said that for him it doesn't really matter whether a module is one line or a thousand lines, in the sense that it abstracts away some behavior. So lines of code is not necessarily a useful metric to judge a package by. I would say dependencies is though, for me. When I'm always picking packages, I'm like "How many dependencies do you have?" Because ultimately, all those dependencies become your problem, as soon as you import this into your app... In the sense that you might have peer dependency conflicts, downstream security issues... So just a tangent there on picking modules - don't judge the lines of code.
 
-**Jordan Harband:** \[00:28:32.19\] Well, you mentioned LeftPad... While that happens, I was actually in the middle of proposing \`String.prototype.padStart()\` and \`String.prototype.padEnd()\`, which were stage two at the time, and it was very amusing to me that almost every Hacker News comment that said "That's just a one-line thing", they all wrote it wrong. Every one of them had bugs. So even a one-line change can often be very difficult to write correctly, and so there's a lot of value in having a separately well-tested, well-used package to abstract that away.
+**Jordan Harband:** \[00:28:32.19\] Well, you mentioned LeftPad... While that happens, I was actually in the middle of proposing `String.prototype.padStart()` and `String.prototype.padEnd()`, which were stage two at the time, and it was very amusing to me that almost every Hacker News comment that said "That's just a one-line thing", they all wrote it wrong. Every one of them had bugs. So even a one-line change can often be very difficult to write correctly, and so there's a lot of value in having a separately well-tested, well-used package to abstract that away.
 
 **Kevin Ball:** I don't think anyone who's ever worked with a regular expression would doubt you on that.
 
@@ -264,7 +264,7 @@ Now that we kind of know what realms are, could you explain again what is all th
 
 **Kevin Ball:** They also have like -- they're not internally consistent. I've been reading a lot of them now... They reference their honeymoon location like five times differently, in different books... So this sort of "I think it's there, but it's not there" is not unique to TC39.
 
-**Amal Hussein:** Jordan, do you wanna tell us about \`globalThis\`, since we talked about realms?
+**Amal Hussein:** Jordan, do you wanna tell us about `globalThis`, since we talked about realms?
 
 **Jordan Harband:** Sure.
 
@@ -286,7 +286,7 @@ The challenge in naming it was twofold. The first was that I started out just ca
 
 **Jordan Harband:** But it was using an old version of moment, that was compiled with an in-house bundler tool, and just the way that it did that ended up breaking when global was a variable that already existed... Which sucked, but also it meant that that name was just kind of not an option, because one thing that is the most important part of TC39 is "Do not break the web." So anything that causes any noticeable number of websites to break is just not something browsers are gonna wanna ship, and so it's not something we put in the specification.
 
-\[00:32:12.18\] Then I had to come up with a new name, and there was a lot of bikesheds, there was a lot of ideas thrown out, and what I ended up doing was asking another browser to gather data about which ones were already in use, basically trying in advance to see which names would work. I came up with 30 names, and the response was "That's too many. Give us five." I put global on there as a control, and then I put a few others, including \`globalThis\`, which is the name it ended up having... They looked at the number of websites using it, and the result was that \`globalThis\` was the safest option.
+\[00:32:12.18\] Then I had to come up with a new name, and there was a lot of bikesheds, there was a lot of ideas thrown out, and what I ended up doing was asking another browser to gather data about which ones were already in use, basically trying in advance to see which names would work. I came up with 30 names, and the response was "That's too many. Give us five." I put global on there as a control, and then I put a few others, including `globalThis`, which is the name it ended up having... They looked at the number of websites using it, and the result was that `globalThis` was the safest option.
 
 **Amal Hussein:** It was the name that nobody else thought of, because it was so bad, like nobody used it, and it was available... Like those crappy domain names... \[laughs\]
 
@@ -294,7 +294,7 @@ The challenge in naming it was twofold. The first was that I started out just ca
 
 **Amal Hussein:** That's exactly right, Kball.
 
-**Jordan Harband:** Yeah. So there was a lot of reaction. Basically, that name, \`globalThis\`, was approved by the committee and we went forward with it, and about two months later a couple folks with large Twitter followings noticed it. A bunch of people showed up on the repo, very angry that the name that we chose wasn't one that they liked, and with different ideas.
+**Jordan Harband:** Yeah. So there was a lot of reaction. Basically, that name, `globalThis`, was approved by the committee and we went forward with it, and about two months later a couple folks with large Twitter followings noticed it. A bunch of people showed up on the repo, very angry that the name that we chose wasn't one that they liked, and with different ideas.
 
 What finally ended up relaxing it was another committee member, Yulia, who works at Mozilla - she helped me write a naming document that was basically a bunch of constraints, like musts, and shoulds, and must nots and should nots... And for each constraint, it explained what it was and why it existed, and then for each one it said "These are the names that this allows. These are the names that are still okay with this constraint." And after you're done reading through that document, it turns out it's pretty difficult to still disagree with the name. You can dislike it, of course, but it becomes apparent why it was one of the only options. That was really helpful, and I want to do that for anything I do that's contentious around proposals in the future, because that changed what was a very nightmarish couple of weeks of GitHub notifications for me, into a very manageable \[unintelligible 00:34:26.16\]
 

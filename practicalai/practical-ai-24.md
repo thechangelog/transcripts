@@ -60,7 +60,7 @@ I applaud the move on their part, and I wish they had done this earlier, when we
 
 I think that's definitely a helpful thing, because at some points I've seen a bunch of -- it's hard for me, at least, when I see a bunch of stuff about optimization, but then I still struggle with the integration part, like we talked about initially... So I'm glad to see them at least have some examples in that regard.
 
-**Chris Benson:** Yeah, I think TensorRT started with those deployment optimizations, and that was kind of its foundation... But it's definitely provided more and more tools for developers and dev ops engineers to be able to get this out into the real world, and we're seeing a general push in the industry to do that, from these companies that are supporting with GPUs and other technologies to get that out. It's getting easier and easier to use these, and TensorRT has definitely been a big part of that for NVIDIA.
+**Chris Benson:** Yeah, I think TensorRT started with those deployment optimizations, and that was kind of its foundation... But it's definitely provided more and more tools for developers and DevOps engineers to be able to get this out into the real world, and we're seeing a general push in the industry to do that, from these companies that are supporting with GPUs and other technologies to get that out. It's getting easier and easier to use these, and TensorRT has definitely been a big part of that for NVIDIA.
 
 **Daniel Whitenack:** Speaking of running inference on specialized hardware, you were mentioning to me right before the show about something that you saw from Amazon, right?
 

@@ -350,7 +350,7 @@ He pushed a pull request where he made some changes, and reduced a few of those 
 
 **Owen Bickford:** Right.
 
-**Jerod Santo:** And you can specify "I'm gonna import this module, but only give me these functions." There's commands and there's ways you can specify how that works. But if you just say \`import changelog.helpers\`, you're gonna get every function in that module imported as a bare function name that you can call without any reference inside of the importing function... And then that links those two at compile time.
+**Jerod Santo:** And you can specify "I'm gonna import this module, but only give me these functions." There's commands and there's ways you can specify how that works. But if you just say `import changelog.helpers`, you're gonna get every function in that module imported as a bare function name that you can call without any reference inside of the importing function... And then that links those two at compile time.
 
 **Owen Bickford:** Right.
 

@@ -6,7 +6,7 @@
 
 **Ben Johnson:** Yeah, we're Denverites.
 
-**Jerod Santo:** Yeah, so Ben's a Denverite. We met Ben out at GopherCon back about a month ago now... He describes himself as an open source software developer who specializes in customer behavior at \[unintelligible 00:02:03.29\] and data visualization. He's also big into distributed systems and data stores. Ben, welcome to the show.
+**Jerod Santo:** Yeah, so Ben's a Denverite. We met Ben out at GopherCon back about a month ago now... He describes himself as an open source software developer who specializes in customer behavior analytics and data visualization. He's also big into distributed systems and data stores. Ben, welcome to the show.
 
 **Ben Johnson:** Yeah, thanks for having me.
 
@@ -106,7 +106,7 @@ So certain things like that... It has this very simplistic design, as opposed to
 
 **Ben Johnson:** And then everyone walks away kind of being a little more knowledgeable.
 
-**Jerod Santo:** Right. Yeah, it's just hard to be nasty \[unintelligible 00:15:51.06\]
+**Jerod Santo:** Right. Yeah, it's just hard to be nasty when you're face-to-face with somebody.
 
 **Ben Johnson:** Exactly, yeah.
 
@@ -148,7 +148,7 @@ When you think about relational databases too, they store -- their rows that the
 
 **Jerod Santo:** Pretty straightforward. So backups, moving things around, copying data - you use your Linux, your Unix tools, right?
 
-**Ben Johnson:** Oh, yeah, pretty much. There's some \[unintelligible 00:20:37.25\] stuff, so you have to go through -- it'll actually be a transactional copy inside the database. So you start a transaction and you can stream it out. But it'll go as fast as your SSD can read the data off. So it goes pretty snappy.
+**Ben Johnson:** Oh, yeah, pretty much. There's some blocking stuff, so you have to go through -- it'll actually be a transactional copy inside the database. So you start a transaction and you can stream it out. But it'll go as fast as your SSD can read the data off. So it goes pretty snappy.
 
 **Jerod Santo:** And it sounds like you've gotten that into a scenario -- it says "Bolt currently in high-load production environments, serving databases as large as one Terabyte."
 
@@ -190,7 +190,7 @@ When I first wrote Bolt and I put it out there - or not even put it out there; I
 
 **Ben Johnson:** Yeah. It's been a long time since I've used it. So you can store data in there all day, but it's meant to just be a layer to hit quickly, but you can always fall back to the underlying data store. So Bolt, in contrast, writes all the data to disk safely; even in the event of a crash, it will come back up. And if you've committed a transaction, that transaction will be there.
 
-If you look at something like Redis, on the other hand, it has two different persistence layers. They have a \[unintelligible 00:27:13.14\] and a snapshot, I think... I could totally be butchering this. But Redis - it stands at kind of a higher layer. They have a key-value piece in there, but I know they have a whole bunch of other data structures they do as well.
+If you look at something like Redis, on the other hand, it has two different persistence layers. They have a write-ahead log and a snapshot, I think... I could totally be butchering this. But Redis - it stands at kind of a higher layer. They have a key-value piece in there, but I know they have a whole bunch of other data structures they do as well.
 
 **Jerod Santo:** Yeah. I mean, as far as complexity goes, Redis has lists, and sets, and different objects, and stuff.
 
@@ -210,7 +210,7 @@ If you look at something like Redis, on the other hand, it has two different per
 
 So the actual write transactions - they will kind of give you a space to work in, and you can change data and rewrite those keys and values, or create buckets... And then when it goes to commit it, it'll take those pages it wrote and it'll write all the all the pages out, and then it'll write a new meta-page, and it kind of has this almost -- if you've ever done graphics stuff, it has basically a double-buffer for your meta page.
 
-So it has to write all the data first, and then it writes a new meta page to point to that new data, and the transaction is not committed until it writes that single last meta page. So it has this interesting piece to it, where it's -- it's not recovery, like you get in a lot of databases. If it crashes, it'll just start back up with whatever data is committed. \[unintelligible 00:29:27.21\] to reapply changes, it's just whatever it was... And it has this unique safety property, which is really nice. I don't know if that's in-depth enough, or you want some more details.
+So it has to write all the data first, and then it writes a new meta page to point to that new data, and the transaction is not committed until it writes that single last meta page. So it has this interesting piece to it, where it's -- it's not recovery, like you get in a lot of databases. If it crashes, it'll just start back up with whatever data is committed. There's no, it doesn't have to read a log to reapply changes, it's just whatever it was... And it has this unique safety property, which is really nice. I don't know if that's in-depth enough, or you want some more details.
 
 **Jerod Santo:** No, that was pretty good.
 
@@ -232,7 +232,7 @@ So it has to write all the data first, and then it writes a new meta page to poi
 
 **Ben Johnson:** Yeah, where you can read things that have been committed in another transaction after this one started, but before it stopped; it's confusing, honestly. But if you think of transactions, it's probably what you'd expect.
 
-**Jerod Santo:** But yeah, it's really useful to have that safety... And I tried to \[unintelligible 00:31:21.08\] Bolt to really be like the core things that I needed. AlanDB had a lot of other features around performance, where you could write stuff directly into the database, instead of going through some other safety measures, and they had some other trade-offs they made... But I tried to cut out all those extra pieces... So it ended up being like 2000 lines of code, which I don't know if that sounds like a lot for a database this tiny...
+**Jerod Santo:** But yeah, it's really useful to have that safety... And I tried to pare down Bolt to really be like the core things that I needed. AlanDB had a lot of other features around performance, where you could write stuff directly into the database, instead of going through some other safety measures, and they had some other trade-offs they made... But I tried to cut out all those extra pieces... So it ended up being like 2000 lines of code, which I don't know if that sounds like a lot for a database this tiny...
 
 **Jerod Santo:** Yeah, I was gonna say... It sounds like a lot if I was just gonna sit down and code that day, but... For a database it doesn't sound like too much.
 
@@ -240,7 +240,7 @@ So it has to write all the data first, and then it writes a new meta page to poi
 
 **Jerod Santo:** LevelDB is very similar to Bolt. It's out of Google. It seems like there are some differences.
 
-**Ben Johnson:** \[00:32:02.25\] Yeah, so that's an LSM-tree. So that'll do the write-optimized, whereas -- so you could write stuff in the LevelDB much faster than you can in Bolt. But if you're looking to do \[unintelligible 00:32:11.25\] where you have a set of data in order that you're trying to go across, Bolt will be much faster than LevelDB.
+**Ben Johnson:** \[00:32:02.25\] Yeah, so that's an LSM-tree. So that'll do the write-optimized, whereas -- so you could write stuff in the LevelDB much faster than you can in Bolt. But if you're looking to do range scans, where you have a set of data in order that you're trying to go across, Bolt will be much faster than LevelDB.
 
 **Jerod Santo:** Awesome. So that's Bolt in a nutshell... Great readme, by the way. I've gotta give you respect for going into great detail there.
 
@@ -250,7 +250,7 @@ So it has to write all the data first, and then it writes a new meta page to poi
 
 I think we should switch gears a little bit and talk about the next one. I know we had a list of a ton of databases... We're just gonna pick a couple, because we don't have too much time... The next is the one that you seem to be working with either in a consulting capacity, or full-time, but... InfluxDB, which is open source as well, but also has a business built around it. Can you tell us about Influx?
 
-**Ben Johnson:** Sure, yeah. It's a time series database, and we really centered it around being easy to get up and running. We have clustering in there, we can actually spread it across a lot of machines... And then we're building out a lot of great functionality now for doing a lot of \[unintelligible 00:33:41.19\] for write optimization, and doing compression in there to shrink down the size of the database... So it's coming along.
+**Ben Johnson:** Sure, yeah. It's a time series database, and we really centered it around being easy to get up and running. We have clustering in there, we can actually spread it across a lot of machines... And then we're building out a lot of great functionality now for doing a lot of write-ahead logs for write optimization, and doing compression in there to shrink down the size of the database... So it's coming along.
 
 People have really been interested in it as far as -- again, it's one of those simple databases that... You know, we use Bolt underneath, so there's no other service to get up and running. I know some other things have relied on Redis, or some other data stores in the past... Actually, a lot of them rely on Cassandra in the background, they kind of push that of to there... But we're -- it's really just one binary, you just download it and just start up. It's been great in that sense. People have been really interested.
 
@@ -338,7 +338,7 @@ Yeah, when it comes to licensing, it's something that we all have to wrestle wit
 
 **Jerod Santo:** Alright, we are back with Ben Johnson, talking open source databases... And perhaps somewhat related is this really cool thing called The Secret Lives of Data", thesecretlivesofdata.com (we'll link it up in the show notes), where he explains a thing called Raft in a cool, visual way. Ben, can you tell us about this?
 
-**Ben Johnson:** Yeah, sure. The Secret Lives of Data is just meant to be a project where -- I feel like distributed systems and database topics and computer science topics... I honestly feel like you can explain any of those topics with circles and lines and motion... Whenever you go on a whiteboard, you're like "This is this server here, and \[unintelligible 00:46:06.22\] and does that", but we don't have that. We have books, static images, and I feel like there's a piece that's lacking... Especially with so many distributed databases, and all these kind of systems design things that people need to learn about, but it's research papers, and it's these books that come out that are kind of tough to sink in...
+**Ben Johnson:** Yeah, sure. The Secret Lives of Data is just meant to be a project where -- I feel like distributed systems and database topics and computer science topics... I honestly feel like you can explain any of those topics with circles and lines and motion... Whenever you go on a whiteboard, you're like "This is this server here, and it sends the data here and does that", but we don't have that. We have books, static images, and I feel like there's a piece that's lacking... Especially with so many distributed databases, and all these kind of systems design things that people need to learn about, but it's research papers, and it's these books that come out that are kind of tough to sink in...
 
 So I wanted to find some way that was easily digestible to explain complicated topics, like distributed consensus, for example. It's not like the easiest topic to explain to someone... But if you can step through it, piece by piece, and kind of show some motion with it, I think people tend to pick it up. I've had a lot of people actually mention that they read through the paper a couple of times, but it didn't click until they saw this visualization of it.
 
@@ -354,7 +354,7 @@ So to explain what it actually is... It's almost like a motion graphic of how Ra
 
 **Jerod Santo:** Yeah.
 
-**Ben Johnson:** When I first got into writing databases, everytime I'd find some concept that I wanted to learn about, I'd type it into Google and he'd have the first page on there with his blog, about some obscure topic, about like \[unintelligible 00:48:26.23\]
+**Ben Johnson:** When I first got into writing databases, everytime I'd find some concept that I wanted to learn about, I'd type it into Google and he'd have the first page on there with his blog, about some obscure topic, about like bloom filters or whatever.
 
 **Jerod Santo:** Yeah, exactly...
 
@@ -384,7 +384,7 @@ So yeah, I wanna start doing stuff as -- originally, I was gonna do five-minute 
 
 **Ben Johnson:** So we'll see if that works, but that's my goal right now.
 
-**Jerod Santo:** I love it. I would say \[unintelligible 00:50:47.10\] to continue in these efforts, because I think it is a powerful way of teaching... And you know, maybe not to give up completely on the work you put in to build this one - maybe it's just too crazy, but if you could get some sort of a framework in place to where you could do other things more easily, then you could start to have an infrastructure for other people building out these types of things on the web. That being said, animated GIFs - people love those.
+**Jerod Santo:** I love it. I would say just to exhort you to continue in these efforts, because I think it is a powerful way of teaching... And you know, maybe not to give up completely on the work you put in to build this one - maybe it's just too crazy, but if you could get some sort of a framework in place to where you could do other things more easily, then you could start to have an infrastructure for other people building out these types of things on the web. That being said, animated GIFs - people love those.
 
 **Ben Johnson:** People love them, yeah.
 
@@ -394,7 +394,7 @@ So yeah, I wanna start doing stuff as -- originally, I was gonna do five-minute 
 
 **Jerod Santo:** They're usually just displaying some sort of emotion or surprise... But yeah, the first useful animated GIF - maybe you get on Wikipedia for that.
 
-**Ben Johnson:** I hope so. It would be my \[unintelligible 00:51:39.15\]
+**Ben Johnson:** I hope so. It would be my entry
 
 **Jerod Santo:** Awesome. Well, we'll link that up in the show notes. Ben, I think it's time to go to our awesome closing questions... And we will ask the first one, which has become somewhat compulsory these days, which is "Who is your programming hero?'
 

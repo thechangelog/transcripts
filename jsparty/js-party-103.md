@@ -32,7 +32,7 @@
 
 \[00:04:13.25\] So at that point in time I kept working on it, essentially. I almost \[unintelligible 00:04:18.04\] that codebase, and because of that, they invited me to join the Node.js Technical Steering Committee. As part of my work at the Node.js Steering Committee, I'm also part of the team that organizes the Collaborator Summit, which is right after Node+JS Interactive, so where all Node collaborators and all OpenJS Foundation collaborators can meet together, and have some sessions and discussions, and meet face-to-face, which is pretty great, and it's a very nice experience.
 
-As part of my daily job I'm managing teams of developers, designers, dev ops, building things with Node.js and other technologies. Also a lot of React, and so on and so forth. At NearForm we're invested a lot in Node.js, and we have several people on the TSC as well. James Snell, for example, or Anna Henningsen... The open source philosophy and Node are a key part of what we do and what we are.
+As part of my daily job I'm managing teams of developers, designers, DevOps, building things with Node.js and other technologies. Also a lot of React, and so on and so forth. At NearForm we're invested a lot in Node.js, and we have several people on the TSC as well. James Snell, for example, or Anna Henningsen... The open source philosophy and Node are a key part of what we do and what we are.
 
 **Nick Nisi:** Very cool.
 
@@ -186,7 +186,7 @@ In one case, in order to get a function called, I register a function called in 
 
 Essentially, what we do is we use the readable event - so the readable event comes up, it signals that there is some data available, and then we call the read method on Node streams to read all the values that are available, and queue them up to be consumed by the next, when you call next. So essentially it will consume all the data that you call in next, and that will be it. And it works.
 
-Now, instead of using complex on-readable or on-data, that's very hard and error-prone in a promise-based world, what you can do - you can just do a for-await loop, because with for-await the JavaScript syntax will automatically call next for us, so we don't have to call it manually... And it provides a nice syntax on top of this protocol. You can then just iterate over your stream, just using JavaScript syntax. So you don't have to think about complex APIs and anything, you can just use Javascript, which is faster.
+Now, instead of using complex on-readable or on-data, that's very hard and error-prone in a promise-based world, what you can do - you can just do a for-await loop, because with for-await the JavaScript syntax will automatically call next for us, so we don't have to call it manually... And it provides a nice syntax on top of this protocol. You can then just iterate over your stream, just using JavaScript syntax. So you don't have to think about complex APIs and anything, you can just use JavaScript, which is faster.
 
 **Break:** \[00:28:57.02\]
 
@@ -304,7 +304,7 @@ I'm currently working on a PR that actually does this, fixes this problem by aut
 
 In Node.js, instead, if you leak memory you are in big trouble, because then it can affect other users as well. It's a big, big difference there in how tight the error handling needs to be in one case versus another.
 
-**Kevin Ball:** Yeah, and I think even in the browser world it's become much more important, because increasingly -- you know, back pre-single-page app days, you'd throw everything away and restart a new page. But now you have an application that does all that navigation in Javascript and you're keeping stuff around for much, much longer. So your memory usage is one of the big areas where I think we need to both increase awareness and also increase our layers of tools to make it easier to do right.
+**Kevin Ball:** Yeah, and I think even in the browser world it's become much more important, because increasingly -- you know, back pre-single-page app days, you'd throw everything away and restart a new page. But now you have an application that does all that navigation in JavaScript and you're keeping stuff around for much, much longer. So your memory usage is one of the big areas where I think we need to both increase awareness and also increase our layers of tools to make it easier to do right.
 
 **Matteo Collina:** Yes, absolutely. One of the problems in that, that I find conceptually that can be a problem, is how promises are specified and how they work. The beauty of a promise, if you can see it that way - because it's also very fascinating - is like \[unintelligible 00:48:07.04\] You don't know if the cat is alive or dead until you open the box. That's a promise, right?
 

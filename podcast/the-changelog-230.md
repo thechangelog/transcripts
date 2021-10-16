@@ -40,7 +40,7 @@ At the end of 2013, a bunch of Presidential Innovation fellows decided to stick 
 
 **Jerod Santo:** I read that you're also an instructor at Cornell - can you tell us about that a little bit?
 
-**Aidan Feldman:** Yeah, so outside of my work with GSA I do some teaching; right now I'm doing a class at Cornell, teaching about how large-scale systems work when you're doing web development, understanding dev ops principles and all the different layers of the stack, that kind of thing. In general, outside of work, I deal a lot with people learning to code, and that's something I'm also really excited about.
+**Aidan Feldman:** Yeah, so outside of my work with GSA I do some teaching; right now I'm doing a class at Cornell, teaching about how large-scale systems work when you're doing web development, understanding DevOps principles and all the different layers of the stack, that kind of thing. In general, outside of work, I deal a lot with people learning to code, and that's something I'm also really excited about.
 
 **Jerod Santo:** \[00:08:19.18\] Very cool. Hillary, we have to ask you about this, because you have an awesome, single-word Twitter handle, @Hillary, which shows that you've been around, you got that one probably early... As many of us have to go with either a mock name, or a full name, or...
 

@@ -22,7 +22,7 @@ You know, I look around at this conference and there's a lot of really intereste
 
 **Adam Stacoviak:** Because it's from experience, inside of Google...
 
-**Brendan Burns:** It's from stuff that's been in the Linux Kernel since 2008, and work that's been done on the Linux Kernel... And even further back. I did this talk a while back about sort of like the history, and you can point back to chroots in UNIX in the late 1970's as sort of being the beginning of containers. It's important to point back and know that this is not an original idea; this is a collection of tools that have put together a lot of different ideas that people have had over the years. Now I'm a distinguished engineer at Microsoft, and running a lot of the container and dev ops stuff that Azure does.
+**Brendan Burns:** It's from stuff that's been in the Linux Kernel since 2008, and work that's been done on the Linux Kernel... And even further back. I did this talk a while back about sort of like the history, and you can point back to chroots in UNIX in the late 1970's as sort of being the beginning of containers. It's important to point back and know that this is not an original idea; this is a collection of tools that have put together a lot of different ideas that people have had over the years. Now I'm a distinguished engineer at Microsoft, and running a lot of the container and DevOps stuff that Azure does.
 
 **Adam Stacoviak:** Very cool. And Gabe, what's your history with Kubernetes specifically?
 

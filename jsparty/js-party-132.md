@@ -148,7 +148,7 @@ Okay, I have a couple more, and then we're gonna go to a break. The next one I h
 
 Okay, next one... Can site A embed a script from site B?
 
-**Divya:** I did not think so. That was my assumption. My assumption was that you would pull in the script and then you would have to eval it \`eval\` it almost in order for it to run... But I don't know. So my answer is "I don't know."
+**Divya:** I did not think so. That was my assumption. My assumption was that you would pull in the script and then you would have to eval it `eval` it almost in order for it to run... But I don't know. So my answer is "I don't know."
 
 **Feross Aboukhadijeh:** So Nick, what's your reasoning?
 
@@ -290,9 +290,9 @@ And then the other place you might have seen it is Chrome extensions. Chrome ext
 
 **Nick Nisi:** Gotcha.
 
-**Feross Aboukhadijeh:** That's probably where some people have seen CSP. The other thing you can do with CSPs - you can say for example no eval-ing is allowed. So if anyone tries to run \`eval\`, you can just say "Don't let that happen, because that's kind of a wildcard. We don't know what's gonna happen when stuff gets eval-ed." Eval is evil.
+**Feross Aboukhadijeh:** That's probably where some people have seen CSP. The other thing you can do with CSPs - you can say for example no eval-ing is allowed. So if anyone tries to run `eval`, you can just say "Don't let that happen, because that's kind of a wildcard. We don't know what's gonna happen when stuff gets eval-ed." Eval is evil.
 
-**Divya:** But within Chrome extensions there are ways in which you can modify the policy, or like to what extent... Isn't that an ability to do -- like, similar to how in frameworks you'd dangerously set HTML, I think in Chrome don't you have a way of doing it where they prefix it with "dangerous" or "unsafe", or something like that? ... in your policy, so you can say "Allow \`eval\`", for example, I think...
+**Divya:** But within Chrome extensions there are ways in which you can modify the policy, or like to what extent... Isn't that an ability to do -- like, similar to how in frameworks you'd dangerously set HTML, I think in Chrome don't you have a way of doing it where they prefix it with "dangerous" or "unsafe", or something like that? ... in your policy, so you can say "Allow `eval`", for example, I think...
 
 **Feross Aboukhadijeh:** That's possible, yeah. Are they letting you change the CSP in your Chrome extension?
 

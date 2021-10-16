@@ -426,7 +426,7 @@ Now, you said something very interesting, and I hear that again and again, about
 
 **William Nichols:** It's expected. But we're counting our mistakes. Mistakes that caused a program and caused you to do some additional rework. Not the first development. Yeah, that first failure is an expected failure...
 
-Superficially, it sounds like they're at odds. They really aren't. But the mindset and the discipline is somewhat different. We were really focused on doing things like being methodical, really engaging in the design... You see more of these things coming out now as we move into the dev ops world. The pendulum is swinging back the other way, but that's a whole other discussion.
+Superficially, it sounds like they're at odds. They really aren't. But the mindset and the discipline is somewhat different. We were really focused on doing things like being methodical, really engaging in the design... You see more of these things coming out now as we move into the DevOps world. The pendulum is swinging back the other way, but that's a whole other discussion.
 
 **Adam Stacoviak:** It kind of reminds me of that quote -- I believe it's Thomas Edison saying "I haven't failed 10,000, I've only found 10,000 ways my idea didn't work."
 

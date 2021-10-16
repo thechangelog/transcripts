@@ -26,7 +26,7 @@ So in a lot of my work I'm trying to help folks, especially engineers, get out o
 
 **Adam Stacoviak:** Gotcha. I wasn't sure if it was like a research, or something like that. I wanna make sure I earmark that in my brain, because I'll forget if not.
 
-**Lara Hogan:** Tons... Yeah, there's a ton of research. I mean, sponsorship is one of those things that's been studied for decades, and all of the studies show that people get further in their careers, they have more opportunities to do even more visible, valuable work, they're more likely to get a stretch assignment, they're more likely to get raises, they're more likely to have other people higher up in the ladder know their name... You know, people \[unintelligible 00:05:54.10\]
+**Lara Hogan:** Tons... Yeah, there's a ton of research. I mean, sponsorship is one of those things that's been studied for decades, and all of the studies show that people get further in their careers, they have more opportunities to do even more visible, valuable work, they're more likely to get a stretch assignment, they're more likely to get raises, they're more likely to have other people higher up in the ladder know their name... You know, people who kind of get more projects.
 
 **Jerod Santo:** Yeah.
 
@@ -136,7 +136,7 @@ There's a lot to unpack there, but it's a reasonable fear, and I want to make su
 
 **Jerod Santo:** So you've mentioned the difference between sponsorship, mentorship and coaching... I wanna dive into the coaching bit a little bit, but put a pin in that first, because you're also talking management and leadership, and I wonder if you differentiate those two, or if you don't. And if so, what are the differences?
 
-**Lara Hogan:** \[00:19:49.29\] Great question. \[unintelligible 00:19:49.23\] tradition of trying to define these two very broad, mixed-up categories... \[laughter\] Honestly, just like mentoring and coaching tend to also be really conflated a lot of the time. I do find a distinction between them a lot, but just like a square is a rectangle, but a rectangle may not be a square - management and leadership are a little bit like that... Where you can be a manager and also a leader, and you can also be a leader and also a manager, but sometimes they're really distinct.
+**Lara Hogan:** \[00:19:49.29\] Great question. What a time, you know honor tradition of trying to define these two very broad, mixed-up categories... \[laughter\] Honestly, just like mentoring and coaching tend to also be really conflated a lot of the time. I do find a distinction between them a lot, but just like a square is a rectangle, but a rectangle may not be a square - management and leadership are a little bit like that... Where you can be a manager and also a leader, and you can also be a leader and also a manager, but sometimes they're really distinct.
 
 I think a lot about facilitators in meetings. Someone who's a facilitator of a meeting - they may not be managing anybody, they may not be managing the content, but they're probably leading the meeting in a way, even if they don't have any interest in what's happening. That's a pretty clear distinction to me. Every company is different in how they define it. In a lot of companies, staff folks - meaning staff engineers, staff designers, whomever - are leaders, but they don't have distinct management responsibilities. But again, it's all kind of messy...
 
@@ -444,7 +444,7 @@ One of the things that she taught me very early on was this framework, this acro
 
 If you're optimizing for gaining more power, for example, and you're thinking about becoming a manager, you may not actually get more power. It will be really important for you to do some research, talk to some other managers to ask about what they have influence on, what they have authority over etc. because it's often a bad surprise.
 
-If you're optimizing for making a new team charter, a new vision, giving the team purpose - maybe that's a possibility at your company. If you're optimizing for a change of pace, \[unintelligible 00:49:15.03\] and that could also breed additional questions.
+If you're optimizing for making a new team charter, a new vision, giving the team purpose - maybe that's a possibility at your company. If you're optimizing for a change of pace, guarantee your management will give you a change of pace, and they will ask what are optimizing for with change of pace and that could also breed additional questions.
 
 So getting clear about what you're optimizing for will allow you to figure out whether or not you can have success in the other role, in either direction. People who skip this step have asked themselves "What am I optimizing for when I'm thinking about changing roles?" often change roles and then hate it... Because they find out that they can't achieve the thing that they were optimizing for, because they were working under a bunch of assumptions, or that's just not how it works, so the role doesn't have as much authority or power as they thought it would.
 

@@ -14,3 +14,11 @@ Thanks for wanting to help out! These pointers below _should_ help you fall into
 ### Conventions 🤝
 
 - Please review the [conventions](https://github.com/thechangelog/transcripts#conventions) section of the README before opening a PR
+
+### Formatting 📕
+
+This repo has an automatic formatter that applies some style conventions. To run this:
+* Ensure you have the latest stable version of [NodeJS](https://nodejs.org) installed.
+* run `npm install` to install dependencies
+* run `npm run format` to apply formatting changes to the repo
+* run `npm run format:test` to run the tests for the formatter

@@ -162,9 +162,9 @@ So given that these are specific pain points that people talked about, how does 
 
 Item one, Redux Toolkit has a function called configureStore, that is a one-line call. You provide either the reducer function you've already built yourself, or the slice reducers for the different features, and it will assemble them itself. It automatically sets up the Redux DevTools' browser extension setup that is needed, and it automatically adds the Redux Thunk middleware, and in development mode a couple of dev check middleware that will throw errors if you do things like accidentally mutate any state in the store... So protecting against by far the most common mistake that people make when using Redux.
 
-From there, there's a couple of utilities like \`createAction\`, which generates action creators based on a given type string... And \`createReducer\`, which allows you to define reducers using an object look-up table syntax rather than a switch statement, because for some reason a lot of people really hate switch statements.
+From there, there's a couple of utilities like `createAction`, which generates action creators based on a given type string... And `createReducer`, which allows you to define reducers using an object look-up table syntax rather than a switch statement, because for some reason a lot of people really hate switch statements.
 
-And \`createReducer\` also uses this Immer library inside to let you write what looks like mutating syntax in your reducers, but it's actually turned into safe, correct, immutable updates internally. So from there, we have an API called createSlice, and we've traditionally used the word "slice" to refer to the reducer for a single part of your Redux state. For example, if I have a blogging app with state.users, state.posts and state.comments, the users reducer and the users actions represent a slice of your state.
+And `createReducer` also uses this Immer library inside to let you write what looks like mutating syntax in your reducers, but it's actually turned into safe, correct, immutable updates internally. So from there, we have an API called createSlice, and we've traditionally used the word "slice" to refer to the reducer for a single part of your Redux state. For example, if I have a blogging app with state.users, state.posts and state.comments, the users reducer and the users actions represent a slice of your state.
 
 \[00:31:55.03\] So createSlice builds on createAction and createReducer. You give it a set of reducer functions in an object, and you give them meaningful names. Giving the classic to-do app example, todoAdded, todoToggled, changeFilter, stuff like that... And it automatically generates the action creators and the action types internally, based on the names of the reducer functions that you provided. And this actually gets to that grepability factor that you were asking about earlier.
 
@@ -182,9 +182,9 @@ So if I look at the dev tools and I see a todos/todoadded action type, I should 
 
 **Amal Hussein:** Yeah, that's pretty cool. I think it's very interesting that you've even included APIs like the adapter -- what's it called?
 
-**Mark Erikson:** \`createEntityAdapter\`.
+**Mark Erikson:** `createEntityAdapter`.
 
-**Amal Hussein:** \`createEntityAdapter\`, yeah. Can you tell us about that one? What is that, and what problem is that solving?
+**Amal Hussein:** `createEntityAdapter`, yeah. Can you tell us about that one? What is that, and what problem is that solving?
 
 **Mark Erikson:** Sure. So after writing the Redux FAQ in the spring of 2016, I followed that with a recipes section called Structuring Reducers, which gives some guidelines on things like "Why do we split up reducer logic into multiple functions? What are some ways that you can organize that reducer logic? And one of the patterns that I'd seen being used just in the first year of Redux's existence was this idea of normalizing your state, which generally has two aspects of it. One is that you don't wanna have duplicate copies of data being kept in the store.
 
