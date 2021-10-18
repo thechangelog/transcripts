@@ -52,7 +52,7 @@
 
 **Ronald Marrero:** Yeah. \[unintelligible 00:03:56.12\] at UCF, so part of the requirement to complete your bachelor's is to go through senior design, which is this really neat group project that you have to complete in order to basically receive your degree.
 
-\[00:04:15.12\] It's several weeks long, where different sponsors will come out and pitch projects. This for me was fall 2018. Tons of different sponsors... Red Lobster was a sponsor, Lockheed was a sponsor... So tons of cool projects for students to get involved in. So the nature of them, the more I started listening to them... You know, they were interesting; a lot of websites, a lot of machine learning... It's a hot topic, and definitely one that a lot of students were interested in. And then I heard NASA.
+\[04:15\] It's several weeks long, where different sponsors will come out and pitch projects. This for me was fall 2018. Tons of different sponsors... Red Lobster was a sponsor, Lockheed was a sponsor... So tons of cool projects for students to get involved in. So the nature of them, the more I started listening to them... You know, they were interesting; a lot of websites, a lot of machine learning... It's a hot topic, and definitely one that a lot of students were interested in. And then I heard NASA.
 
 There was a gentleman by the name of Mike Conroy on behalf of the Florida Space Institute, where he works, who brought us this project. And I remember clearly one of the slides said "If you work on this project, you will be a NASA intern. You will get access to Kennedy Space Center..."
 
@@ -80,7 +80,7 @@ You go through an entire (kind of) vetting process with the professor of the cla
 
 **Adam Stacoviak:** You mentioned in what you learned here that you had to write a strong cover letter. What was involved in writing that? What was involved in the research to make sure you got it right?
 
-**Ronald Marrero:** \[00:07:43.09\] Yeah, so I definitely wanted to make sure that I was competent to perform, that I would stick to my commitments, that I would show the professor that if I got a project as important as working with NASA, that I would be able to deliver. And thankfully, I had been working at a hospital group here in Orlando, working software development for them, and they had given me the opportunity to be the scrum lord over one of their development teams.
+**Ronald Marrero:** \[07:43\] Yeah, so I definitely wanted to make sure that I was competent to perform, that I would stick to my commitments, that I would show the professor that if I got a project as important as working with NASA, that I would be able to deliver. And thankfully, I had been working at a hospital group here in Orlando, working software development for them, and they had given me the opportunity to be the scrum lord over one of their development teams.
 
 So I really drove home the leadership part of my experience, and then just displayed a willingness to learn. I think I've really always done a good job at searching, and if I get stuck, just working the problem. I had no robotics experience, I had no simulation experience; all I had was the desire, not just to work for NASA, but to work on something I never had before. And with robotics being such a big part of today's world, and even a bigger part going forward, I really wanted to do something that would get me out of my comfort zone.
 
@@ -100,7 +100,7 @@ So when Mike Conroy with the Florida Space Institute brought us this project, he
 
 **Adam Stacoviak:** Did they give you any bootstraps or leg up to begin the project? Anything like research papers or anything to say "Well, here's where we've been..." and maybe resume from there and make it open source? How did it translate from some proprietary version of it to what you all created?
 
-**Jerod Santo:** \[00:11:39.03\] Yeah, so they had given us public links to their scientific papers on the RASSOR, how they had designed it, the challenges that they were working to solve with it, and then just how they engineered it from a high level. So we went through those to understand "Okay, this robot has two digging arms. How did they get that to work? Where is the central processing unit on this robot, so that we can make sure we get that right? What are the operations that they expect it to do, so that we can emulate those functions as well?"
+**Jerod Santo:** \[11:39\] Yeah, so they had given us public links to their scientific papers on the RASSOR, how they had designed it, the challenges that they were working to solve with it, and then just how they engineered it from a high level. So we went through those to understand "Okay, this robot has two digging arms. How did they get that to work? Where is the central processing unit on this robot, so that we can make sure we get that right? What are the operations that they expect it to do, so that we can emulate those functions as well?"
 
 So we got those documents, and we also -- we just looked them up on YouTube and were able to thankfully find visual footage of what this robot looked like before we were able to meet them in person... And we went from there.
 
@@ -122,7 +122,7 @@ I do still keep in contact with the Swamp Works engineers, but I don't actively 
 
 That all happens through a rocket capable of taking the biggest payload we've ever taken. It's called the SLS - the Space Launch System. That's gonna be the rocket that we use for Artemis 1 to take us on orbit around the Moon and return. So the Artemis missions are -- at least initially, Artemis 1 is to orbit the moon and then come back, and eventually along the way, by 2024, to send humans back onto the surface of the Moon.
 
-**Adam Stacoviak:** \[00:16:21.24\] What I find hard to believe is you have just blown my mind, because a lot of people may perk their ears up and say "Yeah, we haven't been back to the Moon in quite a while", and there's a lot of skepticism around the fact that we've gone to the Moon, or whether we've been in space, and for a mission to say "We will go back and land with a man and woman on the Moon in 2024" is like shut up a lot of skeptics, I suppose, and prove that we actually have gone...
+**Adam Stacoviak:** \[16:21\] What I find hard to believe is you have just blown my mind, because a lot of people may perk their ears up and say "Yeah, we haven't been back to the Moon in quite a while", and there's a lot of skepticism around the fact that we've gone to the Moon, or whether we've been in space, and for a mission to say "We will go back and land with a man and woman on the Moon in 2024" is like shut up a lot of skeptics, I suppose, and prove that we actually have gone...
 
 **Jerod Santo:** Sure.
 
@@ -150,7 +150,7 @@ I think it's gonna take a lot of coordination across the country. There's not ju
 
 What we do on the Moon is another part of the mission; the kind of experiments that we run and challenges that we try to solve on the Moon - entirely different. So through projects like the EZ-RASSOR, where we can give code to university students, high school students, even professionals, and say "Here are the resources that you have. Here's a robot capable of excavation. You can run it yourself right now, and try to tackle this challenge. For professionals and anybody who tries to tackle those challenges, give us your code." And then for NASA engineers - they can review that, and they can see what ideas are out there, and they can apply that directly into their missions, into their thinking, or in a lot of cases bring them on to be part of that as well.
 
-**Break:** \[00:19:33.06\]
+**Break:** \[19:33\]
 
 **Jerod Santo:** So let's talk about the EZ-RASSOR software project itself and learn about how it all works together. So the primary goal, as it says in the readme of the EZ-RASSOR, is to provide a demonstration robot for visitors at the Kennedy Space Center. My first question is is there a demonstration robot there that the software runs on, or is it a software-only demonstration?
 
@@ -170,7 +170,7 @@ So it made it really easy for us to build the system modularly, one component at
 
 **Jerod Santo:** So in what environment did the simulations run?
 
-**Ronald Marrero:** \[00:23:46.28\] ROS as a framework, when you install the full package, comes bundled with a simulation software called Gazebo. So we initially used ROS Kinetic, which shipped with Gazebo version 7, and we did all of this inside of Ubuntu. As soon as our software spun up, we configured our system to launch different processes through a launch file... So we would kick off the simulation, and immediately the robot would come on to the screen through the simulation and wait for messages. So we would, either through a gamepad, send messages to it and see it move in real-time, or just right there on the command line be able to interface with it and see it move around, see the drums dig, see the arms go up and down...
+**Ronald Marrero:** \[23:46\] ROS as a framework, when you install the full package, comes bundled with a simulation software called Gazebo. So we initially used ROS Kinetic, which shipped with Gazebo version 7, and we did all of this inside of Ubuntu. As soon as our software spun up, we configured our system to launch different processes through a launch file... So we would kick off the simulation, and immediately the robot would come on to the screen through the simulation and wait for messages. So we would, either through a gamepad, send messages to it and see it move in real-time, or just right there on the command line be able to interface with it and see it move around, see the drums dig, see the arms go up and down...
 
 **Adam Stacoviak:** Yeah, it's interesting, you're talking about controlling it. So what are some of the control structures for controlling the robot? \[unintelligible 00:24:37.04\] Are we talking about Nintendo controllers, are we talking about -- what are some of the mechanics for controlling?
 
@@ -212,7 +212,7 @@ One day I was at a jam session and my friend Tommy just referred to me as C\#. H
 
 **Ronald Marrero:** It looks like phonetically that's how you would say it, but sadly, I can't use the actual hashtag on a lot of websites, because then the browser thinks it's an ID tag.
 
-**Jerod Santo:** \[00:28:12.08\] So where did you get that one from? Where did that one come from?
+**Jerod Santo:** \[28:12\] So where did you get that one from? Where did that one come from?
 
 **Ronald Marrero:** CSharp?
 
@@ -254,7 +254,7 @@ Certainly working with Linux and troubleshooting has gotten me more familiar wit
 
 **Ronald Marrero:** Yeah, I saw the announcement actually today. It looks really neat. They brought back the Escape button... And yeah, I went down that journey, like you mentioned, and I was very surprised to see how much documentation there is regarding Linux things. I think that helped me a lot. Lots of great resources to learn... And the only thing that scared me off was looking at old posts from Linus Torvalds, comments on requests to change Linux. That really scared me. But yeah, other than that, the experience has been very positive.
 
-**Jerod Santo:** \[00:31:55.00\] I ran Ubuntu for a few years during college and shortly thereafter, and back then - this was 2005-2006, so many things have changed... But it was always the Wi-Fi, the wireless card drivers that every time I upgraded I would have to spend hours fixing those things, and I just was like -- I'd had enough. I know things have gotten a lot better, but we still haven't had the year of Linux desktop... But I know everybody who runs Arch are usually huge fans of it. I'm a huge fan of Linux. I love that entire -- I was gonna say "infrastructure", but what's the word? Just the file system, the commands, the \[unintelligible 00:32:28.28\] and all that kind of stuff. I love it all. It's just when it comes time to record a podcast and you need to use audio, Adam and I - we will tend to give a little bit of an eye roll... Because when someone says they're on Linux, it's like "Oh, this could be trouble..."
+**Jerod Santo:** \[31:55\] I ran Ubuntu for a few years during college and shortly thereafter, and back then - this was 2005-2006, so many things have changed... But it was always the Wi-Fi, the wireless card drivers that every time I upgraded I would have to spend hours fixing those things, and I just was like -- I'd had enough. I know things have gotten a lot better, but we still haven't had the year of Linux desktop... But I know everybody who runs Arch are usually huge fans of it. I'm a huge fan of Linux. I love that entire -- I was gonna say "infrastructure", but what's the word? Just the file system, the commands, the \[unintelligible 00:32:28.28\] and all that kind of stuff. I love it all. It's just when it comes time to record a podcast and you need to use audio, Adam and I - we will tend to give a little bit of an eye roll... Because when someone says they're on Linux, it's like "Oh, this could be trouble..."
 
 **Ronald Marrero:** Yeah, and maybe that's something I should have said before, so you could have steered me away... \[laughter\]
 
@@ -272,15 +272,15 @@ So we continue to develop even after the deadline, even after we submitted the p
 
 **Adam Stacoviak:** Is EZ-RASSOR being used by the Artemis mission, or is that just part of how you got there?
 
-**Ronald Marrero:** \[00:35:38.25\] Artemis I think for the extent of this is just what I'm working on, but they're totally separate. The RASSOR itself that NASA is working on relates to the Mars mission, but I haven't seen where it's slated to be sent out yet... So it could be part of the Artemis mission; quite frankly, I don't know. I know that technology like the RASSOR is gonna be important, it's gonna be crucial to getting us to Mars and staying on there and building a sustainable habitat.
+**Ronald Marrero:** \[35:38\] Artemis I think for the extent of this is just what I'm working on, but they're totally separate. The RASSOR itself that NASA is working on relates to the Mars mission, but I haven't seen where it's slated to be sent out yet... So it could be part of the Artemis mission; quite frankly, I don't know. I know that technology like the RASSOR is gonna be important, it's gonna be crucial to getting us to Mars and staying on there and building a sustainable habitat.
 
 The EZ-RASSOR as a platform is open source and you can contribute to it. If there are really good ideas on there, breakthroughs in autonomy - and those are even issues that are being worked on now, and as ideas come along, we might open those issues up. The engineers are looking at that, and they might bring that back in, they might reach out for more community involvement and see how stable it is... So this is definitely for education, but it has all the possibility of going further than that.
 
-**Break:** \[00:36:42.20\]
+**Break:** \[36:42\]
 
 **Jerod Santo:** It definitely would be a cool way to get started in robotics, or even in Python, hopping into this repo and see if you can get it installed, see if you can get it running. The bullet points listed in the readme, the things that they can do - I'm curious how many of these are aspirational and how many of these are accomplished. So you have rover cross light to moderate terrain, collect regolith in rotating drums... Maybe you can explain what some of these things mean. Return regolith to hoppers located away from dig sites... I think I know what that means at least... Execute pre-planned routines autonomously, navigate around possible obstructions (that sounds like it might be aspirational), cooperate in a swarm of other RZ-RASSORs; that sounds scary, but awesome... How many of these are out there in the code right now?
 
-**Ronald Marrero:** \[00:40:10.02\] The biggest one right now is the autonomous movement. If you give it an X/Y coordinate, you tell it where it needs to go, it will go there and navigate around obstacles in its path. It will dig for a predefined amount of time - I think we have it set to 10-15 seconds - and then it will return back to where it started from, which when you spawn it up becomes 00.
+**Ronald Marrero:** \[40:10\] The biggest one right now is the autonomous movement. If you give it an X/Y coordinate, you tell it where it needs to go, it will go there and navigate around obstacles in its path. It will dig for a predefined amount of time - I think we have it set to 10-15 seconds - and then it will return back to where it started from, which when you spawn it up becomes 00.
 
 Those autonomous functions are working. Now, because it is a simulation, actually digging into the terrain, as far as our research went, isn't possible in Gazebo. So to see the terrain change we'd probably need something more robust, to be able to visually see that... But for the purposes of the simulation, we are able to see it go into the ground, and the whole robot itself moves.
 
@@ -314,7 +314,7 @@ Regolith itself is an interesting term... It's the R in EZ-RASSOR (or RASSOR), a
 
 So when you go out to do a dig, you as the robot need to determine "How do I get to my dig site?" and "Is this a viable dig site? Am I gonna fall off a cliff somewhere? Is there enough materials to mine here, or am I gonna break my wheels?" That's where swarm technology really comes into play. Being able to communicate, to have a set of robots communicate with each other and know "Hey, this path I've already determine that you can't cross it" saves on computational resources and possibly even saves the robot from being damaged. By working in a swarm you can also dig more efficiently.
 
-\[00:44:14.25\] So that's probably the stretchiest of the stretch goals that we had. The implementation we currently have - we're able to spawn up multiple robots, and we can give them each a set of X/Y coordinates to navigate to, dig, and come back to. We have that fleshed out and working. And we also have a game version, where if you spawn up multiple robots and you hand four people four different phones and/or controllers, they can try to wreck each other. We call that Battlebots. \[laughs\]
+\[44:14\] So that's probably the stretchiest of the stretch goals that we had. The implementation we currently have - we're able to spawn up multiple robots, and we can give them each a set of X/Y coordinates to navigate to, dig, and come back to. We have that fleshed out and working. And we also have a game version, where if you spawn up multiple robots and you hand four people four different phones and/or controllers, they can try to wreck each other. We call that Battlebots. \[laughs\]
 
 **Adam Stacoviak:** That's cool.
 
@@ -338,7 +338,7 @@ So self-right - if you land on your side, if you tip over and land on your side,
 
 **Ronald Marrero:** Yeah. So it's just best to turn it around.
 
-**Adam Stacoviak:** \[00:47:58.01\] Gotcha. I guess from a software perspective -- and I guess you could just reverse everything, but you could do it like goofy foot mode, or something like that. I'm just thinking like -- I used to skateboard, so it was goofy foot for me.
+**Adam Stacoviak:** \[47:58\] Gotcha. I guess from a software perspective -- and I guess you could just reverse everything, but you could do it like goofy foot mode, or something like that. I'm just thinking like -- I used to skateboard, so it was goofy foot for me.
 
 **Ronald Marrero:** Yeah, we could also listen to when that IMU value changes and instead of performing a self-right, if it's safe to do so, just keep going along and invert the values. That would definitely work as well.
 
@@ -364,7 +364,7 @@ But there are videos online of Swamp Works and their work towards trying to 3D p
 
 I fell into the trap for a long while of only continuing to learn about things that I had already know about, until I came across this robotics project. We live in a great time, because there are so many resources to learn basically anything; you just have to decide what you want to learn about.
 
-\[00:52:04.29\] So from the software engineering perspective, or in terms of working, I think robotics is gonna be a major key in space exploration. There are so many challenges that have yet to be solved, not just here at Kennedy, but in future missions, involving all kinds of research... So just taking a chance to learn robotics and maybe building your first robot, or trying to get ours up and running, just the simulation, I think would be very good.
+\[52:04\] So from the software engineering perspective, or in terms of working, I think robotics is gonna be a major key in space exploration. There are so many challenges that have yet to be solved, not just here at Kennedy, but in future missions, involving all kinds of research... So just taking a chance to learn robotics and maybe building your first robot, or trying to get ours up and running, just the simulation, I think would be very good.
 
 I'm a big believer in seeing the end goal and building a passion around that. What I mean is it's kind of hard to just tell somebody "Learn robotics" and have them want to do it. I think it's much more powerful and captivating to show them a rover on Mars, to show them a real robot and what it can do, and have them pursue their passions that way.
 
@@ -382,7 +382,7 @@ And if you're a visual person, go to the centers. You have Johnson Space Center 
 
 NASA has code that they publish, they have tools that they publish themselves, that you can download and use. You can see their source code. It's the NASA Software Catalog. They have projects all over the place to get the public involved and contribute back into their work. One of them is the Space Robotics Challenge. Registration is open till the end of the year; anybody can sign up, you just have to be a U.S. citizen, I believe... And you can work on a real robotics project to solve a real challenge that they have, based out of Johnson Space Center. Not that they will make you go there, it's a remote competition, but that's the team that you're impacting... And I can't stress enough how you don't have to work for NASA to be part of that project. Their community involvement is greater than I've seen in the past, especially because technology is so accessible. They're able to get people who are just excited about space to work on some of their projects.
 
-**Adam Stacoviak:** \[00:56:12.21\] Can we come back to maybe Artemis for a second and talk about maybe where you're currently at? I know that you had mentioned your bachelor's degree in computer science, and you were sort of working and going to school at the same time... Maybe touch on that, and then maybe touch on specifically some of the things you're working on with the Artemis mission.
+**Adam Stacoviak:** \[56:12\] Can we come back to maybe Artemis for a second and talk about maybe where you're currently at? I know that you had mentioned your bachelor's degree in computer science, and you were sort of working and going to school at the same time... Maybe touch on that, and then maybe touch on specifically some of the things you're working on with the Artemis mission.
 
 **Ronald Marrero:** Yeah, so I wanted to keep the momentum going as soon as I finished with my bachelor's, so I figured what better to do than to go with my master's. Ph.D. seemed like a lot of work, and I'd have to give up work, so I went after my master's... And thankfully, I found a very good program at Georgia Tech, that is online... So it allows me to continue working full-time, like I've been doing since literally I started my bachelor's.
 

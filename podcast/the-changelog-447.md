@@ -4,7 +4,7 @@ I think you, Dave, had something to do with this, because around 2012 you publis
 
 **Dave Farley:** Yeah.
 
-**Gerhard Lazu:** \[00:04:05.28\] And even though, hand on heart, I haven't read the book, but everything that you capture in that book I sure have practiced for more than decades, and I cannot think of working any different. So how did you come up with the concept of continuous delivery?
+**Gerhard Lazu:** \[04:05\] And even though, hand on heart, I haven't read the book, but everything that you capture in that book I sure have practiced for more than decades, and I cannot think of working any different. So how did you come up with the concept of continuous delivery?
 
 **Dave Farley:** I'll start off by admitting that I'm very old and I've been doing this for a long time... So mostly how I came up with this is by doing it wrong in lots of weird and interesting ways first, and finding out what didn't work. I had a kind of formative experience, several formative experiences... But one time I remember in the late '90s building some reasonably complex software for an insurance company, and we were supposed to deploy it by writing a manual script that somebody would then take over and execute. And the system wasn't configured in the way that we expected. We didn't know what the configuration system was really, so that didn't work very well. So I remember me and a friend spending two days, stood up in a server room somewhere, trying to manually install the software... And I was thinking "There's gotta be a better way of doing this..."
 
@@ -18,7 +18,7 @@ So we thought we'd kind of write a book that was initially meant to be a series 
 
 I think you put it perfectly when you were describing it in terms of we wanna give ourselves the freedom to make mistakes. We want to be able to start -- I am a popular science nerd. I love reading about science, and physics in particular, and I think that we can learn a lot from the fundamental philosophies of science. I don't mean Six Sigma accuracy and statistics or something like that, but just applying scientifically rational thinking. You know, start off assuming that we're wrong, rather than assuming that we're right. Test out our ideas, try and falsify our ideas. Those are better ways of doing work, and it doesn't really matter what work it is that you're doing. That stuff just works better. And certainly, the ability to move quickly, make small changes quickly, observe the impacts of a change so that you're in effect controlling the variables, limiting the scope, the blast radius of mistakes is a fantastic way of making progress efficiently.
 
-\[00:08:41.28\] One of the things that I am obsessed with at the moment is watching Elon Musk and SpaceX build starships to go to Mars and blowing them up in Texas, because that's how you learn. That's how you do great engineering. I think we're on to something here, because I think continuous delivery is an approach that allows us, facilitates that kind of thinking and that kind of approach to software.
+\[08:41\] One of the things that I am obsessed with at the moment is watching Elon Musk and SpaceX build starships to go to Mars and blowing them up in Texas, because that's how you learn. That's how you do great engineering. I think we're on to something here, because I think continuous delivery is an approach that allows us, facilitates that kind of thinking and that kind of approach to software.
 
 **Gerhard Lazu:** You've made so many great points that I have difficulty tracking all the things that I wanna mention to all your points... I mean, there's just so much, so let me start with this. First of all, thank you very much. You have no idea how big of an impact your approach and your teachings and sharings had, not just on me, but on everyone I know. The stuff that you do and the staff that you've been promoting for decades now have been part of me in many different ways.
 
@@ -32,7 +32,7 @@ One of my other formative experiences was I was involved in building a very high
 
 One of my friends is now in New Zealand, and he regularly grumbles to me that "If only we were doing those things..." People don't wanna go back to a different way of working. This stuff works better. And fascinatingly, we're gathering data to back those sorts of statements up for science nerds like you and I. You shouldn't just trust what we say, we should also gather data, and you should try that for yourself, and all those sorts of things. Because if we are right, it's a reproducible thing. It's not some kind of magic.
 
-**Gerhard Lazu:** \[00:12:07.27\] I love that. Starting from "I'm wrong. Let me figure out what right looks like."
+**Gerhard Lazu:** \[12:07\] I love that. Starting from "I'm wrong. Let me figure out what right looks like."
 
 **Dave Farley:** Yes.
 
@@ -48,7 +48,7 @@ It is difficult to get people thinking differently, to change their minds, to ju
 
 **Dave Farley:** I think it's both. I think it's a combination. I think it's a little bit too trite... So we've always said things like "What it takes to build great software is you need great development teams." And that's true, you need good people. But it's not enough. I've worked with some genuinely brilliant developers, building bad software. And that's not their fault. A bad process will break good people every time. And so there's more to it than only that. And this, again, is one of those things that - I refer back to science quite so frequently... Often, developers and development teams and organizations are somewhat disdainful of process, because they assume that software is a heroic exercise carried out by geniuses toiling against the code mountain...
 
-\[00:16:14.10\] But you could say the same kind of thing about science. Science is this terrific endeavor, a human activity carried out by fallible, mistaking human beings... But by organizing their thinking in a certain way, they eliminate whole classes of errors and biases that are built into us through our biology. And if you want to do engineering, which I would count as an application -- so practical science, to a practical end, is the way I think about engineering. If you wanna do engineering of that form, which is what I've come to think of what we do as, when we do this sort of stuff that I'm talking about - if you wanna do that, then you're gonna have a better outcome, you're gonna improve your chances. It's no guarantee. It's not going to make a bad development team great. It's not gonna make a bad development team build world-class software, but it's going to improve the quality of their work. It's going to amplify their talents and their skills to an extent so they can do better than they would do without it. And that's true of world-class developers, too.
+\[16:14\] But you could say the same kind of thing about science. Science is this terrific endeavor, a human activity carried out by fallible, mistaking human beings... But by organizing their thinking in a certain way, they eliminate whole classes of errors and biases that are built into us through our biology. And if you want to do engineering, which I would count as an application -- so practical science, to a practical end, is the way I think about engineering. If you wanna do engineering of that form, which is what I've come to think of what we do as, when we do this sort of stuff that I'm talking about - if you wanna do that, then you're gonna have a better outcome, you're gonna improve your chances. It's no guarantee. It's not going to make a bad development team great. It's not gonna make a bad development team build world-class software, but it's going to improve the quality of their work. It's going to amplify their talents and their skills to an extent so they can do better than they would do without it. And that's true of world-class developers, too.
 
 One silly example, one of my good friends who I worked at LMAX with - he was the CTO, I was the head of software development - is Martin Thompson, and I regard Martin as at least one of the best, probably the best programmer that I've ever met. He's genuinely brilliant. Really, really talented guy. And I've known him for a long time, I've known him for many years. We first met in the '90s. He's a bit younger than me, and he was a young man then, and he was very, very good then... But I taught him to do test-driven development while we were at LMAX, and he and I think he's a better developer now than he was before.
 
@@ -66,7 +66,7 @@ I think words have some power, and I think that I like to use a reasonably stric
 
 **Gerhard Lazu:** Okay, great. So being Martin is the best software craftsman, software person, TDD made him better. Before TDD, what made him so good, in your eyes?
 
-**Dave Farley:** \[00:20:01.11\] There were lots of things. He's a very smart guy, which helps. It's not enough, but it helps. One of Martin's great talents is he's got a laser beam focus on simplicity. And one of the things that I learned from developing software with Martin is I've really strengthened one of the tools in my toolbox, which is focusing on the separation of concerns. So Martin is absolutely brilliant; he sees the least piece of code that is doing two things and immediately he's pulling it apart to try and separate those two things, so that each piece of code is focused on achieving one outcome, and then he's growing it from there.
+**Dave Farley:** \[20:01\] There were lots of things. He's a very smart guy, which helps. It's not enough, but it helps. One of Martin's great talents is he's got a laser beam focus on simplicity. And one of the things that I learned from developing software with Martin is I've really strengthened one of the tools in my toolbox, which is focusing on the separation of concerns. So Martin is absolutely brilliant; he sees the least piece of code that is doing two things and immediately he's pulling it apart to try and separate those two things, so that each piece of code is focused on achieving one outcome, and then he's growing it from there.
 
 Martin's code is almost like reading prose. It's readable, it's modular, it's cohesive... It's just nice code. It's also blisteringly fast. Martin's one of the world's experts on high-performance and concurrent systems, and he's widely recognized as such. The people on the Java team occasionally ask him for advice about how to speed things up, and that kind of thing... He's well-respected in the industry. But the thing that I value most is the focus on the separation of concerns as a driving force in the design that he applies to code. I kind of had a more informal use of that kind of technique. My design skills were pretty good. I'm a decent coder, I'm not a bad developer myself, but Martin was always so focused on it, and I've picked that up now. And now I'm always looking "Could I pull something apart here?" and my code is much nicer as a result.
 
@@ -80,7 +80,7 @@ Okay, that was a very nice story. Thank you for that.
 
 **Dave Farley:** It's a pleasure.
 
-**Break:** \[00:23:17.04\]
+**Break:** \[23:17\]
 
 **Gerhard Lazu:** Now as we come back, I would like to dig a little bit into the technology that you used back in the day, so the specifics around the CI system, the CD system, the programming language, the frameworks, how that used to work, if you had any project tracking tools, or how you would organize work in the days... And I would like to dig a little bit deeper into those specifics - time it took, which cloud provider you used (if any), where you would run these things, and how that changed over time.
 
@@ -104,7 +104,7 @@ We did a lot of development of sometimes reasonably sophisticated tooling of our
 
 We were doing early things with infrastructure as code. I remember we wanted to be able to version control the configuration of network switches, and the only way that you could configure the network switches was through a firmware admin console, web-based firmware, like you get in a home router, or something like that... So we wrote a little domain-specific language that we could program the configuration of this thing in, which then was backended by -- I think it was Selenium, or something similar.
 
-**Gerhard Lazu:** \[00:28:09.15\] Yeah, that's right.
+**Gerhard Lazu:** \[28:09\] Yeah, that's right.
 
 **Dave Farley:** It would then drive the web app to poke the values into the router. So we were doing a lot of messing around with those sorts of things; very ad-hoc, very -- incrementing those as we needed... And as I said, we did some fairly cool, fairly sophisticated things.
 
@@ -126,7 +126,7 @@ In that project in particular we weren't very big consumers of other people's so
 
 So that must have been very challenging. And even so, you built those things, you shipped those ideas, you shipped the code, and many people benefitting so many ways, decades after you started. 21 years later we're talking about how this started and how relevant it is, and it feels to me like the whole world, in a way or the other, the whole software world is revolving around the principles that you sat down then.
 
-**Dave Farley:** \[00:31:54.18\] There's a bit more history than that. So there were people doing good stuff before us, and open source had been around as an idea. It wasn't as big as it is now, there wasn't as much choice as there is now, but you know, Linux was around... Linus Torvalds had released that as an open source project considerably before then, and so on. A lot of the ideas that we were building on.
+**Dave Farley:** \[31:54\] There's a bit more history than that. So there were people doing good stuff before us, and open source had been around as an idea. It wasn't as big as it is now, there wasn't as much choice as there is now, but you know, Linux was around... Linus Torvalds had released that as an open source project considerably before then, and so on. A lot of the ideas that we were building on.
 
 ThoughtWorks was an interesting place. There was a brief spell -- I feel privileged to have worked for ThoughtWorks at a time that was very exciting. And ThoughtWorks in London in particular I think was not quite on the same scale perhaps, but it was almost like an agile Xerox PARC; it was a place where some interesting fundamental ideas were introduced.
 
@@ -148,7 +148,7 @@ What I'm trying to say is that we were building on the shoulders of giants. Peop
 
 **Gerhard Lazu:** So I'm wondering, how did the cloud-native landscape shape your ideas of continuous delivery? Was there an impact of that, or was that happening in parallel? What influence, if any, do you feel coming from there?
 
-**Dave Farley:** \[00:35:43.26\] I think that the gestation of the cloud was kind of in parallel with the starting points of continuous delivery. We published our book in 2010, and that kind of put a name on these practices, I suppose. And people these days talk about continuous delivery and continuous integration and all these sorts of ideas... I think we helped to popularize that through our book. But we'd been doing it for several years before that. And certainly in the early days, the cloud wasn't around, so all of the projects that continuous delivery began with were cloud projects.
+**Dave Farley:** \[35:43\] I think that the gestation of the cloud was kind of in parallel with the starting points of continuous delivery. We published our book in 2010, and that kind of put a name on these practices, I suppose. And people these days talk about continuous delivery and continuous integration and all these sorts of ideas... I think we helped to popularize that through our book. But we'd been doing it for several years before that. And certainly in the early days, the cloud wasn't around, so all of the projects that continuous delivery began with were cloud projects.
 
 I think that the cloud makes some of the continuous delivery thinking more obvious. I mean, you'd be absolutely insane to be an organization like Amazon or Google and to manually configure your servers. It's such a bizarre idea; it's just laughable. You couldn't do that. You're gonna automate that, unless you are crazy.
 
@@ -162,7 +162,7 @@ One of the things that seems to me that changes is the economics of the design f
 
 One of the things... We were talking about the continuous integration and continuous delivery tooling - I don't think we're there yet. I think there's more to do. I would like to see tooling that's more opinionated. I would like to see tooling that just -- bang, gave me a deployment pipeline. If I follow the rules, it's just going to run my unit tests, run my acceptance tests for me and deploy into production. That's doable, it seems to me. We could do that. I'm hoping to see the continuous delivery cloud vendors do more of that kind of thing - be more opinionated.
 
-\[00:39:43.21\] One of my favorite technologies - we were talking about tech earlier on - is Gradle for build systems in the Java space. And one of the things that I always loved about Gradle is that if you don't care, if you just are willing to buy into its model, you can write your build script in one line. You can just say "I'm doing Java" and it'll do it for you. It'll compile to Java, it'll run the tests, it'll do all of those things for you. But if you want to override almost any behavior, you can do that, too. It's a whole programming language built on top of this well-designed domain model for builds, is what Gradle really is.
+\[39:43\] One of my favorite technologies - we were talking about tech earlier on - is Gradle for build systems in the Java space. And one of the things that I always loved about Gradle is that if you don't care, if you just are willing to buy into its model, you can write your build script in one line. You can just say "I'm doing Java" and it'll do it for you. It'll compile to Java, it'll run the tests, it'll do all of those things for you. But if you want to override almost any behavior, you can do that, too. It's a whole programming language built on top of this well-designed domain model for builds, is what Gradle really is.
 
 I like opinionated software. I like opinionated software that says "Do it like this", and if you don't like it like that, it'll get it out of your way really quickly. I'd like to see more tools like that, because I think there's a tragedy of the commons kind of thing goes on a little bit. If everybody has a choice, everybody's rediscovering everything from scratch, and I think we \[unintelligible 00:40:47.27\] The cloud is one of those things that is doing that in some context. It's not doing it enough to my taste for build systems.
 
@@ -174,7 +174,7 @@ There's even like a control plane which controls all the Kubernetes deployments,
 
 Serverless - you can have an infinite capacity that you run for milliseconds, and then it spins down again. And that's a very interesting take. But you're right, how do you declare the pipeline or the thing that kind of controls all of these things that need to happen, because shipping the code out there, just part of it - you have tests, as you mentioned, you have the build, you have the dependencies you need to resolve... And that pipeline would be really big. So if you had to imagine it, it'd be massive. How could you declare it? And I think there's a lot of variance in pipelines.
 
-**Dave Farley:** \[00:44:09.02\] There is. But if I'm honest, part of why I'm complaining and being a grumpy old man about this is I'd like people to take my opinion. \[laughs\]
+**Dave Farley:** \[44:09\] There is. But if I'm honest, part of why I'm complaining and being a grumpy old man about this is I'd like people to take my opinion. \[laughs\]
 
 **Gerhard Lazu:** Right, okay. Same does everyone else.
 
@@ -192,7 +192,7 @@ If someone's listening to this and wants to do this, that would be really intere
 
 **Dave Farley:** I do. So the Continuous Delivery book that we've been discussing talks in broad principles about continuous delivery, and the deployment pipeline is kind of the core of the book, but it's not all the book's about. I have another book that was released this year on Leanpub, which is more of a focus manual on how to create deployment pipelines, and this pattern that I'm describing really, I suppose. So what are the key stages as I see them, and what should those be doing.
 
-\[00:48:04.02\] It's a pattern, so you would expect it to evolve over time and to morph into different shapes, so you take it parallel, and so on. But it seems to me there are some fundamental things, is that your fast feedback on the technical quality of your work as a development team, and then you need confidence to know that your software is releasable. And the latter involves tests that are more expensive to run.
+\[48:04\] It's a pattern, so you would expect it to evolve over time and to morph into different shapes, so you take it parallel, and so on. But it seems to me there are some fundamental things, is that your fast feedback on the technical quality of your work as a development team, and then you need confidence to know that your software is releasable. And the latter involves tests that are more expensive to run.
 
 So you need to think about this as kind of a machine, a parallel computing algorithm, if you like, so that you can kind of trade-off - getting the fast feedback, and then moving ahead in confidence that you're likely to get good feedback from later stages. So if thinking in those sorts of terms helps you model it... I think that's a good pattern, and I would make that the starting point.
 
@@ -212,7 +212,7 @@ So part of this is really to address the problem of how do you get organizations
 
 And now, as a developer, I'm gonna press the button, get my template out, start building my project against that template, and my deployment pipeline just starts functioning. Instead, at the moment, with all of the technologies that I've tried so far, I pretty much have to go through that exercise every time to set something up.
 
-**Break:** \[00:52:33.16\]
+**Break:** \[52:33\]
 
 **Gerhard Lazu:** Okay, let's do this... My assumption is that the pipeline that we use to push Changelog.com updates out is wrong. So my assumption is wrong. This is what the pipeline is, and I would like you to tell me what your thoughts are on the pipeline.
 
@@ -228,7 +228,7 @@ All this happens within 15 minutes. A lot of it is just like slow workers... Any
 
 **Dave Farley:** \[laughs\] I think all of the things that you've said - I can't be too critical of it, because it's working. So I'm nothing if not a pragmatist. Let me critique it, nevertheless.
 
-**Gerhard Lazu:** \[00:56:24.05\] Yes, please.
+**Gerhard Lazu:** \[56:24\] Yes, please.
 
 **Dave Farley:** So I think what you've said - I think the implications of what you've said is as a developer I don't know that I'm ready to move on to something new until after about ten minutes, when you've run all of your tests. That seems a little bit slow to me. I suppose it depends how big or complicated the code is. And part of the reason why it's slow is that you're conflating different kinds of tests. So the reason why a deployment pipeline is called a deployment pipeline is weird, and it's all my fault. I'm a software/computer nerd, and what this reminded me of when I came up with the idea was instruction pipelining in Pentium processors.
 

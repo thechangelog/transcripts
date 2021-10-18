@@ -26,7 +26,7 @@
 
 **Adam Stacoviak:** I just had to speed up my morning routine, really. I'm up early. I'm just not ready to work until like ten... Nine-thirty, ten. That's when my voice warms up, that's when my brain warms up. I need at least an hour to boot. It takes me a bit to get to full capacity. But I went to bed earlier last night than my norm, which is good, and I woke up -- I don't know, like eight(ish), I guess, so I guess it's a little earlier for me... But it was worth it, because I mean, for one, being at this call prepared, we had some notes in the background, which was great, we had a live \#AppleNerds channel in Slack... So if you're listening to this either now, live, or in the future, we have a channel dedicated to Apple nerds. Jerod, I think you started this channel a while back, and I was like "Okay..." I mean, I'm an Apple nerd too, but I never thought we'd actually have deeper commentary in there, because we've never traditionally been Apple fanboys, or Apple fanpeople, so to speak... I mean, definitely users, but never like--
 
-**Jerod Santo:** \[00:04:30.03\] Right.
+**Jerod Santo:** \[04:30\] Right.
 
 **Adam Stacoviak:** We've gotta create content around Apple. As a matter of fact, this is the first time we're ever doing anything event(ish) live alongside of Apple's events. This is a first for us.
 
@@ -50,7 +50,7 @@
 
 **Jerod Santo:** Tim, tell us about it.
 
-**Tim Smith:** \[00:08:00.09\] Oh... Shoot, I'm caught off-guard here, but yeah. So the MacBook Air comes in a whole new 100% recycled aluminum enclosure, which was to me one of the biggest announcements that had to do with the MacBook Air, and really all the Mac announcements that they made. I don't think they said the same thing for the iPad, right?
+**Tim Smith:** \[08:00\] Oh... Shoot, I'm caught off-guard here, but yeah. So the MacBook Air comes in a whole new 100% recycled aluminum enclosure, which was to me one of the biggest announcements that had to do with the MacBook Air, and really all the Mac announcements that they made. I don't think they said the same thing for the iPad, right?
 
 **Adam Stacoviak:** I think it was assumed...
 
@@ -92,7 +92,7 @@ You always have to compete with where the screen was, and I like now how it's be
 
 **Adam Stacoviak:** Right? I kind of prefer that over the touch. I like to connect and be me to the watch, and let the watch act as me, so sans Touch ID... However, I do agree that it is pretty cool to have Touch ID.
 
-**Jerod Santo:** \[00:12:00.09\] Here's the big point, I think, with regards to this particular feature... On the MacBook Air, the brand new MacBook Air, which is not a Pro device, it has Touch ID in the keyboard, and it also has a hardware Escape button. So there's no touch bar; they've just put the Touch ID in there, which is kind of what we all really wanted in the first place for the Pro's, and a hardware Escape button. I think a lot of developers, especially us Vim users - although I have adjusted to the touch bar's Escape... I just basically tap it like three times now, instead of once...
+**Jerod Santo:** \[12:00\] Here's the big point, I think, with regards to this particular feature... On the MacBook Air, the brand new MacBook Air, which is not a Pro device, it has Touch ID in the keyboard, and it also has a hardware Escape button. So there's no touch bar; they've just put the Touch ID in there, which is kind of what we all really wanted in the first place for the Pro's, and a hardware Escape button. I think a lot of developers, especially us Vim users - although I have adjusted to the touch bar's Escape... I just basically tap it like three times now, instead of once...
 
 **Tim Smith:** It's just not the same though...
 
@@ -120,7 +120,7 @@ What's the entry-level MacBook Pro price? I'm trying to grab it... Because we we
 
 **Adam Stacoviak:** And actually, comparing those prices as an entry-level, one, that doesn't include -- that's the older model, 13-inch, that's sans the touch bar... So you're not getting the latest gen. If you look at it and you say "Give me the latest gen MacBook Pro at the cheapest price", I think we're looking at $1,799. That's the latest quad-core processor, 8th generation versus 7th... It's still an i5 processor, but when you go over to the Air being $1,199, it just is an accessible price.
 
-**Jerod Santo:** \[00:16:16.10\] Yeah.
+**Jerod Santo:** \[16:16\] Yeah.
 
 **Tim Smith:** I really do think that this computer feels like the ideal portable developer machine, because the specs seem to be just right for what you would need to do most development, web and software at least... And the size of this thing is just wonderful. Didn't it say that it weighs something like 2,75 pounds? That's just crazy to me.
 
@@ -148,7 +148,7 @@ What's the entry-level MacBook Pro price? I'm trying to grab it... Because we we
 
 **Jerod Santo:** I think there are a few more of these stats in agreement with Tim on the idea that this might be the ultimate importable development environments, unless you wanna get something that's in the super-low price range... Because it's still $1,200, it's not super-low... But like Tim said, 2,75 pounds, crazy light. It's 17% smaller than the previous MacBook Air, which was the skinniest thing they made anyways in laptop size.
 
-\[00:20:11.19\] That being said, I was wondering, are they gonna keep the Air moniker, because the MacBook Pro's are so small now. Does the MacBook Air actually feel like it's airy? And I think 2,75 pounds says yes, but the all-day battery life, interestingly, 13 hours of movie playback and 12 hours of web browsing playback, which is crazytown...
+\[20:11\] That being said, I was wondering, are they gonna keep the Air moniker, because the MacBook Pro's are so small now. Does the MacBook Air actually feel like it's airy? And I think 2,75 pounds says yes, but the all-day battery life, interestingly, 13 hours of movie playback and 12 hours of web browsing playback, which is crazytown...
 
 **Tim Smith:** Yeah.
 
@@ -206,7 +206,7 @@ What's the entry-level MacBook Pro price? I'm trying to grab it... Because we we
 
 **Adam Stacoviak:** I would say that the speakers are good in the cases of when you're doing conferencing with people... Because that's where maybe you have headphones on; you don't have to, because they have noise-canceling, and what comes out of the speakers can go back into the mic kind of situation, so... Hearing people better when you're on the road, which is the whole point of a laptop, or in this case a MacBook (you've gotta be on-brand), is that you can actually hear something.
 
-\[00:23:39.01\] Maybe you have your AirPods on, maybe you have headphones on, since it does actually have the headphone jack, which we haven't mentioned - they could have maybe gone a little thinner, I guess, if they removed that... Which they seem to refuse to do on their hardware. I mean, kudos to them, because I still use it, but to me, if I had to buy a brand new machine today, that was like "Okay, Adam, take this thing and it's your to-go studio. Maybe you can do some development on it, of course... To-go studio, run Audition..." I don't do much in Photoshop these days. I couldn't -- I think based on the specs along (and I'm just assuming here), I could buy a MacBook Air and still take it with me and do all the necessary audio creative things we do, as well as the development creative things we do here at Changelog.
+\[23:39\] Maybe you have your AirPods on, maybe you have headphones on, since it does actually have the headphone jack, which we haven't mentioned - they could have maybe gone a little thinner, I guess, if they removed that... Which they seem to refuse to do on their hardware. I mean, kudos to them, because I still use it, but to me, if I had to buy a brand new machine today, that was like "Okay, Adam, take this thing and it's your to-go studio. Maybe you can do some development on it, of course... To-go studio, run Audition..." I don't do much in Photoshop these days. I couldn't -- I think based on the specs along (and I'm just assuming here), I could buy a MacBook Air and still take it with me and do all the necessary audio creative things we do, as well as the development creative things we do here at Changelog.
 
 **Tim Smith:** Yeah.
 
@@ -246,7 +246,7 @@ What's the entry-level MacBook Pro price? I'm trying to grab it... Because we we
 
 It's like they said, "You love this machine? Fine. We're gonna keep it, and we're gonna put everything we can into it, and we're gonna love you back... And give it to you for $1,200. Take that."
 
-**Jerod Santo:** \[00:28:15.04\] "We're gonna love you back?" You're anthropomorphizing quite a bit there... \[laughter\]
+**Jerod Santo:** \[28:15\] "We're gonna love you back?" You're anthropomorphizing quite a bit there... \[laughter\]
 
 **Adam Stacoviak:** Well, I mean, people have been buying this machine even sans Retina, because they love it so much.
 
@@ -290,7 +290,7 @@ I think the other reason you would go to a MacBook Pro would simply be to tweak 
 
 **Adam Stacoviak:** Yeah, I mean, and you're gonna embrace it... But a daily machine, you're gonna be like "Man, this sucks. I'd rather spend the extra grand or two maybe to get something that's more capable."
 
-**Tim Smith:** \[00:32:01.13\] Right, right. But that's what I'm saying - like we were talking about before, as a portable, conference-going machine for what we do... I mean, we could totally do a quick edit of a video on this, on location, for sure.
+**Tim Smith:** \[32:01\] Right, right. But that's what I'm saying - like we were talking about before, as a portable, conference-going machine for what we do... I mean, we could totally do a quick edit of a video on this, on location, for sure.
 
 **Adam Stacoviak:** Yeah, so it makes it an affordable can-also kind of machine, but not daily. Definitely affordable on that front, affordable on the weight front, and I will even venture to say that maybe our AI folks, machine learning folks are saying "This Air is probably great for me, too" because you still have the necessary USB-C Thunderbolt 3 ports, so I can eGPU it externally still yet, and still get a (for better or worse) $1,200 machine and still eGPU and add on things." I'm assuming the I/O is there for those external ML tasks. This is still a dev-friendly machine, even for those.
 
@@ -316,7 +316,7 @@ And I don't think -- we don't really need to upgrade to a this newest version of
 
 **Tim Smith:** Yeah, of the specs. So it starts with four cores. You can go up to six cores. This to me feels like Apple is listening to its customers. I was shocked that it starts with four cores. Also, space grey - amazing. Again, I would love matte black, but I'll settle for space grey. 64 GB of memory... Now, can someone explain to me what SO-DIMMs mean?
 
-**Adam Stacoviak:** \[00:36:02.14\] No.
+**Adam Stacoviak:** \[36:02\] No.
 
 **Jerod Santo:** Somebody who's not named Jerod. \[laughs\] He did make a point of saying "It's got SO-DIMMs", so I'm sure listeners out there know what that is, but I don't...
 
@@ -362,7 +362,7 @@ And I don't think -- we don't really need to upgrade to a this newest version of
 
 **Jerod Santo:** \[laughs\] "That's kind of terrible..."
 
-**Adam Stacoviak:** \[00:39:58.22\] I mean, the difference on the starting price is kind of terrible. \[unintelligible 00:39:57.21\]
+**Adam Stacoviak:** \[39:58\] I mean, the difference on the starting price is kind of terrible. \[unintelligible 00:39:57.21\]
 
 **Tim Smith:** No no no, $499 is the price that it is right now though. The old generation is $499. When it was new, it didn't start at $499.
 
@@ -398,7 +398,7 @@ And I don't think -- we don't really need to upgrade to a this newest version of
 
 **Tim Smith:** \[laughs\]
 
-**Jerod Santo:** \[00:43:57.03\] Well, you don't have to do that... What specifically is missing with the -- I mean, you say it's not for video... Is it because the GPU, the graphics card...?
+**Jerod Santo:** \[43:57\] Well, you don't have to do that... What specifically is missing with the -- I mean, you say it's not for video... Is it because the GPU, the graphics card...?
 
 **Adam Stacoviak:** Yeah, the graphics, the GPU... You need that. You need the graphics card with at least 4 gigs of GPU, for decent video stuff. Even if it's in 4K, you're gonna be dropping frames left and right, and not very happy... The graphics is where it's missing.
 
@@ -424,7 +424,7 @@ The I/O is really interesting. I think the Mac mini in my opinion is probably a 
 
 **Adam Stacoviak:** Totally. If you're just audio, no video, maybe even lightweight Photoshop, occasional graphics manipulation, if you're doing anything where you're doing things in the cloud -- that's essentially like Citrix back in the day; client-server, server-based computing stuff... And if you're doing stuff in the cloud, then the Mac mini would be a good option, graphics-wise, for example.
 
-**Tim Smith:** \[00:48:03.07\] So you're saying if I give up video, the Mac mini would be perfect.
+**Tim Smith:** \[48:03\] So you're saying if I give up video, the Mac mini would be perfect.
 
 **Adam Stacoviak:** It would be adequate. I can't say perfect.
 
@@ -456,7 +456,7 @@ The I/O is really interesting. I think the Mac mini in my opinion is probably a 
 
 **Adam Stacoviak:** I'm curious though, seven minutes ago \[unintelligible 00:51:06.16\] in our Apple Nerds chat room - he did something interesting around when it comes to developer-isms with the Mac mini, where he's pushing a CI environment that's powered by GitLab. He's using VirtualBox to run VMs for Windows and Linux, and then he's also got GitLab on the macOS. So he's got three OSs he's doing continuous integration for. I'm not really sure of his use cases; we do plan to do potentially a Backstage on this... So he hasn't said it yet, but I wanna earmark that, because that is one interesting thing where this machine can be used by, say, developers in an environment where they need to do CI, or anything that's debugging on several platforms, and potentially offer that to the other folks in their network to utilize for those needs.
 
-**Jerod Santo:** \[00:52:10.02\] Worth noting that Apple also gave a shout-out to people who are running Mac minis in servers, so they're very well aware that this is a thing that people are doing. What was the name of that company that had 8,000 Mac minis racked in a server farm? MacStadium?
+**Jerod Santo:** \[52:10\] Worth noting that Apple also gave a shout-out to people who are running Mac minis in servers, so they're very well aware that this is a thing that people are doing. What was the name of that company that had 8,000 Mac minis racked in a server farm? MacStadium?
 
 **Adam Stacoviak:** Interesting.
 
@@ -494,7 +494,7 @@ That gives you 10 Gigabit Ethernet, 128 gigs of SSD storage, 8 gigs of RAM - bec
 
 **Adam Stacoviak:** They don't offer that.
 
-**Tim Smith:** \[00:55:54.24\] That's what I'm saying...
+**Tim Smith:** \[55:54\] That's what I'm saying...
 
 **Jerod Santo:** Well, with eGPU you get that. That's what Tim's saying. You can buy your own external GPU and attach it via Thunderbolt, right?
 
@@ -536,7 +536,7 @@ That gives you 10 Gigabit Ethernet, 128 gigs of SSD storage, 8 gigs of RAM - bec
 
 **Tim Smith:** Yeah. I agree with Jerod. What I love the most of the Mac mini is the fact that it feels like obviously it's not dead, hopefully they'll continue to update it, and it gives you options... The whole reason why I ask about this Mac mini as a good option as my primary desktop computer is because I don't know how to justify the $8,000 of an iMac Pro, even with the work that I do... So it's nice to see that there may be other options that are more affordable, that would get you maybe not the same performance, but at least performance where you're not pulling your hair out in frustration.
 
-**Adam Stacoviak:** \[00:59:52.02\] Well, I think on that front you may be on to something, Tim, with the eGPU scenario, because I believe those will begin to be more and more price-competitive, and not very uncommon as an add-on to scenarios where you wanna have more control. In this case it's about control, and less about retrofitting... The reason why think maybe the previous version of the Mac Pro fell down was because it did not allow you to treat it as a componentized machine in a pro environment where you wanna have control over CPU, GPU, RAM, storage, and they just packaged all in one really beautiful design, but very little versatility when it came to expanding it.
+**Adam Stacoviak:** \[59:52\] Well, I think on that front you may be on to something, Tim, with the eGPU scenario, because I believe those will begin to be more and more price-competitive, and not very uncommon as an add-on to scenarios where you wanna have more control. In this case it's about control, and less about retrofitting... The reason why think maybe the previous version of the Mac Pro fell down was because it did not allow you to treat it as a componentized machine in a pro environment where you wanna have control over CPU, GPU, RAM, storage, and they just packaged all in one really beautiful design, but very little versatility when it came to expanding it.
 
 **Tim Smith:** Yes.
 

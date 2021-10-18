@@ -1,4 +1,4 @@
-**Tim Smith:** \[00:01:46\] I met Mahdi Yusuf in Portland for OSCON, a conference put on by O'Reilly, all about open source. Mahdi was one of the keynote speakers and talked about this thing called Gyroscope. A gyroscope, he says, is the operating system for the human body. I was intrigued.
+**Tim Smith:** \[01:46\] I met Mahdi Yusuf in Portland for OSCON, a conference put on by O'Reilly, all about open source. Mahdi was one of the keynote speakers and talked about this thing called Gyroscope. A gyroscope, he says, is the operating system for the human body. I was intrigued.
 
 **Mahdi Yusuf:** Essentially, like, you track computers, you track servers... As engineers, most people keep an eye on what they're doing at work, and stuff like that, but there's really nothing for your body... And you've only got one of those, and people get sick, and you see people that are in their middle age just dying, and stuff like that... So ideally, what a gyroscope would be is something to monitor what's going on with your body, so you can track changes and what's happening in your body and in your life - behavioral changes, like you're spending more time at work, or you're spending more time at bars or restaurants... Stuff that can have impact on your health, generally; how much time you're spending working, what kind of stress that does, tracking HRV, which is interesting... Stuff like that.
 
@@ -14,7 +14,7 @@ So once I saw that type of thing, I was like "Oh man, this is really awesome", a
 
 Then I was interviewing in San Francisco for a bunch of positions, and then I told him I was in town and we kind of met up. I ended up joining the team. That was close to four years ago now, so we've been working on it for quite some time now, and it's been going really well.
 
-**Tim Smith:** \[00:03:59.07\] Wow... You know, it's interesting, because I feel like a lot of people wanna work on something that is important, something that could potentially change the lives of people... And Gyroscope is definitely one of those things, where it's like "This could definitely change the lives of a lot of people."
+**Tim Smith:** \[03:59\] Wow... You know, it's interesting, because I feel like a lot of people wanna work on something that is important, something that could potentially change the lives of people... And Gyroscope is definitely one of those things, where it's like "This could definitely change the lives of a lot of people."
 
 **Mahdi Yusuf:** Absolutely, and it has. We have this series called "The Profiles", where we track how people use the app, and we have stories about people just walking more, and getting healthier and losing a bunch of weight, there are stories about people who have had heart attacks and are like "Okay, if I don't get this under control, I'm gonna die."
 
@@ -30,7 +30,7 @@ I went to the doctor and he was just like "You need to rest. All the stuff that 
 
 I think that's something a lot of people deal with in terms of their day-to-day, but taking an hour or two to go to the gym, or having a light breakfast and light lunch and then eating comfortably for dinner are like cool little tricks that you can kind of engage and use to help you on your way... But generally, it's been a losing battle for me since starting here, and it's just due to the nature of a startup, and stuff like that. And it may sound like an excuse or a rationalization around the fact, but it's something I've been thinking about a lot lately.
 
-**Break:** \[00:07:26.04\]
+**Break:** \[07:26\]
 
 **Tim Smith:** Growing up, Mahdi loved computers. Till this day, doing things on the computer is one of the coolest things Mahdi can think of. Some of his friends, not so much.
 
@@ -52,7 +52,7 @@ Then a lot of sports which I do enjoy, playing on teams, and stuff like that. I 
 
 **Tim Smith:** You're the CTO of a startup... How do you stay sane? How do you make sure that your life is not consumed by work?
 
-**Mahdi Yusuf:** \[00:12:11.19\] It's the type of thing where you have to balance it out. Once you're doing something long enough, it becomes normal. I don't think astronauts wake up every morning when they're astronauts going "Holy crap, I'm an astronaut! What the hell am I gonna do today?" I don't think it's anything that's active. And balancing is part of it. It's actually quite -- like, every day you wake up and you're like "Okay, I have X things to do today", and then you just make a list and you work your way through it is the best I can say. You have things you don't get to today, you shove those down the list, and then you work your way through.
+**Mahdi Yusuf:** \[12:11\] It's the type of thing where you have to balance it out. Once you're doing something long enough, it becomes normal. I don't think astronauts wake up every morning when they're astronauts going "Holy crap, I'm an astronaut! What the hell am I gonna do today?" I don't think it's anything that's active. And balancing is part of it. It's actually quite -- like, every day you wake up and you're like "Okay, I have X things to do today", and then you just make a list and you work your way through it is the best I can say. You have things you don't get to today, you shove those down the list, and then you work your way through.
 
 And then obviously, you have days that are less productive or more productive, but the sanity just comes -- you'll find the balance. Often times what people have the actual problem with is finding that ratio. It's not balancing like the work in the rest of your life. You'll find some balance, but just finding the ratio between the two is the tricky bit. You've gotta find that sustainable part.
 
@@ -66,7 +66,7 @@ Then sometimes people end up skewing on the not sustainable part because of dema
 
 AFK is edited and mixed by me, Tim Smith. I wanna thank my amazing partner-in-crime, Kelly Smith, for her editorial help with this episode. Those beats that you're hearing right now are from the one and only Breakmaster Cylinder. I'm @smithtimmytim on Twitter. You can find the show at @afk\_show.
 
-**Break:** \[00:14:18.26\]
+**Break:** \[14:18\]
 
 **Tim Smith:** You know, I feel like you can never your significant other's parents without something happening, and Mahdi, of course, is no exception.
 

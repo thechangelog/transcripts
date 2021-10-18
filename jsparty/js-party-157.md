@@ -36,7 +36,7 @@
 
 Also, I've lost two family members this year, another one hanging on by her fingertips... Like, life is not good this year. Or last year. 2020. 2020 sucked. But we're getting through it... And 2021 is gonna be better, right? So let's go.
 
-**Emma Bostian:** \[00:04:13.18\] It has to be. Yeah, I think it will be better. In the chat \[unintelligible 00:04:17.15\] said "2020 resolutions were off the table", and I would just like to take a moment to appreciate that, because yeah, I think we can all agree that the definition of a resolution as last year kind of changed. It changed for me a lot, too. I went from having really technical resolutions to just focusing on mental health.
+**Emma Bostian:** \[04:13\] It has to be. Yeah, I think it will be better. In the chat \[unintelligible 00:04:17.15\] said "2020 resolutions were off the table", and I would just like to take a moment to appreciate that, because yeah, I think we can all agree that the definition of a resolution as last year kind of changed. It changed for me a lot, too. I went from having really technical resolutions to just focusing on mental health.
 
 **Amal Hussein:** Yeah. I think everyone's just trying to get through it. I think it's just been a very humbling year, for everyone. It's humbling in the sense that I think we've all learned new levels of patience with ourselves and our families, and with our goals, and ambitions... You had to kind of check yourself. But yeah... I mean, certainly I would say a generation-shaping year. I feel like it's gonna shape our lives, and then folks that are younger than us, older than us; I don't know. Everyone will remember what they were doing in 2020.
 
@@ -96,7 +96,7 @@ I don't know if y'all are looking at these -- have any of you used some of these
 
 **Amal Hussein:** Yeah, right. There's that. Correct. But I meant to say, in the event that something else miraculous and super-joyful happens, and you're wondering why we're all grumpy and depressed, just some context for y'all.
 
-**Kevin Ball:** \[00:08:08.17\] I don't think anyone who lived through 2020 is gonna wonder why we're grumpy and depressed about 2020.
+**Kevin Ball:** \[08:08\] I don't think anyone who lived through 2020 is gonna wonder why we're grumpy and depressed about 2020.
 
 **Amal Hussein:** Okay... \[laughs\] It's not JS Party, it's JS Purrty...
 
@@ -162,7 +162,7 @@ I don't know if y'all are looking at these -- have any of you used some of these
 
 **Amal Hussein:** Yeah. Chris, can you tell people why you'd wanna abort or cancel a Promise? Since that's maybe not a hot path for folks...
 
-**Christopher Hiller:** \[00:12:01.20\] Well, for example, what I would use it for is maybe I'm spawning a worker thread, and that worker thread is running a test, and I want to stop that test and go do something else. There's several ways you could do that, of course. Right now you could just kill your worker thread, but you could also -- I don't know. It's just like being able to abort some long-running -- maybe a threaded task.
+**Christopher Hiller:** \[12:01\] Well, for example, what I would use it for is maybe I'm spawning a worker thread, and that worker thread is running a test, and I want to stop that test and go do something else. There's several ways you could do that, of course. Right now you could just kill your worker thread, but you could also -- I don't know. It's just like being able to abort some long-running -- maybe a threaded task.
 
 **Kevin Ball:** In the frontend world a common case is like say you trigger an API call based on an interaction, and then they hit Cancel, or something like that. And you say "I don't care about that anymore", or they toggle it back, or whatever. "I don't care about that anymore. Let me just get rid of it and move forward."
 
@@ -188,7 +188,7 @@ So there's progress happening -- it's kind of interesting; it's almost like they
 
 **Divya:** Yes. So you can contribute through GitHub now, I think. That's the idea. It's more of an open process than what it was before. So I guess the upside is that people can contribute, but the downside is that -- MDN had very high-quality docs, because they had a docs team that was writing the docs... So we'll see what the community-contributed docs are like. Maybe it'll be good, I don't know.
 
-**Jerod Santo:** \[00:15:45.24\] Right. I agree with you, Kball, in terms of the frailty of our systems when we centralize around large players, who provide huge value, because they're large, and they do that... And then we just kind of allow that to go on, or we benefit from that... And then when that goes away, for whatever reason, then it's like "Now what do we do?"
+**Jerod Santo:** \[15:45\] Right. I agree with you, Kball, in terms of the frailty of our systems when we centralize around large players, who provide huge value, because they're large, and they do that... And then we just kind of allow that to go on, or we benefit from that... And then when that goes away, for whatever reason, then it's like "Now what do we do?"
 
 I think it's sort of this system working, or the open source community working to see the WebAssembly team moving and changing, and new players step up, and people that no longer work at Mozilla find work elsewhere, or can continue to contribute to the things they find interesting... So it's been a step back, and a big one, and I think it kind of pulls back the veil of, like you said, we're not that robust... But then we learn - and I think when we get to the predictions section I'll talk about this a little bit more - because we start to see the value in decentralization, and diversity, and bringing more players to the table, and not relying so much on the big players.
 
@@ -238,7 +238,7 @@ Contrast that to Angular, which is one of these massive mega-corp-backed framewo
 
 **Amal Hussein:** Alright, done. Cut it!
 
-**Break:** \[00:19:52.19\]
+**Break:** \[19:52\]
 
 **Emma Bostian:** So before the break I kind of mentioned that we would touch on Vue 3 a little bit... I don't wanna go too in-depth here, because we actually have two episodes we've already published on Vue, so we'll link those in the show notes for you to check out... But should we just very quickly mention just a few features of Vue 3 that were really great in 2020?
 
@@ -286,7 +286,7 @@ I think that they are -- I'd like to see the good in it, because it makes them a
 
 **Emma Bostian:** Oh, yeah.
 
-**Divya:** \[00:23:44.12\] That was the hardest. Because I love the pro upside of anyone from anywhere could participate as a speaker or as an attendee, and there was a lot more intention, at least after the initial lockdown, into how "How do we make conferences more interactive?" Because I think in the past it was just "Let's make speakers record video and throw it on YouTube, and then have people watch it", and it was horrible.
+**Divya:** \[23:44\] That was the hardest. Because I love the pro upside of anyone from anywhere could participate as a speaker or as an attendee, and there was a lot more intention, at least after the initial lockdown, into how "How do we make conferences more interactive?" Because I think in the past it was just "Let's make speakers record video and throw it on YouTube, and then have people watch it", and it was horrible.
 
 But I think the timezones was really hard to work with, because now if you're speaking at a conference in Europe, you're basically accommodating for EU time, which I guess from where I am, it's six hours ahead... At least British Standard Time, that is. So that would be horrible, because sometimes you'd be like "I have to give a talk at 4 AM my time, because it's regular time wherever the conference is happening." That was the hardest part.
 
@@ -304,7 +304,7 @@ Unless we all have some VR Second Life thing going on... The tech we have is not
 
 **Jerod Santo:** On the flight?
 
-**Amal Hussein:** \[00:27:50.29\] Yeah, on the flight, right before the hallway; you're still editing... So you don't get to riff on your talk in the way that you would normally. You don't get to really connect with the audience and you don't get the energy boost. So all of the rewards of doing a talk aren't there as much, so you just have more work as a speaker, and then you don't have the feedback reward as much.
+**Amal Hussein:** \[27:50\] Yeah, on the flight, right before the hallway; you're still editing... So you don't get to riff on your talk in the way that you would normally. You don't get to really connect with the audience and you don't get the energy boost. So all of the rewards of doing a talk aren't there as much, so you just have more work as a speaker, and then you don't have the feedback reward as much.
 
 The conferences I've seen go off really well are actually the ones on Twitch. I've participated -- yeah, Progress DevReach was on Twitch, and I did a session with them, and I thought that was so much better than pre-recording, or this or that... Because it's a format that just lends itself to people chiming in and having a lot of chatter, it's all live... It's as close as you can get to an in-person conference.
 
@@ -348,7 +348,7 @@ I think 2022 is gonna be a better year for in-person events. We're gonna have so
 
 **Emma Bostian:** Well, speaking of shifting virtually, I think it warrants a quick conversation about the scaling of remote work... Because that entire paradigm shift took a few months for many companies to be onboarded to... It's funny, because I was working on GoToMeeting when all of this happened, so ironically, I was actually building a tool that became necessary to people... But I also already knew how to work remotely; but many people didn't. And I'm curious how your remote working experiences went in 2020.
 
-**Divya:** \[00:32:17.11\] I've always been working remotely, so...
+**Divya:** \[32:17\] I've always been working remotely, so...
 
 **Jerod Santo:** Same.
 
@@ -380,7 +380,7 @@ Some people have been very concerned, because I would notice that I would go out
 
 **Kevin Ball:** I think one thing that's been interesting to watch... So I've worked on and off remotely for also close to a decade; sometimes remote, sometimes in person. I had actually relatively recently gone back to being in-person when this all hit; I had been working at a new company for five months, it was in-person, I was really enjoying that, and then we all shifted remote...
 
-\[00:36:15.23\] So in some ways, I personally was better prepared for that than most of the folks at the company. But one of the things that I saw that was really challenging was - similar to what we were talking about with conferences, trying to take the things that were happening in-person and just shift them online. And in the particular case here, that refers to meetings; lots and lots and lots of meetings.
+\[36:15\] So in some ways, I personally was better prepared for that than most of the folks at the company. But one of the things that I saw that was really challenging was - similar to what we were talking about with conferences, trying to take the things that were happening in-person and just shift them online. And in the particular case here, that refers to meetings; lots and lots and lots of meetings.
 
 I think a remote-first culture that is built from the ground up often will put a lot of asynchronous and textual decision-making processes in place, and you'll have ways to collaborate and coordinate that are based on asynchronous technologies, and things around that... And in a company that's set up to make decisions synchronously, because that's how they've always done it, and it's done in meetings, that's translated to (once again) the wall of Zoom, where you're just in Zoom calls all day long.
 
@@ -398,7 +398,7 @@ I think Rework is -- actually, I have it right here for folks on the live stream
 
 So if you lived in Iowa, you started a job, or you got promoted there, and then you moved to New York, let's say, which is more expensive, your salary will not change. You'll still be at the rate that you were at where you started, or where your salary was negotiated... And I think that makes it really difficult now, because you're almost now -- there's a nicety where you can work from anywhere, but you're sort of stuck, in a way. So you're working from this place that is cheaper, let's say, and if you wanna move to somewhere more expensive, it's really difficult.
 
-\[00:40:28.28\] I mean, obviously, the reverse -- I've not actually heard companies that have gone down the pay scale... I know there are some that do that. But I think the more common scenario is that they won't upgrade you if you do move. If the company is based in San Francisco, you decide to move to San Francisco from a cheaper place, they won't change your salary... Which I think really sucks.
+\[40:28\] I mean, obviously, the reverse -- I've not actually heard companies that have gone down the pay scale... I know there are some that do that. But I think the more common scenario is that they won't upgrade you if you do move. If the company is based in San Francisco, you decide to move to San Francisco from a cheaper place, they won't change your salary... Which I think really sucks.
 
 **Emma Bostian:** Yeah.
 
@@ -418,7 +418,7 @@ So if you lived in Iowa, you started a job, or you got promoted there, and then 
 
 **Emma Bostian:** Yeah. If you're not watching the live stream, we livestream on YouTube. And with that - yeah, let's take a quick break. When we come back, we're gonna wrap things up, hopefully on a lighter note.
 
-**Break:** \[00:41:22.00\]
+**Break:** \[41:22\]
 
 **Emma Bostian:** Okay, so it was a little bit somber, the last segment - which, to be fair, I'm glad we discussed it, because I don't think it's fair to just say "Everything was great and shiny in 2020." I think it's important to acknowledge that things weren't. But let's look forward now. It's 2021... Let's talk about a few of our resolutions and wishes. I'm gonna give it to Kball first. What are your resolutions this year, Kball?
 
@@ -466,7 +466,7 @@ Part of this is my ever-increasing desire to be able to do weird, crazy physical
 
 **Jerod Santo:** "It sounds great, but..."
 
-**Kevin Ball:** \[00:44:06.18\] I wanna go back to Colombia...
+**Kevin Ball:** \[44:06\] I wanna go back to Colombia...
 
 **Divya:** Nice.
 
@@ -502,7 +502,7 @@ And it's the same with programming languages, because currently I am learning Go
 
 **Amal Hussein:** Yeah, really.
 
-**Christopher Hiller:** \[00:48:05.20\] I wanna claw my way out of the abyss of disillusionment and alienation, and also I'd like to learn how to draw. \[laughter\]
+**Christopher Hiller:** \[48:05\] I wanna claw my way out of the abyss of disillusionment and alienation, and also I'd like to learn how to draw. \[laughter\]
 
 **Amal Hussein:** That's awesome
 
@@ -574,7 +574,7 @@ And then I need more friends that are not technologists, so I'm really excited. 
 
 **Amal Hussein:** Yeah, NBC might send you a bill, but... \[laughs\]
 
-**Divya:** \[00:52:05.06\] Doesn't it have to be like a few seconds? Like, if it's below a couple of seconds--
+**Divya:** \[52:05\] Doesn't it have to be like a few seconds? Like, if it's below a couple of seconds--
 
 **Jerod Santo:** If anyone sent us a bill, it's Bette Midler for last week's remake of "The Wind Beneath my Wings". \[laughter\]
 

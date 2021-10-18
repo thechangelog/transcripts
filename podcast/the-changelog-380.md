@@ -12,7 +12,7 @@ We have Yetunde here, who is the product manager at QuantumBlack, and is on this
 
 **Yetunde Dada:** It's actually very interesting that you've asked that... Kedro, yes, is the first open source product that we've ever had coming out of McKinsey and QuantumBlack. It was quite an experience open-sourcing it, because it's very difficult to get corporate open source rolling, especially in a place where it hasn't happened before. We open-sourced Kedro purely for client need. So what would happen effectively was that our data science teams would go out and use Kedro on their engagements wherever they were going for their consulting work... And they would obviously work with the client's data scientists and data engineers, and find that everyone really enjoys using Kedro.
 
-\[00:03:56.13\] They'd suddenly have questions around "What do we do to keep on using the tool after we leave?" And the answer to us became "Let's actually open-source this tool, so that our clients have access to it", and we'll be able to access upgrades, we'll be able to access an open source community so that they can help further engage with them as they use the tool. So that became the primary reason for us open-sourcing.
+\[03:56\] They'd suddenly have questions around "What do we do to keep on using the tool after we leave?" And the answer to us became "Let's actually open-source this tool, so that our clients have access to it", and we'll be able to access upgrades, we'll be able to access an open source community so that they can help further engage with them as they use the tool. So that became the primary reason for us open-sourcing.
 
 We're very excited about open source in QuantumBlack. We've just recently open-sourced another tool called CausalNex. CausalNex is a causality data science library which helps somewhat tackle that problem between causality and correlation when you're busy assessing different datasets. We think of it as kind of like a way to really give back to the community, and really make a stake in some of the thought leadership pieces that we maintain at QuantumBlack. We have a very exciting data science R&D function that is quite active with trying to solve issues around explainability, around fairness, around live model performance tracking... And really being able to share snippets of that knowledge I think is very exciting for us.
 
@@ -34,7 +34,7 @@ Other exciting things that are happening because teams are using Kedro, from wha
 
 As I was reading it, it was more akin to me as a software developer as like a conventional framework; a thing that establishes norms, gives you buckets, very much kind of convention over configuration concept of "Here's where this goes, here's where you put your pipelines, put your data here etc. etc", and if we all follow these norms, life is better, life is smoother, it's more production-ready. Is that kind of the idea?
 
-**Yetunde Dada:** \[00:08:05.25\] That's actually completely the idea that it's based on. You'll note that -- I don't know if you're familiar with a tool called Cookie Cutter.
+**Yetunde Dada:** \[08:05\] That's actually completely the idea that it's based on. You'll note that -- I don't know if you're familiar with a tool called Cookie Cutter.
 
 **Jerod Santo:** No.
 
@@ -52,7 +52,7 @@ You can execute another command after you've created your project template, Kedr
 
 Although there are quite a few directories that will focus on even where you put your Jupyter Notebooks, to where you store your results, the two most important folders in that directory are where you put your configuration, which basically looks at - if you wanted in simply-explained terms - how do we remove hardcoded variables from our machine learning code? And there are two types you typically find - file paths and parameters. So how do we remove that from our machine learning code, so that it's more reproducible? So you'll put your configuration in a specific place.
 
-\[00:12:02.21\] We also talk about our data catalog, which is one of the library components of Kedro... Which is basically a series of extendable data connectors. If you extend our abstract dataset class, you can actually customize and create your own datasets for things that we don't typically support. But we support most file formats, so .csv all the way to Hadoop files, and \[unintelligible 00:12:22.29\] tables as well.
+\[12:02\] We also talk about our data catalog, which is one of the library components of Kedro... Which is basically a series of extendable data connectors. If you extend our abstract dataset class, you can actually customize and create your own datasets for things that we don't typically support. But we support most file formats, so .csv all the way to Hadoop files, and \[unintelligible 00:12:22.29\] tables as well.
 
 Then we talk about the Source folder being the next most important directory for you. In the Source folder you'll actually find the concept of nodes and the pipeline. Your nodes are just pure Python or PySpark functions that accept an input, and have an output. You use these nodes to actually construct a pipeline, because it's basically a series of nodes which have their inputs and outputs mapped to each other. So the pipeline can actually essentially work out where your dependencies are when you're building the pipeline, and that is the basis essentially of a Kedro pipeline.
 
@@ -82,13 +82,13 @@ Those are the primary concepts. There are obviously additional features built on
 
 **Yetunde Dada:** Cool. So the way that this pipeline is set up, it has four notes. One which will actually take in an Iris dataset, so the actual values, and it will split the data into training test samples, and also do some sort of data preprocessing as well to clean it up, so it's in a format that can be used.
 
-\[00:16:05.17\] Then the next three nodes will train a model, then create the prediction model for you. And then how this pipeline ends - it ends slightly differently. This is why it always links back to what problem were you trying to solve, because it allows you to report accuracy... So you eventually in the last node can feed in a value, and then report accuracy on which -- based on which values, which iris flower are we looking at.
+\[16:05\] Then the next three nodes will train a model, then create the prediction model for you. And then how this pipeline ends - it ends slightly differently. This is why it always links back to what problem were you trying to solve, because it allows you to report accuracy... So you eventually in the last node can feed in a value, and then report accuracy on which -- based on which values, which iris flower are we looking at.
 
 **Jerod Santo:** I see. So like you said, it's all based on what you're trying to accomplish. In this case, that's what it's trying to output, so... There you have it; the accuracy is important.
 
 **Yetunde Dada:** Yes. And that's why it will actually just tell you what the accuracy is at the end of the pipeline. So if you did a - like I mentioned, Kedro New, and then Kedro Run, once you've changed into the project directory, that's created for you; then it'll actually just tell you what the accuracy of this model is.
 
-**Break:** \[00:17:05.17\]
+**Break:** \[17:05\]
 
 **Jerod Santo:** So your first open source project at QuantumBlack, and so far a success, perhaps changing the landscape of data pipelines - I like that line. And with any open source project, there's always big wins and there's often big fails, struggles along the way... You mentioned the reasoning behind it was your clients needed some sort of a sustainability plan for these tools that you were working on for them or for their models to continue on after a contract was over... What have been some of the struggles or the things you had to consider as you took Kedro open source? Any insights you can share with the community?
 
@@ -96,7 +96,7 @@ Those are the primary concepts. There are obviously additional features built on
 
 I think this is a bit unusual for open source projects where it's just like a personal project. You would never think that "I need to check my name for trademark infringement", and it needs to be kind of unique... Kedro is a bit of an abstract name for what the tool does, but we stuck by it and it works. But I've actually come to discover that a lot of corporate open source projects, including some friends at Uber, have spoken about doing the same thing... So I was like "Well, at least it's not unique to us that we have to undertake this."
 
-\[00:20:05.22\] Another challenge that we had was really thinking about how do we support our users when they're using Kedro? Because our initial request for a public slug or a public Gitter was initially paused, and they told us we need to do some risk assessment on those platforms to work out for instance how do we enforce a code of conduct for users behavior on the platforms as well, so that we have free and fair communications on them.
+\[20:05\] Another challenge that we had was really thinking about how do we support our users when they're using Kedro? Because our initial request for a public slug or a public Gitter was initially paused, and they told us we need to do some risk assessment on those platforms to work out for instance how do we enforce a code of conduct for users behavior on the platforms as well, so that we have free and fair communications on them.
 
 So we knew that beyond GitHub issues and Stack Overflow, both of those channels that we do watch, we needed to do something else. You actually see that we spent a lot of time on our documentation, so I'm really glad that you're enjoying our documentation... Because we knew that when we have users coming to Kedro, they wanna get started very quickly, and if they run into issues, they need to be able to go to the docs and be able to troubleshoot their way through, at the very least. If they're not gonna talk to us on GitHub issues, which is sometimes a big thing for people to post questions there, or even Stack Overflow... But you'll be excited to know that we will be getting a public communication channel soon. So that's in the works for us to eventually release to users.
 
@@ -116,7 +116,7 @@ So that was one of the strategies that have made things a bit better... But we a
 
 **Yetunde Dada:** Yes. It was actually a lot more involved. Naming in QuantumBlack has been quite exciting, because Kedro is one of three main products, and we'll be expanding the range of products that we have.
 
-\[00:24:02.05\] So naming is always an issue in Labs, because \[unintelligible 00:24:04.26\] which does all the product engineering... And yeah, the naming exercise was a stakeholder management exercise, because we had to have happy branding, because that was helping with the product marketing and our global head of marketing, Katherine Shenton. But we also had to make sure that the team was also happy to represent the name as well.
+\[24:02\] So naming is always an issue in Labs, because \[unintelligible 00:24:04.26\] which does all the product engineering... And yeah, the naming exercise was a stakeholder management exercise, because we had to have happy branding, because that was helping with the product marketing and our global head of marketing, Katherine Shenton. But we also had to make sure that the team was also happy to represent the name as well.
 
 So beyond having agreed consistency on a few names, they also had to go through the social media check, they also had to go through reference meaning checks, or even checks in other languages as well, because QuantumBlack is a global organization. And then they had to go through the legal check, to check wherever there were trademarks for this name, in the many jurisdictions that McKinsey operates in, before we came to Kedro. So Kedro was marked as the least risky name.
 
@@ -148,7 +148,7 @@ So beyond having agreed consistency on a few names, they also had to go through 
 
 **Yetunde Dada:** So the motivation for great documentation actually came from our technical lead. For a while he'd been passionate about the idea of creating an end-to-end tutorial... So you'll see chapter three in the documentation takes you through this amazing space flight tutorial. It takes about two hours to run through everything and get you acquainted, from beginner all the way to intermediate functionality in Kedro.
 
-\[00:27:57.14\] I think it was Ivan's passion for users and them being able to learn and understand the tool, because Kedro documentation before that had literally just been kind of like the API docs, and the user guide, where we describe how the individual parts of the library - like the pipeline, the nodes and the catalog - work. So really kudos to Ivan thinking and pioneering that we need to do better in terms of how we explain these things, and also using this as a solution for the fact that we can host a Slack channel when we open-sourced.
+\[27:57\] I think it was Ivan's passion for users and them being able to learn and understand the tool, because Kedro documentation before that had literally just been kind of like the API docs, and the user guide, where we describe how the individual parts of the library - like the pipeline, the nodes and the catalog - work. So really kudos to Ivan thinking and pioneering that we need to do better in terms of how we explain these things, and also using this as a solution for the fact that we can host a Slack channel when we open-sourced.
 
 But in terms of how we set up the code of conduct, and how did we think about best practice with how we set up a GitHub repository, I used to spend weekends going through kind of like people talking about how to do open source community management and what does best practice look like running a community. So it was important for me that code of conduct went in, so that we'd have a way to enforce if something were to go wrong on the repository. Luckily, nothing has... But we'd have a way to communicate with the users by referring them back to the code of conduct, one, and then two, also being able to take action to resolve things.
 
@@ -166,7 +166,7 @@ So I kind of approach product marketing just like I approach product management,
 
 So price releases went out, articles released towards data science, there was social media, there were some webinars done... And yeah, we just wilded out a little bit on being able to (I think) basically make history for the firm, and release their first open source tool, in a place where McKinsey is recognized as having this amazing intellectual property that we never open-source. So it was really just exciting for us, so that's why we went big on that launch.
 
-**Jerod Santo:** \[00:32:00.09\] Do you think the success of Kedro will lead to McKinsey open-sourcing more things, or this more of a one-off because of the client need?
+**Jerod Santo:** \[32:00\] Do you think the success of Kedro will lead to McKinsey open-sourcing more things, or this more of a one-off because of the client need?
 
 **Yetunde Dada:** Good question, and I can actually show you an example where that's not actually the case, because... It must have been now -- we're going on to two weeks ago, we released our second open-source project, CausalNex, which is essentially a Python library that helps data scientists address the question of causality versus correlation in your datasets... And we released this one purely because it was an exercise of how do we showcase some of the R&D work that we have done on client projects, and eventually have made their way into more formal products, because we have been able to try and test those methods.
 
@@ -178,7 +178,7 @@ I think I do get emails with people asking like "How did you open-source Kedro?"
 
 **Jerod Santo:** For those curious about CausalNex, I have scooped it up and we'll include a link in our show notes, so you can click there and check it out.
 
-**Break:** \[00:34:01.12\]
+**Break:** \[34:01\]
 
 **Jerod Santo:** Switching gears a bit, let's talk about fun stuff. You are involved with something that looks very cool, the development of what you call Social Impact Virtual Reality Film, as a Sundance New Frontier Lab fellow. Tell me about that... It sounds intriguing.
 
@@ -198,7 +198,7 @@ Moving on from there, we were excited (also two weeks ago) to actually head to S
 
 There was also some thought around how do we do different user experiences as well, because we did optimize the piece for the Oculus Quest. We specifically waited for the Oculus Quest to come out, because we knew it was a higher resolution virtual reality headset... So higher than the Go, for instance, but still more accessible in terms of price than the Rift was, the Oculus Rift. So we specifically designed it for that.
 
-\[00:40:05.16\] And we also were fascinated about the multiplayer experience, which we've had some moderate success with. I think the next iteration will fully nail down what the multi-user experience is supposed to look like. But that's essentially how you do it. So you can decide -- I think there's many different ways of filming virtual reality experiences. I think you have seen the 360 video documentary pieces which were still released... But a lot of pieces will focus on using motion capture to build avatars, and then eventually constructing environments around the different avatars that you'll have.
+\[40:05\] And we also were fascinated about the multiplayer experience, which we've had some moderate success with. I think the next iteration will fully nail down what the multi-user experience is supposed to look like. But that's essentially how you do it. So you can decide -- I think there's many different ways of filming virtual reality experiences. I think you have seen the 360 video documentary pieces which were still released... But a lot of pieces will focus on using motion capture to build avatars, and then eventually constructing environments around the different avatars that you'll have.
 
 **Jerod Santo:** So in terms of presenting that at a film festival, is it just a room with a bunch of these Oculus Quests, and you go in and have -- because it seems like an individual experience, versus a shared experience.
 
@@ -216,7 +216,7 @@ So that was why we opted for the multi-user experience. We still have some techn
 
 They also understood how the piece was constructed in terms of Wacici's journey and understood everything that happened there... So we have received really fantastic feedback. We have obviously opened it up and told people that "Hey, we're still iterating on this piece, so any critical feedback that you have, do let us know, so that we can build it into the piece." So yeah, it's been very well received, and we're very happy. This has been a long-time project, but yeah, I'm really excited for 2020 and finally completing Atomu and seeing the impact that it was supposed to create.
 
-**Jerod Santo:** \[00:44:00.06\] Yeah, I was just gonna ask if it seems that this is like a living project, or if it's just one that's still being formulated and will eventually come to its natural conclusion. It sounds like there will be a completion step, when you brush off your hands and say "We're finished."
+**Jerod Santo:** \[44:00\] Yeah, I was just gonna ask if it seems that this is like a living project, or if it's just one that's still being formulated and will eventually come to its natural conclusion. It sounds like there will be a completion step, when you brush off your hands and say "We're finished."
 
 **Yetunde Dada:** I don't know, virtual reality experiences - at least the model that currently exists - means that... I guess because the tech is moving, but it's not really moving that fast, it means that they live longer lives than I think mainstream films or mainstream media would... Because your HTC Vive, or your really old Oculus Rift can still watch movies from today, for instance. So in terms of overall end of Atomu, I'm not sure that there is, because we are considering different models of distributing the piece in museums, and even schools, as well as working with non-profits as well...
 

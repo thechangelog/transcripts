@@ -26,7 +26,7 @@ That's where I started getting into the project, and it's been really cool seein
 
 **Wally Quevedo:** Yeah, it was a piece that would allow you to do the internal communication throughout the platform. I think with Cloud Foundry it did really well because it was simple and resilient enough for the type of communication patterns that you would have inside of that type of architecture. We ended up having a cluster of thousands of machines, and even though it was still the Ruby version, it was simple enough to operate for the kind of communication that we were doing for Cloud Foundry.
 
-\[00:04:02.19\] I really like the simplicity of doing operations with NATS. It just fits really well for that type of usage. They're used for fire-and-forget, request-response, basic communications for starting applications and heartbeats for fault-tolerance, for example. Does it make sense?
+\[04:02\] I really like the simplicity of doing operations with NATS. It just fits really well for that type of usage. They're used for fire-and-forget, request-response, basic communications for starting applications and heartbeats for fault-tolerance, for example. Does it make sense?
 
 **Brian Ketelsen:** It does make sense. Now, one of the things that I hear very frequently is that NATS is pretty bulletproof, and I just saw a tweet (maybe yesterday), a person was talking about their infrastructure and how they had to update a bunch of things, and when they were messing around with the servers, they noticed that that NATS service hadn't been restarted in 9 or 12 months, or something like that.
 
@@ -50,7 +50,7 @@ It's very difficult to crash. I've managed to crash it a number of times, but it
 
 **Carlisia Thompson:** Because what I wanted to ask is how much you know about the transition, the motivations behind transitioning from Ruby to Go... Were there benchmark tests? Did they consider other languages? What was it that made Go the choice to transition into? What kind of problems were they having that they felt they needed to port at all to another language?
 
-**Wally Quevedo:** \[00:08:04.05\] It's worth mentioning that the original server was also within an event machine. A good reference for this is [the talk from GopherCon from Derek](https://www.youtube.com/watch?v=ylRKac5kSOk). I think it was at the first GopherCon, in 2014.
+**Wally Quevedo:** \[08:04\] It's worth mentioning that the original server was also within an event machine. A good reference for this is [the talk from GopherCon from Derek](https://www.youtube.com/watch?v=ylRKac5kSOk). I think it was at the first GopherCon, in 2014.
 
 **Brian Ketelsen:** It was, yeah.
 
@@ -78,7 +78,7 @@ Actually, one of the really nice, concise explanations from NATS is from Ivan fr
 
 **Erik St. Martin:** I think it has the notion of persistent messages too, right? Where if the client goes offline, the client can reconnect and kind of consume any messages that it might have lost.
 
-**Wally Quevedo:** \[00:11:50.13\] NATS itself does not... NATS is just a fire-and-forget; you can publish messages... For any subscriber, they have to be connected to a stable connection to be able to receive those messages. If they're not around by the time those messages get published, then those messages will not be received. But the persistence on messages was a big ask from many users, and now there is NATS Streaming, which basically enables for that kind of message redelivery use case where you do publish messages into a queue, and then you can have the consumers basically pulling these messages at their own pace.
+**Wally Quevedo:** \[11:50\] NATS itself does not... NATS is just a fire-and-forget; you can publish messages... For any subscriber, they have to be connected to a stable connection to be able to receive those messages. If they're not around by the time those messages get published, then those messages will not be received. But the persistence on messages was a big ask from many users, and now there is NATS Streaming, which basically enables for that kind of message redelivery use case where you do publish messages into a queue, and then you can have the consumers basically pulling these messages at their own pace.
 
 So for the persistent use cases, there is another tool named NATS Streaming. That gives you the redelivery, kind of like message replay features.
 
@@ -102,7 +102,7 @@ So for the persistent use cases, there is another tool named NATS Streaming. Tha
 
 **Brian Ketelsen:** Yeah, an amazing amount of clients. I looking at the community contributed clients - there's .NET, Arduino, Elixir, Erlang, Haskell, Lua, MicroPython - I've never even heard of MicroPython - PHP, Python, Rust, Scala, Spring, Swift... That's impressive. That is a very broad platform.
 
-**Erik St. Martin:** \[00:16:09.23\] Wow, I'm just looking through this... It's been forever since I've looked through some of the connectors and things like that. There's Fluentd and Prometheus... This is crazy.
+**Erik St. Martin:** \[16:09\] Wow, I'm just looking through this... It's been forever since I've looked through some of the connectors and things like that. There's Fluentd and Prometheus... This is crazy.
 
 I think it is about time for our first sponsor break, but when we come back, I wanna talk about maybe some of the use cases you've seen NATS used for, which would be really cool.
 
@@ -110,7 +110,7 @@ I think it is about time for our first sponsor break, but when we come back, I w
 
 **Erik St. Martin:** Our first sponsor for today is Backtrace.
 
-**Break:** \[00:16:33.25\]
+**Break:** \[16:33\]
 
 **Erik St. Martin:** Alright, so we are back, talking with Wally about NATS. Just before the break I was talking about what are some of the unique -- or maybe not unique, but interesting use cases or large scale that you've seen NATS for... I know often it helps to put into perspective example use cases...
 
@@ -128,7 +128,7 @@ Also, Clarifai was using NATS Streaming, as well. This is just from the content 
 
 **Wally Quevedo:** I would choose NATS when I want to have low-latency communications. That is simple, right? When you care a lot about the simplicity of deployment, maybe having a lower collective overhead for your system, and you care a lot about the performance - that's where I would look for NATS.
 
-\[00:20:05.28\] These types of systems, like the Apcera platforms or Cloud Foundry, where you want to do basic communication and service discovery, I think it fits really well. The control plane use case, yeah.
+\[20:05\] These types of systems, like the Apcera platforms or Cloud Foundry, where you want to do basic communication and service discovery, I think it fits really well. The control plane use case, yeah.
 
 **Carlisia Thompson:** And how about systems that don't have so much demand. Is there any disadvantage in using something like NATS as well? For example let's say I need messaging, but I'm not at the level of Cloud Foundry, I'm not that big of a system... Would there be an advantage for me to use NATS, or would that be overkill? Is there a point in which NATS would be overkill for a system?
 
@@ -150,7 +150,7 @@ Also, Clarifai was using NATS Streaming, as well. This is just from the content 
 
 **Wally Quevedo:** No, Apcera has been involved a lot - especially with the Go community - from the beginning. It's part of the culture of Apcera, I would say. We run a couple of the meetups as well for the SF Microservices... So it could have been a coincidence, but I would say that yeah, we're very community-oriented.
 
-**Brian Ketelsen:** \[00:24:14.18\] That's cool.
+**Brian Ketelsen:** \[24:14\] That's cool.
 
 **Erik St. Martin:** I totally just lost my place. \[laughter\]
 
@@ -198,7 +198,7 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Brian Ketelsen:** So speaking of GopherCon, we announced our workshops for the day before the conference this year; those are all up on the website and available for sale. There are six workshops that have a variety of different topics, they are very low-cost, and they have limited seating. So if you're looking for something to do the day before the conference, come into town early and get your learning on, because there's some really good workshops this year. Go to gophercon.com/workshops and check them out.
 
-**Carlisia Thompson:** \[00:28:04.29\] I'm definitely doing one of those...
+**Carlisia Thompson:** \[28:04\] I'm definitely doing one of those...
 
 **Brian Ketelsen:** Spoken like a person who built that website.
 
@@ -252,7 +252,7 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Erik St. Martin:** Yeah, that's probably the bigger issue - I need to get stuff done. So it's probably about time for our second sponsor break. Our second sponsor for today is The Ultimate Go Training Series.
 
-**Break:** \[00:31:54.09\]
+**Break:** \[31:54\]
 
 **Erik St. Martin:** Alright, we are back, talking to Wally Quevedo from Apcera. So we were going through projects, news... Anybody else have any other projects they wanted to talk about?
 
@@ -306,7 +306,7 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Wally Quevedo:** Yeah, it's there.
 
-**Brian Ketelsen:** \[00:36:07.08\] That whole GopherCon thing was kind of a blur, our first year.
+**Brian Ketelsen:** \[36:07\] That whole GopherCon thing was kind of a blur, our first year.
 
 **Erik St. Martin:** I think they're all a blur. \[laughter\] I think life since the first one is a blur. So does anybody have anything else they wanna talk about? I didn't see any projects this week, I've just been so heads down.
 
@@ -354,7 +354,7 @@ I was so surprised this week... Every time I turned around, there was some other
 
 **Brian Ketelsen:** Yup. Agreed.
 
-**Erik St. Martin:** \[00:39:57.14\] What's the messaging in NATS, Wally? How do you communicate with NATS? Is that just straight HTTP, or is that using some sort of RPC library?
+**Erik St. Martin:** \[39:57\] What's the messaging in NATS, Wally? How do you communicate with NATS? Is that just straight HTTP, or is that using some sort of RPC library?
 
 **Wally Quevedo:** Yeah, just bare TCP in a Plaintext protocol.
 
@@ -430,7 +430,7 @@ I was so surprised this week... Every time I turned around, there was some other
 
 **Brian Ketelsen:** "No..."
 
-**Erik St. Martin:** \[00:43:13.03\] So look at that, we're gonna end perfectly on time for you, Brian!
+**Erik St. Martin:** \[43:13\] So look at that, we're gonna end perfectly on time for you, Brian!
 
 **Brian Ketelsen:** That's awesome, because I gotta go get that cake.
 

@@ -30,7 +30,7 @@
 
 **Erik St. Martin:** I'm gonna back things up for just a minute... \[laughter\] I'm gonna go out on a limb here and say that most people listening probably know who Russ is, but if not, maybe a little background. Can you kind of let people know who you are and maybe how you got started on the Go team and your history there?
 
-**Russ Cox:** \[00:04:17.11\] Sure, sure. I'm Russ Cox, I'm currently the tech lead for the Go team, and I got involved with Go just about ten years ago. At the time, I had worked with [Rob Pike](https://twitter.com/rob_pike) on [Plan 9](https://9p.io/plan9/) when I was in college, and then I did an internship at Google in grad school. And when I was finishing up grad school, Rob told me about Go and basically said "Hey, we're trying to take all the things that we really loved about developing software on Plan 9, and make them work for writing the software that we wanna write at Google. Do you wanna help with that?" and I was like, "Yeah, of course." That was how I got in.
+**Russ Cox:** \[04:17\] Sure, sure. I'm Russ Cox, I'm currently the tech lead for the Go team, and I got involved with Go just about ten years ago. At the time, I had worked with [Rob Pike](https://twitter.com/rob_pike) on [Plan 9](https://9p.io/plan9/) when I was in college, and then I did an internship at Google in grad school. And when I was finishing up grad school, Rob told me about Go and basically said "Hey, we're trying to take all the things that we really loved about developing software on Plan 9, and make them work for writing the software that we wanna write at Google. Do you wanna help with that?" and I was like, "Yeah, of course." That was how I got in.
 
 It's funny, I was thinking about this because I thought you might ask this... It was ten years ago, and I just can't believe how lucky the ride has been since then. First of all, as I'm finishing grad school this job comes along, and it's like the perfect combination of all the things I'd been doing for the previous ten years. It really was just sort of -- everything I had done found its way into Go somehow. Then I get to work with all these great people, like Rob, and [Ken](https://en.wikipedia.org/wiki/Ken_Thompson), and Robert Griesemer, and Ian Taylor... And you know, we sort of toil away for two years, having a lot of fun.
 
@@ -58,7 +58,7 @@ I think you estimated like one million Go developers, or something like that, in
 
 **Brian Ketelsen:** I think it was close. The best comment though was from Rob - he pulled me aside and he said, "You know, this is kind of like a debutante ball for my little baby." And I was just like, "Aww..." Like, "Our little girl grew up." So cute.
 
-**Erik St. Martin:** \[00:08:12.15\] So what are you working on these days on the Go team? Are you mostly kind of leadership, or is there a particular part of the Go programming language that you're super into right now? ...outside of vgo, which we will get to.
+**Erik St. Martin:** \[08:12\] So what are you working on these days on the Go team? Are you mostly kind of leadership, or is there a particular part of the Go programming language that you're super into right now? ...outside of vgo, which we will get to.
 
 **Russ Cox:** Mostly I do sort of leadership and helping us decide priorities, and that sort of stuff... Especially since I had kids, I don't have so much time to program as I did before. So I spend a lot of time trying to help other people be as productive as they can, and then the vgo stuff is the main work that I've been doing. The last release, the main work I was doing was with the build caching and the Go command, which it sounds like it might be unrelated, but really it was all about getting set up for [vgo](https://github.com/golang/proposal).
 
@@ -80,7 +80,7 @@ I actually really think that a lot of the spirit and the way that we approached 
 
 The article I read, they used the folder structure to show different types of sorting for the files that were on the file system. You could browse them sorted one way by going into a different directory - the same files, but they're presented differently based on how you access them. I just love the idea of using that file system metaphor for completely different purposes than just storing things on a disk. I really wanna play with the 9fs.
 
-**Russ Cox:** \[00:12:19.04\] Yeah, it was a really fun system to use and explore. It was a research system, it was really meant for learning more about the way it could work. We used it as our day-to-day programming environment for many years, and the file systems... That was really the first interface -- it was the only interface in the whole system, and you got to define what happened when the user called read, or when the user called write...
+**Russ Cox:** \[12:19\] Yeah, it was a really fun system to use and explore. It was a research system, it was really meant for learning more about the way it could work. We used it as our day-to-day programming environment for many years, and the file systems... That was really the first interface -- it was the only interface in the whole system, and you got to define what happened when the user called read, or when the user called write...
 
 It's a little bit like /proc on Linux, where it really is kind of a free for all if you read and write files there what happens, and it was the same way with all of our file servers, and it was up to the person who wrote the file server to figure out something that made sense, that actually felt right to use. We never had things like automatic sorting of files, or things like that. It was usually about presenting resources. But it was really easy to share files...
 
@@ -103,7 +103,7 @@ So this idea that "I'm gonna mark the ones that I think you should be using, and
 
 But there's this problem that was really bugging me about a year ago that I couldn't articulate at first... It was that one of the major goals of Go is to work well for these really large-scale software developments, and that means you have to have gradual changes. And by gradual I mean that you've got some change that you wanna make throughout your whole project, and it has to be okay to make that change one package, or maybe even one file at a time, because you've just got too much source code to change it all in one commit.
 
-\[00:16:12.14\] I gave a [talk at GothamGo](https://www.youtube.com/watch?v=h6Cw9iCDVcU&list=PLeGxIOPLk9EKlDXkzKgQLrBhcwWUtUeEk&index=1) a few years ago, showing how important it was to make gradual changes for various code repair, and I was showing in particular how type aliases are essentially required for that kind of gradual change when you're moving a type from one package to another.
+\[16:12\] I gave a [talk at GothamGo](https://www.youtube.com/watch?v=h6Cw9iCDVcU&list=PLeGxIOPLk9EKlDXkzKgQLrBhcwWUtUeEk&index=1) a few years ago, showing how important it was to make gradual changes for various code repair, and I was showing in particular how type aliases are essentially required for that kind of gradual change when you're moving a type from one package to another.
 
 A similar problem happens when you need to update a large program from using v1 of a package to v2 of a package. You can't expect that the entire project is gonna move from v1 to v2 in one commit. For one thing, the code is coming from different repositories, so there's no such thing as one commit. So once your program gets big enough, it absolutely has to be the case that you can migrate the program a little at a time. One part of it is now on v2, now more of it is on v2, and eventually it's all converted, but it's this gradual thing and you've got a working program the whole time.
 
@@ -123,7 +123,7 @@ Then I spent a chunk of the next couple months prototyping this idea, trying to 
 
 But we didn't actually want to tell people "Go out and convert everything right now!", because we weren't ready; there are things that are gonna change. So we haven't gotten to the point yet where we've really gone out and said "Hey, we'd really like you to change", and if people say "No, I don't wanna change", then have a discussion about what's wrong, or something like that. We're getting close to that, but at the moment we've really just been taking the initial feedback, trying to incorporate it and understand what we might need to modify a little bit, and try to get something ready that we can get to that next step where we start to actually have conversations with people about "We'd like you to actually use this... Can we do that?"
 
-**Erik St. Martin:** \[00:20:24.10\] I guess that's an important thing to note, that part of the plan for vgo in the future is as these things are decided and people try it out, and the design is adjusted based on use cases that weren't initially thought of in the beginning, the end goal is for this to ultimately end up as part of the Go toolchain and not an additional tool.
+**Erik St. Martin:** \[20:24\] I guess that's an important thing to note, that part of the plan for vgo in the future is as these things are decided and people try it out, and the design is adjusted based on use cases that weren't initially thought of in the beginning, the end goal is for this to ultimately end up as part of the Go toolchain and not an additional tool.
 
 **Russ Cox:** Yeah, absolutely. This is just supposed to be the Go command. You shouldn't have to know it's there for the most part. I really want it to fade into the background. I want it to be the case that you just don't think about it, and it mostly works; when it does break, you understand what's wrong and you just do your work instead of worrying about versions.
 
@@ -149,7 +149,7 @@ That actually worked pretty well, but you couldn't automate any of that. And whe
 
 **Carlisia Thompson:** And talking about changes, is `go get` going to go away?
 
-**Russ Cox:** \[00:23:49.09\] I don't think `go get` will go away... It's going to change in the way it works. I'd really like to keep commands working as well as they can, as close as they can to what we have already. For example, I write lots of little throwaway commands, and there's like a two-factor authentication thing at [rsc.io/2fa](https://godoc.org/rsc.io/2fa) and I tell people "Run `go get rsc.io/2fa` and you have this command now." That's, at some level, the UI or the UX of the Go command, and I wanna preserve that. I want that to continue to install a command for you. But obviously, it's not going to work exactly the same way as it does today, because there's all this new stuff around modules and exactly what that means, but the end effect of _something gets installed_ is supposed to stay.
+**Russ Cox:** \[23:49\] I don't think `go get` will go away... It's going to change in the way it works. I'd really like to keep commands working as well as they can, as close as they can to what we have already. For example, I write lots of little throwaway commands, and there's like a two-factor authentication thing at [rsc.io/2fa](https://godoc.org/rsc.io/2fa) and I tell people "Run `go get rsc.io/2fa` and you have this command now." That's, at some level, the UI or the UX of the Go command, and I wanna preserve that. I want that to continue to install a command for you. But obviously, it's not going to work exactly the same way as it does today, because there's all this new stuff around modules and exactly what that means, but the end effect of _something gets installed_ is supposed to stay.
 
 The write-up from February essentially overloads get to mean a few things. It means _Do the install_ and also _Download_, which are the two meanings it has today, and then also _Update the go.mod file_, which has all the versions in it that you're using for your future builds. So if you wanted to adjust the version of something you were using, you might say `go get this import path at v1.2`, or something like that.
 
@@ -175,7 +175,7 @@ My goal would be that we do the preview in 1.11, and then in 1.12 we have the fu
 
 **Russ Cox:** Yeah, I don't know when 2.0 is happening, so it's hard to tie things to that. Actually, if you wanna shift gears just a little bit, I think that 2.0 will be kind of a non-event. I think that we'll probably end up making changes a little bit at a time in the 1 series, and at some we'll say "You know what, enough has happened. Let's call this one Go 2."
 
-**Carlisia Thompson:** \[00:28:09.12\] So you're saying there will not be _Generics_?
+**Carlisia Thompson:** \[28:09\] So you're saying there will not be _Generics_?
 
 **Russ Cox:** No, I didn't say that. \[laughter\]
 
@@ -187,7 +187,7 @@ My goal would be that we do the preview in 1.11, and then in 1.12 we have the fu
 
 **Carlisia Thompson:** Gotcha.
 
-**Break:** \[00:28:29.15\]
+**Break:** \[28:29\]
 
 **Erik St. Martin:** That's interesting, that at some point you might just label something 2.0... But does that mean you don't give yourself the opportunity to make breaking changes to get away from the Go 1 compatibility guarantees? There's just the hope that you're never really breaking any old Go code ever... Well, maybe not ever, but you try your best not to.
 
@@ -199,7 +199,7 @@ That's one way we could evolve... And the active practices evolve, but all the o
 
 **Brian Ketelsen:** You hinted that concept in the vgo papers that you wrote, the idea of writing forward and backward-compatible -- I don't wanna say landing, but you know, the main library imports might be smart enough to understand what to do based on versioning, and then the Go tooling could change how it compiles based on that. You used an example of like a `go fix` command that might fix that. Is that something that you expect to be in the compiler, or in an external toolset?
 
-**Russ Cox:** \[00:32:10.03\] I don't think that it would be in the compiler. I think that that would really be `go fix`. `go fix` right now does very little because we don't break things, so you don't have to fix your code.
+**Russ Cox:** \[32:10\] I don't think that it would be in the compiler. I think that that would really be `go fix`. `go fix` right now does very little because we don't break things, so you don't have to fix your code.
 
 **Erik St. Martin:** Can I tell you how much I loved Go because of `go fix` in the beginning...?
 
@@ -227,7 +227,7 @@ And clearly, if you're happy running that code, you should be happy essentially 
 
 One example of that is _Immutability_. I would love to have better support in the language for saying things like "When you call a write function on a file to write some bytes to a file, I would like the language to be able to guarantee for you and say in the program "The write function is allowed to write the byte to the file, it is not allowed to modify the bytes, and it's not allowed to keep a reference to the bytes after the function returns", so that after the function returns, I know I can modify the bytes and no one's looking at them anymore.
 
-\[00:36:14.13\] This is kind of Rust's superpower. This is the thing that makes Rust so amazing... And I don't need the full superpower, I'd be happy with baby superpowers, but I don't even see how to do that, and that's the one thing that I would absolutely love to figure out. I've talked to a bunch of people about it, and it's one of these things that if there's any small case where you're not 100% right about it, you can't prove anything anymore. It has to be airtight.
+\[36:14\] This is kind of Rust's superpower. This is the thing that makes Rust so amazing... And I don't need the full superpower, I'd be happy with baby superpowers, but I don't even see how to do that, and that's the one thing that I would absolutely love to figure out. I've talked to a bunch of people about it, and it's one of these things that if there's any small case where you're not 100% right about it, you can't prove anything anymore. It has to be airtight.
 
 What Rust does is it gets it all right and it's completely airtight. I would like to find a way to do that without quite so much annotation, and I don't know if that's possible or not.
 
@@ -245,7 +245,7 @@ So the experience reports are the next things after the issues to start going th
 
 So the really valuable thing is to get us thinking and also to serve as test cases when we have more concrete proposals to evaluate. So we haven't gotten to the point where we can use those for evaluation yet, but I think at that point they'll be very helpful. The other part that I wanted from the experience reports was to get a sense of "What are we missing? What are we not thinking about?" It seems pretty clear that people want generics, people want package management, people want better error handling... And after that, it seems like we weren't really missing anything. It's not that there's nothing missing, it's just that there's nothing at that level of importance that we're missing... So that's good to know.
 
-\[00:40:07.14\] If you look at the survey that we just did ([the end of year survey](https://blog.golang.org/survey2017-results)), I think the next thing in the "What is Go missing?" question after those three is UI. But UI is probably an order of magnitude less popular than the first three. So if we get those first three out of the way, I think that'll be a really big deal for people, and then the rest is kind of lower order bits.
+\[40:07\] If you look at the survey that we just did ([the end of year survey](https://blog.golang.org/survey2017-results)), I think the next thing in the "What is Go missing?" question after those three is UI. But UI is probably an order of magnitude less popular than the first three. So if we get those first three out of the way, I think that'll be a really big deal for people, and then the rest is kind of lower order bits.
 
 **Brian Ketelsen:** UI is an order of magnitude more complicated than all of those combined, too.
 
@@ -281,7 +281,7 @@ For example, we talked to a team at one point who was working on 16-bit code on 
 
 **Erik St. Martin:** It's interesting though, and I'm curious to hear kind of the way you and some of the core people who worked on the language in the beginning feel when you see stuff like this... Because it wasn't the end goal, right? But you're like "Oh yeah, _Embedded_ probably isn't that great for Go", and then it's like "Oh wait, people are using it to do _Embedded_."
 
-**Russ Cox:** \[00:44:14.16\] Well, it's not so much that embedded is not great for Go, it was really that the current Go implementation is not at all suited for _Embedded_. So if a team comes to us and says "We want you to figure out a way to make Go run on a 16-bit system", what they're really asking you to do is start over. And it sounds like the Emgo authors pretty much did start over, and that's fantastic. They got something that's great.
+**Russ Cox:** \[44:14\] Well, it's not so much that embedded is not great for Go, it was really that the current Go implementation is not at all suited for _Embedded_. So if a team comes to us and says "We want you to figure out a way to make Go run on a 16-bit system", what they're really asking you to do is start over. And it sounds like the Emgo authors pretty much did start over, and that's fantastic. They got something that's great.
 
 So there is a question about sort of the language, versus the implementations. I was sort of focusing more on like where is the implementation going to go. You can move into a lot of spaces without changing much about the language, so I think that the main concern is the implementation... And I'd love having more implementations. I think Emgo is awesome, I think [GopherJS](https://github.com/gopherjs/gopherjs) is awesome... All of these are fantastic. It's just mind-blowing, but it's fantastic.
 
@@ -301,7 +301,7 @@ I want as many Go implementations as possible. That's how you know that it reall
 
 The core Go team, which is the people that you'd actually see doing things on the mailing list and that sort of stuff is about 30 people right now. We focus on really doing as little as possible as far as the scope. There's a ton of Java and C++ in the world (and at Google), and it's not the case that the collection of all the people writing Java or C++ in the world are called "the Java team" or "the C++ team." We've been very consciously trying to encourage people like "Look, if you're building X in go, that's the X team, that's not the Go team." We've been trying to focus on the language and the libraries, the core pieces that we need to be really deeply involved in... So that's what we mainly work on.
 
-**Brian Ketelsen:** \[00:47:59.05\] Can you give us a sense of the adoption of Go at Google, or is that proprietary?
+**Brian Ketelsen:** \[47:59\] Can you give us a sense of the adoption of Go at Google, or is that proprietary?
 
 **Russ Cox:** I can give you a sense - it's used for a number of fairly important things; there's tons of people checking in Go code every day, and we're pretty happy about that.
 
@@ -339,7 +339,7 @@ The core Go team, which is the people that you'd actually see doing things on th
 
 **Erik St. Martin:** Me? Alright... So I think I may or have not mentioned this project before, but as we know, there's a lot of overlap in the containers in Go world... [Kube-lego](https://github.com/jetstack/kube-lego) by jetstack on GitHub - it is a controller that runs in your [Kubernetes](https://kubernetes.io/) cluster, and if you add annotations to your Ingress, essentially it will go out using [LetsEncrypt](https://letsencrypt.org/) and fetch certificates for all of the host names that you have configured in there, and configure [NGINX](https://www.nginx.com/) automagically for you... Which is awesome, because then we can do TLS Everywhere and nobody has to do any actual work for it... Well, assuming you're running Kubernetes.
 
-**Carlisia Thompson:** \[00:52:16.21\] That's amazing.
+**Carlisia Thompson:** \[52:16\] That's amazing.
 
 **Erik St. Martin:** Carlisia, do you wanna go next?
 
@@ -375,7 +375,7 @@ The core Go team, which is the people that you'd actually see doing things on th
 
 **Russ Cox:** I mean, if the goal is to get people to have emails land in my mailbox, then I guess that might work. \[laughter\] I actually thought about that, but I thought it was really important that people could select who they wanted to talk to, because you might feel comfortable with someone, or you might have seen someone give a talk and you feel comfortable approaching them, but you don't feel comfortable just emailing an anonymous list and not even knowing who's gonna see your request for help. So I thought it was actually very important that the people asking for help got to choose who they asked for help.
 
-**Carlisia Thompson:** \[00:56:12.06\] That is a good point.
+**Carlisia Thompson:** \[56:12\] That is a good point.
 
 **Brian Ketelsen:** Yeah, I agree with that. That makes sense.
 

@@ -26,7 +26,7 @@ I'm Daniel Whitenack, I'm a data scientist with SIL International, and my co-hos
 
 **Daniel Whitenack:** Yeah, you're almost there. We'll get through this podcast recording, and then it's all vacation from there, at least until I talk to you next.
 
-**Chris Benson:** \[00:04:06.14\] I'm already drinking a Welsh beer right now, so I'm getting started. Okay.
+**Chris Benson:** \[04:06\] I'm already drinking a Welsh beer right now, so I'm getting started. Okay.
 
 **Daniel Whitenack:** Nice. Cool, well today on the Fully Connected episode - a few of these episodes in the past we've dug deep into individual topics. In the last one we talked about high-performance computing, which was great... But today we're just going to take some time and discuss a little bit about some of the trends that we're seeing in the AI community, a few new stories that caught our attention... And we've done this in the past, but every once in a while we like to update things in this way.
 
@@ -50,7 +50,7 @@ Some of the things that I've seen recently are the ICLR Conference happening in 
 
 **Daniel Whitenack:** Would you?
 
-**Chris Benson:** \[00:07:53.19\] Oh, totally. And I agree. And I say this - I'll say it quietly - I'm sitting in London right now and I don't wanna see all AI stuff in New York City and in London and in San Francisco and in places like that. It's fantastic to see Ethiopia. I think we should start tracking that a little bit in terms of places you wouldn't expect to see it that it's popping up, and give a shout-out to people like that.
+**Chris Benson:** \[07:53\] Oh, totally. And I agree. And I say this - I'll say it quietly - I'm sitting in London right now and I don't wanna see all AI stuff in New York City and in London and in San Francisco and in places like that. It's fantastic to see Ethiopia. I think we should start tracking that a little bit in terms of places you wouldn't expect to see it that it's popping up, and give a shout-out to people like that.
 
 **Daniel Whitenack:** Yeah, definitely. I know Google AI, for example, has started opening offices in other places around the world. They've just announced -- I forget when this announcement was; it was just in the last week that I saw it, at least... They're opening up an office in Bangalore, India. But also they have offices in Ghana, in Beijing... And then also we were mentioning Africa - I know there's a series of conferences and events and workshops called the Deep Learning Indaba that's happening there. I've seen other things that are being sponsored by companies like Facebook, Google, Microsoft and other large tech entities that are happening there.
 
@@ -66,7 +66,7 @@ And of course, AI I think is going to be ubiquitous in the software stack as we 
 
 I wanted to share, too - recently, in July, I was in Singapore, and had the chance to stop by the AI Singapore offices... You might have heard of programs like this. It's kind of like the Prime Minister's office in Singapore says "Singapore needs to be a leader in AI. How are we going to do that? How are we going to develop local talent in AI? How are we going to contribute to research?" etc. And they established this AI Singapore Organization, which is associated with the Prime Minister's office. Their job is to basically figure that out.
 
-\[00:12:05.09\] I have to say, I was super-impressed with the program that they've put together there. It seems to be run like a well-oiled machine, so companies can come to AI Singapore and they basically say "Okay, if you have a problem that's related to AI, let's partner together to solve that. What we're gonna do is we're gonna form a team in AI Singapore", which includes really top-notch mentors in AI and researchers in AI, paired with AI apprentices that they're training up, and your engineers from your company. Basically, everybody's leveling up in AI at the same time, and their focus is really not just to kind of learn interesting things, but they're working on real-world problems that can be solved, and they really wanna take on problems that will be pushed into production in commercial entities.
+\[12:05\] I have to say, I was super-impressed with the program that they've put together there. It seems to be run like a well-oiled machine, so companies can come to AI Singapore and they basically say "Okay, if you have a problem that's related to AI, let's partner together to solve that. What we're gonna do is we're gonna form a team in AI Singapore", which includes really top-notch mentors in AI and researchers in AI, paired with AI apprentices that they're training up, and your engineers from your company. Basically, everybody's leveling up in AI at the same time, and their focus is really not just to kind of learn interesting things, but they're working on real-world problems that can be solved, and they really wanna take on problems that will be pushed into production in commercial entities.
 
 So they have this whole program around it, and I have to say I was super-impressed with the talent that was there and the program that they have going on. It's just cool to see that sort of thing happen, and I shouldn't have been shocked, but I was a little bit shocked that this was going on in Singapore, and at such a great level, and I had no idea about it.
 
@@ -84,7 +84,7 @@ So it's existing companies leveling up their AI expertise, while at the same tim
 
 So I think if other countries are really serious about this, I think it is a model that we might see more of. I think it's hard to get it right for sure, because how many times have we seen "Oh, this company is gonna work with this university" or "There's gonna be this center of excellence at a university that we're going to work with certain companies from industry", and then some stuff happens, but it's not really that impactful. So I hope that these sorts of things are a little bit more impactful.
 
-**Break:**\ [00:15:56.28\]
+**Break:**\ \[15:56\]
 
 **Daniel Whitenack:** It's definitely great to talk about some of the things that have been going on in parts of the world that we're not currently in, but there's certainly a lot of AI news coming from the rest of the world as well, and I think that you had something that you wanted to highlight, that you saw in -- was it from MIT, or where was it from?
 
@@ -106,7 +106,7 @@ So I think if other countries are really serious about this, I think it is a mod
 
 But the relationships between input and output could be incredibly complicated to write down in terms of equations, or maybe computationally too expensive, so the problems that we are working on, where we know that this atom or molecule has this many particles in it - electrons and neutrons - but to write down the equation and actually make the computations about how all these things work together... It's actually computationally infeasible to do that, just by the equations that we write down.
 
-\[00:19:39.14\] In this case, with the dark matter, we know some of these constraints, we know the experimental observations, but we're not able to maybe write down well the statistics that they're talking about, that govern these things. So kind of plugging a neural network into that gap and having it try to learn some of the features that are important to some input/output, whether that's input -- in this case, input, it sounds like these experimental observations, and output, cosmological constance and other things. Or in the case of atoms and molecules, inputting geometries or numbers of particles, and outputting energies. Putting a neural network into that gap, where things are really hard to model, can make a lot of sense, I think.
+\[19:39\] In this case, with the dark matter, we know some of these constraints, we know the experimental observations, but we're not able to maybe write down well the statistics that they're talking about, that govern these things. So kind of plugging a neural network into that gap and having it try to learn some of the features that are important to some input/output, whether that's input -- in this case, input, it sounds like these experimental observations, and output, cosmological constance and other things. Or in the case of atoms and molecules, inputting geometries or numbers of particles, and outputting energies. Putting a neural network into that gap, where things are really hard to model, can make a lot of sense, I think.
 
 **Chris Benson:** Yeah. I mentioned that they draw that analogy - they talk about how Facebook uses its algorithms to find eyes, mouth and ears in images, and that they're looking for these tell-tale signs of dark matter and dark energy, that they're basically looking for light bending... So as light is bent by the gravitational influence, I'm assuming that they're using convolutional neural networks, although they don't explicitly say that, to try to notice the subtleties in terms of identifying the relationships... But it's just really interesting to see it being used in this way. I'm always fascinated to see all the different use cases across industry as we see this becoming more and more pervasive over time.
 
@@ -126,7 +126,7 @@ But the relationships between input and output could be incredibly complicated t
 
 So they took this and said "What would it take to create a smaller, faster, cheaper, lighter version of BERT?", which is one of these large-scale language models. They ended up doing that, and this is what they're calling Distilled BERT. It actually has very small penalties in terms of evaluation, but it's smaller, faster, cheaper, lighter in comparison. They have a little graph of how many millions of parameters various models have, and the latest -- so there's an NVIDIA language model that has like 8,300 million parameters, and Distilled BERT has 66 million, so a significant reduction in size...
 
-\[00:24:23.20\] But Distilled BERT still maintains 95% of BERT's performance on language understanding benchmarks like GLUE, which I think for such a reduction in size, with only a very small - in some cases negligible - penalty in performance, it's just really encouraging to see.
+\[24:23\] But Distilled BERT still maintains 95% of BERT's performance on language understanding benchmarks like GLUE, which I think for such a reduction in size, with only a very small - in some cases negligible - penalty in performance, it's just really encouraging to see.
 
 **Chris Benson:** So since we're fortunate that you're an expert on this topic, to some degree... I've seen lately a lot of different articles about different types of compression and different types of architecture construction in an effort to make it more performant... Do you have any insight into how you're approaching that, or if not, how would you tend to do that, and what kind of benefits can you get out, and what kind of applications might it enable?
 
@@ -152,7 +152,7 @@ Some of the methods fall under I think what's called pruning, which is kind of l
 
 So I think this was the type of methodology that Hugging Face employed. Hugging Face is a very open source-focused company, and in their blog post even they show some of the PyTorch code and illustrate how to do this in PyTorch. So if you're interested in knowledge distillation and teacher-student models, and want to actually get your hands dirty trying out some of these things, maybe trying your own distillation, then that would be a good place to start, I think, because you could look at some hands-on examples.
 
-**Break:** \[00:28:40.15\]
+**Break:** \[28:40\]
 
 **Chris Benson:** Okay, so I've found an article that was interesting to me from the title, but as I started reading through it, I realized that I actually know one of the authors. It's an article called "Three People-Centered Design Principles for Deep Learning." It's by Dr. David Bray and R "Ray" Wang. Dr David Bray and I both used to work at the same company together, called Intellinet, many years ago, and we've kind of loosely kept in touch.
 
@@ -164,7 +164,7 @@ I like seeing this AI-centered piece, and when I go out and do keynotes or thing
 
 So the three keys that he's talking about here is transparency, and he's talking about the fact that you really need to understand what you're trying to get to, and be very clear with what your intentions are in the training, and make sure that your data is oriented on the outcome that you want, and making sure that the process of doing the model training is obvious in terms of what your inputs are to get your output is possible so that no mistakes are made.
 
-\[00:32:05.03\] And the second point is explainability. This is obviously a huge area inside AI research, in terms of being able to understand how the inferences a model is making - how those inferences are being reached. Certainly in the industry I'm in, where we have a lot of autonomy, in terms of autonomous vehicles, being able to put people's lives in that, and being able to explain how your model is getting in that is kind of a key to people having confidence in that.
+\[32:05\] And the second point is explainability. This is obviously a huge area inside AI research, in terms of being able to understand how the inferences a model is making - how those inferences are being reached. Certainly in the industry I'm in, where we have a lot of autonomy, in terms of autonomous vehicles, being able to put people's lives in that, and being able to explain how your model is getting in that is kind of a key to people having confidence in that.
 
 And then the last thing is reversibility, and understanding how you reverse out of a model about what it knows; it's kind of tied to explainability. So you're really looking -- between transparency, explainability and reversibility, you're really looking at something where your outcome is a little bit less black box, is a little bit less mysterious, and you have kind of a map on how you're working your way through the network.
 
@@ -180,7 +180,7 @@ In this article - I was kind of wrestling to try to figure out this idea of reve
 
 It's funny, I have a personal tie a little bit to this interest, and that is - you recently interviewed me on one of our episodes about high-performance computing as it relates to AI, and I can say that in the effort that we did at Lockheed Martin (and we're still doing), that aspect of really centering on the person that is building the model, and on those outcomes that you're trying to achieve, it was really one of the core design principles that we built into our effort... To the point of it was every bit as important to do that for the ability of getting to the outcomes that we needed and need, as quickly as possible, with very high fidelity. Anyway, when I saw this article, I was pretty interested. Maybe at some point Dr. David Bray might come onto the podcast and tell us a little bit more about it. I think that would be an interesting episode.
 
-**Daniel Whitenack:** \[00:35:57.09\] Yeah, I definitely would be interested in hearing more about some of the details that he goes into. He also talks about creating data advocates, which I thought was an interesting idea... And also, a huge piece of this which I think is important and was mentioned by one of our guests, Lindsey Zuloaga from HireVue, is really putting a lot of effort into mindful monitoring systems to test datasets for biases.
+**Daniel Whitenack:** \[35:57\] Yeah, I definitely would be interested in hearing more about some of the details that he goes into. He also talks about creating data advocates, which I thought was an interesting idea... And also, a huge piece of this which I think is important and was mentioned by one of our guests, Lindsey Zuloaga from HireVue, is really putting a lot of effort into mindful monitoring systems to test datasets for biases.
 
 If I remember right, I think Lindsey was talking -- and this probably intersects there, where she was talking about "Well, it's good if you put in some effort into thinking about your users, and thinking about bias when you're training AI models", but a lot of things drift over time, and the performance of things drifts over time, your user base might change in different ways... So really putting in a monitoring system that is actually monitoring your online models to really judge whether you're actually dealing with any sort of bias in the input, or if you're model is all of a sudden generating predictions that are biased between two different groups, or something like that.
 
@@ -194,7 +194,7 @@ You want it to work equally well for those that are highly-educated and not high
 
 One thing is you may never be able to anticipate all the types of people that are gonna interact with your system... So anticipating that in advance and putting a monitoring system in place where you can actually tell "Oh, in these scenarios our system isn't doing well based on our feedback we're getting, or based on some metric that we're measuring...", and if you look further into that, you could identify certain groups that are using your system that you just didn't expect before, so now you should circle back and integrate that into your training data. So I think it's a cycle and you have to think about it both in production, in training, and kind of this feedback in between the two.
 
-**Chris Benson:** \[00:40:14.13\] Gotcha, okay. Thanks for going there.
+**Chris Benson:** \[40:14\] Gotcha, okay. Thanks for going there.
 
 **Daniel Whitenack:** Yeah, definitely. Well, I appreciate you coming up with some good articles this week, Chris. Before we head out, like in all of our Fully Connected episodes, we like to end with just a couple -- at least one learning resource that you can use as you're trying to learn more about the most recent trends in AI, and level up your skills.
 

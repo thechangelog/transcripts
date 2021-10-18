@@ -40,7 +40,7 @@
 
 **Jerod Santo:** Yeah.
 
-**Ryan Dahl:** \[00:03:58.28\] ...like a website where you could insert a bit of code and plot functions, and stuff. TensorFlow.js and Observable actually came out just before that talk, and... A month before that we decided "Actually, these projects are kind of dead-end. We should do something else." And JSConf insisted that I continued to give a talk on something else, so I put together this Deno demo.
+**Ryan Dahl:** \[03:58\] ...like a website where you could insert a bit of code and plot functions, and stuff. TensorFlow.js and Observable actually came out just before that talk, and... A month before that we decided "Actually, these projects are kind of dead-end. We should do something else." And JSConf insisted that I continued to give a talk on something else, so I put together this Deno demo.
 
 **Jerod Santo:** Nice. So there's a bunch of stuff about Node... Anytime you make design decisions, in retrospect, it's easy to look back, and it's hard not to find flaws in things that we create... But we don't always get a second shot at it, and Deno seems to be, to a certain degree, a second shot, or at least another round of something different, but similar... And I'm just curious, of the seven or so things there that you listed - which, if you don't remember, they are not sticking with promises, the security system (which I think you definitely are addressing with Deno), the build system, packaged JSON, Node modules... Those are a few things, just high-level, that you mentioned, that were regrets. How many of those do you feel like you've alleviated with Deno? How many things did you fix?
 
@@ -68,7 +68,7 @@ I don't know about you all, but I feel like TypeScript is eventually what JavaSc
 
 **Ryan Dahl:** Absolutely.
 
-**Jerod Santo:** \[00:07:54.03\] Let me just say that I was around when you announced Node, back in '09 or whenever it was; I remember it was right around the iPhone time... And I remember the reaction to Node. Probably not as well as you do, because you were on the project, and I was just an innocent by-stander... And maybe you remember it differently, but to me it was like immediate -- it was a hit. Everybody was excited. We had Mikeal Rogers on the show a little bit back and he was just reminiscing a little bit how nothing existed for Node. When Node came out and you announced it, there was no ecosystem, there was nothing, and then everyone just piled in. People saw fertile ground... And you're looking at me a little weird, like maybe that's not how you remember it, but... It seemed like people came in droves to fill out that ecosystem. It just was immediately a hit. And I think it filled a real need. First of all, let me stop and say - did you have that same feeling, or am I seeing it through those colored glasses?
+**Jerod Santo:** \[07:54\] Let me just say that I was around when you announced Node, back in '09 or whenever it was; I remember it was right around the iPhone time... And I remember the reaction to Node. Probably not as well as you do, because you were on the project, and I was just an innocent by-stander... And maybe you remember it differently, but to me it was like immediate -- it was a hit. Everybody was excited. We had Mikeal Rogers on the show a little bit back and he was just reminiscing a little bit how nothing existed for Node. When Node came out and you announced it, there was no ecosystem, there was nothing, and then everyone just piled in. People saw fertile ground... And you're looking at me a little weird, like maybe that's not how you remember it, but... It seemed like people came in droves to fill out that ecosystem. It just was immediately a hit. And I think it filled a real need. First of all, let me stop and say - did you have that same feeling, or am I seeing it through those colored glasses?
 
 **Ryan Dahl:** I think that's a fair characterization of what happened, yeah.
 
@@ -86,7 +86,7 @@ I don't know about you all, but I feel like TypeScript is eventually what JavaSc
 
 In Node days, we built a web server and you'd have to parse HTTP, and it's such a difficult problem that we ended up writing our own HTTP parser for this. It's so difficult to bring in external code that you end up often having to just write the stuff over again, because it's so difficult to link. And this is very different in Rust. If I need a YAML parser, if I need an HTTP server, any sort of third-party stuff, I would do what people are used to doing in JavaScript, or Ruby, or Python - you can just kind of include dependencies and have this all compile together really nicely. And that's an important aspect for a platform like Deno or Node, because we provide all of these APIs to do various things. You wanna open a WebSocket, you wanna have an HTTP/2 web server - all these various systems that it talks to need implementations... And it's very nice that we're able to just link in third-party implementations of all these various systems pretty easily. So from a maintainer's perspective, rewriting it in Rust is a really killer feature that kind of allows us to iterate much quicker.
 
-**Jerod Santo:** \[00:12:31.11\] Yeah, maybe kind of a feature that end users don't appreciate as well as the authors or maintainers, but they will appreciate over time as you are allowed to continue at a certain pace that the C++ ecosystem didn't allow with Node. Or maybe at a certain point Deno will also get so many lines of code and so much stuff in it that -- I mean, it will slow down. Any project that's mature moves slower than when it's young. But maybe it'll keep a pace that keeps your users happy.
+**Jerod Santo:** \[12:31\] Yeah, maybe kind of a feature that end users don't appreciate as well as the authors or maintainers, but they will appreciate over time as you are allowed to continue at a certain pace that the C++ ecosystem didn't allow with Node. Or maybe at a certain point Deno will also get so many lines of code and so much stuff in it that -- I mean, it will slow down. Any project that's mature moves slower than when it's young. But maybe it'll keep a pace that keeps your users happy.
 
 **Ryan Dahl:** Sure. Just talking about other aspects of Deno, internally, that are important, is the binding interface; kind of the boundary between JavaScript and the native language, in this case Rust, in Node's case in C++. Node was fairly ad-hoc at adding bindings; we just kind of added them all over the place. There was no set system for calling from JavaScript into C++ and vice-versa... And in Deno there's a system for this. We call them ops. This kind of organizes the various bindings that you have to the system facilities really nicely... And in particular, organizes all of the async calls that you might make. So ops in our system are either a synchronous function, like a function you call in to Rust and it returns a value immediately, or it's an async function which returns a promise that eventually resolves to a value.
 
@@ -104,7 +104,7 @@ WebSockets in particular - there's a new standard out called WebSocketStream, wh
 
 Anyway, that's all to say that Deno is promises all the way down, and so kind of from the fundamental layer we've tried to deal with this back-pressure problem.
 
-**Jerod Santo:** \[00:16:02.28\] Another big differentiator is the package management story, right?
+**Jerod Santo:** \[16:02\] Another big differentiator is the package management story, right?
 
 **Ryan Dahl:** That's right.
 
@@ -124,7 +124,7 @@ Our module system is really the web browser's module system, which is exactly HT
 
 **Adam Stacoviak:** What are the advantages of that then? If pulling a module for Npm, for example, the stability of being able to make those -- Npm install, for example, and being able to sit there and wait, like some people might, what are the advantages of that system over this older one? Obviously, it's modern in terms of the way the web browser is working, but what's the specific dev experience advantages there?
 
-**Ryan Dahl:** \[00:20:02.03\] I think it has the effect of feeling immediate, and... There's nothing to install ahead of time, because the Deno system itself actually takes care of downloading that. So I would say the other DX effect is that you can have scripts that are single files. In Node, you generally at minimum need to have a package.json and your JavaScript file. Your package.json needs to define where you're linking, and your JavaScript file has some source code in it. In Deno you can say where you're linking on line one, and the rest of the script can be your code. So you can actually define a complete program, both where to get your third-party code, and your own code, all in one file, run it without creating a directory, and... I guess what I'm trying to say is there's less boilerplate to deal with.
+**Ryan Dahl:** \[20:02\] I think it has the effect of feeling immediate, and... There's nothing to install ahead of time, because the Deno system itself actually takes care of downloading that. So I would say the other DX effect is that you can have scripts that are single files. In Node, you generally at minimum need to have a package.json and your JavaScript file. Your package.json needs to define where you're linking, and your JavaScript file has some source code in it. In Deno you can say where you're linking on line one, and the rest of the script can be your code. So you can actually define a complete program, both where to get your third-party code, and your own code, all in one file, run it without creating a directory, and... I guess what I'm trying to say is there's less boilerplate to deal with.
 
 **Adam Stacoviak:** It's minimal.
 
@@ -142,7 +142,7 @@ When you do npm init, it's gonna ask you for (I don't know) the license of your 
 
 **Ryan Dahl:** Yeah, that's right. You can pull in files from any server. And the nice side effect of this is that that Node ecosystem and essentially all other programming languages are dependent on a specific server to distribute third-party packages, whether that's crates.io, whether that's golang.org, or npmjs.com. If that server goes down, everything breaks. We are heavily dependent on that. But contrast that with -- this is just not very webby; this is not how web browsers work. It would be a bad day if Google went down, but hopefully web browsers continue to operate. Your website isn't necessarily dependent on any one specific server existing... And that's nice. That's a distributed system. And because of this aspect that you can download code from any URL, Deno is not dependent on our website, deno.land, nor is it dependent on any other website. You can use unpackage.org for pulling in your third-party dependencies. Or you can use GitHub directly, which might be nice, since that's where the code is actually stored.
 
-**Jerod Santo:** \[00:23:56.18\] Right. Then if GitHub goes down, we're screwed again. But we're already screwed, so... Great website, by the way. I love the dinosaur brand, I love the name. Deno.land is such a cool domain. I just wanted to give you props for that really quick.
+**Jerod Santo:** \[23:56\] Right. Then if GitHub goes down, we're screwed again. But we're already screwed, so... Great website, by the way. I love the dinosaur brand, I love the name. Deno.land is such a cool domain. I just wanted to give you props for that really quick.
 
 What about versioning? I mean, if I'm a library author, are there idioms around that? Do I just have a new file with like the version in my file name? How do we deal with things like "Lodash 3.7.1 is out. How do I go get it?"
 
@@ -156,11 +156,11 @@ What about versioning? I mean, if I'm a library author, are there idioms around 
 
 **Ryan Dahl:** So you should be able to access those files through HTTP. And if they're ESM, then you're close to it working. I think the problematic thing is if they use Node APIs. Node for example has requirefs. You can requirefs and open a file. Deno has alternative APIs for that. We do not have a top-level fs module. We have a compatibility layer for that. That's in our standard library. By the way, Deno has a standard library. And you can find that at deno.land/std/node. Using that compatibility layer, you get pretty close, although there's definitely a lot of modules where it's gonna require some work... But you can get pretty close to importing a lot of modules. There's a long tail end of things that are incompatible though.
 
-**Break:** \[00:26:25.06\]
+**Break:** \[26:25\]
 
 **Jerod Santo:** So Ryan, on your website, deno.land (awesome website) it says "A secure runtime for JavaScript and TypeScript", and of course, "Secure by default" is the top-level bullet of Deno features. We haven't talked about security yet. Do you wanna give us the skinny?
 
-**Ryan Dahl:** \[00:27:52.16\] Yeah, so obviously if you're pulling in random packages over HTTP, you should be worried if you're pulling in code, because maybe you've audited this code, but probably not. That code probably depends on some other code. And those can end up pulling in many dependencies.
+**Ryan Dahl:** \[27:52\] Yeah, so obviously if you're pulling in random packages over HTTP, you should be worried if you're pulling in code, because maybe you've audited this code, but probably not. That code probably depends on some other code. And those can end up pulling in many dependencies.
 
 **Jerod Santo:** That's kind of like those installers where they're like "Curl this URL, pipe it into Bash", and then a lot of people will show up in the comments like "Please don't do that, because Bash is gonna execute arbitrary code that's in that URL." Anyways, I cut you off, but I just was reminded of that, where it's like, "Yeah, but as long as it's safe... Audit it and you'll be happy. But if you don't audit it, you probably shouldn't be piping into Bash."
 
@@ -182,7 +182,7 @@ So by default, when you run a Deno program, whether that's a local program on yo
 
 **Jerod Santo:** Is that something you can put in the file itself, or does it have to be a flag to the runtime?
 
-**Ryan Dahl:** \[00:32:13.09\] It has to be a flag. We are considering having a configuration file. We are really conservative about adopting new file formats. I was just talking about how we try to keep things as boilerplate-free as possible. So we don't want to force people to write a configuration file. We don't want the overhead of configuring your system before you ever get started.
+**Ryan Dahl:** \[32:13\] It has to be a flag. We are considering having a configuration file. We are really conservative about adopting new file formats. I was just talking about how we try to keep things as boilerplate-free as possible. So we don't want to force people to write a configuration file. We don't want the overhead of configuring your system before you ever get started.
 
 So for now they are command line flags... And they're pretty obvious and annoying, and that's kind of purposeful, because these are security things. They should be obvious and annoying. You should be very clear that you are allowing this system to run arbitrary sub-processes. Yeah, so via command line flags is how you enable them.
 
@@ -222,7 +222,7 @@ So for now they are command line flags... And they're pretty obvious and annoyin
 
 **Ryan Dahl:** Yeah, I should mention that there is a new feature --prompt. Deno run --prompt. So if you don't wanna allow all -- the current behavior is if you hit one of these ops that's trying to access the file system and you don't have the correct allow flags, you get an exception, the process drops out, errors out. There's a new feature that has an interactive prompt that will be like "Hey, I'm trying to read this environmental variable. Do you want to allow this, yes or no?" So you can kind of yes or no through the exact accesses that the system is doing. And we think that we're going to enable this by default actually, and not require this --prompt flag. So this is kind of going more in the direction of -- as always, in the direction of web browsers. We like this programming model where you opt into additional privileges.
 
-**Jerod Santo:** \[00:36:24.05\] I like that. It sounds like a good compromise. Kind of shifting a little bit further right, but you're following the web browser's lead, where it's like "Are you sure you want to give this person access to your webcam?" And if you say yes, then it's on you.
+**Jerod Santo:** \[36:24\] I like that. It sounds like a good compromise. Kind of shifting a little bit further right, but you're following the web browser's lead, where it's like "Are you sure you want to give this person access to your webcam?" And if you say yes, then it's on you.
 
 So security front and center. We've talked about packages and how that all stuff works, importing other people's code, we've talked about TypeScript... What are some other aspects of Deno that are cool and exciting? There's some tooling things, there's a formatter, there's some of these kind of developer experience things that help you stay productive, right?
 
@@ -248,13 +248,13 @@ We have deno lsp, which allows VS Code to talk to Deno, and get tab completion, 
 
 **Ryan Dahl:** ...and apologise that I did not have a MySQL library yet... And they're like "But how is that going to happen?" and I said "I don't know how that's going to happen. I just hope that that is solved at some point." And it's embarrassing to even think that that was a concern, because that was totally not a concern. All those problems got worked out essentially without my interaction.
 
-\[00:40:20.06\] You know, Deno and Node are very similar systems. They're both built on V8, they're both JavaScript... They're pretty similar. The differences are relatively superficial. I mentioned this Deno.land/standardlibrary, the Node compatibility layer... This is a work in progress. If you go check it out, there's something -- I think we're maybe at 40% compatibility now. So we're still filling these things out, and I think over time it will be less and less of a problem to take existing code and run it in Deno.
+\[40:20\] You know, Deno and Node are very similar systems. They're both built on V8, they're both JavaScript... They're pretty similar. The differences are relatively superficial. I mentioned this Deno.land/standardlibrary, the Node compatibility layer... This is a work in progress. If you go check it out, there's something -- I think we're maybe at 40% compatibility now. So we're still filling these things out, and I think over time it will be less and less of a problem to take existing code and run it in Deno.
 
 But there's still a lot of work to do... You mentioned this HTTP/2 web server - up until recently, Deno was using a web server written in TypeScript that was a loose port of Go's web server. It's built on top of TCP sockets and TLS sockets. It was a nice HTTP 1.1 server, but had some problems in that it didn't support HTTP/2. And because we just made this port ourselves and are not particularly interested in writing web servers, we're kind of dead-ended with that codebase. We were forced to then write an HTTP/2 web server... HTTP/2 being a much more complicated protocol than HTTP 1.1.
 
 What we'd really like to do - I've mentioned this earlier, about linking in native code libraries using Rust... Rust obviously has a web server already implemented. In fact, Deno already has that web server in its binary somewhere, deep inside of it. What we really wanna do is just allow people to call from JavaScript into this hyper web server in Rust and start up a nice, fast HTTP/2 web server. This work is still unstable. IT's shipped in Deno 1.9, so people can use it if they use the --unstable flag... But yeah, now we're working on this native web server, which - I think serving websites is quite important to server-side JavaScript tasks... And it's quite fast. It has very good latency, very good throughput. We have some preliminary analysis on its performance on the 1.9 release notes. We hope to stabilize this in the next couple of months, and people will have a very fast web server available right out of the box.
 
-**Break:** \[00:42:39.15\]
+**Break:** \[42:39\]
 
 **Adam Stacoviak:** Ryan, back in March 29th you announced the Deno company, and obviously, you've got a great new start to what you began with Node. A lot of new beginnings here, a lot of wrongs made right... And to put behind that a company. So why are you on this path? I suppose more than ten years - Node 2009, now it's '21... What's the path? What's Deno company, what are you doing?
 
@@ -270,7 +270,7 @@ So if you're going to choose one of these languages to invest in and build on, I
 
 I think once you play around with this stuff a bit, and you learn Python, and you learn Ruby, and you learn JavaScript and Perl, you get the feeling that they're pretty much the same thing. There's different syntax here, there's different ways to do different things, but the are very similar systems, essentially with different function names, different syntax... And yeah, I think those surface-level features are fairly unimportant. I think JavaScript is really the one that we should be using to push forward the needs of the world to create fast software, or create software quickly, I should say.
 
-**Adam Stacoviak:** \[00:48:22.18\] Yeah. Bet on JavaScript, basically.
+**Adam Stacoviak:** \[48:22\] Yeah. Bet on JavaScript, basically.
 
 **Ryan Dahl:** Bet on JavaScript.
 
@@ -308,7 +308,7 @@ I think once you play around with this stuff a bit, and you learn Python, and yo
 
 When it became more and more clear that Node was really a thing, Joyent sat down and made a business deal with me, and I ended up selling Node to Joyent, whatever that means when it's an MIT-licensed open source project... But I gave them control of the project and gave them the website and whatnot. That worked out very well for myself personally. I'm not sure how well it worked out for Joyent, actually... For myself it was great. I've seen some comments online that kind of paint a different picture of the situation, that I was exploited by Joyent, or something...
 
-**Jerod Santo:** \[00:52:14.09\] You didn't feel that at all?
+**Jerod Santo:** \[52:14\] You didn't feel that at all?
 
 **Ryan Dahl:** Not at all the case.
 
@@ -324,7 +324,7 @@ As I said, Bert went on to fund this company StrongLoop that did Nody sort of th
 
 **Ryan Dahl:** So early on in Node -- as I mentioned, I was young and naive about how software is developed... I was very much of the idea that "Oh, you just throw some code out there on the internet, you collaborate with people... This is how software gets built." But Node grew bigger and bigger and bigger, and there's more and more people involved, and it becomes clear at some point that organization really matters, it matters very much to have full-time professional engineers working on it, and people can contribute code on a one-off basis. But if you really want to get things done, like port Node to Windows and use IO Completion Ports, you need full-time engineers; these people need to get paid, and they need to be able to focus on a problem for a long period of time.
 
-\[00:55:55.15\] So you realize that at a certain scale, software becomes a lot more about managing budget and trying to manage an organization and kind of the meta problems around getting funding for people. So it's always been clear to me that if we're going to go down this route and build this programming system that is going to be very much like Node, that if it's going to ever scale, it needs to have some funding model. There's no way that this can work where people are just going to randomly work on stuff on kind of a one-off basis for free. There needs to be some way of paying people to work on the problem.
+\[55:55\] So you realize that at a certain scale, software becomes a lot more about managing budget and trying to manage an organization and kind of the meta problems around getting funding for people. So it's always been clear to me that if we're going to go down this route and build this programming system that is going to be very much like Node, that if it's going to ever scale, it needs to have some funding model. There's no way that this can work where people are just going to randomly work on stuff on kind of a one-off basis for free. There needs to be some way of paying people to work on the problem.
 
 And Node is not a piece of software that is unused, that is not attached to revenue streams. There's all sorts of companies using this. If I could have one cent for every Node installation - oh, how great it would be. This is open source software, of course, and it's very liberally open source... And I believe in that, and I think that's important for a programming system like this... But yeah, we see that these systems have commercial applications to them, and these can provide connections to reality for the software itself that is making sure that we're actually solving a useful problem... But also provide funding to develop the software.
 

@@ -34,7 +34,7 @@
 
 **Tom Wilkie:** This is just for me, is it?
 
-**Mat Ryer:** \[00:04:08.07\] Yeah. The video doesn't get broadcast.
+**Mat Ryer:** \[04:08\] Yeah. The video doesn't get broadcast.
 
 **Tom Wilkie:** Okay... I'll put it back to my face then.
 
@@ -96,7 +96,7 @@ You're not gonna have any guests for a while, so turn yourself around, if that h
 
 And in my experience, as the applications got larger and larger, sometimes you want to break those things into smaller components. You can do that through classes, or various other approaches, depending on the language. Modules, obviously, in Go. And then I think the real difference is if you want to deploy them independently. That's certainly the approach that I've seen quite a lot, where you have a number of applications that are either relatively simple servers, but you can have many of them, and they all talk to each other through HTTP, or some other mechanism. You might have a small number or you might have a very large number of them, that would depend... \[laughter\]
 
-**Mat Ryer:** \[00:08:21.05\] Yeah, I think size is gonna be a recurring theme on this show, because I have a similar thing to you, Matt - I started off, I would just build little monoliths, really... And in fact, sometimes that's kind of where I start everything, actually. I start with just keeping it really simple, and then at some point you can start to feel some pain, can't you...? And you can see how microservices came to address that. What sort of pain points does it actually help with?
+**Mat Ryer:** \[08:21\] Yeah, I think size is gonna be a recurring theme on this show, because I have a similar thing to you, Matt - I started off, I would just build little monoliths, really... And in fact, sometimes that's kind of where I start everything, actually. I start with just keeping it really simple, and then at some point you can start to feel some pain, can't you...? And you can see how microservices came to address that. What sort of pain points does it actually help with?
 
 **Tom Wilkie:** I think from a microservice perspective there's really a couple of key things that make it attractive for someone like myself. One is isolation. In the service that we run, it's very useful to isolate the read path and the write path. We run hosted monitoring services, so being able to put the right path, which is super-predictable, which is very steady and stable, and stateful, so pretty critical - being able to put that in one set of components, one set of service (for a lack of a better term), and then put the query path, which can be maybe dynamically scaled, can be a bit more risky, a bit more stateless... Putting that somewhere else allows you to separate out the blast radius of bugs, for instance.
 
@@ -112,7 +112,7 @@ In comparison, the previous place I worked, which was Halo, we went through a mo
 
 **Mat Ryer:** But does microservices solve that, or does it just move that problem somewhere else? Because if you do have a component and you need to add some capability to a dependency, you kind of need to do that anyway, even if it's a microservice or if it's in a monolith. Of course, if it's in a little monolith, then you can get things like type safety... We can describe our boundaries with interfaces and things in Go, for example, and it's very clean... But when we deploy it, or if we build that as a big microservice architecture, does it really solve these problems, or does it just change them?
 
-**Tom Wilkie:** \[00:12:15.23\] I mean, there's a strong argument that changing things in a monolith is actually somewhat easier. It's deployed atomically, you deploy the whole thing at once, so interdependencies between the services are not something you really have to worry about... And you've got kind of control over the whole codebase. At any one point you can kind of atomically snapshot "This is the code at this point in time. This is what I'm gonna deploy."
+**Tom Wilkie:** \[12:15\] I mean, there's a strong argument that changing things in a monolith is actually somewhat easier. It's deployed atomically, you deploy the whole thing at once, so interdependencies between the services are not something you really have to worry about... And you've got kind of control over the whole codebase. At any one point you can kind of atomically snapshot "This is the code at this point in time. This is what I'm gonna deploy."
 
 So there's an argument, especially with small teams and simple development processes, that monoliths will allow you to move quicker. I don't wanna be the one fighting the corner for monoliths - we also run microservices - but I feel like they get a bad rep sometimes.
 
@@ -138,7 +138,7 @@ But the nice thing about the microservice approach is that in between those big 
 
 But then just to throw a spanner in the works, you used to be able to do this with Erlang, right? Erlang arguably was a monolithic architecture, but you could easily just hotfix in a single function, right?
 
-**Mat Ryer:** \[00:16:09.25\] Could you? I don't know. Could you do that?
+**Mat Ryer:** \[16:09\] Could you? I don't know. Could you do that?
 
 **Tom Wilkie:** You could, yeah. This is when languages were powerful and let you do things like that. \[laughter\]
 
@@ -184,7 +184,7 @@ And now you can actually -- a single binary, a single process, a single command 
 
 **Tom Wilkie:** Oh... \[laughter\]
 
-**Matt Heath:** \[00:20:04.15\] I think we're definitely seeing that with other projects, as well. Istio, for example - I think version 1.5 is combining the various services into a single deployable binary, and that just makes it much simpler for people who are going to operate that... But they still have the separation of those components.
+**Matt Heath:** \[20:04\] I think we're definitely seeing that with other projects, as well. Istio, for example - I think version 1.5 is combining the various services into a single deployable binary, and that just makes it much simpler for people who are going to operate that... But they still have the separation of those components.
 
 **Tom Wilkie:** Yeah, and how many builds of Kubernetes are there that deploy as a single process, right? Like K3s is one, minikube... There's just so many where "Oh, we'll just embed it, CD in, and we'll--"
 
@@ -208,7 +208,7 @@ As an example, we've built our own Mastercard processor. So Monzo is both an iss
 
 **Tom Wilkie:** Do you run regionally within Monzo, and would you count the same service in two regions as two different services?
 
-**Matt Heath:** \[00:24:13.29\] So currently we run across three availability zones, and some physical locations, for a variety of reasons. Those would still be -- we treat that as like one deployment. I think as we move into having many Kubernetes clusters, that deployment that many of our engineers will see may translate to many Kubernetes deployments, but we would still see that as a deployment of a service, just running in different geographic regions.
+**Matt Heath:** \[24:13\] So currently we run across three availability zones, and some physical locations, for a variety of reasons. Those would still be -- we treat that as like one deployment. I think as we move into having many Kubernetes clusters, that deployment that many of our engineers will see may translate to many Kubernetes deployments, but we would still see that as a deployment of a service, just running in different geographic regions.
 
 But yeah, the thing that we're trying to do is provide isolation, which we kind of talked about, and the ability to independently tune them, but also reducing the blast radius. As an example, we don't really have one API. If we built many services that broke up our domain logic, we would have just ended up with one huge application that was an API that provided that to our apps, and various other parties. So instead we follow a kind of similar pattern to Netflix, where we have a gateway, a bit like Zuul, and then behind that there's 200 or so APIs. So every path is a different binary, which is a different deployment. So lots of moving parts...
 
@@ -228,7 +228,7 @@ I think one example of that would be a money type. If you're ever using money in
 
 **Matt Heath:** Yeah.
 
-**Break:** \[00:27:22.15\]
+**Break:** \[27:22\]
 
 **Mat Ryer:** So we talk a lot about teamwork, and microservices helping larger teams... And I suppose the argument goes that essentially you can have teams that are somewhat isolated, and they sort of map neatly to the services that they're providing, and they kind of don't need to worry too much about other parts of the system. They can get to focus in their little boundary. I've heard that said as an argument. Are there teamworking advantages to microservices, or can you get the same thing with monoliths?
 
@@ -248,7 +248,7 @@ The flipside of that is you still have the safety and control where people who h
 
 **Tom Wilkie:** When they just refuse, like "Oh, that feature doesn't belong here..." I've found in organizations that have adopted microservices sometimes you can get that kind of a bit territorial. "This is my microservices, it's done in my style. It's done with what I think should be the right way of doing it."
 
-\[00:31:58.01\] What I've always found works very well to diffuse that - and it works in open source similarly - you've always gotta have the big hammer of like "I'm just gonna fork your service if you don't wanna do it this way. I'm just gonna run my own."
+\[31:58\] What I've always found works very well to diffuse that - and it works in open source similarly - you've always gotta have the big hammer of like "I'm just gonna fork your service if you don't wanna do it this way. I'm just gonna run my own."
 
 **Jaana Dogan:** Yeah, completely. I'm seeing lots of people that are also proxying things; that's also a really good way, because you can just slightly tweak the behavior, and then you can fall back to the other service to do the real thing. So yeah, there's all these different cases that microservices actually enable.
 
@@ -282,7 +282,7 @@ I think in my case, my personal experience has been with tracing and relatively 
 
 **Jaana Dogan:** Yeah, Kubernetes.
 
-**Matt Heath:** \[00:36:06.14\] ...an overlay network maybe, that's moving things around, if you actually want to trace where a packet has gone, between your function calls essentially, that's quite hard sometimes.
+**Matt Heath:** \[36:06\] ...an overlay network maybe, that's moving things around, if you actually want to trace where a packet has gone, between your function calls essentially, that's quite hard sometimes.
 
 I think the thing that makes that okay is you have a lot of layers of abstraction, and most of the time those abstractions are pretty good... So the majority of cases you don't need to dive too deep into how those abstractions work. That's not to say that we've not had problems where we've had to go really deep on particular network problems. I think we've created our overlay network at one point, and the MTUs were subtly different, and... Yeah, that caused some problems that we weren't expecting, and it took a long time to find what they were. But yeah, having the right tooling I think is essential.
 
@@ -308,7 +308,7 @@ So yeah, we have many core services that provide common functionality. Those evo
 
 **Tom Wilkie:** Famously...
 
-**Matt Heath:** \[00:39:59.03\] Yeah, and one of the cool things with Linkerd was you could use a dtab as like routing rules that could decide based on certain parameters where your request would go... And a common use of that, which isn't something that we used, was to route very specific requests, say for a particular user, into a proxy, so that you could debug log the stuff between services. I mean, it adds extra hops and complexity, but yeah... From the sounds of it, people used it; it was super-useful.
+**Matt Heath:** \[39:59\] Yeah, and one of the cool things with Linkerd was you could use a dtab as like routing rules that could decide based on certain parameters where your request would go... And a common use of that, which isn't something that we used, was to route very specific requests, say for a particular user, into a proxy, so that you could debug log the stuff between services. I mean, it adds extra hops and complexity, but yeah... From the sounds of it, people used it; it was super-useful.
 
 **Mat Ryer:** That is a cool idea. And you can deploy that service live and get it inside live, can't you? So you struggle to do things like that with monoliths without deploying the whole thing, probably...
 
@@ -338,7 +338,7 @@ So you have to have a way in your observability stack of incorporating a lot of 
 
 **Matt Heath:** Yeah, I think those things have been really essential for us... Both being able to just pump a lot of metrics into a system and then go and introspect it later, and both to use that for investigations later, but also monitoring in real-time... And then - yeah, the tracing mechanism; we use Jaeger now, and for a while we had a system which would use structured logging to propagate a request ID...
 
-\[00:44:12.23\] So you could look at all the log lines across a hundred different servers to just pick that needle out of that haystack and combine them all together. And I think those were the only real ways we could understand those kind of things. But with those tools in place, I think it's quite useful, really beneficial.
+\[44:12\] So you could look at all the log lines across a hundred different servers to just pick that needle out of that haystack and combine them all together. And I think those were the only real ways we could understand those kind of things. But with those tools in place, I think it's quite useful, really beneficial.
 
 One of the questions I was gonna ask, actually - I think one of the things you get for free if you have that approach is... We have many services, and a call graph crosses many of these service boundaries. And each one of these boundaries has all these automated breakpoints effectively that are instrumented. So every call between a service has the perceived time from the caller and the server. So you have all these checkpoints all the way down your call graph, where you can see the performance of different things, which engineers don't need to think about, they just get for free, because the client that we use adds them. How would you do that if you were building a monolith? ...because you'd have to remember to add them, presumably at all these different places. And then that depends on the team, or is there a common approach?
 
@@ -372,7 +372,7 @@ The way that we've done that - we've used Go interfaces actually to describe our
 
 **Tom Wilkie:** So there are techniques to do this. But you could actually argue that the technique of automatically instrumenting RPC boundaries is the newer one.
 
-**Matt Heath:** \[00:48:08.18\] It's a profile. \[laughs\]
+**Matt Heath:** \[48:08\] It's a profile. \[laughs\]
 
 **Tom Wilkie:** Yeah, it is.
 
@@ -402,7 +402,7 @@ The way that we've done that - we've used Go interfaces actually to describe our
 
 **Mat Ryer:** Okay, fair enough. That's a good point. \[laughs\]
 
-**Break:** \[00:48:47.08\]
+**Break:** \[48:47\]
 
 **Mat Ryer:** So testing is another area that I think is quite interesting. One of the things that appeals to me with the microservices is this idea that you could really well test it. You could test that service almost every possible input and output. You could test it that much if you're so inclined... And because it's so focused, then hopefully you create good tests as well. Are there other things to consider when it comes to testing? Does it get easier or harder, have you found?
 
@@ -424,7 +424,7 @@ The way that we've done that - we've used Go interfaces actually to describe our
 
 **Tom Wilkie:** Sure. The only argument I'd make in the monolith is actually orchestrating a set of (let's call them) services within a monolith is easier than within microservices, where potentially they live in separate repos, built in separate languages... At least within a monolith you can wire them together in process, potentially.
 
-**Matt Heath:** \[00:52:13.29\] Yeah. I think that integration testing is where a lot of the value lives... And some of the problems that I've seen with the unit testing is if you have well-defined interfaces within your service, that's great. But as soon as you're testing the API part between them, one of the patterns I've seen is where we might stub the API response from another service, and in order to do a test, you actually have to stub many services.
+**Matt Heath:** \[52:13\] Yeah. I think that integration testing is where a lot of the value lives... And some of the problems that I've seen with the unit testing is if you have well-defined interfaces within your service, that's great. But as soon as you're testing the API part between them, one of the patterns I've seen is where we might stub the API response from another service, and in order to do a test, you actually have to stub many services.
 
 **Tom Wilkie:** Yeah. The entire thing.
 
@@ -452,7 +452,7 @@ The way that we've done that - we've used Go interfaces actually to describe our
 
 **Mat Ryer:** You mean test=true? \[laughter\]
 
-**Tom Wilkie:** \[00:55:57.11\] A lot of people will argue for testing in production... And I'm not one of them, but they've got some very good points. If you can arrange a system... You know, I've never been a huge fan of service meshes, but this is one of the things they can do which is really kind of nice... Is partition off a separate area of effectively production, that you can use for testing. That is kind of a nice system.
+**Tom Wilkie:** \[55:57\] A lot of people will argue for testing in production... And I'm not one of them, but they've got some very good points. If you can arrange a system... You know, I've never been a huge fan of service meshes, but this is one of the things they can do which is really kind of nice... Is partition off a separate area of effectively production, that you can use for testing. That is kind of a nice system.
 
 **Matt Heath:** Yeah, those are the two main areas that we're looking at at the moment... One of them - we ran our last crowdfunding through the same platform, which at face value might sound insane, but it allowed us to use many of the same systems to make things reliable, but it requires to load-test lots of things. So we built a shadow traffic system there, where we can multiply traffic at our edge, and we can replay that traffic through the production infrastructure, so that we can effectively get the same usage patterns, but just dramatically scaled up. We use that as one kind of load testing system, and we run that periodically.
 
@@ -460,7 +460,7 @@ The other aspect is the service mesh approach that you mentioned, Tom. One of th
 
 **Mat Ryer:** That's so cool. Well, actually, it's time for our very regular part of the show... It's time for Unpopular Opinions!
 
-**Jingle**: \[00:58:03.26\] to \[00:58:19.01\]
+**Jingle**: \[58:03\] to \[58:19\]
 
 **Mat Ryer:** So, anybody is free to shout out... Do you happen to have an unpopular opinion? It doesn't have to be tech-related. I think our first one was Julie Qiu saying she likes taxis in New York.
 

@@ -18,7 +18,7 @@ So there's JAMstack, and there's also Netlify CMS, which is an open source proje
 
 Guys, is that a good foundation, or did I miss anything up there?
 
-**Chris Bach:** \[00:03:47.13\] I think that was pretty spot on, yeah. The Netlify open source CMS is a Git-based attempt at bridging the gap and JAMstack is really all about enabling the decoupled way of approaching things, to journey away from monolithic apps. So yeah, I think you nailed it pretty good.
+**Chris Bach:** \[03:47\] I think that was pretty spot on, yeah. The Netlify open source CMS is a Git-based attempt at bridging the gap and JAMstack is really all about enabling the decoupled way of approaching things, to journey away from monolithic apps. So yeah, I think you nailed it pretty good.
 
 **Jerod Santo:** Cool. So we're gonna focus this conversation on JAMstack, and the cool thing is as Netlify and the team that rebuilt Smashing Magazine kind of from the ground up built it, they open-sourced a bunch of goodies, so not just Netlify CMS, but also GoTell, GoTrue, GoCommerce... These microservices written in Go that are powering the new Smashing Magazine and really enabling for this style of application. So we wanna focus on those things... I think we'll probably use the case study of the Smashing Magazine relaunch as a anchor or as a pin for the conversation, but we really wanna focus on the open source and really the ideas, if possible.
 
@@ -40,7 +40,7 @@ That's sort of when the term came about and started to be a usual nomenclature t
 
 **Chris Bach:** I feel that it's really about this journey away from the monolithic workflow, where you have these apps where you have to run everything at a time... And we're seeing that they became more and more bloated, less and less performant, have more and more security issues. Malware is becoming a hundred billion dollar industry. 7% of all sites are hacked... At Netlify we get 60 million requests every month, alone starting with wp-admin that are just malware saying that if you happen to have a Wordpress site installed, we'd love to infect it.
 
-\[00:08:11.11\] And the negligence test that used to be like six months of having a default Drupal site or a Wordpress site or anything like that -- you know, it's a normal site with a few custom plugins on the side, and you leave it alone for as long as it takes until there's like a 50% chance of something bad happening to it. And today people don't know, but that can be as little as two weeks, right? Basically, if you don't update PHP and SQL and Apache and the site itself and the custom plugins, things than go awry really fast.
+\[08:11\] And the negligence test that used to be like six months of having a default Drupal site or a Wordpress site or anything like that -- you know, it's a normal site with a few custom plugins on the side, and you leave it alone for as long as it takes until there's like a 50% chance of something bad happening to it. And today people don't know, but that can be as little as two weeks, right? Basically, if you don't update PHP and SQL and Apache and the site itself and the custom plugins, things than go awry really fast.
 
 So we see this way of building, this way of decoupling things where you build things in advance - it's a solution in so many ways. It's way faster, right? Because first of all, you can have multiple points of origin. Instead of having one server that runs everything, you can distribute the site itself on a content delivery network (that means on edge nodes all around the world). And you don't have to build it on the fly, which makes Time To First Byte and stuff like that so much faster.
 
@@ -58,7 +58,7 @@ Then we just felt like talking about static sites made very little sense, becaus
 
 **Chris Bach:** And it wasn't very fair... And of course, there's also a negative connotation with a term like "static" that didn't do this movement justice at all. When people were calling us and saying, "Okay, so let us explain our stack" and then they spend like ten minutes describing what really is the JAMstack, which is this modernware of a git-centric way of working on ine side and then using API microservices on the other side...
 
-\[00:12:05.06\] And they were looking to get viable workflows as far as publishing, and use a CDN and all those things. So for us that's just the JAMstack, and it's not proprietary in any way whatsoever, it's just that it's a little bit easier way of talking about things, and it really is about trying to introduce some best practices.
+\[12:05\] And they were looking to get viable workflows as far as publishing, and use a CDN and all those things. So for us that's just the JAMstack, and it's not proprietary in any way whatsoever, it's just that it's a little bit easier way of talking about things, and it really is about trying to introduce some best practices.
 
 **Jerod Santo:** Yeah, I like that. You got everybody speaking the same language.
 
@@ -78,7 +78,7 @@ Then we scale of course that for businesses that also want to get all the perfor
 
 **Jerod Santo:** Absolutely. I wanna hear a little bit of the story of the Smashing rebuild. We're coming at about five minutes before our first break, so if one of you can give us the quick summary of what happened, the 18 months, the things that had to be developed... If you could do that in five minutes, that'd be great. On the other side of the break, I do have some pushback on specific points, because I believe that -- and you guys are all in on this; it makes total sense that you're very bullish on it... In engineering there are tradeoffs and there are many situations where the JAMstack doesn't necessarily fit very well, and I think we should talk through some of those; I think it'd be fun to go through a few of the finer points with you and have a conversation.
 
-\[00:16:08.03\] So who wants to try and just give us the background of where Smashing was, why JAMstack was selected, how it was built and that whole thing?
+\[16:08\] So who wants to try and just give us the background of where Smashing was, why JAMstack was selected, how it was built and that whole thing?
 
 **Chris Bach:** I think Matt can do that, because it really started with an article, an appearance at a conference, and then the whole thing went from there.
 
@@ -98,7 +98,7 @@ What we could see was that in the space of the JAMstack there were still some ho
 
 So as Chris said, we basically told them "Okay, we are gonna make a huge exception from how we normally work, where we just give people a platform and they build, and we're gonna take a role in this and really help you build this project. But we are going to make everything small, reuseable APIs that we can make open source and that we can just contribute to the general ecosystem, because we really believe that there's a need for that in this JAMstack space." We already had the initial version of Netlify CMS, but needed to take it to another scale to handle the amount of content and contributors that Smashing Magazine has.
 
-\[00:20:08.19\] The we built out GoTrue, which is the layer that handles authentication for Smashing Magazine, we built out GoCommerce, which is a completely headless e-commerce API, we build out GoJoin for managing subscriptions for their membership features, and GoTell as a comment engine and We made all of these open source and helped them get the new Smashing Magazine to become a reality.
+\[20:08\] The we built out GoTrue, which is the layer that handles authentication for Smashing Magazine, we built out GoCommerce, which is a completely headless e-commerce API, we build out GoJoin for managing subscriptions for their membership features, and GoTell as a comment engine and We made all of these open source and helped them get the new Smashing Magazine to become a reality.
 
 **Chris Bach:** Matt, perhaps you can also just go into it, because the e-commerce is not like we built out Shopify in any way, right?
 
@@ -108,7 +108,7 @@ Because of these architectural constraints - there's no product management, that
 
 **Jerod Santo:** Let's pause real quick here, because I wanna pick back up on that specific point... I have questions about the GoCommerce aspect of it. But we're hitting our break, so let's take that up on the other side of this break. We'll be right back.
 
-**Break:** \[00:22:42.04\]
+**Break:** \[22:42\]
 
 **Jerod Santo:** Alright, we are back and we were talking about the JAMstack, specifically the JAMstack implemented on behalf of Smashing Magazine, and all the cool open source that came out of that.
 
@@ -138,7 +138,7 @@ We don't have inventory yet for GoCommerce, but we also have some plans for that
 
 **Matt Biilmann:** Well, it depends a bit on your CDN how easy that is. One option - if your CDN can't do it, you could put that specific file somewhere else. In the case of Netlify, we make it really easy to define basic auths for a specific path. So in the case of Smashing, it's sort of trivial to just say "This path requires authentication." If your CDN doesn't support that, you will need to put that file somewhere where you can require authentication.
 
-**Jerod Santo:** \[00:28:09.05\] Right. So it gets more complicated unless your CDN has specific features now.
+**Jerod Santo:** \[28:09\] Right. So it gets more complicated unless your CDN has specific features now.
 
 **Matt Biilmann:** Or you can potentially just put that file under a long hash URL that's not exposed anywhere.
 
@@ -174,7 +174,7 @@ Their problem was not so much that they had different services involved, but tha
 
 I guess we'll get back to it as well, but Sarah Soueidan - she was the front-end developer for Smashing Magazine and she talked a lot about how that worked, or how you push your pattern libraries instantly, live; the style guide is actually working... Because she wasn't sending anything off; what she was implementing was the site itself. But I'm sure we can talk a little bit about the Smashing Magazine case later.
 
-**Jerod Santo:** \[00:31:58.16\] Right. Let's talk about what came out of it. We've talked a little bit about GoCommerce, a very simple microservice for transacting... Because they had comments there's GoTell, \[unintelligible 00:32:11.08\] a lot of things. GoTrue for auth, as well as the Netlify CMS. One point that I would just make around this idea of JAMstack is it's not that you're removing complexity, you're just pushing it into other places, and lots of times that complexity goes into other people's pockets, so to speak...
+**Jerod Santo:** \[31:58\] Right. Let's talk about what came out of it. We've talked a little bit about GoCommerce, a very simple microservice for transacting... Because they had comments there's GoTell, \[unintelligible 00:32:11.08\] a lot of things. GoTrue for auth, as well as the Netlify CMS. One point that I would just make around this idea of JAMstack is it's not that you're removing complexity, you're just pushing it into other places, and lots of times that complexity goes into other people's pockets, so to speak...
 
 So you're using services, and whether they're services that you write, or third-party services, which is the case for Algolia, which is being used for search, and people use Disqus for comments... What's often missing is those -- which is very easy on dynamically-rendered sites becomes very difficult all of a sudden, and now there's not solutions out there. So one of the things I'm excited about is how many things you guys had to build to accomplish this, because now actually there is an e-commerce thing we can use, and there is an authentication and a comments thing we can use if it fits our use case, as opposed to having to rely on somebody else's service, which could go away, could charge lots of money... Thoughts on that?
 
@@ -190,7 +190,7 @@ So you're using services, and whether they're services that you write, or third-
 
 **Chris Bach:** I think also part of the story is that -- Matt's background, he was the CTO of the largest agency in Spain, that made more than 100 websites a week, so on a very large scale, and I came from an agency background as well... And what we saw was that the APIs - obviously, they can be anything and everything, right? So all these microservices can be job boards, and could be -- they could really be so many things, but there are some things that are much more standard than others. Content management, comments, subscription, commerce, and of course authentication, and form handling.
 
-\[00:36:18.28\] Those are sort of the ones that you would see again and again and again, so it made sense for us to say, "Okay, we're going to put some effort into contributing something to this space..." As far as open source APIs goes, those should be it. So you have like a basic toolkit that you can run with, and of course, do anything you want with.
+\[36:18\] Those are sort of the ones that you would see again and again and again, so it made sense for us to say, "Okay, we're going to put some effort into contributing something to this space..." As far as open source APIs goes, those should be it. So you have like a basic toolkit that you can run with, and of course, do anything you want with.
 
 The whole point here is staying agnostic, saying you can use two of them and then do your own thing for the rest, or whatever. That's the beautiful thing about decoupling the frontend and the backend - you get to mix and match. And since you don't have to run the code together, it's not like if you chose a traditional legacy system, you choose for example PHP, and that's just the end of it.
 
@@ -204,7 +204,7 @@ So far you had to choose, right? CMS, obviously - we can all agree; that's a no-
 
 I think that's the really important thing here. We're getting a lot of contributors already that are taking this and running with it for their own use cases, which was exactly what we were hoping for.
 
-**Jerod Santo:** \[00:39:58.20\] That's the key point that I think Adam and I were missing as we discussed this before the show - the Netlified CMS that came out of this, this Git-based workflow, we were thinking "Is this just a CMS for hackers? Because sure, we love a Git-based workflow", but going back now, thinking how Vox Media and The Verge made Middleman work for them... Their journalists aren't writing in text editors with Git; they use Google Docs, because that's what they like to use, and they take the output of that and create static sites. That's because they don't want to have to teach all of their journalists the command line in Git.
+**Jerod Santo:** \[39:58\] That's the key point that I think Adam and I were missing as we discussed this before the show - the Netlified CMS that came out of this, this Git-based workflow, we were thinking "Is this just a CMS for hackers? Because sure, we love a Git-based workflow", but going back now, thinking how Vox Media and The Verge made Middleman work for them... Their journalists aren't writing in text editors with Git; they use Google Docs, because that's what they like to use, and they take the output of that and create static sites. That's because they don't want to have to teach all of their journalists the command line in Git.
 
 **Chris Bach:** Exactly.
 
@@ -228,7 +228,7 @@ Then the other kind of things are, for example, the coupons - there's one specif
 
 Based on that configuration file the CMS gives non-technical or people who just don't want to write code a UI that's very similar to what you would expect from any other CMS. You get your collections that you can navigate between; for Smashing you can click on Articles, you can see a list of all your articles... You can click on an article, and when you click on an article you get a form on the left hand with all the fields for that article.
 
-\[00:44:04.12\] Then on the right you get a preview running directly in the browser of how will that article look like when you publish it. Similar to if you've ever used Ghost and you've used their markdown editor... Just instead of being completely unstructured where you just have a title and a markdown body, in Netlify CMS you can have any kind of structure of the data. For Smashing you might have a title and an SEO description, and a main image, a summary, and then the main post body and so on. But as you type, you will see a preview on the right side of how will this actually look like once we hit Publish.
+\[44:04\] Then on the right you get a preview running directly in the browser of how will that article look like when you publish it. Similar to if you've ever used Ghost and you've used their markdown editor... Just instead of being completely unstructured where you just have a title and a markdown body, in Netlify CMS you can have any kind of structure of the data. For Smashing you might have a title and an SEO description, and a main image, a summary, and then the main post body and so on. But as you type, you will see a preview on the right side of how will this actually look like once we hit Publish.
 
 Then the beauty of this system is that as an editor you just go and you maybe create a new article, you write that whole article and then you hit Save. And instead of saving that article in a database like in Wordpress, it will create a new pull request in Git, create a new branch with that article with those changes, and create a pull request, and you have a Trello-like dashboard where you can see all the pull requests in process... But again, completely abstracted away from the Git terminology of pull requests and so on. It's really just like "Here's your draft, here's the ones that are ready to review, here's the ones that are ready to publish..." and once you hit Publish, the CMS will merge in this pull request and it just supposes that you have some kind of system that handles rebuilding the site every time that happens. And of course, we think Netlify as a platform is a pretty awesome solution for that, but it's not a requirement at all either.
 
@@ -240,7 +240,7 @@ This approach is really about giving both of these sides what they want, so the 
 
 **Adam Stacoviak:** We're up against our next break - actually a couple minutes past, but let's break here and when we come back we'll kind of talk a bit more about workflow, and then maybe throw some hardball questions at you.
 
-**Break:** \[00:47:37.29\]
+**Break:** \[47:37\]
 
 **Adam Stacoviak:** Alright, we're back with Matt and Chris, and of course, Jerod, talking through JAMstack - modern tooling for different workflows I would say, Jerod... Different workflows for producing a site like this. Editorial teams... It seems you've taken care of the developer side, as well as the non-developer side needing a more CMS type of workflow, and that was probably the biggest question I think we had coming into this call - "How do you do the workflow?" because if it's simply a code-based or a GitHub issues/pull requests workflow, then you sort of x a ton of potential users, and essentially lock out journalists, unless you teach them things that they shouldn't have to learn to produce good content, right?
 
@@ -260,7 +260,7 @@ We're trying in the CMS to also lean as much as we can, without getting too tied
 
 **Adam Stacoviak:** Yeah. I have to admit I've always longed for this type of CMS where you can have what we've known for GitHub - being able to have a site that has a static site generator feel where you can actually use the code right in markdown or whatever your workflow is... But then you sort of lost that CMS approach which allowed to autocomplete tags and have all these extra fields and features like you're talking about that Smashing needed...
 
-\[00:52:12.18\] So I've kind of always longed for -- it always seemed like this pipe dream, so to speak... Like "Who's gonna build that? Will they actually succeed?" and it seems like we're talking to the people who may have done it.
+\[52:12\] So I've kind of always longed for -- it always seemed like this pipe dream, so to speak... Like "Who's gonna build that? Will they actually succeed?" and it seems like we're talking to the people who may have done it.
 
 **Matt Biilmann:** We are working on it at least. \[laughter\]
 
@@ -288,7 +288,7 @@ But again, the CMS doesn't care about what you do with the Git repository, so th
 
 I imagine a lot of this is still sort of proving the concepts, but it sounds like even Smashing Magazine hasn't fully rolled this out yet, so it's at next.smashingmagazine.com. Is this a work in progress? What's the state of this? Can people pick it up now? Where are we at?
 
-**Matt Biilmann:** \[00:56:16.26\] We are starting to have a lot of people picking it up, and we are starting to have even the first external maintainers on the CMS that are not part of Netlify. We've been using it internally for a long time in production.
+**Matt Biilmann:** \[56:16\] We are starting to have a lot of people picking it up, and we are starting to have even the first external maintainers on the CMS that are not part of Netlify. We've been using it internally for a long time in production.
 
 If you go to Netlify.com, you'll see that we have a very active content strategy with lots of blog posts inside of a week, and documentation and so on. We've been dogfooding the CMS for a long time now and are using it there. Obviously, this is a work in progress; there's a ton of work going on and there's a ton of improvements coming, there's 10 open pull requests right now... So it's very much a living project, but you can start using it now, and for some use cases right now it will be a very good fit.
 

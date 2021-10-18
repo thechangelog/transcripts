@@ -20,7 +20,7 @@
 
 **Nick Nisi:** Yeah, for sure.
 
-**Tanner Linsley:** \[00:04:09.09\] Actually, Vue reminds me a little bit more about the Angular that I used to use.
+**Tanner Linsley:** \[04:09\] Actually, Vue reminds me a little bit more about the Angular that I used to use.
 
 **Nick Nisi:** Nice. I have luckily avoided Angular.js in my career so far, but not true with Angular 2+. But yeah... Cool. So you got into React into something like the 2014 time period... What got you thinking about open source? Because you have a lot of really cool and popular open source projects. What got you started with that?
 
@@ -40,7 +40,7 @@ So from that point, I just kind of became obsessed with "I'm gonna build these g
 
 **Nick Nisi:** Nice. I can probably guess that you're using React in that stack for Nozzle...
 
-**Tanner Linsley:** \[00:07:37.15\] Absolutely. Nozzle uses a lot of React. I mean, to be honest, a lot of the tools that I have built in the last few years have been there because I needed them at Nozzle. It's kind of this symbiotic relationship where if I can build a tool that's open source and help other people, and also get their help in testing the library and getting the features so that they're solid... There's only two of us frontend developers here at Nozzle, but sometimes I feel like there's hundreds with all the help and the people who help out with my open source libraries... In a way, they're kind of directly contributing back to what I've built for Nozzle. So it's kind of cool to see the two of them work together.
+**Tanner Linsley:** \[07:37\] Absolutely. Nozzle uses a lot of React. I mean, to be honest, a lot of the tools that I have built in the last few years have been there because I needed them at Nozzle. It's kind of this symbiotic relationship where if I can build a tool that's open source and help other people, and also get their help in testing the library and getting the features so that they're solid... There's only two of us frontend developers here at Nozzle, but sometimes I feel like there's hundreds with all the help and the people who help out with my open source libraries... In a way, they're kind of directly contributing back to what I've built for Nozzle. So it's kind of cool to see the two of them work together.
 
 **Nick Nisi:** Yeah, that's awesome. So we are gonna dive into some of the projects that make up the TanStack, but I wanted to ask you about that specifically - TanStack is like a great way to market this set of projects together, and I'm wondering how you got started with that, or that mentality or thinking mindset when it came to packaging and/or marketing these tools together. And the tools are react-query, react-table and react-charts.
 
@@ -68,7 +68,7 @@ So it wasn't a super-conscious decision at first. It was just more of like a has
 
 **Tanner Linsley:** It just kind of comes at you really fast. I remember -- I wasn't surprised necessarily that I was able to get a couple thousand stars with react-query. React-table was the first library I built that kind of got a fair amount of stars, but it was much slower over time, so it didn't really take me by surprise with react-table, just because it's slow. But with react-query it was different, because I could tell early on that there was something kind of magical about the timing and all of the ecosystem that it was released in. It was prime for a library like this to come out. And I could tell because I wrote it internally for Nozzle at first, used it internally for a couple months, and then decided it was time to open-source it. And when I released it, I got a lot of stars; more stars than I had ever gotten on any other project, really early on.
 
-\[00:12:37.27\] I was marketing it, I was telling people about it, but not necessarily any more than I was doing with react-table. I still think that it could be that react-query is just a little more general-purpose than any other library. So I think comparing the two isn't really apples to apples for me, but it's been a whirlwind. Lots of influx of users, so many feature requests, so many bugs... There have been so many people that have stepped up to help, and people that have stepped up to voice their opinions as well, kind of the leechers of today... And there's a lot of things that have come up, but none of them necessarily have been new; they've just been at a bigger scale than I'm used to.
+\[12:37\] I was marketing it, I was telling people about it, but not necessarily any more than I was doing with react-table. I still think that it could be that react-query is just a little more general-purpose than any other library. So I think comparing the two isn't really apples to apples for me, but it's been a whirlwind. Lots of influx of users, so many feature requests, so many bugs... There have been so many people that have stepped up to help, and people that have stepped up to voice their opinions as well, kind of the leechers of today... And there's a lot of things that have come up, but none of them necessarily have been new; they've just been at a bigger scale than I'm used to.
 
 **Nick Nisi:** Okay.
 
@@ -86,9 +86,9 @@ For the last few days I've been taking maybe half of the day and working on the 
 
 **Nick Nisi:** Yeah, absolutely. Scratching your own itch raises all boats, to mix metaphors...
 
-**Tanner Linsley:** \[00:15:56.24\] Yeah, and it's important to dogfood your own libraries, right? That's one of the reasons that I'm still around on these libraries, is because I need them. They're not just some weekend project that is now a burden. They're just as much of a dependency of my business as it is my stack.
+**Tanner Linsley:** \[15:56\] Yeah, and it's important to dogfood your own libraries, right? That's one of the reasons that I'm still around on these libraries, is because I need them. They're not just some weekend project that is now a burden. They're just as much of a dependency of my business as it is my stack.
 
-**Break:** \[00:16:16.07\]
+**Break:** \[16:16\]
 
 **Nick Nisi:** Admittedly, I was very excited to get you on this podcast to talk about the project of yours that I've used the most, and used quite extensively at my day job, and that is react-query. Maybe I thought we could start with you describing the power of react-query. How would you describe what it is and what you can do with it?
 
@@ -98,7 +98,7 @@ So synchronization is always the word that comes to my mind when people are like
 
 **Nick Nisi:** I like that a lot, and I think it's very accurate based on my usage of it as well. I'll tell you, me coming into it -- so I came into it about a year ago, and I was kind of thrown in with this, and I think we were looking at another tool, like maybe SWR at the time... And we were also creating a lot of new GraphQL endpoints. So I immediately - just based on the work that we were doing - equated it with that; and then looking through the API, it has a mutation... Is that what it's called, mutate...?
 
-**Tanner Linsley:** \[00:20:21.14\] Yeah, use mutation.
+**Tanner Linsley:** \[20:21\] Yeah, use mutation.
 
 **Nick Nisi:** Use mutation, that's it. A use mutation hook. So I was like "Oh yeah, this is just a GraphQL library." But then as I actually started using it, and thinking kind of "This is gonna replace Axios throughout our application, and we're just gonna be using React Query, and doing GraphQL queries and mutations." That was the mindset that I went in with it. But then as I used it, I realized that, like you said, it's really not about replacing any of those. We're still using Axios.
 
@@ -130,7 +130,7 @@ That is the powerful part about it - you can use that custom hook after that any
 
 **Nick Nisi:** Right. That's the super-powerful thing, is just being able to use that, but then also that goes back to synchronization that you used as kind of a keyword to describe it. When you start using that hook everywhere, and then data gets updated through some invalidation process, it's going to update everywhere that's using that data, and then React just takes over and rerenders from there. So yeah, that's the super-powerful part of it.
 
-\[00:24:09.17\] Also, some of the things that I really like about it are how much configuration that you can really do, but also how much you don't really have to do... But you can really customize how it controls its cache, and things like that. Do you want to maybe talk about some use cases for that?
+\[24:09\] Also, some of the things that I really like about it are how much configuration that you can really do, but also how much you don't really have to do... But you can really customize how it controls its cache, and things like that. Do you want to maybe talk about some use cases for that?
 
 **Tanner Linsley:** Yeah. I love how you say that you can configure everything, but it comes with some automatic stuff. In the docs I actually call this "aggressive, but sane defaults."
 
@@ -150,7 +150,7 @@ So I feel like that's been a really good default, to just kind of be aggressive.
 
 **Tanner Linsley:** Yeah.
 
-**Nick Nisi:** \[00:28:11.04\] But then on the other hand, or at the same time, we have some -- specifically, I worked on some code that's pulling in some documents, so it's like kind of bigger, raw HTML blobs that it's pulling in, and will use. And those are not changing. So I set the cache time on that as like an hour, so they're only pulled in once and we don't have to go fetch them again probably throughout the entire session. But that's something that I can really just configure because I'm making those custom hooks wrapped around react-query every time. I can just configure that per hook and have it set up so that anyone who tries to fetch those documents is always going to get this data that is cached for an hour, versus -- you know, when we're pulling up live user data, that is immediately invalidated, so every time it will try and refetch that... And it's overall a good balance. The configuration is there when I need it, but otherwise I don't have to think about it.
+**Nick Nisi:** \[28:11\] But then on the other hand, or at the same time, we have some -- specifically, I worked on some code that's pulling in some documents, so it's like kind of bigger, raw HTML blobs that it's pulling in, and will use. And those are not changing. So I set the cache time on that as like an hour, so they're only pulled in once and we don't have to go fetch them again probably throughout the entire session. But that's something that I can really just configure because I'm making those custom hooks wrapped around react-query every time. I can just configure that per hook and have it set up so that anyone who tries to fetch those documents is always going to get this data that is cached for an hour, versus -- you know, when we're pulling up live user data, that is immediately invalidated, so every time it will try and refetch that... And it's overall a good balance. The configuration is there when I need it, but otherwise I don't have to think about it.
 
 **Tanner Linsley:** Yeah, that's great. That's exactly why I designed it the way I did. I was gonna say, there's also something to be said about the garbage collection features of it, too. Caching is a hard problem, but what we're talking about is in-memory caching, but react-query also has some semi-persistent caching too, where if you request something and it gets cached and then you kind of leave that screen and it becomes unused, it still stays there in the cache for a specific amount of time, so that if you ever go back to that screen, it will show you the outdated data right immediately, and then get the newest stuff in the background.
 
@@ -168,7 +168,7 @@ But another thing is you can set a primary set of data for it, so that it'll jus
 
 So there's placeholder data. Then there's initial data, which - initial data is more of like "Hey, here's the data that I'm fetching. I already know what it is, I already have it, so I'm going to provide it with initial data." It gets puts into the cache. So that is useful if you are -- say you fetched a list of users, and then you're moving into a detailed user view. You can take the users that you already fetched from the list of users and use it as the initial data for the user subscription, the individual one.
 
-**Nick Nisi:** \[00:32:16.16\] Nice.
+**Nick Nisi:** \[32:16\] Nice.
 
 **Tanner Linsley:** And it'll kind of "hydrate" that way. But if you're actually talking about SSR hydration, there's much better ways of doing that with react-query. There's a whole SSR kind of recipe to get a great experience with it. And really the way that that works is you just kind of use all of your queries as if the data is there, and then during your SSR stage you basically just kind of suspend your SSR and prefetch the data that you need into your cache, and then you render and all the useQueries just kind of work synchronously, because the data is already there.
 
@@ -190,7 +190,7 @@ Chrome extensions are a bunch of domain knowledge that I don't really want to ha
 
 There are some drawbacks... People are like "Oh, I wish it wasn't taking up part of my screen. I wish I could have it in an external window." Yeah, sorry... If that's really that much of a pain, you can go build the dev tools extension, because I'm not doing that.
 
-**Nick Nisi:** \[00:36:10.09\] Yeah. At C2FO where I work we're pretty used to seeing the little floating flower down at the bottom of the screen.
+**Nick Nisi:** \[36:10\] Yeah. At C2FO where I work we're pretty used to seeing the little floating flower down at the bottom of the screen.
 
 **Tanner Linsley:** Yeah, I love seeing that now. I see it in random places too on videos, and screenshots, and it just kind of makes me giggle a little bit... Just like "Oh, look, there's the React flower."
 
@@ -204,13 +204,13 @@ So yeah, after that I was like "Well, my library is in TypeScript now. \[unintel
 
 **Tanner Linsley:** Yeah, writing libraries - this is something that I had to learn very quickly, but writing library TypeScript code is just a whole other ball game than just using TypeScript. Unless you've written a library that uses generics and is even moderately complex, you have no idea. You don't know what you don't know. So I'll just say that - writing generic code in TypeScript is just like you're writing in the meta, meta level of programming. It's mind-boggling sometimes. But it's a lot of fun. It is a lot of fun. Sometimes I've gone too deep with that, I got sucked into a plugin rabbit hole with React table for the last nine months, and I'm finally back out of it and just kind of using TypeScript instead of trying to bend its limits and go crazy with generics.
 
-\[00:40:15.12\] So it was difficult to learn, I'm still learning, but I feel like I'm in a good place now, where I recognize the trade-offs. There are definitely places where I wish TypeScript had better answers for things that I wanna do. And most of those are centered around generics and how to type flexible APIs. Some of that may never change, but that's okay.
+\[40:15\] So it was difficult to learn, I'm still learning, but I feel like I'm in a good place now, where I recognize the trade-offs. There are definitely places where I wish TypeScript had better answers for things that I wanna do. And most of those are centered around generics and how to type flexible APIs. Some of that may never change, but that's okay.
 
 **Nick Nisi:** Yeah. Well, hopefully it does. Hopefully they can bring that functionality, to keep it as flexible as possible, while still being as performant and powerful as it is.
 
 **Tanner Linsley:** I mean, just to make sure that the TypeScript team knows that I appreciate even just the work that's gone into the last year or year and a half of TypeScript has just been phenomenally amazing. That's been another reason too that it took me so long to change over, is just because I felt like it just wasn't quite where I wanted it to be yet... But I can tell you that for the regular use case there's very little that TypeScript can't do now.
 
-**Break:** \[00:41:18.26\]
+**Break:** \[41:18\]
 
 **Nick Nisi:** Alright, so we talked about react-query quite a bit, and that fantastic framework or utility for writing synchronized code that is coordinated throughout our frontend. Trying to use the keywords that you used to describe it in that sentence... But I did wanna touch on another piece of the TanStack, and that is react-table. This is an interesting project, and I think you said in the last section that you're working on version eight of it right now... Is that right?
 
@@ -226,7 +226,7 @@ So yeah, after that I was like "Well, my library is in TypeScript now. \[unintel
 
 **Nick Nisi:** Yeah. A project by Tailwind Labs.
 
-**Tanner Linsley:** \[00:43:57.28\] Perfect. So I got it right. It's becoming more popular, this term... But back when I learned about it - way, way back when, just a couple years ago - was there was a utility that Kent wrote. If you can't tell, I just love everything Kent does. I hope he loves the stuff that I do, too... But Kent wrote a utility called Downshift. It's for building autocomplete and select box experiences... But it doesn't render anything, it just gives you the utilities to build your own. And I was like "This is genius", because especially for tables -- so version 6 of react-table was a component. And it came with all the bells and whistles. You drop it in and it just works. But it was the worst to maintain, because it had over 120 props for customizing HTML. And then within those options, there was just like "Okay, now you can override the style, and the class name, or you can give it your own component." Once you own any of the markup or the styles, you're in for a world of hurt... Because people do not like your styles. People don't want your styles, they don't want your markup. Even if they think they do, they won't in the future. I knew this because I built my own React table library. I was like "I'm gonna build react-table." And then I dropped it into Nozzle, that I needed it for, and I was like "Well, this doesn't match at all. The style here does not match." And we just used it because we needed to. I was like "Okay, I'm actually gonna tweak react-table's core styles to kind of look like Nozzle, that way I don't have to do any work."
+**Tanner Linsley:** \[43:57\] Perfect. So I got it right. It's becoming more popular, this term... But back when I learned about it - way, way back when, just a couple years ago - was there was a utility that Kent wrote. If you can't tell, I just love everything Kent does. I hope he loves the stuff that I do, too... But Kent wrote a utility called Downshift. It's for building autocomplete and select box experiences... But it doesn't render anything, it just gives you the utilities to build your own. And I was like "This is genius", because especially for tables -- so version 6 of react-table was a component. And it came with all the bells and whistles. You drop it in and it just works. But it was the worst to maintain, because it had over 120 props for customizing HTML. And then within those options, there was just like "Okay, now you can override the style, and the class name, or you can give it your own component." Once you own any of the markup or the styles, you're in for a world of hurt... Because people do not like your styles. People don't want your styles, they don't want your markup. Even if they think they do, they won't in the future. I knew this because I built my own React table library. I was like "I'm gonna build react-table." And then I dropped it into Nozzle, that I needed it for, and I was like "Well, this doesn't match at all. The style here does not match." And we just used it because we needed to. I was like "Okay, I'm actually gonna tweak react-table's core styles to kind of look like Nozzle, that way I don't have to do any work."
 
 But everybody else that uses react-table, their tables are gonna look like Nozzle. I hated that, and a lot of other people hated it too... And I would listen to people talk about competitor libraries like AG Grid, or Material-UI table, and they're like "I can't change the theme. I can't change the styles. I can't override this. What if I wanna move this part of the table to the bottom?" I'm like, "Um, sorry." That's why when I saw Downshift, I said "This is genius. I'm going to take react-table and I'm just going to rip it into two pieces. I'm going to rip all the UI and the styles and the markup away from the logic, and just turn it into a render prop component." I was like "Let's do it."
 
@@ -238,7 +238,7 @@ I was in the middle of writing react-table version 7 render prop style when Hook
 
 Anyways. It's a headless library now. There were some people who definitely cried. Gnashing of teeth, many tears shed over the fact that react-table was no longer a component library. They were like "What? I have to build my own markup and my own styles? Are you kidding me? I'm out of here." I'm like "Okay, bye... Because this is so good." And what happened was great, because I realized that the examples could just use table markup really simple. You didn't have to understand a whole lot of the UI to grasp the concepts of what this table library did. And when you break it down from that, instead of being a grid, it just became this kind of sequential package of utilities that's responsible for all of the data grid things that people want. Just to name a few, but it's like, as soon as you wanna add filtering, sorting, grouping... If you wanna have column metadata, or have custom renderers per column, or have an abstraction layer, or invert control for columns to render things however they want - as soon as you wanna do any of that, it's a pain. And that's what react-table solves.
 
-\[00:48:09.28\] Today it's still called react-table, but it's more of just like a data manipulation and data modeling library than anything else. You could take the data that spits out of react-table and put it into a chart if you wanted, but...
+\[48:09\] Today it's still called react-table, but it's more of just like a data manipulation and data modeling library than anything else. You could take the data that spits out of react-table and put it into a chart if you wanted, but...
 
 **Nick Nisi:** Yeah.
 
@@ -258,7 +258,7 @@ There's a company that is really big. Everybody uses this product; every develop
 
 **Tanner Linsley:** It's mostly designed as a controlled component. And the more I get into building complex dashboards and data manipulation experiences, I think that's the best decision. And that's partially why I built react-query - if you wanna do data fetching the right way and synchronization, use react-query and then pipe it into the table.
 
-\[00:52:15.27\] It's built in a way so that you can control -- well, version 7 is not as good as good as v8 is gonna be, but you can control and opt-in to control specific parts of the table from outside. And you can do that just by passing in some state overrides, and using some callbacks. And that's kind of the concept around asynchronous data, is that you fetch the data and you supply it to the table. That was I don't have to deal with any asynchronous stuff inside of the table. I think that's the best way forward that I've found.
+\[52:15\] It's built in a way so that you can control -- well, version 7 is not as good as good as v8 is gonna be, but you can control and opt-in to control specific parts of the table from outside. And you can do that just by passing in some state overrides, and using some callbacks. And that's kind of the concept around asynchronous data, is that you fetch the data and you supply it to the table. That was I don't have to deal with any asynchronous stuff inside of the table. I think that's the best way forward that I've found.
 
 **Nick Nisi:** Yeah, and that's a good merging of those two projects together to create these really powerful components. And then of course, you can take that data and render it as a chart with your other library...
 
@@ -284,7 +284,7 @@ There's gonna be some quality of life improvements for performance, so I've eked
 
 Let me tell you, building a plugin system in JavaScript is the easiest, coolest thing you can do with JavaScript, because it's just like "What do you wanna do? We can do it. It's flexible. We can do whatever you want. You've got a callback? We can mutate things." TypeScript doesn't even enter the picture. But building a plugin system with TypeScript - I spent the last nine months researching the best way to do this, and ultimately, I decided that there's no sunk cost fallacy here; I'm not going to do a TypeScript plugin system in version 8. And that might take people by surprise, like "What?! All my plugins I wrote for v7, they're gonna go away?" I'm like, "Yeah. You asked for TypeScript, this is what's happening."
 
-\[00:56:01.20\] So version 8 is going to be shipped with -- basically, all of the features that you're currently looking at as plugins are going to be just in a monolithic bundle. But that bundle is going to be half the size of what it would have been if they were individual, because all of the glue code disappears, and everything just works much closer together.
+\[56:01\] So version 8 is going to be shipped with -- basically, all of the features that you're currently looking at as plugins are going to be just in a monolithic bundle. But that bundle is going to be half the size of what it would have been if they were individual, because all of the glue code disappears, and everything just works much closer together.
 
 That also means that types are gonna be way better together, there's not gonna be this weird mismatch of types between plugins... And I just think it's gonna be overall better. You won't be able to get down to 5 kilobytes for react-table. It'll probably be more like 12 to 15. But it's a data grid library, for crying out loud. Go use AG Grid or Material-UI Grid and tell me how big those are. Now I'll let you complain about how big it is. I was making the wrong trade-offs... I'd rather have a system that works great than worry about code-splitting on a library that probably doesn't even really need it.
 

@@ -12,7 +12,7 @@
 
 **Beth Dakin:** I think it's gotta be the web extensions, when I think about developers this year. It's a huge, new world to open up to web extensions, and we've built some really nice tools to make it easy to bring those extensions over to Safari... So that's something that I'm really excited about.
 
-**Ronak Shah:** \[00:04:05.03\] And to follow onto that, I think developers are gonna be excited that they can take advantage of the web extension API and the tools that we've built to make that process simple. And once they've done that, we spent the time to create this whole new category in the app store, just for Safari extensions... So all of that hard work that developers put in to bring extensions over - we're gonna be able to showcase that, so that users can easily find extensions that they're interested in and start using them right away. I'm really excited that we thought about this end-to-end, from the developer perspective, all the way to putting it on the store and getting it out to users.
+**Ronak Shah:** \[04:05\] And to follow onto that, I think developers are gonna be excited that they can take advantage of the web extension API and the tools that we've built to make that process simple. And once they've done that, we spent the time to create this whole new category in the app store, just for Safari extensions... So all of that hard work that developers put in to bring extensions over - we're gonna be able to showcase that, so that users can easily find extensions that they're interested in and start using them right away. I'm really excited that we thought about this end-to-end, from the developer perspective, all the way to putting it on the store and getting it out to users.
 
 **Adam Stacoviak:** When it comes to web extensions in particular, what was the hurdles in prior architecture? Why is the new way you're doing it now so much better than previous ways?
 
@@ -32,7 +32,7 @@ We came at this from an angle of privacy being our biggest concern, but the two 
 
 **Ronak Shah:** That's awesome. It's gonna be great for developers to have this common set of APIs. And there may be differences here or there, but to have that common set of APIs that they can develop against is gonna be a big deal.
 
-**Jerod Santo:** \[00:08:05.29\] Yeah, so as a web developer, a lot of the extensions that I end up wanting to install are developer-focused extensions... So these are a lot of people scratching their own itch. I even have created a couple over the years as well, and I've felt the pain of writing this common little JavaScript interaction, and then saying "Okay, now I have to create a Firefox extension, and a Chrome extension", and I am a Safari daily driver, so I'd create a Safari extension... But because of that extra step, a lot of developers, because they aren't using Safari as their development browser, they just don't take the time.
+**Jerod Santo:** \[08:05\] Yeah, so as a web developer, a lot of the extensions that I end up wanting to install are developer-focused extensions... So these are a lot of people scratching their own itch. I even have created a couple over the years as well, and I've felt the pain of writing this common little JavaScript interaction, and then saying "Okay, now I have to create a Firefox extension, and a Chrome extension", and I am a Safari daily driver, so I'd create a Safari extension... But because of that extra step, a lot of developers, because they aren't using Safari as their development browser, they just don't take the time.
 
 So as a Safari user myself, I would go find the cool extension, and it would be Chrome only; or it would be Chrome and Firefox. It seems like Safari wasn't in the party, as Beth said. So how easy is it now, when -- is this Safari 14, or is this 13.1? When the new stuff gets into Safari, this web extension support, how easy is it to get those Chrome extensions, those Firefox extensions either ported over, or is there no code changes...? How does that work?
 
@@ -56,7 +56,7 @@ So I see here on this Safari's extension preview page here in the Mac app store 
 
 **Ronak Shah:** This is for macOS. We support extensions on Safari on macOS. We've certainly heard feedback about extensions on our other platforms, so we're aware of it... But we're talking about Mac today.
 
-**Jerod Santo:** \[00:12:12.20\] Yeah, fair enough. Fair enough.
+**Jerod Santo:** \[12:12\] Yeah, fair enough. Fair enough.
 
 **Adam Stacoviak:** So what is the most important thing to developers when it comes to extensions? It might seem obvious, but what are the things that developers should be most excited about with web extensions?
 
@@ -78,7 +78,7 @@ So I see here on this Safari's extension preview page here in the Mac app store 
 
 **Ronak Shah:** You've heard us say it before, but truly, we believe that privacy is a fundamental human right, and it's something that we think about deeply as we think about how we're building our products. And you see that. In Safari you've seen it over the years; we were actually the first browser to include private browsing. People forget this, but way back when we introduced the world to private browsing, we were the first browser to block cookies by default. We introduced intelligent tracking prevention a few years ago.
 
-\[00:15:50.23\] People may not know this, but back in March we actually became the first browser to block all third-party cookies by default. I believe we're still the only browser to do that. So we have a long history here of being pioneers and protecting user privacy... And you see it even in this release from the protections that we've built into extensions into this release of Safari, to what we're doing with the privacy report. So users are aware of how they're being protected as they browse. There are things that we do to protect our user privacy. We're also doing them because we think that we can help push the industry forward on this, in the hopes that users become more aware and they demand more from the technologies and products that they choose.
+\[15:50\] People may not know this, but back in March we actually became the first browser to block all third-party cookies by default. I believe we're still the only browser to do that. So we have a long history here of being pioneers and protecting user privacy... And you see it even in this release from the protections that we've built into extensions into this release of Safari, to what we're doing with the privacy report. So users are aware of how they're being protected as they browse. There are things that we do to protect our user privacy. We're also doing them because we think that we can help push the industry forward on this, in the hopes that users become more aware and they demand more from the technologies and products that they choose.
 
 **Adam Stacoviak:** Yeah, I think if we don't have people like you and Beth leading the charge, and the rest of Apple, to focus on privacy - I mean, it's a license to not care if you don't have companies like Apple stepping up to do that. At its core. Not just in the Safari world, but at its core.
 
@@ -96,7 +96,7 @@ If I can launch my bank app and not have to do a password, or if I can launch my
 
 **Jerod Santo:** No.
 
-**Beth Dakin:** \[00:19:50.00\] That's a thing -- so whenever you're doing one of these authentication processes, the website can ask for the security key or the phone, in the case of Face ID or Touch ID or Mac, to perform a process called attestation, to prove that it really is what it says it is. That can potentially be something - if it's always the same, if the security key is always returning the same attestation, then it's potentially a fingerprinting vector across different websites. But the way we'll do this for Face ID and Touch ID for the web is that each of the domains that you have a password with, that you have an account with, will get a different attestation. And that keeps it totally privacy-preserving, removes the possibility that there's a fingerprinting vector there. So that's one part of that technology that I'm really excited about.
+**Beth Dakin:** \[19:50\] That's a thing -- so whenever you're doing one of these authentication processes, the website can ask for the security key or the phone, in the case of Face ID or Touch ID or Mac, to perform a process called attestation, to prove that it really is what it says it is. That can potentially be something - if it's always the same, if the security key is always returning the same attestation, then it's potentially a fingerprinting vector across different websites. But the way we'll do this for Face ID and Touch ID for the web is that each of the domains that you have a password with, that you have an account with, will get a different attestation. And that keeps it totally privacy-preserving, removes the possibility that there's a fingerprinting vector there. So that's one part of that technology that I'm really excited about.
 
 **Jerod Santo:** That's very cool. So let's take a standard website that uses an email and password today, and they find out about Face ID and Touch ID for the web. What does it look like to integrate and get it set up? Maybe it's "Go read the web authentication API and leave us alone", but what does that look like? What are the steps, do you guys know?
 
@@ -126,7 +126,7 @@ We have a session at WWDC this year all about this - Meet Face ID and Touch ID f
 
 **Adam Stacoviak:** Let's talk about the motivation there then for users to use sign in with Apple. Because you see sign in with \*fill in the blank\*, all over the place. Why do people choose sign in with Apple, and why is that successful, I suppose? What makes people use that, versus sign in with Twitter, LinkedIn, GitHub, you name it?
 
-**Ronak Shah:** \[00:24:12.19\] Well, there are two big things here. One is that it's so simple to sign up. We've made that process seamless. You don't have to share your personal information; you're in control of it when you create an account. And you're not being tracked as you use apps, and across the web. We talked about how important privacy is, and this is just yet another example of that, of giving you a way to easily sign in, to be in control of your information and to do it in a way where people aren't tracking your behavior. You can kind of tell from the numbers that that's something that people care about, and it's a really big deal.
+**Ronak Shah:** \[24:12\] Well, there are two big things here. One is that it's so simple to sign up. We've made that process seamless. You don't have to share your personal information; you're in control of it when you create an account. And you're not being tracked as you use apps, and across the web. We talked about how important privacy is, and this is just yet another example of that, of giving you a way to easily sign in, to be in control of your information and to do it in a way where people aren't tracking your behavior. You can kind of tell from the numbers that that's something that people care about, and it's a really big deal.
 
 **Adam Stacoviak:** Well, as I read off the list too, my sub-thought was "Those were all social networks of some sort, and Apple is not a social network." So having my authentication tied to, say, Twitter, or GitHub - which isn't really a social network, but it kind of is, or LinkedIn, which totally is, or Facebook, which... Well, it's Facebook.
 
@@ -146,7 +146,7 @@ We have a session at WWDC this year all about this - Meet Face ID and Touch ID f
 
 And for APIs where we take pause and we have some concerns in those areas, usually we wanna keep working with the standards bodies to mitigate those risks before we add support. I think that in some cases where we have those concerns about power, performance or privacy, that it can easily be viewed as like just not implementing the latest thing to give the capability, and "I wanna put all of my code together..." But we just have some deeper considerations that we wanna think through really carefully.
 
-**Jerod Santo:** \[00:28:17.05\] That makes sense. Ronak, what do you think?
+**Jerod Santo:** \[28:17\] That makes sense. Ronak, what do you think?
 
 **Ronak Shah:** Yeah, it's funny, because I look back at the web standards process, and we've helped pioneer so many of the ways that we use the web today... So you go back in time - a good example is HTML5 video. We pushed hard for the industry to move to HTML5 video away from things like Flash, as an example... And Safari, especially on iPhone, played a huge role in that. And we've continued to do that, actually, over the years. But like Beth said, we want to push the web forward while also putting user privacy first, while putting battery life first. Our users care deeply, they want our devices to have great battery life, to deliver great performance, so we have to be really thoughtful about how we adopt these APIs, because that's so important to us, and it's so important to the user experience.
 
@@ -164,7 +164,7 @@ It's funny, because those decisions directly translate to the performance that w
 
 **Ronak Shah:** Go ahead, Beth.
 
-**Beth Dakin:** \[00:31:50.25\] I don't even remember what I was gonna say after definitely... I was maybe just like agreeing. \[laughter\]
+**Beth Dakin:** \[31:50\] I don't even remember what I was gonna say after definitely... I was maybe just like agreeing. \[laughter\]
 
 **Adam Stacoviak:** Definitely. You echo that.
 
@@ -190,7 +190,7 @@ The Web Inspector also has a nice, new look that uses the space a little better.
 
 **Beth Dakin:** Cool.
 
-**Jerod Santo:** \[00:35:59.15\] The team that works on Web Inspector - is that like a Safari proper team? I'm always curious how these things work inside of an organization. I also wanna know how you do Safari for iOS and Safari for macOS, and if there's any shared infrastructure or code, or if they're just completely bifurcated... So this is a huge question, but does the Web Inspector team just sit next to everybody else working on consumer products, or is it separate? How does it work?
+**Jerod Santo:** \[35:59\] The team that works on Web Inspector - is that like a Safari proper team? I'm always curious how these things work inside of an organization. I also wanna know how you do Safari for iOS and Safari for macOS, and if there's any shared infrastructure or code, or if they're just completely bifurcated... So this is a huge question, but does the Web Inspector team just sit next to everybody else working on consumer products, or is it separate? How does it work?
 
 **Beth Dakin:** We're all one big happy team.
 
@@ -230,7 +230,7 @@ And yeah, Safari - they are different apps, for sure, but when it's similar conc
 
 **Ronak Shah:** Sure. So we have a bunch of the details around our testing on the website; if you scroll down, you can take a look at that. But the idea behind the performance improvements this year was that we really wanted to improve performance of the things that you do every day. Of course, JavaScript is prevalent across the web, but loading sites that you load all the time - we wanna make that super-fast.
 
-\[00:40:03.01\] So we picked a set of representative sites, some with tons of JavaScript, a variety of sites that we thought represented the types of sites users commonly visit, and the team spent a ton of time optimizing pageload, to make that a really great experience... And even in this first seed it feels really great. We're not done yet, but we're super-excited about how performance is looking this year. It's gonna be great.
+\[40:03\] So we picked a set of representative sites, some with tons of JavaScript, a variety of sites that we thought represented the types of sites users commonly visit, and the team spent a ton of time optimizing pageload, to make that a really great experience... And even in this first seed it feels really great. We're not done yet, but we're super-excited about how performance is looking this year. It's gonna be great.
 
 **Beth Dakin:** We're pretty relentless about performance, too. We have a number of benchmarks that we run internally, including all of the public ones. We measure, we optimize, and we fix regressions; it's just a never-ending cycle. We always have at least a zero regression policy, which is why you won't see us coming out and saying that it's slower than last year, because we're constantly measuring... \[laughter\]
 
@@ -266,7 +266,7 @@ So having access to your favorite web content is possible right from the dock or
 
 **Adam Stacoviak:** I would imagine Face ID and Touch ID brings those experiences a little closer. It doesn't give you quite log into the American Express or Bank of America app with your face; it's the same experience, but you're sort of giving some of the credence that you've put in apps into the web... And that's kind of where I'm going at; we've talked about it to some degree, but is there more behind the scenes of the adventure we'll have when it comes to home screen apps or web developers getting to appreciate the full web app experience?
 
-**Ronak Shah:** \[00:44:18.00\] Well, I think you've seen us bring technologies to the web that do help deliver a great experience and take advantage of native technologies... Things like Apple Pay; being able to Apple-Pay on a website...
+**Ronak Shah:** \[44:18\] Well, I think you've seen us bring technologies to the web that do help deliver a great experience and take advantage of native technologies... Things like Apple Pay; being able to Apple-Pay on a website...
 
 **Adam Stacoviak:** Yeah, I love that, personally.
 
@@ -280,7 +280,7 @@ So having access to your favorite web content is possible right from the dock or
 
 And I think a cynical black box view of that - I've seen it expressed out there as well - you guys are not incentivized to do that, because you have this native app platform, and that would compete with your native app platform. And from the outside, I can see where that's the conclusion made, but y'all are on the inside, so that's why I ask the questions... First of all, thanks so much for talking to us; this is awesome. What do you think of that particular angle, and why these particular features don't make it into Safari?
 
-**Ronak Shah:** \[00:47:17.29\] You know, I don't think that's it. I think it's more that -- it goes back to something that we said earlier in the conversation, that we're incredibly thoughtful as we think about these standards that we add to Safari. One of the things that we've talked about a lot so far is privacy. And as we think about these standards and the idea that somebody could get a link and go to a website that's asking to do a Bluetooth scan - that's something that we think about a lot, right?
+**Ronak Shah:** \[47:17\] You know, I don't think that's it. I think it's more that -- it goes back to something that we said earlier in the conversation, that we're incredibly thoughtful as we think about these standards that we add to Safari. One of the things that we've talked about a lot so far is privacy. And as we think about these standards and the idea that somebody could get a link and go to a website that's asking to do a Bluetooth scan - that's something that we think about a lot, right?
 
 **Jerod Santo:** Yeah.
 

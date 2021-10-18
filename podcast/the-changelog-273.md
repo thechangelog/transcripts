@@ -10,7 +10,7 @@
 
 **Jerod Santo:** That's what we wanna talk to you about.
 
-**Vida Williams:** \[00:04:01.26\] So that's my thing, and there's just now burgeoning conversation around it. I think we tried to have it (interestingly enough) twenty years ago, but there's wasn't an infrastructure for open data at the time.
+**Vida Williams:** \[04:01\] So that's my thing, and there's just now burgeoning conversation around it. I think we tried to have it (interestingly enough) twenty years ago, but there's wasn't an infrastructure for open data at the time.
 
 **Jerod Santo:** Who's "we"?
 
@@ -48,7 +48,7 @@ My response was we as data practitioners need to challenge the hypocrisy of priv
 
 So now when we discuss privacy, we're only talking about it really in the realm of making you feel comfortable at having you as a citizen, for having given it up.
 
-**Adam Stacoviak:** \[00:08:11.19\] So it's already out there. It's reversing it.
+**Adam Stacoviak:** \[08:11\] So it's already out there. It's reversing it.
 
 **Vida Williams:** Right, it's already gone. Now, the problem that I have from a data sciences perspective is the definition of data. We will refuse to call image information data, and it is equally data.
 
@@ -100,7 +100,7 @@ I don't know where the lines are, I just know that we don't -- I don't know wher
 
 **Adam Stacoviak:** Body cam, yeah.
 
-**Vida Williams:** \[00:11:56.01\] So my response was "Who is managing all that data? How are you exactly organizing the fact that, well, we need to pick up this cam, from this person, at this time...? And who has the space? Who's managing the space constraints for calling all of that data at once?"
+**Vida Williams:** \[11:56\] So my response was "Who is managing all that data? How are you exactly organizing the fact that, well, we need to pick up this cam, from this person, at this time...? And who has the space? Who's managing the space constraints for calling all of that data at once?"
 
 **Adam Stacoviak:** Is it archived? Is it archived well? Could it be used in the court?
 
@@ -174,7 +174,7 @@ I think that's where we need to be, and I don't think that we're in the conversa
 
 **Jerod Santo:** When it's too late...
 
-**Adam Stacoviak:** \[00:16:00.19\] "We've made the solution, go make it. We've designed how it should be..." Yeah, exactly. "All the decisions are made, here's the spec. Can you do this in two weeks?" or "We're gonna need this tomorrow."
+**Adam Stacoviak:** \[16:00\] "We've made the solution, go make it. We've designed how it should be..." Yeah, exactly. "All the decisions are made, here's the spec. Can you do this in two weeks?" or "We're gonna need this tomorrow."
 
 **Vida Williams:** Exactly. "Really, we needed this last week, so we're gonna pay you a hell of a lot of money to maybe get it wrong, but we're gonna roll it out anyway, and then \[unintelligible 00:16:19.07\]"
 
@@ -260,7 +260,7 @@ That's low-hanging fruit that's really easy, but has the biggest impact for our 
 
 **Vida Williams:** Thank you!
 
-**Break:** \[00:19:50.16\]
+**Break:** \[19:50\]
 
 **Jerod Santo:** We're here with Michelle Casbon, Director of Data Science at Qordoba. Michelle, you as well as Vida Williams and other data scientists that we spoke to at this show, and I guess maybe other -- we're sensing a thing which I didn't know existed... We were talking about it before we started recording, but I wanted to get your explanation, because this is a social construct that I've never experienced, which is there seems to be a bit of a divide between data scientists, maybe with quotes around that, and computer scientists with quotes around that (or programmer)... What's up with that?
 
@@ -324,7 +324,7 @@ I think it really boils down to organizational structures and having that wall i
 
 **Jerod Santo:** Yeah, but different reaction here, so please, tell us.
 
-**Michelle Casbon:** \[00:27:01.21\] I think because we understand enough of what the other side does... It's easy to be critical of how other people are doing things. I think the best way to -- what I've seen to make the problem go away the best is really just to take down those walls... Organizationally, you're not too different people...
+**Michelle Casbon:** \[27:01\] I think because we understand enough of what the other side does... It's easy to be critical of how other people are doing things. I think the best way to -- what I've seen to make the problem go away the best is really just to take down those walls... Organizationally, you're not too different people...
 
 **Jerod Santo:** As you're saying, just sit together, work together... There's even job descriptions--
 
@@ -380,7 +380,7 @@ I guess what I'm saying is just that the more you can merge the roles and the ev
 
 **Jerod Santo:** Let's talk about your talk, what you're here to talk about. You said your focus is on natural language processing, speech recognition, stuff like that. Is that what your talk was about?
 
-**Michelle Casbon:** \[00:30:55.08\] So it was about how we use NLP at Qordoba. We have a platform that helps people localize their products... It doesn't really matter what the product is, but most everyone has a website or a mobile app, anything like that... We have a platform that helps people release that product in different markets. So not just English-speaking ones, but really across the globe. My role within the engineering team is to work on the machine learning.
+**Michelle Casbon:** \[30:55\] So it was about how we use NLP at Qordoba. We have a platform that helps people localize their products... It doesn't really matter what the product is, but most everyone has a website or a mobile app, anything like that... We have a platform that helps people release that product in different markets. So not just English-speaking ones, but really across the globe. My role within the engineering team is to work on the machine learning.
 
 My talk really set the stage for "Okay, why is localization important? Why should you even care about it? Because these are the disasters that happen when you don't care about it." I went down into a few of the details about which tools we're using...
 
@@ -444,7 +444,7 @@ We're running that in Docker containers, on Kubernetes... It's all in Scala. Our
 
 **Adam Stacoviak:** Why is it the first time we're hearing of Qordoba? Why do you think?
 
-**Michelle Casbon:** \[00:34:00.25\] I've asked myself that question a lot. When I first met the co-founders and I first heard about what they were building, it was one of those times where I was just like "Lightbulb! How have I not thought of using machine learning for that purpose?" It's so well-suited, it just makes sense. But I think a lot of good ideas in the past are like that. They seem obvious once you've thought of them.
+**Michelle Casbon:** \[34:00\] I've asked myself that question a lot. When I first met the co-founders and I first heard about what they were building, it was one of those times where I was just like "Lightbulb! How have I not thought of using machine learning for that purpose?" It's so well-suited, it just makes sense. But I think a lot of good ideas in the past are like that. They seem obvious once you've thought of them.
 
 **Adam Stacoviak:** Right. "A wheel!" \[laughter\]
 

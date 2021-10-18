@@ -4,7 +4,7 @@
 
 In any case, that whole thing got me in interested in the blockchain world itself, so when I got laid off from this company, I told myself "You know what, I'm gonna go work in blockchain." So I searched around, I eventually found a post on angel.co, and that led me to consensus. That was around April of 2015. The post was actually for a web designer job. Excuse me, not web design, a graphic designer job... And I can't actually do graphic design, but I sent them a message anyway and said "Hey look, I could try this. I'm really excited to work in the blockchain world, I'd love to work with you", and they responded the next day.
 
-\[00:04:13.26\] The rest from there is kind of history, but as far as Truffle is concerned, my past history in software development is actually in the software testing world. In college -- I have a software engineering degree, but I worked a lot with a professor in software testing, and that was big in the software testing community... So when I came out of college, I used that network to find jobs in the software testing world.
+\[04:13\] The rest from there is kind of history, but as far as Truffle is concerned, my past history in software development is actually in the software testing world. In college -- I have a software engineering degree, but I worked a lot with a professor in software testing, and that was big in the software testing community... So when I came out of college, I used that network to find jobs in the software testing world.
 
 What that means is that for most of my career, effectively 8 years leading up to coming into the Ethereum world, I was doing developer support. This is everything from performing manual testing, to writing software testing frameworks around new technologies. When I came to Ethereum, it was very clear that there were no tools at all; you had a compiler and a JavaScript library for interacting with the Ethereum blockchain, and that was about it. From there, it seemed very easy to fall back into this developer support role, and I ended up building tools through the Ethereum ecosystem.
 
@@ -20,7 +20,7 @@ What that means is that for most of my career, effectively 8 years leading up to
 
 **Adam Stacoviak:** That's pretty funny.
 
-**Jerod Santo:** \[00:08:07.10\] And it's so true. Every once in a while I just kind of think about the power and the beauty of the web, and what it provides to people, in the sense of not even anonymity in this case, but just kind of allowing yourself to kind of define who you are, and giving us the confidence and the ability to say "Yeah, I wanna go after that anyways." I feel like there's a liberty that the web provides that is a beautiful thing.
+**Jerod Santo:** \[08:07\] And it's so true. Every once in a while I just kind of think about the power and the beauty of the web, and what it provides to people, in the sense of not even anonymity in this case, but just kind of allowing yourself to kind of define who you are, and giving us the confidence and the ability to say "Yeah, I wanna go after that anyways." I feel like there's a liberty that the web provides that is a beautiful thing.
 
 **Tim Coulter:** Absolutely. Previous to ConsenSys, I worked at startups... I think it was eight startups in roughly eight years -- no, that would be seven in eight years. And obviously, if I'm not staying at any of these places, I didn't really feel like those companies were something that I wanted to build my career on. And so far, I've been at ConsenSys for three years, which is almost as long as you can be at ConsenSys...
 
@@ -48,7 +48,7 @@ What that means is that for most of my career, effectively 8 years leading up to
 
 **Tim Coulter:** Oh, super small for ConsenSys... Super small. In fact, when I say one to six, I was worried myself, I'm like "Oh, that doesn't sound like big growth..." You know, at Truffle we're trying to keep things lean, so six in a period of three years is okay. ConsenSys though - I believe we're over 600 people now, so...
 
-**Adam Stacoviak:** \[00:12:16.02\] I wanted to put that clarity for those listening, because I'm like "I know that ConsenSys is bigger than one to six."
+**Adam Stacoviak:** \[12:16\] I wanted to put that clarity for those listening, because I'm like "I know that ConsenSys is bigger than one to six."
 
 **Tim Coulter:** \[laughs\] Yeah. So ConsenSys is huge, and we're only going to continue to grow as we bring on more projects, or as projects scale... For instance, I know that one of our spokes, the MetaMask team, is roughly the same size as Truffle right now, and they are getting huge traction (we're talking millions of users), so that team needs to scale, and this is happening all across the Ethereum ecosystem.
 
@@ -70,7 +70,7 @@ As far as the Rails phrase is concerned, that is pretty close to true. Rails was
 
 **Jerod Santo:** Very cool. Well, I think it's a very apt comparison then. Let me give you a little bit of the lay of the land from Adam and my perspective, as well as our listeners, what I would expect in terms of developer knowledge, what we've covered on the show, and then we'll have you walk through -- because one of the reasons why we have you on is to a) understand what Truffle offers, but also using Truffle as a lens, learning what all it takes to build these decentralized applications and what all the moving parts are, because as we've said, it's all kind of new and different, and that means it's also kind of intimidating and maybe difficult to approach.
 
-\[00:16:25.00\] So we've covered Ethereum conceptually... Way back in the day we've had Gavin Wood on the show; we had shows about blockchains, and Hyperledger, Bitcoin, distributed exchanges... We had shows about the concepts around blockchains, cryptocurrencies, what have you - Ethereum specifically, we've covered smart contracts both generically and a little bit specifically with regard to Gitcoin, which was our most recent show. And with Gitcoin, we talked a little bit about how that application specifically works with regards to MetaMask, and Web3, and those kinds of things.
+\[16:25\] So we've covered Ethereum conceptually... Way back in the day we've had Gavin Wood on the show; we had shows about blockchains, and Hyperledger, Bitcoin, distributed exchanges... We had shows about the concepts around blockchains, cryptocurrencies, what have you - Ethereum specifically, we've covered smart contracts both generically and a little bit specifically with regard to Gitcoin, which was our most recent show. And with Gitcoin, we talked a little bit about how that application specifically works with regards to MetaMask, and Web3, and those kinds of things.
 
 That being said, from a developer's perspective, building an Ethereum-based application all the way through, even after myself having all these conversations, is still kind of a black box... So why don't you give us the high level of all the parts that are involved, and then we'll kind of dive into the specific regions?
 
@@ -78,7 +78,7 @@ That being said, from a developer's perspective, building an Ethereum-based appl
 
 First off, you have to get code on the Ethereum blockchain, which is a completely separate process than, say, building your own web server. You have to build your front-end application - that's pretty similar to how you would do it now, except you would need software to connect your typical way of building your web application with the Ethereum blockchain. Then you need to take all of the (we'll say) locations of the code - or I guess you've talked about Ethereum, so the addresses of the code and where it exists... You need to take all that and hook it up to the front-end so everything knows how to talk to each other.
 
-**Break:** \[00:19:31.05\]
+**Break:** \[19:31\]
 
 **Jerod Santo:** So what does that look like in terms of Truffle and the code that's provided and the code that you actually write?
 
@@ -96,7 +96,7 @@ First off, you have to get code on the Ethereum blockchain, which is a completel
 
 **Tim Coulter:** Yes. So you can write your contracts and write tests with them and test them before even deploying them to any Ethereum blockchain. So what Truffle is gonna do is, believe it or not, help you compile those contracts, because the compiler itself is pretty simple... So it's gonna make that experience nice for you. It's going to help you write tests, if you're a JavaScript programmer, in a way that you're familiar with, and interact with those contracts within your tests, as easy as possible. And then after you're done writing the contracts and testing them, it's actually gonna help you provide a simple way of deploying those contracts to your blockchain of choice; this could be the main net, it could be some test net, it could be a network you've set up between a few people...
 
-\[00:23:55.29\] And so all of these things - except for perhaps testing, but compilations and deployment - produce very important (what we call) artifacts, which include for instance the address of where that code lives on the network. These artifacts are super important because you're gonna take this output from Truffle and then you're gonna go integrate that into your front-end using various different tools and libraries, or roll something your own, if you like... And after doing that, you'll be able to easily build a front-end that interacts with those contracts that you've just built.
+\[23:55\] And so all of these things - except for perhaps testing, but compilations and deployment - produce very important (what we call) artifacts, which include for instance the address of where that code lives on the network. These artifacts are super important because you're gonna take this output from Truffle and then you're gonna go integrate that into your front-end using various different tools and libraries, or roll something your own, if you like... And after doing that, you'll be able to easily build a front-end that interacts with those contracts that you've just built.
 
 **Jerod Santo:** Okay. Let me ask you something about Solidity, as somebody who's intimately familiar with it, but also didn't build or design or choose it... Why Solidity? Why do we need another language, one that I've looked at and it doesn't look like it has any particularly interesting aspects to it...? Why not just Python or JavaScript for writing the smart contracts? Do you know why that had to be its own thing, that now millions of people are learning and struggling through?
 
@@ -124,7 +124,7 @@ So my hunch - I'm not from the Ethereum Foundation, but my hunch is that they ne
 
 **Tim Coulter:** Ethereum Mail? Absolutely. \[laughter\] So I think with the eWASM project what they're actually doing is compiling normal languages down to Web Assembly that somehow Ethereum can know about. I'm not too well-versed on that project, but I do know that it's supposed to be the big connector of all of our current languages. The hard part there is how do you take advantage of the specific things that make the blockchain the blockchain? Like, I don't know, if you're writing Java or something, how do you specify that this is like a storage variable? A storage variable, for those listening, is data that's actually going to be stored in the blockchain, and you're paying as part of the transaction to store, versus like something in memory that you're just using as part of a computation.
 
-**Jerod Santo:** \[00:28:06.04\] Okay, so Solidity is what we have today; maybe there will be better things down the road. Another is competing blockchains, they are trying to do things like native JavaScript smart contract language, but none of those have the size and steam that Ethereum has at this point...
+**Jerod Santo:** \[28:06\] Okay, so Solidity is what we have today; maybe there will be better things down the road. Another is competing blockchains, they are trying to do things like native JavaScript smart contract language, but none of those have the size and steam that Ethereum has at this point...
 
 **Tim Coulter:** Right.
 
@@ -156,7 +156,7 @@ The Solidity ones work slightly differently in that you're actually writing smar
 
 There's benefits to both JavaScript and Solidity testing. In the JavaScript testing you get to write tests that kind of act or interact with the blockchain from the outside, whereas with Solidity tests you can write more detailed, more fine-grained tests that interact with the individual pieces of code itself. So you can write tighter unit tests, I guess.
 
-\[00:31:57.20\] Now, something on this which -- we've been thinking a lot about testing, and as I mentioned, these are Mocha-inspired, and actually use Mocha under the hood in order to run. Mocha is one way to write unit tests, to write automated tests. What we're trying to do is build a plugin system for Ethereum that will allow other frameworks for writing smart contract tests. That's on the horizon, probably Truffle 5, which might be a few months away. With that plugin system you might see more advanced ways of testing or user-contributed plugins that provide different frameworks.
+\[31:57\] Now, something on this which -- we've been thinking a lot about testing, and as I mentioned, these are Mocha-inspired, and actually use Mocha under the hood in order to run. Mocha is one way to write unit tests, to write automated tests. What we're trying to do is build a plugin system for Ethereum that will allow other frameworks for writing smart contract tests. That's on the horizon, probably Truffle 5, which might be a few months away. With that plugin system you might see more advanced ways of testing or user-contributed plugins that provide different frameworks.
 
 **Jerod Santo:** Very cool. So that tells the smart contracts and the testing story, to a certain degree. Also, we're getting a little bit into the deployment story - like you said, the artifact generation. Deployment to me is scary and black box... But then you also have these Truffle boxes, and so in my mind I thought "Maybe that has to do with the deployment", but I'm not sure. So can you talk about what Truffle offers in terms of "Okay, I've written my smart contracts..."? There's probably more to my application -- we haven't really talked too much about the client side that interacts with it, maybe we should go there... Actually, let's start there, and then we'll get to deployment.
 
@@ -170,7 +170,7 @@ I have my smart contracts... What's the other moving parts on the client side of
 
 **Jerod Santo:** So you provide those via callbacks, or async/await type of things...? How is the actual interface into what Truffle's providing from the JavaScript side look like?
 
-**Tim Coulter:** \[00:35:49.19\] Yeah, so right now the library that I've described so far is what we call Truffle Contract, and this is actually a library that's existed for quite a while. This one turns everything into a promise, so you can use async/await with Promises, but it doesn't use callbacks because what generally happens when writing a front-end for a smart contract application, or what you generally do is you say "Make this transaction, then do this transaction" after a specific request happened. There's also other pieces of that, so not all interactions with the blockchain are right, not all of them are transactions. Sometimes you can call a function that will get executed, but it's actually just there for reading data, so it doesn't get recorded on the blockchain, it doesn't cost you any Ether to do that... So a lot of the times it becomes like "Perform this transaction, read some data, perform another transaction..." and so this library provides it to you as sort of a promise chain - "I'm doing this, then I'm doing this, then I'm doing this...", so you can have easy control flow.
+**Tim Coulter:** \[35:49\] Yeah, so right now the library that I've described so far is what we call Truffle Contract, and this is actually a library that's existed for quite a while. This one turns everything into a promise, so you can use async/await with Promises, but it doesn't use callbacks because what generally happens when writing a front-end for a smart contract application, or what you generally do is you say "Make this transaction, then do this transaction" after a specific request happened. There's also other pieces of that, so not all interactions with the blockchain are right, not all of them are transactions. Sometimes you can call a function that will get executed, but it's actually just there for reading data, so it doesn't get recorded on the blockchain, it doesn't cost you any Ether to do that... So a lot of the times it becomes like "Perform this transaction, read some data, perform another transaction..." and so this library provides it to you as sort of a promise chain - "I'm doing this, then I'm doing this, then I'm doing this...", so you can have easy control flow.
 
 Something that we released today actually is a library called Drizzle, which is the next evolution of this idea. The JavaScript world and the front-end world has been moving away from effectively home-grown transactions, direct interaction with the server, and instead you're moving to a React and a Redux architecture. Well, wouldn't it be great if you could take those Truffle artifacts that Truffle creates for you, throw them into a library and you've all of a sudden got a Redux store that is tailored to your smart contracts? That's what Drizzle provides - if you like the React and Redux world, there's almost no work involved to fit your contracts into your front-end application.
 
@@ -184,7 +184,7 @@ Something that we released today actually is a library called Drizzle, which is 
 
 So what we have in Truffle is a system that got its ideas, as I mentioned before, from Rails. So our deployment mechanism is actually called Migrations, and what you do in Migrations is you write steps for deployment. Effectively, they're small deployment scripts. You use a library that we provide you as part of the migrations - it's called the Deployer - and you just say "I would like to deploy this contract. Deployer dot deploy this contract". Then you can write multiple lines and deploy another one, or deploy a contract passing variables... And then what this sets up for you is you get these first sets of contracts that make, let's say, version one of your application out, and then you've already got a system with which you can change, alter or perhaps update your contracts later in a migration system very similar to Rails.
 
-\[00:40:15.29\] So the short version of this is ideally you can write deployment scripts with Truffle; you're gonna worry about what you need to do, rather than all the nitty-gritty details, and then Truffle will save all that data for you and make it easy for you to integrate with your front-end.
+\[40:15\] So the short version of this is ideally you can write deployment scripts with Truffle; you're gonna worry about what you need to do, rather than all the nitty-gritty details, and then Truffle will save all that data for you and make it easy for you to integrate with your front-end.
 
 **Jerod Santo:** And then you just push your front-end out to a CDN somewhere, or on your web server, and just serve it up...?
 
@@ -208,7 +208,7 @@ For an Electron-based application, for instance, it's kind of similar, but a bit
 
 **Jerod Santo:** Very cool. That is worth the price of admission for me right there, especially since the price of admission is always zero with open source software.
 
-**Tim Coulter:** \[00:44:06.24\] \[laughs\] That's actually really great to hear, because I don't actually program with the console so much.
+**Tim Coulter:** \[44:06\] \[laughs\] That's actually really great to hear, because I don't actually program with the console so much.
 
 **Jerod Santo:** How do you do it, man? How do you do it...?! I guess you write tests, huh? \[laughs\]
 
@@ -226,7 +226,7 @@ If you've used a debugger and you've used one to figure out tough issues before,
 
 For instance, if you are downloading a package and it contains artifacts of addresses of contracts that the package maintainer deployed, you could then integrate those easily into your application and build off of their code. That's part of the visions of Ethereum or the promise of Ethereum - not only we're gonna be able to build our own applications and deploy them, but we're gonna be able to build applications that build off of everything other people have deployed. That's the idea of EthPM. It's still having a bit of trouble gaining adoption, but we're working on that and hopefully we'll have new versions in the future.
 
-**Break:** \[00:48:11.04\]
+**Break:** \[48:11\]
 
 **Jerod Santo:** So Tim, one thing that I've been thinking as you talked, especially back when you were talking about the anatomy of a Web3 decentralized application is you have to wait... You have to wait, because it has to go on the blockchain, it has to be confirmed, what have you; consensus has to happen, these things have to happen on chain... And we've talked a few times I guess, Adam, I think - was it Preethi Kasireddy who talked about Ethereum scaling...?
 
@@ -242,7 +242,7 @@ I mentioned CryptoKitties because I wanna give you an example of something else 
 
 What's cool about this is we can do what I was talking about before - building our own application that extends the use cases of somebody else's application. In ours what you do is you send the ownership of your kitty - you send ownership over to what we call the Horde. You essentially sacrifice your kitty over to the horde and you get a zombie out of it.
 
-**Adam Stacoviak:** \[00:54:16.10\] Oh, my gosh...
+**Adam Stacoviak:** \[54:16\] Oh, my gosh...
 
 **Tim Coulter:** You kill your kitty. But in killing this kitty, you get a new token, you get a new (for lack of a better word) piece of digital art. And what you can do from there is trade them just like you would CryptoKitties, but you can also feed other people's kitties to your zombie to create even more zombies... And this zombie apocalypse comes up.
 
@@ -268,7 +268,7 @@ And part of this question was really hard for me to answer because there's so ma
 
 **Adam Stacoviak:** Right. I have one question before we go to that... In a world where we have to -- I think it's always been this way, but in a world where we need verifiability or trust in a marketplace, like you had said, to ensure authenticity, how do you attach the real world to a blockchain in terms of knowing that I've authentically sent you this eBay item, or given you this blood diamond, or non-blood diamond? How do you track real world in blockchain? How does that attach itself?
 
-**Tim Coulter:** \[00:58:23.03\] Yeah, that's the hard part. You only transfer digital value. You can only easily transfer digital value over Ethereum itself. You'll have to use external systems that connect to the blockchain in order to transfer real-world value. For instance, I mentioned the eBay example... The value transfer that I mentioned there is only the value transfer of the buyer paying the seller; it's not the value transfer of the actual product, or...
+**Tim Coulter:** \[58:23\] Yeah, that's the hard part. You only transfer digital value. You can only easily transfer digital value over Ethereum itself. You'll have to use external systems that connect to the blockchain in order to transfer real-world value. For instance, I mentioned the eBay example... The value transfer that I mentioned there is only the value transfer of the buyer paying the seller; it's not the value transfer of the actual product, or...
 
 **Adam Stacoviak:** The physical good.
 

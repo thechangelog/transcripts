@@ -4,7 +4,7 @@
 
 We've done Loki 2.0... Our log aggregation system is over two years old now, and with Loki 2.0 came a much more sophisticated query language. That's really cool, because now you can start to use Loki in anger and really kind of extract metrics and really dig into your logs with it. That was a really exciting design process for the language as well, because we always wanted it to be really heavily inspired by Prometheus, but it's logs in the end; it's different to time series.
 
-\[00:04:10.29\] We actually collaborated with Frederick from the Prometheus team, and he really influenced the design. I remember one of the calls... We came up with one of the things that I think makes LogQL really cool, which is you've got the pipeline operator for filtering logs. So you use pipelines to filter your logs, and we kind of stuck with that for everything in the logs space. And then the minute you start working with metrics, you start using brackets, and it looks like PromQL, like Prometheus query language. And it just means you look at a query and it's really obvious that that part of the query deals with logs, and that part of the query deals with metrics.
+\[04:10\] We actually collaborated with Frederick from the Prometheus team, and he really influenced the design. I remember one of the calls... We came up with one of the things that I think makes LogQL really cool, which is you've got the pipeline operator for filtering logs. So you use pipelines to filter your logs, and we kind of stuck with that for everything in the logs space. And then the minute you start working with metrics, you start using brackets, and it looks like PromQL, like Prometheus query language. And it just means you look at a query and it's really obvious that that part of the query deals with logs, and that part of the query deals with metrics.
 
 Working backwards more, exemplars in Prometheus and in Grafana, so you can link from metrics to traces... You know, you put little dots on the graphs, and the dots indicate a trace, and you can click on it, and that whole kind of experience works.
 
@@ -24,7 +24,7 @@ Yeah, there's so many... And I'm still only talking about kind of the second hal
 
 **Gerhard Lazu:** No, I know. When I say "you", I mean Grafana Labs, the whole org that you're part of, the whole team that you're part of. But you were there, you had this vision, you shared it... I'm sure everybody contributed to it, and then everybody made it happen. And I really love that journey, seeing how things have been happening with Loki. I remember when Loki version one came out, and I thought "Wow, this makes so much sense." I was so keen to start using it. And we did. Even for Changelog. We used Grafana for a long time. Prometheus... Then we went to Loki, and that was great. And then we thought "Hm... If only we could delegate this problem to someone else." And guess what - Grafana Cloud came along, the hosted/managed service, you had some very generous tiers... Once that changed, everything changed. So all of a sudden we no longer had to run our own Grafana and Prometheus. Not that it was difficult, but it's much easier to just run the Grafana Agent - that's all you need - send everything to Grafana Cloud, and it just works.
 
-\[00:07:54.10\] And with the last changes of the alerts - I think that was the weak point of Grafana for a long, long time. And I saw that as well. So there were all these things just falling into place naturally, and being able to know what's coming and seeing it happening every six months, there's like more, and more, and more. It's like, we know what to expect, you're delivering... "Please carry on", that's what I'm thinking.
+\[07:54\] And with the last changes of the alerts - I think that was the weak point of Grafana for a long, long time. And I saw that as well. So there were all these things just falling into place naturally, and being able to know what's coming and seeing it happening every six months, there's like more, and more, and more. It's like, we know what to expect, you're delivering... "Please carry on", that's what I'm thinking.
 
 **Tom Wilkie:** Thank you very much, yeah. You know, I miss so much out of what's happened because unified alerting is a huge step in the Grafana story. I'm really pleased as the way the company came together. We used to have two alerting systems - we had the Grafana alerting system and the Prometheus alerting system. And they were worlds apart. On one hand, the Grafana alerting system is probably the easiest one that exists out there; it's very accessible, very easy to get started with... And on the other hand, the Prometheus system is probably one of the most sophisticated and powerful ones.
 
@@ -54,7 +54,7 @@ And that architecture has been replicated in Loki... Well, not replicated; it us
 
 **Tom Wilkie:** Yeah.
 
-**Gerhard Lazu:** \[00:12:08.04\] ...when you started the codebase. So how does that work? How can you be VP of product and code Go at a very advanced level? How does it work?
+**Gerhard Lazu:** \[12:08\] ...when you started the codebase. So how does that work? How can you be VP of product and code Go at a very advanced level? How does it work?
 
 **Tom Wilkie:** Titles in the abstract are pretty meaningless, right? So - yes, my title is VP of product, and I do have a lot of product management responsibilities in the company... But my background is a software engineer. I've been a software engineer now for 15-16 years, I've always worked on open source codebases... Straight out of university I was kind of tangentially involved in the Xen hypervisor project. So I worked a little bit on the control tools there.
 
@@ -76,7 +76,7 @@ And then I joined and brought Cortex in with me, and since then, of course, the 
 
 **Gerhard Lazu:** That's fascinating. And now you reminded me the link between Acunu Analytics, the company that you were a part of at some point, and the startup that I was working for at the time, which was GoSquared, which was real-time visitor analytics. At GoSquared we were using MongoDB heavily, and we were starting to look into Cassandra. There was a Cassandra conference, and I thought you were presenting the analytics side of things... And at the time, I was heavily invested in Graphite, Ganglia was there as well...
 
-**Tom Wilkie:** \[00:15:58.12\] Yeah.
+**Tom Wilkie:** \[15:58\] Yeah.
 
 **Gerhard Lazu:** ...and I thought "Wow, this Graphite--" And scaling - those were fun days, challenging days. And I looked at Acunu and I thought "Wow, this is interesting. They're using Cassandra for the metrics and it works really well..." I remember even the demo that you gave -- I forget the conference name; this was 2012, 2013...
 
@@ -102,7 +102,7 @@ I've always really liked the definition of "Observability is the name for the mo
 
 **Gerhard Lazu:** I've been thinking about this for a couple of years... I had a couple of interesting discussions. Even the episode before this, that's a really interesting one; if this is the first one that you're listening to, check that out, see how the two compare for you... But I also agree that being curious about how things behavior - I think that's like the first requirement for observability. Are you curious, do you care? And if you care - great. So what are we going to do to understand your production, or your system? It doesn't have to be production, but it typically is, because that's where the most interesting things happen... So how do you do that? How do you take all those metrics, logs and traces - or events, whatever you call them; it doesn't really matter - to understand how the system behaves?
 
-**Tom Wilkie:** \[00:20:27.17\] It's an interesting kind of way of phrasing it, because what I think we really internalize at Grafana Labs is kind of avoiding a one-size-fits-all solution. So I know there are some incredibly powerful solutions out there that are incredibly flexible, but at the end of the day we internally call it this kind of big tent philosophy, where we try and embrace multiple different solutions and multiple different combinations of solutions, and really kind of focus on helping users get the best out of a wide variety of techniques... Because really, you go into any sufficiently large organization - it doesn't even have to be thousands of people, even just hundreds of people - and there's going to be one team over there that uses one monitoring solution, and a team over there that uses a different logging solution, and they're all gonna be stuck in their little silos, and they're all gonna have their own tools to use to analyze their data... And really, what we're trying to do at Grafana is bring them all together into a single place, and give them all the same experience.
+**Tom Wilkie:** \[20:27\] It's an interesting kind of way of phrasing it, because what I think we really internalize at Grafana Labs is kind of avoiding a one-size-fits-all solution. So I know there are some incredibly powerful solutions out there that are incredibly flexible, but at the end of the day we internally call it this kind of big tent philosophy, where we try and embrace multiple different solutions and multiple different combinations of solutions, and really kind of focus on helping users get the best out of a wide variety of techniques... Because really, you go into any sufficiently large organization - it doesn't even have to be thousands of people, even just hundreds of people - and there's going to be one team over there that uses one monitoring solution, and a team over there that uses a different logging solution, and they're all gonna be stuck in their little silos, and they're all gonna have their own tools to use to analyze their data... And really, what we're trying to do at Grafana is bring them all together into a single place, and give them all the same experience.
 
 The way I've always thought about it is when you get paged in the middle of the night, I don't want a system to tell me necessarily what's wrong, because the reality is if a system could tell me what's wrong, it'll probably be able to fix it for me, and I probably should have thought of it ahead of time, and it probably should never have paged me. I only really ever wanna get paged for things that I wasn't expecting, and therefore I wanna engage that kind of creative part of my brain, and I wanna come up with hypotheses as to why it's broken. And then I want tools that help me test those hypotheses and develop new hypotheses.
 
@@ -112,7 +112,7 @@ I'm looking for a tool that helps me test theories that I've got. "Oh, is it bro
 
 **Gerhard Lazu:** That's great.
 
-**Break**: \[00:22:52.00\]
+**Break**: \[22:52\]
 
 **Gerhard Lazu:** I really liked your last answer, and I think now is a great time to start looking at the Grafana ecosystem, the Grafana Labs, Cloud... Just because Grafana means many things. How would you solve specific problems with the tools that you have available in Grafana? So let's take a specific example... Let's imagine that every now and then my website - some of the requests are slow. What would I do to understand why certain requests are slow?
 
@@ -178,7 +178,7 @@ So the request comes -- and this is very specific, and maybe this will help... T
 
 **Tom Wilkie:** Yeah, I don't know enough about Fastly, and I'm afraid to really comment... But I'm sure there's some way of getting logs or metrics on that.
 
-**Gerhard Lazu:** \[00:27:55.08\] Okay. So we've hit something which I wasn't expecting to hit, but let's just go with it. I looked at integrating Fastly logs with the Grafana Cloud. To do that, it only supports HTTPS, because that's what Loki exposes... But we have to validate the HTTPS endpoint that we're going to send logs to. The problem is, how do we validate that we own Grafana Cloud/Loki? We can't do that. So what I'm saying is there's not a native integration between Fastly and Grafana Cloud, and I would really like that. Actually, that's something which we discussed in the previous episode. No, two episodes ago - episode ten.
+**Gerhard Lazu:** \[27:55\] Okay. So we've hit something which I wasn't expecting to hit, but let's just go with it. I looked at integrating Fastly logs with the Grafana Cloud. To do that, it only supports HTTPS, because that's what Loki exposes... But we have to validate the HTTPS endpoint that we're going to send logs to. The problem is, how do we validate that we own Grafana Cloud/Loki? We can't do that. So what I'm saying is there's not a native integration between Fastly and Grafana Cloud, and I would really like that. Actually, that's something which we discussed in the previous episode. No, two episodes ago - episode ten.
 
 So that's the first part - how do we get from Fastly, sending logs to Grafana Cloud? It's not supported. What Fastly is telling us - you will need to have some sort of a proxy that you can authenticate, and then forward those logs to Grafana Cloud, to Loki specifically.
 
@@ -202,7 +202,7 @@ So finally, this hasn't really caught on very much, but you see it in a lot of d
 
 **Gerhard Lazu:** Do you have a good dashboard that exemplifies this? Because what you say makes a lot of sense... Is there a good dashboard that we can use as a starting point?
 
-**Tom Wilkie:** \[00:32:00.09\] The Cortex ones are the ones that I've probably spent the most amount of time. Again, a bit of work we did with the Prometheus community was this standard called mixins which is a packaging format for Grafana dashboards and Prometheus alerts. So we've built -- there's 40 or 50 mixins now, from a lot of popular systems, but one of them is Cortex. And it's just a versioned set of dashboards and alerts that are very flexible, very easy to extend, which is kind of key, and very easy to keep up to date with Upstream.
+**Tom Wilkie:** \[32:00\] The Cortex ones are the ones that I've probably spent the most amount of time. Again, a bit of work we did with the Prometheus community was this standard called mixins which is a packaging format for Grafana dashboards and Prometheus alerts. So we've built -- there's 40 or 50 mixins now, from a lot of popular systems, but one of them is Cortex. And it's just a versioned set of dashboards and alerts that are very flexible, very easy to extend, which is kind of key, and very easy to keep up to date with Upstream.
 
 Actually, the most popular mixin would be the Kubernetes mixin. I would wager that virtually every Kubernetes cluster in the world is running a set of dashboards from the Kubernetes mixin... Which is kind of cool, because I helped write a lot of those, in the very early days at least. It is now a whole community that maintains and has taken them far beyond anything I could ever imagine.
 
@@ -232,7 +232,7 @@ We call them monitoring mixins because we used a language called Jsonnet to expr
 
 So the mixins that you're talking about, how would you use them? Let's imagine that you're running on Kubernetes. How would you use those mixins?
 
-**Tom Wilkie:** \[00:35:52.09\] This is a really interesting point, because the mixins are Advanced mode. It's like Hard mode. The mixins are solving a problem that software developers have. It's like, how do I package and redistribute and version-control and keep up to date? It's not really an end user format. I wouldn't expect that to happen.
+**Tom Wilkie:** \[35:52\] This is a really interesting point, because the mixins are Advanced mode. It's like Hard mode. The mixins are solving a problem that software developers have. It's like, how do I package and redistribute and version-control and keep up to date? It's not really an end user format. I wouldn't expect that to happen.
 
 So just to address some of the initial challenges. There's a C version and a Go version of Jsonnet, and they weren't quite the same. The Go version didn't have formatting, for instance. The Go version has caught up, and is now what most people use. That's kind of -- we solved that problem.
 
@@ -250,7 +250,7 @@ And then within that instance, we've built a service that -- it's almost like an
 
 Behind the scenes, this is all mixins. This is all Jsonnet, this is all automation we've built to make this whole thing easy to use and integrated and opinionated. It's much harder to do that easy-to-use story in open source, because the opinions change, and the integrations change. But in cloud, where it's a much more controlled environment, we can deliver that easy-to-use experience. This just means that people who maybe have seen me talk, or seen someone else talk about Prometheus and talk about Grafana and talk about how easy it is to use and how powerful it is and how awesome it is and how much value they've got out of it, but maybe don't really have the time to dump into the intricacies of Jsonnet and learn 50 new tools, we're just trying to make that accessible to that group of people.
 
-**Break**: \[00:39:59.16\]
+**Break**: \[39:59\]
 
 **Gerhard Lazu:** As I was saying, we used Jsonnet Bundler (JB). I remember the Kuber Prometheus operator and the Kube Prometheus stack which was generated out of that... So we did away with all of that. We've obviously set up our own Grafana, set up Loki, set up Prometheus... Now all we have is a Grafana Agent, which is really nice. By the way, do you know that the docs recommend two Grafana Agents; one to scrape the logs, one to get the metrics. So I figured out how to get a single one, and that was okay, because one can do both... But the thing which I still struggle with is how to get the dashboards working nicely together. I think that's the most important thing. We have PromEx - that's the library that we use in Elixir and Phoenix to get the metrics out... And it's actually on the Grafana Blog as well, so it was featured...
 
@@ -270,7 +270,7 @@ Behind the scenes, this is all mixins. This is all Jsonnet, this is all automati
 
 The second thing - I always tend to template out the job and the instance labels, maybe with wildcard selectors. And again, same reason - this means the dashboard can effectively dynamically discover what jobs you've got with certain metrics. This actually fits a pattern in Prometheus really nicely, where we have this Go buildinfo if you're in Go, and Java buildinfo if you're in Java, and so on... Where every job exports a metric that tells you the version it was built with, and so on. We call these info-level metrics. I tend to add an infometric to every piece of software I write. Maybe it's Cortex info. And then I'll tell the template selector for any Cortex dashboard to just look for all the unique jobs and instances that export a cortex build.
 
-\[00:44:11.13\] And again, this kind of turns a static dashboard that might have encoded to use a particular set of labels into a very dynamic dashboard, which allows you to select the job you wanna look at, and it also means that the chances are when you load it, as long as there's some job exporting some relevant metrics, it'll work. So first things first - template your dashboards.
+\[44:11\] And again, this kind of turns a static dashboard that might have encoded to use a particular set of labels into a very dynamic dashboard, which allows you to select the job you wanna look at, and it also means that the chances are when you load it, as long as there's some job exporting some relevant metrics, it'll work. So first things first - template your dashboards.
 
 **Gerhard Lazu:** Right.
 
@@ -302,7 +302,7 @@ I referenced that hackathon earlier that we were doing internally, and I know th
 
 **Tom Wilkie:** I wouldn't say you were doing it wrong, but you didn't see the full -- you didn't get an opportunity to use the full process.
 
-**Gerhard Lazu:** \[00:48:00.06\] ...to do it right. I didn't have the opportunity to do it right. Okay.
+**Gerhard Lazu:** \[48:00\] ...to do it right. I didn't have the opportunity to do it right. Okay.
 
 **Tom Wilkie:** I mean, that's one of the big challenges of this approach, is there's a lot to learn, there's a lot to consume, and you don't really see the benefits until you do it all... Which is, from a developer experience perspective, awful. There's no kind of incremental reward that goes with it, which is what we're missing.
 
@@ -326,7 +326,7 @@ You set up the Grafana Agent to forward those traces up to Grafana Cloud, to Tem
 
 Now, the good news is with a lot of the high-level languages, a lot of dynamic languages you can use auto-instrumentation. So this is part of OpenTelemetry's client libraries that come along, and for instance with most Java web frameworks, with most Python frameworks, it's like one line of code, or maybe it's even no code changes, and you can get reasonable traces out of the system. I don't think a system like that exists for Go, so it's a bit more work with Go, but it's still not that challenging. Unfortunately, I don't know enough about the Erlang VM, but I'm gonna expect there's probably a pretty easy way of getting traces...
 
-**Gerhard Lazu:** \[00:51:47.01\] It exists. The OpenTelemetry integration exists in Erlang. It's not that mature, but it's improving. Every month it's getting better. And I think it's more around the queries that go all the way to PostgreSQL, so how does the request map to that. I know that the database has some impact on that, but right now the most important one is between the app pod, the app instance, and the PostgreSQL pod, which - they all exist in the same place.
+**Gerhard Lazu:** \[51:47\] It exists. The OpenTelemetry integration exists in Erlang. It's not that mature, but it's improving. Every month it's getting better. And I think it's more around the queries that go all the way to PostgreSQL, so how does the request map to that. I know that the database has some impact on that, but right now the most important one is between the app pod, the app instance, and the PostgreSQL pod, which - they all exist in the same place.
 
 Now, maybe if PostgreSQL was like a managed service, we wouldn't have this problem. Maybe. But regardless what the case would be, you'd want to know what is the problem, and if I change this, does it actually improve it? And by how much? If you have the trace, it's really easy to understand "Well, I should not qproxy, I should focus maybe on the load balancer." But I don't know where that request is stuck, or in that request which is the longest portion, so where should I invest my time first?
 
@@ -356,7 +356,7 @@ In your situation, because it's a monolith, I would instrument the Elixir server
 
 We know that it goes to (let's say) Fastly. Great. We can remove that, and we can go directly to the load balancer... I don't think there's much we can do about the load balancer, so let's say we ignore that... So our span really starts at possibly the Ingress NGINX. So that's the first start point.
 
-**Tom Wilkie:** \[00:56:05.27\] Mm-hm.
+**Tom Wilkie:** \[56:05\] Mm-hm.
 
 **Gerhard Lazu:** Excellent. What happens inside Ingress NGINX maybe would be interesting. I mean, this is NGINX specifically. Maybe it would be interesting. But the next hop will be into - as far as I know, this will be the entrypoint into Kubernetes. So that will be the service that is responsible for routing the traffic. I mean, that's actually even before the Ingress NGINX, right? It's the service, it hits the NGINX pod, and from the NGINX pod it will need to talk to the other service, which is the application service.
 
@@ -376,7 +376,7 @@ One of the things I will say is it's probably not Kube-proxy. My understanding i
 
 And then, this specific problem once we have that iteration set up really nicely, and those feedback loops that operate nicely, so we can experiment, which goes back to what you were saying, being able to ask interesting questions, being able to figure things out, like explore, which I'm a big fan of... Figure out, like -- we don't know what the problem is, so let's figure out. So how can we very quickly iterate on solving that specific, or finding that answer?
 
-\[00:59:16.05\] And then, I think those spans, Tempo and integrating with that - super-valuable, long, long-term. I expect things to change along the way as the ecosystem matures. More libraries are getting instrumented, OpenTelemetry becomes more mature... I think that's a great vision and a great direction towards where the industry is going. I'm very excited about that.
+\[59:16\] And then, I think those spans, Tempo and integrating with that - super-valuable, long, long-term. I expect things to change along the way as the ecosystem matures. More libraries are getting instrumented, OpenTelemetry becomes more mature... I think that's a great vision and a great direction towards where the industry is going. I'm very excited about that.
 
 As a listener, if I had to remember one thing from this conversation, what should that be, do you think?
 

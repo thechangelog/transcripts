@@ -44,7 +44,7 @@ We have a huge cast of characters with me today. b0neskull is here... Say hi, Ch
 
 **Christopher Hiller:** Didn't somebody release a proof of concept or something for this, for Python?
 
-**Nick Nisi:** \[00:03:52.15\] I saw it specifically for Vim, something called -- I think it was called TabNine. I tried it out and I didn't get it to work after like two minutes of trying, so... That's why I'm predicting in 2020 \[unintelligible 00:04:03.06\]
+**Nick Nisi:** \[03:52\] I saw it specifically for Vim, something called -- I think it was called TabNine. I tried it out and I didn't get it to work after like two minutes of trying, so... That's why I'm predicting in 2020 \[unintelligible 00:04:03.06\]
 
 **Kevin Ball:** Interesting. So it's like NLP model predictions, but for code.
 
@@ -94,7 +94,7 @@ For example, a designer might create something in Webflow, and then a developer 
 
 Basic websites have been no-codable for a long time, with WordPress, with the build-your-own-website...
 
-**Jerod Santo:** \[00:08:19.15\] There's Wix, Squarespace...
+**Jerod Santo:** \[08:19\] There's Wix, Squarespace...
 
 **Kevin Ball:** Yeah, those are what I was trying to think of. That's old news, but that's the same thing, of like "Okay, certain things, so long as you stay within certain boundaries and you have certain constraints and you're not doing these things, are completely automatable and doable without having to understand the guts", and that bar keeps rising up... But that has not reduced the amount of people coding. People coding has continued to rise; we just keep doing more and more complex things that push the edge further.
 
@@ -122,7 +122,7 @@ So it seems like to me that Google's control of the browser landscape is gonna s
 
 **Christopher Hiller:** I think as Chromium Edge matures, we'll see more people using that on Windows.
 
-**Kevin Ball:** \[00:11:51.15\] The one question I would ask to sort of think about this is what percentage of browser use is mobile, and what are the trends in that direction? Because most of the alternatives we've talked about here are really, from my understanding, focused on desktop and laptop... But huge amounts of browsing right now is mobile, and most of those users are just using what's on the device.
+**Kevin Ball:** \[11:51\] The one question I would ask to sort of think about this is what percentage of browser use is mobile, and what are the trends in that direction? Because most of the alternatives we've talked about here are really, from my understanding, focused on desktop and laptop... But huge amounts of browsing right now is mobile, and most of those users are just using what's on the device.
 
 **Jerod Santo:** So on the mobile browser market share you have Chrome at 62%, which is slightly down from overall, and Safari at 21%, which is up quite a bit from its overall, as Safari for desktop has never been a game-changer, but iOS has a huge hold of the mobile market share. So there is a difference there, for sure... And I think that Apple's relentless power grab on iOS and refusal to have any other rendering engines on their platform has continued to keep Safari's dominance there, and I think it will continue in that way. Maybe they'll let go of the default browser option as the platform matures... I don't know. It seems to be the last stand for Safari on iOS, as you can't change the default.
 
@@ -146,7 +146,7 @@ Right now, Svelte is kind of the only innovator I know of in that space at the f
 
 **Divya Sasidharan:** I believe it does.
 
-**Kevin Ball:** \[00:16:09.07\] So that's one thing that I think is a little bit different, but I don't know how much it boils down-- yeah, one could argue that... I'm not familiar enough with Elm to say in particular, but it is a compile-to-JavaScript language and framework.
+**Kevin Ball:** \[16:09\] So that's one thing that I think is a little bit different, but I don't know how much it boils down-- yeah, one could argue that... I'm not familiar enough with Elm to say in particular, but it is a compile-to-JavaScript language and framework.
 
 I draw a little bit of a distinction between compile to JavaScript, but the same model of "We're gonna have a runtime, and we're gonna have this sort of complex thing that we ship out, that is a bunch of JavaScript weight that goes out, regardless of how complex your app is", as compared to "We're gonna try to pre-compute everything we possibly can, and boil down what we ship to the absolute minimum."
 
@@ -198,7 +198,7 @@ I draw a little bit of a distinction between compile to JavaScript, but the same
 
 **Kevin Ball:** Well, it sounds like there needs to be more competition.
 
-**Jerod Santo:** \[00:19:54.03\] I agree. I think we'll see a lot of the existing competition stealing good ideas, and moving more things that they can into pre-compilation steps. I think Angular is already making moves in that direction.
+**Jerod Santo:** \[19:54\] I agree. I think we'll see a lot of the existing competition stealing good ideas, and moving more things that they can into pre-compilation steps. I think Angular is already making moves in that direction.
 
 **Divya Sasidharan:** Yeah.
 
@@ -244,7 +244,7 @@ I draw a little bit of a distinction between compile to JavaScript, but the same
 
 If you think of a redirect, that's essentially what -- that roundtrip has to happen, because you have to go to the server, the server has to tell you "Hey, the page is no longer here, it's here", and then you have to do that roundtrip over and over, and it takes a lot of time.
 
-\[00:24:04.19\] With edge workers, you can do a lot of that HTTP routing really quickly, without having to do that trip all the way back to the server for any of that functionality to work... And I think that's really powerful, especially from a performance standpoint. And I imagine that a lot more people will start using, a lot more companies will start building their own version of workers.
+\[24:04\] With edge workers, you can do a lot of that HTTP routing really quickly, without having to do that trip all the way back to the server for any of that functionality to work... And I think that's really powerful, especially from a performance standpoint. And I imagine that a lot more people will start using, a lot more companies will start building their own version of workers.
 
 **Jerod Santo:** That is cool. So let's say I have a website and I have a server API, and my server is in New York City, at a central cloud infrastructure there. And I have somebody who's running my website in Japan. And they download all my files, and they're happy-go-lucky; they got their JAMstack static stuff, served from a CDN, so it's super-fast to get them their files... But then it comes time for them to do auth, and they hit the A part of the JAMstack... And they make the API request. Well, that API request currently, in the current infrastructure, goes all the way back to New York City, to run that request and get the response, and update. But with these edge workers, you're basically distributing the API that you write out to the CDN as well. So your function actually exists at wherever CloudFlare is closest to Japan, probably right there in Japan. So now your functions are running there, so the roundtrip time is much decreased. Is that right, Divya?
 
@@ -266,7 +266,7 @@ Ideally, what will happen is that if the data has already been fetched, it's cac
 
 **Kevin Ball:** Oh, I had a fascinating conversation about that at JAMstack, and I realized we have not shipped that conversation yet... \[laughter\]
 
-**Jerod Santo:** \[00:28:02.02\] Hm... Give us the elevator pitch, or the micro-summary...
+**Jerod Santo:** \[28:02\] Hm... Give us the elevator pitch, or the micro-summary...
 
 **Kevin Ball:** Well, high-level is we're working on it. But there's a really interesting question about -- like, thinking about what sets of data can live where. What types of consistency guarantees do you need... So if you have something where you have to be absolutely -- you know, you have to have atomic transactions, you've gotta have absolute consistency at any particular glance, then it's gotta be centralized in some way. But you could imagine building out essentially the equivalent of a distributed data store, where you have eventual consistency, and having that living at the edge, because it just then has to find a way to replicate out to the other edge nodes.
 
@@ -296,7 +296,7 @@ They've put a lot of work into this, and they have a whole section on security a
 
 **Divya Sasidharan:** I have no idea...
 
-**Jerod Santo:** \[00:32:10.26\] But it's a thing where Chrome is currently leading the way... And I don't wanna say this isn't desirable, because it absolutely is, especially for people trying to build very rich-featured web applications. If I'm trying to build an in-browser photo editor - well, it will be very useful for me to have access to all the photos that are on your disk, versus having to move them around, or upload them, and what have you. This is something I think developers do want, it just can be very precarious because it's opening up perhaps a Pandora's box of problems.
+**Jerod Santo:** \[32:10\] But it's a thing where Chrome is currently leading the way... And I don't wanna say this isn't desirable, because it absolutely is, especially for people trying to build very rich-featured web applications. If I'm trying to build an in-browser photo editor - well, it will be very useful for me to have access to all the photos that are on your disk, versus having to move them around, or upload them, and what have you. This is something I think developers do want, it just can be very precarious because it's opening up perhaps a Pandora's box of problems.
 
 **Christopher Hiller:** It would be awesome to be -- well, I guess... But it would be neat to have VS Code in your browser, but it just works with your file system instead of the cloud, right?
 
@@ -326,7 +326,7 @@ They've put a lot of work into this, and they have a whole section on security a
 
 **Jerod Santo:** Alright, so that's a few things that we predict will happen in 2020. Hold our feet to the fire and let us know at the end of this year if that's true. Stay tuned, we'll be back for things that we would like to see happen in 2020.
 
-**Break:** \[00:35:26.17\]
+**Break:** \[35:26\]
 
 **Jerod Santo:** It is now time for us to report our wishlist. What would we love to see happen in 2020? We have a few things written down here... I wanna skip to the end, because I like this one. I'm guessing this is something that Chris wrote, but I'm interested to hear who it is.
 
@@ -364,7 +364,7 @@ They've put a lot of work into this, and they have a whole section on security a
 
 I think the same problem is there for Angular. However, React is far more widely used... Looking at that same State of JS framework, the number of people who have used, but would not use again for Angular outnumbers the people who have used and would use again, plus the number who are interested in it... So Angular is not nearly as popular.
 
-\[00:40:05.14\] And secondly, I haven't heard any sort of insight rumors that Angular is likely to be spun out into a foundation, whereas I did hear the potential that that might happen with React.
+\[40:05\] And secondly, I haven't heard any sort of insight rumors that Angular is likely to be spun out into a foundation, whereas I did hear the potential that that might happen with React.
 
 **Nick Nisi:** And what if React got hit by a bus tomorrow? Or, sorry, what if Facebook got hit by a bus tomorrow? \[laughter\] Man, I screwed that up.
 
@@ -436,7 +436,7 @@ I think the same problem is there for Angular. However, React is far more widely
 
 **Divya Sasidharan:** I think that was Kball. Wrong again.
 
-**Jerod Santo:** \[00:44:05.04\] Gosh! I'm betting zero on this... I can't put Divya in a corner, like "You're the Vue person."
+**Jerod Santo:** \[44:05\] Gosh! I'm betting zero on this... I can't put Divya in a corner, like "You're the Vue person."
 
 **Divya Sasidharan:** \[laughs\] I mean, you had two options to pick for me; you've picked the wrong one, so...
 
@@ -504,7 +504,7 @@ I would like to see something like that maybe built on Preact, because I think t
 
 **Kevin Ball:** I've got a long wishlist. I want a CSS subgrid in Chrome for a couple of reasons. So it recently shipped in Firefox, so we know that there's been good progress here. And what a CSS subgrid lets you do in a way that is really painful to do right now is nest different grids and have them all line up. So you can have a grid-based component and a grid-based subcomponent, and have the pieces of the subcomponent line up with the parent component.
 
-\[00:48:03.00\] The big reason that I want that is I think that it enables you to -- right now you use CSS Grid mostly for layout-level components, and if you're gonna use it inside of a component, you need to be really careful and thoughtful about how it's interacting with your layout... Nesting things where if you have a grid-based layout and then you have a grid-based component, the nesting is really a pain in the ass. If you have subgrid enabled, I think most of that goes away, and suddenly you can have independent component development, where the components are utilizing grid to lay themselves out in a reasonable manner, and they can be nested into a grid-level layout using the subgrid, and have everything line up perfectly.
+\[48:03\] The big reason that I want that is I think that it enables you to -- right now you use CSS Grid mostly for layout-level components, and if you're gonna use it inside of a component, you need to be really careful and thoughtful about how it's interacting with your layout... Nesting things where if you have a grid-based layout and then you have a grid-based component, the nesting is really a pain in the ass. If you have subgrid enabled, I think most of that goes away, and suddenly you can have independent component development, where the components are utilizing grid to lay themselves out in a reasonable manner, and they can be nested into a grid-level layout using the subgrid, and have everything line up perfectly.
 
 So I just think it explodes the possibilities of what we can do with grid, so that we're not just thinking about it at the level of page layouts, but it suddenly becomes something that anytime you're doing two-dimensional positioning, whether it's at a page level or a component level or a subcomponent level, you can use grid, use the power that we have there, and nest things in and out in a straightforward way, without having to have the whole picture in your mind as you develop each piece.
 
@@ -546,7 +546,7 @@ So I just think it explodes the possibilities of what we can do with grid, so th
 
 **Jerod Santo:** Which events were we at in 2019? We were at NodeConf Colombia...
 
-**Kevin Ball:** \[00:51:49.21\] Yeah, so we were at JSConf Hawaii, we were at React Amsterdam, we were at NodeConf Colombia... Did we do a live show at JSConf US, or did we not end up doing that?
+**Kevin Ball:** \[51:49\] Yeah, so we were at JSConf Hawaii, we were at React Amsterdam, we were at NodeConf Colombia... Did we do a live show at JSConf US, or did we not end up doing that?
 
 **Jerod Santo:** Nope.
 
@@ -598,7 +598,7 @@ So I just think it explodes the possibilities of what we can do with grid, so th
 
 **Kevin Ball:** Let's make it for 2020. Let's see if we can hit six continents...
 
-**Break:** \[00:54:23.16\]
+**Break:** \[54:23\]
 
 **Jerod Santo:** Okay, it is now time for us to lie to ourselves, and to each other, about what we're gonna do this year. We're gonna set out some resolutions and we're gonna throw them out into the airwaves, so people can throw them back at us and say "See? You're a failure." No, we're gonna succeed, and we're gonna help each other succeed. And if you have your own resolutions, definitely share them with us. We can be accountability friends. Let's go round robin and see what everybody would like to do in developer world in 2020. How about Chris? What's your resolution?
 
@@ -644,7 +644,7 @@ So I just think it explodes the possibilities of what we can do with grid, so th
 
 For me, that's something that's really important, personal development, outside of my area of expertise... I like how sometimes when I learn things, things I'm interested in and things that I end up going deep on \[unintelligible 00:59:34.21\] is not what I expect to be learning and doing... So I want to spend 2020 doing more of that. We'll see if that even happens. It's always -- it's so frustrating; it's like the spring happens and then you forget everything. It's the worst. But yeah, working on my personal projects.
 
-\[00:59:57.06\] Honestly, I think people always talk about being public, and then being public means that you're more accountable... But for me that doesn't work, because oftentimes being public means I feel like it needs to be perfect, which ends up me not doing the thing, because I think it's never ready, which is -- I mean, not to call Nick out, but I would do the same thing, where I'll be like "The blog needs to be perfect if I write anything", or "My post needs to be perfect..."
+\[59:57\] Honestly, I think people always talk about being public, and then being public means that you're more accountable... But for me that doesn't work, because oftentimes being public means I feel like it needs to be perfect, which ends up me not doing the thing, because I think it's never ready, which is -- I mean, not to call Nick out, but I would do the same thing, where I'll be like "The blog needs to be perfect if I write anything", or "My post needs to be perfect..."
 
 **Nick Nisi:** Well, it does.
 

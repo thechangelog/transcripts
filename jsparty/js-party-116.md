@@ -32,7 +32,7 @@ Our entry files typically take around 900 milliseconds the first hit. They're st
 
 **Kevin Ball:** ...and then everything else is cached and is just the same as if you'd built it statically ahead.
 
-**Brian Leroux:** \[00:03:56.11\] Yeah. So it's only one hit. What I like about this is it keeps your markup clean, so that your markup is just referencing files that conceptually, logically you have on your file system... But the 302 redirect is doing all the caching smarts for you, and so all the ugly GUIDs are hidden away.
+**Brian Leroux:** \[03:56\] Yeah. So it's only one hit. What I like about this is it keeps your markup clean, so that your markup is just referencing files that conceptually, logically you have on your file system... But the 302 redirect is doing all the caching smarts for you, and so all the ugly GUIDs are hidden away.
 
 What I don't like about this is that performance penalty, and we're rolling our own caching logic, so... You know, the old joke in computer science is that the hardest problem in computer science is cache invalidation and off-by-1 errors...
 
@@ -80,7 +80,7 @@ We're using Preact actually largely because they do nice ESM builds for us. You 
 
 **Kevin Ball:** So what are all of the benefits that you end up seeing from this? ...if you were to spell them out.
 
-**Brian Leroux:** \[00:07:59.18\] We're not thinking about how this build works. The build script that we wrote I think is clocking in a rough 80 lines of code, which I thought would probably change and modify a lot, but we've been with it for almost a year now, and I'm very happy... As we add new modules, we just add them. When we're debugging, we can add a flag - and I'll show this in my talk - where we'll allow the waterfall to happen.
+**Brian Leroux:** \[07:59\] We're not thinking about how this build works. The build script that we wrote I think is clocking in a rough 80 lines of code, which I thought would probably change and modify a lot, but we've been with it for almost a year now, and I'm very happy... As we add new modules, we just add them. When we're debugging, we can add a flag - and I'll show this in my talk - where we'll allow the waterfall to happen.
 
 So even in production, we can say "Alright, we don't want the fingerprint of file 302 redirect all the way to the original source files." And then when we do that, we set no cache headers, just to make sure that we don't bite ourselves in the foot... And it works great, because we're debugging the real source. There's no source maps, there's no translation step. We're just writing the code that we expect to write, and we see what we expect to see.
 
@@ -104,7 +104,7 @@ We ended up having to add that ourselves, and we did our bundle step with Rollup
 
 **Brian Leroux:** Yeah. Different operating systems and different users... We found that out from a user in Boston, so they must have had a proxy at their ISP level, or something... It was a painful day. That said, adding all this stuff back wasn't too bad either, and it built my appreciation for why we do these build steps. \[laughs\]
 
-**Kevin Ball:** \[00:12:10.12\] Yeah, for sure. I wanna explore something else that you've worked on.
+**Kevin Ball:** \[12:10\] Yeah, for sure. I wanna explore something else that you've worked on.
 
 **Brian Leroux:** Oh, yeah.
 
@@ -132,7 +132,7 @@ So we see build times for like a new project, we can get one spin up in just und
 
 **Kevin Ball:** That's pretty freaking cool.
 
-**Break:** \[00:15:43.00\]
+**Break:** \[15:43\]
 
 **Kevin Ball:** I was looking at it -- I've been doing a lot of work in Kubernetes recently, and I was like "Holy smokes! This looks a lot simpler!" \[laughter\]
 
@@ -156,7 +156,7 @@ The isolation also just gives you better security, and you don't have to think a
 
 **Kevin Ball:** So if someone who's new to that world or new to development in general and doesn't have a strong conception of how would go, where would you point them to start?
 
-**Brian Leroux:** \[00:19:53.14\] I think arc.codes is the website; it's a good place to go. That's our open source core, and how we build stuff on AWS. If having an Amazon account seems like too much or AWS seems like too much, Begin.com is our answer to that. If you go there and sign up, within 30 seconds we'll have a serverless app deployed on our AWS account, and you can eject at any time; it's a standard CloudFormation under the hood, so you can run it on your own Amazon whenever you want. Our hope is that you'll choose to upgrade and you'll stick with us, and let us continue deploying to either ours or your Amazon... But that's probably the easiest way to get started. It's a big world, it's a long journey, and there's a lot more to the web than just GET request; there's also POST, and other things that you can do... And maybe eventually you'll outgrow just building static sites and wanna get into these more hardcore tools.
+**Brian Leroux:** \[19:53\] I think arc.codes is the website; it's a good place to go. That's our open source core, and how we build stuff on AWS. If having an Amazon account seems like too much or AWS seems like too much, Begin.com is our answer to that. If you go there and sign up, within 30 seconds we'll have a serverless app deployed on our AWS account, and you can eject at any time; it's a standard CloudFormation under the hood, so you can run it on your own Amazon whenever you want. Our hope is that you'll choose to upgrade and you'll stick with us, and let us continue deploying to either ours or your Amazon... But that's probably the easiest way to get started. It's a big world, it's a long journey, and there's a lot more to the web than just GET request; there's also POST, and other things that you can do... And maybe eventually you'll outgrow just building static sites and wanna get into these more hardcore tools.
 
 **Kevin Ball:** So you've been talking a lot about AWS; arc.code is open source...
 
@@ -184,7 +184,7 @@ So I'm not super-excited about the other clouds yet. And I'm not saying that the
 
 **Brian Leroux:** I agree with that, and that's how we approached it with both Begin and Architect. I think Architect supports 12 AWS services of the 370-odd that they have... And that's something that Amazon can't do or say. Amazon's never gonna say "Don't use 90% Amazon", but that's something that I can say as an individual, that I don't need EC2. It's not helpful for me anymore. I understand that it exists; if it's working for you, that's great, but if I'm building a website, I'm not spinning up an EC2 instance ever again... And you can do that with any of these things, for sure. Subsetting...
 
-**Kevin Ball:** \[00:24:13.09\] Alright. So we've talked about Architect, what it is today, we've talked a little bit about Begin, we talked about this idea of progressive bundling... What do you think is next on the horizon in this space?
+**Kevin Ball:** \[24:13\] Alright. So we've talked about Architect, what it is today, we've talked a little bit about Begin, we talked about this idea of progressive bundling... What do you think is next on the horizon in this space?
 
 **Brian Leroux:** Oh, boy... Well, I think data gravity is an interesting thing to talk about and think about. A lot of people are getting really excited about GraphQL, and rightfully, because it's unlocking databases for the front-end. And there really hasn't been a breakout new way to understand or do this. I think Fauna is kind of interesting; I'm personally a huge fan of DynamoDB... But where our data is and being able to get our data fast remains a massively unsolved problem. And who owns that data, and how do we access it from multiple places - because it's not just a website probably accessing it; you might need to ad-hoc query it for the business guy, or you might need to replicate it.
 
@@ -226,7 +226,7 @@ So I think the big, new interesting thing is gonna be "How do we deal with all t
 
 **Brian Leroux:** No, and also the client-side resolving subscription thing is still a little bit janky, feels a little bit weird. Mutations still feel a little bit weird... So I think there's work to be done. There's a lot of work to be done in this world, especially now that data is cheap... And the clients are getting more powerful, and they're staying on longer, and they've got local storage... There was this project PouchDB back in the day that did a lot of awesome sinc-ing with CouchDB instances. It felt like we were getting close to some answers in how we would do these peer-to-peer apps that way, but... It recently feels like we sort of stopped the conversation at GraphQL. It hasn't really matured that much, and it's because it's a tough problem.
 
-**Kevin Ball:** \[00:28:03.21\] Yeah. And we keep trying to push readable data out as far as we can to the edge; get as much as possible out, distribute it on CDNs, so that you don't have to do a bunch of network ops or anything like that to get it. That doesn't really work very well for mutatable data
+**Kevin Ball:** \[28:03\] Yeah. And we keep trying to push readable data out as far as we can to the edge; get as much as possible out, distribute it on CDNs, so that you don't have to do a bunch of network ops or anything like that to get it. That doesn't really work very well for mutatable data
 
 **Brian Leroux:** Yeah, yeah... And I have no answers for this...! \[laughter\] No idea. I mean, we've been playing with doing our own sort of subscription stuff with API gateways, WebSockets... It's definitely Wild West right now; there's no good answers.
 
@@ -260,11 +260,11 @@ Recently there was a startup called Pulumi, which I definitely recommend people 
 
 So the Pulumi way obviously got people at Amazon excited, because they immediately cloned it, like they do... \[laughter\] They created a thing called CDK, which I guess stands for Code Development Kit. The CDK lets you write in TypeScript, Python, and probably other languages, but those are the ones that people would be most interested in. You run a command called "synthesize" and it'll turn your imperative TypeScript code or your Python code into a CloudFormation document.
 
-\[00:31:53.25\] I only have one use case for this, and that use case is I need 100 Qs. I don't wanna write Q1, Q2, Q3. That's a pain in the ass. But otherwise, introducing state into the declarative manifest feels a lot like embedding Bash in YAML scripts. We did that a lot back in the day because we had to, and it always felt bad and it always burned us, and we always knew it was wrong... And I sort of feel like these imperative solutions are taking that path. And the reason people are adopting them is because they get all the tools they get with their imperative language. It's nice to have TypeScript at your back when you're typing out a large object hierarchy, for code-completing for you... Which you don't get that out of the YAML files.
+\[31:53\] I only have one use case for this, and that use case is I need 100 Qs. I don't wanna write Q1, Q2, Q3. That's a pain in the ass. But otherwise, introducing state into the declarative manifest feels a lot like embedding Bash in YAML scripts. We did that a lot back in the day because we had to, and it always felt bad and it always burned us, and we always knew it was wrong... And I sort of feel like these imperative solutions are taking that path. And the reason people are adopting them is because they get all the tools they get with their imperative language. It's nice to have TypeScript at your back when you're typing out a large object hierarchy, for code-completing for you... Which you don't get that out of the YAML files.
 
 Architect solves this by being terse, so it's just like an extremely readable/writable format. Ten lines turns into hundreds of thousands of lines of YAML kind of thing... Not quite, but it seems that way. I think that's why the imperative things become popular, because the tooling is so good. I feel like it's gonna kick off a generation of people realizing why declarative is good again, so... Sort of waiting to just let that story play out. \[laughs\]
 
-**Break:** \[00:33:16.14\]
+**Break:** \[33:16\]
 
 **Kevin Ball:** In so many ways it sounds like the argument that's played out at least three times in the front-end world, between like "Do everything in JavaScript!" No, it's actually viable to have templates, and markup, and CSS. "Oh, but with JavaScript you have the power of an imperative language" - yes, and that power will hurt you.
 
@@ -284,7 +284,7 @@ Configuration is also a liability. It's a runtime dependency, and if you have lo
 
 **Brian Leroux:** That's right, yes.
 
-**Kevin Ball:** \[00:35:57.03\] Your customers don't care... I mean, you could be writing Fortran, and if you're writing Fortran to generate web apps right now, I'm shocked, but I'm impressed. And your customers don't care.
+**Kevin Ball:** \[35:57\] Your customers don't care... I mean, you could be writing Fortran, and if you're writing Fortran to generate web apps right now, I'm shocked, but I'm impressed. And your customers don't care.
 
 **Brian Leroux:** Somebody is doing it. Somebody is generating JavaScript from Fortran right now. I guarantee it. It's probably happening.
 
@@ -346,7 +346,7 @@ Configuration is also a liability. It's a runtime dependency, and if you have lo
 
 **Kevin Ball:** Kind of... I feel like TypeScript - they approached classes from a very web-friendly... Like, taking into account the legacy of JavaScript.
 
-**Brian Leroux:** \[00:40:03.22\] Yes...
+**Brian Leroux:** \[40:03\] Yes...
 
 **Kevin Ball:** Classes in TypeScript don't make me scream in agony the way that classes in Java do.
 

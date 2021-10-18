@@ -124,7 +124,7 @@ Then it went from "Here's the stuff that we knew we wanted from the last three y
 
 So that's how we operate in terms of getting features. It's a lot of "What are the top most reacted-to GitHub issues? What's the most duplicated issue that we get coming in?" We aggregate lists of these things, and that's what forms our roadmap after that. So it's really a community-driven thing... Which is really cool, because then we just kind of give people what they want, which makes us feel really good, and then it's also stuff that we want, so it's really just a nice ecosystem that we have. So that's the process.
 
-**Break:** \[00:19:53.15\]
+**Break:** \[19:53\]
 
 **Adam Stacoviak:** So let's talk about the design process of things. When you think about search (as you'd mentioned), when you think about leading with function, and then coming back and layering on form, what's your personal design process? Do you have a team? Are you running rogue and solo? What's the process for designing the interface?
 
@@ -298,7 +298,7 @@ And then also the feature request priority list. Our priorities come from GitHub
 
 The release notes are pretty good. Dustin Howett, he's our developer lead - he writes our release notes, and they can be pretty comedic, too. So yeah, we try to have fun on there; we try to make it a welcoming community, just because we're normal people, too. We're all just trying to make a good product, so we just try to keep it fun.
 
-**Break:** \[00:41:40.21\]
+**Break:** \[41:40\]
 
 **Jerod Santo:** So maybe you can help us out with some terminology here... This is something that Adam and I struggle with a lot, which is terminal, shell, command line... All these terms - these are inter-related things. A little context on Changelog News - we have topics, and we're also covering things that you run in a command line context, shell tools, terminal tools... We have a topic for each of these, and it's always a game of chance to pick the right one. Is this a terminal, is this a shell...? Kayla, can you help us? Do you know these terms inside and out? I'm hoping so; maybe you don't. I don't know them very well. What's the difference between a shell and a terminal, or a terminal and a command line, or a console, in the case of the old conhost? Do you know these terms?
 

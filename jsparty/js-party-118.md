@@ -28,7 +28,7 @@ Outside of work stuff - I'm a big fan of cooking, I'm also a hobbyist bartender,
 
 In any case, today we are here to talk about building technical courses. This is something I think a lot of people are interested in, but I haven't seen a lot of content on how to be successful at building courses and teaching people on things like that... And Jason is exemplary in this area, because he does his Learn With Jason show, that I would love to talk more about.
 
-\[00:04:07.29\] You've also done some Frontend Masters courses; I know that because I've watched them, and I've gotten a lot of value out of them... Could you give us a little overview of your history teaching courses, and all that jazz?
+\[04:07\] You've also done some Frontend Masters courses; I know that because I've watched them, and I've gotten a lot of value out of them... Could you give us a little overview of your history teaching courses, and all that jazz?
 
 **Jason Lengstorf:** Yeah. I started almost by accident, because I was in Montana, and in Montana there weren't a lot of developers. This was pre-Stack Overflow; really the way that you learned was either by buying books, or you would do things like hang out on the W3Schools forum. And if any of you are remembering what that was like - ha! You're old, just like me. \[laughter\]
 
@@ -54,7 +54,7 @@ And I remember that moment, I was like "I'm gonna speak at a conference", and yo
 
 **Emma Bostian:** But Jason gave a really good talk about work-life balance. I forget -- what was the name of it? "How you work half as many hours and get more done"?
 
-**Jason Lengstorf:** \[00:08:07.15\] Yeah, I think "How I cut my working hours in half and got more done", or something to that effect.
+**Jason Lengstorf:** \[08:07\] Yeah, I think "How I cut my working hours in half and got more done", or something to that effect.
 
 **Emma Bostian:** Right. That was such a great talk, because you are so good at storytelling, and I think that definitely translates into your ability to teach people. Teaching is hard, and I think anyone can teach, and I think everyone has something valuable to offer, but it takes a certain kind of person to be able to reach everyone. So I'm excited to talk a little more about what makes a great teacher and how do you actually build a course.
 
@@ -78,7 +78,7 @@ Typically speaking, unless you're making bucketloads of money, that's all work t
 
 **Emma Bostian:** Yeah, for sure. I just gave my first course back in February, maybe January, with LinkedIn Learning, which was formally Lynda.com... Which for my first course was super -- that set the bar so high... And it's really interesting to see, because I'm actually doing my first Frontend Masters course in one week...
 
-**Jason Lengstorf:** \[00:12:08.07\] Oh, cool.
+**Jason Lengstorf:** \[12:08\] Oh, cool.
 
 **Emma Bostian:** Yeah, it's exciting, but I'm also terrified... But it's interesting to see how different companies operate. Lynda was very structured; you had weekly meetings with your producers... I'm sure you can attest to this too, Jason - Frontend Masters is very much on you, which is great, but it's also like "Oh, there's no accountability."
 
@@ -104,7 +104,7 @@ I'm curious how the two of you think about that. How do you think about the huma
 
 **Emma Bostian:** Testing Automation University, thank you. We talked about how people learn, and I think knowing how people learn and digest information is very important... And one of the things that we discussed with her and Ali Spittle (also an educator at General Assembly) is this idea of having "I do, we do, you do" activities.
 
-\[00:15:55.14\] So I'm gonna show you something, we'll do something together, and then you do this based on the skills we've just done together and that I've shown you. I think having this reinforcement, having small, doable chunks of information, but also letting them abstract out some of these skills and try it on their own is one way to really drive home certain points.
+\[15:55\] So I'm gonna show you something, we'll do something together, and then you do this based on the skills we've just done together and that I've shown you. I think having this reinforcement, having small, doable chunks of information, but also letting them abstract out some of these skills and try it on their own is one way to really drive home certain points.
 
 **Jason Lengstorf:** I love that. I feel like that takes something very big and academic and turns it into something repeatable. "I do, we do, you do." I'm gonna take that one to the bank. Thank you for that. \[laughs\]
 
@@ -120,11 +120,11 @@ I've talked to Sarah Drasner about this, who has done hundreds of workshops, and
 
 With that, let's take a break, and when we come back we'll talk about how you can actually get started building a course.
 
-**Break:** \[00:18:47.18\]
+**Break:** \[18:47\]
 
 **Emma Bostian:** We talked a little bit about our backgrounds of teaching, and how people learn at a high level, and that's important, but I wanna shift gears and talk about how do you actually go about building an online course? I think - and I know, Jason, you added some of your thoughts, but let's talk a little bit about formats for creating courses, and the different types those can take. I'm gonna let you start in on that.
 
-**Jason Lengstorf:** \[00:19:58.28\] Yeah, the formats that I have seen - you've got short-form workshops, which is more of like a code-along. You're gonna do one small concept, and you can typically do that in the span of a meetup, like a 30 or 60-minute slot. Then you've got the half-day and full-day workshops, which are way more in-depth. You're probably gonna build something, or a series of projects... And those can be a little more in-depth; they're typically more classroom-style. But then you can take that whole thing and you can move it online, and you can find yourself doing -- well, if you look at \[unintelligible 00:20:35.09\] does the games, like CSS Grid Zombies, I think it is, or like Frogger, or Flexbox Froggy - those types of games are effectively workshops, they're just fun workshops... And they're completely self-guided. It's a way to learn.
+**Jason Lengstorf:** \[19:58\] Yeah, the formats that I have seen - you've got short-form workshops, which is more of like a code-along. You're gonna do one small concept, and you can typically do that in the span of a meetup, like a 30 or 60-minute slot. Then you've got the half-day and full-day workshops, which are way more in-depth. You're probably gonna build something, or a series of projects... And those can be a little more in-depth; they're typically more classroom-style. But then you can take that whole thing and you can move it online, and you can find yourself doing -- well, if you look at \[unintelligible 00:20:35.09\] does the games, like CSS Grid Zombies, I think it is, or like Frogger, or Flexbox Froggy - those types of games are effectively workshops, they're just fun workshops... And they're completely self-guided. It's a way to learn.
 
 So I think you kind of move on the spectrum in length, and then you move on the spectrum in terms of level of human involvement... Because I think there's the straight-up pair-programming - it's kind of a workshop, if you think about it. A senior dev sitting with an earlier-career dev, and working through a problem - that's a workshop. So all of those skills transfer over. Even if you never taught a workshop but you've done a lot of pair-programming, you actually have valuable experience that will help you make that kind of content.
 
@@ -140,7 +140,7 @@ And I would say, if you look at Egghead, Egghead's mantra is basically very shor
 
 And in doing that, what I'm looking at is, okay, if I'm gonna write a workshop on something, I'm not just gonna say "I have an idea. I'm going to spend six weeks writing a workshop." I have an idea. I'm gonna tweet about this. Did people engage? Was everybody like "This is a terrible idea, don't do it"? And if that avoids blowback or it feels like it's something good, then maybe I'll write an article about it, or maybe I'll make an Egghead video which is 2,5 or 3 minutes. If those are all getting good feedback, then maybe I wanna do an online workshop.
 
-\[00:24:05.04\] Egghead has a really cool online workshop format that I love, where I can teach a short workshop, maybe two hours, on a condensed version of this topic. Then if all of these things are working - first of all, it's one idea that I've now used just in that format, four different ways, and from that, then I know that I've got something good, that is helping people, it's getting positive responses, and people are learning the thing that I want them to learn. So then I go and look at the huge, the big thing - do I want to try to turn this into a full-on course on Egghead, which is like the hour-long collections of more in-depth material? Do I wanna go pitch a version of this to Frontend Masters and do the full day thing? Do I wanna pitch it to conferences as an actual sit-down, in-person workshop?
+\[24:05\] Egghead has a really cool online workshop format that I love, where I can teach a short workshop, maybe two hours, on a condensed version of this topic. Then if all of these things are working - first of all, it's one idea that I've now used just in that format, four different ways, and from that, then I know that I've got something good, that is helping people, it's getting positive responses, and people are learning the thing that I want them to learn. So then I go and look at the huge, the big thing - do I want to try to turn this into a full-on course on Egghead, which is like the hour-long collections of more in-depth material? Do I wanna go pitch a version of this to Frontend Masters and do the full day thing? Do I wanna pitch it to conferences as an actual sit-down, in-person workshop?
 
 By that point, I've already done a lot of the work, I've already validated the idea, I've got most of the content put together. Now it's just extending it and expanding it with more information, as opposed to saying "Maybe I can make this work. Let's do tons and tons of work, so I can go try this out."
 
@@ -164,7 +164,7 @@ It's a way of doing the work and getting feedback and potentially payment for pi
 
 **Emma Bostian:** If you take anything away from this, take that away. Honestly, it's a brilliant thing, because will always ask me "How are you so productive?" I'm like, "I'm really not. I reuse my own material in different ways." Obviously, I'll change certain activities, but the premise will be the same.
 
-**Kevin Ball:** \[00:28:10.25\] Yeah, I get some of that as well... Less now that I actually have a real job, and I'm not just working on consulting plus content... But yeah, that said, I felt like I knew that lesson, but hearing Jason go through it step by step by step there... You could take that, package it - that's gold. Do that. Do exactly what Jason described, or what he described Kent doing. It's pure gold. Even if you think you know it.
+**Kevin Ball:** \[28:10\] Yeah, I get some of that as well... Less now that I actually have a real job, and I'm not just working on consulting plus content... But yeah, that said, I felt like I knew that lesson, but hearing Jason go through it step by step by step there... You could take that, package it - that's gold. Do that. Do exactly what Jason described, or what he described Kent doing. It's pure gold. Even if you think you know it.
 
 I was thinking, as you were going through that, "Yeah, I reuse and I do this", but holy smokes, that is a tuned process you've just described, that is better than what I've been doing.
 
@@ -190,7 +190,7 @@ So in creating those pieces of content, I get to see pretty quickly "Oh, a lot o
 
 So that shows me "Alright, I should probably dig into this a little bit more. Maybe I should write an article about Eleventy, or about Svelte, and then we'll see how that goes." Does that get a lot of traction? Because then I'll take it a step further. Maybe I'll make an Egghead course about it.
 
-\[00:32:13.22\] But a lot of the things that I do - you know, you see it happen, and you put it out into the world, and you see that it was not a bad response, but people aren't like "Oh, this is amazing. We've gotta share this everywhere" and you're like "Okay." That would probably be harder to market. If I made that, I'd have to be creating a market for that, as opposed to these other ones where there's obviously already interest and people looking for it.
+\[32:13\] But a lot of the things that I do - you know, you see it happen, and you put it out into the world, and you see that it was not a bad response, but people aren't like "Oh, this is amazing. We've gotta share this everywhere" and you're like "Okay." That would probably be harder to market. If I made that, I'd have to be creating a market for that, as opposed to these other ones where there's obviously already interest and people looking for it.
 
 **Emma Bostian:** Yeah, and I think for me -- if I post and I'm immediately getting a lot of people... Sometimes I'll do a Twitter poll where I'm like "Would you be interested in this?" and if it's even remotely split on the middle, I won't do it. Or I'll get a lot of comments sometimes, like "This has been done a thousand times. It's over-saturated." At that point, yeah, look where there's a need...
 
@@ -210,7 +210,7 @@ A lot of times Chris Biscardi and I - we're working on identical courses, at the
 
 **Emma Bostian:** Awesome. That's good advice. I think my only stipulation is don't build something -- this goes for anything in life really, but I wouldn't recommend blogging or creating a course on something that you passionately dislike.
 
-**Jason Lengstorf:** \[00:36:00.17\] Yeah, for sure. \[laughs\]
+**Jason Lengstorf:** \[36:00\] Yeah, for sure. \[laughs\]
 
 **Emma Bostian:** Well, I see people all the time that are like "Oh, React is hot. I'm gonna make a course on React", but you don't like React, so don't make it. Because if you don't like something, people are gonna be able to tell, and they're not gonna wanna take your course or read your blog...
 
@@ -218,7 +218,7 @@ A lot of times Chris Biscardi and I - we're working on identical courses, at the
 
 **Emma Bostian:** So when we come back, we're gonna talk about some tips for building a great and memorable course, and maybe share some of our most memorable courses that we've taken.
 
-**Break:** \[00:36:32.21\]
+**Break:** \[36:32\]
 
 **Emma Bostian:** So we've talked a little bit about courses... \[laughter\] I was just saying on the break that I don't know how to english a name and I totally am losing it... We're gonna talk more about courses. Let's talk about what makes a good course and what differentiates it from the pack.
 
@@ -250,7 +250,7 @@ A lot of times Chris Biscardi and I - we're working on identical courses, at the
 
 People don't have the context that you have, so you need to think about "What is the necessary context for this course?" Do you expect people to have it before they get in? What context do they need to get some of the later pieces that you need to teach them in the beginning? And be very upfront about that planning step of "Here's what you should know already" and ideally, give people that information. "You should know X, Y and Z" and here are some resources that I recommend for you to learn those things.
 
-\[00:40:08.22\] Then what sequence of things you need to build on to get to the place you're trying to go. Because yeah, I think it's a lot of really bad courses that I've seen, and this is true for articles and stuff like that, too. They jump right in from a point that is the mental state of the author... And they fail to do that thinking of what are the layers of context that you need to build up to get somebody to the place you're trying to take them.
+\[40:08\] Then what sequence of things you need to build on to get to the place you're trying to go. Because yeah, I think it's a lot of really bad courses that I've seen, and this is true for articles and stuff like that, too. They jump right in from a point that is the mental state of the author... And they fail to do that thinking of what are the layers of context that you need to build up to get somebody to the place you're trying to take them.
 
 **Emma Bostian:** That's super-funny, because I just gave an internal talk at LogMeIn today about blogging, and one of my tips is don't make assumptions about your readers... So that means spell out acronyms. If you're gonna reference tangential technologies... Like if you're doing a course on React and you mention Redux, at a high-level define what Redux is and maybe link to the docs... But I would say, playing off that, my biggest tip is "Why? Why should your users care? Why are you teaching them this?"
 
@@ -274,7 +274,7 @@ That helps inform a lot of my decision-making on whether or not I wanna pursue s
 
 **Jason Lengstorf:** \[laughs\] Yeah, I think so. I'm gonna go with great minds... \[laughs\] But yeah, one of the things that I've noticed is that -- when I used to work in an agency, I worked a lot on sales copy... And we were always trying to figure out "How do we make sure not just that people will buy a thing", because it's easy to get somebody to buy a thing, but "How do we get people to buy a thing and not regret it?" How do we make sure that when somebody buys this thing, they're walking away feeling like they made a great decision and their life is improved. And pre-qualification and pre-disqualification were two of the biggest things that we've found.
 
-\[00:44:04.20\] I don't wanna waste your time, and I don't want you to feel like your time has been wasted. So I'm gonna tell you, "You should not read this/You should not take this course if these conditions are true, because it's not gonna be useful for you." And if you lay those things out, it also helps you as a course creator articulate better, like "What are you trying to do?" Like you said, "What is this for? Who is this for? Why am I making this course?" And it helps with the conversation. You can target your messaging a little more clearly to people in the situation you're actually writing for, instead of doing this thing that I catch myself doing sometimes, where I'm trying to back out to a generic to the point that it almost becomes meaningless.
+\[44:04\] I don't wanna waste your time, and I don't want you to feel like your time has been wasted. So I'm gonna tell you, "You should not read this/You should not take this course if these conditions are true, because it's not gonna be useful for you." And if you lay those things out, it also helps you as a course creator articulate better, like "What are you trying to do?" Like you said, "What is this for? Who is this for? Why am I making this course?" And it helps with the conversation. You can target your messaging a little more clearly to people in the situation you're actually writing for, instead of doing this thing that I catch myself doing sometimes, where I'm trying to back out to a generic to the point that it almost becomes meaningless.
 
 It's like the foo bar example - it sort of demonstrates the concept, but it's so academic that it's hard to land, and usually a beginner or somebody who's not familiar with the philosophy around that language, they'll be completely lost.
 
@@ -298,7 +298,7 @@ Mine was way more irreverent and silly, and his was very thoughtful. "Here are r
 
 **Jason Lengstorf:** Yeah, I had to build a machine learning tool, because people kept thinking that we were each other... \[laughter\] So I built a machine learning -- it's at whichbeardisthis.com. You drag a picture of one of us on there and it'll tell you which of us it is... Because it was a legit problem; people would think we were the other person, because we're both bald, bearded, white guys from Portland, Oregon, and it's very easy to cross us up. \[laughs\]
 
-**Emma Bostian:** \[00:48:11.08\] This is the most absurd thing that I've ever seen, but also I love it.
+**Emma Bostian:** \[48:11\] This is the most absurd thing that I've ever seen, but also I love it.
 
 **Kevin Ball:** That is pretty funny.
 
@@ -324,7 +324,7 @@ Once again, I'm not saying this to try and discourage people. I think if you hav
 
 **Emma Bostian:** Absolutely. I think that was a very sentimental moment right there... So with that - and I wanna reiterate what Kball, because I do think it's really important... You know, if you wanna do something, just do it. What is the worst thing that could possibly happen? This is the mantra that I adopted in my life the last couple of years... What's the worst that can happen? What do you have to lose? What do you have to gain, honestly? If it works out, you have everything to gain.
 
-\[00:52:11.08\] So I wanna ask both of you, what is one of your most memorable courses that you have ever taken? I'll go first, Jason's Gatsby course on Frontend Masters was one of my all-time favorites, because I'm a Gatsby fangirl, and I think it's honestly for the fact that Jason was teaching it, because it was so easy for me to learn from him... So that was one of my most memorable.
+\[52:11\] So I wanna ask both of you, what is one of your most memorable courses that you have ever taken? I'll go first, Jason's Gatsby course on Frontend Masters was one of my all-time favorites, because I'm a Gatsby fangirl, and I think it's honestly for the fact that Jason was teaching it, because it was so easy for me to learn from him... So that was one of my most memorable.
 
 **Jason Lengstorf:** Well, that makes me feel great. Good that this isn't a video podcast yet, because I'd be blushing...
 
@@ -352,7 +352,7 @@ I think the meta-lesson on that is take courses that are outside of your area of
 
 **Jason Lengstorf:** I love that. That is solid advice.
 
-**Emma Bostian:** \[00:56:09.04\] This episode is full of solid advice. Honestly, I learned a lot this episode. It's nice to speak to other content creators about this, because I don't think I've ever talked about making a course with anyone... But it's an intimidating thing.
+**Emma Bostian:** \[56:09\] This episode is full of solid advice. Honestly, I learned a lot this episode. It's nice to speak to other content creators about this, because I don't think I've ever talked about making a course with anyone... But it's an intimidating thing.
 
 I think what I've taken away from this is anyone can do it. It's gonna be hard, you have to put in the time. If you're willing to put in the time, be detail-oriented, you can do really well.
 
@@ -380,7 +380,7 @@ It's this amazing way to create lots of content and have a network of people who
 
 **Emma Bostian:** I do wanna go to Portland, so next time I'm there I'll hit you up. Thank you so much for joining us, and if you are listening and you wanna make a course, go for it. You have nothing to lose, and everything to gain.
 
-**Break:** \[00:59:24.23\]
+**Break:** \[59:24\]
 
 **Emma Bostian:** Noice. Do you need to go microwave more coffee, or are you oversaturated? \[laughter\]
 

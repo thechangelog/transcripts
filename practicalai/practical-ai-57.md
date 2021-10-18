@@ -26,7 +26,7 @@ We definitely thought that that was practical for those of us trying to do pract
 
 **Daniel Whitenack:** Thanks. Yeah, it definitely seemed like your talk was in that vein, and we'll get to the subject of the talk, but maybe to start out, could you just give us a little bit of information about your background and how you got into data science and machine learning?
 
-**Samuel Taylor:** \[00:04:03.07\] Of course. From some accounts, I've just always liked computers. There's a picture of me when I'm seven or years old, sitting at the family computer, and I have my hand on the mouse, playing some point-and-click adventure game... And I guess I just never grew out of that. I just always liked computers, and had really great parents who encouraged me to pursue math and programming, and I was able to learn a lot of that and practice a lot of that leading up into high school.
+**Samuel Taylor:** \[04:03\] Of course. From some accounts, I've just always liked computers. There's a picture of me when I'm seven or years old, sitting at the family computer, and I have my hand on the mouse, playing some point-and-click adventure game... And I guess I just never grew out of that. I just always liked computers, and had really great parents who encouraged me to pursue math and programming, and I was able to learn a lot of that and practice a lot of that leading up into high school.
 
 At some point in high school I saw a documentary on PBS, I think it was a Nova documentary, and they were talking about machine learning, I guess... Because they had an example where they showed a computer, a bunch of images of English letters, and then it could tell with a new picture if it was an A or a B or a C, or whatever... And that just blew my mind.
 
@@ -54,7 +54,7 @@ So at its core, Indeed has sort of a search product that is well-liked, where pe
 
 **Samuel Taylor:** Definitely. As with any other large internet company, there's a mountain of data that you get just running an internet company, and obviously, if you can leverage that well, then you can do a lot of great stuff to help people get jobs better. I wasn't involved at the creation of the team, so I can't really speak too much to the early parts, the early days, but it's been at least several years of investing in data science at our company.
 
-\[00:08:17.15\] Some relevant use cases - for instance, salary estimation is one that comes up fairly often, and for job seekers it's nice to be able to have some expectation of what the salary will be for a given job. Another example that ends up being useful in a variety of ways is training models that can determine how good of a fit a certain job is for a certain job seeker. That can be leveraged in a few different ways, but with the data that we have, we're able to come up with these useful models that we can apply in several ways, which has been really nice. By empirically testing, we've found that has really helped us be able to help people get jobs better.
+\[08:17\] Some relevant use cases - for instance, salary estimation is one that comes up fairly often, and for job seekers it's nice to be able to have some expectation of what the salary will be for a given job. Another example that ends up being useful in a variety of ways is training models that can determine how good of a fit a certain job is for a certain job seeker. That can be leveraged in a few different ways, but with the data that we have, we're able to come up with these useful models that we can apply in several ways, which has been really nice. By empirically testing, we've found that has really helped us be able to help people get jobs better.
 
 **Daniel Whitenack:** At Indeed, is data science scattered throughout the teams that are working at Indeed, or is there one data science group that consults on different projects? I know that those are two common patterns that I've seen, and probably each have their advantages or disadvantages. At somewhere like Indeed, that I'm sure has a lot of different projects going on, how does that work?
 
@@ -80,7 +80,7 @@ So at its core, Indeed has sort of a search product that is well-liked, where pe
 
 **Chris Benson:** Yes, that was it... And I think that was back in our late teens, maybe episode 17 if I recall... She was talking about bias in hiring and data, so... Samuel, I'm wondering, is that something that Indeed is working on as well? It's a pretty big issue out there. If you are working on it, where is Indeed taking it as a company?
 
-**Samuel Taylor:** \[00:11:55.12\] Of course that's a huge issue. It's to the point where that kind of stuff is coming up at conversations at the national level; in the presidential debates, people are caring about bias in algorithms and bias in data... And there are people at Indeed working on that. I really can't speak to what they're doing, I'm just not super-familiar with what they're doing.
+**Samuel Taylor:** \[11:55\] Of course that's a huge issue. It's to the point where that kind of stuff is coming up at conversations at the national level; in the presidential debates, people are caring about bias in algorithms and bias in data... And there are people at Indeed working on that. I really can't speak to what they're doing, I'm just not super-familiar with what they're doing.
 
 One area that I have found interesting, that can be somewhat related here, is working in cases where you have really imbalanced datasets, where certain parts of the population that you're looking at might just be really under-represented in your dataset, and trying to come up with useful techniques for correcting for that, or for making sure that your model is still doing well on those subsets of the data that are under-represented.
 
@@ -96,7 +96,7 @@ Samuel, given that you work at Indeed, and given that data scientists are in dem
 
 People are a lot more likely to take you seriously if you have some sort of example that you can show them of "Here's the thing I built. Look at how neat this is." It can be a really good way to get on someone's radar if you can send them a link, for instance, to a website that you made, that does some cool machine learning e-thing, and they can play around with it and be like "Oh, this is fun." Even if that website isn't super-complicated, they still might end up being -- you know, it helps set you apart from the rest of the crowd.
 
-**Break:** \[00:15:21.05\]
+**Break:** \[15:21\]
 
 **Chris Benson:** Samuel, let's turn toward All Things Open. I'm familiar with it, and I know Daniel is, but there may very well be people in the audience that aren't. Could you tell people what All Things Open is about, and what organization backs it, that kind of stuff?
 
@@ -114,7 +114,7 @@ But yeah, cool, we're really excited that you're getting featured there, and als
 
 **Daniel Whitenack:** Yeah, so it's not just like free apps, or something. In a lot of cases, it's tooling or lower-level things that are just available widely, that are integrated into all sorts of different applications. It may even be commercial applications, right?
 
-**Samuel Taylor:** \[00:19:49.16\] Yeah, absolutely. I was mentioning web servers - a lot of web servers run on Linux, which is this amazing open source piece of software, that people have been building and maintaining for decades now... And it's really interesting to see the kind of collaboration that the internet enables, and the kind of governance models that people come up with.
+**Samuel Taylor:** \[19:49\] Yeah, absolutely. I was mentioning web servers - a lot of web servers run on Linux, which is this amazing open source piece of software, that people have been building and maintaining for decades now... And it's really interesting to see the kind of collaboration that the internet enables, and the kind of governance models that people come up with.
 
 Like you said, not all open source software is free. There are some discussions within the open source and free software communities about the differences between those. When people talk about free software, there's either the free as in "you're not paying for it" or free as in freedom, or free as in liberty kind of thing... And some people really appreciate that aspect of it too, because when you have software that is free as in freedom, that means that you have the right to change it, and if it doesn't suit your needs, you can go in and modify it. And there's some aspect of that that can be really satisfying for people who are using software and always wanna have the ability to make it work like they want it to.
 
@@ -134,7 +134,7 @@ I think even if the project doesn't become a success, there's way better recomme
 
 **Samuel Taylor:** Absolutely, yeah. I think that's really important to these large software companies. My understanding is that when Google wrote a bunch of these papers for what ended up becoming Hadoop, they saw the Hadoop world rebuild a lot of the internal tools they had... And it's good, because you sort of build that mindshare of knowing what MapReduce is, for instance... But then when you're hiring someone and they come in, it's like "Well, this is a little different from the MapReduce you're used to."
 
-\[00:24:19.14\] So if they just start right out the gate open-sourcing TensorFlow, then when they are hiring new data scientists they are gonna know exactly what TensorFlow is, and already be using it. So I think there's a lot of benefit to it.
+\[24:19\] So if they just start right out the gate open-sourcing TensorFlow, then when they are hiring new data scientists they are gonna know exactly what TensorFlow is, and already be using it. So I think there's a lot of benefit to it.
 
 **Chris Benson:** I agree. I think that you hit on the point -- I remember that going around the community, that exact issue of Google saying "Wow, we kind of created this upfront, but since we didn't open-source it, somebody kind of turned it around and we had to react to them later on." I think that also happened, to some degree, with containerization with them... So maybe in that particular case, with that particular organization, maybe that was a lesson learned; they finally turned it right. And obviously, that must have worked well for them, because TensorFlow has a huge percentage of the market.
 
@@ -154,9 +154,9 @@ I will not pretend to be an expert about when is best... I can see that there's 
 
 Anyway, moving past some of those caveats, I guess, what are some of the -- if you were to pick some of your favorite open source machine learning or AI projects that you use really frequently, what would those be, Samuel?
 
-**Samuel Taylor:** \[00:28:17.04\] I would have to start with Jupyter, because I think almost every data scientist has at least run into a Jupyter Notebook at some point. I don't know that I've had a day without using one since I started working. They're just incredibly useful ways to sort of see the results of your computation and experiment with things and prototype with things in a way that can be a lot less friction than traditional IDE. That'd be what I'd start with. Also, I have to give a huge shoutout to scikit-learn, because it has an incredible API, the community is really strong, the documentation is really good, and you can get a lot done with just everything built in scikit-learn. So those would be the two that I would give the biggest shout-out to. If you have Jupyter and scikit, you can do a lot of stuff, for sure.
+**Samuel Taylor:** \[28:17\] I would have to start with Jupyter, because I think almost every data scientist has at least run into a Jupyter Notebook at some point. I don't know that I've had a day without using one since I started working. They're just incredibly useful ways to sort of see the results of your computation and experiment with things and prototype with things in a way that can be a lot less friction than traditional IDE. That'd be what I'd start with. Also, I have to give a huge shoutout to scikit-learn, because it has an incredible API, the community is really strong, the documentation is really good, and you can get a lot done with just everything built in scikit-learn. So those would be the two that I would give the biggest shout-out to. If you have Jupyter and scikit, you can do a lot of stuff, for sure.
 
-**Break:** \[00:29:08.13\]
+**Break:** \[29:08\]
 
 **Chris Benson:** I am assuming that Indeed is not paying you to make music recommendation systems, like you had mentioned in your ATO abstract... What kind of side-projects are you engaged in? What are you doing, what's fun, and what would you like to do that you may not have gotten to yet?
 
@@ -176,7 +176,7 @@ And then also leveraging some tools like Matplotlib and Seaborn to do data visua
 
 **Chris Benson:** Do you have any other projects in particular that you've worked on, or anything that you're aspiring to when you get enough time to?
 
-**Samuel Taylor:** \[00:32:06.20\] Yeah. There's one that I started working on actually before I got at Indeed, where I wanted to use machine learning to find my next job. I just thought that was a really fun idea. What that ended up being was I made a spreadsheet and read just a ton of job descriptions, and pasted them in this spreadsheet and then rated them. And if I'm being honest, I definitely spent more time reading job descriptions this way than I would have any other way... But I'd read them and try to figure out if they were cool or not, and then have a training model to try to do this for me.
+**Samuel Taylor:** \[32:06\] Yeah. There's one that I started working on actually before I got at Indeed, where I wanted to use machine learning to find my next job. I just thought that was a really fun idea. What that ended up being was I made a spreadsheet and read just a ton of job descriptions, and pasted them in this spreadsheet and then rated them. And if I'm being honest, I definitely spent more time reading job descriptions this way than I would have any other way... But I'd read them and try to figure out if they were cool or not, and then have a training model to try to do this for me.
 
 What I ended up doing -- I don't have this email going anymore, because I like my job, but what I ended up doing was having it do this weekly email where it would send me the top ten jobs that sounded the coolest that went up that week. I just thought that was a fun little way to make your own life easier. I think that's a great way to get started with these machine learning projects... And like I was alluding to earlier, when you are trying to build a portfolio, it's cool to work on something that you actually want to solve, because first off, it shows the potential employer what things you find interesting, and you can inject some of your personality into that. And then second off, that you will be more motivated to work on the project.
 
@@ -196,7 +196,7 @@ So that was a fun hackathon project. It was really interesting, and ended up hav
 
 That was at a hackathon... How much time and how often are you doing side-projects? I'm kind of curious about that.
 
-**Samuel Taylor:** \[00:35:58.22\] Absolutely. Since I've got some things working, like I'm married and I have a volunteering thing that I do weekly, I don't put a ton of time into side-projects at this point, just because there's other things that I'm choosing to prioritize. But I think they were a really great way to scratch that itch for wanting to learn how to do machine learning by practice... Partially because of other time constraints, and partially because of the fact that I get to scratch that itch actually at work now, I don't feel as much need to do that outside of work. But every now and again, something will come up where I'm just like "I need this thing. I'm gonna go build it."
+**Samuel Taylor:** \[35:58\] Absolutely. Since I've got some things working, like I'm married and I have a volunteering thing that I do weekly, I don't put a ton of time into side-projects at this point, just because there's other things that I'm choosing to prioritize. But I think they were a really great way to scratch that itch for wanting to learn how to do machine learning by practice... Partially because of other time constraints, and partially because of the fact that I get to scratch that itch actually at work now, I don't feel as much need to do that outside of work. But every now and again, something will come up where I'm just like "I need this thing. I'm gonna go build it."
 
 **Chris Benson:** So what do you think makes a good side-project? A lot of people I know do that. We have what we do at work, and then we have our own little things... What do you think makes it worthwhile? What lends itself to being a great side-project?
 
@@ -216,7 +216,7 @@ So I'd say those are the first two things, and then the last one which we've alr
 
 If you can't do that, one of the things that I actually try to instill in the talk is when you run into the kind of data that you don't know how to represent, just google it. Search "how do I do text with machine learning", for instance, and you'll get a lot of results. You might have to wade through a little bit and figure out what seems to be the most popular way of doing that, and figure out "Oh, I'll use TF-IDF", for instance.
 
-\[00:40:04.07\] The third way, if you're looking at projects on GitHub - and this is still cheating, but you can do some amount of validation by looking at how many stars something has and how many forks things have... If something has a lot of activity related to it, it's a good chance that it is well-maintained.
+\[40:04\] The third way, if you're looking at projects on GitHub - and this is still cheating, but you can do some amount of validation by looking at how many stars something has and how many forks things have... If something has a lot of activity related to it, it's a good chance that it is well-maintained.
 
 **Daniel Whitenack:** Could you describe a little bit more how that activity is represented on GitHub, for example? You mentioned stars, activity... How is that activity represented, or what could you be looking for?
 

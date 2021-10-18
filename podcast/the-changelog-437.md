@@ -16,7 +16,7 @@
 
 **Jerod Santo:** And what was the purpose? What was its intended--
 
-**Domen Kožar:** \[00:04:11.28\] The purpose was - again, this is according to me talking to Eelco many years ago - to see if functional programming paradigms can be applied to solve packaging problems.
+**Domen Kožar:** \[04:11\] The purpose was - again, this is according to me talking to Eelco many years ago - to see if functional programming paradigms can be applied to solve packaging problems.
 
 I think that the university there has a pretty big department on functional programming research, and this was one of the areas that they tried to apply to it.
 
@@ -40,7 +40,7 @@ On top of that, the design - you know, one of the biggest features advertised is
 
 **Adam Stacoviak:** If you're on Linux, is this in some cases a replacement or an augmentation of apt-get, or apt, or is this sort of like a whole separate thing where it's purely for building and delivering software? How do those two worlds play together, between like an apt, or an apt-get, or something like that? Are they completely different?
 
-**Domen Kožar:** \[00:08:11.17\] Yeah, they're completely different. Nix replaces the whole stack... It exposes a so-called imperative package management model, which is what you are familiar with apt-get; so we can, say, install a package, or uninstall a package, and so on. But behind the scenes it works very differently. There is a folder called /nix/store, and in that folder it will put packages prefixed by a hash, the hash of all inputs that nix needed to build this package. So the idea there is that nix will always guarantee that the result of the binary output when you build a package is the result of all the inputs that it needed to build this package. Then it will expose, like I said, a command line interface over that, so you can uninstall and search packages.
+**Domen Kožar:** \[08:11\] Yeah, they're completely different. Nix replaces the whole stack... It exposes a so-called imperative package management model, which is what you are familiar with apt-get; so we can, say, install a package, or uninstall a package, and so on. But behind the scenes it works very differently. There is a folder called /nix/store, and in that folder it will put packages prefixed by a hash, the hash of all inputs that nix needed to build this package. So the idea there is that nix will always guarantee that the result of the binary output when you build a package is the result of all the inputs that it needed to build this package. Then it will expose, like I said, a command line interface over that, so you can uninstall and search packages.
 
 What allows this flexibility of rollbacks is that these packages are completely installed in separate folders. In make you have prefix, where you can say where it will install something, and this is the nix store, slash, and then that hash. It's called a global store, where you have all the packages then.
 
@@ -58,7 +58,7 @@ Then there's the OS, which is a Linux distribution built on top of the package m
 
 And then there's different smaller parts of the ecosystem, like Home Manager, which allows you to manage home files, dotfiles. That's a separate project, but still, it's done by Nix. And yeah, people do all kinds of crazy stuff with the Nix API to build and deploy software, so it can be applied to any of these things.
 
-**Jerod Santo:** \[00:12:18.03\] It's kind of nice, because it's approachable in that way. If you're already just running macOS, or maybe running Ubuntu as your development environment and you want to use Nix package manager, and have your own little isolated Nix environment, you can do that, so you don't have to go all-in. But if you wanna go all-in maybe a year later, you're loving it and you're wondering "Why don't I just use Nix for everything?", you can set it up as your desktop environment and run an entire distribution of Linux that has Nix at its core.
+**Jerod Santo:** \[12:18\] It's kind of nice, because it's approachable in that way. If you're already just running macOS, or maybe running Ubuntu as your development environment and you want to use Nix package manager, and have your own little isolated Nix environment, you can do that, so you don't have to go all-in. But if you wanna go all-in maybe a year later, you're loving it and you're wondering "Why don't I just use Nix for everything?", you can set it up as your desktop environment and run an entire distribution of Linux that has Nix at its core.
 
 **Domen Kožar:** Yeah, exactly. I think the easiest way to get started is to use the nix-shell, which allows you to -- it's kind of like virtualenv, but system level, or  Ruby environment, or all these language-specific tools. And you can expose then a shell environment for your project with a bunch of tooling, which is reproducible, and you always get the same kind of tools... And it's pretty nice, because you can share that between Linux and MacOS. So we just drop that file in, and that's a really good start, I would say.
 
@@ -72,7 +72,7 @@ Now, to be fair, Debian and others are pretty strict what goes in and what doesn
 
 And everything that is free is also built from source, and there is a binary for it, unless it's broken, or some other -- but yeah, by default we build all the packages on a part of the ecosystem called Hydra, which is kind of like a CI system, also built for Nix. It's the build farm, which has macOS, Linux, and also ARM v8 machines to compile these things and provide binaries for everyone.
 
-**Adam Stacoviak:** \[00:16:00.03\] It seems like the core tenet of it really is about reproducible builds. It seems like that's the core feature that everything sort of hangs upon. Even in the documentation, when it talks about Nix, it says -- you know, a lot of what you've already said here, but it says "This means that it treats packages like values, and in purely functional programming languages such as Haskell, they are built by functions that don't have side effects, and they never change after they've been built. So really around this reproducible builds scenario, where you wanna ensure that the package you're using has never been changed, it hasn't been altered... And then some other features, such as rollbacks, or as you mentioned, atomic upgrades and rollbacks seem like other core tenets to why you might use it, and everything else is sort of like similar in nature to, say apt-get, or apt, or Homebrew. A lot of the reasons why you use it is very similar to that, but the core tenet being reproducible builds; being sure that the thing you're using in fact has never been changed, and what compiled it didn't inject any sort of side effects as a process.
+**Adam Stacoviak:** \[16:00\] It seems like the core tenet of it really is about reproducible builds. It seems like that's the core feature that everything sort of hangs upon. Even in the documentation, when it talks about Nix, it says -- you know, a lot of what you've already said here, but it says "This means that it treats packages like values, and in purely functional programming languages such as Haskell, they are built by functions that don't have side effects, and they never change after they've been built. So really around this reproducible builds scenario, where you wanna ensure that the package you're using has never been changed, it hasn't been altered... And then some other features, such as rollbacks, or as you mentioned, atomic upgrades and rollbacks seem like other core tenets to why you might use it, and everything else is sort of like similar in nature to, say apt-get, or apt, or Homebrew. A lot of the reasons why you use it is very similar to that, but the core tenet being reproducible builds; being sure that the thing you're using in fact has never been changed, and what compiled it didn't inject any sort of side effects as a process.
 
 **Domen Kožar:** Yeah, that's correct. I think there is a lot of benefits, and one of the jobs that we haven't been doing that great as a community is really enumerating all of them... Because one side of it is this page of reproducible builds, because of the purely functional model... But I don't like to explain it that way, because I think a lot of people might not be familiar with these terms and what it means in the context of package management. And we haven't been really able to put up a good way of "What are the benefits, the consequences of that design."
 
@@ -84,7 +84,7 @@ So Nix as a language evaluates to so-called derivations. These are the instructi
 
 On the way, you can also, instead of building substitutes - that's the technical term we use when, say, you download a package for this hash, which is then the binary you get, instead of building. That's a kind of pretty nice benefit, I think.
 
-**Break:** \[00:19:06.17\]
+**Break:** \[19:06\]
 
 **Jerod Santo:** So let's say I wanna use Nix to install Firefox, and I type "nix install firefox", or you can tell us what you would type... Or what do I do? And then tell us what Nix would do, and then we'll go from there and talk through what that provides, and why I might wanna do it that way.
 
@@ -102,7 +102,7 @@ The idea of this sandboxing is, of course, for the build to be reproducible, and
 
 So the builder will take care of the building part, and this is where I previously talked about evaluation and building separation kicks in. When you will install Firefox, it will find a Firefox file, it will evaluate this first... So it will evaluate the Firefox derivation, and then everything up to the bootstrapping bit. And then once that's done, it will start to build.
 
-\[00:24:14.07\] And the building phase is not that interesting. There's essentially two parts to it. One is that it will use these derivation files to call this builder, as I've mentioned... But before it does that, it will also check with this hash if there exists a binary package for it, and it will substitute it if there is one. And if not, and if not, then it will go and build it.
+\[24:14\] And the building phase is not that interesting. There's essentially two parts to it. One is that it will use these derivation files to call this builder, as I've mentioned... But before it does that, it will also check with this hash if there exists a binary package for it, and it will substitute it if there is one. And if not, and if not, then it will go and build it.
 
 How that works is that when the package is built, as I've mentioned, Nix will put it in the /nix/store/, and then hash and the name of the package, and then everything goes in there. And the same for all the dependencies.
 
@@ -116,7 +116,7 @@ So that's the garbage collection bit... But let's go back to installing. Now we 
 
 **Jerod Santo:** So how does it accomplish that? So I understand completely, because it has /nix/store/unique-hash-firefox, or whatever... I understand how that provides for multiple versions installed on the same system, right? And I can also understand how once you have this ever-adding system where you're just adding a new install Firefox, and you still have the old ones (unless you garbage-collect), how you could do your atomic upgrades at that point... Because now you're just swapping a symlink between those versions. And like you said, that's an atomic operation in Linux, so it happens in a split-second, and so that's really good...
 
-\[00:28:15.02\] It doesn't explain to me the multi-user support. So you said there's profiles... Is everything stored in the Nix store, and then it's just like the profiles are elsewhere, and point to which versions you are using? Or how does it know when it's garbage-collecting that Adam's profile has this Firefox, but my profile has a different Firefox? How are those segregated?
+\[28:15\] It doesn't explain to me the multi-user support. So you said there's profiles... Is everything stored in the Nix store, and then it's just like the profiles are elsewhere, and point to which versions you are using? Or how does it know when it's garbage-collecting that Adam's profile has this Firefox, but my profile has a different Firefox? How are those segregated?
 
 **Domen Kožar:** The easiest way to imagine it is, Debian installation would be one profile, and then you have different profiles in your system. The way Nix stacks those together is - if I understand your question - it will just append the path by the hierarchy of the profiles you have activated. So if you have a user one and a system one, then the user one will append the bin path of the user profile first, and then the system profile bin path will come second. So then all the packages that are installed in the user profiles come from the user profile bin path, and then the system one follows.
 
@@ -142,7 +142,7 @@ So when you run garbage collect, you can do it for the user, or you can do it gl
 
 **Adam Stacoviak:** So since we compared Nix as analogous to how somebody might be familiar with apt or apt-get - does apt, or apt-get, or Homebrew, are they not in this kind of world where it's reproducible? Is that not a concern in those worlds? Or is that not a scenario? When I run apt-get install git, for example -- I suppose I can apt-get install firefox, or something like that... If that's the case, am I just grabbing what's in the registry and pulling that to my machine? Because I'm not making or building there, in most cases, right? ...unless it's something that needs to be built.
 
-**Domen Kožar:** \[00:32:09.18\] Right.
+**Domen Kožar:** \[32:09\] Right.
 
 **Adam Stacoviak:** So Nix runs on reproducible builds, and the fact that it makes these builds hashes, secure by nature, because you can prove the complete dependencies, you know what's involved... All that good stuff. And that hash proves it, and that's the way it works by design. How does that compare to apt or apt-get? Do they not do that?
 
@@ -160,7 +160,7 @@ So of course, Debian probably has some servers where they build this in a sandbo
 
 In Nix everything is sandboxed by default, so everyone that's building anything on Nix gets this guarantee, and it's enforced. So yeah, that's the main difference between the two.
 
-**Break:** \[00:34:46.02\]
+**Break:** \[34:46\]
 
 **Jerod Santo:** Domen, one of the things you said at the top, and also you say on Nix ecosystem is a DevOps toolkit; so there's a DevOps focus in what Nix is providing. So not just merely installing Firefox on my local Linux box so I can browse the web, but using this for getting your DevOps, getting your stuff out there in the world; taking your software, putting it out there, whether it's a web app stack, or whatever it happens to be... So that makes me wonder how it fits in with other devopsy things, and would you use Nix plus this configuration language to create these isolated installs, similar to a universal binary kind of idea, where you're like "Just take this folder and put it on another machine and it runs"? Would you use it instead of Docker, would you use it with Docker and Docker Compose? Help us understand where Nix fits in as a DevOps thing, where I might use it to deploy some software.
 
@@ -186,7 +186,7 @@ The reason why people don't really notice that is because Docker Hub has the his
 
 **Domen Kožar:** So there is an official Nix image where you have Nix installed, and you can build stuff inside the Docker containers. But there is also an API in Nix language, so that you can build images with Nix... Which is pretty cool as well, because you will get very minimal images compared to stacking them up, as people usually do.
 
-\[00:40:09.03\] You have whatever you build, which depends on something else, and which depends on Alpine, Linux and so on. So this quickly adds up. Whereas if you go through the Nix route, you just build your thing, and then you copy that into the Docker container, and it has nothing else, essentially. It's also potentially faster, but yeah... Let's not go into those details.
+\[40:09\] You have whatever you build, which depends on something else, and which depends on Alpine, Linux and so on. So this quickly adds up. Whereas if you go through the Nix route, you just build your thing, and then you copy that into the Docker container, and it has nothing else, essentially. It's also potentially faster, but yeah... Let's not go into those details.
 
 **Jerod Santo:** Yeah, I saw a cool example on the examples screencast, where it was setting up a Docker image that had a specific tool, where it showed three versions. It was like the stock Nix version, stock Debian, and then the Alpine Linux; these were the containers, the images. And at first, the Alpine Linux one was just teeny-tiny, of course, because it's just a stripped-down version... And the Nix one was somewhere in the middle of the other two. And then, the screencast goes in to show how it could, instead of taking just the default package, the Nix package for this particular piece of software -- I can't remember the software; NGINX maybe, or maybe it was simpler than that... And instead of merely using the precompiled binary and putting that in its image, it would go in there and just tweak a couple flags; a compile flag... And then it removed some sort of subdirectory that it didn't care about, and it was able to achieve an image that was even smaller than Alpine Linux's, just through those couple of tweaks.
 
@@ -200,7 +200,7 @@ So I think that's really powerful, compared to if you then go tweak those Docker
 
 **Domen Kožar:** Yeah, maybe that's a weird way to put it... As I said previously, you can control where it's built, and you can then deploy from one machine to 20 others, for example. Now, Nix will either copy what it needs there from your local machine, or it will substitute from a binary cache. So really, remote there means that you're not really doing anything on that machine except copying them and then activating the NixOS. I'm talking about the OS bit here... There's also these only two profiles, but that's not as convenient by default. So that's the remote part.
 
-**Jerod Santo:** \[00:44:03.23\] And what would be an example of why you'd wanna do that? Would it be for cost savings on the wire, or caching? For what reason would you want to do that?
+**Jerod Santo:** \[44:03\] And what would be an example of why you'd wanna do that? Would it be for cost savings on the wire, or caching? For what reason would you want to do that?
 
 **Domen Kožar:** So you're saving all the research. Usually, the way you're deploying is optimized for the runtime features of your thing... A very good example of this is if you have a Raspberry Pi - you kind of don't want to compile stuff on Raspberry Pi. You would want to compile on an EC2 ARMv8 machine.
 
@@ -220,7 +220,7 @@ So I think that's really powerful, compared to if you then go tweak those Docker
 
 Also, on the community side there's a lot going on. We had a couple of conferences... So the community is growing pretty fast. We are having issues with actually a lot of people coming in, so we're trying to do more policy stuff, so that we can grow faster and less chaotic... And on the research side, there is a bunch of new things coming in. One thing is called content-addressable store. This is quite similar to what Bazel does. I'm not sure if I should go into explaining that, because it's really in the phase of development right now... But essentially, it's an optimization of when you build -- in Nix, if you rebuild something that is in the beginning of the dependency tree (let's say Bash), you have to then rebuild everything that depends on Bash. What a content-addressable approach allows you to say is if the derivation output of Bash is the same as it was previously, then you don't need to rebuild the rest that depends on it. And this completely needs a different design.
 
-\[00:47:56.13\] So maybe Bash is not the best example, but let's say if you would modify Git, and then Firefox depends on Git, then Firefox output probably wouldn't change, even though you have changed Git... So Firefox wouldn't change, and anything that depends on Firefox then wouldn't need to be recompiled, for example.
+\[47:56\] So maybe Bash is not the best example, but let's say if you would modify Git, and then Firefox depends on Git, then Firefox output probably wouldn't change, even though you have changed Git... So Firefox wouldn't change, and anything that depends on Firefox then wouldn't need to be recompiled, for example.
 
 There is a really cool paper called Build Systems a la Carte, that unfortunately doesn't have Nix inside, but it compares different build systems and different features they have, and Nix will then tick all the feature boxes once this feature is complete... And be, essentially, I would say, better than Bazel in that sense. So that's one of the areas.
 
@@ -234,7 +234,7 @@ A bunch of other languages where this is useful, as well... I would say there's 
 
 Well, actually, my friend Nate told me this one, and I really like this concept - you know, Nix is kind of like when we had PHP and you would hack on the live server, and all of that. That was back in the day considered as an accepted practice. It's the same with Nix now... So if you go to a Nix machine and you just try to edit some files, it won't work. You have to edit the Nix files and redeploy. This usually creates a bit of resistance from people who are used to Debian, for example.
 
-\[00:51:00.14\] So Nix kind of turns operational tasks into development tasks, so you kind of have to pay this cost upfront, of actually describing your system in one file, and so on, which takes some time... But once you do that, you save a lot of operational problems. We see a lot of people figuring this out in the wild, and then coming to Nix as a lessons learned.
+\[51:00\] So Nix kind of turns operational tasks into development tasks, so you kind of have to pay this cost upfront, of actually describing your system in one file, and so on, which takes some time... But once you do that, you save a lot of operational problems. We see a lot of people figuring this out in the wild, and then coming to Nix as a lessons learned.
 
 **Adam Stacoviak:** Gotcha. If someone's listened this far, they're like "Man, this is interesting/somewhat interesting to me", whatever, what's your go-to place to get started? Is it nix.dev, is it another place? Where do you send people to -- obviously, they've maybe gotten past the reproducible builds, understanding the reliability of that, potentially even the extra security of what that means... Where do you send people to get started? If they're DevOps, do you send them to a certain place? If they're from Haskell, do you send them to other places? Is there a different place for a different camp? What is a good place to kick the tires, begin, get started play around, and maybe fall in love?
 

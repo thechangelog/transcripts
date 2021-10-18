@@ -26,7 +26,7 @@
 
 **Adam Stacoviak:** Right. It wasn't originally Maintainer Week, right? GitHub had their own thing... Kara, I didn't say what your role is at GitHub, or even that you're at GitHub yet, so please share your role and what you do at GitHub... But you all had your own plans. It wasn't Maintainer Week. Or was it?
 
-**Kara Sowles:** \[00:04:18.27\] It was. On the GitHub side, my intention was to do Maintainer Week. We had a lot of discussions, should we do a month, should we do a week... So I was hoping that other folks would do events that week. So for us, it was a big win, like "Oh, cool, Tidelift's already planning something."
+**Kara Sowles:** \[04:18\] It was. On the GitHub side, my intention was to do Maintainer Week. We had a lot of discussions, should we do a month, should we do a week... So I was hoping that other folks would do events that week. So for us, it was a big win, like "Oh, cool, Tidelift's already planning something."
 
 **Adam Stacoviak:** Yeah.
 
@@ -112,7 +112,7 @@ So if you're listening to this and you wanna host something that week, whether i
 
 **Josh Simmons:** This is exactly the same kind of energy we're trying to cultivate around Maintainer Week, you know? This is spot on.
 
-**Adam Stacoviak:** \[00:08:11.20\] Precisely.
+**Adam Stacoviak:** \[08:11\] Precisely.
 
 **Kara Sowles:** Yeah. Where do they come from? Do maintainers come from eggs? Egg sacs? There's a lot to explore there.
 
@@ -164,7 +164,7 @@ So if you're listening to this and you wanna host something that week, whether i
 
 **Josh Simmons:** Yeah, sure. So Upstream, the one-day event, we're trying to do two things. For Upstream we're really trying to center maintainers. But maintainers are not the audience for Upstream, is the first thing that I will say. We have two tracks. One track is kind of corporate open source people at the top of their game, looking at how we got to where we are, what are best practices now, what are the challenges we're still facing and how do we address them, then what are the deeper systemic issues that we have, that we still need to figure out as an industry, with the idea that hopefully everybody who attends comes away with a more nuanced understanding of open source, in the sense of "Hey, these are the things that our organizations need to do to make this ecosystem work for everybody."
 
-\[00:12:07.25\] So that's one side of the house, the corporate open source side. The other side is where - to put it frankly, the way that I've described it is we're giving maintainers a soapbox. Because Tidelift is bringing together an audience of downstream users to its conference Upstream, and we want to really make sure that - you know, what is the pain that maintainers are feeling? What are the frustrations that they have? I've got some guesses, I've got some thoughts, but I would really rather just give them a platform to speak directly to their downstream users, and have it be a place where it's expected that you're gonna be pontificating; it's expected that you might be griping a bit, or asking other stakeholders to step up in ways that you haven't seen them in the past.
+\[12:07\] So that's one side of the house, the corporate open source side. The other side is where - to put it frankly, the way that I've described it is we're giving maintainers a soapbox. Because Tidelift is bringing together an audience of downstream users to its conference Upstream, and we want to really make sure that - you know, what is the pain that maintainers are feeling? What are the frustrations that they have? I've got some guesses, I've got some thoughts, but I would really rather just give them a platform to speak directly to their downstream users, and have it be a place where it's expected that you're gonna be pontificating; it's expected that you might be griping a bit, or asking other stakeholders to step up in ways that you haven't seen them in the past.
 
 **Jerod Santo:** That could be therapeutic for some people.
 
@@ -196,7 +196,7 @@ So yeah, that will be the 8th and the 9th... We'll have a variety of talks, but 
 
 **Josh Simmons:** One of the things that I'm really excited for at Global Maintainers Summit is the way that it's creating a space for people to compare notes across ecosystems, across different types of projects. There have been really great efforts in the past to bring maintainers together, but we really don't see much of a throughline; those efforts have come and gone, and stalled, and maybe gone on pause... And the challenges we're facing are such that we really just need to keep that cross-pollination going. So I'm so excited to see what we all learn there.
 
-**Adam Stacoviak:** \[00:16:19.26\] Yeah.
+**Adam Stacoviak:** \[16:19\] Yeah.
 
 **Kara Sowles:** That's a good point, Josh, about kind of other related stuff. A lot of folks have asked me how is this similar or different from Maintainerati. For those who might remember, Maintainerati was an ongoing event bringing maintainers together to have these really important conversations. It was something GitHub's been really involved in each year. And the last one of those would be I think Berlin 2019, where a few hundred folks got together to have really that quality, unconference conversation. And I think that is the ideal method for folks in a specialized role like this to talk to each other. Nothing beats open spaces, nothing beats defining your own topics and having those connections.
 
@@ -216,9 +216,9 @@ I think both of these events are kind of in a compromise space, both Upstream an
 
 **Jerod Santo:** And a lot of ideation, a lot of safe places to let your gripes out if you had them... It was a lot of fun. The challenge, like y'all said, is that we're only virtual right now, and those connections are just harder to make via Zoom. This Gather.town thing is very cool; I hadn't seen it. For those who haven't, it kind of has like this top-down Secret of Mana, or Zelda, circa A Link to the Past aesthetic, which is super-rad... And I'd be interested to participate and just see if this gives you some of that serendipity, some of that opportunity to connect in ways that we haven't been able to as of late.
 
-**Kara Sowles:** \[00:19:51.03\] I think one of the defining things about events like that is the ability to be vulnerable, to say things you might not say on a larger Zoom call, and to acknowledge things that are more difficult. So a big part of our goal with the Global Maintainer Summit is how do we bring that vulnerability back, even though it's a virtual event. So a lot of the speakers are going to be (I think) opening up a bit more, and we're gonna try to keep that -- I guess a place that's kind of safe to have those conversations. Whether or not we'll accomplish that with the virtual event, you folks will let us know afterwards.
+**Kara Sowles:** \[19:51\] I think one of the defining things about events like that is the ability to be vulnerable, to say things you might not say on a larger Zoom call, and to acknowledge things that are more difficult. So a big part of our goal with the Global Maintainer Summit is how do we bring that vulnerability back, even though it's a virtual event. So a lot of the speakers are going to be (I think) opening up a bit more, and we're gonna try to keep that -- I guess a place that's kind of safe to have those conversations. Whether or not we'll accomplish that with the virtual event, you folks will let us know afterwards.
 
-**Break:** \[00:20:20.20\]
+**Break:** \[20:20\]
 
 **Jerod Santo:** So we had the two of you magically coming together, co-planning without even knowing you're co-planning, the same kind of thing on the same day, turning it into Maintainer Week, multiple events, lots going on... But why? Why were you planning these things? Let's start with Kara; you are at GitHub. Tell us what you do at GitHub, why are the maintainers on your mind, why do you think Maintainer Week is something worth doing? What's your role there, and what's a day job look like?
 
@@ -238,7 +238,7 @@ I'm gonna guess this is the same for all of you folks, but the thing that's been
 
 **Jerod Santo:** How do folks get on your radar? Is it "squeaky wheel gets the oil" kind of thing, where like if I'm a maintainer and I'm like "I would love to have Kara or somebody at GitHub as a sounding board, or questions, or ideas, or whatever" - how does that play out? How do I reach you?
 
-**Kara Sowles:** \[00:24:00.01\] Yeah, it's a mix. We do outreach, folks reach out to us... So if you wanna chat with me, you can email opensouce@github.com. It's pretty easy, and you're always welcome to send an email through there, let us know how stuff's going, stuff like that.
+**Kara Sowles:** \[24:00\] Yeah, it's a mix. We do outreach, folks reach out to us... So if you wanna chat with me, you can email opensouce@github.com. It's pretty easy, and you're always welcome to send an email through there, let us know how stuff's going, stuff like that.
 
 **Adam Stacoviak:** There you go.
 
@@ -290,7 +290,7 @@ And I've gotta say, I thought - as someone who primarily works online - that per
 
 **Adam Stacoviak:** Yeah.
 
-**Josh Simmons:** \[00:27:56.07\] So one of the other hats I wear is I'm a co-organizer of North Bay Python. We live in Fire Country, and two out of the last conferences we found ourselves just barely dodging fires. At the last one, the fires were so intense, we were a week out from the conference and we were both planning how to go forward with the conference, as well as how we would cancel the conference if push came to shove.
+**Josh Simmons:** \[27:56\] So one of the other hats I wear is I'm a co-organizer of North Bay Python. We live in Fire Country, and two out of the last conferences we found ourselves just barely dodging fires. At the last one, the fires were so intense, we were a week out from the conference and we were both planning how to go forward with the conference, as well as how we would cancel the conference if push came to shove.
 
 And I know for us that was really difficult, but it would have been far more difficult if we were one of those larger conferences where they've got multi-year contracts with the venues, they've got insurance that will only cover their losses if for instance it's a mandate, rather than just sort of a voluntary "Okay, it's not safe to hold an event." And across the U.S, the rules are so different... I think a lot of event organizers have been planning to go in-person, whether or not they want to, almost because that's kind of what the insurance environment requires of them.
 
@@ -326,7 +326,7 @@ As event organizers yourselves, you've probably put more thought into these thin
 
 **Kara Sowles:** Yeah.
 
-**Josh Simmons:** \[00:32:06.26\] Because events have a multiplier effect on our culture and on people's careers, so if we don't run events that are accessible, then we are either entrenching the status quo... I don't think it's controversial to say that the status quo within open source demographically is pretty disappointing...
+**Josh Simmons:** \[32:06\] Because events have a multiplier effect on our culture and on people's careers, so if we don't run events that are accessible, then we are either entrenching the status quo... I don't think it's controversial to say that the status quo within open source demographically is pretty disappointing...
 
 **Kara Sowles:** Yeah.
 
@@ -356,7 +356,7 @@ We gave a talk at PyCon US a few years ago about this. I keep mentioning North B
 
 So I know that on the one hand we're asking more of event organizers, but I know it's doable. These lessons are out there. People are happy to help, too.
 
-**Break:** \[00:36:29.17\]
+**Break:** \[36:29\]
 
 **Jerod Santo:** So Josh, we heard about Kara's role at GitHub, and we heard about your event planning exploits... We haven't heard much about what you do at Tidelift and what it even means to be the president of the Open Source Initiative. It sounds awesome, but is that like a big deal, or what do you do with the Open Source Initiative?
 
@@ -364,7 +364,7 @@ So I know that on the one hand we're asking more of event organizers, but I know
 
 OSI is such a fundamental piece of infrastructure for everything that we care about here, whether or not it's acknowledged or not... And it's just a really, really interesting time to be at OSI. The last couple of years we've seen a lot of relicensing... The landscape of open source licensing is a very interesting space right now, so I feel a great deal of responsibility as president of the board there to lead the organization through that time, but then also help evolve the organization so that it is a more effective advocate going into the future.
 
-\[00:40:00.02\] OSI has been largely volunteer-driven for a long time, and we're trying to shift it to be a staff-driven organization, with volunteer supervision, so that it continues to be representative of community values, and evolves with the community as our values evolve... But that ultimately the work gets done by staff, so that it can be responsive and get things done. Because suffice it to say, getting things done through a committee of volunteers - not effective or efficient.
+\[40:00\] OSI has been largely volunteer-driven for a long time, and we're trying to shift it to be a staff-driven organization, with volunteer supervision, so that it continues to be representative of community values, and evolves with the community as our values evolve... But that ultimately the work gets done by staff, so that it can be responsive and get things done. Because suffice it to say, getting things done through a committee of volunteers - not effective or efficient.
 
 **Adam Stacoviak:** It's challenging.
 
@@ -394,7 +394,7 @@ So on the one hand, we're still trying to figure out "How do we get maintainers 
 
 I get the sense that there's this feeling of exploitation, and people feel raw... So I think we have a lot of problems to solve; not just funding, but how do we wrap around these maintainers to provide them all of the supports that they need? Because funding is really just one piece of the puzzle.
 
-**Kara Sowles:** \[00:43:46.14\] I think adding into that this year - we've looked at the numbers on GitHub at least in the State of the Octoverse for 2020... Which you can see at octoverse.github.com, because it's really interesting metrics, and I love that stuff... But you see a lot more time being spent by a lot more folks on open source throughout this year. So you have this surge; we're stuck at home, people don't have as much definition between different kinds of work, family life and work, so you have people working even a lot longer hours on open source, which exacerbates a lot of that.
+**Kara Sowles:** \[43:46\] I think adding into that this year - we've looked at the numbers on GitHub at least in the State of the Octoverse for 2020... Which you can see at octoverse.github.com, because it's really interesting metrics, and I love that stuff... But you see a lot more time being spent by a lot more folks on open source throughout this year. So you have this surge; we're stuck at home, people don't have as much definition between different kinds of work, family life and work, so you have people working even a lot longer hours on open source, which exacerbates a lot of that.
 
 **Jerod Santo:** Yeah.
 
@@ -428,7 +428,7 @@ And then you see metrics over time growing... Obviously, you saw OSCON growing, 
 
 **Adam Stacoviak:** Yeah. I really appreciated that, what you had in the readme. So what's going on here, it's important to note that this is not a GitHub-owned thing; this is a -- you said "No one owns Maintainer Week. It's for everyone." I think that's the -- it's why I wanted to do this show, it's to share that bigger story; how you all got together, your background relationship, how this idea came together... And then truly, this at-large invitation, and now confirmed annual thing.
 
-**Josh Simmons:** \[00:47:45.29\] That's right. I wanna speak a little more to that point, about like, this isn't owned by GitHub, this isn't owned by Tidelift. GitHub and Tidelift are fortunate that their business models are such that the better open source does, the better they will do. So we are invested in open source in a really authentic way. The incentives are aligned, and so similar to how Global Maintainer Summit and Maintainer Week are not owned by GitHub -- you know, Tidelift may be convening upstream, but it's not a vendor event. We're not there for ourselves. If we are, it's for thought leadership; like, let's bring together people and have quality conversations and make a dent in the world in a positive way. But we're not selling anything, and we don't wanna own this space. We wanna be peers, we wanna be fellow travelers. We just wanna stand up this sort of community infrastructure for other people to pile in.
+**Josh Simmons:** \[47:45\] That's right. I wanna speak a little more to that point, about like, this isn't owned by GitHub, this isn't owned by Tidelift. GitHub and Tidelift are fortunate that their business models are such that the better open source does, the better they will do. So we are invested in open source in a really authentic way. The incentives are aligned, and so similar to how Global Maintainer Summit and Maintainer Week are not owned by GitHub -- you know, Tidelift may be convening upstream, but it's not a vendor event. We're not there for ourselves. If we are, it's for thought leadership; like, let's bring together people and have quality conversations and make a dent in the world in a positive way. But we're not selling anything, and we don't wanna own this space. We wanna be peers, we wanna be fellow travelers. We just wanna stand up this sort of community infrastructure for other people to pile in.
 
 I think we've got at least one, maybe two other events that are in the works for this year's maintainer week. Stay tuned for those. But the hope i that 2022 comes around, and there just aren't even enough days in the week for us to pile in... And we've got a much, much bigger, more communal thing.
 
@@ -486,7 +486,7 @@ And Adam, I think we should do a thing. What do you think?
 
 **Adam Stacoviak:** Now, what day of the week will it be on?
 
-**Jerod Santo:** \[00:52:05.20\] Oh, Thursday.
+**Jerod Santo:** \[52:05\] Oh, Thursday.
 
 **Adam Stacoviak:** I like the time constraint of it. It's like, "Hey, thank all the maintainers within this window of time", or this date stamp.
 
@@ -552,7 +552,7 @@ I don't want you to think it's all this broad stuff. We have plenty of very spec
 
 **Adam Stacoviak:** Oh, yeah.
 
-**Kara Sowles:** \[00:55:56.15\] So we've got a lot of very specific ones for the things that you're like \[unintelligible 00:55:59.08\] on a daily basis as well.
+**Kara Sowles:** \[55:56\] So we've got a lot of very specific ones for the things that you're like \[unintelligible 00:55:59.08\] on a daily basis as well.
 
 **Adam Stacoviak:** Yeah. I'm not sure how you say \[unintelligible 00:56:02.14\] is very similar to what we had, that conversation with Ben Johnson around "open source, but not open contribution." Not quite the same, but similar. Basically, avoiding that pain of like - sometimes code you don't want for reasons you don't want it, or just extra code... And that was the idea there. I think those are very necessary to talk about, because unless you have those kinds of talks, maintainers aren't kind of collecting together and saying "How do you deal with this?" We did that call with Ben that was like -- we got a lot of feedback around this idea of "Sure, it's open source, but it doesn't have to be open to contribution, for any reason." And one of Ben's reasons for his choice was mental health. He's been an open source maintainer in his past project; it wasn't healthy for him personally. And we can all make our own choices for our own reasons, and open source doesn't have to only be this way. Sure, it is open source... I forget what the license is; is it MIT, Jerod? Or is it AL v2? I'm not sure which one it is. But it's permissive.
 

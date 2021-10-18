@@ -1,4 +1,4 @@
-**Tim Smith:** \[00:01:46\] Where do I even begin to introduce Jeff Robbins? You see, Jeff has had a few different successful careers in a time that most of us get around to one. He worked on the web before there was a web. He started a company that's built some of the most famous websites, and as if that weren't enough, he was in a band in the '90s that signed with A&M Records, toured the U.S. and Canada and played at some of the coolest events. So where exactly does Jeff's story begin? In a magical place called the '80s.
+**Tim Smith:** \[01:46\] Where do I even begin to introduce Jeff Robbins? You see, Jeff has had a few different successful careers in a time that most of us get around to one. He worked on the web before there was a web. He started a company that's built some of the most famous websites, and as if that weren't enough, he was in a band in the '90s that signed with A&M Records, toured the U.S. and Canada and played at some of the coolest events. So where exactly does Jeff's story begin? In a magical place called the '80s.
 
 **Jeff Robbins:** \[laughs\] Okay, let's go into the way-back machine, Tim. Man, I mean, I've been interested in computers and that kind of stuff for a long time, and I'm old, so it goes way back... In the '80s my dad bought a IBM PC Junior, which was like the cheaper one that people could afford for their house, and I started learning basic programming on that, and then I -- yeah, I did all kinds of stuff... I had a Hewlett Packard programmable calculator that I'd won in the State Math Fair -- or the Science Fair... In my town it was the Math Fair, and then we went to the State Science Fair... And I won this calculator and I programmed it to play Monopoly... So you know, I'm a nerd going waay back to the '80s.
 
@@ -6,7 +6,7 @@ Then I bought an Atari ST computer that had MIDI ports on it, so I could hook it
 
 I started doing temp work on Macs, and learned desktop publishing, and eventually learned FreeHand, which was kind of a precursor to what we now call Illustrator, and ended up getting a job at O'Reilly, doing technical illustrations for their books... And they were connected to the internet, which was really cool! I could FTP out to things, and there was a thing called Gopher, which was a precursor to the web, and I could connect to these free software - actually free software, not pirated software - open source software boards and download software, and it was so much faster than doing it over my modem...
 
-\[00:04:17.10\] Then the web started, and O'Reilly being kind of at a crossroads of that stuff, writing books about TCP/IP -- they had a book about Gopher, and FTP, and all that kind of stuff... The people at CERN, who were developing the HTTP protocol, and HTML - they came to Cambridge, came to the office in Cambridge where I was working, and kind of did this pitch, like "Hey, you all need to get into the web. The web is gonna be the big thing. We want this to be the big thing, and O'Reilly should write books about it."
+\[04:17\] Then the web started, and O'Reilly being kind of at a crossroads of that stuff, writing books about TCP/IP -- they had a book about Gopher, and FTP, and all that kind of stuff... The people at CERN, who were developing the HTTP protocol, and HTML - they came to Cambridge, came to the office in Cambridge where I was working, and kind of did this pitch, like "Hey, you all need to get into the web. The web is gonna be the big thing. We want this to be the big thing, and O'Reilly should write books about it."
 
 Tim O'Reilly and Dale Dougherty being the visionaries that they are, said "Well, we're gonna do more than that... We'll create an online magazine and use our publishing skills to do web stuff." So they started creating the Global Network Navigator, GNN.com, and I was involved in a lot of the brainstorming of that, and the woman who would eventually become my wife was the designer... So my wife is the first commercial web designer, and I got so excited that before GNN even launched I started one of the world's first web development companies in 1993. It was an uphill battle, because no one had heard of the web. \[laughter\] No one wanted a website, because they didn't know what it was.
 
@@ -62,7 +62,7 @@ The metaphor I always use is like "It would be really cool to swim across this l
 
 There's some lessons in there somewhere for somebody, I'm sure... But yeah, that's how I work.
 
-**Break:** \[00:13:52.21\]
+**Break:** \[13:52\]
 
 **Tim Smith:** When and Jeff and Matt Westgate started Lullabot in 2006, they decided that it would be a distributed company from day one.
 
@@ -82,7 +82,7 @@ I think remote workers will find it interesting, this idea of managing up... For
 
 It's happening slowly... The people, the companies that are doing remote work - there's so much excitement and elation around how good it is that it's easy to kind of think that everyone must understand that... But really, in that world of Fortune 500 companies, we're just not there yet; those companies are not champing at the bit to make remote work work... But I think we're gonna hit the tipping point in the next few years, and the podcast is going to become very popular. It's already pretty popular, but...
 
-**Tim Smith:** \[00:20:23.19\] I like the description that remote work is the future of work. I really do think that the companies that have latched onto this idea have only benefitted, because they have this amazing pool of people that they can hire from, that isn't tied to any particular location.
+**Tim Smith:** \[20:23\] I like the description that remote work is the future of work. I really do think that the companies that have latched onto this idea have only benefitted, because they have this amazing pool of people that they can hire from, that isn't tied to any particular location.
 
 I think a lot of the times you find people who are really great workers, who are kind of devoid of the, as I like to say, "ass in seat" mentality, where as long as I'm here for eight hours, I did what I was supposed to do, rather than -- I feel like the remote work whole idea is to be productive in the moments that you're in front of your desk.
 
@@ -100,7 +100,7 @@ Then there are some prerequisites for allowing some autonomy, which is trust, re
 
 I also really like working with really great, talented people. Over the years, with Lullabot, there were a lot of big problems to solve... "Who are we? How do we talk about ourselves? What do we do? How do we do what we do? What is health insurance? How do you offer health insurance to employees?" \[laughter\] You know, things like that, that are these like "Aaargh!"
 
-\[00:24:12.17\] So over time - I'm not saying that I did all of that, but I helped to find really great people to come in and help Lullabot to do that, and we have hired a really great leadership team of really capable people. I don't tend to carry a whole lot of ego when it comes to that kind of stuff. I'm happy to relinquish control and let other people do things when they're capable.
+\[24:12\] So over time - I'm not saying that I did all of that, but I helped to find really great people to come in and help Lullabot to do that, and we have hired a really great leadership team of really capable people. I don't tend to carry a whole lot of ego when it comes to that kind of stuff. I'm happy to relinquish control and let other people do things when they're capable.
 
 So I kind of got to a point where I was surrounded by all these really capable leader people, who were running the company, and we had kind of figured out who we were.
 
@@ -116,7 +116,7 @@ You know, it's taken me a good period of time to find my identity. For so long i
 
 **Tim Smith:** What has that adjustment period been for you? Because I would assume that when you build a business and it's so successful as Lullabot has been, and you're running it for so many years... What is that adjustment like to walk away, and like you said before, trying to figure out what your identity is?"
 
-**Jeff Robbins:** \[00:27:26.18\] Yeah... It's weird, but it's been nice not to carry that weight. It allows me to even relate to the people who continue to work at Lullabot in different ways. I'm not the boss anymore. Also, I started doing business coaching, and talking to other people that lead other companies about what they're doing, and kind of help them to think about their companies, and that's been super-rewarding. It's a lot of the same stuff I was doing as the CEO of Lullabot, but I get to help these other people who have different problems out, and share my experience. That's been really rewarding.
+**Jeff Robbins:** \[27:26\] Yeah... It's weird, but it's been nice not to carry that weight. It allows me to even relate to the people who continue to work at Lullabot in different ways. I'm not the boss anymore. Also, I started doing business coaching, and talking to other people that lead other companies about what they're doing, and kind of help them to think about their companies, and that's been super-rewarding. It's a lot of the same stuff I was doing as the CEO of Lullabot, but I get to help these other people who have different problems out, and share my experience. That's been really rewarding.
 
 And then I started a new band last year, and we put out a five-song EP earlier this year, and it's been getting really good reviews and responses. I just had a show on Saturday, and it was really great. It feels really good to be exercising those muscles again, recording, and the more entrenched, creative side of things.
 

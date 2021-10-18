@@ -148,7 +148,7 @@ I think it's the same thing with reading the docs. You don't have to dedicate th
 
 But I think that's the thing you have to do for the perseverance. As Johnny said, it's not magical; we don't have access to some special information somewhere. It's literally just block out the time, do it, and do it every day, even when you don't want to.
 
-**Break:** \[00:34:10.24\]
+**Break:** \[34:10\]
 
 **Johnny Boursiquot:** I do have to acknowledge that all things being equal, if you are capable of sitting down for 30 minutes, an hour, or two, for really a decent chunk of time to consume content, that's great; then it's just a matter of -- I don't wanna call it willpower, but your motivation to sit down, like you're saying, Kris, sitting in that pain, pushing through that pain, because on the other side there's a payoff. But I do wanna acknowledge that for some it's not easy. Perhaps it's some sort of a reading disability, perhaps it's ADHD, whatever the case might be; I don't know enough about these challenges to speak to them.
 
@@ -228,7 +228,7 @@ If you are out there - and I'm speaking to you, listener, or watcher - and think
 
 So get over that fear, put something out there, whatever form or shape that you'd like... Just contribute your part. We want your part in the lore, especially for documentation as we're talking about here. We want your part of the story. So contribute that.
 
-**Break:** \[00:51:30.12\]
+**Break:** \[51:30\]
 
 **Johnny Boursiquot:** Good stuff... Man, I like that song. Okay, so during pre-show, Ian told us he came prepared... Like, ready to fire off a bleve of just unpopular opinions. Ian, lay one on us.
 

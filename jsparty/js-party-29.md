@@ -22,7 +22,7 @@ Let's first kind of start off my talking a little bit about why do we think this
 
 I don't usually have too much output coming out; I would love to do more things with the data, but I at least like to read it and think about it. I think also the Stack Overflow Survey is another one that we focus on... And I think GitHub even was doing some GitHub user surveys, which we had a show on that back in the day on Request for Commits. So I just like the data side... How about you guys?
 
-**Nick Nisi:** \[00:04:02.04\] I really like using it as an indicator to see where things are and how ahead or behind my skill set is relative to other developers who took this survey. It was also interesting to compare it to the previous years. I look at 2016 through 2018, and it's just interesting to see how things have changed.
+**Nick Nisi:** \[04:02\] I really like using it as an indicator to see where things are and how ahead or behind my skill set is relative to other developers who took this survey. It was also interesting to compare it to the previous years. I look at 2016 through 2018, and it's just interesting to see how things have changed.
 
 **Jerod Santo:** Kball, you did a whole write-up on this on InfoQ, so you obviously think this is pretty important, as well. Are you coming from a similar angle as we are, as why we care?
 
@@ -38,7 +38,7 @@ In some ways -- I mean, there's definitely strong evidence that JavaScript as an
 
 **Jerod Santo:** I know why he wrote that post; we're definitely seeing the tide shifting or rising, or whatever it's doing, in that direction... And it's interesting especially when we get to the section on learning Node.js, and how people go about learning... It's interesting to see, specifically Apple with open-sourcing Swift and trying to get that in such a learning aspect of the world, like education and with people who are coming into programming - that be their first language. Because what we're seeing is JavaScript is a lot of people's first language now, and you can tell how important that is for continued use by how much Apple is throwing into trying to get Swift to be that first language.
 
-**Kevin Ball:** \[00:08:01.02\] Yeah, absolutely. I think resources and learning is a big one, and that was actually one place where -- once again, looking at this year-over-year data, some things didn't change at all... Looking for this idea that JavaScript is taking over the world, I didn't see any evidence for that; that percentage of people doing web dev versus IoT versus whatever had stayed pretty similar. But what did change year-over-year was satisfaction with the learning resources... And also, what percentage of people responding were new to programming. So I think JavaScript has made - and particularly Node - has made some big strides improving the learning resources out there.
+**Kevin Ball:** \[08:01\] Yeah, absolutely. I think resources and learning is a big one, and that was actually one place where -- once again, looking at this year-over-year data, some things didn't change at all... Looking for this idea that JavaScript is taking over the world, I didn't see any evidence for that; that percentage of people doing web dev versus IoT versus whatever had stayed pretty similar. But what did change year-over-year was satisfaction with the learning resources... And also, what percentage of people responding were new to programming. So I think JavaScript has made - and particularly Node - has made some big strides improving the learning resources out there.
 
 **Jerod Santo:** Well, let's come back to learning, let's start with the rapid growth that you documented - I think this was one of the things that you highlighted in your InfoQ article... "There's 10 million Node.js users according to the survey, as compared to 7 million Node.js instances in 2017." So there we have a large rise, right?
 
@@ -64,7 +64,7 @@ They don't really go into the details of how they conducted the survey. Maybe th
 
 Also, looking at other JavaScript communities that I'm a part of, or getting more and more active in the Vue community, there's tons of Chinese representation there; there's a ton of stuff going on, and it makes me think that their survey is probably not that representative of the actual distribution of Node users... At least when it comes to China.
 
-**Jerod Santo:** \[00:11:51.04\] These things are hard, and they're very hard to do well... As with many of these surveys, like Nick said, this is people who are -- I mean, it's going to be Node-heavy because their point is to profile Node.js users, and so that's kind of a self-fulfilling prophecy if you will... But all these numbers - they're great to think about, they're great for discussions like these, and some of them have to be taken with a grain of salt, knowing that there are flaws in methodology, and in sample size, and in all these things.
+**Jerod Santo:** \[11:51\] These things are hard, and they're very hard to do well... As with many of these surveys, like Nick said, this is people who are -- I mean, it's going to be Node-heavy because their point is to profile Node.js users, and so that's kind of a self-fulfilling prophecy if you will... But all these numbers - they're great to think about, they're great for discussions like these, and some of them have to be taken with a grain of salt, knowing that there are flaws in methodology, and in sample size, and in all these things.
 
 **Kevin Ball:** I also found interesting that they had separate questions apparently, distinguishing between Node versus JavaScript. It kind of cracked me up that only 93% of the people who responded to the survey who said they use Node - it said 100% use Node, and only 93% said they're using JavaScript.
 
@@ -108,7 +108,7 @@ Hypothesis number two is they're trying to create a brand distinction separate f
 
 **Kevin Ball:** Yeah, what is going on there...?
 
-**Jerod Santo:** \[00:15:48.04\] Well, the researchers themselves might not be using Node, and maybe if they're doing data-munging, maybe they're using a Python or an R, or something else... But lots of people are using Node, and the people that they've surveyed sure are. Back to the rapid growth discussion, you have 75% of surveyees planning to increase their usage over the next 12 months. So not only people are using it, but they must be happy with it because they're also going to use it even more in the next 12 months.
+**Jerod Santo:** \[15:48\] Well, the researchers themselves might not be using Node, and maybe if they're doing data-munging, maybe they're using a Python or an R, or something else... But lots of people are using Node, and the people that they've surveyed sure are. Back to the rapid growth discussion, you have 75% of surveyees planning to increase their usage over the next 12 months. So not only people are using it, but they must be happy with it because they're also going to use it even more in the next 12 months.
 
 **Nick Nisi:** I was really surprised that the numbers for that increased at the expense of other languages, like Java and Ruby and PHP. I thought that those were pretty significant decreases. Java has in the next 12 months a 43% decrease, Ruby 37%, and PHP 51%.
 
@@ -131,11 +131,11 @@ I'm still just flabbergasted, because I'm looking at the languages used... Other
 
 So I don't know how much of that is specific to folks who are doing Node, and which things they're gonna replace; how much of that is my perspective, is totally biased from living in a startup ecosystem... You know, West Coast, California and all of those things are where that's coming from. I'm curious what your perspectives are on Python versus Ruby.
 
-**Jerod Santo:** \[00:20:15.00\] Well, I would be surprised, but I've seen the data previously, so it doesn't surprise me this time around. I think definitely Ruby gets the larger end of the marketing hype - or at least historically has - and now is getting the short end of the stick on the hype, so you see a lot of people moving away... Whereas Python has remained relatively steady.
+**Jerod Santo:** \[20:15\] Well, I would be surprised, but I've seen the data previously, so it doesn't surprise me this time around. I think definitely Ruby gets the larger end of the marketing hype - or at least historically has - and now is getting the short end of the stick on the hype, so you see a lot of people moving away... Whereas Python has remained relatively steady.
 
 I think a lot of that number does have to do with just the multi-faceted use of Python, beyond just the web. Like you said, it's used in data science; specifically now it's even more to the forefront with the shift into a lot of deep learning stuff. So that's probably what I would attribute it to, but it has its hooks deep into Academia as well, and these are places that are under-represented in kind of the typical developer marketing, Hacker News, Changelog News world, right?
 
-**Break:** \[00:21:16.28\]
+**Break:** \[21:16\]
 
 **Kevin Ball:** Alright, so another interesting spot in the survey was looking at package use, and this is something where npm as a registry kind of typically dominates \[unintelligible 00:22:00.16\] where they're adding 500+ packages a day, and really going all over, but... There was some interesting data in there about using Yarn versus npm, and things like that... Nick, did you have the notes on this? Did you wanna talk about that?
 
@@ -151,7 +151,7 @@ I think a lot of that number does have to do with just the multi-faceted use of 
 
 **Kevin Ball:** Yeah, to me at least, the massively largest value prop that Yarn had was the lockfile and getting that reasonably right, because npm shrinkwrap was a disaster. Npm kind of took that, and now they have that package-lock.json, and it works pretty much the same. The incremental value of yarn relative to npm just dropped dramatically... And it may still be better, but it's not 10x better anymore; it's maybe like 20% better.
 
-**Jerod Santo:** \[00:24:08.24\] Corvin posted in the chat here, he says "This was the news last week. It looks like Mixmax.com posted a blog to Yarn and backed npm again." So we've reached that level of the cycle where first everybody was switching, and now certain people - at least this particular blog - are switching back. Corvin, if you can tell us the high-level summary of why they're switching back... Maybe it was what we just said here; it's perhaps incrementally better, but not 10x anymore. That might be the case.
+**Jerod Santo:** \[24:08\] Corvin posted in the chat here, he says "This was the news last week. It looks like Mixmax.com posted a blog to Yarn and backed npm again." So we've reached that level of the cycle where first everybody was switching, and now certain people - at least this particular blog - are switching back. Corvin, if you can tell us the high-level summary of why they're switching back... Maybe it was what we just said here; it's perhaps incrementally better, but not 10x anymore. That might be the case.
 
 My particular use - I've used them both; npm seems just fine. We have Yarn in Changelog's pipeline, but I just don't see much of a difference as an end user. I don't dig into them too deeply; I don't write my own packages, and stuff... So to me it's 6 in one hand, half a dozen in the other.
 
@@ -173,7 +173,7 @@ We saw it in the Ruby community, we saw it with Merb and Rails, and then they ev
 
 **Jerod Santo:** It makes me think of Atom and VS Code... Maybe we should save that for later - talk about competing projects that are now co-owned.
 
-**Nick Nisi:** \[00:28:01.07\] VS Atom.
+**Nick Nisi:** \[28:01\] VS Atom.
 
 **Kevin Ball:** Well, if you could combine the speed and crispness of VS Code with the programmability of Atom...
 
@@ -229,7 +229,7 @@ So 38% start their search at npmjs.org, and 32% start on Google or some other se
 
 **Jerod Santo:** So for the uninitiated, what does nvm offer that a built-in, like a Homebrew or some other operating system package manager, like Depackage, or RPMs don't offer?
 
-**Nick Nisi:** \[00:32:10.21\] Just comparing it to Homebrew, it just gives me an easy way to install different versions of Node. I have the latest version from Homebrew installed - 10.something - and then the project that I'm working on right now for my day job is using the LTS version, so I can just say "nvm use -- lts" and use that, or I can put an `.nvmrc` in that project, and it will just automatically switch my terminal over to that version when I CD into that directory.
+**Nick Nisi:** \[32:10\] Just comparing it to Homebrew, it just gives me an easy way to install different versions of Node. I have the latest version from Homebrew installed - 10.something - and then the project that I'm working on right now for my day job is using the LTS version, so I can just say "nvm use -- lts" and use that, or I can put an `.nvmrc` in that project, and it will just automatically switch my terminal over to that version when I CD into that directory.
 
 **Jerod Santo:** It makes sense. So I think we're seeing it as a distinction between a casual Node user like myself, and like a daily driver, power user like yourself. Anybody who's going to be actively, day-to-day developing a specific app or a set of apps inside the Node environment version management and switching easily is definitely a nice-to-have, or maybe a must-have.
 
@@ -257,7 +257,7 @@ And when I started to think about this, I thought it in terms of like "Is this m
 
 **Jerod Santo:** A privately-owned single point of failure.
 
-**Kevin Ball:** \[00:35:49.17\] Thinking about the way that other registries are run... The one that I'm somewhat familiar with is the Ruby gems registry, and that is kind of supported via donation, in a lot of ways. There's an organization, both Ruby together, and I think Ruby Gems may have its own organization -- but it's essentially supported by people donating to this thing... And that has resulted in very slow rates of change, and politics over how that money is being used, and yadda-yadda-yadda... Whereas in this case, we're actually seeing pretty rapid rates of change in the registry; the stuff they're doing with security is really interesting, and they're doing all these extensive things at the registry level... But a company owns it, right?
+**Kevin Ball:** \[35:49\] Thinking about the way that other registries are run... The one that I'm somewhat familiar with is the Ruby gems registry, and that is kind of supported via donation, in a lot of ways. There's an organization, both Ruby together, and I think Ruby Gems may have its own organization -- but it's essentially supported by people donating to this thing... And that has resulted in very slow rates of change, and politics over how that money is being used, and yadda-yadda-yadda... Whereas in this case, we're actually seeing pretty rapid rates of change in the registry; the stuff they're doing with security is really interesting, and they're doing all these extensive things at the registry level... But a company owns it, right?
 
 **Jerod Santo:** Yeah, it's kind of like -- it goes back kind of to a BDFL idea, right? And really, the desire to decentralize is in the case that the BDFL loses its B, right? The benevolence goes away.
 
@@ -273,9 +273,9 @@ So in the case that you want to move without having everybody go change their ha
 
 **Kevin Ball:** Is there anyone - any community or system that has done this really effectively? I'm thinking about Linux, and there it's actually -- lots of different companies run their own registries, right? You're gonna put your sources, you're gonna point at canonical servers if you're on Ubuntu, but you might also point at a couple extra things, and pull stuff down. That's a model for multiple registries, in some ways; some private-controlled, some public. I'm glad that's not my job.
 
-**Jerod Santo:** \[00:39:36.27\] \[laughs\] I was gonna say, if you're into this kind of conversations specifically with people who are knee-deep in it - I'll give a quick shout-out to our friends at Manifest.fm, which is a podcast hosted by Andrew Nesbitt and Alex Pounds - it's all about package management, and they talk to people who are in this space, trying to figure these things out, people from these different ecosystems, and learn the ins and the outs... Andrew is the creator of libraries.io, which is all about packages, as well. I know that show is a little bit on a hiatus - they've had a hard time scheduling it - but there's a bunch of good episodes in the back catalog, so go give that a listen if this is something that interests you and our particular knowledge here (the three of us) is not doing you justice... If you wanna hear some people who have answers to these questions. We're good at asking questions around here, we don't always have the answers.
+**Jerod Santo:** \[39:36\] \[laughs\] I was gonna say, if you're into this kind of conversations specifically with people who are knee-deep in it - I'll give a quick shout-out to our friends at Manifest.fm, which is a podcast hosted by Andrew Nesbitt and Alex Pounds - it's all about package management, and they talk to people who are in this space, trying to figure these things out, people from these different ecosystems, and learn the ins and the outs... Andrew is the creator of libraries.io, which is all about packages, as well. I know that show is a little bit on a hiatus - they've had a hard time scheduling it - but there's a bunch of good episodes in the back catalog, so go give that a listen if this is something that interests you and our particular knowledge here (the three of us) is not doing you justice... If you wanna hear some people who have answers to these questions. We're good at asking questions around here, we don't always have the answers.
 
-**Break:** \[00:40:37.04\]
+**Break:** \[40:37\]
 
 **Kevin Ball:** You all have been talking a lot about this Deno talk, and I haven't seen it, so I'm just gonna sort of let you do the talking, and the prod you based on your notes that you gave me... Talking about change - there's this project that was just started by one of the founders of Node, Ryan... What's his last name?
 
@@ -293,7 +293,7 @@ So in the case that you want to move without having everybody go change their ha
 
 **Jerod Santo:** Oh yeah, he went deep on a few of them. It's a great talk, it's about 30 minutes... It was incredibly candid and truthful, and most of these things are the things that he regrets having designed, and they're very technical, and they're specific aspects of the Node technology. It was interesting - Mikeal Rogers, of course, one of our panelists, made the point on Twitter than Node blew up so fast and adoption was so fast that a lot of these things Ryan could have fixed had it not gotten adopted so quickly; he could have fixed them either before 1.4, or in a timed fashion, but he just wasn't able to.
 
-\[00:44:13.29\] So that was kind of the context of that talk, and that's when he revealed that he's been working on this new project - it's written in Go, although he may rewrite it in Rust - called Deno. It is a V8 runtime for TypeScript, which of course makes it also one for JavaScript... And it's built to be secure and nice and modern, and all these other things. And really, what it is - I think it's a little bit of a retry, a fresh start, based on things that he learned building Node the first time, and the regrets that he has, trying to not have those regrets this time around. So that's the project. It's garnered much interest...
+\[44:13\] So that was kind of the context of that talk, and that's when he revealed that he's been working on this new project - it's written in Go, although he may rewrite it in Rust - called Deno. It is a V8 runtime for TypeScript, which of course makes it also one for JavaScript... And it's built to be secure and nice and modern, and all these other things. And really, what it is - I think it's a little bit of a retry, a fresh start, based on things that he learned building Node the first time, and the regrets that he has, trying to not have those regrets this time around. So that's the project. It's garnered much interest...
 
 **Kevin Ball:** Yeah, I saw it blew up on Hacker News, and everybody flooded it with comments and issues, and he had to shut it down and be like "Hey guys, this is early..."
 
@@ -317,7 +317,7 @@ The next one is package.json. Of course, we're missing a lot of the context, so 
 
 **Nick Nisi:** Yeah, there was really a lot around this. This is the one that I had counted a lot of sub-bullet points in there... Just the whole bit of complexity that it adds to the Node ecosystem, especially as we're trying to push forward with a built-in module system, for example; there's a lot of baggage that Node brings to this, and a lot of complexity with the algorithms for figuring out what code to actually import... And just the overall complexity of having to have this registry, this JSON file describe your project.
 
-**Jerod Santo:** \[00:48:23.28\] The next one was the build system - like I said, it does get very internal and very technical. He says the entire build system is a mess, because they use this project called GYP, which was used I believe by Chromium, or some larger project that he respected at the time. Then they switched away to a newer thing called GN (this is higher than my pay grade right here), but Node got stuck with GYP, and apparently GYP is bad, or the build system is a \[unintelligible 00:48:58.06\] machine type of a thing, according to Ryan--
+**Jerod Santo:** \[48:23\] The next one was the build system - like I said, it does get very internal and very technical. He says the entire build system is a mess, because they use this project called GYP, which was used I believe by Chromium, or some larger project that he respected at the time. Then they switched away to a newer thing called GN (this is higher than my pay grade right here), but Node got stuck with GYP, and apparently GYP is bad, or the build system is a \[unintelligible 00:48:58.06\] machine type of a thing, according to Ryan--
 
 **Kevin Ball:** Oh, it was a Google project originally, it looks like...
 
@@ -341,7 +341,7 @@ The next one is package.json. Of course, we're missing a lot of the context, so 
 
 **Kevin Ball:** Oh, the end of half-a-gig directories every time I install a new Node project...
 
-**Jerod Santo:** \[00:51:56.04\] Next up, Require module - the specific syntax where you can leave off the extension; it doesn't have to be require\_.js; you just say "require\_" Some of this -- you have to go watch the talk; some if it is him sharing a little bit of wisdom at an older age. It's kind of like "When I was younger, I thought that this was a good idea, because it was -- you don't need the extension." But he's like "Just write the extension in there! It's just a .js", or you can even say .ts. Apparently, the Require system has all sorts of logic traversing the file system, looking at file names, blah-blah-blah, trying to basically infer what you mean when you don't explicitly state the extension. All that code could disappear if we all just typed ".js" at the end of those requires. He would do that differently.
+**Jerod Santo:** \[51:56\] Next up, Require module - the specific syntax where you can leave off the extension; it doesn't have to be require\_.js; you just say "require\_" Some of this -- you have to go watch the talk; some if it is him sharing a little bit of wisdom at an older age. It's kind of like "When I was younger, I thought that this was a good idea, because it was -- you don't need the extension." But he's like "Just write the extension in there! It's just a .js", or you can even say .ts. Apparently, the Require system has all sorts of logic traversing the file system, looking at file names, blah-blah-blah, trying to basically infer what you mean when you don't explicitly state the extension. All that code could disappear if we all just typed ".js" at the end of those requires. He would do that differently.
 
 **Kevin Ball:** If you look at the course of developers learning, there's this whole thing of like you start off and you're doing everything explicitly, because you don't know how to do anything else. Then you're like "Oh, metaprogramming, and inferring things! This stuff is magic! I'm gonna do everything meta!" and then you get to a point where you're like "You know, explicit is good. I like explicit."
 
@@ -361,7 +361,7 @@ And then the other thing, which seems minor but required a complicated implement
 
 It's an interesting occurrence, obviously. It's not like the kind of thing that is going to wholesale replace Node in 2018 or even in 2019. There's something to be said about learning from the "sins of the past" and using modern tools and techniques to apply similar ideas in a way that ultimately may be much more forward-looking.
 
-**Kevin Ball:** \[00:55:52.16\] It's interesting to think about - since it is gonna provide a JavaScript runtime - how straightforward would it be to port a Node application over into that... But given the way that we do \[unintelligible 00:56:06.12\] and all that other stuff, it might be tricky. \[laughter\] I wonder if you end up with the equivalent of a Webpack or some other thing that is translating -- it goes through and parses all your JavaScript in Nodeland and then rewrites it and produces for Denoland.
+**Kevin Ball:** \[55:52\] It's interesting to think about - since it is gonna provide a JavaScript runtime - how straightforward would it be to port a Node application over into that... But given the way that we do \[unintelligible 00:56:06.12\] and all that other stuff, it might be tricky. \[laughter\] I wonder if you end up with the equivalent of a Webpack or some other thing that is translating -- it goes through and parses all your JavaScript in Nodeland and then rewrites it and produces for Denoland.
 
 **Nick Nisi:** In the little bit of code that he had, kind of showing an example, he was using Unpkg to have a tiny, tiny bit of compatibility with Node... But you'd run into all the same problems; if that module is using the Node Requires, then you probably can't use it. So it'll be interesting, but it's cool to see Unpkg has a potential solution for that in the future, if something like this takes off.
 
@@ -387,7 +387,7 @@ It's very useful for using Node modules from a CDN, using that as a CDN for Node
 
 I do suspect that we'll start to see lots of kind of hints towards "Oh, you're using GitHub? Well, naturally, you can hook things up from GitHub everytime you push, deploy it in Azure", and do other things that kind of nudge you towards their other products... But so long as they maintain open and they keep an open API so that it's not impossible to have the same thing set up so it deploys it over to AWS or to Google Cloud or wherever you might be deploying, then I don't see a huge problem with that.
 
-**Jerod Santo:** \[00:59:58.09\] Peter Bright wrote a great piece in Ars Technica the other day... I guess it was maybe Monday or Tuesday of this week. The headline is "Everyone complaining about Microsoft buying GitHub needs to offer a better solution" and his subtitle is "GitHub needed a buyer, and there aren't too many options." We'll link that one in the show notes as well if you wanna read a little more about that.
+**Jerod Santo:** \[59:58\] Peter Bright wrote a great piece in Ars Technica the other day... I guess it was maybe Monday or Tuesday of this week. The headline is "Everyone complaining about Microsoft buying GitHub needs to offer a better solution" and his subtitle is "GitHub needed a buyer, and there aren't too many options." We'll link that one in the show notes as well if you wanna read a little more about that.
 
 The fact of the matter is - and this was a surprise, to a certain degree, especially with how much revenue GitHub was doing; 200 million a year sounds pretty good, keeps this boat floating over here... But a much smaller boat, I guess.
 

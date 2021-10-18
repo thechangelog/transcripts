@@ -2,7 +2,7 @@
 
 We have three sponsors: Linode, Toptal and GoCD.
 
-**Break:** \[00:01:07.19\]
+**Break:** \[01:07\]
 
 **Adam Stacoviak:** Alright, we're back with a fun show today, Jerod... This time talking about something from Firefox, debugging DevTools, this fun thing; Jason Laster's coming on, kind of peeling back the layer of the history of some things for us, and hopefully sharing with us where they're going.
 
@@ -28,7 +28,7 @@ Jason, thanks for joining us, and real quick, a shout out to Brian Clark, who te
 
 **Jason Laster:** Recurse... I think it has this resonance with a developer, like "We're recursing into something", and frankly Hack School just didn't really work well if you were crossing the border and you wanted to tell the border agent like "Yeah, I'm going to Hacker School." \[laughter\] It doesn't work.
 
-**Jerod Santo:** \[00:04:05.16\] A very practical problem with that name.
+**Jerod Santo:** \[04:05\] A very practical problem with that name.
 
 **Jason Laster:** Yeah, at least that's my understanding of it.
 
@@ -62,7 +62,7 @@ I had wanted to get involved ever since, and then when I started working in the 
 
 **Jason Laster:** Sure. Yeah, that was my experience, as well. I distinctly remember installing Firebug, and then everything seemed like it was possible. The first inspector, everything was there.
 
-**Jerod Santo:** \[00:07:48.20\] So back at that time, Firefox had a huge mindshare with developers, and Firebug was it, it's what you used; it was best-in-breed tooling. Then - I'm not sure exactly when it was; I searched for this real quick and couldn't find it - Chrome comes out, Webkit begins to have -- Chrome and Safari have Webkit, you have the Webkit Inspector, the DevTools coming there, and really the perception of Firefox is that - maybe perhaps because it was third-party, or... The first-party tooling really wasn't really there, and Chrome DevTools really took off and became, at least today I would say in my mind, the Juggernaut in the DevTools space... And I was curious about your take on that and maybe even insights on why that happened from your perspective.
+**Jerod Santo:** \[07:48\] So back at that time, Firefox had a huge mindshare with developers, and Firebug was it, it's what you used; it was best-in-breed tooling. Then - I'm not sure exactly when it was; I searched for this real quick and couldn't find it - Chrome comes out, Webkit begins to have -- Chrome and Safari have Webkit, you have the Webkit Inspector, the DevTools coming there, and really the perception of Firefox is that - maybe perhaps because it was third-party, or... The first-party tooling really wasn't really there, and Chrome DevTools really took off and became, at least today I would say in my mind, the Juggernaut in the DevTools space... And I was curious about your take on that and maybe even insights on why that happened from your perspective.
 
 **Jason Laster:** Sure. Firebug was really good. To this day, it has features that we don't have in Firefox DevTools, and frankly, Chrome doesn't have either. So I think there was this mentality at Mozilla that the community is really powerful, and can do a lot. So Firebug had employed some people... My manager now, he was one of the first people to work on Firebug, which is unbelievable.
 
@@ -80,7 +80,7 @@ The other piece of this was Firefox OS. Because Mozilla was working on both a de
 
 **Jerod Santo:** So the refocus makes a lot of sense... I guess - and maybe this question is "above your pay grade", but the decision to refocus (maybe you don't have insights on this, but maybe you do)... Was there like a "holy crap" moment, like "Everybody is using Chrome now"? "Where did our core audience go?" because developers and techies and nerds - us folk - were Firefox's bread and butter, its champions for years and years, and there had to be a moment where it's like "Everyone's using Chrome DevTools now. What are we gonna do?" Do you think that happened?
 
-**Jason Laster:** \[00:12:16.27\] Sure. \[laughter\] I think you have that recognition internally. I think both put really exciting tech, great features, and it doesn't resonate. On the flipside, you look at the larger product and you realize, "You know, we really wanna think through some of these experiences." So I'm not sure if it was 18 months ago or two years ago, but Bryan Clark joined the team (he'd been at Mozilla for some time) and we really got a product mentality - full-time design... And just internally there was a recognition that we could do better.
+**Jason Laster:** \[12:16\] Sure. \[laughter\] I think you have that recognition internally. I think both put really exciting tech, great features, and it doesn't resonate. On the flipside, you look at the larger product and you realize, "You know, we really wanna think through some of these experiences." So I'm not sure if it was 18 months ago or two years ago, but Bryan Clark joined the team (he'd been at Mozilla for some time) and we really got a product mentality - full-time design... And just internally there was a recognition that we could do better.
 
 I think that's true for DevTools at large. Products like Atom and Nuclide and VS Code, and Chrome DevTools has a full-time designer, but that wasn't really a thing three years ago... So about the same time three years ago we're like "Hey, these tools built for developers aren't any different than tools built for other humans. Let's apply some of the same practices and really focus on the experience - help beginners, but also help advanced programmers do what they're trying to do."
 
@@ -92,7 +92,7 @@ The compiler and these things can be human usable, and that makes people like th
 
 **Jerod Santo:** So while we're still camping out on the history, I have to bring up 3D View, because at a certain point I switched to Chrome in the Webkit side, and I use Chrome DevTools even to this day... And there was one reason why I always fired up Firefox, and that's because 3D View was a fun gimmick. It was like not even useful, kind of useful -- maybe that's why it's gone now... But it's gone! And for those who don't recall, 3D View was this cool part of -- I think it was a first-party, part of you guys' tooling, where you could basically tilt the web page on the side and see the DOM built out based on nested tree structure. You could see it in 3D. So it was helpful, kind of... Sometimes you'd see something's too far nested, or it's not actually inside the Elm that you thought it was gonna be, but it was really a cool tech demo. I was recalling that as Adam and I were prepping for this and I thought "What happened to 3D View? It's no longer there."
 
-**Jason Laster:** \[00:15:55.28\] Yeah. So I recently saw a screenshot from -- I think it was Firefox 17... I'm not sure when that was released, but it was one of the earliest versions of a DevTools that we built - it wasn't Firebug - and you're looking at the Inspector and you see the markup view, which is that DOM tree. And then on the right in content is the role view. We didn't have a debugger, I'm not even sure if it had a console, but it did have 3D View in the bottom. So I just have to believe that it was one of the first things that was built, and it was like "Hey, this is pretty rad. Let's get a topography view of your page, and I think it's a great example of something that's cool, but it didn't help people in the same way that probably a more focused tool would.
+**Jason Laster:** \[15:55\] Yeah. So I recently saw a screenshot from -- I think it was Firefox 17... I'm not sure when that was released, but it was one of the earliest versions of a DevTools that we built - it wasn't Firebug - and you're looking at the Inspector and you see the markup view, which is that DOM tree. And then on the right in content is the role view. We didn't have a debugger, I'm not even sure if it had a console, but it did have 3D View in the bottom. So I just have to believe that it was one of the first things that was built, and it was like "Hey, this is pretty rad. Let's get a topography view of your page, and I think it's a great example of something that's cool, but it didn't help people in the same way that probably a more focused tool would.
 
 For instance, I was talking to one of the people who works on the Inspector the other day about just Z indices. If we have three elements that are all the same dimensions on top of each other, can you see the two below the top one? You can't really see that. And even if they overlap a bit, can you find a way, with our tooling, to inspect or put a magnifying glass on that second layer? It's kind of difficult with something like Tilt View, which... I don't know. That's probably not the solution, but...
 
@@ -110,7 +110,7 @@ For instance, I was talking to one of the people who works on the Inspector the 
 
 So we wanna talk about the present - where it's at, the new Debugger, it's React and Redux, modern tooling, can it run anywhere? So I have a lot of questions around that, and we will talk about those after this first break.
 
-**Break:** \[00:20:12.00\]
+**Break:** \[20:12\]
 
 **Jerod Santo:** Alright, we are back, speaking with Jason Laster about the Firefox Debugger and the DevTools in general. We got a little bit of the history in the last segment, and we see this renewed focus over the last couple of years from Mozilla on making Firefox DevTools great, and really a first-class, first-party effort in the Firefox ecosystem. One of the ways that that's happening is that, of course, you have an open source project that makes tons of sense - that's Mozilla Styles, open source - but this is not a project inside of the Firefox repo; this is it's own thing - Debugger.html (we'll have a link in the show notes to the GitHub). It lives on its own repo, and it has its own little ecosystem around it, so tell us about that.
 
@@ -126,7 +126,7 @@ We've had over a hundred people help out and get involved, which is just way, wa
 
 **Jason Laster:** So there was a lot of right about it, too. The mono repo would allow you to clone Firefox, and then in one patch you could change the JavaScript engine, JavaScript Debugger server, and then the client, which was incredibly powerful.
 
-\[00:24:05.17\] Now, the downside - and this is a lot like Chromium today, which is one tree as well - is that when you do that clone, you're pulling down like five gigs, a lot of it history, and then when you do the build, you're taking another 30 minutes maybe. And then to see your change, you actually have to do a Firefox mock run to open your own version of Firefox.
+\[24:05\] Now, the downside - and this is a lot like Chromium today, which is one tree as well - is that when you do that clone, you're pulling down like five gigs, a lot of it history, and then when you do the build, you're taking another 30 minutes maybe. And then to see your change, you actually have to do a Firefox mock run to open your own version of Firefox.
 
 The process was incredibly powerful, and allowed big things to change all at once, but it didn't appeal to maybe a contributor who just wanted to get started really quickly, and try something before dinner. If all you're doing is working on that really cool UI feature for the Debugger, you don't need to change the DOM directory, or you don't need to go into the JavaScript directory and fiddle with some C++. That just isn't helpful.
 
@@ -150,7 +150,7 @@ The net monitor obviously runs in a tab, perf.html runs in a tab... But other th
 
 **Adam Stacoviak:** This is a big risk then, to break it down to that level... You're going from what you knew before, to get back to, let's just say mindshare, developer mindshare - let's even throw the word again in there, because I think you mentioned it too... But you really took a risk to break down your old model that had its benefits, obviously, but there were areas where you just weren't attracting the new contributors, or drive-by contributors, those who wanna just jump in on smaller things or some of the things you've mentioned there. You took a big risk to go this route. Was there a lot of discussion about risk/reward in that scenario?
 
-**Jason Laster:** \[00:28:00.25\] Absolutely, and it's still a contentious discussion. Now, we've had some successes in the past... For instance, Nick Fitzgerald maybe three years ago made the Sourcemap library which is on GitHub, and everyone uses it for mapping, from a generated file (a bundle file) to the original files. VS Code uses it, I believe, Chrome DevTools forked it... So we have experienced doing open source outside the tree, but never at this scale, and we're still trying to figure it out.
+**Jason Laster:** \[28:00\] Absolutely, and it's still a contentious discussion. Now, we've had some successes in the past... For instance, Nick Fitzgerald maybe three years ago made the Sourcemap library which is on GitHub, and everyone uses it for mapping, from a generated file (a bundle file) to the original files. VS Code uses it, I believe, Chrome DevTools forked it... So we have experienced doing open source outside the tree, but never at this scale, and we're still trying to figure it out.
 
 **Adam Stacoviak:** What's with the .html piece on all these? Is that to sort of identify to those passer-by's, like "Hey, I can pull down Debugger.html" and, as you mentioned before, it can run in its own tab, it can - for lack of a better term - be its own application, with some shared libraries, but when it's inside of Firefox it's part of a single app, basically. Is that what it's supposed to mean? What's the idea there?
 
@@ -166,7 +166,7 @@ And then you look at your frontend and your backend and they're calling these me
 
 **Jerod Santo:** You just brought back a huge amount of memories from my college days, because I remember I looked at XUL - this was when I was a fledgling developer - and I wanted to hack on Firefox somehow -- like an add-on, or I don't remember... But I remember back then - I was just getting started - I opened up some XML and I was trying to follow a tutorial, and I was completely overwhelmed by XUL. I remember a feeling of -- it wasn't impostor syndrome, I was actually an impostor. I did not belong there. And I just forgot all about that until you started talking about it.
 
-\[00:32:15.23\] So with that being said, HTML is much more accessible for people than something that's -- I don't wanna say proprietary, because I'm thinking it wasn't, but specific, right? Like, vendor-specific tooling, whereas here it's like "Hey, it's HTML, okay?" That brings with it its own baggage, which we'll talk about React and Redux and stuff, so it's not like it's not complicated...
+\[32:15\] So with that being said, HTML is much more accessible for people than something that's -- I don't wanna say proprietary, because I'm thinking it wasn't, but specific, right? Like, vendor-specific tooling, whereas here it's like "Hey, it's HTML, okay?" That brings with it its own baggage, which we'll talk about React and Redux and stuff, so it's not like it's not complicated...
 
 **Jason Laster:** Sure.
 
@@ -194,7 +194,7 @@ So maybe give your pitch, because you're obviously a debugger person, you're bui
 
 And the other half, they either want something quick, like "I'm gonna print this one thing. I know what I wanna find, and that's gonna work", or they wanna think about it, and that's a different way of approaching the problem - all valid, but what I'd like to find a way to do is blur the two... It's like, "What are the best things in the console that come from logging, and what are the things that you can only do in the debugger?" and find a happy medium.
 
-**Jerod Santo:** \[00:36:22.14\] Yeah... So what are some of the only things that you can only do in the debugger?
+**Jerod Santo:** \[36:22\] Yeah... So what are some of the only things that you can only do in the debugger?
 
 **Jason Laster:** Well, the console is great if you know what you're looking for. For example, if you're logging a render function and you're saying like "Hey, I only wanna look at this one value, this prop in React render." Console is great because you can say "Alright, we've got ten logs that probably have ten renders, and my number went from 2 to 20, and I could see how it stopped." So you get this over time perspective. With the debugger, if you're not sure what you're looking for, like you're not sure about the API, you're not sure if you can call that function. Like, user.update - does that take two parameters? Three? What happens if I try each one? The debugger is perfect for stopping in time and exploring that space, and then moving on.
 
@@ -210,7 +210,7 @@ So if it could help you stop at the right time, then you can probably figure out
 
 The other way that I think good ideas are bubbling up is that frameworks - they also know more about the running application. A lot of these browser debuggers assume you're writing vanilla JavaScript... It's "Here are the variables on all the data, here's the file with everything"; you have a call stack with maybe 50 frames, maybe 100 if you're doing something really crazy...
 
-\[00:40:13.26\] But the framework knows a lot more about your application just by virtue of having some structure. So what we're trying to do is reach out to them, and if you're paused and you're looking at a variable and it's an immutable object -- hey, we can format it a little better so you don't see all that immutable wrapping stuff, you just see "Here's your record with the values you care about."
+\[40:13\] But the framework knows a lot more about your application just by virtue of having some structure. So what we're trying to do is reach out to them, and if you're paused and you're looking at a variable and it's an immutable object -- hey, we can format it a little better so you don't see all that immutable wrapping stuff, you just see "Here's your record with the values you care about."
 
 **Jerod Santo:** Yeah, I like the trend of the larger JS frameworks having their own tooling inside of DevTools, whether it's Chrome, Firefox or otherwise, because like you said, they can have the intimate knowledge of the way the framework works, so it helps expose things.
 
@@ -220,13 +220,13 @@ So these days, as we think about 2017, now that we have a new Debugger UI and a 
 
 **Jerod Santo:** Very interesting. Well, we're hitting up against our next break. We have more details to discuss... We would like to talk a little bit about React and Redux, the choice, the implications and what that's meant for the project, as well as look at some other stuff you're doing with the debugging protocols and this idea of, as you say in the readme, "developing a broader community that wants to create great tools for the web" and exactly how you're going about doing that. So we will pause here and we'll discuss those things after this short break.
 
-**Break:** \[00:42:38.27\]
+**Break:** \[42:38\]
 
 **Jerod Santo:** Alright, we are back. Jason, modern tooling - the big choice was made at a certain point. Probably when the thing got started was "What kind of JavaScript app will the debugger for JavaScript apps be?" It turns out you chose React, you chose Redux. We wanna talk about that decision, as well as what that has meant - has it been a win? Have you been faster? The reasons for it. But before that, I'd like to ask you a meta question, which is... Historically - and by that I mean the last five years or so, maybe ten years - the JavaScript ecosystem has moved so quickly, and frameworks have come and gone, and tools have come and gone... It's difficult to pick a horse in a race, and React in the last couple of years seems to have grabbed the mindshare a little bit (a lot of bit). In fact, I just mentioned this, Adam, in the last issue of Changelog Weekly - which, by the way, if you're not subscribed to Changelog Weekly...
 
 **Adam Stacoviak:** Do it!
 
-**Jerod Santo:** \[00:44:15.07\] What's wrong? Just do it - changelog.com/weekly. We linked to a thing called Reactide, and the comment that I added is it seems that React has hit critical mass, because any time there's an IDE for your JavaScript rendering engine, \[laughter\] it seems like this is a sticky. So just your thoughts, because you guys jumped on the React bandwagon, and I would be afraid to go all in on something like that, because maybe there's something better coming next. Do you think React is "winning" in the JavaScript frontend space?
+**Jerod Santo:** \[44:15\] What's wrong? Just do it - changelog.com/weekly. We linked to a thing called Reactide, and the comment that I added is it seems that React has hit critical mass, because any time there's an IDE for your JavaScript rendering engine, \[laughter\] it seems like this is a sticky. So just your thoughts, because you guys jumped on the React bandwagon, and I would be afraid to go all in on something like that, because maybe there's something better coming next. Do you think React is "winning" in the JavaScript frontend space?
 
 **Jason Laster:** I think it was the right decision for us, and I give James Long a lot of credit. He from the very early days identified this as something exciting, and blogged a lot about it, and got to know Christopher Chedeau and Dan Abramov quite well. So he did the early evangelism and planning for the rewrite. He actually got Redux into the Debugger before we started .html, so we were in a really good spot when we started the rewrite of the components.
 
@@ -246,7 +246,7 @@ I remember getting started on the Ruby REPLs and I wanted to build a frontend, b
 
 **Jason Laster:** I think it's too soon to say in some ways. Things like Elm are doing so much, and Ember will really help you if you're building out an application and you care more about the server piece for instance, and deploying in the CLI. Those are things that just aren't concerns for us... So if you're just looking for this component model, then React is really appealing, and you can use 100% of it, as opposed to maybe 40% of Ember or 40% of Angular.
 
-**Jerod Santo:** \[00:48:07.16\] Right. Very good. Let's leave that topic there, I think we've covered it well enough. Let's talk about this idea that it runs everywhere. One of your major pitches of why the Debugger is interesting is that it runs everywhere. Of course, it's the Firefox Debugger, but what does it mean that it runs everywhere, and why is that attractive or interesting to folks?
+**Jerod Santo:** \[48:07\] Right. Very good. Let's leave that topic there, I think we've covered it well enough. Let's talk about this idea that it runs everywhere. One of your major pitches of why the Debugger is interesting is that it runs everywhere. Of course, it's the Firefox Debugger, but what does it mean that it runs everywhere, and why is that attractive or interesting to folks?
 
 **Jason Laster:** Our dream is to build one debugger that could run in its own application. Imagine spinning up a debugger, like clicking on an icon and there it is, running in Electron, and pointing it at any JavaScript runtime. Obviously, you can debug Firefox, but you can also debug Chrome or Node, or an app on your phone, whether it be like iOS or Android. That's appealing for a couple reasons - one, you don't have to relearn a tool or use a tool you don't wanna use, just because that's the only way to debug like, I don't know, a Node app.
 
@@ -266,7 +266,7 @@ We're still working with that Webpack dev server talking over a websocket, but w
 
 **Jason Laster:** Yeah... I think that they showed that if you build your app with React and Redux, that gives you a lot of extensions for plugins, so it's really easy to put something in the React middleware for instance, and wrap a component like a terminal tab, or the prompt... And it's just as easy to do that with Redux, where you can have a hook before the action is dispatched or after the action is dispatched, to do some good stuff.
 
-\[00:52:22.19\] I don't know if that will be the direction we're going, but that's definitely how I see these plugins being built.
+\[52:22\] I don't know if that will be the direction we're going, but that's definitely how I see these plugins being built.
 
 **Adam Stacoviak:** Going back to the second segment of this show, talking about the naming schema .html - 1) it's an invitation, but 2) it's also saying "No longer XUL, more modern tooling"... Does that mean that the other tabs in developer tools are taking a similar direction, or is it simply "This makes sense for Debugger to be potentially a standalone app, run anywhere, have many targets, be shippable with even Electron or something like that"?
 
@@ -288,7 +288,7 @@ So we really focused on bringing people in and getting them started really quick
 
 But yeah, the user focus I think is a really exciting angle. In that direction, our goal with Node, for instance, is to add something like a debug command, like debug.js, that would invoke Node on your behalf and open the Debugger, so you immediately have the Debugger open and you can add your breakpoints, or whatever.
 
-\[00:56:12.14\] We might even go down the direction of doing some editor integrations, as well. Because we have this Redux backend, the entire API for driving the Debugger is in Redux. There's like an action for Add Breakpoint, there's another action for stepping, like Step Over/Step In... Everything that you wanna do is exposed this way. So it'd be really easy to build out an Atom plugin that just drives Firefox or drives Chrome. It's just like "Connect", and then you're connected to a tab, and you get the really beautiful Atom UI you might want... Which is totally different than our React components, but shares the utils and obviously shares the Redux backend.
+\[56:12\] We might even go down the direction of doing some editor integrations, as well. Because we have this Redux backend, the entire API for driving the Debugger is in Redux. There's like an action for Add Breakpoint, there's another action for stepping, like Step Over/Step In... Everything that you wanna do is exposed this way. So it'd be really easy to build out an Atom plugin that just drives Firefox or drives Chrome. It's just like "Connect", and then you're connected to a tab, and you get the really beautiful Atom UI you might want... Which is totally different than our React components, but shares the utils and obviously shares the Redux backend.
 
 James worked with Tom Tromey, who is on our team and who's very involved in the Emacs community; I think he was the guy who built out the initial package manager for Emacs... And the last summer we've put together a demo of our Debugger running in Emacs with a separate Node process. It had everything -- kind of like GDB in a way, where you're using shortcuts to add breakpoints, and then you can step in, what not... But it just showed me that all this stuff would be possible once we launch, and then we can continue, build out the plugins and engage these different communities that would like to have a really good JavaScript Debugger in their editor, or wherever.
 

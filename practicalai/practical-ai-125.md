@@ -12,7 +12,7 @@
 
 **Daniel Whitenack:** So it'll be my continual side-project. Maybe someone out there, one of our listeners - maybe if you're aware of any good apps like that, let me know... But yeah, it's a very interesting object recognition problem, so...
 
-**Chris Benson:** \[00:04:12.17\] Absolutely.
+**Chris Benson:** \[04:12\] Absolutely.
 
 **Daniel Whitenack:** Yeah. It's fun for anyone that wants a side-project.
 
@@ -56,7 +56,7 @@
 
 **Abe Heifets:** Yeah, exactly. So this was in Boston. While in Boston, I got interested in medicine. I thought that was interesting. So I started taking, for fun, organic chemistry courses on nights and weekends at Harvard, and I thought that that was really neat in that there were these deep connections actually with how computers play chess. There's this deep connection with how chemists think about making molecules - it ends up being, in both cases, these tree search algorithms that you can apply.
 
-\[00:08:00.00\] So I went back for my Ph.D. - I did my Ph.D. at the University of Toronto, now in computational biology. So I had the good fortune to meet my co-founder Izhar Wallach, and his background was in protein analysis algorithms. He'd been working for a small pharma company and did protein analysis algorithms. So you can see, in Atomwise, and the technology that became Atomwise, we've put together three pieces - my big datasets, his protein analysis algorithms, and then we had the good fortune where literally across the hallway from us Geoffrey Hinton's Machine Learning Group was inventing modern machine learning.
+\[08:00\] So I went back for my Ph.D. - I did my Ph.D. at the University of Toronto, now in computational biology. So I had the good fortune to meet my co-founder Izhar Wallach, and his background was in protein analysis algorithms. He'd been working for a small pharma company and did protein analysis algorithms. So you can see, in Atomwise, and the technology that became Atomwise, we've put together three pieces - my big datasets, his protein analysis algorithms, and then we had the good fortune where literally across the hallway from us Geoffrey Hinton's Machine Learning Group was inventing modern machine learning.
 
 **Chris Benson:** How fortunate.
 
@@ -96,7 +96,7 @@ So now you've got kind of the same problem, and so in our parlance here we would
 
 **Chris Benson:** That's most mornings... \[laughs\]
 
-**Abe Heifets:** \[00:12:03.25\] Yeah... This is why you have that coffee. So my point is you need computer tools to do this stuff. You can't do it all in your head anymore. So your audience can appreciate that we would talk about this as backwards-chaining reasoning, or heuristic tree search. It's kind of like, when a computer plays chess, it looks at the board and sees every move they can make, and then thinks about every move you can make, and then thinks about every move it could make in response. And so sort of similarly, you get this expanding tree of possibilities, and now it's plotting a course from the current board until checkmate, and that's kind of what a chemist is doing - plotting a course from the molecule you want, to these commercially-available molecules. So those links are actually very deep, and that was when I went back to get my Ph.D. to build that system.
+**Abe Heifets:** \[12:03\] Yeah... This is why you have that coffee. So my point is you need computer tools to do this stuff. You can't do it all in your head anymore. So your audience can appreciate that we would talk about this as backwards-chaining reasoning, or heuristic tree search. It's kind of like, when a computer plays chess, it looks at the board and sees every move they can make, and then thinks about every move you can make, and then thinks about every move it could make in response. And so sort of similarly, you get this expanding tree of possibilities, and now it's plotting a course from the current board until checkmate, and that's kind of what a chemist is doing - plotting a course from the molecule you want, to these commercially-available molecules. So those links are actually very deep, and that was when I went back to get my Ph.D. to build that system.
 
 **Daniel Whitenack:** Is that assuming -- like, you know the compound that you want to start with, right? The problem is how you actually get there.
 
@@ -116,7 +116,7 @@ But I'll tell you the answer to your question about what's the still common appr
 
 I'm right now in San Francisco. So out here in California, I've got a pretty good guess that this building will stand up in an earthquake. That is an inordinately expensive experiment to run physically... So we rely on circuital engineers doing computational simulation to give us the certainty that we should move into the building. So every major industry, actually, most of the experiments are done computationally. But pharma still - the baseline is to run those experiments physically. So that's what we're trying to do - we're trying to give the same efficiency of every major industry to the drug discovery industry.
 
-**Break:** \[00:15:54.29\]
+**Break:** \[15:54\]
 
 **Chris Benson:** So as you arrived at that point where you were fortunate enough to be across the hallway from Dr. Hinton and his team, and you started applying such techniques - deep learning, as we're calling it now - to this, what specifically... Could you tell us a little bit about how you got into using these new technologies of the day, and how that changed your workflow at the time, as you were getting started and as you took that turn with what we're not calling AI or deep learning at this point?
 
@@ -134,7 +134,7 @@ People have been experimentally able to get structures since the 1970s, and peop
 
 **Daniel Whitenack:** Right.
 
-**Abe Heifets:** \[00:20:14.16\] My dad's a physicist, so I like ragging a little bit on the physicists... So - exactly right. And it turns out actually that if you do full quantum mechanical simulation, you get the right answer... Which frankly I find comforting that physics got it right. That's nice. But full quantum mechanical situation doesn't scale. It's incredibly computationally taxing. So you get the right answer for like lithium hydride; very, very simple, inorganic molecules, and doesn't scale to the thousands of electrons which might be in a biological system.
+**Abe Heifets:** \[20:14\] My dad's a physicist, so I like ragging a little bit on the physicists... So - exactly right. And it turns out actually that if you do full quantum mechanical simulation, you get the right answer... Which frankly I find comforting that physics got it right. That's nice. But full quantum mechanical situation doesn't scale. It's incredibly computationally taxing. So you get the right answer for like lithium hydride; very, very simple, inorganic molecules, and doesn't scale to the thousands of electrons which might be in a biological system.
 
 **Daniel Whitenack:** Yeah. This was the whole thing with my Ph.D. I studied density-functional theory, which - you've probably run across that... For anyone that's interested in that, you can google that and we won't talk about it here... But yeah, I'm totally eating up everything you're saying.
 
@@ -172,7 +172,7 @@ So one of the ways that disease happens is when those machines break, or when th
 
 I know that this sounds pretty abstract, but if you google something like the Philadelphia chromosome, you will see that there's just a mutation which switches on cell growth and cell division, and it doesn't switch off, and this is a very clear link in cancer. Exactly what we talked about. So this means that people were able to design the first cancer-specific drug to block exactly that mutative protein.
 
-\[00:23:52.01\] So what does a drug need to do? Imagine you've got a monkey wrench - you want it basically to do two things; you want it to stick really well to the disease protein. You want it to bind to the disease protein, to shut it down as completely as possible. You also want it to bounce off the proteins in your liver, and your kidneys, and in your heart, and in your brain, that you wanna keep functioning. Because you don't wanna turn off a hundred different proteins on that factory and cause all kinds of side effects.
+\[23:52\] So what does a drug need to do? Imagine you've got a monkey wrench - you want it basically to do two things; you want it to stick really well to the disease protein. You want it to bind to the disease protein, to shut it down as completely as possible. You also want it to bounce off the proteins in your liver, and your kidneys, and in your heart, and in your brain, that you wanna keep functioning. Because you don't wanna turn off a hundred different proteins on that factory and cause all kinds of side effects.
 
 **Chris Benson:** Yeah.
 
@@ -198,7 +198,7 @@ So in the image is a 2D grid of pixels, and every grid has red and green and blu
 
 **Abe Heifets:** Absolutely. You struck on something that's absolutely critical, which is the quality of the data. In some sense, if you're an academic machine learning researcher, you get to just care about MNIST and ImageNet and CIFAR. And in some sense, you don't even care if those are labeled correctly or incorrectly. You now have ground truth data and you can ignore whether they were accurate or inaccurate. And I think people have -- there's still mislabeled things in ImageNet, and totally ambiguous things in MNIST, but who cares...? It's really how well do you overfit to those three standard sets.
 
-**Chris Benson:** \[00:28:05.05\] It's standard now, yeah.
+**Chris Benson:** \[28:05\] It's standard now, yeah.
 
 **Abe Heifets:** It's a standard, exactly. And there's value in having a standard. But you know, our bug, the bug we're trying to close is "Have we ever helped a patient? Have we ever cured a disease?" It doesn't matter whether you're doing well on a benchmark, it matters whether you're having practical, pragmatic outcomes. Anyway, if any of your listeners don't want to improve clickthrough rates on ads, or don't wanna improve performance on a benchmark, but hold themselves to that standard of whether they're helping humanity - boy, we've got more than enough machine learning problems to work on.
 
@@ -220,7 +220,7 @@ One of the things we've had to do - we've had to put the machine learning practi
 
 **Abe Heifets:** That's the core question, is how do you convince yourself, even before you convince anybody else; how do you convince yourself that you're making progress and that this is working. Actually, if you look up my name, the last paper that I wrote was a paper basically looking at every benchmark that we could get our hands on. We looked at every one of the standard benchmarks in our field, and basically, we've found that there was this problem of data redundancy.
 
-\[00:32:04.25\] How to explain - here's the conversation I was having with people... People would come to me and they'd say "Hey, I've got a machine learning system. I can predict yesterday's stock price to within a dollar. Give me your life savings, we're gonna be rich." And you hear that and you say "Well, it's good that you can predict yesterday's stock price. That's something. Have you ever predicted tomorrow's stock price?" And they say "Okay. Tough customer."
+\[32:04\] How to explain - here's the conversation I was having with people... People would come to me and they'd say "Hey, I've got a machine learning system. I can predict yesterday's stock price to within a dollar. Give me your life savings, we're gonna be rich." And you hear that and you say "Well, it's good that you can predict yesterday's stock price. That's something. Have you ever predicted tomorrow's stock price?" And they say "Okay. Tough customer."
 
 And they go and they come back and they say "Okay, now I can predict yesterday's stock price to within a dime. Give me your life savings, we're gonna be rich." And you say, "Well, that doesn't really answer my question - have you predicted tomorrow's?" And they'd say "I can tell you're an expert."
 
@@ -234,7 +234,7 @@ So my personal conclusion is that most of the history computational chemistry in
 
 So what we did was we launched -- you know, we're not experts in a hundred different proteins. I'm a computer scientist, I'm not an expert in any project, so we decided we're gonna have to partner with people who were. And nobody is an expert in a hundred different proteins, so we launched a wide set of collaborations with academics. And what we did was - imagine you're a professor, and you believe if you block protein XYZ, that would cure a certain type of cancer, or Alzheimer's, or COVID... You tell us you want molecules for protein XYZ, we go screen commercially-available molecules, we buy the best molecules out there, we get them formatted, plated, ready to go into your \[unintelligible 00:35:33.13\] We ship you physical molecules. You run the experiment and you tell us whether we were right or not.
 
-**Break:** \[00:35:36.04\]
+**Break:** \[35:36\]
 
 **Chris Benson:** So now that you've kind of taken us through how you got there and how you think about all this stuff and how it works, could you pick a use case of maybe a specific disease that you guys have worked on, and how do you apply that? Maybe tell us about a story where you were doing this and you got some level of the success of doing the process, as well as some of the challenges that you hit along the way, just to make the whole thing real and give something very tangible.
 
@@ -258,7 +258,7 @@ When I present this at chemistry conferences, I usually stop and I ask the audie
 
 Let me give you an example. This is joint work with professor Ron Viola at the University of Toledo, and there's a disease called Canavan disease. This is an ultra-rare neurodegenerative disorder. If you're pregnant and you're doing a genetic screen, it's one of the things that they test for in genetic screens...
 
-\[00:40:02.08\] Basically - I won't get deeply into the biology, but you've got a molecule in your brain called NAA (N-acetylaspartate). And you have a system that makes it in your brain, and you have a system that clears it out in your brain. And these kids lose the ability to clear it out. So this NAA builds up in the brain, and basically the sheath around your neuron, the myelin sheath starts to degrade, and these kids stop hitting developmental milestones. It can be fatal, there's really no cure for it, so it's a pretty tragic disease.
+\[40:02\] Basically - I won't get deeply into the biology, but you've got a molecule in your brain called NAA (N-acetylaspartate). And you have a system that makes it in your brain, and you have a system that clears it out in your brain. And these kids lose the ability to clear it out. So this NAA builds up in the brain, and basically the sheath around your neuron, the myelin sheath starts to degrade, and these kids stop hitting developmental milestones. It can be fatal, there's really no cure for it, so it's a pretty tragic disease.
 
 But there was some mouse data that shows that having lost the ability to clear this NAA, if you slow down the synthesis, you could burn the system back into balance, and the mice live a full lifespan. So that gives the idea that we could develop a drug for the synthesis side. But that N-acetylaspartate synthesized is a classic undruggable target, and I'll tell you why. It's inside the neurons; so it's in the central nervous system, it's inside the neuron, and your brain's protected by something called the blood brain barrier, so it's like an armor around your brain. So it's very hard to get to.
 
@@ -278,7 +278,7 @@ Out of 7 million, we pulled down to 60 that we felt we'd test, and five of the 6
 
 I'm curious - maybe a slightly weird question, but one of the things that people of course are so concerned about with the rapid expansion of applications of AI into all spheres of life is various sources of bias in the data that we're using... And I think this has been particularly - not in the case of AI, but another source of bias that people have been talking about recently is with vaccines, and of course, certain populations who maybe have a certain history with vaccines or other things, are very concerned... For example with the Coronavirus vaccine of "Hey, does this work well for our population or other populations? Are we getting the bad vaccine?" or something like that...
 
-\[00:44:23.23\] So I'm wondering, as you are specifically trying to apply AI in these cases, what is your thought process around making sure that you're accounting for some of that bias in your methods, and you're creating drugs that are kind of applicable to general population that is diverse?
+\[44:23\] So I'm wondering, as you are specifically trying to apply AI in these cases, what is your thought process around making sure that you're accounting for some of that bias in your methods, and you're creating drugs that are kind of applicable to general population that is diverse?
 
 **Abe Heifets:** Absolutely. I think it's absolutely the case that we need medicines for all people, everywhere in the world. And I think one of the things I'm proud of is the fact that we opened this program globally, that we're democratizing access to these kinds of technologies to researchers around the world, and that they can decide what diseases they're concerned about, where they see the ability to make a breakthrough.
 
@@ -298,7 +298,7 @@ So that's our perspective on a very important problem. I'm glad you raised it.
 
 **Chris Benson:** To that point, when you say "AI-sized problems", can you tell us -- this sounds like it's truly in the process, in the early stages of revolutionizing an entire industry; because of the scale and the accuracy, you've changed the whole thing. So where do you see this going? No one can tell the future, but if you'll put your wizard hat on for a minute and pull out the crystal ball and speculate on what it looks like 5, 10, even beyond, where you think -- when you lay in bed at night and you're thinking about where you're going with this and where you wanna go with this, what does that look like? How does the world change as a result of this within that industry, which affects all of us? Where are we going?
 
-**Abe Heifets:** \[00:48:01.09\] I think you're right that it affects all of us. This is one of the fundamental, universal truths about being human, is that we get sick, our parents get sick, our kids get sick, the people we care about get sick, so this is something that all of us face... And I think in some sense, no one comes down on the other side. No one says "Yeah, chemotherapy - those side effects are fine, and the success rates are fine." "Yeah, Alzheimer's - we don't have any real treatment... Well, I guess that's it. We're just gonna have to live with it, or not, as the case may be." Or diseases of poverty around the world that we haven't been able to afford to direct large discovery -- what can we do?
+**Abe Heifets:** \[48:01\] I think you're right that it affects all of us. This is one of the fundamental, universal truths about being human, is that we get sick, our parents get sick, our kids get sick, the people we care about get sick, so this is something that all of us face... And I think in some sense, no one comes down on the other side. No one says "Yeah, chemotherapy - those side effects are fine, and the success rates are fine." "Yeah, Alzheimer's - we don't have any real treatment... Well, I guess that's it. We're just gonna have to live with it, or not, as the case may be." Or diseases of poverty around the world that we haven't been able to afford to direct large discovery -- what can we do?
 
 I don't think anybody is actually advocating for any of those approaches. We want better treatments for all of it. Let alone diseases that we had fixed, but we're losing ground. The WHO is talking about a post-antibiotic apocalypse. And when you see serious governmental organizations use words like that, it's serious. And that's the growth of antibiotic resistance. We need fundamentally new approaches to antibiotics just to maintain the kind of lifestyle that we've been happy with.
 
@@ -318,7 +318,7 @@ So I wanna give a huge shout-out to the chemists. There's been this equal expone
 
 **Abe Heifets:** Exactly. Well, they had a better chance than you and me. Good or not, that's an empirical question. After you ran the screen, you could tell. But they had a better chance than you and me. Okay. But here's what happened 15 years afterwards - the industry has adopted something called synthesis on-demand. And here's where it works. You may remember Dell computers...
 
-**Chris Benson:** \[00:52:10.08\] Of course.
+**Chris Benson:** \[52:10\] Of course.
 
 **Abe Heifets:** Okay. Michael Dell had what was principally a business innovation, which was "I'll get to work after your check clears." That's principally a business innovation. But there was a corollary to that change, which is that the range of different computers that Michael Dell could sell you was way more than what anybody else could sell you, because it was every potential combination of printer, and memory, and monitor that you could choose to put together.
 

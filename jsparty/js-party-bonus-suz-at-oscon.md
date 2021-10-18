@@ -52,7 +52,7 @@ Your job as a keynote is to inspire people, but also to be super professional an
 
 **Suz Hinton:** I don't know. I just thought, "Well, if someone is watching you type, what's in it for them?" I guess... So I thought "There's gotta be something that will be funny to people." I wanted to be funny, so that if I was stuck on coding or something, people wouldn't be bored... So I guess the ticking just came about as just a filler.
 
-**Adam Stacoviak:** \[00:04:06.29\] The ticking is actually a playbook from Hollywood. In scary movies or suspenseful things, they'll subliminally put in ticking of some sort -- it'll be the music, or it'll be in just some sort of sound in the scene, to make it feel like the time clock is ticking.
+**Adam Stacoviak:** \[04:06\] The ticking is actually a playbook from Hollywood. In scary movies or suspenseful things, they'll subliminally put in ticking of some sort -- it'll be the music, or it'll be in just some sort of sound in the scene, to make it feel like the time clock is ticking.
 
 **Suz Hinton:** Totally. I don't watch scary or tension-featured movies for that reason; it works very well on me and I stress out.
 
@@ -104,7 +104,7 @@ Now, the lights were really bright on the stage, but generally, the nature of th
 
 **Suz Hinton:** I think so, yeah... I think that because I fixed it so quickly, that was a big relief... But when I knew it had gone wrong so early on, I was like "Alright, this is either gonna be great, or it's gonna completely flop", and luckily, I fixed it up pretty quickly.
 
-**Adam Stacoviak:** \[00:08:07.23\] Why do you think this particular type of keynote was asked of you? Because you didn't pitch this; this was asked of you...
+**Adam Stacoviak:** \[08:07\] Why do you think this particular type of keynote was asked of you? Because you didn't pitch this; this was asked of you...
 
 **Suz Hinton:** I was reached out to, and OSCON said "We'd like you to livecode something. We know you do a lot of hardware on Twitch, so can you do something to do with that?" Initially, I thought "Great, I've got half an hour to just livecode some hardware" and then they were like "No, you have 15 minutes, but we have one minute reserve for walking on, one minute for walking off... So you've got 13 minutes." I thought, "What can I livecode in 13 minutes?"
 
@@ -202,7 +202,7 @@ I didn't expect it to have such a good reaction, and I think that's really fun. 
 
 **Suz Hinton:** You have all the ideas. This is the second brilliant idea that you--
 
-**Jerod Santo:** \[00:12:09.07\] Well, let's tell the people about my first brilliant idea, because I think that this idea that you have come up with is very interesting. Your next art project, your next hack - the next thing you're planning on doing is kind of an IoT home that talks to you, but only in certain-- just tell us, because I can't even describe it.
+**Jerod Santo:** \[12:09\] Well, let's tell the people about my first brilliant idea, because I think that this idea that you have come up with is very interesting. Your next art project, your next hack - the next thing you're planning on doing is kind of an IoT home that talks to you, but only in certain-- just tell us, because I can't even describe it.
 
 **Suz Hinton:** Yeah, I'll tell you. So now that I'm not freaking out about my OSCON keynote anymore, I have a little bit more time to spend on some of my other personal projects.
 
@@ -268,7 +268,7 @@ I've just moved into a new place, it's a really cool apartment... And I wanna st
 
 **Jerod Santo:** Right.
 
-**Suz Hinton:** \[00:16:10.12\] And the other one I have is - for a while, when I lived in New York, I was in this super-stuffy study, and so in summer I would just start... Like, there was an inverse correlation between my programming ability and how hot the room got, and people would just see me stumbling, and there's like sweat--
+**Suz Hinton:** \[16:10\] And the other one I have is - for a while, when I lived in New York, I was in this super-stuffy study, and so in summer I would just start... Like, there was an inverse correlation between my programming ability and how hot the room got, and people would just see me stumbling, and there's like sweat--
 
 **Jerod Santo:** As the temperature goes up?
 
@@ -388,7 +388,7 @@ So I just hooked up a simple thermometer to the cloud, and that now shows in the
 
 **Suz Hinton:** Yeah.
 
-**Adam Stacoviak:** \[00:20:12.05\] Maybe the raccoon has emotions, and the Roomba activates based on emotion.
+**Adam Stacoviak:** \[20:12\] Maybe the raccoon has emotions, and the Roomba activates based on emotion.
 
 **Suz Hinton:** I'm silently dying right now; that's me actually --
 

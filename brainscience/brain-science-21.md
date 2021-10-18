@@ -6,7 +6,7 @@ And like any movie, you can go deeper, because movies aren't as deep as books, b
 
 **Mireille Reece, PsyD:** That's what I think is so fascinating - stories are really powerful. I love the way I get to learn nowadays, with doing school twice with my kids. Recently, I had to do a little lesson on folktales, and it just sparked my curiosity because the whole premise of this assignment was recognizing the value that folktales have, and that they're designed to learn. Stories, ironically, help us to learn from anything. How many times you hear analogies or stories or other ways in which you can relate the information that you hadn't previously considered?
 
-**Adam Stacoviak:** \[00:04:06.12\] Yeah. Well, data for data's sake isn't actionable; you often have to tie it to some emotional buy-in and things like that. I think that's why stories really get at you, because it's like an empathy tie-in or an emotional tie-in, or maybe even being able to place yourself in the scenario, to some degree, where you can, I suppose, transplant yourself in--
+**Adam Stacoviak:** \[04:06\] Yeah. Well, data for data's sake isn't actionable; you often have to tie it to some emotional buy-in and things like that. I think that's why stories really get at you, because it's like an empathy tie-in or an emotional tie-in, or maybe even being able to place yourself in the scenario, to some degree, where you can, I suppose, transplant yourself in--
 
 **Mireille Reece, PsyD:** You got it.
 
@@ -28,7 +28,7 @@ And maybe you realize, if you knew their back-story, they had something traumati
 
 **Mireille Reece, PsyD:** This little narrow-- this little narrow path that you've got. So what we know is really helpful in navigating our lives is flexibility and being able to adapt and do things in different ways. So imagine I just then said, "Hey, I paved this really wide -- you've got six feet on either side of planks that you can walk from one building to the next, 25 feet in the air." It wouldn't be so scary in the same way and you'd be more prone to approach it. Let's face it, everybody's got their own little idiosyncrasies that make it challenging to interface with them, and these can't help but show up at work, especially when there's aspects of pressure.
 
-**Adam Stacoviak:** \[00:07:46.20\] Yeah, because you can read a lot into things that happen that are just by happenstance and not on purpose, but because you're already anxious about an interaction or have a preconceived notion or whatever it might be, you're like-- you start to read into things that are not actually true... Or maybe they are, you never know. But the point is, you start to really put information into place that may not actually be there because you have insecurities or concerns between a relationship, and you read into things that are not actually there, and so those curt responses from them, one word or two words or whatever, or delayed response even... You might think, "Well, they haven't responded to me yet. Are they angry with me? Is this thing that I thought was an issue, is it becoming a bigger issue?" Really, they were just busy with their kids, or doing other things--
+**Adam Stacoviak:** \[07:46\] Yeah, because you can read a lot into things that happen that are just by happenstance and not on purpose, but because you're already anxious about an interaction or have a preconceived notion or whatever it might be, you're like-- you start to read into things that are not actually true... Or maybe they are, you never know. But the point is, you start to really put information into place that may not actually be there because you have insecurities or concerns between a relationship, and you read into things that are not actually there, and so those curt responses from them, one word or two words or whatever, or delayed response even... You might think, "Well, they haven't responded to me yet. Are they angry with me? Is this thing that I thought was an issue, is it becoming a bigger issue?" Really, they were just busy with their kids, or doing other things--
 
 **Mireille Reece, PsyD:** Exactly.
 
@@ -48,7 +48,7 @@ And maybe you realize, if you knew their back-story, they had something traumati
 
 **Mireille Reece, PsyD:** Yep, yeah. So I love it. This guy, Joe Laza-- I'm gonna wreck his last name... Lazauskas. He says - so this is just a really good quote, I couldn't help but share. It says, "A few different things happen when we hear a really good story.
 
-\[00:12:01.04\] The first is that the neural activity in our brain increases fivefold. Stories illuminate the city of our mind." He goes on to say, "Stories make us remember and stories make us care," and that's so significant, because it creates a broader landscape and meaning, as opposed to just relating to a thing. We all remember better too when things have meaning. If I gave you four random words and told you to remember them, maybe you could, but it's actually really different if I told you a story, and said, "Tell me back that story." And even more so if you can relate with the story.
+\[12:01\] The first is that the neural activity in our brain increases fivefold. Stories illuminate the city of our mind." He goes on to say, "Stories make us remember and stories make us care," and that's so significant, because it creates a broader landscape and meaning, as opposed to just relating to a thing. We all remember better too when things have meaning. If I gave you four random words and told you to remember them, maybe you could, but it's actually really different if I told you a story, and said, "Tell me back that story." And even more so if you can relate with the story.
 
 **Adam Stacoviak:** Even though I can't remember the whole story, I could at least paraphrase most of it and get the-- which is interesting about language, because I don't have to say exactly what you said to deliver meaning. Meaning in language is really interesting, because you can say something of meaning 10 or 15 different ways. I don't know if that's true or not in terms of the actual math, but you get the point...
 
@@ -68,7 +68,7 @@ So I'm trying to help people who don't have a framework around why they're havin
 
 **Mireille Reece, PsyD:** Yeah, it's interesting, because having done a fair amount of cognitive testing, there's actually tests that look at how we remember things, and so there's-- I've administered this one test so many times that I know the story by heart. I don't have to look back at it to be like, "Repeat this back to me", because of the frequency... And my only thing is then I sometimes overlap multiple stories, because I've associated that these couple of stories go together.
 
-**Adam Stacoviak:** \[00:16:10.11\] Right. Can you give us a preview of that story? Is that interesting or is it kind of boring?
+**Adam Stacoviak:** \[16:10\] Right. Can you give us a preview of that story? Is that interesting or is it kind of boring?
 
 **Mireille Reece, PsyD:** No, it's-- well, for test security purposes, I don't.
 
@@ -92,7 +92,7 @@ So I'm trying to help people who don't have a framework around why they're havin
 
 Same thing with Marvel, and I'm thinking these big universes, this Marvel, gigantic universe of all these different characters come into play, and you've got these little mini characters... That's an example of how big storytelling can be, because you care about, let's say, Infinity War or Endgame more because you watch literally all of these Marvel movies, 25 movies or more, to create this one final ending of a movie. Storytelling is huge.
 
-**Mireille Reece, PsyD:** \[00:20:03.25\] Yeah, but so if I can flip the lens for just a second, I want to move what you just said over into literally people in our world. There's you and I, and we're just small potatoes amidst the entirety of the people within the world, and recognizing that our stories matter and can have power within the world and change people and change the way things go. So this is why learning stories, not just knowing your own, but also having a curiosity around other people really can make a difference. I'll share this - I remember, and it wasn't necessarily a story, but it was just this shift in perspective...
+**Mireille Reece, PsyD:** \[20:03\] Yeah, but so if I can flip the lens for just a second, I want to move what you just said over into literally people in our world. There's you and I, and we're just small potatoes amidst the entirety of the people within the world, and recognizing that our stories matter and can have power within the world and change people and change the way things go. So this is why learning stories, not just knowing your own, but also having a curiosity around other people really can make a difference. I'll share this - I remember, and it wasn't necessarily a story, but it was just this shift in perspective...
 
 My husband is fabulous at doing this for me, but when I worked in this office when I lived in Texas, he just always reminded me about all the other players that allowed me to do my job. So I remember walking in and being grateful all the time that my trash was empty. It might seem super-petty, but that somebody, somebody's life-- that's how they were earning their living for that time, and it just made my life easier, and I just had so much more appreciation for the parts to the greater whole, that enabled me to then just do what I felt like I could do.
 
@@ -102,7 +102,7 @@ My husband is fabulous at doing this for me, but when I worked in this office wh
 
 **Adam Stacoviak:** Well, this drives at what really drives drove me to want to produce this show in the first place, was that while there's so much that divides us, there's significant that unites us. You have the same human brain I have. We may be different gender, we may be different color, we may be from different geographical areas, we may be speaking different languages, we may have different life experiences, but the thing that unites us is our humanity. And your brain works the same way as mine regardless of language, regardless of gender, regardless of background, regardless of all these things. Now there may be some differences in there because just life, circumstances, but the point is that we share a common bond, which is humanity, and there's similarity and sameness because of that.
 
-**Mireille Reece, PsyD:** \[00:23:47.17\] Right, right, yeah. So in the case of each of these languages, what the researchers found was that they resulted in these unique patterns of activations in what we call the default mode network of our brains. This network engages interconnected brain regions including the medial prefrontal cortex, the posterior cingulate cortex, the inferior parietal lobe and the lateral temporal cortex, and of course, the hippocampal formation. That hippocampal formation - we've talked about memory and that the hippocampus is that key brain structure involved in that.
+**Mireille Reece, PsyD:** \[23:47\] Right, right, yeah. So in the case of each of these languages, what the researchers found was that they resulted in these unique patterns of activations in what we call the default mode network of our brains. This network engages interconnected brain regions including the medial prefrontal cortex, the posterior cingulate cortex, the inferior parietal lobe and the lateral temporal cortex, and of course, the hippocampal formation. That hippocampal formation - we've talked about memory and that the hippocampus is that key brain structure involved in that.
 
 And so additional studies, including this one, suggests that this default mode network is actually working behind the scenes, while the brain is at rest, but it continues to find meaning in the story, and it serves as an autobiographical memory retrieval that influences how our brain relates to the past, the future, ourselves and our relationship to others.
 
@@ -126,7 +126,7 @@ And so additional studies, including this one, suggests that this default mode n
 
 **Mireille Reece, PsyD:** But the attitude is, to some degree, the emotion and intangible way in which I make sense of information. I have to talk about attitude as having an emotional component, because I can say, in the same way, "It's fine and I'm okay", or my attitude is like, "IT'S FINE", and that has a little bit different attitude. Or a behavior. Attitude-- my daughter has this stance and my son has commented like, "Mom, why does she do that?" She'll stand with the one hand on the hip, and... You know, she's still of elementary age, so it's amazing that there's that much attitude in that little body... But attitudes are this sort of way of perceiving and reacting. How would you make sense of it?
 
-**Adam Stacoviak:** \[00:28:10.08\] I'm gonna google it, and I will read the definition, which is what I'm going to do now, because--
+**Adam Stacoviak:** \[28:10\] I'm gonna google it, and I will read the definition, which is what I'm going to do now, because--
 
 **Mireille Reece, PsyD:** Of course you would.
 
@@ -168,7 +168,7 @@ And so additional studies, including this one, suggests that this default mode n
 
 **Adam Stacoviak:** I'm just kidding... I'm defending myself here... Whatever. It's funny. I like this.
 
-**Mireille Reece, PsyD:** \[00:31:57.24\] But - right, just because we can't see our biases or our attitudes, it doesn't mean they aren't there. I mean, I've talked about this in other episodes with having worked in South Central, L.A, and with gang prevention program, and I really had a bias. I mean, give me some grace... I was a young 20 something year old, so I wasn't as aware, hopefully, as I am more so today, but I walked into that community and environment just -- oh, I mean, ignorant. Ignorant of their world, their life and where they were at. There were moments where I missed them big. I had every good intention in the world to help these people, these kids, and my bias ran interference with my intention, and that is disappointing to me.
+**Mireille Reece, PsyD:** \[31:57\] But - right, just because we can't see our biases or our attitudes, it doesn't mean they aren't there. I mean, I've talked about this in other episodes with having worked in South Central, L.A, and with gang prevention program, and I really had a bias. I mean, give me some grace... I was a young 20 something year old, so I wasn't as aware, hopefully, as I am more so today, but I walked into that community and environment just -- oh, I mean, ignorant. Ignorant of their world, their life and where they were at. There were moments where I missed them big. I had every good intention in the world to help these people, these kids, and my bias ran interference with my intention, and that is disappointing to me.
 
 **Adam Stacoviak:** Well, you can't help your bias, to some degree. You can be aware of it and understand the change necessary.
 
@@ -192,7 +192,7 @@ This is what the process of therapy is about - people can begin to see themselve
 
 **Mireille Reece, PsyD:** Well, ego in the sense of it's protective in nature. If I don't want to let people in or I don't want to change, it's usually for some self-protective factor. That feels too risky, that feels too vulnerable. I was talking about it like we all have our castle, and I'm not gonna drop the drawbridge over the moat. No way, I'm not letting that down to let you in.
 
-**Adam Stacoviak:** \[00:36:14.24\] Right. Look at my walls.
+**Adam Stacoviak:** \[36:14\] Right. Look at my walls.
 
 **Mireille Reece, PsyD:** Right, and walls keep you in and they keep you safe, but they keep people out. And so you might be safe, you also just might be alone. And I don't know that that's necessarily better; maybe just better in the emotional sense at that time, that things don't feel as threatening or overwhelming.
 
@@ -206,7 +206,7 @@ This is what the process of therapy is about - people can begin to see themselve
 
 **Adam Stacoviak:** That really make sense of this stuff though. I think from an outsider, in terms of neuroscience, and just a curious person, which hopefully we're attracting - if you're curious out there, you're probably listening to this show, which is awesome... It's this idea that there literally is this mechanism inside of our brains that has a role in -- it's not the end all, be all, but it has a role in this idea of empathy. This isn't just simply-- it's a skill that you can get better at, but it's a baked-in thing into our brain, to mirror somebody else's presence, perspective, etc.
 
-**Mireille Reece, PsyD:** \[00:39:46.11\] Yeah. So these were discovered by this neuroscientist in his study of monkeys. So his name is Dr. \[unintelligible 00:39:53.22\] and his colleagues at the University of Parma, who first identified these... And they were looking at monkeys' premotor cortex. This was back in the 80's... And what they found is that this area fired when the monkeys did things like reach for a peanut, and then they wanted to learn how these neurons responded to different objects or actions, and so they used electrodes to record the activity in these monkeys' brains, while giving the monkeys different objects to handle.
+**Mireille Reece, PsyD:** \[39:46\] Yeah. So these were discovered by this neuroscientist in his study of monkeys. So his name is Dr. \[unintelligible 00:39:53.22\] and his colleagues at the University of Parma, who first identified these... And they were looking at monkeys' premotor cortex. This was back in the 80's... And what they found is that this area fired when the monkeys did things like reach for a peanut, and then they wanted to learn how these neurons responded to different objects or actions, and so they used electrodes to record the activity in these monkeys' brains, while giving the monkeys different objects to handle.
 
 What they realized was when the monkeys picked up an object, in this case, say a peanut, to hand it to the monkey -- or when the researchers picked it up, sorry, to hand it to the monkey, some of the monkeys' motor neurons would even start to fire. And these same neurons are what fired when the monkey itself grasps the peanut. So they're watching, like "Hi, Adam. I'm gonna hand you a peanut" and your mirror neurons run the same play as if you grasped the peanut as well.
 
@@ -224,7 +224,7 @@ What they realized was when the monkeys picked up an object, in this case, say a
 
 **Adam Stacoviak:** Do you think that, on that same note, which may be a tangent to our topic today, confidence comes from the strengthening of that? So if I have less strength in that myelin sheath, whatever that is (I don't really know), if I have less strength, would I be less confident? So my confidence is built-- not so much is only there, because sure, it's a bigger part than that, but is that one aspect of confidence?
 
-**Mireille Reece, PsyD:** \[00:43:58.14\] Well, I would think that more so -- part of it is actually having a broader breadth of neural networks. Even thinking where you're at today in terms of podcasting versus over 10 years ago.
+**Mireille Reece, PsyD:** \[43:58\] Well, I would think that more so -- part of it is actually having a broader breadth of neural networks. Even thinking where you're at today in terms of podcasting versus over 10 years ago.
 
 **Adam Stacoviak:** Yeah. Terrible, ten years ago.
 
@@ -242,7 +242,7 @@ So oxytocin, we've mentioned before, as relative to the key times when our brain
 
 What he was looking at is the way in which brain processes that support virtuous behaviors like trustworthiness, generosity, sacrifice, as well as those that when they're not there, lead to evil or vice and conflict. So what he found-- they tested narratives, stories shot on video, as opposed to face to face interactions, that would cause the brain to make oxytocin. And what they did is taking blood draws before and after the narrative, they found that character-driven stories do consistently cause oxytocin synthesis. The amount of oxytocin released by the brain predicted then how much people were willing to help others. For example, donating money to a charity associated with that story. Isn't that crazy?
 
-**Adam Stacoviak:** \[00:47:51.29\] That is crazy. It makes sense why then donations are connected to galas, is because they feed you very well or some decent meal, and it's like, "Well, now it's time to donate with the same--" Nah, I'm just kidding. \[laughter\] It would make sense \[unintelligible 00:48:02.05\] maybe just by happenstance, but it makes sense that they're connected.
+**Adam Stacoviak:** \[47:51\] That is crazy. It makes sense why then donations are connected to galas, is because they feed you very well or some decent meal, and it's like, "Well, now it's time to donate with the same--" Nah, I'm just kidding. \[laughter\] It would make sense \[unintelligible 00:48:02.05\] maybe just by happenstance, but it makes sense that they're connected.
 
 **Mireille Reece, PsyD:** Right. But it's the stories then that are shared of the people that are helped.
 
@@ -272,7 +272,7 @@ What he was looking at is the way in which brain processes that support virtuous
 
 Consider also cultural factors that are relevant. I think of this a lot in terms of eye contact, because here in the US, and I've reinforced this with our children about eye contact as a form of respect. Well, in other places, eye contact is a form of disrespect. You don't meet the gaze, as a sign, and that that's really important. So maybe somebody isn't looking at you when you're giving them feedback, ironically to be respectful, but you feel insulted. So go ask... And that's really it. You want to lead with curiosity, and if I'm talking about being curious about other people, I can't help but also bring in respect and humility.
 
-**Adam Stacoviak:** \[00:52:21.08\] I think curiosity, to me, seems like an action or an attitude that is respectful. To be curious means you're inquisitive. Cross-examination - that's the opposite of that. I mean, you're not trying to cross-examine. You're not--
+**Adam Stacoviak:** \[52:21\] I think curiosity, to me, seems like an action or an attitude that is respectful. To be curious means you're inquisitive. Cross-examination - that's the opposite of that. I mean, you're not trying to cross-examine. You're not--
 
 **Mireille Reece, PsyD:** Asking them the proof.
 

@@ -24,7 +24,7 @@ So the gauntlet has been thrown... We all have opinions on the matter; some of u
 
 So first up, let's define the term, let's lay the ground rules... I think a lot of people when they think API, they immediately go to probably a subset of what the term is applied to, which is usually like a web API or a service... But it's more broad than that. Would anybody like to tackle API, define it, and then talk about the scope of the term?
 
-**Amal Hussein:** \[00:04:13.00\] I nominate Suz...
+**Amal Hussein:** \[04:13\] I nominate Suz...
 
 **Jerod Santo:** I'll second it...
 
@@ -62,7 +62,7 @@ So it's really just a communication layer between different pieces of software, 
 
 **Suz Hinton:** I love that so much.
 
-**Amal Hussein:** \[00:08:05.15\] Yeah, A Poke Interface... So it's like the way you are leveraging someone else's code. It's like "Here, poke my code this way, if you wanna get this thing." Kind of like a game of Twister, but with your fingers on the keyboard, and you're typing things to make this other thing do a thing. So it's really a contract. It's like "Hey, this is how I'm used. I do all this stuff underneath. I'm an iceberg. All you see is my tip, the tip of the iceberg." You don't know what's underneath.
+**Amal Hussein:** \[08:05\] Yeah, A Poke Interface... So it's like the way you are leveraging someone else's code. It's like "Here, poke my code this way, if you wanna get this thing." Kind of like a game of Twister, but with your fingers on the keyboard, and you're typing things to make this other thing do a thing. So it's really a contract. It's like "Hey, this is how I'm used. I do all this stuff underneath. I'm an iceberg. All you see is my tip, the tip of the iceberg." You don't know what's underneath.
 
 What's really nice about APIs in general is the abstraction. Someone(s) has done the job of taking away some piece of complexity and bundling it up, packaging it up into a nice interface for you to poke.
 
@@ -84,7 +84,7 @@ There's also kind of an inside-out way of looking at it. I joked earlier that I'
 
 Now, you may be the only consumer of that API. Your own code may be the only one ever consuming it. But it's an API nonetheless. Or when you do a capital upper-case poke API like the Stripe API, or the GitHub API, you're now writing a very similar thing conceptually, it's just that it has way more depth to it, and things underneath it. And it's third-party, so you're calling into that from somewhere else.
 
-\[00:11:53.05\] So that's why I say it's so broad... Because it can go from "How do I name my functions and how do I accept parameters?" to "How do I do OAuth, or how do I do REST correctly, or GraphQL?" or these kinds of decisions. So it really is such a broad thing.
+\[11:53\] So that's why I say it's so broad... Because it can go from "How do I name my functions and how do I accept parameters?" to "How do I do OAuth, or how do I do REST correctly, or GraphQL?" or these kinds of decisions. So it really is such a broad thing.
 
 That being said - Amal kicked off what we like, so we're gonna talk about what makes a good API, and Amal enumerated a couple of characteristics, but she also says an API that she loves, or really a philosophy around APIs, which is the Unix philosophy... We thought it would be nice to talk about APIs that we admire, or that we think are good, because when you talk about how do you design a good API, a lot of times the way you do something good is by imitation. You say "I think that thing over there is good. I'm gonna do it like that." This is how good authors become good, oftentimes - they read a bunch of books, and they find authors they admire, and they say "I would like to write as well as this guy, or that gal." And we can do that with APIs as well. So what are some APIs that we consider good, here on the panel?
 
@@ -100,7 +100,7 @@ So low domain knowledge is good when folks are using your tool, but... I don't k
 
 I picked up promises pretty early... Certainly before it was -- I feel like it was before it was standardized. And I was using Q, if you remember that library that had a promise implementation. So I wrote a whole lot of thens... And now I just do not touch then, because I do not have to... And it is very nice. I like using async/await and promise.all to make sure I don't shoot myself in the foot with it... But yeah, I'm really happy about that one.
 
-**Jerod Santo:** \[00:16:18.16\] That's a good one as well. Suz, anything that you'd like to add? Stripe has a pretty good API, but we've covered that one, so...
+**Jerod Santo:** \[16:18\] That's a good one as well. Suz, anything that you'd like to add? Stripe has a pretty good API, but we've covered that one, so...
 
 **Suz Hinton:** I can't talk about that, because I would be biased.
 
@@ -134,7 +134,7 @@ I've been really impressed with how much you can do with just one API call with 
 
 **Jerod Santo:** Well, I won't add any, because mine have already been said. Y'all stole mine... But I will talk about a couple of library-style APIs. We already mentioned jQuery. I think jQuery's API was brilliant, for many reasons, which - you can go back to listen to that episode, "An ode to jQuery", wherein we enumerate a lot of the reasons why... And therefore, anything that derives from that, Cypress being another one... A lot of tools. I like Mocha's API, by the way, which is really a nice one as well; Chris won't say it... I like BDD-style test APIs, like RSpec style. "It should do this, it should do that", those kind of APIs are nice.
 
-\[00:20:02.23\] I come from the Ruby world, and there are some really nice APIs over there. Active Record for Ruby on Rails, which is an ORM which allows you to manipulate a database in a way that I still think is unparalleled in its ease of access, and just doing things from memory and from guess and check... Like, you just guess, and it does it the way that you want to. It's a nice API to look at if you are looking at developing APIs... But yeah, GitHub.
+\[20:02\] I come from the Ruby world, and there are some really nice APIs over there. Active Record for Ruby on Rails, which is an ORM which allows you to manipulate a database in a way that I still think is unparalleled in its ease of access, and just doing things from memory and from guess and check... Like, you just guess, and it does it the way that you want to. It's a nice API to look at if you are looking at developing APIs... But yeah, GitHub.
 
 Twitter's API used to be sick; I loved it. Now, they've kind of bastardized it over the years, much to their shame, I think, and they're trying to recover, sort of... They've treated third-party developers very poorly for a while there, and they're trying to recover that... But trust is easy to ruin and hard to gain back. But their API used to be very solid.
 
@@ -160,7 +160,7 @@ GitHub's is really good... I like the REST API. GraphQL - I'm just not totally i
 
 What's really cool about tools that really invest in onboarding - they kind of think of everything. "How can we make this a one-click experience?" or "Add the CDN, start working." Anything tools do to reduce the time that you need to be productive. So if you need an hour or more to be productive when you're importing a new tool... In 2020, I would say that's a very low bar. So you should really aim to get folks productive as quickly as possible; and that's a combination of docs, examples, started kits... There's many ways to do that, to kind of really round out that number of "How many minutes is it gonna take for a person to be productive when using my thing", whatever that is. Time is money, money is time. Right, people? So... Gotta keep it movin'.
 
-**Break:** \[00:23:06.09\]
+**Break:** \[23:06\]
 
 **Christopher Hiller:** When talking about what makes a good API, for me, I appreciate an API that is at the -- it finds that sweet spot in terms of the level of abstraction. When you are using one -- for example, maybe you have this API you're talking to, and you need to do some certain task... And to do that task, you need to make four different function calls. But then you switch to this other tool or library and you only have to make one. Now, to me, the one that only requires a single function call probably maybe better understands how its users are trying to use it. They've done that research and they say "Oh, well this is a very common use case, and we're gonna optimize for that." I think that's really important when designing an API, is to really know what your users wanna get done and how they wanna do it.
 
@@ -174,7 +174,7 @@ So the idea is low floors, wide walls, high ceiling. And that's something that's
 
 **Suz Hinton:** Yeah, one thing that I've heard be described - and the first time I've heard of it was someone at Stripe mentioning it, but I'm not sure who the original person was... But this idea of a slow reveal. When you first start using an API, or you first start reading the docs for an API, it shows you how to do the thing that you're most likely gonna wanna do with it. And then because the API has been designed intuitively with what it exposes as you want to do more complex things, or as you start having corner cases with what you're trying to do, there's this really lovely way that the rest of the API reveals itself to you, without you having to learn a ton of stuff right at the beginning if you're just trying to get started with it. And I think that is definitely, in my opinion, one of the hardest problems to solve an API design, is trying to find that compromise right there, between power users and beginners, as we've sort of been discussing right now.
 
-**Jerod Santo:** \[00:28:11.07\] I like that, the slow reveal... It makes me think about a swimming pool. Maybe you have the shallow end. And even the ones that you just walk right in, and you just kind of go slowly down to three feet... And everybody can swim in that side of the pool - the kids, the adults, whomever. It's very accessible, it's achievable, and it's not scary. But then you get past a certain line, and it may go down to eight feet, it may go down to ten feet, you'll have a diving board, you'll have expert apparatus, and that area of the pool is clearly for a different audience. But they can get the exact same access through that shallow end as well.
+**Jerod Santo:** \[28:11\] I like that, the slow reveal... It makes me think about a swimming pool. Maybe you have the shallow end. And even the ones that you just walk right in, and you just kind of go slowly down to three feet... And everybody can swim in that side of the pool - the kids, the adults, whomever. It's very accessible, it's achievable, and it's not scary. But then you get past a certain line, and it may go down to eight feet, it may go down to ten feet, you'll have a diving board, you'll have expert apparatus, and that area of the pool is clearly for a different audience. But they can get the exact same access through that shallow end as well.
 
 How do you do that though? How do you actually achieve a slow reveal? I think you do have to know your audience to a certain degree first, much like writers have to know who they're writing for... I think API designers have to think "Who am I designing this API for? What does that audience look like?" as best as you can. But how do you slowly reveal...? Do you have to just think like "What's the main thing everyone's gonna do?" and start there?
 
@@ -192,7 +192,7 @@ There's so much restraint that API makers have to practice in order to keep that
 
 **Suz Hinton:** I agree.
 
-**Jerod Santo:** \[00:31:47.23\] So what are some other aspects that make for good APIs? One thing that I go back to is that good API design -- actually, you can just take the API part out, and still most of the rules still apply... Like "What is good design?" Or you could say "What is good software design?" Because again, go back to like - you're writing a function that you're gonna use; you are API designing, whether you think about it like that or not, you are. And then of course, you could take the software out and say "Well, good design principles apply to good software design." Not one-to-one, or not every single one, but generally speaking. So when I think about good design, there are a couple of things that I go back to, a couple of principles and idioms...
+**Jerod Santo:** \[31:47\] So what are some other aspects that make for good APIs? One thing that I go back to is that good API design -- actually, you can just take the API part out, and still most of the rules still apply... Like "What is good design?" Or you could say "What is good software design?" Because again, go back to like - you're writing a function that you're gonna use; you are API designing, whether you think about it like that or not, you are. And then of course, you could take the software out and say "Well, good design principles apply to good software design." Not one-to-one, or not every single one, but generally speaking. So when I think about good design, there are a couple of things that I go back to, a couple of principles and idioms...
 
 **Suz Hinton:** SOLID...
 
@@ -212,7 +212,7 @@ It makes me think of a book which is very famous in the design world; it's calle
 
 **Amal Hussein:** Jerod, you had some amazing points. The whole thing of "Just don't do something unpredictable." SOLID principles help you align to that, and do one thing well... And just keeping things modular, and don't throw curveballs at people; don't name a function "get blah-blah-blah" and then have that function actually doing a mutation or a post. Naming also is a way to signal what this thing is supposed to do...
 
-\[00:36:17.15\] But you know what - I kind of wanna take it back a little bit, because I can't believe no one brought up Git... Because Git for me is one of my favorite APIs. I love Git. I'm like a power user. I have reached the point in my git-foo where I'm not afraid of looking at my reflog, or I'm not afraid of complex merges, or whatever... It's fine, I rebase all the time, I squash, whatever...
+\[36:17\] But you know what - I kind of wanna take it back a little bit, because I can't believe no one brought up Git... Because Git for me is one of my favorite APIs. I love Git. I'm like a power user. I have reached the point in my git-foo where I'm not afraid of looking at my reflog, or I'm not afraid of complex merges, or whatever... It's fine, I rebase all the time, I squash, whatever...
 
 The API is just so good... And one of the reasons why it's also so good is because you just git man and you can see the docs right there in your terminal; you don't have to context switch, what flag was this thing, or how do I do this thing... The docs are right there. It's very hard to beat that. It's very hard to beat that experience of not having to leave your terminal while you're learning something and using an API and not having to-- it's very hard to beat.
 
@@ -268,7 +268,7 @@ The API is just so good... And one of the reasons why it's also so good is becau
 
 **Amal Hussein:** Right, right.
 
-**Jerod Santo:** \[00:40:01.13\] I think Mercurial actually has a better API -- well, interface. I don't know if it's a programming interface, but at least a command line interface. It was way more approachable, which was one of the reasons why people liked it.
+**Jerod Santo:** \[40:01\] I think Mercurial actually has a better API -- well, interface. I don't know if it's a programming interface, but at least a command line interface. It was way more approachable, which was one of the reasons why people liked it.
 
 **Amal Hussein:** That's interesting.
 
@@ -286,7 +286,7 @@ Yarn even - workspaces wasn't a thing... So "Oh, we're gonna build an abstractio
 
 **Suz Hinton:** That's a great point.
 
-**Break:** \[00:41:52.24\]
+**Break:** \[41:52\]
 
 **Jerod Santo:** Amal, you mentioned SOLID, and I think we should probably just lay out what that is. So those are a set of really object-oriented programming design principles which have been formalized in books, and courses, and stuff. There's five principles there... I don't know them all, because I don't write good code, but... \[laughter\] Single-responsibility, I know open-closed... The L I don't know; it's like somebody's name...
 
@@ -302,7 +302,7 @@ Yarn even - workspaces wasn't a thing... So "Oh, we're gonna build an abstractio
 
 **Jerod Santo:** So these are all good things to learn and to apply in any sort of software design, specifically object-oriented software, which a lot of times if you think about an API, it's a lot like an object. It's kind of a black box that you access via the way it exposes itself, but you don't care how it works behind the scenes; so it's very much an object-oriented thing. But that's that; we'll link up the Wikipedia page as a starting place. It's a deep-dive into SOLID, but it's definitely something you should be familiar with.
 
-**Suz Hinton:** \[00:43:48.12\] I like that you brought up -- people shouldn't have to be able to care about how you implemented it, and things like that... I think the thing that gets my goat the most about badly-designed APIs is when you can feel the limitations that the software engineers who designed the API were running into, and you can feel that they've pushed that work back onto you. It's called implementation leakage; they've basically made something hard for the user, when the user should never have had to care about it in the first place, because you ran into a specific limitation that isn't even relevant to having to limit the library, if that makes sense. That sounds very abstract, so I can give an example...
+**Suz Hinton:** \[43:48\] I like that you brought up -- people shouldn't have to be able to care about how you implemented it, and things like that... I think the thing that gets my goat the most about badly-designed APIs is when you can feel the limitations that the software engineers who designed the API were running into, and you can feel that they've pushed that work back onto you. It's called implementation leakage; they've basically made something hard for the user, when the user should never have had to care about it in the first place, because you ran into a specific limitation that isn't even relevant to having to limit the library, if that makes sense. That sounds very abstract, so I can give an example...
 
 **Jerod Santo:** Please do, yeah... Because I'm trying to think of one and I can't.
 
@@ -336,7 +336,7 @@ So it was actually in the spirit of actually helping the user, but also having t
 
 **Amal Hussein:** Very nuanced.
 
-**Jerod Santo:** \[00:48:06.26\] I feel like I can sense that, as somebody who's just used a lot of APIs, but I've never been able to verbalize it. Maybe you have a super-power for like "That's leakage right there!" Because I don't know if I'd actually identify something as leakage... Even though I could point it out in retrospect, like "Yup, that was that." So it seems like a nuanced thing, to be able to actually determine "This is an implementation detail, not something that should be on the external side of your API."
+**Jerod Santo:** \[48:06\] I feel like I can sense that, as somebody who's just used a lot of APIs, but I've never been able to verbalize it. Maybe you have a super-power for like "That's leakage right there!" Because I don't know if I'd actually identify something as leakage... Even though I could point it out in retrospect, like "Yup, that was that." So it seems like a nuanced thing, to be able to actually determine "This is an implementation detail, not something that should be on the external side of your API."
 
 **Amal Hussein:** Yeah. But in all fairness though, Suz, you brought up such a good point about the React class name, because--
 
@@ -364,7 +364,7 @@ So it was actually in the spirit of actually helping the user, but also having t
 
 **Amal Hussein:** Yeah, no -- for anybody who maybe that bad joke was lost on, that was definitely not a true statement for me... But yeah. I don't know, I go back and forth between like "Do I need to put comments in my code or not?" It's tough, because there's comments and documentation that -- like, an application is very different than a library, because a library, for example, or a tool that's publicly-facing, there's version management and all kinds of stuff that's a little more baked in. Application code is -- I don't know, it's a tough one. What do you think, Chris? I wanna hear from Mocha man.
 
-**Jerod Santo:** \[00:52:17.11\] Mocha, Mocha man... \[laughter\]
+**Jerod Santo:** \[52:17\] Mocha, Mocha man... \[laughter\]
 
 **Amal Hussein:** Has anybody ever called you Mocha man? "I wanna be... A Mocha man..." \[laughter\]
 
@@ -416,7 +416,7 @@ Whenever I can, I'll try to provide type declarations; I don't write TypeScript.
 
 **Jerod Santo:** That's true.
 
-**Amal Hussein:** \[00:55:55.13\] I feel like tests really can document your code, as well as the intent, and whatever else. So I think one of the many benefits of tests is that they serve as a point of documentation. So write tests, people. And tests are first-class; for production code, first-class. I'm sorry.
+**Amal Hussein:** \[55:55\] I feel like tests really can document your code, as well as the intent, and whatever else. So I think one of the many benefits of tests is that they serve as a point of documentation. So write tests, people. And tests are first-class; for production code, first-class. I'm sorry.
 
 **Christopher Hiller:** Yeah. It's a thing you don't see a lot in JS, because I think the community and the culture hasn't really picked up on it... But if you look at an ecosystem like Rust, all the API documentation - they're really big on automatic API documentation in Rust. And that's cool. There's other shortcomings in the documentation, but having these tests present and part of the -- maybe I'm not even thinking of the right thing, but essentially, assertions are part of the documentation, and you can look at the code sample. And the code sample is a test, and it makes an assertion about the result of your API call. And you can copy and paste that, and just run it...
 
@@ -444,7 +444,7 @@ We're running short on time... Any final thoughts on APIs, what makes them good,
 
 **Jerod Santo:** Mm-hm. There's also a lot of constraints in software. We talk about ideals a lot, because of course, we're not gonna talk about things that are kind of good; we're talking about what could be the best. But we know that as we go out and build things, that the real world hits up against our ideals, and we have to make trade-offs.
 
-\[00:59:51.05\] So sometimes you have to suffer -- your API design, or the purity, or the principles, they have to suffer at the behest of the amount of time you have to spend on this, the amount of money you have to spend on this, the team, your own knowledge... Because one of the things we know is that we don't know everything. So "I'll know more later" is pretty much the way I live my life... So as you're designing your API, you may think you have designed the best thing you can do, until six months later when it hits the real world and you realize that design doesn't actually hold up.
+\[59:51\] So sometimes you have to suffer -- your API design, or the purity, or the principles, they have to suffer at the behest of the amount of time you have to spend on this, the amount of money you have to spend on this, the team, your own knowledge... Because one of the things we know is that we don't know everything. So "I'll know more later" is pretty much the way I live my life... So as you're designing your API, you may think you have designed the best thing you can do, until six months later when it hits the real world and you realize that design doesn't actually hold up.
 
 One thing we tend to do as software developers is get stuck in the paradox of choice, in the analysis paralysis, and just not ever get that API done, because we want it to be perfect. But you actually do have to move things forward. So you may not be able to design the perfect API today, and you may never get to that perfect point, but you design what you know and you ship it, and then you find out more once people start using it. So don't forget that, as well.
 

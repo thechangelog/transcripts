@@ -10,7 +10,7 @@
 
 **Mireille B. Reece, Psy.D:** Well, I think it's really important, because one, like we talk about the "name it to tame it", the awareness that your mind is always putting pieces together - it's always accommodating new data. And if you aren't considerate of or around your (even) biases, hypotheses, underlying beliefs, you don't recognize that you're actually putting things together that may not go together. I think a lot about this within the realm of sports, or high-level athletics, wherein people are trained around resiliency, and there's a lot of practicing the fundamentals, because you have to get really good at the basics in order to then do the advanced things, wherein the basics are so routine that they're so integrated, that it's just like "This is the way to work we go. This is the just the play my brain runs." And then with that, going "Every time I show up for a game or an event, how do I make sense of it if I don't win? Do I look at myself as a failure, or as though I have failed? Is that the way I interpret that experience?"
 
-**Adam Stacoviak:** \[00:04:16.21\] So the framework is how you respond to things like that. It's your way of thinking.
+**Adam Stacoviak:** \[04:16\] So the framework is how you respond to things like that. It's your way of thinking.
 
 **Mireille B. Reece, Psy.D:** Yeah, and I would say it's an interpretation. So if I were to presume that I failed - I didn't win a game, or I didn't win first place - that would have implications for my choices thereafter, because it's probably gonna be tethered to some ill or negative feelings, which wouldn't necessarily make me prone to go repeat that activity.
 
@@ -32,7 +32,7 @@ If I put together a bell and food, the dog began to go "Oh! I start salivating b
 
 **Mireille B. Reece, Psy.D:** Yeah, and I think that it's interesting, because even talking about trauma - I want our listeners to be considerate that we've all been traumatized in some way or another, so a lot of people... Even Michael Gervais - he's a sports psychologist for the Seahawks - references this in terms of big T trauma versus little t trauma... Big T trauma being legitimate abuse, or a way in which you were directly exposed to some sort of threat, either you witnessed, or directly experienced the potential for harm to your or harm to somebody else. So it could be like in war, it can be childhood abuse, it could be first-responders, things of that nature... As opposed to little t, wherein it still was traumatic, meaning it was upsetting, but it didn't have the same gravity or extremity as the big T trauma.
 
-\[00:07:52.22\] One of the key things in that is when we go through something traumatic, that we get activated in the sense of fight, flight or freeze. So I can feel helpless, like there's no way out, because legitimately in those past experiences it was. I couldn't escape. So now we have different constraints. For a number of people it looks like shelter in place, and going "Oh my word, my brain is telling me I feel like I can't get out", and now I'm reactive to that way in which it feels familiar, and now it feels dangerous.
+\[07:52\] One of the key things in that is when we go through something traumatic, that we get activated in the sense of fight, flight or freeze. So I can feel helpless, like there's no way out, because legitimately in those past experiences it was. I couldn't escape. So now we have different constraints. For a number of people it looks like shelter in place, and going "Oh my word, my brain is telling me I feel like I can't get out", and now I'm reactive to that way in which it feels familiar, and now it feels dangerous.
 
 So this is where I wanna look back and go -- imagine that our mental framework literally were a puzzle with a picture, and that it's not a static thing. We can change and modify the way in which we make sense of both ourselves and how we respond to our environment.
 
@@ -48,7 +48,7 @@ So this is where I wanna look back and go -- imagine that our mental framework l
 
 **Mireille B. Reece, Psy.D:** Yeah, it does. So it's interesting, even the fact that we're using the word "social distancing" so often... Because I would prefer to use the word "physical distancing", because I definitely don't want people to be more disengaged or distant socially... But rather physical proximity is what is different.
 
-**Adam Stacoviak:** \[00:11:40.14\] Yeah. It's terrible too, because not only do you have the threat of illness to you, your loved ones, a lot of people are dealing with financial hardships and uncertainty around that... So you've got several layers of traumatic things happening, that don't have a clear end in sight... And I think the reason why we're talking about this mental framework is to help people understand their conditioning, how they're being programmed and how they're actively today being programmed through this scenario we're all in.
+**Adam Stacoviak:** \[11:40\] Yeah. It's terrible too, because not only do you have the threat of illness to you, your loved ones, a lot of people are dealing with financial hardships and uncertainty around that... So you've got several layers of traumatic things happening, that don't have a clear end in sight... And I think the reason why we're talking about this mental framework is to help people understand their conditioning, how they're being programmed and how they're actively today being programmed through this scenario we're all in.
 
 **Mireille B. Reece, Psy.D:** Yeah, precisely, because we're not threatened in the same way we once upon a time were in terms of lions, tigers and bears, but the lions, tigers and bears in our world literally is our financial stability... Because that's how we go about navigating our world and being able to barter and manage the things we need, like shelter. That is threatening, so my body and my brain are going to be reactive around it.
 
@@ -70,7 +70,7 @@ Also, there's theories of moral development. Psychologists have come up with thi
 
 **Adam Stacoviak:** Okay... So journal how I think.
 
-**Mireille B. Reece, Psy.D:** \[00:15:58.24\] Yeah. So I would, ironically -- and I would do it first thing in the morning, and imagine that you sort of go "BLARGHH!" and you sort of throw out all the extraneous things, because it's the most of freeform way... You wake up, nothing else has happened, you have no other interference. I mean, you could do it first thing in the day, or I would say even at the end of the day, because it would be the antithesis, to some degree, of that. You had the day, it's been up, it's been down... Write it down. And the reason being is that you then have the opportunity to look back and look at themes in what you've written down, and go "Gosh, I continue to say the same thing. Huh. I feel this same way every time I do \*fill in the blank\*."
+**Mireille B. Reece, Psy.D:** \[15:58\] Yeah. So I would, ironically -- and I would do it first thing in the morning, and imagine that you sort of go "BLARGHH!" and you sort of throw out all the extraneous things, because it's the most of freeform way... You wake up, nothing else has happened, you have no other interference. I mean, you could do it first thing in the day, or I would say even at the end of the day, because it would be the antithesis, to some degree, of that. You had the day, it's been up, it's been down... Write it down. And the reason being is that you then have the opportunity to look back and look at themes in what you've written down, and go "Gosh, I continue to say the same thing. Huh. I feel this same way every time I do \*fill in the blank\*."
 
 **Adam Stacoviak:** What you're suggesting is be a scientist. Collect data about yourself, and analyze it.
 
@@ -104,7 +104,7 @@ Really what is at the forefront of so many people right now is change. Everybody
 
 **Adam Stacoviak:** Well, I mean, you can be, in a controlled environment, sure. So that could be argued. But yeah, I get it; if we're relying only on rain, then the answer is no, you don't have control.
 
-**Mireille B. Reece, Psy.D:** \[00:19:54.02\] Right. This is coming back to some of that binary thinking - if I presume I have all the charge in my life, that isn't true; I do have some control, but not all control. So imagine I am always operating under certain constraints, and that there is a process to anything I do, be it raising food, or raising children.
+**Mireille B. Reece, Psy.D:** \[19:54\] Right. This is coming back to some of that binary thinking - if I presume I have all the charge in my life, that isn't true; I do have some control, but not all control. So imagine I am always operating under certain constraints, and that there is a process to anything I do, be it raising food, or raising children.
 
 I always talk about this a lot with moms, in terms of, you know, you plant and you plant and you plant, and repeat, repeat, and five years later you're like "Oh my gosh, it took root!" \[laughter\]
 
@@ -146,7 +146,7 @@ I always talk about this a lot with moms, in terms of, you know, you plant and y
 
 **Adam Stacoviak:** Really dirty, really unsanitary... Almost no cleaning, almost like they're trying to harm themselves indirectly, without consciously doing it. Not intentionally - it doesn't seem, in most cases - but it's really interesting how trauma affects us. And that show is an extreme example of the ramifications of trauma.
 
-**Mireille B. Reece, Psy.D:** \[00:23:52.09\] Yeah. And I think I've said this before, but that way in which it's not our eyes that actually do the seeing. Our rods and cones simply take in light, but it's our brain that runs the program that puts that together and assigns a word and a meaning to that.
+**Mireille B. Reece, Psy.D:** \[23:52\] Yeah. And I think I've said this before, but that way in which it's not our eyes that actually do the seeing. Our rods and cones simply take in light, but it's our brain that runs the program that puts that together and assigns a word and a meaning to that.
 
 So literally, those people don't see it the way somebody else sees it, and it's protective. Again, imagine I am constructing my brick wall so that nothing can harm me. So if someone would say to me "There's a problem with your wall', I'd be like "No, you need to go build one, too." So I'm going to be far more possessive around those defense strategies, so that I stay safe.
 
@@ -166,7 +166,7 @@ Look, if you can imagine, the reason I even like the word "framework" is because
 
 It's interesting, when I was in graduate school I had an opportunity to work on a program specifically for - in this case it was women with co-occurring disorders, so substance abuse and trauma. And the challenge and treating this population of individuals was that if they started to try to work on the trauma, they would get reactivated and then go back to drinking, because that's how they coped.
 
-\[00:28:10.12\] But then you take away drinking and then they're activated back by their trauma. So they literally had this double-edged sword where they didn't know how or where to go to change things... And thankfully, there was a program that someone created, to go "Hey, here's how we can do both at the same time, and support you and provide a scaffolding, so that you can have a different life, and that you're not imprisoned by your history."
+\[28:10\] But then you take away drinking and then they're activated back by their trauma. So they literally had this double-edged sword where they didn't know how or where to go to change things... And thankfully, there was a program that someone created, to go "Hey, here's how we can do both at the same time, and support you and provide a scaffolding, so that you can have a different life, and that you're not imprisoned by your history."
 
 **Adam Stacoviak:** I think about like doing anything. If you need to do pretty much anything - cook a recipe, get up early... I was just watching a re-run of Today's Show, because they're actually running previously-recorded versions of it... Whatever, it doesn't matter. The point is I saw Mark Wahlberg and Al Roker and others on there talk about this morning routine... And it talked about Mark Wahlberg's recipe for getting up. So I may never have the hope to get up at 2:30 AM like he does, and have the routine he does, but if I was motivated enough to change and I saw his recipe, I might be able to follow it, right?
 
@@ -190,7 +190,7 @@ It's interesting, when I was in graduate school I had an opportunity to work on 
 
 **Adam Stacoviak:** True, yeah.
 
-**Mireille B. Reece, Psy.D:** \[00:31:51.19\] So I have to be adaptable and considerate of even the other ways in which people interface, that isn't how I learned.
+**Mireille B. Reece, Psy.D:** \[31:51\] So I have to be adaptable and considerate of even the other ways in which people interface, that isn't how I learned.
 
 **Adam Stacoviak:** Yeah. The driver for me is this aspect of ability to change, this hope, which is a key ingredient for life. Without hope, we wither, so hope that we can change. No matter where you're at, whatever your biases, whatever your framework is, whatever your concerns are, traumas, depression, these things can all -- and maybe you can speak to the "all" aspect of that; I tend to speak in absolutes... But the aspect that change is possible - that's what keeps me going. That even though I may not be where I am today, or where I wanna be at today, for whatever reason - not so much professionally, but just in my framework, how I think, doesn't mean that I can't begin to cultivate new skills and change by examining, by writing it down, by being more aware.
 
@@ -206,7 +206,7 @@ A very extreme and somewhat odd analogy would be like, you know, most adults - I
 
 **Mireille B. Reece, Psy.D:** Yeah. I want our listeners to be aware - there is too a difference in how we think and how we feel. I can be optimistic, and yet at the same time feel apprehensive, uncertain, and I might even ride waves of like "Oh, gosh... I'm not sure I can do this." Or even just the sheer frustration associated with the rapid rate of change.
 
-\[00:36:01.08\] I've described this time a lot like living with Garmin, and you keep having to turn and change direction, and it keeps talking back at you... Like, "Recalculating... Recalculating..." and then it's like "There is no road. Turn around. You can't go that way."
+\[36:01\] I've described this time a lot like living with Garmin, and you keep having to turn and change direction, and it keeps talking back at you... Like, "Recalculating... Recalculating..." and then it's like "There is no road. Turn around. You can't go that way."
 
 **Adam Stacoviak:** Right... \[laughter\] Like your Garmin inner voice.
 

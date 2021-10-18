@@ -26,7 +26,7 @@ Welcome to the Practical AI podcast. My name is Chris Benson. I'm a principal AI
 
 I think actually it ended up having some benefits, because it sort of forced me -- normally, I write things at the whiteboard, I'm able to make changes as I go... But to have to sit down and work things out in a strict set of slides that I'm showing made me really think about "What is the proper flow to explain this idea and show certain things?" In that respect, actually it was a learning experience for me...
 
-**Chris Benson:** \[00:04:11.02\] I bet.
+**Chris Benson:** \[04:11\] I bet.
 
 **Daniel Whitenack:** ...because it helped clarify some of that logic, even in my own mind. But it went really well. The students had some great questions, that went all the way from "What is AI?" to convolutional layers and recurrent layers, and training cool things... So yeah, it was a good time.
 
@@ -48,7 +48,7 @@ I think actually it ended up having some benefits, because it sort of forced me 
 
 You're right, if you think about video gaming, or things you would want to do in video processing or graphics - for example, you might wanna apply a filter to some image or frame of a video, like to darken it, or to apply a gradient of color, or something like this... You're essentially applying some operation to the pixels of an image, which are set up in a matrix, and have even some depth, because there's a color dimension... So you have this matrix of numbers, and then you apply some operation on the elements of this matrix, or really this input volume...
 
-\[00:08:13.11\] In AI, of course, with convolutional layers, you are doing almost that exact same thing, because you're applying a series of weights, and bias, and functions (activation functions) to individual elements of a matrix or an input volume. But even in recurrent layers, or fully-connected neural networks and that sort of thing, the types of networks that might be relevant to other things, like text, or just a general classification problem - even those take some input vector or matrix, and just apply a series of weights to those, apply activation functions like tangent and sigmoid and all of these, in an element-wise way. So you're really doing this sort of matrix operations that graphics cards were always good at.
+\[08:13\] In AI, of course, with convolutional layers, you are doing almost that exact same thing, because you're applying a series of weights, and bias, and functions (activation functions) to individual elements of a matrix or an input volume. But even in recurrent layers, or fully-connected neural networks and that sort of thing, the types of networks that might be relevant to other things, like text, or just a general classification problem - even those take some input vector or matrix, and just apply a series of weights to those, apply activation functions like tangent and sigmoid and all of these, in an element-wise way. So you're really doing this sort of matrix operations that graphics cards were always good at.
 
 It turns out that it's really good to use those sorts of graphics cards for those sorts of operations, which are done specifically in AI training. Of course, we're gonna talk maybe about inference today too, but I think it came about because these are the sorts of things that happen iteratively, thousands and thousands and millions of times when you do training for an AI model.
 
@@ -76,7 +76,7 @@ At least from my perspective - and I'm by no means an expert on this, on the gra
 
 Some people say "Okay, I'm gonna develop AI models, so I'm gonna buy a tower, a desktop computer, and then I'm gonna buy a graphics GPU", like one of these RTX GPUs, or something, "and I'm gonna put it in my PCI slot in my motherboard. And then when I do AI training, I'm gonna offload some of those training operations to the graphics card or GPU that's input to my computer."
 
-\[00:12:16.14\] That's one of the first ways you might think about doing this - I'm gonna do AI development, so I can buy a computer, and then I'm gonna buy a graphics card and just put it in there. A lot of those, of course, come from NVIDIA; they make a lot of those cards... But there's off-brand ones that kind of are similar to the models that NVIDIA has. And then there's also other brands that have their own style of graphics card to them. Have you ever built or thought about building this sort of workstation for your home, to sit by your desk, or something?
+\[12:16\] That's one of the first ways you might think about doing this - I'm gonna do AI development, so I can buy a computer, and then I'm gonna buy a graphics card and just put it in there. A lot of those, of course, come from NVIDIA; they make a lot of those cards... But there's off-brand ones that kind of are similar to the models that NVIDIA has. And then there's also other brands that have their own style of graphics card to them. Have you ever built or thought about building this sort of workstation for your home, to sit by your desk, or something?
 
 **Chris Benson:** I think I'm way too lazy to do that. At this point I'd much rather go to a cloud provider, if I'm at home, and use what they've built. I've noticed that most of the people that had workstations specifically for their AI workflows seem to have moved off those in recent years; either in the cloud, or if they're big enough, into more of a data center, or at least a workstation level, where they're buying a workstation vs. buying individual GPUs.
 
@@ -102,7 +102,7 @@ I know when I was looking around a while back for a project -- I don't know if i
 
 **Daniel Whitenack:** That's definitely nice.
 
-**Chris Benson:** \[00:15:55.02\] So why don't we dive into some of the announcements that NVIDIA made at GTC. As we're recording this, I think it was about roughly a week ago that they made the announcement; it'll be another week as it rolls out. I'll start us off... They started in -- I'm gonna probably butcher the pronunciation, the NVIDIA Ampere Architecture; did I get that right? I've read it, but I haven't watched the video to see how he's pronouncing it.
+**Chris Benson:** \[15:55\] So why don't we dive into some of the announcements that NVIDIA made at GTC. As we're recording this, I think it was about roughly a week ago that they made the announcement; it'll be another week as it rolls out. I'll start us off... They started in -- I'm gonna probably butcher the pronunciation, the NVIDIA Ampere Architecture; did I get that right? I've read it, but I haven't watched the video to see how he's pronouncing it.
 
 **Daniel Whitenack:** Ampere.
 
@@ -134,7 +134,7 @@ On BERT itself, they're saying that above the V100 -- so if you go to Google Clo
 
 **Chris Benson:** Yes. And it's the basis for the DGX line of servers as well. Or was, prior to this release.
 
-**Daniel Whitenack:** \[00:20:03.08\] Prior to this, yeah. And they're saying there's a speed-up between 3X and 6X in the training for the BERT large-scale training. And the difference between the 3X to 6X has to do with the precision of the floating point numbers that you're using in the model.
+**Daniel Whitenack:** \[20:03\] Prior to this, yeah. And they're saying there's a speed-up between 3X and 6X in the training for the BERT large-scale training. And the difference between the 3X to 6X has to do with the precision of the floating point numbers that you're using in the model.
 
 I'm stepping way beyond my bounds into computer science land, where I don't deserve to step... But in the models, obviously, you have all these weights and parameters, and the matrices that you're transforming in these models, and... Computers work with numbers, and those numbers have to be represented in some form, in some precision. If you're representing Pi, you're not gonna represent all digits of Pi; you're gonna have to cut it off somewhere. This is having to do with that precision of the numbers. If you reduce the precision of how you represent numbers, you can sometimes speed up your performance. So that's what they're talking about there, with that difference of 3X to 6X.
 
@@ -166,7 +166,7 @@ Another one that I've noticed - they talked about the need for no code changes, 
 
 **Chris Benson:** They can clarify for us and we'll come back at a later time, on a later episode and say "We were wrong." We're happy to do that. So we're making the best of it.
 
-**Daniel Whitenack:** \[00:24:02.27\] We were wrong, and if you send us a GPU, then we'll prove that we were wrong, on our own local system.
+**Daniel Whitenack:** \[24:02\] We were wrong, and if you send us a GPU, then we'll prove that we were wrong, on our own local system.
 
 **Chris Benson:** \[laughs\] Oh, boy... You're back to begging. Uh, uh...
 
@@ -194,7 +194,7 @@ Again, hopefully I've represented that well in terms of how they're thinking abo
 
 **Daniel Whitenack:** That's what I've always assumed. I don't have the opportunity too often to run my training on 32 GPUs, so this is where I'm getting to the edge of my understanding... But I did watch a YouTube video, and I think that's what they implied.
 
-**Chris Benson:** \[00:28:06.00\] Is that like staying at a Holiday Express?
+**Chris Benson:** \[28:06\] Is that like staying at a Holiday Express?
 
 **Daniel Whitenack:** Yeah, I've stayed at a Holiday Inn Express, exactly.
 
@@ -216,7 +216,7 @@ Again, hopefully I've represented that well in terms of how they're thinking abo
 
 **Chris Benson:** Correct. Or a cluster of them, which is becoming more and more common. In the earlier days, when the original DGX 1 came out, and it had 8 GPUs in it, people would get that, and that in itself - people were calling it a super-computer. We talk like that's such a long time ago, but it's only been a couple of years. Then they moved to DGX 2, that was 16, and then they've actually scaled back... In just a moment, let's talk about that.
 
-**Break:** \[00:30:52.08\]
+**Break:** \[30:52\]
 
 **Chris Benson:** So now we have this new NVIDIA DGX A100, which they've kind of broken the paradigm of their labeling... So they went from DGX 1 originally, to DGX 2, and now they've gone to DGX A100.
 
@@ -256,7 +256,7 @@ Again, hopefully I've represented that well in terms of how they're thinking abo
 
 **Chris Benson:** Exactly. But I think the challenges when you're scaling up to one or more DGX systems, then you are talking about - and I'm not just talking about a DGX architecture, I'm talking about in overall systems and software architecture in your organization, and specifically data architecture that can support moving a lot of data around through training, in an organized way, that flows in with your business processes... And that is a big challenge. And being able to make all that work in your own organization is where a lot of organizations are struggling.
 
-\[00:36:11.01\] I know NVIDIA works hard to throw them a bone; they recognize that. And there are a lot of tools that they put out there to try to help you through that process... But I think this architecture has kind of accounted for some of those pain points of the past, and they're trying to make it easier to utilize n number of GPUs across multiple DGXs... Which is good, because there are very highly-scaled cases where you might be doing a lot of experimentation with hyper-parameter optimization, and you wanna try just an insane number of different possibilities when you're doing your training, and have the ability not just to train one time, but to train many times; thousands, or millions even. I think they've understood that, and this architecture is starting to address that highly-scaled use case.
+\[36:11\] I know NVIDIA works hard to throw them a bone; they recognize that. And there are a lot of tools that they put out there to try to help you through that process... But I think this architecture has kind of accounted for some of those pain points of the past, and they're trying to make it easier to utilize n number of GPUs across multiple DGXs... Which is good, because there are very highly-scaled cases where you might be doing a lot of experimentation with hyper-parameter optimization, and you wanna try just an insane number of different possibilities when you're doing your training, and have the ability not just to train one time, but to train many times; thousands, or millions even. I think they've understood that, and this architecture is starting to address that highly-scaled use case.
 
 **Daniel Whitenack:** Yeah, I think that gets to the point of -- you know, maybe something that is on people's mind as they listen to this is "Why not just the cloud, just use GPUs in the cloud?", which you can certainly do. If you wanted to run 1,000 experiments to test all your hyper-parameters, you could spin up 1,000 GPU nodes in Google Cloud, or Amazon, or wherever... But if you're doing that at any sort of frequency or length, the bill is gonna add up pretty crazy fast on that.
 
@@ -268,7 +268,7 @@ For some people -- I keep joking that I'd love to have access to this, but I pro
 
 **Daniel Whitenack:** I'm glad you bring that up, because it's probably -- even though I may not get access to the DGX system, I am thinking about various applications at the edge. In fact, I had a conversation earlier today with another guy who's working on totally different stuff in manufacturing; they're not a large company, but they do stuff at the edge, in the manufacturing setting, with low-power devices already. Think like a Raspberry Pi, and that sort of thing... But if you could bring the power of this sort of GPU right to the edge, to a machine, where you're doing computer vision to detect anomalies in your manufacturing process or something like that, that's a pretty major advantage, and that brings that sort of capability to those sorts of people that are working on smaller teams, and have that specific use case for running AI at the edge.
 
-\[00:40:19.05\] Along with the A100 they have the EGX A100 which they're releasing, which seems to benefit from some of these things that we talked about with the A100, but they also talk a lot about security. Security, and then end-to-end encryption of AI models; they encrypt all the things. I have some ideas about why that may be important at the edge, but... Do you have any thoughts on that?
+\[40:19\] Along with the A100 they have the EGX A100 which they're releasing, which seems to benefit from some of these things that we talked about with the A100, but they also talk a lot about security. Security, and then end-to-end encryption of AI models; they encrypt all the things. I have some ideas about why that may be important at the edge, but... Do you have any thoughts on that?
 
 **Chris Benson:** Well, we live in a time where we've had so many episodes where we talk about malicious actors, and they could be anywhere from a state level, all the way down to teenagers that are savvy and having some fun... And we're in a world now where you just can't really assume that you can put anything that's not secure out at the edge. And that doesn't have to be in the defense world, where I live; that can be really anywhere, any industry at this point. So they have had obviously their previous edge-oriented offerings, and we like to -- there's the smaller-scaled stuff that we'd like to play with. They have the NX out now, they've had Nanos out the last couple of years, and stuff like that...
 
@@ -284,7 +284,7 @@ So we've gotten to a point where the actual AI model is a piece of IP and is ext
 
 **Daniel Whitenack:** That's crazy.
 
-**Chris Benson:** \[00:44:02.15\] You can actually buy toys that have convolutional neural networks in them, you can buy ones that have NLP capability... And I think that's the moment where I find myself surprised, because we're so used to talking about it in these business-oriented contexts, but then that's also someone else's business, is to make these toys... And I keep being surprised at these toys that she unwraps, and they have these capabilities. Of all people, I should not be surprised, I suppose, but I am, just to see it in that context.
+**Chris Benson:** \[44:02\] You can actually buy toys that have convolutional neural networks in them, you can buy ones that have NLP capability... And I think that's the moment where I find myself surprised, because we're so used to talking about it in these business-oriented contexts, but then that's also someone else's business, is to make these toys... And I keep being surprised at these toys that she unwraps, and they have these capabilities. Of all people, I should not be surprised, I suppose, but I am, just to see it in that context.
 
 **Daniel Whitenack:** Yeah. Well, and especially in that case, depending on the age of the child, it would be important for that AI model to run offline on the device. Let's just keep that thing offline; it's good if it acts as a toy, but let's not connect it to the Wild West of the internet just yet. You'd wanna run that sort of model at the edge itself and upload it to the device, I think.
 
@@ -306,7 +306,7 @@ They talk about doing transfer-learning, which is like an update of a model; so 
 
 **Daniel Whitenack:** So I'm curious to kind of try -- what I wanna try actually is just to start with a small model, and see how the training compares with a better GPU, in Paperspace or something. Try it all the way up to, like, "How far can I push the training on the NX?" How big of a model can I train from scratch on it? And then how big of a model can I do transfer-learning on? Because yeah, I find that incredibly interesting.
 
-\[00:47:58.04\] The other thing that they talk about with NX's cloud-native things at the edge - and I know both you and I are really big fans of Docker, so... I find it interesting - whereas before I didn't see them emphasize a lot of things about using Docker at the edge to run AI-related workflows, now they're saying "Well, this is how you should do it in this device." I find that really interesting.
+\[47:58\] The other thing that they talk about with NX's cloud-native things at the edge - and I know both you and I are really big fans of Docker, so... I find it interesting - whereas before I didn't see them emphasize a lot of things about using Docker at the edge to run AI-related workflows, now they're saying "Well, this is how you should do it in this device." I find that really interesting.
 
 **Chris Benson:** And not only Docker, but Kubernetes as well. I know we've talked about this on other episodes when we were hitting slightly different topics, but really this whole AI revolution that's happened, especially if you're looking at the last 3-5 years - we've really benefitted from the revolution that had just swept through the software development world, and software systems deployment world out there... Docker and Kubernetes became THE systems to build on, and we landed on top of that and just took that over.
 

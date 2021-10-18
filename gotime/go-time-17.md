@@ -22,7 +22,7 @@ Also, what I like to do is I like to make sure that tech is fun and inviting for
 
 I put a lot of time into it. My first language was C, my second language was 6502 Assembler, and my third 8080 Assembler. And that's weird. Who would ever do that? But what I see is that it's all about context. What I'm doing right now is thinking of ways to teach people machine learning just as a beginner thing. One of the things you need to learn for machine learning is linear algebra and graphs. Everybody hates graphs and matrices and thinks they're really hard, but you know what? Whenever you learned that, in high-school or in college, what they probably didn't do was give you context. If you understood the problem that you were solving in a context of words that you could understand, anyone can learn this. It's the same with computer programming.
 
-**Erik St. Martin:** \[00:03:47.12\] I think though too that a little bit of "There's so much to know..." When you're first coming into the field, you feel like because you can't grasp all of those things, that you're not cut out to do it. I think over time you start to embrace the unknown. As developers, we're presented with new and challenging problems every day. Many times we start the project and we're not even sure how we're gonna do it yet.
+**Erik St. Martin:** \[03:47\] I think though too that a little bit of "There's so much to know..." When you're first coming into the field, you feel like because you can't grasp all of those things, that you're not cut out to do it. I think over time you start to embrace the unknown. As developers, we're presented with new and challenging problems every day. Many times we start the project and we're not even sure how we're gonna do it yet.
 
 People who are trying to get into the field and break into it, they start trying to do something and they feel that because they can't figure it out, that they're just not cut out for it, and they wait for that moment that they know everything they think they need to know to do the job.
 
@@ -42,7 +42,7 @@ What we try to do whenever... I've seen some of the curriculums from these boot 
 
 And do you notice what I'm saying? It's all the same things as just teaching, but really what I'm trying to do is paint the happy path for everyone, so they can understand what it feels like to succeed. People want to succeed, so they'll fight harder to get there.
 
-**Erik St. Martin:** \[00:07:53.27\] I think there's a lot of stigma in it too, because we're constantly comparing ourselves to the rest of the world. A highly curated list of the best that the world has to offer, so it's easy to feel like you'll never get there, but there's also kind of being comfortable in your own skin and accepting that. There's plenty of people way smarter than me, but that's okay. I tell people what my number one skill is - being able to be thrown in the deep end and figure out how to swim. Being comfortable with learning and not knowing and exploring. Like you said, you start off on these projects you know nothing about.
+**Erik St. Martin:** \[07:53\] I think there's a lot of stigma in it too, because we're constantly comparing ourselves to the rest of the world. A highly curated list of the best that the world has to offer, so it's easy to feel like you'll never get there, but there's also kind of being comfortable in your own skin and accepting that. There's plenty of people way smarter than me, but that's okay. I tell people what my number one skill is - being able to be thrown in the deep end and figure out how to swim. Being comfortable with learning and not knowing and exploring. Like you said, you start off on these projects you know nothing about.
 
 I often try to get into electronics projects. I know nothing about electrical engineering or electronics engineering, but I just kind of explore away, make mistakes and learn along the way and that's okay. Like you said, people don't know how to figure out what was a success; that they have acquired some knowledge. Even though they don't feel like they learned web development yet, they've learned something. That's a check mark on the list of that foundational knowledge that you need. Katrina Owen spoke to this at the GopherCon talk - to start drawing those connections between things.
 
@@ -76,7 +76,7 @@ I can do server-based stuff pretty well, distributed systems-type stuff. But you
 
 **Erik St. Martin:** Bringing back Katrina Owen's talk, because I think it ties in a lot to this, how to teach and how to give people small wins - what was your take on that talk?
 
-**Bryan Liles:** \[00:11:59.06\] Well, my number one take is, first of all, I adore Katrina. I've met her many times throughout the years and I love to see her speak. The second thing that I took from that was I liked the visualizations, I loved her slides.
+**Bryan Liles:** \[11:59\] Well, my number one take is, first of all, I adore Katrina. I've met her many times throughout the years and I love to see her speak. The second thing that I took from that was I liked the visualizations, I loved her slides.
 
 **Brian Ketelsen:** Oh yeah, weren't they beautiful?
 
@@ -96,7 +96,7 @@ Because, to make a side note, it is hard to do something until you see what's po
 
 For example, I've just covered Jack Lindamood. He spoke at GopherCon as well. He was not on my radar until recently, and I'm totally in awe of the things that he has done; how well he writes his blog about Go is amazing. And I'm thinking, "How did he get to work on those projects? How did he get there?" Because I didn't run into those opportunities. Do I have to carve these opportunities out? How do I do it? Do I need to get a mentor? Do I need somebody to pull me in? How do people get to that point?
 
-\[00:16:06.06\] I'm trying to find a way... For example, I look at people who are at a certain level, for example Ines Sombra (she works at Fastly as well). I am totally an admirer of hers. She speaks at conferences, she runs the Papers We Love, she reads papers... So I'm trying to emulate the things that she does, to try to become that type of professional. So I'm always trying to emulate people whom I admire, people who work on things that I find interesting, like "Okay, how do I get my chance to work with projects that these people are working with because they sound so interesting to me?" And I don't know how, other than just trying to emulate what they do.
+\[16:06\] I'm trying to find a way... For example, I look at people who are at a certain level, for example Ines Sombra (she works at Fastly as well). I am totally an admirer of hers. She speaks at conferences, she runs the Papers We Love, she reads papers... So I'm trying to emulate the things that she does, to try to become that type of professional. So I'm always trying to emulate people whom I admire, people who work on things that I find interesting, like "Okay, how do I get my chance to work with projects that these people are working with because they sound so interesting to me?" And I don't know how, other than just trying to emulate what they do.
 
 **Bryan Liles:** I have a thought on that, and specifically with Ines. I enjoy listening to Ines speak. If you ever get a chance to hear her speak in person, it's amazing how fast she speaks and how information-dense it is. It's actually quite an event. But one thing that I would ask Ines is not really how she does what she does, but why? Ask her the feelings that she gets whenever she does Papers We Love, or talks about all the crazy computer sciency stuff.
 
@@ -112,7 +112,7 @@ When I look at somebody's work and that work resonates with me, I know how I fee
 
 To the other point, I'd like to start seeing people share their stories. How did you get into tech? Because I think that humanizes people and you start to see that it was a long, hard road to travel; it wasn't just this immaculate thing where they just in two years became some prominent engineers. There was a long line of things before that, that we just didn't see.
 
-\[00:20:06.03\] And even backgrounds - as Bryan Lyles pointed out - the way you grew up... I didn't grow up with a lot of money; I dropped out of high-school, I went back for a GED, completely self-taught... So, like Bryan said, everybody has their own path, and there are many paths that lead to the same place. Just because yours is different doesn't mean it's wrong. I think the passion and the desire to do well and the interest in the topics that you're working on is what really gets people successful. Because you can get lost in your work. You can go home after whatever your day job currently is, and you can lose five hours into it just because you're drawn to it.
+\[20:06\] And even backgrounds - as Bryan Lyles pointed out - the way you grew up... I didn't grow up with a lot of money; I dropped out of high-school, I went back for a GED, completely self-taught... So, like Bryan said, everybody has their own path, and there are many paths that lead to the same place. Just because yours is different doesn't mean it's wrong. I think the passion and the desire to do well and the interest in the topics that you're working on is what really gets people successful. Because you can get lost in your work. You can go home after whatever your day job currently is, and you can lose five hours into it just because you're drawn to it.
 
 **Carlisia Thompson:** Yeah, I like that idea a lot. Cassandra Gil from GoBridge had the idea of a blog post series where people will write blog posts anonymously, telling about their story. We are going to be seeking people who will have what we would call a different story from the mainstream. And I think they're probably the mainstream more than what we think is mainstream, because there is so much diversity, and I don't think we tend to talk about it.
 
@@ -128,7 +128,7 @@ I think that same thought pattern goes with learning and programming. You could 
 
 Then I think it takes a different frame of mind, but I don't think that you have to have it to begin with. You can shift it.
 
-\[00:23:43.16\] As an example, I had a friend over one day and we have these crazy RC cars, and you break them more than you drive them. So we're sitting there working on them, and he's getting really frustrated with his. He's like, "I don't know how you do this. How you can sit there and take it apart, put it back together and then keep tweaking and not get frustrated." It's like, I just look at it differently. Rather than feeling like the act of doing this is preventing me from what I want to do, which is driving the thing, I enjoy the process. I like sitting around, working on stuff and figuring out problems, having a beer, chatting with a friend while we're working on it...
+\[23:43\] As an example, I had a friend over one day and we have these crazy RC cars, and you break them more than you drive them. So we're sitting there working on them, and he's getting really frustrated with his. He's like, "I don't know how you do this. How you can sit there and take it apart, put it back together and then keep tweaking and not get frustrated." It's like, I just look at it differently. Rather than feeling like the act of doing this is preventing me from what I want to do, which is driving the thing, I enjoy the process. I like sitting around, working on stuff and figuring out problems, having a beer, chatting with a friend while we're working on it...
 
 I think that you can shift your mindset too, to where something not working doesn't cause you anxiety but it causes excitement, where it's a puzzle to solve. "I'm gonna figure this out." Once you shift that mindset, things become much easier.
 
@@ -146,7 +146,7 @@ I have this whole theory about being rich, and I can tell you why you don't wann
 
 So what I'm saying here is that we just should build up slowly. We build up our savings slowly, we build up our knowledge slowly, we build up our personalities and our brand slowly. All these things that I've been doing, I've been doing almost the same things since 1994, and it took ten years for people to realize who I was. Now, ten years later, people are seeing me in multiple language communities and they're saying, "How did Bryan do this? Where did his ideas come from?" I just had a lot, and I played with them forever.
 
-**Erik St. Martin:** \[00:27:44.02\] Yeah, that's a valid point too, financially and knowledge-wise to slow down and enjoy the journey. That's one thing that I know myself I've been trying to get out of. I raced and raced and raced... I wanted to reach what I felt was a level of success, and when you put yourself into that mindset, you never get there. You will always keep drawing the finish line out further and further. In the recent years, I've started to embrace that, but I'm working all the time. I'm missing out on family time, and that's the stuff that matters. You can't get that back. In the past couple of years I've been kind of going backwards.
+**Erik St. Martin:** \[27:44\] Yeah, that's a valid point too, financially and knowledge-wise to slow down and enjoy the journey. That's one thing that I know myself I've been trying to get out of. I raced and raced and raced... I wanted to reach what I felt was a level of success, and when you put yourself into that mindset, you never get there. You will always keep drawing the finish line out further and further. In the recent years, I've started to embrace that, but I'm working all the time. I'm missing out on family time, and that's the stuff that matters. You can't get that back. In the past couple of years I've been kind of going backwards.
 
 I don't want or need as much money; I wanna slow down, I wanna be happy day to day, spend time with my family. But the knowledge thing, it kills you; you constantly feel like you don't know enough, so you learn... And you don't take a step at the end of the year and realize how far you've grown yourself, because you've drawn that line out further.
 
@@ -164,7 +164,7 @@ I had this talk that was a sidebar talk at this conference, and he said "You hav
 
 What I happened to be talking about was not politics or anything crazy like that, it was testing. I knew this was gonna resonate, and it still resonates 8-9 years in. When people come working with me now, they're like "I know of you because you did Test all the effin' time." And I'm like, "That's crazy! But do you realize what I did to you? I taught you something and you didn't even know it." And it's not about me talking about TDD or anything like that; what I did was I communicated the good passion that I felt about testing and I gave that to you as a gift. You took that gift and you want that feeling, too. So you went and found out, whether you liked it or you didn't like it.
 
-\[00:32:06.18\] I'm not telling you to do TDD all the time; I really don't care, it's not my code, you don't work for me. What I'm saying is that I want you to have those opinions, and I'm giving you the field to go build those opinions. I think that's been my method over these years, and that's what when you see these talks that I do, that's what I'm trying to do. I'm just trying to get you interested in something that you might not have known about.
+\[32:06\] I'm not telling you to do TDD all the time; I really don't care, it's not my code, you don't work for me. What I'm saying is that I want you to have those opinions, and I'm giving you the field to go build those opinions. I think that's been my method over these years, and that's what when you see these talks that I do, that's what I'm trying to do. I'm just trying to get you interested in something that you might not have known about.
 
 **Brian Ketelsen:** That's interesting. When I wrote my talk for abstractions I wasn't trying to convey information, I was trying to convey my feeling about the outcome of a particular technology. It's exactly what you just said. I didn't want people to learn about the subject that I talked about, I wanted people to understand the feeling that that subject gave me, because I think that was more important than the actual technology in my talk.
 
@@ -174,17 +174,17 @@ And I'm getting older, I don't like all the hip things anymore, but I will say t
 
 **Brian Ketelsen:** This is a good time for us to take a quick break and talk about our sponsor today, which is Backtrace.
 
-**Break:** \[00:34:39.05\]
+**Break:** \[34:39\]
 
 **Erik St. Martin:** Awesome. I actually remembered you from TAFT too, Bryan, when we met at GopherCon. How can you forget that video...?
 
 **Carlisia Thompson:** Same here.
 
-**Brian Ketelsen:** It's funny, because I didn't remember TAFT, I remembered Smartacus \[00:35:55.02\] I spent so much time reading Bryan's blog posts about testing...
+**Brian Ketelsen:** It's funny, because I didn't remember TAFT, I remembered Smartacus \[35:55\] I spent so much time reading Bryan's blog posts about testing...
 
 **Erik St. Martin:** That's true too, yeah...
 
-**Bryan Liles:** \[00:36:01.20\] Yeah, I used to blog. You know, this day Twitter killed the blog star... \[laughter\] I really would love to blog again, and I know a lot of people say that, but I'm just not in that mood anymore. But I love to share. I do love to share, it's one of my favorite things.
+**Bryan Liles:** \[36:01\] Yeah, I used to blog. You know, this day Twitter killed the blog star... \[laughter\] I really would love to blog again, and I know a lot of people say that, but I'm just not in that mood anymore. But I love to share. I do love to share, it's one of my favorite things.
 
 **Erik St. Martin:** That's kind of why I like the podcast thing. The writing thing... I've never been a very good writer, and I struggle with organization and I feel like I revise it too many times, and then I just give up on finishing the post, but I like the freeform nature of podcasting, where you kind of just get to have conversations about stuff.
 
@@ -222,7 +222,7 @@ And then you know what? At the end of the day, give me credit for it; and then w
 
 **Brian Ketelsen:** Well, there are just so many better ways to get a point across than swearing, although I do agree - I don't remember who made the blog post, it might have been DHH... Somebody said recently about the science behind swearing and how it does cause you to instantly pay attention to that particular topic, and I agree with that; I just don't think it's required most of the time. If you need that to bring attention to what you're saying, perhaps you should be saying more interesting things.
 
-**Bryan Liles:** \[00:40:15.04\] Well, that was the whole point of the "Test all the effin' time", because testing is boring inherently; no one wants to do it, especially not in Go. I could go back and forth about my perils of testing in Go, but I want people to do it and not feel that just because it's hard, to do it poorly or not at all.
+**Bryan Liles:** \[40:15\] Well, that was the whole point of the "Test all the effin' time", because testing is boring inherently; no one wants to do it, especially not in Go. I could go back and forth about my perils of testing in Go, but I want people to do it and not feel that just because it's hard, to do it poorly or not at all.
 
 I think this is one of the things that the Ruby community got really well, is that, yeah, we had a whole bunch of testing frameworks, from RSpec to whatever else, but people thought about it. In Go, I think we dismissed it quite of quickly with the whole "no dependencies" movement, where we just didn't even think about, "Hey, Google is big, they have lots of engineers, lots of smart people, but guess what? They have not solved all the problems." AWS is still beating them in cloud, other people are still competitive in other places. Google doesn't have all the answers, so we need to go out and find those answers, because they can't even give us good dependency management, so why do you think they're gonna give us good testing management? And that's not a dig, that's just reality; I love you all.
 
@@ -240,7 +240,7 @@ I'm never gonna say who's right and who's wrong. I'll say that we should be more
 
 **Carlisia Thompson:** That's a very good point. In the Ruby and Ruby on Rails community they did an excellent job in bringing developers into the testing mentality, and I wanted to ask you where does the Go community stand, as far as you can tell, on the testing philosophy? You already gave some hints, but in more practical terms, what do you see?
 
-**Bryan Liles:** \[00:43:45.11\] Well, I will tell you this - I can go to look at the github.com/stretchr/testify and I'm sure there's a lot of stars there. That alone says that there is a lot of things going on. But then you have the other integration-style testing things that are in Go. Yeah, they're a little bit weird - they're not quite Go... I'm thinking of Gomega.
+**Bryan Liles:** \[43:45\] Well, I will tell you this - I can go to look at the github.com/stretchr/testify and I'm sure there's a lot of stars there. That alone says that there is a lot of things going on. But then you have the other integration-style testing things that are in Go. Yeah, they're a little bit weird - they're not quite Go... I'm thinking of Gomega.
 
 **Brian Ketelsen:** Yeah, Ginkgo and Gomega.
 
@@ -266,7 +266,7 @@ That's the only reason I write tests - because I don't trust future Bryan; or ac
 
 **Erik St. Martin:** I like the safety of refactoring by having a test suite. I've never been a hundred percent test-coverage person because I think that that just makes people write tests that just hit the code and they don't actually truly exercise the program. Also, I've never adopted that whole red-green-refactor thing; that just felt not like typical programming workflow, I just never cared for it. I'm a little bit, like you said -- I'll develop some stuff, I'll write some code that kind of tests it so that as I'm adding new features I don't have to keep going back and checking the things that I already knew worked; I can see when I break those by adding the new features... But I mean, that's about it. I try to get as best a test coverage as I can, but I'm not going through testing every single edge case.
 
-\[00:48:15.05\] And typically, through the development and through the usage of an application, I'll throw in tests as issues come up, to prevent regressions. I like testing, but I'm not a "test first" all the time. There's some problems where I will start with the uni-test first and kind of build from there, but there's other times where I'll just build the application first and then kind of start building some sanity checks.
+\[48:15\] And typically, through the development and through the usage of an application, I'll throw in tests as issues come up, to prevent regressions. I like testing, but I'm not a "test first" all the time. There's some problems where I will start with the uni-test first and kind of build from there, but there's other times where I'll just build the application first and then kind of start building some sanity checks.
 
 **Bryan Liles:** Yeah. Red-green-refactor is hard, and I like how books have it and they're like, "That's how you do it." I always use something different, and I know this is valid because before Jim Weirich died, he said "Bryan, this is a good idea." And I stuck with this one.
 
@@ -290,7 +290,7 @@ I think if you're on a large team and lots of people are touching the same code,
 
 **Erik St. Martin:** Without a doubt.
 
-**Carlisia Thompson:** \[00:51:47.02\] Right? I'm not there yet, I keep learning, but you look at a codebase and it has a ton of tests, and most of them are useless. It consumes time from everybody - they have to read... I mean, when I look at a new codebase, the first thing I read is the test, because it will tell me the business logics for the system. If you find everything is so convoluted, and once you start learning the codebase, you figure out, "Oh, these are all useless." It's a major waste of time.
+**Carlisia Thompson:** \[51:47\] Right? I'm not there yet, I keep learning, but you look at a codebase and it has a ton of tests, and most of them are useless. It consumes time from everybody - they have to read... I mean, when I look at a new codebase, the first thing I read is the test, because it will tell me the business logics for the system. If you find everything is so convoluted, and once you start learning the codebase, you figure out, "Oh, these are all useless." It's a major waste of time.
 
 **Erik St. Martin:** Yeah, if they not valid tests, they're just trying to hit lines of code, then there's no point in having them. But I think the takeaway is you should try to test as best as you can. If you've got a one or two-line function that does something very clear - formats a string, or something - I don't know whether you should feel guilty that you didn't get 100% coverage because you didn't test that method.
 
@@ -306,13 +306,13 @@ If you look at a project like Kubernetes, it's a little convoluted, but they hav
 
 **Brian Ketelsen:** We need to take a break and talk about our next sponsor. Bryan, I'd like it if you just closed your ears for a moment, please?
 
-**Break:** \[00:54:25.03\]
+**Break:** \[54:25\]
 
 **Brian Ketelsen:** You can open your ears back up, Bryan.
 
 **Bryan Liles:** \[laughs\] You know, I will offer some commentary and they'll be very positive. I think a lot of developers need to understand this. Unless you own your company - I don't own my company; I just work there for a paycheck. I like to hear about all the stuff going on in our market. That validates that our market works; it validates the idea that the founders, the execs at my company are doing the right thing. But I'll tell you first thing - I'm gonna speak for Bryan Liles, I don't speak for anyone else.
 
-\[00:55:56.10\] I think that more people need to realize that you should champion yourself without trying to be a detriment to your employer, but realize that when push comes to shove, they're gonna push you off, because they need to win. A lot of people don't realize that - the allegiance is with yourself and with your family. You always need to make sure that you're gonna come out on top (without hurting anyone else; don't be a jerk). Definitely think about that when you're moving forward.
+\[55:56\] I think that more people need to realize that you should champion yourself without trying to be a detriment to your employer, but realize that when push comes to shove, they're gonna push you off, because they need to win. A lot of people don't realize that - the allegiance is with yourself and with your family. You always need to make sure that you're gonna come out on top (without hurting anyone else; don't be a jerk). Definitely think about that when you're moving forward.
 
 **Erik St. Martin:** But you already said that past Bryan is a jerk, so...
 

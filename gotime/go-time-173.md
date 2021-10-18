@@ -20,7 +20,7 @@ I'm joined by - you won't believe it - Johnny Boursiquot. Hello, Johnny.
 
 **Natalie Pistunovich:** Keeping my office cold, as we've talked about, because I really like working in a colder temperature... And I'm enjoying the last few days of the cold weather... Mainly, I've been enjoying some snow, and a lot of freezing. But not when it comes to code. Code freezing is the opposite of releasing, and that's not that we're here for today.
 
-**Mat Ryer:** \[00:04:11.10\] That's right, that's the opposite. Yes. Well, I hope you can stay warm; I can see you have a scarf on, which I have no problem with... Well, we're also joined by the creator of GoReleaser... Carlos Becker is here with us. Hello, Carlos!
+**Mat Ryer:** \[04:11\] That's right, that's the opposite. Yes. Well, I hope you can stay warm; I can see you have a scarf on, which I have no problem with... Well, we're also joined by the creator of GoReleaser... Carlos Becker is here with us. Hello, Carlos!
 
 **Carlos Becker:** Hello, everyone. Thanks for having me.
 
@@ -52,7 +52,7 @@ If you're building tools that you release in that way, it's a great choice. John
 
 **Carlos Becker:** I think it's more about tools, about services, like you were saying... At least the projects I worked on, I don't usually create tags for every release, because usually there are lots of releases every day... Release meaning pushing something to production. So the commit hash is pretty much the release. You basically just build/create a Docker image, or whatever you ship it with, and push to production, and that's it.
 
-\[00:08:26.28\] For binaries that other people use, I don't think you need to automate right away if you don't want to, but my goal for GoReleaser was to make it so simple that you can also do it if you want, because it's just the GoReleaser and that's it; you don't need to write any YAML for the first releases, because it implies everything \[unintelligible 00:08:50.08\].
+\[08:26\] For binaries that other people use, I don't think you need to automate right away if you don't want to, but my goal for GoReleaser was to make it so simple that you can also do it if you want, because it's just the GoReleaser and that's it; you don't need to write any YAML for the first releases, because it implies everything \[unintelligible 00:08:50.08\].
 
 **Mat Ryer:** Yeah, it has sensible defaults, doesn't it?
 
@@ -80,7 +80,7 @@ So releasing has never been something that I've done a lot, let's say, and being
 
 **Mat Ryer:** Interesting, Natalie... You're saying that you're pushing code into GitHub is kind of how you're releasing, if it's open source projects and things... That's different with Go modules, because now we are more conscious of actual releases by tagging properly. But that's the other thing that you think about, like what gives us the confidence to release, before we get to that point of feeling like we can push this code out? Why do we do that with any confidence? Because that's a big thing. If you release something that then breaks, of course - especially if you've got lots of users - that's not good. So what can we do to make sure the release is good before it goes out?
 
-**Carlos Becker:** \[00:12:17.29\] I think the first thing is having a lot of tests, and running them all the time. I think this is probably the most important thing, because if you are testing early, something is broken and you don't know, if you are testing, probably is broken and you don't know too, but at least other things you might know when they break...
+**Carlos Becker:** \[12:17\] I think the first thing is having a lot of tests, and running them all the time. I think this is probably the most important thing, because if you are testing early, something is broken and you don't know, if you are testing, probably is broken and you don't know too, but at least other things you might know when they break...
 
 **Mat Ryer:** \[laughs\] Yeah...
 
@@ -100,7 +100,7 @@ If you look into the GoReleaser documentation, there is a topic there about cont
 
 **Johnny Boursiquot:** There are some contributions and recipes, if you will, for doing that out there... Which kind of leads me into the overall ecosystem, the community around this project. It's got 7,000+ stars on GitHub, it's been forked 518 times from what I'm seeing here... I don't think I've ever seen a project of this kind forked so many times. I'm wondering what folks are doing... Did you build something that is extensible, in a way, that you can sort of add on capabilities on top of it? I'm wondering what are some of the use cases that you hear about when people fork this project? What are they adding to that?
 
-**Carlos Becker:** \[00:16:20.04\] I think some of them are probably pull requests, and the others I don't really know. I think sometimes people fork it to experiment things. I've seen some cases of that. But if they are \[unintelligible 00:16:33.09\] GoReleaser with different capabilities, I'm not aware, so I don't know.
+**Carlos Becker:** \[16:20\] I think some of them are probably pull requests, and the others I don't really know. I think sometimes people fork it to experiment things. I've seen some cases of that. But if they are \[unintelligible 00:16:33.09\] GoReleaser with different capabilities, I'm not aware, so I don't know.
 
 **Johnny Boursiquot:** Let me change the question... What are some of the pull requests or additions that you've seen and that you've accepted from the community, beyond the original feature set that you've developed?
 
@@ -134,7 +134,7 @@ If you look into the GoReleaser documentation, there is a topic there about cont
 
 **Mat Ryer:** Yeah, there is something you get for free when you think about working with somebody that has already an open source project, especially if they founded it... Because it takes a lot of different things to do that, to go through that process. So I understand why people kind of skip the interview process, because you've sort of like proven all the main bits that people need... That's why I do always encourage people, especially if you're junior, to get involved, if you can, in some way, in open source... Because you never know; and the network that you build, the knowledge that you're getting from doing it, and also future opportunities. They're very real. So yeah, I'd always encourage that. This is a nice example of that.
 
-**Carlos Becker:** \[00:20:19.20\] Yeah. And I don't know about you, but the most I've learned about programming was reading other people's code.
+**Carlos Becker:** \[20:19\] Yeah. And I don't know about you, but the most I've learned about programming was reading other people's code.
 
 **Mat Ryer:** Yeah.
 
@@ -164,7 +164,7 @@ Have there been any challenges with working in that open source world? Like, som
 
 **Carlos Becker:** I think that adds up with the other part, which is finding time to do everything you want to do, including open source and other parts of life. That's the hardest thing, for sure, and saying no to things helps a bit, but there's still a lot of things, like bug fixes and things like that, that \[unintelligible 00:24:00.06\] them anyway, so... It's still hard to find time sometimes.
 
-**Mat Ryer:** \[00:24:07.28\] Yeah. And it takes real time, it does... That's also worth remembering for people that use open source projects - the amount of time and effort that goes into them definitely is great. But generally, has it been quite a positive experience for you then, open source?
+**Mat Ryer:** \[24:07\] Yeah. And it takes real time, it does... That's also worth remembering for people that use open source projects - the amount of time and effort that goes into them definitely is great. But generally, has it been quite a positive experience for you then, open source?
 
 **Carlos Becker:** Yeah, I would say this.
 
@@ -180,7 +180,7 @@ Have there been any challenges with working in that open source world? Like, som
 
 **Carlos Becker:** I knew about that before, actually. I started as a software engineer, software developer many years ago, and for a while I was working as a DevOps/SRE and all that stuff.
 
-**Break:** \[00:26:00.17\]
+**Break:** \[26:00\]
 
 **Mat Ryer:** So Johnny, at your place how do you do releases? How do you manage releases? What does a release mean in your job?
 
@@ -194,7 +194,7 @@ Have there been any challenges with working in that open source world? Like, som
 
 **Johnny Boursiquot:** \[laughs\] Well, we have, as you'd expect with a company as large as we are - Salesforce - and all the other companies that we've acquired over time, everybody sort of comes in, every team comes in with their own ways that are customized for their build pipelines and everything that they need to do. You throw in there compliance things, security things... These things can get really complicated. So in some cases, some tool as simple as GoReleaser could work just fine; in oher cases, just doing a go build and getting the executable, because you know exactly where it's gonna go, how it's gonna run, you know everything about it, you control that environment quite well, and you can go as simple as that. The only thing you might need maybe is just the makefile, to help you with triggering builds, and whatnot...
 
-\[00:28:11.29\] So it varies so much in an organization as big as ours. It's one of those things where truly it is -- because we have access to so many of these tools, it is truly a matter of what is it that I'm building now, and how do I need to get it from my computer to where it needs to be running? So you kind of have to make that decision -- you can't ignore making that decision, saying "Well, we usually do things this way for this particular class of software. We usually do things that way for this particular class of software." So there's some archetypes that we follow, but there's no one size fits all. There just can't be.
+\[28:11\] So it varies so much in an organization as big as ours. It's one of those things where truly it is -- because we have access to so many of these tools, it is truly a matter of what is it that I'm building now, and how do I need to get it from my computer to where it needs to be running? So you kind of have to make that decision -- you can't ignore making that decision, saying "Well, we usually do things this way for this particular class of software. We usually do things that way for this particular class of software." So there's some archetypes that we follow, but there's no one size fits all. There just can't be.
 
 **Mat Ryer:** So is each team responsible for their own releasing?
 
@@ -208,7 +208,7 @@ If you're familiar with Heroku at all, you'll know that basically there's releas
 
 So whenever you need to introduce something that crosses team boundaries, it can be challenging, because teams are often under deadlines, and they need to ship something, and all of a sudden here you are and a comment says "Hey, how about we settle on GoReleaser for all the things?" and then teams that haven't been using it or haven't seen a need for it, they start looking at it like "Um, we've got stuff to ship, man... We don't need this. Our build pipeline right now - it works just fine. We don't need to do that." But here you are, like "Well, if we do that, we can standardize. Everybody can be using the same thing. It will be perfect." And then -- nope, that's usually not the way it goes. As we all know at this point, it's not always a technology decision. Sometimes it their team dynamics, there's business requirements, there's deadlines, there's features that need to be shipped, there's operational concerns, a lot of cross-departmental -- the icky gooey people side of things often is the barrier to getting a technology adopted.
 
-**Mat Ryer:** \[00:32:06.20\] Yeah, that's amazing to hear that... It's actually really interesting to hear the insights and what it's like there... But I think it's a good lesson. And you talked about those common layers as well... Because that also applies in code, with abstractions; if you try and do those abstractions too much, you can easily overdo it. Or too early? You can easily do the wrong kind of thing. And GoReleaser in a way abstracts some of the other tooling underneath it, doesn't it? So did the design of GoReleaser change much from its initial version over time?
+**Mat Ryer:** \[32:06\] Yeah, that's amazing to hear that... It's actually really interesting to hear the insights and what it's like there... But I think it's a good lesson. And you talked about those common layers as well... Because that also applies in code, with abstractions; if you try and do those abstractions too much, you can easily overdo it. Or too early? You can easily do the wrong kind of thing. And GoReleaser in a way abstracts some of the other tooling underneath it, doesn't it? So did the design of GoReleaser change much from its initial version over time?
 
 **Carlos Becker:** Not much, but a couple of times yes. I remember one particularly big refactoring which was very early on, to basically start using context and pass information through a context from one pipe to another... It's called Pipe internally, like upload to S3 is a pipe, build is a pipe... So the pipes talk to each other through a context, basically. Before, it was sequentially calling every pipe which was on the pipe at the time; basically, calling several functions, and they are -- I think they were messing with global variables, or something like that. I don't recall correctly... That was the biggest one.
 
@@ -232,7 +232,7 @@ But I think the hardest part about abstractions is actually the interface for th
 
 **Carlos Becker:** Yeah... \[laughter\] Basically, when they're releasing GoReleaser, they just run the tests, build etc. and then it runs go run main.go and releases itself with the version that's being released... So that's it.
 
-**Mat Ryer:** \[00:36:18.10\] Oh, it releases itself with itself, literally. It's not the previous version you have installed. It's THE version. Well, that's one way to dogfood. I suppose if that fails, you know that you shouldn't release it.
+**Mat Ryer:** \[36:18\] Oh, it releases itself with itself, literally. It's not the previous version you have installed. It's THE version. Well, that's one way to dogfood. I suppose if that fails, you know that you shouldn't release it.
 
 **Carlos Becker:** That was the idea, yeah. True. Make sure it works, it releases itself. If something is wrong, it will probably fail at some point.
 
@@ -280,7 +280,7 @@ But I think the hardest part about abstractions is actually the interface for th
 
 **Carlos Becker:** Yeah. And you can't manually test. You just go test and push to production. It's the best! \[laughs\]
 
-**Mat Ryer:** \[00:40:01.10\] There you go. That's the confidence. You see, that's it. But if your tests are the promises of your project, if they cover all those promises, then you really can do that; you're not saying anything extra. Everything else is undefined, and there are sometimes -- you get into problems there, if people start to rely on this undefined behavior that's just emerged.
+**Mat Ryer:** \[40:01\] There you go. That's the confidence. You see, that's it. But if your tests are the promises of your project, if they cover all those promises, then you really can do that; you're not saying anything extra. Everything else is undefined, and there are sometimes -- you get into problems there, if people start to rely on this undefined behavior that's just emerged.
 
 **Carlos Becker:** Yeah.
 
@@ -330,7 +330,7 @@ It's like, "What is the confidence level in a test?" Well, that's a very human t
 
 **Natalie Pistunovich:** Yeah, so this failing test that you've written... Would it be failing because you took the library, you integrated it into your code, you ran your code, you tested YOUR code, not that library, and your code was the one that was behaving unexpectedly, so that's how you came to this? Or did you test that library that you imported? ...not for obviously everything, but for maybe one, two things that are really important for you in your project.
 
-**Mat Ryer:** \[00:43:58.22\] Yeah, so for me I'll say - having the test code in a different package in Go, which some people like to do it, some people don't... But you can have your test code alongside your normal Go code, in a different package... And that means you're then using your own Go code as an external package. So you have to import the package, you're using it as a third party is gonna use it. So in that world, the test code and the user's real code is the same kind of environment... And that's one of the advantages of doing that, because you are operating very closely to how users are operating.
+**Mat Ryer:** \[43:58\] Yeah, so for me I'll say - having the test code in a different package in Go, which some people like to do it, some people don't... But you can have your test code alongside your normal Go code, in a different package... And that means you're then using your own Go code as an external package. So you have to import the package, you're using it as a third party is gonna use it. So in that world, the test code and the user's real code is the same kind of environment... And that's one of the advantages of doing that, because you are operating very closely to how users are operating.
 
 I was quite like that, because it helps also with -- you get to really see the API footprint that you're building, especially if you do TDD stuff and you see the little IDE dropdown, and it tells you all the options. That's a very nice way to get a sense of the API that you're designing, and thinking about "Is this gonna be kind of confusing, or easy, or whatever?"
 
@@ -338,7 +338,7 @@ But yeah, the point about the testing - that's very nice, when the user's code l
 
 Christian on Gophers Slack - and by the way, you can join in the conversation there - says "GoReleaser is one of my favorite tools in the entire Go ecosystem. Thanks for working on this, Carlos." I just thought I'd read that out; it's nice. I've got nothing nice to read about anyone else, sorry. \[laughter\]
 
-**Break:** \[00:45:30.06\]
+**Break:** \[45:30\]
 
 **Mat Ryer:** So do you actively spread the word about GoReleaser? Do you do anything to try and get people to find out about it?
 
@@ -366,7 +366,7 @@ Christian on Gophers Slack - and by the way, you can join in the conversation th
 
 **Mat Ryer:** Yeah, that's great. But Johnny's right, actually. A logo and a good name... And GoReleaser really just tells you what it does, so you can't really argue with that... So yeah, that does help.
 
-**Johnny Boursiquot:** \[00:48:11.10\] Unless you put an awkward pause in there, like "GoRelease Her."
+**Johnny Boursiquot:** \[48:11\] Unless you put an awkward pause in there, like "GoRelease Her."
 
 **Mat Ryer:** Oh, like a hostage situation...
 
@@ -418,13 +418,13 @@ And if you want to support me as a developer that works on GoReleaser, then I li
 
 **Mat Ryer:** GoReleaser.com is the website, so if you wanna check it out - it is a very cool website, and you can see the little rocket gopher in there... Well, I'll tell you what, everybody - it's that time again... It's that special time; time for unpopular opinions.
 
-**Jingle:** \[00:50:54.16\] to \[00:51:11.09\]
+**Jingle:** \[50:54\] to \[51:11\]
 
 **Mat Ryer:** Do you have an unpopular opinion for us, Carlos?
 
 **Carlos Becker:** I have a couple, but I don't think they are so unpopular... For example, I don't think we need generics... But I think this was talked about in the last episode. So I will go with go.mods are great, but I don't think most people will do that v2 folder thing for major bumps, or whatever. I get it why they ask you to do that, but I don't think people will do it. I won't do it, for sure, because it's already hard to keep one version, one stable version. A lot of stable versions is -- sorry, I'm not going to try it.
 
-**Mat Ryer:** \[00:51:57.20\] Yeah, that's very interesting. What will you do then, if there's a second major version of GoReleaser?
+**Mat Ryer:** \[51:57\] Yeah, that's very interesting. What will you do then, if there's a second major version of GoReleaser?
 
 **Carlos Becker:** You can just add it to your go.mod file and put a /v2 at the end of the first line, I think; I don't remember the keyword there, but just doing that already works. I think the only thing that doesn't work if you do that is other dependency management tools that are not Go modules... But honestly, I don't care that much about that.
 
@@ -474,7 +474,7 @@ And if you want to support me as a developer that works on GoReleaser, then I li
 
 **Natalie Pistunovich:** What I said one of the previous times was that just try things, even if you're maybe a little bit scared, or not sure about. And then we saw some surprising applications by people who don't associate themselves with any minority or diversity groups, and also have decently-paying jobs, and apply for a diversity scholarship. This is an example of something you should not necessarily go for. \[laughs\]
 
-**Mat Ryer:** \[00:56:07.24\] Okay. What's \[unintelligible 00:56:12.25\] Johnny? I hand all the sensitive ones over to Johnny. Johnny, what do you think about this really difficult subject?
+**Mat Ryer:** \[56:07\] Okay. What's \[unintelligible 00:56:12.25\] Johnny? I hand all the sensitive ones over to Johnny. Johnny, what do you think about this really difficult subject?
 
 **Johnny Boursiquot:** I don't disagree... So at the risk of annoying a few people out there, it's easy to -- actually, the reason I'll say this is because this is a conversation I've had with some colleagues and friends recently... It's easy to feel resentful when you see that there are opportunities that are being created, opened up to people who don't look like you... If you happen to be white, or male, or usually white and male. It's easy to be resentful. And obviously, I've never been a white male, so I wouldn't know exactly how that feels, so...
 

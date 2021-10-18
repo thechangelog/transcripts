@@ -20,7 +20,7 @@ Basically, antenna.blink; so you could say "go antenna.blink" and it just launch
 
 **Jerod Santo:** Appeal.
 
-**Ron Evans:** \[00:03:52.01\] Well, the brevity of the language; the fact that there's very little to it as far as number of keywords... That's really great when you're writing a compiler, because it means there's less things that could go wrong - less misinterpretations, less ways to compile code... TinyGo has a lot of work to do in order to take the Go SSA code -- well, the way TinyGo works is TinyGo takes your text code, your regular Go, and it uses the Go standard libraries, which themselves are written in Go, to take and convert that to single static assignment form (SSA). So normal Go at that point takes the SSA and compiles it to the binary code.
+**Ron Evans:** \[03:52\] Well, the brevity of the language; the fact that there's very little to it as far as number of keywords... That's really great when you're writing a compiler, because it means there's less things that could go wrong - less misinterpretations, less ways to compile code... TinyGo has a lot of work to do in order to take the Go SSA code -- well, the way TinyGo works is TinyGo takes your text code, your regular Go, and it uses the Go standard libraries, which themselves are written in Go, to take and convert that to single static assignment form (SSA). So normal Go at that point takes the SSA and compiles it to the binary code.
 
 This is where TinyGo kicks in and says "Let's convert that SSA form instead to LLVM's intermediate representation. LLVM is a framework for writing compilers.
 
@@ -40,7 +40,7 @@ We have a team of four official members. We have 25 other contributors (I believ
 
 And then [conejoninja aka Daniel Esteban](https://github.com/conejoninja) who is also Spanish, who has basically been doing all of the amazing work with all of the displays. And then we have a lot of other contributors, and over 200 people on our Slack channel now... It's sort of taking off by leaps and bounds. And that really segued nicely to the big announcements we made yesterday here at OSCON. We had three huge things that came out yesterday; we thought OSCON was a great place for us to launch these things. It's the center of the legitimate open source world, if you will, in the U.S.
 
-\[00:08:06.07\] So the first one is TinyGo powered by Arduino. We've been developing a very special relationship with Arduino. They're the pioneers of open source hardware, they're a really cool company. "Arduino is love", they say, and they really mean it. They've been incredibly helpful to us.
+\[08:06\] So the first one is TinyGo powered by Arduino. We've been developing a very special relationship with Arduino. They're the pioneers of open source hardware, they're a really cool company. "Arduino is love", they say, and they really mean it. They've been incredibly helpful to us.
 
 We have TinyGo running on the new Arduino Nano 33 IoT chip. That particular board is really interesting, because it has both a microcontroller, as well as a separate Wi-Fi chip, so it's really geared up for the internet of things. If you don't have internet, it's just a thing. It's not an internet of things.
 
@@ -78,7 +78,7 @@ The interesting part is we also support using our hardware boards emulated, simu
 
 **Ron Evans:** So then the third thing, which is related to the second thing - a lot of people have been getting very excited about RISC-V. For anyone who hasn't heard of RISC-V or doesn't know what it is, just because in the flurry of buzzwords that I tend to pontificate it's hard to keep track of the acronyms, especially when there's four-letter acronym plus a number... So RISC-V does for processors what open source software has done for the rest of the open source world - it actually provides open source instructions set and hardware reference platforms. So if you wanna build a processor, you don't have to...
 
-**Adam Stacoviak:** \[00:12:15.02\] ...build your own.
+**Adam Stacoviak:** \[12:15\] ...build your own.
 
 **Ron Evans:** ...ask Intel "Please build a processor that you'll sell me", or go to Arm and say...
 
@@ -108,7 +108,7 @@ The reason why I care about that is for two reasons. The first one is battery li
 
 The number of people that want to do WebAssembly is fairly substantial. It's a very exciting, new technology... But the ways to actually go about doing it right now are very, very difficult. You can write C++ code, and then compile it using something like Emscripten... If you already know C++, that's perfect (I guess) for you.
 
-\[00:16:13.28\] You can use Rust. A lot of people are learning Rust and discovering it's a very hard language to learn and to use; it does a lot of things for you, but it's non-trivial. You're not gonna just knock off a quick little WebAssembly app in Rust without knowing what you're doing. You actually have to learn the language to use it. True with many languages... You can only fake your way around so far.
+\[16:13\] You can use Rust. A lot of people are learning Rust and discovering it's a very hard language to learn and to use; it does a lot of things for you, but it's non-trivial. You're not gonna just knock off a quick little WebAssembly app in Rust without knowing what you're doing. You actually have to learn the language to use it. True with many languages... You can only fake your way around so far.
 
 Go, the main Go implementation, the MGI, if you will... You can compile to WebAssembly...
 
@@ -176,7 +176,7 @@ It's an unfair comparison, just because we're a speedboat and they're a battlesh
 
 **Jerod Santo:** Oh, okay. I didn't know we had scheduled events...
 
-**Break:** \[00:19:51.26\]
+**Break:** \[19:51\]
 
 **Jerod Santo:** So you've got next year's demo today... Dream with us a little bit. I think you're pretty good at looking down a few years and dreaming, Ron. Five years from now, or whatever the timeframe you pick - let's just assume TinyGo does all the things that it has set out to do in terms of IoT and whatever you think is success. What's happened five years from now - or three, or whatever makes sense - in the TinyGo world, or in the embedded space, or in IoT? What does success look like if it just continue apace?
 
@@ -202,7 +202,7 @@ It's an unfair comparison, just because we're a speedboat and they're a battlesh
 
 **Ron Evans:** ...especially when physical plants -- you know, you install something at a physical plant in a factory, or a retail store, and you say "Yeah, it has to be replaced in three years." If you go back there in ten years, it's still there, working. Like "Oh yeah, it was still working. We didn't fix it, we didn't replace it." And they're like "Oh, we said it'd only have a three-year lifespan." Like "Oh wow, really? We didn't know. It's still working." This is just very common in these types of physical locations, because replacement is not easy. Software upgrades are even hard enough.
 
-\[00:24:04.25\] We need something that's gonna be reliable enough and solid enough, and Go as a language is making the cut. The problem is Go as a runtime has certain assumptions about the environments in which it runs. Embedded Linux Go is pretty great, but we're talking about systems even smaller, that require substantial reliability. It's your braking system, it's the airbag system, it's the system that controls the thermal rods in your nuclear power plant.
+\[24:04\] We need something that's gonna be reliable enough and solid enough, and Go as a language is making the cut. The problem is Go as a runtime has certain assumptions about the environments in which it runs. Embedded Linux Go is pretty great, but we're talking about systems even smaller, that require substantial reliability. It's your braking system, it's the airbag system, it's the system that controls the thermal rods in your nuclear power plant.
 
 **Jerod Santo:** Yeah...
 
@@ -252,7 +252,7 @@ I'll give you a great example - this language called Fortran.
 
 **Jerod Santo:** Never heard of it.
 
-**Ron Evans:** \[00:27:55.25\] A very ancient language, used for mathematics. It's still being used by NASA in order to figure out the orbits of things in outer space. Fortran. If you wanna work at NASA, you should learn Fortran.
+**Ron Evans:** \[27:55\] A very ancient language, used for mathematics. It's still being used by NASA in order to figure out the orbits of things in outer space. Fortran. If you wanna work at NASA, you should learn Fortran.
 
 **Jerod Santo:** What does Fortran do well?
 
@@ -290,7 +290,7 @@ Well, I've had the magnificently wonderful experience over the last months of ru
 
 **Jerod Santo:** Participating.
 
-**Ron Evans:** \[00:31:50.26\] I think it was Albert King, the late great blues guitarist - he said there's only three reasons to play music: have fun, make some money, or learn something. So if you're playing music for some other reason, you should stop. If you're trying to impress somebody, or gunslinging, look good, make them feel bad - you should just stop and go home, because that's not a good reason to do it. So I try to take that same sensibility and apply it to the things we're doing in open source.
+**Ron Evans:** \[31:50\] I think it was Albert King, the late great blues guitarist - he said there's only three reasons to play music: have fun, make some money, or learn something. So if you're playing music for some other reason, you should stop. If you're trying to impress somebody, or gunslinging, look good, make them feel bad - you should just stop and go home, because that's not a good reason to do it. So I try to take that same sensibility and apply it to the things we're doing in open source.
 
 The winners are all of us, if we collaborate and cooperate. The losers are all of us if we don't invite people -- I mean, I'll go back to the musical thing... There've been plenty of cases where a person is sort of shyly standing on the side of a musical jam session that I've been at. They're not participating, but they're there, and there's like a glint in their eye that they really want to. If you do it well, you pull them up to a mic... And then this person who doesn't look anything out of the ordinary opens their mouth and your jaw drops to the ground, because this voice comes out and you're like "Wow...! Thank you for getting past whatever it was and singing for us, because I'm just in awe at how great this is." I think this is a great lesson for inclusion in tech.
 
@@ -322,7 +322,7 @@ So I try to apply these same principles, because -- you know, we think tech is a
 
 **Adam Stacoviak:** It'd probably suck at that job.
 
-**Ron Evans:** \[00:36:03.12\] So we think we're purely utility-based, but we're not. Go is aesthetically pleasing to many people; so if we can bring Go - again, like a good politician, to bring it back around to my message...
+**Ron Evans:** \[36:03\] So we think we're purely utility-based, but we're not. Go is aesthetically pleasing to many people; so if we can bring Go - again, like a good politician, to bring it back around to my message...
 
 **Jerod Santo:** \[laughs\] Back to the talking points, Ron...
 
@@ -340,7 +340,7 @@ So I try to apply these same principles, because -- you know, we think tech is a
 
 **Ron Evans:** ...or Talking Tina, or Child's Play... Like "Oh yeah, it's just a toy. Nothing to be afraid of. It's just a toy. Friendly toys..."
 
-**Break:** \[00:37:46.21\]
+**Break:** \[37:46\]
 
 **Jerod Santo:** A toy and a playground... So you have play.tinygo.org. Is tinygo.org the one stop shop to get involved?
 
@@ -352,7 +352,7 @@ So I try to apply these same principles, because -- you know, we think tech is a
 
 **Adam Stacoviak:** What do you know about that?
 
-**Ron Evans:** \[00:39:46.02\] I think there's a huge opportunity for bioinformatics. Bioinformatics and cloud computing is not a problem that's been solved at all. Material science I think is incredibly interesting... Things like shape-memory alloys, which are polymers that have the property which is opposite of normal metals. Normal metals, when you heat them, they expand, and when you cool them, they contract. SMAs have the opposite - when you heat them, they contract, and when you cool them, they expand. So they are very, very strong, and could be used for artificial muscles, new kinds of solar cells, other kinds of conductive materials, flexible electronics... That's the kind of stuff I'd like to be working on if I wasn't doing what I'm doing now.
+**Ron Evans:** \[39:46\] I think there's a huge opportunity for bioinformatics. Bioinformatics and cloud computing is not a problem that's been solved at all. Material science I think is incredibly interesting... Things like shape-memory alloys, which are polymers that have the property which is opposite of normal metals. Normal metals, when you heat them, they expand, and when you cool them, they contract. SMAs have the opposite - when you heat them, they contract, and when you cool them, they expand. So they are very, very strong, and could be used for artificial muscles, new kinds of solar cells, other kinds of conductive materials, flexible electronics... That's the kind of stuff I'd like to be working on if I wasn't doing what I'm doing now.
 
 **Adam Stacoviak:** Where are you going with this...? Reel it in.
 
@@ -396,7 +396,7 @@ I think one of the big differences -- what was the name of the guy who created t
 
 **Ron Evans:** It was the first internet worm. It was not created maliciously; it was created originally because he wanted to map all the IP addresses within this space, and he wrote this code that would automatically download itself onto any computer and then do the same thing. He made an error in the code, which caused it to escape the subnet, and it took down the entire internet at the time.
 
-\[00:43:54.20\] He got in a bit of trouble, and if it hadn't been for dad's NSA connections, he would probably still be in an undisclosed location. Actually, back in those days they still hired teenagers who were hackers to work for them as security people. Not like now.
+\[43:54\] He got in a bit of trouble, and if it hadn't been for dad's NSA connections, he would probably still be in an undisclosed location. Actually, back in those days they still hired teenagers who were hackers to work for them as security people. Not like now.
 
 But take that idea, but apply it to biohacking. Well-meaning person, doesn't think they're doing anything bad, in a basement, not fully understanding the implications of their work, and making an error. No bad intentions. I'm ignoring the bad intentioned people, just because I think that it's very hard to do anything that works at all in this space yet, so the odds of you making a mistake and having something happen are much greater than bad people doing awful things... But that's also a possibility.
 
@@ -422,7 +422,7 @@ The other is every human for themselves, with no control and no care over the im
 
 Anyways, we're all on Slack. There's a lot of people joining. Slack is certainly a good platform for this, because it's relatively easy... We have a really active community. There's a bunch of us in Europe, there is a bunch of people in Asia, there's a bunch of U.S. people... So pretty much 24 hours a day there's somebody around to help.
 
-\[00:48:04.20\] We're really active on our GitHub repositories. This is why we have a few members to the organization, so that we can respond quickly to people's requests for assistance. Sometimes GitHub issues are support requests, and not issues... But you know, we're there to help, and we're trying to get this technology out there and make it easier for people to use, so part of our responsibility as maintainers is to do that.
+\[48:04\] We're really active on our GitHub repositories. This is why we have a few members to the organization, so that we can respond quickly to people's requests for assistance. Sometimes GitHub issues are support requests, and not issues... But you know, we're there to help, and we're trying to get this technology out there and make it easier for people to use, so part of our responsibility as maintainers is to do that.
 
 We've had a few people come into our Slack and say "Why don't you use language X?" Not X, another language that has a single letter...
 

@@ -16,7 +16,7 @@
 
 So I led the platform team inside Umbel for about a year and a half before we spun out Pilosa as a separate company, and have been working on that ever since.
 
-**Erik St. Martin:** \[00:03:51.27\] That's awesome. Tell us a little bit about Pilosa itself. I know it's a distributed index, but there's some properties about it that kind of make it unique, and then we'll talk about why Go, and why Go is a good fit, and maybe even some of the points that you struggle with.
+**Erik St. Martin:** \[03:51\] That's awesome. Tell us a little bit about Pilosa itself. I know it's a distributed index, but there's some properties about it that kind of make it unique, and then we'll talk about why Go, and why Go is a good fit, and maybe even some of the points that you struggle with.
 
 **Carlisia Thompson:** But also tell us what a distributed index is, because not everybody might now...
 
@@ -40,7 +40,7 @@ B-tree indexing starts to fall apart, but bitmap indexing can be very good, so i
 
 **Brian Ketelsen:** I have a confession to make... I got my start in big data way back in the day, 1990-something at a company called Omnidex, and they did the same thing, but it was in C and C++. It was a lot harder to install and maintain than Pilosa looks, I can tell you that... But the same concept - bitmap indexes on data, with covered indexes, and most of the queries could be resolved without even touching the data itself. It would be covered by the indexes.
 
-**Carlisia Thompson:** \[00:08:13.01\] I'm wondering if you have any sort of numbers... So being able to scale the storage independently of the indexing system seems like it should be a slam dunk decision, it should scale a lot better... Do you have numbers to compare data storages combined with indexing, which is some regular, normal, bread and butter relational database, versus separating those two?
+**Carlisia Thompson:** \[08:13\] I'm wondering if you have any sort of numbers... So being able to scale the storage independently of the indexing system seems like it should be a slam dunk decision, it should scale a lot better... Do you have numbers to compare data storages combined with indexing, which is some regular, normal, bread and butter relational database, versus separating those two?
 
 **Erik St. Martin:** I think that the importance of the index isn't so much storage, it's that a lot of times when you're searching for data in a database, and even in a distributed database, you have to touch multiple machines or seek too many places on disk to find the data to see whether it applies... So by having indexes, you can limit the amount of data that you need to go out and fetch from wherever it's stored.
 
@@ -58,7 +58,7 @@ B-tree indexing starts to fall apart, but bitmap indexing can be very good, so i
 
 **Erik St. Martin:** That's actually a really interesting use case I hadn't thought of... If you already have data being stored somewhere that isn't necessarily a database that has its own indexing mechanisms...
 
-**Brian Ketelsen:** \[00:11:50.29\] That's kind of the power of the standalone index - you don't even have to index flat files or database records; you can index your mailbox, you can index anything that you have data retrieval access to, and it makes for a lot of power that you normally wouldn't see in a regular database, because you're only communicating with the index, not communicating with the data store.
+**Brian Ketelsen:** \[11:50\] That's kind of the power of the standalone index - you don't even have to index flat files or database records; you can index your mailbox, you can index anything that you have data retrieval access to, and it makes for a lot of power that you normally wouldn't see in a regular database, because you're only communicating with the index, not communicating with the data store.
 
 **Matt Jaffee:** Yeah, and let's not forget what powers all the big search engines on the web. Nobody really talks about it, but they're basically giant standalone indexes.
 
@@ -80,7 +80,7 @@ We employ unsafe in very low quantities, exactly where we need it, to get that p
 
 We've definitely had several sort of deep hackathons on profiling and finding places where we had easy wins, basically... But there's definitely a lot more to do there, and Go's tooling keeps evolving. The tracer and all the different profiling types you can do... I think we've scratched the surface - maybe scratched it pretty deeply - but we certainly haven't broken through into all of what's possible.
 
-**Erik St. Martin:** \[00:16:08.29\] In discussions through email before you came on the show you had mentioned too that part of the reason that Go was such a great fit - at least for building a distributed tool - was that you were able to cut out external dependencies like [Zookeeper](https://zookeeper.apache.org/)...
+**Erik St. Martin:** \[16:08\] In discussions through email before you came on the show you had mentioned too that part of the reason that Go was such a great fit - at least for building a distributed tool - was that you were able to cut out external dependencies like [Zookeeper](https://zookeeper.apache.org/)...
 
 **Matt Jaffee:** Yeah. You know, Go has a lot of good libraries, and a culture of making things pretty tightly packaged and not pulling in lots of dependencies into your projects, and we're trying to sort of follow that culture in Pilosa, and also it's been a great help to us to be able to pull in libraries to do things like cluster membership... And because of Go's concurrency model, it's easy to sort of have that running in the background in the same process, without really blocking anything or affecting latency of queries or anything like that.
 
@@ -100,7 +100,7 @@ Even though Go has Gofmt and a lot of really good culture in idioms, every proje
 
 **Brian Ketelsen:** I was wondering the other day whether you could take the AST rewriting and rewrite combined with the compiler, so you'd almost have like a hot spot JVM, but for Go... I don't know enough about all the low-level bits, but it's just occurred to me that we're almost there in terms of tooling...
 
-**Matt Jaffee:** \[00:20:14.29\] Yeah, and that's such an interesting point, because there are a lot of really big databases that basically compile your -- not your queries, but the query plan or the query execution on the fly, for performance reasons. Go just kind of got plugins a little bit -- we looked at that briefly, because there's so much you can do when you have data in a very processable format, like you do in a database or an index... And being able to bring processing to that data, complex processing, which has typically been the realm of complex query languages, like SQL... But to be able to do that in code and ship that code to the cluster, rather than shipping the data to the code, I think there's a lot of opportunities for distributed algorithms running on indexed data in the cluster, at scale. They could open up a lot of opportunities.
+**Matt Jaffee:** \[20:14\] Yeah, and that's such an interesting point, because there are a lot of really big databases that basically compile your -- not your queries, but the query plan or the query execution on the fly, for performance reasons. Go just kind of got plugins a little bit -- we looked at that briefly, because there's so much you can do when you have data in a very processable format, like you do in a database or an index... And being able to bring processing to that data, complex processing, which has typically been the realm of complex query languages, like SQL... But to be able to do that in code and ship that code to the cluster, rather than shipping the data to the code, I think there's a lot of opportunities for distributed algorithms running on indexed data in the cluster, at scale. They could open up a lot of opportunities.
 
 **Brian Ketelsen:** I hadn't thought about that in a database context. I know MemSQL does that now - they compile your SQL statements down to pre-compiled SQL that they ship out to each of the nodes... That would be interesting from a Go perspective, because you could almost build a SQL executor that's smarter than just running SQL. You could build the membership and the awareness into the actual pre-compiled SQL statement.
 
@@ -122,7 +122,7 @@ I'm gonna have to play with that, I'm gonna have to think about that a little bi
 
 **Matt Jaffee:** Pretty close.
 
-**Break:** \[00:23:08.02\]
+**Break:** \[23:08\]
 
 **Erik St. Martin:** So first up, there is a new Go conference called Go Northwest that I just saw, that's at McCaw Hall in Seattle, at the end of July. That's [gonorthwest.io](http://gonorthwest.io/). It looks like it's a community-driven conference, it's $100 to get in... They haven't released speakers, but they have their CFP open.
 
@@ -160,7 +160,7 @@ I'm gonna have to play with that, I'm gonna have to think about that a little bi
 
 Now I have a -- I think I sent pictures out over Twitter, of this embedded board that has a small touchscreen LCD, and it has a Cortex M4 on it that I've been waiting to mess with our barbecue stuff on, and I was gonna have to do it in C and C++, but now I may have to play with Emgo.
 
-**Brian Ketelsen:** \[00:28:09.28\] Yeah.
+**Brian Ketelsen:** \[28:09\] Yeah.
 
 **Erik St. Martin:** Although I have the feeling that I will have to write a lot of my own direct memory access stuff for the screen if I want it to work...
 
@@ -190,7 +190,7 @@ Now I have a -- I think I sent pictures out over Twitter, of this embedded board
 
 **Brian Ketelsen:** Yeah... Truth. So I ran across a project that I got super excited about; I'm embarrassed about how excited I got about this project... It's gotop, and it's at [github.com/cjbassi/gotop](https://github.com/cjbassi/gotop). It's really just top, but written in Go, and it's written in one of those nice text UI libraries, so you get pretty boxes and graphs... It's prettier that htop, and it's got nice-moving text graphs on it. It makes me happy. So yeah, gotop, if you like watching the blinking lights. I'll put a picture in Slack and tweet it, because it's so pretty.
 
-**Matt Jaffee:** \[00:32:23.24\] That looks totally rad.
+**Matt Jaffee:** \[32:23\] That looks totally rad.
 
 **Erik St. Martin:** And while we're talking about distributed databases, [dqlite](https://github.com/CanonicalLtd/dqlite) is one that I came across too, which basically takes SQLite and turns it into a distributed SQLite cluster. I have not played with it yet, but I think that's cool.
 
@@ -232,7 +232,7 @@ What other interesting news did we have? Oh, I wanted to mention [Micro](https:/
 
 **Brian Ketelsen:** Exactly...
 
-**Erik St. Martin:** \[00:36:07.04\] Alright. So if we don't have any more projects and news, one of the things we like to do every week is give a shout-out to an open source project and/or maintainers... And this does not have to be Go, but just to make sure that we're showing love. We can do that in verbal form, giving shout-outs, or through Patreon... Who wants to go first for \#FreeSoftwareFriday?
+**Erik St. Martin:** \[36:07\] Alright. So if we don't have any more projects and news, one of the things we like to do every week is give a shout-out to an open source project and/or maintainers... And this does not have to be Go, but just to make sure that we're showing love. We can do that in verbal form, giving shout-outs, or through Patreon... Who wants to go first for \#FreeSoftwareFriday?
 
 **Brian Ketelsen:** I do, I do, I do! Pick me, pick me, pick me...
 
@@ -284,7 +284,7 @@ What other interesting news did we have? Oh, I wanted to mention [Micro](https:/
 
 **Brian Ketelsen:** Oh, my god...
 
-**Matt Jaffee:** \[00:40:10.13\] If you haven't seen any of those... She has one on [Syscalls](https://www.youtube.com/watch?v=01w7viEZzXQ) that I saw at GopherCon. It was just amazing the depth that she went into about how you can play with them in Go, and she's done stuff on ptrace and containers, and you always kind of come away with this feeling of zen-like understanding of what's going on in the operating system. It's really cool.
+**Matt Jaffee:** \[40:10\] If you haven't seen any of those... She has one on [Syscalls](https://www.youtube.com/watch?v=01w7viEZzXQ) that I saw at GopherCon. It was just amazing the depth that she went into about how you can play with them in Go, and she's done stuff on ptrace and containers, and you always kind of come away with this feeling of zen-like understanding of what's going on in the operating system. It's really cool.
 
 **Brian Ketelsen:** And she does it all off the cuff, too. I had to follow her at -- was it Golang UK last year...? And I was so mad, I was like "How the hell do you follow somebody who just goes up there and live-codes syscalls in Go on the spot, without even preparing for it?" I can't follow that. That's why [I had to put on a wig at GopherCon Russia](https://www.youtube.com/watch?v=MzTcsI6tn-0).
 
@@ -318,7 +318,7 @@ I love him for that right now, because I'm excited to play with that, but I also
 
 **Erik St. Martin:** Oh yeah, yeah.
 
-**Brian Ketelsen:** \[00:43:56.12\] I have a Go program that turns on and off my TV from the command line, and it's because it's got a freakin' open Telnet port... But I'll never tell you what port it is, because you guys can't control my TV.
+**Brian Ketelsen:** \[43:56\] I have a Go program that turns on and off my TV from the command line, and it's because it's got a freakin' open Telnet port... But I'll never tell you what port it is, because you guys can't control my TV.
 
 **Erik St. Martin:** [Nmap](https://nmap.org/)... \[laughs\]
 

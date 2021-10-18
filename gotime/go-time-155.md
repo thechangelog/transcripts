@@ -194,7 +194,7 @@ But if you need to do anything slightly more computational to prepare or maybe d
 
 **Mat Ryer:** You're absolutely brutal today.
 
-**Break:** \[00:25:51.19\]
+**Break:** \[25:51\]
 
 **Mat Ryer:** Okay, so what about some others? Anything else you feel like you would remove?
 
@@ -476,7 +476,7 @@ Again, it's part of the language; that doesn't mean you should avoid using it, a
 
 **Johnny Boursiquot:** Yeah.
 
-**Break:** \[00:48:25.26\]
+**Break:** \[48:25\]
 
 **Mat Ryer:** So this is quite a simple thing if you're new to writing Go; that is a little cognitive check just to do. There are definitely cases where the clearest thing is just a kind of five or six-line "if this, then set something else". Sometimes that logic is exactly what you need. But yeah, what happens if you don't protect against that, of course is - once you have 2-3 of these in a function, you really are nesting quite deep, and you're wasting a lot of tabs there. You don't need that many tabs in your code... It's a waste, so \[unintelligible 00:50:13.25\]
 

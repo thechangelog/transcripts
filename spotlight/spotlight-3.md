@@ -1,4 +1,4 @@
-**Jerod Santo:** \[00:00:31\] Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor at Changelog. OSCON London's biggest news by far was the launch of the JS Foundation, and I sat down with Kris Borchers, who's the executive director of the foundation, right after the big announcement, to learn all about it. Listen in!
+**Jerod Santo:** \[00:31\] Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor at Changelog. OSCON London's biggest news by far was the launch of the JS Foundation, and I sat down with Kris Borchers, who's the executive director of the foundation, right after the big announcement, to learn all about it. Listen in!
 
 \* \* \*
 
@@ -32,7 +32,7 @@
 
 **Kris Borchers:** Sure. This tagline that we've come up with is "Innovate together." In working through a lot of the messaging just in the last few days we came up with that. What we're trying to do is create this focal point or center of gravity for open source JavaScript. What we're trying to do is become the place where if you're looking for open source projects in the JavaScript space, or you have a project that either you as an individual need some help, it's kind of grown beyond what you expected and now you need help adding contributors and you're approaching that dreaded burnout... Or if you're an organization that has a project that you wanna get other organizations involved in, we sort of provide that neutral ground for companies to come and work together and contribute to projects.
 
-\[00:03:54.08\] Like I said, the overarching mission is to be this center point for open source JavaScript and provide a way to bring that innovating spirit that's in the JavaScript space; we see new projects coming up all the time in different areas, from client, to cloud, to IoT. We try to encourage that innovation, but in a place where it's more visible to the entire community, so that rather than reinventing the wheel all the time, maybe we find ways to contribute to the projects that are there and make them better, and make it a little bit more stable and sustainable, so that these projects that companies are building products on top of, or developers are depending on to be there, will be there for the long-term.
+\[03:54\] Like I said, the overarching mission is to be this center point for open source JavaScript and provide a way to bring that innovating spirit that's in the JavaScript space; we see new projects coming up all the time in different areas, from client, to cloud, to IoT. We try to encourage that innovation, but in a place where it's more visible to the entire community, so that rather than reinventing the wheel all the time, maybe we find ways to contribute to the projects that are there and make them better, and make it a little bit more stable and sustainable, so that these projects that companies are building products on top of, or developers are depending on to be there, will be there for the long-term.
 
 **Jerod Santo:** The JS Foundation has a lot of large sponsors, undoubtedly putting in lots of money to support these projects and all of the ones that the foundation deems suitable for membership... What is the disbursement -- is it basically like, the foundation receives funding and then the foundation just pushes that funding as it sees fit? Or is the funding and support -- we're not talking about cash for people working on it, or are we talking about that?
 
@@ -52,7 +52,7 @@ We provide travel assistance, so we will get a project's committer team together
 
 **Jerod Santo:** Yeah, which is an IoT thing, right?
 
-**Kris Borchers:** \[00:07:51.19\] Yeah, so it's an interesting orchestration tool. It's a way to map out your APIs within your application. It's really popular in the IoT space, but it has applications beyond IoT, as well. Then we also brought in a project called Interledger.js - that's an interesting new one... There's this Interledger protocol which is being worked on and promoted by Ripple, and it's the idea of being able to do payments and micropayments no matter the currency and across any providers.
+**Kris Borchers:** \[07:51\] Yeah, so it's an interesting orchestration tool. It's a way to map out your APIs within your application. It's really popular in the IoT space, but it has applications beyond IoT, as well. Then we also brought in a project called Interledger.js - that's an interesting new one... There's this Interledger protocol which is being worked on and promoted by Ripple, and it's the idea of being able to do payments and micropayments no matter the currency and across any providers.
 
 **Jerod Santo:** That's cool.
 
@@ -74,7 +74,7 @@ I keep thinking about Webpack, because I'm partial to Webpack I have a friend th
 
 **Jerod Santo:** Oh, that's interesting...
 
-**Kris Borchers:** \[00:12:01.08\] ...because then there's less for them to do, so then we may not need to pay them anymore.
+**Kris Borchers:** \[12:01\] ...because then there's less for them to do, so then we may not need to pay them anymore.
 
 **Jerod Santo:** I never saw it from that angle, that's interesting.
 
@@ -110,7 +110,7 @@ Within there there is a project lifecycle document, and there is an application 
 
 **Kris Borchers:** No... One of the things we haven't finalized - because we specifically wanted to leave this to the technical side of the house - are the general metrics they're going to follow when they admit a project. We didn't want that coming from the business side.
 
-**Jerod Santo:** \[00:16:10.23\] Gotcha.
+**Jerod Santo:** \[16:10\] Gotcha.
 
 **Kris Borchers:** So we don't have those metrics, but it's going to be, I would say, a pretty low bar, because we wanna support as much as we can. The real limiting factor will be mentors, and actually having boots on the ground that can go help a project work through the mentorship program.
 
@@ -138,7 +138,7 @@ Same thing for smaller companies. If you have a smaller organization and you're 
 
 There's different pricing structures and different benefits that come along with that. Our top-level members get a seat on our board of directors; the middle level, it's kind of a one board seat for every five, so that group of members just kind of decides amongst themselves who will represent them.
 
-\[00:20:02.15\] The top level has a flat fee, the middle level is kind of a tiered fee based on your employee size; we try to make it a little bit fairer, so that smaller companies can pay less, larger companies pay a little more.
+\[20:02\] The top level has a flat fee, the middle level is kind of a tiered fee based on your employee size; we try to make it a little bit fairer, so that smaller companies can pay less, larger companies pay a little more.
 
 Then we also have an associate level membership, and that's free. It's for non-profits and academic institutions, just to give them some recognition for teaching curriculum that involves our projects, or getting their students involved in open source, things like that.
 
@@ -174,7 +174,7 @@ We also have StackPath. I don't know if you're familiar with them...
 
 **Kris Borchers:** Our CDN provider was MaxCDN. MaxCDN was acquired by StackPath. They're working on a whole suite of products. Their first product is what they're calling SecureCDN, which is MaxCDN with some other security things added on top. They're still providing our CDN, and they're also funding us, as well.
 
-**Jerod Santo:** \[00:24:01.19\] Awesome. I'll stop you there, I'm sure there are plenty more that you could mention, as you're taxing your brain. It's too bad you can't see the booth from over here, they're all on the wall over there, and we're getting drowned down in some music... Closing thoughts, JS Foundation, into the future...?
+**Jerod Santo:** \[24:01\] Awesome. I'll stop you there, I'm sure there are plenty more that you could mention, as you're taxing your brain. It's too bad you can't see the booth from over here, they're all on the wall over there, and we're getting drowned down in some music... Closing thoughts, JS Foundation, into the future...?
 
 **Kris Borchers:** Like I said earlier, when you think of open source JavaScript, we want you to think of JS Foundation. The other thing I really wanna mention that I hadn't gotten a chance to is that in this process -- I think I mentioned we are a Linux Foundation collaborative project; we will be partnering with the Node JS Foundation, which is also a Linux Foundation collaborative project. So between the Node Foundation and ourselves, the goal there is to have sort of a single voice for JavaScript in those web standards processes, project mentorship, things like that. With that partnership, we wanna be the home for open source JavaScript.
 

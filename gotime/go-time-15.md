@@ -62,7 +62,7 @@ So I really love the depth of knowledge in these. It's not written at such a lev
 
 **Ben Johnson:** Yup, I agree.
 
-**Erik St. Martin:** \[00:03:55.18\] I think we need more content going through the standard library like that, and showing use cases. Because you can browse through Go Docs, and stuff like that, and look on the Go website, and look through these things, but that doesn't necessarily show you… We talked about Sourcegraph tool, right? When you start to use something, being able to see example use cases of these things. One example is I think Bill Kennedy had posted something about reading byte streams, and stuff like that - and this was just a couple days ago - and you've also got your post that was recent about using all the io readers and writers and TeeReaders and MultiWriters and stuff like that. It kind of drives that stuff home, right? It starts making people aware of these functions and packages that you might not have already been aware of.
+**Erik St. Martin:** \[03:55\] I think we need more content going through the standard library like that, and showing use cases. Because you can browse through Go Docs, and stuff like that, and look on the Go website, and look through these things, but that doesn't necessarily show you… We talked about Sourcegraph tool, right? When you start to use something, being able to see example use cases of these things. One example is I think Bill Kennedy had posted something about reading byte streams, and stuff like that - and this was just a couple days ago - and you've also got your post that was recent about using all the io readers and writers and TeeReaders and MultiWriters and stuff like that. It kind of drives that stuff home, right? It starts making people aware of these functions and packages that you might not have already been aware of.
 
 **Ben Johnson:** Yeah, for sure. You look at these packages and you see that the layout is alphabetical order, which is great if you know what you're looking for. It's been fun to break them down and understand… There's subcategories in these packages and what those look like. I think that helps to make it more relatable.
 
@@ -94,7 +94,7 @@ So I really love the depth of knowledge in these. It's not written at such a lev
 
 **Erik St. Martin:** It gets really hard, right? There's the common expression 'it's hard to change the wheels on a moving bus.' Especially the bigger projects, you start going down this road, and you're kind of trapped in it. It takes too much effort to change out the organization, and abstract things out the proper way. It becomes a massive effort. Getting off on the right foot is good.
 
-**Carlisia Thompson:** \[00:08:00.20\] I really liked when I saw... Ben gave a lightning talk at GopherCon and I was there, and I went, "Okay! This is what I'm talking about! I need to learn how to do this." Because a lot of the Go projects that I've seen, a lot of them have a model package, and I just cringe. I don't know why I cringe; I started to understand why now, after going through this learning.
+**Carlisia Thompson:** \[08:00\] I really liked when I saw... Ben gave a lightning talk at GopherCon and I was there, and I went, "Okay! This is what I'm talking about! I need to learn how to do this." Because a lot of the Go projects that I've seen, a lot of them have a model package, and I just cringe. I don't know why I cringe; I started to understand why now, after going through this learning.
 
 Then I look at the models, and they have model information, and they have database implementation information altogether, and I don't like that \[laughs\]. So I really, really like the way that Ben lays everything out, and separates everything. Recently, I laid out a project from scratch. I'm not super experienced with Go, but I thought about it for a long time, because I feel that I need to have things organized, and if I don't know where to put them, I don't know what it is that I'm doing, and I need to figure it out. It's just part of the process for me.
 
@@ -112,7 +112,7 @@ Then I look at the models, and they have model information, and they have databa
 
 **Erik St. Martin:** So talk to us about the motivation behind this series of posts. Is this something you're going to continue doing? And this is kind of like a side step from some of the things that you've been talking about, right? The first two GopherCons; the first one was writing high-performance databases, the second one was static code analysis, and now it's kind of like a shift into getting back to the basics, like project organization and library usage.
 
-**Ben Johnson:** \[00:12:02.20\] I think that I go from low level to high-level, and back again. I think that this structuring of projects and these high level concepts, they're kind of where I am now. I've been doing a lot more at the application level, and trying to figure out how that looks for Go applications. One thing that's always bothered me is when people say you can't write websites and web applications in Go, that it's an API thing, but it's not. You can't really build real web apps with it. I think there's now that sense of how you structure projects. I want to find a better way to do that. Part of it has been from doing stuff with Bolt. In my opinion, at least in our industry, we have containers, we have Kubernetes - which are great tools if you're at that scale, and you need super high uptime and crazy requirements, but I think for probably 90% of the applications out there, you could probably run on a single server fine and handle hundreds of thousands of requests per second, which is probably most people's load using something like Bolt, or some other key/value database. I'm trying to figure out how to simplify the stack and get away from traditional SQL databases, and things like that.
+**Ben Johnson:** \[12:02\] I think that I go from low level to high-level, and back again. I think that this structuring of projects and these high level concepts, they're kind of where I am now. I've been doing a lot more at the application level, and trying to figure out how that looks for Go applications. One thing that's always bothered me is when people say you can't write websites and web applications in Go, that it's an API thing, but it's not. You can't really build real web apps with it. I think there's now that sense of how you structure projects. I want to find a better way to do that. Part of it has been from doing stuff with Bolt. In my opinion, at least in our industry, we have containers, we have Kubernetes - which are great tools if you're at that scale, and you need super high uptime and crazy requirements, but I think for probably 90% of the applications out there, you could probably run on a single server fine and handle hundreds of thousands of requests per second, which is probably most people's load using something like Bolt, or some other key/value database. I'm trying to figure out how to simplify the stack and get away from traditional SQL databases, and things like that.
 
 **Erik St. Martin:** There is a lot of the whole 'fear of missing out' thing. All these new technologies come out and you want to feel that you need to use it.
 
@@ -132,7 +132,7 @@ Then I look at the models, and they have model information, and they have databa
 
 **Erik St. Martin:** You're in good company. We're all ex-Ruby on Rails people.
 
-**Ben Johnson:** \[00:16:07.13\] When you're doing simple web apps that don't need a lot of performance, Rails is pretty great. You just throw some migrations up there, and you just start typing, and you get all kinds of stuff for free. You're never really interacting with SQL at that low level. Go has some ORM tools; I haven't used any for quite a while. I'm not a huge fan of SQL databases. I used to be an Oracle DBA for years when I first started out, so I think SQL databases are really cool for certain applications, but the more I get into it, there's just this insanity of how we're sticking data in and out, and converting it, and doing this relational object impedance thing where the things that we do in our applications don't fit in the SQL Database.
+**Ben Johnson:** \[16:07\] When you're doing simple web apps that don't need a lot of performance, Rails is pretty great. You just throw some migrations up there, and you just start typing, and you get all kinds of stuff for free. You're never really interacting with SQL at that low level. Go has some ORM tools; I haven't used any for quite a while. I'm not a huge fan of SQL databases. I used to be an Oracle DBA for years when I first started out, so I think SQL databases are really cool for certain applications, but the more I get into it, there's just this insanity of how we're sticking data in and out, and converting it, and doing this relational object impedance thing where the things that we do in our applications don't fit in the SQL Database.
 
 You have to break it out, and then we recreate, rebuild it back again. Going through the whole idea of setting these strings over to a database, they have to get parsed, and they get optimized, they get saved in a query cache, and then they get planned, and all this stuff... There's so many crazy steps involved in using SQL… It's an everyday thing now, but if you really dive into it, and think about it, it's kind of nuts what we have to do to stick data into SQL databases, instead of say… I can say an object database, but even just -- like in the instance of Bolt. Serializing objects into bytes and saving those is relatively well understood, and an easy thing to do. I'm surprised that our industry hasn't done that more, going for these very simple tools.
 
@@ -150,7 +150,7 @@ So SQL came to light because SQL was sellable to business people. You could teac
 
 **Ben Johnson:** Yeah.
 
-**Erik St. Martin:** \[00:20:00.19\] I like the approach that we're starting to think about things differently. I like the idea of column-oriented databases, things like... Cassandra was a big one I kind of liked. You could have these really wide rows, and you could scan along them, and read in just as much of that as you wanted, and it kind of takes a new way of thinking about the problem. But these things are highly interesting, and most people aren't doing a lot of complex stuff with data, too. They can't just write they own little key/value logic over the top of.
+**Erik St. Martin:** \[20:00\] I like the approach that we're starting to think about things differently. I like the idea of column-oriented databases, things like... Cassandra was a big one I kind of liked. You could have these really wide rows, and you could scan along them, and read in just as much of that as you wanted, and it kind of takes a new way of thinking about the problem. But these things are highly interesting, and most people aren't doing a lot of complex stuff with data, too. They can't just write they own little key/value logic over the top of.
 
 **Carlisia Thompson:** I have to say that if you have used a NoSQL database and have experience and you can make tradeoff calculations, it's great. But if you don't have that much experience, and you want to know, "Okay, I have this data model, should I be looking at a NoSQL style or architecture?" It's really hard to figure that out, because you search on the internet - where else would you go? And there are all kinds of opinions in each and every way, and you just can't make up a decision. Without going through the experience, it's really hard to learn how to decide, okay, can I safely go in this direction? No, maybe I missed something; if you know how somebody decides to do, okay, I can safely go with NoSQL here, and I'll be fine down the road.
 
@@ -164,7 +164,7 @@ Choosing databases is hard, you really have to look at your data model and your 
 
 The things that I like specifically about key/value is that there's a lot of features that you think of that tend to be more around SQL databases, where it's like, "Oh, you have a schema!" A schema and a key/value store can be just a serialization library. ProtoBufs is actually a good serialization library, and they give you things like versioning, just really quick encoding and decoding, and you layer that on top of a key/value store, and you're starting to build your own database. It's simple, but that's a good thing.
 
-\[00:24:10.22\] Another thing, when you think about SQL and the SQL language - and I've done SQL for years, and I still find it to be really frustrating when you get down to more complex queries. Your query language when you're actually using a key/value store ends up being Go, which is awesome, because you can do anything you want in Go. So if you need to scan a table, or scan a set of keys and values, you can make an index inside of a key/value store... You can do all those things, and it's really just Go code underneath that's processing it. So you can do a lot to optimize. You no longer have these ideas like query planning. Your query planning is done before compile time, and you're writing the code to actually do the query.
+\[24:10\] Another thing, when you think about SQL and the SQL language - and I've done SQL for years, and I still find it to be really frustrating when you get down to more complex queries. Your query language when you're actually using a key/value store ends up being Go, which is awesome, because you can do anything you want in Go. So if you need to scan a table, or scan a set of keys and values, you can make an index inside of a key/value store... You can do all those things, and it's really just Go code underneath that's processing it. So you can do a lot to optimize. You no longer have these ideas like query planning. Your query planning is done before compile time, and you're writing the code to actually do the query.
 
 **Erik St. Martin:** There's little misses too, with people, with even indexing. The number of people that are surprised to find out that a single query only uses one index. You think it's the index-2 fields, and they're searching on both fields that somehow it does some sort of merge of those indexes and it makes things faster, and it's going to pick the best one and it could be wrong.
 
@@ -186,7 +186,7 @@ So I can agree that a key/value store is fantastic for my use case, but it becom
 
 **Ben Johnson:** He actually wrote an LSM tree with Bolt; like, there were multiple Bolts that were merged together at runtime. As far as key/value stores go, they tend to be either LSM trees, which are kind of like these LevelDB or RocksDB. They end up having these different levels of data storage, and they get merged at query time, and they get compacted and all kinds of stuff. They tend to be much more complicated, and there's B+ trees - like Bolt - which tend to be very simple databases. He actually used the B+ tree Bolt's to actually build up an LSM tree that would merge in. I thought that was nuts.
 
-**Brian Ketelsen:** \[00:28:17.11\] So how does that work? Is each level a Bolt database?
+**Brian Ketelsen:** \[28:17\] So how does that work? Is each level a Bolt database?
 
 **Ben Johnson:** Yeah.
 
@@ -220,7 +220,7 @@ When we say LSM, for anybody who's not aware, log-structured merge-tree, and it'
 
 **Ben Johnson:** It is a B+ tree, so as it gets larger, depending on how you structure your buckets inside, the accesses will get, I think login slower. Don't quote me on that. One of those O(n), big O notations. So it will start getting a little slower over time. As far as operationally, Bolt, the actual transaction itself implements io.Writer too, so you can actually send a Writer to it, in order to write out the whole database for you. I like hooking it up to HTTP; so if I just want to do a cURL command, I can just pull down the database. Obviously not a public endpoint, but it makes it really easy just to take snapshots.
 
-**Brian Ketelsen:** \[00:32:10.28\] Oh, nice.
+**Brian Ketelsen:** \[32:10\] Oh, nice.
 
 **Ben Johnson:** Yeah. Fully serializable, ACID, all that jazz.
 
@@ -276,7 +276,7 @@ It actually reminds me too, because there's a new database I saw come out too ca
 
 **Ben Johnson:** Yeah. The next one that's coming is the encoding package. Most people have never actually looked at the encoding package because there's only four interfaces, but I started breaking it out, and going to do some overviews of the other packages inside of there, and what encoding means, and it should work out pretty well.
 
-**Erik St. Martin:** \[00:35:48.22\] I think working with bytes and streams in the IO package is a really good place to start. Especially if people come from dynamic languages, they're highly used to just working with strings, so they're going to favor those a lot and create a lot of copies, and they're going to buffer a lot of stuff into memory when they don't need to, and they can kind of be copied across these… Pairing together these reader and writer interfaces. I think it's a fantastic place to start and to get people thinking about problems in a new way rather than read in all this data from some place, hold it in memory, and then write it out somewhere else.
+**Erik St. Martin:** \[35:48\] I think working with bytes and streams in the IO package is a really good place to start. Especially if people come from dynamic languages, they're highly used to just working with strings, so they're going to favor those a lot and create a lot of copies, and they're going to buffer a lot of stuff into memory when they don't need to, and they can kind of be copied across these… Pairing together these reader and writer interfaces. I think it's a fantastic place to start and to get people thinking about problems in a new way rather than read in all this data from some place, hold it in memory, and then write it out somewhere else.
 
 **Ben Johnson:** Yeah. Yeah, thanks.
 
@@ -312,7 +312,7 @@ I was trying to build the most efficient version I could, and then I kept ending
 
 **Erik St. Martin:** I think we got 10 or 15 minutes left; did you guys want to talk about anything else going on in the community or any interesting projects? I know I mentioned the noms database, I don't know if you've got a chance to look at that.
 
-**Ben Johnson:** \[00:40:04.21\] No, I haven't yet. Is that the one based on Git?
+**Ben Johnson:** \[40:04\] No, I haven't yet. Is that the one based on Git?
 
 **Erik St. Martin:** Yeah, that's exactly the one.
 
@@ -356,7 +356,7 @@ I was trying to build the most efficient version I could, and then I kept ending
 
 So I was looking at not ORMs and ORMs recently, and I found this today - it was actually in the Go newsletter, and I think I'm going to use it. It's not full-featured, it's not doing a lot of things that makes me scared. Being very new to Go, I don't think I can recognize enough to make decisions; my package is doing way too many things, I back off. That's my measurements right now. But I want to have a little functionality. I have an API that's going to have filters and parameters, and I want to just drop them into variables, put them inside the function, and voila. I don't want to be writing out SQL and doing a bunch of things by hand. I think I'll gain a little velocity, so I think I'm going to use this.
 
-**Brian Ketelsen:** \[00:44:20.21\] That's where people in the programming world always differ. There's a category of people that want to write their SQL perfectly tuned by hand, execute it, and then map those back into structures, and use them for whatever they need to. There's another category of people that doesn't want to think about the database in any way, shape, or form. And there's very little in the middle.
+**Brian Ketelsen:** \[44:20\] That's where people in the programming world always differ. There's a category of people that want to write their SQL perfectly tuned by hand, execute it, and then map those back into structures, and use them for whatever they need to. There's another category of people that doesn't want to think about the database in any way, shape, or form. And there's very little in the middle.
 
 **Carlisia Thompson:** Yeah.
 
@@ -378,7 +378,7 @@ There's this translation process, but for the most part if you get familiar with
 
 **Ben Johnson:** I wouldn't even necessarily say that. I think when you get into ORMs, unless you're generating the code… A lot of ORMs use a lot of interfaces, and you lose the type-safety, and you just get a lot of issues on that side. I think there's some fundamental issues from mapping objects to relational ideas that you just can't get around. Personally, I think you get around a lot of it if you use a local key/value store, but again, that's not for everybody. You get away from N+1 queries; they don't exist because you don't have to do fetches to a remote server. You don't have SQL injection, because you don't have SQL. I think it's a different mindset.
 
-\[00:48:07.29\] So I wouldn't say ORMs are the way to go. Personally, I would avoid SQL, if you can. But that's my own personal opinion.
+\[48:07\] So I wouldn't say ORMs are the way to go. Personally, I would avoid SQL, if you can. But that's my own personal opinion.
 
 **Erik St. Martin:** All key/value store, all the way.
 
@@ -412,7 +412,7 @@ But yeah, they've tried to make a simpler Paxos, if you want to think of it like
 
 **Erik St. Martin:** I love it, because it makes the topics a lot more approachable. For a lot of people who don't work in this space, you say 'distributed consensus' and their eyes immediately roll over, right? This is something that's completely unapproachable, it's only for Ph.D. candidates at MIT, Berkeley, or whatever. So I've seen the Paxos white paper, and then you see Raft; I remember seeing that. The PDF is 11 or 12 pages or something, that explains Raft, and I was like, "Wow this makes things much more approachable", and then I saw the Secret Lives of Data. I was like, "Well, this makes it even easier to just kind of…" It may not be enough to implement, but it's enough for people to understand how distributed consensus works, and things like that, and some of the problems along with it. And I saw on the GitHub that you had planned to talk about how Kafka works?
 
-**Ben Johnson:** \[00:52:06.00\] Yeah, that was my next one I was going to do. As far as seeing things… I feel like we have a lot of fancy words in our industry that typically mean really simple concepts, and I think when you can just see a concept... A lot of times it only takes five minutes to just visualize a concept, and be like "Oh, I totally understand how Kafka works, or distributed consensus." They're scary words, but it's really simple concepts underneath.
+**Ben Johnson:** \[52:06\] Yeah, that was my next one I was going to do. As far as seeing things… I feel like we have a lot of fancy words in our industry that typically mean really simple concepts, and I think when you can just see a concept... A lot of times it only takes five minutes to just visualize a concept, and be like "Oh, I totally understand how Kafka works, or distributed consensus." They're scary words, but it's really simple concepts underneath.
 
 **Brian Ketelsen:** Log-structured merge?
 
@@ -446,7 +446,7 @@ As far as Kafka, I started working on that, and I've tried a lot of different me
 
 So with that, Brian, do you want to go first?
 
-**Brian Ketelsen:** \[00:55:48.01\] Yeah, I'll kick it off with Minikube; github.com/kubernetes/minikube. K-U-B-E. It's a really fast and easy way to get you going on a Kubernetes cluster on your local laptop, which is awesome if you don't want to run 17 VMs to have a cluster. Very nice, simple, lightweight, easy way to get going.
+**Brian Ketelsen:** \[55:48\] Yeah, I'll kick it off with Minikube; github.com/kubernetes/minikube. K-U-B-E. It's a really fast and easy way to get you going on a Kubernetes cluster on your local laptop, which is awesome if you don't want to run 17 VMs to have a cluster. Very nice, simple, lightweight, easy way to get going.
 
 **Carlisia Thompson:** I can go next. First, let me mention that library I was talking about, it's upper.io/database.
 

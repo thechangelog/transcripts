@@ -20,7 +20,7 @@ But we have a show for you today, and as always, awesome panelists. Welcome back
 
 **Jerod Santo:** There you have it. So for this show today we have a few new things; we always like to experiment here on the show, and find out what works well, what doesn't work well... You know, that old-fashioned iteration that we developers love so much. So I've kind of ginned up a few new segments that we're gonna give a try. If you like these, let us know. If you think these are the worst ideas ever after having listened to them, please tell us. We want a show that is good, not necessarily a show that is just new and unique.
 
-\[00:03:48.19\] We're gonna try out a few different things this week and see how it goes. The first segment we are calling Story of the Week. Now, the way this works is we have all found different stories around the ecosystem throughout the week, maybe even going back a little bit further than a week, no big deal... But what's the biggest thing that happened this week or the most important news? Maybe just to you personally, maybe for everybody involved.
+\[03:48\] We're gonna try out a few different things this week and see how it goes. The first segment we are calling Story of the Week. Now, the way this works is we have all found different stories around the ecosystem throughout the week, maybe even going back a little bit further than a week, no big deal... But what's the biggest thing that happened this week or the most important news? Maybe just to you personally, maybe for everybody involved.
 
 We will all share a new story, and we will try to convince one another why it's a big deal, why it's important, why perhaps it's the story of the week. So let's give it a shot, Nick, you are up first, my friend. What's your story of the week?
 
@@ -36,7 +36,7 @@ The other cool thing that it does is it -- anything that's not in your sources d
 
 **Christopher Hiller:** I'm just looking at this now, and this thing actually looks pretty cool. At first, I was like, "Well, what's the difference between this and just using Chrome DevTools?", but it looks like it definitely streamlines things. If you want to debug tests, say, in Mocha, and you wanna do that with Chrome DevTools, you have to call the -- not Mocha executable, but the \_mocha executable, because this is a child process that Mocha launches... And you can't just attach to Mocha, because the inspector won't know that you're actually running your tests in the child process... But if this thing actually works - I haven't tried it, but I'm looking at the interface... Yeah, that's awesome. This is really going to make things a lot easier for a lot of people.
 
-**Nick Nisi:** \[00:08:14.16\] Yeah, definitely. And I love that it's Google Chrome Labs, so it's - I would assume - going to be well supported going forward.
+**Nick Nisi:** \[08:14\] Yeah, definitely. And I love that it's Google Chrome Labs, so it's - I would assume - going to be well supported going forward.
 
 **Kevin Ball:** I don't know if you can assume that from Google...
 
@@ -72,7 +72,7 @@ So Babel doesn't want this to happen, because I think they feel like they are pa
 
 So that's kind of a big change... There is a tool that they wrote to help you upgrade to Babel 7 from (I assume just) version 6, where they probably will go and see which stage presets you're using, and actually go and change all your stuff to use the individual plugins.
 
-\[00:12:17.20\] It does stuff like -- there's all sorts of things. It changes a bunch of dependencies, it modifies -- if you're using Babel with Mocha, it will find that in your package.json, which is really neat, and it'll change some of the module names.
+\[12:17\] It does stuff like -- there's all sorts of things. It changes a bunch of dependencies, it modifies -- if you're using Babel with Mocha, it will find that in your package.json, which is really neat, and it'll change some of the module names.
 
 They're now going to publish all of their modules, because you know, there's hundreds of Babel modules. They're gonna use the @babel scope namescape now at Npm... So you're gonna be using that, instead of babel-loader, or whatever, babel-register, you're gonna use @babel/register.
 
@@ -100,7 +100,7 @@ So I'm excited for this to get out, so that things become less confusing around 
 
 **Christopher Hiller:** I sympathize, but... yeah.
 
-**Jerod Santo:** \[00:15:53.06\] Definitely sympathize. I thought they did have some success, at least, on Open Collective, in terms of corporate sponsorship, but surely nothing that's driving full-time -- well, maybe they are. I don't know.
+**Jerod Santo:** \[15:53\] Definitely sympathize. I thought they did have some success, at least, on Open Collective, in terms of corporate sponsorship, but surely nothing that's driving full-time -- well, maybe they are. I don't know.
 
 **Christopher Hiller:** I think Henry has a Patreon, or something... He's basically working on open source full-time now. But you know, you can have all the money in the world, and if you don't have -- you know, there's 24 hours in a day, so if you're the only person working on it, there's only so much you can do. Or if people don't have time to dedicate, you can be flushed with cash and not be able to get much done, because you know, time...
 
@@ -120,7 +120,7 @@ There are pros and cons to this, but it got me thinking a lot about the people w
 
 So this resparking of the interest in -- you know, we actually need to cut down, we need to have a JavaScript budget, we need to think about the impact of all of these millions of libraries we're pulling in... Code-splitting is a nice thing and our tooling is improving for that, but having all of these things front of mind when we're developing, if we're developing things that are not just for folks who are in countries with ridiculously fast internet access... Which the U.S., even though -- well, actually I don't know about the rural parts of the U.S. Certainly in California, even with just mobile access, it's ridiculously fast. 4G LTE is wicked fast... But not everybody has that.
 
-**Jerod Santo:** \[00:20:18.06\] Yeah, this is something that's been on the top of my mind recently... We had Ben Halpern on The Changelog this week, talking about dev.to, which is a developer community platform he founded; you may know him as @ThePracticalDev on Twitter... And he's taken huge steps to make dev.to very fast, but not just fast in the Americas, but fast all around the world. He's really leveraging CDNs in order just to bring his content as close to the users as possible... And it made me rethink a little bit of some of our architecture. We try to make Changelog.com as fast as possible and as accessible as possible as well, and I think we're doing a pretty good job on that, but we definitely have the speed of light problem, having America-based server, and we can serve those pages really fast, but latency is just something we cannot solve. Of course, we CDN all of our assets, but I'm referring to rendered pages.
+**Jerod Santo:** \[20:18\] Yeah, this is something that's been on the top of my mind recently... We had Ben Halpern on The Changelog this week, talking about dev.to, which is a developer community platform he founded; you may know him as @ThePracticalDev on Twitter... And he's taken huge steps to make dev.to very fast, but not just fast in the Americas, but fast all around the world. He's really leveraging CDNs in order just to bring his content as close to the users as possible... And it made me rethink a little bit of some of our architecture. We try to make Changelog.com as fast as possible and as accessible as possible as well, and I think we're doing a pretty good job on that, but we definitely have the speed of light problem, having America-based server, and we can serve those pages really fast, but latency is just something we cannot solve. Of course, we CDN all of our assets, but I'm referring to rendered pages.
 
 So something that's very important, and often - like you said, Kevin - we just don't think about it very much, maybe because we're on fast networks, but also maybe because we're just geographically close to AWS's us-east-1, where most of the internet gets served from, right?
 
@@ -138,7 +138,7 @@ They've preconfigured hot module replacement, code-splitting, tree-shaking, effi
 
 What happens a lot of times when you have tools that kind of wrap other tools is they will hide, they will sweep all of the complexity under the table, which is what we want, right? Because we don't wanna deal with the complexity; we wanna provide a better experience. But then when it comes time and you actually get to using it and you actually need to reach underneath the table and tweak that thing, you either have to eject, which is basically say "Okay, I'm no longer going to stick with this tool. I'm going o stop the world and fork it, or vendor it", or something like that... Or you just don't have the option; you just can't reach underneath the hood and tweak things as you will.
 
-\[00:24:17.16\] So they've taken great pains to make this configurable, with no need to eject, which I know is hard to do, and an admirable goal, so... Hopefully they've achieved it. It definitely looks very good. We'll link up the announcement post. This seems like big news. I'm not a Vue user; KBall, I thought maybe I would steal this one from you when I put it into the document, because I know you've been using Vue quite a bit lately, and I thought maybe this one would be on your radar...
+\[24:17\] So they've taken great pains to make this configurable, with no need to eject, which I know is hard to do, and an admirable goal, so... Hopefully they've achieved it. It definitely looks very good. We'll link up the announcement post. This seems like big news. I'm not a Vue user; KBall, I thought maybe I would steal this one from you when I put it into the document, because I know you've been using Vue quite a bit lately, and I thought maybe this one would be on your radar...
 
 **Kevin Ball:** Yeah, there's actually something pretty interesting about it too that you didn't cover yet, which is that it adds a GUI access to a lot of the CLI pieces. So it gives you within the ecosystem -- like if you're installing plugins, normally you just do that on the CLI, Npm etc; it lets you do a lot of that stuff from a GUI and manages the configuration, and updating your package.json and all that sort of thing... Which to me personally - I couldn't care less, because I'm a terminal guy...
 
@@ -174,7 +174,7 @@ As for my pitch - I wanna pitch this as the story of the week, and here's my two
 
 **Jerod Santo:** \[laughs\]
 
-**Break:** \[00:28:22.11\]
+**Break:** \[28:22\]
 
 **Jerod Santo:** Okay, next up we are going to do a segment called WHAT...WG. I'll just say that again, because it's fun: WHAT...WG. The idea here is that we are going to discuss some of the stuff that WHATWG has been up to lately. For those who don't know what the WHATWG is - it stands for the Web Hypertext Application Technology Working Group... Which is why they use an acronym, because nobody wants to say that five times fast.
 
@@ -184,7 +184,7 @@ It's a community of people interested in evolving the web through standards and 
 
 So in 2004, a bunch of browser vendors kind of banded together and said "Well, you know what? Y'all are failing us, because you're trying to do this in a way that's not gonna keep the value prop of the web. We're gonna create our own specification." And they kind of tried to work together, but they had very different approaches to it. W3C likes to kind of create frozen specifications. So if you remember the whole "We're gonna have HTML5, and that's gonna be the new version of HTML5 and it's gonna be frozen" - that was what W3C wanted... And WHATWG said, "You know what, we're changing all the time. This should be a living standard. We should be constantly evolving it." So they've kind of split in different ways, and the split was a little bit -- this was a bad breakup, in a lot of ways...
 
-**Jerod Santo:** \[00:32:22.03\] Well, breaking up is hard to do.
+**Jerod Santo:** \[32:22\] Well, breaking up is hard to do.
 
 **Kevin Ball:** Breaking us is hard to do... If you start looking through forum stuff or GitHub issues or things where the standards are being debated, there's a lot of bad blood, as far as I can tell.
 
@@ -206,7 +206,7 @@ With that in mind, let's talk about a couple of things here. The first one is th
 
 Now, if you're on Lighthouse or any sort of performance tool, one of the very first recommendations they will say is you should be lazy-loading off-screen images. For example, Changelog.com has a whole bunch of avatars and images on the news feed or news items that you may never scroll down to... And when you load our page, the browser is going to go down and fetch all of those images into the page, no matter what... Unless you tell it not to. Unfortunately, there's no built-in way to tell it not to. You have to basically do some JavaScript, which I think is a very big hack, which includes not adding the src attribute to your image tags until the JavaScript adds it for you, basically... And there's lots of ways of doing this; the most modern way is to use Intersection Observer, which as we've learned lately, has some issues, as well. But this is something that pretty much every website wants to do in terms of performance - we have 75 images, and the user has only seen three of those. Do not waste time and bandwidth downloading all those images.
 
-\[00:36:14.13\] I've been complaining for a while now, as I want to do - just to complain, mostly to Adam and other members of the Changelog development team... Why is this not a browser feature? Every browser performance tool says "You should be doing this." Pretty much every website wants it, and then everybody has to go implement it for themselves, which sucks.
+\[36:14\] I've been complaining for a while now, as I want to do - just to complain, mostly to Adam and other members of the Changelog development team... Why is this not a browser feature? Every browser performance tool says "You should be doing this." Pretty much every website wants it, and then everybody has to go implement it for themselves, which sucks.
 
 **Christopher Hiller:** Jerod, you said you had to do it with some sort of observer, or something... Is that what you said? Intersection...
 
@@ -236,7 +236,7 @@ So that's a modern way of doing it... People have been doing this for years, bec
 
 **Kevin Ball:** Jerod, do you know how they manage the ongoing split of things between W3C and WHATWG? Because HTML ended up in WHATWG, but CSS is in W3C working groups, and JavaScript things seem to be split randomly across the two... \[laughter\] Do you have any sense of like who--
 
-**Jerod Santo:** \[00:40:10.13\] Yes, I don't know the politics... I feel like maybe if we had Feross on this episode, or maybe even Alex would know the actual split-out. I know what WHATWG works on - like you said, HTML, the DOM, Fetch... These different things; they have a list of like "These are our territory. URL streams, storage...", and then like you said, CSS is on the W3C side; I'm not sure what else is on the W3C side... But you would think that you would want all of these things to be worked on together, because why have CSS in a silo? It seems like that's not good... But no, I do now know why or how that all shook out.
+**Jerod Santo:** \[40:10\] Yes, I don't know the politics... I feel like maybe if we had Feross on this episode, or maybe even Alex would know the actual split-out. I know what WHATWG works on - like you said, HTML, the DOM, Fetch... These different things; they have a list of like "These are our territory. URL streams, storage...", and then like you said, CSS is on the W3C side; I'm not sure what else is on the W3C side... But you would think that you would want all of these things to be worked on together, because why have CSS in a silo? It seems like that's not good... But no, I do now know why or how that all shook out.
 
 **Kevin Ball:** Well, and different JavaScript are split across the two, I think... Audio APIs and things like that are in W3C, but XHTML requests are in WHATWG; the notifications API is WHATWG... Yeah, it seems pretty random from the outside.
 
@@ -258,7 +258,7 @@ One other example I wanted to pull in - we had the image lazy-loading, which is 
 
 The autocapitalize attribute is in iOS, specifically on input fields. You can set autocapitalize equal to true or whatever the values are, and it will instruct the device's keyboard to capitalize first words and whatnot on behalf of the user... Because on mobile devices - you know, these things are more cumbersome.
 
-\[00:44:13.06\] So Apple just added that. They didn't ask anybody's advice, they didn't put it out there as "This is something everybody should do." They've just put it in iOS, and I think it's been there for years... But it doesn't exist anywhere else; it's just there. But iOS is a big enough market share, and so therefore Mobile Safari has enough people using it that it became something that the developers have been adding to their sites. Does anybody use this attribute or had to deal with it?
+\[44:13\] So Apple just added that. They didn't ask anybody's advice, they didn't put it out there as "This is something everybody should do." They've just put it in iOS, and I think it's been there for years... But it doesn't exist anywhere else; it's just there. But iOS is a big enough market share, and so therefore Mobile Safari has enough people using it that it became something that the developers have been adding to their sites. Does anybody use this attribute or had to deal with it?
 
 **Kevin Ball:** No...
 
@@ -290,11 +290,11 @@ Interesting just seeing the ins and outs of such a small thing. It's a single at
 
 **Kevin Ball:** The improvements in the way that we deal with specifications and updates and the fact we now have browsers that are evergreen and are all (more or less) collaborating - I feel like that is an under-noticed reason why the web has become so powerful. We've gotten so much better as an industry at working together to improve these things... But it is often just behind the scenes.
 
-**Jerod Santo:** \[00:48:11.27\] Good point. Yeah, it's definitely gotten better, and I think the workflows specifically around GitHub - a lot of these things have been transparent for a long time, but there's something about a common platform that everybody knows how to use and is very accessible that makes them more transparent.
+**Jerod Santo:** \[48:11\] Good point. Yeah, it's definitely gotten better, and I think the workflows specifically around GitHub - a lot of these things have been transparent for a long time, but there's something about a common platform that everybody knows how to use and is very accessible that makes them more transparent.
 
 I would have never in the past dug into this stuff, but the fact that it's like "Oh, just the GitHub issues... Start reading them. Here's the labels..." - it all is very familiar; I feel like the transparency and the -- even though they're driven very much by the big players, the ability for people to get involved is better than ever.
 
-**Break:** \[00:48:55.03\]
+**Break:** \[48:55\]
 
 **Jerod Santo:** Alright everyone, it is now Protip Time. This is where we share our pro tips; it's pretty straightforward. Whether or not we're actual pros, that's for you to decide. These could be life hacks, they could be lessons learned from doing dumb things... Not that you would do that, but I surely have done some dumb things... And let's share them, so other people can learn and perhaps take away things and avoid fails, if possible.
 
@@ -302,7 +302,7 @@ Chris, pro tip time.
 
 **Christopher Hiller:** I have some pro tips... I use a Mac. If you use a Mac, maybe a thing you need to do is copy and/or paste text files (source files or what have you) in their entirety. I discovered not too long ago - maybe this is one of those things that everybody knows except me, but I discovered that there were actually a couple command line tools that come in Mac OS that help you do just this thing. They are pbpaste and pbcopy.
 
-\[00:52:16.24\] Pbpaste outputs to a standard out. It takes whatever is in the clipboard, and it sends it to standard out so you can pipe it to whatever you wanna pipe it to. Maybe you wanna pipe that to a file, and so if you copy some source and then you go to your command line and you say pbpaste, and then you do a write -- I don't even know if that's less than or greater than \[laughs\], but you're piping to the right with the direction, and you say foo.js... It will paste the contents of your clipboard into a new file, foo.js.
+\[52:16\] Pbpaste outputs to a standard out. It takes whatever is in the clipboard, and it sends it to standard out so you can pipe it to whatever you wanna pipe it to. Maybe you wanna pipe that to a file, and so if you copy some source and then you go to your command line and you say pbpaste, and then you do a write -- I don't even know if that's less than or greater than \[laughs\], but you're piping to the right with the direction, and you say foo.js... It will paste the contents of your clipboard into a new file, foo.js.
 
 I wrote a little tiny Zsh function called Paste, which does just this - it takes its first parameter and it says 'pbpaste', and it writes to this new file. So I say 'paste foo.js', it takes whatever is in my clipboard and throws it in a new file, foo.js.
 
@@ -320,7 +320,7 @@ I feel like if you do a lot of coding, maybe you recognize that sometimes you ge
 
 A lot of popular music, or even maybe you listen to -- I don't know, techno, or trance, or something with that beat... It kind of drives you forward to help, but maybe sometimes that type of music is a little too engaging, and the brain.fm music is like Techno Elevator music, or something... It's really interesting; you just throw it on the background, forget about it... And it helps me focus. Check that out, it's cool.
 
-\[00:56:31.27\] The last thing - there is a thing called Astral. If you're like me, you have a million GitHub stars and you may be like "What was that thing I was thinking of? How do I find it?" I don't even know how to do that with GitHub... So there's this app called Astral App. It's astralapp.com. It's just like an OAuth style GitHub app, and it helps you manage and view all your stars, and you can even tag your stars into categories, and it sorts stuff by language, and it's really neat.
+\[56:31\] The last thing - there is a thing called Astral. If you're like me, you have a million GitHub stars and you may be like "What was that thing I was thinking of? How do I find it?" I don't even know how to do that with GitHub... So there's this app called Astral App. It's astralapp.com. It's just like an OAuth style GitHub app, and it helps you manage and view all your stars, and you can even tag your stars into categories, and it sorts stuff by language, and it's really neat.
 
 So if you are like me and have a lot of stars, check out Astral App, and that will help you manage them and find things. Those are my pro tips.
 

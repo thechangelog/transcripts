@@ -10,7 +10,7 @@ So long story short, I listened to this podcast and I was like "Oh wow, Backstag
 
 **Adam Stacoviak:** Yeah... Gosh. Jerod and I even -- I mean, I felt so fortunate to have that conversation with \[unintelligible 00:03:57.00\] and... You know, I'm just sitting there, like, a-ha moment after a-ha moment, listening to this show... Because as they explain what Backstage not only does for their infrastructure - and by the way, this show is not particularly about that, but we're covering that at least a little bit... So listeners, that episode was \#415, go back and listen to it... But several a-ha moments. And I'm just kind of seeing how it was a social network, and how it enabled things... It was just like this very easy lever thing inside of an organization.
 
-\[00:04:29.00\] And I guess one thing we uncovered in that show was really at scale. Because small orgs may not benefit so much from Backstage. It's large orgs like Uber or Shopify or Spotify, or inside of Google even - that's really where you see these kinds of things thrive... Which, to some degree, points back to some of your history. You've been an engineering manager, you've written a couple of books, you've done some pretty cool stuff. Maybe we can begin there. Maybe we can start with what you've been doing over the last several years, what you have been working on.
+\[04:29\] And I guess one thing we uncovered in that show was really at scale. Because small orgs may not benefit so much from Backstage. It's large orgs like Uber or Shopify or Spotify, or inside of Google even - that's really where you see these kinds of things thrive... Which, to some degree, points back to some of your history. You've been an engineering manager, you've written a couple of books, you've done some pretty cool stuff. Maybe we can begin there. Maybe we can start with what you've been doing over the last several years, what you have been working on.
 
 **Gergely Orosz:** Yeah, let's start there. I'll go back to where I started, which was a long time ago... I'm originally actually from Hungary. I lived a couple of years in the U.S. I've been all over the place, but I graduated in Hungary at university, computer science degree... And funny enough, my first few years of college, I hated software development in terms of coding.
 
@@ -28,7 +28,7 @@ Throughout all these places I just had a lot of professional growth. I changed s
 
 **Adam Stacoviak:** Not often do you hear somebody leaving a position like that or a company like that to write a book... But then the caveat there is to start a startup, too. So where are you at in that phase? I know you've written a couple of books. We'll talk about one that's coming out next year; we could talk about where you are at in both of those phases in terms of promotion of the current one out, or the written material for the future one... And then maybe startup ideas. I know you'd mentioned at the beginning of this show Backstage and some of these side conversations as a result of that conversation we had around it... But where are you at, I guess, on the latter front, versus the former front? So not on your books, but your startup idea - where are you at there?
 
-**Gergely Orosz:** \[00:08:16.22\] The way I think about startups is... When I entered the industry -- I have a brother, and we have two very different paths. He's a younger brother. He always had startups. Out of uni, he already had a startup. We collaborated very briefly, but his startup took off. This startup was an agency initially. It got acquired later by Skyscanner, and there was a brief time where we worked at the same company, which was a really interesting conversation. His company just got acquired by Skyscanner for a -- it was a great exit for him and his co-founders... And the very next day I get a phone call from a recruiter who I knew, telling me "Oh, we just acquired this company at Skyscanner, and we wanna hire you to head up mobile development there." I'm like, "No... What?! The CEO is my younger brother, and I'm not gonna report to that guy."
+**Gergely Orosz:** \[08:16\] The way I think about startups is... When I entered the industry -- I have a brother, and we have two very different paths. He's a younger brother. He always had startups. Out of uni, he already had a startup. We collaborated very briefly, but his startup took off. This startup was an agency initially. It got acquired later by Skyscanner, and there was a brief time where we worked at the same company, which was a really interesting conversation. His company just got acquired by Skyscanner for a -- it was a great exit for him and his co-founders... And the very next day I get a phone call from a recruiter who I knew, telling me "Oh, we just acquired this company at Skyscanner, and we wanna hire you to head up mobile development there." I'm like, "No... What?! The CEO is my younger brother, and I'm not gonna report to that guy."
 
 **Adam Stacoviak:** \[laughs\]
 
@@ -50,7 +50,7 @@ It's also very unusual. Very few people do that... And I'm also kind of thinking
 
 You'd mentioned in particular inside of Uber you saw some things happening... Can you be specific about, I suppose, the ease at which you were building certain things, or innovating certain things, and it made you feel that "I could do this on my own. I could do that." What were some of those things for you?
 
-**Gergely Orosz:** \[00:12:01.11\] I'll give an example. I'm not gonna narrow it down exactly... Let me actually talk about a story which is not a secret, and I think it's a good one. It was a long time ago, and it's really typical of how you feel. So before I joined Uber, I was thinking that if you do a startup, and "Oh my God, what happens if it takes off?" and you're not ready - that's probably the worst feeling. You're not ready to scale, you don't know what to do next; you're probably doomed. And I would have been super-stressed; I would have been really careful to not get into that position.
+**Gergely Orosz:** \[12:01\] I'll give an example. I'm not gonna narrow it down exactly... Let me actually talk about a story which is not a secret, and I think it's a good one. It was a long time ago, and it's really typical of how you feel. So before I joined Uber, I was thinking that if you do a startup, and "Oh my God, what happens if it takes off?" and you're not ready - that's probably the worst feeling. You're not ready to scale, you don't know what to do next; you're probably doomed. And I would have been super-stressed; I would have been really careful to not get into that position.
 
 When I was at Uber, we had this product called Cash. TK, the CEO of Uber, when he founded Uber, he had two baselines. One, "We're never gonna use cash." Two, "We're never gonna tip." Because he hated those two things about cabs in San Francisco.
 
@@ -70,7 +70,7 @@ Before that, I \[unintelligible 00:15:09.16\] Not all of it, but some of it was 
 
 So I just had a lot of these first-hand experiences, and I think it's different when someone sees it... And I now look at the Hacker News crowd or the forum crowd who give you couch architecture lessons of like "Oh, why is Uber having 5,000 microservices?" or "Why don't they just rewrite it?" It's very different on the ground, and it doesn't really matter what anyone thinks; as long as you're solving your problems, you're fine. If you're going fast, you're going to solve your problems, I guarantee that. And I've seen this, so I guess I don't have that fear from this.
 
-**Adam Stacoviak:** \[00:16:03.28\] Yeah.
+**Adam Stacoviak:** \[16:03\] Yeah.
 
 **Gergely Orosz:** The only fear I have now is "What if it doesn't take off?" and that's a different problem to have.
 
@@ -98,11 +98,11 @@ A good example - if you look back at what engineers did at Google ten years ago.
 
 So one of the advantages I see at Uber, and in the industry as a whole - and this is like an open secret, or some ideas to listeners - is there's a huge shift; all these companies, all tech companies are investing huge in platform teams. I saw it at Uber, Stripe, Airbnb... They have a good 10%-20% of their engineers doing platform work. This means infrastructure, or building stuff -- they're filling gaps for the tools that don't exist today, because the technologies move so fast... From containers, to mobile architecture, to analytics, all that stuff. And I see that in 3-5 years there's gonna be tools that you can buy, and a lot of companies will want to buy; Uber would buy, if there was. And those tools need to be built.
 
-\[00:20:07.02\] So what I'm doing is I'm actually looking at the market, and I'm doing more talking with both founders, people working at companies to see what these pain points are and validate that the stuff I saw at Uber is not just a one-off; I don't wanna build something that can only be useful for Uber.
+\[20:07\] So what I'm doing is I'm actually looking at the market, and I'm doing more talking with both founders, people working at companies to see what these pain points are and validate that the stuff I saw at Uber is not just a one-off; I don't wanna build something that can only be useful for Uber.
 
 So that's where I'm at... It's the idea gathering phase, and just validating some stuff in the industry, and talking with people who are also thinking about similar platform stuff... And my plan is that about 3-4 months I'll start into narrowing down the ideas, and then potentially take it from there; maybe building a prototype, maybe raising funding.
 
-**Break:** \[00:20:46.08\]
+**Break:** \[20:46\]
 
 **Adam Stacoviak:** So four years you were at Uber, if I can understand your story correctly; correct me if I'm wrong, but four years, give or take a month or two you were there, enjoying it, leveling up in many ways, as you mentioned... And then you decide to step away, so exit that team, do something different... From what I understand, one of the things you're gonna do is you've got one book written, but you've got another one coming up in 2021. That one is titled "Growing as a developer."
 
@@ -118,7 +118,7 @@ And what I told myself before I joined Uber as well - if I have the option at so
 
 And the other option was to stay at Uber and keep working with the team, keep leveling up to the next levels. As I reflected on what I really like doing, the most fun I had at Uber and previous places was always working with a small team, and getting something done against the odds.
 
-\[00:23:59.06\] When I joined Uber - this memory is very vivid - we were a small team and we had this giant project; we were writing the Uber app and doing a lot of our part in it, which was just almost a death march. But it really bonded the team. We somehow got it done.
+\[23:59\] When I joined Uber - this memory is very vivid - we were a small team and we had this giant project; we were writing the Uber app and doing a lot of our part in it, which was just almost a death march. But it really bonded the team. We somehow got it done.
 
 I'm really fond of the first maybe few years at Uber, where I had a small team. I was not as experienced as a manager; the engineers around me were not as experienced as engineers working in this environment... And we had so much fun, and we got a lot of things done.
 
@@ -144,7 +144,7 @@ So whenever you leave a company, like -- I've seen people, especially when they 
 
 **Adam Stacoviak:** Reputation is everything. Even beyond reputation, which is self-serving, being a good human being pays dividends. Be kind. And how do you exit and be kind? Well, you don't leave -- I mean, you can't fix all your bugs, right? But you can at least mend or unify or be clear about any relationship. Like, "I'm leaving for these reasons..." Or just when you're in the process of leaving, you're like "Hey, I'm not checked out. I'm still involved. I wanna make sure that this team, or this manager, or this boss, this group, this cohort etc. is in a good place." And if there's any questions I have that are sort of like encapsulated in me - because do get a lot of domain knowledge that sort of like gets stuck inside of us...
 
-\[00:27:59.02\] We've had a couple of shows recently where it's like, that process of sharing that knowledge is storytelling... To let them know that "Hey, if you have some questions, I'm here. I'm all ears. Let me know, I'd be glad to walk you through the details or whatever it might be." I'm assuming you did that, based upon what you've just said... Is that a rough gauge of how you mapped out your exit? Like "Hey, I went to different people and made myself available, made it known what my intentions were..."
+\[27:59\] We've had a couple of shows recently where it's like, that process of sharing that knowledge is storytelling... To let them know that "Hey, if you have some questions, I'm here. I'm all ears. Let me know, I'd be glad to walk you through the details or whatever it might be." I'm assuming you did that, based upon what you've just said... Is that a rough gauge of how you mapped out your exit? Like "Hey, I went to different people and made myself available, made it known what my intentions were..."
 
 **Gergely Orosz:** Well, yeah, so I did a bit more than that, because me leaving Uber -- it was a bit easier, because a year ago (well, in terms of process) I took a parental leave. I had my second child born, and Uber had this brand new policy which is four months off for dads. You can take four months, and you can take it in two portions; you can do one month plus three months, or two plus two... And I hesitated for a while, but I decided to take the whole four months in one go. And before that, my team had a lot of stuff going on, so I actually made a structured plan of how to hand over, who's gonna take over what part of my job... So that helped.
 
@@ -164,7 +164,7 @@ And by the way, what I realized there - I thought that by me leaving for four mo
 
 And the same thing with holidays. If you're a leader or if you're a senior engineer, just take 2-3 weeks of holiday, and do not answer anything, and see what happens. I'm pretty sure you're gonna be surprised positively.
 
-**Adam Stacoviak:** \[00:32:04.24\] You got two books; one that's in progress, as I understand, one that's out. The Tech Resume Inside Out is the one that's out. When did you write that book?
+**Adam Stacoviak:** \[32:04\] You got two books; one that's in progress, as I understand, one that's out. The Tech Resume Inside Out is the one that's out. When did you write that book?
 
 **Gergely Orosz:** I published it about a month ago, and I started writing it around May, after Coronavirus started. The story behind that book is -- I was writing my original book, which is about growing as a software engineer, going from this entry-level role, through senior, to tech lead, and all the way to staff levels at the likes of tech companies that I worked at, and what I saw... And the idea was I both went through this journey, and then I mentored a lot of people as a manager to go through this journey. And when the Coronavirus started, I paused writing this book, because there was a lot of stuff happening, and then the layoffs started happening - both at Uber and at my old company, Skyscanner.
 
@@ -182,7 +182,7 @@ About a quarter of the book is not about writing a resume, it's about giving you
 
 The feedback from the book has been pretty good. First of all, the book is free and it will remain free for anyone who's out of a job as a developer. I'm just doing some basic validation to avoid spam, but there's no strings attached. People get that. I really don't wanna make any profit off anyone who's in these shoes.
 
-\[00:36:14.08\] The feedback has been that people saw just an increase in feedback across the board, from large tech companies... Now, some people still couldn't pass the interviews, but most people did. And most people were able to improve their resumes.
+\[36:14\] The feedback has been that people saw just an increase in feedback across the board, from large tech companies... Now, some people still couldn't pass the interviews, but most people did. And most people were able to improve their resumes.
 
 **Adam Stacoviak:** Yeah.
 
@@ -208,7 +208,7 @@ But in the Middle East, it's not as clear-cut. There's a recruiter who works the
 
 **Adam Stacoviak:** Yeah. Well, let's break down, I suppose, the mechanics of the book then. You 'd mentioned it's written by people who run the tech hiring process, so this is a co-authored book, not so much just simply authored by you... If I understand correctly, it's authored by many contributing experts, people who are hiring managers, technical recruiters at various tech companies... As you mentioned, one of the women involved had been in the industry 20 years... Was it 9,000 resumes she's reviewed? I mean, that's a lot...
 
-**Gergely Orosz:** \[00:40:03.07\] It was 6,000 interviews. That's interviews, so it must have been like 10x the resumes... So yeah, tens of thousands.
+**Gergely Orosz:** \[40:03\] It was 6,000 interviews. That's interviews, so it must have been like 10x the resumes... So yeah, tens of thousands.
 
 **Adam Stacoviak:** I bet. So what - 60,000 then... Okay. Let's just estimate 60,000 resumes, 6,000 reviews - this is a lot of experience basically, behind this book. So MVP - some people say you should launch an MVP and be embarrassed by it. This is not something I would be embarrassed by... You know what I mean? It seems like you've put a lot of effort into this.
 
@@ -232,7 +232,7 @@ On the idea of pricing, if I understand you correctly - so it's free, as you say
 
 **Adam Stacoviak:** Sketchy, icky... Yeah. And you've chosen this one. So help me understand -- and then you mentioned price parity across the world, which I think is super-awesome; thank you for doing that, too... Because we've had that conversation recently; we have a membership out there called Changelog++; as a listener of the show, you may have heard of that... We haven't yet gotten to that pricing parity, because we're using a platform to do it, but when we actually inherit that as our own, inside-of-Changelog.com infrastructure membership, we've written the code behind and we will have it then. But for now, we don't. We're using Supercast to launch that. Because like you - MVP, we're using it to learn, and what we have learned is that people want us to have a membership... So there you go.
 
-\[00:44:29.13\] So to you - pricing. Let's break this down. Free for some, paid for some... How do you break this down? Have you made a ton of money from this? Can you share some of the insights into the Indie Hackers stuff you may have shared already?
+\[44:29\] So to you - pricing. Let's break this down. Free for some, paid for some... How do you break this down? Have you made a ton of money from this? Can you share some of the insights into the Indie Hackers stuff you may have shared already?
 
 **Gergely Orosz:** Yeah, absolutely. With pricing, again, I experimented. I've read about how you can maximize value by adding additional content, and my original thinking was "Well, let me do the book", and the book comes with resume templates, it comes with multiple formats... So an idea that I originally had is "Well, maybe I could just give a PDF, and then for more expensive you get like resume templates and multiple formats. And then for the last tier I'll just do a video." The video is me -- some people prefer this with me talking through the whole content; I've created specific slides for it. In about two hours I summarize the book, and I add just my take on it.
 
@@ -246,7 +246,7 @@ So I came across this site which had clean templates. This site had hiring manag
 
 I really like this, and I liked how they were transparent. I liked how they seemed to be doing something similar to what I do... And I also don't wanna say in the resume "Advice business". I don't wanna do reviews, I don't wanna do long-term too much to do with this, beyond having this resource... So I figured, "Can we partner?" People who want these templates can go there, and you can get a discount. I'm not making any money off of it. They give a discount. I just like what they're doing.
 
-**Adam Stacoviak:** \[00:48:10.12\] Yeah.
+**Adam Stacoviak:** \[48:10\] Yeah.
 
 **Gergely Orosz:** I also helped them create resume templates that I thought would be better, which was a really cool collaboration. I think I just found they're someone who I identify with; I like that they're doing ethical things, they seem to be doing the right thing. They also need to run a business, so I learned a bit about their pricing strategy... And then I'm also happy to talk about the numbers \[unintelligible 00:48:29.07\]
 
@@ -282,7 +282,7 @@ This was one of the top-voted comments. It was a really negative comment, and th
 
 The way I think about it is I have about now 2,000 engaged readers, which I'm very happy about. And the money as well. It's a bit secondary. It's kind of nice, because my first month of leaving Uber, I still got basically a salary... But outside of that, that's not my main focus here.
 
-**Break**: \[00:52:03.17\]
+**Break**: \[52:03\]
 
 **Adam Stacoviak:** What I find interesting is your perspective - rewinding back a bit - on "Why should I write this?" Well, I wanna ask how, at the time of Covid, obviously, a lot of things changing and happening in terms of layoffs, and a lot of unemployment... You know, you ask yourself "How can I help?" And the way you said you wanted to help was to offer advice. And then one of the things I think is kind of hidden here is the idea of who the resume is for.
 
@@ -292,7 +292,7 @@ Obviously, if you get a referral, that's better; but getting your foot into the 
 
 **Gergely Orosz:** And that's not even half of it, because it depends on where you apply, too. If you apply to a big company, chances are -- so with every company there's always a hiring manager who gets the head count. They say "I need to hire a person, and I've got the budget to do so." And they know who they wanna hire. Maybe Joe quit the other week and they want a new Joe. Or maybe the team is growing and they have a ten headcount, and they're okay hiring a couple of juniors, a couple of seniors initially... But then once they hired four juniors, they actually want seniors, that kind of stuff.
 
-\[00:56:08.12\] In small companies, the hiring manager will review the resumes. As the company grows and it becomes mid-sized, there's gonna be some sort of HR person who doesn't really know what they're doing, but the hiring manager says "Can you just look at these resumes and make sure -- I want someone who's got Java and five years of experience." And then you'll have this person who is not a recruiter, but they're just looking for whatever the hiring manager told them, and they have no clue what they're doing.
+\[56:08\] In small companies, the hiring manager will review the resumes. As the company grows and it becomes mid-sized, there's gonna be some sort of HR person who doesn't really know what they're doing, but the hiring manager says "Can you just look at these resumes and make sure -- I want someone who's got Java and five years of experience." And then you'll have this person who is not a recruiter, but they're just looking for whatever the hiring manager told them, and they have no clue what they're doing.
 
 One the company gets a bit bigger, they hire a proper recruiter, who kind of knows what they're doing, but they still need to do whatever the hiring manager tells them to do as the company grows.
 

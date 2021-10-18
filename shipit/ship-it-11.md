@@ -30,7 +30,7 @@ Now, I do think that the observability, from the perspective of your code - I th
 
 **Gerhard Lazu:** So the way I hear it, it's almost like the end user experience, what makes them happy, what makes them sad.
 
-**Charity Majors:** \[00:08:10.12\] It's a radical perspective shift from the perspective of the service, to the perspective of the user. Another way to think of this is "Well, we blew up the monolith..." It used to be you had a monolith, \[unintelligible 00:08:19.28\] and you could just step through it, right? Well, then we blew up the monolith and suddenly the request is hopping the network all over the place, and now you can't step through it. So part of the way that we focus on instrumenting is gathering up all of that information around the perspectives of the request, so that we're almost like passing it along with the request as as it hops the network from step to step.
+**Charity Majors:** \[08:10\] It's a radical perspective shift from the perspective of the service, to the perspective of the user. Another way to think of this is "Well, we blew up the monolith..." It used to be you had a monolith, \[unintelligible 00:08:19.28\] and you could just step through it, right? Well, then we blew up the monolith and suddenly the request is hopping the network all over the place, and now you can't step through it. So part of the way that we focus on instrumenting is gathering up all of that information around the perspectives of the request, so that we're almost like passing it along with the request as as it hops the network from step to step.
 
 **Gerhard Lazu:** So that to me sounds a lot like what the microservice architecture would advocate for. You have lots of microservices, you have--
 
@@ -60,7 +60,7 @@ So you should never embrace change for the sake of change, or complexity for the
 
 So observability isn't a magical fairy solution in and of itself. There are other important components here that work in synchrony. I think that CI/CD, having a really healthy CI/CD pipeline is a really important part of this, because when you're writing code, you have all that context in your brain, it's fresh; you know what you're trying to do, you know what trade-offs you make, you know what you didn't try, or what you tried and what failed... And that stays in your brain for minutes, hours... Not that much longer after you've switched contexts and picked up a different project. Then it's gone and it's never coming back.
 
-\[00:12:12.24\] And so having a CI/CD pipeline where once you merge your changes to main it automatically picks it up, runs tests and deploys within 15 minutes (that's a good upper bound), and very importantly, it deploys only your changes. If it's small, it's compact, it's a few minutes, then you can ship one engineer's changes at a time, which gives you a really powerful sense of ownership. When you know your changes are going live within 15 minutes, you're highly incentivized to go look at it through the lens of the instrumentation you just wrote.
+\[12:12\] And so having a CI/CD pipeline where once you merge your changes to main it automatically picks it up, runs tests and deploys within 15 minutes (that's a good upper bound), and very importantly, it deploys only your changes. If it's small, it's compact, it's a few minutes, then you can ship one engineer's changes at a time, which gives you a really powerful sense of ownership. When you know your changes are going live within 15 minutes, you're highly incentivized to go look at it through the lens of the instrumentation you just wrote.
 
 When you're merging your changes and you're pretty sure that at some point in the next 12 to 72 hours your changes and anywhere from 0 to 15 other people's changes are going to be shipped, nobody's gonna look at it. So you've severed that tight, virtuous feedback loop of ownership.
 
@@ -84,7 +84,7 @@ So observability is what allows you to take your microscope out and compare at t
 
 **Charity Majors:** Right.
 
-**Gerhard Lazu:** \[00:15:58.02\] And I think property testing and fuzzing help with it somewhat, but not at scale. You can't generate production scale. It's impossible.
+**Gerhard Lazu:** \[15:58\] And I think property testing and fuzzing help with it somewhat, but not at scale. You can't generate production scale. It's impossible.
 
 **Charity Majors:** You've just basically gotta accept that all the interesting bugs are only gonna happen in production. There's no such thing as a staging environment that matches production. It doesn't exist.
 
@@ -98,7 +98,7 @@ So observability is what allows you to take your microscope out and compare at t
 
 **Gerhard Lazu:** That's right.
 
-**Break**: \[00:17:35.24\]
+**Break**: \[17:35\]
 
 **Gerhard Lazu:** So I think we're both agreeing that shipping into production is very important. Anything before that - you can do it, sure. Why? Ask yourself. If you have--
 
@@ -110,7 +110,7 @@ So observability is what allows you to take your microscope out and compare at t
 
 **Gerhard Lazu:** Right.
 
-**Charity Majors:** \[00:20:01.12\] Just the longer it gets, the more pathologies start to creep in; you're entering this sort of death spiral of \[unintelligible 00:20:09.14\] code review takes longer, you start to ship multiple changes from multiple people at a time, so you decouple-- you know, it's just badness. And these numbers I've also pulled out of my ass, but they also seem to be true. If you ship within 15 minutes, that takes you X number of engineers to build, maintain this codebase. If it takes you in the order of an hour or more, you need twice as many engineers. And if it takes you in the order of a day, you need twice as many again. And if it takes you a week, twice as many again. And I'm definitely not exaggerating it; if anything, I am being too conservative and underestimating it.
+**Charity Majors:** \[20:01\] Just the longer it gets, the more pathologies start to creep in; you're entering this sort of death spiral of \[unintelligible 00:20:09.14\] code review takes longer, you start to ship multiple changes from multiple people at a time, so you decouple-- you know, it's just badness. And these numbers I've also pulled out of my ass, but they also seem to be true. If you ship within 15 minutes, that takes you X number of engineers to build, maintain this codebase. If it takes you in the order of an hour or more, you need twice as many engineers. And if it takes you in the order of a day, you need twice as many again. And if it takes you a week, twice as many again. And I'm definitely not exaggerating it; if anything, I am being too conservative and underestimating it.
 
 **Gerhard Lazu:** Right.
 
@@ -128,7 +128,7 @@ I think Intercom - again, they're some of my favorite people, but they ship in 1
 
 **Gerhard Lazu:** Let's take our example. Changelog.com is a monolithic application. It's a Phoenix-based app; think of it like Ruby on Rails. It's using a PostgreSQL database, it has NGINX in front - this is Ingress NGINX, it's running on Kubernetes, and there's a load balancer in front, and there's a CDN in front as well. So if we wanted to make our setup more observable, the way you think about observability as we've discussed so far, what should our first three steps be?
 
-**Charity Majors:** \[00:24:04.10\] What language are you using?
+**Charity Majors:** \[24:04\] What language are you using?
 
 **Gerhard Lazu:** What language? It's Elixir.
 
@@ -186,7 +186,7 @@ So you might go "Ah, I care about this", and we'll go "Oh, these errors could be
 
 **Gerhard Lazu:** And then why Kafka? I have to ask that. For other reasons.
 
-**Charity Majors:** \[00:27:54.26\] Since we are writing our own storage engine, it gives us like 18 hours' worth of backup. You know, if we need to replay some events, or if anything happened... It's also how we bootstrap and bring up new nodes...
+**Charity Majors:** \[27:54\] Since we are writing our own storage engine, it gives us like 18 hours' worth of backup. You know, if we need to replay some events, or if anything happened... It's also how we bootstrap and bring up new nodes...
 
 **Gerhard Lazu:** Why not Kinesis?
 
@@ -246,7 +246,7 @@ It was interesting - when we moved from using SSDs for everything to age things 
 
 **Charity Majors:** Yeah.
 
-**Gerhard Lazu:** \[00:32:07.17\] Okay. And how long do you keep things on kibble before promoting to dogfood?
+**Gerhard Lazu:** \[32:07\] Okay. And how long do you keep things on kibble before promoting to dogfood?
 
 **Charity Majors:** It's about an hour. It's about an hour from kibble to dogfood, and an hour from dogfood to production.
 
@@ -278,7 +278,7 @@ It was interesting - when we moved from using SSDs for everything to age things 
 
 **Charity Majors:** Yeah. Well, I think that people have this image of like "Oh, you hire a Google engineer and suddenly your team will get better", or something. No, I think that it's pretty clear that any engineer who joins a team, within 36 months or so, will be shipping and performing at the level that that team performs, whether that's up or down. The power of the group, the environment that you're in is far more powerful than your own personal knowledge of data structures and algorithms. And we have this weird magical belief in the power of individuals, but we should spend way more time just paying attention to the environment in which we all write and build and ship our code, because the way that people are doing it now is the hard way. You shouldn't have to be a great engineer to write code and get it out quickly. We should build systems that make it easy for engineers to get their code out quickly. I just think we act like great engineers make great teams, when it's exactly the opposite, in fact. It is great teams that make great engineers.
 
-**Break**: \[00:34:56.02\]
+**Break**: \[34:56\]
 
 **Gerhard Lazu:** I think we're touching on something very, very important. You keep mentioning systems, you keep mentioning teams... Now, a system means teams. It doesn't mean a technical system. It means how everything works. And a system can even mean a company. They're never closed systems, by the way; there are always all sorts of forces, and it changes all the time. Sometimes very fast, or some people think like that; others think it's very slow. But it is a system, all of it. And I'm wondering, what does a high-performing team look like in such a system, or a high-performing system. What does it look like, from your perspective?
 
@@ -292,7 +292,7 @@ A high-performing team is one that ships often. It doesn't find it remarkable to
 
 Join great teams where you don't have to fight to make change, to make progress, where you can learn a lot from other great people. I've seen too many amazing engineers stick it out year after year at jobs that didn't appreciate them, where they weren't allowed to make the changes that they knew needed to be made. There are other places that will welcome your creativity and will care about your sleep schedule... And if you don't feel respected, you probably aren't. Go somewhere else. It is a buyer's market. This is probably the one role that is easiest to find a new job in the entire world, and it won't last forever, so take advantage of it.
 
-**Gerhard Lazu:** \[00:40:17.10\] So you make a high-performing team by joining a high-performing team, and then you become--
+**Gerhard Lazu:** \[40:17\] So you make a high-performing team by joining a high-performing team, and then you become--
 
 **Charity Majors:** It's the easiest way.
 
@@ -322,7 +322,7 @@ I feel like there's a lot of passivity on the part of a lot of engineering leade
 
 **Charity Majors:** Happiness, right. There are a lot of things that are more elliptical, but they're no less real. It's just a question of short-term investment versus long-term investment, and you can't just play the short-term game all day, all week, all month, all year, or you'll lose people, you'll lose happiness... It shows just in people's weary faces.
 
-**Gerhard Lazu:** \[00:44:14.03\] So how would you measure what is important on a team? Money is not it, right? That's a short-term goal which has many negatives associated with it. It's important, of course, but it shouldn't be the sole driver.
+**Gerhard Lazu:** \[44:14\] So how would you measure what is important on a team? Money is not it, right? That's a short-term goal which has many negatives associated with it. It's important, of course, but it shouldn't be the sole driver.
 
 **Charity Majors:** No. It depends, to some extent... Here's one thing. I think every manager should be -- so I do think every engineer who builds a 24/7 highly-available service should be on call for their work. I also think that getting woken up two or three times a year for your service is reasonable. I think more than that veers close to abusive. And I think it's an engineering manager's job to track this, to make sure that it doesn't get out of hand, to take assertive, active measures when it starts to get really noisy, to carve out time for it. Because sleep - sleep is an important thing, which leads to retention of engineers, which leads to job satisfaction, and all other intangibles... But that's one pretty solid thing that I can put my finger on. People's ability to spend their time focusing and not being \[unintelligible 00:45:21.08\] not being woken up, not being firefighting all the time.
 
@@ -338,7 +338,7 @@ You can also look at top-level metrics like attrition... But honestly, I'm a big
 
 **Charity Majors:** Both. All. All of the above. And also, I like asking engineers about each other too, like "How is so-and-so doing? Do you feel like so-and-so is getting stressed or burned out?" Because a team of people tends to care deeply for each other, and they're often a lot more sensitive to each other's burnout etc. than they would be for their own. So you can ask them about each other, too.
 
-**Gerhard Lazu:** \[00:47:03.25\] I really like the way you think about the human element. I really like the way you see us, the engineers, as people, at the end of the day. They're not machines; they have to talk to machines, but it doesn't make them one.
+**Gerhard Lazu:** \[47:03\] I really like the way you think about the human element. I really like the way you see us, the engineers, as people, at the end of the day. They're not machines; they have to talk to machines, but it doesn't make them one.
 
 **Charity Majors:** Engineers are not fungible. You asked about the socio-technical systems, and like -- there's a thought experiment that I use sometimes... Imagine the New York Times; you've got a socio-technical system, it's comprised of people, the tools, the systems etc. If you took all the people away and replaced them with equally-powerful engineers, equally-experienced etc. and you send all of your \[unintelligible 00:47:38.00\] engineers off to the Bahamas... How long would it take them to figure out how to fix even a small problem? So much of the system lives in your head, right?
 

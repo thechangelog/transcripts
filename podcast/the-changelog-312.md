@@ -2,7 +2,7 @@
 
 **Alexandra Noonan:** Yeah, sure. I'm Alex and I am a software engineer for Segment. I joined the engineering team about a year ago, and before that I was actually working on Segment's customer success team, kind of solving tickets and teaching myself how to code, so I could eventually move to engineering; before that, I was in school, studying math. That pretty much brings us to where I am now.
 
-**Adam Stacoviak:** \[00:04:02.01\] Awesome. And Calvin, you're the co-founder and CTO, is that right?
+**Adam Stacoviak:** \[04:02\] Awesome. And Calvin, you're the co-founder and CTO, is that right?
 
 **Calvin French-Owen:** Yeah, that's correct. Originally, we started Segment about a little over seven years ago now, and at the time we started in a really different place - we were building different types of software. After about a year and a half of trying to find product-market fit, we ended up on this analytics idea, and we have kind of been building out that infrastructure and that product ever since.
 
@@ -18,7 +18,7 @@ Then I worked on it on weekends, nights, and then got it to about 60% done, but 
 
 Actually, Segment was kind of born out of our need, as developers, in the very beginning, where we were trying to decide between these three analytics tools - Google Analytics, Kissmetrics and Mixpanel... And we couldn't really figure out what the differences were between them, or why would we want to use one versus another.
 
-\[00:08:11.29\] So what we did is we took kind of the lazy engineer's way out and we built this layer of abstraction that sits in front, where you just send the data once, in a common format, and say "Here's who my users are, here's what they're doing", and then we help take care of all of the transformations and mapping that are particular to each API.
+\[08:11\] So what we did is we took kind of the lazy engineer's way out and we built this layer of abstraction that sits in front, where you just send the data once, in a common format, and say "Here's who my users are, here's what they're doing", and then we help take care of all of the transformations and mapping that are particular to each API.
 
 Looking back on the history of the company, actually we started with a very monolithic pattern ourselves. There was one service which wasn't Node, which basically packaged up our API, our CDN - we used to serve JavaScript our web app, and it all used the same set of modules, the same single process, and they were just running across multiple EC2 instances. As started growing the team and growing the number of developers, we quickly realized that that single service wasn't going to hold up as we basically added more and more people to it, where there are now more and more PRs happening against the repos, there are more and more deploys happening every day, and we just started running into a bunch of reliability problems.
 
@@ -36,7 +36,7 @@ So I think that's more what pushed us to have these different services, which li
 
 **Jerod Santo:** The cool thing about Segment, from my perspective, just from a nerdy engineer thought life, is it's basically the adapter pattern for third-party services...
 
-**Calvin French-Owen:** \[00:12:08.21\] Yeah, exactly.
+**Calvin French-Owen:** \[12:08\] Yeah, exactly.
 
 **Jerod Santo:** ...just like you would do for your database, right? Abstract a layer, and that layer is Segment, and now you only write to Segment, and then it's going to front Google Analytics, Optimizely, Mixpanel, Kissmetrics - all of them, probably hundreds of them at this point... And because of that, it does have a unique architecture where basically at a service level it's implementing the adapter pattern, and so it does break out, I think, mentally, very well, because you have your analytics queue -- you have one big queue, I'm assuming, and then you probably split that out and have kind of service-level queues... So mentally, I think that would make sense for microservices. Was that the thought process then?
 
@@ -58,7 +58,7 @@ So I think that's more what pushed us to have these different services, which li
 
 These case studies are so interesting, because they give us data points by which we can all make decisions better, kind of as an industry, individually, but you can only actually apply the data if you are a subject, if you're a comparable - it's like real estate sales, we need to find comparable houses... Well, we need to find comparable technical stacks, technical situations in order to say "Okay, this might not work for us..." So help us understand Segment at a macro level - the team, the company size etc.
 
-**Calvin French-Owen:** \[00:15:40.23\] Segment today - there's about 80 members of the engineering team, and overall the company size is close to 300 people. When you asked the question about whether to adopt microservices or not, and it being there on a case-by-case basis, or a decision that's made very particularly to your company, the way that I like to think about it is about whether you're ready to take on more operational overhead that comes from running in many different services, where maybe each one has its own codebase, it has its own set of monitoring and alerting that you have to be keeping track of, it has its own new deploy process, its own way of managing those services etc...
+**Calvin French-Owen:** \[15:40\] Segment today - there's about 80 members of the engineering team, and overall the company size is close to 300 people. When you asked the question about whether to adopt microservices or not, and it being there on a case-by-case basis, or a decision that's made very particularly to your company, the way that I like to think about it is about whether you're ready to take on more operational overhead that comes from running in many different services, where maybe each one has its own codebase, it has its own set of monitoring and alerting that you have to be keeping track of, it has its own new deploy process, its own way of managing those services etc...
 
 And honestly, it's a lot of upfront work to run those sorts of microservices, that I think if we'd started there from day one, honestly the company wouldn't have gotten off the ground, and we would have just spent all our time in terms of tooling and infrastructure and we wouldn't have made any progress on the actual product... But that said, there are a lot of benefits to having microservices if you have those systems in place.
 
@@ -72,7 +72,7 @@ So like I said, we first adopted this when we were maybe 10 or 15 people, which 
 
 That said, it's not without cost. At this point, we built so many of these little services in so many different code paths that it's actually difficult for individual developers to keep track of how they connect... If you make a change to one part of the pipeline, how it affects the rest - that sort of thing. So there's definitely other downsides that I think are maybe not as talked about as much, especially if you adopt microservices really early.
 
-**Break:** \[00:19:59.21\] to \[00:21:06.24\]
+**Break:** \[19:59\] to \[21:06\]
 
 **Jerod Santo:** So Alex, one of the things that you say in this post is that the touted benefits of microservices are improved modularity, reducing test burden, better functional composition, environmental isolation, and development team autonomy. These are the ones that many of us have heard, talked about and kind of analyzed, and definitely true. The opposite, you say, is a monolithic architecture, where a large amount of functionality lives in a single service, which is tested, deployed and scaled as a single unit.
 
@@ -86,7 +86,7 @@ Another was we were actually seeing some serious performance issues, so now even
 
 So for the little guys that were handling a handful over a day, and then all of a sudden a customer turns them on and now they're handling hundreds of events per second, they can't scale up, so we're constantly getting paged to manually go in and scale up these little guys... And the blanket autoscaling rules also didn't work because they each had a pretty distinct load pattern in terms of CPU and memory; some were much more CPU-intensive, others were more memory-intensive, and so that also didn't help, which again, caused us to have to go in and manually be scaling these services up. So we were constantly getting paged, because queues were backing up... Tough to scale these guys up, which was pretty frustrating, and I guess that we were literally losing sleep over it. It was very frustrating.
 
-**Jerod Santo:** \[00:25:14.13\] It sounds like it. So you mentioned that you had three full-time engineers pretty much spending their time keeping the system alive. Is that what you're referring to, like having to go in and scale things up and down when certain services wouldn't keep up with the load?
+**Jerod Santo:** \[25:14\] It sounds like it. So you mentioned that you had three full-time engineers pretty much spending their time keeping the system alive. Is that what you're referring to, like having to go in and scale things up and down when certain services wouldn't keep up with the load?
 
 **Alexandra Noonan:** Exactly, exactly. So it was difficult for us to add any new destinations, because we were spending so much time maintaining the old ones, and then we had a backlog of bugs building up on the old ones, and we just couldn't make any headway at all, because the performance issues and the maintenance burden was so painful, with all these repos and services and queues. It was getting to be too much.
 
@@ -104,7 +104,7 @@ At that point, we introduced this new set of architecture that we called Centrif
 
 We said, okay, this project that we wanna kick off to make sure that our customers are being treated fairly would actually be much easier if we had a single service that we're working with, so why don't we kind of do both projects in sort of lockstep, where we transition these integrations to a single service, which should help a bunch of these different problems that Alex just talked through, as well as help the end customer make sure that their data is getting where it needs to go quickly and reliably.
 
-**Adam Stacoviak:** \[00:28:50.13\] How were you managing time in this? I'm thinking startup, customers, you need to move efficiently, and Alex, you mentioned that this post took you six months to write... This is probably -- you've been on board for a year, and a lot of this takes a lot of time; how do you manage, maybe from a CTO level and maybe from your perspective, Alex, as an engineer, how do you dictate architecture and initiate the team to move forward and still please people and get things right?
+**Adam Stacoviak:** \[28:50\] How were you managing time in this? I'm thinking startup, customers, you need to move efficiently, and Alex, you mentioned that this post took you six months to write... This is probably -- you've been on board for a year, and a lot of this takes a lot of time; how do you manage, maybe from a CTO level and maybe from your perspective, Alex, as an engineer, how do you dictate architecture and initiate the team to move forward and still please people and get things right?
 
 **Calvin French-Owen:** Yeah, maybe I can start off first from sort of the more global perspective, and then transition to Alex for her perspective as well. When we think about Segment's core value proposition, maybe two or three things that we do with customers' data first is that we help them collect and organize that data... So we wanna make sure that our ingestion endpoint is always up, that we're never dropping data, that we're giving them libraries with a good experience to send that data into our system.
 
@@ -126,7 +126,7 @@ So for us it actually felt fairly well-aligned to kick off this set of projects 
 
 **Alexandra Noonan:** Thank you, thank you.
 
-**Jerod Santo:** \[00:33:07.01\] But just tell us, I guess in the meta game sense, your feels with regards to the public awareness of who you are, and what you're doing, and all that, being self-taught.
+**Jerod Santo:** \[33:07\] But just tell us, I guess in the meta game sense, your feels with regards to the public awareness of who you are, and what you're doing, and all that, being self-taught.
 
 **Alexandra Noonan:** When Rick first came to me with the idea for the post, we had no idea it was gonna be this crazy. We knew we were gonna stir the pot a little bit, but we had no idea the impact it was actually gonna have. I'd always wanted to write a post, so I thought this would be a cool one... I was just gonna write about my experience, kind of as an engineer at Segment. Then it got a crazy amount of attention, and I probably had I think the worst impostor syndrome I've ever had on engineering... But it's been pretty cool.
 
@@ -168,7 +168,7 @@ So it's been, I would say, pretty positive, and more people are just really curi
 
 **Jerod Santo:** That's a good tactic for Hacker News. Have a friend read it for you and then just kind of summarize... "Meh, pretty good..."
 
-**Alexandra Noonan:** \[00:36:54.26\] Exactly. That's basically what I did. Some people sent me screenshots of really nice comments. I heard there was some negative feedback, but I've heard that's also pretty typical with Hacker News, so I wasn't too worried about it... And that didn't seem like the overall feedback.
+**Alexandra Noonan:** \[36:54\] Exactly. That's basically what I did. Some people sent me screenshots of really nice comments. I heard there was some negative feedback, but I've heard that's also pretty typical with Hacker News, so I wasn't too worried about it... And that didn't seem like the overall feedback.
 
 **Jerod Santo:** So The Changelog's experience - our show's experience - with Hacker News over the years, until recently, has been whenever somebody posts us and we happen to make on the homepage one of our episodes, undoubtedly, without a miss, somebody would say "This is lame... Where is the transcript? I just wanna read it." Like, every single time. Isn't that right, Adam? \[laughter\] Somebody would say that, and I'm just like "Can you give us a break? We're just doing a podcast." Now we have transcripts, so they can't say that anymore...
 
@@ -190,9 +190,9 @@ When you talk about service mesh, I think that is definitely something that we a
 
 I think in our case it's probably a bit of a combination of both... We had this team of engineers who were trying to wrangle 100+ codebases across 100+ services, and when all of them do a similar thing, that's really just hard to manage and you have to build a lot of tooling around it... And we figured, well, we'd rather take the relatively slow rate of changes being made to a single place, versus having to manage this many codebases and this many services.
 
-\[00:40:43.27\] I think the one other thing that changed here as well - originally, we had anticipated that third-parties would be adding a lot of their own code into these integrations, so you might imagine we support Amplitude, and Mixpanel as places that we send data... We were kind of expecting that we would have engineers from those teams actually making pull requests, contributing whenever they pushed updates to their APIs, and in practice that really didn't turn out to be true. It ended up being a team here who was working on it... So we said "Well, we thought we'd get these supposed benefits. We're not seeing those, let's move over."
+\[40:43\] I think the one other thing that changed here as well - originally, we had anticipated that third-parties would be adding a lot of their own code into these integrations, so you might imagine we support Amplitude, and Mixpanel as places that we send data... We were kind of expecting that we would have engineers from those teams actually making pull requests, contributing whenever they pushed updates to their APIs, and in practice that really didn't turn out to be true. It ended up being a team here who was working on it... So we said "Well, we thought we'd get these supposed benefits. We're not seeing those, let's move over."
 
-**Break:** \[00:41:31.27\] to \[00:42:39.28\]
+**Break:** \[41:31\] to \[42:39\]
 
 **Jerod Santo:** Calvin, you had mentioned Centrifuge as a core piece of engineering infrastructure that you did as part of this transition. Can both of you help us understand, from the point that you decided and very well noted that this is not all of Segment that has moved, this is a specific section of Segment, Alex's team has moved from microservice back to a single service... Take a step-by-step through that; once the decision was made, "Okay, we're going to do this..." I know Centrifuge is involved somehow, but please help us all understand very clearly, step by step, what took to get to where you are today, and to where you could write your post saying goodbye to microservices.
 
@@ -204,7 +204,7 @@ And once we kind of acknowledged this was a problem, Rick Branson, who Alex has 
 
 So we might have one queue for Google Analytics, which has all of Instacart's data, but another one with all of New Relic's data, and maybe another one with Fender's data. This system - honestly, we hadn't seen any really good prior art for.
 
-\[00:45:04.06\] I think network flows are about the closest that you'd get to it, but those give you back pressure in terms of being able to say "Hey, there's too much data here. Stop sending from the very TCP source that you have", which is something that we can't exactly enforce on our customers.
+\[45:04\] I think network flows are about the closest that you'd get to it, but those give you back pressure in terms of being able to say "Hey, there's too much data here. Stop sending from the very TCP source that you have", which is something that we can't exactly enforce on our customers.
 
 So with this design in hand for Centrifuge, we started out on what actually turned into about a nine-month journey where we decided to roll Centrifuge out into production, and Centrifuge was responsible for all of the message delivery, the retries, and archiving of any data which wasn't delivered, and then separately, Centrifuge would make requests into this new integration's monoservice, which you could think of as being this intelligent proxy which would take this raw data in, and depending on where it's going, make multiple requests to a third-party endpoint.
 
@@ -222,7 +222,7 @@ We basically slowly ramped traffic in that manner, always checking the end-to-en
 
 **Alexandra Noonan:** So everyone's biggest pain point in this segment - or one of the biggest - is that they don't get a lot of visibility into what happens when they send data to Segment, and then when we send it on to a destination. So a product that I built with one of my other teammates at the time was we built something on top of Centrifuge to basically collect the responses and counts of metrics, whether an event they said was successful to Google, or got rejected, and why, and then display that in the UI to users...
 
-\[00:49:27.18\] But with the microservice queue set up, there wouldn't have been a good way for us to pass that information back and somehow store it, so that we could show that info to users. But with Centrifuge, since Centrifuge kind of is keeping track of all of this, it knows everything already, and we just kind of have to flush that data out to a queue, and then store it from there, and now we have it in the UI, and I think we've had a radically positive feedback on that feature.
+\[49:27\] But with the microservice queue set up, there wouldn't have been a good way for us to pass that information back and somehow store it, so that we could show that info to users. But with Centrifuge, since Centrifuge kind of is keeping track of all of this, it knows everything already, and we just kind of have to flush that data out to a queue, and then store it from there, and now we have it in the UI, and I think we've had a radically positive feedback on that feature.
 
 Now customers can see, "Okay, I sent an event to Segment, I see it in Segment, and now I see Segment sent it to Google Analytics and it was either successful or it failed for whatever reason", which they'd never had that insight before. They can only see that the event made it to Segment, and then they'd have to go check Google, and when their event is not there, they have no idea what happened. So that was a cool product that Centrifuge allowed us to build
 
@@ -240,7 +240,7 @@ Now customers can see, "Okay, I sent an event to Segment, I see it in Segment, a
 
 **Calvin French-Owen:** There are a few other places where we're considering consolidating services, and I think there's a couple of reasons for that. One is within the pipeline there's sort of this natural entropy over time, where systems will split up and break apart as people add and tack on new features to them.
 
-\[00:53:00.13\] In terms of the pipeline itself, I think we wanna make sure that we're making sure that's easy to reason about, it's easy to find what you're looking for, and you can kind of go to a couple of key places that need to be independent services, and understand everything that it's doing.
+\[53:00\] In terms of the pipeline itself, I think we wanna make sure that we're making sure that's easy to reason about, it's easy to find what you're looking for, and you can kind of go to a couple of key places that need to be independent services, and understand everything that it's doing.
 
 I think the second piece that we're interested in consolidating around is actually cost. Obviously, every time you copy data over the network, or republished a Kafka, or have a system which is deserializing JSON and then reserializing back up, it's much more expensive... So in order to keep costs low for all of our customers, we're interested in consolidating some there as well.
 
@@ -254,7 +254,7 @@ Then there's definite benefits, as you've mentioned, on hiring, as well. A numbe
 
 **Adam Stacoviak:** What about you, Alex, from a first-time blogger on the Segment blog, a home run out the box...? What's your experience, with other team members even? What's your experience with getting a chance to share some deep interests, and obviously, quite a bit of passion? Six months to write it, and you're on the team, you're obviously doing great work, you're passionate about what you're doing... What is it for you to share this through the blog?
 
-**Alexandra Noonan:** \[00:57:15.19\] It was a really cool experience. I know a lot of people at Segment were kind of curious why we'd moved to Centrifuge and invested so much time in this.... So I had some engineers that had joined post-Centrifuge ask me about it, and they were super-excited for the post to read about it, so that was really cool.
+**Alexandra Noonan:** \[57:15\] It was a really cool experience. I know a lot of people at Segment were kind of curious why we'd moved to Centrifuge and invested so much time in this.... So I had some engineers that had joined post-Centrifuge ask me about it, and they were super-excited for the post to read about it, so that was really cool.
 
 And I've always wanted to get more into writing and writing blog posts, and this was the first post I've ever written about anything, so it was really cool to get to just share my experience and have it kind of take off, and knowing that a lot of people have read the post, and I think a lot of people have actually found value in it, which has been the coolest part, that we've had so many people reach out, interested and curious to learn more... It has been really exciting and eye-opening... And to just inspire. I know a lot of women came up to me after and were really inspired by the fact that I had such a post that went so crazy on the internet, because you don't see a lot of posts from women in engineering, because there aren't many... But that part also made me really happy.
 

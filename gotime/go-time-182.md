@@ -30,7 +30,7 @@
 
 **Mat Ryer:** Snake.
 
-**Jon Calhoun:** \[00:04:06.08\] It's definitely evolved recently... Because before that it used to be a crazy idea of like "Let's have people program AI's for games" and now it's popping up a lot more often, I feel like.
+**Jon Calhoun:** \[04:06\] It's definitely evolved recently... Because before that it used to be a crazy idea of like "Let's have people program AI's for games" and now it's popping up a lot more often, I feel like.
 
 **Brad Van Vugt:** Yeah. I think it's really interesting and it's a lot of fun. I think that one of the things that we do differently - and there are other versions of this popping up as well, but we take a very e-sports sort of style to it, where we do show casting; we have live rankings, we have a weekly Twitch show called Snake Pit Live, which is like a sports center style, like "Let's check in on who's entered the arena and who's knocked who out of first place" and this kind of thing. And there's back-stories, and people are representing schools, and nationalities... So there's really this sport angle to it that I think is really fun with what we're doing.
 
@@ -50,7 +50,7 @@ So that's kind of what you're wanting to bring to the table... If you know a lit
 
 Your response is really simple - it's up, down, left or right. Which direction do you wanna move. Then you have 500 milliseconds to decide that. But it's all happening in real-time, so if you don't hit that window, then your snake will just move forward at your own peril. If you're watching the game in real time, the battlesnakes that are in the game are very fast, and the game plays back really fast. And then part of what we do on the platform is we slow games down to make it much more consumable to most people. So most of what you're seeing when you're interacting is actually replays, buffered replays of pre-run games that usually happened 5-10 minutes ago.
 
-**Mat Ryer:** \[00:08:15.08\] Interesting. Yeah, because you can post your battlesnake on the edge and really go fast.
+**Mat Ryer:** \[08:15\] Interesting. Yeah, because you can post your battlesnake on the edge and really go fast.
 
 **Brad Van Vugt:** Yeah. Some of the top-tier competitors have figured out where we host the game engine out of, just by spinning up servers in different data centers and different clouds, so they've kind of triangulated where we are, so they've happened to collocate their battlesnakes right next to the game engine to give them maximum compute time. That's what they're doing.
 
@@ -94,7 +94,7 @@ So there's this really interesting, natural progression of like you start just b
 
 **Jon Calhoun:** I guess in most Snakes that's the score, but I don't know in Battlesnake if it's anything but just surviving.
 
-**Brad Van Vugt:** \[00:11:58.25\] So this is a mechanic we added early on to make it competitive. I've mentioned we've been doing this for a number of years... The first time we held it, there was no health. There's that whole health mechanic that we had to add, again, in response to players being creative. So we learned that you could be a very competitive battlesnake if you just went in the corner and hid. That was a valid strategy, and everyone else would eventually outgrow each other and run out of space... So I think a very competitive - this was the first year we did it - a very competitive strategy was just doing that. So we implemented this health mechanic - so you have a set amount of health and you lose one health for every turn. So you have to eat on a minimum cadence in order to survive and to stick around... So we introduced that, and that's kind of what your score is. It's kind of like your length.
+**Brad Van Vugt:** \[11:58\] So this is a mechanic we added early on to make it competitive. I've mentioned we've been doing this for a number of years... The first time we held it, there was no health. There's that whole health mechanic that we had to add, again, in response to players being creative. So we learned that you could be a very competitive battlesnake if you just went in the corner and hid. That was a valid strategy, and everyone else would eventually outgrow each other and run out of space... So I think a very competitive - this was the first year we did it - a very competitive strategy was just doing that. So we implemented this health mechanic - so you have a set amount of health and you lose one health for every turn. So you have to eat on a minimum cadence in order to survive and to stick around... So we introduced that, and that's kind of what your score is. It's kind of like your length.
 
 The other interesting thing that we added with the health that's kind of, again, our own take on the classic game, is for resolving head-to-head collisions. So if you go head-to-head with another battlesnake, if you're both the same size, then you both get eliminated. But if you're longer, then the other player gets eliminated. And so this means there's this awesome trade-off between defensive and aggressive play. You can try to get food and try to gain length advantages and try to outmaneuver your opponent, but the trade-off there is you start to run out of space sooner. So you have to be a lot more strategic in how you're maneuvering in order to pull that off.
 
@@ -114,7 +114,7 @@ It's a really interesting... We think of it as solution space, but the solution 
 
 A really good example of this is -- I'll tell a little bit of a story. So we ran Fall League last September, and we had a new Battlesnake developer come in, no one had ever met them before; their username was Tofu. This is what they called themselves. And they picked this mid-beige color, and their snake was blocks on both ends. They really played up the theme.
 
-\[00:16:10.12\] But they just started destroying leaderboards all over the place. They were just winning game after game after game, and they were knocking out top-tier multi-year Battlesnake developers. And we didn't know anything about this person, so we were like livecasting games, we were on Twitch, we were talking about strategies, but we have no idea what tech they're using and how they're going about this.
+\[16:10\] But they just started destroying leaderboards all over the place. They were just winning game after game after game, and they were knocking out top-tier multi-year Battlesnake developers. And we didn't know anything about this person, so we were like livecasting games, we were on Twitch, we were talking about strategies, but we have no idea what tech they're using and how they're going about this.
 
 And then we had one developer from the community study Tofu's games, like game after game after game, and they identified a very specific situation in which Tofu was vulnerable. So they programmed a battlesnake to at all costs try to force this situation. And it was a situation where Tofu would go against the wall in a way that was disadvantageous for itself, and then if you caught this scenario, then you could cut it off really quickly.
 
@@ -138,7 +138,7 @@ Now, to be fair, it's a very bad AI. I think it chooses its moves randomly, so i
 
 **Jon Calhoun:** You've got something that's at least running, and you can verify "My code is connected to this server" and it gets you past all those initial hurdles, which historically with programming and learning to code and getting into something, usually that's the biggest barrier, is like just getting started. And then from there, it's an awesome starting point, which I've noticed repl.it and other things like that are awesome tools for getting people involved, and something that would otherwise take a lot of effort.
 
-**Brad Van Vugt:** \[00:20:03.22\] Yeah. I think that's one of the ways where it shines. Replit is a partner of ours, they support what we do, and we're fans of what they're doing, but also we have tutorials if you wanna use Heroku. We're working on a tutorial now if you wanna use Railway. The AWS team - there's an open source battlesnake that was made using AWS Sagemaker by the AWS Sagemaker team that they built, and it's just to show off of like "Hey, if you wanna try this, here's a really interesting way to try it." So what we're starting to see is the community is really giving back to us in that regard, in that they're making tooling... We think of them as starter projects, or starting repos, that have a lot of the infrastructure in place so you can just get to programming quicker, which is kind of the crux of it.
+**Brad Van Vugt:** \[20:03\] Yeah. I think that's one of the ways where it shines. Replit is a partner of ours, they support what we do, and we're fans of what they're doing, but also we have tutorials if you wanna use Heroku. We're working on a tutorial now if you wanna use Railway. The AWS team - there's an open source battlesnake that was made using AWS Sagemaker by the AWS Sagemaker team that they built, and it's just to show off of like "Hey, if you wanna try this, here's a really interesting way to try it." So what we're starting to see is the community is really giving back to us in that regard, in that they're making tooling... We think of them as starter projects, or starting repos, that have a lot of the infrastructure in place so you can just get to programming quicker, which is kind of the crux of it.
 
 **Mat Ryer:** Yeah, I love that. I love the idea that AWS are using it. I imagine Google are gonna do it... And maybe it could end up being a good way to settle IP disputes in the future.
 
@@ -166,7 +166,7 @@ Part of this is making the developers feel like rockstars. It should feel really
 
 **Jon Calhoun:** Oh, boy...
 
-**Break:** \[00:23:07.27\]
+**Break:** \[23:07\]
 
 **Jon Calhoun:** When people are getting into this learning process, I've noticed you have the challenges. Do you wanna expand a little bit on what those are and how they help people get started?
 
@@ -186,7 +186,7 @@ One of them you mentioned was if you're a beginner to programming in general, th
 
 **Jon Calhoun:** You and I were talking though at one point about one of the areas - it was before we got on air - that this could potentially go is sort of the testing realm... And this happened before we recorded this, I was trying to make a battlesnake myself, and I've found myself really wanting to have a case where I could take sort of a test game state and be like "Alright, if I give this to my game, what does it do? Does it do what I want it to do?" And it'd be great to have some sort of way to give it a game state without having to manually construct everything that would be in the JSON, the whole request payload, and then to actually test your code and say "Does this give me the response?" And Brad, I believe you said that the community built some tools sort of like this.
 
-**Brad Van Vugt:** \[00:27:59.26\] Yeah. I think it was like -- your Battlesnake AI is very easily unit-testable. It lends itself -- the inputs and the outputs are very well-defined... Of like, "Given this game state, if up is the only valid move, then I'd better return up 100% of the time." So you can add this sort of unit test...
+**Brad Van Vugt:** \[27:59\] Yeah. I think it was like -- your Battlesnake AI is very easily unit-testable. It lends itself -- the inputs and the outputs are very well-defined... Of like, "Given this game state, if up is the only valid move, then I'd better return up 100% of the time." So you can add this sort of unit test...
 
 I mentioned the idea of like - we've found that Battlesnake development kind of follows this natural progression of web development as a whole. You start to think about latency, you start to think about performance and concurrency, but you also start to think about unit testing, or specifically regression testing, because that's a really easy way to make sure that you're not harming your AI as you continue to develop.
 
@@ -202,7 +202,7 @@ I guess an example I can give is when I was making my snake, when I messing arou
 
 So the challenge is kind of like us leaning into that a bit more; we're starting to produce more content around how to achieve those first four steps. We've also thought about adding some more basic, some more base-level code to the projects that we publish. You mention that like -- I think the Go Starter Project just moves randomly, but we could start adding maybe some helper functions to do distance calculations, \[unintelligible 00:32:05.16\] or this kind of thing. Not solve the problems for you, but give you some of the tools that you're probably gonna wanna use. Still let you apply them.
 
-**Jon Calhoun:** \[00:32:15.27\] Yeah, definitely. So another thing we've sort of talked about is I believe you mentioned that you have a CLI for running this locally. And if I recall correctly, that's written in Go, which also means that essentially your entire game engine is written in Go then. Is that correct?
+**Jon Calhoun:** \[32:15\] Yeah, definitely. So another thing we've sort of talked about is I believe you mentioned that you have a CLI for running this locally. And if I recall correctly, that's written in Go, which also means that essentially your entire game engine is written in Go then. Is that correct?
 
 **Brad Van Vugt:** Yes, it is. And most of it is open source. So if you go to our GitHub - I think it's called the Rules Repo - the entire game logic is implemented in Go and is open source, so that anyone can see it. We get this a lot, where developers are eliminated in cases where they don't necessarily think it was fair or whatever, and so we're able to point to source code that says "Well, we're running this code. You can take a look at it and see exactly what's happening." And a lot of devs like to look at the source code to debug order of operations in the game engine to figure out exactly when food consumption happens, when does elimination detection happens, so that they can program against these super-tight edge cases... And with that, again, the community built a little CLI tool for running games locally. So that's baked into that repo, and that's all written in Go.
 
@@ -224,7 +224,7 @@ The original game engine was actually written in Python. Like, old Python gevent
 
 **Jon Calhoun:** So following up to this, the one thing I did notice was that because this is written in Go, I feel like Go developers have a slight advantage, in the sense that they can then take the game engine or the rule set, and if they're trying to actually play out like "What are the next possible ten steps, depending on what moves are", and basically just doing a brute force sort of approach of "Play the next ten steps and see which of my moves will do best", you can do this pretty easily -- well, I say "pretty easily." You can do it probably more easily in Go, because you can actually import that code, and you're having a game engine running inside of your code, and you can sort of work from there. Has that actually proven to be the case, where ones written in certain languages are more performant than others?
 
-**Brad Van Vugt:** \[00:36:20.29\] I wouldn't necessarily say performant, but I would say there's a clear advantage to being able to run the actual game logic within your AI, within your bot.
+**Brad Van Vugt:** \[36:20\] I wouldn't necessarily say performant, but I would say there's a clear advantage to being able to run the actual game logic within your AI, within your bot.
 
 **Mat Ryer:** You mean while they're actually battling?
 
@@ -252,7 +252,7 @@ So if you're willing to take a Web Assembly version of a cross-compiled version 
 
 And then that player can then counter -- there's this counter-play that goes back and forth, right? So long-term, the game gets closer to something like Rock, Paper, Scissors, where you can kind of counter moves... There's no AI that's gonna win every game. That's not possible.
 
-**Jon Calhoun:** \[00:40:06.09\] I definitely noticed some of that when I was... So I first started setting up my AI, and one of the first things you almost always -- I'm assuming most people do when you start looking at other snakes, is if I move here and another snake moves here, you're like "Well, we could both potentially die, depending on (like you said) snake length and stuff... And at the time I didn't even know about snake length, so I wasn't really sure what would happen... So I'm just like "Let's just avoid this move altogether." And I'm guessing most people do this, so early on, if you're thinking about it, you could probably safely go there knowing that most AI's are not gonna take that chance... But like you said, there could be some snakes that you realize are super-aggressive there, and you're like "Oh, I don't wanna risk that right now." So there's definitely a lot of factors that could go into that, deciding what to do.
+**Jon Calhoun:** \[40:06\] I definitely noticed some of that when I was... So I first started setting up my AI, and one of the first things you almost always -- I'm assuming most people do when you start looking at other snakes, is if I move here and another snake moves here, you're like "Well, we could both potentially die, depending on (like you said) snake length and stuff... And at the time I didn't even know about snake length, so I wasn't really sure what would happen... So I'm just like "Let's just avoid this move altogether." And I'm guessing most people do this, so early on, if you're thinking about it, you could probably safely go there knowing that most AI's are not gonna take that chance... But like you said, there could be some snakes that you realize are super-aggressive there, and you're like "Oh, I don't wanna risk that right now." So there's definitely a lot of factors that could go into that, deciding what to do.
 
 **Brad Van Vugt:** Yeah. In competitive play there's a couple different tiers and ranks. There's Bronze, Silver, Gold, and then Platinum and Elite. And Elite is typically the top 16 players at any given time, we try to keep that capped. But the Silver and the Gold play is really interesting, because you start to see -- like, the way you break out of those tiers is you start to realize that those trade-offs are being made by everybody, and you start to realize that you can take advantages of those.
 
@@ -268,7 +268,7 @@ So if I'm in a Gold tier and I'm up against Gold tier competitors, I know that y
 
 And you start to see things like \[unintelligible 00:43:07.08\] and these kind of algorithms to detect the traps, the self-trap scenarios that you pointed out... And then as you break out of that, then you start to get to the higher tiers. Absolutely, absolutely, and I think that's what makes this super-interesting.
 
-**Break:** \[00:43:21.12\]
+**Break:** \[43:21\]
 
 **Mat Ryer:** There's a great documentary about DeepMind doing the game Go, and they also -- you can find it online, there are videos of it playing Starcraft... And they noticed when they were watching it that they would put them up against world-class players, and they realized that the AI would make silly little mistakes, things which if a player had made that mistake, you'd think this person's not gonna win now. They've made this kind of schoolboy error. But then they AI goes on to win, and it turns out it just sort of didn't matter.
 
@@ -318,7 +318,7 @@ Now, granted, it might also be the case where an AI might be able to click or do
 
 **Jon Calhoun:** I'm like, "What does this actually translate into? What is their actual click rate of useful moves and--"
 
-**Brad Van Vugt:** \[00:48:17.04\] Like actions per minute versus clicks per minute?
+**Brad Van Vugt:** \[48:17\] Like actions per minute versus clicks per minute?
 
 **Jon Calhoun:** Yeah. What is the actual useful number, and does that actually matter? I'd be curious to see if you could take AI's and just bring that as low as possible to see "Does this make a difference in pro play or not?" That's the type of thing it'd be really fun to do with DeepMind if you had the opportunity to.
 
@@ -344,7 +344,7 @@ Now, granted, it might also be the case where an AI might be able to click or do
 
 **Mat Ryer:** Yeah, you really are. You literally have if statements and things where you give logic into a little character and they've got to find their way home... And there's not seven billion of them, so the title is a little bit misleading there. I only counted 6.4 billion when I counted them...
 
-**Brad Van Vugt:** \[00:52:09.24\] \[laughs\]
+**Brad Van Vugt:** \[52:09\] \[laughs\]
 
 **Jon Calhoun:** But yeah, that game was even interesting in the sense that it -- didn't it even tell you if you had the shortest code possible, or the fastest code possible?
 
@@ -368,7 +368,7 @@ Now, granted, it might also be the case where an AI might be able to click or do
 
 **Jon Calhoun:** Alright, we're running near the end of the episode, Brad, so we're gonna move over to your unpopular opinion.
 
-**Jingle:** \[00:53:41.29\] to \[00:54:00.27\]
+**Jingle:** \[53:41\] to \[54:00\]
 
 **Jon Calhoun:** So tell us what is your unpopular opinion.
 
@@ -380,7 +380,7 @@ Now, granted, it might also be the case where an AI might be able to click or do
 
 **Jon Calhoun:** We don't think about it that much, but I could imagine this also affecting people's salaries based on their backgrounds. For instance, somebody who has their parents paying for their college and can afford to turn down a job offer, or try to negotiate with those risks involved... Versus somebody who's like "I just graduated with $100,000 in debt. I can't take the risk of upsetting them by asking for more money." Or that might be what's going through their head.
 
-\[00:55:58.09\] In practice, job offers are probably rarely rescinded for trying to negotiate... But there's always that risk, and that could potentially mean that people who are already coming into the work environment with a slight handicap by not having parents who can pay for their school - I say "slight", but that's a pretty big handicap. But if you're coming in with that handicap, it sort of further amplifies it.
+\[55:58\] In practice, job offers are probably rarely rescinded for trying to negotiate... But there's always that risk, and that could potentially mean that people who are already coming into the work environment with a slight handicap by not having parents who can pay for their school - I say "slight", but that's a pretty big handicap. But if you're coming in with that handicap, it sort of further amplifies it.
 
 **Mat Ryer:** Yeah, and I suppose also -- like, I know from hiring myself that on average, female candidates would ask for about 10% less than men would, for whatever reason... And I suppose it helps like that. By the way, when that happened, I would tell them, because I'm a feminist hero... But I suppose it helps there, does it?
 

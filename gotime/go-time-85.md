@@ -24,7 +24,7 @@ Okay, so let's talk a little bit about today's theme... This is Golang For Begin
 
 I guess the first thing I wanted to start with is to ask - what is a beginner? What types of beginners are there? Anyone?
 
-**Ashley McNamara:** \[00:04:18.15\] Good question. There are beginners that know one programming language and they want to learn another; there are people that are career-transitioning, that don't know any programming... There's all kinds of beginners.
+**Ashley McNamara:** \[04:18\] Good question. There are beginners that know one programming language and they want to learn another; there are people that are career-transitioning, that don't know any programming... There's all kinds of beginners.
 
 **Jon Calhoun:** I was gonna say, there's even the curious kids who don't know what they're doing and like to break their parents' technology, which is probably some of us... \[laughter\]
 
@@ -50,7 +50,7 @@ Since then, I've actually specialized in making something very clear it is for a
 
 **Ashley McNamara:** That is the kind of course that I value specifically as somebody who does not have a CS degree. I think I get into the weeds often, because what happens - I am my own worst enemy - is I try to learn something and I'm like "No, no, I need to know the thing before that, and then the thing before that, and then the thing before that", until I'm like "Have I learned anything at all?" \[laughter\] So I like to get into the weeds a little bit, but if it's self-guided, sometimes I'm too in the weeds.
 
-**Jon Calhoun:** \[00:07:52.21\] I think this is one of the reasons why at times I feel like the younger you are, the easier it is to learn this stuff... Because you're more willing to just take things for granted, I think. Whereas the older you get, you're like -- I just think that it's easy, as an adult, to think "I need to figure out what all these things are doing and understand and at all." As a kid, you're just like "I'm willing to just trust you and just go with it, and let it go."
+**Jon Calhoun:** \[07:52\] I think this is one of the reasons why at times I feel like the younger you are, the easier it is to learn this stuff... Because you're more willing to just take things for granted, I think. Whereas the older you get, you're like -- I just think that it's easy, as an adult, to think "I need to figure out what all these things are doing and understand and at all." As a kid, you're just like "I'm willing to just trust you and just go with it, and let it go."
 
 **Carmen Andoh:** Interesting. So you think that's maybe the key, just sort of trusting whoever has shaped the content is gonna structure the content, that's how you're gonna learn, or...?
 
@@ -74,7 +74,7 @@ With Go, to be honest, it sort of came about for me from market research, becaus
 
 I realized that - here was a language that back in the day when I learned C for the first time, very much smelled like, tasted like, acted like C, exposed some of those fundamental computer bits, but had grown into being so much more than a system-based language. So I literally fell in love with it.
 
-\[00:12:14.07\] Then because I had intended to develop a course on it -- what I really try to do in all the courses that I teach is I try to develop a roadmap so that my students aren't depending on me. With the internet there is this amazing amount of material out there, but it's not curated in a meaningful way... And that is maybe the secret sauce that I try to bring to the table. Because people have the itch, they have that "How do I get up to speed and make meaningful use of my time in order to achieve a learning understanding with Go?", or whatever their thing is. And so in the course I have what I call an emergency Golang parachute, which is learning resources, right out of the gate, saying "If you get stuck, here's all the really other cool stuff that's out there that you should know about, so that you can take advantage of that in order to supplement your learning." And then I finish off the course with "Here's where to go from here to continue your learning journey", and then take them through that piece where they can effectively then use those examples and resources.
+\[12:14\] Then because I had intended to develop a course on it -- what I really try to do in all the courses that I teach is I try to develop a roadmap so that my students aren't depending on me. With the internet there is this amazing amount of material out there, but it's not curated in a meaningful way... And that is maybe the secret sauce that I try to bring to the table. Because people have the itch, they have that "How do I get up to speed and make meaningful use of my time in order to achieve a learning understanding with Go?", or whatever their thing is. And so in the course I have what I call an emergency Golang parachute, which is learning resources, right out of the gate, saying "If you get stuck, here's all the really other cool stuff that's out there that you should know about, so that you can take advantage of that in order to supplement your learning." And then I finish off the course with "Here's where to go from here to continue your learning journey", and then take them through that piece where they can effectively then use those examples and resources.
 
 It's that very beginning. That beginning is so hard for people that don't have any experience, so giving them that ignition, even that permission to break things and experiment with things, and to think about things as they're coding and developing their exercises and so on - it gets them that little bit of traction with their wheels and gets them started. And the more students I can get started, the happier I am.
 
@@ -88,7 +88,7 @@ So Gophercises was kind of me saying -- you know, if I was starting over and I j
 
 **Jon Calhoun:** And that's really frustrating.
 
-**Ashley McNamara:** \[00:16:09.26\] So frustrating... Like, build a to-do app. Tell me something, tell me where to start. I feel like really experienced programmers - that's their go-to advice. "Well, just go build something."
+**Ashley McNamara:** \[16:09\] So frustrating... Like, build a to-do app. Tell me something, tell me where to start. I feel like really experienced programmers - that's their go-to advice. "Well, just go build something."
 
 **David Valentine:** Actually, the other advice that I'd add to that though... I mean, if you've got a project, build it. But don't just build it just once, build it three times. \[laughs\]
 
@@ -108,7 +108,7 @@ So if I were to add any advice with that, once you do find that something, whate
 
 **Carmen Andoh:** Yes, John. And I think that learning is repetition, right? If you learn anything, you're gonna need to repeat it in order to make it go to long-term memory. But I think that that's also a great approach.
 
-**Break:** \[00:18:50.29\]
+**Break:** \[18:50\]
 
 **Carmen Andoh:** Well, I wanna segue into instead of maybe talking more about how we learn and approaches to learning, let's talk about learning in Go. We kind of touched on that, about the starting point and foundations and computer science fundamentals in your Udemy course, Dave, but... How do you teach beginners Go? And we can talk about this either from other languages, in terms of their experience, or from scratch. What do you think is unique to learning in Go, versus just programming in general?
 
@@ -120,7 +120,7 @@ So I think it's really similar to other programming languages in the sense that 
 
 **Ashley McNamara:** In the beginning -- well, you know, until recently (Thanks, Go team!), GOPATH was a nightmare. Once you got through that hurdle, after you're ready to throw your computer, and then you build something, you're feeling better... But I think that the hurdle of setting up your GOPATH was such a nightmare that people were just like "No... No. If this is just setup, how's it gonna be?"
 
-**David Valentine:** \[00:24:04.05\] Oh, absolutely. And getting to be set out of the default was the most brilliant thing that could happen.
+**David Valentine:** \[24:04\] Oh, absolutely. And getting to be set out of the default was the most brilliant thing that could happen.
 
 **Jon Calhoun:** I think that's one of the reasons why you see PHP being so popular still to this day. And I still think one of the big reasons it was was because if you knew very little, you could find a free PHP server and just upload a file, or you FTP in, or something, and connect to it and change a file, and you would see results. You didn't have to understand or install anything, and you could get stuff working. And I think every new language should strive for as much simplicity as possible.
 
@@ -156,7 +156,7 @@ That's one of the reasons why I love the Go Playground, because I'm glad they th
 
 **David Valentine:** I do think it also depends whether you're talking about an interpreted language or a compiled language as well, right? Because it is a little hard to compare Go to an interpreted language, the like of PHP perhaps, in the way that it's structured and some of those elements that it actually achieves underneath.
 
-\[00:28:03.29\] One other element I think comes into play is once you have Go set up, what do you hook in after that? Is it an IDE? Do you have plans for an IDE? Because there's some really outstanding things you can do afterwards, and yeah, I show - just like everyone else does - how do you make a Hello, world program on the command line. But then if you can actually trace, and set up breakpoints, and have an IDE experience after that that will help guide the student, then they can trace their way through the code, which again, will help them understand what's actually happening underneath the covers.
+\[28:03\] One other element I think comes into play is once you have Go set up, what do you hook in after that? Is it an IDE? Do you have plans for an IDE? Because there's some really outstanding things you can do afterwards, and yeah, I show - just like everyone else does - how do you make a Hello, world program on the command line. But then if you can actually trace, and set up breakpoints, and have an IDE experience after that that will help guide the student, then they can trace their way through the code, which again, will help them understand what's actually happening underneath the covers.
 
 So there's that initial setup, but then also -- ask anyone, they have their favorite, whether it's Atom, Sublime, Visual Studio Code... Everyone has their favorite tools to then add to whatever language they're programming in at that point.
 
@@ -200,7 +200,7 @@ For me, when I learn a new programming language - I am not ashamed by this, I do
 
 **Ashley McNamara:** Yes, it was. Yes!
 
-**David Valentine:** \[00:32:01.24\] Because Ashley is who introduced me to him... But I've actually gotten into the habit of -- so Ashley is usually really swamped, so I've gotten into the habit of trying to find different artists for all of the courses, because I like them to have a slightly unique feel. The testing course was Egon Elbre, and I have an algorithms course that I'm working on that is another Gopher in the community... I think it's Adrian -- I'm drawing a blank on his last name though. And then I have another artist who's working on another course that's way down the pipeline.
+**David Valentine:** \[32:01\] Because Ashley is who introduced me to him... But I've actually gotten into the habit of -- so Ashley is usually really swamped, so I've gotten into the habit of trying to find different artists for all of the courses, because I like them to have a slightly unique feel. The testing course was Egon Elbre, and I have an algorithms course that I'm working on that is another Gopher in the community... I think it's Adrian -- I'm drawing a blank on his last name though. And then I have another artist who's working on another course that's way down the pipeline.
 
 So I'm trying to use different artists for all of them, because I think it's cool to have different people drawing gophers, and I know that Ashley is just overwhelmed with stuff, so I don't wanna keep bugging her...
 
@@ -214,7 +214,7 @@ Anyway, [Jerod Santo](https://twitter.com/jerodsanto), who's also part of the Ch
 
 **Ashley McNamara:** Yeah, same. I'm here for it.
 
-**Break:** \[00:33:38.14\]
+**Break:** \[33:38\]
 
 **Carmen Andoh:** I want to talk a little bit about learning mediums. Each of you has created or taught content in this new world of online, so I would love to talk about your perspectives about pros and cons about each of these mediums. Jon, we're talking about your Gophercises with code, accompanied by videos; Dave, this would be your online course, workshops that you've given at events and conferences, Ashley... So what are some of the pros and cons about each of these mediums for beginners.
 
@@ -224,7 +224,7 @@ So I think videos are really good for that interactive -- or not quite interacti
 
 So basically that's something I've been struggling with lately, trying to figure out the right approach to that... Because I think that making videos more accessible is something that needs to happen in the future.
 
-**David Valentine:** \[00:36:12.03\] One of the things that I think is important - because I recognize that my courses have reached 160-something different countries - is having good closed captioning. And I have to admit right now my Golang course doesn't have it yet, but to second Jon's thoughts around closed-captioning -- because some people, English may not be their native language; they speak several different languages, so having something there is extremely useful for them... But the challenge is that the automated closed-captioning just doesn't work. I don't know how many times I've said "Udemy", and it gets translated to "you and me", on the Udemy platform itself... Or something absolutely crazy. And I'm thinking, if there's any word that Udemy would have right in their closed-captioning, it would be Udemy, right? So that is a huge technical challenge and hurdle.
+**David Valentine:** \[36:12\] One of the things that I think is important - because I recognize that my courses have reached 160-something different countries - is having good closed captioning. And I have to admit right now my Golang course doesn't have it yet, but to second Jon's thoughts around closed-captioning -- because some people, English may not be their native language; they speak several different languages, so having something there is extremely useful for them... But the challenge is that the automated closed-captioning just doesn't work. I don't know how many times I've said "Udemy", and it gets translated to "you and me", on the Udemy platform itself... Or something absolutely crazy. And I'm thinking, if there's any word that Udemy would have right in their closed-captioning, it would be Udemy, right? So that is a huge technical challenge and hurdle.
 
 The other thing - because I did have a background in teaching outside of this, where I've done some workshops in-person in advance of this type of experience, as well as having tutored one-on-one - is you lose that interaction when you have an online video, and it is extremely difficult to iterate, and make changes. There's substitutes for it, but I like to see eyes, and even just "Hello!" and putting content out there into the world - it's a very different platform when you're doing a static video than when you're recording.
 
@@ -242,7 +242,7 @@ I think one of the big things I've just noticed is that people find other people
 
 **Carmen Andoh:** So collaboration, in-person, gauging for deer in the headlights, course correcting - that's typically been the traditional way of learning, right? But it doesn't scale. It doesn't scale the teacher, and it's not accessible to rural and suburban learners.
 
-**Jon Calhoun:** \[00:39:56.09\] I think it can scale, it just scales differently. One way I've seen it scale is I've seen people who do online courses, and they'll essentially have -- they call them classes, or whatever... But essentially, a bunch of people sign up and they say "Alright, we're gonna start in December, and every week you're supposed to go through so much content", and then you're all in a Slack channel and you discuss that content, and you're expected to keep up with the classroom on that content. It's less acceptable in the sense that you can't just start whenever you want, but I think there are ways to get that simulated classroom environment.
+**Jon Calhoun:** \[39:56\] I think it can scale, it just scales differently. One way I've seen it scale is I've seen people who do online courses, and they'll essentially have -- they call them classes, or whatever... But essentially, a bunch of people sign up and they say "Alright, we're gonna start in December, and every week you're supposed to go through so much content", and then you're all in a Slack channel and you discuss that content, and you're expected to keep up with the classroom on that content. It's less acceptable in the sense that you can't just start whenever you want, but I think there are ways to get that simulated classroom environment.
 
 I think as course creators, it's things we have to think about... Like, is there a way that we can make that possible? I think tools like Slack have made it much better, too. I've gotten into this habit of -- all the courses I have, I provide support for, but I've gotten into this habit of "Any of the paid of courses, you've got access to a Slack", and I basically say "Ask your question there." Even if you email it to me and I can answer in five seconds, I say "Ask the question there", because this is the best way to foster this growth between different people taking the course - you each try to answer the questions and help each other out. That will establish that learning, it'll help you get used to helping each other...
 
@@ -260,7 +260,7 @@ Over time, it's gotten to this point where I can sometimes check the Slack, and 
 
 **David Valentine:** I'll jump in there. Once you've got your head around some basic Go, you've done lots of different examples and you have the basic language across, I think at that point jumping into effective Go in terms of learning how to write good, clean, idiomatic Go code is your very next step. Then, as Ashley was mentioning when we were talking about building examples, another item I think that is fantastic, which is similar to Awesome Python, is Awesome Go. If you go to [awesome-go.com](https://awesome-go.com/), you'll end up with a list of curated Go frameworks, libraries and software, and anything that floats your boat - whether you're interested in audio and music, or bot building, or any kind of different piece, there are some really outstanding resources available there.
 
-\[00:43:50.01\] And then finally, the third thing I'd lead off with in that respect would be to go to Go users groups, because almost any geography that you're in, either there's online forums or in-person groups (especially the in-person groups), you'll find that there are Go user groups. I live in a fairly small city in Canada called Winnipeg, which is smack central in the prairies, and yet we have a thriving Go user group locally. So unless you're rural, you may be able to find and crash a Go user group (even if you're traveling) and to connect with Go users in-person which I think it's amazing.
+\[43:50\] And then finally, the third thing I'd lead off with in that respect would be to go to Go users groups, because almost any geography that you're in, either there's online forums or in-person groups (especially the in-person groups), you'll find that there are Go user groups. I live in a fairly small city in Canada called Winnipeg, which is smack central in the prairies, and yet we have a thriving Go user group locally. So unless you're rural, you may be able to find and crash a Go user group (even if you're traveling) and to connect with Go users in-person which I think it's amazing.
 
 **Ashley McNamara:** Plus one to Go user groups.
 
@@ -284,7 +284,7 @@ But that one comes to mind because there were one or two people that were very e
 
 It's not gonna happen overnight. I don't think you can ever, as a beginner, jump into a project and make meaningful code changes, or big code changes. People who run open source projects have to resist this urge to fix a one-line bug; they sort of have to set it aside for a beginner to tackle. But if you can find the right projects, and maybe ask around in the Go community for suggestions, that's a great way to grow, where you just gradually do small changes and work your way up to handling more and more of the codebase.
 
-**Ashley McNamara:** \[00:48:11.17\] I agree. That is advice I give often. And what I would like to see in the future is people prioritizing PRs, like "Here's what's great for a beginner. Here's what's great for people that are more advanced." There's a site called Up-For-Grabs. It's not .com, I can't remember what it is (up-for-grabs.net), but it does just that, where it's like "These are great bug fixes that you can do as a beginner. So it will rank things. I would love to see people do that within open source in general.
+**Ashley McNamara:** \[48:11\] I agree. That is advice I give often. And what I would like to see in the future is people prioritizing PRs, like "Here's what's great for a beginner. Here's what's great for people that are more advanced." There's a site called Up-For-Grabs. It's not .com, I can't remember what it is (up-for-grabs.net), but it does just that, where it's like "These are great bug fixes that you can do as a beginner. So it will rank things. I would love to see people do that within open source in general.
 
 **Carmen Andoh:** Yeah. I love when GitHub tags "Great first issue", and then you can just sort by the tags, and they optimize their project not for getting things done necessarily, but for -- well, yes, that's certainly important, but also for being inclusive and trying to onboard new members into their project or their ecosystem and whatnot.
 
@@ -320,7 +320,7 @@ It's not gonna happen overnight. I don't think you can ever, as a beginner, jump
 
 **Ashley McNamara:** I have.
 
-**Carmen Andoh:** \[00:52:07.05\] Yeah... And is learning while on the job, whether it's because you have to or you're exploring for new tooling, or because it's a change in the technical stack - how does learning or beginning from that headspace any different from learning maybe on your own time?
+**Carmen Andoh:** \[52:07\] Yeah... And is learning while on the job, whether it's because you have to or you're exploring for new tooling, or because it's a change in the technical stack - how does learning or beginning from that headspace any different from learning maybe on your own time?
 
 **Ashley McNamara:** I feel like it's different, because usually if it's for work, you know why you need to learn it. So you kind of have some base knowledge. You're like "I have to learn it because I need to build this feature, or we're building this tool, and that's why I have to learn it." So you can google more specifically...
 
@@ -340,7 +340,7 @@ So it's very pointed, because you're trying to get to a particular objective... 
 
 **Ashley McNamara:** Exactly. You definitely get less in the weeds when it's for work.
 
-**Carmen Andoh:** \[00:54:58.18\] Very cool. I wanna hear more about this... I am gonna put a link in the chat - it's bit.ly/onjobcodesurvey. I wanna share it on my Twitter, and maybe everyone else can share it... I just wanna know, because it's kind of my one "How is that different?", and are there any gaps out there in the ocean of content that you think that need to be most filled at this point, as we close out?
+**Carmen Andoh:** \[54:58\] Very cool. I wanna hear more about this... I am gonna put a link in the chat - it's bit.ly/onjobcodesurvey. I wanna share it on my Twitter, and maybe everyone else can share it... I just wanna know, because it's kind of my one "How is that different?", and are there any gaps out there in the ocean of content that you think that need to be most filled at this point, as we close out?
 
 **David Valentine:** Children's book. Dang it. \[laughs\]
 

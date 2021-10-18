@@ -46,7 +46,7 @@ This is also a part of the monthly meetup that is London Gophers, which we'll ta
 
 **Mat Ryer:** Very good.
 
-**Gautam Rege:** \[00:04:04.13\] That's why they decided to get me on the panel. \[laughter\]
+**Gautam Rege:** \[04:04\] That's why they decided to get me on the panel. \[laughter\]
 
 **Mark Bates:** What we really like doing is giving Mat -- we tell them one pronunciation of somebody's name... Schleslinger, Boursiquot, Gautam. And we just like to see what he does with it on stage. It's quite fun.
 
@@ -124,7 +124,7 @@ A big thanks to GopherCon UK and GoTime for doing this together. This is awesome
 
 **Mark Bates:** And Mat does have a random gift he's been desperate to give away for some bizarre reason.
 
-**Mat Ryer:** \[00:08:07.26\] I have a GopherCon towel, from the wrong GopherCon...
+**Mat Ryer:** \[08:07\] I have a GopherCon towel, from the wrong GopherCon...
 
 **Mark Bates:** A beach towel. From -- yeah, the wrong GopherCon.
 
@@ -170,7 +170,7 @@ It's a really weirdly split brain package, because on one side you've got the pa
 
 And then I remember reading a bunch of books which all used Context for examples of deadlines and cancellations and timeouts in a really clever way... So I've tried to do that. I can't say I do this a lot day-to-day, because most of the time when you use libraries it's all taken care of for you... But under the hood it still uses the context. And then when my request times out, I see in the logs "context timeout", so I'm like "Yeah...! Context!" \[laughs\]
 
-**Mat Ryer:** \[00:12:13.20\] For anybody that doesn't know why that got a laugh, when you said you don't put the database connection in there... Maybe we should talk a bit about that. Because when you do use the values inside a context --
+**Mat Ryer:** \[12:13\] For anybody that doesn't know why that got a laugh, when you said you don't put the database connection in there... Maybe we should talk a bit about that. Because when you do use the values inside a context --
 
 **Mark Bates:** Yeah, which is the context with value, right?
 
@@ -216,7 +216,7 @@ A very common use case is log parameters. If you wanna log something and you wan
 
 **Mark Bates:** I wanna get smarter than you, so don't send it to them. So if you don't know the internals... If you've never seen it, Francesc Campoy actually did two videos for JustForFunc about context when it first came out. And one of them I think is just truly wonderful, where he basically rebuilds almost the entire package from scratch. It's really clever, and I highly recommend you watch it. It shows use of goroutines and channels, and kind of keeping all this stuff in play, and how this context cancellation itself works. It's an excellent video.
 
-**Mat Ryer:** \[00:16:15.02\] Brilliant choice, Kat.
+**Mat Ryer:** \[16:15\] Brilliant choice, Kat.
 
 **Mark Bates:** Yeah.
 
@@ -284,7 +284,7 @@ A very common use case is log parameters. If you wanna log something and you wan
 
 **Liz Rice:** I think that's nice.
 
-**Gautam Rege:** \[00:19:47.08\] You need to be able to use it. I've seen cases where we were using MongoDB, and there's a lot of context being used, and I've seen code where people were like "Dude, I don't know why it's there, so I just put a dummy context and make it happen", and that comes and bites you later on, because suddenly your context is changed from a request. So when people are building bottom-up; you build the code first, and then you have an API added to it, and that context is misused, you \[unintelligible 00:20:10.26\] And the HTTP request which finally comes through is not using the context there, and it's failing, and you do not realize it until all your test cases bypass it. You realize it in production. So you have to be a little careful--
+**Gautam Rege:** \[19:47\] You need to be able to use it. I've seen cases where we were using MongoDB, and there's a lot of context being used, and I've seen code where people were like "Dude, I don't know why it's there, so I just put a dummy context and make it happen", and that comes and bites you later on, because suddenly your context is changed from a request. So when people are building bottom-up; you build the code first, and then you have an API added to it, and that context is misused, you \[unintelligible 00:20:10.26\] And the HTTP request which finally comes through is not using the context there, and it's failing, and you do not realize it until all your test cases bypass it. You realize it in production. So you have to be a little careful--
 
 **Mat Ryer:** I never got that TODO... I actually don't get that.
 
@@ -338,7 +338,7 @@ A very common use case is log parameters. If you wanna log something and you wan
 
 I always say that if you know regular expressions, your Linux commands and Vim, you're a programmer. \[laughter\] All the Emacs haters out there - too bad.
 
-**Mat Ryer:** \[00:24:18.03\] Other IDEs are available. We should just say that.
+**Mat Ryer:** \[24:18\] Other IDEs are available. We should just say that.
 
 **Mark Bates:** Yeah, we don't discriminate against the IDEs... Except for TextMate 2, which hasn't come out yet, so you're good. \[laughter\]
 
@@ -392,7 +392,7 @@ Well, there are ways that you can even replace stuff in it... But not recommende
 
 **Mark Bates:** And I'm not gonna lie, it feels amazing when you get a regex that works. Like, truly amazing... Doesn't it? You're like "I won the internet today. I got the regex to compile and do what I wanted it to do."
 
-**Liz Rice:** \[00:28:26.25\] I love those Regex101, where you can go and live-test your regex.
+**Liz Rice:** \[28:26\] I love those Regex101, where you can go and live-test your regex.
 
 **Kat Zień:** I was gonna say...
 
@@ -458,7 +458,7 @@ Well, there are ways that you can even replace stuff in it... But not recommende
 
 **Gautam Rege:** I think wide UTF8 support is there for regular expressions support already. And I don't think it gets to UTF8, because then you need to... suppose you're looking at maybe some Japanese or a Chinese character (a kanji), you cannot compare it to UTF8. You'll have to have the regular expression support wide characters for it. I haven't tried it, because I've not gone down to typing out one of the kanji stuff in the regular expression... It'd be fun, but... It should support it.
 
-**Mark Bates:** \[00:32:09.22\] There you go. Fantastic. I love it.
+**Mark Bates:** \[32:09\] There you go. Fantastic. I love it.
 
 **Mat Ryer:** Great, yeah.
 
@@ -514,7 +514,7 @@ Well, there are ways that you can even replace stuff in it... But not recommende
 
 **Mark Bates:** Yeah, we should all.
 
-**Liz Rice:** \[00:36:09.05\] And there's so much about this standard library that gives you just so much power out of the box. The other thing that kind of struck me when we first talked about doing this podcast was "Well, net/http - everything you need to write a website, right there, in a few lines of code."
+**Liz Rice:** \[36:09\] And there's so much about this standard library that gives you just so much power out of the box. The other thing that kind of struck me when we first talked about doing this podcast was "Well, net/http - everything you need to write a website, right there, in a few lines of code."
 
 **Mark Bates:** Buffalo users, don't listen to her. \[laughter\] She doesn't know what she's talking about. You need Buffalo.
 
@@ -538,7 +538,7 @@ He compares it to Java, where in order to read a file, you need a reader and the
 
 **Mark Bates:** I think the standard library really does a very -- I've had lots of conversations with the Go team, and I remember I was having one with Steve Francia, who's one of the program managers for the Go team... And we were talking about just this, and he said "The standard library is designed to be building blocks. You can start there, and then layer on top of that more abstractions if you need them."
 
-\[00:40:16.09\] If you've ever used a SQL package - it's very raw, and it feels quite clunky and cumbersome; and the reason is because that's the building blocks for building more abstractions on top, if you want to. And the same thing with the HTTP package. There are times where I'm like "Ugh, it doesn't do error handling. I wish it returned an error." But that's fine, you can then build an abstraction; I actually just did this little error check thing that takes a handler and it returns a handler, or it returns my own type of handler and it returns an error and I can do the error handling now in one place. But it's a little abstraction I just build on top of, and the standard library lets you do that, because it's so easy to work with in that way. That's how everybody has their own HTTP router now. \[laughter\]
+\[40:16\] If you've ever used a SQL package - it's very raw, and it feels quite clunky and cumbersome; and the reason is because that's the building blocks for building more abstractions on top, if you want to. And the same thing with the HTTP package. There are times where I'm like "Ugh, it doesn't do error handling. I wish it returned an error." But that's fine, you can then build an abstraction; I actually just did this little error check thing that takes a handler and it returns a handler, or it returns my own type of handler and it returns an error and I can do the error handling now in one place. But it's a little abstraction I just build on top of, and the standard library lets you do that, because it's so easy to work with in that way. That's how everybody has their own HTTP router now. \[laughter\]
 
 **Kat Zień:** Yeah. I think that's kind of a nice segue to the other package that I think Gautam mentioned, which was the httputil single reverse proxy... Which is another thing on top of HTTP that is very elegant.
 
@@ -558,7 +558,7 @@ One of the things I like to do -- I do it with a couple things. I will create my
 
 I also use it in tests. It's a really fun way of capturing and replaying back third-party APIs. In your tests, you're doing an http.get, you can change the transport mechanism so instead of going to Twitter, or Facebook, whatever you're trying to hit, you can just return back your own stuff. So it's incredibly useful for testing and mocking out the other side of the http.get. It's easy to mock out your own server, but sometimes it's just easier to capture a payload from Twitter, store it on the disk and just replay it using a transport.
 
-**Kat Zień:** \[00:44:24.20\] That's really cool.
+**Kat Zień:** \[44:24\] That's really cool.
 
 **Mark Bates:** So it's like the other side of the reverse proxy part; it's the outgoing part. That's one of my favorite little bits.
 
@@ -584,7 +584,7 @@ I remember my manager coming to me and saying "Can you write a reverse proxy in 
 
 **Mark Bates:** Yeah, really. One of the things I played with and I never actually got a chance to finish it -- with Buffalo, for example, we watch your go files, and as your go files change, we rebuild it; and if there's an error, we display that error back to you from the build, but we do that with kind of like just faking it out a little bit, using a file and serving it, and it's not particularly good. And one of the things I played with was a reverse proxy, where when you actually go to port 3000, it goes to this dev dashboard thing, and proxies it through to your application, which is now running on a different port. And if that crashes, we can just proxy that error back to you. But I just need more free time... But it's a wonderful, wonderful tool if you've never used it.
 
-**Break:** \[00:46:37.07\]
+**Break:** \[46:37\]
 
 **Mark Bates:** Speaking of time, Mat... It's 7:50.
 
@@ -638,7 +638,7 @@ I remember my manager coming to me and saying "Can you write a reverse proxy in 
 
 **Gautam Rege:** I also strongly believe that you should know the number of goroutines that are gonna spawned, and if it's going to be dynamically increasing, it can actually create more problems everywhere. I wouldn't still recommend using len on a buffered channel at anytime, because it's risky, but the pooling of goroutines, or throttling them, or limiting them over this - I think we could debate on that one.
 
-**Mat Ryer:** \[00:52:16.05\] Okay, yeah. Well, I know it works... I don't just kick off loads of goroutines. The kicking off of a goroutine is what's blocked by that channel, so I do know how many goroutines are running at one time.
+**Mat Ryer:** \[52:16\] Okay, yeah. Well, I know it works... I don't just kick off loads of goroutines. The kicking off of a goroutine is what's blocked by that channel, so I do know how many goroutines are running at one time.
 
 **Gautam Rege:** Yeah, that's good.
 
@@ -708,7 +708,7 @@ In 1999 we didn't have a ton of books on programming, we certainly didn't have t
 
 **Mat Ryer:** Don't worry, we'll do the names later.
 
-**Gautam Rege:** \[00:56:10.14\] The Marksman. Um... Sorry.
+**Gautam Rege:** \[56:10\] The Marksman. Um... Sorry.
 
 **Mark Bates:** That's one of those things we can cut out for Gautam now.
 

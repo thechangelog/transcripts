@@ -36,7 +36,7 @@
 
 **Carlisia Thompson:** I used to obsess with trying to find the idiomatic way to write Go code when I started learning Go, and I never really found a specific resource that said "This is the idiomatic way to write Go code." Actually, there is a website that tends to do that. It was done by someone at Sourcegraph, and I need to find the [link](https://about.sourcegraph.com/go/idiomatic-go/); I actually tried to find the link the other day. I don't have it. If I find it, I'll put it on the show notes. But there isn't much really to it, and the best way that I learned was by having code reviews done by co-workers... But of course, not everybody is in that position. Other than that, it really is just compare your code to what's out there.
 
-**Brian Ketelsen:** \[00:04:18.00\] Yeah, there's a channel in our Slack called Go [Reviews](https://gophers.slack.com/messages/reviews), and if you don't have co-workers who are strong in Go, you can always come into that Go Reviews channel and there are lots of people who are very willing to give you some good advice, and they're friendly about it, too.
+**Brian Ketelsen:** \[04:18\] Yeah, there's a channel in our Slack called Go [Reviews](https://gophers.slack.com/messages/reviews), and if you don't have co-workers who are strong in Go, you can always come into that Go Reviews channel and there are lots of people who are very willing to give you some good advice, and they're friendly about it, too.
 
 **Carlisia Thompson:** Yeah, that's a good point.
 
@@ -56,7 +56,7 @@ Now, I had the same problem in the Rails world, I was like "Oh, Rails is easy" u
 
 **Carlisia Thompson:** Yeah, absolutely. It has to be a collaborative effort, and people who will do it need to know how to do it; it's not just "Oh, I'm putting this up here and that's what it is." It's work, it's a lot of work, and like you're saying, they are a small team, but I think this is important. Because if they don't take the lead on this, yes, it can come from the community, but then what ends up happening is that we have ten resources and people are asking "Where should I be looking?"
 
-**Erik St. Martin:** \[00:08:00.07\] Yeah, that's true. There should be a canonical place. Okay, next question... We have Jamie Stackhouse who says "Do you have any examples of a codebase that uses plain database SQL for a larger size codebase? Particularly looking for patterns to share internally of good practice for scalable dev practices."
+**Erik St. Martin:** \[08:00\] Yeah, that's true. There should be a canonical place. Okay, next question... We have Jamie Stackhouse who says "Do you have any examples of a codebase that uses plain database SQL for a larger size codebase? Particularly looking for patterns to share internally of good practice for scalable dev practices."
 
 **Carlisia Thompson:** That's a great question.
 
@@ -70,7 +70,7 @@ Now, I had the same problem in the Rails world, I was like "Oh, Rails is easy" u
 
 **Erik St. Martin:** Okay, next question. It looks like the next two are GopherCon-related maybe... Okay, so Chris Shore asks "As GopherCon organizers, have you ever considered a panel talk for how Go has helped people overcome obstacles in their organizations, or lives for that matter?" I don't know that we have ever considered a panel talk, but we definitely do look for CFP submissions that demonstrate this. I think it's always interesting to hear these types of stories.
 
-**Brian Ketelsen:** \[00:12:01.09\] Yeah, I think in general, since we only have a small vote on the CFP submissions - I'm generalizing this probably more than I should - but the audience of GopherCon is already sold on Go, and a talk like that or a panel like that, talking about how Go helps people overcome obstacles is selling to the people that are already sold, and that I think is maybe the wrong audience and probably why we haven't seen anything like that yet... But that's a guess.
+**Brian Ketelsen:** \[12:01\] Yeah, I think in general, since we only have a small vote on the CFP submissions - I'm generalizing this probably more than I should - but the audience of GopherCon is already sold on Go, and a talk like that or a panel like that, talking about how Go helps people overcome obstacles is selling to the people that are already sold, and that I think is maybe the wrong audience and probably why we haven't seen anything like that yet... But that's a guess.
 
 **Erik St. Martin:** Yeah, and I guess that's true as, you know, the very first GopherCon there was a lot of having C talks like that, but nowadays people are dipping their toe into the Go world through attending meetups in more regional events. So I think that there'd be a bigger impact there probably for a lot of these discussions.
 
@@ -132,7 +132,7 @@ Now, I had the same problem in the Rails world, I was like "Oh, Rails is easy" u
 
 **Brian Ketelsen:** If I had to guess, I'd say over the course of the entire year, probably 500 hours for each of us, and I just pulled that out of the air... This year, 500 hours for each of us. The first couple years it was more like 1,000 hours for each of us. It was definitely a half-time job the first year.
 
-**Erik St. Martin:** \[00:16:10.20\] I'd say now it probably averages 10-15 hours a week, where some weeks are closer to five hours and some weeks are closer to 30 or 40 hours, just depending on the time of year and what's going on. Cory LaNou asks "What was the most unexpected good thing you learned/encountered/discovered when you joined Microsoft?"
+**Erik St. Martin:** \[16:10\] I'd say now it probably averages 10-15 hours a week, where some weeks are closer to five hours and some weeks are closer to 30 or 40 hours, just depending on the time of year and what's going on. Cory LaNou asks "What was the most unexpected good thing you learned/encountered/discovered when you joined Microsoft?"
 
 **Brian Ketelsen:** Oh, this is a good one. Unexpected good thing... Microsoft isn't evil. Of course, I'd learned that before I joined, which is why I joined, but I think going into Microsoft, going on campus and seeing all of the people who were just extremely passionate about technology and helping others, it's not just a marketing pitch that Microsoft has changed; it's real, and it's top-down, and it's kind of awesome. There's just so many amazing, smart people that work there, and I look forward to doing it every day.
 
@@ -166,7 +166,7 @@ Now, I had the same problem in the Rails world, I was like "Oh, Rails is easy" u
 
 **Carlisia Thompson:** That's a great question.
 
-**Erik St. Martin:** \[00:19:58.25\] Yeah, that is a very good question. I guess for me now might be -- it feels like a cloud-first language; a lot of the ecosystem in the cloud enters the systems world.
+**Erik St. Martin:** \[19:58\] Yeah, that is a very good question. I guess for me now might be -- it feels like a cloud-first language; a lot of the ecosystem in the cloud enters the systems world.
 
 **Brian Ketelsen:** What does that mean? What the hell does that mean? That's a cop-out. What is a cloud-first language? Answer it without the marketing buzz, come on.
 
@@ -184,7 +184,7 @@ I think if you have a small project, use whatever language you want, who cares..
 
 **Brian Ketelsen:** I couldn't have said that better. That's exactly what I would have said or was planning on seeing. Four or five years ago I would have said the same thing Erik would have said four or five years ago - concurrency, all of the speed and whatever, but now 100% my favorite feature of Go is how easy it is to read and how easy it is for a large team to know what's going on in a big Go repository, compared to other languages. It's drastically different.
 
-**Erik St. Martin:** \[00:24:07.24\] I think also another thing we're missing today, that we could say a little bit when we first started 4-5 years ago, is the community. The community is so much bigger, but also still kind of tight-knit in a lot of ways. I think the popularity and success of the language also lies heavily on the community.
+**Erik St. Martin:** \[24:07\] I think also another thing we're missing today, that we could say a little bit when we first started 4-5 years ago, is the community. The community is so much bigger, but also still kind of tight-knit in a lot of ways. I think the popularity and success of the language also lies heavily on the community.
 
 **Carlisia Thompson:** Agree, absolutely.
 
@@ -208,7 +208,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Erik St. Martin:** I guess from my standpoint it mirrors a lot of what both Brian and Carlisia said... The community aspect and always being welcoming. I think that we need more resources for beginners and onboarding, and kind of bridging that gap. Then I think we also need more people to speak at local meetups and things, because now we've kind of hit the catalyst point of Go's adoption growth; now we're starting to have more people come on, and people who aren't necessarily traveling to conferences and things like that... So we need more people speaking on the local fronts to get more people introduced to the language.
 
-**Brian Ketelsen:** \[00:28:23.23\] Yeah, and really that's our farm team for GopherCon. So go practice at the meetups and get polished well, so you can come and present on the big stage at GopherCon.
+**Brian Ketelsen:** \[28:23\] Yeah, and really that's our farm team for GopherCon. So go practice at the meetups and get polished well, so you can come and present on the big stage at GopherCon.
 
 **Erik St. Martin:** Okay.
 
@@ -242,7 +242,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Erik St. Martin:** Okay.
 
-**Brian Ketelsen:** \[00:32:00.15\] Alright, Scott Mansfield asks the next question - "Do you think the [Go 1.0 compatibility promise](https://golang.org/doc/go1compat) has already been broken?" I'll answer, yes. They intentionally broke it, at least once that I can think of, to fix a big error in something or other... That was several releases ago, I just don't remember the bug, but it broke backwards compatibility and they announced it. Oh, monotonic time. Yeah, that's definitely one. But there was another. So at least twice, yes. But I think the spirit of the Go 1.0 compatibility promise they've adhered to religiously, and I approve of that and appreciate it a lot.
+**Brian Ketelsen:** \[32:00\] Alright, Scott Mansfield asks the next question - "Do you think the [Go 1.0 compatibility promise](https://golang.org/doc/go1compat) has already been broken?" I'll answer, yes. They intentionally broke it, at least once that I can think of, to fix a big error in something or other... That was several releases ago, I just don't remember the bug, but it broke backwards compatibility and they announced it. Oh, monotonic time. Yeah, that's definitely one. But there was another. So at least twice, yes. But I think the spirit of the Go 1.0 compatibility promise they've adhered to religiously, and I approve of that and appreciate it a lot.
 
 **Erik St. Martin:** Yeah, I'd agree. I can't think of some concrete example, but I know there's been one or two instances. But considering the Go 1.0 came out five or six years ago, they've been pretty strict on the compatibility promise, and even the ones that did break - I can't remember any being super severe as far as having to refactor your code.
 
@@ -262,7 +262,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Brian Ketelsen:** Yeah, and I learn a lot from that, too. I agree. Alright, this is a troll question, but we're gonna answer it anyway. "Do any of you know how [Russ Cox's mystic quest to understand generics](https://research.swtch.com/go2017) is going?"
 
-**Carlisia Thompson:** \[00:36:10.22\] \[laughs\] Let me just say, I love the way this question was asked. I appreciate the nuance, it was great. Good job doing that!
+**Carlisia Thompson:** \[36:10\] \[laughs\] Let me just say, I love the way this question was asked. I appreciate the nuance, it was great. Good job doing that!
 
 **Brian Ketelsen:** And I think the answer to that is no.
 
@@ -302,7 +302,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Brian Ketelsen:** That sounds like a good idea.
 
-**Erik St. Martin:** \[00:40:08.21\] I wanna do it just for fun, because improv sounds like fun.
+**Erik St. Martin:** \[40:08\] I wanna do it just for fun, because improv sounds like fun.
 
 **Brian Ketelsen:** Alright, this next question - it was also a joke, but it came with the Kindergarten Cop picture; if you remember the movie Kindergarten Cop, it was Penelope Ann Miller and Arnold Schwarzenegger. He's a cop who goes undercover as a kindergarten teacher. He's trying to discover who the bad guy is, and he's teaching in front of the kindergarteners and he says "Alright, now we're gonna play a game called 'Who is your daddy and what does he do?" And it was a cute scene in the movie, so I will start. My daddy is Robert, and he owned and ran restaurants for most of my youth, and then moved out of restaurants and into accounting. Now he is retired and lives just a few miles down the road, and brings his hairy dog down the street to my house frequently, so I have to vacuum a lot... Which is a good thing; that sounded very complaining, but it's not.
 
@@ -324,7 +324,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Carlisia Thompson:** And last year there was this woman, and I didn't connect with her unfortunately. She was kicking everybody's butt. I was impressed. Nobody would win against her. It was pretty cool. Not a chance.
 
-**Brian Ketelsen:** \[00:44:04.29\] Nobody had a chance.
+**Brian Ketelsen:** \[44:04\] Nobody had a chance.
 
 **Erik St. Martin:** Okay, next question is Matt Ryer asks "If you could remove one thing form the Go language, what would it be and why?"
 
@@ -392,7 +392,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Erik St. Martin:** Now everybody does.
 
-**Brian Ketelsen:** \[00:47:51.03\] \[laughs\] Alright, next question. Omar Cowadja... Sorry, Omar... "How do you handle dependencies in Go? [Dep](https://github.com/golang/dep) is pretty popular, but I've seen projects place other packages inside the vendor folder for 100% reproducible builds. I would like to hear some of your insights on the best practices in that area."
+**Brian Ketelsen:** \[47:51\] \[laughs\] Alright, next question. Omar Cowadja... Sorry, Omar... "How do you handle dependencies in Go? [Dep](https://github.com/golang/dep) is pretty popular, but I've seen projects place other packages inside the vendor folder for 100% reproducible builds. I would like to hear some of your insights on the best practices in that area."
 
 **Carlisia Thompson:** But that's what Dep does, doesn't it?
 
@@ -437,7 +437,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Brian Ketelsen:** Yes. The answer is "Programming." I'm not one of those people that can just write code without looking things up and thinking things through. I have to look up the definitions of functions, the parameters their return all of that, all the time... So I struggle with remembering how switch statements are built. Every single time I write a switch statement, I have to look it up. So yeah, all of it.
 
-**Carlisia Thompson:** \[00:52:20.17\] I don't have to look up the arguments and the functions so much because [Visual Studio Code](https://code.visualstudio.com/) is so awesome at doing that for me. If I were to do a switch statement, I would definitely have to look it up, too. One thing that I keep forgetting to do is you know when you check for -- let's say you're checking for an error and that's the only thing that's being returned from the function; it's better, it's more readable if you in-line the whole thing... Do you know what I'm talking about? I don't know how to describe it better.
+**Carlisia Thompson:** \[52:20\] I don't have to look up the arguments and the functions so much because [Visual Studio Code](https://code.visualstudio.com/) is so awesome at doing that for me. If I were to do a switch statement, I would definitely have to look it up, too. One thing that I keep forgetting to do is you know when you check for -- let's say you're checking for an error and that's the only thing that's being returned from the function; it's better, it's more readable if you in-line the whole thing... Do you know what I'm talking about? I don't know how to describe it better.
 
 **Brian Ketelsen:** The error check in-line, with an if?
 
@@ -474,7 +474,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Carlisia Thompson:** We are awesome! \[laughs\]
 
-**Erik St. Martin:** \[00:55:54.18\] Okay, so if we didn't have any more questions from the live listeners, we may have a couple minutes to go through some interesting projects and news.
+**Erik St. Martin:** \[55:54\] Okay, so if we didn't have any more questions from the live listeners, we may have a couple minutes to go through some interesting projects and news.
 
 **Brian Ketelsen:** Alright, I've got one project that's really exciting for me personally, and that's [jsgo](https://github.com/dave/jsgo). It is a hosted GopherJS solution, and it's open source, so you can do your own. But the idea is that you enter -- I think he's hosting it at [jsgo.io](https://compile.jsgo.io/%3Cpath%3E); I'm not sure, you'll have to go to the repo and see. But you enter the package path at the end of the URL and it will automatically serve that up as a GopherJS app. What's particularly cool about it is that -- one of the weaknesses of GopherJS is that it compiles the whole standard library down to JavaScript, and that's a gigantic download everytime you do a page refresh. However, [Dave](https://github.com/dave) figured out some way to do code-splitting on that, so that only the individual packages that are used get served to you and they're cached. So it speeds things up dramatically, and it's just a really fun, interesting project from a learning perspective for me.
 
@@ -492,7 +492,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Erik St. Martin:** And then the next one you had Terminal UI stuff.
 
-**Brian Ketelsen:** \[00:58:56.01\] Oh, this one's cool. I don't know how I've missed it before. It's not a new project. [tview](https://github.com/rivo/tview). Really cool-looking terminal UI widgets for people who are building terminal applications that want that old BBS/DOS ansi-term kind of feel to it. Really cool-looking stuff. I have to go build something with it, it just looks so cool. It brought me back to the old DOS days, and I was trying to ask Erik - I couldn't remember the name of the UI toolkit that we used way back in the early DOS days that made those ANSI screens. If any of you listeners out there can remember that if you're as old as me...
+**Brian Ketelsen:** \[58:56\] Oh, this one's cool. I don't know how I've missed it before. It's not a new project. [tview](https://github.com/rivo/tview). Really cool-looking terminal UI widgets for people who are building terminal applications that want that old BBS/DOS ansi-term kind of feel to it. Really cool-looking stuff. I have to go build something with it, it just looks so cool. It brought me back to the old DOS days, and I was trying to ask Erik - I couldn't remember the name of the UI toolkit that we used way back in the early DOS days that made those ANSI screens. If any of you listeners out there can remember that if you're as old as me...
 
 **Erik St. Martin:** Yeah, I was thinking about that... Was it Turbo Vision?
 

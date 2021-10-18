@@ -14,7 +14,7 @@
 
 **Josh Aas:** Yeah. On the one hand, we want to be in a position where people can take us for granted, because we want the service to just happen for people. Ideally, you could just set up web servers and not even know that you have an SSL certificate, let alone where or how you got it. We're all about automation and removing humans from the loop, so people have to do less.
 
-\[00:04:22.12\] We'd love to get to a world where every time you spin up a server, it's just got the certs you need in the background, it installs them correctly, and everything just work; people don't need to know about us.
+\[04:22\] We'd love to get to a world where every time you spin up a server, it's just got the certs you need in the background, it installs them correctly, and everything just work; people don't need to know about us.
 
 On the flipside, we do want people to know about us, because we're a non-profit, and we need people to know about the great work that we do, and help fund our work. So yeah, every day we go out and try to put ourselves in the position where people can take us for granted, but... It does have some negative consequences.
 
@@ -44,7 +44,7 @@ So it's fairly complex, and it's non-trivial in size, and like all software, eve
 
 **Adam Stacoviak:** Yeah.
 
-**Josh Aas:** \[00:08:03.05\] ...any little thing becomes sort of a big thing. But I'm really proud of our track record here. We have a great track record for stability and reliability in security. And when incidents do come up, I'm particularly proud of how well we deal with them. We typically fix issues in a couple of hours max, then we go out and talk about it with public reports, and detailed public information, and lots of transparency very quickly. On most within a few hours. We really work hard to follow up and make sure that that type of problem doesn't happen again; we use those things as a learning experience.
+**Josh Aas:** \[08:03\] ...any little thing becomes sort of a big thing. But I'm really proud of our track record here. We have a great track record for stability and reliability in security. And when incidents do come up, I'm particularly proud of how well we deal with them. We typically fix issues in a couple of hours max, then we go out and talk about it with public reports, and detailed public information, and lots of transparency very quickly. On most within a few hours. We really work hard to follow up and make sure that that type of problem doesn't happen again; we use those things as a learning experience.
 
 **Adam Stacoviak:** Well, given the opportunity, and potentially even by design, the ability for people to take Let’s Encrypt for granted -- for the uninitiated, how do you describe Let’s Encrypt? What's Let’s Encrypt today?
 
@@ -66,7 +66,7 @@ So not charging money is about not creating friction in the process, and not req
 
 **Jerod Santo:** We first covered Let’s Encrypt on the Changelog back in March of 2017, episode 243. We had Jacob Hoffman-Andrews from the EFF on the show. Probably a fun episode to go back and listen to in light of the success you'll have had... Because that was very much near or shortly after the kick-off. So from there to a billion in under three years is pretty amazing. I think free is a huge aspect to that, but I'm just curious, from your perspective, what did all get right, in addition to making it free, which is a big aspect, of course? ...to get the spread on. You spread like crazy, which is amazing. What did you do right to get here?
 
-**Josh Aas:** \[00:12:20.05\] First of all, let me recommend going back to that episode to anybody who wants to. Jacob is our lead software engineer, and he is brilliant. You'll never regret listening to him.
+**Josh Aas:** \[12:20\] First of all, let me recommend going back to that episode to anybody who wants to. Jacob is our lead software engineer, and he is brilliant. You'll never regret listening to him.
 
 **Jerod Santo:** Yeah, he was a great guest.
 
@@ -86,7 +86,7 @@ So we did sort of try to bootstrap it by building this client early on, and it s
 
 **Adam Stacoviak:** When we go back to the inception of things - I don't wanna go too far back, but just enough to understand the crux of the problem. Obviously, an unsecure web is an issue, but what was the biggest thing that stood out to you, that made sense to move forward with the Internet Research Group, and that being the foundation behind Let's Encrypt? What was the biggest problem happening, that was sort of like "This has gotta stop."
 
-**Josh Aas:** \[00:16:06.17\] Yeah... There's a few different people involved in starting ISRG, and I think they all have their own personal motivations for why they wanted to get into this... I wanna make clear this might not necessarily be true for all of them. But for me, at the time I was running the networking group at Mozilla, the group that does all the networking code in Firefox. And one of the most frustrating things about running that team is there was nothing you can do on the browser-side to make sites use HTTPS. So if the site doesn't use HTTPS, you're just stuck doing completely not secure networking, and there was no amount of code you can write, there's no clever code you can write; you're just stuck.
+**Josh Aas:** \[16:06\] Yeah... There's a few different people involved in starting ISRG, and I think they all have their own personal motivations for why they wanted to get into this... I wanna make clear this might not necessarily be true for all of them. But for me, at the time I was running the networking group at Mozilla, the group that does all the networking code in Firefox. And one of the most frustrating things about running that team is there was nothing you can do on the browser-side to make sites use HTTPS. So if the site doesn't use HTTPS, you're just stuck doing completely not secure networking, and there was no amount of code you can write, there's no clever code you can write; you're just stuck.
 
 So if you're sitting there, in charge of the networking stack for a major browser, it's very frustrating that there's nothing you can do about this. You can't improve the situation. So we started thinking about "What's the problem here? Why are people not using HTTPS?" And the biggest problem seemed to be that getting and managing certificates was too complicated, or too costly, or too time-consuming. For whatever reason, people didn't wanna do that. Everything else is pretty easy. If you wanna turn on TLS in Apache or NGINX, it's a pretty easy config flag. The software is all there. Easy to turn it on. You just can't do it without a cert.
 
@@ -102,7 +102,7 @@ This really came to a head when I was participating in some of the discussions i
 
 That frankly felt pretty reasonable, and it felt to me like "If I'm gonna continue with this position that it should require TLS, and that it's crazy to not to, then I need to be willing to deal with the criticism here. I need to have some answer to this." At the time, I didn't really have an answer. They were right - one of the great things about the web is that a lot of things don't require you to pay. And if we required TLS for H2, you would effectively be putting a financial tax on anybody who wanted to deploy H2.
 
-**Adam Stacoviak:** \[00:20:05.17\] And likely, people wouldn't play.
+**Adam Stacoviak:** \[20:05\] And likely, people wouldn't play.
 
 **Josh Aas:** Right.
 
@@ -126,7 +126,7 @@ So we did it. We went out and started a new CA. At the time, I knew nothing abou
 
 And here we are, five years later, and... When we started, I think 39% of all page loads - so not websites, but 39% of the time you loaded any particular web page, it would be encrypted. And that's mainly because of big websites like Google and Facebook and other big properties... And everything else wasn't. Here we are, five years later, and in the United States I think we're approaching 92%. Globally we're over 80% now. And those have a great trendline up. So five years later we've encrypted most of it. We've got some more work to do, but we got there.
 
-**Break:** \[00:23:41.12\]
+**Break:** \[23:41\]
 
 **Adam Stacoviak:** I've gotta imagine starting a CA from scratch is an undertaking... You'd mentioned that you had some advisors obviously giving some advice (that's what advisors do), but the majority of everyone involved in co-founding the Internet Security Research Group had no clue how to do some of these things... So how did you get a clue? How did you do this? What's involved in building a certificate authority?
 
@@ -140,7 +140,7 @@ We hired some auditors who audit us every year, to make sure that we're complian
 
 So if you wanna start a CA, you need at least all the major browsers to trust you. Today, that would be Google, Mozilla, Microsoft, Apple. Those are the big ones. If any one of them doesn't trust you, then this whole thing falls apart. You can't have a website that works in three of those browsers but not on iPhones, or something.
 
-\[00:27:51.20\] So when you talk about becoming a publicly-trusted CA, what you're really talking about is getting those four browser makers to trust you... And they all run what are called root programs inside their organizations. And those root programs decide who they trust, and then follow-up on compliance from everybody they've already decided to trust.
+\[27:51\] So when you talk about becoming a publicly-trusted CA, what you're really talking about is getting those four browser makers to trust you... And they all run what are called root programs inside their organizations. And those root programs decide who they trust, and then follow-up on compliance from everybody they've already decided to trust.
 
 So when you start a CA, you need to build your systems, then you need to get them audited against the current auditing guidelines for CAs. Then you take that audit report and you include it with an application to each one of those root programs. So you're submitting at least four applications to four different root programs, and they all have their different ways of applying.
 
@@ -170,7 +170,7 @@ So the point of this is - between the time that you apply for trust and get appr
 
 There is a way to make a shortcut, which is how Let's Encrypt was able to start without waiting 6-10 years first. So we did go through the process that I've just described, building up our own root of trust from scratch... But the world right now does not really rely on that yet, because it has not been long enough.
 
-\[00:31:52.23\] And somewhere around mid-to-late next year we're gonna switch over to our own root that's trusted from scratch. But from our inception through now, we have what's called a cross-signature... Which means we knew we didn't wanna wait 6-10 years to start offering Let's Encrypt services, so we've found another CA that understood what we were trying to do and was willing to help. They had a root of trust that was already trusted.
+\[31:52\] And somewhere around mid-to-late next year we're gonna switch over to our own root that's trusted from scratch. But from our inception through now, we have what's called a cross-signature... Which means we knew we didn't wanna wait 6-10 years to start offering Let's Encrypt services, so we've found another CA that understood what we were trying to do and was willing to help. They had a root of trust that was already trusted.
 
 What essentially happens is we create a contract, an agreement between us, and then their root of trust essentially lends its credibility to us. So they issued a certificate that our root is trusted by their root, and their root is trusted by the browsers, basically. So that's called a cross-signature. We acquired that before we did much of anything... Because without that agreement in place, there's really no CA.
 
@@ -200,7 +200,7 @@ I don't remember the exact lifetime on it, but I think that's a 20-year-old root
 
 **Adam Stacoviak:** Hypothetically, right?
 
-**Josh Aas:** \[00:35:53.23\] Yeah... "You should trust us, and put your business and your reputation on the line" - it's not an easy ask. So these cross-signing agreements - there's a lot of liability involved, and for that reason they end up being non-trivial amounts of money. So that's a big startup cost for anybody. Then going forward from that, that's probably the biggest startup-specific cost, aside from maybe initial capital; you're gonna need to buy servers, and HSMs, and things like that.
+**Josh Aas:** \[35:53\] Yeah... "You should trust us, and put your business and your reputation on the line" - it's not an easy ask. So these cross-signing agreements - there's a lot of liability involved, and for that reason they end up being non-trivial amounts of money. So that's a big startup cost for anybody. Then going forward from that, that's probably the biggest startup-specific cost, aside from maybe initial capital; you're gonna need to buy servers, and HSMs, and things like that.
 
 Ongoing, we have to buy a certain amount of hardware every year. We do use some cloud services, we use some external services, but mostly, aside from people, it's about the data centers and what's in them. Publicly-trusted CAs are not allowed to operate in the cloud, so we can't run our CA systems on AWS or GCP or Azure or something like that. We have our own hardware in special, secure rooms inside data centers, and they're not even normal data centers; they're special, walled-off rooms in data centers, with a bunch of extra biometric access, and stuff like that. That stuff is a non-trivial expense, and you've got all this hardware that goes inside, you're gonna have a lot of redundancy... So we pay for that stuff, and that's where a lot of the rest of our budget goes.
 
@@ -220,7 +220,7 @@ But other people have other opinions. So between trying to be efficient and tryi
 
 And the web is huge. We may be serving 200 million sites right now, but there's a lot more than 200 million sites right now, and they should all be using HTTPS. So there needs to be a robust ecosystem of CAs in the world, so that people who need something else besides what Let's Encrypt provides have a place to go.
 
-**Adam Stacoviak:** \[00:40:05.13\] Given the requirements to even be a trusted CA, it doesn't seem like something that there are just handfuls of people listening to the show saying "I'm gonna drop what I'm doing today and become a CA." It's just such a long road. I almost think you have to really be invested, I suppose, in securing... And I guess that's a whole different kind of problem or different kind of business. But given the amount of effort it takes to get there.
+**Adam Stacoviak:** \[40:05\] Given the requirements to even be a trusted CA, it doesn't seem like something that there are just handfuls of people listening to the show saying "I'm gonna drop what I'm doing today and become a CA." It's just such a long road. I almost think you have to really be invested, I suppose, in securing... And I guess that's a whole different kind of problem or different kind of business. But given the amount of effort it takes to get there.
 
 To start a business today, you have to kind of get to product-market fit. Create a product that people want, and people will buy. in this case, you can do that as a CA, but still not be able to sell it because it takes you so long to become a valid resource for giving it the trust; the trust is such a big deal. It's an interesting business to create.
 
@@ -242,7 +242,7 @@ Most of these CAs you've never heard of. They're very small. They're not under-t
 
 The only theoretical value to that is if you display the identity to the user, and then let the user make a decision based on the identity they see. The problem there is -- well, there's a bunch of them. First of all, browsers are increasingly not showing that information to users, so there's no point in having it in the cert if the browsers aren't gonna show it to them. And the reason the browsers aren't showing it as much anymore is that most researches show that people either don't look at it at all, or don't understand it when they do see it.
 
-\[00:44:02.07\] So you're not gonna build a secure system that relies on the average user on the internet looking at information and making informed decisions. That's just not how security works. If that's your plan, it's not gonna result in generally increased security for anybody. It only works when it happens automatically, and doesn't require people to look into it individually.
+\[44:02\] So you're not gonna build a secure system that relies on the average user on the internet looking at information and making informed decisions. That's just not how security works. If that's your plan, it's not gonna result in generally increased security for anybody. It only works when it happens automatically, and doesn't require people to look into it individually.
 
 There's a bank out there called USAA, and if you look at an EV cert from them, it says "United Something Automobile Something". The spelled out name of the business is very long, and nobody knows what USAA stands for. They just know the bank has USAA. So when you see that kind of information pop up in an EV cert, how can you possibly expect anybody to make a reasonable decision about that.
 
@@ -274,7 +274,7 @@ Pretty famously, recently someone registered Stripe Inc. in some state that's no
 
 **Jerod Santo:** Right. It's like a namespace conflict, but it wasn't inappropriate. The CA that issued that certificate could have went out to their business and got their articles of incorporation, and all the stuff, in the state that they're in. So it's completely valid.
 
-**Josh Aas:** \[00:47:57.04\] Yeah. There's ultimately nothing wrong with that cert; they sort of arbitrarily revoked the cert, because they say "Well, we just don't like that cert." It brings a lot of arbitrariness into it. And that is a cool party trick, and it demonstrates some problems with EV certs, but the real issue is that nobody seems to care what's in the cert anyway, so it doesn't matter if you -- you know, nobody really looks at it or makes security decisions on the basis of that stuff anyway, so it doesn't matter. Namespace conflicts are sort of a second-order issue.
+**Josh Aas:** \[47:57\] Yeah. There's ultimately nothing wrong with that cert; they sort of arbitrarily revoked the cert, because they say "Well, we just don't like that cert." It brings a lot of arbitrariness into it. And that is a cool party trick, and it demonstrates some problems with EV certs, but the real issue is that nobody seems to care what's in the cert anyway, so it doesn't matter if you -- you know, nobody really looks at it or makes security decisions on the basis of that stuff anyway, so it doesn't matter. Namespace conflicts are sort of a second-order issue.
 
 **Jerod Santo:** Right. I think it's interesting that it was for a time almost like a status symbol amongst technology companies to have that. It was like "We've arrived" or "We have enough money to buy the more expensive--", whatever it is. And really the browsers -- like you said, the browsers, when they started to move that out of the way, in the browsers, when the vendors say "Yeah, let's just go ahead... No one looks at it, except for nerds..." Most people don't even look at the address bar. They don't even know it exists, which is why the number one thing people google is "Google" or "Facebook". They google Facebook to go to facebook.com, when they could just type it into their address bars, because people don't...
 
@@ -288,13 +288,13 @@ Pretty famously, recently someone registered Stripe Inc. in some state that's no
 
 **Josh Aas:** Yeah... Again, if your plan for security is to show average users some information and then expect them to make a really good decision based on that information, that is not ever gonna work. It doesn't work for EV, it doesn't work for anything else.
 
-**Break:** \[00:50:21.18\]
+**Break:** \[50:21\]
 
 **Jerod Santo:** So Josh, we've been talking about Let's Encrypt's success over the five(ish) years you've been doing this. A lot has changed since the beginning, a lot has changed since 2017 when we had Jacob on the show saying "Let's encrypt the web", mostly extreme amounts of adoption. You have some stats in your billion certificates blog post that in June of 2017 approximately 59% of page loads used HTTPS globally, 64% in the U.S, and today that's 81% of page loads use HTTPS globally. I think you mentioned that earlier in the conversation. And we're at 91% in the United States. I wanted to reiterate that... That's a massive number. 91% in the U.S. So you guys have played a large role in that. And I'm curious, because there's also been -- like, the web has changed alongside you, and the trends are changing, and security is more important, and all these things... So I'm curious, how much do you feel you've been pushing this up the hill, and how much do you feel that maybe you've been riding a wave in the last couple of years?
 
 **Josh Aas:** It doesn't feel like pushing it up a hill so much. I think there was a lot of demand. I think developers understand that using HTTPS is a good thing; they understand that without it you're not secure. I don't think it's hard to convince most of them to do it. I think they're ready to do it if they have a reasonable option for doing it... And by reasonable I mean very easy to use.
 
-\[00:52:25.00\] So we've put our service out there, and it's not that hard to convince people to use Let's Encrypt. We don't really market or engage in too many activities around really trying to convince people to use Let's Encrypt. Most of our efforts revolve around trying to get people to give back for using Let's Encrypt, and keep stuff going. But yeah, it definitely doesn't feel like pushing something uphill. It feels like people wanna do the right thing, they just need the tools. And now they have them.
+\[52:25\] So we've put our service out there, and it's not that hard to convince people to use Let's Encrypt. We don't really market or engage in too many activities around really trying to convince people to use Let's Encrypt. Most of our efforts revolve around trying to get people to give back for using Let's Encrypt, and keep stuff going. But yeah, it definitely doesn't feel like pushing something uphill. It feels like people wanna do the right thing, they just need the tools. And now they have them.
 
 **Jerod Santo:** I think the developer mindset - it's my own personal opinion and experience - has changed, probably from "You should encrypt anything that's important...", I'm talking like 3-5 years ago that was kind of the ethos... Anything important - if you're signing in, obviously if you're making e-commerce transactions - those things should all be encrypted. Taking passwords etc. But that's pretty much what needs to be encrypted. And I think nowadays, generally speaking, the ethos is "Just encrypt it all."
 
@@ -320,7 +320,7 @@ Pretty famously, recently someone registered Stripe Inc. in some state that's no
 
 You mentioned that you haven't done much to get there, so -- I mean, going from zero to a hundred million, to a billion, no marketing, not much involved, just mostly community work, when you have to account for how you got here, how did you get here? What are the things you did to do that, specifically?
 
-**Josh Aas:** \[00:55:58.10\] Well, like I said, there was a lot of pent up demand, and we gave people the tools, and we made them easy to use. That's really the gist of it. And then some people start doing the right thing, you get the numbers high enough, and then the mindset of the world switches from "HTTPS is an optional thing that you can have if you wanna spend time doing that" to "HTTPS is the standard thing that you need to do all the time, and if you don't do it, you have a problem."
+**Josh Aas:** \[55:58\] Well, like I said, there was a lot of pent up demand, and we gave people the tools, and we made them easy to use. That's really the gist of it. And then some people start doing the right thing, you get the numbers high enough, and then the mindset of the world switches from "HTTPS is an optional thing that you can have if you wanna spend time doing that" to "HTTPS is the standard thing that you need to do all the time, and if you don't do it, you have a problem."
 
 One of the biggest accomplishments for us and for everybody -- you know, it's not just Let's Encrypt; we're not the only reason the web is where it is today. There's lots of different people working on different great projects around the world that have helped promote HTTPS... But one of the big accomplishments of that community is that HTTPS is considered the standard today.
 

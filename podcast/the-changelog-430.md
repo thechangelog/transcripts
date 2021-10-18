@@ -16,7 +16,7 @@ Then I left Circle in late 2015. I remember I was massively burnt out; startups 
 
 **Paul Biggar:** Yeah, and a lot of people have the Why. And the Why is what Dark is not. So the thing that Dark is not - it's not setting up Kubernetes, it's not like setting up serverless, it's not CI/CD pipelines... There's in fact a zero-second deploy in Dark, there's no waiting for 15 minutes, or whatever, there's no AWS, there's no -- I'm just trying to think of all the other things that we have to do. There's no Yaml files...
 
-**Jerod Santo:** \[00:04:15.13\] Backups? \[laughs\]
+**Jerod Santo:** \[04:15\] Backups? \[laughs\]
 
 **Paul Biggar:** Databases, queues, all that sort of thing. It's all just built-in, so you don't have to think about "Oh, where am I going to spin up this thing? How am I going to get the code from here to here?" It's all just sort of like handled for you... And the way that we're able to do this is by integrating all the things. Because if you say to someone who's using a standard AWS setup, "We would like deploys to be zero seconds", they're gonna say "Well, that's not possible. That makes no sense." We have to do tests. Maybe they do staging, or maybe there's integration tests, or there's QA... There's something in the way to sanity check.
 
@@ -38,7 +38,7 @@ And then the major thing that we have to enable that sort of change is called --
 
 **Jerod Santo:** Gotcha. So what is Dark's sweet spot? Is it web apps, is it CLIs, is it games? What typically would you build with Dark?
 
-**Paul Biggar:** \[00:07:59.29\] I think the truth is today that there is no sweet spot. And this is something that I've come to realize over the last year, that Dark was not quite ready for anyone, and I think that is still the case today. So really, the kind of people who are using it today are people who are experimenting, or they're building small tools, or something... People will often build Slack bots, or they build something that integrates a couple of services...
+**Paul Biggar:** \[07:59\] I think the truth is today that there is no sweet spot. And this is something that I've come to realize over the last year, that Dark was not quite ready for anyone, and I think that is still the case today. So really, the kind of people who are using it today are people who are experimenting, or they're building small tools, or something... People will often build Slack bots, or they build something that integrates a couple of services...
 
 Where we intend to get to is that you will built everything in Dark. Everything can be built 10x easier with these things... But we still lack a lot of things that you actually need in order to be able to do it, such as things like user management, and package managers, and that sort of thing being built, in the way that the Rails ecosystem has Devise, and OmniAuth, and all that sort of thing.
 
@@ -62,7 +62,7 @@ I think that the next major inflection point is when there's a package manager a
 
 **Paul Biggar:** Well, I think the main thing is that I take the motivation from users. We have about 7,000 people who have tried Dark, and it's a small community that have sort of stuck around on our Slack. There's 40-50 people whose names I know, there's a couple of people I talk to regularly, and there's new people coming in all the time, and they have problems and things that they can't get working, or ideas that they have... And those are the things that lead to motivation.
 
-\[00:12:18.07\] And often, there's this sort of idea in software development that you should do the most important thing. You should always be doing the most important thing. What I've been finding over the last few months in particular has been that you should do the most motivating thing instead.
+\[12:18\] And often, there's this sort of idea in software development that you should do the most important thing. You should always be doing the most important thing. What I've been finding over the last few months in particular has been that you should do the most motivating thing instead.
 
 I have a bunch of post-it notes on my desk, and it says "Do work that's exciting", as opposed to necessarily doing work that's like the most important thing. When a user tells me "Oh, I really need this fix", and I'm like "That's a priority 12 bug that will never get done..." You know, sometimes I'll just fix it right there, because it brings the endorphins of doing a thing for another person, even if it's not the most important thing.
 
@@ -82,7 +82,7 @@ I have a bunch of post-it notes on my desk, and it says "Do work that's exciting
 
 **Paul Biggar:** It's a thing that I have used since I was in grad school to actually get things done. It's like, "Uh, I don't feel like that, but there's 12 other things that actually have value, and if I ignore the value and just look at the excitement, I can probably get through them."
 
-**Break:** \[00:14:13.17\]
+**Break:** \[14:13\]
 
 **Jerod Santo:** So language design is something that always has fascinated me... And here you are, designing a language. I like the way you said it's more about what it's not than what it is, and I feel like programmers over time, as we experience different languages, we know what we don't want, and we know what we don't want to handle and deal with, such as deployments, and \[unintelligible 00:15:27.14\] and all these things... But it has to have some paradigms for itself, so how would you describe Dark? Is it like an FP thing, is it object-oriented? How does the typing work? Give us the lay of the land, what design choices you made with Dark the language.
 
@@ -90,7 +90,7 @@ I have a bunch of post-it notes on my desk, and it says "Do work that's exciting
 
 **Jerod Santo:** Okay.
 
-**Paul Biggar:** \[00:16:05.19\] And I guess Scala has some influences from that as well. If you're familiar with Elm, it's sort of Elm.
+**Paul Biggar:** \[16:05\] And I guess Scala has some influences from that as well. If you're familiar with Elm, it's sort of Elm.
 
 **Jerod Santo:** Okay.
 
@@ -116,7 +116,7 @@ So you can think of it as a debugger where you never have to actually turn on a 
 
 **Jerod Santo:** Yeah, you have to verbalize your air quotes around here, please...
 
-**Paul Biggar:** \[00:20:04.18\] Yeah. So if you have an old value and a new value, and it doesn't update in between, you'll be able to see the value of the old value, you'll be able to see the value of the new value, and you'll be able to see some intermediate values as well. So yeah, very similar to the Redux thing.
+**Paul Biggar:** \[20:04\] Yeah. So if you have an old value and a new value, and it doesn't update in between, you'll be able to see the value of the old value, you'll be able to see the value of the new value, and you'll be able to see some intermediate values as well. So yeah, very similar to the Redux thing.
 
 **Jerod Santo:** Cool.
 
@@ -182,7 +182,7 @@ So a couple of months ago, weighing up "What should I be doing next? Where is th
 
 **Paul Biggar:** Yeah, exactly. So we didn't pick Rust. And not because anything is wrong with Rust. Rust is very good for what it is good for, and it turns out that Dark is not in that sweet spot.
 
-**Jerod Santo:** \[00:24:13.29\] You know what's an amazing truth that we often ignore? It's that not every language is for every person and every circumstance.
+**Jerod Santo:** \[24:13\] You know what's an amazing truth that we often ignore? It's that not every language is for every person and every circumstance.
 
 **Paul Biggar:** Right, exactly. You were asking me earlier what Dark is good for, and I said "Oh, we want people to use Dark for everything", but you're never gonna use Dark for embedded systems, you're never gonna use it for the high-performance, writing a decompressor, or something. "For everything" means in the niche of--
 
@@ -222,7 +222,7 @@ So anything that's the core language itself and the core of the system is in Dar
 
 **Jerod Santo:** I think that's wise, because any language or ecosystem that wants to be general-purpose and relied upon by many people - it has to live in the real world at a certain point, somewhat early on in its life, so that it's rooted in reality... Because we can tend towards what the maybe more critical \[unintelligible 00:27:30.05\] would call architecture astronauts. This idea of just like -- there's a lot of languages that have a purism and an idealism which is beautiful, but they're not gonna be general-purpose, because the real world is corner cases, and yucky, and things need to work, and I think having the team working on Dark using Dark for its purpose, which is these kinds of projects - maybe it's not written to write languages, but it's written to do these things, and you're actually using it for those things; I think that gives you an insight which you may otherwise lack.
 
-**Paul Biggar:** \[00:28:06.09\] Yeah. And I remember at the start, before Dark was really available, a lot of the people who were interested in Dark were the people who were really into programming languages, so I fielded this question of "Can you compile Dark? Can you write Dark in itself? Why aren't you writing Dark in itself?" It was almost dogma.
+**Paul Biggar:** \[28:06\] Yeah. And I remember at the start, before Dark was really available, a lot of the people who were interested in Dark were the people who were really into programming languages, so I fielded this question of "Can you compile Dark? Can you write Dark in itself? Why aren't you writing Dark in itself?" It was almost dogma.
 
 **Jerod Santo:** Yeah.
 
@@ -262,7 +262,7 @@ Another aspect of the language - I guess the integrated aspect of a language - i
 
 **Paul Biggar:** Yeah. And having direct TCP or something - it's something that will come. But the goal of Dark is not to let you use whatever you're using today. The goal of dark is let's assume that that's all legacy tech, and we want to get rid of \[unintelligible 00:31:50.04\] unconstrained by legacy. Is there a day in the future where enterprises will use the Dark consultants to hook up their Redshift to Dark to be able to do queries in it - yeah, maybe. But it's never gonna be the core of what Dark is about, and bringing your own stuff to it. It's always gonna be about this idea of "We can build stuff faster if we have it fully integrated in our system."
 
-**Break:** \[00:32:20.07\]
+**Break:** \[32:20\]
 
 **Jerod Santo:** One thing I haven't mentioned yet is that I have you on today, Paul, because a listener requested that we do this show.
 
@@ -294,7 +294,7 @@ Another aspect of the language - I guess the integrated aspect of a language - i
 
 And when you think about what is the purpose of Dark - the purpose of Dark is that you don't have to do anything. So the first thing that you do with an open source thing is that you install it. You find a system that you maybe put on your first computer... And that's not what Dark is. That's not what we're here for.
 
-\[00:36:07.29\] We're kind of in this world where you want a business model that matches to how you want people to use the system. So for us, open source was not it. It is not a thing that made direct sense, because we have that AWS problem. If Dark manages to succeed, do we just want to just be run by AWS? No.
+\[36:07\] We're kind of in this world where you want a business model that matches to how you want people to use the system. So for us, open source was not it. It is not a thing that made direct sense, because we have that AWS problem. If Dark manages to succeed, do we just want to just be run by AWS? No.
 
 But also, we've been talking for 45 minutes now about this integrated ecosystem... And part of that integrated ecosystem is we're the package manager, we're the hosting. It doesn't make sense to have another instance of Dark over there. There's a bunch of things I'm planning to build where the -- I wouldn't call it social features, but something along the lines of you wanna make a bug report to the package manager/maintainer/whatever... That's a thing that you do in Dark, and you can take your request and upload that, or send, or something along those lines. It hasn't been designed yet. But they're all things that are part of this singular ecosystem, because it doesn't make sense for someone else to have another installation of Dark, or having their own installation of Dark.
 
@@ -324,7 +324,7 @@ So we've got a lawyer called Heather Meeker, who's like a famous open source law
 
 **Jerod Santo:** Because there's so many people that just see that and they're like "I'm out."
 
-**Paul Biggar:** \[00:39:50.03\] Yeah. I think that the problem with having nuanced opinions about anything, looking for some middle ground is that a lot of people just aren't interested in the middle ground. And I'm not saying that's bad. I think having an open source-first philosophy isn't a bad thing. But people who build stuff in the cloud are not using open source the whole way down. They're relying on AWS... None of which is open source. Even AWS's Elasticsearch, the fork of it - there's AWS proprietary stuff all over that.
+**Paul Biggar:** \[39:50\] Yeah. I think that the problem with having nuanced opinions about anything, looking for some middle ground is that a lot of people just aren't interested in the middle ground. And I'm not saying that's bad. I think having an open source-first philosophy isn't a bad thing. But people who build stuff in the cloud are not using open source the whole way down. They're relying on AWS... None of which is open source. Even AWS's Elasticsearch, the fork of it - there's AWS proprietary stuff all over that.
 
 The people who are looking to build the sort of thing that we want you to build on Dark I think for the most part are gonna be very familiar with this idea that actually they don't have a license to everything, top to bottom.
 
@@ -346,7 +346,7 @@ For a bunch of reasons, we don't actually want anyone who can't get past the zea
 
 **Jerod Santo:** What's interesting is that your initial audience - I'm just thinking of the diagram between language nerds (and I say that in the kindest way; I consider myself somewhat one of them), and then open source nerds. And then like the cross-section of those two. And I feel like they 80% overlap.
 
-**Paul Biggar:** \[00:44:09.17\] Well, our target is not language nerds.
+**Paul Biggar:** \[44:09\] Well, our target is not language nerds.
 
 **Jerod Santo:** I know, but you build your community out of your early adopters, right? And you said that the people that are coming on earlier, like "Hey, here's a cool, new language. I'm interested in this."
 
@@ -380,7 +380,7 @@ However, a thing that I've been thinking about recently is that the vast, vast m
 
 If you think about a typical SaaS, a typical SaaS is a workflow engine that has few users and not a lot of data. It's not Twitter, it's not Snapchat. So if you're charging people based on the costs, there's not a lot of money for the size of businesses that Dark is gonna be able to support the next few years.
 
-\[00:48:14.08\] So I think long-term that is a good business model, and short-term I think we're gonna need something else. And the thing that I'm thinking is something like the per-user thing for companies; because if you're spending 10k a month on an engineer, you're not gonna balk at $25/month to make that engineer three times as productive. But we have to actually have that productivity. We have to have people actually using it, and we have to have -- there will always be a freemium component, because if there isn't an open source component to it... We need people to be able to get in.
+\[48:14\] So I think long-term that is a good business model, and short-term I think we're gonna need something else. And the thing that I'm thinking is something like the per-user thing for companies; because if you're spending 10k a month on an engineer, you're not gonna balk at $25/month to make that engineer three times as productive. But we have to actually have that productivity. We have to have people actually using it, and we have to have -- there will always be a freemium component, because if there isn't an open source component to it... We need people to be able to get in.
 
 **Jerod Santo:** Yeah. \[unintelligible 00:48:47.01\]
 
@@ -404,7 +404,7 @@ So I don't know what the future looks like. I think I need to sort it out in my 
 
 Do you have -- I know there's a public roadmap, but like you said, you've got some thinking to do... But do you have like a "I'm gonna work on it for this long", or the vision, or how long are you in the game with Dark?
 
-**Paul Biggar:** \[00:51:59.20\] My thinking is I might be in it forever. I'm not 100% sure. Because startups tend to be like "I put in everything I have for four years or ten years or whatever", and then you burn out, and have a mid-life crisis...
+**Paul Biggar:** \[51:59\] My thinking is I might be in it forever. I'm not 100% sure. Because startups tend to be like "I put in everything I have for four years or ten years or whatever", and then you burn out, and have a mid-life crisis...
 
 **Jerod Santo:** Right. You've already played that game though...
 

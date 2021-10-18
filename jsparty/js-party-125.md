@@ -16,7 +16,7 @@ Anyway, great work, and I'm glad we were able to get you on the show.
 
 **Segun Adebayo:** Thank you.
 
-**Emma Bostian:** \[00:03:48.14\] Yeah, I think my first experience with Chakra UI was at work, because we are building a design system currently for LogMeIn. We've got a lot of products, like GoToMeeting, GoToWebinar, GoToConnect, and they all needed this brand identity, which is why we're building a design system. And we had a lot of problems with accessibility, to Feross' point; it's very difficult to create custom components and make them fully accessible, because a lot of native HTML elements you can't use the semantic markup. So if you want a custom dropdown, you can't just use the Select Dropdown. If you want a custom-style it, you actually have to use unordered lists and list items, and use WAI-ARIA, but a lot of developers don't understand accessibility fully.
+**Emma Bostian:** \[03:48\] Yeah, I think my first experience with Chakra UI was at work, because we are building a design system currently for LogMeIn. We've got a lot of products, like GoToMeeting, GoToWebinar, GoToConnect, and they all needed this brand identity, which is why we're building a design system. And we had a lot of problems with accessibility, to Feross' point; it's very difficult to create custom components and make them fully accessible, because a lot of native HTML elements you can't use the semantic markup. So if you want a custom dropdown, you can't just use the Select Dropdown. If you want a custom-style it, you actually have to use unordered lists and list items, and use WAI-ARIA, but a lot of developers don't understand accessibility fully.
 
 So we started using Chakra UI, and it has been the hot topic at work. Our developers are in love with it. They were so excited about the TypeScript integration, which we'll hear more about in a little bit... But I would love to hear the Chakra UI origin story. How did you start it, how did you get the idea? Why don't you tell us a little bit more?
 
@@ -34,7 +34,7 @@ At that time, I was a UI designer, so I got my friends together and I'm like "He
 
 After a while, I noticed that he kind of struggles to nail the fundamentals. Things like the padding, the font size, line height... I'm like "Dude, come on. I sent you this sketch file, and at the end of the day this is what you are giving to me? It doesn't even look close to what I gave you." And I'm sure that's a very common story for most people, especially when you pair a designer and a frontend engineer together; it's a very popular story.
 
-\[00:08:20.03\] So I kind of got frustrated after a while, so I just told my friend "Okay, thank you so much for helping me. I really appreciate your help, but you're not exactly helping me right now... So let me just go for someone else that can help me." I tried to hire a freelancer on UpWork to help me. I just gave him the design again; this was my second trial, so I gave him the design again. "Hey buddy, how much is it gonna cost to help me convert these to code?" And then one week after he sent it back to me, and it was totally horrible... Even worse than my friend that helped me. I'm like "What the heck is going on?"
+\[08:20\] So I kind of got frustrated after a while, so I just told my friend "Okay, thank you so much for helping me. I really appreciate your help, but you're not exactly helping me right now... So let me just go for someone else that can help me." I tried to hire a freelancer on UpWork to help me. I just gave him the design again; this was my second trial, so I gave him the design again. "Hey buddy, how much is it gonna cost to help me convert these to code?" And then one week after he sent it back to me, and it was totally horrible... Even worse than my friend that helped me. I'm like "What the heck is going on?"
 
 I'm not a designer, but I feel like -- I mean, the design industry has created lots of tools to make design really easy... And back in the days when Photoshop was the reigning design tool, it was freakin' hard to create consistent components in Photoshop. But now we have Sketch, we have Figma, we have Framer, so I feel like there are lots of tools out there that could literally help us do this work. That's how I also felt when I was working with my friend...
 
@@ -56,7 +56,7 @@ I just wanna say that I dug a little bit into your code while looking at the pro
 
 **Segun Adebayo:** \[laughs\] Yeah, that's totally fine.
 
-**Feross Aboukhadijeh:** \[00:11:59.09\] I did not know that you had just been coding for that short of a period of time... It doesn't show at all.
+**Feross Aboukhadijeh:** \[11:59\] I did not know that you had just been coding for that short of a period of time... It doesn't show at all.
 
 **Emma Bostian:** Yeah...!
 
@@ -76,11 +76,11 @@ So you can look at a Material-UI component or an IBM Carbon component and say "O
 
 **Segun Adebayo:** That's something we are looking at, but for the moment it's just for React. But I know of a team already working on the Vue version. So we are trying to create a common ground between React and Vue, which is just like framework-agnostic parts of Chakra UI, and then trying to import those framework-agnostic parts to Vue and React.
 
-\[00:16:02.16\] At the end of the day, we hope to maybe abstract most of all the logic for example to state machines, so that it's really easy to create the framework-agnostic library. Chakra UI can still stay relevant for a couple of years at least.
+\[16:02\] At the end of the day, we hope to maybe abstract most of all the logic for example to state machines, so that it's really easy to create the framework-agnostic library. Chakra UI can still stay relevant for a couple of years at least.
 
 **Emma Bostian:** Wonderful. Thank you for that intro... We're gonna take a quick break, and when we come back, we'll talk a little bit more about building a component library.
 
-**Break:** \[00:16:30.21\]
+**Break:** \[16:30\]
 
 **Emma Bostian:** So in the first part of the podcast we talked a little bit about Chakra UI, the journey of how it got created, as well as some of the problems in the industry that it's been solving... But I wanna shift gears and talk more about what it takes to build a component library. Let's start off with the question of what makes a good component library. What are some of the aspects? We've touched on accessibility, but are there other areas, Segun, that you keep in mind when you're developing Chakra UI?
 
@@ -94,7 +94,7 @@ So just thinking about the developer experience is one of the huge parts for me,
 
 One thing I've been looking into recently is mostly like -- designers have this concept called text styles and layout styles when they create their design. This helps them literally not repeat themselves when working. So figuring out how Chakra UI can actually help in that process as well, so that all these tokens that designers are used to - literally, just bringing it into the code would also save the developer some time.
 
-\[00:19:47.29\] So tokens are one. Nailing the fundamental accessible HTML structure - because most every time I feel like at least 60% of accessibility has to do with having to correct HTML structure for a component, and having the correct ARIA attributes for custom widgets, or just having other things in place.
+\[19:47\] So tokens are one. Nailing the fundamental accessible HTML structure - because most every time I feel like at least 60% of accessibility has to do with having to correct HTML structure for a component, and having the correct ARIA attributes for custom widgets, or just having other things in place.
 
 And then the final part would be dealing with the design, making things look good, and also making sure it's accessible from a color contrast perspective, font size, readability perspective. After that, then comes keyboard navigation, making sure that the screen readers announce the components the way you want them to... making sure it's the same component across different touchpoints as well, across different browsers.
 
@@ -120,7 +120,7 @@ I feel like one of the things Chakra UI is going to solve or completely eliminat
 
 **Segun Adebayo:** I'm not sure. I've not.
 
-**Emma Bostian:** \[00:23:50.23\] We'll link it in the show notes. And I've also just posted it in our JS Party Slack channel...The premise of this is the fact that buttons are the most widely-used UI component throughout products, but they're also the most inconsistent across all products. He walks through this mathematical problem of let's say you have a designer, an engineer and a quality assurance engineer, and they're all designing, testing and coding this button... And it walks through like - okay, if you're paying every person $30/hour or something, you end up spending $20,000 to build, test and design your buttons, and he walks through why.
+**Emma Bostian:** \[23:50\] We'll link it in the show notes. And I've also just posted it in our JS Party Slack channel...The premise of this is the fact that buttons are the most widely-used UI component throughout products, but they're also the most inconsistent across all products. He walks through this mathematical problem of let's say you have a designer, an engineer and a quality assurance engineer, and they're all designing, testing and coding this button... And it walks through like - okay, if you're paying every person $30/hour or something, you end up spending $20,000 to build, test and design your buttons, and he walks through why.
 
 So we've got primary buttons, secondary buttons, tertiary buttons, we have large buttons, small buttons, we've got states for these buttons - hover, focus, disabled active - we have icon buttons, all these other kinds of buttons, success, error, warning... And when you add all of this up, it's $20,000/button for each team. And when you've got five teams building a set of buttons, that's $100,000 that your company is spending on building buttons.
 
@@ -140,7 +140,7 @@ Another course that helped me is Frontend Masters, Marcy Sutton's Frontend Acces
 
 When someone is teaching, I think this concept has to do with learning in general. When I watch a video, or when I'm trying to watch a course, what I try to do most of the time to challenge myself is after the teacher or whoever is teaching the concept talks about it and wants to write some code, I just pause the video and I try to figure it out on my own, before even watching what they have to say... Just to see if I can dig into the solution and challenge myself. That actually helped me a whole lot.
 
-**Emma Bostian:** \[00:28:13.17\] That's wonderful. I love that concept of being an active learner, because so often - and I've found myself doing this, too - I just watch the tutorials and my mind will start wandering off, and I don't challenge myself. Then by the end of the course -- this happened with a Scott Tolinski course I took about React Spring... I watched the entire course, I loved it, and then I finished it and realized I didn't retain any of this information, because I wasn't challenging myself and I wasn't actively learning... So that's a very good point.
+**Emma Bostian:** \[28:13\] That's wonderful. I love that concept of being an active learner, because so often - and I've found myself doing this, too - I just watch the tutorials and my mind will start wandering off, and I don't challenge myself. Then by the end of the course -- this happened with a Scott Tolinski course I took about React Spring... I watched the entire course, I loved it, and then I finished it and realized I didn't retain any of this information, because I wasn't challenging myself and I wasn't actively learning... So that's a very good point.
 
 So talking about accessibility and going back to the fundamentals of HTML and CSS, I loved what you said about we should really be focusing on semantic HTML and CSS, especially because -- and I have mentioned this before on Twitter, I think, but when I was interviewing for jobs, in my technical interviews I got asked a lot about HTML, CSS and accessibility. So I was questioned about JavaScript, but I do think a lot of companies now are migrating towards comprehensive questions that really test "Do they know how to write CSS? Do they know CSS transitions? Do they know about specificity?" and I definitely think this is something that developers -- I personally took it for granted, especially when I started out, and then I found myself at a deficit when I needed to create semantic scaffolding for a site, and I realized I didn't know how to.
 
@@ -158,7 +158,7 @@ I just feel like we want people to know this stuff, but if they don't, this is a
 
 Most of our teams are fast-moving, so trying to focus on all this nitty-gritty sometimes can be time-consuming, and that's why it's always a good idea to leverage someone else's work, someone who has thought about all those fundamentals and accessibility details and the styling details of a component... And literally just make your life easier in general.
 
-**Feross Aboukhadijeh:** \[00:32:16.17\] My tendency when I'm working on projects is typically -- if I look at a library or I look at a component, a package on Npm and I notice even one or two minor things about it that I don't like, I tend to say "Okay, I can clearly do better than this", and I'll go and reinvent it... Because part of it is it's a good learning exercise, it's fun. I enjoy knowing how stuff works at a lower level...
+**Feross Aboukhadijeh:** \[32:16\] My tendency when I'm working on projects is typically -- if I look at a library or I look at a component, a package on Npm and I notice even one or two minor things about it that I don't like, I tend to say "Okay, I can clearly do better than this", and I'll go and reinvent it... Because part of it is it's a good learning exercise, it's fun. I enjoy knowing how stuff works at a lower level...
 
 **Segun Adebayo:** Cool.
 
@@ -170,7 +170,7 @@ I mean, reusability 101 - it's kind of obvious when you think about it, but I've
 
 **Emma Bostian:** Absolutely. Well, thanks for that... And I think that wraps up the second segment. Let's take a quick break, and when we come back we will talk a little bit more about the actual pros/cons, highlights/lowlights of building a component library.
 
-**Break:** \[00:34:11.01\]
+**Break:** \[34:11\]
 
 **Emma Bostian:** Alright, let's talk a little bit about the benefits and drawbacks of founding an open source project. Segun, can you tell us a little bit more about some of the things that you think have gone really well, and some of the things that maybe you weren't expecting about it?
 
@@ -178,7 +178,7 @@ I mean, reusability 101 - it's kind of obvious when you think about it, but I've
 
 After doing that, I literally saw that -- before we started the project, when I was struggling, it literally took us three months just to convert design to code... But then after I built the component library and I gave it to him, I think it took us about three or four days to literally rebuild the entire thing again with the component library.
 
-\[00:36:04.04\] I was really excited about that, and I thought "If this could literally help my friend..." And I could literally see him get excited; his face is all lit up. I mean, if this is the experience of my friend, what if I could literally take this same experience and just ship it out to other people, to just use for free?
+\[36:04\] I was really excited about that, and I thought "If this could literally help my friend..." And I could literally see him get excited; his face is all lit up. I mean, if this is the experience of my friend, what if I could literally take this same experience and just ship it out to other people, to just use for free?
 
 To be honest, I literally struggled with the concept of free, just like ship it for other people to use... But I just thought it's more of like the way it works in general. To get more from life, I feel like you just have to give more. Don't expect to not give and then get a lot. It's mostly just like a general law I think I've learned. So I thought "Maybe if I could literally just give value to other people out there, somehow I know the value will definitely come back to me."
 
@@ -194,7 +194,7 @@ But at the end of the day, I just try to go back to the reason why I made it. So
 
 It's kind of a con, because there are people who don't exactly value the work you've done, and that's a reality as well in open source projects... And there are people who approach you as though they hired you to build the library. But at the end of the day, I think it's all about human interaction. If you just treat everyone as a normal human -- I mean, not everyone exactly is normal, but if you just assume that everyone is a normal human and interact with them as such, you won't have so much problems. But if you try to react based on emotions, then I feel like sometimes open source projects can lead you down a wrong path of anger, annoyance and self-defeat, and you just want to close the project and just go back to your normal life in general.
 
-**Feross Aboukhadijeh:** \[00:40:08.00\] I can totally sympathize with that... The idea that open source can sometimes feel like -- you know, the way GitHub issues is designed, it's sort of like your to-do list is publicly-writeable, and you're just letting anyone who shows up add items to your list. Then you wake up and you just have to process through them, and you can become very bogged down in dealing with the issues and you can forget about the bigger picture of what you're trying to do and what are the bigger goals you have for the project if you're just dealing with this sort of inbound issues every day... Totally, I sympathize with that a lot.
+**Feross Aboukhadijeh:** \[40:08\] I can totally sympathize with that... The idea that open source can sometimes feel like -- you know, the way GitHub issues is designed, it's sort of like your to-do list is publicly-writeable, and you're just letting anyone who shows up add items to your list. Then you wake up and you just have to process through them, and you can become very bogged down in dealing with the issues and you can forget about the bigger picture of what you're trying to do and what are the bigger goals you have for the project if you're just dealing with this sort of inbound issues every day... Totally, I sympathize with that a lot.
 
 **Segun Adebayo:** There's one more thing I'd like to add as well, which is very common in the industry... It's like, you release an open source project -- even from the beginning of Chakra UI I didn't have ideas of TypeScript and having type support for a library. I literally had to go to DefinitelyTyped, and I was literally reading all the type definitions for popular UI libraries just to understand how it works. TypeScript got my head spinning, a hundred percent... Like, "What the heck is this? What is this concept of generics? What does it mean?" So I was really offended after trying to learn it a couple of times and I didn't get it, so I just left it...
 
@@ -220,7 +220,7 @@ So I just went back, created a new branch, Chakra UI, going all TypeScript and t
 
 **Feross Aboukhadijeh:** Yeah... And the right thing to say to those people is "If there's a problem with this open source project, it's your problem. That's how open source works. Send a pull request."
 
-**Segun Adebayo:** \[00:44:13.02\] \[laughs\] Exactly.
+**Segun Adebayo:** \[44:13\] \[laughs\] Exactly.
 
 **Feross Aboukhadijeh:** Sometimes it's just tough love, you know...? That's what you've gotta say. Speaking of that though, you said Chakra UI is not your life... How much time do you spend on it, and how do you fund that work? Do you have a dayjob, or are you getting enough donations from people that you can work on it? How does that work? As a maintainer myself, I'm just curious how you make that work.
 
@@ -250,7 +250,7 @@ I literally have to fend for myself and my family as well, so... It affords me s
 
 **Segun Adebayo:** Currently, we have a branch where we're currently trying to put all components of TypeScript. One of the biggest parts we need help with now is documentation. We have the core concepts in place, and we have new ideas, new interests and ideas that we're looking to introduce in the next major version of Chakra UI... So trying to get people to help communicate these ideas would really help. So documentation is one thing we really need help with.
 
-\[00:48:20.17\] One surprising thing I saw recently is I think mostly about 40% of the Chakra UI traffic to the website comes from countries like China and India... So that makes me already think that somehow we need to make this documentation localized for them, so that it's easier to understand this. Trying to figure out that process is a lot of work; I cannot get myself involved in code and also get myself involved in doing that at the same time... So as much help as we can get with regards to documentation and localization - we really appreciate that.
+\[48:20\] One surprising thing I saw recently is I think mostly about 40% of the Chakra UI traffic to the website comes from countries like China and India... So that makes me already think that somehow we need to make this documentation localized for them, so that it's easier to understand this. Trying to figure out that process is a lot of work; I cannot get myself involved in code and also get myself involved in doing that at the same time... So as much help as we can get with regards to documentation and localization - we really appreciate that.
 
 **Emma Bostian:** Wonderful. So if you're listening to this and you like to write, and you're good at writing, or even if you're not, it's fine, they'll work with you on it - go open a pull request to Chakra UI, help them with some documentation... And also just check out the system, because it's incredible, and you're doing fabulous work.
 

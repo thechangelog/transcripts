@@ -20,7 +20,7 @@ I was actually pretty surprised there was only 3% of people using cloud ML servi
 
 **Chris Benson:** Maybe that's because we're in our little AI bubble and we think about this and interacting in it all the time... But I admit, we're hearing constantly from these cloud providers about their services, and I guess I'm a bit surprised too that it's not a higher uptick.
 
-**Daniel Whitenack:** \[00:04:06.11\] Yeah, I don't know... I think for anyone out there, in particular if you're maybe in a software engineering role, or in a team with primarily software engineers, I think using these cloud ML services and black box sort of models from MachineBox, if you remember back to our episode 2 - using those sorts of things are incredibly powerful... You're writing an application and you can just think about "Oh, I wanna integrate speech-to-text" or "I wanna integrate image object recognition in my application" - well, you don't have to build the model, you can just utilize one of these services, and I think that's incredibly powerful, where you can think more about the functionality that you're trying to enable, rather than the neural network architecture or whatever it is.
+**Daniel Whitenack:** \[04:06\] Yeah, I don't know... I think for anyone out there, in particular if you're maybe in a software engineering role, or in a team with primarily software engineers, I think using these cloud ML services and black box sort of models from MachineBox, if you remember back to our episode 2 - using those sorts of things are incredibly powerful... You're writing an application and you can just think about "Oh, I wanna integrate speech-to-text" or "I wanna integrate image object recognition in my application" - well, you don't have to build the model, you can just utilize one of these services, and I think that's incredibly powerful, where you can think more about the functionality that you're trying to enable, rather than the neural network architecture or whatever it is.
 
 **Chris Benson:** Absolutely. And for listeners - that was episode 2, on MachineBox, if they wanna reference that; it was a great episode. So I imagine that that will change dramatically over the next few years with everyone trying to get -- maybe this is one of those moments where companies are still certainly trying to figure out how to incorporate AI into their strategy, and maybe we'll see a much higher uptake when that occurs.
 
@@ -36,7 +36,7 @@ I know that both I -- I love open source, and I know you do too, so that really 
 
 I noticed that this one is not from Google, but it is open source on GitHub, it's extremely active; it looks like it has over 2,000 stars... So yeah, good catch.
 
-\[00:07:42.02\] The next one that I found kind of follows in that trend as well, of open source tooling... This one's called Netron - I guess a play on neutron, I assume. A lot of people are probably familiar with TensorBoard, which is like a visualization tool attached to or very tightly integrated with TensorFlow, which allows you to kind of visualize the architecture of your neural network, along with many other things.
+\[07:42\] The next one that I found kind of follows in that trend as well, of open source tooling... This one's called Netron - I guess a play on neutron, I assume. A lot of people are probably familiar with TensorBoard, which is like a visualization tool attached to or very tightly integrated with TensorFlow, which allows you to kind of visualize the architecture of your neural network, along with many other things.
 
 This one caught my attention just because of how well-supported all of these different types of models are, from all sorts of various frameworks... Netron is also a way for you to visualize your neural network, the structure of it and various things about it. It says right now that it supports ONNX format, Keras, CoreML, TensorFlow Lite; it also has experimental support for Caffe, Caffe2, MXNet, TensorFlow.js and TensorFlow.
 
@@ -58,7 +58,7 @@ The third one that they mentioned really appealed to me, and I know it's gonna a
 
 And then the final thing was really being the -- they use Steve Jobs and Elon Musk as examples... Is really people who are going to really meld the world into their own view, rather than trying to fit into the world. You might say that that is innovation for the purpose of creating value... But I just like seeing this conversation where companies are recognizing how important this is and recognizing it's not just another tech coming in, but it's actually something that is gonna affect the core way they operate.
 
-**Daniel Whitenack:** \[00:12:06.04\] Yeah, this is great. I think this is a really great perspective, especially the things, like you mentioned -- you know the things that kind of pique my interest, and coming from AI for good perspective, and in particular where it talks about a moral or a spiritual call to action...
+**Daniel Whitenack:** \[12:06\] Yeah, this is great. I think this is a really great perspective, especially the things, like you mentioned -- you know the things that kind of pique my interest, and coming from AI for good perspective, and in particular where it talks about a moral or a spiritual call to action...
 
 I know I'm motivated primarily by my Christian faith in terms of infusing morality into the technology that I build, and I had a lot of those conversations with people lately where the morality - if there is some - in AI is really driven by that of its creators... So to be a part of the development of AI is also to be a part of that kind of moral piece of it. We really need to be having those conversations and it's great to see that there's a lot of people having those conversations in various circles. It's great to see that.
 
@@ -76,7 +76,7 @@ I just love seeing these great use cases for using this technology to better the
 
 **Chris Benson:** And literally saving lives in Africa... Literally saving lives. It was an emotional episode... So yeah, absolutely they should go listen to that.
 
-**Break:** \[00:15:27.09\]
+**Break:** \[15:27\]
 
 **Daniel Whitenack:** Well, I'll bring us into the next thing that I've found here, which is not totally unrelated, but in a different vein... And that's that Julia, the Julia team - if you're not familiar, Julia is another programming language that's very prominent in scientific computing, and in certain communities, especially more on the academic sense, but it's kind of starting to filter into the industry... They just released version 1.0.
 
@@ -98,7 +98,7 @@ We're in this moment where not only in the United States, but around the world w
 
 He goes on in this article in quite a lot of detail in a bunch of areas, far more than we can cover in the podcast, so I would certainly encourage listeners to take a read and be thoughtful about it.
 
-**Daniel Whitenack:** \[00:20:03.14\] Yeah, and I definitely will take a look at that and take that perspective in. It's always good to have those checks and balances and make sure you're hearing different sides of the story. I would agree with you in the sense that especially in light of -- I think all of us when we are watching, for example, the Facebook hearings at Congress, we're just kind of... At least all of us who work in this industry and are maybe of a younger generation - we're just cringing at the fact of how little is understood at the government level about these new techniques and what's really driving decision-making in an industry which is so different... And as that filters into government, I can't help but think that there's really gonna be some profound changes at every level of government in terms of how they go about their decision-making and how they manage companies that are utilizing these technologies as well.
+**Daniel Whitenack:** \[20:03\] Yeah, and I definitely will take a look at that and take that perspective in. It's always good to have those checks and balances and make sure you're hearing different sides of the story. I would agree with you in the sense that especially in light of -- I think all of us when we are watching, for example, the Facebook hearings at Congress, we're just kind of... At least all of us who work in this industry and are maybe of a younger generation - we're just cringing at the fact of how little is understood at the government level about these new techniques and what's really driving decision-making in an industry which is so different... And as that filters into government, I can't help but think that there's really gonna be some profound changes at every level of government in terms of how they go about their decision-making and how they manage companies that are utilizing these technologies as well.
 
 **Chris Benson:** Yeah, I agree. I remember a big part -- aside from the actual reporting on the hearings themselves, some of the senators really took a beating when it became how apparent it was that they weren't familiar with the implications of these technologies.
 
@@ -120,7 +120,7 @@ Do we want to move into some learning resources at this point?
 
 **Chris Benson:** Okay, sounds good. Do you wanna go for it?
 
-**Daniel Whitenack:** \[00:23:50.04\] Sure, yeah. What I was gonna point out this week for people to try out is the PyTorch tutorials. If you just search for "pytorch tutorials" -- of course, we'll include it in the show notes, but search for that...
+**Daniel Whitenack:** \[23:50\] Sure, yeah. What I was gonna point out this week for people to try out is the PyTorch tutorials. If you just search for "pytorch tutorials" -- of course, we'll include it in the show notes, but search for that...
 
 The reason why I mention this is I'm actually going through some of these now, and have been for a bit, in preparation for some workshop materials that I'm putting together, and some online course materials which hopefully I'll be sharing in a future learning resources episode...
 
@@ -136,7 +136,7 @@ A couple of the key things that they said, that if you're starting out -- they r
 
 They basically said "Go for something that other people aren't necessarily doing and see if you can make it work." Then the next thing they said is "Get an assignment", and that is to make it real. They were involved in a hackathon, and in that perspective they had a set time limit to knock some code out. With that time approaching quickly, you have to produce whatever you can in a short amount of time... But that forced them to really think quickly and act on it quickly, and see what they could produce. That assignment, they said, made a big difference.
 
-\[00:28:17.26\] And finally, when you have your assignment, they said, break down your project; instead of being overwhelmed and saying "Oh my gosh, we've taken this very ambitious assignment in terms of how we're gonna approach it, and we have a set timeline..." They just said "Break it down into pieces", just like you would if you were a software engineer or any one of many other things. It's a project, and a project is a big thing that's composed of lots of little things. They said that they would basically divide it and conquer the project, and were able to use open source tools like Pandas, which I know you mentioned in our last conversation... And they were able to turn out a good product.
+\[28:17\] And finally, when you have your assignment, they said, break down your project; instead of being overwhelmed and saying "Oh my gosh, we've taken this very ambitious assignment in terms of how we're gonna approach it, and we have a set timeline..." They just said "Break it down into pieces", just like you would if you were a software engineer or any one of many other things. It's a project, and a project is a big thing that's composed of lots of little things. They said that they would basically divide it and conquer the project, and were able to use open source tools like Pandas, which I know you mentioned in our last conversation... And they were able to turn out a good product.
 
 I just thought it was a great attitude with some great practical advice for doing practical AI at an entry level, and I wanted to share that with our listeners.
 

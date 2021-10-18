@@ -36,7 +36,7 @@ I have my fat.soff.es, it's like my weight graph from my Fitbit scale...
 
 **Adam Stacoviak:** This is on GitHub, so as a fan of open source and a big contributor, you open-source this... Did you hack an API for this? You said it's from your Fitbit; I have a Fitbit too, so I'm kind of curious what you did to do this.
 
-**Sam Soffes:** \[00:04:11.05\] Yeah, there's like a Fitbit API. It's just a little Sinatra app that pulls in the data, and caches it in Redis, and then there's a nice Chart.js to draw the graph. It's really basic... Because Fitbit has all this data, so I just pull it in and show it nicely.
+**Sam Soffes:** \[04:11\] Yeah, there's like a Fitbit API. It's just a little Sinatra app that pulls in the data, and caches it in Redis, and then there's a nice Chart.js to draw the graph. It's really basic... Because Fitbit has all this data, so I just pull it in and show it nicely.
 
 Yeah, I kind of wanted to make -- I've been working on this forever, a website to show everything about me... Like, how many songs I listen to, how many keys I press... Everything.
 
@@ -84,7 +84,7 @@ Yeah, I kind of wanted to make -- I've been working on this forever, a website t
 
 **Sam Soffes:** You know, whatever we could afford right now... So our mattress is on the floor, and like, a chair... We've ordered this super amazing Jonathan Adler couch I've wanted for years... And she's really on board with -- you know, our apartment is super empty, and it probably sounds echoey in here because there's just like nothing in this room... But yeah, it's been really fun to kind of -- I got rid of all my stuff and we kind of are building up together with what we both want. It's really good.
 
-**Adam Stacoviak:** \[00:07:56.10\] Do you mind if we tell the story of SF to Kentucky, the change there and what brought you -- mostly surrounding what brought you two back together? I kind of like wanna - as much as you want to, obviously - share with the listeners your road to Ellen, basically.
+**Adam Stacoviak:** \[07:56\] Do you mind if we tell the story of SF to Kentucky, the change there and what brought you -- mostly surrounding what brought you two back together? I kind of like wanna - as much as you want to, obviously - share with the listeners your road to Ellen, basically.
 
 **Sam Soffes:** Sure. Yeah, so my best friend in high school, who actually I made my first product I sold online with, which is Countdown Maker, it was a Mac app... Anyway, he is now married to her sister, and at the time they were dating, in high school, obviously.
 
@@ -108,7 +108,7 @@ We hung out in Louisville, and my mom actually ended up moving away from Louisvi
 
 **Sam Soffes:** Yeah, so stuff is just stuff; none of it is that special. I don't really have too many sentimental things. I mean, that stuff I usually have hung on to, or at least some of it... But most of it, like a couch or a TV or whatever - who cares? I'll just get a new one if I really need a new one. But a lot of the time it's like "I don't need one, so whatever." I had a couch I really liked, and Ellen didn't really like it that much, so I was like "Oh, whatever. We'll just get a new one." I don't really -- you know, and right now we don't have a couch, because we haven't... Like, it's not here yet, because we've paid for it and it's gonna take forever to get here. And it's fine; we can survive without a couch, it's not a big deal. I don't know.
 
-\[00:12:21.10\] I mean, especially when I was trying to do Nothing Magical or Cheddar or whatever, and I sold all my stuff to have a little extra money and focus, it was really cool, and then later I decided I actually really wanted a couch, so I went and bought a couch... So it's whatever. I don't know, it's not a big deal to buy and sell stuff... To me. I don't know.
+\[12:21\] I mean, especially when I was trying to do Nothing Magical or Cheddar or whatever, and I sold all my stuff to have a little extra money and focus, it was really cool, and then later I decided I actually really wanted a couch, so I went and bought a couch... So it's whatever. I don't know, it's not a big deal to buy and sell stuff... To me. I don't know.
 
 **Adam Stacoviak:** It's cool that you guys both have that perspective of "Stuff is just stuff." That's a big deal. People get attached to things of this world and think they really matter, like stuff, and when you die you can't take that couch with you, right?
 
@@ -132,7 +132,7 @@ That caused problems in my earlier -- like when I was 18 and I had my first prog
 
 **Sam Soffes:** Totally.
 
-**Adam Stacoviak:** \[00:15:54.17\] I mean, just because this is the fourth time you've been on the show and listeners can literally go back and listen to part one, two and three and then now four, they can see how your quick decision-making has changed and impacted your life; they can see that through the story you've told about your life and what you've been doing, everything from Cheddar to Nothing Magical to open-sourcing things, to moving back and forth, selling stuff, getting married... You know, all these different things are effects or evidence of the impact of you doing that.
+**Adam Stacoviak:** \[15:54\] I mean, just because this is the fourth time you've been on the show and listeners can literally go back and listen to part one, two and three and then now four, they can see how your quick decision-making has changed and impacted your life; they can see that through the story you've told about your life and what you've been doing, everything from Cheddar to Nothing Magical to open-sourcing things, to moving back and forth, selling stuff, getting married... You know, all these different things are effects or evidence of the impact of you doing that.
 
 **Sam Soffes:** Yeah. And I guess something -- as you were listing those things, I was kind of thinking through what all these things have in common... And I guess part of -- you know, open-sourcing Cheddar I thought about for a couple days, and I was trying to figure out why did that take a couple days, versus why didn't I just do that on the spot, and I couldn't really give one good reason one way or the other for the choice... And it wasn't ever like "Well, this one just feels right, so I'm gonna do that." It was "Here are the reasons why."
 
@@ -152,7 +152,7 @@ I'm a very concrete thinker, as far as facts and logic and whatnot... So you kno
 
 **Adam Stacoviak:** Now that you live in San Francisco though, you are pretty close to those who do work there. I mean, not everybody that's a GitHubber is right there in the proximity, but you can hang out with people at the office, or you probably cross paths at developer meetups, or whatever... Does that happen often? Do you know a lot people from GitHub that you get to pal around with?
 
-**Sam Soffes:** \[00:19:48.22\] Yeah, I mean, most of my GitHub folks that I talk to are remote, like the Mac folks and Win. I have a couple friends that live here that I play poker with and such, but... Yeah, I guess I hang out with more people that work at Twitter than GitHub. But granted, that's again, a much larger pool of people, so... Anyway. Yeah, it's kind of neat, everyone's here. It's good to be back around my people.
+**Sam Soffes:** \[19:48\] Yeah, I mean, most of my GitHub folks that I talk to are remote, like the Mac folks and Win. I have a couple friends that live here that I play poker with and such, but... Yeah, I guess I hang out with more people that work at Twitter than GitHub. But granted, that's again, a much larger pool of people, so... Anyway. Yeah, it's kind of neat, everyone's here. It's good to be back around my people.
 
 **Adam Stacoviak:** Your people. Yeah, so let's go there for a bit then, if you don't mind. You wrote -- I guess we could talk about Roon just after this, but you have moved your blog to Roon, which is sam.roon.io, and you recently wrote a post called Onward, where you actually talk a bit about you and Ellen's move to San Francisco, the details around that and what you all have in store for yourselves there at San Francisco, that you don't have access elsewhere. What is that?
 
@@ -168,7 +168,7 @@ I have a lot of friends here... I don't know, it's really good. It's nice being 
 
 **Adam Stacoviak:** Right. What about the -- one common thing that comes up with moving to San Francisco, Silicon Valley, that area of the world is 1) cost of living, 2) traffic, and just the saturation of the job market, and I guess it depends on your perspective... In your case, you're building something for yourself, or your own thing, so it's a little different because you're not trying to get hired. But what do you have to say about the cost of living, traffic and the saturation level of -- I guess the opposite side of what you were just talking about?
 
-**Sam Soffes:** \[00:23:47.07\] Yeah, so it's definitely expensive. Yeah, I'm paying more to live than I -- like, for my rent now I could have a mortgage and a car in every other state I've lived in, which is absurd. But that said, you get paid a lot more. I mean, obviously, as a contractor that's not as true, but for a salary, you get paid a lot more... It makes up for it. And stuff on Amazon is still the same price, so...
+**Sam Soffes:** \[23:47\] Yeah, so it's definitely expensive. Yeah, I'm paying more to live than I -- like, for my rent now I could have a mortgage and a car in every other state I've lived in, which is absurd. But that said, you get paid a lot more. I mean, obviously, as a contractor that's not as true, but for a salary, you get paid a lot more... It makes up for it. And stuff on Amazon is still the same price, so...
 
 **Adam Stacoviak:** Yeah.
 
@@ -222,7 +222,7 @@ Then as far as traffic goes, I don't really drive that often. I usually ride my 
 
 **Adam Stacoviak:** It can't keep you down.
 
-**Sam Soffes:** \[00:27:58.06\] Yeah, it's good. I really enjoy biking, so it's a good time.
+**Sam Soffes:** \[27:58\] Yeah, it's good. I really enjoy biking, so it's a good time.
 
 **Adam Stacoviak:** So obviously, cost of living, we've just talked about that; traffic is a non-issue for you because you bike everywhere... I guess if you are hired somewhere and you do have to travel, what's the likelihood that if you live and work in the city -- what is the cost of living versus having to go places cost? Not so much rough, actual numbers, but... You said before - just to kind of give you some perspective of my question - you couldn't imagine making less than six figures, which I would think that that would be the case for sure, living out there; it's like minimum wage is six figures, you know?
 
@@ -258,7 +258,7 @@ If it's something you wanna do, just do it. It's way easier than I think people 
 
 **Sam Soffes:** Yeah.
 
-**Adam Stacoviak:** \[00:32:12.09\] If you've got one thing on your resume, that's a bad sign, right?
+**Adam Stacoviak:** \[32:12\] If you've got one thing on your resume, that's a bad sign, right?
 
 **Sam Soffes:** It's just like, "Oh, that's weird... Did you like that?" It's kind of like a red flag, it's so out of the ordinary.
 
@@ -292,7 +292,7 @@ I've found the solution to making me happy while doing contract work -- because 
 
 Those are two people I really enjoy working with, as far as like on a project basis - with Drew, and then my friends over at Over. It's been really good.
 
-**Adam Stacoviak:** \[00:36:17.11\] I remember on -- I can't recall which show it was that we talked about it, but I think for a bit there you were doing consulting for like $1,000/hour.
+**Adam Stacoviak:** \[36:17\] I remember on -- I can't recall which show it was that we talked about it, but I think for a bit there you were doing consulting for like $1,000/hour.
 
 **Sam Soffes:** Yeah, briefly. I only did one contract, and for three hours, so it wasn't that much money. Anyway, it takes me a lot longer now to make $3,000. Yeah, it was terrible; I really didn't like it at all, so...
 
@@ -330,7 +330,7 @@ I was like, "Man, that's a good idea. I should make this", thinking to myself, j
 
 **Sam Soffes:** He's funny, he always fun expressions. \[laughs\] So yeah, it's been really good. We've taken it -- I mean, we had kind of both had different things in mind when we started, and to kind of come together with a combination of ideas... And it's turned out much better I think than if either of us had done it on their own. It's really good. We have -- our iOS update is coming out really soon, for iOS 7; that's really exciting, and working on the Mac app as well, though slower...
 
-\[00:40:19.01\] Mac development is the worst. Anyway, it's a really fun side-project; tons of people use it, which is kind of crazy, because we don't really promote it that much. There's a lot of people using it, so it's pretty cool.
+\[40:19\] Mac development is the worst. Anyway, it's a really fun side-project; tons of people use it, which is kind of crazy, because we don't really promote it that much. There's a lot of people using it, so it's pretty cool.
 
 **Adam Stacoviak:** How many is a lot?
 
@@ -374,7 +374,7 @@ The only one we have right now is custom domain. You can have SamSoffes.com inst
 
 **Sam Soffes:** And then we have -- from the very beginning we added you can download an archive, like this file of everything you've ever written, all the images you've uploaded... Like, "Here's where all of your stuff is, in markdown. Take it and do whatever you want with it." That was important to us, to kind of like "This is more like yours and you can kind of do what you want with it" and less of this closed off thing.
 
-\[00:44:04.15\] There's definitely competition in the writing space now that wasn't there that long ago, and we actually started working on Roon before Medium started sending out a bunch of invites. We were kind of like "Oh, I guess they're around now..."
+\[44:04\] There's definitely competition in the writing space now that wasn't there that long ago, and we actually started working on Roon before Medium started sending out a bunch of invites. We were kind of like "Oh, I guess they're around now..."
 
 **Adam Stacoviak:** They are. I thought for a while there was-- I'm not really sure what the plan was for a bit, because they had their landing page for a bit, and they were being a little elusive about it. Then it was like, "Oh, we are alive..." Or it was only accessible to the super elite for a bit there, you know?
 
@@ -402,7 +402,7 @@ Actually, the markdown stuff in Roon has nothing to do with the Cheddar, it's co
 
 **Sam Soffes:** It's not super official, but it's kind of neat that it's -- we added underline and highlight, which wasn't really there before, so... It's kind of fun.
 
-**Adam Stacoviak:** \[00:48:06.22\] What do you do to do the highlight? You wrap something in the span \[unintelligible 00:48:09.05\] or something, or...?
+**Adam Stacoviak:** \[48:06\] What do you do to do the highlight? You wrap something in the span \[unintelligible 00:48:09.05\] or something, or...?
 
 **Sam Soffes:** There was actually a mark element in HTML5 before, so that's what we use.
 
@@ -434,7 +434,7 @@ Actually, someone ported that stuff to like a JavaScript one, or... People like 
 
 So yeah, we worked on Everlapse... There's a new update coming out really soon that's all iOS 7; actually Drew designed a good part of it, which was kind of fun. We brought him on as a contractor. So it was a really good experience, and obviously Drew and I don't work on it anymore; they've kind of took it over and made it their own. It was really fun to work there and everyone was really awesome, but I kind of like -- we were making something that I wasn't that excited about. I don't really need another social network, and that's kind of what they wanted to make, social networks. I was like "I'm more excited about making tools that people want, than a new way for people to connect with each other."
 
-\[00:52:09.12\] I mean, there's obviously people that want that and enjoy that, but that's not personally what I'm into... So it was just hard for me to stay motivated on stuff that I probably won't really use. I'd already kind of had some -- I was talking with the Over guys a little bit and they really wanted to hire me, and it was like "Well, we can do some contract stuff if you want." They were like, "Okay, yeah. Let's do that." The timing worked out perfectly, to just leave Seesaw and start on the contract with Over. Financially that helped me bridge the gap and make the transition.
+\[52:09\] I mean, there's obviously people that want that and enjoy that, but that's not personally what I'm into... So it was just hard for me to stay motivated on stuff that I probably won't really use. I'd already kind of had some -- I was talking with the Over guys a little bit and they really wanted to hire me, and it was like "Well, we can do some contract stuff if you want." They were like, "Okay, yeah. Let's do that." The timing worked out perfectly, to just leave Seesaw and start on the contract with Over. Financially that helped me bridge the gap and make the transition.
 
 It's been really good. Sometimes the transition is a little painful, from getting a paycheck to not getting a paycheck, but it wasn't too bad.
 
@@ -456,7 +456,7 @@ Everyone I tell about it is just really excited, when I tell them the specifics.
 
 I'm just excited, because I'm totally in over my head; I don't know hardware at all, so it's fun to learn something totally new, so I'm enjoying it a lot.
 
-**Adam Stacoviak:** \[00:56:08.03\] That's your MO, man. I don't know if you know that, but that's your MO, being in over your head, in a sense. I mean, not so much in a bad way, but I think you put yourself there purposefully - if I know you well enough, having done these shows with you and kind of getting to know you a bit. I feel like you kind of put yourself there because that's where you thrive, that's where you grow...
+**Adam Stacoviak:** \[56:08\] That's your MO, man. I don't know if you know that, but that's your MO, being in over your head, in a sense. I mean, not so much in a bad way, but I think you put yourself there purposefully - if I know you well enough, having done these shows with you and kind of getting to know you a bit. I feel like you kind of put yourself there because that's where you thrive, that's where you grow...
 
 **Sam Soffes:** Totally.
 

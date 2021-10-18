@@ -58,7 +58,7 @@ Today we have Wes Bos and Mike Taylor. Wes, introduce yourself.
 
 **Mike Taylor:** This is how Canadians make it through the winter, right? \[laughter\]
 
-**Wes Bos:** \[00:04:04.29\] Exactly! You hunker down... It's sort of like bears, except we still have to live, so we eat large amounts of potatoes and cheese...
+**Wes Bos:** \[04:04\] Exactly! You hunker down... It's sort of like bears, except we still have to live, so we eat large amounts of potatoes and cheese...
 
 **Mike Taylor:** Yeah, and sleep...
 
@@ -88,7 +88,7 @@ Alex, you were talking about some of the problems around backwards compatibility
 
 **Alex Sexton:** No, definitely not.
 
-**Mike Taylor:** \[00:07:58.20\] That's all just like regular JavaScript, right? It all evaluated to just be like -- the exact same thing is, I don't know, a script tag, at the end of the day. So there have really been no browser compatibility constraints. But there is this issue... There's this "no module" attribute, and that's something that I don't really entirely understand, and browsers don't even really support this now, but there are some kind of problems you can get into if your browser supports modules and you're mixing module code and non-module code.
+**Mike Taylor:** \[07:58\] That's all just like regular JavaScript, right? It all evaluated to just be like -- the exact same thing is, I don't know, a script tag, at the end of the day. So there have really been no browser compatibility constraints. But there is this issue... There's this "no module" attribute, and that's something that I don't really entirely understand, and browsers don't even really support this now, but there are some kind of problems you can get into if your browser supports modules and you're mixing module code and non-module code.
 
 So there will be a way for you to say like "This one's not a module. This is my fallback for Safari 9 or Firefox 38", or whatever it is.
 
@@ -132,7 +132,7 @@ So this would be the first time - since this is the first native implementation 
 
 It's async by default, so you also can't do "document.write" and things like that, so it could very potentially allow the browsers -- like, browsers are pretty good at look ahead and all that stuff now, so it may not actually material and make a ton of difference.
 
-\[00:12:09.10\] But it's kind of cool that because modules are a new enough thing, that we can unbreak some old things if you use them.
+\[12:09\] But it's kind of cool that because modules are a new enough thing, that we can unbreak some old things if you use them.
 
 **Wes Bos:** Yeah. That reminds me of service workers. If your browser supports service workers, in order to support a service worker you have to implement a bunch of other things like Fetch and other things... So you only need to do one level of feature detection to be like "Do I have a service worker on the document?" or however you do that. And then you can make all these assumptions, like "Okay, now I'm in a modern environment", and you don't have to worry about all the other gross stuff.
 
@@ -152,7 +152,7 @@ This morning I was on a call with some of the good people at Google who work on 
 
 **Alex Sexton:** Is it still the case?
 
-**Mike Taylor:** \[00:16:11.06\] It's often the case. A lot of the work I've been doing in the past year and a half, two years is just standardizing what I call "the de facto web". So you've got the web that you were promised, or the web that was written in specs and, you know, like people like Zeldman and others said "Code to web standards, and it will work everywhere." And then you've got the reality, which is, you know, like Apple came out with some really cool advanced CSS features years ago... Five, six, seven, eight years ago they had masks and gradients and reflections and all this cool stuff that you just couldn't do anywhere else... So of course designers and developers wanna experiment, they wanna put that in their products, and what happens over time is Apple didn't do such a great job at actually moving those things towards standards bodies, but it worked in browsers, and then we know Chrome came to be and they ended up using WebKit, and then they forked to Blink and inherited all this code.
+**Mike Taylor:** \[16:11\] It's often the case. A lot of the work I've been doing in the past year and a half, two years is just standardizing what I call "the de facto web". So you've got the web that you were promised, or the web that was written in specs and, you know, like people like Zeldman and others said "Code to web standards, and it will work everywhere." And then you've got the reality, which is, you know, like Apple came out with some really cool advanced CSS features years ago... Five, six, seven, eight years ago they had masks and gradients and reflections and all this cool stuff that you just couldn't do anywhere else... So of course designers and developers wanna experiment, they wanna put that in their products, and what happens over time is Apple didn't do such a great job at actually moving those things towards standards bodies, but it worked in browsers, and then we know Chrome came to be and they ended up using WebKit, and then they forked to Blink and inherited all this code.
 
 So basically, the internet depends on this one feature, so you can either pretend, or get really upset, like "Oh, it's non-standard." You can care about that, or you can just say like "You know what? This is part of the web and it has a crappy name... That crappy name happens to just start with -webkit, so let's create a spec for it and let's get all the browsers to implement it, and then it just works."
 
@@ -174,7 +174,7 @@ A part of that, my team works on this website called WebCompat.com, and that's a
 
 That shouldn't come as a surprise to anybody who has developed more than one web page and opened it in two browsers. It's all hacks, and there's bugs, and you want certain features but they only exist on one browser, so it's kind of like this big mess. That's a lot of fun and has a lot of potential.
 
-\[00:20:10.04\] Just to spitball a couple examples off the top of my head... You can tell me when to stop talking, and I will.
+\[20:10\] Just to spitball a couple examples off the top of my head... You can tell me when to stop talking, and I will.
 
 **Alex Sexton:** No, keep going.
 
@@ -210,7 +210,7 @@ If you've ever written some JavaScript, you'll know that when you're writing you
 
 So it turns out IE invented this thing, and Safari, back when it was actually KHTML - so this was before Apple even forked... Some crazy Norwegians in Oslo made this - they were called Trolltech... They made a browser engine which turned into KHTML, and they had to implement that for compatibility to get some banks running, or whatever.
 
-\[00:24:04.20\] So then Safari has it, people start probably copying and pasting code from Stack Overflow, and it just keeps on working because you had no idea this was even a thing, and it works in Chrome and it works in Edge, because they forked from IE.
+\[24:04\] So then Safari has it, people start probably copying and pasting code from Stack Overflow, and it just keeps on working because you had no idea this was even a thing, and it works in Chrome and it works in Edge, because they forked from IE.
 
 So this is one of these things where you're like, "Oh, we should just spec this and call it -- it's part of the web platform, it's ugly, it's historical..." Yeah, so this is something -- I'm working with [Anne van Kesteren](https://en.wikipedia.org/wiki/Anne_van_Kesteren) who is a web standards wizard; he works on HTML and DOM, and probably 50 other things... There's an open pull request, and then that'll just be part of the web.
 
@@ -230,7 +230,7 @@ I don't know what the moral to that story is... You know, this is the technical 
 
 **Alex Sexton:** Yeah. I think we're running off on a break, but we'll get back with some hot text after the break.
 
-**Break:** \[00:25:54.24\]
+**Break:** \[25:54\]
 
 **Alex Sexton:** And we're back. So I wanted to ask both of you a question that is not like a normal question that we ask on the show but I often find interesting, especially since both of you have ended up in standards and teaching and stuff like that, rather than necessarily directly creating -- I think we've all done some direct creating, but you guys are in somewhat different positions now.
 
@@ -246,7 +246,7 @@ I've been at it for probably 10-15 years, but I've probably built some sites eve
 
 **Alex Sexton:** So you're primarily self-taught?
 
-**Wes Bos:** \[00:28:08.18\] Yeah. Well, I would say entirely self-taught. I went to school for what's called "Business technology management", so I have a business degree that's focused on running IT. Generally, they sort of like -- you go to work at banks and stuff, and run the IT infrastructure, and you work on projects and stuff like that for these big corporations. But we were taught a lot about swimlane diagrams and sending emails and the business side of things, but the actual coding - there was no actual coding in the entire course. It's more like that obnoxious manager that doesn't know what they're talking about. But I was coding all through university, so I kind of have the best of both worlds now, where I can understand, I can speak to people, I can write emails, and I know the business side of things, but then I can also sling the code.
+**Wes Bos:** \[28:08\] Yeah. Well, I would say entirely self-taught. I went to school for what's called "Business technology management", so I have a business degree that's focused on running IT. Generally, they sort of like -- you go to work at banks and stuff, and run the IT infrastructure, and you work on projects and stuff like that for these big corporations. But we were taught a lot about swimlane diagrams and sending emails and the business side of things, but the actual coding - there was no actual coding in the entire course. It's more like that obnoxious manager that doesn't know what they're talking about. But I was coding all through university, so I kind of have the best of both worlds now, where I can understand, I can speak to people, I can write emails, and I know the business side of things, but then I can also sling the code.
 
 **Alex Sexton:** It's very interesting, because your primary job is a teacher, whether it's via the tutorials or via HackerYou school.
 
@@ -284,7 +284,7 @@ Later, when I was in college, I was 22 years old or something, I was at my buddy
 
 **Mike Taylor:** You kid! It was spite-driven development.
 
-**Alex Sexton:** \[00:32:08.29\] Exactly.
+**Alex Sexton:** \[32:08\] Exactly.
 
 **Mike Taylor:** So later in grad school at NYU I needed a way to earn money to pay rent during the summer months; I had a fellowship which paid me $3/day to live in New York City. We were mostly covered for the academic year, and I ended up with some internships and some freelance stuff... And just kind of really self-taught, and got interested in web standards and specs and stuff like that, and just kind of read a lot email in my free time.
 
@@ -314,13 +314,13 @@ So Prepack will go through and it will do that operation for you beforehand, so 
 
 Long story short, I was thinking about this... I've spent years in college in syntax classes, and our homework was basically like "Here's a sentence. Now write an AST for this sentence using Chomsky's minimalist syntax, whatever... So it was a lot of drawing trees and doing grammar transformation, so I think that logical education definitely helped understand programming, and it's probably helped with spec writing; you have to be really algorithmic. I'm terrible at everything I do, but it's not so foreign as you might imagine if you have that kind of background.
 
-**Alex Sexton:** \[00:36:14.25\] That's nifty. I guess it sounds weird, but you were talking about Prepack, and we're talking a little bit about news... There was a thing that came out this week called Interface Lovers, Ekechukwu is a friend of the podcast, Iheanyi is a dev out of New York. It's InterfaceLovers.com. It's interviews kind of like what we're talking about, on just great designers from different backgrounds on "Where do you come from? How did you get into design?" It's more design-focused than JavaScript-focused, but I thought it would be interesting from a perspective of most JavaScript developers care at least somewhat about the interface design and UX. I just wanted to give it a shoutout, since this was kind of relevant to the things we were talking about here.
+**Alex Sexton:** \[36:14\] That's nifty. I guess it sounds weird, but you were talking about Prepack, and we're talking a little bit about news... There was a thing that came out this week called Interface Lovers, Ekechukwu is a friend of the podcast, Iheanyi is a dev out of New York. It's InterfaceLovers.com. It's interviews kind of like what we're talking about, on just great designers from different backgrounds on "Where do you come from? How did you get into design?" It's more design-focused than JavaScript-focused, but I thought it would be interesting from a perspective of most JavaScript developers care at least somewhat about the interface design and UX. I just wanted to give it a shoutout, since this was kind of relevant to the things we were talking about here.
 
 I think we may land a plane and go into another break here, but we'll be back with some more from Wes after this, since he's a little bit too polite to interrupt Mike and I.
 
 **Mike Taylor:** I talk way too much. \[laughter\]
 
-**Break:** \[00:37:14.03\]
+**Break:** \[37:14\]
 
 **Alex Sexton:** And we're back! Wes, you work quite a bit on education, almost entirely, we've decided... We've talked a little bit about education on this podcast, but you weren't here, so I'd like to get your take on -- explain the things that you've put out in the past, and sell it or do whatever you need to do here for that; it's not why you're here. You're here because we love you. \[laughter\]
 
@@ -342,7 +342,7 @@ Another one -- I've got a whole bunch of free ones, as well. I've got more free 
 
 **Alex Sexton:** Program bore.
 
-**Wes Bos:** \[00:40:12.07\] Yeah, program bore. And they're like, "Well thanks, but that doesn't help me, because I don't know what to build." I was lucky enough that I'm always curious and I always have ideas of stuff I wanna build, but some people are not that way, or they're just sort of sitting there and they need somebody to guide them through it. So I came up with this JavaScript 30, which is just 30 projects that are between 10 minutes and 30 minutes long.
+**Wes Bos:** \[40:12\] Yeah, program bore. And they're like, "Well thanks, but that doesn't help me, because I don't know what to build." I was lucky enough that I'm always curious and I always have ideas of stuff I wanna build, but some people are not that way, or they're just sort of sitting there and they need somebody to guide them through it. So I came up with this JavaScript 30, which is just 30 projects that are between 10 minutes and 30 minutes long.
 
 It's totally all over the place - it's from webcam stuff, to speech detection, to creating speech, to just doing basic DOM stuff, understanding how event listeners work, and clicks, and ES6 and what not... And people seem to really like it, because it's just a great way of -- I don't know, it's kind of a neat way to learn modern JavaScript.
 
@@ -374,7 +374,7 @@ The other thing that is interesting is that React kind of moves quickly. How do 
 
 **Wes Bos:** That's something that I want. When I choose what to do, how fast it's moving is definitely something I take into account, just because I don't want it to be out of date. If it takes me a couple months to build this thing, I don't want it to be out of date within a month.
 
-\[00:44:06.00\] I've been talking with some of the Webpack guys about creating a Webpack course, and I'm like "So what are your plans with the API?" and they're like, "Oh, we're totally gonna change it again." \[laughter\] Good! So I don't know... We'll see. It's definitely something that just comes with working on cutting edge stuff.
+\[44:06\] I've been talking with some of the Webpack guys about creating a Webpack course, and I'm like "So what are your plans with the API?" and they're like, "Oh, we're totally gonna change it again." \[laughter\] Good! So I don't know... We'll see. It's definitely something that just comes with working on cutting edge stuff.
 
 **Alex Sexton:** Yeah. It's good that you do that, though. It's very frustrating as someone who's learning to come across a tutorial that is no longer up to date. It's so anti-helpful... So I think you're a very noble, good soul for doing that. Good work, good work!
 
@@ -394,7 +394,7 @@ It's not for absolutely everybody; I think that there's a certain type of person
 
 I think they are very responsible, and I think HackerYou definitely falls into this category of more responsible -- and I don't even necessarily disagree with the idea behind that, which is definitely there's a need for programmers... Honestly, I find that the need for programmers should more be stated "There's a need for senior programmers." I personally don't think people hire nearly enough junior programmers, but how do you find the transition out of the school? My gut is that it's actually more like you can go become an intern at a company and then you can turn that into a job if you do well, and then three years later you can have the hundred thousand dollar salary - which is still great, but I'm interested in how the bootcamp that you see typically translates into being able to get a job, being able to get a high salary, or what the pathway is to that.
 
-**Wes Bos:** \[00:48:12.00\] Yeah... I don't have the numbers off hand, but I do know that the people are coming specifically out of the HackerYou bootcamp, within a month of graduating, I'd say about 80%-90% of them do have a paying job. It's pretty surprising how quickly people can get a job. There's lots of companies who are just hiring out of these bootcamps, because they know that they're sort of ramped up... But that is also to say that it's not like anyone can come off the street, take this course and do it; it's generally the type of people that even get into this program, that are sort of filtered through that, they're already good learners, they're already self-starters, they're already smart people. Almost everybody that comes into this has a college university degree already, and they're just looking for a career shift.
+**Wes Bos:** \[48:12\] Yeah... I don't have the numbers off hand, but I do know that the people are coming specifically out of the HackerYou bootcamp, within a month of graduating, I'd say about 80%-90% of them do have a paying job. It's pretty surprising how quickly people can get a job. There's lots of companies who are just hiring out of these bootcamps, because they know that they're sort of ramped up... But that is also to say that it's not like anyone can come off the street, take this course and do it; it's generally the type of people that even get into this program, that are sort of filtered through that, they're already good learners, they're already self-starters, they're already smart people. Almost everybody that comes into this has a college university degree already, and they're just looking for a career shift.
 
 That's generally how it is - you can get a paying job right out of the gate if you have the personality type, and then a couple years later you start to see -- are people burned out of it because they didn't actually like this? They don't actually like coding and they're frustrated that Webpack changed again and they're sick of it, because they just wanted cash and they don't necessarily care all that much about all the changing in the web development. Or they actually love it, they love building stuff and they love staying up to date. It really starts to show through after a couple years, because some people I do know after a couple years of bootcamp are making six figures, and some people I know are not longer doing development because it's just not in them, they got into it for the wrong reasons, or they just didn't know... Which, in that case, I'm glad you tried it, but maybe it's not for you.
 
@@ -412,7 +412,7 @@ That's generally how it is - you can get a paying job right out of the gate if y
 
 So yeah, a huge push for diversity, and I think it's great to see that sort of stuff, an increase in diversity in the industry.
 
-**Alex Sexton:** \[00:52:24.28\] Yeah. And I know we're three white guys on a podcast talking about diversity so we should get Heather on the show sometime for sure, because she has a lot of very interesting, good input on all this stuff. But the focus at these bootcamps on diversity seems very important and good, because a lot of times it is absolutely not the case that this is the only problem, but your pipeline is part of the problem; the pipeline of available engineers who exist is not a great pipeline, as well as the industry does not have favorable conditions for diverse members of our community. But if we can get these kind of quicker starts, it seems like a faster fix than going -- which we should actively still do; we should do the slow fix, but also the fast fix.
+**Alex Sexton:** \[52:24\] Yeah. And I know we're three white guys on a podcast talking about diversity so we should get Heather on the show sometime for sure, because she has a lot of very interesting, good input on all this stuff. But the focus at these bootcamps on diversity seems very important and good, because a lot of times it is absolutely not the case that this is the only problem, but your pipeline is part of the problem; the pipeline of available engineers who exist is not a great pipeline, as well as the industry does not have favorable conditions for diverse members of our community. But if we can get these kind of quicker starts, it seems like a faster fix than going -- which we should actively still do; we should do the slow fix, but also the fast fix.
 
 You can go to elementary schools in different parts of town and put in more computers and add more teachers doing more courses... There's all that, but that's like a 20-year path to fixing things, which we should do... But I really like that if someone came up through a different path, they can switch into the bootcamp path and change their career... Obviously, that opportunity is gonna be available to people who have better opportunities in general, and that's not always the case with diversity, but focusing on that I think can really help to magnify those efforts more quickly, which I think is good.
 
@@ -432,7 +432,7 @@ That stuff definitely comes, and there's definitely a lot of pain moments that y
 
 **Alex Sexton:** Let me tell you about some sliding doors...
 
-**Mike Taylor:** \[00:55:50.21\] Off-topic, but I used to work at this music-based start-up. We redesigned the site, and it was working in all the evergreen browsers. We were using HTML5 back when that was interesting; then it turned out that the people who we were partnering with only used IE7 - these were like record industry execs - and it was such a painful month after that... We were like, "Seriously?" IE10 was about to come out, or something...
+**Mike Taylor:** \[55:50\] Off-topic, but I used to work at this music-based start-up. We redesigned the site, and it was working in all the evergreen browsers. We were using HTML5 back when that was interesting; then it turned out that the people who we were partnering with only used IE7 - these were like record industry execs - and it was such a painful month after that... We were like, "Seriously?" IE10 was about to come out, or something...
 
 The reality of what's important and when it's important is an interesting topic that's totally not what we're talking about, so I'll be quiet now... \[laughter\]
 

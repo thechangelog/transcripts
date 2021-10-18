@@ -42,7 +42,7 @@
 
 **Divya:** Hm...
 
-**Jerod Santo:** \[00:04:00.17\] Hm... Argumentation. Anyway, it doesn't matter... It just matters on podcasts because we have to say it out loud, and most of us just type it and never have to think about it again. But forgetting how you say tuple, what is a tuple? Nick?
+**Jerod Santo:** \[04:00\] Hm... Argumentation. Anyway, it doesn't matter... It just matters on podcasts because we have to say it out loud, and most of us just type it and never have to think about it again. But forgetting how you say tuple, what is a tuple? Nick?
 
 **Nick Nisi:** So the way that I think of tuples is that they're like a fixed-length array. You can use that as like a return type, and then you're technically returning two things, just wrapped in an array... Or more; two or more things. You know, it's two-ple...
 
@@ -88,7 +88,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Jerod Santo:** What else is new?
 
-**Nick Nisi:** \[00:08:01.15\] Another cool thing with tuples is they can be labeled as well. So before, in TypeScript 3.9 and before, if you were going to say "This function is going to return you this tuple type", and it would be a string, followed by a string, followed by a string, and as you're looking at that in your autocomplete in your editor, you're just like "Well, what does that mean?" I'm getting three strings back, but now I have to go research what that actually means." Well, you can now label those types; you can say it's string:foo, and string:name, and string:lastname, and then your editor will help you determine what those are... So it'll just help with autocomplete and overall understanding of the data that you're working with.
+**Nick Nisi:** \[08:01\] Another cool thing with tuples is they can be labeled as well. So before, in TypeScript 3.9 and before, if you were going to say "This function is going to return you this tuple type", and it would be a string, followed by a string, followed by a string, and as you're looking at that in your autocomplete in your editor, you're just like "Well, what does that mean?" I'm getting three strings back, but now I have to go research what that actually means." Well, you can now label those types; you can say it's string:foo, and string:name, and string:lastname, and then your editor will help you determine what those are... So it'll just help with autocomplete and overall understanding of the data that you're working with.
 
 **Jerod Santo:** So the label represents the kind of string or the kind of data that you are expecting that string to contain? Like, this is name? It's a string, but it's a name.
 
@@ -144,7 +144,7 @@ I wanna say that I was listening to a Changelog podcast where they were talking 
 
 **Divya:** That's so cool!
 
-**Nick Nisi:** \[00:11:45.22\] Yeah. That always seemed like one of the main things that I would want decorators for... In my very limited thinking about decorators, it's like "Oh, I wanna be able to decorate this method as being this way", but that always generated a runtime result, like a console log that said "Oh, you're using this method. Maybe you should use this method instead", whereas this is at edit time, in your editor. This is squiggled out because you shouldn't be using this anymore.
+**Nick Nisi:** \[11:45\] Yeah. That always seemed like one of the main things that I would want decorators for... In my very limited thinking about decorators, it's like "Oh, I wanna be able to decorate this method as being this way", but that always generated a runtime result, like a console log that said "Oh, you're using this method. Maybe you should use this method instead", whereas this is at edit time, in your editor. This is squiggled out because you shouldn't be using this anymore.
 
 **Jerod Santo:** That begs the existential question, "Why would you write a method that you don't want anybody to use, Nick?"
 
@@ -212,7 +212,7 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Divya:** I'll link that in the show notes. it's a really good talk.
 
-**Nick Nisi:** \[00:16:12.09\] Yeah, they're really cool. Once you get your head around the AST, then it opens up so many possibilities for things that you can do... But that could be a tough thing to do.
+**Nick Nisi:** \[16:12\] Yeah, they're really cool. Once you get your head around the AST, then it opens up so many possibilities for things that you can do... But that could be a tough thing to do.
 
 **Divya:** Yeah, I think it's also understanding the AST itself, and oftentimes -- I understand ASTs, but every time I use the AST Explorer, which is the tool that people use, it's so confusing. I don't know how it works, and it's really frustrating. So if anyone has any tips on how to use that, that would be swell.
 
@@ -234,7 +234,7 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Jerod Santo:** So that's what that's called, so thank you, Nathan for getting that. You do get 500 points, congratulations.
 
-**Break:** \[00:18:33.09\]
+**Break:** \[18:33\]
 
 **Jerod Santo:** In other news, which should be more fun news and maybe not quite as useful news...
 
@@ -250,7 +250,7 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Jerod Santo:** I did not.
 
-**Divya:** \[00:20:11.11\] It was inspired by the Dino game that's on Chrome, when you essentially are not connected to the internet - you can play that Dino game.
+**Divya:** \[20:11\] It was inspired by the Dino game that's on Chrome, when you essentially are not connected to the internet - you can play that Dino game.
 
 **Jerod Santo:** Oh, that dinosaur, yeah.
 
@@ -302,7 +302,7 @@ It's unclear to me if this is like you run these step-by-step, or all at once, o
 
 **Nick Nisi:** I think so.
 
-**Divya:** \[00:24:02.08\] What?!
+**Divya:** \[24:02\] What?!
 
 **Jerod Santo:** I hope that's canonical, because it's not worth spreading rumors... But that'd be awesome! It came out of Java 4k? And if not, we're just fake news over here. You guys can fact-check that in the chat room. Nick, you can look it up as I move on, and we'll get a real-time follow-up - did Minecraft come out of a Java 4k competition?
 
@@ -346,7 +346,7 @@ It's just cool to see more projects rallying around and building out an ecosyste
 
 So these cheat sheets are out there on his website, Elijahmanor.com. We'll provide them in the show notes for those who want to bookmark or print off. They're pretty well done.
 
-**Nick Nisi:** \[00:28:04.25\] Yeah, it's really cool. It's a good helper for those built-in methods, to be able to do all of this... Because like so many built-in things in JavaScript, the APIs are so hard to follow along...
+**Nick Nisi:** \[28:04\] Yeah, it's really cool. It's a good helper for those built-in methods, to be able to do all of this... Because like so many built-in things in JavaScript, the APIs are so hard to follow along...
 
 **Jerod Santo:** Totally.
 
@@ -356,7 +356,7 @@ So these cheat sheets are out there on his website, Elijahmanor.com. We'll provi
 
 Alright, there is your news. We'll be right back with a special mystery guest.
 
-**Break:** \[00:28:53.03\]
+**Break:** \[28:53\]
 
 **Horse JS:** [Hello JavaScript developers I just want to take a moment](https://twitter.com/horse_js/status/1210968330456174593)
 
@@ -432,7 +432,7 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Jerod Santo:** No, he said TypeScript, Horse JS.
 
-**Horse JS:** \[00:32:08.23\] [React. It's okay.](https://twitter.com/horse_js/status/1279264003768881152)
+**Horse JS:** \[32:08\] [React. It's okay.](https://twitter.com/horse_js/status/1279264003768881152)
 
 **Jerod Santo:** I guess that's your Reac-tion to TypeScript?
 
@@ -484,7 +484,7 @@ Alright, there is your news. We'll be right back with a special mystery guest.
 
 **Divya:** That's not even a sentence. \[laughter\]
 
-**Outro:** \[00:34:24.29\]
+**Outro:** \[34:24\]
 
 **Divya:** There was a project that I've found recently... It's a project called Metatyping, and he essentially wrote functions and algorithms in TypeScript. So he's just using various TypeScript hacks. Which is insane.
 

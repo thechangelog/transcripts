@@ -14,7 +14,7 @@
 
 **Adam Stacoviak:** It's kind of like a product manager as it is to the product, is developer advocate as it is to the software that gets created to be the product... That's kind of how I see that. Because you're sort of this middle person where you interface with end users, you have to provide some inroads and on-ramps, you have to give feedback to engineering teams, and even marketing in a lot of cases, or have a lot of relationships. You're sort of this liaison to all these different parts.
 
-**Nader Dabit:** \[00:04:06.04\] Yeah, I think that's a good way to look at it... And there's different types of this role I guess you could categorize as well. If you've seen people that are developer evangelists or even solutions architects in some of these bigger companies, they all kind of play a similar role... Similar, but different; with the developer advocate, we work closely with the engineering teams and the product and project managers, whereas the developer evangelists I feel like they kind of work closer with the broader sense of what's being worked on in the company, and maybe closer -- I would say that could typically be more of like a marketing role, but they're also doing a lot of conferences, and stuff.
+**Nader Dabit:** \[04:06\] Yeah, I think that's a good way to look at it... And there's different types of this role I guess you could categorize as well. If you've seen people that are developer evangelists or even solutions architects in some of these bigger companies, they all kind of play a similar role... Similar, but different; with the developer advocate, we work closely with the engineering teams and the product and project managers, whereas the developer evangelists I feel like they kind of work closer with the broader sense of what's being worked on in the company, and maybe closer -- I would say that could typically be more of like a marketing role, but they're also doing a lot of conferences, and stuff.
 
 Then solutions architects would be people that are kind of working closely with customers, but they're also writing documentation and blog posts and bringing feedback back to the teams.
 
@@ -40,7 +40,7 @@ I did a podcast, but it's more of like a personal thing. The book, of course, is
 
 **Jerod Santo:** So AWS has long been the darling of cloud, the first in many ways, and therefore kind of the de facto standard in the developer community, and yet in terms of open source and really what I would call developer relations (from my particular vantage point now; this is probably not a globalized view) it seems like Amazon has historically been -- I wouldn't say stand-offish, but just less warm to kind of the indie, open source, small business developers... Is that something that is just a misconception, or do you think that that's perhaps historically true and changing? What's your vantage point on that particular culture.
 
-**Nader Dabit:** \[00:07:45.05\] Yeah, it's definitely something I've heard before, and after kind of getting involved at AWS and seeing what's going on and what actually happens, I think the culture at AWS and Amazon in general is different in the sense that you don't see a lot of our developers going on Twitter and talking about "Hey, I just contributed to this project or I've built this project", but in reality, because I think the culture is a little more -- we just do stuff and we try not to go around, you know, I wouldn't say bragging about it, but... The culture is a little different. But in reality, a lot of the people at AWS contribute to open source. For instance, we've contributed to MySQL, Linux, Apache, Hadoop, Apache's Tomcat...
+**Nader Dabit:** \[07:45\] Yeah, it's definitely something I've heard before, and after kind of getting involved at AWS and seeing what's going on and what actually happens, I think the culture at AWS and Amazon in general is different in the sense that you don't see a lot of our developers going on Twitter and talking about "Hey, I just contributed to this project or I've built this project", but in reality, because I think the culture is a little more -- we just do stuff and we try not to go around, you know, I wouldn't say bragging about it, but... The culture is a little different. But in reality, a lot of the people at AWS contribute to open source. For instance, we've contributed to MySQL, Linux, Apache, Hadoop, Apache's Tomcat...
 
 We've contributed back to a lot of the other projects that we've used, and then we've even created our own projects and they're open source as well... Things like Apache MXNet blocks, AWS Amplify, which we'll probably talk about in a little bit... We have a few dozen projects that we've created as well, and then we have a bunch of repos that are kind of like sample projects that are kind of more aimed at showing people how to use our stuff, so they're a little more self-serving; I wouldn't say they're open source in the sense like we're creating something for anyone to use in those projects, but we do have those types of projects as well.
 
@@ -64,7 +64,7 @@ So if you're not out there doing that, you shouldn't feel bad about it, but also
 
 **Adam Stacoviak:** That's interesting to say that they're busy doing the work, because that's often a good excuse to not be boastful or to be on Twitter, sharing all the different things... If you're just too busy to do the "Hey, I've built this cool thing" because you're just too busy doing work - that's a good problem to have.
 
-**Jerod Santo:** \[00:11:54.08\] It sort of reminds me of us, Adam, because we're very good at telling what we do as we shine a light on other people's stuff; that's always been what we do, and we love doing that... So we're very good at like "Hey, check out this cool thing that this person has done, or this team over here is working on", and yet on our own stuff, especially I think Adam, yourself - for instance, you rebooted Founders Talk recently, and you just kind of put it out there and you went on vacation. You didn't really tell anybody.
+**Jerod Santo:** \[11:54\] It sort of reminds me of us, Adam, because we're very good at telling what we do as we shine a light on other people's stuff; that's always been what we do, and we love doing that... So we're very good at like "Hey, check out this cool thing that this person has done, or this team over here is working on", and yet on our own stuff, especially I think Adam, yourself - for instance, you rebooted Founders Talk recently, and you just kind of put it out there and you went on vacation. You didn't really tell anybody.
 
 **Adam Stacoviak:** I mean, I put out an episode that said "Hey, it's coming back." Isn't that enough? \[laughter\] You're right though, I don't think anybody has it perfectly down, but what am I supposed to do? Should I go from the rooftop, should I do a blog post, do a guest post on somebody else's really popular blog? I guess you could do all those things, it just depends on what your goals are.
 
@@ -94,7 +94,7 @@ And of course, putting myself out there and submitting to that GitHub - of cours
 
 **Adam Stacoviak:** Somebody's gotta say yes; it's a numbers game, right?
 
-**Jerod Santo:** \[00:16:00.23\] That's right.
+**Jerod Santo:** \[16:00\] That's right.
 
 **Adam Stacoviak:** I do like how he ended his Ping issue here. He says "And I'm a fan of Changelog." That's a good end cap, I like that.
 
@@ -124,7 +124,7 @@ AWS Mobile is -- you know, when you think about AWS, you don't really think abou
 
 So we're basically building tooling and building SDK's that allow front-end developers to interact with managed services, so they can do a bunch of different things with JavaScript, or with iOS or Android native as well.
 
-**Jerod Santo:** \[00:20:04.00\] I'm just gonna hop back to what you said - you were 29... That's a relatively late coming to technology as a career... Was that something that was a barrier for you to overcome, your relatively late arrival into this space, or was that something that was kind of a non-factor for you?
+**Jerod Santo:** \[20:04\] I'm just gonna hop back to what you said - you were 29... That's a relatively late coming to technology as a career... Was that something that was a barrier for you to overcome, your relatively late arrival into this space, or was that something that was kind of a non-factor for you?
 
 **Nader Dabit:** Yeah, it was interesting, because most of the people that I was learning from were like 10 years younger than me literally, at my first job... But I loved it so much that I didn't really care. I had done a bunch of things, I had some really terrible jobs actually growing up, so when I finally got to something that I was fairly good at -- and I wasn't naturally good at it; it was something I had to work at... But once I found out I can actually get paid to do this stuff that I was doing anyway, like, for free, on the side, in my spare time, it was enough motivation that I could kind of overlook the fact that I was a little older than a lot of the people. And it just made me work maybe a little harder to try to catch up with everyone, and stuff like that.
 
@@ -140,7 +140,7 @@ For instance, sometimes I would be at work from like 8 AM until midnight, and it
 
 **Nader Dabit:** Yeah, that's exactly right... And a lot of times you're even like washing dishes at night and doing stuff that people that were supposed to come in that day didn't do, and you can't really leave until it's all done, so you just jump in and do it.
 
-**Break:** \[00:22:51.27\]
+**Break:** \[22:51\]
 
 **Jerod Santo:** Alright, Nader, so you pinged us to talk about AWS Amplify, which is a JavaScript library for front-end and mobile developers who are building cloud-enabled applications. Now, there's a lot to unpack here, because I hadn't heard of it, but that doesn't mean it's not popular and large. The breadth of this project - there's so many pieces to it. Why don't you give us the rundown and then we'll dive into specific features of what all AWS Amplify is providing for people?
 
@@ -156,7 +156,7 @@ Of course, as a front-end developer, AWS to me was kind of a tough thing to wrap
 
 **Nader Dabit:** You install the JavaScript library, and it has all of these different APIs... The AWS Amplify library has an auth class, it has an analytics class, and it has an API class. So you have all of that as part of the library, and then if you wanna actually create that service in your AWS account, from the CLI you can just say "Hey, I wanna add authentication." It will spin up an authentication setup for you, and then you can just connect using the API that's provided by Amplify.
 
-\[00:28:16.26\] With Amplify we also have some JavaScript libraries that are implemented with first-class components... So you can either just use the vanilla JavaScript and kind of interact with these from JavaScript directly, using these different classes, or you can use some pre-configured components for Angular, React and React Native. That will kind of generate a bunch of pre-configured UI and functionality, and it'll just help you get started quickly.
+\[28:16\] With Amplify we also have some JavaScript libraries that are implemented with first-class components... So you can either just use the vanilla JavaScript and kind of interact with these from JavaScript directly, using these different classes, or you can use some pre-configured components for Angular, React and React Native. That will kind of generate a bunch of pre-configured UI and functionality, and it'll just help you get started quickly.
 
 So we have this width authenticator higher order component and higher order component will basically add authentication to your app with like a single line of code... But the deal with that is it's giving you a pre-configured set of decisions that are made for you around your UI, and stuff like that. So you end up probably in the production app ripping that out and just writing it from scratch, using just the regular JavaScript.
 
@@ -180,7 +180,7 @@ I'm curious just what your thoughts are on that, if you're aware of that particu
 
 It's interesting -- I would say the issues that they ran into were around bringing in an existing application that was built natively, and integrating React Native. I think if I have read correctly, 85% or so of their app was native, and only a small percentage was React Native to begin with... I think that they brought in React Native, they definitely tried to make it work...
 
-\[00:32:22.11\] Some of the issues that they ran into were just issues that had not been solved at the moment with React Native, and I think they just got fed up and tired with trying to get things to play together when they were having all these issues over the years... And they were such early adopters they have probably seen even more issues than if you picked it up today, or maybe even a year from now... You would see less issues over time.
+\[32:22\] Some of the issues that they ran into were just issues that had not been solved at the moment with React Native, and I think they just got fed up and tired with trying to get things to play together when they were having all these issues over the years... And they were such early adopters they have probably seen even more issues than if you picked it up today, or maybe even a year from now... You would see less issues over time.
 
 I read a lot about that - maybe there's some culture there with some of their native iOS developers where they gave it a shot and they were just like "You know, we've given it a shot. Let's just not deal with it anymore", because maybe they did see these issues, and as native developers, they didn't have to run into these issues before...
 
@@ -196,7 +196,7 @@ Companies like Microsoft, companies like Salesforce, American Express, Visa, eve
 
 When we see big companies like that adopting React Native, I think what you're seeing is yes, there's gonna be situations where it doesn't work, but overall, I think the value proposition with React Native, or something like React Native - maybe it's Flutter as well - is you're still able to ship multiple platforms with somewhat of a similar, single codebase, and you're still able to save money and be efficient. There's always gonna be tradeoffs with anything, and I think the tradeoff with React Native right now is you do have those issues, especially with upgrading (that's kind of a painful process), but also integrating with brownfield existing native apps; there's some issues still there.
 
-**Adam Stacoviak:** \[00:36:03.05\] What's interesting about that series that they did is they actually did a four-part series, so it wasn't just like "Hey, here's three paragraphs. We're sunsetting it." They actually were pretty responsible about their positioning, because considering Airbnb - great engieering team, a lot of clout in the space, so what they do has a lot of ramifications to other people's outlook on React Native... So they took that responsibly and did a four-part series.
+**Adam Stacoviak:** \[36:03\] What's interesting about that series that they did is they actually did a four-part series, so it wasn't just like "Hey, here's three paragraphs. We're sunsetting it." They actually were pretty responsible about their positioning, because considering Airbnb - great engieering team, a lot of clout in the space, so what they do has a lot of ramifications to other people's outlook on React Native... So they took that responsibly and did a four-part series.
 
 At the same time, some stats from that post was 63% of their engineers would have chosen React again, given the chance, and 74% would consider React Native for a new project. So it wasn't like all bad, it was just like it didn't work for them, in their particular situations.
 
@@ -206,7 +206,7 @@ At the same time, some stats from that post was 63% of their engineers would hav
 
 **Jerod Santo:** Absolutely. You know it's long when you have to think about "Do I have the time to read this?" You don't think how long it took him to write it... \[laughs\] It's like "Do I really wanna read five parts...?"
 
-**Break:** \[00:37:34.29\]
+**Break:** \[37:34\]
 
 **Jerod Santo:** It's very cool that AWS Amplify can work with React Native; as you said, it can work with Ionic, you can use it with Angular, you can use it with Vue, React of course. Kind of wherever you are in your front-end app, you can pull it in. Of course, if you can use all those things, I'm sure you can use it with vanilla JavaScript. The question is can you use it with other clouds?
 
@@ -216,7 +216,7 @@ I noticed in the readme that it's built in such a way that that is possible, but
 
 But we also have a completely open GitHub repo, so you can submit issues, and anything that is doable, we're gonna try to prioritize it, and if it makes sense, we're gonna try to implement it. But we have things that work already that are with only AWS; again, our GraphQL client... So if you've ever worked with Apollo or URQL, we have our own version of GraphQL client, that works with not only ours, but GraphCool, or works with Hasura, or if you build your own GraphQL database server, it works well with that.
 
-\[00:40:14.28\] Internationalization works well with anything. We have a few different other APIs that already kind of work with any different service provider, and we're continuing to iterate on that.
+\[40:14\] Internationalization works well with anything. We have a few different other APIs that already kind of work with any different service provider, and we're continuing to iterate on that.
 
 **Jerod Santo:** Yeah, I think that's important, because when I look at these services that you're providing, authentication specifically, I think "Okay, this is a very integral part of my application, a GraphQL client, of course, storage, there you have it..." Certain things are easier to replace - analytics, push notifications - but when I think about like these are core aspects of what I am building, there's a certain twinge of vendor lock in with AWS as the cloud; it wouldn't be like a show stopper necessarily, and the pragmatists would say "Well, you're using AWS, so what's the problem here?" But just the ability to say "Yeah, well, I am using them, but if that relationship goes south, I don't have to completely rewrite everything in order to go to a different back-end vendor."
 
@@ -236,7 +236,7 @@ And again, I would say that we try to probably prioritize issues that are with c
 
 The idea behind this is a lot of where you're seeing some applications go, or around conversations, and you're seeing things like Alexa, but you're also seeing things within applications where you're able to kind of have these conversations with whatever, you know? And of course, at AWS we have the Lex service, which allows you to create these conversational bots with voice or with text... So what we've done is with Amplify we've implemented a category that just makes it really easy to interact with your service.
 
-\[00:44:17.29\] With the AWS Mobile CLI, you can spin up a new bot and then you can interact with it using a couple of different components from the Amplify library. We have a chatbot component which is a pre-configured component that already has all of the UI and the actual code written to handle the back and forth... Or you can use the Interactions category, which gives you direct access. What you would end up doing is you create your bot, you import that interactions category and then you start sending messages to the bot.
+\[44:17\] With the AWS Mobile CLI, you can spin up a new bot and then you can interact with it using a couple of different components from the Amplify library. We have a chatbot component which is a pre-configured component that already has all of the UI and the actual code written to handle the back and forth... Or you can use the Interactions category, which gives you direct access. What you would end up doing is you create your bot, you import that interactions category and then you start sending messages to the bot.
 
 The bots, basically -- the way that they work is you have a trigger message that kind of triggers the bot. If you have a bot that wants to, for instance, book you a hotel reservation, you might have a few different triggers, things like "Book a hotel" or "I want to take a trip" or whatever; so you'd have a list of these triggers, and if you can get something from the user that matches closely, then that bot gets triggered.
 
@@ -262,7 +262,7 @@ I think that's what you saw with artificial intelligence two years ago, and now 
 
 Blockchain technology - I don't really know where that is, but I think that we're at the beginning of the downturn of the initial hype cycle, and then that's gonna slowly build back up.
 
-**Jerod Santo:** \[00:48:04.19\] Yeah, things kind of quiet down and people are just busy building... And really, it's tools like these and it's services -- a lot of it is tooling to put into us, developer's hands, and allow us to more easily play with these things, and build things, and start with a toy app, or a toy service, and then think "Okay, I can use this here", and start to kind of -- there's a groundswell of actual use cases that happen slowly over time... And by the time it actually happens, I guess it's like we've moved on; we're excited about something else. But the reality of it is it definitely improves things in people's lives.
+**Jerod Santo:** \[48:04\] Yeah, things kind of quiet down and people are just busy building... And really, it's tools like these and it's services -- a lot of it is tooling to put into us, developer's hands, and allow us to more easily play with these things, and build things, and start with a toy app, or a toy service, and then think "Okay, I can use this here", and start to kind of -- there's a groundswell of actual use cases that happen slowly over time... And by the time it actually happens, I guess it's like we've moved on; we're excited about something else. But the reality of it is it definitely improves things in people's lives.
 
 **Adam Stacoviak:** Maybe a question for this might be how did this happen prior to Amplify? Did you have to cobble together your own ways to interact with or take advantage of the various AWS features? Lex being a brand new thing... You wouldn't wanna go and make your own way, you'd want a framework like Amplify to help you get there. How did people deal with AWS services before on the front-end?
 
@@ -276,7 +276,7 @@ So with an existing skill set of understanding how to work with just APIs in gen
 
 And again, with the type of services we're talking about, you could categorize them as serverless. And with serverless, the idea is you're basically trading capital expense for variable expense. Instead of paying for something or building something and not using it until you get the users, you're subscribing to something and you don't really pay for it until you get a bunch of users.
 
-\[00:52:12.22\] With a startup - or really with a company in general - once you get those users, you're kind of good to go anyway, for the most part... Or at least you can then jump off a cliff if it doesn't work... But you're getting to the point where "Oh, we have users. We can probably afford to pay for this now", and that's when your actual bill comes in.
+\[52:12\] With a startup - or really with a company in general - once you get those users, you're kind of good to go anyway, for the most part... Or at least you can then jump off a cliff if it doesn't work... But you're getting to the point where "Oh, we have users. We can probably afford to pay for this now", and that's when your actual bill comes in.
 
 **Jerod Santo:** I think I heard the marker come out there, did you say "Trading capital expense for variable expense"? That was very smooth; I like that. \[laughs\]
 
@@ -304,7 +304,7 @@ So the way I look at it is "Should I go ahead and pay someone to build this, eve
 
 So we're doing a lot of things that are being used by companies, and a lot of the tooling that we build at AWS Mobile, a lot of these companies are using.
 
-**Adam Stacoviak:** \[00:56:19.12\] You're powering a lot of things being used by companies. That's pretty vague. I like it though.
+**Adam Stacoviak:** \[56:19\] You're powering a lot of things being used by companies. That's pretty vague. I like it though.
 
 **Nader Dabit:** I mean, I'm sorry... \[laughter\]
 

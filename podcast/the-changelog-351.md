@@ -14,7 +14,7 @@ When you install the software, you either find someone who can help you install 
 
 One of the challenges we have is that the type of people that are drawn to Open edX are not necessarily technologists, they're educators; a professor someplace tells their grad student, "Hey, on your free time, can you download and install Open edX?" and that doesn't always go so well, because chemistry Ph.D. students don't know what I mean when I say Ansible.
 
-\[00:04:07.07\] On the community side we try hard to make that clear, and help people find the right pathways... But it is open source, so they can install it and run a course, and they don't need permission from us, they don't owe us any money... We don't even know where these sites are until we go out with our web scraper and find the sites... Which is kind of exciting - you run the web scraper, it finds a new Open edX site, and you can go and see what kind of courses people are running out there. It's pretty cool.
+\[04:07\] On the community side we try hard to make that clear, and help people find the right pathways... But it is open source, so they can install it and run a course, and they don't need permission from us, they don't owe us any money... We don't even know where these sites are until we go out with our web scraper and find the sites... Which is kind of exciting - you run the web scraper, it finds a new Open edX site, and you can go and see what kind of courses people are running out there. It's pretty cool.
 
 **Jerod Santo:** That is pretty cool. On another show we do, called JS Party, we were just talking with George Mandis, who wrote this kind of silly JavaScript library called Konami-JS, which is just the Konami cheat code; it adds it to your website and calls an arbitrary function callback, and you can do whatever you want. People use it for Easter eggs... And he didn't really track who was using it all that much when it was super-active, and then recently he's been giving talks about it, so he went back to archive.org and scraped a bunch of old websites to find all the places where Konami-JS is being used; he was pleasantly surprised that a lot of big sites were putting Easter eggs in...
 
@@ -36,7 +36,7 @@ One of the sites I've found through our web scraper is in Indonesia, the Ministr
 
 Making contribution really successful takes a lot of people skills. It's not a technical problem. I mean, there are technical challenges to it. Your codebase might be obscure, or poorly documented, or it's under-tested, but in order to get the contributions to really flow, you have to have a lot of people skills upfront to make sure that people are welcome, people are supported, people know what kinds of things you'd like to see them work on, they know how you feel about things, you're not being too stringent in your rules before you can merge the pull request... And I've been learning this on both sides of it - both at work, with Open edX, and on coverage.py. Coverage.py - to be perfectly honest, I'm probably a lot more like that bad side description that I just said.
 
-**Jerod Santo:** \[00:08:32.09\] \[laughs\]
+**Jerod Santo:** \[08:32\] \[laughs\]
 
 **Ned Batchelder:** If you go look at coverage.py on GitHub, there's some really old pull requests, and there's some bugs that have been written a while ago that have no comments from me yet. That's just one of the challenges of being a single maintainer in your spare time of an open source project. But at work, at edX, we've been working a lot on trying to improve our contributions process, just making sure that the pathways are as smooth as they can be.
 
@@ -60,7 +60,7 @@ So we've built a separate contribution process at edX, specifically for that kin
 
 **Jerod Santo:** Exactly.
 
-**Ned Batchelder:** \[00:12:09.19\] The software is deployed live to production at least once a day, sometimes more... So if a pull request gets merged and it brings the site down, people are gonna get mad. So we have to be very concerned with exactly what goes into the contributions. You asked about product decisions... We have a product organization, of course. At edX almost all of our software is open source; if you just walked around the hallways here, it looks like any software business that has a website that it's running; there's product people that talk about what the feature should look like, and the engineers take their directions from there, and they've got JIRA tickets to work on, and the DevOps team is making sure the deployments are going well, and all of that stuff.
+**Ned Batchelder:** \[12:09\] The software is deployed live to production at least once a day, sometimes more... So if a pull request gets merged and it brings the site down, people are gonna get mad. So we have to be very concerned with exactly what goes into the contributions. You asked about product decisions... We have a product organization, of course. At edX almost all of our software is open source; if you just walked around the hallways here, it looks like any software business that has a website that it's running; there's product people that talk about what the feature should look like, and the engineers take their directions from there, and they've got JIRA tickets to work on, and the DevOps team is making sure the deployments are going well, and all of that stuff.
 
 So when someone suggests a change, it can become a big discussion, and it can be hard for them to get our attention... Because we're all heads down, making sure edX.org is doing what it's supposed to do for our business. And that is a big asymmetry and an unusual characteristic of Open edX. It's honestly kind of the fighting that is one of the big persistent challenges for the Open edX team here - figuring out how to try to bridge that asymmetry, to make the borders around edX as porous as possible, to give a voice to the community, to find ways for them to get done what they need to get done, with or in spite of edX people. Again, it's really a people challenge.
 
@@ -96,7 +96,7 @@ There's plenty of technical challenges in the Open edX codebase; it's big and ol
 
 To me it's a very interesting open source experiment to be doing open source inside what is otherwise a classic business on a website kind of software organization.
 
-**Jerod Santo:** \[00:16:26.07\] Right... So what are your metrics? What do you gauge as success for edX, you personally?
+**Jerod Santo:** \[16:26\] Right... So what are your metrics? What do you gauge as success for edX, you personally?
 
 **Ned Batchelder:** Right now we are looking to maximize contributions... And for good reason. If we can get contributions into the codebase, then that can feel tangible to the people who are maybe at the farther end of the "Open source is of course a good thing" spectrum. So if there are people who are like "I'm running a business here. Why do we bother with this? Well, we've got this feature because we're open source." If we can point to those kinds of things, then it's a very clear win. We don't have to get into subtle moral arguments, or try to be altruistic. We can be capitalists about it.
 
@@ -140,7 +140,7 @@ To me it's a very interesting open source experiment to be doing open source ins
 
 **Ned Batchelder:** Yeah. I'm trying to type...
 
-**Jerod Santo:** \[00:20:24.10\] I've got the number for you if you want me to fill you in, because I'm staring at it...
+**Jerod Santo:** \[20:24\] I've got the number for you if you want me to fill you in, because I'm staring at it...
 
 **Ned Batchelder:** Yeah, tell me what it is.
 
@@ -176,7 +176,7 @@ Like I said, there are issues that are languishing there, and pull requests that
 
 Recently, I've been working on the 5.0 alpha series of coverage.py. The big new feature is going to be - and this is a long-requested feature, so I'm glad to finally be able to get to it - instead of just telling you which lines of your product code were covered, it'll tell you for each of those lines which tests covered that line, so that you can analysis like "Alright, I did a whole test run, but now I just wanna see these tests, what covered it." Or "I can see that only one test covered that line, so I wanna think about whether to do more tests that would get to there" etc.
 
-\[00:24:21.16\] That feature has been a long time coming, and Stephan Richter and his co-workers at Shoobx have made some significant contributions this year to that. He added the HTML changes, some of the fixes for the SQLite code that's in there... So they made a lot of contributions, which I'm really grateful for.
+\[24:21\] That feature has been a long time coming, and Stephan Richter and his co-workers at Shoobx have made some significant contributions this year to that. He added the HTML changes, some of the fixes for the SQLite code that's in there... So they made a lot of contributions, which I'm really grateful for.
 
 A year and a half ago a guy I didn't know named Loïc Dachary, from France - he wrote to me and said basically that his way of working in open source is he picks a project and he commits to it for like three months, and he's fully-embedded in that project for three months. Then he moves on. I didn't know what to make of that, but sure enough, suddenly he was commenting on all my open issues, and triaging them, and trying to reproduce them, and trying to fix them... And there was just dozens of contributions from him all over the project...
 
@@ -210,7 +210,7 @@ The other difficulty I find with being a maintainer is just the context switchin
 
 That kind of context switching can be difficult, not only because you might lose the technical thread of what you were thinking about, but you get excited about like "The next thing I'm gonna do... Oh, now I have to wait eight hours before I can do that thing."
 
-**Break:** \[00:28:09.21\]
+**Break:** \[28:09\]
 
 **Jerod Santo:** I have to ask for your opinion on code coverage, since we're here and you write a code coverage tool...
 
@@ -252,7 +252,7 @@ There's lots of downfalls to believing in 100% coverage.
 
 **Jerod Santo:** Gotcha. One question I guess about Python community stuff, because you're in there and you've been a part of it for a long time, and I'm on the fringes of that, looking in sometimes, talking to people who use Python, but not using it on a day-to-day basis...
 
-**Ned Batchelder:** \[00:32:17.01\] By the way, just to fully flesh out how deeply embedded I am - I'm also the organizer of the Boston Python Meetup.
+**Ned Batchelder:** \[32:17\] By the way, just to fully flesh out how deeply embedded I am - I'm also the organizer of the Boston Python Meetup.
 
 **Jerod Santo:** Okay, so you're deep in the community. Love it.
 
@@ -278,7 +278,7 @@ There's lots of downfalls to believing in 100% coverage.
 
 **Ned Batchelder:** The place where that bothers me is when there's a thing that I still don't understand about my own code, and once a year I'm revisiting the same thing and I feel like "Why can't I internalize this finally, after all this time?" So there is that aspect to it. So there's my personality.
 
-\[00:35:45.13\] The other thing is hearing from people who use the project, getting contributions, knowing that it's helping people to improve their code in various ways... Because I work in a Python world at work, we use coverage at work, and so I see how it's being used there, and that helps inform what I think is important to add to the tool... So it's that kind of thing, that seeing it actually get used and actually have some benefit... Which again, to go all the way back, that's why most people get started writing software in their spare time and then giving it away; you sort of can't explain that in pure economic terms.
+\[35:45\] The other thing is hearing from people who use the project, getting contributions, knowing that it's helping people to improve their code in various ways... Because I work in a Python world at work, we use coverage at work, and so I see how it's being used there, and that helps inform what I think is important to add to the tool... So it's that kind of thing, that seeing it actually get used and actually have some benefit... Which again, to go all the way back, that's why most people get started writing software in their spare time and then giving it away; you sort of can't explain that in pure economic terms.
 
 **Jerod Santo:** No, you can't.
 
@@ -306,7 +306,7 @@ One of the things I don't like about being an open source maintainer is that peo
 
 **Jerod Santo:** Over the years do you have any "war stories", or any crazy things that have happened, or bad things? You said you haven't had too much drama, which is nice...
 
-**Ned Batchelder:** \[00:40:02.27\] No.
+**Ned Batchelder:** \[40:02\] No.
 
 **Jerod Santo:** But anything else that maintainers might relate to, or enjoy hearing about?
 
@@ -346,7 +346,7 @@ I feel like I've been saying the word "people" more than I've been saying "code"
 
 **Jerod Santo:** Absolutely. Well, speaking of people, are there any people out there that are maintainers, or they provide you tools or services, that you admire or appreciate and you wanna give them a shout-out and say thanks? Or maybe even point somebody towards a tool that you use, and that helps you in your day-to-day maintenance?
 
-**Ned Batchelder:** \[00:44:07.29\] Yeah, sure. One tool that I haven't been able to use on coverage.py, but I have used on other projects, is called Hypothesis; it's maintained by David MacIver. I'm not sure that I'm pronouncing his name right... And it is a property-based testing tool. It takes a little getting used to, but when you get to the point of knowing how to make it work for your code, it can do a really great job. Instead of writing explicit tests of "This is the input, and this is the output I expect", you write code that expresses what properties you expect in the results, and it tries to generate input test cases that fail those properties.
+**Ned Batchelder:** \[44:07\] Yeah, sure. One tool that I haven't been able to use on coverage.py, but I have used on other projects, is called Hypothesis; it's maintained by David MacIver. I'm not sure that I'm pronouncing his name right... And it is a property-based testing tool. It takes a little getting used to, but when you get to the point of knowing how to make it work for your code, it can do a really great job. Instead of writing explicit tests of "This is the input, and this is the output I expect", you write code that expresses what properties you expect in the results, and it tries to generate input test cases that fail those properties.
 
 **Jerod Santo:** So is it kind of like a fuzzer?
 
@@ -372,7 +372,7 @@ So it's the same ideas as a fuzzer, which is put some intelligence into the rand
 
 **Jerod Santo:** Isn't that fun when you know somebody online for years, and you've never actually met them, and then you finally get to meet them in the flesh? It's always so interesting.
 
-**Ned Batchelder:** \[00:47:20.25\] Yeah. Well, the real trick is do you call him by his real-world name, or by his online nick?
+**Ned Batchelder:** \[47:20\] Yeah. Well, the real trick is do you call him by his real-world name, or by his online nick?
 
 **Jerod Santo:** You tell him "Hey, what do you do?" \[laughs\]
 

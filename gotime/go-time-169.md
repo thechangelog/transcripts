@@ -16,7 +16,7 @@ Our first guest is Rafael Garcia. He's the co-founder and CTO at Clever. How are
 
 **Rafael Garcia:** This is where I get to talk about embarrassing initial technology choices. The first stuff we did was in CoffeeScript and Node. Back in 2012 that was a popular choice... And yeah, we were primarily building an API, and that was basically the only surface area of Clever for a long time.
 
-\[00:04:15.17\] There was a lot of stuff that started to get a little bit unwieldy. I felt this a lot as we started to hire more engineers. Onboarding engineers into the mess of a CoffeeScript codebase that I'd been primarily responsible for was tricky, and so trying to bring some more sanity to that, Go ended up being a big contributor to more success there.
+\[04:15\] There was a lot of stuff that started to get a little bit unwieldy. I felt this a lot as we started to hire more engineers. Onboarding engineers into the mess of a CoffeeScript codebase that I'd been primarily responsible for was tricky, and so trying to bring some more sanity to that, Go ended up being a big contributor to more success there.
 
 But yeah, we were basically feeling the pains of an untyped language running on a single thread, doing data processing and high-performance API responses. That's kind of the short story.
 
@@ -34,7 +34,7 @@ And then yeah, Nate probably has lots of perspective too, from joining the team 
 
 **Rafael Garcia:** Yeah. I think there was enough enthusiasm on the team, and I think we went into it knowing that we might have to throw all this away and go at this a different way... But sometimes you have to take those risks, and it pans out, and you find a new tool for your toolset, that pays dividends for the team. So that's kind of what we did. There are plenty of stories of us taking bets on other things that didn't pan out, so... You win some, you lose some, I guess.
 
-**Jon Calhoun:** \[00:08:15.14\] Yeah, that makes sense. And hopefully we'll get into this more, but one of the questions we hear a lot is "How do I get my team to transition to Go?" and I think what you gave is a classic example of you pick a relatively small, isolated problem where it's a good test case, and see how it goes. If it's successful, then great; it was a good bet. But if it was a bad bet, it's not like a company-killing bet at that point.
+**Jon Calhoun:** \[08:15\] Yeah, that makes sense. And hopefully we'll get into this more, but one of the questions we hear a lot is "How do I get my team to transition to Go?" and I think what you gave is a classic example of you pick a relatively small, isolated problem where it's a good test case, and see how it goes. If it's successful, then great; it was a good bet. But if it was a bad bet, it's not like a company-killing bet at that point.
 
 Nathan, do you wanna share some of the other projects that you guys jumped into early on?
 
@@ -54,7 +54,7 @@ I think we started seeing some of the -- you know, how you write tests in Go, th
 
 **Jon Calhoun:** Yeah, that makes sense. I did a lot of Ruby before I switched to Go, and one of the things that always killed me was I didn't really care for RSpec. It was the most common library for testing, so I almost had to just suck it up and learn it and use it, because you were gonna run into it in some company or some project or something... But on my personal projects I'd use something else, and I kind of -- switching to Go, it was nice that everybody used the same thing, because they didn't have to do those mental switches or anything; it was like "This is just the way we're gonna test, and it makes sense, and it's pretty easy."
 
-\[00:11:58.15\] I don't know if you guys had the same thing, but one of my experiences switching from a Python or Ruby type language to Go was that I felt like testing was almost easier, because having a typed system and everything there - I don't know, for me it made it clear what sort of things I wanted to test, versus which sort of things weren't really worth testing. With type safety you don't have to test "What happens if we pass in the wrong thing?" There's all sorts of cases you can kind of just ignore, and just focus on the important tests.
+\[11:58\] I don't know if you guys had the same thing, but one of my experiences switching from a Python or Ruby type language to Go was that I felt like testing was almost easier, because having a typed system and everything there - I don't know, for me it made it clear what sort of things I wanted to test, versus which sort of things weren't really worth testing. With type safety you don't have to test "What happens if we pass in the wrong thing?" There's all sorts of cases you can kind of just ignore, and just focus on the important tests.
 
 **Rafael Garcia:** Yeah, I think we definitely felt a lot of that. Another thing that comes to mind is we were coming from Node, where to do anything non-trivial you have to pull in tens, if not more third-party libraries, to do things like testing, to do any non-trivial application... But with Go, at least for a lot of the use cases we were working on, you rarely had to do that, to dive deep into the third-party ecosystem. The standard library for testing and for writing HTTP services was sufficient, so it made things a lot more straightforward.
 
@@ -72,7 +72,7 @@ I'm sure if we did a bunch of web apps in Go, we would have probably a lot of co
 
 **Rafael Garcia:** So the general structure is like any frontend web app for the different users that use Clever is a Node TypeScript app. And then underneath the hood, those apps communicate with a bunch of services that are internal, and you can basically say all of those are Go. So in terms of the backend infrastructure, probably you could say 90% of it is Go, and the 10% that serves the web app for various user types is Node.
 
-\[00:16:03.00\] Maybe one area where we haven't had success is in creating internal apps that are Go web apps; it's been an okay process... We haven't invested all-in into doing it, in trying to figure out the best process for it, mainly because there's not a burning need to rewrite everything and get everything onto Go. Nate maybe has some more thoughts on this... He's probably done more frontend stuff lately than I have.
+\[16:03\] Maybe one area where we haven't had success is in creating internal apps that are Go web apps; it's been an okay process... We haven't invested all-in into doing it, in trying to figure out the best process for it, mainly because there's not a burning need to rewrite everything and get everything onto Go. Nate maybe has some more thoughts on this... He's probably done more frontend stuff lately than I have.
 
 **Nathan Leiby:** Yeah... Well, my sense is just that the toolchain for developing something with an express server that's pretty spare, but kind of serves whatever serverside code needs to be executed... And then for the React environment/ecosystem - you can just run the whole thing in TypeScript. Then the goal is just remove everything involving logic or databases, so it's like all that is Go. You're just calling out to another service, and that's sort of a microservices split.
 
@@ -86,7 +86,7 @@ So you said that you're split up and your web UIs are written in TypeScript, or 
 
 **Jon Calhoun:** So with that many repos, to me at least, that sounds like a nightmare to manage or to go about, just because -- like, I'm thinking in my head if I wanna make a change that touches three repos, what does that deployment process look like? How do you manage that and how do you make things feel consistent as a team? Because at least for me, one of the big benefits of Go is that a lot of Go code feels the same... But I worry that if you had that many repos, you could potentially have services that look very different. Do you use some sort of generation or anything like that to make that look consistent?
 
-**Rafael Garcia:** \[00:19:56.11\] We standardized pretty early after some painful growing pains with Thrift on Go, doing kind of HTTP/JSON APIs. So every service now has a Swagger OpenAPI definition file. We have a code gen, this thing called Wag (it's open source on our GitHub) that generates a Go server, a Go client and a Node for a JavaScript client... And then from there there's a ton of consistency across all of those repos.
+**Rafael Garcia:** \[19:56\] We standardized pretty early after some painful growing pains with Thrift on Go, doing kind of HTTP/JSON APIs. So every service now has a Swagger OpenAPI definition file. We have a code gen, this thing called Wag (it's open source on our GitHub) that generates a Go server, a Go client and a Node for a JavaScript client... And then from there there's a ton of consistency across all of those repos.
 
 I think we were lucky in some sense to do that fairly early on, because yeah, we could be in a world where there's lots of inconsistencies, and jumping around would be difficult... But it's actually not that bad.
 
@@ -102,7 +102,7 @@ Anyway, I don't know... I think product abstraction is often an important thing.
 
 **Rafael Garcia:** Yeah, performance considerations for us kind of boil down to what would trigger downtime. We track pretty closely our uptime, and try and maximize that as much as possible. One of the strategies we use is for services that are in the core request path that we call SSO (Single Sign On), the core feature of Clever that needs to be up all the time - we split that out into its own deployment path, so that all of the requests that are hitting those services are from actual users trying to log in, essentially... So we've split those services up and thought carefully about their performance requirements and uptime requirements. We don't want background jobs hitting them with these massive queries that might bring them down or change the performance requirements, or make them just hard to satisfy from the services point of view...
 
-\[00:24:07.18\] So yeah, some degree of carving out these swim lanes of "Here's a use case that we wanna isolate and really protect from uncontrolled requests from anyone spinning up a new background processor, or whatever."
+\[24:07\] So yeah, some degree of carving out these swim lanes of "Here's a use case that we wanna isolate and really protect from uncontrolled requests from anyone spinning up a new background processor, or whatever."
 
 **Jon Calhoun:** That makes sense. So when you're looking at these microservices and setting them up, is it generally like one engineer owns a single service, or is it something a little bit different? How do you approach that aspect of it?
 
@@ -110,7 +110,7 @@ Anyway, I don't know... I think product abstraction is often an important thing.
 
 We do have some degree of individual ownership tagging, so that if someone feels a strong affinity towards how the code is set up in a particular repository, they can get pinged on in pull requests, and things like that... But ultimately, teams map to repos, which map to services...
 
-**Break:** \[00:25:32.10\]
+**Break:** \[25:32\]
 
 **Jon Calhoun:** Taking a step back, earlier you'd mentioned -- I think it was Wag. Was that the library you built? So... For whatever reason, I feel like this is not an uncommon thing, where people build a service that sort of generates either something from Swagger, or - like Mat Ryer, who's sometimes on the podcast, wrote (I think it's called) Oto, which allows him to create an interface, and then it creates a Go HTTP server, but then it also creates a JavaScript client that communicates via HTTP/JSON... And the idea is to write one definition once, and then generate the code on both ends for communicating.
 
@@ -120,7 +120,7 @@ But I guess what's interesting to me is that it seems like a lot of times people
 
 And at the time, the OpenAPI - or Swagger, as it was called back then - Go generation was pretty young, and not really pluggable. I think now it has some degree of like -- you can plug in your own templates, and other things like that. It still requires a decent amount of investment to get it to do the thing you want it to do, but ultimately, we had a pretty focused used case. And we also actually still use an open source Swagger generator for types and some of the nitty-gritty stuff that we didn't have a specific divergent view on, I guess... It was really about the interface for the client, and the server, how the HTTP request gets handled; we wanted to have control there.
 
-\[00:28:42.19\] So it was mainly about finding the parts that we could just use out of the box, but then having enough control where we could iterate and do things that we wanted to do without having to wait on a pull request, or really fork and modify an existing thing and have to maintain a fork, and do all sorts of stuff like that.
+\[28:42\] So it was mainly about finding the parts that we could just use out of the box, but then having enough control where we could iterate and do things that we wanted to do without having to wait on a pull request, or really fork and modify an existing thing and have to maintain a fork, and do all sorts of stuff like that.
 
 **Jon Calhoun:** I think you also had an important point where even if you're using one of those open source, off-the-shelf tools, like you said, to get it to do what you want in some cases you have to customize it so much that it is a big investment... And by the end of it, it's almost not like you're using an off-the-shelf tool anymore, you're using one that's so customized to your workflow that people joining your team still have to learn something new regardless. At least that's what it seems like to me in some cases, where if they can't just come in and be like "Oh, I've used Swagger. I can jump into your code", then sometimes it's not really worth using that tool.
 
@@ -138,7 +138,7 @@ And at the time, the OpenAPI - or Swagger, as it was called back then - Go gener
 
 **Nathan Leiby:** Sure. Well, it's definitely something we've invested in more over time... I think from a sort of resilience perspective, we wanted to move towards a world where one service talks to one data store, so that you don't get a lot of confusing request patterns on your database... So it's like, "How do we actually do that operationally?" The biggest success we've had is that we've put a lot of automation into spinning up Dynamo instances mostly. So it's very easy at Clever to create a web service with a backing Dynamo data store and have all the code auto-generated, except for some specifics of your controller logic that are relevant to your specific app.
 
-\[00:32:19.21\] Everything else - the web interface to send those requests, the actual code that writes and retrieves data from the data store, the actual spinning up of the db, the ability to modify the scale of the db, all of that is pretty easy to do through minor configuration changes and highly-automated.
+\[32:19\] Everything else - the web interface to send those requests, the actual code that writes and retrieves data from the data store, the actual spinning up of the db, the ability to modify the scale of the db, all of that is pretty easy to do through minor configuration changes and highly-automated.
 
 So that's kind of the best-case scenario, if that serves the needs of your app, which it doesn't serve every app, but it is quite a convenient way to bootstrap projects right now.
 
@@ -162,7 +162,7 @@ And then on the database side, it's like how you initialize a connection to the 
 
 **Jon Calhoun:** Oh yeah, I just ran into that recently, where I was installing a software that I use - it's called Softcover, and it's written by Michael Hartl... But he has a big Rails tutorial thing, and he made some software that makes it easier to generate an eBook out of a Markdown, with a little bit of Latex mixed in there... And you have to install all the stuff to get it to work. And I got it all installed and set up, and rebuilt the book that I have, and was doing all that... And then I went back to my blog to build it, and it had somehow -- you know, in that process of things being built, that had changed whatever software was being used there, like some third-party dependency... And just having that issue where, depending on what you're building, you have to go fix your installs for everything... And it's kind of a nightmare, versus just having a CLI that you're like "I can run this, and it works. I don't have to worry about that."
 
-**Nathan Leiby:** \[00:36:18.17\] Go has certainly gone through its journey of package managers, and that's a different story, but... The ability to share the binary once it's done works amazingly well. And our infrastructure team, I was gonna say, has loved using Go for all kinds of convenient internal use cases. I think that was a big adopter beyond the APIs and data processing stuff, which is internal tooling, and stuff. It's been nice.
+**Nathan Leiby:** \[36:18\] Go has certainly gone through its journey of package managers, and that's a different story, but... The ability to share the binary once it's done works amazingly well. And our infrastructure team, I was gonna say, has loved using Go for all kinds of convenient internal use cases. I think that was a big adopter beyond the APIs and data processing stuff, which is internal tooling, and stuff. It's been nice.
 
 **Jon Calhoun:** So speaking of... What has your experience with the go.mod and that sort of thing been? Or have you transitioned to go.mod, and what has your experience there been like?
 
@@ -180,7 +180,7 @@ Then you can instruct it to additionally push it to GitHub, open up pull request
 
 For the example of updating a Go version, there are a few places where the Go version appears in a repo. It's like a makefile, the CircleCI config, and maybe -- that might be it, actually. So it actually ends up being pretty easy to write a script that just finds those lines and changes them, and then farms it out to GitHub for review, and then we just have to merge it all. So it works pretty well. But then there are obviously cases - we're running into this now, moving to go.mod, where some of the devils are in the details; it might not be possible to automate all of those conversions, and there's extra work that needs to happen... But for a lot of the easy change a few files here and there across all repos, Microplane has been pretty useful for us.
 
-**Nathan Leiby:** \[00:40:22.09\] Yeah. And another thing that comes to mind is -- I do feel like automating changes on repos is part of a growing trend, so it's kind of cool to take an opinion on how to do that and see people honestly doing it better... For example, Dependabot is something that GitHub is investing in, to think about how you automate dependency updates across all your repos...
+**Nathan Leiby:** \[40:22\] Yeah. And another thing that comes to mind is -- I do feel like automating changes on repos is part of a growing trend, so it's kind of cool to take an opinion on how to do that and see people honestly doing it better... For example, Dependabot is something that GitHub is investing in, to think about how you automate dependency updates across all your repos...
 
 So yeah, updating a Go package file is one part of the problem, but honestly, I think the future is refactoring your whole repo to best practices automatically, or continually writing your code for you, better and better.
 
@@ -196,7 +196,7 @@ So I would say that's a supporting piece of running many services - rather than 
 
 We definitely looked at other existing systems. Part of the challenge was we saw people doing cool work, but running Netflix's Java system to do this just wasn't worth it... And I know Kubernetes also has done decently well with this, with having lots of tooling. We didn't build on top of Kubernetes; we're mostly on ECS. But anyway, the deployment abstraction for us is not Kubernetes, so we can't just reuse that set of tools either.
 
-**Break:** \[00:43:00.29\]
+**Break:** \[43:00\]
 
 **Jon Calhoun:** I feel like it's a pretty common pattern to -- like, it's not hard for you to end up with a homegrown solution I guess is the way I'd put it... Because like you said, you usually start with one small thing, and then you just need one more small thing, so it's easier just to add it... And eventually, you've got something so custom that trying to make other tools work would have been hard anyway... And I think that's one of the areas where people -- at least when I talk to people who are talking about "I wanna learn microservices", I think that's a huge part of it, they wanna understand "How do I deploy this and manage this?" It is a challenging problem; I don't think anybody has all the answers to that at this point.
 
@@ -216,7 +216,7 @@ So yeah, I would say you run one application locally and you point to a shared d
 
 Even recently, I've done some side projects with a Docker Compose file, and I'm like "This is too much work, even for a handful of services." Like, everything is always breaking somewhere. I don't know. It is like a side-project, so it's not the same level of love that a company that's invested in Docker Compose might put into that... But anyway, I'm really grateful that you could just run something, and you're only really worried about your one local thing... At least 95% of the time.
 
-**Jon Calhoun:** \[00:48:20.21\] It makes sense. I use Docker Compose for some things, but my general feeling is that it's almost like you need someone on your team who really understands Docker and Docker Compose if you're gonna go that route... Because at some point you're gonna have issues, and someone's gonna have to be like "Well, why is this happening? How can we fix it?" And you can get so far by yourself just figuring it out, but at some point I feel like you do run into those issues of "How do I address this?" I take it that also means that people have to have an internet connection to development... Is that the case?
+**Jon Calhoun:** \[48:20\] It makes sense. I use Docker Compose for some things, but my general feeling is that it's almost like you need someone on your team who really understands Docker and Docker Compose if you're gonna go that route... Because at some point you're gonna have issues, and someone's gonna have to be like "Well, why is this happening? How can we fix it?" And you can get so far by yourself just figuring it out, but at some point I feel like you do run into those issues of "How do I address this?" I take it that also means that people have to have an internet connection to development... Is that the case?
 
 **Nathan Leiby:** If you're developing the stuff that needs to talk to web services, then yes. But certainly, I would advocate for - you know, you should be writing pure local stuff as much as possible. If you're writing business logic, do you really need to talk to the remote thing? How can you use better dependency injection or mocks to simulate that properly? But yes, if you wanted to, for example, spin up a UI and click through it, you would need to be connected to the internet.
 
@@ -228,7 +228,7 @@ So yeah, some kind of automated QA(I guess) is definitely necessary in this worl
 
 **Jon Calhoun:** Okay. I think it is time to jump into our Unpopular Opinions segment.
 
-**Jingle:** \[00:50:35.22\] to \[00:50:53.17\]
+**Jingle:** \[50:35\] to \[50:53\]
 
 **Jon Calhoun:** Do either of you have an unpopular opinion that you'd like to share? It can be about tech, or not about tech; that's completely up to you.
 
@@ -240,7 +240,7 @@ I know they're elegant, I know they solve something useful, I know they're philo
 
 I think there's definitely a use for channels. There are cases where when I've used them it's been great... Then there's other cases where you see code and it very much feels forced, or like a bad way to solve the problem... I don't know, do you think it's because you have people who haven't used concurrency as much, and they just really wanna use them? Or what's made you feel that way?
 
-**Nathan Leiby:** \[00:52:14.15\] Yeah, I think it's mostly that. I guess I haven't used that pattern as much in other languages, so it doesn't come as easily... You have to learn a different syntax, you have to learn some kind of edge-casy blocking issues that can come up... Or just non-obvious blocking issues. And I don't know - when I've tried to review or talk about that code with other people, it's been more challenging to explain or agree on what's going on. It's not a super-informed -- concurrency might be the problem, yeah.
+**Nathan Leiby:** \[52:14\] Yeah, I think it's mostly that. I guess I haven't used that pattern as much in other languages, so it doesn't come as easily... You have to learn a different syntax, you have to learn some kind of edge-casy blocking issues that can come up... Or just non-obvious blocking issues. And I don't know - when I've tried to review or talk about that code with other people, it's been more challenging to explain or agree on what's going on. It's not a super-informed -- concurrency might be the problem, yeah.
 
 **Jon Calhoun:** I feel like you're describing concurrency in general. Concurrency, in my opinion, is just hard to explain exactly, in a lot of code at least. If it gets complex at all, concurrency is just hard to reason about. I think that's one of the reasons why so many people struggle with it - it's hard to imagine all the different ways something can happen, or the order of execution , because it can be changed so much.
 
@@ -258,7 +258,7 @@ I think there's probably more truth to that advice when you're early on, buildin
 
 **Jon Calhoun:** It's interesting that you bring that up, because at least in theory sometimes some engineers will view this microservices architecture and think "Oh, one of the benefits is that we can write each service in whatever language is best for it..." But in practice, what I've found is basically what you said, that most companies settle on maybe 2-3 languages that they use. And going beyond that, there might be one that's perfect for the job, but introducing a new language - there's a big cost to that for the entire company, to introduce some new language. And while Rust might be great for some specific job, that means that somebody on the team now has to understand Rust for the rest of the life of the company, and that can be an issue... Especially, like you were talking about earlier, if you're deploying something that does get deployed with a bug, and it's a big issue, it's like "Um, we don't have time to figure this out. We need somebody who knows what's going on."
 
-**Rafael Garcia:** \[00:56:05.15\] Yeah, jumping from service to service and not being surprised by what you find is huge for productivity. And as you invest in tooling to support these approaches, you realize to introduce a new language or something you have to build all of that again... So the bar gets higher and higher, in some ways, as you get better with that particular set of tools. It's an interesting thing to think about.
+**Rafael Garcia:** \[56:05\] Yeah, jumping from service to service and not being surprised by what you find is huge for productivity. And as you invest in tooling to support these approaches, you realize to introduce a new language or something you have to build all of that again... So the bar gets higher and higher, in some ways, as you get better with that particular set of tools. It's an interesting thing to think about.
 
 We've introduced new tools. I don't think this is saying "Oh, we use Go for everything." For example, Nathan has been doing some Spark stuff recently, and Go has been not great for that, so now we're not using Go for that, and we're introducing some new tools to do this large-scale data processing. But for the bread and butter services that we run, the toolset is kind of settled and we just kind of keep improving it and making it better.
 

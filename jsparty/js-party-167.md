@@ -16,7 +16,7 @@ But today we're going to talk about ten accessibility mistakes to avoid in 2021.
 
 **Tryggvi Gylfason:** Yeah, so I don't consider myself to be an accessibility expert by no means... But I kind of got into specializing a bit in web accessibility as a frontend engineer a couple of years ago. I saw the work that had been going on at Spotify when Shaun Bent, one of our co-workers, did some amazing work with putting a little dot underneath the Shuffle and Repeat icons, that kind of became a pretty famous example of nice little things you can do to improve accessibility... That made it clear if the button was on or not for people that have colorblindness \[unintelligible 00:04:18.10\]
 
-\[00:04:22.21\] And I just thought that was such a nice little gesture, and I started to looking into -- trying to learn a bit about voiceover and how the screen reader is working, and tried these things out on the desktop client we have... And it was really alarming how difficult it was to use. I guess that's what put me on the path to try to improve things on the desktop client and web player for us, and advocating for it internally, and just learning more and more along the way.
+\[04:22\] And I just thought that was such a nice little gesture, and I started to looking into -- trying to learn a bit about voiceover and how the screen reader is working, and tried these things out on the desktop client we have... And it was really alarming how difficult it was to use. I guess that's what put me on the path to try to improve things on the desktop client and web player for us, and advocating for it internally, and just learning more and more along the way.
 
 **Emma Bostian:** That's great. I'm really happy that you could join us today. I say we just jump right in. Let's just talk about a few tips today for just making your applications usable by all people... Because at the end of the day, everyone should be able to accomplish the same tasks with your applications, regardless of their circumstance.
 
@@ -34,7 +34,7 @@ A good example of animation potentially that you wanna add is if you have a toas
 
 **Tryggvi Gylfason:** There's this really cool little snippet that I think Jen Simmons, if you know her, and some other people (I think) at Mozilla developed... You can turn off animations or make the duration really small if the user prefers reduced motion... Kind of like jump to the end of it. There's this GitHub repository called CSS Remedy, where there's this little script that you can drop into your client and it basically turns off transitions and animations under this media query, by just using importing, and stuff. Is there any place we can share stuff like this?
 
-**Emma Bostian:** \[00:08:22.03\] Why don't you throw it in the Slack channel?
+**Emma Bostian:** \[08:22\] Why don't you throw it in the Slack channel?
 
 **Tryggvi Gylfason:** Okay, I will.
 
@@ -68,7 +68,7 @@ Yeah, have y'all ever gone through a process and realized how difficult it was t
 
 **Nick Nisi:** Yeah, same. The way that this mistake is written - it kind of made me think of a different use case, that is probably more UX-driven rather than accessibility-driven... And when you say "not displaying related information at all stages", I just immediately thought of logging into Google. Why make me put in my email address first and then my password on another page? It's a usability nightmare, especially on my phone, where I use a password manager. It prompts me to unlock with my face to fill in my email, and then I have to go to another page and do that whole thing again to put in my password.
 
-**Emma Bostian:** \[00:12:12.27\] You know what's funny? That also bothers me, but they, I believe, do that so that you're focused on one task at a time... But let's think about that for a second. You've got two input fields. Do you really need to reduce the cognitive load on a login screen? Because that's pretty normal.
+**Emma Bostian:** \[12:12\] You know what's funny? That also bothers me, but they, I believe, do that so that you're focused on one task at a time... But let's think about that for a second. You've got two input fields. Do you really need to reduce the cognitive load on a login screen? Because that's pretty normal.
 
 **Nick Nisi:** Yeah.
 
@@ -94,7 +94,7 @@ So a UX thing is definitely make sure that your form works with autocomplete, be
 
 **Emma Bostian:** Forms are hard, although they seem the most simplistic. I think this is a good point, that like, hey, guess what, we're web developers and we should care about user experience, because a lot of our accessibility - about half of it, I would say, is design-focused... Or starts with design, let me say that; it starts at the design stage, and then the other half I feel like is up to us to implement.
 
-\[00:16:11.21\] But yeah, let's talk about one more tip before we take a quick break here... And this is gonna be not updating state. This is a big deal. Tryggvi, can you explain what this means?
+\[16:11\] But yeah, let's talk about one more tip before we take a quick break here... And this is gonna be not updating state. This is a big deal. Tryggvi, can you explain what this means?
 
 **Tryggvi Gylfason:** Yes. For example, you could take the Spotify Play button as an example. It's like a dual state button. You can also have buttons that are like three states. The Shuffle button on Spotify - it's off; you can shuffle the song -- sorry, the Repeat button. You can repeat the song, or you can repeat the whole playlist. So it's like a tri-state thing.
 
@@ -116,7 +116,7 @@ Modal visibility is another one, and we're gonna talk about how to visually hide
 
 Awesome. So those are our three to seven tips, depending on how you count them... We'll take a short break, but when we come back, we've got a plethora of tips to talk about.
 
-**Break:** \[00:19:28.23\]
+**Break:** \[19:28\]
 
 **Emma Bostian:** So in the last segment we talked about a lot of things, like updating state appropriately, and making sure that you're displaying information... But let's talk about another UX issue - or visual design issue, actually - that is truly an accessibility issue, and that is not having enough color contrast between your background and your foreground colors. Why is this an issue? Would one of you like to explain?
 
@@ -152,7 +152,7 @@ I don't know if it's Firefox, or Chrome - which one has the color contrast in th
 
 **Tryggvi Gylfason:** So I think having good color contrast helps when you're situationally-disabled...
 
-**Emma Bostian:** \[00:24:07.10\] Oh yeah, that's true. There are temporary disabilities, or situational disabilities. If you break your arm, that's a temporary disability, but it's still a disability, because you're using one hand to type. So accessibility doesn't have to be permanent, and it is not just about being blind or visually impaired. There are many different types of disabilities, and not all are permanent.
+**Emma Bostian:** \[24:07\] Oh yeah, that's true. There are temporary disabilities, or situational disabilities. If you break your arm, that's a temporary disability, but it's still a disability, because you're using one hand to type. So accessibility doesn't have to be permanent, and it is not just about being blind or visually impaired. There are many different types of disabilities, and not all are permanent.
 
 Talking about blind users in particular, Tryggvi, can you explain a little bit what a screen reader is for those who don't know?
 
@@ -194,7 +194,7 @@ There are regions of your webpage called landmark regions. Main is one of them, 
 
 **Tryggvi Gylfason:** There is no light mode right now.
 
-**Nick Nisi:** \[00:28:14.27\] Okay.
+**Nick Nisi:** \[28:14\] Okay.
 
 **Tryggvi Gylfason:** I have a question for the chat here, and for anyone listening... This is an area for me of accessibility where I'm not sure where the problem should be solved. Is it in the app? Should each app adjust light and dark mode, and contrast, and inverted, and all that? Because a lot of the operating systems also have those accessibility features on phones, where you can invert the colors and you can do things... So I'm not sure how far to take this type of work when you're building a web application or not.
 
@@ -232,7 +232,7 @@ There are regions of your webpage called landmark regions. Main is one of them, 
 
 **Emma Bostian:** Yeah.
 
-**Tryggvi Gylfason:** \[00:32:03.09\] Yeah, I'm trying to look at examples in our code. I can see for example we have an indicator when you're dragging and dropping things in the playlist, we have a little line that shows you where you're dragging and dropping. That one we use display: none on, I guess because it's not really that relevant for our screen reader users. We also use display: none in some of the ads, I see...
+**Tryggvi Gylfason:** \[32:03\] Yeah, I'm trying to look at examples in our code. I can see for example we have an indicator when you're dragging and dropping things in the playlist, we have a little line that shows you where you're dragging and dropping. That one we use display: none on, I guess because it's not really that relevant for our screen reader users. We also use display: none in some of the ads, I see...
 
 **Emma Bostian:** Oh, yeah. Cool.
 
@@ -276,7 +276,7 @@ For example, if you have a question mark icon and your label is "Learn more" or 
 
 **Tryggvi Gylfason:** And I still feel like I'm not really an expert on that. It's unfortunately complex... And I guess a big part of that is how backwards-compatible the web has to be. All of this had to be added on top of existing technologies, while mobile - Android and iOS - can \[unintelligible 00:35:51.22\] from the start. So it's unfortunately a bit harder on the web, especially with the ARIA labels and things.
 
-**Emma Bostian:** \[00:36:02.15\] One thing I see done all the time, especially on legacy apps, is adding a role... So I see \[unintelligible 00:36:06.11\] This is an example of redundant -- technically I think it's ARIA, but it's not prefaced by aria-... So adding a role used to be really important when we were doing layouts with tables, or if we were doing -- like, before semantic HTML elements came out, like nav, and footer maybe. You would see role=presentation a lot on table elements before Flexbox, before floats, all these things, we would have to use tables to lay out all our UI. \[unintelligible 00:36:34.21\] so that the screen reader wouldn't see a table and say "Oh, this is a table of information." It's like, "No, we're just using this for presentation or layout." But before nav was a semantic element, you would have to use a div or an unordered list, and you would set role=nav or navigation to let a screen reader know "Hey, this is a nav."
+**Emma Bostian:** \[36:02\] One thing I see done all the time, especially on legacy apps, is adding a role... So I see \[unintelligible 00:36:06.11\] This is an example of redundant -- technically I think it's ARIA, but it's not prefaced by aria-... So adding a role used to be really important when we were doing layouts with tables, or if we were doing -- like, before semantic HTML elements came out, like nav, and footer maybe. You would see role=presentation a lot on table elements before Flexbox, before floats, all these things, we would have to use tables to lay out all our UI. \[unintelligible 00:36:34.21\] so that the screen reader wouldn't see a table and say "Oh, this is a table of information." It's like, "No, we're just using this for presentation or layout." But before nav was a semantic element, you would have to use a div or an unordered list, and you would set role=nav or navigation to let a screen reader know "Hey, this is a nav."
 
 So now that we have come across Flexbox and Grid and more semantic HTML, we don't need role as much. It is redundant, so just make sure you're using semantic versions of the tags.
 
@@ -284,7 +284,7 @@ So now that we have come across Flexbox and Grid and more semantic HTML, we don'
 
 There is a tutorial on the Mac on how to use a Voiceover that you can go through... But the one thing I cannot recommend enough is the Udacity course called "Web accessibility" that Google made, where a part of that course is actually going through Voiceover and learning to use it. That was key for me to understand -- you can answer more of your own questions about accessibility, and you can see the results, "Hey, would this make sense if I see it in the screen reader?"
 
-**Break:** \[00:38:20.13\]
+**Break:** \[38:20\]
 
 **Emma Bostian:** Alright, so we've talked a lot about excellent visual design, we've talked about making sure you've got appropriate ARIA types... But let's talk about using single-page application router libraries that don't work with screen readers. I'm gonna give this over to Tryggvi, because you have thoughts on this, and I do not... So please, sir, tell us more.
 
@@ -304,7 +304,7 @@ So if you're going to be removing that WebKit outline, you need to be providing 
 
 A common one here is when you're popping up a modal, maybe it happens automatically, maybe it happens as a result of the user clicking something... The model pops up, but the focus is not moved into the modal. So if a screen reader user or somebody that uses the keyboard to navigate around, they're just kind of stuck in the page behind the modal, in some void, and they can't close the modal and they can't get to the modal. It's kind of obscuring the rest of the screen. That's one common one...
 
-**Nick Nisi:** \[00:44:09.13\] I have to ask, how do you fix that? Obviously, use buttons when things are supposed to be buttons, so that they are tabbable, too... But then do attributes like tab index play a role in that?
+**Nick Nisi:** \[44:09\] I have to ask, how do you fix that? Obviously, use buttons when things are supposed to be buttons, so that they are tabbable, too... But then do attributes like tab index play a role in that?
 
 **Tryggvi Gylfason:** Yeah, this is a big one, a complicated one. For the new tracklist we build for the new desktop client, we actually build a whole system to navigate around with a technique called rolling tab index. A tracklist is built in a way where you can go to it with one tab, but you can skip the whole list with one tab, but within the list you can navigate in a grid-like fashion, with the up, down, left and right arrow keys... And we need to orchestrate all of that in JavaScript, and it's kind of complicated, actually. We do that with moving the tab index around, and moving the focus.
 
@@ -322,7 +322,7 @@ But you can skip out of the whole tracklist with one tab, so that you can go thr
 
 **Tryggvi Gylfason:** Yeah.
 
-**Emma Bostian:** \[00:47:56.05\] Cool, yeah. So live updates. Live updates are pertinent, relevant information that are time-sensitive... So if you have an error that's time-sensitive, or if you've got a toast notification that comes in, we need to alert visually-impaired and blind users that "Hey, there's something that requires your attention, time-sensitive, going on here..." But how do we do this in an accessible way that's not too abrasive to our users?
+**Emma Bostian:** \[47:56\] Cool, yeah. So live updates. Live updates are pertinent, relevant information that are time-sensitive... So if you have an error that's time-sensitive, or if you've got a toast notification that comes in, we need to alert visually-impaired and blind users that "Hey, there's something that requires your attention, time-sensitive, going on here..." But how do we do this in an accessible way that's not too abrasive to our users?
 
 **Tryggvi Gylfason:** You can mark a section, like a div, to be a live region. I think it's called aria-live, the attribute there...
 
@@ -366,7 +366,7 @@ And Heydon made a really cool package on GitHub... I don't know if you know Heyd
 
 **Emma Bostian:** Oh, gosh... That sounds like my nightmare. That's like Dante's Inferno of nightmares... \[laughter\] Oh, goodness... Well, hey, we've covered a lot of really important things, and I think they're all actionable items that we can all adopt into our day to day work streams... Were there any things in here that surprised you in terms of common mistakes that you didn't know about?
 
-**Tryggvi Gylfason:** \[00:51:04.17\] I feel like I want to learn more about where -- we were talking about the forms, and making sure you repeat yourself, and the information is there, and just making it so that you have to keep less in your head as a user... I don't know enough about those topics, I feel like. I wanna go learn more about that.
+**Tryggvi Gylfason:** \[51:04\] I feel like I want to learn more about where -- we were talking about the forms, and making sure you repeat yourself, and the information is there, and just making it so that you have to keep less in your head as a user... I don't know enough about those topics, I feel like. I wanna go learn more about that.
 
 **Nick Nisi:** Yeah, I'll say I wanna dive deeper into live regions. I think that that's really interesting, and it's something that I haven't really considered. That can be very dependent on the types of applications that you're working on. You may not have something that would necessarily benefit from a live region.
 

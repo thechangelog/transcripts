@@ -18,7 +18,7 @@ My name is Chris Benson, I am a chief AI strategist at Lockheed Martin, focusing
 
 **Chris Benson:** As far as this one, this is kind of the developer workshop, and we'll see about what can come out. There's gonna be a whole series of AlphaPilot drone races going on through the end of the year, and I'll put a link in the show notes where people can connect if they're interested.
 
-\[00:04:04.09\] Every time I think about this -- I'm sure the people doing it will roll their eyes, but you know in Star Wards episode one, when the young Anakin's flying around through the desert... That's the thing that always teases my brain. I think it's a little bit more down to earth than that, but I'm looking forward to having fun with my version of Star Wars this coming week.
+\[04:04\] Every time I think about this -- I'm sure the people doing it will roll their eyes, but you know in Star Wards episode one, when the young Anakin's flying around through the desert... That's the thing that always teases my brain. I think it's a little bit more down to earth than that, but I'm looking forward to having fun with my version of Star Wars this coming week.
 
 **Daniel Whitenack:** Yeah, that sounds like a lot of fun, it sounds very exciting, and it's always cool to see AI -- a lot of times we're just focused on... Like, I'm staring at my monitor, at my computer, and doing "AI", but it's cool to see AI and machinery of some time interact, whether that be robots, or drones, or little cars, or whatever it is... So that's always fun, and kind of connects it to the real world, I think.
 
@@ -36,7 +36,7 @@ I saw a couple of these things recently, and one that seems to have gotten a lot
 
 **Chris Benson:** It seems very cool to me. There's so much happening... We keep calling out how much is happening in NLP (natural language processing, for those not familiar) these days. It's just been huge over the last year.
 
-**Daniel Whitenack:** \[00:08:03.03\] Yeah, and this in particular - it's like all of those recent discoveries, kind of mixed with Indiana Jones, a little bit... So it makes it even more awesome, I think. There was a study -- apparently, there are these ancient lost languages, and I guess there's a number of them, but archaeologists have discovered tablets and other things with these languages, that date back to various times; in fact, there's this language called Linear A apparently, which dates from 1,800 to 1,400 BC, and then there's another one called Linear B, which dates along the same time period... And Linear A hasn't been deciphered, but Linear B has been deciphered. It was deciphered only - I forget what the article said - not that long ago.
+**Daniel Whitenack:** \[08:03\] Yeah, and this in particular - it's like all of those recent discoveries, kind of mixed with Indiana Jones, a little bit... So it makes it even more awesome, I think. There was a study -- apparently, there are these ancient lost languages, and I guess there's a number of them, but archaeologists have discovered tablets and other things with these languages, that date back to various times; in fact, there's this language called Linear A apparently, which dates from 1,800 to 1,400 BC, and then there's another one called Linear B, which dates along the same time period... And Linear A hasn't been deciphered, but Linear B has been deciphered. It was deciphered only - I forget what the article said - not that long ago.
 
 The article basically shows how these researchers, which are from MIT and Google (Google Brain), and what they did was they basically showed how they could utilize similar words or similarities between various languages and how they were historically derived, to kind of automatically decipher this Linear B language, which is actually a lost language... And they showed that they could basically do it in a way that didn't rely on parallel data. So it's like a real deciphering of this language, which is pretty cool.
 
@@ -50,7 +50,7 @@ So they don't need parallel data between Linear B and Greek. They're really trea
 
 **Daniel Whitenack:** Yeah. And there's this other article which I think very much fits within that framework. There's this other article which I actually also read on MIT Tech Review, which - I guess I get a lot of things from there, it seems like... But this has to do not with language, but with games.
 
-\[00:11:50.16\] I guess there's medieval manuscripts that include these representation of games, whether that's games played on horseback, or table games, or dice games, or these other games... And up until now there wasn't really -- I guess there wasn't really a field of study around ancient games... So there's this researcher in the Netherlands who's proposing that there's this new field of study of ancient games, which -- I'm probably gonna mispronounce this, but archaeoludology.
+\[11:50\] I guess there's medieval manuscripts that include these representation of games, whether that's games played on horseback, or table games, or dice games, or these other games... And up until now there wasn't really -- I guess there wasn't really a field of study around ancient games... So there's this researcher in the Netherlands who's proposing that there's this new field of study of ancient games, which -- I'm probably gonna mispronounce this, but archaeoludology.
 
 Anyway, he has these pictures of these ancient games that are represented in manuscripts, and he's proposing and has shown some evidence that using machine learning and AI we could use things like computer vision, but also evolutionary algorithms and other things to actually learn about how these games evolved, about their rules, and even take the whole of games that have been developed through time and use their basic elements to generate new games.
 
@@ -70,7 +70,7 @@ In the lost language case, they're really starting with text or characters from 
 
 **Chris Benson:** That sounds pretty cool.
 
-**Break:** \[00:16:22.21\]
+**Break:** \[16:22\]
 
 **Chris Benson:** We were talking a few minutes ago about NLP techniques being applied, in particular to deriving the rules from ancient games and such, and I'm gonna take that as a rough segue into some of the things that are currently happening in games. There were two things in particular that I noticed; one has to do with DeepMind, and there's an article that Ars Technica has called "DeepMind AI is secretly lurking on the public Starcraft II 1v1 ladder."
 
@@ -84,7 +84,7 @@ I thought that was really interesting - they implement these characters, and whe
 
 **Chris Benson:** What they said in the article was explicitly no. They were deliberately doing it anonymously... And I don't know - if you were to communicate and say "Are you a human or are you a bot?" if they're just gonna lie. If it's a bot, it says "Of course I'm human. What a stupid question", that kind of thing. I don't know how they're handling that.
 
-**Daniel Whitenack:** \[00:19:54.19\] Yeah... I wonder what the perception -- I'd be interested to read forums and different things around the perception of this... Because I definitely think there could be that -- I have brother-in-laws who are really into gaming; I'm not quite as much, but I know there's that -- when you're playing, especially ranked games and that sort of thing... You know, if you're playing against someone that has an unfair advantage, like you were saying... I know that they've tried to limit that, but that could not come off so well. Especially if this player is moving up in the rankings or something like that, I don't know that that would be accepted very well.
+**Daniel Whitenack:** \[19:54\] Yeah... I wonder what the perception -- I'd be interested to read forums and different things around the perception of this... Because I definitely think there could be that -- I have brother-in-laws who are really into gaming; I'm not quite as much, but I know there's that -- when you're playing, especially ranked games and that sort of thing... You know, if you're playing against someone that has an unfair advantage, like you were saying... I know that they've tried to limit that, but that could not come off so well. Especially if this player is moving up in the rankings or something like that, I don't know that that would be accepted very well.
 
 **Chris Benson:** Yeah, it explicitly was noting the fact that they're really putting all those restrictions on, and they refer to the previous time around (a couple years back) as an unfair, unrestricted view of the game. And as they do that, I find that fascinating, first of all just because gaming is obviously a great way to do that, but there are so many things I could see moving beyond the gaming world, that are out there in terms of general use cases.
 
@@ -100,7 +100,7 @@ And I guess while we're mentioning turning a corner, there was another article t
 
 **Chris Benson:** What did you hear? Before I leap into my part, I'm curious what the social media site said...
 
-**Daniel Whitenack:** \[00:23:55.27\] I don't remember exactly what they said, and I didn't look a ton into this, so you'll have to brief me... But I just remember seeing, as I scroll down on my Twitter feed, a bunch of gifs with this flow chart of how this thing worked, and poker imagery, and all of this stuff... So it seemed like something that really caught people's attention.
+**Daniel Whitenack:** \[23:55\] I don't remember exactly what they said, and I didn't look a ton into this, so you'll have to brief me... But I just remember seeing, as I scroll down on my Twitter feed, a bunch of gifs with this flow chart of how this thing worked, and poker imagery, and all of this stuff... So it seemed like something that really caught people's attention.
 
 **Chris Benson:** Yeah, the thing that the article really raises is that they kind of took a different approach with this bot. So instead of the model having the long-term strategic game view, they limit it to thinking only two or three moves ahead. Once again, in a sense, it's almost coming down to some human limitations that we have... But the thing that really jumped out about this was they trained this bot to be able to bluff effectively.
 
@@ -122,7 +122,7 @@ I've seen, of course, Fast.ai and Rachel Thomas and other people talking -- I th
 
 **Daniel Whitenack:** So I think that that's encouraging, that there's some cool stuff like this that's happening, with very little costs as far as compute goes... But also, of course, these huge, large-scale NLP models and other things happening these days - the compute cost is pretty ridiculous, and also the environmental impact of that is massive, which is kind of depressing...
 
-**Chris Benson:** \[00:28:13.13\] Yeah, I saw that as well.
+**Chris Benson:** \[28:13\] Yeah, I saw that as well.
 
 **Daniel Whitenack:** ...along with Bitcoin, we're just like destroying -- racking up all of these energy costs because of these models that we're training... Which I don't know that that's -- I forget if there's a study that shows the total percentage of our energy usage or something like that, but it's definitely something that's contributing a lot, and in some cases more than it really has to be, because we don't always have to throw a TPU pod or a V100 at a model. I think there's a lot of interesting things that we can do with limited architecture, which is something that I'm really interested in exploring, for sure.
 
@@ -136,7 +136,7 @@ I was just listening to our partner podcast, The Changelog - they had the Pragma
 
 **Chris Benson:** No, we do tend to get very tunnel-visioned. I know that we have this bias - we're so convinced that this is world-changing stuff and amazing things can come of it and all, and we tend to forget that, boy, we're using a lot of electricity there in the background, so... We need to have a better, more holistic view of the world in that way.
 
-**Break:** \[00:32:06.19\]
+**Break:** \[32:06\]
 
 **Daniel Whitenack:** I wanted to follow up on one thing that we talked about in a recent episode, in a Fully Connected episode actually, which was deepfakes... And I think in that episode - and of course in general around this topic - there's pretty much a negative view of this technology... "GANs are bad, and they're destroying everything that's real in the world" sort of viewpoint... And in that show we talked about like "Oh, well what are some of the potentially beneficial things that this technology could do?" I remember talking through a couple things, we weren't totally sure on what those were... But I saw a recent article that took a really good perspective on this; I forget what the article was titled, but I remember seeing it mention good GANs... And for the listeners that want more info on GANs (generative adversarial networks), you can listen to our episode on that.
 
@@ -166,7 +166,7 @@ GANs in particular - you're talking about the medical application there, with ca
 
 It was pointed out to me after that episode - I was talking to somebody at the Atlanta Deep Learning meetup, and they were pointing out that gaming, and there's lots of educational uses where you change up use cases to teach somebody dynamically, on the fly... There are tons of good potential uses as well, so it may just be that we've had our attention drawn to some of the early, nefarious things, or bad actors have grabbed onto a new technology and done some naughty things with it. I think we'll see some pretty good uses of the technology as well, aside from the kind of things that we covered in the previous show.
 
-**Daniel Whitenack:** \[00:40:20.20\] Yeah, I wasn't really thinking as much about simulated data when we were having that discussion, but now that this -- I read through this article and thought through it... That's kind of at the forefront of my mind around this topic, because the idea of simulated data, similar to things we've even already talked about in this podcast, is really valuable as we move into this phase or really focusing on semi-supervised and unsupervised methods. And I think one of the things that you also found this week had to do with unsupervised learning, is that right?
+**Daniel Whitenack:** \[40:20\] Yeah, I wasn't really thinking as much about simulated data when we were having that discussion, but now that this -- I read through this article and thought through it... That's kind of at the forefront of my mind around this topic, because the idea of simulated data, similar to things we've even already talked about in this podcast, is really valuable as we move into this phase or really focusing on semi-supervised and unsupervised methods. And I think one of the things that you also found this week had to do with unsupervised learning, is that right?
 
 **Chris Benson:** Yeah, let me flip over to that one real fast... They're also in MIT Technology Review; wow, we've done a lot of stuff...
 
@@ -184,7 +184,7 @@ I actually got interviewed myself a while back by Thomson Reuters and I was sayi
 
 **Daniel Whitenack:** ...and we're still on the data issues of the problem. And I'm sure everyone that's actually worked on these problems can sympathize; those are really the bulk of the issues - the data side of things... Thinking about another conversation I had with someone just yesterday, where we were talking about how we basically just all lost any confidence in any data that we ever receive, or confidence in having good data... Because regardless of the process behind the data -- even if there's a good process in place, humans are generating data and they're biased in how they do it...
 
-\[00:44:09.13\] So almost any dataset that we get, even if it's nicely formatted, I kind of just lost confidence in all of that... Which is kind of depressing, but it's also kind of encouraging that people are really saying at this point "Well, maybe we should focus on that less, and focus more on this sort of semi-supervised or unsupervised approach."
+\[44:09\] So almost any dataset that we get, even if it's nicely formatted, I kind of just lost confidence in all of that... Which is kind of depressing, but it's also kind of encouraging that people are really saying at this point "Well, maybe we should focus on that less, and focus more on this sort of semi-supervised or unsupervised approach."
 
 **Chris Benson:** Yeah... Before turning to that, I'll agree with -- I've been spending a ton of time focused on AI ethics lately at work, and I think it is a fair statement to say that an enormous amount of data out there is inherently biased in various ways... So we're certainly gonna need to address with tooling how we approach that. But we can talk about more of that later. I know we're gonna have that as a topic in the future.
 
@@ -204,7 +204,7 @@ I know the other providers are doing that as well, and I really wanted to call t
 
 **Daniel Whitenack:** Everything cloud-native.
 
-**Chris Benson:** \[00:47:57.27\] Yeah, really. And you can pull them onto your laptop and have the same environment... And in this case, Google is just talking about the fact that they have a bunch of deep learning containers of various configurations, with different frameworks, and different configurations that they've found that their data scientists and deep learning engineers are needing on a regular basis.
+**Chris Benson:** \[47:57\] Yeah, really. And you can pull them onto your laptop and have the same environment... And in this case, Google is just talking about the fact that they have a bunch of deep learning containers of various configurations, with different frameworks, and different configurations that they've found that their data scientists and deep learning engineers are needing on a regular basis.
 
 The reason I wanted to talk about this today and draw it out as a learning resource is the fact that this is really how things are getting done. Most of the organizations I've been in have been container-based over the last 2-3 years, and they're really focused on "How do we wanna do it?", and they develop a standard... So if you're not doing that, if it's something that you need to ramp up on -- maybe you're stronger on the data science side, and containers are still feeling kind of newish to you, this is a good area to jump into. Read this article, and there's similar ones out there from AWS, and Microsoft... And understand how you can accelerate what you're doing by using standardized containers that give you a full environment.
 

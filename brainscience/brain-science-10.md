@@ -18,7 +18,7 @@
 
 **Adam Stacoviak:** There&#39;s lots of stuff that you&#39;re like, &quot;That meant a lot to me ten years ago. Today, not so much.&quot; I didn&#39;t really consider this until just now, literally just now, but I feel like - and hopefully, I have a little bit more time than this, but I feel like right now, to use a football term, I&#39;m at the 50-yard line of life. 80 years old is a pretty good age to live to. I might go past that, but a common age is 70 to 80, depending upon your health and how you&#39;re taking care of yourself. Now is the time to change if I&#39;m in a bad direction health-wise, to begin or redirect a trajectory of good health to get to that mile marker. But it&#39;s like a milestone year for me. Many people celebrate their 40th birthday because it&#39;s this 50-mile marker or 50-yard line or whatever it might be. It&#39;s like a halfway point.
 
-**Mireille B. Reece, Psy.D:** [00:04:12.13] Yeah. Well, I think it makes you look back and then reallocate what direction you want to head as based on that. Do you like what you&#39;ve cultivated in the first 40, in the first half? Do you want more of that, or do you want to redefine what that looks like?
+**Mireille B. Reece, Psy.D:** \[04:12\] Yeah. Well, I think it makes you look back and then reallocate what direction you want to head as based on that. Do you like what you&#39;ve cultivated in the first 40, in the first half? Do you want more of that, or do you want to redefine what that looks like?
 
 **Adam Stacoviak:** Yeah, that&#39;s good stuff there. So when we start to dig into this aspect of shame, it&#39;s different than guilt. But let&#39;s break down this concept of shame and what it really is.
 
@@ -40,7 +40,7 @@ One clinician talked about this experientially and saying, &quot;Shame, once upo
 
 **Adam Stacoviak:** Yeah, it&#39;s a bad place to be.
 
-**Mireille B. Reece, Psy.D:** [00:08:03.14] It is. So even coming back to what we talked about at the initial episode - the fundamentals of being human, it involves we are tribal by nature.
+**Mireille B. Reece, Psy.D:** \[08:03\] It is. So even coming back to what we talked about at the initial episode - the fundamentals of being human, it involves we are tribal by nature.
 
 **Adam Stacoviak:** Yeah, a social species. To not be a part of that tribe is-- it&#39;s a multi-layered, but it&#39;s very hurtful. Because you want to be with your group, you want to be protected, you want to be sheltered, etc. The shame is a signal of that not being a fact anymore, or even if it&#39;s just temporary, it&#39;s gotta be gut-wrenching.
 
@@ -80,7 +80,7 @@ One clinician talked about this experientially and saying, &quot;Shame, once upo
 
 **Adam Stacoviak:** What you made me think of there when you described this was this aspect of hiding; I&#39;m wondering if, as part of this, we could talk about telltale signs that you&#39;re in these moments. Because sometimes it&#39;s very top-of-mind awareness that you are very mindful of your shame or of your imposter syndrome, and some may be just in that lull, in these ways of not really thinking they&#39;re in a shameful situation; they are hiding.
 
-[00:12:18.05] So I&#39;m just wondering if there are telltale signs that say you are in shame or you are in an imposter syndrome posture, and then potentially even ways to get out of or to remedy the shame?
+\[12:18\] So I&#39;m just wondering if there are telltale signs that say you are in shame or you are in an imposter syndrome posture, and then potentially even ways to get out of or to remedy the shame?
 
 **Mireille B. Reece, Psy.D:** Well, so I&#39;m super thankful for researchers who&#39;ve looked at this more in-depth. If you haven&#39;t heard of her, go look her up, but Brené Brown - she was out of the University of Houston, and a social worker who did tons of research as it relates to shame, vulnerability, and connection.
 
@@ -96,7 +96,7 @@ So she talks about shame as a storm. She says you have to be able to name it. Th
 
 **Adam Stacoviak:** That&#39;s a tough place to be in, too. The name it to tame it seems to keep coming up every time we have some sort of conversation. I feel naming something and giving some definition to this thing that we keep feeling, and naming things seems to be key because it gives you an understanding of it. Once you have an understanding of it... Awareness - we&#39;ve said this before that this is really a key aspect to any remedy, is awareness of and defining what it is.
 
-**Mireille B. Reece, Psy.D:** [00:16:02.27] Right. So one of my favorite examples of this - Brené Brown talks about this, I forget where... She&#39;s written a number of books; she&#39;s got her TED talks, and more. But she describes this scenario, the pickup line at school-- and so especially if you&#39;re a mom and have ever hung out in the pickup line, it&#39;s an experience.
+**Mireille B. Reece, Psy.D:** \[16:02\] Right. So one of my favorite examples of this - Brené Brown talks about this, I forget where... She&#39;s written a number of books; she&#39;s got her TED talks, and more. But she describes this scenario, the pickup line at school-- and so especially if you&#39;re a mom and have ever hung out in the pickup line, it&#39;s an experience.
 
 **Adam Stacoviak:** Or dad. I&#39;ve done it too.
 
@@ -114,7 +114,7 @@ So in this instance, I just find it so humorous, but she ended up-- she said to 
 
 **Adam Stacoviak:** Oh, yeah. Every day, it moves. Especially in this tech world that we camp out at. I know our audience has transcended the typical Changelog - and I don&#39;t mean that in a negative way. But we have cultivated a network of podcasts that focus on software developers, but this show is transcending that. But every day in the tech world, the line has moved. No single day does technology not progress. That&#39;s the name of the game. It&#39;s meant to be progressive. Every day the line moves. So every day, people in software, whether you&#39;re a software developer, quality assurance, a marketing manager, a product manager, a product development manager, engineering manager, whatever, everyone&#39;s getting their line moved every single day.
 
-**Mireille B. Reece, Psy.D:** [00:20:24.20] Yes. So it is exhausting. I mean, this is really the epitome of that hustle. So when information is moving at that speed, it literally is like a gerbil on a wheel - wake up and run it, run it, run it, run it, run it... And that&#39;s not how we&#39;re designed. We&#39;re not designed in the same way, and there aren&#39;t two the same. So why would I say that somebody else needs to do what I do because I do that, or that then I need to do what someone else does because they do that? If we&#39;re looking at the world in terms of a harmony of working together, because we&#39;re a social species, ideally, in a tribe, I don&#39;t want everybody to have the same skill. That&#39;s gonna put us at risk, too. I mean, I want people to reflect on what aligns with them. Do they want to be doing that work?
+**Mireille B. Reece, Psy.D:** \[20:24\] Yes. So it is exhausting. I mean, this is really the epitome of that hustle. So when information is moving at that speed, it literally is like a gerbil on a wheel - wake up and run it, run it, run it, run it, run it... And that&#39;s not how we&#39;re designed. We&#39;re not designed in the same way, and there aren&#39;t two the same. So why would I say that somebody else needs to do what I do because I do that, or that then I need to do what someone else does because they do that? If we&#39;re looking at the world in terms of a harmony of working together, because we&#39;re a social species, ideally, in a tribe, I don&#39;t want everybody to have the same skill. That&#39;s gonna put us at risk, too. I mean, I want people to reflect on what aligns with them. Do they want to be doing that work?
 
 Some of these things I say would be phasic, in sort of life stages, and going, &quot;Maybe in one life stage I&#39;m optimizing for one thing. I&#39;m really trying to get this degree so that I can have this other career. Or I&#39;m really trying to be at home with my kids these five years, 12 years, 18 years, whatever it might be&quot;, because that&#39;s what really fits with the internal compass for you.
 
@@ -130,7 +130,7 @@ Some of these things I say would be phasic, in sort of life stages, and going, &
 
 **Mireille B. Reece, Psy.D:** So I would offer a different word. It&#39;s not optimizing or looking for contentment, but rather honesty. Can you look in the mirror and recognize what fits for you? We&#39;ve talked about that superpower of choice - what am I choosing? Is it important to me? Because look, we can&#39;t have our cake and eat it, too. We all have to make choices and there&#39;s a domino effect of ramifications from those choices. That&#39;s not good or bad, right or wrong. Those just are sequelae. So in light of that, would I want something different? Or does it resonate with me? Is this being honest? This is why talking about vulnerability - to some degree, it&#39;s vulnerable to show up.
 
-[00:24:19.21] I have talked about this or used this parallel in other episodes, but thinking about kids doing art projects. So here&#39;s a template, and this is what you&#39;re supposed to create. Who in the class creates the same one?
+\[24:19\] I have talked about this or used this parallel in other episodes, but thinking about kids doing art projects. So here&#39;s a template, and this is what you&#39;re supposed to create. Who in the class creates the same one?
 
 **Adam Stacoviak:** Never. It&#39;s never the same. They&#39;re always unique. They&#39;re always different. Some are bad, some are good. Some are very close to the example given.
 
@@ -158,7 +158,7 @@ Some of these things I say would be phasic, in sort of life stages, and going, &
 
 But then this third aspect is this inner referee that&#39;s like, &quot;Timeout, you two. You don&#39;t have to vilify one another. You get to be a kid and you get to be an adult&quot;, but how can we negotiate? And the referee&#39;s like, &quot;Hey, critic, totally out of bounds. I call foul.&quot; You don&#39;t get to talk to yourself in that way. That&#39;s really belittling, demeaning, unkind, not compassionate. And like, &quot;Hey, little kid, you don&#39;t just get to have the cake and eat it too all the time. That doesn&#39;t work well.&quot; So how can these aspects of me hang out with me inside me?
 
-**Adam Stacoviak:** [00:28:22.18] That&#39;s a difficult thing. You have to live with yourself. You said it before, you&#39;re the one who has to live with your own brain. Your own choices.
+**Adam Stacoviak:** \[28:22\] That&#39;s a difficult thing. You have to live with yourself. You said it before, you&#39;re the one who has to live with your own brain. Your own choices.
 
 **Mireille B. Reece, Psy.D:** Yeah. Well, so the interesting caveat, as we talk about shame is the way in which it does have ramifications with other people. Because if I&#39;m feeling so marred, so insufficient -- I mean, maybe a visualization of this might be like a homeless person trying to walk into a five-star restaurant. They would never feel accepted, like they belonged to that community, so they&#39;re probably not apt to try. Even though they need food, that&#39;s not where they&#39;re going to go.
 
@@ -172,7 +172,7 @@ So we have to recognize one of the remedies for managing or navigating shame loo
 
 **Mireille B. Reece, Psy.D:** Correct. Yeah, exactly. The interesting thing is recognizing when you do feel that way, you&#39;re actually participating in your experience of disconnection. Because when I hide, I think that I&#39;m too marred to be accepted, so I don&#39;t share. So I am disconnected, and then I don&#39;t feel connected. So recognizing -- and it doesn&#39;t mean it&#39;s just anyone and everyone like the guy sitting next to you on the bus, or the ferry, or on the airplane, that you share it. But where is a relationship, who is a person that you have built a relationship that you can say, &quot;Hey, this is where I am; here&#39;s the struggle that I&#39;m trying to navigate&quot; or &quot;Here&#39;s where I feel like I really mucked it up&quot;?
 
-[00:32:05.23] You guys work on teams a lot in the tech industry, right? So if you&#39;re like, &quot;Dude, I wrote this code. I did this program. I was trying to work on this thing. I just can&#39;t figure it out, or I just didn&#39;t show up, because I didn&#39;t want to be vulnerable to the criticism, condemnation or judgment of my team, that&#39;s like, &quot;You didn&#39;t do it good enough.&quot;
+\[32:05\] You guys work on teams a lot in the tech industry, right? So if you&#39;re like, &quot;Dude, I wrote this code. I did this program. I was trying to work on this thing. I just can&#39;t figure it out, or I just didn&#39;t show up, because I didn&#39;t want to be vulnerable to the criticism, condemnation or judgment of my team, that&#39;s like, &quot;You didn&#39;t do it good enough.&quot;
 
 **Adam Stacoviak:** Yeah... Sometimes those walls are self-built. Sometimes they&#39;re also part of the culture. This may be a subject matter for another show, but specifically with teams, there&#39;s often perceived walls built, whether it&#39;s me building them, of like &quot;I can&#39;t show up today because I&#39;m embarrassed that I didn&#39;t kill it this last day or two. Or I didn&#39;t deliver on my KPIs&quot; or whatever it might have been. These constructs we put in our path that essentially give us those feelings. And to be able to be vulnerable with a teammate and say, &quot;Here&#39;s where I&#39;m struggling&quot;, that&#39;s the culture that I would like to cultivate. One where you can say, &quot;You know what, I&#39;m not showing up in these ways for these reasons. Can you help me?&quot; Or just not even needing the help, because that&#39;s sometimes hard to ask for, but this vulnerability of saying, &quot;This is true for me today&quot; and just be aware of it, that I&#39;m in this moment. And they may offer, &quot;Oh, let me help you get through this.&quot; Or even just hearing you, just sometimes putting something out loud makes you participate in a choice of vulnerability rather than hiding in the syndrome that just encompasses us.
 
@@ -202,7 +202,7 @@ So we have to recognize one of the remedies for managing or navigating shame loo
 
 **Mireille B. Reece, Psy.D:** [laughs] Yeah, yeah. So I want our listeners to get at this too from the brain perspective, and recognizing the set of underlying neuroscience of it. So first off, if you&#39;ve heard of the ANS, so the autonomic nervous system... This is the part of our body that regulates our internal organs without the need to think about it. So there are two branches, so think Wishbone now... They are the sympathetic and parasympathetic nervous systems.
 
-[00:36:03.00] So the sympathetic (think sympathy) the sympathetic nervous system is responsible for connecting the different organs of our bodies to our brain via our spinal cord. So when we perceive danger, our sympathetic (sympathizes) system causes us to prepare for fight, flight or freeze by increasing our heart rate, as well as blood flow to our muscles. Because if I need to fight or flight, I don&#39;t need it up in my brain. I need it in my legs, my arms. I need serious blood flow. And then it decreases blood flow to organs such as the skin.
+\[36:03\] So the sympathetic (think sympathy) the sympathetic nervous system is responsible for connecting the different organs of our bodies to our brain via our spinal cord. So when we perceive danger, our sympathetic (sympathizes) system causes us to prepare for fight, flight or freeze by increasing our heart rate, as well as blood flow to our muscles. Because if I need to fight or flight, I don&#39;t need it up in my brain. I need it in my legs, my arms. I need serious blood flow. And then it decreases blood flow to organs such as the skin.
 
 **Adam Stacoviak:** Where it&#39;s not needed.
 
@@ -228,7 +228,7 @@ So we have to recognize one of the remedies for managing or navigating shame loo
 
 **Mireille B. Reece, Psy.D:** Yeah, yeah. So it&#39;s more of seeing how systems work and how information travels as opposed to just like a picture that&#39;s black and white, like MRI &amp; CT. So the research team, when they did this study found out-- so they wanted to see how the brain reacted to the experience of shame, so they found that there were certain structures within the brain that reacted to these shame stimuli, including the frontal lobe.
 
-[00:40:04.08] Remember, our frontal lobe is executive function, so executive assistant planning, organizing, speed of information processing, all sorts of things. It included the frontal lobe, which contains both the amygdala and this brain structure called the insula. I-N-S-U-L-A. So this insula was once believed to be implicated in emotional responses, and part of the limbic system. The limbic system is our emotional reasoning system. I&#39;m sorry, the insula is in the cerebral cortex, inside this little lateral groove. So you&#39;d have to dive deep in the brain in order to get to this part of our brain.
+\[40:04\] Remember, our frontal lobe is executive function, so executive assistant planning, organizing, speed of information processing, all sorts of things. It included the frontal lobe, which contains both the amygdala and this brain structure called the insula. I-N-S-U-L-A. So this insula was once believed to be implicated in emotional responses, and part of the limbic system. The limbic system is our emotional reasoning system. I&#39;m sorry, the insula is in the cerebral cortex, inside this little lateral groove. So you&#39;d have to dive deep in the brain in order to get to this part of our brain.
 
 **Adam Stacoviak:** It&#39;s like the epicenter area.
 
@@ -252,7 +252,7 @@ So imagine this insula as like the control tower. So we get shamed, and our cont
 
 **Mireille B. Reece, Psy.D:** Right. So if you think about it, there&#39;s like a three-stepped process of going &quot;Identify the threat, identify the motion&quot;, and it might not just be shame; it might be just helplessness, it might be a broader fear. It could be that inadequate, wrong... But then identify your tribe. Who can you connect with? Who&#39;s my tribe? Who might be best able to understand why? Beneath the iceberg, why what someone else might only see as the tip of the iceberg, why this thing is actually relevant to me?
 
-[00:44:20.10] And then three, you need that raft, that soothing system. So you need to upload a new, soothing, calming system. Imagine like you update software all the time.
+\[44:20\] And then three, you need that raft, that soothing system. So you need to upload a new, soothing, calming system. Imagine like you update software all the time.
 
 **Adam Stacoviak:** You need to patch that brain with a new build that works, that&#39;s optimized for this new construct. That&#39;s so interesting. And what I find super interesting is the metaphors and direct connection between the way the brain works and the way we often build software. Whether it&#39;s a database graph or the way large-scale systems are built, there&#39;s a lot of learning between how the human brain operates, and the way in which software operates, and how we build it, and the way we fix it etc. There&#39;s a lot of similarities.
 
@@ -266,7 +266,7 @@ So imagine this insula as like the control tower. So we get shamed, and our cont
 
 **Mireille B. Reece, Psy.D:** Well, it&#39;s really recognizing the way that you have to-- if you can shift your mind into seeing this through a way of management, like I need to manage how I interface with other people, especially around creative endeavors, then I need to be deliberate about identifying what they&#39;re doing well, and even create clarity, what you want them to approve upon. If you get stuck in that hustle of not enough, welcome anxiety or depression or other mental health or stress in your life, because you&#39;re just living in fight, flight or freeze, and you&#39;re not going to have access really to do it as you are capable of doing it.
 
-[00:46:59.25] I&#39;m so grateful for the work that Brené Brown has done, because she&#39;s given us so much, so many words and ways of understanding this. One of the quotes she gives in her book - Daring Greatly, is I believe the one it&#39;s in - is a quote by Theodore Roosevelt. Have you heard this? The man in the arena?
+\[46:59\] I&#39;m so grateful for the work that Brené Brown has done, because she&#39;s given us so much, so many words and ways of understanding this. One of the quotes she gives in her book - Daring Greatly, is I believe the one it&#39;s in - is a quote by Theodore Roosevelt. Have you heard this? The man in the arena?
 
 **Adam Stacoviak:** No.
 

@@ -240,7 +240,7 @@ Yeah, that's a really interesting psychological thing... I don't know what the s
 
 **Lucy D'Agostino McGowan:** Yeah, so I guess it's happened there, too. So I think that that kind of thing happening also can erode the trust a little bit, too.
 
-**Break:** \[00:31:50.05\]
+**Break:** \[31:50\]
 
 **Daniel Whitenack:** Alright, so we started talking into these Covid-related numbers with the vaccines, and then also talked a lot about data communication; all of that is super-useful... But I do wanna get a chance to talk a little bit more about that third piece that you mentioned was mixed into that original problem we talked about of the vaccine numbers, which was causal inference... And I know that at the upcoming R conference - this is the first conference that's gonna be focused on government and public sector, which is super-exciting. Chris and I are gonna moderate a panel there, which will be a lot of fun for us to join.
 

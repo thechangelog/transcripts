@@ -1,4 +1,4 @@
-**Tim Smith:** \[00:01:46\] About a month ago I got an email from a man named Justin Dorfman, and I quickly realized that his story would be perfect for this show. Justin is a developer advocate for Sticker Mule, which funnily enough, feels like a job that's taking over the world. I mean, I feel like everyone I know is dev rel these days.
+**Tim Smith:** \[01:46\] About a month ago I got an email from a man named Justin Dorfman, and I quickly realized that his story would be perfect for this show. Justin is a developer advocate for Sticker Mule, which funnily enough, feels like a job that's taking over the world. I mean, I feel like everyone I know is dev rel these days.
 
 Justin is a passionate marketer, but if you ask him, he'll tell you this isn't the job he thought he'd have. No, no, no. He was going to be a BMX superstar.
 
@@ -12,7 +12,7 @@ Marketing was always sort of something I loved, but I didn't realize it was some
 
 Let's dive into some of the more personal stuff. You talked to me about the fact that 2014 was a difficult year for you... Tell me a little bit about that.
 
-**Justin Dorfman:** \[00:04:30.04\] Yeah, sure. I have bipolar 1 disorder, so in the year 2014 I was actually at OSCON, and I was playing doctor, and I was choosing which doses of medication I would take, so I could work 12 to 18 hours a day... But when I got back from OSCON, my hypomania, which is pretty controllable -- you know, you might be talking fast here and there, but you're just spending alot of time working on things because you think they're great ideas and stuff like that, but you're actually getting them done... But that turned into full-blown mania, where you're doing psychosis, and you're seeing and hearing things that are not there.
+**Justin Dorfman:** \[04:30\] Yeah, sure. I have bipolar 1 disorder, so in the year 2014 I was actually at OSCON, and I was playing doctor, and I was choosing which doses of medication I would take, so I could work 12 to 18 hours a day... But when I got back from OSCON, my hypomania, which is pretty controllable -- you know, you might be talking fast here and there, but you're just spending alot of time working on things because you think they're great ideas and stuff like that, but you're actually getting them done... But that turned into full-blown mania, where you're doing psychosis, and you're seeing and hearing things that are not there.
 
 My hypomania turned into full-blown, acute mania. I remember I actually had a call with Adam Stacoviak, and I was talking a million words a minute, and I just remember him telling me, "Justin, I'm not following you, man...", and I heard that a lot. I was like "Okay, I need to do something about that", so I checked myself into a hospital, and I was there for close to three weeks. It was scary. There were some people in there that I was just like -- they worried me, and especially my state of mind; I was paranoid, and it was just... It was crazy.
 
@@ -24,7 +24,7 @@ My hypomania turned into full-blown, acute mania. I remember I actually had a ca
 
 **Justin Dorfman:** Yeah, like I would stop taking my medication one time, I would drink, which you're not supposed to do when you have bipolar disorder, I would smoke pot, which you're not supposed to do when you have bipolar disorder... I thought those rules didn't apply to me. I was just like, "Oh, I can handle it..." Because for years I thought I was handling it, but I really wasn't.
 
-**Break:** \[00:07:13.18\] to \[00:08:53.23\]
+**Break:** \[07:13\] to \[08:53\]
 
 **Tim Smith:** So in case you didn't know, I have anxiety disorder. What Justin said about feeling like the rules don't apply to him hit close to home for me. I feel like that all the time, and probably worse, I forget some days that I even have this, until it's too late and I'm already feeling terrible.
 
@@ -50,7 +50,7 @@ I don't wanna be one of those people that say like "I don't drink, so don't orde
 
 **Tim Smith:** Do you feel that that is a consequence of the fact that most people react badly to hearing about mental illness?
 
-**Justin Dorfman:** \[00:11:57.09\] Absolutely. It's got such a stigma on it... And even though it's been a lot better, there's been a lot more people coming out, even in our industry, there's just certain people that you know that you're like "I'm just not gonna talk to them about it, because they don't seem like -- judging by other things that they, they're not open-minded."
+**Justin Dorfman:** \[11:57\] Absolutely. It's got such a stigma on it... And even though it's been a lot better, there's been a lot more people coming out, even in our industry, there's just certain people that you know that you're like "I'm just not gonna talk to them about it, because they don't seem like -- judging by other things that they, they're not open-minded."
 
 Someone who used to be in my life years ago was convinced that it was all in my head, and I should be taking my medication, and this and that... And I just told that person, I said "Look, go break your legs and go run a mile. And if you say you can't do it, just snap out of it."
 
@@ -72,7 +72,7 @@ Some of us, and I would argue actually most of us, need therapy. That is somethi
 
 **Tim Smith:** Right. How are you feeling these days?
 
-**Justin Dorfman:** \[00:15:46.14\] I feel pretty good. I'll be honest, the knee surgery has definitely taken a lot out of me, especially with the physical therapy; that's tough, and this and that... But luckily, it hasn't really put too much of a -- look, I'm not happy about sitting on the couch at night and not being able to do physical activity. I like to do laser tag, I like to ride my bike, I like to do things... But I can't do them. So yeah, I'm sad, but I'm not depressed. Mentally, for the most part I'm fine, because I'm taking my medication, I'm staying sober, and I am doing some physical therapy or some physical activity during the therapy, and I'm doing my psychologist therapy every other week.
+**Justin Dorfman:** \[15:46\] I feel pretty good. I'll be honest, the knee surgery has definitely taken a lot out of me, especially with the physical therapy; that's tough, and this and that... But luckily, it hasn't really put too much of a -- look, I'm not happy about sitting on the couch at night and not being able to do physical activity. I like to do laser tag, I like to ride my bike, I like to do things... But I can't do them. So yeah, I'm sad, but I'm not depressed. Mentally, for the most part I'm fine, because I'm taking my medication, I'm staying sober, and I am doing some physical therapy or some physical activity during the therapy, and I'm doing my psychologist therapy every other week.
 
 So for the past four years - sure, there's been ups and downs, but nothing like they were at its worst... And that's something that I had to learn. It's like, I thought "Oh, if I take my medication, everything should be fine. That's a silver bullet." But that's the problem, there is no silver bullet.
 

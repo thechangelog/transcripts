@@ -18,7 +18,7 @@ I really enjoy reading good documentation that doesn't make me feel frustrated w
 
 **Stephanie Morillo:** Well, frankly, there's no secret sauce. You can ask anyone from Stephen King, all the way down to your sister who's writing poems in high school. It's writing more. Writing is hard, and you just have to write a lot.
 
-**Adam Stacoviak:** \[00:04:05.23\] Show up in practice.
+**Adam Stacoviak:** \[04:05\] Show up in practice.
 
 **Stephanie Morillo:** And you also have to read a lot. It's really just practice. The more you write, the better you get. The more you read, the better you write... Because when we read - and we're not necessarily aware that we do this when we read, but when we read, we notice things that work really well, or things that we like, and we start to incorporate them into our own writing style. So you'll read something and you're like "Wow, that's actually really good. I love how they did X." And then you start using X almost as a template for your own content, and then you start incorporating that into your own writing style. So the best way to get better at writing is by reading more... And just keep writing, even when you don't want to.
 
@@ -40,7 +40,7 @@ So I think that's also the benefit of reading a lot - you'll learn one new thing
 
 **Adam Stacoviak:** Me too.
 
-**Stephanie Morillo:** \[00:08:08.20\] Yeah, I'm actually glad that I didn't listen to that... Because what made me realize that we needed to go back to basics was working with developer advocates. Developer advocates at most companies are just content powerhouses. They're blogging all the time, they're writing articles all the time, they're contributing to documentation all the time, they're giving talks all the time... They're doing all of these things just at a level and a scale that most individual developers can only dream of, and it's because that is part and parcel of the role...
+**Stephanie Morillo:** \[08:08\] Yeah, I'm actually glad that I didn't listen to that... Because what made me realize that we needed to go back to basics was working with developer advocates. Developer advocates at most companies are just content powerhouses. They're blogging all the time, they're writing articles all the time, they're contributing to documentation all the time, they're giving talks all the time... They're doing all of these things just at a level and a scale that most individual developers can only dream of, and it's because that is part and parcel of the role...
 
 But when I started working with developer advocates who were (I think) much more farther along in their content production process, I realized that a lot of them didn't actually have the foundational knowledge when it came to content creation... And that's okay, because they're not content marketers. So there was no problem with that. It was more like they would hit a bump in the road and they would ask themselves "Okay, what's next?" or "How do I measure the impact of what I'm doing?" or "How does this affect something else?" ...like a company goal, or those kinds of things. And that's actually when I realized "Okay, that's incumbent on us to take a step back", and I can show you how you can put all of those systems (very foundational systems) in place, that'll help you get over that particular obstacle.
 
@@ -62,7 +62,7 @@ But it was nice for the developer advocates to have a content person that wasn't
 
 **Adam Stacoviak:** You need that.
 
-**Stephanie Morillo:** \[00:12:07.20\] You do. Frankly, there's not always an alignment or understanding between developer advocates and marketing. I think there might be some tension between both teams or not a real understanding of how both teams roll up into company goals, and then how they can help each other without it being kind of like a power struggle for who is more important than the other...
+**Stephanie Morillo:** \[12:07\] You do. Frankly, there's not always an alignment or understanding between developer advocates and marketing. I think there might be some tension between both teams or not a real understanding of how both teams roll up into company goals, and then how they can help each other without it being kind of like a power struggle for who is more important than the other...
 
 **Adam Stacoviak:** Right...
 
@@ -86,7 +86,7 @@ And secondly, I think from a -- and I know people hate this particular word, so 
 
 So I think that learning how to write better in particular, but that goes to speaking or any other form of content creation, demonstrates (I would say) one's rigor as a developer.
 
-**Break:** \[00:16:37.20\]
+**Break:** \[16:37\]
 
 **Adam Stacoviak:** So you kind of half-apologized, I suppose, for saying "personal brand" or career development. Why is that? Why do you think people - devs in particular - have this angst against this idea of personal brand?
 
@@ -98,7 +98,7 @@ So marketing in and of itself is neither good nor bad, it's really just a way of
 
 So personal brand I think tends to have a rep because it's almost like the commodification of a person, which I can completely understand... You know, when we start looking at ourselves as products or as businesses, as opposed to people and individuals. But I'm using "personal brand" simply because I don't know that there's a -- if there is a better term for it, I'm definitely open to using it, but I do think that for the most part, many of us understand what we mean when we say "personal brand", and that's why I use that term... But with the understanding that it's kind of charged.
 
-**Jerod Santo:** \[00:20:18.14\] Let me add a little amen to that. I think you're hitting on some of the right strokes. And myself as a developer - I've definitely had an adverse reaction to certain forms of marketing in my life... And I think it comes down - one facet at least - to authenticity, which is something that I value very much, and I think many developers do. And there's something about a personal brand that feels inauthentic, because it's as if you're doing something for this public face, versus something you would naturally do. And like you said, there's this ickiness there. In the past we called it reputation -- I mean, it really is about your reputation, right?
+**Jerod Santo:** \[20:18\] Let me add a little amen to that. I think you're hitting on some of the right strokes. And myself as a developer - I've definitely had an adverse reaction to certain forms of marketing in my life... And I think it comes down - one facet at least - to authenticity, which is something that I value very much, and I think many developers do. And there's something about a personal brand that feels inauthentic, because it's as if you're doing something for this public face, versus something you would naturally do. And like you said, there's this ickiness there. In the past we called it reputation -- I mean, it really is about your reputation, right?
 
 **Adam Stacoviak:** Yeah.
 
@@ -130,7 +130,7 @@ So when you're thinking about a personal brand, as you've just explained, you're
 
 **Jerod Santo:** So how do you niche down even further into that, or do you? So if I was Joe Developer, and I was thinking "Okay, I'm gonna start my blog, because I think that his is a valuable thing. I wanna give back to the community, and I also wanna establish my reputation and my personal brand as somebody who knows what they're doing." All the reasons we've discussed; I'm gonna write a technical blog. And one of the things you talk about - this mission statement idea which you have in the book, as well as what we've just started talking about, which is defining your target audience... I'm writing my blog for developers; do I niche down even further and say "This is for frontenders who live in Europe?" How demographic is it, and what are some examples of target audiences you could write for?
 
-**Stephanie Morillo:** \[00:24:11.08\] Yeah, that's actually a good point. Some people might wanna actually target it down to an exact demographic, and I think a notable example there would be a developer who is writing content not in English. Maybe they're writing in Spanish or in Brazilian Portuguese, so we know that they are interested in writing for developers in Brazil or Portugal, and that is why they're utilizing that particular language.
+**Stephanie Morillo:** \[24:11\] Yeah, that's actually a good point. Some people might wanna actually target it down to an exact demographic, and I think a notable example there would be a developer who is writing content not in English. Maybe they're writing in Spanish or in Brazilian Portuguese, so we know that they are interested in writing for developers in Brazil or Portugal, and that is why they're utilizing that particular language.
 
 **Jerod Santo:** Right.
 
@@ -150,7 +150,7 @@ If you're just like "I'm gonna write for developers", well guess what - there's 
 
 **Adam Stacoviak:** What do you feel about this then - I often hear YouTubers say this, and I often even see bloggers say this; they say "I'm creating the content that I wish was out there. The kind of content that I would wanna consume." Does that blur the lines with target audience, or does it define it better, because they can empathize with their would-be readers, so to speak?
 
-**Stephanie Morillo:** \[00:27:46.01\] For them, they probably think "Okay, I am my ideal reader or my idea viewer." But what are the attributes? You still have to fluff out what the attributes of your target reader are, just (again) so the reader becomes real in your mind... Because you're making assumptions when you create a blog post or you create a video; you're making an assumption about what people understand or what they know before they come to your blog. So if I were to say that - and I'll just turn it to myself, because it's easier to use an example... If I were saying "I'm writing the content that I wish existed out there", well, I know that I am a content person...
+**Stephanie Morillo:** \[27:46\] For them, they probably think "Okay, I am my ideal reader or my idea viewer." But what are the attributes? You still have to fluff out what the attributes of your target reader are, just (again) so the reader becomes real in your mind... Because you're making assumptions when you create a blog post or you create a video; you're making an assumption about what people understand or what they know before they come to your blog. So if I were to say that - and I'll just turn it to myself, because it's easier to use an example... If I were saying "I'm writing the content that I wish existed out there", well, I know that I am a content person...
 
 I'm very odd, in that I'm a content person who came to the dev space through engineering. I did not come through a traditional marketing path. I became interested in developer marketing through the developer track... And in all of my interactions with developers I realized that there were common misconceptions about writing or creating content, or even things that I learned as a result of working with engineers and helping them place their articles in different publications, or writing their first ever blog post for the company blog.
 
@@ -166,7 +166,7 @@ The mission statement actually came out of me working on DigitalOcean's blog, th
 
 So in that particular point in time we were publishing something like one blog post every 30-60 days, and I'm talking late 2016 into the first quarter of 2017. So when I took it over, I was convinced that the company blog could really be used as a way of getting people interested in the company. Like, "Wow, DigitalOcean is doing really awesome things. This is the kind of company I would want to work for", and also as a place to pull the curtains back and show people a little bit more about how our engineering team works and how the products were actually designed, and what some of the design decisions were... Because a lot of company blogs tend to be "Look at us! Look at this thing we did!" And those blog posts tend to perform really well. But then there are also people who are interested in actually learning more about the inner workings of the company... So that's what I started at.
 
-\[00:32:13.16\] I didn't start with a mission statement, I started with "I just need to get as much content as possible." So I was interviewing everybody under the sun; the VP of engineering, I was having conversations with multiple engineers, I convinced the brand design team to write a blog post, I convinced HR to write a blog post on remote teams... But it got to a point where we were like "Okay, that's great. Now we've increased the publishing cadence." We have more content, now we're publishing twice a month. Now we're publishing once a week. Then it got to be "Okay, but why are we doing this to begin with?"
+\[32:13\] I didn't start with a mission statement, I started with "I just need to get as much content as possible." So I was interviewing everybody under the sun; the VP of engineering, I was having conversations with multiple engineers, I convinced the brand design team to write a blog post, I convinced HR to write a blog post on remote teams... But it got to a point where we were like "Okay, that's great. Now we've increased the publishing cadence." We have more content, now we're publishing twice a month. Now we're publishing once a week. Then it got to be "Okay, but why are we doing this to begin with?"
 
 **Adam Stacoviak:** Yeah. "What's the point?"
 
@@ -210,7 +210,7 @@ So in that particular point in time we were publishing something like one blog p
 
 **Jerod Santo:** The common thing is like "Oh, I'm just working on my platform, or my blog CMS, or say that I'm at Jekyll, designing my blog", and there's one post on the blog that's like "Hey, I'm here! I relaunched! I've got a new system. I switched from a GitHub flavor markdown to my own markdown parser." So we do everything but. And I'm just curious what's your advice with regards to mission statements and audience and all this stuff which is kind of like blockers to getting going.
 
-\[00:36:17.15\] Do you advice people to just start writing and then figure these things out as they go, or is it like "Hey, we need to sit down and really consider these things before I'm gonna put that first post out there?" Because I fear many people will never get their first post out if they can't figure out who their target audience is, or they don't like their mission statement.
+\[36:17\] Do you advice people to just start writing and then figure these things out as they go, or is it like "Hey, we need to sit down and really consider these things before I'm gonna put that first post out there?" Because I fear many people will never get their first post out if they can't figure out who their target audience is, or they don't like their mission statement.
 
 **Stephanie Morillo:** I advise that they start off with figuring out their audience, their mission statement, and with actual drafting of their content before they get into figuring out what the right solution is. There is a section in the book that does touch upon different blogging solutions. Just to give people an idea, a sense of what's out there, my general advice is to choose the platform that makes the most sense for you in that it's not gonna be too time-intensive. For me, I started out with my blog -- my blog was on Jekyll, and it was hosted on DO. In the beginning it was great, but it actually grew to be extraordinarily cumbersome, and I hated having to use Git hooks and SSH into servers in order to get a typo fixed. I was like "This is not gonna work for me. I'm never gonna use this site."
 
@@ -226,7 +226,7 @@ So going from this draft process, this writing process to a publish process, do 
 
 **Stephanie Morillo:** I have not heard that necessarily be the issue for people, the drafting to publishing, only because a lot of devs tend to be very particular about their preferred workflows...But it's really about figuring out how to come up with ideas, where to store those ideas, and then how to actually sit down and start working on the drafting. I find that the actual -- with the publishing stuff, I find that that doesn't tend to be as much of an issue as the actual frontloading of everything... Like, "How do I sit down and come up with a bunch of ideas? How do I come up with a preferred cadence?" People get really excited in the beginning when they have a blog, and they have all these ideas, and you will see blog post after blog post after blog post.
 
-\[00:40:03.27\] I remember working with one developer advocate who they had a screencast going on, and they decided to publish once every three or four days. It was an aggressive cadence, but it wasn't something that was sustainable in the long-term. So you'll see that they'll kind of peter out after a few months or a few weeks, because they just went through everything that they had in the beginning, but they weren't constantly seeding the ideas, and they weren't constantly drafting something, or thinking a little bit further down the line.
+\[40:03\] I remember working with one developer advocate who they had a screencast going on, and they decided to publish once every three or four days. It was an aggressive cadence, but it wasn't something that was sustainable in the long-term. So you'll see that they'll kind of peter out after a few months or a few weeks, because they just went through everything that they had in the beginning, but they weren't constantly seeding the ideas, and they weren't constantly drafting something, or thinking a little bit further down the line.
 
 It's really about looking at content as a process like any other process. Think about the engineering process, use that as a particular metaphor if that really helps you. If you think about things in Sprint - I work on an Agile team, so we use Sprint a lot. If you think about how you break down each aspect of the task that you're working on... The same thing goes for content; you have to come up with the idea, then you have to decide "Okay, what are the prerequisites? What's the requisite knowledge that people need in order for them to start working on my post? What are the key takeaways for my readers?" and then there's nothing magical about outlining. If you like to work on bullet points, you can; if you wanna use sticky notes, you can also do that... But the point is actually breaking down content.
 
@@ -234,7 +234,7 @@ I don't know if this is the same for y'all, but I've definitely heard from devel
 
 A lot of people don't realize that you can and should write without this source of inspiration or motivation to drive you forward. They also don't realize that you don't have to come up with what you consider to be the most awesome idea ever. There's a lot of knowledge that you have, a lot of foundational knowledge that people are actually interested in... And you can actually reuse a lot of the stuff you have. But again, because people don't have the vocabulary really to start thinking about content as a production process, I think that is really what is inhibiting people from actually getting started.
 
-**Break:** \[00:42:37.05\]
+**Break:** \[42:37\]
 
 **Jerod Santo:** So content is king, or queen, depending on how you look at it, as we've just been discussing... And it's also the hardest part, right? Whether it's getting the idea or putting the pen to the paper, or they keyboard to the text editor, or whatever it happens to be, that's where most of us fail or struggle or strive, at least. It's the 99% perspiration that sometimes produces a blog post, otherwise it produces a really rich drafts folder that never sees the light of day. So help us with content creation... What are good ideas? What's a great premise for a blog post or a piece of content, and how do you just keep churning those out or coming up with them? What are your advice on that?
 
@@ -248,7 +248,7 @@ Something that you did on the job in the past, or an open source project that yo
 
 The third way of generating an idea is trying to figure out what people need. Chances are we check out Stack Overflow, or even Twitter. If you're there and you're engaging with developers in a particular forum, and people say "Hey, I have issues or problems or trouble with one particular thing", chances are there's probably not enough content to explain how that particular thing works... So you can write the blog post, or the screencast or what have you, that presents the solution to that particular problem. So pay attention to the things that people need.
 
-\[00:46:17.26\] And then the fourth way of generating ideas is to write down a list of things that you actually wanna learn about. I find that there's a lot of value about writing about your learning process. When I started blogging - I started blogging back in 2012, when I started learning how to program. My mentor suggested "You should keep a blog just for yourself, where after every lesson you kind of rehash what we've discussed, you share some of your personal thoughts about it, and you're kind of like re-teaching yourself the concept, you're explaining it to yourself, just so you can gauge your level of understanding or where the gaps are." It's actually really valuable for a lot of people to use writing in that particular fashion.
+\[46:17\] And then the fourth way of generating ideas is to write down a list of things that you actually wanna learn about. I find that there's a lot of value about writing about your learning process. When I started blogging - I started blogging back in 2012, when I started learning how to program. My mentor suggested "You should keep a blog just for yourself, where after every lesson you kind of rehash what we've discussed, you share some of your personal thoughts about it, and you're kind of like re-teaching yourself the concept, you're explaining it to yourself, just so you can gauge your level of understanding or where the gaps are." It's actually really valuable for a lot of people to use writing in that particular fashion.
 
 So if you learned how to build a blog with Gatsby or whatever, hey, why don't you write about it just as a way of showing people your learning process and your thinking process? There's a lot of value in writing about the things that you really like to.
 
@@ -268,7 +268,7 @@ I actually have a blog post on my blog, way back from 2013, and the hero image (
 
 He kind of like sketched out what MVC is on a piece of paper, and then helped me troubleshoot the machine, and then by the end of the post I'm like "Okay, I'm a little bit calm now, so let me get my app started again, and we'll get back into it." Those things are valuable, because it's important for people to feel like they're not the only ones -- technology unfortunately has the effect of making us feel like we're the dumb ones, as opposed to...
 
-\[00:50:09.05\] We're dealing with something that is hard, and something that is imperfect; it's not us that's broken, really, it's just that we've come up with imperfect solutions to problems that are really complex, and as a result they're kind of difficult to grasp... And that's not on any one person. So I love those kinds of blog posts, I think they're great.
+\[50:09\] We're dealing with something that is hard, and something that is imperfect; it's not us that's broken, really, it's just that we've come up with imperfect solutions to problems that are really complex, and as a result they're kind of difficult to grasp... And that's not on any one person. So I love those kinds of blog posts, I think they're great.
 
 **Adam Stacoviak:** It shows the humanity, right?
 
@@ -296,7 +296,7 @@ This is a pet peeve of mine with conference talks - when people are asking for y
 
 **Adam Stacoviak:** The big idea.
 
-**Stephanie Morillo:** \[00:53:55.24\] Yeah, you have all of this information that can be used in a medium that will make it more accessible and broader to people. Not everyone reads blog posts, which is why short tweets, like 30 seconds of video, short podcasts, long podcasts etc. That's why the different mediums cater to different people. But I think when you repurpose your content for different mediums, you're broadening your reach.
+**Stephanie Morillo:** \[53:55\] Yeah, you have all of this information that can be used in a medium that will make it more accessible and broader to people. Not everyone reads blog posts, which is why short tweets, like 30 seconds of video, short podcasts, long podcasts etc. That's why the different mediums cater to different people. But I think when you repurpose your content for different mediums, you're broadening your reach.
 
 **Adam Stacoviak:** Absolutely.
 
@@ -314,7 +314,7 @@ And I'll say, how often have I found a great talk because they blogged about the
 
 But in this particular case, maybe Jerod posts some bloopers on Instagram, with some funny audio. He does the same on Twitter, so that people are like "Whoa, that's actually really cool." Or like "Check out these tips that Stephanie gave the Changelog crew, a.k.a. the founders of a media empire", which will then tell people "Okay, well, you know... If she can do this for them, maybe she could do something for me", right? \[laughter\]
 
-\[00:58:06.21\] You tease the interesting things out, the interesting quotes, the 90-second clips, to give people a little bit of color. 90 seconds is great, because you can listen to that at work even, during your lunch break, and say "Okay, I'm gonna bookmark this so I can listen to it later."
+\[58:06\] You tease the interesting things out, the interesting quotes, the 90-second clips, to give people a little bit of color. 90 seconds is great, because you can listen to that at work even, during your lunch break, and say "Okay, I'm gonna bookmark this so I can listen to it later."
 
 I think what's important is that developers are clear about what the takeaways are for the reader. Why should the reader or the listener actually care about this? We know that you as the creator care about it, but why should I care about this podcast? What is it gonna do for me? And once you answer the "What is it gonna do for me?", you put that out there.
 

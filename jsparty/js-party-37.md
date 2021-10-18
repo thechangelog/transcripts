@@ -24,7 +24,7 @@ We're also joined by Chris Hiller... Chris, we got to meet out in Portland at OS
 
 **Jerod Santo:** You kicked off just by saying, "Hi, I'm Jeff, and I'm an engineering manager at NpmJS, and I'd like to talk a little bit about open source humans and general empathy." Now, this caught my eye, and a few people backed me up in our chat, saying "Yes, this would be great to talk about." So that kicked it off, but before we get into the content of that thread, we would like to learn kind of the motivation behind it - what prompted you to say "Okay, I need to go out on Twitter and vent", or make a statement about these things, which are very real and concerning topics for all of us. What prompted this?
 
-**Jeff Lembeck:** \[00:04:15.06\] Wildly enough, you'd think that that would be the start of some epic subtweet...
+**Jeff Lembeck:** \[04:15\] Wildly enough, you'd think that that would be the start of some epic subtweet...
 
 **Jerod Santo:** Exactly.
 
@@ -42,7 +42,7 @@ Let me just start by saying that Npm Inc., Npm the command line tool, Npm the re
 
 So these are all things that are very new to us, so I think very worth talking about and try to sort through together. As engineering manager, what's your role there and how does it get to be where you were, first of all, one who was feeling this way, and had your head down at the end of the day...? And then secondly, I guess maybe the empowerment or the freedom to even just go to Twitter and maybe represent Npm as a company, or as being Jeff - you know, those lines are hard to draw... But first of all, as engineering manager, what's your role and how were you seeing things that brought you to this conclusion?
 
-**Jeff Lembeck:** \[00:08:02.12\] Management - just to start there - is a purely people position. Well, 85% people position. There's some coding, but it's mostly a people position, so it is effectively talking with and planning and working with people that are on my teams... The people that I happen to manage just put me in this spot a little bit more, because I manage the application engineering group, and that means everything that is public-facing - our website, the CLI... Anybody who works on those, that's my team... And therefore, most people don't necessarily outwardly curse or have critique of our infrastructure for example, because they don't see it, they don't necessarily know... But they can see a big ol' error notification in their face.
+**Jeff Lembeck:** \[08:02\] Management - just to start there - is a purely people position. Well, 85% people position. There's some coding, but it's mostly a people position, so it is effectively talking with and planning and working with people that are on my teams... The people that I happen to manage just put me in this spot a little bit more, because I manage the application engineering group, and that means everything that is public-facing - our website, the CLI... Anybody who works on those, that's my team... And therefore, most people don't necessarily outwardly curse or have critique of our infrastructure for example, because they don't see it, they don't necessarily know... But they can see a big ol' error notification in their face.
 
 So I happen to get a lot of the conversation that comes through with that, and the application engineering team also happens to handle quite a bit of the community response, too... So the tweets that come in that aren't directed toward our support, where people are just asking "Hey, why isn't this working?", frequently, those questions are answered by, say, Kat or Rebecca, if they're CLI problems etc. So that's how I end up being in the position of seeing this stuff as it comes in quite a bit.
 
@@ -54,19 +54,19 @@ So these are things that are happening -- is this like a daily basis inside Npm?
 
 **Jeff Lembeck:** I wouldn't say daily for that stuff, but it's common. There have been some pretty big campaigns in the past, and they've been pretty bad. I have not been the direct target of quite a few of them, as much as I've been on the team that also received it... But these things happen.
 
-\[00:12:04.28\] There's always the interesting, creative ones. I still laugh about one that was -- and I'm going to edit myself here, because somebody did a wonderful job of sending us... They spoofed an email address... So that's from \[fill in the expletive\] f@u.com, and then the subject was just F U. And that was that. \[laughs\] And it was like "I applaud your work... The work ethic you have in order to do something like that." That's intense.
+\[12:04\] There's always the interesting, creative ones. I still laugh about one that was -- and I'm going to edit myself here, because somebody did a wonderful job of sending us... They spoofed an email address... So that's from \[fill in the expletive\] f@u.com, and then the subject was just F U. And that was that. \[laughs\] And it was like "I applaud your work... The work ethic you have in order to do something like that." That's intense.
 
 **Jerod Santo:** A lot of effort.
 
 **Jeff Lembeck:** So much effort, for so little gain... But things like that, they pile up pretty quickly. I ran SeattleJS for a while, for quite some time, and there gets to be a point where going out into JS-related events, going to conferences etc. I already know what questions are gonna be asked here that are gonna be trolly. Someone's gonna walk up and do it at some point, and they're gonna hope for a soundbite out of me... And that gets tiring. I've never had to deal with that at a job before, but alas that happens here. Public-facing is public-facing.
 
-**Break:** \[00:13:55.08\]
+**Break:** \[13:55\]
 
 **Christopher Hiller:** So I've kind of been working in Node for a while, long enough to see Npm from kind of a project and become a company... And I've noticed over this time Npm, whether that's the CLI, whether that's whoever makes decisions at the registry - it's just a huge target for abuse from the community... And many frustrations, whether or not Npm really has much to do with it at all, seem to get directed at Npm.
 
 This is just my perspective as an outsider, and maybe you have a different perspective, but why do you think that is? What is it about Npm that makes it catch all this heat from people?
 
-**Jeff Lembeck:** \[00:16:21.07\] There's gonna be a few things that go into this... First and foremost, while I actually believe that this is a small subset of people that get frustrated or upset, they're a loud subset... But there are trolls; those do exist. Trolls are gonna troll. I can't even -- I'm almost not interested to find out why someone would do that; that is who they are, and they've decided to do that. But on the other end of things, there are a lot of people who get upset at Npm.
+**Jeff Lembeck:** \[16:21\] There's gonna be a few things that go into this... First and foremost, while I actually believe that this is a small subset of people that get frustrated or upset, they're a loud subset... But there are trolls; those do exist. Trolls are gonna troll. I can't even -- I'm almost not interested to find out why someone would do that; that is who they are, and they've decided to do that. But on the other end of things, there are a lot of people who get upset at Npm.
 
 I used to work with Forest, and Forest said something to me at one time, when I asked him how he dealt with complaints about things like this... For people that expect things to just work, technology is something that's just happening to them; and Npm is -- I'll pat myself on the back for this, even though I don't... I'll pat my team, I'll pat a bunch of people on the back about this kind of stuff - like, Npm just works, so frequently that people forget. They just forget. A lot of people don't even know it's a company. They're just like, "Yeah, this is a thing... It's just here. I type and it does the thing that I need it to do while I have JavaScript."
 
@@ -78,7 +78,7 @@ If you have something big, and drawing of that much attention -- you rarely noti
 
 It's amazing what a group of people on Twitter or an Orange website will do once validated feeling about these things. Maybe they don't intend to. I mean, I certainly don't... People made something, it had a bug in it, it got released; maybe it wrecked a half of a person's day... I feel bad that that happened to them, and rightfully so they're mad about it.
 
-\[00:20:16.09\] I guess my thought process, even when writing the tweets, was like "Yeah, people get mad. They sometimes should." How you add once you're there though is the way that we need to get a little bit of a hold of on ourselves as a community.
+\[20:16\] I guess my thought process, even when writing the tweets, was like "Yeah, people get mad. They sometimes should." How you add once you're there though is the way that we need to get a little bit of a hold of on ourselves as a community.
 
 Npm gets a lot of vitriol because of 11 million users, so there's gonna be...
 
@@ -94,7 +94,7 @@ We have a user base that is big enough to maybe take that on, or to create that 
 
 **Nick Nisi:** So when you interact with somebody at that company, you have a much bigger -- influence isn't the right word, but you have a much bigger audience with the company on average... So you're able to do that, and you're able to put people's GitHub handles to problems as they're responding and trying to help you with that, and I think that that can cause some of that - not that it should, but it definitely can.
 
-\[00:24:01.02\] But I do like also in your thread that you did provide those numbers, like 37 employees (I think 17 in engineering) that are working on that, and I think that that really does help humanize the company, because Npm is something that if you use Node, you use it whether you're using the CLI, or the registry, you're using Npm in a lot of ways and I think that it's good to know that it's just 37 people that have a huge influence over JavaScript.
+\[24:01\] But I do like also in your thread that you did provide those numbers, like 37 employees (I think 17 in engineering) that are working on that, and I think that that really does help humanize the company, because Npm is something that if you use Node, you use it whether you're using the CLI, or the registry, you're using Npm in a lot of ways and I think that it's good to know that it's just 37 people that have a huge influence over JavaScript.
 
 **Jeff Lembeck:** Yeah, it's pretty exciting to be part of the 37... But yeah. Before working at Npm -- there were 10 people when I started, and it was an interesting thing to walk in and go "Whoa...! Wait, the office is very small."
 
@@ -114,7 +114,7 @@ I can't speak highly enough of some of the service that we use that allows us to
 
 **Jerod Santo:** It's a double-edged sword, or I guess it's a gift and a curse more than a double-edged sword, where on one hand you have such a small amount of people who are then taking the brunt of support, and sometimes that support is thoughtful and normal, and other times it's vitriolic and hateful... So that's what we're here -- a lot of what you were talking about is the fact that it's humans behind this, it's people... And a lot of times, especially on the internet -- the layer of abstraction of the internet gives us sometimes an unfortunate freedom to pile on and to think about things in an abstract, non-human way... So that's what you're pointing out.
 
-\[00:28:25.00\] On the one hand you have that, but on the other hand - this is now quoting you back to yourself, which is one of my favorite things to do - you said "Knowing that every day I can make a difference in the lives of millions of people is wild, it's motivating, it keeps me going. We build products that make life a lot easier for development than it used to be, and we give away a lot of it for free." So it's not all bad.
+\[28:25\] On the one hand you have that, but on the other hand - this is now quoting you back to yourself, which is one of my favorite things to do - you said "Knowing that every day I can make a difference in the lives of millions of people is wild, it's motivating, it keeps me going. We build products that make life a lot easier for development than it used to be, and we give away a lot of it for free." So it's not all bad.
 
 **Jeff Lembeck:** Yeah, it's very motivating, it's very awesome to be able to just -- going to speak at conferences as frequently as I can, and one of the reasons I do that is because being of being able to get off the internet and get face-to-face with people that use these things, and talk about these things... It's such a fantastic moment of going, "Alright, you know what? Overall people are psyched. They like to do what they do, and at times we same hundreds of hours off of their lives." That made last week, where I got mad about -- or I just sat there, saying "Don't respond to that person on Reddit. Close the window" all worth it.
 
@@ -126,7 +126,7 @@ And I was like, "You could send pull requests, and stuff like that. Maybe it's n
 
 **Christopher Hiller:** Yeah, I would assume so...
 
-**Jeff Lembeck:** \[00:31:48.26\] I mean, from my perspective... I get it, I definitely do; I understand that viewpoint pretty well. I've got some not so secret opinions about people making a lot of money off of open source, without paying out for it. That's definitely a thing that happens on a pretty large scale. So if somebody goes, "Okay, well I don't want to contribute to the product because I don't want to put in any free labor here", I firmly understand that. That is a completely valid, and not just valid, but strong -- there's a good argument to be made there.
+**Jeff Lembeck:** \[31:48\] I mean, from my perspective... I get it, I definitely do; I understand that viewpoint pretty well. I've got some not so secret opinions about people making a lot of money off of open source, without paying out for it. That's definitely a thing that happens on a pretty large scale. So if somebody goes, "Okay, well I don't want to contribute to the product because I don't want to put in any free labor here", I firmly understand that. That is a completely valid, and not just valid, but strong -- there's a good argument to be made there.
 
 On the other hand, if somebody has a complaint, there are viable channels to go through. If this is the thing that they want... Say you have a bug in the CLI, or on the website, or whatever, we have a whole Discourse Npm community that you can go to, and people frequently search for it to see if it's happened before, and then post. And that thing gets triaged on the regular by people who either visit the site themselves and have had the same problems and can talk things out with people, or by the Npm team members themselves.
 
@@ -136,7 +136,7 @@ So there is some validity to that, but I think that there are channels beyond ge
 
 I don't even remember 99% of the people that I've muted, which is terrible... You're sitting there and you're going, "Ugh... God, this is wasting my time, and my energy, and... MUTE." Back in the day, just block... Because you don't wanna spend time with it, but it's sad that our level of discourse with one another has gotten to the point where it's like "I've gotta a megaphone and I'm gonna yell in a direction, and then hope that other people hear it and yell back." It gets frustrating.
 
-**Nick Nisi:** \[00:35:57.22\] That might be something good to point out, is that when those things occur and when you feel the need to yell at someone on Twitter or yell about some big problem, that might be cathartic for you at the time, but the person or project that you're yelling to probably won't remember it, and it can have lasting implications when it comes to having people burn out on that project and others, so... Yeah, definitely there's better ways to go about that.
+**Nick Nisi:** \[35:57\] That might be something good to point out, is that when those things occur and when you feel the need to yell at someone on Twitter or yell about some big problem, that might be cathartic for you at the time, but the person or project that you're yelling to probably won't remember it, and it can have lasting implications when it comes to having people burn out on that project and others, so... Yeah, definitely there's better ways to go about that.
 
 **Jeff Lembeck:** That's an excellent way to put that.
 
@@ -176,7 +176,7 @@ And I might live longer, be stronger, be able to throw my kid in the air higher.
 
 **Christopher Hiller:** You can also take out your frustrations on the Slack Bot...
 
-**Jeff Lembeck:** \[00:40:08.13\] I actually do that daily. I have little conversations with myself in there all the time. I'm just planning things, so I can get thoughts out before I have to actually express them to other humans. It's like rubber ducking, except in writing form.
+**Jeff Lembeck:** \[40:08\] I actually do that daily. I have little conversations with myself in there all the time. I'm just planning things, so I can get thoughts out before I have to actually express them to other humans. It's like rubber ducking, except in writing form.
 
 **Jerod Santo:** Yeah, I like it. Well, let's wrap up this part of the conversation here. One of the things that I thought was funny about this thread is that you opened it up by saying you wanna talk about open source humans and general empathy, and then the majority of the thread was very Npm-specific. At the very end there you're like "Wait a sec, I didn't get general at all", and then you do get general at the end.
 
@@ -190,13 +190,13 @@ As this thread pointed out and as Laurie kind of pointed out in this talk at NEJ
 
 **Jeff Lembeck:** It's awesome, thank you.
 
-**Break:** \[00:43:01.11\]
+**Break:** \[43:01\]
 
 **Jerod Santo:** Alright, next up we have a fun little segment called "I'm excited about X", where X is literally anything... So we're all going to share just something that has us all excited, and hopefully we'll get you listeners excited as well; something that you can find interesting or check out.
 
 Chris, what are you excited about?
 
-**Christopher Hiller:** \[00:43:55.14\] So in the past weeks or so there's a pull request into Node.js by Ben Coe, who Jeff may know... He works at Npm, he also maintains stuff like Yargs, and Istanbul, and Nyc... Anyway, he made a pull request in Node that adds support for mkdir -p or recursive mkdir in the FS module. I'm excited to see that become part of Node core, because that is some really commonly used functionality that in my opinion just kind of needs to be in there. Thank you, Ben, for the implementation.
+**Christopher Hiller:** \[43:55\] So in the past weeks or so there's a pull request into Node.js by Ben Coe, who Jeff may know... He works at Npm, he also maintains stuff like Yargs, and Istanbul, and Nyc... Anyway, he made a pull request in Node that adds support for mkdir -p or recursive mkdir in the FS module. I'm excited to see that become part of Node core, because that is some really commonly used functionality that in my opinion just kind of needs to be in there. Thank you, Ben, for the implementation.
 
 **Jerod Santo:** Excellent. Let's hop to the chat room. In the chat we have some people listening live and they've been participating in this conversation... The listener Mark is excited about Fusion.js. Fusion.js is a plugin-based universal web framework coming out of the Uber engineering team.
 
@@ -216,7 +216,7 @@ So Marco Arment of Overcast has put a little bit of thoughtfulness into his feed
 
 That gets me excited, because it's just a little bit of insight into who's subscribing to us on Overcast that we would have had before, and it's not obtrusive to the users, and it's not like leaking information about them, but as podcasters, it lets us know that "Hey, at least on Overcast, you have this many people subscribed", and that's useful, because we can actually track subscriber growth over time.
 
-\[00:48:10.24\] So I'm very excited about that, and I'm actually writing a blog post right now, an open call to all other podcast clients who have their own feed crawlers to follow Marco's example and put those subscriber counts into their crawlers, so that we can pull that out and have a little bit of more information.
+\[48:10\] So I'm very excited about that, and I'm actually writing a blog post right now, an open call to all other podcast clients who have their own feed crawlers to follow Marco's example and put those subscriber counts into their crawlers, so that we can pull that out and have a little bit of more information.
 
 Very thoughtful. I'm glad he thought of it, because I wouldn't have. And I'm glad I've found it, just looking at our logs, and we can get that subscriber count. That's pretty cool.
 
@@ -230,7 +230,7 @@ It's changed the way that we work and cut several hours from time. Our GitHub is
 
 GitHub uses Discourse actually for Electron, which was a really big tell for us... \[laughter\] Like, "Oh, alright! This is a really good sell." And yeah, it's awesome. I firmly recommend it if you are in the business of creating some sort of form-related thing for where you need to capture data on how people interact. It's almost perfect for this exact use case.
 
-**Jerod Santo:** \[00:51:11.04\] Very cool. I love finding solutions that are perfect, or very helpful like that... Especially when you've been living in ones that are subpar for your specific use case... So that's spectacular.
+**Jerod Santo:** \[51:11\] Very cool. I love finding solutions that are perfect, or very helpful like that... Especially when you've been living in ones that are subpar for your specific use case... So that's spectacular.
 
 That's it, those are the things that we are excited about. Links in the show notes; if you have your podcast app, just click to the notes, find the links if you're interested in those things... If you're listening abroad, or on the web, that's Changelog.com/jsparty/37 is where you'll find those notes.
 

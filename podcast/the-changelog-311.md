@@ -18,7 +18,7 @@ Service mesh I think of as the third layer of this new platform that we're build
 
 About two years ago at KubeCon I was talking with some of my counterparts at Google and came to realize that we were solving similar problems and we kind of viewed the microservice management space in a similar way.
 
-\[00:06:51.17\] We got together, had some drinks and chatted about the space, and decided "You know, we actually see the world the same way... Maybe we should join forces and combine some of the work that we're doing."
+\[06:51\] We got together, had some drinks and chatted about the space, and decided "You know, we actually see the world the same way... Maybe we should join forces and combine some of the work that we're doing."
 
 At the time, Google was really focused more on security and telemetry, or kind of how do you get visibility of the traffic between different services... So we decided to join forces, we combined our technologies together and we created the Istio project. We kind of worked on it, you know, not in secret, but largely just the two of us, along with the guys at Lyft, who contributed one of the key technology components to Istio, until about May of last year, when we launched the project.
 
@@ -36,7 +36,7 @@ The second key thing Istio is trying to do is security... And this is actually t
 
 That model doesn't work very well in the era of public cloud and in the era of very distributed architectures, where maybe part of your app is running on IBM Cloud, and a part is running in a data center, and parts are running on Amazon... You don't have one network that spans all of that, so with Istio what we tried to do is say "Can we move all of that security up closer to the application? ..so it's not defined in terms of the network, but is defined in terms of the application itself", and automatically set up secure connections between services, and allow you to specify policies about who can talk to who, but independent of the network. That's turning out to be incredibly powerful for a lot of the early users of Istio, because it gives them a different way to secure their applications.
 
-\[00:10:34.21\] Then the final thing that Istio was after was observability or telemetry - how do you actually see what's going on? One of my favorite case studies in the microservices space was some material I read around the Gilt Groupe (online shopping) site. They're not a customer of mine, they're not an IBM Cloud customer, they're just people who have talked about their own journey to transform to a microservices architecture... And the kind of tidbit that always stood out to me with them is, you know, their original architecture was a very classical kind of web and database application.
+\[10:34\] Then the final thing that Istio was after was observability or telemetry - how do you actually see what's going on? One of my favorite case studies in the microservices space was some material I read around the Gilt Groupe (online shopping) site. They're not a customer of mine, they're not an IBM Cloud customer, they're just people who have talked about their own journey to transform to a microservices architecture... And the kind of tidbit that always stood out to me with them is, you know, their original architecture was a very classical kind of web and database application.
 
 You know, maybe there were ten instances running in a cluster to handle the load, a single monolithic app... And over a period of years, they refactored that into a bunch of microservices, and when they got done, they had like -- I forget the exact number... It was like 300 or 400 microservices; each of those microservices, you have to imagine, there's probably at least 3 instances running, so you go from running like 10 things to running 1,200 things, right? So you have this much more complex environment to manage... How the heck do you actually see what's going on? If there's a performance problem, where does it exist, where are the bottlenecks?
 
@@ -62,7 +62,7 @@ In the data plane there is a key component called Envoy. Envoy is another open s
 
 Envoy is basically a small C++ implemented layer 4-7 proxy or router. It handles all the traffic; it can do load balancing, it can do circuit-breaking, it knows about all the different protocols, and essentially what Istio does is run an instance of Envoy next to every single instance of every service in your applications. That's what it's called a sidecar - it kind of sits right next to your app.
 
-\[00:15:18.09\] So if you wrote an app in Node.js, right next to that app would be an instance of Envoy... And Envoy captures all the traffic. Now, when you run this on top of something like Kubernetes, we can do all that for you. We can automatically inject Envoy into your application without you doing anything. We can set up Kubernetes so every time you run your containers, we automatically insert this extra container that has Envoy in it, and then we redirect all the networking through things like iptables, to say "All inbound/outbound traffic for this container goes through this Envoy thing." So it can become super-transparent. It's awesome in Kubernetes, because literally, you can just turn it on and off like a switch on individual namespaces or applications.
+\[15:18\] So if you wrote an app in Node.js, right next to that app would be an instance of Envoy... And Envoy captures all the traffic. Now, when you run this on top of something like Kubernetes, we can do all that for you. We can automatically inject Envoy into your application without you doing anything. We can set up Kubernetes so every time you run your containers, we automatically insert this extra container that has Envoy in it, and then we redirect all the networking through things like iptables, to say "All inbound/outbound traffic for this container goes through this Envoy thing." So it can become super-transparent. It's awesome in Kubernetes, because literally, you can just turn it on and off like a switch on individual namespaces or applications.
 
 If you run Istio somewhere else, like in a VM, you might have to do a little bit of configuration to configure essentially iptables, normally, in your host operating system to redirect the traffic... But that's kind of a one-time thing you do to force the traffic to flow through Envoy, both directions.
 
@@ -78,7 +78,7 @@ Aaron Patterson, who's kind of a Ruby core developer, had a great tweet a while 
 
 **Jason McGee:** Yeah, it's actually a tough question, because it depends on technology factors and a lot of people dynamics. Let's take the microservice part of it first, and then the Istio part second.
 
-\[00:18:46.07\] For me, microservices is fundamentally about people and teams, and like how you organize a team of people and how you organize an application to have independent parts... And how big each microservice is or how many of them you have varies a lot. I don't actually think there's some magical size of code or something that makes it a microservice. I think it really comes down to microservices are useful if you have a high rate of change... If you are working on something that's changing a lot, and you need to be able to rapidly deliver, microservices is a good approach.
+\[18:46\] For me, microservices is fundamentally about people and teams, and like how you organize a team of people and how you organize an application to have independent parts... And how big each microservice is or how many of them you have varies a lot. I don't actually think there's some magical size of code or something that makes it a microservice. I think it really comes down to microservices are useful if you have a high rate of change... If you are working on something that's changing a lot, and you need to be able to rapidly deliver, microservices is a good approach.
 
 In fact, I always think that microservices makes this explicit tradeoff - you're trading off more operational complexity in exchange for faster velocity.
 
@@ -104,7 +104,7 @@ One of the things we've tried to do in the Istio project is make Istio very incr
 
 The sidecar thing actually helps a lot with that, because you didn't have to change your app to do it... So you literally can decide one day to turn on Istio on one of your services and we'll inject the sidecars and it'll start doing new things and you didn't have to change anything about your app.
 
-**Jerod Santo:** \[00:22:53.11\] So it sounds like even in the small, if you have microservices, there's value there... But know that you don't necessarily have to adopt all that Istio has to offer. I think then the deciding factor would still become the cost of operational complexity, or moving parts, versus the value provided by observability or whatever specific features that you're looking for... And then is there an operationally cheaper way of accomplishing similar means? I guess that would probably be the cost-benefit analysis there when you have a small amount.
+**Jerod Santo:** \[22:53\] So it sounds like even in the small, if you have microservices, there's value there... But know that you don't necessarily have to adopt all that Istio has to offer. I think then the deciding factor would still become the cost of operational complexity, or moving parts, versus the value provided by observability or whatever specific features that you're looking for... And then is there an operationally cheaper way of accomplishing similar means? I guess that would probably be the cost-benefit analysis there when you have a small amount.
 
 **Jason McGee:** Yeah, I think that's a good way to look at it. I think that's actually one of the real challenges, if you will, in the container ecosystem today... Have you guys ever seen the -- the Cloud Native Computing Foundation maintains this landscape chart...
 
@@ -128,7 +128,7 @@ In IBM's case, our intention is to build Istio into our Kubernetes environment..
 
 I think that's what's gonna happen in the industry in general; you're starting to see people adopt platforms. They're either using a public cloud platform, and that public cloud combines a bunch of the capabilities in that crazy picture, with all the icons, or they're using a software distribution that kind of combines some of those pieces together... So you kind of defer that work to the platform provider to do the integration for you.
 
-**Break:** \[00:26:17.02\]
+**Break:** \[26:17\]
 
 **Jerod Santo:** Jason, we are on the cncf/landscape GitHub repo here, where some of these images that you referenced earlier are sitting... So listeners, if you'd like to look at these images, they are informative and a bit overwhelming; definitely check out our show notes, they're right there for you... Or if you are at your computer, just got to GitHub.com/cncf/landscape and there you have it. There's a trail map and then there's the current version of the landscape, which is what you're talking about, which has all of the different icons or avatars there.
 
@@ -148,7 +148,7 @@ The journey to 1.0, kind of as I alluded to, is a two-year journey to bring all 
 
 CNCF is an interesting foundation, because it's not trying to pick winners and losers... So you will often see what are essentially competing technologies live within the umbrella of CNCF. In the container world we have both containerd and Rkt. In service mesh space we have Linkerd, and there's a related project called Conduit, which is really an alternative to Istio that exists underneath CNCF. That's cool, that's fine... This is a community of people kind of building out the best technologies to solve these problems, so Istio will slot in there in the coming months.
 
-**Adam Stacoviak:** \[00:31:08.23\] I thought that Conduit was folded into Linkerd, at least version 2.0.
+**Adam Stacoviak:** \[31:08\] I thought that Conduit was folded into Linkerd, at least version 2.0.
 
 **Jason McGee:** Yeah, that might be true. It's hard to...
 
@@ -178,7 +178,7 @@ You know, higher up the stack of stuff that's here in CNCF - yeah, it may take a
 
 All of these companies are exploding because we have this level of access and control over the environment that just wasn't possible before... So I think we'll see that diversity for a long time. I think for the next -- it's hard for me personally to look much more than three or four years out in this space, but certainly over that time period I think the core diversity will still be there. I think the bottom layers are settling out...
 
-\[00:34:37.07\] I think what also tends to happen is you look at -- there's different personalities of how people adopt technology, and for the bulk of the market, for most companies - certainly here at IBM I spend a lot of my time talking about larger enterprise customers... They're gonna look for a partner that helps them assemble these pieces... And public cloud is one form of that, where we -- either it's IBM, or Azure, or Microsoft, Google, we're all kind of delivering a cross-section of this whole picture as a service on our clouds... So that's one way to deal with the diversity - you have a platform provider who does it for you.
+\[34:37\] I think what also tends to happen is you look at -- there's different personalities of how people adopt technology, and for the bulk of the market, for most companies - certainly here at IBM I spend a lot of my time talking about larger enterprise customers... They're gonna look for a partner that helps them assemble these pieces... And public cloud is one form of that, where we -- either it's IBM, or Azure, or Microsoft, Google, we're all kind of delivering a cross-section of this whole picture as a service on our clouds... So that's one way to deal with the diversity - you have a platform provider who does it for you.
 
 I think the same thing happens on the kind of software distribution side. Most people won't do "choose your own adventure", most people will pick a partner who can pull some of these pieces together for them.
 
@@ -218,7 +218,7 @@ Istio is interesting too, I think... I always try to look at like -- look, I've 
 
 **Jerod Santo:** Yes.
 
-**Jason McGee:** \[00:38:46.25\] We're not solving -- maybe with the exception of machine learning and AI, to a large extent we're not solving fundamentally different problems; we're just solving them in better, more efficient ways... So you've gotta look at a technology like Istio and go like "Why now?" Why was this approach possible now? And I look at it and I go, okay, to me there's like two factors. One is the adoption of new approaches like microservices that's generating a need. We now have these very distributed systems that are made up of lots and lots of components, so you need something like an Istio to help you manage that.
+**Jason McGee:** \[38:46\] We're not solving -- maybe with the exception of machine learning and AI, to a large extent we're not solving fundamentally different problems; we're just solving them in better, more efficient ways... So you've gotta look at a technology like Istio and go like "Why now?" Why was this approach possible now? And I look at it and I go, okay, to me there's like two factors. One is the adoption of new approaches like microservices that's generating a need. We now have these very distributed systems that are made up of lots and lots of components, so you need something like an Istio to help you manage that.
 
 And then the second component is the approach... Like, "Let's run 1,200 independent proxies to route all the traffic" would have been a ludicrous thing to do five years ago if that meant "Do all that yourself", like install them all yourself, configure them all yourself... So the fact that we all agreed on containers and Kubernetes and the capabilities at that base platform, right, it made it feasible, maybe combine that with public cloud, which kind of brings as a service an infrastructure into the picture, it makes it feasible to run an architecture like that. So you have a need, and you have a technology foundation that we've built up that makes it possible to take that approach. Istio kind of falls into that gap in a really nice way.
 
@@ -234,7 +234,7 @@ I think on some level that's a little bit the untold story of Kubernetes - most 
 
 It's really interesting to watch how as we introduce these new technologies, you're able to build on the momentum of the layer below in a pretty interesting way... Whereas in the past we would have had to build all that infrastructure out again, and you'd solve all the same problems, like "How do we protect the Istio APIs? How do you control access? How do you run it and scale it?", but all that is already solved, so we're just leveraging it.
 
-**Break:** \[00:42:56.06\]
+**Break:** \[42:56\]
 
 **Jerod Santo:** Jason, before I put this landscape picture away - because I still have it pulled up and I'm still looking at it... One thing when you see all these icons and businesses, and you see all these open source projects, it's interesting because it is kind of like "Here is some CNCF stuff, here's a company, here's an open source project...", and besides the sheer number of players involved, the other thing that strikes me, specifically in the cloud-native area of open source, is you have a bunch of for-profit (really) competitors in business collaborating on open source projects, and Istio is no exception to that...
 
@@ -262,7 +262,7 @@ What I actually think is really different right now is the VC -- the availabilit
 
 **Jerod Santo:** Yeah.
 
-**Jason McGee:** \[00:48:04.06\] More interesting, I think if you look at Istio -- the way I think about Istio is Istio is fundamentally building blocks, kind of low-level primitive controls that you can use to do these fancy things we've been talking about. So there's a tremendous opportunity to build UI and capability around those controls.
+**Jason McGee:** \[48:04\] More interesting, I think if you look at Istio -- the way I think about Istio is Istio is fundamentally building blocks, kind of low-level primitive controls that you can use to do these fancy things we've been talking about. So there's a tremendous opportunity to build UI and capability around those controls.
 
 You could build a CI/CD system that automatically used Istio to do version rollouts, or Canary testing, or rollbacks by kind of controlling the flow of traffic.
 
@@ -284,7 +284,7 @@ So that's what you're seeing in the VC community, and frankly, that's what you'r
 
 Things that actually touch the app should be part of an open community. That's the kind of core contract you're trying to create for people - whatever you're writing could run somewhere else, or could run on another provider... So I use that a lot. If it looks like to solve this problem I need an API, then either that API needs to be in open source, or I need to find a different way to do it, so that the application can become portable across different merchants.
 
-\[00:52:14.07\] There's others, of course... You can do the feature chasing game - if you add a feature that nobody else has, that's possible; that's a tough game. I personally think that's a really hard game. If you create a feature that's an add-on on top of an open source project, one of two things usually happens - it's either not that useful of a feature, so nobody cares and nobody copies you... So you have this unique feature, but it's not very high-value. Or it's really valuable and useful, and eventually it will just show up in the open source project, whether you want it to or not. Somebody will go "Oh yeah, that's a great idea" and they will add it into the open source project.
+\[52:14\] There's others, of course... You can do the feature chasing game - if you add a feature that nobody else has, that's possible; that's a tough game. I personally think that's a really hard game. If you create a feature that's an add-on on top of an open source project, one of two things usually happens - it's either not that useful of a feature, so nobody cares and nobody copies you... So you have this unique feature, but it's not very high-value. Or it's really valuable and useful, and eventually it will just show up in the open source project, whether you want it to or not. Somebody will go "Oh yeah, that's a great idea" and they will add it into the open source project.
 
 So you wind up having like a window of time, where maybe you're ahead... That's a hard game; sometimes that's an interesting game to play, but it's a lot better, especially in the cloud world, to differentiate on 1) being the thought leader and defining these projects... You know, if you look at Istio, lots of people will have Istio; at the end of the day, IBM and Google are the kind of key thought leaders behind what's going on in that project and will have a lot of influence over where we think it evolves to, so you can lead through leadership in open communities... And then some of that comes down to "How do you deliver?" Do you deliver it in public cloud, do you deliver it as a service, do you integrate it with everything else you're doing so it just becomes super-easy to use? ...so you're not making a decision on a single piece of technology, you're making a decision on this full platform that you wanna go use, right?
 
@@ -302,7 +302,7 @@ So you wind up having like a window of time, where maybe you're ahead... That's 
 
 It's funny, 20-30 years ago IBM was maybe the pinnacle example of proprietary, but over the last quarter century we've been doing open source deeply in our DNA for a long time, and one of the things that often happens behind the scenes at IBM is when we join open source projects we do a lot of work to try to make sure there's the right governance structure in place for that project to allow these kinds of decisions to be made in the right way...
 
-\[00:55:55.03\] And if you look at the container space, for example, IBM and Google and others worked together to create the Open Container Initiative, and to create CNCF, and form those projects and foundations explicitly to make sure that if you looked at container tech -- you know, at first that was an open source project, but it was all run by Docker, and Docker has been a great partner, but we all knew that if this was gonna play the role we thought it was gonna play as the kind of foundation for software for the next 20 years, it needed to run in a project that had the right open governance structure, so we created OCI together, and we created the containerd project, and we kind of set up a structure that allowed those decisions to be made more fairly.
+\[55:55\] And if you look at the container space, for example, IBM and Google and others worked together to create the Open Container Initiative, and to create CNCF, and form those projects and foundations explicitly to make sure that if you looked at container tech -- you know, at first that was an open source project, but it was all run by Docker, and Docker has been a great partner, but we all knew that if this was gonna play the role we thought it was gonna play as the kind of foundation for software for the next 20 years, it needed to run in a project that had the right open governance structure, so we created OCI together, and we created the containerd project, and we kind of set up a structure that allowed those decisions to be made more fairly.
 
 **Adam Stacoviak:** I think what's interesting though when you mention governance, and maybe why Jerod asked that question is because 1) it's not clear by going to the Istio website... You know, like "Here's how this project is governed." For one, to be an invitation to say hey, I know that the thought leaders are Google and IBM; however, if you would like to get involved, there's certain ways you could technically influence the direction of this project.
 
@@ -326,7 +326,7 @@ The challenge sometimes is getting projects over the hump, like getting them bir
 
 **Jason McGee:** Yeah, exactly. Those early decisions, like you have to keep this kind of -- before you open it up too broadly, you have to kind of get it to a baseline, otherwise it becomes like the Wild West. That's what I think people have seen happen over the last 12 months, is Istio kind of going from 0.1 to 1.0, and we have a pretty good baseline now.
 
-**Adam Stacoviak:** \[00:59:53.23\] Back in July, 1.0, you mentioned - I think it was in either the second segment or this last segment - there's a lot of excitement around the direction and the future of Istio. What's in the future? What's next?
+**Adam Stacoviak:** \[59:53\] Back in July, 1.0, you mentioned - I think it was in either the second segment or this last segment - there's a lot of excitement around the direction and the future of Istio. What's in the future? What's next?
 
 **Jason McGee:** One of the big challenges we had over the last four months was just like -- there were so many interesting things happening in Istio, we had to kind of pull back and say "We've gotta get what we have out the door, out to 1.0, and stop working on new things." So we're pretty excited to have done that, and now we can start working on new things again.
 

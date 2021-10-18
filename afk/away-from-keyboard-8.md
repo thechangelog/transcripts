@@ -62,7 +62,7 @@ So those things feel super-innocent and feel like not a big deal, but in a lot o
 
 **Tim Smith:** Coming up, Eryn talks to me about moving away from home, the hurdles of married of life, and the struggle to stay healthy in a demanding industry.
 
-**Break:** \[00:11:54.21\]
+**Break:** \[11:54\]
 
 **Tim Smith:** Eryin grew up in the South-West suburbs of Chicago, but come college time, she decided to leave the big city and go to a small liberal arts school called Grinnell College.
 
@@ -198,7 +198,7 @@ If somebody puts in 60 hours and saves the day, you wanna be like, "Oh, you're g
 
 I feel responsible for trying to make it so that people don't have to destroy themselves the way that I did. Maybe that's naive and a pipedream, but I also don't know what else to do; I don't know any other way to live that's moral and that I'm okay with.
 
-**Break:** \[00:30:34.29\]
+**Break:** \[30:34\]
 
 **Tim Smith:** I usually ask guests to tell me a funny anecdote, so I can put that at the end of the show. Eryn's answer was perfect...
 

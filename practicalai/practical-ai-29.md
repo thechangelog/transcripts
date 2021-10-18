@@ -24,7 +24,7 @@ I'll give away my age here a little bit, but when I finished grad school - I did
 
 So the idea was since machine learning is having this exponential effect, could we apply it on hard things like climate change, or being able to conserve animals that are going extinct at a rate that's like thousands of times the natural rate currently, or how to grow more food on land in a sustainable way, so you're not burning out the land - you know, you can get the short-term benefits, but then it's not good for the land long-term - but to be able to increase the yield while still doing it in a sustainable way, and then provide clean water to people... So all of these really hard challenges - what would happen if we applied machine learning to them? That's what was keeping Lucas up at night.
 
-\[00:04:40.16\] So he wrote a white paper, and that white paper became the basis of essentially the AI for Earth program. At its heart, at the beginning, it is a grand program, so Microsoft publically committed 15 million dollars over a five-year timeframe, and that is money that is available as grant money to anyone who is doing machine learning or data science work in the areas of agriculture, water, climate change and biodiversity. Anyone of those four is fine. It can be a startup, it can be a non-profit, large corporations, independents - anyone at all is welcome to submit a grant, and we accept grants on a quarterly basis. I think the next deadline is in April 2019, and so folks are welcome to apply for a grant.
+\[04:40\] So he wrote a white paper, and that white paper became the basis of essentially the AI for Earth program. At its heart, at the beginning, it is a grand program, so Microsoft publically committed 15 million dollars over a five-year timeframe, and that is money that is available as grant money to anyone who is doing machine learning or data science work in the areas of agriculture, water, climate change and biodiversity. Anyone of those four is fine. It can be a startup, it can be a non-profit, large corporations, independents - anyone at all is welcome to submit a grant, and we accept grants on a quarterly basis. I think the next deadline is in April 2019, and so folks are welcome to apply for a grant.
 
 That's kind of the start of it, but our aspirations are even grander than that. As you said in the intro, I am an engineer, so I wanna be building models, I wanna be doing the fun data science work myself, so we're actually doing a great combination of that. We partner very closely with Microsoft Research, so there's several Microsoft Research projects that we're funding and working very closely with, where actually our engineering team is building some of our own APIs, where we take models that may be useful to a number of people who are doing sustainability efforts, and then exposing those models as APIs, so that people could call them and utilize them.
 
@@ -46,7 +46,7 @@ Then our own engineering team - what we're trying to focus on is are there thing
 
 **Chris Benson:** No worries...
 
-**Jennifer Marsman:** \[00:08:25.11\] ...but for me, I try to think of what are things that would be useful to a variety of people? Because a lot of times the way a grant recipient should work -- let me take a quick tangent...
+**Jennifer Marsman:** \[08:25\] ...but for me, I try to think of what are things that would be useful to a variety of people? Because a lot of times the way a grant recipient should work -- let me take a quick tangent...
 
 **Chris Benson:** Sure, take it.
 
@@ -68,7 +68,7 @@ We've started with two specific APIs that our engineering team has produced. One
 
 **Chris Benson:** That's fantastic.
 
-**Jennifer Marsman:** \[00:12:22.04\] It's so cool! And what's really nice is that they released this dataset, and they make it available for folks. So we actually trained a classifier that will distinguish between -- it's remarkably accurate for plants and animals, giving you the species. So given an image of something, here's the species. It will return the exact species name. You can do this across animals, you can do it with plants, and I believe here at this conference Grant van Horn is actually speaking on iNaturalist. He did a lot of the machine learning work behind that.
+**Jennifer Marsman:** \[12:22\] It's so cool! And what's really nice is that they released this dataset, and they make it available for folks. So we actually trained a classifier that will distinguish between -- it's remarkably accurate for plants and animals, giving you the species. So given an image of something, here's the species. It will return the exact species name. You can do this across animals, you can do it with plants, and I believe here at this conference Grant van Horn is actually speaking on iNaturalist. He did a lot of the machine learning work behind that.
 
 **Chris Benson:** Okay, can't wait to hear him speak then.
 
@@ -84,7 +84,7 @@ These folks who are grantees tend to be good at the stuff that I'm not good at, 
 
 **Chris Benson:** That sounds great. Do me a favor and in your mind think of maybe one of your favorites that have come through, and take us through what it looks like, from the point where they decide to apply, how you help them, what are the different -- both from what you might call the business side of it, as well as the machine learning side, and just give us a picture, because there may be people out there, non-profits listening to this right now that suddenly jump at this opportunity... Tell them what this project will look like when they engage you.
 
-**Jennifer Marsman:** \[00:16:02.04\] Absolutely. Okay, so... Chris, I'm gonna have a really hard time choosing a favorite, because there are so many good stories. Our grant recipients are doing such amazing things...
+**Jennifer Marsman:** \[16:02\] Absolutely. Okay, so... Chris, I'm gonna have a really hard time choosing a favorite, because there are so many good stories. Our grant recipients are doing such amazing things...
 
 **Chris Benson:** Okay...
 
@@ -124,7 +124,7 @@ A lot of times when you think about it, in this farm, if you've ever driven thro
 
 **Jennifer Marsman:** You lose it, right? So if you're dealing with hundreds of acres of farmland, you would need a million Wi-Fi repeaters, so it's just not feasible. So there's actually two different ways we've solved this problem; one of them used machine learning, and one of them uses cutting edge networking technology.
 
-\[00:19:40.25\] The first one, using machine learning, is you can actually reduce the number of sensors that you need by putting sensors in fewer places, and then augmenting that with either drones flying overhead, or other ways of collecting aerial imagery. Then you can feed a machine learning algorithm both those aerial images, as well as the data from the sensors that you do have, and from that be able to extrapolate the values of the entire field. So essentially, conceptually, what the machine learning model is using is visual smoothness, as well as spacial smoothness. So the idea that two things that are close together are likely gonna have similar values, and then things that have similar color... Think of if we have a patch of farmland that's darker, because it's been freshly watered, and another patch is darker - those two both dark patches might indicate that they have similar amounts of water applied to them... So that sort of thing.
+\[19:40\] The first one, using machine learning, is you can actually reduce the number of sensors that you need by putting sensors in fewer places, and then augmenting that with either drones flying overhead, or other ways of collecting aerial imagery. Then you can feed a machine learning algorithm both those aerial images, as well as the data from the sensors that you do have, and from that be able to extrapolate the values of the entire field. So essentially, conceptually, what the machine learning model is using is visual smoothness, as well as spacial smoothness. So the idea that two things that are close together are likely gonna have similar values, and then things that have similar color... Think of if we have a patch of farmland that's darker, because it's been freshly watered, and another patch is darker - those two both dark patches might indicate that they have similar amounts of water applied to them... So that sort of thing.
 
 **Chris Benson:** It makes me think of topographical maps with the contours on them, maybe \[unintelligible 00:20:40.08\]
 
@@ -160,7 +160,7 @@ This can be really helpful, because when you think about it, there is actually a
 
 **Chris Benson:** Really, I didn't know that.
 
-**Jennifer Marsman:** \[00:23:56.03\] Yeah, and then the shape of an elephant's ear, the spot patterns on cats... So they've actually created a Wildbook for a lot of different large mammals, and they train it with this kind of data. Then they're able to recognize individual animals, so it's a very cool process. But here's where the story goes from good to great - get this part.
+**Jennifer Marsman:** \[23:56\] Yeah, and then the shape of an elephant's ear, the spot patterns on cats... So they've actually created a Wildbook for a lot of different large mammals, and they train it with this kind of data. Then they're able to recognize individual animals, so it's a very cool process. But here's where the story goes from good to great - get this part.
 
 **Chris Benson:** Okay, I'm waiting...
 
@@ -192,7 +192,7 @@ And this is why they call it Wildbook - they call it "The Facebook for animals",
 
 So if you are out there and you are interested in engaging you guys, I guess one of the big challenges obviously is datasets... Do you have any recommendations on where people can find datasets that will help them? Do you all have a repository? Are there good go-to sources that you recommend?
 
-**Jennifer Marsman:** \[00:28:10.23\] That is an awesome question. Ten points to Gryffindor! \[laughter\] So we are actually in the middle of that process right now. Currently, we are collaborating with several other organizations, and we established something -- if you go to http://lila.science, that is a repository of camera trap data, which one of my esteemed colleagues, Dan Morris, is very passionate about camera trap imagery... So he started putting together this dataset on lila.science. Lila is actually a reference to that library of Alexandria, which is kind of cool.
+**Jennifer Marsman:** \[28:10\] That is an awesome question. Ten points to Gryffindor! \[laughter\] So we are actually in the middle of that process right now. Currently, we are collaborating with several other organizations, and we established something -- if you go to http://lila.science, that is a repository of camera trap data, which one of my esteemed colleagues, Dan Morris, is very passionate about camera trap imagery... So he started putting together this dataset on lila.science. Lila is actually a reference to that library of Alexandria, which is kind of cool.
 
 So that is available today. There are several datasets that contain lots and lots of different animals and imagery there, so that's one great start that we have right now, and we're trying to do even more work. I would love to be able to -- we're currently in the process of trying to host more and bigger and better datasets, so that is work in progress. Hopefully, this time next year I will have even more great datasets to share with you.
 
@@ -224,7 +224,7 @@ So there's all kinds of fun challenges with camera trap data, and that in partic
 
 **Chris Benson:** Absolutely.
 
-**Jennifer Marsman:** \[00:31:54.22\] So there's a lot of work in object detection and computer vision... Also with climate, so given satellite imagery, for example spot the little swirl that means a hurricane is gonna form, or something like that. Or in the water space, there's like monitoring plastic flow into the oceans, which another group, Ocean Cleanup, is doing, that we've worked with... And they have mounted cameras on bridges, and then as water flows underneath, they're tracking plastic flow going into the ocean... And being able to tell the difference between a water bottle and a fish, or pieces of plastic, is actually harder than you think, because they're both clear or silverish in the water, and that sort of thing... So it's just an interesting problem.
+**Jennifer Marsman:** \[31:54\] So there's a lot of work in object detection and computer vision... Also with climate, so given satellite imagery, for example spot the little swirl that means a hurricane is gonna form, or something like that. Or in the water space, there's like monitoring plastic flow into the oceans, which another group, Ocean Cleanup, is doing, that we've worked with... And they have mounted cameras on bridges, and then as water flows underneath, they're tracking plastic flow going into the ocean... And being able to tell the difference between a water bottle and a fish, or pieces of plastic, is actually harder than you think, because they're both clear or silverish in the water, and that sort of thing... So it's just an interesting problem.
 
 **Chris Benson:** As a side thing, before you go on, do you actually have a project associated with that this time?
 
@@ -262,7 +262,7 @@ I will say on reinforcement learning I think that is another really big area for
 
 **Chris Benson:** Go for it.
 
-**Jennifer Marsman:** \[00:35:58.04\] Yes. If you go to the AI for Earth we page, please come join us, come help us save the world... Because my background is in machine learning and AI, but there's some folks on the team who are stronger at the Earth side, some people are stronger at the AI side... I'm definitely one of the AI people, and I'm just in awe of what people are doing, these amazing environmentalists and conservationists who are working so hard on these huge problems that face our Earth... So if there's anything Microsoft can do to help, I would love to support folks.
+**Jennifer Marsman:** \[35:58\] Yes. If you go to the AI for Earth we page, please come join us, come help us save the world... Because my background is in machine learning and AI, but there's some folks on the team who are stronger at the Earth side, some people are stronger at the AI side... I'm definitely one of the AI people, and I'm just in awe of what people are doing, these amazing environmentalists and conservationists who are working so hard on these huge problems that face our Earth... So if there's anything Microsoft can do to help, I would love to support folks.
 
 People are welcome to apply for grants. Again, we evaluate all the applications every quarter... So I think it's January, April, October, and -- I'm forgetting, but every four months we evaluate proposals and then give things out, or award grants. We have a couple different grant types. One of them is just standard Azure compute hours, so just getting some cloud computing time... We actually have a data labeling grant as well now, where if you have a great dataset, but you need to pay someone to get it labeled, and sometimes it may be a specialist, it's not something that a Mechanical Turk type thing can solve, because you need very specialized knowledge of climate, for example, to be able to read these satellite things, to label it properly... So we actually are providing funding for data labeling, as well.
 
@@ -290,7 +290,7 @@ People are welcome to apply for grants. Again, we evaluate all the applications 
 
 **Jennifer Marsman:** So just spread awareness of the grant program, that it exists... And then I'm just gonna tell a couple stories of AI for Earth grant recipients and what they've done. We'll talk about Wilde Me, we'll talk about FarmBeat, which we've already spoken... And then the final thing I'm gonna talk about is another project, Project Premonition, which also started with Microsoft Research. This one is very cool as well - it's focused on how can we predict outbreaks of disease before they happen? Think about like Zika virus, and West Nile, and mad cow disease, and some of these things that we've seen in recent years.
 
-\[00:40:15.05\] The idea here is "Is there a way we could get out in front of that and be able to predict these things before they happen?" and the way -- this is so cool... So the principal researcher on this one is a guy by the name of Ethan Jackson, and the idea behind this one is what if we take advantage of little data collectors who are out in the environment already, collecting random blood samples? And those are, of course, mosquitoes.
+\[40:15\] The idea here is "Is there a way we could get out in front of that and be able to predict these things before they happen?" and the way -- this is so cool... So the principal researcher on this one is a guy by the name of Ethan Jackson, and the idea behind this one is what if we take advantage of little data collectors who are out in the environment already, collecting random blood samples? And those are, of course, mosquitoes.
 
 **Chris Benson:** Oh, yes...
 

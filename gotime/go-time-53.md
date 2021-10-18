@@ -40,7 +40,7 @@ Anybody want to talk about overall thoughts and just kind of feelings walking aw
 
 **Erik St. Martin:** It's Denver, are you sure you weren't on drugs?
 
-**Carlisia Thompson:** \[00:03:52.19\] Yeah, I don't think I was... I was just drinking; I'm pretty sure, but I don't know, because it's Denver. But I felt like it! And it made me feel so happy looking at other Go developers who were also happy, and dancing, and having the greatest time... So thank you so much for everybody who played in that band and people who had the idea to put it together and approved the whole thing, because it was awesome.
+**Carlisia Thompson:** \[03:52\] Yeah, I don't think I was... I was just drinking; I'm pretty sure, but I don't know, because it's Denver. But I felt like it! And it made me feel so happy looking at other Go developers who were also happy, and dancing, and having the greatest time... So thank you so much for everybody who played in that band and people who had the idea to put it together and approved the whole thing, because it was awesome.
 
 **Erik St. Martin:** Yeah, there were so many great people doing that... So if you weren't at GopherCon or you skipped the welcome party, what Carlisia is talking about is at the welcome party at the Punch Bowl Social, we had a full fair-level stage with lighting and stuff set up, and there was a local band there that kind of filled the air with music, but later a group of community members actually got up and sang and played instruments. I wonder if I can name everybody off without missing anybody.
 
@@ -80,7 +80,7 @@ A bad introvert like me just keeps on going... That's what I do every time I go 
 
 **Erik St. Martin:** One thing too that I wanted to point out from the earlier point that Carlisia made is this was kind of like the biggest one yet, but I felt a lot more -- I don't wanna say any of the prior years didn't have that tight-knit community feeling, because they really did... But I feel like it's getting even tighter. A lot of people I think felt like it'd get lost with the growth; that's one of the things they loved so much about the first year. But I think that a lot of the stuff has really kind of come back, and so many people socializing and collaborating on stuff, especially community day. Community day was awesome.
 
-**Brian Ketelsen:** \[00:08:23.06\] All of it was, everything about it was just fantastic.
+**Brian Ketelsen:** \[08:23\] All of it was, everything about it was just fantastic.
 
 **Carlisia Thompson:** My most memorable day -- I mean, this has nothing to do with the conference, it's more about me... It is about me now - I had dinner twice. \[laughter\]
 
@@ -118,7 +118,7 @@ So from those applications we got a bunch of people, and the Women Who Go dinner
 
 And we had also the buddy system that was before, and people who have gone to the conference can sign up to be a guide, and people who had never been to the conference can sign up to be a buddy, and we had a nice breakfast. [Andy Walker](https://twitter.com/flowchartsman) lead that effort, and he did such a great job. We got beautiful pins...
 
-\[00:12:08.18\] So we had a breakfast, and I got to meet a bunch of people who I'd never heard of before, and some who I'd heard of online but never met in person. It was beautiful, and it was great to see those people mingling in the conference as well. What else...?
+\[12:08\] So we had a breakfast, and I got to meet a bunch of people who I'd never heard of before, and some who I'd heard of online but never met in person. It was beautiful, and it was great to see those people mingling in the conference as well. What else...?
 
 **Erik St. Martin:** You know, international travel, too. Each year we know there's a large number of countries represented... I wanna say this year it was like 33, or something like that. So I know the number of countries, but at the beginning when Brian and I were doing the welcome notes, and I asked everybody to sit down based on location, and we got to the international people, I was not expecting that many people to still be standing.
 
@@ -150,7 +150,7 @@ Speaking of [Nathan Youngman](https://twitter.com/nathany), one of my most memor
 
 **Brian Ketelsen:** This year sadly missing [Brad Fitzpatrick](https://twitter.com/bradfitz), though... All of our best to you, Brad. I know they're moments away from baby delivery, so if you're listening or if you do listen later, we hope that everything goes well with your delivery.
 
-**Carlisia Thompson:** \[00:16:01.28\] Yeah, definitely.
+**Carlisia Thompson:** \[16:01\] Yeah, definitely.
 
 **Brian Ketelsen:** Babies rock, and Gopher babies rock more.
 
@@ -178,7 +178,7 @@ That was to get you through the process, and I don't wanna say it was simple, be
 
 So that was one thing... And like Erik was saying, they had this dashboard, and there were like a thousand submissions, I think, just in one session. There were two sessions - one in the morning, one in the afternoon. So I highly recommend people who haven't gone through the process to go to this workshop (it's free) if they are at GopherCon in the future.
 
-\[00:20:03.09\] And the other thing was like "Okay, you went through this process. How about now you go and make a submission to the Go repo?" and that's where the 40 submissions come from. A lot of people submitted code, or an example, or documentation, and they became Go contributors.
+\[20:03\] And the other thing was like "Okay, you went through this process. How about now you go and make a submission to the Go repo?" and that's where the 40 submissions come from. A lot of people submitted code, or an example, or documentation, and they became Go contributors.
 
 **Brian Ketelsen:** One of the things that I thought was really fantastic about it was the Phoenix users group, I think. They took that same material and brought it home for their Go meetup. Was that you, Brian Downs? I'm pretty sure it was. He did a contributor workshop right after GopherCon and spread it even further. So my callout to the meetup organizers out there is to find that material and push it out, spread the love; let's get more people contributing to Go, because that was a really great idea.
 
@@ -214,7 +214,7 @@ You know, "concurrency" is the collective noun for a group of Gophers, right? A 
 
 **Brian Ketelsen:** I'm sure it is.
 
-**Carlisia Thompson:** \[00:24:03.08\] Yeah, it is true now.
+**Carlisia Thompson:** \[24:03\] Yeah, it is true now.
 
 **Brian Ketelsen:** If not, we've declared it so, right Carlisia?
 
@@ -236,7 +236,7 @@ For anybody who didn't go to community day or didn't go to GopherCon at all, on 
 
 I know Kris Nova had a [Kubicorn](https://github.com/kubicorn/kubicorn) table, and I swear to God she looked like a cult leader over there, because they were all just watching her with rapt attention. I'm not sure what kind of things she was telling them, but I know Kubicorn had a pretty nice release, too. So the cult leader is taking over. That was pretty cool.
 
-**Erik St. Martin:** \[00:28:03.23\] So how about favorite talks? Or at least ones that you heard good feedback on that maybe you didn't catch yourself. I know that I often don't get to watch many of the talks (if any) until the video is released, and depending on my work schedule is how fast I consume them.
+**Erik St. Martin:** \[28:03\] So how about favorite talks? Or at least ones that you heard good feedback on that maybe you didn't catch yourself. I know that I often don't get to watch many of the talks (if any) until the video is released, and depending on my work schedule is how fast I consume them.
 
 I can start off... One that seemed to get a very, very good reception - and I actually happened to watch this on YouTube - was just recently a guest of our show, which was [Kavya Joshi](https://twitter.com/kavya719), who did the [Understanding Channels](https://www.youtube.com/watch?v=KBZlN0izeiY0). If you haven't seen that talk - you weren't there for it or weren't at GopherCon - it's on YouTube. All of the talks from the conference are there.
 
@@ -270,7 +270,7 @@ I like [Edward Muller's](https://twitter.com/freeformz) [talk on Go Anti-Pattern
 
 But I also think that one of the big takeaways from that talk was soliciting for experience reports, because he walks through kind of the history of how they solve problems and things like that, and they want to see concrete examples of where these things are problems. An example was _generics_ - sometimes they don't have enough information to help make a meaningful decision as far as how that should impact the language without kind of seeing concrete examples of how people intend to use these things, or how it's currently failing them.
 
-\[00:32:16.02\] I think that that was probably the biggest takeaway - if you want to help shape what Go 2.0 ultimately becomes, you should make it a point to contribute that feedback.
+\[32:16\] I think that that was probably the biggest takeaway - if you want to help shape what Go 2.0 ultimately becomes, you should make it a point to contribute that feedback.
 
 **Carlisia Thompson:** I was going to say the same thing Erik just said, just not as articulate. But I do wanna re-emphasize that even though it was a talk about "Let's talk about talking about Go 2.0", I think it was very valuable... Because people communicate -- I mean, it's just normal... We're not very effective and sometimes we're in a hurry, but that talk was basically -- I mean, there were other things too, but the main takeaway for me was, like Erik said, Go 2.0 is going to happen, and if you have a problem that is not being solved now that you do want to be solved, submit what your problem is, because we need to understand what kind of problem it is. Don't submit a feature request. Don't jump ahead and say "Oh, I have a problem, and I think it will be solved if Go had this... So therefore I am requesting that you add this to Go."
 
@@ -304,7 +304,7 @@ He was very specifically saying, "Submit your problem. Submit a use case for you
 
 **Erik St. Martin:** She basically started the talk out talking about how in prior talks she mentioned system calls and she wanted to kind of make sure she knew what she was referring to when talking about them, so... She wrote a talk explaining how system calls work to people, and that's actually really great if you're not familiar with how system calls work. And a little bit of Linux Assembly too kind of really helps solidify that too; it talks about as far as resetting registers, and things like that.
 
-**Brian Ketelsen:** \[00:36:14.26\] Yeah, Brian Downs in Slack said he could listen to Liz talk about anything, and I totally agree... This is maybe the third time I've seen her talk, and she just has such a fantastic delivery, she's so eloquent, and she knows the materials so well. Between her and Jess Frazelle, I have 100% impostor syndrome when it comes to deep kernel-level knowledge of anything. Just "No, go ask them, because I don't know."
+**Brian Ketelsen:** \[36:14\] Yeah, Brian Downs in Slack said he could listen to Liz talk about anything, and I totally agree... This is maybe the third time I've seen her talk, and she just has such a fantastic delivery, she's so eloquent, and she knows the materials so well. Between her and Jess Frazelle, I have 100% impostor syndrome when it comes to deep kernel-level knowledge of anything. Just "No, go ask them, because I don't know."
 
 **Carlisia Thompson:** I was gonna say the same thing... I was going to say I haven't seen her talk, but I don't even care what it was about, because I've seen her talks before -- the talk that she gave at Golang UK last year... She's so great, I will watch anything she talks about.
 
@@ -352,7 +352,7 @@ Also on the deep technical end was Keith Randall; he came back and talked about 
 
 **Erik St. Martin:** Yeah, that one's on my list as well. I felt bad, because I really wanted to try to sneak into that one, and then I can't remember what happened and I realized I looked at my watch and I'm like "It was an hour ago."
 
-**Brian Ketelsen:** \[00:39:51.18\] One of the things that's kind of amusing about that talk is that in conversations with random people over the last week or two, that talks specifically has come up several times. It was like, "You know, in Kris's talk, blah-blah-blah-blah...", so I think that one's making its way around the internet much faster than usual. It's kind of funny to hear them come back.
+**Brian Ketelsen:** \[39:51\] One of the things that's kind of amusing about that talk is that in conversations with random people over the last week or two, that talks specifically has come up several times. It was like, "You know, in Kris's talk, blah-blah-blah-blah...", so I think that one's making its way around the internet much faster than usual. It's kind of funny to hear them come back.
 
 **Erik St. Martin:** I'm trying to remember what other ones I saw... I did see a good portion of [Mitchell Hashimoto's talk on advanced testing](https://www.youtube.com/watch?v=8hQG7QlcLBk), and I think there are some really good examples...
 
@@ -374,7 +374,7 @@ Now I wanna mention that the talks are listed on the GopherCon repo - a repo cal
 
 I'm sure it took a lot of time to put this together. It seems like a little thing, but it's so handy. I'm on this page daily.
 
-**Brian Ketelsen:** \[00:43:54.06\] Yeah, couldn't agree more. She put way more effort into putting the talks into a nice, organized table, with links to everybody and all the things than I certainly would have so and one of the things that she mentioned in Slack was that Ashley's talk inspired her to do that. This is a way that she had time to give back, and I am very grateful for it, for sure.
+**Brian Ketelsen:** \[43:54\] Yeah, couldn't agree more. She put way more effort into putting the talks into a nice, organized table, with links to everybody and all the things than I certainly would have so and one of the things that she mentioned in Slack was that Ashley's talk inspired her to do that. This is a way that she had time to give back, and I am very grateful for it, for sure.
 
 **Carlisia Thompson:** That reminded me of something else I wanted to say in today's episode... People ask me, "So how did you get involved with these things?" because they look at me like, "I'm not nobody, but I'm doing a podcast, and I'm doing this, and I'm doing that..." - that's exactly how you get to be in a position of doing something more relevant. You just start saying yes, you just start seeing something -- you have to be looking, first of all, and then you see something that needs to be done and you do it. Then the next time you turn around, people ask you to do something and you say yes, and pretty soon you're taking leadership initiatives. That's how people get involved and start doing more relevant things in the community.
 
@@ -416,7 +416,7 @@ Everybody did an outstanding job, all the talks were great, so definitely make y
 
 **Brian Ketelsen:** Sure. He could talk about it for hours, so anytime you wanna end, it's great.
 
-**Carlisia Thompson:** \[00:47:57.24\] I just want a quick shoutout to Chairô from Brazil who was at the conference and gave us all a very fancy bottle of wine. By no means I wanna encourage people to give us gifts (please don't), I'm just saying because he did it, so I feel very compelled to say thank you on the air. He was thanking us for such a good show, but people, don't do that. Seriously.
+**Carlisia Thompson:** \[47:57\] I just want a quick shoutout to Chairô from Brazil who was at the conference and gave us all a very fancy bottle of wine. By no means I wanna encourage people to give us gifts (please don't), I'm just saying because he did it, so I feel very compelled to say thank you on the air. He was thanking us for such a good show, but people, don't do that. Seriously.
 
 **Brian Ketelsen:** Yeah, don't bring us gifts!
 
@@ -444,7 +444,7 @@ Everybody did an outstanding job, all the talks were great, so definitely make y
 
 **Erik St. Martin:** I struggle with that, too. I'd like to speak again at another conference, but I need to come up with some material that I wanna talk about... Preferably something I'm super passionate about; it makes it easier that way.
 
-\[00:51:00.10\] But if any of us make it to some of these conferences - I know Brian's gonna at least be at the two - we will chat a bit about our experiences there.
+\[51:00\] But if any of us make it to some of these conferences - I know Brian's gonna at least be at the two - we will chat a bit about our experiences there.
 
 I guess that's a wrap. Thanks, Carlisia... Brian's already gone, so we can't thank him. Thanks everybody for listening and everybody who made it to GopherCon. And even if you didn't attend, all the companies contributing towards the diversity initiatives. This year was so amazing, and we're so grateful to be a part of this community.
 
@@ -462,4 +462,4 @@ I guess that's a wrap. Thanks, Carlisia... Brian's already gone, so we can't tha
 
 **Carlisia Thompson:** Bye, thank you!
 
-\[00:52:38.16\] to \[00:53:24.16\]
+\[52:38\] to \[53:24\]

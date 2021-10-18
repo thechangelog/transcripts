@@ -6,7 +6,7 @@ I think to your question of happiness, in the beginning I was all about "I wanna
 
 It was going swimmingly. We raised a bunch of money... It was funny, I was talking to a founder yesterday who was sort of jealous of where Gumroad was. He had built sort of a tangential startup and started a couple years before Gumroad did, and then all of a sudden Gumroad appears out of nowhere, and in six months we raise (it was just me at the time) around a million dollars seed round from All Star Investors, and then six months later or less we raised seven million dollars from a top-tier venture fund... And he was like "Oh, crap. We're dead. These people are gonna kill it." Sort of filled with jealousy. Things went well - that was 2012 - until 2015, when we started to raise money again and we realized that we just weren't growing the business fast enough to merit another round of financing, a series B, 30+million dollars etc.
 
-\[00:04:05.05\] So we did a big round of layoffs, got to profitable... That hit the news again, and he felt validated; he was like "Ha-ha! Look, the things that they tried didn't work out", and they ended up selling the company. He made a few million bucks etc. I think it just goes to show that so much of our egos and of our self-worth are not based on ourself, they're based on these other factors and our relation to those things... Which I think can be pretty unhealthy, because you aren't really in control of those things anyways.
+\[04:05\] So we did a big round of layoffs, got to profitable... That hit the news again, and he felt validated; he was like "Ha-ha! Look, the things that they tried didn't work out", and they ended up selling the company. He made a few million bucks etc. I think it just goes to show that so much of our egos and of our self-worth are not based on ourself, they're based on these other factors and our relation to those things... Which I think can be pretty unhealthy, because you aren't really in control of those things anyways.
 
 So you're actually the exact same person, but all of a sudden this person enters the room, that's whatever better at than you at some specific thing; you feel like you're lesser now, even though nothing has really changed about you. I think that's just a pretty toxic attitude that everyone has. I think it's sort of like built into humanity, our monkey brain or whatever, to think like that.
 
@@ -38,7 +38,7 @@ I think the thing that really changed is writing this piece -- I wrote this piec
 
 **Adam Stacoviak:** That's right.
 
-**Sahil Lavingia:** \[00:08:16.28\] But unfortunately, or fortunately, it ended up doing really well. I think at this point probably over maybe 550,000 people have read it... And I gained a bunch of Twitter followers, or whatever metric success there is for article writing. But yeah, I'm sort of excited about that. I'm excited about -- people are telling me "Hey, this is so cool. It's so cool that you shared this thing..." As we talked about, I'm sort of in this reactive mode where I'm like "I'm open. Tell me, what should I do?" I have time, I have money, I have this product... I use the word "vessel", I think of Gumroad as a vessel. So what do I wanna do? What do other people want to be done, either by me or somebody else? How can we vet and do those things? There's a bunch of stuff that I'm thinking about...
+**Sahil Lavingia:** \[08:16\] But unfortunately, or fortunately, it ended up doing really well. I think at this point probably over maybe 550,000 people have read it... And I gained a bunch of Twitter followers, or whatever metric success there is for article writing. But yeah, I'm sort of excited about that. I'm excited about -- people are telling me "Hey, this is so cool. It's so cool that you shared this thing..." As we talked about, I'm sort of in this reactive mode where I'm like "I'm open. Tell me, what should I do?" I have time, I have money, I have this product... I use the word "vessel", I think of Gumroad as a vessel. So what do I wanna do? What do other people want to be done, either by me or somebody else? How can we vet and do those things? There's a bunch of stuff that I'm thinking about...
 
 And happiness - to answer your original question - before it was about creating this billion-dollar company per se, and all the things that tie into that. And I think now it's just like "I wanna build something really cool", and I kind of want to be absurdly -- I wanna build a company that just doesn't even look like a business, like it's just too good, because we're not competing on those metrics, you know? I think if you stop competing on growth, if you stop competing on revenue, on team size, on these things that are typically used especially in Silicon Valley to gauge where you are relative to everybody else - what does that look like?
 
@@ -70,7 +70,7 @@ We've just launched this thing called the Gumroad Creators Fund where we're dona
 
 **Adam Stacoviak:** Yeah.
 
-**Sahil Lavingia:** \[00:12:06.10\] I can hire the people I wanna hire, I can work with the people I wanna work with, I get to build the product that I wanna build, I get to spend the money on the things that I wanna spend the money on etc. So it's like "How do you lose compared to that? What is a better option?" And I'm sure they exist; I'm sure there's people that are happier than I am, but I think just based on where I was, I'm in a much better place. At the end of the day, that's all you can really compare yourself to, because those are the things you can control - where you were and where you are, sort of on an internal mind-state level.
+**Sahil Lavingia:** \[12:06\] I can hire the people I wanna hire, I can work with the people I wanna work with, I get to build the product that I wanna build, I get to spend the money on the things that I wanna spend the money on etc. So it's like "How do you lose compared to that? What is a better option?" And I'm sure they exist; I'm sure there's people that are happier than I am, but I think just based on where I was, I'm in a much better place. At the end of the day, that's all you can really compare yourself to, because those are the things you can control - where you were and where you are, sort of on an internal mind-state level.
 
 **Adam Stacoviak:** There's some out there that might look at where you're at and be like "What?! How does he feel this way? Geez, building a billion-dollar company is amazing. Why wouldn't you wanna do that?" and you just said obviously you didn't fail, because someone would have had to have won if you lost... There's people who pursue what might have -- this might not be the best way to say it these days, but I know it as the American Dream, right? To pursue enterprise, to pursue capitalism in its healthy states to better their lives, better their family's lives, and things like that, and to pursue the biggest opportunity might be the best... But I think there's people who go, like you have, through that journey and learn through that journey and on the side like "Well, I thought that was my goal, but in hindsight, now that I see what I really went through, now I really truly can appreciate...", and you've said "lifestyle business". Nobody wants to get hired to build a lifestyle business.
 
@@ -84,7 +84,7 @@ For me it's gaining competency, gaining a reputation as someone who can build a 
 
 **Adam Stacoviak:** Well, you're in charge, right? You're in charge and you're running your own show, meaning that -- not that venture capital is wrong, because it's great in many scenarios and there's many great things about venture capital, but maybe in your particular case where Gumroad wasn't growing at the multiples it needed to to raise (as you mentioned) the series B, you had become no longer precious and shiny to venture capitalist because, well, you know, the nature of venture capital couldn't play well with the way Gumroad was growing...
 
-**Sahil Lavingia:** \[00:16:20.25\] Totally.
+**Sahil Lavingia:** \[16:20\] Totally.
 
 **Adam Stacoviak:** So for those reasons you were in sort of this trap because you were forced to build a business that Gumroad wasn't evolving to be. And maybe even something that made you happy even.
 
@@ -100,7 +100,7 @@ So getting rid of those choices I think to me is really important, to say "I'm n
 
 But I'm hopeful. I feel like I've noticed more transparency, at least in our competitors, and things like that. The example I use often is football helmets; basically everyone informed on the issue disagrees with football helmets, and the danger that they have to the brain, and things like that... But no player is gonna be the first person to take it off. It's just counter -- what you have to do is you have to get everyone in agreement to do it at the same time, or whatever the change happens to be. It's sort of like a prisoner's dilemma sort of thing. That's how I think about Gumroad. We're the player that is willing to take off the helmet, and create the controversy, in a sense.
 
-**Adam Stacoviak:** \[00:20:05.28\] What's with the helmets? I'm not familiar with the details... I mean, I know about brain injuries in football and whatnot, but what's with the helmet? What's the controversy?
+**Adam Stacoviak:** \[20:05\] What's with the helmets? I'm not familiar with the details... I mean, I know about brain injuries in football and whatnot, but what's with the helmet? What's the controversy?
 
 **Sahil Lavingia:** Yeah. Well, typically the brain injuries are a result of the helmets and the padding that football players wear, because it sort of allows you to hit people harder than you ever would without any of that stuff tricking your brain into thinking there's not that much pain or damage that's gonna happen.
 
@@ -144,7 +144,7 @@ But I'm hopeful. I feel like I've noticed more transparency, at least in our com
 
 **Sahil Lavingia:** Yeah... \[laughs\]
 
-**Adam Stacoviak:** \[00:24:09.26\] The fasting is the normal one somewhat to me, and the seven-minute workouts, I think of it like "How does a farmer work out?" A farmer doesn't work out, a farmer just works. Jack Dorsey is not a farmer, so he's got to literally go to a gym, or be down with seven-minute workouts, or getting to workout in any unique place... Or maybe gyms are just like anti-Dorsey, like "Hey, I'm not going to a gym..."
+**Adam Stacoviak:** \[24:09\] The fasting is the normal one somewhat to me, and the seven-minute workouts, I think of it like "How does a farmer work out?" A farmer doesn't work out, a farmer just works. Jack Dorsey is not a farmer, so he's got to literally go to a gym, or be down with seven-minute workouts, or getting to workout in any unique place... Or maybe gyms are just like anti-Dorsey, like "Hey, I'm not going to a gym..."
 
 **Sahil Lavingia:** Yeah... I think it's a combination. You need a motivation, and then you need a reason... And I think the motivation, the impetus is "I feel uncomfortable with where I'm at" or "I feel disconnected", and then the reason is "Oh, there are also these health benefits to doing that." Even though I do agree, I don't think there's a downside to walking to work... But I do think with bio-hacking -- and I'm not super-familiar, but I would be cautious with a lot of it because... I think of it like fat and carbs; I feel like every ten years carbs are evil and then they're awesome, and then fats are evil and then they're awesome, and then proteins are evil and then they're awesome... Same thing with egg yolks, and coffee, and wine, right?
 
@@ -178,7 +178,7 @@ But I'm hopeful. I feel like I've noticed more transparency, at least in our com
 
 We were talking about how Gumroad had continued to grow, without me really active working on it for a while... And it gave me this sense of independence from Gumroad, because it seemed like when I was a product visionary, when I was working 12 hours a day, 16 hours a day, and when I wasn't doing any of those things, when I was just fixing bugs - it seemed like the company was growing at a roughly similar rate, so it gave me the freedom to say "Okay, what does this mean?" Does it mean that I can just sort of listen to creators? Maybe I should try that.
 
-\[00:28:15.12\] Maybe I should just go the totally opposite direction of product visionary and just say "Hey, actually I'm not interested in building the car; I actually am interested in the faster horse. What do you think the faster horse is for you?" and just doing that.
+\[28:15\] Maybe I should just go the totally opposite direction of product visionary and just say "Hey, actually I'm not interested in building the car; I actually am interested in the faster horse. What do you think the faster horse is for you?" and just doing that.
 
 I think there is this attitude, I think you have to be proactive, because why would someone give you a bunch of money to be reactive to a market? Venture only works in theory because you're proactive; because if you're reactive, the proactive competitor is gonna beat you, or whatever.
 
@@ -200,7 +200,7 @@ I think the thing with being proactive - typically, you're just doubling down. Y
 
 **Sahil Lavingia:** Exactly. Actually, it was one of the titles that I was thinking about, and I ended up with this very -- yeah, "How not to build a billion-dollar company..." It was a little too tongue-in-cheek, where I was like "I don't know if people will get the joke of it" almost... But yeah, I like the idea that I'm just relaying a set of experiences. I wrote this other article about moving from San Francisco to Provo, Utah, which is the most conservative city in America (over 100,000 people), called "From bubble to bubble." And I'm explicitly not trying to say "This is what you should believe." But with the book, it's actually the opposite; typically, if you're writing a book, 50,000-65,000 words, 300 pages, you're trying to be a New York Times bestseller or whatever - you wanna make a point; you want it to be controversial. You wanna say something that actually maybe 30% of people believe, or 10% of people believe, because that's how you get on TV, or whatever you need to do to hit the list... So I'm reactive to that, too; I'm like "Okay, if you want me to make a point, let me try. What would my point be...?"
 
-\[00:32:22.18\] But I think the things that work about me, and I think why people latched on to that article and other things that I've done recently is because they feel like there's no point. It's like the anti-point, it's like the anti-hero. It's like you're not following this person because they think they're gonna change the world, you're following this person because they're sort of actively not.
+\[32:22\] But I think the things that work about me, and I think why people latched on to that article and other things that I've done recently is because they feel like there's no point. It's like the anti-point, it's like the anti-hero. It's like you're not following this person because they think they're gonna change the world, you're following this person because they're sort of actively not.
 
 **Adam Stacoviak:** Yeah. Counter-cultural, as we've said before. The lure to you, or at least the figurative you that's perceived through what you share with the world is that you're different, in a way, because you've been down the road to reflect on not building a billion-dollar business, and sharing the road which you took to get there... And in some ways, informing those attempting to or desiring to go down the same road or a similar road about potential bumps and bruises along the way that they can anticipate, and how that may or may not change their life. I think it's interesting that you're so counter-cultural... Maybe we could even go into the whole move from San Francisco to Provo and how that was reactive. I don't even understand how is that reactive. It seems proactive; how is it reactive?
 
@@ -218,7 +218,7 @@ I wrote the first draft, and I was working on the second draft I believe at the 
 
 **Sahil Lavingia:** Yeah, six years, I think. Significant...
 
-**Adam Stacoviak:** \[00:36:00.24\] That's comfortability. Six years at a place you're comfortable...
+**Adam Stacoviak:** \[36:00\] That's comfortability. Six years at a place you're comfortable...
 
 **Sahil Lavingia:** Yeah. Friends... Totally. I had a strong network there, and people to hang out with, and things like that, and people I was always meeting... But it was also -- like, what was I in San Francisco? I was the Gumroad founder. And it was such a vague thing, because I didn't know -- like, did you know about the lay-offs? Did you not know about the lay-offs? Did anyone really know what I was doing? And I just felt like I couldn't be open about any of that stuff.
 
@@ -272,7 +272,7 @@ I wrote the first draft, and I was working on the second draft I believe at the 
 
 **Adam Stacoviak:** No.
 
-**Sahil Lavingia:** \[00:40:01.24\] And a lot of these people I will hang out with and talk to at a coffee shop or something, because these things are interesting to them. But in the context of a social dinner, for example, it's like we're learning about how to grow a team from 20 to 200. Why are you here?
+**Sahil Lavingia:** \[40:01\] And a lot of these people I will hang out with and talk to at a coffee shop or something, because these things are interesting to them. But in the context of a social dinner, for example, it's like we're learning about how to grow a team from 20 to 200. Why are you here?
 
 **Adam Stacoviak:** Yeah...
 
@@ -296,7 +296,7 @@ I wrote the first draft, and I was working on the second draft I believe at the 
 
 I'm still running Gumroad, and beyond that, I'm open; I still have time in my life, I still have probably 20-30 hours a week of time, and I have this new serendipity factor where because of the article, and because of my Twitter -- the algorithm has just sort of loved me recently, for some reason... It sort of allowed me to meet these people that I normally wouldn't have had a chance to meet with... So I'll meet with everybody, I'll remain as accessible as possible within sanity, and then see if there are cool opportunities... And have the space to be open to those things, I guess.
 
-**Adam Stacoviak:** \[00:44:17.19\] What do you think is gonna happen? What do you anticipate? Or do you not anticipate anymore?
+**Adam Stacoviak:** \[44:17\] What do you think is gonna happen? What do you anticipate? Or do you not anticipate anymore?
 
 **Sahil Lavingia:** I really don't, yeah. I mean, I have these broad goals, as I mentioned. I really want to work on an entertainment project, a visual entertainment project; either a short film, a movie, a Netflix show, a Hollywood blockbuster, an independent film... I think there's something really interesting with video, VR, AR, Netflix, HBO, Apple...
 
@@ -312,7 +312,7 @@ I don't know what will happen with that lunch. He might say "Hey, I have this pr
 
 You could look at the Wikipedia profiles of a lot of these people and sort of see "Oh, this is what they were doing in their thirties, or thirty years ago, or whatever, in order to be in this position now." So you can kind of reverse-engineer it a little bit. In that sense I am proactive; I'm setting myself up for -- I would say I'm proactive, but not targeted maybe. I'm not specific about the idea. I really want someone to be like "Hey, I'm an amazing artist. I have this project, please help me make it a thing", and I'll be like "Cool. I can do that. I know how to do that." So that's what I mean by transitory, I guess.
 
-**Break:** \[00:47:27.13\]
+**Break:** \[47:27\]
 
 **Adam Stacoviak:** It seems like you're playing the long game, and the fact that you're willing to and even desire to gain the necessary skillset to play that kind of game, so to speak... I mean, you mentioned Spiderverse, which was just amazing visually; I've never seen that kind of comic/film/animation in a single take, ever. That's just phenomenal.
 
@@ -338,7 +338,7 @@ The famous one, I think, pre-Bezos, was Henry Ford, and the Ford Motor Company.
 
 Today if you have a corporation (a C corp, an S corp), your fiduciary responsibility is to your investors first. The reason that maybe we got through it - we were able to say "We're gonna build for customers first, and then investors" is because we didn't get sued. Who knows what would have happened if investors were really concerned about that, right?
 
-**Adam Stacoviak:** \[00:52:05.11\] Well, not everybody pushes the button. Everybody has access to a button, but not everybody pushes it.
+**Adam Stacoviak:** \[52:05\] Well, not everybody pushes the button. Everybody has access to a button, but not everybody pushes it.
 
 **Sahil Lavingia:** Totally, 100%. Yeah. So with Bezos and Amazon I think it's interesting, because he has a similar mindset, I would say; the faster horse thing. He always says "Look, we know exactly what we're gonna be doing in ten years. We're gonna be dropping prices, we're gonna be shipping faster, we're gonna have more inventory... It's not that complicated. Stop focusing on the things we don't know about, and do the things we already do, better." That is his ethos. And even when you think about the Alexa, and things like that, Kindle etc. I think it's still core to that vision. But he's built the most valuable company on planet Earth maybe; I don't know, it depends on the month, I guess.
 
@@ -350,7 +350,7 @@ Yeah, I think they are different attitudes. My guess is that Bezos will probably
 
 **Adam Stacoviak:** I think what's interesting is how you've said for Bill Gates, and I agree with Bill Gates, him being a hero to you as well... He used -- maybe he didn't; I don't know if this is true, but it would seem to be the truth... That he used Microsoft similar to the way you're using Gumroad, as a transitory, or your leap path so to speak to the next thing. Not so much bailing on Gumroad, but more like now that it's in a state where you have full control, and no one telling you "Hey, Sahil, you've gotta 10x this thing, man... Shareholder value", or whatever fiduciary responsibility that gets pushed on someone in your position... You now can say "How can Gumroad be used to serve? Rather than serve me, how can I serve the creators?" Can you talk about -- it sounds like maybe it's Provo, maybe it's Mormons, maybe it's Christians near you that's kind of giving you the servant kind of ideal... Is that true?
 
-**Sahil Lavingia:** \[00:55:41.09\] Yeah, honestly I think that's a great phrase. I love the term "servant". It's one of my favorite words that I've sort of restumbled upon... And I think the difference between serving and slave, at least in the way that I think about those two words, is that being a servant is a choice; it's an agency-led choice. So I love that word. This idea that you are doing something for someone else because you choose to and you're making their life better, because you want to... I think that is totally how I think about Gumroad right now. It is a vessel, it is a servant. How can I serve creators, how can I help the world, and how can I do it in a way that is truly selfless? Obviously, as any Christian would tell you, it's impossible. There was only one person on planet Earth that has ever done that, in Christian doctrine, which is Jesus Christ...
+**Sahil Lavingia:** \[55:41\] Yeah, honestly I think that's a great phrase. I love the term "servant". It's one of my favorite words that I've sort of restumbled upon... And I think the difference between serving and slave, at least in the way that I think about those two words, is that being a servant is a choice; it's an agency-led choice. So I love that word. This idea that you are doing something for someone else because you choose to and you're making their life better, because you want to... I think that is totally how I think about Gumroad right now. It is a vessel, it is a servant. How can I serve creators, how can I help the world, and how can I do it in a way that is truly selfless? Obviously, as any Christian would tell you, it's impossible. There was only one person on planet Earth that has ever done that, in Christian doctrine, which is Jesus Christ...
 
 So I think it's a great mentality. One thing I love about -- whether it's the LDS faith, or any Christian denomination, and really a lot of other faiths too, I think, is that you have this North Star, in a sense. You have an ideal, and sort of acknowledging that you will fail to achieve the ideal, but you can at least try. And to me, that's super-appealing.
 

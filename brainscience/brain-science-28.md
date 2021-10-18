@@ -14,7 +14,7 @@
 
 **Adam Stacoviak:** Yeah, I've always been kind of good at defining things without a definition, without a dictionary nearby... And people are always complimenting me about it, but I'm not sure if this suits or not... I just said it's a misalignment. Conflict happens when there's a misalignment of expectation with another person(s), and it's about perspective, and your response etc, but the tension that remains is I think what most people feel as the conflict.
 
-\[00:04:06.21\] The tension that sort of happens between people when that misalignment or that difference is occurring, that tension is the conflict. And then the conversations that occur after that are a result of the attempts at this resolution. It's really a tough thing, it really is. Conflict happens, and navigating it is a unique, multi-faceted approach, that's for sure.
+\[04:06\] The tension that sort of happens between people when that misalignment or that difference is occurring, that tension is the conflict. And then the conversations that occur after that are a result of the attempts at this resolution. It's really a tough thing, it really is. Conflict happens, and navigating it is a unique, multi-faceted approach, that's for sure.
 
 **Mireille Reece, PsyD:** Yeah. Interestingly enough, the other thing that we sort of -- the thread that gets pulled in is relationship... Because while we can have internal conflict, much of the conflict that is also problematic, be it in the workplace, at home, is in relationships... Because who's the same person? And if I see conflict as this clash of interest, so to speak, or values or perceptions, I would say "Who's got all of the same ones?" Nobody.
 
@@ -28,7 +28,7 @@ At the heart of the process of psychotherapy is helping people get back to a pla
 
 **Mireille Reece, PsyD:** Yup.
 
-**Adam Stacoviak:** \[00:07:54.00\] And I'm not an expert at all the terms, terminology, resolution processes, names for those things... But if you ask me, I will have an opinion on how to resolve it. So that's where I say my knuckles are bloody, and man, do they hurt.
+**Adam Stacoviak:** \[07:54\] And I'm not an expert at all the terms, terminology, resolution processes, names for those things... But if you ask me, I will have an opinion on how to resolve it. So that's where I say my knuckles are bloody, and man, do they hurt.
 
 **Mireille Reece, PsyD:** I think that it's really interesting, especially with people who probably manage teams, that this is more at the forefront of their repertoire of skills. And what I love in having these conversations is recognizing how many things are actually more a skill, as opposed to hardwired into us when we're born. So even if you don't have them, it doesn't mean you can't learn them, right?
 
@@ -60,7 +60,7 @@ But I wanna go back to what you said about the lack of clarity and expectation i
 
 **Mireille Reece, PsyD:** And that's why it's so significant. When you don't have clarity, it's like, "Um, I'm not sure that I can answer that", and now I feel the pressure to respond to you, but I don't know that I can give you an answer, because you haven't given me adequate data in order to do so.
 
-**Adam Stacoviak:** \[00:12:09.05\] Right. That's actually the one conflict that I find myself -- and I learned this lesson from a good friend named Matt a while back... He's the person who taught me this lesson, and I will never forget it; it was essentially that the main conflict I have ever deal with has been somebody didn't do something in alignment with what my expectation is or was of what they should do.
+**Adam Stacoviak:** \[12:09\] Right. That's actually the one conflict that I find myself -- and I learned this lesson from a good friend named Matt a while back... He's the person who taught me this lesson, and I will never forget it; it was essentially that the main conflict I have ever deal with has been somebody didn't do something in alignment with what my expectation is or was of what they should do.
 
 **Mireille Reece, PsyD:** Right.
 
@@ -80,7 +80,7 @@ The lesson there to learn is you can't be angry with somebody for doing somethin
 
 **Adam Stacoviak:** Oh, yeah.
 
-**Mireille Reece, PsyD:** \[00:15:40.11\] Right? I find myself saying this with my family a number of times, of like "Hey, I'm not upset with you. You did not do anything wrong. Mom is stressed because of X, Y or Z", so that they can be like "Whew! Alright..." But it provides for their clarity, because in their mind, they're going "I can sense I have the awareness of something's not right, or upsetting, but it isn't something that I'm responsible for. Mom's acknowledging that she's the one holding it and contributing to the conflict right now." And it really helps then diffuse things, because I owned that, and said "Yup, totally. I'm the one's who's harboring this discontentment and upset, and you get to feel the brunt of it. You're welcome for being my family." \[laughs\]
+**Mireille Reece, PsyD:** \[15:40\] Right? I find myself saying this with my family a number of times, of like "Hey, I'm not upset with you. You did not do anything wrong. Mom is stressed because of X, Y or Z", so that they can be like "Whew! Alright..." But it provides for their clarity, because in their mind, they're going "I can sense I have the awareness of something's not right, or upsetting, but it isn't something that I'm responsible for. Mom's acknowledging that she's the one holding it and contributing to the conflict right now." And it really helps then diffuse things, because I owned that, and said "Yup, totally. I'm the one's who's harboring this discontentment and upset, and you get to feel the brunt of it. You're welcome for being my family." \[laughs\]
 
 **Adam Stacoviak:** That's right... Which does beg a question of perception, too. So if it begins within...
 
@@ -108,7 +108,7 @@ That allowed everyone on the team to have sort of an awareness of what others th
 
 **Adam Stacoviak:** Okay, great. I didn't know that. Give me my doctorate, Mireille. I want it!
 
-**Mireille Reece, PsyD:** \[00:20:05.13\] \[laughs\] The other people in the group get to tell you about you, or sort of provide an example for how you interface with other people, and it's like "Oh, you mean that's how I didn't see anything maladaptive or wrong with what I was doing or how I was interacting", but when you do it like that and I watch it as observer, like "Oh, that doesn't feel very good, and I don't think I want to do that anymore."
+**Mireille Reece, PsyD:** \[20:05\] \[laughs\] The other people in the group get to tell you about you, or sort of provide an example for how you interface with other people, and it's like "Oh, you mean that's how I didn't see anything maladaptive or wrong with what I was doing or how I was interacting", but when you do it like that and I watch it as observer, like "Oh, that doesn't feel very good, and I don't think I want to do that anymore."
 
 **Adam Stacoviak:** Well, having been a gymnastics coach, you must also know that athletes like to video themselves doing whatever they do, so that they can scrutinize themselves. And that's essentially what that gives you; it gives you a lens from which you can be viewed in a way that's loving, respectful, and I would say true and accurate. Because perspective for the sake of perspective, if not loving, not respectful, not true, not accurate - well, that's biased perspective. That's not true perspective. It's skewed, it's distorted, it's all the things different than true, basically.
 
@@ -136,7 +136,7 @@ to be \*drum roll\* the triggering event.
 
 **Mireille Reece, PsyD:** Yeah, it is. There are all sorts of things, and much of what I talk about with patience in the process of therapy is helping them recognize what things got hit in those sort of triggering events. Sometimes I describe it like the one broken leg/two broken leg phenomenon - somebody could have a background, or sort of be wounded because of X, Y or Z, with what they've been through... But then they have round two, the second broken leg, and I don't need to say how much worse the second broken leg is... It's just worse. So if I'm dealing with this stress or challenge at home, and then I go into the workplace and then I feel mistreated in a similar way that I'm treated at home, we go "Boom!"
 
-**Adam Stacoviak:** \[00:24:22.01\] Yeah... The second event or the additional events are amplified as a result of -- it's compound pain, essentially.
+**Adam Stacoviak:** \[24:22\] Yeah... The second event or the additional events are amplified as a result of -- it's compound pain, essentially.
 
 **Mireille Reece, PsyD:** Very well said, yes.
 
@@ -172,7 +172,7 @@ to be \*drum roll\* the triggering event.
 
 **Mireille Reece, PsyD:** And this can lead to a lot of other problems, because if I can't continue on in these phases and I'm stuck in this sort of initiation, or I feel like it's on repeat... You know, it could be like "I don't wanna go back to work", or welcome anxiety, because I'm trying to not encounter that which I feel threatened by, and yet what I'm threatened by is my job, and yet I need my job because I need to pay my rent or my mortgage... But I mean - round and round we go now.
 
-**Adam Stacoviak:** \[00:28:06.23\] Yeah, absolutely.
+**Adam Stacoviak:** \[28:06\] Yeah, absolutely.
 
 **Mireille Reece, PsyD:** So we've gotta move on to what you said, the differentiation phase, where people voice their differences, and the reasons for the conflict are raised in that phase. In the workplace this will look different than, say, between significant romantic partners. I'm gonna share a few more details if it's someone with whom I have a really close relationship... But even with work, to say "Hey, this is culturally where I come from and how I made sense of this, and this is why I followed this map to get where I did, and why I responded X, Y or Z" or "Hey, I was really trying to value or show this that I'm concerned about", wherein the other person would say "Well, that's fine and all, but this is where I was coming from, and that's what I value", and these are not the same.
 
@@ -206,7 +206,7 @@ to be \*drum roll\* the triggering event.
 
 **Adam Stacoviak:** Yeah, I thrive in life when resolution is possible... And the reason why I say "is possible" is because sometimes resolution is not possible. You might have conflict with somebody who's just not willing to resolve the conflict. They almost thrive... People who thrive in conflict, I try to avoid. It's not that I don't love them or wanna care for them in some way, I just compartmentalize them. They have boundaries in my life.
 
-**Mireille Reece, PsyD:** \[00:31:48.26\] Yeah. And we've referenced this in the other episode on empathy - to go "If somebody isn't willing to see my perspective, there's a wall, and I need to then make changes in that relationship, because the resolution phase is probably not going to occur." Because that is two people going "How do we resolve this conflict?" From a legal perspective isn't that you can go to sort of -- oh, what's that called...? Before you even get to arbitration of sorts... Mediation!
+**Mireille Reece, PsyD:** \[31:48\] Yeah. And we've referenced this in the other episode on empathy - to go "If somebody isn't willing to see my perspective, there's a wall, and I need to then make changes in that relationship, because the resolution phase is probably not going to occur." Because that is two people going "How do we resolve this conflict?" From a legal perspective isn't that you can go to sort of -- oh, what's that called...? Before you even get to arbitration of sorts... Mediation!
 
 **Adam Stacoviak:** Yeah, mediation.
 
@@ -228,7 +228,7 @@ to be \*drum roll\* the triggering event.
 
 **Mireille Reece, PsyD:** So you can pitch to where someone is at. So active listening... Emotional intelligence, patience... You talked about impartiality, and this sense of positivity, and open communication. If I'm not open - very much like a drawbridge; there's a moat, and you're not coming over. See ya.
 
-**Adam Stacoviak:** \[00:36:09.25\] Yeah...
+**Adam Stacoviak:** \[36:09\] Yeah...
 
 **Mireille Reece, PsyD:** There's not gonna be a connection or a coming together. There's just going to be irreparation.
 
@@ -250,7 +250,7 @@ to be \*drum roll\* the triggering event.
 
 **Adam Stacoviak:** ...which we'll put in the show notes. We highly recommend that. That's eye-opening to me even, to go back and listen to it... Hey, I go back and listen to our shows, by the way. It's good to understand the power of your choice. Things happen in this world. FOMO happens in this world. Events happen that matter to you, that really don't matter to you. You think they matter to you, and you're just sort of in that space... It really comes back to the choice you make for you, your self-care, your mental health, your personal space, your preferences in life, whatever they might be. You have to understand the power of your choice for you.
 
-**Mireille Reece, PsyD:** \[00:39:53.02\] Yeah. And one little caveat with that is going -- you know, sometimes we all have been through things that make it harder for us to see that we do have choices... That might mean "Hey, I need to get some additional help, or professional help, or support etc." But people want to discount that forced choices are choices. But they are. So you might be very much aversive to the constraints within which you're working, but - okay, you could still choose something else; it just means that there's consequences to that. And that's not good or bad, right or wrong, but going -- if you believe it to suck less or be less upsetting, okay. It's your life, and when you participate in what you have on a routine basis, it changes how you feel about those things, because you own "I chose. Even though I didn't prefer it, it was the better of the bad... But I still got to participate in what I'm experiencing, and that is empowering and equipping."
+**Mireille Reece, PsyD:** \[39:53\] Yeah. And one little caveat with that is going -- you know, sometimes we all have been through things that make it harder for us to see that we do have choices... That might mean "Hey, I need to get some additional help, or professional help, or support etc." But people want to discount that forced choices are choices. But they are. So you might be very much aversive to the constraints within which you're working, but - okay, you could still choose something else; it just means that there's consequences to that. And that's not good or bad, right or wrong, but going -- if you believe it to suck less or be less upsetting, okay. It's your life, and when you participate in what you have on a routine basis, it changes how you feel about those things, because you own "I chose. Even though I didn't prefer it, it was the better of the bad... But I still got to participate in what I'm experiencing, and that is empowering and equipping."
 
 So with that, I think there is some resolution skills that we can talk through... But before we get there, I want to sort of -- I thought this was really interesting, when we were discussing the show... There's actually styles of conflict management, which is pretty predominant in the world of human resources... So there's this instrument called the Thomas-Kilmann Conflict Mode instrument. It identifies five major styles of conflict management. Have you heard of these?
 
@@ -270,7 +270,7 @@ I think about it in the sports realm, of going - you have the owners of teams an
 
 **Adam Stacoviak:** Yeah. That's definitely a team management scenario for sure, because you need to solve the conflict in a way that there's a healthy compromise for everyone... And that's what collaborating does - it recognizes everyone's stake in the game, so to speak, to keep going back to the analogy.
 
-**Mireille Reece, PsyD:** \[00:43:47.20\] Yeah. So you brought in compromise, but this collaborating - I think of it like braiding. Like, "Okay, yours gets to count, and yours gets to count, and we're gonna figure out a way to braid these together, so that everyone's happy." Then that compromising style is "This is just trying to find an expedient, mutually acceptable solution that sort of half-heartedly satisfies both parties, while maintaining a little bit of assertiveness and collaboration." It's like "Meh..." Sort of like one down.
+**Mireille Reece, PsyD:** \[43:47\] Yeah. So you brought in compromise, but this collaborating - I think of it like braiding. Like, "Okay, yours gets to count, and yours gets to count, and we're gonna figure out a way to braid these together, so that everyone's happy." Then that compromising style is "This is just trying to find an expedient, mutually acceptable solution that sort of half-heartedly satisfies both parties, while maintaining a little bit of assertiveness and collaboration." It's like "Meh..." Sort of like one down.
 
 **Adam Stacoviak:** "We have to go one way, so can everybody deal with this? Okay, okay, okay..." It's kind of painful to some, but not everyone.
 
@@ -294,7 +294,7 @@ I think about it in the sports realm, of going - you have the owners of teams an
 
 Look, if you're staying late and doing extra-work and you're taking hits for the team all the time because you're like "Hey, I'm just trying to get it done. I just want to make sure boss is happy, and this is what the boss needs", but you don't tell your team members, and then you're ticked because you're there on a Saturday, or staying late... That doesn't help you or your team or the organization, because it just builds more of that resentment. And you think you're doing it for the benefit of the relationship.
 
-**Adam Stacoviak:** \[00:48:15.27\] Hey, that's misalignment of clarity and expectation, right? Going back to that.
+**Adam Stacoviak:** \[48:15\] Hey, that's misalignment of clarity and expectation, right? Going back to that.
 
 **Mireille Reece, PsyD:** Yup.
 
@@ -330,7 +330,7 @@ Look, if you're staying late and doing extra-work and you're taking hits for the
 
 **Mireille Reece, PsyD:** Yeah.
 
-**Adam Stacoviak:** \[00:51:52.19\] But the conflict is still there, it is still occurring, it has effects... But maybe that's sort of a portion of compromising, the fact that you've all agreed to punt it for a bit... And that is the resolution. But either way, the resolution isn't occurring today, so therefore the pain continues.
+**Adam Stacoviak:** \[51:52\] But the conflict is still there, it is still occurring, it has effects... But maybe that's sort of a portion of compromising, the fact that you've all agreed to punt it for a bit... And that is the resolution. But either way, the resolution isn't occurring today, so therefore the pain continues.
 
 **Mireille Reece, PsyD:** Right. So if I swing back over to then what are some of the skills involved with resolving conflict, one of the most significant things you can do is not jump to the defense.
 
@@ -352,7 +352,7 @@ Look, if you're staying late and doing extra-work and you're taking hits for the
 
 **Adam Stacoviak:** Yeah. Well, Dr. Siegel has that book - it's only in audio form though... It's The Neurobiology of We. It kind of bums me out it's not in text form, because I wanna cite it easier than scanning an audio file... Which is fine, but -- something he'd mentioned as part of that book was "The key to a thriving mind", which... Who doesn't wanna have a thriving mind, right? A thriving mind has so much opportunity. He says "The key to a thriving mind and a strong sense of well-being" - again, who doesn't wanna be well? It's a good thing. "...it's to stay open and connected to others, and to various parts of our own mind." It's this connection.
 
-\[00:56:10.11\] Connection is what enables. Disconnection is what... Disconnects. The reason why we're on this subject at large is because connection is key, connection is important. And because we're a social species, we have to understand the need and the role of others in our lives.
+\[56:10\] Connection is what enables. Disconnection is what... Disconnects. The reason why we're on this subject at large is because connection is key, connection is important. And because we're a social species, we have to understand the need and the role of others in our lives.
 
 **Mireille Reece, PsyD:** Yes. And we need everybody to do themselves as best they can... Because everybody's a singular human, and when each person does their role and where they're at, at whatever point in time, we all do better together. I think about it like learning how to dance - rhythms change, and music tempo switches, but being able to dance is really figuring out when things slow, or music crescendos or decrescendos, and what is my partner's skill, and what is my level of comfort? Relationship is that overlapping circle of the you and me, so we both participate in the we.
 

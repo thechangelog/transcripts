@@ -32,7 +32,7 @@ Then in December I started working on the Go dependency manager, [Dep](https://g
 
 **Erik St. Martin:** I'm curious how many of those you got wrapped into...
 
-**Carolyn Van Slyck:** \[00:04:07.17\] More than I wanted to, probably... I have nothing against Windows; that's my beginning. I guess my frustration is that there's been this bit of a fence between the two communities, and maybe a little bit of looking down from both sides of the fence, which sounds against the laws of physics, but people still manage to do that on both sides... And I would love it to see more people, like Brian, who have kind of embraced that both sides have something really interesting and fun to offer, and it's okay to do both or support both.
+**Carolyn Van Slyck:** \[04:07\] More than I wanted to, probably... I have nothing against Windows; that's my beginning. I guess my frustration is that there's been this bit of a fence between the two communities, and maybe a little bit of looking down from both sides of the fence, which sounds against the laws of physics, but people still manage to do that on both sides... And I would love it to see more people, like Brian, who have kind of embraced that both sides have something really interesting and fun to offer, and it's okay to do both or support both.
 
 **Brian Ketelsen:** That's right. All three, actually. Linux, too.
 
@@ -72,7 +72,7 @@ That's one of the big things - you made a command line tool, it does some \[unin
 
 **Erik St. Martin:** Well, my career definitely goes before that, but IE 6 was probably one of the w-- because that's when people really started trying to do a lot of JavaScript and CSS-based stuff, and you had browser incompatibilities. And then there was just weird ones...
 
-**Brian Ketelsen:** \[00:08:16.01\] You guys are so cute, with your IE 6... I remember back when I was a kid Microsoft sent me Internet Explorer 4 on a CD, because I was a Microsoft certified something or other... Internet Explorer 4 on a CD. I still have it somewhere.
+**Brian Ketelsen:** \[08:16\] You guys are so cute, with your IE 6... I remember back when I was a kid Microsoft sent me Internet Explorer 4 on a CD, because I was a Microsoft certified something or other... Internet Explorer 4 on a CD. I still have it somewhere.
 
 **Carolyn Van Slyck:** You should. You should frame that.
 
@@ -112,7 +112,7 @@ Carolyn's doing awesome work over on Dep as a maintainer for the Dep project, wh
 
 Maybe I should spend more time looking for a job, and less--
 
-**Brian Ketelsen:** \[00:12:19.24\] Well, that's how you become 10x.
+**Brian Ketelsen:** \[12:19\] Well, that's how you become 10x.
 
 **Carolyn Van Slyck:** There you go, yeah.
 
@@ -142,7 +142,7 @@ I'm incredibly lucky, I'm in a position where I had the funds to say "I'm not go
 
 **Brian Ketelsen:** 60 million listeners. \[laughter\] 60 million listeners. Our Nielsen ratings are off the charts. I expect it's gonna be a little crazy now.
 
-**Carolyn Van Slyck:** \[00:16:13.15\] I'm all for that.
+**Carolyn Van Slyck:** \[16:13\] I'm all for that.
 
 **Carlisia Thompson:** I have a couple questions too about your beginnings. At that point when you said "Okay, I'm going to take time off and work on Dep full-time for a while", at that point how much Go experience did you have? And my other question is "How did you becoming an official maintainer for Dep happen?" Was it like you got a notification one day, or the conversation you had with Sam Boyer - was that what did it? How did it happen? What was the benchmark that made you go from non-maintainer to maintainer?
 
@@ -162,7 +162,7 @@ Sam noticed that and said "Hey, I've noticed that you're not just submitting stu
 
 **Carolyn Van Slyck:** Yeah, every time you get feedback like that it kind of helps give you that emotional recharge to go back out and do more things in the community... At least that's what I think. When I go to a meetup sometimes, even when a meetup doesn't go well last night I turned into a drowned rat and got totally rained out, and then had to give a talk dripping wet on the concrete at a [Chicago Gophers](https://www.meetup.com/Chicago-Gophers/), and it was really hard to be like "Why did I do this? I had to pay money to drive here, to park in downtown Chicago, and then give a very wet presentation...", but then people talked to me afterwards and it was all worthwhile.
 
-**Brian Ketelsen:** \[00:20:10.04\] So let me recap here for just a minute... You've given a talk at GopherCon, which is the most prestigious conference in the world, you are a maintainer of Dep, and you talked at the Chicago Go meetup, too?
+**Brian Ketelsen:** \[20:10\] So let me recap here for just a minute... You've given a talk at GopherCon, which is the most prestigious conference in the world, you are a maintainer of Dep, and you talked at the Chicago Go meetup, too?
 
 **Carolyn Van Slyck:** This was my first talk, at the Chicago Gophers...
 
@@ -206,7 +206,7 @@ We make little \[unintelligible 00:21:18.06\] so we'll get together and then we'
 
 **Carolyn Van Slyck:** Yeah. First of all, when you're getting paid to do something other than Go all day, it's really hard to say -- it's the weekend, the kids are outside playing and you're like "No, but I'm gonna go read a book and then go through some coding exercises." So figuring out ways to sneak in using Go when someone's paying you - in my opinion that's kind of the trick. No one at Rackspace set out to pay me to do stuff with Go, I just kind of asked for forgiveness later, and tried to pick off things that weren't critical to our business path. It was a safe kiddie pool for me to learn Go. So what I kind of picked off was a Bash script.
 
-\[00:24:22.26\] The nice thing about that - you'll find the little scripts. Usually every team has dev tools, little things that help their CI along, or commit hooks, things like that... They're usually written in Bash, or Python, or something like that, and the beauty of it is someone already wrote it; they've identified something, you know exactly how it works, and all you have to do is the port. You have to just figure out how to convert Bash or Python to Go. You don't have to come up with a revolutionary idea, you don't have to rewrite a to-do list or whatever (name something like that). Or a Slack bot is another good one. I mean, even if you just make a silly one...
+\[24:22\] The nice thing about that - you'll find the little scripts. Usually every team has dev tools, little things that help their CI along, or commit hooks, things like that... They're usually written in Bash, or Python, or something like that, and the beauty of it is someone already wrote it; they've identified something, you know exactly how it works, and all you have to do is the port. You have to just figure out how to convert Bash or Python to Go. You don't have to come up with a revolutionary idea, you don't have to rewrite a to-do list or whatever (name something like that). Or a Slack bot is another good one. I mean, even if you just make a silly one...
 
 One of the Women Who Go made a Slack bot that you could say Welcome to someone to the Women Who Go channel, and it would go to [gopherize.me](https://gopherize.me/) and make them a custom gopher. Those are all just like nice, little things you can do, and usually you can sneak that into your day job to try out Go and do things with it, and it'll kind of get more people working on things, because you know, someone next to you wrote something in Go, and then you see that, it gets checked in, you start using it, and then someone else on your team might pick it up, and that kind of helps give legitimacy and momentum to what you're doing, instead of just "I'm the random person who really wants to play with the shiny things." Instead of it being a shiny thing, you're using it to get stuff done on the job.
 
@@ -222,7 +222,7 @@ I haven't had a single person be mean to me when I say something like that. Ever
 
 **Carolyn Van Slyck:** Yeah. In an open source community, even if you don't have something to do -- I started to run out of Go things to do at work, and that's where I started looking around and I saw Dep and I kind of jumped on that and started working on it. And it's really intimidating at first to contribute to a new project, especially when you're like "I'm a beginner, what on Earth could I do?", but usually the littlest things are sometimes the things that are most often overlooked by the people who are doing the heavy lifting from day to day.
 
-\[00:27:56.22\] When we went into GopherCon, we had a readme and I think it was written in December, and there was no reality to that readme; it did not reflect how the tool worked at all at that point. And to the last day on the community day, I sat down at a table with like six people and we said "Let's make docs, let's do this." Some people didn't know Go at all, but it didn't matter. They took the tool, they used it, and their beginner perspective was incredibly valuable to us. I had been using things at this point long enough that I just didn't see the rough patches. We made a bunch of issues when things didn't work the way they should, and at the end of GopherCon we had a readme that worked. Our FAQ was much more organized, and we made that big announcement and there was something to back it. It wasn't just "Well, you guys are all gophers, go figure it out." We actually had enough information there to help people really understand how to use it and just boost the likelihood that anyone would stick with it.
+\[27:56\] When we went into GopherCon, we had a readme and I think it was written in December, and there was no reality to that readme; it did not reflect how the tool worked at all at that point. And to the last day on the community day, I sat down at a table with like six people and we said "Let's make docs, let's do this." Some people didn't know Go at all, but it didn't matter. They took the tool, they used it, and their beginner perspective was incredibly valuable to us. I had been using things at this point long enough that I just didn't see the rough patches. We made a bunch of issues when things didn't work the way they should, and at the end of GopherCon we had a readme that worked. Our FAQ was much more organized, and we made that big announcement and there was something to back it. It wasn't just "Well, you guys are all gophers, go figure it out." We actually had enough information there to help people really understand how to use it and just boost the likelihood that anyone would stick with it.
 
 **Erik St. Martin:** I wanted to make a comment too about the timeline, too. I think when people try to pick up a language or contribute to a project and stuff like that, I think people can beat themselves up over time, too... And we don't realize -- like you said, if you can sneak it in at work, you can learn it a lot faster. For most people it's really hard to just in your pastime acquire some new skillset unless you have no family and things like that. And it's the perception, right?
 
@@ -232,7 +232,7 @@ So having history to show that "At least I have looked into this and it appeals 
 
 **Carolyn Van Slyck:** Yeah, not everyone is fortunate -- so, I have no excuse to use Go other than Dep right now... But another thing I'm trying to get experience with is Kubernetes, which is kind of in the Go cloudy world... And with no real things to do, I decided to set up my home network Kubernetes, and then figure out what home automation jobs I can run on it. I don't have a barbecue cooker or anything like that; I don't have Raspberry Pi's monitoring my hog outside or anything...
 
-\[00:32:08.15\] For example, I just got a new NAS, and it has Plex on it and it lets you stream movies to your TV... So as a present for my husband, I've been converting all of our Blu-rays and DVDs onto it, because getting up from the couch to watch a movie is, you know, a real problem in our household.
+\[32:08\] For example, I just got a new NAS, and it has Plex on it and it lets you stream movies to your TV... So as a present for my husband, I've been converting all of our Blu-rays and DVDs onto it, because getting up from the couch to watch a movie is, you know, a real problem in our household.
 
 **Brian Ketelsen:** Oh, it's terrible.
 
@@ -270,7 +270,7 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Carolyn Van Slyck:** I would love to continue working in the open source space in some way, working on cloud infrastructure. When I worked on the Carina product I just loved it. I used to work in - I'm taking a little jog here for a second, but it will go somewhere... I used to work at a big enterprise company with draconian IT, and the thought of ever getting your own cloud or running something on AWS or getting a VM in less than three months was a pipe dream. And whenever -- at Rackspace we were able to say "Here's a container. Run something, and you don't need to get an approval or acquisition" - it was just magic, and giving that to the customers... I loved it. I've enjoyed my 17 years of doing app development, but right now I really would like to empower other devs -- I know it sounds so silly, but I love devs; I'd rather they were my customers than people with money. This is why I'm having trouble finding a job.
 
-\[00:36:05.01\] But I love working in open source, and I like running stuff in the cloud, I love playing with all these things, and I'd like to make the software that runs the cloud, I guess... Anyone's cloud. I'm not picky.
+\[36:05\] But I love working in open source, and I like running stuff in the cloud, I love playing with all these things, and I'd like to make the software that runs the cloud, I guess... Anyone's cloud. I'm not picky.
 
 **Brian Ketelsen:** That narrows it down nicely, and I know [Heptio](https://heptio.com/) is hiring, so I think we should make a phone call to Kevin and Joe over at Heptio and make an introduction. That's a good start. They're probably listening now, because everyone listens to GoTime.
 
@@ -322,7 +322,7 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Carolyn Van Slyck:** Yes.
 
-**Erik St. Martin:** \[00:39:50.16\] I also ran across two really cool libraries for Go. Well, one of them is something implemented in the first, but it's an interactive prompt library. It's ridiculously cool. It's called [go-prompt](https://github.com/c-bata/go-prompt), and it has some fun tab completion and stuff. If you click the link in the doc, you can kind of see how it works.
+**Erik St. Martin:** \[39:50\] I also ran across two really cool libraries for Go. Well, one of them is something implemented in the first, but it's an interactive prompt library. It's ridiculously cool. It's called [go-prompt](https://github.com/c-bata/go-prompt), and it has some fun tab completion and stuff. If you click the link in the doc, you can kind of see how it works.
 
 **Brian Ketelsen:** Wow...
 
@@ -372,7 +372,7 @@ So sometimes there's things you can do that scratch your own itch, that give you
 
 **Brian Ketelsen:** Hang on, I'm behind the curve, but I did star a couple projects that were interesting... Oh, we talked about Go-tracing last week, right? So there's a good project written in Go for JS, [Vecty](https://github.com/gopherjs/vecty), that's really cool. Vecty is the GopherJS framework that looks a lot like React, but it's native Go that compiles down to [GopherJS](https://github.com/gopherjs/gopherjs) and it's really cool.
 
-\[00:44:05.20\] And there's a person that wrote their own portfolio website in GopherJS in Vecty and it's actually been the most reasonably attainable article on how to do GopherJS, how to do Vecty. It's at www.marwan.io/blog, and there's a [Writing a Simple UI With GopherJS blog post](http://www.marwan.io/blog/simple-ui-gopherjs-vecty) on there. I'll drop that in the Slack because it's a particularly good read. It was the first time I thought "Oh, maybe I could understand this whole front-end thing."
+\[44:05\] And there's a person that wrote their own portfolio website in GopherJS in Vecty and it's actually been the most reasonably attainable article on how to do GopherJS, how to do Vecty. It's at www.marwan.io/blog, and there's a [Writing a Simple UI With GopherJS blog post](http://www.marwan.io/blog/simple-ui-gopherjs-vecty) on there. I'll drop that in the Slack because it's a particularly good read. It was the first time I thought "Oh, maybe I could understand this whole front-end thing."
 
 **Erik St. Martin:** I'm gonna have to play with that. I still haven't done much on GopherJS.
 
@@ -410,7 +410,7 @@ So it's less like the projects she's done. She's done amazing work with Jupyter 
 
 **Brian Ketelsen:** Nice!
 
-**Erik St. Martin:** \[00:47:58.21\] Yeah, so huge shoutout to [Ramya](https://twitter.com/ramyanexus) for all the work she does on that, and to all the other contributors. I had a lot of fun playing with it this week. I'm still very much itching to use Vim, but she was on the show before GopherCon and I promised after things lightened up a little bit after GopherCon that I would give it a good Go... So that's what I've been working with this week.
+**Erik St. Martin:** \[47:58\] Yeah, so huge shoutout to [Ramya](https://twitter.com/ramyanexus) for all the work she does on that, and to all the other contributors. I had a lot of fun playing with it this week. I'm still very much itching to use Vim, but she was on the show before GopherCon and I promised after things lightened up a little bit after GopherCon that I would give it a good Go... So that's what I've been working with this week.
 
 **Brian Ketelsen:** [Code](https://code.visualstudio.com/) is pretty awesome, there's no doubt about it.
 

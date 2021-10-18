@@ -10,7 +10,7 @@ So first we are focusing on creating a runtime that will let developers use WebA
 
 **Jerod Santo:** I understand why you would want to run WebAssembly in the browser... I guess where I'm missing it, and where I'm gonna need your help - and I obviously am missing it, because lots of people are excited about this, I just don't get it yet - is why would you want to run WebAssembly outside of the browser, server-side when you could just write... Like, the example you give is NGINX (let's just take that) running via WebAssembly. But why can't I just compile NGINX and run it? Why run WebAssembly in-between, so to speak?
 
-**Syrus Akbary:** \[00:04:23.13\] The main reason for using WebAssembly there is because it provides a way of running binaries universally. Right now, if you're using NGINX, to run NGINX in your system you need to compile it specifically for your platform and architecture. That means if you're in Linux, you need to compile it for your Linux distribution and the certain architecture that you are using; in Windows you need to compile it in a different way... And this is super-tedious.
+**Syrus Akbary:** \[04:23\] The main reason for using WebAssembly there is because it provides a way of running binaries universally. Right now, if you're using NGINX, to run NGINX in your system you need to compile it specifically for your platform and architecture. That means if you're in Linux, you need to compile it for your Linux distribution and the certain architecture that you are using; in Windows you need to compile it in a different way... And this is super-tedious.
 
 So that means you need to distribute the source code and let the developer compile the source code itself to be able to use it. We believe it will be much nicer if we provide universal binaries that can be used across any platform or architecture, without actually any further change. So your same nginx.wasm could run in Linux, could run in Windows, in Macintosh, or eventually in your phone, without any change. We believe that's gonna be really big.
 
@@ -30,7 +30,7 @@ The second thing is it started from the need of executing performant code on the
 
 With this first bridge, what Emscripten did is basically designing an interface that will help on executing this code on the browsers. And how they did it is by creating wrappers around the syscalls that actually don't exist in the browser. For example, for opening a file, or actually opening a socket, or closing a socket - all that they did is creating a set of syscalls that work, and are just fake, but reply with the same structure that WebAssembly was suspecting. This set of syscalls is, on the Emscripten side, is something like 200, but there are other implementations that actually require to implement much less syscalls.
 
-\[00:08:24.22\] So the truth of the fact here is at the end, with a set of more or less like 50 real syscalls, you can implement almost all the calls that any native library or native binary will need to do to talk with the operating system, and that will be enough. And in general, this set of syscalls will be, again, like opening a file, closing it, reading its contents, opening a socket... I don't know, maybe getting a random number, and things like that.
+\[08:24\] So the truth of the fact here is at the end, with a set of more or less like 50 real syscalls, you can implement almost all the calls that any native library or native binary will need to do to talk with the operating system, and that will be enough. And in general, this set of syscalls will be, again, like opening a file, closing it, reading its contents, opening a socket... I don't know, maybe getting a random number, and things like that.
 
 **Jerod Santo:** So at the end of the day there's only about 50 - is that what you're saying? ...that you have to implement for any particular platform.
 
@@ -52,7 +52,7 @@ There will be some WebAssembly binaries that are compiled using Emscripten, and 
 
 **Jerod Santo:** Can you explain what ABI means, and what that entails?
 
-**Syrus Akbary:** \[00:11:41.07\] ABI is Application Binary Interface, but what it really means - it's an interface that you use for having your syscalls. So it just has a set of syscalls that is defined. There are something like 30 different ways of opening a file; so what is the open function, how many arguments received, and how many types output - that will be the definition of the open function. But then the ABI might have other syscalls. Basically, the ABI will mainly define what is this set of system call functions, what are their inputs and what are their outputs, and that's it. That's what an ABI is. A famous ABI, for example, is Libc; MingGW is another one, based on Libc... So there are multiple.
+**Syrus Akbary:** \[11:41\] ABI is Application Binary Interface, but what it really means - it's an interface that you use for having your syscalls. So it just has a set of syscalls that is defined. There are something like 30 different ways of opening a file; so what is the open function, how many arguments received, and how many types output - that will be the definition of the open function. But then the ABI might have other syscalls. Basically, the ABI will mainly define what is this set of system call functions, what are their inputs and what are their outputs, and that's it. That's what an ABI is. A famous ABI, for example, is Libc; MingGW is another one, based on Libc... So there are multiple.
 
 **Jerod Santo:** Okay, so an ABI is like an API, but it's a binary interface, and that means that there's specific contracts or agreements of how you're going to access certain functions inside the binaries... Am I understanding it correctly?
 
@@ -80,7 +80,7 @@ There will be some WebAssembly binaries that are compiled using Emscripten, and 
 
 CloudABI, for example, was another potential ABI for WebAssembly, but regarding WASI, WASI actually fits much better with what WebAssembly needs... Because CloudABI was not designed with WebAssembly in mind.
 
-**Break:** \[00:15:10.08\]
+**Break:** \[15:10\]
 
 **Adam Stacoviak:** So it seems like what this direction that was taken is just like being able to not limit certain types of applications to a certain platform. Almost akin, Jerod, to your stop-limiting your open source libraries potential, where you write something for React, or jQuery, or a certain language, and you're using X, and you can't use it in Y. It's almost like we're going that direction to get to this universal binary, run anywhere, whether it's NGINX, SQLite, or whatever; being able to be on every platform, and not limiting what it can run on.
 
@@ -100,7 +100,7 @@ The difference from a WebAssembly module and a WebAssembly instance is you can s
 
 One of the things that we are doing here at Wasmer is trying to make it very easy to call WebAssembly or to use these WebAssembly modules outside of JavaScript. We've just integrated an extension into PHP, so you can for example take this face detection library .wasm and use it from your PHP code, just instantiating the WebAssembly module and then calling a function that exists on this WebAssembly module, for instance.
 
-**Jerod Santo:** \[00:20:07.03\] I'm sitting over here, thinking about graphical interfaces...
+**Jerod Santo:** \[20:07\] I'm sitting over here, thinking about graphical interfaces...
 
 **Syrus Akbary:** Yeah.
 
@@ -134,7 +134,7 @@ Talking about Java, there is a very interesting project called TeaVM. This VM ac
 
 **Syrus Akbary:** Yeah. For example, right now we are actually working on having the PHP interpreter in WebAssembly. There is already a project that targets web, so we are trying to just complete the syscalls needed to actually get the PHP interpreter in WebAssembly. And we are super-close.
 
-\[00:24:08.26\] Then you can start seeing how the ecosystem will grow into a place where you can install these universal libraries - PHP, Python, or whatever - in a way that is super-localized and doesn't require you to compile the project itself for using it.
+\[24:08\] Then you can start seeing how the ecosystem will grow into a place where you can install these universal libraries - PHP, Python, or whatever - in a way that is super-localized and doesn't require you to compile the project itself for using it.
 
 **Adam Stacoviak:** That's a good point. What is the installation process currently? Will we ever see a package manager for this, or is there a package manager for this?
 
@@ -176,7 +176,7 @@ Talking about Java, there is a very interesting project called TeaVM. This VM ac
 
 **Jerod Santo:** How long have you been working on this stuff, and how did you initially get that insight? What were you up to when you stumbled upon this When did you see the light, and why?
 
-**Syrus Akbary:** \[00:28:04.14\]First, I started developing on open source for a long time. Funnily enough, I released a graphical library for Python. That was about three years ago. While I was trying to create this framework, at some moment basically I dropped my job and I created a company solely focused on this graphical framework for Python. So at that moment I was trying to compete with companies that actually were much more funded than me, because I didn't get any money from investors... So at that moment - the way to compete against them is "Okay, I'm gonna make this library available in more languages, but without making the effort of recreating the same framework in another language."
+**Syrus Akbary:** \[28:04\]First, I started developing on open source for a long time. Funnily enough, I released a graphical library for Python. That was about three years ago. While I was trying to create this framework, at some moment basically I dropped my job and I created a company solely focused on this graphical framework for Python. So at that moment I was trying to compete with companies that actually were much more funded than me, because I didn't get any money from investors... So at that moment - the way to compete against them is "Okay, I'm gonna make this library available in more languages, but without making the effort of recreating the same framework in another language."
 
 I was taking a look at writing to WebAssembly, and I started basically researching more into WebAssembly and what I can do with it, and what can be done, and I then realized that WebAssembly can be the perfect bridge to compile my framework to WebAssembly, and then be used across any language. So that's what was the first idea. Then from that I started realizing WebAssembly can also be big not just for universal libraries, but also for universal binaries.
 
@@ -190,7 +190,7 @@ So what I saw is because of these startup times were super-low, and because the 
 
 We can see this, for example, is a very compelling thing for WebAssembly... But not just in this case. You can start thinking on running things localized, of where you are at right now. And the cool thing is this binary can be shipped very easily to the remote place where it will be executed. I believe that's also gonna be big, and we are seeing a lot of pushing from the industry towards that.
 
-**Break:** \[00:32:02.23\]
+**Break:** \[32:02\]
 
 **Adam Stacoviak:** The way we had connected with you was through Joseph Jacks; go back to the show we did with him -- Jerod, what's the number of that show, by the way? Look it up for me real quick... He introduced us to you, I'm assuming, because of his interest in the funding of future commercial open source companies, and things like that that he has a general interest in. I'm curious what the back-story is into that.
 
@@ -204,7 +204,7 @@ Basically, they are a VC firm that is completely focused on open source projects
 
 In the long-term, how we will make money will be more on the decentralized computing platform, or we can call it edge computing. That's how we'll make money. But that's not something that we are focused on right now.
 
-\[00:36:01.05\] We are a team of six engineers. The cool thing... Fun fact - before working as CEO of Wasmer, I was CTO at Try.com, and in there it was so hard to find good developers... Because we were in the fashion industry, and developers in general are not interested about fashion... But with Wasmer instead I got much more reach from people that were interested in working in this area. So the cool thing is it was very easy to get people that are very passionate into WebAssembly, and trying to attract them. It was actually not a very challenging thing... I guess because people can foresee what WebAssembly will be in the future, and they wanna be part of that.
+\[36:01\] We are a team of six engineers. The cool thing... Fun fact - before working as CEO of Wasmer, I was CTO at Try.com, and in there it was so hard to find good developers... Because we were in the fashion industry, and developers in general are not interested about fashion... But with Wasmer instead I got much more reach from people that were interested in working in this area. So the cool thing is it was very easy to get people that are very passionate into WebAssembly, and trying to attract them. It was actually not a very challenging thing... I guess because people can foresee what WebAssembly will be in the future, and they wanna be part of that.
 
 **Adam Stacoviak:** So is it safe to say that this discussion we've been having -- we've just discussed in the last section how we're seeing a potentially bright future of universal binaries and libraries, and this beautiful world that could potentially take over the Electrons, the Homebrews, or the AppGets, whatever... That between now and then, you and your team are sacrificing and investing into a long-term future. I think that's one interesting area of open source -- obviously, open source is free, but you've gotta somehow sustain yourselves until that day comes, right?
 
@@ -226,7 +226,7 @@ I'm curious though, because when the herds form, people get slaughtered. Hopeful
 
 **Syrus Akbary:** Yes, completely. I think as a business, what we are trying to do is trying to get as much a stake of that as you can, so that when people are trying to come in, you will really have a very good position, so you can remain stronger. I guess that's one of the attractions of WebAssembly - is this starting to take off? Is this still early? But we will start seeing more companies and more companies approaching this space; we'll see how the ecosystem improves and matures... And from that, the companies that are there from the start probably will be in a very good place.
 
-**Jerod Santo:** \[00:40:11.06\] One thing I'd like to revisit is you talking about this package manager that you're excited to be releasing. You said there's "wapm install" or whatever it is, and you download sqlite.wasm from a repository... Is this an attempt of becoming the Npm for WebAssembly? Because I think Npm would like to be the Npm for WebAssembly.
+**Jerod Santo:** \[40:11\] One thing I'd like to revisit is you talking about this package manager that you're excited to be releasing. You said there's "wapm install" or whatever it is, and you download sqlite.wasm from a repository... Is this an attempt of becoming the Npm for WebAssembly? Because I think Npm would like to be the Npm for WebAssembly.
 
 **Syrus Akbary:** Yes. I mean, Npm is actually trying to be the package manager for WebAssembly... But the truth is Npm is designed with JavaScript in mind. The way packages work in Npm is very different from how we think it should work with WebAssembly. We are designing a package manager from the ground up, designed explicitly for WebAssembly. That means what kind of ABI you wanna use for your WebAssembly module, how they are going to interoperate... Because of that, we believe we cannot reuse a package manager that already exists, and we need to create something that is completely tailored to the WebAssembly needs.
 
@@ -256,7 +256,7 @@ I think in the future we'll start seeing -- maybe the next generation of a brows
 
 **Adam Stacoviak:** .chat.
 
-**Syrus Akbary:** \[00:43:45.28\] Yeah, .chat. Yes, we've got a Spectrum.chat where we are talking with the community. I think the URL is wasmer.spectrum.chat. If anyone wants to enter, that's one way we communicate. The other thing that we'll start doing is start being more \[unintelligible 00:43:59.09\] into the WebAssembly specification itself, to help shape it for the future. But in general, all these things -- because we are also users, so for our own libraries. Basically, what we ship, we use it internally. And because of that, it helps us to shape it in a way that actually will feed a lot of different scenarios... And the way we approach this is we create a prototype, and from there we gather information from the community, to see if basically the designs that we are doing matches different scenarios that I think we should cover... And from that, it's just a conversation, and trying to do something that will fit a lot of use cases in the long-term.
+**Syrus Akbary:** \[43:45\] Yeah, .chat. Yes, we've got a Spectrum.chat where we are talking with the community. I think the URL is wasmer.spectrum.chat. If anyone wants to enter, that's one way we communicate. The other thing that we'll start doing is start being more \[unintelligible 00:43:59.09\] into the WebAssembly specification itself, to help shape it for the future. But in general, all these things -- because we are also users, so for our own libraries. Basically, what we ship, we use it internally. And because of that, it helps us to shape it in a way that actually will feed a lot of different scenarios... And the way we approach this is we create a prototype, and from there we gather information from the community, to see if basically the designs that we are doing matches different scenarios that I think we should cover... And from that, it's just a conversation, and trying to do something that will fit a lot of use cases in the long-term.
 
 **Adam Stacoviak:** Do you wanna give any shout-outs to anybody that's been on your team, that's really done some amazing stuff? It sounds like you've got a pretty solid team going on there, maybe even some dream collaborations, other organizations really digging into WebAssembly that you wanna give a shout-out to, or say "Hey, reach out and talk to us!:
 

@@ -16,7 +16,7 @@
 
 **Suz Hinton:** I think that's an excellent segue into the type of topic that we're focusing on for CSS in this particular episode. That's really cool. I wanted to talk firstly about the fact that we do tend to revisit CSS as questioning the cascade, talking about modern approaches to it and things like that in different cycles, I guess, and this does come around a lot...
 
-\[00:04:11.18\] And I wanted to bring up an article that Kball actually wrote really recently, and I thought it was really interesting. It caused a bit of a discussion around a Twitter CSS kerfuffle... So I will actually pass to Kball and ask him to introduce what he wrote the article for, what the reasoning was, and also just a little bit of background as well.
+\[04:11\] And I wanted to bring up an article that Kball actually wrote really recently, and I thought it was really interesting. It caused a bit of a discussion around a Twitter CSS kerfuffle... So I will actually pass to Kball and ask him to introduce what he wrote the article for, what the reasoning was, and also just a little bit of background as well.
 
 **Kevin Ball:** Sure. A little over a week ago there was one of these big kerfuffles that seems to go around over and over again with discussing the value of CSS. There's kind of a camp within the JavaScript community that tends to make pretty dismissive statements about CSS and the value of CSS, and saying "Oh, this is an old and outdated technology" and "Cascade is broken" and "We should be doing all of our CSS in JavaScript." And there's another camp within the web development community that tends to say "No, that's wrong. CSS is really powerful. If you don't think it's working, you don't understand it."
 
@@ -26,7 +26,7 @@ I think one thing that we need to be very cognizant of is the moment that a disc
 
 This was something that I had seen particularly a lot of women bring up. The CSS world is interesting because it's one of the few areas in technology where many of the dominant people are women; some of the top teachers in this space, the top people involved in the spec - I'm thinking people like Rachel Andrew, I'm thinking people like Jen Simmons... It's one of the rare areas in our industry that is much more dominated by women. So I'd seen some of these cultural conversations coming up about a lot of the dismissal of CSS actually being able to be viewed in a gender context. I started digging into that more and found that this is actually not that uncommon in the tech industry, for areas that are women-dominated, if men start to try to get into them, they start to try to push and change the cultural conversation and exclude things... And I thought "Well, I could write something about that, and I'm a privileged white man. Maybe different people would be able to hear that differently than they do or don't hear it coming from women", which I'm not sure that that was the case. I think we should talk about it a little bit; the reactions were very bi-polar... But that's kind of the background.
 
-\[00:08:07.18\] The blog post is titled "CSS dismissal is about exclusion, not technology", and kind of talking through the history of this and highlighting that we have a lot of challenges to address in this area, and that a lot of the discussion is starting to look like essentially trying to push people who traditionally do CSS out of saying "Oh, those aren't real front-end developers. If you're focused on CSS, you're not really doing engineering", and that that has a privilege and a gender component.
+\[08:07\] The blog post is titled "CSS dismissal is about exclusion, not technology", and kind of talking through the history of this and highlighting that we have a lot of challenges to address in this area, and that a lot of the discussion is starting to look like essentially trying to push people who traditionally do CSS out of saying "Oh, those aren't real front-end developers. If you're focused on CSS, you're not really doing engineering", and that that has a privilege and a gender component.
 
 **Suz Hinton:** I think that this is a really excellent point, and it's something that just in the Women in Tech backchannels I see this topic come up a lot... So I definitely think that this is a valid point of view.
 
@@ -38,7 +38,7 @@ After the first three months, I was the only woman left in my bootcamp, and I ca
 
 But I think that had an impact on me, even if it was in a joking way, where the more that they kind of teased and picked on me, the more I wanted to kind of break that mold and focus more on the back-end and more just in JavaScript. I'll also say too not only that, but just... You know, my personality is just that where I always kind of search for something that I think - and here's the key here, that I THINK is going to be the most challenging. So being that CSS was kind of picked on as being not a real (you know, real programmers don't focus on CSS), I wanted to focus on what I thought was gonna be the hardest.
 
-\[00:12:08.19\] So all that to say that's why I decided to really try to go the JavaScript route and really not focus on front-end. I really wanted to do full stack, so I could do a lot more on the back-end... But just in the JavaScript space, you know, there's so much more opportunity right now on the front-end.
+\[12:08\] So all that to say that's why I decided to really try to go the JavaScript route and really not focus on front-end. I really wanted to do full stack, so I could do a lot more on the back-end... But just in the JavaScript space, you know, there's so much more opportunity right now on the front-end.
 
 After about two years of doing full-stack, that's when I went to front-end and realized that I had kind of like fallen victim to this mindset that CSS was dumb, and not for real programmers... And I think I had to have a check with myself, because if I wanted to call myself a front-end developer and I'm handed a very complex layout, I should be able to implement the styles for that layout, just like the functionality in the JavaScript.
 
@@ -52,7 +52,7 @@ I think it's really interesting that CSS is seen as easy, which again is just a 
 
 **Aimee Knight:** I was gonna say, and I think this is potentially what spawned the blog post that you wrote - I've been giving this CSS talk, which is a CSS talk, but really at the end of the day I think it's more a talk about understanding browser internals and how the browser goes through this whole rendering process... And Max Stoiber tweeting out this little CSS quiz, I've had very similar results.
 
-\[00:16:10.06\] In this talk I give, I have what I would consider a pretty simple specificity quiz, and I would say of the people in the audience - I've given this to rooms of 300, to smaller rooms, but on average, I would say there's really only one or two developers in the room who usually know the answer to the little specificity quiz that I have.
+\[16:10\] In this talk I give, I have what I would consider a pretty simple specificity quiz, and I would say of the people in the audience - I've given this to rooms of 300, to smaller rooms, but on average, I would say there's really only one or two developers in the room who usually know the answer to the little specificity quiz that I have.
 
 So it's interesting to me -- I like to say that there are tradeoffs for everything, and that's just the honest truth... But I think if you're going to pick one side or the other, you should at least understand the trade-offs you're making and understand how CSS is working, so that you can make an educated decision.
 
@@ -78,7 +78,7 @@ I do think there's also something to be -- I think we're gonna talk about a lot 
 
 Taking CSS aside, WordPress is a really interesting example. As a developer, I love to hate on WordPress. For people who are trying to get content sites up and are perhaps not super technical, I recommend it every day. So having that distinction between "Well, this isn't my technology of choice, but I can see that there's still value there for different types of people", and if I were to say "No, you absolutely should not do WordPress", I'm actually doing an incredible disservice to a huge number of people.
 
-**Suz Hinton:** \[00:19:50.29\] Yeah, I think it's extremely hard, in my opinion, to be able to say that any decision you make as a human has absolutely no emotion in it and is 100% logical. I think that's a huge fallacy that people try to perpetuate in this culture, so I'm really glad that you made that point, Kevin.
+**Suz Hinton:** \[19:50\] Yeah, I think it's extremely hard, in my opinion, to be able to say that any decision you make as a human has absolutely no emotion in it and is 100% logical. I think that's a huge fallacy that people try to perpetuate in this culture, so I'm really glad that you made that point, Kevin.
 
 **Aimee Knight:** So true.
 
@@ -88,11 +88,11 @@ Then there was another wave of much more mixed genders who was saying "Oh my gos
 
 **Aimee Knight:** That's so true, and I think it takes a good bit of introspection to be proactive in putting yourself out there like that, but it's so valuable... To yourself and to the people around you, to the community.
 
-**Break:** \[00:22:17.07\]
+**Break:** \[22:17\]
 
 **Suz Hinton:** So we've danced around the topic a little bit when we were discussing some parts of your article, Kball, but we wanted to focus this segment on specifically what exactly is CSS in JS, given that it is a new(ish) approach to being able to develop front-end applications that need specific styling... And for me, a very loose definition of what I understand CSS in JS to be is that some approaches might move away from having a single or multiple cascading style sheet files, and moving CSS to be defined more on a very heavily-scoped level by creating CSS styles with JavaScript code itself, and a lot of the time, as I said, heavily scoped - it's scoped down on a component level, especially when using frameworks such as React, or Vue, or Ember, or Angular, or something like that. Is that sort of on the same page as everyone else, or do you see it to be a little bit more broader than that?
 
-**Aimee Knight:** \[00:24:32.04\] That makes sense to me. I would say one point of clarification for people who haven't really looked into this much is sometimes people assume CSS in JS to mean it's actually applying a style attribute, but that's just inline style. CSS in JS would actually be applying a style sheet.
+**Aimee Knight:** \[24:32\] That makes sense to me. I would say one point of clarification for people who haven't really looked into this much is sometimes people assume CSS in JS to mean it's actually applying a style attribute, but that's just inline style. CSS in JS would actually be applying a style sheet.
 
 **Suz Hinton:** Got it.
 
@@ -106,7 +106,7 @@ So I think your definition, Suz, of basically being able to scope styles program
 
 **Kevin Ball:** I can critique a lot of things about CSS in JS, but let's actually highlight some of the places where it really shines. One of the things where we see a lot of folks who are really going whole hog into CSS in JS and where it is extremely valuable is in development environments where you have very large numbers of components, particularly developed by large numbers of teams, or across different teams, where having to worry about anything that is in any way global is a huge headache... So you want to be able to scope things down.
 
-\[00:28:34.01\] Now, one of the interesting things to me about the CSS debate, one of the big critiques that people make of it is "Oh, globals are always bad", and I think we found in programming that tends to be true; globals are very hard to reason about, and I think that's one of the big challenges in CSS.
+\[28:34\] Now, one of the interesting things to me about the CSS debate, one of the big critiques that people make of it is "Oh, globals are always bad", and I think we found in programming that tends to be true; globals are very hard to reason about, and I think that's one of the big challenges in CSS.
 
 The thing I want to highlight there is thinking about domains... People's reaction to a product visually is global, it is not isolated. People perceive a product as a whole. If you ever go and walk through a demo with somebody who is non-technical and is using your application, you'll be shocked at the ways in which they don't think about it the way you as an engineer thinks about it; they're not looking at "Oh, that's a component, and that's a thing down in there." They're just having a global perception.
 
@@ -116,7 +116,7 @@ I would actually highlight that while there are some things that are extremely v
 
 **Aimee Knight:** I almost feel like the tradeoffs kind of depend on the team. I know for me, when I was really trying to learn CSS, apart from the basics I had learned, what was challenging to me is kind of like you're saying... When I was writing JavaScript, I'm used to really thinking about things in isolation, and CSS is just not designed to work that way. There are side-effects, and those side-effects, from my understanding of reading old blog posts and people's thoughts who have been in this for a while is that CSS was designed that way on purpose. All that to say, if the people on a team are used to these side effects and actually use these side effects to their advantage, because they understand them, having things scoped by default could actually be confusing. But if you have a team of people who feel more comfortable in JavaScript and are not really up to date with the nuances of CSS and how these different side effects all kind of communicate with each other, then having things scoped is gonna be helpful.
 
-**Kevin Ball:** \[00:32:02.25\] Well, there are some things for which scoping is necessary, or extremely valuable, right?
+**Kevin Ball:** \[32:02\] Well, there are some things for which scoping is necessary, or extremely valuable, right?
 
 **Aimee Knight:** Yes.
 
@@ -134,7 +134,7 @@ There's lots of other challenges that you run into... I think there's maintainab
 
 So while there are absolutely situations where completely scoped CSS in JS is the right solution, one should be very aware of the tradeoffs you're making to do that.
 
-**Nick Nisi:** \[00:36:04.17\] I think you can live in both worlds, as well. Angular, for example, has the ability to do inline styles or reach out to a separate style sheet, but then it's going to scope all of that to the component you're working on... But then you can have any number of top-level style sheets that are just applied to the page; you could have anything that needs to be utilized by all of the components that you might be making - it can be up in the global scope, but then anything that's structural to that component can be scoped specifically to that, so you're not bleeding that out anywhere that shouldn't be.
+**Nick Nisi:** \[36:04\] I think you can live in both worlds, as well. Angular, for example, has the ability to do inline styles or reach out to a separate style sheet, but then it's going to scope all of that to the component you're working on... But then you can have any number of top-level style sheets that are just applied to the page; you could have anything that needs to be utilized by all of the components that you might be making - it can be up in the global scope, but then anything that's structural to that component can be scoped specifically to that, so you're not bleeding that out anywhere that shouldn't be.
 
 **Aimee Knight:** I don't think this is probably the case for a lot of people, but maybe potentially more beginner developers... The thing I see a lot happened is people reaching for JavaScript to still do things like animations, and that, like you were saying, is going to have a performance hit, because the browser is going to use the GPU for these animations, whereas if you're using JavaScript to do them, it's using the CPU and it's going to be a lot slower.
 
@@ -146,7 +146,7 @@ I think it was Sarah Drasner who famously tweeted at some point that she had see
 
 Sure, that might allow you to have less CSS bugs, because you find that particular library a good experience to use, but you are still pushing that tradeoff off onto the user. And it's interesting, if CSS is getting these extra features, even things such as custom properties and variables and things like that, there's no reason why we shouldn't be going back to revisit it, because we do have a direct advantage in using those features, and those features are being developed for us... And being able to provide that feedback is something that I really admire that Rachel Andrews pushes. If no one is using these new features, then you're not gonna be able to have them be developed into even better quality features for us to use... So this cycle perpetuates where we're trying to reinvent things.
 
-**Break:** \[00:40:17.25\]
+**Break:** \[40:17\]
 
 **Suz Hinton:** So in the previous segment we danced around a couple of different approaches to CSS in JS, but for this segment I wanna dive a little bit deeper into just a couple of examples, just so that people can get a feel of what the differences are between several different approaches. Nick do you have a particular strategy that you've either used and liked, or have just been able to play with for a little bit?
 
@@ -164,7 +164,7 @@ This goes back to this idea of like "Do it in HTML. If you can't do it in HTML, 
 
 **Aimee Knight:** I guess I can chime in with what I've been using the most; our team is also using CSS Modules, and I think the decision for that -- so I actually have not been writing any CSS at the job that I'm at now, because I'm no longer at Warner Brothers, because I actually did wanna get back into JavaScript land... So we have a designer who does all of our styles. But I think that they probably chose CSS Modules because it seems like a little bit of a happy medium if you're not ready to go all-in with JavaScript. It kind of gives you some of the benefits where you can kind of have -- I guess you would think of it as like automating Vim; you can encapsulate things without going all-in with JavaScript.
 
-**Kevin Ball:** \[00:47:36.18\] Yeah. Suz, I think you were mentioning you could talk to this, but I can also talk to it - I've been using Vue quite a bit recently, and they have an approach where within a single-file component you can use CSS Modules, so you could do a module type of a style thing, that's within a single-file component it gets compiled to a CSS module... But you could also do just scoped components, which isn't quite as rigorous. It uses kind of a data attribute on the component to scope your styles to that component, and the distinction that gets made is with a scoped component it actually applies to that component in every child thereof, whereas with the CSS modules it keeps it straight within your code, and I think that actually gives you also a really nice way to get this kind of combination effect.
+**Kevin Ball:** \[47:36\] Yeah. Suz, I think you were mentioning you could talk to this, but I can also talk to it - I've been using Vue quite a bit recently, and they have an approach where within a single-file component you can use CSS Modules, so you could do a module type of a style thing, that's within a single-file component it gets compiled to a CSS module... But you could also do just scoped components, which isn't quite as rigorous. It uses kind of a data attribute on the component to scope your styles to that component, and the distinction that gets made is with a scoped component it actually applies to that component in every child thereof, whereas with the CSS modules it keeps it straight within your code, and I think that actually gives you also a really nice way to get this kind of combination effect.
 
 I particularly like the scoped approach, because I think if you want to lean into the cascade, but you also want to have some level of isolation to just this component or have this only be loaded when that set of sub-components is loaded, it gives you a really nice way to do that.
 
@@ -178,7 +178,7 @@ There could be reasons why that would have gotchas in it, but I found that to be
 
 **Suz Hinton:** That looks really cool. I'm absolutely gonna check that out. That's using the Stripe page, you said?
 
-**Nick Nisi:** \[00:51:11.09\] It was originally based off of that. I think it's changed a little bit.
+**Nick Nisi:** \[51:11\] It was originally based off of that. I think it's changed a little bit.
 
 **Suz Hinton:** Oh, cool. Yeah, I feel like there are just so many approaches right now, and the biggest thing when you start along this path is just choosing something and feeling like you don't wanna waste your time on something that's not gonna work for you at all... So this was really helpful.
 
@@ -200,7 +200,7 @@ I wanted to touch on something that hasn't been mentioned yet, that is sort of s
 
 **Kevin Ball:** Exactly. Yeah, the Babel analogy is exactly right. One, it lets you polyfill things transparently for a very large number of things, which is extremely valuable; it's something we've had in JavaScript for a while, but haven't really had in CSS... But two, Babel has completely revolutionized the speed of change and improvement in the JavaScript language - having that feedback loop; that tight ability to test these new things out before they get fully resolved and inspected and laid out has just been incredible. It's taken JavaScript from what was essentially a moribund language to being the most dynamically changing language in the world, and now we're talking about that for CSS. It's great.
 
-**Nick Nisi:** \[00:54:05.15\] I'd like to just take a step back and explain what Houdini is from a high level, just in case you haven't heard of it... Because a lot of people haven't, like me. It's really a collection of APIs that allows you to get into the rendering context of the browser, and it allows you to get in there and change things about how CSS lays things out. So there's a layout API, a paint API, a parser API (which is what you'd be able to use to create your own CSS syntax), and then from there there's things like worklets, that allow you to run code parallel to the other JavaScript code that you're writing; something that's like a worker, but then have access to the 2D rendering context, kind of similar to Canvas objects... So you can actually do a lot more animation-friendly things just by writing and using custom CSS rules.
+**Nick Nisi:** \[54:05\] I'd like to just take a step back and explain what Houdini is from a high level, just in case you haven't heard of it... Because a lot of people haven't, like me. It's really a collection of APIs that allows you to get into the rendering context of the browser, and it allows you to get in there and change things about how CSS lays things out. So there's a layout API, a paint API, a parser API (which is what you'd be able to use to create your own CSS syntax), and then from there there's things like worklets, that allow you to run code parallel to the other JavaScript code that you're writing; something that's like a worker, but then have access to the 2D rendering context, kind of similar to Canvas objects... So you can actually do a lot more animation-friendly things just by writing and using custom CSS rules.
 
 **Suz Hinton:** Do you think it's going to replace a lot of CSS in JS techniques? Or where do you think it can smooth over things the best if we take it back to some of the problems that CSS in JS is solving?
 
@@ -216,7 +216,7 @@ I wanted to touch on something that hasn't been mentioned yet, that is sort of s
 
 **Kevin Ball:** I do think one of the things that we've seen in some scenarios is having somebody willing to lead the charge like that can often be a catalyst for change. Once you have it out there and people are actually using it and demonstrating the value, then the rest of the browser vendors can come along behind, and we've seen more enthusiasm about that broadly of late. I think one actually really interesting example of that is (in sort of a funny way) Safari with iOS.
 
-\[00:57:21.16\] There are a whole bunch of mobile-specific browser techniques that were introduced by Safari first, and then have kind of gotten standardized across because they were useful... And this is a place where Chrome is really blazing ahead, which is not uncommon, but if we could get a lot of demonstration of the value of this, it may encourage the other browser vendors to push forward.
+\[57:21\] There are a whole bunch of mobile-specific browser techniques that were introduced by Safari first, and then have kind of gotten standardized across because they were useful... And this is a place where Chrome is really blazing ahead, which is not uncommon, but if we could get a lot of demonstration of the value of this, it may encourage the other browser vendors to push forward.
 
 **Suz Hinton:** Does anybody have any more resources for those who wanna get started with either Houdini or CSS in JS?
 

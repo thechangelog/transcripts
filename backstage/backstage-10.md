@@ -40,7 +40,7 @@ But yeah, I've been listening to Changelog for a few years now. I don't know exa
 
 **Owen Bickford:** You had your header frame, your menu frame on the side, and then your content frame off to the right... So that's where I started, just kind of handwriting HTML files for what you'd think of as a post, or an article now. You'd go in and just type everything right there in the HTML files. I don't think we had an IDE back then. It was all probably Notepad.
 
-**Jerod Santo:** \[00:04:14.11\] A guy at least rocked Notepad++, or something...
+**Jerod Santo:** \[04:14\] A guy at least rocked Notepad++, or something...
 
 **Owen Bickford:** In public school -- I don't know if it was licensing, or if no one knew that it existed... We were using Windows Notepad to do everything. Then we probably graduated to Dreamweaver at some point.
 
@@ -84,7 +84,7 @@ I wrote a lot of bad code, but I was learning jQuery to get started, learning ES
 
 **Jerod Santo:** So how did you get interested in Elixir then?
 
-**Owen Bickford:** \[00:07:48.17\] This is an interesting question. So because I was trying to figure out what immutable data meant - this was something that you'd hear from Dan Abramov, and sometimes in these React talks... Data is immutable. Functional programming - I was trying to understand what that meant... So I started doing searches on that, and Elixir started popping up, so I would watch talks about Elixir... I've watched hours and hours and hours of talks. Way more watching than actual coding.
+**Owen Bickford:** \[07:48\] This is an interesting question. So because I was trying to figure out what immutable data meant - this was something that you'd hear from Dan Abramov, and sometimes in these React talks... Data is immutable. Functional programming - I was trying to understand what that meant... So I started doing searches on that, and Elixir started popping up, so I would watch talks about Elixir... I've watched hours and hours and hours of talks. Way more watching than actual coding.
 
 So I was really impressed with the talks, and everything they were saying made sense. It was hard for me to actually jump in and write code. I didn't understand anything about modules, or the bigger application design... Because it's pretty different from a traditional JavaScript application, at least compared to what I was writing.
 
@@ -102,7 +102,7 @@ Anyway, once I got that -- I wouldn't say "mastered", but once I got a lot more 
 
 I've dabbled a little bit in Python, and things on the Raspberry Pi as well. But as far as like the YouTube stuff... So for me, at least up to this point, the things made more sense is documentation - sometimes it's hard to read and actually sink in... So if I'm trying to learn a new concept -- I can't think of an example, but if there's something that's kind of going over my head with documentation, or the written words, then I'll look it up on YouTube. Or if I'm just trying to kill time and I don't have anything to do, that's where I'll fire up some YouTube content, if I've already finished up my hours of podcast or the day.
 
-**Jerod Santo:** \[00:12:10.16\] \[laughs\]
+**Jerod Santo:** \[12:10\] \[laughs\]
 
 **Owen Bickford:** So yeah, I've listened to a lot of Jose's talks, and some of the core team members... I think the funny thing with those talks is you can kind of -- it's really interesting how some people just really have some kind of innate ability to present, and then everyone else is just an engineer; like they're really, really smart...
 
@@ -136,7 +136,7 @@ I know Spotify is trying to get into that game as they are moving into podcastin
 
 **Jerod Santo:** Yeah, so we've been dabbling, and you've seen a little bit of what we've been doing. I've been trying to think of different styles of content we can put on YouTube. I've come up with a few different (what I call) series, or types of things... The one that you were watching was a jam session, I think, which is really kind of a free-form, long-form... Exactly what it sounds like. Like, "I've never done this before, let's try it out. Let's go on a jam session, turn on some music and code." Which is kind of the easiest thing to do in video.
 
-\[00:15:59.01\] And then I have another series called kicking the tires, which is really supposed to be like an intro to a tool, or to a concept, especially relating it back to the things that we have on the show. So I did one for Algo VPN after we had the creator on the Changelog, so there's a nice little back and forth there. And I'm trying to keep those five or ten minutes.
+\[15:59\] And then I have another series called kicking the tires, which is really supposed to be like an intro to a tool, or to a concept, especially relating it back to the things that we have on the show. So I did one for Algo VPN after we had the creator on the Changelog, so there's a nice little back and forth there. And I'm trying to keep those five or ten minutes.
 
 I can't remember which one you watched. Was it the live dashboard?
 
@@ -182,7 +182,7 @@ Some people really like a short video. The one I watched today was from Chris Mc
 
 So it's kind of like they're walking me through code, I'm the person who's the neophyte, and I'm asking questions, and they're explaining why they made that decision, or how this thing works, top to bottom. That's another idea. I haven't tried that one yet, but that's on my list of video styles to try. I haven't seen too much of that on YouTube, where you kind of have -- it's not pair programming; it's like a walkthrough with an expert, and then with a non-expert who is a developer, so I know the kind of questions to ask.
 
-**Owen Bickford:** \[00:20:17.14\] Well, are you getting enough, or too many contributions to the Changelog repos?
+**Owen Bickford:** \[20:17\] Well, are you getting enough, or too many contributions to the Changelog repos?
 
 **Jerod Santo:** Um... So the Changelog is a weird open source project. We're not open source so that we can be a community-built platform. We're open source because we love open source, and we love to do everything in the open... And because, especially when we first wrote the CMS, there was no prominent production-grade Elixir/Phoenix apps that people could go to and either use as a reference, or learn...
 
@@ -228,7 +228,7 @@ That being said, anytime somebody comes in and makes my life better or easier, l
 
 Let's talk about what happened. So I had a video, a jam session, and I'm coding up some Phoenix LiveView stuff, which is requiring me to change my mix dependencies, change some commonly-used files, like my endpoints, or my application.exe, and my router, and stuff like that... And because I'm on this little 13-inch MacBook Pro and I've got multiple monitors going, and I have ScreenFlow recording my machine, and I have Elixir doing its thing, and I probably have other software running as well that I can't think of right now - every time I save a file and Elixir needs to recompile, it's dog-slow. My computer just dogs down... Which doesn't make for very good video, does it...? "Oooh, and we're compiling...!"
 
-**Owen Bickford:** \[00:24:50.16\] I'm gonna scrub this video; if our feed gets cut off, I'm sorry. I'm just scrubbing; I wanted to check something here in that video...
+**Owen Bickford:** \[24:50\] I'm gonna scrub this video; if our feed gets cut off, I'm sorry. I'm just scrubbing; I wanted to check something here in that video...
 
 **Jerod Santo:** Yeah, so I'm just like, as I record this video, I have all these moments where basically I'm just waiting for my Elixir app to recompile... Which was painful. And I'm talking about how it's painful on the episode, on the video. And then you must have suffered through it alongside me, because then you opened up an issue a day or two later on our GitHub repo, saying basically "Yeah, that was painful. We should fix this." \[laughter\]
 
@@ -274,7 +274,7 @@ Let's talk about what happened. So I had a video, a jam session, and I'm coding 
 
 **Owen Bickford:** So kind of the excellent thing about Elixir is it builds on Erlang, and the compiler can take advantage of whatever cores you have on your machine, and whatever threads, if it's multi-threaded. So while Elixir doesn't do multi-threading internally per se, the compiler can use all the threads that are available on your computer. So with a dual core you're really constrained. So you're waiting longer for each of these files to compile.
 
-\[00:28:13.02\] I just built a Linux machine for the first time. It's an 8-core Ryzen. It wasn't really suffering quite as much with those 220 files. It would take a couple of seconds... But I could see in the video it would take several seconds --
+\[28:13\] I just built a Linux machine for the first time. It's an 8-core Ryzen. It wasn't really suffering quite as much with those 220 files. It would take a couple of seconds... But I could see in the video it would take several seconds --
 
 **Jerod Santo:** Yeah, it could be 30 seconds.
 
@@ -322,7 +322,7 @@ Let's talk about what happened. So I had a video, a jam session, and I'm coding 
 
 **Jerod Santo:** Well, I'm glad we didn't scare you away.
 
-**Owen Bickford:** \[00:31:59.07\] No, not at all. I'm actually pulling up -- is that issue still open? Let's see... Yup, okay. So this was issue number 314 on that Changelog.com repo. So let's see... Yeah, once you kind of acknowledge that this was something to look at -- at this point I still had no idea what I was actually gonna have to do to fix the problem, and I'd read these two articles, and I started working on it after a few days, and kind of struggling with "Did I bite off more than I can chew? Am I the right person to do this? Should I have just done this and then pushed it after the fact? Why am I doing this in public?"
+**Owen Bickford:** \[31:59\] No, not at all. I'm actually pulling up -- is that issue still open? Let's see... Yup, okay. So this was issue number 314 on that Changelog.com repo. So let's see... Yeah, once you kind of acknowledge that this was something to look at -- at this point I still had no idea what I was actually gonna have to do to fix the problem, and I'd read these two articles, and I started working on it after a few days, and kind of struggling with "Did I bite off more than I can chew? Am I the right person to do this? Should I have just done this and then pushed it after the fact? Why am I doing this in public?"
 
 So anyway, I kind of sort through all that internal stuff and start coordinating with people, and then I started seeing interest from other people as well. You had commented a couple times, we got Nick who commented... And then I kind of -- I was kind of keeping track of things I was running into, just because I knew that if I would put it at least in a comment, someone would be watching and have something to say about it.
 
@@ -346,7 +346,7 @@ He pushed a pull request where he made some changes, and reduced a few of those 
 
 **Owen Bickford:** The whole problem here is that whenever you import a module in Elixir, it kind of brings in all the functions and macros. I think the macros come in as well, but it imports at least all the functions into the target module that you're importing into... So then whenever you make a change to that parent module, it has to recompile all of the children modules that are -- you know, those functions need to be updated at that point.
 
-**Jerod Santo:** \[00:36:02.01\] The dependent ones, right.
+**Jerod Santo:** \[36:02\] The dependent ones, right.
 
 **Owen Bickford:** Right.
 
@@ -378,7 +378,7 @@ So you can kind of daisy-chain a list of functions to transform some data. Typic
 
 **Owen Bickford:** For the script though, and for the compiler, the problem was that it would kind of -- once you would update the first function that needed to be updated, then that second function was in a different place. So it would go on to the next function, start to update it, but all the characters were kind of getting mangled. So I kind of dumbed down the script a little bit; I just used a regular expression Find & Replace just within that single line of code. That solved that problem. It just wound up with maybe two or three lines where I had to go in and manually correct a meta tag that was a description. So there was a description function, there was also an attribute on that tag for description, so it would kind of append the module to both...
 
-**Jerod Santo:** \[00:40:27.12\] Yeah, it's like a namespace conflict where you have a function call a description, and then you also have the HTML element attribute description...
+**Jerod Santo:** \[40:27\] Yeah, it's like a namespace conflict where you have a function call a description, and then you also have the HTML element attribute description...
 
 **Owen Bickford:** Right. So once those were sorted out -- and that was kind of the simpler way to get this done without having to wait for the compiler updates later this year. So once I did that, I kind of wrote up the problems I ran into, how I got around those, and then Wojtek chimed in that yeah, this was something they were already aware of, and they actually had been discussing a new feature within Elixir. I think this applies to the compiler, where it can update the formatting of a function without depending on its position within a line of code. So I think it will go in more to like the AST, which -- that one's still a little bit over my head, but it'll go into the actual structure of the code and start renaming things instead of looking at the text.
 
@@ -402,7 +402,7 @@ So importing other people's code is nice ergonomics, it's compile-time stuff... 
 
 **Owen Bickford:** And with our IDEs now, you get tab completion. If you have to alias a module name, and it's like \[unintelligible 00:43:52.28\] then you don't have to type the first couple of characters anyway, to get the full name. But with aliases, you kind of accomplish nearly the same thing, without having to worry about all the cross-module dependencies.
 
-**Jerod Santo:** \[00:44:15.04\] Right.
+**Jerod Santo:** \[44:15\] Right.
 
 **Owen Bickford:** Instead of getting the full domain name of that module, you get just the last section. Or you can even give it a custom alias for a particular module.
 
@@ -428,7 +428,7 @@ I think there's good evidence that a complete stranger can clone the repo and ma
 
 **Owen Bickford:** Yeah. Especially with a big open source project, it gives you a lot of confidence. You can have your CI builds running those tests automatically, and then people can kind of do whatever they want with the code, but it doesn't make it into your repo if it's not passing those tests. And I've still got a lot to learn myself about actually writing tests, but... It was nice that those were already done and I could just kind of check what I was doing against those tests.
 
-**Jerod Santo:** \[00:47:58.29\] Yeah, I think a lot of the reticence against test writing is once you start trying to do it, you realize that writing tests can often be harder than writing the actual implementation. And so it's like, "Well, it's hard enough to write the code. I also have to write the tests", and then you realize your code is hard to test, which actually is a nice smell that your API isn't well designed, which is one of the selling points of TDD - people will say that that test is your first user of your implementation, and your test will tell you that your implementation is difficult to test, therefore it's difficult to use, and you will actually change your API design to allow your tests to be easily written. I've found that to be true sometimes, and also false in other cases, in my experience, where I feel like sometimes I'm designing my API for the test, but then I'm not using it that way in my other code... Anyways, that's a tangent as well. But yeah, testing is not easy, and writing good tests takes time and experience.
+**Jerod Santo:** \[47:58\] Yeah, I think a lot of the reticence against test writing is once you start trying to do it, you realize that writing tests can often be harder than writing the actual implementation. And so it's like, "Well, it's hard enough to write the code. I also have to write the tests", and then you realize your code is hard to test, which actually is a nice smell that your API isn't well designed, which is one of the selling points of TDD - people will say that that test is your first user of your implementation, and your test will tell you that your implementation is difficult to test, therefore it's difficult to use, and you will actually change your API design to allow your tests to be easily written. I've found that to be true sometimes, and also false in other cases, in my experience, where I feel like sometimes I'm designing my API for the test, but then I'm not using it that way in my other code... Anyways, that's a tangent as well. But yeah, testing is not easy, and writing good tests takes time and experience.
 
 **Owen Bickford:** I've got a book around here somewhere, but -- yeah, I cracked open the "Property-Based testing with the PropEr." That one's kind of written for -- I think primarily for Erlang, but they do give you Erlang and Elixir code. That one definitely -- once I started working on my own Elixir applications, or if I can start working on that day job, then I'll be... I think property-based testing makes more sense, because you define kind of like your schema; you're providing a bunch of general information about what you want from your application and from the modules... And then it will just generate some random test data, and then make sure that it's handling things that you couldn't imagine --
 

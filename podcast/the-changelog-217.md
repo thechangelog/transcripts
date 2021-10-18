@@ -38,7 +38,7 @@ Plans are just 10 bucks a month to get full-load access, run VMs, runs container
 
 **Beyang Liu:** I happened to get the version of the calculator that came with like the 500-page reference manual, which not all versions come with. But this thing, it's got everything you ever would want to know about the TI-83 calculator. It includes a section at the back that teaches you how to write the dialog of BASIC that they have on the calculator. So when I was taking the bus back and forth from school, I would just kind of like take that book out and just try to program stuff on the calculator in my spare time, program some cool animations or some automated formula, calculators... That's kind of how I got into it. I liked it enough that after that my school offered a computer science class, I ended up taking that. Had a great teacher but …
 
-**Jerod Santo:** \[00:04:25.10\] Can I stop you for a second Beyang?
+**Jerod Santo:** \[04:25\] Can I stop you for a second Beyang?
 
 **Beyang Liu:** Yeah.
 
@@ -92,7 +92,7 @@ Beyang: Yeah, you know... I'd like to think I had so noble of a mentality back i
 
 **Beyang Liu:** Yeah.
 
-**Jerod Santo:** \[00:08:12.10\] Take us from where you just left off, bring us all the way back up to the near present, which was July 2015. How did you get there?
+**Jerod Santo:** \[08:12\] Take us from where you just left off, bring us all the way back up to the near present, which was July 2015. How did you get there?
 
 **Beyang Liu:** Yeah, so I went to college. I wanted to do something math and science-related. After I took the very first CS class at Stanford, I kind of knew that this was probably the right thing, at least for the next four years, so I declared the major. I was fortunate enough to be accepted into a research lab as an undergrad. Stanford has this great undergrad research program called CURIS.
 
@@ -106,7 +106,7 @@ Quinn and I are both CS majors by background, so we both kind of had this pain t
 
 We felt that kind of day-to-day pain as programmers, but the experience at Palantir kind of showed us that this is a problem that's not just relevant to programmers now, it's actually relevant to, say, the top leadership at one of the big five banks in the US. Because what we realized was right now we were kind of at this point where software is becoming mainstream, and what I mean by that is, you know, it used to be that for non-technology companies - technology companies that are outside Silicon Valley - software engineering was kind of an afterthought or just a small department, or they might outsource it to some other firm. But these days it's becoming more of a core competency. More and more of the core logic of the business is actually captured in the logic of code. That's what we realized working at Palantir with the types of customers that we were working with.
 
-\[00:12:07.16\] What we realized was as painful as it was or us, the pain was felt ten times as much outside the Silicon Valley, where companies aren't traditionally steeped in all the different processes and principles that we kind of soak up being immersed in the software development world, on how to run an engineering team, and what tools to use to find the answers to everyday questions.
+\[12:07\] What we realized was as painful as it was or us, the pain was felt ten times as much outside the Silicon Valley, where companies aren't traditionally steeped in all the different processes and principles that we kind of soak up being immersed in the software development world, on how to run an engineering team, and what tools to use to find the answers to everyday questions.
 
 So we kind of took a step back and were like, "Hmm, this seems like a solvable problem." You know, code is just another form of data, and at Palantir we were building all these fancy tools for other sorts of knowledge workers to analyze their data sets, but the tools that we seemed to be using as programmers, both at Palantir and at some of the customer sites that we were working with still seemed kind of primitive.
 
@@ -126,7 +126,7 @@ Then we spent kind of the next maybe a year-and-a-half to two years, just buildi
 
 We were a company at that point by then, but we were still relatively small. I think we only had a handful of people, but we had a good amount of traction by then, at least in open source. It seemed like we were definitely onto something and it was exciting to go to GopherCon and kind of share the tool that we had built with the people and kind of see their reaction.
 
-**Jerod Santo:** \[00:15:58.21\] Yeah. It's interesting that you said a very similar sentiment when we interviewed you for BeyondCode that you just said here few minutes ago. And what you said then in the last summer was, "In the next 10 to 20 years, every interesting company is going to become a software company at its core." This seems like an insight that you've had over time and continued to believe to this day.
+**Jerod Santo:** \[15:58\] Yeah. It's interesting that you said a very similar sentiment when we interviewed you for BeyondCode that you just said here few minutes ago. And what you said then in the last summer was, "In the next 10 to 20 years, every interesting company is going to become a software company at its core." This seems like an insight that you've had over time and continued to believe to this day.
 
 **Beyang Liu:** Yeah. There have been a couple additional points of validation, I think. Have you guys seen General Electric's most recent ad campaign? I think they aired it during the Superbowl, where they're kind of rebranding themselves. They're a digital company that happens to do infrastructure.
 
@@ -144,9 +144,9 @@ Obviously, you've kind of teed up some of the ideas for which Sourcegraph was bu
 
 So let's pause here, take a break. When we come back, we dive a little further in.
 
-**Break:** \[00:19:04.00\]
+**Break:** \[19:04\]
 
-**Adam Stacoviak:** \[00:20:14.13\] Alright, we are back with Beyang Liu, CTO of Sourcegraph. Beyang, before we took the break we obviously got an explainer of exactly what Sourcegraph is, but it goes much deeper than this. I'm not sure if you coined this term or not, if this was The New Stack or Susan Hall who wrote this article, but the title is "Sourcegraph aims to be the Google for code."
+**Adam Stacoviak:** \[20:14\] Alright, we are back with Beyang Liu, CTO of Sourcegraph. Beyang, before we took the break we obviously got an explainer of exactly what Sourcegraph is, but it goes much deeper than this. I'm not sure if you coined this term or not, if this was The New Stack or Susan Hall who wrote this article, but the title is "Sourcegraph aims to be the Google for code."
 
 And being a public utility for all developers out there, being able to look up functions and dive into different usages of open source, whether it's private or public, help us understand the beginnings of this company, what this company was founded upon and why you actually built it in the first place?
 
@@ -162,7 +162,7 @@ So that was kind of the itch that we were scratching. A couple of other points o
 
 The other point of inspiration that we took was I had previously done internship inside of Google, and Google internally actually has this great utility. If you ever meet a software engineer who works in the main Google codebase and you ask him what they think about Google Code Search , I guarantee you they will say it's the best thing since sliced bread. Just ask him how many times they use it every day, how often they have it open in some browser tab, and they'll tell you, "60, 70, even 80% of time I just have it open as a reference."
 
-\[00:23:57.02\] And so seeing the value that that provided inside Google and also just missing that tool and not seeing it anywhere else in kind of the outside world just made us want to build something like that, but something that could handle the entire universe of code, and kind of empower every individual developer out there to go and take advantage of this giant corpus of human knowledge that is open source code and code inside your company, and kind of stand on the shoulders of giants, so to speak.
+\[23:57\] And so seeing the value that that provided inside Google and also just missing that tool and not seeing it anywhere else in kind of the outside world just made us want to build something like that, but something that could handle the entire universe of code, and kind of empower every individual developer out there to go and take advantage of this giant corpus of human knowledge that is open source code and code inside your company, and kind of stand on the shoulders of giants, so to speak.
 
 **Jerod Santo:** Definitely, it bit off a big problem in terms of just surface area, I think, with things to do. Because even once you have the analysis done, you're collecting all the data - I'm sure you guys have some sort of crawler or something that's spanning the different code bases and finding other pieces of code that can go index - then you have developers using all these different environments, their editors, you have how many languages...? Was it ever overwhelming to say, "How can we provide support for all these popular editors and then across all these languages, to where we're really gonna provide a holistic solution for people?"
 
@@ -174,11 +174,11 @@ And then underneath you just have to build a bunch of translators from different
 
 **Jerod Santo:** It's like the adapter pattern for languages.
 
-**Beyang Liu:** Yeah, exactly. It takes it from O\[n2\] or O\[nm\] problem to an O\[n\] problem. \[00:27:25.21\]
+**Beyang Liu:** Yeah, exactly. It takes it from O\[n2\] or O\[nm\] problem to an O\[n\] problem. \[27:25\]
 
 **Jerod Santo:** Right. So that was where you started. What I would like to find out about is the schema that it gets translated into. What are the bits and bobs that you guys need for each of these - the normalized version - and then how do you store those?
 
-**Beyang Liu:** \[00:27:50.00\] Yeah, the schema, it's a graph schema. The schema is in the name of the company, the Sourcegraph. It's literally like a graph of source code. There's three fundamental concepts in the schema. One is kind of the AST node. Once you've parsed the code, this is like the essence of the code. Once you have the AST, then you can kind of derive every other fact about the code that you need from that and you can also translate it back to text. I guess you could say it's like the natural form of code as data.
+**Beyang Liu:** \[27:50\] Yeah, the schema, it's a graph schema. The schema is in the name of the company, the Sourcegraph. It's literally like a graph of source code. There's three fundamental concepts in the schema. One is kind of the AST node. Once you've parsed the code, this is like the essence of the code. Once you have the AST, then you can kind of derive every other fact about the code that you need from that and you can also translate it back to text. I guess you could say it's like the natural form of code as data.
 
 And then in addition to the AST node, the things that really lead us to build useful features on top of it are two concepts: a definition and a reference. So a definition is a function declaration or a class declaration or a variable definition somewhere in the code. It's basically anywhere you define a name in code.
 
@@ -198,7 +198,7 @@ As far as the business case is concerned, we really think the value we're gonna 
 
 For instance, you may not have the time or the capacity to write the language analyzers that would conform it to SourceLib, but the Elm community, when they see you can use Sourcegraph on GitHub and then look at the Go code and see what it does, they think "Oh, I want that." They're gonna get excited, they might actually build that for you. And then on the other side you have your editors or your plugins and you guys have a same situation there, maybe the Atom community says, "Why don't we have a Sourcegraph for Atom?" Or not Sourcegraph, but maybe something that adapts the SourceLib for Atom, and then they can do that. So it seems like a great business case, for it's also beneficial to all of us as open sourcers, as we don't have to be dealing with building this stuff.
 
-**Beyang Liu:** \[00:32:31.12\] Yeah, exactly. You know, there are so many use cases out there for a library like that that we're not gonna be the ones to think of, that someone else is gonna think of it. That's exactly what happened when we released it. There were a lot of people in the community that kind of reached down and say, "Hey, I wanna build out support for this editor or this language." And it actually helped us on the business side, too. One of the companies that uses Sourcegraph is Twitter and we're deployed to Twitter's entire Scala code base.
+**Beyang Liu:** \[32:31\] Yeah, exactly. You know, there are so many use cases out there for a library like that that we're not gonna be the ones to think of, that someone else is gonna think of it. That's exactly what happened when we released it. There were a lot of people in the community that kind of reached down and say, "Hey, I wanna build out support for this editor or this language." And it actually helped us on the business side, too. One of the companies that uses Sourcegraph is Twitter and we're deployed to Twitter's entire Scala code base.
 
 There they reached out at a point where we didn't even have Scala support, but one of their engineers wanted this so bad, because he had also been a previous Google engineer and so he wanted something kind of like Google Code Search. So they actually built out Scala support as kind of a hacking project and we kind of took it from there.
 
@@ -220,7 +220,7 @@ It's great to have the source code of your product just publicly available, beca
 
 **Adam Stacoviak:** And it's just like an open invitation to do that. I'm kind of curious though, whenever you search with Sourcegraph or do any of the stuff that you do, like this being able to search a function or whatever, what sources are behind Sourcegraph? Like what do you come... like how does that work?
 
-**Beyang Liu:** \[00:35:49.17\] So we crawl a lot of the major open source code repositories. So GitHub, Bitbucket... Currently we crawl mainlyfully-formed code repositories. In the future, we might also wanna do snippets that are just found in blog posts and Q&A forums on the Internet, but right now it's just a kind of like the go-to places where most open source code is hosted.
+**Beyang Liu:** \[35:49\] So we crawl a lot of the major open source code repositories. So GitHub, Bitbucket... Currently we crawl mainlyfully-formed code repositories. In the future, we might also wanna do snippets that are just found in blog posts and Q&A forums on the Internet, but right now it's just a kind of like the go-to places where most open source code is hosted.
 
 **Adam Stacoviak:** Did you have to do anything special to get access to that, or blessed API access or anything like that, any sort of relationship you have with the code hosts?
 
@@ -244,7 +244,7 @@ The way SourceLib is structured is that it's kind of got this core orchestrator 
 
 So we kind of discontinued that, but we've been thinking about this a lot and I think there's a couple of directions we could take. If any of your listeners are bloggers, I'd be curious to hear how useful they'd find this.
 
-\[00:39:58.25\] One direction we could take is you give us any snippet of code and we'll kind of parse it in a mid HTML with links to the documentation and usage examples of whatever you call on Sourcegraph.
+\[39:58\] One direction we could take is you give us any snippet of code and we'll kind of parse it in a mid HTML with links to the documentation and usage examples of whatever you call on Sourcegraph.
 
 Granted, when you send us the code you'll have to give us enough context so that our analyzer can actually figure out what code your thing is calling. If you just type http.newrequest and just give us that one liner, that's probably not enough context for us to resolve that to the new request method in the standard library. But if you give us the import at the top, and a couple of other lines of context, I think that should be good enough.
 
@@ -262,7 +262,7 @@ The other alternative is some people prefer a native application. Kind of the sa
 
 And then there is a Chrome extension, which if you find yourself reading code on GitHub a lot, just install it. I'm biased obviously, but I think it's a magical experience to... Like, clicking the code on GitHub and everything is just linked. You can hover over or documentation, click on something, and even if it's defined in a completely separate repository, you know, you're there.
 
-**Adam Stacoviak:** \[00:44:07.00\] What about language support?
+**Adam Stacoviak:** \[44:07\] What about language support?
 
 **Beyang Liu:** Yeah, so language support - we support officially Java and Go. We have Python deployed to private beta JavaScripts also in private beta, but we're not confident enough in the quality of those yet to make those public. But if you sign it for the beta, we'll try to get you on is as quickly as possible, and then we have a couple of other languages in the pipeline. We have Scala inside some companies, but that's not public yet, either.
 
@@ -278,7 +278,7 @@ And then there is a Chrome extension, which if you find yourself reading code on
 
 You're collecting a lot of data, I'm sure you're well aware of GitHub's recent push into public data with the BigQuery, and I'm guessing that Sourcegraph has some overlap there, perhaps. So let's not answer that now, but let's just take a break and we'll answer it on the other side.
 
-**Break:** \[00:45:34.00\]
+**Break:** \[45:34\]
 
 **Adam Stacoviak:** Alright, we are back with Beyang Liu and we are talking about Sourcegraph, source code, all that good stuff. Beyang, we mentioned before the break that you are collecting a lot of data.
 
@@ -294,7 +294,7 @@ You're collecting a lot of data, I'm sure you're well aware of GitHub's recent p
 
 I think the data that we're collecting or that we're recording is -- the main way that it's different from that is, my understanding that the GitHub dump is basically kind of like a dump of source code as text, whereas on the backend with Sourcegraph, we actually go and parse out all the code. So we store every function definition and method call and things like that separately, as kind of a distinct node in the graph.
 
-\[00:47:52.12\] So there are certain operations that might have a lower false positive rate on top of the dataset. That having been said, we thought a little bit about the use case of like "Hey, you know, I'm a key open source author" or "I'm a senior engineer at my company. I wanna go and analyze the codebase to see what kind of high-level patterns I can discover", but at the moment we're very focused on building for the day-to-day use case of developers, so helping developers answer the most common everyday questions they have, in seconds. Whereas the type of analysis you would do with that larger kind of dataset, in my view, is kind of something that you would kind of do every once in a while as a senior engineer, I think.
+\[47:52\] So there are certain operations that might have a lower false positive rate on top of the dataset. That having been said, we thought a little bit about the use case of like "Hey, you know, I'm a key open source author" or "I'm a senior engineer at my company. I wanna go and analyze the codebase to see what kind of high-level patterns I can discover", but at the moment we're very focused on building for the day-to-day use case of developers, so helping developers answer the most common everyday questions they have, in seconds. Whereas the type of analysis you would do with that larger kind of dataset, in my view, is kind of something that you would kind of do every once in a while as a senior engineer, I think.
 
 **Adam Stacoviak:** Also, that's being motivated too because it costs money. Not that that's such a huge factor, but obviously if you're gonna pay per query or pay per size of queries, then you're gonna wanna think a little closer to what you're actually doing; it's probably gonna be a barrier to that entry - not so much to pay for it, but if you had a general question you might wanna ask BigQuery and this datatset, but generally you gotta be pretty motivated, because you have to pay for it.
 
@@ -314,7 +314,7 @@ One of the reasons that search is a lot faster is we don't have to index every s
 
 **Beyang Liu:** Yeah, that's an avenue that we were thinking about with desktop - just kind of getting the code that you're writing real time and getting that into Sourcegraph, so that when you pop over to ask a question, it kind of has the data ready. But I do think that's a little bit more of a nice to have a use case, just because if you're on an airplane programming and there is no WiFi, then at that point you probably can't even look up documentation, if the documentation is hosted online, or read the code on GitHub.
 
-\[00:52:08.07\] So at that point you're kind of in the mode where hopefully you're not having to rely on external libraries that you don't know as much. Whenever I'm about to take a plane, I try to think of like, "What's the most isolated coding task I could do?" The thing that I can just like be in the zone for five hours and just hit the standard library for it.
+\[52:08\] So at that point you're kind of in the mode where hopefully you're not having to rely on external libraries that you don't know as much. Whenever I'm about to take a plane, I try to think of like, "What's the most isolated coding task I could do?" The thing that I can just like be in the zone for five hours and just hit the standard library for it.
 
 **Adam Stacoviak:** Yeah.
 
@@ -346,7 +346,7 @@ It's definitely a nice-to-have, but for some people it's like it could make or b
 
 **Jerod Santo:** And every time I have to go offline and I can still work because of that Dash app, I say to myself, "Ah, I love this thing." So it's rare, right? Like, most of the time I'm online, everything is fine, but when I have to use it and it's there for me, that's when you turn normal customers into customers that love your stuff.
 
-**Beyang Liu:** \[00:55:58.27\] Yeah, totally. Back when I first started like programming on a computer, I remember... Those days we were writing mostly Java, and mostly the standard library. You could just pull all that documentation down, have it in your local machine. So even if you go into someplace where you didn't have the Wi-Fi password, it was all there.
+**Beyang Liu:** \[55:58\] Yeah, totally. Back when I first started like programming on a computer, I remember... Those days we were writing mostly Java, and mostly the standard library. You could just pull all that documentation down, have it in your local machine. So even if you go into someplace where you didn't have the Wi-Fi password, it was all there.
 
 It was almost in some ways like a nicer experience, because you didn't have the distraction of the Internet while you're trying to code. I feel like these days, when so many resources we look at are in the browser, it's so easy to get off on a tangent. You try to look into how to do this one thing and then maybe the same forum post links to this other library, and you open some other link and sooner or later, you're like on Hacker News and you're like, "How did I get here?"
 
@@ -374,7 +374,7 @@ If and when we do use machine learning, we wanna have a very clear use case in m
 
 Just to name a few things that we could do after we've collected the dataset, kind of half-baked ideas... One is kind of intelligent auto-complete. We think of auto-complete as this thing that just cues off of compiler signals and it gives you a list of all the possible tokens that are syntactically, semantically correct, to use at a given point of file.
 
-\[00:59:49.17\] But what if you could actually go beyond that and suggest a variable name or suggest a parameter value based on the surrounding context? Now, that prediction problem is a lot fuzzier. You probably wouldn't be able to get that just from heuristics and what the compiler tells you alone.
+\[59:49\] But what if you could actually go beyond that and suggest a variable name or suggest a parameter value based on the surrounding context? Now, that prediction problem is a lot fuzzier. You probably wouldn't be able to get that just from heuristics and what the compiler tells you alone.
 
 That's probably something that you wanna learn, like "Okay, I've seen this pattern before in code.", this pattern AST and in the past, when I've seen the token read, for example, and now this user is calling some function that writes a file, and what if they're passing you the wrong value of the permissions flag? They're setting it to 0666 instead of 0777.
 

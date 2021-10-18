@@ -1,4 +1,4 @@
-\[00:00:10.25\]
+\[00:10\]
 
 **Jerod Santo:** Alright, we are here, we are backstage at Changelog. Jerod is here - that's me; Adam is here - that's you, Adam...
 
@@ -36,7 +36,7 @@ Ultimately, I always say no, mostly because I feel like the Elixir community is 
 
 **Adam Stacoviak:** "I really have to wanna listen to it." Or the show has to really deliver on its promise of like every show, regardless if it's in your wheelhouse or not, is entertaining, educational, informative, enjoyable, whatever. That's the hard thing, I suppose, about longer-form shows... Whereas a short form like that can really keep an audience, in my opinion. I'm assuming this at least.
 
-**Jerod Santo:** \[00:04:08.08\] It fits in, yeah.
+**Jerod Santo:** \[04:08\] It fits in, yeah.
 
 **Hugo Baraúna:** Yeah. And just one thing that came to my mind while you were saying about this is even in our current context, with Covid and everything, I don't know about you guys, but I've been listening less to podcasts, because I used to listen to them while commuting to work. But since I'm almost 100% of my time at home, now I don't have this types of time that I used to listen to podcasts, like 30, 40 minutes, or one hour... So a 5-minute podcast - maybe it's a thing for this point of time that we're at.
 
@@ -52,7 +52,7 @@ And then we started thinking "Well, what do we do in this brave new world?" We p
 
 But one thing I wanted to mention, before we get to newsletters - we're still talking about podcasts - is we've thought about doing a Changelog Weekly podcast... And in fact, we've had people request it once, such person; I gave it a shout-out last Backstage, but I didn't pronounce his name correctly. He's since corrected me, so I'm gonna give it a shot... Lars Wikman. My good friend Lars, rhymes with Sars... And he was saying he'd listen to a show, or he'd like a show. He's an Elixir developer, he's on the Elixir Mix podcast, I believe, so he's a podcaster as well, and he's been doing a lot of dev for us. He would like a show where it's like literally just the news read out loud.
 
-\[00:07:54.20\] We had some ideas around that... Adam, remember we were working with our friend \[unintelligible 00:07:57.27\] and now he tragically passed away, but he was gonna do a version of - speaking of Rails Envy - he was gonna do a Changelog Weekly podcast where he reads our headlines, and just... He was gonna say silly things, and make jokes, and stuff. But I'm curious if you guys have any interest in just merely the news read to you, developer news; like Elixir Radar, but not commented on... Literally, just reading Elixir Radar. Is that something that's attractive to you guys? For me it's not, but I'm just one person.
+\[07:54\] We had some ideas around that... Adam, remember we were working with our friend \[unintelligible 00:07:57.27\] and now he tragically passed away, but he was gonna do a version of - speaking of Rails Envy - he was gonna do a Changelog Weekly podcast where he reads our headlines, and just... He was gonna say silly things, and make jokes, and stuff. But I'm curious if you guys have any interest in just merely the news read to you, developer news; like Elixir Radar, but not commented on... Literally, just reading Elixir Radar. Is that something that's attractive to you guys? For me it's not, but I'm just one person.
 
 **Hugo Baraúna:** Yeah, I asked myself about this, because of this guy that I mentioned who approached me with this idea, maybe like reading Elixir Radar and distributing it as a podcast...
 
@@ -92,7 +92,7 @@ For example, Jason... Gosh, I really wish it had worked out, in both ways. I mis
 
 **Jerod Santo:** Maybe we can gate it out and you won't even know what I'm talking about... But if you hear some humming on Adam's side, it's just -- there's someone vacuuming, so no big deal. I think experimentation is really the spirit of what you're talking about there, Adam... And that's one thing, Hugo, that impressed me with what you're doing with Elixir Radar. You're really experimenting with the newsletter. You've been doing a lot of different things, and seeing what sticks and what doesn't, and asking for the community feedback...
 
-\[00:12:10.00\] I would love to talk to you about some of that experimentation and how it's been going... But catch everybody up with the radar itself. Maybe tell just briefly the story of it inside the Plataformatec, and now it's your own thing... Tell us about that.
+\[12:10\] I would love to talk to you about some of that experimentation and how it's been going... But catch everybody up with the radar itself. Maybe tell just briefly the story of it inside the Plataformatec, and now it's your own thing... Tell us about that.
 
 **Hugo Baraúna:** Sure. For those of the listeners who don't know me, I was or am (I don't know, since the company is no more) one of the co-founders of Plataformatec, the company where Elixir was created. I'm a computer engineer, but as an entrepreneur I did lots of different things at the company, like marketing, sales, and everything... And Elixir Radar was one of these projects that I came up with back in 2015, I think, as a marketing idea, actually.
 
@@ -104,7 +104,7 @@ So this was back in 2015. Five years after that, at the beginning of this year w
 
 But there's Elixir, there's Devise and Simple Form, but I thought also Elixir Radar was very good for the community, and since at the beginning of it I had a kind of emotional attachment to it, I wanted to continue. I talked to my partners, and we decided I could continue this just by myself. So since around March or April or something like that it's just me behind it. Before this it was people from our engineering team, and from the marketing team... The engineers were doing the content curation, and the marketing folks were doing the publishing and promotion. Now I'm doing everything - curation, and publishing, and everything.
 
-\[00:16:09.02\] One of the things that I decided with this is "Hey, I'm going to do some experiments." Since the beginning of this year, once we sold the company, I decided to take a break from full-time employment; not exactly from work... I should say that I'm working, but I'm not employed. I'm in a sabbatical period, and I'm doing some side projects here and there; Elixir Radar is one of them. But I'm also doing lots of self-inquiries and self-knowledge exercises. And as I rediscover my values, I want that to reflect in my work.
+\[16:09\] One of the things that I decided with this is "Hey, I'm going to do some experiments." Since the beginning of this year, once we sold the company, I decided to take a break from full-time employment; not exactly from work... I should say that I'm working, but I'm not employed. I'm in a sabbatical period, and I'm doing some side projects here and there; Elixir Radar is one of them. But I'm also doing lots of self-inquiries and self-knowledge exercises. And as I rediscover my values, I want that to reflect in my work.
 
 **Jerod Santo:** What a great opportunity.
 
@@ -118,7 +118,7 @@ And from a personal point of view, it's just that I want to be myself in all the
 
 But I've gotta say, it was intentional, but not that natural, and it's not easy... Because some people like it, some people don't. And when people don't like it, it's not that they don't like your product; they don't like you. So it's kind of hard not to take these at a personal level.
 
-\[00:20:02.02\] So I'm learning as I'm doing this, and as I said, it's a good lab, it's a good experiment for me. I did some changes in the newsletter. I was starting the newsletter - instead of the curated content and blog posts from the community, I was starting the newsletter with an intro; a little bit of what I had in mind, like "Hey, now I'm trying to make some money of this thing, because I want it to be financially sustainable, and everything. This is the story behind the main thing, which is the curated content." But some people like it, others don't. "I don't wanna hear this. I don't mind about it. I just want the content..." \[laughter\]
+\[20:02\] So I'm learning as I'm doing this, and as I said, it's a good lab, it's a good experiment for me. I did some changes in the newsletter. I was starting the newsletter - instead of the curated content and blog posts from the community, I was starting the newsletter with an intro; a little bit of what I had in mind, like "Hey, now I'm trying to make some money of this thing, because I want it to be financially sustainable, and everything. This is the story behind the main thing, which is the curated content." But some people like it, others don't. "I don't wanna hear this. I don't mind about it. I just want the content..." \[laughter\]
 
 I noticed that people subscribe in the first place to receive the content, not what I'm thinking... So I put it at the bottom, maybe in the blog posts... I'm learning about that, I'm receiving feedback... But most of the feedback is good, so it's been an interesting experiment, and hopefully for the better.
 
@@ -132,7 +132,7 @@ I don't know if you've heard about this non-violent communication thing; there's
 
 **Jerod Santo:** Don't remind me...
 
-**Adam Stacoviak:** \[00:23:56.06\] If you say "I'm gonna email you weekly, and never, ever otherwise", and you deliver that promise, that newsletter is a manifestation of that promise to your subscribers. And if you don't break that promise and you deliver on it consistently, you'll be rewarded with awesome open rates, awesome engagement rates, awesome clickthroughs, or whatever the metrics are that you're trying to optimize for - whether it's readership, or replies to it... You'll see those benefits if you clearly state your promise and deliver on that promise.
+**Adam Stacoviak:** \[23:56\] If you say "I'm gonna email you weekly, and never, ever otherwise", and you deliver that promise, that newsletter is a manifestation of that promise to your subscribers. And if you don't break that promise and you deliver on it consistently, you'll be rewarded with awesome open rates, awesome engagement rates, awesome clickthroughs, or whatever the metrics are that you're trying to optimize for - whether it's readership, or replies to it... You'll see those benefits if you clearly state your promise and deliver on that promise.
 
 **Hugo Baraúna:** Yeah. That's interesting, and I agree 100% with you. This is a newsletter that's in production, it's live for five years - more than five years, actually. Almost six in January next year. One question that came to my mind is people evolve... And shouldn't we also keep evolving our promises? It's hard.
 
@@ -150,7 +150,7 @@ I don't know if you've heard about this non-violent communication thing; there's
 
 In terms of engagement it's going really well. Since July, I also started to experiment with monetization. And this comes to my thoughts around sustainability of working in the open source world. At Plataformatec we started as a consultancy specialized in Ruby, and Ruby is open source; and then Elixir. And we always invested in open source software, in blog posts, talks, members from our company wrote six books, three in the U.S. and three in Brazil... I myself wrote a book about TDD and BDD in Ruby, in Brazil.
 
-\[00:27:42.11\] So we invested a lot of our time with content in open source. But it wasn't easy to make it more sustainable, in the way that we could invest more in a work which wasn't generating revenue directly to us. So Elixir was an example. José - we were able to afford having him working full-time on Elixir since almost the beginning; since 2012 at least. He started to play with Elixir in 2011, and then in 2012 it was his mostly full-time job. We wanted more people to work on it, and our engineers could work in our open source projects between client projects, and also in their free time. Some of them did lots of open source work in their free time. Besides José, we had two members on the Rails core team, too \[unintelligible 00:28:35.28\] and Carlos Antonio. But if we as a company wanted to invest more in open source, we had to come up with ways to make more money with it. It was not easy.
+\[27:42\] So we invested a lot of our time with content in open source. But it wasn't easy to make it more sustainable, in the way that we could invest more in a work which wasn't generating revenue directly to us. So Elixir was an example. José - we were able to afford having him working full-time on Elixir since almost the beginning; since 2012 at least. He started to play with Elixir in 2011, and then in 2012 it was his mostly full-time job. We wanted more people to work on it, and our engineers could work in our open source projects between client projects, and also in their free time. Some of them did lots of open source work in their free time. Besides José, we had two members on the Rails core team, too \[unintelligible 00:28:35.28\] and Carlos Antonio. But if we as a company wanted to invest more in open source, we had to come up with ways to make more money with it. It was not easy.
 
 And lots of years after that, in 2019, I think, or 2018, we created this service called Elixir Development Subscription. The idea was basically "Okay, all the money that we're gonna make with this, we're gonna invest again in open source." And it worked. After we came up with this service, we hired two more engineers to work more than 50% of their time in open source. They created more cool projects in the Elixir community, like MyXQL, and Broadway...
 
@@ -174,7 +174,7 @@ And lots of years after that, in 2019, I think, or 2018, we created this service
 
 **Hugo Baraúna:** Yeah. So the first thing that I did was this thing that I call Elixir Radar individual sponsorship. It's basically donations; people can support Elixir Radar, they can support my work with three different packages: $3, $5 or $10/month. It's a subscription. But I'm not giving anything in return to these people, specifically for them. They're already consuming the newsletter for free, and they don't have anything yet, at least, just for them, that is different from the other readers.
 
-\[00:32:09.24\] So that was the first part. My goal with this part was to stop losing money in terms of finance. I was investing just a little bit in terms of servers, like Heroku, and email marketing, that kind of stuff, from my own money... And I just wanted to stop losing money. Right now I have 41 individual sponsors, and they make together $234 in MRR (monthly recurring revenue) for Elixir Radar.
+\[32:09\] So that was the first part. My goal with this part was to stop losing money in terms of finance. I was investing just a little bit in terms of servers, like Heroku, and email marketing, that kind of stuff, from my own money... And I just wanted to stop losing money. Right now I have 41 individual sponsors, and they make together $234 in MRR (monthly recurring revenue) for Elixir Radar.
 
 **Adam Stacoviak:** There you go.
 
@@ -216,7 +216,7 @@ It was very inspiring to me; I just kind of copied his idea in terms of theory..
 
 I think in his case, some of his tips are like "You can probably make some money knowing that before other people." If his analysis is correct, you can maybe make some market moves, so maybe there's some advantage there... So there's that, and I think that's a small thing, but it's a thing. I know some people like early access. For me, I'm always like "I've got so much content... Whenever it comes out, it's fine", but that's just me.
 
-\[00:35:46.18\] And then the other thing he does is he actually writes an essay every week. So his free newsletter is all of the stuff he was doing in the past, two days later... And then his premium newsletter is all the stuff he was doing in the past, plus an essay that only paid members get, and it comes out two days before. So it's similar in terms of yours would be like members-only screencasts, and his is a members-only essay. But now you have a new job, right? Your new job is write essays once a week, or make a screencast once a week... So these are things to experiment with, but it's not like turning on a faucet. You're giving yourself more work, and maybe that's -- if that's something that you already wanna do, then it makes total sense.
+\[35:46\] And then the other thing he does is he actually writes an essay every week. So his free newsletter is all of the stuff he was doing in the past, two days later... And then his premium newsletter is all the stuff he was doing in the past, plus an essay that only paid members get, and it comes out two days before. So it's similar in terms of yours would be like members-only screencasts, and his is a members-only essay. But now you have a new job, right? Your new job is write essays once a week, or make a screencast once a week... So these are things to experiment with, but it's not like turning on a faucet. You're giving yourself more work, and maybe that's -- if that's something that you already wanna do, then it makes total sense.
 
 **Hugo Baraúna:** Yeah, yeah.
 
@@ -266,7 +266,7 @@ I think in his case, some of his tips are like "You can probably make some money
 
 **Hugo Baraúna:** Yeah, yeah. And in terms of amount of money, it definitely made me more money than the direct sponsors. So I experimented with two other ways... So after the individual sponsors - and I keep doing this; I've just stopped promoting more, but I would like to keep them, because they make sure that I won't bleed money... But after that - I was calling it "Company-primary sponsorships". It's basically sponsored content or ads.
 
-\[00:40:12.14\] So a company can reach out to me, "Hey, we have this piece of content or landing page of our product, and we'd like to promote it on your newsletter." And I charge companies for that. I just make sure that it's suitable and it's interesting for my audience, which is made up of Elixir developers. So I'm not gonna promote Snickers, or that kind of thing...
+\[40:12\] So a company can reach out to me, "Hey, we have this piece of content or landing page of our product, and we'd like to promote it on your newsletter." And I charge companies for that. I just make sure that it's suitable and it's interesting for my audience, which is made up of Elixir developers. So I'm not gonna promote Snickers, or that kind of thing...
 
 **Jerod Santo:** Right. Burger King...
 
@@ -290,7 +290,7 @@ So in August and September I sold all the newsletter ads. I'm keeping just for o
 
 After all those three lines of experiment, I decided "Okay, I think I should invest my time in rewriting this web app, and make it easier -- like, do some kind of SEO, make it more usable for a developer who's looking for a job..." It's not that good yet, because it's a kind of an old UI... And I also was proud, because I was making money with this... So I bought an open source product from \[unintelligible 00:44:03.14\]
 
-**Jerod Santo:** \[00:44:07.04\] Nice.
+**Jerod Santo:** \[44:07\] Nice.
 
 **Hugo Baraúna:** ...from the Tailwind CSS guys to rework the client-side part... So this is how it's going. It's interesting.
 
@@ -334,7 +334,7 @@ So if you're gonna continue experimenting, I think the idea of investing in a we
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[00:48:07.28\] And you can be so much more sure about what you're selling, and why, and for how much, because you have your own assurances you've done through experimentation and just knowing.
+**Adam Stacoviak:** \[48:07\] And you can be so much more sure about what you're selling, and why, and for how much, because you have your own assurances you've done through experimentation and just knowing.
 
 **Jerod Santo:** Yeah. And let me add something from the readers' side, as a reader of the newsletter. I'm not looking for a job, so that section of the newsletter is worthless to me. I do not care that it's there, it doesn't bother me. I either scan by it, or when I reach the job section I just tune out and hit "Archive", whatever. If I was interested in a job, if I was that reader -- so you have the reader who wants a job... Why would they want just one opportunity when you have multiples available for you? So I was wondering why you limit it just to one. Maybe it's for the experimentation point of it. But what's the difference between one or two? I'm saying you could probably increase that inventory. Maybe you set a limit and say "Look, I can only have five job ads at once, because I don't want my newsletter to get too long", or whatever your goal there is.
 
@@ -362,7 +362,7 @@ So if you're gonna continue experimenting, I think the idea of investing in a we
 
 **Jerod Santo:** I'm a rare person who's on both sides of the equation. I think about creating the content, and I also think about how I consume it. I wouldn't be so self-aware of my consumption if I wasn't thinking about it from a creator's side. I'm thinking "How is this put together?" etc. And I just know for a fact that the job section - I just scanned right over it... I like that it's not the first thing right upfront. It makes sense. The best content upfront, or the most relevant content for the most people upfront... And then organize it from there.
 
-\[00:52:05.11\] But we have similar limits. We'll allow up to four sponsored posts in Changelog Weekly, but we have a lot of content. So we have 20 items and four sponsored. So our newsletter is generally longer than yours... And it's generally too long; so long that we have to trim it down for Google every single week, because Gmail clips it, which is stupid... It's like, "Come on guys, just let us send whatever length email we want", right?
+\[52:05\] But we have similar limits. We'll allow up to four sponsored posts in Changelog Weekly, but we have a lot of content. So we have 20 items and four sponsored. So our newsletter is generally longer than yours... And it's generally too long; so long that we have to trim it down for Google every single week, because Gmail clips it, which is stupid... It's like, "Come on guys, just let us send whatever length email we want", right?
 
 **Hugo Baraúna:** Yeah...
 
@@ -416,7 +416,7 @@ But there's also some low-quality posts... There's some good stuff that comes th
 
 **Jerod Santo:** What's the Pro get you? Just more subscriptions?
 
-**Hugo Baraúna:** \[00:56:13.22\] There's a limit in terms of number of RSS feeds that you can subscribe to in the free tier. A couple hundred, I think... And I subscribe to more than a thousand to do the curation process. So I have this list of websites, and I was thinking "Hm, maybe I could come up with some way of doing Google PageRank, and the links between those different websites could help me to surface which are the ones who are the most popular, or something... That's an idea for the future.
+**Hugo Baraúna:** \[56:13\] There's a limit in terms of number of RSS feeds that you can subscribe to in the free tier. A couple hundred, I think... And I subscribe to more than a thousand to do the curation process. So I have this list of websites, and I was thinking "Hm, maybe I could come up with some way of doing Google PageRank, and the links between those different websites could help me to surface which are the ones who are the most popular, or something... That's an idea for the future.
 
 But right now, I'm doing this all by my hands... So I subscribe to a thousand RSS feeds from different blogs. I read Elixir Reddits, I read Elixir Forum, I read Twitter hashtag \[unintelligible 00:57:00.11\] and I have content submitted to me directly through email, like what you do, and it already worked in the past... And that's the way that I find content.
 

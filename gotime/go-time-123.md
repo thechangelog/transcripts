@@ -30,7 +30,7 @@ Joining me today, we have -- you can hear him snickering already, it's Mark Bate
 
 **Mat Ryer:** That's interesting... I think what we're gonna find is we're all kind of in slightly different situations, and in some cases very different, probably... But certainly, of all the people that are now working at home, our job, I feel like - we ought to be able to do this quite well. How do you feel about that? I'll open that out to everyone.
 
-**Mark Bates:** \[00:04:01.29\] I think as an industry we tend to do better at this. We've been doing this a lot longer, I think, for the majority of us... But I think having everybody else at home now makes a handful of other challenges. We can definitely talk about that later, I think...
+**Mark Bates:** \[04:01\] I think as an industry we tend to do better at this. We've been doing this a lot longer, I think, for the majority of us... But I think having everybody else at home now makes a handful of other challenges. We can definitely talk about that later, I think...
 
 **Mat Ryer:** So you've gone from being a home worker who's at your home office, on your own all day, to now lots of other people being around. That's the change for you, right?
 
@@ -98,7 +98,7 @@ One example is you'll be asked to take the kids to the doctor, and then that'll 
 
 **Carmen Andoh:** Yeah.
 
-**Mark Bates:** \[00:08:05.14\] And my wife - I'm sure your spouses as well - are very supportive and totally understand... But my wife works downtown Boston, where I always joke she has a "real job". She goes into an office daily, she has a staff... She can't be coming home to pick up a sick kid from school if I'm a five-minute drive away, right?
+**Mark Bates:** \[08:05\] And my wife - I'm sure your spouses as well - are very supportive and totally understand... But my wife works downtown Boston, where I always joke she has a "real job". She goes into an office daily, she has a staff... She can't be coming home to pick up a sick kid from school if I'm a five-minute drive away, right?
 
 **Carmen Andoh:** Right.
 
@@ -140,7 +140,7 @@ Me working from home while having my kids go full-time to a school, and my husba
 
 One simple example of this is if I would walk -- I have an office, so I have a space that I work in, and she knows "Okay, he's in there. He's working." But for the longest time I didn't, and it'd be really hard to communicate "Are you just going to the bathroom, are you just making lunch, or are you able to sit down with me and talk while you're having lunch? Or do you bring it back to your desk, you're still in work mode type thing?" And there were a lot of different things like that, that took a while to sort of get down or figure out some system that worked for the two of us... And I think that a lot of people are gonna struggle with that now that they're both around the house.
 
-\[00:12:09.00\] In an office, it's really easy to be like "Okay, he's clearly at work. I don't wanna ask him this simple question." But when he's just in the other room, it's easy to walk in and be like "Can you do this, or can you answer this question?" and that can be really distracting when trying to work... And I think that's something that I've been lucky enough to figure out already, but it's gonna be hard now that everybody else has everybody in the house.
+\[12:09\] In an office, it's really easy to be like "Okay, he's clearly at work. I don't wanna ask him this simple question." But when he's just in the other room, it's easy to walk in and be like "Can you do this, or can you answer this question?" and that can be really distracting when trying to work... And I think that's something that I've been lucky enough to figure out already, but it's gonna be hard now that everybody else has everybody in the house.
 
 **Mat Ryer:** Yeah, because it's important that -- blocks of uninterrupted time are kind of really vital for productivity. I mean, for me, that's definitely the case. If I've got 30 minutes time, I can't really usually start anything. So 30 minutes isn't enough time to even do anything.
 
@@ -176,7 +176,7 @@ For me, it was a corner of a shared space. They were little, and what I used was
 
 **Mark Bates:** That's great.
 
-**Carmen Andoh:** \[00:15:45.18\] Amazon or other online merchants have a red "Do Not Disturb", and when that's on... Or green. I know some people that have done that for the office space. As they got older, headphones is the clear statement. When my kids come into this room and they see that I have headphones on, they'll always leave me alone... And they only come if it's really like I have to go, or there's an emergency. So that was always negotiated over the last 5-6 years. They're older now and it's better, but...
+**Carmen Andoh:** \[15:45\] Amazon or other online merchants have a red "Do Not Disturb", and when that's on... Or green. I know some people that have done that for the office space. As they got older, headphones is the clear statement. When my kids come into this room and they see that I have headphones on, they'll always leave me alone... And they only come if it's really like I have to go, or there's an emergency. So that was always negotiated over the last 5-6 years. They're older now and it's better, but...
 
 **Mat Ryer:** Yeah, headphones is a good one. Headphones works in an office, too. That used to be the way you would tell people you're focusing.
 
@@ -206,7 +206,7 @@ Then those emails trigger the work thoughts, and then the rest of my day is work
 
 **Mat Ryer:** Yeah... So I read something that was talking about one of the things you lose when you work from home is the commute... Normally, your day is kind of bookended by getting to the office, and then getting home again... Which often can involve some kind of - even if it's just sort of like a walking exercise, or something... You know, you do get some different kind of -- it just feels different, doesn't it? And it bookends... And you can lose that. So I think that's quite important, even if they seem -- because that sounds quite funny, Carmen, when you say they'd just sit in a different chair. That sounds quite funny when you think about that. But if that works, then absolutely.
 
-\[00:20:11.02\] One thing I have to say, when we talk about finding the space as well, there are lots of people that - especially London, New York, San Francisco and other cities where you just don't have that at all... I mean, you're saying dining room table -- I just got a dining room table.
+\[20:11\] One thing I have to say, when we talk about finding the space as well, there are lots of people that - especially London, New York, San Francisco and other cities where you just don't have that at all... I mean, you're saying dining room table -- I just got a dining room table.
 
 **Mark Bates:** You have a lovely flat. You have a nice dining room table AND an office. You're doing fine. \[laughs\]
 
@@ -244,7 +244,7 @@ When the weather gets a bit nicer, if you can open the window, even better. If y
 
 Things happen, and we just need to be okay with the fact that we have other responsibilities, we're living with other people, society is shutting down, and that's okay for the short-term.
 
-**Break:** \[00:23:43.06\]
+**Break:** \[23:43\]
 
 **Mark Bates:** One of the things that when I first started it took me ages to figure it out, and then I started talking to people more and more about, is when you go to an office you don't get eight hours of uninterrupted work. You don't. You get four, maybe. That's on a good meeting day... No, I'm serious. Between people coming to your desk in interruption, you go to get a cup of coffee and you're there for ten minutes, somebody in the hall, that hallway meeting... You'd be surprised how when you add those up over the course of the day, those add up to hours in a day.
 
@@ -262,7 +262,7 @@ So things like what time you got started, or how long you spent on your little b
 
 **Jon Calhoun:** I think there's also probably a correlation between -- like, we've all worked in a place where people check things like Reddit, or do other random things as little breaks... But I think the amount of time you spend doing stuff like that changes drastically, depending on whether you're in a job where they count the amount of time you're in front of a screen, versus just be as productive as you can be.
 
-\[00:28:00.07\] Because when I sit down, if I have three hours just to get something done, I don't check Reddit or do all these other things; I sit down and I do what I need to do. But if I'm gonna be in an office for eight hours and I know I'm stuck there for eight hours, then it's like "Okay, I can just throw this in, check this thing, check Twitter", do whatever. It's a lot easier just to slip all that stuff in and allow yourself to get distracted.
+\[28:00\] Because when I sit down, if I have three hours just to get something done, I don't check Reddit or do all these other things; I sit down and I do what I need to do. But if I'm gonna be in an office for eight hours and I know I'm stuck there for eight hours, then it's like "Okay, I can just throw this in, check this thing, check Twitter", do whatever. It's a lot easier just to slip all that stuff in and allow yourself to get distracted.
 
 **Mat Ryer:** Yeah. So speaking about the commute then... Carmen, you do both - you go to an office every third week, and you also work at home, so you can compare really those two things... What do you do with your commute? How long is your commute? When you work from home, do you think of ring-fencing that commute time to put to some dedicated use? Or is it just blending into the rest of your day?
 
@@ -292,7 +292,7 @@ So yeah, to answer, Mat, that is exactly how I ring around that... And I just ha
 
 For me, I'm still trying to keep that timeframe, if I can, and still keep trying to take him out in the afternoon... Although I've found that now that my wife's home, we're trying to see if we can coordinate a little bit more time in the afternoon for her and I to maybe go for a walk. You know, just a little break in the afternoon, which is quite nice. So if you have a spouse, or a partner, or somebody like that, you can schedule a nice walk in the afternoon, take a break, with kids, whatever...
 
-**Mat Ryer:** \[00:32:07.24\] Hm, lovely.
+**Mat Ryer:** \[32:07\] Hm, lovely.
 
 **Mark Bates:** ...walk the dog... Those are all good things. I know she's turned her morning commute into running. She runs half-marathons, so she gets up ever day, and instead of getting up at 5:30 in the morning to go running, she can get up at 6:30 in the morning and go running instead. That's her big like "This is wonderful! I can get a nice, big run in every morning."
 
@@ -372,7 +372,7 @@ Again, it's boundaries, separating the psychic space of "This is the home, where
 
 **Carmen Andoh:** Oh, yeah...
 
-**Mark Bates:** \[00:36:12.18\] If you can, if you have the space and you have the ability to get a nice office chair, you absolutely should. I've gone through a couple different chairs now, and I have a Steelcase chair now, which I absolutely love. I got a Herman Miller maybe 6-7 years ago...
+**Mark Bates:** \[36:12\] If you can, if you have the space and you have the ability to get a nice office chair, you absolutely should. I've gone through a couple different chairs now, and I have a Steelcase chair now, which I absolutely love. I got a Herman Miller maybe 6-7 years ago...
 
 **Carmen Andoh:** Ooh, fancy...
 
@@ -438,7 +438,7 @@ And even as far as space goes - my wife and I keep an office chair at our dining
 
 **Carmen Andoh:** So I have this watch, that -- you know, if you can't have pets in your building or your house, if it's not allowable, I just have a watch and I just set it to... If it detects no motion for 60 minutes, it beeps. And I hate it sometimes, especially when you're in deep work.
 
-\[00:40:13.00\] And it doesn't have a setting where you can say "Only notify me between these hours of the day"; just any motions... So I sometimes turn it off. But it's a nice way to -- or maybe you use a browser, a Chrome add-on that can say "Get up now." That's also an option to get you up and out and walking around.
+\[40:13\] And it doesn't have a setting where you can say "Only notify me between these hours of the day"; just any motions... So I sometimes turn it off. But it's a nice way to -- or maybe you use a browser, a Chrome add-on that can say "Get up now." That's also an option to get you up and out and walking around.
 
 **Mark Bates:** If you have an Apple watch, they do that. They ping you, to try to get your stand goals...
 
@@ -514,7 +514,7 @@ And even as far as space goes - my wife and I keep an office chair at our dining
 
 **Carmen Andoh:** You two are great.
 
-**Jon Calhoun:** \[00:44:00.05\] So I guess that can lead to another subject here... How do you communicate differently when you're remote? How do you not ask people "What do you wear to bed?" in a weird way? \[laughter\]
+**Jon Calhoun:** \[44:00\] So I guess that can lead to another subject here... How do you communicate differently when you're remote? How do you not ask people "What do you wear to bed?" in a weird way? \[laughter\]
 
 **Mat Ryer:** Yeah, don't ask in a weird way. Ask in a good way.
 
@@ -552,7 +552,7 @@ So that's a thing that you can do, whether you wanna do it free with Hangouts, o
 
 **Jon Calhoun:** Related to that, one of the best remote atmospheres I had was one where it was completely normal to just message somebody and say -- my dog wants me to get up right now...
 
-**Mark Bates:** \[00:48:10.21\] What a weird thing to message somebody...
+**Mark Bates:** \[48:10\] What a weird thing to message somebody...
 
 **Carmen Andoh:** Oh, I see his tail wagging... It's so cute! Anyway, continue...
 
@@ -588,7 +588,7 @@ I know sometimes, like I said, I wouldn't shower until the afternoon, but I just
 
 **Mat Ryer:** Open source projects tend to be asynchronous... And there's real value if you can do things asynchronously, because suddenly you actually remove the need for you to even be online at the same time. So yeah, it's in some situations that those skills are gonna be good to have... And I think generally that's a good idea anyway, because it falls into that whole not wanting to interrupt people. If you can resolve that thing, wherever it is, asynchronously, that's probably great.
 
-\[00:52:03.19\] You can lose out, of course, if you only do that; you lose out then on the social stuff. Having the random channels, or being able to socialize and have a bit of rapport, as you've said, I think is important. But yeah, async communication is kind of a perk, in some ways, of remote work.
+\[52:03\] You can lose out, of course, if you only do that; you lose out then on the social stuff. Having the random channels, or being able to socialize and have a bit of rapport, as you've said, I think is important. But yeah, async communication is kind of a perk, in some ways, of remote work.
 
 **Carmen Andoh:** What are some of the async communication tips that you - I mean, I'm just asking around - have found invaluable over the years?
 
@@ -662,7 +662,7 @@ I'd love to see a study done on text written by people, remote versus not, becau
 
 **Mark Bates:** ..because I don't want people to feel like I'm trying to be mean. I'm just letting you know, I'm okay with all of this; this is just an explanation, and here's a smiley face to prove it... I'm not upset, here's a smiley... I'm just being terse in my communications." \[laughs\]
 
-**Carmen Andoh:** \[00:56:09.13\] Russ Cox actually said that in a 2015 keynote, like "I tend to get terse when I'm pressed for time, and people interpret that terseness as rudeness, or impatience." They wanna interpret something, because it's all done in text. So emojis typically help mitigate that.
+**Carmen Andoh:** \[56:09\] Russ Cox actually said that in a 2015 keynote, like "I tend to get terse when I'm pressed for time, and people interpret that terseness as rudeness, or impatience." They wanna interpret something, because it's all done in text. So emojis typically help mitigate that.
 
 But I had a request from a colleague about 3-4 years ago... He asked something - it was my manager - and I just put "Okay." And he said "I have a request. When you're writing 'okay' to me in text, I need you to add either an exclamation mark, or a question mark, or something... Because I can interpret it in my head as 'Okay...?', or "Ok", or "OKAY!!", or "okay..." Exactly.
 

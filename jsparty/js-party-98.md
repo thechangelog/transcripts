@@ -28,7 +28,7 @@ Let's go to the JS13kGames - winners have been announced. If you're unfamiliar w
 
 **Suz Hinton:** That is what I'm reading from the title. I was really impressed with this immediately, because the first thing that happens with this game is you get thrown into what looks like a text-based narrative kind of description, like an opening scene of a text-based narrative... And I remember thinking, "This has so much text. This has to already eat into the budget of the 13 kilobytes that you have." I'm looking at it and I'm like "This is hundreds of bytes already", and I'm thinking maybe they do something tricky... Like, are they allowed to fetch swathes of text via Ajax, and things like that. So I was looking into it, and so I thought "Whatever. I bet you the rest of the game is really small. I'll look into this later." And then you click Continue and you just end up in this 3D game, and I'm like "Are you serious right now?! How are they doing this?"
 
-\[00:04:13.29\] It's actually really cool. The idea is that you are this little sort of pointy avatar, and there's this concept of files... I think you understand this a little better, Jerod, but you're basically navigating through this 3D sort of path, and you have to use your previous ghosts of yourself expiring in order to sort of unlock gates to get through.
+\[04:13\] It's actually really cool. The idea is that you are this little sort of pointy avatar, and there's this concept of files... I think you understand this a little better, Jerod, but you're basically navigating through this 3D sort of path, and you have to use your previous ghosts of yourself expiring in order to sort of unlock gates to get through.
 
 **Jerod Santo:** Yes, exactly. Thanks to pnevares in the chat who got us the direct link to the winning game, which is still loading... And the entry test that you're talking about - I'll just read it, because it's such a cool setup.
 
@@ -48,7 +48,7 @@ And then you can actually see how they've set up a lot of the levels, too. They 
 
 **Divya Sasidharan:** I think I've seen the -- someone has done challenges within like 140 characters when Twitter used to be 140 characters... So you would write a problem, like a fizz buzz or something, within that character limit, as much as possible, which is really fun to see. It's still unreadable, but it worked.
 
-**Suz Hinton:** \[00:08:13.05\] I think that the only stuff that I've really run into is just regular -- trying to write code for embedded devices, you are always resource-constrained... I think the biggest golfing expedition I went on recently was "How many frames of a gif can I fit in memory for this device to receive over the internet? And then what is the best data structure to try and make the most of memory?" I was like "Do I just use a continuous stream of memory on the device (contiguous), or do I use linked lists in order to use that fragmentation better?"
+**Suz Hinton:** \[08:13\] I think that the only stuff that I've really run into is just regular -- trying to write code for embedded devices, you are always resource-constrained... I think the biggest golfing expedition I went on recently was "How many frames of a gif can I fit in memory for this device to receive over the internet? And then what is the best data structure to try and make the most of memory?" I was like "Do I just use a continuous stream of memory on the device (contiguous), or do I use linked lists in order to use that fragmentation better?"
 
 For me it's always like "I need to fit more than six frames of this gif on this device. How do I do that?" So my stuff is more like memory golfing more than actual file size golfing, I think.
 
@@ -60,7 +60,7 @@ Okay, let's move on to a little bit less fun, but probably more impactful for yo
 
 So for me, having to wrap things constantly just kind of made some of my code a little bit more convoluted. It was just wrapping things for the sake of wrapping things, just to get it to work, which feels like a code smell. So I like the idea of it... I'm actually kind of fascinated about how they would have implemented that in the engine more than anything. I think that it's gonna make my life easier, but other than that -- I'm not sort of pumped and shouting out into the streets about it, but I know that this was a very long game to float this by the implementers of the spec.
 
-**Divya Sasidharan:** \[00:11:45.05\] Yeah. I find it really annoying to always have to remember to reuse async when I await stuff. So for instance, if you're calling an API, you're always awaiting it, but then in order for that await to work, you have to wrap the entire function in an async. So I always get that console error saying "Hey, you don't have async. You can't use await without async", which is like -- half the time I'm like "The async feels very redundant." It's almost like doing a return promise and doing a resolve when you just wanna do Promise.resolve() instead. It's the same idea, where I'm just wrapping and adding a lot of boilerplate to code that doesn't have to use that particularly.
+**Divya Sasidharan:** \[11:45\] Yeah. I find it really annoying to always have to remember to reuse async when I await stuff. So for instance, if you're calling an API, you're always awaiting it, but then in order for that await to work, you have to wrap the entire function in an async. So I always get that console error saying "Hey, you don't have async. You can't use await without async", which is like -- half the time I'm like "The async feels very redundant." It's almost like doing a return promise and doing a resolve when you just wanna do Promise.resolve() instead. It's the same idea, where I'm just wrapping and adding a lot of boilerplate to code that doesn't have to use that particularly.
 
 Specifically, a lot of times -- I write Vue, so I would have to create an entire function that's async, even though only one part of it uses await and the rest doesn't.
 
@@ -112,7 +112,7 @@ Now, maybe you're thinking "I already have this. It's in my dev tools." Well, th
 
 **Suz Hinton:** I think that footgun actually does make sense... But the issue is that this says you can do a while loop that runs forever, and you can stuff it in an async function, and then that will actually stop it from blocking the whole execution main thread... Which is really interesting, so I'm just hoping that people remember that they still need to put that in there.
 
-**Break:** \[00:16:14.18\]
+**Break:** \[16:14\]
 
 **Jerod Santo:** Well, let's talk about a different thing, which is security-related, maybe not necessarily performance-related. It's a cool new tool by Liran Tal (I apologize if I pronounced your name wrong). He works for Snyk, and he's a sneaky security guy. We're actually talking with him to bring him on JS Party in a future episode and talk about security in JS and all of the different things that you have to think about to write secure JavaScript code.
 
@@ -128,7 +128,7 @@ And then the second thing I thought of was to do with bug bounties, and I was li
 
 **Divya Sasidharan:** How does this work with the current Npm vulnerabilities thing? If you have things on GitHub or if you use Npm, you can do Npm audit and it shows you all of the security vulnerabilities in that. Is it similar, or...? I can't quite tell.
 
-**Jerod Santo:** \[00:19:55.26\] Yeah, that's a great question, and somebody actually asked him that. The thing that separates it from the Npm audit is this is running on a remote website. So this is not a thing that you're using internally, or in your dev dependencies, or anything that you would have private on your backend, so any Node modules you're using, with Express, or server-side - it doesn't do those. It's just whatever you're shipping to your clients. It's basically just downloading whatever JavaScript that your website sends on requests, and then unpacking those, and detecting and running finger-printing tools to figure out what you're running against... So it says "Oh, you have jQuery 2.1.4", and then it basically takes that knowledge, runs it against the databases, probably does some sort of remote lookup and says "Well, what are the known vulnerabilities here?" and displays them to you.
+**Jerod Santo:** \[19:55\] Yeah, that's a great question, and somebody actually asked him that. The thing that separates it from the Npm audit is this is running on a remote website. So this is not a thing that you're using internally, or in your dev dependencies, or anything that you would have private on your backend, so any Node modules you're using, with Express, or server-side - it doesn't do those. It's just whatever you're shipping to your clients. It's basically just downloading whatever JavaScript that your website sends on requests, and then unpacking those, and detecting and running finger-printing tools to figure out what you're running against... So it says "Oh, you have jQuery 2.1.4", and then it basically takes that knowledge, runs it against the databases, probably does some sort of remote lookup and says "Well, what are the known vulnerabilities here?" and displays them to you.
 
 **Suz Hinton:** I'm running it on my website right now.
 
@@ -164,7 +164,7 @@ And then when they released vue-next, actually, there was a lot of people who we
 
 I think it's really unfair, because there was a lot of flack for people who were just basically tearing the Vue team apart, saying that they should have done this from the beginning, and why did they make this private, and so on. The RFCs were public, but how they were implementing things was still pretty private for a long time.
 
-\[00:24:03.22\] So it seems from looking at GitHub -- they essentially have checklist of all the things that they're working on, so they check them as they finish them. I think there's a couple more items on there... Not that many. I think more than half is done. And they released it a week ago, from the time of recording... So yeah.
+\[24:03\] So it seems from looking at GitHub -- they essentially have checklist of all the things that they're working on, so they check them as they finish them. I think there's a couple more items on there... Not that many. I think more than half is done. And they released it a week ago, from the time of recording... So yeah.
 
 I think it's really great that they open-sourced it as they're working through it. I don't fault them for not open-sourcing it from the start, in a way. As I said, it's really unfair to claim something is not open source when it wasn't open source in the beginning. There are lots of projects that weren't open source in the beginning, and then they just were like "Oh, here you go. Here's the code that we worked on, that we used your money for." Yeah, it's a bizarre argument.
 
@@ -200,7 +200,7 @@ So they might not be showing the code that they've been working on, but talking 
 
 Let's talk about Facebook VR/AR lifelike avatars. Divya, this was your bullet point in the list of news, so tell us what's interesting about this.
 
-**Divya Sasidharan:** \[00:28:09.21\] Yeah, so this came up recently... I'm not super into VR or AR, I just constantly read stuff about it, because it seems really cool and totally outside of the zone of knowledge that I have... But one of the problems I've heard from the VR and AR community has generally been how terrible avatars are, and how there's not a lot of life-like features to them. It's very cartoony and silly-looking. So Facebook has been working on lifelike avatars, just because a lot of the times when you work in VR, the idea of VR and AR - I think they call it XR, like cross-reality, because it's both augmented and virtual reality...
+**Divya Sasidharan:** \[28:09\] Yeah, so this came up recently... I'm not super into VR or AR, I just constantly read stuff about it, because it seems really cool and totally outside of the zone of knowledge that I have... But one of the problems I've heard from the VR and AR community has generally been how terrible avatars are, and how there's not a lot of life-like features to them. It's very cartoony and silly-looking. So Facebook has been working on lifelike avatars, just because a lot of the times when you work in VR, the idea of VR and AR - I think they call it XR, like cross-reality, because it's both augmented and virtual reality...
 
 **Jerod Santo:** There weren't enough acronyms, so they had to add one more.
 
@@ -232,7 +232,7 @@ Let's talk about Facebook VR/AR lifelike avatars. Divya, this was your bullet po
 
 **Divya Sasidharan:** Yeah, it's like the metaverse, and I'm just like "I don't know if I'm ready for the metaverse..." \[laughs\]
 
-**Break:** \[00:32:32.10\]
+**Break:** \[32:32\]
 
 **Jerod Santo:** Alright, we are back... And we're here for Pro Tip time. This is where we share our pro tips, whether we're an actual pro, or maybe not. But we have some lifehacks, we've got lessons learned from doing dumb things... Whatever it happens to be, we like to share them with you. Suz, please, share with us your pro tip.
 
@@ -256,7 +256,7 @@ So I do actually have -- my AppleScript for my Twitch stream is open source, and
 
 You can check that out, I will include the link in the show notes... But it just has these weird -- AppleScript has these weird issues with it. I've actually had people open issues on my open-sourced AppleScript, because they'll say "What is that funny, weird, A ASCII character on the end of every single line that you have? Is that a bug when you were committing it, or is it something weird with your computer?" And I said "Well, no, AppleScript doesn't allow you to just do line breaks wherever you please. It will actually break."
 
-\[00:36:14.06\] So the way to do it is to use ASCII code 182, and that is the A with circumflex accent. That's how you actually get your code to go to a new line. But that character is visible in your AppleScript, so it's extremely silly.
+\[36:14\] So the way to do it is to use ASCII code 182, and that is the A with circumflex accent. That's how you actually get your code to go to a new line. But that character is visible in your AppleScript, so it's extremely silly.
 
 **Jerod Santo:** I'm looking at it right now, it does look silly.
 
@@ -278,7 +278,7 @@ I want to get more into this stuff. Not necessarily automation to be lazy, but j
 
 I feel like it's such a cliché to say self-care, but I like to think of it more as just like taking the time to basically refocus yourself. I've been using Headspace a lot, just because it's a really great tool to take however much time you need... They have various time increments, so you can do one minute if you don't have a lot of time and you're impatient...
 
-**Jerod Santo:** \[00:40:08.06\] Is this a website, is this an app?
+**Jerod Santo:** \[40:08\] Is this a website, is this an app?
 
 **Divya Sasidharan:** It's an app for meditation.
 
@@ -318,7 +318,7 @@ I feel like it's such a cliché to say self-care, but I like to think of it more
 
 **Suz Hinton:** How about you, Jerod?
 
-**Jerod Santo:** \[00:43:50.12\] Yeah, so for my pro tip - this is something I wanted to talk about during our communication episode that we did a few weeks back, we just never quite got around to it... And I thought I'd throw it in here, as a bit of a follow-up for communication skills. We talked about issues, we talked about PRs, we talked about how to convince people of things, and talk to users and whatnot... One thing we didn't address was just email in general, and how to write effective emails, and how to get back what you're looking for.
+**Jerod Santo:** \[43:50\] Yeah, so for my pro tip - this is something I wanted to talk about during our communication episode that we did a few weeks back, we just never quite got around to it... And I thought I'd throw it in here, as a bit of a follow-up for communication skills. We talked about issues, we talked about PRs, we talked about how to convince people of things, and talk to users and whatnot... One thing we didn't address was just email in general, and how to write effective emails, and how to get back what you're looking for.
 
 There is a fellow named Lazarus Lazaridis. Sorry, Laz, I messed up your last name there. A little alliteration and some rhyming, but... He wrote a post called "Composing better emails" specifically for developers, like how to quickly address what you're communicating, how to avoid misunderstandings, how to save time with your email... Because we can all waste tons of time in email, both as a recipient and then as a sender. You send an email and you're like "Well, that email sucked, because the person didn't understand me, or they didn't answer the question..." So he has a bunch of really cool tips.
 
@@ -356,7 +356,7 @@ I've found so many more people will answer all n questions that I have, or addre
 
 **Jerod Santo:** I think we all tend to use bolding. Rebecca in the chat says they also use bolding for most relevant bits. You've gotta use bolds like you use salt on your meal - sparingly; too much, and you just ruin it. If everything's bold, nothing is bold. Am I wrong? \[laughter\]
 
-**Divya Sasidharan:** \[00:47:56.11\] You really improve the taste, but sure. Yes.
+**Divya Sasidharan:** \[47:56\] You really improve the taste, but sure. Yes.
 
 **Jerod Santo:** Well, you've never tasted one of my emails. They are tasty morsels. \[laughter\]
 

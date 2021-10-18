@@ -14,7 +14,7 @@ I think there's always gonna be lots of people working on ad targeting, or some 
 
 **Yaw Anokwa:** Yeah, all those things. I had sort of a strange enter into computering. I'm originally from Ghana, in West Africa, and I moved to the States when I was about ten, with my dad who found a job teaching at a public university... And I remember coming to the States for the first time, walking to my dad's house, and seeing a little math \[unintelligible 00:03:57.00\] I remember my dad saying "Don't touch that." And yeah, naturally, I spent pretty much every waking hour I had playing with that computer \[unintelligible 00:04:06.18\] more on a college campus, got a chance to go to the library; they had old VAX terminals there, I played with those... So I was pretty in love with computing from a pretty young age.
 
-\[00:04:19.09\] I ended up going to Butler University and got a bachelor's in Computer Science, and another in Electrical Engineering. I did both simultaneously. There's a special program there that you can do both.
+\[04:19\] I ended up going to Butler University and got a bachelor's in Computer Science, and another in Electrical Engineering. I did both simultaneously. There's a special program there that you can do both.
 
 I went on to do a Masters in computer science from UDUB, University of Washington in Seattle, and during that process was sort of when I had this "Come to Jesus" moment about working on meaningful problems. To answer the core question, what does it take to get a Computer Science Ph.D. - I really think obviously you have to have some minimum threshold of interest in computing, and be reasonable at math... And then the rest is being fortunate enough to have a good advisor, who can guide you... And then stubbornness I think is really the key.
 
@@ -30,7 +30,7 @@ I think bootcamps are if you want more of a trade approach, where you get a bunc
 
 **Jerod Santo:** Yeah. So if somebody came up to you today in 2019 and said "I want to be a software engineer", would you advise them to start in a trade situation, start with a bootcamp and then back-fill perhaps the fundamentals later with a bachelor's degree if they want? Or would you say "Go to a four-year college"? I'm just curious what your advice would be.
 
-**Yaw Anokwa:** \[00:08:06.12\] Maybe I'm old-fashioned... I'm an academic, my wife's an academic, my parents are academics... \[laughter\] So I would say definitely a four-year degree. For me, it's not just the idea of just getting the skills needed to become a good software engineer. It's also about -- you know, I went to a liberal arts school for undergrad, and it's also about getting exposure to different arts of the world: language, music, religion. All of those influence the kind of work that you do.
+**Yaw Anokwa:** \[08:06\] Maybe I'm old-fashioned... I'm an academic, my wife's an academic, my parents are academics... \[laughter\] So I would say definitely a four-year degree. For me, it's not just the idea of just getting the skills needed to become a good software engineer. It's also about -- you know, I went to a liberal arts school for undergrad, and it's also about getting exposure to different arts of the world: language, music, religion. All of those influence the kind of work that you do.
 
 In my particular case that's a journalist, and so I spent most of my undergrad building an online newspaper. I learned a lot from that experience, and that informs the kind of programmer and software engineer that I am. So I think just the strict focus on acquiring a particular set of skills - it lacks some of the richness that I think a four-year degree potentially gets you. I think you need that versatility in a large business.
 
@@ -52,7 +52,7 @@ Thanks, Brett, for bringing this to our attention, and we hope you enjoy this co
 
 Yaw, tell us about that, Open Data Kit. Was it part of your work at your university? And it's still going today, still very valuable. How did it start?
 
-**Yaw Anokwa:** \[00:11:48.08\] I could talk a little bit about that... So I moved to Seattle in 2005. I was accepted to a Ph.D. program at the University of Washington in Seattle. I was gonna study AI, and I sort of abandoned that notion pretty quickly, mostly because I found I had a great relationship with a professor there, Gaetano Boriello, who really sparked my interest in -- at the time it was called Ubiquitous Computing; this idea that you can have computing everywhere, and human-computer interaction, human interfaces to those computers.
+**Yaw Anokwa:** \[11:48\] I could talk a little bit about that... So I moved to Seattle in 2005. I was accepted to a Ph.D. program at the University of Washington in Seattle. I was gonna study AI, and I sort of abandoned that notion pretty quickly, mostly because I found I had a great relationship with a professor there, Gaetano Boriello, who really sparked my interest in -- at the time it was called Ubiquitous Computing; this idea that you can have computing everywhere, and human-computer interaction, human interfaces to those computers.
 
 So I started working with Gaetano, and during probably my second year I saw a talk at UDUB from a guy called Neal Lesh, who was at that time sort of a wandering guru. He'd travel from place to place, primarily in sub-Saharan Africa, and help hospitals or whoever needed help with whatever computing problems that they had. That really inspired me. I was going through a time in my life where I felt like the stuff that I was doing didn't really have a broad impact, and it seemed like all this education for not a lot of value to the population at large.
 
@@ -66,7 +66,7 @@ I thought this idea was terrible, to be honest. I was like "I'd rather just bum 
 
 At that time Android just came out. We released the first version of ODK as soon as Android was publically released... And actually, funny story - at that time there were the Sidekick style devices; those initial devices, we took 20 of them. I think Carl and myself were the first people to bring Android devices to the entire continent of Africa, because it wasn't released there yet. We stuck them in our bags and took them to Uganda to do a quick project... And that's what kicked off the project. That was in 2008.
 
-\[00:16:01.22\] From there, the three of us had a year at Google as interns, and then went back to the university and started to build out what became this entire ecosystem of tools. That was in 2008, and now it's 2019, so it's gone on to become the standard set of tools that folks use when they're collecting data in a field environment, and it all sort of started from that project we started when we were interns.
+\[16:01\] From there, the three of us had a year at Google as interns, and then went back to the university and started to build out what became this entire ecosystem of tools. That was in 2008, and now it's 2019, so it's gone on to become the standard set of tools that folks use when they're collecting data in a field environment, and it all sort of started from that project we started when we were interns.
 
 **Jerod Santo:** Over a decade ago now.
 
@@ -86,7 +86,7 @@ Another health example - one of my favorites is polio eradication. From World He
 
 The Jane Goodall Institute, when they're tracking conservation efforts in Tanzania, they use ODK. The Carter Center... Jimmy Carter tried out ODK and he said it was remarkable. That's one of my favorite stars.
 
-\[00:20:02.16\] All of the recent elections in Egypt, and all these places - all that documentation is done through ODK. The tribes in the Amazon who protect their forests by documenting illegal logging - that's done through ODK. There was an election in Albania last year, and the monitoring was done through ODK...
+\[20:02\] All of the recent elections in Egypt, and all these places - all that documentation is done through ODK. The tribes in the Amazon who protect their forests by documenting illegal logging - that's done through ODK. There was an election in Albania last year, and the monitoring was done through ODK...
 
 So everything from healthcare, to climate monitoring... I know the Portland bus/public transit people - they do their surveys through ODK. The tools have this wide usage, where anytime that you have essentially a piece of paper, and you wanna collect data on that piece of paper but you want it to work offline, and you want it to have logic, and you want it to have GPS coordinates or pictures - anytime you have this process where you'd ordinarily collect data on paper, you can use ODK.
 
@@ -104,11 +104,11 @@ And then we, the core team, we're very committed to supporting out users... So I
 
 And then the other thing is I don't think open source matters as much in this use case, but free matters a lot. For example, let's say you are at the Red Cross - this was in Mozambique, there was a hurricane/cyclone - and you need to go out and hand out supplies and document what supplies you're handing out to people, you're not gonna be able to get a credit card. The country office doesn't have a credit card, because it's Mozambique. By the time you get to the approval process at Red Cross in DC, or in Geneva, the crisis has magnified to the point where it's no longer tenable. So the fact that you can download it and use it for zero dollars is huge. If it was one dollar, the adoption wouldn't necessarily be there. I think the free is an important thing.
 
-\[00:24:22.12\] The fact that it's open source also means that people don't feel locked in. Often times we have projects with large governments, and governments don't wanna use a Salesforce or something where their data is trapped in servers that they don't control, by companies that they have no jurisdiction over... So for very large health projects, say in Kenya or in Nigeria, the fact that it's open source makes a huge difference.
+\[24:22\] The fact that it's open source also means that people don't feel locked in. Often times we have projects with large governments, and governments don't wanna use a Salesforce or something where their data is trapped in servers that they don't control, by companies that they have no jurisdiction over... So for very large health projects, say in Kenya or in Nigeria, the fact that it's open source makes a huge difference.
 
 I think those are the things that played a part - luck and timing, and the fact that it's free, and that folks who deploy it have ownership of their data and their infrastructure I think is a big part of it.
 
-**Break:** \[00:25:05.21\]
+**Break:** \[25:05\]
 
 **Jerod Santo:** So free software is nice, well-timed software is nice, and like you said, luck's always nice as well; there's lots of ways that you can get to that ubiquity... But you also can't get there if the software doesn't deliver on its promises. One thing I read is that you all had some early goals for ODK, and it seems like achieved them, at least to a certain degree, enough that people wanted to keep using the software. Those goals were you wanted it to be easy to try, easy to use, easy to modify, and easy to scale... So the keyword there being "easy." I'm curious how that came out, and whether you felt you achieved it early on, or today... Talk about these goals of yours.
 
@@ -126,7 +126,7 @@ I think those are the things that played a part - luck and timing, and the fact 
 
 **Yaw Anokwa:** There was no Twitter when we started, so I think it's \[unintelligible 00:27:27.07\] From my perspective, and I think the early founder perspective is that a lot of the folks that we were working with in the very early days didn't necessarily have technical expertise. The user that we're dealing with is maybe a health organization who doesn't have a lot of funding; the people who are going out to collect the data are maybe a subsistence farmer who hasn't at that time seen a smartphone before. So you're given -- I think at that time the initial devices were $600. We gave $600 devices to folks who don't have any experience with smartphones.
 
-\[00:28:09.08\] Some of the early problems that we were running into are, for example - and this is a podcast, but you should look at your hands, and if you feel your fingertips, they're like these soft, squishy fingers; and those work really, really well on smartphones, because you don't have any calluses. If you do have calluses, if you work on a farm every day, your fingers don't really work on touchscreens the same way. Probably either have contacts or glasses, most of our early users didn't have corrected vision. So that's sort of the user base that we're working with - organizations that don't have a lot of technical capacity, users that aren't very technically experienced. So easy was the only way that we could ensure that folks would use the tool.
+\[28:09\] Some of the early problems that we were running into are, for example - and this is a podcast, but you should look at your hands, and if you feel your fingertips, they're like these soft, squishy fingers; and those work really, really well on smartphones, because you don't have any calluses. If you do have calluses, if you work on a farm every day, your fingers don't really work on touchscreens the same way. Probably either have contacts or glasses, most of our early users didn't have corrected vision. So that's sort of the user base that we're working with - organizations that don't have a lot of technical capacity, users that aren't very technically experienced. So easy was the only way that we could ensure that folks would use the tool.
 
 So we spent a lot of time - and continue to spend a lot of time - in the field, working with folks, just watching how the user stops when making those adjustments.
 
@@ -142,7 +142,7 @@ There's an old xkcd comic where there's a guy who's fixed a bug, and a user comp
 
 **Adam Stacoviak:** I would imagine too that you have some issues potentially because you've got people that are using these devices that may be learning as they go, and I'm assuming it might even be kind of hard to get the bug reports, so to speak, from the actual user.
 
-**Yaw Anokwa:** \[00:32:15.00\] Yeah. It's a very insightful comment, because the person who touches the software -- we have this active community forum, with about 9,000 people on it, which is great... And most of these folks on the forum aren't enumerators, or people collecting the data. So when we roll out a software update, we know it's going to devices and people that are in situations that are life-threatening; there are situations where they may be the ones to collect data, sort of a one-shot thing, but they're just using the software and they're not technical experts. So it's rare that we get a bug report from a user. Our bug reports come through either great logging, and betas, and also just being super, super-careful about incrementally rolling out things, so we get a chance to gather feedback from folks wherever they are.
+**Yaw Anokwa:** \[32:15\] Yeah. It's a very insightful comment, because the person who touches the software -- we have this active community forum, with about 9,000 people on it, which is great... And most of these folks on the forum aren't enumerators, or people collecting the data. So when we roll out a software update, we know it's going to devices and people that are in situations that are life-threatening; there are situations where they may be the ones to collect data, sort of a one-shot thing, but they're just using the software and they're not technical experts. So it's rare that we get a bug report from a user. Our bug reports come through either great logging, and betas, and also just being super, super-careful about incrementally rolling out things, so we get a chance to gather feedback from folks wherever they are.
 
 Yeah, we don't often get bug reports from users. We get stack traces when there's a crash, and we try to have long betas, and we try to get people to try things out before it rolls out to the population at large. So yeah, they're both tough problems.
 
@@ -156,7 +156,7 @@ So there's ODK Collect, which is the mobile app. That essentially renders forms,
 
 Probably the easiest way to explain this is sort of walk you through the process of what it takes to get an ODK (we call it) campaign up and running. Let's say you have a paper form with three questions - name, age and gender. And maybe a GPS location. The way you would get this form designed is that you use a tool like ODK Build, which lets you sort of drag-and-drop questions into a web interface. And once that questionnaire is essentially designed, you get it published and it goes to your ODK Aggregate server.
 
-\[00:35:54.16\] Once that form is on the server, the server takes that form and uses it to build a database back-end, with all the tables that you need. You connect ODK Collect (your mobile client) to the Aggregate server, and it pulls down the form, renders it on the device. Now you can go out and you can collect your data. When you're ready, you hit submit, and then that data goes back to Aggregate.
+\[35:54\] Once that form is on the server, the server takes that form and uses it to build a database back-end, with all the tables that you need. You connect ODK Collect (your mobile client) to the Aggregate server, and it pulls down the form, renders it on the device. Now you can go out and you can collect your data. When you're ready, you hit submit, and then that data goes back to Aggregate.
 
 So use Build to design the form, Aggregate to host the form and the submissions, and Collect to collect the data. That's a very typical use case.
 
@@ -182,7 +182,7 @@ Hopefully that should give you a sense... You build a form, you get it on a serv
 
 The variety of devices also lets us handle different use cases; I was talking about Amazon rainforests... But there's places with heavy canopy, where you need an external GPS and a device that is extremely humidity-proof, so we run on those devices as well.
 
-\[00:39:59.05\] As far as being able to do OCR, we do have some researchy apps. One is called ODK Stamp. That does exactly that, where you can essentially annotate a sheet of paper, collect the data that way, feed it into the app, but it's not widely deployed as the rest of our tools.
+\[39:59\] As far as being able to do OCR, we do have some researchy apps. One is called ODK Stamp. That does exactly that, where you can essentially annotate a sheet of paper, collect the data that way, feed it into the app, but it's not widely deployed as the rest of our tools.
 
 **Jerod Santo:** That's really cool. I love that it runs on eReaders. And TVs - that just seems kind of ridiculous, but okay... \[laughs\]
 
@@ -216,7 +216,7 @@ It turns out when you're deploying in space there isn't dramatically -- at least
 
 **Yaw Anokwa:** There are some projects where they'll have a hot spot, or something... For those kind of deployments you can imagine, I'm in a small city - not a domain city, but in a small city - and I've sent out a bunch of data collectors to even more rural locations. They come back to the hotel, this small city has set up a WAN, and then they submit data to a desktop computer that's running the server software. That's one use case.
 
-\[00:44:18.06\] But the more common use case is that there's no connection whatsoever, no WAN, no nothing... So you collect the data, but there's almost always a cell network nearby, or close enough. It's at that point where if you have a connection, you can send it to the server; that's a second common use case.
+\[44:18\] But the more common use case is that there's no connection whatsoever, no WAN, no nothing... So you collect the data, but there's almost always a cell network nearby, or close enough. It's at that point where if you have a connection, you can send it to the server; that's a second common use case.
 
 Then a third common use case is that there's no connection, no internet anywhere, so you just plug the phone into the computer, and then we have desktop software that pulls the data from all the devices that you plug into it, and then it generates whatever reports you want.
 
@@ -240,11 +240,11 @@ There's use cases where people build a form that's really a triage protocol. So 
 
 **Yaw Anokwa:** I would say it's not... Maybe this gets into the underpinning technologies that we use. The forms that you're using, the drag-and-drop form designer, or the Excel-based form designer - all those output an XML document, and that XML document is an XForm.
 
-\[00:48:10.06\] The XForm is this old open source standard that IBM came up with for forms. I think ODK and maybe Orbeon Forms, which is another open source project, are probably the only people on the planet who continue to use XForms... But we found it a really powerful standard for Turing complete forms. Our engine is not as powerful as it could be, but it essentially lets you do all sorts of crazy things with these XForms.
+\[48:10\] The XForm is this old open source standard that IBM came up with for forms. I think ODK and maybe Orbeon Forms, which is another open source project, are probably the only people on the planet who continue to use XForms... But we found it a really powerful standard for Turing complete forms. Our engine is not as powerful as it could be, but it essentially lets you do all sorts of crazy things with these XForms.
 
 So for our users who are particularly advanced, who step outside of the graphical designer or outside of the Excel-based designer and jump into \[unintelligible 00:48:47.23\] build some really powerful tools using that forms spec. So yeah, I don't know if we can guarantee that it's Turing complete, but you can build some wild stuff with these forms.
 
-**Break:** \[00:49:08.09\]
+**Break:** \[49:08\]
 
 **Jerod Santo:** So earlier you said that you don't feel like you're a good programmer anymore, and then you went on to list off what sounds like some pretty amazing software that's come from ODK and that project, so I'm guessing you have more people than just yourself involved, because you've got a lot of awesome software out there, and you surely didn't build it all by yourself. Can you tell us about the team, the community, what's grown, who's involved, and so on?
 
@@ -254,7 +254,7 @@ For some people, we're out in the field and we'll see that somebody is strugglin
 
 The project is organized currently as -- there's a project management committee that sits at the top. Each of the suites of software have their own technical steering committee. I'm gonna focus on the ODK technical steering committee - we have folks from companies within the ecosystem who are there as sort of oversight of the project. And then the core software development - the majority of it is done by Nafundi, which is a company that I run. We have a team now of about 7-10, depending on how you count, who do the core development on the tools. Then we have a number of contributors that have come in through either Summer of Code, or just people who use software, friends with the software, who contribute code.
 
-\[00:52:25.08\] The way it typically works is that we start from our forum, where almost all the developers and a big part of the more experienced users live when they have each their ideas or feature suggestions; we have those discussions on the forum. Once it's to a point where we feel like "Oh, that's a pretty good feature idea to spec out it goes to the technical steering committee, where we discuss it, make sure it's within our scope of what we wanna build. Then that goes to GitHub, where it's filed as an issue, and then usually somebody from the team at Nafundi builds it.
+\[52:25\] The way it typically works is that we start from our forum, where almost all the developers and a big part of the more experienced users live when they have each their ideas or feature suggestions; we have those discussions on the forum. Once it's to a point where we feel like "Oh, that's a pretty good feature idea to spec out it goes to the technical steering committee, where we discuss it, make sure it's within our scope of what we wanna build. Then that goes to GitHub, where it's filed as an issue, and then usually somebody from the team at Nafundi builds it.
 
 The PR is reviewed by somebody else, and then eventually it gets merged and it's released. There's a beta and it's released to the community. That's how it works.
 
@@ -276,7 +276,7 @@ At Nafundi we try to make sure that every dev is on the forum and is answering s
 
 The company started because Carl and I wanted to keep working on ODK. Eventually, they give you a Ph.D, and since 2008 to 2011 we had poured a lot of time and effort into not just the software, but growing a community and ecosystem around it. I can't speak for Carl, but for me, I felt like a deep responsibility to try to keep it going as long as I could, and Carl agreed.
 
-\[00:56:02.16\] We also kept getting projects, people kept using ODK at scale and needed help, so in 2011 when we graduated -- or when we decided we were going to graduate in 2012... So in 2011 we started the company, as essentially providing professional services on top of ODK. Within the first few months, larger and larger projects were coming our way. Our model at that time was we take consulting dollars, we charge a premium, and then we do forks, or we do core contributions, and whatever margin that we get, we use it to work on the unpleasant infrastructure or core changes that no one was paying for. You know, just standard professional services, open source sorts of stuff.
+\[56:02\] We also kept getting projects, people kept using ODK at scale and needed help, so in 2011 when we graduated -- or when we decided we were going to graduate in 2012... So in 2011 we started the company, as essentially providing professional services on top of ODK. Within the first few months, larger and larger projects were coming our way. Our model at that time was we take consulting dollars, we charge a premium, and then we do forks, or we do core contributions, and whatever margin that we get, we use it to work on the unpleasant infrastructure or core changes that no one was paying for. You know, just standard professional services, open source sorts of stuff.
 
 Over the last two years we've moved more into doing grant writing. At this time, myself and Alan, Martin, are now owners of the company. Our model is doing like 25% consulting work, but 75% is grant funding. We bill to folks like large foundations, government entities like USAID, Gates Foundation, and we make the case that ODK is a critical part of the global health and global development infrastructure, and that a lot of their grantees and their projects use the software, but don't necessarily have a line item to support it.
 
@@ -290,7 +290,7 @@ We make that case to grants and to funders, and they've historically agreed with
 
 **Adam Stacoviak:** "Stumbled into" maybe...?
 
-**Yaw Anokwa:** \[00:59:53.03\] It sort of emerged... I spend a lot of time thinking about open source sustainability and researching things, and I wish there were a better way of doing it, but the reality of our customer base is most projects in global development, global health, sort of computer space, are funded at a project level. So you'll be able to get an organization to do a malaria project, or do an election, but there's nobody who's funding things like improved timezone support. So we sort of have to, and I think it works best this way, that we treat ODK as a public good, as infrastructure, and convince the biggest organizations who rely on that infrastructure to help support it.
+**Yaw Anokwa:** \[59:53\] It sort of emerged... I spend a lot of time thinking about open source sustainability and researching things, and I wish there were a better way of doing it, but the reality of our customer base is most projects in global development, global health, sort of computer space, are funded at a project level. So you'll be able to get an organization to do a malaria project, or do an election, but there's nobody who's funding things like improved timezone support. So we sort of have to, and I think it works best this way, that we treat ODK as a public good, as infrastructure, and convince the biggest organizations who rely on that infrastructure to help support it.
 
 One question that I always get is "Is any of this stuff sustainable?" and I always find it an odd question, because "In some ways sustainable...". Like, on what timeframe are we talking about here?
 

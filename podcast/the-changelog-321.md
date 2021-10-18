@@ -10,7 +10,7 @@
 
 So it kind of started as a project that was by developers for developers. At the time - this project started in 2001, so at the time, cutting-edge things like RSS, and stuff like that... It kind of attracted this developer audience, who then wanted to make it as flexible as possible.
 
-\[00:04:11.03\] So there's extension points for everything under the sun, there's 30,000 modules that you can use to add different types of functionality to it, and the whole thing is done in a really well-architected way, so you kind of use the same concepts throughout.
+\[04:11\] So there's extension points for everything under the sun, there's 30,000 modules that you can use to add different types of functionality to it, and the whole thing is done in a really well-architected way, so you kind of use the same concepts throughout.
 
 An application like WordPress, if you want a photo gallery, there might be 70 or 80 different photo galleries you can pick from, and you pick which one is closest to what you need. In Drupal, you will build your photo gallery up, and you build it by using an image field module that will add images, support to upload things, you'll add a view, which displays images in a grid or in a listing, or something like that, you add a pager, and you add these other things... So you really customize it to be exactly what you want. For the most part, all of that is done without writing any code. But if you want to take what's there and then extend the crap out of it and make it really custom, or have it integrate with some external system, or you want it to output all of the data as JSON, so you can use a decoupled front-end, or a mobile app, or something like that in front of it, you can also do all of those things.
 
@@ -24,7 +24,7 @@ I'm always curious or I'm always interested in the architecture of things and wh
 
 **Jerod Santo:** It really was, yeah.
 
-**Angela Byron:** \[00:07:48.20\] Yeah, and kind of like built this thing, and then others of his friends - because he was in a computer science type of program - contributed to it. Then he was very inspired by what Linus was doing with Linux, and kind of the open-sourcing of that, worked a bunch on Linux stuff as well, and so he really wanted to make his project open source. And at the time, the only other real open source CMS back then was PhpNuke, and I don't know if you still have the battle scars from dealing with that whole mess, but...
+**Angela Byron:** \[07:48\] Yeah, and kind of like built this thing, and then others of his friends - because he was in a computer science type of program - contributed to it. Then he was very inspired by what Linus was doing with Linux, and kind of the open-sourcing of that, worked a bunch on Linux stuff as well, and so he really wanted to make his project open source. And at the time, the only other real open source CMS back then was PhpNuke, and I don't know if you still have the battle scars from dealing with that whole mess, but...
 
 **Jerod Santo:** I definitely had a couple of run-ins with that one...
 
@@ -68,7 +68,7 @@ Early days, back in 2004 I wanna say, Howard Dean ran for president, and that di
 
 **Angela Byron:** Yeah, he was a presidential candidate. He got pretty far, but he attracted a lot of these young technologists who were very passionate about somebody with half of a clue, like, maybe becoming president... "Oh my god, wouldn't that be me...!?" So they started this grassroots political campaign, and they used Drupal to do it.
 
-\[00:12:02.09\] So what they did is they built what's called a distribution of Drupal, which means like a pre-setup version of Drupal with a bunch of things already done. Kind of like, you know, you can build a Docker container that already has this version of PHP, and this version of that, the other thing. Drupal has this concept of distribution, so you can say "I want these seven modules, and I want these settings set this way, or whatever, and then you can kind of cookie-cutter out websites based on a template.
+\[12:02\] So what they did is they built what's called a distribution of Drupal, which means like a pre-setup version of Drupal with a bunch of things already done. Kind of like, you know, you can build a Docker container that already has this version of PHP, and this version of that, the other thing. Drupal has this concept of distribution, so you can say "I want these seven modules, and I want these settings set this way, or whatever, and then you can kind of cookie-cutter out websites based on a template.
 
 So they built one of these for the Howard Dean campaign - Howard Dean Connecticut, and Howard Dean California, and all these different locations would spin up a Drupal site, they all could talk to one another, so people were able to log in to each of the different sites, and share content with one another, and it was the first time that technology was really used to power a political campaign, and that kind of got Drupal on the map, honestly.
 
@@ -110,7 +110,7 @@ So yeah, that's what got Drupal on the map. And I came in very shortly after tha
 
 **Angela Byron:** Yeah, good times... So I learned about open source and Linux and all that kind of stuff back in like the mid-90's, and just fell in love with this idea of like "Holy crap! All these smart people kind of band together and they work really hard on this problem, and then they give the solution away for free, and then anyone can take it and modify it if they need, and this is such incredible benefit for humanity - the educational institutions, non-profits, non-government organizations, everything." So I got really, really interested in open source and Linux and all these kinds of things, but I thought I was not good enough to actually participate in an open source project, because I figured you had to be like Einstein, or something to do that.
 
-\[00:15:49.21\] So I looked up to all these dudes who were running the open source world -- or I think it was still called "free software" back then... And just in awe of what they were accomplishing, but kind of felt like I was on the outside of that and could never really break in. So Firefox, back in the day, set up a Drupal site for SpreadFirefox.com, and it was a really interesting website that allowed anyone to upload, say, posters, or post events of things that were happening at their campus, or this kind of thing, to try and do a grassroots marketing campaign around Firefox... And I'm one of those people that goes around viewing source on every website I visit, because I'm just curious how it works underneath... And I saw the name "Drupal", and I had never heard of it, but I kind of made a note for later, because it was like "Oh, that's neat. Drupal is powering that thing. Cool!"
+\[15:49\] So I looked up to all these dudes who were running the open source world -- or I think it was still called "free software" back then... And just in awe of what they were accomplishing, but kind of felt like I was on the outside of that and could never really break in. So Firefox, back in the day, set up a Drupal site for SpreadFirefox.com, and it was a really interesting website that allowed anyone to upload, say, posters, or post events of things that were happening at their campus, or this kind of thing, to try and do a grassroots marketing campaign around Firefox... And I'm one of those people that goes around viewing source on every website I visit, because I'm just curious how it works underneath... And I saw the name "Drupal", and I had never heard of it, but I kind of made a note for later, because it was like "Oh, that's neat. Drupal is powering that thing. Cool!"
 
 Many, many years later, I was just graduating my final program in a community college, and they announced that there was this program - this was in 2005 - called "Google Summer of Code." Google Summer of Code, for those who don't know, is where Google pays you a stipend over the summer to work with an open source project, and you basically take something off of their hit list, or you propose your own project, or something like that, but you basically work three months embedded in an open source community, and then as long as you do a good job and you don't slough off, then you get money. Yay, money! And code, and everything.
 
@@ -148,7 +148,7 @@ I ended up getting a job out of that, which I thought -- you know, I figured onc
 
 **Angela Byron:** Yeah, if anything's worth doing, it's just overdoing, basically... That's how I live my life. But yeah, and it was also helpful because the attitude was so great. I've been part of communities where the attitude is "Oh, you don't know about the blah-blah-blah module? Pfft, whatever..."
 
-**Jerod Santo:** \[00:20:19.09\] Right, RTFM...
+**Jerod Santo:** \[20:19\] Right, RTFM...
 
 **Angela Byron:** And in this community it was the opposite. It was like "Oh, you don't know about the blah-blah-blah module?! Well, let me tell you about it, because it's awesome, and then you'll know about it and we can talk about it!" That really, really helped, and I think that that kind of mentorship built into the DNA of the community is really important, and that predates my involvement, but I definitely have tried to shepherd that forward myself, and seen amazing efforts by other people in the community to shepherd for those efforts as well.
 
@@ -178,9 +178,9 @@ Part of it too is just there's such smart people there and I learn new things al
 
 So constantly learning new things, and then... I think the technical problem is really interesting as well, because you're building for multiple audiences. Every time you build a feature, you have to think not only about "How are we gonna write the APIs so that developers can extend this where they need to, and the classes and objects and stuff are all named in a way that makes sense to people etc.?", all those problem space... But then you're also thinking about "How would a non-technical content author use this feature?"
 
-\[00:24:19.15\] They're not gonna know anything about modules, or functions, or any of that stuff. They're gonna be presented with an interface, so how do we build an interface around this brilliant piece of technology, so that they understand it and they can use it? And I find that dichotomy really interesting and challenging, and I don't know if that comes up in other projects that are based around just one of those audiences.
+\[24:19\] They're not gonna know anything about modules, or functions, or any of that stuff. They're gonna be presented with an interface, so how do we build an interface around this brilliant piece of technology, so that they understand it and they can use it? And I find that dichotomy really interesting and challenging, and I don't know if that comes up in other projects that are based around just one of those audiences.
 
-**Break:** \[00:24:47.18\]
+**Break:** \[24:47\]
 
 **Jerod Santo:** Alright Angie, you teased four points, and you gave us three... I feel like there's one more reason why you might be sticking around the Drupal team, so... What else have you got?
 
@@ -198,7 +198,7 @@ My job is basically to find the toughest problems for Drupal and solve them... A
 
 **Adam Stacoviak:** I asked you what hooked you, but I think maybe what might be the answer for those out there in the community of Drupal might be many like you, with the kind of energy and enthusiasm, and it seems like you're a super-kind person, so...
 
-**Angela Byron:** \[00:28:02.21\] Oh, thank you.
+**Angela Byron:** \[28:02\] Oh, thank you.
 
 **Adam Stacoviak:** Tell us about the community piece of things. Are there many you's out there, with the kind of care and enthusiasm and - I don't know, just... Cool person? \[laughter\] Is that what keeps people there?
 
@@ -228,7 +228,7 @@ Basically, we do drum-rolls on the tables and stuff, but we actually do a patch 
 
 **Adam Stacoviak:** It's a portion that requires, as you had said, somebody to show up - these people that knew all the things... So I think of it from one lens, which is like "Great! The people who have been around, know all the things, they show up." That's kind of required for some of the interaction you just mentioned there. And without going a little too far into the "what keeps people around" aspect, but I wanna know, once you're past a certain stage of a project, or your involvement, or your knowledge space of it, you kind of get bored, maybe you move on... What is it that makes those types of people show up?
 
-\[00:32:12.11\] Because that's a really important piece to community that I feel like, Jerod, that Drupal has just done well... And we haven't covered it much; not because we don't care about it, but just somehow, someway this news isn't bubbling up to us, or we're-- I'm not really sure, but maybe you can give us a purview into what makes these types of people show up, so that you can have new contributors, you're gonna have these experiences you just described.
+\[32:12\] Because that's a really important piece to community that I feel like, Jerod, that Drupal has just done well... And we haven't covered it much; not because we don't care about it, but just somehow, someway this news isn't bubbling up to us, or we're-- I'm not really sure, but maybe you can give us a purview into what makes these types of people show up, so that you can have new contributors, you're gonna have these experiences you just described.
 
 **Angela Byron:** I mean, to a large extent it's the same factors I described earlier that keep me involved, also keep these people involved. We are trying to be better; I wouldn't say we're perfect yet, but we're trying to be better about not burning people to a crisp, because that's usually what happens when someone's really passionate about something - they work and work and work, and then they start turning into patient zero, making everyone else around them burnt out on Drupal as well, in their behavior and in the way their interact, and things like that.
 
@@ -242,7 +242,7 @@ I think also we have a lot of people who care a lot about people in our communit
 
 I think all of those different things add up. And I wouldn't say we're perfect. We've definitely had some very high-profile flame-outs in our community, but I think that the people there are well-intentioned, they're really trying hard to make it a place where people come, and you know, if you need to take time off, that's awesome; we actively encourage that, please do that.
 
-\[00:35:59.15\] But you still get people - and I was one of those myself - who are just like "I have to stay, because nothing will happen if I don't!", this kind of thing, and an overwhelming sense of responsibility, and stuff... I think we're just a bit smarter about that, because it's an old project; we've seen people flame out like this multiple times, so I think trying to catch it earlier, when we can, or taking people aside, when we can - those are different ways we combat it... But I don't think we have this down by any means, but that's some of the strategies we employ anyway.
+\[35:59\] But you still get people - and I was one of those myself - who are just like "I have to stay, because nothing will happen if I don't!", this kind of thing, and an overwhelming sense of responsibility, and stuff... I think we're just a bit smarter about that, because it's an old project; we've seen people flame out like this multiple times, so I think trying to catch it earlier, when we can, or taking people aside, when we can - those are different ways we combat it... But I don't think we have this down by any means, but that's some of the strategies we employ anyway.
 
 **Jerod Santo:** It sounds like the community definitely has its scars over the years... Any open source project that's gonna be around for 15, 16, 17 years - like you said, humans are gonna human, so we're gonna have issues...
 
@@ -268,7 +268,7 @@ However, there's certain things that 80% of websites are gonna want, for example
 
 So what Drupal has really concentrated on in the last, I'd say - this is since 2011, so seven years, eight years almost - is really making the core that you download something that is usable out of the box to build a good chunk of sites, so that you're really only needing to go to the contributed modules or custom modules for stuff that actually is kind of off the beaten path. So for your average content management experience, it's all kind of built in there and ready to go.
 
-\[00:40:13.24\] Drupal 8 is the current version of Drupal we have. If you used Drupal in 2010, that probably would have been Drupal 6... Which was a great release, don't get me wrong, but Drupal 7 and 8 really focused a lot on the usability piece of things... So you wouldn't recognize the interface at all anymore, I don't think. And it's also really focused on making the out-of-the-box product a lot more feature-filled, to the point that we just had the Drupal 8.6 release a couple of months ago, and it ships with a demo that shows what Drupal can actually do... Because that was one of the biggest things - you'd install WordPress, and it's immediately obvious what WordPress is and what it's for, and then you install Drupal and it looks like an ugly blog from 1996, like Slashdot, or something... It's like, "Why would I ever use this thing, when I can use this other thing?" So it was not doing a good job at all of really highlighting Drupal's strengths, which is the ability to create structured content, so you can create these things called entities, the entities can have discreet fields on them, of different types, like a numeric field, a date/time field, a geographic field, storing lat/lon, or whatever... All kinds of different things.
+\[40:13\] Drupal 8 is the current version of Drupal we have. If you used Drupal in 2010, that probably would have been Drupal 6... Which was a great release, don't get me wrong, but Drupal 7 and 8 really focused a lot on the usability piece of things... So you wouldn't recognize the interface at all anymore, I don't think. And it's also really focused on making the out-of-the-box product a lot more feature-filled, to the point that we just had the Drupal 8.6 release a couple of months ago, and it ships with a demo that shows what Drupal can actually do... Because that was one of the biggest things - you'd install WordPress, and it's immediately obvious what WordPress is and what it's for, and then you install Drupal and it looks like an ugly blog from 1996, like Slashdot, or something... It's like, "Why would I ever use this thing, when I can use this other thing?" So it was not doing a good job at all of really highlighting Drupal's strengths, which is the ability to create structured content, so you can create these things called entities, the entities can have discreet fields on them, of different types, like a numeric field, a date/time field, a geographic field, storing lat/lon, or whatever... All kinds of different things.
 
 Then you can enter content in a structured way, you can mix and match the content out -- say, you can just post the whole thing as one piece of content, or you can say "Make a sidebar block that pulls in the title, the teaser, the author" and that's it. You can output the entire thing as a JSON feed... It's very flexible in what it allows you to do, but we weren't highlighting that aspect of Drupal at all.
 
@@ -294,7 +294,7 @@ I could talk too about some of the development initiatives we have going on at t
 
 **Adam Stacoviak:** Yeah, exactly, but similar roots in terms of ideology.
 
-**Angela Byron:** \[00:43:57.27\] Yeah, and what's interesting about it too is even though we are, say, configuring a default experience that will work for like 80% of people, you still at all times need to be mindful of that 20%, because that 20% is very vocal, and definitely does not wanna be cut out from being able to do the crazy things that they wanna do.
+**Angela Byron:** \[43:57\] Yeah, and what's interesting about it too is even though we are, say, configuring a default experience that will work for like 80% of people, you still at all times need to be mindful of that 20%, because that 20% is very vocal, and definitely does not wanna be cut out from being able to do the crazy things that they wanna do.
 
 **Jerod Santo:** Yeah.
 
@@ -318,9 +318,9 @@ I would argue the advantage of Drupal is that it can be all three of those thing
 
 So that's kind of where I would say we look at our competitors, it's kind of the range of those different things.
 
-\[00:48:10.10\] I would say things that are not our competition would be things like Squarespace, Wix... Those would definitely be like down-market for us; those things that are like -- you're building a five-page website and you wanna do it in four seconds, and you don't wanna think... We're not in that space. We're not in the space of Tumblr, or things of that nature. But I would say for anything above that, that is definitely the area that Drupal plays in. And yeah, it's fascinating to look through some of the case studies at Drupal.org and see how people are using Drupal, because it's used everywhere.
+\[48:10\] I would say things that are not our competition would be things like Squarespace, Wix... Those would definitely be like down-market for us; those things that are like -- you're building a five-page website and you wanna do it in four seconds, and you don't wanna think... We're not in that space. We're not in the space of Tumblr, or things of that nature. But I would say for anything above that, that is definitely the area that Drupal plays in. And yeah, it's fascinating to look through some of the case studies at Drupal.org and see how people are using Drupal, because it's used everywhere.
 
-**Break:** \[00:48:50.07\]
+**Break:** \[48:50\]
 
 **Adam Stacoviak:** So I would say developers are probably lazy to some degree...
 
@@ -336,7 +336,7 @@ So that's kind of where I would say we look at our competitors, it's kind of the
 
 **Adam Stacoviak:** So I'm imagining there's a skillset that's been built up by most developers, that they can reuse or easily move to something else if they wanted to. This excitement, this community, this energy you bring, Angie, may be a surprise, potentially, to a lot of listeners of this show... And they're thinking, "Geez, well what does it really take to be a Drupal developer?" What skills do they need to have? Maybe they've already got them, and it's like "I don't have to go relearn something new... I've already got the necessarily skills." Break that down for us.
 
-**Angela Byron:** \[00:52:05.06\] Sure. Well, I should say that Drupal is still written in PHP, and MySQL, JavaScript, that kind of thing in general... I would say the skills you need generally speaking though - you don't wanna start coding with Drupal until after you've tried to do everything you can without coding. And what I mean by that is that often people come into Drupal, and they're a PHP developer, or they're a Java developer or whatever, and they come in and they're like "I know how to code. This is gonna be great." So they immediately go in, find those extension points, and start going crazy. That is not the right approach for something like Drupal that has this huge community of contributed modules and 40,000 contributors and all this other kind of thing, because usually, whatever problem you're trying to solve has already been solved by somebody.
+**Angela Byron:** \[52:05\] Sure. Well, I should say that Drupal is still written in PHP, and MySQL, JavaScript, that kind of thing in general... I would say the skills you need generally speaking though - you don't wanna start coding with Drupal until after you've tried to do everything you can without coding. And what I mean by that is that often people come into Drupal, and they're a PHP developer, or they're a Java developer or whatever, and they come in and they're like "I know how to code. This is gonna be great." So they immediately go in, find those extension points, and start going crazy. That is not the right approach for something like Drupal that has this huge community of contributed modules and 40,000 contributors and all this other kind of thing, because usually, whatever problem you're trying to solve has already been solved by somebody.
 
 **Jerod Santo:** Yeah, that's awesome.
 
@@ -350,7 +350,7 @@ So I would say first make sure no one else has already solved this, or that ther
 
 You also generally build a user interface for any functionality that you're adding, so there's hooks and stuff like that for that, so you can easily expose, say, an admin page for your piece of functionality, that has a bunch of form elements in it; there's an API for that. And then if you wanna be fancy, you can also add in some CSS and JavaScript that gets pulled in there. You wanna be careful about that though, because again, Drupal, an infinitely flexible thing, we want all of the output of Drupal to be (what's called) themeable, so that means it's overwritable... Just because you picked green buttons or something for your thing doesn't mean that every site is gonna have green buttons. So we actually run everything that's output to the screen through a theme system, and that allows individual site authors to build their own customizations over what you're providing.
 
-\[00:55:57.02\] I would say the actual mechanical tools required to be a Drupal developer are quite similar to being any kind of web developer, really. I mean, there's PHP, but if you know Java or Ruby or any other language, PHP is pretty easy to pick up. It has a lot of dollar signs in it, that's about it. \[laughter\]
+\[55:57\] I would say the actual mechanical tools required to be a Drupal developer are quite similar to being any kind of web developer, really. I mean, there's PHP, but if you know Java or Ruby or any other language, PHP is pretty easy to pick up. It has a lot of dollar signs in it, that's about it. \[laughter\]
 
 **Jerod Santo:** Dollar signs is simple.
 

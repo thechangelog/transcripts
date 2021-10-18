@@ -1,4 +1,4 @@
-**Adam Stacoviak:** \[00:00:17\] The best place to open is the question at the start of the weekend, which is on Friday we heard the news, "Will Microsoft buy GitHub?" and we went into the weekend kind of speculating whether that was actually true or false... Some pretty interesting parties reported this, so it seems like it's close to true as it could be, like Business Insider, and then Bloomberg finally picked it up on Sunday, but...
+**Adam Stacoviak:** \[00:17\] The best place to open is the question at the start of the weekend, which is on Friday we heard the news, "Will Microsoft buy GitHub?" and we went into the weekend kind of speculating whether that was actually true or false... Some pretty interesting parties reported this, so it seems like it's close to true as it could be, like Business Insider, and then Bloomberg finally picked it up on Sunday, but...
 
 **Jerod Santo:** The Verge...
 
@@ -32,7 +32,7 @@ So this conversation here, this Spotlight we're doing is to just share initial r
 
 **Adam Stacoviak:** There's a couple different angles you can look at this, though... One, it's a success story, right? Three fellas got together one time in a bar, decided on an idea, executed, it was a Rails app... This was a darling of a thing; it's grown into something different, so the facets of which you can look at this are very varied, so to speak. You can take a look at this and say "Congrats Chris, and the rest of the team, for executing on an idea and coming out with 7.5 billion dollars of worth to somebody."
 
-\[00:04:05.25\] Then you look at it like "How is this gonna change the community? How is this gonna change the way open source communities organize and ship software... Primarily, a lot of that happens on GitHub, although it's not the only place... It is the primary place, so when you mention open source, it's sort of as like inherent that it's on GitHub, for most of the part.
+\[04:05\] Then you look at it like "How is this gonna change the community? How is this gonna change the way open source communities organize and ship software... Primarily, a lot of that happens on GitHub, although it's not the only place... It is the primary place, so when you mention open source, it's sort of as like inherent that it's on GitHub, for most of the part.
 
 On one side, I remember sitting in the room with Chris and Tom in 2008, literally three months after they created GitHub, and they were just like very nonchalant... It was not at all the GitHub it is today.
 
@@ -76,7 +76,7 @@ What do they have to lose? I guess 7.5 billion dollars in stock...? \[laughter\]
 
 **Adam Stacoviak:** But consider all the developers that will leave just because of the Microsoft name... And you and I know, we've been tracking this story for several years on this change, that we began skeptically on this story, but over time you and I have both sort of like lightened up to the suspicion of Microsoft and see the insides, the leadership change, even the changes at the developer level, and we see VS Code be the darling in GitHub...
 
-\[00:08:14.08\] And we talked to folks inside of VS Code about just the way that project is run - that's super open source. And we see a lot of that change, and I just hope that others kind of give them a chance to at least state their case before they say they're totally bad.
+\[08:14\] And we talked to folks inside of VS Code about just the way that project is run - that's super open source. And we see a lot of that change, and I just hope that others kind of give them a chance to at least state their case before they say they're totally bad.
 
 **Jerod Santo:** I agree with you that the -- well, on both accounts, first of all; I think that open-sourcing it would win a lot of street cred for them on the community's behalf, and I also agree that we've seen this transition that by my best take is not a facade, is not a front, is not just marketing talk. It's legitimate change from the top down, and from the bottom up as well; it's kind of interesting.
 
@@ -94,7 +94,7 @@ Now, I know they had some losses early on, but startups have losses all the time
 
 So because I wasn't thinking about those things, I was just surprised that GitHub would sell. And the more I thought about it, and I've had -- these are Friday afternoon feelings for me... But the question is "Will this happen?" I was thinking -- it seemed like it was actually a rumor, but a pretty solid rumor, so I think it is actually going to happen, and I was mostly just surprised.
 
-\[00:12:12.01\] Now, do I think it's a net win or a net loss for the greater developer community? I don't know, man... \[laughs\] I'm probably slightly less optimistic than you are, but not necessarily a doomsayer with this circumstance.
+\[12:12\] Now, do I think it's a net win or a net loss for the greater developer community? I don't know, man... \[laughs\] I'm probably slightly less optimistic than you are, but not necessarily a doomsayer with this circumstance.
 
 **Adam Stacoviak:** I'll address that skepticism and rewind a little bit. I think totally having one of the Big Four - Big Four as noted by Scott Galloway: Microsoft, Google, Amazon... Who else? Who is the fourth?
 
@@ -118,7 +118,7 @@ The other thing to consider is the viability of GitHub. You alluded to their rev
 
 The next step for GitHub to become the GitHub that needs to be there for the next 10 years to keep that going needs to be a GitHub that can go through either, dare I say, an ICO or an IPO, right? ICOs are interesting new ways to fund things through cryptocurrencies; there's been a lot of speculation around that... Or an ICO, which is not easy. Either of those are not easy. So you either get a new valuation, more funding just to keep trying to make more, or you eventually become a GitHub that competes with Microsoft, Google, Amazon, Facebook... Maybe not Facebook, because they don't have cloud, but the other three do. So you start to compete with them. Do you wanna do that, or you do you wanna get bought by one of them? It's a tough road.
 
-**Jerod Santo:** \[00:16:20.24\] Yeah, it is. So sharing a little bit more of the community reaction... First of all, we should mention that there was GitLab -- GitLab happened in the wake of this, which is I think a lot of the developer gut reactions... And the nice thing about Git is you can easily just Git push to a different remote -- so we had a massive jump in GitLab in new repositories that happened over the weekend, with this rumor...
+**Jerod Santo:** \[16:20\] Yeah, it is. So sharing a little bit more of the community reaction... First of all, we should mention that there was GitLab -- GitLab happened in the wake of this, which is I think a lot of the developer gut reactions... And the nice thing about Git is you can easily just Git push to a different remote -- so we had a massive jump in GitLab in new repositories that happened over the weekend, with this rumor...
 
 **Adam Stacoviak:** Yeah, imported.
 
@@ -144,7 +144,7 @@ To me - sure, the skepticism there, the distrust is there from the old Microsoft
 
 **Adam Stacoviak:** Of course.
 
-**Jerod Santo:** \[00:20:11.15\] So... Yeah. Do you think there will be dramatic changes, or do you think it'll be small changes over time? I mean, we can look at LinkedIn, we can look at the purchase of Minecraft, we can look at -- I don't know what other things Microsoft has done lately...
+**Jerod Santo:** \[20:11\] So... Yeah. Do you think there will be dramatic changes, or do you think it'll be small changes over time? I mean, we can look at LinkedIn, we can look at the purchase of Minecraft, we can look at -- I don't know what other things Microsoft has done lately...
 
 **Adam Stacoviak:** Skype? We use Skype every day... Sure, there's a love/hate relationship with the handling of acquisitions by Microsoft. No one gets everything right. I think the play should go for a source of direction for this - back to Nat Friedman's post... He ends it by saying "I'm not asking for your trust, but I'm committed to earning it. I can't wait to help make the GitHub platform and community that's special to all of us even greater."
 
@@ -166,7 +166,7 @@ You couldn't just take a random executive or any CEO from any established corpor
 
 **Jerod Santo:** Right. And if I had to guess what we would see in terms of product changes in the short to medium term, I think you drilled it with Azure. I think this is a natural fit for tighter integrations with Azure. I think we'll see more of the "Deploy to Azure" button type of things getting integrated into the product, and I think that's a clear win for Microsoft, and I think it's a loss for anybody else with a cloud. I think AWS, I think the Google Cloud platform - they both take a step back in terms of how tightly they can integrate with GitHub in that regard, because now Microsoft owns the keys to the source code kingdom.
 
-**Adam Stacoviak:** \[00:24:24.12\] That's another interesting point, too - if they own that key to the kingdom, so to speak, and while their terms of service may say they don't look at your code, if you're one of the four or anybody influential that cares if somebody else can see your code, you may be more leery... Where there was trust for GitHub to say "I'm not looking at your code. I have no compete with you, so what's the point?" But if you're AWS, or the Google Cloud platform...
+**Adam Stacoviak:** \[24:24\] That's another interesting point, too - if they own that key to the kingdom, so to speak, and while their terms of service may say they don't look at your code, if you're one of the four or anybody influential that cares if somebody else can see your code, you may be more leery... Where there was trust for GitHub to say "I'm not looking at your code. I have no compete with you, so what's the point?" But if you're AWS, or the Google Cloud platform...
 
 **Jerod Santo:** Direct Microsoft competitors who are either paranoid, or perhaps not paranoid... This would require some illegal maneuvers on Microsoft's behalf, I believe.
 
@@ -194,7 +194,7 @@ You couldn't just take a random executive or any CEO from any established corpor
 
 You know, I think Microsoft, because they've been trying to earn it, to me is the best suitor of this, if there had to be one. If they couldn't go through an IPO, or even an ICO, which both of those are lengthy processes, risky processes... You don't know at your IPO if people are gonna pay your stock price; that's not a sure win. It's a long road, it's a different kind of business; it's not self or even VC-owned anymore now... It's a way different regulated company.
 
-\[00:28:28.04\] If you think about that - Chris and the rest of the leadership team may have actually protected GitHub from the chains that would have been forced on it by IPO-ing or going public... Which could be a different perspective maybe no one's considering, like "What would GitHub be or how would it have to change if it went public?"
+\[28:28\] If you think about that - Chris and the rest of the leadership team may have actually protected GitHub from the chains that would have been forced on it by IPO-ing or going public... Which could be a different perspective maybe no one's considering, like "What would GitHub be or how would it have to change if it went public?"
 
 **Jerod Santo:** Good questions.
 
@@ -220,7 +220,7 @@ You know, I think Microsoft, because they've been trying to earn it, to me is th
 
 Of course, he's always been celebrating the independent companies, so it makes sense that he would have that angle at it.
 
-**Adam Stacoviak:** \[00:32:07.12\] If I could peek into the books of GitHub, I wonder what were their biggest loss leaders. Where did the loss that was described in those articles, like 66 million in the first three quarters of 2016 -- they lost a lot of money... Like, what was that loss? What attributed to that loss? Was it investment into SalesForce? Was it hiring new people? Was it investing into the community? Was it their conferences? Was it just the general loss of operations as it comes to hosting open source? Where did that loss come from? What do you think?
+**Adam Stacoviak:** \[32:07\] If I could peek into the books of GitHub, I wonder what were their biggest loss leaders. Where did the loss that was described in those articles, like 66 million in the first three quarters of 2016 -- they lost a lot of money... Like, what was that loss? What attributed to that loss? Was it investment into SalesForce? Was it hiring new people? Was it investing into the community? Was it their conferences? Was it just the general loss of operations as it comes to hosting open source? Where did that loss come from? What do you think?
 
 **Jerod Santo:** I would have to guess labor and customer acquisition, perhaps... And by that, I'm specifically speaking of enterprise sales, because GitHub's already been very good at acquiring open source indies like us; they have the whole open source market. But their real bread and butter in terms of income is GitHub enterprise, those on-premise sales. So I think acquiring those customers is very expensive. That's just my guess, I don't know.
 
@@ -236,7 +236,7 @@ Of course, he's always been celebrating the independent companies, so it makes s
 
 **Jerod Santo:** I'm gonna follow some of his advice too, because that's a pretty good prediction. Well, closing thoughts... We've been rambling on here for a bit, but there's lots to say, and... Just even evolving opinions - as we talk about it and think about it more, I even just change the way I feel over time, so... Still very much initial reactions, but do you have anything further before we call it a conversation?
 
-**Adam Stacoviak:** \[00:34:44.10\] Obviously, you're gonna have the people that just up and leave. That's gonna happen. But I would actually just encourage the community to just chill out and wait and see. What's it gonna hurt? If the move is that easy, why create such a ruckus? Let's give them a chance, let's give them some support... We'll share the list in the show notes to this, but we've got at least ten or more episodes for you to go and listen to to kind of see what we've seen, to have maybe our perspective... And maybe not Jerod's, because he's still speculative or skeptical, but...
+**Adam Stacoviak:** \[34:44\] Obviously, you're gonna have the people that just up and leave. That's gonna happen. But I would actually just encourage the community to just chill out and wait and see. What's it gonna hurt? If the move is that easy, why create such a ruckus? Let's give them a chance, let's give them some support... We'll share the list in the show notes to this, but we've got at least ten or more episodes for you to go and listen to to kind of see what we've seen, to have maybe our perspective... And maybe not Jerod's, because he's still speculative or skeptical, but...
 
 **Jerod Santo:** Always.
 

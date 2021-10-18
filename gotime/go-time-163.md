@@ -12,7 +12,7 @@
 
 **Mat Ryer:** It's okay. We're also joined by Paul Jolly. Paul created PlayWithGo.dev. He's a Go contributor and organizer of the golang-tools working group. Hi, Paul.
 
-**Paul Jolly:** \[00:04:11.22\] Hi, Mat. How are you?
+**Paul Jolly:** \[04:11\] Hi, Mat. How are you?
 
 **Mat Ryer:** Good, mate. Welcome back.
 
@@ -38,7 +38,7 @@
 
 **Marcel van Lohuizen:** Yeah. One of them is testing, for example. I've written one of my own first CUE-based, table-driven tests recently, and it's really a breeze. It's so easy to write. Actually, I think Roger was the first who pointed it out; it's a very good use case for CUE. And there was recently a block from Yext who was using it also for cross-language test generation. That's an unexpected use case where it really came in handy.
 
-**Paul Jolly:** \[00:08:06.06\] I guess, Marcel, one of the good use cases is actually the tutorial for Kubernetes that's on the CUE website itself. Is it worth you just chatting through that one? That's a good example of where CUE is -- it is truly a configuration language.
+**Paul Jolly:** \[08:06\] I guess, Marcel, one of the good use cases is actually the tutorial for Kubernetes that's on the CUE website itself. Is it worth you just chatting through that one? That's a good example of where CUE is -- it is truly a configuration language.
 
 **Marcel van Lohuizen:** Yeah, so one of the things that that example shows - when I created GCL, I had this other use case in mind, like with these grammars... And there's lots of really deep-going automation you can do if you have a really declarative configuration language. So this was a little bit of promise with GCL as well. And because it's also declarative, you do have some automation around it, but the real automation never materialized. You see that also with successors of GCL - they also promise you automation, and also never really materialize; or maybe people didn't know what I meant with "You can automate."
 
@@ -56,7 +56,7 @@ This is the first in a possible long series of automations. The first one is cal
 
 And for me, the syntax is really natural. If you compare it to something like JSON Schema, which is written in -- I'm not sure anyone would say that JSON Schema is a natural way to specify schema for YAML... But if you write in CUE, you can share it to someone that doesn't know CUE, and they'll be like "Oh yeah, I understand that." It's kind of like almost a pseudo-code, except it's real code.
 
-**Mat Ryer:** \[00:12:09.15\] So that's nice then. You talk about being able to build the validation for some JSON, but presumably you can do that at scale as well. So if you've got lots of JSON data, you may be looking at just one document and you describe a rule... You could run it against all of it and it will tell you whether they all actually match that, or if actually in some cases this is a number and not a string, for some reason.
+**Mat Ryer:** \[12:09\] So that's nice then. You talk about being able to build the validation for some JSON, but presumably you can do that at scale as well. So if you've got lots of JSON data, you may be looking at just one document and you describe a rule... You could run it against all of it and it will tell you whether they all actually match that, or if actually in some cases this is a number and not a string, for some reason.
 
 **Roger Peppe:** If these things are being manually edited, you tend to find places where there are inconsistencies which people have never realized. You know, you have a big open API spec or something, and you're like "Okay, I'll write a rule against that", and it's like "Oh, here's an inconsistency. Okay, right. Game on."
 
@@ -72,7 +72,7 @@ One of the great powers of the CUE command itself, which is the parallel of the 
 
 The other thing is -- so this is where the composability comes in. Protobuf isn't very expressive; you just have basic types... And there are some extensions to protobufs where you can have expressions that validate a field, very much like JSON Schema, but if you wanna have cross-type validation, or more complicated validation - it's hard to do. So even if you have such a pipeline, because CUE is composable, you can throw in any additional kind of schema on top of it and it will just combine it in the end result... So unlike with inheritance, where you have to specify the layering and specify in which order you would apply. And also, the semantics is always a little bit shady. Like, okay, you apply the order, but is that really what you mean? And every different ordering means something different, and which one is the correct one... So that issue is completely gone in CUE, because the order doesn't matter, basically.
 
-**Roger Peppe:** \[00:15:56.18\] Which is amazing for a programming language. That way, you can put two things together in either order, any order; it doesn't make a difference. It leads to a real sense of kind of -- it feels reliable; it feels like "This says this, and it's true. No one can take this away from me."
+**Roger Peppe:** \[15:56\] Which is amazing for a programming language. That way, you can put two things together in either order, any order; it doesn't make a difference. It leads to a real sense of kind of -- it feels reliable; it feels like "This says this, and it's true. No one can take this away from me."
 
 **Mat Ryer:** Yeah. It's interesting, this idea that it has a standard library... Because in my head, a validation thing -- I mean, regex strings make sense, for sure; even number ranges, to say "This has to be a number between these values." But what else? I mean, if it has a standard library for things like changing strings, and modifying things, what does it look like? How do you actually tell it that?
 
@@ -94,7 +94,7 @@ So there's your regular strings package, for example the Bytes package, and othe
 
 **Marcel van Lohuizen:** Well, there's a lot of things where Go wouldn't work well for a configuration language. In configuration you often have this meta thing going on with strings, where you have to substitute things in strings, but then you have to define strings where you have to substitute things in; so you have multiple layers of escaping, if you will... And Go just doesn't work very well with a back-tick. So it's actually a very hard problem, and I think Swift is the first language that got that right, so I copied that model into Go. And there are some other string-like things that they did really well, like multi-line strings. A very simple, straightforward way of doing it, very clear, only one way to do it... I'm looking at another configuration language here, but Roger knows...
 
-**Roger Peppe:** \[00:19:55.16\] Yeah, it's really a syntactic thing, rather than a data model thing, I'd say. And it contrasts so nicely with YAML. It's one of the main reasons why if I'm reading a YAML file, if I'm finding it hard to read, I'll convert it to CUE and then I can actually read it... Because there aren't like eight different types of strings, all with slightly different rules, which YAML -- maybe it has 16; I don't know, it's got a ridiculous number of ways of quoting strings, and no one knows them.
+**Roger Peppe:** \[19:55\] Yeah, it's really a syntactic thing, rather than a data model thing, I'd say. And it contrasts so nicely with YAML. It's one of the main reasons why if I'm reading a YAML file, if I'm finding it hard to read, I'll convert it to CUE and then I can actually read it... Because there aren't like eight different types of strings, all with slightly different rules, which YAML -- maybe it has 16; I don't know, it's got a ridiculous number of ways of quoting strings, and no one knows them.
 
 **Mat Ryer:** Yeah, that's definitely that thing of having one way to do something really helps with readability, because of course -- yeah, when you come to look at someone else's CUE code, it's familiar already. And that's a kind of Go principle.
 
@@ -116,7 +116,7 @@ So I think that's a really big deal for CUE, and for configuration languages... 
 
 **Paul Jolly:** But having like the go fmt equivalent, one formatting style - it is critical from a readability perspective as well. So that's really the principal purpose, in my mind at least, of cue fmt - it's the formatting side of things. I think Roger has just described where cue fmt goes to sort of like another level, providing those additional translation of "We've deprecated this feature in the next version", so it will automatically rewrite your CUE. And that has - I think Marcel would agree - been one of the strongest bits of feedback that people have given, is that there have been breaking changes, because CUE is not at v1 yet.
 
-\[00:24:13.06\] So in order to help people along that path, cue fmt has been a life-saver. You just literally run it like you would go fmt, across a number of files or directories or packages, as the case may be, and you end up having migrated (for lack of a better phrase) to the new version of CUE with zero pain.
+\[24:13\] So in order to help people along that path, cue fmt has been a life-saver. You just literally run it like you would go fmt, across a number of files or directories or packages, as the case may be, and you end up having migrated (for lack of a better phrase) to the new version of CUE with zero pain.
 
 **Mat Ryer:** Yeah. It's funny, I heard somebody talking about go fmt, and their view of it was "It's just a kind of nice feature to have, almost like you have a format document in an IDE, or something." But it is different to that. It's the readability thing again; everyone having the same layout, and taking out any of that discussion around white space, or where do we put braces, or whatever. And the stuff that Roger was talking about, the fix, that sort of retrospective -- it again sounds just like a nice-to-have, but that's really how you build trust, isn't it? The thing about Go, I think, that made it so successful was you could kind of rely on it, especially once it hit version one. You could really rely on that, so that you knew your code was pretty safe; they're not gonna just keep releasing new major versions and you have to go back and rewrite things, or you get stuck on a previous version. So yeah, I think that turns out to be way more important than people might realize.
 
@@ -126,7 +126,7 @@ And just to pick up on your point, Mat, about how powerful this can get - I thin
 
 **Marcel van Lohuizen:** Yeah. And basically, automation - that was also a big motivator. So in a larger setting, a lot of the code, and also configuration - it's very often generated, or machine-manipulated. It's just part of life. So it's not only a nice-to-have; I would say it's critical to have these features.
 
-**Break:** \[00:26:59.10\]
+**Break:** \[26:59\]
 
 **Mat Ryer:** Roger, I do have to ask you very quickly about you suggesting the error type in Go. What's that about? Because it used to be os.error, didn't it? It was a struct.
 
@@ -150,7 +150,7 @@ There was a little bit of a discussion earlier today on Twitter, which is a micr
 
 **Mat Ryer:** Could you elaborate a little bit on what that means, and the implications of it?
 
-**Marcel van Lohuizen:** \[00:31:52.04\] Yes. So if you look at CUE - I try to visualize it now with my words, I guess... So if you look at JSON, you just have this string for the field colon value, which can be a string integer or another object... So in CUE it looks very similar; you can drop the quotes here and there... Not on the right hand side, but on the left hand side of the colon. And then on the right, instead of saying for example "a string", you can say "It is a string." Instead of the value, you can specify it's a type. And syntactically, it looks the same. But it's not only syntactic, it's also semantic. Everything is ordered in a hierarchy. A concrete string like mat is an instance of the type string, but they're ordered in the same hierarchy. So I can say it must be greater or equal than m, which then mat is an instance of that, too; so you have constraints, and they're all ordered.
+**Marcel van Lohuizen:** \[31:52\] Yes. So if you look at CUE - I try to visualize it now with my words, I guess... So if you look at JSON, you just have this string for the field colon value, which can be a string integer or another object... So in CUE it looks very similar; you can drop the quotes here and there... Not on the right hand side, but on the left hand side of the colon. And then on the right, instead of saying for example "a string", you can say "It is a string." Instead of the value, you can specify it's a type. And syntactically, it looks the same. But it's not only syntactic, it's also semantic. Everything is ordered in a hierarchy. A concrete string like mat is an instance of the type string, but they're ordered in the same hierarchy. So I can say it must be greater or equal than m, which then mat is an instance of that, too; so you have constraints, and they're all ordered.
 
 And you can carry that forward and basically say all configurations are ordered like that. So you can define an ordering for all of them. And more specifically, for the mathematically-inclined, it's a letter, so that means that for every two values or configurations, if you combine them, there's always a unique instance that's the greatest instance of both of them. That's where commutativity comes from - that basically means you can combine in any order. It's a mathematical construct, basically, in which all these values and types are defined.
 
@@ -164,7 +164,7 @@ Now, you know it's about the same person, so one of them must be wrong, right? S
 
 **Mat Ryer:** Hm. So that is quite strange, isn't it? Is that a new concept? Are there other examples of things that behave like that?
 
-**Marcel van Lohuizen:** \[00:35:57.02\] Well, so really, this comes from logic programming. If you really think about datalog, prolog, you really have this -- you know, it's all about reasoning with insufficient or partial data, where you have gaps that you try to fill in by trying to walk over this... So in natural language processing there's this CUE-like thing, so it works much the same like that. You also have these letters, this organization... And it was basically invented because it was -- so prolog didn't really scale to address dealing with grammars; not because it couldn't, but because it was too hard to understand, and order \[unintelligible 00:36:37.10\] it was complicated rules... And this was basically a pure data way of describing what needed to be matched. So you don't really have integers and strings. It was more abstract, in a way, than that... But you did have this idea that the structure is at the same time the type. So it really comes from there, that it's the same thing.
+**Marcel van Lohuizen:** \[35:57\] Well, so really, this comes from logic programming. If you really think about datalog, prolog, you really have this -- you know, it's all about reasoning with insufficient or partial data, where you have gaps that you try to fill in by trying to walk over this... So in natural language processing there's this CUE-like thing, so it works much the same like that. You also have these letters, this organization... And it was basically invented because it was -- so prolog didn't really scale to address dealing with grammars; not because it couldn't, but because it was too hard to understand, and order \[unintelligible 00:36:37.10\] it was complicated rules... And this was basically a pure data way of describing what needed to be matched. So you don't really have integers and strings. It was more abstract, in a way, than that... But you did have this idea that the structure is at the same time the type. So it really comes from there, that it's the same thing.
 
 **Mat Ryer:** Do people get that intuitively, or does that take some learnings?
 
@@ -184,7 +184,7 @@ Now, you know it's about the same person, so one of them must be wrong, right? S
 
 **Marcel van Lohuizen:** That's fine... So labels are -- because it's more restricted, so left of the colon, if you're doing a member name, or whatever, it's just... Because it's so annoying to write the quotes there, it's just this little syntactic trick so that I don't need the quotes there.
 
-**Roger Peppe:** \[00:39:51.21\] Except it's actually different in CUE, because if you don't put the quotes around the keys, it's actually an identifier. You can actually refer to it as a variable. So you can say x:5, without the quotes around the x. It's just like JSON, except later you can say y:x. And then both x and y are gonna be exactly the same value, always. So that's the difference.
+**Roger Peppe:** \[39:51\] Except it's actually different in CUE, because if you don't put the quotes around the keys, it's actually an identifier. You can actually refer to it as a variable. So you can say x:5, without the quotes around the x. It's just like JSON, except later you can say y:x. And then both x and y are gonna be exactly the same value, always. So that's the difference.
 
 **Mat Ryer:** Hm. That kind of reminds me of symbols in Ruby, because you could build maps with symbols and strings as keys in Ruby.
 
@@ -206,7 +206,7 @@ Marcel was talking about stringless rules and the way they work, string interpol
 
 **Mat Ryer:** Yeah. The real value is in its design, isn't it? So it almost doesn't really matter... But yeah, of course, this is a Go podcast and we all love Go as well, so it makes sense.
 
-**Break:** \[00:43:38.23\]
+**Break:** \[43:38\]
 
 **Mat Ryer:** When do we think CUE will be version 1? Are there big gaps, are there still big, philosophical or conceptual problems to solve?
 
@@ -228,7 +228,7 @@ There is already a number type, a predeclared identifier, which people typically
 
 So the errors messages - they have become better already, this last iteration, but they need to become a lot better. And there's probably also a different model, where an error message is not just a message, but it really contains a lot of context of where the error occurred, so that you can do further analysis on it, which is important for a configuration language.
 
-**Mat Ryer:** \[00:48:06.15\] Oh, that's really cool.
+**Mat Ryer:** \[48:06\] Oh, that's really cool.
 
 **Paul Jolly:** Modules might be worth mentioning, as well...
 
@@ -258,13 +258,13 @@ Another thing - at the Berlin GopherCon I gave a talk, and I gave a little bit o
 
 So those people who are using CUE for lots of different things -- one of my favorite use cases, for example, is actually using CUE to configure my GitHub Actions. So instead of writing YAML, I actually write my GitHub Actions definitions in CUE, in almost all of my repos now... And that validates against the schema that GitHub published, which is published in JSON Schema, as it happens... But that helped -- I think it was about six months ago; actually going through that process helped uncover a few issues with the JSON Schema interpretation in the CUE project.
 
-\[00:52:06.22\] So trying out all these different ways in which CUE can be used is a massive, massive help. So any sort of feedback, and all bugs, all problems that people find, or suggestions that people have along those ways, is gonna be fantastically helpful, too.
+\[52:06\] So trying out all these different ways in which CUE can be used is a massive, massive help. So any sort of feedback, and all bugs, all problems that people find, or suggestions that people have along those ways, is gonna be fantastically helpful, too.
 
 **Mat Ryer:** Great. What a great way to contribute if you don't feel like you can get in and start working on the codebase - using it and reporting back is great.
 
 Well, it's that time, that great time, for Unpopular Opinions!
 
-**Jingle:** \[00:52:32.05\] to \[00:52:50.02\]
+**Jingle:** \[52:32\] to \[52:50\]
 
 **Mat Ryer:** So who wants to kick us off? Who has an unpopular opinion?
 
@@ -286,7 +286,7 @@ I'm a great believer in trying to do more end-to-end tests as much as you can...
 
 Maybe that's a tenuous connection; but I've spent too much time dealing with s\*\*t tests...
 
-**Mat Ryer:** \[00:55:44.28\] \[laughs\] Yes. I'm actually with you on this one, Roger, entirely. I used to build cathedrals out of tests; really complicated things, beautiful structures... Yeah, I've learned kind of the hard way, over time, of just tests being a bit of an albatross around your neck, compared to -- when you get them right, you definitely feel better about it. And you're right, when they're too brittle, when they're too bound to your code, you almost end up just saying the same thing twice, which doesn't really have any value at all, does it? So yeah, again, we're gonna test this one, but I have a feeling that one's not gonna be unpopular... But we'll see. Good one. Mr. Jolly?
+**Mat Ryer:** \[55:44\] \[laughs\] Yes. I'm actually with you on this one, Roger, entirely. I used to build cathedrals out of tests; really complicated things, beautiful structures... Yeah, I've learned kind of the hard way, over time, of just tests being a bit of an albatross around your neck, compared to -- when you get them right, you definitely feel better about it. And you're right, when they're too brittle, when they're too bound to your code, you almost end up just saying the same thing twice, which doesn't really have any value at all, does it? So yeah, again, we're gonna test this one, but I have a feeling that one's not gonna be unpopular... But we'll see. Good one. Mr. Jolly?
 
 **Paul Jolly:** I don't have one. Unfortunately, mine was gonna be a controversial one, that we should be all referring to this as CUE, as opposed to Cuelang... But we somewhat hijacked that earlier on, unfortunately.
 

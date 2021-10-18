@@ -22,7 +22,7 @@ Let's start on framework wars. The framework wars, if we were gonna go in order 
 
 For those of you who are not familiar -- I mean, I'm sure everyone at this point is, because it was a huge conversation that happened from one of the Vue RFC recently... Well, semi-recently. A couple months it's been. So that was with the functions-based API. Kball, you were aware of that as it was happening, right?
 
-**Kevin Ball:** \[00:04:20.11\] Yeah. I thought it was awesome, but there was definitely some blowback going on there.
+**Kevin Ball:** \[04:20\] Yeah. I thought it was awesome, but there was definitely some blowback going on there.
 
 **Divya Sasidharan:** Yeah. So it's a huge change to the -- it's sort of a pattern that was being introduced into how you write Vue. Essentially, they took a page from React, and were moving towards a functions-based API, so writing more function-based things rather than your componentized -- it's still componentized, but the way you write it is slightly different. Instead of have your JavaScript, your script, your HTML markup and your CSS, you have just one single function that returns some markup.
 
@@ -38,7 +38,7 @@ Granted, it was a bit of a miscommunication. The Vue team could have talked abou
 
 **Kevin Ball:** Thank you for that summary. I thought it was an interesting thing to observe in real-time. Vue has relatively recently adopted a process where they're asking for feedback, they're proposing things before they implement things, and this was kind of a -- I mean, on the one hand they got exposed to a lot of fire from that. On the other hand, they probably kept themselves from making some missteps by doing this, because they heard about it early enough in the process that it was easy to adjust.
 
-**Divya Sasidharan:** \[00:08:11.04\] Yeah.
+**Divya Sasidharan:** \[08:11\] Yeah.
 
 **Christopher Hiller:** I've heard people say "pulling an Angular", or making a mistake... I think we should just have a word and say something like "If a library or a project completely breaks all of its API in this terrible way that alienates all its users, it's an angularization of the project." \[laughter\]
 
@@ -62,7 +62,7 @@ There was a really fun, in-depth blog post that Dan Abramov did, because he love
 
 I'm excited to see what they're doing there -- we've seen before that frameworks can push languages forward. A lot of functionality that is in JavaScript now is in it because of things like jQuery and Dojo, that early on were working around the limitations of the language and of DOM APIs, and now they've been embedded in web APIs and embedded in the language. Some of the stuff that React is doing now I think is really pushing the entire ecosystem forward in pretty interesting ways.
 
-**Divya Sasidharan:** \[00:11:49.12\] Yeah. There was also a conversation that was happening online, on Twitter, yesterday. Actually, the day before yesterday, so 13th of August... I think Sebastian Markbåge tweeted that render should be pure, and it was just about this whole concept of algebraic side effects, and how exactly people deal with render, and how the patterns are generally anti-patterns, and how React is trying to move people away from doing those things... Which sparked a really interesting discussion online.
+**Divya Sasidharan:** \[11:49\] Yeah. There was also a conversation that was happening online, on Twitter, yesterday. Actually, the day before yesterday, so 13th of August... I think Sebastian Markbåge tweeted that render should be pure, and it was just about this whole concept of algebraic side effects, and how exactly people deal with render, and how the patterns are generally anti-patterns, and how React is trying to move people away from doing those things... Which sparked a really interesting discussion online.
 
 I think even Yehuda Katz, who is in the Ember core team and wrote Ember weighed in on that, in terms of React -- because I think the concept of, and the conversation around algebraic effects a lot of time was framed in terms of purity, and writing it purely... And I think the argument there was that whenever you talk about something being pure, it becomes very abstract, and it takes away from beginners learning it, because you're starting to make it super-high-level, and you're introducing patterns that kind of are hard to grok if you're learning a framework or you're new to a framework... Which I think -- there's a lot to be said there and unpacked within that, but I think React has done a lot of this (as you said) pushing the bar of thinking, and introducing ideas and concepts that I think sometimes the community has to take time to catch up with, in a sense.
 
@@ -82,7 +82,7 @@ Svelte - we'll talk about that in a bit; Vue is the same - it's not backed by an
 
 **Divya Sasidharan:** Yeah, I think that's the whole point of the Functions API. Because a lot of the times with Vue the reactivity is tied into the component, so you need Vue logic in order to have the reactivity work... But with the Functions API you get the niceties of reactivity without you having to actually write much Vue logic.
 
-\[00:16:05.04\] So if you were to -- it's a very common example of like the use mouse, where you have a mouse and then you wanna follow and change the XY coordinates as you're moving your mouse... You can extrapolate the logic of calculating that XY into a Functions API, and then the logic of the front-end and manipulating that event can be separate, as well.
+\[16:05\] So if you were to -- it's a very common example of like the use mouse, where you have a mouse and then you wanna follow and change the XY coordinates as you're moving your mouse... You can extrapolate the logic of calculating that XY into a Functions API, and then the logic of the front-end and manipulating that event can be separate, as well.
 
 So it's kind of like you encapsulate the business logic in a function, and then you can create your Vue or whatever else elsewhere. Then you can plug and play, which is really nice. And I've found it more intuitive, too.
 
@@ -112,7 +112,7 @@ I think the reactivity is the one piece where it's like, it's using proxies unde
 
 **Kevin Ball:** I can explain a little bit... Though maybe Divya you may know a little bit more... But I think one of the big challenges with supporting TypeScript within Vue is that it uses a lot of essentially metaprogramming and introspection, which is somewhat magical, and can be somewhat hard to represent with types.
 
-\[00:19:59.26\] People who have used Ruby and Rails a lot may know that there they used a lot of metaprogramming, and if you try to come in and insert hard types -- or at least early days I always ran into typing problems, because the introspection in metaprogramming meant you had to do a lot of extra stuff to deal with types. Ruby has a very flexible type system. TypeScript -- I don't know. It's challenging... It's trying not to be duck-typed in the way that Ruby is.
+\[19:59\] People who have used Ruby and Rails a lot may know that there they used a lot of metaprogramming, and if you try to come in and insert hard types -- or at least early days I always ran into typing problems, because the introspection in metaprogramming meant you had to do a lot of extra stuff to deal with types. Ruby has a very flexible type system. TypeScript -- I don't know. It's challenging... It's trying not to be duck-typed in the way that Ruby is.
 
 Going to a functions-based API, it removes -- Divya, you said there's no magic... There's still magic. Reactivity still feels like magic. But it removes some of the magic. It's just functions. It's functions with defined types for their arguments. It's easy to model and represent a system in a way that a type checker can validate, as opposed to something that's assuming properties on an object that may or may not be there, that can be set dynamically in various ways. Was that a fair assessment?
 
@@ -146,7 +146,7 @@ There was an example on a blog post that I'll put here, where it's like "Oh yeah
 
 But yeah, it feels like right now they're in many ways doing the same thing Vue is doing with the Functions API, of playing catch-up to innovations that have happened elsewhere in the ecosystem.
 
-**Divya Sasidharan:** \[00:24:17.22\] I think they also with Ivy -- I haven't used Angular and I don't know much about the ecosystem, but I've heard people talk about it... And Ivy also -- I think tree-shaking is top priority in Ivy, which again, results in faster performance, because your bundle size is smaller... And it can remove unused pieces of code, and so on; load times are great. I'm not 100% sure, but... Does it have anything to do with how things get compiled? Has that changed with this?
+**Divya Sasidharan:** \[24:17\] I think they also with Ivy -- I haven't used Angular and I don't know much about the ecosystem, but I've heard people talk about it... And Ivy also -- I think tree-shaking is top priority in Ivy, which again, results in faster performance, because your bundle size is smaller... And it can remove unused pieces of code, and so on; load times are great. I'm not 100% sure, but... Does it have anything to do with how things get compiled? Has that changed with this?
 
 **Kevin Ball:** I think so, because one of the things touted is faster compilation, but...
 
@@ -164,7 +164,7 @@ I think there's some interesting stuff going on in that world, but I feel like I
 
 My brain melted a little bit, just because it was far and away the most straightforward and easy to understand framework that I've used in a long, long time. I think definitely people should take a closer look at Svelte, from that end of things, the architecture of the project.
 
-\[00:27:58.17\] What's different about Svelte, as far as I understand, is essentially it has no runtime; it's just a compiler. And you write this code, that follows these conventions, and it poops out a bundle, and markup, and whatever it needs to do, and it runs. And the bundle sizes are very small. There's not a lot of startup overhead, because it doesn't have to bootstrap all this stuff... It's just kind of incredible, and a great idea, and I feel like frameworks are going to start moving in that direction, where they get rid of this whole overhead of loading a runtime in your browser, or what have you, and it's just simply compiling down to minimal vanilla JavaScript.
+\[27:58\] What's different about Svelte, as far as I understand, is essentially it has no runtime; it's just a compiler. And you write this code, that follows these conventions, and it poops out a bundle, and markup, and whatever it needs to do, and it runs. And the bundle sizes are very small. There's not a lot of startup overhead, because it doesn't have to bootstrap all this stuff... It's just kind of incredible, and a great idea, and I feel like frameworks are going to start moving in that direction, where they get rid of this whole overhead of loading a runtime in your browser, or what have you, and it's just simply compiling down to minimal vanilla JavaScript.
 
 But because of that architecture they could optimize for - well, what's the simplest straightforward thing we can do? Let's look at what's been successful in the past. People talk about how easy Vue is to understand for somebody who's really new to JavaScript or web development. They went with that idea, I think, and just kind of "Let's make this even easier, and just simple and straightforward.
 
@@ -184,7 +184,7 @@ I tried to use Next.js, I tried to use Nuxt.js, and neither of these things work
 
 When we come back from our break, we will be talking about some pro tips, things you can use today to make your life, your development better. Talk to you on the other side.
 
-**Break:** \[00:31:48.10\]
+**Break:** \[31:48\]
 
 **Kevin Ball:** Welcome back, JS partiers! We are here to talk about pro tips. Pro tips from each of our panelists. It looks like - Chris and Divya, you both have very technical-related pro tips, whereas I have kind of an interpersonal one... So let's sandwich me in the middle. Either of you wanna particularly go first?
 
@@ -194,7 +194,7 @@ One of the things I started doing was in my JavaScript files I would put a littl
 
 So TypeScript supports a few JSDoc tags... Pretty much as many as it really needs, which is not too many. So you can use TypeScript types in your JSDoc doc string types. So I started doing this, and I'm like "Wow, this is really neat." I can get full type-checking just with a few extra doc strings, essentially.
 
-\[00:36:21.21\] Eventually, I went and -- there's a setting called the jsconfig.json file; I'd seen this file before, and I wasn't sure what it was. This sits in your project root, and it tells the TypeScript language service in VS Code, how to check your JavaScript. So I configured that, and I told it to check all the JavaScript files, and so that's what it did. It goes through all my source files and finds all the places where the JSDoc doc strings don't match, it finds all the places where it can't make inferences, and of course it pulls out all these typings from Npm and automatically downloads them. All the third-party modules I was using already had some types, so it knew about all those. All I had to do was write a few more types in my doc strings.
+\[36:21\] Eventually, I went and -- there's a setting called the jsconfig.json file; I'd seen this file before, and I wasn't sure what it was. This sits in your project root, and it tells the TypeScript language service in VS Code, how to check your JavaScript. So I configured that, and I told it to check all the JavaScript files, and so that's what it did. It goes through all my source files and finds all the places where the JSDoc doc strings don't match, it finds all the places where it can't make inferences, and of course it pulls out all these typings from Npm and automatically downloads them. All the third-party modules I was using already had some types, so it knew about all those. All I had to do was write a few more types in my doc strings.
 
 So my project that I'm working on - at this point it's pretty much fully typed, using doc strings and Typescript, but it's not TypeScript at all; there's no TypeScript whatsoever, and it's fully type-checked. I'm like "Wow, that's kind of amazing.
 
@@ -204,7 +204,7 @@ This is like many, many source files. It's a relatively large project for a sing
 
 As long as I'm talking about it, shout-out to Daniel from the TypeScript team, who helped me get some of this stuff working a little more quickly. I was running into performance issues because I essentially had a misconfiguration in this monorepo that I had. He helped me get that set up, and now it works just splendidly. I totally recommend -- if you're writing doc strings, if you're using JSDoc and you're using VS Code, take a look at writing JavaScript in VS Code, and it'll show you how to set up all your TypeScript settings and get all that type inference just as you would in TypeScript. It's great. That's my big pro tip.
 
-**Divya Sasidharan:** \[00:40:00.12\] That's awesome. I had no idea about that. I feel like there's a lot of times I question why -- and I see the reason for using TypeScript, because type inference and type checking is really nice, but a lot of the times it's a huge extra thing for me to do, and write things in a completely different manner than I'm used to, and so I tend to chuck it to the wayside... But JSDoc is something that is actually really easy to integrate, because it's essentially just documenting your function. And if you could do a lot of the type-checking within that, that's super-cool.
+**Divya Sasidharan:** \[40:00\] That's awesome. I had no idea about that. I feel like there's a lot of times I question why -- and I see the reason for using TypeScript, because type inference and type checking is really nice, but a lot of the times it's a huge extra thing for me to do, and write things in a completely different manner than I'm used to, and so I tend to chuck it to the wayside... But JSDoc is something that is actually really easy to integrate, because it's essentially just documenting your function. And if you could do a lot of the type-checking within that, that's super-cool.
 
 **Christopher Hiller:** Yeah, it speaks the param, it speaks the types in return values, it supports TypeScript syntax, it seems to support the Closure Compiler syntax too, for defining types... So it's pretty loosey-goosey with how you wanna write your docs strings... But the inference works great. All you've gotta do is really fill in some holes, and if you're passing objects around, you need to describe the shape of those objects, and that's basically it. That was the main thing that I needed to do.
 
@@ -218,7 +218,7 @@ But where users and stakeholders, and people - this is a human thing, we're very
 
 Sometimes it's as simple as saying, "Okay, what's the problem you're trying to solve with that? Can you show it to me? Can you tell me more about it?" Sometimes you need to dig a little bit more. An extremely useful question I've found is you say "What's the most challenging or frustrating thing about X?" If they've put a solution in front of you, say "Okay, with that, what's the most frustrating thing that you're trying to solve with that?" And use that to kind of uncover the problem, which - if you have a really good problem and a really good understanding of the underlying problem, coming up with a solution... You can try a bunch of different solutions; you can explore the solution space and figure out something that will actually solve that problem very well. But if you stay at the level of "The thing that the user told me..." or "The thing that my client told me...", you're gonna end up with a really half-baked solution.
 
-\[00:44:18.22\] So my pro tip is talk to your users, talk to your clients, but use the things they tell you to try to understand their underlying problems, not as "This is what they actually want." And that is my pro tip. Divya, how about you? What have you got?
+\[44:18\] So my pro tip is talk to your users, talk to your clients, but use the things they tell you to try to understand their underlying problems, not as "This is what they actually want." And that is my pro tip. Divya, how about you? What have you got?
 
 **Divya Sasidharan:** Mine is a bit technical, but also builds on what you were mentioning. I think the key part of it is this idea of communicating, and I think it's under-appreciated in tech, the importance to communicate, because everyone just assumes you have to be an elite coder, and be very technical, and know everything there is to know about code, and writing code... But a lot of the job is just basically talking to users and stakeholders, and co-workers, and having those communication things.
 
@@ -232,7 +232,7 @@ That's just something that is often forgotten - that in tech often times you're 
 
 **Divya Sasidharan:** Yeah, with the stakeholder. I mean, maybe not like direct co-workers, but yeah... Related to that is actually this idea of Git hygiene. I've more or less in my time at Netlify - it's been about a year - a lot of the projects that I work on tend to be pretty independent. So it's similar to being an individual contributor - you're working on code, you don't really get a lot of review, because often times it's demos, it's integrations... You work with the community a lot, so there's community review, but it's not as stringent as working on a team. So I realized that my Git hygiene has actually gotten pretty bad... Which is nice, because in a way, me being on the product rotation has kind of put me back into the right track of making sure I'm aware of that.
 
-\[00:47:37.23\] One of the things is just this idea of merging and squashing, and changing history. That often is like shooting yourself in the foot. I really like clean history, and that actually ended up being terrible for me in my time on the product team, which is actually really short... Because I was working on a specific update to a feature, and that, like a lot of things sometimes, the feature set grows, so they're like "Oh, if you're doing this one thing, you also have to do this other thing, and then you have to do this other thing..." So what I ended up doing was I branched off of that branch; I branched off of master, and then I branched off of that branch, and I think there were like three or four branches of a branch, that branch into master.
+\[47:37\] One of the things is just this idea of merging and squashing, and changing history. That often is like shooting yourself in the foot. I really like clean history, and that actually ended up being terrible for me in my time on the product team, which is actually really short... Because I was working on a specific update to a feature, and that, like a lot of things sometimes, the feature set grows, so they're like "Oh, if you're doing this one thing, you also have to do this other thing, and then you have to do this other thing..." So what I ended up doing was I branched off of that branch; I branched off of master, and then I branched off of that branch, and I think there were like three or four branches of a branch, that branch into master.
 
 I don't know why, but I was so committed to like "Yeah, I've got this. I'm gonna make sure the history is clean, and everything." And master kept moving forward, and obviously I wanted to make sure everything was continuous... So I changed the history of the main branch, which is horrible. Never do that, ever, ever. Because if you change the history of the branch that other branches are branching off of, you're just in for a nightmare. Nothing is gonna resolve. Every time master moves forward, you need to do a rebase. You're gonna have infinite merge conflicts... It's horrible. That's something I've learned from this experience...
 
@@ -250,7 +250,7 @@ Afterwards, once everything is done and there's only one branch, then sure, what
 
 The other thing that I wanted to know is we've been talking a lot about the frameworks, and I'm really excited about Vue, because I work on Vue a lot... And from the conversation that we're having, if you're interested in how exactly the implementation of that works, there is a Node module for the Functions API that allows you to play around with the Functions API as a separate -- you can add it into an existing Vue project, and you can import it... I think you would just do like vue.use. It's essentially like a plugin. You'd plug it in and then you can use it alongside your current Vue code.
 
-\[00:52:22.28\] I've done it with projects that I've worked on, just to have a better sense of what exactly the Functions API is. I think it also gives you an ability to have an opinion, because it's really hard to have a sense of the implications of a feature change without knowing how it translates into code. So though there are examples in the RFC of how exactly to use the API, I think writing it yourself gives you a better sense of how exactly you would use it, rather than how someone else would use it.
+\[52:22\] I've done it with projects that I've worked on, just to have a better sense of what exactly the Functions API is. I think it also gives you an ability to have an opinion, because it's really hard to have a sense of the implications of a feature change without knowing how it translates into code. So though there are examples in the RFC of how exactly to use the API, I think writing it yourself gives you a better sense of how exactly you would use it, rather than how someone else would use it.
 
 And obviously, being able to make mistakes within it also gives you a better sense... Because I would use it liberally, everywhere, and I would be like "Maybe I can do it this way, and this way", and I've had chats with the core team and they're like "That's not how we intended it to be used..." But I think that is great, because it's a good way for you to experiment with up-and-coming features, and then also be able to contribute to that discussion.
 
@@ -260,7 +260,7 @@ And obviously, being able to make mistakes within it also gives you a better sen
 
 **Kevin Ball:** Alright, let's call that a segment and we will be back shortly with segment three, where we're gonna do some shout-outs to our favorite people and things happening in the community. Catch you on the other side.
 
-**Break:** \[00:53:51.25\]
+**Break:** \[53:51\]
 
 **Kevin Ball:** Welcome back, JS Party people! Let's talk about people and things that are awesome in the community. Chris, why don't you give us your shout-outs first?
 
@@ -270,7 +270,7 @@ If you've ever used something with a very large API surface - Lodash comes to mi
 
 Essentially, when you're doing that, when you use the sub-path, it's exposing implementation details... Because in order for that to work, so in order for Lodash/fp to work, one of two things has to be true. One, there needs to be an fp.js in the root of the Lodash module, and it must be published as such.
 
-\[00:56:23.16\] The other thing is there may be an fp directory, and in that directory is an index.js, and it has to be published that way. So what Package Exports does is it allows a module author to declare "Okay, these are the--" I think they call them sub-paths. So these sub-paths point to these files.
+\[56:23\] The other thing is there may be an fp directory, and in that directory is an index.js, and it has to be published that way. So what Package Exports does is it allows a module author to declare "Okay, these are the--" I think they call them sub-paths. So these sub-paths point to these files.
 
 So you could say something like, okay, if somebody requires mymodule/foo, that requirement will map to this other path somewhere in my source files. So you don't have to expose the directory structure - which is an implementation detail - in order to provide those sub-paths and allow your consumers to reach in to some other place in your module and pull things out.
 

@@ -38,7 +38,7 @@ And then Alpine, a little JavaScript framework package thing, kind of popped up 
 
 **Jerod Santo:** \[unintelligible 00:03:47.20\] markdown to GitHub. It's like "Well..." It's good that it says that upfront.
 
-**Caleb Porzio:** \[00:03:56.14\] You know, they always start out being a fraud, like it's something simple that I do, where I'm like "I'll put this in a package, because I would want it in a succinct little package. I wouldn't wanna copy this GitHub gist, or something." But it's so simple. People will be like "Wait a minute, that's all the package is?" But then it always grows, as people find new optimizations and features and whatnot. They end up earning their own stripes.
+**Caleb Porzio:** \[03:56\] You know, they always start out being a fraud, like it's something simple that I do, where I'm like "I'll put this in a package, because I would want it in a succinct little package. I wouldn't wanna copy this GitHub gist, or something." But it's so simple. People will be like "Wait a minute, that's all the package is?" But then it always grows, as people find new optimizations and features and whatnot. They end up earning their own stripes.
 
 **Jerod Santo:** Mm-hm. So I love that you took a sabbatical, or you quit your job and you wanted to get away from programming. Then you took basically one day off, and then Livewire begins. Are you just addicted to the game, or what's the deal?
 
@@ -62,7 +62,7 @@ And then Alpine, a little JavaScript framework package thing, kind of popped up 
 
 So I was just floored by this idea. A lot of the things that I've been preaching, or the things I've been campaigning for in my career as a web developer -- I guess the arch of my career as a web developer was like \[unintelligible 00:07:55.11\] jQuery, CodeIgniter, BASIC stuff, vanilla PHP. Then I got into Laravel and started ramping up a little bit. Then I got into Vue.js, so I went hard into the JavaScript community and was basically building SPAs with a Laravel back-end. So that's kind of the peak of the arch.
 
-\[00:08:14.08\] Then the slope down is me realizing that in many ways I wasn't better off, with all the complexity I'd taken on... So I started listening to a bunch of DHH stuff, Basecamp stuff, a lot of the people who are preaching about basically keeping it simple and stepping back from that. So that's like the second half of my career arch, stepping down from a lot of that craziness... That perceived craziness; it's not crazy for everybody... But sort of stepping away from the SPA architecture.
+\[08:14\] Then the slope down is me realizing that in many ways I wasn't better off, with all the complexity I'd taken on... So I started listening to a bunch of DHH stuff, Basecamp stuff, a lot of the people who are preaching about basically keeping it simple and stepping back from that. So that's like the second half of my career arch, stepping down from a lot of that craziness... That perceived craziness; it's not crazy for everybody... But sort of stepping away from the SPA architecture.
 
 This was perfect timing. I was already embracing the back-end. I was going back to the back-end more, stepping away from the SPA. Then this came along, and I was like "Oh, my gosh. This is everything I ever wanted." It seemed like a "have your cake and eat it, too" type thing.
 
@@ -88,7 +88,7 @@ Then I was like "Well, I should turn this into --" People were like "Are you gon
 
 **Caleb Porzio:** Yeah... So all the taglines are garbage. I haven't updated them in a while. I need to really put my head to that. When it first started, it was all magical and new to me, so all the taglines are weird. They're like "A weird framework, that's magical, and will confuse you" and whatever. But yeah, so how would I describe it...? I guess there's two ways of approaching it. There's the magical bewilderment way, where you look at a back-end template that can somehow interact with the front-end and the back-end at the same time. So somehow -- like I described earlier, it's as if it's Vue.js, but you can call a method on the back-end, and everything will re-render, and magic will happen. That's one way of looking at it.
 
-\[00:12:15.20\] For me, it's really more of like a framework, like an Ajax framework. It's a framework for making calls to the back-end, getting HTML, and changing what's on the page, but providing lots of helpers for that. So I guess it's still something I have a hard time explaining quickly, but if you're interested, we could walk through how you could arrive at Livewire naturally.
+\[12:15\] For me, it's really more of like a framework, like an Ajax framework. It's a framework for making calls to the back-end, getting HTML, and changing what's on the page, but providing lots of helpers for that. So I guess it's still something I have a hard time explaining quickly, but if you're interested, we could walk through how you could arrive at Livewire naturally.
 
 **Jerod Santo:** Let's hear it.
 
@@ -116,7 +116,7 @@ And my standard of living is pretty low. My wife and I both -- we don't have any
 
 So a) my wife is a photographer, so she brings in some money, where before it was always just kind of on the top, because I had the developer job, and now it's--
 
-**Jerod Santo:** \[00:16:20.18\] Right. You were saving that, but now you're kind of living off that...
+**Jerod Santo:** \[16:20\] Right. You were saving that, but now you're kind of living off that...
 
 **Caleb Porzio:** Yeah, we're living off that partially. And then I started freelancing... But I didn't wanna jump into big projects that detracted from the work I was doing, so I started advertising... How would you describe it...? Almost like freelancing as a service, or a-la-carte freelancing.
 
@@ -146,7 +146,7 @@ So that really was the power behind this, was that I already had this audience. 
 
 **Caleb Porzio:** Yeah, right. So I had described how I started going a little bit away from the frontend-heavy world, and back to the back-end... Simple, little JavaScript sprinkles around my apps, to do little things, but not writing the entire template in Vue or React. So I'm pretty hard on that; using Turbolinks, and then vanilla JS for the rest... But I ended up in this place of like, okay, I don't wanna buy-in fully to a front-end framework, because -- I mean, that is it; when you're in a front-end framework, you've bought in. It owns your entire front-end, so you can't mix -- it's very hard to mix things. Your entire DOM is rendered from a virtual DOM, so you don't have control over it anymore. You've surrendered control to their paradigm... Which is powerful, but for me, I was stepping back from that.
 
-\[00:20:00.24\] So that was \[unintelligible 00:20:00.24\] there's tons of power there; declarative UIs, where you can just set some state, you can manipulate state in your UI or UX... And then on the other end, I was in vanilla JS sprinkles land, and I don't know, I just felt like it wasn't sufficient. It was like I was back in the jQuery days for me, where I'm registering click handlers everywhere, and manipulating DOM elements, and it felt really imperative. It felt imperative, it felt brittle in a lot of ways, and just annoying. Not expressive. Vue is so declarative; you have a template -- and React, too. You have a template, and you can see in the template how things are attached to state, and then you can just worry about changing the state.
+\[20:00\] So that was \[unintelligible 00:20:00.24\] there's tons of power there; declarative UIs, where you can just set some state, you can manipulate state in your UI or UX... And then on the other end, I was in vanilla JS sprinkles land, and I don't know, I just felt like it wasn't sufficient. It was like I was back in the jQuery days for me, where I'm registering click handlers everywhere, and manipulating DOM elements, and it felt really imperative. It felt imperative, it felt brittle in a lot of ways, and just annoying. Not expressive. Vue is so declarative; you have a template -- and React, too. You have a template, and you can see in the template how things are attached to state, and then you can just worry about changing the state.
 
 So I had felt kind of like in this middle place. And when I had reached out to people on Twitter, and been like "This is what I want. How do I get it?", most people said "Well, Stimulus is that." I'm sure you've encountered Stimulus...
 
@@ -178,7 +178,7 @@ So Alpine basically is an in-HTML framework. You mostly use it directly in your 
 
 So if you're familiar with Vue, the analogy is the data property of a Vue component. Basically, I'd realized I want Vue, but I just want the data property, and I don't need anything else, and I wanna keep all the template stuff, so I can listen for \[unintelligible 00:23:47.01\] so you can toggle something on and off. Or v-bind an attribute, like a style attribute or a class attribute.
 
-\[00:24:00.10\] So Alpine - you have x-data, and then you declare some state; let's say "show:false", that would be your state for the component. Then you could have (let's say) a dropdown, like just a div with some content in it. You could add x-show, and then -- well, you would pass in the state, so "show". In this case it's x-show=show. I should have used DIZ open, or something. So then you can add a button, and on that button you could say "x on click show=true" or "show=not show". So yeah, you can listen for events and manipulate the state, and then you can also declare DOM representation based on that state, if that makes sense.
+\[24:00\] So Alpine - you have x-data, and then you declare some state; let's say "show:false", that would be your state for the component. Then you could have (let's say) a dropdown, like just a div with some content in it. You could add x-show, and then -- well, you would pass in the state, so "show". In this case it's x-show=show. I should have used DIZ open, or something. So then you can add a button, and on that button you could say "x on click show=true" or "show=not show". So yeah, you can listen for events and manipulate the state, and then you can also declare DOM representation based on that state, if that makes sense.
 
 **Jerod Santo:** Mm-hm. Well, it makes sense to me, because I'm staring at the readme. I'm not sure if it makes just in audio, but listeners, if you're confused, go to the show notes, grab the readme, and it will all make sense. This does seem pretty cool.
 
@@ -190,7 +190,7 @@ So Alpine internally -- I don't know if there's any dependencies. There might be
 
 **Jerod Santo:** Well, fact-check true. I'm on your package JSON; you have some dev dependencies, but there's an empty object there in your dependencies list... So Alpine - no dependencies. Very cool.
 
-**Break:** \[00:26:50.11\]
+**Break:** \[26:50\]
 
 **Jerod Santo:** So Caleb, the thing that caught my eye of what you've been up to - because like I said, I'm not deep in the Laravel community... And I'm now excited about Alpine, but I did not find Alpine until just now...
 
@@ -226,7 +226,7 @@ It's mostly you begging people, hoping that your projects gets big enough that a
 
 **Jerod Santo:** Yeah. It's a whole other job, right?
 
-**Caleb Porzio:** \[00:31:53.21\] Like, I'm buried up to my eyeballs in GitHub issues and PRs and everything... Yeah, shouldn't the work I'm doing right now justify the payment in itself? So that was sort of my position. It was like "Alright, Daniel, let's argue this. I think that there's this crazy thing where nobody's paying these open source maintainers, and I'm in that place right now, where I'm kind of living unsustainably... But I don't wanna be the one to go on Twitter and be like "Hey, everybody should pay me money."
+**Caleb Porzio:** \[31:53\] Like, I'm buried up to my eyeballs in GitHub issues and PRs and everything... Yeah, shouldn't the work I'm doing right now justify the payment in itself? So that was sort of my position. It was like "Alright, Daniel, let's argue this. I think that there's this crazy thing where nobody's paying these open source maintainers, and I'm in that place right now, where I'm kind of living unsustainably... But I don't wanna be the one to go on Twitter and be like "Hey, everybody should pay me money."
 
 So we started talking about some different ideas, and this really emerged from that discussion. There was a moment in that discussion where I was talking about Sushi, which -- that's kind of a funny package as an example for this... But I was talking about Sushi, and like "Yeah, I think I'm gonna open-source it..." So I posed to him this problem, I'm like "I like open source. I love the open source movement. I love everything about it. And something about charging for software and not making it open source feels weird to me. I've benefitted so much from people sharing projects..." So I don't wanna just say "Hey, this package is only available to my sponsors. It's one of the rare packages that I just keep to myself." I could do that, but something just felt off about it... And I'm restricting the growth of it. There's so many reasons that that's just not satisfactory. Every time I come to that decision in my head, I go "You know what - I'd rather not have the $200, or whatever, and I'd rather just everybody use it. I don't know..."
 
@@ -264,7 +264,7 @@ So we started talking about some different ideas, and this really emerged from t
 
 **Jerod Santo:** It's interesting, because the actual sponsorship goes to you, the person; it doesn't go necessarily to Sushi, the project... But they are backing you in order to open, allow you to open-source Sushi. This is GitHub sponsors you're using, so how many sponsors did you have when you first put up Sushi as sponsorware?
 
-**Caleb Porzio:** \[00:35:57.22\] Yeah. I'll run you through the hard numbers and then we can talk causation and intent, things like that. Also, I wanted to note that there is tons of nuance in this whole open source payment discussion. That's why we did that podcast, because it's like "Well, what about maintaining the project, and not the first person who started it?" We can get there.
+**Caleb Porzio:** \[35:57\] Yeah. I'll run you through the hard numbers and then we can talk causation and intent, things like that. Also, I wanted to note that there is tons of nuance in this whole open source payment discussion. That's why we did that podcast, because it's like "Well, what about maintaining the project, and not the first person who started it?" We can get there.
 
 **Jerod Santo:** Right.
 
@@ -304,7 +304,7 @@ So after the podcast, when I actually sat down to implement all this stuff, I re
 
 **Jerod Santo:** And then you turned around and you sent an email to your mailing list that said basically "Okay, I'm writing Sushi. If you want me to open-source it, I've gotta get to 75 GitHub sponsors." I'm wondering how much of this may have been because of the novelty of the idea. Because there's some of that... Especially that a lot of your backers might be indies and devs, and like "Oh, cool." Obviously, you can't necessarily quantify all this, but I'm just curious, how did you actually pitch this to your audience, and I'm wondering how much we could rinse and repeat this and have success for the people?
 
-**Caleb Porzio:** \[00:40:12.04\] Right, yeah. So there's a lot of factors here. To give more details, the email list was 3,000 people... Which is a decent list, at least for me. That's my generic email. I've resisted segmenting my email list, so it's basically one giant list of people that I send an email to every so often, that are generally interested in the things that I do, and are generally in the Laravel community and aware of those things. And on Twitter I have like 10,5k followers. Actually, I had less than 10k before I did that tweet. I gained a bunch just from the tweet.
+**Caleb Porzio:** \[40:12\] Right, yeah. So there's a lot of factors here. To give more details, the email list was 3,000 people... Which is a decent list, at least for me. That's my generic email. I've resisted segmenting my email list, so it's basically one giant list of people that I send an email to every so often, that are generally interested in the things that I do, and are generally in the Laravel community and aware of those things. And on Twitter I have like 10,5k followers. Actually, I had less than 10k before I did that tweet. I gained a bunch just from the tweet.
 
 So the original Sushi tweet had 1,200 likes, which is probably in the top five tweets ever for me. I think it's worth mentioning that it's--
 
@@ -362,7 +362,7 @@ I have a tiny bit of experience with this sort of thing, launching something to 
 
 **Caleb Porzio:** Yeah, the implementation is simple... So I thought if I release basically my full vision implementation, like somebody would just write it for themselves... And in general, the community I'm in is nice enough to not just do that, but... But yeah, so what I did was -- keeping a repo private and open to only a few people is pretty tough, actually. The only free way to do it, like free and easy way, is adding people as contributors on the project, to your private repo.
 
-\[00:44:08.24\] So I made the repo private, I added people as contributors... And so they actually had push access. People could do anything they wanted in the repo, but again, they're nice enough to not... But I just took all my sponsors, and every time I got a new sponsor, I literally copy and pasted them into the contributor's thing on GitHub. And then when I reached to 75, I just hit Make Public. So it was just simple and easy for me, I didn't have to deal with anything. But you're definitely right, having a readme, having docs, things like that, something that's like a marketing page for your project before it goes public is really nice.
+\[44:08\] So I made the repo private, I added people as contributors... And so they actually had push access. People could do anything they wanted in the repo, but again, they're nice enough to not... But I just took all my sponsors, and every time I got a new sponsor, I literally copy and pasted them into the contributor's thing on GitHub. And then when I reached to 75, I just hit Make Public. So it was just simple and easy for me, I didn't have to deal with anything. But you're definitely right, having a readme, having docs, things like that, something that's like a marketing page for your project before it goes public is really nice.
 
 I also wanna say, an important thing is that I gave the sponsors the software right away, and I think that's a big deal.
 
@@ -418,7 +418,7 @@ I also wanna say, an important thing is that I gave the sponsors the software ri
 
 **Caleb Porzio:** The nice thing with all this is...
 
-**Jerod Santo:** \[00:48:10.15\] You don't have to get to the threshold to be valu-- like, the fact that you give each person access means a) you don't have to hit that 250 to get value from yourself. It's not like you're waiting for 250, and then you hit the threshold and now you get your money, or now you can do your thing... And then b) each person doesn't have to wait for 250 either. They're like "Alright, I'll just pay for $10, or the $99 if I wanna be a big baller. Or the $250 if I'm a big-big baller." But that 250 threshold - you could set it out a ways and not really... It's not a huge risk to do that, I guess is the point.
+**Jerod Santo:** \[48:10\] You don't have to get to the threshold to be valu-- like, the fact that you give each person access means a) you don't have to hit that 250 to get value from yourself. It's not like you're waiting for 250, and then you hit the threshold and now you get your money, or now you can do your thing... And then b) each person doesn't have to wait for 250 either. They're like "Alright, I'll just pay for $10, or the $99 if I wanna be a big baller. Or the $250 if I'm a big-big baller." But that 250 threshold - you could set it out a ways and not really... It's not a huge risk to do that, I guess is the point.
 
 **Caleb Porzio:** Yeah, it's really not at all. In fact, with Sushi, that was kind of my thinking. It was like "Alright, I'm gonna set it at 75. If we don't get there for a month and everybody forgets about this, fine." Everybody already has the software. And then when I do some other sponsorware that has a higher threshold, when we get to 75, I'll just be like "Oh yeah, by the way, Sushi is public, everybody, if you care." And then it'll be like another round of advertising for Sushi; it'd be like "Oh, cool. We forgot about that. But nice. Sponsorware pays eventually." So that's kind of the cool idea - I could set this to 250, and let's say we don't get there for five months; I do another project, and that gives it the steam to get there. You know, it's like this one number--
 
@@ -444,7 +444,7 @@ Honestly, this is the easiest and most reliable -- I think it's gonna be really 
 
 **Caleb Porzio:** I know.
 
-**Jerod Santo:** \[00:51:56.14\] And so I'm sure that many of our listeners are gonna give this a try. And to the listeners out there, if you do try this, let us know how it goes.
+**Jerod Santo:** \[51:56\] And so I'm sure that many of our listeners are gonna give this a try. And to the listeners out there, if you do try this, let us know how it goes.
 
 **Caleb Porzio:** Yeah.
 
@@ -474,7 +474,7 @@ So first it was a language and mental change for me. It was like, switch the lan
 
 **Jerod Santo:** Right.
 
-**Caleb Porzio:** \[00:56:06.12\] The $250/month tier to at least caveat why that exists with the two hours... Well, a) because I do want money, and that's a way that I can build up that. Just since I've launched Sushi -- so I have Livewire behind me, so that's worth mentioning, that it's not like all these people... I don't think I would get a $250/month sponsor for Sushi, just so everybody knows. But for Livewire, heck yeah. I've gotten like three -- I think three new $250/month sponsors; maybe two, I don't know. Which is a big deal. Those are the ones that really move the bottom line for me. And I thought "Well, yeah, so $250 is actually a deal. It's less than I charge for freelancing." For two hours of freelancing it's $300 for me. And it's a small amount. It could derail me from my trains of thought, and things like that, if I pile these up. But my thinking was - you'll notice that it's Livewire consulting. So it's consulting on a project that I built.
+**Caleb Porzio:** \[56:06\] The $250/month tier to at least caveat why that exists with the two hours... Well, a) because I do want money, and that's a way that I can build up that. Just since I've launched Sushi -- so I have Livewire behind me, so that's worth mentioning, that it's not like all these people... I don't think I would get a $250/month sponsor for Sushi, just so everybody knows. But for Livewire, heck yeah. I've gotten like three -- I think three new $250/month sponsors; maybe two, I don't know. Which is a big deal. Those are the ones that really move the bottom line for me. And I thought "Well, yeah, so $250 is actually a deal. It's less than I charge for freelancing." For two hours of freelancing it's $300 for me. And it's a small amount. It could derail me from my trains of thought, and things like that, if I pile these up. But my thinking was - you'll notice that it's Livewire consulting. So it's consulting on a project that I built.
 
 So my mind was like "Alright, I could use the extra money, and it will plug me into real people using my software", which is super-valuable. If I'm spending 8 to 15 hours a month working with real people, who are using my software in production in enterprise-style situations, that's huge. I would want every maintainer to have that. I would want every project I use to know that the maintainer is working with real people in the trenches. So that was kind of a reason why I did that, and why it seems off... But that's the justification behind it.
 
@@ -486,7 +486,7 @@ So my mind was like "Alright, I could use the extra money, and it will plug me i
 
 **Caleb Porzio:** Yeah, definitely. That's a really good point. If it was like just six hours, and there's your pool of sponsor time, it would communicate something else. It would communicate "You're not paying me for my time all the time." It would be clear that you're not paying for my time. The time is an added benefit of you committing to the project at this level.
 
-**Jerod Santo:** \[00:58:50.23\] Exactly.
+**Jerod Santo:** \[58:50\] Exactly.
 
 **Caleb Porzio:** So yeah, I do like that. It's definitely something I have to think through. So the second change -- the first change is the perks thing, and whatnot... The second change was -- and this is another Daniel one. He's good at this stuff.
 

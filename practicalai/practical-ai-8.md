@@ -14,7 +14,7 @@ It says the proposals will get you a request up to 200k maybe if you're part of 
 
 The other one is Intel AI is putting on this AI Interplanetary Challenge, which sounds pretty epic.
 
-\[00:04:00.22\] The sub-heading is Super Explorer Mission, which is a lot of great words there... But essentially, in my understanding, this is a way to solicit proposals for space-related applications of AI, and I think if you win, then you get a lunch with Bill Nye, and some other people. This is a super-fun one, and maybe less of a barrier than the National Geographic one in terms of expectations. I think this one would be a good one for everyone to explore.
+\[04:00\] The sub-heading is Super Explorer Mission, which is a lot of great words there... But essentially, in my understanding, this is a way to solicit proposals for space-related applications of AI, and I think if you win, then you get a lunch with Bill Nye, and some other people. This is a super-fun one, and maybe less of a barrier than the National Geographic one in terms of expectations. I think this one would be a good one for everyone to explore.
 
 Those are pretty cool. I was pretty excited to see both of those.
 
@@ -38,7 +38,7 @@ The next one that I found - it was a Fast Company article, and I think this is j
 
 He basically built a sign language interface to the Amazon Alexa API, or the Amazon Alexa, I should say. I think this is awesome. It's, you know, making this tech accessible to a whole other community that was totally left out of that technology before. He basically has this setup to where it will actually -- there's a camera that's watching you do sign language, and you can sign-language something. It's interpreted to text, which I think is sent to Alexa via their API, and then you get the response.
 
-\[00:08:03.07\] This is, I think, just super-cool... I mean, not even in the realm of smart speakers, but in the realm of making more tech like this accessible to people with disabilities... Like, maybe they're deaf, or they need to use sign language... I know that there's been other AI applied in a similar fashion for blind parents, helping them understand their environment for maybe their seeing kids.
+\[08:03\] This is, I think, just super-cool... I mean, not even in the realm of smart speakers, but in the realm of making more tech like this accessible to people with disabilities... Like, maybe they're deaf, or they need to use sign language... I know that there's been other AI applied in a similar fashion for blind parents, helping them understand their environment for maybe their seeing kids.
 
 I just think this stuff in this category is super-useful, and just an encouragement from my end to any of you out there who are kind of exploring how to apply AI and what projects you might work on. I encourage you at least consider doing something in this realm, if there's a way for you to do it and there's time for you to do it... It's awesome to see this.
 
@@ -56,7 +56,7 @@ I'm seeing more and more of these types of articles, and probably we'll continue
 
 **Daniel Whitenack:** Yeah, that's great, and I am thinking about -- I know next week we're gonna have Mike Bugembe join us, who I've talked to before about how he kind of changed in essence a lot of his company's perception around how decisions are made, and thinking about that in terms of data, and this whole new realm of artificial intelligence and algorithms... So I'm excited to hear his perspective on some of those things, and think that will be really good.
 
-**Chris Benson:** \[00:12:07.02\] That'll be a great conversation.
+**Chris Benson:** \[12:07\] That'll be a great conversation.
 
 **Daniel Whitenack:** Yeah. The last one that I wanted to draw people's attention to was this article titled "The mythos of model interpretability." I know I've talked to a lot of different people and we've even talked on this show before, I think with the guest from Immuta about what really is model interpretability.
 
@@ -78,7 +78,7 @@ He has really landed personally in the same space as Elon Musk and others who ar
 
 He ends in a very dark place. It's a cautionary note that basically says "Let's be very careful in terms of in the years ahead, as new AI develops, how we implement that AI." There are many articles similar to this out there, where people are warning us of such things, but it really -- like I said, Henry Kissinger is one of the greats of the twentieth and early 21st century, and certainly a great living thinker today... That made me pause a little bit, and as someone who myself tends to celebrate AI in all its possibilities going forward, I do give a little bit of thought to Mr. Kissinger's perspective there. Any thoughts, Daniel?
 
-**Daniel Whitenack:** \[00:16:17.03\] Yeah, I'm glad you pointed it out; I'm looking forward to reading it. I kind of wonder -- I mean, it isn't really the case with Elon Musk necessarily, but I think there's this kind of balance between, you know, for the people that think that AI and the hype around AI... You know, that AI can currently do more than it can actually do; people kind of either hype up AI to thinking "Oh, it's gonna do all these amazing things", to other people, who kind of go down the darker path, like you were saying.
+**Daniel Whitenack:** \[16:17\] Yeah, I'm glad you pointed it out; I'm looking forward to reading it. I kind of wonder -- I mean, it isn't really the case with Elon Musk necessarily, but I think there's this kind of balance between, you know, for the people that think that AI and the hype around AI... You know, that AI can currently do more than it can actually do; people kind of either hype up AI to thinking "Oh, it's gonna do all these amazing things", to other people, who kind of go down the darker path, like you were saying.
 
 At least in my opinion, in reality, I think we're at a point where our expectations around AI need to be moderated in a certain way... But I also appreciate the fact that we as practitioners of AI need to be understanding how the influencers in our world are thinking about AI, and also how we as AI practitioners can better communicate and impress upon them the proper expectations around what AI can do, and the proper way to go about thinking about AI ethics and where we should -- you know, obviously, that is an important thing that I don't wanna shy away from, but I think it also has to be kind of wrapped in this cloak of proper expectations.
 
@@ -92,7 +92,7 @@ We need people thinking about this and pushing us, and we also need people with 
 
 **Chris Benson:** I agree, and I guess I'll finish by saying, as we've touched on ethics again, in an upcoming episode we will have an ethics expert relating to AI on, and so that will be a good surprise coming.
 
-**Daniel Whitenack:** \[00:19:53.02\] That's a much-anticipated episode. We've already had a lot of requests for that. So now we'll kind of go -- that was the news that caught our attention over the week. Definitely let us know in our Slack channel - you can join us on Changelog.com/community and join our Slack channel and let us know what news articles you're finding interesting from the week, related to AI. But we finish off, as always, we wanna give you a few learning resources to help level up your skills in Practical AI, and maybe help you be more productive as practitioners of AI, or maybe learners or students of AI.
+**Daniel Whitenack:** \[19:53\] That's a much-anticipated episode. We've already had a lot of requests for that. So now we'll kind of go -- that was the news that caught our attention over the week. Definitely let us know in our Slack channel - you can join us on Changelog.com/community and join our Slack channel and let us know what news articles you're finding interesting from the week, related to AI. But we finish off, as always, we wanna give you a few learning resources to help level up your skills in Practical AI, and maybe help you be more productive as practitioners of AI, or maybe learners or students of AI.
 
 One of those that I've found this week was this article called "Fast, Flexible, Easy and Intuitive", which are all good things, I guess...
 
@@ -120,7 +120,7 @@ The reason this drew me in was Gradient Descent is really one of the very first 
 
 **Daniel Whitenack:** Awesome. Yeah, that's a great resource. The last one that I have - I think you have one more, but I found this link to a newly-released package of eBooks... But one eBook particularly focused on Vim. The editor Vim, which if you're in a terminal on some UNIX machine, you can use Vim to edit various code, or text documents, or whatever it might be.
 
-\[00:24:13.26\] I actually use Vim as my primary code editor, and I definitely feel like I have not mastered Vim. I know a lot of people give Vim a hard time because you get into it and then you can't figure out how to get out of it, or whatever other jokes you might have about Vim... But I think it's useful for everybody to learn a little bit about Vim because maybe you're SSH-ing into a machine where you're running a cron job, or whatever it might be, and you wanna be able to edit some script or something on the machine in a quick way, right there in the terminal. Vim is a great choice for that, even if you don't use it as your primary editor, like I do... Which you should.
+\[24:13\] I actually use Vim as my primary code editor, and I definitely feel like I have not mastered Vim. I know a lot of people give Vim a hard time because you get into it and then you can't figure out how to get out of it, or whatever other jokes you might have about Vim... But I think it's useful for everybody to learn a little bit about Vim because maybe you're SSH-ing into a machine where you're running a cron job, or whatever it might be, and you wanna be able to edit some script or something on the machine in a quick way, right there in the terminal. Vim is a great choice for that, even if you don't use it as your primary editor, like I do... Which you should.
 
 **Chris Benson:** \[laughs\]
 
@@ -136,7 +136,7 @@ The reason this drew me in was Gradient Descent is really one of the very first 
 
 **Chris Benson:** Okay, well I'm definitely gonna dive into that one. So the last thing that I am introducing today for learning is O'Reilly has an article called "Introducing capsule networks." To give people a quick background, capsule networks are I guess an invention by Geoffrey Hinton, who is one of the luminaries in the deep learning world, and it is what you might think of as an alternative to convolutional neural networks.
 
-\[00:26:25.06\] It's a really hot topic right now, there's a lot of interest in it, but what this article does is it kind of takes you through CapsNets (which is what they're called for short), and it differentiates them with convolutional neural networks, and talks about some of the different ways and places that you might use them, it talks about the differences in architecture and approach, strengths and weaknesses, and kind of gives you a thorough introduction, so that if this feels like it's one of the architectures that you're interested in for your use case, you can then take it forward and learn more about it.
+\[26:25\] It's a really hot topic right now, there's a lot of interest in it, but what this article does is it kind of takes you through CapsNets (which is what they're called for short), and it differentiates them with convolutional neural networks, and talks about some of the different ways and places that you might use them, it talks about the differences in architecture and approach, strengths and weaknesses, and kind of gives you a thorough introduction, so that if this feels like it's one of the architectures that you're interested in for your use case, you can then take it forward and learn more about it.
 
 I've been looking for a really good intro to this, and I thought this was a good way of dipping your toe into it and deciding if it's something that you wanna do further. Any thoughts on capsule nets?
 

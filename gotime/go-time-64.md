@@ -32,7 +32,7 @@ Highlights on the company - we did, like I said, Y Combinator, series A, series 
 
 **Erik St. Martin:** For that particular use case, we threw it together in a weekend; it was MQTT on Arduino-based hardware, and then Telegraph was picking that up and converting it into Influx, and then we displayed it on [Grafana](https://github.com/grafana/grafana).
 
-**Paul Dix:** \[00:04:12.03\] Right, yeah. So that's very common. I think the thing that's interesting is you have sensors on your barbecue, and I think that trend is actually only gonna continue to accelerate. There are gonna be more and more sensors out there in the world, and you're gonna wanna instrument that stuff. A lot of times you're gonna throw the data away; like, what's the long-term value of your barbecue data being collected every ten seconds for the last five years? Probably minimal, but I think there are use cases, within sensors specifically, that will be very interesting.
+**Paul Dix:** \[04:12\] Right, yeah. So that's very common. I think the thing that's interesting is you have sensors on your barbecue, and I think that trend is actually only gonna continue to accelerate. There are gonna be more and more sensors out there in the world, and you're gonna wanna instrument that stuff. A lot of times you're gonna throw the data away; like, what's the long-term value of your barbecue data being collected every ten seconds for the last five years? Probably minimal, but I think there are use cases, within sensors specifically, that will be very interesting.
 
 **Brian Ketelsen:** So is Influx customized specifically for IoT use cases, or is that just a really nice fit to a more general product?
 
@@ -48,7 +48,7 @@ I think the one other thing that is I think kind of unique with Influx and some 
 
 **Paul Dix:** Yeah, so our experience using Go has been fantastic. I remember looking at Go back in March of 2012 when 1.0 came out, and I thought it was interesting as a language. But at the time I was writing primarily Scala code, which I was completely disenfranchised with at that point... But before that, I was a Ruby developer, so I was in the dynamic language camp, and I switched to Scala... Then I was in the barren hellscape that is the JVM. Then, looking at Go, what I appreciated was that the tooling was very simple, the really fast compile times; whenever I had to do Scala stuff, it was just painful waiting for builds.
 
-\[00:08:18.01\] In the fall of 2012, when I was creating the second version of the API for this SaaS monitoring application - originally, I had written that in Scala, using Cassandra and Redis, so for this next cut I wanted something that was like a single binary that could be deployed, and I thought Go would be great for that. So I basically did a spike of writing a basic time series API in Go, and then using [LevelDB](http://leveldb.org/), which is a key-value store that's actually written in C++ that came out of Google... But I did that really quickly what kind of performance could I get out of this thing. And I saw that it was very, very good.
+\[08:18\] In the fall of 2012, when I was creating the second version of the API for this SaaS monitoring application - originally, I had written that in Scala, using Cassandra and Redis, so for this next cut I wanted something that was like a single binary that could be deployed, and I thought Go would be great for that. So I basically did a spike of writing a basic time series API in Go, and then using [LevelDB](http://leveldb.org/), which is a key-value store that's actually written in C++ that came out of Google... But I did that really quickly what kind of performance could I get out of this thing. And I saw that it was very, very good.
 
 Basically, fast-forward through 2013 into basically mid-September 2013, we had decided -- at this time, the company was me and two other people. I had gotten back from a conference and I was like, "Okay, this product we're building isn't working, but I think the infrastructure is interesting, and I think this time series thing is interesting, so let's do a spike on creating a time series database based on our previous stuff, and do it from scratch."
 
@@ -60,7 +60,7 @@ Thankfully, I think it's been a combination of both. One, the Go team's improvem
 
 So basically, my experience with Go has been overwhelmingly positive, and I've written about this a couple of times. I really do think that Go has a long lifetime ahead of it and I do think that 5-10 years from now it potentially has the possibility to overtake Java as the preferred server-side programming language for services.
 
-\[00:12:14.13\] Our two biggest pain points over that time -- which, of course, everybody is going to groan because I'm going say things that everybody has heard a million times before, which is one, dependencies; thankfully, it looks like that is finally starting to get addressed... And two, generics. I'm not asking that they add generics to the language, because I feel like there's a big win in not having them in terms of simplicity and readability and that kind of stuff, but we definitely felt the pain in a couple specific spots where generics would have been handy.
+\[12:14\] Our two biggest pain points over that time -- which, of course, everybody is going to groan because I'm going say things that everybody has heard a million times before, which is one, dependencies; thankfully, it looks like that is finally starting to get addressed... And two, generics. I'm not asking that they add generics to the language, because I feel like there's a big win in not having them in terms of simplicity and readability and that kind of stuff, but we definitely felt the pain in a couple specific spots where generics would have been handy.
 
 Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this templating thing, basically like this code generation thing that lets us hack around new generics, which is littered in our query engine code right now.
 
@@ -120,7 +120,7 @@ Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this te
 
 **Erik St. Martin:** Yeah, I don't want C++ templates.
 
-**Paul Dix:** \[00:16:09.05\] I don't think anybody wants that.
+**Paul Dix:** \[16:09\] I don't think anybody wants that.
 
 **Carlisia Thompson:** The Go language team itself, they've already dropped sufficient hints that this is not trivial, that there will be major trade-offs to make in regards to the simplicity of Go versus having that extra functionality.
 
@@ -150,7 +150,7 @@ Actually, [Ben Johnson](https://github.com/benbjohnson) ended up writing this te
 
 **Paul Dix:** Yeah, I think part of it is how to organize your project. Honestly, I think that's something that we all fumble around with and learn over time. I can actually point to you - which I linked to in a recent blog post I did - Ben Johnson wrote this post that I think is actually very, very good about how to organize a Go project to make it understandable. I think we're closer to that in this codebase.
 
-\[00:20:04.20\] The current InfluxDB codebase is actually a complete rewrite of the original InfluxDB. That's not like a refactor, but it was essentially like a rip-and-replace rewrite almost. But in the same repo.
+\[20:04\] The current InfluxDB codebase is actually a complete rewrite of the original InfluxDB. That's not like a refactor, but it was essentially like a rip-and-replace rewrite almost. But in the same repo.
 
 **Carlisia Thompson:** So that's probably a good codebase to look at for example of how to organize your code, you'd say?
 
@@ -166,7 +166,7 @@ This is like an idea I was kind of playing around with, which is if you're build
 
 If you don't think a little bit why you're organizing code in a certain way, you lose that ability, and that is a great feature that Go has embedded in the language in a way that allows you to write your code and to package it. [Bill Kennedy](https://github.com/ardan-bkennedy) also has a very good post, and I'm trying to find it here on his [blog](https://www.ardanlabs.com/blog/), about how to organize code; it's a [series of two or three posts](https://www.ardanlabs.com/blog/2017/02/package-oriented-design.html).
 
-**Erik St. Martin:** \[00:23:55.11\] Yeah, so I like the idea of the decomposable monolith, too; we've done this before, too... The beauty of that is like everybody -- the Holy Grail is having this horizontally scalable architecture where you just spin up more of these things and the world is great... But people don't realize that with separating things out like that, you introduce complexities into the system and you introduce new ways that your application can break, and that's often not good early on, because you're still trying to iterate on the core functionality and get that rock-solid, and now you're having to worry about network issues and timeouts and things like that.
+**Erik St. Martin:** \[23:55\] Yeah, so I like the idea of the decomposable monolith, too; we've done this before, too... The beauty of that is like everybody -- the Holy Grail is having this horizontally scalable architecture where you just spin up more of these things and the world is great... But people don't realize that with separating things out like that, you introduce complexities into the system and you introduce new ways that your application can break, and that's often not good early on, because you're still trying to iterate on the core functionality and get that rock-solid, and now you're having to worry about network issues and timeouts and things like that.
 
 **Paul Dix:** Right, yeah. Most of the time you need to figure out if you're even building the right thing in the first place.
 
@@ -180,7 +180,7 @@ Because this we were doing this in February 2016, [Kubernetes](https://kubernete
 
 But obviously, at this point, the writing is on the wall - Kubernetes is basically winning the orchestration game, and there's a bunch of hooks and stuff that you can do within Kubernetes to customize it for your needs. Basically, probably about three or four months ago we took a look and we said, "Okay, one - this single-tenant architecture that we have is not really working as we scale up." We run thousands of instances on EC2, and it means that, one, it's a pain to coordinate all of that stuff and to monitor all of that stuff, but also we waste a lot of resources, because there are many customers who have very small workloads where a lot of their instances are basically just sitting idle, and this is exactly what cluster orchestration is for.
 
-\[00:27:45.15\] Basically, our costs aren't scaling properly with the number of customers, and we have to manage all these things... More importantly, if we want to release a feature in the database, we have to do it in the database, we have to test it as extensively as we can, and then we have to try and clone a few customer clusters and replicate the traffic, and then upgrade them. But the thing is we have to upgrade each of these clusters individually. It's not like a SaaS service or a regular -- a SaaS application usually, if it's something that's operating at scale, either in terms of the complexity or the traffic, you have a number of services underlying it, and you can deploy each of those individually. So it's totally possible to develop and deploy a feature in a SaaS application, for instance, without deploying every single piece of code throughout the thing. Right now, clustered InfluxDB is very much a monolithic application. If you want to develop a new feature, you have to deploy the entire database, which means there's a high risk to deploying code.
+\[27:45\] Basically, our costs aren't scaling properly with the number of customers, and we have to manage all these things... More importantly, if we want to release a feature in the database, we have to do it in the database, we have to test it as extensively as we can, and then we have to try and clone a few customer clusters and replicate the traffic, and then upgrade them. But the thing is we have to upgrade each of these clusters individually. It's not like a SaaS service or a regular -- a SaaS application usually, if it's something that's operating at scale, either in terms of the complexity or the traffic, you have a number of services underlying it, and you can deploy each of those individually. So it's totally possible to develop and deploy a feature in a SaaS application, for instance, without deploying every single piece of code throughout the thing. Right now, clustered InfluxDB is very much a monolithic application. If you want to develop a new feature, you have to deploy the entire database, which means there's a high risk to deploying code.
 
 Basically, as we saw Kubernetes gaining in popularity and really maturing, I thought "Well, what if we started to try to think about for our cloud service and for a database in general, what would it look like if we actually designed it to run on Kubernetes from day one?" We took advantage of the primitives that Kubernetes has in terms of being able to schedule things, and we kind of separated out the different kinds of workloads that you have within a database.
 
@@ -194,7 +194,7 @@ What we did with that was we actually decoupled the engine in the language from 
 
 **Paul Dix:** Yeah, we're already looking into that, actually. One of our guys is actually gonna submit a talk to the Cloud Native Con or [KubeCon Europe](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/) that's coming up - I think it's in early May in Copenhagen - and he's working on operator code for some of these pieces, so I think he's gonna try and give a talk on it.
 
-\[00:31:55.23\] The two key things we're looking at is Kubernetes operators, and then also [Istio](https://istio.io/) mixers. Because there's a bunch we wanna do in a new API tier, that mixers seem like the perfect fit for.
+\[31:55\] The two key things we're looking at is Kubernetes operators, and then also [Istio](https://istio.io/) mixers. Because there's a bunch we wanna do in a new API tier, that mixers seem like the perfect fit for.
 
 **Erik St. Martin:** That Istio is freakin' incredible...
 
@@ -216,7 +216,7 @@ Istio stacks on top of Envoy, so if you're using Istio, you're using Envoy. And 
 
 **Erik St. Martin:** And I think it's interesting too, because then the more you use the tracing because you kind of got it for free, the more it encourages you to add new metrics to the distributed tracing to help do that. But most people aren't highly motivated to have to do the from-scratch implementation and do all of their services.
 
-**Carlisia Thompson:** \[00:35:55.01\] I wanted to ask a question that I always like to ask anyone who comes on the show that is heading a company or a big team, and that is about hiring. I wonder how is hiring Go developers going for you, what do you look for? Does it matter if the person knows Go or not, and do you recommend that people who want to work on anything that is made in Go that they go and learn Go beforehand? And anything else you wanna share about that?
+**Carlisia Thompson:** \[35:55\] I wanted to ask a question that I always like to ask anyone who comes on the show that is heading a company or a big team, and that is about hiring. I wonder how is hiring Go developers going for you, what do you look for? Does it matter if the person knows Go or not, and do you recommend that people who want to work on anything that is made in Go that they go and learn Go beforehand? And anything else you wanna share about that?
 
 **Paul Dix:** Yeah, sure. I mean, I think it's a mixed bag for hiring Go developers. The thing is we have a number of different projects, and some of them, even though they're all written in Go on some level, they require vastly different skillsets. For example, our user interface, Chronograph - there's a bunch of Go code, and there's this massive single-page React/JavaScript application. But the Go code in that is very different than the Go code you'd find, say, in the storage engine or the query engine of the database. Both are Go, but I don't feel like Go developers are kind of interchangeable, so that I can just say, "Oh, go write the database", or you take a database person and say "Go write these web APIs", or whatever.
 
@@ -228,7 +228,7 @@ I wouldn't want to hire somebody who didn't know anything about Go, just because
 
 I think for hiring we benefitted for sure from having open source bits all over the place. We've hired a number of people from our contributor community. We've seen commits and actually reached out to them and said, "Hey, your code looks great. We're really interested to talk to you and see if you'd be interested in coming to work with us." That's nice, but that doesn't really scale, and like I said, we kind of have to double our engineering team in 12 months, so at this point we use that, we use job boards, we use recruiters, and I feel like for some of these roles we're definitely gonna be pulling in people who aren't familiar with Go and training them up on the job.
 
-**Carlisia Thompson:** \[00:40:13.06\] This was super informative, Paul. Thanks.
+**Carlisia Thompson:** \[40:13\] This was super informative, Paul. Thanks.
 
 **Erik St. Martin:** I'm forgetting what time we stared, but I think we're running shorter on time... Do we wanna jump into some projects and news before we do \#FreeSoftwareFriday?
 
@@ -264,7 +264,7 @@ I think for hiring we benefitted for sure from having open source bits all over 
 
 **Erik St. Martin:** I dropped that link in there. They're actually a really huge user of containers, and I know there's some stuff built in there around security and using Hyper V and stuff. But one of the interesting things that I saw about it was actually in the way they distribute images. It's done using peer-to-peer instead of a central repository server, which should make it much faster to have nodes pick up images.
 
-\[00:43:54.06\] That always seems to be the slow point, right? Another instance goes to start up, or it fails over to another node, but the image hasn't been pulled yet, and then there's kind of like that lag waiting for it to get there... Whereas if it just pulled it from another node in the cluster that has it...
+\[43:54\] That always seems to be the slow point, right? Another instance goes to start up, or it fails over to another node, but the image hasn't been pulled yet, and then there's kind of like that lag waiting for it to get there... Whereas if it just pulled it from another node in the cluster that has it...
 
 **Brian Ketelsen:** Yeah, the documentation in that GitHub repository for Pouch is well worth your time to sit down and read through. I did it a couple days ago and I wasn't disappointed. There's lots of good stuff in there.
 
@@ -296,7 +296,7 @@ So I think it's interesting because they have their monitoring product called St
 
 **Brian Ketelsen:** Boy, was that me... Who was I having this conversation with the other day...? I was helping somebody learn Go, and they were like "Well, what do you do about when it tells you it expected this, but got that?" and I said "Just change it from & to *." They were like "What?" I said, "It doesn't matter why, just do that until you understand." And that's how I go through Go the first year, because I had no clue what pointers were. I came from Ruby.
 
-**Carlisia Thompson:** \[00:48:05.11\] It's always one or the other... Two choices. If one doesn't work, the other will. \[laughs\]
+**Carlisia Thompson:** \[48:05\] It's always one or the other... Two choices. If one doesn't work, the other will. \[laughs\]
 
 **Brian Ketelsen:** Change it and recompile, see what happens.
 
@@ -352,7 +352,7 @@ So I think it's interesting because they have their monitoring product called St
 
 **Carlisia Thompson:** I think it will be just one string of all the errors. Maybe separated by some separator, maybe a dot.
 
-**Brian Ketelsen:** \[00:52:07.07\] Cool. Alright, I'll go next. I found the coolest - to me, coolest; I love hacky, crazy things... This is an application called LXRunOffline. I've been using Windows as a development environment for many months now, along with my Mac and my Linux machines, and Windows has the WSL (Windows Subsystem for Linux) and previously you were only able to install one installation, which was Ubuntu; then with the Fall Creators Update, they brought two more, so you could have openSUSE, Ubuntu and -- not Fedora, but a different one; I can't remember which. So you could have three installations, but that was it. You were limited to those three.
+**Brian Ketelsen:** \[52:07\] Cool. Alright, I'll go next. I found the coolest - to me, coolest; I love hacky, crazy things... This is an application called LXRunOffline. I've been using Windows as a development environment for many months now, along with my Mac and my Linux machines, and Windows has the WSL (Windows Subsystem for Linux) and previously you were only able to install one installation, which was Ubuntu; then with the Fall Creators Update, they brought two more, so you could have openSUSE, Ubuntu and -- not Fedora, but a different one; I can't remember which. So you could have three installations, but that was it. You were limited to those three.
 
 So this LXRunOffline app allows you to create any number of installations of WSL, each with their own backing file system, which means I basically can create a sandbox for every app I wanna build, with very little disk overhead and no performance overhead. So I used it and I wrote a [blog post](https://brianketelsen.com/getting-crazy-with-windows-subsystem-for-linux/) about it over the holidays, about how I created a new development environment using LXRunOffline for sandboxing all of my code. It was a ton of fun.
 
@@ -374,7 +374,7 @@ So this LXRunOffline app allows you to create any number of installations of WSL
 
 It's basically a data format that can be represented in memory, the same way. Ideally, it can be represented cross-language, in the same exact format, and there are a bunch of things that it's designed to do. He's done a lot of data processing work, and Pandas, and bigger data work and stuff like that. The whole thesis behind Arrow is frequently when you're moving data around, you actually have to 1) copy the data in memory frequently, and then you have to marshal it between different kinds of formats, and you actually waste a lot of processing power and bandwidth doing all these things. So the idea behind Arrow is that you can actually achieve much better efficiencies through zero-copy methods and without having to marshal things into different formats.
 
-\[00:55:42.11\] The idea is Arrow would be the data representation for many different data processing libraries or machine learning libraries, or stuff like that. We are actually looking at it as basically a data interchange format for our data tier and our query processing tier, and then also exposing that out to clients. Basically, we can process data across the network and all this other stuff, without having to waste a bunch of time like, say, serializing it in protobufs and then pulling it back out, and representing it as like these go structs and all this other stuff.
+\[55:42\] The idea is Arrow would be the data representation for many different data processing libraries or machine learning libraries, or stuff like that. We are actually looking at it as basically a data interchange format for our data tier and our query processing tier, and then also exposing that out to clients. Basically, we can process data across the network and all this other stuff, without having to waste a bunch of time like, say, serializing it in protobufs and then pulling it back out, and representing it as like these go structs and all this other stuff.
 
 **Brian Ketelsen:** I read through Arrow's website the other day and it look really interesting; it looked fascinating actually, the way they store the data almost pivoted for faster retrieval. It was a good read.
 

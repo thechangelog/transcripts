@@ -6,7 +6,7 @@
 
 **Chris Benson:** It is. And it has been a crazy time out there in the world for everybody, certainly in the United States if you're listening here. No matter what your political persuasion, it's been kind of a crazy last week... Normally, I encourage people to come to the show just for the sheer exhilaration and excitement of AI topics, but I'm hoping with this they can just come and relax. Because everyone I know here is stressed out. We're gonna have a fun time today. We're gonna have a good conversation, and everybody can chill out and relax, and we'll talk some good AI stuff.
 
-**Daniel Whitenack:** \[00:04:18.11\] Cool. Sounds good. Well, Chris, how is your sense of smell, would you say?
+**Daniel Whitenack:** \[04:18\] Cool. Sounds good. Well, Chris, how is your sense of smell, would you say?
 
 **Chris Benson:** Oh, I wish it was better. My wife loves cense; we have cense in the house, and she'll say \[unintelligible 00:04:26.22\] she'll put it my nose and I cough, or something...
 
@@ -58,7 +58,7 @@ I got involved in more or less the divide side, let's say when you can activate 
 
 **Daniel Whitenack:** It's so cool. Yanis, what about yourself?
 
-**Yanis Caritu:** \[00:08:05.22\] On my side, I have a physics and optics background, and then signal processing, mostly... I've been exploring early neural network structures during my Ph.D, specifically on multi-sensorial systems... But of course, it was before the year 2000. Since then, I have always been in startups for developing what we can call augmented sensors. Always sensors with something physics to translate, a physical phenomenon to something in digital, and then apply artificial intelligence to learn many things.
+**Yanis Caritu:** \[08:05\] On my side, I have a physics and optics background, and then signal processing, mostly... I've been exploring early neural network structures during my Ph.D, specifically on multi-sensorial systems... But of course, it was before the year 2000. Since then, I have always been in startups for developing what we can call augmented sensors. Always sensors with something physics to translate, a physical phenomenon to something in digital, and then apply artificial intelligence to learn many things.
 
 So now I'm chief software officer at Aryballe, and I joined the company two years ago. Of course, at Aryballe we have multiple skills - chemistry, physics, optics, micro and nano-electronics also we need... And signal processing, and of course, artificial intelligence. That multi-disciplinary context is very exciting, and especially for applying this to odor sensing, of course.
 
@@ -72,7 +72,7 @@ So it is something that is very well-addressed with machine learning. We're not 
 
 So that's a little bit -- again, still, we're analyzing the gas, just like in the old days of GC mass spec, but we're doing it in a way that we learn... And we learn, and we learn, and we learn. A bio-electric nose is nothing if you don't teach it. So we teach it using something that is mimicking the human nose and the human sense of smell. I don't know if that helps, but that's my answer.
 
-**Chris Benson:** \[00:12:07.22\] It does, it does. Just as a follow-up comment to that - I love how you drew the distinction with visual, because it never occurred to me... I have been programming for years, I'm so used to using RGB and stuff as a mechanism to understand that... But then as you were talking, I started thinking "I don't have that for all of my other senses." So it's a good way of showing that gap.
+**Chris Benson:** \[12:07\] It does, it does. Just as a follow-up comment to that - I love how you drew the distinction with visual, because it never occurred to me... I have been programming for years, I'm so used to using RGB and stuff as a mechanism to understand that... But then as you were talking, I started thinking "I don't have that for all of my other senses." So it's a good way of showing that gap.
 
 **Terri Jordan:** Yeah.
 
@@ -94,7 +94,7 @@ So I would say that we have the chance that right now we have artificial intelli
 
 **Daniel Whitenack:** Yeah. That's really interesting. So based on what I said at the beginning, our listeners probably know that I'm interested in this and I have some ideas in my own mind. But for those out there that are thinking "Why would we want to digitally represent odor?" What are the main end goals or use cases that you're running across? Could you just give them a sense of the main use cases that you're seeing right now?
 
-**Terri Jordan:** \[00:16:09.22\] Yeah, this is what gets me really excited, so I'd like to go first on this one, too. So food and beverage I'm seeing increasingly. When you think about raw material quality verification, think about all the places grain goes, or corn, different kinds of corn. So really having quality corn. We have one use case where we're looking at where we can differentiate between good corn, musty corn and mildewy corn, or sour corn.
+**Terri Jordan:** \[16:09\] Yeah, this is what gets me really excited, so I'd like to go first on this one, too. So food and beverage I'm seeing increasingly. When you think about raw material quality verification, think about all the places grain goes, or corn, different kinds of corn. So really having quality corn. We have one use case where we're looking at where we can differentiate between good corn, musty corn and mildewy corn, or sour corn.
 
 So looking at raw material supply, and raw material quality verification. That goes into not just food, but also the entire fragrance industry. As you can probably imagine, we're working with a very large fragrance supplier that supplies to all of your consumer product goods, and all of the hand sanitizers that we've been using so much of in the past year, as well as in fine fragrance. So all of that requires really fine raw material, but also product consistency on the other end, so process control. So did I switch out a batch of orange blossom for vanilla? That's an extreme case. Did I bring this out of the right vat, and does this look like it's supposed to look?
 
@@ -110,9 +110,9 @@ And then consumer appliance industry as well. You know, food spoilages and food 
 
 So detecting odors in the refrigerator for a consumer, as well as in somebody's larger supply chain ones. And yeah, even automated cooking. We did a use case where you could tell when the chicken is done, when the cake is done... Those kinds of applications as well.
 
-\[00:20:01.22\] So there's a lot of spin-outs from that, including lots of personal care and cosmetic examples... A little bit more, slightly more in the future is more health examples, where you can imagine wearing a watch and breathing into it and having it tell you "Yeah, you should go maybe get checked for strep throat" or something like that. Certain diseases have - particularly diabetes and whatnot - have by-products that end up in our breath or in our skin, so in terms of our roadmap, that's in our roadmap as well. But the first few examples I gave you are things we're working on right now, with \[unintelligible 00:20:33.26\] early adopters in the industry.
+\[20:01\] So there's a lot of spin-outs from that, including lots of personal care and cosmetic examples... A little bit more, slightly more in the future is more health examples, where you can imagine wearing a watch and breathing into it and having it tell you "Yeah, you should go maybe get checked for strep throat" or something like that. Certain diseases have - particularly diabetes and whatnot - have by-products that end up in our breath or in our skin, so in terms of our roadmap, that's in our roadmap as well. But the first few examples I gave you are things we're working on right now, with \[unintelligible 00:20:33.26\] early adopters in the industry.
 
-**Break:** \[00:20:42.08\]
+**Break:** \[20:42\]
 
 **Chris Benson:** I would like to actually talk a little bit about the actual -- and I don't know, I'm gonna leave it to you to define it, but the electronic nose device that you have... And I'd really like to hear, because you both have interesting perspectives on it, if you could both contribute from each of your perspectives what that device is - both as a data producer, and as kind of from the olfactory science aspect of it... And then maybe as part of that, Yanis, you could talk about what data you're pulling from that, that's going into models for development, or inference, or other software uses, and stuff. But I'd really like to get both sides of what it is that you're doing.
 
@@ -124,7 +124,7 @@ So detecting odors in the refrigerator for a consumer, as well as in somebody's 
 
 **Yanis Caritu:** Yes. And generally speaking, when you are talking about odor information, we're entering something which is quite complex, because an odor is a complex mixture of different molecules that provoke in your nose some activities... But the interpretation of the odor is in the olfactory cortex, so not at the same place. We have to cope with that, so our first focus is on delivering a sensor that will be repeatable in the term of activities, so that this information is quantified once for all, and you inject this in the machine learning. And maybe you will mimic also the human brain, but not sure, because interpretation of odors depends also on your history, and so on.
 
-\[00:24:01.01\] We are playing artificial intelligence as soon as we get data from the sensors. And these sensors are just like a fingerprint sensor, because it registers patterns when you apply some odors, and this is what we try to classify, to recognize, and so on.
+\[24:01\] We are playing artificial intelligence as soon as we get data from the sensors. And these sensors are just like a fingerprint sensor, because it registers patterns when you apply some odors, and this is what we try to classify, to recognize, and so on.
 
 \[unintelligible 00:24:19.06\] plenty of application within different areas, but within this area you can find recognition problems, you can find \[unintelligible 00:24:27.10\] so you can for instance detect which kind of odor is in this car, but you can also detect where is the source of this odor, because it's something you want to know to solve the problem... So there are plenty of opportunities to apply artificial intelligence with those outputs.
 
@@ -142,7 +142,7 @@ Then we have contextual data to embed information more than the signature. So yo
 
 **Yanis Caritu:** I will try to not be too much technical, but as you pointed - we need to find something which is equivalent to an RGB image, or like the frequency in the odor, and so on. So what we are measuring are quantum of molecules with different properties, and so it's difficult to have sensors that are on a unique dimension. So collecting all this data within the specific universe of odors to limit a bit the complexity - you can find what we call orthogonal axes in representation of data, so that you have virtual sensors, which are not exactly the sensors you have, but you try to find the different axes which are not correlated, and which put you in a world which will provide you with something that is not so one-dimensional.
 
-**Daniel Whitenack:** \[00:28:08.09\] It's kind of like principal components, or something...
+**Daniel Whitenack:** \[28:08\] It's kind of like principal components, or something...
 
 **Yanis Caritu:** Exactly.
 
@@ -168,7 +168,7 @@ Then we have contextual data to embed information more than the signature. So yo
 
 **Yanis Caritu:** It's okay. Also, at Aryballe we have of course many research and development labs, but also we have engineering activities, because it's also our mission to assess a sensor of odor. And we were talking about standardization some minutes ago, and I think one thing which is important is when talking about electronic nose, we should have a tool to assess the performance and to be able to compare to other sensors. That's a quite heavy activity, but what is specific here is that compared to other sensors I experienced in the past, is that the stimulus you have to put on your sensor is very combinatory. You have a lot of combinations of different molecules to have an odor, to get an odor. It's not the same as having pressure sensors, where you apply some pressure and you know where you are, because you have your gold. Here it's not quite the gold; the gold is indirect. So you need to specify the world of odors you are playing with to be able to compare sensor to sensor and apple to apple.
 
-**Daniel Whitenack:** \[00:32:22.25\] Yeah, it almost seems like there's this sort of transition where if I think about computer vision or something like that, we're used to -- like, on a manufacturing line, if I'm putting in... We talked about this with one of our guests - if I'm putting in a chip on a board or something, computer vision at that point would be like "Oh, I'm gonna detect edges. Once I know where this edge is, then I can move my chip over and put it in in the spot." In that case you're not detecting "This is the socket here", like "I'm detecting what it is." You're detecting edges, and making some inference off of where it is.
+**Daniel Whitenack:** \[32:22\] Yeah, it almost seems like there's this sort of transition where if I think about computer vision or something like that, we're used to -- like, on a manufacturing line, if I'm putting in... We talked about this with one of our guests - if I'm putting in a chip on a board or something, computer vision at that point would be like "Oh, I'm gonna detect edges. Once I know where this edge is, then I can move my chip over and put it in in the spot." In that case you're not detecting "This is the socket here", like "I'm detecting what it is." You're detecting edges, and making some inference off of where it is.
 
 Here, we're used to -- you would detect a certain combination of chemicals, or molecules, and sort of deduce - like Terri you were saying - "This could have to do with lavender. It's consistent with that." But you're not really detecting lavender smell.
 
@@ -190,7 +190,7 @@ So because it's a too large database, and as I have said before, it's easy to ha
 
 Also, when it comes to source separation, as you mentioned with the multiple speakers for speech recognition, one way to find against this is to find the correct equilibrium into our chemistry between some peptides that would be specific, and some other that would be not specific.
 
-\[00:36:13.05\] So this is a question also of having some improvement in the sensor, so you can look at the reality with another angle, to bring more and more information. That's the simplest way to do it. But then if you have more issues with the useful signal, you need to practice - let's say the humidity. You are okay with having a humidity sensor also, because that's commodities. So you can use a humidity sensor to solve many problems.
+\[36:13\] So this is a question also of having some improvement in the sensor, so you can look at the reality with another angle, to bring more and more information. That's the simplest way to do it. But then if you have more issues with the useful signal, you need to practice - let's say the humidity. You are okay with having a humidity sensor also, because that's commodities. So you can use a humidity sensor to solve many problems.
 
 We have plenty of tricks on the system, and it's still a miniature system, because all what we are talking about are chips on silicon to have this solved along our progress and development.
 
@@ -218,7 +218,7 @@ So now we can start to experiment with "Let's impart odors." And some of the fun
 
 **Terri Jordan:** ...but we can separate between teenage girl perspiration and aged man perspiration. So these are some of the real things that we've done with our customers; we'll spend a day in the life at an automotive OEM, and after smelling it with the digital olfaction device, my customer will say "So do you wanna go in there?" and I say "No, I'm good. I'll stay out here." \[laughter\] But we literally put those four smelling things inside chambers...
 
-\[00:40:11.27\] Those are the kinds of things that we just do, and we look for differences, just like in any statistical problem; if they're different, is it significant? How many pieces of shirt do we need to add before it is significant, and how does that compare to human panel? ...not Terri panel, but another human panel that came in before or after.
+\[40:11\] Those are the kinds of things that we just do, and we look for differences, just like in any statistical problem; if they're different, is it significant? How many pieces of shirt do we need to add before it is significant, and how does that compare to human panel? ...not Terri panel, but another human panel that came in before or after.
 
 So those are the kinds of things that we do, just taking what Yanis was talking about and turning it into practical AI for your listeners...
 
@@ -246,7 +246,7 @@ So our strategy is to use a bench of algorithms to classify, for instance, for r
 
 One thing also which could be a challenge is to deploy the models, because we are talking about a sensor that will embed any electronic products in consumer electronics; we need to add this model play on board, but also with a connected device, IoT for instance... And all this software logistic is quite large to do.
 
-**Daniel Whitenack:** \[00:44:11.01\] I know from our previous discussions you have the detection and classification piece, but Terri, you were talking about a data platform or data that kind of allows you to explore what you've detected, and a sort of space of odors that you're dealing with, and their signature... And I was wondering if you could talk a little bit about those. So there's maybe like a first-order level of algorithms that you're doing in terms of detection and classification, but then maybe a second-order level around clustering those together, or you mentioned detecting when something changes in a refrigerator, or something like that... That seems more of like a time series sort of deal, where that's kind of an online thing that's happening on a second-order level, as compared to the detection and classification. So could you describe a little bit that sort of platform and applications?
+**Daniel Whitenack:** \[44:11\] I know from our previous discussions you have the detection and classification piece, but Terri, you were talking about a data platform or data that kind of allows you to explore what you've detected, and a sort of space of odors that you're dealing with, and their signature... And I was wondering if you could talk a little bit about those. So there's maybe like a first-order level of algorithms that you're doing in terms of detection and classification, but then maybe a second-order level around clustering those together, or you mentioned detecting when something changes in a refrigerator, or something like that... That seems more of like a time series sort of deal, where that's kind of an online thing that's happening on a second-order level, as compared to the detection and classification. So could you describe a little bit that sort of platform and applications?
 
 **Terri Jordan:** I think that's for you again, Yanis. I mean, yes, those are the things we've done and implemented in terms of proof of concept with various customers, but I think how we do that time-lapse data analysis and signal processing - that's still for you again, Yanis.
 
@@ -260,7 +260,7 @@ So we have plenty of mathematic tools to get to this kind of application. But to
 
 **Chris Benson:** So I guess as we start to wind up here -- I've learned so much, because I knew nothing about this topic before we got on, so I really appreciate you guys educating me on this... But I'm really intrigued about where this industry is going now. I have so many ideas popping into my head about ways of using this technology going forward... I'd really love it if you would both kind of wax poetic for us a little bit about your take on the future over the next few years, and the exciting things that we're likely to see, and I'd like you both to address it, just so we can get both of your perspectives on it, if you would. Yanis, do you wanna start us off? And then we'll go to Terri.
 
-**Yanis Caritu:** \[00:48:06.13\] Yes, I am fascinated by home appliances, because it's close to our environment, and we want to be safer when we eat something... For instance, we want something which is not -- the cooking which would not depend on the whole system you have just by the odor. Just know where you can stop your cooking, and it's very facilitating for the daily life. But also, we are thinking more than that, and further.
+**Yanis Caritu:** \[48:06\] Yes, I am fascinated by home appliances, because it's close to our environment, and we want to be safer when we eat something... For instance, we want something which is not -- the cooking which would not depend on the whole system you have just by the odor. Just know where you can stop your cooking, and it's very facilitating for the daily life. But also, we are thinking more than that, and further.
 
 I think that healthcare is of very great interest. Today the main issue is that when you exhaust an odor from a body, today you need to be a dog to smell it. You need to have a very low limit of detection. So the challenge we have to cope with with the sensor, because we are talking about not what we call the PPM, like the concentration, not the PPB. It's far lower than that, sometimes.
 
@@ -282,7 +282,7 @@ But I'll end with more or less the story of, let's say -- I have three adult kid
 
 **Terri Jordan:** And I bring out that story, and I think that you can do this as well, and your listeners could do this as well - smells evoke in us an emotional response. And when I ask my kids about what is a smell that evokes that emotion, they immediately know. So now when you think about yourself, let's say walking through a field, or going through a hike, as I love to do, and just go \[inhale/exhale 00:50:54.24\] and you just wanna capture that smell - there is a very futuristic application, which is you can capture, literally capture that smell, in that moment. Get your signature, bring it back, and send that into -- you know, it looks like Shazam for odors. Just send that in and say "Can you please reproduce that orange blossom, or that pine needle, or this combination of douglas fir and roots and hummus and all of that that we find in the woods?"
 
-\[00:51:24.14\] And you can consider recreating that in a very real way. We're working with our fragrance partners with that kind of futuristic possibility as well. It's a very real possibility in future years as well. So those are some of the things that excite me. It's a mix of the pragmatic and the super-emotional.
+\[51:24\] And you can consider recreating that in a very real way. We're working with our fragrance partners with that kind of futuristic possibility as well. It's a very real possibility in future years as well. So those are some of the things that excite me. It's a mix of the pragmatic and the super-emotional.
 
 **Chris Benson:** It becomes part of the memory. Not just a video on your cell phone, but the smells of that as well.
 

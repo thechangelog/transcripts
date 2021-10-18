@@ -1,4 +1,4 @@
-**Break:** \[00:00:00.00\]
+**Break:** \[00:00\]
 
 **Nadia Eghbal:** I'm Nadia Eghbal.
 
@@ -22,7 +22,7 @@ Evan, you started Vue while you were at Google... Is that also where you started
 
 **Evan You:** I think I did a little bit... I think I started contributing more as I started working on Vue, because when I was working on Vue I also used other people's projects, and I started to run into bugs in their projects, and I started submitting PRs to fix them so that I could use them for Vue.
 
-**Nadia Eghbal:** \[00:04:01.06\] Nice! So was that like completely terrifying then, that Vue was your first intense open source experience?
+**Nadia Eghbal:** \[04:01\] Nice! So was that like completely terrifying then, that Vue was your first intense open source experience?
 
 **Evan You:** I would say that, yeah.
 
@@ -44,7 +44,7 @@ The whole idea was I needed to turn ideas into tangible prototypes as fast as po
 
 The initial version of Vue was essentially a version that extracted the parts that I felt useful from Angular and threw away the things I felt I didn't need at that time.
 
-**Mikeal Rogers:** \[00:08:10.00\] So now that the project has grown, presumably people are using it for more than just quick applications, like they actually need to maintain it. Has that shifted some of the goals of the project, or have you really maintained that you don't wanna sacrifice any of that speed?
+**Mikeal Rogers:** \[08:10\] So now that the project has grown, presumably people are using it for more than just quick applications, like they actually need to maintain it. Has that shifted some of the goals of the project, or have you really maintained that you don't wanna sacrifice any of that speed?
 
 **Evan You:** Yeah, that's interesting... Obviously, there are many people using Vue to build large production apps today, and the framework today is also very well-suited for those purposes. But this initial version of Vue that focused on this ease of use and this use case for rapid prototyping is still there today. So as we look at how you can use Vue, you can still use Vue by just dropping it into an HTML page with just a script tag or a link to a CDN file and instantly start writing code.
 
@@ -66,7 +66,7 @@ It was kind of an interesting round trip, but somehow Vue also got really popula
 
 **Nadia Eghbal:** The thing is it all happened pretty naturally. I didn't intentionally try to promote it in any way. I think probably the biggest contributing factor in Vue's popularity in China is because of my answers on Zhihu which is sort of like the Chinese equivalent of Quora.
 
-\[00:11:59.29\] A lot of people directly ask questions about Vue and then ask me to answer it. A lot of times, when I have nothing better to do, I just answer those questions. I think that helped people a lot; it made them feel connected to this project more, because they were able to see the direct interaction with the author of the framework and it made them feel like the project is more connected with them.
+\[11:59\] A lot of people directly ask questions about Vue and then ask me to answer it. A lot of times, when I have nothing better to do, I just answer those questions. I think that helped people a lot; it made them feel connected to this project more, because they were able to see the direct interaction with the author of the framework and it made them feel like the project is more connected with them.
 
 An equivalent example would be Dan Abramov interacts a lot with React users, and I think that helps a lot of users connect with React better. So I guess that's the positive part of having someone representing a framework being really active on social networks.
 
@@ -84,7 +84,7 @@ I think this is just a natural barrier for them to be able to contribute more, w
 
 Most of the programmers actually can read English, but when they try to use it to convey some of the more subtle concepts, it becomes a struggle. I think that's the primary reason for them to be less active on the main stage of open source. But because I'm Chinese, I'm able to get a peek at the Chinese open source scene - it's actually very active. It's mostly kind of siloed off because of the language barrier.
 
-**Mikeal Rogers:** \[00:15:59.26\] Yeah, in the Node project we have some metrics, and it's huge. It's like 12% of all of our users, which is like a lot of people.
+**Mikeal Rogers:** \[15:59\] Yeah, in the Node project we have some metrics, and it's huge. It's like 12% of all of our users, which is like a lot of people.
 
 Moving along a little bit, I just wanted to know... You've taken a step to kind of go full-time working on Vue.js, or at least attempted to. What was that decision like? What made you wanna start working just on your open source project full-time, rather than also doing a lot of the other work that you've been up to?
 
@@ -98,7 +98,7 @@ So I started the campaign. I didn't really think too much about it, and I just t
 
 That was a really huge help in the beginning. They did it for six months, and that was probably like -- if it wasn't for them, I don't think the campaign would ever grow to what it is today. Today we have like $9,000-ish a month, which is already enough for me to somehow sustain the family and all that.
 
-\[00:20:17.10\] I still consider myself extremely lucky to have pulled this off. Whenever some other open source maintainer asks me for advice, I'm always hesitant to recommend them going this way because I don't feel this is something that's easily repeatable, and it really depends on how much traction you have gained, and it depends on what financial situation you're already in. I have some money saved up, and I was basically planning to do it for free for a few months just to see if it would ever work... But it turns out I got to $4,000/month pretty fast.
+\[20:17\] I still consider myself extremely lucky to have pulled this off. Whenever some other open source maintainer asks me for advice, I'm always hesitant to recommend them going this way because I don't feel this is something that's easily repeatable, and it really depends on how much traction you have gained, and it depends on what financial situation you're already in. I have some money saved up, and I was basically planning to do it for free for a few months just to see if it would ever work... But it turns out I got to $4,000/month pretty fast.
 
 I was almost able to sustain myself, and it just kept growing until it became -- today I'm pretty proud to say I'm fully sustained by open source work.
 
@@ -106,7 +106,7 @@ I was almost able to sustain myself, and it just kept growing until it became --
 
 After the break, Nadia and Mikeal talk with Evan about how he's been able to make open source his full-time job, treating it like a job for better balance in life, better balance with his family. We also talk about an often uncomfortable topic - funding. Who should get paid? Where should money be spent? Should this project have a full-time paid developer and how to sustain that? All this and more after the break.
 
-**Break:** \[00:21:47.14\]
+**Break:** \[21:47\]
 
 **Evan You:** I felt that I wanted to work on Vue more as my full-time job... And I generally felt much, much better after I switched to working on Vue full-time, because now I can actually treat it like a job. I set hours for myself, I don't have to stay up late at night anymore, so I can actually spend time with family, having spare time as I actually should have, and I feel like this is something that's much more sustainable now than having a day job and working on it at the same time.
 
@@ -114,7 +114,7 @@ After the break, Nadia and Mikeal talk with Evan about how he's been able to mak
 
 **Evan You:** I can't remember exactly how many when I started the Patreon campaign... I would say probably only a few. Today we have a pretty decently sized team, but we have like 20-ish people in the Vue.js organization on GitHub.
 
-\[00:24:08.29\] The team is pretty loosely organized. Everyone is just contributing on a volunteer basis, and we don't have a very formal structure of assigning people tasks or expecting them to do something by a deadline.
+\[24:08\] The team is pretty loosely organized. Everyone is just contributing on a volunteer basis, and we don't have a very formal structure of assigning people tasks or expecting them to do something by a deadline.
 
 The team also grows pretty organically. Whenever someone makes quality contributions on a regular basis for a while, I just invite them to the organization and ask them "Do you want to do this on a regular basis? Do you want to become a part of the team?" but overall it's still pretty loose. I don't really feel comfortable -- because they are doing voluntary work, I don't feel comfortable assigning them stuff as if it's their duty.
 
@@ -130,7 +130,7 @@ How did you kind of price the Patreon campaign and what was the goal in terms of
 
 **Evan You:** I'm not sure how you would define pricing the Patreon campaign. It was more like... I just set the numbers based on just jumping up in tiers. I didn't really think that much about how to distribute it between contributors at that time, and I think Open Collective didn't even exist back then. Patreon was kind of like the only obvious solution there... And even today -- I actually had a talk with one of the more frequent contributors, Chris... He's been making a lot of contributions to the docs, and I even discussed like -- I wish I could have allocated some of the incoming Patreon projects to him, to help him spend more time on this stuff, but he didn't want to. It has this very subtle social aspect of it, because he felt if he took some of the money, then it seemed fair for other contributors who also did the work, and it becomes a problem how to properly quantify and measure the work that each contributor does. It also creates this really awkward dynamic between the team members... So this is actually a question we are still thinking about how to best solve.
 
-\[00:28:16.00\] At this moment, we're trying to somewhat -- one of the alternative ways we try to give back to these contributors is, for example, Chris has got a deal for working on educational content for O'Reilly, because he's part of the core team and we connected with O'Reilly. He was able to get that, which offers pretty good compensation on his part. There's also -- I think some of the members got contacted by publishers to work on books and other sort of content... So these are somewhat indirect ways that we can give back to the contributors. Because they are now part of the core team, they get much better recognition for their expertise in Vue.js.
+\[28:16\] At this moment, we're trying to somewhat -- one of the alternative ways we try to give back to these contributors is, for example, Chris has got a deal for working on educational content for O'Reilly, because he's part of the core team and we connected with O'Reilly. He was able to get that, which offers pretty good compensation on his part. There's also -- I think some of the members got contacted by publishers to work on books and other sort of content... So these are somewhat indirect ways that we can give back to the contributors. Because they are now part of the core team, they get much better recognition for their expertise in Vue.js.
 
 **Nadia Eghbal:** That's awesome.
 
@@ -154,7 +154,7 @@ I just feel like this is an interesting difference between some of the different
 
 **Nadia Eghbal:** And it's really interesting to see how there are like other benefits to being a regular contributor that might not be "I'm getting paid to work on those, but my reputation grows, and then I have this book deal..." That's really interesting to think about. My brain's going in like 100 directions right now. \[laughs\]
 
-**Evan You:** \[00:32:01.11\] Yeah, and another aspect that I wanted to mention is one of the core members actually started to work on a project that's fully dedicated to Vue resources... Kind of like making Vue videos and all that. I think it's somewhat like a way for him to both contribute to Vue and provide more content for the users, and also in this process try to financially sustain himself.
+**Evan You:** \[32:01\] Yeah, and another aspect that I wanted to mention is one of the core members actually started to work on a project that's fully dedicated to Vue resources... Kind of like making Vue videos and all that. I think it's somewhat like a way for him to both contribute to Vue and provide more content for the users, and also in this process try to financially sustain himself.
 
 **Nadia Eghbal:** Interesting. Do you say that was a Patreon campaign?
 
@@ -188,7 +188,7 @@ It's stuck in this awkward place where we're basically trying to figure out what
 
 I also don't want to feel the pressure of scaling and monetizing beyond what is enough to sustain myself, at least at this stage. That's something that's been put on the table before, but I just don't feel like it's the right choice, at least for now.
 
-**Nadia Eghbal:** \[00:36:25.23\] It makes sense.
+**Nadia Eghbal:** \[36:25\] It makes sense.
 
 **Mikeal Rogers:** Not having a business model hasn't seemed to stop most startups in San Francisco... \[laughter\]
 
@@ -206,7 +206,7 @@ In Henry's case, a lot of people don't even know he is the main maintainer behin
 
 Coming up after the break, we go further in this conversation. Nadia, Mikeal and Evan go into the struggle of corporate and community-funded open source. We asked questions like "Do you have a sense of being David battling Goliath? Do your goals change in open source when you start working on it full-time?" and as Vue grows, does Evan have a plan or know how to fund beyond the current Patreon campaign? Stick around.
 
-**Break:** \[00:40:00.17\]
+**Break:** \[40:00\]
 
 **Nadia Eghbal:** Evan, you were starting to touch on Henry's story with Babel, and the perception that Babel is supported by, or is an official Facebook project... I'd love to dig in a little bit more around -- I think a lot of people are perceiving right now that companies are getting involved in open source, and that community-generated and supported open source is harder and harder to support. Do you think that there is a future where corporate and open source worlds overlap and can live harmoniously, or is the future gonna be one or the other?
 
@@ -222,7 +222,7 @@ I know that a lot of developers don't even ask their managers, because they know
 
 **Nadia Eghbal:** Absolutely.
 
-**Mikeal Rogers:** \[00:44:01.16\] I think that there are some companies that at least are willing to put in people resources; they're at least willing to open up their people to contribute back. But you're right, there's this whole other section of companies that aren't willing to do that and aren't willing to put in any money for things that they critically depend on, right?
+**Mikeal Rogers:** \[44:01\] I think that there are some companies that at least are willing to put in people resources; they're at least willing to open up their people to contribute back. But you're right, there's this whole other section of companies that aren't willing to do that and aren't willing to put in any money for things that they critically depend on, right?
 
 **Evan You:** Yeah.
 
@@ -244,7 +244,7 @@ I remember when Angular was released... The fact that it was used for Google-sca
 
 **Nadia Eghbal:** I wouldn't say that has given us much advantage; I think we've always been fighting an uphill battle as in that we almost every company adopting Vue are asking the question of "Why wouldn't we choose React or Angular, because they're backed by Facebook and Google?" I've been asked that question so many times, and honestly, I still don't have a good answer for it, because people just naturally pick corporate backing as somewhat as a badge of -- they just feel more comfortable using something backed by a big company.
 
-\[00:48:17.20\] To that, I usually ask them "What do you actually think it means for an open source project to be backed by a big company?" and they say, "Oh, it's more stable. You know because they rely on it that this project wouldn't die all of a sudden", and I guess in some cases the buzz factor is smaller... So usually in response to that I would just point them to look at some of the stats. I would say "If you are worried about how well maintained a project is, you can look at the track record" because everything is open, it's on GitHub. You can go and look at their commit history, you can and look at the issues, you can see how many total issues have been filed and how many of them have been handled and how fast they're handled, and how many pull requests they get, how fast the pull requests get merged and reviewed, and how many contributors they get.
+\[48:17\] To that, I usually ask them "What do you actually think it means for an open source project to be backed by a big company?" and they say, "Oh, it's more stable. You know because they rely on it that this project wouldn't die all of a sudden", and I guess in some cases the buzz factor is smaller... So usually in response to that I would just point them to look at some of the stats. I would say "If you are worried about how well maintained a project is, you can look at the track record" because everything is open, it's on GitHub. You can go and look at their commit history, you can and look at the issues, you can see how many total issues have been filed and how many of them have been handled and how fast they're handled, and how many pull requests they get, how fast the pull requests get merged and reviewed, and how many contributors they get.
 
 I think it's usually more reliable if you look at these numbers directly, rather than making assumptions just because some project is backed by a big company. In reverse, you make the assumption that if a project is not backed by a huge company, it must be somewhat inferior in certain aspects. That's usually the best answer I can give, but... I don't know. I guess being backed by a huge company is still a pretty big positive factor in terms of adoption for open source projects.
 
@@ -258,7 +258,7 @@ If this project no longer serves that purpose, then most companies will probably
 
 So their whole notion of "Well, it's always gonna be around..." -- well, it may not be around in a way that's even usable to you. Angular 2 went off and did a giant breaking release that I don't think a lot of their community was asking for. It was sort of driven by the people internally at Google that wanted to make that change, whereas your solution to that is "Look, you can contribute to this project, you can become a member of the community and help drive it... You can also put in money and pay for it and continue to drive it", right?
 
-**Evan You:** \[00:52:16.16\] Yeah.
+**Evan You:** \[52:16\] Yeah.
 
 **Nadia Eghbal:** Mikeal and I have talked about this - my experiences talking to especially older generations in open source... They see what's happening now and they're like "This is the thing that we were trying to prevent." This is why you have like -- I don't wanna speak for Apache, but you have stuff like Apache where that can sort of like diversify risk, where people aren't participating as companies, but they're participating as contributors and they're trying to avoid the situation where everything is pinned on one sponsor who might change their mind.
 
@@ -286,7 +286,7 @@ I digress, but I think it's actually a good thing that we try to -- I'm not sure
 
 **Nadia Eghbal:** I'm actually wondering about that as you kind of move into a more mature phase of Vue... I'm thinking about what are all the different stages of an open source project, and I imagine early on it's sort of like spreading the word, getting downloads, and at some point you start to double down on users... I mean, how do you know who's using the project and how do you make sure that people are actually using it because your funding depends on it, right?
 
-\[00:56:07.11\] If people think it's cool and then kind of get bored with it, they're just gonna stop funding you.
+\[56:07\] If people think it's cool and then kind of get bored with it, they're just gonna stop funding you.
 
 **Evan You:** Yeah, I think we get some sort of very general sentiment based on tweets that I get, and I somewhat keep very loose track of, say, the Google search trends or GitHub stars, or Npm download counts... None of these alone are very good metrics to determine the growth of the project, but when they are combined together, you would get this pretty good combined growth curve. I've basically been using that as an indicator.
 
@@ -302,7 +302,7 @@ I think I'm not even fully aware of all the people that are using Vue across the
 
 Honestly, I don't think I myself have a good enough grasp of the scale it's now at. I think it's maybe time for another survey.
 
-**Mikeal Rogers:** \[00:59:14.05\] I think on that note -- I think that's a great way to take us out, with the burgeoning, amazing user community. Hopefully we'll have you back on in a year or so, once you figure that all out, and then maybe we'll have something more to say as well.
+**Mikeal Rogers:** \[59:14\] I think on that note -- I think that's a great way to take us out, with the burgeoning, amazing user community. Hopefully we'll have you back on in a year or so, once you figure that all out, and then maybe we'll have something more to say as well.
 
 This has been great... This has been a really great chat. We really got into a lot of really great stuff, so thank you.
 

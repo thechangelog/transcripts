@@ -18,7 +18,7 @@
 
 **Nick Nisi:** Yeah, so previously I've used libraries like D3 and Chart.js to make these graphs, but this is the next iteration on that. A full language to create awesome graphing libraries... \[laughter\] Yeah, I think that that kind of goes to my understanding of it. It's all schema-driven and type-safe, so the queries know exactly what they can pull and exactly what they will get back, which is pretty cool... As opposed to something like REST, where you have specific endpoints to fetch things from. You kind of just have a grab bag endpoint where you can just say "This is what I want. This is all of the properties that I specifically want on that", and then you can relationships between that.
 
-\[00:04:11.11\] One example that I always think of is pulling a tweet. You can grab the tweet, but then you can say "I also want the number of likes that it has, and then I also want the replies to that, which would be other tweets that are all related to that top tweet..." Which may or may not be correct, but that's the way I at least think about it in my mind.
+\[04:11\] One example that I always think of is pulling a tweet. You can grab the tweet, but then you can say "I also want the number of likes that it has, and then I also want the replies to that, which would be other tweets that are all related to that top tweet..." Which may or may not be correct, but that's the way I at least think about it in my mind.
 
 **Jerod Santo:** How does this metaphor apply, Kball? The server metaphor. You're at a restaurant... An API - I think of it like serving up stuff, you know? So a REST API where you have endpoints, and it's just described -- this would be like where your waiter comes and they're like "Here. Here's the menu. What would you like to order?" and you say "I'll take a hamburger." They say "Okay, I'll get you a hamburger", and they send it back. Whereas maybe a GraphQL API is more like an open buffet, where it's like "Here's all of our food. You know what's in front of you. Pick and choose what you want, make your plate and take it back to your table." No?
 
@@ -42,7 +42,7 @@ Let's use the GitHub API as an example. If we look at the GitHub API, what are t
 
 **Kevin Ball:** But you could get eggs with a relationship to bacon, or you could get pancakes in a relationship to bacon, right? You have these sort of entrées into the API that you can start with, and then you can follow down the relationships as far as you go.
 
-**Jerod Santo:** \[00:08:01.08\] What kind of buffet doesn't have bacon as a top-level entry? Come on. Just start with the bacon and go from there.
+**Jerod Santo:** \[08:01\] What kind of buffet doesn't have bacon as a top-level entry? Come on. Just start with the bacon and go from there.
 
 **Kevin Ball:** Well, that's API design... \[laughter\] One of the things I thought actually before I started dealing with GraphQL is "Okay, everything's there. Where's the API? Do you still have to design your API?" And that set of top-level queries actually makes a pretty big difference in terms of how do you think about exposing things in your API? What are the core concepts that are the ways that people can enter into this thing?
 
@@ -80,7 +80,7 @@ And then - I could be wrong about this, but don't you have to explicitly define 
 
 **Nick Nisi:** Yeah. That is one thing that I was gonna put in the pro category - that tool, and specifically those calls that it's making to figure out what you can actually get, those are introspection queries that it is doing on its own, and it's really cool that that's just kind of built into the spec, to say like "Tell me what I can do here", and then bring that back, and then you can build really powerful tools, like that (I think it's called) \[unintelligible 00:12:06.29\] It gives me a blank canvas to start writing a query, and I can hit Ctrl+Space and it will tell me what I can autocomplete here, and what makes sense, and it'll immediately show a little red line on that line if it's something that I can't actually fetch, or if it's not formed correctly... So it really does help you as much as possible when you're exploring like that, which is what I've been doing quite a lot... So I do like that.
 
-\[00:12:29.21\] And I do like the tooling so far that I've been playing around with. It's really powerful, in that I basically give it "This is what our database model looks like, and this is the type of queries that you can expect", and it just figures out all the plumbing for me and then gives me back exactly what I want, which is really cool.
+\[12:29\] And I do like the tooling so far that I've been playing around with. It's really powerful, in that I basically give it "This is what our database model looks like, and this is the type of queries that you can expect", and it just figures out all the plumbing for me and then gives me back exactly what I want, which is really cool.
 
 **Kevin Ball:** That is super-cool... And you mentioned the typing being different than in TypeScript - at least with the tooling that we're using, you can autogenerate TypeScript types based on the queries that you're running...
 
@@ -104,9 +104,9 @@ So that would have been pretty cool if it took off... Unfortunately, it's diffic
 
 **Kevin Ball:** I think part of what makes that hard to implement is because it requires a sort of centralization of thought, because every endpoint needs to know about every other endpoint, or at least all of their references... And as you say, a good API, that's well controlled and designed is gonna have that, but many are not; they're developed independently, whereas GraphQL, by being more rigid, it forces into "Everything is going through this GraphQL endpoint, so we know about everything, so we can force that level of explicitness."
 
-**Jerod Santo:** \[00:16:15.23\] And that produces the tooling, right? The thing that happened around RESTful APIs is because it wasn't reliable to have those linking between resources, the tooling wasn't built out in order to do the discover ability, the actual discovery. So you couldn't rely on it, so habitually we didn't think about it, so we'd always just go read the docs, and find the endpoints, and hardcode those into our clients and whatnot. So I think a big win is that because it's there from the start, by default, on all GraphQL APIs, now that you can build your tooling saying, it's saying "It's gonna be there." And that makes a huge difference in practice.
+**Jerod Santo:** \[16:15\] And that produces the tooling, right? The thing that happened around RESTful APIs is because it wasn't reliable to have those linking between resources, the tooling wasn't built out in order to do the discover ability, the actual discovery. So you couldn't rely on it, so habitually we didn't think about it, so we'd always just go read the docs, and find the endpoints, and hardcode those into our clients and whatnot. So I think a big win is that because it's there from the start, by default, on all GraphQL APIs, now that you can build your tooling saying, it's saying "It's gonna be there." And that makes a huge difference in practice.
 
-**Break:** \[00:16:51.19\]
+**Break:** \[16:51\]
 
 **Kevin Ball:** Alright, so we've talked some about GraphQL as a mental model, what some of the pros, some of the cons, things like that; even some of the different tooling that it creates. Let's dive into something a little bit more concrete, looking at what are different approaches to actually implementing GraphQL, what are the different pieces of it that you would need to implement, and maybe some specific examples and implementations. Nick, do you wanna lead us off, since you've been working particularly with one?
 
@@ -114,7 +114,7 @@ So that would have been pretty cool if it took off... Unfortunately, it's diffic
 
 **Kevin Ball:** You used a keyword there that I don't think we actually dug into defining yet, but that is pretty core to implementing at least GraphQL servers, the server-side, which is a resolver. Do you wanna describe a little bit what that is, or - I can take a stab at it, or whatever you prefer.
 
-**Nick Nisi:** \[00:19:50.29\] As best that I can, I'll try... So a resolver would be something that provides the instructions for taking the GraphQL string, the query that it receives, and actually doing something with that, so passing that off to do whatever it needs to with that. So that could be like making sure that -- I don't know, I'm falling apart here a little bit, but maybe like type-checking arguments that might be passed in to the query, or things like that could happen there.
+**Nick Nisi:** \[19:50\] As best that I can, I'll try... So a resolver would be something that provides the instructions for taking the GraphQL string, the query that it receives, and actually doing something with that, so passing that off to do whatever it needs to with that. So that could be like making sure that -- I don't know, I'm falling apart here a little bit, but maybe like type-checking arguments that might be passed in to the query, or things like that could happen there.
 
 **Kevin Ball:** Yeah, I think that's good. The resolvers take responsibility for mapping from the query to the data, and one of the interesting things that I've seen there is those can be more or less granular. So you could have a single resolver that resolves all of an object, everything that it has there. Or you can actually break apart different resolvers per field in that object, depending on how your data is stored. So if for example you're building up a GraphQL object out of several different objects in your database, those references to different objects could actually be in different resolvers -- or different parts of the object could be in different resolvers... And then if those fields aren't queried, those resolvers aren't called and you don't have to take those database heads. So they can actually give you a mechanism for making your backend much more efficient.
 
@@ -144,7 +144,7 @@ But there are other techniques you can do. You can implement checks on how compl
 
 **Jerod Santo:** It seems like it would map well on top of a denoramlized database, or a document-based database... Whereas if you were retrofitting a GraphQL API on top of an established, highly-relational, sharded even, like a very established relational database, that you could potentially expose more of the performance problems... Unless you take very precise and extreme measures in order to stop that. Whereas maybe if it's mapped on something that already is more document-oriented, you're not gonna be crossing tables anyways, because your data is right there, stored in the same document. Is that a fair assumption?
 
-**Kevin Ball:** \[00:24:08.11\] I think that's definitely fair. I think it's really easy to, if you're not careful, create the ability to do pathological queries... And implementing a GraphQL server on top of any sort of complex data situation is not a trivial task. This is something that - there should be somebody who's an expert in that data system on there... Though one of the things you highlight that is kind of interesting to explore is you can also set up what is essentially a proxy layer on top of an existing REST API. So if you have a big, established working system, and you have a REST API there, you can set up a proxy that just is calling out to your REST endpoints... And REST is very good for cacheability, so you can have that proxy be caching things in all appropriate ways, and managing the cache so that you can take advantage of those individual endpoints not being pathological. And with that, you'd still get a lot of benefits in terms of you insert typing, such that you have all these tooling benefits exposed to the client developers, and you get that advantage that all of those individual API requests are happening inside of your fast data center, instead of over the slow public network.
+**Kevin Ball:** \[24:08\] I think that's definitely fair. I think it's really easy to, if you're not careful, create the ability to do pathological queries... And implementing a GraphQL server on top of any sort of complex data situation is not a trivial task. This is something that - there should be somebody who's an expert in that data system on there... Though one of the things you highlight that is kind of interesting to explore is you can also set up what is essentially a proxy layer on top of an existing REST API. So if you have a big, established working system, and you have a REST API there, you can set up a proxy that just is calling out to your REST endpoints... And REST is very good for cacheability, so you can have that proxy be caching things in all appropriate ways, and managing the cache so that you can take advantage of those individual endpoints not being pathological. And with that, you'd still get a lot of benefits in terms of you insert typing, such that you have all these tooling benefits exposed to the client developers, and you get that advantage that all of those individual API requests are happening inside of your fast data center, instead of over the slow public network.
 
 **Jerod Santo:** That's pretty cool.
 
@@ -182,7 +182,7 @@ But there are other techniques you can do. You can implement checks on how compl
 
 **Nick Nisi:** That's one of the downsides that I didn't mention - if you just wanted to do a quick query, there's a lot more ceremony around making a request, whereas with a REST endpoint I can just, from my DevTools console, use fetch and grab the data... And I can still do that, but I have to know exactly how the query is formed in that RESTful call, and how arguments are passed, and things like that... And send it along.
 
-\[00:28:07.19\] But then another thing that has always confused me when I look at GraphQL is there seem to be -- well, are there different flavors of it? Apollo seems like a flavor that -- I don't know, I might be referring to it incorrectly, but I always hear it referred to as like a flavor of GraphQL. Is that an accurate way of putting it?
+\[28:07\] But then another thing that has always confused me when I look at GraphQL is there seem to be -- well, are there different flavors of it? Apollo seems like a flavor that -- I don't know, I might be referring to it incorrectly, but I always hear it referred to as like a flavor of GraphQL. Is that an accurate way of putting it?
 
 **Kevin Ball:** That's a great question, and I don't have a super-strong sense.
 
@@ -236,7 +236,7 @@ So that is another way which different implementations of GraphQL can potentiall
 
 **Nick Nisi:** Interesting. Yeah, so I've only been working on a proof of concept with this stuff for the last few weeks, and it's all server-side.
 
-**Jerod Santo:** \[00:32:10.28\] I just wondered how a client would then interact with the pagination. Maybe there's an autogenerated client that knows that the way that Nest does pagination - there's like a Nest client that knows that, and so they already do the pagination for you, or something... That's why I asked that.
+**Jerod Santo:** \[32:10\] I just wondered how a client would then interact with the pagination. Maybe there's an autogenerated client that knows that the way that Nest does pagination - there's like a Nest client that knows that, and so they already do the pagination for you, or something... That's why I asked that.
 
 **Nick Nisi:** So this Nest.js query - you give it the objects that you're working with, and it will define the schema that includes that page info and edges as leaves in that graph. The client knows exactly what it can expect from that on any kind of pageable resolver.
 
@@ -266,7 +266,7 @@ So that is another way which different implementations of GraphQL can potentiall
 
 **Jerod Santo:** I know. I feel like I toil away at my code, and Nick just kind of like tells things to do things for him. I should hang out with you more, and work less.
 
-**Break:** \[00:35:50.22\]
+**Break:** \[35:50\]
 
 **Kevin Ball:** Alright, let's get back into it and talk about one subject that we have not talked about much yet, which is mutations. How do you actually change data using a GraphQL API? This is something that Jerod was talking about on the break. He said "Well, how do read/write API - we've only talked about read. How does write work?"
 
@@ -292,7 +292,7 @@ On the mutation side, it's similar, in that you have a top-level mutation object
 
 So whereas in a REST API you might assume that you're gonna expose mostly CRUD functions, so you just have an update endpoint that lets you update the fields on your object, and maybe there's some permissions around that or what have you, in a GraphQL API you're gonna have much more explicit mutations... And some of those may be just "Update this object, and pass in the new object types" or things around that. But if you look at, for example, the GitHub API, there's a lot of things about "Accept this suggestion. Clone this thing. Do this thing." You have a mutation for each type of action that you're wanting to enable. So it feels in some ways much more like defining an internal API that you might call programmatically, rather than this model that I think CRUD particular, and the combo of CRUD and REST - a lot of stuff got clumped together, where most REST APIs are just implementing CRUD functionality...
 
-\[00:40:05.24\] This idea of "I just have an object, and I'm gonna give you new fields for it, or override certain fields for it." It's more towards "What type of API would I extend inside of my project? Add this thing, do this thing, change this thing", where I'm explicitly calling out the fields that I want from you. And because everything is strongly-typed, I can have those fields be objects, with particular types... But that's kind of where it goes. And I think you can specify for an object which fields do you accept in that mutation as well. So it may not be every field in that object, but instead say "Hey, you can pass in this object, but really only these fields from this object."
+\[40:05\] This idea of "I just have an object, and I'm gonna give you new fields for it, or override certain fields for it." It's more towards "What type of API would I extend inside of my project? Add this thing, do this thing, change this thing", where I'm explicitly calling out the fields that I want from you. And because everything is strongly-typed, I can have those fields be objects, with particular types... But that's kind of where it goes. And I think you can specify for an object which fields do you accept in that mutation as well. So it may not be every field in that object, but instead say "Hey, you can pass in this object, but really only these fields from this object."
 
 **Jerod Santo:** How would you do something like a delete then? Would you say "Here's a mutation called 'delete post'," and you call that mutation?
 
@@ -322,7 +322,7 @@ I was trying to find "delete star" and I've found "add star". "Delete issue" ret
 
 **Jerod Santo:** Hm...
 
-**Nick Nisi:** \[00:43:56.29\] Interesting.
+**Nick Nisi:** \[43:56\] Interesting.
 
 **Kevin Ball:** So that's kind of funky.
 
@@ -378,7 +378,7 @@ I was trying to find "delete star" and I've found "add star". "Delete issue" ret
 
 **Kevin Ball:** Yeah, absolutely. I think that's one of the easy gotchas in GraphQL - folks will come in, and particularly folks who are just on the frontend side will come in and say "Hey, this makes my life so much easier. We can just throw it in and it's gonna make everything golden." What I have seen, having to do a lot of retro-fitting work on the server side here is that that approach leads to catastrophically slow GraphQL servers, and poorly designed schema, and various other things.
 
-\[00:48:24.17\] So this is a real domain, there are real concerns, and if you're creating that server-side implementation, it's gonna go a lot better if you have some understanding of your underlying data systems and how they work.
+\[48:24\] So this is a real domain, there are real concerns, and if you're creating that server-side implementation, it's gonna go a lot better if you have some understanding of your underlying data systems and how they work.
 
 **Jerod Santo:** Mm-hm. One aspect of GraphQL we haven't brought up, which I think is the coolest use case of it so far, is the way that Gatsby uses it to normalize all these disparate data sources into a single GraphQL usable thing... And I know there's a lot of complexity in those things, and of course, you could have - especially if you're spanning multiple data sources and stuff, it could get real hairy... But conceptually, I think that is super-rad. I think it's the coolest thing about Gatsby.
 
@@ -402,7 +402,7 @@ In the code that I'm working with right now, each component thinks in its own se
 
 **Kevin Ball:** ...and thank you, Nick. The party will continue - same time, same channel, next week.
 
-**Outro:** \[00:52:16.17\]
+**Outro:** \[52:16\]
 
 **Jerod Santo:** Well, we're happy to have you back, and in the limited capacity that we have you, we'll take whatever Kball we can get.
 

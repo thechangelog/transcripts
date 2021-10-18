@@ -24,7 +24,7 @@
 
 **Nick Nisi:** This is something that is always perplexing to me, because I don't have an eye for design at all, so I'm always amazed that you can change the font, and then I have no idea what to change it to beyond Comic Sans, which is terrible... But you can really pick some cool fonts, and I think that sites looks a lot better with cool fonts; I just don't know how to determine what those fonts are. What would you say is the state of art for font loading today?
 
-**Zach Leatherman:** \[00:03:44.22\] There's a couple of different levels... It really depends on how deep you wanna jump in. The easiest thing you can do is just add a font display descriptor to your font face block to let the text be visible while it's loading. The neat recent thing that happened there was that Google Fonts added support for that, too. So if you use Google Fonts, you can add this display URL parameter to your Google Fonts URL, and it will actually add this font display descriptor for you. That's the entry-level font loading thing you can do. That's the easiest thing you can do to improve your font-loading behavior.
+**Zach Leatherman:** \[03:44\] There's a couple of different levels... It really depends on how deep you wanna jump in. The easiest thing you can do is just add a font display descriptor to your font face block to let the text be visible while it's loading. The neat recent thing that happened there was that Google Fonts added support for that, too. So if you use Google Fonts, you can add this display URL parameter to your Google Fonts URL, and it will actually add this font display descriptor for you. That's the entry-level font loading thing you can do. That's the easiest thing you can do to improve your font-loading behavior.
 
 There's some caveats with that, specifically around icon fonts. If you're using icon fonts, it doesn't really work great. With an icon font, you basically don't ever want your fallback text to show; you never want the text to be visible while it's loading, because you don't really know what's gonna show or what's gonna render...
 
@@ -46,7 +46,7 @@ So it's really kind of a weird resource, that isn't really treated in any other 
 
 **Zach Leatherman:** Yeah, the italicized "not", because he was not running for president, but the "not" italic web font hadn't loaded yet, so this person -- I think his name is James Muspratt took a screenshot of this site he was reading, and it said the exact opposite of what the title was trying to convey. It's kind of a huge problem, because the web font introduced basically a reliability issue with their content, because they conveyed the exact opposite of what the news article was trying to say.
 
-**Nick Nisi:** \[00:08:26.22\] Yeah, that's crazy, and an extreme example. So that was an example of -- what would you call it, flash of invisible text (FOIT)?
+**Nick Nisi:** \[08:26\] Yeah, that's crazy, and an extreme example. So that was an example of -- what would you call it, flash of invisible text (FOIT)?
 
 **Zach Leatherman:** Yeah, that's invisible text. I've kind of started to move away from using FOUT and FOIT, and just saying "invisible text" and "fallback text", because I just think it's more understandable. Those initialisms - they're confusing to people. Every time I launch a new blog post, I'll get someone saying "What's a FOUT? What's a FOIT?", so I think it's easier to say invisible text and fallback text.
 
@@ -66,7 +66,7 @@ I think that's a very exciting, new development, and they're working on -- I thi
 
 **Zach Leatherman:** Yeah. The big win -- because the CSS font-loading API is a JavaScript API, just as you said, to have more control over your font loading... And it actually predated the font display descriptor. Historically, a lot of people used the CSS font-loading API to do some of the same things that font display does now. So some of that usage, or some of the benefit that you get from the CSS font-loading API is sort of minimized, and made easier with this new font display browser support.... Which is really great.
 
-\[00:11:59.24\] The real benefit you can get from the CSS font-loading API is that you can actually make all of your web fonts render at the same time. You can group your repaints, so you don't get a bunch of jank. If you have four or five web fonts on your page, you can find out when those render, and then render them all at the same time, which is much better than having five different read flows that happen at different parts of your waterfall on your page.
+\[11:59\] The real benefit you can get from the CSS font-loading API is that you can actually make all of your web fonts render at the same time. You can group your repaints, so you don't get a bunch of jank. If you have four or five web fonts on your page, you can find out when those render, and then render them all at the same time, which is much better than having five different read flows that happen at different parts of your waterfall on your page.
 
 **Divya Sasidharan:** Yeah. I've used that a bit before, and it's really nice because whenever you use that API, it's a promise, so you can just wait for everything to resolve and then load your content, which is super-nice.
 
@@ -88,7 +88,7 @@ The nuance of font loading is that you're kind of racing to get your web fonts t
 
 I would say you can get away with just using WOFF 2 and WOFF formats now. We'll probably get to a point where you can only use WOFF 2. That's probably coming within the next couple of years. But it's a lot easier than it used to be. Back in the beginning of web fonts there used to be these 6, 7 or 8 different formats you had to list together, and they were all sort of -- I don't know, it was complicated. It was much more complicated. So yeah, it's kind of nice to only have to use two different ones now.
 
-**Divya Sasidharan:** \[00:16:08.09\] Yeah. Also, I think you mentioned this a little earlier with the fact that fonts sometimes can take longer to load, because some glyphs are more than others for different languages, and so on. Is there an ability -- let's say if you need specific characters in a font file, and not everything else, is there a way to specify "I want just these. I don't want to load everything else"? Because sometimes that is a concern. You're just like "I just wanna use this font italic thing, and only for these particular characters and nothing else."
+**Divya Sasidharan:** \[16:08\] Yeah. Also, I think you mentioned this a little earlier with the fact that fonts sometimes can take longer to load, because some glyphs are more than others for different languages, and so on. Is there an ability -- let's say if you need specific characters in a font file, and not everything else, is there a way to specify "I want just these. I don't want to load everything else"? Because sometimes that is a concern. You're just like "I just wanna use this font italic thing, and only for these particular characters and nothing else."
 
 **Zach Leatherman:** Yeah, that's what you call subsetting. Modifying the font file to only include what you want to be in it. I maintain a tool called Glyphhanger, which lets you programmatically say "Hey, I want these font files to be subset to these specific characters", and it'll output WOFF 2 and WOFF files for you.
 
@@ -104,7 +104,7 @@ With dynamic content, that becomes a harder problem, and that kind of gets into 
 
 **Zach Leatherman:** Yeah, you can certainly do that. When I was working on the font-loading for filamentgroup.com, which is our company website, I actually built a little thing on top of Glyphhanger that would go through all of the different pages on our site and find all of the different glyphs on every single page. Now, for a small site like ours we could do that and get away with that, because there isn't more than 20 different -- well, we have a bunch of different blog posts on there, but there isn't a ton of content on the site. It's not like thousands of pages that we have to go out and spider... So if you're willing to tolerate the build time performance hit to do that, you can absolutely do that. But I don't know that that scales super-well to a thousand-site page.
 
-**Divya Sasidharan:** \[00:20:14.08\] Yeah. And the idea is that this won't work for (let's say) a dynamic application -- not dynamic, but... Let's assume you have an application that just loads JavaScript to switch out the content; then Glyphhanger might not work as well. Is that correct?
+**Divya Sasidharan:** \[20:14\] Yeah. And the idea is that this won't work for (let's say) a dynamic application -- not dynamic, but... Let's assume you have an application that just loads JavaScript to switch out the content; then Glyphhanger might not work as well. Is that correct?
 
 **Zach Leatherman:** Well, Glyphhanger uses Puppeteer, which does run JavaScript, so it can find glyphs on JavaScript content. That's a newer thing that we've added within the last couple years. Originally, it used to use something like jsdom, which was a fake DOM implementation. But now it uses Puppeteer, which allows us to spider JavaScript stuff as well.
 
@@ -120,7 +120,7 @@ Then another one is \[unintelligible 00:22:12.20\] of font loading opinions. Tha
 
 **Nick Nisi:** Yeah, yeah.
 
-**Break:** \[00:22:59.21\]
+**Break:** \[22:59\]
 
 **Nick Nisi:** Zach, the other thing that you're pretty well known for at this point is a fun project called Eleventy.
 
@@ -132,7 +132,7 @@ Then another one is \[unintelligible 00:22:12.20\] of font loading opinions. Tha
 
 **Nick Nisi:** So tell us about Eleventy. What is it?
 
-**Zach Leatherman:** \[00:24:08.11\] Eleventy is, I guess at its core, a static site generator. It was inspired by Jekyll. It's written in JavaScript, it runs on Node, and... Yeah, it's basically just a static site generator. It's kind of taken off, and a lot of people are using it. I've been super-delighted and humbled to see the different things that people have built with it. It's great.
+**Zach Leatherman:** \[24:08\] Eleventy is, I guess at its core, a static site generator. It was inspired by Jekyll. It's written in JavaScript, it runs on Node, and... Yeah, it's basically just a static site generator. It's kind of taken off, and a lot of people are using it. I've been super-delighted and humbled to see the different things that people have built with it. It's great.
 
 I feel like it's been really awesome to see people say "I don't really have very much coding background, but I've tried out Eleventy and now I have my own website." That has been super-meaningful to me, just to hear those stories of people that maybe didn't have a website before, and maybe even didn't really know how to write very much code before, but they tried out Eleventy and they were able to get it working, and were able to deploy their own website using it, which is just amazing to me.
 
@@ -150,7 +150,7 @@ I feel like it's been really awesome to see people say "I don't really have very
 
 The big one that I have gravitated towards lately is just raw JavaScript templates. You can write a JavaScript class or a JavaScript function that returns a string, and that's your template. You don't need to really do more than that.
 
-**Nick Nisi:** \[00:28:05.08\] The string is just HTML?
+**Nick Nisi:** \[28:05\] The string is just HTML?
 
 **Zach Leatherman:** Yeah, just a string of HTML. Or you can feed it any sort of template language that will output a string; you can do that as well inside of these JavaScript templates. Anything you can do in JavaScript, you can do in Eleventy within a JavaScript template.
 
@@ -172,7 +172,7 @@ The big one that I have gravitated towards lately is just raw JavaScript templat
 
 **Nick Nisi:** We have a question in the chat, "How do we get GitHub Pages to switch from Jekyll to Eleventy?" Is Eleventy something you can use with GitHub Pages?
 
-**Zach Leatherman:** \[00:31:55.11\] Ha-ha... It is. The examples that I've seen used sort of like a CI approach, like Travis CI, to run your Eleventy build on the server and then deploy that output to a GitHub Pages branch. I know GitHub came out with this new -- what is it called, GitHub Actions? No... Is that what it's called? And I feel like there could be some overlap there, but I haven't played around with that yet. But I think that's their counterpart to what Netlify does, which is just lets you run a build of your own choosing on their servers and deploy it.
+**Zach Leatherman:** \[31:55\] Ha-ha... It is. The examples that I've seen used sort of like a CI approach, like Travis CI, to run your Eleventy build on the server and then deploy that output to a GitHub Pages branch. I know GitHub came out with this new -- what is it called, GitHub Actions? No... Is that what it's called? And I feel like there could be some overlap there, but I haven't played around with that yet. But I think that's their counterpart to what Netlify does, which is just lets you run a build of your own choosing on their servers and deploy it.
 
 We've actually had a lot of good overlap between people that have used Eleventy and people that have used Netlify. It's super-easy to get a site up and running. Again, like I mentioned, people that don't really know very much about coding have used Eleventy and Netlify together to deply their own website, and it's been just really awesome to see.
 
@@ -188,7 +188,7 @@ We've actually had a lot of good overlap between people that have used Eleventy 
 
 **Zach Leatherman:** That is a very good question. I'm not really sure that I have a very good answer for it... The original impetus -- there were two different things that I wanted when I first started the project. I keep seeing all of these JavaScript frameworks coming out, that were sort of touting performance and touting all of these different things, their developer experience was great... I kept trying them out and looking at the output that would be generated from these tools, and they always had runtime JavaScript attached to them. And I don't necessarily think that when you're building sites that every site needs runtime JavaScript. You may add it on later, but I don't want my tool to inject a bunch of stuff that maybe is unnecessary for my use case. And I'm not saying they are not useful things for a different style of sites, but I think that there is a definite place for a tool that doesn't have runtime JavaScript built-in, and it only outputs what you put into it.
 
-\[00:36:13.21\] I think that Eleventy has occupied that space, between your classical static site generators and your more JavaScripty JavaScript frameworks. You get a lot more control of what the output of your site is. That's the reason I started building Eleventy. The other reason that I haven't necessarily talked about a ton was that I actually started building a site to showcase web fonts and web font loading, and Eleventy sort of started as a tool to help me build that site... Which is kind of funny to think back on, because that project got shelved almost immediately... \[laughs\] Because Eleventy took over, because it started taking off. But I think once I start to get more of these bigger-ticket items into Eleventy and development starts to maybe calm down a little bit, I'll go back to that web font loading site and use Eleventy to deliver that. Yeah, I guess that's the origin story of it.
+\[36:13\] I think that Eleventy has occupied that space, between your classical static site generators and your more JavaScripty JavaScript frameworks. You get a lot more control of what the output of your site is. That's the reason I started building Eleventy. The other reason that I haven't necessarily talked about a ton was that I actually started building a site to showcase web fonts and web font loading, and Eleventy sort of started as a tool to help me build that site... Which is kind of funny to think back on, because that project got shelved almost immediately... \[laughs\] Because Eleventy took over, because it started taking off. But I think once I start to get more of these bigger-ticket items into Eleventy and development starts to maybe calm down a little bit, I'll go back to that web font loading site and use Eleventy to deliver that. Yeah, I guess that's the origin story of it.
 
 **Divya Sasidharan:** It's always nice when projects spin out of something that you've wanted to build. You wanna build something, and then you generalize it and then you open-source it. It's just super-cool. Because then you're super-invested in it, rather than like "Oh, whatever. I built this thing and then I don't really care about it." Because it shows just the fact that this is a passion project. It totally shows... Because Eleventy is one of those where I'm like "Oh, if you ever have an issue and you post it, you're gonna get a reply." Automatically it will be like "We're fixing it", and so on.
 
@@ -204,7 +204,7 @@ We've actually had a lot of good overlap between people that have used Eleventy 
 
 **Nick Nisi:** How can people contribute to Eleventy?
 
-**Zach Leatherman:** \[00:39:47.29\] That's a very good question. I would say the easiest thing you can do is just try it out, and if a part of it confuses you, tell me. Because if it's confusing to you, I'm sure it's confusing to someone else. Yeah, just give me as much of your feedback as you're willing to. I think that the biggest metric of success for the project is how easy and intuitive it is to use. I'm always open and receptive to people's general confusion about why it did something, because that really helps me think of better ways to solve problems inside of the framework. So yeah, just try it out; if you like it, let me know. If you don't like it, let me know, but maybe tell Phil first, and then let me know. Yeah, just give me your feedback and let me know what you think of it. That's probably the easiest thing.
+**Zach Leatherman:** \[39:47\] That's a very good question. I would say the easiest thing you can do is just try it out, and if a part of it confuses you, tell me. Because if it's confusing to you, I'm sure it's confusing to someone else. Yeah, just give me as much of your feedback as you're willing to. I think that the biggest metric of success for the project is how easy and intuitive it is to use. I'm always open and receptive to people's general confusion about why it did something, because that really helps me think of better ways to solve problems inside of the framework. So yeah, just try it out; if you like it, let me know. If you don't like it, let me know, but maybe tell Phil first, and then let me know. Yeah, just give me your feedback and let me know what you think of it. That's probably the easiest thing.
 
 **Nick Nisi:** Yeah, is there anything else you wanted to convey about Eleventy, Zach?
 
@@ -222,7 +222,7 @@ We've actually had a lot of good overlap between people that have used Eleventy 
 
 **Zach Leatherman:** No... I'm on the waitlist to try it out, but I haven't heard anything. I don't know if I'll actually use that either, but... Yeah, we're on Open Collective now, but maybe the GitHub one will be better. I'm not sure. Try it out and see what happens.
 
-**Break:** \[00:41:39.23\]
+**Break:** \[41:39\]
 
 **Nick Nisi:** For our next segment, the topic is "I'm excited about X", where X is literally anything. This is the panelists' chance to tell you about things that we're excited about. This doesn't necessarily have to be in the JavaScript font loading or static site generation world. It can be anything. With that, Divya, can you start us off?
 
@@ -234,7 +234,7 @@ So I just wanna dive into that, because Svelte 3 came out -- was it a month ago?
 
 **Nick Nisi:** Within the last month.
 
-**Divya Sasidharan:** \[00:44:27.02\] Yeah, when Richard Harris, who created Svelte, pretty much accidentally released it, or something. He was like "I didn't mean to..." \[laughs\]
+**Divya Sasidharan:** \[44:27\] Yeah, when Richard Harris, who created Svelte, pretty much accidentally released it, or something. He was like "I didn't mean to..." \[laughs\]
 
 **Zach Leatherman:** Whoops...
 
@@ -260,7 +260,7 @@ That learning process has been really interesting, and I've learned a lot about 
 
 And it's also annoying , because you speak like a child. I currently speak like a child when I speak Spanish, and it's really frustrating. I'm actually intelligent, I just speak like a person who doesn't know much, and hasn't lived very long... \[laughs\] But yeah. My neighbors speak Spanish, and they have two kids and they're very fluent, and I kind of feel judged... Every time I try to speak, I'm just like "Um..." It's fun.
 
-**Zach Leatherman:** \[00:48:15.06\] That's really great. I really like the point that you made about learning a new language and getting out of your comfort zone, and question your preconceived notions about things and how they should work. I feel like just being a parent does a lot of that for me... Because you're sort of seeing your child learn something new for the first time, and they have no rules or biases attached to them already, so they're learning something from scratch and you get to see them learn something from scratch. That takes me out of that comfort zone, or "I already know how everything works", all of those biases established with that.
+**Zach Leatherman:** \[48:15\] That's really great. I really like the point that you made about learning a new language and getting out of your comfort zone, and question your preconceived notions about things and how they should work. I feel like just being a parent does a lot of that for me... Because you're sort of seeing your child learn something new for the first time, and they have no rules or biases attached to them already, so they're learning something from scratch and you get to see them learn something from scratch. That takes me out of that comfort zone, or "I already know how everything works", all of those biases established with that.
 
 **Divya Sasidharan:** Yeah, that's totally true. I still think it's really fascinating that humans have a short gestation cycle, and in general baby humans are completely useless, compared to most mammals. I was at the Smithsonian recently, because they have different exhibits, and also walking through them... And one of the curators was just like "Yeah, human babies are just really..." Like, if you put a bottle of milk and a baby, the baby would die, because it wouldn't know to drink the milk. So yeah, it makes me think a lot about humans and our species.
 
@@ -290,7 +290,7 @@ And it's also annoying , because you speak like a child. I currently speak like 
 
 **Zach Leatherman:** It was so funny I had to explain it. That's how you know a joke is super-funny.
 
-**Nick Nisi:** \[00:52:05.10\] For sure.
+**Nick Nisi:** \[52:05\] For sure.
 
 **Divya Sasidharan:** Yeah. It's like ultimate dad joke level. It takes a joke and it makes it a dad joke when you have to explain it. \[laughs\] I don't know...
 
@@ -318,7 +318,7 @@ And then I guess all the movement around serverless and Netlify is really cool t
 
 **Zach Leatherman:** Yeah, Zachleat.com. It's just the first four letters of my first name, and then the first four letters of my last name. Then you can find my Twitter; it's the same, except the .com. @zachleat.
 
-**Nick Nisi:** \[00:56:05.06\] That's really cool. I do the same thing, the first four of my first and last name, but that's everything, so...
+**Nick Nisi:** \[56:05\] That's really cool. I do the same thing, the first four of my first and last name, but that's everything, so...
 
 **Zach Leatherman:** \[laughs\] It works out more conveniently for you. \[laughs\]
 

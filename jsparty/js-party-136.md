@@ -22,7 +22,7 @@ The first thing we're gonna do is just define it, give a little bit of the histo
 
 **Jerod Santo:** Go for it.
 
-**Feross Aboukhadijeh:** \[00:03:49.09\] So I first heard about WebRTC in 2012. It was an experimental, new browser API for letting you do peer-to-peer connections in the browser. So that means that instead of the normal way that the web has always worked, which is to have a client-server, where your browser connects to a server with a Fetch API or something like that, and asks for stuff, and the server responds, it's an API that lets you for the first time connect a browser to another browser. So my browser on my computer can connect directly to your browser, without going through a server... And then that gives you better performance for things like video and voice calling.
+**Feross Aboukhadijeh:** \[03:49\] So I first heard about WebRTC in 2012. It was an experimental, new browser API for letting you do peer-to-peer connections in the browser. So that means that instead of the normal way that the web has always worked, which is to have a client-server, where your browser connects to a server with a Fetch API or something like that, and asks for stuff, and the server responds, it's an API that lets you for the first time connect a browser to another browser. So my browser on my computer can connect directly to your browser, without going through a server... And then that gives you better performance for things like video and voice calling.
 
 So that was the impetus for WebRTC - a few big video and voice vendors wanted to basically have the ability to do something like a Skype, but from your browser; so the ability to do voice and video calling. That was the impetus for the development of WebRTC. So how can we do that without having the user install something on their computer.
 
@@ -42,7 +42,7 @@ So that was the impetus for WebRTC - a few big video and voice vendors wanted to
 
 **Suz Hinton:** Totally.
 
-**Mikeal Rogers:** \[00:07:58.08\] WebRTC is not a standard where they were like "Oh, we have this use case, real-time video. Let's create something from scratch, or create something designed for the web, or something that is really from our values." It was literally -- WebRTC is built on top of RTP, which is like this protocol stack on top of UDP. I was working on RTP at Real Networks in 2003. It's an old technology, that has been around for a long time, to try to do low-latency video and audio... Back then over what would now be called feature phones, but back then it was just phones.
+**Mikeal Rogers:** \[07:58\] WebRTC is not a standard where they were like "Oh, we have this use case, real-time video. Let's create something from scratch, or create something designed for the web, or something that is really from our values." It was literally -- WebRTC is built on top of RTP, which is like this protocol stack on top of UDP. I was working on RTP at Real Networks in 2003. It's an old technology, that has been around for a long time, to try to do low-latency video and audio... Back then over what would now be called feature phones, but back then it was just phones.
 
 **Jerod Santo:** Is that RealPlayer?
 
@@ -64,7 +64,7 @@ I've been testing out the iOS 14 beta and it's a lot better... So I think by the
 
 So unless you have a server that you're willing to pay the bandwidth on for those users that can't actually make a proper peer-to-peer connection, the reliability is gonna be not as high as you would want. That's pretty far away from 100%.
 
-**Jerod Santo:** \[00:12:05.25\] Gotcha. It sounds complicated. Well, let's turn to the happy side... There's lots of cool stuff you can build with this technology, and we all know the obvious ones are Google Hangouts, and Zoom uses it, and pretty much anybody doing video conferencing uses it in some capacity nowadays, inside web browsers or inside "native apps" which are browser-based technologies inside the native apps...
+**Jerod Santo:** \[12:05\] Gotcha. It sounds complicated. Well, let's turn to the happy side... There's lots of cool stuff you can build with this technology, and we all know the obvious ones are Google Hangouts, and Zoom uses it, and pretty much anybody doing video conferencing uses it in some capacity nowadays, inside web browsers or inside "native apps" which are browser-based technologies inside the native apps...
 
 **Feross Aboukhadijeh:** Actually, just to add to that list too, Jerod...
 
@@ -114,7 +114,7 @@ Let's say you're trying to manipulate lots of polygons in space; it's either a c
 
 What it essentially does is there is a central server that you have a WebRTC peer relationship with, and you're able to stream in real-time; it will render the 3D based on the data channel feedback you're giving it on pitch, and role, and how you're actually using the accelerometers on the device... And it is so fast that you don't get that motion sickness, because the feedback in the data channel going back and forth and saying "Okay, this person's now moved their head this amount" - it's able to do enough look-ahead and prediction as well, in order to render a 3D video in real-time and stream that back through the video channel back to the VR device.
 
-\[00:16:12.12\] I hope that I've done that explanation justice, because obviously there are a lot of details that went into this... But I worked on the web client sample; even though my name is not in the commits, I was pairing with people on that... So that was a really exciting thing to see, because it means that people don't have to have these really high-end, expensive devices if you can use this protocol in this way, which I thought was really cool.
+\[16:12\] I hope that I've done that explanation justice, because obviously there are a lot of details that went into this... But I worked on the web client sample; even though my name is not in the commits, I was pairing with people on that... So that was a really exciting thing to see, because it means that people don't have to have these really high-end, expensive devices if you can use this protocol in this way, which I thought was really cool.
 
 **Jerod Santo:** That's cool.
 
@@ -164,7 +164,7 @@ You could drag and drop files into it and play those files into the call. That w
 
 **Jerod Santo:** ...don't open a pull request. Mikeal, I remember when you were writing that we were hoping to use that actually for our podcast; it was experimental -- and I was just always curious, were there limitations that made it just not quite get there? That's how I think a lot of WebRTC things are eventually... It's like, "Well, it wasn't quite there..."
 
-**Mikeal Rogers:** \[00:19:50.11\] One thing that you figure out really quickly is that if you're taking in all of these high-quality audio channels, and you're taking them into one of the peers who is the host of the call, while the call is going on, then there's not enough bandwidth for the actual audio quality to be good... So you can really saturate your connection really quickly. So what you actually wanna do is just buffer that kind of locally, and then send it at the end of the call. But then if somebody closes the browser, then you don't have the audio... \[laughs\]
+**Mikeal Rogers:** \[19:50\] One thing that you figure out really quickly is that if you're taking in all of these high-quality audio channels, and you're taking them into one of the peers who is the host of the call, while the call is going on, then there's not enough bandwidth for the actual audio quality to be good... So you can really saturate your connection really quickly. So what you actually wanna do is just buffer that kind of locally, and then send it at the end of the call. But then if somebody closes the browser, then you don't have the audio... \[laughs\]
 
 So actually, what it turns out that you wanna do is send this to a server. This is actually a place where a central server would be quite nice... And there are some products now that do this really well, where it's using a real-time audio channel, but then sending all of the background channel to a server... And then at the end you'll see that it's like "No, no, no. Don't stop yet. We're still uploading." So there's some UI around that that's really nice. I never really got to that part of it... And I looked into solving some of those issues with some other technologies. I looked at potentially using WebTorrent to do the file portion of it, and that didn't quite work, so I started looking at IPFS, and at that time - this was three years ago - IPFS wasn't quite ready.
 
@@ -188,7 +188,7 @@ So yeah, if you have that whole problem, it's a really good project. I think tha
 
 The way that WebRTC works is that you effectively ask it for almost like a connection token; you can think about it like that. That's a one-time use, and you've gotta give that to somebody else, and then they give you a token that is specific to that pairing, and then you use that to connect to them. And behind the scenes there's all this STUN/TURN server stuff, and it's very complicated; Feross can talk a lot more about how painful this can be, I'm sure. But the main thing is that there isn't really an identifier that you can put into a distributed hash table (DHT), where you say "Hey, this is how you connect to me", because in WebRTC these are ephemeral connection identifiers. So yeah, there's a bunch of other problems that you have to think about solving in terms of peer discovery if you're using WebRTC in addition to other protocols.
 
-**Break:** \[00:23:50.14\]
+**Break:** \[23:50\]
 
 **Jerod Santo:** Alright, we are now going to do a WebRTC primer, but we're gonna do it as a team, and we're gonna build on each other's technologies, just like WebRTC builds on technol-- I don't know. Feross is gonna explain something, and then he's gonna pass it to Suz, and then she's gonna pass it to Mikeal, and hopefully it's good. But if not, at least it was fun... Otherwise it would have been boring.
 
@@ -208,7 +208,7 @@ So anyway, that's TCP, and that's what most applications use. Then there's this 
 
 A port is just -- like, when the recipient gets the packet and they open it up and they look at the data inside, there'll be a little port number attached, which says effectively which application on my computer should this packet be delivered to... And the operating system will, based on that port number, deliver the packet to maybe the web server on your computer, or the mail program on your computer, or some other program on your computer. That's basically what UDP is - it's a really light layer on top of IP.
 
-\[00:28:03.01\] So where I'm going with this is just that these are basically what all the applications that we use are built with... And for many years, this is how you had to build -- you know, when you're building a native app, you wanna have it talk to some other computer, this is what you're gonna do. The problem arises when you start to think about the browser... Because in the browser you don't necessarily want random sites that you're visiting being able to send packets in this manner. I'll just give you one really simple example to think about why maybe you don't want this.
+\[28:03\] So where I'm going with this is just that these are basically what all the applications that we use are built with... And for many years, this is how you had to build -- you know, when you're building a native app, you wanna have it talk to some other computer, this is what you're gonna do. The problem arises when you start to think about the browser... Because in the browser you don't necessarily want random sites that you're visiting being able to send packets in this manner. I'll just give you one really simple example to think about why maybe you don't want this.
 
 All the devices on your home network have IP addresses... So if you go to a site, and that site could send just arbitrary packets to any IP address, one of the things that could happen is say your printer is on your network; an ad on the website that you're visiting could send some packets to your printer and cause some pages to start coming out. That's just really un-intuitive for people.
 
@@ -230,7 +230,7 @@ So the signaling only really happens at the beginning, when you're telling the s
 
 So that is one specific external server that you need to actually maintain. There are public signaling servers that you can use, I believe... Again, they don't really have SLAs; this is where we're gonna talk about production and scaling later... But you have options; you can either set up your own signaling servers, or there are other public signaling servers as well... But you probably don't wanna use an actual public one in production; it's really just for messing around.
 
-\[00:32:12.12\] But there is kind of a problem when it comes to signaling and trying to communicate your IP addresses, and that is that networks can be really complicated. Basically, network translation is a hard problem, and sometimes it can be difficult to actually glean what IP address appears actually behind, so that's where STUN servers come in... Right, Mikeal?
+\[32:12\] But there is kind of a problem when it comes to signaling and trying to communicate your IP addresses, and that is that networks can be really complicated. Basically, network translation is a hard problem, and sometimes it can be difficult to actually glean what IP address appears actually behind, so that's where STUN servers come in... Right, Mikeal?
 
 **Jerod Santo:** Very nice.
 
@@ -256,7 +256,7 @@ There are networks - these things called mobile phones - where one of the things
 
 **Jerod Santo:** Something's over there! \[laughter\]
 
-**Mikeal Rogers:** \[00:35:54.20\] I'm trying to remember which one is STUN and which one is TURN right now, so... I think that Feross should probably do it. \[laughs\]
+**Mikeal Rogers:** \[35:54\] I'm trying to remember which one is STUN and which one is TURN right now, so... I think that Feross should probably do it. \[laughs\]
 
 **Suz Hinton:** Totally.
 
@@ -290,7 +290,7 @@ All of these servers are actually very simple in what they do, other than signal
 
 **Suz Hinton:** I also just wanna correct myself -- again, I get confused over all the servers... So you can't really have a public signaling server, because there's just peers flying around, and you don't know who they are... So I need to correct that and say you don't necessarily have public signaling servers you can rely on, but you do have STUN servers that are public... So yeah, I just wanted to correct that as well. I forgot that signaling is more of a private thing. So there are commercial offerings, but most people just roll their own signaling, because there's not a lot of traffic.
 
-**Mikeal Rogers:** \[00:40:19.06\] Also, one thing that we should note really quickly is that in your JavaScript code, when you get these signals back and you have to do something with them, you really need to make sure that you don't leak those signals and you don't post them anywhere publicly that people can see.
+**Mikeal Rogers:** \[40:19\] Also, one thing that we should note really quickly is that in your JavaScript code, when you get these signals back and you have to do something with them, you really need to make sure that you don't leak those signals and you don't post them anywhere publicly that people can see.
 
 **Suz Hinton:** Yes!
 
@@ -312,7 +312,7 @@ All of these servers are actually very simple in what they do, other than signal
 
 **Mikeal Rogers:** Mm-hm.
 
-**Break:** \[00:41:21.26\]
+**Break:** \[41:21\]
 
 **Jerod Santo:** Alright, so that was a deep primer... Let's talk real-world, production-grade WebRTC gotchas, experiences... Feross, you have WebTorrent, which is an excellent example of something that's been out there in the wild, and for a while, and millions of people are using, which uses WebRTC. Can you tell us a little bit about that?
 
@@ -322,7 +322,7 @@ So if you wanna host your own YouTube site, you can go download PeerTube and run
 
 But more generally, you can share any kind of data over WebTorrent. The way it works is it uses basically all the parts we've already discussed earlier. It has the signaling part, it has the STUN part, and basically, when I get all these peers that are interested in some piece of content to be able to find each other and to connect to each other.
 
-\[00:44:04.23\] So we have the signaling server, where you basically tell the server "Hey, I'm looking for this file", and that server keeps track of who's looking for which files. So when somebody else comes along and says "Hey, I'm looking for this file" and it's the same file, then the server can introduce those people to each other through that signaling process that Suz described. And then now the peers can get directly connected.
+\[44:04\] So we have the signaling server, where you basically tell the server "Hey, I'm looking for this file", and that server keeps track of who's looking for which files. So when somebody else comes along and says "Hey, I'm looking for this file" and it's the same file, then the server can introduce those people to each other through that signaling process that Suz described. And then now the peers can get directly connected.
 
 And once they're directly connected to each other, they can sort of send whatever data they want, and that part is handled in a way that traditionally BitTorrent is handled, where you send a piece of the file to the person, and they can verify that it's correct, and then you ask for a different piece, and they'll send that piece to you, and you trade pieces, and eventually everybody gets the file. You can go read about BitTorrent if you're really interested in how that works... But yeah, that's basically what WebTorrent is. It's a real-world application that's using WebRTC.
 
@@ -348,7 +348,7 @@ So what Feross did is he took the torrent file format, and then made it work on 
 
 **Suz Hinton:** But it feels like it, yeah.
 
-**Mikeal Rogers:** \[00:47:55.03\] It feels like it, it feels like it. But this isn't like upgrading the internet; this is just like a rad application. Then what Feross did is he implemented all of this in Node, and in Node.js you can actually talk to the real BitTorrent protocols; you can talk to the real trackers, you can talk to the real network, you can get on the DHT... You can participate in a network that everybody on the internet that is using BitTorrent is using.
+**Mikeal Rogers:** \[47:55\] It feels like it, it feels like it. But this isn't like upgrading the internet; this is just like a rad application. Then what Feross did is he implemented all of this in Node, and in Node.js you can actually talk to the real BitTorrent protocols; you can talk to the real trackers, you can talk to the real network, you can get on the DHT... You can participate in a network that everybody on the internet that is using BitTorrent is using.
 
 And what happens when you use his library in Node.js, or when you run the desktop version of WebTorrent as an Electron app, is that you bridge these two networks together. So now all of the people just on UDP (in the old BitTorrent protocol) are not in a separate network from everybody who's in WebRTC. These networks are now bridged together. And this was so successful that they upgraded -- BitTorrent actually upgraded some of their protocols to include WebTorrent trackers as a thing in there. Now if you look at most BitTorrent files, you will see regular trackers AND WebTorrent trackers, all the major implementations... Even beyond Feross' Node.js version, a bunch of the other main implementations implemented support for all the WebRTC stuff, and they're also bridge nodes now. All of these changes have just been taken into all of the regular BitTorrent ecosystem, and that entire portion of the internet is now compatible with the web, and upgraded just because of the work that Feross did. So there we go... \[laughter\]
 
@@ -416,7 +416,7 @@ And what happens when you use his library in Node.js, or when you run the deskto
 
 **Suz Hinton:** It just felt so magical.
 
-**Mikeal Rogers:** \[00:51:58.06\] So he did this really cool thing, and I can't believe that this didn't turn into a company, or something... But he did this really cool thing where he would take a Docker image and then share it over WebTorrent, and then mount it via FUSE.
+**Mikeal Rogers:** \[51:58\] So he did this really cool thing, and I can't believe that this didn't turn into a company, or something... But he did this really cool thing where he would take a Docker image and then share it over WebTorrent, and then mount it via FUSE.
 
 **Jerod Santo:** Wow...
 
@@ -484,7 +484,7 @@ And what happens when you use his library in Node.js, or when you run the deskto
 
 **Suz Hinton:** Anyway, sorry, Mikeal...
 
-**Jerod Santo:** \[00:55:59.12\] What about WebTorrent? Is TURN involved there, or is it just not connected to those peers, or what?
+**Jerod Santo:** \[55:59\] What about WebTorrent? Is TURN involved there, or is it just not connected to those peers, or what?
 
 **Feross Aboukhadijeh:** So it really matters what your use case is with WebRTC, to decide whether you really need to worry about these peers that can't connect. In the case of like a video call where you're trying to (let's say) do a Google Hangouts with somebody - if you can't connect to that person and then it just fails, that's a really huge problem... Because from your perspective, the app is just broken, right?
 
@@ -556,7 +556,7 @@ So it doesn't really make sense for WebTorrent as an open source project to be r
 
 **Suz Hinton:** I'm still gonna have a lot of bandwidth, because I am still the peer that's multi-casting, so I kind of am acting not like a TURN server, but I have the same challenges as a TURN server has.
 
-**Feross Aboukhadijeh:** \[00:59:57.25\] That's fascinating. I wonder how much of your bandwidth bill is because of the other stuff that your server's doing, versus the TURN part, specifically... I would be curious to know that. Because in my experience, the -- I was paying a lot of money to Twilio, and I was using them as my TURN; then when I switched to running it myself, I'm now running it on like a $5 or $10/month Linode server... But I've probably given Twilio 5k or 10k over the years for the TURN service. Now I'm paying $5 or $10/month on Linode. I don't know why it was so expensive on Twilio, to be honest.
+**Feross Aboukhadijeh:** \[59:57\] That's fascinating. I wonder how much of your bandwidth bill is because of the other stuff that your server's doing, versus the TURN part, specifically... I would be curious to know that. Because in my experience, the -- I was paying a lot of money to Twilio, and I was using them as my TURN; then when I switched to running it myself, I'm now running it on like a $5 or $10/month Linode server... But I've probably given Twilio 5k or 10k over the years for the TURN service. Now I'm paying $5 or $10/month on Linode. I don't know why it was so expensive on Twilio, to be honest.
 
 **Jerod Santo:** Right. Even the multicast, 300 peers, 10% of those people need TURN - it's 30.
 

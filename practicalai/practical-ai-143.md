@@ -16,7 +16,7 @@
 
 **Daniel Whitenack:** And MIDI - that's m-i-d-i. For those that don't know, that's like a mark-up representation of notes and links of notes, and that sort of thing.
 
-**Chris Benson:** \[00:04:07.13\] Sadly, I remember all this all too well... \[laughter\]
+**Chris Benson:** \[04:07\] Sadly, I remember all this all too well... \[laughter\]
 
 **Yotam Mann:** Yeah, thanks for stopping me, because I might speak in some other music-specific jargon... Yeah, MIDI is notes onset and offset. And more recently, a lot of stuff has been in the audio classification realm. Certainly, people wanna know when in a piece of audio someone's talking, or there's music playing, or in music information retrieval, which is a massive field. This is just all a super-broad overview, and then we'll get into this little niche corner that we occupy.
 
@@ -40,7 +40,7 @@ On the audio side, there's a few ways to do it. The models that I'm typically wo
 
 **Daniel Whitenack:** I don't know that that would promote a lot of jazz improv, and that sort of thing...
 
-**Yotam Mann:** \[00:08:03.09\] Yeah, you can imagine how hard it would be to learn an instrument where, say, you sit down at the keyboard and you play for a minute and a half, and then it's totally silent, and then you come back and you can hear what your minute-and-a-half sounded like... It would be a pretty laborious way to learn anything.
+**Yotam Mann:** \[08:03\] Yeah, you can imagine how hard it would be to learn an instrument where, say, you sit down at the keyboard and you play for a minute and a half, and then it's totally silent, and then you come back and you can hear what your minute-and-a-half sounded like... It would be a pretty laborious way to learn anything.
 
 So specifically the models that we focus on in the audio domain are real-time. So they both need to generate faster than real-time, and they need to have small enough little buffered chunks to be able to keep up with the low latency. So there's kind of two parts of real-time audio processing - one is the real-time, which is like, it takes less than a second to produce one second of audio. That would technically be a real-time model. But then a low-latency real-time model would be as soon as you ask for the beginning of the audio generation, how long does it take to give you the beginning of the response?
 
@@ -72,7 +72,7 @@ We've also had some luck losing the discriminator part. It trains a lot faster i
 
 **Chris Benson:** That wasn't the first thing that popped into your mind studying music in school... \[laughs\]
 
-**Yotam Mann:** \[00:11:58.24\] Yeah. So I was lucky that I went to a school that had this Computer Music department, which I didn't know was a field, and which is a very vibrant field over the past many decades, with a few kind of like bases all around the world. One of the bases is UC Berkeley, the Center for New Music and Audio Technology, and I just was sort of enamored by the way that people were making music there, in this entirely new -- it seemed really innovative... It seemed like the -- the stuff that they're making is a huge departure from anything that you could do using different techniques. So that kind of led me down this route of "Okay, how can technology make new music? How can it keep progressing and pushing music forward?"
+**Yotam Mann:** \[11:58\] Yeah. So I was lucky that I went to a school that had this Computer Music department, which I didn't know was a field, and which is a very vibrant field over the past many decades, with a few kind of like bases all around the world. One of the bases is UC Berkeley, the Center for New Music and Audio Technology, and I just was sort of enamored by the way that people were making music there, in this entirely new -- it seemed really innovative... It seemed like the -- the stuff that they're making is a huge departure from anything that you could do using different techniques. So that kind of led me down this route of "Okay, how can technology make new music? How can it keep progressing and pushing music forward?"
 
 I had done many projects in music technology, building synthesizers, building even music generator systems, doing some generative music for video games, different things... And maybe about fours years ago or something I started to get more into "Okay, machine learning - this is the next big technology innovation. What's this gonna do for music?"
 
@@ -94,9 +94,9 @@ So I got into -- the first thing that I looked at with machine learning was this
 
 **Chris Benson:** That's right.
 
-**Yotam Mann:** \[00:15:47.15\] Yes, please. Thank you. So it was this great, compact library, and just being able to see those things in this -- you know, JavaScript is a fairly simple language. Being able to see those concepts laid out in that simple way - that was my start. In the beginning I wasn't able to really produce anything interesting or fascinating with this, but I kept trying and I keep seeing that potential.
+**Yotam Mann:** \[15:47\] Yes, please. Thank you. So it was this great, compact library, and just being able to see those things in this -- you know, JavaScript is a fairly simple language. Being able to see those concepts laid out in that simple way - that was my start. In the beginning I wasn't able to really produce anything interesting or fascinating with this, but I kept trying and I keep seeing that potential.
 
-**Break**: \[00:16:13.11\]
+**Break**: \[16:13\]
 
 **Daniel Whitenack:** We were chatting before starting the recording about some of the projects that you're working on, and I think you had mentioned this one AI vocal technology that you just released, which I think is really interesting... And not only is it interesting technology, but I think it has a lot of elements in it that I think people may have follow-up questions on in terms of data and the motivation and use, all of those things... So could you just introduce that? I believe it's called Holly+. Tell us a little bit about that and how it came about.
 
@@ -104,7 +104,7 @@ So I got into -- the first thing that I looked at with machine learning was this
 
 So while we were developing gan.style, we were thinking about "Okay, it'd be cool to find some musical artists that we could collaborate with", and always had Holly Herndon in mind, just because she's done a lot of AI music projects... So I actually just basically tweeted at her musical partner, and we were DM-ing, and I was like -- or no, actually he had first posted on our launch day "Is there anyone out there who could help us out with machine learning? Any data scientist people, ML programmers who could help us out with the project?"
 
-\[00:19:48.22\] I immediately responded in DM, and I was like "Yeah, what are you looking for?" He's like "Well, we wanna build a website where we could train a custom model on Holly's voice and we could have anyone upload an audio file, transform it into that custom model, and then have the results."
+\[19:48\] I immediately responded in DM, and I was like "Yeah, what are you looking for?" He's like "Well, we wanna build a website where we could train a custom model on Holly's voice and we could have anyone upload an audio file, transform it into that custom model, and then have the results."
 
 We had just released this gan.style, which is, you know, a lot of the same mechanism, and I had already transformed one of her songs into the choir... So I sent it to him, and I think his response was "Holly and I are freaking out. Can we talk?"
 
@@ -120,7 +120,7 @@ Our version of this and how we have been producing and thinking about the future
 
 I have some frustration with a lot of the way that machine learning stuff goes, where it's not fully attributed datasets, or a lot of scraped datasets, and things like that... So we are trying to kind of do the hard tech in the opposite direction. All the datasets that we have are open source, or we hired our friends or musicians that we know to create a dataset that is fully licensed for this purpose of creating a generative model... And then I think when people are able to en-masse create their own generative models, then there is a really big opportunity for creating value for those institutions, like getting paid for the generative use of or the licensing of that generator. So that's kind of how I see that potential future.
 
-**Daniel Whitenack:** \[00:24:15.21\] So Holly was a part of this process, and maybe had a vision for the future of how this data was going to be used, and potentially how her career could have benefitted from it, maybe how her bottom line and her finances could be benefitted from it... Whereas like if I go to Spotify and just use some tool to capture a bunch of audio from an artist, they have no knowledge of that particular use.
+**Daniel Whitenack:** \[24:15\] So Holly was a part of this process, and maybe had a vision for the future of how this data was going to be used, and potentially how her career could have benefitted from it, maybe how her bottom line and her finances could be benefitted from it... Whereas like if I go to Spotify and just use some tool to capture a bunch of audio from an artist, they have no knowledge of that particular use.
 
 Part of it I guess is on the data side, and maybe part of it is on how the model is released. I know we've been seeing a lot more models even outside of this genre of models being released as APIs, where there's more control in terms of who's using that for what, and how that exchange of value is happening, and that sort of thing.
 
@@ -134,7 +134,7 @@ Do you see a lot of these models maybe in the future being released in that sort
 
 I guess part of it is really education of how this stuff works. I think a lot of times the story that's sort of spun is like the AI as some agent that's a magical character that's off in the cloud, doing some magic up there... But the story that we're trying to make clear is "No, that's actually not really how it works." There's a bunch of musicians, there's this condensed mathematical model, and that is a generator that you can then play with. But in the end, that model acts as a conduit between you, a musician, and the dataset musicians.
 
-\[00:28:06.18\] So making those dataset musicians as clear as possible and making that narrative as clear as possible is our approach to it, so that when other datasets come out, I think the immediate question for consumers is hopefully "Okay, well, where did you get the data? Who's involved? What are their names? Were they paid for it?" and those kind of things. And yes, putting a face on that dataset is our approach that hopefully catches on.
+\[28:06\] So making those dataset musicians as clear as possible and making that narrative as clear as possible is our approach to it, so that when other datasets come out, I think the immediate question for consumers is hopefully "Okay, well, where did you get the data? Who's involved? What are their names? Were they paid for it?" and those kind of things. And yes, putting a face on that dataset is our approach that hopefully catches on.
 
 **Daniel Whitenack:** And that dataset that you gathered or worked on with Holly and her collaborators - what did that end up looking like? What data was needed to actually make this happen in the end in terms of how much...? Someone could put in almost any kind of audio into this thing. We actually just had a conversation in the last released episode about out of distribution input into models, and sort of "Here you've got this whole range of whatever audio could be that could come into this", so what did it take to put the dataset together and get it behaving reasonably for a sort of wide variety of audio input?
 
@@ -144,7 +144,7 @@ So we did a few back-and-forths and we trained probably about half a dozen model
 
 So yeah, roughly about two hours of audio is what we've been using as our rule of thumb for these datasets, but it all depends on how self-similar it is, and then what you're asking for it to do on the output. So because this was something that we wanted to be able to handle pretty much any audio file that people throw into it, we also just trained it for a really long time to try and get out all of those little weird squeaks and edge cases that happen when you ask it for something that it knows nothing about.
 
-**Break:** \[00:30:48.24\]
+**Break:** \[30:48\]
 
 **Daniel Whitenack:** Yotam, I wanna return to a comment you made much earlier, which is that one of your big focuses in your work is real-time audio processing... And you sort of described what that meant in terms of like maybe you have around 44,000 samples per second, and you're wanting to be real-time and low latency... So what has that journey been, and the tricks that you've found, and that sort of thing, in order to actually reach that level of performance in a reasonable way that you can support? Because I'm sure there's a lot of people out there that are interested in that real-time deep learning or AI side of things, maybe not even in the audio space but in video, or text processing from users, or something - what's your journey been in that real-time space and what are some of the tricks and what you've had to learn in order to reach that performance?
 
@@ -162,7 +162,7 @@ For example 1D convolution is used all over in audio, but it's kind of a niche t
 
 There was another thing that came up, which was they didn't have specific kind of padding that we were using implemented, so I needed to swap out a bunch of layers... It wasn't pretty work, it was a lot of just grinding away. And there wasn't any massive epiphany that I can give you listeners. It was really just like -- yeah, I went through it step by step, and when things broke, I'd try to figure out a workaround. \[laughter\]
 
-**Daniel Whitenack:** \[00:36:09.06\] So then do all these style transfer and real-time audio processing models in terms of making that real-time - is a GPU required at inference time, basically for all of these?
+**Daniel Whitenack:** \[36:09\] So then do all these style transfer and real-time audio processing models in terms of making that real-time - is a GPU required at inference time, basically for all of these?
 
 **Yotam Mann:** Yeah, for ours currently they all are. And that's what got us to actually trying to get it on little tiny pieces of hardware. NVIDIA makes--
 
@@ -188,7 +188,7 @@ So we've been targeting that for sort of our real-time hardware offering, and th
 
 **Chris Benson:** Is integral to the art, yeah. Part of it, as much as every other part.
 
-**Daniel Whitenack:** \[00:40:15.05\] Yeah, maybe that brings up another question which I've been thinking about, which is -- I mean, like you say, computers and synthesis, and actually very complicated math and all of that has been used in music for a very long time, and synthesizers and other things. What do you think creative-wise AI-based techniques provide for musicians in terms of their own composition, and that sort of thing, maybe different than computer-based music in the past? What are the qualities of AI-generated music that maybe distinguish it a little bit from what musicians might have a feeling for already in terms of synthesis?
+**Daniel Whitenack:** \[40:15\] Yeah, maybe that brings up another question which I've been thinking about, which is -- I mean, like you say, computers and synthesis, and actually very complicated math and all of that has been used in music for a very long time, and synthesizers and other things. What do you think creative-wise AI-based techniques provide for musicians in terms of their own composition, and that sort of thing, maybe different than computer-based music in the past? What are the qualities of AI-generated music that maybe distinguish it a little bit from what musicians might have a feeling for already in terms of synthesis?
 
 **Yotam Mann:** I mean, I think that there's a few answers. The big one is "I don't know, and I wanna find out." Basically, Jimmy Hendrix was not possible before the electrification of the guitar. Those two things kind of go hand in hand. So much of what you hear on the radio (you know, Young Thug) being \[unintelligible 00:41:22.19\] with the autotune was not possible before autotune was a tool.
 

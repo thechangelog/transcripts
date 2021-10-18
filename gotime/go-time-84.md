@@ -30,7 +30,7 @@
 
 **Ron Evans:** Yes. Well, I've been on GoTime before, talking about some of the other stuff that I've been involved with in Go - robots, and drones, and computer vision, Gobot being the best-known of those... And then last year I was talking about GoCV, which is computer vision using Go, and OpenCV... But what I've always dreamed of, and what I've wanted since the very beginning, was the ability to run Go on the tiniest of chips, and on these microcontrollers. These are the little, tiny chips that are in everything, like keyboards, and mice, break systems... The small chips that connect up to the physical world and cause all the things to happen or not happen at the right times, hopefully, if everything goes well... But we've never been able to run Go on those small chips, because they're so small. And Go is a great language, it's very powerful, it does all these amazing things, but Go is not known for being small. The number of keywords is small, and the binaries are large, let's just put it that way.
 
-**Mat Ryer:** \[00:04:21.00\] Yes. So Go was too big for those microcontrollers then.
+**Mat Ryer:** \[04:21\] Yes. So Go was too big for those microcontrollers then.
 
 **Ron Evans:** Yes, by orders of magnitude, in fact. Hello world in Go, when you compile it for a Linux operating system, is about 1.1 megabytes. And to be fair, it includes the entire Go runtime; it's got everything that you're ever going to need, to a large extent... A program that does nothing more than output Hello world, and a program that does some fairly sophisticated processing - they're not gonna be that different in size from each other once you hit that initial baseline. But when we're talking about microcontrollers, we could be talking about processors that have 64k of RAM to the entire processor, or even less.
 
@@ -54,7 +54,7 @@ Go, it turns out, is actually written in Go. The Go compiler is written in Go.
 
 **Ron Evans:** I can't remember the exact version, but you had to do some real work in order to compile the Go compiler itself. But eventually came a time when the Go compiler was written entirely in Go. That's really useful for the Go core team, and also for anyone that wants to contribute to the Go compiler itself, because you could read the compiler code if you can read Go... And that's been the problem, by the way, for some other really cool open source languages, like Ruby or Node.js, where people said "Oh, I wanna contribute to this", and they're like "Yeah, but it's not written in JavaScript. It's written in C++, and I don't know C++, so... Sorry, I can't contribute, really." So Go being written in Go, it does definitely lower the bar, but it also creates new possibilities.
 
-\[00:08:21.21\] Because Go can parse its own language in Go, you could use Go's own libraries and tools to then take what's known as the single-static assignment, which is the -- when you take the Go text of the Go language, and the Go compiler is gonna take that and turn it into machine code, it takes it and it parses it, it breaks it apart and turns it into this SSA form before then the rest of the Go compiler toolchain turns it into the binary language.
+\[08:21\] Because Go can parse its own language in Go, you could use Go's own libraries and tools to then take what's known as the single-static assignment, which is the -- when you take the Go text of the Go language, and the Go compiler is gonna take that and turn it into machine code, it takes it and it parses it, it breaks it apart and turns it into this SSA form before then the rest of the Go compiler toolchain turns it into the binary language.
 
 **Mat Ryer:** Sure.
 
@@ -70,7 +70,7 @@ The demo I showed -- I showed a bunch of demos, but the one that really got a lo
 
 **Ron Evans:** So I can compile a Go program for an 8-bit microcontroller that has 8k of RAM.
 
-**Mat Ryer:** \[00:12:04.04\] That is tiny.
+**Mat Ryer:** \[12:04\] That is tiny.
 
 **Ron Evans:** That is tiny. I picked it basically because the name of the microcontroller had tiny in it, I'll admit.
 
@@ -96,7 +96,7 @@ So there are trade-offs because of the environments in which it needs to execute
 
 **Ron Evans:** That's actually a great example. On a microcontroller you don't have a filesystem at all, right? But you could... We don't actually have this implemented yet, but it's on our roadmap. There's a lot of small devices that will typically have either flash memory, or an SD card interface. Those devices will typically use the SPI interface, which is a low-level hardware interface, where the microcontroller can then talk to that. So that device could have a filesystem on it. Very commonly FAT is the default file system of a lot of these devices... So when you get an Adafruit Circuit Playground Express, it has a 1 MB flash drive built onto the board itself, that you can use for storing different kinds of data files that you might want to read from your microcontroller code. Eventually -- we don't have support for this yet in TinyGo, but it's on our roadmap; you could have, for example, wav files, which you then playback using digital to analog converter (DAC) that's also built on... So you could play back wav files as a part of some of the interesting interactions. Or you could record data remotely... You know, devices that are not cloud-connected all the time, or are not meant to be; you would maybe still want to be able to save data.
 
-**Mat Ryer:** \[00:16:21.22\] Right.
+**Mat Ryer:** \[16:21\] Right.
 
 **Ron Evans:** Maybe you wanna train your device to recognize your voice, but you don't wanna actually put any of that data on the cloud; you're gonna need some type of local storage. So these are low-level interfaces to things that you need to implement. Some people are doing that using things that are called real-time operating systems, which are -- it's not a full operating system, but it maybe has some of the capabilities... You know, some of the memory allocation capabilities, and some of the file reading and writing, some network capabilities... But we're really trying to use the Go standard library wherever we can.
 
@@ -110,7 +110,7 @@ So for TinyGo this is a real challenge technically, but we're able to get around
 
 There's also some other important differences, which is how microcontrollers really work? Well on microcontrollers you have registers, and these registers are typically used for very low-level hardware-based communication. It could be turning on and off LEDs using the GPIO interfaces, or it could be communicating with other chips that are connected directly to the microcontroller, like the SPI interface in our little flash example, or the I2C interface, which is what's used by a lot of sensors like digital compasses (magnetometers, more officially), accelerometers (which are motion detectors), thermometers... There's a lot of different sensors that use this I2C interfaces.
 
-\[00:19:49.11\] One of the most important things that we've been doing with TinyGo is creating drivers which provide standard interfaces - again, defined in Go - so that you can write some code that if it uses the same LIS3DH digital accelerometer that's in the Circuit Playground Express board, that same code could be ported... You know, there's a project that's on Hacker News and a bunch of websites about a Homebrew smartwatch - I don't know if you guys saw that today - that uses the same digital accelerometer. So we could potentially -- I haven't gotten that hardware and I haven't looked that close, but if it's one of the processors that TinyGo supports, we could theoretically run TinyGo on this watch, and then connect to the same sensor that it's already got, without changing the code very much, if at all.
+\[19:49\] One of the most important things that we've been doing with TinyGo is creating drivers which provide standard interfaces - again, defined in Go - so that you can write some code that if it uses the same LIS3DH digital accelerometer that's in the Circuit Playground Express board, that same code could be ported... You know, there's a project that's on Hacker News and a bunch of websites about a Homebrew smartwatch - I don't know if you guys saw that today - that uses the same digital accelerometer. So we could potentially -- I haven't gotten that hardware and I haven't looked that close, but if it's one of the processors that TinyGo supports, we could theoretically run TinyGo on this watch, and then connect to the same sensor that it's already got, without changing the code very much, if at all.
 
 **Mat Ryer:** Oh, that's awesome.
 
@@ -132,7 +132,7 @@ There's also some other important differences, which is how microcontrollers rea
 
 **Ron Evans:** "The problem all works out", you know... So this is not an acceptable way to approach software development, so by trying to tie into -- first of all, as you said, we can use the interfaces so that we can test things not necessarily with the physical hardware attached. We do some of that right now using QEMU, which is a software emulator of some hardware. Then there's some other cool projects... There's one from Antmicro whose name escapes me right this second, but its specific purpose in life is to provide software emulation of specific microcontrollers. So there's a lot of things that we can do for comprehensive testing, in-depth, of different embedded systems, by using modern languages and modern compilers that really -- if we're talking about software reliability, it's just that much more important when we're talking edge devices where safety is obviously one big concern... But also, there's second-order effects; if it gathers information incorrectly, that could cause us to ignore problems... You know, the sprinkler system may not be mission-critical, but if it wastes a bunch of water, in the long-term that's very bad.
 
-**Mat Ryer:** \[00:24:06.07\] Yeah.
+**Mat Ryer:** \[24:06\] Yeah.
 
 **Ron Evans:** And in the short-term it's really bad, because you've just got a massive water bill. So these are things that we can do something about by testing. Another is temporal testing. So if we wanna test our sprinkler system, and we wanna make sure it works correctly, and we have nothing but physical functional testing, then each iteration we're gonna let the thing run for a whole week to make sure it turns on and off at the right times.
 
@@ -146,7 +146,7 @@ If we can write some unit tests where we can test that it actually is triggering
 
 **Ron Evans:** Yeah, we're gonna be giving away a Gopherbot. So what is Gopherbot? Gopherbot is a robotic gopher plushie which is programmable using TinyGo.
 
-**Break:** \[00:26:05.28\]
+**Break:** \[26:05\]
 
 **Ron Evans:** A bunch of people have these really awesome gopher plushies that you've gotten over the years at Gophercons and other cool events... So collaboratively with my brother Damon, who is also a hardware hacker, and he designed a 3D helmet that I then installed a bunch of LEDs and sensors and things into... And people really liked it. So we thought "Wow, what a great way to help raise money for our open source efforts, and at the same time create a really cool, programmable, collectible robotic plushie toy." So Gopherbot is our expression of that. It uses an awesome gopher plushie from Golang Market, combined with a 3D-printed custom helmet.
 
@@ -168,7 +168,7 @@ There's a bunch of videos that we posted on the Instagram for Furriebot, and we 
 
 **Ron Evans:** [Furriebot](https://www.instagram.com/furriebot/).
 
-**Mat Ryer:** \[00:32:14.02\] I'm surprised that that was available. So would you be able to then write TinyGo code, and then flash it onto the Gopherbot? Is that how it works?
+**Mat Ryer:** \[32:14\] I'm surprised that that was available. So would you be able to then write TinyGo code, and then flash it onto the Gopherbot? Is that how it works?
 
 **Ron Evans:** That's exactly how it works. You write the code on your computer, you compile it, you transfer the code onto the microcontroller, the little Circuit Playground Express Board, and from that point you can disconnect from your computer, because all of the Go code is running right on the little circuit board.
 
@@ -190,7 +190,7 @@ One of the demos I showed at the FOSDEM talk was connecting an ESP8266 Wi-Fi chi
 
 Is it really in the interest of the toy manufacturer to limit you like this, when with a bit more effort -- to me, all toys should be programmable. All toys should be hackable. Certainly if it has programmable capabilities of its own, those should be opened up. If nothing else, that way we can confidently look at it and say "Oh, actually no, it's not surveilling us and sending back information to the Gopherbot headquarters." \[laughter\] And it's programmable; you can add that capability yourself, but that's not something we're planning on doing.
 
-**Mat Ryer:** \[00:35:58.19\] \[laughs\] No. But you're right, and actually I think that applies to everything. Making things hackable, so that people can take it and play with it - that's the fun, isn't it? That's all the fun in it. And for toys, I always did anyway, when I was young, after I'd played with the toy for a while, for a few months maybe - I would definitely be looking for any screws to take off, because I wanted to know what was going on inside. So we're gonna do it anyway; they might as well make that happen.
+**Mat Ryer:** \[35:58\] \[laughs\] No. But you're right, and actually I think that applies to everything. Making things hackable, so that people can take it and play with it - that's the fun, isn't it? That's all the fun in it. And for toys, I always did anyway, when I was young, after I'd played with the toy for a while, for a few months maybe - I would definitely be looking for any screws to take off, because I wanted to know what was going on inside. So we're gonna do it anyway; they might as well make that happen.
 
 **Ron Evans:** Yeah, right. I bet. How many of your toys made it one hour without something being taken apart? We have to ask your parents to be sure. \[laughter\] I would bet that very few of them survived the first couple of days of prying them apart, because they weren't meant to be, right? What if they had actually said "Yes, this toy can be taken apart and put back together, and still continue to work"? Wouldn't that be great?
 
@@ -220,7 +220,7 @@ We have a couple of people who are focused on the WebAssembly parts. I know surp
 
 Going back to -- Go is awesome, Go is powerful, but Go is too big, and having a 1 megabyte download to your mobile device is kind of a no-starter, especially if we're talking about remote locations where bandwidth is expensive and limited, and maybe not even possible.
 
-\[00:40:18.00\] So if we could compile Go code which is intended to be executed inside of places where WebAssembly can be executed, and we could take advantage of the much smaller executable size while still preserving the things that we like about Go syntactically, as well as capabilities - wow, that's a really huge development for something so very small. So that's a big, important area for TinyGo. Microcontrollers is one, WebAssembly is another, and then there's two more that I'd like to just briefly mention.
+\[40:18\] So if we could compile Go code which is intended to be executed inside of places where WebAssembly can be executed, and we could take advantage of the much smaller executable size while still preserving the things that we like about Go syntactically, as well as capabilities - wow, that's a really huge development for something so very small. So that's a big, important area for TinyGo. Microcontrollers is one, WebAssembly is another, and then there's two more that I'd like to just briefly mention.
 
 Justin is in there, in the Slack channel, saying "It compresses down to 408 bytes with gzip", so yeah... At some point, you're like "How small can we get it?" You've gotta save a couple more bytes, just because you can... But also because it's important. We're used to being very consumptive these days. The largesse of our use of technology is incredible.
 
@@ -234,7 +234,7 @@ As time moves forward, efficiency in computation is going to be even more import
 
 And then the last big one is the future. The future... \[singing\] The futureeeee... \[laughter\] We're really in the most exciting time for computing that I've ever seen. No joke. Why? Because we're literally on the first step of a Cambrian explosion of actual custom silicon.
 
-\[00:44:15.29\] We've talked for years about "Wouldn't it be great if you could create chips that were specific to a particular purpose, so that you could do certain kinds of processing more efficiently, or more cheaply?" But there's no practical way to do that. You need to get chip designers that know esoteric knowledge, and you have to pay big licensing fees to companies that provide -- not just because they make you, because of patents and stuff, but because you can't actually do it without their help. Like, "I'm looking to build a new chip." Ten years later, "Yeah, we're gonna build a new chip." Like, "How far did you get?" "Well, it's really hard to do that."
+\[44:15\] We've talked for years about "Wouldn't it be great if you could create chips that were specific to a particular purpose, so that you could do certain kinds of processing more efficiently, or more cheaply?" But there's no practical way to do that. You need to get chip designers that know esoteric knowledge, and you have to pay big licensing fees to companies that provide -- not just because they make you, because of patents and stuff, but because you can't actually do it without their help. Like, "I'm looking to build a new chip." Ten years later, "Yeah, we're gonna build a new chip." Like, "How far did you get?" "Well, it's really hard to do that."
 
 RISC-V is a technology that some people have heard of, and other people have just heard the buzzword... What it really is - it's an open source set of silicon designs, so that you can build your own custom chips the same way that we've been able to build our own custom operating systems; either pieces of Linux to create their own Linux distros - we'll be able to do the same exact things with custom silicon. So TinyGo is gonna be able to run on RISC-V because of using the LLVM back-end... And I'm just waiting for my Sci-Fi prototype board to arrive. I meant to actually have a demo running of this before I told anyone, but I got really excited, because so many people are really doing cool stuff with RISC-V, and here I am, waiting for my shipment... I just can't take it anymore, I have to talk about it.
 
@@ -248,7 +248,7 @@ RISC-V is a technology that some people have heard of, and other people have jus
 
 What we're gonna need to be able to do that is we're gonna need to be able to first of all repurpose a lot of the existing technology we have right now. There's a lot of chips already out there - we need to be able to recycle them. So that's one reason -- for example, I've spent a lot of time working on TinyGo's AVR (Arduino) capabilities. It's a very old architecture, it's really lacking in a lot of capabilities, but there's a lot of chips out there and a lot of boards, and they can be repurposed to do useful things that we're gonna need to be able to do.
 
-\[00:48:27.05\] Every sufficiently advanced technology starts out in the form of a toy. That's paraphrasing Chris Dixon, I think... But you start with toy ideas and playing with concepts. That way, when you say "I'm playing with it", you're not on the hook to actually do anything useful or even working, right? "I'm playing with WebAssembly." That means "I'm not actually responsible for writing a working WebAssembly program. I'm just checking it out."
+\[48:27\] Every sufficiently advanced technology starts out in the form of a toy. That's paraphrasing Chris Dixon, I think... But you start with toy ideas and playing with concepts. That way, when you say "I'm playing with it", you're not on the hook to actually do anything useful or even working, right? "I'm playing with WebAssembly." That means "I'm not actually responsible for writing a working WebAssembly program. I'm just checking it out."
 
 **Mat Ryer:** Yeah.
 
@@ -270,7 +270,7 @@ Ron, are you gonna be at [Gophercon](https://www.gophercon.com)?
 
 Last year we did GopherCar, which was based on Donkey Car, which is a self-driving car using Raspberry Pi's, that was Go-powered, using cameras and combining Gobot and GoCV... And we had a bunch of kits for doing sensor hacking, and things, supplied by different sponsors. So you don't have to bring any hardware of your own; we bring lots and lots of it. We have tons of giveaways, activities, fun... So it is absolutely incredibly great, and if you don't go, you're totally blowing it... Because not only will you learn something, but you'll have fun, more importantly.
 
-**Break:** \[00:52:21.22\]
+**Break:** \[52:21\]
 
 **Mat Ryer:** Ron, something that occurred to me as well - when we talk about TinyGo either in the web browser, or wherever it is running on these microcontrollers, how does garbage collection work? Because that's part of what makes these binaries big and fat, is the runtime that's going on it... So how does TinyGo deal with garbage collection? Just a technical question that I wondered about.
 
@@ -284,7 +284,7 @@ One thing that we wanna do is be able to plug TinyGo in, so that it can use a re
 
 **Ron Evans:** And the current version of TinyGo - we've spent a lot of time simplifying the installation process and removing extra dependencies that you need to install. We didn't get rid of all of them. If you wanna compile for these microcontrollers that are based on ARM Cortex, you still need the Clang compiler. But the next version of TinyGo will eliminate that, so you'll actually be able to compile your Go and your C code all using just the TinyGo compiler.
 
-\[00:56:16.16\] That will take us into a really exciting space, where -- there's existing C code that runs on these different microcontrollers that you need. Some of it are SDKs for things like the real-time operating systems; that way we can use Zephyr, and FreeRTOS, and Riot OS, and some of the others.
+\[56:16\] That will take us into a really exciting space, where -- there's existing C code that runs on these different microcontrollers that you need. Some of it are SDKs for things like the real-time operating systems; that way we can use Zephyr, and FreeRTOS, and Riot OS, and some of the others.
 
 Another is there's closed source code that has open APIs, but the implementation all closed like the Bluetooth low-energy implementation on all the Nordic semiconductors like the BBC micro:bit; it's a really cool little board. All the kids in the UK got those boards a few years ago, and there's a bunch of them... Mat, you probably have one that you nicked off some kid in the neighborhood...
 

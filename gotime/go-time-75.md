@@ -16,7 +16,7 @@
 
 **Adam Stacoviak:** So for those catching on the rebroadcast and/or live show of this, it's difficult to say his name, but I've got it, so there you go. And today, from what I understand, we're talking about [GoLand](https://www.jetbrains.com/go/); it's an IDE from our friends at JetBrains. Then we're also talking about Go the community, which is fun, and particularly the fact that you help lead the Gopher Slack, which considering how much it's grown over the years, it's gotta be a big job. But let's maybe start with your version of who you are in the Go community, what you're doing... Help people understand who you are.
 
-**Florin Pățan:** \[00:04:03.23\] Okay, sure, that sounds fine. I've started with Go roughly five years ago, I guess. Back then, I kind of did a lot of PHP and I was like "Okay, let's see if I can learn something else." I couldn't learn Scala, that was not really my cup of tea... And yeah, I found Go, and ever since then I've switched to it full-time. I became initially a member of the Go Slack channel, after that I became an admin here, and ever since I've gotten a bunch of other Go jobs officially, I maintained some pet projects, and got involved in the JetBrains extension for Go. One thing led to another, and five years later, here I am, working now for them officially as a developer advocate.
+**Florin Pățan:** \[04:03\] Okay, sure, that sounds fine. I've started with Go roughly five years ago, I guess. Back then, I kind of did a lot of PHP and I was like "Okay, let's see if I can learn something else." I couldn't learn Scala, that was not really my cup of tea... And yeah, I found Go, and ever since then I've switched to it full-time. I became initially a member of the Go Slack channel, after that I became an admin here, and ever since I've gotten a bunch of other Go jobs officially, I maintained some pet projects, and got involved in the JetBrains extension for Go. One thing led to another, and five years later, here I am, working now for them officially as a developer advocate.
 
 **Adam Stacoviak:** This is like breaking news though, right? This is day one, or day two, from what I understand, of you being a JetBrains employee?
 
@@ -50,7 +50,7 @@
 
 It also allows you to use it not only in Go contexts, but also for web development - for things like TypeScript, or... I've seen now there's more support for Vue.js as a framework, there's a bunch of React, Node.js support by default in the IDE... So it allows you to focus on development not only for Go, even if it's tailored for it, but also for a lot of other languages.
 
-\[00:08:12.21\] Many people don't know this, but one of the tips to actually start using the IDE is unplug your mouse or turn off your touchpad, because you can do everything with just the keyboard.
+\[08:12\] Many people don't know this, but one of the tips to actually start using the IDE is unplug your mouse or turn off your touchpad, because you can do everything with just the keyboard.
 
 **Adam Stacoviak:** So the way you got involved in this was through community aspects, plugins... Is that right?
 
@@ -74,7 +74,7 @@ You need to pay for it, but you can also get it for free if you are an open sour
 
 **Florin Pățan:** I'm not very familiar, as it's my first week here, but I'm happy to follow up on that. Usually, if you just write to them, they are very quick to reply. So if you're listening to this, just feel free to write to the sales team and ask them, and they will be happy to talk with you.
 
-**Adam Stacoviak:** \[00:12:25.03\] Nice. So why do you choose this editor over other options? We've talked about the tried and true -- I know that Brian and Erik, I'm pretty sure they're Vim candidates; Carlisia, you use VS Code. I use VS Code. I'm sure there's lots of others out there listening that use VS Code, because it's very supportive of Go... But why choose GoLand over other options? Why is it perfect for you?
+**Adam Stacoviak:** \[12:25\] Nice. So why do you choose this editor over other options? We've talked about the tried and true -- I know that Brian and Erik, I'm pretty sure they're Vim candidates; Carlisia, you use VS Code. I use VS Code. I'm sure there's lots of others out there listening that use VS Code, because it's very supportive of Go... But why choose GoLand over other options? Why is it perfect for you?
 
 **Florin Pățan:** For me personally, it's the inspection engine that allows you to detect in real time issues that you have with your code, from the IDE. For example, if you have a compiler error, you don't need to necessarily wait for the Go build tool to actually compile your code; the IDE will know that. Or it's the fact that it integrates with other tools or languages, such as for example if you work with a database like Postgres, you can type a SQL query, and if you use either the standard library database SQL, or a library like pgx or sqlx, or Mark Bates' pop, it will recognize that the string is SQL query, it will start offering you auto-completion for SQL, and it will even tell you things like "Oh, you don't have that column in the database. Do you want to add it?" Or it allows you to preview the queries that you have. So there's a lot of intelligence in there.
 
@@ -86,7 +86,7 @@ Also, for me what I've found that's really useful is the refactoring support. If
 
 I haven't used GoLand, so I don't know how it compares, but it sounds like VS Code does most, if not all of it. I don't know.
 
-**Florin Pățan:** \[00:15:57.05\] Yeah, so in terms of features, some of these features you will find in other editors, like VS Code or Atom or Vim or Emacs as well. I'm not really sure, because those are things that I haven't tried as editors, sorry. But whereas in those editors you, for example, need to install the plugin, and then you need to install additional tooling and so on, for this IDE you just need to install the IDE and you're ready to go. You don't have any other setup need, let's say; you just have to install Go, the IDE and you can start working on your project.
+**Florin Pățan:** \[15:57\] Yeah, so in terms of features, some of these features you will find in other editors, like VS Code or Atom or Vim or Emacs as well. I'm not really sure, because those are things that I haven't tried as editors, sorry. But whereas in those editors you, for example, need to install the plugin, and then you need to install additional tooling and so on, for this IDE you just need to install the IDE and you're ready to go. You don't have any other setup need, let's say; you just have to install Go, the IDE and you can start working on your project.
 
 Also, every time we release an update, you get all the features and so on without having to further update the tools. That would be another difference between this approach and what other editors are doing.
 
@@ -102,7 +102,7 @@ Also, every time we release an update, you get all the features and so on withou
 
 **Carlisia Thompson:** I guess for new people coming into Go, it's one more thing to learn on top of everything that they have to learn, so having it easier to manage in an IDE - I can see that being a benefit. And also, for the same reason people use Git integration in their IDE's. I don't, because I learned to do it on the command line, and I always know what's going on there, as opposed to the IDE where I need to learn another thing...
 
-**Adam Stacoviak:** \[00:19:44.12\] I had the same feeling until recently, honestly. I was such a purist to say "I have aliases, I know Git, I'm smart, I'm cool enough... I can use the terminal, I can use Git on the terminal, and take it from me, I dare you." That was my opinion. Then I started to use [VS Code](https://code.visualstudio.com/), and I was like "Huh! I could just commit this one file, right here, because it's click." So what I ended up doing is doing both. It's not a replacement, it's not an either/or, it's a both scenario for me. Florin, what about you? Is it a both or an and/or for you for Git integrations, say an IDE or a VS Code type thing? How do you work with that?
+**Adam Stacoviak:** \[19:44\] I had the same feeling until recently, honestly. I was such a purist to say "I have aliases, I know Git, I'm smart, I'm cool enough... I can use the terminal, I can use Git on the terminal, and take it from me, I dare you." That was my opinion. Then I started to use [VS Code](https://code.visualstudio.com/), and I was like "Huh! I could just commit this one file, right here, because it's click." So what I ended up doing is doing both. It's not a replacement, it's not an either/or, it's a both scenario for me. Florin, what about you? Is it a both or an and/or for you for Git integrations, say an IDE or a VS Code type thing? How do you work with that?
 
 **Florin Pățan:** I'm mostly working from the command line. I haven't managed to switch fully to the IDE side. I do use the IDE for doing things like differences between files whenever there's a conflict, and so on; I find it so much more convenient to do.
 
@@ -128,7 +128,7 @@ Also, every time we release an update, you get all the features and so on withou
 
 **Adam Stacoviak:** I'm looking at the UI for this, too... It looks like what happens is you can select certain lines and say "I wanna commit these lines", and then it looks like you get the option to check boxes in the diff, in the gutter of the diff. So you can say like "I want these changes", because you're looking at the diff to say "What should I commit?" At least it seems that way from what I'm seeing here. And you can say "I want to just commit these four lines here", and you check the box next to the diff that says "This is what's being added", the tracked version versus your version, and boom, you commit that and ship it up to a branch or to whatever you're doing, to master if you've got that, and life moves on.
 
-**Florin Pățan:** \[00:24:18.27\] Yeah, pretty much that's the workflow that you have.
+**Florin Pățan:** \[24:18\] Yeah, pretty much that's the workflow that you have.
 
 **Adam Stacoviak:** I think before asking the question "How do you choose which editor?" - that's a never-ending war that will always go on... But when you add the three letters "IDE" after something, it stands for much more than just simply saying "Hey, this is an editor. This is an integrated tool..." -- Integrated Development Environment as a matter of fact is what it means, but why do you think somebody chooses an IDE or not? Carlisia, in your case, you're using VS Code, and it works great for Go, but as you said, to your own admission, you haven't really souped it up, as you had said... So you didn't make it have any special powers to make developing Go programs or Go language-based projects any easier for yourself - autocompletion, or different stuff like that. Do you think an IDE is for a beginner, for a novice? Is it for an expert? Who uses an IDE and why are they choosing an IDE over anything else that isn't?
 
@@ -142,7 +142,7 @@ Then you've got the other side, which is like "Well, I just wanna save time, bec
 
 **Carlisia Thompson:** Yeah. In my case in specific in regards to Git and how I use Git in the command line and not in my IDE is because I learned Git in the command line. So it's sort of like laziness, because for me to use it in the IDE I now have to learn how this particular IDE works, and who knows, maybe tomorrow I'm changing the IDE, because it's a thing that I do, I change it once in a while; now I have to learn the other one. And if I don't keep using the command line, I'll forget, and then all of a sudden I need to use it on the command line and I'm like "Oh, how do I do that again?"
 
-\[00:28:15.22\] So for me, it's pragmatic to keep using it, because I already know it and I don't wanna forget. And I like your contrast between purist and pragmatic; I also moved from being a purist... And purist in the sense of having consistency, like if I'm using one IDE, I have to put all my effort into learning everything about this IDE, or whatever. Like Vim, for example. I went through a phase where I was trying to just use Vim... And I learned a ton, but that didn't work for me, because -- and let me just finish my observation about contrasting purist vs pragmatic... Because now I'm more pragmatic and I say "Why just use one? Use two, use three." You don't have to just use one tool that does the same thing.
+\[28:15\] So for me, it's pragmatic to keep using it, because I already know it and I don't wanna forget. And I like your contrast between purist and pragmatic; I also moved from being a purist... And purist in the sense of having consistency, like if I'm using one IDE, I have to put all my effort into learning everything about this IDE, or whatever. Like Vim, for example. I went through a phase where I was trying to just use Vim... And I learned a ton, but that didn't work for me, because -- and let me just finish my observation about contrasting purist vs pragmatic... Because now I'm more pragmatic and I say "Why just use one? Use two, use three." You don't have to just use one tool that does the same thing.
 
 My IDE always has a Vim integration, because Vim can be very, very productive; you can be a lot faster using Vim. So what happened to me when I was trying to be a purist and use just Vim - I would learn a bunch of commands that I used all the time, and then I'd have to open a new file, or I'd have to move a file, and I'm like "How do I do that again?", because I didn't do that very often.
 
@@ -156,7 +156,7 @@ I am moving my cursor around, I'm doing that all the time; okay, I memorize this
 
 And then you've got other comments... This one is from Fernando, he's saying "I basically use VS Code for projects" -- I like this idea here. "I use VS Code for projects, and any single-fire one-off editing, maybe something that's happening inside a terminal, I'll just pop it up in Vim." So it's like "I'm gonna use the tool that's available for me in the right context. Maybe I don't know everything about Vim and I can just use it for quick in and outs", and that makes sense because Vim is everywhere, pretty much... You know, using the tools that are available to you to make it efficient. But Go specifically, programming in Go - you may want to use something that's a bit more souped up (in Carlisia's terms) for you.
 
-\[00:32:09.25\] There's some other mentions of Git... You've got "Tower is a tool for using Git", you've got -- something else we've just mentioned was "It's [Magit](https://github.com/magit/magit)!" That's kind of a weird name for a project. (Magit instead of Magic). I don't know if that's how you pronounce it, but that's what it says.
+\[32:09\] There's some other mentions of Git... You've got "Tower is a tool for using Git", you've got -- something else we've just mentioned was "It's [Magit](https://github.com/magit/magit)!" That's kind of a weird name for a project. (Magit instead of Magic). I don't know if that's how you pronounce it, but that's what it says.
 
 **Florin Pățan:** Oh yeah, it's the Emacs integration. I've heard people that use that and they then forget how to use the command line.
 
@@ -178,13 +178,13 @@ With something like GoLand, you kind of take all that integration and you adapt 
 
 **Florin Pățan:** Well, it's there for you to use, so why not use it? We program on the cloud most of the time these days, or at least we hear about the cloud, so you might just as well use it for your editor as well.
 
-**Adam Stacoviak:** \[00:36:12.11\] We might as well, huh...
+**Adam Stacoviak:** \[36:12\] We might as well, huh...
 
 **Florin Pățan:** Yeah, it's called the IDE Settings Sync, and I think it's bundled in by default, because you can't uninstall it.
 
 **Adam Stacoviak:** Yeah, I was hoping to find this real quick... I used this one thing from thoughtbot - if you've heard of thoughtbot's Laptop project on GitHub, it's great for setting up a new machine... But as part of Laptop, they've done some other things to make new dev environments easy to not only create, but also to pull in dotfiles and such, so... They had this pretty interesting project that I can't recall the name of it now. But I'll find it and I'll put it in the show notes. If you're listening, check the show notes.
 
-**Break:** \[00:37:01.01\]
+**Break:** \[37:01\]
 
 **Adam Stacoviak:** Let's move on, let's talk about some of the things you've done... From what I understand -- how long has this Slack community been in place, the [Gophers Slack](https://gophers.slack.com/)? A couple years now, five years?
 
@@ -222,7 +222,7 @@ So four years... Who started this? Was it one person, was it a ghost? Who did th
 
 **Adam Stacoviak:** Well, maybe you're there for one of the channels rather than the -- I look at this kind of like Twitter; General is the fire hose...
 
-**Carlisia Thompson:** \[00:40:11.01\] No, I'm joking... It's muted for me. It's too much.
+**Carlisia Thompson:** \[40:11\] No, I'm joking... It's muted for me. It's too much.
 
 **Adam Stacoviak:** Too hard to keep up with...
 
@@ -256,7 +256,7 @@ I'm happy that I've found this community when I did, and even though it looks a 
 
 **Florin Pățan:** And there's like a [Review channel](https://gophers.slack.com/messages/reviews). If you want to have your code reviewed by people, you can come here and ask for a review. And people will do it; it doesn't really matter how big the project is, or anything like that.
 
-**Adam Stacoviak:** \[00:44:16.24\] While we were trying to invite people, I'm seeing Bill Kennedy in Slack mention -- he says "Not everyone can participate here because of our code of conduct rules. The ML is very powerful." I didn't know there was machine learning behind the scenes on this, but can somebody clue me into what he's talking about here?
+**Adam Stacoviak:** \[44:16\] While we were trying to invite people, I'm seeing Bill Kennedy in Slack mention -- he says "Not everyone can participate here because of our code of conduct rules. The ML is very powerful." I didn't know there was machine learning behind the scenes on this, but can somebody clue me into what he's talking about here?
 
 **Florin Pățan:** He's referring to the code of conduct that we have and the Golang mailing list.
 
@@ -278,7 +278,7 @@ And a very rare minority will revel against it, it will not comply, and they hav
 
 **Carlisia Thompson:** Yeah, and I'm also an admin, so I participate in this conversation, and that's how I can pipe in... We're all volunteers, and we don't have a tool to suspend people and keep track of that. What we can say is "We are letting you know", and people usually comply. In some cases, say we're letting you know and the person still doesn't calm down, and we say "Hey, we're giving you a warning, we're gonna let it go this time..." It really depends on the situation. If the infraction reoccurs -- or maybe sometimes we say "If it happens again, we're going to have to kick you out." So it's sort of like...
 
-**Adam Stacoviak:** \[00:48:05.05\] A last-ditch effort, basically. You're giving them several chances to correct.
+**Adam Stacoviak:** \[48:05\] A last-ditch effort, basically. You're giving them several chances to correct.
 
 **Carlisia Thompson:** Yeah. The middle of the road there is that we warn and that we're gonna give them another chance. Otherwise, we don't have a way to just suspend for 30 days, and then check who needs to be brought back in... You're gonna have to be kicked out.
 
@@ -302,7 +302,7 @@ We are fortunate enough that these kinds of things happen very rarely, like prob
 
 **Adam Stacoviak:** Maybe since earlier on in this conversation we were talking about how the numbers of people involved in Gopher Slack have grown over the years, kind of keying into evolution, maybe we could talk about the other point here, which is how the community compares to maybe other languages; maybe that speaks to maturity, in terms of the community and the different toolsets around it. What do you all feel around what helps this community be a good community? Not so much as Gopher Slack, but the conferences... How do you feel the Go community compares to other languages? Good and bad.
 
-**Florin Pățan:** \[00:52:14.27\] At least from what I can see in our community, pretty much everything starts from the top. The people that started the language behaved in a certain way; when the language started to grow, the type of people that got into the language were of a certain manner, of a certain behavior, and I think that's something that persisted throughout its growth phase, until now.
+**Florin Pățan:** \[52:14\] At least from what I can see in our community, pretty much everything starts from the top. The people that started the language behaved in a certain way; when the language started to grow, the type of people that got into the language were of a certain manner, of a certain behavior, and I think that's something that persisted throughout its growth phase, until now.
 
 I generally feel that there's not much difference between what we have today in the Go community and what we had maybe 3-4 years ago, just because whenever people come (let's say) in contact with the mailing list or with the Gopher Slack, they see that kind of behavior... And at some point, people will just try to emulate what they see, and if all this is someone being friendly to them, someone being helpful, giving them the respect they deserve, they will do the same for the next person that comes in and joins the community.
 
@@ -318,7 +318,7 @@ Other languages - I guess at some point they grow a lot bigger than what we curr
 
 **Carlisia Thompson:** I completely agree. And one thing to say too is when Go got started and when the community started growing, it was at a point where other communities had gone through a lot of experiences about dealing with harassment, dealing with infractions to the code of conduct, or not even having a code of conduct and dealing with the consequences of that... So when the Go community started developing, they had all of that experience to inform them. That was a big difference - Go is a newer community, so it's really almost unfair to compare, because we have the benefit of having that experience from other communities, right?
 
-**Adam Stacoviak:** \[00:56:20.23\] Yeah, you've had a chance to kind of restart, so to speak, even though you're not re-anything. You're just starting somewhat fresh, because Go is about as old as the Changelog is; we started around the same time, 2009-ish.
+**Adam Stacoviak:** \[56:20\] Yeah, you've had a chance to kind of restart, so to speak, even though you're not re-anything. You're just starting somewhat fresh, because Go is about as old as the Changelog is; we started around the same time, 2009-ish.
 
 **Carlisia Thompson:** Yeah, so you're starting out with the benefit of having information that other communities started out not having, because that just hadn't happened publicly enough to really come into consciousness. But the good thing about the Go community that we can also not discredit is the willingness to embrace that experience and say "We are going to avoid that at all costs. We're going to do everything we can to keep this community safe and inclusive, for now and for the future." That really deserves some big credit. And like Florin was saying, it comes from the top. That really helps, too.
 

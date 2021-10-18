@@ -62,7 +62,7 @@ On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto -
 
 **Erik St. Martin:** Brian is a testament to it, ask him... I'm terrible about that; I think I'm good at nothing. \[laughter\]
 
-**Brian Ketelsen:** \[00:04:00.12\] It's true. I have to force Erik to take credit for all the awesome stuff he does. He's like "No, this isn't that cool." Are you kidding me?! So I just post it for him. I do it all the time. I have absolutely no fear.
+**Brian Ketelsen:** \[04:00\] It's true. I have to force Erik to take credit for all the awesome stuff he does. He's like "No, this isn't that cool." Are you kidding me?! So I just post it for him. I do it all the time. I have absolutely no fear.
 
 **Ashley McNamara:** Impostor syndrome is real.
 
@@ -140,7 +140,7 @@ On the show today we have myself, Erik St. Martin, we also have Carlisia Pinto -
 
 **Brian Ketelsen:** The shade is rough on this show. So tell me, Ashley, how did you come across all of the awesome stuff that you put on your [learning to program](https://github.com/ashleymcnamara/learn_to_code) wikis? Because I was looking through that -- I don't know, it was about two months ago when I was working on some educational material training stuff and I thought "My god! This is like the best resource ever!" and it's got like 50 stars or something on GitHub. I don't understand why there aren't a thousand million stars.
 
-**Ashley McNamara:** \[00:07:46.18\] I think it's because I don't advertise is as much as I maybe should. I started it because I went to a bootcamp to learn Python. That's sort of how I got into programming to begin with. I was contributing docs to OpenStack, and I wanted to contribute more, so I started to learn Python and thought "I can't do this by myself. This is impossible. Do I need to go get a CS degree? Who has time for that?!"
+**Ashley McNamara:** \[07:46\] I think it's because I don't advertise is as much as I maybe should. I started it because I went to a bootcamp to learn Python. That's sort of how I got into programming to begin with. I was contributing docs to OpenStack, and I wanted to contribute more, so I started to learn Python and thought "I can't do this by myself. This is impossible. Do I need to go get a CS degree? Who has time for that?!"
 
 So I found this bootcamp and I went to this bootcamp, and it was terrible. They weren't teaching real-world software development. They weren't. Contributing to open source was irrelevant to them. Basically, every question I asked was "You don't need to know that...", but I needed to know all of those things. So I decided to go out and find free resources, and I started out with Zed Shaw's "Learn Python The Hard Way"...
 
@@ -180,7 +180,7 @@ We don't set out immediately knowing how to solve a problem. I think we've just 
 
 **Brian Ketelsen:** This is a family show!
 
-**Carlisia Thompson:** \[00:12:06.26\] Oh, that's not family-friendly?
+**Carlisia Thompson:** \[12:06\] Oh, that's not family-friendly?
 
 **Brian Ketelsen:** Family show, Carlisia!
 
@@ -224,7 +224,7 @@ You think about it... We do this all the time. If you started your day knowing 1
 
 **Ashley McNamara:** What I didn't know about Pivotal is that they have a really passionate set of Go developers. Pivotal started out as a Ruby on Rails shop, and most of CF(Cloud Foundry) was Ruby. I had no idea until I tweeted that I was looking for a job and I got a message from one of the Go developers at Pivotal...
 
-\[00:16:09.25\] So I started doing some research, and I noticed that Pivotal has about 35 repos that are Go. It's like, this is weird that nobody knows about this. Is it because they are making an enterprise product and people don't care about that as much...? Or what's the deal?
+\[16:09\] So I started doing some research, and I noticed that Pivotal has about 35 repos that are Go. It's like, this is weird that nobody knows about this. Is it because they are making an enterprise product and people don't care about that as much...? Or what's the deal?
 
 So I started interviewing and I realized that they just didn't have a lot of people to be the face in that community, to evangelize that. So that's what I'm doing at Pivotal - making the Go community aware of what we have to offer.
 
@@ -278,7 +278,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Carlisia Thompson:** My opinion on the original talk, your journey to go - I think it can be extremely useful, because Go is growing tremendously, and there's always new people coming into the language... And when people are coming into a new language, of course they wanna see steps that people who are practicing have taken to get to where they are.
 
-\[00:20:04.10\] So it can be inspiring, it can be informative... Definitely very helpful. And even for veterans, it's a chance for us to look back and see "Hey, what's that person's journey, compared to my journey?" I mean, I like talks like that.
+\[20:04\] So it can be inspiring, it can be informative... Definitely very helpful. And even for veterans, it's a chance for us to look back and see "Hey, what's that person's journey, compared to my journey?" I mean, I like talks like that.
 
 **Ashley McNamara:** I do too, but...
 
@@ -298,7 +298,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Erik St. Martin:** Alright. So our first sponsor for today is Toptal.
 
-**Break:** \[00:21:41.29\]
+**Break:** \[21:41\]
 
 **Erik St. Martin:** Alright, we are back, talking with Ashley McNamara. So just before this sponsor break we were talking about your talk, and inspiring future Gophers and veterans... Brian, did you have a take on this?
 
@@ -310,7 +310,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Carlisia Thompson:** Yeah, that's a very good choice, because Ashley said that she feels that maybe it's pretentious to do a talk like that, and I assume it's because she doesn't have ten years of experience... But I think not necessarily that it's better - I think it's good to have different perspectives from a person who's only been programming with Go for a couple years, as well as somebody who's been programming with Go for 15 years. The people who are coming in, they will be able to relate a lot better to someone who's been programming for a couple years, because it's more manageable for them to visualize themselves two years ahead of time.
 
-**Ashley McNamara:** \[00:24:07.20\] Yeah, you're absolutely right.
+**Ashley McNamara:** \[24:07\] Yeah, you're absolutely right.
 
 **Carlisia Thompson:** They will relate to that talk a lot more than if you have 15 years programming in Go.
 
@@ -382,7 +382,7 @@ So I started interviewing and I realized that they just didn't have a lot of peo
 
 **Carlisia Thompson:** Do you know how many avatars have been generated with that?
 
-**Ashley McNamara:** \[00:28:00.11\] I haven't looked at the analytics in a while... But every day I see at least one avatar on Twitter, at least. They're every everywhere, which is awesome!
+**Ashley McNamara:** \[28:00\] I haven't looked at the analytics in a while... But every day I see at least one avatar on Twitter, at least. They're every everywhere, which is awesome!
 
 **Brian Ketelsen:** It's my entire Twitter feed... And Slack, too!
 
@@ -458,7 +458,7 @@ Then I would like to be able to have people customize a T-Shirt.
 
 **Ashley McNamara:** Well, that's the reason why this industry will not be equal in our generation... Or our kids' generation.
 
-**Carlisia Thompson:** \[00:32:02.12\] Sorry for side-tracking... Let's go back.
+**Carlisia Thompson:** \[32:02\] Sorry for side-tracking... Let's go back.
 
 **Brian Ketelsen:** Well, it's a really good point, Carlisia.
 
@@ -500,7 +500,7 @@ You come in, you can have an MBA, but you get dropped in an industry you've neve
 
 **Erik St. Martin:** I think it comes to perseverance, right? It's not about born talent, it's about who's gonna take the struggle and continue through it, and who's gonna look at it and be like, "Oh, this is a lot to learn. I just don't wanna do it anymore." When we tell people, even if she continues on that path, now it's gonna be in her head every time she's struggling with something, what this advisor told her, that she's not cut out to do it. And then it's only more likely that she's going to quit, because she's like "Oh, you know what? They were right all along", and that's not true. Everybody's struggles. It's a lot to learn.
 
-**Ashley McNamara:** \[00:36:17.12\] That's already happened, and I'm having to steer her through it, and it's frustrating, because I'm her mother, so she tends to listen to me less.
+**Ashley McNamara:** \[36:17\] That's already happened, and I'm having to steer her through it, and it's frustrating, because I'm her mother, so she tends to listen to me less.
 
 **Brian Ketelsen:** But the advisor reinforced it.
 
@@ -548,7 +548,7 @@ And now everybody's gonna be listening to us live talk and listening to a commer
 
 **Erik St. Martin:** Alright, so our second sponsor for today is DataDog.
 
-**Break:** \[00:38:51.14\]
+**Break:** \[38:51\]
 
 **Ashley McNamara:** Well, I mean now they're making baby toys for programming concepts. Have you seen these things? They're like infant toys, which is great! We think that we are smart now... Just wait. Our kids are gonna crush us.
 
@@ -586,7 +586,7 @@ And now everybody's gonna be listening to us live talk and listening to a commer
 
 **Ashley McNamara:** I know how to reload bullets... \[laughter\]
 
-**Erik St. Martin:** \[00:43:48.28\] So it's just a really good point that despite you can look around and think you know about a lot of stuff, there's always gonna be things you don't know. There was a Survival(ish) show I watched a number of years ago where they put a programmer or electrician with a carpenter and a medic and they dropped them off, and it's a post-apocalyptic kind of town...
+**Erik St. Martin:** \[43:48\] So it's just a really good point that despite you can look around and think you know about a lot of stuff, there's always gonna be things you don't know. There was a Survival(ish) show I watched a number of years ago where they put a programmer or electrician with a carpenter and a medic and they dropped them off, and it's a post-apocalyptic kind of town...
 
 **Brian Ketelsen:** That was a cool show.
 
@@ -644,7 +644,7 @@ My 11-year-old is very interested in it, and we started out with Scratch, and we
 
 **Brian Ketelsen:** I said, "As a matter of fact, I have a couple of Raspberry Pi's lying around. What do you need?" He said, "I was thinking about using a Raspberry Pi for Pi Day at school, to calculate pi, with Go. Do you think you could help me with that?" I'm like, "You know, I think I could. Yeah, that'd be fun." I let him do all the work and pointed him in the right direction... Of course, he just cut and pasted somebody's Calculate Pi In Go application, but he installed Go, he installed Linux on the Raspberry Pi... He did the whole thing. Then the compiled it, took it to school and got an A on his little project, so... Sometimes they just have to be ready.
 
-**Erik St. Martin:** \[00:47:58.25\] I think it's kind of how [Katrina Owen](https://twitter.com/kytrinyx) said in her talk - your need or want to succeed or finish a project has to outweigh your reasons for quitting. They really wanna play their games and things like that, but in that case he really wanted to complete that project, so he's willing to persevere through any kind of struggle he has, because he wants to do that so bad. But when you're just like "Would you like to learn this?" they're like "Yeah, that sounds cool", and then when they start to struggle and they realize it's time, they're like "Yeah..."
+**Erik St. Martin:** \[47:58\] I think it's kind of how [Katrina Owen](https://twitter.com/kytrinyx) said in her talk - your need or want to succeed or finish a project has to outweigh your reasons for quitting. They really wanna play their games and things like that, but in that case he really wanted to complete that project, so he's willing to persevere through any kind of struggle he has, because he wants to do that so bad. But when you're just like "Would you like to learn this?" they're like "Yeah, that sounds cool", and then when they start to struggle and they realize it's time, they're like "Yeah..."
 
 **Ashley McNamara:** Yeah, that's why we combined games and programming with the Scratch stuff. Also, we were building Minecraft servers with Raspberry Pi's. That's sort of where we started with this.
 
@@ -712,7 +712,7 @@ I don't know -- did they call for new members, or just participation from the co
 
 **Erik St. Martin:** So here's how the story goes... I came across [Rooby](https://github.com/st0012/Rooby), which is like a Ruby the language-like language; it's somebody's own interpretation of the language, written in Go. And this is really cool, from the perspective similar to how we talked about writing compilers and interpreters and things like that in Go, so I thought that was really cool. And then I came across [Go Ruby](https://github.com/goruby/goruby), which is an actual implementation of the real Ruby language in Go.
 
-**Brian Ketelsen:** \[00:52:07.08\] Wow.
+**Brian Ketelsen:** \[52:07\] Wow.
 
 **Erik St. Martin:** Yeah. Both really cool.
 
@@ -784,7 +784,7 @@ So I just brought that whole thing full circle. Did you see how I did that?
 
 **Brian Ketelsen:** Two seconds after he tweeted that I ordered a ton.
 
-**Carlisia Thompson:** \[00:55:59.04\] Send me one.
+**Carlisia Thompson:** \[55:59\] Send me one.
 
 **Brian Ketelsen:** I figured the stickers were probably relatively cheap, and any extra money was going towards Caddy, so it was a good investment.
 

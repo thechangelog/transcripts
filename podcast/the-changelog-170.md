@@ -22,7 +22,7 @@
 
 **Ben Johnson:** Sure. I work with InfluxDB. I just write a lot of the storage layer and the distributed systems parts of that database. That's who I work for during the day.
 
-**Jerod Santo:** \[00:04:06.27\] Okay.
+**Jerod Santo:** \[04:06\] Okay.
 
 **Ben Johnson:** And I've consulted in the past... I used to work at Shopify for a while, so I just kind of hopped around here and here.
 
@@ -56,7 +56,7 @@
 
 **Jerod Santo:** Yeah, and I think key-value stores is one where we've definitely seen a lot of activity, a lot of options... And maybe it's because a key-value store conceptually is pretty simple. I don't know, I'm not gonna go ahead and say to implement it is simple, because you would know a lot better than I do, and I'm sure there's tons of nitty-gritty details and bumps in that road... But man, there sure are a lot of options, and it seems like a lot of those options are written in Go.
 
-**Ben Johnson:** \[00:08:22.26\] Yeah, there's been a huge influx. I think part of it is just the simplicity of -- if you get something written in Go, you can compile it onto a bunch of operating systems and just distribute it out. A lot of the uptake we got at Influx has just been people saying "This is really easy to set up, compared to a lot of other alternatives that have been around for longer." People can get it up and running... People don't wanna spend their whole day trying to learn one tool; they just wanna run a command and have it there. I think Go does that really well.
+**Ben Johnson:** \[08:22\] Yeah, there's been a huge influx. I think part of it is just the simplicity of -- if you get something written in Go, you can compile it onto a bunch of operating systems and just distribute it out. A lot of the uptake we got at Influx has just been people saying "This is really easy to set up, compared to a lot of other alternatives that have been around for longer." People can get it up and running... People don't wanna spend their whole day trying to learn one tool; they just wanna run a command and have it there. I think Go does that really well.
 
 **Jerod Santo:** So you have one of these fancy new data stores... I'm just gonna act like an old man and talk about everything as if it's shiny, new and foreign to me... \[laughter\] At least for the first part of the call, until you kind of school me on how all these things work. But yours is called Bolt (boltdb/bolt on GitHub) and it seems to be production-ready. Why don't you go ahead and just give us the elevator pitch for BoltDB?
 
@@ -74,7 +74,7 @@
 
 **Ben Johnson:** Yeah, sure. LMDB is a great design. I really like what Howard did with that. And what it is - it's basically a B-tree. Your data is structured in this B-tree that -- you can access your data and you can write to it, and whenever you change a leaf inside of your tree, it will copy all the parents as well, and kind of make this new version of the tree. So every change will make this new version, this incremental version, so that as you're going along, everything that's reading from that tree will get kind of a snapshot of it, and work in a transactional way. And then as things update along, other readers get their own snapshot of the world.
 
-\[00:12:20.04\] It's really good as far as having great transactional support. You can do great things operationally, where you can essentially just copy a file as a backup. And if you're setting up a website or you're setting up an application, you don't wanna have to worry about setting up MySQL, and having a replica, and doing all this other crazy stuff. You can attach on a web handler, an HTTP handler, and stream down your database if you wanted to have that option. It's three lines of code to do a backup, basically...
+\[12:20\] It's really good as far as having great transactional support. You can do great things operationally, where you can essentially just copy a file as a backup. And if you're setting up a website or you're setting up an application, you don't wanna have to worry about setting up MySQL, and having a replica, and doing all this other crazy stuff. You can attach on a web handler, an HTTP handler, and stream down your database if you wanted to have that option. It's three lines of code to do a backup, basically...
 
 So certain things like that... It has this very simplistic design, as opposed to -- there's another type of database called LSM tree (log-structured merge-tree). And what that is - it takes these different levels... It'll kind of create keys and values in these sorted blocks, and each one will be a different file. And then as you get these files large enough, they get compacted and written into a new block that's larger... So it takes a bunch of them and it makes them into these larger ones that are at different levels. And those are really good for writes, but operationally it can be a huge pain, because you can end up with hundreds or thousands of files where you have this kind of tough -- it's kind of tough to snapshot, like just copy a file. It's much more involved than that, and how you try to string that out and stream it in. So operationally, Bolt is simpler, although it doesn't have the benefits of write optimization, something like an LSM does.
 
@@ -112,7 +112,7 @@ So certain things like that... It has this very simplistic design, as opposed to
 
 **Jerod Santo:** So let's go back to -- not Bolt sucking, but things that it's good at. And it must have a lot of use cases, because you do have a lot of adoption, you have a lot of other projects that kind of use Bolt behind the scenes. I think perhaps the reason is because it is embedded, as opposed to a server type of a setup. Can you talk about the embedded aspect of the database?
 
-**Ben Johnson:** \[00:16:19.01\] Sure, yeah. So it's just a library that you bring into your Go program, and then you point it at a file, and you're basically ready to go. There's almost no configuration options. Even if you wanted them, you can't configure the database... And it's a single file, there's an OS lock on it, so you can only have one attached to that file at a time, as opposed to like a MySQL or a Postgres, where you have this gigantic configuration file where you have to find some tweaks to make...
+**Ben Johnson:** \[16:19\] Sure, yeah. So it's just a library that you bring into your Go program, and then you point it at a file, and you're basically ready to go. There's almost no configuration options. Even if you wanted them, you can't configure the database... And it's a single file, there's an OS lock on it, so you can only have one attached to that file at a time, as opposed to like a MySQL or a Postgres, where you have this gigantic configuration file where you have to find some tweaks to make...
 
 So from that side, operationally, it's easy to just get it up and running. A lot of projects, especially when they're products, or like an open source project, you can't make that requirement to say "Okay, first you guys have to set up these four services, and then configure it here, and do all this stuff", because no one wants to go through all that. They don't wanna add one more thing to their stack. I think it's found a lot of success from that...
 
@@ -142,7 +142,7 @@ But honestly, most of the time when I use Bolt for an application, I'll treat it
 
 When you think about relational databases too, they store -- their rows that they have in there are just an encoded data structure that has a row ID that points to it. So they're almost key-value stores underneath, they just have kind of a relational layer on top.
 
-**Jerod Santo:** \[00:20:10.14\] Yeah, that makes a lot of sense. And then when it comes back to the operational simplicity side of things, you're just storing all this in a file on disk, right? It's very SQLite in that sense.
+**Jerod Santo:** \[20:10\] Yeah, that makes a lot of sense. And then when it comes back to the operational simplicity side of things, you're just storing all this in a file on disk, right? It's very SQLite in that sense.
 
 **Ben Johnson:** Yeah. A single file, yeah. It's pretty straightforward.
 
@@ -160,7 +160,7 @@ When you think about relational databases too, they store -- their rows that the
 
 **Jerod Santo:** Very cool. Well, this sounds like a good spot to stop and hear from one of our awesome sponsors. When we get back, I'm gonna talk to you about some more use cases, maybe compare it to a few other key-value stores - LevelDB, and others people might be familiar with. Memcached, Redis, such things. So stick around, and we'll be right back.
 
-**Break:** \[00:21:53.26\]
+**Break:** \[21:53\]
 
 **Jerod Santo:** Alright, we are back with Ben Johnson, talking all things open source databases, and specifically at this moment BoltDB, which is Ben's popular key-value store in the Go ecosystem.
 
@@ -198,7 +198,7 @@ If you look at something like Redis, on the other hand, it has two different per
 
 **Jerod Santo:** Yeah.
 
-**Ben Johnson:** \[00:28:02.24\] But if you can actually get strong, serializable transactions, I think that goes a long way.
+**Ben Johnson:** \[28:02\] But if you can actually get strong, serializable transactions, I think that goes a long way.
 
 **Jerod Santo:** So Bolt has transactions...
 
@@ -240,7 +240,7 @@ So it has to write all the data first, and then it writes a new meta page to poi
 
 **Jerod Santo:** LevelDB is very similar to Bolt. It's out of Google. It seems like there are some differences.
 
-**Ben Johnson:** \[00:32:02.25\] Yeah, so that's an LSM-tree. So that'll do the write-optimized, whereas -- so you could write stuff in the LevelDB much faster than you can in Bolt. But if you're looking to do range scans, where you have a set of data in order that you're trying to go across, Bolt will be much faster than LevelDB.
+**Ben Johnson:** \[32:02\] Yeah, so that's an LSM-tree. So that'll do the write-optimized, whereas -- so you could write stuff in the LevelDB much faster than you can in Bolt. But if you're looking to do range scans, where you have a set of data in order that you're trying to go across, Bolt will be much faster than LevelDB.
 
 **Jerod Santo:** Awesome. So that's Bolt in a nutshell... Great readme, by the way. I've gotta give you respect for going into great detail there.
 
@@ -266,7 +266,7 @@ People have really been interested in it as far as -- again, it's one of those s
 
 **Ben Johnson:** Sure, yeah. Analytics is a big one. Monitoring has been another big one as well. A lot of people have sensor data. That's actually been a big, growing one with Indeed.
 
-\[00:36:05.21\] There's some weird use cases with sensor data as well... There's a company that has sensors, but they don't send data continuously. They store it up, and then every four hours they send off the data... And some databases - they expect kind of a stream of data coming in, and stuff will get dropped off if it's too late, or out of order, or certain things like that. Sensor data has been a big one as well. So I think between those three - those are probably the main ones.
+\[36:05\] There's some weird use cases with sensor data as well... There's a company that has sensors, but they don't send data continuously. They store it up, and then every four hours they send off the data... And some databases - they expect kind of a stream of data coming in, and stuff will get dropped off if it's too late, or out of order, or certain things like that. Sensor data has been a big one as well. So I think between those three - those are probably the main ones.
 
 **Jerod Santo:** Yeah, I can see it also with streaming financial transactions and market stuff...
 
@@ -300,7 +300,7 @@ People have really been interested in it as far as -- again, it's one of those s
 
 **Ben Johnson:** I think the thing is -- I guess I shouldn't say "anti-GPL." If it works for you, that's great. For me personally, I like to make things, and I like to be able to just put them out there in the world, and people can kind of riff off that and do something with it if they want to, or they could go build a company out of it.
 
-\[00:40:04.07\] If I can do something that will somehow make value in the world, I think that's awesome. But whenever I see something that's GPL, I don't know if I'm ever gonna wanna do something in that realm again. I don't wanna worry about some derivative work issue coming along later on... So if I see GPL, I honestly just close down the project; I don't even look at the project, because I don't know --
+\[40:04\] If I can do something that will somehow make value in the world, I think that's awesome. But whenever I see something that's GPL, I don't know if I'm ever gonna wanna do something in that realm again. I don't wanna worry about some derivative work issue coming along later on... So if I see GPL, I honestly just close down the project; I don't even look at the project, because I don't know --
 
 **Jerod Santo:** Just like that.
 
@@ -334,7 +334,7 @@ Yeah, when it comes to licensing, it's something that we all have to wrestle wit
 
 **Jerod Santo:** Awesome. Alright, we'll take our second break... When we get back, I wanna talk to you about something a little bit different, which is -- I'll just leave it as "The Secret Lives of Data." Let's just leave it right there, and we'll peel that up hard when we get back.
 
-**Break:** \[00:44:20.21\]
+**Break:** \[44:20\]
 
 **Jerod Santo:** Alright, we are back with Ben Johnson, talking open source databases... And perhaps somewhat related is this really cool thing called The Secret Lives of Data", thesecretlivesofdata.com (we'll link it up in the show notes), where he explains a thing called Raft in a cool, visual way. Ben, can you tell us about this?
 
@@ -350,7 +350,7 @@ So to explain what it actually is... It's almost like a motion graphic of how Ra
 
 **Jerod Santo:** This is incredibly impressive. I don't know when you launched this, but I think it hit my feeds then. I didn't know who did it at the time, but then when I started doing some research into it, I was like "Oh, man, he did this. That's pretty cool!" So where's the motivation behind sinking the time into this? Do you have an educational background, or what made you wanna do this?
 
-**Ben Johnson:** \[00:48:05.18\] People have put out so many great resources that I've learned from... I know you had Ilya Grigorik on the show a bunch...
+**Ben Johnson:** \[48:05\] People have put out so many great resources that I've learned from... I know you had Ilya Grigorik on the show a bunch...
 
 **Jerod Santo:** Yeah.
 
@@ -398,7 +398,7 @@ So yeah, I wanna start doing stuff as -- originally, I was gonna do five-minute 
 
 **Jerod Santo:** Awesome. Well, we'll link that up in the show notes. Ben, I think it's time to go to our awesome closing questions... And we will ask the first one, which has become somewhat compulsory these days, which is "Who is your programming hero?'
 
-**Ben Johnson:** \[00:52:01.07\] I would have to say Ilya Grigorik. I just learned so much from that guy from his blog... And I would totally just be his groupie, totally; if he was at a conference, I'd just follow him around the whole time.
+**Ben Johnson:** \[52:01\] I would have to say Ilya Grigorik. I just learned so much from that guy from his blog... And I would totally just be his groupie, totally; if he was at a conference, I'd just follow him around the whole time.
 
 **Jerod Santo:** I have to give my Amen on that one. He's influenced me quite a bit in my development... And I don't get too nervous for these shows, but with Ilya for the first time I had that like "Oh man, this guy is so smart." I hope I don't sound like a dope interviewing him. Yeah, he's awesome. Shout-out to Ilya out there. Very cool.
 

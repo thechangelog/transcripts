@@ -14,7 +14,7 @@
 
 **Benjamin Bryant:** Hello. I'm Benjamin Bryant and I graduated university around a year and nine months ago; I've been in my first professional Go position for around nine months. I'm currently 24. When I first got invited to the show I thought I'd be the youngest here...
 
-**Mat Ryer:** \[00:03:57.20\] \[laughs\] Yes... Well, this is actually a really interesting subject, I think, because a lot of us take a lot of things for granted; we've also been doing this for many years, and it's difficult to remember what it was like in those early days. Also, the world's probably completely different. So I'm excited to hear from you what it's like and what your experience has been, and I think also our listeners - and hopefully we'll pick up some listeners that are also kind of in your position, or maybe a year or two behind each of you, and hopefully we can shed some light on things for them as well. That will be very interesting.
+**Mat Ryer:** \[03:57\] \[laughs\] Yes... Well, this is actually a really interesting subject, I think, because a lot of us take a lot of things for granted; we've also been doing this for many years, and it's difficult to remember what it was like in those early days. Also, the world's probably completely different. So I'm excited to hear from you what it's like and what your experience has been, and I think also our listeners - and hopefully we'll pick up some listeners that are also kind of in your position, or maybe a year or two behind each of you, and hopefully we can shed some light on things for them as well. That will be very interesting.
 
 First of all, let's find out - why Go, specifically? We're all here because we're dealing in Go, in some way... Ben, what was it about Go that attracted you?
 
@@ -32,7 +32,7 @@ First of all, let's find out - why Go, specifically? We're all here because we'r
 
 **Shaquille Que:** Well, my experience is that at college a lot of people are really into applying for internships, and getting more experience there. Like Ben said, there's a lot of things that you get out of internships and industry that you don't get in university courses. So at least in computer science the majority of students - or I guess a lot of students - apply for internships, especially their sophomore and junior years... And I was just kind of going through a bunch of common places where people applied to, and Google had one of the best internship programs out there. I just applied.
 
-\[00:07:56.11\] The way it worked - I actually didn't get in by just applying online; I was actually looking at a bunch of conferences in Google, and then a panel popped up and said "Hey, up for a challenge?" And that was the famed Foo bar challenge; I tried my hand at it, it was really fun. I was a little disappointed there was no option to use Go as a language, but I went through the challenges and then a recruiter reached out. That's how I got started with this internship.
+\[07:56\] The way it worked - I actually didn't get in by just applying online; I was actually looking at a bunch of conferences in Google, and then a panel popped up and said "Hey, up for a challenge?" And that was the famed Foo bar challenge; I tried my hand at it, it was really fun. I was a little disappointed there was no option to use Go as a language, but I went through the challenges and then a recruiter reached out. That's how I got started with this internship.
 
 **Mat Ryer:** So you knew about Go before that then... How did you find out about Go?
 
@@ -60,7 +60,7 @@ And then recently I learned a lot about concurrency through this project I did, 
 
 **Aditya Prerepa:** So all the buzz is around AI and ML, and stuff. I have tried that... I guess I'm just not ready for it, but I didn't really get it that much. And then, low-level bit operations - I've tried to write C code, and I've tried to write low-level code stuff in Go, and I didn't really like it that much, because I guess I couldn't do much with it, if that makes sense. I could do more with building stuff like servers, and stuff like that.
 
-**Mat Ryer:** \[00:12:10.15\] Yeah, absolutely. Higher-level concepts. That's definitely true, and one of the nice things about the Go team - because that's where they spend all their time, is down in the guts of the language, and the compilers, and all that stuff. And they get to do all that work, and then we don't have to worry about it. We can kind of just use all their hard work to then build real things. How about you, Ben? Is there anything that stands out so far? You're already into your first position, right?
+**Mat Ryer:** \[12:10\] Yeah, absolutely. Higher-level concepts. That's definitely true, and one of the nice things about the Go team - because that's where they spend all their time, is down in the guts of the language, and the compilers, and all that stuff. And they get to do all that work, and then we don't have to worry about it. We can kind of just use all their hard work to then build real things. How about you, Ben? Is there anything that stands out so far? You're already into your first position, right?
 
 **Benjamin Bryant:** Yeah. But by "stand out" - do you mean in terms of the language, or in terms of working with it?
 
@@ -90,7 +90,7 @@ I suppose there is kind of a difference between trying something out and then se
 
 **Benjamin Bryant:** Well, what that feature is is that whenever a customer wants to buy something, they now have the option to round up -- I'm in the U.K, so it's pennies to pounds; in the U.S. it's cents to dollars... So it's just rounding up to the nearest dollar or the nearest pound. And then we have to also keep track of these donations, obviously... Since if we just took someone's donations and didn't keep track of it properly, I guess that would be illegal.
 
-**Mat Ryer:** \[00:15:53.13\] Yeah, you can't just cast a float to an int and go home, yeah. Absolutely. You wanna keep track of that. Okay, cool. So what was the tech involved? What sort of things did you actually do as a team to make that happen?
+**Mat Ryer:** \[15:53\] Yeah, you can't just cast a float to an int and go home, yeah. Absolutely. You wanna keep track of that. Okay, cool. So what was the tech involved? What sort of things did you actually do as a team to make that happen?
 
 **Benjamin Bryant:** Well, the thing that I've found interesting around that project - at least what I've found in building something new - is that I got to experience the software architecture park... I think if you guys have done interviews, and stuff, there's always that software architecture interview, which you basically have to design how things are gonna go in put together... But a lot of the times it doesn't show up straight away. So being able to take part in the high-level part before that, which was scoping out how I would do this, scoping out changes to the database... We would do scoping out how things would link together and how they would talk to other services. I actually found that kind of interesting; I never really got a chance to do that before, and I'd mainly just previously been working on -- even in my previous position, I was working mainly on doing bug fixes... So being able to move on to the full designing a system - that's what I found quite interesting.
 
@@ -110,7 +110,7 @@ I guess \[unintelligible 00:18:03.04\] as Aditya here, where I kind of like low-
 
 **Mat Ryer:** Please, yeah.
 
-**Aditya Prerepa:** \[00:19:50.27\] Okay. Well, they're not all in Go, but they're still pretty cool. One of them was a fingerprint-based attendance system for my school. Currently, students walk in and they all sit down, and then if one teacher messes up, they have to redo the entire thing. And so I thought "Teachers shouldn't have to be counting the number of students", and them saying "Here. Here. Here. Present. Present. Present." So I was thinking, everybody has a fingerprint; fingerprint sensors are like $5 now, and if you connect it to a Raspberry Pi and connect that to a server and a database, you have an attendance system. So I built that.
+**Aditya Prerepa:** \[19:50\] Okay. Well, they're not all in Go, but they're still pretty cool. One of them was a fingerprint-based attendance system for my school. Currently, students walk in and they all sit down, and then if one teacher messes up, they have to redo the entire thing. And so I thought "Teachers shouldn't have to be counting the number of students", and them saying "Here. Here. Here. Present. Present. Present." So I was thinking, everybody has a fingerprint; fingerprint sensors are like $5 now, and if you connect it to a Raspberry Pi and connect that to a server and a database, you have an attendance system. So I built that.
 
 I built a prototype and everything worked, but then Covid-19 happened, so then no school. There's two sides to that.
 
@@ -128,7 +128,7 @@ Like I said before, I don't really like to interact with really low-level stuff,
 
 **Mat Ryer:** That's really interesting.
 
-**Break:** \[00:22:30.14\]
+**Break:** \[22:30\]
 
 **Mat Ryer:** It's funny that the politics almost in that was the challenging bit... And I wonder, is there anything that stands out as kind of intimidating or concerning? Is there anything that stands out like that when you look at tech? Or is it all just kind of new and exciting, and you're not too worried about anything?
 
@@ -140,7 +140,7 @@ Like I said before, I don't really like to interact with really low-level stuff,
 
 **Mat Ryer:** Hm. What do you mean?
 
-**Benjamin Bryant:** \[00:24:07.27\] I don't know if everyone else feels this as well, but sometimes when you need to teach yourself something - let's just take a random example, like if I needed to teach myself Docker. You go to the website and then you have to read -- you do need to read; I mean, I guess you could watch some videos as well... But you kind of need to get your hands dirty and you need to start working on stuff. And I find that sometimes without some kind of catalyst, it can be difficult to want to continue with a project, or to see it through to the end.
+**Benjamin Bryant:** \[24:07\] I don't know if everyone else feels this as well, but sometimes when you need to teach yourself something - let's just take a random example, like if I needed to teach myself Docker. You go to the website and then you have to read -- you do need to read; I mean, I guess you could watch some videos as well... But you kind of need to get your hands dirty and you need to start working on stuff. And I find that sometimes without some kind of catalyst, it can be difficult to want to continue with a project, or to see it through to the end.
 
 One of my first Go projects that I worked on as a sort of joke is that I wanted to model the life of a million gophers (as in the animal) in Go, just as a way to learn how to use Go, because I'd never really used it before. And if I was just doing that on my own, if I was just trying to learn Go on my own, I don't know if I could have pushed through and gone and tried to learn through everything... But because I had volunteered to try and give a talk about me learning Go, that had a fake deadline involved in it. And having a deadline there was like "Okay, I need to keep moving myself forward." I think that could be something that you could kind of use; if you can somehow find a way to maybe just impose a restriction onto what you're working on, it might drive you to work for it, essentially.
 
@@ -158,7 +158,7 @@ Yes, I guess it helped with me wanting to program something, because I knew that
 
 **Shaquille Que:** As I look forward in my career, I would say the most concerning right now is graduating in a recession. I hear a lot of stories from back in 2008, or even back in the 1980's, when it was very difficult to find jobs and when a lot of people were losing their jobs... And I think it's also already kind of happening right now, where a lot of companies are laying off and a lot of companies are also going under.
 
-\[00:28:02.23\] I know that in the future the tech industry will still keep growing, and even right now, a lot of the big companies like Facebook and Amazon are still aggressively hiring... But it's still scary to think that right now it's gonna become harder to find jobs, and graduate in a \[unintelligible 00:28:19.29\]
+\[28:02\] I know that in the future the tech industry will still keep growing, and even right now, a lot of the big companies like Facebook and Amazon are still aggressively hiring... But it's still scary to think that right now it's gonna become harder to find jobs, and graduate in a \[unintelligible 00:28:19.29\]
 
 **Mat Ryer:** Yeah, I think a lot of people share those kinds of concerns. Tech isn't immune, of course, but in some ways -- look at remote work; that's kind of an example of something that I think the world has changed with remote work now. The prevailing attitude was that remote work wasn't right for every company, and people were very used to being collocated... And since we're now all forced to be working remotely, people have seen "This actually works", and there can be some benefits to it, as well.
 
@@ -178,7 +178,7 @@ I also found that meetups were a great place to unlocking language... So much st
 
 **Mat Ryer:** Oh yeah, that's really interesting. Do you find the same, Aditya? Do you find yourself in these communities and there are concepts and things that you don't seem familiar with, and it gives you something to go and look into?
 
-**Aditya Prerepa:** \[00:32:05.25\] Oh, yeah. I can talk a little bit about my open source -- like, trying to open-source... Because I kind of knew nothing about -- like Benjamin, I knew nothing about Kubernetes, Docker, any of this stuff, but I found out the best way I learn was through experience... So I decided to pick a repository on GitHub, and you go and just jump into it. My first attempt was gRPC, and I knew nothing about a lot of things... But I've found out that I couldn't do much there, so I decided to go to something else. I've found that in Istio, where I'm currently contributing, where I've sort of found my niche, everybody there is super-nice and supportive... And I sort of like bug people on Slack about certain things, and they're so nice about it, and they always answer. Yeah, just learning through people, and experience, and reading stuff. That's how I sort of get myself to where I wanna be.
+**Aditya Prerepa:** \[32:05\] Oh, yeah. I can talk a little bit about my open source -- like, trying to open-source... Because I kind of knew nothing about -- like Benjamin, I knew nothing about Kubernetes, Docker, any of this stuff, but I found out the best way I learn was through experience... So I decided to pick a repository on GitHub, and you go and just jump into it. My first attempt was gRPC, and I knew nothing about a lot of things... But I've found out that I couldn't do much there, so I decided to go to something else. I've found that in Istio, where I'm currently contributing, where I've sort of found my niche, everybody there is super-nice and supportive... And I sort of like bug people on Slack about certain things, and they're so nice about it, and they always answer. Yeah, just learning through people, and experience, and reading stuff. That's how I sort of get myself to where I wanna be.
 
 **Mat Ryer:** Hm... That's interesting you say "bug people", and it's a shame that it feels like that... But I think there is a bit of that. You have to sort of be a little bit like that. In fact, Aditya, you reached out to me to pitch coming on a podcast, for example; so it's that very proactive, quite a bold step. It's not without risk; those kinds of things can be quite embarrassing if they don't work, so it's a risk you take... But if you can, I think it's a risk worth taking. Now we get to meet you and hang out on the podcast, so in that case it worked, so that's great.
 
@@ -190,7 +190,7 @@ Are there other people your age and in your school that are doing the same kinds
 
 **Aditya Prerepa:** Okay, so I go to school in the Bay Area. The Bay Area's high schools and stuff are notoriously known for being really competitive... And yeah, so we have a computer science course, but it's only available to 11th and 12th graders. I actually met the computer science teacher at my school; his name is Dr. Brocker, and I met him through a math class. I was taking geometry in ninth grade, and he taught that class for one period. And I met him through there... He saw I was interested in this stuff, but he sort of took me under his wing and taught me a lot of that stuff. He's sort of like a guru at Java, and stuff... And he really helped me throughout that process. But I'm really lucky to have that sort of person; a lot of people don't. I think having a mentor is what stops a lot of younger people from going out there and doing things. We do have a curriculum - it's sort of like algorithmically-oriented. Not really application-oriented, but yeah.
 
-**Mat Ryer:** \[00:35:58.02\] Yeah, so speaking of mentors then... Shaquille - have you experienced that, where you've had some mentorship from somebody?
+**Mat Ryer:** \[35:58\] Yeah, so speaking of mentors then... Shaquille - have you experienced that, where you've had some mentorship from somebody?
 
 **Shaquille Que:** So I started in high school. I'm actually an international student; I think I forgot to mention that. I'm actually just here on an F-1 visa. I'm from the Philippines. Back in high school I started learning programming by myself, using an online curriculum from Stanford... And at the time, I really wanted to expand more in it, but I really couldn't find anyone at my school who either enjoyed programming as much as I did -- well, there were people in robotics, but it's a little different, because they're programming robots to move and do stuff, and I was more interested in using programming to solve problems.
 
@@ -234,7 +234,7 @@ I didn't open a terminal till I think after my first class at university... So I
 
 But then eventually, when I needed to actually work at home, I kind of had to sit down and figure out "Okay, how do I install Java, so I could actually get to work?" So a slightly different path...
 
-**Mat Ryer:** \[00:40:18.11\] Was that something that attracted you about Go then? The fact that actually it is quite easy to install and to build things. You don't have the JVM, right? You don't have these virtual machines... It is a simpler thing, is it not?
+**Mat Ryer:** \[40:18\] Was that something that attracted you about Go then? The fact that actually it is quite easy to install and to build things. You don't have the JVM, right? You don't have these virtual machines... It is a simpler thing, is it not?
 
 **Benjamin Bryant:** Well, at that point I had been in university for four years, so I kind of got over my fear of installing programming languages... I guess some people at university actually avoid installing programming languages all the way to the final year. \[unintelligible 00:40:46.00\] in the first year. But yeah, it's actually pretty easy to install Go. I think at the time when I started using Go, there was this GOPATH thing. That wasn't easy... *go mod* made it slightly easier \[unintelligible 00:40:54.16\] I was like "I've messed up."
 
@@ -258,7 +258,7 @@ Another thing I like about Go is you don't have to do a factory factory, like yo
 
 **Mat Ryer:** I think that's a great choice. For concurrent programming, which is usually difficult to keep in sync and difficult to communicate and share memory and all this stuff... And yeah, I agree, that select block - only one of these cases can run at a time, so it gives you that synchronization point... Yeah, it can conceptually simplify things a lot. I think that's a great choice. What about you, Ben? What's your favorite bit of Go, mate?
 
-**Benjamin Bryant:** \[00:44:21.06\] I would say the standardization of style - I think that's what it's called - in the sense that I've been using Ruby at my job as well, and that definitely has a lot more ways to do a lot of the same thing, and that can make it difficult to track things down. But having everything look the same and feel the same, I kind of appreciate that. It also kind of avoids the situation where you have to figure out what the team's code style is gonna be, and stuff like that.
+**Benjamin Bryant:** \[44:21\] I would say the standardization of style - I think that's what it's called - in the sense that I've been using Ruby at my job as well, and that definitely has a lot more ways to do a lot of the same thing, and that can make it difficult to track things down. But having everything look the same and feel the same, I kind of appreciate that. It also kind of avoids the situation where you have to figure out what the team's code style is gonna be, and stuff like that.
 
 I remember there was a university project I had to do, and there was a heated debate about how many spaces we were gonna do, and if we'd even dare to use tabs... And that was just one small part of the kind of code style we were trying to get going. I just like how just everything already has a style. It's a small thing, but it's very useful.
 
@@ -270,7 +270,7 @@ Shaquille, have you got a particular favorite language feature?
 
 **Mat Ryer:** Yeah. I think that's a great choice. The thing that attracts a lot of people to Go is the way that it handles concurrency, and treats it as a first-class concern. In fact, it was designed for modern architectures. If you think about C, it's kind of an older language, designed back in the '70s, when machines were just single-processor... It wasn't really networked in the same way. And modern systems are very networked, and multi-core, lots of processing speed and concurrent processing capabilities, and things... So the language kind of knew that when they designed it, so you do get that into the language. So again, great choice.
 
-**Break:** \[00:47:43.01\]
+**Break:** \[47:43\]
 
 **Mat Ryer:** Do you have any questions that we might be able to answer? And by "we" I mean me and also anyone else on the panel that might have an answer?
 
@@ -302,7 +302,7 @@ Essentially, as you've all kind of given examples of, when you see a real proble
 
 So there's lots of ways you can break the rules or bend the rules and do different and more interesting things, and take different paths... But yeah, I think there isn't a path -- I don't like the idea, actually, that there is a single path that you follow to progress. If there is one -- some companies do it; they have explicit little programs (or big programs), which you can flow through. But I feel like it has to be so tailor-made to you for it to be valuable to you, that those things may or may not fit very well. I've never found anything like that really work, but if there's benefit to it, then that's what you do.
 
-\[00:52:15.17\] But yeah, I would say there isn't really a right or wrong path that you go through. It has to be a kind of thing that you find your own way on. I wouldn't recommend necessarily the way I have gone through my career. It's something that has kind of worked to an extent, I guess, and it's been somewhat random when I look back on it; it's somewhat random, it feels. I didn't have a big five-year plan, for example. I never really did that. I was much more agile about it, if you like; I was much more immediate and looking, that sort of approach.
+\[52:15\] But yeah, I would say there isn't really a right or wrong path that you go through. It has to be a kind of thing that you find your own way on. I wouldn't recommend necessarily the way I have gone through my career. It's something that has kind of worked to an extent, I guess, and it's been somewhat random when I look back on it; it's somewhat random, it feels. I didn't have a big five-year plan, for example. I never really did that. I was much more agile about it, if you like; I was much more immediate and looking, that sort of approach.
 
 I know a lot of people do do that - they have the big plan, and stick to it, and it really works for them. So I'd say there isn't an answer; there isn't a route that everyone should take. You have to find your own path. How does that sound?
 
@@ -322,7 +322,7 @@ Somebody I read said that creativity actually is just making connections that ot
 
 **Mat Ryer:** Yes, there is. There definitely is. Any other questions?
 
-**Aditya Prerepa:*** \[00:56:01.14\] Yes. So last year, at my Life360 internship, I was like -- there was this one senior engineer who would sit perpendicular to me... And we were both working on the same sort of area, so he knew a lot of stuff... And I would go to him a lot for help; after a certain point, I felt like I was being intrusive, so I stopped going for help that much, and that sort of slowed me down. I'm just wondering, how much time should be spent trying to figure out a problem before bugging a senior dev with that problem?
+**Aditya Prerepa:*** \[56:01\] Yes. So last year, at my Life360 internship, I was like -- there was this one senior engineer who would sit perpendicular to me... And we were both working on the same sort of area, so he knew a lot of stuff... And I would go to him a lot for help; after a certain point, I felt like I was being intrusive, so I stopped going for help that much, and that sort of slowed me down. I'm just wondering, how much time should be spent trying to figure out a problem before bugging a senior dev with that problem?
 
 **Mat Ryer:** I think that is a good question, which again, isn't gonna have a very simple answer... Because it'll just depend so much on the situation. But the fact that you're even thinking like that I think is the good thing, because it's about -- you know, you do have the respect for other people's time, and that's important. But I think it just depends on the situation. And having that as a sort of open conversation and asking people about it - I think that's the way to do it. "Do you mind if I come and bug you? Would you prefer I just did it at certain times? What works for you?" Those kinds of things. I think you'll find most of the time people like helping.
 

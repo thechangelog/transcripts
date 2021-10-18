@@ -8,7 +8,7 @@
 
 **Adam Stacoviak:** I've got problems, okay? I've got problems. Please do this show without me... \[laughs\]
 
-**Break:** \[00:00:40.19\]
+**Break:** \[00:40\]
 
 **Erik St. Martin:** Welcome back, everybody, to another episode of GoTime. Today's episode is \#79, and on the show today we have myself, Erik St. Martin, and Carlisia Pinto...
 
@@ -34,7 +34,7 @@
 
 **Adam Stacoviak:** How excited are you?
 
-**Steve Francia:** \[00:03:39.10\] It's an exciting time, it really is. I've had some good experiences in my career. I've been a part of MongoDB since the very beginning, and took it to when it was the third most popular database. I was an early part of Docker... So I've had some opportunities to be a part of something when it took off and it transformed, and Go is going through what I might even call a second surge, in that it's really hit its stride, and you can feel there's something tangible about it. This doesn't happen very often with languages or projects in general... And it's just a really exciting thing to be a part of.
+**Steve Francia:** \[03:39\] It's an exciting time, it really is. I've had some good experiences in my career. I've been a part of MongoDB since the very beginning, and took it to when it was the third most popular database. I was an early part of Docker... So I've had some opportunities to be a part of something when it took off and it transformed, and Go is going through what I might even call a second surge, in that it's really hit its stride, and you can feel there's something tangible about it. This doesn't happen very often with languages or projects in general... And it's just a really exciting thing to be a part of.
 
 **Carlisia Thompson:** Elaborate on that a little more, please. What makes you feel this tangible thing, that Go is going through a second surge?
 
@@ -58,7 +58,7 @@
 
 **Erik St. Martin:** Wow, that's just wild how fast it's grown.
 
-**Steve Francia:** \[00:07:57.22\] Yeah, crazy to think. I'm excited for [Go Europe](https://gophercon.is/), which is in Iceland; it's coming up in I think three or four weeks now. I know this week is [Go Singapore](https://2018.gophercon.sg/)... There's just a lot of conferences happening, and it's so much that it's hard to keep up with them all.
+**Steve Francia:** \[07:57\] Yeah, crazy to think. I'm excited for [Go Europe](https://gophercon.is/), which is in Iceland; it's coming up in I think three or four weeks now. I know this week is [Go Singapore](https://2018.gophercon.sg/)... There's just a lot of conferences happening, and it's so much that it's hard to keep up with them all.
 
 **Carlisia Thompson:** Yeah. So let's talk about this branding... What prompted Google to take on this project? What was the reason behind it?
 
@@ -74,7 +74,7 @@ Then I've done a number of [surveys of the Go community](https://blog.golang.org
 
 **Adam Stacoviak:** [Try it](https://golang.org/).
 
-**Steve Francia:** \[00:11:50.24\] You see "Try Go." It's right at the top. Then you see a happy gopher and Download Go, which is also a way to try Go. That's kind of the way we reinforce it, and that's good, and for the early adopter audience that we've served for a number of years, the idea that you can just try it is very valuable.
+**Steve Francia:** \[11:50\] You see "Try Go." It's right at the top. Then you see a happy gopher and Download Go, which is also a way to try Go. That's kind of the way we reinforce it, and that's good, and for the early adopter audience that we've served for a number of years, the idea that you can just try it is very valuable.
 
 As we go to more mainstream programmers, people that might not come with a CS background, the idea of trying a static- compiled language is a bit intimidating, and a lot of them are looking just to find out more about it.
 
@@ -92,7 +92,7 @@ Then he took all of that together and came up -- he tried to distill it down to 
 
 We just kept trying to distill it down further and further and further. It's amazing how much time it takes to come up with a small number of words. I believe it's Mark Twain who famously said "I'm sorry I wrote you a long letter, I didn't have time to write you a short one." I'm paraphrasing, that's not the exact quote, but... It really took a long time to distill it right down to the essence of what we believe Go is.
 
-**Carlisia Thompson:** \[00:16:03.14\] And I particularly loved the Tone of Voice section of the brand book, because it tries to really narrow it down... Because it's one thing for you to say one word that tries to encapsulate what the language or what the community is all about; here we have a few words about what Gophers are, and corresponding words about what Gophers are not. I wanna go through the list, for people who are looking at this... Gophers are concise, Gophers are not verbose; they're genuine, not dubious; they're friendly, not exclusive; direct, not ambiguous; thoughtful, not reactive; humble, not haughty. Is that how you say that word?
+**Carlisia Thompson:** \[16:03\] And I particularly loved the Tone of Voice section of the brand book, because it tries to really narrow it down... Because it's one thing for you to say one word that tries to encapsulate what the language or what the community is all about; here we have a few words about what Gophers are, and corresponding words about what Gophers are not. I wanna go through the list, for people who are looking at this... Gophers are concise, Gophers are not verbose; they're genuine, not dubious; they're friendly, not exclusive; direct, not ambiguous; thoughtful, not reactive; humble, not haughty. Is that how you say that word?
 
 **Steve Francia:** That's right.
 
@@ -108,7 +108,7 @@ It's the understanding who you are and why you do what you do, to explain who yo
 
 **Adam Stacoviak:** I guess maybe what are your hopes here? I know that this may have been not a surprise to you, obviously, because you were involved behind the scenes, but I think for many it was like, "Okay, Go is almost nine years old...", and here comes this - either brand or re-brand; I'm not really sure if this is a re-brand, because I'm not sure there ever was a true brand in place, to this degree... What are your hopes for the community to respond? When you released this, Steve - you wrote the article, the post on the Go blog - what was your anticipation? Were you surprised? What were you most surprised about? What were your hopes for releasing this to the world?
 
-**Steve Francia:** \[00:19:47.24\] I'll answer the first question - is it a brand or a re-brand? I'll say there's not a lot new here. In a sense, our real goal here was -- as I said, I kind of started from that first experience I had maybe two weeks into joining the Go team, of having to write a blurb of who we are. I talked to Robert Griesemer and he gave me some feedback; I talked to Andrew, and he gave me completely different feedback; I talked to Ian, and it was different again. We really wanted to come up with what would be our story, our concise story that represents not only the Go team at Google, but the entire Go community, that we can have one way of talking about it. That really was the primary goal.
+**Steve Francia:** \[19:47\] I'll answer the first question - is it a brand or a re-brand? I'll say there's not a lot new here. In a sense, our real goal here was -- as I said, I kind of started from that first experience I had maybe two weeks into joining the Go team, of having to write a blurb of who we are. I talked to Robert Griesemer and he gave me some feedback; I talked to Andrew, and he gave me completely different feedback; I talked to Ian, and it was different again. We really wanted to come up with what would be our story, our concise story that represents not only the Go team at Google, but the entire Go community, that we can have one way of talking about it. That really was the primary goal.
 
 The other part was when everything is done kind of ad-hoc, you don't have a lot of opportunities to make decisions, and I would describe the historical brand as mostly ad-hoc. When we are asked a question, when we need a blurb for this - we wrote a blurb for that; when we needed a website that looked like this, we did that. [Renee](https://www.instagram.com/reneefrench/) has been fantastic in providing lots of wonderful Gopher designs, as well as a logo, which - I learned after that blog post launched - a lot of people didn't know we had a logo before.
 
@@ -122,7 +122,7 @@ We've written a real clear description, and I'll read it for those who don't hav
 
 **Steve Francia:** You are not alone in that, as we learned very clearly from some of the feedback we got. People misunderstood that Go had a logo, and the logo was the Gopher.
 
-**Carlisia Thompson:** \[00:24:03.10\] Yes.
+**Carlisia Thompson:** \[24:03\] Yes.
 
 **Steve Francia:** So when we said we have a new logo, I think this is really -- it was obviously a misunderstanding, but it came out of people's love for the Gopher. The people have fallen in love with -- this is the human side of a very technical project that we all love. I think there's no one that doesn't love the Gopher, and the reaction that we got was, I think, mostly stemming from that - people love the Gopher, and the thought of it not being around kind of gave people a shock.
 
@@ -146,11 +146,11 @@ So that's the old logo... The new logo actually started from a very similar plac
 
 **Steve Francia:** And this logo... Renee drew it -- I might not be accurate on this, but a number of years ago. I wanna say 2008 or 2009. A very long time ago.
 
-**Break:** \[00:26:46.09\]
+**Break:** \[26:46\]
 
 **Adam Stacoviak:** What's interesting too is this blog post - I was actually gonna ask this question, in hopes of stirring up the \[unintelligible 00:27:39.20\] and story of the Gopher. I was not aware of this blog post, but this shares that; it has the history of Renee making it for a radio station called WFMU for a fundraiser they had, and it had a second appearance at Bell Labs, with Bob Flandrena's avatar, and then again for Plan 9 as a mascot, and then I guess when the open source happened for Go, Renee suggested to adopt the mascot, and the Gopher was born then, right around 2009.
 
-\[00:28:15.10\] It's an interesting process, and you said, in a way, ad-hoc. So this gopher has kind of like made its way through several different forms and several different reasons for even being, to now be the beloved mascot of gophers.
+\[28:15\] It's an interesting process, and you said, in a way, ad-hoc. So this gopher has kind of like made its way through several different forms and several different reasons for even being, to now be the beloved mascot of gophers.
 
 **Steve Francia:** Yeah, it's amazing what an impact it's had on the project, and we owe Renee a huge amount of gratitude for her contribution to it. I think she really provided for us kind of our identity. We don't call ourselves -- in Python they call themselves Pythonistas, and everyone has different monikers. We don't call ourselves the Go-ers, or anything like that. We're gophers. And that comes from Renee's mascot. And even [GopherCon](https://www.gophercon.com/) and everything that's come since, it all really stems from Renee's mascot. I think she did an amazing job providing an identity for us, and our goal with the visual branding here was to really take Renee's work and to build on it, and to try and consolidate it down.
 
@@ -162,7 +162,7 @@ As a part of this, we're also extending our blog to support multiple languages, 
 
 **Steve Francia:** Rennee was - she was very involved. In fact, a lot of people were involved at the beginning for the interview, and then we spent a lot of time after their interview just working through everything and trying to consolidate things down, and that was a much smaller group. Then we'd go back to the larger group just for feedback every once in a while.
 
-\[00:31:47.01\] Renee spent less time on the verbal part of the brand, but she spent a considerable part on the visual part of the brand, and she did so over time. She was very involved with it. She helped pick the color pallete, she helped name the colors, particularly the Gopher Blue one... She worked with us on every part of the visual aspect.
+\[31:47\] Renee spent less time on the verbal part of the brand, but she spent a considerable part on the visual part of the brand, and she did so over time. She was very involved with it. She helped pick the color pallete, she helped name the colors, particularly the Gopher Blue one... She worked with us on every part of the visual aspect.
 
 **Carlisia Thompson:** That sounds fantastic. I mean, I don't know... Whoever was involved, you guys did a really good job. I personally really like it, so I'm just gonna put my bias upfront. I love it, I think it came out really well. Good job!
 
@@ -180,7 +180,7 @@ The brand is really the essence of something. There's a visual element, as well 
 
 Also, what we've noticed... The language on the blog post - I looked at it after this feedback and I've spent quite a bit of time on it... It's right in the very beginning that it says "Built upon the great foundation that Renee French established, and rest easy, our beloved Gopher mascot remains the center of our brand." As you scroll down, the Gopher is very present; it's featured in the video that shows our Go logo design process and all the different -- not all, but many of the iterations we went through with the logo. It's also very prominent in the slide presentation, as well as it's prominent in the brand book, all of which are featured.
 
-\[00:35:33.00\] So I think we communicated the Gopher was very part of our brand well. Because the Gopher was a consistent part, but not the new part, we didn't heavily feature the Gopher here, but made sure that it was included... But we focused more on things that were new and different. In spite of that, I think what we saw was some people reacting to some people's reactions.
+\[35:33\] So I think we communicated the Gopher was very part of our brand well. Because the Gopher was a consistent part, but not the new part, we didn't heavily feature the Gopher here, but made sure that it was included... But we focused more on things that were new and different. In spite of that, I think what we saw was some people reacting to some people's reactions.
 
 Some people misunderstood that the new logo was replacing our mascot, the Gopher, and they started tweeting about that, or posting comments about it, and then people reacted to that post, rather than finding out for themselves that that's not accurate. So it kind of escalates... When people have a misunderstanding, and then people look at that without going to the source, it always escalates things, and that's just a bit of a statement of where we live today, and the kind of world -- I remember life before the internet, and how hard it was to find information; you had to drive to places, or walk to the libraries...
 
@@ -212,7 +212,7 @@ Some people misunderstood that the new logo was replacing our mascot, the Gopher
 
 First, here's a thing about change - people are always nervous at the beginning about change. Give them time - and I don't expect that everyone is gonna love it... It's a subjective thing; not everybody loves every painting, not everybody loves every color... You know, nothing appeals universally, but I think with a lot of people, give it time and it's gonna calm a lot of their fears.
 
-**Carlisia Thompson:** \[00:39:47.00\] One really strong reaction that I saw people having was that the playfulness of Go was there and now it's not, because this logo is not as playful. Then, of course, it goes back to people equating the logo with the Gopher, and the Gopher is not going away (we've covered that), but that brings up a point too, which is when you codified something, it means now that is the right way of doing things, and if there is a right way, there is a wrong way, right? So how do we handle this, how do we know...? Because okay, Google sponsors things, you need to have your blurb, you need to have a logo... But how about us? How will we be using this in the wrong way, or what if we don't use any of this - would it be wrong? Are we gonna get a call from Google's lawyers, saying "Hey, you're not using the proper material"? \[laughter\] How does it apply to everybody else?
+**Carlisia Thompson:** \[39:47\] One really strong reaction that I saw people having was that the playfulness of Go was there and now it's not, because this logo is not as playful. Then, of course, it goes back to people equating the logo with the Gopher, and the Gopher is not going away (we've covered that), but that brings up a point too, which is when you codified something, it means now that is the right way of doing things, and if there is a right way, there is a wrong way, right? So how do we handle this, how do we know...? Because okay, Google sponsors things, you need to have your blurb, you need to have a logo... But how about us? How will we be using this in the wrong way, or what if we don't use any of this - would it be wrong? Are we gonna get a call from Google's lawyers, saying "Hey, you're not using the proper material"? \[laughter\] How does it apply to everybody else?
 
 **Steve Francia:** So I'm gonna answer this in two ways. One, there's a few things here that are copyrighted, the logo being one of them, and the logo does have guidelines for its usage. So I wanna be clear that the logo needs to be used appropriately according to those guidelines. I wanna be clear with that upfront.
 
@@ -238,7 +238,7 @@ Beyond that, you are welcome to use this or not use this. This is meant as a gui
 
 **Steve Francia:** There's no credit needed.
 
-**Adam Stacoviak:** \[00:44:04.25\] The point of a copyright is just to say that it's their mark and that no one else can use the mark in a trademarked or copyrighted scenario, and as a copyright holder you have to protect your copyright, because otherwise you don't have a copyright.
+**Adam Stacoviak:** \[44:04\] The point of a copyright is just to say that it's their mark and that no one else can use the mark in a trademarked or copyrighted scenario, and as a copyright holder you have to protect your copyright, because otherwise you don't have a copyright.
 
 **Steve Francia:** That's right. And I'll just say, I encourage people to ignore what I've said, but [read the document](https://golang.org/s/brandbook). There's two pages on what is acceptable use, with lots of diagrams and pictures of what to do and what not to do. We hope the Go community uses this, we hope it becomes -- I don't think it's gonna replace the Gopher in any sense, but I do think that it's a nice accent; it definitely reinforces our brand. The Gopher is wonderful, and it's fun, and it's playful; it's not immediately recognizable as the word "Go" is. If you're not familiar with the Gopher, and Go, but you see the word "Go", you're gonna associate that.
 
@@ -261,7 +261,7 @@ I was at GothamGo, I was the MC for the third or fourth year in a row, and I was
 
 **Carlisia Thompson:** Yeah, I hope so, because the website would only be updated once there was a release... \[laughs\]
 
-**Steve Francia:** \[00:47:51.05\] Yeah, right now it's every six months, and... Yeah, part of the new design is also to provide a little more contextual information towards what's happening now, and trying to keep our community members, our users more informed... And every six months is just not frequent enough.
+**Steve Francia:** \[47:51\] Yeah, right now it's every six months, and... Yeah, part of the new design is also to provide a little more contextual information towards what's happening now, and trying to keep our community members, our users more informed... And every six months is just not frequent enough.
 
 **Carlisia Thompson:** Yeah... If you have a typo you wanna fix, you've gotta wait six months. \[laughs\] Or some new information, like a new link you wanna add, you've gotta wait six months.
 
@@ -279,7 +279,7 @@ We've also realized there's a balance there, and especially as we grow, there's 
 
 **Carlisia Thompson:** So I get that a concise, clean brand is easier to communicate, so I get that part... I'm wondering if there is a hope that Go will be seen as mature as it is, that we will also have an impact on adoption not from the perspective of people understanding what Go does - that's, of course, a big part if you're going to adopt a language - but also because it will seem more serious and mature, and also that Google is investing in the language to the point of even wanting to do this... Is there anything like that in the general thinking for the reason to come up with this branding?
 
-**Steve Francia:** \[00:51:59.26\] It's a great question. I'm gonna answer it by pointing us to another part -- in fact, it's the final part that we haven't really talked about yet, of the brand guide. There's a section in it called _Our Audience_ and... We've never done this before. Go has had kind of an implicit audience from the beginning, of generally systems programmers with a CS background. And even though we've never articulated that, if you read through our material that's been developed, and our documentation, it's kind of the implicit audience. We don't explain programming concepts anywhere, we expect that you know them, throughout our documentation. We often make comparisons to different languages (like C) in the documentation.
+**Steve Francia:** \[51:59\] It's a great question. I'm gonna answer it by pointing us to another part -- in fact, it's the final part that we haven't really talked about yet, of the brand guide. There's a section in it called _Our Audience_ and... We've never done this before. Go has had kind of an implicit audience from the beginning, of generally systems programmers with a CS background. And even though we've never articulated that, if you read through our material that's been developed, and our documentation, it's kind of the implicit audience. We don't explain programming concepts anywhere, we expect that you know them, throughout our documentation. We often make comparisons to different languages (like C) in the documentation.
 
 As part of this, we set forth that we really -- for where we are, and the growth that we're experiencing, and our goals, we believe that Go could be the next mainstream language, with broad adoption across the industry. And to get there, we recognize that there was three different audiences we needed to focus on, and we've articulated them in the brand book. The first one is potential in new programmers. These potential Go programmers and new programmers - meaning people new to programming - this is an audience that we haven't ever targeted in the way that we want to target now... So this is an explicit declaration that we believe our audience is now people new to Go and new to programming. That has broad impact across all that we do. And we talk about the key messages that we want to target for that audience, and I'll leave it to the listeners to read what they are in the brand book.
 
@@ -289,7 +289,7 @@ The third audience is existing Go users. We definitely want to embrace these new
 
 So I think as you read through this, you'll see... This is an answer to your question - part of it is conveying maturity; not just in visual, but in our language and everything else. We really wanna communicate the reality that Go is ready for production use, that you're not taking a risk to use it.
 
-\[00:56:01.06\] One of the challenges and opportunities of joining Google is you get to learn a lot of information that you didn't know as a member of the community. Now I've got an opportunity to work with many companies who've embraced Go, some of which have been vocal about it, and some of which have not... And it's amazing to see the ones who haven't, and how Go adoption is much broader than I ever knew as a community member... And how these companies have embraced Go, and how often thousands of programmers are using Go within these major companies, that for their own reasons haven't been vocal about talking about that yet.
+\[56:01\] One of the challenges and opportunities of joining Google is you get to learn a lot of information that you didn't know as a member of the community. Now I've got an opportunity to work with many companies who've embraced Go, some of which have been vocal about it, and some of which have not... And it's amazing to see the ones who haven't, and how Go adoption is much broader than I ever knew as a community member... And how these companies have embraced Go, and how often thousands of programmers are using Go within these major companies, that for their own reasons haven't been vocal about talking about that yet.
 
 We're trying to surface that a bit more, and let people know that Go is ready, and Go is mature, and Go is a safe decision to make. So I hope that answers the question... I think that part of it is really -- we're trying to target different audiences, with different messages than we have in the past, and a big part of that is letting decision-makers know the value of Go, and how it's not a risky decision to make.
 

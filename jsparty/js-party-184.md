@@ -6,7 +6,7 @@
 
 **Amal Hussein:** Yeah. Jerod, this is my life, really. I mean, it feels like the longer I go in my career, the less and less code I write. And in some ways it's good, in some ways it's annoying. \[laughs\] In some ways it's good, because -- I think the thing that's changed for me is, you know, when you first start out and you're really excited about software, and you get your first job, and you get your first task, the thing you first start doing is banging your keys in the keyboard. You go right into the code, you don't even think. And then you're thinking and coding at the same time, and all the cycles... You have like 20 million cycles before you get to the solution, because you're really bad at parallelizing your thought stream... Because it's hard to write software and think about how you're going to write software at the same time, to do it well anyways... It takes years of experience to do that seamlessly.
 
-\[00:04:11.27\] And now, the more mature you get, you realize - no, no, no. You have to really design the solution, think about it, iterate on it, outside the keyboard sometimes... Potentially, depending on how large the problem is, get feedback from colleagues, align on it so you're not arguing in your PR, you don't have like a 200-comment PR, because people have opinions, and you've solved it a different way.
+\[04:11\] And now, the more mature you get, you realize - no, no, no. You have to really design the solution, think about it, iterate on it, outside the keyboard sometimes... Potentially, depending on how large the problem is, get feedback from colleagues, align on it so you're not arguing in your PR, you don't have like a 200-comment PR, because people have opinions, and you've solved it a different way.
 
 So there's just so much that goes into that pre-time... So in a sense, I'm happy now that I spend less time on the keyboard, because I know when to just focus on the keyboard... But I think the annoying thing comes for me in that the flipside is also for me that being a principal, a lead engineer now, we're just ahead of people, and you're in this crazy land between engineering and product and design, and architecture, and platform, and this and that... And IT sometimes even, and support... You're in this world with all these other people that aren't writing software all the time necessarily; there are other stakeholders, technical or non-technical... And yeah, I'm just spending a lot of time there, coming up with how we're gonna do what we need to do, iterate on that, and then come to my team with a plan. And then it's like "Go!"
 
@@ -20,7 +20,7 @@ So there's just so much that goes into that pre-time... So in a sense, I'm happy
 
 I'm trying to think about how I work and how things happen in the open source world - there are certainly quite a few differences in how work is done, and who does the work, and where the ideas come from, and how those ideas get bounced around to stakeholders or not...
 
-**Amal Hussein:** \[00:07:48.12\] There's some interesting parallels though, Chris... For example, folks thinking that a lead maintainer of a large open source project needs to have the highest number of commits, which is completely a very false correlation. There's so much governance that goes into open source, so I think for me there's lots of parallels with enterprisy product companies. Lots of parallels, wouldn't you say?
+**Amal Hussein:** \[07:48\] There's some interesting parallels though, Chris... For example, folks thinking that a lead maintainer of a large open source project needs to have the highest number of commits, which is completely a very false correlation. There's so much governance that goes into open source, so I think for me there's lots of parallels with enterprisy product companies. Lots of parallels, wouldn't you say?
 
 **Christopher Hiller:** Well, I can't say I've really worked on much enterprise software, but it feels a bit like night and day to me. I spent the earlier part of my career working in product companies, building products, working in a team, essentially collaborating with designers and product people and all that sort of thing, for the past five years or so, and it doesn't look like that. And I prefer what I'm doing now, obviously... \[laughter\]
 
@@ -62,7 +62,7 @@ I'm trying to think about how I work and how things happen in the open source wo
 
 **Amal Hussein:** Cogs. Just kidding.
 
-**Jerod Santo:** \[00:11:56.15\] But as developers -- I mean, all three of us here are developers, whether we're actively coding day in and day out or not, at a certain point some sort of idea or spec or need comes to you, and you're still pre-code. Like, "Here it is..." Whether it's a JIRA ticket that tells you exactly what needs to happen - okay, kind of not that interesting. But most of your tickets are written in a way that still you don't know what to do when you get it, right?
+**Jerod Santo:** \[11:56\] But as developers -- I mean, all three of us here are developers, whether we're actively coding day in and day out or not, at a certain point some sort of idea or spec or need comes to you, and you're still pre-code. Like, "Here it is..." Whether it's a JIRA ticket that tells you exactly what needs to happen - okay, kind of not that interesting. But most of your tickets are written in a way that still you don't know what to do when you get it, right?
 
 **Amal Hussein:** \[laughs\] "Is this English?"
 
@@ -102,7 +102,7 @@ I'm pretty new to having this as a defined part of my role... So if there's a be
 
 **Jerod Santo:** Well, that sounds like a really fun role. I've done that some, but never been cut loose to just research and develop. I sure would like to. Oftentimes when I do those things, it's at the cost of something that I'm not doing, which I know I should be doing, or I could be doing. So there's opportunity cost, which tends -- as someone who's running a small business, you tend to take the opportunity cost very highly, because it's like "Well, these things need to get done, or else things fall apart." And these things might be great, but they're gonna get dropped down. So I would love to have unfettered access to idea prototyping, and being able to just throw code away when it's not panning out.
 
-**Christopher Hiller:** \[00:16:12.08\] Yeah. I wouldn't call it unfettered. It still needs to make sense.
+**Christopher Hiller:** \[16:12\] Yeah. I wouldn't call it unfettered. It still needs to make sense.
 
 **Jerod Santo:** Well, sure. I mean unfettered in terms of -- it's a part of what your allotted work time is for.
 
@@ -178,13 +178,13 @@ I'm pretty new to having this as a defined part of my role... So if there's a be
 
 **Jerod Santo:** Hm... Slice and dice.
 
-**Amal Hussein:** \[00:20:03.07\] I'm like, "I need to get from point A to point B", and it's like "Okay, most efficient route." That's it. And the only reason why I know what the most efficient route is, or my preferred route, is because I've thought about it in advance of writing anything, or touching the keyboard.
+**Amal Hussein:** \[20:03\] I'm like, "I need to get from point A to point B", and it's like "Okay, most efficient route." That's it. And the only reason why I know what the most efficient route is, or my preferred route, is because I've thought about it in advance of writing anything, or touching the keyboard.
 
 **Jerod Santo:** Okay.
 
 **Amal Hussein:** So yeah, that's my -- you know, it's required for me. It's very anxiety-inducing to write code before you know exactly how you wanna finish the solution end to end... It gives me anxiety.
 
-**Break**: \[00:20:30.29\]
+**Break**: \[20:30\]
 
 **Jerod Santo:** I kind of take the Mike Tyson approach... He says "Everybody has a plan till they get punched in the face."
 
@@ -226,7 +226,7 @@ That doesn't mean I don't put any thought into anything. I'm not just like a "He
 
 **Jerod Santo:** Draw a marker right there, I'm gonna cut that one out...
 
-**Amal Hussein:** \[00:23:55.22\] Could you just anonymize my voice? I don't wanna forever be associated as the woman who's -- "Is she the woman behind "Jerod, your mind is a powerful weapon"? \[laughter\] You know, that's my claim to fame now...
+**Amal Hussein:** \[23:55\] Could you just anonymize my voice? I don't wanna forever be associated as the woman who's -- "Is she the woman behind "Jerod, your mind is a powerful weapon"? \[laughter\] You know, that's my claim to fame now...
 
 **Jerod Santo:** Yeah.
 
@@ -272,7 +272,7 @@ That doesn't mean I don't put any thought into anything. I'm not just like a "He
 
 Makers' hours are a thing, and they're different than manager hours... And I think we should be working more towards making our makers as happy and comfortable as possible... Because writing software is an art, and you have to respect the creative brain that's required to produce that.
 
-**Break**: \[00:28:10.16\]
+**Break**: \[28:10\]
 
 **Jerod Santo:** For this segment we're gonna be talking about a recent Dan Abramov blog post about npm audit, which probably at this point we're all aware of npm audit; that's one of the things this post is covering.
 
@@ -282,7 +282,7 @@ And Dan goes through, in great detail, how npm audit works that way, mostly becu
 
 I'm curious what you two think of what Dan has to say about npm audit itself, but also about this general software challenge of tooling that is overly noisy and ends up basically making itself useless. Think of notifications and things that we build in order to notify us when there's problems such as this, which - in theory, it's very useful knowing when your code has vulnerabilities. It's very useful. But because of implementation or some of the hard problems out there to solve, end up becoming more of an annoyance, and you just ignore it; you just don't pay any attention, like "Oh, I don't pay attention to --" It's like the compiler warnings. "Ah, those warnings don't matter." And then when it actually has something that's real, you're no longer paying attention to it. What do you all think?
 
-**Christopher Hiller:** \[00:32:20.22\] Well, I've complained about this for a couple of years... And npm audit itself I don't see as being necessarily the problem, but it is part of the problem. Essentially, what Dan's saying in this article is "Okay, somebody has paid a security researcher to go and find prototype pollution bugs in these random JavaScript libraries", or what have you. And that library might be consumed by, say, a build tool. And that build tool will output code, but it doesn't really have anything to do with that vulnerability. a) The vulnerable code path might not even be hit, and b) even if it was hit, the context in which the code is running, which is like a shell, or a command line, is already vulnerable because it's already a shell.
+**Christopher Hiller:** \[32:20\] Well, I've complained about this for a couple of years... And npm audit itself I don't see as being necessarily the problem, but it is part of the problem. Essentially, what Dan's saying in this article is "Okay, somebody has paid a security researcher to go and find prototype pollution bugs in these random JavaScript libraries", or what have you. And that library might be consumed by, say, a build tool. And that build tool will output code, but it doesn't really have anything to do with that vulnerability. a) The vulnerable code path might not even be hit, and b) even if it was hit, the context in which the code is running, which is like a shell, or a command line, is already vulnerable because it's already a shell.
 
 It's just like all these warnings basically become then irrelevant. Now why is it this way? Well, static analysis of security problems - that's what npm audit does; it looks and sees "Oh, is there a dependency there that has an associated CVE?" "Oh, yes." And that's essentially all it's doing. And certain other companies, that start with an S and end with a k - they do something similar, where it's like "Let's analyze your dependencies and see which ones are broken." But as I said before, it doesn't know that you're actually using the vulnerable code, and it doesn't know where that vulnerable code will be run, because it's examining code at rest. Code at rest is a text file. It's not a security risk until it is run. So then wherever the code is run, that's where you should worry about your attack surface.
 
@@ -304,7 +304,7 @@ So then there's these two problems. One is the boy who cried wolf, where you're 
 
 **Amal Hussein:** Absolutely. Compliance.
 
-**Christopher Hiller:** \[00:35:46.05\] Sure. And the way Npm works - and maybe you can get around this problem with yarn - is that if something like Mocha is consuming some transitive dependency that's broken, well, Mocha is going to have to upgrade out of that. It's not something that the consumer can do directly, which --
+**Christopher Hiller:** \[35:46\] Sure. And the way Npm works - and maybe you can get around this problem with yarn - is that if something like Mocha is consuming some transitive dependency that's broken, well, Mocha is going to have to upgrade out of that. It's not something that the consumer can do directly, which --
 
 **Jerod Santo:** Yeah, it's a supply chain problem. It's outside of your control.
 
@@ -332,7 +332,7 @@ For me, I feel like we've kind of created this problem for ourselves by not havi
 
 But that should just be part of the spec, and parts of that data should be crowdsourced, or there should be a consensus, or some way of saying "Okay, 700 people agree that this is not important. Over 90%, or whatever high number/percentage of people, this number of minimum threshold..." Similar to like a machine learning training model, usually you wanna give it a score, like "Hey, this machine learning algorithm is 80% sure that this is a picture of a cat." Something like that for saying like "Hey, this vulnerability is not applicable to your context, so it's safe to ignore", and that could just be part of a configuration where you specify where these dependencies are being used, and in what context... And based on that, you have a customized report output of what's actually a vulnerability to you. I just feel like we can fix this problem for ourselves if we take that approach. I don't know if you think that would work, Chris...
 
-**Christopher Hiller:** \[00:40:46.27\] For some small subset of people it is going to be helpful, because it is going to surface an actual vulnerability. And so yeah, you wanna know about it. You wouldn't want that information to be squelched because it's not a problem for most people, but it actually is for you. I don't know, and I don't know what to do about that. I feel like whatever the real endgame solution is, it needs to be a combination of examining your code at rest and examining your code in the runtime, and what happens when it runs... And that's gonna vary depending on the language and platforms that you use.
+**Christopher Hiller:** \[40:46\] For some small subset of people it is going to be helpful, because it is going to surface an actual vulnerability. And so yeah, you wanna know about it. You wouldn't want that information to be squelched because it's not a problem for most people, but it actually is for you. I don't know, and I don't know what to do about that. I feel like whatever the real endgame solution is, it needs to be a combination of examining your code at rest and examining your code in the runtime, and what happens when it runs... And that's gonna vary depending on the language and platforms that you use.
 
 JavaScript, as we can see from this whole debacle - you're gonna learn more about if a program is actually vulnerable when that code is running, because it will have hit the code. And how do you know if something hits a code path? Well, you probably figure that out with -- I can't remember the word for it... It's like proving your code is correct; it's like a way to prove... I can't remember the word for it, but you can do that with certain languages, but probably not JavaScript. You could prove that "Hey, this vulnerable line will get run, or it won't get run, or it could get run", and that sort of thing.
 
@@ -352,7 +352,7 @@ I think if you're running, say, tests, that's a great opportunity to do this sor
 
 **Amal Hussein:** Yeah... It's similar to kind of -- you know, GitHub should be invested in the ecosystem, because the ecosystem is what feeds them, right? A healthy developer ecosystem, a healthy open source ecosystem, whatever the hell else... So they would be the perfect people to tackle this problem deeply, because they can; they have the resources to do it, and the connections, and whatever, all of that stuff. This would be an area for them to demonstrate some leadership. I hope they do... We'll see.
 
-**Jerod Santo:** \[00:44:12.04\] So Dan did post three quasi-solutions or workarounds, a couple that we've discussed here, none of which are spectacular. I think short-term what Npm should do is cut a new version of the client and just disable the default. Let us opt into this, versus opt out. Probably they're not gonna do that, but I think that would at least take care of the crying of the wolf... And you know, if you want someone to yell at you, then you have to pass the flag.
+**Jerod Santo:** \[44:12\] So Dan did post three quasi-solutions or workarounds, a couple that we've discussed here, none of which are spectacular. I think short-term what Npm should do is cut a new version of the client and just disable the default. Let us opt into this, versus opt out. Probably they're not gonna do that, but I think that would at least take care of the crying of the wolf... And you know, if you want someone to yell at you, then you have to pass the flag.
 
 **Amal Hussein:** Npm has been making some pretty bold changes lately, some very aggressive ones. For example, peer dependencies being installed for you in v7. I don't know if you're aware of this, Chris... Basically, v7 is potentially a massively breaking change for lots of people because of this peer dependency install...
 
@@ -368,7 +368,7 @@ I think if you're running, say, tests, that's a great opportunity to do this sor
 
 **Amal Hussein:** Yeah, but that's the thing... It's like, changing the spec at this stage, at the scale that they're at - oof... I don't know. I mean, the reality is most people who use Npm upgrade with their Node version. Rarely does the average company/set of users do an Npm install \[unintelligible 00:46:37.17\] Because Npm is an Npm package, by the way. I know, it's super-meta. But \[unintelligible 00:46:45.17\] is what you use to bump your version of Npm, which doesn't depend on the version of Node. So people aren't gonna start hitting this until they get to later Node versions; it's been caught with v7, so... You know, it could be a slow-rolling discovery, and that's why it's really -- you need to be really responsible when you have a tool that's that widely adopted and used. You can't just do things that are even mildly risky. You have to be conservative. And that's why I just feel like with this change, and the peer dependency thing - I don't know there's just been some... Whatever. I mean -- I have some interesting insight into some of the cultural changes since the acquisition, which could be attributed to this... But yeah, I think things are just a little too rogue for something that's that widely used, in my opinion.
 
-**Christopher Hiller:** \[00:47:46.13\] Yeah. I mean, I do want them to turn it off, but that's probably gonna break somebody, right? Changing defaults - you don't wanna change defaults.
+**Christopher Hiller:** \[47:46\] Yeah. I mean, I do want them to turn it off, but that's probably gonna break somebody, right? Changing defaults - you don't wanna change defaults.
 
 **Amal Hussein:** That's what I'm saying. You don't. At all. You should try to preserve backward-compatibility as much as possible, with your life almost, you know what I mean? You know what - somebody made a comment recently about how scripting tools like Npm, or a CLI, these little JavaScript modules that we write, and there's people who have hundreds of JavaScript packages - scripting in particular, it's a very unique type of engineering. It's like, there's a whole different set of constraints that they need to think about when you're connecting with the OS and you have to manage versions... Their dependency tree and matrix is quite large. There's lots of different variations of considerations to take into play, so... It's a hard job. I don't envy those engineers. Kudos... It's easy for us to judge, but I know it's a hard job.
 

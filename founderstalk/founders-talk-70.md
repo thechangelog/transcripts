@@ -10,7 +10,7 @@ The first year of university I saw this ad on the local marketplace for an infra
 
 **Adam Stacoviak:** Oh, yeah. I loved Geocities.
 
-**Sid Sijbrandij:** \[00:04:01.03\] Yeah. And it was open source, already at that time - the software, but also the hardware to run the device. And there was a big banner on the site that said "I'm not selling these." Like "Huh? That's weird. He IS selling them." And I figured out he didn't wanna deal with sending individual orders across the ocean... So that was my first business - I bought them from the person making it (he was a PhD student) and I started selling them. I asked people to send me cash with some cardboard behind it, so you could less easily spot it, and that's how I got in business. It was fun, we did that for a couple of years. After graduating I did an internship at IBM, the IBM Extreme Blue program. That was super-fun. We got to work on a conversation bot.
+**Sid Sijbrandij:** \[04:01\] Yeah. And it was open source, already at that time - the software, but also the hardware to run the device. And there was a big banner on the site that said "I'm not selling these." Like "Huh? That's weird. He IS selling them." And I figured out he didn't wanna deal with sending individual orders across the ocean... So that was my first business - I bought them from the person making it (he was a PhD student) and I started selling them. I asked people to send me cash with some cardboard behind it, so you could less easily spot it, and that's how I got in business. It was fun, we did that for a couple of years. After graduating I did an internship at IBM, the IBM Extreme Blue program. That was super-fun. We got to work on a conversation bot.
 
 After that, I had the option to get a job there permanently, and I was looking at strategy consulting... But I couldn't stop thinking about submarines, because my wife and I went to a boat fair and we saw a submarine there, and I kept calling the owner, the investor, like "Joe, hire me." There was nobody on the payroll. There was just an inventor, and then an investor. And it got down to the wire, because I had a job offer in hand, I had to make a decision, and he decided to offer me a job... But he asked what I wanted to earn, and I said something completely reasonable. He proceeded to offer me the salary he thought was reasonable, but that was reasonable 50 years ago... So I was finally poor after graduating. I always figured I'd be the poorest during my student days, but I had to move in back with my parents. I lived in their attic while making the life support system for the submarine.
 
@@ -26,7 +26,7 @@ Most of the time you go with common wisdom. One of our sub-values at GitLab is b
 
 At GitLab we got lucky, and I learned to follow -- when there's a conflict between what the world says and what you think yourself, I'm able to depend a bit more on what I think myself, and I think that's sometimes really handy.
 
-**Adam Stacoviak:** \[00:08:19.27\] See, that's what I mean by these details - your perspective of that time in your life, and how that sort of shaped you to be resilient as an entrepreneur, to sort of go against common wisdom. To me, that's awesome. If there's someone out there that was teased earlier in their life, and you're reminding them of that, and you sort of gave them a new perspective on how you can sort of change that perspective on that moment in your life and use it towards a future that's more joyful. You know, more joy.
+**Adam Stacoviak:** \[08:19\] See, that's what I mean by these details - your perspective of that time in your life, and how that sort of shaped you to be resilient as an entrepreneur, to sort of go against common wisdom. To me, that's awesome. If there's someone out there that was teased earlier in their life, and you're reminding them of that, and you sort of gave them a new perspective on how you can sort of change that perspective on that moment in your life and use it towards a future that's more joyful. You know, more joy.
 
 **Sid Sijbrandij:** I like that. In high school if you stand out and if you're different, it's a problem. Later in life it's an asset to the diversity of thinking and perspectives.
 
@@ -40,7 +40,7 @@ There's many examples like that, where we've tried to learn from what you've see
 
 **Adam Stacoviak:** Would you say that some of your values - if not all your values - capitalize on vulnerability? I wouldn't wanna connect the dots, but you've had some vulnerability younger in your life, and that's a value I see being portrayed... Leveraging your vulnerability is pretty interesting, because it lets you be transparent. Transparency is vulnerability, to some degree, or can be perceived in that case.
 
-**Sid Sijbrandij:** \[00:12:01.04\] Yeah, what we say is that allows us to do iteration and transparency. Some of our most important values is kind of a low level of shame. We're not afraid of sharing that something isn't perfect yet, which is necessary for iteration. If you wanna get something done quickly, it's not gonna be perfect and you've gotta live with it, like "Hey, you could do better work, but you don't have the time to do it." I think we as a company try to have the confidence, like "Okay, this isn't done yet."
+**Sid Sijbrandij:** \[12:01\] Yeah, what we say is that allows us to do iteration and transparency. Some of our most important values is kind of a low level of shame. We're not afraid of sharing that something isn't perfect yet, which is necessary for iteration. If you wanna get something done quickly, it's not gonna be perfect and you've gotta live with it, like "Hey, you could do better work, but you don't have the time to do it." I think we as a company try to have the confidence, like "Okay, this isn't done yet."
 
 One of the web pages I'm proudest of at GitLab is our Maturity page, which shows for every part of the product how good it is. By being frank about that, we can be open and we can iterate and we give ourselves room to ship something that isn't perfect, because we're not pretending it's perfect. I think that's really important. And that comes from the \[unintelligible 00:12:59.05\] had earlier in life. I sent the infrared receivers, and I sent them by postal mail, and most of the time they would arrive in a week, sometimes in two weeks, and sometimes in three weeks. It was just all over the place. We promised to ship them in two weeks, but there was this 5% customers for whom it would arrive late. To this day I kind of regret not being open and just communicating, giving the range to people, and instead pretending something that isn't completely true. So that's what we try to do.
 
@@ -56,7 +56,7 @@ If you're in denial about things as an organization, it makes it really hard to 
 
 **Adam Stacoviak:** I couldn't help but quickly google "DuckDuckGo mental models" and find Gabriel's blog post, and I was skimming that for just a second... Skate to where the puck is going. That's an -ism, but it's definitely a concept to use to explain things, to explain how to do things in business even. You'd mentioned that before, going against the common wisdom. That's a mental model.
 
-**Sid Sijbrandij:** \[00:16:06.20\] Yeah. There's so many core competencies... Conspicuous consumption, price elasticity. The list goes on and on. I'm actually reading the blog post now, during my accent removal classes, and it's been fun to go over them. Many I already know, but there's a lot of new ones, and it's fun to see all these ways of viewing that people invented over time.
+**Sid Sijbrandij:** \[16:06\] Yeah. There's so many core competencies... Conspicuous consumption, price elasticity. The list goes on and on. I'm actually reading the blog post now, during my accent removal classes, and it's been fun to go over them. Many I already know, but there's a lot of new ones, and it's fun to see all these ways of viewing that people invented over time.
 
 **Adam Stacoviak:** I got into -- you said every human is, to some degree, interested in psychology. I could agree with that. Maybe not even self-admitted; not everybody wants to admit that. But I've kind of found some appreciation for it when I was studying behavioral economics, and I was just trying to find -- I got really interested; I'm a curious person, and I got curious about how people make financial decisions. The idea of sunk cost bias, for example, when you continue through something even though you know you've invested -- I'm paraphrasing the behavior, but basically you keep going even though you've put a lot of money in. You know it's a losing game here, but yet you continue, you persevere, sometimes to your detriment. To me, that's what got me interested in psychology, and we started that show called Brain Science.
 
@@ -74,7 +74,7 @@ And the early days, I can recall, was this perception that -- you know, GitHub w
 
 **Sid Sijbrandij:** Yeah, so GitLab was created by my co-founder, Dmitriy. He created it because he needed it. He had two things he wanted to improve. He wanted running water, and he wanted better collaboration tools at work. And he started with the latter. When he created GitLab, it was to solve his own need, but he also open-sourced it, and within a year he got 300 people contributing back to it.
 
-\[00:20:05.14\] That's when I saw it on Hacker News, and I thought "Oh, that's interesting." I'd recently become a developer; I became a developer later in life, and I was surprised that all the tools I used were open source. I was a Ruby on Rails developer, and it's amazing what ecosystem you get with Ruby on Rails, and all of that came for free... Except there was GitHub, and it was not free and it was not open source. It struck me as very ironic that the thing you collaborate with is not something you can contribute back to.
+\[20:05\] That's when I saw it on Hacker News, and I thought "Oh, that's interesting." I'd recently become a developer; I became a developer later in life, and I was surprised that all the tools I used were open source. I was a Ruby on Rails developer, and it's amazing what ecosystem you get with Ruby on Rails, and all of that came for free... Except there was GitHub, and it was not free and it was not open source. It struck me as very ironic that the thing you collaborate with is not something you can contribute back to.
 
 **Adam Stacoviak:** Yeah.
 
@@ -88,7 +88,7 @@ Given the timing of GitLab/GitHub, what do you say to people, especially those w
 
 **Sid Sijbrandij:** GitHub and GitLab share a common ancestor in GitWeb. So GitWeb is the interface that came with Git out of the box. It allowed you to run a simple server. So in my mind, I don't know how the name GitHub came about, but I can imagine that it was inspired by GitWeb. Now, the project already had a name when I met it, and if you change it, you change people's URLs, and download directories, and the whole thing... Especially for software, a name change is very disruptive, so we never changed it.
 
-**Break:** \[00:23:48.16\]
+**Break:** \[23:48\]
 
 **Adam Stacoviak:** Let's talk about where you're going. Let's fast-forward quite a bit, just to sort of tease where we're heading. You're planning to IPO this year; November, if I understand correctly, is that right?
 
@@ -96,7 +96,7 @@ Given the timing of GitLab/GitHub, what do you say to people, especially those w
 
 **Adam Stacoviak:** Yes. Over 400 million currently raised, I believe, if I got my numbers correctly. Current valuation - roughly 2.75 billion, which is what I wanna go into... GitHub was acquired a couple years back for 7.5 billion. They were valued at the time for two billion. You're valued now over what they were valued at then... And I'm just curious, when you choose to go -- so their route was a private acquisition, rather than going public (IPO). What is it that makes you choose that route for your company?
 
-**Sid Sijbrandij:** \[00:28:05.27\] Well, first of all, it's not always your decision. The majority of the company is owned by investors. It's not my decision, it's a joint decision with the investors, and if someone came about and offered something that's way more than we ever expected, that we can get to in the future, then I think it'll sell.
+**Sid Sijbrandij:** \[28:05\] Well, first of all, it's not always your decision. The majority of the company is owned by investors. It's not my decision, it's a joint decision with the investors, and if someone came about and offered something that's way more than we ever expected, that we can get to in the future, then I think it'll sell.
 
 The reason that we have the ambition to become a public company is because it would allow us to stay independent. If you stay independent, it's more likely that you'll be a good steward of the open source project, and that we'll be able to preserve and further improve our values and the way we live them. That's important to us, so going public would be a good way to maximize the chances of achieving that.
 
@@ -118,7 +118,7 @@ The reason that we have the ambition to become a public company is because it wo
 
 **Adam Stacoviak:** Yeah.
 
-**Sid Sijbrandij:** \[00:31:57.00\] So that's gonna be super-interesting, to see if we have the resiliency to deal with that as a company.
+**Sid Sijbrandij:** \[31:57\] So that's gonna be super-interesting, to see if we have the resiliency to deal with that as a company.
 
 **Adam Stacoviak:** I believe in you, that's for sure. What I wanna get into - you mentioned that it was not just your decision, but your investors and others who make this decision... And I really wanna understand - if GitHub can be acquired for that amount of money, at that same valuation, and given the annoyances you mentioned that could happen as a public company, and you know... You can share what you'd like, but I would imagine you have at least some early offers, or some indication of interest from people that would be willing to acquire GitLab, or bring you on to a Microsoft-esque, a Goliath like Microsoft... Why go through the pain of being an IPO company, and the scrutiny, when you can be the same company you are with no change whatsoever? How do you factor that decision to continue to go towards IPO, versus an acquisition that kind of gives zero opportunity for disruption of culture.
 
@@ -144,7 +144,7 @@ A thing I can talk about is that in 2014, when GitLab was less than nine people,
 
 But most of the time when a company is acquired there is a strategic benefit. The company is of more value combined with other things than before. For example, what you see with GitHub is they have now all kinds of Azure DevOps functionality, like packages and code spaces. It's now branded as GitHub and shipped as part of the GitHub product. And that's creating a synergy.
 
-\[00:36:07.17\] During the selling process you probably make a plan for what you're gonna do, but you should expect that to continue. And you might not always agree with it. In the end, it's not your company anymore. Over time there's gonna be more and more things you have to do that you don't agree with. So most founders end up leaving after a couple of years, or something like that.
+\[36:07\] During the selling process you probably make a plan for what you're gonna do, but you should expect that to continue. And you might not always agree with it. In the end, it's not your company anymore. Over time there's gonna be more and more things you have to do that you don't agree with. So most founders end up leaving after a couple of years, or something like that.
 
 **Adam Stacoviak:** Personally, you're saying that you like working, you wanna keep working, and any acquisition would possibly change that. Well, not just you, but you know...
 
@@ -174,7 +174,7 @@ But most of the time when a company is acquired there is a strategic benefit. Th
 
 **Sid Sijbrandij:** Never explicitly...
 
-**Adam Stacoviak:** \[00:40:04.11\] Right. Just through your demeanor.
+**Adam Stacoviak:** \[40:04\] Right. Just through your demeanor.
 
 **Sid Sijbrandij:** They never asked me. But the other people were working remote, so I figured that they didn't think it was a big deal.
 
@@ -202,7 +202,7 @@ And then someone in the organization, Emilie Schario, said "Well, I disagree wit
 
 **Sid Sijbrandij:** Yeah. I think externally it really helps people opt into the organization. A lot of the people that ended up joining GitLab were people that saw the handbook and were like "Yeah, I'd like this way of working." I bet there's also a ton of people that see our handbook and are like "I don't like that way of working", and never end up working at GitLab.
 
-\[00:44:17.17\] So I think that companies are gonna become more differentiated. As remote working becomes more common, you don't have to appeal to all the people in your immediate area. If you can appeal to a small group of people, but all over the world, that is enough. So you can be much more opinionated as a company.
+\[44:17\] So I think that companies are gonna become more differentiated. As remote working becomes more common, you don't have to appeal to all the people in your immediate area. If you can appeal to a small group of people, but all over the world, that is enough. So you can be much more opinionated as a company.
 
 I think internally, it causes us to be very intentional. For example, we're very intentional about informal communication. Being remote, you have to design informal communication. It doesn't happen at the water cooler, because you don't have one. But you can still facilitate that, so we have the concept of coffee chats. You are scheduled with someone else once a week, and you get to meet that person for 25 minutes. And it's like having that water cooler conversation, except it's a random person in the company. It could be from another country, it could be from another department. You don't just meet the people on the same floor.
 
@@ -228,7 +228,7 @@ I think intentionality is on average a good thing. Same way with our values - th
 
 **Sid Sijbrandij:** No, I don't.
 
-**Adam Stacoviak:** \[00:48:03.29\] I was curious about those, because I like how you pair that up with these six core values against the -- it could be more dysfunctions, but five most common dysfunctions in organizations. That's an interesting perspective, to identify and capitalize on the opportunity to establish these values - I don't know how to describe them besides just saying values - against the dysfunctions.
+**Adam Stacoviak:** \[48:03\] I was curious about those, because I like how you pair that up with these six core values against the -- it could be more dysfunctions, but five most common dysfunctions in organizations. That's an interesting perspective, to identify and capitalize on the opportunity to establish these values - I don't know how to describe them besides just saying values - against the dysfunctions.
 
 Actually, I think the five dysfunctions is in your list here, so... I think it's "Absence of trust" -- this is based on your Docs, so thank you, Docs... Absence of trust, fear of conflict, lack of commitment, avoidance of accountability, and inattention to results.
 
@@ -252,7 +252,7 @@ Actually, I think the five dysfunctions is in your list here, so... I think it's
 
 We've noticed that after Covid, people were more productive than before. We've always been a remote company, so that wasn't the change; it's logical that people can deal with that. But it's strange that if people now have to take care of their kids, because the schools were closed, and still overall productivity was up... Maybe not for all the people with kids at home, but overall, because there were fewer distractions, people just started working more. And we wanted to make a statement at the company level, like, although we appreciate everyone contributing, this is kind of weird. We want people to take time off. That's why we said, "Okay, the first Friday of the quarter we'll have a no-work day if you can, if your function allows it." We're not gonna have any meetings, and we're gonna work on other stuff.
 
-\[00:52:03.19\] It wasn't so much about that day, it was about the message we send... Like, "Hey, we recognize that everyone is working hard", and people should allow themselves some time off, because it's intense... And if you've worked remote before, you know you're more productive per hour, and you should use some of that productivity to work fewer hours.
+\[52:03\] It wasn't so much about that day, it was about the message we send... Like, "Hey, we recognize that everyone is working hard", and people should allow themselves some time off, because it's intense... And if you've worked remote before, you know you're more productive per hour, and you should use some of that productivity to work fewer hours.
 
 **Adam Stacoviak:** I have a quote here from the article - one thing you said was "Over-working or maintain the status quo during a crisis is not a badge of honor. In fact, I'll be more proud if employees were taking time off to reset and refresh, or spend time adjusting to this new normal with their families."
 
@@ -270,7 +270,7 @@ Last year we tripled the size of our team, and a lot of people come from compani
 
 **Adam Stacoviak:** "I just wanna work!"
 
-**Sid Sijbrandij:** \[00:56:05.03\] Well, I've found a solution. It's called City Skylines. It's a super-awesome computer game, and I'm having a lot of fun with it. But it's hard, and the interesting thing is "Why are games so much fun?" I think one attribute is that level of control. Another attribute is -- I call it transparency, but you have a lot of insight in how the mechanics work. The rules are very clearly defined.
+**Sid Sijbrandij:** \[56:05\] Well, I've found a solution. It's called City Skylines. It's a super-awesome computer game, and I'm having a lot of fun with it. But it's hard, and the interesting thing is "Why are games so much fun?" I think one attribute is that level of control. Another attribute is -- I call it transparency, but you have a lot of insight in how the mechanics work. The rules are very clearly defined.
 
 **Adam Stacoviak:** There's boundaries.
 

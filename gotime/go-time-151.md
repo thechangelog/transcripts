@@ -38,7 +38,7 @@
 
 **Mat Ryer:** Okay, so let's get started then. What's a good reason -- why, first of all, do people want to introduce Go into teams? What are some sensible reasons for this? Got any ideas?
 
-**Chris James:** \[00:03:45.12\] I mean, Go's pretty good, ain't it? The reason it's my language of choice is because any old developer can write some software on their laptop and declare they've made something... But making software that can be used in a broader context, with a team of multiple people, and software that will live not just for a few months, but for many years - that's a whole different skill. And I kind of feel like Go's main strengths are cases towards that kind of thing. Things like the backward-compatibility guarantee I think is a really big thing. In a previous life I had to upgrade a Scala 2.8 project to a Scala 2.10 project. And that took me weeks. You compare that with -- like, in the Go world, it should in theory just be a little, comfy change and you're done.
+**Chris James:** \[03:45\] I mean, Go's pretty good, ain't it? The reason it's my language of choice is because any old developer can write some software on their laptop and declare they've made something... But making software that can be used in a broader context, with a team of multiple people, and software that will live not just for a few months, but for many years - that's a whole different skill. And I kind of feel like Go's main strengths are cases towards that kind of thing. Things like the backward-compatibility guarantee I think is a really big thing. In a previous life I had to upgrade a Scala 2.8 project to a Scala 2.10 project. And that took me weeks. You compare that with -- like, in the Go world, it should in theory just be a little, comfy change and you're done.
 
 So when you bring in things like the testing story, the excellent standard library, it does make a sensible choice, I would say, for a general purpose language.
 
@@ -56,7 +56,7 @@ So I think one of the better reasons that you might have for looking at the CTO'
 
 We talked about this in the last episode, where people wanna learn Kubernetes and all these other things, so all of a sudden they go out and introduce them to the project, and then when they go leave somewhere, it's like "Who's maintaining this? Who knows how to do it?" and nobody on the team does. So I think you need to avoid that sort of reasoning.
 
-\[00:08:21.19\] But one of the upsides to Go, at least for me, is that even if somebody does that and leaves, it's not challenging enough that somebody can't pick it up.
+\[08:21\] But one of the upsides to Go, at least for me, is that even if somebody does that and leaves, it's not challenging enough that somebody can't pick it up.
 
 **Chris James:** Yeah, I think I'd like to add to that... I think its simplicity plays a part in the hiring aspects of the organization as well. As I mentioned before, I used to work in a Scala place and we found it very hard to hire people who were technically strong enough to write good Scala; because it's really easy to write bad Scala. Whereas with Go - obviously, it's not entirely foolproof; you can make mistakes, and things... But certainly, over the past few years, when I've been working with Go and working with less experienced people, I find they can pick it up relatively easily. If they have some familiarity with another general purpose language, they can usually pick it up.
 
@@ -72,7 +72,7 @@ If you're starting a brand new project, you might be able to make the argument o
 
 I did this a while back with filepath.Walk, and I was walking files, and then playing around with different concurrency on the processing of those files. I had to do a simple task. I'm not great in the Bash command line; I'm sure a Bash wizard would be able to just do it with a single line of ugly something... But it was nice for me to explore the concurrency side of Go by tackling that problem. So in a way, I got to explore it myself. At the same time, I was solving a real problem that the team needed solving, and then it was nice to just do a little show and tell of it. I said "Look, this is how I did it. I put the code in the repo somewhere..."
 
-\[00:12:08.18\] Somebody had a similar problem, and they were able to take the code and adapt it, and just solve that problem. And we ended up having like a file walker kind of little tool that we could reuse and just change for different purposes. So yeah, that thing about the tooling, when you've got some little tool that you need, even if it's not gonna be given to customers or even other team members, but solving a real little problem I think it's key.
+\[12:08\] Somebody had a similar problem, and they were able to take the code and adapt it, and just solve that problem. And we ended up having like a file walker kind of little tool that we could reuse and just change for different purposes. So yeah, that thing about the tooling, when you've got some little tool that you need, even if it's not gonna be given to customers or even other team members, but solving a real little problem I think it's key.
 
 And if it's small enough as well, you don't mind throwing it away. If it's a failed test, if you do a little thing and it's not working, or it's too hard... Or if you leave and the team are left with it, if it's small enough, then it's not that big a job to rewrite it or replace it if you need to.
 
@@ -86,7 +86,7 @@ And if it's small enough as well, you don't mind throwing it away. If it's a fai
 
 **Mat Ryer:** There's something about the fact that when you're doing something that you're really interested in, you tend to do a better job. I certainly do. But if I was using Go for the first time to solve something, I would be very motivated to get that to work... So I think that's something that tech leads and managers could take from this. You can enable that sort of situation, you can enable that environment where people are able to have a little autonomy and explore things, and try different things and do little experiments... Which may fail, and that should be okay. You can still do like a brown bag session on it and talk about why it didn't work, if you're doing a Rust one...
 
-\[00:15:56.16\] Or in your case, James, maybe if you're stuck in Vim and you can't get out, or you don't know how to go and change some text, that could be an interesting little lesson, I think. So even if there are things that don't work, they're still interesting, they're still worthwhile, and they're still worth sharing, I think.
+\[15:56\] Or in your case, James, maybe if you're stuck in Vim and you can't get out, or you don't know how to go and change some text, that could be an interesting little lesson, I think. So even if there are things that don't work, they're still interesting, they're still worthwhile, and they're still worth sharing, I think.
 
 **Jon Calhoun:** Speaking of things that don't work, one of our listeners in the Go Slack had mentioned that one of the hard parts is finding talent. And I think you will possibly get that pushback from managers, where they're thinking about hiring new team members, and growing the team, and actually being able to manage this project... And I know that there are going to be real concerns about "We can't introduce ten different languages to our codebase." That's gonna be a challenge. We can't introduce a language where you can't hire people for that, and I think that might be one of the issues now with Go, at least sometimes - people think it's a new language, it's going to be hard to find people.
 
@@ -100,17 +100,17 @@ I think the hiring thing's interesting... Depending where you are, there's just 
 
 I'd say people should try and find good environments. You won't necessarily get to write Go on day one, but if it's a good environment, you might get to it in a few months' time.
 
-**Mat Ryer:** \[00:20:05.14\] How many people was it for you in your case before you felt like you had that critical mass?
+**Mat Ryer:** \[20:05\] How many people was it for you in your case before you felt like you had that critical mass?
 
 **Chris James:** To add some context, this place had about 30-40 software developers, I'd say... And at first I just talked to people about Go, going "It's really cool!" I got two or three people who were like "Yeah, actually this is pretty cool. I'd like to start to learn this." I think it's really important to have some allies with you to help you push this forward. Particularly if you're in a big(ish) organization, you can't spearhead this yourself. You need help. So I had those 2-3 people that I thought were gonna really help me out, and we started just doing things like book clubs, and doing activities at lunchtime, and stuff... And then yeah, I guess we got to a point where we had, say, 10-15 people who are described as "Wouldn't be offended at writing some Go." At that point, it was an easy conversation with a CTO, and I was like "This isn't just me making some snowflake system, and then I'm gonna run away and you're gonna be stuffed. There's gonna be plenty of people who can support the software."
 
-**Break:** \[00:21:09.14\]
+**Break:** \[21:09\]
 
 **Jon Calhoun:** So when you talk about a good environment, I assume one of the things that's there is like - if you work in an organization that's in crunch time pretty much all the time (which really means it's not crunch time) or even if you are in a good environment where... How do I -- basically, you're in a good environment, but you need to get a release out, or something needs to happen, I think one of the things that's key is you have to look for the right timing. You mentioned timing, too; you have to find a good organization that's actually open to this sort of thing, and then you have to find a good time for it inside that organization.
 
 And I think that's something that other people forget, too - you didn't just jump in and say "Hey, let's go write some Go" and pushed for it. You waited until you had the critical mass, you probably waited until like "Okay, we don't have any major things that need to be shipped in the next month. We've got a little bit of wiggle room here." You know, you wait for all those things to sort of line up, and you have a team that's on board... Because I think even then -- if you love Go and you think it's perfect for the problem, if you have a team that just does not like Go, it's not gonna work there.
 
-**Chris James:** \[00:24:00.28\] To your point - let's pretend that I did it all perfectly and executed \[unintelligible 00:24:02.15\] but actually, funnily enough, I think in my first few months there, we were doing an inception... And for those who are unfamiliar with an inception - it's a thing where you get everyone in a room and you have a meeting for two weeks... Which sounds horrendous, but actually, it can be quite fun and engaging...
+**Chris James:** \[24:00\] To your point - let's pretend that I did it all perfectly and executed \[unintelligible 00:24:02.15\] but actually, funnily enough, I think in my first few months there, we were doing an inception... And for those who are unfamiliar with an inception - it's a thing where you get everyone in a room and you have a meeting for two weeks... Which sounds horrendous, but actually, it can be quite fun and engaging...
 
 **Mat Ryer:** To go into each other's dreams?
 
@@ -130,7 +130,7 @@ And I understand that if you have a working ecosystem at a company, it's hard to
 
 And I think the kind of architecture as well probably matters, right? If you've got microservices architecture, one of the advantages of microservices really is that you can have different languages. Maybe they're better-suited for certain tasks... Each microservice could be a different language.
 
-\[00:28:06.03\] Now, there's a cost obviously to that from maintenance, but you could probably make a good case in some situations for this component, this small component would be great in Go, and it's quite low risk; if it doesn't work, we've still got the other component. That's probably not the same in monoliths, I guess...
+\[28:06\] Now, there's a cost obviously to that from maintenance, but you could probably make a good case in some situations for this component, this small component would be great in Go, and it's quite low risk; if it doesn't work, we've still got the other component. That's probably not the same in monoliths, I guess...
 
 **Chris James:** Yeah, I actually made the exact argument when we finally made the push... Because the thing about microservices is they're all hype, and it's an interesting architectural approach, but it's not without its costs. There's a lot of cost to having a distributed system. In general, distributed systems are just hard, right? It's much harder than calling a function if you have to do it over the network, right? There's other things to consider. So definitely when I was talking this through the CTO, I was like "Look, we've put all this investment in a microservices architecture, and one of the definite selling points in my mind of that architecture is it gives you that flexibility to just write a service in a new language, or in a different language, or the best language for the job."
 
@@ -140,7 +140,7 @@ Coming back to the scope of doing things - because we had written the software, 
 
 **Mat Ryer:** I love that. You've mentioned a few things in that which I think are really worth pulling out... Knowing the ins and outs of a thing - so if you're gonna rewrite something that already exists, often figuring out the ins and outs is the hard bit. Implementation tends to be quite easy once you know what you're building... So yeah, that's another good point. If there is something that exists already, and you feel like Go can do a better job at it... And there will be lots of examples in Node; Go compiles right down for different architectures, it does do quite a good job at certain tasks, which other languages won't be able to compete with... So yeah, I think that's a great one. If you can do a better job in Go, that's gonna be a much easier story.
 
-**Chris James:** \[00:31:58.07\] Yeah. And it was nice, because we were basically stuck. We just didn't really know what to do. "We can't just keep throwing more instances at it and hoping for the best." It was just gonna run up a ridiculous bill... \[unintelligible 00:32:07.27\] Two to three weeks. I think we can do it in two to three weeks. And we did. It wasn't the smoothest ride; there were some libraries that were in Node that just weren't in Go, and we had to write that kind of stuff... But still, when I look back at it, it couldn't really have gone better, to be honest. That was really nice.
+**Chris James:** \[31:58\] Yeah. And it was nice, because we were basically stuck. We just didn't really know what to do. "We can't just keep throwing more instances at it and hoping for the best." It was just gonna run up a ridiculous bill... \[unintelligible 00:32:07.27\] Two to three weeks. I think we can do it in two to three weeks. And we did. It wasn't the smoothest ride; there were some libraries that were in Node that just weren't in Go, and we had to write that kind of stuff... But still, when I look back at it, it couldn't really have gone better, to be honest. That was really nice.
 
 **Mat Ryer:** I love hearing that. By the way, if you've just put two fingers up in the air and come up with two weeks, don't then deliver it in two weeks; it makes the rest of us look bad who can't estimate...
 
@@ -164,7 +164,7 @@ He had looked at some things to scale it up and to fix it, and at one point I'd 
 
 The end result happened to be very positive on that one. The server stopped crashing, and everything else that was going wrong stopped happening... And it worked really well. Luckily, this was a project that literally I think the Go code was 150 lines of code, or something... Something super-simple.
 
-\[00:36:05.02\] There was some stuff in front of it to deal with authentication or whatever stuff it needed to do, but the actual Go part was so small that even if it didn't work, we're like "Well, it's not enough code that it's a big deal if it doesn't work." And I think that was one of the nicest experiments I had with that, where we're testing it -- and this was before I knew Go that well even, so it was kind of a nice "See if it works and get some hands-on experience."
+\[36:05\] There was some stuff in front of it to deal with authentication or whatever stuff it needed to do, but the actual Go part was so small that even if it didn't work, we're like "Well, it's not enough code that it's a big deal if it doesn't work." And I think that was one of the nicest experiments I had with that, where we're testing it -- and this was before I knew Go that well even, so it was kind of a nice "See if it works and get some hands-on experience."
 
 But you're completely right, you have to be clear with everybody ahead of time that you don't know for sure this is going to solve the problem... But if it doesn't, I think you also learned something. You realize maybe "It's not CPU-bound because of the reasons we thought."
 
@@ -178,7 +178,7 @@ It feels like because tests is such a first-class citizen - it's right in front 
 
 I think the cultural thing is a really interesting thing across all programming languages. They all have their cultures, and things. Ruby was also very up on the testing thing as well... Yeah, it's an interesting point to me.
 
-**Mat Ryer:** \[00:39:55.00\] Yeah. And the fuzzing proposal - a design proposal - is the same; they're folding it into existing -- the way that tests already work today. I look forward to Learn Go With Fuzzing. That book's gonna be chaos.
+**Mat Ryer:** \[39:55\] Yeah. And the fuzzing proposal - a design proposal - is the same; they're folding it into existing -- the way that tests already work today. I look forward to Learn Go With Fuzzing. That book's gonna be chaos.
 
 **Chris James:** \[laughs\]
 
@@ -194,7 +194,7 @@ I did have one question for you guys, I guess... Earlier when you were talking a
 
 With something like Go, with the type checker and everything else being there because it's a compiled language, static types, it was almost like people complained about the extra work upfront, but the end result was that it allowed you to write tests that focused on the things that actually mattered, and the things that you wanted to test, versus -- I felt like in some of those dynamic languages, people gave up on tests because they got so sick of just writing a bunch of silly tests for all these weird cases... Really, they didn't wanna be testing those. That just felt like a waste of their time. And in reality, you wanna test bigger-picture type things sometimes. Or like if I run this function that's supposed to do X, Y and Z, I wanna see that it does X, Y and Z. I don't wanna go through and make sure that it iterated over these things in this correct order, or did something weird... You don't care about that.
 
-**Mat Ryer:** \[00:44:15.01\] Yeah, that's especially true in JavaScript, or dynamic languages, because I did find myself a lot of the time type-checking, making sure that it behaved when you passed incorrect things in. It's asking for a string, but I'm gonna pass it the entire window. Totally, you can do that in JavaScript. Just give it the window.
+**Mat Ryer:** \[44:15\] Yeah, that's especially true in JavaScript, or dynamic languages, because I did find myself a lot of the time type-checking, making sure that it behaved when you passed incorrect things in. It's asking for a string, but I'm gonna pass it the entire window. Totally, you can do that in JavaScript. Just give it the window.
 
 So yeah, when I wanted really robust code, I did exactly that - I've found myself using testing so that I could make sure it would misbehave properly, or it would gracefully handle those weird things. So yeah, again, I think the minimalism and the simplicity in Go, strong types - its design helps with all that.
 
@@ -204,7 +204,7 @@ So again, I'm writing these things, going like "Make sure you send through a str
 
 It's just doing some of the thinking work for you, because it's too much. Programming is hard enough, without having to think about whether you can pass a string through a function or not.
 
-**Break:** \[00:46:07.22\]
+**Break:** \[46:07\]
 
 **Mat Ryer:** There's another thing... Sometimes it's tempting to really flex and use some of the language features to their fullest, and really show them off... But you can quickly end up with some complicated-looking code, and it'll probably go against your cause if you do that... One example is channels. There are some great things you can do with channels in Go. But actually, if what you really need is just simple concurrency, just consider goroutines and a wait group. So just learn the wait group, and goroutines, and how that works; you can do a lot, it can go a long way with just those two little bits and pieces.
 
@@ -230,7 +230,7 @@ So you should be able to speak positively about Go, and that should be enough. A
 
 **Mat Ryer:** Yeah.
 
-**Jon Calhoun:** \[00:52:01.00\] I think just being aware of that, and empathizing with the fact that not only did they have all that complexity to deal with, but they probably didn't know about it all upfront; they probably had to figure it out as they went, which makes things even more challenging.
+**Jon Calhoun:** \[52:01\] I think just being aware of that, and empathizing with the fact that not only did they have all that complexity to deal with, but they probably didn't know about it all upfront; they probably had to figure it out as they went, which makes things even more challenging.
 
 **Mat Ryer:** Yeah, especially if not everything is described in a test. Sometimes there's little changes that are made throughout the codebase that have a significant impact in some cases, and they aren't always covered explicitly with test code... So they're sort of hidden features, really. That's true.
 
@@ -256,7 +256,7 @@ But if you have a team that's maybe writing some JavaScript, or some Ruby, or so
 
 **Mat Ryer:** Well, we've reached that time again... It's time for Unpopular Opinions!
 
-**Jingle:** \[00:56:21.08\] to \[00:56:40.01\]
+**Jingle:** \[56:21\] to \[56:40\]
 
 **Mat Ryer:** So... Jon just finished his drink... \[laughter\] So do we have any unpopular opinions?
 

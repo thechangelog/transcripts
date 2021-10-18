@@ -32,7 +32,7 @@ Alright, let's jump into it. We're gonna talk about actually using ES6 and ES7, 
 
 **Mikeal Rogers:** I don't know... They've gotten so small and so easy to use that I'm able to use them in ways that you wouldn't use functions before, because it would just be too verbose.
 
-\[00:04:09.24\] There's a couple libraries that I've written for templatized HTML, and using functions inside of a template literal and stuff like that. That would have just been too verbose beforehand, right?
+\[04:09\] There's a couple libraries that I've written for templatized HTML, and using functions inside of a template literal and stuff like that. That would have just been too verbose beforehand, right?
 
 **Alex Sexton:** Sure.
 
@@ -54,7 +54,7 @@ For me, an unbound function is fine, because I'm just not using this inside of i
 
 So it's an interesting perspective of once you kind of switch over, seeing the arrows as a default and the function as this thing that can be different...
 
-\[00:07:53.22\] The problem is that... I forget who he said does this, but the class functions, if you just use the syntax inside classes, or you do a class and then you just tab inside the blocks and you do a function name - that is not an arrow function, it's not lexically bound. You have to do "function name = (arrowFunction) function" in order to get a lexically bound function in there. So it's actually like you kind of have to modify some of that syntax.
+\[07:53\] The problem is that... I forget who he said does this, but the class functions, if you just use the syntax inside classes, or you do a class and then you just tab inside the blocks and you do a function name - that is not an arrow function, it's not lexically bound. You have to do "function name = (arrowFunction) function" in order to get a lexically bound function in there. So it's actually like you kind of have to modify some of that syntax.
 
 Then if you decide "Okay, I'm always gonna use that syntax", the constructor inside of there can't be listed like that. You have to do the constructor the old way, so it could be bound, but you can't bind constructors; then a whole bunch of things like that start getting weird.
 
@@ -74,7 +74,7 @@ So there are still gotchas if you use the class syntax. You could still go furth
 
 **Mikeal Rogers:** Okay. Transitioning a little bit... We're talking about all these features, and my assumption is that we're talking about using them without a compiler, and I think that that may not be your assumption. I'm wondering, where do you have to have a compiler done to ES5 to use this stuff right now? Are there IoT devices that have older dates that we have to worry about? Which browsers still don't support this kind of garbage? I mean, we're not supporting IE6 anymore, right? We're done with that.
 
-**Alex Sexton:** \[00:11:59.23\] Yeah... IE9 doesn't -- IE10 and IE11 get into some of the territory, but still are missing quite a bit. I think the problem is that -- and Babel is perfectly capable of doing this, it's just somewhat uninteresting to try to solve unless there's a performance problem... But if you think about your application, let's say you're using ten new ES star features, and one of them is object spreads, which is totally gonna get in the language, but isn't in any browsers or Node or anything like that. It's just like an obvious thing that we're gonna do, and it's really useful to be able to -- much like an argument spread or an array spread, you can do the same thing into an object. It kind of like finally solves the jQuery.extend thing. So does Object.assign. But the problem is that you're already compiling with Babel at that point, so you're saying "I want all these features in Babel", and you could just say "Well, I just want object spreads and I know the rest will", but at the point where you pull in a compiler, you're like "Well, I might as well just go down to ES5", and I think that's the common way... It's just "Let me pull in everything that I know I need to compile to, because I want to just work everywhere" and then people don't think about it too much past there because there isn't too much of a hit for many things.
+**Alex Sexton:** \[11:59\] Yeah... IE9 doesn't -- IE10 and IE11 get into some of the territory, but still are missing quite a bit. I think the problem is that -- and Babel is perfectly capable of doing this, it's just somewhat uninteresting to try to solve unless there's a performance problem... But if you think about your application, let's say you're using ten new ES star features, and one of them is object spreads, which is totally gonna get in the language, but isn't in any browsers or Node or anything like that. It's just like an obvious thing that we're gonna do, and it's really useful to be able to -- much like an argument spread or an array spread, you can do the same thing into an object. It kind of like finally solves the jQuery.extend thing. So does Object.assign. But the problem is that you're already compiling with Babel at that point, so you're saying "I want all these features in Babel", and you could just say "Well, I just want object spreads and I know the rest will", but at the point where you pull in a compiler, you're like "Well, I might as well just go down to ES5", and I think that's the common way... It's just "Let me pull in everything that I know I need to compile to, because I want to just work everywhere" and then people don't think about it too much past there because there isn't too much of a hit for many things.
 
 **Mikeal Rogers:** This isn't my thinking at all, though. I don't know if Rachel feels similar to this, but I don't use a compiler, like ever, for down to a different language. I only use browsers that support this, and if it's a feature that isn't widely available, I just don't use that feature.
 
@@ -110,7 +110,7 @@ So if you're working in Vue or you're working in React or you're working in Embe
 
 **Rachel White:** I feel like most of the features that I have used and interacted with would have been like things that we touched on already: \[unintelligible 00:15:57.04\] arrow functions, some of the way they're doing class definitions and stuff like that. I guess this is gonna be the same thing that Mikeal was just about to ask - are there any features that you aren't using...? Which ones do you two think are the ones that people aren't really fully embracing or trying out yet?
 
-**Alex Sexton:** \[00:16:18.04\] I guess there's two buckets there... The ones that people aren't trying out yet because they're bad, and the ones that people aren't trying out yet because they aren't' fully aware of them or they aren't fully powerful, or things like that. I guess there's also things that go in both buckets.
+**Alex Sexton:** \[16:18\] I guess there's two buckets there... The ones that people aren't trying out yet because they're bad, and the ones that people aren't trying out yet because they aren't' fully aware of them or they aren't fully powerful, or things like that. I guess there's also things that go in both buckets.
 
 A lot of the stuff we use in Babel and the stuff that we're compiling down to is stuff that isn't even finished getting through ECMA and will change. Modules is something that everyone uses and a lot of the semantics of how modules load haven't been known for a very long time and that's kind of the driving force behind the problem with getting proper modules into Node specifically, because we've been doing it slightly wrong for so long, because we kind of just wanted to compile ahead of time. Now there's a clash in the semantics of how it should really work and we're gonna have to kind of work around that problem for a little while.
 
@@ -138,7 +138,7 @@ Generally, if you're using proxies you're hacking the crap out of a closed libra
 
 **Mikeal Rogers:** Yeah, I remember similar features are in Python metaclasses, and the guidance for metaclasses is "Don't use metaclasses." \[laughs\]
 
-**Alex Sexton:** \[00:19:53.18\] Other things - I'm trying to think... There are definitely proposals that -- I think it's less about... I'll use anything that's kind of in the language; they're pretty conservative, I think, about -- by the time it gets in the language, everyone's already been using it for so long that it's not even that cool. But there are definitely things that are level two in the spec that I don't think are ever gonna make it. Things like you could turn on stuff for immutable types, or even like -- one thing I don't use is decorators; I am skeptical that decorators are gonna go the distance, so I've been avoiding decorators. I don't have any data, I'm just waiting till they're more of a sure thing, I guess, if that makes sense.
+**Alex Sexton:** \[19:53\] Other things - I'm trying to think... There are definitely proposals that -- I think it's less about... I'll use anything that's kind of in the language; they're pretty conservative, I think, about -- by the time it gets in the language, everyone's already been using it for so long that it's not even that cool. But there are definitely things that are level two in the spec that I don't think are ever gonna make it. Things like you could turn on stuff for immutable types, or even like -- one thing I don't use is decorators; I am skeptical that decorators are gonna go the distance, so I've been avoiding decorators. I don't have any data, I'm just waiting till they're more of a sure thing, I guess, if that makes sense.
 
 **Mikeal Rogers:** I used them when I was a Python programmer, and my general feeling is that they complicate more than they simplify.
 
@@ -154,7 +154,7 @@ Ember concurrent uses decorators to do some of their stuff and I think it's a de
 
 **Mikeal Rogers:** Yeah. I think that we've hit a nice little spot here... I think we can take a short break, and when we come back we're gonna get into create-react-app.
 
-**Break:** \[00:22:49.23\]
+**Break:** \[22:49\]
 
 **Mikeal Rogers:** We're gonna get into some new features that just landed in create-react-app. It actually seems like a pretty substantial change.
 
@@ -184,7 +184,7 @@ In general, I haven't paid enough attention to create-react-app to get mad when 
 
 **Mikeal Rogers:** Sure, sure. My first question... So it says something on the order of like "Okay, you can use import/export semantics now without actually compiling down to CommonJS", but it's compiling down to something, just to get into the browser. It's not relying on the browser's support yet.
 
-**Alex Sexton:** \[00:27:55.09\] It could... I think you skipped ahead. Webpack 2 is part of create-react-app now; it used to be based on Webpack 1. Most people were on Webpack 1. Webpack 2 is pretty new and it's a larger departure than a lot of 2.0 would be, so it's gonna take some work to get people moved over. But one of the features of Webpack 2 is that it supports imports and exports natively, like at all, as part of its parser.
+**Alex Sexton:** \[27:55\] It could... I think you skipped ahead. Webpack 2 is part of create-react-app now; it used to be based on Webpack 1. Most people were on Webpack 1. Webpack 2 is pretty new and it's a larger departure than a lot of 2.0 would be, so it's gonna take some work to get people moved over. But one of the features of Webpack 2 is that it supports imports and exports natively, like at all, as part of its parser.
 
 Before, if you gave Webpack 2 imports and exports ES6 modules and you weren't using Babel, nothing would happen; it would break because it wouldn't understand that. So what the steps would be would be compile with Babel to require statements, and then pass this to Webpack, and then Webpack could understand the require statements.
 
@@ -204,7 +204,7 @@ So it's more of a "What does Webpack understand?" rather than... You still more 
 
 **Rachel White:** Oh...
 
-**Alex Sexton:** \[00:31:49.26\] So they've just upgraded Jest I guess two versions. It used to be Jest 18, or something like that. Testing - we should do a whole episode on testing some time in the future, but one of the hardest parts about testing in the past, if you guys have done testing at scale for a web app (which may not be the case), functional tests are so sad... Where you need to pop open a browser with Xvfb and then send web driver commands to it in order to try to click around... They're so slow, they have so many false positives and timeouts and problems, and Chrome automatically updates and breaks all tests, and web driver implementations are shady between the different... But there's so many problems with that that there's this new world of writing unit tests where you can kind of mount components directly into memory, and then kind of write functional style tests as something that doesn't need a browser at all.
+**Alex Sexton:** \[31:49\] So they've just upgraded Jest I guess two versions. It used to be Jest 18, or something like that. Testing - we should do a whole episode on testing some time in the future, but one of the hardest parts about testing in the past, if you guys have done testing at scale for a web app (which may not be the case), functional tests are so sad... Where you need to pop open a browser with Xvfb and then send web driver commands to it in order to try to click around... They're so slow, they have so many false positives and timeouts and problems, and Chrome automatically updates and breaks all tests, and web driver implementations are shady between the different... But there's so many problems with that that there's this new world of writing unit tests where you can kind of mount components directly into memory, and then kind of write functional style tests as something that doesn't need a browser at all.
 
 **Rachel White:** Nice!
 
@@ -226,7 +226,7 @@ So Jest is good at helping you manage those types of things. In general, if you'
 
 So there needs to be good configuration on whether you're kind of in a mode where tests run or get compiled, or whether it's important for them to get recompiled... And most of that's handled to where you're not doing unnecessary work as you're working, and then your tests can still be in new, cool, good ES6-y, Babel-y stuff that you write your other components in. You don't have to switch context to write older-school JavaScript for your tests.
 
-**Rachel White:** \[00:36:25.14\] Great.
+**Rachel White:** \[36:25\] Great.
 
 **Mikeal Rogers:** So moving off of testing, because I think it's boring... \[laughter\] I see that one of the things that it also does is it adds a service worker automatically and has an offline caching strategy, which I think is great that service worker support and PWAs are landing in frameworks like this. I'm terrified at the idea of the framework just implementing a caching strategy that I don't understand...
 
@@ -252,7 +252,7 @@ So I really like these toolkit style CLI helper things doing things like solid g
 
 **Alex Sexton:** You sound skeptical, but \[unintelligible 00:39:52.19\]
 
-**Mikeal Rogers:** \[00:39:52.20\] No, I think just in general -- on the surface this looks like a boilerplate generator, and it's actually very much not just a boilerplate generator.
+**Mikeal Rogers:** \[39:52\] No, I think just in general -- on the surface this looks like a boilerplate generator, and it's actually very much not just a boilerplate generator.
 
 **Alex Sexton:** \[unintelligible 00:40:04.27\] It's like a living boilerplate generator, kind of...
 
@@ -276,7 +276,7 @@ I hadn't looked into it much, because it wasn't really a great place to use it, 
 
 So create-react-app supports this in order to do bundles, which is a huge part of the PWA community's problem. If you follow Alex Russell, you'll know that your JavaScript that you're serving by default is far too large. So if you can turn on HTTP/2 and then do something like a handful of these asynchronous imports for large portions of your application, I think it could go a long way to loading far less JavaScript on load, which is really nifty. I think this is such a good direction to automatically give to people. I hope they use it in the baseline example that they generate... That way people use it.
 
-**Mikeal Rogers:** \[00:44:08.01\] Following on with your talk about scaffolding, it seems like the big difference between this and what Rails does is, like you said, Rails will generate a lot of boilerplate code. This seems to generate a lot of configuration, right? The joke about Webpack is you only write one Webpack configuration and then you copy/paste it into every project.
+**Mikeal Rogers:** \[44:08\] Following on with your talk about scaffolding, it seems like the big difference between this and what Rails does is, like you said, Rails will generate a lot of boilerplate code. This seems to generate a lot of configuration, right? The joke about Webpack is you only write one Webpack configuration and then you copy/paste it into every project.
 
 **Alex Sexton:** Yeah. I mean, that's a makefile joke, but yeah...
 
@@ -292,7 +292,7 @@ So create-react-app supports this in order to do bundles, which is a huge part o
 
 Anyway, I think that it's about time for another break. We're gonna take a short little break here and when we come back we're gonna talk about the project of the week.
 
-**Break:** \[00:46:35.00\]
+**Break:** \[46:35\]
 
 **Mikeal Rogers:** The project of the week this week is Electron. There's been so much stuff about Electron; I'm sure that we've talked about Electron apps on here, I know that the Changelog did a whole episode as well...
 
@@ -300,7 +300,7 @@ Just for some quick background, Electron is a way to build desktop applications 
 
 It was originally broken out of the Atom editor that GitHub was doing. it was initially called Atom Shell, and then Jessica Lord and some of the good people at GitHub moved it into its own project and now it's really taken off.
 
-**Rachel White:** \[00:48:09.02\] And some of the Electron apps that people might know of is like Hyper and Slack, and something that we talked about recently, which is WebTorrent, and stuff like that.
+**Rachel White:** \[48:09\] And some of the Electron apps that people might know of is like Hyper and Slack, and something that we talked about recently, which is WebTorrent, and stuff like that.
 
 **Mikeal Rogers:** Visual Studio Code, my current editor of choice, as well. Yeah, one of the interesting things that I've seen about it is that I think a lot of people initially viewed it as "Oh, I can take my website and turn it into a desktop app." That's sort of what the Slack app does. Or "I can write desktop apps, but it's a pain to do it across browsers, so I will write them in this instead." But what I've seen lately are applications that I don't think would even exist if it wasn't for having unrestricted access to Node.js, and then just being able to put a browser frontend on that. Just the size of the ecosystem is so amazing.
 
@@ -322,7 +322,7 @@ I've seen a lot of people just get up and running so quickly on their ideas beca
 
 **Rachel White:** Have you made anything?
 
-**Alex Sexton:** \[00:51:43.23\] In Electron, no? My experience in Electron has been installing the Electron bin for -- actually, we used Electron in order to do screenshots for our CSS library visual diffs, because it was easier to just run Electron cross-browser, render something and then use the stuff to take a screenshot... And then not even reload pages, just inject the new components into the same page, and then you could take a ton of screenshots all in a row, and it ended up being really fast. I think it was an open source library that we have; I can find a link.
+**Alex Sexton:** \[51:43\] In Electron, no? My experience in Electron has been installing the Electron bin for -- actually, we used Electron in order to do screenshots for our CSS library visual diffs, because it was easier to just run Electron cross-browser, render something and then use the stuff to take a screenshot... And then not even reload pages, just inject the new components into the same page, and then you could take a ton of screenshots all in a row, and it ended up being really fast. I think it was an open source library that we have; I can find a link.
 
 So yeah, I used it for a pretty different thing. That may be an interesting use case of it... It's just a cross-browser environment to run HTML in headlessly, which is kind of cool.
 
@@ -370,7 +370,7 @@ So yeah, I used it for a pretty different thing. That may be an interesting use 
 
 Alright, moving on to our picks... Everybody got their picks locked and loaded?
 
-**Alex Sexton:** \[00:56:12.23\] Yeah, but mine's a copout.
+**Alex Sexton:** \[56:12\] Yeah, but mine's a copout.
 
 **Mikeal Rogers:** Okay... Well, we'll start with your cop-out then, and then we'll go up from there.
 

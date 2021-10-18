@@ -34,7 +34,7 @@ In the previous show, Sam, we talked quite a bit about your past. We even pulled
 
 **Adam Stacoviak:** And sometimes all it is is a title that it takes to do that. We talked at length about a lot of different topics in the past show, and I think the reason why we're doing this part two really is just to dive into more of the inner workings of what you've been doing recently with Cheddar. I know you've had some -- I wouldn't say it's drama, but you've had some opportunities that have jumped at you. I'm assuming that business has been better... I mean, the first two weeks you did $2,100 in revenue, which is not bad. Has that jumped quite heavily?
 
-**Sam Soffes:** \[00:03:51.03\] Yeah, definitely. I just looked, and my credit card alone is $2,200, so more revenue comes from iTunes, and I haven't looked at that today, but... Yeah, I would assume it's almost double what it was last time, for like total. My little graph here is going up, which is awesome.
+**Sam Soffes:** \[03:51\] Yeah, definitely. I just looked, and my credit card alone is $2,200, so more revenue comes from iTunes, and I haven't looked at that today, but... Yeah, I would assume it's almost double what it was last time, for like total. My little graph here is going up, which is awesome.
 
 **Adam Stacoviak:** That's good. I mean, going up is good, right?
 
@@ -64,7 +64,7 @@ I wonder if when I email people that their subscription is up, if I can be like 
 
 **Adam Stacoviak:** Let's dive a little deeper into I guess exactly the business model. The business model isn't exactly a rate sheet for what you charge for the app... Let's talk about the long-term, let's be quite real here. You just came from Hipstamatic -- so if you're just catching up with this and you decided to continue listening, then go back and listen to part one; you'll learn that Sam worked at Hipstamatic, he is a good, well-experienced iOS developer, so he gets paid well, so he's obviously making a good income, but then he decides to do his own thing in lieu of enjoyment of life, which is totally a good thing, but I can imagine you've got expenses, you've got different things...
 
-\[00:08:32.22\] How do you manage what the direction of this business is doing, I guess in particular with Cheddar, since this is your first product? How do you manage the direction and revenue direction in lieu of the income you actually have to make, as you are a one-man army, right?
+\[08:32\] How do you manage what the direction of this business is doing, I guess in particular with Cheddar, since this is your first product? How do you manage the direction and revenue direction in lieu of the income you actually have to make, as you are a one-man army, right?
 
 **Sam Soffes:** Yeah, so I sat down the other day with a friend, and we went through "Here's all my personal expenses, here's all Nothing Magical expenses, and users", and started doing projections based on what I think will happen, and have all my expenses and the company expenses all together, so I can kind of see "Okay, I need..." -- basically, if I can get 50,000 users and my conversion into plus stays the same, then I'll have enough people paying where I can live on it and be totally fine. Everywhere in between, and -- you know, if I add team plans, then how that changes things... I don't know, it's a little scary.
 
@@ -80,7 +80,7 @@ I just sold a bunch more Apple stock. All my savings is in Apple stock, and I so
 
 **Adam Stacoviak:** Not there?
 
-**Sam Soffes:** \[00:11:48.25\] No... I've been busy. Open-sourcing Cheddar for iOS actually took more time than you'd expect, and I'm working on some web fixes and a lot of different things, so I haven't really had a lot of time to spend on it yet... But hopefully in a couple weeks, we'll see. But anyway, that's the next big thing, and I think that will drive revenue a lot, because I already have some really high profile tech blogs that said they wanted to do a piece on it.
+**Sam Soffes:** \[11:48\] No... I've been busy. Open-sourcing Cheddar for iOS actually took more time than you'd expect, and I'm working on some web fixes and a lot of different things, so I haven't really had a lot of time to spend on it yet... But hopefully in a couple weeks, we'll see. But anyway, that's the next big thing, and I think that will drive revenue a lot, because I already have some really high profile tech blogs that said they wanted to do a piece on it.
 
 I don't know, I'm kind of not really worried; I'm not super-focused on revenue. I really don't look at it that often. Today was the first time I looked to see how much income I've had since I think the last time we talked. I'm pretty much just heads down on "These are the features that need to happen to make the product better." Making it better in general makes people happy, and making people happy is more conversions, which is more money.
 
@@ -114,7 +114,7 @@ I guess I'm far away enough from my end of money, but I'm not super focused on i
 
 **Sam Soffes:** So you get 25,000 for the free plan, 500,000 for the $150, and two million for $350. I'm pretty confident I'd get past 500,000 pretty quickly. I don't know. Because basically I wanna track all the API calls from all the clients... Pretty much everything ever, so I can see which third-party apps are being used, or how the iOS app is being used, or track conversions from sign-ups on iOS versus web.
 
-\[00:15:59.07\] I wanna track pretty much everything, and that's a lot of data points. I don't know, I just haven't spent the time to integrate it, because I'm...
+\[15:59\] I wanna track pretty much everything, and that's a lot of data points. I don't know, I just haven't spent the time to integrate it, because I'm...
 
 **Adam Stacoviak:** Busy.
 
@@ -142,7 +142,7 @@ Not a lot of people signed up, I don't think I did a good job telling people tha
 
 **Sam Soffes:** No, it's fine. I've had a couple people like "Hey, I was paying, and honestly, I just don't need more than two. I love your service, but I just don't need to pay..." I was like, "No, it's fine." For a while, I was gonna do like 20, or 10, and then I was 5, and then I was like "Okay, I'm gonna get two", because it's like, I don't know... And for a while it was one, but I wanted you to have the experience of creating a list, so you'd know what you're missing out on, I guess. And before, I had a really fancy, cool design for creating lists, and then I cut it because I didn't have time to finish it. Anyway, I don't know.
 
-\[00:20:07.04\] There's definitely things I can do to improve the conversion, because right now a lot of people don't even know Cheddar Plus exists, because they only have two lists and they don't even know. In the next iOS update I'm gonna add a little more messaging, and on the website... There's a lot of things I can do to optimize, I just need to make time for it.
+\[20:07\] There's definitely things I can do to improve the conversion, because right now a lot of people don't even know Cheddar Plus exists, because they only have two lists and they don't even know. In the next iOS update I'm gonna add a little more messaging, and on the website... There's a lot of things I can do to optimize, I just need to make time for it.
 
 **Adam Stacoviak:** Let's talk about making time. You said the reason why you're not doing those things, you're not focusing on optimization is because you don't have time and you have higher priorities. How do you as the sole person that runs this product -- I don't really know how to word it exactly, but what do you... I'll stumble with my words just a bit more here, sorry about that, but what kind of information do you use? That's the word I was looking for - what information do you use to set priority on what you should be working on and what you should work on next, considering the fact that you're a sole dude doing this? You obviously know your business, as well as the financial constraints and the direction you wanna take the product, so how do you make those choices?
 
@@ -164,7 +164,7 @@ Anyway, so I'm kind of just like -- okay, this week almost all my email besides 
 
 **Adam Stacoviak:** It's good. It's good to be transparent; I think that might even be why people are rooting for you to see this thing through.
 
-**Sam Soffes:** \[00:23:53.26\] Yeah, I mean it's funny people Tweet that Cheddar has good support. I don't think they know it's just me. I don't know if it's good support, I just reply to everyone... If it's in English. I don't usually take the time to do ones that aren't in English, which is kind of rare (a couple a day). I don't know, I mean if making everyone feel heard and just being honest about what I'm doing seems to work out really well. More and more I try not to keep timelines ever, because things will happen and I won't finish.
+**Sam Soffes:** \[23:53\] Yeah, I mean it's funny people Tweet that Cheddar has good support. I don't think they know it's just me. I don't know if it's good support, I just reply to everyone... If it's in English. I don't usually take the time to do ones that aren't in English, which is kind of rare (a couple a day). I don't know, I mean if making everyone feel heard and just being honest about what I'm doing seems to work out really well. More and more I try not to keep timelines ever, because things will happen and I won't finish.
 
 **Adam Stacoviak:** Like coming on Founders Talk Part One of your interview and talking about the Mac app coming out, and it's not here.
 
@@ -184,7 +184,7 @@ I know Mark Jardine tweeted, he was excited about it, and it totally made my day
 
 **Sam Soffes:** Yeah, I remember I've listened to that one. So yeah, I don't know, it's just kind of -- I mean, I haven't done a Mac app since like, gosh, like 2006 or something.
 
-**Adam Stacoviak:** \[00:27:59.18\] It's been a while.
+**Adam Stacoviak:** \[27:59\] It's been a while.
 
 **Sam Soffes:** Yeah, I'm excited to do something new and learn... I don't know. It's good.
 
@@ -210,7 +210,7 @@ And already someone on Hacker News was like "Hey, I'll just take out the Cheddar
 
 I'm not worried about this, but I just think, like, you do have an open door, but I think the internet, at least in the community you talked about, which was the early adopters... You mentioned Twitter and GitHub, if you have that after your @ sign for your email address, then you get to use Cheddar for free...
 
-**Sam Soffes:** \[00:32:13.19\] Yeah.
+**Sam Soffes:** \[32:13\] Yeah.
 
 **Adam Stacoviak:** You know, I did wanna ask a question about that... I'll hold on that one for a second, but if you go on that route, we do kind of surface around an audience of people in that community, in the developer/tech/early adopter community - or geeky community I guess you could even say... We're not exactly all do-gooders, but we don't wanna screw anybody over, and that would be a blatant "Screw Sam over" kind of move. Whoever would do that to try to take revenue away from you... Because that's what you're really concerned about - not taking your code, but misuse of it to impact your revenue path and the overall impact of Cheddar the product, right? That's what you're really concerned about, not so much the code.
 
@@ -242,7 +242,7 @@ That would be kind of neat if you did what Steve Klabnik has done in the past, w
 
 **Sam Soffes:** Yeah.
 
-**Adam Stacoviak:** \[00:35:53.04\] You mentioned Kyle Bragger, so for the listeners that are listening to this show, he's another person that Sam mentioned that's also been on this show, so... I forget which episode it is, but you can go back in the Founders Talk archives and hear about Kyle. This is just before they sold or got acquired - I'm not sure which one it was; I guess it's the same thing, right? - by COLOURlovers though. It's just before that, so there's no mention of that whatsoever, and we didn't even talk about it.
+**Adam Stacoviak:** \[35:53\] You mentioned Kyle Bragger, so for the listeners that are listening to this show, he's another person that Sam mentioned that's also been on this show, so... I forget which episode it is, but you can go back in the Founders Talk archives and hear about Kyle. This is just before they sold or got acquired - I'm not sure which one it was; I guess it's the same thing, right? - by COLOURlovers though. It's just before that, so there's no mention of that whatsoever, and we didn't even talk about it.
 
 **Sam Soffes:** Awesome. I'll have to go listen to that. I haven't heard that one.
 
@@ -268,7 +268,7 @@ So that's just a tough fit... I think most VC's probably wouldn't trust some kid
 
 **Adam Stacoviak:** It's an interesting perspective though that you had there, which is not to try to buy Cheddar or something like that, but to instead become a part of what Nothing Magical can be, because... I don't wanna downplay what you've done with Cheddar, with the product itself at all, but I'll say it like this, because this is just the easiest way I can think of it - it's that if you've done something as well as you have with Cheddar, which is a very simple app in a very saturated, low-cost market, if you've done what you've done here, imagine what you could do with something that has something a lot more viable behind it, and that could make a lot more money.
 
-**Sam Soffes:** \[00:40:05.06\] Yeah, I mean Cheddar -- I wanted to make something consumer-facing, because that's... Like, if I tell my friends, they're excited about that, versus if I'm making some enterprise product, no one cares, right? But yeah, a to-do app is stupid, right? Anyone can make a to-do app.
+**Sam Soffes:** \[40:05\] Yeah, I mean Cheddar -- I wanted to make something consumer-facing, because that's... Like, if I tell my friends, they're excited about that, versus if I'm making some enterprise product, no one cares, right? But yeah, a to-do app is stupid, right? Anyone can make a to-do app.
 
 **Adam Stacoviak:** It's funny when you say that though, because it's self-deprecating. You're like, "What I'm building is stupid, in a sense."
 
@@ -294,7 +294,7 @@ One of the features that this guy implemented I had planned on probably cutting,
 
 **Adam Stacoviak:** I have an idea for you to maybe make pull requests a bit more - I don't know if the word is "lucrative" or just to do it, I guess, to actually help you contribute to Cheddar, and maybe just the fact that to get to learn from your code and be a part of it is one thing, but some sort of incentive to get a pull request accepted by you could be that they get something on Cheddar for free, or a lower cost... Like, Twitter and GitHub get free accounts because they're early adopters and they're sneezers, as Seth Godin would say, but in this case, if you fork Cheddar iOS and you add something substantial or a cool feature that gets accepted, maybe you give them a month free or a free account, whatever makes sense to you.
 
-**Sam Soffes:** \[00:44:10.20\] Yeah, it's definitely -- like I was talking about, I'm gonna send them a shirt or give them an account, or something.
+**Sam Soffes:** \[44:10\] Yeah, it's definitely -- like I was talking about, I'm gonna send them a shirt or give them an account, or something.
 
 **Adam Stacoviak:** Just something special is what I'm trying to say.
 
@@ -318,7 +318,7 @@ One of the features that this guy implemented I had planned on probably cutting,
 
 I don't know, once I have free time - which who knows when that will be - I'm definitely excited to work on Cheddar for Android, but it probably won't be for quite some time before I'll even begin on it. But yeah, I mean... My post was kind of saying I'm tired of iOS, because I've been doing it for - like we were saying last time - the maximum amount of time possible, since I started when the SDK came out.
 
-\[00:47:50.14\] I find myself enjoying writing server code and front-end stuff a lot more than iOS now, just because it's something new and exciting, and I can see the results of my work a lot quicker, versus spend several weeks on an iOS update and submit it, and then a couple weeks later people get to finally use it and it takes forever to update, and all that stuff.
+\[47:50\] I find myself enjoying writing server code and front-end stuff a lot more than iOS now, just because it's something new and exciting, and I can see the results of my work a lot quicker, versus spend several weeks on an iOS update and submit it, and then a couple weeks later people get to finally use it and it takes forever to update, and all that stuff.
 
 So I don't know, I mean, I'm definitely not gonna stop doing iOS anytime soon, but it's just -- I'm not excited to write code just for the sake of writing code... But I'm excited to learn something new, and the challenge of making a quality Android product. Because on my Nexus 7 there's very few good apps, so I'd be excited to join the list of good apps on Android.
 
@@ -334,7 +334,7 @@ The best way to start is like "Okay--" I have a friend who did this, he's like "
 
 I feel like everyone's thinking about learning, talking about it... It's kind of like a little frustrating. Before - I think I wrote this post years ago. My friends from high school were like "Oh, I wish I could do what you do", because they'd see I get paid a lot as an engineer (or used to), and they're working retail right out of high school... And it's like, "Well, no you don't. If you wish you knew how to do it, you would do it. It's not hard. Just start."
 
-\[00:52:07.19\] Or even Ruby on Rails - I didn't know Ruby or Rails, and I watched a 15-minute video and I was like "This looks awesome." I downloaded it and by the end of the week I had a blog running. I didn't know what I was doing at all. I had no idea even how to use Ruby. I was just kind of like figuring out little things, and I had no idea what I was doing, but it worked... Awesome.
+\[52:07\] Or even Ruby on Rails - I didn't know Ruby or Rails, and I watched a 15-minute video and I was like "This looks awesome." I downloaded it and by the end of the week I had a blog running. I didn't know what I was doing at all. I had no idea even how to use Ruby. I was just kind of like figuring out little things, and I had no idea what I was doing, but it worked... Awesome.
 
 And seeing that first time when you make something that works is spectacular. Now you're motivated to keep going, versus like -- reading a textbook is like "Oh, this is so silly." Anyway, that was my rant for the week, I guess... It's like, just do it. And a bunch of people are like "This is amazing! I just ordered this book and I'm gonna start right now", and I'm like "Great! Do it! What are you making?" They tell me about their little project, and it's like "Awesome!" I'm glad I can inspire somebody, I guess, by just yelling at the internet. That's good.
 
@@ -364,7 +364,7 @@ A hundred years ago finding out how to do something was so much harder. You had 
 
 **Sam Soffes:** Yeah, I try to be, I guess... I don't know, I had a friend once tell me I was too optimistic. We were starting a company in high school together... From the last episode, my friend that's also named Sam. And we were having some financial trouble, we were trying to figure this out, we had no idea what we were doing... Like, "No, it will be fine. We'll figure it out. We'll just do it", and he was like "We can't just do it, what do you mean? We've gotta plan--"
 
-**Adam Stacoviak:** \[00:56:10.11\] "We've gotta worry a lot about things."
+**Adam Stacoviak:** \[56:10\] "We've gotta worry a lot about things."
 
 **Sam Soffes:** "What's gonna happen?" I was like, "Yeah, don't worry about it, we'll figure it out." A friend hired us to write that YouTube rip-off I mentioned last time, and we had never done any video encoding, had no idea how to work on video at all... I was like, "Oh yeah, we can build this", and he was like freaking out; I was like "No, we'll just figure it out. It won't be that hard." And we did, and it worked, so... I don't know. I just kind like -- I think I don't worry kind of to an extreme, because I'm living on my savings and I'm making very little money, and it's kind of like "Oh, whatever... It'll be alright."
 
@@ -396,7 +396,7 @@ I've got a ton of people on Twitter going nuts, like saying that "retire" is the
 
 Granted, if something goes crazy and I sell it or something for like millions of dollars, amazing! I don't have to work for the rest of my life if I don't have to. That'd be amazing. So not that I'm motivated by money, but that would be a really cool thing, financial independence. I said in the post, "Money isn't exciting, building a product is exciting" and a bunch of people liked that quote. I mean, it's true, but granted, being financially independent would be pretty awesome, so... I don't know.
 
-**Adam Stacoviak:** \[00:59:58.24\] Yeah, I was actually gonna pull out an excerpt just so the listeners of this show can kind of just hear some of what you've written, and what I was gonna read was not that exact piece, but that whole paragraph where you say -- and I even kind of said this a bit ago, where I said "You have tons of potential, you're young", so you say here you have unlimited potential to move up, what you're working on is super exciting, and you've always said that money isn't exciting, but building a product is exciting, and that if you had a job offer for a quarter of a million dollars - you said $250,000, but I think it sounds better when you say a quarter of a million dollars...
+**Adam Stacoviak:** \[59:58\] Yeah, I was actually gonna pull out an excerpt just so the listeners of this show can kind of just hear some of what you've written, and what I was gonna read was not that exact piece, but that whole paragraph where you say -- and I even kind of said this a bit ago, where I said "You have tons of potential, you're young", so you say here you have unlimited potential to move up, what you're working on is super exciting, and you've always said that money isn't exciting, but building a product is exciting, and that if you had a job offer for a quarter of a million dollars - you said $250,000, but I think it sounds better when you say a quarter of a million dollars...
 
 **Sam Soffes:** It's so much money.
 

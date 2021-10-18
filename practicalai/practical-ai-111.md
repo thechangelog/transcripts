@@ -16,7 +16,7 @@
 
 **Daniel Whitenack:** We'll see, yup. Well, we decided that -- at least on my end, I wanted a break from anything political...
 
-**Chris Benson:** \[00:04:09.22\] Thank goodness.
+**Chris Benson:** \[04:09\] Thank goodness.
 
 **Daniel Whitenack:** ...and a little bit of a chance to be practical, as we are here at Practical AI... So this week we've asked Lukas Biewald, who's founder and CEO at Weights & Biases to join us, and talk about a lot of the things that they're doing in terms of developer tools for ML, and maybe some other stuff. Welcome, Lukas. It's great to have you with us.
 
@@ -44,7 +44,7 @@ And kind of what I saw was the tooling just seemed nascent, and it felt like a l
 
 **Daniel Whitenack:** Yeah, so definitely check out that podcast as well; we'll put the link in the show notes. Has it been interesting in terms of, you know, kind of after being a practitioner, being a founder for a while? Has it been interesting having conversations on your podcast with other practitioners? Have there been viewpoints that have surprised you, or insights that you gained that maybe you didn't expect to as you started having some conversations with people in various parts of the industry?
 
-**Lukas Biewald:** \[00:08:02.22\] Yeah, but you run a company, especially as a founder/CEO , and most of what you do is you talk to customers. It's a huge part of what you do... So the podcast is really kind of just recording the conversations that I was having, and giving me an excuse to kind of ask a little bit higher-level questions to people. We kind of get into the details really quick with the user, but we thought it would be fun to step back a little bit and just have open-ended conversations... Which we were kind of doing anyway when we were starting Weights & Biases, because at first we weren't really sure what the first best tool would be to make. So we had a lot of these, and it was so much fun we kind of thought "You know, maybe we'll record these and other people will find them useful", because we were citing them a lot.
+**Lukas Biewald:** \[08:02\] Yeah, but you run a company, especially as a founder/CEO , and most of what you do is you talk to customers. It's a huge part of what you do... So the podcast is really kind of just recording the conversations that I was having, and giving me an excuse to kind of ask a little bit higher-level questions to people. We kind of get into the details really quick with the user, but we thought it would be fun to step back a little bit and just have open-ended conversations... Which we were kind of doing anyway when we were starting Weights & Biases, because at first we weren't really sure what the first best tool would be to make. So we had a lot of these, and it was so much fun we kind of thought "You know, maybe we'll record these and other people will find them useful", because we were citing them a lot.
 
 But I would say it's been absolutely fascinating, and it's been really fun to step way back and ask questions... Because you hear surprising stuff. I'll say \[unintelligible 00:08:50.14\] from Lyft was a long-time customer of Weights & Biases, and he's a great guy, but he was basically like "ML is just the same as anything else. It's just a discipline of engineering", which I thought that was a bold statement from a guy running the level five team there...
 
@@ -70,7 +70,7 @@ Or I remember Jeremy Howard was like "Basically, Python can't possibly be the fu
 
 Anyway, what happened was I was finding all these patterns in the dataset, and I was really excited to publish a paper... And then I realized that actually what I was doing was not finding interesting patterns, I was basically figuring out who the annotators were.
 
-\[00:12:13.06\] I was doing this cross-document classification and I was realizing if you could look at the classification in one part of the document, it can help you with the classifications in another part of the document. And I thought what I was doing was topic detection. But then actually what I realized I was doing was I was basically doing annotator detection.
+\[12:13\] I was doing this cross-document classification and I was realizing if you could look at the classification in one part of the document, it can help you with the classifications in another part of the document. And I thought what I was doing was topic detection. But then actually what I realized I was doing was I was basically doing annotator detection.
 
 **Daniel Whitenack:** Right.
 
@@ -94,7 +94,7 @@ I think at the time what was happening a lot was ML teams were kind of relying o
 
 **Lukas Biewald:** I normally skip over these details... But honestly, what happened really was I got kind of worried when I was running Figure 8 that I was getting out of date. I remember at my first job there was a big fight between rule-based systems and machine learning systems... And I remember looking at the mid-30's guys or 40-something guys who had kind of invested a lot in rule-based systems... And they were kind of like "Oh, this machine learning stuff is stupid. It's hard to scale, it requires a lot of training data, it's hard to deploy..." And I remember just looking at them thinking "You guys are idiots. You've just committed yourself to this one thing and you can't see that this new thing is better."
 
-\[00:16:22.22\] I hadn't done a lot of training models in a long time; you know, I was running a company... And I was kind of saying the same stuff about deep learning. I was like "Is this really better? It seems really hard to deploy..." and I was kind of looking in the mirror, like "Man, I am out of date. I don't really know what TensorFlow does... I pretend I do, but I haven't messed with it..." I was feeling really bad about that, and then I got myself in an internship at OpenAI, where I worked for a really smart 24-year-old for a little while... And I just was like "Just make me do all your dirty work. I just wanna get back into doing something real." And it was kind of a shocking experience, I think, because I think the tooling had been bad for ML, but it's strikingly, shockingly bad for deep learning. I think it just sort of exacerbates the problems even more... So quickly, my entrepreneur brain is just like "I have to build tools to fix this up."
+\[16:22\] I hadn't done a lot of training models in a long time; you know, I was running a company... And I was kind of saying the same stuff about deep learning. I was like "Is this really better? It seems really hard to deploy..." and I was kind of looking in the mirror, like "Man, I am out of date. I don't really know what TensorFlow does... I pretend I do, but I haven't messed with it..." I was feeling really bad about that, and then I got myself in an internship at OpenAI, where I worked for a really smart 24-year-old for a little while... And I just was like "Just make me do all your dirty work. I just wanna get back into doing something real." And it was kind of a shocking experience, I think, because I think the tooling had been bad for ML, but it's strikingly, shockingly bad for deep learning. I think it just sort of exacerbates the problems even more... So quickly, my entrepreneur brain is just like "I have to build tools to fix this up."
 
 So I didn't last very long as an intern, because I just really wanted to fix these underlying problems for everyone else... But I'd love to go back. I mean, training models and doing research is so fun. I guess I just don't stick with it very well... \[laughs\]
 
@@ -124,7 +124,7 @@ So I didn't last very long as an intern, because I just really wanted to fix the
 
 **Chris Benson:** A lot of people have moved off of Vim and Emacs, finally, after resisting for years to VS Code. I mean, it's made a big difference in the industry.
 
-**Lukas Biewald:** \[00:20:02.08\] I strongly recommend it.
+**Lukas Biewald:** \[20:02\] I strongly recommend it.
 
 **Chris Benson:** That's what I use. I moved away from the other stuff into that, so...
 
@@ -160,7 +160,7 @@ Everyone has these notebooks - in their Emacs or VS Code, or maybe a Google Doc 
 
 **Lukas Biewald:** It's funny, so the thing that we first started focusing on is not the thing that Weights & Biases is known for... I sort of expected to do a couple different iterations, and hit walls, but I think this is an example of like, you know, the second time you do a company, when you've kind of been in the space for ten years, you have better instincts about what the needs are...
 
-\[00:24:12.27\] So the thing that I started with, which was really what Weights & Biases is known for, is essentially tracking your training. TensorBoard was doing this, but it really only worked with TensorFlow at the time, and it was hard to look at multiple runs, which is really what you want... So they sort of have a way of putting hyper-parameters into the name of the run, which I think is kind of awful; I really don't recommend that... And then it's clearly not designed to show you -- it runs in the context of other runs.
+\[24:12\] So the thing that I started with, which was really what Weights & Biases is known for, is essentially tracking your training. TensorBoard was doing this, but it really only worked with TensorFlow at the time, and it was hard to look at multiple runs, which is really what you want... So they sort of have a way of putting hyper-parameters into the name of the run, which I think is kind of awful; I really don't recommend that... And then it's clearly not designed to show you -- it runs in the context of other runs.
 
 The fact that your model has this accuracy after eight \[unintelligible 00:24:45.11\] it's kind of not that interesting. What's more interesting is how did the accuracy change from the previous thing you did, and then also being able to dive in and look at exactly what was that previous thing you did. That was sort of the core of the beginning of Weights & Biases, and still the thing that people appreciate most about us is saving all the metrics of a run, all the performance metrics - the system metrics and the accuracy loss, and those kinds of performance metrics, and being able to quickly compare them with lots of other runs.
 
@@ -182,7 +182,7 @@ What we try to do is capture lots of stuff passively. We think that when you cap
 
 **Lukas Biewald:** Yeah.
 
-**Daniel Whitenack:** \[00:28:09.10\] You wanna enable or disable, rather than having a user click a bunch of boxes for all the things that they wanna save. Is that what you mean?
+**Daniel Whitenack:** \[28:09\] You wanna enable or disable, rather than having a user click a bunch of boxes for all the things that they wanna save. Is that what you mean?
 
 **Lukas Biewald:** Yeah, I'll give you an example. Fundamentally, the way this works is you import a library, and then a library basically collects lots of system metrics and other metrics as it runs. Kind of similar to TensorBoard, but we collect a lot more stuff. I'll give you an example of the passiveness of it. One thing you should probably do before a big training run is commit your code into Git. So it could just connect each training run you do to the commit SHA, and we do do that if you want us to.
 
@@ -206,7 +206,7 @@ Once you turn that on one time, now you'll be sure that every single time your m
 
 I think the other thing that happens is that DevOps doesn't really understand machine learning and data science that well, and they're not really prepared for the statistical nature of it. For example, continuous integration tools - they crash if any test fails. And that totally makes sense, from a normal engineering perspective. But it's just not realistic to have a suite of real-world continuous integration tests for a machine learning thing.
 
-\[00:32:02.28\] The machine learning stuff that we put into production - we know that it has a failure rate that's non-zero, so instead we have to deal with that, versus trying to drive the failure rate down to exactly zero... So I think there's a real culture gap, and there's very few people trained in both DevOps and machine learning, and those people make tons of money, as I've seen...
+\[32:02\] The machine learning stuff that we put into production - we know that it has a failure rate that's non-zero, so instead we have to deal with that, versus trying to drive the failure rate down to exactly zero... So I think there's a real culture gap, and there's very few people trained in both DevOps and machine learning, and those people make tons of money, as I've seen...
 
 So it's cool when someone has both skills, but it's natural that people don't have both skills... And I think the skills in a way teach you very different styles of development.
 
@@ -232,7 +232,7 @@ And you're right, it's tricky. It's nice that you appreciate the work that we do
 
 **Daniel Whitenack:** Yeah.
 
-**Break:** \[00:36:33.09\]
+**Break:** \[36:33\]
 
 **Daniel Whitenack:** Lukas, I would be curious to hear a little bit -- so we talked a lot about experiment tracking, which is, like you say, where you started with this journey, and maybe what Weights & Biases is most known for... But as I'm exploring the website and the feature set that you're supporting, there are some other things. In particular, I see Sweeps, which I think is related to hyper-parameter tuning... And then Artifacts, which is related to dataset versioning.
 
@@ -246,7 +246,7 @@ The math behind doing \[unintelligible 00:39:24.09\] optimization or things like
 
 In fact, you can use other optimization libraries that would even tell you maybe better than ours. You can use Ray Tune, which I think is a fantastic library to do advanced stuff that you can't do with us. So that's how we think about that...
 
-\[00:39:58.19\] I would actually say data versioning is almost the same thought process where people know that they should be versioning their data, they know that it's dangerous to not version their data... You know that you can't have real reproducibility unless you version your data, but I think that all the existing solutions were kind of causing problems. I think Git has the large file store system, which seems like it should be made for this kind of thing, but when we talk to practitioners, most of them weren't actually using that. We kind of dug into why, and it's like - well, a lot of datasets these days are in object stores, so supporting an object store is incredibly important for versioning data, I think.
+\[39:58\] I would actually say data versioning is almost the same thought process where people know that they should be versioning their data, they know that it's dangerous to not version their data... You know that you can't have real reproducibility unless you version your data, but I think that all the existing solutions were kind of causing problems. I think Git has the large file store system, which seems like it should be made for this kind of thing, but when we talk to practitioners, most of them weren't actually using that. We kind of dug into why, and it's like - well, a lot of datasets these days are in object stores, so supporting an object store is incredibly important for versioning data, I think.
 
 And then another detail that shouldn't be overlooked is most ML practitioners are not super-fluent with Git. They find Git to be kind of a scary interface. DevOps people find it trivial. In fact, my co-founder Shawn comes from less of an ML background and I'd say more of a DevOps background, and he just constantly makes fun of me for how bad I am at Git. In his view -- I just kind of type in random commands into Git until I break everything, and then ask him to fix this stuff...
 
@@ -276,7 +276,7 @@ But I think it was a little bit eye-opening for him when he was designing the ve
 
 **Lukas Biewald:** And they did a whole case study with that, so I know I can go into detail, and you could maybe post the case study where they actually show their Weights & Biases runs and how they think about it... But when we went in there, they were having the problem of they were training tons and tons of models, and trying to keep track of which models they were making and what they were learning, and then also what was getting put into production... Because it's very high stakes. If you're a farmer, you can't have your crops get killed by your AI weeding machine.
 
-**Daniel Whitenack:** \[00:44:08.23\] Yeah. And a single percentage over hundreds of thousands of acres is not trivial.
+**Daniel Whitenack:** \[44:08\] Yeah. And a single percentage over hundreds of thousands of acres is not trivial.
 
 **Lukas Biewald:** Yeah, yeah. They're a super-smart team, super-technical... Actually, I remember when we went in there... We had this funny feature where we would try to pull up a web browser to do authentication, and they actually had links installed on their system. This is like a Unix terminal-based web browser \[unintelligible 00:44:30.06\] and I thought "Oh man, there's a bug!"
 

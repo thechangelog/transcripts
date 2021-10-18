@@ -8,7 +8,7 @@ At Movidius we're very passionate about machine learning and computer vision at 
 
 **Cormac Brick:** Yeah, sure. At Movidius we have customers who are engaged heavily in things like digital security and smart city-type use cases, really making more intelligent commerce; that's one big use case. We've also shipped a lot of products on drones, that's another use case, as well as alot of things around robotics and smart devices and camera devices as well. There are Google Clips products on the market now that uses our Myriad 2 silicon. A lot of the DJI drones have used the Myriad 2 silicon as well, and there are things like -- you can wave at your drone using your hands to control it, and then put out your palm and the drone can land in the palm of your hand, so... Really compelling use cases have been enabled through our silicon through the use of both vision and AI working hand in hand.
 
-**Daniel Whitenack:** \[00:04:07.15\] Awesome, yeah. And just to kind of confirm that, I was actually at GopherCon last week and one of the keynotes - I think on the second day, or something - they used a drone with a Myriad chip in it to do some facial recognition. It was some cool stuff.
+**Daniel Whitenack:** \[04:07\] Awesome, yeah. And just to kind of confirm that, I was actually at GopherCon last week and one of the keynotes - I think on the second day, or something - they used a drone with a Myriad chip in it to do some facial recognition. It was some cool stuff.
 
 So let's dive into a little bit more about what you talked about - is there in these types of use cases where you're wanting to run your neural network in a drone, or in a camera, or whatever it is, explain a little bit the tension between portability and performance that we've seen in the past, and the state of it now.
 
@@ -24,7 +24,7 @@ So we were sharing some results and some techniques specifically around channel 
 
 **Cormac Brick:** That's a great question, because for sure, we were presenting a lot of works this morning saying "Hey, we were able to take a network and do pruning, and quantization, and sparsification, and go from 8-bit weights to 4-bit weights and this sort of stuff... But you know, straight up today, pretty non-trivial to repeat the results that we were showing this morning, right? To bridge that gap, we have a network in Intel that's part of the AI Products Group - as part of the Intel AI Products Group there is an open source project called Distiller. It's one of the resources listed in my slides, I think on the final slide, and I believe they'll get posted to O'Reilly at some point...
 
-**Daniel Whitenack:** \[00:07:59.16\] Yeah, we'll put them in the show links here, as well.
+**Daniel Whitenack:** \[07:59\] Yeah, we'll put them in the show links here, as well.
 
 **Cormac Brick:** Yeah. So there's a link to something on GitHub called Distiller, and there one of the things we're doing is if you went back maybe 12 months ago you would have found "Oh, this is an awesome quantization technique that somebody published, some grad student published a PyTorch fork or something with this... And then here's something else that was available in TensorFlow for quantization, and here's something else that was available in a different framework... What we were doing is really kind of taking all of those techniques that are available in a fairly fragmented way across the internet and trying to put them under one roof in a way that's a little bit easier to access. That was the goal of the Distiller project, to show that... And it's an ongoing project at Intel within AIPG to have this kind of set of tools. So they're available in PyTorch, and that's great, because PyTorch can export to ONNX, which is then widely available.
 
@@ -46,7 +46,7 @@ To answer the second part of your question, in the final slide we were making th
 
 **Daniel Whitenack:** Awesome, awesome. I know that one of the things that I've appreciated as I'm hacking on things at home is that a lot of the stuff that you've come out with through Movidius makes it really easy to experiment with neural networks on a lot of different types of devices, through the Neural Compute Stick, and other things... I was wondering if you had any interesting stories or customer experiences that you've heard about of people enabling new sorts of things with these devices.
 
-**Cormac Brick:** \[00:12:22.07\] Yeah, we've really enjoyed the experience of launching the first version of the Neural Compute Stick based on Myriad 2, and it was great to get out there and meet lots of developers... And also, when we launched that - we announced it some time before, and we really launched it then at CVPR last year... Yeah, it was great to see what everybody was doing, but also to kind of show them, "Hey, AI at the edge is possible." If you go back 15 months or two years ago, people really associated AI with the cloud, right? So our first goal was to break down those perceived barriers, and for more people to be able to use AI and to see "Hey, AI at the edge is possible." That was our initial goal, and it was a great experience, very enjoyable talking to all the developers.
+**Cormac Brick:** \[12:22\] Yeah, we've really enjoyed the experience of launching the first version of the Neural Compute Stick based on Myriad 2, and it was great to get out there and meet lots of developers... And also, when we launched that - we announced it some time before, and we really launched it then at CVPR last year... Yeah, it was great to see what everybody was doing, but also to kind of show them, "Hey, AI at the edge is possible." If you go back 15 months or two years ago, people really associated AI with the cloud, right? So our first goal was to break down those perceived barriers, and for more people to be able to use AI and to see "Hey, AI at the edge is possible." That was our initial goal, and it was a great experience, very enjoyable talking to all the developers.
 
 A couple of things we've seen - we've seen people use this, one of the software ambassadors for Intel used this to do a prototype water filter, so taking the guts of a microscope, putting that up to a camera, into a Raspberry Pi, with a Movidius Neural Compute Stick connected, and being able to show that you could actually use this to detect water impurities, so to have an entirely offline water impurity detection device that could be used effectively on premises, at the edge, with no cloud connection, or anything like this... Super-cool idea, and we were able to show that that's possible.
 
@@ -60,7 +60,7 @@ Equally, we've had people putting them on a drone to detect sharks in the water,
 
 **Cormac Brick:** Thanks, Daniel.
 
-**Break:** \[00:15:26.02\]
+**Break:** \[15:26\]
 
 **Daniel Whitenack:** Thanks for joining us, Mike. It's great to chat with you and meet you here at O'Reilly AI. I've heard about Michelangelo, this ML platform that you guys have developed at Uber, and I'd love to hear a little bit more about it, but first, give us a little background of who you are and how you ended up where you are.
 
@@ -80,7 +80,7 @@ So we saw the opportunity to build a common platform to help people have a unifi
 
 So we've spent a lot of effort to focus on where we think this stuff is going to go, and to help build the tools to empower data scientists to do the right thing from the beginning.
 
-**Daniel Whitenack:** \[00:20:19.29\] Awesome. How many people are using Michelangelo at Uber these days?
+**Daniel Whitenack:** \[20:19\] Awesome. How many people are using Michelangelo at Uber these days?
 
 **Mike Del Balso:** That's really hard to say. I would say we probably have more than -- so this platform supports machine learning use cases across the company... Everything from fraud-related things, to predicting how long it's gonna take a car to get to you, to even ranking dishes in the Uber Eats app... All of the main ML stuff runs through this platform now. And this is just like an interesting kind of platform development challenge - we have a lot of people who kind of use it, and they're like "Hey, I kind of wanna build an ML thing", and they dabble and explore a couple little models they wanna make, but maybe they never end up fully deploying that model to production...
 
@@ -96,7 +96,7 @@ So it's kind of tricky to say like "How many actual use cases do you have on thi
 
 But I think the other interesting thing is we saw -- let's take the Uber Eats world, for example. They probably have more than ten different models that they use to rank dishes and whatever they do. A lot of those models use the same kind of features, and before this feature store, data scientists didn't have any insight into "Hey, other people that were working on similar problems, what kind of feature pipelines have they built?" And then when this feature store came along, now when a data scientist wants to start a new model, they can just look and see "What features exist that are relevant for me? Let me just start my model exploration process with the X features that are most relevant to this problem from the beginning." So there's a whole new element of collaboration, visibility, feature sharing that was previously not there. I really don't see solutions in that space in the industry today either, so I think that's a really promising area.
 
-**Daniel Whitenack:** \[00:24:05.10\] Cool. Yeah, I look forward to hearing more about that, and definitely if you publish anything about that, I'll be happy to post that on the show links here.
+**Daniel Whitenack:** \[24:05\] Cool. Yeah, I look forward to hearing more about that, and definitely if you publish anything about that, I'll be happy to post that on the show links here.
 
 **Mike Del Balso:** Cool.
 

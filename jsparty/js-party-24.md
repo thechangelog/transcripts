@@ -30,7 +30,7 @@ I think most of you were doing HTML on this panel back when image maps were real
 
 **Suz Hinton:** Yes, it's so true, and it was like an Easter egg way of doing things, but it also meant that instead of having to have all of these separate pieces of an image an tile them all together in some kind of table layout in order to create these different hot spots you could click on, you could essentially apply a map HTML tag to a matching image tag, and you could set up these regions (I guess); it was kind of similar to SVG, where you could either draw like a rectangle, or you could draw polygons, and then each little hot spot would end up being a href just to go somewhere else, which was really awesome. So you could have a map with lots of different cute little buildings and landmarks, and that could be the navigation for your website.
 
-\[00:03:45.09\] The reason why I really liked it was because looking back over it, it was kind of weird, but it did solve a pretty awkward problem that we had, where we couldn't lay things out as nicely, like what we have with grid layout these days... And it just forced people to be really creative. The navigations that people made with that especially was really entertaining, and there were all these really cool online tools that allowed you to generate these image maps, so you could actually draw the polygons instead of having to hand code them... So there was this really cool culture of being able to push the limits of this HTML tag, for sure.
+\[03:45\] The reason why I really liked it was because looking back over it, it was kind of weird, but it did solve a pretty awkward problem that we had, where we couldn't lay things out as nicely, like what we have with grid layout these days... And it just forced people to be really creative. The navigations that people made with that especially was really entertaining, and there were all these really cool online tools that allowed you to generate these image maps, so you could actually draw the polygons instead of having to hand code them... So there was this really cool culture of being able to push the limits of this HTML tag, for sure.
 
 **Feross Aboukhadijeh:** Suz, do you know, was this tag created before there were tables? Because I'm thinking maybe you could simulate this with a table. You could have like an image in every cell, and then just slice up the image basically, and put each piece into a cell, in a table, and then you could linkify a few of them.
 
@@ -78,7 +78,7 @@ Of course, all the examples, even in the living spec, are still fully capitalize
 
 **Feross Aboukhadijeh:** Cool. Alex, tell us about your favorite tag.
 
-**Alex Sexton:** \[00:07:45.03\] Yeah, I'm gonna be a jerk and mention a few, mostly because they're not that interesting to talk about deeply. My favorite tag I think has always been a &lt;dl&gt; tag. One of the reasons I like it is because the thing that that stands for, they changed it between HTML 4 and 5. It used to be a definition list. So it's a dl element, and it can contain dt's and dd's, which are like definition titles and definition... Somethings.
+**Alex Sexton:** \[07:45\] Yeah, I'm gonna be a jerk and mention a few, mostly because they're not that interesting to talk about deeply. My favorite tag I think has always been a &lt;dl&gt; tag. One of the reasons I like it is because the thing that that stands for, they changed it between HTML 4 and 5. It used to be a definition list. So it's a dl element, and it can contain dt's and dd's, which are like definition titles and definition... Somethings.
 
 The cool thing about it was it was kind of like an unordered list, or like a &lt;ul&gt; tag, but you could have unlimited definitions of single titles. It's one of the worst elements for hierarchy, because it's just - you give the dt, and then everything after it... Any dd after it - you could have 10, you could have 0... It's going to apply to the sibling element, rather than being inside of the dt, which I always thought was weird.
 
@@ -108,7 +108,7 @@ And the last one is just a shout-out to &lt;iframe&gt;, because there's nothing 
 **Alex Sexton:** Yeah, there were different rules around the access that things initially had. I think initially for the Java stuff you'd have to have the little coffee logo, the Java logo that came up and spun, but I think applets had more of like first-party access to things, which was scary... But I think also it's very specific to Java, and so &lt;embed&gt; and &lt;object&gt; became the IE and standards version of &lt;applet&gt; for arbitrary third-party things, rather than just Java.
 
 
-**Nick Nisi:** \[00:12:08.19\] Also my first big experience with trying to create (I guess) something more than a web page was with &lt;applet&gt;. In high school, my school blocked AOL Instant Messenger for a few days, and in that time I was reading and learning Java, reading a book on Java, and there was a chat demo in there, and I was trying to make that work as an applet. I never really got it to work, because I didn't know anything about what I was doing, but it was fun to play with that.
+**Nick Nisi:** \[12:08\] Also my first big experience with trying to create (I guess) something more than a web page was with &lt;applet&gt;. In high school, my school blocked AOL Instant Messenger for a few days, and in that time I was reading and learning Java, reading a book on Java, and there was a chat demo in there, and I was trying to make that work as an applet. I never really got it to work, because I didn't know anything about what I was doing, but it was fun to play with that.
 
 **Suz Hinton:** \[laughs\] That's great. I remember once I got a PC Mag and there was like a Java applet in it with the source code. This was before I had the internet, so I sat there and painstakingly typed the entire application into notepad, and then I didn't actually realize that you actually needed the runtime and all of this other stuff, and I didn't have the internet to get it... So I spent hours typing this thing in; I wanted to put it in an applet tag, and then I never actually got to do it, which was really sad.
 
@@ -156,7 +156,7 @@ And the last one is just a shout-out to &lt;iframe&gt;, because there's nothing 
 
 **Suz Hinton:** I feel like this is the ultimate injected script tag. \[laughs\]
 
-**Feross Aboukhadijeh:** \[00:15:42.28\] Yeah, it's useful actually for -- well, it was useful to me at one point in time, and that's why I went looking for something like it... Because when I was doing my company in 2013, I had this idea to make a peer-to-peer content delivery network. Obviously, not too unlike what WebTorrent does today, but to do it as like a CDN that people would use to power host their static content using WebRTC... And there was no service worker back then, so you couldn't stop resources from loading normally over HTTP and then try to load them over WebRTC without having the user go and change the way they make their website. So what I wanted to do was make it so that they could just add my script to their website, at the top of their website, in the head tag, and then I could prevent all the resources later in the page from loading.
+**Feross Aboukhadijeh:** \[15:42\] Yeah, it's useful actually for -- well, it was useful to me at one point in time, and that's why I went looking for something like it... Because when I was doing my company in 2013, I had this idea to make a peer-to-peer content delivery network. Obviously, not too unlike what WebTorrent does today, but to do it as like a CDN that people would use to power host their static content using WebRTC... And there was no service worker back then, so you couldn't stop resources from loading normally over HTTP and then try to load them over WebRTC without having the user go and change the way they make their website. So what I wanted to do was make it so that they could just add my script to their website, at the top of their website, in the head tag, and then I could prevent all the resources later in the page from loading.
 
 It wasn't possible to wait until the ready event or to try to select the elements and rewrite to remove the source attribute from the images or from the videos. It wasn't fast enough. The browser was actually doing those HTTP requests really quickly... Because I think it has this --
 
@@ -192,11 +192,11 @@ It was never implemented in all browsers, but it sounds like all the big ones ha
 
 But why didn't they just use MIME types, or like a content type header, or something? I guess maybe that wasn't around, I don't know.
 
-**Alex Sexton:** \[00:19:50.11\] Those things were around I think for the most part, but if you think about a lot of these early things, it's like, the web wasn't important yet, whenever this stuff was made. So it's just like, imagine working at your company right now, and being like "What if we had a way for people to show HTML?" and someone's like "Okay, we could just add this tag, no big deal", and then later the world relies on your technology, and it's like "Hey, no one thought this out", and it's like "Yeah, no one thought this out."
+**Alex Sexton:** \[19:50\] Those things were around I think for the most part, but if you think about a lot of these early things, it's like, the web wasn't important yet, whenever this stuff was made. So it's just like, imagine working at your company right now, and being like "What if we had a way for people to show HTML?" and someone's like "Okay, we could just add this tag, no big deal", and then later the world relies on your technology, and it's like "Hey, no one thought this out", and it's like "Yeah, no one thought this out."
 
 I don't know... It's just so old that they didn't have to consider how ridiculous it was, I think. It was just like, it kind of worked.
 
-**Break:** \[00:20:30.18\]
+**Break:** \[20:30\]
 
 **Feross Aboukhadijeh:** We're gonna go right into our second topic, which is the annoying site. This actually started out as sort of an experiment where I was trying to figure out what web APIs could be abused, and were designed in a way that maybe were open to unintended or unexpected uses. So I was looking through all of the different web APIs I could find on an MDN site, and just thinking like "Okay, I see... So there's a permission prompt on this one, or there's a restriction in this way, but what if we did this differently? What can we do, and what kind of site can be put together?"
 
@@ -210,7 +210,7 @@ It's not necessarily malicious, but it can certainly log you out of some sites t
 
 Then it tries to prevent you from getting out of that, even with the keyboard shortcuts. So if you hit Cmd+W to close the window, that gets intercepted with a pop-up that will actually block that shortcut from working... And it does like a bunch more things. It vibrates your device if you're on a mobile device, it puts text on your clipboard, it shows the print dialogue, it tries to ask for your camera, it does full-screen mode, it asks you if you're sure you wanna leave the website if you're trying to leave, it blocks the Back button from working, it fills your history with embarrassing searches, it navigates the tab that actually linked to this site, so that it takes over more of your tabs... And on and on.
 
-\[00:24:11.19\] And I'm actually thinking of more things to add to it, because there's actually a few more things that I've just learned about... Like the speech synthesis API - apparently, that one is unmutable. If you try to mute a tab -- like, you can still make sound from the tab if you use the speech synthesis API, so I've gotta add that one to it, for sure. But yeah, it's actually just a crazy number of things you can do.
+\[24:11\] And I'm actually thinking of more things to add to it, because there's actually a few more things that I've just learned about... Like the speech synthesis API - apparently, that one is unmutable. If you try to mute a tab -- like, you can still make sound from the tab if you use the speech synthesis API, so I've gotta add that one to it, for sure. But yeah, it's actually just a crazy number of things you can do.
 
 **Alex Sexton:** Why did you make this? You were trying to annoy someone?
 
@@ -226,7 +226,7 @@ There was also an issue where WebRTC, which is used to do peer-to-peer connectio
 
 The idea is, like, if you're giving your camera permission, your microphone, that's already more intimate than your local IP, so go ahead and let the local IP to go through... But that hurts use cases like web torrents, or any other WebRTC use case that doesn't use the microphone or the camera, because now you have like a worse route... And then I'm trying to think... There's like a few more cases like this.
 
-**Alex Sexton:** \[00:28:05.26\] On the IP address, just because it's interesting - the other interesting thing about that and maybe a bunch of these is you can't really pop up to normal users "This site would like to know your local IP address", right? That doesn't mean anything. You can say "This site wants to access your camera or your location" and that means things, but "This site wants to know your local IP address" is just meaningless, so how does a browser solve for that? ...they can't necessarily do that easily.
+**Alex Sexton:** \[28:05\] On the IP address, just because it's interesting - the other interesting thing about that and maybe a bunch of these is you can't really pop up to normal users "This site would like to know your local IP address", right? That doesn't mean anything. You can say "This site wants to access your camera or your location" and that means things, but "This site wants to know your local IP address" is just meaningless, so how does a browser solve for that? ...they can't necessarily do that easily.
 
 The whole thing reminds me a lot of evercookie. I don't know if you remember that... This is a similar type of project where cookies can be cleared, and browsers are doing a better job of allowing people to block third-party cookies and things like that... And there's a guy named Samy Kamkar, who's kind of a security researcher. He got famous for the "Samy is my hero" MySpace vulnerability way back in the day...
 
@@ -248,7 +248,7 @@ I was hoping maybe we could quickly go through just some of the APIs and have y'
 
 **Feross Aboukhadijeh:** Those are the three, yeah. So user interaction means any kind of event that is explicitly the users interacting with the site. So that doesn't include things like scroll or mouse move, because those are gonna happen way too easily... Just things like clicks, taps or key presses. So that's considered user-initiated gesture.
 
-**Alex Sexton:** \[00:31:56.14\] Only because you mentioned it and it was super interesting when I saw you give a talk about this - you mentioned mouse moves just now... I did not know that if you move a browser window under someone's mouse... So technically, there's like a differential in the browser window and the mouse, that a mouse move is fired the same... Like, the mouse is not moving, the browser is moving... You said that a mouse move fires the same as if you were moving the mouse over it, and I just thought that was interesting enough to tell everyone.
+**Alex Sexton:** \[31:56\] Only because you mentioned it and it was super interesting when I saw you give a talk about this - you mentioned mouse moves just now... I did not know that if you move a browser window under someone's mouse... So technically, there's like a differential in the browser window and the mouse, that a mouse move is fired the same... Like, the mouse is not moving, the browser is moving... You said that a mouse move fires the same as if you were moving the mouse over it, and I just thought that was interesting enough to tell everyone.
 
 **Feross Aboukhadijeh:** It's quite useful to know that. You can make a browser window follow the user's mouse around by using that trick. Anyway, so let's go through this... I'm gonna move pretty quick, because I have a decently long list here. Okay, so open a pop-up window.
 
@@ -324,7 +324,7 @@ Okay, next one - say you want to focus a windows. This is gonna be like a pop-up
 
 **Alex Sexton:** I don't know this one. I assume user interaction, right? I hope.
 
-**Feross Aboukhadijeh:** \[00:36:01.04\] No, user interaction -- I think that would not be enough, I don't know... So first you have to get camera permission, and then once you have a camera object, you can turn on the flash. It's more for like a camera app to be able to expose UI to the user to let them select the camera settings, like do they wanna turn the flash on, or change the zoom levels, and stuff like that.
+**Feross Aboukhadijeh:** \[36:01\] No, user interaction -- I think that would not be enough, I don't know... So first you have to get camera permission, and then once you have a camera object, you can turn on the flash. It's more for like a camera app to be able to expose UI to the user to let them select the camera settings, like do they wanna turn the flash on, or change the zoom levels, and stuff like that.
 
 Okay, what about triggering a file download?
 
@@ -356,7 +356,7 @@ Okay, what about triggering a file download?
 
 **Alex Sexton:** I'll say kind of the meta-benefit of all this is that because this page is so annoying and bad, you can take other security vulnerabilities. So I try to report as many vulnerabilities as I can. A lot of times they're not that serious, like an open redirect, or something like that, on some web page. It's like "Oh, this allows me to put in arbitrary JavaScript, which allows me to do a window.location, which allows me to link someone to a page or redirect them somewhere else", and a lot of times people are like "Oh, we don't consider that that harmful", or whatever. But then you stick theannoyingsite into the redirect, and they're like, "Oh, this is serious, because someone went to our website and now they're at this terrible, terrible website." So it actually has been helpful in people taking things like open redirects seriously, in my experience, in the two weeks I've been adding it into things, so... Good work.
 
-**Break:** \[00:39:09.13\]
+**Break:** \[39:09\]
 
 **Feross Aboukhadijeh:** Cool, so let's talk about our favorite weird website now. I wanna get into like the nostalgic, old web stuff, back when the web used to be weird, back when the web used to be mostly full of bizarre stuff... Maybe that stuff's still out there, I don't know, but it does certainly feel to me like the web is less weird than it used to be. Maybe that's just because -- and maybe there's more weird stuff, but maybe like the other kind of corporate, normal world internet is more present, so we don't see the weird stuff as much... I don't know, but anyway, weird website - let's talk about them.
 
@@ -398,7 +398,7 @@ Actually, I think people used to actually upload videos that were encoded in som
 
 **Feross Aboukhadijeh:** No, no, I never actually learned how to do Flash development. I didn't really do proper programming until later, and then I just learned JavaScript. I did collect Flash though, Flash animations, and I put them onto a website that was kind of like a knockoff of Newgrounds. It was all my favorite stuff, just to rehost it basically.
 
-**Alex Sexton:** \[00:44:07.08\] Actually, that's maybe a side conversation, but we were talking a lot about Flash, and I built some Flash stuff... I think one of my first real web pages was my sister's soccer team's web page, which was fully Flash, and I would go to the games and keep stats... That was like something to build a website for... But I pirated the entire Adobe suite and learned all that stuff as a young kid. I'm sure I downloaded like 1,000 viruses on my computer... But did you all start with legit copies of the Flash runtime, or Builder, or whatever, or did everyone pirate it? Is that everyone's history?
+**Alex Sexton:** \[44:07\] Actually, that's maybe a side conversation, but we were talking a lot about Flash, and I built some Flash stuff... I think one of my first real web pages was my sister's soccer team's web page, which was fully Flash, and I would go to the games and keep stats... That was like something to build a website for... But I pirated the entire Adobe suite and learned all that stuff as a young kid. I'm sure I downloaded like 1,000 viruses on my computer... But did you all start with legit copies of the Flash runtime, or Builder, or whatever, or did everyone pirate it? Is that everyone's history?
 
 **Nick Nisi:** Yes. \[laughs\]
 
@@ -436,7 +436,7 @@ And if you wanna know my favorite one, it is cat124, which is a bunch of cats pl
 
 **Alex Sexton:** Oh yeah, I remember that.
 
-**Nick Nisi:** \[00:47:52.20\] I remember when that was not completely filled out... So it was just a square of pixels, a million total pixels, and it was a dollar per pixel, and you could pay whoever hosted the website a dollar per pixel to own those pixels forever, and then you could put whatever you wanted up there. All of the ads that are on there I guess are from that era. I don't even know when it ended, probably 2004(ish).
+**Nick Nisi:** \[47:52\] I remember when that was not completely filled out... So it was just a square of pixels, a million total pixels, and it was a dollar per pixel, and you could pay whoever hosted the website a dollar per pixel to own those pixels forever, and then you could put whatever you wanted up there. All of the ads that are on there I guess are from that era. I don't even know when it ended, probably 2004(ish).
 
 It was pretty interesting, seeing that and just - a pretty cool idea, I thought... Like, "Wow, that's a really cool idea to cash out at a million dollars."
 
@@ -466,7 +466,7 @@ As far as old internet videos, I think it used to be on one of the sites we alre
 
 **Feross Aboukhadijeh:** Oh, no, no, no... That one was called "End of the World."
 
-**Alex Sexton:** \[00:51:12.09\] End of the World, sorry, not History. Yeah, there's History of Japan, and End of the World, yeah. That's my bet. History of Japan is also very good, for what it's worth; not quite as famous, but somehow both informative and hilarious.
+**Alex Sexton:** \[51:12\] End of the World, sorry, not History. Yeah, there's History of Japan, and End of the World, yeah. That's my bet. History of Japan is also very good, for what it's worth; not quite as famous, but somehow both informative and hilarious.
 
 And then probably my last one as far as like actual weird internet - I don't know how this one has aged in the age of Alex not being in early high school or middle school anymore, so don't judge me if this is now a faux pas, but I really used to like Maddox's Best Page In The Universe. People would write him hate mail...
 

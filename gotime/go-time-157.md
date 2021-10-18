@@ -34,7 +34,7 @@ Well, Natalie Pistunovich, hello!
 
 **Angelica Hill:** Thank you.
 
-**Mat Ryer:** \[00:04:07.03\] And we also have Kris Brandow. Hello, Kris!
+**Mat Ryer:** \[04:07\] And we also have Kris Brandow. Hello, Kris!
 
 **Kris Brandow:** Hello, Mat.
 
@@ -88,7 +88,7 @@ I started working on a very technical team at the New York Times, thought "Okay,
 
 **Angelica Hill:** Honestly, I think it was just that I had a really good support system at the start. I was diving in self-teaching, but I had a group of people I found who loved Go, and really were willing to dedicate the time to help me understand the basics... And also explained them to me in a way that was very easy for my kind of then (I would say) non-technical brain to understand. A lot of analogies were used.
 
-**Mat Ryer:** \[00:08:06.17\] Yes, that's very helpful, isn't it? Well, some languages are kind of packed with features, and one of the nice things about Go is because it is a bit of a minimalist language, it has a sort of simplicity to its design... I've heard people say that because of that, it does actually make it quite easy to pick up and learn... And I think that's something -- you know, some other languages have very powerful things they can do, but of course, there's more concepts to learn, like object-oriented programming, for example. You can kind of skip over that in Go, and you don't really miss it, either.
+**Mat Ryer:** \[08:06\] Yes, that's very helpful, isn't it? Well, some languages are kind of packed with features, and one of the nice things about Go is because it is a bit of a minimalist language, it has a sort of simplicity to its design... I've heard people say that because of that, it does actually make it quite easy to pick up and learn... And I think that's something -- you know, some other languages have very powerful things they can do, but of course, there's more concepts to learn, like object-oriented programming, for example. You can kind of skip over that in Go, and you don't really miss it, either.
 
 So that's interesting... So you don't have a computer science background; you learned because of just curiosity.
 
@@ -124,7 +124,7 @@ I got to do all the parallelism that I wanted still, so that was a nice turn of 
 
 **Kris Brandow:** Yeah. But growing up, I wanted nothing to do with computers. I would build computers with my dad, but it was not a career I wanted to do. I wanted to be an author. I was like "I'm gonna be a writer, that's what I'm gonna do." At family events people would be like "What are you gonna do when you grow up? Are you gonna go into computers, like your parents?" I'd be like "No, no. I am going to be an author." And that's actually what I went to college for. I got a creative writing and broadcasting mass communications degree, and I was just like "Yeah, this is gonna be great. I'm gonna be a writer." And then senior year rolled around, or really junior year, and there were all of these websites that needed to get built, so I was like "I can sort of do this..." And I started building websites. I was like "Oh, I like this." So I kept doing it, and I learned this fun little content management system called Drupal.
 
-\[00:12:02.15\] Basically, during one of those summers I looked at Go a little bit, but I was like "I don't quite understand this, so I'm just gonna stick with Drupal, which I know", which I did for a few more years... And then one night -- I think it was actually on the night that I met Sam Boyer, who is one of my really close friends... We were just sitting in a bar, talking, and I was like "Man, there's something I don't like about the software I'm writing." And he was like "Oh, I know what that is. That's complexity. You don't like complexity. You should look at Go. Go is really a simple language, and it's elegant and it's beautiful. You have to try it out." So I did, and that was kind of the end of me writing Drupal professionally, and the beginning of my Go career. That was like 7+ years ago now. So it's been a wild ride, but that was the introduction to it. Just like "Oh, you like simplicity. Go write this language."
+\[12:02\] Basically, during one of those summers I looked at Go a little bit, but I was like "I don't quite understand this, so I'm just gonna stick with Drupal, which I know", which I did for a few more years... And then one night -- I think it was actually on the night that I met Sam Boyer, who is one of my really close friends... We were just sitting in a bar, talking, and I was like "Man, there's something I don't like about the software I'm writing." And he was like "Oh, I know what that is. That's complexity. You don't like complexity. You should look at Go. Go is really a simple language, and it's elegant and it's beautiful. You have to try it out." So I did, and that was kind of the end of me writing Drupal professionally, and the beginning of my Go career. That was like 7+ years ago now. So it's been a wild ride, but that was the introduction to it. Just like "Oh, you like simplicity. Go write this language."
 
 **Mat Ryer:** That's great. I love the idea of the -- because most kids rebel from their parents, in some way... The fact that your parents were in computers - it's kind of funny that you rebel against using tech. My nephews - that would never happen. They are not gonna rebel that way. But that was really interesting to hear that.
 
@@ -180,7 +180,7 @@ So you mentioned you wanted to be an author when you grow up... What do you want
 
 **Mat Ryer:** I'd probably go, but not on the first couple of flights, you know what I mean? Just let them... "Just go. I'll wait a bit, yeah."
 
-**Natalie Pistunovich:** \[00:16:15.19\] \[laughs\]
+**Natalie Pistunovich:** \[16:15\] \[laughs\]
 
 **Mat Ryer:** So there's something that's interesting... Angelica, you're a product manager, and a lot of us programmers interact with product managers in some way, usually, in a team... And sometimes there's a -- let's call it a healthy tension between them... Tell me, do you hate your devs?
 
@@ -202,7 +202,7 @@ And also, I think just personally -- I was joking before we went live on the fac
 
 So I would say it enables me to understand what is more important in terms of tech debt etc. But it also means that when I go to leadership on the product side and they say "Why are you spending two months working on tech debt?", I have that language, I have that ability to really validate it to him and be like "No, this is why it's important. This is why we need to do this stuff. So I think it works well because of that.
 
-\[00:19:58.08\] And also honestly, for me, it means that if there are small engineering tasks - which is what I'm aiming to get to - that aren't challenging to my engineers, aren't new problems that they can dive into, aren't things that are really helping them with that growth, I want to get to a place where I can just pick up that ticket and do it. Because it's exciting to me. I'm learning, I'm very new... Why should they have to do these menial tasks, when I can very much do them and they can do the more interesting work?
+\[19:58\] And also honestly, for me, it means that if there are small engineering tasks - which is what I'm aiming to get to - that aren't challenging to my engineers, aren't new problems that they can dive into, aren't things that are really helping them with that growth, I want to get to a place where I can just pick up that ticket and do it. Because it's exciting to me. I'm learning, I'm very new... Why should they have to do these menial tasks, when I can very much do them and they can do the more interesting work?
 
 **Mat Ryer:** Yeah. Well, I think that's great, honestly... To me, it can only be a benefit to the team, having that knowledge, frankly... I'm sure some people don't see it that way. They see it like, you know, you have to have that distance, because you wanna be able to make all these unreasonable demands on their developers, don't you?
 
@@ -224,13 +224,13 @@ So I would say it enables me to understand what is more important in terms of te
 
 **Angelica Hill:** Okay. \[laughs\]
 
-**Break:** \[00:21:42.11\]
+**Break:** \[21:42\]
 
 **Mat Ryer:** Natalie, you're doing dev rel stuff... So what's that like? Are you just part of the engineering team, or do you have other focuses as well, similar to being a product manager?
 
 **Natalie Pistunovich:** It's interesting as a question for me, because I think different companies do this in a different way... And I joined Aerospike as the first lead developer advocate... So I get to figure out how things should be. They trust me a lot to bring in recommendations. So the person I'm reporting to is the CTO... There is an entire engineering team in parallel to me, so you know, no big deal... Me and sometimes with awesome engineers, reporting to the same person eventually.
 
-\[00:24:09.01\] I do work a lot with product, I do work a lot with marketing, and I do kind of try to balance everything altogether. It includes things like building a developer hub. You want a place that developers, once they actually heard of Aerospike, because it seems to be a database that if you know it, you like it and you use it, but if you don't know it, you're like "What is this? Is it aerospace?" That's not the reason I went to work there... \[laughter\]
+\[24:09\] I do work a lot with product, I do work a lot with marketing, and I do kind of try to balance everything altogether. It includes things like building a developer hub. You want a place that developers, once they actually heard of Aerospike, because it seems to be a database that if you know it, you like it and you use it, but if you don't know it, you're like "What is this? Is it aerospace?" That's not the reason I went to work there... \[laughter\]
 
 **Mat Ryer:** Do they make you go in a big spinning centrifugal machine to work there, or no?
 
@@ -264,7 +264,7 @@ And the jump from organizing a user group to organizing a conference is big, but
 
 **Natalie Pistunovich:** Ask a lot of questions. As a speaker, as an organizer, whatever the position I'm in on the other side, if you will, having people engage with you and showing that they want to know more, or they're curious about what you do is really great. And sometimes it's a lot of information, sometimes the talk is not very clear, or too high-level, too low-level for whatever you are, but you can always find something to ask... And that really warms the heart when people do that, so please ask questions.
 
-**Mat Ryer:** \[00:28:06.11\] That's nice advice. How do you ensure that you're gonna get good quality when you put the program together? What sort of techniques do you use to make sure -- I'm asking this because look at this conference, GopherCon, and look at GopherCon EU... The quality of the talks are kind of astonishingly good... So how do you do that? How do you keep that quality there?
+**Mat Ryer:** \[28:06\] That's nice advice. How do you ensure that you're gonna get good quality when you put the program together? What sort of techniques do you use to make sure -- I'm asking this because look at this conference, GopherCon, and look at GopherCon EU... The quality of the talks are kind of astonishingly good... So how do you do that? How do you keep that quality there?
 
 **Natalie Pistunovich:** Thanks for the compliment to GopherCon Europe; I absolutely agree that the talks in GopherCon here, in this GopherCon, are great. I think the secret is the same everywhere - just have a good reach of your call for papers, to make sure that you get a lot of good and mixed submissions, and that your review committee is also mixed and diverse enough, and has a good, wider image when they build the talks.
 
@@ -290,7 +290,7 @@ I feel like when people first start thinking about diversity and inclusion, it's
 
 So as a community, we kind of have to compensate for the sad state of software engineering companies right now, and what their cultures are... And I think if we focus on that and focus on "How can we undo some of that uninclusive harm that people are feeling, that's how we grow our community."
 
-**Mat Ryer:** \[00:32:09.26\] Yeah, that is really interesting. One of the pushbacks -- and I've had this myself, because when I do a talk, I tend to call out how Go has a focus on this and it's important... And occasionally, I will get people who challenge it. And usually, it's this idea that if everything's meant to be equal, then we shouldn't be talking about this at all.
+**Mat Ryer:** \[32:09\] Yeah, that is really interesting. One of the pushbacks -- and I've had this myself, because when I do a talk, I tend to call out how Go has a focus on this and it's important... And occasionally, I will get people who challenge it. And usually, it's this idea that if everything's meant to be equal, then we shouldn't be talking about this at all.
 
 For me it's about that thing, as you pointed out - you sort of inherit, we inherit these biases, just from the societies that we're in. So it does seem that active action is needed to balance that out. Otherwise, it's like object-oriented programming. You just get it from the base class. Terrible--
 
@@ -306,7 +306,7 @@ So what we need to do is more level the field than give people extra things to h
 
 **Mat Ryer:** Yeah, please. Yeah.
 
-**Break:** \[00:35:05.14\]
+**Break:** \[35:05\]
 
 **Mat Ryer:** So what's the benefit of having diversity within a team and within a community? Because that's another thing... I've witnessed benefits to having more diversity, but what are they? Let's talk about some of them. Again, I think some people think it's just a kind of one-sided thing, but it benefits everyone, having more diversity.
 
@@ -326,7 +326,7 @@ This is, of course, becoming a stretch, because it's been a couple of years ago,
 
 And all this keeping in touch with communities that are very much outside of my network is a hard work, but it's also very much worth it. And of course, there's the easier (if you will) diversity work of also making sure to work with the local community, for example, being inclusive more towards women, which is also not a big part of the Berlin tech scene... Working with refugees as much as possible, talking to organizations and asking them to invite the people who \[unintelligible 00:40:16.17\] school kids, or if it's people in university age, and so on - so invite the relevant groups to all sorts of events that we're organizing... Yes, diversity is a hard work, and it's definitely paying off.
 
-**Mat Ryer:** \[00:40:32.24\] Yeah. Great. Well, you can see it as well in the conference... And again, I think that also speaks to why the talks and things are so interesting. There are always some great surprises at these conferences too, so... Yeah, I think that's awesome.
+**Mat Ryer:** \[40:32\] Yeah. Great. Well, you can see it as well in the conference... And again, I think that also speaks to why the talks and things are so interesting. There are always some great surprises at these conferences too, so... Yeah, I think that's awesome.
 
 I was gonna ask this question to each of you... If you could travel back in time, what would you say to your younger self? And you can't say "Buy Bitcoin." I mean, you can, but you'd have to tell them when to sell it as well, otherwise it's useless. \[laughter\]
 
@@ -360,7 +360,7 @@ One of the things I've learned is school was like "Yeah, you can do that, you ca
 
 **Mat Ryer:** Yeah. And that does apply to software. We've just launched Firesearch.dev, which is a full-text search thing, and there's more things we want to do in it, but you have to release it at some point. Someone said if you're not embarrassed by your first release, then you released too late. I think there's probably some truth in that.
 
-\[00:44:20.00\] How about you, Natalie? You've gone into space, you've gone in the rocket, it's gone off, but something's gone wrong, and you've traveled through time and gone back... And now you're gonna have a little word with yourself; what are you gonna say?
+\[44:20\] How about you, Natalie? You've gone into space, you've gone in the rocket, it's gone off, but something's gone wrong, and you've traveled through time and gone back... And now you're gonna have a little word with yourself; what are you gonna say?
 
 **Natalie Pistunovich:** Something between "Assume less" and "Ask more". In my first full-time job in that company that asked me to learn Go I was the junior member in a team full of senior backend engineers, and that was completely terrifying. And they were incredibly nice. They were nice, and they were explaining to me... And they saw that I'm scared to ask questions; they would sometimes explain to me more, and even when they'd say "Do you understand?" and I was like "I have no idea what you're talking about", I would say "Hm..." Stop doing that. \[laughs\] Don't assume that people expect you--
 
@@ -402,7 +402,7 @@ Now I'm just kind of stuck with it. Whenever I try to go to an IDE, I'm just lik
 
 **Mat Ryer:** Yeah.
 
-**Angelica Hill:** \[00:48:11.22\] But I would love to learn Vim, and any other recommendations... I'm very much at the start of my gopherizing journey, so I would love to hear more about other text editors, other things people use, because I'm not set on VS Code. I don't know enough about all the others to really decide yet.
+**Angelica Hill:** \[48:11\] But I would love to learn Vim, and any other recommendations... I'm very much at the start of my gopherizing journey, so I would love to hear more about other text editors, other things people use, because I'm not set on VS Code. I don't know enough about all the others to really decide yet.
 
 **Mat Ryer:** Yeah, fair enough. I mean, if you use Vim, to the rest of us you look like a wizard. That's just true. So it's got that going for it. But you have to do all kinds of strange judo with your fingers for the keyboard shortcuts.
 
@@ -436,7 +436,7 @@ So I definitely think that from a product point of view, absolutely, it's import
 
 **Mat Ryer:** Yeah, I think that's a good one. If I'm tired, I can do more harm than good in code, so... But yeah, it does take time to figure that out. I have to interrupt, because it's that time, believe it or not... It's time for Unpopular Opinions.
 
-**Jingle:** \[00:51:50.17\] to \[00:52:07.16\]
+**Jingle:** \[51:50\] to \[52:07\]
 
 **Mat Ryer:** So who is going to share their unpopular opinion first? Has anyone got one for us? Natalie Pistunovich...
 
@@ -470,7 +470,7 @@ So I think in a lot of ways the things we usually see as disadvantages are more 
 
 So I would say that's my unpopular opinion, but I think maybe shared by my fellow writer, Kris.
 
-**Kris Brandow:** \[00:56:16.01\] Yeah. I think another interesting point in what you said is that while we do use programming languages to talk to computers, I think we use them to talk to each other more than we use it to talk to the computer.
+**Kris Brandow:** \[56:16\] Yeah. I think another interesting point in what you said is that while we do use programming languages to talk to computers, I think we use them to talk to each other more than we use it to talk to the computer.
 
 **Mat Ryer:** Yeah, because the code gets compiled for the computer, doesn't it? When it's code, we're the ones reading it and writing it. Is that what you mean, Kris?
 

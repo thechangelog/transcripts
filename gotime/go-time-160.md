@@ -38,7 +38,7 @@ We're joined today by Natalie Pistunovich. Hello, Natalie.
 
 **Mat Ryer:** Yes. Okay, so maybe we could just get started by a bit of intro for each of us... And specifically, I'm interested in how you got into computers, and specifically Go. Maybe we could start there. Ellen, maybe you could kick us off.
 
-**L Körbes:** \[00:04:09.14\] Yeah, so my story actually is kind of boring...
+**L Körbes:** \[04:09\] Yeah, so my story actually is kind of boring...
 
 **Mat Ryer:** Okay. We'll go to someone else then. We'll go to someone else if it's boring, yeah. Natalie. How did you get into computers?
 
@@ -104,7 +104,7 @@ It's interesting to see how -- I joined when it was already pretty good at scale
 
 **Mat Ryer:** Yeah. Did they get up early?
 
-**Natalie Pistunovich:** \[00:08:12.26\] \[laughs\] If you work not in a startup, for sure. If you work in a startup, I think a stand up at 11 o'clock is normal.
+**Natalie Pistunovich:** \[08:12\] \[laughs\] If you work not in a startup, for sure. If you work in a startup, I think a stand up at 11 o'clock is normal.
 
 **Mat Ryer:** What time do you get up, Kris?
 
@@ -152,7 +152,7 @@ I think the real problem with that is really just the beginning, where - okay, l
 
 **Mat Ryer:** Yeah, I feel like Go helps there because of its minimalism. And then what about comments? I once worked on a codebase that was developed originally in France, and so all the comments were in French. Now, the code - I could read; I was basically using the code to figure out what the comments meant. So what do you think? What language would you write comments in?
 
-**L Körbes:** \[00:12:21.25\] Ukrainian. \[laughter\]
+**L Körbes:** \[12:21\] Ukrainian. \[laughter\]
 
 **Mat Ryer:** Yeah. It makes sense.
 
@@ -210,7 +210,7 @@ I think the real problem with that is really just the beginning, where - okay, l
 
 **L Körbes:** So I was in touch with him a lot. And then at some point somehow in the conversation he said that if I wanted to record that course in Portuguese, that that would be really cool, because he wants the knowledge to spread, basically, and a lot of people just don't speak English. So that's what I did. So my first thing I did with Go, when I barely knew what Go was about, was to record a course, teaching everything about Go. So you know...
 
-\[00:16:13.18\] So I did that, and I put that course first on a closed platform, something like Udemy, and a couple years later I was like "Yeah, the money is not the matter here. I don't want people to have to pay for it." And the conversion from Brazilian currency to Euros - I'm not making any real money anyway, so I might as well open it on YouTube and make it free for everyone.
+\[16:13\] So I did that, and I put that course first on a closed platform, something like Udemy, and a couple years later I was like "Yeah, the money is not the matter here. I don't want people to have to pay for it." And the conversion from Brazilian currency to Euros - I'm not making any real money anyway, so I might as well open it on YouTube and make it free for everyone.
 
 So I called the YouTube channel Aprenda Go - it means "Learn Go." That's the exact translation. And then I put the whole course there. It goes from way in the beginning, like what's a variable, what are functions, what's a for loop, all of that, all the way down to "Okay, here's a fan-in and a fan-out pattern for concurrency", and all that stuff.
 
@@ -242,7 +242,7 @@ I think interfaces are probably the most difficult thing to explain, especially 
 
 **Mat Ryer:** What about words like polymorphism, which you mentioned then? Do you have that word?
 
-**L Körbes:** \[00:20:05.03\] That's fun... So if you go to university in Brazil, you learn all of those concepts with Portuguese names. I didn't go to university, I learned all this stuff on the internet. So half of my videos are like "Oh yeah, what's this called in Portuguese again? I don't know, let me just make up a name", and then I make up a name and I go the rest of the video with some made-up name... And in the comments, everyone's like "Oh yeah, this is called such-and-such, you idiot", and I'm like "Oh. Right."
+**L Körbes:** \[20:05\] That's fun... So if you go to university in Brazil, you learn all of those concepts with Portuguese names. I didn't go to university, I learned all this stuff on the internet. So half of my videos are like "Oh yeah, what's this called in Portuguese again? I don't know, let me just make up a name", and then I make up a name and I go the rest of the video with some made-up name... And in the comments, everyone's like "Oh yeah, this is called such-and-such, you idiot", and I'm like "Oh. Right."
 
 **Mat Ryer:** "Oh. I thought just guessing would be fine."
 
@@ -274,7 +274,7 @@ I think a lot of it too has to do with how you have to rearrange the knowledge i
 
 **L Körbes:** I think there's some elements of different parts of the brain being used, something like that. You can read about riding bicycles, but if you just ride the bicycle, you're gonna learn so much more... I'm not sure how that maps into languages and stuff, but I think there's something to it where if you actually pretend to teach it, it probably activates different stuff in your brain, and that makes you learn more. I don't know, but I feel like there's something to it.
 
-**Mat Ryer:** \[00:24:14.11\] Yeah, I definitely learn by doing something. I find that to be the quickest way for me... And if people want to -- if they're doing that trick of like "I'm gonna imagine I'm gonna teach this", a nice way to do that (a low-commitment way) is to give a talk at a meetup, or something; or even at a conference. Because that is also -- I mean, it is the same thing; it's a great way to solidify your knowledge and get that across to an audience. I find that to be quite nice, and quite low-commitment, if it's just a local meetup and you're gonna do ten minutes and just explain a thing... I think that's quite a nice little tip. I've seen some people do that, and they did it brilliantly, so it really worked. So I always encourage that.
+**Mat Ryer:** \[24:14\] Yeah, I definitely learn by doing something. I find that to be the quickest way for me... And if people want to -- if they're doing that trick of like "I'm gonna imagine I'm gonna teach this", a nice way to do that (a low-commitment way) is to give a talk at a meetup, or something; or even at a conference. Because that is also -- I mean, it is the same thing; it's a great way to solidify your knowledge and get that across to an audience. I find that to be quite nice, and quite low-commitment, if it's just a local meetup and you're gonna do ten minutes and just explain a thing... I think that's quite a nice little tip. I've seen some people do that, and they did it brilliantly, so it really worked. So I always encourage that.
 
 **Kris Brandow:** Yeah, I feel like that's one of the things I always think of when I see people giving talks. It's like "Oh my God, they just know so much. They know everything about what they're talking about." Having given several talks myself, it's like, no, you just have ideas that you've thought about a lot, and you get up and you give a presentation... But you're making all sorts of mistakes that the audience can't pick up on, so it's not like you're perfect, or whatever.
 
@@ -284,7 +284,7 @@ So yeah, I definitely think encouraging people to give, especially meetup talks,
 
 **Natalie Pistunovich:** Or even a 5-minute talk. Sometimes, as a meetup organizer, I find it really hard to convince people to submit the talk, because they feel this is a huge commitment, and this is way above something that they can do, even though they've been developing/using a concept or a language for years... Convincing them to give a 20-minute talk, a meetup talk is a lot. A 5-minute talk is also great. This is something that I think everybody should talk about more, as meetup organizers, as attendees, and as speakers.
 
-**Break:** \[00:26:08.28\]
+**Break:** \[26:08\]
 
 **L Körbes:** Hey Natalie, I have a question for you. Since you have a lot of experience organizing meetups and events, is there a shortcut to the fact that people are often comfortable with the subject matter of their talk, but they're just terrified of being on stage? Is there some hack to that?
 
@@ -294,7 +294,7 @@ And then sometimes people would say "No, I'm actually fine with questions", and 
 
 So if you create this safer space by saying you only talk and do exactly what you have rehearsed, and nobody will ask you about anything else, that's completely fine. And this helps people relax a little bit.
 
-**Kris Brandow:** \[00:28:10.22\] I just think Q&A sessions are usually a pretty terrible idea overall, because it's like, someone has rehearsed and prepared this material, and now you're just like throwing whatever question out of left field at them, and it's like "Oh! I haven't thought about this at all, so I don't have a good, coherent response to this, so I'm just gonna babble for two minutes until I get the next question." So I think that not having questions is good in a multitude of ways.
+**Kris Brandow:** \[28:10\] I just think Q&A sessions are usually a pretty terrible idea overall, because it's like, someone has rehearsed and prepared this material, and now you're just like throwing whatever question out of left field at them, and it's like "Oh! I haven't thought about this at all, so I don't have a good, coherent response to this, so I'm just gonna babble for two minutes until I get the next question." So I think that not having questions is good in a multitude of ways.
 
 **Mat Ryer:** Yeah. And it's nice to think of that, remember that from the other side as well, if you are asking a question. Sometimes -- and I think it just happens by accident, if I'm honest... But sometimes the question is either loaded, it encodes somehow something that either wasn't covered, or is a gap, they've noticed a gap in the speaker's knowledge... Which I think is quite natural in a conversation, that's sort of normal, but that can be quite detrimental.
 
@@ -306,7 +306,7 @@ I also see a lot of people giving talks where English isn't their first language
 
 Just do the thing a few times until you're physically comfortable doing it. After a few times, your body is gonna have developed the muscle memory. It's just like playing an instrument. And then you're gonna be able to do it on command. It's gonna become second-nature. And you just do that for your first three talks, for example, in English let's say, and then the fourth one you're gonna be like "Yeah, I've kind of got my way around this." But the first few times you need to rehearse.
 
-**Mat Ryer:** Yeah. You can't just turn up to the orchestra with your violin and like \[00:31:19.11\] I can't play. I should have learned this. Sorry, everyone."
+**Mat Ryer:** Yeah. You can't just turn up to the orchestra with your violin and like \[31:19\] I can't play. I should have learned this. Sorry, everyone."
 
 **L Körbes:** That happens way more often than you'd think. I've played in an orchestra... \[laughs\]
 
@@ -314,7 +314,7 @@ Just do the thing a few times until you're physically comfortable doing it. Afte
 
 **Kris Brandow:** \[laughs\] I feel like that advice is applicable even to people where English is their first language... Especially the first couple of times you give a talk. I think people don't -- it takes a while to acclimate to how much you can fit into a talk and how you should structure it.
 
-\[00:31:57.12\] I remember when I first started speaking, the company I was working for had this speaking coach that would help everybody with their talks... And one of the things that he said to me that's stuck with me is that in a 45-minute talk you have enough time to really cover three things. So pick the three things that you're gonna cover, and form the whole talk around those things.
+\[31:57\] I remember when I first started speaking, the company I was working for had this speaking coach that would help everybody with their talks... And one of the things that he said to me that's stuck with me is that in a 45-minute talk you have enough time to really cover three things. So pick the three things that you're gonna cover, and form the whole talk around those things.
 
 I think what usually winds up happening with people in their first talk is they just try and shove too much stuff into it, and because you know it so well, you're just like "Well, it shouldn't take that long to discuss this topic, so I'm just gonna fly through it." And it's like, no, you have to convey all of this information to another person, so you have to actually build up a lot of stuff around it.
 
@@ -342,7 +342,7 @@ Sometimes when I -- and I don't know if you have any tips for this... Sometimes 
 
 **Mat Ryer:** That's really interesting, and I've definitely experienced that. And Kris, you're a writer, so that kind of fits naturally for you... But you're dead right; you find at conferences -- if someone says a joke at a conference, the sorts of jokes that get the best laughs are not really that funny. They usually are just sort of safe, and everyone knows it's humor.
 
-\[00:36:23.22\] They'll say "Oh, don't worry about this code. I probably wrote it on a Monday." That will get a big laugh, because everyone's like "Yeah, I remember Mondays! They're rubbish! You write bad code on Mondays, because you're tired, or hung-over still." But yeah, if you say other things that people aren't expecting, it's exactly that experience; people don't know what to do. That is the story of my life.
+\[36:23\] They'll say "Oh, don't worry about this code. I probably wrote it on a Monday." That will get a big laugh, because everyone's like "Yeah, I remember Mondays! They're rubbish! You write bad code on Mondays, because you're tired, or hung-over still." But yeah, if you say other things that people aren't expecting, it's exactly that experience; people don't know what to do. That is the story of my life.
 
 **L Körbes:** I think the secrets to telling jokes is they have to be really bad jokes...
 
@@ -484,7 +484,7 @@ So I gave a talk about getting started in tech, because that's what I was doing,
 
 **Mat Ryer:** Wow.
 
-**Natalie Pistunovich:** \[00:43:51.08\] No, I'm kidding. There probably have been two more talks in Hebrew, but almost all of the talks were actually in English, and not just because they were international speakers. Even local speakers spoke in English. I left Israel right after university, so I've never properly been in the tech scene. I was working there as a student in Intel, and as a student you don't go to conferences as much as you go as a full-time person, I would say... And I had no idea that in Israel you speak mostly English in conferences, or give talks mostly in English, even though the crowd is mostly Hebrew speakers and your job is mostly in Hebrew. But English is a very common -- most people who are in tech do know English in a good level, so that makes sense looking back at it.
+**Natalie Pistunovich:** \[43:51\] No, I'm kidding. There probably have been two more talks in Hebrew, but almost all of the talks were actually in English, and not just because they were international speakers. Even local speakers spoke in English. I left Israel right after university, so I've never properly been in the tech scene. I was working there as a student in Intel, and as a student you don't go to conferences as much as you go as a full-time person, I would say... And I had no idea that in Israel you speak mostly English in conferences, or give talks mostly in English, even though the crowd is mostly Hebrew speakers and your job is mostly in Hebrew. But English is a very common -- most people who are in tech do know English in a good level, so that makes sense looking back at it.
 
 **Mat Ryer:** That's really interesting. Obviously, it's kind of easier for people where English is the first language... Is there anything that you wish that we could do better when it comes to interacting with people where English isn't their first language? Are there any requests that you might have, that we could do to make things easier?
 
@@ -532,7 +532,7 @@ So I gave a talk about getting started in tech, because that's what I was doing,
 
 We're never gonna have a world where everyone speaks English, I think... But we have tools. At least make it so that people can use tools to figure things out.
 
-**Mat Ryer:** \[00:48:26.04\] Yeah. I think that's great. I think spit on a shark, and the eggs are left blue. And I think that sums it up brilliantly, as you've said.
+**Mat Ryer:** \[48:26\] Yeah. I think that's great. I think spit on a shark, and the eggs are left blue. And I think that sums it up brilliantly, as you've said.
 
 **Natalie Pistunovich:** You're putting us in a pickle.
 
@@ -594,11 +594,11 @@ We're never gonna have a world where everyone speaks English, I think... But we 
 
 **Natalie Pistunovich:** Speaking of that, I think it's a great point you were raising, Kris - many teams are international. And none of them \[unintelligible 00:51:48.00\] when you use too many of that, this can also be a little off-putting for international members that might be in the good not understanding, and in the bad case also a little shy about saying "What?" So being mindful about that.
 
-**Kris Brandow:** \[00:52:07.25\] I think even in -- and maybe this is part of what also makes tech as an industry rather unapproachable for even people that live in America... We don't really recognize the other dialects of English that exist even within America as a country, and how different they are, and how different all of the idioms are. I context-switch automatically, depending on the group I'm talking to, and the set of words that I'll use shifts. And I feel like there's definitely a set of words that I use when I go to work and I'm talking with people; I would never use those words if I was hanging out with my friends. Anything like that is also a barrier to entry as well. We have very specific types of concepts that we have in software engineering in Go, and then on top of that we also have assumed other things about the nature of what normative is... Whether that's heteronormativity, or race normativity, or whatever.
+**Kris Brandow:** \[52:07\] I think even in -- and maybe this is part of what also makes tech as an industry rather unapproachable for even people that live in America... We don't really recognize the other dialects of English that exist even within America as a country, and how different they are, and how different all of the idioms are. I context-switch automatically, depending on the group I'm talking to, and the set of words that I'll use shifts. And I feel like there's definitely a set of words that I use when I go to work and I'm talking with people; I would never use those words if I was hanging out with my friends. Anything like that is also a barrier to entry as well. We have very specific types of concepts that we have in software engineering in Go, and then on top of that we also have assumed other things about the nature of what normative is... Whether that's heteronormativity, or race normativity, or whatever.
 
 **Mat Ryer:** Yeah, that is really interesting.
 
-**Break:** \[00:53:05.13\]
+**Break:** \[53:05\]
 
 **Mat Ryer:** I was surprised, because usually -- as I said, computer science is kind of U.S. English, so I was quite surprised that there are message queues, and you call it a queue. Because a queue here is a line; you know, when you all line up behind each other. That's a queue, which has the most amount of unnecessary letters. I mean, literally, the first letter is Q, you know what I mean? That one could do with some compression, I think... But again, the Queen has stopped returning my letters... But that's what's strange.
 
@@ -610,7 +610,7 @@ But to get back to your original question - I don't know, queue didn't seem that
 
 **Mat Ryer:** Yeah, that makes sense. If you learn a new concept and it comes with its own word that you've also not heard before... That kind of happens all the time, I guess.
 
-**Kris Brandow:** \[00:56:01.14\] And I feel like software engineering also just has a long legacy of really weird things. I was talking to my dad over Thanksgiving; we were talking about programming languages, and he was looking at some Go... He's like "This looks just like C", and he's talking about how he writes Ada, and assembler... And he said to me, "Yeah, do you know why we use i for the variable in for loops?" I was like "I don't know... Index? I'm not really sure." He's like "No. Because in Fortran, i through this letter (I don't remember what letter) were all integers." That was like the first integer, and that's why you keep going.
+**Kris Brandow:** \[56:01\] And I feel like software engineering also just has a long legacy of really weird things. I was talking to my dad over Thanksgiving; we were talking about programming languages, and he was looking at some Go... He's like "This looks just like C", and he's talking about how he writes Ada, and assembler... And he said to me, "Yeah, do you know why we use i for the variable in for loops?" I was like "I don't know... Index? I'm not really sure." He's like "No. Because in Fortran, i through this letter (I don't remember what letter) were all integers." That was like the first integer, and that's why you keep going.
 
 **Natalie Pistunovich:** Wow.
 

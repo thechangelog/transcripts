@@ -28,7 +28,7 @@ I wanna start off with my question, since then somebody else will talk... My que
 
 Node streams - so you can think of a stream kind of like a collection of data, sort of. You can think of it like an array, except not every item in the array is available at once. Maybe a better way to think of it is if you're familiar with an async iterator. It's this collection of data, the data is not available at once; typically when you interact with a stream, you consume each item from that stream individually. It also means then that because they're not all available, not the entire dataset that's in that stream is in memory at once, and this is great if you are working with very large datasets especially... But the use cases for streams are limited to very large datasets, but they're very useful for them.
 
-\[00:04:26.07\] An example I remember - this is kind of trivial - in Python, if you're familiar with Python, there is a built-in function range(). What that does is it essentially gives you a list of however many numbers, or what have you. So you say "range(10)", you get a list with 0 to 9, or something like that.
+\[04:26\] An example I remember - this is kind of trivial - in Python, if you're familiar with Python, there is a built-in function range(). What that does is it essentially gives you a list of however many numbers, or what have you. So you say "range(10)", you get a list with 0 to 9, or something like that.
 
 And there's another function called xrange(), and it's different -- it essentially doesn't hold the whole array in memory. So you can say xrange(50 billion zillion), and Python will just go ahead and go through, but if you said range(), well, then we're gonna fill up memory with this huge, huge array.
 
@@ -52,7 +52,7 @@ An example of that might be reading with "fs create read stream" and then piping
 
 A duplex stream I never really have tried to implement... It's essentially a stream that will go both ways; it works as a readable or writeable, but I don't know... It doesn't entirely make sense to me. Don't worry about it.
 
-**Kevin Ball:** \[00:08:26.11\] \[laughs\]
+**Kevin Ball:** \[08:26\] \[laughs\]
 
 **Christopher Hiller:** So yeah... The entire dataset is not in memory. A good example is something that I've written in the past where I needed to download some huge thing from some website, in maybe a big json file or text file, and process it, and then write it out to a file. Instead of going and fetching the file, I used HTTP request. That will give you a readable stream, and then I could pipe that stream into maybe a transform stream that I implemented, process the data somehow, and then I can pipe that back out to whatever I need to write to.
 
@@ -74,7 +74,7 @@ At this point you can create a grid of two-dimensional elements, and you can set
 
 If you wanna lay things out in align, for example, Flexbox is the right tool. If you need to lay things out - for a lack of a better term - in a grid, that's where CSS Grid can come in handy.
 
-**Christopher Hiller:** \[00:12:00.08\] I was running into problems because all I had was Flexbox, and I was trying to make a table... So I was like "Is this the right tool for what I'm trying to do?" And I think that sounds like the answer is no.
+**Christopher Hiller:** \[12:00\] I was running into problems because all I had was Flexbox, and I was trying to make a table... So I was like "Is this the right tool for what I'm trying to do?" And I think that sounds like the answer is no.
 
 **Emma Wedekind:** Yeah... I mean, you can use it, it just won't necessarily match up perfectly. You can say flex-wrap and you can set widths on the children inside, but it's just not the most efficient solution. It's one of those things if you wanna make a table without using a table element, you would just create this grid and maybe have some rows in there, and use Flexbox within the rows.
 
@@ -100,7 +100,7 @@ In the Ninjago world I might hit something with a punch. That's kind of weak. I 
 
 There's this whole range of different pieces... In specificity you have an element, you have a class selector, you have ID selectors, various things. Each one of those is a little bit stronger, meaning if you just have two of them head-to-head, the stronger one is going to take precedence. And if you combine them, it has the combined strength of the two. And you can add multiple weapons, a.k.a. multiple classes, or multiple IDEs. The more you select, the stronger it is.
 
-\[00:15:53.10\] The second piece of this is the fact that it's not necessarily that well though ahead. The last one to hit wins. So if I punch it and ninjutsu characters are -- they've got these ninjas; they have Jay, and Cole, and they are all stupid, and they all have their own neuroses, and they're all trying to hit things... Whichever one hits last, if they're hitting the same amount of difficulty, that's the one that's gonna take precedent. So the stronger the hit, the stronger whatever it is, it will take precedence; but if you have two things that are the same strength, whatever hits last, which in CSS is literally the order you write the code when it is landing in the file - whichever one hits last, will apply.
+\[15:53\] The second piece of this is the fact that it's not necessarily that well though ahead. The last one to hit wins. So if I punch it and ninjutsu characters are -- they've got these ninjas; they have Jay, and Cole, and they are all stupid, and they all have their own neuroses, and they're all trying to hit things... Whichever one hits last, if they're hitting the same amount of difficulty, that's the one that's gonna take precedent. So the stronger the hit, the stronger whatever it is, it will take precedence; but if you have two things that are the same strength, whatever hits last, which in CSS is literally the order you write the code when it is landing in the file - whichever one hits last, will apply.
 
 And the final Spinjago reference is when all is lost, and they just have to blow something up, they go to what they call Spinjitzu, which is basically they turn into whirlwinds and spin around. And that is the important flag. If you have some property that just has to happen, no matter what, you can throw everything in the air, throw your specificity rules out of the way, write "important" and that's Spinjitzu; it just wins. It's not very advisable, either in Ninjago or in CSS, but that's your breakthrough.
 
@@ -108,7 +108,7 @@ And the final Spinjago reference is when all is lost, and they just have to blow
 
 **Kevin Ball:** Okay, and with that, let us close this segment. We're gonna take a short break, and we will be back shortly, talking about stories of the week in the JavaScript and front-end space.
 
-**Break:** \[00:17:10.06\]
+**Break:** \[17:10\]
 
 **Kevin Ball:** Alright, welcome back JS Party people! Let us roll into a segment that we call Story of the Week. Each panelist is going to bring a story that they found particularly interesting or salient this week, and maybe talk a little bit about what it is, why it was interesting, and any impact it has on the ecosystem. Let's go reverse order from what we did last time, so let's start out with Emma.
 
@@ -118,7 +118,7 @@ So what are the things that I pulled out of this? ARIA provides additional conte
 
 Here's a practical example - I've seen people use divs, and they've set specific properties on these to style them as a number; or they used the wrong thing, but if I'm trying to input a telephone number, what you should do theoretically is have an input with the type of telephone number, and that gives the users the actual keypad to be able to type in a phone number, as opposed to having to use the full keyboard to type in a number, which is kind of annoying on mobile.
 
-\[00:19:47.24\] So it's better for screen readers, and it creates a hierarchy of information on your page. And what I see a lot of is that people try to slap ARIA on as kind of like a Band-Aid on their non-semantic HTML. You'll see divs with role="checkbox", and the ARIA checked attribute that they're updating... And this is kind of backwards, right? ARIA shouldn't be used as a Band-Aid for things; we should definitely be using the semantic HTML where applicable. So instead of using this div with these ARIA attributes, we should be using an input with the type of checkbox, and it's all this stuff baked in, so we don't have to worry about updating those.
+\[19:47\] So it's better for screen readers, and it creates a hierarchy of information on your page. And what I see a lot of is that people try to slap ARIA on as kind of like a Band-Aid on their non-semantic HTML. You'll see divs with role="checkbox", and the ARIA checked attribute that they're updating... And this is kind of backwards, right? ARIA shouldn't be used as a Band-Aid for things; we should definitely be using the semantic HTML where applicable. So instead of using this div with these ARIA attributes, we should be using an input with the type of checkbox, and it's all this stuff baked in, so we don't have to worry about updating those.
 
 I found this to be quite interesting... I'm not sure how familiar you all are with the nitty-gritty of ARIA and accessibility, but I've found this to be really relevant and helpful in getting started.
 
@@ -142,7 +142,7 @@ You can't actually do that yet. I think there are some barriers to making that h
 
 **Kevin Ball:** Right, that makes sense.
 
-**Christopher Hiller:** \[00:24:08.17\] There's some others, too. It helps with formatting... But I brought this up earlier - it offers a Flexbox model, so I was trying to make it render a table, and it was not having it, so I have to look into that.
+**Christopher Hiller:** \[24:08\] There's some others, too. It helps with formatting... But I brought this up earlier - it offers a Flexbox model, so I was trying to make it render a table, and it was not having it, so I have to look into that.
 
 **Kevin Ball:** That is interesting. Yeah, CLI, but potentially actually using your entire terminal. More like readline style apps than what I might traditionally think of as a CLI, just interacting with one thing at a time. Huh. Cool.
 
@@ -166,7 +166,7 @@ Microsoft is saying, "Okay, we're gonna give you a browser that for those applic
 
 **Kevin Ball:** Alright, so that I think wraps up our story of the week segment. Let's take another short break and then we will come back with some pro tips.
 
-**Break:** \[00:27:11.02\]
+**Break:** \[27:11\]
 
 **Kevin Ball:** Okay, welcome back! The last segment of today's JS Party - we are going to share some pro tips, talking about how you can make your life better, whether it's how you do your development, debugging, just general life tips... Anything along that dimension. I know we've expanded the gamut before, and we probably will again today. Let's start off with Chris. Chris, what are your pro tips to share with our audience?
 
@@ -200,7 +200,7 @@ You don't have to dress up, but you should...
 
 **Emma Wedekind:** How often do you get out of the house? Because I feel like if I were to work from home, it would be my fortress that I would never leave. My husband sometimes doesn't leave the house -- he wouldn't leave the house if it weren't for me. I don't think he would go outside for like a fortnight.
 
-**Christopher Hiller:** \[00:32:09.23\] Honestly, I don't leave the house that often, but it's more to do with my personality, that I'm kind of a recluse. I do go outside, and that sort of thing, especially after the workday is over, and on the weekends... But during the workday I'm pretty much always at home. I don't like to go and work from a coffee shop, because I find that it really affects my productivity. I like to be in my comfortable space and just totally zone out. That's how it works for me.
+**Christopher Hiller:** \[32:09\] Honestly, I don't leave the house that often, but it's more to do with my personality, that I'm kind of a recluse. I do go outside, and that sort of thing, especially after the workday is over, and on the weekends... But during the workday I'm pretty much always at home. I don't like to go and work from a coffee shop, because I find that it really affects my productivity. I like to be in my comfortable space and just totally zone out. That's how it works for me.
 
 I don't think I could do the digital nomad thing. I need my comfort and my familiar space and my control over my environment.
 
@@ -226,7 +226,7 @@ And lastly, just don't put a lot of words on your slides, especially if your con
 
 If you're interested in giving a technical talk, go for it. What's the worst thing that happens, honestly? I think you'll get more out of the experience than if you were just too afraid to do it, so... I highly recommend everyone try it out.
 
-**Kevin Ball:** \[00:36:11.09\] Yeah, speaking is a great hack.
+**Kevin Ball:** \[36:11\] Yeah, speaking is a great hack.
 
 **Christopher Hiller:** Can you talk more about breathing? I have that problem, too.
 
@@ -246,7 +246,7 @@ Anyway, so there's this guy named Brendon Burchard, and he has this thing that h
 
 I now have this self-mantra of the things that I want to bring into everything that I do. For me, those things are curiosity, joy and love. When I show up in my best self, it's because I brought those things to the table, and this concept shift of whatever it is that is your best self - and that's hard to figure out sometimes; it's very personal - focusing on the ways that you can generate that and bring it to the table, rather than expecting other people in your environment and whatever else to bring it to you. That has been revolutionary for me, so I wanted to share that as an idea.
 
-**Emma Wedekind:** \[00:39:51.23\] I love that idea. I think in one of the JS Party episodes we talked about favorite books, and one of them was The Originals, and I believe it was in that book where they discussed if you're unhappy, you've got two options - you can just walk away, or you can actually bring something to the table and try to fix it. I'm a huge proponent of that, as well - you can't just expect the Universe or expect people to give you things, especially if you don't tell them that you have these expectations. You should bring things to the table, and things will happen upon you in return to those.
+**Emma Wedekind:** \[39:51\] I love that idea. I think in one of the JS Party episodes we talked about favorite books, and one of them was The Originals, and I believe it was in that book where they discussed if you're unhappy, you've got two options - you can just walk away, or you can actually bring something to the table and try to fix it. I'm a huge proponent of that, as well - you can't just expect the Universe or expect people to give you things, especially if you don't tell them that you have these expectations. You should bring things to the table, and things will happen upon you in return to those.
 
 **Kevin Ball:** Yeah, 100%. And this is not to say stuff doesn't happen; bad stuff happens, and if you've had bad stuff happen to you, that can be really rough. I'm not trying to say that you can or should be able to generate these things in yourself all the time, however what I'm saying is for me the mind shift of going from "This is stuff that happens to me, somehow I was in really good energy today and somehow I was not" to "This is something that I at least have partial control over, and can work on myself and iterate and figure out what are the things that I do that help me generate energy and joy and curiosity and all those things." That was very empowering. So yeah, stuff does still happen to you...
 

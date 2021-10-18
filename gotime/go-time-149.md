@@ -44,7 +44,7 @@
 
 **Mark Bates:** Yeah, I have a feeling that the three of us do very different styles of teaching, which is gonna be fun obviously to talk about today. For me, I first started getting into it with writing books, about ten years or so ago... And then about three or four years ago I met Cory, and Brian Ketelsen... And we were talking about training and thinking about doing something together, and we started Gopher Guides.
 
-\[00:04:22.07\] For me, my experience with training has been a lot of in-person, in a classroom, three days, four days, teaching. Not a traditional teaching style, but the in-classroom teaching. And then even last year we started to do a lot of virtual training, so of course, this year now we're doing nothing but virtual trainings...
+\[04:22\] For me, my experience with training has been a lot of in-person, in a classroom, three days, four days, teaching. Not a traditional teaching style, but the in-classroom teaching. And then even last year we started to do a lot of virtual training, so of course, this year now we're doing nothing but virtual trainings...
 
 So that's my experience - it comes from doing workshops and in-person teaching, virtual teaching, with the big groups and dynamics, and somewhat to the book stuff early on that led me into it.
 
@@ -76,7 +76,7 @@ So it became this thing that I eventually also started doing professionally, not
 
 And then it just happened to be that the startup I was working at was in some rough times, and it made more sense for me to just branch out and see how that went. So at first, I started doing consulting and teaching, with the two sort of augmenting each other, but it didn't take very long until I've actually found a place where I was living off of just the teaching income, so that's what I kind of focused on.
 
-\[00:08:14.05\] It's been a lot more fun; it's really rewarding to see people get stuff and to take a different approach. It's kind of interesting to me, because I see the benefit in having all these different styles put together, and I really feel like - and I'm hoping as a result of Covid we start to see all of these sort of get merged together, and find ways to find the best of both worlds... Because up until now, I just don't feel like that's happened. But we can go into the one-size-fits-all discussion first, that's completely fine. Or, Mat, do you wanna talk about your teaching experience?
+\[08:14\] It's been a lot more fun; it's really rewarding to see people get stuff and to take a different approach. It's kind of interesting to me, because I see the benefit in having all these different styles put together, and I really feel like - and I'm hoping as a result of Covid we start to see all of these sort of get merged together, and find ways to find the best of both worlds... Because up until now, I just don't feel like that's happened. But we can go into the one-size-fits-all discussion first, that's completely fine. Or, Mat, do you wanna talk about your teaching experience?
 
 **Johnny Boursiquot:** See, Mat's making that face like he doesn't think he's a teacher, but we all know he is.
 
@@ -108,7 +108,7 @@ Obviously, the more time you spend doing it, the more experienced you are, the m
 
 **Mat Ryer:** Is it like a persona then? Do you feel like you have a different persona when you -- do you feel like you become someone else to do it?
 
-**Mark Bates:** \[00:12:18.05\] A little bit... I don't know, I think we all have personas when we hit the stage... And whether that stage is a classroom, or in front of a thousand people, or at GopherCon, or something. When we're in front of an audience, we all have a persona, whether you admit to having a persona or not. We're all just a little bit different, and we all tweak ourselves slightly different just to be up on that stage... And that goes for just speakers, too; we're also educators. We shouldn't discount those who give 30-minute talks, 45-minute talks at conferences. They're also educators, and we could talk about what it means to be that sort of an educator at some point too, which would be kind of fun.
+**Mark Bates:** \[12:18\] A little bit... I don't know, I think we all have personas when we hit the stage... And whether that stage is a classroom, or in front of a thousand people, or at GopherCon, or something. When we're in front of an audience, we all have a persona, whether you admit to having a persona or not. We're all just a little bit different, and we all tweak ourselves slightly different just to be up on that stage... And that goes for just speakers, too; we're also educators. We shouldn't discount those who give 30-minute talks, 45-minute talks at conferences. They're also educators, and we could talk about what it means to be that sort of an educator at some point too, which would be kind of fun.
 
 **Johnny Boursiquot:** In some regards I'm also curious to hear from Jon about this, because I've been fortunate enough to have done the face-to-face, I have done the online, and I think the worst possible combination of all these things is when you have to do virtual training, where there are no faces, there's no cameras. You can't see, you can't tell that somebody's getting something or not the way you can in a live classroom. These are the absolute worst for me. And I power through them, but they are my least favorite, when there's no cameras and you can't see anybody. You're just a voice on the other end.
 
@@ -122,7 +122,7 @@ And you're definitely right that it is hard, because you don't get that immediat
 
 **Mark Bates:** Yeah, I think a lot of people just don't know how hard it is to do video, like Jon does... I used to do it with Metacast. There's a lot that goes into that... You know, that idea of a) just having to come up with fresh content constantly is very difficult. But then that energy level, and that "How do I get this concept across to nobody?" It's not even like a virtual training, where at least you know there are people on the other end to hear your words. You're recording and you don't have that, and you really have to pretend, like "What is this audience that I'm talking to? Who are these people? What do they wanna hear? What are they reacting to in this video?" It's really hard. That's why I stopped doing it... \[laughter\]
 
-**Jon Calhoun:** \[00:15:52.07\] I think people also forget for every ten minutes you see, there was probably like three hours of all sorts of other stuff, including bad takes... I've literally sat there one morning and spent three hours trying to record the same 15-minute video... And I'm just like "This isn't happening. I don't know why, it's just not happening today." And it's so frustrating.
+**Jon Calhoun:** \[15:52\] I think people also forget for every ten minutes you see, there was probably like three hours of all sorts of other stuff, including bad takes... I've literally sat there one morning and spent three hours trying to record the same 15-minute video... And I'm just like "This isn't happening. I don't know why, it's just not happening today." And it's so frustrating.
 
 Meanwhile, you've got people like "When is that gonna be out?" and you're like "I'd love to give it to you, but it's not there."
 
@@ -170,7 +170,7 @@ If you're inexperienced, these things feel like "Oh my God, something bad just h
 
 **Mark Bates:** That's true. Admittedly, the last conference talk, I did. I did wait for the standing ovation, and I did keep telling people to calm down, and just relax... It was mayhem.
 
-**Mat Ryer:** \[00:19:57.06\] Oh, that's great.
+**Mat Ryer:** \[19:57\] Oh, that's great.
 
 **Mark Bates:** But like Johnny said, those jokes -- I'll tell you, one of the biggest things for us at Gopher Guides... Like, when we're doing the in-person stuff we don't have this opportunity with the virtual nearly as much, because of what Jon said, and Johnny (and everybody's kind of saying that), that lack of interaction. When we're in classrooms, or we're at companies and we've got 20-30 people in a room or whatever it is, you're talking, you're having lunch, you're learning about them as people, as individuals, as a company... And there's a lot of stuff you -- I like to take some of those in-jokes from them, and incorporate it back in; like some of what they're working on.
 
@@ -188,7 +188,7 @@ But the other big thing that you don't get virtually for us was the in-class dem
 
 But you need that face-to-face, you need those questions, that spontaneity of someone just raising their hand - not even raising their hand, just shouting it out - that you don't get over virtual. It's just been tough.
 
-**Break:** \[00:22:03.06\]
+**Break:** \[22:03\]
 
 **Jon Calhoun:** So we've talked a little bit about what's bad about the virtual... Have there been any positives to it?
 
@@ -198,7 +198,7 @@ But you need that face-to-face, you need those questions, that spontaneity of so
 
 **Jon Calhoun:** And maybe it's a little bit different, depending on what you're doing... But I know from my end, one of the things I really like about doing videos, despite that there are definitely some drawbacks - it's the fact that you have this massive reach, in comparison...
 
-\[00:23:52.19\] So rather than spending six months traveling, I can spend six months like "How do I really refine this challenging topic and make a much more involved project?" And then the second part for me has always been that the amount -- like you said, it's exhausting to teach in-person workshops, so realistically, you couldn't go someplace and teach for a month. That would just kill you.
+\[23:52\] So rather than spending six months traveling, I can spend six months like "How do I really refine this challenging topic and make a much more involved project?" And then the second part for me has always been that the amount -- like you said, it's exhausting to teach in-person workshops, so realistically, you couldn't go someplace and teach for a month. That would just kill you.
 
 **Mark Bates:** It'd be too much, yeah. I mean, teachers do it every day. Let's not discount what -- all of our teachers - and God help them - they're all doing virtual right now. So kudos to every teacher in the world right now who's having to deal with all this... But yeah, go on. I couldn't do it for a month, let's put it that way. \[laughs\]
 
@@ -230,7 +230,7 @@ I imagine with corporate training that's trickier, in the sense that you can't b
 
 **Mark Bates:** Go is simple, that's what's so nice about. I think that's why we all like Go. I often joke in class that Go is kind of a WYSIWYG language... What you see is what you get. You look at a Go file and there's no magic there; the imports are at the top, there's all your stuff... There's not a lot going on. There's not that crazy meta-programming that you get with dynamic languages.
 
-\[00:27:53.16\] When I was doing Ruby - and Johnny definitely can attest to this - you're trying to mentor junior developers at work, and stuff like that... And there's a million ways to do anything, and none of them are necessarily easy or make total sense. But a language like Go, where it's very clean, and easy to read, and it's optimized for reading - I think that makes it a lot easier to teach. I think the fundamentals are so much easier to teach in Go than a lot of other languages, to be perfectly honest. That's my opinion.
+\[27:53\] When I was doing Ruby - and Johnny definitely can attest to this - you're trying to mentor junior developers at work, and stuff like that... And there's a million ways to do anything, and none of them are necessarily easy or make total sense. But a language like Go, where it's very clean, and easy to read, and it's optimized for reading - I think that makes it a lot easier to teach. I think the fundamentals are so much easier to teach in Go than a lot of other languages, to be perfectly honest. That's my opinion.
 
 **Jon Calhoun:** Johnny, I think you said you taught Ruby stuff, too. I could be wrong though...
 
@@ -262,7 +262,7 @@ A lot of people come at you and say "I would do this in C\# like this", and it's
 
 **Johnny Boursiquot:** Recover...
 
-**Mark Bates:** \[00:32:01.09\] ...recovers, and stuff like that... And it was both remarkably beautiful and terrible at the same time. \[laughter\] It was in a package called Structs, which was even better... \[laughter\]
+**Mark Bates:** \[32:01\] ...recovers, and stuff like that... And it was both remarkably beautiful and terrible at the same time. \[laughter\] It was in a package called Structs, which was even better... \[laughter\]
 
 **Johnny Boursiquot:** Because that's where you put exception handling, clearly... \[laughter\]
 
@@ -288,7 +288,7 @@ I used to do C\#... I've built some amazing, abstract class hierarchies and all 
 
 **Johnny Boursiquot:** Context though... I mean, you have to have context. Certain skills are gonna be more valuable in certain contexts than in others... Again, going back to what kinds of problems are you solving, and what problem domain are you working in... Is this tool better suited for this kind of problem? All these virtues that we as software engineers aspire to - did I use the right tool for the job? Craftspersonship, and stuff like that. We aspire to all these things, except when it comes to our fair programming language. We feel the need to defend, "Well, Java does things the right way. I like the way it does things. Why can't I do the same as in Java?" Well, this is not Gava, this is not Guby, this is not Gython... This is Go. So learn that tool.
 
-\[00:35:58.26\] But I will admit, I'm gonna get off the soapbox for a little bit... I will admit that it's not unrealistic to say that the language you've been trained to use or learned to use for years and years and years has shaped the way to think about problems.
+\[35:58\] But I will admit, I'm gonna get off the soapbox for a little bit... I will admit that it's not unrealistic to say that the language you've been trained to use or learned to use for years and years and years has shaped the way to think about problems.
 
 **Mark Bates:** Absolutely.
 
@@ -322,7 +322,7 @@ But I think those who have to work in these multiple environments, multiple lang
 
 **Mat Ryer:** Right... Is that because they have already this previous knowledge, and they know how interfaces work?
 
-**Johnny Boursiquot:** \[00:40:08.23\] Yeah, where's the *implements IPersonal* or something, right?
+**Johnny Boursiquot:** \[40:08\] Yeah, where's the *implements IPersonal* or something, right?
 
 **Jon Calhoun:** I think people are just so used to that--
 
@@ -356,7 +356,7 @@ And the big question I get a lot, too - as I'm sure you guys - is "Well, how do 
 
 I'll tell you, in a class of eight hours, you're not gonna have time to talk about the theory of the readability, what's readable, what's not - you don't have time for that. You're trying to cram as much information in people's heads as possible, in as efficient a manner as possible, so that they can retain all of that knowledge you're dumping on them in such a short amount of time. You don't have time to dive into the theory, you have to get to the practical. But the thing is, without the theory to understand how to approach the language, then it becomes hard to say "Well, trust me - I've been doing Go for a long time. You're not gonna run into this particular problem you keep telling me about right now."
 
-**Break:** \[00:43:37.00\]
+**Break:** \[43:37\]
 
 **Mark Bates:** Changing topics -- Mat, sorry; allow me to take over hosting here for a second...
 
@@ -378,7 +378,7 @@ And even for courses, it's really hard, because some people just wanna follow al
 
 **Johnny Boursiquot:** \[laughs\] Forcing you to do it... Yeah, there's truth to that. But interestingly enough, the other day I ran a quick Twitter poll, obviously limited to my audience and my reach and whatnot... But of the folks who follow me, pretty much mostly, 90% of them are technologists, and engineers in some way... I wanted to find out how they learned technical content. And the options I had on there were like video, blogs, documentation or something like that... But basically not the kind of content, but the medium; what medium do they use to learn.
 
-\[00:48:07.00\] I was expecting video to be the runaway winner. It actually ended up being a nice distribution across all the different mediums, including reading (the long way), watching videos, reading tutorials and how-to's, and having a live training, that kind of thing... Again, reinforcing the idea that different people learn in different ways. But in the comments, what I was getting - there was like an underlying thread there.
+\[48:07\] I was expecting video to be the runaway winner. It actually ended up being a nice distribution across all the different mediums, including reading (the long way), watching videos, reading tutorials and how-to's, and having a live training, that kind of thing... Again, reinforcing the idea that different people learn in different ways. But in the comments, what I was getting - there was like an underlying thread there.
 
 What I was getting was that many folks need a combination of mediums to reinforce their learning. And I saw myself in that group, because literally, if I'm trying to learn a topic, I will get the video on Udemy, I will buy the book on Amazon, I will find a live training workshop to attend... Basically, I'm approaching it in almost like a 360 style, because I'm gonna get something from one of these instructors or teachers that I'm not gonna get from the other one. So I'll try to get myself like a complete 360 degree sort of knowledge even before I jump in to start actually writing code.
 
@@ -398,7 +398,7 @@ Often, if I have a big project I'm working on for a client or something, often t
 
 **Johnny Boursiquot:** There's an interesting dynamic going here I'm wondering if teachers feel the need, or if some teachers feel the need to get enough of a complete, broad set of knowledge, but then they advise their students to not learn in that way. They advise their learners to actually get the hands on, rather than try to acquire all the knowledge first... Because that's part of my reasoning. That's why I try to acquire as much knowledge as possible... Because only then do I feel comfortable telling somebody "This is what you should learn and how you should learn it." Because I feel the need to know enough about a topic. I feel the need to develop expertise on a topic before I can then pretend to be a teacher for that thing.
 
-**Mark Bates:** \[00:52:00.19\] Oh, if we're talking about teaching, versus learning - absolutely. I'm not gonna go and teach anybody how to write MUMPS. I've never written MUMPS in my life, and I'm not gonna pretend to sit there and teach people how to write MUMPS code. But learning I think is a very different process, at least for me anyway. For me, learning is that hands-on "I've got to be practical. I can't get it into my head any other way."
+**Mark Bates:** \[52:00\] Oh, if we're talking about teaching, versus learning - absolutely. I'm not gonna go and teach anybody how to write MUMPS. I've never written MUMPS in my life, and I'm not gonna pretend to sit there and teach people how to write MUMPS code. But learning I think is a very different process, at least for me anyway. For me, learning is that hands-on "I've got to be practical. I can't get it into my head any other way."
 
 **Mat Ryer:** I don't wanna self-promote, but I do have a book still available... You can get it on Amazon and other tax-dodging superstores. \[laughter\]
 
@@ -422,7 +422,7 @@ But it's hard, you can't overload people either... And I see it all the time; th
 
 **Mat Ryer:** Another thing that happens sometimes - if you've just made up an example, just because it doesn't matter, I've done it where my example is not a good example, and that becomes then the focus... And that obviously gets in the way then. So that's a fail on my part. And usually, breaking it down and only showing the relevant bits is a good way to avoid that sort of noise that otherwise can get in the way.
 
-**Mark Bates:** \[00:55:57.05\] It is. It's also really hard -- you just touched on something very important, Mat, which is writing examples. It's probably the hardest thing you have to do as a programming teacher. Because we keep talking about Go, but we're just talking about programming languages. All this applies to every other programming language on the planet, right? And honestly, learning anything, or teaching anything in general... But yeah, it's -- I've lost my train of thought... \[laughs\]
+**Mark Bates:** \[55:57\] It is. It's also really hard -- you just touched on something very important, Mat, which is writing examples. It's probably the hardest thing you have to do as a programming teacher. Because we keep talking about Go, but we're just talking about programming languages. All this applies to every other programming language on the planet, right? And honestly, learning anything, or teaching anything in general... But yeah, it's -- I've lost my train of thought... \[laughs\]
 
 **Mat Ryer:** Well, writing examples is hard. You use the Beatles a lot, don't you?
 

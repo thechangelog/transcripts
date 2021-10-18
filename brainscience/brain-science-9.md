@@ -280,7 +280,7 @@ And then the other thing is really creating your own internal file of this from 
 
 **Adam Stacoviak:** Self-inflicted, yeah. Purposeful suffering that you're doing to yourself, yeah.
 
-**Mireille B. Reece, Psy.D:** Not in a sort of injurious way, but rather functional... And going "I want to--" And I talk about this a lot with patients, about differentiating pain... Because if I put all of my pain into one \[00:44:56.29\] and say "All pain is created equal", then any even sense of discomfort goes to that file, the file is retrieved, and then I utilize that to play out.
+**Mireille B. Reece, Psy.D:** Not in a sort of injurious way, but rather functional... And going "I want to--" And I talk about this a lot with patients, about differentiating pain... Because if I put all of my pain into one \[44:56\] and say "All pain is created equal", then any even sense of discomfort goes to that file, the file is retrieved, and then I utilize that to play out.
 
 **Adam Stacoviak:** Right. And not all discomfort is negative.
 

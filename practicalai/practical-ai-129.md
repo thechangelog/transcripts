@@ -24,7 +24,7 @@
 
 **Daniel Whitenack:** Yeah, yeah. Well, I am sure that there's all sorts of interesting AI to predict the cicada brood numbers this year... But that's not the topic of this week's show.
 
-**Chris Benson:** \[00:04:16.24\] That's not what we're talking about today. I'm so sorry, folks.
+**Chris Benson:** \[04:16\] That's not what we're talking about today. I'm so sorry, folks.
 
 **Daniel Whitenack:** Yeah. I'm pretty interested by the topic and guest this week, because it seems like we talk a lot on this show about GPUs, or accelerators, or specialty parts for AI are mentioned, but a lot of times they're mentioned just in the context of the accelerators, not the software component that goes along with them. And of course, I've found - and I don't know about you, but I've found that a lot of times when I have access to this really cool card or something, and I wanna use it, but the problem is not having access to it, it's the software that I write for it has all of these issues. So I'm really excited to talk about that sort of software/hardware interface today.
 
@@ -52,7 +52,7 @@ One of the things about other chips is you'll find that they've been designed fo
 
 I think that's the new kind of breed of processor you'll get, and I think the IPU is the one, obviously, that really fixes that, so it allows us to do more in this space than other processors can, because we thought about from the beginning the kind of attributes you need for an AI chip. So what kind of data are we dealing with, what kind of patterns does that involve, what ramifications does that have for us, for example, on the memory hierarchy... Our memory hierarchy is very different to other processors, and so on... Just so we can kind of process data in a different way, or the compute units, and so on. That's what we're finding - we're finding a third place now where we have specialized hardware, ML, AI, intelligent compute in general. That's where the IPU sits for us, in Graphcore.
 
-**Chris Benson:** \[00:08:30.05\] So as we've talked to different folks through different episodes and everything, just trying to understand kind of where you fit in, and you're kind of laying out the landscape... Still at a high level, could you talk a little bit about the different categories before we dive fully into Graphcore, just so that we know in our heads where to position it, how that fits it? Because people come into this conversation with different levels of understanding and knowledge on what that is. Can you differentiate the different pieces of the landscape, and then as we focus in on where you're at, we'll have some context?
+**Chris Benson:** \[08:30\] So as we've talked to different folks through different episodes and everything, just trying to understand kind of where you fit in, and you're kind of laying out the landscape... Still at a high level, could you talk a little bit about the different categories before we dive fully into Graphcore, just so that we know in our heads where to position it, how that fits it? Because people come into this conversation with different levels of understanding and knowledge on what that is. Can you differentiate the different pieces of the landscape, and then as we focus in on where you're at, we'll have some context?
 
 **Dave Lacey:** Yeah, yeah. I think if I can take that landscape and talk about it from the types of processing that different processors do?
 
@@ -80,7 +80,7 @@ I suppose there are other ways you could split it up as well, but I quite like t
 
 **Daniel Whitenack:** And maybe you could connect -- so you talked about the graph nature of the IPU, the Graphcore processor, and taking a number from over there, and how that works. Could you sort of map that onto the typical AI types of tasks that we're wanting to perform, and how that connects? People that, for example, started using TensorFlow before TensorFlow 2 are maybe familiar with saving \[unintelligible 00:12:02.21\] or something like that, or loading them... Does that connect to what you're saying, or what's the connection?
 
-**Dave Lacey:** \[00:12:11.11\] Yeah, so there are several, and there are some different levels \[unintelligible 00:12:12.19\]0:12:14.27\] One of the graphs that people talk about in things like TensorFlow and so on is the compute graph, which is the way data flows around between big, intensive operations. And that's certainly one of the larger, coarse-grained things you can think. But I'm talking more about the graphs that connect the information together.
+**Dave Lacey:** \[12:11\] Yeah, so there are several, and there are some different levels \[unintelligible 00:12:12.19\]0:12:14.27\] One of the graphs that people talk about in things like TensorFlow and so on is the compute graph, which is the way data flows around between big, intensive operations. And that's certainly one of the larger, coarse-grained things you can think. But I'm talking more about the graphs that connect the information together.
 
 If you think about what \[unintelligible 00:12:37.11\] or they're convolutions. Now, let's look at convolutions for image processing. That's a really good example, because what you have there is you don't have quite the auto-connectivity of the matrix multiplier operation. You have a kernel which is going to apply the same thing to lots of different parts of the image across the image axis.
 
@@ -98,19 +98,19 @@ So I think there are lots of different ways of looking at the graph within a neu
 
 **Dave Lacey:** Yeah, it's something that we're quite interested in, and actually, some of the research groups we work with are interested in that kind of network. It's yet another type of graph, but the graph is not the model itself, but the data that the model is consuming. What we've found is that there's a lot of choice there; there's a lot of choice in how you represent the data structure. There are many ways to do that. And then the actual data processing operation you'll do will be different depending on that. So if you represent it as a list of edges, or a dense matrix, or a bit-vector, or things like this.
 
-\[00:16:18.15\] Actually, I think what people really want is a way to explore through those choices at the moment, actually, to kind of push things forward. This is one of the reasons that we're kind of quite keen on having a very flexible, programmable software stack, because there are all these choices to make.
+\[16:18\] Actually, I think what people really want is a way to explore through those choices at the moment, actually, to kind of push things forward. This is one of the reasons that we're kind of quite keen on having a very flexible, programmable software stack, because there are all these choices to make.
 
 I think it's a really great example you've made there with GNNs, because it shows that what we might be doing in 2-3 years' time in this field is gonna be quite different to what we were doing 2-3 years ago. And if you think like five years before that, then it wasn't neural networks, right? It wasn't deep learning, and stuff.
 
 So I think key for us, as much as having the right processor and having these graph techniques, if we could call them, as a family, the important thing is to have the capacity to do innovation. A part of that, for us, I think, actually does come down to the software quite a bit, actually. It comes down to making sure that people can modify it in a good way, and extend it, as well as having the kind of easy, out of the box thing, where they're just like "Ah, I just wanna run a TensorFlow program", or something like that. I think that the GNNs is a very good example of where you want that flexibility.
 
-**Break:** \[00:17:27.22\]
+**Break:** \[17:27\]
 
 **Chris Benson:** My head is also still spinning a little bit on something that you were talking about a little while ago, and that is the software and the hardware - you need them both. Over the decades, the world has been very CPU-focused, up until this most recent time period where we're really digging into AI, and all of these new hardware architectures have come into being... How do you approach -- given the fact that we're having all this innovation, and how these hardware architectures are coming out, how do you approach writing the software that goes for that hardware, that makes that hardware run? Especially when you think about the fact that we have a long history of being specific to different types of CPUs, but now the sky is the limit on what's happening... How does that change the act and the thought process and the planning for building software?
 
 **Dave Lacey:** I think it does a lot, actually. I think CPUs are amazing; they've been so successful in fixing an architecture, fixing all aspects of the architecture - the way the instruction set runs, the way that memory hierarchy works... And then applying it to lots of different fields and having that success I think is a remarkable thing. I don't know if it works for all fields though. And I think what we find in AI is one thing that we've been very keen on right from the start, and I definitely see other people in the field talk about it, is this idea of co-design.
 
-\[00:19:58.24\] Co-design is this general idea where you want to design several aspects of a system together. So clearly, one of the big aspects of co-design is design your software stack and your hardware architecture at the same time. That's something we're very keen on at Graphcore, and actually we've been, right from the beginning - we were very keen on making sure we worked on how the software was gonna target the chip, make sure we modeled everything, right up to the full neural network applications as we designed the chip, and pushing that all through.
+\[19:58\] Co-design is this general idea where you want to design several aspects of a system together. So clearly, one of the big aspects of co-design is design your software stack and your hardware architecture at the same time. That's something we're very keen on at Graphcore, and actually we've been, right from the beginning - we were very keen on making sure we worked on how the software was gonna target the chip, make sure we modeled everything, right up to the full neural network applications as we designed the chip, and pushing that all through.
 
 I think later on in the company what happens then is you need to extend that software stack and really invest in building that core for really robust solutions... And now we've got more software people than hardware people. It's a really big part of what we do. We're as much a software company as a hardware company. But even right at the beginning it was very much "Let's design these together."
 
@@ -130,7 +130,7 @@ There is a flipside, I have to say, in that you've gotta be careful not to desig
 
 **Chris Benson:** Is that a little bit of an artifact left over from an earlier time, when you were still thinking about CPUs, and there would be -- things would start in software; you'd solve a problem in software, and it would stick and be maintained over the years, and finally, it would get incorporated into chips... Is that a legacy mindset that maybe has been brought forward but doesn't work when you're advancing on the ML architecture as rapidly as we are?
 
-**Dave Lacey:** \[00:24:04.04\] Yeah...
+**Dave Lacey:** \[24:04\] Yeah...
 
 **Chris Benson:** I mean, if you bind it into the chip and you're stuck with that... Whereas we're seeing rapid advancement over the last few years in terms of where things are going.
 
@@ -150,7 +150,7 @@ At the end of that you have a kind of slightly lower-level split up graph where 
 
 At that point, out Graphcore TensorFlow backend takes over, and the first thing it'll do is it'll do a few more automizations on that data structure at that level. For example, in the chip we have a hardware unit for doing exponentials and sigmoids and the kinds of things that come up in certain non-linearity. So it will recognize those patterns in that graph, and say "Well, replace them with one special operator that will kind of go down to the hardware." So it'll do that kind of thing.
 
-\[00:27:58.11\] Then it will basically convert those operations into an even lower-level form of graph, which is much more fine-grained than that. We have something called poplibs, which are libraries that implement things like matrix multipliers, or non-linearity operations, or things like that in Poplar. So let me talk about Poplar briefly, because I realize \[unintelligible 00:28:18.21\]
+\[27:58\] Then it will basically convert those operations into an even lower-level form of graph, which is much more fine-grained than that. We have something called poplibs, which are libraries that implement things like matrix multipliers, or non-linearity operations, or things like that in Poplar. So let me talk about Poplar briefly, because I realize \[unintelligible 00:28:18.21\]
 
 **Chris Benson:** Absolutely.
 
@@ -176,7 +176,7 @@ The other thing I'll say that kind of really helps with this is being very open.
 
 So by having a more open infrastructure, it makes it easier for the community at large to help you adapt to new things as well. And as we're getting more popular, more people using us, we get more community involvement like that as well, and I think that's an important part of it as well.
 
-**Break:** \[00:32:10.24\]
+**Break:** \[32:10\]
 
 **Daniel Whitenack:** Dave, I'm curious... As an AI practitioner, one of the things I would love to know from you is as you've spent all of this time making AI programs be sympathetic to a certain architecture, and for certain tasks, do you have any good advice or help for AI practitioners out there in terms of knowing how to tailor our AI programs or models more generally to be efficient for a certain dataset or task? Are there any good advice you have, or common challenges/pitfalls that you see people falling into, that could be mitigated with some best practices?
 
@@ -188,7 +188,7 @@ I think it's a good question \[unintelligible 00:34:48.02\] I think one thing th
 
 I think the other thing is being very aware of the floating point behavior of various platforms, because that can vary a lot between platforms. A good platform should document that, and you should be aware of the tools they have to show when things are overflowing, or under-flowing, and so on, to know when you might be losing task performance... Not because of the model structure, but because of the data format that we're getting there. Actually, we're seeing new techniques coming in to help that, actually; you'll see things like automatic loss statements, for example. The software stack and the vendor should try to help there, try to make things more adaptive. So you don't have to think about those things, but I think it's worth just having a good, surface-level understanding of what's going on under the board of it.
 
-**Daniel Whitenack:** \[00:36:02.18\] Yeah. Chris, you're probably familiar with Bill Kennedy in the Go world, and maybe you are as well, Dave... We've spent some time working together, and he always in our conversations was talking about this idea of mechanical sympathy as you're writing code... Which I think gets to a lot of what you're saying, Dave, in terms of - yeah, maybe all software engineers don't have to also be hardware engineers, but there is an element of developing a mechanical sympathy for what you're writing... Or that helps you write really robust and good software, that I think is really valuable.
+**Daniel Whitenack:** \[36:02\] Yeah. Chris, you're probably familiar with Bill Kennedy in the Go world, and maybe you are as well, Dave... We've spent some time working together, and he always in our conversations was talking about this idea of mechanical sympathy as you're writing code... Which I think gets to a lot of what you're saying, Dave, in terms of - yeah, maybe all software engineers don't have to also be hardware engineers, but there is an element of developing a mechanical sympathy for what you're writing... Or that helps you write really robust and good software, that I think is really valuable.
 
 In Go it's understanding "Oh, if I initialize a variable this way, it does something different than if I initialize a variable this way in terms of the memory that's allocated, and copies that are made, and all those things."
 
@@ -206,7 +206,7 @@ I wouldn't suggest that people try and really do that unless they're super-inter
 
 Actually, maybe this is a case for the people to specialize a bit, and if you wanna be that person that can understand the details, that do that, but find good people to work with that understand the higher level, and vice-versa. If you really wanna understand the machine learning part of it and have some sympathy, but then maybe find some people to work either in the community, or set up your professional team structure to make sure you've got people with those other skills as well.
 
-\[00:40:16.15\] We kind of have a mix at Graphcore. I'd say we have some people who are that kind of full-stack \[unintelligible 00:40:18.09\] and go up and down it. Obviously, we're in a bit different position, because we're in the implementation side of things.
+\[40:16\] We kind of have a mix at Graphcore. I'd say we have some people who are that kind of full-stack \[unintelligible 00:40:18.09\] and go up and down it. Obviously, we're in a bit different position, because we're in the implementation side of things.
 
 **Chris Benson:** Right.
 

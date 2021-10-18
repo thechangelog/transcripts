@@ -50,7 +50,7 @@ We do three main things for Walmart - we have our own reverse proxy, which does 
 
 **Chase Adams:** Again, since I'm newer to the team, I don't have as much history about what it was written in before the acquisition, but I do know that there was at a point in time around 2012 there was a point where they were trying to decide whether or not to write the reverse proxy in Node or in Go, and clearly they landed on Go.
 
-\[00:04:10.09\] As far as what I remember my manager telling me, it was around 0.8. So it's been written in Go for a very long time. They've built the whole company on Go, as far as I know.
+\[04:10\] As far as what I remember my manager telling me, it was around 0.8. So it's been written in Go for a very long time. They've built the whole company on Go, as far as I know.
 
 **Brian Ketelsen:** That's awesome.
 
@@ -78,7 +78,7 @@ But most everything is Go, and it's spread out across the world, which is pretty
 
 **Chase Adams:** Yeah, it's pretty amazing how far-reaching Walmart is. I've talked to people on Slack from the U.K., and from Canada... I haven't talked to anyone from Brazil that, but I know that team is starting to transition to using the Edge platform tools that we have. It's pretty amazing how many people there are working on stuff for Walmart, and it's different countries that we support.
 
-**Carlisia Thompson:** \[00:08:10.00\] Are you using [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), anything like that?
+**Carlisia Thompson:** \[08:10\] Are you using [Docker](https://www.docker.com/), [Kubernetes](https://kubernetes.io/), anything like that?
 
 **Chase Adams:** No. Pretty much everything is either on bare metal or NVMs, and since it's a stack, that built binary we don't have to really worry about too much other than that.
 
@@ -106,7 +106,7 @@ But most everything is Go, and it's spread out across the world, which is pretty
 
 **Chase Adams:** Yeah, Slack is probably one of the heavier tools that we use for communication. Since we're writing code, GitHub is a pretty significant place where we spend communicating... And I think the GitHub Enterprise that we're using now has a lot of the newer features for reviews and doing approvals, and just being able to give written feedback I think is probably one of the hardest things that I've had to kind of get my head around, to do it in such a way that always comes across as gracious -- because sometimes even if you say something and your intent is meant to be more exploratory and not necessarily trying to ask him like "Why are you doing it this way?" You have to be really careful with written communication, especially if you only see each other once a quarter or so, to make sure that you're communicating in a way that you can be positive about the way forward with whatever it is you're talking about.
 
-**Carlisia Thompson:** \[00:12:05.26\] So have you found ways to do it better than you normally would if you weren't making an effort?
+**Carlisia Thompson:** \[12:05\] So have you found ways to do it better than you normally would if you weren't making an effort?
 
 **Chase Adams:** Yes. For me, I usually ask other people before I make a comment on something, especially if I think that it might potentially come across in a bad way. I think just talking to someone who has context around what you're talking about, but isn't the person that you're addressing immediately, they're able to look at it from a different way than you are, as the person who has written the code a lot more easily, and give you feedback and say "Well, you can probably tighten this up, or even say this thing a little different."
 
@@ -128,7 +128,7 @@ But we built a tool in Go that would basically switch those agents in and out ba
 
 **Chase Adams:** I think that's true, and I think the other big piece of it for me coming into Go was just being able to see someone use the Go tools that are, you know, first-class citizens to Go, that you don't get with other languages... Just to see how easy it is to write Go and to make sure that your Go is gonna work.
 
-\[00:16:16.25\] Having written a lot of Node.js previously, setting up testing for JavaScript is a nightmare, and when you can show those kinds of things to people, just how easy it is to set up projects and how Go the language made the developer an important part of the story, to me that's a really convincing thing to be able to show to developers. And if developers can be productive and happy, and everyone else is gonna be happy, too.
+\[16:16\] Having written a lot of Node.js previously, setting up testing for JavaScript is a nightmare, and when you can show those kinds of things to people, just how easy it is to set up projects and how Go the language made the developer an important part of the story, to me that's a really convincing thing to be able to show to developers. And if developers can be productive and happy, and everyone else is gonna be happy, too.
 
 **Brian Ketelsen:** We should put a sign over the stove in the kitchen - "If the developer is happy, everybody is happy."
 
@@ -146,7 +146,7 @@ To me, if you can make it so that your code is mostly something that you feel li
 
 You're gonna have politics wherever you work, you're gonna have some crappy things wherever you work, and if you have really good things and if you're not having to deal with bureaucracy, or if you don't even know if your app is gonna work when you push that in production - those are bad things... So making it so that your code is stable and making it so that there's good tooling around that so that people can run tests locally and then run it in CI, and then deploy to prod, reducing the friction on that to me I think is one of the most important things that any organization should be thinking about.
 
-**Brian Ketelsen:** \[00:20:06.06\] Yeah, for me CI is all about sleep.
+**Brian Ketelsen:** \[20:06\] Yeah, for me CI is all about sleep.
 
 **Carlisia Thompson:** I wanted to clarify that [CI](https://en.wikipedia.org/wiki/Continuous_integration) is continuous integration and [CD](https://en.wikipedia.org/wiki/Continuous_delivery) is continued development?
 
@@ -172,7 +172,7 @@ Then the CD is just being able to deploy it from environment to environment in s
 
 **Brian Ketelsen:** Changing the wheels on the bus while it's moving fast?
 
-**Chase Adams:** \[00:24:03.20\] Yeah, I like to use the -- I don't know if you remember that [commercial](https://www.youtube.com/watch?v=Y7XW-mewUm8), but it was like "We like to build airplanes... In the air." It's that same thing.
+**Chase Adams:** \[24:03\] Yeah, I like to use the -- I don't know if you remember that [commercial](https://www.youtube.com/watch?v=Y7XW-mewUm8), but it was like "We like to build airplanes... In the air." It's that same thing.
 
 **Brian Ketelsen:** \[laughs\] I haven't seen that one, but I've had that job before, so I empathize.
 
@@ -204,7 +204,7 @@ So I had to spend a lot of this time figuring things out on my own. Twitter was 
 
 I think we're in a time now where -- I work with one of my friends who just graduated from Nashville Software School; we try to get together every two weeks... He was there for JavaScript, so we work on some JavaScript stuff, but you know, just having that opportunity for him to learn from someone who's seen things go bad, seen things go sideways, being able to experience what was like working on enterprise level software, or whatever software you're working on... You know, if you're available to people and those people are interested, that to me is kind of a sweet spot, and... If you're always learning, you can always be teaching.
 
-**Erik St. Martin:** \[00:28:18.21\] There's a quote that always comes to mind when I talk about mentorship, and I sent it in a tweet the other day... It's actually about the actor Kevin Spacey; he says "I feel it's a responsibility for anyone who breaks through a certain ceiling to send the elevator back down and give others a helpful lift." I think that always resonated with me. Everybody kind of climbs through the ranks and... We're so focused on where we've drawn the line for ourselves, like where we want to hit for personal growth through knowledge or career growth, and we often forget how far we've come, and that we have value that we can add to other people.
+**Erik St. Martin:** \[28:18\] There's a quote that always comes to mind when I talk about mentorship, and I sent it in a tweet the other day... It's actually about the actor Kevin Spacey; he says "I feel it's a responsibility for anyone who breaks through a certain ceiling to send the elevator back down and give others a helpful lift." I think that always resonated with me. Everybody kind of climbs through the ranks and... We're so focused on where we've drawn the line for ourselves, like where we want to hit for personal growth through knowledge or career growth, and we often forget how far we've come, and that we have value that we can add to other people.
 
 **Carlisia Thompson:** Absolutely. I love that quote too, by the way.
 
@@ -218,7 +218,7 @@ Being able to find those people is a lot more trivial today than it used to be, 
 
 **Erik St. Martin:** Well, I think there's also a degree of -- so that's hitting kind of on like the technical mentorship side, where you're trying to evolve somebody, but I think there's also value in the career and personal growth... Because we've all kind of tread the path before people coming onto the scene now. So there's a lot that we've learned even outside of just our technical jobs about our careers and how to grow within them, and you know, maybe transition to another role or into leadership, or things like that.
 
-\[00:32:09.12\] And even personal... A common thing -- I talk to people who have been in the industry for just a couple years and they struggle with the burnout that almost all of us have gone through at one time or another. I think there's a degree of being around to discuss those things too, and to remind people that are just experiencing these types of things for the first time that it's normal, that everybody goes through it.
+\[32:09\] And even personal... A common thing -- I talk to people who have been in the industry for just a couple years and they struggle with the burnout that almost all of us have gone through at one time or another. I think there's a degree of being around to discuss those things too, and to remind people that are just experiencing these types of things for the first time that it's normal, that everybody goes through it.
 
 **Brian Ketelsen:** I never get a burnout.
 
@@ -250,7 +250,7 @@ Being able to find those people is a lot more trivial today than it used to be, 
 
 So I'm being selective; I don't have a lot of time, but I will make extra time for that. I'll make an extra effort, I guess. Otherwise, I think we have been sort of successful at being attractive to women in general; we have the [Women Who Go](https://www.womenwhogo.org/) group, and men definitely - we see people joining from all fronts, joining the community. So yeah, that's all that I've been doing.
 
-**Brian Ketelsen:** \[00:36:18.18\] I'm kind of the same; I have a lot of ad-hoc mentoring going on, at least 2 or 4 people a day on Slack and Twitter asking for various career advice or something similar to that, but it's all ad-hoc, nothing assigned.
+**Brian Ketelsen:** \[36:18\] I'm kind of the same; I have a lot of ad-hoc mentoring going on, at least 2 or 4 people a day on Slack and Twitter asking for various career advice or something similar to that, but it's all ad-hoc, nothing assigned.
 
 **Erik St. Martin:** I think that's mostly been my interaction, too. I kind of sent out a tweet over the weekend kind of soliciting for mentees, just because I'd like to play a more active role than just the occasional question that comes my way, especially -- I don't think that I get career-based questions or personal questions, or things like that. It's usually technical, like "I'm running into this thing. Any ideas?" and I think it's important for the career aspect.
 
@@ -266,7 +266,7 @@ So for me, I wanted to be able to invest in people in that way, and I'm hoping t
 
 I have definitely one guy that I'm mentoring for JavaScript, but the other two people are a lot more -- those relationships are a lot more about their... Not their technical growth, but their growth where they're working.
 
-\[00:40:01.27\] At the end of the day, I try to write as much code as I can and I try to get into the code, but the reality is when you work somewhere like Walmart or Zappos or any company that is large enough that you're not just able to turn out code because there's all this greenfield stuff... You are spending a lot of time in meetings, or doing things that are not necessarily writing code, and those are important things to help people learn how to navigate and how to do it right. A lot of times, promotions and even being able to be effective, those things rely on you being able to be productive outside of just writing code.
+\[40:01\] At the end of the day, I try to write as much code as I can and I try to get into the code, but the reality is when you work somewhere like Walmart or Zappos or any company that is large enough that you're not just able to turn out code because there's all this greenfield stuff... You are spending a lot of time in meetings, or doing things that are not necessarily writing code, and those are important things to help people learn how to navigate and how to do it right. A lot of times, promotions and even being able to be effective, those things rely on you being able to be productive outside of just writing code.
 
 **Brian Ketelsen:** Now, here's that question kind of flipped around a little bit... Who's had a really good mentor that changed their life? I'll go first if you want... I had a manager named Jim Young ten years ago, and to this day I still call him and get amazing life advice. During the time where we worked together, he was so much more than a manager for me, and it was just absolutely amazing how he helped me steer my career and my life in a better direction.
 
@@ -290,7 +290,7 @@ So I'd very much like to have a more senior Go developer mentor me at work. But 
 
 My dad was my boss when I first started working, and having to not work for him -- being able to tell your dad "Hey, I'm not gonna be able to work here anymore, I'll go work somewhere else" is pretty hard, especially if you have a good relationship with your dad. But you know, ever since then, he's invested in trying to help me to grow. It was even to the point where he would give me books to read and ask me if I wanna talk about them, and we'd talk about books.
 
-\[00:43:54.23\] The second one that I wanna call out is my previous manager. His name is Dave Cadwallader. He was at Walmart, he's at a place called DNA Nexus now. He was one of those people who -- he was my manager, but more than anything he helped me think through how to do things the right way and how to say things the right way. There was a point in time at Walmart where a lot of people were afraid that remote positions were gonna get nixed altogether, and I wanted to ask the question of like -- to me it was like "Why are we doing this?" He made me stop and ask the right questions of "What is it that I really wanna get out of asking the question of remote workers?" Is it that I wanna fume at somebody, or is it that I wanted it to be resolved where it's okay for people to not be in an office.
+\[43:54\] The second one that I wanna call out is my previous manager. His name is Dave Cadwallader. He was at Walmart, he's at a place called DNA Nexus now. He was one of those people who -- he was my manager, but more than anything he helped me think through how to do things the right way and how to say things the right way. There was a point in time at Walmart where a lot of people were afraid that remote positions were gonna get nixed altogether, and I wanted to ask the question of like -- to me it was like "Why are we doing this?" He made me stop and ask the right questions of "What is it that I really wanna get out of asking the question of remote workers?" Is it that I wanna fume at somebody, or is it that I wanted it to be resolved where it's okay for people to not be in an office.
 
 He's helped me through a lot of those (like Erik said) politically tricky questions that can easily -- probably your entire career could go out in flames if you asked the wrong way. Being able to talk me through how to ask those both in a way that is clear and concise, and in a way that doesn't come across as trying to -- I don't know, to be effective with your questions and to be effective in the way that you're thinking about things.
 
@@ -306,7 +306,7 @@ Then my third one, there's a guy -- I've tweeted about him a few times, and then
 
 **Carlisia Thompson:** Yeah, that's harder, because it also requires for you to understand the domain, which if it's someone starting to learn, that's probably gonna need to be simple enough, but it still requires a little bit of effort.
 
-\[00:47:50.00\] The best thing I think - and this is not final; I would like to hear from Brian and Chase as well - is definitely join group chats, like the newbies channel that we have - [Golang Newbies channel on GopherSlack](https://gophers.slack.com/messages/golang-newbies), or the [WomenWhoGo Slack](https://gophers.slack.com/messages/womenwhogo), there's a GoBridge channel also in GopherSlack... Just because there'll be people available when you want to ask a question. And reserve pinging people for questions that you're not comfortable asking publicly. Just like Eric and me too. I'm available for one-offs, that I can say "Hey, let's do two days from now", but nothing that I can commit to on a consistent basis.
+\[47:50\] The best thing I think - and this is not final; I would like to hear from Brian and Chase as well - is definitely join group chats, like the newbies channel that we have - [Golang Newbies channel on GopherSlack](https://gophers.slack.com/messages/golang-newbies), or the [WomenWhoGo Slack](https://gophers.slack.com/messages/womenwhogo), there's a GoBridge channel also in GopherSlack... Just because there'll be people available when you want to ask a question. And reserve pinging people for questions that you're not comfortable asking publicly. Just like Eric and me too. I'm available for one-offs, that I can say "Hey, let's do two days from now", but nothing that I can commit to on a consistent basis.
 
 **Brian Ketelsen:** Yeah, that's probably an important part of the mentor discussion - determining what things are actively mentoring and what things are "I'm just too lazy to go to [Stack Overflow](https://stackoverflow.com/)." And the difference between them is in a mentor relationship you have that dedicated channel back and forth to answer hard questions, but if someone is taking advantage of that to ask not so hard questions, or questions that they haven't explored other opportunities with, then they're kind of putting a burden on that mentor relationship.
 
@@ -324,7 +324,7 @@ Then my third one, there's a guy -- I've tweeted about him a few times, and then
 
 **Erik St. Martin:** See? So, I kind of hate that... We all talk about impostor syndrome regularly, right? So when you kind of get like a walk-on job, where like "You're you, and we want you. If you want the job, you're hired" type thing. That really makes impostor syndrome worse too, because you spend a long time concerned, like "Do you know all of the things that they think you know, why they just offered you the job?" And it takes you a long while to kind of figure out what their expectations are versus your skillset, whereas if you're in a formal interview and you don't know things, you know that they know you don't know it, and you feel comfortable in that, like "Oh, okay, then I guess it wasn't that big of a deal."
 
-**Carlisia Thompson:** \[00:52:06.13\] I don't know... I think the resume is just a tool for people getting to know you, and even with a resume, they can extrapolate and think that you know more than you know, or think that you know less than you know... And an interview is the point where they take that knowledge, whether it came from a resume or it came from them knowing you from wherever, and having that conversation. So "Let's talk about what you really know, how you really fit in, and what you don't know, and if you're comfortable with that..." So I don't see the problem that you see, if somebody invites you for an interview and they don't ask you for your resume.
+**Carlisia Thompson:** \[52:06\] I don't know... I think the resume is just a tool for people getting to know you, and even with a resume, they can extrapolate and think that you know more than you know, or think that you know less than you know... And an interview is the point where they take that knowledge, whether it came from a resume or it came from them knowing you from wherever, and having that conversation. So "Let's talk about what you really know, how you really fit in, and what you don't know, and if you're comfortable with that..." So I don't see the problem that you see, if somebody invites you for an interview and they don't ask you for your resume.
 
 **Erik St. Martin:** Yeah, so inviting you for the interview without a resume - I think that's okay. What I'm talking about is like a walk-on job where it's basically like some company loves who you are; they're like, "Carlisia, we listen to the podcast all the time. We love you, we want you to come work for us. Just say yes", and there's no formal interview.
 
@@ -350,7 +350,7 @@ For me, I don't know, that would make me really nervous, because even if it was 
 
 **Erik St. Martin:** Definitely.
 
-**Brian Ketelsen:** \[00:55:40.12\] ...so we could stay on track. I have the coolest Go news. I love me some distributed tracing, and [Ricardo.ch](https://www.ricardo.ch/), which is a Swiss company that got training from Gopher Academy when Gopher Academy was doing training this year - they just released go-tracing, which is an awesome open tracing plugin for Go that drops your traces and spans directly to zipkin.
+**Brian Ketelsen:** \[55:40\] ...so we could stay on track. I have the coolest Go news. I love me some distributed tracing, and [Ricardo.ch](https://www.ricardo.ch/), which is a Swiss company that got training from Gopher Academy when Gopher Academy was doing training this year - they just released go-tracing, which is an awesome open tracing plugin for Go that drops your traces and spans directly to zipkin.
 
 **Erik St. Martin:** Oh, nice.
 

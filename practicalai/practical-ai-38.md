@@ -38,7 +38,7 @@
 
 **Chris Benson:** Oh, so sorry...
 
-**Nick Hasty:** \[00:03:56.25\] Yeah, that's really funny; small world. Atlanta is doing good. So then I went to the University of Georgia as an undergrad, and I was actually an English major. I always dabbled in computing in terms of custom Doom mods, and music technology stuff; I was big into music, and -- I actually didn't really get into web stuff and more computer science until grad school, when I went to an interactive telecommunications program called ITP, at NYU. It was kind of an art technology school in the Tisch School of the Arts. They kind of take a bunch of random people who are good at a lot of different stuff and throw technology at them; anything from algorithms, data visualization stuff, to actual light electrical engineering, and just kind of see where you end up.
+**Nick Hasty:** \[03:56\] Yeah, that's really funny; small world. Atlanta is doing good. So then I went to the University of Georgia as an undergrad, and I was actually an English major. I always dabbled in computing in terms of custom Doom mods, and music technology stuff; I was big into music, and -- I actually didn't really get into web stuff and more computer science until grad school, when I went to an interactive telecommunications program called ITP, at NYU. It was kind of an art technology school in the Tisch School of the Arts. They kind of take a bunch of random people who are good at a lot of different stuff and throw technology at them; anything from algorithms, data visualization stuff, to actual light electrical engineering, and just kind of see where you end up.
 
 I was historically very into creative tech stuff, and even art proper, so after ITP I started working for the New Museum here in New York. They have a new media art branch called Rhizome; it's been around since the mid-90's. It started off as a listserv and it's now a website, museum, and an archive where they house digital art. It's like an internet art organization. I was a director of technology there for a number of years, and I got a lot of my web chops there... And being at Rhizome, we were very invested into gif early on, because the gif is like a purely internet media, I guess you could say. It predates the internet, but it really came to its own.
 
@@ -58,7 +58,7 @@ GIPHY took off like a rocket, it was very interesting. It was a really cool way 
 
 You've got pop culture, and all these different things you can load into a gif... If a celebrity is saying Hello, you've got all these different layers of meaning that you can unpack, and it became a really interesting way for people to interact with each other online. We kind of realized that, and our goal was to just -- you know, since gifs are so old, and since they work everywhere... I mean, at this time it was 2013, so there was still contention around which codec to use on the web, and Firefox supported this, but Safari supported that... But no matter what, the gif was supported everywhere. It was definitely an old format, and overweight, and kind of slow, but its universal ability to just load and play in anything, including iMessage way back in the day...
 
-**Chris Benson:** \[00:08:23.05\] So at this point, with you guys been going for quite a few years at this point, what does GIPHY research do now, now that you've kind of grown into a full organization? What are the typical types of things that your researchers are engaged in?
+**Chris Benson:** \[08:23\] So at this point, with you guys been going for quite a few years at this point, what does GIPHY research do now, now that you've kind of grown into a full organization? What are the typical types of things that your researchers are engaged in?
 
 **Nick Hasty:** Yeah, so fast-forward now, I've kind of moved out of engineering and I guess I'd say I'm more of like a product director person. I run the R&D team; we are within the Search Division.
 
@@ -90,7 +90,7 @@ We had a spell of time in which we were doing a lot of image annotation. Obvious
 
 We work with partners, movie studios and various other people in the entertainment industry to live gif events, and things like that... So yeah, it's very funny.
 
-**Daniel Whitenack:** \[00:12:13.03\] You mentioned a lot of different things that you've done and are doing... How many people are on this R&D team, working with you to come up with these projects?
+**Daniel Whitenack:** \[12:13\] You mentioned a lot of different things that you've done and are doing... How many people are on this R&D team, working with you to come up with these projects?
 
 **Nick Hasty:** Right now it's five of us; we've grown a little bit. We work with a team in Ukraine called Rails Reactor. Dmitry Voitekh and Ihor Kroosh are working with us right now. I've had a couple of other employees from them... But they are really amazing machine learning engineers, and kind of the specialists in terms of the algorithms, and building out the systems, and stuff like that. So we work with them... And then GIPHY's CTO, Anthony Johnson, works on our team a lot, too. He has a pretty extensive background in machine learning and deep learning. So right now we're tag teaming it, the team. It's been really awesome. We're really cranking out some stuff.
 
@@ -112,7 +112,7 @@ I think my team has probably taken over four or five of the GIPHY API endpoints.
 
 **Nick Hasty:** Yeah. Our philosophy is "Work is boring." You probably don't wanna be there, so maybe if you can just throw a little weirdness into the mix, it can make things a little funner. So we have taken over that, and applied some learning techniques to that to make it a little smarter, and make it a little more on point. We measured engagement and it's been 20%-30% increases overall in terms of how people have used the integration itself.
 
-\[00:16:12.19\] So like Slack, and that endpoint, which is our translate endpoint, our related gifs endpoint, related tag searches endpoint... So point being, the things that we've done - we've been able to prove value in that, and then those things have been able to be incorporated by the company as a whole.
+\[16:12\] So like Slack, and that endpoint, which is our translate endpoint, our related gifs endpoint, related tag searches endpoint... So point being, the things that we've done - we've been able to prove value in that, and then those things have been able to be incorporated by the company as a whole.
 
 **Daniel Whitenack:** So the AI stuff that you're doing - do you typically have a target value-add product-wise, when you're going into that? Or do some things just start like "Oh, I wonder if we could that with gif?"
 
@@ -130,7 +130,7 @@ Gifs are fun and easy. It's a nice entry point. If people are slightly intimidat
 
 I've always personally found that when I'm working with fun content, or working on a fun project, I tend to learn the technology better that way, as opposed to just reading a book, or hammering stuff out in the class. I'm like, "I wanna build something, and I wanna incorporate this fun thing and this fun thing. You know, if I end up needing some deep learning algorithm or whatever to make it happen, that's cool." That was kind of the thought behind that.
 
-**Break:** \[00:20:19.22\]
+**Break:** \[20:19\]
 
 **Chris Benson:** Nick, to take you back -- we kind of leapt right into the full company, but I actually wanted to ask you a question about... You described when you had come into the company, and you were having that conversation, and the next day you were doing it... But even possibly before that, as you know it, how did the project itself come about? What was its genesis, and also, why were celebrities the thing that you moved to? Or was there anything before that?
 
@@ -146,7 +146,7 @@ I've always personally found that when I'm working with fun content, or working 
 
 Flash forward six years, I'm doing their R&D stuff. The impetus is, you know, GIPHY - we do a lot of different things, people know us in different ways, but let's really flex and demonstrate the cool tech we're doing. I think people may have an idea of the volume, and the gifs we serve, and the scale at which we do - we serve a couple billion gifs every day - but I don't know if people know about the more interesting projects that happen in-house, and how working at GIPHY is working with interesting technology at the nexus of culture and entertainment. So the celeb detector embodied this - we could do this project, say "Hey, at GIPHY we do deep learning; we had this experiment happening in the background. We use this tool in-house to annotate our gifs", but the real goal was to put it out there for people, hopefully get some press, hopefully people are interested in it, and also be excited about the community itself.
 
-\[00:24:21.17\] Like any startup, we use tons and tons of open source projects, and GIPHY would not exist, categorically, if it wasn't for awesome open source projects, so... Our success - we wanna give some of it back, and be able to demonstrate some of the things we've picked up and learned along the way, and give something that people could play with... So that was where it came from.
+\[24:21\] Like any startup, we use tons and tons of open source projects, and GIPHY would not exist, categorically, if it wasn't for awesome open source projects, so... Our success - we wanna give some of it back, and be able to demonstrate some of the things we've picked up and learned along the way, and give something that people could play with... So that was where it came from.
 
 **Daniel Whitenack:** Cool, yeah. That describes a lot of the motivation. I'm curious - you've talked about how the celeb project came about... I'm wondering - you talked about previously using Word2vec and other things for related gifs, and all of that...
 
@@ -170,7 +170,7 @@ So just finding the right one that we wanted to build ours off, and it ended up 
 
 **Daniel Whitenack:** Yeah, so that's like face to numbers.
 
-**Nick Hasty:** \[00:28:00.12\] Yeah, exactly. So then for all the faces they have a numerical representation, and what you wanna do is be able to find similar faces and be able to match them. So if a new face comes in, when you translate that face into a group of numbers, you wanna be able to check it against the previously existing groups of numbers that live within the model, to come up with a prediction.
+**Nick Hasty:** \[28:00\] Yeah, exactly. So then for all the faces they have a numerical representation, and what you wanna do is be able to find similar faces and be able to match them. So if a new face comes in, when you translate that face into a group of numbers, you wanna be able to check it against the previously existing groups of numbers that live within the model, to come up with a prediction.
 
 For us, there are pre-existing models, like I was saying, like the ResNet, that can take an image and make it into a vector. That wasn't so hard, but finding the right way to take the vectors and cluster them and group them in such a way that when a new face vector came in, we could make an accurate prediction. That was definitely the biggest challenge for us.
 
@@ -194,7 +194,7 @@ For us, there are pre-existing models, like I was saying, like the ResNet, that 
 
 **Nick Hasty:** Totally. I'm in pretty good contact with our content development team, and they're in charge of all the latest pop culture stuff... And I worked closely with them through this for them to go through the list of celebs, and to approve the different ones, and make sure there's nothing bad or weird in there... And as things bubble up, they can certainly hit us up and say "Hey, this person's really growing... Can we add them at some point?" And we'll probably wait, because training obviously takes a little time, and we have to make sure we've got the right dataset.
 
-\[00:32:06.26\] As we hit a certain set of new celebs, we'll probably just do one big training, and then re-release the model after that. It hasn't been a huge ask so far. In terms of business value, I think this isn't something where were' like "Hey, GIPHY's got an API that we offer to everyone, that's part of the GIPHY API, so you can get celebrity predictions..." The proposition was never deep learning as a service, it was always like "Let's do this thing in-house, set it up in-house, and then also give it out to other people to show how we do things in-house." That's why we included some ops-oriented code like Docker, and those kinds of things - to show our philosophy now for deploying... Those kinds of things.
+\[32:06\] As we hit a certain set of new celebs, we'll probably just do one big training, and then re-release the model after that. It hasn't been a huge ask so far. In terms of business value, I think this isn't something where were' like "Hey, GIPHY's got an API that we offer to everyone, that's part of the GIPHY API, so you can get celebrity predictions..." The proposition was never deep learning as a service, it was always like "Let's do this thing in-house, set it up in-house, and then also give it out to other people to show how we do things in-house." That's why we included some ops-oriented code like Docker, and those kinds of things - to show our philosophy now for deploying... Those kinds of things.
 
 **Daniel Whitenack:** Yeah, that's much appreciated, by the way.
 
@@ -214,7 +214,7 @@ So you kind of moved to talking a little bit about how you really wanted people 
 
 But the challenges are, number one, the format is heavy. It's kind of a hefty format. The compression algorithm (is it Lempel–Ziv–Welch...?) is older, and it's kind of dictionary-based, from what I remember... So it compresses, but it's still a big format. It hasn't been able to take advantage of all the things that happened in video, so it's really just like a bunch of images that are squashed together into this file and the player just goes through each of the frames... And there's metadata at the beginning and the end of the file, that kind of say "Here's the speed, here's the colors", and those kinds of things.
 
-\[00:36:02.29\] Gifs are also limited in the color pallet. If you have a high-quality video or high-quality image, and then you transfer it over to gif, each frame is only limited to 256 colors, I believe... So you're gonna lose some coloration there, which could very well affect how your deep learning system interprets the image properties and determines the values. So ideally, if you can, it's good to work with as high quality of images as you can, so you can be the most accurate. Those are kind of the main things...
+\[36:02\] Gifs are also limited in the color pallet. If you have a high-quality video or high-quality image, and then you transfer it over to gif, each frame is only limited to 256 colors, I believe... So you're gonna lose some coloration there, which could very well affect how your deep learning system interprets the image properties and determines the values. So ideally, if you can, it's good to work with as high quality of images as you can, so you can be the most accurate. Those are kind of the main things...
 
 It's just slowness, too. If you're moving with big files, and it takes longer to train, and it takes longer -- if you're moving stuff over the wire, that takes slower... Those are the biggest challenges, I would say, that we had to deal with. And maybe this happens with video too, but if a gif has 90 frames or 120 frames, it may become the situation where evaluating every frame is not your best option, just because of the overhead involved, or the time involved... You've gotta do some sampling across frames, and then figuring out which frames to sample, and then how you wanna aggregate it, and how you want to -- if the end result is a single prediction of a celebrity, getting to that single prediction by looking at a single gif, which could count 100 frames, maybe multiple faces, those kinds of things, since there are so many frames and the frames are different (more than one face could appear in a frame or not), you do have to play a lot, like I was saying earlier, with the clustering, and how you wanna group things in order to end up with that single prediction. So there's a lot of time spent in that component.
 
@@ -238,7 +238,7 @@ So we put up the -- this is probably one of my favorite things about the whole p
 
 It was really funny to see celebrities that looked alike, or who had shared similar characteristic in their face that you had never seen. To be honest, maybe our very favorite thing about this whole thing - within the company itself, everyone would upload their own face, and then they would get their celebrity prediction, and there was like a huge email thread that the company shared out, where everyone was like "Oh look, my match is Brad Pitt", or "Oh, I'm Jennifer Lawrence" or Idris Elba, or whatever... Everyone's got their egos stroked a little bit.
 
-**Daniel Whitenack:** \[00:40:19.10\] Yeah, that's awesome. I was just thinking while you were talking about open-sourcing things and having that online, it's something I need to try out and share the results with my wife; I'm sure she'd be interested to see that.
+**Daniel Whitenack:** \[40:19\] Yeah, that's awesome. I was just thinking while you were talking about open-sourcing things and having that online, it's something I need to try out and share the results with my wife; I'm sure she'd be interested to see that.
 
 I really appreciate you taking time to go through the project with us. Great work on everything.
 

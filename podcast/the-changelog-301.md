@@ -16,7 +16,7 @@ We briefly flirted with the idea of "Let's implement Python on top of the CLR, a
 
 After that was when we kind of turned around and said "Hey, this thing that we do better than anyone else right now is tooling, and Visual Studio is far and away one of the best editors on the planet. This is like 2008, 2009, 2010 kind of era, "Let's invest in Python support there."
 
-\[00:04:03.13\] So there was this tiny little team, totally under the radar, building Python support for Visual Studio, and shipping an extension, which was known as Python Tools for Visual Studio. From there, Dan can probably pick up on how we've grown since then.
+\[04:03\] So there was this tiny little team, totally under the radar, building Python support for Visual Studio, and shipping an extension, which was known as Python Tools for Visual Studio. From there, Dan can probably pick up on how we've grown since then.
 
 **Dan Taylor:** Yeah, so I've also been at Microsoft for going on seven years now, and most of the time I've worked on Visual Studio in various areas, and only in the past year did I join the Python team. The reason I came over is because Python is growing so quickly at Microsoft, and there's a lot of momentum behind it. Now we've got these great tools in Visual Studio and Visual Studio Code for Python developers; we have this very fully-featured rich set of tools, and as a team, we're all bound together by this mission to make Python developers more productive, make the Python language itself more successful, and contribute back to the community.
 
@@ -36,7 +36,7 @@ Certainly in the early days we had fights with lawyers, and many discussions, an
 
 **Jerod Santo:** Very cool. Let's talk about Python itself, and exactly what Microsoft is doing with Python, for Python, and who is using Python, in what aspects... You guys see your customers.
 
-**Dan Taylor:** \[00:08:04.06\] Yeah, let's go ahead and talk about that. So Python has been growing very rapidly over the past few years, and if you read the Stack Overflow blogs and surveys, it's the fastest-growing mainstream language. I think as of this year, 38% of respondents indicated they're using the Python language, and that's been growing rapidly over the past few years... So it's got a lot of people, and it's still growing fast.
+**Dan Taylor:** \[08:04\] Yeah, let's go ahead and talk about that. So Python has been growing very rapidly over the past few years, and if you read the Stack Overflow blogs and surveys, it's the fastest-growing mainstream language. I think as of this year, 38% of respondents indicated they're using the Python language, and that's been growing rapidly over the past few years... So it's got a lot of people, and it's still growing fast.
 
 I like to talk about three different main types of apps or developers that are using Python. One of them is the data science and machine learning that's driven a ton of growth with Python recently. The other one is web development. A lot of large companies, a lot of big websites are built on top of Python, and that continues to be a very popular, very productive language.
 
@@ -52,7 +52,7 @@ And then we're also working to enable people in the cloud who are, for example, 
 
 **Steve Dower:** I always like to position Python as having this very shallow learning curve, that then quickly jumps up to a point where you can do all kinds of magic, amazing stuff. I compare it to C++ in that respect, as well. When you get into C++ template and metaprogramming, you can do absolute magic, and it's amazing, and I love it. But C++ still has that sharp learning curve to be able to use any of that, because there's like angle brackets everywhere. Python doesn't have that. You can write really simple English-looking code, that reads nicely, in Python. I've certainly seen papers that have taken Python code and renamed it pseudo-code and not actually changed any of it at all, because it reads just like pseudo-code that most people would wanna use. But as a library developer or as a framework developer, you can make objects and classes that do really amazing things, but look very natural and read very natural, and it's not quite the same as -- like, Ruby gets used a lot for DSLs, and it's amazing for that; you never actually change the semantics of Python. You have this consistent language, that always behaves the same - equality is equality, less than is less than... It doesn't do weird things.
 
-**Jerod Santo:** \[00:12:12.21\] Like the operator overriding, and stuff...
+**Jerod Santo:** \[12:12\] Like the operator overriding, and stuff...
 
 **Steve Dower:** Yeah, which you can totally do.
 
@@ -78,7 +78,7 @@ We make a big effort to make sure that all the code coming out of Microsoft is P
 
 **Steve Dower:** You can, and there's actually a tool that's come out recently that's suddenly shot up in popularity; it's called Black. It's actually written by one of the core developers, who I believe has just written it for himself and his own team at work... But that is a very strongly opinionated formatter that has basically no configuration, and the idea is that you run it on the code and it will make your code at least consistent, so that everyone's code looks the same going in. So it's the same kind of theory as Gofmt.
 
-**Dan Taylor:** \[00:16:10.03\] We actually have integration with Black coming up in the upcoming release of Python Extension for VS Code. The developer of that Black extension actually contributed a lot of the integration.
+**Dan Taylor:** \[16:10\] We actually have integration with Black coming up in the upcoming release of Python Extension for VS Code. The developer of that Black extension actually contributed a lot of the integration.
 
 **Jerod Santo:** Would that be something you guys would consider adopting internally at Microsoft, or does it go against Microsoft's culture? Because to me, the advantage of a tool like that is if everybody adopts it, right? The fact that in Go pretty much you can expect people to have that format - that makes it very useful, even if you don't like the style very much, because everywhere you go it's the exact same code style. So tools like Black - well, interesting in the small; really, their value shines if the entire Python community - I realize that's a huge statement... But maybe the majority would actually get involved and say "Okay, let's use Black style."
 
@@ -108,7 +108,7 @@ We make a big effort to make sure that all the code coming out of Microsoft is P
 
 **Dan Taylor:** Well, so many libraries use snake\_case, and it starts to look weird if you're not.
 
-**Break:** \[00:19:12.17\]
+**Break:** \[19:12\]
 
 **Jerod Santo:** It's interesting how our tastes change over time. I was very snake\_case for a long time, and I despised CamelCase. I was that far on the side. And now I'm like "Meh, CamelCase - not so bad." I look at it and I'm like "It looks alright." That's why I feel like top-down style guides, like forced styles just feel so constraining; I can't even internally keep my internal Jerod Santo style guide over the course of five years because my tastes change... It's just an interesting phenomenon.
 
@@ -128,7 +128,7 @@ Anyways, Steve, you've been a contributor to Python itself. You mentioned PEP 8 
 
 **Jerod Santo:** Yeah, it's a hard problem, right?
 
-**Steve Dower:** \[00:24:03.26\] Yeah, and in particular for me. My kind of main role with the CPython team is maintaining a lot of the Windows support, and so I do a lot of the builds, I work with a couple of other guys who are focused on that as well, to keep Python running well on Windows, which means I will talk to other teams at Microsoft about you know, the CPython installer is doing something weird; I mention installer, and they look at me and go "The Visual Studio installer?" I go, "No, no, no, the CPython installer. Different hat. Let me change the hat for this."
+**Steve Dower:** \[24:03\] Yeah, and in particular for me. My kind of main role with the CPython team is maintaining a lot of the Windows support, and so I do a lot of the builds, I work with a couple of other guys who are focused on that as well, to keep Python running well on Windows, which means I will talk to other teams at Microsoft about you know, the CPython installer is doing something weird; I mention installer, and they look at me and go "The Visual Studio installer?" I go, "No, no, no, the CPython installer. Different hat. Let me change the hat for this."
 
 **Jerod Santo:** Right.
 
@@ -166,7 +166,7 @@ Anyways, Steve, you've been a contributor to Python itself. You mentioned PEP 8 
 
 **Steve Dower:** Yeah, it's a tough balance, and it can be hard to explain to people why we think this is more important than the feature that you're asking for from Visual Studio or Visual Studio Code.
 
-**Dan Taylor:** \[00:28:05.06\] Because the editor is the one people first directly interact with when they're writing Python... And as I mentioned, it's about helping them be as productive as possible, so the editor is kind of like that top line thing where if we can help them get their code written, give them the right IntelliSense, give them the right warnings... That has a direct top of the funnel impact to people.
+**Dan Taylor:** \[28:05\] Because the editor is the one people first directly interact with when they're writing Python... And as I mentioned, it's about helping them be as productive as possible, so the editor is kind of like that top line thing where if we can help them get their code written, give them the right IntelliSense, give them the right warnings... That has a direct top of the funnel impact to people.
 
 **Jerod Santo:** Right. So let's look to the future a little bit. Dan, maybe you can tell us about the future of Python at Microsoft, and with regard to the tooling, and Steve, maybe the future of the language, where it's headed, and the community.
 
@@ -209,7 +209,7 @@ So those are kind of the key areas that we're really trying to move forward.
 
 **Steve Dower:** SQL server embedded Python, recently. 2016 and 2017 releases of SQL server come with an install of Anaconda in them. You can write stored procedures in Python and run those queries, and they'll all run on the server. You have access to NumPy, Pandas, Skicit-learn on the same server as where your data actually is. So if you do wanna do a lot of that pre-processing and it's in SQL database, then that option is already there. That was really exciting.
 
-**Dan Taylor:** \[00:32:06.27\] Yeah, I forgot to mention that the actual really cool thing about that is they actually Git-compiled the Python code down to the SQL engine... So you can actually get really good performance out of that if you're running inside of SQL server. And you can kind of copy and paste code from your local Python project and move it over to the SQL database side.
+**Dan Taylor:** \[32:06\] Yeah, I forgot to mention that the actual really cool thing about that is they actually Git-compiled the Python code down to the SQL engine... So you can actually get really good performance out of that if you're running inside of SQL server. And you can kind of copy and paste code from your local Python project and move it over to the SQL database side.
 
 **Jerod Santo:** Interesting.
 
@@ -233,7 +233,7 @@ Data classes is one of the big ones. So when you're writing, if you just want a 
 
 **Jerod Santo:** That's cool, for sure.
 
-**Steve Dower:** \[00:35:07.26\] So that's coming in 3.7 shortly. We're already discussing stuff with 3.8. There's been a lot of robust discussion on the mailing lists recently, a lot of exciting potential coming... I have no idea what's in and what's out at this point. It's so early in the cycle that people are throwing ideas around, and we're discussing them... Some of them have kind of gone to votes, and ultimately, Guido van Rossum, our benevolent dictator for life (BDFL) is gonna decide on those and say "I think this is good for Python" or "I don't think this is good." It's just exciting to see what he likes the sound of, and that'll be what's going towards 3.8 in about 18 months.
+**Steve Dower:** \[35:07\] So that's coming in 3.7 shortly. We're already discussing stuff with 3.8. There's been a lot of robust discussion on the mailing lists recently, a lot of exciting potential coming... I have no idea what's in and what's out at this point. It's so early in the cycle that people are throwing ideas around, and we're discussing them... Some of them have kind of gone to votes, and ultimately, Guido van Rossum, our benevolent dictator for life (BDFL) is gonna decide on those and say "I think this is good for Python" or "I don't think this is good." It's just exciting to see what he likes the sound of, and that'll be what's going towards 3.8 in about 18 months.
 
 **Jerod Santo:** Very cool. Well, Dan and Steve, thanks so much for sitting down with us, and thanks for coming on the show.
 

@@ -20,7 +20,7 @@ So we're joined, first of all - Dr. Joakim Kennedy, a security researcher. You'v
 
 **Joakim Kennedy:** I hope you enjoyed it. It was a little bit different than the other talks.
 
-**Mat Ryer:** \[00:04:11.15\] It was. It was very good, and the talk will be available on YouTube in the future, so if you do some searching, you'll find it. It is very interesting. Any time you see Go used in different and interesting ways, it does get amazing. We're joined also -- don't worry, you don't just have to tolerate me and Natalie, we're also joined by Preslav Rachev. Hello, Preslav.
+**Mat Ryer:** \[04:11\] It was. It was very good, and the talk will be available on YouTube in the future, so if you do some searching, you'll find it. It is very interesting. Any time you see Go used in different and interesting ways, it does get amazing. We're joined also -- don't worry, you don't just have to tolerate me and Natalie, we're also joined by Preslav Rachev. Hello, Preslav.
 
 **Preslav Rachev:** Hello, hello.
 
@@ -80,7 +80,7 @@ So we're joined, first of all - Dr. Joakim Kennedy, a security researcher. You'v
 
 **Mat Ryer:** Yeah. So how come you're a doctor?
 
-**Joakim Kennedy:** \[00:07:45.23\] That's a good question, actually. Long story, but I'll cut it short. I always like to do research, and the really good way of getting a good education in doing research is to go for a doctorate, because that's really what the degree is in the end. You spend your time for 3-5 years, or 3-10 years, depending on what kind of field... And yeah, it's kind of interesting, because you kind of come into an area, and the goal is almost to become an expert in something specific.
+**Joakim Kennedy:** \[07:45\] That's a good question, actually. Long story, but I'll cut it short. I always like to do research, and the really good way of getting a good education in doing research is to go for a doctorate, because that's really what the degree is in the end. You spend your time for 3-5 years, or 3-10 years, depending on what kind of field... And yeah, it's kind of interesting, because you kind of come into an area, and the goal is almost to become an expert in something specific.
 
 **Mat Ryer:** Right. And again, interested in security, and particularly in the malware talk, it was amazing to see how people are using Go. Go has good concurrency, it's quite stable, it's a single binary that you have to ship... There's lots of nice properties about Go that we get to use... But so do the hackers. They get those same benefits, don't they?
 
@@ -104,7 +104,7 @@ So we're joined, first of all - Dr. Joakim Kennedy, a security researcher. You'v
 
 **Mat Ryer:** Yeah. And it's the point that the quantum computers will essentially very easily be able to just kind of brute-force the encryption? Is that the problem?
 
-**Mathilde Raynal:** \[00:12:07.24\] Well, the thing is there are many questions that need to be asked. It's like, "How much will it cost? Will it actually be as efficient in practice as what we expect?" and so on and so forth. Because the thing is like, quantum computers are believed to be super-useful in many things, like modeling pharmaceuticals... But if they appear not to be, then potentially people will stop putting money into it, so the threat will just simply be gone. It's really just like suppositions.
+**Mathilde Raynal:** \[12:07\] Well, the thing is there are many questions that need to be asked. It's like, "How much will it cost? Will it actually be as efficient in practice as what we expect?" and so on and so forth. Because the thing is like, quantum computers are believed to be super-useful in many things, like modeling pharmaceuticals... But if they appear not to be, then potentially people will stop putting money into it, so the threat will just simply be gone. It's really just like suppositions.
 
 But if indeed quantum computers are scalable and accessible, then yeah, WhatsApp, or -- I mean, messages are read, but they will be read by anyone at that point.
 
@@ -134,7 +134,7 @@ Preslav, can you tell us a bit about your background and also recently what you'
 
 **Preslav Rachev:** The Latencies. Exactly. And yeah, so the most recent challenge, beyond my talk on algorithmic art, was actually moving a little bit outside of the industry as sort of engineer/employee and jumping into the (to me, at least) waters of being an entrepreneur, being a boss of my own. That's quite a challenge, but actually in no small part Go is in a way to blame for this, because it was something that changed my path, and I'm happy to report that so far, for the few months that I've been taking this path, I've been challenging the status quo and using the language in ways in which - I wouldn't say it wasn't meant to solve... Actually, it was meant to solve them, but other things prevailed. We've been using the language mainly in situations where you would see others using something like Ruby on Rails, or Python, or something a little bit more dynamic, and I'm trying to challenge the status quo that "No, actually the language is pretty good for that. It's also pretty good for small teams building small applications, 4-5 people, just as it's good for building Kubernetes, or something that powers a gazillion servers."
 
-**Mat Ryer:** \[00:16:10.16\] Yeah, absolutely. Well, your talk - you really did demonstrate that. I've never seen Go used to generate something that looked that interesting and that beautiful. Obviously, this is a podcast, so we can't really rub it in too much, but I do recommend to check it out, because you just wouldn't believe some of the imagery that was created, and how. So that is really fun... What gave you the idea for that?
+**Mat Ryer:** \[16:10\] Yeah, absolutely. Well, your talk - you really did demonstrate that. I've never seen Go used to generate something that looked that interesting and that beautiful. Obviously, this is a podcast, so we can't really rub it in too much, but I do recommend to check it out, because you just wouldn't believe some of the imagery that was created, and how. So that is really fun... What gave you the idea for that?
 
 **Preslav Rachev:** Just to reiterate on your point - the amazing bit there, as I mentioned in my talk as well, is not the complexity of the code itself. Actually, if you look at most of my - I still call them sketches, because of my processing background; I started using this language that was meant specifically for this kind of algorithmic art... And most of the works, they were called sketches, so I still refer to my stuff as sketches. So most of my things - say there are about a couple hundred lines of code, and I usually just put them together, and there's not a lot of complexity in it as in patterns, and here something happens, and you pass the code through five channels, and I don't know what else... It's usually pretty brute force, but that's kind of the beauty of it, because if you let it run for a lot of iterations - usually like 5k, 10k, 20k - these tiny bits of changes in the reiteration, they grow. You can visually see it. I'm looking forward to having the actual video from the talk, because there was this one slide where you actually see it.
 
@@ -158,7 +158,7 @@ Preslav, can you tell us a bit about your background and also recently what you'
 
 **Joakim Kennedy:** Yeah.
 
-**Mat Ryer:** \[00:19:59.09\] Although Roberto Clapis, one of the security engineers on the Go team - his counterpoint to that is that actually if you've got randomness in your program, then you should have that randomness in your tests as well, because then it's more real. Kind of an interesting take.
+**Mat Ryer:** \[19:59\] Although Roberto Clapis, one of the security engineers on the Go team - his counterpoint to that is that actually if you've got randomness in your program, then you should have that randomness in your tests as well, because then it's more real. Kind of an interesting take.
 
 **Joakim Kennedy:** The way I can see it potentially being useful is if you're launching different tests and it's failing, and if you're using the same seed, you'll get the same order, because it could be some state that's stored between tests, or something like that... And it only happens in a certain order. So that could be good, maybe like a predictable randomness. Normally, it's random.
 
@@ -200,7 +200,7 @@ Preslav, can you tell us a bit about your background and also recently what you'
 
 **Mat Ryer:** Or you could just turn the heating up in that room, so that the temperature is just really hot... But I suppose they've controlled their temperature at Cloudflare. I don't want to get into any legal battle; I'm sure they control the temperature of the lava lamps that they use for randomness. That is really cool though, isn't it? How fun, and to see that when you walk into their office, to see all those lava lamps stacked up... It's really fun.
 
-**Break:** \[00:23:52.01\]
+**Break:** \[23:52\]
 
 **Mat Ryer:** So I was interested in -- maybe we could go around and just find out something you like about Go, and something you don't like about it. There are pros and cons, of course, there are lots of trade-offs, but just specifically and personally from your point of view. Preslav, maybe you could tell us something you like and something you don't like.
 
@@ -216,7 +216,7 @@ Preslav, can you tell us a bit about your background and also recently what you'
 
 **Mat Ryer:** Yeah, I had the same journey. I used to do a lot of C\# in the past, and I think I have some examples of really good use of object-oriented structures and type hierarchies, and things. I also have a few examples where I built monsters. I built some cathedrals, and I built some monsters, too. And you know, when I went to Go and realized that you don't really do that, it did feel like a limitation. But of course, now I find code much easier to read. There's less chasing around, trying to understand the structures that are built there. Of course, there's still that to do, and of course, you can still make a mess in Go, and I'm sure I do sometimes... But I agree, I like that it has fewer language features. You're sort of then left building things with those more primitive features. Mathilde, what do you think? Is there something in particular that you like about Go, and something you perhaps don't?
 
-**Mathilde Raynal:** \[00:27:51.02\] Well, the thing that I like really the most is... I mean, I work mostly in groups, and really, this ability to read the code after someone and to understand what the code is doing, what they intended to do and what it's achieving - it saves so much time, first of all. And it's so much simple to read Go than other languages, from a personal point of view. But this may be biased, because I've gotten to know Go, so maybe I just read faster...
+**Mathilde Raynal:** \[27:51\] Well, the thing that I like really the most is... I mean, I work mostly in groups, and really, this ability to read the code after someone and to understand what the code is doing, what they intended to do and what it's achieving - it saves so much time, first of all. And it's so much simple to read Go than other languages, from a personal point of view. But this may be biased, because I've gotten to know Go, so maybe I just read faster...
 
 And from the things that maybe I like less - I think that would be when comparing to other languages it's maybe this lack of enforced security, if I can put it like that.
 
@@ -250,7 +250,7 @@ So you're all speakers at GopherCon EU 2021... What made you want to submit? Wha
 
 **Mat Ryer:** Yeah. It's a really good talk. I can't recommend it enough. How about you, Preslav?
 
-**Preslav Rachev:** \[00:31:59.24\] Well, for me it's been twofold. Obviously, there's the selfish aspect to it, being a part of the community, and being able to exchange ideas, and just generally --
+**Preslav Rachev:** \[31:59\] Well, for me it's been twofold. Obviously, there's the selfish aspect to it, being a part of the community, and being able to exchange ideas, and just generally --
 
 **Mat Ryer:** That's not selfish...
 
@@ -266,7 +266,7 @@ So just as an example of something that occurred to me when I watched your talk.
 
 **Preslav Rachev:** That's actually a great idea. I think I haven't thought about that in particular, but it's actually a great idea... Turning that maybe (why not) into an actual product, or something; something that stands as a service on its own. But to your point, Mat - I recently had this conversation with a friend of mine, and we were talking about side projects, and what they're good for, and what they're not good for, and I think what came out of this discussion was really that one thing that you can allow yourself to do in a side project that's not your job is you can fail easily. That's one thing that also relates very well to the artistic stuff, because in producing these images, I think I must have failed like 100 times before something that caught my eye came up... And that's actually a good thing, because it forces you to change things, it forces you to tweak parameters, to maybe put a little bit of a timer in front and see what happens... It forces you to tweak these things.
 
-\[00:36:10.12\] And I think it's generally a great idea if people find these sort of tiny ways to just move -- maybe use the same tools, and the same skills that they do in their dayjob, but use them in a different way. I'm not really into IoT, but I've seen some amazing stuff, like people using Go for microcontrollers, and things like that, which is also - you know, full respect.
+\[36:10\] And I think it's generally a great idea if people find these sort of tiny ways to just move -- maybe use the same tools, and the same skills that they do in their dayjob, but use them in a different way. I'm not really into IoT, but I've seen some amazing stuff, like people using Go for microcontrollers, and things like that, which is also - you know, full respect.
 
 **Mat Ryer:** Yeah. You make a great point there, because it's that ability to fail... And this is something teams need to try and work on, I think... You have to be able to fail, otherwise you're not gonna take any risks. We need to take those risks to try the things out, and that's really where innovation happens, a lot of it. So yeah, I think that's a great sentiment. I'm pleased you said that.
 
@@ -280,13 +280,13 @@ Mathilde, how about you? What inspired you to submit a talk?
 
 **Mat Ryer:** Yeah, that's great. Again, the same thing applies - go to YouTube, search for GoperhCon EU 2021, check out the talks. You are in for a treat.
 
-**Break:** \[00:38:35.11\]
+**Break:** \[38:35\]
 
 **Mat Ryer:** So, who has an unpopular opinion for us today?
 
 **Mathilde Raynal:** I was gonna go for like pineapple in pizza, and then I realized that I'm a student and I have to be more serious, so...
 
-**Mat Ryer:** \[00:40:07.01\] No, you don't. You really don't. That is a great one. \[laughter\]
+**Mat Ryer:** \[40:07\] No, you don't. You really don't. That is a great one. \[laughter\]
 
 **Mathilde Raynal:** Well, anyway, I have a backup, so if you don't like, we can always go back to the pizza one.
 
@@ -326,7 +326,7 @@ When we think about it, 10-15 years ago if you had a car, you can take it to the
 
 **Joakim Kennedy:** Yeah.
 
-**Mat Ryer:** \[00:43:55.27\] So on that - my oven recently broke, and the engineer came out, he took the oven out, and the oven was just like a couple of wires into a hot plate... And then it was just a motherboard on the back. And he's just like, "Yeah, I've no idea." If it's not working, it just doesn't work. You just need a new thing.
+**Mat Ryer:** \[43:55\] So on that - my oven recently broke, and the engineer came out, he took the oven out, and the oven was just like a couple of wires into a hot plate... And then it was just a motherboard on the back. And he's just like, "Yeah, I've no idea." If it's not working, it just doesn't work. You just need a new thing.
 
 **Natalie Pistunovich:** You need a computer engineer for that.
 

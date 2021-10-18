@@ -18,7 +18,7 @@ In my case I didn't really have any sounds that I recall. It was more of a -- re
 
 **Mireille B. Reece, Psy.D:** Yeah. Well, memory is this interesting process, because first off you need some attention... And I don't think we know yet why for one person that early memory stands out, as opposed to another. I would think it would look like just sort of converging factors... But the process by which we remember, what we say is encoding, storage and retrieval. So what I have to do is actually encode the information, I have to get it in my brain, and then it's in this process of what we call working memory, which is generally only about 30 seconds long, that my brain goes "Am I gonna consolidate that and bank it? Am I gonna store that for the future?" or "Am I gonna let it go?" And then the final part is then I can retrieve it.
 
-\[00:04:21.26\] So it's interesting working with people who complain about challenges with memory, because it can be for a myriad of reasons that people struggle with it. One could just be attention. This is why a lot of people who have ADHD struggle sometimes with remembering things... And it's really hard to encode anything that you weren't paying attention to.
+\[04:21\] So it's interesting working with people who complain about challenges with memory, because it can be for a myriad of reasons that people struggle with it. One could just be attention. This is why a lot of people who have ADHD struggle sometimes with remembering things... And it's really hard to encode anything that you weren't paying attention to.
 
 **Adam Stacoviak:** Yeah, that's true.
 
@@ -50,7 +50,7 @@ Some people -- we're gonna talk about this today, but learning is involved in th
 
 **Mireille B. Reece, Psy.D:** It is really good. I love that move, so listeners, if you haven't seen it, go check it out... Because I think it's a really good file in people's brain to understand the role of emotions as it relates to memory... And that memories are constructed.
 
-**Adam Stacoviak:** \[00:08:00.25\] And the different emotions also - they're also part of sadness and joy, part of creating a memory... So joy alone doesn't make a memory, sadness as well, or disgust, and anger, and... What was the other one - disgust?
+**Adam Stacoviak:** \[08:00\] And the different emotions also - they're also part of sadness and joy, part of creating a memory... So joy alone doesn't make a memory, sadness as well, or disgust, and anger, and... What was the other one - disgust?
 
 **Mireille B. Reece, Psy.D:** Fear, you forgot fear.
 
@@ -76,7 +76,7 @@ Some people have a lot of negative thoughts or feelings around clowns, and inter
 
 **Mireille B. Reece, Psy.D:** Right.
 
-**Adam Stacoviak:** \[00:12:07.18\] You have this fear, and maybe you don't know you have the fear. But something in your life, at some point you decided clowns are bad, and suddenly when you're around clowns now you're sweating and anxious.
+**Adam Stacoviak:** \[12:07\] You have this fear, and maybe you don't know you have the fear. But something in your life, at some point you decided clowns are bad, and suddenly when you're around clowns now you're sweating and anxious.
 
 **Mireille B. Reece, Psy.D:** Yeah. So you can see how these can both be going on at the same time. Maybe we think about it like the analogy of an iceberg, in that explicit memory is what I see above the water, the tip of the iceberg, but then beneath it is more of this implicit memory and the things I'm not necessarily using conscious effort to recall, because it's like this is the way \[unintelligible 00:12:39.14\]
 
@@ -102,7 +102,7 @@ Some people have a lot of negative thoughts or feelings around clowns, and inter
 
 **Adam Stacoviak:** It's almost like remastering a memory.
 
-**Mireille B. Reece, Psy.D:** \[00:16:10.02\] Yeah.
+**Mireille B. Reece, Psy.D:** \[16:10\] Yeah.
 
 **Adam Stacoviak:** I'll be more specific... So you listen to music, and there's old albums from back in the day... A remash of them in new audio quality for today's current systems, whatever... It's kind of revisiting a memory and remastering it. Maybe it's not a one-to-one perfect analogy, but the point is that you go back to it and kind of reexamine its effect on you.
 
@@ -126,7 +126,7 @@ I can't recall the exact scenario, but it was this idea of packaging them up, pu
 
 Well, those things can form the file that then I associate this new information with, that then creates a feeling, that then creates a response, and now I'm headed down a road that I didn't even know I was going down. So that awareness around how I'm sort of consolidating information, or the framework within which I operate, is the most critical thing... Because whatever framework we use -- you know, I think about it within the tech industry... You guys use a lot of different languages for designing things. Do you use the same language in different systems?
 
-**Adam Stacoviak:** \[00:20:26.15\] No. Some like to, obviously... It's nice to have similarity from frontend to backend, for example. Every language or framework has a significant use opportunity, so it wouldn't fit perfectly in every place, and trying to make it happen wouldn't be good.
+**Adam Stacoviak:** \[20:26\] No. Some like to, obviously... It's nice to have similarity from frontend to backend, for example. Every language or framework has a significant use opportunity, so it wouldn't fit perfectly in every place, and trying to make it happen wouldn't be good.
 
 **Mireille B. Reece, Psy.D:** Right. So with individuals, our listeners, or going "Hey, your memories actually influence you, in some form or fashion."
 
@@ -164,7 +164,7 @@ Well, those things can form the file that then I associate this new information 
 
 **Adam Stacoviak:** It was harder than I thought. It was a lot more involved; it was like a second job. It's a significant investment; it's where you're gonna spend potentially the rest of your life, if it's your long-term home, or 20-30 year home, whatever it might be... But it's a very important thing, and you wanna pay attention to all the details. And if you're building it, you wanna manage the process of building it and ensure that it's met all of the things that you agreed to, and is what you wanna buy, and all that good stuff.
 
-**Mireille B. Reece, Psy.D:** \[00:23:55.11\] Right. So all of that experience played a role in what you learned and the information you consolidated, or dare I say encoded, and then stored for future use. So when we're talking about "What are you learning?" you have to go "What is it that I'm paying attention to? What is it that my brain's storing, and maybe why is it storing that data over another piece of data?
+**Mireille B. Reece, Psy.D:** \[23:55\] Right. So all of that experience played a role in what you learned and the information you consolidated, or dare I say encoded, and then stored for future use. So when we're talking about "What are you learning?" you have to go "What is it that I'm paying attention to? What is it that my brain's storing, and maybe why is it storing that data over another piece of data?
 
 **Adam Stacoviak:** When you say that do you mean perspective, potentially? Because two people, same process, two different memories.
 
@@ -200,7 +200,7 @@ So the group that had to work harder or put forth more effort, was actually the 
 
 **Mireille B. Reece, Psy.D:** Well, this is the challenge. Sometimes easy isn't always better.
 
-**Adam Stacoviak:** \[00:27:57.12\] Yeah. There's the flipside though, that some would say that I'm being more efficient given certain assurances that today's world offers. Assuming the cloud doesn't go down. Assuming that my iPhone has a charge. Assuming all those things remain true, then why store them in memory? It could store for me instead, so that I can reallocate and focus my brain on other things that seem to be more important.
+**Adam Stacoviak:** \[27:57\] Yeah. There's the flipside though, that some would say that I'm being more efficient given certain assurances that today's world offers. Assuming the cloud doesn't go down. Assuming that my iPhone has a charge. Assuming all those things remain true, then why store them in memory? It could store for me instead, so that I can reallocate and focus my brain on other things that seem to be more important.
 
 **Mireille B. Reece, Psy.D:** Yes. So that would be true in some ways, but also then maybe not for other people, in other ways. But you're correct that it's a reallocation of resources, and saying "I don't need to spend my cognitive resources or hold a huge file to remember phone numbers, because I've got somewhere else that I can do it."
 
@@ -226,7 +226,7 @@ So the group that had to work harder or put forth more effort, was actually the 
 
 I also am very deliberate around events and experiences with my children, because there's always this possibility of threat, of loss. I'm not in charge of all the things that happen in life, and so I try to enhance my awareness of certain senses; in day-to-day life I might take a step back and just try to take it all in, so that my brain encodes that with a broader context for retrieval, because that's what I value.
 
-**Adam Stacoviak:** \[00:32:03.18\] I'm curious what the specifics are around that, but I'm assuming it might be like "present and aware". What matters right now is what's happening right now, and it takes awareness. So the idea of "be present, here and now", and be aware, attention - it would seem key in enjoying the moment and retaining some memory of it.
+**Adam Stacoviak:** \[32:03\] I'm curious what the specifics are around that, but I'm assuming it might be like "present and aware". What matters right now is what's happening right now, and it takes awareness. So the idea of "be present, here and now", and be aware, attention - it would seem key in enjoying the moment and retaining some memory of it.
 
 **Mireille B. Reece, Psy.D:** Yeah. So Adam, what you're saying is my memory will improve as based upon my ability to pay attention.
 

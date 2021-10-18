@@ -28,7 +28,7 @@
 
 **Chris Benson:** I don't know, but I'm so envious of you, because we're still having it here in the American South. I live in the Atlanta Metro Area, and it's right now as bad as it was in the worst of the previous thing... So we have some work to do here, but I am incredibly envious of you fellas being in areas where things are getting a little bit better.
 
-**Daniel Whitenack:** \[00:03:59.19\] Yeah, I mean, who knows what the future holds...? Who knows what the next -- like you say, Michael, the next two years will hold? But the one thing that's true is people will need to label data. I think that's something we can all agree on.
+**Daniel Whitenack:** \[03:59\] Yeah, I mean, who knows what the future holds...? Who knows what the next -- like you say, Michael, the next two years will hold? But the one thing that's true is people will need to label data. I think that's something we can all agree on.
 
 **Chris Benson:** That was such a good transition.
 
@@ -54,7 +54,7 @@ I think previously it was kind of "Hey, we just need to get our data labeled and
 
 **Michael Malyuk:** Yeah, exactly. And that's a great point, because when you start paying more attention to the process and how you set up the process, the software that enables you to do that becomes very important. From the software perspective it needs to provide you with all sorts of reports around the labeling process, so we can understand all the metrics, where we are and where we're going. So you have very tight control over that.
 
-**Daniel Whitenack:** \[00:07:59.19\] And those metrics around the data labeling process - do you see customers putting the importance on the quality of the labels? ...like, how consistent they are, how correlated they are with this or that... Or is it more important sort of quantity? Does what I'm asking make sense? In terms of quantity and quality, how have you seen people thinking about balancing those two things recently?
+**Daniel Whitenack:** \[07:59\] And those metrics around the data labeling process - do you see customers putting the importance on the quality of the labels? ...like, how consistent they are, how correlated they are with this or that... Or is it more important sort of quantity? Does what I'm asking make sense? In terms of quantity and quality, how have you seen people thinking about balancing those two things recently?
 
 **Michael Malyuk:** Yeah, good question. I think it depends on where the company is in terms of their ML adoption. What is the product that we are building? Is it just out of the R&D stage, and it's something new and we need to test it out, so the quantity is more important over the quality? Or is it something that we are using, for example, in trading on the markets? Because there the quality becomes very correlated with the dollar impact that \[unintelligible 00:08:54.08\] is going to make... So it depends on the model and what is the company's actual business use case. I think over time quality will dominate over the quantity.
 
@@ -76,7 +76,7 @@ I think previously it was kind of "Hey, we just need to get our data labeled and
 
 So even on the company level, when you start and you launch the labeling project, it can be already inconsistent with how other teams inside the organization are thinking about it.
 
-**Chris Benson:** \[00:12:07.29\] That begs the follow-up - if you're in a company that is wanting to move... You may have dabbled in deep learning, but there's so many organizations out there that are still not fully in, they're not at a mature level, they're exploring it still, and they're trying to understand how to be productive without wasting lots of money and focus on that. So how should a company be thinking strategically? So not just the practitioner who's doing the labeling themselves, but if you're leadership and you're wanting to invest in workflow and in infrastructure to support it, how should you be thinking about that in terms of what your company is trying to achieve, so that you get the best out of your practitioners when you have them go in and actually do the thing?
+**Chris Benson:** \[12:07\] That begs the follow-up - if you're in a company that is wanting to move... You may have dabbled in deep learning, but there's so many organizations out there that are still not fully in, they're not at a mature level, they're exploring it still, and they're trying to understand how to be productive without wasting lots of money and focus on that. So how should a company be thinking strategically? So not just the practitioner who's doing the labeling themselves, but if you're leadership and you're wanting to invest in workflow and in infrastructure to support it, how should you be thinking about that in terms of what your company is trying to achieve, so that you get the best out of your practitioners when you have them go in and actually do the thing?
 
 **Michael Malyuk:** Yeah, great question. So what I think from the company perspective, from the leadership perspective - take very small steps towards the goal. I think validating the use case with very little labeling, as little as possible, is the first step. And understand the process of \[unintelligible 00:13:10.04\] And this process would be different for every organization. It depends on a number of things. One of those is what type of data we are labeling. Is it subjective? Does it require subject matter experts? etc.
 
@@ -98,7 +98,7 @@ Another kind of dimension is what resources do we have to do that? Do you want t
 
 The way I'm thinking about it and the way I usually talk about it with our potential customers is we are right now in a pretty unique stage when ML and AI is being integrated almost into every organization in the world, one way or another. Products are being built based on the ML models, and for the companies, one of the easiest ways to improve their model performance is actually improve their data labeling processes. And improving your model's performance would mean that your product becomes more competitive on the markets. If your product is more competitive, you can capture more data with your product, and you can improve your model even further.
 
-\[00:16:11.14\] I look at it from the way why Google dominates the search space... Because they were the ones to figure out the algorithm that would make their engines stronger, with more web pages that they crawl. And the same thing with the data labeling - you can improve the models and make the models stronger, more competitive, capture more data and keep improving. Basically, over time I think those companies that are investing in data labeling now will dominate their specific markets.
+\[16:11\] I look at it from the way why Google dominates the search space... Because they were the ones to figure out the algorithm that would make their engines stronger, with more web pages that they crawl. And the same thing with the data labeling - you can improve the models and make the models stronger, more competitive, capture more data and keep improving. Basically, over time I think those companies that are investing in data labeling now will dominate their specific markets.
 
 **Chris Benson:** That makes a lot of sense when you think about it, and I think that outside of our tiny community it's not really understood very well. Effective labeling can either make a dataset really, really useful and really productive across multiple things, and yet if you don't do it well, you can end up with very poor results with the same data.
 
@@ -106,7 +106,7 @@ The way I'm thinking about it and the way I usually talk about it with our poten
 
 **Chris Benson:** Going to Daniel's comment a few minutes ago, I don't think that's well understood in a lot of executive ranks.
 
-**Break:** \[00:17:06.08\]
+**Break:** \[17:06\]
 
 **Daniel Whitenack:** I think we've done a good job at really diving into the value of data labeling and how people are thinking about it now, which is fascinating... But I'm curious, on the tooling side -- I definitely wanna get into Label Studio and what has progressed since then, because I have some thoughts and questions there, too... But in terms of the space in general, how are you seeing this space of tools around data labeling grow and shift over these past couple of years?
 
@@ -116,7 +116,7 @@ On another hand, it's very exciting to see a lot of smart people put in a lot of
 
 **Daniel Whitenack:** So with that, why don't you tell us a little bit about label studio itself, in case people haven't caught the previous episode, but also a lot has been updated since then... And I've got a little bit of a secret to tell Chris - I am not unbiased in this conversation, because I am a Label Studio fan and user... Our organization uses Label Studio, and I've used it on a bunch of different things over the past couple of years.
 
-\[00:19:55.00\] So I am personally very happy that we had that conversation two years ago, because it's saved me a lot of work over the past couple of years, looking at Google Sheets where people have tried to label something, or something like that... Anyway, tell us a bit about what Label Studio is and how people can use it maybe.
+\[19:55\] So I am personally very happy that we had that conversation two years ago, because it's saved me a lot of work over the past couple of years, looking at Google Sheets where people have tried to label something, or something like that... Anyway, tell us a bit about what Label Studio is and how people can use it maybe.
 
 **Michael Malyuk:** Yeah, sure. Label Studio is an open source data labeling tool. One of the key features that was a key feature two years ago and is still one of the key features today is that it's the most flexible data labeling tool. So instead of us giving you the interface that we think would work for your use case, you use the configuration language that we have created to build the interface for your specific dataset.
 
@@ -142,7 +142,7 @@ But for our task, we actually had nine different contexts, and we had to select 
 
 **Michael Malyuk:** But it was interesting to see what are some of the extreme use cases that people have done with the tool.
 
-**Chris Benson:** \[00:24:06.09\] So I'm gonna follow up... I've gotta tell you, Michael, I don't think I've ever seen him this just purely excited in one of our episodes about something, so I'm very impressed.
+**Chris Benson:** \[24:06\] So I'm gonna follow up... I've gotta tell you, Michael, I don't think I've ever seen him this just purely excited in one of our episodes about something, so I'm very impressed.
 
 **Daniel Whitenack:** Oh yeah, I'm a total fanboy.
 
@@ -162,7 +162,7 @@ We've put a lot of effort into making sure that the actual interface inside Labe
 
 **Daniel Whitenack:** Yeah, and maybe that's part of going back to the hard questions that we discussed earlier about building that culture of data labeling, getting instructions right, setting up the tasks right, doing verification... All of these sorts of very hard things. If you don't have to add to that, like an interface that is very unfamiliar and they can't figure out how to use, then that's at least one less thing to complicate those muddy waters. So a web app and a browser, where people can just sort of click things. That's a nice scenario, I think...
 
-\[00:27:47.14\] I'm sure you've looked at user experience, UI type things over time, Michael... What has that experience been like, as you've developed the frontend of Label Studio, and maybe things that you thought would work and didn't work, or maybe things that you integrated and people loved, but you didn't think would have been as big of a deal...
+\[27:47\] I'm sure you've looked at user experience, UI type things over time, Michael... What has that experience been like, as you've developed the frontend of Label Studio, and maybe things that you thought would work and didn't work, or maybe things that you integrated and people loved, but you didn't think would have been as big of a deal...
 
 **Chris Benson:** He's smiling before the answers...
 
@@ -182,7 +182,7 @@ I think with more ML adoption in the business, we'll see that the need for label
 
 **Daniel Whitenack:** Do you get any sort of weak signals off of what people are doing with Label Studio in terms of the different domains of machine learning, AI, in terms of people's focus on NLP, or people's focus on audio, or new things with computer vision? Do you happen to see trends in that, with new people coming into Slack, wanting to do, all of a sudden, something like that?
 
-**Michael Malyuk:** \[00:32:23.25\] Yeah, it's a good question, but it's not that easy to answer... Because what we see, for example - we are one of the very few tools that supports time series labeling... And the majority of the people that are doing time series labeling, they use Label Studio. So we see a lot of those people. But then on the other hand, we se a lot of people who are doing labeling for computer vision, and -- well, they're not comparable; there's more people doing computer vision. But we have more competitors in terms of the computer vision data labeling tools.
+**Michael Malyuk:** \[32:23\] Yeah, it's a good question, but it's not that easy to answer... Because what we see, for example - we are one of the very few tools that supports time series labeling... And the majority of the people that are doing time series labeling, they use Label Studio. So we see a lot of those people. But then on the other hand, we se a lot of people who are doing labeling for computer vision, and -- well, they're not comparable; there's more people doing computer vision. But we have more competitors in terms of the computer vision data labeling tools.
 
 So I would not be able probably to say that there is a one dominant data type that we see people using the tool to label... Again, because of the flexibility of the tool... And over time I don't think that we see a lot of the change, because the data types are distributed more or less equally, just from the fact that people usually use a few of the data types at the same time, on the same screen. You can think about audio, and then there is a transcription for the audio, and you kind of wanna have the audio on the same screen, just for the reference, and then you labeling the transcript... So it's hard to pick something and identify the change, just given the flexibility of the tool and what it provides to the end user.
 
@@ -194,7 +194,7 @@ So I would not be able probably to say that there is a one dominant data type th
 
 **Michael Malyuk:** For the open source company it's always a struggle. Because it's open source, you have to identify what you actually wanna sell as a product, so that's always a complexity... But I think there are some really strong advantages to being an open source company. One of them is the community. You get a lot of insights from the community. They help you improve your software the way you would not be able to improve your paid product.
 
-\[00:36:04.12\] Another one - because of the community, you have one of the largest community of testers of your software, meaning that your software becomes so well-tested, just because of the pure adoption of that. You have one of the most stable tools out there, which I think is great... And also an advantage is, I think, at least to myself, they compound over those disadvantages, where you have to struggle sometimes to identify if this needs to go into the open source, or that goes into the paid product...
+\[36:04\] Another one - because of the community, you have one of the largest community of testers of your software, meaning that your software becomes so well-tested, just because of the pure adoption of that. You have one of the most stable tools out there, which I think is great... And also an advantage is, I think, at least to myself, they compound over those disadvantages, where you have to struggle sometimes to identify if this needs to go into the open source, or that goes into the paid product...
 
 Then another one that I think is really important from a company perspective is all our developers have direct access to the users of their software. That makes them really happy, when somebody is getting a lot of value out of it, and they talk about you on Twitter, or somewhere else, and they just tell you how great is the tool that you have built for the developers. It's basically the best they can get. They get very excited about that.
 
@@ -222,7 +222,7 @@ I'm curious, as a user - maybe not as futuristic of a question, but what does th
 
 **Michael Malyuk:** Yeah. This is gonna be huge. With the introduction of this proper video labeling, we'll be covering all major data types. That was our goal for the labeling tool. So that's pretty exciting.
 
-**Daniel Whitenack:** \[00:39:56.14\] Yeah. I know that there's cloud video editing tools and stuff now... I'm sure that that does definitely put a bit -- maybe more of a strain on the tool in terms of its performance than other things. Is that coming last because that major category that you're talking about coming last because of some of those challenges, or is it just sort of like the growing need for that, and that's what sort of came next?
+**Daniel Whitenack:** \[39:56\] Yeah. I know that there's cloud video editing tools and stuff now... I'm sure that that does definitely put a bit -- maybe more of a strain on the tool in terms of its performance than other things. Is that coming last because that major category that you're talking about coming last because of some of those challenges, or is it just sort of like the growing need for that, and that's what sort of came next?
 
 **Michael Malyuk:** It's a mix of both. It's both challenging from just the complexity of video labeling is very high. Then we see more need in terms of our users asking us about labeling... And then we just started with the images, audio syntax, just because the founders of the company \[unintelligible 00:40:42.28\] we all were coming from exactly these backgrounds ourselves... So the video labeling, for some reason, it comes the last one. But I think it will be a good thing to get all of them under the one hood.
 

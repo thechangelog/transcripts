@@ -2,7 +2,7 @@
 
 We have three sponsors - Rollbar, Toptal and Compose.
 
-**Break:** \[00:01:09.24\]
+**Break:** \[01:09\]
 
 **Adam Stacoviak:** Alright, we're back. We're talking to James Long today. James, welcome to the show, man. I'm so excited to have you here. I read your post, got all goosebumped after I read it; I felt that kindred spirit, so to speak.
 
@@ -14,7 +14,7 @@ Jerod actually teed up this conversation; he emailed you and said, "Man, I love 
 
 Your post really struck a chord because at the end of it - and I may ruin it for somebody; maybe I shouldn't do that - it kind of felt like a love letter to your wife, but not really. It was more like, "This is why I'm absent, and I love you, my wife of six years."
 
-**James Long:** \[00:04:10.09\] Yeah, it's kind of funny... I've been meaning to talk more about this, so this was supposed to mostly be a tribute to my wife. The first half of the post was probably a little bit more of a dump than I meant it to be, because I'd been meaning to write a separate post about that and just focus on that. So I wrote this in like an hour on Sunday before we went out to dinner, and then I showed her the post at dinner, and it was awesome. But I read it now and I'm like, "Wow, there were a lot of thoughts in my head that I just really dumped there." It's a good thing to talk about.
+**James Long:** \[04:10\] Yeah, it's kind of funny... I've been meaning to talk more about this, so this was supposed to mostly be a tribute to my wife. The first half of the post was probably a little bit more of a dump than I meant it to be, because I'd been meaning to write a separate post about that and just focus on that. So I wrote this in like an hour on Sunday before we went out to dinner, and then I showed her the post at dinner, and it was awesome. But I read it now and I'm like, "Wow, there were a lot of thoughts in my head that I just really dumped there." It's a good thing to talk about.
 
 **Adam Stacoviak:** And that's why we're having you on the show, because I felt like it was a bit of a drive-by shooting, in a way. I kind of felt like you had more to tell... Obviously, you shared some pretty good points in there, clearly not simply to your wife. They were more towards the open source community, and more like warning signs/battle scars/advice, so it kind of made sense to say, "Hey, James, great post. Can we talk to you on the show and can I dig into some of these points and go from there?" But just to give some substance to where you're coming from, help us understand a bit of your history with open source.
 
@@ -30,7 +30,7 @@ I don't think I really realized it was actually open source software; I think it
 
 **Adam Stacoviak:** Very scattered.
 
-**James Long:** \[00:07:53.12\] Oh, totally scattered. Sort of just like posting a patch on the mailing list and stuff. So I guess it was just a very comfortable thing, and when I started actually developing real software, and I remember when GitHub was released in 2008, I think... I remember just being like, "Oh yeah, that totally makes sense." It made sense to me from the get-go, so I would publish a bunch of stuff.
+**James Long:** \[07:53\] Oh, totally scattered. Sort of just like posting a patch on the mailing list and stuff. So I guess it was just a very comfortable thing, and when I started actually developing real software, and I remember when GitHub was released in 2008, I think... I remember just being like, "Oh yeah, that totally makes sense." It made sense to me from the get-go, so I would publish a bunch of stuff.
 
 This was back when I was involved -- I was involved a lot in the Scheme programming language. That language is a variant of Lisp, and there's a lot of stuff there why I think that's great. But it was a very, very small community; it was definitely a minor community, and still is.
 It was interesting thinking back about my open source experiences there, because open source in a very small community really is a special thing, because there's just not that much work to be done. JavaScript is this huge, huge community, and open source in JavaScript -- you have to be careful in a lot more different ways, because you can just be overloaded with a lot of different stuff.
@@ -48,7 +48,7 @@ Then I started doing a lot more stuff in the last ten years, and blogging a lot 
 **James Long:** Yeah. I mean, are the maintainers at odds with each other now? Which one do I use? This one has this feature, this other one has this feature... If you think back to the older open source community, that was the whole point. You had four different forks and they would go off in their own direction, and it was awesome.
 I don't really know what to do about that, or why... I don't know why that's changed, but I do feel like that's probably -- there's this pressure to have this really polished product that's just one product living under one space, and that is sort of where open source can get a lot harder.
 
-**Adam Stacoviak:** \[00:11:56.26\] Yeah. Well, for the listeners, you know, we invited James on to have a conversation around this post - "Why I'm Frequently Absent From Open Source." We'll share that link in the show notes, so if you're already listening on a podcast app, go back to your app, look for the show notes, you'll find a link there at the very top. We'll make sure that post is the very first link on our show notes, so that you can easily follow along.
+**Adam Stacoviak:** \[11:56\] Yeah. Well, for the listeners, you know, we invited James on to have a conversation around this post - "Why I'm Frequently Absent From Open Source." We'll share that link in the show notes, so if you're already listening on a podcast app, go back to your app, look for the show notes, you'll find a link there at the very top. We'll make sure that post is the very first link on our show notes, so that you can easily follow along.
 
 I wanna dive into some various sections of this post. You put a lot out there; you had said earlier that you dumped a lot of thoughts out there, and I wanna dig into some various points that you'd written. In the end of it all, it seems like what you were really trying to say was "Honey, I love you. It's your anniversary of six years, and the reason why you're not involved as much..." -- it was sort of like a two-part blog post, where it's a reason why you're not present as much and explaining why, but a the same time dropping some hints at some various problems.
 The one thing I see that you started off with, the very first sentence was pivotal: "The goal of free open source development is empowerment." I wanted to talk to you about the breakdown of what that means. Why is the goal of free open source empowerment?
@@ -61,7 +61,7 @@ That's why Firefox -- or maybe it was still Netscape, I can't remember - release
 
 **James Long:** Yeah, it's a multi-faceted thing. I think there are multiple different open source scenarios. One is a company has a product or a library and they open source it, and other companies collaborate on it. Or an individual writes something and releases it, and sort of gets a lot of credit for a really cool idea. There's a lot of positives in all of that stuff - just the ability to give something out and collaborate on it can produce a lot of benefits for people and for companies.
 
-**Adam Stacoviak:** \[00:16:19.00\] Let's talk about "Open source is rife with problems, and ultimately unsustainable." That to me is true to some degree; certainly everything has problems, but the "ultimately unsustainable" part is the part I wanna talk with you a bit more about. You said somebody has to pay the cost of maintaining a project; you gave some of the details, but you seem slightly jaded. Where is this coming from?
+**Adam Stacoviak:** \[16:19\] Let's talk about "Open source is rife with problems, and ultimately unsustainable." That to me is true to some degree; certainly everything has problems, but the "ultimately unsustainable" part is the part I wanna talk with you a bit more about. You said somebody has to pay the cost of maintaining a project; you gave some of the details, but you seem slightly jaded. Where is this coming from?
 
 **James Long:** Yeah, it's probably true... It's really hard when writing blog posts to not be a little hyperbolic. I don't think that's a bad thing; I think that's what gets people thinking. I think there needs to be maybe just a tiny bit of shock value. Ultimately unsustainable - maybe I shouldn't have used the word "ultimately" (maybe that was a little too strong), but I think the reason I wrote that is because the root of all of this. All of the times that I've released something because I thought it was really cool, and it seemed a shame to just hide it; at least other people could learn from it, but it's a good enough idea to where I care about it a lot, but when you put something up on GitHub...
 
@@ -73,13 +73,13 @@ I think it's super important that we take care of who is in our community. I don
 
 I know Mozilla was very good at this, because they were an open source company. Even if they weren't really using your project, sometimes they would allow you to spend six hours a week maintaining an open source project that you had. And Mozilla really wasn't getting anything back for that, because they weren't using that project. It was just something that you thought was cool. So Mozilla is basically subsidizing that project, right? I mean, they were paying you to do all of that working with contributors, making sure that issues get closed and things like that.
 
-\[00:20:08.28\] That's what I mean by "Somebody has to pay the cost of it." If it's not Mozilla, then you have to be spending those 6-10 hours a week at night, when you're tired, after you've put -- I mean, if you don't have family. If you do have family, it's after you put the kids to bed. If you don't have family, it's after you've relaxed some, maybe done some other side projects and hobbies, or just kept up with life - house maintenance, running errands and things like that. You're just tired a lot, and I think the result that I really wanna focus on is that it's 11 PM, you're super tired, you either wanna play a video game or just go to bed, but you feel this guilt, because you know there are those three pull requests opened...
+\[20:08\] That's what I mean by "Somebody has to pay the cost of it." If it's not Mozilla, then you have to be spending those 6-10 hours a week at night, when you're tired, after you've put -- I mean, if you don't have family. If you do have family, it's after you put the kids to bed. If you don't have family, it's after you've relaxed some, maybe done some other side projects and hobbies, or just kept up with life - house maintenance, running errands and things like that. You're just tired a lot, and I think the result that I really wanna focus on is that it's 11 PM, you're super tired, you either wanna play a video game or just go to bed, but you feel this guilt, because you know there are those three pull requests opened...
 
 You pull them up, and you just sort of get this depressed feeling, because you don't wanna do it. I don't think enough people talk about that feeling, and that's sort of at the core of all of this.
 
 **Adam Stacoviak:** That's certainly a good place to take our first pause, because the guilt side of things is something I wanna dive deep into, so we'll tee that up real quick; we'll take this break, and when we come back, we'll dive deep into the guilt that we all feel from just not giving enough, it seems. We'll break and we'll be right back.
 
-**Break:** \[00:21:22.03\]
+**Break:** \[21:22\]
 
 **Adam Stacoviak:** And we're back... We're talking to James Long about this absence from open source and being okay with it; some pretty raw statements from you, James, and hopefully we can dig deep into each of those and uncover some of your feelings about them, and maybe even some solutions. We teed up the break with the idea of guilt, and I'm kind of curious what you mean by guilt towards open source, because my version and your version may differ. What do you mean by that?
 
@@ -89,7 +89,7 @@ If you don't work on that project for a week, you know that that slow trickle is
 
 **Adam Stacoviak:** Yeah, it's almost like anytime you're watching a moving or hanging out with your wife, or going to the park in the middle of the day with your kids, or an extended lunch even... You're almost like, "I could be closing issues, I could be helping people..." Or just knowing that there's people out there thinking, "James, bump to this issue... Come on, man."
 
-**James Long:** \[00:24:10.19\] Yeah.
+**James Long:** \[24:10\] Yeah.
 
 **Adam Stacoviak:** Anybody bump your issues on you?
 
@@ -107,7 +107,7 @@ To me, sustainability is if I choose to, if I want to stay this project, then I 
 
 What you would really like to do is find somebody who knew your vision and can help bring that vision into fruition, but that's so rare... I'm not sure if I've ever... I can't think of a time when that actually worked out, where I found somebody who literally had the same idea as I. Usually, if I pass a product out to somebody else, they make a lot of decisions that I would not have done... Which is totally fine. It's totally fine, but it makes it that much harder to start delegating, because when you start delegating, it starts splitting the vision up.
 
-\[00:28:26.03\] People are a bottleneck for a reason sometimes, because you're the only person that could really say, "Yes, I wrote that code for a reason, because eventually I want this code to become this." I don't know if that makes sense...
+\[28:26\] People are a bottleneck for a reason sometimes, because you're the only person that could really say, "Yes, I wrote that code for a reason, because eventually I want this code to become this." I don't know if that makes sense...
 
 **Adam Stacoviak:** It makes sense. You kind of reminded me of almost like you're hiring... Because you used the word 'trust', and you usually wanna hire somebody that you trust, and you can only trust them through shared experiences. Somebody doesn't often come into your life like in open source, typically not from your hometown or typically not from the desk across from you. It's typically someone somewhere else, distributed, and that's a good thing.
 
@@ -127,7 +127,7 @@ Delegation is an answer; I think it can be a cop-out, some ways... Some people w
 **Adam Stacoviak:** What's number two?
 
 **James Long:** I think companies that do open source tend to work better, because they're paying for the open source work to be done, and I think it does work a lot of the times if that is work that they are using very integral into the organization. I know Netflix used RxJS a ton, and they have a couple people who are core contributors to RxJS; I don't know how much they might spend -- like 30% of their time on RxJS. It makes sense for the company at that point, because they're literally paying people to build out a lot of their really powerful infrastructure. But doing it open source means that they get contributions back from other people, and it really can be a good way to invest a little bit of money to get a lot of return from that.
-\[00:32:08.11\] I think that is another answer - if you work for a company and they allow you to do it on their time, that can definitely work. Outside of that... I think this post is mostly focusing on somebody who wrote something really cool on the side and they wanna release it, and they don't have a company to pay for it. I think that's really what my post is aiming towards.
+\[32:08\] I think that is another answer - if you work for a company and they allow you to do it on their time, that can definitely work. Outside of that... I think this post is mostly focusing on somebody who wrote something really cool on the side and they wanna release it, and they don't have a company to pay for it. I think that's really what my post is aiming towards.
 
 Developers like us - we're just very passionate and creative people. Creative people like to do things and show it off to other people, so we tend to get ourselves in these situations... We sort of want it to happen, and then once it happens we're like, "Oh, well now I gotta maintain it."
 
@@ -141,7 +141,7 @@ It's sort of a weird scenario - are we really entitled to that money? I mean, yo
 
 **Adam Stacoviak:** You certainly can't expect that there be easy answers, because if there were easy answers to this problem, then we wouldn't have the problem. But while you were talking there, it kind of made me think, as you kind of better defined what your perspective was for some of the statements you made in your post... It kind of made me think of like - going back to what I mentioned earlier about how open source has changed over the years... And that made me think there could be this - and maybe there already is - term "indie open source", where just like independent software... You may have Adobe, who creates massive software, massive company, massive amount of employees, and then you may have an indie developer who creates an iPhone app or an iOS app or whatever, and they're totally one person or maybe a couple people (a small shop), and there's these different variations of what an open source project or who may be at the helm of that project.
 
-\[00:36:01.19\] To me, it kind of feels like indie open source maybe have trouble sustaining themselves, because certainly Facebook really doesn't have any problems with sustaining React. There's no problems there because they're bankrolling it, they understand what they're getting into... They may have gone in, as you said, for the warm and fuzzies, but they have the money to back it up and the employees are backed up in there, allowing those people to dedicate their time towards the source, towards the people, towards the talks, towards whatever moves that community along. What do you think?
+\[36:01\] To me, it kind of feels like indie open source maybe have trouble sustaining themselves, because certainly Facebook really doesn't have any problems with sustaining React. There's no problems there because they're bankrolling it, they understand what they're getting into... They may have gone in, as you said, for the warm and fuzzies, but they have the money to back it up and the employees are backed up in there, allowing those people to dedicate their time towards the source, towards the people, towards the talks, towards whatever moves that community along. What do you think?
 
 **James Long:** Yeah, I think it's definitely -- this indie camp is such a good environment for people... That's what's so hard about this - it is such a good thing for young people to write code and share it and collaborate on stuff, but this is what I've talked about in my post as well: we need to be very careful about the expectations that we put on these indie people. "These indie people" - that sounds terrible. Like, us. \[laughter\] Everyone who just does stuff on the side, which is practically most developers - and it's fine if you don't do anything on the side - it's okay, just accept... It's sort of what I was talking about before - I think we all need to accept that it's messy. Like, "There are gonna be weeks where I just don't respond to your issues."
 
@@ -161,7 +161,7 @@ I think the problem is that if it's going to be this free, on the side, personal
 
 That might be part of my struggle - I do like to be successful, but I can't assume something is gonna be successful if I don't put in extra work towards it as well. So there's expectations to other people, and there's also maybe expectations on ourselves in some degree as well.
 
-1:\[00:40:00.20\] What do you have to say about the warm and fuzzies? I mentioned that it's something else you said - sometimes projects go open source... I think your perspective here is from a company's standpoint. They often go open source for the warm and fuzzies, but then they kind of get into it and it becomes charity, so to speak. How do you feel about the warm and fuzzy feeling of just open sourcing it because that's what everybody else is doing, basically?
+1:\[40:00\] What do you have to say about the warm and fuzzies? I mentioned that it's something else you said - sometimes projects go open source... I think your perspective here is from a company's standpoint. They often go open source for the warm and fuzzies, but then they kind of get into it and it becomes charity, so to speak. How do you feel about the warm and fuzzy feeling of just open sourcing it because that's what everybody else is doing, basically?
 
 **James Long:** I think that that might be one of the things that is the most frustrating to me, because I think the general tone of open source being this sort of noble cause is part of the problem, in my opinion. That's why it's almost like, "Oh, you're gonna charge for money? I can't believe you would ever do that, because you're an open source project. That defeats the whole cause."
 
@@ -177,7 +177,7 @@ I don't really know where this is going, but I think sometimes we get caught up 
 
 I'm not sure where I'm going with that either because I'm not arguing with you; I'm just saying that maybe that's why contributors are so significant, because you don't know where they're at in their path.
 
-**James Long:** \[00:43:59.04\] Yes, and that's why it's such a hard problem. It's like, you're a jerk if you do that, so it's sort of this catch-22. I don't know, I think it's what we said before - expectations and communication, and somehow communicating to contributors in a very kind way that you just don't have time right now.
+**James Long:** \[43:59\] Yes, and that's why it's such a hard problem. It's like, you're a jerk if you do that, so it's sort of this catch-22. I don't know, I think it's what we said before - expectations and communication, and somehow communicating to contributors in a very kind way that you just don't have time right now.
 
 And usually, I have to say, I'm sort of jaded; you said that at the beginning of this, I think.
 
@@ -205,11 +205,11 @@ I think there's a tone. I think some people in open source probably are as jaded
 
 **James Long:** Yes, it's made it super easy... It's true. It's made it super easy to file new issues, it's made it super easy to close issues, and it's definitely not GitHub's fault; it's just humans showing themselves. Humans are just mean on the internet. \[laughter\]
 
-**Adam Stacoviak:** \[00:47:51.22\] It's become very mechanical. I think you may treat a robot differently, theoretically. A code robot, or whatever it might be - you might treat a robot different than you do a human, because they don't have feelings. So if you remove the human element, you remove the feelings. If you don't think you're dealing with a human, it's a little easier to be a jerk, because you're not really being a jerk, you're just not being human. You're sort of like removing the emotion, which is essentially what not being human is - lack of emotion. Humans are emotional beings, deep, methodical, thought-provoking - all those things, and when you remove that element, you're just simply talking to a machine, and that's not the case, because there's a human on the other side.
+**Adam Stacoviak:** \[47:51\] It's become very mechanical. I think you may treat a robot differently, theoretically. A code robot, or whatever it might be - you might treat a robot different than you do a human, because they don't have feelings. So if you remove the human element, you remove the feelings. If you don't think you're dealing with a human, it's a little easier to be a jerk, because you're not really being a jerk, you're just not being human. You're sort of like removing the emotion, which is essentially what not being human is - lack of emotion. Humans are emotional beings, deep, methodical, thought-provoking - all those things, and when you remove that element, you're just simply talking to a machine, and that's not the case, because there's a human on the other side.
 
 Let's pause here, because we wanna step away real quick... When we come back I wanna dive into other pieces that we haven't talked about quite yet, which is "How do we maintain balance?" One thing I think we really haven't talked about an awful lot in this show - maybe to some degree - is how to balance. Let's break here, and when we come back we'll talk about that.
 
-**Break:** \[00:49:01.14\]
+**Break:** \[49:01\]
 
 **Adam Stacoviak:** Alright, we're back, talking to James Long about all things open source: maintainability, sustainability, expectations, humanizing things - the full gamut. You've got this project Prettier... I wanna open this up more along the lines of what's happening with this project, because this is sort of where you're coming from with a lot of your perspectives, and then ultimately what's helping you find some balance in your own life, with your own open source project, your won ability to serve and love your family and to do the work you need to do with your consulting company and whatever else it is to you that is work.
 So let's open up with Prettier - what is this project? How long have you been doing this?
@@ -220,7 +220,7 @@ There are a few things that we don't ignore in the original styling, but general
 
 **Adam Stacoviak:** Wow.
 
-**James Long:** \[00:52:05.10\] Yeah, it's a pretty interesting change to my development style. I started it very late November, and then kind of hacked on it some in December, and I open-sourced it the first or second week of January. It's been good; it's only been there for two or three months, but it already has a bunch of activity and a lot of people who are using it seem to like it.
+**James Long:** \[52:05\] Yeah, it's a pretty interesting change to my development style. I started it very late November, and then kind of hacked on it some in December, and I open-sourced it the first or second week of January. It's been good; it's only been there for two or three months, but it already has a bunch of activity and a lot of people who are using it seem to like it.
 
 **Adam Stacoviak:** So the pain you were feeling I guess has been pretty quick... The pain being going from a project with zero stars to now 5,367 stars, Facebook having an involvement with it, Christopher Chedeau, all that good stuff. You've gone from no code, to code, to community, really quick.
 
@@ -239,7 +239,7 @@ I just got caught by the bug. I was like, "This is a lot of good work, so I migh
 
 Christopher is doing a lot of good work on that front, and yes, he's talking to everybody within Facebook right now and trying to convince them to see if it'll work.
 
-**Adam Stacoviak:** \[00:56:02.26\] Prettier kind of reminds me of the concept of writing - not so much just writing code, but writing actual words onto a piece of paper... Almost like your personal experience with writing code is more like the rough draft, and Prettier makes it prettier, so that you can have it consistent with other team members, or a certain way -- it kind of gives you this permission to take it like a Hemingway portion, where you just sort of get the words out, don't worry about editing, and just let yourself know that Prettier will make it prettier on the other side.
+**Adam Stacoviak:** \[56:02\] Prettier kind of reminds me of the concept of writing - not so much just writing code, but writing actual words onto a piece of paper... Almost like your personal experience with writing code is more like the rough draft, and Prettier makes it prettier, so that you can have it consistent with other team members, or a certain way -- it kind of gives you this permission to take it like a Hemingway portion, where you just sort of get the words out, don't worry about editing, and just let yourself know that Prettier will make it prettier on the other side.
 
 **James Long:** Yeah, and I don't know if it's just me, but it's...
 

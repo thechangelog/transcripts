@@ -18,7 +18,7 @@ I've resumed this show probably a few months ago, after a five-year hiatus, and 
 
 **Adam Stacoviak:** There you go... So Code Sponsor was the original name, it's now Code Fund; we've got sort of a long journey to extrapolate past, but just some quick highlights - I'll cover them and you can fill in the blanks. From what I understand, a year ago last month, July 8th, was when you began your journey here. Maybe that's the date of inception of the code; I'm not sure what the exact birthday really means... And since then, you've had some issues with GitHub, you've learned lots of lessons, you've had to change your business model, you've been acquired, from what I understand, from ConsenSys... What I wanna do is sort of like tell that quick version of the story to give some context to the listeners, and then rewind back to the beginning, to say where this began for you... So help me fill in the TL;DR, over-arching, and then we'll go back in the past here in a bit.
 
-**Eric Berry:** \[00:04:25.00\] Yeah, I think to start off with, maybe a little bit about me and who I am. I'm a software developer; I've been doing development since the late '90s. I started off in PHP and went to Java, and then Ruby is where I was introduced to the whole open source world. This was back in 2008. Since then, I've pretty much clamped down on Ruby for a very long time, and anybody who's listening knows that the Ruby community is pretty remarkable when it comes to open source and helping build tools for each other.
+**Eric Berry:** \[04:25\] Yeah, I think to start off with, maybe a little bit about me and who I am. I'm a software developer; I've been doing development since the late '90s. I started off in PHP and went to Java, and then Ruby is where I was introduced to the whole open source world. This was back in 2008. Since then, I've pretty much clamped down on Ruby for a very long time, and anybody who's listening knows that the Ruby community is pretty remarkable when it comes to open source and helping build tools for each other.
 
 So I grew up professionally in this atmosphere where we're all giving to each other. I had my heroes back then - Remy Sharp, of course, there's Tom Dale and Yehuda Katz, and DHH, of course... A lot of people who were doing massive contributions to the community, and it was so fascinating to watch every single time that that happened it was just another tool in my tool belt.
 
@@ -40,7 +40,7 @@ The only person you mentioned on that list that hasn't been on any of our podcas
 
 **Eric Berry:** Well, so speak to that -- I wanna talk about kind of how developers view funding in open source. For the most part, what I've seen across the board is developers think funding comes from sponsorships and buttons.
 
-**Adam Stacoviak:** \[00:08:22.08\] And stickers, too.
+**Adam Stacoviak:** \[08:22\] And stickers, too.
 
 **Eric Berry:** And stickers, right. Yeah, exactly. So you see all these developers who are putting these Pay buttons on their websites, on their GitHub readmes, hoping that they'll generate funding... And I'm sure we'll get into Open Collective, which is basically the super-powered version of that, which works really well for certain cases... But most of the time, what I was seeing was this money that everybody's fighting for; everybody wants to get more money on the table, but it's all coming from this donation/charity fund, which is always limited. That funding is limited, and if it's coming from a company, it's the first thing to go when anything gets tight, and typically, developers are hoping that other developers will donate.
 
@@ -62,7 +62,7 @@ So that was the reason why I decided that advertising was the way to go. Now, of
 
 So the way it was designed was it was text-only, it looked different enough to not be deceiving, but similar enough to not be distracting.
 
-**Adam Stacoviak:** \[00:11:59.27\] Right... Which is a very hard balance.
+**Adam Stacoviak:** \[11:59\] Right... Which is a very hard balance.
 
 **Eric Berry:** It was a hard balance, but the people that I've talked to who saw that - most of the people that I point the ad out to, I have to point it out. Now, when you read it, it's very clearly an ad... Well, what I considered at the time was more of a sponsorship.
 
@@ -90,7 +90,7 @@ It was a pretty flat rate. I would charge advertisers about $1/click, which is w
 
 **Adam Stacoviak:** You were trying to find a way "What's the easiest way to enter this market that enables you to get some traction, on both sides? ...both the advertiser side and the developer side", and the easiest way is to make it accessible.
 
-**Eric Berry:** \[00:16:12.07\] Yeah, and when I started it, I didn't really have an entrepreneur mindset in mind. I've been a part of businesses before, I've owned a business before, but only as the developer in the business, so I've never actually had to deal with the financial side, or anything like that.
+**Eric Berry:** \[16:12\] Yeah, and when I started it, I didn't really have an entrepreneur mindset in mind. I've been a part of businesses before, I've owned a business before, but only as the developer in the business, so I've never actually had to deal with the financial side, or anything like that.
 
 And as I was going throughout the months, doing this - I was doing it on the side, in my own time - I started realizing "I really wanna do this full-time, and I'm gonna need to do this full-time. It was putting a lot of pain on my family, I was getting up at 4 in the morning every day to work on it, and working on it late... So I was putting in probably 70-hour weeks - 40 at work and 30 just on this... And it got to the point where my wife said "Look, you have to choose either Code Sponsor or our family, because this can't continue." So part of the reason for the stress was that we weren't making enough money...
 
@@ -110,7 +110,7 @@ Then that would happen month-over-month, so I always knew -- within the first we
 
 **Adam Stacoviak:** Yeah, this is kind of an interesting next segment into this story, which was like -- obviously, the last thing that GitHub and potentially (as you even said yourself) developers would want is ads in readmes, and making this... Because not everybody has your viewpoint of like making them not stand out, and blend in, but not quite blend in; you know, what we talked about earlier... Not everyone has that viewpoint, so the position that GitHub took on this was like, you could be an enemy to their state in the fact that you're injecting unintended things - dynamic ads, essentially - into their pretty readmes... And there's a conflict there, essentially. Can you break down maybe what happened and how that played out?
 
-**Eric Berry:** \[00:20:29.16\] So we had some really large properties, really large repos using Code Sponsor at the time... One of the largest was Sindre Sorhus' Awesome List... And that, I believe, was the number one largest property on GitHub. It was generating a ton of traffic. And I went back and forth with Sindre, and we tried to make the ad look good and fit right and not be obtrusive, but also still be effective. What ended up happening is -- well, let me take a step back... I also wanted to show the world that I had GitHub's support, even though at the time I really didn't... And this is me being naive and scared. I was scared. I was scared to talk to GitHub directly and say "Hey, are you okay with me doing this?" And I didn't. And I looked at their terms, and at the time, their terms weren't as clear as they became after everything went down.
+**Eric Berry:** \[20:29\] So we had some really large properties, really large repos using Code Sponsor at the time... One of the largest was Sindre Sorhus' Awesome List... And that, I believe, was the number one largest property on GitHub. It was generating a ton of traffic. And I went back and forth with Sindre, and we tried to make the ad look good and fit right and not be obtrusive, but also still be effective. What ended up happening is -- well, let me take a step back... I also wanted to show the world that I had GitHub's support, even though at the time I really didn't... And this is me being naive and scared. I was scared. I was scared to talk to GitHub directly and say "Hey, are you okay with me doing this?" And I didn't. And I looked at their terms, and at the time, their terms weren't as clear as they became after everything went down.
 
 So there was a little bit of a loophole, and I thought "Okay, I'm gonna comfortably sit in this loophole." I decided "What better way to show the world that GitHub supports Code Sponsor than to sponsor GitHub Universe?" So I reached out to them and I said "Hey, I'm interested in sponsoring GitHub Universe. Would you be okay with that?" They said, "Absolutely." I sent them $6,000 and a logo, and that was it. Now we were on their website for GitHub Universe 2017.
 
@@ -122,7 +122,7 @@ Then I remember getting an email from Sindre, I think on day two, and in that em
 
 **Eric Berry:** Yeah, yeah... A "bandito". And they didn't wanna talk to me. It came down to "Look, we can't talk to you. You have to go through this channel." So Tanner and I sat down, we drafted a big, long email, explaining what we are... The reasoning that they wanted them pulled is because they claimed that we were an ad platform, and even though we weren't technically an ad platform, we showed a lot of signs of being an ad platform... We were trying to be a way for sponsors to be able to fund projects.
 
-\[00:24:19.06\] Now, you've gotta understand, Open Collective does -- let me talk about Open Collective for a moment, because it is important here. First off, let me say I am a tremendous fan of Open Collective. I think that what they've done and are continuing to do and will do in the future is unbelievable.
+\[24:19\] Now, you've gotta understand, Open Collective does -- let me talk about Open Collective for a moment, because it is important here. First off, let me say I am a tremendous fan of Open Collective. I think that what they've done and are continuing to do and will do in the future is unbelievable.
 
 For those who don't know what Open Collective is, it is a (I believe) not for profit organization that allows developer teams to generate funding for their projects, where Open Collective will receive the money, do the taxes, and then they will pay out based on public requests... So if a part of the team says "I want to spend money for stickers" or "I want to spend money for T-shirts", or "I want to spend money to go to this conference" or whatever it might be, that's what that funding is for.
 
@@ -134,7 +134,7 @@ Now, as great as that is, almost everybody that I've spoken to that participated
 
 We thought "Okay, I think it's handled. We'll wait." And then we waited... And we waited... And we waited. And eventually, I got a response. That led to a chain of more responses.
 
-**Break:** \[00:26:34.15\]
+**Break:** \[26:34\]
 
 **Adam Stacoviak:** So Eric, you're waiting and you're waiting, and you're getting a response from GitHub, and... I'm on the edge of my seat here. What's next?
 
@@ -142,7 +142,7 @@ We thought "Okay, I think it's handled. We'll wait." And then we waited... And w
 
 **Adam Stacoviak:** Right. You felt like you were talking to somebody who should care about what you cared about too, right?
 
-**Eric Berry:** \[00:28:09.20\] Exactly. Now, in hindsight, I understand where they're coming from, and I'll get to that. So they got back to me and they said "Look, we don't see any engagement directly between developers and advertisers, or developers and sponsors. That's why you're not allowed on here." Okay. I can work with this. So I got back into code, I changed the system around to make sure that not only were advertisers being pre-selected by developers -- so in the system originally, when you log in as a developer, you actually choose which advertisers you want to participate in funding your project. So what I did was I changed it so that the sponsors also had to approve or disapprove which developers they wanted to fund. So it was very much a two-way street, so I thought "Okay, this is it."
+**Eric Berry:** \[28:09\] Exactly. Now, in hindsight, I understand where they're coming from, and I'll get to that. So they got back to me and they said "Look, we don't see any engagement directly between developers and advertisers, or developers and sponsors. That's why you're not allowed on here." Okay. I can work with this. So I got back into code, I changed the system around to make sure that not only were advertisers being pre-selected by developers -- so in the system originally, when you log in as a developer, you actually choose which advertisers you want to participate in funding your project. So what I did was I changed it so that the sponsors also had to approve or disapprove which developers they wanted to fund. So it was very much a two-way street, so I thought "Okay, this is it."
 
 I announced that things are great, and then after that I wrote back to GitHub, I said "This is what we did. Thank you for letting me know, we're good now."
 
@@ -164,7 +164,7 @@ I got an email back from -- instead of their support, I got an email back from t
 
 **Eric Berry:** Yeah... And here I am, doing this on the side, losing money... I put in $30,000 of my own money into this, trying to make it work, and even though I was taking a cut, it was nowhere near what it actually cost to do, including this sponsorship, and the marketing materials, and trying to build it up. So it was really, really hard.
 
-\[00:32:05.16\] So in November I sent out an email to everyone, and I published an article called "Why funding open source is hard." In that article I detailed the growth and success of Code Sponsor and I explained why it's shutting down, and I basically said in that blog post that I'm stepping out, I'm shutting it down completely.
+\[32:05\] So in November I sent out an email to everyone, and I published an article called "Why funding open source is hard." In that article I detailed the growth and success of Code Sponsor and I explained why it's shutting down, and I basically said in that blog post that I'm stepping out, I'm shutting it down completely.
 
 **Adam Stacoviak:** Yeah.
 
@@ -182,19 +182,19 @@ So in December I paid out all the remaining money to all of the people that I ow
 
 In that time, I was kind of going through this point in my life where I hate my job, I need to find purpose... I found true purpose in funding open source, but I need to be able to go somewhere that I can do that and get paid for it... And that's what I did.
 
-\[00:36:15.17\] Over the course of about three months, I've been talking to Kevin Owocki, who is the CEO and founder of Gitcoin. Gitcoin is a product that helps developers get paid to contribute to open source funding through bounties. We became friends over the months and he offered me a job to come work at Gitcoin, which I accepted.
+\[36:15\] Over the course of about three months, I've been talking to Kevin Owocki, who is the CEO and founder of Gitcoin. Gitcoin is a product that helps developers get paid to contribute to open source funding through bounties. We became friends over the months and he offered me a job to come work at Gitcoin, which I accepted.
 
 Once I got to Gitcoin, I thought "I wonder if I can just pick up where I left off and bring Code Sponsor back in." So I reached out to Freddie, I said "How's it going?", I said "Would you be willing to sell me back the company?" and he did. I gave him some money for the company, and then I brought it in as just my contribution to Gitcoin... Just "Here's me, here's what I can bring to the table. I don't want any money for it." They paid a few of the expenses that I had for the product, but all in all it was like "Code Sponsor joins Gitcoin as sister companies, but they're basically one company now", because we're all getting our paychecks from the same company, and all that stuff. But my role at that point became "Make this work. Help people through ethical advertising."
 
 **Adam Stacoviak:** Wow. That's resiliency right there. Somehow you made it through what Seth Godin describes -- and it's still probably a dip for you, but there's a portion of a dip there, right? The hard part is -- all the hurdles that come up along the way to having the ability to do it on the long-term. And I'm not sure what Gitcoin's funding is; I know they're part of ConsenSys... I'm sure they've got a lot of resources to level you out and what not, but... I mean, you've got a new license now; you've got a license to keep trying, which to any entrepreneur is like "Yes, give me more time." And at the same time, you're not damaging your relationship with your family... Which has gotta be the most important thing of all that, right?
 
-**Eric Berry:** Oh, by far. Absolutely, by far. Gitcoin enabled -- and I'm forever indebted to Kevin for this... But Gitcoin enabled the rebirth, you could say, of Code Sponsor. I have to mention, I think part of the reason why I survived through all these kicks to the groin is there's a guy I meet every Tuesday, his name is Mark \[00:39:00.19\] and he's an entrepreneur, he's just this really busy guy... And he told me, as we were going, he kept saying "Look for the next punch, look for the next kick. It's coming, it's coming. That's what this is all about." So I was kind of coached to be prepared to be kicked, and to be prepared to have these failures and not collapse under them.
+**Eric Berry:** Oh, by far. Absolutely, by far. Gitcoin enabled -- and I'm forever indebted to Kevin for this... But Gitcoin enabled the rebirth, you could say, of Code Sponsor. I have to mention, I think part of the reason why I survived through all these kicks to the groin is there's a guy I meet every Tuesday, his name is Mark \[39:00\] and he's an entrepreneur, he's just this really busy guy... And he told me, as we were going, he kept saying "Look for the next punch, look for the next kick. It's coming, it's coming. That's what this is all about." So I was kind of coached to be prepared to be kicked, and to be prepared to have these failures and not collapse under them.
 
 It was almost like "Okay, well... I know the next one's coming. It's probably gonna be within a month... Okay, this is likely what it's gonna be" and then I'd kind of mentally prepare for it, and it allows me to get on further. That was a huge, huge help. But then things got a little bit easier in January.
 
 I started with ConsenSys in January, like you said. I immediately went out to this insane retreat for the whole company - they flew the whole company somewhere and we had this week-long retreat, and I realized "I'm not in Kansas anymore. Things are different now." Things are different when you're in a place that actually has money. So what that bought me was the ability to focus on the developer, focus on the problem, which is funding open source, and trying to help build that solution.
 
-\[00:40:19.29\] So the pivot that I decided to do was say "Okay, we'll no longer even gonna bother trying with GitHub." In hindsight, knowing that they were in the process of being purchased by Microsoft, and they didn't want to throw any type of craziness into that deal or any type of wild card... They didn't want a wild card to be visible in that sale. This is my view.
+\[40:19\] So the pivot that I decided to do was say "Okay, we'll no longer even gonna bother trying with GitHub." In hindsight, knowing that they were in the process of being purchased by Microsoft, and they didn't want to throw any type of craziness into that deal or any type of wild card... They didn't want a wild card to be visible in that sale. This is my view.
 
 It totally makes sense, now that I know that they were selling to Microsoft, why they didn't want anything to do with me... And I accept that. I accept that completely. I also accept the fact that they couldn't tell me at the time. \[laughs\] Look, I'm good with it now. I still love GitHub; all my code is on GitHub. All the code is open source for Code Fund, that's all on GitHub... But it allowed me to focus more on developers, and that's what I did.
 
@@ -206,7 +206,7 @@ Month by month we continue to grow, and we're still continuing to grow. We are o
 
 I just try and keep them happy, because who's thinking of the maintainer, right? Everybody's thinking about the code, and "What can the code do for me?" and all that stuff... But who's thinking of the maintainer? And I think of an example - it's a sad example... The story of Jack Lukic.
 
-**Adam Stacoviak:** \[00:44:02.29\] Yeah. Semantic UI, we've had him on the show I think two times.
+**Adam Stacoviak:** \[44:02\] Yeah. Semantic UI, we've had him on the show I think two times.
 
 **Eric Berry:** Yeah. So he creates this insanely incredible bootstrap competitor called Semantic UI. He's the only guy maintaining it, and this thing explodes. 40,000 stars on GitHub.
 
@@ -236,7 +236,7 @@ There's many people out there who decide to do, like Sidekick, for example - Sid
 
 As you had said earlier, the same with Pia - there's not one way to do everything. So not everybody who wants to do open source wants to make a community version and a pro version
 
-\[00:48:09.07\] So here you are, trying to find a way to match people who can receive value from exposing their brand to an audience, and those who don't wanna change their business model or their "model" of producing their open source work. You wanna find some sort of like harmonious way to connect both, right? Is that where you're at right now?
+\[48:09\] So here you are, trying to find a way to match people who can receive value from exposing their brand to an audience, and those who don't wanna change their business model or their "model" of producing their open source work. You wanna find some sort of like harmonious way to connect both, right? Is that where you're at right now?
 
 **Eric Berry:** A hundred percent. In fact, I gave a talk at a conference, the Ruby Hack conference back in April, and in that talk I actually defined how developers' roles need to change in order to really increase funding in open source. Now, any developer that comes in, the easiest thing to do would be to add a button to their repo and say "Hey, donate money if you're using this." Very easy. But the likelihood of any return on that is next to nil.
 
@@ -248,7 +248,7 @@ Now, a good example that I show is Trailblazer. Trailblazer is like a framework 
 
 But again, it comes back to what does a developer wanna do? Do you want to be a support person? Do you want to write books? Do you want to start a business with this, or do you just wanna continue building open source? And unfortunately, I don't see a lot of ways, aside from licensing software or advertising, that will let you continue acting as you have always before, and still make a decent amount of money back.
 
-**Adam Stacoviak:** \[00:51:40.01\] Yeah... This example, going back to Jack and Semantic UI - he just wants to be able to produce and maintain the open source, not add one more layer, which is support, or whatever else it might take to develop some sort of revenue stream. You don't wanna take the current load, plus something to support it. He just wants to be able to deliver the great project, and sustain it... And it's such a hard nut to crack, it really is.
+**Adam Stacoviak:** \[51:40\] Yeah... This example, going back to Jack and Semantic UI - he just wants to be able to produce and maintain the open source, not add one more layer, which is support, or whatever else it might take to develop some sort of revenue stream. You don't wanna take the current load, plus something to support it. He just wants to be able to deliver the great project, and sustain it... And it's such a hard nut to crack, it really is.
 
 You mentioned Open Collective - they have their ways; Semantic UI may fit there or it may not. Patreon is trying to get into this game as well, you've got Gitcoin, which is funding issues, with a whole different kind of model... But there's all sorts of different ways you can sort of like wrap this up, and there's no easy road.
 
@@ -258,7 +258,7 @@ I think the biggest thing that I would like developers to know is that it's okay
 
 I strongly urge anybody who's interested in this not only to check out Code Fund, but also to go around and look at the different ways that you can do it. There's so many different ways to generate funding for your open source, it's just what fits your personality the best.
 
-**Break:** \[00:53:45.09\]
+**Break:** \[53:45\]
 
 **Adam Stacoviak:** So the funding model for open source, Eric, is a moving target, right? Since day one, which is just a portion of the journey of trying to sustain open source - your day one was a year ago, at least with this project, to try to find some sort of sustainable way to help open source developers find a consistent revenue stream that can help them just do one thing, which is produce and support and sustain their current project, not add other layers to find revenue models. That's a moving target, would you say?
 
@@ -266,7 +266,7 @@ I strongly urge anybody who's interested in this not only to check out Code Fund
 
 **Adam Stacoviak:** It's unfortunate about the scenario with GitHub, but as you'd mentioned, totally understandable. I look at some of the past and some of the directions you've taken, and I'm just kind of curious... There's something laid out in this latest post from you, which is greatly put, "What I've learned over the past year funding open source." You kind of outline various things you've done, lessons learned, mistakes... What are core lessons learned for you in this process, either in that post there, or not yet, that you can share?
 
-**Eric Berry:** \[00:55:51.20\] I think mentioning the ones on the post -- I wrote this when I was very much deep in reminiscing about the past year... I didn't even realize it's been a year, and all of a sudden somebody on LinkedIn said "Hey, congrats on one year!" "Oh my gosh, it's been a year..." So to touch on these, I think these are the most important to me.
+**Eric Berry:** \[55:51\] I think mentioning the ones on the post -- I wrote this when I was very much deep in reminiscing about the past year... I didn't even realize it's been a year, and all of a sudden somebody on LinkedIn said "Hey, congrats on one year!" "Oh my gosh, it's been a year..." So to touch on these, I think these are the most important to me.
 
 When I started the business off, and over the past year, I think one of the things that I'm most proud of is the honesty that I've been able to approach us. Digital advertising is kind of a messy, dirty, yucky thing. It can be. And advertisers that I've talked to over the past, where I basically open up my data and I say "Here, you could see exactly what we're doing. This is my overall click-through rate. Here are all of my publishers that I'm working with. Here's how much money we've made as a company this month, and this is how much money we're giving back to developers", and all this stuff. I've been so open and honest with them, and I think that's paid off a lot.
 

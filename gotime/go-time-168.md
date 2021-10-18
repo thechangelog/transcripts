@@ -10,7 +10,7 @@ So let's meet the panel today... Joining me - it's your friend and mine, Johnny 
 
 **Johnny Boursiquot:** I get to the point where I can only see the little favicons... And I have to sort of guess which one of the multiple tabs with the same favicon I have... It's really hard when you have GitHub icons on more than half the tabs you have, and you have like 50-60 of them... And then I wonder why my fans are going off. So it's like a self-inflicted wound almost.
 
-\[00:04:10.21\] But yeah, I did find a neat little tool the other day called One Tab. It closes all the tabs and it creates links for you, and it puts it in one tab, as the name implies... So yeah, I use that as sort of an excuse to just open all kinds of things, because I can always One-Tab it and now I have a list of things.
+\[04:10\] But yeah, I did find a neat little tool the other day called One Tab. It closes all the tabs and it creates links for you, and it puts it in one tab, as the name implies... So yeah, I use that as sort of an excuse to just open all kinds of things, because I can always One-Tab it and now I have a list of things.
 
 By the way, am I the only one who doesn't use bookmarks anymore? Anyway, let's move on to the other folks.
 
@@ -82,7 +82,7 @@ Let's also meet our other guests. He's back, it's Roberto Clapis. Hello, Roberto
 
 **Daniel Martí:** I do computers. I've also been contributing to Go for a while, especially some packages like JSON... So whenever any of our listeners complains about JSON, I'm usually on the receiving end.
 
-**Mat Ryer:** \[00:07:55.12\] Right. Yeah.
+**Mat Ryer:** \[07:55\] Right. Yeah.
 
 **Daniel Martí:** And I see Roberto laughing at that... \[laughter\]
 
@@ -122,7 +122,7 @@ The first issue number is issue number 20733. It's a proposal to redefine range 
 
 **Mat Ryer:** Yeah. And there are workarounds... But I genuinely find the workarounds to be really strange. You end up just essentially -- it looks like you're just creating a new variable and assigning it with the same name. That's weird, isn't it? Are there any workarounds that are better than that?
 
-**Roberto Clapis:** \[00:11:54.24\] Yeah... In one of my first talks I was actually talking about this, because I was talking about Go pitfalls... And I proposed to pass it as a parameter. So if you're closing over the variable, instead of using a closure, you just accept that as a parameter and you pass it to the function. But it's so unintuitive, because you see the variable appearing at the end of your code. And when I was talking about this - Roger Peppe was in the audience, and he just raised his hand, just shaking his head and saying "Nope. You shouldn't be doing that, because it's unreadable." So I guess redeclaring the variable is the only readable way to do this...
+**Roberto Clapis:** \[11:54\] Yeah... In one of my first talks I was actually talking about this, because I was talking about Go pitfalls... And I proposed to pass it as a parameter. So if you're closing over the variable, instead of using a closure, you just accept that as a parameter and you pass it to the function. But it's so unintuitive, because you see the variable appearing at the end of your code. And when I was talking about this - Roger Peppe was in the audience, and he just raised his hand, just shaking his head and saying "Nope. You shouldn't be doing that, because it's unreadable." So I guess redeclaring the variable is the only readable way to do this...
 
 **Daniel Martí:** I feel like redeclaring a variable is also kind of silly, because if somebody is -- especially somebody that's new to Go, they look at that code and they go like "That's kind of like a no-op. It's not doing anything." And then you kind of need a comment to say "Hey, this is actually doing something. Don't delete it." Because if you delete it, the code might not actually break at all either. So it's extra-confusing, I think.
 
@@ -144,7 +144,7 @@ So yeah, I feel like this is actually quite a good one. Is there a difficulty in
 
 **Johnny Boursiquot:** In my reading of the commentary going back and forth, most folks seem to be in favor of it... Yet people on the Go team obviously are chiming in - people that are or were, are chiming in... And for the most part, this seems like a change that wouldn't get a lot of pushback... Again, because with the sort of implicit implementation or support for this - I can't think of many situations where it would actually break someone's logic, if your stuff sort of behaves as expected. Not to say that there aren't any edge cases, but for the most part it seems overwhelmingly supported. And there's a comment in there from Brad Fitzpatrick around giving it more consideration for Go 2... So who knows, maybe we'll see this.
 
-**Roberto Clapis:** \[00:16:07.16\] Yeah. And also, if you look at the way this is compiled, it's clear that the way it is is because there is no exception there. It just works. This is the way that for loops are compiled, because the first statement is run only once, and that's the declaration. And some people complain that this could introduce some performance issues, because then you get a lot of variables. But if you are really that concerned about performance - well, it's weird, because why are you optimizing that kind of things... But if you are, you can just declare it on the line before the for loop, and just don't use the first -- you can just do *for;* and go on with your life.
+**Roberto Clapis:** \[16:07\] Yeah. And also, if you look at the way this is compiled, it's clear that the way it is is because there is no exception there. It just works. This is the way that for loops are compiled, because the first statement is run only once, and that's the declaration. And some people complain that this could introduce some performance issues, because then you get a lot of variables. But if you are really that concerned about performance - well, it's weird, because why are you optimizing that kind of things... But if you are, you can just declare it on the line before the for loop, and just don't use the first -- you can just do *for;* and go on with your life.
 
 **Mat Ryer:** Yeah. So if you were ranging over some big chunks of data, and they're suddenly now being copied, could you ever notice that? Would that ever make a marked kind of difference?
 
@@ -170,7 +170,7 @@ Okay, we should do that one then. That's our decision. Is this what this is? Are
 
 **Daniel Martí:** Yeah, we can go on to the next one then. I'm actually gonna go out of order, because I'm avoiding a complex one and leaving it for later, so that we can get to smaller ones first. I wanna talk about issue 29036, and it's to make imported symbols predictable. This is sort of a double proposal, and that is right now when you look at a Go file and you see a name, like foo, and you're thinking "Where does this come from?", you would think that the rules are pretty simple... Like, "Is foo in my current scope, in my current function declaration, as a variable? Or is it a parameter? Or is it a global? Or is it something that I imported?" And that's usually true, but it's actually not always true in Go... Because if you use a .import, a .import means import all the names from this other package... And if you just look at the Go file alone, you don't know what all those names are. So it's sort of implicit and sort of explicit.
 
-\[00:19:53.03\] And the other case is when you import a package, and the last element of its package path does not match its package name. Go allows that; it allows you to then use the package name instead of the last element of the package path. And many people then use the name explicitly in the import, but you don't have to... And if you don't, then you've gotta get back into this edge case, where the name is implicit, it's not explicit. So this proposal is essentially forbid those two modes, and then when you look at a name in a Go file, without loading all the dependencies, without loading all the type information, you can always easily know where it comes from.
+\[19:53\] And the other case is when you import a package, and the last element of its package path does not match its package name. Go allows that; it allows you to then use the package name instead of the last element of the package path. And many people then use the name explicitly in the import, but you don't have to... And if you don't, then you've gotta get back into this edge case, where the name is implicit, it's not explicit. So this proposal is essentially forbid those two modes, and then when you look at a name in a Go file, without loading all the dependencies, without loading all the type information, you can always easily know where it comes from.
 
 **Mat Ryer:** Yeah. This is one where -- one of those best practices is to name the folder of the package the same as the package... Because it just helps with lots of things. And then this proposal is talking about, I suppose, always require that symbol to be explicit, maybe... It would be harder to make it not allow you to put a different package name inside a folder, wouldn't it? That would be quite strange. But is that the proposal then? Always, it will define -- and you do it before the import. So you do import, the name that you're gonna use locally, and then the package as a string, and that's how you can do that.
 
@@ -188,7 +188,7 @@ For those that don't know what dot import does - basically, whatever package you
 
 But even then, something like this would probably break a lot of things, so because of that -- I can see the value of it, but because of that, we'd probably have to have some tools, or do some rewriting, and things like that, to prevent a widespread breakage of things... But yeah, I think I'm not too hot on this one.
 
-**Roberto Clapis:** \[00:23:58.26\] I think that the first part, of adding explicit naming, will probably work. I don't see why this wouldn't be accepted. When I said that dot import - I see this as a harder one, especially because in tests I've seen a lot of packages that offer sort of a DSL for tests... And you just dot import and you can just assert or do stuff. I personally don't like it; I advise against it. But I can see why people would like to do this.
+**Roberto Clapis:** \[23:58\] I think that the first part, of adding explicit naming, will probably work. I don't see why this wouldn't be accepted. When I said that dot import - I see this as a harder one, especially because in tests I've seen a lot of packages that offer sort of a DSL for tests... And you just dot import and you can just assert or do stuff. I personally don't like it; I advise against it. But I can see why people would like to do this.
 
 **Mat Ryer:** But these aren't mutually exclusive, or rather they don't have to go together. You could still have dot imports, but then also force the explicit symbol import.
 
@@ -216,7 +216,7 @@ I think in practice this might not affect most people, because most people don't
 
 **Johnny Boursiquot:** You could.
 
-**Break:** \[00:26:51.13\]
+**Break:** \[26:51\]
 
 **Mat Ryer:** Right, Daniel. What's the next one we should have a look at?
 
@@ -224,7 +224,7 @@ I think in practice this might not affect most people, because most people don't
 
 This is a pretty large change to the language, and it's essentially saying a composite literal is essentially an expression with the curly braces. So you can think of struct literals, slice literals and such. And the proposal is essentially if the compiler can statically know what type that expression would be, for example because you're assigning it to a struct variable, or you're passing it as a parameter that's a map, then it can statically know what the type of that composite literal is, and then you don't have to spell out the type.
 
-\[00:28:28.02\] I think a lot of people support this idea, because Go can be quite verbose when you use a lot of these types... And oftentimes, the type is repeated multiple times in the same function or in the same local code... But at the same time, I feel like it might hurt readability, especially in terms of what we talked about earlier, about Go being easy to read at a local level.
+\[28:28\] I think a lot of people support this idea, because Go can be quite verbose when you use a lot of these types... And oftentimes, the type is repeated multiple times in the same function or in the same local code... But at the same time, I feel like it might hurt readability, especially in terms of what we talked about earlier, about Go being easy to read at a local level.
 
 **Mat Ryer:** Yes, that's interesting. There are examples of type inference in the language, and they do work quite nicely. Do you find that they affect readability much, the current examples that we have?
 
@@ -244,7 +244,7 @@ So I think this is one of those where I think we'd have to do a little bit of a 
 
 I don't know how I feel about this one. There are some cases where I feel like it would still be clear enough without specifying the types... But I could see for sure other cases where that gets complicated, too.
 
-**Daniel Martí:** \[00:32:01.00\] I agree with Johnny saying that readability and maintainability is also a factor here, and not just typing... And I think Roberto's point is mostly solved by editors and go please these days... So completion; if you're too lazy to type it out, just rely on your editor to do it for you. But I think my stance in all this is that I like the overall idea to repeat types less if it's obvious enough from the local context, but I also think this proposal as is is too broad. If we have catch-all type inference for composite literals, it's gonna be abused and it is gonna hurt maintainability. So I would like to see proposals which are more narrowly-scoped to cases where pretty much everybody agrees the code is better. I actually have a couple of follow-up proposals which are newer, which are a little bit narrowly-scoped.
+**Daniel Martí:** \[32:01\] I agree with Johnny saying that readability and maintainability is also a factor here, and not just typing... And I think Roberto's point is mostly solved by editors and go please these days... So completion; if you're too lazy to type it out, just rely on your editor to do it for you. But I think my stance in all this is that I like the overall idea to repeat types less if it's obvious enough from the local context, but I also think this proposal as is is too broad. If we have catch-all type inference for composite literals, it's gonna be abused and it is gonna hurt maintainability. So I would like to see proposals which are more narrowly-scoped to cases where pretty much everybody agrees the code is better. I actually have a couple of follow-up proposals which are newer, which are a little bit narrowly-scoped.
 
 **Mat Ryer:** Yeah, okay. Let's dig into those ones then.
 
@@ -262,7 +262,7 @@ Here I think we could get a mix of this and the previous proposal by omitting th
 
 **Johnny Boursiquot:** Gotcha.
 
-**Daniel Martí:** \[00:36:00.23\] So with the previous proposal, because it's inferring what the type will be, there's nothing to infer to if you use foo:= and then underscore with this new syntax, because there's nothing to infer to. But with this new proposal, it would essentially be like "It's not it's an anonymous struct type. I'm not trying to fit it into any other type, so it's just an anonymous type, and it would just work."
+**Daniel Martí:** \[36:00\] So with the previous proposal, because it's inferring what the type will be, there's nothing to infer to if you use foo:= and then underscore with this new syntax, because there's nothing to infer to. But with this new proposal, it would essentially be like "It's not it's an anonymous struct type. I'm not trying to fit it into any other type, so it's just an anonymous type, and it would just work."
 
 **Mat Ryer:** Hm... So it figures out what the struct shape and structure should be from the values that you set... Is that right?
 
@@ -302,7 +302,7 @@ If you drop one token, it's just feeling like unbalanced or clunky, so it would 
 
 **Johnny Boursiquot:** I mean, yeah. Soon, it should. Aren't we working on that?
 
-**Mat Ryer:** \[00:40:05.17\] Yeah, someone must be.
+**Mat Ryer:** \[40:05\] Yeah, someone must be.
 
 **Johnny Boursiquot:** Someone must be...
 
@@ -350,7 +350,7 @@ If you drop one token, it's just feeling like unbalanced or clunky, so it would 
 
 **Mat Ryer:** Yeah, we did talk about this in part one of this, which is still available if you want to go into your little podcast app and find part one of this... And you can hear about that. We talked about doing this kind of thing for maps.
 
-\[00:44:01.03\] I think the general point of "What does it do to readability?" has to be the main consideration, really. It's not naturally, I think, what you immediately go to... Because when we are doing the work, we're typing it, and that's kind of where all our conscious thought goes. But yeah, for sure, the glanceability, the readability - these properties are being considered, which is great really, to see that people do think about this.
+\[44:01\] I think the general point of "What does it do to readability?" has to be the main consideration, really. It's not naturally, I think, what you immediately go to... Because when we are doing the work, we're typing it, and that's kind of where all our conscious thought goes. But yeah, for sure, the glanceability, the readability - these properties are being considered, which is great really, to see that people do think about this.
 
 **Roberto Clapis:** Right. And if this proposal is like Daniel said, which is we start taking these off, and then we look around and we see what else we can address, and maybe we can start eliding some types here and there, I would be in favor of that. But this proposal, as it is, just this, is for me not enough. But if we start looking around and see -- again, maybe in these other contexts it is very clear for the reader what the type is, and we can just remove it there too, why not.
 
@@ -382,7 +382,7 @@ So I would prefer something like that, rather than having just weird -1 access..
 
 **Johnny Boursiquot:** Next thing you'll probably have loaded up - it's like, you know, you want method missing from \[unintelligible 00:47:48.27\] Magical things happen in method missing.
 
-**Roberto Clapis:** \[00:48:07.18\] Yeah, for those who don't know - in Ruby you can define something that runs in case someone is trying to use something that doesn't exist. Basically, it allows you to build a very simple, interactive shell in Ruby by just defining that method missing... And that is one of the best and worst features of Ruby, I would say.
+**Roberto Clapis:** \[48:07\] Yeah, for those who don't know - in Ruby you can define something that runs in case someone is trying to use something that doesn't exist. Basically, it allows you to build a very simple, interactive shell in Ruby by just defining that method missing... And that is one of the best and worst features of Ruby, I would say.
 
 **Mat Ryer:** Yeah, yeah... It's kind of amazing. Literally, it's like having a struct with methods, and another method called "method missing" that gets called if you call anything on that. And by the way, that's not what I was advocating for. Johnny as a joke said that that's what I was advocating for. \[laughter\] That for sure is too magic. Imagine - and this happened to me - you just do a typo and it's just not an error. It's just like "Sure. I'll keep going. No probs." \[laughter\]
 
@@ -422,7 +422,7 @@ So I would prefer something like that, rather than having just weird -1 access..
 
 **Mat Ryer:** Yeah, fair enough.
 
-**Break:** \[00:51:02.29\]
+**Break:** \[51:02\]
 
 **Johnny Boursiquot:** That's the thing with all these proposals - we don't have an objective way of measuring readability. We all have hunches... And ideally, the more experienced you are as a developer, the better those hunches get. But it's hard -- like, when I sit down to pair with a more junior developer, every time I feel like I have to rely on "Well, because it's more readable." Then in the back of my head I'm thinking "Is there a better way...?" How do I explain this? How do I transfer this bit of intuition, or wisdom. Is there a better way to actually explain this? Simply saying it's more readable, or less readable - those are all what we think, those are ideas. We don't have a way of measuring that, so... Yeah.
 
@@ -432,7 +432,7 @@ So I would prefer something like that, rather than having just weird -1 access..
 
 **Johnny Boursiquot:** One last one...
 
-**Mat Ryer:** \[00:56:03.29\] I don't know if we have the time...
+**Mat Ryer:** \[56:03\] I don't know if we have the time...
 
 **Johnny Boursiquot:** Oh, look at that, we're at that time...
 
@@ -450,7 +450,7 @@ So I would prefer something like that, rather than having just weird -1 access..
 
 **Mat Ryer:** Let's get Jerod... He's not like a dog or a horse, where he just responds to claps. He doesn't respond to them, that's the annoying thing. I wish he was more like a horse, in a lot of ways. Okay, well - as I was saying before I was rudely interrupted, it's that time again... It's time for Unpopular Opinions!
 
-**Jingle:** \[00:56:46.23\]
+**Jingle:** \[56:46\]
 
 **Mat Ryer:** Okay, I'm gonna go first this time... This is my unpopular opinion, and this one hurts me to say, because people have done lovely things for me, and this is now gonna throw it back in their faces. Are you ready...? I think we should stop doing conference swag. It's landfill. I mean, give people more tickets, or something; or licenses for software, or something... No more conference swag.
 

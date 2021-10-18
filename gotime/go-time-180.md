@@ -12,7 +12,7 @@
 
 **Johnny Boursiquot:** I have to sort of forewarn you... This is not gonna be an episode about Encore. What we want to know are some of the lessons you've learned, and indeed some of the trade-offs you had to make over the course of building such a framework. So I checked it out, and there's a lot going on in there, and I'm sure we'll be touching on some of these things as we go. But first, I want us to frame the discussion a little bit. What do you understand by developer productivity?
 
-**André Eriksson:** \[00:04:31.09\] I think there are two very different perspectives on this question. On the one hand, you can take a very rational approach, and you can talk about it in terms of mathematics. When you think about it that way, developer productivity is essentially about how do we spend as little time as possible on things that don't matter, like things that aren't really bringing your product forward; what I call undifferentiated work. And the second part is when you actually are working on things that bring your product forward, you wanna do that as quickly as possible, so how can we speed that part up.
+**André Eriksson:** \[04:31\] I think there are two very different perspectives on this question. On the one hand, you can take a very rational approach, and you can talk about it in terms of mathematics. When you think about it that way, developer productivity is essentially about how do we spend as little time as possible on things that don't matter, like things that aren't really bringing your product forward; what I call undifferentiated work. And the second part is when you actually are working on things that bring your product forward, you wanna do that as quickly as possible, so how can we speed that part up.
 
 But I think a different perspective is "How do we make development as enjoyable as possible? How can we make it so that we're spending time working on the things that we enjoy?" And of course, that's a more personal question, and exactly what that means will vary from person to person. Some people really enjoy working on infrastructure, and DevOps, and build systems, and this sort of thing. For me, I really love working on creating things for the end user, so finding ways to make the end user's lives just a little bit better. But it all depends on what you're enjoying as a person. But those are the two main perspectives that I think about when it comes to developer productivity.
 
@@ -22,7 +22,7 @@ But I think a different perspective is "How do we make development as enjoyable 
 
 I use for my IDE VS Code, and things that I find super-useful is that when pulling all sorts of libraries, it shows me the signature code, for example. That's something maybe a little bit basic, but I find it super-useful. I know that Encore has way advanced things, like tracing. This is something that I find always useful, always interesting, and I only got to introduce this into a codebase as a recommendation, kind of, in a previous job that I had as an engineering manager. So I never had to do this on my own, just to convince other people to do this, because I think it's useful.
 
-\[00:08:12.08\] I still think this is something that could be super-useful, and I am looking forward to try this in my projects and see how can this make life easier, even without the extra work. Those are the two main things that come to my mind when we talk about productivity.
+\[08:12\] I still think this is something that could be super-useful, and I am looking forward to try this in my projects and see how can this make life easier, even without the extra work. Those are the two main things that come to my mind when we talk about productivity.
 
 **Johnny Boursiquot:** Jerod, hit me.
 
@@ -38,7 +38,7 @@ So there's lots of things that you can define that, of what that is, but if I'm 
 
 **Johnny Boursiquot:** I hear all of that, and I'm thinking, just like Natalie says, when you say "productivity", it depends on your approach. What context are you working in. Jerod asked - developer productivity, "Well, define developer." So the idea then becomes what layer are we talking about of developer productivity? Because I can think of just three off the top of my head. So there's developer time productivity, which Natalie touched on; when I'm coding, I'm getting that IntelliSense, the IDE is helping me get my job done faster, I don't have to work hard to write the code itself... There's deploy time productivity - how easy is it for me to ship that thing from an idea in my head, or when I sit down with a customer or a prospect, and translate that into working software?
 
-\[00:12:22.06\] For me as an operations-focused engineer there's the operational aspect of productivity. If I can't operate this piece of code, if I can't monitor it, if I can't trace things, requests coming in to see where a problem exists, I can't collect metrics, if I can't observe it, to use the more trendy term these days, beyond just monitoring; you can't just say "monitoring", you have to be observable.
+\[12:22\] For me as an operations-focused engineer there's the operational aspect of productivity. If I can't operate this piece of code, if I can't monitor it, if I can't trace things, requests coming in to see where a problem exists, I can't collect metrics, if I can't observe it, to use the more trendy term these days, beyond just monitoring; you can't just say "monitoring", you have to be observable.
 
 **Jerod Santo:** \[laughs\]
 
@@ -50,7 +50,7 @@ So what Encore is trying to do is really bridge that gap and build up a very det
 
 **Johnny Boursiquot:** If I'm a junior developer and I wanna use a tool, any tool, Encore included, what questions should I be asking myself as a junior developer? And we're gonna get to the senior developers and the architects and all that stuff. Because different people at those layers too are gonna be looking at something like Encore and be like "Hm... You're doing too much" or "Hm... You're doing not enough." So again, perspectives. So if you're a junior developer and you see something like Encore, is there some learning that you have to go do? Like, all of a sudden, if you're just happy writing code, and then you know somebody else is gonna deploy it and package it and ship it, now something like Encore comes along and now it's talking about all these deployment mechanisms, orchestration, and tracing, whatever that might mean... They might not even know what tracing is. So another way of asking this question - for whom did you build Encore? The junior, the senior, the architect, the people who knows what's going on up and down the stack? Who's your audience here, and how should each level of competency with the whole lifecycle - what comfort level should they be at?
 
-**André Eriksson:** \[00:16:41.14\] I actually think Encore could be a good fit for all of them... I think it's less about the experience level and more about what your requirements are on the product side. Depending on what you're creating, sometimes your technical requirements are incredibly low-level, and you require enormous flexibility and control at the lowest level of the stack. And then Encore is definitely not the tool for you, because it's operating at a higher abstraction level... At least not today, we don't offer a bunch of these low-level knobs.
+**André Eriksson:** \[16:41\] I actually think Encore could be a good fit for all of them... I think it's less about the experience level and more about what your requirements are on the product side. Depending on what you're creating, sometimes your technical requirements are incredibly low-level, and you require enormous flexibility and control at the lowest level of the stack. And then Encore is definitely not the tool for you, because it's operating at a higher abstraction level... At least not today, we don't offer a bunch of these low-level knobs.
 
 On the other hand, if you're building something where you don't need that level of control, then Encore can be a great fit, just because it takes away and makes reasonable decisions that usually are very sound, but they are not right for everybody. So we've had people using Encore and they really love it across all experience levels, but it really comes down to what your application has in terms of its requirements. Encore or not, I think that's something you always need to start with, like "What is it that you are building and what are the challenges you're having?" and then choose the right tool from that perspective. I think that's always where you have to start.
 
@@ -72,7 +72,7 @@ On the other hand, if you're building something where you don't need that level 
 
 So when you're defining an API, when you're making an API call from one backend service to another, what request and response schemas for every API endpoint. What infrastructure your service requires, whether it's a database or something else. Where you're interacting with a database, what secrets you need. Then Encore takes that code and orchestrates it all together, so that you don't have to deal with setting up infrastructure, marshaling, requests to JSON, or whatever you use for serializing, and so on and so on... So what you as a developer have to do is just focus on building your product, instead of spending a lot of time on things surrounding your product, like infrastructure, and operations, and boilerplate, and configuration, and all of this stuff. That's the idea.
 
-**Johnny Boursiquot:** \[00:20:25.07\] Okay.
+**Johnny Boursiquot:** \[20:25\] Okay.
 
 **Natalie Pistunovich:** Or basically automating Johnny out of his job.
 
@@ -88,7 +88,7 @@ So when you're defining an API, when you're making an API call from one backend 
 
 **André Eriksson:** I'll expect a check in the mail... \[laughter\] No, but it's more about - when you have SREs, unless they're very nice, they're not going to sit and do your work for you. They can handle a lot of the operations aspect, but somebody still needs to do all the work to get the code into production. So it's not replacing operations, it's more like let's make it easier to get our code out there quickly. So it's much more about "Let's find all of these annoying parts of backend development and streamline them." So the end result is it will just get your code up and running in a Kubernetes cluster incredibly simply, and it will all be done according to best practices, but you still have this level of control, where when something is on fire, you still wanna be able to get in there and really dig into things.
 
-**Break:** \[00:22:08.18\]
+**Break:** \[22:08\]
 
 **Johnny Boursiquot:** Jerod, you've bootstrapped applications using frameworks and tools...
 
@@ -100,7 +100,7 @@ So when you're defining an API, when you're making an API call from one backend 
 
 I guess, as Go Time's producer, let me just float a stereotype out, and maybe have all three of you speak to it. This is on-topic, Johnny; it's not completely off-topic. I get the impression that Gophers - and this is a generalization - don't like frameworks. And here's Encore, it's a framework. And I wonder if that's part of the discussion here. The libraries are generally what I see people advocating for, or suggesting in a framework; I don't know any popular Go frameworks. Maybe I do, if I had to think real hard; I don't know. All three of you can just speak to that. Is that a generalization that holds, or am I misguided in saying that?
 
-**Johnny Boursiquot:** \[00:24:21.15\] I want André to answer this question last, because I wanna hear from Natalie, and I have some opinions about that.
+**Johnny Boursiquot:** \[24:21\] I want André to answer this question last, because I wanna hear from Natalie, and I have some opinions about that.
 
 **Jerod Santo:** Okay.
 
@@ -138,7 +138,7 @@ So to say that Go developers in general don't like those things - there's some t
 
 **Jerod Santo:** Yeah, it's a good point. I mean, that's the thing about generalizations and stereotypes - sometimes they get formed early on and sometimes it's hard to actually ever escape that stereotype, even if it's no longer true; and sometimes it was never true. And I'll give you some of my background... I'm coming from Ruby, JavaScript, and I do a lot of Elixir... And I have Ruby roots, so - give me all the magic. I like the magic.
 
-\[00:28:07.25\] Y'all make fun of method missing a lot; I think there's lots of cool use cases for method missing. Of course, yes, you can shoot yourself in the foot, but I had a very productive career with Ruby on Rails, and I made websites and applications way faster, way better, and with more productivity than I ever did prior to Rails... So I like frameworks, but I'm also coming from somebody who's had a really good experience, really growing up on a framework, outgrowing it at a certain point... But much of my career was with a framework that served me very well.
+\[28:07\] Y'all make fun of method missing a lot; I think there's lots of cool use cases for method missing. Of course, yes, you can shoot yourself in the foot, but I had a very productive career with Ruby on Rails, and I made websites and applications way faster, way better, and with more productivity than I ever did prior to Rails... So I like frameworks, but I'm also coming from somebody who's had a really good experience, really growing up on a framework, outgrowing it at a certain point... But much of my career was with a framework that served me very well.
 
 And then JavaScript's community - in JavaScript we don't like frameworks, we like tiny little micro-libraries. Pull in all the things. Npm all the things. I've seen both worlds, and I tend to be somewhat just naturally inclined toward a framework. I see something like Encore and I think "This looks really cool", but I'm also small teams, small customer sizes... I don't have an SRE. Well, we kind of have an SRE on hire at Changelog, Gerhard, but I've done a lot of sysadmin stuff myself over the years, so I'm operating at a very small scale... And I think at a small team size or a small business, I want all the things as long as they're well done. But I totally recognize that large organizations don't need all the things Encore does... And in that case, it could be a blocker, like "Well, we need to swap this thing in." Well, you can't swap it in. "Okay, we can't use a framework."
 
@@ -160,7 +160,7 @@ And then JavaScript's community - in JavaScript we don't like frameworks, we lik
 
 **André Eriksson:** And when it comes to Go, a lot of people - myself included - really like with the language is its predictability. We understand when we read something exactly how it works. And I'd like to think that Encore sticks to that principle, and doesn't introduce a lot of magic. I believe that at no point when you're writing code with Encore are you confused about what's happening, and it's all actually very straightforward. And the type of things that we do are considered magical by many. But I would say that it's more similar to the Go runtime in that sense, where the Go runtime does a lot of things that are very magical compared to what you do as a Go developer. Similarly, Encore does a lot of things under the hood, but it doesn't change the predictability of how you're writing code, and I think that's the critical part that we need to preserve in Go, whether it's Encore or another framework or a library or whatever.
 
-**Jerod Santo:** \[00:31:55.13\] Yeah, and I don't think you need to have -- I mean, Encore I guess is an example that magic and framework are not eternal companions. It's just that one of the most popular web frameworks in human history is Ruby on Rails, which is filled with a lot of magic things. Instance variables appear out of nowhere on you, if you just dream up a method, it's probably there... Those kinds of things. But there's lots of frameworks that aren't that way. I mean, in the Python community they also appreciate explicit over implicit, and there's frameworks over there that provide explicit calls... You can accomplish these things with code gen, with scaffolding, a lot of other ways.
+**Jerod Santo:** \[31:55\] Yeah, and I don't think you need to have -- I mean, Encore I guess is an example that magic and framework are not eternal companions. It's just that one of the most popular web frameworks in human history is Ruby on Rails, which is filled with a lot of magic things. Instance variables appear out of nowhere on you, if you just dream up a method, it's probably there... Those kinds of things. But there's lots of frameworks that aren't that way. I mean, in the Python community they also appreciate explicit over implicit, and there's frameworks over there that provide explicit calls... You can accomplish these things with code gen, with scaffolding, a lot of other ways.
 
 But again, going back to the persistence of stereotypes, I think a lot of people think "framework" and they think "magic". And maybe if they don't immediately understand how something works, they think "Oh, this must be some tomfoolery going on. Not always the case.
 
@@ -186,7 +186,7 @@ So the more control you want, the more you have to shy away from the managed thi
 
 The reason why we started on the very extreme is because we believe that by connecting the whole end-to-end developer process, from how you write code in your editor - which is where the Encore experience starts, if you will - all the way into how you're collaborating with other developers, all the way out to production, is that by having visibility into where things are running, we can actually help you provide a better experience when you're writing code.
 
-\[00:36:36.11\] For example, there are a lot of things when you're writing code... Like, in my experience - I was at Spotify for many years, and all the time when you're writing code, you do that with an understanding how things work in production. For example, when you're querying a database, you do it with an understanding of the shape of the data in production, or the shape of your database schema. When you're deleting an endpoint, you do that because you're sure that it's actually not being called, otherwise you're gonna have a bad time. And when you're checking, like "Is this field set?", you do that because you understand that sometimes in production it's not being set.
+\[36:36\] For example, there are a lot of things when you're writing code... Like, in my experience - I was at Spotify for many years, and all the time when you're writing code, you do that with an understanding how things work in production. For example, when you're querying a database, you do it with an understanding of the shape of the data in production, or the shape of your database schema. When you're deleting an endpoint, you do that because you're sure that it's actually not being called, otherwise you're gonna have a bad time. And when you're checking, like "Is this field set?", you do that because you understand that sometimes in production it's not being set.
 
 So by actually being part of this whole experience, we want to take some of that insights in production and feed it back into the developer experience, so that when you're doing a database query, we should be able to give you feedback from the database schema in production, like "Oh, this is not the right type. You're trying to put a string field into an integer variable, or whatever." And personal sensitive data permitting, it would also be very useful to be able to show you a sample from your database as you're doing database queries in your editor, or being able to say "Hey, did you know that this endpoint is not being called in production? It last happened three weeks ago. Maybe you should just delete it right away." Or when you're making a change to your API schema to be able to give you feedback, like "Hey, your co-worker is also working on this endpoint, and you're about to collide with each other. Maybe you should talk right now, instead of doing it two days later in a pull request. If you miss it, it's gonna break in production."
 
@@ -196,7 +196,7 @@ So it's all about using this visibility to feed back into the developer process 
 
 **André Eriksson:** I actually think -- for a very long time I've actually struggled with how to communicate it, just because the process of using it, it's almost like there's nothing there. Actually, writing an Encore application ends up being -- you're not actually doing much Encore specifics; you're writing -- like, to define an API, for example, you are writing a regular Go function at the package level... And the input to that function is a context, which is a very standard Go idiom, as well as a type, which becomes your input to your API. And the return value is a data structure and an error, and that becomes your response scheme. That's basically all you need to know to use Encore to write a backend. And then to make an API call between two backend services, you just import the other service as a Go package, and then you call the function as if it was a regular function.
 
-\[00:40:34.04\] When we actually run your application, then we find all of this, we have a compilation step that finds all these places and generates the code to replace that with a real API call. But from a user perspective, it just feels like you're writing regular Go code. And then we use static analysis, we figure all of this stuff out, and then we can do a bunch of stuff, like generate API documentation automatically, or take all of your API and generate a frontend client for it in different languages, and so on.
+\[40:34\] When we actually run your application, then we find all of this, we have a compilation step that finds all these places and generates the code to replace that with a real API call. But from a user perspective, it just feels like you're writing regular Go code. And then we use static analysis, we figure all of this stuff out, and then we can do a bunch of stuff, like generate API documentation automatically, or take all of your API and generate a frontend client for it in different languages, and so on.
 
 So there's a very big difference in terms of what do you need to know to write applications with Encore. And the answer is very little. Then in terms of like "What value do I get out of it?", then there's a variety of things... But as you pointed out, you can very much discover those gradually. You don't have to learn a bunch of things upfront. That's the idea.
 
@@ -214,7 +214,7 @@ So I'd like to think that it's very easy to get started with it, even if you don
 
 **André Eriksson:** No... Right now, in practice, when you expose a public API, it's only HTTP and JSON. But again, it's very much about not -- I think as developers that's not something I ever wanna spend time on. I would rather think about my API in terms of data structures and semantics that I want to express, and then the idea is Encore can expose it in different ways, whether it's HTTP or JSON, gRPC and Protobuf. We should be able to expose it in different ways, depending on what you need, because it's a pretty low abstraction level to be dealing with transport protocols, in a lot of cases.
 
-**Break:** \[00:44:02.21\]
+**Break:** \[44:02\]
 
 **Johnny Boursiquot:** Three and a half years, that's how long you've been working on this.
 
@@ -242,7 +242,7 @@ So yeah, we absolutely want it to be backwards-compatible, and that's a big reas
 
 **André Eriksson:** No, it was entirely the plan. As a developer, you might not realize it when you just import a package, but we're all building on mountains and mountains of open source, from the first line of code we're writing... And I think not contributing back to that is - I wouldn't say a mistake; every product is different. But to me, being able to contribute back and being able to open-source this is incredibly important to me. And just for developers to have a look at something; even if it's not for you, it's at least different... And being able to have a look and see how it works under the hood - I think that's super-important. Over the years, I've learned so much from just opening up projects that I like and learning from that - "Oh, how did they do this? Okay." And then you dig into that, and suddenly you've learned something new.
 
-**Natalie Pistunovich:** \[00:48:43.26\] So you liked all the open source tools that you had, and that's why you felt you want to give back and open-source your tool...
+**Natalie Pistunovich:** \[48:43\] So you liked all the open source tools that you had, and that's why you felt you want to give back and open-source your tool...
 
 **André Eriksson:** Yeah. And we talk a lot about developer productivity and how Encore makes it so much better... But it's also important to remember how far we've come, both on the coding side, and the editors, and the languages, and the libraries we have - that's all because of open source. And then I think a big part of modern productivity for backend development is also due to the cloud (thank you, Heroku). And maybe the story there is not quite as good in terms of open source, but hopefully we'll get there.
 
@@ -288,7 +288,7 @@ If it is the right thing for you, then I would love your feedback. If it isn't, 
 
 **Natalie Pistunovich:** "Here's how you should do this..."
 
-**Johnny Boursiquot:** \[00:52:02.13\] I will admit, when I first looked at Encore, I was in the "This does too much" camp. I'm interested in exploring it a little bit more before I have my final judgment of it. I'm curious, before we start to wrap this up, if Encore is sort of an all-or-nothing kind of framework. Can I have parts of it? If I don't like the deployment mechanism, if I already have a deployment mechanism, can I use some of it and not others, or is it an all-or-nothing?
+**Johnny Boursiquot:** \[52:02\] I will admit, when I first looked at Encore, I was in the "This does too much" camp. I'm interested in exploring it a little bit more before I have my final judgment of it. I'm curious, before we start to wrap this up, if Encore is sort of an all-or-nothing kind of framework. Can I have parts of it? If I don't like the deployment mechanism, if I already have a deployment mechanism, can I use some of it and not others, or is it an all-or-nothing?
 
 **André Eriksson:** Yeah, so today, the deployment side is pretty all-or-nothing. That's the biggest thing that people have asked about, and it's something that we very much wanna open up more, just because you should be able to use it in whatever way makes the most sense for you.
 
@@ -302,7 +302,7 @@ If it is the right thing for you, then I would love your feedback. If it isn't, 
 
 **Johnny Boursiquot:** It's Unpopular Opinion time.
 
-**Jingle:** \[00:53:06.15\] to \[00:53:24.10\]
+**Jingle:** \[53:06\] to \[53:24\]
 
 **Johnny Boursiquot:** So who's got some?
 
@@ -352,7 +352,7 @@ If it is the right thing for you, then I would love your feedback. If it isn't, 
 
 **Jerod Santo:** We're gonna put a poll out there, we'll see what the people say.
 
-**Johnny Boursiquot:** \[00:56:12.28\] Natalie, you stomped me, for sure.
+**Johnny Boursiquot:** \[56:12\] Natalie, you stomped me, for sure.
 
 **Natalie Pistunovich:** I'm sorry.
 

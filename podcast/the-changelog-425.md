@@ -38,7 +38,7 @@
 
 **Jerod Santo:** And I would say, one thing that seems to be the case is maybe podcasting, interviewing via these tools have become a little more normalized, because people are generally more available to just hop on a call and talk, and their microphone setups are better than they used to be...
 
-**Adam Stacoviak:** \[00:04:22.12\] That's true, yeah.
+**Adam Stacoviak:** \[04:22\] That's true, yeah.
 
 **Jerod Santo:** ...and their cameras are better than they used to be, and people are used to doing \[unintelligible 00:04:24.25\] and stuff like that... Kind of nice from that regard.
 
@@ -90,7 +90,7 @@ So we tend to go over some of the top episodes of the year, and then a few of ou
 
 Adam, this was your show; this was your baby. You set this one up, so tell us about it.
 
-**Adam Stacoviak:** \[00:08:08.27\] You know, I think I saw something from Jon around good tech debt, and I was like "I've gotta log this to News." So it began as a news post, and it more or less linking out like we do to News; what's out there that's good, that people are writing about. I linked that up, and I reached out to Jon and I was like "This is a good post. We should talk about this at length on the show."
+**Adam Stacoviak:** \[08:08\] You know, I think I saw something from Jon around good tech debt, and I was like "I've gotta log this to News." So it began as a news post, and it more or less linking out like we do to News; what's out there that's good, that people are writing about. I linked that up, and I reached out to Jon and I was like "This is a good post. We should talk about this at length on the show."
 
 And I didn't hear from him for a month maybe, or two. And then he responded to me, and I think we were really busy, and I didn't get a chance to respond to him right away. I think it might have been around March; who the heck knows what time this was... When was this post out there? Or this show, when was it out there?
 
@@ -154,7 +154,7 @@ Number two, Jessica Kerr, "The ONE thing every dev should know." This one was a 
 
 **Jerod Santo:** And it might even be a must-listen. But the ONE thing was like "You should know the system." You should know the system that you're working on, in a conceptual, understandable way... And not just be siloed -- or not siloed, but focused in on a particular aspect, without understanding what you're trying to build.
 
-\[00:12:06.15\] So this history of sort of the code monkey, grab a ticket, crank out the code... Right? Grab the next ticket, crank out the code - it's not a good way of going about software development... So every dev should know the system and what they're trying to build. I believe that's a summary of what she was saying there.
+\[12:06\] So this history of sort of the code monkey, grab a ticket, crank out the code... Right? Grab the next ticket, crank out the code - it's not a good way of going about software development... So every dev should know the system and what they're trying to build. I believe that's a summary of what she was saying there.
 
 **Adam Stacoviak:** I'll quote her. Here we go.
 
@@ -228,7 +228,7 @@ The less mystical mythos is the person who is ten times more productive than a t
 
 **Adam Stacoviak:** ...we do have transcripts. You should check them out, they're really awesome. But yeah, he taught the course for 20 years, and had essentially 20 years' worth of data, and the study used about 10 years of it.
 
-**Jerod Santo:** \[00:15:52.04\] And the findings from this were very interesting, because it wasn't that you won't find more or less production, according even to the exact goal set forth; it's that the variance of productive between one person on any given day, or task, is much larger than the variance between two people in the same circumstances.
+**Jerod Santo:** \[15:52\] And the findings from this were very interesting, because it wasn't that you won't find more or less production, according even to the exact goal set forth; it's that the variance of productive between one person on any given day, or task, is much larger than the variance between two people in the same circumstances.
 
 In other words, I might be 10x on Monday and 5x on Tuesday, and 3x on Wednesday, and back to 5x etc. And that productivity level varies greatly according to what they've found. But the one where I sustain this 10x speed over somebody else, in any demonstrable, repeatable fashion, seems to be a myth. That's what we discussed in that episode, and I thought it was very interesting.
 
@@ -278,7 +278,7 @@ This one resonated with folks more than we thought... I don't know, I thought it
 
 **Jerod Santo:** Right. So roughly an hour.
 
-**Adam Stacoviak:** \[00:20:04.05\] Yeah.
+**Adam Stacoviak:** \[20:04\] Yeah.
 
 **Jerod Santo:** Which is not -- I wouldn't call that shorter. I'd say it's in probably the shorter third of our episodes. We go 60 to 80 minutes generally for the Changelog... So number four, "What's so exciting about Postgres?"
 
@@ -342,7 +342,7 @@ Number five was "Meet Algo, your personal VPN in the cloud." This was an early s
 
 **Jerod Santo:** You can go through the list... Yeah, Expre--
 
-**Adam Stacoviak:** \[00:23:52.17\] But there's just so many. And I think from the consumer side, a non-techie consumer side, you think "Oh, it's just a service", and you sign up for it, and the next thing you know, all the data you're already trying to keep safe by using a VPN in the first place is not safe.
+**Adam Stacoviak:** \[23:52\] But there's just so many. And I think from the consumer side, a non-techie consumer side, you think "Oh, it's just a service", and you sign up for it, and the next thing you know, all the data you're already trying to keep safe by using a VPN in the first place is not safe.
 
 **Jerod Santo:** Right.
 
@@ -376,7 +376,7 @@ But yeah, I'm still running it. And I do have a video out there on YouTube, sett
 
 **Jerod Santo:** What's it gonna take to get you in a VPN today...?
 
-**Break:** \[00:27:24.10\]
+**Break:** \[27:24\]
 
 **Jerod Santo:** Okay, that's our top five popular episodes, according to listeners. Now it's time for some personal faves. Do you wanna get us started, crack one off?
 
@@ -408,7 +408,7 @@ I thought we'd go more into how they use Shape Up with building out HEY, but we 
 
 **Adam Stacoviak:** So I think it does take some boldness, as you said, to change the way email works, and to even attack that. But if there's a company who I could think that would think intentionally about that change, it would be Basecamp; it would be people like Jason, and David, and the team they have at Basecamp. That's what I felt was the most interesting, not just like "What architecture do you use?", but in a lot of ways, how do they attack such a widely used problem; everybody has email, everybody has opinions about email. And many people have particular workflows with email and how they do email.
 
-\[00:32:16.09\] Am I a HEY user? No, I'm not; but that's not because I don't like it. I can appreciate it and still not use it, but I think it was good to try and do, in many cases. I know a lot of people who use HEY. We have a lot of people in our email list that use HEY.
+\[32:16\] Am I a HEY user? No, I'm not; but that's not because I don't like it. I can appreciate it and still not use it, but I think it was good to try and do, in many cases. I know a lot of people who use HEY. We have a lot of people in our email list that use HEY.
 
 **Jerod Santo:** Absolutely. So a favorite for mine -- sorry, you weren't there, Adam. It was just me and Dave Kerr. Dave was in Singapore, I believe, so it was an early-morning show, which is different for us. I was having my morning coffee, I remember, and I spoke with Dave...
 
@@ -438,7 +438,7 @@ Yeah, I had a lot to say too, so we had a great chemistry... And it was a nice, 
 
 One cool thing I think in terms of coming back and having them on again is -- are the Hacker Laws something where they're expanding over time? Or are they sort of like locked in there? Or is it sort of like accumulated wisdom?
 
-**Jerod Santo:** \[00:35:57.29\] They are. It's accumulated wisdom, yeah. They are expanding; it's not like everytime they go back there's gonna be five more laws... But he is adding them over time. And one of the ones we talk about at the end - he was considering adding it or not... Because a lot of them move boundaries. They're not specifically necessarily about software development. Some can be a little bit more like the way that systems work, which can be used to explain things like economics etc.
+**Jerod Santo:** \[35:57\] They are. It's accumulated wisdom, yeah. They are expanding; it's not like everytime they go back there's gonna be five more laws... But he is adding them over time. And one of the ones we talk about at the end - he was considering adding it or not... Because a lot of them move boundaries. They're not specifically necessarily about software development. Some can be a little bit more like the way that systems work, which can be used to explain things like economics etc.
 
 There's one of the laws he brought up where it's like once a system of observation is known, it ceases to be a good system of observation. I can't remember which law that was. Maybe Gall's law? Kernighan's law? I don't know, there's a bunch of them, and I'm too far back to remember now. But something like that can be used to describe economic systems, relationship systems at the workplace...
 
@@ -484,7 +484,7 @@ So neither of those two that I went off the top of my head are the one that I'm 
 
 **Adam Stacoviak:** At least.
 
-**Jerod Santo:** \[00:39:57.00\] ...and we record the breaks, because you don't stop and start... And we're just kind of like -- we asked for permission, like "Can we just turn this chit-chat into a segment?" And he was all about it, because it was an interesting conversation for him as well... So yeah, that was fun.
+**Jerod Santo:** \[39:57\] ...and we record the breaks, because you don't stop and start... And we're just kind of like -- we asked for permission, like "Can we just turn this chit-chat into a segment?" And he was all about it, because it was an interesting conversation for him as well... So yeah, that was fun.
 
 **Adam Stacoviak:** So faves for me - "It's okay to make money from open source", because I think there's a lot of good stuff in that show, but just the title alone gives you permission. So many people out there in open source feel like you can't make money from open source, and I think that that episode in particular really just says you should, and there's nice ways and good ways you can actually profit from open source in ways that aren't a detriment to the community that it serves.
 
@@ -498,7 +498,7 @@ And finally, I think, the "Leading GitHub" episode we did - man...! With Jason W
 
 The last one I have for the list is Stephanie Morillo, "The developer's guide to content creation." I think this is a must-listen right here - I'm now learning the difference between the two - because not only did I enjoy talking with Stephanie, because she's awesome, but she does a really good job of providing guard rails, guide rails, and inspiration to let you know that as developers, we're all creating content, all the time. We are writing emails to people, we are writing documentation, we are giving talks and demos... And how we need to take that seriously and use it to our advantage. And she has a lot of actionable stuff...
 
-\[00:44:26.22\] In fact, a Changelog post came out of that - "Four sources for infinite content ideas", which is something that I think back at a lot when I'm thinking about how I can create some content; it's "Hm, where can I get that content? What can I do that's fresh and new?" and I refer back to her wisdom on that. So that one's called "The developer's guide to content creation" with Stephanie Morillo", and it's episode 382.
+\[44:26\] In fact, a Changelog post came out of that - "Four sources for infinite content ideas", which is something that I think back at a lot when I'm thinking about how I can create some content; it's "Hm, where can I get that content? What can I do that's fresh and new?" and I refer back to her wisdom on that. So that one's called "The developer's guide to content creation" with Stephanie Morillo", and it's episode 382.
 
 **Adam Stacoviak:** I highly recommend her newsletter as well. I don't know how I'd tell you to subscribe to it, except for maybe go to the podcast and link out from there... But you'll find it. You should definitely listen to it. Or read it, sorry; not listen. You can't listen to her newsletter, unless she speaks it. But hey, maybe she will, in the future; who knows.
 
@@ -556,7 +556,7 @@ So some people pay close attention, other people listen casually... Nothing wron
 
 **Adam Stacoviak:** That's right.
 
-**Jerod Santo:** \[00:48:00.17\] Am I missing any? Did I miss a podcast?
+**Jerod Santo:** \[48:00\] Am I missing any? Did I miss a podcast?
 
 **Adam Stacoviak:** No, that's it.
 
@@ -588,9 +588,9 @@ Because hey, what happens often is content will get stuck in a podcast. And we'v
 
 **Adam Stacoviak:** Naturally.
 
-**Jerod Santo:** \[00:52:02.23\] ...in a way that's coherent and natural. It's a skill, it's a talent. Yeah, when people say very interesting things on our shows, and that's buried in a 60 or 80-minute podcast episode, we like to get those things featured, and sometimes they stand on their own. So we've been with the actual person's -- so we didn't do this without Kelsey Hightower's permission or participation... Take the transcript, repurpose it into a blog post, make it readable... We rewrite parts of it just to make it more like a written piece and less like a stream of consciousness, and turn that into a Changelog post. And "Monoliths are the future", back in January, was an epic Changelog post by Kelsey Hightower.
+**Jerod Santo:** \[52:02\] ...in a way that's coherent and natural. It's a skill, it's a talent. Yeah, when people say very interesting things on our shows, and that's buried in a 60 or 80-minute podcast episode, we like to get those things featured, and sometimes they stand on their own. So we've been with the actual person's -- so we didn't do this without Kelsey Hightower's permission or participation... Take the transcript, repurpose it into a blog post, make it readable... We rewrite parts of it just to make it more like a written piece and less like a stream of consciousness, and turn that into a Changelog post. And "Monoliths are the future", back in January, was an epic Changelog post by Kelsey Hightower.
 
-**Break:** \[00:52:45.08\]
+**Break:** \[52:45\]
 
 **Adam Stacoviak:** It certainly gave us more fuel to our fire, because - like I said, with the time and the selectiveness, to see a way, I suppose, to put more effort... Since, as you mentioned, we're less known for posts and more known for podcasts. We obviously value written content...
 
@@ -622,7 +622,7 @@ So "Monoliths of the future" - we've talked about that one.
 
 Owen Bickford wrote a great post for us called "Slaying Changelog's compilation beast." This was kind of a multi-faceted story that came out of me livestreaming some of the coding we do on the platform... I was streaming with the Elixir, because that's what our platform is built with, and on my under-powered little laptop, which I can't wait to replace with an M1, or maybe M2...
 
-**Adam Stacoviak:** \[00:56:01.28\] M1X.
+**Adam Stacoviak:** \[56:01\] M1X.
 
 **Jerod Santo:** Rumors of the M2 have already -- yeah, rumors of faster Macs have already dropped like weeks after the M1s came out... I'm about ready to upgrade my coding machine. Anyways, what was happening was I would be doing some work, and it's a compiled language... And compilation times were just taking forever... It really killed my groove, and I would feel weird, because I'm on a livestream and I'm like filling dead air as the thing compiles... And Owen was watching the livestream on YouTube, feeling the pain right alongside me, and decided to take action.
 

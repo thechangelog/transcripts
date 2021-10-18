@@ -54,7 +54,7 @@ The first time we had you on was like 2017. A long time ago. 17 years of Curl. A
 
 **Daniel Stenberg:** Oh, yes...
 
-**Adam Stacoviak:** \[00:03:52.09\] Way different, right? The problem set, the internet itself, the needs for APIs, the needs for doing what Curl does as a tool has changed drastically, and so many more use cases have come into play.
+**Adam Stacoviak:** \[03:52\] Way different, right? The problem set, the internet itself, the needs for APIs, the needs for doing what Curl does as a tool has changed drastically, and so many more use cases have come into play.
 
 **Daniel Stenberg:** Yeah, and I think back in those days - of course, nobody really knew where it was going, or that HTTP would become this protocol that everyone would use for APIs, and REST, and everything. That was just a big unknown, so... It just happened.
 
@@ -114,7 +114,7 @@ I knew them from before, and then I decided that I would join wolfSSL, work with
 
 **Jerod Santo:** So there's this weird phenomenon that happens to people when their hobby becomes their job. Their passion project, their weekend warrior side gig that they love becomes their 9 to 5. And we see it all the time. Adam and I in a certain way have done that, like our hobby. Adam, this started as a hobby, right?
 
-**Adam Stacoviak:** \[00:08:19.11\] It sure did, yeah.
+**Adam Stacoviak:** \[08:19\] It sure did, yeah.
 
 **Jerod Santo:** And now you're podcasting professionally. And it's like "Now this is my job." And something that you just desired to work on and you wanted to do because you loved it, all of a sudden you have to do it, because that's how you make money. Has that changed your perspective on the work, Daniel?
 
@@ -164,7 +164,7 @@ It works really good around the clockwise too, since then I can do stuff in the 
 
 **Adam Stacoviak:** You know, this fantastic exit, or "By the way, Curl company just got announced" or something like that, where you've got -- I mean, I guess you do have professional support, and there probably is a company behind it, because that makes sense... But you're not saying "Well, I'm really trying to get to that VC dollars."
 
-**Daniel Stenberg:** \[00:12:07.13\] No. That would be a really weird way for me to --
+**Daniel Stenberg:** \[12:07\] No. That would be a really weird way for me to --
 
 **Jerod Santo:** \[unintelligible 00:12:08.29\] roundabout path... \[laughter\]
 
@@ -190,7 +190,7 @@ It works really good around the clockwise too, since then I can do stuff in the 
 
 **Daniel Stenberg:** I foresee a future where we can do this with more things. And in effect, that is replacing C with some other language. At the same time, I also think there's good value in it remaining C too, because by having a C library, it also provides the power of Curl and Libcurl to a really, really large community, and operating systems, and architectures and platforms out there that don't run Rust at all today.
 
-\[00:16:03.11\] So I also think there's still a -- and you know, having a solid and proven and tested C library is also valuable for all those platforms; they can't switch to Rust anyway, so they would go between using my library, that I claim is fairly well-tested and reasonably secure, compared to using something else that might not be.
+\[16:03\] So I also think there's still a -- and you know, having a solid and proven and tested C library is also valuable for all those platforms; they can't switch to Rust anyway, so they would go between using my library, that I claim is fairly well-tested and reasonably secure, compared to using something else that might not be.
 
 **Jerod Santo:** It's worth noting that when you say "It runs in a lot of places", you're not exaggerating. I mean, it runs on an unfathomable number of devices, right?
 
@@ -248,7 +248,7 @@ It works really good around the clockwise too, since then I can do stuff in the 
 
 **Daniel Stenberg:** But sure, I think we will go there at one point or another, but I think it's going to be a rather slow transition.
 
-**Jerod Santo:** \[00:20:00.18\] Another thing that maybe has been a slow transition - maybe not so slow - is new HTTP protocols. I know we've talked about QUIC with you last time you were on the show... Tell us about the state of the art; where are things? I know you're right on the bleeding edge; you often are testing things in curl right alongside specs getting drafted, and really making sure these things are usable in code as they get worked out... So what's the state of the art with HTTP?
+**Jerod Santo:** \[20:00\] Another thing that maybe has been a slow transition - maybe not so slow - is new HTTP protocols. I know we've talked about QUIC with you last time you were on the show... Tell us about the state of the art; where are things? I know you're right on the bleeding edge; you often are testing things in curl right alongside specs getting drafted, and really making sure these things are usable in code as they get worked out... So what's the state of the art with HTTP?
 
 **Daniel Stenberg:** Right. I like to have it be on par with the new developments, so that we can use Curl a little bit as a tool to try out new protocol stuff, and at the same time that people that are developing the new servers of these protocols can also use Curl to try out the service. So HTTP/3 is coming -- I've said that for a very long time. I've done a lot of presentations about HTTP/3, and I guess that's the slide I've changed the most times... Like, "When is it coming?" "Soon", I say, but pretty much all the time --
 
@@ -286,7 +286,7 @@ Then there's another work going on with refreshing HTTP in general, and getting 
 
 **Daniel Stenberg:** It is certainly possible to get better, and I mean better as in lower latency and higher performance for at least a good chunk of all the use cases. But it's a different infrastructure now, since it's built on UDP, and there's a completely different way to use TLS... So all the TLS libraries are going to have to provide new APIs, and OpenSSL is way behind on that... And we all know that OpenSSL is the number one TLS library in the world, and as long as they don't support it, it'll be a slowing down factor for deploying and adopting QUIC.
 
-**Jerod Santo:** \[00:24:03.20\] So as a lowly application developer who just wants to get his JavaScript under your machine, I was very excited by the promise of HTTP/2, and that you don't have to bundle anymore; you don't have to put everything all in one file etc. Just send those little files... And that didn't seem like it played out in practice to deliver as much of a win as we were hoping it would with H/2...
+**Jerod Santo:** \[24:03\] So as a lowly application developer who just wants to get his JavaScript under your machine, I was very excited by the promise of HTTP/2, and that you don't have to bundle anymore; you don't have to put everything all in one file etc. Just send those little files... And that didn't seem like it played out in practice to deliver as much of a win as we were hoping it would with H/2...
 
 **Daniel Stenberg:** Exactly.
 
@@ -330,7 +330,7 @@ Then there's another work going on with refreshing HTTP in general, and getting 
 
 **Daniel Stenberg:** Right. But for me as a person involved with Curl, it doesn't really matter to me... Because I'm going to support my users 3G, 4G, 5G, connected, Wi-Fi... It doesn't matter. Because all my users - and there are plenty - they use whatever they can to do things over the network. So they might do more things, faster things, lower-latency things in the next year, two years, three years, but they're already using Curl and they're going to use more Curl going forward. So I'm going to just keep making sure that people can do internet transfers, and I'm going to pay attention to what network developments happen, or protocols, how they're changing.
 
-\[00:28:10.03\] So I don't see any particular change in anything for me or what's going on. And for me personally, I don't really try to predict the future long in advance; I'm just looking at what we're doing right now and trying to see what should I work on the next few months, really.
+\[28:10\] So I don't see any particular change in anything for me or what's going on. And for me personally, I don't really try to predict the future long in advance; I'm just looking at what we're doing right now and trying to see what should I work on the next few months, really.
 
 **Jerod Santo:** So from Curl's present-day perspective, H/3 has been a pain in the butt, I'm guessing.
 
@@ -338,7 +338,7 @@ Then there's another work going on with refreshing HTTP in general, and getting 
 
 So it's there and you can start fiddling with it, but for me - I'm playing with it just a little bit on the side and seeing how things go. And since there are so many beta versions and unstable releases of everything to use to just build this... So a lot of moving parts still; it needs to get stable first.
 
-**Break:** \[00:29:22.26\]
+**Break:** \[29:22\]
 
 **Jerod Santo:** So as Adam said at the top, your Twitter followers provided a whole bunch of awesome questions, things they can't wait to hear from you... So we're happy to make them happy. And we had this one note that says "The Spotify and Instagram hacking ring story." I don't know what that is, but I'm excited to hear what's going on there. Tell us.
 
@@ -380,7 +380,7 @@ So it's there and you can start fiddling with it, but for me - I'm playing with 
 
 **Daniel Stenberg:** "You've been lying to me the whole time", she said. "Because look, you did hack my phone." And then another screen capture, Spotify. There was my name, too.
 
-**Jerod Santo:** \[00:31:58.29\] Oh, no...!
+**Jerod Santo:** \[31:58\] Oh, no...!
 
 **Daniel Stenberg:** \[laughter\] So apparently she had discovered me completely, because my name was in both Instagram and Spotify, so obviously I had hacked her phone. And my secret Instagram and Spotify hacking ring - unless I helped her, she was going to reveal this to these big companies.
 
@@ -440,7 +440,7 @@ So it's there and you can start fiddling with it, but for me - I'm playing with 
 
 **Jerod Santo:** Less concerned, or more concerned?
 
-**Daniel Stenberg:** \[00:36:07.22\] Less concerned actually, because it then appeared more just deeply confused and rambling about whatever... And then I didn't really feel as threatened as--
+**Daniel Stenberg:** \[36:07\] Less concerned actually, because it then appeared more just deeply confused and rambling about whatever... And then I didn't really feel as threatened as--
 
 **Jerod Santo:** Initially.
 
@@ -496,7 +496,7 @@ So it's there and you can start fiddling with it, but for me - I'm playing with 
 
 **Jerod Santo:** Yeah, so no. That does bring us to something that you can control a little bit more, but I bet it does have some weight on your shoulders, which is that there are vulnerabilities over time, and there are security disclosures, and there are serious things that are either in Curl's codebase, or inside of your purview... How do you handle security exploits, vulnerabilities? Surely, there's incidents that come to your desk and you have to issue a patch... What does that look like in your life?
 
-**Daniel Stenberg:** \[00:39:55.08\] That's a good question. Of course, we have our fair share of security vulnerabilities. In two days we're going to do another Curl release, and I'm going to announce two more vulnerabilities. Usually, we do it like this - we have a bug bounty these days, so we reward security researchers, or anyone actually who reports a security vulnerability in Curl, that is confirmed a security vulnerability.
+**Daniel Stenberg:** \[39:55\] That's a good question. Of course, we have our fair share of security vulnerabilities. In two days we're going to do another Curl release, and I'm going to announce two more vulnerabilities. Usually, we do it like this - we have a bug bounty these days, so we reward security researchers, or anyone actually who reports a security vulnerability in Curl, that is confirmed a security vulnerability.
 
 I think that's fine and good, because nowadays we can use sponsor money to pay researchers off -- or not off, but we reward them. So we get a fair share of reports on suspected vulnerabilities, and very few of them actually are confirmed in the end... But sure, eventually they are, and we make sure that we work with the reporters, we make a fix, and we announce that problem, and with the fix, and everything, and coordinate it with a release, when we release a new version with that problem fixed.
 
@@ -520,7 +520,7 @@ With this release coming Wednesday this week, we've handed out more than $5,000 
 
 **Adam Stacoviak:** Yeah.
 
-**Daniel Stenberg:** \[00:43:57.03\] So I'm trying to stay focused on -- I communicate with people on the mailing list, and on the issues and pull requests, so I have a very small... I stay within my little community, and if people wanna affect me, and when I change that, they come to the Curl community and we talk about it. Then pretty much everyone has an equal voice and an equal vote for whatever we do.
+**Daniel Stenberg:** \[43:57\] So I'm trying to stay focused on -- I communicate with people on the mailing list, and on the issues and pull requests, so I have a very small... I stay within my little community, and if people wanna affect me, and when I change that, they come to the Curl community and we talk about it. Then pretty much everyone has an equal voice and an equal vote for whatever we do.
 
 Of course, if someone actually pays me for like Curl support or whatever, help them out or something, that of course will have a higher priority, because then I would work on whoever pays me to do something... Which, of course, that would also most potentially go back into the project.
 
@@ -578,7 +578,7 @@ Of course, if someone actually pays me for like Curl support or whatever, help t
 
 **Jerod Santo:** It could be also a function of the tool, what it does. If you think about a Swiss Army knife - I mean, some people just use a nail file, other people use the scissors, and then somebody uses the knife and they accidentally cut themselves and they come and tell you the knife needs to be sharpened, or whatever... I mean, I know for me I have never interacted with Daniel on his mailing list, or his issue tracker, or any aspect of his project, besides I "man curl" is about as far as I get, or I google "Curl, how to do this thing" again, for the hundredth time. Mostly I just use curl -i, because I like to see the headers. That's my biggest use case, curl -i, or just curl and then redirect the output to a file, so I can inspect the file...
 
-\[00:48:14.08\] So I'm just using the nail file... So for a lot of people, Curl just works, because it's very powerful, but it can do very simple things. And a lot of us just use it to do -- I mean, sometimes I'll open up DevTools, and you can do the Copy to Curl... And that's really cool. But I see what that copies, and I'm like "Holy cow, there's lots of junk you can \[unintelligible 00:48:33.18\] into Curl." But I've never ever used any of that junk.
+\[48:14\] So I'm just using the nail file... So for a lot of people, Curl just works, because it's very powerful, but it can do very simple things. And a lot of us just use it to do -- I mean, sometimes I'll open up DevTools, and you can do the Copy to Curl... And that's really cool. But I see what that copies, and I'm like "Holy cow, there's lots of junk you can \[unintelligible 00:48:33.18\] into Curl." But I've never ever used any of that junk.
 
 Now, there's power users who do, and you're probably having them on your mailing list, or in your issues, and they are maybe driving some of the project in that way. But lots of us, even if I'm not just using it on my iPhone, completely unaware, as most of your users are - I'm actually a person who types Curl onto my command line - I'm still not the person who's giving you the feedback... And there are probably thousands, if not hundreds of thousands of people like me, just happily using Curl from their command line to download a file, or check some headers, and that's about it.
 
@@ -608,13 +608,13 @@ So I think it works out really good, to just ask people, see what others are doi
 
 **Daniel Stenberg:** I try to... Which, of course, is also hard if nobody's speaking... Because that's also a problem we have sometimes. "I wanna make this. Should I do it this way or that way?" and then I ask maybe on the mailing list and there's crickets. And then I'm just "Hm... Maybe I'll take that way."
 
-**Adam Stacoviak:** \[00:52:08.20\] Yeah. What do you think is the most viable channel you have then, in terms of inbound information to you in terms of like a response from the community saying "This is the direction I'm taking it" or "This is the direction it should go." "I'm taking it" meaning the user using it, and how I use it, or the usefulness of it, or the downsides of it. What's the most viable channel you have, do you think, that you get that feedback loop?
+**Adam Stacoviak:** \[52:08\] Yeah. What do you think is the most viable channel you have then, in terms of inbound information to you in terms of like a response from the community saying "This is the direction I'm taking it" or "This is the direction it should go." "I'm taking it" meaning the user using it, and how I use it, or the usefulness of it, or the downsides of it. What's the most viable channel you have, do you think, that you get that feedback loop?
 
 **Daniel Stenberg:** I think I have different channels to get different kind of users. Definitely, if I wanna do technical things or protocol-y things, that's the Libcurl mailing list. That's where we do all that sort of core architecture design stuff. If I wanna actually know how Curl command line users are actually thinking, then it's usually better to just ask on Twitter or somewhere where people have not opted in... Because even the Curl users mailing list, where people are actually using the command line tool - that's also a very self-selected bunch of people that usually had a problem when they arrived the first time.
 
 **Jerod Santo:** Right.
 
-**Daniel Stenberg:** It depends... I try them all, really, and see what I can get. Also, since a few years back, I try to do things nowadays as experimental features. So I land them in Curl and mark them as Experimental, so I disable them by default, to sort of try out the \[00:53:33.08\] before I unmark them as experimental and ship them for real in code... So just make sure that this is maybe what people actually want, and how it works, that people actually appreciate... I'm not sure if it actually makes any difference, but it makes me less reluctant to ship something in code, because now it's at least not carved in stone immediately, day one.
+**Daniel Stenberg:** It depends... I try them all, really, and see what I can get. Also, since a few years back, I try to do things nowadays as experimental features. So I land them in Curl and mark them as Experimental, so I disable them by default, to sort of try out the \[53:33\] before I unmark them as experimental and ship them for real in code... So just make sure that this is maybe what people actually want, and how it works, that people actually appreciate... I'm not sure if it actually makes any difference, but it makes me less reluctant to ship something in code, because now it's at least not carved in stone immediately, day one.
 
 **Adam Stacoviak:** Right. It can be changed... It's sort of like a beta within a product.
 
@@ -648,13 +648,13 @@ So I think it works out really good, to just ask people, see what others are doi
 
 **Daniel Stenberg:** That's true. Well, both, actually. I try to do an annual survey, just among users really, where I try to get as many Curl users as possible to respond to and answer... That gives me feedback on what people use, and what they want next, and what they think about things in Curl. So that's actually a pretty good way to get an overview of where people -- especially what people use in terms of "What protocols are you using with Curl?" and stuff like that.
 
-\[00:55:57.16\] And then we also have an annual Curl developers meetup, which is also a good way to talk to people physically. Not physically these days, but at least talk to people live and see where other Curl developers wanna go, and what they think.
+\[55:57\] And then we also have an annual Curl developers meetup, which is also a good way to talk to people physically. Not physically these days, but at least talk to people live and see where other Curl developers wanna go, and what they think.
 
 **Jerod Santo:** And that's proven to be well worth your time and effort to put that together?
 
 **Daniel Stenberg:** Yeah, both of them are excellent ways to get feedback, and I think they also work really good as an inspirational source. When you read and learn where people are, and where they wanna go with Curl, I think that's a good inspiration, and it keeps me motivated. Often, they help to bring out new ideas of how to do things, or what to do going forward.
 
-**Break:** \[00:56:41.13\]
+**Break:** \[56:41\]
 
 **Jerod Santo:** So we'd now like to learn a few things from the Curl master himself - tips and tricks, things you may or may not know about Curl, probably Adam and I will not know about Curl, that Daniel does know about Curl. Lay some on us. Help us improve our Curl-Fu.
 

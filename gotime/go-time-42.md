@@ -28,7 +28,7 @@ I'll be speaking at GopherCon this year, which I'm super excited about... And I 
 
 **Kavya Joshi:** Yeah, I thought it was really cool how something that I only mostly read about in the context of distributed systems was implemented in this tool. The relation is obvious, right? Because you're talking about concurrency... But the translation of ideas was quite cool. I thought it was pretty neat.
 
-**Erik St. Martin:** \[00:04:07.20\] Funny story about the race detector - I think it was at the second [GopherCon](https://www.gophercon.com/)... One of the speakers, Blake Caldwell was at the speaker dinner and he was raving about how awesome the race detector was, and the person next to him, who happened to be [Dmitry](https://twitter.com/dvyukov), turns to him and he's like "Thank you!" \[laughter\] He didn't realize, in all this hype about the race detector, he was sitting next to the person who wrote it.
+**Erik St. Martin:** \[04:07\] Funny story about the race detector - I think it was at the second [GopherCon](https://www.gophercon.com/)... One of the speakers, Blake Caldwell was at the speaker dinner and he was raving about how awesome the race detector was, and the person next to him, who happened to be [Dmitry](https://twitter.com/dvyukov), turns to him and he's like "Thank you!" \[laughter\] He didn't realize, in all this hype about the race detector, he was sitting next to the person who wrote it.
 
 **Kavya Joshi:** Oh yeah... Dmitry has done a lot of cool stuff. Some of the other tools he's come up, like [Go Fuzz](https://github.com/dvyukov/go-fuzz), seems neat, all the work on the scheduler... All very interesting.
 
@@ -62,7 +62,7 @@ I'll be speaking at GopherCon this year, which I'm super excited about... And I 
 
 I think in taking something that's deeply technical and making that approachable and accessible -- first of all, it's interesting because it's sort of a challenge. It's like "I have all this background knowledge, but I'm going to try to explain it to somebody who might not necessarily have that background knowledge. They have knowledge in other areas and other topics, but not necessarily the knowledge that's relevant to what I want to talk about. How do I make it accessible to them?" And that's an interesting communications challenge.
 
-\[00:08:05.26\] I think the second thing about that is presenting a technical idea in an accessible manner I think only results in betterness, and better systems, and producing more interesting conversations, and sharing knowledge in a way that is accessible.
+\[08:05\] I think the second thing about that is presenting a technical idea in an accessible manner I think only results in betterness, and better systems, and producing more interesting conversations, and sharing knowledge in a way that is accessible.
 
 Here is a concrete example. [Julia Evans](https://twitter.com/b0rk) does a great job of explaining how to use system tools like `strace` or `netcat`, and she does a really good job of taking away the barrier to using those tools. Similarly, I have a friend who really likes performance engineering, and talks about profiling and tracing with me and the rest of his friends. I think in sharing that knowledge in a way that's accessible to all of us, it results in better systems being produced, more interesting conversations... Overall goodness, all around.
 
@@ -80,7 +80,7 @@ It's almost like if you start at a new company and you're not familiar with the 
 
 **Kavya Joshi:** Yeah, and I think that's a great analogy. Your target audience - they aren't necessarily beginners, or they aren't necessarily people without computer science backgrounds... It's just that they don't have the background knowledge that you do, because of all the time you've spent prepping for the talk, or just your general interest in the subject. They don't have that background knowledge, so I think it's just being aware of your target audience, the fact that they just might not have spent as much time geeking out on a subject as you have.
 
-**Carlisia Thompson:** \[00:12:03.13\] I thought it was a worthwhile question to ask you, this question of like if you have any tips to share about how to prepare content, because I saw your talk at StrangeLoop a long time ago, and it was excellently done.
+**Carlisia Thompson:** \[12:03\] I thought it was a worthwhile question to ask you, this question of like if you have any tips to share about how to prepare content, because I saw your talk at StrangeLoop a long time ago, and it was excellently done.
 
 **Kavya Joshi:** Thank you.
 
@@ -102,7 +102,7 @@ So for somebody who basically doesn't typically program in a multithreaded envir
 
 **Kavya Joshi:** I think the Go Docs do a great job... There's the walkthrough tutorial which explains the basic concepts pretty well. But then I think the best way to learn is to read a lot of code and write a lot of code. There's several open source Go projects... If you go and walk through the code, probably bust out your favorite debugger, or just write a lot of simple -- even if you start with a simple example, to just play around with "What happens if I spawn one goroutine? What happens if I spawn two goroutines? What if I use a channel in this way? What if I use a channel in that way?" Basically, by getting really hands-on into writing code and reading code.
 
-**Erik St. Martin:** \[00:16:07.15\] I'm trying to think, who wrote the Go Concurrency Visualization tool?
+**Erik St. Martin:** \[16:07\] I'm trying to think, who wrote the Go Concurrency Visualization tool?
 
 **Kavya Joshi:** Oh, that's really cool!
 
@@ -150,7 +150,7 @@ We use an [errors package](https://github.com/pkg/errors), so the package is pop
 
 Testing - I wish we did a better job at testing, or could... Just in general, we're having good testing practices, but at a system of our scale, unless you start with a good testing story from the beginning, it's hard to come in and get that rolling. We're getting there slowly, but I feel like on the testing side we could do a better job.
 
-**Carlisia Thompson:** \[00:20:07.18\] Let me just mention that the article is on oreilly.com, and it's called [How To Ship Production-grade Go](https://www.oreilly.com/ideas/how-to-ship-production-grade-go). Definitely a worthwhile read. And I'm sorry, I didn't mean to put your company on the spot, but when I was reading this, I was thinking "This is really cool... How do you go about maybe introducing these at your company, if you're already not following these guidelines, or any other kind of guidelines for Go development?"
+**Carlisia Thompson:** \[20:07\] Let me just mention that the article is on oreilly.com, and it's called [How To Ship Production-grade Go](https://www.oreilly.com/ideas/how-to-ship-production-grade-go). Definitely a worthwhile read. And I'm sorry, I didn't mean to put your company on the spot, but when I was reading this, I was thinking "This is really cool... How do you go about maybe introducing these at your company, if you're already not following these guidelines, or any other kind of guidelines for Go development?"
 
 **Kavya Joshi:** Yeah. No, that's a good question. What about y'all? Do you have any good tips for other ways to make Go production-grade?
 
@@ -188,13 +188,13 @@ Basically, that approach of saying "Hey, I may not have all the answers right aw
 
 **Erik St. Martin:** There's a resource type that is secrets, and you can manage things. Basically, there's almost like a manifest file that you use to deploy your containers or pods of containers out, and you can map in those secrets as either a file - so anything running in the container sees it as a file - or as an environment variable.
 
-\[00:23:58.17\] So your program can just assume that a file exists on a hard drive, or that an environment variable exists and doesn't need to know or care how it gets there, which is really great because the QA environment can have its own keys, production can have its own keys, the application doesn't change, and then for testing even locally, you just set your environment variables, and done deal.
+\[23:58\] So your program can just assume that a file exists on a hard drive, or that an environment variable exists and doesn't need to know or care how it gets there, which is really great because the QA environment can have its own keys, production can have its own keys, the application doesn't change, and then for testing even locally, you just set your environment variables, and done deal.
 
 **Kavya Joshi:** Yeah, that sounds useful.
 
 **Erik St. Martin:** And I just realized we are running late for our first sponsored break. Let's go ahead and take our first sponsored break. Our first sponsor for today is Backtrace.
 
-**Break:** \[00:24:33.08\]
+**Break:** \[24:33\]
 
 **Erik St. Martin:** We are back, talking to Kavya. We were just talking about Kubernetes... We were just running a little late, so we had to cut that one short. Did you have any other questions about Kubernetes? Is that something your team is eyeballing?
 
@@ -208,7 +208,7 @@ Basically, that approach of saying "Hey, I may not have all the answers right aw
 
 That allows us basically not to have to pass keys around, in the nude, so to speak, and basically just keep it encrypted until it's actually retrieved and decrypted in the environment that it's needed. That's worked out for us quite well.
 
-\[00:28:00.20\] Going back to what we mentioned about Kubernetes... I read about Kubernetes and I'm like, "Man, they're doing some really cool stuff" and I'm like "Okay, we're still tied into AWS right now...", and trying to bring in Kubernetes and redo everything we've done - it's cool, but it's just too costly for us.
+\[28:00\] Going back to what we mentioned about Kubernetes... I read about Kubernetes and I'm like, "Man, they're doing some really cool stuff" and I'm like "Okay, we're still tied into AWS right now...", and trying to bring in Kubernetes and redo everything we've done - it's cool, but it's just too costly for us.
 
 **Erik St. Martin:** I need to look at how that works, because I'm interested whether Amazon has some of the newer concepts of Kubernetes, like deployments or cluster federation. Deployments would be -- so you have these primitives, like a replica set... So you have a pod, which is a group of containers that move together, and then you have a replica set that says "I need n number of these pods running within the cluster", and then you have a service that you basically expose that works basically as a load balancer between those things. So a deployment you can set up on these resources that need to be deployed, and it will basically deploy a new replica set with a new version of your containers in it, and then slowly increment account on that, but decrement account on the old one for you, and just kind of service this rolling update. I don't know whether Amazon - their container orchestration platform offers things like this.
 
@@ -222,7 +222,7 @@ Let's take a simple example. If I need at a minimum two of this particular conta
 
 **Johnny Boursiquot:** Yeah, we ended up having to, in the beginning, roll our own internal load balancer. We had one service whose job was to route traffic to the different services that it was aware of. We kind of had our own service discovery behind the scenes, and internally we had an internal load balancer that basically all the requests went through. That service discovery component would then route the traffic to different services in the boxes that it was aware of.
 
-\[00:32:05.09\] AWS has what they're calling the ALB (application load balancer), which is different from their classic elastic load balancer. The ALB has a capability to route the traffic to the different services that it is aware of within your cluster. I haven't played around too much with that, but it does sound like it helps with that aspect of it... Although service discovery is one of those things where there's different ways to do it, and I really like HashiCorp's -- they have a component that actually does that quite well... I'm blanking on the name of it right now, but they have one. [Linkerd](https://github.com/linkerd/linkerd) is another very good one as well.
+\[32:05\] AWS has what they're calling the ALB (application load balancer), which is different from their classic elastic load balancer. The ALB has a capability to route the traffic to the different services that it is aware of within your cluster. I haven't played around too much with that, but it does sound like it helps with that aspect of it... Although service discovery is one of those things where there's different ways to do it, and I really like HashiCorp's -- they have a component that actually does that quite well... I'm blanking on the name of it right now, but they have one. [Linkerd](https://github.com/linkerd/linkerd) is another very good one as well.
 
 So there's lots of options out there, but obviously you find the one that works in your environment.
 
@@ -246,7 +246,7 @@ It's easy to just say, "Hey, I want the same exact stack in a different availabi
 
 **Kavya Joshi:** Yeah. So Terraform works with - or you can use it with - things like Chef and Puppet for the provisioning stuff. What Terraform does really well is just specifying the infrastructure, the instances, the load balancers, whatever you want, to provide that specification.
 
-\[00:36:00.17\] How we tend to use it is we do the provisioning off instances to actually like installing software and all of that separately, but we use Terraform just to bring up the new infrastructure.
+\[36:00\] How we tend to use it is we do the provisioning off instances to actually like installing software and all of that separately, but we use Terraform just to bring up the new infrastructure.
 
 **Johnny Boursiquot:** Yeah, that's very different from -- you wouldn't use that as part of your typical development workflow. It's not like your typical CI/CD pipeline. This is more like for standing up your infrastructure that first time, or if you need to reproduce it again at a later date, or if you need to modify it even. A lot of times you start out with, "Hey, I know I want a dozen of these EC2 instance classes that have this resource configuration for memory and CPU etc.", and then you realize "Oh, I don't need as much as I thought before" or "I need more."
 
@@ -266,7 +266,7 @@ I started at this company as like a backend assistant, some infrastructure, and 
 
 **Kavya Joshi:** Well, again, with the caveat that I haven't written much, I've only tinkered a little bit, I think the tradeoffs are somewhat fascinating. The firmware team has to think about power consumption, which is not something as like a backend or traditional software programmer you ever have to think about, right? It's like, you need to spin up another instance, you need more memory, you need more CPU - just spin it up.
 
-\[00:40:18.02\] Obviously, you optimize your code and all of that, but it's very easy; you're not dealing with hard constraints... Whereas when you're talking about firmware programming, or programming on a device, those are all very real and very hard constraints, and a new constraint that you don't even have to think about is power consumption, whereas as a firmware programmer you're like "Oh, in sleep mode this is how much power my code is drawing. When it's not sleeping, this is how much power it's drawing."
+\[40:18\] Obviously, you optimize your code and all of that, but it's very easy; you're not dealing with hard constraints... Whereas when you're talking about firmware programming, or programming on a device, those are all very real and very hard constraints, and a new constraint that you don't even have to think about is power consumption, whereas as a firmware programmer you're like "Oh, in sleep mode this is how much power my code is drawing. When it's not sleeping, this is how much power it's drawing."
 
 The set of constraints you're dealing with is very different, and I think that's what makes it interesting.
 
@@ -292,9 +292,9 @@ The set of constraints you're dealing with is very different, and I think that's
 
 **Johnny Boursiquot:** Boot VM, if you can! That's it. \[laughter\] I'm interested to understand... In the hardware world, do you have some sort of assurance that if you get it to work on the hardware when you're "developing", it'll sort of work every time consistently that same way? Do you have any such sort of guarantee, as opposed to the software world?
 
-**Erik St. Martin:** \[00:44:18.01\] Yeah, so I can probably take this question... I think we should probably take our next sponsored break first, and then I'll come in with this, just because this might be a little bit more. So our second sponsor for today is DataDog.
+**Erik St. Martin:** \[44:18\] Yeah, so I can probably take this question... I think we should probably take our next sponsored break first, and then I'll come in with this, just because this might be a little bit more. So our second sponsor for today is DataDog.
 
-**Break:** \[00:44:34.03\]
+**Break:** \[44:34\]
 
 **Erik St. Martin:** So we are back. Before the break, Johnny, you had asked -- you're talking more like a testing scenario?
 
@@ -312,7 +312,7 @@ It's an interesting world... I don't develop firmware. I know an EE (Electrical 
 
 **Kavya Joshi:** Yeah!
 
-**Erik St. Martin:** \[00:48:15.00\] I'm always torn, because a part of me wants to take just like a single board computer, or like an Intel Edison and put Linux and Go on it, but a part of me really loves the Assembly and the C, and learning the guts of it... I've got some dev boards that are literally just like an ARM processor and some RAM. I just got one today. I actually thought UPS was going to show up while we were on the podcast... It has like a 4.3-inch touchscreen on the back of it, and a decent amount of RAM, a pretty fast Cortex microcontroller, and I'm dying to write some code for that. \[laughter\] But that's all gonna be C or C++.
+**Erik St. Martin:** \[48:15\] I'm always torn, because a part of me wants to take just like a single board computer, or like an Intel Edison and put Linux and Go on it, but a part of me really loves the Assembly and the C, and learning the guts of it... I've got some dev boards that are literally just like an ARM processor and some RAM. I just got one today. I actually thought UPS was going to show up while we were on the podcast... It has like a 4.3-inch touchscreen on the back of it, and a decent amount of RAM, a pretty fast Cortex microcontroller, and I'm dying to write some code for that. \[laughter\] But that's all gonna be C or C++.
 
 **Johnny Boursiquot:** Do you think that working on systems with so little resources - compared to the really powerful servers that we're deploying stuff on in the cloud - teaches you to write code that is more performant, that is more conservative with resource utilization?
 
@@ -326,7 +326,7 @@ If you wrote a program so big it fills up your server's hard drive, you're fired
 
 One thing I will say learning about hardware - if you're not trying to actually design the electrical circuit, if you're just trying to build a gadget with Arduino and stuff, it's far more approachable than I thought it was... And especially, a lot of the chips speak really common serial interfaces - you have SPI, I2C and UART. And usually all of your chips - your Wi-Fi chip and your main microcontroller will just talk over one of those serial connections, or your flash, or your RAM will just communicate over that, which makes it really cool to reverse-engineer hardware that you have around your house... Like, "Oh, there's the microcontroller and there's the flash... What kind of data is it storing around there?" \[laughter\]
 
-\[00:51:57.12\] You can get a lot of chips and wire them together. A lot of times there's -- Adafruit and SparkFun are probably my favorite places, because you can just order little breakout boards and then you only have to wire up the power and the serial lines and you're good. You don't have to worry about all the capacitors and supporting circuitry that are part of that circuit.
+\[51:57\] You can get a lot of chips and wire them together. A lot of times there's -- Adafruit and SparkFun are probably my favorite places, because you can just order little breakout boards and then you only have to wire up the power and the serial lines and you're good. You don't have to worry about all the capacitors and supporting circuitry that are part of that circuit.
 
 Carlisia, did you get to work with hardware at all, or you just mainly wrote firmware?
 
@@ -352,7 +352,7 @@ In the reverse-engineering hardware world there's a thing called "glitching" - y
 
 **Erik St. Martin:** Yeah, it always starts with something silly, and sometimes that's just a matter of finding a sensor... One of the first things I ever did was -- this was before Arduino got really big... There was a company called NerdKits, and a couple of people at work had bought one. Basically, if you picture the barebones components that are on an Arduino board - just an AVR microcontroller, the crystal resistors and an LED... They basically just sent you this stuff in a breadboard, and a long PDF of how to assemble this thing and run it.
 
-\[00:56:04.00\] That's kind of where I started out, and one of my projects was somebody had sent me a gas sensor that supposedly was able to detect also alcohol... I was like "I'm gonna build a breathalyzer." \[laughter\] I don't know why, but I just found it cool at the time.
+\[56:04\] That's kind of where I started out, and one of my projects was somebody had sent me a gas sensor that supposedly was able to detect also alcohol... I was like "I'm gonna build a breathalyzer." \[laughter\] I don't know why, but I just found it cool at the time.
 
 I'll go through Adafruit or SparkFun or something and just look through stuff, and be like "Oh, that's cool... I'm gonna get an LED Matrix. I encourage anybody who hasn't played with hardware just to even start with like a basic Arduino board, and find a shield to go with it. You start realizing it's not as unapproachable as you think it is... Except there's only a couple of common serial protocols that those chips are usually communicating with.
 

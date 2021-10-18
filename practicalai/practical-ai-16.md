@@ -14,7 +14,7 @@
 
 I've done a couple of conference keynotes in recent days and I've been hobbling around on my cast, so I'm sure I looked quite comical as I walked up to the podium. Anyway, on to the show today... Daniel, do you wanna start us off?
 
-**Daniel Whitenack:** \[00:03:59.20\] Yeah, sure. It has been a while since we've had this sort of conversation. We're gonna do another news and updates show for you guys. There's been a ton of news in the AI community over the past few weeks, so we're gonna dive into some of that and discuss it, and let you know about some of the things that were on our radar over the last 3-4 weeks... And also, we're gonna share with you a couple of new learning resources. If you're trying to level up your AI game, or maybe you're just getting into the community and want to start experimenting, we're gonna point you to a couple of those resources later in the show, so stick around for that.
+**Daniel Whitenack:** \[03:59\] Yeah, sure. It has been a while since we've had this sort of conversation. We're gonna do another news and updates show for you guys. There's been a ton of news in the AI community over the past few weeks, so we're gonna dive into some of that and discuss it, and let you know about some of the things that were on our radar over the last 3-4 weeks... And also, we're gonna share with you a couple of new learning resources. If you're trying to level up your AI game, or maybe you're just getting into the community and want to start experimenting, we're gonna point you to a couple of those resources later in the show, so stick around for that.
 
 But to start us out, I'd love to just start by some big news in the community over the last few weeks, which has been around PyTorch version 1.0. In my understanding, at least at the time of this recording, PyTorch 1.0 is in its preview or release candidate stage. Maybe by the time it releases it'll actually have the full release cut... But first off, we just wanna congratulate the PyTorch team; that's a huge accomplishment, getting to version 1.0.
 
@@ -32,7 +32,7 @@ PyTorch is now becoming just a powerhouse, not only in Academia, but for corpora
 
 **Daniel Whitenack:** Yeah, I think you've hit the nail on the head with that. I really see in the blog posts that I've read about PyTorch version 1.0 - it does seem like a lot of the emphasis is on "production" or system integration, scaling out sort of things. Some of the things I'm really excited about is their really tight integration with the ONNX neural network exchange format, which standardizes model format across PyTorch, and Scikit-learn, and MXNet, and all these things, so you can train your PyTorch model and then export it in this way, and then serve it with MXNet... Stuff like that is just really cool.
 
-\[00:08:00.16\] Also, the integrations that they're working on, with things like kubeflow, which is a set of standards for deploying machine learning technology on top of Kubernetes, which of course really kind of zeroes in on making PyTorch really useful at scale in a company's infrastructure.
+\[08:00\] Also, the integrations that they're working on, with things like kubeflow, which is a set of standards for deploying machine learning technology on top of Kubernetes, which of course really kind of zeroes in on making PyTorch really useful at scale in a company's infrastructure.
 
 Then, of course, we see things even from Google Cloud, where they're working on integrations of PyTorch with TPUs, which is Google's accelerator technology... Similar to GPUs, but different, as we learned last week from our guest from NVIDIA. They're also integrating PyTorch to be able to be used with TPUs, so there's a lot of emphasis on that front, and for one, I'm really happy to see that, because I think, from my experience, that's a lot of times where people get blocked in terms of implementing and applying these methods.
 
@@ -68,7 +68,7 @@ There's another 3-4 pages of things that Google had released... And having those
 
 **Daniel Whitenack:** Yeah. Is there anything from your perspective -- because I know one of the things I've appreciated about talking to you is you have gone through the process of building up a team around AI and that sort of thing... Were there things that were particularly important for you as you did that, that were maybe highlighted in these articles, or things that maybe you didn't expect as you were going through that process?
 
-**Chris Benson:** \[00:16:12.18\] Yeah, there's a lot there, actually, so I'm just gonna touch on the tip, and at some point in the future we're gonna talk about how to put together organizations, and hiring considerations, and I'll go into more depth from my perspective when we get to that... But all the things that I just called out on NVIDIA are kind of high-level processes, and the bullets are not enough. This article alone won't help you get all the way there, but it kind of tells you the categories you should be thinking about, and the Google document that we were just talking about kind of goes through a lot of the process stuff that you need to be thinking about.
+**Chris Benson:** \[16:12\] Yeah, there's a lot there, actually, so I'm just gonna touch on the tip, and at some point in the future we're gonna talk about how to put together organizations, and hiring considerations, and I'll go into more depth from my perspective when we get to that... But all the things that I just called out on NVIDIA are kind of high-level processes, and the bullets are not enough. This article alone won't help you get all the way there, but it kind of tells you the categories you should be thinking about, and the Google document that we were just talking about kind of goes through a lot of the process stuff that you need to be thinking about.
 
 Now, in your organization, you're likely gonna have to customize all these around your own size, your own operations, your own team capabilities... Everyone's a little bit different in that way, because you're having to put together your own AI capability, and it's gonna be a little bit unlike everbody else's, but these are good places to start.
 
@@ -90,7 +90,7 @@ Seeing these things, and discussing how to put them together - it's the right ti
 
 **Daniel Whitenack:** Yeah, definitely. And I would encourage people -- Fast Forward Labs has put out a number of reports or white paper(ish) sort of things on various topics. I remember reading their one on machine learning interpretability, which really gave me a sense of what people are doing on that topic and what considerations there are... And they have a bunch of other content that's really great for learning. In a sense, these are kind of learning resources in and of themselves. We'll give you some more later, but...
 
-\[00:19:58.10\] This article - I really appreciate it, because I think transfer learning is so important in terms of how people are implementing their AI strategy in their company... But the article goes through and it tells you what transfer learning is, in the sense that you're taking a model that was maybe trained on a certain task, and kind of starting from that starting point and building/generalizing that model to another task, building in additional knowledge... And they kind of walk your through that concept with a bunch of different compelling figures, and even some code, and some PyTorch examples, and robot pictures and cat pictures... I just thought the article was really good, so I'd definitely highly recommend it.
+\[19:58\] This article - I really appreciate it, because I think transfer learning is so important in terms of how people are implementing their AI strategy in their company... But the article goes through and it tells you what transfer learning is, in the sense that you're taking a model that was maybe trained on a certain task, and kind of starting from that starting point and building/generalizing that model to another task, building in additional knowledge... And they kind of walk your through that concept with a bunch of different compelling figures, and even some code, and some PyTorch examples, and robot pictures and cat pictures... I just thought the article was really good, so I'd definitely highly recommend it.
 
 **Chris Benson:** I will foreshadow another teaser of that same thing I was talking about earlier, and that is that transfer learning gives you the option of standing on the shoulders of giants. Most companies out there that are creating capabilities are gonna be on the implementation side; they're not gonna be doing research the way Google Brain is, and the way the Facebook team is, and stuff. They'll do enough to get what their use case is, and that's gonna be the majority of production work in the industry.
 
@@ -106,7 +106,7 @@ I think by and large, that is not how things are done. I think in pretty much ev
 
 Of course, transfer learning provides even a layer of additional help on top of that, in that you're not even starting from scratch when you do that training, but you're taking knowledge that was already developed in other tasks, and you're kind of starting from a good checkpoint.
 
-**Chris Benson:** \[00:24:10.24\] I agree with everything that you said, and I think between us, we've identified what most people who have been working in this space would agree is the way real life works on that. Great article, thanks.
+**Chris Benson:** \[24:10\] I agree with everything that you said, and I think between us, we've identified what most people who have been working in this space would agree is the way real life works on that. Great article, thanks.
 
 **Daniel Whitenack:** Do we live in real life, if we're doing AI? \[laughter\]
 
@@ -132,7 +132,7 @@ I just wanted to draw that out, and if you're not aware of the social credit sys
 
 **Daniel Whitenack:** Yeah... I think literally this was a Black Mirror episode on Netflix. I remember people walking around and doing certain things, and then they would get a ding, and their social credit went up or down, or whatever. I forget what they called it. Maybe some of our listeners can remind us in our Slack channel.
 
-\[00:27:36.20\] One of the things beyond the fact of just the social credit system itself, it's like -- you know, we've already experienced AI and machine learning being used in the social media context, in terms of engineering people's political views and all of that, and really what we've seen is that those systems, and especially the ones that are driving advertising, are really pushing people to the extremes of their views. It seems like this is the same thing but on a greater scale, in the sense that the people that are discriminated against or their social credit is pushed down, they're only gonna be more radicalized, and the people that want to get their social credit up, they're just gonna turn more to the norm of what's expected.
+\[27:36\] One of the things beyond the fact of just the social credit system itself, it's like -- you know, we've already experienced AI and machine learning being used in the social media context, in terms of engineering people's political views and all of that, and really what we've seen is that those systems, and especially the ones that are driving advertising, are really pushing people to the extremes of their views. It seems like this is the same thing but on a greater scale, in the sense that the people that are discriminated against or their social credit is pushed down, they're only gonna be more radicalized, and the people that want to get their social credit up, they're just gonna turn more to the norm of what's expected.
 
 There's definitely tons of interesting and scary implications, and I think that people should be aware and watching what's going on, not just in the U.S. and even in Europe, but in China and also in India with the Aadhaar system. There's now like billions of data points of people's biometric data, and it can be used in various ways... Hopefully some good ways, but there's also a lot of potential dangers, of course, in that, and you're already seeing people bring up things and talk about that in this context... So we definitely need to be watching and involved in the discussion around this around the world.
 
@@ -178,7 +178,7 @@ I would like to see a level playing field throughout the world. I think everybod
 
 Find a project, whether that's PyTorch, or ONNX, or these visualization libraries, or something else that's interesting to you, and contribute to the larger community. That'll be a great way to get involved.
 
-**Chris Benson:** \[00:36:02.28\] Sure. And do you have some other conference announcements coming up?
+**Chris Benson:** \[36:02\] Sure. And do you have some other conference announcements coming up?
 
 **Daniel Whitenack:** Yeah, good reminder... I just wanted to remind people that we're kind of getting into spring conference season as far as submitting proposals. I wanted to highlight Applied Machine Learning Days; it's a really great conference in Europe, if you're able to make it there. They have a call for talks, and posters...
 
@@ -202,7 +202,7 @@ The one that I wanted to share is a set of machine learning cheatsheets. You mig
 
 I think these are a great thing to include, and they're even available in a bunch of languages - Spanish, and French, and Arabic, and others. I think these are really great to bookmark on your browser and pull up when you need them.
 
-**Chris Benson:** \[00:39:59.24\] This is fantastic. I went from the GitHub link that you provided and they list off to another website, and I dived into the deep learning topic on that. I'm just looking through this, and it's amazing. I am gonna be using this all the time. It covers so much material, the kind of things that you're always having to look up, or recall, or whatever... Fantastic find, Daniel.
+**Chris Benson:** \[39:59\] This is fantastic. I went from the GitHub link that you provided and they list off to another website, and I dived into the deep learning topic on that. I'm just looking through this, and it's amazing. I am gonna be using this all the time. It covers so much material, the kind of things that you're always having to look up, or recall, or whatever... Fantastic find, Daniel.
 
 **Daniel Whitenack:** Thanks.
 

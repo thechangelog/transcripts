@@ -22,7 +22,7 @@
 
 **Amal Hussein:** Thank you so much for the warm welcome, Jerod and company. My name is Amal Hussein. I'm a principal software engineer based in the Boston area, and my origin story is kind of a really interesting one. I was born in New York City, ended up moving to Dubai when I was two months old... My dad got a job there, so I grew up abroad as an American, but who was an expat... Then I came back to the states when I was 17-18, and went to college, studied biomedical engineering... So yes, I transitioned into software from biomedical engineering, after being exposed to the rapid cycles with software; your only bottleneck, and the long product arcs that existed in the biomedical engineering world are just not really there... And also the knowledge sharing component with open source and how folks are sharing million-dollar ideas freely and openly... It was very different than the patent world of biomedical engineering, where everything is heavily guarded and regulated.
 
-\[00:03:58.29\] So for me, I was interested in solving problems at scale, and really software felt like the right way to do that... That decision happened almost about a decade ago, and since then I've really been punching my way up the technical ladder, I would say, from software engineer, to senior software engineer, to tech lead, to project lead, to engineering manager most recently at Npm, and I kind of have recently just made a big pendulum swing from management back into an IC role, that's technical leadership, but less BS around all of the pain points with middle management.
+\[03:58\] So for me, I was interested in solving problems at scale, and really software felt like the right way to do that... That decision happened almost about a decade ago, and since then I've really been punching my way up the technical ladder, I would say, from software engineer, to senior software engineer, to tech lead, to project lead, to engineering manager most recently at Npm, and I kind of have recently just made a big pendulum swing from management back into an IC role, that's technical leadership, but less BS around all of the pain points with middle management.
 
 So that's a little bit of my origin story... I'm also a community organizer, podcaster myself; I've been podcasting part-time on the web platform podcast for a little while... And I speak at conferences, and actually that's kind of how Jerod and I connected. I think the first time we met in real life was last November at All Things Open... And for anyone who could see Jerod - he's wearing the conference T-shirt...
 
@@ -66,7 +66,7 @@ So that's a little bit of my origin story... I'm also a community organizer, pod
 
 **Divya:** Nice. What's the most craziest, most spontaneous thing you've done, that sort of represents that personality or that side of you?
 
-**Amal Hussein:** \[00:08:12.08\] The thing I'm willing to share in a semi-professional setting would probably be -- the most dangerous thing I think I've done is make friends with people on vacation and then spend an excessive amount of time with them.
+**Amal Hussein:** \[08:12\] The thing I'm willing to share in a semi-professional setting would probably be -- the most dangerous thing I think I've done is make friends with people on vacation and then spend an excessive amount of time with them.
 
 **Jerod Santo:** That can be dangerous.
 
@@ -150,7 +150,7 @@ So I think for me the success of a framework is also heavily dependent on the le
 
 **Amal Hussein:** So it's kind of like a requirement to get above certain levels.
 
-**Jerod Santo:** \[00:12:17.10\] Do you think that your practice and experience in learning multiple spoken languages has aided you in perhaps learning multiple programming languages, or do you feel very in the JavaScript world, or are you polyglot in that sense, too?
+**Jerod Santo:** \[12:17\] Do you think that your practice and experience in learning multiple spoken languages has aided you in perhaps learning multiple programming languages, or do you feel very in the JavaScript world, or are you polyglot in that sense, too?
 
 **Amal Hussein:** Yeah, that's a really great question. I am definitely polyglot and I identify -- the longer I go in my career, the more I identify as a generalist, so the more and more I'm like... I don't really think about things in terms of frameworks and tools and languages. It's more like I look at the problem and then I pick "Okay, based on the problem and based on the constraints that I have, this is how I would approach it." And of course, a lot of that is pulling from my past experience, but sometimes I know that something that I don't have expertise in would actually be a better solution, and that's an opportunity to come up to speed with that.
 
@@ -178,7 +178,7 @@ For example, let's say JavaScript is your first language, and now you're learnin
 
 **Jerod Santo:** The last question for you here before we skip to the next segment, which is "What made you wanna join us nerds here at JS Party, and what do you think you'll bring to the show that's all Amal?"
 
-**Amal Hussein:** \[00:16:04.26\] Yeah, I'm really excited to be on this show because I really -- you know, as I progressed through my career, I find myself lecturing a lot, and having these weird professorial moments with people, and I think it's like an outlet for that energy... And I really have a strong passion when it comes to teaching, and also I think being a woman and a person of color that's quite senior, there's a representation factor which I think I bring here, that is really important and inspirational to others.
+**Amal Hussein:** \[16:04\] Yeah, I'm really excited to be on this show because I really -- you know, as I progressed through my career, I find myself lecturing a lot, and having these weird professorial moments with people, and I think it's like an outlet for that energy... And I really have a strong passion when it comes to teaching, and also I think being a woman and a person of color that's quite senior, there's a representation factor which I think I bring here, that is really important and inspirational to others.
 
 I never spoke at a conference or did community work because I was like "I need to represent brown people", or whatever. It's just the feedback that I've consistently gotten. It's the DMs that I get, or it's the people who apply for jobs, referencing that they saw me speak and they wanna work with me... It's things like that. Representation matters, and if I can show the world that not only do people who look like me belong, so we're not just in the classroom, but we're teaching, we're a part of the conversation. I think it's good for the web, because we need more people that are not white dudes, simply put... Representing, and teaching, and leading the way.
 
@@ -186,7 +186,7 @@ I never spoke at a conference or did community work because I was like "I need t
 
 **Amal Hussein:** Thank you!
 
-**Break:** \[00:17:42.15\]
+**Break:** \[17:42\]
 
 **Jerod Santo:** Alright, we're back for Pro Tip Time. Pro Tip Time - that's my intro theme song. Pro Tip Time. We need to really have somebody who's not me make a jingle for that... Maybe, Nick, you can do that. You could have your robots do that thing for us. Automate it. \[Jingle 00:18:50.29\] This is where we share our pro tips. Sometimes we're actually pros at things, and sometimes we just play them on JS Party. These are life hacks, lessons learned from doing dumb things etc. So let's share the wisdom. Nick, you're up first. Do you have any pro tips for the people?
 
@@ -200,7 +200,7 @@ So a couple of things that I've found that have helped get a point across, like 
 
 **Nick Nisi:** Yeah, I've put the Mac App Store link in there...
 
-**Divya:** \[00:20:05.01\] I think it's called Presentify. I've just clicked--
+**Divya:** \[20:05\] I think it's called Presentify. I've just clicked--
 
 **Nick Nisi:** Presentify, yeah. Thank you.
 
@@ -260,7 +260,7 @@ And then the third one, I will say - and I'm probably gonna get a lot of hate fo
 
 **Divya:** Cool. So to go off of that, the foreshadowing - I use VS Code Live Share a lot. It's really cool, because it fixes a lot of pain points you have when especially you're remote and you're like "Oh, let's type on this thing together", and it's really nice. It's just sometimes really slow, especially if you have a lot of things running. That's the only downside to it.
 
-\[00:24:00.00\] But in general, I think it's really nice to be able to share a session and then have two people work on the same -- so you can be on a Zoom call, sharing a VS Code live session... And it feels better, because you can also switch when you're pairing who drives, rather than having to be like "Oh, let me share my screen", and then the other person being like "Let me share my screen", and then they're in two different states of the project... But with this it's really nice to just be able to work off the same one. And you can make notes, and whatever...
+\[24:00\] But in general, I think it's really nice to be able to share a session and then have two people work on the same -- so you can be on a Zoom call, sharing a VS Code live session... And it feels better, because you can also switch when you're pairing who drives, rather than having to be like "Oh, let me share my screen", and then the other person being like "Let me share my screen", and then they're in two different states of the project... But with this it's really nice to just be able to work off the same one. And you can make notes, and whatever...
 
 So it feels like you're almost next to the person, even though you're not, which I think it's super-cool. It's made my pairings really smooth, so I 100% recommend that. And also, related -- so I talked a little bit about writing a playground at work, which is essentially a little online IDE type thing for validating whatever... And I'm building one currently, and I was using Monaco... And I complained a lot about Monaco, and I've switched away from Monaco completely... And I use Code Mirror now, and I honestly think it's so good.
 
@@ -282,7 +282,7 @@ So I really like it... It's super-clean, super-smooth... There's so many differe
 
 **Amal Hussein:** Honestly, what I find kind of interesting about this explosion of smart IDEs in the JavaScript community - as somebody who's been using tools like WebStorm for literally more than seven years at this point, I'm just really confused at all the hype around VS Code... Because I'm like "Wait, WebStorm - we've had this for years." \[laughs\] I just think it's interesting; the barrier to entry, I think, has been licensing. I think people have to pay for WebStorm, and WebStorm has been this awesome, fancy IDE that can do so many things for years and years and years... But I think just like the accessibility factor of free - you can't beat that.
 
-\[00:27:47.11\] I feel like WebStorm is kind of getting their lunch handed to them with VS Code, even though performance-wise and many things are quite good and/or better in WebStorm; I think the ecosystem factor is where VS Code for me wins. It's like the same idea behind why Slack took off... How many instant messaging and chat apps did we have? Slack works because of integration. The value-add for tools like Slack is integrating your JIRA, and your Google Drive and everything else in this one-stop shop. So yeah, the ecosystem matters...
+\[27:47\] I feel like WebStorm is kind of getting their lunch handed to them with VS Code, even though performance-wise and many things are quite good and/or better in WebStorm; I think the ecosystem factor is where VS Code for me wins. It's like the same idea behind why Slack took off... How many instant messaging and chat apps did we have? Slack works because of integration. The value-add for tools like Slack is integrating your JIRA, and your Google Drive and everything else in this one-stop shop. So yeah, the ecosystem matters...
 
 **Jerod Santo:** Yeah. Network effects. Everybody uses it because everybody uses it, you know?
 
@@ -356,7 +356,7 @@ I think the biggest thing, from reading Reddit posts and stuff, is they're sort 
 
 **Divya:** Yes! Actually, yes. That's a good one
 
-**Amal Hussein:** \[00:31:58.27\] Jenn is -- we both worked Bocoup, but also we're friends now... And I feel so cool saying "I'm friends with Jenn Schiffer." It feels like I'm saying I'm friends with Beyonce. Basically, it's the equivalent of Beyoncé in the web community, is Jenn Schiffer. She's got an incredibly awesome, hilarious, satirical blog, but also she does pixel art, which is cool... So yeah, if you want some inspo, Divya...
+**Amal Hussein:** \[31:58\] Jenn is -- we both worked Bocoup, but also we're friends now... And I feel so cool saying "I'm friends with Jenn Schiffer." It feels like I'm saying I'm friends with Beyonce. Basically, it's the equivalent of Beyoncé in the web community, is Jenn Schiffer. She's got an incredibly awesome, hilarious, satirical blog, but also she does pixel art, which is cool... So yeah, if you want some inspo, Divya...
 
 **Divya:** For sure, yeah.
 
@@ -394,7 +394,7 @@ Same kind of thing for network responses... Sometimes when I'm doing API design 
 
 **Amal Hussein:** Yeah, and the nice thing is the user experience of Gifox is nice. You can make things and just drag it into Slack, or have it automatically go onto your clipboard after it's done... There's a nice usability there, which I think is good for dev workflows. But yeah, I couldn't agree more - making a video of a bug and saying "Is this expected?" is so much better than "Here's 40 lines of text, and 17 questions that follow, to clarify..."
 
-**Divya:** \[00:36:07.19\] Yeah...
+**Divya:** \[36:07\] Yeah...
 
 **Nick Nisi:** Combine that with Presentify, and then you can annotate it before you take the screenshot...
 
@@ -414,11 +414,11 @@ Now, that's a simple formula. It's somewhat hard to do, but it's gotten a lot ea
 
 Alright, that's Pro Tip Time... Insert Nick's robot theme song here... \[Jingle 00:38:01.21\] And we'll be right back.
 
-**Break:** \[00:38:04.22\]
+**Break:** \[38:04\]
 
 **Jerod Santo:** Alright, we are back... And speaking of learning things from people that are smart than you - I'm trying to understand this CSS Sweeper project that I came across last week... Which is basically Minesweeper completely in HTML and CSS. No JavaScript. And it accomplishes the game, which - we'll link it up and you can go click through and play it yourself. It's the classic Windows Minesweeper, which is a great time waster... I was more of a Free Cell guy myself, but it's still a good one.
 
-\[00:39:55.20\] But it uses this trick in order to make CSS basically a full-on programming language. They call it the Space Toggle Trick, and it's taking advantage of CSS variables. This is explained in the readme of the repo, which I'm sure you all are looking at... But I started reading that and I was like "I don't get it, y'all. I don't understand what's going on here." So I thought maybe we could demystify it; maybe one of you three can demystify it for me, or we could talk through it together... Who's given this a look and who thinks they can explain what's going on and how you can play Minesweeper with just CSS.
+\[39:55\] But it uses this trick in order to make CSS basically a full-on programming language. They call it the Space Toggle Trick, and it's taking advantage of CSS variables. This is explained in the readme of the repo, which I'm sure you all are looking at... But I started reading that and I was like "I don't get it, y'all. I don't understand what's going on here." So I thought maybe we could demystify it; maybe one of you three can demystify it for me, or we could talk through it together... Who's given this a look and who thinks they can explain what's going on and how you can play Minesweeper with just CSS.
 
 **Nick Nisi:** Oh, I took a look and I feel like it makes sense. And then I opened up a quick CodePen and tried to replicate a little bit of it... And so far on this call I have not been able to get that working. But it's taking advantage of a couple of things with CSS variables. One of them is that you can set a default value for a variable, and the other is this -- what they call the Space Toggle Trick, where you set a variable to an empty space and then change it later to initial, and you take advantage of the idea that you can set a CSS variable and then it will go to the most recent value of that.
 
@@ -436,7 +436,7 @@ I think for me what's a very interesting take-away here is this concept of varia
 
 **Divya:** On the Space Toggle? I think it's super-cool. I've used CSS variables before, but I've never used it to this level, and it is mind-blowing. I mean, I don't feel so bad, because it is a trick that not a lot of people have heard of. I think in that particular GitHub readme they reference -- that has been discovered like three times, or something like that... So yeah, it's pretty cool. It's a fairly novel concept that's only been in the readme; they refer to it being discovered three times, and I think it's only been like -- Ana Tudor found it supposedly three years ago, and then no one talked about it until really recently... So I think it's still blowing a lot of people's minds. And even when you look at the tweet in which -- is it James? He wrote about finding that trick. He's like "Not a lot of people engage with it. It's not like thousands of likes, and stuff."
 
-**Jerod Santo:** \[00:44:09.06\] The question is is this a cool novelty, by taking advantage of a feature that didn't really expect you to use it this way, or is this so useful that you'll start to see it become more than just a trick? Something that actually has real-world value, maybe it gets framework eyes and people start building things with it... Or is it just kind of staying in the "Hey, remember the CSS Minesweeper? That was cool..."
+**Jerod Santo:** \[44:09\] The question is is this a cool novelty, by taking advantage of a feature that didn't really expect you to use it this way, or is this so useful that you'll start to see it become more than just a trick? Something that actually has real-world value, maybe it gets framework eyes and people start building things with it... Or is it just kind of staying in the "Hey, remember the CSS Minesweeper? That was cool..."
 
 **Divya:** I think it might be a niche... Honestly, the thing that I find the most fascinating is -- it wasn't referred in here; someone used that trick with media queries, which I think is really neat, because oftentimes with media queries you end up having to write a lot of extra cruft around "Oh, for this media query and this class, do this." But then you could utilize this particular Space Toggle that would make your code -- it won't make it more understandable, it will actually make it less understandable... \[laughter\]
 
@@ -446,7 +446,7 @@ I think for me what's a very interesting take-away here is this concept of varia
 
 **Jerod Santo:** Time will tell. Well, check it out, CSS Sweeper, on GitHub, of course. The link is in your show notes... This was a super-fun episode, super-fun conversation. We hope everybody enjoyed it as much as we did. That's our show, we'll talk to you next time.
 
-**Outro:** \[00:45:31.04\]
+**Outro:** \[45:31\]
 
 **Amal Hussein:** Nick, has anyone ever told you that you look like Hugh Jackman, with the variable green...
 

@@ -28,17 +28,17 @@ TarponJargon wrote in about jQuery, and they said they wanna have an honest conv
 
 Emma had the asterisk to her answer on the last game show, adding "I don't use jQuery." In fact, we pulled that clip. I have it right here...
 
-\[extract start\] \[00:03:26.09\]
+\[extract start\] \[03:26\]
 
 **Jerod Santo:** Name a JavaScript library that you use often. We had React, which was the number one answer, 29 points, and we had jQuery, which was the number four answer, with six points. So you both did very well there.
 
 Emma Bostian: I don't use jQuery, but it was the only thing I remembered...
 
-\[extract end\] \[00:03:41.24\]
+\[extract end\] \[03:41\]
 
 **Jerod Santo:** That's what he's referring to there. And they said "...ostensibly so people wouldn't think she used it. That's a very common theme. Even though I use the "modern" libraries and tooling, I love jQuery. I still find it very useful, and get sad when I hear it get trashed. It has made and still makes the web a better, richer and more interactive place. Even though you can do most things with vanilla JS, it's way more intuitive, and way less code to write. Anyway, I'd love to hear you guys address the jQuery elephant in the room, or on the web. I love the podcast!"
 
-\[00:04:12.27\] So there it is... Thanks, TarponJargon for writing in and sharing your thoughts... And we're now going to share our thoughts. First of all, Emma's not here to speak to why she said that, but I think there definitely is this somewhat like "I don't use jQuery" sensation going around, because the truth is a lot of us don't use jQuery anymore, and new technologies have come about and have taken the web by storm.
+\[04:12\] So there it is... Thanks, TarponJargon for writing in and sharing your thoughts... And we're now going to share our thoughts. First of all, Emma's not here to speak to why she said that, but I think there definitely is this somewhat like "I don't use jQuery" sensation going around, because the truth is a lot of us don't use jQuery anymore, and new technologies have come about and have taken the web by storm.
 
 But I will say that I love jQuery, I'm not ashamed to say that I love jQuery. In fact, Changelog.com is still a jQuery-esque web application...
 
@@ -154,7 +154,7 @@ Now I love TypeScript.
 
 **Jerod Santo:** Alright, well let's hear it, Amal. What do you think about jQuery? What do you think about what TarponJargon wrote about like is there dev shame, is there that icky feeling, like "Oh, I don't use it anymore because it's not cool", or is that overblown? What are your thoughts on that?
 
-**Amal Hussein:** \[00:08:15.05\] Yeah... First of all, TarponJargon - coolest name ever. And second of all, really, I wanna plus a million on what you've shared as your observation in the community, where we've kind of shamed people for not using tooling that maybe requires more complexity, or requires a world-class engineering team to maintain and stay on top of...
+**Amal Hussein:** \[08:15\] Yeah... First of all, TarponJargon - coolest name ever. And second of all, really, I wanna plus a million on what you've shared as your observation in the community, where we've kind of shamed people for not using tooling that maybe requires more complexity, or requires a world-class engineering team to maintain and stay on top of...
 
 So ultimately, I have no problem saying this, but there is a very serious disconnect in our community when it comes to reality, and fad, and like bubble, in the sense that there is the reality of the web and its vastness, and how most people are actually developing -- not even developing for the web, but authoring web content... Because quite frankly, not every company or team is like a world-class, modern JavaScript on the bleeding edge of the latest versions of Npm dependencies...
 
@@ -174,7 +174,7 @@ So in some sense, we're all using jQuery today. We can use a lot of the function
 
 Secondly, I think we do have a huge challenge in our community of thinking about tools as the end, rather than outcomes as the end in what we're trying to get to... Folks will say "Hey, I wanna work in React" or "I want to work in Vue" or "I want to work in Ember" or what have you, and be thinking about the tool as the goal, doing something in there... Where those are tools with very specific problem domains that they work really well in, but not everyone has those problem domains, and I think there's quite a few problem domains right now where using React or Vue you're imposing a lot of additional costs on yourself relative to what you need... And you might actually be better off doing something with either vanilla JavaScript or jQuery, or something simple like that.
 
-\[00:12:18.25\] jQuery thrives in some of those simpler, mostly server-driven situations where you're not trying to do lots of crazy stuff on the frontend. You're trying to have a progressively-enhanced website. Where it starts to fall down a little bit is when you have lots of different interactive pieces interacting, it's harder... It doesn't give you as much implicit structure out of the box, so if you're trying to build more of your application logic on the frontend, you may want to put some more structure in place.
+\[12:18\] jQuery thrives in some of those simpler, mostly server-driven situations where you're not trying to do lots of crazy stuff on the frontend. You're trying to have a progressively-enhanced website. Where it starts to fall down a little bit is when you have lots of different interactive pieces interacting, it's harder... It doesn't give you as much implicit structure out of the box, so if you're trying to build more of your application logic on the frontend, you may want to put some more structure in place.
 
 Back in the day I remember that structure would be added by something like Backbone, which worked on top of jQuery... But these days that's built into a framework like Vue, or React, or Angular, largely... Though I imagine there are still folks out there using Backbone and Backbone Marionette.js as well.
 
@@ -188,7 +188,7 @@ But I was trying to think of things that I really would reach to jQuery for back
 
 **Jerod Santo:** Yeah, I agree that the CSS selector-based interaction was really what made jQuery take off... Because it was so easy to learn, especially alongside CSS selectors; you were already learning how to select elements via CSS selectors in order to style that with your CSS... And you could learn right alongside that how to grab those elements and manipulate them in JavaScript via using that exact same syntax inside of a string.
 
-\[00:15:48.11\] I think that was probably what did it -- now, there's always a bunch of conspiring events that make something transcend, but jQuery really became... I mean, React in mindshare is getting to that place, but it's not where jQuery was. jQuery was so pervasive that there were people that were jQuery developers. And I know there's people that are like "I'm a React developer", and I advise against doing that; please don't do that. If you need to market your skills, like "I know React" - fine. But don't define yourself as a React developer. People who were defining themselves in mass quantities as a jQuery developer - they didn't know that it was JavaScript. They thought that it was jQuery. That's how pervasive and ubiquitous it was.
+\[15:48\] I think that was probably what did it -- now, there's always a bunch of conspiring events that make something transcend, but jQuery really became... I mean, React in mindshare is getting to that place, but it's not where jQuery was. jQuery was so pervasive that there were people that were jQuery developers. And I know there's people that are like "I'm a React developer", and I advise against doing that; please don't do that. If you need to market your skills, like "I know React" - fine. But don't define yourself as a React developer. People who were defining themselves in mass quantities as a jQuery developer - they didn't know that it was JavaScript. They thought that it was jQuery. That's how pervasive and ubiquitous it was.
 
 Now, by the way, those people who were jQuery developers - how transferable are their skills into today's economy? Not very transferable, right? If they deem themselves a JavaScript developer, or - hey, drop the prefix altogether; be a software developer. Now you can play in any pool. But that selector engine was so game-changing it really made jQuery take off.
 
@@ -208,7 +208,7 @@ So Chrome is taking this really bold, kind of like thrown their spear pretty far
 
 **Amal Hussein:** Exactly. So it's interesting to see how this is -- history may be repeating itself in an interesting way... But IE -- and I've had this conversation with Alex Russell, whose Twitter account we will link in the show notes, because he's a very interesting person to follow if you're into this stuff... Alex is actually the technical lead for the Fugu Project at Chrome, and I remember asking him "Alex, I don't get it though... You're basically becoming IE again now." And he's like "Well, think about it - is that a bad thing?" He's like "IE was so good at what they did that they're still relevant today", right?
 
-**Nick Nisi:** \[00:20:32.01\] They have the market share.
+**Nick Nisi:** \[20:32\] They have the market share.
 
 **Amal Hussein:** Yeah. And I can't disagree with that. So it's interesting; Chrome - all the other browsers seem to be competing with Chrome.
 
@@ -226,7 +226,7 @@ And one of the most common bifurcations of cases is I have one thing - there's y
 
 So tons of code out there is just like "Hey, is it one or is it many?" All over the place. And these are just unnecessary conditionals in your code. And I learned it from jQuery, because the only thing that makes one different than many is there's just one. But if you put it in an array, it's no longer a separate case. If it returns one, it's still a collection of one. And if it returns seven, that's a collection of seven. That's such a small API decision, versus just merely returning the bare object, if it's one... Return an array. And if there's zero, you return an empty array. It's just one big thing. It's just a list, and that list could have zero, one or many in it. And that reduces so much checking in your code that it's just the way to do it. I used to have all sorts of places in my code where I'd have the one case, and then I'd have the many case, and now I just have a collection, because I learned it from jQuery.
 
-**Nick Nisi:** \[00:23:51.18\] It also kind of smoothed over a lot of APIs like that, in that case. Thinking back to how you might -- even today, how you would create a DOM element with just vanilla JavaScript. If I wanted to create a div, document.createElement("div"), and then if I wanna add a class to it, that's another line, another call. If I wanna add properties to it, that's another thing. And jQuery was like one line.
+**Nick Nisi:** \[23:51\] It also kind of smoothed over a lot of APIs like that, in that case. Thinking back to how you might -- even today, how you would create a DOM element with just vanilla JavaScript. If I wanted to create a div, document.createElement("div"), and then if I wanna add a class to it, that's another line, another call. If I wanna add properties to it, that's another thing. And jQuery was like one line.
 
 Or another thing that it introduced that is still kind of floating around today is this idea - or maybe it didn't introduce it, but it did to me - of a chained API \[unintelligible 00:24:21.15\] now do something with it. Oh, now add an event listener to it and now do another thing", and just keep returning that instant, so you keep chaining on calls to it. It's been a while since I've used it, but...
 
@@ -250,7 +250,7 @@ But yeah, this core concept of "I have an object that has a bunch of ways to man
 
 **Amal Hussein:** When I joined Bocoup - Bocoup is the company that was actually in many ways born out of the DOM wars, and folks who were working on jQuery who just started a company together, kind of... Many years ago, over a decade ago... Folks like Corey Frang, Rick Waldron, Boaz Sender, Jory Burson on the community side, Mike Pennisi I believe was involved also... And just a bunch. I'm forgetting people. Isaac... Corey Frang - I got to work with him; he was a tech lead on a project that I was working on very early when I joined the company... And I don't think I've ever worked with somebody who's so masterful at API design. And I'm like "Oh, I get it. I see why jQuery is the way it is. You helped work on things like Deferred, and all these wonderful APIs that have taught me and all these other wonderful engineers how to write good code."
 
-\[00:28:08.11\] So it was just like a pleasure working under them. Maybe we can have them on the show one day and pick their brain... Because they have also the most number of Stack Overflow points I've ever seen. Their Stack Overflow credit is just like -- they're like "Hey, in case you ever want Stack Overflow credit, let me know. I'll toss a few your way." That's how many they have... Their pronouns are they/them.
+\[28:08\] So it was just like a pleasure working under them. Maybe we can have them on the show one day and pick their brain... Because they have also the most number of Stack Overflow points I've ever seen. Their Stack Overflow credit is just like -- they're like "Hey, in case you ever want Stack Overflow credit, let me know. I'll toss a few your way." That's how many they have... Their pronouns are they/them.
 
 The other thing about the brilliance of jQuery is just how much complexity it handled, especially with things like the Deferred API, which really laid the groundwork for having promise patterns in the client... And Deferred actually wasn't even an A+ promise. The API itself didn't adhere to that...
 
@@ -272,9 +272,9 @@ No shame in using jQuery today. As Kball said, it's the right tool for specific 
 
 So definitely no shame in the JS game if you're still using jQuery today.
 
-**Amal Hussein:** \[00:31:59.04\] No shame at all. And Jerod, one last fact before we end this segment... Angular, another library that changed the web and was pivotal in the web's arch, for how we got to where we are - Angular, the several iterations of Angular, they launched it with jQuery lite under the hood. And the Angular API was very jQuery-esque. And they were able to do what they did, and the speed that they were able to do it in, and as well as they were able to do it - because of jQuery. jQuery was a huge component of Angular 1.x So just something else to keep in mind. Our giants are standing on the shoulders of giants, are standing on the shoulders of giants. And we're way beyond the moon at this point. It's really just exciting to see how far we've come, and I'm excited to see where we go.
+**Amal Hussein:** \[31:59\] No shame at all. And Jerod, one last fact before we end this segment... Angular, another library that changed the web and was pivotal in the web's arch, for how we got to where we are - Angular, the several iterations of Angular, they launched it with jQuery lite under the hood. And the Angular API was very jQuery-esque. And they were able to do what they did, and the speed that they were able to do it in, and as well as they were able to do it - because of jQuery. jQuery was a huge component of Angular 1.x So just something else to keep in mind. Our giants are standing on the shoulders of giants, are standing on the shoulders of giants. And we're way beyond the moon at this point. It's really just exciting to see how far we've come, and I'm excited to see where we go.
 
-**Break:** \[00:33:00.11\]
+**Break:** \[33:00\]
 
 **Jerod Santo:** Hey, it's Judith and Rushali from Hot New Tech. Welcome to the party, ladies...
 
@@ -304,7 +304,7 @@ So definitely no shame in the JS game if you're still using jQuery today.
 
 **Jerod Santo:** Oh, yeah.
 
-**Rushali:** \[00:35:55.03\] And suddenly, they all went away. That was because browsers needed you to opt in for the sound to be played. You couldn't just start playing a random sound on the internet on any website. So that broke a lot of websites, apparently, in 2018... But now we can go back into the world of playing weird music online.
+**Rushali:** \[35:55\] And suddenly, they all went away. That was because browsers needed you to opt in for the sound to be played. You couldn't just start playing a random sound on the internet on any website. So that broke a lot of websites, apparently, in 2018... But now we can go back into the world of playing weird music online.
 
 **Jerod Santo:** Awesome.
 
@@ -320,7 +320,7 @@ Then we sort of went on a deep dive. It was like "When did you have to start opt
 
 Well, really cool. Here's the TL;DR. Let's get right into it, shall we?
 
-Hot New Tech Intro \[00:37:06.16\]
+Hot New Tech Intro \[37:06\]
 
 **Rushali:** Ease. Was it easy to use?
 
@@ -342,7 +342,7 @@ I think it's underrated when a demo actually works. How many times have you look
 
 So I have to say that the fact that all the demos in the tone.js library work - that's almost a ten right there. And then you can look into the code, and that code you can copy and paste for the most part... So I'm gonna meet you on the eight, because there are so many working demos that are awesome... So I'll meet you on the eight.
 
-**Judith:** \[00:39:50.01\] Fun. I'm gonna give it a 9 out of 10... Because when I hovered on that button and it laughed, I laughed... \[laughs\] It's so simple, but it made me laugh. So that's a nine for me.
+**Judith:** \[39:50\] Fun. I'm gonna give it a 9 out of 10... Because when I hovered on that button and it laughed, I laughed... \[laughs\] It's so simple, but it made me laugh. So that's a nine for me.
 
 **Rushali:** That moment, to watch you hover and laugh to the laugh - it was just so satisfying, as just a viewer...
 
@@ -376,7 +376,7 @@ But if you're gonna do open source stuff, then yeah. Use this library. It's fun,
 
 **Judith:** To get that C\# going, you're looking at 15 minutes. For us to get our hover states working, before we sort of knew about the audio opt-in, I would say like an hour. We also had a \[unintelligible 00:43:33.01\] with local audio, we had to spin up a server... So there were a couple of small challenges, which are always gonna happen with a new thing. So anyways, I would say an hour to get something custom working, and then to actually create a custom song... I've never done that. How long do you think it would take to make a real song?
 
-**Rushali:** \[00:43:57.21\] Um, are we musicians or not?
+**Rushali:** \[43:57\] Um, are we musicians or not?
 
 **Judith:** How long did it take you to get your first build project going with tone?
 
@@ -394,13 +394,13 @@ But if you're gonna do open source stuff, then yeah. Use this library. It's fun,
 
 **Rushali:** Yes.
 
-**Jingle:** \[00:44:41.17\] to \[00:44:54.00\]
+**Jingle:** \[44:41\] to \[44:54\]
 
-**Break:** \[00:44:54.07\]
+**Break:** \[44:54\]
 
 **Jerod Santo:** Alright, we all know what time it is... It's Pro Tip time!
 
-**Jingle:** \[00:45:59.23\] to \[00:46:04.06\]
+**Jingle:** \[45:59\] to \[46:04\]
 
 **Kevin Ball:** \[laughs\]
 
@@ -418,7 +418,7 @@ And the other thing that having that dedicated focus time has done is it's made 
 
 So my pro tip is schedule your day, ideally find a way that you can block off -- I'm sort of implicitly blocking off that early focus time by just having it be a time when nobody else wants to be awake... But I think have that focus time, and then also deliberately block off some time or schedule some meetings, whatever it is, that are just about building relationships, connecting with people, having that interhuman contact that we all miss so much today in Covid land. That's my pro tip.
 
-**Jerod Santo:** \[00:48:06.26\] I love it. Good stuff.
+**Jerod Santo:** \[48:06\] I love it. Good stuff.
 
 **Amal Hussein:** That's a legit pro tip. It's really serendipitous, because this week I've started adding focus time blocks on my calendar, because I was getting to the point where I'm not getting any of my work done because I'm putting out fires or helping other people, and I have to remind myself it's okay to say no sometimes...
 
@@ -464,7 +464,7 @@ So I set a 15-minute reminder for me before my focus time, so that I'm not late 
 
 **Amal Hussein:** So then Kball wins on pro tips. Alright, so I have three pro tips. One is for folks doing a lot of responsive -- not even responsive... For folks responsibly designing web applications... I don't even wanna call it responsive design anymore; but unfortunately, the name of the app is Responsively. There's a great Chrome extension -- or any... I actually don't have the list of browsers supported, but unfortunately I do all my development on Chrome, and then I test on other browsers only because from Dev Tools this is what I'm most comfortable with. My primary browser, however, is Brave, or Firefox Focus, or Firefox. Those are my three that I use for everything else.
 
-\[00:52:11.19\] But it's a really great extension called Responsively, and it lets you just very easily snap your site into all these different configurations, and it makes it really easy for you to capture where things look broken, in what size... And for right now, it's not even about your users having a mobile version, a tablet version, and a desktop version... Monitors are all different sizes.
+\[52:11\] But it's a really great extension called Responsively, and it lets you just very easily snap your site into all these different configurations, and it makes it really easy for you to capture where things look broken, in what size... And for right now, it's not even about your users having a mobile version, a tablet version, and a desktop version... Monitors are all different sizes.
 
 I use something called Spectacle to manage my windows. Sometimes my browser is one third of my window... So your sites should really look good generally in multiple sizes, and it's a really great app that lets you do that.
 
@@ -496,7 +496,7 @@ And you can create PRs from there... Kind of very similar to the Hub wrapper aro
 
 Some really cool aliases that you might be able to do is, like I said, creating PRs in a specific way, or navigating to your project, or giving you a list of PRs that you're set as a reviewer on every morning, and then you can just check that there and go through it without having to get lost in the UI... And it also acts as an authenticated client to the GitHub GraphQL API... So you can create your own calls to that and have it do whatever, and then you can alias that just like you do with Git, where you create aliases...
 
-**Jerod Santo:** \[00:56:10.23\] That's cool.
+**Jerod Santo:** \[56:10\] That's cool.
 
 **Nick Nisi:** You can create GitHub aliases and just have those as repeatable commands. And you can share them, because they just go into a gh config, or -- I can't remember the exact name, but basically a gitconfig file.
 

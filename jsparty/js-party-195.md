@@ -24,11 +24,11 @@
 
 **Jerod Santo:** \[laughs\] See? He's already knocking things down, and we're just getting started. So we have a couple of awesome recurring segments for everyone today, and we're gonna start off with story of the week.
 
-**Jingle:** \[00:03:35.23\] to \[00:03:50.24\]
+**Jingle:** \[03:35\] to \[03:50\]
 
 **Jerod Santo:** Story of the week is one of our recurring segments where we just take turns sharing what we believe is the most important or the biggest story of the week, or recently, or maybe just the one that we've found before the show started... So take it for what you will. Some of these are newsy, some of these are just cool things that we think are interesting. Here we go! Let's start off with Kball. What's your story of the week?
 
-**Kevin Ball:** \[00:04:14.13\] Yeah, so the story I picked up is not JavaScript-specific, but it was a study that came out recently, looking at the impact of the dramatic shift to remote work, looking at a whole bunch of Microsoft employees that apparently gave access to all sorts of tracking info about how they work, and who they meet with, and all these other things. So these researchers dug into it, and found a couple of interesting things about the impact, and how generalizable this is to remote work globally is an interesting question, because we all have seen working in a pandemic is not the same as just working remotely... But one of the things that stood out to me is how communication across different parts of the company changed. And what they said is they've found that the networks kind of ossified and shrunk. So people communicated as much or more with the people they were really, really close to, but those kind of weak connections across different parts of the organization went away, and there was a lot less communication across kind of outside of your immediate team, or beyond your department.
+**Kevin Ball:** \[04:14\] Yeah, so the story I picked up is not JavaScript-specific, but it was a study that came out recently, looking at the impact of the dramatic shift to remote work, looking at a whole bunch of Microsoft employees that apparently gave access to all sorts of tracking info about how they work, and who they meet with, and all these other things. So these researchers dug into it, and found a couple of interesting things about the impact, and how generalizable this is to remote work globally is an interesting question, because we all have seen working in a pandemic is not the same as just working remotely... But one of the things that stood out to me is how communication across different parts of the company changed. And what they said is they've found that the networks kind of ossified and shrunk. So people communicated as much or more with the people they were really, really close to, but those kind of weak connections across different parts of the organization went away, and there was a lot less communication across kind of outside of your immediate team, or beyond your department.
 
 It got me thinking a lot about remote work practices... I'm somebody who worked remotely long before the pandemic... I spend a ridiculous amount of time just scheduling random meetings with people. Having seen this, I'm like, "Oh. That's why." Because when you're remote, you don't get those casual connections; you have to be extremely deliberate about it.
 
@@ -52,7 +52,7 @@ It's also interesting - in a physical office there's proximity between teams; th
 
 **Jerod Santo:** Yeah. Same. So one thing I've read which ties in with what you've found, Kball, is interesting, about the culture changes in and around Apple because of their adoption of company-wide Slack. I think it's a Verge article which maybe I can find and link up... And I'm not sure if the move to Slack coincided with the remote or came before that. Whatever it is, still, you're using mostly these chat and digital tools to communicate company-wide... And how that changed dramatically the relationships cross-functionally, or even vertically inside the company, because now you have direct access to folks that you otherwise would have had to go upstairs and talk to if you were at HQ. There's lots of things that change, and change quite dramatically, because so many people went remote in dramatic fashion, thinking it was temporary, and now kind of having pushback by employees saying "No, no, no. This is better."
 
-\[00:08:13.11\] So we can find that one as well, but I think things are changing inside of organizations due to this. Some for the better, and some for the worst.
+\[08:13\] So we can find that one as well, but I think things are changing inside of organizations due to this. Some for the better, and some for the worst.
 
 **Kevin Ball:** Apple is a really interesting example too, because they are historically so incredibly private and siloed.
 
@@ -80,7 +80,7 @@ The other thing that's not newsy, that I think is really cool is Harry Roberts -
 
 **Jerod Santo:** Actually, that's gonna be a part of this conversation. Very poetically so, months later I'm reading this... And it's by Rach Smith, and her article says "I completely ignored the frontend development scene for six months. It was fine." And it's not the "It was fine" with the dog and fire who's saying that everything's fine; this is like actually okay. So if you don't know who Rach Smith is, she is a long-time developer. She works at Codepen, and has been publishing on the web for many years, so I've read her stuff over the years. In fact, she says in this post she first started coding professionally -- it was with Adobe Flash. Then Steve Jobs decided to kill Flash, and it forced her to learn how to animate things with JavaScript, CSS 3 and HTML Canvas.
 
-\[00:12:20.16\] She goes on to talk about a long progression in her career in which things moved fast and she was always trying to keep up... And then nine years passed, she took six months off, and as many of us do, we think if we're taking six months off from the frontend scene, or heck, from the web scene in general, that you're gonna be light years behind when you come back. But she found that not to be the case... So she says what she learned through this experience is that the number of languages she's learned, or the specific framework she's gained experience with matters very little. What actually matters is her ability to upskill quickly and effectively.
+\[12:20\] She goes on to talk about a long progression in her career in which things moved fast and she was always trying to keep up... And then nine years passed, she took six months off, and as many of us do, we think if we're taking six months off from the frontend scene, or heck, from the web scene in general, that you're gonna be light years behind when you come back. But she found that not to be the case... So she says what she learned through this experience is that the number of languages she's learned, or the specific framework she's gained experience with matters very little. What actually matters is her ability to upskill quickly and effectively.
 
 I appreciate Rach for sharing this, because it's something that -- I think it's a nice reminder that things do move fast, and the list of technologies on any given job post are changing all the time... And many times they'll want you to have ten years experience, and I think this has been out for eight years, or such monstrosities as that... But our fear of missing out, our fear of falling behind isn't not real, but isn't always well-placed. The technologies change, shift, but the foundations, the fundamentals and the skills that you're building transcend those technologies... So you're gonna be just fine. You're gonna be okay. I thought that that was a good story for this week, even though it was a story for a week in July. What do you think, Kball?
 
@@ -92,7 +92,7 @@ So I'm personally happier not trying to keep up with everything all the time. I 
 
 **Jerod Santo:** Yeah, I think it's fear of irrelevancy. I used to say that tongue-in-cheek, that my greatest virtue as a software developer is fear of irrelevancy, because that means I'm always abreast of what's new and shakin'. And I said that kind of tongue-in-cheek, because it's true, but it's overstated. And as a person who has been in the news for many years - I'm always logging with Changelog News what's fresh and new in open source; it's kind of what we do at Changelog - so I see a lot of things come and go... And I will say that in the last - let's just call it 10 years, the pace of releases and the announcements and the blog posts have multiplied exponentially at the merger of, let's just say, capitalism and open source.
 
-\[00:16:28.02\] When everybody jumped on open source as a way of getting ahead for whatever your goals are, waaaay more things came out. I remember when Rails took over back in '04, it was like THE big announcement of the year. There's other projects, but it wasn't like now, where there'll be 5, 6, 7 credibly awesome new things that actually launch on a weekly basis, that you're like "This is a whole world that is really interesting, and is powerful, and it's legit..." And there it is. And you see that across your feeds. So I think social media, to a certain degree, drives that; the FOMO, the feeling that other people are shipping things and you aren't, and then other people that you respect are also liking those things that are being shipped, and maybe you should jump on that ship...
+\[16:28\] When everybody jumped on open source as a way of getting ahead for whatever your goals are, waaaay more things came out. I remember when Rails took over back in '04, it was like THE big announcement of the year. There's other projects, but it wasn't like now, where there'll be 5, 6, 7 credibly awesome new things that actually launch on a weekly basis, that you're like "This is a whole world that is really interesting, and is powerful, and it's legit..." And there it is. And you see that across your feeds. So I think social media, to a certain degree, drives that; the FOMO, the feeling that other people are shipping things and you aren't, and then other people that you respect are also liking those things that are being shipped, and maybe you should jump on that ship...
 
 I don't know, there's a lot of just hype, and it's gotten louder and louder and louder. So disconnecting is a nice way to appease those fears... But that's what I'm seeing. Amelia, what do you think about why people have this fear of not catching the next wave, or whatever it is?
 
@@ -108,7 +108,7 @@ I think really experienced developers probably have all gone through a period wh
 
 **Kevin Ball:** Getting your second, your third, your fourth - not so hard. Once you're kind of in and you have a little bit more of a track record, it becomes a lot easier to find those jobs. And some of that is problems in our hiring practices, and the fact that companies don't wanna hire entry-level folks, because they've gotta invest in them... Some of it is we've got a glut of folks coming in from bootcamps, so there's just a way larger number of entry-level... But getting that first job is hard. So people are kind of looking at these job rec lists and they're like "Oh, this one wants these five things. Well, maybe if I learn those things, I'll have an opportunity there." And "Oh, this one over here - this wants these other five things", and they're trying to bridge across all the different things, so they can apply to all the different jobs to get their first job... Because it's hard, and they're getting a lot of rejections along the way.
 
-\[00:19:53.02\] This is pure speculation, because it's been a long time since I was in that boat; I won't date myself on that, but... I have this feeling like the way that we hire junior folks is contributing to the FOMO. Those of us who are more senior or who are helping make hiring decisions or things like that - there are things that we can do, that would reduce some of that FOMO.
+\[19:53\] This is pure speculation, because it's been a long time since I was in that boat; I won't date myself on that, but... I have this feeling like the way that we hire junior folks is contributing to the FOMO. Those of us who are more senior or who are helping make hiring decisions or things like that - there are things that we can do, that would reduce some of that FOMO.
 
 **Jerod Santo:** I think so. I think focusing in on individual technologies is one of the things. I was just also, I guess, thinking about the fact that this blog post comes from a very experienced developer, so it's kind of a mature thought, and why is that... And I think it's because when you just get started, maybe you only know one thing. If you're just like, "I learned React, sorta, and I can do stuff with it", something else coming and replacing React is existential at that point. Maybe that's where it comes from. I mean, if all I knew was Ruby on Rails, and all of a sudden Django was all anybody was hiring for, I need to learn something else, or get a different career.
 
@@ -132,7 +132,7 @@ Lots of thoughts there... A couple of good things coming out in the chat. One th
 
 There are other aspects of the browser which the UI also has thrown people for a loop, but in terms of web development, I guess -- I'm not sure how relevant that topic is for us web devs. I think in web developer world the main thing is it's still one rendering engine to rule them all, and Apple has not released their grip on WebKit-only-based browsers in iOS 15. That would be an amazing change and boon for web developers, to allow the Chromes and the Firefoxes and the Edges and the mobile Brave browsers to bring their own rendering engine. That didn't change. In fact, JS Party panelist Feross has taken to Twitter and started posting these very interesting and fun browser-ban tweets with some memes he's created to try to convince Apple to release their grip on the browsers inside of iOS. But that has not changed. That would be huge.
 
-\[00:24:44.17\] There are a few things that are new. I think the biggest one is probably the web extensions. Apple brought web extensions to Safari and macOS last year, and now they're bringing it to iOS, so people can write extensions for Safari, with web technologies, and they will run inside of Safari to do various things. That's pretty cool.
+\[24:44\] There are a few things that are new. I think the biggest one is probably the web extensions. Apple brought web extensions to Safari and macOS last year, and now they're bringing it to iOS, so people can write extensions for Safari, with web technologies, and they will run inside of Safari to do various things. That's pretty cool.
 
 **Christopher Hiller:** So you can run any sort of extension on mobile Safari?
 
@@ -150,7 +150,7 @@ So that's like just one example. Another one that's cool is there's a macOS exte
 
 There's also some other small improvements, things that were in beta, web features... But apparently, the link that I've put into our show notes is dead now, so I can't click on it and read those... So let's forget about it. I'll put that in the show notes if people are interested in certain small things, like new CSS features, new JavaScript features, can read through those. We'll be right back with Explain It like I'm Five."
 
-**Break:** \[00:27:50.15\]
+**Break:** \[27:50\]
 
 **Jerod Santo:** Alright, we are here, and it is time for Explain It like I'm Five. Kball, what have you got? Virtual DOM. That sounds complex. Can you explain it like I'm five?
 
@@ -174,7 +174,7 @@ So the virtual DOM is a representation of the DOM as a model, in JavaScript, tha
 
 **Jerod Santo:** This is why we should have saved Kball for last. Alright... Pass it over to Chris, who said "Please don't make me go first", so I'm making him go second. Chris, you're gonna explain variable hoisting, right?
 
-**Christopher Hiller:** \[00:32:24.19\] Yeah. So I'm trying to explain hoisting in JavaScript.
+**Christopher Hiller:** \[32:24\] Yeah. So I'm trying to explain hoisting in JavaScript.
 
 **Jerod Santo:** Hoisting.
 
@@ -212,7 +212,7 @@ The second tier of the thumb war is origins. So where your thumb came from. \[la
 
 Alright, tier two is over. We're both website-defined styles. Nobody wins. Tier three - this is the longest one, and this is the one you're usually dealing with when you're writing styles for a website... The first level is in-line styles. So... I cannot relate this to a thumb, but basically, you have a style attribute on an element, you say "color red", that's the first level. The second level is whether it's based on an ID; so if this is like a CSS rule that's targeting a selector that has an ID in it. The third level is classes, attributes, or pseudo-classes, so CSS rules that target any of those, and the fourth rule is a type or pseudo-element.
 
-\[00:36:18.22\] So in-line styles always win, and then for the rest of them, you kind of have to add up how many IDs, which are level two classes attributes, or pseudo-classes, which are level three, and types or pseudo-elements, which are level four. And whichever number is largest or smallest - that style wins.
+\[36:18\] So in-line styles always win, and then for the rest of them, you kind of have to add up how many IDs, which are level two classes attributes, or pseudo-classes, which are level three, and types or pseudo-elements, which are level four. And whichever number is largest or smallest - that style wins.
 
 Alright, we're almost over. Let's say there's a tie on that one, which - there very rarely is. Say there's two in-line styles. The last tier is position. So if one CSS style comes first and the other comes last, that later one will win. So that'll pretty much make sure there aren't any ties, because you can't define things at the same time.
 
@@ -286,7 +286,7 @@ And that is how thumb wars work in the web world. \[laughter\]
 
 **Kevin Ball:** And you wanna use it, but you're up at the top.
 
-**Christopher Hiller:** \[00:40:09.05\] Mm-hm...
+**Christopher Hiller:** \[40:09\] Mm-hm...
 
 **Jerod Santo:** And it was down there in the sawdust.
 
@@ -340,7 +340,7 @@ The cool thing about shipping containers is they're all the same exact size, and
 
 **Jerod Santo:** I didn't think about this very long. And that's what Docker is for computers. You just package up all the details of that particular thing that you wanna ship somewhere else and run, and you put it into this Docker container, and nobody has to care how the insides work. They just run it over there, it's all self-contained, like a shipping container. It's almost like you have a docker/shipping container metaphor that's just waiting to be used. There we go. How did I do?
 
-**Amelia Wattenberger:** \[00:44:06.18\] It was great. I was just thinking about how much money I would pay for a kid's book with all of these things in it.
+**Amelia Wattenberger:** \[44:06\] It was great. I was just thinking about how much money I would pay for a kid's book with all of these things in it.
 
 **Jerod Santo:** Oh, that would be kind of cool... Because we've done these throughout the years; we could actually gather up a bunch of them.
 
@@ -380,7 +380,7 @@ The cool thing about shipping containers is they're all the same exact size, and
 
 **Jerod Santo:** Yeah. Because I was gonna bail on the idea, because it was getting so awkward, and Nick just stuck to it, and I'm like "This is happening. We're doing it all the way through." Alright, this has been Explain it like I'm Five. We'll be right back for "I'm excited about X", where X is literally... Anything!
 
-**Break**: \[00:45:59.03\]
+**Break**: \[45:59\]
 
 **Jerod Santo:** So Chris, do you have anything you're excited about?
 
@@ -398,7 +398,7 @@ The cool thing about shipping containers is they're all the same exact size, and
 
 **Jerod Santo:** Yeah.
 
-**Christopher Hiller:** \[00:47:54.18\] So I'm gonna talk about Legos. They've got this Lego Ideas. If you don't know what that is - it's kind of like a contest. You make something with a Lego, you upload it to the site, and then people come and they vote on it. And if you get like 10,000 votes on your thing that you made, the Lego team and their designers will make sure that they can get the rights to whatever you've made, if it's like a licensed thing. But they'll work with you to actually make it a real Lego set, and they'll release it. There have been a whole bunch of these over the years. There was like \[unintelligible 00:48:34.05\] there was a fishing cabin, like a great, big fishing thing... Lots of other ideas. And birds, and things like that. Just random stuff. And I always get kind of excited when I see that another thing has made it to 10,000, because the ones that get that many votes are always really awesome, and I'm like, "Wow, I can't wait to not justify spending $300 on that when it comes out." But they're cool. There's so many things people make, and... I don't know, I'm just really impressed. And that's what I'm excited about, I guess.
+**Christopher Hiller:** \[47:54\] So I'm gonna talk about Legos. They've got this Lego Ideas. If you don't know what that is - it's kind of like a contest. You make something with a Lego, you upload it to the site, and then people come and they vote on it. And if you get like 10,000 votes on your thing that you made, the Lego team and their designers will make sure that they can get the rights to whatever you've made, if it's like a licensed thing. But they'll work with you to actually make it a real Lego set, and they'll release it. There have been a whole bunch of these over the years. There was like \[unintelligible 00:48:34.05\] there was a fishing cabin, like a great, big fishing thing... Lots of other ideas. And birds, and things like that. Just random stuff. And I always get kind of excited when I see that another thing has made it to 10,000, because the ones that get that many votes are always really awesome, and I'm like, "Wow, I can't wait to not justify spending $300 on that when it comes out." But they're cool. There's so many things people make, and... I don't know, I'm just really impressed. And that's what I'm excited about, I guess.
 
 **Jerod Santo:** How could would it be to have your thing made into an actual Lego set? That would be just amazingly cool.
 
@@ -452,7 +452,7 @@ The cool thing about shipping containers is they're all the same exact size, and
 
 **Jerod Santo:** \[laughs\]
 
-**Christopher Hiller:** \[00:52:09.01\] I don't wanna be creative. I wanna follow directions and make the thing.
+**Christopher Hiller:** \[52:09\] I don't wanna be creative. I wanna follow directions and make the thing.
 
 **Jerod Santo:** Right. I want it to look awesome.
 
@@ -486,6 +486,6 @@ What I'm not so excited about is that our rival podcast, Go Time, those ghouls o
 
 Well, that's our show for today. Thanks for hanging out. Hopefully, you learned something. Hopefully, you laughed a little, or at least rolled your eyes a lot. Kball, Amelia and Chris - thanks for partying with me today. That's JS Party for this week. We'll talk to y'all next time!
 
-**Outro:** \[00:56:55.10\]
+**Outro:** \[56:55\]
 
 **Horse JS:** Don't be the last kid on your block to get Firebase JS SDK 9.0.0. Don't be.

@@ -8,7 +8,7 @@
 
 **Adam Stacoviak:** And for the listeners of this show, they know that we go deep into our guest's pasts, but before we actually officially kick off the show, I do have a few sponsors I wanna just quickly touch on before we get started.
 
-**Break:** \[00:01:44.27\]
+**Break:** \[01:44\]
 
 **Adam Stacoviak:** Without further adieu, let's dive deep into Sam's past, I suppose... Sam, you know your story a little bit better than I do - where exactly do we begin to tell the story of where you're at today?
 
@@ -36,7 +36,7 @@
 
 **Adam Stacoviak:** Yeah... Alright, continue. So you guys were in high school, you were doing these things... Continue. I jumped in on there.
 
-**Sam Soffes:** \[00:03:46.26\] Yeah, so I moved to Oklahoma that December - so I was like 18, I had just graduated - to work at LifeChurch.tv, doing PHP full time. Then the iPhone SDK got announced, and I was like "Well, I kind of know Objective-C. Why don't we make something?" So I got to spend six months working on an app called Bible that launched the first day of the App Store. Last I looked there were like 13 million people using it, but I think there's way more now. That was several years ago.
+**Sam Soffes:** \[03:46\] Yeah, so I moved to Oklahoma that December - so I was like 18, I had just graduated - to work at LifeChurch.tv, doing PHP full time. Then the iPhone SDK got announced, and I was like "Well, I kind of know Objective-C. Why don't we make something?" So I got to spend six months working on an app called Bible that launched the first day of the App Store. Last I looked there were like 13 million people using it, but I think there's way more now. That was several years ago.
 
 **Adam Stacoviak:** Yeah, there's a lot more users... I'm actually one of those users, so yeah, definitely.
 
@@ -74,7 +74,7 @@
 
 **Sam Soffes:** Well, it was great when I started, because it was like all caps, and you'd use a center tag... It was really easy. Then JavaScript kind of came around to do pop-ups, and it was like all I used it for for a long time... Then CSS kind of got introduced, and then like, no more tables, and I was like -- I don't know, I kind of started right before everything kind of took off, so it was nice to just learn along the way. Right now if you're starting, I can't imagine -- there's so many things to learn.
 
-\[00:08:05.24\] Then I started doing PHP and a little bit of Flash, and then finally Objective-C... I spent all my time programming. I never really played any sports... I was in bands, but... Yeah, I just didn't really care about writing a good paper. I still suck at writing.
+\[08:05\] Then I started doing PHP and a little bit of Flash, and then finally Objective-C... I spent all my time programming. I never really played any sports... I was in bands, but... Yeah, I just didn't really care about writing a good paper. I still suck at writing.
 
 **Adam Stacoviak:** Well, you're writing blogs really well.
 
@@ -110,7 +110,7 @@ I'm really lucky to be in an industry where college isn't required. But if you'r
 
 **Sam Soffes:** Yeah, it's a funny story about learning Objective-C... I went with my friend (named Sam) to an Apple tech talk for Lion -- or no, not Lion... Leopard, or Tiger, an older one. And they were showing off all the developer tools, and I was like "This is awesome." We just went because we were Apple fans, but we didn't know anything...
 
-\[00:11:53.21\] So I went home and I bought a book and played with it just because I really liked Apple. It wasn't like planning on my part, or anything. It's been great. I really like Objective-C in general, but building products with iPhone is very exciting.
+\[11:53\] So I went home and I bought a book and played with it just because I really liked Apple. It wasn't like planning on my part, or anything. It's been great. I really like Objective-C in general, but building products with iPhone is very exciting.
 
 **Adam Stacoviak:** So prior to that moment where you guys went to this tech talk for Apple just because you were fanboys - prior to that were you doing the HTML stuff, or were you kind of getting geeky?
 
@@ -144,7 +144,7 @@ But it's interesting -- I remember when the iPhone SDK came out... I think Faceb
 
 **Adam Stacoviak:** Yeah. That's definitely cool stuff. Let's take a quick pause to thank a sponsor. When we come back, we'll talk to Sam more about some awesome stuff from his past and get to know him a bit more.
 
-**Break:** \[00:15:40.07\]
+**Break:** \[15:40\]
 
 **Adam Stacoviak:** Sam, we kind of went on that riff by talking about how you didn't attend college, and the early days of the iPhone SDK, and the fact that you can have this device in your pocket and you can make stuff for it, and you can show it to your friends, and it was just this thing at first... At what point do we get into the picture of like you working for LifeChurch and you start working on the Bible app?
 
@@ -160,7 +160,7 @@ But it's interesting -- I remember when the iPhone SDK came out... I think Faceb
 
 Then in Dallas it was like, well -- I had met a friend at WWDC, the Apple conference, and we talked and kind of hit it off, and I was like "You should hire me", because he had just started a company. And I had like no money at all, so he kind of like rescued me from all that. I moved there just to make it easier to work together.
 
-\[00:20:04.09\] Then I left there and contracted, staying in Dallas. Then I decided I wanted to move to San Francisco, so I moved to San Francisco -- just to move to San Francisco, because I knew that's where everything was.
+\[20:04\] Then I left there and contracted, staying in Dallas. Then I decided I wanted to move to San Francisco, so I moved to San Francisco -- just to move to San Francisco, because I knew that's where everything was.
 
 **Adam Stacoviak:** Is that true?
 
@@ -190,7 +190,7 @@ Then I was like, "Well, I don't really care about that anymore, because I kind o
 
 **Adam Stacoviak:** So you went and did it. What was the experience like getting -- is there a fun story around how you got hired or how you took the job at Hipstamatic? Because that was after Instagram, right? Instagram was already out, and Hipstamatic was coming out and it had some fun things going on, right?
 
-**Sam Soffes:** \[00:24:00.06\] No, actually Hipstamatic was out -- they were one of the first photo apps on the store. They were app of the year the year before Instagram got app of the year. They have kind of always been around, and I'd seen it and I was kind of a fan, but their co-founder emailed me and said "Hey, I saw this tutorial in your blog post. Thanks so much, we're using this in Hipstamatic. Do you wanna meet up?" and I was like "Sure." Then they were like, "Well, we want you to come on and lead this new product and work here." I was like, "Oh, well that sounds fun!", so I took it.
+**Sam Soffes:** \[24:00\] No, actually Hipstamatic was out -- they were one of the first photo apps on the store. They were app of the year the year before Instagram got app of the year. They have kind of always been around, and I'd seen it and I was kind of a fan, but their co-founder emailed me and said "Hey, I saw this tutorial in your blog post. Thanks so much, we're using this in Hipstamatic. Do you wanna meet up?" and I was like "Sure." Then they were like, "Well, we want you to come on and lead this new product and work here." I was like, "Oh, well that sounds fun!", so I took it.
 
 I mean, it was kind of a long back and forth, and it was like several months later after meeting them that I actually went to work there. And I was actually a contractor first, because I was like, "Well, I just left Scribd, and it's like I don't really wanna work for anyone else again", and then I was like, "Well, okay. I kind of like really wanna lead this product." As a contractor, it's hard to have ownership of the project when you're kind of just like told what to do as a contractor.
 
@@ -208,7 +208,7 @@ I don't know, I had hoped to make a bigger impact, but I feel like I didn't real
 
 **Sam Soffes:** Yeah, so I wrote that on the day all of my friends graduated from college. I was like, "What have I done in the last four years?" Because this whole time I was like, "I'm not going to college and I'm gonna get all this stuff done" and I was like "Oh, time's up. Now I'm gonna be like on the same page as everyone else, so what have I done, what can I show for the last four years?" It was like, "Well, I worked at some companies..." The project I was working on at Scribd no one uses. The contract work I did before that, they killed the project, it's not out. I built a ton of software that's never been released... That I'm proud of, but who cares if I'm proud of it? I mean, I'm not using it anymore anyway... I mean, I made Bible and a lot of people really like that, so that's cool, but I haven't worked on that in years, so I'm sure none of my code is even in it anymore.
 
-\[00:28:05.16\] I was like, "I have all this experience, I guess that's valuable... I feel like everything I've created though isn't really that useful, due to one thing or another." Maybe that's why I'm so passionate about doing my own thing, so I can not have stupid things kill what I'm working on.
+\[28:05\] I was like, "I have all this experience, I guess that's valuable... I feel like everything I've created though isn't really that useful, due to one thing or another." Maybe that's why I'm so passionate about doing my own thing, so I can not have stupid things kill what I'm working on.
 
 **Adam Stacoviak:** And have more control.
 
@@ -232,7 +232,7 @@ Now that I'm doing things and I have friends... Because moving a lot makes that 
 
 **Adam Stacoviak:** Well, let's take a quick break and pick back up there.
 
-**Break:** \[00:31:51.02\]
+**Break:** \[31:51\]
 
 **Adam Stacoviak:** Sam, the one other thing I wanna ask you about, and we talked quickly about this before we kicked off the call, and I was really just intrigued by the answer you gave, and I think just to kind of extend and close that topic - the listeners probably wanna hear this as well, because I enjoyed hearing it from you... At one point you also said "I think most of my outlook on life today is affected by almost being married and then not being married." You're young, right? You just turned 23, you're not some old strap; you're a young buck, and that's not to say it's a bad thing, but how true is that statement even today? That was a couple years ago...
 
@@ -250,7 +250,7 @@ Now that I'm doing things and I have friends... Because moving a lot makes that 
 
 The listeners don't know this, but we share similar things. We've had breaks in our relationships that have defined the next thing we've done, and I just kind of wanna know a bit more about how it defined where you went and what you did.
 
-\[00:35:49.21\] Let's delay Cheddar just a little bit, let's talk about open source for a bit, because I know that you're a really -- obviously, you're really good at coding and you're really good at releasing things, and you've sort of adopted this mindset that everything you wanna do should be open-sourced. You can even mention what you've said before the call started if you'd like, but open source - and you even wrote a blog post about it, too... You said "Open source is rewarding." What do you mean about that?
+\[35:49\] Let's delay Cheddar just a little bit, let's talk about open source for a bit, because I know that you're a really -- obviously, you're really good at coding and you're really good at releasing things, and you've sort of adopted this mindset that everything you wanna do should be open-sourced. You can even mention what you've said before the call started if you'd like, but open source - and you even wrote a blog post about it, too... You said "Open source is rewarding." What do you mean about that?
 
 **Sam Soffes:** I started working on this thing called SSToolKit a long time ago, in like '08 I think. It was just some things I wrote in Bible that I could reuse in my next app, because I was starting to do contract work. I put it on GitHub, because where else would I put it? It was free and open source... Maybe it was '09, I think that's when I sent it to GitHub. Whatever. And I've just kind of always added stuff to it; I didn't really expect anyone to use it or even look at it.
 
@@ -282,7 +282,7 @@ That was kind of like the first thing I open-sourced, and since then it's like "
 
 **Sam Soffes:** It's SSToolK.it. Buying an Italian domain is a giant pain, but not as hard -- when I bought my personal domain (Soff.es), I bought it in Spanish, on a website, using Google Translate.
 
-**Adam Stacoviak:** \[00:40:21.01\] No way. \[laughs\]
+**Adam Stacoviak:** \[40:21\] No way. \[laughs\]
 
 **Sam Soffes:** Because at the time I couldn't find an American place to buy it. Since then, several places have it. I wonder if Hover does, because right now it's at GoDaddy, and I cannot stand -- that website hurts my eyes.
 
@@ -308,7 +308,7 @@ But all that to say that after that conversation I was so impressed with just yo
 
 **Sam Soffes:** Yeah, Laurent -- I don't know if I'm saying his name right (lrz), he's been fantastic; a really great guy, and he's been really supportive of being on my own and stuff, because he just left Apple to do his own company. So yeah, he's a great guy.
 
-**Adam Stacoviak:** \[00:43:59.03\] Yeah, Laurent Sansonetti is - and I only know that because I heard Wen practice it a couple times before the show actually goes off... So those who are listening to this Founders Talk, you also know about The Changelog, so I get the chance to mention that show here and there, but I also happen to be the producer and editor, so I get to kind of just make things happen behind the scenes, take care of sponsorships, but I also get to edit it, which is really rewarding for me because I get the chance to sit back and listen to some very deep - and don't take this the wrong way, Sam, but very geeky conversations that I would not otherwise be involved in. And it's kind of cool because I get to -- you know, I can't be a part of that conversation because it's after the fact, but I get a chance to listen in. I really enjoyed some of the conversations you guys had around RubyMotion.
+**Adam Stacoviak:** \[43:59\] Yeah, Laurent Sansonetti is - and I only know that because I heard Wen practice it a couple times before the show actually goes off... So those who are listening to this Founders Talk, you also know about The Changelog, so I get the chance to mention that show here and there, but I also happen to be the producer and editor, so I get to kind of just make things happen behind the scenes, take care of sponsorships, but I also get to edit it, which is really rewarding for me because I get the chance to sit back and listen to some very deep - and don't take this the wrong way, Sam, but very geeky conversations that I would not otherwise be involved in. And it's kind of cool because I get to -- you know, I can't be a part of that conversation because it's after the fact, but I get a chance to listen in. I really enjoyed some of the conversations you guys had around RubyMotion.
 
 Here's one topic I wanted to talk to you about, just because of your passion with that show in particular, that particular episode, and RubyMotion, and Ruby, and Objective-C and iOS, and the fact that you also say that open source is really rewarding... So Laurent has been able to build a business around an open-sourced library, or open source libraries. There's a couple of them that are a part of that, and I think that not all of RubyMotion is open source, but there are pieces of it that are. What do you think about people finding unique ways to build businesses? Even like -- what's the database? I can't recall the name now, for some reason.
 
@@ -324,7 +324,7 @@ The part he's open-sourcing is the tools and stuff to work with RubyMotion, whic
 
 **Sam Soffes:** Yeah, like two weeks ago tomorrow.
 
-**Adam Stacoviak:** \[00:48:06.24\] Right. So you've got this, and you even have the dotcom codebase as well, you're looking at open-sourcing it. What's your motivation behind it? What would be the motivation?
+**Adam Stacoviak:** \[48:06\] Right. So you've got this, and you even have the dotcom codebase as well, you're looking at open-sourcing it. What's your motivation behind it? What would be the motivation?
 
 **Sam Soffes:** Well, the first thing I wanna do immediately is gonna be the developer docs, per your recommendation... \[unintelligible 00:48:20.24\] fix some of my typos, because I'm terrible at spelling. As far as everything else goes, all the apps are free; there's an optional monthly subscription for Cheddar, and that's how I make money. So I figure -- I mean, if all the apps are free anyway, why not? Especially since the API is open. You could write your own if you wanted to, and why don't you just help me make mine better, instead of writing your own? I mean, you write your own, I don't care.
 
@@ -344,7 +344,7 @@ And another thing -- Twitter is a great example, because how many Twitter client
 
 **Adam Stacoviak:** I think what you've done with Cheddar is pretty awesome, honestly. As a non-designer designer, I think you've done a pretty well job of keeping it simple. This is a neat topic to talk about, but I think it's kind of neat what non-designers do, and they consider themselves non-designers. In your case, I think that Cheddar is simplistically beautiful in the fact that it does keep lists simple; it doesn't try to go other ways, like Things or Flow, that's like a web app in an iOS app, or others that are just known for doing to-do lists. You just keep it really simple. I think it's done really well, in my opinion.
 
-**Sam Soffes:** \[00:52:10.26\] A funny story, I actually almost worked on Flow. I mean, not almost... They asked me, because they were thinking about making a native Mac app at the time, and then they decided to make the web app to look really interactive, and it never worked out. I mean, that was like years and years ago; I was still living in Texas. It came out way after, like over a year after. I know that the developer for Flow for iOS, he's at Square now. It's kind of funny how we were all close.
+**Sam Soffes:** \[52:10\] A funny story, I actually almost worked on Flow. I mean, not almost... They asked me, because they were thinking about making a native Mac app at the time, and then they decided to make the web app to look really interactive, and it never worked out. I mean, that was like years and years ago; I was still living in Texas. It came out way after, like over a year after. I know that the developer for Flow for iOS, he's at Square now. It's kind of funny how we were all close.
 
 **Adam Stacoviak:** It's also funny how you guys bounce around. I mean, I've even done my fair share of bouncing around, but it's just so funny how people that used to work at Google now work at Microsoft, or who used to work at XYZ company now works at Square, or Hipstamatic to Nothing Magical, for example, or from your company to GitHub, for example... It's just kind of crazy how we move around. I think it's the nature of the beast, right?
 
@@ -370,7 +370,7 @@ As I was thinking about it more and more, I was like "Well, this will be great, 
 
 **Adam Stacoviak:** So you actually accepted the offer.
 
-**Sam Soffes:** \[00:56:12.03\] I did.
+**Sam Soffes:** \[56:12\] I did.
 
 **Adam Stacoviak:** Is this what you did allude to then because you had this [blog post](https://soffes.blog/staying-strong), "Staying Strong", and in there you didn't mention any names... So this is actually what we're talking about, right?
 
@@ -400,7 +400,7 @@ That was a really tough decision, because as an engineer, GitHub is the best pla
 
 **Adam Stacoviak:** Right, think about it. Make a wise decision.
 
-**Sam Soffes:** \[00:59:52.01\] But you can get a job anywhere. Surely you'll get tons of recruiter emails, most of which are probably terrible, but... Everyone is hiring. I know two companies right now that would hire an iOS engineer today if I were to send them an email with like "Hey, I know someone looking for work." Everyone's hiring, and that said, don't just jump from job to job. I think that's the bigger thing I've learned. I've had a lot of other great opportunities before GitHub, even while at Hipstamatic, and I was like, "Well, I don't hate working at Hipstamatic... I'm just gonna switch jobs, and start again and be really happy about it for a couple of months" and then like "Okay, well, I'm out of job again. Something else will come along and I'll move jobs..." That's pointless, besides having a lot on my resume.
+**Sam Soffes:** \[59:52\] But you can get a job anywhere. Surely you'll get tons of recruiter emails, most of which are probably terrible, but... Everyone is hiring. I know two companies right now that would hire an iOS engineer today if I were to send them an email with like "Hey, I know someone looking for work." Everyone's hiring, and that said, don't just jump from job to job. I think that's the bigger thing I've learned. I've had a lot of other great opportunities before GitHub, even while at Hipstamatic, and I was like, "Well, I don't hate working at Hipstamatic... I'm just gonna switch jobs, and start again and be really happy about it for a couple of months" and then like "Okay, well, I'm out of job again. Something else will come along and I'll move jobs..." That's pointless, besides having a lot on my resume.
 
 **Adam Stacoviak:** Yeah, actually if I was interviewing you for a job today, I would say "Why all the change?" But you even said it yourself though, Sam... You said that you almost took it with the plan to just come right back to where you're at now, and it just seemed insane to do that... Because you've done that before. The definition of insanity is to keep doing the same thing over and over and over and expecting a different result, but you've done this song and dance before.
 

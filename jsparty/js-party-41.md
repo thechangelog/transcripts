@@ -12,7 +12,7 @@
 
 I've done a decent amount of work over the past couple years on compilers that are specifically designed for performance-related reasons, and not necessarily transpiling languages, and stuff like that.
 
-**Kevin Ball:** \[00:04:16.11\] There's some interesting possibilities there... Everything from kind of what Webpack is trying to with tree shaking, and things like that, but Ember is really pushing the boundaries there, and having a VM that is perhaps not running just pure JavaScript... Can you talk a little bit more details on what you're doing there?
+**Kevin Ball:** \[04:16\] There's some interesting possibilities there... Everything from kind of what Webpack is trying to with tree shaking, and things like that, but Ember is really pushing the boundaries there, and having a VM that is perhaps not running just pure JavaScript... Can you talk a little bit more details on what you're doing there?
 
 **Chad Hietala:** Right... So we've gone through a couple -- or, actually, I think three iterations of the rendering engine inside of Ember, and all of them start off as like a string-based concatenation solution that I think a lot of people did -- maybe in 2011 that's basically what everybody did... And then we moved to more of a DOM-based solution, so we would take templates, compile them into a JavaScript program that constructed DOM, and this is kind of what everybody is doing today effectively. You have some DSL or DSL-like thing, it gets compiled to JavaScript, and you run it in the browser.
 
@@ -34,7 +34,7 @@ The Glimmer VM is different in this regard. What we actually end up doing is tak
 
 **Chad Hietala:** So the big issue with what we've done in the web development community is that we've pushed more and more emphasis on JavaScript. We used to start with HTML, and CSS, and then you just layered a little bit of JavaScript to get some interactivity on it, and now we really start with JavaScript first, and then we add CSS to it, but the CSS may even be in JavaScript land, so... HTML is basically nowhere to be seen for a lot of people, and there is an inherent cost of having everything in JavaScript, and that is it's a textual-based language that at runtime it needs to be turned into code that a computer actually can run. So it has to go through a parsing step, it has to go through a compilation step, and so because of that, the startup time of these applications can be rather large, especially if you're on like a constrained device, low-end device... Or even like the network aspect of it - if you have put all your concerns inside of JavaScript, your JavaScript bundles are gonna be rather large right out of the gate.
 
-\[00:08:14.09\] So those are like the two areas that we're kind of concerned about with the Glimmer VM... It's more or less like JavaScript's startup time. So by compiling templates to binary, you actually bypass the parse and compile step, because the browser just sees the binary data as raw memory, and it just passes it directly to the native library... So for the templates inside of your application - they end up being anywhere from like 25% to 40% of a typical Ember application, so it's a rather large chunk of a project, so if we can bypass parse and compile or not compile those things to JavaScript, but instead of a format that doesn't have these inherent -- not performance issues, but they're just the truth of the world; if you're compiling to JavaScript, it has to go through a parse and compile. If we're not doing that, then we can speed up the startup time of these applications, and a lot of times even the transmission of the templates and everything like that over the wire.
+\[08:14\] So those are like the two areas that we're kind of concerned about with the Glimmer VM... It's more or less like JavaScript's startup time. So by compiling templates to binary, you actually bypass the parse and compile step, because the browser just sees the binary data as raw memory, and it just passes it directly to the native library... So for the templates inside of your application - they end up being anywhere from like 25% to 40% of a typical Ember application, so it's a rather large chunk of a project, so if we can bypass parse and compile or not compile those things to JavaScript, but instead of a format that doesn't have these inherent -- not performance issues, but they're just the truth of the world; if you're compiling to JavaScript, it has to go through a parse and compile. If we're not doing that, then we can speed up the startup time of these applications, and a lot of times even the transmission of the templates and everything like that over the wire.
 
 **Kevin Ball:** This is something that I think we're seeing a lot more interest in now that Web Assembly is a thing...
 
@@ -52,7 +52,7 @@ We've actually done some work in this area to pair these two worlds together, so
 
 Facebook is doing a lot of interesting things around Prepack, which is an optimizing compiler for JavaScript. It is a very challenging problem to solve due to the dynamic nature of JavaScript, but they're also really doing a lot of work in compilers, as well.
 
-**Kevin Ball:** \[00:12:26.13\] That's interesting... So where do you see the field going?
+**Kevin Ball:** \[12:26\] That's interesting... So where do you see the field going?
 
 **Chad Hietala:** I think it's kind of hard to say, but I think there is a lot of things pointing towards having more low-level implementations of things... Things like Web Assembly I think are a good example of that; the Glimmer VM stuff is a good example of that. I believe that Chris Baxter and Malte, from the AMP team, are going to be talking about some low-level things that are also kind of in the same realm of like what the Glimmer VM is trying to do, and everything like that. So it's coming up with, I think, these different, or more efficient formats or more efficient compilation targets for building stuff for the web. And I think a lot of this is coming from the fact that the markets that a lot of people are trying to be successful in are constrained devices in terms of like if you're in emerging markets, you really have to think about the power of those devices in those markets, and you can't just be dumping large, huge piles of JavaScript onto your users, but at the same time you want these applications to be very interactive; you don't want to necessarily remove functionality, but the reality of these worlds is that the network is not very good and the devices aren't that great.
 
@@ -66,9 +66,9 @@ So compilers let you get a lot of that out of the tooling, so you don't have to 
 
 Then what happened in the story is like one of the engineers that used to work on v8 -- or not v8, he used to work on TurboFan, which was the actual Git compiler inside of v8... He says, "Oh, you don't actually need WebAssembly, you just need to hand-tune, optimize all this JavaScript and you can get a lot of performance out of it and maybe some corrections algorithms", but I think that tells you something about the underlying platform. Not everybody is a JavaScript engine engineer, and you can't ask a person that's building a lot of products and everything like that and they have different concerns, like "Please tell me all the hot paths inside of v8 so I can get the most performance out of this thing." It's not very scalable, in my opinion.
 
-\[00:16:21.25\] I think what we have to be choosing and thinking about or even building, are tools that give the largest group of people the most predictable performance out of the box. I think that's the types of tools that we should be really thinking about building.
+\[16:21\] I think what we have to be choosing and thinking about or even building, are tools that give the largest group of people the most predictable performance out of the box. I think that's the types of tools that we should be really thinking about building.
 
-**Break:** \[00:16:42.18\]
+**Break:** \[16:42\]
 
 **Kevin Ball:** That's really interesting... We talked about that and it made me think about traditional compilers - you're compiling for multiple different targets, and often times optimizing down to the level of cash hierarchy and things like that. Do you see a direction going in that way for the web, for either JavaScript or Web Assembly, where they're literally shipping either different binaries, or binaries that are adaptive and run in slightly different ways to tune themselves to the engine performances?
 
@@ -80,7 +80,7 @@ Well, with things like Web Assembly, you start at highly optimized code because 
 
 **Chad Hietala:** Yeah, yeah.
 
-**Kevin Ball:** \[00:20:02.00\] Another related question... So another area where we have a big gap, because folks feel like they need to become experts to be able to do it, is dealing with accessibility, and making web applications accessible across a wide range of devices is something that -- it's one of those things where everybody kind of knows they should do it, and almost nobody actually does do it...
+**Kevin Ball:** \[20:02\] Another related question... So another area where we have a big gap, because folks feel like they need to become experts to be able to do it, is dealing with accessibility, and making web applications accessible across a wide range of devices is something that -- it's one of those things where everybody kind of knows they should do it, and almost nobody actually does do it...
 
 **Chad Hietala:** Right.
 
@@ -104,7 +104,7 @@ When you talk about domain-specific languages and templates, that's one area whe
 
 **Kevin Ball:** Are there any other domain-specific languages that you're seeing in the JavaScript ecosystem that aren't yet taking advantage of some sort of compilation step that probably could?
 
-**Chad Hietala:** \[00:23:48.09\] Yeah, I think there's huge opportunities for both Vue and Angular to do fundamentally what we're doing. I think in 2016 the Angular team came out with a blog article that was called "Why we use templates" or something to that effect, and we are philosophically aligned in why we choose to use templating languages over just using JavaScript. It has a lot to do with being able to swap out these implementations without breaking our end users' code. I think there's huge power in that, and in large organizations like LinkedIn we have a hundred applications, and if we want to have people take advantage of these new primitives that exist in the browser immediately, we just swap out that underlying implementation and developers don't actually have to change any code.
+**Chad Hietala:** \[23:48\] Yeah, I think there's huge opportunities for both Vue and Angular to do fundamentally what we're doing. I think in 2016 the Angular team came out with a blog article that was called "Why we use templates" or something to that effect, and we are philosophically aligned in why we choose to use templating languages over just using JavaScript. It has a lot to do with being able to swap out these implementations without breaking our end users' code. I think there's huge power in that, and in large organizations like LinkedIn we have a hundred applications, and if we want to have people take advantage of these new primitives that exist in the browser immediately, we just swap out that underlying implementation and developers don't actually have to change any code.
 
 **Kevin Ball:** Yeah. In Ember in particular, I think of all the frameworks - Vue might be close there - they've done a tremendous job at making upgrades easy. The Vue 1 to 2 switch-over was hard, but since then they've been really good about being consistent. That's something perhaps Angular has not been as good on, but... Yeah, that is an interesting highlight.
 
@@ -130,7 +130,7 @@ We'll see what happens, but it's kind of interesting... We now actually have a b
 
 **Chad Hietala:** Yeah, sure.
 
-**Kevin Ball:** \[00:28:04.29\] I've never used Ember in a production project. I've done some playing around with it... Largely because I had friends who were big advocates. Well, the other thing is Yehuda Katz is one of my tech idols; everything he touches, I'm like "Oh, that's brilliant!" But it's always sort of been the chug-along, never taken off... Do you have a feeling as to why? Why is it that we talk about React, Angular, Vue, and Ember is doing this wicked cool stuff with the binary engine, and doing all these things, but it's not taken off?
+**Kevin Ball:** \[28:04\] I've never used Ember in a production project. I've done some playing around with it... Largely because I had friends who were big advocates. Well, the other thing is Yehuda Katz is one of my tech idols; everything he touches, I'm like "Oh, that's brilliant!" But it's always sort of been the chug-along, never taken off... Do you have a feeling as to why? Why is it that we talk about React, Angular, Vue, and Ember is doing this wicked cool stuff with the binary engine, and doing all these things, but it's not taken off?
 
 **Chad Hietala:** So I think Ember has always kind of been like this framework that has kind of always been there, you kind of talk about it, and it's lasted I think several different JavaScript half-lives at this point... So it came out right around the same time that Backbone came out, and no one really talks about Backbone anymore.
 
@@ -164,7 +164,7 @@ We'll see what happens, but it's kind of interesting... We now actually have a b
 
 As we're going through this process, we've learned a lot of things along the way. One example of that is I think the thing that React is most widely known for - the whole setState model... Like, setState, re-render the world. And so while we've had templates ever since the beginning of Ember, we were able to recreate those semantics inside of Ember. All the versions of Ember have this.set, newer versions don't have these Accessor type of APIs, but the same thing is that when you call this.set, you reset the world, we re-render the entire application.
 
-\[00:32:00.02\] So we've been able to take things from different communities and kind of like figure out how they map into the Ember world. Maybe the tide is turning a little bit on this, because I think we are starting to see things -- what are called "no configuration" type of solutions; it's just convention over configuration, it just has a different name... So things like Prettier are now becoming very popular, and it's because people don't have to think a lot about these decisions.
+\[32:00\] So we've been able to take things from different communities and kind of like figure out how they map into the Ember world. Maybe the tide is turning a little bit on this, because I think we are starting to see things -- what are called "no configuration" type of solutions; it's just convention over configuration, it just has a different name... So things like Prettier are now becoming very popular, and it's because people don't have to think a lot about these decisions.
 
 Ember comes with you, the same type of philosophy that these decisions that you're making with your team don't really -- things like "Okay, how should we lay out the project?" The file system problem is always a thing that people argue about, like "How do I lay out a project?" Well, it matters, but it doesn't matter to the extent that it's gonna harm your business if you do not get the file system correct on your application.
 
@@ -180,13 +180,13 @@ I feel good about the future of Ember, just because of how things are trending. 
 
 **Chad Hietala:** Yeah. I think the tide is changing a little bit in terms of the front-end ecosystem.
 
-**Break**: \[00:34:22.09\]
+**Break**: \[34:22\]
 
 **Kevin Ball:** One of the beautiful things in the last few years is that we've seen so much cross-pollination, and we've seen -- folks will experiment with something, and if it works well, it gets adopted across the board, and we saw that with virtual DOM, we see that with the set.state model, we've seen component-based architectures... All these things are kind of propagating out and it's making the web better.
 
 **Chad Hietala:** Yeah.
 
-**Kevin Ball:** \[00:36:12.23\] I think another one that Ember was early on was the server-side rendering, Ember FastBoot, and things around those things...
+**Kevin Ball:** \[36:12\] I think another one that Ember was early on was the server-side rendering, Ember FastBoot, and things around those things...
 
 **Chad Hietala:** Yeah.
 
@@ -218,7 +218,7 @@ We as an industry are getting better at managing change, at managing open source
 
 **Chad Hietala:** I did a little bit of like -- so at the startup that I worked at before I went to LinkedIn, I had to build an analytics dashboard, and Ember had just come out, I thought it was pretty cool... At the time, the documentation was not that great, and I reached out to Trek, who was one of the original core team members, and I was just trying to figure out how this thing worked... And I'm like, "Yeah, it seems kind of cool, but I have a team of four other people and I can't sit here and write documentation for this framework right now..." So we went and built an Angular 1 application, but always kind of like kept an eye on the Ember ecosystem, yeah... So it's been about -- when I went to LinkedIn, we were building a lot of Backbone applications, and we were dealing with a lot of the fundamental things about building a client-side application.
 
-\[00:40:11.21\] I don't know how many people remember, but Backbone views - if you had nested views inside of them, you had to make sure that you properly nuked the child views before you tore down the parent, otherwise you had like these zombie views sitting around, that are getting all the user events, and all that stuff... So we were spending way too much time thinking about these fundamental things that I think other frameworks like Angular had already solved. We just needed something that was solving some of these core things about building these types of applications... So that's kind of how I got started with Ember stuff.
+\[40:11\] I don't know how many people remember, but Backbone views - if you had nested views inside of them, you had to make sure that you properly nuked the child views before you tore down the parent, otherwise you had like these zombie views sitting around, that are getting all the user events, and all that stuff... So we were spending way too much time thinking about these fundamental things that I think other frameworks like Angular had already solved. We just needed something that was solving some of these core things about building these types of applications... So that's kind of how I got started with Ember stuff.
 
 **Kevin Ball:** Yeah. So one of the things I've noticed is LinkedIn is a bit sponsor of Ember in a lot of ways, or at least has a lot of employees who are involved with Ember and on the core team, and things like that... Can you talk a little bit about LinkedIn's approach to open source, and how you do that? I know LinkedIn is now part of Microsoft, so there may be some changes that have happened there, but...
 
@@ -230,7 +230,7 @@ We also do different -- when we open-source projects internally, we have process
 
 So that's kind of like how we do open source there... We're active members of the community; we don't really see ourselves like taking over it, or whatever. We go through the same process that anybody at any company would go through.
 
-**Kevin Ball:** \[00:43:58.25\] Yeah... I really appreciate that, over -- there are some companies that do a lot of open source, but it's all their open source. They're going to drive the decision-making, through their channels... I mean, I've been involved in one of those projects, and those are better than closed source projects, but it certainly sometimes feels like they're railroading some of the rest of the community out there...
+**Kevin Ball:** \[43:58\] Yeah... I really appreciate that, over -- there are some companies that do a lot of open source, but it's all their open source. They're going to drive the decision-making, through their channels... I mean, I've been involved in one of those projects, and those are better than closed source projects, but it certainly sometimes feels like they're railroading some of the rest of the community out there...
 
 So I'm curious, when there's a project that is started inside of LinkedIn - CSS Blocks is a good example, which is a fascinating take on CSS and JS, but not really...
 
@@ -260,7 +260,7 @@ This is where you see this idea of benevolence and giving back in tech actually 
 
 That's the real type of thing - you're giving back to the community and to the industry, and Confluent is now rapidly growing, a startup, C round funded, several hundred people and getting in all over the place, making the world better across all industries, whereas it could have just died inside of LinkedIn...
 
-**Chad Hietala:** \[00:48:13.23\] Yeah. I'm pretty sure -- the way that whole thing went down was on very good terms. The engineering folks at LinkedIn were actually really excited for, I think his name is Jay Kreps, and his team to kind of like go and do this, this open source consultancy type of company that provides all these solutions, and everything like that... So yeah, I'm pretty positive that they left on good terms. It's wasn't like "Get out of here!" "Oh, guess what?! I'm gonna steal this thing that we open-sourced!" and it was something of a bad actor stuff.
+**Chad Hietala:** \[48:13\] Yeah. I'm pretty sure -- the way that whole thing went down was on very good terms. The engineering folks at LinkedIn were actually really excited for, I think his name is Jay Kreps, and his team to kind of like go and do this, this open source consultancy type of company that provides all these solutions, and everything like that... So yeah, I'm pretty positive that they left on good terms. It's wasn't like "Get out of here!" "Oh, guess what?! I'm gonna steal this thing that we open-sourced!" and it was something of a bad actor stuff.
 
 **Kevin Ball:** I mean, that's what's made Silicon Valley amazing - the cross-pollination, and the fact that people are able to go back and forth and back and forth... I think it's something that some companies are very supportive of, and others sort of accept as the cost of doing business in Silicon Valley, and it's really neat to see a company doing that.
 

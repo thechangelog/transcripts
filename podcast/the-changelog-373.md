@@ -86,7 +86,7 @@ Isolation and arrogance can only take one backward. As a famous Chinese saying g
 
 **Ovilia:** Yeah, exactly.
 
-**Break:** \[00:17:49.11\]
+**Break:** \[17:49\]
 
 **Adam Stacoviak:** Let's talk about Polyvia... Is that how we pronounce it, Polyvia \[Poly Via\]?
 

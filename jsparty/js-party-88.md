@@ -16,7 +16,7 @@ There&#39;s this story about an Insider Logic Bomb that caught my eye. The idea 
 
 **Feross Aboukhadijeh:** Really, really devious.
 
-**Jerod Santo:** [00:04:02.00] So that&#39;s job security right there. The moral of the story is if you&#39;re writing software and you need job security, put in a logic bomb... No, do not do this.
+**Jerod Santo:** \[04:02\] So that&#39;s job security right there. The moral of the story is if you&#39;re writing software and you need job security, put in a logic bomb... No, do not do this.
 
 **Feross Aboukhadijeh:** No. He got in big troubles.
 
@@ -42,7 +42,7 @@ There&#39;s this story about an Insider Logic Bomb that caught my eye. The idea 
 
 **Jerod Santo:** Yeah, and it&#39;s an uphill battle to replace such systems with more appropriate custom software that handles all the edge cases and does things &quot;the right way&quot;, because a lot of reasons, one of which is like you&#39;re now constraining the person, whereas they were previously free, and they were getting their job done; now you&#39;re replacing their tool that liberated them and allowed them to be productive, with something which is more constrained, by design... But there&#39;s a lot of backlash against that.
 
-[00:08:08.08] There&#39;s entire companies that just go around and they basically replace spreadsheets with databases. They write web apps that are CRUD apps, that are replacing spreadsheets that have been running the business for years. It&#39;s a whole industry.
+\[08:08\] There&#39;s entire companies that just go around and they basically replace spreadsheets with databases. They write web apps that are CRUD apps, that are replacing spreadsheets that have been running the business for years. It&#39;s a whole industry.
 
 **Feross Aboukhadijeh:** I think we should give spreadsheets their due though. In some ways, they are actually just better than programming languages. If you think about how you start with the data first... You actually can start typing stuff into boxes, and even if you never write a formula at all, it&#39;s just useful; you can start laying things out and seeing your data... Whereas with programming, you actually start with the machinery that processes the data, and you almost never really see the data in its intermediate stages. I might have got this idea from Bret Victor&#39;s blog post, but... It&#39;s this idea that programming is sort of this machinery for turning data from one format into another format, and you don&#39;t actually ever see that happening when you&#39;re coding; it&#39;s all in your mind.
 
@@ -70,7 +70,7 @@ I would never take my notes and write up something that can show me all of these
 
 Speaking of spreadsheets, there&#39;s a lot of people that are using spreadsheets as their back-ends. There&#39;s Airtable, which is interesting, and then a lot of people are just building API integrations with Google Sheets, and basically providing web app front-ends to Google Sheets.
 
-**Nick Nisi:** [00:11:51.20] I have done that.
+**Nick Nisi:** \[11:51\] I have done that.
 
 **Jerod Santo:** Have you done that?
 
@@ -98,7 +98,7 @@ And it seems like it was just some kind of a disagreement where that maintainer 
 
 **Feross Aboukhadijeh:** That&#39;s right, yeah. That&#39;s true. The post that everybody&#39;s sharing around is actually from the other side. It&#39;s unclear what actually happened. It&#39;s a &quot;he said/she said&quot; situation.
 
-**Jerod Santo:** [00:16:03.25] Yeah. I wanna give props to Sebastian for writing a nice piece of satire on this. It is a recurring event that we&#39;re seeing with these issues, and he even lists out five or six things that have happened recently... Well, maybe &quot;recently&quot; isn&#39;t fair, because he goes all the way back to left-pad, which is somewhat ancient history at this point, at least in our industry...
+**Jerod Santo:** \[16:03\] Yeah. I wanna give props to Sebastian for writing a nice piece of satire on this. It is a recurring event that we&#39;re seeing with these issues, and he even lists out five or six things that have happened recently... Well, maybe &quot;recently&quot; isn&#39;t fair, because he goes all the way back to left-pad, which is somewhat ancient history at this point, at least in our industry...
 
 But one piece of the metagame here - he has an edit on this post; this post is in the show notes if you wanna read it... He says: &quot;Besides some personal threats I received in response to this parody/sarcastic joke, I&#39;ve been asked to make suggestions how to fix the problem. Here&#39;s an incomplete list...&quot; So he goes into some suggested fixed. I don&#39;t necessarily wanna focus on those... I wanna focus on the fact that this guy wrote a funny piece of satire and he&#39;s getting personal threats about it? Like, what&#39;s wrong with us? Can we relax a little bit and have some levity in our community without threatening people? I think that&#39;s a shame.
 
@@ -122,7 +122,7 @@ And then the nullish coalescing operator is the ??. That will specifically allow
 
 First of all, I love the... What did you say -- is that optional chaining, or what&#39;s that called?
 
-**Nick Nisi:** [00:20:07.16] Yeah, optional chaining.
+**Nick Nisi:** \[20:07\] Yeah, optional chaining.
 
 **Jerod Santo:** Yeah, so that&#39;s a very nice piece of syntax, because it does become annoying over time to be checking that foo is here, and foo has bar, and foo and bar can call baz... So that&#39;s gonna be nice for folks. Anything exciting in there for you, Feross? Any of these niceties that get you going?
 
@@ -138,7 +138,7 @@ First of all, I love the... What did you say -- is that optional chaining, or wh
 
 **Jerod Santo:** [laughs] Just kidding. No, please... Please, stop.
 
-**Break:** [00:21:26.21]
+**Break:** \[21:26\]
 
 **Jerod Santo:** Alright, we are back and we are excited to explain things to each other as if we were five... Or at least new to a thing. Some of us take this quite literally and apply a five-year-old metaphor, others just try to explain technology in a way that a neophyte or a new person could learn it... So let&#39;s see the way Nick tackles CORS. Nick, explain it like we&#39;re five, CORS.
 
@@ -150,7 +150,7 @@ First of all, I love the... What did you say -- is that optional chaining, or wh
 
 So some workarounds were being made, things like JSON-P, or JSON with padding, I think, where I could basically put a script tag on my page that would load something from the Changelog website, and the Changelog website would be aware of this, that I was trying to do this, and they would send me a script that was basically just calling a method that I had told them to call, and passing data to that method. Then I could grab the data and use that, because it would call my method back when the script actually loads, and be able to run with that.
 
-[00:24:12.16] That&#39;s all well and good for sites that you can trust, which is probably no site ever, because you&#39;re willingly just pulling in a script that can load onto your page and do anything. So it can be dangerous, and then you also have the problem of the site being down, and that would make the script load fail, and all of that. So a simpler method was developers, called CORS, or Cross-Origin Resource Sharing. This allows you to make a request to another site on the internet from your page, in as safe of a way as possible. What it does is it adds in a bunch of checks beforehand, to check to see if the server will actually allow this; if not, then nothing happens. But if the server will allow it, then it has a whole bunch of other checks.
+\[24:12\] That&#39;s all well and good for sites that you can trust, which is probably no site ever, because you&#39;re willingly just pulling in a script that can load onto your page and do anything. So it can be dangerous, and then you also have the problem of the site being down, and that would make the script load fail, and all of that. So a simpler method was developers, called CORS, or Cross-Origin Resource Sharing. This allows you to make a request to another site on the internet from your page, in as safe of a way as possible. What it does is it adds in a bunch of checks beforehand, to check to see if the server will actually allow this; if not, then nothing happens. But if the server will allow it, then it has a whole bunch of other checks.
 
 The main thing that happens when you try and make a CORS request is your browser will add a header to your request; the header will be origin, and it will be whatever your site is, so maybe NickNisi.com. That would be set as the origin, and that&#39;s nothing I can change; that would be set by Chrome itself.
 
@@ -166,7 +166,7 @@ But if I wanted to, for example, make a PUT request to the Changelog.com for my 
 
 And again, this is all outside of a JavaScript developer; the browser is making this request first, and then it will make the request that you asked it to. If the server comes back and says &quot;No, I don&#39;t accept that&quot;, then your request just fails and it doesn&#39;t actually try and make the second request. So it&#39;s just a way of controlling what a server can respond to or wants to respond to, and a way for the browser to make those requests in as safe a way as possible.
 
-**Jerod Santo:** [00:28:07.12] Well done. Feross, you mentioned in the break that you&#39;re teaching CORS, or you&#39;re going to be teaching CORS; is this along the lines of the way you explain it, or do you have any questions around that, or...? What are your thoughts?
+**Jerod Santo:** \[28:07\] Well done. Feross, you mentioned in the break that you&#39;re teaching CORS, or you&#39;re going to be teaching CORS; is this along the lines of the way you explain it, or do you have any questions around that, or...? What are your thoughts?
 
 **Feross Aboukhadijeh:** One obvious question would be &quot;Why doesn&#39;t the browser require CORS for putting an image in a page, or putting a script in a page?&quot; Because in those cases you can just link to another site and there&#39;s no issue. The obvious question is &quot;Why the difference between that and other types of requests?&quot;
 
@@ -192,7 +192,7 @@ And again, this is all outside of a JavaScript developer; the browser is making 
 
 **Jerod Santo:** There is a gif out there that you&#39;ll never resolve; it&#39;s called the Hassehloffian Recursion. I&#39;ll just leave it at that. You can go out there and look for that gif. It will never resolve... But you might enjoy it or you might hate it.
 
-[00:31:50.10] Let&#39;s move on. Feross, you flipped the script on me... You&#39;re gonna explain the Zoom hack and DNS rebinding, which is not what this document said a few minutes ago... So I&#39;m excited now, because you must be into this one. Explain the Zoom hack to us. We happen to be using Zoom as we speak, so... Yeah, hopefully it&#39;s secure now. But go ahead. Like we&#39;re five, please.
+\[31:50\] Let&#39;s move on. Feross, you flipped the script on me... You&#39;re gonna explain the Zoom hack and DNS rebinding, which is not what this document said a few minutes ago... So I&#39;m excited now, because you must be into this one. Explain the Zoom hack to us. We happen to be using Zoom as we speak, so... Yeah, hopefully it&#39;s secure now. But go ahead. Like we&#39;re five, please.
 
 **Feross Aboukhadijeh:** I don&#39;t know about that... [laughter] Well, I just thought it would dovetail nicely with Nick&#39;s excellent explanation of CORS.
 
@@ -212,7 +212,7 @@ Now, it may be the case that Zoom wants to allow any website to try to join you 
 
 I think what they really wanted to do was to say &quot;No, you have to visit a Zoom URL, and then only the Zoom site can join you into a meeting.&quot; So only the Zoom site should be able to tell the local Zoom web server to open up the Zoom app before you. And if that&#39;s what they wanted to do, then what they really need to look at is the source of their request. They need to see that it&#39;s coming from the Zoom website.
 
-**Jerod Santo:** [00:35:56.09] Which that was the point of the feature - you get an email, &quot;Hey, this person is inviting you to a Zoom meeting.&quot; And there would be a link in the email, you open the link, it would take you to Zoom&#39;s website, and if you had the app installed, it would launch your Zoom meeting automatically, using that web server, right?
+**Jerod Santo:** \[35:56\] Which that was the point of the feature - you get an email, &quot;Hey, this person is inviting you to a Zoom meeting.&quot; And there would be a link in the email, you open the link, it would take you to Zoom&#39;s website, and if you had the app installed, it would launch your Zoom meeting automatically, using that web server, right?
 
 **Feross Aboukhadijeh:** Yup.
 
@@ -226,7 +226,7 @@ I think what they really wanted to do was to say &quot;No, you have to visit a Z
 
 **Jerod Santo:** [laughs] Well, let&#39;s ask a listener... Did we at least succeed in explaining it to whatever age you are, listener? Let us know on Twitter, @jspartyfm, or Discuss This in Changelog News in your show notes; it&#39;ll take you to the JS Party page on Changelog.com, where you can post a comment. Maybe go in there and explain these things better than we did... Or tell us what DNS rebinding is, because I have no idea. That&#39;s it for Explain It Like I&#39;m Five.
 
-**Break:** [00:37:51.07]
+**Break:** \[37:51\]
 
 **Jerod Santo:** Alright, it is time for our shout-outs. This is where we give shout-outs to people or projects that we think deserve recognition. I&#39;d like to give a shout-out to somebody whose name is difficult for me, but she&#39;s an awesome person... Hong Phuc Dang. I think she&#39;s @hpdang on Twitter and GitHub.
 
@@ -234,7 +234,7 @@ We met her at OSCON, she was walking around the show floor with these cool littl
 
 If you haven&#39;t heard of FOSS Asia, you&#39;re a lot like I was. It is the largest -- let me get this right; actually, they just scrolled their marquee... Oh, don&#39;t we all hate those scrolling marquees? What are they called, when they slide in a new picture...? Carrousels. We all hate carrousels. FOSS Asia has one; don&#39;t hold that against them, it&#39;s just a thing... But their statement is &quot;Bringing together an inspiring community across borders and ages to form a better future with open technologies and ICT.&quot; This is a large, large -- I can&#39;t remember the number, but I think it&#39;s like a 30,000-people-strong group of Asian software developers.
 
-[00:40:10.01] I think they are out of Singapore specifically, but all over Asia. They get together and they&#39;re doing open source stuff; they&#39;re doing a lot of hardware hacking, they have a lot of software projects, and it&#39;s a group of people that I had never even heard of as a member of the Western open source community... And there&#39;s a huge gap between the East and the West, both geographically, as well as, you know, with water... And unfortunately, that means there&#39;s a gap in our community, and we can hopefully close that and get to know each other. That&#39;s what Hong was at OSCON doing - going around, telling people about FOSS Asia.
+\[40:10\] I think they are out of Singapore specifically, but all over Asia. They get together and they&#39;re doing open source stuff; they&#39;re doing a lot of hardware hacking, they have a lot of software projects, and it&#39;s a group of people that I had never even heard of as a member of the Western open source community... And there&#39;s a huge gap between the East and the West, both geographically, as well as, you know, with water... And unfortunately, that means there&#39;s a gap in our community, and we can hopefully close that and get to know each other. That&#39;s what Hong was at OSCON doing - going around, telling people about FOSS Asia.
 
 There&#39;s lots of different ways of getting involved. I think they&#39;re up to cool stuff. They have a lot of stuff on GitHub, so check out FOSSAsia.org. Shout-out to Hong for doing the yeoman&#39;s work of getting out there and telling people in the United States about this community, which is large, and growing. Check them out and say hi.
 
@@ -256,7 +256,7 @@ Alright, Nick, your turn.
 
 **Nick Nisi:** My shout-out goes to Neoclide on GitHub, and specifically their project coc.nvim. It&#39;s a project that I&#39;ve been using for the past couple of weeks, and it&#39;s just amazing. Coc stands for &quot;the conquer of completion&quot;, and it&#39;s an IntelliSense completion plugin for Vim that makes full use of the language server protocol from VS Code. That means that you can take VS Code plugins that tie into that and port them to Vim, so that you can use them straight within Vim. It&#39;s really cool.
 
-[00:44:22.02] Obviously, the main plugin that I use within there is the tsserver one, so I get the exact same completion that I would get from using VS Code; I get it straight in Vim. And then there&#39;s other ones like Prettier, so it&#39;ll just automatically run Prettier on my code when I save. There&#39;s a plugin that when I&#39;m specifically in a Git commit message in Vim and I type the £ sign, it&#39;ll give me a dropdown of all of the issues that are open on that repository, so I can autocomplete those... And there&#39;s just several other plugins available. There&#39;s an emoji plugin... It just really is so cool, being able to take all of this cool hotness from VS Code and bring it over to the one true editor.
+\[44:22\] Obviously, the main plugin that I use within there is the tsserver one, so I get the exact same completion that I would get from using VS Code; I get it straight in Vim. And then there&#39;s other ones like Prettier, so it&#39;ll just automatically run Prettier on my code when I save. There&#39;s a plugin that when I&#39;m specifically in a Git commit message in Vim and I type the £ sign, it&#39;ll give me a dropdown of all of the issues that are open on that repository, so I can autocomplete those... And there&#39;s just several other plugins available. There&#39;s an emoji plugin... It just really is so cool, being able to take all of this cool hotness from VS Code and bring it over to the one true editor.
 
 **Jerod Santo:** [laughs] You mean Atom? No...
 

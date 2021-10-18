@@ -14,7 +14,7 @@ So I get the call, I go, and I have a neighbor with a large, black Kingsnake in 
 
 **Chris Benson:** It was, it was... And then I dashed home, just in time to sit down for Thanksgiving dinner. So it was a memorable Thanksgiving dinner in that way.
 
-**Daniel Whitenack:** \[00:04:06.14\] Yeah, that's great.
+**Daniel Whitenack:** \[04:06\] Yeah, that's great.
 
 **Chris Benson:** A little odd story that goes with it.
 
@@ -58,7 +58,7 @@ So I get the call, I go, and I have a neighbor with a large, black Kingsnake in 
 
 **Bharat Sandu:** It was quite fascinating, because back in the day not that many companies were collecting a lot of data, but these companies were collecting a ton of data, and kind of building hardware-in-the-loop testing, and those kinds of things... So it was a fascinating time. So that was my early career learnings, working with folks building literally jet engines, and working with tons and tons of data, and trying to make sense of them... We actually focus a lot on hardware-in-the-loop testing, which is before you actually build something and you wanna instrument it all up you wanna maybe do some simulation \[unintelligible 00:08:14.29\]
 
-\[00:08:22.01\] And you know, nevertheless, I did that, and got my MBA, and then I joined Microsoft... And in Microsoft, my career has mostly been commercializing incubation businesses, \[unintelligible 00:08:28.19\] unified communications, which - it's funny we talk about over Zoom right now, but 11 years ago, at least for Microsoft, it was a new entry back then.
+\[08:22\] And you know, nevertheless, I did that, and got my MBA, and then I joined Microsoft... And in Microsoft, my career has mostly been commercializing incubation businesses, \[unintelligible 00:08:28.19\] unified communications, which - it's funny we talk about over Zoom right now, but 11 years ago, at least for Microsoft, it was a new entry back then.
 
 And then I joined the Azure IoT team. We were launching our Azure IoT offering, and in the big data space, and in the last three years really the AI space... And very recently, the mixed reality. The common trend has been commercializing these very emerging, new technologies, and making it a viable business value proposition for companies, for our partners, and for our customers, making it easy for them to benefit from these technologies.
 
@@ -84,7 +84,7 @@ At the same time, for us, we have the luxury, like with some other companies at 
 
 **Chris Benson:** Augmented... But what is mixed reality, or at least how does Microsoft define that?
 
-**Bharat Sandu:** \[00:12:06.04\] Yeah, sure. Mixed reality for us - and I think X Reality is a new term that's also started kicking around... But basically, if you look at the way we interface with our phones, our laptops, it's a 2D screen. And then you have things like Oculus Rift, or Windows virtual reality headsets; I got an Oculus a few weeks back, I love it. A Quest, sorry. Oculus. So virtual reality. There, you're in a virtual reality environment, but you're in a separate environment. You're totally removed from the physical space.
+**Bharat Sandu:** \[12:06\] Yeah, sure. Mixed reality for us - and I think X Reality is a new term that's also started kicking around... But basically, if you look at the way we interface with our phones, our laptops, it's a 2D screen. And then you have things like Oculus Rift, or Windows virtual reality headsets; I got an Oculus a few weeks back, I love it. A Quest, sorry. Oculus. So virtual reality. There, you're in a virtual reality environment, but you're in a separate environment. You're totally removed from the physical space.
 
 Then you have augmented reality, which - HoloLens is an example (Magic Leap is another example), where you can actually see through, and you can see holograms. So you can have presence of the world around you, as well as virtual elements in it. Now, mixed reality is a term that spans augmented and virtual reality; because what you'll see happening more and more - and even with Quest, I was quite impressed to see you can actually see through, and see the augmented reality... So from a development platform perspective, you should not have two separate set of tools and development environments, and Unity for this, and Unreal for that; you really wanna have a consistent development platform, a consistent ecosystem. And really, for our customers who use these technologies, some will of course have a better experience in virtual reality, like gaming. But for a lot of industrial/commercial use cases, augmented reality is much more effective. But they also have a seamless experience through these different devices.
 
@@ -108,7 +108,7 @@ But yeah, mixed reality is basically a bridging of these virtual reality and aug
 
 The other thing is also, by the way -- mixed reality or virtual reality or augmented reality is a really good example of applied AI. So when you're doing hand-tracking, for example, that we do in HoloLens, you can imagine that it's literally looking at the hands and saying "Okay, this is fingers pointing one particular way; it's pointing that way, or it's grasping my hand here..." And to even create a dataset - of course, you can capture a lot of hand angles, but you can also in a 3D \[unintelligible 00:15:51.22\] create different 3D orientations of a hand, and have the labeled dataset so you can train your hand detection models, and so forth. And even all these devices in HoloLens - you can speak to it, so there's a real on-board speech recognition, and so forth.
 
-\[00:16:07.26\] So one is, of course, a very good example of applied AI for us, but the second one is for our customers and our developers, it is actually the simplifying and accelerating the development experience... And really, at the end of the day, helping customers realize more value out of these technologies.
+\[16:07\] So one is, of course, a very good example of applied AI for us, but the second one is for our customers and our developers, it is actually the simplifying and accelerating the development experience... And really, at the end of the day, helping customers realize more value out of these technologies.
 
 **Chris Benson:** So as you describe it that way, would it be fair to say if you take applied AI, meaning deep learning, reinforcement learning, things like that, and enabling the mixed reality environment or experience with these technologies, and that becomes kind of the use case, if you will, for the applied AI as an enablement technology - is that a fair way of talking about the relationship between them?
 
@@ -116,7 +116,7 @@ The other thing is also, by the way -- mixed reality or virtual reality or augme
 
 Right now, these are two distinct businesses for us. In some places they overlap when it comes to customer use cases, but a lot of the way we take these technologies to market has a lot of commonalities, of kind of going from super-early incubation into commercial businesses. So there's a business connectivity tissue also.
 
-**Break:** \[00:17:51.27\]
+**Break:** \[17:51\]
 
 **Daniel Whitenack:** Bharat, I'm kind of interested, while we're talking about the Azure AI platform, to dig in a bit to what developing AI in the cloud looks like now... In its very sort of raw form, I imagine people might think "Oh, I could spin up a cloud instance or a virtual machine, maybe attach a GPU to that, and do some AI things." But of course, each cloud provider has developed a whole suite of different things that aid AI development... What does that picture look like in Azure AI right now?
 
@@ -126,7 +126,7 @@ Right now, these are two distinct businesses for us. In some places they overlap
 
 **Bharat Sandu:** First of all, there's a ton of innovation in AI in the open source world, which is awesomeness. Our goal is to make sure we can provide that to our customers in a more packaged fashion. We also have a ton of research centers around the world; we have eight research centers, and the work they do is really fine-tuning and developing the algorithms. Their charter has really been to say "Okay, let's go and build the best text-to-speech, or speech-to-text, or image captioning (that we'll cover later on) techniques."
 
-\[00:20:02.10\] Now, these are researchers and PhD's in machine learning; there are more of those now than we used to have maybe many years back... But they're really specialized really deep in the machine learning space. We take all the work they do, and then we bring it to Azure AI.
+\[20:02\] Now, these are researchers and PhD's in machine learning; there are more of those now than we used to have maybe many years back... But they're really specialized really deep in the machine learning space. We take all the work they do, and then we bring it to Azure AI.
 
 Our goal on Azure AI is to use all the open source technologies available, all the work we're doing in that space too, and taking all the research milestones, and baking them on a platform that we can give to developers and data scientists, so then they can use it from a simple, no-cost, free API call, to kind of doing high-scale reinforcement learning techniques.
 
@@ -150,7 +150,7 @@ We do go one step beyond that and we have a platform called Power Platform. I'm 
 
 **Bharat Sandu:** That's right.
 
-**Chris Benson:** \[00:23:58.23\] ...that are engaged in AI, and it is very typical for them to be in an environment where they're gonna engage in a project, and they may have access not only to Microsoft, but competitors as well... And they're trying to justify that. If a practitioner has just listened to this episode - and we have more to go, obviously - and they're like "I wanna do Microsoft AI on Azure", how would you differentiate it or how would you recommend they differentiate it for their manager, or whoever they are having to report back to, to say "I definitely don't wanna go with the other guys, I wanna go with this one"? How would you position that?
+**Chris Benson:** \[23:58\] ...that are engaged in AI, and it is very typical for them to be in an environment where they're gonna engage in a project, and they may have access not only to Microsoft, but competitors as well... And they're trying to justify that. If a practitioner has just listened to this episode - and we have more to go, obviously - and they're like "I wanna do Microsoft AI on Azure", how would you differentiate it or how would you recommend they differentiate it for their manager, or whoever they are having to report back to, to say "I definitely don't wanna go with the other guys, I wanna go with this one"? How would you position that?
 
 **Bharat Sandu:** First of all, I must just say - it's better for the AI field if the customers go with anybody and they're doing amazing AI projects.
 
@@ -174,7 +174,7 @@ And the last one, which surprised us too, is our commitment to responsible AI is
 
 So really, those are the three things. One is allowing customers to get access to AI on their terms, whether they're professional data scientists or just developers who don't have machine learning expertise at all, but wanna get access to Ai. Second, giving them an enterprise-grade fashion, so they can deploy with confidence, and third one, also giving them responsible AI - not just guidance, but also tools and capabilities to do it. And having it all built into our products, not just "Here, you can go to this doc here, you can go to that GitHub repo there." It's all available as part of our platform.
 
-**Chris Benson:** \[00:28:17.24\] That was a great explanation. You mentioned along the way OpenAI, and I know that Microsoft has an exclusive relationship on GPT-3, which obviously the whole industry is excited about with OpenAI... I'm assuming that at some point that becomes pretty normally accessible via Azure. Anything you can share on that, along where that's gonna go or what we should expect?
+**Chris Benson:** \[28:17\] That was a great explanation. You mentioned along the way OpenAI, and I know that Microsoft has an exclusive relationship on GPT-3, which obviously the whole industry is excited about with OpenAI... I'm assuming that at some point that becomes pretty normally accessible via Azure. Anything you can share on that, along where that's gonna go or what we should expect?
 
 **Bharat Sandu:** Yeah. You know, we're still working with them on a lot of these things right now. Right now, what we wanna make sure we can enable OpenAI to do - really breakthrough AI research, and to give them amazing cloud resources, so things we spoke about. I think we have now the fifth largest super-computer. It was probably the first one in the cloud, that they access to build these models. These are about 300,000 CPU cores, 10,000 GPUs, and the networking layer that goes with it... And then also it allows us to develop our optimizations.
 
@@ -194,7 +194,7 @@ But if folks who are interested in learning machine learning, who might not be e
 
 We also have great training on our Microsoft Learn website, and there you can go deep in different areas. So those are the three main areas. The product itself - and please, give us feedback on what you don't like, so we can improve it - and the learning courses that we just mentioned.
 
-**Break:** \[00:31:50.02\]
+**Break:** \[31:50\]
 
 **Daniel Whitenack:** So Bharat, in our conversations prior to the show we had talked a little bit about some of the work that Microsoft is doing research-wise and productizing research to enable computer to be used to help people who are blind or have low vision... And we talked a little bit about the Seeing AI app and other things, but I was wondering if you could just give us a little bit of a briefing on Microsoft's work in this area. I know that they had a pretty interesting milestone in terms of image capturing, so maybe we can go into that a little bit.
 
@@ -216,7 +216,7 @@ We've also, by the way, embedded it into our applications. In PowerPoint, and Wo
 
 So that's a quick, super-quick overview of the research that went in, and then really how we're bringing it to developers and customers.
 
-**Daniel Whitenack:** \[00:36:08.25\] I think this is amazing... Oftentimes on the show we talk about various things, like object recognition, or computer vision, or other things that are either seen by a lot of people as competitions to be a part of, or benchmarks to break... But really seeing how that can actually connect to benefit people in a really positive way, so impacting people in terms of the Seeing AI app, or helping accessibility in other ways - that's a really amazing place where AI can have a contribution, so I really appreciate you sharing that, and Microsoft for really emphasizing that, because it is really amazing work.
+**Daniel Whitenack:** \[36:08\] I think this is amazing... Oftentimes on the show we talk about various things, like object recognition, or computer vision, or other things that are either seen by a lot of people as competitions to be a part of, or benchmarks to break... But really seeing how that can actually connect to benefit people in a really positive way, so impacting people in terms of the Seeing AI app, or helping accessibility in other ways - that's a really amazing place where AI can have a contribution, so I really appreciate you sharing that, and Microsoft for really emphasizing that, because it is really amazing work.
 
 Has long has the Seeing AI app been around, and have there been impressions of the app from the blind or low vision community?
 
@@ -232,7 +232,7 @@ As you were going through that a moment ago, it made me wonder - you were talkin
 
 **Bharat Sandu:** Yeah. Look, some of this work is what I call loosely-coupled. Because if you try to orchestrate it too finely, then things break down. Because all research is exploratory, and should not be tied to commercial goals directly; it's in the area of just pure research and pure learning. So we have dedicated research on there, but it's totally connected to our product side. And AI is a great example, and quantum computing is another example. Some spaces where really, cutting-edge research has a direct line into our engineering teams, where we're actually always looking to see -- especially when we look at vision, speech, language, and what we call decision category, which is where the computer is making a decision, or the AI algorithm is making a decision, where something is not just classifying it, but actually making a decision, and recommending something on behalf, automatically, not just classifying it, again. These are the \[unintelligible 00:40:05.08\] research also that we really invest in.
 
-\[00:40:10.04\] So our research teams stay super-plugged in with our engineering teams, or rather our engineering teams stay super-plugged in with the research teams, and as these things happen, we have an established mechanism to take literally raw research and have pipelines built to put them into production, and processes to do that.
+\[40:10\] So our research teams stay super-plugged in with our engineering teams, or rather our engineering teams stay super-plugged in with the research teams, and as these things happen, we have an established mechanism to take literally raw research and have pipelines built to put them into production, and processes to do that.
 
 One other thing we've done a lot is have a responsible AI thread throughout this area... Because it's easy to say we have principles of responsible AI, and we of course do, but it's also like "Hey, was the data collected with consent? What kind of data was collected for this research breakthrough? Or before we productize it, what other ways do we need to augment the dataset to make sure these are not biased \[unintelligible 00:40:47.00\] There's a very big ethics committee that works through, from research into releasing it as a product to the world, where we augment anything that might have been missed in the research phase... Because that's really not the focus here oftentimes, as you can imagine.
 
@@ -252,7 +252,7 @@ So the things that I'm excited about, to be more precise - we see companies that
 
 \[unintelligible 00:43:43.13\] is another one. They use machine learning to do fraud detection activities. And when they wanna say "Hey, Chris, you're a loyalty member, but you did something bad", they need to be very sure before they ask you that question. And they're using, again, machine learning, and the responsible machine learning capabilities to make sure the models they build have super-high confidence. They're using model interpretability, and all that thing.
 
-\[00:44:08.19\] So what really gets me excited is a) we have many more mainstream companies using AI not just in the lab, but literally doing thousands of models in production, and really revolutionizing the businesses now. So it's really not in the hands of, let's say, Google, Microsoft, Apple only. It's really what I'll call -- I'm sure Lockheed Martin also does a bunch of machine learning, although I don't work with them anymore... A little bit, right? But these mainstream companies are benefitting from this a lot. That gets me excited every single day.
+\[44:08\] So what really gets me excited is a) we have many more mainstream companies using AI not just in the lab, but literally doing thousands of models in production, and really revolutionizing the businesses now. So it's really not in the hands of, let's say, Google, Microsoft, Apple only. It's really what I'll call -- I'm sure Lockheed Martin also does a bunch of machine learning, although I don't work with them anymore... A little bit, right? But these mainstream companies are benefitting from this a lot. That gets me excited every single day.
 
 The second thing is the space is innovating at a super-fast pace. We have GANs, we have all these new techniques coming in. And it almost seems like what was cool two years ago is quite passé now. We all use scikit-learn, but nobody really talks about it that much in this sense, right? Now we're all about putting deep learning models in production at high scale... And the space of getting new AI research into the world is just super-fascinating.
 

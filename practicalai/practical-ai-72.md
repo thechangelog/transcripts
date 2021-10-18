@@ -22,7 +22,7 @@ Well, I am pretty excited about today. We have a guest that I already have quite
 
 But after a while, I was working on some AI strategy projects and ended up doing a piece of work for the Intelligence Advanced Research Project's activity; that organization is called IARPA. If you're familiar with DARPA, this is the sister agency that covers the intelligence community of DARPA. My report there was titled "Artificial Intelligence and National Security", and it was essentially going through the different aspects of AI technology, how it was changing over time, and elaborating on what the likely implications of that would be for different areas of national security.
 
-**Daniel Whitenack:** \[00:04:12.17\] What years was this around, in terms of how things were developing?
+**Daniel Whitenack:** \[04:12\] What years was this around, in terms of how things were developing?
 
 **Greg Allen:** Yeah, this report came out in 2017, and I was working on it for the entire preceding year.
 
@@ -48,7 +48,7 @@ That document said that we were going to create a new organization called the Jo
 
 **Chris Benson:** That sounds fine.
 
-**Greg Allen:** \[00:07:47.25\] The DoD AI strategy has five pillars. These are "Deliver AI capabilities for mission impact", "Scale AI's impact through a common foundation", "Cultivate a leading AI workforce", "Engage commercial industry, Academia and international allies and partners", and "Lead in military ethics and AI safety." Those are the five key pillars of the DoD AI strategy.
+**Greg Allen:** \[07:47\] The DoD AI strategy has five pillars. These are "Deliver AI capabilities for mission impact", "Scale AI's impact through a common foundation", "Cultivate a leading AI workforce", "Engage commercial industry, Academia and international allies and partners", and "Lead in military ethics and AI safety." Those are the five key pillars of the DoD AI strategy.
 
 The JAKE is the focal point for each of those pillars, but we're especially interested, at least in the near term, we have been especially interested in delivering AI capabilities for mission impact. This is a little bit of how we are structured as an organization - it's quite common in commercial industry for AI organizations to separate into who are the people who are actually developing, and implementing, and executing AI capabilities, and then who are the folks who are building the infrastructure, the platforms, the tools to enable that other group.
 
@@ -68,7 +68,7 @@ The second big chunk of our organization is related to - as I've mentioned befor
 
 This is an infrastructure environment that has pre-cyber-hardened tools that are the same sort of machine learning development frameworks that you might want to use in commercial industry, but they're adapted to be compatible with DoD cyber-security policies, they're containerized, so that they run in cloud environments at reasonably high performance levels... And that combination allows you to develop software quickly, and get it into the hands of users and testers in a reasonable timeframe, but also do so in a way that takes into account the very significant cyber-security risks that any significant DoD undertaking faces.
 
-**Daniel Whitenack:** \[00:12:21.27\] Yeah, I have a question there around that sort of flow from what frameworks and software is used in industry, to what you have to develop on. Are you involved very closely in, for example, the TensorFlow and PyTorch communities, and do you have your own versions of those things that you run internally, or is it more taking frameworks like that and wrapping them around middleware and other things that give the protection that's needed?
+**Daniel Whitenack:** \[12:21\] Yeah, I have a question there around that sort of flow from what frameworks and software is used in industry, to what you have to develop on. Are you involved very closely in, for example, the TensorFlow and PyTorch communities, and do you have your own versions of those things that you run internally, or is it more taking frameworks like that and wrapping them around middleware and other things that give the protection that's needed?
 
 **Greg Allen:** I don't wanna get into too much of the secret sauce, for security reasons, but the basic thinking there is that open source tools are popular for a reason. They work well, they have been tested by users who have pretty significant requirements and needs, and we want to make sure that when you're developing machine learning software in the DoD environment we don't want you to have to use baby software, or software that has been largely disabled because so many of the features were not approved...
 
@@ -82,7 +82,7 @@ In the Department of Defense we have adapted that paradigm to dev sec ops, which
 
 **Greg Allen:** Sure. Starting with the last part of your question, which is how we interact with the service laboratories - and I'll add to the service laboratories also an organization like DARPA. In general, these laboratories - the Naval Research Laboratory, the Airforce Research Laboratory, the Army Research Laboratory and so on - are primarily focused more on advancing the state of the art in AI, and dealing with situations where the existing state of the art is not a good fit for military requirements.
 
-\[00:16:07.04\] That's a very important job, but it's a bit different from the job of the JAKE. We are interested in problems that we can go after, where technology that is available in commercial industry or Academia today, as state of the art as it currently exists, is a reasonably good fit for military needs.
+\[16:07\] That's a very important job, but it's a bit different from the job of the JAKE. We are interested in problems that we can go after, where technology that is available in commercial industry or Academia today, as state of the art as it currently exists, is a reasonably good fit for military needs.
 
 DARPA and service laboratories are focused more on areas where some additional research and development is needed in order to get the technology to a level of maturity where it can be useful for DoD needs.
 
@@ -98,7 +98,7 @@ There's a variety of different contracting mechanisms that are designed to make 
 
 These allow you to get on contract quicker, get money flowing quicker, and actually start doing work quicker. And to that, JAKE has also been an early adopter of commercial solution openings, which is sort of another contracting mechanism. The important feature of these mechanisms is, again, it makes it easier to do business with commercial technology companies, and it makes it easier to do business with smaller companies who can't always afford the overhead required to do business with the department of defense for our bidding process and our proposal writing process.
 
-**Daniel Whitenack:** \[00:19:55.28\] I'm coming at this conversation as someone who is not deeply involved in the defense world, but one of the things that was coming to my mind as we entered into the conversation was I was wondering how much of the strategy that you're putting into this, that the DoD is doing, is driven by what other maybe potential adversaries are doing in AI? What is the landscape of AI and defense look like around the world, and how has that impacted the priority we put onto it, and then how we go about developing that technology?
+**Daniel Whitenack:** \[19:55\] I'm coming at this conversation as someone who is not deeply involved in the defense world, but one of the things that was coming to my mind as we entered into the conversation was I was wondering how much of the strategy that you're putting into this, that the DoD is doing, is driven by what other maybe potential adversaries are doing in AI? What is the landscape of AI and defense look like around the world, and how has that impacted the priority we put onto it, and then how we go about developing that technology?
 
 **Greg Allen:** Sure. I would start by saying that two countries are specifically named by the National Defense Strategy, which came out in 2018. Two countries are specifically named as strategic competitors. And that is Russia and China. These are countries who have interests that are identified as being contrary and in contradiction to (in many cases) the interests of the United States, and also who have oriented their national security establishments in competition with the United States. And that's not a very surprising statement, I would say, to most.
 
@@ -114,7 +114,7 @@ In our competition with China in military technology, there are many things that
 
 So when they write about AI technology, they're saying "Well, if we could really develop an interesting advantage in AI, perhaps we could leapfrog the United States", which is to say "Perhaps we would not have to catch up to them in aircraft carriers, or catch up to them in jet engines, because we will shift the basis of competition." And Chinese military thinkers often write quite optimistically about China's opportunity to compete with the United States technologically in these terms. So we would be remiss if we were not paying attention to that.
 
-\[00:23:52.09\] The second thing I'll say is that, as pointed out by the Secretary of Defense at the National Security Commission on AI, in his speech at that commission - there are many Chinese weapons manufacturers who are currently selling on international markets weapons systems advertised as being autonomous, meaning they can make their own decisions and act independently, and also having that full combat autonomy, meaning they can actually be responsible for the use of lethal force.
+\[23:52\] The second thing I'll say is that, as pointed out by the Secretary of Defense at the National Security Commission on AI, in his speech at that commission - there are many Chinese weapons manufacturers who are currently selling on international markets weapons systems advertised as being autonomous, meaning they can make their own decisions and act independently, and also having that full combat autonomy, meaning they can actually be responsible for the use of lethal force.
 
 So that's what China is sort of up to today, at least in terms of what they're advertising on the international market.
 
@@ -130,7 +130,7 @@ I would say in terms of the United States' response, our intent is to lead the w
 
 **Daniel Whitenack:** And would I be correct in saying then that of course there are certain things that even me not being involved in the defense industry at all -- like, I'm aware of, for example, China using facial recognition technology, and Russia interfering in elections and doing behavioral type of stuff, like we talked about... So would I be correct in saying that for every different type of AI model you can think of, whether that's natural language processing, computer vision, object recognition, trend analysis, forecasting... There's probably all sorts -- because this is general purpose, like you say, there's probably a way to weaponize all sorts of those type of models. It's not that facial recognition is an issue, it's a whole, varied range of things that could be at play.
 
-**Greg Allen:** \[00:28:07.03\] Yeah, I think machine learning is just a new way to create software. Traditionally, software required every line of code to be typed out by human hands. But suddenly, there's been a vast improvement in this field of artificial intelligence known as machine learning, from which - as I'm sure most of your listeners already know - we can program, or to a certain extent the system can program itself based on what it learns from data.
+**Greg Allen:** \[28:07\] Yeah, I think machine learning is just a new way to create software. Traditionally, software required every line of code to be typed out by human hands. But suddenly, there's been a vast improvement in this field of artificial intelligence known as machine learning, from which - as I'm sure most of your listeners already know - we can program, or to a certain extent the system can program itself based on what it learns from data.
 
 So that general truth about the rise in machine learning software - well, that's useful for most of the places where software is useful, which is to say absolutely everything, whether that everything is a missile guidance system, or soft of back-office applications like word processing.
 
@@ -148,7 +148,7 @@ To that, there are two things that are comparatively new. The first is the Depar
 
 Then there's also what came out just recently, which is the Defense Innovation Board's principles for the ethical use of AI.
 
-**Break:** \[00:32:11.18\]
+**Break:** \[32:11\]
 
 **Chris Benson:** Greg, I know one of the really hot and important topics these days in AI is the ethical concerns, ethical principles of how you apply AI and what that means... And I know both in the defense industry, as well as in lots of different commercial industries, that has become a big thing. A while back we saw Google and Microsoft and other large organizations releasing public principles and frameworks about how they thought about this.
 
@@ -162,7 +162,7 @@ So this was a lengthy, robust process, and the report that they released on Octo
 
 They're an independent organization, helping out the Department of Defense on these issues, so I was not involved in the actual writing of these principles. My only involvement was giving advice on how they could structure this to maximize the benefit from the Department of Defense's perspective as a consumer... So helping them craft actionable recommendations and thinking through how to write their recommendations in a way that would actually be compatible with the DoD bureaucracy and the DoD process.
 
-\[00:36:12.21\] But what came back ended up being really quite substantive, and something that we take seriously here in the department, as now it falls to us to implement them, and also something that our allies, whether that be in Europe, or in Asia, or elsewhere - our allies have shown a great deal of interest in these principles as helping think through "How do we recognize the legitimate ethical concerns that the rise of AI technology raises, while also being able to move forward and use this technology in the mission of national security?"
+\[36:12\] But what came back ended up being really quite substantive, and something that we take seriously here in the department, as now it falls to us to implement them, and also something that our allies, whether that be in Europe, or in Asia, or elsewhere - our allies have shown a great deal of interest in these principles as helping think through "How do we recognize the legitimate ethical concerns that the rise of AI technology raises, while also being able to move forward and use this technology in the mission of national security?"
 
 So maybe I'll just sort of go through each of the principles that the DIB is recommending that the Department of Defense adopt, and we can sort of think about how the DoD thinks about these issues.
 
@@ -184,7 +184,7 @@ So the DIB's principles are answering a different question, which is assuming th
 
 So part of the ethics of the technology relate to matching its current use to the maturity of that technology and your processes for understanding that technology and ensuring that it is both robust and safe. That gets to the DIB's approach to ethics and how it complements the ethical principles that are enshrined in the law of war.
 
-\[00:40:09.20\] If you say that you're going to have AI systems that abide by the law of war, how do you know that, and how do you prove that, and how do you have the relevant processes to ensure that? That's what the DIB AI principles are going after. Not what is the right or wrong way to use force; that question is best answered by the principles enshrined in the law of war. But if you are trying to do the right thing, how do you have confidence that your technology is going to allow you to do the right thing?
+\[40:09\] If you say that you're going to have AI systems that abide by the law of war, how do you know that, and how do you prove that, and how do you have the relevant processes to ensure that? That's what the DIB AI principles are going after. Not what is the right or wrong way to use force; that question is best answered by the principles enshrined in the law of war. But if you are trying to do the right thing, how do you have confidence that your technology is going to allow you to do the right thing?
 
 So that's about having the kinds of testing, evaluation, verification and validation procedures, so that we can rigorously test our systems to show that they're going to perform as intended. That gets to the training of your operators, so that they know that this is an appropriate time to use this technology, and this is an inappropriate time to use this technology.
 
@@ -200,7 +200,7 @@ And part of the autopilot of the system, which is a software system mixed in wit
 
 So it's not as though the Department of Defense is starting from scratch here. A lot of the techniques and processes and policies that we have rolled out related to traditional software will serve us very well in an era of AI-powered software. And I think with the DIB's long-form report - this is a 70-page report; it goes into quite some depth - a lot of what it's helpful for is pointing out "Here's where your existing processes kind of already do what you need to be done, and here are some areas where AI really does change the game, and you need to go through the hard work of improving upon these policies and processes."
 
-**Chris Benson:** \[00:43:44.28\] Absolutely. It just is a \[unintelligible 00:43:44.11\] I wanna note that for the F-16, that system you described is actually a Lockheed Martin system. I end up talking about that with folks quite a lot. I really appreciate you diving into that, because that's a question that so many people have in terms of the ethical, and talking about lethal force policy and how you guys think about it. Explaining how it fits into the law of war is very helpful as a framework.
+**Chris Benson:** \[43:44\] Absolutely. It just is a \[unintelligible 00:43:44.11\] I wanna note that for the F-16, that system you described is actually a Lockheed Martin system. I end up talking about that with folks quite a lot. I really appreciate you diving into that, because that's a question that so many people have in terms of the ethical, and talking about lethal force policy and how you guys think about it. Explaining how it fits into the law of war is very helpful as a framework.
 
 I guess as we kind of close out the show, I wanted to just kind of understand - as the JAKE is going forward over the next few years, and we're in this industry that is moving so fast, with all of the research, and the new algorithms, and new techniques, and the compute that's racing along, how does the JAKE look at AI-related technologies going forward? What kinds of things draw your attention and make you sit up and go "That's something that has use cases that we particularly care about"? What does that look like as you're seeing new things come across your screen?
 

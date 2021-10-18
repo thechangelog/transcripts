@@ -34,7 +34,7 @@ Of course, we launched it -- a soft launch; it's on Supercast, it's the easy but
 
 **Jerod Santo:** Right. It's the last one in your feed. You'll have to scroll up one episode...
 
-**Adam Stacoviak:** \[00:03:50.16\] That's right. Maybe even pause this and go listen to that first, or just listen to this... But a recap is Supercast versus our own software, right? There's obviously some -- not so much glitches, but just differences, I suppose... We can't do global pricing that makes sense for everybody based upon where you're at, there's some limitations there... There's even some integration limitations there, in terms of what we can do on-site that's specific... So it's not like a single sign-on thing, it's more like "Here's a thing where we can do it and give you a special feed, because you're a subscribing member." And this was really meant to be something for us to sort of put out there and see if it was received well.
+**Adam Stacoviak:** \[03:50\] That's right. Maybe even pause this and go listen to that first, or just listen to this... But a recap is Supercast versus our own software, right? There's obviously some -- not so much glitches, but just differences, I suppose... We can't do global pricing that makes sense for everybody based upon where you're at, there's some limitations there... There's even some integration limitations there, in terms of what we can do on-site that's specific... So it's not like a single sign-on thing, it's more like "Here's a thing where we can do it and give you a special feed, because you're a subscribing member." And this was really meant to be something for us to sort of put out there and see if it was received well.
 
 **Jerod Santo:** Yeah.
 
@@ -74,7 +74,7 @@ And even a few weeks in, I started to reason with the fact that directly support
 
 **Jerod Santo:** \[laughs\] I think it's hard to think about it and be like "From a podcast feed? What does that even mean...?"
 
-**Adam Stacoviak:** \[00:08:11.10\] But you know what - listening back... You know, I'm not a subscriber of Changelog++; however, I'm part one of two that produces it, so I kind of get a sneak peek behind the scenes... I at least listen to them; I know how they sound, let's just say... So having listened to several of them, I really do like the flow of our shows without ads. And this is not any sort of knock against the sponsors we have, because - man, we do a ton of work to make sure we have relevant sponsors. We don't have -- not that there's anything against Casper, but Casper Beds isn't sponsoring our shows, because we want people to find out about new developery things, not new beds to sleep on. No offence, Casper.
+**Adam Stacoviak:** \[08:11\] But you know what - listening back... You know, I'm not a subscriber of Changelog++; however, I'm part one of two that produces it, so I kind of get a sneak peek behind the scenes... I at least listen to them; I know how they sound, let's just say... So having listened to several of them, I really do like the flow of our shows without ads. And this is not any sort of knock against the sponsors we have, because - man, we do a ton of work to make sure we have relevant sponsors. We don't have -- not that there's anything against Casper, but Casper Beds isn't sponsoring our shows, because we want people to find out about new developery things, not new beds to sleep on. No offence, Casper.
 
 **Jerod Santo:** We did a Casper spot once, didn't we? Back in the day.
 
@@ -110,7 +110,7 @@ And even a few weeks in, I started to reason with the fact that directly support
 
 **Jerod Santo:** I mean, I get it, because there are shows whose ads are good enough that I still listen to them, even though I know they're coming... There's podcasts where I'm fine, I just listen to them, because every once in a while I'll find something via a podcast ad where I'm like "I actually am gonna try that service out", and that's how ours is oftentimes for people, who haven't heard of a Pixie, or DataDog, or whatever. They get value out of that. And I think it's probably a small percentage of overall listeners who would opt for ads, even if they joined Changelog++. But it's a non-zero percentage. There was two people at least who verbalized that they want to have Changelog++, but they also want the ads.
 
-**Adam Stacoviak:** \[00:12:00.11\] Which is a conundrum to be in, in our seat, considering the fence we had mentioned. So when we do this, how do we 1) receive value from the membership, but then 2) also give it as part of delivering it. And I think the only way I can empathize with that point of view is how I feel about Instagram ads. The one thing I can think of that Instagram does well is it knows me. It's kind of scary, because it advertises things that I actually bookmark. I have a folder -- you know how you can bookmark things on Instagram... Well, I have a bookmark folder for advertisements, essentially; like, sponsors, or advertisers, or whatever. I forget what the folder is actually called; I'll look it up.
+**Adam Stacoviak:** \[12:00\] Which is a conundrum to be in, in our seat, considering the fence we had mentioned. So when we do this, how do we 1) receive value from the membership, but then 2) also give it as part of delivering it. And I think the only way I can empathize with that point of view is how I feel about Instagram ads. The one thing I can think of that Instagram does well is it knows me. It's kind of scary, because it advertises things that I actually bookmark. I have a folder -- you know how you can bookmark things on Instagram... Well, I have a bookmark folder for advertisements, essentially; like, sponsors, or advertisers, or whatever. I forget what the folder is actually called; I'll look it up.
 
 But I've put it in there because all too often - and this is actually helpful for me when I help people understand how podcast advertising can help them, is that it takes many touches to really get through to somebody. Not so much to convince them to say yes, but more so they finally need you, or they finally understand how they can use you, or they finally understand your benefits to them... For me, my empathy is drawn from Instagram, and as I mentioned, these ads on there, because I will find things on there and I'm like "I like that. That's interesting", and I'll bookmark it, and go back to it sometimes months later and then finally buy, or finally talk to my wife about "Oh, we were finally at this point in the project of our life, or whatever it might be. Now this is relevant for me to bring up." And the point is - would I want Instagram without the ads? I'd probably say no. I kind of like the ads, you know what I mean? I kind of like the ads.
 
@@ -154,7 +154,7 @@ But I've put it in there because all too often - and this is actually helpful fo
 
 **Adam Stacoviak:** Yeah. Good luck. That's difficult.
 
-**Jerod Santo:** \[00:16:05.23\] Okay, so there's some people that want ads, but they're not very many, of course. Making the ads disappear is probably the primary feature, in addition to supporting us at Changelog and all the folks who are putting together the shows here.
+**Jerod Santo:** \[16:05\] Okay, so there's some people that want ads, but they're not very many, of course. Making the ads disappear is probably the primary feature, in addition to supporting us at Changelog and all the folks who are putting together the shows here.
 
 But then the other relevant concern -- that is I think probably an outlier, people who don't want the ads... But would be pretty manageable with our own software, with a toggle button of some kind.
 
@@ -178,7 +178,7 @@ So that's out there, and it's a thing, and it will be the code that we use when 
 
 **Adam Stacoviak:** And then the merging of the two would be knowing that you're a member, knowing that you have a Changelog.com account, and giving you special UI and special features on-site. That's the missing component - we don't have what Supercast is inside of changelog.com right now... So that's the hold-up.
 
-**Jerod Santo:** \[00:19:59.28\] Right.
+**Jerod Santo:** \[19:59\] Right.
 
 **Adam Stacoviak:** And I suppose we're in it for this six-month content... Not content. Six-month contest. Content's on the brain. Supercast has this contest that -- hey, if we win, we might win 100k, or something like that. I don't even know what all the details are about this contest, but we love to try to compete... And this was one reason to sort of -- maybe it was Jerod's lure to get me on board with it, I don't know; I'm not really sure.
 
@@ -216,7 +216,7 @@ One of the things that's awesome about them, which was kind of a requirement/req
 
 **Adam Stacoviak:** Exactly, yeah.
 
-**Jerod Santo:** \[00:23:52.12\] That's actually the question that we care about the most - when you listen to this, what did you think? Did you like it? Did you learn something? Did you wish we would make it half as long, or three times longer? What do you like about it, what don't you like about it? Those things are infrequently told back, fed back to us. Even over all the years, it's just been very infrequent. Usually it's good, and we had nice emails; we don't wanna act like we don't. I love it when certain emails come in and you're like "Holy cow...!" We had one recently around Changelog++ where a listener (you know who you are) went through and enumerated all of the cool projects they've discovered over the years because of us, because of the show specifically, and how that's affected their work life, and their life. That was an amazing email. So we get those... It's just infrequent.
+**Jerod Santo:** \[23:52\] That's actually the question that we care about the most - when you listen to this, what did you think? Did you like it? Did you learn something? Did you wish we would make it half as long, or three times longer? What do you like about it, what don't you like about it? Those things are infrequently told back, fed back to us. Even over all the years, it's just been very infrequent. Usually it's good, and we had nice emails; we don't wanna act like we don't. I love it when certain emails come in and you're like "Holy cow...!" We had one recently around Changelog++ where a listener (you know who you are) went through and enumerated all of the cool projects they've discovered over the years because of us, because of the show specifically, and how that's affected their work life, and their life. That was an amazing email. So we get those... It's just infrequent.
 
 **Adam Stacoviak:** We've gotten the occasional phone call, too. We do have a phone number. Not many people know that.
 
@@ -248,7 +248,7 @@ And that person described that feedback loop, that malnourishment that we talked
 
 **Adam Stacoviak:** Tears of empathy. I was like "Wow." It's such a nice response to know what we do matters to people, and on this story of ++ - we've been on this journey of like we realize and have become more aware of how much we matter to people, and I think that switch that gets flipped whenever you directly support somebody that matters to you, that feeds into your life, that you maybe just lurk, and that's cool... And maybe just that exchange is enough for you to give them that feedback, to say "You matter to me, and you've mattered to me for many years, I just never tell you." In a review, or on Twitter, or in an email, or on a phone call, or whatever... But that feedback loop is closed in a couple of cases, and it's been really special to hear that.
 
-**Jerod Santo:** \[00:28:01.24\] And I totally get it too, because I've listened to podcasts for years and never interacted with the hosts... And I feel very strong, positive emotions towards these people and I've never told them, I've never tweeted at them... So I'm not complaining; I totally get it. It's just the fact is our feedback loop is minimal, compared to a YouTuber who gets thousands of comments right there. They're overwhelmed with comments as soon as they post their video. Other mediums have more direct and constant contact, and podcasting just doesn't.
+**Jerod Santo:** \[28:01\] And I totally get it too, because I've listened to podcasts for years and never interacted with the hosts... And I feel very strong, positive emotions towards these people and I've never told them, I've never tweeted at them... So I'm not complaining; I totally get it. It's just the fact is our feedback loop is minimal, compared to a YouTuber who gets thousands of comments right there. They're overwhelmed with comments as soon as they post their video. Other mediums have more direct and constant contact, and podcasting just doesn't.
 
 **Adam Stacoviak:** That's kind of baked into YouTube though...
 
@@ -294,7 +294,7 @@ And that person described that feedback loop, that malnourishment that we talked
 
 **Jerod Santo:** \[unintelligible 00:32:02.11\] you didn't know that?
 
-**Adam Stacoviak:** \[00:32:05.19\] But you know, you have that opportunity for your content to be controlled... Whether you wanna call it censorship, or whatever, you can. So that reminds me of the long, hard road that that Jeff Sheldon and I talked about... And I think you and I, Jerod, are the kind of people that appreciate hard work, and the benefits, and I suppose the fruits of the long, hard road... Versus the quick, easy shortcut.
+**Adam Stacoviak:** \[32:05\] But you know, you have that opportunity for your content to be controlled... Whether you wanna call it censorship, or whatever, you can. So that reminds me of the long, hard road that that Jeff Sheldon and I talked about... And I think you and I, Jerod, are the kind of people that appreciate hard work, and the benefits, and I suppose the fruits of the long, hard road... Versus the quick, easy shortcut.
 
 **Jerod Santo:** Right. So let's talk about what hasn't gone so well, or hiccups that we've had along the way. Of course, no launches have the 100% grade... And because we are on Supercast, we also ceded some control. Talk about ownership and control and autonomy, which is really the conversation around platforms - discovery versus autonomy. We desire autonomy, but we've given up some of it here. And that doesn't feel good when things go wrong. So we've had a couple of things that have been less -- I wouldn't say they're wrong, they're just less than perfect... You know, we just have to throw Supercast under the bus each time. No -- you know, it's kind of out of our control in certain cases.
 
@@ -340,7 +340,7 @@ The biggest one that has been confusing and issued bug submissions - really, it'
 
 **Jerod Santo:** And then to layer on top of that the way that plans are implemented on Supercasts and requires us to -- when we changed from the soft launch pricing, which was the $6/month, $60/year, to the regular pricing, which is $10/month, $100/year; we had to delete those old plans, which is the way it works... And anybody who's signed up on those plans still has those plans, but they're no longer in the system.
 
-**Adam Stacoviak:** \[00:36:17.23\] They're not available.
+**Adam Stacoviak:** \[36:17\] They're not available.
 
 **Jerod Santo:** They're not available. So then when they got the email that says "Your trial is about to expire", they would click through, thinking they had to do something, which really -- you didn't have to do anything, because you gave your credit card upfront. It's just gonna charge your credit card in three days, or whatever... They clicked through and they would see this new $10 plan there, and it's like "Wait a second, I thought I was on the $6 plan. Now I have to switch to the $10 plan and pay?" It was just a mess.
 
@@ -378,7 +378,7 @@ So yeah, those are a few of the hiccups, and lessons learned. No 30-day trials, 
 
 **Adam Stacoviak:** I love it. Beautiful book. Great signature.
 
-**Jerod Santo:** \[00:40:05.29\] We'll give away three of them to Changelog++ members. How did we do that? Well, we just set that September 1st deadline, and on September 1st I exported that membership list to CSV, and then I took that CSV and I put it into SQLite, or Sequelite... How are you supposed to say it?
+**Jerod Santo:** \[40:05\] We'll give away three of them to Changelog++ members. How did we do that? Well, we just set that September 1st deadline, and on September 1st I exported that membership list to CSV, and then I took that CSV and I put it into SQLite, or Sequelite... How are you supposed to say it?
 
 **Adam Stacoviak:** SQL-ite.
 

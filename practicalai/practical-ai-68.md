@@ -142,7 +142,7 @@ So for want of like $1,000 or $2,000 of annotation, people would be spending the
 
 So we saw that actually all of those things where -- you know, now you've got an idea, and you want to try to model... And it's like "Okay, but then I have to schedule a meeting for next Wednesday, pitch my idea and get buy-in for this, and I'm not at all sure that this idea will actually succeed. So that's really where the innovation or iteration speed goes to die. That's why we actually set it up to be much more built for rapid prototypings that data scientists could do some of this annotation themselves and say "Alright, well if I've got an idea, I don't need to ask anybody's permission about this. I can do the annotation to test it out between now and lunchtime. It's just sort of part of my daily work" or "Okay, I experimented with this." It's not basically taking all of your \[unintelligible 00:19:28.07\] schemes, up to management, and pitching them in meetings, because that's not a productive way to work,
 
-**Break:** \[00:19:41.27\]
+**Break:** \[19:41\]
 
 **Daniel Whitenack:** I'd love to switch directions just a little bit here... I saw one of your recent blog posts which was talking about state-of-the-art NLP models, and there's a simple four-step formula for a lot of these models... I think that might be a good way to maybe introduce people to state-of-the-art NLP... And also, I've found it really useful myself to have that scaffolding in my mind, as I'm approaching these problems... So I was wondering if you could introduce that formula a bit for these state-of-the-art NLP models.
 

@@ -10,7 +10,7 @@
 
 **Adam Stacoviak:** Automatic Breaking System, that's what it refers to for me...
 
-**Gerhard Lazu:** \[00:03:59.23\] The reason why I care so much about this is that having been part of Pivotal, this company which isn't anymore - it was acquired by VMware last year or two years ago - is that one of the core principles was to always be improving. "Be kind" was there as well. But always be improving was something that was embodied in the retrospectives that we used to have every single week at the end of the week. And this was good, because what worked well, what didn't work so well? Anything that people wanna discuss? And that made sure that everybody was in sync with problems, but also the wins. I think that's important.
+**Gerhard Lazu:** \[03:59\] The reason why I care so much about this is that having been part of Pivotal, this company which isn't anymore - it was acquired by VMware last year or two years ago - is that one of the core principles was to always be improving. "Be kind" was there as well. But always be improving was something that was embodied in the retrospectives that we used to have every single week at the end of the week. And this was good, because what worked well, what didn't work so well? Anything that people wanna discuss? And that made sure that everybody was in sync with problems, but also the wins. I think that's important.
 
 So having done it for 5, 6, 7 years, it's so deep-ingrained in me I cannot not do it. It's part of me. And I do it continuously. And I think the infrastructure setup that we've been rolling for some number of years has been an embodiment of that. Every year it has been improving. It was rooted in this principle.
 
@@ -42,7 +42,7 @@ So - Fastly. I would like to mention that, because Fastly, our partner - amazing
 
 **Jerod Santo:** Wait, wait, wait. Tell me more. How were emojis down for the whole internet? It doesn't make sense.
 
-**Gerhard Lazu:** \[00:08:01.01\] Well, apparently, the assets that were served by AWS had something to do with it. I don't know exactly in which capacity, but AWS was serving certain emoji assets, and Fastly was part of that... And emojis stopped working for Slack, so I think in the Slack setup somewhere -- I mean, everybody uses Slack to communicate these days, because everybody's at home these days, or most of us are at home these days. So you couldn't use emojis in Slack anymore. They stopped working.
+**Gerhard Lazu:** \[08:01\] Well, apparently, the assets that were served by AWS had something to do with it. I don't know exactly in which capacity, but AWS was serving certain emoji assets, and Fastly was part of that... And emojis stopped working for Slack, so I think in the Slack setup somewhere -- I mean, everybody uses Slack to communicate these days, because everybody's at home these days, or most of us are at home these days. So you couldn't use emojis in Slack anymore. They stopped working.
 
 **Jerod Santo:** That makes more sense than "The emojis just stopped working globally", across the entire world of devices... But yeah, inside Slack.
 
@@ -80,7 +80,7 @@ I was basically chilling, it was like a day off... It was a great one. I was in 
 
 **Adam Stacoviak:** Yeah.
 
-**Gerhard Lazu:** \[00:11:56.24\] I remember that, actually. I remember that, because I remember looking at the stats, and the stats were down, and I was thinking "I wanna talk to Jerod about this." So if there's one lesson to learn from this, we need to double up. So everything that we do, we need to do two of that thing. Say like monitoring - we have two monitoring systems. Because sometimes Grafana Cloud has an issue, and we want to still know -- and when I say Grafana Cloud, I mean the black box, all the exporters... There was a recent one as well when they pushed updates, sometimes things are offline for a few minutes... And it makes you think that a website is offline, but it's not. Or when it is offline, you don't get anything. So we used Pingdom as a backup, and that helps. So stats - I think it's great to have stats from Fastly, but I don't think we can rely only on those stats. I think we need more.
+**Gerhard Lazu:** \[11:56\] I remember that, actually. I remember that, because I remember looking at the stats, and the stats were down, and I was thinking "I wanna talk to Jerod about this." So if there's one lesson to learn from this, we need to double up. So everything that we do, we need to do two of that thing. Say like monitoring - we have two monitoring systems. Because sometimes Grafana Cloud has an issue, and we want to still know -- and when I say Grafana Cloud, I mean the black box, all the exporters... There was a recent one as well when they pushed updates, sometimes things are offline for a few minutes... And it makes you think that a website is offline, but it's not. Or when it is offline, you don't get anything. So we used Pingdom as a backup, and that helps. So stats - I think it's great to have stats from Fastly, but I don't think we can rely only on those stats. I think we need more.
 
 **Jerod Santo:** Well, it's one of those ROI kind of conversations, and I think this is a good conversation for Ship It, like "What's worth doing?" and the fact is that in our five years of being on Fastly, this is the first incident they've had... And if it didn't happen to be right when we released a popular episode of the Changelog -- if it was just like a Saturday and we missed some downloads, I wouldn't care all that much. At the end of the day, I know that show is popular, so it's not really changing my life... I just know it was popular because people reacted that way, versus looking at the download stats.
 
@@ -98,7 +98,7 @@ But what would it take to get Linodes doing the same thing, or changing the way 
 
 **Gerhard Lazu:** The way I think about this is that we are in a unique position to try out all these providers. We have the know-how, and really, our integrations are fairly simple... So I know that it wouldn't take that much more to integrate Cloudflare. So how about we use Cloudflare AND Fastly? ...the two biggest CDN providers, at the same time. What if, for example, we decouple assets from local storage? We store them in an S3 object store. We for a database use maybe CockroachDB, a hosted one, the database is global, and then we are running Changelog one instance on Linode, one instance on Render, one instance on Fly, and then we use different types of services, not just Kubernetes we try and apply it for... Because we try it out, and at the same time, we are fully redundant.
 
-\[00:16:06.27\] Now, the pipeline that orchestrates all of that will be interesting... But this is not something that's gonna happen even like in a year. It's slowly, gradually... It's maybe a direction that we choose to go towards... And maybe we realize "You know what? Actually, in practice, Cloudflare and Fastly - it's just too complicated." Because only once you start implementing you realize just how difficult it is.
+\[16:06\] Now, the pipeline that orchestrates all of that will be interesting... But this is not something that's gonna happen even like in a year. It's slowly, gradually... It's maybe a direction that we choose to go towards... And maybe we realize "You know what? Actually, in practice, Cloudflare and Fastly - it's just too complicated." Because only once you start implementing you realize just how difficult it is.
 
 **Adam Stacoviak:** Yeah, that's that cost that Jerod was talking about - how much does the redundancy cost, and how much does it gain you?
 
@@ -132,7 +132,7 @@ But what would it take to get Linodes doing the same thing, or changing the way 
 
 **Jerod Santo:** Okay, good.
 
-**Break**: \[00:19:48.23\]
+**Break**: \[19:48\]
 
 **Gerhard Lazu:** So you were asking, Jerod, what is next on our hill... One of the things I learned from the Fastly incident is that we don't have anything to manage incidents. When something is down, how do we let users know what is going on? How do we learn from it in a way that we can capture and then share amongst ourselves and then also others?
 
@@ -180,7 +180,7 @@ So what I would like to do is first of all capture this problem in a way that we
 
 **Gerhard Lazu:** Yes.
 
-**Adam Stacoviak:** \[00:23:56.23\] So on June 19th -- they have an activity log. This is actually kind of important for -- I think this is super-important for services that have multiple people doing things that are important, that could break things, essentially... Have an activity log of things that happened - deletions, additions... And DNSimple does have that, except for to have more than 30 days of activity, you have to upgrade to a pro plan that costs $300/year. It's kind of pricey, in my opinion.
+**Adam Stacoviak:** \[23:56\] So on June 19th -- they have an activity log. This is actually kind of important for -- I think this is super-important for services that have multiple people doing things that are important, that could break things, essentially... Have an activity log of things that happened - deletions, additions... And DNSimple does have that, except for to have more than 30 days of activity, you have to upgrade to a pro plan that costs $300/year. It's kind of pricey, in my opinion.
 
 **Jerod Santo:** So we don't know what happened.
 
@@ -230,7 +230,7 @@ So what I would like to do is first of all capture this problem in a way that we
 
 **Gerhard Lazu:** Exactly.
 
-**Jerod Santo:** \[00:27:51.21\] I don't know. We don't know the best way to doing this, or a good way... So what's a good way for listeners, if they have a great incident solution, or maybe they have one that they use at work but they hate it, like "Avoid this one"? Is it Slack, is it email, is it tweets? What's the best way for listeners to -- feed back comments on the episode page perhaps on the website?
+**Jerod Santo:** \[27:51\] I don't know. We don't know the best way to doing this, or a good way... So what's a good way for listeners, if they have a great incident solution, or maybe they have one that they use at work but they hate it, like "Avoid this one"? Is it Slack, is it email, is it tweets? What's the best way for listeners to -- feed back comments on the episode page perhaps on the website?
 
 **Gerhard Lazu:** Yeah, that is an excellent point. Yeah, so however you wanna communicate - via Slack, or even via Twitter, we are everywhere these days. Everywhere that works and it's still available...
 
@@ -248,7 +248,7 @@ From a monitoring perspective, you can check that things are the way you expect 
 
 **Adam Stacoviak:** What does instant management give a team though? Because I think this came about whenever you said "Well, hey--", Fastly was down, we didn't expect it to be down; a majority, if not all the responsibility tends to fall on your shoulders for resuming uptime, which is incident management, like a disruption in a service that requires an emergency response; you're our first and only responder. I suppose Jerod and I can step in in most cases, but you really hold the majority of the knowledge... Does incident management give you the ability to share that load with other people, that may not have to know everything you do, but can step in? What is incident management, I guess, breakdown to be? Is it simply monitoring and awareness, is it action-taking? Is there multiple facets of incident management?
 
-**Gerhard Lazu:** \[00:31:57.19\] It has a couple of elements... But the element that I'm thinking about based on your initial question was having the concept of a runbook. I know I have a problem - great, I'm going to communicate my problem. So what do I do? And you codify those steps in something which is called a runbook. For example, if Jerod had to roll the DNS, what would he do? How would he approach it? It didn't have to be me, but the problem is, as you very well spotted, is that I am the one who has the most context in this area, and it would take Jerod longer to do the same steps. Make files plural, we have how-to's. So how to rotate credential? This is a step by step process, like seven steps or four steps, however many it's now, how to basically rotate a specific credential. So we need something similar to that, but codified in a way that first of all - there's an incident; these people need to know about it, maybe including our listeners... Like, "Hey, we are down. We know we're down, we're working on it. We'll be back shortly." And then one of us, whoever is around - because maybe one of us is on holiday. And if I'm on holiday, what do you do? What are the steps that you follow to restore things? And as automated as things are, there's still elements... I mean, ROI. Not everything is automated, because it's not worth automating everything, or it's impossible.
+**Gerhard Lazu:** \[31:57\] It has a couple of elements... But the element that I'm thinking about based on your initial question was having the concept of a runbook. I know I have a problem - great, I'm going to communicate my problem. So what do I do? And you codify those steps in something which is called a runbook. For example, if Jerod had to roll the DNS, what would he do? How would he approach it? It didn't have to be me, but the problem is, as you very well spotted, is that I am the one who has the most context in this area, and it would take Jerod longer to do the same steps. Make files plural, we have how-to's. So how to rotate credential? This is a step by step process, like seven steps or four steps, however many it's now, how to basically rotate a specific credential. So we need something similar to that, but codified in a way that first of all - there's an incident; these people need to know about it, maybe including our listeners... Like, "Hey, we are down. We know we're down, we're working on it. We'll be back shortly." And then one of us, whoever is around - because maybe one of us is on holiday. And if I'm on holiday, what do you do? What are the steps that you follow to restore things? And as automated as things are, there's still elements... I mean, ROI. Not everything is automated, because it's not worth automating everything, or it's impossible.
 
 **Jerod Santo:** Right.
 
@@ -288,7 +288,7 @@ From a monitoring perspective, you can check that things are the way you expect 
 
 **Adam Stacoviak:** Gotcha.
 
-**Gerhard Lazu:** \[00:35:52.14\] Yeah, "This is what I've done to fix it." And anyone can follow those steps. And maybe if something for example happens a couple of times, then we create a runbook. But at least Jerod can see "Oh, this happened six months ago. This is what Gerhard did. Maybe I should do the same." I don't know. For example, in the case of this DNS token, what are the steps which I'm going to take to fix it? So capturing those steps somewhere... And it's a simple form; literally, as I do it, I do this, and I do that." And that is stored somewhere and can be retrieved at a later date.
+**Gerhard Lazu:** \[35:52\] Yeah, "This is what I've done to fix it." And anyone can follow those steps. And maybe if something for example happens a couple of times, then we create a runbook. But at least Jerod can see "Oh, this happened six months ago. This is what Gerhard did. Maybe I should do the same." I don't know. For example, in the case of this DNS token, what are the steps which I'm going to take to fix it? So capturing those steps somewhere... And it's a simple form; literally, as I do it, I do this, and I do that." And that is stored somewhere and can be retrieved at a later date.
 
 **Adam Stacoviak:** I guess then the question is when the incident happens again, how does somebody know where to go look for these runbooks? I suppose if you're using one of these services it gets pretty easy, because it's like "Hey, go to this service", and there's a runbooks dashboard, so to speak.
 
@@ -320,7 +320,7 @@ In this case, for example, we didn't have this, but right now if the backend goe
 
 **Gerhard Lazu:** And it makes us think about things in a different way. So if you try something out, why are you trying something out? Well, we have a certain problem to address, and it may be a fun one, but we will learn. So it's this curiosity, this building curiosity. How does Incident.io work? How does FireHydrant work? What is different? What about Render? What about Fly? They look all cool... Let's try it out. What would it mean to run Changelog on these different platforms?
 
-\[00:40:08.04\] Some are hard, some are dead simple, and sometimes you may even be surprised and say "You know what - I would not have guessed that this platform is so much better, so why are we complicating things using this other thing?" But you don't know until you try it. And you can't be trying these things all the time, so you need those innovators that are out there. And if for example we have something stable that we depend on, something that serves us well, we can try new things out in a way that doesn't disrupt us completely. And I think we have a very good setup to do those things.
+\[40:08\] Some are hard, some are dead simple, and sometimes you may even be surprised and say "You know what - I would not have guessed that this platform is so much better, so why are we complicating things using this other thing?" But you don't know until you try it. And you can't be trying these things all the time, so you need those innovators that are out there. And if for example we have something stable that we depend on, something that serves us well, we can try new things out in a way that doesn't disrupt us completely. And I think we have a very good setup to do those things.
 
 **Adam Stacoviak:** This reminds me of Sesame Street. Have either of you watched Sesame Street?
 
@@ -338,13 +338,13 @@ In this case, for example, we didn't have this, but right now if the backend goe
 
 **Adam Stacoviak:** This makes sense to do, in some cases. Does it work for me? It depends. Maybe. Maybe not.
 
-**Break**: \[00:42:02.06\]
+**Break**: \[42:02\]
 
 **Gerhard Lazu:** So I would like us to talk about the specifics, three areas of improvements for the changelog.com setup. Not for the whole year 2022, but just like over the next couple of months. Top of my list is the incident management, so have some sort of incident management... But that seems like a on-the-side sort of thing, and we've already discussed that at some length.
 
 The next thing is I would like to integrate Fastly logging. This is the origin, the backend logging with Grafana Cloud. The reason why I think we need to have that is to understand how our origin, in this case Linode (LKE) where changelog.com runs - how does the origin behave from a Fastly perspective, from a CDN perspective. Because that's something that we have no visibility in.
 
-\[00:43:57.28\] So what I mean by that is like when a request hits Fastly, that request has to be proxied to a node balancer running in Linode, and that has to be proxied to Ingress NGINX running in Kubernetes, and that has to be proxied to eventually our instance of Changelog. How does that work? How does that interaction work? How many requests do we get? How many fail? When are they slow? Stuff like that. So have some SLO's uptime as well, but also how many requests fail, and what is the 99th percentile for every single request? That's what I would like to have.
+\[43:57\] So what I mean by that is like when a request hits Fastly, that request has to be proxied to a node balancer running in Linode, and that has to be proxied to Ingress NGINX running in Kubernetes, and that has to be proxied to eventually our instance of Changelog. How does that work? How does that interaction work? How many requests do we get? How many fail? When are they slow? Stuff like that. So have some SLO's uptime as well, but also how many requests fail, and what is the 99th percentile for every single request? That's what I would like to have.
 
 **Jerod Santo:** How hard is that to set up?
 
@@ -404,7 +404,7 @@ So we need to set up - and again, this is in the support you get with Fastly, wh
 
 **Gerhard Lazu:** But it's stuff like this, right?
 
-**Adam Stacoviak:** \[00:47:54.14\] Well, let's put an email feeler out. We've got some people we can talk to to know for sure... And then if it is in the works, and it's maybe on the back-burner, we can put some fire under the burner, because we need it, too.
+**Adam Stacoviak:** \[47:54\] Well, let's put an email feeler out. We've got some people we can talk to to know for sure... And then if it is in the works, and it's maybe on the back-burner, we can put some fire under the burner, because we need it, too.
 
 **Gerhard Lazu:** Well, then we've hit another interesting thing, in that I really wanna try Honeycomb out. I've signed up, and I wanna start sending some events their way and just start using Honeycomb to see what insights we can derive from the things that we do.
 
@@ -430,7 +430,7 @@ Charity Majors - I don't know which episode, but she will be on the show very so
 
 **Gerhard Lazu:** You're right. So the steps that we go through - they're always the same. We could make the pipeline smarter, in that for example if the code doesn't change, you don't need to run the tests. The tests themselves, they don't take long to run. But to run the tests, you need to get the dependencies. And we don't distinguish -- like, if the CSS changed, you know what, you don't need to get dependencies. So we don't distinguish between the type of push that it was, because then you start putting smarts -- I mean, you have to declare that somehow; you have to define that logic somewhere. And then maybe that logic becomes, first of all, difficult to declare, brittle to change... What happens if you add another path? What happens if, for example, you've changed a Node.js dependency which right now we use, and then we remove Node.js and we compile assets differently? And then by the way, now you need to watch that, because the paths, the CSS that gets generated actually depends on some Elixir dependencies, I don't know. I think esbuild, we were looking at that? Or thinking...?
 
-**Jerod Santo:** \[00:52:09.13\] You effectively introduce a big cache invalidation problem.
+**Jerod Santo:** \[52:09\] You effectively introduce a big cache invalidation problem.
 
 **Gerhard Lazu:** Yes.
 
@@ -462,7 +462,7 @@ Charity Majors - I don't know which episode, but she will be on the show very so
 
 **Gerhard Lazu:** Exactly. And if it can be distributed, that means that we can run multiple instances of our app, was it not for the next point, which is an S3 object store for all the media assets, instead of local disk. Right now when we restore from backups, that's actually what takes the most time, because we have like 90 gigs at this point... So restoring that will take some number of minutes. I think moving to an S3 one and a managed PostgreSQL, which we don't have -- we can have multiple instances of Changelog. We can run them in multi-clouds... I mean, it opens up so much possibility if we did that.
 
-**Jerod Santo:** \[00:56:09.27\] Putting all of our assets into S3 would be like "Welcome to the 2000's, guys."
+**Jerod Santo:** \[56:09\] Putting all of our assets into S3 would be like "Welcome to the 2000's, guys."
 
 **Gerhard Lazu:** I would be, right? \[laughter\] This is exactly right, yeah.
 

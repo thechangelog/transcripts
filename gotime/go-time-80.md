@@ -26,7 +26,7 @@ I'll kick things off by asking Mark Bates a question. Mark...
 
 **Johnny Boursiquot:** I am many things; lazy has not been used to describe me yet.
 
-**Mat Ryer:** \[00:04:01.19\] So how about you? Is there is anything that you think you could get rid of in the language, or something that you would like to see added?
+**Mat Ryer:** \[04:01\] So how about you? Is there is anything that you think you could get rid of in the language, or something that you would like to see added?
 
 **Johnny Boursiquot:** Honestly, I've learned to love Go for what it is. I don't feel sort of like one way or the other. I mean, sure, there are some things that I use currently, in the current version of Go, that I don't use as much; I don't think I've ever used goto, for example; fallthrough doesn't come through a lot... Sorry about that. And then -- I mean, these things are useful to some, and they find excellent uses for them, but for me, I've learned to appreciate the language for what it is, and for what it isn't, at the same time.
 
@@ -50,7 +50,7 @@ I also don't like naked returns. I wish they were entirely gone. I really like t
 
 The select statement is one of the other things that I wish we could have spent some more time on... Because it's doing a lot of random things, and I wish that there was some sort of maybe a priority, or something. A very typical case is, you know, if my channel is closed, for example, I don't necessarily care much about what else is going on in that select. There are some very common patterns, and it's just so hard to figure out the right pattern, and use select in an easy way, because the select statement is really complicated.
 
-\[00:07:57.24\] If we have time, I have some opinions on what packages I think need to be gone from 2.0. A typical example of this is the `expvar` package. It's like a straight copy of the \[unintelligible 00:08:08.22\] at Google, and I don't think that it's a really scalable approach. It uses global state, the number of variables is growing really quickly, the output format is human-readable but not necessarily a good representation; it doesn't really provide a good way to represent structured values... And it's really expensive to parse and format, so I don't think it's worth it at all. And there's some packages that we wanna get rid of, like the `container/` packages, the rpc-related package, which has been deprecated...
+\[07:57\] If we have time, I have some opinions on what packages I think need to be gone from 2.0. A typical example of this is the `expvar` package. It's like a straight copy of the \[unintelligible 00:08:08.22\] at Google, and I don't think that it's a really scalable approach. It uses global state, the number of variables is growing really quickly, the output format is human-readable but not necessarily a good representation; it doesn't really provide a good way to represent structured values... And it's really expensive to parse and format, so I don't think it's worth it at all. And there's some packages that we wanna get rid of, like the `container/` packages, the rpc-related package, which has been deprecated...
 
 `net/http` also has a lot of organically-grown features, and the ResponseWriter has this sort of optional interfaces. If you think about the initial http package, even HTTP/2 was not around when it first came around... And over time it started to provide some features through optional implementing some of the interfaces, that is added to the package at a later time... And I really want 2.0 to kind of like clean that up, and make it easier for library makers, as well as the user, as they're engaging with the ResponseWriter.
 
@@ -80,7 +80,7 @@ The select statement is one of the other things that I wish we could have spent 
 
 **Mark Bates:** I can think of a few things that I'd like to add, if we wanna talk about that... Because we've all talked about things we want removed. I'd be curious to hear what everybody would add. For example, I would love a true sync.Map implementation - typed sync.Map implementation - in the standard library. So instead of just doing like, say, map-whatever, just do smap, or something like that. Because right now the one that's all interface-based is not that helpful, because you're casting everywhere.
 
-**Jaana Dogan:** \[00:11:58.20\] I totally agree. I think Go is an overwhelmingly concurrency-friendly language, but it doesn't give you a lot of...
+**Jaana Dogan:** \[11:58\] I totally agree. I think Go is an overwhelmingly concurrency-friendly language, but it doesn't give you a lot of...
 
 **Mark Bates:** Safe types.
 
@@ -120,7 +120,7 @@ We've identified a number of things that could be done better with the existing 
 
 **Jaana Dogan:** If we are talking about adding stuff, I think error handling is one of the few places I would love to see an improvement. I think the problem over there is just not the verbosity, but bubbling up -- we have this tendency to bubble up errors, because there's no easy way to discover the error types. We don't have, for example, analysis tools that can help us to discover the types coming from the previous call tree, right? There's no stack frame if you do fmt error and not wrap things... So errors are definitely not in an ideal form at this point.
 
-\[00:16:26.13\] I really like the fact that check is specifically -- it looks like maybe it's specifically trying to solve the verbosity problem, but it might actually help us to create some of these tools by intercepting every error, helping us to write some dynamic analysis tools maybe. It really depends on how much they're going to provide us some APIs maybe to diagnose what is going on... But I think it's an opportunity to us; rethinking about error handling is a good opportunity.
+\[16:26\] I really like the fact that check is specifically -- it looks like maybe it's specifically trying to solve the verbosity problem, but it might actually help us to create some of these tools by intercepting every error, helping us to write some dynamic analysis tools maybe. It really depends on how much they're going to provide us some APIs maybe to diagnose what is going on... But I think it's an opportunity to us; rethinking about error handling is a good opportunity.
 
 **Mark Bates:** Yeah, I was reading the error spec earlier, and I don't know - there's a lot in there I think might be just too much, just too many things. The biggest thing I've always had -- like, I don't need check; check doesn't really bother me. Like Mat said earlier, I think the `if err != nil` thing has always worked for me, and I've just gotten used to it. And in a function, if I have multiple points where I need to do something if there's an error, I just write a little anonymous function in-line and just call that my own little check, basically. So I don't feel like I need any of that.
 
@@ -136,13 +136,13 @@ What I really need is just a nice way to get a clean stack trace. From where the
 
 **Mat Ryer:** That's a great idea, because you could do that today.
 
-**Johnny Boursiquot:** \[00:20:06.15\] Right, exactly.
+**Johnny Boursiquot:** \[20:06\] Right, exactly.
 
 **Jaana Dogan:** Yeah. I would otherwise maybe advocate something more. For the error groups it's a really common case, but you can always build stuff to support those cases with a third-party library. I'm not sure if we should include more to the standard library, or we should experiment more outside of the standard library.
 
 **Mat Ryer:** Well, one of the cool things about Go as a project is that it does engage with the community. If you've got something to say about it, you can write about it, you can get involved, and I know that they pay attention to it. I was talking to one of the team recently in Paris, and they're very interested in looking at particularly errors... And there's packages like [Dave Cheney's package](https://github.com/pkg/errors), and a few others that have really taken part in that conversation. That's something that I like to see just from a community point of view. It's quite empowering.
 
-**Break:** \[00:21:03.13\]
+**Break:** \[21:03\]
 
 **Jaana Dogan:** In terms of tools, I think we are not doing a good job in terms of giving introspection tools, for example. Do you have any opinions on that? What do you think is the right approach? There are errors that you wanna handle, transform into something else, or you can recover from. Then there are some errors where there's nothing else to do; just like Mat said, it's a "stop the world" type of error, and all you can do is maybe log it. What do you think our approach should be in terms of providing more visibility?
 
@@ -172,7 +172,7 @@ That's an answer to your question, but... \[laughter\]
 
 **Mat Ryer:** They're taking their ball home. It's like, "No... I can't do my thing, so no one else is gonna play, too."
 
-**Jaana Dogan:** \[00:23:59.10\] I think panic is this specific thing, "Hey, if I continue, it's going to mess up even more crazily. I'm going to corrupt memory, or something." It's not like, "Oh, I got an error and I don't know what to do, and I should panic", right? I think there's an error type which is in-between; you don't have to stop the process, but you don't have much of a next action. There's only one thing you can do, which is to log it, report it to your error reporting analysis tool. I was specifically more talking about that case.
+**Jaana Dogan:** \[23:59\] I think panic is this specific thing, "Hey, if I continue, it's going to mess up even more crazily. I'm going to corrupt memory, or something." It's not like, "Oh, I got an error and I don't know what to do, and I should panic", right? I think there's an error type which is in-between; you don't have to stop the process, but you don't have much of a next action. There's only one thing you can do, which is to log it, report it to your error reporting analysis tool. I was specifically more talking about that case.
 
 I don't know what is the best way to avoid panics. Would you rather see yourself corrupting memory rather than Go panicking?
 
@@ -194,7 +194,7 @@ So the standard library has this pattern of if you put the "must" in front of it
 
 **Johnny Boursiquot:** Yeah. And the other thing, too - when I teach, especially those new to Go, they kind of run into some errors that we as sort of veterans consider to be obvious... For example, the "index out of range" error. Or if you're trying to access an index or an array or a slice that doesn't exist, then that's gonna panic. Sometimes they're surprised, they're like "Oh, I didn't see that coming." Things like that. I'm not sure there's a good way of handling these kinds of situations, but perhaps there's a softer way, there's something in-between, like Jaana is saying. It can't be all or nothing; maybe there's something in-between there.
 
-**Mark Bates:** \[00:28:01.23\] Right. Yeah, I don't have an answer... I'm just voicing frustration.
+**Mark Bates:** \[28:01\] Right. Yeah, I don't have an answer... I'm just voicing frustration.
 
 **Mat Ryer:** And maybe we could have an error and we could have panics, and we could just have like a small anxiety that just gets returned... \[laughter\] It's like, "I'm okay..."
 
@@ -248,7 +248,7 @@ I think propagation is a little bit like the other concern. It's not automatic, 
 
 **Mark Bates:** There's also a real... Hm, what's the word I'm looking for...? In the standard library they're not using it the same way all over the place, and it's really kind of frustrating. And I'll give you an example. In the `exec` package, there's `os/exec.CommandContext()` which takes a context and creates a command, yet there is no way to get back the context on that command; it's a private, unexported field. But in request, you can. On `net/http.Request` you can get access to it. So there's lots of places where it's not consistent, and I think maybe formalizing or making it more consistent would help a lot of problems.
 
-**Jaana Dogan:** \[00:32:18.21\] True. And it's also like the context was added to the standard library at a later time; it doesn't even follow the best practices. The `context` package itself says "Use this as the first argument of a function call; never pin it." And if you take a look at the `net/http.Request`, context is a field, because they couldn't break the APIs; they had to put the context somewhere, and then they made it a field. So all of this organically-grown features is just making it very complicated for people coming to the language for the first time.
+**Jaana Dogan:** \[32:18\] True. And it's also like the context was added to the standard library at a later time; it doesn't even follow the best practices. The `context` package itself says "Use this as the first argument of a function call; never pin it." And if you take a look at the `net/http.Request`, context is a field, because they couldn't break the APIs; they had to put the context somewhere, and then they made it a field. So all of this organically-grown features is just making it very complicated for people coming to the language for the first time.
 
 I'm not sure if any of this is going to be different in 2.0.
 
@@ -264,7 +264,7 @@ But the standard library definitely misses a few pieces when it comes to web. It
 
 **Mark Bates:** I don't think improving the current router is taking away anything from anybody... Because you can still obviously have your own third-party routers. I mean, obviously, I'm somebody who doesn't believe that -- I completely agree with you, I think the standard library is about building blocks for library maintainers, such as those who maintain tools like Buffalo and other frameworks, and gorilla/mux and all those things; I completely, 100% agree with that, and the Go team also agrees. I've had long conversations with members of them where they say "These packages are meant as building blocks."
 
-\[00:36:21.00\] The problem really becomes in that we've somehow got into this culture where if you use anything other than the standard library, you're doing it wrong... And I see that all the time; I see people getting very adamant, they're like "Only use the standard library." And it's like, "Well, it's not for everybody, and it's the building blocks." I could use the standard library in Ruby too to build a web app, but I had Rails, which made it a lot nicer. Or Sinatra. And the same thing in Java and every other language that has a web standard library. I just think the router that is there is really weak, and there are times when I do want to just use the standard library for smaller things, and that router just isn't enough to make it work, and I still have to bring a third-party router.
+\[36:21\] The problem really becomes in that we've somehow got into this culture where if you use anything other than the standard library, you're doing it wrong... And I see that all the time; I see people getting very adamant, they're like "Only use the standard library." And it's like, "Well, it's not for everybody, and it's the building blocks." I could use the standard library in Ruby too to build a web app, but I had Rails, which made it a lot nicer. Or Sinatra. And the same thing in Java and every other language that has a web standard library. I just think the router that is there is really weak, and there are times when I do want to just use the standard library for smaller things, and that router just isn't enough to make it work, and I still have to bring a third-party router.
 
 **Jaana Dogan:** I think the confusion started because Go is perceived as a "batteries-included" language, or standard library... And there was this culture of relying only on the standard library building blocks, rather than just like building more abstractions, especially for typical things like the http layers, or some encoders/decoders, like the JSON package. I think we are suffering from that initial culture, because we expected a lot from the standard library... Because, to be fair, if you compare ten years ago, this was the only standard library with a good http package, and a JSON library. So I think originally speaking, that is coming from there, but we need to just pass it and realize the truth. And I think the team kind of got to that point, "We need to keep the standard library as a building block, and let people build on top."
 
@@ -284,7 +284,7 @@ The Go type system is really small. It's really super-nice if you have a lot of 
 
 I've worked on a lot of big rule engines, message parsing systems, and I would probably not use Go for those types of problems where I needed flexibility... So I'm not super-opinionated against generics, because Go is disabling some of the use cases by not providing that level of flexibility.
 
-**Mark Bates:** \[00:40:06.04\] I have to say, to piggyback on that, I do miss on occasion the flexibility that Ruby offered me for unstructured kind of data... You know, where you could just pull in whatever and it's just kind of there, and you can work with it, which is a lot harder to do in Go. I completely agree. But I also really love the type safety in Go too, so... \[laughter\] I'm not exactly eager to rush back to the dynamic world of Ruby, but there are times...
+**Mark Bates:** \[40:06\] I have to say, to piggyback on that, I do miss on occasion the flexibility that Ruby offered me for unstructured kind of data... You know, where you could just pull in whatever and it's just kind of there, and you can work with it, which is a lot harder to do in Go. I completely agree. But I also really love the type safety in Go too, so... \[laughter\] I'm not exactly eager to rush back to the dynamic world of Ruby, but there are times...
 
 **Johnny Boursiquot:** Trade-offs.
 
@@ -316,7 +316,7 @@ I've worked on a lot of big rule engines, message parsing systems, and I would p
 
 **Jaana Dogan:** But this is not specific to Go binaries, right? It's a problem generally.
 
-**Mark Bates:** \[00:43:53.23\] Yeah, we've got it in other languages. But I'm saying Ruby does that with Bundler, where your binaries are technically versioned if you call them through "bundle exec". I'd love to have that in my mod file, where it'll use the right binaries if I do "go exec".
+**Mark Bates:** \[43:53\] Yeah, we've got it in other languages. But I'm saying Ruby does that with Bundler, where your binaries are technically versioned if you call them through "bundle exec". I'd love to have that in my mod file, where it'll use the right binaries if I do "go exec".
 
 **Jaana Dogan:** What does your current makefiles look like? Is it directly dependent on -- I mean, I say "makefiles", sorry... Because if it's such a huge workflow, I assume that you need to represent it in a Bash script or something.
 
@@ -362,7 +362,7 @@ So it's a real problem with Go, and I see it, and I'm sure Johnny sees it when h
 
 **Mark Bates:** No. Not soon enough! \[laughter\]
 
-**Break:** \[00:47:37.18\]
+**Break:** \[47:37\]
 
 **Johnny Boursiquot:** For the survey, some of the things that I've found interesting -- because when I sort of looked through it to find things that were particularly relevant to me and my line of work, I saw a lot of.. basically the most common use of Go was building API and RPC services, and also building CLI tools. So a lot of people are building -- pretty much whenever there's a new project that comes along, that requires that type of use, Go is becoming more and more the go-to tool for that. That didn't surprize me at all, because from the very first time Go was introduced, it was sort of positioned as the language for the cloud, the language for building these types of services, these types of network programs... So that kind of didn't surprize me at all.
 
@@ -386,7 +386,7 @@ Going back to the App Engine case, I think if you looked at other language suppo
 
 **Mat Ryer:** Yeah, absolutely. I actually have little things that I've built, that are still running. I go to it and it's still there, and I haven't touched it in years, literally.
 
-**Jaana Dogan:** \[00:52:02.07\] Wow.
+**Jaana Dogan:** \[52:02\] Wow.
 
 **Mat Ryer:** Yeah.
 
@@ -420,7 +420,7 @@ Going back to the App Engine case, I think if you looked at other language suppo
 
 **Mat Ryer:** Yeah, that's great.
 
-**Johnny Boursiquot:** \[00:55:57.08\] Yeah, we're all people-first. We just happen to love the same language... You can't lose sight of that.
+**Johnny Boursiquot:** \[55:57\] Yeah, we're all people-first. We just happen to love the same language... You can't lose sight of that.
 
 **Mat Ryer:** Yeah. Also, I've noticed, any dev team that I've been on, the ones that have had the most diverse group, that tends to be the best team, just because - different perspectives. We're building software for humans, mostly, or at some point a human is gonna probably interact with it. So having all those different perspectives on the team... I think that's what's happening, that's why it's so valuable. And the Go community just makes that a no-brainer, which I like.
 

@@ -30,7 +30,7 @@
 
 **Matteo Collina:** Well, I got into streams because they underpin most of the things Node.js, really. At the beginning I got into Node by working on top of LevelDB, the LevelUP community. This goes long time ago; we're talking about 2013 type of things. And at that point in time I was doing a lot of work on streams, and thinking about streaming APIs, and so on and so forth. When the Node.JS Foundation was born and there was more loose contribution rules on the project, I just started chiming in on streams, and I started contributing back to Node.js, and I started fixing some of the long-term bugs that we had in there. I would say that Node streams are probably the most legacy piece of software in Node.js, to some extent.
 
-\[00:04:13.25\] So at that point in time I kept working on it, essentially. I almost \[unintelligible 00:04:18.04\] that codebase, and because of that, they invited me to join the Node.js Technical Steering Committee. As part of my work at the Node.js Steering Committee, I'm also part of the team that organizes the Collaborator Summit, which is right after Node+JS Interactive, so where all Node collaborators and all OpenJS Foundation collaborators can meet together, and have some sessions and discussions, and meet face-to-face, which is pretty great, and it's a very nice experience.
+\[04:13\] So at that point in time I kept working on it, essentially. I almost \[unintelligible 00:04:18.04\] that codebase, and because of that, they invited me to join the Node.js Technical Steering Committee. As part of my work at the Node.js Steering Committee, I'm also part of the team that organizes the Collaborator Summit, which is right after Node+JS Interactive, so where all Node collaborators and all OpenJS Foundation collaborators can meet together, and have some sessions and discussions, and meet face-to-face, which is pretty great, and it's a very nice experience.
 
 As part of my daily job I'm managing teams of developers, designers, DevOps, building things with Node.js and other technologies. Also a lot of React, and so on and so forth. At NearForm we're invested a lot in Node.js, and we have several people on the TSC as well. James Snell, for example, or Anna Henningsen... The open source philosophy and Node are a key part of what we do and what we are.
 
@@ -58,7 +58,7 @@ As part of my daily job I'm managing teams of developers, designers, DevOps, bui
 
 **Kevin Ball:** Oh, interesting. So people are depending on implementation details, rather than the API.
 
-**Matteo Collina:** \[00:07:45.25\] Essentially, yes. Streams are a very leaky abstraction in Node.js. That's one of the key parts that I don't like, for example. They are not well-encapsulated, to some extent. They expose a hell of a lot of internal workings of them, which is one of the greatest things, so that people can do whatever they want with them, and it's great... On the other side, this also means that a lot of people are relying on internal implementation details that probably they shouldn't have.
+**Matteo Collina:** \[07:45\] Essentially, yes. Streams are a very leaky abstraction in Node.js. That's one of the key parts that I don't like, for example. They are not well-encapsulated, to some extent. They expose a hell of a lot of internal workings of them, which is one of the greatest things, so that people can do whatever they want with them, and it's great... On the other side, this also means that a lot of people are relying on internal implementation details that probably they shouldn't have.
 
 **Kevin Ball:** Right. So let's step back actually and clarify, in case -- we've got a lot of different folks with different backgrounds in the audience, so maybe can we start by defining what streams are and how they work?
 
@@ -76,7 +76,7 @@ And you can combine them. For example, if you're doing an HTTP call, that would 
 
 **Matteo Collina:** It depends, because you might want to still process \[unintelligible 00:11:20.27\] chunk by chunk. For example, once upon a time I wrote -- if for example you want to process a big file, you can parse all the events that GitHub is producing hour by hour, using the GitHub archive. This is a new line-delimited JSON file. So each line is a JSON. And you can use a stream to process those big files that are currently between 1 and maybe 300 megs on Zip, which is big files, and you can read them line by line... So you don't have to allocate 300 megabytes in your system, because these would probably make your process to be very slow, or crash, if the file is too big.
 
-**Nick Nisi:** \[00:12:07.16\] Okay. So you can instead just be alerted when a new line comes in, and deal with them one by one.
+**Nick Nisi:** \[12:07\] Okay. So you can instead just be alerted when a new line comes in, and deal with them one by one.
 
 **Matteo Collina:** Essentially, yes. That's it. Basically, you tell the stream "Start", and then you can use a module like split-to, that will actually load the file line by line. You can pipe it to a stream. For example, to read the file, you use fs.createReadStream(), and then you pipe it to split-to which will split it line by line, and then at the end of it you will have a line. You can then consume this line in any way you want. You can use some other stream to write it to another file, or you can \[unintelligible 00:12:50.24\] one to one to store it in a database, or whatever. Does it make sense?
 
@@ -104,7 +104,7 @@ And you can combine them. For example, if you're doing an HTTP call, that would 
 
 **Matteo Collina:** But this also means that Node became very big, and everybody started using those, and it means that we cannot change them, we cannot drop them. So you cannot say that people can use WHATWG streams essentially, because that would not be possible. It would be a lot of work anyway, and building a completely different new set of APIs for all the things that I mentioned, that are not currently part of the Node community.
 
-\[00:16:04.13\] So it would be a gargantuan effort, and if somebody wants to be involved in helping out and delivering some form of WHATWG streams compatibility, I will be very happy to help them develop this for Node.js. But at this point in time it's a little bit too much work for the community to take on.
+\[16:04\] So it would be a gargantuan effort, and if somebody wants to be involved in helping out and delivering some form of WHATWG streams compatibility, I will be very happy to help them develop this for Node.js. But at this point in time it's a little bit too much work for the community to take on.
 
 **Kevin Ball:** Are WHATWG streams right now - as a spec or as a standard - actually implemented anywhere, either within or outside of Node? Does somebody have a library for this, or are they implemented in browsers?
 
@@ -132,7 +132,7 @@ The truth is -- my personal opinion is that we should in fact not aim to be comp
 
 **Matteo Collina:** Yes, I know very well, because I was involved in some of the designs of HTTP/2... However, what James was talking about - he was talking about something that is one level down, our public API of streams... Essentially, one of the key challenges for Node streams is that some part of that abstraction is also implemented in C++ and C. And because of that, it's too complex, and it does too much, and it's hard to work with and maintain... And on top of that, also performance is a problem. So James wanted to do something more lean, that could actually flow data faster from C++ to JavaScript and vice versa.
 
-**Break:** \[00:20:02.01\]
+**Break:** \[20:02\]
 
 **Nick Nisi:** Digging back in, you mentioned the word "async", before we move on to async generators and iterators... But we also mentioned that the fetch API is based on WHATWG streams, so I'm curious - if any - is the relationship between streams and promises, and does it differ between WHATWG streams and Node streams?
 
@@ -160,7 +160,7 @@ The truth is -- my personal opinion is that we should in fact not aim to be comp
 
 In one case, in order to get a function called, I register a function called in the other side, I pass an object and that gets called. It's completely different. It's a different approach to the same topic. Essentially, mixing the promises and EventEmitter, you end up with some really bad things in there.
 
-**Kevin Ball:** \[00:24:20.05\] Yeah, I'm trying to think about it... So in the EventEmitter approach, the system is handling what is essentially an event loop, right? It's calling over and over again. In the promises approach, if you have an event loop, it's in user space, where you're coming back and you're calling that promise over and over again. Huh... Interesting.
+**Kevin Ball:** \[24:20\] Yeah, I'm trying to think about it... So in the EventEmitter approach, the system is handling what is essentially an event loop, right? It's calling over and over again. In the promises approach, if you have an event loop, it's in user space, where you're coming back and you're calling that promise over and over again. Huh... Interesting.
 
 **Matteo Collina:** Also, there is one more thing... In EventEmitter when somebody emits an event, that event is emitted synchronously, while promises are always delayed with \[unintelligible 00:24:49.14\] It just confuses things a little bit more, because we were not confused enough... And essentially, trying to reconcile those two worlds, and provide a better API, has been a very tough challenge. This is where, for me, asynchronous iterators come in, and more or less solve most of the problems.
 
@@ -188,7 +188,7 @@ Essentially, what we do is we use the readable event - so the readable event com
 
 Now, instead of using complex on-readable or on-data, that's very hard and error-prone in a promise-based world, what you can do - you can just do a for-await loop, because with for-await the JavaScript syntax will automatically call next for us, so we don't have to call it manually... And it provides a nice syntax on top of this protocol. You can then just iterate over your stream, just using JavaScript syntax. So you don't have to think about complex APIs and anything, you can just use JavaScript, which is faster.
 
-**Break:** \[00:28:57.02\]
+**Break:** \[28:57\]
 
 **Kevin Ball:** This reminds me a little bit of a concept - when we first started dealing a lot with promises and this concept of asynchronicity, one of the things that came up was you can wrap a synchronous API in a promise to create a consistent asynchronous API. The asynchronous consumer doesn't actually care if it's getting something that was really synchronous under the hood, whereas going the other way is really hard. So in some ways, this strikes me as you're doing kind of the same thing, but in this case for batched, streamed data. You're wrapping this batched synchronicity that you get from the streams API into an asynchronous iterator.
 
@@ -212,7 +212,7 @@ Now, there's the third case... The third case is the stream has errors. Errors i
 
 **Matteo Collina:** A little bit. It changes the ordering a little bit, yes. Because at that point in time the stream has been errored, and essentially if you've not consumed the data -- the point is the data is there, and if you're not consuming it, if the socket gets down, the error will be presented to you on the next read. In order to keep the consumed memory constant and as little as possible, the async iterator is not pulling data from the streams for you and queuing it for you. It's essentially reading only as much data that you're asking to read.
 
-**Kevin Ball:** \[00:35:03.01\] Got it.
+**Kevin Ball:** \[35:03\] Got it.
 
 **Matteo Collina:** There are situations where two different implementations will have different ordering.
 
@@ -250,11 +250,11 @@ Now, there's the third case... The third case is the stream has errors. Errors i
 
 **Matteo Collina:** ...which for me is async iterators. Essentially, it's a basic compatibility layer for that problem, that is simple enough to be implemented on both sides with the same semantic. In fact, when we were working on our implementation, we have been working with TC39 and folks at WHATWG to be sure that they have similar, thus consistent behaviors between the two. So that if you're processing some code from fetch, or from http.get, in Node, you will have similar code to handle the data, or something like that.
 
-**Kevin Ball:** \[00:39:21.09\] Are there any pieces of functionality or capabilities that are not handled by that compatibility layer?
+**Kevin Ball:** \[39:21\] Are there any pieces of functionality or capabilities that are not handled by that compatibility layer?
 
 **Matteo Collina:** Yes, there are, and we're working on them. The key challenge here is you might want to use these types of things to move from one side to the other, to some extent. Essentially, you might want to use async iterators and async generators to be able to build, and be able to combine them with streams as much as you want... And right now we have implemented -- you can async-iterate a stream on one side, but we cannot async-iterate... We can async-iterate a stream, but we don't have currently a model - an automated model at least - to convert that into a duplex, for example.
 
-We are missing a little bit the duplex abstraction, and so on and so forth... And we are currently working on some of those topics. For example, we have recently added Readable.from, which is an API that given an \[00:40:31.14\] or an async iterator, it will just use those APIs to convert those data and put those in a Node stream, so that you can use pipe, or the pipeline operator - which is not in the pipeline API, it's different... It's a higher-level API compared to pipe... To combine those without having to do much work.
+We are missing a little bit the duplex abstraction, and so on and so forth... And we are currently working on some of those topics. For example, we have recently added Readable.from, which is an API that given an \[40:31\] or an async iterator, it will just use those APIs to convert those data and put those in a Node stream, so that you can use pipe, or the pipeline operator - which is not in the pipeline API, it's different... It's a higher-level API compared to pipe... To combine those without having to do much work.
 
 Now, this is very powerful. We are missing some equivalent for example for transform. For the transform API there is a PR opened that needs to be refined a little bit, and boxed off and finished.
 
@@ -280,7 +280,7 @@ Now, this is very powerful. We are missing some equivalent for example for trans
 
 Matteo, is there anything else that you want to say about streams?
 
-**Matteo Collina:** \[00:42:56.08\] There is one thing, and it is a recommendation to everybody. One of the greatest mistakes when using streams with async/await and promises is to pass an async function into an event handler. For example, on-data, and then you do "async function something" in order to use await inside. Don't do that. Don't. At least right now.
+**Matteo Collina:** \[42:56\] There is one thing, and it is a recommendation to everybody. One of the greatest mistakes when using streams with async/await and promises is to pass an async function into an event handler. For example, on-data, and then you do "async function something" in order to use await inside. Don't do that. Don't. At least right now.
 
 The key challenge there is error-handling. The problem is that in a stream world, in order to clean up that resource, you need to call the \[unintelligible 00:43:36.08\] And an async function can throw, and the promise will reject. But the problem is that nobody right now is catching that rejection for you, or doing something with it. Essentially, you'll likely end up with a memory leak, without \[unintelligible 00:43:58.00\]
 
@@ -300,7 +300,7 @@ I'm currently working on a PR that actually does this, fixes this problem by aut
 
 **Kevin Ball:** Yeah, I feel like error handling with asynchronous code is something -- we've made asynchronous code feel so much easier now, because we have all this sugar around it, and yet we're often not handling a lot of the things that you would traditionally have to worry about there.
 
-**Matteo Collina:** \[00:46:00.17\] Essentially, yes. And there is also the fact that there's a substantial difference between Node.js and the browser. The browser has one human in front, and the server has hopefully many humans connected to it through a browser, or through a mobile app, or whatever form. And this changes things dramatically in how tight it needs to manage resources... Because most of the web apps then leak memory in one form or another, and it doesn't really matter because there is only one user using them, and if the \[unintelligible 00:46:39.03\] crashes, then it will restart Chrome from time to time; it's not such a big of a problem. There's very few applications like Gmail that need to run for days. That's one case...
+**Matteo Collina:** \[46:00\] Essentially, yes. And there is also the fact that there's a substantial difference between Node.js and the browser. The browser has one human in front, and the server has hopefully many humans connected to it through a browser, or through a mobile app, or whatever form. And this changes things dramatically in how tight it needs to manage resources... Because most of the web apps then leak memory in one form or another, and it doesn't really matter because there is only one user using them, and if the \[unintelligible 00:46:39.03\] crashes, then it will restart Chrome from time to time; it's not such a big of a problem. There's very few applications like Gmail that need to run for days. That's one case...
 
 In Node.js, instead, if you leak memory you are in big trouble, because then it can affect other users as well. It's a big, big difference there in how tight the error handling needs to be in one case versus another.
 
@@ -310,7 +310,7 @@ In Node.js, instead, if you leak memory you are in big trouble, because then it 
 
 **Kevin Ball:** \[laughs\] Yeah... That's funny.
 
-**Matteo Collina:** \[00:48:21.10\] And the key thing is that given a promise, you don't know if it will ever resolve.
+**Matteo Collina:** \[48:21\] And the key thing is that given a promise, you don't know if it will ever resolve.
 
 **Kevin Ball:** Right.
 

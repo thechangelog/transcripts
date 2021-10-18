@@ -10,7 +10,7 @@
 
 **Edo Liberty:** Right now, big data is kind of like not cool to say anymore. But it was 2005, I was working on what's called hyperspectral images. So those are images -- instead of RGB, you'd have like 150 different spectra. So different wavelengths, right? And so you can analyze them much more deeply with computer vision, even though to our naked eye, of course, they look the same, because we only have three spectra to consume images within our eyes.
 
-**Chris Benson:** \[00:04:10.29\] Right.
+**Chris Benson:** \[04:10\] Right.
 
 **Edo Liberty:** But each image itself was about a gigabyte, and our computers had 512 megabytes of memory. \[laughs\] So one image was already big data, and we had like 1,000 of them. And so as a PhD student, even just even a few images were big data. So even to do like basic computer vision, you already had to think about algorithms on how to get more from less with computers.
 
@@ -38,7 +38,7 @@ And then it felt really chaotic and very wasteful in terms of resources, to be h
 
 **Edo Liberty:** We have been doing machine learning basically on vectors as input. So this array of numbers. And we used to think about them as features that we would handcraft; like, feature number one is the ratio between the volume and the price, and feature number two is like number of minutes it's been on the website and so on. As time progressed, since deep learning gained more and more traction, more and more centrality in the AI world, crafting those features became in and of itself a machine learning problem.
 
-**Chris Benson:** \[00:08:13.27\] Yes.
+**Chris Benson:** \[08:13\] Yes.
 
 **Edo Liberty:** And so now you have embeddings... These embeddings are these like auto-generated features, like semantically deep features for objects, not only for like images and free text that we are kind of used to with NLP and computer vision models, but it's also kind of the lingua franca now for all data, so like user behavior and thread vectors on some network, and so on. So this is how we generate features this way, nowadays.
 
@@ -66,7 +66,7 @@ And so suddenly, when you look at the world of just kind of what data infrastruc
 
 It takes local neighborhoods and aggregates them and takes averages and activations and every layer builds on the layer above. And then the output of that you have an activation surface of a several million neurons. And that processing is identical, no matter if you read a book or drive a car or look at your children. It does the same thing. It's pre-processing, right? It's the hardware.
 
-\[00:12:00.04\] When I think about where computer vision is today, we are mostly focused on that layer - how do we build a better visual cortex? How do we process images such that the semantic representation, that activation enables me to do all these different tasks, right? What nobody is really doing yet is looking at how do we do the rest of the brain? So looking at stuff doesn't end there; the output of the visual cortex actually flows most of the temporal lobes just kind of above your ear, both ears, where you do things like remember that when you see your children, you know them; they're your children. You know, you don't just see—
+\[12:00\] When I think about where computer vision is today, we are mostly focused on that layer - how do we build a better visual cortex? How do we process images such that the semantic representation, that activation enables me to do all these different tasks, right? What nobody is really doing yet is looking at how do we do the rest of the brain? So looking at stuff doesn't end there; the output of the visual cortex actually flows most of the temporal lobes just kind of above your ear, both ears, where you do things like remember that when you see your children, you know them; they're your children. You know, you don't just see—
 
 **Chris Benson:** It helps.
 
@@ -96,7 +96,7 @@ It takes local neighborhoods and aggregates them and takes averages and activati
 
 **Edo Liberty:** Exactly.
 
-**Break:** \[00:15:28.21\]
+**Break:** \[15:28\]
 
 **Chris Benson:** So I know that Pinecone - when I look at the very front page of your website, it talks about managed vector similarity search. And I'm assuming this is how you're approaching the issues that we were just discussing a few minutes ago. Can you start us off by telling me what is vector similarity search? And where does it apply? What does it mean to my world?
 
@@ -146,7 +146,7 @@ One of the things that we started working on -- and I’d say, what's the most b
 
 **Chris Benson:** Okay.
 
-**Edo Liberty:** \[00:20:12.16\] So two numbers, I can put on an X-Y axis; I can plot them on a piece of paper, right? So a three-dimensional vector would be like a point in a three-dimensional space; a four-dimensional vector, it's going to be in four-dimensional space, becomes a little kind of hurts your brain to think about it, but the math is the same, you know.
+**Edo Liberty:** \[20:12\] So two numbers, I can put on an X-Y axis; I can plot them on a piece of paper, right? So a three-dimensional vector would be like a point in a three-dimensional space; a four-dimensional vector, it's going to be in four-dimensional space, becomes a little kind of hurts your brain to think about it, but the math is the same, you know.
 
 **Chris Benson:** Sure.
 
@@ -182,7 +182,7 @@ One of the things that we started working on -- and I’d say, what's the most b
 
 **Chris Benson:** Can you differentiate what those two labels, database or search engine - can you talk about what the implications are for each of those and how it fits in? And I will forecast, you don’t have to go — kind of explain the concepts, but I'll also ask you about some kind of use cases on where you might use those in a moment. So if you can kind of conceptually address it, and then let's dive into something really practical about how you might do that.
 
-**Edo Liberty:** \[00:24:11.12\] Sure. So I think that as a whole, when you tell somebody — just the word database is loaded, usually with—
+**Edo Liberty:** \[24:11\] Sure. So I think that as a whole, when you tell somebody — just the word database is loaded, usually with—
 
 **Chris Benson:** It is.
 
@@ -238,7 +238,7 @@ One of the things that we started working on -- and I’d say, what's the most b
 
 **Chris Benson:** Sure.
 
-**Edo Liberty:** \[00:28:05.02\] Within those clusters, you have a more compute-heavy process that actually kind of combs through everything and figures out what's close. But it does that very efficiently; it doesn't actually compute everything. It kind of has very, very efficient rules to kind of discard things that are not really close, right? So you kind of have to raise a flag, when you see something that's suspicious... Like, "Oh, this is maybe highly correlated..."
+**Edo Liberty:** \[28:05\] Within those clusters, you have a more compute-heavy process that actually kind of combs through everything and figures out what's close. But it does that very efficiently; it doesn't actually compute everything. It kind of has very, very efficient rules to kind of discard things that are not really close, right? So you kind of have to raise a flag, when you see something that's suspicious... Like, "Oh, this is maybe highly correlated..."
 
 **Chris Benson:** Right.
 
@@ -266,7 +266,7 @@ The same is true for pretty much every social network out there. It's the same w
 
 **Chris Benson:** Yes.
 
-**Edo Liberty:** \[00:32:05.03\] So text search doesn't make any sense. Like, you shouldn't be looking for the words in the query. So what should you be we're looking for? And what you're looking for is an encoding of the query with NLP models into a high-dimensional vector. And you're searching through the web, where each paragraph was also encoded into high dimensional vectors, such that it's still close if the paragraph might have contained the right information or the answer to that query.
+**Edo Liberty:** \[32:05\] So text search doesn't make any sense. Like, you shouldn't be looking for the words in the query. So what should you be we're looking for? And what you're looking for is an encoding of the query with NLP models into a high-dimensional vector. And you're searching through the web, where each paragraph was also encoded into high dimensional vectors, such that it's still close if the paragraph might have contained the right information or the answer to that query.
 
 **Chris Benson:** Yeah.
 
@@ -280,7 +280,7 @@ The same is true for pretty much every social network out there. It's the same w
 
 **Edo Liberty:** So yeah, you can encode a lot of semantically deep properties of the object that you're using, whether it be a person's actions on your website, or an image, or a piece of text. I mean, it's the same, in some sense.
 
-**Chris Benson:** Okay. Well, let me ask you another question. With a lot of folks listening to us here being practitioners, and in their day job they're maybe creating convolutional neural networks, they might be involved in NLP; my co-host, Daniel is \[00:34:08.09\] all the time. Are there certain algorithmic approaches within deep learning that vector databases and retrieval lend themselves to more than others? Or is it more it can be used across any of these different algorithms? Should people always be thinking about it, or are there certain areas where it wll be more productive than others?
+**Chris Benson:** Okay. Well, let me ask you another question. With a lot of folks listening to us here being practitioners, and in their day job they're maybe creating convolutional neural networks, they might be involved in NLP; my co-host, Daniel is \[34:08\] all the time. Are there certain algorithmic approaches within deep learning that vector databases and retrieval lend themselves to more than others? Or is it more it can be used across any of these different algorithms? Should people always be thinking about it, or are there certain areas where it wll be more productive than others?
 
 **Edo Liberty:** I think they can be applied pretty widely, but there are patterns. So you know, you said Daniel is an NLP practitioner. I saw you interviewed the folks from Hugging Face, for example.
 
@@ -292,7 +292,7 @@ Now, usually, if you do just that, exactly what I just said, you don't get the b
 
 **Chris Benson:** Can you also maybe give us kind of your classical -- or whatever feels right to you, but kind of a classical workflow. So if somebody is out there and they're using TensorFlow or PyTorch or you know, whatever the tool that they want to use, and they're listening to this, and they're starting to think, “Oh, I definitely need to incorporate this into my workflow.” How do they do that? How do people start to get Pinecone and take advantage of that in doing whatever they're doing? What does it look like in a very fingers-on-the-keyboard practical sense?
 
-**Edo Liberty:** \[00:36:04.00\] It's incredibly simple. So we offer Pinecone as a fully managed service, and so all it takes is like asking for an API key on the website, which is free, and you get it like a minute later in your inbox. After that, you can literally go to our tutorial section and run Notebooks and go play with all the API's and all the capabilities are open to you. You know, after a few weeks, you can either — you'll probably decide whether that's the right tool for you to use. Most projects end up being like very cheap to be able to run and sustain workloads even.
+**Edo Liberty:** \[36:04\] It's incredibly simple. So we offer Pinecone as a fully managed service, and so all it takes is like asking for an API key on the website, which is free, and you get it like a minute later in your inbox. After that, you can literally go to our tutorial section and run Notebooks and go play with all the API's and all the capabilities are open to you. You know, after a few weeks, you can either — you'll probably decide whether that's the right tool for you to use. Most projects end up being like very cheap to be able to run and sustain workloads even.
 
 **Chris Benson:** Gotcha.
 

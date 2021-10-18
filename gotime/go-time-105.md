@@ -26,7 +26,7 @@ Obviously, it was Docker that made containers super-accessible and easy to use, 
 
 So what Kubernetes does is you tell it what you wanna run - "I wanna run ten copies of this container image", the image is the thingy - and then it decides where to run these things, and it makes sure that they keep running over time.
 
-\[00:04:10.10\] Then once you do that, there's a bunch of other problems you have to solve - what does networking look like, what does storage look like, how do you have these things find each other, how do you actually manage load balancers that point to a set of these things? So there's a whole bunch of problems that are downstream of that dynacism of assigning programs to computers.
+\[04:10\] Then once you do that, there's a bunch of other problems you have to solve - what does networking look like, what does storage look like, how do you have these things find each other, how do you actually manage load balancers that point to a set of these things? So there's a whole bunch of problems that are downstream of that dynacism of assigning programs to computers.
 
 So that's Kubernetes from an orchestration point of view. Along the way, we ended up building essentially a generic distributed system kernel for being able to describe not just how you run containers, but which containers you wanna run, how you upgrade them, and we've made that extensible, and that's where a lot of the interesting stuff going on right now is in the ecosystem.
 
@@ -52,7 +52,7 @@ How do you actually take that capability, the API-driven self-service, and then 
 
 Inside of Google nobody used VMs, because they used this system called Borg. It was kind of a little bit like Kubernetes; the idea of container, the way it gets packaged up in images - all that stuff is different... But the general idea of like you describe your program, and then you have a system that schedules it and runs it had been sort of proven out over ten years at Google. So we understood the benefits to developers and the efficiencies that you can get from that.
 
-\[00:08:10.05\] So we were in this bind -- I mean, there were a couple of things that we wanted to do with Kubernetes. The first thing was essentially change the game as we were competing with other clouds. Folks like Amazon were running away with this market, and so we could have gone head-to-head on VMs, or we could have also decided to try and get folks to write programs a different way, in a way that speaks to the strengths of Google Cloud.
+\[08:10\] So we were in this bind -- I mean, there were a couple of things that we wanted to do with Kubernetes. The first thing was essentially change the game as we were competing with other clouds. Folks like Amazon were running away with this market, and so we could have gone head-to-head on VMs, or we could have also decided to try and get folks to write programs a different way, in a way that speaks to the strengths of Google Cloud.
 
 And then the second thing was we wanted to start bringing into alignment the way that folks build stuff internally, versus the way customers build stuff, so that the experience that internal googlers were running with was closer (if not identical) to the way that external customers were running.
 
@@ -70,7 +70,7 @@ I think we're looking forward, we're trying to enter in a world where there's no
 
 **Joe Beda:** I think that - and I'd love to get Nova's take on this, too... But I think that there's roughly three personas for Kubernetes right now. What we find is that there's the platform teams, and I think the most forward-thinking organizations think about platform as an internal product. How can they provide something that lets them scale out, provide a larger menu of services to their internal teams, and in some ways provide a cloud-like experience, but within the constraints of that larger organization. That's how we see this play out in enterprises a lot of times.
 
-\[00:11:57.11\] And then you have application operators and application developers, and it's really the application operators that run on top of -- you know, they don't face with Kubernetes... And sometimes people wear both hats, in a sort of DevOpsy type of way.
+\[11:57\] And then you have application operators and application developers, and it's really the application operators that run on top of -- you know, they don't face with Kubernetes... And sometimes people wear both hats, in a sort of DevOpsy type of way.
 
 But then I also think when we look at those platform operators, oftentimes they're gonna wanna say hey, there's raw Kubernetes, but also using extensibility, using other systems, we actually have a preferred way to use Kubernetes that's gonna be easiest... And through the fullness of time, we want that preferred experience to be similar to the experience of a PaaS, where developers can just show up, get stuff done; the ops role is much diminished in terms of the drudgery, and it starts feeling more like "Hey, I write code, I ship it, and it just runs" type of experiences.
 
@@ -88,7 +88,7 @@ One of my observations here is that a lot of this stuff is new, but if we look a
 
 I think one of the things that we see is that there are similar learning curves for things like being proficient on Linux at all... But it's a shared thing, and it's assumed, and people climb it together, and over time it sort of becomes part of the background noise of actually just being in our industry. I think we're seeing the same thing happening with cloud, where a certain level of proficiency with Amazon is almost expected and background noise, to some degree... And I think we're gonna find that if Kubernetes continues on its trajectory and becomes more sort of the common substrate, then proficiency or at least a working knowledge of Kubernetes will become part of the background noise for being proficient in our industry.
 
-**Mat Ryer:** \[00:16:04.22\] And speaking of the open source teams, this project, when it started, presumably it started like most projects do - with a much smaller scope, I assume. I don't know. Has that evolved and has that changed over time? Were there any surprises in that, or what were the interesting things that you saw happening?
+**Mat Ryer:** \[16:04\] And speaking of the open source teams, this project, when it started, presumably it started like most projects do - with a much smaller scope, I assume. I don't know. Has that evolved and has that changed over time? Were there any surprises in that, or what were the interesting things that you saw happening?
 
 **Kris Nova:** I think the interesting thing for me was even getting Kubernetes up and running... Which, again, Joe wrote the book on this one. But I've noticed, both in the open source ecosystem, as well as in the commercial enterprise, going from zero to Kubernetes has always been a high point of friction for a lot of folks. Looking backwards in time, that was what originally attracted me to Kubernetes in the first place, and I think that I was surprised that we've come as far as we did, and we still don't have necessarily a great story here.
 
@@ -106,7 +106,7 @@ I think what it also does is it creates a clear separation of operations roles. 
 
 Now, we may not be able to hide every detail of the underlying platform, and there may be places where you wanna take advantage of special cases of the underlying platform, but if we can reduce the gratuitous differences, we can make application teams and that skillset more portable, we can even make applications more portable...
 
-\[00:20:03.01\] And I think one of the things that we see with businesses is that it ends up being a point of leverage between them and their vendors. If you're going to Amazon and you're a big customer and you're negotiating your discount - because that happens... \[laughs\] If you're 100% locked into various primitives, you're not gonna get as good a deal unless you're a credible flight risk. Unless you can say "Hey, it'll be a two-month project, but we can move from infrastructure A to B." All of a sudden, that actually creates a much more even playing field between you and your vendors.
+\[20:03\] And I think one of the things that we see with businesses is that it ends up being a point of leverage between them and their vendors. If you're going to Amazon and you're a big customer and you're negotiating your discount - because that happens... \[laughs\] If you're 100% locked into various primitives, you're not gonna get as good a deal unless you're a credible flight risk. Unless you can say "Hey, it'll be a two-month project, but we can move from infrastructure A to B." All of a sudden, that actually creates a much more even playing field between you and your vendors.
 
 **Kris Nova:** Following up on what Joe is saying there, I think getting the abstraction right as we start looking at defining applications, networking, storage, what have you - across clouds, part of a very interesting mental journey that we went through when we were starting to look at designing the Cluster API was that no matter how generic you make it, you're pretty much always gonna run into a situation where there's gonna be some cloud-specific something that you're gonna need to define... So it's an exercise of trying to figure out 1) what are the generic parts, and 2) how do we minimize the amount of configuration you need so it's designed for a given cloud.
 
@@ -132,7 +132,7 @@ So you start off by first declaring what your Kubernetes cluster should look lik
 
 So I think that we learned a lot with Kubicorn, we learned a lot with Kops, we learned a lot with Kubeadm, and I think Cluster API is a really great representation of taking all of these lessons together and coming up with a way of doing this together as a community. So long answer - it's not necessarily growing, but I wouldn't say it's necessarily dead either.
 
-**Break:** \[00:24:18.29\]
+**Break:** \[24:18\]
 
 **Mat Ryer:** It's funny, this is something that I've noticed has been mentioned a couple of times already - this theme I'm quite interested in, around the fact that this idea and these projects have to evolve. You talked about underestimating the complexity of deploying to different targets, and that's kind of a good example, where you almost have to underestimate that at the beginning, otherwise you probably would never undertake some of these projects, which end up being enormous in scope, and in power, and in capabilities. So it's that idea that you couldn't design this in a vacuum. You have to build it and have it be used, and get it out in the real world, before the software can get good and get hardened, and stuff. Would you agree with that?
 
@@ -142,7 +142,7 @@ I think then also as the project grew, there were things where I think we expand
 
 There's a lot of stuff that's happening in Kubernetes' orbit that is not part of the Kubernetes project, and I think that's part of the success of the thing altogether - enabling a thriving ecosystem, where you can do interesting things on top of Kubernetes, without talking to any of the core Kubernetes developers. That has really turbo-charged the project and the ecosystem in general. So much of all the excitement above the Kubernetes interface on the application side, on the facing side of the interfaces is really about "How do you start using Kubernetes not just to deploy applications, but to provide active distributed management for those applications?"
 
-**Mat Ryer:** \[00:28:11.22\] It's interesting you talk about that -- in what ways is it extensible then? What types of extensibility is possible?
+**Mat Ryer:** \[28:11\] It's interesting you talk about that -- in what ways is it extensible then? What types of extensibility is possible?
 
 **Joe Beda:** Kubernetes has a bunch of built-in objects that you actually can write to it. You can say "I want a pod", which is essentially a set of containers, and then Kubernetes takes care of picking out which machine to run that on, and then gets it started. Then you can say "I want a replica set", which means that I want a copy of this particular template; I want ten of them. Kubernetes will make sure that you have ten of them. Then you can say "I want a deployment, which is a version of that." So you can do version upgrades, and all that. So we build up these stack of layers, and there's a bunch of built-in objects with Kubernetes.
 
@@ -160,7 +160,7 @@ And then we see people applying this to not just running stuff on Kubernetes, bu
 
 **Joe Beda:** One of the things I will say is that writing one of these controllers - it's actually harder than it actually should be right now. That's an active area of exploration, where folks are figuring out what are better ways to actually both use Kubernetes as a user, but then also program Kubernetes to use these automation patterns. We still have a ways to go to make this stuff be a lot more consumable, a lot easier to work with.
 
-\[00:32:10.17\] One thing I wanna do is I do wanna pitch a book. It's not one of mine or Kris', but it's Programming Kubernetes by Stefan Schimanski and Michael Hausenblas. I have a copy that I'm holding right here... If you wanna start saying "How do I use Go to start programming Kubernetes and start doing some of this CRD and controller loop?", this is actually -- you can do worse than starting with this. It's an O'Reilly book.
+\[32:10\] One thing I wanna do is I do wanna pitch a book. It's not one of mine or Kris', but it's Programming Kubernetes by Stefan Schimanski and Michael Hausenblas. I have a copy that I'm holding right here... If you wanna start saying "How do I use Go to start programming Kubernetes and start doing some of this CRD and controller loop?", this is actually -- you can do worse than starting with this. It's an O'Reilly book.
 
 **Mat Ryer:** Thank you.
 
@@ -188,7 +188,7 @@ I think that Go ended up being this really great mix of system-level enough that
 
 **Kris Nova:** If you are interested in learning more about folks who have criticized Kubernetes for being an object-oriented-like system written in Go, I gave a talk at FOSDEM last year called ["You Can't Have a Cluster \[BLEEP\] Without a Cluster"](https://www.youtube.com/watch?v=CLVIbCs2VJY). It talks about a lot of the anti-patterns in the Go programming language that I think came out of a more traditional object-oriented mindset. Not to pick on your and Brendan too much, Joe...
 
-**Joe Beda:** \[00:35:47.23\] Yeah, well, you know, a big part of it is that the community grew so fast, and there were so many folks that came out the project without knowing Go beforehand... That both helped boost Go, but it also meant that they weren't necessarily -- they were maybe experienced programmers, but not necessarily experienced in Go... So I think that's kind of the result that you get. I bet you there's a lot of codebases out there that look very similar, based on the same sort of dynamics.
+**Joe Beda:** \[35:47\] Yeah, well, you know, a big part of it is that the community grew so fast, and there were so many folks that came out the project without knowing Go beforehand... That both helped boost Go, but it also meant that they weren't necessarily -- they were maybe experienced programmers, but not necessarily experienced in Go... So I think that's kind of the result that you get. I bet you there's a lot of codebases out there that look very similar, based on the same sort of dynamics.
 
 **Kris Nova:** And it's a successful pattern. It's working for us. It's interesting, again, going back to that lesson of evolution over time, how we got here and how we didn't necessarily wake up in the morning and sit down and say "We're gonna go and build the system out this way." So... Really cool.
 
@@ -200,7 +200,7 @@ Along those lines, are you seeing Kubernetes as the platform that whatever the n
 
 I think one of the things that we can do is we can view this as a spectrum and we can actually provide different gradations/stops on that spectrum, such that folks can pick the right tool for the job as they're doing stuff. And I don't think even any application is necessarily a serverless app, or a container app, or a VM app. What you can say is "Hey, I'm gonna do most of it using a function-as-a-service platformy PaaSy type of thing", and then like "Oh, I have this one thing I need to do that's like a machine learning model, and maybe I need to evaluate that with containers." And then "Oh, I need to do something that's using some sort of big legacy monolith, so I'm gonna be running that (or my big iron database) in a VM or on physical hardware", or whatever. And that can all be one application, using that set of technologies. I think that's what we see as being more typical as you see these new technologies come forward, these new frameworks, versus replacing the old thing. And hopefully, Kubernetes is gonna be flexible enough that it can actually be a good basis, a good starting point for the next thing.
 
-**Break:** \[00:39:11.15\]
+**Break:** \[39:11\]
 
 **Mat Ryer:** Yeah, so Jon Calhoun was telling me that a lot of people look to the Kubernetes codebase for examples of patterns, and things like this. You mentioned some of it being a different kind of mindset when it was written... There are obviously gonna be then good examples too, and they're the ones that are used, according to Jon. So yeah, is there any other specifics around how things are organized?
 
@@ -222,7 +222,7 @@ So I think structurally, creating multiple binaries that can talk over the netwo
 
 **Mat Ryer:** Yeah, I agree with that. And even just the fact that it gets used a lot, and you find any bugs... But there's actually a few other interesting side effects that we noticed as well at Machine Box, which is a similar kind of thing - we use the SDK, we have a Go SDK for the Machine Box APIs, and we use that in our integration tests. So we kind of try and fold as much into the integration as we possibly can, just to test as much at the same time. But yeah, it does provide that level of stability, and that's really interesting.
 
-**Johnny Boursiquot:** \[00:44:08.26\] So John on the channel is asking if by Kubernetes being an open source project - has that forced you down a particular path in terms of code structure, and organization, and how you package things up... Would you have done things differently if it was a private repository or private project?
+**Johnny Boursiquot:** \[44:08\] So John on the channel is asking if by Kubernetes being an open source project - has that forced you down a particular path in terms of code structure, and organization, and how you package things up... Would you have done things differently if it was a private repository or private project?
 
 **Joe Beda:** From code structure, I don't know that we would have. I do think that there's a scale-out at the community... The code and the community co-evolve, which I think is an interesting thing in that as the project grew, we needed to have ways to actually govern who was in charge, who got to decide what features, how the stuff moved forward... And I think Kubernetes has been what we call open governance now, where it's essentially an open set of folks that are actually deciding what the future of the project looks like. It's not controlled by any one company, or anything like that. And I think there are places in the code structure where we've actually seen that play out.
 
@@ -236,7 +236,7 @@ I think we've broken GitHub, essentially. I mean, the size of the project, and t
 
 **Joe Beda:** The first thing I'm gonna say is that Heptio - we contributed to Kubernetes; we weren't the largest contributor. I think we probably punched above our weight, based on the size of the company, but it's a pretty big pool that we were playing in.
 
-\[00:47:47.17\] I think one of the things that my co-founder did well while he was at Google was start the Cloud Native Computing Foundation, and brought folks together. This is Craig McLuckie, the Heptio co-founder. And this ended up being sort of a vendor-neutral place for holding Kubernetes. There's pluses and minuses to the CNCF and the Linux Foundation... That's a whole other conversation over drinks type of thing. But I think in general, having this not be owned by any single company has been one of the keys to success for the project, and has actually let it continue to thrive, as we've seen the ins and outs through any sort of company in the industry, whether that be Heptio or whomever.
+\[47:47\] I think one of the things that my co-founder did well while he was at Google was start the Cloud Native Computing Foundation, and brought folks together. This is Craig McLuckie, the Heptio co-founder. And this ended up being sort of a vendor-neutral place for holding Kubernetes. There's pluses and minuses to the CNCF and the Linux Foundation... That's a whole other conversation over drinks type of thing. But I think in general, having this not be owned by any single company has been one of the keys to success for the project, and has actually let it continue to thrive, as we've seen the ins and outs through any sort of company in the industry, whether that be Heptio or whomever.
 
 In terms of Heptio joining VMware, I think we were able to activate a lot of folks inside of VMware, bring more people to the community, really start to fill in some gaps that we've seen through the eyes of our customers. We definitely have a focus on making sure that we're putting more into the project than we're getting out of it.
 
@@ -254,7 +254,7 @@ I think one of the things we talk about a lot in Kubernetes, in the core project
 
 And I think our goal is to get to that point where the core of Kubernetes is super-boring, and all the interesting stuff is actually happening outside of that core. I think we're continuing to head down that road. So I think that's a good place for us to be in, to actually have the excitement happening in the ecosystem, but not in the core.
 
-**Kris Nova:** \[00:52:23.18\] I think it was the first time I heard somebody use the term "boring" to describe software. I think it was Rob Pike in one of his early talks, when Go was first coming out.
+**Kris Nova:** \[52:23\] I think it was the first time I heard somebody use the term "boring" to describe software. I think it was Rob Pike in one of his early talks, when Go was first coming out.
 
 **Mat Ryer:** Yes. Well, here's a quick question for you. If I write k8s...
 
@@ -294,7 +294,7 @@ And I think our goal is to get to that point where the core of Kubernetes is sup
 
 **Johnny Boursiquot:** There you have it.
 
-**Joe Beda:** \[00:54:38.20\] I just wanna argue against that... What happens - we had a repo before we actually moved it to GitHub. I was just doing janitorial work of actually saying "Okay, let's get this thing ready for release..." \[laughs\] So I can't claim that I wrote all that code. I just was the one who checked in the first code as we were cleaning stuff up to do the initial release.
+**Joe Beda:** \[54:38\] I just wanna argue against that... What happens - we had a repo before we actually moved it to GitHub. I was just doing janitorial work of actually saying "Okay, let's get this thing ready for release..." \[laughs\] So I can't claim that I wrote all that code. I just was the one who checked in the first code as we were cleaning stuff up to do the initial release.
 
 **Mat Ryer:** I think the GitHub history doesn't lie, and it is admissible in court.
 

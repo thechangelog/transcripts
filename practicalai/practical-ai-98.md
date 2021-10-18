@@ -24,7 +24,7 @@
 
 **Daniel Whitenack:** Oh, wow.
 
-**Chris Benson:** \[00:04:00.26\] And you'd think that I'd do something about that, but I'm lucky - I have a fourth year medical student for a step daughter... So I called her up, and we agreed because Covid is running rampant we were not gonna have me go to the emergency room...
+**Chris Benson:** \[04:00\] And you'd think that I'd do something about that, but I'm lucky - I have a fourth year medical student for a step daughter... So I called her up, and we agreed because Covid is running rampant we were not gonna have me go to the emergency room...
 
 **Daniel Whitenack:** Wow.
 
@@ -64,7 +64,7 @@ And when I graduated my Ph.D, I graduated right into the beginning of really kin
 
 I sat next to the folks who were working on \[unintelligible 00:07:57.13\] at the time, and then it was written in Lua, and a couple years later they converted it to Python, and it became PyTorch. So I've always been very fascinated by the tools and structures that make it possible to do these sorts of systems in an open source way.
 
-\[00:08:15.13\] Some other things I've worked on in the past - I worked on a library called OpenNMT, which was an open source translation library written in PyTorch and TensorFlow... And we worked with a lot of translation companies, particularly in Europe, to build open source tools to let them build their own custom Google Translate-like services. That was a really fun project, and it kind of tied together the research we were doing in my lab, which was on questions of how to improve translation, how to speed it up, how to make it work on devices, with questions of how in an open source world these were used.
+\[08:15\] Some other things I've worked on in the past - I worked on a library called OpenNMT, which was an open source translation library written in PyTorch and TensorFlow... And we worked with a lot of translation companies, particularly in Europe, to build open source tools to let them build their own custom Google Translate-like services. That was a really fun project, and it kind of tied together the research we were doing in my lab, which was on questions of how to improve translation, how to speed it up, how to make it work on devices, with questions of how in an open source world these were used.
 
 **Daniel Whitenack:** So I'm kind of curious, since you've kind of alluded a little bit to one thing that's happened in recent years in terms of how people maybe used to think about NLP - and still do, for many tasks... As far as like computational linguists have been thinking about these things for a very long time... But now there's been all of this focus on extending these tasks to maybe generalized machine learning-type problems. Could you give your perspective on how that shift has happened, and what that's meant, both in terms of momentum in the field and people getting involved in the field, and all of that? What are your thoughts on that?
 
@@ -82,7 +82,7 @@ I think the other question is "What does it mean in terms of methods?" and we're
 
 **Daniel Whitenack:** It was before the Transformers library came out, which we'll definitely talk about later.
 
-**Chris Benson:** \[00:11:59.13\] Yeah, totally. I think that was what I was thinking - the fact that when we were talking to Clem, we were really focused on social AI, and chatbots, and similar tools and approaches, and then in that time between talking to you today and talking to Clem, Transformers came out, and you guys really created the definitive transformer library... And we've been talking about Hugging Face in the context of Transformers since then. And I guess - how did Hugging Face make that transition? What caused that? It's an interesting turn for the history of the company.
+**Chris Benson:** \[11:59\] Yeah, totally. I think that was what I was thinking - the fact that when we were talking to Clem, we were really focused on social AI, and chatbots, and similar tools and approaches, and then in that time between talking to you today and talking to Clem, Transformers came out, and you guys really created the definitive transformer library... And we've been talking about Hugging Face in the context of Transformers since then. And I guess - how did Hugging Face make that transition? What caused that? It's an interesting turn for the history of the company.
 
 **Sasha Rush:** Yeah, I guess I should give some perspective. I've actually only worked at Hugging Face for about eight months now, and honestly, I ended up working there because I was such a fan. I observed them in the same way that you did, which was as an external observer seeing them make this transition so impressively from working on chatbots, to being this open source powerhouse... And I guess as someone who -- I mean, who knows what it means in open source, but as a competitor, as someone building his own libraries in this space, they were just doing it so much better than I was. I think that that always impressed me.
 
@@ -100,7 +100,7 @@ Practically, it is an interesting question of what the company is like. I mentio
 
 **Sasha Rush:** But it's always been a distributed company. There's a team in Paris and a team in New York. It's about half and half. But now we also have interns in California, and some interns in China, some people in different places... So we mostly communicate through Slack and through other distributed means.
 
-**Break:** \[00:15:53.20\]
+**Break:** \[15:53\]
 
 **Chris Benson:** We've alluded to Transformers several times now and kind of talked around it a little bit... For those who are new to the topic, could you define what is a transformer? It's been a big, big deal in recent months, and it has really changed NLP... But a lot of people may not be familiar with it or have not kept up to date. Could you just give us a basic run-through from the way you see it?
 
@@ -114,7 +114,7 @@ So instead of keeping a fixed-length vector that gets transformed over time, you
 
 **Sasha Rush:** Sure. Yeah, and I should say the original transformer paper has the title "Attention is all you need", so it's the key aspect of what makes a transformer. Attention itself is actually quite simple, and it's actually a very intuitively-appealing idea. So imagine you have a set of objects - say five different objects - and you wanna have a neural network decide which one of those objects you wanna use. You might have a softmax layer, where the softmax gives you a probabilty distribution over which aspect you wanna pick, so which of the five things you should choose. You could just end there, and if you end it there, we would just call it multi-class classification.
 
-\[00:19:52.20\] What attention does is it uses that distribution, the probability of each of the five things, and feeds that probability back into the model itself. So it would give a weight to each of the five items, and then feed them back in with that weight. So imagine I have a sentence like "The man walked the dog", and I wanna predict the next word in that sentence. Those previous five words would be the five items I'd wanna choose from, and attention would say "How much weight should I give to each of those previous five words when trying to decide on the next word?" So maybe I give it 80% to "man", 5% to "the" etc, and use those in the next step of the process.
+\[19:52\] What attention does is it uses that distribution, the probability of each of the five things, and feeds that probability back into the model itself. So it would give a weight to each of the five items, and then feed them back in with that weight. So imagine I have a sentence like "The man walked the dog", and I wanna predict the next word in that sentence. Those previous five words would be the five items I'd wanna choose from, and attention would say "How much weight should I give to each of those previous five words when trying to decide on the next word?" So maybe I give it 80% to "man", 5% to "the" etc, and use those in the next step of the process.
 
 All the transformer is is a kind of repeated version of that game, or say 6 to 24 different rounds, where each time you look back at what you've previously decided, use it to feed it back into your network, and then use that to try to predict the next step along the line.
 
@@ -130,7 +130,7 @@ So it's hard to give you a sense of this. One thing that's nice about language i
 
 Once you've done that, once you've trained it on all the language that you have, you can then apply it to a much smaller task, that you maybe have a small amount of supervised data for. So this idea which people call pre-training is kind of central to how a lot of NLP works these days, and also to how the Transformers library is designed.
 
-**Daniel Whitenack:** \[00:24:10.11\] Yeah, I think that's such a great and important point - people kind of get hung up on the size of these models, and it's kind of cool to talk about those things, and in some cases annoying to work with them, because they're so large, and in some cases hard to perform inference with... But yeah, I guess what you're saying is that the task that they're trained on is just intended to help them learn good features. And then the task that you actually want to use them for involves some fine-tuning or transfer learning. Is that right?
+**Daniel Whitenack:** \[24:10\] Yeah, I think that's such a great and important point - people kind of get hung up on the size of these models, and it's kind of cool to talk about those things, and in some cases annoying to work with them, because they're so large, and in some cases hard to perform inference with... But yeah, I guess what you're saying is that the task that they're trained on is just intended to help them learn good features. And then the task that you actually want to use them for involves some fine-tuning or transfer learning. Is that right?
 
 **Sasha Rush:** Yeah. And I think -- I mean, I don't wanna claim that this is finished as an idea... I think a lot of the tasks we work on now will have a fine-tuning stage, where you take the model and learn it for a given task. OpenAI has a slightly different model of what they're trying to achieve, which is they're not super-interested in fine-tuning, they wanna kind of just use the model directly, and kind of feed it \[unintelligible 00:25:07.09\]
 
@@ -154,7 +154,7 @@ I think there's a lot of recent excitement for kind of a crazier idea, which is 
 
 **Daniel Whitenack:** Yeah, so maybe you could describe along with that what is the main usage pattern that people are grabbing on to Transformers for? I know there are quite a few different things that you could use the library for, but what do you see as the main thrust of what people are grabbing transformers for? What is that, and how is that being supported?
 
-**Sasha Rush:** \[00:27:42.15\] Yeah, this is a great question, and I think in some ways you guys maybe have insight into this that I would be also interested to hear about. Let me start at the high-level. One thing that fascinates me about the current usage of deep learning is that you have people who approach it from many different angles... And in one of our papers we kind of broke this down into three different classes. We talk about there being architects, there being trainers, and then there being end users. I think within the ecosystem, Transformers has different meanings to all three of those people.
+**Sasha Rush:** \[27:42\] Yeah, this is a great question, and I think in some ways you guys maybe have insight into this that I would be also interested to hear about. Let me start at the high-level. One thing that fascinates me about the current usage of deep learning is that you have people who approach it from many different angles... And in one of our papers we kind of broke this down into three different classes. We talk about there being architects, there being trainers, and then there being end users. I think within the ecosystem, Transformers has different meanings to all three of those people.
 
 If you're a company like OpenAI, or Allen AI, companies at the cutting edge of research training, you use Transformers or related libraries to try to build the next architecture or the next pre-trained model. And that often means running these very large training jobs on multi-GPUs, over many days, and then using Transformers as a way to distribute your model through our hub, and make it easy for people to use it or do adapt it for their tasks.
 
@@ -172,7 +172,7 @@ So the idea of the model is to have all of those have the same API, and have the
 
 For instance, we have a visualizer that works for all of our models. You can just upload your own model and get a really interesting visualization of its internal structure. Or this open source project -- I think it's called \[unintelligible 00:31:41.20\] built an adversarial attack system. It's able to generically build attacks to any of our models in our hub. So because they all have the same interface, it allows people to do these really longitudinal research projects across everything that's going on in the hub itself.
 
-\[00:32:01.25\] And then I should mention that now we have an inference API. On any of the pages you can just type in some text, and it will run against that model. You can even call that from your own code directly, without ever running everything on your machine... Just run it on one of these servers. We even have a Twitter bot that we just put up last week, where you can kind of tweet at it and it will run a model against your tweet.
+\[32:01\] And then I should mention that now we have an inference API. On any of the pages you can just type in some text, and it will run against that model. You can even call that from your own code directly, without ever running everything on your machine... Just run it on one of these servers. We even have a Twitter bot that we just put up last week, where you can kind of tweet at it and it will run a model against your tweet.
 
 **Daniel Whitenack:** Yeah, that's great. I was wondering - before we leave the topic of the open source projects, you also mention these other libraries, tokenizers in NLP, which includes the datasets and evaluation metrics... How do those fit into the puzzle, and maybe interact and influence one another?
 
@@ -182,13 +182,13 @@ Tom Wolf, who's our main open source engineer, got very passionate about buildin
 
 One nice aspect of this is that we have a lot of examples of how to use transformers, and they have a lot of custom dataset code just to run the examples; but now that that code has all kind of been factored out, you can just kind of pull it in from NLP, and then run the examples focusing on the machine learning parts.
 
-**Break:** \[00:34:12.24\]
+**Break:** \[34:12\]
 
 **Chris Benson:** So to take the conversation a slightly different direction for a moment, I know from talking before the show that you put together ICLR, and you kind of manage that \[unintelligible 00:35:08.08\] which is a research conference... And I'm really interested at this point -- we're in the time of Covid-19, and so much has changed across all of work, but particularly conferences; many of the are going online, becoming virtual like that. I'm really interested in what that was like, and what your experience doing it this way was, and what worked, what didn't... I'm just curious, because I think a lot of people are waiting to see what conferences are turning into, and do they wanna continue to go down that route, or something...
 
 **Sasha Rush:** Yeah, this year I was the general chair of the International Conference of Learning Representations (ICLR). It's a big machine learning conference, and really the only one focused completely on deep learning. It was interesting, I had the chance of being the program chair for the conference last year, where we had the conference in New Orleans... And then this year I was the general chair, and by about December we were getting prepped, and then by February/March it became increasingly clear that we weren't going to be able to have this conference live.
 
-\[00:36:16.09\] So I think we were the first AI conference to really have to be completely virtual. We had about a month-and-a-half before the conference to really come up with something new... And we had this wonderful team led by the program chair this year, Shakir Mohamed. And we wanted to do something that fit the spirit of the conference, and so we sat down and wrote a website for the conference from scratch... And we built a website that was based around this idea that everyone at the conference would be in kind of a Slack-like chatroom; we used an open source platform for that... And that every paper would have its own page, with a video of the work, and a chatroom for that paper, so people would be able to talk about it or discuss it within that setting itself. In addition, we built out a bunch of social gatherings that people could have, and a kind of calendar for the whole event.
+\[36:16\] So I think we were the first AI conference to really have to be completely virtual. We had about a month-and-a-half before the conference to really come up with something new... And we had this wonderful team led by the program chair this year, Shakir Mohamed. And we wanted to do something that fit the spirit of the conference, and so we sat down and wrote a website for the conference from scratch... And we built a website that was based around this idea that everyone at the conference would be in kind of a Slack-like chatroom; we used an open source platform for that... And that every paper would have its own page, with a video of the work, and a chatroom for that paper, so people would be able to talk about it or discuss it within that setting itself. In addition, we built out a bunch of social gatherings that people could have, and a kind of calendar for the whole event.
 
 The main challenge is how do you run a conference asynchronous in this way? We didn't really think it was possible to have everyone in the same place at the same time, so we wanted to use things like chatrooms that feel more asynchronous, particularly with an international audience.
 
@@ -204,7 +204,7 @@ Anyway, it was an experimental setup. Since then, we open-sourced all the tools 
 
 I know one of the things that I appreciated... You know, I've been to other research conferences in person, and posters or talks or something like that - there's just so much going on that it is hard to do that -- like, you can't go to this talk at the same time as this talk, and it's hard to find that person afterwards and ask them some questions about their work. Maybe you walk by their poster, or something... So it was kind of nice to just scroll through and look at the different videos, especially given the timezone difference, and shoot the authors a message that they could respond to asynchronously, so that that question didn't get lost, or something like that. I've found that extremely useful.
 
-\[00:40:08.08\] What are your thoughts on assuming maybe that at some point in the future research conferences will have an in-person component again? Do you see a sort of hybrid scenario developing? Because I know one of the things that -- like with NeurIPS and all of that, it was a struggle for so many years if people were getting visas as well... Which is just such a shame. So many people from Africa or from Asia that were doing amazing work, but couldn't actually be at the conference because of visa issues, or cost issues, or whatever it is... So how do you see that future happening?
+\[40:08\] What are your thoughts on assuming maybe that at some point in the future research conferences will have an in-person component again? Do you see a sort of hybrid scenario developing? Because I know one of the things that -- like with NeurIPS and all of that, it was a struggle for so many years if people were getting visas as well... Which is just such a shame. So many people from Africa or from Asia that were doing amazing work, but couldn't actually be at the conference because of visa issues, or cost issues, or whatever it is... So how do you see that future happening?
 
 **Sasha Rush:** Yeah, it's a question we're talking actually a lot about at ICLR right now. I don't think we have an answer, and I think a lot of it will depend on what the world looks like in a couple years.
 
@@ -216,7 +216,7 @@ But as I was saying earlier, all these areas are experiencing such hyper-growth 
 
 **Sasha Rush:** It's a hard question...
 
-**Chris Benson:** \[00:42:44.15\] Big one.
+**Chris Benson:** \[42:44\] Big one.
 
 **Sasha Rush:** Yeah... In some ways, as someone who's been working in NLP for a while, it's been really neat. I think it's way better than I could have possibly expected; seeing things like translation get to the point where it's at now is just awe-inspiring to me. It's just such a useful thing, and have it work the way it does is awesome.
 

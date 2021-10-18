@@ -42,7 +42,7 @@ This poem brought to you by my utter lack of energy of what would have been a ba
 
 **Jerod Santo:** You've gotta do something... But we're not here to talk about fireworks, we're here to talk about JavaScript and the web. Welcome back, everybody. This episode is episode \#33, and we have three awesome segments for you today. Even though we're a little bit low on the energy, we're definitely gonna bring the energy as these things definitely excite us. So the first thing we're gonna talk about is an awesome feature of ES6, which has been around for a while. In fact, Brendan Eich was talking about it all the way back in 2010. This feature, proxies, allows all sorts of interesting things, and was requested by a listener, WeedShaker8, who hangs out in our Slack... What's up, WeedShaker? Thanks for requesting this to be talked about. He even was messaging me and said he just went down the rabbit hole of this overlooked feature, ES6 Proxy.
 
-\[00:04:09.04\] It's very interesting what Brendan Eich was saying about it back in 2010. We have a talk in the show notes called Proxies Are Awesome. It's a long talk, by Brendan, about proxies. That was back when they were very first introducing it as a feature, and it was just kind of existent inside of Firefox, I believe, at the time... It's kind of a fun time capsule to go watch that. I watched the first 15 minutes or so, and he's talking about yayQuery, and he's talking about John Resig... The conversation at the time is very interesting to look back on.
+\[04:09\] It's very interesting what Brendan Eich was saying about it back in 2010. We have a talk in the show notes called Proxies Are Awesome. It's a long talk, by Brendan, about proxies. That was back when they were very first introducing it as a feature, and it was just kind of existent inside of Firefox, I believe, at the time... It's kind of a fun time capsule to go watch that. I watched the first 15 minutes or so, and he's talking about yayQuery, and he's talking about John Resig... The conversation at the time is very interesting to look back on.
 
 But nonetheless, here we are in 2018, and this feature is very prominent and available in all browsers, except for IE. All Edges, I believe, have these features. Of course, it's not just one feature, there's a bunch of things involved... But older IEs never had it, and there's no polyfill, as far as I can tell... So it was kind of unavailable, unless you were in certain environments. Here it is today, and we have proxies.
 
@@ -50,7 +50,7 @@ Let's do an "explain it like I'm five." Nick or Kevin, who feels the most qualif
 
 **Nick Nisi:** A proxy object - it's a constructor in all of the browsers except IE, like Jerod was saying, and it allows you to wrap any object or function or class and redefine behaviors.
 
-You can say "new proxy", pass in the object or function or whatever that you want to proxy, and then you pass in an object literal as the second argument, and that object literal has a number of traps set on it. Those traps are just functions that you provide, and they're named things like "get" or "get set call", "get prototype of", "has" \[00:05:52.01\] - all of these different traps, and you define the behavior that happens when those behaviors get called on whatever object you're proxying.
+You can say "new proxy", pass in the object or function or whatever that you want to proxy, and then you pass in an object literal as the second argument, and that object literal has a number of traps set on it. Those traps are just functions that you provide, and they're named things like "get" or "get set call", "get prototype of", "has" \[05:52\] - all of these different traps, and you define the behavior that happens when those behaviors get called on whatever object you're proxying.
 
 If you're proxying an object and you set a get trap, any time that you try and actually get any property off of that object, it's actually gonna call your proxy function first, and that proxy function can decide what it wants to do based on that. That allows for a lot of power when you want to do something like dynamically create properties on the fly, or log things, log who's accessing what, or throw errors if you don't have access to view a particular property... And you can also do that for class instantiation, or method calls.
 
@@ -64,7 +64,7 @@ You can really just get down in the middle and change the behavior of the object
 
 So that's one application \[unintelligible 00:07:53.10\] I agree with you that most of the use of these things tends to be in lower-level libraries, from an application developer's perspective.
 
-**Nick Nisi:** \[00:08:05.04\] Yeah, and this all came in ES2015, along with other metaprogramming features, including the Reflect API. So we've had a little bit of reflection in JavaScript in the past, with things like Object.getPrototypeOf(), or... I'm trying to think of another one. hasOwnProperty()... Things like that, where you can inspect at runtime an object and determine its structure, and then make choices in your code based on that.
+**Nick Nisi:** \[08:05\] Yeah, and this all came in ES2015, along with other metaprogramming features, including the Reflect API. So we've had a little bit of reflection in JavaScript in the past, with things like Object.getPrototypeOf(), or... I'm trying to think of another one. hasOwnProperty()... Things like that, where you can inspect at runtime an object and determine its structure, and then make choices in your code based on that.
 
 There's also a Reflect global keyword in JavaScript now that has several different traps on it that you can use. So you can kind of use that in conjunction with proxies to ensure that whatever you're trying to do, you can call Reflect and have it actually do what the original behavior was, instead of you having to redefine that each time. That's because it's important to make sure that you are following whatever rules are associated with whatever trap that you're actually working with.
 
@@ -90,7 +90,7 @@ So folks, as they climbed through from that intermediate level to become more ex
 
 **Jerod Santo:** That's just the natural lifecycle of something new and something powerful, right? It's like "Okay, here's this new powerful feature." Metaprogramming is amazing in what it allows us to do. And then it's sort of the typical hype cycle, where it's like "Okay, this is amazing, this is life-changing." These are things that we, developers, say all the time - "This might have changed my life", and whether we mean that tongue-in-cheek or like actually "This thing changed clearly the way I program", we say it a lot.
 
-\[00:12:18.05\] And then it's kind of like you said, Kevin - it's just massive adoption everywhere. I have this brand new, shiny, big hammer, and just everything is a nail right now. So you do all that, and then you live in that -- you've made your bed, and now you have to lie in it for a while, and you start to realize "Oh, this is an uncomfortable bed. This is a restrictive bed" or "This is a dangerous bed", and through time you learn moderation, where to apply these things and where it's too far... But you can't really get to the end. You can't get to that final understanding as an individual (or even as a community) until we kind of push those limits and see where they're at. It's like a cycle of progress, but it's not like we can skip the cycle, because how do we know where the edges are if we don't push them?
+\[12:18\] And then it's kind of like you said, Kevin - it's just massive adoption everywhere. I have this brand new, shiny, big hammer, and just everything is a nail right now. So you do all that, and then you live in that -- you've made your bed, and now you have to lie in it for a while, and you start to realize "Oh, this is an uncomfortable bed. This is a restrictive bed" or "This is a dangerous bed", and through time you learn moderation, where to apply these things and where it's too far... But you can't really get to the end. You can't get to that final understanding as an individual (or even as a community) until we kind of push those limits and see where they're at. It's like a cycle of progress, but it's not like we can skip the cycle, because how do we know where the edges are if we don't push them?
 
 **Nick Nisi:** I think that one nice thing about proxies is they're relatively safe to use if you want to use them. What I mean is you could proxy something like the global array object, but you're not actually changing that array object at all, or you're not actually changing the array class at all, because you have to use the proxy that is returned from that new proxy call. So in that case, if you were doing that, it would return a new constructor for arrays that would pass through to the original array constructor... But you're not changing arrays globally throughout your application or throughout your entire page; it's only when you use that proxy... So you can kind of isolate that and use it just in specific areas without affecting the entire page, unless you are returning the proxy object as your default export or the main export that you use.
 
@@ -102,7 +102,7 @@ So you were talking about a little bit of that with regard to Vue... KBall, do y
 
 That right now, today, is done with a kind of fake proxy system that they've built using getters and setters, because they wanna support all the versions of IE, things like that. It has some odd edge cases, because there's some things that you can't do right with getters and setters, or you can't track... For example, if you have an object and you know the set of keys, you can track changes to those keys, but there's no way right now to intercept inserting a new key. So if I put in a new key, my reactivity model breaks.
 
-\[00:15:58.02\] And they have a wrapper that you can use to put that in with the correct tracking in place if you know that "Okay, I've got this limitation, so instead of just directly writing to my object that I expect to be reactive, I need to use vue.set to write to it, so that it gets all the right reactivity." But with proxies, those limitations would go away completely.
+\[15:58\] And they have a wrapper that you can use to put that in with the correct tracking in place if you know that "Okay, I've got this limitation, so instead of just directly writing to my object that I expect to be reactive, I need to use vue.set to write to it, so that it gets all the right reactivity." But with proxies, those limitations would go away completely.
 
 There's a branch under development, there's all sorts of stuff essentially to shift the reactivity model to be completely proxy-based, and then all of your holes go away. You've got simpler code, because proxies are design for this - getters and setters are only sort of appropriate to this - and you have relatively seamless reactivity.
 
@@ -120,7 +120,7 @@ There's room for both, and I've actually been advocating Vue a lot to folks, bec
 
 **Jerod Santo:** So this proxy-based branch of Vue - is it a branch because of IE? Is that the reason why it's not main line already? Are they waiting for a certain browser share? Is there always gonna be a fork? What's the situation...? Because basically, IE is THE browser that does not have these features, and Edge does. Is that a simple reason, or is there actually divisions on the ways that they wanna go?
 
-**Kevin Ball:** \[00:20:18.00\] I don't know the answer. My understanding of the situation is it's around IE. Another thing though, looking at the \[unintelligible 00:20:31.12\] something that we often neglect talking about things over in the U.S. is some of the international browsers. It looks like actually UC Browser, which is one of the pretty common ones overseas, does support proxies. The Baidu browser does not.
+**Kevin Ball:** \[20:18\] I don't know the answer. My understanding of the situation is it's around IE. Another thing though, looking at the \[unintelligible 00:20:31.12\] something that we often neglect talking about things over in the U.S. is some of the international browsers. It looks like actually UC Browser, which is one of the pretty common ones overseas, does support proxies. The Baidu browser does not.
 
 The reason I bring that up is Vue has a very large audience in China, and so their browser market is probably pretty different than ours, and I don't know what the distribution is there, but I think it's going to influence it. Something that's gonna come up - we talked about reusable components - to the n-th degree when you start talking about frameworks is you have to be conscious of all those edge cases and users.
 
@@ -136,7 +136,7 @@ For example, when I was working on ZURB Foundation a lot, we turned down a lot o
 
 **Jerod Santo:** You're always trying to squeeze the TypeScript in there, aren't you, Nick?
 
-**Kevin Ball:** \[00:24:06.24\] I have a question that -- so I haven't dug deeply into proxies... Are all the traps synchronous, or are there ways to deal with asynchronicity?
+**Kevin Ball:** \[24:06\] I have a question that -- so I haven't dug deeply into proxies... Are all the traps synchronous, or are there ways to deal with asynchronicity?
 
 **Nick Nisi:** That's a good question. I think they're all synchronous, but --
 
@@ -150,13 +150,13 @@ For example, when I was working on ZURB Foundation a lot, we turned down a lot o
 
 **Jerod Santo:** Well, you've got enough rope; you can just go out there and hang it up and find out. \[laughter\]
 
-**Break:** \[00:25:11.01\]
+**Break:** \[25:11\]
 
 **Jerod Santo:** Alright, we're back, and we're gonna talk about reusable components... Something that we would all love to have, and that seems difficult first of all to write reusable components, but then actually share them with others, whether it's internal to our own teams, or externally to the world. Of course, KBall, you have a lot of experience with sharing things in terms of front-end with the world, with all the work on ZURB Foundation.
 
 But today we're gonna focus on a pretty new project called Bit. You can find it at bitsrc.io (link in the notes) where they are saying "Imagine all of your components are organized on the cloud, made discoverable for your team, and synced in all your projects. That's Bit." Now, I should say that this is a commercial enterprise; Bit itself is open source, and you can self-host... So they're kind of very much following kind of a GitHub model with Bit, where the Bit tooling is kind of like Git, and bitsrc.io is kind of like GitHub, where they will host your things and you could have repos and stuff for pay. So that's there... But the idea, I think, is somewhat universal, and all the bits are open source.
 
-\[00:27:59.20\] Worth talking about... Interesting demo where they show people basically having some React components inside of their project, and them kind of doing a bit init command line tool, very similar to Git, kind of pushing those out to this globally available place, and then somebody else effectively cloning down components and using them on the other side.
+\[27:59\] Worth talking about... Interesting demo where they show people basically having some React components inside of their project, and them kind of doing a bit init command line tool, very similar to Git, kind of pushing those out to this globally available place, and then somebody else effectively cloning down components and using them on the other side.
 
 Now, there's some cool trickery in there. When you have your components on the website, where you can actually see them live rendering, you can see all of their properties, you can run UI tests against them, and then documentation as well... Very much kind of thinking about it like source code, but moving up a level, and saying "Let's think about components as kind of the foundational unit of abstraction." And of course, you can still get to the source code underneath, as you're gonna have to...
 
@@ -176,7 +176,7 @@ I don't have a good solution, by the way. I'm just sort of laying out the proble
 
 **Jerod Santo:** Nick, do you have similar findings with sharing components? I know you work on lots of large-scale applications that may already have Bootstraps available, but is there sharing across repos, or across teams anywhere in your work that you guys have dealt with these issues?
 
-**Nick Nisi:** \[00:32:02.05\] A little bit, yeah. The main way that we're tackling this in Dojo is you can export individual components as web components, and then just bring those in anywhere and use them... But that doesn't necessarily get around all of the issues that KBall brought up, I don't think... But it does get us pretty close.
+**Nick Nisi:** \[32:02\] A little bit, yeah. The main way that we're tackling this in Dojo is you can export individual components as web components, and then just bring those in anywhere and use them... But that doesn't necessarily get around all of the issues that KBall brought up, I don't think... But it does get us pretty close.
 
 The most recent project I worked on, we did just that. We created three individual components and we had examples of them working together in a Dojo app, but then we also exported them as web components and had an example of them all running together. So they were all completely isolated and only cared about the properties that you passed to it going in and out, and that was it.
 
@@ -198,7 +198,7 @@ If we can compile to web components, plug them in everywhere and still have a wa
 
 **Kevin Ball:** So the idea they have is, okay, I have a component in my app; I'm going to tag it, push it, and suddenly it's a shared component, with that version. I can pull it down in a different app, edit it there, tag it, push it, and I have a new version. So it's saying, "Okay, instead of having to separate this out into an individual package where I'm gonna edit in that location, I'm going to be editing it in place, in any one of a number of places, and pushing and pulling from there."
 
-\[00:35:29.07\] To me, this raises some huge red flags. I've been trying to wrap my head around what exactly is it -- or how would I explain what I'm concerned with... I think that the biggest thing here is conflating the technical problem of "I'm going to separate this thing out into a separate repo with the decision-making programming problem of how do I make this something that is going to work well across multiple repos?" I could easily see if I have two people working on this, I make a change here on this site, I push it up, somebody else pulls it down, and they say "Oh, that's not the way I want it to behave; I'm gonna make a different change, push it up", and instead of ending up with a well-defined, shareable component with a clean interface, I end up with something that has 20 different application-specific pieces, that happen to have been pushed up from all these different applications.
+\[35:29\] To me, this raises some huge red flags. I've been trying to wrap my head around what exactly is it -- or how would I explain what I'm concerned with... I think that the biggest thing here is conflating the technical problem of "I'm going to separate this thing out into a separate repo with the decision-making programming problem of how do I make this something that is going to work well across multiple repos?" I could easily see if I have two people working on this, I make a change here on this site, I push it up, somebody else pulls it down, and they say "Oh, that's not the way I want it to behave; I'm gonna make a different change, push it up", and instead of ending up with a well-defined, shareable component with a clean interface, I end up with something that has 20 different application-specific pieces, that happen to have been pushed up from all these different applications.
 
 The decision-making challenge of "How do I create a generalizable, reusable component that has a clean interface and supports all of my use cases?" is hard.
 
@@ -218,7 +218,7 @@ And then "Okay, I wanna use it in a different project. I wanna move it into an i
 
 They say "I think the smaller shops face is they build an app with a bunch of components, and then they want to use that component in their marketing site or admin UI etc." If that's all you wanna do, do you know of a good way to extract that and to share those things? Or is that also an unsolved problem?
 
-**Kevin Ball:** \[00:39:51.11\] Bringing it out into individual npm packages or a framework libray - it could be published to npm, it could be just a repository... Separating out those components into something that is installable is relatively well solved. I think there's plenty of resources... I mean, there's articles on "How do I pull this thing out into its own package?"
+**Kevin Ball:** \[39:51\] Bringing it out into individual npm packages or a framework libray - it could be published to npm, it could be just a repository... Separating out those components into something that is installable is relatively well solved. I think there's plenty of resources... I mean, there's articles on "How do I pull this thing out into its own package?"
 
 Unless I'm missing something, I don't think the technical challenge of how do I take a component and turn it into a package that I can install into other applications - that's a pretty solved problem.
 
@@ -244,7 +244,7 @@ Though, thinking back, what we did in Foundation is we had the dist directory th
 
 **Jerod Santo:** Well, let's end this part of the conversation with a bit of a call to action for the listeners... If you are out there and have a whiz-bang solution for these things - or just something that you're relatively happy with - hit us up and let us know... We would love to hear about what you're doing to manage the sharing of these components across your projects. @jspartyfm on Twitter. We also have a ping repo where you can holler at us, tell us whatever you like, tell us you love the show, tell us you hate the show, tell us you'd like to hear about a specific topic or have a specific guest on... That's at github.com/thechangelog/ping. You can open up an issue there and just let us know that you are interested in discussing JSParty. That would be awesome.
 
-**Break:** \[00:44:12.26\]
+**Break:** \[44:12\]
 
 **Jerod Santo:** Alright guys, let's switch gear a little bit and let's talk to ourselves... Let's talk to our younger selves and do a little segment where we reflect back and ask ourselves the question "If I had to start all over again in technology or in software development, but I had the advantage of being able to give myself advice (my younger self) to make it easier this time around...", what would you say to yourself and why? Let's start with you, Nick.
 
@@ -278,7 +278,7 @@ I'd also say learn version control, like a lot sooner, and actually use it in co
 
 I think the thing that I would tell myself that I didn't do, that I should, is start blogging early. Blog about what you learn, document your knowledge as you go, and be freakin' consistent about it. And don't let those sites disappear. I think I've started three or four blogs in the past that have just died and disappeared. I'd do it for a little while, very inconsistent...
 
-\[00:48:09.15\] Number one, when you write about what you learn, you learn it better. Number two - now I'm out starting my business and trying to build an audience, and if I'd been doing that for as long as I've been in the industry, I would be golden right now. Number three - writing is an incredibly valuable skill. Writing is probably -- after the initial piece of learning software development, communication is what in my experience now makes the difference between somebody who gets stuck in sort of line-level developer jobs and somebody who's able to go on and have a bigger impact and continue to advance and be promoted in various other things.
+\[48:09\] Number one, when you write about what you learn, you learn it better. Number two - now I'm out starting my business and trying to build an audience, and if I'd been doing that for as long as I've been in the industry, I would be golden right now. Number three - writing is an incredibly valuable skill. Writing is probably -- after the initial piece of learning software development, communication is what in my experience now makes the difference between somebody who gets stuck in sort of line-level developer jobs and somebody who's able to go on and have a bigger impact and continue to advance and be promoted in various other things.
 
 Software is a communication-intensive endeavor, and that includes writing, that includes speaking, that includes being very good at listening... All those different things. So my advice to myself looking back is yeah, keep doing the tech that you're doing, but pay more attention to the communication side of things, because it took me way too long to pick that up.
 
@@ -300,7 +300,7 @@ Alright, let's wrap up the show with a few shout-outs. These are projects, peopl
 
 **Nick Nisi:** Cool. I have a couple of things... The first is a Vim plugin called Nvim TypeScript by Mike Hartington. I've just recently switched over to it and I just love it. Really nice completion, I can jump to definitions to see where things are used, and it plugs in with -- well, it plugs in with all of that completion stuff and it just makes TypeScript development in Vim so much easier that I don't have to look at VS Code any time soon.
 
-\[00:52:09.28\] The second thing is CodeSandbox and Ives van Hoorne for that. That's such a great project, and so nice to be able to set up full working project examples in React and Dojo and others; it just makes it so easy to share knowledge, to respond on Stack Overflow or in Gitter channels with working examples, and also to see examples of bugs using that, because it's a working example that all you have to do is click a link to have it set up... So that's just super nice.
+\[52:09\] The second thing is CodeSandbox and Ives van Hoorne for that. That's such a great project, and so nice to be able to set up full working project examples in React and Dojo and others; it just makes it so easy to share knowledge, to respond on Stack Overflow or in Gitter channels with working examples, and also to see examples of bugs using that, because it's a working example that all you have to do is click a link to have it set up... So that's just super nice.
 
 And then the third is a project called -- well, you've heard of a project called Prettier, that formats JavaScript syntax and makes that really nice... Well, there's another project called Pettier. It's pretty cool.
 
@@ -320,7 +320,7 @@ The second shout-out is a functional programming in JavaScript library that I ra
 
 My final shout-out is a little bit of a self shout-out, but if you didn't know, I publish a weekly newsletter on front-end stuff, all things web. I publish CSS, JavaScript and just other awesome happenings on the web, articles... I focus a lot on fundamentals, but I also include big happenings and good tutorials for all the major frameworks. That's the Friday Frontend, and you can find it on my website, ZenDev.com.
 
-**Jerod Santo:** \[00:54:57.27\] And I can vouch for Friday Frontend's quality, because I'm a happy reader of Friday Frontend, so thank you very much for putting that together, and definitely, to the listeners, if you like KBall and you like the front-end -- I mean, what's not to love? Go check that out.
+**Jerod Santo:** \[54:57\] And I can vouch for Friday Frontend's quality, because I'm a happy reader of Friday Frontend, so thank you very much for putting that together, and definitely, to the listeners, if you like KBall and you like the front-end -- I mean, what's not to love? Go check that out.
 
 Alright, my two shout-outs - the first one goes to Jakob Egger who is a developer I think in Australia, but I'm not sure his exact locale. He's the developer of a Mac application called Postico, which is a Mac GUI for the Postgres database, which is my database of choice.
 

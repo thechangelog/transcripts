@@ -52,7 +52,7 @@
 
 **Thorsten Ball:** \[laughs\] Yeah. I was gonna say, the answer is not that easy, as in it depends; it's all blurry. But I would say the easiest explanation for what an interpreter and a compiler is is it's the implementation of a programming language. It's how you make it exist. You can think of a programming language, you can define it to the last detail, but it still doesn't exist. It could only exist on paper or in theory, and you need to implement it. And you can implement it by building an interpreter or a compiler. That's my really concise attempt at explaining it.
 
-**Mat Ryer:** \[00:04:21.08\] Yeah, that's great. So in Go's case then, the Go compiler of course takes the Go code, does all its magic to it, and turns it into a binary...
+**Mat Ryer:** \[04:21\] Yeah, that's great. So in Go's case then, the Go compiler of course takes the Go code, does all its magic to it, and turns it into a binary...
 
 **Thorsten Ball:** Right, yeah.
 
@@ -82,7 +82,7 @@ And the language that I wanted to build and then dissect or teach in this book s
 
 If I had to describe it, it looks kind of like JavaScript; it also acts kind of like JavaScript, because under the hood it actually acts like a scheme, or a Lisp thing, which is funnily enough also what JavaScript was based on in the beginning. It's a really small language, it has basic data types like integers, arrays, hashes, strings, it has functions, first-class functions, higher-order functions... I don't know what else, off the top of my head. It has a macrosystem in a separate chapter... Yeah, I named it Monkey because I do like monkeys, I guess.
 
-**Mat Ryer:** \[00:08:14.16\] So it's great for not just learning about interpreters, but the fact that you actually implement the real thing I think is a great way to learn. But of course, the skills are transferable, aren't they? That's the point. Once you can do this, once you can build an interpreter, then you can use that skill to solve other problems.
+**Mat Ryer:** \[08:14\] So it's great for not just learning about interpreters, but the fact that you actually implement the real thing I think is a great way to learn. But of course, the skills are transferable, aren't they? That's the point. Once you can do this, once you can build an interpreter, then you can use that skill to solve other problems.
 
 And Mark, you actually did that very thing from Thorsten's book, didn't you?
 
@@ -116,7 +116,7 @@ So just understanding the theory I think is an important part, even if you're no
 
 **Mat Ryer:** Right, yeah. And Matt Layer on the Slack - and by the way, if you're listening live, you can join the conversation on Slack; GopherSlack in the \#gotimeFM channel. Matt Layer there recommends this, and what he was saying is after he'd been through the book, he then was able to go and add new features to it, and play around with it, and change things, and break things, and things like this... And I think that, for the spirit of learning, that's a really appealing thing to do. So I love the fact that you would actually have your own implementation that you can then play around with.
 
-**Mark Bates:** \[00:12:02.20\] The book leaves you in a good place for that, too. It gives you what you need to go and break it further, like Matt did, or like I did. I think there is a layer that the book may not address, or might need another book to address, which is you've written a parser, but don't make this where your code actually gets executed, and stuff like that... Which is kind of what happened with Plush. It became parser, executer, templating system in one big ball, and that caused us too many problems. We'll talk about those later, but...
+**Mark Bates:** \[12:02\] The book leaves you in a good place for that, too. It gives you what you need to go and break it further, like Matt did, or like I did. I think there is a layer that the book may not address, or might need another book to address, which is you've written a parser, but don't make this where your code actually gets executed, and stuff like that... Which is kind of what happened with Plush. It became parser, executer, templating system in one big ball, and that caused us too many problems. We'll talk about those later, but...
 
 **Mat Ryer:** Yeah, interesting.
 
@@ -156,7 +156,7 @@ Before I got into parsing and parsing programming languages, I wouldn't even kno
 
 The second one was what you said, Mat, that it helps with learning; that after you have this programming language implemented, you can add a bunch more stuff, that Matt said in Slack. And I just want to add to that that it's so much fun to do that once you have a language or an interpreter running, adding little bits and pieces.
 
-\[00:16:02.23\] It sounds really like I'm exaggerating, but it is nearly boundless creativity. You can add a lot of different stuff to your language, and the nice thing or fun thing about developing a language is, compared to web applications, which is my background, you don't need a database, you don't need an internet connection, you don't need a second database, you don't need a huge build process. It's really like making stuff up in the air. You have a text file, you write stuff in the text file, and then on the other end you get hopefully output, or something. But it's a really fun thing to work on and develop.
+\[16:02\] It sounds really like I'm exaggerating, but it is nearly boundless creativity. You can add a lot of different stuff to your language, and the nice thing or fun thing about developing a language is, compared to web applications, which is my background, you don't need a database, you don't need an internet connection, you don't need a second database, you don't need a huge build process. It's really like making stuff up in the air. You have a text file, you write stuff in the text file, and then on the other end you get hopefully output, or something. But it's a really fun thing to work on and develop.
 
 **Tim Raymond:** I've found the same thing when I wrote my first interpreter, because it's such a good way to flex your TDD muscles... They have no dependencies; you're just writing a string of something, and you can try out new cases very easily... So you can really learn not just how to write interpreters, how to write compilers, but how to write really good tests, that don't have dependencies on other things.
 
@@ -188,7 +188,7 @@ So having the actual structure, parsing properly... Simple things like knowing w
 
 **Mat Ryer:** What's PEGs?
 
-**Mark Bates:** \[00:20:07.05\] I think we should talk about PEGs. We talked about parsers, and I think that's a great introduction, and I'd love to hear Thorsten's take on them, as well. Tim. Tim Raymond is with us... Tim will be speaking need week at Gopherpalooza. By the way, I'm doing Mat's NPR voice... Just trying to fit right in there with him. So Tim will be presenting next week at Gopherpalooza, where it'll also be his birthday, and he will be talking about PEGs, which are parser expression grammars, correct, Tim?
+**Mark Bates:** \[20:07\] I think we should talk about PEGs. We talked about parsers, and I think that's a great introduction, and I'd love to hear Thorsten's take on them, as well. Tim. Tim Raymond is with us... Tim will be speaking need week at Gopherpalooza. By the way, I'm doing Mat's NPR voice... Just trying to fit right in there with him. So Tim will be presenting next week at Gopherpalooza, where it'll also be his birthday, and he will be talking about PEGs, which are parser expression grammars, correct, Tim?
 
 **Tim Raymond:** Yeah.
 
@@ -226,7 +226,7 @@ I find PEGs are nice because they follow closely to the kinds of parsers that yo
 
 **Tim Raymond:** Yeah. You can return a struct, you can log something out... So if you were just building a tool that could highlight things, you could print out the thing that was even matched with different highlighting... You have access to what was actually matched by the peg, so at that point you can do anything that you want, really.
 
-**Mat Ryer:** \[00:24:04.08\] Do they get difficult to follow, though? Do they grow quite big, quite quickly?
+**Mat Ryer:** \[24:04\] Do they get difficult to follow, though? Do they grow quite big, quite quickly?
 
 **Tim Raymond:** They can, and we've actually been working on a newer version of Plush...
 
@@ -276,7 +276,7 @@ But overall, each rule itself, if you break down and look at a rule, they're ver
 
 **Thorsten Ball:** Well, I've had dogs write me emails, saying--
 
-**Mark Bates:** \[00:28:07.06\] Ringo has written like four languages now. The dog can't stop himself. He's crazy with the book. He's got the compiler book in his crate at night; he's just flipping through it, a little pause...
+**Mark Bates:** \[28:07\] Ringo has written like four languages now. The dog can't stop himself. He's crazy with the book. He's got the compiler book in his crate at night; he's just flipping through it, a little pause...
 
 **Thorsten Ball:** Most dogs like the second book much more...
 
@@ -290,7 +290,7 @@ But overall, each rule itself, if you break down and look at a rule, they're ver
 
 **Mark Bates:** Thank you.
 
-**Break**: \[00:28:36.29\]
+**Break**: \[28:36\]
 
 **Mat Ryer:** So does the compiler book follow on from the interpreter book then?
 
@@ -320,7 +320,7 @@ You can read the second one without having read the first one, but what you then
 
 **Thorsten Ball:** Yeah, yeah... \[laughter\] Part one, yeah.
 
-**Mark Bates:** \[00:32:17.09\] And at the end it's just a giant spider... \[laughter\] It's a real letdown.
+**Mark Bates:** \[32:17\] And at the end it's just a giant spider... \[laughter\] It's a real letdown.
 
 **Mat Ryer:** So the compiler book then - it takes the language, the language can be interpreted from its text; so the input that is text gets interpreted, so then you understand what that says... So what's the process then for that to turn into something that can be executed and compiled, or compiled and then executed?
 
@@ -348,7 +348,7 @@ When you compile, you actually translate. You take the input and translate it in
 
 If you're compiling Go code on your machine, you're happy to wait a few seconds, because that makes the program run faster later on, when it needs to run on the server. If for example you're not willing to pay that cost, you could just as well say "No, this needs to run. I don't wanna wait for it." Let's say you have a scripting language, or Bash, like a shell language, where you want it to run immediately... Then you don't compile it, and you interpret it on the spot, line by line, basically. And answering your follow-up question...
 
-**Mark Bates:** \[00:36:17.16\] Do we need to be here for this, or can we just go...? \[laughter\]
+**Mark Bates:** \[36:17\] Do we need to be here for this, or can we just go...? \[laughter\]
 
 **Thorsten Ball:** No, no, no, I've got it all figured out. Just mute your microphone... \[laughter\] So if you're willing to pay the cost upfront, then that means you can also do stuff that wouldn't be feasible to do when you run it, at the same time that you're interpreting it. For example, optimizations. If you're compiling a huge program - let's say 100,000 lines of code - there's a bunch of optimizations you can do. For example, removing duplicate code, in-lining functions, and so on. These optimizations cost time, they cost computation power... And if you have to translate and do those optimizations while running the program, that costs. You need to somehow make that happen without paying the performance penalty that would be incurred on the running program. But if you're willing to pay this cost upfront, you can do that.
 
@@ -378,7 +378,7 @@ Games companies use this for -- they call it gold builds, I think. So when the g
 
 **Mat Ryer:** Tim is your super-compiler.
 
-**Mark Bates:** \[00:39:45.17\] He really is. Tim is my go-to CS expert. He first introduced me to PEGs, for example, earlier this year, when we were heading down to GothamGo. So I always love having Tim around for that, because he really is my super-compiler. \[laughter\] So I'm really excited just to be on the call with Thorsten, because I'm such a big fan, with Plush, and everything like that...
+**Mark Bates:** \[39:45\] He really is. Tim is my go-to CS expert. He first introduced me to PEGs, for example, earlier this year, when we were heading down to GothamGo. So I always love having Tim around for that, because he really is my super-compiler. \[laughter\] So I'm really excited just to be on the call with Thorsten, because I'm such a big fan, with Plush, and everything like that...
 
 **Mat Ryer:** None taken. \[laughter\]
 
@@ -452,7 +452,7 @@ So without the prior context of having written one, you would be reading a lot m
 
 **Mark Bates:** Oh, that's a different thing. That's just a benefit of this tool that we're working on. That's just one of its features.
 
-**Thorsten Ball:** \[00:43:59.17\] But you said "I couldn't have written this without understanding parsers", and my question would be "Do you think you could have written it without knowing anything about compilation, or kind of getting into this topic?"
+**Thorsten Ball:** \[43:59\] But you said "I couldn't have written this without understanding parsers", and my question would be "Do you think you could have written it without knowing anything about compilation, or kind of getting into this topic?"
 
 **Mark Bates:** I know nothing about compilation.
 
@@ -496,7 +496,7 @@ I had the same experience with compilation, where you start out "Oh, wait, I jus
 
 **Mat Ryer:** I hope not.
 
-**Mark Bates:** \[00:47:41.04\] But that's exactly what we do, right? We declare the variable, and then immediately do underneath it \_=a. So you can't just say "Oh, I run it through Sprintf all the time", because as I said, there are these moments where if you just printed it out, sure, it's valid Go code for that one line, but not valid in a bigger context.
+**Mark Bates:** \[47:41\] But that's exactly what we do, right? We declare the variable, and then immediately do underneath it \_=a. So you can't just say "Oh, I run it through Sprintf all the time", because as I said, there are these moments where if you just printed it out, sure, it's valid Go code for that one line, but not valid in a bigger context.
 
 **Thorsten Ball:** Yeah. Do you do that for every variable you come across, or just--
 
@@ -532,7 +532,7 @@ I had the same experience with compilation, where you start out "Oh, wait, I jus
 
 **Mark Bates:** Not even close. So far down the list...
 
-**Break:** \[00:49:07.12\]
+**Break:** \[49:07\]
 
 **Mat Ryer:** How exciting is it though, as you make progress through it, when suddenly it starts to seem like it's intelligent? As soon as you have something like recursion or something working, when you can suddenly start to see surprisingly clever behavior happen - that must be kind of thrilling to see that sort of progress. Do you know what I mean?
 
@@ -550,7 +550,7 @@ I had the same experience with compilation, where you start out "Oh, wait, I jus
 
 Any Scheme or Lisp person will tell you "Once you have closures, you can built object orientation", or something. Then you can build constructive functions that return a closure, that wraps around some state, and returns other functions, and all of that stuff... And that's really cool. That's a lot of fun.
 
-**Mat Ryer:** \[00:52:07.26\] That is cool... Because it sounds so hard.
+**Mat Ryer:** \[52:07\] That is cool... Because it sounds so hard.
 
 **Thorsten Ball:** It's kind of beautiful in how little you need to bootstrap a system. On the side, I'm working on a Scheme compiler; a Scheme to x86 compiler. And it's not nearly finished... It's endless, basically, but it can do a lot of stuff already, and it's really nice to see that there's certain milestones you reach where you can leverage what you built before. So you put in a few built-ins or primitives - you know, equals, comparing stuff, type checks - and then you can build higher-level constructs that leverage these things... And now suddenly you have much more functionality available. And then you can use those higher-level constructs and build more of those.
 
@@ -590,7 +590,7 @@ So yeah, understanding what those were, obviously `a:=` and `var` stole from the
 
 **Thorsten Ball:** Yeah. And it's funny how seemingly tiny decisions such as these have wide-reaching consequences... And then you suddenly feel how much pressure language designers are under when somebody opens a ticket and says "Why can't you add this?", or something. And you go "But if I add this, that would mean that you could also do this."
 
-\[00:56:11.12\] And I'm sure people well-versed in the theory of this can come up with a formal thing and say "If we add this, it actually has these ramifications", but when you think it through manually, it's really enlightening to see it... Like, "Okay, if I add the ability to define two functions that call each other recursively, then I can suddenly implement all of this, and all of that." Or delayed binding; you can call a function in your function, that hasn't been declared before, which is what this two functions calling each other recursively is about - then you can do loops, basically, in another function, or return a function that blah-blah-blah. It's crazy.
+\[56:11\] And I'm sure people well-versed in the theory of this can come up with a formal thing and say "If we add this, it actually has these ramifications", but when you think it through manually, it's really enlightening to see it... Like, "Okay, if I add the ability to define two functions that call each other recursively, then I can suddenly implement all of this, and all of that." Or delayed binding; you can call a function in your function, that hasn't been declared before, which is what this two functions calling each other recursively is about - then you can do loops, basically, in another function, or return a function that blah-blah-blah. It's crazy.
 
 **Mat Ryer:** It's also interesting, because we think about that - the conversations we have in the community about generics, and stuff... And a lot of people just think of it as whether they want that feature or not, not really "What does it mean to implement that feature? What are the ramifications of that?"
 

@@ -40,7 +40,7 @@ Chris Coyier is here. Chris, thanks for coming on JS Party.
 
 **Jerod Santo:** Excellent. And we are also joined by Miriam Suzanne.
 
-**Miriam Suzanne:** \[00:04:14.21\] Hello!
+**Miriam Suzanne:** \[04:14\] Hello!
 
 **Jerod Santo:** Welcome. Did you bring your trivia skills with you?
 
@@ -120,7 +120,7 @@ Category three is called Tricky CSS Sites. These are websites that aren't CSS-Tr
 
 **Jerod Santo:** Hm...
 
-**Miriam Suzanne:** \[00:08:08.20\] Scroll timeline?
+**Miriam Suzanne:** \[08:08\] Scroll timeline?
 
 **Jerod Santo:** Yeah, scroll timeline. We'll give it to you. \[win alert\] Very good!
 
@@ -238,7 +238,7 @@ Alright... Sarah, your turn.
 
 **Chris Coyier:** I'll take Tricky CSS Sites for 300.
 
-**Jerod Santo:** \[00:12:02.21\] Okay, here we go. This site demonstrates what can be accomplished by only changing the CSS.
+**Jerod Santo:** \[12:02\] Okay, here we go. This site demonstrates what can be accomplished by only changing the CSS.
 
 **Chris Coyier:** Oh yeah, CSS Zen Garden.
 
@@ -388,7 +388,7 @@ Alright... Sarah, your turn.
 
 **Sarah Drasner:** jQuery.
 
-**Jerod Santo:** \[00:15:58.25\] \[win alert\] There you go. Geoff, it's your turn.
+**Jerod Santo:** \[15:58\] \[win alert\] There you go. Geoff, it's your turn.
 
 **Sarah Drasner:** I knew the last one, too... \[laughter\]
 
@@ -514,7 +514,7 @@ Alright... Sarah, your turn.
 
 **Geoff Graham:** I sure do.
 
-**Jerod Santo:** \[00:19:57.14\] Don't worry, Geoff, Double Trouble is just around the corner.
+**Jerod Santo:** \[19:57\] Don't worry, Geoff, Double Trouble is just around the corner.
 
 **Miriam Suzanne:** A real comeback for Sarah...
 
@@ -530,7 +530,7 @@ Alright... Sarah, your turn.
 
 **Sarah Drasner:** Don't we all...?
 
-**Break:** \[00:20:22.02\]
+**Break:** \[20:22\]
 
 **Jerod Santo:** Now, this is Double Trouble... All point values are doubled, so it's a good chance to come back... Or fail terribly. So the first column category is Oh Node You Didn't! These are obviously Node-related questions. The second category is called Framewords. These are CSS frameworks in their own words, so how they describe themselves in their homepage. Actual CSS Tricks - those are hacks that devs have to do to get stuff done... And then the last one is called Divitis. On this one we've taken HTML elements which were semantic, and we've replaced them with divs, and you have to figure out which element it originally was.
 
@@ -658,7 +658,7 @@ Alright... Sarah, your turn.
 
 **Jerod Santo:** Not quite right...
 
-**Geoff Graham:** \[00:28:10.20\] No? Shoot...
+**Geoff Graham:** \[28:10\] No? Shoot...
 
 **Jerod Santo:** Miriam.
 
@@ -782,7 +782,7 @@ Alright... Sarah, your turn.
 
 **Jerod Santo:** \[fail alert\] No, sorry. The framework is Bulma.
 
-**Chris Coyier:** \[00:32:06.20\] Oh...
+**Chris Coyier:** \[32:06\] Oh...
 
 **Miriam Suzanne:** Oh, okay...
 
@@ -908,7 +908,7 @@ Alright... Sarah, your turn.
 
 **Jerod Santo:** 'this' in the browser's global scope refers to 'window', but in Node it refers to...
 
-**Geoff Graham:** \[00:36:03.27\] What is the document?
+**Geoff Graham:** \[36:03\] What is the document?
 
 **Jerod Santo:** Hm... \[laughter\]
 
@@ -980,7 +980,7 @@ Alright... Which leaves Miriam with Oh Node You Didn't! for 800. Here we go!
 
 **Jerod Santo:** So let's go ahead and do that, and then we'll start round three right after this.
 
-**Break:** \[00:38:30.26\]
+**Break:** \[38:30\]
 
 **Jerod Santo:** Alright, we are back for Final Trouble. This is our very last question... A little bit different than the other rounds. Instead of taking turns, everybody is going to wager some points based on the category given. Then we'll show the question. Whoever ends up with the most points at the end is our actual CSS trickster winner.
 
@@ -1044,7 +1044,7 @@ The category is CSS \*emoji handshake\* R&B. So there's your category. Contestan
 
 **Jerod Santo:** That's JS Party for this week. Thanks everybody for playing along, and we'll talk to you next time.
 
-**Outro:** \[00:44:33.20\]
+**Outro:** \[44:33\]
 
 **Jerod Santo:** Gotta go back and strike that JPEG XL one from the record... \[laughter\] Is that a thing? I don't know...
 

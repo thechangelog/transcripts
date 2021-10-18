@@ -16,7 +16,7 @@
 
 There were 20,000(ish) respondents, of which something on the order of 7,000 answered that question, of how did they hear about it; the rest it's either Other or Unknown, which we don't actually know which one is which... And then kind of broke it down - their biggest sources were email and Twitter, followed by Reddit, and various other things.
 
-\[00:04:07.16\] He did some additional digging, looking at referrer data, which doesn't tell you how they first heard of it, but how they got to the survey, and various other things. So kind of really trying to address some of that transparency question of like "How did they reach folks? What does the sample look like?"
+\[04:07\] He did some additional digging, looking at referrer data, which doesn't tell you how they first heard of it, but how they got to the survey, and various other things. So kind of really trying to address some of that transparency question of like "How did they reach folks? What does the sample look like?"
 
 I think we can discuss what that data ended up looking like, and how representative we think it actually is, but I think it's a really positive step towards transparency. He highlighted in the end of his post, and he said they're trying to get closer and closer to the truth of the JavaScript ecosystem, and their approach or their goal, the thing they think is the best way to do that is to keep trying to grow the number of people taking the survey, so they could just get a large enough response that they're gonna be representative. Is that a reasonable summary?
 
@@ -44,7 +44,7 @@ I think we can discuss what that data ended up looking like, and how representat
 
 **Kevin Ball:** That would be. And in fact, when I was talking to folks in the channel about this feedback, somebody said "Hey, this is good, but what I'd really like to do is dig into the data myself and say, okay, for example, you say all these folks came in via email... Can we get a perspective of--" And I think Sascha said in there that the email list is mostly folks who took the survey in the past, so that doesn't actually tell us anything about what niche of the ecosystem they're from, just that they happened to see this in the past... But maybe if we could dig into the data, we could actually do our own correlations, to say "Hey, all these email people said that they used React" or "All these email people said they used Angular", or what have you. Maybe that would let us get a little bit better sense.
 
-**Nick Nisi:** \[00:08:16.21\] Do you think that that level of openness could skew or create unrealistic perspectives, potentially?
+**Nick Nisi:** \[08:16\] Do you think that that level of openness could skew or create unrealistic perspectives, potentially?
 
 **Christopher Hiller:** How do you mean?
 
@@ -70,7 +70,7 @@ But of the folks who responded to that question of how they first heard of it, t
 
 **Christopher Hiller:** I guess I don't have any reason necessarily to distress the analysis of this, so while I think the raw data would be great, I think the bigger question to me -- and I remember back... So there was an episode of the Changelog from - and I just looked it up - Friday, June 2nd, 2017; they had Frannie Zlotnick and Nadia and Mikeal on there, and they were talking about the GitHub open source survey of 2017... And a great portion of this discussion talked about how they really agonized not so much over the questions or the dataset that came back, but how they reach out to people to take the survey. That was the big concern, especially as Frannie put it... Because depending on who you ask and how you ask them, it's going to skew your results one way or the other.
 
-\[00:12:30.21\] You kind of have to start with answering those questions, "Okay, this is how we chose where to promote our survey, this is who we emailed, this is what we did to get people", not necessarily how the people -- I mean, it's part of the question, but not necessarily how the people wound up with the survey, but what did you do as the survey author to get the survey into the hands of respondents?
+\[12:30\] You kind of have to start with answering those questions, "Okay, this is how we chose where to promote our survey, this is who we emailed, this is what we did to get people", not necessarily how the people -- I mean, it's part of the question, but not necessarily how the people wound up with the survey, but what did you do as the survey author to get the survey into the hands of respondents?
 
 I would really encourage anybody who's interested in surveys, just trying to gather data like this, like the State of JavaScript - anybody who's involved in that, check out this particular episode on the Changelog. It's episode \#252. It's really interesting, about some of the thoughts and planning that go into a survey like this, that the scientists at GitHub had to go through.
 
@@ -92,7 +92,7 @@ Yeah, absolutely, partnering with sites that people go to, sure. GitHub, npm, St
 
 **Nick Nisi:** JS Party, 2019. You heard it here first. Yeah, that is something that I do personally; I'll look at the specific results that I care about from this survey, and from the npm survey, and from GitHub. I'm really interested in what TypeScript is doing, and seeing the trends with that, and being able to just, in a non-scientific way, put that together on my own, and kind of see "Oh yeah, all of them are kind of saying that TypeScript is huge right now", so it makes me believe it a lot more.
 
-**Break:** \[00:16:25.02\]
+**Break:** \[16:25\]
 
 **Nick Nisi:** So we were talking about the survey in the previous segment, and just to close that out, I just want to say that I do appreciate the work, and I think that we all share the sentiment - we appreciate the work that Sascha and his team are doing, and I look forward to taking it next year and seeing the results going forward.
 
@@ -112,7 +112,7 @@ I think in the short-term that makes our lives easier, and there's all these gre
 
 **Kevin Ball:** How big of a gap do you say there is between WebKit and Chromium? Aren't they basically the same thing?
 
-**Nick Nisi:** \[00:20:12.19\] That's a good question, and I wanted to talk about that a little bit. Internet Explorer has its own codebase, and they had their -- I don't remember what their original JavaScript engine was called, but now it's ChakraCore... Mozilla has its -- is it Chaos Monkey? Not Chaos Monkey... Something-Monkey engine, and then there was Safari, and Safari was built on WebKit... And then Chrome came around, and it was originally built on WebKit as well, but then they were trying to add to many features that the WebKit team or the Safari team I guess wasn't interested in, so they had to end up forking that instead of just adding a ton of Chrome-specific flags... So they forked that and created Blink, and Blink is what Chrome is built on now -- and Chromium, for that matter... And then Opera dropped their engine and went with Blink, so they're a Blink-based browser. Brave is a Blink-based browser, and now going forward Edge will be a Blink-based browser.
+**Nick Nisi:** \[20:12\] That's a good question, and I wanted to talk about that a little bit. Internet Explorer has its own codebase, and they had their -- I don't remember what their original JavaScript engine was called, but now it's ChakraCore... Mozilla has its -- is it Chaos Monkey? Not Chaos Monkey... Something-Monkey engine, and then there was Safari, and Safari was built on WebKit... And then Chrome came around, and it was originally built on WebKit as well, but then they were trying to add to many features that the WebKit team or the Safari team I guess wasn't interested in, so they had to end up forking that instead of just adding a ton of Chrome-specific flags... So they forked that and created Blink, and Blink is what Chrome is built on now -- and Chromium, for that matter... And then Opera dropped their engine and went with Blink, so they're a Blink-based browser. Brave is a Blink-based browser, and now going forward Edge will be a Blink-based browser.
 
 **Kevin Ball:** Just to make sure then - Blink is the rendering engine? Because in a browser you've got a rendering engine, which deals with "How do I take this HTML and this CSS stuff?" and then you have a JavaScript engine, which interacts with that but is not the same thing. Chrome is Blink and V8. Is WebKit using a different JavaScript engine, or is it also using V8? It looks like it was originally the KDE JavaScript engine, I'm looking now...
 
@@ -138,7 +138,7 @@ Chrome has the identity stuff, and various other pieces. Brave has all these int
 
 **Nick Nisi:** That's my understanding as well, at least.
 
-**Kevin Ball:** \[00:23:52.26\] And it gets to some interesting question... In my mind, browsers are increasingly almost an operating system. And especially as you start adding things like WebAssembly, and stuff. This is the new application environment for the web. If you actually map that metaphor over into real operating systems -- we have right now kind of three big actual operating systems out there. There's Linux and its whole side of things, Windows and its whole side of things, and then there's the BSD macOS side of things... And then there's a bunch of micro-operating systems that never got any traction.
+**Kevin Ball:** \[23:52\] And it gets to some interesting question... In my mind, browsers are increasingly almost an operating system. And especially as you start adding things like WebAssembly, and stuff. This is the new application environment for the web. If you actually map that metaphor over into real operating systems -- we have right now kind of three big actual operating systems out there. There's Linux and its whole side of things, Windows and its whole side of things, and then there's the BSD macOS side of things... And then there's a bunch of micro-operating systems that never got any traction.
 
 Here we have a scenario where there's been three big, possibly four -- the WebKit Blink thing is interesting, because that's... I mean, maybe that's the equivalent of Linux and BSD, I don't know. But you had three big(ish) between Firefox, Edge and its whole history, and Chromium-based stuff, Chromium/WebKit. Maybe four, if we call WebKit different, and now we're just dropping one; we're getting rid of it, it's going away.
 
@@ -162,7 +162,7 @@ And then we have Firefox, that is their own thing, with SpiderMonkey and their G
 
 If we think about some of the contributions that the browser team at Microsoft \[unintelligible 00:27:38.16\] CSS Grid was initially implemented in IE. That proved out as a concept and initial implementation in a non-Chromium browser, and it's a phenomenal leap forward for the web. Would that have happened if they hadn't been doing their own independent browser innovation? I'm not clear.
 
-**Nick Nisi:** \[00:28:01.25\] Yeah, that's a really good point, and a concern going forward... Because there will be potentially less innovation coming from these two combined companies, or their combined word. So it'll be interesting. But they could also be pushing things that are very specific to them. Or we run into another issue where Microsoft wants to do something, but Google doesn't want to do that, and then they end up adding more and more flags, if I understand the story correctly, about the WebKit Blink split... Maybe they go for a while, and then it splits off into two different things. Again, that's also a possibility.
+**Nick Nisi:** \[28:01\] Yeah, that's a really good point, and a concern going forward... Because there will be potentially less innovation coming from these two combined companies, or their combined word. So it'll be interesting. But they could also be pushing things that are very specific to them. Or we run into another issue where Microsoft wants to do something, but Google doesn't want to do that, and then they end up adding more and more flags, if I understand the story correctly, about the WebKit Blink split... Maybe they go for a while, and then it splits off into two different things. Again, that's also a possibility.
 
 **Kevin Ball:** It is, though it'll be two different things that, once again, have more of a shared history, which... I don't know. I mean, another way that we could think about this - and it's something that's sort of been mulling in my head - is in terms of where the layers of innovation are. Maybe the browser stack is getting close to mature, and especially -- I think we're on a train right now to get WebAssembly working well on the web. Once that is in place, maybe that's not the place where we're doing the innovation. Maybe it's at higher levels, and having just one thing that you're working on can actually enable a lot of innovation at the higher levels of it, at the level of application development, things like that. I don't know.
 
@@ -174,7 +174,7 @@ I'm wondering if -- I don't know the fate if the F12 Developer Tools, but I'm as
 
 **Kevin Ball:** I also just have concerns about the level of concentration of power at Google. Frankly, they own too much, and I feel conflicted about this, because unlike Facebook, which I also have concerns about... Facebook - I could leave their product behind and not be bothered. Google - I love a lot of the stuff they're doing. Search is amazing, Gmail is amazing, they've got the best calendaring options... They're doing great, great stuff, but they also have just a ridiculous level of control of the web. They suck up over half of the web's advertising dollars, they have massive browser market share, they have massive email market share, they have massive market share along all these different dimensions, all in one company that has basically shown that their business model is to get the best possible model of who you are as a person, so they can show you the best ads. That's terrifying.
 
-**Nick Nisi:** \[00:32:12.19\] Yeah, definitely. They have the biggest mobile market share too, because Android is huge, and then Blink is the most popular mobile browser, because every one of them but Safari is built on it. Yeah, it is terrifying to think about how much weight Google has in all of this, in the technology that we use every day.
+**Nick Nisi:** \[32:12\] Yeah, definitely. They have the biggest mobile market share too, because Android is huge, and then Blink is the most popular mobile browser, because every one of them but Safari is built on it. Yeah, it is terrifying to think about how much weight Google has in all of this, in the technology that we use every day.
 
 **Kevin Ball:** Yeah. I live in the Bay Area, and I know a number of people who work at Google, and they all are trying to do the right thing, but we also know that power corrupts, and the more power that is concentrated in a single place, the more likely it is to cause problems... And you see, they've had little missteps, for example the whole -- if you log in with Gmail on Chrome for a while, it would automatically log in Chrome with that user, so you are getting tracked your login experience across every tab you had in Chrome. And there was big backlash, so they backed off of that. But how many things -- are there decision being made that aren't as public, that aren't as visible, that are all leaking away our privacy, and things like that, going to Google's benefit? There's too much power there, and this I think is just another step in that direction.
 
@@ -186,7 +186,7 @@ Right now, Mozilla gets to make all the decisions for Firefox, and they also do 
 
 **Christopher Hiller:** These companies - Apple, Google, Mozilla, Microsoft - control essentially the specification for the web. They're the members of the WHATWG, so one could look at this and say "Alright, well, if they are coming to agreement on standards, and have fought back against W3C's EME DRM (which they have) what does that mean? Does that suggest that these companies can work together in a way that is beneficial for the open web? I mean, I guess I'm not convinced it's all doom and gloom necessarily. I feel like of those four companies, the only one that really has this incentive to invade your privacy is Google. Apple, Mozilla, Microsoft are not advertising companies. So maybe that balances things out...
 
-\[00:35:46.03\] I guess it's difficult to say what would happen if everybody coalesced around the same basic web browsing engine. It would certainly be cool for developers, who would have a lot more confidence in the environment that they deploy their code to... But other than that, I don't know. In a perfect world I would love a non-profit entity, an entity that is concerned with users' privacy to have more of a stake. But it's kind of all about the resources, and who can throw developers at the problem, and so far that's been a lot of Google.
+\[35:46\] I guess it's difficult to say what would happen if everybody coalesced around the same basic web browsing engine. It would certainly be cool for developers, who would have a lot more confidence in the environment that they deploy their code to... But other than that, I don't know. In a perfect world I would love a non-profit entity, an entity that is concerned with users' privacy to have more of a stake. But it's kind of all about the resources, and who can throw developers at the problem, and so far that's been a lot of Google.
 
 **Nick Nisi:** Yeah. And I think you hit on it correctly - once this takes over, and once the old Edge and Internet Explorer die, in the short-term that will probably be a better experience for users and developers, because most likely they'll be aligned on things. Things will get easier for us, because it's -- things will just work a lot better, and have more consistency between everything. But as things go forward and decisions have to be made and disagreements are had, that's where things are gonna start falling apart, because Google has way too much control over this.
 
@@ -204,11 +204,11 @@ Mozilla makes their money based on search as well, right? They have a search dea
 
 **Christopher Hiller:** I think this is fair to mention that... Back when IE was king, that was proprietary software, and Chromium is not. I think that will make a significant difference in how this plays out. I guess I'm not entirely convinced that it's all doom and gloom... Obviously, Mozilla has it in their interest to say so, but it is not the same thing that happened in the past, in my opinion anyway.
 
-**Nick Nisi:** \[00:40:00.03\] That is a good point - things weren't open source in the past, so there was no control or no insight or oversight into anything. There will be more oversight, and I think a possible consequence of that is they just fork and go their own ways if things ever get too crazy... But hopefully, going forward they will all coalesce around being built on fully open source technologies that we can see into and contribute back to, and understand what they're doing.
+**Nick Nisi:** \[40:00\] That is a good point - things weren't open source in the past, so there was no control or no insight or oversight into anything. There will be more oversight, and I think a possible consequence of that is they just fork and go their own ways if things ever get too crazy... But hopefully, going forward they will all coalesce around being built on fully open source technologies that we can see into and contribute back to, and understand what they're doing.
 
 **Christopher Hiller:** That being said, one of the major problems was not just that it was proprietary, it shipped with the OS. Microsoft EDGE ships with the OS, so... Yeah. Maybe I'd have more concern about Microsoft's role, but again, they've kind of turned things around. I'm just not convinced it's gonna be the end of the open web, and everything is gonna go to crap.
 
-**Break:** \[00:41:06.08\]
+**Break:** \[41:06\]
 
 **Nick Nisi:** For this final segment, we thought we'd talk about -- since this is the last recorded episode of JS Party for the year, we'd look back on what were some of the big highlights of JS and the ecosystem in 2018. BoneSkull, do you want to maybe start off? Do you have a big highlight of the year?
 
@@ -242,7 +242,7 @@ Mozilla makes their money based on search as well, right? They have a search dea
 
 **Christopher Hiller:** I mean... You know... \[laughter\]
 
-**Kevin Ball:** \[00:44:05.15\] God reaction, good reaction.
+**Kevin Ball:** \[44:05\] God reaction, good reaction.
 
 **Christopher Hiller:** The big players, the ones with the most market share - it seems like the ones that were big in 2018 were also big in 2017. It's nice that there's not this incredible new framework that everybody says "Oh, wow, I need to trash all my code and convert to this new thing!"
 
@@ -276,7 +276,7 @@ Yeah, it feels like where there was once a lot of fatigue, there's sort of been 
 
 They were raising what are essentially design-level questions, of saying like "How should we be approaching this in a way that can facilitate accessibility?" and the team was not even listening to those, and essentially trying to bug-fix their way to accessibility.
 
-**Nick Nisi:** \[00:47:50.25\] That's disappointing that their priorities weren't there from the start, but hopefully it does improve. I have to say that I think that a big winner in terms of the web and open source for 2018 really has to be Microsoft at this point, because they had a lot of big news. We talked about TypeScript, that is growing in popularity, but they also bought GitHub this year, and that's big news there. That's a big investment into open source and the open source ecosystem.
+**Nick Nisi:** \[47:50\] That's disappointing that their priorities weren't there from the start, but hopefully it does improve. I have to say that I think that a big winner in terms of the web and open source for 2018 really has to be Microsoft at this point, because they had a lot of big news. We talked about TypeScript, that is growing in popularity, but they also bought GitHub this year, and that's big news there. That's a big investment into open source and the open source ecosystem.
 
 They're rebuilding their browser in Chromium - that can count as 2018 news, even though we just talked about it in the last segment, and... There was one other thing. Oh, Visual Studio Code is just exploding in popularity. A large majority of web developers are using Microsoft technologies every day, or most things, which is pretty crazy.
 
@@ -314,7 +314,7 @@ They're rebuilding their browser in Chromium - that can count as 2018 news, even
 
 **Kevin Ball:** One other big thing that I think really hit its stride this year is GraphQL. It's starting to be very much a thing. In fact, I was looking back at all the episodes we did - we talked about JS Party restarting... The most popular episode to date of our new round has been the episode on GraphQL.
 
-**Nick Nisi:** \[00:52:13.12\] Have either of you used it?
+**Nick Nisi:** \[52:13\] Have either of you used it?
 
 **Kevin Ball:** No, are you kidding? \[laughter\]
 
@@ -338,7 +338,7 @@ I do think GraphQL had some really interesting things, both in terms of the ease
 
 **Nick Nisi:** I think more and more things will be written in TypeScript. I'm also really excited to see what comes out of the Deno project, and see if that gets any traction. Deno, in case you don't remember, is a Node-like environment built on TypeScript, but without a lot of the faults that Node has, and it's created by the original creator of Node, Ryan Dahl.
 
-**Kevin Ball:** \[00:56:08.04\] That is an interesting thing to look in. I think a lot of the trends that are going on will continue. The safest, most predictable way to predict the future is say "Well, what just happened in the past, that's probably gonna keep happening." I do think we may be hitting a place where JavaScript has a bit of a reckoning when it comes to security, and thinking about security. There's been more and more stuff in that direction, with npm introducing their audit tools, there have been a lot of discussions, some of these high-profile hacks, and things like that... But I still feel like the ecosystem right now is very fast and free, and not thinking about that that much, and I think we may be starting to hit a turning point on that. So maybe in 2019 that'll be when we all start doing security audits of our code, and managing all of our dependencies for security.
+**Kevin Ball:** \[56:08\] That is an interesting thing to look in. I think a lot of the trends that are going on will continue. The safest, most predictable way to predict the future is say "Well, what just happened in the past, that's probably gonna keep happening." I do think we may be hitting a place where JavaScript has a bit of a reckoning when it comes to security, and thinking about security. There's been more and more stuff in that direction, with npm introducing their audit tools, there have been a lot of discussions, some of these high-profile hacks, and things like that... But I still feel like the ecosystem right now is very fast and free, and not thinking about that that much, and I think we may be starting to hit a turning point on that. So maybe in 2019 that'll be when we all start doing security audits of our code, and managing all of our dependencies for security.
 
 **Nick Nisi:** I hope so. I think a big focus on that is and will be a good thing... And I think that npm is in the right place -- their minds are in the right place for enabling that.
 
@@ -364,7 +364,7 @@ I do think GraphQL had some really interesting things, both in terms of the ease
 
 I think maybe we'll see some good (or better) solutions for shipping ES modules in Node code simply from userland.
 
-**Kevin Ball:** \[00:59:58.17\] Yeah, it's surprisingly hard right now. I was trying to -- I mostly do stuff just purely for the web, and so I'm very used to using Webpack to bundle my stuff... And I was building a little Node app to just dig up some data for myself, and I was trying to do it with Webpack, and it was such a nightmare. And I'm used to using ES modules and getting everything -- I ended up changing it and just using straight Babel to compile it, not Webpack. That seems to work, transpiling my -- I think it did transpile my ES modules into requireable things... I don't remember; or maybe I had to switch to using require instead of my expected ES modules. No, I think I was able to use ES modules then, and just Babel took care of it for me.
+**Kevin Ball:** \[59:58\] Yeah, it's surprisingly hard right now. I was trying to -- I mostly do stuff just purely for the web, and so I'm very used to using Webpack to bundle my stuff... And I was building a little Node app to just dig up some data for myself, and I was trying to do it with Webpack, and it was such a nightmare. And I'm used to using ES modules and getting everything -- I ended up changing it and just using straight Babel to compile it, not Webpack. That seems to work, transpiling my -- I think it did transpile my ES modules into requireable things... I don't remember; or maybe I had to switch to using require instead of my expected ES modules. No, I think I was able to use ES modules then, and just Babel took care of it for me.
 
 **Christopher Hiller:** If all you need are the modules, check out the esm package. Basically, you just require it, like --require, or you can bootstrap it in the first script you load and it just enables... It's kind of magic, and it just kind of works, and you can use all the ES modules. There's some flags and stuff if you prefer mjs, or you want to use require AND import, and all these things. It's really quite clever and cool.
 

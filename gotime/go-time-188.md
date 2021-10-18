@@ -24,7 +24,7 @@ So more than anything, I just wanted to sort of talk with you guys and find out 
 
 So I guess to start off with - we should probably start with some background. Does anybody wanna explain what semantic import versioning is?
 
-**Tim Heckman:** \[00:04:11.15\] Peter's got the \[unintelligible 00:04:12.10\] so I guess I can jump in on that one real quick. Semantic import versioning is a way to denote the major version of a module in its import path. One of the major goals of that is to support multiple major versions in a project, generally to assist with the transition. So if you have a dependency that has done a major version bump, you have some code that depends on it, and you need to Roman-ride between those two versions for a period of time while you do the transition... Semantic import versioning was meant to be a way to provide a mechanism to denote those two separate versions, so you could use them simultaneously in a single project.
+**Tim Heckman:** \[04:11\] Peter's got the \[unintelligible 00:04:12.10\] so I guess I can jump in on that one real quick. Semantic import versioning is a way to denote the major version of a module in its import path. One of the major goals of that is to support multiple major versions in a project, generally to assist with the transition. So if you have a dependency that has done a major version bump, you have some code that depends on it, and you need to Roman-ride between those two versions for a period of time while you do the transition... Semantic import versioning was meant to be a way to provide a mechanism to denote those two separate versions, so you could use them simultaneously in a single project.
 
 **Peter Bourgon:** I have a quick question before we get into the details there... You used this phrase Roman-ride, and you're the only person I've ever heard use this in my entire life... And it's fine and it's good, but what is that?
 
@@ -68,7 +68,7 @@ I guess everyone kind of understands this at some level, but it's a big change, 
 
 **Jon Calhoun:** So to make sure that everybody listening understands, this is the big reason why when you're looking at imports, in the past you would never have a /v2 at the end of anything. But now when you're looking and you're running Go Modules, it's not uncommon to see a /v and then some number at the end of a package import, which is something that previously would not have ever been there. Well, I guess it technically could have, but...
 
-**Peter Bourgon:** \[00:08:13.21\] Unless you were using gopkg.in which will force you to do this.
+**Peter Bourgon:** \[08:13\] Unless you were using gopkg.in which will force you to do this.
 
 **Jon Calhoun:** Okay.
 
@@ -96,7 +96,7 @@ So in some ways it might be better if that was consistently used across the boar
 
 **Tim Heckman:** There's a reluctance to have it be a low barrier to make those changes and to move your software or your module further in that way.
 
-**Peter Bourgon:** \[00:12:05.09\] That's right. So if you go to semver.org and you read what the major version is, the definition of the major version, it's kind of roughly two things... It is an expression of API compatibility. If you break API compatibility, you have to bump major version. And also, it's a sort of -- they don't define the word "stability", but it is a commitment to stability. So once you get to V1, you are committing to stability. You are stable. And what Go Modules does is say "Okay, that's good... And "stable" means these specific things." And their definition of stability is extremely strict. I don't think they would disagree with that.
+**Peter Bourgon:** \[12:05\] That's right. So if you go to semver.org and you read what the major version is, the definition of the major version, it's kind of roughly two things... It is an expression of API compatibility. If you break API compatibility, you have to bump major version. And also, it's a sort of -- they don't define the word "stability", but it is a commitment to stability. So once you get to V1, you are committing to stability. You are stable. And what Go Modules does is say "Okay, that's good... And "stable" means these specific things." And their definition of stability is extremely strict. I don't think they would disagree with that.
 
 I don't wanna skip to the end of the discussion here, but stability is not an objective thing. It's not well-defined. It is dependent on many functions that are different from ecosystem to ecosystem, repo to repo, project to project... And so this is one of the many errors that Modules commits, I think, assumptions they make which aren't universally true.
 
@@ -116,7 +116,7 @@ I think with a lot of other packaging tools, that's kind of what it's trained me
 
 **Peter Bourgon:** Right, exactly. And this is like human intuition. It's not just your intuition as a programmer, but when I say "Jon. Hey, Jon." You're not a different Jon when you're 32 as you are when you're 14, right? It's the same Jon. So I don't have to say Jon 14 to refer to you in that year... And the same way when I say \[unintelligible 00:16:05.13\] I am explicitly not specifying a version. It's undefined. And when that's true, by default, I want the latest major version. Everyone knows that. But in Modules that's not what's true.
 
-**Tim Heckman:** \[00:16:22.11\] But what if you've never released a V2? You only have V1, and that's what you get. But once you get past that point, it becomes almost like a user support burden for the module author, because they need to make sure they communicate that clearly, and document it... And they may get questions about that when those folks run into those challenges. So yeah, that's an interesting burden, both for consumers and those that are publishers.
+**Tim Heckman:** \[16:22\] But what if you've never released a V2? You only have V1, and that's what you get. But once you get past that point, it becomes almost like a user support burden for the module author, because they need to make sure they communicate that clearly, and document it... And they may get questions about that when those folks run into those challenges. So yeah, that's an interesting burden, both for consumers and those that are publishers.
 
 **Jon Calhoun:** I know for me, if I'm grabbing a package, because of that, I feel like the first thing I have to do with any package is go to the actual GitHub page and look for the readme where it says "The go get command will install this", which to me is a little bit frustrating sometimes... But I will definitely say, as a consumer of libraries, if that was the worst thing that happened with Go Modules, I'd be like "Okay, I can deal with that." That's not the end of the world. But it sounds like there's other things that are sort of at play... So if you wanted to expand on that - are there other aspects of it that are by-products of the fact that it works the way it does.
 
@@ -126,7 +126,7 @@ So the cost of migrating that codebase to the new version is not linear to the a
 
 **Peter Bourgon:** A hundred percent. And this is such an obvious effect of the decision of Modules to assume that a major version bump is such a severe thing. They assume they're so rare, and furthermore, that every module is backed by a team of people who are fully committed to keeping it fresh, and up to date, and maintained etc. So when those conditions aren't true, when a module is written by one guy in his spare time, or whatever, and they can't commit to keeping the API stable, and maintaining API stability with all the CVEs they need to support, and they need to break API compatibility and they need to bump the major version frequently, Modules makes that so burdensome. There's so much toil, both for the author and for the consumer... That yes, I think I've actually decided that it is incorrect, it is unsustainable for anyone who authors a module who isn't a team of people paid to maintain that module, to use any major version except zero... Because the cost of doing so - you can't pay those costs as an individual, as a single person in an open source environment. It doesn't work out. And I'm certainly -- I just broke out the log package from go-kit to its own repo, which is long overdue. But that will always be major version zero, because I and my open source contributors cannot commit to the expectations of stability that Go Modules expects... And as you say, Tim, many people are doing this. I think it's actually the correct thing to do.
 
-**Kris Brandow:** \[00:19:58.20\] I feel like on some level part of this problem might also be caused by semver itself... Because at the end of the day we're just trying to communicate the semantics of what our code is doing. We kind of have to define what breaking changes actually mean. You can go to some extremes and say "Anything that is not additive is in some way a breaking change, so that everything really should be a major version."
+**Kris Brandow:** \[19:58\] I feel like on some level part of this problem might also be caused by semver itself... Because at the end of the day we're just trying to communicate the semantics of what our code is doing. We kind of have to define what breaking changes actually mean. You can go to some extremes and say "Anything that is not additive is in some way a breaking change, so that everything really should be a major version."
 
 **Peter Bourgon:** Even some additive things are breaking changes, actually.
 
@@ -148,7 +148,7 @@ So semver does precisely define the major version. If you break API compatibilit
 
 The problem is -- hold on... Once I answer, I have to figure out what did the Twitter poll say, which cuss word I should say... Because I wanna say it right now. Hold on... God... Twitter, Twitter, Twitter... I think it was Richard. So whatever the Richard definition of semver is, people mess it up. There's an ideal, and it's useful, but it's not perfect. And the problem is Modules assumes it's perfect. Modules assumes that when there's a different major version, when you break API compatibility - which you should never do - then you'll bump the major version... And therefore, it provides no affordances for you to deal with the inevitable situation when that's not true. It assumes that everything is perfect in that sense, and that if a module isn't perfect in that way, you should file a PR... \[laughs\] Not use that module, or whatever.
 
-\[00:24:10.24\] So that's one of the many disconnects between the assumptions of the authors and maintainers and the real world, for a lack of a better word. There's very few \[unintelligible 00:24:16.29\] the real world workflows in Modules and that's like a core thing.
+\[24:10\] So that's one of the many disconnects between the assumptions of the authors and maintainers and the real world, for a lack of a better word. There's very few \[unintelligible 00:24:16.29\] the real world workflows in Modules and that's like a core thing.
 
 You said another more practical thing at the end, which I'm now blanking on...
 
@@ -160,13 +160,13 @@ You said another more practical thing at the end, which I'm now blanking on...
 
 **Peter Bourgon:** This is great. So in the Roman-riding metaphor you have seven feet and you're on seven different versions of the same package accidentally... And when you type \[unintelligible 00:25:45.02\] "Yeah, I just picked one randomly. That's the one you meant". This is great, this is fun. I have never heared this one before.
 
-**Break**: \[00:25:52.29\]
+**Break**: \[25:52\]
 
 **Tim Heckman:** I think Kris called out something good though about that whole deprecation idea. I don't know if that works for everybody, especially in security-focused fixes, where the security team might want to look at the versions of things dependent on it and go "You know, we know these are not vulnerable because you cannot use that vulnerable code." Where if we maintain a version that is just deprecating the method or the code path that has that vulnerability, there really isn't a protection or a way to say for certain whether or not they've avoided that without doing static analysis across all of those applications that consume it... Which kind of goes back into an earlier point Peter made, which is the support that those modules have, and those things that you're consuming - do you have the capacity and capability to run rich static analysis across all the things you're doing to make sure you're not using a deprecated method or something, versus just going "I don't have that vulnerable version. I know I'm not in that camp of being at risk."
 
 So I think it does add just more cognitive overhead on the individuals to know "Am I safe? Am I doing the right thing?"
 
-\[00:28:00.08\] Even if the tooling was providing more support, it doesn't necessarily stop the human. It might provide a warning or something, but it doesn't go "Hey, wait a minute. You are using something that's insecure. You probably don't want to do that." Which I think some might push back on that. I think there are some that are okay with the deprecation method if it is right in front of you, pops up with something flashing in your face, going "Hang on, there might be something wrong here."
+\[28:00\] Even if the tooling was providing more support, it doesn't necessarily stop the human. It might provide a warning or something, but it doesn't go "Hey, wait a minute. You are using something that's insecure. You probably don't want to do that." Which I think some might push back on that. I think there are some that are okay with the deprecation method if it is right in front of you, pops up with something flashing in your face, going "Hang on, there might be something wrong here."
 
 But the other, I think, is around the hostility to people that don't use semver. There are some companies/groups that use a calendar-based released versioning system. Yeah/month/day, or patch number, or something. And because they are choosing to do that version scheme, if the tooling didn't assume SIV, it didn't require that as part of the name, I think it'd be easier for those folks, where consumers could rely on the go.mod to specify the version; they wouldn't have to update dozens of files to the new month as they're upgrading all their code...
 
@@ -204,7 +204,7 @@ So I think there are those exceptional use cases where people do choose their ow
 
 I've consulted for like -- I won't say hundreds, but at least a hundred large companies for this kind of thing, and it's not a problem... It's not a problem except to Google, and their wild ecosystem.
 
-**Jon Calhoun:** \[00:32:08.16\] Do you think it's something that pops up more often as your codebase gets bigger, or...?
+**Jon Calhoun:** \[32:08\] Do you think it's something that pops up more often as your codebase gets bigger, or...?
 
 **Peter Bourgon:** For sure.
 
@@ -226,7 +226,7 @@ I think also having a bit of, I guess, sympathy for users who are in environment
 
 **Peter Bourgon:** So you wanna semantically-version not only the module, but every function and identifier in the module. This sounds good to me... That sounds fun...
 
-**Kris Brandow:** \[00:36:04.18\] \[laughs\] Not that extreme... You know, there's some middle ground.
+**Kris Brandow:** \[36:04\] \[laughs\] Not that extreme... You know, there's some middle ground.
 
 **Peter Bourgon:** No, I get it. We have the retract directive now... Is that released?
 
@@ -248,7 +248,7 @@ I feel like of the things that have annoyed me about modules, that's one of my l
 
 **Jon Calhoun:** How many do I have? \[laughs\] I mean, I've only had one project, which I have since stopped maintaining... Sorry, one project that was actually used by a thousand people or more. And it was just me; there was one other person who jumped in and helped some, and it eventually got to the point where it was just too much to maintain everything. And you make mistakes doing it, you support things you shouldn't, and do stuff like that, but it was a lot more work than I ever would have imagined it was gonna be.
 
-**Peter Bourgon:** \[00:40:13.11\] You should hire some people probably, staff up your team...
+**Peter Bourgon:** \[40:13\] You should hire some people probably, staff up your team...
 
 **Jon Calhoun:** Are you offering to foot the bill?
 
@@ -278,7 +278,7 @@ So I think there are some opportunities, considering that we sort of have this p
 
 **Peter Bourgon:** \[unintelligible 00:43:20.05\] we're all humans on this wide, amazing journey of life, and at some point we shuffle off the \[unintelligible 00:43:27.06\] I don't wanna bring this conversation down to a sad level, but we're all gonna die, right? Okay, alright - when Russ Cox dies, what happens to rsc.io? People are still gonna be depending on that. Does his estate foot the bill for the domain? I don't know... I'm pretty confident that GitHub.com is gonna outlive me. So when I ask people to import GitHub.com/gokit, I'm pretty sure that's a better bet than peter.bourgon.org. That thing is garbage. That's gonna be gone the minute I'm gone. People don't think about this.
 
-**Kris Brandow:** \[00:44:02.03\] But I think it even pertains to that as well, because there was that (if you remember) guy who had a ton of libraries, and he decided "I'm done with GitHub", moved everything to GitLab and deleted his account... And I think it was -- maybe it was Paul Jolly, or someone went through and actually...
+**Kris Brandow:** \[44:02\] But I think it even pertains to that as well, because there was that (if you remember) guy who had a ton of libraries, and he decided "I'm done with GitHub", moved everything to GitLab and deleted his account... And I think it was -- maybe it was Paul Jolly, or someone went through and actually...
 
 **Peter Bourgon:** \[unintelligible 00:44:13.27\]
 
@@ -296,7 +296,7 @@ So I think when it comes to Modules -- and SIV is just one of the really large e
 
 So I think yeah, to Peter's point, there needs to be a better alignment on it being a socio-technical problem, where it is that interplay between the people and the system, but the people are really the big part of who we're interfacing with here. It's the social contract of those versions and the modules that are released.
 
-**Jon Calhoun:** \[00:48:12.18\] So related to that documentation thing... If somebody is coming to Modules and trying to figure it out, are there good resources that you can recommend at all at this point, or where do you recommend people start off if they're trying to figure it out?
+**Jon Calhoun:** \[48:12\] So related to that documentation thing... If somebody is coming to Modules and trying to figure it out, are there good resources that you can recommend at all at this point, or where do you recommend people start off if they're trying to figure it out?
 
 **Tim Heckman:** It depends on what it is, in this case... I think the Getting Started documentation -- if you're coming to the language, Getting Started has go.mod in it and the basics for getting at least a module created, to be able to get a Hello, World program running. I think it's a good starting point. But beyond that, a lot of what I've found is having the conversation with people, understanding what their problems are, to then sort of go "Here's the documentation that's relevant to you" or "Here's the place that you should go." Because right now it is sort of more of a long form. I think it's in the wiki. It's a long-form wiki page that you can link into, but it doesn't really run you through (I would say) the full process. It's more of like a reference manual, in some ways.
 
@@ -312,7 +312,7 @@ So a lot of it is "Here's the Getting Started thing, here is the Modules wiki" w
 
 **Peter Bourgon:** So if you're the kind of person who once you understand a concept, you go to the arxiv.org and you read the academic papers on the thing, then yes, absolutely go to the modules wiki, read it tip to tail. The vgo papers are like 1,050 pages long, and you'll get the complete theory. If you're not that kind of person I suggest you start at a liquor store, you just go there immediately, get yourself nice and sauced and then best effort, basically. There's like a handful of commands you need to know, and a handful of things you need to understand... And you can probably put those in a page. I don't know where that exists... And the problem is even understanding these things - whenever you wanna do anything that is outside of the norm of expectations of the authors, if you want to break API compatibility, like every team and every company does, about every week when a new business requirement comes in and they need to update their software, if you ask in Modules, you actually get the answer that your requirement is wrong. This is consistently the answer that I receive when I present these scenarios... So yeah, there's no good answer, I agree.
 
-**Break**: \[00:50:48.28\]
+**Break**: \[50:48\]
 
 **Kris Brandow:** I feel like on a level go.mod is a bit like Git, where there's not really a great way to learn it, because there's a lot you have to wrap your arms around, and there's a lot of nuance, and you can do a lot of really interesting things; you can solve problems, and solve them in interesting ways, but it's not user-friendly... And I think that's one of the other philosophical problems I have with Go Modules, is that -- you know, in the land of Dep, when we had Dep, I felt like the on-ramp to that was really easy. I felt like it just kind of worked. And sure, it was doing all this really complex stuff under the hood, but Go has tons of complex stuff. Garbage collections is a good example - really simple interface, but doing a ton of complex stuff under the hood. And I feel like one of the things that hopefully we can repair in the future around modules is that it exposes too much of that plumbing. It exposes too many of those low-level things that can be difficult to grok and understand unless you live and exist within the modules world.
 
@@ -322,7 +322,7 @@ So I think we've kind of put ourselves in a bind in a bit of a way because of ou
 
 **Peter Bourgon:** You touch on this really fundamental point which I keep coming back to and no one listens to me about, but I'm excited that you said it, because I'm excited to have an ally here... You mentioned that Modules kind of redefines some things that we already have an intuitive understanding of, and I completely agree. And going back to the beginning, it's like - the two things that package management systems deal in is the dimension of identity and the dimension of time. A module and its version - identity and time. And what Go Modules does is it says "Well, actually, a segment of that versioned vector space is actually in the identity vector space." This is wrong. Humans don't think this way. And I understand the advantages of making that change; it makes tooling a lot easier. It makes it possible to Roman-ride between seven chariots as you're (I don't know) appeasing Julius Caesar in building your incredibly complex application in a pathologically broken software ecosystem i.e. Google's monorepo. It's important in that context, but so few people have that context. Nobody outside Google understands things in that way. And when we talk about the language - the language makes a lot of normative assertions like this. "Error handling is done in one way, and if you want exceptions - well, you're wrong. Sorry, get out of here." That's fine, that's fine, because anyone who's considering using Go and doesn't like that can use a different language. They have the option.
 
-\[00:56:25.18\] But if you're using Go, and you look at the package management system and you see stability means something way stricter than you think it means, you don't have the option of using a different package management system. You have to use this one. So it has a monopoly on this space, and therefore it doesn't get to make the same sort of normative assertions about how you should be doing things as the language does about how you should be programming. And this is so key. They don't have the same budget to be doing this sort of thing, and they don't understand this. It's a people problem that they're overstepping their bounds. This is my position. No one agrees with me, and that's fine.
+\[56:25\] But if you're using Go, and you look at the package management system and you see stability means something way stricter than you think it means, you don't have the option of using a different package management system. You have to use this one. So it has a monopoly on this space, and therefore it doesn't get to make the same sort of normative assertions about how you should be doing things as the language does about how you should be programming. And this is so key. They don't have the same budget to be doing this sort of thing, and they don't understand this. It's a people problem that they're overstepping their bounds. This is my position. No one agrees with me, and that's fine.
 
 **Jon Calhoun:** I can imagine some people making the argument that it's almost like if you don't like the package management system it's kind of like if you don't like the lack of exceptions - you just don't use Go. But the real hard part there is that there's a huge chunk of people who have been using Go, and at this point it's being introduced newly to them; it's not like they were making the decision of "Do I use Go or do I use some other language?" At this point they're in Go, they can't change that.
 

@@ -48,7 +48,7 @@ There are three rounds. Round one is Trouble, round two is Double Trouble, and t
 
 **Emma Bostian:** We can get rid of that rule for this if you would like...
 
-**Jerod Santo:** \[00:04:04.29\] Yes, we will not dock you technically. We will probably correct you out of habit, we will not dock you. So yes, the clues are given in phrase form, and the answers are in question format. So if it's a person, you say "Who is...", if it's a thing, "What is..." So you just prefix your answer with those prefixes to make it question-sounding... But we're not gonna hold it against you.
+**Jerod Santo:** \[04:04\] Yes, we will not dock you technically. We will probably correct you out of habit, we will not dock you. So yes, the clues are given in phrase form, and the answers are in question format. So if it's a person, you say "Who is...", if it's a thing, "What is..." So you just prefix your answer with those prefixes to make it question-sounding... But we're not gonna hold it against you.
 
 Here's how it works in terms of the game here. It's a little bit different than the typically Jeopardy where you buzz in, because of latency and internet and timing. So we go person by person. Emma is first. Emma will pick a category and a point value. I will then present that question just for her, so she has an opportunity to answer that in the form of a question. If she misses it, there's a chance to steal. We'll go in order - Divya will have a chance to steal; she can pass, or she can try to steal. If she tries to steal and gets it wrong, she also gets a negative on that question. If she steals it, she gets the points and it ends. If Divya passes or gets it wrong, Suz gets a chance to steal. Same rules apply to her, and then the next round begins. Any questions?
 
@@ -120,7 +120,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** You're either gonna get this right or totally hate yourself.
 
-**Emma Bostian:** \[00:08:01.29\] Yeah.
+**Emma Bostian:** \[08:01\] Yeah.
 
 **Divya:** I mean -- it's not Vue...
 
@@ -228,7 +228,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Suz Hinton:** Represents text which is highlighted for reference or notation purposes. Um... I'm just gonna go for it and not waste time... What is quote?
 
-**Jerod Santo:** \[00:12:04.26\] \[fail sound\] Incorrect. Sorry. Emma for the steal?
+**Jerod Santo:** \[12:04\] \[fail sound\] Incorrect. Sorry. Emma for the steal?
 
 **Emma Bostian:** I'm not stealing this time.
 
@@ -344,7 +344,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Suz Hinton:** Can I get Name That Stack for 300, please?
 
-**Jerod Santo:** \[00:15:58.27\] Name That Stack for 300. A majestic four-footed beast, or a tech stack centered around a popular search solution.
+**Jerod Santo:** \[15:58\] Name That Stack for 300. A majestic four-footed beast, or a tech stack centered around a popular search solution.
 
 **Suz Hinton:** What...? Okay, a majestic four-footed beast, or a tech stack centered around a popular search solution. A majestic four-footed beast... I'm gonna hate myself if I find out what this is... A majestic four-footed beast... Which could be anything -- because I think all four-footed beasts are majestic \[laughter\] Or a tech stack centered around a popular search solution.
 
@@ -458,7 +458,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Suz Hinton:** Can I do Turns Out JS for 400, please?
 
-**Jerod Santo:** \[00:20:03.29\] This controversial language aimed to expose the good parts of JS, with a cleaner syntax. Some of its ideas inspired JavaScript features.
+**Jerod Santo:** \[20:03\] This controversial language aimed to expose the good parts of JS, with a cleaner syntax. Some of its ideas inspired JavaScript features.
 
 **Suz Hinton:** Controversial language...
 
@@ -604,7 +604,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** Fair enough, fair enough. The hardest part with these boards is actually figuring out what are hard ones or easy. Okay, Suz. Your turn.
 
-**Suz Hinton:** \[00:24:00.29\] Can I get Internet of T for 300? Let's just be a little bit moderate...
+**Suz Hinton:** \[24:00\] Can I get Internet of T for 300? Let's just be a little bit moderate...
 
 **Jerod Santo:** Okay. Everything here begins with T. An object's sometimes elusive self-reference.
 
@@ -758,7 +758,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** \[fail sound\]
 
-**Suz Hinton:** \[00:28:11.27\] Yeah. It's a tool, not a stack.
+**Suz Hinton:** \[28:11\] Yeah. It's a tool, not a stack.
 
 **Jerod Santo:** Suz misses. Emma can steal.
 
@@ -876,7 +876,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** I feel very attacked for my board here.
 
-**Suz Hinton:** \[00:32:00.28\] This is a 500 question, seriously?
+**Suz Hinton:** \[32:00\] This is a 500 question, seriously?
 
 **Divya:** I know, ridiculous...
 
@@ -916,7 +916,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** Don't delay, we have twice as much trouble right around the corner. Stay tuned for round two, coming up next.
 
-**Break:** \[00:33:33.01\]
+**Break:** \[33:33\]
 
 **Jerod Santo:** We are back for round two of JS Danger, HalfStack Edition. It's Double Trouble, that means all points are doubled. Our categories for this round are Obscure Web APIs, Document.title - this is where the clue is the title element of popular websites, and you must name the website. Category three is Node Drama (hopefully no drama in that category), category four is CSS Select Star (these are all selectors), and the last category, Talk Protocol To Me (popular internet protocols). Suz, the board is yours. Where would you like to start?
 
@@ -954,7 +954,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Emma Bostian:** Is it one?
 
-**Jerod Santo:** \[00:36:02.11\] Divya for the steal?
+**Jerod Santo:** \[36:02\] Divya for the steal?
 
 **Divya:** Select active links... Is it like a `focus`, or something?
 
@@ -1070,7 +1070,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Divya:** You can put it.
 
-**Emma Bostian:** \[00:39:58.03\] You can put quotations.
+**Emma Bostian:** \[39:58\] You can put quotations.
 
 **Jerod Santo:** Okay. I thought that might work, which was why I gave it to you. I just wasn't sure.
 
@@ -1228,7 +1228,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** Oh, shoot.
 
-**Emma Bostian:** \[00:43:59.13\] Just saying. Because you went from Suz to Divya.
+**Emma Bostian:** \[43:59\] Just saying. Because you went from Suz to Divya.
 
 **Divya:** Oh, no...! Okay, so after me...
 
@@ -1388,7 +1388,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Divya:** I'll pass.
 
-**Jerod Santo:** \[00:47:56.25\] Okay. Suz, would you like to steal?
+**Jerod Santo:** \[47:56\] Okay. Suz, would you like to steal?
 
 **Suz Hinton:** I do, but I'll pass, because I'm not 100% confident.
 
@@ -1496,7 +1496,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** This API gives you visibility into tasks that take 15 milliseconds or more.
 
-**Divya:** \[00:52:02.08\] It's at the tip of my tongue... Performance thingy... I'm not gonna get -- oh, God... I know it, because I've used it...
+**Divya:** \[52:02\] It's at the tip of my tongue... Performance thingy... I'm not gonna get -- oh, God... I know it, because I've used it...
 
 **Jerod Santo:** We'll need an answer soon.
 
@@ -1608,7 +1608,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** Well, we'll just leave you alone, just leave it?
 
-**Divya:** \[00:55:55.07\] Yeah, it's fine.
+**Divya:** \[55:55\] Yeah, it's fine.
 
 **Jerod Santo:** Okay.
 
@@ -1668,7 +1668,7 @@ Here's how it works in terms of the game here. It's a little bit different than 
 
 **Jerod Santo:** And if not, listeners, you can correct us later. Suz, your turn...
 
-**Jingle:** \[00:57:19.19\]
+**Jingle:** \[57:19\]
 
 **Jerod Santo:** Hey, Jerod here. As much as I hate to admit it, Emma was right and I was dead wrong on this one. Js.org was created by Stefan Keim, who dedicated it to JavaScript and its awesome community in 2015. Its purpose is to provide short and sleek subdomains for your GitHub Pages site, and it's completely free thanks to Stefan, Cloudflare, and many other contributors.
 

@@ -22,7 +22,7 @@
 
 **Mireille B. Reece, Psy.D:** ...when in fact this is just choice.
 
-**Adam Stacoviak:** \[00:03:57.25\] And then from choice comes change, and change is constant...
+**Adam Stacoviak:** \[03:57\] And then from choice comes change, and change is constant...
 
 **Mireille B. Reece, Psy.D:** Right...
 
@@ -56,7 +56,7 @@ This metaphor though is pretty interesting, because you feel locked in, you feel
 
 **Mireille B. Reece, Psy.D:** Right. Yeah, exactly. It's interesting how working with people, just little nuances and words can make such a difference... And I love it when people get this awareness of the concept of time, and recognizing "Well, maybe I can't make that change yet."
 
-**Adam Stacoviak:** \[00:08:17.12\] Yeah.
+**Adam Stacoviak:** \[08:17\] Yeah.
 
 **Mireille B. Reece, Psy.D:** Not yet.
 
@@ -98,7 +98,7 @@ I'm so glad you bring this up, because constraints aren't all bad. They just are
 
 **Adam Stacoviak:** So if someone shoved you into the boxing ring, you might be quite more upset that you got punched in the face... However, if it was your choice to get it, you'd be like "Well, par for the course. This is what happens when you get in the boxing ring on your own accord and fight somebody."
 
-**Mireille B. Reece, Psy.D:** \[00:12:02.15\] Right, right. So this is one of the things I wanna highlight when we're trying to change... Awareness is a key factor in changing... So if I don't hold an awareness of myself or the choices that are available to me, and the emotions that are involved, I'm already sort of starting way too far back, and really ill-equipped to make effective choices that take me in the direction I wanna go.
+**Mireille B. Reece, Psy.D:** \[12:02\] Right, right. So this is one of the things I wanna highlight when we're trying to change... Awareness is a key factor in changing... So if I don't hold an awareness of myself or the choices that are available to me, and the emotions that are involved, I'm already sort of starting way too far back, and really ill-equipped to make effective choices that take me in the direction I wanna go.
 
 **Adam Stacoviak:** Yeah. This lesson you shared before on frontloading I've actually used quite a lot in these scenarios... Dealing with change and making better choices. Whenever I feel like I have some pushback to change or choice, I'm like, "Well, what is causing that and how could I pre-plan or front-load to make the choice smoother when I get to the choice factor?" And one example of it - and this seems so silly that this is the example, but... It's my son's lunch for school. If we prepare the lunch prior to, so the night before, the morning of going to school is so much more smooth... Because we've frontloaded everything. We've pre-planned, we chose to put this kid in school, we chose to drive him to school, I chose to take him that day -- whatever, all the choices involved, I'm just trying to emphasize...
 
@@ -110,7 +110,7 @@ This is the thing that's so huge when we talk about choices, especially as it re
 
 **Adam Stacoviak:** Yeah. What I find even more profound is that \[unintelligible 00:15:41.26\] example could be the factor of an amazing day... So we just talked about earlier, I could be more positive that day... So this morning routine could lead to a more positive day, or it could lead to a more negative day, and we just talked through what might happen if I was negative or positive... So all of these (as you said) dominoes, this trickle effect - it really stacks up to this idea that our super-power is our choice, right? And that the choice I make today impacts the choices I make this week, this month, this year, and the next thing you know, it can really change your life dramatically. One small choice, one small frontloading, one small optimization could really change the course of a lot.
 
-**Mireille B. Reece, Psy.D:** \[00:16:25.07\] Right, and that's why we're talking about this... Because I really want people to understand how much opportunity is out there in their lives. If something isn't working, there are opportunities to change it, but you have to look at the choices that are available to you and go "In what small way could I make a different?"
+**Mireille B. Reece, Psy.D:** \[16:25\] Right, and that's why we're talking about this... Because I really want people to understand how much opportunity is out there in their lives. If something isn't working, there are opportunities to change it, but you have to look at the choices that are available to you and go "In what small way could I make a different?"
 
 I'm not sure if I've shared this before, but I think about it with people who are trying to make changes with eating habits... Some of the things I recommend in the course of treatment is "Can you just not go through the drive-through? Anytime -- I don't care if you wanna eat fast-food or not, but I just want you to walk in."
 
@@ -146,7 +146,7 @@ I can't talk about awareness without talking about how our brain works... And I 
 
 **Adam Stacoviak:** I've got nothing. I'm toast.
 
-**Mireille B. Reece, Psy.D:** \[00:19:58.25\] Yeah. Right.
+**Mireille B. Reece, Psy.D:** \[19:58\] Yeah. Right.
 
 **Adam Stacoviak:** Because your brain is literally on fire.
 
@@ -192,7 +192,7 @@ Even in the workplace - sometimes you might have an exchange with someone and yo
 
 **Adam Stacoviak:** That's how depressed you are. You're not even sure if you're depressed.
 
-**Mireille B. Reece, Psy.D:** \[00:23:53.23\] Right. And so if they don't have the awareness of themselves or how they've been trained... Like, I work with people for some time, and they'll sort of comment like "Gosh, I wish I knew this" or "I wish I would have come to therapy before I made X, Y or Z major decision", because they just didn't know all of what was beneath the iceberg in themselves.
+**Mireille B. Reece, Psy.D:** \[23:53\] Right. And so if they don't have the awareness of themselves or how they've been trained... Like, I work with people for some time, and they'll sort of comment like "Gosh, I wish I knew this" or "I wish I would have come to therapy before I made X, Y or Z major decision", because they just didn't know all of what was beneath the iceberg in themselves.
 
 **Adam Stacoviak:** Some would say sometimes that's a good thing... You can dig into the past, and the past gets you, so to speak... This aspect of like what you don't know is better off, to some degree... And then - yeah, that could be it. A slippery slope where you just start to dig into things that -- you know, this aspect of identity.
 
@@ -214,7 +214,7 @@ So I'm saying that having an awareness of ourselves, or going "Look, I trained, 
 
 I'm forgetting the story I read about some entrepreneur who went to Stanford, and was in her master's program, and I think she had a very successful family - doctors, attorneys, or scientists, whatever - but she called up her parents, because she's like "I'm gonna quit." I'm at Stanford, like "Hoo-rah! Here's this great Ivy League school", and I'm not gonna keep going... Because she realized it didn't fit for her anymore in that way. Some people would say "No, no, no, you can't do that. Look at what you did! You got in, you've gotta finish!"
 
-**Adam Stacoviak:** \[00:28:12.12\] Right...
+**Adam Stacoviak:** \[28:12\] Right...
 
 **Mireille B. Reece, Psy.D:** So then changing and going "Look, you're not a failure if you don't finish something you thought you wanted."
 
@@ -250,7 +250,7 @@ So to some degree, I'm saying we have to look at what's underneath the iceberg t
 
 I can talk about this in the context of therapy and going, a lot of people when we talk through contributing factors to why they are where they are, most people don't wanna blame their parents... And if they even talk about "Oh goodness, my parents had a part in how I turned out like I did", then they feel guilty, so they don't wanna talk about it... And I always have to run interference and go "Look, the purpose of this is never to vilify people." I wholeheartedly believe that all parents - well, most parents - do the best they can with what they have at the time they're doing it. Most parents don't have ill intentions; they're just human, and doing the best they can.
 
-**Adam Stacoviak:** \[00:32:24.06\] Yeah.
+**Adam Stacoviak:** \[32:24\] Yeah.
 
 **Mireille B. Reece, Psy.D:** So recognizing -- it doesn't mean that there aren't still negative consequences... So to at least understand how we were formed and how we go about ourselves in our day-to-day life makes a difference in terms of the choices that we see as available to us.
 
@@ -286,7 +286,7 @@ I can talk about this in the context of therapy and going, a lot of people when 
 
 **Mireille B. Reece, Psy.D:** Yeah, exactly. And that's why in looking at this and saying "Well, what do our listeners do now?" "Okay, so you gave me some data, but I actually wanna make changes..." So if we can take a step back and get some distance... Like, if I'm looking to make a decision - let's think about this in three different ways, three different timeframes. "How are we gonna feel about this choice in ten minutes? How about ten months? And how about ten years?"
 
-**Adam Stacoviak:** \[00:36:18.02\] Yeah.
+**Adam Stacoviak:** \[36:18\] Yeah.
 
 **Mireille B. Reece, Psy.D:** And ironically, that sort of allows for time to both system one and system two to think through... Because too, how I might feel -- I can take a food example, like "Oh, I want that huge dessert" or whatever... And going "Well, ten seconds from now that's gonna be awesome." \[laughter\]
 
@@ -308,7 +308,7 @@ I can talk about this in the context of therapy and going, a lot of people when 
 
 **Adam Stacoviak:** I really can't see how a vacation fits into that personally, but maybe it's like where to go potentially... But this car, "Should I buy this car?" Well, if you're the kind of person that doesn't really need this car, why would you buy the car?
 
-**Mireille B. Reece, Psy.D:** \[00:38:52.27\] Yeah. Well, it's interesting; you're like "I don't know how a vacation..." I can think of it like -- you know, here, living where I am, and doing certain seasons in life, it looked very different when my children were not of school age... And I joke with my family now about like "We're only available Christmas, spring break and summer." We have three times that we do anything, because the constraints are during the academic year.
+**Mireille B. Reece, Psy.D:** \[38:52\] Yeah. Well, it's interesting; you're like "I don't know how a vacation..." I can think of it like -- you know, here, living where I am, and doing certain seasons in life, it looked very different when my children were not of school age... And I joke with my family now about like "We're only available Christmas, spring break and summer." We have three times that we do anything, because the constraints are during the academic year.
 
 So I don't take vacations, generally speaking, apart from those times, because of what my husband and I and our family are optimizing for.
 

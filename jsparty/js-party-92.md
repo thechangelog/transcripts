@@ -34,7 +34,7 @@ The few times over the last literally ten years that I've had the privilege to g
 
 **Jerod Santo:** Well, I guess we should mention that this panel is comprised of some conference organizers, some conference speakers, and then we're all attendees at different times in our lives... And I think most people start of as attendee, or maybe they've never been to a conference and are wondering "What's the point?" Because if you think about it from a life perspective, it costs money if you can't get a business to pay for it for you, it takes time - this is usually free time, weekends often, or travel time... And there's a lot of effort putting into deciding which conference to go to, is it worth it... So what's the pitch? Why do it, if it's such a burdensome thing to organize in your life?
 
-**Mikeal Rogers:** \[00:04:06.16\] I was listening to a different podcast recently...
+**Mikeal Rogers:** \[04:06\] I was listening to a different podcast recently...
 
 **Jerod Santo:** How dare you? What?! \[laughs\]
 
@@ -54,7 +54,7 @@ This is why people talked about the hallway track for so long; just talking to t
 
 I've never thought about going to a conference to learn a skill, or a technology, but I have often thought about the inspiration - I want to discover new things to learn about, or new concepts that are out there in the world, and then I can go learn on my own time. I'm not gonna learn that much in 40 minutes versus 20 minutes. That's why maybe lightning talks are so interesting. Nick, I'm curious your thoughts on why go to conferences in the first place.
 
-**Nick Nisi:** \[00:08:08.10\] Yeah, I think that longer talks - my eyes start glazing over, and I kind of start tuning out a little bit, so I do appreciate the jump to smaller talks on that. That said, I'm more than happy to skip a talk as well, because I really do wanna go there for meeting people, figuring out what people are doing, and why they're there, like you said, Jerod. But mostly, the last couple of conferences that I've been to have had karaoke, so that's why I show up. \[laughter\]
+**Nick Nisi:** \[08:08\] Yeah, I think that longer talks - my eyes start glazing over, and I kind of start tuning out a little bit, so I do appreciate the jump to smaller talks on that. That said, I'm more than happy to skip a talk as well, because I really do wanna go there for meeting people, figuring out what people are doing, and why they're there, like you said, Jerod. But mostly, the last couple of conferences that I've been to have had karaoke, so that's why I show up. \[laughter\]
 
 **Jerod Santo:** Well, we can do karaoke right here on JS Party, Nick. Nothing's stopping us.
 
@@ -80,7 +80,7 @@ You can say "I'm gonna go, I see these talks, I'm gonna get inspired by them, I'
 
 **Jerod Santo:** For sure.
 
-**Mikeal Rogers:** \[00:12:04.16\] Yeah... I do wanna stop for a moment and just -- like, not every conference is the same or equal, and I think that we're making a few assumptions right now on what we're talking about when we're talking about these conferences. I think that we're talking about conferences that are really connected to the communities that they're representing. That is just not always the case with every event. There's a lot of events that are much more business-focused, and it's really just a bunch of people selling things to each other, and you're not gonna derive the same amount of value from it.
+**Mikeal Rogers:** \[12:04\] Yeah... I do wanna stop for a moment and just -- like, not every conference is the same or equal, and I think that we're making a few assumptions right now on what we're talking about when we're talking about these conferences. I think that we're talking about conferences that are really connected to the communities that they're representing. That is just not always the case with every event. There's a lot of events that are much more business-focused, and it's really just a bunch of people selling things to each other, and you're not gonna derive the same amount of value from it.
 
 I would not suggest that you go to GCP, or the big Google event, or the big AWS event, or these events if your goal is to meet people and connect with them and expand your network. You really wanna find an event that is run by a community that is very connected to that community, where the majority of the attendees are individual contributors.
 
@@ -110,7 +110,7 @@ So start with your own goal. Ask yourself, "Why do I wanna go to a conference?" 
 
 **Jerod Santo:** Closer, yup.
 
-**Kevin Ball:** \[00:15:51.11\] I think location is actually a very key piece. I look a lot to how are they presenting themselves in terms of community engagement. Who are they pushing forward? Is it the big corporate people, or is it big open source contributors, people I recognize? Are they showing all white men, or do they have a diverse speaking panel? Are they making an effort in terms of talking about and publishing a code of conduct?
+**Kevin Ball:** \[15:51\] I think location is actually a very key piece. I look a lot to how are they presenting themselves in terms of community engagement. Who are they pushing forward? Is it the big corporate people, or is it big open source contributors, people I recognize? Are they showing all white men, or do they have a diverse speaking panel? Are they making an effort in terms of talking about and publishing a code of conduct?
 
 We went to React Amsterdam earlier this year, and they had a big push around open source projects, and elevating up open source, and picking different open source things, and I was like "Okay, so that tells me that they are focused on the community piece of this, and the open source piece of this, and not just React corporate down", for example.
 
@@ -138,7 +138,7 @@ I was in an event in Berlin recently called DTN (Data Terra Nemo), that Paolo Fr
 
 **Mikeal Rogers:** Because there was a hand-curated list of interesting people and talks, that you wouldn't have found any other way. You couldn't have had a committee bring together that particular group of people. And a lot of times when events like this happen, the organizers are going out of their way to grab people and to get them to do particular talks.
 
-\[00:20:03.24\] When I did NodeConf 2012, there were only two talks that people had brought to me that "I wanna do this talk." Every other talk was "I have a topic that I wanna put in the slot. I know the exact person that should give that. Hey, you, you should give this talk." That ended up with a very linear sort of narrative over the whole conference, where each talk sort of bled into the next, and it covered things in more of a narrative form... And you can't really do that if you're just sort of like "Hey, we have an open selection process."
+\[20:03\] When I did NodeConf 2012, there were only two talks that people had brought to me that "I wanna do this talk." Every other talk was "I have a topic that I wanna put in the slot. I know the exact person that should give that. Hey, you, you should give this talk." That ended up with a very linear sort of narrative over the whole conference, where each talk sort of bled into the next, and it covered things in more of a narrative form... And you can't really do that if you're just sort of like "Hey, we have an open selection process."
 
 And also, you can't do that kind of thing if the expectation from the community is that everyone gets an equal opportunity to speak at this event, and they get to go through the same process for speaking that everybody else does. And representation aside, because a lot of events that do an amazing job of representation are actually going out and finding under-represented people to give talks.
 
@@ -152,7 +152,7 @@ Some people can really enjoy those conferences, because they made the right deci
 
 **Jerod Santo:** I'd like to queue up something here, and we'll take it on on the other side of the break, because I want you all to think about it here for a second... One of the things that we talk about with conferences - the networking, the inspiration, really the maybe not intangibles, but the serendipitous things that can happen in your life or to your life because of attending a conference. So I would like everybody to dig deep and think about something that's happened because you went to this conference that may or may not have happened otherwise, that's been a positive impact on your life, maybe as a source of inspiration for the folks who were on the fence about getting out there and attending conferences themselves.
 
-**Break:** \[00:23:06.13\]
+**Break:** \[23:06\]
 
 **Jerod Santo:** One of the things that happens at conferences are things that you wouldn't plan, and you wouldn't expect. Sometimes you don't even realize that this is a big deal in your life; maybe it's a job, maybe it's a new friend... Who knows? These things happen. So as examples of that, we've all had our lives changed in big and small ways because of conferences. Nick, do you have a story for us?
 
@@ -188,7 +188,7 @@ I had some great people that were really already very involved in the community 
 
 That was great, and I think I spoke at that event, and decided to start speaking at more events... And eventually -- I had not even left the country, really; I didn't have a passport. I ended up traveling internationally for the first time in order to speak at the International Python Conference, and some other stuff when I was at Mozilla. But I never thought about running an event or getting involved beyond just speaking and attending.
 
-\[00:28:03.05\] Then the JavaScript events started, and -- I think it's sort of under-appreciated how different the JavaScript events were at that time, that what was going on in the rest of the industry. The first JSConf was very different from what you would typically expect. I mean, the talks were very good, that people went to them. Just the idea that there would be a party that the entire conference went to, that was run by the conference, seemed foreign to me at the time.
+\[28:03\] Then the JavaScript events started, and -- I think it's sort of under-appreciated how different the JavaScript events were at that time, that what was going on in the rest of the industry. The first JSConf was very different from what you would typically expect. I mean, the talks were very good, that people went to them. Just the idea that there would be a party that the entire conference went to, that was run by the conference, seemed foreign to me at the time.
 
 With the big events there are parties, but they're always run by companies, and they can't support the entire conference at the event. So the idea that the social fabric of the conference would extend beyond the sort of 9-to-5 of the event and into the social spaces was really revolutionary. I met a lot of people that I wouldn't have met otherwise, and I had a much easier time talking to people without somebody to shepherd me around like I had at OSCON... And that sort of started to reshape how I thought about events in general.
 
@@ -206,7 +206,7 @@ Usually, when I give a talk, I wanna tell a narrative; I wanna go to an event wh
 
 Let's face it. Over the last decade or so, the game has been upped in terms of talk quality at this point. I mean, there are some people who are very good, and they are professional speakers, they do the circuit... And I wouldn't say you're competing with them, but in terms of like - you wanna be at a certain level. So why is all that effort worth it? Let alone the travel and the money; hopefully if you're a speaker, you're not paying for your own way, but there's a whole lot put into speaking at conferences. Not to mention the fact that public speaking is one of the greatest fears that humans have, so you have to overcome that as well. So why do we go through this? What's the point? Why speak?
 
-**Kevin Ball:** \[00:32:21.00\] First off, let me say, you should not pay your own way if you're a speaker. If a conference is asking you to do that, that's ridiculous.
+**Kevin Ball:** \[32:21\] First off, let me say, you should not pay your own way if you're a speaker. If a conference is asking you to do that, that's ridiculous.
 
 **Mikeal Rogers:** Yeah, it's absurd.
 
@@ -226,7 +226,7 @@ So put it next to your venue in terms of what you know that you're gonna have to
 
 **Kevin Ball:** Coming back to the original question of "Why speak?", it's an incredible networking hack. Most of us in this industry - and I think in the world in general - feel a little awkward just going up to someone and talking to them. If you're a speaker, people will come up and talk to you. You don't have to go that extra mile necessarily. It makes it so much easier to connect to other people at the conference. And on top of that, it gives you a great excuse to reach out to the other speakers. You can reach out to somebody who would otherwise be really intimidating for you, and say "Hey, I see you're speaking at this conference. I'm speaking, too. Can we meet up at some point? Maybe in the speaker room, maybe for a coffee, what have you. I'd love to talk with you." And the fact that you're saying "Hey, I see you're a speaker, I'm a speaker", that breaks the ice wonderfully.
 
-\[00:36:08.04\] So between those two pieces, I have found that speaking at a conference - other than possibly going with the podcast, because then I can say "Hey, I'm gonna be there. Do you wanna do an interview?" But speaking is the number one networking hack I've ever found.
+\[36:08\] So between those two pieces, I have found that speaking at a conference - other than possibly going with the podcast, because then I can say "Hey, I'm gonna be there. Do you wanna do an interview?" But speaking is the number one networking hack I've ever found.
 
 **Mikeal Rogers:** Yeah, I'll completely agree with that. I'm gonna let Nick get in something though.
 
@@ -256,7 +256,7 @@ I was just at a conference two weeks ago, and the technical demo completely fail
 
 **Nick Nisi:** \[unintelligible 00:39:41.08\] it thought she was doing a Hadouken, but she did a punch up... But it was still just hilarious, and it added to it... And honestly, seeing a speaker have to stumble through that and work their way through that - it makes the talk better for me, because if it went perfect, it wouldn't be as memorable.
 
-**Mikeal Rogers:** \[00:40:03.16\] It's very humanizing. \[unintelligible 00:40:04.17\] I think one of my favorite talks ever was this talk in Dublin, that Emily Rose gave. It was supposed to be a Node hardware demo talk, but voltage differences between Ireland and the U.S. blew everything out. So instead, she just plugged in the smoke machine and let it go crazy, and was just like playing music, and then talking about random hardware things. \[laughs\] But it was great, everybody loved it. It was so fun.
+**Mikeal Rogers:** \[40:03\] It's very humanizing. \[unintelligible 00:40:04.17\] I think one of my favorite talks ever was this talk in Dublin, that Emily Rose gave. It was supposed to be a Node hardware demo talk, but voltage differences between Ireland and the U.S. blew everything out. So instead, she just plugged in the smoke machine and let it go crazy, and was just like playing music, and then talking about random hardware things. \[laughs\] But it was great, everybody loved it. It was so fun.
 
 **Kevin Ball:** A thing that I think is a meta lesson from that is what makes a successful talk is you as a person being there, in your whole self, with energy. A lot of us obsess over the details; we wanna get this right, we wanna get that right, we wanna have the perfect slides, we wanna tell the perfect joke, things like that. But really what makes for a successful talk is you're there, and you show up, and you're present with energy; you have your stories, you're bringing yourself into that, not some dry "I'm reading the words on my slide" or "I'm talking about this technical thing." Those are helpful to have, it's good to know what you're talking about, but what's gonna make you successful as a speaker is just being there and bringing energy.
 
@@ -274,7 +274,7 @@ You get to work through and think about all the things that went into that, all 
 
 If you took an afternoon and wrote a module, and the next day you find out, "Oh, somebody already wrote a module that does that", it wasn't actually a waste of time if you learned something.
 
-**Nick Nisi:** \[00:44:02.02\] Chances are they've written that module.
+**Nick Nisi:** \[44:02\] Chances are they've written that module.
 
 **Mikeal Rogers:** Yeah, yeah.
 
@@ -314,11 +314,11 @@ So that's a small tip of a way that maybe you can disarm an audience that might 
 
 **Jerod Santo:** \[laughs\] Nick...
 
-**Nick Nisi:** \[00:48:14.12\] You definitely learn the timing of that by doing it in front of other people, and when you should dramatically pause for applause, or not, or to make it more awkward, depending on what you wanna do... You won't do that by practicing in front of your cat. But in front of other people you can definitely learn that.
+**Nick Nisi:** \[48:14\] You definitely learn the timing of that by doing it in front of other people, and when you should dramatically pause for applause, or not, or to make it more awkward, depending on what you wanna do... You won't do that by practicing in front of your cat. But in front of other people you can definitely learn that.
 
 **Kevin Ball:** You can almost always slow down and wait longer. People will think you're being thoughtful or giving them time to think, even when you think you're struggling to figure out what to do next.
 
-**Break:** \[00:48:46.29\]
+**Break:** \[48:46\]
 
 **Jerod Santo:** One aspect of speaking is you're not the only one who speaks. There's other speakers. One of the perks of speaking, as we've mentioned before, is you get to meet those other people, and have excuses to talk and network with them. Kball, you have a note here in our speaker perspective about supporting other speakers. Do you have thoughts?
 
@@ -328,7 +328,7 @@ One of the things that I try to do as a speaker is go out of my way to support o
 
 Another thing that I have started to do is any time I'm attending a talk, I actually try to live-tweet quotes from that talk, tagging the speaker in. And I do this for a very particular reason. I was experimenting with Twitter at some point and I did this at a conference once, and at the party after that conference one of the speakers came up to me and said "Oh my gosh, you made me feel like a rockstar. I came off stage, I cooled down a little bit, I checked my phone, and there were all these things tagging me, quoting me. This is amazing, I've never felt like that." And I heard that and I said "Gosh, all I was doing was just listening for the things I thought were cool", and instead of taking notes for myself, I was publishing those notes out and tagging them on it, and yet it had this incredible impact on that speaker. Doing something very hard, they come off and they get this automatic reassurance that "I wasn't speaking into a vacuum. There's somebody out there listening."
 
-\[00:51:59.20\] So those are my two quick tips if you're a speaker especially, if you're an attendee - good advice as well... Whenever you're talking with a speaker, open with a "Thank you for speaking" or something that gives positive affirmation no matter how critical your comment or question is, and if you're taking notes anyway, do them in a way that perhaps is public, so that that speaker sees that they're being heard.
+\[51:59\] So those are my two quick tips if you're a speaker especially, if you're an attendee - good advice as well... Whenever you're talking with a speaker, open with a "Thank you for speaking" or something that gives positive affirmation no matter how critical your comment or question is, and if you're taking notes anyway, do them in a way that perhaps is public, so that that speaker sees that they're being heard.
 
 **Jerod Santo:** Those are absolutely good things. What about those who wanna speak, but haven't had success at all even being selected to speak? Because you can't just walk up on stage and start talking... Or I guess you could, but you might get thrown out. As I mentioned before, a lot more people are speaking now, there's a lot more events, but there's just a lot more people submitting talks. I know at NEJS Conf, over our five years, we had more and more submissions every single year, and I don't think that was necessarily an effect of the conference; maybe a little bit, just because you get more established, but mostly I think there's just more people submitting.
 
@@ -370,7 +370,7 @@ So how can you stand out from the crowd in that regard? Because it's hard to spe
 
 **Jerod Santo:** Blimp talk.
 
-**Mikeal Rogers:** \[00:55:57.22\] Yeah, yeah... A blimp talk will probably not be accepted. When I run events, I tend to put stuff in the instructions that are about the kind of talk that I wanna see. Not everybody does that, but if people do do it, it really does inform how they're looking to see their idea presented. A few other things, like if you know that the CFP is blind, they're not looking at the names, then it's really important how you frame the story of your talk includes some notion of like why you should be giving the talk. Not who you are, but... If you were somebody involved in creating a technology that's relatively popular, you should be giving talk that's unique to that perspective, and that should be shown in the talk.
+**Mikeal Rogers:** \[55:57\] Yeah, yeah... A blimp talk will probably not be accepted. When I run events, I tend to put stuff in the instructions that are about the kind of talk that I wanna see. Not everybody does that, but if people do do it, it really does inform how they're looking to see their idea presented. A few other things, like if you know that the CFP is blind, they're not looking at the names, then it's really important how you frame the story of your talk includes some notion of like why you should be giving the talk. Not who you are, but... If you were somebody involved in creating a technology that's relatively popular, you should be giving talk that's unique to that perspective, and that should be shown in the talk.
 
 Evan Yu is giving a talk about Vue. If it was just a talk about Vue, but given by Evan, that's obvious if you see Evan's name there. But if Evan's name is not there, then it really needs to be about why it was created, and some of the ideas behind that, and how that affects how people use it. If you didn't create it and you're using it in a unique way, you need to tell the story of why that makes it interesting for you to give that talk... Especially if you're talking about any kind of technology that's relatively popular. If you do a JavaScript event right now, you're gonna get dozens of talks about Vue and React, and they're gonna have to look through those and figure out which ones are the most interesting to their audience. The talk about Vue.js but in enterprise is just not gonna do it most of the time. That on its own is not enough.
 

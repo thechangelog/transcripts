@@ -48,7 +48,7 @@ Also haven't had too many bad comments lately, so maybe I was just a little burn
 
 **Adam Stacoviak:** The affiliate marketers out there, they have their lists...
 
-**Jerod Santo:** \[00:03:58.05\] Yeah. I'm convinced that the people that are signing up are not robots, they're actual humans... Because we've used various techniques, including -- we're just using standard Google reCAPTCHA at this point, which is some of the most advanced CAPTCHA technology in the whole Universe... \[laughs\] And yet, plenty of people sign up every day who are clearly spammers.
+**Jerod Santo:** \[03:58\] Yeah. I'm convinced that the people that are signing up are not robots, they're actual humans... Because we've used various techniques, including -- we're just using standard Google reCAPTCHA at this point, which is some of the most advanced CAPTCHA technology in the whole Universe... \[laughs\] And yet, plenty of people sign up every day who are clearly spammers.
 
 So what I did was I just said, "Well, no public profile by default. You have to have an approved comment or news item before you can actually have a profile." If we create your account for you, invite you on the show, obviously you get one, so...
 
@@ -78,7 +78,7 @@ So once I can get that done, which is actually not very many steps, then we can 
 
 **Jerod Santo:** ...because we know that they are actually spammy. They're not just signing up for Weekly.
 
-**Adam Stacoviak:** \[00:08:14.14\] Good to see 95 in there, not 995...
+**Adam Stacoviak:** \[08:14\] Good to see 95 in there, not 995...
 
 **Jerod Santo:** Yeah, exactly.
 
@@ -124,7 +124,7 @@ So once I can get that done, which is actually not very many steps, then we can 
 
 Spotify, I don't think they're interested in commenting and discussion. I don't know. So that led to the question of like how do we actually consume podcasts, and that's what I guess ostensibly this Backstage episode is about, answering Alex's question.
 
-\[00:11:57.07\] So the topic is just like "Hey, what kind of stuff do you guys use with regards to podcasts?" And actually not how do we create our podcasts. Because we could talk about our gear, and all that... This is more like how do we consume. And I think the answer is gonna be kind of boring, because we're both gonna say probably the same thing.
+\[11:57\] So the topic is just like "Hey, what kind of stuff do you guys use with regards to podcasts?" And actually not how do we create our podcasts. Because we could talk about our gear, and all that... This is more like how do we consume. And I think the answer is gonna be kind of boring, because we're both gonna say probably the same thing.
 
 **Adam Stacoviak:** Well, let's see what happens then...
 
@@ -166,7 +166,7 @@ So that takes out a step, which would be like taking the video and stripping the
 
 **Adam Stacoviak:** That's what it was, yeah.
 
-**Jerod Santo:** \[00:16:09.27\] And he allows you to upload arbitrary files via the web UI and listen to them inside of Overcast... Which is kind of nice for things that you have which aren't podcasts. So you can kind of turn them into podcasts and use the features of it like the smart silence, and the voice boost, and stuff like that.
+**Jerod Santo:** \[16:09\] And he allows you to upload arbitrary files via the web UI and listen to them inside of Overcast... Which is kind of nice for things that you have which aren't podcasts. So you can kind of turn them into podcasts and use the features of it like the smart silence, and the voice boost, and stuff like that.
 
 **Adam Stacoviak:** Yeah, interesting.
 
@@ -242,7 +242,7 @@ So for ours, I listen to all of ours at 1x, with Smart Speed off and Voice Boost
 
 **Jerod Santo:** That sounds good. It's kind of like when you go to a restaurant and you order macaroni and cheese or something, or - what's the other one? Ramen. But it's not like the ramen that you ate in college. It's gonna be spectacular. It's gourmet, they're gonna do it right.
 
-**Adam Stacoviak:** \[00:20:17.22\] Precisely.
+**Adam Stacoviak:** \[20:17\] Precisely.
 
 **Jerod Santo:** Yeah, I would definitely eat that. Anyways, Nick Nisi listens at 3x, like I eat PB&J's, which is early and often... I don't know how you can do that. I think maybe you just get used to it over time, but both mentally, I've tried it. a) Chipmunk effect really bothers me. b) Mentally, I just can't keep up. I'm just sitting there like "Uhm..." And of course, when I listen to podcasts, I'm usually multi-tasking.
 
@@ -278,7 +278,7 @@ So for ours, I listen to all of ours at 1x, with Smart Speed off and Voice Boost
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[00:23:49.16\] So I think in that case I would like to see it, but I don't know how. If somebody could solve this problem -- so you've got Breaker; we've talked about Breaker. Great ideas, great team behind the thing, and still couldn't get it to critical mass. They had a lot of great stuff. I mean, beautiful UI, great interactions, great team behind it... And it's not there. Overcast - indie maker. Marco's not -- I don't know what he's doing with it. He's not adding features that I can tell...
+**Adam Stacoviak:** \[23:49\] So I think in that case I would like to see it, but I don't know how. If somebody could solve this problem -- so you've got Breaker; we've talked about Breaker. Great ideas, great team behind the thing, and still couldn't get it to critical mass. They had a lot of great stuff. I mean, beautiful UI, great interactions, great team behind it... And it's not there. Overcast - indie maker. Marco's not -- I don't know what he's doing with it. He's not adding features that I can tell...
 
 **Jerod Santo:** No, \[unintelligible 00:24:19.12\] interested in that at all.
 
@@ -326,7 +326,7 @@ So for ours, I listen to all of ours at 1x, with Smart Speed off and Voice Boost
 
 **Jerod Santo:** I don't ever mix -- I never am hopping back and forth between tunes and podcasts. It's different moods, different scenarios...
 
-**Adam Stacoviak:** \[00:28:00.20\] It's a different UI, too. You have different needs when you listen to music than you do with podcasts, and I can appreciate some of the things they have done with music though. I love the little mini-videos... But we're never gonna produce that for a podcast. I mean, maybe, potentially... I don't know, that'd be kind of cool to think about... But whenever the full screen is like a video - have you ever seen this? Do you know what I'm talking about?
+**Adam Stacoviak:** \[28:00\] It's a different UI, too. You have different needs when you listen to music than you do with podcasts, and I can appreciate some of the things they have done with music though. I love the little mini-videos... But we're never gonna produce that for a podcast. I mean, maybe, potentially... I don't know, that'd be kind of cool to think about... But whenever the full screen is like a video - have you ever seen this? Do you know what I'm talking about?
 
 **Jerod Santo:** I've watched some of the Joe Rogan Experience on there, but it's like \[unintelligible 00:28:23.02\]
 
@@ -364,7 +364,7 @@ And to be frank, Apple Podcasts is a large majority of downloads, but it's not a
 
 I come to find out... I log into the one place where we can -- like, it's been my user base, because it was not a multi-user system before that's part of this roll-out to be able to provide management, and users, and roles, and whatnot... And I log in and it says -- what did it say? Something like "We're setting things up. Come back later", essentially. And that's a paraphrased version of it. If you want the real version, we'll screenshot it. But it was like "That is not what I wanna see when I log into Podcast Connect." No podcasts there, can't manage them, couldn't find them in search...
 
-\[00:32:00.15\] You know, we have no connection to anybody at Apple, because it's just so big... So of course, we submitted Support, we didn't hear back for two days... Thankfully, we do have somebody we've connected with over the years in Apple PR, reached out to them, they helped out, and two or three days later our account is back up.
+\[32:00\] You know, we have no connection to anybody at Apple, because it's just so big... So of course, we submitted Support, we didn't hear back for two days... Thankfully, we do have somebody we've connected with over the years in Apple PR, reached out to them, they helped out, and two or three days later our account is back up.
 
 But essentially, this rollout made a lot of people - and Podnews covered it pretty well; we'll link to that in our show notes. I think that's what they're called, right?
 
@@ -404,7 +404,7 @@ So our download numbers over the last two weeks were just tanking, and there was
 
 **Adam Stacoviak:** Well, when I went to add it, it said that. It said "If you're trying to add a podcast to Overcast", for others, essentially, the way we do it is essentially we get it from Apple Podcasts. So once it's added there, it will just appear... Is the paraphrased version of what it said. And that's great... In a normal world, where you can rely upon this system working.
 
-\[00:35:59.26\] So Marco, if you're listening to this, rethink that, because I think there's times where you can't rely upon Apple, and that's gonna happen again. And he has a recent post out there that I think is worth mentioning on developer relations in regards to Apple... And back to that sort of like subscriptions, 30% thing - on one side it's a fractured community, where you have subscriptions on Apple, subscriptions on Spotify... I don't know how that actually plays out, but he'd mentioned here essentially the Apple leadership continued to deny developers of two obvious truths, he says... That our apps provide substantial value to iOS, beyond the purchase commissions collected by Apple. And two, that any portion of our customers came to our apps, which they paid for, and Apple got money for, from our own marketing and reputation rather than the App Store.
+\[35:59\] So Marco, if you're listening to this, rethink that, because I think there's times where you can't rely upon Apple, and that's gonna happen again. And he has a recent post out there that I think is worth mentioning on developer relations in regards to Apple... And back to that sort of like subscriptions, 30% thing - on one side it's a fractured community, where you have subscriptions on Apple, subscriptions on Spotify... I don't know how that actually plays out, but he'd mentioned here essentially the Apple leadership continued to deny developers of two obvious truths, he says... That our apps provide substantial value to iOS, beyond the purchase commissions collected by Apple. And two, that any portion of our customers came to our apps, which they paid for, and Apple got money for, from our own marketing and reputation rather than the App Store.
 
 So I think if we're in this kind of world where you're subscribing to podcasts - sure. Big ecosystem, big market. But I'm sure that there's some part of our name that says "We should go and subscribe to this" and therefore Apple or Spotify will get some benefit of it. 30% is a lot. For an indie brand, in most cases - I would say 99% of podcasts are indie. Or 98%. I don't know how true that is, but from my perspective, it's probably pretty true. You know, 90%, 95%, somewhere in that portion is indie. And when you take 30% from an indie, plus taxes on your income, or if you're a corporation, you've got corporate tax, which is going through the roof these days, you're really getting hit from all angles. Plus there's costs of doing business... It gets substantially harder to run a show of high quality that requires the time and attention to detail and the things we put into it.
 
@@ -424,7 +424,7 @@ And they're even working on extending the podcast RSS features via a new namespa
 
 **Jerod Santo:** So I think we'll see more and more, at least the small apps, the open source apps, the indie dev apps -- you're not gonna see Apple Podcasts probably support this, you're probably never gonna see Spotify support this... But people out there on the indie scene to take care of each other, us indies, and not make it so dependent on two big organizations.
 
-**Adam Stacoviak:** \[00:39:58.29\] Yeah... Which can show some of their motivation, right? I think if Spotify would not want to support this, and the tagline essentially for Podcast Index is "The open index for everyone" -- it's essentially like saying multi-cloud, or no cloud lock-in, in our world... It's kind of like that, where this isn't locking you into the Spotify world or into the Apple world; that you can move about as necessary, because podcasts are an independent infrastructure. This is like saying no to that independence, and saying yes to "We want to be a walled garden and control it."
+**Adam Stacoviak:** \[39:58\] Yeah... Which can show some of their motivation, right? I think if Spotify would not want to support this, and the tagline essentially for Podcast Index is "The open index for everyone" -- it's essentially like saying multi-cloud, or no cloud lock-in, in our world... It's kind of like that, where this isn't locking you into the Spotify world or into the Apple world; that you can move about as necessary, because podcasts are an independent infrastructure. This is like saying no to that independence, and saying yes to "We want to be a walled garden and control it."
 
 **Jerod Santo:** Yeah.
 
@@ -478,7 +478,7 @@ To Apple's credit though too, once they were back up, once we had Podcasts conne
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[00:44:02.20\] These are going to have ebb and flows, that's for sure, but maybe one question to tail off on would be finding good podcasts. Consuming is one thing, but finding good podcasts - that's the hard thing, I think. How do you do it?
+**Adam Stacoviak:** \[44:02\] These are going to have ebb and flows, that's for sure, but maybe one question to tail off on would be finding good podcasts. Consuming is one thing, but finding good podcasts - that's the hard thing, I think. How do you do it?
 
 **Jerod Santo:** Personal recommendation.
 
@@ -512,7 +512,7 @@ So I think you're searching topically and finding creators, and then discovering
 
 If you like Star Wars, like I do, Full of Sith is a great podcast, where they go deep, deep, deep on Star Wars. And it's very positive. They're very positive people. They don't like to tear it down and complain... Even though there are things to complain about with Star Wars nowadays.
 
-\[00:47:58.16\] What else - The Way I Heard It with Mike Rowe is great. It used to be very short stories that he wrote, and then reads; now they're kind of becoming longer stories, but it's still good.
+\[47:58\] What else - The Way I Heard It with Mike Rowe is great. It used to be very short stories that he wrote, and then reads; now they're kind of becoming longer stories, but it's still good.
 
 If you like movies, /Filmcast is spectacular. The All-in Podcast is great for startup news and analysis with what's going on in the Silicon Valley world... What else do I have...? EconTalk - I've talked about that one before.
 

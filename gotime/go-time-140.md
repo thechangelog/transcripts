@@ -16,7 +16,7 @@
 
 And then the second big step we made was we've released a translation tool and a type checker. So we have a type checker that works for the design draft, the description of generics in the design draft, so that gives us some confidence that what we have written about can actually work...
 
-\[00:04:11.20\] And we have a translation tool which translates code into ordinary Go. The translation tool is not, by any means, a final thing. There's cases it doesn't handle. It's just an experimental tool, but it lets people actually write code that can actually run using generics. So we can get a feel for whether generics actually works for people, and whether it actually addresses the issues that they have.
+\[04:11\] And we have a translation tool which translates code into ordinary Go. The translation tool is not, by any means, a final thing. There's cases it doesn't handle. It's just an experimental tool, but it lets people actually write code that can actually run using generics. So we can get a feel for whether generics actually works for people, and whether it actually addresses the issues that they have.
 
 **Carmen Andoh:** Can you talk a little bit about what your understanding is based on the feedback so far of what people's issues are when it comes to either lack of generics or this current draft proposal?
 
@@ -34,7 +34,7 @@ So we are in the midst of refining that, but I don't recall off-hand right now t
 
 **Robert Griesemer:** I can try. Maybe not a real stab, but maybe a little explanation. So this cooperation, I should say, happened because Rob Pike actually reached out to Phil Wadler. They knew each other from way back, and Phil Wadler was interested, and then we started talking with Phil Wadler and with Rob Pike... He didn't really have time to produce a beta in this, but then Phil Wadler, Ian Taylor and I started talking about what we wanna do... And they have, of course, a strong background in type theory. Phil Wadler has done this -- not the same work, of course, but similar work, many years ago, for Java, so he's really an expert.
 
-\[00:07:56.20\] So now we have a whole team - it's not just him - that have been working on this Featherweight Generic Go... Which is based on Go, but very much slimmed down. So we now have a language that really only has type declarations and methods. And those type declarations are only interfaces and only structures (structs), and the only thing you can have is methods and interfaces, of course, and methods associated with structs... And inside those methods you can only have basically single functional expressions. So it's a very, very simplified language, but what you can do is you can invoke a method.
+\[07:56\] So now we have a whole team - it's not just him - that have been working on this Featherweight Generic Go... Which is based on Go, but very much slimmed down. So we now have a language that really only has type declarations and methods. And those type declarations are only interfaces and only structures (structs), and the only thing you can have is methods and interfaces, of course, and methods associated with structs... And inside those methods you can only have basically single functional expressions. So it's a very, very simplified language, but what you can do is you can invoke a method.
 
 In this paper, he explores two situations this Featherweight Go, which is like the basic Go, simplified Go, without any generics \[unintelligible 00:08:45.28\] which is that basic, simplified Go, extended with generic features. And those generic features are very much modeled along the draft design, with the exception of type lists. So those type parameters, as in the draft design - the type parameters have what in the paper is called type bounds (we call them now constraints), and there are interfaces, there are also interfaces in the paper, and they basically model in a very simplified fashion what the design draft is trying to do with real Go.
 
@@ -50,7 +50,7 @@ I think it really helped us also understand a little bit better what it means to
 
 Phil Wadler actually took the time himself to walk us through the paper in detail, and this is how our understanding of the paper came about. I'm not a type theory person... So I now feel like "Okay, I have some sort of idea how to read the math", but I --
 
-**Ian Lance Taylor:** \[00:12:04.06\] Actually, my name is on the paper, but I have no claim to understanding the paper at all. \[laughter\]
+**Ian Lance Taylor:** \[12:04\] Actually, my name is on the paper, but I have no claim to understanding the paper at all. \[laughter\]
 
 **Carmen Andoh:** Okay, you've heard it here, folks - it's not just you; even Ian and Robert had a really hard time with the Featherweight Go paper and all that math notation. This is funny.
 
@@ -68,11 +68,11 @@ Phil Wadler actually took the time himself to walk us through the paper in detai
 
 The problem with the angle brackets is that at parse time we cannot even know how to create a syntax tree in this specific case, especially in that example that we've given in the mail. We don't know how to parse this, so we don't know how to build a syntax tree, and that means there's just no way forward to resolve this.
 
-\[00:16:10.21\] One way to go forward would be if we had type information at parse time. In languages such as C++ where they use angle brackets for templates, there is symbol information at parse time, and the parser needs that to make the right decision. But that also means that everything that you will use at a particular place needs to be already declared at that point. And so in C++ you need to make sure that everything that you're using in an expression has been declared before, some way or another; maybe with a forward declaration of sorts. In Go we cannot do this, because -- well, we could, but we don't have forward declarations in Go, and we don't want them. In the very first version of Go, that's never seen the day of light, there was actually forward declarations, but we got rid of them pretty quickly.
+\[16:10\] One way to go forward would be if we had type information at parse time. In languages such as C++ where they use angle brackets for templates, there is symbol information at parse time, and the parser needs that to make the right decision. But that also means that everything that you will use at a particular place needs to be already declared at that point. And so in C++ you need to make sure that everything that you're using in an expression has been declared before, some way or another; maybe with a forward declaration of sorts. In Go we cannot do this, because -- well, we could, but we don't have forward declarations in Go, and we don't want them. In the very first version of Go, that's never seen the day of light, there was actually forward declarations, but we got rid of them pretty quickly.
 
 In Go you can have a package that is spanning multiple files, and so if you refer to a function in one file, that function may not even be declared yet. It may show up at the very end of the last file that the parser is gonna see. So there's just no way to have this information available. So without that information we cannot -- it's just not parsable, and there's no way around it... So angle brackets, as it is right now - it cannot work. So it's not like we don't wanna do it, or we don't like them, it's just it cannot work with the Go as it is right now.
 
-**Break:** \[00:17:37.23\]
+**Break:** \[17:37\]
 
 **Carmen Andoh:** So what Robert is referring to is rather a discussion thread on Golang Nuts, and it is one of the most recent, and it's an addendum to their draft proposal, where syntax feedback had been received, and a new addition was adding parentheses. So now it's a case of getting feedback from the community about whether the preference is for square brackets, versus parentheses.
 
@@ -80,7 +80,7 @@ Robert, or Ian, what are some of the trade-offs for either/or of these, in your 
 
 **Ian Lance Taylor:** The advantage of parentheses I think is that type parameters really are parameters, and type arguments really are arguments... So it makes sense to use a syntax for type parameters that's similar to the syntax for regular, non-type parameters. \[unintelligible 00:19:16.07\] And I find the result to be -- it sort of feels natural to me, at least... And it reads well. The disadvantage is in a complex generic function you can have lots of parentheses flying around, you can have type parameters, you can have regular parameters, you can have result parameters; they're all parenthesized lists, and it can get a little hard to see exactly what's going on.
 
-\[00:19:47.21\] Also, in a call, at the call site, sometimes you pass type arguments, sometimes you don't, and it can be a little unclear, again, exactly what's going on. Like, if you had a new function, the new function might take a type, and then you have to have another set of parentheses for regular parameters... So there's some potential confusion there.
+\[19:47\] Also, in a call, at the call site, sometimes you pass type arguments, sometimes you don't, and it can be a little unclear, again, exactly what's going on. Like, if you had a new function, the new function might take a type, and then you have to have another set of parentheses for regular parameters... So there's some potential confusion there.
 
 We've also discovered certain ambiguities with parsing when using parentheses. Not common cases, but cases that do arise in real code. There were cases where it was ambiguous when you referred to an instantiated type, or an instantiated function, and it was hard to know exactly what was going on.
 
@@ -102,7 +102,7 @@ I don't have a good feel right now for the sentiment of the broader Go community
 
 **Carmen Andoh:** So more practically, for the Go community - when do you think that you're going to get enough feedback to move forward with moving from a draft proposal to actually putting it forth as a proposal to change in the language?
 
-**Ian Lance Taylor:** \[00:23:51.18\] We don't have any timelines in mind, I'd say. As we mentioned earlier, we're still trying to pin down some of the precise semantics, which I don't think is going to affect any existing code; in fact, I'm sure it's not gonna affect any existing code. We wanna make sure that we understand and we wanna make sure that the multiple Go compilers will all implement the same thing. We're gonna have to have some sense of how to add to the language spec. So those are the steps we're looking at now. We're certainly gonna move forward as fast as we can before making a formal proposal. Of course, at that time none of it will be a surprise. People will have seen all of the ideas already, and we'll just have to see how it flies. So far, I feel like the reaction has been largely positive, which is encouraging... But I don't know exactly what the timeline is going to be.
+**Ian Lance Taylor:** \[23:51\] We don't have any timelines in mind, I'd say. As we mentioned earlier, we're still trying to pin down some of the precise semantics, which I don't think is going to affect any existing code; in fact, I'm sure it's not gonna affect any existing code. We wanna make sure that we understand and we wanna make sure that the multiple Go compilers will all implement the same thing. We're gonna have to have some sense of how to add to the language spec. So those are the steps we're looking at now. We're certainly gonna move forward as fast as we can before making a formal proposal. Of course, at that time none of it will be a surprise. People will have seen all of the ideas already, and we'll just have to see how it flies. So far, I feel like the reaction has been largely positive, which is encouraging... But I don't know exactly what the timeline is going to be.
 
 **Carmen Andoh:** What kinds of feedback at this point are you, Robert and Ian, looking for?
 
@@ -120,7 +120,7 @@ These are the important questions that we should try to answer ASAP, because onc
 
 **Robert Griesemer:** So just to clarify - I was working on V8 in the very beginning for maybe barely a year... I didn't really do anything with generics in V8. I was on the implementation side. My experience with generics was maybe C++, with templates, and probably the highest point there was when I was able to - as Ian alluded to before, it's Turing-complete - write a program using C++ templates that would decide whether a constant was a prime number or not... And the compiler would decide it at compile-time. So that's not the kind of thing we would like to support.
 
-\[00:27:54.10\] With respect to what I'd like to see or not see - honestly, I'm worried about the kind of code that people are gonna write. There's no question about that. And we see some of the examples that people send us, that cause crashes in the prototype, and they're just unbelievably convoluted and really hard to decipher... But as other people have pointed out, those people are really pushing the envelope; they're trying to just see "What can I do with this thing?" And I hope this is not gonna be the kind of code that people are gonna write down the road.
+\[27:54\] With respect to what I'd like to see or not see - honestly, I'm worried about the kind of code that people are gonna write. There's no question about that. And we see some of the examples that people send us, that cause crashes in the prototype, and they're just unbelievably convoluted and really hard to decipher... But as other people have pointed out, those people are really pushing the envelope; they're trying to just see "What can I do with this thing?" And I hope this is not gonna be the kind of code that people are gonna write down the road.
 
 I think one of the first things we need to do if we have this for real - we need to come up with a kind of best practices guide, that guides everybody a little bit as to how you should use generics, and when you should use them and when you should not use them. Very similar to what we developed for goroutines and channels; in the early days of Go everybody was using goroutines and channels for everything, and it took a little while for us to learn where it was appropriate and where it wasn't.
 
@@ -136,17 +136,17 @@ I'd definitely like to see some leadership from the Go team on that, maybe an ex
 
 **Carmen Andoh:** Yeah, I think one of the things that I really like about the Go culture is that we have managed complexity, our idioms through the culture. We have absorbed values and simplicity, and we can continue to do so for generic Go. I think that will be a big part in whether we keep complexity at bay. It's not necessarily the technical enforcement, but the idiomatic/cultural enforcement. We've talked about idioms as culture on this show before, so it's kind of interesting to see it play out with generics.
 
-\[00:32:02.28\] One of the questions that we had was a forward-looking question, and it's assuming that this is gonna be a proposal that gets ratified and put into the language... Are there any plans for managing the surge of feature requests for the standard library, now that generic data structure and algorithms are possible? Are you gonna let that happen in the ecosystem?
+\[32:02\] One of the questions that we had was a forward-looking question, and it's assuming that this is gonna be a proposal that gets ratified and put into the language... Are there any plans for managing the surge of feature requests for the standard library, now that generic data structure and algorithms are possible? Are you gonna let that happen in the ecosystem?
 
 **Ian Lance Taylor:** That's a great question. Are there any plans? I'd say no. There are not at this point any plans... But there will be plans. The experimental translation tool does come with a tiny little set of sample libraries. When I wrote those, I viewed those as kind of prototypes for what we might wanna add to the standard library going forward. I don't think they're great examples or anything, but I think that they can sort of show areas where we might wanna add new standard library packages, and show possible implementations as subject to people really looking at them and making sure they make sense. I don't expect there to be a lot of additions to the existing standard library packages. There might be a few, but most of the existing standard library packages were written without generics and they work fine.
 
 So yeah, there may be a lot of people saying "What's that? Generics?", but you know, the truth is they work already, and we don't need to add generics there. I think it's more gonna be a matter of adding some new packages to really take advantage of generics. The translation tool, for example, has a slices package, which has various functions that operate on slices of any type... And it has a chans package that operates on channels of any type. This is the kind of code which we aren't able to write with Go today, but we are able to write with generics... So I feel like that's gonna be where we're gonna add to the standard library. We're not gonna be moving fast on any of this, for sure... But you're right that we should develop some kind of framework for how we're gonna add packages.
 
-**Break:** \[00:34:00.19\]
+**Break:** \[34:00\]
 
 **Jon Calhoun:** One of our listeners in the Slack had asked "While you're collecting feedback, is there a good time or a good expectation for measuring how build speed changes over time?" Especially now that things are experimental, I assume that it's not really fair to assume that that's exactly how things are gonna be whenever it actually ships... So what should people expect and when is the right time to give feedback on that?
 
-**Ian Lance Taylor:** \[00:36:11.22\] Okay, that's a great question. Yeah, the experimental tool has no similarity whatsoever to any real implementation. We know it's slow, and it's gonna be slow, and that's just inevitable... If this does move forward to become a proposal and it gets accepted, then most likely the implementation will be to start with a branch of the main Go toolchain, and we'll start adding generic support on that branch, which will involve changing the compiler mainly, and any other changes to other tools that are required... So that'll be the time to start giving feedback about changes to build speed.
+**Ian Lance Taylor:** \[36:11\] Okay, that's a great question. Yeah, the experimental tool has no similarity whatsoever to any real implementation. We know it's slow, and it's gonna be slow, and that's just inevitable... If this does move forward to become a proposal and it gets accepted, then most likely the implementation will be to start with a branch of the main Go toolchain, and we'll start adding generic support on that branch, which will involve changing the compiler mainly, and any other changes to other tools that are required... So that'll be the time to start giving feedback about changes to build speed.
 
 We've talked about it with some of the compiler developers, like Keith Randall especially, and we think we can do it without a significant increase in build speed. I mean, there will be some increase in build speed; we don't think it's gonna be a huge increase... But you know, this is really speculative at this point. So the time to give that feedback is when we're able to start doing development... And hopefully, people will also be able to contribute work when we start doing that work on the public branch.
 
@@ -168,7 +168,7 @@ We've talked about it with some of the compiler developers, like Keith Randall e
 
 **Carmen Andoh:** It's really gonna have to probably be enforced through culture, or these best practices and idioms, right?
 
-**Robert Griesemer:** \[00:39:47.27\] It's quite easy to see that programs have one or two type parameters and functions... But if it goes over two or three, then you are starting to wonder "What's happening here? Is this really necessary? Is this really good?" So I would say there's some immediate questions right there, when you look at code like that. But I'm shooting from the hip here; I'm just guessing here. And I suspect that there may be things we can say "This is not good." And maybe such things can go into a vet check eventually, but I don't know what that would be at this point.
+**Robert Griesemer:** \[39:47\] It's quite easy to see that programs have one or two type parameters and functions... But if it goes over two or three, then you are starting to wonder "What's happening here? Is this really necessary? Is this really good?" So I would say there's some immediate questions right there, when you look at code like that. But I'm shooting from the hip here; I'm just guessing here. And I suspect that there may be things we can say "This is not good." And maybe such things can go into a vet check eventually, but I don't know what that would be at this point.
 
 **Jon Calhoun:** I suspect things like the Go Proverbs will sort of help on this front, just because -- like, we have the ones like "A little copying is better that a little dependency", I think is one of them... And I think if people stick with that mindset of copying an entire type -- like, if you're only using two different versions of it, or an entire function or whatever it happens to be, it's better than writing the generic version for just two different types. But if you do find yourself in a situation where you need to use it for 5-6 different types, then generics might actually be the right solution.
 
@@ -186,7 +186,7 @@ But again, you are gonna see folks who are anti-generics in our community. I'd s
 
 Certainly, there have been people in the past who have just rejected Go outright because it doesn't have generics... But I don't think there have been that many people who take that point of view, and I hope that those people will take another look when generics comes out. But from my point of view, I want Go to be open to everyone. I want all these people to find Go to be a productive language. It's not really a matter of hauling people from the other language communities... I think generics is interesting mostly because, as Robert says, it's orthogonal; it lets us write code that we couldn't write before, in Go. It lets us write code that solves problems in a way that we couldn't really solve before, at least not without going through type reflection, or massive copying, or whatever.
 
-\[00:44:12.22\] So it'd be great to open more people; I hope that more people keep writing Go... But I think our main interest is to give people another powerful programming tool. At least my main interest.
+\[44:12\] So it'd be great to open more people; I hope that more people keep writing Go... But I think our main interest is to give people another powerful programming tool. At least my main interest.
 
 **Robert Griesemer:** Yeah, I'd add on that that, again, Go is not now becoming the generic language. It's just yet another mechanism in the language, like we have interfaces, we have methods... It doesn't mean now you have to write everything in an object-oriented style. Go has always been multi-paradigm; we enable different ways of programming, and we encourage people to choose the right approach for the problem at hand... So in a situation where a generic approach might be the right approach, then by all means, go for it; and if it's not, don't do it.
 
@@ -194,7 +194,7 @@ Of course, there's gonna be people that really like that playing with types, and
 
 **Johnny Boursiquot:** Along those lines, that's actually a good segue for the segment of the show where we talk about unpopular opinions.
 
-**Jingle:** \[00:45:37.07\] to \[00:45:52.02\]
+**Jingle:** \[45:37\] to \[45:52\]
 
 **Johnny Boursiquot:** So what I'd like to do is ask each one of you to spill onto the mic your unpopular opinion. It could be related to what we've been talking around generics, or it could be something that you're seeing out there that perhaps you have a different opinion from.
 
@@ -218,7 +218,7 @@ Of course, there's gonna be people that really like that playing with types, and
 
 **Johnny Boursiquot:** Ian, what have you got?
 
-**Ian Lance Taylor:** \[00:47:48.10\] Okay, I don't know if this opinion is unpopular, but I feel like I write it a lot, so there's certainly people who don't seem to grasp it... And that's that the language is not perfect, but every change to the language carries a heavy cost. So when you wanna come and argue for why the language should be changed -- and we see that a lot; I'd say that there's probably one a day suggestion for some way to change the Go language... Don't just talk about how it makes the language better, but also spend some time to talk about how it makes the language worse. Because there's no such thing as a 100% good change to the language. Or I shouldn't say there's no such thing; maybe it's out there. Maybe no one has thought of it yet. But probably, it's a good bet that all the 100% good changes to the language have already been made. So when you wanna change the language, spend some time to think about how it makes things worse, as well as how it makes things better.
+**Ian Lance Taylor:** \[47:48\] Okay, I don't know if this opinion is unpopular, but I feel like I write it a lot, so there's certainly people who don't seem to grasp it... And that's that the language is not perfect, but every change to the language carries a heavy cost. So when you wanna come and argue for why the language should be changed -- and we see that a lot; I'd say that there's probably one a day suggestion for some way to change the Go language... Don't just talk about how it makes the language better, but also spend some time to talk about how it makes the language worse. Because there's no such thing as a 100% good change to the language. Or I shouldn't say there's no such thing; maybe it's out there. Maybe no one has thought of it yet. But probably, it's a good bet that all the 100% good changes to the language have already been made. So when you wanna change the language, spend some time to think about how it makes things worse, as well as how it makes things better.
 
 **Johnny Boursiquot:** I think I just saw Ian drop a metaphorical mic... \[laughter\]
 
@@ -236,7 +236,7 @@ Of course, there's gonna be people that really like that playing with types, and
 
 **Ian Lance Taylor:** It's been fun, thanks for having us.
 
-**Outro:** \[00:49:30.00\]
+**Outro:** \[49:30\]
 
 **Jon Calhoun:** Carmen, I've heard a lot of if's from you today.
 

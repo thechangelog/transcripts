@@ -28,7 +28,7 @@ So that's Changelog Master... And I'm joined by Mat, as I just said, one of our 
 
 **Jerod Santo:** Yeah, exactly. So the reason for this particular episode is because we've been talking a little bit, and I'd like to talk to you more to get your thoughts, about a Changelog API I had mentioned in the Gophers Slack months ago, as we were adding yet another ad-hoc endpoint for some one-off request to our platform, that I would like to have a proper API at some point... And I think you were at the time nudging me towards not solving a particular solution in the ad-hoc fashion in which I was solving it at the time... And I said "I consider doing a proper API. This is just kind of for now", and I wanted to use GraphQL, and you said "Hm, can I talk you out of that?", or I can't remember the exact words, but you definitely had opinions about that thought... And so I would love to talk to you more about that, and just kind of riff and ideate on what Changelog API might look like, on how I might build such a thing, why or why not to use specific strategies or schemas...
 
-\[00:04:06.20\] But first, Mat, I'd love to get to know you a little bit. You jokingly poke and prod at JavaScript quite a bit, but as you were telling me before we hit record, you don't hate the language; in fact, you've written a fair bit yourself, and you used to be a JavasSript developer... So maybe just tell me and the folks how you came to Go, and how you came to be on Go Time.
+\[04:06\] But first, Mat, I'd love to get to know you a little bit. You jokingly poke and prod at JavaScript quite a bit, but as you were telling me before we hit record, you don't hate the language; in fact, you've written a fair bit yourself, and you used to be a JavasSript developer... So maybe just tell me and the folks how you came to Go, and how you came to be on Go Time.
 
 **Mat Ryer:** Yeah, as I said, I was a JavaScript developer... And I was a JavaScript developer because I learned quite early -- I've worked with some great designers and some great tech people in London, and I learned from them that actually the user experience turns out to be way more important than I had previously given it credit for. So working on that user experience and delivering something that users love to use - it's not just making it usable, or making it hard to abuse, and all these things; it's actually I like applications where people are excited to use it, whether because it just looks good, or it does things in a way that makes sense to them, or whatever. And of course, rich web experiences are all sort of powered by JavaScript, so... Yeah, for many years, that's what I did. And I love doing it.
 
@@ -44,7 +44,7 @@ In Go, they prioritize readability, so you can't do any of that magic stuff. And
 
 One aspect of it that did kind of strike as not as readable as all the if err!= nil checks that seem to be sprinkled throughout the code... Maybe they just shake out as white noise over time, but it felt like it was more noise than signal because of that error checking. Is that just a thing that newbs think, and then over time you just get used to checking that often?
 
-**Mat Ryer:** \[00:08:11.04\] Well, it's definitely something that if you're not familiar with Go, it's definitely something you notice, that's for sure. And it does get a bit tedious for people, because they're used to languages like -- whether it's Java, or C\#, or even JavaScript you could say, where those exceptions are thrown; things are thrown if something goes wrong. Go doesn't do that. Instead, it's usually the second argument or the last argument returned. You can return multiple arguments from functions and methods in Go... So usually the last thing is an error type, which is just a value like a string or like an int, so you can then just check to see if that's nil. If the error is nil, you know that it succeeded, and you just kind of carry on.
+**Mat Ryer:** \[08:11\] Well, it's definitely something that if you're not familiar with Go, it's definitely something you notice, that's for sure. And it does get a bit tedious for people, because they're used to languages like -- whether it's Java, or C\#, or even JavaScript you could say, where those exceptions are thrown; things are thrown if something goes wrong. Go doesn't do that. Instead, it's usually the second argument or the last argument returned. You can return multiple arguments from functions and methods in Go... So usually the last thing is an error type, which is just a value like a string or like an int, so you can then just check to see if that's nil. If the error is nil, you know that it succeeded, and you just kind of carry on.
 
 So it's very common to have these early checks of if err!= nil then do something. And people report that tedium, and that is something -- the Go team were actually trying to solve and address this "problem", because they hear about it again and again, and in the surveys this is always that ranks quite high, that people complain about.
 
@@ -60,7 +60,7 @@ In Go, since you're checking these values all the time, you actually think more 
 
 **Mat Ryer:** Absolutely. In fact, you should assume it will fail. And that's kind of the point... It was interesting that you mentioned that you thought this was kind of hurting readability... And in a way, I know what you mean about it being noisy. But actually, as far as being expressive goes, it's literally telling you everything that's gonna happen. If this error doesn't equal nil, then either we'll just return the error - and that's the very common case, where your function returns an error too, so you're just sort of passing it up the stack, and then you may deal with it in one place in the main function, or something like that... That's perfectly acceptable, but you've kind of done that explicitly.
 
-\[00:12:08.18\] So if you look in other people's code and you go and jump down and you're looking at a method somewhere deep in the system, it's extremely clear what's gonna happen, because there's no magic. There are no hidden exceptions, you don't have to know that things are being caught elsewhere, and things like this... You're just returning an error type from this function. I think that helps readability, and it helps see just literally what's gonna happen if something does go wrong here.
+\[12:08\] So if you look in other people's code and you go and jump down and you're looking at a method somewhere deep in the system, it's extremely clear what's gonna happen, because there's no magic. There are no hidden exceptions, you don't have to know that things are being caught elsewhere, and things like this... You're just returning an error type from this function. I think that helps readability, and it helps see just literally what's gonna happen if something does go wrong here.
 
 **Jerod Santo:** That's interesting. I think there's a balance to strike with readability in terms of verbosity. I agree with you that explicit when it comes to readability is better than implicit, because you can't read something that you can't read, right? If it's implied, if it's tucked under the covers, it's not readable by definition, because it's insinuated, so to speak. So explicit is better. And where it starts to -- I think it's a balance, because you can move overboard from explicit to verbose. Not that the if err!= nil is verbose, but over a certain level of repetition, you can either start to scan quickly over that verbosity and miss something, which reduces readability, or -- well, I guess that would be the only downside.
 
@@ -72,7 +72,7 @@ My experience was in the beginning it was kind of quite strange that I had to do
 
 **Jerod Santo:** And most likely now that you're used to it, it's almost odd on the other side of the fence, right? Now, when you can just willy-nilly create an object out of thin air, like you could in JavaScript for example, and it was no guarantees about the keys, or values, or any of the content inside of that struct or that object - does that feel like cowboy coding to you, to a certain degree? ...just in comparison to the "explicitly define everything upfront" style.
 
-**Mat Ryer:** \[00:16:06.24\] Well, I definitely now program in a Go way in other languages... Because you don't have to have -- say you have an array of objects; in JavaScript, they could all be a different type, and have different fields, and things. So you can do that, but I probably wouldn't do it. And that is something that I learned from Go, the fact that Go would limit you there... And I saw the benefits of why those limits were good. It's clearer, it's simpler, and everything's the same. That has some cognitive benefits. So now when I do JavaScript -- I take some of the lessons from Go when I'm writing in other languages. That's quite nice...
+**Mat Ryer:** \[16:06\] Well, I definitely now program in a Go way in other languages... Because you don't have to have -- say you have an array of objects; in JavaScript, they could all be a different type, and have different fields, and things. So you can do that, but I probably wouldn't do it. And that is something that I learned from Go, the fact that Go would limit you there... And I saw the benefits of why those limits were good. It's clearer, it's simpler, and everything's the same. That has some cognitive benefits. So now when I do JavaScript -- I take some of the lessons from Go when I'm writing in other languages. That's quite nice...
 
 **Jerod Santo:** Yeah, that's an advertisement for just learning other languages, even if you're not going to switch ecosystems or languages... Because you actually pick up styles, and you can move interesting ideas or better ways of doing things even in the current way that you're doing. I know as I started to pick up Elixir, I started to write my Ruby code more in Elixir fashion over time. And even with a few of the things I learned in functional programming in JavaScript, which is very much optional to a degree... JavaScript is one of these strange languages that's kind of both functional programming AND object-oriented, depending on how you use it... But I started to write more functional style Ruby code. Still writing Ruby, just I got exposed to these new ideas over here, and I curate them over there, and I felt like my Ruby code got better as a result.
 
@@ -82,7 +82,7 @@ I do recommend that people are playing around with other languages. It feels lik
 
 **Jerod Santo:** Yeah, I liken it to learning spoken languages, especially if they're along the same route origin. So if you learn Spanish -- like, if all you speak is English and you learn Spanish, that is a heavy lift; it's a lot of work, even though those two languages do have some common roots. But once you've learned Spanish, picking up Italian is quite a bit easier, because they have so many cognates, they have so many similarities. They're both based on Latin-Roman languages, and there's so many similarities that the second language is much easier than the first. And then you go and grab French or something, and you become a linguist all of a sudden, because you are able to learn those other languages -- you wonder how these folks can speak six languages... Well, it's because it does get easier. You become good at learning languages.
 
-\[00:20:09.15\] A similar thing happens, I think, with programming languages, especially when they're in the same kind of realm... But I think the real advantage, or the real benefit, is to go completely outside of your comfort zone. So if you learned Spanish, go learn Chinese, or something. Some completely different language. So if you know Go, find something so different than Go - Lisp, or something - and it'll really expand your mind. It'll be harder, but beneficial.
+\[20:09\] A similar thing happens, I think, with programming languages, especially when they're in the same kind of realm... But I think the real advantage, or the real benefit, is to go completely outside of your comfort zone. So if you learned Spanish, go learn Chinese, or something. Some completely different language. So if you know Go, find something so different than Go - Lisp, or something - and it'll really expand your mind. It'll be harder, but beneficial.
 
 **Mat Ryer:** Great. Great advice.
 
@@ -96,7 +96,7 @@ For me, the question is around having a GraphQL interface over a relational data
 
 I've used APIs that are essentially GraphQL interfaces over relational databases, and it's too easy to abuse it if you ask for -- because it's very natural in GraphQL to ask for "I want these objects", and then I know that there's some relationship where these might be parents or children, so you might have groups, and there might be songs... Say that we've got some kind of music library. These songs are in genres, so we could actually get the genres and maybe get the top five songs from each of those genres. That's very easy to describe in GraphQL.
 
-**Jerod Santo:** \[00:24:16.21\] Right.
+**Jerod Santo:** \[24:16\] Right.
 
 **Mat Ryer:** But that might turn into something very expensive on the back-end.
 
@@ -118,7 +118,7 @@ In fact, I even used... There are some tools out there - I can't remember the na
 
 **Mat Ryer:** Yeah. There's another point here which I think is important. When we built Machine Box, one of the key things that we spent a lot of time on was actually the APIs. Machine Box, for anyone that doesn't know - it's machine learning technology inside a Docker container, and then it has an API which lets you do things like... We have Facebox, where you can teach it faces and ask it to recognize faces with images, and things like this. And the API talks in terms of faces, and talks in terms of images, and people. It has this language... And that's because it was handcrafted for that problem space. That's kind of the opposite of this approach of using tools to generate and just automatically expose things, like you talked about... It's a different approach.
 
-\[00:28:11.05\] It feels like you're gonna get a big saving by these automatic things, but whenever you go too far that way, you end up with an API that doesn't tell the story. It's just everything. And also leaks a lot of the internals, too. You're literally leaking your database structure... Which might be okay, because like you say, you've got hosts, you've got podcasts that have hosts, and there's episodes there, and I suppose the episodes have lots of hosts, one or more, and it also has guests...
+\[28:11\] It feels like you're gonna get a big saving by these automatic things, but whenever you go too far that way, you end up with an API that doesn't tell the story. It's just everything. And also leaks a lot of the internals, too. You're literally leaking your database structure... Which might be okay, because like you say, you've got hosts, you've got podcasts that have hosts, and there's episodes there, and I suppose the episodes have lots of hosts, one or more, and it also has guests...
 
 So yes, maybe the public model of your data matches, and that's okay, but sometimes that won't be the case. Sometimes there will be internals that you wanna either keep secret, just because they're messy, or maybe even give yourself the option of changing it later. And if you've just exposed this sort of raw GraphQL interface, your hands become tied. You can't change things around internally, because your API has already made promises.
 
@@ -134,7 +134,7 @@ Now, we do extend our admin to certain hosts and editors etc, but mostly the API
 
 And so ultimately, I would want it to be -- the thing that's cool about just putting an API out there in a situation like ours, where we're not trying to monetize its use, in the regard of like transactionally, is that we really want it to be consumed in a way that is empowering to the end person, and very much in that old mash-up style of web 2.0, like "Hey, let's take this API, and that API, mash them together..." I don't know if you were around during those days, but I just loved how open all the APIs were. It's like "Hey, take our data and use it." That's very much the spirit of what we would be doing.
 
-\[00:32:17.25\] So my goal would be -- and that's why I was thinking GraphQL, because it feels like that would provide more flexibility for those front-end devs, or for those end people, to just kind of feel like they're creating... I wonder if it's more ergonomic for a front-ender or for an API developer than a REST API.
+\[32:17\] So my goal would be -- and that's why I was thinking GraphQL, because it feels like that would provide more flexibility for those front-end devs, or for those end people, to just kind of feel like they're creating... I wonder if it's more ergonomic for a front-ender or for an API developer than a REST API.
 
 **Mat Ryer:** Yeah, it might be... And one of the things that you get - I'm not sure how easy this is to provide, but I know that every GraphQL API I've seen has it - is this discovery that you get, and the documentation that gets generated... And you get this kind of web-based IDE that lets you -- you can actually craft your queries in it, and it gives you autocomplete...
 
@@ -164,7 +164,7 @@ And so ultimately, I would want it to be -- the thing that's cool about just put
 
 But what we thought was that we would be continually working on these models to make the models better, and in some cases that is what we do, but what was a surprise for us was that actually improving the training data had a much bigger impact... So we didn't spend that much time on the models themselves, we spent a lot more time on training data.
 
-\[00:36:11.00\] So to answer your question about sarcasm and things like this - it really comes down to the quality and the amount of training data, and then it would be able to detect it.
+\[36:11\] So to answer your question about sarcasm and things like this - it really comes down to the quality and the amount of training data, and then it would be able to detect it.
 
 **Jerod Santo:** Gotcha.
 
@@ -188,7 +188,7 @@ If you just put a bunch of Onion articles, and a bunch of Not the Onion articles
 
 **Jerod Santo:** Wow.
 
-**Mat Ryer:** \[00:39:51.02\] Yeah... So we don't know for sure that that was happening, but we had a strong suspicion that that was being used for that reason... Which is very -- it's interesting, we're building machine learning technology, and it is so new... There is a lot to think about from the ethical side, and some cases came up where we were thinking about this, and whether it's something that we thought -- as we like to be ethical in the work that we do, there were some areas where it was quite difficult.
+**Mat Ryer:** \[39:51\] Yeah... So we don't know for sure that that was happening, but we had a strong suspicion that that was being used for that reason... Which is very -- it's interesting, we're building machine learning technology, and it is so new... There is a lot to think about from the ethical side, and some cases came up where we were thinking about this, and whether it's something that we thought -- as we like to be ethical in the work that we do, there were some areas where it was quite difficult.
 
 One example was Facebox -- there was a conscious early decision for Facebox to not work on children's faces. There are some good use cases for automatic face detection for children, like if they're missing; if a young person has gone missing, and you could just process all the CCTV and find them, and save them, then it's great.
 
@@ -230,7 +230,7 @@ One example was Facebox -- there was a conscious early decision for Facebox to n
 
 A lot of our early customers had their own Kubernetes running, or other similar platforms that they were already maintaining, so it fit nicely into that. And then Veritone - they were an early customer and they said "Look, we have lots of demand for this kind of technology." And one of the things that Machine Box allows is, since it's a Docker container, you can run it anywhere. You can run it on-prem, you can run it in various clouds... You have this sort of flexibility which you don't get for the other machine learning APIs. You don't have that same flexibility for the other machine learning APIs... So it made sense to join together and provide that technology at that scale, for their customers.
 
-**Jerod Santo:** \[00:44:25.09\] Yeah. Well, congratulations. That's awesome.
+**Jerod Santo:** \[44:25\] Yeah. Well, congratulations. That's awesome.
 
 **Mat Ryer:** Thank you.
 
@@ -272,7 +272,7 @@ If you're satisfied, then you don't need any more. But it leaves you wanting mor
 
 **Mat Ryer:** Yeah, that is so true. It's an interesting lesson. And it actually highlights the fact that working these 12-hours days that people do, and more, and all putting all this work into the projects - which I do still, because sometimes you just love something that you're doing, and that's what you want to do...
 
-**Jerod Santo:** \[00:48:15.10\] Yeah.
+**Jerod Santo:** \[48:15\] Yeah.
 
 **Mat Ryer:** But actually, making sure that you're happy and it's sustainable along the way is so important, and that's more important knowing that -- because I've been through that thing, where we had this success. So now I sort of realize, "Okay, there are different things that might matter more, and you should watch out for those along the way this time." So that's a lesson that I've definitely taken... Although I was still -- I mean, I was recently building a little blog for myself, and I was just obsessed with it... I get a bit obsessed, so I was just up early, working on it, forgetting to break to eat... These kinds of things starting to creep in, so I have to be very conscious about it and go and try and take deliberate breaks, go for walks, try and do some exercise... All these things, they are important, and they help sustain it.
 
@@ -292,7 +292,7 @@ Tools like JIRA and Slack... I mean, Slack - the fact that you can just interrup
 
 **Mat Ryer:** And especially features like that @here, where you can just -- in a channel you can just write @here and then send a message, and that will alert everyone who happens to be online and in that channel... Which can sometimes be -- I saw one the other day, 85 people were alerted because of this thing. Imagine that. Imagine walking int a room and there's 85 people, and you just go "Here!" and scream it, and everyone has to look at you... And then you say "Has anyone seen that document that I need?" People wouldn't tolerate it, but we tolerate it on Slack, for some reason. So that kind of thing...
 
-**Jerod Santo:** \[00:51:54.14\] Yeah... It's funny you say that, because while we talk, Adam is slacking me right now, and trying to distract me while I'm on this call with you, which is incredibly rude. And then also, reminds me of slack you're gonna bring up JIRA. Surely, Slack is not the only one to blame here, because -- I mean, the infamous Reply All on email has been going on for, I guess, decades now. I won't name names, but I've had some friends who work at large corporations and will talk about some email chains which would be going out to literally thousands and thousands of people, and be concerning like two or three of them... And it's just insane, the inefficiencies there.
+**Jerod Santo:** \[51:54\] Yeah... It's funny you say that, because while we talk, Adam is slacking me right now, and trying to distract me while I'm on this call with you, which is incredibly rude. And then also, reminds me of slack you're gonna bring up JIRA. Surely, Slack is not the only one to blame here, because -- I mean, the infamous Reply All on email has been going on for, I guess, decades now. I won't name names, but I've had some friends who work at large corporations and will talk about some email chains which would be going out to literally thousands and thousands of people, and be concerning like two or three of them... And it's just insane, the inefficiencies there.
 
 **Mat Ryer:** I think Gmail hides Reply All now, but you have to kind of dig into the menus to find it. So the default is it would just reply to the one person.
 
@@ -336,7 +336,7 @@ I wanna do an episode on the defer keyword in Go. I wanna do just an entire epis
 
 **Jerod Santo:** It's an immutable quiz that is append-only.
 
-**Mat Ryer:** \[00:56:06.11\] Yeah, and you reference the previous one \[unintelligible 00:56:07.00\]
+**Mat Ryer:** \[56:06\] Yeah, and you reference the previous one \[unintelligible 00:56:07.00\]
 
 **Jerod Santo:** Once you ask a question, you can't take it back. No take-backs.
 

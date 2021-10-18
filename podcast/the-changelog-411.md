@@ -8,7 +8,7 @@
 
 **Jerod Santo:** No doubt. So back to writing - you're also the CTO of HappyFunCorp, which is a software development product agency that works with startups and enterprises... But most germane to this conversation - you're the founding director of the GitHub Archive Program, which is exactly what we're here to talk about today. I would love to hear how this program started.
 
-**Jon Evans:** \[00:04:13.06\] The way it started for me was... Nat Friedman, the CEO of GitHub, who I've known for some years, had reached out to me saying he was interested in archiving software, in particular open source software, which is GitHub's - I don't know about main focus, but certainly a main interest for Nat and myself... And he wanted to look into the possibilities for that. So we kicked around a couple of ideas and decided that the best thing would be to actually go ahead and launch a program under the auspices of GitHub itself. So I took a sabbatical from HappyFunCorp (HFC) and came on to work full-time at GitHub on that last year.
+**Jon Evans:** \[04:13\] The way it started for me was... Nat Friedman, the CEO of GitHub, who I've known for some years, had reached out to me saying he was interested in archiving software, in particular open source software, which is GitHub's - I don't know about main focus, but certainly a main interest for Nat and myself... And he wanted to look into the possibilities for that. So we kicked around a couple of ideas and decided that the best thing would be to actually go ahead and launch a program under the auspices of GitHub itself. So I took a sabbatical from HappyFunCorp (HFC) and came on to work full-time at GitHub on that last year.
 
 **Jerod Santo:** So Nat came to you... Why you? Why Jon? Did you have a history of archiving things, were you a friend of his? Why did he select you for this?
 
@@ -34,7 +34,7 @@ And then we had found out that there is a Norwegian company called [Piql](https:
 
 So it wound up being a much larger thing of archiving on a sort of week-to-week, month-to-month basis, and also the very long-term Arctic mountain, under-the-permafrost one.
 
-**Jerod Santo:** \[00:08:14.21\] Right. So let's leave the permafrost for now and let's talk about some of these warm stores. So you're gonna have this warm-to-cold storage strategy, where you have dailies, or weeklies, or whatever it is - you can lay it out - that go to these different places. So of course, like you said, the frozen thunder is what gets all the press, right? And of course, it's the coolest, weirdest part about it; and it's like, that's the video. It's not gonna be of the Wayback Machine... But the Wayback Machine is involved. Tell us about all the things you're doing to do the warm long-term storage.
+**Jerod Santo:** \[08:14\] Right. So let's leave the permafrost for now and let's talk about some of these warm stores. So you're gonna have this warm-to-cold storage strategy, where you have dailies, or weeklies, or whatever it is - you can lay it out - that go to these different places. So of course, like you said, the frozen thunder is what gets all the press, right? And of course, it's the coolest, weirdest part about it; and it's like, that's the video. It's not gonna be of the Wayback Machine... But the Wayback Machine is involved. Tell us about all the things you're doing to do the warm long-term storage.
 
 **Jon Evans:** Yeah... And in fairness, the Wayback Machine does look cool. I don't know if you've been there, but...
 
@@ -70,7 +70,7 @@ So it wound up being a much larger thing of archiving on a sort of week-to-week,
 
 **Jon Evans:** Yeah, they're affiliated with us. They predated the archive program, and we sort of reached out and tried to incorporate them into that. There's them, there's also [Software Heritage](https://www.softwareheritage.org/), who are doing much the same thing... [The Internet Archive](https://archive.org/) - except they're trying to get all source code everywhere, and keep it in one single monorepo of their own. They're based in Inria in Paris, and they have their own technology and scraping and so forth. So you know, as with all backups, we want multiple copies.
 
-**Jerod Santo:** \[00:12:26.05\] Yeah. If it doesn't exist in three places, it doesn't exist, right?
+**Jerod Santo:** \[12:26\] Yeah. If it doesn't exist in three places, it doesn't exist, right?
 
 **Jon Evans:** Right.
 
@@ -116,7 +116,7 @@ Obviously, this has some level of judgment, because we did have a limited amount
 
 **Jon Evans:** I don't really know. We looked into it and we were like "That's gonna be more than we probably have space for." 10x seems high to me, but not super-high, but that's a gut feeling. I don't really have the numbers off-hand.
 
-**Jerod Santo:** \[00:16:18.05\] Sure. So when you that "we have space for", are you talking about terabytes, are you talking about physical space in this vault? You only have so much surface area in there, volume that you can fill. Is that correct?
+**Jerod Santo:** \[16:18\] Sure. So when you that "we have space for", are you talking about terabytes, are you talking about physical space in this vault? You only have so much surface area in there, volume that you can fill. Is that correct?
 
 **Jon Evans:** Yeah, I mean -- the vault is a former coal mine. So in terms of cubic meters or cubic feet, there's a very large amount of space. \[laughter\] Coal is not the densest stuff on earth. But we had a limited amount of tapes that we were generating, and 186 I think it turned out to be... And each of those has a limitation of about 110 gigabytes, which - you know, on the one hand it's actually fairly dense, for something which is written to a visual format... But on the other hand, when you're accustomed to one terabyte USB sticks and so forth, it seems a little worrying, and something you have to sort of recalculate around.
 
@@ -128,7 +128,7 @@ Very cool. Adam and I were looking at that, because we started to notice there's
 
 **Jerod Santo:** Because they missed the boat. Or I guess it's a train. Or an airplane? I don't know how you get out there.
 
-**Break:** \[00:18:36.16\]
+**Break:** \[18:36\]
 
 **Jerod Santo:** So we were talking about storage format, and many of us have ran into the scenario where you think you backed something up, and then you wait a few years and you realize that there's nothing in the world that can read that anymore... Whether it's Betamax, or it's been damaged; CD-ROMs, DVDs... They're still out there, but you go 100 years into the future - there may not be any CD readers out there that will work. So I'm sure that was a huge consideration. When you're trying to shoot for 1,000 years...
 
@@ -162,7 +162,7 @@ Very cool. Adam and I were looking at that, because we started to notice there's
 
 **Jon Evans:** Well, yes to all of those, maybe. We don't really have a fixed formal plan for the next snapshot, but I personally expect that there is going to be a next snapshot five years from now maybe. We're working with [Project Silica](https://www.microsoft.com/en-us/research/project/project-silica/), which is this kind of amazing Microsoft Research project that uses fs(femtosecond) lasers and 5D polarized light technology to store enormous amounts of data on quite small platters of glass. So that's a possible format of the future.
 
-\[00:24:05.23\] That's theoretically good for 10,000 years, because obviously 1,000 years isn't good enough... \[laughs\] But it's a little uncertain what the next snapshots will look like... But the general idea is that another way to get redundancy is to have multiple snapshots in multiple different locations.
+\[24:05\] That's theoretically good for 10,000 years, because obviously 1,000 years isn't good enough... \[laughs\] But it's a little uncertain what the next snapshots will look like... But the general idea is that another way to get redundancy is to have multiple snapshots in multiple different locations.
 
 **Jerod Santo:** So potentially more locations coming... What was the process to get them out to this particular place? You mentioned it was February 2nd, 2020 the snapshot was taken, you have 186 reels put in boxes... Were these just -- you slap a FedEx shipping label on them, or how do you get them up there?
 
@@ -194,7 +194,7 @@ Very cool. Adam and I were looking at that, because we started to notice there's
 
 **Jerod Santo:** Oh yes, I have seen the picture of that building. It's very cool. So you can't do any bug fixes though; so you can't go up there, extract your code, fix something real quick... Because that's in history forever. I'm sure I have bugs in there.
 
-**Jon Evans:** \[00:27:48.04\] Oh, I definitely do. I fixed one the other day, and I actually thought "The stupid little typo is now eternal." \[laughter\] So yeah, one of my personal repos that happened to get captured up there... But I guess that's part of the appeal. Maybe in the future they'll look back and think "In these antiquated days of software development they still had bugs, they didn't have AI to automatically fix them while they were working. How fascinating." You know, maybe something like that.
+**Jon Evans:** \[27:48\] Oh, I definitely do. I fixed one the other day, and I actually thought "The stupid little typo is now eternal." \[laughter\] So yeah, one of my personal repos that happened to get captured up there... But I guess that's part of the appeal. Maybe in the future they'll look back and think "In these antiquated days of software development they still had bugs, they didn't have AI to automatically fix them while they were working. How fascinating." You know, maybe something like that.
 
 **Jerod Santo:** Or they might think "We don't know who this Jerod Santo fella is, but he was a real idiot. He was a real bad programmer." \[laughter\] Well, speaking of that, I guess, can you opt out? Can you say "Yeah, not for me... This code is public, but I don't want it to be in perpetuity."
 
@@ -212,11 +212,11 @@ A thing that people don't realize necessarily is that software is surprisingly e
 
 **Jerod Santo:** I mean, it could be sort of a Rosetta Stone if there were other code that was found, that they didn't know how to interpret it, or didn't know how to execute it... Because this has those instructions. Maybe there's an opportunity there to find the runtime that that ran against, or fix that dependency problem... Like "Hey, is all of Npm in here? Maybe we can actually resolve these dependencies." That's what I think about, when it comes to execution... Because a lot of the code up there - you're not vendoring your dependencies in your repo, right? So a lot of the source code is there. Are you taking binaries too, like executable code? Or would everything have to be built from source in this hypothetical situation where someone's trying to restore something.
 
-**Jon Evans:** \[00:31:59.08\] There are some binaries up there. The repos with a lot of stars have gotten binaries, though mostly it's just source. I am kind of curious myself just how many copies of Node modules we wound up caching because I thought seriously about excluding that from the archive, but then I decided not to in the end... And even that might have some value, an implicit snapshot of the various dependencies along the way, and how those changed. But it wouldn't shock me greatly if there were a lot of Node modules just raw up there, duplicated over and over and over again. But that might be useful as well.
+**Jon Evans:** \[31:59\] There are some binaries up there. The repos with a lot of stars have gotten binaries, though mostly it's just source. I am kind of curious myself just how many copies of Node modules we wound up caching because I thought seriously about excluding that from the archive, but then I decided not to in the end... And even that might have some value, an implicit snapshot of the various dependencies along the way, and how those changed. But it wouldn't shock me greatly if there were a lot of Node modules just raw up there, duplicated over and over and over again. But that might be useful as well.
 
 There is also gonna be a master index. So in principal, assuming everything's on GitHub, which most open source is these days, and it's not some sort of private repo, then you should be able to, given time and good computers, sort of reconstruct most of the dependency tree for any given project.
 
-**Break:** \[00:32:51.16\]
+**Break:** \[32:51\]
 
 **Jerod Santo:** So one of the things I read about in the documentation around this is this idea of a tech tree. Maybe you already described this with the manuals, but it's like a Tech Tree, and I wasn't sure exactly what that is. Can you describe what the Tech Tree is and how that concept plays into the archive?
 
@@ -224,7 +224,7 @@ There is also gonna be a master index. So in principal, assuming everything's on
 
 So in theory, there'd be enough information that you could in fact reconstruct a fair amount of modern technology from the information in those various books. Now, this is a very romantic and compelling image. I should mention also in all honesty that our advisors were like "Yeah, this is cool, but we are living in what is gonna be the best-documented era in all of history already." It's very unlikely we're gonna have a future in which many copies of these books don't already exist around in many other physical libraries that are kind of easier to get to... But we figured it'd be useful as context and general understanding for the source code which goes with it as well.
 
-**Jerod Santo:** \[00:35:58.21\] So did you end up packaging that stuff up, or this is an idea that's ongoing?
+**Jerod Santo:** \[35:58\] So did you end up packaging that stuff up, or this is an idea that's ongoing?
 
 **Jon Evans:** It is gonna be packaged up. We actually just released it for public commentary last month, and I've been sort of incorporating pull requests and issues on that recently... So we're going to compile those books, we're going to put visual copies... This will all be human-readable, not encoded, for obvious reasons, so that you've got the background to begin with... Except for Wikipedia, because that's too big. But we're gonna put a snapshot of Wikipedia.
 
@@ -266,7 +266,7 @@ The v1, as with the Long Now's Manual For Civilization, is existing works, but I
 
 **Jerod Santo:** So you have thousands of conversations of technologists through the years associated with that. That's the kind of thing that I think is interesting in a tech tree as well - what were people saying to each other?
 
-**Jon Evans:** \[00:40:05.00\] Yeah, and actually that's one of the things that I get excited about. I mean, there's a lot of source code, source code is very important, there's the fundamental pinnings of open source, which is a cornerstone of technology and civilization as we know it - that's critical as well. But also, as we all know, people use GitHub for all kinds of weird things.
+**Jon Evans:** \[40:05\] Yeah, and actually that's one of the things that I get excited about. I mean, there's a lot of source code, source code is very important, there's the fundamental pinnings of open source, which is a cornerstone of technology and civilization as we know it - that's critical as well. But also, as we all know, people use GitHub for all kinds of weird things.
 
 **Jerod Santo:** Right...
 
@@ -314,7 +314,7 @@ People learn it younger, everyone's more interconnected; it's not like in little
 
 **Jon Evans:** Right.
 
-**Jerod Santo:** \[00:44:08.21\] But that was like THE version. And sure, we could ship patches maybe, but they weren't gonna get in for three months. This is like "You get one shot at this snapshot." You put in the Declaration of Rights and stuff; these things where you're like "What else should we shove in here?" Did you have that moment where you were like "No, we've gotta close the vault. We're just gonna stop shoving stuff in", or was it difficult to stop?
+**Jerod Santo:** \[44:08\] But that was like THE version. And sure, we could ship patches maybe, but they weren't gonna get in for three months. This is like "You get one shot at this snapshot." You put in the Declaration of Rights and stuff; these things where you're like "What else should we shove in here?" Did you have that moment where you were like "No, we've gotta close the vault. We're just gonna stop shoving stuff in", or was it difficult to stop?
 
 **Jon Evans:** No, we totally did. It was difficult to say "Okay, this is it." It was useful that we actually had a fixed date, and like "This is gonna be the snapshot." We set that fairly early on, and that was good. My degree is in electrical engineering, and I did a couple of co-op terms. I went to Waterloo in Canada, that does co-op of chip designs at Nortel and at Hewlett-Packard before I went into software, and spent the entire rest of my career after I graduated in software, with hardware being much too unforgiving and permanent...
 
@@ -344,7 +344,7 @@ That's a long list, but I think it was important to treat this not as a thing th
 
 **Jerod Santo:** So you say there's no ROI on this... What was the magnitude of the I, at least? You don't have to share specific numbers, but was this a large investment? Is the rent high on the mine? How much went into this kind of project?
 
-**Jon Evans:** \[00:47:27.26\] I'm pretty sure I'm not supposed to share numbers, but I can say I think it was more economical than people assume... And in fairness, Piql, who are obviously the partner I really should have mentioned, in the Arctic World Archive, were very understanding in working with us and realizing that this was a beneficial project more than a private benefit project. So there was no sort of rent we paid upfront for storage in perpetuity in the World Archive, which is useful and is probably quasi-eternal, as much as things are eternal these days... And it's owned by the Norwegian government.
+**Jon Evans:** \[47:27\] I'm pretty sure I'm not supposed to share numbers, but I can say I think it was more economical than people assume... And in fairness, Piql, who are obviously the partner I really should have mentioned, in the Arctic World Archive, were very understanding in working with us and realizing that this was a beneficial project more than a private benefit project. So there was no sort of rent we paid upfront for storage in perpetuity in the World Archive, which is useful and is probably quasi-eternal, as much as things are eternal these days... And it's owned by the Norwegian government.
 
 The Svalbard Archipelago actually has its weird own legal structure. Anyone can go to Svalbard, you don't need a passport to go there. Anyone can work there, and it's governed by its own special treaty, which was signed after World War I, which made it a place officially free of war, and free habitation for any human being that can get there.
 

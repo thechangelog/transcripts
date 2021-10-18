@@ -22,7 +22,7 @@ I will let you ask me more questions and then I can tell you more.
 
 **Wojciech Zaremba:** It's clear to me that AI consists of more or less three components. You have to be able to inject a gigantic amount of compute, most likely, you need to invent some new algorithms, and AI needs some kind of a data or environment in which it lives. These are three main components that you have to attack if you want just the capabilities of HAI.
 
-\[00:04:19.12\] I think that OpenAI is extremely well-suited to pursue these goals because of a few reasons. One, we are not bounded by a product, and often when we are building a product, a quite huge fraction of the work has to do with figuring out the niche or target marketing, packaging, and so on... And it's clear that there are various problems that you can attempt that have very small economical value, but it's actually very clear that they are making actual progress.
+\[04:19\] I think that OpenAI is extremely well-suited to pursue these goals because of a few reasons. One, we are not bounded by a product, and often when we are building a product, a quite huge fraction of the work has to do with figuring out the niche or target marketing, packaging, and so on... And it's clear that there are various problems that you can attempt that have very small economical value, but it's actually very clear that they are making actual progress.
 
 If you would, for instance, be able to train a system that can solve Riemann hypotheses...
 
@@ -40,7 +40,7 @@ I think the NIPS conference sold out in like 15 minutes... It's faster than a Ta
 
 **Daniel Whitenack:** Exactly, yeah. And OpenAI is really at the center of that hype... Have you seen advantages and disadvantages to that? In terms of the progress that you're going after.
 
-**Wojciech Zaremba:** \[00:08:07.17\] It's extremely important to not over-promise, deliver and so on... Otherwise, over some period of time it's gonna bite you in the ass, simple as that. The fact of being a well-recognized organization definitely helps to hire incredibly brilliant people. I'm feeling extremely honored that people around, pretty much everybody on some axis is better than me. I'm feeling honored that these folks want to work with me.
+**Wojciech Zaremba:** \[08:07\] It's extremely important to not over-promise, deliver and so on... Otherwise, over some period of time it's gonna bite you in the ass, simple as that. The fact of being a well-recognized organization definitely helps to hire incredibly brilliant people. I'm feeling extremely honored that people around, pretty much everybody on some axis is better than me. I'm feeling honored that these folks want to work with me.
 
 **Daniel Whitenack:** Awesome. Thank you for that. I definitely respect a lot of the things you're doing, so I'm looking forward to seeing what happens from here... But now I wanna talk a little bit -- you're gonna be talking about deep reinforcement learning for robotics at OpenAI... Give us just a brief sketch of what you'll be talking about.
 
@@ -54,7 +54,7 @@ Another part of the assumption is that you have to be able to reset the entire t
 
 I started myself to think that maybe the paradigm of reinforcement learning, instead of being closed to actually what is happening when the human is learning, is actually closer to what is happening during evolution, like learning... You have a really gigantic population, it has a huge number of interactions, a human kind of thinking through what truly happens and what should be the outcomes.
 
-\[00:11:53.06\] It is also kind of natural to me that in the case of evolution, like learning, or let's say in the case of human learning, there are essentially two stages. There's a stage that takes this gigantic amount of data which is evolution... Actually, evolution IS reinforcement learning, it's like like "Do you wanna survive or die?" and this stage is powerful enough to create our brains, that can then rapidly learn.
+\[11:53\] It is also kind of natural to me that in the case of evolution, like learning, or let's say in the case of human learning, there are essentially two stages. There's a stage that takes this gigantic amount of data which is evolution... Actually, evolution IS reinforcement learning, it's like like "Do you wanna survive or die?" and this stage is powerful enough to create our brains, that can then rapidly learn.
 
 So I was thinking, it's actually not such a bad thing if we can learn in simulation \[unintelligible 00:12:31.23\] of the task, and then in reality there is quite a rapid adaptation... So that's what we did.
 
@@ -80,7 +80,7 @@ The system has a chance only to be successful if from time to time it gets a rew
 
 **Daniel Whitenack:** And that's what you would be doing in that first stage, where you're teaching a specific task... Is that right?
 
-**Wojciech Zaremba:** \[00:15:53.11\] Correct. Let me briefly describe the task... We have a new match about the robotics over a year ago; we went to a robotics conference, we asked people what are the things that are impossible or very hard to do in the classical robotics, and people were saying anytime when you have a large number of degrees of freedom, it's very hard to control when there is a lot of interaction. When you touch in many places simultaneously, that's also very hard to model.
+**Wojciech Zaremba:** \[15:53\] Correct. Let me briefly describe the task... We have a new match about the robotics over a year ago; we went to a robotics conference, we asked people what are the things that are impossible or very hard to do in the classical robotics, and people were saying anytime when you have a large number of degrees of freedom, it's very hard to control when there is a lot of interaction. When you touch in many places simultaneously, that's also very hard to model.
 
 It is way easier when you are in the open space and you are not touching anything... Or if the problem somehow can be simplified to one or two-dimensional problems, and there are some closed-form solutions.
 
@@ -100,7 +100,7 @@ In the case of robotics, let's say the one that we bought has 24 degrees of free
 
 So if we don't know exactly what's the weight of the cube - more or less maybe we know, but it might be off - if we have a network that just has a capability to through interaction pass the information \[unintelligible 00:19:31.16\] it has to try, based on the initial few seconds, try to find out what are these values. It's a combination of two things - on one side, it tries to be robust with some components, and on the other side it tries to adapt to various things. In a sense, this is the core of the idea to actually achieve the transfer to reality.
 
-**Daniel Whitenack:** \[00:20:07.27\] Yeah, that's really interesting. How long have you been working towards this type of adaptation and how has the process gone? Have you made other attempts to make this transfer to reality that haven't worked as well?
+**Daniel Whitenack:** \[20:07\] Yeah, that's really interesting. How long have you been working towards this type of adaptation and how has the process gone? Have you made other attempts to make this transfer to reality that haven't worked as well?
 
 **Wojciech Zaremba:** The entire project more or less took us one year. Already on there were maybe five people, and later in the project there is maybe closer to 15 or so... So I would say an average ten human years. There were many attempts internally, and many of the things that we tried partially worked, and so on.
 
@@ -122,7 +122,7 @@ So in a sense, you tell someone "Make money" - it's like, the best way to make m
 
 **Wojciech Zaremba:** To reach the objective. And in some sense, you can say that the systems that we are training - it has a little bit like a profile of a psychopath; it only cares about one thing, and one thing only... That's literally how we optimize them; they are completely abstracted away from everything else, and they just want these treats, "Treats, treats...!" They actually don't even know about the things that are really important to us.
 
-\[00:23:57.12\] So the question is "What's the way to inject what we want, what is our ethics?" I would say there are multiple axes into safety, so I just told you about one, which is more or less called mis-specification. You specify something, but it's actually something slightly different than what you really wanted... And you can see it even in some computer games - you have a system to maximize the score in the game, but truly you ask the system to finish the game, and then it finds some bug on some level of the game and it keeps on staying there, where it's generating a lot of points, but actually it doesn't progress anymore in the game.
+\[23:57\] So the question is "What's the way to inject what we want, what is our ethics?" I would say there are multiple axes into safety, so I just told you about one, which is more or less called mis-specification. You specify something, but it's actually something slightly different than what you really wanted... And you can see it even in some computer games - you have a system to maximize the score in the game, but truly you ask the system to finish the game, and then it finds some bug on some level of the game and it keeps on staying there, where it's generating a lot of points, but actually it doesn't progress anymore in the game.
 
 There are other axes, which is how to make the systems robust to adversaries... And to give some concrete examples - there was a Twitter bot released by Microsoft, Tanya, and... The folks from Microsoft - there is no doubt there's a lot of very clever researchers and so on, so they taught true various scenarios... But despite thinking it through, it turns out that the both within several hours was hijacked and repurposed, as it started saying very offensive things on Twitter... So in a sense, you might ask "Is it the case that as the systems will become smarter, will they be less prone to it?" I actually think that it might be due to the overall increased complexity, the surface area will just increase.
 
@@ -138,7 +138,7 @@ I would say also all these three components actually feed into each other. Capab
 
 There are also great books. There is a book by Ian, a deep learning book, there is a reinforcement learning book by Richard Sutton... That would be my starting point. And I think it's actually quite important to get very strong fundaments, because in a sense, by default when you run your models, first they do not work at all. Then the question is "So what do you do?"
 
-\[00:28:09.10\] The simpler models, the fewer tricks/steps you have to do, and you have to familiarize yourself with them. The harder the models, the larger number of these steps... So it's very likely that at first you don't know any of them. If you need to do ten things, you are less likely to succeed versus if you need to do two things.
+\[28:09\] The simpler models, the fewer tricks/steps you have to do, and you have to familiarize yourself with them. The harder the models, the larger number of these steps... So it's very likely that at first you don't know any of them. If you need to do ten things, you are less likely to succeed versus if you need to do two things.
 
 I would really recommend to go through fundamentals instead of jumping right away to the most difficult architectures, and I would really recommend as much as you can to implement things from scratch.
 
@@ -154,7 +154,7 @@ I also, in a sense, want people to be able from day zero to contribute. Still, I
 
 **Wojciech Zaremba:** Correct, yeah.
 
-**Daniel Whitenack:** \[00:30:58.27\] Awesome. Well, I'd love to take time -- if there's anything, where can people find out more about OpenAI, and are there any open source projects or papers or efforts that you'd like to share? We'll for sure post those in the show links, and everything.
+**Daniel Whitenack:** \[30:58\] Awesome. Well, I'd love to take time -- if there's anything, where can people find out more about OpenAI, and are there any open source projects or papers or efforts that you'd like to share? We'll for sure post those in the show links, and everything.
 
 **Wojciech Zaremba:** We are quite frequently releasing what we are able to build on our blog. That's at the openAI.com website. We're also quite active on Twitter - twitter.com/openai.
 

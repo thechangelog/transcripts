@@ -10,7 +10,7 @@ What has changed with your idea around open source? Dracula Pro is obviously a m
 
 Back in 2019, at my regular job, my 9-to-5, I wanted to learn more about sales and understand how the business worked, and I was like "Yeah, I can read some books, I can try to figure out how the sales pipeline at my company works", but I think the best way to learn is by doing it yourself. So I looked at all my open source projects, and I received an email from the Google Search Cosole, with all the sites that I have on my analytics, and I saw there was like a million page views on the Dracula site... And I was like "Oh my gosh, there's something here." So I decided to take a shot on that project in particular, and that's how it all got started, like "Okay, I'm gonna try this sales thing work, and if it works, great; if it doesn't, that's fine. I'm gonna survive." It was pretty much like that.
 
-**Adam Stacoviak:** \[00:04:14.01\] I think people have a misconception what sales is. I think that's why people hate salespeople. There's some really bad ones out there; sales really is just a value exchange. Solving problems, helping people. And I think we get this sort of misconfiguration of what sales is, and we're like "I don't wanna be that icky person."
+**Adam Stacoviak:** \[04:14\] I think people have a misconception what sales is. I think that's why people hate salespeople. There's some really bad ones out there; sales really is just a value exchange. Solving problems, helping people. And I think we get this sort of misconfiguration of what sales is, and we're like "I don't wanna be that icky person."
 
 **Zeno Rocha:** Exactly.
 
@@ -38,7 +38,7 @@ So I started learning about that, and I was able to do something that felt good,
 
 Another piece is fonts. If I look at the most interesting fonts out there, and there's a whole trend in terms of ligatures - okay, that's another interesting point. At the same time, I was looking at Apple, and what Apple was doing... And there was pretty much two trends that I saw Apple doing. One was having their Pro products - AirPods Pro, or anything Pro, the iPad Pro... And also, they're going heavily on dark mode - okay, that's another interesting point. And another trigger for me maybe was the fact that I saw other people making money with Dracula, that was not me.
 
-**Jerod Santo:** \[00:08:17.26\] Oh, really? What were they doing?
+**Jerod Santo:** \[08:17\] Oh, really? What were they doing?
 
 **Zeno Rocha:** We were doing like a keyboard with Dracula key caps...
 
@@ -106,7 +106,7 @@ This is one of the reasons why developers hate JIRA so much, and they love GitHu
 
 **Adam Stacoviak:** For Pro though, what I think was really interesting was being able to go beyond a text editor. So I've got my Alfred themes in that way... So I think, if you rewind a little bit, what I like is the story, the idea of Dracula... And I also like Zeno, so it was easy to say "Okay, well, he's got this thing. I'm sure he's been working hard on it. I've used Dracula in the past for free... I might as well find a way to support him as a maker and as a person I'm a fan of... And I also enjoy Dracula." I now use it in code, I use it in -- you've made it really easy to use in Oh My Zsh; \[unintelligible 00:11:50.29\] and then the same with Alfred. So in my terminal, in VS Code and In Alfred, which is -- I don't know how to describe Alfred. If you don't know what it is, check it out. I think it's AlfredApp.com, or something like that... But all those themes are themed with my preferred version, which was Van Helsing. That's my flavor. I like dark themes... So that's me.
 
-**Jerod Santo:** \[00:12:17.05\] Cool. So what did you land on in terms of the pricing structure, and how that works out, and the details there? Because I noticed it doesn't seem like it's monthly or annually...
+**Jerod Santo:** \[12:17\] Cool. So what did you land on in terms of the pricing structure, and how that works out, and the details there? Because I noticed it doesn't seem like it's monthly or annually...
 
 **Zeno Rocha:** That's a great question.
 
@@ -136,7 +136,7 @@ That was something completely crazy. When I see these numbers, I'm like "Okay, t
 
 **Zeno Rocha:** They truly believe that if I do my part and everybody does their part, everybody ends up with a better product... So I think there's a big part of that, too.
 
-**Adam Stacoviak:** \[00:16:02.26\] Well, I wouldn't undercut the idea of story. I mean, who doesn't want to use the variant called Blade, or Morbius?
+**Adam Stacoviak:** \[16:02\] Well, I wouldn't undercut the idea of story. I mean, who doesn't want to use the variant called Blade, or Morbius?
 
 **Zeno Rocha:** \[laughs\]
 
@@ -178,7 +178,7 @@ It's basically a survey or a way of tracking purchasing power parity - which is 
 
 **Jerod Santo:** It's usually just merely ignorance or lack of thought about other people that leads us to this style of pricing. Those who are in the U.S, we all are guilty of it, in some way or the other. I think especially when it comes to conference access, especially these virtual conferences, it's huge, because the marginal cost of adding one more person to a virtual conference is pretty much zero. The bandwidth cost is it.
 
-\[00:20:09.26\] With physical goods is harder, because your cost of goods sold isn't gonna go down, because you're selling it into that country. Maybe if you can manufacture it there, there's all sorts of other concerns. But with virtual goods, the marginal cost is zero; you're really just missing that sale, if you look at it as a sale... And that person's missing their opportunity to access your conference, or to use Dracula Pro, and they're gonna turn to other means if they really want it. So I think we're gonna see more of it. I think it's a great thing.
+\[20:09\] With physical goods is harder, because your cost of goods sold isn't gonna go down, because you're selling it into that country. Maybe if you can manufacture it there, there's all sorts of other concerns. But with virtual goods, the marginal cost is zero; you're really just missing that sale, if you look at it as a sale... And that person's missing their opportunity to access your conference, or to use Dracula Pro, and they're gonna turn to other means if they really want it. So I think we're gonna see more of it. I think it's a great thing.
 
 **Adam Stacoviak:** This isn't a show about this topic in particular, but I'm curious how you do it though... How do you determine where they're at and then price them appropriately? That's the hard part, probably. Translations. I don't wanna translate this into a language that seems like it's native because your IP says you're in Poland, or something like that, and assume... I want other things to give me that data. How do you do it in a way that's fair to you as well, and not let people --
 
@@ -216,7 +216,7 @@ It's basically a survey or a way of tracking purchasing power parity - which is 
 
 **Jerod Santo:** So do you consider Dracula Pro a finished product? Are you continually maintaining it? With subscription models, the idea is I continue to work on it, you continue to subscribe; value exchange continues, it makes a lot of sense, it scales better for the maintainer... But if Dracula Pro is pretty much done, and you just sell these licenses to it, it works out pretty well for everybody. Are you still toiling away on it?
 
-**Zeno Rocha:** \[00:23:55.01\] Yeah, there are a couple of ideas that I'm working on. Number one is the number of supported applications. On the open source version, there are 107, if I'm not mistaken. And on the pro version it's only 14 or 16, something like this. So I still have a long way to go to catch up with the open source; I think there is a long road over there. And in terms of how I'm gonna distribute that, what I'm doing so far is trying to overdeliver. That's my strategy. I launched with 9 or 8, and I'm overdelivering with these new themes for free. So I just say "Hey, here's a new theme for free. Here's a new theme for free."
+**Zeno Rocha:** \[23:55\] Yeah, there are a couple of ideas that I'm working on. Number one is the number of supported applications. On the open source version, there are 107, if I'm not mistaken. And on the pro version it's only 14 or 16, something like this. So I still have a long way to go to catch up with the open source; I think there is a long road over there. And in terms of how I'm gonna distribute that, what I'm doing so far is trying to overdeliver. That's my strategy. I launched with 9 or 8, and I'm overdelivering with these new themes for free. So I just say "Hey, here's a new theme for free. Here's a new theme for free."
 
 At some point I might do some sort of extension packages, like video games in the past, where you buy version one, and then -- I don't know if you played The Sims. So you buy The Sims, and that's the game...
 
@@ -250,7 +250,7 @@ So just putting that out there, to think - even though you're not going down the
 
 So when I'm working on the open source version, for me it's like I'm working on Pro. There's no distinction in my mind. There's more distinction when there's something related to communication, marketing, that sort of thing... But this is one interesting point for all of you who are listening right now, and you have an open source project that you love, that side-project that you really wanna maintain, but you don't have time because of work, family, friends, all that... And when you do that, it gives you that power. It's like "No, this is working. People are using it." You are being rewarded by your work, and now you can actually even spend more time... People are super-crazy about Dracula, so maybe I can do some T-shirts, merch, stickers around it. There's so many ideas... And because you have that power, now you can spend more time on it.
 
-\[00:28:20.13\] So I would really recommend trying it out, even though it's really hard adding all of that value that Adam was mentioning... Man, it takes so much time, only on that landing page. I've spent a lot of time thinking about the content; what is the story that I wanna tell? How do I justify -- why would someone open this and think "Yes, that's for me. I'm willing to spend the money."
+\[28:20\] So I would really recommend trying it out, even though it's really hard adding all of that value that Adam was mentioning... Man, it takes so much time, only on that landing page. I've spent a lot of time thinking about the content; what is the story that I wanna tell? How do I justify -- why would someone open this and think "Yes, that's for me. I'm willing to spend the money."
 
 **Jerod Santo:** Has anybody followed in your footsteps, because you definitely broke new ground here. As you said, there weren't people selling themes. Has anybody come behind you and said "I've got a theme everybody loves, and I'm gonna offer a pro version"?
 
@@ -274,7 +274,7 @@ So when I'm working on the open source version, for me it's like I'm working on 
 
 **Zeno Rocha:** I totally agree. I think when we are young, we usually just think about how much happiness that project brings to you, and that's a huge factor, huge variable. But yeah, as time goes by, there are other priorities, other things you have to take care of... And if you can diversify your streams of income... Like, "Okay, I have my job, it's paying well, I'm happy. I don't wanna leave my job at all." But if I can generate new streams of income with something that I love - man, why not?
 
-**Adam Stacoviak:** \[00:31:52.23\] One other thing that you've got (it seems like) a small passion for; I can't tell, you've only included four... But in Dracula Pro you've got four hand-picked typography options: Cascadia, Firacode, Jetbrains Mono, and Vector Mono. Now, I'm only really familiar with Firacode, because hey, we have a Maintainer Spotlight coming out pretty soon with Nikita on that subject...
+**Adam Stacoviak:** \[31:52\] One other thing that you've got (it seems like) a small passion for; I can't tell, you've only included four... But in Dracula Pro you've got four hand-picked typography options: Cascadia, Firacode, Jetbrains Mono, and Vector Mono. Now, I'm only really familiar with Firacode, because hey, we have a Maintainer Spotlight coming out pretty soon with Nikita on that subject...
 
 **Jerod Santo:** It's on the feed now, as this one goes out. That one will be the previous Maintainer Spotlight, with Tonsky.
 
@@ -304,7 +304,7 @@ The whole premise of that is that you transform those multiple symbols into just
 
 **Zeno Rocha:** Yeah, I would love that. I can't even imagine -- seeing the dropdown when you select fonts, and then seeing a Dracula Mono there... Oh, my gosh. That would be amazing.
 
-**Break:** \[00:35:45.27\]
+**Break:** \[35:45\]
 
 **Adam Stacoviak:** The conversation though -- it was more than just a theme. I'm actually using \[unintelligible 00:36:52.04\] because that's what you wrote on DraculaTheme.com/pro when you mentioned seven habits of highly productive developers. Now, first, I wanna know - is seven habits of highly anything trademarked? Because there's another book that's really popular that's very similar named... What are your thoughts on that?
 
@@ -346,7 +346,7 @@ But yeah, writing a book is a very different beast from programming. But still, 
 
 **Jerod Santo:** \[unintelligible 00:39:45.21\] I could on seven, but I can't quite get to 14..."
 
-**Zeno Rocha:** \[00:39:54.11\] \[laughs\] You know how I did it? I'm gonna tell you how I got the 14.
+**Zeno Rocha:** \[39:54\] \[laughs\] You know how I did it? I'm gonna tell you how I got the 14.
 
 **Jerod Santo:** Okay.
 
@@ -392,7 +392,7 @@ It's a very difficult thing, especially for programmers. We are all introspectiv
 
 I think there's one that I kind of touched a little bit on this... And it's around knowing the business side.
 
-\[00:44:16.11\] I think when we first start as programmers, we think like this, that the sales side is bad, and it's hard to sympathize with salespeople, because all they want inside the organization is to sell, at any cost. So if that means adding a new feature, if that means promising some new \[unintelligible 00:44:37.03\] to include on the roadmap, then that's it, and we have to comply, and that's all. And they don't care about our code. So as developers, we're super-protective over the quality of our code, and those people are the opposite; it's like, "I don't care about the quality of the code, unless it sells", and that's it.
+\[44:16\] I think when we first start as programmers, we think like this, that the sales side is bad, and it's hard to sympathize with salespeople, because all they want inside the organization is to sell, at any cost. So if that means adding a new feature, if that means promising some new \[unintelligible 00:44:37.03\] to include on the roadmap, then that's it, and we have to comply, and that's all. And they don't care about our code. So as developers, we're super-protective over the quality of our code, and those people are the opposite; it's like, "I don't care about the quality of the code, unless it sells", and that's it.
 
 So I wrote one that is called "Master the dark side", where I make this comparison between the light side being the engineering part, and the dark side being the sales side... And I tried to convince people on why it's important to know the business side of things. Some people think that we are paid to code, and I don't think that's the case. We are paid to solve problems. If that means using code to solve those problems - great. If that's not the case - okay, then you don't necessarily have to code. That's not your job, it's not to write characters into a black screen. It's actually to solve something for real. Understanding that helps you in so many different levels.
 
@@ -420,7 +420,7 @@ So I wrote one that is called "Master the dark side", where I make this comparis
 
 They have this program called KDP (Kindle Direct Publishing) and they have all these sort of things that you have to fill out, and put your book out there, and then there's this whole thing of identifying a book, the ISPN that you have to pay, and you get this unique number; you can pay for ten unique numbers at once, or just one... And every single version of your book is a different ISPN, even from the Kindle version to the paperback version, there's a different identificator.
 
-\[00:48:08.02\] There's so many things that when you open that Pandora box you start to learn... And how you do revisions by yourself, how do you do illustrations, and how do you generate your book. Are you gonna generate an epub, or a mobi? And how you convert whatever format you used... There's a lot of different tooling.
+\[48:08\] There's so many things that when you open that Pandora box you start to learn... And how you do revisions by yourself, how do you do illustrations, and how do you generate your book. Are you gonna generate an epub, or a mobi? And how you convert whatever format you used... There's a lot of different tooling.
 
 In my case, I started writing in markdown, and then from markdown I convert to epub using this tool called Pandoc. And then when I send to Kindle, they convert from epub to mobi. So it's a whole new world that you have to learn, and it's pretty interesting.
 
@@ -464,7 +464,7 @@ Then I talk to my sister. She knows how to draw some sketches. I'm like "Hey, si
 
 **Adam Stacoviak:** Yeah, interesting.
 
-**Jerod Santo:** \[00:52:02.02\] Well, let's hit one more habit. Do you wanna hit one more habit? Because I've got one that I would love to ask you about... Because I didn't get a chance to read the body text yet, but I did read the headline.
+**Jerod Santo:** \[52:02\] Well, let's hit one more habit. Do you wanna hit one more habit? Because I've got one that I would love to ask you about... Because I didn't get a chance to read the body text yet, but I did read the headline.
 
 **Zeno Rocha:** Is it the 9-to-5?
 
@@ -500,7 +500,7 @@ So they worked for a year, and then went to another company. Worked for a year, 
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[00:55:52.22\] But just this idea that the kind of problems Ryan Singer has solved design-wise for Basecamp - he's been there for the whole time, so he has this vast knowledge of Basecamp's problems... So his understanding of solving problems is so deep; whereas if you keep just jumping around, you don't get enough depth and story and experience and domain-specific wisdom. He's got some specific domain wisdom around project management, in relation to what Basecamp problems they've solved. And you don't get that jumping around... Being Mario, as your example says.
+**Adam Stacoviak:** \[55:52\] But just this idea that the kind of problems Ryan Singer has solved design-wise for Basecamp - he's been there for the whole time, so he has this vast knowledge of Basecamp's problems... So his understanding of solving problems is so deep; whereas if you keep just jumping around, you don't get enough depth and story and experience and domain-specific wisdom. He's got some specific domain wisdom around project management, in relation to what Basecamp problems they've solved. And you don't get that jumping around... Being Mario, as your example says.
 
 **Zeno Rocha:** Totally. I totally believe that. If we take the example of Changelog - you know how to create an audience now... \[laughter\] Come on...
 
@@ -564,7 +564,7 @@ And I thought about doing the same with the book - I'm just gonna put it on Gumr
 
 **Jerod Santo:** Yeah, man.
 
-**Adam Stacoviak:** \[00:59:52.03\] I've got one more question for you, but I wanna give a congrats. To do all this work, to come not just from simply an open source project, but to have a bigger idea... And I think that's what I want to do with this show, what we do here, but in particular with Brain Science. We want people to think differently about the problems they face and the decisions they make and the way they perceive the world, and their mental framework... And I think that's what you've done here, is you've changed your mindset towards 1) open source, and then 2) just how you can sustain and be happy. Working with your dad, and your sister, and your family - it must be a joy for you, for one, but then two, to have the extra help... And to really enjoy what you do, which is super-cool.
+**Adam Stacoviak:** \[59:52\] I've got one more question for you, but I wanna give a congrats. To do all this work, to come not just from simply an open source project, but to have a bigger idea... And I think that's what I want to do with this show, what we do here, but in particular with Brain Science. We want people to think differently about the problems they face and the decisions they make and the way they perceive the world, and their mental framework... And I think that's what you've done here, is you've changed your mindset towards 1) open source, and then 2) just how you can sustain and be happy. Working with your dad, and your sister, and your family - it must be a joy for you, for one, but then two, to have the extra help... And to really enjoy what you do, which is super-cool.
 
 When it comes back to open source - you've had a change of heart. Give some closing advice to those out there in open source that can maybe take a grain of salt from what you've done here... Some advice going in the way of like "You know what - if you're stuck here and you're not sustaining, here's some ways to think about it", in terms of just open source not having to be just free, but finding a way to be rewarded by doing so.
 

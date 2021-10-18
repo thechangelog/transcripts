@@ -58,7 +58,7 @@
 
 **Kris Nova:** We've been working on it for a while before we sort of announced it, and I've been involved with the team; I work fairly closely with them. I'm actually on like a neighboring team, but the way we do things is everybody -- all the individual contributors kind of work together. So I've contributed to the project and helped along the way...
 
-**Brian Ketelsen:** \[00:04:04.27\] So that's a no? \[laughter\] I'm just messing with you, Kris. I'm feisty today... Could you tell?
+**Brian Ketelsen:** \[04:04\] So that's a no? \[laughter\] I'm just messing with you, Kris. I'm feisty today... Could you tell?
 
 **Kris Nova:** Yeah...
 
@@ -94,7 +94,7 @@ There might be subtle nuances, but I've had a ton of personal apps and a ton of 
 
 **Kris Nova:** Yeah, and that's what's beautiful about it - in order to get a control plane up and running you just need to have these bare minimum set of components that are already running in containers. It's a good model.
 
-**Erik St. Martin:** \[00:08:02.15\] So do you wanna talk maybe a little bit about what Kops is, for anybody who's not familiar with the project?
+**Erik St. Martin:** \[08:02\] So do you wanna talk maybe a little bit about what Kops is, for anybody who's not familiar with the project?
 
 **Kris Nova:** Sure. I guess there's a lot of -- I don't wanna say controversy, but a lot of people kind of put Kops mentally into different spaces, so I'll kind of answer what it is for me. Basically, it's sort of what is the layer below Kubernetes. It'll solve "I have no resources in the cloud, whether that be Azure or AWS, and I want those resources in place, and then after those are in place, we need to bootstrap a Kubernetes cluster." So Kops sort of makes one amalgamation of all those steps going together.
 
@@ -120,7 +120,7 @@ To kind of go into the developer empathy side of things here, it actually got ot
 
 **Kris Nova:** The timeline was super quick... It was about three weeks. We were trying to make a release - I think I wanna say 1.54; I have it in my deck. And the thing is in the Kops community we usually try to do a release right after Kubernetes. So a Kubernetes is N, and 1-2 weeks later we wanna have supporting Kops for version N as well.
 
-\[00:12:09.27\] So as we were sort of scrambling to get this done, we started to go through it, look at the code and realize "Oh, maybe this is a lot of effort and a lot of code here to dissolve one simple problem. Maybe we can take this whole giant bundle of Go code out and replace it with a handful of really expressive functions."
+\[12:09\] So as we were sort of scrambling to get this done, we started to go through it, look at the code and realize "Oh, maybe this is a lot of effort and a lot of code here to dissolve one simple problem. Maybe we can take this whole giant bundle of Go code out and replace it with a handful of really expressive functions."
 
 \[alarm sound noise\]
 
@@ -158,7 +158,7 @@ It'll detect that and it will go through this rebuilding and redeployment cycle 
 
 **Kris Nova:** There's a [directory](https://github.com/Azure/draft/tree/master/packs) in Draft... Let me see if I can pull it up.
 
-**Erik St. Martin:** \[00:15:54.03\] And in addition to that, how does this work as far as like -- what's the word I'm looking for here...? Sharing the cluster with production systems for like multitenancy, multiple developers leveraging the same Kubernetes cluster... Does your application as it's being built out in Draft - is that in its own namespace, or are you kind of sharing the cluster with the rest of the world? How does that work?
+**Erik St. Martin:** \[15:54\] And in addition to that, how does this work as far as like -- what's the word I'm looking for here...? Sharing the cluster with production systems for like multitenancy, multiple developers leveraging the same Kubernetes cluster... Does your application as it's being built out in Draft - is that in its own namespace, or are you kind of sharing the cluster with the rest of the world? How does that work?
 
 **Kris Nova:** So there's a command `draft` in it; you specify the namespace you wanna run in, and as long as two people are using different namespaces, they're not gonna conflict.
 
@@ -192,7 +192,7 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Kris Nova:** Yeah, we actually did a Helm hack night in San Francisco last week, and I might have had one too many beers, but I thought it would be a good idea to try to run [IE6](https://en.wikipedia.org/wiki/Internet_Explorer_6) in a container, just because some of this stuff we're dealing with here at Microsoft requires IE. So I was like "Hey, if I have a Docker file for that, that'll make it much easier."
 
-\[00:19:46.07\] So I started going through the exercise, and it's actually pretty fun containerizing odd things. I had a good time. And once it's done, it's kind of done forever and you don't really have to deal with it anymore. It's kind of like you give yourself these neat little LEGO blocks.
+\[19:46\] So I started going through the exercise, and it's actually pretty fun containerizing odd things. I had a good time. And once it's done, it's kind of done forever and you don't really have to deal with it anymore. It's kind of like you give yourself these neat little LEGO blocks.
 
 **Brian Ketelsen:** We've gotta know how deep was that rabbit hole for IE6.
 
@@ -238,7 +238,7 @@ So I've secretly been kind of like, "One of these days I'm gonna move my blog ov
 
 **Erik St. Martin:** That's so awesome. So how about free time? What do you like to do in your free time? We know some stuff from the band thing... You've got quite a collection of instruments.
 
-**Kris Nova:** \[00:24:06.01\] I do. I play a lot of music; I have a whole basement filled with instruments. Actually, we're moving next week, so they're all in boxes right now, so I'm having a guitar withdrawal...
+**Kris Nova:** \[24:06\] I do. I play a lot of music; I have a whole basement filled with instruments. Actually, we're moving next week, so they're all in boxes right now, so I'm having a guitar withdrawal...
 
 **Brian Ketelsen:** Oh, man...
 
@@ -288,7 +288,7 @@ It took a while to get into this -- like, I'm holding it like a guitar, playing 
 
 **Brian Ketelsen:** Usually we spend the night before each next day, moving between hotel rooms, helping people finish their talks. Last year I don't even know if we got to sleep the night before each day, because it was just moving from one hotel room to the next, listening to people's talks, fixing their slides... It was lots of procrastination, so we're very proud of you, Kris.
 
-**Kris Nova:** \[00:28:11.11\] Thanks. It does keep changing, I will say that. The story -- it's like a fish story, it gets more dramatic every time I tell it, but as Kubernetes grows and as I learned more, and as I kind of go deeper into the rabbit hole, I'm like "Oh, this might be another interesting tidbit to throw in there..." So I think I'm probably on my fifth or sixth revision of it.
+**Kris Nova:** \[28:11\] Thanks. It does keep changing, I will say that. The story -- it's like a fish story, it gets more dramatic every time I tell it, but as Kubernetes grows and as I learned more, and as I kind of go deeper into the rabbit hole, I'm like "Oh, this might be another interesting tidbit to throw in there..." So I think I'm probably on my fifth or sixth revision of it.
 
 **Brian Ketelsen:** Evolution is okay, but not having it done the day you show up to the conference - not so okay.
 
@@ -326,7 +326,7 @@ If you go to [goplay.space](https://goplay.space/) - it's a Go playground front-
 
 **Erik St. Martin:** Oh, no way... I was just playing around -- \[laughter\]
 
-**Brian Ketelsen:** \[00:32:09.16\] NO WAY!!!
+**Brian Ketelsen:** \[32:09\] NO WAY!!!
 
 **Erik St. Martin:** I had to open this up, because you guys were talking about... So on top of clicking on a function, you can just go to the imports statement and click the imported package and it brings up the package docs, too...
 
@@ -416,7 +416,7 @@ If you go to [goplay.space](https://goplay.space/) - it's a Go playground front-
 
 **Brian Ketelsen:** Yeah, flip them the bird. "Listen, [Fastly](https://www.fastly.com/)... We've got stuff to do here. This is GoTime." \[laughter\] See if that works, and let me know.
 
-**Erik St. Martin:** \[00:36:10.02\] You're gonna get people in trouble, Brian...
+**Erik St. Martin:** \[36:10\] You're gonna get people in trouble, Brian...
 
 **Brian Ketelsen:** I try... I told you I was feeling a little spicy today.
 
@@ -492,7 +492,7 @@ So I came across this cool project this week too called [fsql](https://github.co
 
 **Erik St. Martin:** So we have a thing we're working on where we're needing to support multiple interfaces inside of a container; basically, one would be the mesh network like the [Flannel]  (https://github.com/coreos/flannel) or something, and then the other being like a VLAN interface for outbound video data... But anyway, so we're having to build our own CNI plugin to manage this, and I came across this project called [CNI-Genie](https://github.com/Huawei-PaaS/CNI-Genie), which is actually ridiculously cool. It looks like it's still in its infancy, but basically you can add a CNI annotation to a pod, and then comma separate a list of CNI plugins you want to run.
 
-\[00:40:12.29\] So either you can get multiple interfaces, so you can have like Flannel and [Calico](https://github.com/projectcalico/calico) and all these things running in the same cluster, and then issue IPs from specific ones or multiples, and then on top of that it does some metrics collection thorough [cAdvisor](https://github.com/google/cadvisor), where if you want it to, it can choose what interface it should give you, or which [CNI plugin](https://github.com/containernetworking/plugins) it should use, based on...
+\[40:12\] So either you can get multiple interfaces, so you can have like Flannel and [Calico](https://github.com/projectcalico/calico) and all these things running in the same cluster, and then issue IPs from specific ones or multiples, and then on top of that it does some metrics collection thorough [cAdvisor](https://github.com/google/cadvisor), where if you want it to, it can choose what interface it should give you, or which [CNI plugin](https://github.com/containernetworking/plugins) it should use, based on...
 
 **Brian Ketelsen:** Based on network performance?
 
@@ -534,7 +534,7 @@ Kris, is there any project or any person you wanted to shout out for \#FreeSoftw
 
 **Kris Nova:** Awesome. I can get on board with that.
 
-**Brian Ketelsen:** \[00:44:07.28\] Exactly... Since I'm sitting in front of a Windows machine.
+**Brian Ketelsen:** \[44:07\] Exactly... Since I'm sitting in front of a Windows machine.
 
 **Erik St. Martin:** I'm just thinking of our 15-minute \[laughter\]
 
@@ -572,7 +572,7 @@ So the green light shows up that I'm talking in the audio interface, and in the 
 
 **Erik St. Martin:** The history of mine and Brian's friendship and relationship -- actually, he was my boss for a while, and yeah... He used to give me a hard time because I'd fly through stuff demo-ing... So I'd just be like changing tabs and jumping around the file and things, like... "Slow down!"
 
-**Brian Ketelsen:** \[00:48:16.16\] "Slow down! I can't even see what you're doing, you're moving so fast!" And that was actually what convinced me that Vim is a good place for me to go, because I used like Sublime Text and TextMate before that... But watching Erik fly through Vim, I was like "Oh man, I've gotta get some of that."
+**Brian Ketelsen:** \[48:16\] "Slow down! I can't even see what you're doing, you're moving so fast!" And that was actually what convinced me that Vim is a good place for me to go, because I used like Sublime Text and TextMate before that... But watching Erik fly through Vim, I was like "Oh man, I've gotta get some of that."
 
 **Kris Nova:** And that's exactly what it was like for me... I've sat with some people who do the same thing and I'm like "If I could actually go through and learn that, I can see myself getting obsessed with it." Like, "I have to learn more, I have to be able to do this in one less keystroke", and it's just... I grew up with Emacs. It's like what the cool kids in high school used. We used to play games on it, so for me it's just second nature, I don't have to think about it anymore. Maybe it's time for me to learn a new text editor.
 
@@ -608,7 +608,7 @@ Once you start recognizing those patterns (`dw` is Delete Word) it becomes much 
 
 **Brian Ketelsen:** That's me. I can do the basic stuff. I've never really learned -- now, today, since we're on editors and kind of going sideways, I did the free webinar for JetBrains on Gogland IDE, and I was blown away, because I did that with Florin and I was blown away by how many cool features are in Gogland. So if you haven't given Gogland a try yet - holy cow, do they have some really awesome Go stuff. We barely scratched the surface of the things that the IDE does, and it's really cool how well Gogland thought through all of the Go stuff.
 
-\[00:52:10.23\] When you're looking at text editors, obviously there's a huge difference between the heaviness of Vim and something like Gogland, but... I've been using Gogland more and more lately, and I'm impressed by just how much it does.
+\[52:10\] When you're looking at text editors, obviously there's a huge difference between the heaviness of Vim and something like Gogland, but... I've been using Gogland more and more lately, and I'm impressed by just how much it does.
 
 **Kris Nova:** If I'm on my Mac, I use Gogland exclusively, and I'll write in Emacs if I'm at home on my Arch Linux box... And it's great. I remember coming over from IntelliJ with like the Go plugin; getting the Kubernetes codebase to index was like this 20-minute process... \[laughter\] I think it was like 7.5 gigabytes of memory, or something, and Gogland did it in less than 20 seconds and running less than a gig.
 
@@ -648,7 +648,7 @@ Once you start recognizing those patterns (`dw` is Delete Word) it becomes much 
 
 **Erik St. Martin:** Or even with [direnv](https://direnv.net/) too, you can have it execute shell commands and stuff for you. So you can have it just change your context when you CD into the directory.
 
-**Brian Ketelsen:** \[00:56:09.17\] Yeah, so I just put a link to that in Slack. It's [github.com/ahmetp/kubectx](https://github.com/ahmetb/kubectx).
+**Brian Ketelsen:** \[56:09\] Yeah, so I just put a link to that in Slack. It's [github.com/ahmetp/kubectx](https://github.com/ahmetb/kubectx).
 
 **Erik St. Martin:** I feel like we need to have an episode all the time where we share tools...
 

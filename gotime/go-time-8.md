@@ -22,7 +22,7 @@ Now I'm working on this thing called Micro. I realized everyone was really doing
 
 So when I built this, I really thought about what are the fundamental building blocks, how would you do if you built it open source first? So it needs to be pluggable... And it slowly evolved. I mean, it started as just Go Micro - the kind of core project - and now it's this bigger thing and I'm calling it an ecosystem and trying to build it really further and address every requirement, but also kind of saying, "Look, it's pluggable." We offload the hard things to the people and the tools that are really focused on those things. So service discovery - there's an interface for it, but if you want something that is consistent and distributed, you can use Console or Etcd or anything like that. It's the same for all the other kind of packages within there.
 
-**Carlisia Thompson:** \[00:04:25.27\] Before we geek out on Micro, Asim, it seems that you're working exclusively on Micro. Is that true? And if so, what is the financial sustainability plan for the project and for yourself?
+**Carlisia Thompson:** \[04:25\] Before we geek out on Micro, Asim, it seems that you're working exclusively on Micro. Is that true? And if so, what is the financial sustainability plan for the project and for yourself?
 
 **Asim Aslam:** Sure. That's right, I'm working on it full-time. Basically, I quit my job at Hailo over a year ago, because I felt so strongly about this and I wanted to build this. At the time I was talking to some venture capitalists, so the plan was, "Hey, I' m gonna raise this money, build this team and we're gonna go off and do this." You know, the Silicon Valley way. And actually we were in London so no, we couldn't do it that way and I ended up kind of going it alone. Luckily, I had some savings, so I kept going, and eventually a friend of mine who was at Hailo, who is now at Sixt, the car rental company, he went there to build a platform and he saw what I was doing and we kind of worked out a deal and that company is essentially sponsoring the project so that I can continue to work on this full-time, which is really great.
 
@@ -38,7 +38,7 @@ So when I built this, I really thought about what are the fundamental building b
 
 The growth is slow and nice. I think the nice thing is there's a Slack where everyone joins, individuals and companies come along and kind of talk about their uses, and people are using it without me even knowing. For some reason it's really taking off in China, which is really, really nice to see, and someone even translated the entire blog into Chinese, which is really cool.
 
-\[00:07:53.15\] Here in London I just met with a company called Kazoop, and they have essentially posted the first job listing including Micro. For me, that's really profound, that someone thinks so much of it that they wanna put it in a job listing and kind of say, "Hey, we're moving over to this framework and here's what we're gonna pay for someone to do it." So that's pretty cool.
+\[07:53\] Here in London I just met with a company called Kazoop, and they have essentially posted the first job listing including Micro. For me, that's really profound, that someone thinks so much of it that they wanna put it in a job listing and kind of say, "Hey, we're moving over to this framework and here's what we're gonna pay for someone to do it." So that's pretty cool.
 
 **Brian Ketelsen:** Are they looking for a developer with ten years of experience?
 
@@ -58,7 +58,7 @@ You know every language has a different kind of syntax, therefore it's gonna com
 
 You can kind of generally get a feel for when it's not working. I think people coming from an MVC background, you know, Rails and what not - you get used to the modularity, so you'll have code bases that are a million lines of code and you somehow figure out how to code in the modular space. But in the microservices world I just think you kind of need to have a full scope of the service itself.
 
-\[00:11:48.21\] A lot of the time, we're hacking out services in the space of one or two days and shipping them to production, at least when I was at Hailo, but I would say there is no right or wrong. I think for everyone it's a different thing and you really have to go with what works for you and that's what I like about the philosophy, because there are a lot of tradeoffs.
+\[11:48\] A lot of the time, we're hacking out services in the space of one or two days and shipping them to production, at least when I was at Hailo, but I would say there is no right or wrong. I think for everyone it's a different thing and you really have to go with what works for you and that's what I like about the philosophy, because there are a lot of tradeoffs.
 
 I think when a team comes together, they kind of figure how they'll work and what number of services work for them and what code bases, what sizes of code bases work for them.
 
@@ -84,7 +84,7 @@ I mean, we're talking about distributed systems, right? So they have to be fault
 
 So I think you can kind of get to a place where no individual, no actual human being is managing any of it, it's actually completely automated.
 
-**Brian Ketelsen:** \[00:16:12.29\] You've got big dreams.
+**Brian Ketelsen:** \[16:12\] You've got big dreams.
 
 **Asim Aslam:** I have very big dreams, but I also have the time to do it, the luxury of time, so that's quite nice.
 
@@ -102,7 +102,7 @@ That's the thing to remember with any of this kind of development - it's a slow,
 
 So when you think about microservices, it's this service-oriented architecture kind of thing. What do I need there? I need some sort of communication; I need message and coding; communication might actually be synchronous and asynchronous. I need be able to serve requests, I need to be able to make requests.
 
-\[00:19:50.03\] Those things are really addressed at the core and nothing else. It only addresses those fundamentals, because the other things that you think about - off monitoring, distribute tracing and things like those - you don't necessarily need those to just build microservices. So that was really the focus of the course, helping you build microservices.
+\[19:50\] Those things are really addressed at the core and nothing else. It only addresses those fundamentals, because the other things that you think about - off monitoring, distribute tracing and things like those - you don't necessarily need those to just build microservices. So that was really the focus of the course, helping you build microservices.
 
 Then the kind of outer layer, the toolkit, as Brian mentioned, is the entry points. There's a CLI, an API, there's a web UI, there's a sidecar that provides an HTTP interface that has all the features of Go Micro, so if you want to write stuff not in Go, like if you wanna write in Python, Ruby, JavaScript whatever, you can just interact with the HTTP interface and kind of use it that way.
 
@@ -120,7 +120,7 @@ The days of like "Should I pick MySQL or Postgres?" is the same kind of thing li
 
 From the Micro side, it's addressing the same kind of things, the fundamentals, but for me, I'm building based on my experiences. I'm building the tools that I didn't really see in the ecosystem, and I like very simple interfaces, I like a low barrier to entry. I don't want to care about the details when I'm actually writing services; I want very little boilerplate. And I need the entire toolkit. I want everything when it comes to writing microservices. I think they kind of differ a little bit and I think everyone has to look at them themselves and kind of see where the benefits are for them, because there are lots of people using Go kit. They really like it. They like those abstractions and that is a really a great thing. I think choice is very, very important.
 
-**Erik St. Martin:** \[00:23:53.00\] Yeah, and I think you bring up a valid point, too. Brian and I had kind of a similar situation at a prior employer that both of us worked at, the one we actually met at. So you have a lot of people who are interested in building these distributed frameworks and making the communication happen and making things fault-tolerant and service discovery, and then you have a lot of people who just work on business-related features. So at least from my understanding of the two projects, it seems like yours more targets being able to just write the service and not have to think about all the bits that make the services communicate between each other and allows you to just kind of focus on the business logic.
+**Erik St. Martin:** \[23:53\] Yeah, and I think you bring up a valid point, too. Brian and I had kind of a similar situation at a prior employer that both of us worked at, the one we actually met at. So you have a lot of people who are interested in building these distributed frameworks and making the communication happen and making things fault-tolerant and service discovery, and then you have a lot of people who just work on business-related features. So at least from my understanding of the two projects, it seems like yours more targets being able to just write the service and not have to think about all the bits that make the services communicate between each other and allows you to just kind of focus on the business logic.
 
 **Asim Aslam:** You're dead on. When we built the platform at Hailo, the thing that everyone would say and the goal from the entire kind of platform team and those who were building this thing was, we don't want anyone to have to think about distributed systems. We want them to be able to leverage them, but we're building a business, and we need to write services for the business. And we don't really care about that kind of other stuff.
 
@@ -136,7 +136,7 @@ If you think about what Jeff Dean and Sanjay Ghemawat did with MapReduce at Goog
 
 When I started to build this stuff, I knew that I wanted it to be pluggable, I wanted to minimize the number of dependencies that you needed to get started. And on your point, everyone has different skills, everyone likes different tools. I think it's important to be able to support that, while at the same time kind of using the same way of building software.
 
-\[00:28:00.13\] And then in the future, in five years from now, when we're using a different kind of backend technologies, then you want to be able to swap those out as well. The worst thing is when you've kind of built all these things and you're dependent upon some service and then you have to go rewrite your code everywhere to make it happen. With Micro, the idea is all you have to do is change the plugin, switch out on the command line and that's it. You're kind of done and you swapped out this entire thing.
+\[28:00\] And then in the future, in five years from now, when we're using a different kind of backend technologies, then you want to be able to swap those out as well. The worst thing is when you've kind of built all these things and you're dependent upon some service and then you have to go rewrite your code everywhere to make it happen. With Micro, the idea is all you have to do is change the plugin, switch out on the command line and that's it. You're kind of done and you swapped out this entire thing.
 
 I was really thoughtful about it, and hopefully, my hope is that other people kind of respond to this and they write plugins as well. So I hope to see some stuff contributed from the community.
 
@@ -166,7 +166,7 @@ We also have a Slack channel dedicated to kind of Micro and microservices and di
 
 **Erik St. Martin:** Is it worse than the Cloud?
 
-**Brian Ketelsen:** \[00:32:00.11\] Yes, it's far worse than the Cloud. At least with the Cloud you've got some concept that there's something somewhere. Serverless is just... Somebody should be shot for coming up with that, sorry.
+**Brian Ketelsen:** \[32:00\] Yes, it's far worse than the Cloud. At least with the Cloud you've got some concept that there's something somewhere. Serverless is just... Somebody should be shot for coming up with that, sorry.
 
 **Carlisia Thompson:** Yes, it's completely misleading.
 
@@ -190,7 +190,7 @@ The idea is you personally don't have to run anything. It's an automated system 
 
 But people are also using it for other things. If you have side projects and you're running your Digital Ocean node or something like that and you're spending $20 a month on this, and you're only running a bunch of websites, they were showing kind of the cost breakdown and they're saying that you can reduce the cost, orders of magnitude by using this kind of serverless model.
 
-\[00:35:33.07\] Your container or whatever it is, your code is only executed when someone actually calls it. Otherwise there is nothing running in the interim, and that's really the big thing about it. There's nothing running, it only runs when something calls it. I'm not sure if I see it working at scale yet. I mean, within organizations as a full-time thing for the entire code base; I'm yet to see kind of a way of doing that, because I think when you're writing essentially functions for your code, you could end up in a spaghetti mess. I think the frameworks are emerging to kind of make this a little bit simpler, but it looks interesting so far.
+\[35:33\] Your container or whatever it is, your code is only executed when someone actually calls it. Otherwise there is nothing running in the interim, and that's really the big thing about it. There's nothing running, it only runs when something calls it. I'm not sure if I see it working at scale yet. I mean, within organizations as a full-time thing for the entire code base; I'm yet to see kind of a way of doing that, because I think when you're writing essentially functions for your code, you could end up in a spaghetti mess. I think the frameworks are emerging to kind of make this a little bit simpler, but it looks interesting so far.
 
 **Carlisia Thompson:** So it sounds to me from what you are saying that I should be thinking about the serverless approach as microservices, but instead of a full-blown microservice, an API or an app, I have a function. With microservices, I would think how would I split my application into microservices, so now I have to think about how do I extract portions of my code into functions that I can then run with a serverless approach.
 
@@ -206,7 +206,7 @@ I want to say that maybe 70% to 80% of frontend projects and data pipelines will
 
 So we'll see some cases where people move their entire architectures over to it, and in other cases where it is primarily focused on frontend or the API or data analytics, and we'll have kind of a split off from other kind of ways of developing software. I can't actually say whether it will be the dominant form of how to build software, because I like being able to write a certain amount of code, I like being able to write code a certain way, but I think for a lot of use cases it will be quite useful.
 
-**Carlisia Thompson:** \[00:40:01.23\] What do you know of products that are available to drive those serverless application developments for Go developers or developers in general?
+**Carlisia Thompson:** \[40:01\] What do you know of products that are available to drive those serverless application developments for Go developers or developers in general?
 
 **Asim Aslam:** I think the first one that comes to mind is just serverless.com. That serverless project is the one that's been around the longest, it seems. It started out as a project called Jaws and now it's kind of taken off. It has over 8000 stars on GitHub.
 
@@ -234,7 +234,7 @@ I think they said that most of that stuff should workout, but if you see random 
 
 **Erik St. Martin:** Yes. Are you leveraging that, Asim, inside Micro, the context package?
 
-**Asim Aslam:** \[00:43:46.08\] Yeah, I am, actually. I think it's kind of become a staple among building services. At first, I didn't really understand it and then over time it started to make more and more sense. I think it makes a lot of sense that it's not part of the standard library.
+**Asim Aslam:** \[43:46\] Yeah, I am, actually. I think it's kind of become a staple among building services. At first, I didn't really understand it and then over time it started to make more and more sense. I think it makes a lot of sense that it's not part of the standard library.
 
 **Erik St. Martin:** Yeah. Well, Brian and I are both really excited about seeing that command, we've been using that for a while. And I have to admit, I haven't looked at this too deeply. I actually only saw it in the release notes. It looks like there's HTTP tracing associated with that context now, and I'm kind of interested to see how that works.
 
@@ -268,7 +268,7 @@ So anything else anybody wants to talk about before me close out the show? Becau
 
 **Asim Aslam:** Yeah. I'm excited to see them actually tackle this. I know it's going to be a hard one to get right, but having seen the work that they've done on Etcd, I believe they'll be able to do it and in time with people who have that kind of experience is going to be really good.
 
-\[00:47:54.19\] As someone mentioned, the Hacker News comments weren't very kind. I think we need to be optimist and we need to be supportive. I think this is really good for the entire kind of tech community as a whole. I think everyone's a little bit like "Oh, I wanted to write a distributed storage system. Why do they have to write it?" \[laughter\]
+\[47:54\] As someone mentioned, the Hacker News comments weren't very kind. I think we need to be optimist and we need to be supportive. I think this is really good for the entire kind of tech community as a whole. I think everyone's a little bit like "Oh, I wanted to write a distributed storage system. Why do they have to write it?" \[laughter\]
 
 **Erik St. Martin:** Yeah, I mean anytime something new like that comes out people, you know... And CoreOS kind of gets the brunt of it too, because they're trying to innovate and they're trying to do things differently and I think they catch some slack for it too, the whole rocket thing... Many of these things are fantastic and they have some really smart people working for them. It's like every year they are scooping up more people. You're like "Oh, this person is doing something cool" and it's like "Yeah, CoreOS just grabbed him." \[laughter\] But I'm interested to see how it comes along. I think that as people start to play with it, I think that they'll start to see its merits.
 
@@ -296,7 +296,7 @@ So anything else anybody wants to talk about before me close out the show? Becau
 
 **Erik St. Martin:** That's great. Asim, you can't cheat, you cannot say Micro. You can go with anybody but Micro.
 
-**Asim Aslam:** \[00:52:02.00\] It's good, I have one... This is a bit of a throwback, so this thanks to Postfix, the SMTP server.
+**Asim Aslam:** \[52:02\] It's good, I have one... This is a bit of a throwback, so this thanks to Postfix, the SMTP server.
 
 **Erik St. Martin:** Nice.
 

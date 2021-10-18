@@ -14,7 +14,7 @@ But all of that being said, we're always going to be able to navigate our relati
 
 With adults, conditioning might look like that positive feeling... Because feelings are always a part too of the feedback process.
 
-\[00:04:14.00\] I can have an interaction with a person, or go have an experience that was very favorable, like camping, or traveling to a certain place... I think a lot of families and individuals will tend to repeat a certain vacation place or idea because it's paid a positive emotional response when they do it.
+\[04:14\] I can have an interaction with a person, or go have an experience that was very favorable, like camping, or traveling to a certain place... I think a lot of families and individuals will tend to repeat a certain vacation place or idea because it's paid a positive emotional response when they do it.
 
 **Adam Stacoviak:** It's like the studies you hear where the animal - it could be a rat, it could be a monkey, or something like that... Where they're testing them. I saw this thing recently on a show on YouTube; I forget what's it's called. I think it's called Mindfield. And it was about these apes that had really amazing short-term memory, where they could see numbers on a screen, one through thirteen, all scattered about the screen, just see it for half a second, and it would go away... And they can tap everywhere the number was.
 
@@ -34,7 +34,7 @@ So when I'm in relationship with other people, it fares a lot better when I can 
 
 **Adam Stacoviak:** Yeah. I think it's important too to remind those listening to this why relationships truly matter to us, and that's because part of who we are is because of part of our relationship. Our mind and who we think we are is formed based on these interpersonal relationships. Whether they're strong, whether they're weak, they all form and inform who we are.
 
-**Mireille B. Reece, Psy.D:** \[00:07:58.18\] Yeah. Connection is key when it comes to being human. When I talk about the brain, and sort of thinking of it in terms of three brains in one, because the different structures in our brain are synonymous with (or similar to) other animals, like reptiles, mammals... And then what sets us apart is more of the neocortex. Well, that middle brain, which is our mammalian brain, is really what is connected to (for lack of a better word) our ability to be in relationship with others... Because mammals all feed their young with milk. So we know, ironically - and this research I think is fascinating - that when mothers breastfeed, that actually brainwaves between mother and infant are identical.
+**Mireille B. Reece, Psy.D:** \[07:58\] Yeah. Connection is key when it comes to being human. When I talk about the brain, and sort of thinking of it in terms of three brains in one, because the different structures in our brain are synonymous with (or similar to) other animals, like reptiles, mammals... And then what sets us apart is more of the neocortex. Well, that middle brain, which is our mammalian brain, is really what is connected to (for lack of a better word) our ability to be in relationship with others... Because mammals all feed their young with milk. So we know, ironically - and this research I think is fascinating - that when mothers breastfeed, that actually brainwaves between mother and infant are identical.
 
 **Adam Stacoviak:** Really?
 
@@ -60,7 +60,7 @@ I think about this with adults - when we have someone we care about who is ill a
 
 So when we talk about neuroplasticity, there's a way in which having another human with you actually facilitates more of the growth of those neural networks for infants and early toddlers.
 
-**Adam Stacoviak:** \[00:12:21.19\] Well, I've been doing a little research - not a ton, so I'm not vested or really up on this research, but there's also talks about... We've talked about putting your lid on before you've mentioned that, and this prefrontal cortex not even being fully formed until your mid-twenties. So when we say "We're dealing with a threenager now" - not a teenager, a threenager - that is three, but thinks he's 13 or 14, or whatever number it might be.
+**Adam Stacoviak:** \[12:21\] Well, I've been doing a little research - not a ton, so I'm not vested or really up on this research, but there's also talks about... We've talked about putting your lid on before you've mentioned that, and this prefrontal cortex not even being fully formed until your mid-twenties. So when we say "We're dealing with a threenager now" - not a teenager, a threenager - that is three, but thinks he's 13 or 14, or whatever number it might be.
 
 Even when you go back to relationships and empathy, we have to realize that there are moments in people's lives up until the age of 25 where they may not have a fully developed, functioning brain. Sure, they've got the brain all there, but there's parts that are still in formation.
 
@@ -84,7 +84,7 @@ When it comes to the brains, we want to have other people -- I would say as a pa
 
 **Mireille B. Reece, Psy.D:** Yeah, exactly. In my line of work I will see the people where this sense of attachment and connection and feedback loop didn't go so well. I always say it's sort of like they jury rig things. They learned how to best function in their lives, as well as they could, but we know this whenever we jury rig something and don't actually fix it the way it was supposed to be - what happens? It breaks down.
 
-**Adam Stacoviak:** \[00:16:11.29\] I'd like to earmark that too for future habit formation and breaking conversations we have around the whole -- you know, the cue, the response, the reward etc. Because that reminds me of habits even; this short-circuiting, this jury-rigging, as you're mentioning. It's almost like you're making your own path to a better connection or a learned behavior, whatever you wanna call it. That's not exactly good long-term.
+**Adam Stacoviak:** \[16:11\] I'd like to earmark that too for future habit formation and breaking conversations we have around the whole -- you know, the cue, the response, the reward etc. Because that reminds me of habits even; this short-circuiting, this jury-rigging, as you're mentioning. It's almost like you're making your own path to a better connection or a learned behavior, whatever you wanna call it. That's not exactly good long-term.
 
 **Mireille B. Reece, Psy.D:** No, no. In fact -- so part of how we've developed this awareness of attachment and connection actually came out of research with nonverbal kiddos, early age, like 18-month(ish). And what they did was they had caregivers even these kids try to engage with, just like facial expression... Because there's a way -- empathy really involves facial expression; we'll talk about this too at other points... The role of mirror neurons and how they're connected to empathy. So it makes sense we have these neurons in our brain that help us see things, empathize with other people. So with young children we do that a lot in terms of our facial expression. If you notice a kid is crying, or upset, it won't just be our tone of voice that's compassionate, but we will actually look them in the eye and contort our face to be empathetic or sensitive to them.
 
@@ -102,7 +102,7 @@ So what these kiddos would do is -- what they instructed the people interfacing 
 
 **Mireille B. Reece, Psy.D:** Correct, so it reinforces that "I'm not alone" and that "I have a team." I have a group of people who I can go to as resources, that will help ease whatever pain I'm in." It doesn't mean that I totally feel all better and now I can just go do whatever and I'm not sad, hurt or angry, like I think of in grief, but it sort of helps modulate it, and just carries the burden.
 
-**Adam Stacoviak:** \[00:19:39.07\] So when you're an individual, some people -- we talked about conditioning; when they're conditioned to retract, conditioned to isolate themselves from others, in the end they're just trying to cope with whatever the issue might be, but they're also hurting themselves, because individuals in nature just aren't normal; we're designed to feel, designed to relate, designed to have relationships, and there's interaction in that.
+**Adam Stacoviak:** \[19:39\] So when you're an individual, some people -- we talked about conditioning; when they're conditioned to retract, conditioned to isolate themselves from others, in the end they're just trying to cope with whatever the issue might be, but they're also hurting themselves, because individuals in nature just aren't normal; we're designed to feel, designed to relate, designed to have relationships, and there's interaction in that.
 
 What I'm trying to really get at is that for those who think "Oh, I'm an individual. I've got it, I don't need anybody. I don't need your help, I don't need feedback loop from anybody. I'm cool on my own", in the moment you may actually get by, but in the long-term what's the effect...?
 
@@ -146,7 +146,7 @@ And I like to think of these things when we talk about relationship and challeng
 
 **Adam Stacoviak:** I love that.
 
-**Mireille B. Reece, Psy.D:** \[00:24:14.28\] I know. "How do I not die today?" So when we encounter pain, it can be challenging... Because remember, the emotional center of the brain is more that mammalian brain. So if you think of mammals, cats and dogs - they don't know what day of the week it is; they don't have language, right? So when we feel, we can sort of get lost in the ambiguity of the emotion, and not be able to orient to other things that help us remember, like "Oh yeah, my spouse - I actually like them." \[laughter\] "They're on my team, they're not actively trying to assault me right now, although my brain wants to tell me that they are."
+**Mireille B. Reece, Psy.D:** \[24:14\] I know. "How do I not die today?" So when we encounter pain, it can be challenging... Because remember, the emotional center of the brain is more that mammalian brain. So if you think of mammals, cats and dogs - they don't know what day of the week it is; they don't have language, right? So when we feel, we can sort of get lost in the ambiguity of the emotion, and not be able to orient to other things that help us remember, like "Oh yeah, my spouse - I actually like them." \[laughter\] "They're on my team, they're not actively trying to assault me right now, although my brain wants to tell me that they are."
 
 **Adam Stacoviak:** Right, right.
 

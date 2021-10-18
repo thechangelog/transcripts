@@ -24,7 +24,7 @@ As usual, I'm joined by a cohort of wonderful and strange people. Firstly - calm
 
 **Sean DuBois:** Yeah. So if you are a user of WebRTC, what you're probably used to is "Hey, I have two web browsers and I wanna send video between them. You wanna build a conferencing room application. That's the common use case, and that's what people first start with... But really, the technology underneath is so incredibly flexible and does so many things that you can build all these different use cases. I don't know if you've seen that Google Stadia is over WebRTC, people are doing web torrent over WebRTC, so you can download torrents in your browser... Another one is co-streaming; you'll see a lot of people that will stream videos together, like they'll perfectly sync up and distribute through WebRTC.
 
-\[00:04:15.22\] So really what the magic behind that is -- the first is the peer-to-peerness. WebRTC allows two people to distribute a list of their known addresses. So I give you what my local IP address is, or what my public IP address is, and then we exchange this list and we find the best way to talk to each other. And that's the really cool magic behind it.
+\[04:15\] So really what the magic behind that is -- the first is the peer-to-peerness. WebRTC allows two people to distribute a list of their known addresses. So I give you what my local IP address is, or what my public IP address is, and then we exchange this list and we find the best way to talk to each other. And that's the really cool magic behind it.
 
 Most people may think like "Oh, I wanna exchange a file. I have to upload it to S3 and then I download it." But with WebRTC we exchange our list of peers, and then we connect directly to each other via this really cool thing called NAT Traversal, where you both punch temporary holes in your public IP so you can talk to each other.
 
@@ -50,7 +50,7 @@ With UDP what you do is you send one packet out to what they call a STUN server,
 
 **Sean DuBois:** Yeah, exactly. I send you statistics, like "This is the amount of package you sent me", and UDP, since it does the drops automatically, it says "Hey, Mat sent me 500 packets, but I only got 470." You say "Okay, I'm gonna lower my bit rate a little bit until I can get to a good quality of loss." So it has this really cool congestion control.
 
-\[00:08:13.08\] The other cool thing is since the congestion control isn't built into the protocol, like TCP, you can decide on what you want. I can say "Okay, I'll do five seconds of latency, because I want perfect picture." Or "I wanna do 200 milliseconds, because I'm having a live call." There's just all these cool things you can do with WebRTC, because you get this flexibility.
+\[08:13\] The other cool thing is since the congestion control isn't built into the protocol, like TCP, you can decide on what you want. I can say "Okay, I'll do five seconds of latency, because I want perfect picture." Or "I wanna do 200 milliseconds, because I'm having a live call." There's just all these cool things you can do with WebRTC, because you get this flexibility.
 
 **Jaana Dogan:** So is WebRTC just a protocol, or does it also contain some of the utilities, like some encoders for video and so on? Because you mentioned that you can switch back and forth between different qualities... I wonder if there's any utilities out there.
 
@@ -72,7 +72,7 @@ And I think the big one that's gonna happen in the future is the security aspect
 
 **Jon Calhoun:** It's also so much nicer than "Let's wait till we've refactored or rewritten the entire thing to try it." It's like, "Okay, we can see how this is working, and make sure things are moving smoothly, and actually test it all." Versus the whole rewrite, which is almost always awful.
 
-**Mat Ryer:** \[00:12:02.24\] Yeah, and you learn so much by that process. Sean, you just said you did it cheating, but actually, I think it totally makes sense to do whatever is necessary, hack away at something, because the understanding you get is really valuable, but you may not keep any of the code... And actually, sometimes knowing you're gonna throw code away really helps with that process, because you sort of don't worry about any of the practices or things that we do when we're properly software-engineering. You get to not worry about that too much. Does that spirit come easy to you, Sean? We were chatting a bit earlier about your background; I'm interested if that plays a part there.
+**Mat Ryer:** \[12:02\] Yeah, and you learn so much by that process. Sean, you just said you did it cheating, but actually, I think it totally makes sense to do whatever is necessary, hack away at something, because the understanding you get is really valuable, but you may not keep any of the code... And actually, sometimes knowing you're gonna throw code away really helps with that process, because you sort of don't worry about any of the practices or things that we do when we're properly software-engineering. You get to not worry about that too much. Does that spirit come easy to you, Sean? We were chatting a bit earlier about your background; I'm interested if that plays a part there.
 
 **Sean DuBois:** Yeah, I think it does. My background was that I don't have any computer science education. I left high school and I worked at a VoIP company. I was lucky enough that they gave me a minimum wage job writing PHP scripts and just kind of hacking things up and learning stuff along the way.
 
@@ -90,7 +90,7 @@ I think Go's community is also really great about that, as well. People definite
 
 **Sean DuBois:** There was some stuff that is/was super-painful. I think the lack of libraries is definitely a hard one. So the big one - Go doesn't have a DTLS implementation, so there's not TLS over UDP, so we had to write one. There was no SCTP implementation, there was no ICE implementation... So it took us probably a year and a half to get to that point. But I don't think that's really a fault of Go. I really love how opinionated Go is.
 
-\[00:16:06.10\] I feel as you add more and more people to a project, they all bring their opinions, and it was nice that I could just run GolangCI and be like "No, there's no discussion. This is how it reads, this is how it flows", and that's the end of it. Then we go argue about things that are actually important. I think humans love to argue, they love to have their things, but--
+\[16:06\] I feel as you add more and more people to a project, they all bring their opinions, and it was nice that I could just run GolangCI and be like "No, there's no discussion. This is how it reads, this is how it flows", and that's the end of it. Then we go argue about things that are actually important. I think humans love to argue, they love to have their things, but--
 
 **Mat Ryer:** No, we don't. No, we don't.
 
@@ -120,7 +120,7 @@ So I'm excited to see what this can do. If I want two computers to talk to each 
 
 **Mat Ryer:** How does it compare with technologies like WebSockets, for example, where you've got the browser making a long-running connection, essentially.
 
-**Sean DuBois:** \[00:19:58.29\] The WebSockets has two problems. One is the head of line blocking. Since it's over TCP, it's lossless. So if you're sending something that's large, you're gonna incur that penalty, that like as you do the retransmissions, it's gonna slow things down. And then the WebSockets also require TCP, so you have to be communicating with something that's directly addressable. If I'm using WebSockets, I have to connect to a public IP address, I have to be in the same networks.
+**Sean DuBois:** \[19:58\] The WebSockets has two problems. One is the head of line blocking. Since it's over TCP, it's lossless. So if you're sending something that's large, you're gonna incur that penalty, that like as you do the retransmissions, it's gonna slow things down. And then the WebSockets also require TCP, so you have to be communicating with something that's directly addressable. If I'm using WebSockets, I have to connect to a public IP address, I have to be in the same networks.
 
 But beyond that, using in-the-browser, using data channels and WebSockets feels exactly the same. You just call `.send` and send some stuff and it just magically shows up on the other end. So as an end user, you don't really care, it doesn't really matter. But as a hacker, and doing stuff underneath, there's a crazy amount of power. The one that I shared in the GoTime channel, that's one of my favorites, is the Cloud Games. So someone went and built something where you can play NES games, and all these Game Boy games and all this stuff, and basically they run an emulator on a server in DigitalOcean. And they send all the video frames to you, and then you send all your key press events via data channels back to them. So you can play NES games with someone else, you can do multiplayer, you can share your screen, you can persist your game state... It's basically the open source version of all these game streaming services coming out.
 
@@ -136,7 +136,7 @@ With Pion, the way it works is you just get access to the video bytes directly. 
 
 **Mat Ryer:** I think that's great. I love these kinds of projects as well, because they're sort of borne out of either a love for something, or a real problem that you have that you wanna solve. And they're always the best projects, I think. When you see open source projects that are addressing something real, or built with that sort of passion, you can always tell, compared to where we've kind of set out to try and deliver a package, and imagine something.
 
-\[00:23:57.14\] So I always think that's always worth pointing out, when any these projects are always like -- some people might consider the WebRTC API to be quite a boring read... I did read through it, and it's not an easy thing to read... So having this abstraction as someone that likes to play with different technologies and build little things is great. So thank you very much for starting the project and continuing your support and involvement, Sean.
+\[23:57\] So I always think that's always worth pointing out, when any these projects are always like -- some people might consider the WebRTC API to be quite a boring read... I did read through it, and it's not an easy thing to read... So having this abstraction as someone that likes to play with different technologies and build little things is great. So thank you very much for starting the project and continuing your support and involvement, Sean.
 
 **Sean DuBois:** Yeah. For me, Pion was born out of frustration with -- at the time, there was a C++ implementation... So when WebRTC came around, I wasn't involved, so this is all anecdotes or whatever I heard from other people... It's that Google wanted to bring WebRTC to the browser without plugins. So they went and bought this company called GIPS, and they went and bought On2... So they acquired all of these very great, very battle-tested software stacks and they've put them in the browser.
 
@@ -168,7 +168,7 @@ But even if a seasoned developer comes and uses your product, if it's hard to us
 
 **Jon Calhoun:** It's got a whole build process that tears down the whole repo. Everything just disappears, then it comes back up again...
 
-**Break:** \[00:28:06.00\]
+**Break:** \[28:06\]
 
 **Mat Ryer:** That's interesting, I think other projects could learn that lesson about the developer experience. There's a few little tricks you can do in Go. I like doing them like putting the test code in a separate package, so that you are accessing your package from the outside it seems, in your test code. When you do that, you get a kind of feel for your API. You're kind of experiencing as your users are gonna really experience it. And having that focus I think helps every project. Go, because of its minimalism, kind of encourages that... Because if minimalism is given, then you have to be really selective about what goes in, so then you really have to think about it.
 
@@ -188,7 +188,7 @@ So just having that sort of restrictive minimalist mindset I think does help us,
 
 I've seen people that do signaling via WebSockets, I've seen people do signaling via IPFS, I've seen signaling via HTTP. You can do really whatever you want.
 
-\[00:32:13.26\] So once you exchange that amount of details, you then go into this next step, which is like a full protocol called ICE, or internet connectivity exchange, where I have my list of details from that minimal blob that we've exchanged, and in time we just hit each other with pings and pongs to find the best route.
+\[32:13\] So once you exchange that amount of details, you then go into this next step, which is like a full protocol called ICE, or internet connectivity exchange, where I have my list of details from that minimal blob that we've exchanged, and in time we just hit each other with pings and pongs to find the best route.
 
 **Jon Calhoun:** So when you're doing that pings and pongs and stuff - I assume it's trying to find the quickest connection, in the sense of like if you and I are on a local network, it'll try to use that instead of going out to the web, that sort of thing.
 
@@ -220,7 +220,7 @@ So let's say me and you are talking via Wi-Fi, and then I walk outside - I need 
 
 **Sean DuBois:** Yeah, so for WebRTC itself, all you do is you generate that bootstrap blob, and then you basically call "create offer", and I send my offer to the other side. Then the other side calls "create answer" and then sends the answer back, and you're done. You now have a full peer-to-peer communication that does all the things.
 
-\[00:35:57.21\] But we also expose all of the underlying technologies as their own individual packages. So this ICE things, it just implements -- I think it's an io ReadWriteCloser. So I push on a list of my remote's IP addresses, and I send my remote a list of my IP addresses, and then they just find each other, and that's it. You can slap that in front of anything.
+\[35:57\] But we also expose all of the underlying technologies as their own individual packages. So this ICE things, it just implements -- I think it's an io ReadWriteCloser. So I push on a list of my remote's IP addresses, and I send my remote a list of my IP addresses, and then they just find each other, and that's it. You can slap that in front of anything.
 
 I forget -- I know some people have slapped VPNs on it. At WireGuard someone built an implementation, they call it WG VPN. If you get a chance, go look on the awesome-pion repo. But they took the Go implementation of WireGuard and married it with ICE, and now you have a NAT Traversing WireGuard implementation.
 
@@ -242,7 +242,7 @@ And two, we learned from all the research and all the hard lessons that people l
 
 So I can see the arguments from both sides, and I definitely think that there is an argument to be made for keeping the same design that's there if those benefits are gonna be useful.
 
-**Sean DuBois:** \[00:39:45.18\] And listen to this magic... Since Pion does the WASM, so you write -- if you call "create peer connection" and "create offer", "create answer", when you compile to WASM, it's basically just outputting the JavaScript that runs in the browser. It lets me write my Go code, but then evaluate against the browser's implementation. So I can check "Does Pion's pure Go implementation behave exactly the same as Pion, but then compiles and runs in the browser? ...so it allows me to ensure that I implement WebRTC the same way as the browser does, but in my pure Go implementation."
+**Sean DuBois:** \[39:45\] And listen to this magic... Since Pion does the WASM, so you write -- if you call "create peer connection" and "create offer", "create answer", when you compile to WASM, it's basically just outputting the JavaScript that runs in the browser. It lets me write my Go code, but then evaluate against the browser's implementation. So I can check "Does Pion's pure Go implementation behave exactly the same as Pion, but then compiles and runs in the browser? ...so it allows me to ensure that I implement WebRTC the same way as the browser does, but in my pure Go implementation."
 
 **Mat Ryer:** That's great.
 
@@ -270,7 +270,7 @@ It's something I definitely wanna do, because there's a lot of detective work th
 
 I'm not trying to say anything bad or anything like that, I'm just... It's interesting that now that we have a lot more open source stuff and it's a lot more common, that it almost feels like it's a completely different ball game as to how you manage it, managing that community. It's probably improved things in a lot of ways, and gotten a lot more perspective that wasn't there.
 
-**Jaana Dogan:** \[00:44:00.15\] And I think we are better in terms of identifying these issues in the beginning. Linux wouldn't be this successful probably if people were paying attention to these type of issues back then. So there's definitely some sort of change. People just don't necessarily support a project if they see that the leadership in the project is really toxic.
+**Jaana Dogan:** \[44:00\] And I think we are better in terms of identifying these issues in the beginning. Linux wouldn't be this successful probably if people were paying attention to these type of issues back then. So there's definitely some sort of change. People just don't necessarily support a project if they see that the leadership in the project is really toxic.
 
 **Sean DuBois:** Yeah. I don't think software matters that much. At the end of the day, every project is gonna come and go. Someday Linux won't matter, someday Pion won't matter, but people's emotions - that's their entire life. I want people to be happy, and I want people to come in and feel good about what they've done. So yeah, I'm totally willing to make technical compromises in this for people's emotions, because it matters more to me than a couple lines of code. We can write more unit tests, we can add more linters, but it's not worth being a jerk.
 
@@ -286,7 +286,7 @@ I did have a question when you were talking about -- Matt was asking about begin
 
 **Sean DuBois:** I don't think it's really helped that much. It's really hard to just go to a random issue and pick it, because you're not passionate about the project. I think it's pretty idealistic to think "Today I'm gonna sit down and I'm gonna get involved, because I wanna get involved." I think you have to figure out what is the itch you're trying to scratch, because that's the only thing that's going to motivate you in the end. There's no reward at the end of this. You're not getting paid... It totally has to come from your own personal happiness. I tried that, and I do it a little bit, but I haven't seen it pay off that much.
 
-**Jon Calhoun:** \[00:48:03.25\] One of the things I think Mark did with Buffalo - I think he had people doing documentation type stuff. I think it was people who were learning Buffalo and then building stuff with it. Sort of like you said; you wanna build stuff with it first. And as things were less clear to them or they got confused, they'd sort of ask questions in the Slack, or whatever it was. And as that got hashed out and they actually got a good idea of what the description should look like, then it'd be like "Okay, well why don't you submit an issue that has this documentation improved a little bit? That way you can get involved." And it's not necessarily code, but it's still helping the project just as much, and it sort of gets you involved in that process, and everything. I think that can help, but I definitely don't know the right way to get developers involved in a project, because that's a challenging thing to do.
+**Jon Calhoun:** \[48:03\] One of the things I think Mark did with Buffalo - I think he had people doing documentation type stuff. I think it was people who were learning Buffalo and then building stuff with it. Sort of like you said; you wanna build stuff with it first. And as things were less clear to them or they got confused, they'd sort of ask questions in the Slack, or whatever it was. And as that got hashed out and they actually got a good idea of what the description should look like, then it'd be like "Okay, well why don't you submit an issue that has this documentation improved a little bit? That way you can get involved." And it's not necessarily code, but it's still helping the project just as much, and it sort of gets you involved in that process, and everything. I think that can help, but I definitely don't know the right way to get developers involved in a project, because that's a challenging thing to do.
 
 **Sean DuBois:** I'm gonna have to pick Mark's brain on that, because I'm trying to do that right now. I give people access to the wiki and I say "Go edit it." But it's tough, because it's async; so if I'm not there to give immediate feedback and say "Great job. That's right", I lose them. I've had at least 3-4 people start this whole documentation push - they were learning WebRTC - and I'm gone for 24 hours because I've got work, or family stuff going on, and that green circle stays grey forever. It's tough to keep people. Yeah, I don't know.
 
@@ -294,11 +294,11 @@ I did have a question when you were talking about -- Matt was asking about begin
 
 **Sean DuBois:** That's a fantastic idea. I think I'm gonna do that. I'm gonna schedule like once every two weeks, "Here's an hour that I'm just gonna be in Hangouts", and people just join and talk about what's important to them. Because I think that's a big thing that's been lacking right now with the project. People are able to do their single-track things that they're excited about, but it's really hard to build multi-person momentum.
 
-**Break:** \[00:50:19.07\]
+**Break:** \[50:19\]
 
 **Mat Ryer:** Well, you said a lot of very popular things today, Sean, but it's time for our regular slot of the show... So sit down everyone, if you're stood up, and relax, or stay stood up -- just whatever you were gonna do. It's time for unpopular opinion!
 
-**Jingle:** \[00:51:54.17\]
+**Jingle:** \[51:54\]
 
 **Mat Ryer:** Alright, Sean, do you have anything unpopular to say?
 
@@ -330,7 +330,7 @@ For me, I'm gonna come and go; someday I will not be alive anymore, and was it r
 
 So you're like, okay, do I get rid of the refund policy because of that, or do I add some clause to it that's like, "If you do this, then you don't get a refund"? But then overall you're like, well, that means that anybody else who's a legitimate person doesn't -- you know, they don't wanna read through this clause of what applies, what doesn't... So I'm just like, "Alright, at the end of the day it's probably better off just to say the refund's there", and those bad people - I have to ignore them.
 
-\[00:56:08.12\] And it sucks, because when it does happen, you feel frustrated, and you're annoyed, and everything else. But at the end of the day, like you said, you can't focus on that, because they're probably gonna do it or find some way to do it. Because even if you don't give them a refund, they'll probably do a chargeback, or something. Like you said, they'll either commit fraud, or something. There's no way to stop that, so just focusing on it is probably not worth your effort.
+\[56:08\] And it sucks, because when it does happen, you feel frustrated, and you're annoyed, and everything else. But at the end of the day, like you said, you can't focus on that, because they're probably gonna do it or find some way to do it. Because even if you don't give them a refund, they'll probably do a chargeback, or something. Like you said, they'll either commit fraud, or something. There's no way to stop that, so just focusing on it is probably not worth your effort.
 
 **Sean DuBois:** Yeah, I don't know what the right answer is. I guess at the end of the day you just have to find what's the total happiness you can do out of this day... And for me, I get my happiness out of helping/empowering the good people.
 
@@ -348,7 +348,7 @@ The other one is I'm not a big fan of restraints. Just the idea that you have th
 
 **Sean DuBois:** Yeah. And that's the same why I'm against patents as well, because patents I think only protect the big players. The big players amass these big war chests, and if you're a little guy, they come to you and say "Hey, sell to me, or I'm gonna crush you." So I think the GPL is the same way. It's the right intention, but what all of these systems do is they help the big players.
 
-\[00:59:54.07\] The big one that I heard is in the E.U, when we're adding all these protections, there's a reason that these big companies are encouraging it, because now it's building up their moat. So I can't go compete with a big company that's doing X, because they've built up this big moat, and there's all this regulation.
+\[59:54\] The big one that I heard is in the E.U, when we're adding all these protections, there's a reason that these big companies are encouraging it, because now it's building up their moat. So I can't go compete with a big company that's doing X, because they've built up this big moat, and there's all this regulation.
 
 So I sat down and I really wanna do the right thing. I'm adding regulation because I believe I'm making people's lives better. But at the end of the day, regulation is just abused by people with malevolent intent. And you can't beat them. Whatever system you make, they're going to abuse, so it's better not to have it at all.
 

@@ -24,7 +24,7 @@ So the editors are responsible for merging changes into the specifications once 
 
 **Kevin Ball:** So exceedingly relevant for those of us on JS Party. Let's do just a super-quick overview of what the process is, and then dive into the fun stuff about what are the things coming down the pipe.
 
-**Jordan Harband:** \[00:04:01.26\] Yeah, absolutely. Ever since 2015, ES6, we've been operating under a process where every year we release a new edition of the specification, with whatever changes have landed in the interim... And there's a process with multiple stages for proposals to move through in order to land in the language. So the earliest stage is stage zero, which is kind of like "I've got this wild idea." Stage one is the committee agrees that this is a problem that we need to explore further. Stage two is "This is the solution. We want to solve the problem and put in a solution in the language, and we have a pretty good idea of what that solution looks like." Stage three is the solution is pretty much finished, and until it's actually implemented and shipped in browsers and other engines, we won't know about any other changes we need to make until that time. And stage four is when it's finished and lands in the specification.
+**Jordan Harband:** \[04:01\] Yeah, absolutely. Ever since 2015, ES6, we've been operating under a process where every year we release a new edition of the specification, with whatever changes have landed in the interim... And there's a process with multiple stages for proposals to move through in order to land in the language. So the earliest stage is stage zero, which is kind of like "I've got this wild idea." Stage one is the committee agrees that this is a problem that we need to explore further. Stage two is "This is the solution. We want to solve the problem and put in a solution in the language, and we have a pretty good idea of what that solution looks like." Stage three is the solution is pretty much finished, and until it's actually implemented and shipped in browsers and other engines, we won't know about any other changes we need to make until that time. And stage four is when it's finished and lands in the specification.
 
 **Kevin Ball:** And so with Babel we can start using these about stage zero, right?
 
@@ -52,7 +52,7 @@ So the editors are responsible for merging changes into the specifications once 
 
 **Emma Bostian:** I'm curious, how did you become part of the TC39 panel?
 
-**Jordan Harband:** \[00:08:03.25\] Sure. So I was maintaining the es5-shim and es6-shim back in 2014. I still am, but at the time, they were basically the primary way anybody polyfilled JavaScript language features, meaning like provided them to an older browser that didn't ship them already... And as a result, I had to kind of pay attention to the specification itself in order to implement those correctly.
+**Jordan Harband:** \[08:03\] Sure. So I was maintaining the es5-shim and es6-shim back in 2014. I still am, but at the time, they were basically the primary way anybody polyfilled JavaScript language features, meaning like provided them to an older browser that didn't ship them already... And as a result, I had to kind of pay attention to the specification itself in order to implement those correctly.
 
 One of the maintainers of jQuery actually reached out to me on Twitter and asked if I wanted to attend as a guest. In that first meeting I was able to provide advice that changed the specification. That was a really good feeling. It was very exciting to be able to have made a substantive change to such an important language... So I kind of caught the bug and immediately started advocating that my company joined and sent me as a delegate \[unintelligible 00:08:56.28\]
 
@@ -74,7 +74,7 @@ Speaking of body of work, let's get into talking about what's coming down the pi
 
 Also, Records and Tuples - that's in stage two. That's a new primitive. It's like an immutable object or an immutable array, but it's a primitive, so you can compare them with equal signs, and ot compares their contents instead of just their identity.
 
-\[00:11:54.03\] So like two objects that have a key A with the value 1 aren't equal, but two records that have those same contents are equal. Immutable.js and Immer and a few other libraries in the space all are attempting to solve this problems, and Records and Tuples will be a way in the language to do that.
+\[11:54\] So like two objects that have a key A with the value 1 aren't equal, but two records that have those same contents are equal. Immutable.js and Immer and a few other libraries in the space all are attempting to solve this problems, and Records and Tuples will be a way in the language to do that.
 
 **Amal Hussein:** Is it a new built-in, essentially?
 
@@ -98,7 +98,7 @@ So the decorators proposal is still a stage two thing. It's a problem the commit
 
 **Jordan Harband:** Yeah, it's essentially fast comparison by content. Everything in JavaScript compares roughly by identity. You could argue that primitives compare by content, like 3=3. But if you have a complex data structure, with like an object or an array, any equality has to inefficiently move through every key-value pair or every item in the array, or every item in the set, and so forth, in order to do those comparisons.
 
-\[00:16:08.14\] React, for example, has a bunch of things that they do to do shallow comparisons... And then when the shallow comparisons fail, they just rerender everything. So if you're a React developer, you may have been familiar with peer components, or the useMemo component wrapper, all of which are designed to try and avoid the performance hit from doing deep comparisons of objects. With Records and Tuples then you no longer need to do a deep comparison, you just compare them directly, and effectively immediately it will tell you "This has the same stuff" or "It doesn't have the same stuff."
+\[16:08\] React, for example, has a bunch of things that they do to do shallow comparisons... And then when the shallow comparisons fail, they just rerender everything. So if you're a React developer, you may have been familiar with peer components, or the useMemo component wrapper, all of which are designed to try and avoid the performance hit from doing deep comparisons of objects. With Records and Tuples then you no longer need to do a deep comparison, you just compare them directly, and effectively immediately it will tell you "This has the same stuff" or "It doesn't have the same stuff."
 
 You're right that it's dry. A lot of the stuff we do in TC39 is dry. It's low-level capabilities. Or it's sugar, abstractions, better/simpler ways to do things. Day-to-day developers are probably gonna get a lot more excited about something like temporal, which is a new proposal for - it's stage two right now - basically providing a much better way to do dates and time than the pretty broken data object we have... Because temporal is something developers are gonna use directly, whereas Records and Tuples - they may or may not use them directly.
 
@@ -124,7 +124,7 @@ You're right that it's dry. A lot of the stuff we do in TC39 is dry. It's low-le
 
 **Kevin Ball:** Alright, so let's now take a quick break, and we'll be back shortly to talk a litle bit more specifics about what's gonna happen in the next year coming out of TC39.
 
-**Break:** \[00:19:33.14\]
+**Break:** \[19:33\]
 
 **Kevin Ball:** Alright, let's get back to it. Emma was saying that for her, proposals really reminded her of something a little different than TC39. Emma, do you wanna take us into this?
 
@@ -152,7 +152,7 @@ But then I had another proposal that was like `Error.isError()`, like `Array.isA
 
 Now that we kind of know what realms are, could you explain again what is all this instance and reference tracking that doesn't equate? I'm not clear on why that happens. Could you explain?
 
-**Jordan Harband:** \[00:23:55.15\] So if you do two square brackets, that makes an array, and that has a .constructor property, and then that array's .constructor property is gonna be the Array function. But if you do the square brackets inside an iFrame and also do it on the main part of the web page, and you try and do triple equals with those constructors, that's not gonna be equal. They're different constructors. Those two array functions are different.
+**Jordan Harband:** \[23:55\] So if you do two square brackets, that makes an array, and that has a .constructor property, and then that array's .constructor property is gonna be the Array function. But if you do the square brackets inside an iFrame and also do it on the main part of the web page, and you try and do triple equals with those constructors, that's not gonna be equal. They're different constructors. Those two array functions are different.
 
 **Amal Hussein:** Yeah, I know. That makes sense. I would understand that to be different, because they're different objects in memory though.
 
@@ -244,7 +244,7 @@ Now that we kind of know what realms are, could you explain again what is all th
 
 **Amal Hussein:** Okay. Alright, so Sindre Sorhus said this one time - he's actually kind of a fountain of knowledge, but he said that for him it doesn't really matter whether a module is one line or a thousand lines, in the sense that it abstracts away some behavior. So lines of code is not necessarily a useful metric to judge a package by. I would say dependencies is though, for me. When I'm always picking packages, I'm like "How many dependencies do you have?" Because ultimately, all those dependencies become your problem, as soon as you import this into your app... In the sense that you might have peer dependency conflicts, downstream security issues... So just a tangent there on picking modules - don't judge the lines of code.
 
-**Jordan Harband:** \[00:28:32.19\] Well, you mentioned LeftPad... While that happens, I was actually in the middle of proposing `String.prototype.padStart()` and `String.prototype.padEnd()`, which were stage two at the time, and it was very amusing to me that almost every Hacker News comment that said "That's just a one-line thing", they all wrote it wrong. Every one of them had bugs. So even a one-line change can often be very difficult to write correctly, and so there's a lot of value in having a separately well-tested, well-used package to abstract that away.
+**Jordan Harband:** \[28:32\] Well, you mentioned LeftPad... While that happens, I was actually in the middle of proposing `String.prototype.padStart()` and `String.prototype.padEnd()`, which were stage two at the time, and it was very amusing to me that almost every Hacker News comment that said "That's just a one-line thing", they all wrote it wrong. Every one of them had bugs. So even a one-line change can often be very difficult to write correctly, and so there's a lot of value in having a separately well-tested, well-used package to abstract that away.
 
 **Kevin Ball:** I don't think anyone who's ever worked with a regular expression would doubt you on that.
 
@@ -286,7 +286,7 @@ The challenge in naming it was twofold. The first was that I started out just ca
 
 **Jordan Harband:** But it was using an old version of moment, that was compiled with an in-house bundler tool, and just the way that it did that ended up breaking when global was a variable that already existed... Which sucked, but also it meant that that name was just kind of not an option, because one thing that is the most important part of TC39 is "Do not break the web." So anything that causes any noticeable number of websites to break is just not something browsers are gonna wanna ship, and so it's not something we put in the specification.
 
-\[00:32:12.18\] Then I had to come up with a new name, and there was a lot of bikesheds, there was a lot of ideas thrown out, and what I ended up doing was asking another browser to gather data about which ones were already in use, basically trying in advance to see which names would work. I came up with 30 names, and the response was "That's too many. Give us five." I put global on there as a control, and then I put a few others, including `globalThis`, which is the name it ended up having... They looked at the number of websites using it, and the result was that `globalThis` was the safest option.
+\[32:12\] Then I had to come up with a new name, and there was a lot of bikesheds, there was a lot of ideas thrown out, and what I ended up doing was asking another browser to gather data about which ones were already in use, basically trying in advance to see which names would work. I came up with 30 names, and the response was "That's too many. Give us five." I put global on there as a control, and then I put a few others, including `globalThis`, which is the name it ended up having... They looked at the number of websites using it, and the result was that `globalThis` was the safest option.
 
 **Amal Hussein:** It was the name that nobody else thought of, because it was so bad, like nobody used it, and it was available... Like those crappy domain names... \[laughs\]
 
@@ -308,7 +308,7 @@ What finally ended up relaxing it was another committee member, Yulia, who works
 
 **Amal Hussein:** I thought that was a little taking it too far though. I thought that was not nice. It was like people trying to actively start a guerilla campaign to jeopardize the success of this proposal. It was a joke to begin with, but most people didn't know that it was a joke, and then it just got out of hand really fast, and it was just like "WTF...?" \[laughs\]
 
-**Kevin Ball:** \[00:36:04.19\] Wait, wait... People were deliberately being mean on the internet?
+**Kevin Ball:** \[36:04\] Wait, wait... People were deliberately being mean on the internet?
 
 **Amal Hussein:** Oh, yeah...
 
@@ -318,7 +318,7 @@ What finally ended up relaxing it was another committee member, Yulia, who works
 
 **Kevin Ball:** With that, let's take another quick break and we'll come back and talk a little bit more about some of the wild stuff that's way down still in the stage one and zero.
 
-**Break:** \[00:36:26.00\]
+**Break:** \[36:26\]
 
 **Amal Hussein:** So Jordan, let's talk about datetime in JavaScript. Dates, times, timezones - these are things that have been known to break a man...
 
@@ -338,7 +338,7 @@ Luckily, there's a stage two proposal called Temporal that's attempting to addre
 
 **Amal Hussein:** And yeah, Matt Johnson... I'm not sure where Matt Johnson works... But Moment.js has totally smoothed over a lot of the headaches that used to be things that everyone had to do on their own, and do imperfectly... So this is kind of like a really great example of web developers taking complexity and abstracting it away into a smooth API, and dealing with the interop issues as well, in addition to the complexities around datetime.
 
-\[00:40:16.23\] What's really interesting is folks from Moment are like "Okay, cool, we've learned a lot writing Moment. Now let's take Moment and put it in the browser." So this is a really good example of web developers making the cow paths, innovating on the web with libraries, and then eventually abstracting that behavior back into the platform, so that we can no longer have to use Moment.
+\[40:16\] What's really interesting is folks from Moment are like "Okay, cool, we've learned a lot writing Moment. Now let's take Moment and put it in the browser." So this is a really good example of web developers making the cow paths, innovating on the web with libraries, and then eventually abstracting that behavior back into the platform, so that we can no longer have to use Moment.
 
 So Moment is now in just full maintenance mode, there are no new features or anything; it still works fine, but the goal is "We're gonna have this natively in the browser with Temporal", which we're gonna hear about from Jordan in a second...
 
@@ -370,7 +370,7 @@ I was at a TC39 meeting this time last year in Berlin, and if I remember, there 
 
 So the idea here is like something that does datetime - we don't have to load every JavaScript engine with all of the datetime translations, even for internationalization. The idea is we can just do a just-in-time kind of loading. I thought that was a really cool thing, where temporal actually was like "Hey, let's maybe slow down, because maybe we can release using modules, and stuff like that."
 
-**Jordan Harband:** \[00:44:20.20\] Browsers already do that for globals. So the built-in modules isn't necessary for that optimization. And then separately, built-in modules has a lot of obstacles, so the temporal proposal decided not to try and install itself, like lock itself on that. So at the moment, it's going to supply a global temporal namespace that contains a couple different types. It's stage two, so the names are changing a little bit... And I don't have them all in my head, but one of them is currently called absolute, and it represents a fixed point in time, unrelated to location or which calendar system you're using.
+**Jordan Harband:** \[44:20\] Browsers already do that for globals. So the built-in modules isn't necessary for that optimization. And then separately, built-in modules has a lot of obstacles, so the temporal proposal decided not to try and install itself, like lock itself on that. So at the moment, it's going to supply a global temporal namespace that contains a couple different types. It's stage two, so the names are changing a little bit... And I don't have them all in my head, but one of them is currently called absolute, and it represents a fixed point in time, unrelated to location or which calendar system you're using.
 
 Then there's another one called the datetime, which is like a calendar date, and then a wall clock time, in a specific location, in a specific timezone. And then there's a time object, which is just the wall clock time. So if you need to say "This is a meeting", or "I wake up every day at 7 AM", you don't need a date to represent that, you just need a time; that's the object for that. And similarly, there's a date object, where it's like "My birthday is the same date every year, I don't care what time it is. It's that date."
 
@@ -388,7 +388,7 @@ So the built-in modules question was we don't wanna stick 7-8 new globals; we'd 
 
 So the optimistic timeline then is that it might get stage three in November... But that requires that there be sufficient review time, that there not be major changes coming out of that, and also that the committee agrees to it at stage three. But yeah, once it's stage three, browsers start shipping it, so...
 
-**Amal Hussein:** \[00:47:22.13\] Yeah, super-cool. And this is one of those features that has been in the pipeline probably pretty long...
+**Amal Hussein:** \[47:22\] Yeah, super-cool. And this is one of those features that has been in the pipeline probably pretty long...
 
 **Jordan Harband:** Yeah, a number of years.
 

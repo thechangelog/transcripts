@@ -32,7 +32,7 @@ We were joking earlier that we're highly qualified to do this, because Alex wrot
 
 **John-David Dalton:** James, uh, Oh, man...
 
-**Alex Sexton:** \[00:04:11.26\] RequireJS...
+**Alex Sexton:** \[04:11\] RequireJS...
 
 **John-David Dalton:** GitHub... \[laughter\] I'm doing the same thing.
 
@@ -70,7 +70,7 @@ But a lot of people didn't like this module system, including James Burke. They 
 
 **Alex Sexton:** But that only makes sense on the server.
 
-**Mikeal Rogers:** \[00:07:49.03\] Yes, okay. That is fair. But what people were doing already with Browserify was they were taking a bunch of these modules and bundling them up and using them in their web applications. And everybody in production, even if you're using AMD, ends up doing this bundle step. It's really only in debugging where you wanna truly asynchronously load these things, right?
+**Mikeal Rogers:** \[07:49\] Yes, okay. That is fair. But what people were doing already with Browserify was they were taking a bunch of these modules and bundling them up and using them in their web applications. And everybody in production, even if you're using AMD, ends up doing this bundle step. It's really only in debugging where you wanna truly asynchronously load these things, right?
 
 **Alex Sexton:** Yeah, and potentially in the HTTP/2 push future, but...
 
@@ -102,7 +102,7 @@ So anyway, they revised the spec; it's still pretty pythonic, but it definitely 
 
 **John-David Dalton:** Usually, when it comes to syntax, I'm not a chromogen, I'm pretty open to new syntax... So I'm like "Let's have the new syntax, let's start hearing on it and using it to see what shakes out." I'm all for -- at the time, I was all for the import, the export, all that stuff.
 
-**Mikeal Rogers:** \[00:11:58.16\] Right. I think the spec sat in a weird state for quite a while. This was before a lot of new processes were put into place at TC39. The spec kind of lingered with people poking at it, nobody had really implemented it yet, nobody was using it in the wild, because this was kind of pre-Babel, so we didn't have people really experimenting with syntax on a bleeding edge like that... And I think most importantly now there's a staging process where you kind of go through stage zero, stage one, and at each stage there are some bars around how many implementations there need to be and how much input have they gotten... But there's a couple specs in what we call ES6 (which is really ES2015) that predate that process, and one of those specs is the ES modules spec. So it got finalized before there were really many implementations out there. There were some big question marks around the loader, for instance. The module loader is another spec in the W3C that is even less worked on.
+**Mikeal Rogers:** \[11:58\] Right. I think the spec sat in a weird state for quite a while. This was before a lot of new processes were put into place at TC39. The spec kind of lingered with people poking at it, nobody had really implemented it yet, nobody was using it in the wild, because this was kind of pre-Babel, so we didn't have people really experimenting with syntax on a bleeding edge like that... And I think most importantly now there's a staging process where you kind of go through stage zero, stage one, and at each stage there are some bars around how many implementations there need to be and how much input have they gotten... But there's a couple specs in what we call ES6 (which is really ES2015) that predate that process, and one of those specs is the ES modules spec. So it got finalized before there were really many implementations out there. There were some big question marks around the loader, for instance. The module loader is another spec in the W3C that is even less worked on.
 
 Anyway, at the time that it got kind of ratified in ES2015, there was a lot of people saying "Oh, well this is gonna be compatible with Node", because Yehuda had done a bunch of work looking at how Node modules look and work to spec, and how ES modules work, and "Let's make sure that they have feature parity."
 
@@ -120,7 +120,7 @@ One of the things is like your EcmaScript module is going to have implicit stric
 
 **Mikeal Rogers:** Okay, and you didn't like the idea that there would be this new extension .mjs?
 
-**John-David Dalton:** \[00:15:37.24\] Yeah, I mean... The problem is that all new-facing proper EcmaScript modules would require this new extension, and it introduced some other things too where it was like "Node is not a vacuum, even versions of Node." Projects don't tend to just support one version of Node; there's usually three versions that you end up supporting, so if this is introduced, you're still going to have to have a transpile step if you're gonna wanna support Node 9 or Node 8, so then that leads to things like doubling your package size because you're gonna want to have your .mjs and your .js. But then that also leads to things like transpilation is not 100% accurate, so you get these weird edge cases that a bug will appear in your Node 9 code but not your Node 10 code in the same package. I didn't like the gap there for that.
+**John-David Dalton:** \[15:37\] Yeah, I mean... The problem is that all new-facing proper EcmaScript modules would require this new extension, and it introduced some other things too where it was like "Node is not a vacuum, even versions of Node." Projects don't tend to just support one version of Node; there's usually three versions that you end up supporting, so if this is introduced, you're still going to have to have a transpile step if you're gonna wanna support Node 9 or Node 8, so then that leads to things like doubling your package size because you're gonna want to have your .mjs and your .js. But then that also leads to things like transpilation is not 100% accurate, so you get these weird edge cases that a bug will appear in your Node 9 code but not your Node 10 code in the same package. I didn't like the gap there for that.
 
 **Mikeal Rogers:** Yeah. I think there's an additional gotcha in the transpilations, too. As we've been working with TC39 to figure out what parts of the spec maybe need to shift or adjust in order to make our support work, we're finding things in the Babel transpilation today that make the module system behave slightly differently than the spec says. So we're moving towards the spec, but we're actually kind of departing from the way that Babel works. If you're just using transpilation, you may actually end up with a completely different behavior than what you actually wanted.
 
@@ -136,7 +136,7 @@ At the time, Node really wanted that to be mandated by the language, so they too
 
 In the browser you say that something is a type=module; it's very explicit. But with unambiguous, it requires it at a syntax level, and just having import or export, it's easy to slip out of that and accidentally go to a different parse goal, which is why there's other proposals now a year later that say "Hey, you can have a new directive that's like use module, because that's an explicit opt-in to ESM, and something that won't likely disappear when you're refactoring your code."
 
-**Mikeal Rogers:** \[00:20:19.00\] So that brings us through up to that spec... So what does the landscape look like now? Who has implemented ES modules, how have they implemented them? Node is currently pursuing this both in standards and in implementation, trying to make this work with .mjs. What's the current status of the spec in the overall implementations in browsers and stuff like that?
+**Mikeal Rogers:** \[20:19\] So that brings us through up to that spec... So what does the landscape look like now? Who has implemented ES modules, how have they implemented them? Node is currently pursuing this both in standards and in implementation, trying to make this work with .mjs. What's the current status of the spec in the overall implementations in browsers and stuff like that?
 
 **John-David Dalton:** Edge has experimental, I think Firefox and Chrome are both experimental as well, and then I believe it has shipped in Safari. So basically all the major ones have it, either experimental or shipped.
 
@@ -170,7 +170,7 @@ But it has a lot of loader override-type things that kind of get towards that. T
 
 **John-David Dalton:** I was just gonna say that, Ember does use AMD.
 
-**Alex Sexton:** \[00:23:53.05\] Yeah... So I think maybe he read my blog post, which was just that, like, I don't care what you author in. If you're gonna compile, that's fine, but if we're defining a module spec that just has to work everywhere for everyone in all cases, then AMD is the superset. If you write synchronous require statements and you wanna use Browserify to compile it down, compile it down to AMD and then everything will be interoperable, whether you use AMD or you use the thing that needs to compile to AMD. The whole point of it was like -- the standard that we all choose needs to be usable on the web without Node.js, right? You shouldn't need a server step in order to use the default module specification... But everyone's gonna compile, it's just right now everyone compiles -- like, even to this day, Browserify compiles down to a function that's wrapped in functions with keys, and then Webpack uses these IDEs that throw everything onto an object... I feel like we could have kind of like interoperable bytecode modules, or at least for a long time -- now we have ES6 and it'll be fixed.
+**Alex Sexton:** \[23:53\] Yeah... So I think maybe he read my blog post, which was just that, like, I don't care what you author in. If you're gonna compile, that's fine, but if we're defining a module spec that just has to work everywhere for everyone in all cases, then AMD is the superset. If you write synchronous require statements and you wanna use Browserify to compile it down, compile it down to AMD and then everything will be interoperable, whether you use AMD or you use the thing that needs to compile to AMD. The whole point of it was like -- the standard that we all choose needs to be usable on the web without Node.js, right? You shouldn't need a server step in order to use the default module specification... But everyone's gonna compile, it's just right now everyone compiles -- like, even to this day, Browserify compiles down to a function that's wrapped in functions with keys, and then Webpack uses these IDEs that throw everything onto an object... I feel like we could have kind of like interoperable bytecode modules, or at least for a long time -- now we have ES6 and it'll be fixed.
 
 **John-David Dalton:** There was even a build step for AMD, and that was RJS, the build optimizer.
 
@@ -190,7 +190,7 @@ But it has a lot of loader override-type things that kind of get towards that. T
 
 **Mikeal Rogers:** Right, right. I think the thing that nobody really saw coming was Babel taking off, and then frameworks being built as Babel toolchains, like React... At that point, you can use these new standards and just have them compile down to whatever. It's not even worth having an argument over what that's compiled down to, if it's AMD or CommonJS or whatever, as long as there's a good sourcemap.
 
-**Alex Sexton:** \[00:28:01.03\] I actually think it's still a little bit sad that -- like, it will eventually not be true anymore. Eventually, modules will work in the browser without Node, but I think it is a bad thing, and was bad for the web, or whatever - and there are tons of bad things for the web and it's fine, everything's gonna be fine... But I think it's a bad thing for the web that we let that happen, to the point where like if you want to use JavaScript on the web, you also have to use Node. That became a rule. And that's great for Node, but bad for the web, I think. We locked people into "You must use this server-side JavaScript thing in order to use this open platform that's a completely different ecosystem."
+**Alex Sexton:** \[28:01\] I actually think it's still a little bit sad that -- like, it will eventually not be true anymore. Eventually, modules will work in the browser without Node, but I think it is a bad thing, and was bad for the web, or whatever - and there are tons of bad things for the web and it's fine, everything's gonna be fine... But I think it's a bad thing for the web that we let that happen, to the point where like if you want to use JavaScript on the web, you also have to use Node. That became a rule. And that's great for Node, but bad for the web, I think. We locked people into "You must use this server-side JavaScript thing in order to use this open platform that's a completely different ecosystem."
 
 **Mikeal Rogers:** So this is what I'd argue with though - one, referring to it as a server-side thing is a little bit disingenuous, because when you use it this way, you're actually using it as like a front-end compile step, and you're using it as like the way you would use Python, or...
 
@@ -230,7 +230,7 @@ After that, there were so many things written in Node and so many things written
 
 **Mikeal Rogers:** Required?! Who made them do this?
 
-**Alex Sexton:** \[00:31:59.10\] My problem isn't that Node existed and offered these tools, my problem is that the default thing that we all chose required you to use this single language. We got away from being able to do anything in any other language because we standardized a specific tool. I'm not mad that Node existed, but I think Node should have compiled down to a common format that worked on the web, versus having everyone need o switch their entire systems over rather than choose their tool based on their needs, or whatever.
+**Alex Sexton:** \[31:59\] My problem isn't that Node existed and offered these tools, my problem is that the default thing that we all chose required you to use this single language. We got away from being able to do anything in any other language because we standardized a specific tool. I'm not mad that Node existed, but I think Node should have compiled down to a common format that worked on the web, versus having everyone need o switch their entire systems over rather than choose their tool based on their needs, or whatever.
 
 Revisionist history is to say like "Oh, well the Rails tools aren't good now." That's because everyone had to switch over, of course!
 
@@ -258,7 +258,7 @@ It works completely without any build, and I think that's a good default, becaus
 
 **Mikeal Rogers:** So you can also do this with any module in npm. There's a thing called Browserify CDN, where you can just in a web browser say "Oh yeah, just require this module." You don't have to have a Node build pipeline -- you don't need a pipeline, you can just use it. And it's not super popular because guess what, everybody has a build toolchain anyway.
 
-**Alex Sexton:** \[00:35:54.23\] No, it's not super popular because the only thing I can think of that's worse than requiring Node is requiring BrowserifyCDN.com as the required thing to build web pages. That's not a solution to this problem generally, it is someone else doing the Node build pipeline for you, that still requires Node.
+**Alex Sexton:** \[35:54\] No, it's not super popular because the only thing I can think of that's worse than requiring Node is requiring BrowserifyCDN.com as the required thing to build web pages. That's not a solution to this problem generally, it is someone else doing the Node build pipeline for you, that still requires Node.
 
 **John-David Dalton:** As a sidetrack though, there is an AMD loader for Node too, so... That was kind of cool. You could use AMD syntax and have it work in Node as well, if you required the loader.
 
@@ -282,13 +282,13 @@ All I'm saying is that everything's fine and I used the tools that were the best
 
 **John-David Dalton:** It's already making its way into build tools, too. Webpack now supports dynamic import syntax, and it should do that - deliver part of the bundle upfront and then part as needed.
 
-**Mikeal Rogers:** \[00:40:06.26\] I don't know, I'm so much skeptical of our ability to cut up the application code this much to make a big difference for secondary and third loads, when if you have a service worker, it gets loaded after the first load anyway, and if you have a mechanism by which you can update it before they requested the new code, like when you publish something it gets downloaded by the user in the background before it's actually needed - that's always gonna be much, much faster.
+**Mikeal Rogers:** \[40:06\] I don't know, I'm so much skeptical of our ability to cut up the application code this much to make a big difference for secondary and third loads, when if you have a service worker, it gets loaded after the first load anyway, and if you have a mechanism by which you can update it before they requested the new code, like when you publish something it gets downloaded by the user in the background before it's actually needed - that's always gonna be much, much faster.
 
 **Alex Sexton:** There are definitely parts of the solution to this problem, but you can never get around the fact that the first time that you go to a web page, it takes 10 seconds on a not brand new iPhone to parse the JavaScript. It's a real problem and it's not going away. I think out current build system is a direct child -- the cause of it is because we adopted a synchronous server-side tool for doing web building, and it worked for a long time.
 
 **Mikeal Rogers:** I don't agree with that at all, but okay. \[laughs\] At some point we have to move on though. Alright... So Alex Russell is gonna take a break, and then we're gonna get Alex Sexton back for a minute. \[laughs\] When we come back, we can get into the project of the week.
 
-**Break:** \[00:41:29.25\]
+**Break:** \[41:29\]
 
 **Mikeal Rogers:** Let's now dig into the project of the week. JD, you wrote a loader to -- I believe this is too to the universal spec, that you do your working on?
 
@@ -296,7 +296,7 @@ All I'm saying is that everything's fine and I used the tools that were the best
 
 It is for Node 4+, it supports .js, .mjs, it supports dynamic imports, it supports the file protocol, it supports live bindings, it's going to be spec-compliant by default, which means that things like unambiguous grammar are off by default, but you can opt into them... Things like carrying over some of the CommonJS goodies like dirname and filename that require named exports of CommonJS modules - all of that can be opted into, but by default it will follow the Node behavior of what .mjs and ESM is in Node 10, except it will be available for Node 4+.
 
-\[00:44:30.22\] What's nice about that is that you can just ship one version of your code and it just works. The consumers of your package don't have to care about it either. They don't have to worry about if they're loading ESM or CommonJS. For them, things will just work. So it removes the compile step, it removes having to have dual packages, it allows you to support a range of Node versions, and you can use import/exports, so it's a win.
+\[44:30\] What's nice about that is that you can just ship one version of your code and it just works. The consumers of your package don't have to care about it either. They don't have to worry about if they're loading ESM or CommonJS. For them, things will just work. So it removes the compile step, it removes having to have dual packages, it allows you to support a range of Node versions, and you can use import/exports, so it's a win.
 
 **Mikeal Rogers:** I've really gotta ask you, so the usage here is -- basically you do require @std/esm, and then the import syntax in the language starts to work properly... How the hell did you do that? I'm looking at this going "How would this ever work?!"
 
@@ -310,7 +310,7 @@ I've also done it in a way to where you can support versions of the ESM loader. 
 
 **John-David Dalton:** Yeah, so we've got that going... The idea is that, again, the consumer should not have to worry about it; it's just a way for you as a package author to have your import/export with a very little ceremony. You basically require it as a dependency, and then you have that small hook inside your index.js file to load in your ESM code... Which is great, because later on if you decide to drop the loader and you only wanna do Node 10+, then you just change the index.js file, and that's it. I wanted it to be super lightweight.
 
-\[00:47:57.13\] Again, I like unambiguous module grammar; I don't necessarily want all my code to be .mjs. I like a lot of the Node carryover stuff, so for me, I'll be configuring it with those options. But for everyone else, it will be standards, and as spec-compliant as possible by default... Which is great, because if it's spec-compliant by default, then you can take that same code that you're writing and loading in Node, and then you can take Babel and transform it back, if you want to, for like a website... Or you can browserify it or webpack and bundle it, and it should just work. So having it be spec-compliant by default is a pretty nice default.
+\[47:57\] Again, I like unambiguous module grammar; I don't necessarily want all my code to be .mjs. I like a lot of the Node carryover stuff, so for me, I'll be configuring it with those options. But for everyone else, it will be standards, and as spec-compliant as possible by default... Which is great, because if it's spec-compliant by default, then you can take that same code that you're writing and loading in Node, and then you can take Babel and transform it back, if you want to, for like a website... Or you can browserify it or webpack and bundle it, and it should just work. So having it be spec-compliant by default is a pretty nice default.
 
 **Mikeal Rogers:** And to make Alex here very happy, it means that you can just use this in the browser without any tooling and without Node, right? Eventually, when we have \[unintelligible 00:48:48.24\]
 
@@ -338,7 +338,7 @@ One of the first things I did was reach out to one of the Acorn devs to see if t
 
 One of the things I'm excited about that's non-standard is the support of gzipped modules. You know the browser supports gzipped compression for your resources - JavaScript, CSS, HTML... It seamlessly handles that; Node doesn't seamlessly handle loading those kinds of resources. Node has gzip support built in, but there's just not a loader mechanism for it. Because Lodash is depended on by a good chunk of the ecosystem, I get to see report after report about filesize, and the current build tools - going back to build tools having some issues - don't show the minified gzipped size of something, they show the on-disk size of your Node modules package, and Lodash happens to ship its dev build in the Node package. That means it's got all of it's documentation and source code in-lined, so it's a 4 mb on disk.
 
-\[00:52:33.12\] Lodash 5 will be gzipped and will be less than 90 kb on disk, so I've optimized it heavily there. One of the secret sauces to that is loading gzipped files seamlessly. To the end user, their code will just work, but instead of it loading a .js file, it's loading a .js.jz or .mjs.jz file.
+\[52:33\] Lodash 5 will be gzipped and will be less than 90 kb on disk, so I've optimized it heavily there. One of the secret sauces to that is loading gzipped files seamlessly. To the end user, their code will just work, but instead of it loading a .js file, it's loading a .js.jz or .mjs.jz file.
 
 **Mikeal Rogers:** Word of caution, though - not everybody should do that, because if you have a lot of tiny gzip files, they end up being really large, actually... Like, there's not a huge amount of benefit to that. And I imagine uncompressing it in real time can be kind of slow, as well.
 
@@ -360,7 +360,7 @@ Lodash will be taking a dependency on it - I'm incorporating feedback from peopl
 
 **Alex Sexton:** Oh, nice.
 
-**John-David Dalton:** \[00:56:11.05\] Even the name... One of the first things I did was look up a standard, official-looking name, and get the namespace for that and the package for that. It's because I wanted to feel official, I wanted to be spec-compliant, I want to be easy to reach for and use, and that would be a user land solution to this whole .mjs/ESM compatibility issue that we'll crop up.
+**John-David Dalton:** \[56:11\] Even the name... One of the first things I did was look up a standard, official-looking name, and get the namespace for that and the package for that. It's because I wanted to feel official, I wanted to be spec-compliant, I want to be easy to reach for and use, and that would be a user land solution to this whole .mjs/ESM compatibility issue that we'll crop up.
 
 **Mikeal Rogers:** Corban in the chat is asking (just general) "What's the SSD and CPU on what you're doing these benchmarks on?"
 

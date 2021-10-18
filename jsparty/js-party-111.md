@@ -20,7 +20,7 @@ Let's go through it a little bit, and I wanted to start with this question of su
 
 **Jerod Santo:** So the description of this, at least in the repo, is "Delegate the share of URLs or files to the OS, providing share options based on the installed apps and user preference." So there isn't a UI though, right? Because that's the whole point, you're passing the URL off. Are you saying that in the Web Share test, as far as on macOS, that little Share UI is subpar?
 
-**Kevin Ball:** \[00:04:05.14\] Yes -- well, actually no. Now I'm testing it and it doesn't even exist on my Chrome. It's like "Oh, that's an unsupported feature." \[laughter\]
+**Kevin Ball:** \[04:05\] Yes -- well, actually no. Now I'm testing it and it doesn't even exist on my Chrome. It's like "Oh, that's an unsupported feature." \[laughter\]
 
 **Divya Sasidharan:** Well, you can sort of see it in the screencap in that repo; they show you what it looks like on Safari...
 
@@ -66,7 +66,7 @@ Question about Share buttons - I'm so anti-Share buttons. Maybe I'm a curmudgeon
 
 **Jerod Santo:** It does.
 
-**Divya Sasidharan:** \[00:07:48.13\] Yeah, because you can track those. Whenever someone shares directly from a Share URL, versus copying and pasting. I mean, unless you're doing some kind of cookie tracking, it's really hard for you to just follow that lead along...
+**Divya Sasidharan:** \[07:48\] Yeah, because you can track those. Whenever someone shares directly from a Share URL, versus copying and pasting. I mean, unless you're doing some kind of cookie tracking, it's really hard for you to just follow that lead along...
 
 **Kevin Ball:** Even without tracking. It makes a difference in the -- I mean, yeah, you can hand-roll it, and actually I do have a site where I hand-rolled them, because I didn't want third-party JavaScript on my site... And that's another question. But having the prompt and the easy "Click to share" that prefills things, I have observed that it makes a dramatic difference in the viral echo that you'll get on a piece of material.
 
@@ -110,7 +110,7 @@ Question about Share buttons - I'm so anti-Share buttons. Maybe I'm a curmudgeon
 
 **Jerod Santo:** So you're using one of those big "Share This" things that just includes all the social networks...
 
-**Kevin Ball:** \[00:12:04.09\] What I have is I have four individual buttons: Facebook, Twitter, LinkedIn and Email. And then I have a generic Share that pops up one of those things. I set this up forever ago... And it's slow as sin, I totally get not wanting it. But yeah, it looks like people are going through those deep dives; they're digging down and finding the one they wanna do.
+**Kevin Ball:** \[12:04\] What I have is I have four individual buttons: Facebook, Twitter, LinkedIn and Email. And then I have a generic Share that pops up one of those things. I set this up forever ago... And it's slow as sin, I totally get not wanting it. But yeah, it looks like people are going through those deep dives; they're digging down and finding the one they wanna do.
 
 **Divya Sasidharan:** Interesting.
 
@@ -166,7 +166,7 @@ And honestly, I feel like I'm not thinking hard enough of all the potential poss
 
 **Jerod Santo:** Well, I'll say the most surprising one to me was the Web Coffee API. And I'll say it's Nick Nisi's favorite new API. I won't say anything else about it besides - link in the show notes. You should definitely click on the link in the show notes and check out the Web Coffee API.
 
-**Kevin Ball:** \[00:16:12.14\] Oh, dear... 
+**Kevin Ball:** \[16:12\] Oh, dear... 
 
 **Jerod Santo:** Let's talk about the useful ones... Because surprising is one thing. And everybody likes Web Coffee APIs. Check it out if you haven't checked it out yet.
 
@@ -208,7 +208,7 @@ Whenever I'm typing the thing in, and it'll be like "Do you want to add your cre
 
 **Divya Sasidharan:** No... Even at gunpoint, I will not tell you. But. It is nice to not have to 1) remember it... Because sometimes I remember it poorly as well; that happens rarely, but it does happen. It's just the ability for you to -- you only need to know your CVV, essentially, just to prove that "This is the card you want to use", and that's the one way that... So it's easy, but there's that one step of just checking that you are the person using the card, or that is your card. Because you have to know that information. And that's like a three-digit number, so you can easily remember that. I like it. It's so smooth and so easy.
 
-**Jerod Santo:** \[00:20:18.28\] Absolutely. And I would say -- as somebody who likes to support small, indie businesses and small e-commerce sites, and yet doesn't like to just sprinkle his credit card around the web, like fairy dust, for anybody just to fall into their lap, I have this weird dichotomy where I'm like "Well, I would love to just shop at random mom-and-pop shops on the internet", but I also don't want to do that a lot of times... Because I'm like "Well, are they gonna really--"
+**Jerod Santo:** \[20:18\] Absolutely. And I would say -- as somebody who likes to support small, indie businesses and small e-commerce sites, and yet doesn't like to just sprinkle his credit card around the web, like fairy dust, for anybody just to fall into their lap, I have this weird dichotomy where I'm like "Well, I would love to just shop at random mom-and-pop shops on the internet", but I also don't want to do that a lot of times... Because I'm like "Well, are they gonna really--"
 
 So just the proliferation of platforms like Shopify, Stripe... Like, when I see the Stripe dialogue, their built-in checkout, as somebody who understands all about how that works - I realize we're a subset here as well - I'm pretty excited about that. I'm like "Okay, this is something I feel like I can trust." I have more trust because of it. Same with Shopify. I think this API style leads to that, because you're allowing it through your OS, right?
 
@@ -232,7 +232,7 @@ So just the proliferation of platforms like Shopify, Stripe... Like, when I see 
 
 **Jerod Santo:** Gotcha.
 
-**Break:** \[00:21:58.16\]
+**Break:** \[21:58\]
 
 **Jerod Santo:** No doubt that Web Payments API is very useful... What else looks useful on these things that you can do in 2020 and maybe you don't know about, but can be super-useful for folks?
 
@@ -242,7 +242,7 @@ This is for mobile, obviously. On desktop it's like, whatever... But on mobile i
 
 Obviously, there are ways around it, that you don't have to use -- so the app reads your SMS... Because sometimes your SMS comes through as a notification, and then you can just quickly read the number and type it in, if you are good at remembering numbers... But in general, if you trust an application, it's a very easy flow of logging in.
 
-\[00:24:14.18\] I think they showed an example of using that for re-authentication mainly. There are many applications where it's passwordless, so you would use a one-time passcode to login, but then because of a lot of issues with that, with Symatecs, and all kinds of things that come around with using your phone to authenticate, you would just essentially require a password and then use that OTP to re-auth, or just as an extra step in authenticating the user... But it does reduce that barrier to entry, specifically for two-factor or multi-factor auth, which tends to be a very clunky user experience. Many people refuse to use it just for that purpose. They're like "I'd rather my application be seamless, so I don't wanna use 2FA", which is not great... Especially if you're accepting credit card information or anything that's very personal and private.
+\[24:14\] I think they showed an example of using that for re-authentication mainly. There are many applications where it's passwordless, so you would use a one-time passcode to login, but then because of a lot of issues with that, with Symatecs, and all kinds of things that come around with using your phone to authenticate, you would just essentially require a password and then use that OTP to re-auth, or just as an extra step in authenticating the user... But it does reduce that barrier to entry, specifically for two-factor or multi-factor auth, which tends to be a very clunky user experience. Many people refuse to use it just for that purpose. They're like "I'd rather my application be seamless, so I don't wanna use 2FA", which is not great... Especially if you're accepting credit card information or anything that's very personal and private.
 
 **Jerod Santo:** Hm... I don't think I understand this API. Who gets the SMS? Is this a browser API?
 
@@ -280,7 +280,7 @@ Obviously, there are ways around it, that you don't have to use -- so the app re
 
 **Divya Sasidharan:** Yeah. \[laughter\]
 
-**Jerod Santo:** \[00:28:07.02\] Like, who can send the SMS faster? This website that you just asked to, or significant other, who happens to be saying something to you, and now it's reading that to run a regex against it.
+**Jerod Santo:** \[28:07\] Like, who can send the SMS faster? This website that you just asked to, or significant other, who happens to be saying something to you, and now it's reading that to run a regex against it.
 
 **Divya Sasidharan:** In numbers... It's like "Hey, OTP=..." \[laughter\]
 
@@ -350,7 +350,7 @@ Obviously, there are ways around it, that you don't have to use -- so the app re
 
 **Jerod Santo:** Not yet.
 
-**Kevin Ball:** \[00:31:48.18\] Not yet. WebAuthn is actually really cool, because I feel like I have that experience now because i use a password manager, and I have it hooked into my biomarker of my fingerprint on both my phone and my laptop... And the WebAuthn approach basically means you could do that without having to understand password managers, and without having to deal with that stuff. You'd just have -- any user can authenticate with the biomarker, or a YubiKey, or whatever, and they don't have to deal with passwords. And the whole password stuffing, reused password etc. just goes away.
+**Kevin Ball:** \[31:48\] Not yet. WebAuthn is actually really cool, because I feel like I have that experience now because i use a password manager, and I have it hooked into my biomarker of my fingerprint on both my phone and my laptop... And the WebAuthn approach basically means you could do that without having to understand password managers, and without having to deal with that stuff. You'd just have -- any user can authenticate with the biomarker, or a YubiKey, or whatever, and they don't have to deal with passwords. And the whole password stuffing, reused password etc. just goes away.
 
 **Divya Sasidharan:** Yeah. And something to note also - I think specifically with authentication with biometric information like fingerprints, I think there's always the fear that the application will get access to your fingerprint, and then if it leaks, that will be out there... But that authentication actually happens locally, on your device, and that's never sent across the server... So that is extra added security.
 
@@ -370,7 +370,7 @@ Obviously, there are ways around it, that you don't have to use -- so the app re
 
 **Divya Sasidharan:** One of the biggest features of the Pixel 4 out here, but... Which I did not have.
 
-**Jerod Santo:** It's great unless you have an \[00:33:42.05\] twin.
+**Jerod Santo:** It's great unless you have an \[33:42\] twin.
 
 **Kevin Ball:** Or you don't have your bizarre avatar, Jerod, and your face is all over social media...
 
@@ -416,7 +416,7 @@ Prefers-reduced-motion is another one that you can use. It's kind of an accessib
 
 I've also heard that one of the things that WebVR exposes that other VR situations don't, that has the potential to make it more powerful that any other VR setting, is linkability. So you could link into different VR experiences, which is super-cool to think about.
 
-**Divya Sasidharan:** \[00:36:07.26\] Yeah, that's true. The other thing also - I think in general the VR community started calling it XR, so it's like Extended Reality, or Augmented Reality...
+**Divya Sasidharan:** \[36:07\] Yeah, that's true. The other thing also - I think in general the VR community started calling it XR, so it's like Extended Reality, or Augmented Reality...
 
 **Jerod Santo:** Is that like the umbrella term for both AR and VR - XR?
 
@@ -466,7 +466,7 @@ I thought that was a super-cool example of this technology, which has for a long
 
 **Divya Sasidharan:** There was one use case for Google Glass that I thought was really compelling, which is for emergency respondents to talk to doctors, so they would be able to kind of overlay various -- the doctors would be able to see what they were doing, and they could overlay various images as they're assessing a patient... Which I thought was cool, because I'm like "Oh, there's a lot of cross-communication that can happen as a result", and someone who is not fully-versed or able to provide full medical support can be able to do -- can save a life somehow, with the aid of someone who is able to do that.
 
-\[00:40:06.21\] It's a really neat use case, which I think -- yeah, unfortunately Google Glass doesn't exist... It was cool while it lasted, for like a month, or something...
+\[40:06\] It's a really neat use case, which I think -- yeah, unfortunately Google Glass doesn't exist... It was cool while it lasted, for like a month, or something...
 
 **Kevin Ball:** But now you can get the Snap glasses, right?
 
@@ -498,7 +498,7 @@ I remember seeing stuff around when we first adopted electricity - it took 50 ye
 
 I think it's very similar in terms of when a new technology comes up - we tend to address it in terms of what we know, rather than what is possible, because our minds just haven't wrapped around the full spectrum of possibilities within that.
 
-**Break:** \[00:43:50.21\]
+**Break:** \[43:50\]
 
 **Jerod Santo:** So after looking deeply at the SMS Receiver API - not a huge fan. There's lots of APIs that you could look at and you're like "Why? Why are we doing this?"
 
@@ -532,7 +532,7 @@ Surely, this is best for web apps, versus websites... But any API that is genera
 
 **Jerod Santo:** "What I have to say is so important that you need to know immediately."
 
-**Kevin Ball:** \[00:47:53.13\] There's a global principle here though, which is like "Don't ask for a privilege out of context." I land on your site; no, I don't want a freakin' push notification.
+**Kevin Ball:** \[47:53\] There's a global principle here though, which is like "Don't ask for a privilege out of context." I land on your site; no, I don't want a freakin' push notification.
 
 **Jerod Santo:** Right.
 
@@ -588,7 +588,7 @@ It's the same for cookies... Now with GDPR and all websites have to tell you tha
 
 **Divya Sasidharan:** Yeah. \[laughter\] "Window.close"...
 
-**Jerod Santo:** \[00:52:02.25\] \[laughs\] They say no and it just autocloses the tab, like "Well, you didn't want it..." There you go.
+**Jerod Santo:** \[52:02\] \[laughs\] They say no and it just autocloses the tab, like "Well, you didn't want it..." There you go.
 
 **Kevin Ball:** Well, a lot of the stupid interaction or UI there is based on a very quick reaction of "We have tracking everywhere. It's gonna be hard for us to remove it, so we're gonna say 'Say yes, or don't use the website." But that's based on coming from a domain where it's free and easy to track everyone all the time. If you're building a new website, you don't have to make that choice anymore. You could say "I'm actually going to listen to what my users say and choose not to track them if they say no", for example.
 
@@ -652,7 +652,7 @@ But in terms of things where you look at this list and you wonder "How many deve
 
 **Jerod Santo:** Here's one that was probably a waste of time - the Force Touch API, which is an Apple-specific hardware feature, which they appear to be moving away from, because they're now going long-press on everything, and force touch is not longer en vogue... So all the effort into that -- I mean, it's still gonna work on devices that do that, but it's such a small niche, and it's gonna be a vanishing one over the years... So maybe efforts could have been put elsewhere. But you can detect force pressure.
 
-**Divya Sasidharan:** \[00:55:59.15\] I think the other one that I have -- like, the Contacts API, to get access to contacts... I really hate that, just because I never wanna share my contacts with an app, ever. I know some people want to, because they're like "Oh, people have added their phone number to their Twitter account, and you can search and add them on Twitter really easily", but I never do that. I almost wanna keep those things separate. To me, anyone in my phone as contacts is very personal, and anything else is just more social, random...
+**Divya Sasidharan:** \[55:59\] I think the other one that I have -- like, the Contacts API, to get access to contacts... I really hate that, just because I never wanna share my contacts with an app, ever. I know some people want to, because they're like "Oh, people have added their phone number to their Twitter account, and you can search and add them on Twitter really easily", but I never do that. I almost wanna keep those things separate. To me, anyone in my phone as contacts is very personal, and anything else is just more social, random...
 
 **Kevin Ball:** Yeah, it sounds ripe for abuse.
 

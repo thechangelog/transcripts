@@ -8,7 +8,7 @@
 
 And living in the San Francisco Bay Area, I'm sure a lot of people listening already know there's just -- at least around 2010-2011 there was just this wonderful boiling of people with similar interests in computer science and stuff like that. So you know, I just met all of these interesting people, and I decided to try a couple of other things. I joined Dropbox for a while, I worked on a bunch of different side projects... And then I joined Figma pretty early on, and I worked there for almost five years. Then I left Figma to do my own thing, we can talk a little bit more about that later if you're curious... But that is the "five-minute what have I done professionally."
 
-**Adam Stacoviak:** \[00:04:23.03\] Yeah.
+**Adam Stacoviak:** \[04:23\] Yeah.
 
 **Jerod Santo:** There we go.
 
@@ -36,7 +36,7 @@ Spotify was pretty brutal, actually. In hindsight -- I mean, I was pretty young;
 
 **Adam Stacoviak:** I'm not sure psychologically what that means though... Like, what the psychological term is for looking back with only fond memories, versus the negativity --
 
-**Jerod Santo:** \[00:08:02.18\] It's called rose-colored glasses.
+**Jerod Santo:** \[08:02\] It's called rose-colored glasses.
 
 **Adam Stacoviak:** There you go.
 
@@ -78,7 +78,7 @@ So to me, this was something that I cared about, and I was thinking "How could I
 
 **Jerod Santo:** Paradox of choice.
 
-**Adam Stacoviak:** \[00:12:14.10\] "How do I ship it?" etc. There is a plethora of choices. So this tweet you have then back (it looks like) earlier this year, January 31st, said "Playbit is an ambitious project to create an environment that encourages playful learning, building and sharing of software. Is that still a good summary of what you're talking about?"
+**Adam Stacoviak:** \[12:14\] "How do I ship it?" etc. There is a plethora of choices. So this tweet you have then back (it looks like) earlier this year, January 31st, said "Playbit is an ambitious project to create an environment that encourages playful learning, building and sharing of software. Is that still a good summary of what you're talking about?"
 
 **Rasmus Andersson:** Yeah. The goal of Playbit as sort of an effort which is about culture and an idea... And then there is sort of a strategic part of Playbit that is software... And that's what I'm working on. That might be another six months or another year out or so before I ship anything, but I'm pretty sure that I will be mostly wrong, probably like 80% wrong... So whatever I'm building now, I'm sort of like mentally preparing myself to like "Okay, I'm gonna have to throw most of this away..." And it's just a ton of work, the way I'm building it... But yeah.
 
@@ -96,7 +96,7 @@ I think the issue though with web in this context is that over the last two deca
 
 **Adam Stacoviak:** Yeah, it is.
 
-**Rasmus Andersson:** \[00:15:53.13\] And I think you can get a hint of what it might be like if you didn't have to install the right version of LLVM in Clang, and Emsdk, and this version of Python, and that version of this... Another reason I think is that there's just a lot of information and documentation out there. Just oceans and oceans and fathoms of -- there's just so much. So imagine if I built a thing on the web platform, and now you're making a thing and you don't know how to make a rectangle balance, or whatever you're trying to do. So what do you do? I think most of us just -- we do a web search and we're like "How to make a rectangle balance", and we toss some unique keywords and maybe we'll find something. And I think you do that with, say \[unintelligible 00:16:37.01\] development. How do I make a table that does this thing? You're gonna get a few high-quality results, because there are very few ways of doing something like that. Whereas if you do it with web, you're gonna get "Here's how to do it with Next, and Nuxt, and Vue, and React, and Preact... And with WebPack, or with Gulp", and I can keep enumerating these things...
+**Rasmus Andersson:** \[15:53\] And I think you can get a hint of what it might be like if you didn't have to install the right version of LLVM in Clang, and Emsdk, and this version of Python, and that version of this... Another reason I think is that there's just a lot of information and documentation out there. Just oceans and oceans and fathoms of -- there's just so much. So imagine if I built a thing on the web platform, and now you're making a thing and you don't know how to make a rectangle balance, or whatever you're trying to do. So what do you do? I think most of us just -- we do a web search and we're like "How to make a rectangle balance", and we toss some unique keywords and maybe we'll find something. And I think you do that with, say \[unintelligible 00:16:37.01\] development. How do I make a table that does this thing? You're gonna get a few high-quality results, because there are very few ways of doing something like that. Whereas if you do it with web, you're gonna get "Here's how to do it with Next, and Nuxt, and Vue, and React, and Preact... And with WebPack, or with Gulp", and I can keep enumerating these things...
 
 **Adam Stacoviak:** Keep going, keep going. \[laughter\] The list is long.
 
@@ -116,7 +116,7 @@ So virtualization is essentially just running something as a program on your cur
 
 So Playbit has this portable runtime, it uses the Linux kernel, it is a very small Linux OS. The whole thing boots up in about 2 seconds or so... It uses zfs on stuff inside... And Linux has these nice things that - and there's Docker Works, which is sort of like a wrapper around these features in the Linux kernel. It has these things called namespaces. There's a bunch more technology around this; we can probably do a whole episode of this stuff, but... The TL;DR is that namespaces allow you to compose almost like a hierarchy of virtualized environments.
 
-\[00:19:52.22\] So you can start a program -- you can do it very cheaply, both in time and space. So you can start a program, and you can say "Hey, give this program access to these hardware devices. But give it its own file system environment, and give it its own process identifier tree" \[unintelligible 00:20:08.27\] and stuff like that. And if you enable enough of these things - that's what Docker does, and now you can run whatever inside it. So that's what Playbit does. And each little sandbox, each little project in Playbit is one of these programs that runs in sort of like a namespace. That means that at any point in time you can save your entire state of your thing, you can take snapshots of the entire state... You can do all these things very cheaply, like milliseconds, not seconds. You can resume work.
+\[19:52\] So you can start a program -- you can do it very cheaply, both in time and space. So you can start a program, and you can say "Hey, give this program access to these hardware devices. But give it its own file system environment, and give it its own process identifier tree" \[unintelligible 00:20:08.27\] and stuff like that. And if you enable enough of these things - that's what Docker does, and now you can run whatever inside it. So that's what Playbit does. And each little sandbox, each little project in Playbit is one of these programs that runs in sort of like a namespace. That means that at any point in time you can save your entire state of your thing, you can take snapshots of the entire state... You can do all these things very cheaply, like milliseconds, not seconds. You can resume work.
 
 So let's say that you start a project on a Sunday, and after four hours you realize "Oh, I'm not gonna finish this." I think today it feels a little bit daunting; I might have a web browser with a couple of tabs, I have a terminal or two, I've got my text editor, \[unintelligible 00:20:55.03\] program or something like that... All of those logically compose this idea of a project or an environment. And closing all those things down and then opening them up - because you might be working on a couple of different projects, right? ...you don't wanna have all of these things open all the time.
 
@@ -130,7 +130,7 @@ Another way of talking about this is imagine you're in a web browser and you're 
 
 I think it's also valuable to be able to start and stop. \[unintelligible 00:23:56.04\] certain woodworking projects, because it's difficult to get momentum to start them, and then stop them; it's not software, but that whole start and stop process when you're exploring and having fun - sometimes the thing that holds you back from doing it, because you're like "Well, if I can't pause where I'm at and resume where I can go back to", if it's not a safe environment to explore, you don't explore.
 
-**Rasmus Andersson:** \[00:24:19.21\] That's completely right, yeah. When we feel safe... You know, Maslow's -- there's a pyramid, or staircase, and there's different ways of visualizing this, but this idea of Maslow's staircase or pyramid of needs...
+**Rasmus Andersson:** \[24:19\] That's completely right, yeah. When we feel safe... You know, Maslow's -- there's a pyramid, or staircase, and there's different ways of visualizing this, but this idea of Maslow's staircase or pyramid of needs...
 
 **Jerod Santo:** Hierarchy of needs.
 
@@ -154,11 +154,11 @@ I think it's also valuable to be able to start and stop. \[unintelligible 00:23:
 
 On a computer, if you think about coding, it's almost like you paint your paintbrush, and nothing is on the canvas, you have to stop \[unintelligible 00:27:50.15\] and you just wait now. And you just wait, you just wait... And now that you see the paint, you're like "Oh, cool." And you keep going.
 
-\[00:27:58.23\] A lot of ideas comes when we are doing something else. So we're drawing this stroke - in this analogy to painting - with our brush on the canvas, and suddenly we see this rabbit and we decide to draw a rabbit. But if we don't have that feedback loop, if we cannot get into a state where you just feel free to draw a thing and define a rabbit, we'll never find a rabbit; or at least we won't find nearly as many rabbits.
+\[27:58\] A lot of ideas comes when we are doing something else. So we're drawing this stroke - in this analogy to painting - with our brush on the canvas, and suddenly we see this rabbit and we decide to draw a rabbit. But if we don't have that feedback loop, if we cannot get into a state where you just feel free to draw a thing and define a rabbit, we'll never find a rabbit; or at least we won't find nearly as many rabbits.
 
 And again, you know what they say about ideas - out of 10,000 ideas, one of them is a keeper... And you kind of have to explore them all and you kind of have to find them all to begin with, too. Yeah, so I think this is important.
 
-**Break**: \[00:28:36.03\]
+**Break**: \[28:36\]
 
 **Jerod Santo:** So Rasmus, we've had you on our list of people we wanna talk to for a very long time. We keep a list, sometimes we lose the list, other times we just remember names on it... It's not a great system...
 
@@ -180,7 +180,7 @@ And then I forget what had happened, and then obviously Maintainer Week happened
 
 **Rasmus Andersson:** Well, first off, is that some sort of Steve Ballmer reference?
 
-**Jerod Santo:** \[00:31:58.18\] Yes...? \[laughs\] Well, there's a couple of references. Also Beetlejuice. Have you ever seen Beetlejuice?
+**Jerod Santo:** \[31:58\] Yes...? \[laughs\] Well, there's a couple of references. Also Beetlejuice. Have you ever seen Beetlejuice?
 
 **Rasmus Andersson:** Oh, yeah, yeah.
 
@@ -216,7 +216,7 @@ I didn't really have a go-to workhorse typeface for screen. Back in the day it w
 
 **Adam Stacoviak:** That's funny.
 
-**Rasmus Andersson:** \[00:35:55.09\] So Lucida Grande - maybe that's how you say it. Anyhow, I didn't really have a workhorse, so I just thought "This could be a fun little side project." So I started working on that, asked for tips from people, I joined the local Type Thursday group here in San Francisco, which is this super-nice group of people who meets once \[unintelligible 00:36:12.09\] and they will critique and help each other out. I met several people who were just amazing and helped me out so much.
+**Rasmus Andersson:** \[35:55\] So Lucida Grande - maybe that's how you say it. Anyhow, I didn't really have a workhorse, so I just thought "This could be a fun little side project." So I started working on that, asked for tips from people, I joined the local Type Thursday group here in San Francisco, which is this super-nice group of people who meets once \[unintelligible 00:36:12.09\] and they will critique and help each other out. I met several people who were just amazing and helped me out so much.
 
 There's a guy called James \[unintelligible 00:36:21.02\] who was really helpful early on. He helped me a little bit with what tools should I use. Is Robofont the right thing? What plugins do I need? You can't really draw a rectangle in Robofont without a plugin. It's a very plugin-driven thing.
 
@@ -244,7 +244,7 @@ Yeah, so that's kind of how it got started. And then it just kept tumbling on, a
 
 **Adam Stacoviak:** Yeah...
 
-**Jerod Santo:** \[00:40:06.16\] That's gotta be quite the feeling. Well, just speaking to the hours and the output, there's so much depth to this in terms of customizability, the variable font, all these features, the ways that you can subset it with different tools... And on top of all that, I guess the base of what's there - 2,548 characters. Are each of those handcrafted? I suppose they have to be. Or did you start with something and then you tweak certain ones and leave other ones alone? I don't even know how a font is created, so maybe help me understand - did you handcraft each glyph?
+**Jerod Santo:** \[40:06\] That's gotta be quite the feeling. Well, just speaking to the hours and the output, there's so much depth to this in terms of customizability, the variable font, all these features, the ways that you can subset it with different tools... And on top of all that, I guess the base of what's there - 2,548 characters. Are each of those handcrafted? I suppose they have to be. Or did you start with something and then you tweak certain ones and leave other ones alone? I don't even know how a font is created, so maybe help me understand - did you handcraft each glyph?
 
 **Rasmus Andersson:** Both yes and no. So a lot of the -- not a lot of the glyphs, but to begin with, a lot of the glyphs were back-filled, if you will, by Roboto. So the product is still dual license; there's a license in the source code there for Roboto. Some glyphs are still Roboto. It's sort of like the -- if you open the font in a font editor and you look at the very end of the font order - so glyphs have a specific order in fonts - you can find some really fringe glyphs that is going to look out of style, if you look very carefully... And those are probably the Roboto glyphs.
 
@@ -264,7 +264,7 @@ Now, in another glyph you can say "Use an instance of that glyph here, and apply
 
 **Adam Stacoviak:** You're a smart novice.
 
-**Rasmus Andersson:** \[00:43:55.25\] Yeah, a smart novice. I like that. Indeed, yeah. For sure. The way I operate just in general, with hobby projects and work and everything - there's a huge focus for me on learning. Most of my side projects. And I usually have 10-15 or so, at any given point. Most of them are to learn something; not to create an output or to change something at the end of it. Maybe that sounds sort of like egotistic, and I guess it is, to sort of learn... But I really enjoy the learning experience. And with Inter, it's definitely been a big part of the driver as well.
+**Rasmus Andersson:** \[43:55\] Yeah, a smart novice. I like that. Indeed, yeah. For sure. The way I operate just in general, with hobby projects and work and everything - there's a huge focus for me on learning. Most of my side projects. And I usually have 10-15 or so, at any given point. Most of them are to learn something; not to create an output or to change something at the end of it. Maybe that sounds sort of like egotistic, and I guess it is, to sort of learn... But I really enjoy the learning experience. And with Inter, it's definitely been a big part of the driver as well.
 
 As we were just talking about a few minutes ago, two of my drivers were I just wanted a workhorse typeface for user interfaces, and the other part was that I want one to exist in the world that is truly free. There's the third part too, which is you're just working on it as just like the most delightful experience.
 
@@ -282,7 +282,7 @@ So in contrast to some other types of work, like programming or designing or som
 
 One sort of downside, I would say - or one opportunity rather - is that all of the three industrial-strength font programs are from Macintosh. So if you are on Linux or Windows, it's gonna be a little tougher. There are two of them out there; there's one in development called RingBender, which is -- if you wanna write some Rust or something like that, go check that out. And the other one is called FontForge, which is this open source thing... But if you ever use Java widgets or QT/multi-platform programs, it feels a little bit like that. No disrespect to the creators on FontForge. It's a remarkable program, but I would not say that it's something that is to take on on a Sunday. But if you do happen to be on a Mac, you can check out Glyphs or RoboFonts. Both of them have free versions. You can get started for a month or so. And if you do purchase the license, it's pretty okay. You can get started today, and probably even in an hour, from scratch.
 
-\[00:48:04.00\] Another way of going if you're not the "I want a blank canvas and draw something", you can just go and clone the Inter wrapper, and you can run the build script, and now you can just change it and rename it to something else. That's another way of doing it.
+\[48:04\] Another way of going if you're not the "I want a blank canvas and draw something", you can just go and clone the Inter wrapper, and you can run the build script, and now you can just change it and rename it to something else. That's another way of doing it.
 
 **Jerod Santo:** But you never answered the question, how do you pick the a?
 
@@ -298,7 +298,7 @@ Similarly, the lower-case t and f... There's a whole bunch of characters that ha
 
 So that's how the lower-case a came around...
 
-**Break**: \[00:51:00.21\]
+**Break**: \[51:00\]
 
 **Adam Stacoviak:** So we're obviously years later now, Inter is popular, you're here on the show... But at what point did the project gain steam, or in your eyes gained steam? It's always been interesting to you, but at what point did particular brands begin to use it, or it have some sort of popularity to sort of like drive the momentum of not just your time involved, but like you'd mentioned before, a lot of the work in this hasn't been simply just the details of the typography, but more the technical bits - where it works, metrics, kerning, stuff like that. When did you get what you would call momentum on the project itself? Not so much the font making it, but momentum, people using it; you're seeing it not just on your screen, but elsewhere, too.
 
@@ -328,7 +328,7 @@ I wanted to ask you a question too before we continue. I can elaborate more on t
 
 **Rasmus Andersson:** Do you think there's a correlation there to what drives people to work on open source software?
 
-**Adam Stacoviak:** \[00:55:56.13\] Well, I think yeah. I think the simple answer is yes. I don't know exactly why; I think for everybody it's different. But I know personally for me - we've been doing this for 12 years, and we do it because we love the community. It's fun to produce a podcast. I never thought that my profession would be a podcast producer, or a host... It's so much more than just simply that, and Jerod is as well... But just putting something out there, putting your heart out there and people appreciating that, and not complaining - or that much, at least - is pretty cool. So that definitely motivates me.
+**Adam Stacoviak:** \[55:56\] Well, I think yeah. I think the simple answer is yes. I don't know exactly why; I think for everybody it's different. But I know personally for me - we've been doing this for 12 years, and we do it because we love the community. It's fun to produce a podcast. I never thought that my profession would be a podcast producer, or a host... It's so much more than just simply that, and Jerod is as well... But just putting something out there, putting your heart out there and people appreciating that, and not complaining - or that much, at least - is pretty cool. So that definitely motivates me.
 
 When we had Matz on the show a couple years back, Jerod, what Metz said (the creator of Ruby), when he said "Oh yeah, I listen to your show", I was like "What?! Matz? Matz listens to our show? For real?" And it doesn't just take the Matz of the world for me to be excited; it could be anybody. It doesn't have to be Matz, the creator of Ruby; it could be you, it could be somebody I don't even know, that hasn't done "anything". I'm sure they've done something, but in their eyes maybe it's nothing at all... It doesn't have to be anybody particularly important for me to be motivated. I'm just excited that we get to do something that's so fulfilling, and we show up for people like you to share your story, to hear why Inter was created, to hear why Playbit has got you so excited. You know, to me that's why we show up, is for the people.
 
@@ -352,7 +352,7 @@ So that's another, I think, motivator that I hear often, is just this "I've been
 
 **Jerod Santo:** And the code, honestly, after like 12 years of doing this, the Changelog - I've been in the open source dev scene for longer than that. Adam started the Changelog 12 years ago... The code to me nowadays is really way less relevant than it ever was. Not that it's irrelevant; it's like the glue that binds us all together. And of course, we talk about it because it's important and we want to be well-crafted and we want it to be scalable, or personalized. There's aspects to it that are important. But it's just way less important than the bigger picture nowadays, which is the people.
 
-\[00:59:53.02\] Similarly, at the beginning of the conversation we talked about the relationships being what's important to you in retrospect, looking back at your past; the relationships that we've formed through open source and the Changelog are way more important than the individual conversations we had or the projects that we're working on... Because a lot of the projects -- like, we should do a retrospective of all the shows we've done and how many of those projects don't exist anymore; because a lot of them have come and gone. But that's okay, that's just part of the system of things. But we can still shoot an email or a tweet over to that person and fire up a conversation again and be back where we were... And that's pretty cool.
+\[59:53\] Similarly, at the beginning of the conversation we talked about the relationships being what's important to you in retrospect, looking back at your past; the relationships that we've formed through open source and the Changelog are way more important than the individual conversations we had or the projects that we're working on... Because a lot of the projects -- like, we should do a retrospective of all the shows we've done and how many of those projects don't exist anymore; because a lot of them have come and gone. But that's okay, that's just part of the system of things. But we can still shoot an email or a tweet over to that person and fire up a conversation again and be back where we were... And that's pretty cool.
 
 **Rasmus Andersson:** It's just the natural cycle, right? Things...
 

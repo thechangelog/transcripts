@@ -26,7 +26,7 @@ Any thoughts, anybody wanna kick off this conversation?
 
 **Erik St. Martin:** I think it's hard though too, because I get into debates too, and if Brian were on the show, he'd call me on it too, because Brian's been beating that dead horse for years with me, to kind of get onto my own way. But I think that there can be a difference between confidence and insecurity and the effects that impostor syndrome has. Me personally, I'm pretty bad about it and everybody took years to convince me to speak publicly, and the only reason I agreed to do this show was kind of forcing myself to get out of my comfort zone.
 
-\[00:03:45.18\] But I'm confident in my abilities. I know I'm a good programmer and that I build good things, but when it comes to getting out in public, that changes. Does that make sense? I think people can be confident in their abilities, but still kind of have that fear of kind of like exposing themselves publicly.
+\[03:45\] But I'm confident in my abilities. I know I'm a good programmer and that I build good things, but when it comes to getting out in public, that changes. Does that make sense? I think people can be confident in their abilities, but still kind of have that fear of kind of like exposing themselves publicly.
 
 **Johnny Boursiquot:** Yeah, I mean... If you've ever felt like a fraud, regardless of your level of knowledge on any given topic - if you've ever felt like a fraud and you thought that exposing yourself to the world would confirm those feelings... The struggle is real; you're actually suffering from impostor syndrome. It's pretending to be others looking at yourself and criticizing yourself.
 
@@ -50,7 +50,7 @@ But when I get up in front of that group, I've gotta shut that off and say, "I'm
 
 People don't see that, right? They see the outward perspective, and you're analyzing everything you're doing, and every uhm and uh and nervousness and things like that, but most people don't realize, so they perceive that you're this walking ball of confidence, just walking out on stage, preaching to people and stuff like that. They don't see the nervous wreck that everybody is for months beforehand, preparing.
 
-\[00:08:19.29\] Although there are some people who can just do it. Brandon Philips from CoreOS... I watched him backstage, he's just working on his computer, just waiting for them to tap him on the shoulder and be like, "Alright, you're up". He just goes on stage, and everybody else is just kind of like rocking in their shoes, comforting themselves before they go up on stage.
+\[08:19\] Although there are some people who can just do it. Brandon Philips from CoreOS... I watched him backstage, he's just working on his computer, just waiting for them to tap him on the shoulder and be like, "Alright, you're up". He just goes on stage, and everybody else is just kind of like rocking in their shoes, comforting themselves before they go up on stage.
 
 **Johnny Boursiquot:** Yeah, we have to sort of disassociate the knowledge that you as a presenter, that you're gonna sort of relay and how you're gonna do that, the knowledge that you have that you wanna impart, from the delivery and how smoothly or not smoothly it can go. These things should be separated, because one thing is something you've already learned and you just wanna relay some insights to others who might be struggling with the same thing, to sort of help them out in that way, but the other part is a completely different set of skills. It is a public speaking set of skill, and that is a completely different art.
 
@@ -70,7 +70,7 @@ I think I'm a little bit like that. After I spoke a couple times, I'm like "Okay
 
 That's like your training ground to be able to deliver a talk, make mistakes and get some constructive feedback and learn from those experiences, and then sort of build up to the point where you can actually submit a proposal to something like GopherCon where you're gonna have 1,500 people looking at you.
 
-\[00:11:57.09\] You're not gonna go 0 to 100 and expect to have the best result possible. That may happen, but to those that it happens to, those are outliers. For the vast majority of people I know who do an excellent job of delivering a talk, they practice their hearts out. They put in time and time and time again.
+\[11:57\] You're not gonna go 0 to 100 and expect to have the best result possible. That may happen, but to those that it happens to, those are outliers. For the vast majority of people I know who do an excellent job of delivering a talk, they practice their hearts out. They put in time and time and time again.
 
 Bill's on the call, he likes to say he's an impostor, but I've seen Bill deliver several talks, and he is masterful at it. He walks the room, he works the room, and that stuff doesn't come just naturally, I know he practices.
 
@@ -88,7 +88,7 @@ For me, I don't have the problem delivering the message, I'm lucky that way... B
 
 **Johnny Boursiquot:** There's a healthy balance... In my career I've seen myself evolve in a way that I know what I don't know, and I know what I can speak confidently about. When I'm not confident about something, I'm willing to say "Well, I don't know enough about this." It's being able to have that retrospect, looking at yourself and saying, "Well, here's what I'm confident about, and here's what I don't know and I need to beef up on."
 
-\[00:15:44.24\] The people who work the hardest at understanding where their gaps are, what they need to work on, what they need to study - those are the people who are continuously improving themselves, those are the people I wanna model myself after. The thing about, "Oh, it's gonna come naturally" - again, those are outliers. The vast majority of people who are really good at something, they work at it, and being able to identify that, you have to sort of be very careful that you're not drawing yourself in impostor syndrome in that sense, but really get the benefit, the good out of that sort of fear, to say, "Hey, I know what I don't know. I need to work on that."
+\[15:44\] The people who work the hardest at understanding where their gaps are, what they need to work on, what they need to study - those are the people who are continuously improving themselves, those are the people I wanna model myself after. The thing about, "Oh, it's gonna come naturally" - again, those are outliers. The vast majority of people who are really good at something, they work at it, and being able to identify that, you have to sort of be very careful that you're not drawing yourself in impostor syndrome in that sense, but really get the benefit, the good out of that sort of fear, to say, "Hey, I know what I don't know. I need to work on that."
 
 **Erik St. Martin:** The interesting thing though too is there's kind of two additional factors with putting yourself out there to teach somebody something, whether that's training or giving a talk or writing a blog post - at the end of the day, you're trying the technology you have and educate people. There's two sides to this. One could argue that maybe there is somebody who knows this topic better than you, but are they also willing to put in the time to produce the content? That may not be true, which means that you do a disservice to the people who don't share at least the level of understanding that you do, by not sharing, because the person you fear is smarter than you isn't going to produce that content anyway.
 
@@ -108,11 +108,11 @@ That's kind of like, you know, Bill, when you get up and talk, you have this way
 
 **Bill Kennedy:** I do, but you also want to at least -- okay, maybe I'm teaching and I'm gonna give a talk at a Meetup... I want somebody to feel like they got something out of it, that there was value in the last 20 or 30 minutes of you spending time and me being there, and teaching you these things, and I'm not teaching you incorrectly, I'm giving you something that's gonna be positive...
 
-\[00:20:06.20\] You absolutely shouldn't be looking for the validation, but I know for me every once in a while it's nice to get it, because I think it helps me remember why I'm doing a lot of what I'm doing, and it helps me to move forward.
+\[20:06\] You absolutely shouldn't be looking for the validation, but I know for me every once in a while it's nice to get it, because I think it helps me remember why I'm doing a lot of what I'm doing, and it helps me to move forward.
 
 **Erik St. Martin:** So I wanna kind of talk a little bit about the sources of impostor syndrome a little bit, but I think before we do that, let's take a quick sponsor break.
 
-**Break:** \[00:20:33.18\]
+**Break:** \[20:33\]
 
 **Erik St. Martin:** Okay, so we are back and we're talking about impostor syndrome. Before the break we were leading into validation and things like that, and I wanted to talk about some of the causes and lead into it a little bit with our perception of other people being kind of a primary cause. But I think another one too is that we're becoming increasingly more a generation of developers who had past lives and kind of came into engineering by one means or another, which means there's a lot of autodidacts and people who are self-taught, myself included.
 
@@ -128,7 +128,7 @@ I think that can also play a huge role in it too, because you feel like because 
 
 That really helped me put in perspective what I know and where I'm at, depending on where he is and where he's at.
 
-**Erik St. Martin:** \[00:24:15.16\] I've seen some stuff by him where it's like, "That's it. I quit." \[laughter\] So I wanna make a quick point about that, too... I've had the opportunity to speak with some people from the Go team that work on compiler stuff and everything, and we were kind of having a similar conversation. We see it as like, "Oh my god, I could never work on a compiler, that's just crazy. Only ridiculously smart people do that." But similar response - they've spent their entire careers working on compilers; to them, it's just natural evolution. It's kind of that perception, we put it there.
+**Erik St. Martin:** \[24:15\] I've seen some stuff by him where it's like, "That's it. I quit." \[laughter\] So I wanna make a quick point about that, too... I've had the opportunity to speak with some people from the Go team that work on compiler stuff and everything, and we were kind of having a similar conversation. We see it as like, "Oh my god, I could never work on a compiler, that's just crazy. Only ridiculously smart people do that." But similar response - they've spent their entire careers working on compilers; to them, it's just natural evolution. It's kind of that perception, we put it there.
 
 The other question, leading back to the whole autodidact thing - does anybody here have a formal CS degree?
 
@@ -164,7 +164,7 @@ But speaking to the whole constantly reminding yourself aspect, I'll constantly 
 
 **Bill Kennedy:** I think what it helped is not the tech that I worked on 30 years ago, but the problem-solving aspects of it more than anything else.
 
-**Carlisia Thompson:** \[00:27:51.14\] That aspect is very relative, because for me it helped tremendously. I had to go to school and get that degree to be able to be a programmer. Because I'm a woman, I wasn't into gaming -- like I said before, I got into gaming and then got out quickly because I could be addicted to it... And none of my friends were programmers; I didn't have that environment. I wanted to program, but I didn't have a place to go and do it.
+**Carlisia Thompson:** \[27:51\] That aspect is very relative, because for me it helped tremendously. I had to go to school and get that degree to be able to be a programmer. Because I'm a woman, I wasn't into gaming -- like I said before, I got into gaming and then got out quickly because I could be addicted to it... And none of my friends were programmers; I didn't have that environment. I wanted to program, but I didn't have a place to go and do it.
 
 Now, some people have friends or they are on IRC or whatever, they found their niche and they get it from that environment. I think it is good to have a degree in general, because when you go to school it teaches you how to learn, more than anything. It also teaches you to handle a lot of demand in a tight timeline, because you have to deliver stuff in writing, you have to write a lot.
 
@@ -180,7 +180,7 @@ Speaking as a black man, I know that I didn't need a degree -- actually, I got m
 
 **Carlisia Thompson:** That's a very good point, that Johnny brought up. I actually wasn't even thinking about that... When I mentioned that for me as a woman it was good to go and get a degree, what I had in mind was, "Where else would I learn it?"
 
-\[00:31:51.01\] My friends weren't doing it, they weren't even interested in computers; I didn't have that environment around me, so for me to get that, I needed to go somewhere "official". But now that you said that, I just wanna add... Pretty much the same thing you said - if I didn't have a degree and if I had learned on my own, it would be ten times harder for me to 1) get a job programming, and 2) get a good job programming.
+\[31:51\] My friends weren't doing it, they weren't even interested in computers; I didn't have that environment around me, so for me to get that, I needed to go somewhere "official". But now that you said that, I just wanna add... Pretty much the same thing you said - if I didn't have a degree and if I had learned on my own, it would be ten times harder for me to 1) get a job programming, and 2) get a good job programming.
 
 I remember two or three years ago I was interviewing with a company that pinged me, I thought they were interesting, so I went and talked with them. One of the programmers there, he looked at my resume, he looked at me and he said, "Why are you interested in programming?" So at this point, I've been programming for ten years, and I'm like, "Dude, out of all questions you could ask me, you ask me this?"
 
@@ -202,7 +202,7 @@ But I think it also carries weight for us internally, too. You use it as your ow
 
 **Erik St. Martin:** It's interesting though, because when you go to a talk -- let's play the other role of it, right? When you go to a conference and you attend a talk, are you looking for that entire talk to be nothing but new information that you did not know? Or does it have value if you just walk away learning one new trick, or something that you didn't know already?
 
-\[00:35:48.13\] I'm willing to bet for most of us it's the latter; there are some people who have much more stricter scales, but for the most part we just wanna learn something. It's probably unlikely that you're gonna get up in front of people and everybody in the room is gonna know everything that you're about to say to them.
+\[35:48\] I'm willing to bet for most of us it's the latter; there are some people who have much more stricter scales, but for the most part we just wanna learn something. It's probably unlikely that you're gonna get up in front of people and everybody in the room is gonna know everything that you're about to say to them.
 
 **Carlisia Thompson:** Let me say this - when I want to learn a subject, or want to learn a subject better, I get two or three books, at least, because I wanna have different takes on the subject. If I'm listening to a conference talk and that conference talk has material that was talked about at another conference, I still get a lot from it. It doesn't have to be brand new, shiny material. What I want the most is that person's take on the material.
 
@@ -220,11 +220,11 @@ Learn to tell stories. If you get anything from this whole podcast, as far as I'
 
 **Erik St. Martin:** Yeah, share your passion with the world. It's like a smile, it's infectious. Some of my favorite parts about going to conferences aren't the learning. Like you said, you can watch that video later, there'll be a blog post. Going to the conference for me is about the exhilaration; everybody around you is so pumped about this technology. You go home invigorated and ready to code and work on your passion project, or some cool thing at work you were struggling with.
 
-\[00:39:57.29\] You come out of it with a fresh mind, and that's what I love the most about it. Anybody who can engage and tell a story and share their passion with me, I can connect with that.
+\[39:57\] You come out of it with a fresh mind, and that's what I love the most about it. Anybody who can engage and tell a story and share their passion with me, I can connect with that.
 
 It is time for our second sponsored break.
 
-**Break:** \[00:40:18.04\]
+**Break:** \[40:18\]
 
 **Erik St. Martin:** So we are back, and just before the break we were talking about giving presentations and engaging the crowd and sharing your passion. Bill, you were about to say something...
 
@@ -236,7 +236,7 @@ I remember when Adam and Jerod from the Changelog first interviewed Brian and I 
 
 **Bill Kennedy:** I had somebody - this is how bad it can be - just recently at a Meetup during a Q&A session say something to me, and they said it with some anger to them, right? And again, I can't hear and I couldn't process it fast enough, and I hate drama, so I just backed off and assumed he was right, and tried to change. But for two days after that, when I had moments of thought in my head, I kept trying to relive that moment to figure out, "Did I say something wrong? Was he right?" It took me a couple of days and now I'm over it, but it can extend beyond even just that moment, it can linger a couple of days while you're trying to figure it out.
 
-**Erik St. Martin:** \[00:43:38.13\] And there's this weird atmosphere though too, because there's a couple of conditions too that happen, even outside somebody stomping the speaker and just kind of throwing them off their game. You have people who aren't courteous to others on the mic; they just want to talk and just tell a story about their own project, seeking validation from the speaker, and it's kind of monopolizing the mic, and there's no real question, there's no real value for anybody else except the speaker being like "Yeah, that's cool."
+**Erik St. Martin:** \[43:38\] And there's this weird atmosphere though too, because there's a couple of conditions too that happen, even outside somebody stomping the speaker and just kind of throwing them off their game. You have people who aren't courteous to others on the mic; they just want to talk and just tell a story about their own project, seeking validation from the speaker, and it's kind of monopolizing the mic, and there's no real question, there's no real value for anybody else except the speaker being like "Yeah, that's cool."
 
 There's situations like that that can happen, so all in all, the Q&A thing gets difficult to do. Then you have other people sometimes who, because of their insecurities, need to try to stomp the speaker, so they can basically live vicariously, right? Like, "Okay, I don't need to speak publicly, because Bill Kennedy spoke and I'm smarter than him, so therefore I could speak if I wanted to." These are just kind of the types of personalities, and stuff. There's just a lot of weird things that can happen with the Q&A, and it's just easier not to do it, and to let people catch them in the hallway.
 
@@ -256,7 +256,7 @@ I've been to Ruby conferences and talked to speakers about sports, and things li
 
 **Johnny Boursiquot:** I know I personally make it a point to - when I go to conferences, I try to formally \[unintelligible 00:47:29.03\] with people, and the best way I found to do that is to try and get personal a little bit. Not about the talk they just gave or some deep technical concept or what not... We might be part of the same industry, it will naturally come up, but it's not forced. It's more about, like you're saying, they're people, they're humans; they have a life outside of this conference, outside of this talk they just gave.
 
-\[00:47:53.07\] So if you really are interested in getting to know people, you'll find that you develop friendships and relationships much more easily by talking about something other than the highly technical stuff you just went through.
+\[47:53\] So if you really are interested in getting to know people, you'll find that you develop friendships and relationships much more easily by talking about something other than the highly technical stuff you just went through.
 
 **Erik St. Martin:** You disarm them a little bit. They're probably there, insecure about their own talk, and it allows you to help them bring their own anxiety down by just talking about things that are just real, things that don't have to make them think about, "Am I about to answer this question correctly?"
 
@@ -276,7 +276,7 @@ If you see him at GopherCon this year, you should definitely walk up and talk to
 
 The second time I gave a talk, I don't even remember... It was like a third nerve-wracking. So it's not going to be nerve-wracking every single time. The first time is going to be terrifying, and then it's going to get a ton better - or maybe not, but the point is you need to do it. If you want to give talks - and not everybody needs to do it; it's not mandatory that you do it, but if you want to, find a meetup... Like we always say here, find a meetup, give the talk, or just find a few friends and get them on Hangouts and give the talk to them... Because the first time is really truly is going to be terrifying. Truly, it is. Now, it gets often better... That's what I have to share.
 
-**Johnny Boursiquot:** \[00:51:55.04\] It is a skill just like any other, and you get better at it by doing more of it. To use a now cliché term, "lean into it."
+**Johnny Boursiquot:** \[51:55\] It is a skill just like any other, and you get better at it by doing more of it. To use a now cliché term, "lean into it."
 
 **Carlisia Thompson:** You get better, but my point is... I gave a couple talks last year; I gave two lightning talks at GopherCon - one at GopherCon and one at the opening party, and then I gave a keynote talk at Golang UK. And I'm not super good, but I wasn't terrified, because I had given some talks before. So yes, I'm going to get better the more talks I give, but I'm talking about the terrifying scale. When you're terrified, you get paralyzed; you have to get over it, to the point where you're not paralyzed anymore. Then you can focus on getting better.
 
@@ -290,7 +290,7 @@ You create a safe space whereby you have a technical topic that you're talking a
 
 I'll challenge meetup organizers to sort of, in an upcoming meetup, create a meeting that's all about everybody getting better at giving a talk. I think they will also get better for it.
 
-**Erik St. Martin:** \[00:56:08.08\] I think challenge the community, too. There's a number of people in the community that do help everybody with their proposals and their talks. I was fortunate enough to have a number of people help review my talk many times throughout its development; Bill Kennedy and Brian Ketelsen a couple of times, over Hangouts, doing little runs of it and stuff like that.
+**Erik St. Martin:** \[56:08\] I think challenge the community, too. There's a number of people in the community that do help everybody with their proposals and their talks. I was fortunate enough to have a number of people help review my talk many times throughout its development; Bill Kennedy and Brian Ketelsen a couple of times, over Hangouts, doing little runs of it and stuff like that.
 
 People wanna help, so reach out... Like, "Hey, I'm thinking about doing a talk", and I'm sure that you will get lots of volunteers of people who will help review it or listen to you and give feedback and stuff.
 

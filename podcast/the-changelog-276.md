@@ -10,7 +10,7 @@
 
 **Dan Kohn:** I do, this is actually my second go-around. I was the chief operating officer a decade ago when the Linux Foundation was just this tiny little organization. In fact, I helped merge together the two predecessor organizations with Jim Zemlin - Free Standards Group and The Open Source Development Labs. Back then, the entire budget for the Linux Foundation was smaller than CNCF's today.
 
-\[00:03:59.15\] Open source was less clear, Sun was the big competition with Solaris, and Windows was still completely dominant on the OS side. You didn't have billions of Linux devices out there with Android. So I was there for several years (4-5 years) and then left and was CTO of a couple startups here in New York, and when I left my last one, I kept in touch with the Linux Foundation along the way and looked at this opportunity to come back and take over as executive director of CNCF.
+\[03:59\] Open source was less clear, Sun was the big competition with Solaris, and Windows was still completely dominant on the OS side. You didn't have billions of Linux devices out there with Android. So I was there for several years (4-5 years) and then left and was CTO of a couple startups here in New York, and when I left my last one, I kept in touch with the Linux Foundation along the way and looked at this opportunity to come back and take over as executive director of CNCF.
 
 **Adam Stacoviak:** Considering the history, what was the early days of forming this like? What was the motive, what were some of the early pain points that made this something the Linux Foundation wanted to do?
 
@@ -26,7 +26,7 @@
 
 Going back to that history, the Cloud Native Computing Foundation really began with Google having created this internal software, Kubernetes, which they developed based on the 15 years of experience they had running containers on their system called Borg. So Kubernetes was built on that, factored in a lot of that learning, and then they were successful in getting companies like IBM and Red Hat and Huawei and others to engage with them and start contributing to it and becoming maintainers on it... And they said "Okay, for this software to really reach its potential, we think contributing it to an open source software foundation would help make it more successful. It would be a way of ensuring neutrality."
 
-**Adam Stacoviak:** \[00:08:24.08\] That's an interesting point, the neutral point, Jerod. We didn't quite consider -- or maybe we did, maybe we didn't, but being neutral, having no sides.
+**Adam Stacoviak:** \[08:24\] That's an interesting point, the neutral point, Jerod. We didn't quite consider -- or maybe we did, maybe we didn't, but being neutral, having no sides.
 
 **Dan Kohn:** Definitely. And what I think is interesting about it is if you go back in time to early 2015, Kubernetes was already an incredibly cool technology, and did a lot of very useful stuff. Obviously, it was new, but at that moment Google kind of had four choices in front of them - they could have kept it closed source proprietary, which is kind of like Amazon's Elastic Container Service, and said "Okay, you have to be a Google Cloud customer in order to use it."
 
@@ -38,7 +38,7 @@ And then the third, sort of more open option is they could have come to the Linu
 
 **Dan Kohn:** Yeah, I wasn't there then, and this is actually similar to a stylized history, because in reality when they created Kubernetes, they were planning on having it be open source from the get-go. I don't think they decided exactly what they were gonna do with it, but they never I don't believe seriously considered a closed source Kubernetes, like an Amazon ECS. But I think the reason is they said "Look, this is infrastructure software in a platform", and there's this metaphor that I think is gaining currency now, which is that in a lot of ways Kubernetes is the Linux of the cloud, and kind of like Linux, it just would never be able to be remotely as successful if it were all controlled by one company, even if that company were seen as very positive and generally open and supportive and such.
 
-\[00:11:51.00\] So they made this decision, but to be blunt, the first year or so of CNCF was kind of tough going, where we have this relatively complicated structure of how we're set up, and it was created for very good reasons. The fear was that they didn't wanna create an organization where the people providing the most money would get to determine the technology decisions. They wanted to have some independence around the technology and the architecture, so these original founding companies when they wrote the charter, they created a separate group called The Technical Oversight Committee (TOC). That's a group of nine top technical architects, folks like Bryan Cantrill of Joyent and Brian Grant of Google, and Solomon Hykes of Docker, who have to jointly - and it actually requires a two-thirds majority - agree in order for any new project to come in.
+\[11:51\] So they made this decision, but to be blunt, the first year or so of CNCF was kind of tough going, where we have this relatively complicated structure of how we're set up, and it was created for very good reasons. The fear was that they didn't wanna create an organization where the people providing the most money would get to determine the technology decisions. They wanted to have some independence around the technology and the architecture, so these original founding companies when they wrote the charter, they created a separate group called The Technical Oversight Committee (TOC). That's a group of nine top technical architects, folks like Bryan Cantrill of Joyent and Brian Grant of Google, and Solomon Hykes of Docker, who have to jointly - and it actually requires a two-thirds majority - agree in order for any new project to come in.
 
 **Jerod Santo:** That's interesting... I wanna talk about that architecture a little bit, because from the outside looking at it, even if you go to CNCF.io and you look at the platinum members and you see AWS and CoreOS and Google and Docker and all these large corporations, and then you see some of the membership fees that they're paying, which for the platinum is like 370k a year - there's like this aura of this as a pay-to-play type of a situation, and it's so interesting that the structure you all put in place is specifically to fight against that happening... Is that what you're saying?
 
@@ -52,7 +52,7 @@ And you know, it would be the sort of heroic narrative to sort of go back and sa
 
 I think there's a really interesting story with Prometheus, for example, where after they had been in for a year, we were just able to show that it helped build so much momentum behind them. I'll point out that Prometheus already had a great following even before it came into CNCF, and in particular it's not tied to Kubernetes; it works great with Docker Swarm, and Mesos, and Nomad, and virtual machines and all kinds of other infrastructures... But it's a particularly good fit with Kubernetes. People who use Kubernetes find Prometheus adds a ton of value.
 
-\[00:16:19.29\] So we were able to sort of demonstrate that there's a lot of value by connecting these projects together and helping the market and promote them together.
+\[16:19\] So we were able to sort of demonstrate that there's a lot of value by connecting these projects together and helping the market and promote them together.
 
 **Jerod Santo:** So Dan, what is it that excited you back when you got involved with this, that brought you back to the Linux Foundation, and it kind of gets you out of bed in the morning, especially now that the structure is put in place? What is it about your work at CNCF, running the operation -- and maybe you can describe what exactly your role is, something we've quite laid that out... But what drives you to do this, personally?
 
@@ -66,7 +66,7 @@ So I'd say the part that's just a huge amount of fun for me and really is incred
 
 **Dan Kohn:** Definitely, yeah... But it's a pretty great job when I can actually say "Hey, I can justify spending 20 minutes a day or half an hour a day on Hacker News" and just keeping up on this sort of stuff is sort of an expected part of what I do... But I mean, I think if I were less geeky, that I'd be far less effective at the job.
 
-**Adam Stacoviak:** \[00:20:10.21\] So comparing your previous path, which was entrepreneurship, CTO, what is different about what you do now in comparison to, say, building a business or the role of an entrepreneur? And kind of break down some of the things you might do day to day to kind of demystify what an executive director is.
+**Adam Stacoviak:** \[20:10\] So comparing your previous path, which was entrepreneurship, CTO, what is different about what you do now in comparison to, say, building a business or the role of an entrepreneur? And kind of break down some of the things you might do day to day to kind of demystify what an executive director is.
 
 **Dan Kohn:** So the biggest difference by far is that in this job I get no stock options. The Linux Foundation is a not-for-profit, and so you don't get the kind of lottery ticket or potential upside that you have in a startup.
 
@@ -78,7 +78,7 @@ But I do wanna emphasize that I'm not literally in charge of these projects. One
 
 So our philosophy on that front is much more about "How do we provide services to the projects and help them succeed?" than to ever say "Oh, you need to be doing X or not doing Y."
 
-**Break:** \[00:23:44.04\]
+**Break:** \[23:44\]
 
 **Jerod Santo:** So Dan, you mentioned with the rise of GitHub as a shared platform that a lot of the services and the offerings that foundations used to offer aren't necessarily needed anymore, but there's still a lot that people need, and there's a lot of reasons why projects wanna be part of the CNCF, so can you lay out the benefits and the services provided by the foundation?
 
@@ -90,7 +90,7 @@ We have full-time press and analyst relations teams... And then, definitely an a
 
 So overall, I'd just say that we have a full-time staff that is eager to assist these projects. The maintainers tend to be extremely busy people; it's not the case that they're just emailing us 20 times a day asking for random things, but we do have a set of services that we provide, and it's not in any way complete/comprehensive, if there's other things that projects want help with.
 
-\[00:28:06.08\] Some of our projects have just asked for advice on things like governance, or legal issues, or trademark, or others - we're there to help them out.
+\[28:06\] Some of our projects have just asked for advice on things like governance, or legal issues, or trademark, or others - we're there to help them out.
 
 **Adam Stacoviak:** It sounds like some of the core reasons the foundation is in place for projects like this is to essentially run the business part of the project, and to allow the TOC or maintainers or the onboarders or any new contributors in the community to thrive in the tech part of it, but to sort of give or hand over a lot of the day-to-day business operations and stuff, like logos, marketing, branding...
 
@@ -108,7 +108,7 @@ So overall, I'd just say that we have a full-time staff that is eager to assist 
 
 **Dan Kohn:** Sure, so we have this Technical Oversight Committee, and they have two public calls every month, and I definitely encourage your listeners to participate in the calls; I'll give you the URL for it. It's just two hours out of the month; that's a good way of hearing what's happening in our community and opportunities for getting involved... And on each of those calls we tend to have one or two new projects that comes along and would like to give a 12-15 minute presentation on what they're doing, how they fit into the cloud native landscape, what they compete with, what they are alternatives to, and then they get a few minutes of questions.
 
-\[00:32:14.21\] Then if there's interest from our technical oversight committee, we'll do a formal application process where we put together a bunch of documentation about the project, the libraries it depends on, its backing, its responsiveness and such...
+\[32:14\] Then if there's interest from our technical oversight committee, we'll do a formal application process where we put together a bunch of documentation about the project, the libraries it depends on, its backing, its responsiveness and such...
 
 Then we have a group of what we call TOC contributors, who assist with that due diligence. In a lot of cases, they're from companies that have worked with these projects before, or can say "Oh, we've had a great experience with it. We definitely endorse that" or "We had real issues" or "We don't think it's mature enough yet." Then eventually, if it gets that far, it will go up for a vote, and it requires six votes from the TOC in order for a project to come in.
 
@@ -126,7 +126,7 @@ The expectation is we really wouldn't wanna have a single-maintainer project for
 
 **Dan Kohn:** Yeah. I mean, in principle, that might be true, but in reality, a lot of our projects -- for example, in September we had Envoy, which is a really exciting service mesh contributed by Lyft, and then coincidentally Jaeger, which is a distributed tracing implementation contributed by Uber. In both of those cases, there's very established companies behind it who have lawyers who can manage all of those processes, and so it's not that our attorneys are really going to tell the developers something meaningfully different. I would also say a lot of the heavy-lifting on that front comes from the fact that we require all of our projects to use the Apache license.
 
-**Jerod Santo:** \[00:36:25.20\] I was just gonna ask that...
+**Jerod Santo:** \[36:25\] I was just gonna ask that...
 
 **Dan Kohn:** Yeah, the vast majority of projects in this space are already using the Apache license, so when a project comes in to CNCF, we do require that they transfer the trademark to CNCF, which is essentially to allow us to ensure that people are using it correctly, and that neutrality... But there's no need to transfer the copyright or any patents or anything like that, because the Apache license already covers both copyright and patents.
 
@@ -152,7 +152,7 @@ The tradeoff for that is, like you said, it's a club, and there's a ton of marke
 
 **Adam Stacoviak:** Okay, that's all...
 
-**Dan Kohn:** \[00:39:58.19\] Just as an example, GKE (Google Kubernetes Engine) doesn't implement every CNCF project. So the stronger endorsement would be "Do they actually implement it?" But the other side of it is that we definitely don't have the philosophy that because a project is coming to CNCF that we won't consider any other project in that space. In fact, we've already proven that where Linkerd came in earlier this year as a service mesh technology, and then later in the year we brought on Envoy...
+**Dan Kohn:** \[39:58\] Just as an example, GKE (Google Kubernetes Engine) doesn't implement every CNCF project. So the stronger endorsement would be "Do they actually implement it?" But the other side of it is that we definitely don't have the philosophy that because a project is coming to CNCF that we won't consider any other project in that space. In fact, we've already proven that where Linkerd came in earlier this year as a service mesh technology, and then later in the year we brought on Envoy...
 
 Essentially, those two projects are competitors. I mean, in principle you could use them both, but in reality almost everyone is gonna pick one or the other. So that is a key thought, which is that we have this thing we call the Cloud Native Landscape, and you can include \[unintelligible 00:40:51.00\] It's a little bit of an overwhelming document with three hundred or more logos of all these open source projects and closed source products, and you can see that CNCF has one project in most of the boxes so far, but we definitely don't have the philosophy that there can only be one project in a box... Just because we've hosted one, we're still totally open to other projects coming along, if they have something else to offer.
 
@@ -168,7 +168,7 @@ So our hope is, again, to be building an open source ecosystem or landscape wher
 
 **Adam Stacoviak:** You know, Jerod, it kind of reminds me of some of his back-story which we haven't shared yet, which is his involvement in the Core Infrastructure Initiative, and the whole reason that was done was to kind of battle back Heartbleed... And it seems like what you're sharing here, Dan, is that you're in place to essentially provide a foundation, for a lack of better terms, for a landscape of open source projects that support an ecosystem. That seems like it should be on the nose, but it's taken a little while for me to get that revealed through this conversation.
 
-**Dan Kohn:** \[00:44:11.26\] Yeah, I think that is a nice way of looking at it, and I'm extremely proud of the role I played about three years ago in combating Heartbleed. I actually was at one of my startups at the time, and had -- you know, I was still in touch with the Linux Foundation, with Jim and everything, and my experience was just I had to stay late at work that night and rotate our certificates, and I had a super easy setup... Very modern, it was on Heroku, and it just took me 45 minutes to look up the documentation and make sure I was doing it correctly and everything...
+**Dan Kohn:** \[44:11\] Yeah, I think that is a nice way of looking at it, and I'm extremely proud of the role I played about three years ago in combating Heartbleed. I actually was at one of my startups at the time, and had -- you know, I was still in touch with the Linux Foundation, with Jim and everything, and my experience was just I had to stay late at work that night and rotate our certificates, and I had a super easy setup... Very modern, it was on Heroku, and it just took me 45 minutes to look up the documentation and make sure I was doing it correctly and everything...
 
 But I still came home late that night, and my wife was a little annoyed with me, and it just hit me that there were literally hundreds of thousands of people around the world who were dealing with exactly the same issue, but essentially all of them had a much worse experience than I did - things locked in firmware, or trying to deal with monthly or quarterly releases, or where you don't even have the source code, and all sorts of other nightmare situations... So working with Jim, I put together that plan, and we were able to bring in 20 companies in under three weeks, to each contribute 100k, so it wound up being six million dollars over three years. That really helped to improve OpenSSL, and then we were able to put together \[unintelligible 00:45:36.07\] looking at some other projects that needed help, things like ntpd...
 
@@ -182,7 +182,7 @@ In fact, not so coincidentally, one of the criteria in order for a project to gr
 
 **Adam Stacoviak:** Coming back to what Jerod said earlier, which was around growth... So you've mentioned at a dozen or so projects now, a few years from now what's the goal, what does growth look like - essentially, you're aiming growth with the Cloud Native Foundation, and I'm curious how you balance that growth... One, with acquiring new members to facilitate funding, and then two, acquiring new projects to make sure that you have enough staff and enough finances to cover things, and then at the tail end of that, how open are the books of a foundation like this?
 
-**Dan Kohn:** \[00:47:44.20\] Yeah, that's a great question. Thankfully, we haven't needed to make a lot of tradeoffs so far. We've been able to be really successful both in bringing in new projects and being able to provide them more and more services, and correspondingly bringing in a ton of members. So at least right now, we're really in a positive feedback loop, and that is our whole philosophy of how open source ecosystems like our can grow - you have these projects, companies can use them to produce useful products, those products can throw off profits that can be reinvested back into the projects again.
+**Dan Kohn:** \[47:44\] Yeah, that's a great question. Thankfully, we haven't needed to make a lot of tradeoffs so far. We've been able to be really successful both in bringing in new projects and being able to provide them more and more services, and correspondingly bringing in a ton of members. So at least right now, we're really in a positive feedback loop, and that is our whole philosophy of how open source ecosystems like our can grow - you have these projects, companies can use them to produce useful products, those products can throw off profits that can be reinvested back into the projects again.
 
 On the member front, we've really had a ton of success in 2017 on bringing in almost all the big companies in our space. So we now have all six of the biggest public clouds (depending on how you measure) and most of the big enterprise software companies, and others that all consider these technologies to be integral to their future.
 
@@ -210,7 +210,7 @@ That is also probably a good segue to the question of our own events, which has 
 
 **Dan Kohn:** I will point out some of the huge assets that I have and that CNCF has... First of all, we're part of the Linux Foundation, so we get to rely on the Linux Foundation events team, which has been doing these kinds of open source events for more than a decade now... And I actually helped hire Angela Brown, who runs our events team, a decade ago, in my first go-around; her team is now over 30 people.
 
-\[00:52:03.03\] What's great about the fact that she does 50 events around the world every year and has been doing these events is that through most of the year we just kind of have two or three people who are focused on CNCF, but then as we approach Austin right now, and then we'll be in Copenhagen May 2th-4th 2018, that team can search up and we're gonna have I believe 15 different people working with us in Austin.
+\[52:03\] What's great about the fact that she does 50 events around the world every year and has been doing these events is that through most of the year we just kind of have two or three people who are focused on CNCF, but then as we approach Austin right now, and then we'll be in Copenhagen May 2th-4th 2018, that team can search up and we're gonna have I believe 15 different people working with us in Austin.
 
 But one of the other big assets we have going for us is just the fact that all of these companies that are backing CNCF are really interested in these events being successful, that's it's just a great opportunity for them to interact with end users and developers and get the word out about their products. So it's really pretty amazing to see the growth in sponsorship... We're actually gonna have 106 different sponsors for Austin, compared to (I think it was) 25 a year ago.
 
@@ -218,7 +218,7 @@ So again, trying to build out a 4,000-person event from scratch would be almost 
 
 Then just the last piece of it, what really makes it feasible for me to deal with this is that I don't actually decide on the content for it, I hire or bring on two co-chairs for our event, and then they bring on a group of volunteers to run a program committee, and we have a process where lots and lots of people submit. This year I believe it was over 800 submissions for 127 selected talks, so it was a 17% acceptance rate... But they are then able to shape a program, including the keynotes, that is thematic and covers a wide range, but has some neutrality that it's not, for example, the platinum members, or the ones who are funding the most who necessarily get to talk.
 
-**Break:** \[00:54:37.06\]
+**Break:** \[54:37\]
 
 **Jerod Santo:** So Dan, looking at your member's page, it's quite an impressive list... We were doing some back-of-the-envelope math before the show; it looks like there's easily 100 companies here... So the question that I have -- it makes a lot of sense to platinum members, like you said, the big cloud providers (AWS, Docker, Google and so on, Microsoft) why they would have benefits from being members. But when you get down into the other companies, the silver members, I start to miss where their benefits are, like a CapitalOne, or a Buoyant, or a Bloomberg, and I wonder what -- when you go to these companies and you have these meetings about supporting the CNCF and becoming members, what's the sales pitch to a CapitalOne? What are their benefits?
 

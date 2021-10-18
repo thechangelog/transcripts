@@ -12,7 +12,7 @@ She calls herself a developer and cat enthusiast. Welcome to the show, Denise.
 
 **Johnny Boursiquot:** \[laughs\] You'll do just fine, you'll do just fine. So I've only briefly given folks an introduction as to who you are, but why I really wanted to have you on this show is because I think a lot of the things you do that are valuable to the community - I want more folks, more broadly to be aware of those things, and of you, because I think you're doing some awesome things, which benefits a lot of us, whether we realize it or not... And I kind of wanted to have you on the show, and -- especially, it seems to me the kind of role you do, even with your day job at GitHub, is all about taking care of people, taking care of community... So it lines up quite well with what we're gonna get into during the show today. But please, give us a little more about yourself. What don't we know about you that you want us to know?
 
-**Denise Yu:** \[00:04:00.19\] I guess we can start with what I currently do... I'm currently a software engineer at GitHub. I actually started about eight weeks ago, right when everywhere started going into lockdown. I am actually at my parents' place right now. My intention was to visit my parents for a couple of weeks, like one week, maybe two, and now we're starting week eight... So it's been an interesting experience, living at your parents' house at age 30, but it's good to stay put, especially now. And it's been a good chance to spend more time with my family, which is -- I think I may have realized I hadn't been home for quite a while, because of immigration reasons and just life reasons.
+**Denise Yu:** \[04:00\] I guess we can start with what I currently do... I'm currently a software engineer at GitHub. I actually started about eight weeks ago, right when everywhere started going into lockdown. I am actually at my parents' place right now. My intention was to visit my parents for a couple of weeks, like one week, maybe two, and now we're starting week eight... So it's been an interesting experience, living at your parents' house at age 30, but it's good to stay put, especially now. And it's been a good chance to spend more time with my family, which is -- I think I may have realized I hadn't been home for quite a while, because of immigration reasons and just life reasons.
 
 So I work at GitHub. The team that I joined is called the Community and Safety team. This is a team that has a mission that I'm really excited about. I interviewed specifically for this team, and was like "No, I just want that one job. I don't want any other roles." I found out about this team last year, when I was at a conference called Write/Speak/Code, out in San Francisco. At that time Lexy Galantino, who's now one of my teammates was at the conference, speaking about her team... And basically talking about the ways that GitHub builds tools, basically combines policy solutions and engineering solutions to encourage people to become part of constructive and positive communities, and to discourage negative, unproductive behaviors that erode things like trust in the community, collaboration in communities, and that sort of thing.
 
@@ -26,7 +26,7 @@ So I was very excited about the role, super-excited to get the offer... I starte
 
 Last year I rolled on to a team that was working on an open source product called Concourse CI. Concourse is written 100% in Go. I think that was a pretty deliberate decision early on, because Concourse, first of all, needs to be highly performant. It's a CI/CD system. It's run on containers. A lot of the container APIs are written in Go, which is fantastic. Runc for example has a Go client... So I started learning a little more about Go, and trying to get more into the weeds of the language. And I definitely am still very far from being able to call myself a Go expert, but some of the things that I really like about Go is - believe it or not, I was actually thinking about this the other day... Learning Go conventions and the Go style of coding actually made me a better developer in other languages... And I feel like I go through this every time I learn a new language. Learning JavaScript made me better at Ruby, and now I feel like learning Go made me better at both JavaScript and Ruby...
 
-\[00:08:11.05\] And I'll tell you why - the reason why is because I love that Go is so opinionated. If you wanna write a conditional, there's only one way to do it. So if you read a conditional in someone else's code, it looks the same everywhere... And it's stuff like that, that low-level stuff. There's no reason to want to be creative with that, unless you're playing code golf, or something I guess... Which I guess you can write your own macros and things if you wanna do that. But I really like that when you're reading Go code, all you have to learn is the domain. You don't need to learn a whole different set of conventions. This is something that I've struggled with with reading Ruby and JavaScript code for many years... Because at pretty much every job I've had that's been in Ruby or JavaScript, we've always had a debate about what styleguide we wanna use... And this is always just such a timesink, because it doesn't matter. Ultimately, you should pick one and introduce some automation that enforces it. It's not a good use of developer energy.
+\[08:11\] And I'll tell you why - the reason why is because I love that Go is so opinionated. If you wanna write a conditional, there's only one way to do it. So if you read a conditional in someone else's code, it looks the same everywhere... And it's stuff like that, that low-level stuff. There's no reason to want to be creative with that, unless you're playing code golf, or something I guess... Which I guess you can write your own macros and things if you wanna do that. But I really like that when you're reading Go code, all you have to learn is the domain. You don't need to learn a whole different set of conventions. This is something that I've struggled with with reading Ruby and JavaScript code for many years... Because at pretty much every job I've had that's been in Ruby or JavaScript, we've always had a debate about what styleguide we wanna use... And this is always just such a timesink, because it doesn't matter. Ultimately, you should pick one and introduce some automation that enforces it. It's not a good use of developer energy.
 
 I have this idea, I think every team has a certain amount of -- almost like a friction budget. There's a healthy amount of disagreement that every team can go through, but you still feel good about what you've done at the end of the day. Some teams have a higher friction budget than other teams, depending on how gelled you are... But it's not a good use of that friction budget to argue about things like syntax and styling. You should spend that energy arguing about bigger things, like "Are we actually serving our users? Are we actually architecting our systems in the right way, or are we thinking about scale?" You know, the more interesting, open-ended questions... Not like "Oh, how many lines do you want your conditional to have?" That's not a good debate to have. So that's the first reason.
 
@@ -44,7 +44,7 @@ I remember when I first started programming - I think it was Java, is what I saw
 
 It's also interesting to hear you talk about it this way, Denise, because we've had Dave Cheney on the podcast before; last time we had them, he basically had just published the Zen of Go website, which basically kind of fell out of a talk he gave -- I believe it was at GopherCon Israel, or something like that... But basically, he was making the case for not really treating idiomatic Go - what we consider idiomatic Go - as Gospel. And I could definitely understand where he's coming from.
 
-\[00:12:20.11\] At the same time, a part of me was like "Yes, absolutely, don't let the idioms in the community become a barrier, or some sort of gauge as to whether you're a good Go developer, or not so good, or whatever it is. Don't use it as a barrier." But I think in a lot of cases it also helps to instruct and guide. It provides this guard rail for folks to have an idea, "Okay, I could write Go like Java (I call that Gava), I could write Go like Ruby (I call that Guby)", you could write it to look and feel like other languages that you're perhaps coming from or that you're more comfortable with... But that would look a little weird as a Go project; that would look a little weird within the ecosystem of other Go projects. So when I read that code, if it didn't look like other Go projects, even though syntactically it could be compilable and there would be nothing wrong with it, but it would still feel wrong; perhaps that's too strong a word, but it would simply be not idiomatic.
+\[12:20\] At the same time, a part of me was like "Yes, absolutely, don't let the idioms in the community become a barrier, or some sort of gauge as to whether you're a good Go developer, or not so good, or whatever it is. Don't use it as a barrier." But I think in a lot of cases it also helps to instruct and guide. It provides this guard rail for folks to have an idea, "Okay, I could write Go like Java (I call that Gava), I could write Go like Ruby (I call that Guby)", you could write it to look and feel like other languages that you're perhaps coming from or that you're more comfortable with... But that would look a little weird as a Go project; that would look a little weird within the ecosystem of other Go projects. So when I read that code, if it didn't look like other Go projects, even though syntactically it could be compilable and there would be nothing wrong with it, but it would still feel wrong; perhaps that's too strong a word, but it would simply be not idiomatic.
 
 I'm wondering how you see the idioms of the community. Do they help/hinder, did they help you in your learning? Do you sometimes find yourself deviating? How do you treat what we generally refer to as idiomatic go?
 
@@ -60,7 +60,7 @@ I'm wondering how you see the idioms of the community. Do they help/hinder, did 
 
 One of the things that was a source of -- not tension, but just like a source of frustration for developers that I worked with at Pivotal was Ginkgo has a before hook and a just before hook... And the idea -- say you have a file that's for the whole package, or something... Maybe that package has methods that each need setup to be a little bit differently... So if you have your global before, you can nest contexts, and within each context you can run a just before, and then add some different flavor just for each context... Which - if you don't know about the existence of just before, and you go to the top of the file and you're like "Okay, that's weird... My before is running. What's this extra side effect that's swooping in right before this test executes?" And that would be the just before hook, which - I don't wanna talk about how many hours I've spent debugging that. \[laughter\]
 
-**Johnny Boursiquot:** \[00:16:25.08\] Yeah, that's the thing... It's like, there's a feature or an approach that these libraries bring, that if you don't know what the team's convention for using these things are, it could easily bite you.
+**Johnny Boursiquot:** \[16:25\] Yeah, that's the thing... It's like, there's a feature or an approach that these libraries bring, that if you don't know what the team's convention for using these things are, it could easily bite you.
 
 I'll admit, when I first saw those libraries, I was like -- I mean, the language I was using the most right before Go was Ruby. So when I saw these things, I was like "Hey, I can do RSpec style of development in Go. How cool is that?!" I saw it as really like an on-ramp into Go development. And the more I learned about Go and the standard library, what you can do without any additional stuff or any additional packages and things, the more I started to see the advantage of using the standard library and the things that it comes with, that you can do out of the box. I sort of stepped off the whole BDD train, but I started using assertion libraries.
 
@@ -80,7 +80,7 @@ It's much better to just choose actively the most popular path, which is to just
 
 **Denise Yu:** Yeah, exactly. That's a great way of putting it.
 
-**Break:** \[00:20:27.00\]
+**Break:** \[20:27\]
 
 **Johnny Boursiquot:** I wanna shift a little bit into -- actually, you spoke at GoCon... Was that two years ago, three years ago now?
 
@@ -108,7 +108,7 @@ But for a conference, you've gotta -- it took us two months probably to find a v
 
 We were trying not to do a hotel ballroom, because Toronto has a lot of interesting buildings, and I think we were hoping to find a venue that supported -- I don't know, something that wasn't like a giant international hotel chain. \[laughter\] Of course, we would need to get a hotel anyway, to put our speakers in, so we couldn't avoid giving money to hotels... \[laughs\]
 
-\[00:24:10.03\] So the venue that we ultimately found was the Isabel Bader Theater, which is part of the University of Toronto. I had actually learned about the theater because they do all sorts of events there, and my partner and I went there because one of our friends was performing her community orchestra there... And when we turned up for the concert, we were like "Wow, this is such a great venue. The seats are so comfy... Wouldn't it be great if we could have a conference here?"
+\[24:10\] So the venue that we ultimately found was the Isabel Bader Theater, which is part of the University of Toronto. I had actually learned about the theater because they do all sorts of events there, and my partner and I went there because one of our friends was performing her community orchestra there... And when we turned up for the concert, we were like "Wow, this is such a great venue. The seats are so comfy... Wouldn't it be great if we could have a conference here?"
 
 So as the conference time approached, we were looking at lots and lots of different venues. It's difficult also to find a venue that will give you flexibility over catering. We didn't need 100% flexibility; we didn't wanna bring in 100% of our own, or anything... We just wanted something that was at a reasonable cost.
 
@@ -130,7 +130,7 @@ One thing that we didn't fully align on and was kind of an ongoing conversation 
 
 Oh, actually - I wrote an application for it... \[laughter\] I was out of work at the time, and I didn't like how PaperCall -- like, no offense if anyone from PapelCall is listening to this, but I didn't like PaperCall's built-in mechanism for sorting through submissions... Because my requirements were I want multiple reviewers, and PaperCall caps you at five people... But I was like "Well, we have seven people, and possibly more, if we decide to bring on guest reviewers." So I want an unlimited number of reviewers.
 
-\[00:28:22.26\] I want the author, the organization and identify details to be not shown by default, and I also want the ability to edit the content of the abstract, in case someone said "Oh, by the way, I'm blah-blah-blah, and I work for blah-blah-blah" just in the abstract itself. PaperCall won't do that for you; PaperCall just hides the name and the email something like that.
+\[28:22\] I want the author, the organization and identify details to be not shown by default, and I also want the ability to edit the content of the abstract, in case someone said "Oh, by the way, I'm blah-blah-blah, and I work for blah-blah-blah" just in the abstract itself. PaperCall won't do that for you; PaperCall just hides the name and the email something like that.
 
 So I actually built an app in Node.js, from the ground-up, that you export all your JSON from PaperCall and you just put it into the app, and it displays every single talk as it's own -- like a submission form. I totally \[unintelligible 00:28:55.11\] the login process. I put it on Heroku, and I was thinking -- I basically had a one-person hackathon for four days to crank this out... And the last night, I was like "Ohh, authentication... I really, really don't want to think about OAuth right now. I really don't wanna build a Twitter login, or something like that..." So what I did was I just put a map of keys and values into the Heroku app environment... \[laughter\] That was people's usernames and passwords.
 
@@ -152,7 +152,7 @@ So I definitely applaud you for doing that work, and I definitely know that it's
 
 So community and safety exists to build tools to help maintainers grow sustainable and healthy communities. I think that's the shortest summary of it that I can think of. What that means in practice is there are a lot of different features scattered all throughout GitHub, where individuals can be either reactive or proactive.
 
-\[00:32:22.28\] I'll give an example of reactive... Let's say you're arguing with someone on a GitHub Issues thread, and they start becoming really abusive, and they start cussing you out, or just being unpleasant. So for a long time, all you could do was report that all the way up to GitHub admins... Which is a good strategy, and that's definitely a very valuable layer to have... But the problem there is site-wide admins don't have all the context; they would have to maybe go back through lots and lots of previous comments and try to figure out exactly what happened, what led to this moment, as part of investigating whether it is a high-priority incident to respond to.
+\[32:22\] I'll give an example of reactive... Let's say you're arguing with someone on a GitHub Issues thread, and they start becoming really abusive, and they start cussing you out, or just being unpleasant. So for a long time, all you could do was report that all the way up to GitHub admins... Which is a good strategy, and that's definitely a very valuable layer to have... But the problem there is site-wide admins don't have all the context; they would have to maybe go back through lots and lots of previous comments and try to figure out exactly what happened, what led to this moment, as part of investigating whether it is a high-priority incident to respond to.
 
 A feature that my team introduced is called tiered moderation. Most of this work was done before I got here, so I'm not taking any credit for the engineering work. This credit goes to the community and safety team before I got there. So tiered reporting means that - well, okay, if you don't report all the way up to site admins, who else can you report to? So a more logical person actually would be the maintainer team of an organization... Because if you've been working on an open source community for a number of years, you kind of know who the problem actors are, and you kind of know who has good intentions, but maybe struggles with written communication.
 
@@ -176,7 +176,7 @@ So it's things like that... There's a lot of room for engineering. One of the th
 
 **Denise Yu:** Oh, absolutely.
 
-**Johnny Boursiquot:** \[00:35:55.21\] I wanted to talk a little bit about the drawing lessons that you've been doing for the internet for the last few weeks. What brought that about? Tell us about that - what is that, what are you trying to achieve there? \[laughter\]
+**Johnny Boursiquot:** \[35:55\] I wanted to talk a little bit about the drawing lessons that you've been doing for the internet for the last few weeks. What brought that about? Tell us about that - what is that, what are you trying to achieve there? \[laughter\]
 
 **Denise Yu:** So for the last few years -- okay, so it's kind of a funny story why I started doing sketch notes in the first place... Back in 2018, maybe end of 2017, I worked at Pivotal in London. And if you were a member of the tech community in London around that time, most people know Pivotal as the office that will host anything... \[laughter\] We will host any meetup, we will buy you pizza, we will let you drink our beer... Just say the word, and if there's an employee who can be here physically to host it, then our space and our food and drinks are yours. A lot of my friends knew this fact, and they would bring their meetups \[unintelligible 00:36:47.01\] the person hosting them.
 
@@ -194,7 +194,7 @@ So I found that that was a really powerful way to get people to look at things t
 
 But I've found that when I started producing art of other people's talks, people universally loved that. Nobody was ever mean about a piece of art that I created. The speaker was almost always so surprised, and so excited that someone had visualized their talk... So that kicked off a cycle where I was like "Huh. There's something here." If I can start off by sketching other people's talks and give them greater outreach... And actually, to this day, I still get a Twitter notification every few days, because a year and a half ago I went to the lead developer in New York City, and Tania Riley was there speaking about being blue, the idea of doing all the "non-technical" work that teams need to keep running... So I sketched that talk and published it, and every couple of days someone finds that and retweets it again. It just keeps coming back.
 
-\[00:40:15.06\] The talk itself is really great also, but having a visual accompaniment to that talk enables someone to sort of look at it and say "Oh, this looks really interesting. I now am going to go and invest 30 minutes in watching the original, full-length talk."
+\[40:15\] The talk itself is really great also, but having a visual accompaniment to that talk enables someone to sort of look at it and say "Oh, this looks really interesting. I now am going to go and invest 30 minutes in watching the original, full-length talk."
 
 So my intention is never to replace the information that's in the talk, it's more to give people a high-level overview of what happened in it, and help them make an informed decision about whether they want to invest more time digging deeper and going to watch the original.
 
@@ -226,7 +226,7 @@ The first time I tried to teach it was at -- I think it was at Write/Speak/Code 
 
 If you can tell stories and if you can have visuals around things, illustrations... That's sort of the next level I wanna get to. I wanna have illustrations in my talk, I wanna draw some cats, like you're teaching people to do... \[laughter\] Because these things do make for a more engaging and a more fun experience. And proof you've got by starting to add these things, sprinkle these things in your announcements... And you saw the effect - people were reading them, they were engaged, and it solved the problem. So I think this is absolutely definitely worth it. So for all those listening, do check it out. It's letssketchtech.com. Yeah, I definitely will be checking this out myself, because I need some help, because my doodles are terrible. \[laughs\]
 
-**Denise Yu:** \[00:44:20.26\] The conference is also kid-friendly, so if any of your kids wanted to come...
+**Denise Yu:** \[44:20\] The conference is also kid-friendly, so if any of your kids wanted to come...
 
 **Johnny Boursiquot:** Nice!
 
@@ -256,7 +256,7 @@ I have one drawing about the Raft consensus algorithm... Because - what else are
 
 So if I do future events, probably the more put-together ones will probably be in collaboration with the Reactor team... Which I'm pretty stoked about.
 
-**Johnny Boursiquot:** \[00:47:59.02\] That is pretty cool. It's definitely one of those things where you look at it and you're like "Yeah, this is kind of cool." And obviously, because I follow you on Twitter, I saw some of your retweets, and you were talking about the sketching stuff - I was like "This is kind of cool. Here's another person in the industry that I respect, and they have a hobby. I could use a hobby... I could use a hobby, too." \[laughs\]
+**Johnny Boursiquot:** \[47:59\] That is pretty cool. It's definitely one of those things where you look at it and you're like "Yeah, this is kind of cool." And obviously, because I follow you on Twitter, I saw some of your retweets, and you were talking about the sketching stuff - I was like "This is kind of cool. Here's another person in the industry that I respect, and they have a hobby. I could use a hobby... I could use a hobby, too." \[laughs\]
 
 Yeah, this is awesome. Do keep doing it... I think especially in this season that we're in now, where everybody is sort of low on headspace, like you mentioned... Something like this, where it just kind of takes your mind off of things is absolutely valuable. Thank you for doing it, and I hope you will keep on doing it.
 
@@ -282,7 +282,7 @@ Jon, anything else we wanna touch on before we ask Denise to drop her unpopular 
 
 **Johnny Boursiquot:** Hit me.
 
-**Jingle:** \[00:49:19.23\]
+**Jingle:** \[49:19\]
 
 **Denise Yu:** Okay, I thought of one.
 
@@ -308,7 +308,7 @@ Jon, anything else we wanna touch on before we ask Denise to drop her unpopular 
 
 **Denise Yu:** Yeah, I know. I was desperate. I was like "Okay, I can't handle this FOMO of seeing everyone else's islands on Twitter anymore. I'm just gonna buy another one."
 
-**Johnny Boursiquot:** \[00:51:10.01\] Wow... \[laughter\] Awesome. Okay, well, for those who do play Animal Crossing - yeah, this will either anger them, or they'll be like "Yeah, yeah! I agree!" \[laughter\]
+**Johnny Boursiquot:** \[51:10\] Wow... \[laughter\] Awesome. Okay, well, for those who do play Animal Crossing - yeah, this will either anger them, or they'll be like "Yeah, yeah! I agree!" \[laughter\]
 
 **Jon Calhoun:** I think you could make the argument generally about a lot of other games though... I feel like people are impatient when it comes to games where there's some effort you have to put in to get someplace... They'll immediately take the shortcut of however they can get to the end, sort of, and then they miss that experience along the way.
 
@@ -352,7 +352,7 @@ I definitely wanna thank you for coming on the show. This has been fun, and I ho
 
 **Denise Yu:** Yeah, for sure. Thanks so much for having me.
 
-**Outro:** \[00:53:57.08\]
+**Outro:** \[53:57\]
 
 **Denise Yu:** I've gotta get myself a podcasting setup like the two of you have...
 

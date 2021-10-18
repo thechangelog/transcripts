@@ -30,7 +30,7 @@ Let's start out... Who's doing something really cool and crazy whacko with JavaS
 
 \[member from the audience\] Home automation.
 
-**Kevin Ball:** \[00:04:05.24\] Home automation, okay. So we are going to come up with a combination that's going to include VR, browser extensions and home automation. Since we're starting in home automation, Suz, do you wanna kick us off? \[laughter\]
+**Kevin Ball:** \[04:05\] Home automation, okay. So we are going to come up with a combination that's going to include VR, browser extensions and home automation. Since we're starting in home automation, Suz, do you wanna kick us off? \[laughter\]
 
 **Suz Hinton:** Oh man, don't listen to that episode, it's weird. Okay, so we have a browser extension, we have VR and we have home automation. I don't wanna be super-boring and go with the normal things... So what if you could use a browser extension to randomly put somebody into your house in VR, and then you end up being able to control all the lights, and the air conditioning and everything? So they have the VR on, but then there are all these spooky things happening around it, but because they have the VR on, they don't really understand what's going on, and so they have to do an Escape the Room in VR... And you're using the browser extension remotely in order to kind of like tweak what's happening in their world, so you can keep tricking them as they're trying to escape. That's the best I have.
 
@@ -74,7 +74,7 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 **Suz Hinton:** Oh, god... \[laughter\]
 
-**Kevin Ball:** \[00:07:57.02\] Alright, JavaScript cryptocurrency mining. That's our starter. Something else to combine it with? Yes.
+**Kevin Ball:** \[07:57\] Alright, JavaScript cryptocurrency mining. That's our starter. Something else to combine it with? Yes.
 
 \[member from the audience\] GraphQL. \[laughter\]
 
@@ -150,7 +150,7 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 Any other JavaScript libraries you wanna -- I wanna throw one out... We talked about this once on an episode and I just wanna pit you two off on combining WebUSB with WebTorrents, because I think there's some really interesting things we could do there... Particularly getting around the setup problem and how do we make this something that's truly distributed, or other fun stuff. Do you have any ideas?
 
-**Suz Hinton:** \[00:12:17.08\] I think it would be cool to use torrents to manage firmware versions of hardware, and then you can basically just download your own flavor or distribution for your hardware from WebTorrent, but then that goes straight through to WebUSB to update it on the spot. I thought that would be cool.
+**Suz Hinton:** \[12:17\] I think it would be cool to use torrents to manage firmware versions of hardware, and then you can basically just download your own flavor or distribution for your hardware from WebTorrent, but then that goes straight through to WebUSB to update it on the spot. I thought that would be cool.
 
 **Feross Aboukhadijeh:** Yeah. My first reaction to this combination is -- because there's always people who ask me "Could I use WebTorrent for this crazy use case?" and I'm like "Why would that be better than just doing it over HTTP, other than the cool factor?" \[laughter\] And often times the answer is just like "Keep it simple. You're already gonna have so many problems just making this work reliably... Don't add another layer of technology." So that's my first reaction, but this sounds really cool, too... Just for the cool factor of it. And I don't know, there's probably other things we're not thinking of, too.
 
@@ -172,13 +172,13 @@ The only hard part is figuring out what the hash is that you want to trust... Bu
 
 **Feross Aboukhadijeh:** Yeah, actually -- I've just thought of something... The one case where BitTorrent is used today, a really enterprisy use case, is for doing updates to servers. For example, Facebook does this, where anytime they're pushing out a new version of their web app, it's like a compiled binary (I think) because they use this PHP fork thing that compiles to a binary, and then they need to push it out to like a thousand servers... And if the build server had to send a thousand copies of it out, it would take a while to do the deploy, so they use torrents; that way, once a couple servers get it, they can give it to the next servers and it fans out. So for devices, that actually sounds perfect - you don't wanna have a thousand random devices out there in the field, all getting the data from a single server; you might wanna just have them share with each other.
 
-**Suz Hinton:** \[00:15:54.11\] Yeah, and that's what happens right now with a lot of enterprise IoT stuff, and it's really painful, because you can have devices that will time out, or something like that, and then they have to ask the server again... This actually alleviates that, and it means that you don't have to set several days timeouts on just one job that you're running for like 10,000 devices... So that's why the first thing I thought of was that, just because, again, with limited connectivity, being able to extend that with the torrents is a really cool idea.
+**Suz Hinton:** \[15:54\] Yeah, and that's what happens right now with a lot of enterprise IoT stuff, and it's really painful, because you can have devices that will time out, or something like that, and then they have to ask the server again... This actually alleviates that, and it means that you don't have to set several days timeouts on just one job that you're running for like 10,000 devices... So that's why the first thing I thought of was that, just because, again, with limited connectivity, being able to extend that with the torrents is a really cool idea.
 
 **Feross Aboukhadijeh:** Maybe not that useless after all...
 
 **Kevin Ball:** Anyone looking for a business out there, it sounds like WebTorrents firmware updates... \[laughter\] There you go.
 
-**Break:** \[00:16:37.21\]
+**Break:** \[16:37\]
 
 **Kevin Ball:** The next section I wanted to do was actually kind of a meta session, talking about community, and the JavaScript community in particular, the role of conferences, and a little bit about what we're doing well, because I think there's a lot of things we're doing well, but I thought it would also be really interesting to poll the audience and poll the panel about where do we still have to grow? What are we falling down on when it comes to growing our community and making it more inviting and accepting, but also in terms of how we're spreading knowledge, and that sort of thing.
 
@@ -192,7 +192,7 @@ I think that we have a lot of work to do to be able to take those kinds of thing
 
 So I think that the idea of JS Conf was to bring a lot of those affordances and ideas and improvements in inclusion back to our local chapters, but outside of conferences I'm still not seeing that at a lot of meetups, and that's something I'd like to see change. I'd like to see us somehow figure out how we can come up with clever ways to be able to budget for that stuff even, because I know it's a money issue as well.
 
-**Kevin Ball:** \[00:20:05.18\] Nick, you've run a conference as well - what is your experience on handling that side of things?
+**Kevin Ball:** \[20:05\] Nick, you've run a conference as well - what is your experience on handling that side of things?
 
 **Nick Nisi:** It's very important to take it seriously from the beginning, and to make sure that everything that you do is clear, and the way that you're going to handle any scenarios that come up is clear. We've had scenarios come up at the conferences that I've run and other events that I've run, and in some cases we didn't publicize them because the people who reported them wished that they remain -- they didn't want to make it a big deal, but they wanted to let us know that things were happening, so that we would know what to do going forward.
 
@@ -214,7 +214,7 @@ I think that these conferences obviously help with this, because you get to spea
 
 **Kevin Ball:** By the way, all three of these panelists are speakers, and they've just basically invited you to come talk to them.
 
-**Suz Hinton:** \[00:23:54.23\] \[laughs\] I'm much more socially anxious than people give me credit for. I've hung out with these guys, so they know that I'm a freaking weirdo, but for me, public speaking gave me a lazy way out, because if I give a talk, then someone has a jumping off point to start a conversation with me, whereas... I used to be that person that would come into a circle already talking, and then just after five minutes walk away because I just didn't know how to get in. So that's definitely solved a problem for me now.
+**Suz Hinton:** \[23:54\] \[laughs\] I'm much more socially anxious than people give me credit for. I've hung out with these guys, so they know that I'm a freaking weirdo, but for me, public speaking gave me a lazy way out, because if I give a talk, then someone has a jumping off point to start a conversation with me, whereas... I used to be that person that would come into a circle already talking, and then just after five minutes walk away because I just didn't know how to get in. So that's definitely solved a problem for me now.
 
 **Feross Aboukhadijeh:** It's a huge lifehack. If you give a talk, then all of the people who are interested in whatever you're interested in will come and find you afterwards, and you have to do way less work.
 
@@ -246,7 +246,7 @@ We try and be a little more generic when it comes to frameworks like that, but w
 
 So when Nick is saying CFP, you look at the things - that's what that means; you go and you fill out a form online about what it is you wanna speak on and who you are.
 
-**Feross Aboukhadijeh:** \[00:27:51.14\] A pro tip also is apply to a lot of talks; you're gonna get rejected from like 80%. Don't feel bad, it's normal. Just keep applying. Like Nick was saying, there's so many people applying, and you might have submitted a talk on a specific topic and there was like five others, so they picked one of the other ones.
+**Feross Aboukhadijeh:** \[27:51\] A pro tip also is apply to a lot of talks; you're gonna get rejected from like 80%. Don't feel bad, it's normal. Just keep applying. Like Nick was saying, there's so many people applying, and you might have submitted a talk on a specific topic and there was like five others, so they picked one of the other ones.
 
 Another tip is you can submit a proposal for a talk that you've never given before, one that you haven't made yet; you just write up the proposal and submit it, and then if you get accepted, you can go and make the talk.
 
@@ -292,7 +292,7 @@ Also, be looking out 6 to 12 months, because these things fill up way in advance
 
 \[member from the audience\] How do you decide when and where to host the conference?
 
-**Kevin Ball:** \[00:32:08.07\] How do you decide when and where to host a conference? Is that the question? Okay.
+**Kevin Ball:** \[32:08\] How do you decide when and where to host a conference? Is that the question? Okay.
 
 **Nick Nisi:** That's pretty simple for me, with the Nebraska JS Conference... We just host it in Nebraska. \[laughter\]
 
@@ -334,7 +334,7 @@ It's really a magical feeling when it's like, "I'm gonna say this thing and they
 
 **Suz Hinton:** That does break down when you go to different countries though, and it's like "Oh, this is an American slapstick joke, and it fell completely flat with some other country, that just that's not their sense of humor culturally..." So yeah. But if you're traveling around to places where the communities are very similar, that can be very relieving to know "Okay, my jokes are actually funny. It's gonna go okay next time."
 
-**Nick Nisi:** \[00:36:02.19\] This is a little self-serving as a meetup organizer, but your meetups wanna hear from you, so give those talks, practice them at your local meetups... That's a good way.
+**Nick Nisi:** \[36:02\] This is a little self-serving as a meetup organizer, but your meetups wanna hear from you, so give those talks, practice them at your local meetups... That's a good way.
 
 **Kevin Ball:** And the bar to speaking at a meetup is down here; you can roll over that bar, you don't have to even stand up to get over that bar, because meetups are always looking for speakers, and they're a forgiving audience, because the bar is down here, and everybody knows they could be on that stage next time.
 
@@ -346,7 +346,7 @@ From there, I'm just meticulous about making sure that I'm done a couple of days
 
 So for me, being on a schedule helps me. I know that doesn't work for every talk... There's been one talk that I've done super last-minute, and it worked out okay, but I'm not proud of that... So for me just being over-prepared can sometimes really just make you feel like you should be there sometimes, especially if you're feeling nervous about it.
 
-**Break:** \[00:38:07.28\]
+**Break:** \[38:07\]
 
 **Kevin Ball:** We probably have time for one more question. Yes?
 
@@ -368,7 +368,7 @@ So getting that messaging correct when they actually go to find information is k
 
 **Kevin Ball:** One other thing is to be very upfront about things like code of conduct... If you're bringing speakers in, be upfront about how much - and ideally all - that you can cover for them... Because a lot of times, folks coming from less traditional backgrounds can't afford to fly out to your conference to speak there, and if you don't say upfront "Hey, we pay travel and board for speakers", they may never apply, because they don't know if they can do it. And it's a pretty big barrier to reach out and say "Hey, do you guys fund this or not?"
 
-\[00:44:07.04\] So being upfront about your code of conduct, about the fact that you actually care about diversity, and that you will provide travel, or a room, or whatever it is that you can actually afford... And realistically, not every conference can afford to do extensive childcare, as much as I really wish they would, because that is diversity area, but be upfront about what you can do and what you are doing, so that folks don't have to ask and they don't have to second-guess, like "Could I actually do this if they accepted me?"
+\[44:07\] So being upfront about your code of conduct, about the fact that you actually care about diversity, and that you will provide travel, or a room, or whatever it is that you can actually afford... And realistically, not every conference can afford to do extensive childcare, as much as I really wish they would, because that is diversity area, but be upfront about what you can do and what you are doing, so that folks don't have to ask and they don't have to second-guess, like "Could I actually do this if they accepted me?"
 
 **Suz Hinton:** I think overcoming your biases in that way, to know to do that stuff, is probably the most difficult part... So just asking yourself constant questions, like "Who are all the people that aren't like me? What are the different scenarios...?" Think about all of your friends, think about people who you've met in your life and all of their different circumstances, and try to always question the fact that your own ideal is the norm for you, but that's only for you individually... People come from all walks of life, and they're just not gonna be anything like you, at all.
 
@@ -388,7 +388,7 @@ I think that's still a difficult thing, but asking and constantly questioning ev
 
 **Kevin Ball:** The way that you get one -- I'm gonna be sitting outside of Track B; give me a few minutes after to actually try to get some lunch, but for the next hour and a half, first come, first served basis - you come and show me that you've subscribed to our podcast... So you can show me on your phone, you can show me on your laptop, wherever it is that you manage your podcasts. If you subscribe to JS Party... You can find it -- can we put the slide up real quick? Changelog.com/jsparty, there is a list of all your favorite ways to subscribe... So if you're an Apple user, an Android user, what have you... You come and show me that you've subscribed, and as long as we have T-shirt supplies on your size, you can have one.
 
-**Suz Hinton:** \[00:46:45.01\] They're so soft... They are ridiculously soft.
+**Suz Hinton:** \[46:45\] They're so soft... They are ridiculously soft.
 
 **Kevin Ball:** Yeah, they're really nice. Other than that - any other bookkeeping...? If you enjoyed this and even if you don't wanna get a T-shirt, you can still subscribe. Episodes typically come out Friday. This episode should come out this Friday (knock on wood). We generally record and broadcast live on Thursday mornings at 10 o'clock Pacific Time. I guess it's not morning if you're on the East Coast, but... On Thursdays, 10 Pacific, 1 Eastern, you can come join us; there's a Slack channel, you can chime in... We typically do include commentary and feedback from the folks who are listening live, so you can have your voice heard as well.
 

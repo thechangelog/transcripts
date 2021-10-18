@@ -182,7 +182,7 @@ The tech is obviously awesome, and we love talking about technology, and innovat
 
 **Asim Aslam:** Hear, hear, man. I think that's what companies are all about. That's what building products are all about. It is about the people, it is about the team that comes together to build it... For me, I was part of that team at Hailo. That's what I really loved, and I wanted to be able to go with that team, to go build that product and company, that next thing. We just couldn't get it done, and so I spent the next four years bootstrapping it solo. I would tell you - yeah, that's super-hard, to go from this team dynamic to doing open source alone for four years... That's a whole other thing.
 
-**Break**: \[00:42:10.28\]
+**Break**: \[42:10\]
 
 **Adam Stacoviak:** I asked some questions as sort of a primer to this conversation... I'm gonna quote something, if you don't mind, from something you had said. This is to give us some premise to talk around... In regards to lessons learned, you said "The journey from an open source project to a commercially-viable business is also one littered with a lot of dead bodies. I'm six years into the journey and still here. I have stories to tell." So let's crack that nut.
 

@@ -14,7 +14,7 @@ We're also interested in it I guess from that sustainability angle; this is a co
 
 I'd love to hear the genesis story a little bit. I know, Michael, you said you've been involved since about 2009. Can either of you recall the beginning of RabbitMQ and why it needed to exist in the world?
 
-**Michael Klishin:** \[00:04:09.13\] Sure, so first of all I wasn't around in the very early days. If one of the founders is listening to it - Alexis, Matthias - I'm sorry if I get something wrong.
+**Michael Klishin:** \[04:09\] Sure, so first of all I wasn't around in the very early days. If one of the founders is listening to it - Alexis, Matthias - I'm sorry if I get something wrong.
 
 With that out of the way, Rabbit was actually started in 2006, but Pivotal didn't exist back then. Let's start -- first things first, right?
 
@@ -38,7 +38,7 @@ Rabbit described itself as an open source message broker. We also the word -- I 
 
 **Michael Klishin:** I think there is a difference, but it's pretty subtle. For example, a lot of people use messaging and they think in terms of queues or logs of operations, that kind of thing. But the broker part is actually optional. There is a project of about the same age called ZeroMQ, started by Peter Hintjens, which doesn't really have this broker component. It's a library that you embed into a tool - well, into more than one tool, most likely... And they communicate using various messaging patterns.
 
-\[00:08:02.19\] There is this queuing aspect, but there is no broker aspect, or rather every single application plays that role a little bit. It's a pretty different architecture for RabbitMQ, but I guess most messaging technologies have this middleware. You have a node, or a bunch of nodes that clients connect to, and those nodes do the routing, store messages, expire them, deliver them, acknowledge them... All that jazz.
+\[08:02\] There is this queuing aspect, but there is no broker aspect, or rather every single application plays that role a little bit. It's a pretty different architecture for RabbitMQ, but I guess most messaging technologies have this middleware. You have a node, or a bunch of nodes that clients connect to, and those nodes do the routing, store messages, expire them, deliver them, acknowledge them... All that jazz.
 
 **Karl Nilsson:** Yeah, just to add to that, about ZeroMQ - a message queue, as Michael said, doesn't have to be a centralized thing. Your queue could be local, and I guess that's what ZeroMQ does. It's kind of almost directly addressing queues on a remote system, rather than through an intermediary. And one of the patterns that ZeroMQ have, for example, is to implement a broker using the ZeroMQ libraries. That's one of the patterns that they achieve things like service discovery - discovering services that you don't know already, directly.
 
@@ -58,7 +58,7 @@ So it's almost like a pattern, but it's a very useful one, and one that you can 
 
 To be fair, messaging isn't the only way. There is a book called Enterprise Integration Patterns -- and please don't fear the title, it's actually a very sensible book, and it's not specific to those working at huge companies... I think it was published in the '90s or so, and yeah, you can integrate using shared databases. If you have tried that, you probably know that you have to be careful. You can integrate using UNIX sockets, local file system, all kinds of things. But once you go distributed, your options are more limited, so that's where messaging comes into play.
 
-\[00:12:09.27\] Recently, we have seen quite a few use cases, like two major tides that lift all messaging boats; they are called microservices, and for the record, I hate the term. It's about as specific as cloud computing. And IoT, which is even more specific, right?
+\[12:09\] Recently, we have seen quite a few use cases, like two major tides that lift all messaging boats; they are called microservices, and for the record, I hate the term. It's about as specific as cloud computing. And IoT, which is even more specific, right?
 
 So yeah, you have your internet-connected dishwasher, you need it to talk to your internet-connected light bulb for whatever reason, and all of that has to be service-oriented. That's another couple of very, very broad areas where messaging is used. And then of course there are problems where Rabbit doesn't try to necessarily specialize in, but there are string processing systems that are usually more than one tool, but one of the components is definitely something that is a messaging technology, and that has all kinds of applications... From tracking your runs when you wearing your -- I don't know, pick your favorite wearable device, to connected cars, to software updates in all those connected cars... You name it.
 
@@ -74,7 +74,7 @@ I think in the modern world, messaging - and I by no means equate messaging with
 
 But one thing I wanted to add to "What is the use case?", I think one really important use case in addition to discovery and integration is "Why do you have a queue?" You could do discovery and integration without having the queue bit, right? Just root messages directly. The queue is there to hold messages until they can be processed. It's a way of flattening sudden peaks in your activity, or sudden outages of certain services, so that altogether you build a more resilient system. I think that is also one of the major use cases for why you would want a queue in between the thing that generates something and the thing that processes.
 
-**Jerod Santo:** \[00:15:58.04\] Yeah... Having used queues in applications, it's always awesome when you have some sort of production problem and you know that you're not dropping those transactions, those actions. They're just gonna queue up and they're just gonna keep on building, and when everything goes back to being normal again, it's gonna work that queue back down. Like you said, it's resilient... Whereas if you didn't have that in place, if you were just brokering messages and nobody's on the other end of the line to answer the message, then you're just dropping those things on the ground.
+**Jerod Santo:** \[15:58\] Yeah... Having used queues in applications, it's always awesome when you have some sort of production problem and you know that you're not dropping those transactions, those actions. They're just gonna queue up and they're just gonna keep on building, and when everything goes back to being normal again, it's gonna work that queue back down. Like you said, it's resilient... Whereas if you didn't have that in place, if you were just brokering messages and nobody's on the other end of the line to answer the message, then you're just dropping those things on the ground.
 
 So speaking of messages, Erlang - you mentioned that they wanted to try out Erlang back in 2006, they wanted to use it... And when it comes to distributed systems and sending messages, it seems like that was probably a very good choice, as it's a language built specifically for sending messages between switches and other telephone operating system type of things. Ten years later - thousands and thousands of lines... You've got 168 contributors, at least on the RabbitMQ server. Surely, once you hit the clients, there's probably thousands of contributors. 156 releases... It's been a long time -- almost 17,000 commits, and you're still on the server repo... 94.3% Erlang.
 
@@ -82,7 +82,7 @@ So this is a long-standing Erlang project, and I don't think we've had on the Ch
 
 Guys, tell us about that choice and the use of Erlang over the years and how that's played out for the project.
 
-**Michael Klishin:** First of all, I think I recall a Changelog episode where you did have an Erlang project which was started around 2007, I believe... \[00:17:56.09\]
+**Michael Klishin:** First of all, I think I recall a Changelog episode where you did have an Erlang project which was started around 2007, I believe... \[17:56\]
 
 **Jerod Santo:** That was probably the last one you listened to.
 
@@ -104,7 +104,7 @@ Then Elixir emerged, which I'm not supposed to say this - not everyone in our te
 
 **Michael Klishin:** And not this "Looks like Ruby" aspect... What experienced developer really cares about syntax? It's something that you pick up in a few days and you never think about it much again. But because there are very practical improvements in Elixir, ranging from - it has good associative data structures, so maps, dictionaries, hashes, whatever they are called in your language of choice... That's a huge thing for me, because besides Erlang, I've spent a number of years working in Clojure, and before that Scala, and before that Ruby and Java, and I can tell you that working with prop lists - these lists of pairs - in Erlang is pretty painful.
 
-\[00:20:16.01\] Something that is like a few lines and it's obvious what they do in Clojure, which has a very nice collections library, in Erlang can be several times more lines of code... But again, the lines are not the point; it's just you have to write this every time, and in every codebase it looks slightly differently, and you have to spend your brain cycles figuring out what is going on. So that's much better... And it sounds like something maybe silly, but you use those things every single day, right?
+\[20:16\] Something that is like a few lines and it's obvious what they do in Clojure, which has a very nice collections library, in Erlang can be several times more lines of code... But again, the lines are not the point; it's just you have to write this every time, and in every codebase it looks slightly differently, and you have to spend your brain cycles figuring out what is going on. So that's much better... And it sounds like something maybe silly, but you use those things every single day, right?
 
 I think we should not ignore the cumulative effect of such small improvements. Another thing that I really like is that Unicode and Elixir is not an afterthought. In RabbitMQ specifically, we have seen interesting issues that you can only run into if you use command line with a Chinese locale, or something like that. As far as I know, no one on our team unfortunately can read or write Mandarin or Cantonese... So yeah, we would really like to not have to fix those issues, and in Elixir they are much less likely to occur.
 
@@ -118,7 +118,7 @@ And yeah, I think more sensible compiler error messages, also a great contributi
 
 **Michael Klishin:** I personally think that -- well, let me give you an example. I've been to a small Erlang/Elixir conference in early April in Rome, and shoutout to the organizers - it was a very nice event... So most people there - at least those to whom I have spoken to - told me that they have considered or tried or used Elixir. That said, I think less than a half actually use it, but Elixir was mentioned in 80% of talks, something like that. A few talks were exclusively about the experience of adopting Elixir - including mine.
 
-\[00:24:25.03\] I think Elixir definitely sparked a massive conversation in the community about -- so it takes a lot of effort and dedication to produce a programming language. Not everyone is as crazy and dedicated - I mean it in a good way - as Jose Valim. So do we really need to develop Elixir, or is improving Erlang okay? I don't necessarily have an answer to that, but I think the Erlang team and the Erlang community have recognized a lot of things that are obvious from the outside, if you come from a Ruby, or a Java, or a C\# background, but they are not at all obvious to them. There were many improvements in the last two years, and I expect this to continue for the foreseeable future.
+\[24:25\] I think Elixir definitely sparked a massive conversation in the community about -- so it takes a lot of effort and dedication to produce a programming language. Not everyone is as crazy and dedicated - I mean it in a good way - as Jose Valim. So do we really need to develop Elixir, or is improving Erlang okay? I don't necessarily have an answer to that, but I think the Erlang team and the Erlang community have recognized a lot of things that are obvious from the outside, if you come from a Ruby, or a Java, or a C\# background, but they are not at all obvious to them. There were many improvements in the last two years, and I expect this to continue for the foreseeable future.
 
 **Karl Nilsson:** I agree with that. I think Elixir has had a positive effect on Erlang. I mean, Elixir compiles down to Erlang, so it doesn't even skip a step and go straight to whatever Erlang compiles down to. Jose is actively contributing to Erlang/OTP, to the Erlang platform. So I think not just from what Elixir does and its approach to tooling and developer experience, but I do think it has a positive effect.
 
@@ -126,7 +126,7 @@ That said, I think Erlang/OTP is probably another open source project that's bee
 
 **Adam Stacoviak:** Coming up after the break, Jerod moves the conversation to lessons learned. It's important for any project to learn and grow from their mistakes, especially a project like RabbitMQ, that deals with complex architectures in an every-changing world. We discuss how to choose dependencies, what happens when you don't preserve the quality of client libraries, and the politics involved in messaging protocols like RabbitMQ. All this and more after the break.
 
-**Break:** \[00:26:43.28\]
+**Break:** \[26:43\]
 
 **Jerod Santo:** Alright, we are back, talking about RabbitMQ, talking about Erlang and Elixir a little bit... Guys, one thing we just wanted to clarify on the other side of the break was Elixir's compilation process, just so everybody's clear on how it works. We did look it up during the break just to make sure... Do you guys wanna laid that out a little bit? You don't have to go into the whole details, but explain clearly how it goes from Elixir to executing code on the hardware.
 
@@ -148,7 +148,7 @@ Then there are too more experienced people who know how to debug distributed sys
 
 **Michael Klishin:** I honestly don't know how many there are. I think we support more than 20 programming languages; of course, some are supported better than others, but most likely if you can name a language, there is a client library of some quality, and multiple languages have multiple client libraries, again, of varying quality.
 
-\[00:32:01.19\] Pivotal supports -- I think it's currently three. It's Java, .NET and Erlang; Erlang because it's used by plugins that we support, so it would be a little bit weird to not support that. But we are interested in adding official support for more. That said, many client libraries are either maintained by our team members (I maintain a few), or we try to contribute to the extent that time allows.
+\[32:01\] Pivotal supports -- I think it's currently three. It's Java, .NET and Erlang; Erlang because it's used by plugins that we support, so it would be a little bit weird to not support that. But we are interested in adding official support for more. That said, many client libraries are either maintained by our team members (I maintain a few), or we try to contribute to the extent that time allows.
 
 **Jerod Santo:** Sure.
 
@@ -176,7 +176,7 @@ If you are still not sure, come to RabbitMQ-Users, our public mailing list (it's
 
 **Jerod Santo:** Yeah, that's kind of what I was looking for - using these client libraries as a lens to a bigger question, which is "How do you choose a dependency?" I think you guys drilled that you have...
 
-\[00:35:55.01\] The problem is -- maybe it's not a problem; the situation is it's a holistic decision. It's difficult to quantify. You look at the docs, you look at the code perhaps, you look at the community, tests perhaps, and you see "Is it maintained, or are there 600 open issues and 40 pull requests against it and none of those have been addressed?" So there's all these things that have to go into it before you make a decision... I was just curious your guys' take on that; it sounds like it lines up pretty well with my own.
+\[35:55\] The problem is -- maybe it's not a problem; the situation is it's a holistic decision. It's difficult to quantify. You look at the docs, you look at the code perhaps, you look at the community, tests perhaps, and you see "Is it maintained, or are there 600 open issues and 40 pull requests against it and none of those have been addressed?" So there's all these things that have to go into it before you make a decision... I was just curious your guys' take on that; it sounds like it lines up pretty well with my own.
 
 Let's get back onto the topic of mistakes made. So not preserving the quality of client libraries of the years has been a mistake over the years, because ultimately everybody comes and thinks it's a server... Because it's gotta be somebody else's code, right? It can't be mine. So you probably have a lot of stray issues or misfires with regards to pointing the blame with not keeping the quality of those client libraries up to par. What else have you got in terms of things you guys have learned from mistakes made?
 
@@ -194,7 +194,7 @@ It's a very difficult problem, so next time you are trying to design your own me
 
 **Jerod Santo:** One thing you mentioned is that the protocol conversation is politicized. Is that because different corporations come up with their own protocols and then try to get everybody to use them? Why is it a political thing and not just a technical thing?
 
-**Michael Klishin:** \[00:39:46.13\] That's a good question, why politics exist; I'm not necessarily ready to answer that, but I have a couple of thoughts. One is messaging protocols are typically designed by communities of some kind; there are exceptions to that. There are protocols that were designed at a particular company or by just one particular person who wrote the spec and then published it on the internet, but most of them are designed by committees, and even though typically people in those committees are technical and good-meaning and have experience with existing messaging APIs or technologies, like I said, it's a hard problem. People make mistakes, people make compromises that make engineers' lives harder, even though for sales people it becomes easier. Yeah, everyone tries to get their idea in.
+**Michael Klishin:** \[39:46\] That's a good question, why politics exist; I'm not necessarily ready to answer that, but I have a couple of thoughts. One is messaging protocols are typically designed by communities of some kind; there are exceptions to that. There are protocols that were designed at a particular company or by just one particular person who wrote the spec and then published it on the internet, but most of them are designed by committees, and even though typically people in those committees are technical and good-meaning and have experience with existing messaging APIs or technologies, like I said, it's a hard problem. People make mistakes, people make compromises that make engineers' lives harder, even though for sales people it becomes easier. Yeah, everyone tries to get their idea in.
 
 Some of those vendors actually compete in the market in multiple areas, especially these days, where huge corporations - everyone competes with everyone else on everything, and so on and so forth. Then there is marketing. There are people who deeply believe that to build an IoT system you need to build it using a particular protocol. I'm sorry, but that's nonsense. To be honest, you can use anything. You can use HTTP 1.1, which is in many ways a great protocol; for messaging probably not so much, but... You can use HTTP 2, which is much closer to messaging protocols... But it just doesn't matter.
 
@@ -212,7 +212,7 @@ There are ridiculous marketing claims, like "This binary protocol is more effici
 
 **Karl Nilsson:** Yeah. All those are kind of compatible, in a sense, but then, after some pause, I believe a slightly different committee got together and standardized AMQP 1.0 and it ended up being a very different protocol, not containing certain parts of the previous versions. However, it has been OASIS standardized and RabbitMQ implemented, but we implement it as a plugin... So it's an optional add-in.
 
-**Jerod Santo:** \[00:44:10.04\] Gotcha. I was trying to look up that AMQP 1.0 release date, and I found it on Wikipedia - 30th October 2011. It also says the Working Group -- we talk about politics and why they exist in these things... The AMQP Working Group grew to 23 companies (this was back then), including Bank of America, Barclays, Cisco, Deutsche Boerse, Goldman Sachs, JP Morgan Chase, Microsoft, Red Hat... You could just keep going and going. Once you have that many vested interests involved - and that's just AMQP 1.0; like you said, there's many others - it's hard for mere technical prowess to become... I guess the meritocracy that we all engineers want to see exist in the world is shrouded by the corporate interests. That's just a fact of life right now.
+**Jerod Santo:** \[44:10\] Gotcha. I was trying to look up that AMQP 1.0 release date, and I found it on Wikipedia - 30th October 2011. It also says the Working Group -- we talk about politics and why they exist in these things... The AMQP Working Group grew to 23 companies (this was back then), including Bank of America, Barclays, Cisco, Deutsche Boerse, Goldman Sachs, JP Morgan Chase, Microsoft, Red Hat... You could just keep going and going. Once you have that many vested interests involved - and that's just AMQP 1.0; like you said, there's many others - it's hard for mere technical prowess to become... I guess the meritocracy that we all engineers want to see exist in the world is shrouded by the corporate interests. That's just a fact of life right now.
 
 **Michael Klishin:** Yeah. I mean, when you've got that many actors participating to a protocol, you have to satisfy them all in some shape or form, right? So the protocols end up being complex. AMQO 0.9.1 is a reasonably complex protocol. AMQP 1.0 kind of adds a couple of notches onto that in terms of complexity. That said, it doesn't mean they're not well-designed, it just means they are very large and complex, and it takes time to implement.
 
@@ -226,7 +226,7 @@ Distributed systems algorithms - yeah, Rabbit has seen its fair share of reinven
 
 Some others were around, but the awareness of the developer community about them was very different. So that's one of the reasons why Rabbit has a few things that were reinvented and we will be replacing in the next year (or however long it takes) because it's a bit like replacing a chassis on a plane that is in flight; it takes time, and you have to be careful.
 
-\[00:47:41.24\] So I think those things result in very real technical operations, related ramifications, and certain issues and considerations, like about "How do you design your apps?" and so on. It's a very deep topic, but in general, if you feel like you need to invent your own consensus algorithms or replication algorithm or cluster membership algorithm, don't. There are enough of them published by PhD's or people at companies that are 100,000 times larger than yours, likely.
+\[47:41\] So I think those things result in very real technical operations, related ramifications, and certain issues and considerations, like about "How do you design your apps?" and so on. It's a very deep topic, but in general, if you feel like you need to invent your own consensus algorithms or replication algorithm or cluster membership algorithm, don't. There are enough of them published by PhD's or people at companies that are 100,000 times larger than yours, likely.
 
 There is something for you to pick, investigate, toy with and maybe eventually adopt. That's a huge and very costly mistake to make.
 
@@ -244,7 +244,7 @@ Karl, maybe you have something to add, or go deeper on one of those.
 
 **Karl Nilsson:** Yeah, I'll maybe just kind of fill it in a little bit. So if we had to start from scratch -- I wanna attribute some of the mistakes down to the temptations that writing code on the Erlang VM kind of gives you... Because Erlang does have things that other platforms don't have by default; it has things like distribution, so you can connect Erlang nodes across different machines.
 
-\[00:52:01.22\] Now, the original use case, as those that know a bit about Erlang are well aware of, is switches, right? Where you have maybe only two machines, or a small number of machines that sit in there, they're all connected through the same switch, very reliable hardware, and you don't experience all the problems you might experience when you deploy distributed Erlang. You connect all these nodes and you deploy them into a cloud environment, where you might actually be crossing the internet in order to connect, and you don't really know what kind of hardware your infrastructure is running on.
+\[52:01\] Now, the original use case, as those that know a bit about Erlang are well aware of, is switches, right? Where you have maybe only two machines, or a small number of machines that sit in there, they're all connected through the same switch, very reliable hardware, and you don't experience all the problems you might experience when you deploy distributed Erlang. You connect all these nodes and you deploy them into a cloud environment, where you might actually be crossing the internet in order to connect, and you don't really know what kind of hardware your infrastructure is running on.
 
 I think that's one of the things I would address right up front, rather than writing something in Erlang and then making it distributed, which I think is how RabbitMQ's clustering approach happened... But instead address clustering and how it distributes its data from the get go, to build that into the core of the application. I think that's very important, I mean, it does reasonably well in a cloud environment, but in order to do really well, you need to design that in.
 
@@ -264,7 +264,7 @@ Yeah, things get a lot more interesting once they start failing, and that's when
 
 **Adam Stacoviak:** After the break we talk about one of the most important aspects to an open source project - its community. We talk about how community fits into a corporate-sponsored open source project that's ten years in the making, how it's grown, how it's changed over the years, and what you can expect from the future of RabbitMQ. Stay tuned.
 
-**Break:** \[00:56:08.28\]
+**Break:** \[56:08\]
 
 **Jerod Santo:** Alright, we are back, talking RabbitMQ with Karl Nilsson and Michael Klishin, staff engineers at Pivotal, working on RabbitMQ for many years now. We wanted to see how RabbitMQ plays with the greater open source community. You guys work for Pivotal, many of the team members do, and it's always interesting to hear how projects like these interact with the outside world, so to speak.
 
@@ -274,7 +274,7 @@ So let's pick back up with the history a little bit. We talked about how it star
 
 **Jerod Santo:** So what kind of project is it? Is it run entirely by Pivotal staff? Is there outside companies working on it, are there individuals? What does the team look like?
 
-**Michael Klishin:** \[00:59:50.25\] Our team is seven, soon to be eight engineers, and a couple of folks who work on maybe less engineering topics. We have contributors from companies such as maybe Mirantis a lot of small companies, I believe someone from a huge state/government-owned German corporation contributed recently... So yeah, there are all kinds of users who happen to contribute, as well. I would say overall we have maybe 10-11 people who are active or regular contributors.
+**Michael Klishin:** \[59:50\] Our team is seven, soon to be eight engineers, and a couple of folks who work on maybe less engineering topics. We have contributors from companies such as maybe Mirantis a lot of small companies, I believe someone from a huge state/government-owned German corporation contributed recently... So yeah, there are all kinds of users who happen to contribute, as well. I would say overall we have maybe 10-11 people who are active or regular contributors.
 
 We use GitHub for almost everything, so it's relatively straightforward. The only thing we don't use GitHub for is questions and root cause analysis and "Please investigate this for me" kind of issues... But the rest happens on GitHub, so it's pretty reasonable.
 

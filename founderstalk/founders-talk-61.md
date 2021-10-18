@@ -14,7 +14,7 @@ I could fund it myself, that was one possibility, but I'm not unfortunately inde
 
 **Adam Stacoviak:** Squashed, yeah.
 
-**Isaac Schlueter:** \[00:03:46.02\] ...squashed, yeah. You have to fight for resources there. Another option was starting a foundation. That was something I looked at very carefully, and really looked at very closely. The downside of that - foundations are well-suited to a certain shape of problem. They work very well for things like the Linux Kernel, the Node Project, where you have essentially no infrastructural overhead. There is some, I don't wanna say no, but not very much infrastructural overhead; they don't have a ton of servers. The Linux Kernel isn't gonna stop working if they don't have servers to service all of the Linux Kernels out there in the world. This is not the shape of that piece of technology
+**Isaac Schlueter:** \[03:46\] ...squashed, yeah. You have to fight for resources there. Another option was starting a foundation. That was something I looked at very carefully, and really looked at very closely. The downside of that - foundations are well-suited to a certain shape of problem. They work very well for things like the Linux Kernel, the Node Project, where you have essentially no infrastructural overhead. There is some, I don't wanna say no, but not very much infrastructural overhead; they don't have a ton of servers. The Linux Kernel isn't gonna stop working if they don't have servers to service all of the Linux Kernels out there in the world. This is not the shape of that piece of technology
 
 **Adam Stacoviak:** Right.
 
@@ -40,7 +40,7 @@ So we raised some money, I talked to a bunch of VCs in December 2013, started th
 
 That doesn't mean the problem was solved, obviously. The other thing you need to have if you go down the venture route is a reasonable assumption that you can turn that exponential growth curve of cost into some kind of revenue-generating engine... And I didn't at the time know exactly what that would look like, but what I did know was there's a lot of big companies that are using Npm; they have different needs than what the open source community has, and so there's a good chance that we can do a thing that will help them have their needs met, and they'll pay for that. And as the growth of users and packages and just the relevance of Npm continues, then that can be a way that we can sort of tie a revenue to that growth curve and fund Npm sustainably long-term.
 
-**Adam Stacoviak:** \[00:08:12.05\] Had you done anything like this before yourself? Some founders come in green, they've never founded anything before; obviously, they've run some stuff, they've been an adult, they've been responsible, but building a company, building revenue, maybe even seeking a seed round or venture capital is just things people don't often do, unless they're in a position like you - one day you're like "I need to somehow keep doing this, and I want to", so as you'd mentioned, through a process of elimination you made your choice.
+**Adam Stacoviak:** \[08:12\] Had you done anything like this before yourself? Some founders come in green, they've never founded anything before; obviously, they've run some stuff, they've been an adult, they've been responsible, but building a company, building revenue, maybe even seeking a seed round or venture capital is just things people don't often do, unless they're in a position like you - one day you're like "I need to somehow keep doing this, and I want to", so as you'd mentioned, through a process of elimination you made your choice.
 
 **Isaac Schlueter:** Right. No, I'd never founded a company before. I'd worked at a handful of startups, I'd worked at Yahoo and some other companies, but no -- the only actual business-business experience I had was as a consultant, just kind of doing my own side work. So I'd done some stuff, it's not like I was completely green on that side of things, and I had managed people before, but no, this was a brand new adventure for me; I was a first-time CEO, and again, doing it because I sort of had no other choice.
 
@@ -62,7 +62,7 @@ So from their point of view it's like, "Do I think this is a legit thing?" and "
 
 You need to have the pitch deck, because it's part of the whole ceremony of it, but the products that are included in there, or the approaches that are included in there are...
 
-**Adam Stacoviak:** \[00:12:07.14\] Just to give confidence that you've actually thought to the problem and you have some indications of how you might go about generating revenue, basically.
+**Adam Stacoviak:** \[12:07\] Just to give confidence that you've actually thought to the problem and you have some indications of how you might go about generating revenue, basically.
 
 **Isaac Schlueter:** Right, right. I don't know... Any VC who really nitpicks your model that's in your pitch deck for a seed-funded company - they're just being an a\*\*. They've already decided no, they're just kind of trying to justify that.
 
@@ -88,7 +88,7 @@ But people get assumptions in their head. And probably that heuristic served tha
 
 **Isaac Schlueter:** Yeah, yeah. So Bower was a big thing that was really popular in the front-end world... And really, Npm was THE package manager for Node, but for the front-end -- people were still just sort of putting jQuery in the script tag. The whole modular JavaScript revolution hadn't really made it into the web browser... And there was a lot of work going on with specs around ES modules, and different loader approaches, and it was really not clear that Npm would "win".
 
-\[00:16:10.27\] Of all the major web front-end frameworks none of them used Npm in any kind of significant way other than Browserify. Webpack I believe still didn't exist yet. I could be getting my Diesel mixed up, but it certainly wasn't the thing it is today. And yeah, that was a big open question at the founding of this company - how do we get front-end developers to put their code in Npm, and how do we get them to consume their code from Npm?
+\[16:10\] Of all the major web front-end frameworks none of them used Npm in any kind of significant way other than Browserify. Webpack I believe still didn't exist yet. I could be getting my Diesel mixed up, but it certainly wasn't the thing it is today. And yeah, that was a big open question at the founding of this company - how do we get front-end developers to put their code in Npm, and how do we get them to consume their code from Npm?
 
 As it happened, we just always had bigger problems to solve, and a couple years in we kind of looked back and we were like, "Oh, I guess we did it." The answer was "Continue existing and wait."
 
@@ -100,13 +100,13 @@ As it happened, we just always had bigger problems to solve, and a couple years 
 
 **Isaac Schlueter:** Yeah, getting it behind a CDN was a huge way to get our operational house in order. But yeah, what ended up happening was people just sort of invented new front-end frameworks, and they did so in an environment where Node existed and where Npm existed, and so it just seemed natural to those developers, like "Well, yeah, I'm gonna use the module system and I'm gonna put my stuff in the Npm registry", and Babel and Webpack can paper over all the differences, and there you go. And now we have things like Vue and Angular and React, and they're all using Npm. So it's really become the package manager not just Node, but for JavaScript as a whole.
 
-**Break:** \[00:18:00.21\]
+**Break:** \[18:00\]
 
 **Isaac Schlueter:** You know, my number one startup maxim is just "Stay alive long enough to get lucky." I think there are very few cases where success is not 99% luck, but you do have to be there to get lucky, which means whatever the fires are, you have to put them out fast enough that when you get some lucky break, you're in a position to grab it.
 
 So it's not that there's no skill in getting lucky, but it doesn't mean you're a genius; it just means you managed to be present and alive and still a relevant concern. If you go out of business, then you can't really get lucky anymore.
 
-**Adam Stacoviak:** \[00:19:33.27\] Did the name ever have an issue? I know that there's always been a constant debate of what Npm actually means... Because I do believe in episode \#101, when we first talked to you - this was August 2013, on the Changelog, "Npm origins and NodeJS" was the title of the show... I'm pretty sure we called it "Node Package Manager." I'm pretty sure it was called Node Package Manager back in the day, but since you've kind of zoomed out a bit at a macro level and de-named it, and now on the top bar of your site you even -- I'll just hop over to the next tab and see what it says right now...
+**Adam Stacoviak:** \[19:33\] Did the name ever have an issue? I know that there's always been a constant debate of what Npm actually means... Because I do believe in episode \#101, when we first talked to you - this was August 2013, on the Changelog, "Npm origins and NodeJS" was the title of the show... I'm pretty sure we called it "Node Package Manager." I'm pretty sure it was called Node Package Manager back in the day, but since you've kind of zoomed out a bit at a macro level and de-named it, and now on the top bar of your site you even -- I'll just hop over to the next tab and see what it says right now...
 
 **Isaac Schlueter:** We sort of joke about it, yeah.
 
@@ -124,7 +124,7 @@ The other thing - "Well, we don't know how big JavaScript is." That's just not a
 
 **Adam Stacoviak:** Well, let's turn to that. Let's break it down first, the components of Npm. You do it well on your About page, which I really appreciated, by the way - just sort of breaking down what Npm Inc. is, versus Npm the registry, versus Npm the CLI client that kind of pulls everything together, stuff like that. I broke that down I guess for the audience, but what are other things that you've done that are paid for, that generate the revenue? When did you first launch a product, when did you first start earning revenue and what was that like for you guys?
 
-**Isaac Schlueter:** \[00:23:49.02\] This is an interesting story... I'd had people from various companies come to me and say "Npm is great. We love Npm, we use Npm all the time. Hey, here are these three problems we have." And these weren't small companies, they were big, well-known companies with lots of money. That's one of the reasons why I started the company, because I was like, "Well, this is a way that I could fund the registry and keep it running."
+**Isaac Schlueter:** \[23:49\] This is an interesting story... I'd had people from various companies come to me and say "Npm is great. We love Npm, we use Npm all the time. Hey, here are these three problems we have." And these weren't small companies, they were big, well-known companies with lots of money. That's one of the reasons why I started the company, because I was like, "Well, this is a way that I could fund the registry and keep it running."
 
 One of the things that we heard in a lot of our very, very early beginning customer chats was people seemed to split about 50/50 between absolutely not being able to use anything that is not on-prem, and absolutely not being able to use anything that's not a SaaS. So we thought, "Okay, we're gonna have to have some kind of a two-pronged attack here", where we have an enterprise product which is on-prem, and like more of an SMB type of thing, which is a SaaS product. And we looked at GitHub - that's kind of the obviously corollary, right? GitHub had GitHub Enterprise, which is run on-prem, and GitHub Orgs, which is their paid SaaS for teams and smaller groups.
 
@@ -146,7 +146,7 @@ Those two companies are diametrically opposed in terms of how they're actually b
 
 **Adam Stacoviak:** I'm curious with that then, so the state of those two - so you do have enterprise, and you do have your SaaS, so what did you do?
 
-**Isaac Schlueter:** \[00:28:13.05\] That's a good question... We haven't' made a ton of noise about his; it's not in GA yet, but what we did was we went back to the drawing board... I had some revenue targets that our investors wanted to see; they're saying like "Your revenue should be growing about this much, over this much time...", so I did the math and I was like, okay, we can do that if we land -- given the typical annual contract value of our enterprise clients, if we land about two new enterprise clients per week over the next year, we're gonna hit that target.
+**Isaac Schlueter:** \[28:13\] That's a good question... We haven't' made a ton of noise about his; it's not in GA yet, but what we did was we went back to the drawing board... I had some revenue targets that our investors wanted to see; they're saying like "Your revenue should be growing about this much, over this much time...", so I did the math and I was like, okay, we can do that if we land -- given the typical annual contract value of our enterprise clients, if we land about two new enterprise clients per week over the next year, we're gonna hit that target.
 
 I could hire a sales team that could do that, we could invest in the marketing to do that... It's not easy, but it's not particularly challenging either. The what-to-do is very straightforward.
 
@@ -168,7 +168,7 @@ We were also wading into these companies with this minefield in front of us, whe
 
 So reimagining this as a SaaS and redesigning it as a SaaS actually opens that door up a lot. Now the infrastructure and operations in the IT side of the companies is saying, "Hey, you just took a big headache away from me." The dev teams can get started a lot faster, and in a lot of cases there's nothing to install, they don't have to requisition any hardware, so they just swipe a credit card and off to the races.
 
-**Adam Stacoviak:** \[00:32:25.04\] That's right, yeah.
+**Adam Stacoviak:** \[32:25\] That's right, yeah.
 
 **Isaac Schlueter:** So it's in beta now... We have gotten some pushback from some companies about it not being on-prem, but the interesting thing here is kind of the subtle repositioning of like "This doesn't have to be where you put your private code, if that's a problem for you to have that in a SaaS repository." You could just look at it as a way to kind of enforce policy compliance within your company, because you are using a SaaS, right? You're using the public registry. I guarantee it.
 
@@ -188,7 +188,7 @@ We can look at our logs and find 500 of the Fortune 500 companies. People think 
 
 Now, that being said, a lot of times when people say "on-prem", they don't mean literally on-prem. "On-prem has come to me in our AWS account, rather than yours..." There are some hold-outs, and I think as our enterprise go-to-market kind of progresses, at some point we're gonna find someone who says "No, no, really... I want this thing. I know it's this cute Kubernetes cluster thing, but I'm gonna pay you many millions of dollars to have it on my physical location." Then at that point we'll say, "Alright, let's build the team that can support that." But we're now in a position where we can go to most enterprises and sell them a solution that makes their lives profoundly better for everybody across the company, and we don't have to get into that fight between dev and infrastructure. We don't need to ask our champions within a company to go convince someone who sees no personal benefit to using our product.
 
-\[00:36:19.17\] So our existing enterprise customers -- I wanna mention this just in case any of them are listening to this... \[laughs\] We're going to keep supporting our Npm enterprise on-prem product for quite a while. It'd be a little messed up to say "Okay, we're dropping support for our on-prem product, but our new SaaS product is not even out of beta yet." So as we do get closer to rolling this thing out and calling it GA, we're gonna have a comprehensive plan to make sure we take care of those people.
+\[36:19\] So our existing enterprise customers -- I wanna mention this just in case any of them are listening to this... \[laughs\] We're going to keep supporting our Npm enterprise on-prem product for quite a while. It'd be a little messed up to say "Okay, we're dropping support for our on-prem product, but our new SaaS product is not even out of beta yet." So as we do get closer to rolling this thing out and calling it GA, we're gonna have a comprehensive plan to make sure we take care of those people.
 
 **Adam Stacoviak:** Well said, yeah. In case they're listening, you've gotta make sure that they don't get "Hey, I should be emailing Isaac after I listen to this show, because that was not expected."
 
@@ -226,7 +226,7 @@ I think that a seed funding - yes, announce it. Announce it as soon as possible.
 
 **Adam Stacoviak:** Because that was at least what I was probably trying to gather from the total -- what it seems, publically... Total raises, and kind of painting a picture or a position for Npm, prior to moving on to the next -- I would say a much bigger topic is hiring a CEO, and what that means for you... Because a lot of the story we have covered, you've been not only leading product, but also leading as a CEO, which straddling those two lines is super-difficult.
 
-\[00:40:03.22\] Something you had said actually in your announcement post was basically you said being -- I'm gonna go back to where... You said "One piece of advice I got as a founding CEO of a startup was to start planning your transition and less to be planned for you, so... It seems like this is a big deal for you, obviously. You've personally penned a post deeply about it, which I've just quoted from... So help us understand why this was such an important stage for Npm.
+\[40:03\] Something you had said actually in your announcement post was basically you said being -- I'm gonna go back to where... You said "One piece of advice I got as a founding CEO of a startup was to start planning your transition and less to be planned for you, so... It seems like this is a big deal for you, obviously. You've personally penned a post deeply about it, which I've just quoted from... So help us understand why this was such an important stage for Npm.
 
 **Isaac Schlueter:** Sure, sure. Yeah, people really responded to that post. It's one of those things where I just kind of was like, "Oh, I should say something", and I just kind of wrote a rough draft, and... I think one of our marketing people was like "Oh, this thing kind of sounds weird. Maybe restructure that sentence", and other than that, it went out as is.
 
@@ -244,7 +244,7 @@ He has to have trust in the company and in what I've built and what I've done so
 
 But it's almost like the company equivalent of a heart transplant, or something. It's like, "Yeah, it might go good, it might be life-saving, but it is not a small thing. It's painful and big." And there was some pressure from our investors... I think some of our investors were like, "You know, you seem to be doing an okay job, but here's what you need... Maybe you need to hire a COO, or hire somebody to run marketing, or somebody to run sales..."
 
-\[00:44:11.24\] And we had tried some of those things, and ultimately what made the decision was like "I'm not having fun doing this." I'm not having fun being everyone's boss, I'm not having fun being responsible for our go-to-market plan, and stuff... I'm happy to participate in those things, of course; I have very strong feelings about our messaging and positioning and everything else, but gosh, it's just so much work... All of the operational stuff, and all of the company interdepartmental communication lines and everything else is just not my forte. I could learn it, I can do it; it's not rocket surgery, as they say, but what that means is what I'm not doing is I'm not spending my time thinking deeply about our product, and really figuring out "Where does our product need to be? Where do we need it to go? How are we going to change JavaScript next? If we release this or that feature, what impact is that gonna have and how do we skate ahead of the puck?", or whatever sports metaphor... Run ahead of the ball, I don't know.
+\[44:11\] And we had tried some of those things, and ultimately what made the decision was like "I'm not having fun doing this." I'm not having fun being everyone's boss, I'm not having fun being responsible for our go-to-market plan, and stuff... I'm happy to participate in those things, of course; I have very strong feelings about our messaging and positioning and everything else, but gosh, it's just so much work... All of the operational stuff, and all of the company interdepartmental communication lines and everything else is just not my forte. I could learn it, I can do it; it's not rocket surgery, as they say, but what that means is what I'm not doing is I'm not spending my time thinking deeply about our product, and really figuring out "Where does our product need to be? Where do we need it to go? How are we going to change JavaScript next? If we release this or that feature, what impact is that gonna have and how do we skate ahead of the puck?", or whatever sports metaphor... Run ahead of the ball, I don't know.
 
 **Adam Stacoviak:** The hockey one was good...
 
@@ -270,7 +270,7 @@ What I didn't wanna do is hire somebody who's gonna go very effectively sell thi
 
 **Adam Stacoviak:** It's the box, from Silicon Valley.
 
-**Isaac Schlueter:** \[00:47:55.20\] \[laughs\] Exactly, exactly. I didn't wanna reimagine the entire company around this approach, this product approach that I fundamentally no longer believed in... I was like, actually what we need to do is pivot and change our direction a little bit, and focus on this other direction. And then there were some folks who I think really did get it, but were kind of on the fence... And yeah, again, I think a lot of it is like -- you know, they were looking at this and saying, "Well, I can spend my time figuring out what your product needs to be, or I can spend my time running your company, but I can't do both, so... I'm gonna go somewhere else."
+**Isaac Schlueter:** \[47:55\] \[laughs\] Exactly, exactly. I didn't wanna reimagine the entire company around this approach, this product approach that I fundamentally no longer believed in... I was like, actually what we need to do is pivot and change our direction a little bit, and focus on this other direction. And then there were some folks who I think really did get it, but were kind of on the fence... And yeah, again, I think a lot of it is like -- you know, they were looking at this and saying, "Well, I can spend my time figuring out what your product needs to be, or I can spend my time running your company, but I can't do both, so... I'm gonna go somewhere else."
 
 So we did a six-week -- we actually commissioned one of the people who passed on the CEO search to do a six-week market research and marketing customer research project with us, and that's kind of where we landed on like "Look, we need to get into security, we need to be a SaaS, we need to be the thing that serves the interest of the IT and security teams at enterprises, rather than just the thing for developers." Because are uniquely situated to be able to offer a security tool that doesn't cause more friction for developers. And that I think is a pretty unique opportunity, a pretty unique thing in the dev tools space.
 
@@ -296,7 +296,7 @@ So beginning of 2018 I believe we released Npm Audit, which was kind of like NSP
 
 **Isaac Schlueter:** \[laughs\] Right, right...
 
-**Adam Stacoviak:** \[00:52:22.02\] So how do you move forward without ruining things?
+**Adam Stacoviak:** \[52:22\] So how do you move forward without ruining things?
 
 **Isaac Schlueter:** Npm is actually really interesting, because there are opportunities to provide very, very compelling enterprise tools that don't ruin our community, that don't actually harm the open source users. There's not a ton of open source companies like that. There's usually some kind of contention, especially if you're talking about an open source project that's delivered as a standalone executable. You kind of have one classic example of this, the way that MySQL was dual-licensed for a long time. I forget now... There was like MySQL and then MySQL AB, or something, or MySQL BC... Anyway, there was the commercial version and the open source version. The open source version was GPL; if you want that non-GPL version, you have to pay money.
 
@@ -312,7 +312,7 @@ With Npm, we don't even have to hold anything back. The open source tool can hav
 
 **Isaac Schlueter:** Absolutely, absolutely. And it's actually competitive, because now people who are providing alternative registries, who are competing with us - they have to either seem a little foolish, because they don't support the whole feature set, or they have to be spending time and energy scrambling to keep up with us, and we're sort of always fundamentally in the lead, and really taking advantage of our privileged position there.
 
-\[00:56:10.18\] But the other thing about it - there are features that open source users fundamentally don't need out of their registry service. They don't need private packages, for instance. They don't need the single sign-on, and management and policy compliance stuff that you're gonna see inside of really large enterprises.
+\[56:10\] But the other thing about it - there are features that open source users fundamentally don't need out of their registry service. They don't need private packages, for instance. They don't need the single sign-on, and management and policy compliance stuff that you're gonna see inside of really large enterprises.
 
 There are certainly some arbitrary lines to be drawn. I think GitHub just recently started giving away private repositories for unpaid users, which I think is interesting. They limit the number of repositories you can have. All of their free users get now three private repos, and I can see us doing something similar to that, and continuing to evolve where those lines are drawn, but fundamentally, the needs -- there are needs that a large enterprise of 1,500 developers... They absolutely need a way to say "Here are 25 different projects, and I need to see what's going on in all of them." Nobody needs to know all of the things that are going on in all of the open source projects. That's just -- you couldn't, a. And b, it's not really reasonable to want that.
 

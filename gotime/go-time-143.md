@@ -38,7 +38,7 @@
 
 **Isobel Redelmeier:** ...it's a different kind of rhythm from the job search one.
 
-**Mat Ryer:** \[00:03:56.11\] Yeah, that's cool.
+**Mat Ryer:** \[03:56\] Yeah, that's cool.
 
 **Isobel Redelmeier:** Or the visa wait one also...
 
@@ -68,7 +68,7 @@ And the way you implement it is actually interesting, because the idea is that y
 
 So as a function, if I receive a context, maybe in that context there's some value that one of the functions I'm gonna be calling will retrieve. I don't even need to know about that. So it's those sides, like cancellation, and then kind of a generic way of passing data that you don't care about.
 
-**Jaana Dogan:** \[00:07:54.26\] Can we say, in a way, that in the critical path of a user request you are going through a lot of different things, right? It could be a lot of microservices, or in the same microservice you may be bouncing between different goroutines. Some work may be getting done in our goroutine, and some of the other one is just getting done... So in order to coordinate all that work, we sometimes need to pass some values, as well as need to single some lifecycle-related events such as cancellation... Because let's say that if the user cancelled some task, all the lower-end services might have received some incoming request to do some work about it... But we already know at the higher level service that it's just not required anymore, so you may wanna propagate that signal to cancel all the work.
+**Jaana Dogan:** \[07:54\] Can we say, in a way, that in the critical path of a user request you are going through a lot of different things, right? It could be a lot of microservices, or in the same microservice you may be bouncing between different goroutines. Some work may be getting done in our goroutine, and some of the other one is just getting done... So in order to coordinate all that work, we sometimes need to pass some values, as well as need to single some lifecycle-related events such as cancellation... Because let's say that if the user cancelled some task, all the lower-end services might have received some incoming request to do some work about it... But we already know at the higher level service that it's just not required anymore, so you may wanna propagate that signal to cancel all the work.
 
 It also applies within the same process. You're sharing some work between multiple goroutines, for example, and then you wanna just cancel all that work, because we already received some additional signal that that work is not required anymore.
 
@@ -90,7 +90,7 @@ But that is completely unrelated to the fact that maybe that request should be c
 
 **Mat Ryer:** Yeah, you're right. It's interesting that this is something that's quite unusual in Go, because it is serving multiple purposes, isn't it? And you probably could actually, just by having values, have a channel in there which you could close, and stuff... But having it as part of this sort of official API does solve quite a nice, broad range of problems for people. And I always think, like, if you're not sure what to do with the context, if you're working on some codebase, you really just sort of pass it around; if there's anything you're gonna call that takes a context, give it the one that you've got if you don't care anything else, if you don't wanna manage the lifecycle in any way.
 
-\[00:12:13.13\] Sometimes it is useful to -- say you're gonna make a third-party API call; you might decide "I'm only gonna wait one second, and then if not, I'm gonna fall back and use some cached version, or something like that..." And then you can create a context from another context. So does that create a kind of tree structure then?
+\[12:13\] Sometimes it is useful to -- say you're gonna make a third-party API call; you might decide "I'm only gonna wait one second, and then if not, I'm gonna fall back and use some cached version, or something like that..." And then you can create a context from another context. So does that create a kind of tree structure then?
 
 **Francesc Campoy:** Yeah, totally. That's the idea. For instance, when I tell you to do something, and you go and ask three other people to do something else, because you need those things so you can do the thing I asked you to do, once I say "Oh, I don't care about it anymore", you should also let others know that it is not necessary to continue. And cancellation -- creating those contexts provides that.
 
@@ -112,7 +112,7 @@ The interesting thing is that implementation-wise, that's also how it works. Wha
 
 **Mat Ryer:** Why not?
 
-**Francesc Campoy:** \[00:15:52.06\] Because when you export it, people will mess with it. The whole idea is -- like, Context can contain so much stuff that if you allow people to start using it, then you're gonna start getting really weird designs. You could do something that -- it could say "This random package is gonna start depending on another package having introduced a value", and things like this, and now you have these weird dependencies across packages that are not code dependencies. It's not in the code. There's no imports or anything, it just happens to expect things. It would end up being like dependency hell, but in a slightly different way, all inside of the context.
+**Francesc Campoy:** \[15:52\] Because when you export it, people will mess with it. The whole idea is -- like, Context can contain so much stuff that if you allow people to start using it, then you're gonna start getting really weird designs. You could do something that -- it could say "This random package is gonna start depending on another package having introduced a value", and things like this, and now you have these weird dependencies across packages that are not code dependencies. It's not in the code. There's no imports or anything, it just happens to expect things. It would end up being like dependency hell, but in a slightly different way, all inside of the context.
 
 So I would say that instead of doing that -- for login, for instance, I've recently created this little Login package, and what it does is actually... So for an HTTP request, it will get the context from the request, and do something like logger.width... I don't even know, from context or something like that... And it will put in the context the key that is private and no one else can find, with the value of my logger. And then when you want to retrieve it somewhere else, you do it from Context and you pass that context, and that will give you a context with the right type. So that way you avoid collision, and also you avoid having to do that conversion, the type conversion from empty interface to whatever type you're actually using.
 
@@ -136,7 +136,7 @@ So I would say that instead of doing that -- for login, for instance, I've recen
 
 **Isobel Redelmeier:** Exactly. And a similar thing with deadlines, where if you have, let's say, a job that has a bunch of serial tasks, so you want the whole thing to take one minute, but you want each task to take no longer than five seconds, then you can say "Okay, each of these gets its own deadline that is the sooner of five seconds from now, or the end of that initial one-minute deadline."
 
-**Mat Ryer:** \[00:20:17.02\] That's really cool. And you do that by using those functions on the Context package, don't you? And you pass in the parent one every time.
+**Mat Ryer:** \[20:17\] That's really cool. And you do that by using those functions on the Context package, don't you? And you pass in the parent one every time.
 
 **Isobel Redelmeier:** Mm-hm.
 
@@ -180,7 +180,7 @@ So I would say that instead of doing that -- for login, for instance, I've recen
 
 **Francesc Campoy:** The first thing is you should get the context. So if you're getting it from a function call and you have the first parameter, it should always be the first parameter for no reason, really, other than that's how we do it. But yeah, you should receive it and do something with it. If you are not receiving it, it doesn't mean that there's no context. It might be that you are missing it out, and that's something that lots of people miss - the fact that when you have an HTTP handler, there's a context in there. You don't see it directly, because it's actually hidden behind the HTTP request.
 
-\[00:24:17.20\] So if you do request.context, then you get the context. And that was actually done this way because if we had added the context at the beginning of the handler as an extra parameter, then we would have broken every single interface of the HTTP package, which would have been sad.
+\[24:17\] So if you do request.context, then you get the context. And that was actually done this way because if we had added the context at the beginning of the handler as an extra parameter, then we would have broken every single interface of the HTTP package, which would have been sad.
 
 So that's how you do it... I would say the first thing is make sure you use it, and that you get that context, and then the next is check whether it's canceled or not. And the good thing is that basically the way you do it is just getting a -- it's just a channel. So you do a select statement, as you were doing it from a channel; it's like, I might either receive that context cancellation, or something else might happen. So you need to change a little bit your code, and if you've never done that it's a little bit confusing, but the idea is that you should have the path that that's the thing that you actually want to do in the path that handles the cancellation.
 
@@ -218,7 +218,7 @@ It also seems to be kind of giving a lot of trouble for some people, just becaus
 
 But yeah, what I wanted to say is it is a challenge for people, because they don't know the history, and it was more of like a later thought. So I was saying if you're starting a new language, think about how you're going to be handling context propagation at the very earlier day, because it has a real impact on the library ecosystem.
 
-**Isobel Redelmeier:** \[00:28:05.06\] Very much so. And I think someone else mentioned earlier that, for example, Java has ThreadLocal variables. The problem that you run into with any language that has ThreadLocal variables, let alone only global variables, is that at some point likely someone is going to want something that is finer-grained than threads. Goroutines are one example of this; it's probably familiar to most of the audience here. But then other languages like let's say Python, for example, have things like futures, which are, again, different from threads. So Python handled this by adding context local variables after the fact. But then if you're writing a library, you still have to handle the case of something maybe having something not yet supporting context local variables.
+**Isobel Redelmeier:** \[28:05\] Very much so. And I think someone else mentioned earlier that, for example, Java has ThreadLocal variables. The problem that you run into with any language that has ThreadLocal variables, let alone only global variables, is that at some point likely someone is going to want something that is finer-grained than threads. Goroutines are one example of this; it's probably familiar to most of the audience here. But then other languages like let's say Python, for example, have things like futures, which are, again, different from threads. So Python handled this by adding context local variables after the fact. But then if you're writing a library, you still have to handle the case of something maybe having something not yet supporting context local variables.
 
 **Jaana Dogan:** Yeah. Actually, I have a follow-up question on that. So we have explicit context propagation with the context objects in many languages; actually, context propagation is implicit. How does that, in your experience, affect people's awareness around there is TLS, or context propagation, there is maybe signals that you can kind of like use to cancel, or you can propagate some values...
 
@@ -238,7 +238,7 @@ I've seen this a lot with languages that have request local variables where peop
 
 **Francesc Campoy:** Yeah, but you could somehow fake that in Go. You could have a request object, and then add more and more fields as you go. Then each handler kind of creates a request object, and then calls something... And all of those are methods. So you always keep that context. You can always access it. But if you do that, you're gonna write code that is so hard to test, because you're gonna have this object thing that goes on over and over. That's why I was like, if you're writing code that uses context, most of the time you actually do not have access to anything in that context, unless you know what you want.
 
-\[00:32:13.19\] So you cannot be broken by things that you don't have access to, so it makes it a little bit easier by making me more restrictive. It actually makes it so it's harder to misuse. And I feel like that's something that Go tries to do all of the time - to make things easy to use, but even more important, hard to misuse, and this is an example of that.
+\[32:13\] So you cannot be broken by things that you don't have access to, so it makes it a little bit easier by making me more restrictive. It actually makes it so it's harder to misuse. And I feel like that's something that Go tries to do all of the time - to make things easy to use, but even more important, hard to misuse, and this is an example of that.
 
 **Isobel Redelmeier:** "God object" is a pretty searchable term these days, I believe... If you want more articles on people talking about the woes they can cause.
 
@@ -248,9 +248,9 @@ I've seen this a lot with languages that have request local variables where peop
 
 So if your parallelization is using something that maps nicely to your context local variable type, like futures that are aware of context local variables, then you've got it for free. However, if you have something that -- if you're using, let's say, futures, and you only have ThreadLocal variables, then again, there's this mismap, so you need to add a lock or something in order to ensure, again, that you're not clobbering state across one another. It's kind of that same classic global variable problem, and sometimes it's better mitigated, sometimes it's really not.
 
-**Break:** \[00:34:27.29\]
+**Break:** \[34:27\]
 
-**Mat Ryer:** \[00:35:56.02\] So we've talked about Context in an HTTP context... So we can access the context method on the HTTP request, and we can also use with context on that to get a new request, if we want to set the context in a request. Are there other places -- one thing I'm thinking is I actually use Context in my normal tools in Go, in command line tools, and I have the signal, the Ctrl+C signal - interrupt - to actually cancel the context... And that turns out to be quite a nice pattern. Does that break the rules a little bit? Some people think that you should only be using it in a kind of request-response world, but then maybe CLIs are kind of request-response.
+**Mat Ryer:** \[35:56\] So we've talked about Context in an HTTP context... So we can access the context method on the HTTP request, and we can also use with context on that to get a new request, if we want to set the context in a request. Are there other places -- one thing I'm thinking is I actually use Context in my normal tools in Go, in command line tools, and I have the signal, the Ctrl+C signal - interrupt - to actually cancel the context... And that turns out to be quite a nice pattern. Does that break the rules a little bit? Some people think that you should only be using it in a kind of request-response world, but then maybe CLIs are kind of request-response.
 
 **Isobel Redelmeier:** I would consider them request-response. Slight side note - Dave Cheney has a couple parallel articles; one is called "Context is for cancellation", and the other is called "Context isn't for cancellation."
 
@@ -274,7 +274,7 @@ Those are small things that you can get a lot of performance, especially when yo
 
 **Isobel Redelmeier:** And for those unfamiliar with tail latency and its implications, what can happen is that you have what's called a long tail, where some small percentage of your requests take all of the time, and often almost all of the times a lot of the resources. So rather than letting them take all of the resources, instead cancel them, it can actually improve your throughput by freeing up those resources for the faster requests.
 
-**Mat Ryer:** \[00:40:02.00\] That's brilliant. Why is one of them taking a minute? What's it doing?
+**Mat Ryer:** \[40:02\] That's brilliant. Why is one of them taking a minute? What's it doing?
 
 **Francesc Campoy:** It's \[unintelligible 00:40:04.06\] sleeps 60 seconds.
 
@@ -320,7 +320,7 @@ That was an interesting solution to how we could actually add context support to
 
 **Jaana Dogan:** I was about to give that as an example... Lots of people are asking, for example, this particular thing - how can you get rid of a goroutine once you're done, or whatever? What is the most canonical API? One way to do this is actually using cancel. If you have this infinite select, for example; you start a goroutine, there's an infinite select, whatever - you can just basically rely on that. I'm not sure if I was following your example, Mat, but was it something like that? Like, you had some task, and just basically using cancellation as a way to signal that cancellation and lifecycle events?
 
-**Mat Ryer:** \[00:44:21.08\] Yeah, it was... Because you can call the error method, can't you? The err. You can call that anytime.
+**Mat Ryer:** \[44:21\] Yeah, it was... Because you can call the error method, can't you? The err. You can call that anytime.
 
 **Isobel Redelmeier:** That and done.
 
@@ -360,7 +360,7 @@ Yeah, it's quite simple, and very easy to read. It's just normal Go code, which 
 
 **Francesc Campoy:** There's that cool thing about -- oh, is it about this topic, or...? Because I have another topic that I think is kind of interesting.
 
-**Mat Ryer:** \[00:47:57.28\] Yeah, go for it. I've forgotten... You snooze, you lose.
+**Mat Ryer:** \[47:57\] Yeah, go for it. I've forgotten... You snooze, you lose.
 
 **Francesc Campoy:** Okay. \[laughs\] So yeah, it's like - why is there context.TODO?
 
@@ -390,7 +390,7 @@ Context.TODO was added just so as different functions -- like, you're creating a
 
 **Jaana Dogan:** If it's just strings, if it's just primitive stuff - yes, the print will tell you something. But in most cases - in my cases, for example, it's either another struct, and it doesn't provide you a nice string, then yes, it's getting harder to use it as a diagnostic tool.
 
-**Mat Ryer:** \[00:52:12.00\] Yeah, you probably can't, no. But I've seen it for at least telling you the type of that context, and things... Because often you pass around the .context interface, and sometimes -- well, hopefully not, but...
+**Mat Ryer:** \[52:12\] Yeah, you probably can't, no. But I've seen it for at least telling you the type of that context, and things... Because often you pass around the .context interface, and sometimes -- well, hopefully not, but...
 
 **Francesc Campoy:** Yeah, I actually tried it, and it's kind of cool, the way it prints it. I just wrote a little program that calls context.Background, and then I add a value... It was like key is one, and value is two, and then I print that. And what it prints is context.Background.withValue, and then the value inside. So it kind of creates this linked list of like what are the things that you obtain, and prints it... They key is type int, so it doesn't tell me what key it is, and the value is "not a stringer". That's what it says... So yeah.
 
@@ -414,7 +414,7 @@ Context.TODO was added just so as different functions -- like, you're creating a
 
 **Isobel Redelmeier:** Yeah.
 
-**Break:** \[00:53:55.20\]
+**Break:** \[53:55\]
 
 **Mat Ryer:** Well, before we call cancel on the context of this episode, it's time for Unpopular Opinions! So let's hear them... Does anybody have an unpopular opinion this week?
 
@@ -426,7 +426,7 @@ Context.TODO was added just so as different functions -- like, you're creating a
 
 **Mat Ryer:** Why are you defending him all the time?
 
-**Isobel Redelmeier:** \[00:55:43.17\] Well, I've seen a lot of people switch, in my opinion, prematurely to protobufs in particular, sometimes to a thrift, where you just change from one problem to another... And especially for anything that is used externally to your company, so for example open source code, protobufs can get very complicated, especially if you're exposing something that is going to be used across multiple languages. So... Nice to use in Go, not necessarily as nice to use in Ruby, for example, or in PHP.
+**Isobel Redelmeier:** \[55:43\] Well, I've seen a lot of people switch, in my opinion, prematurely to protobufs in particular, sometimes to a thrift, where you just change from one problem to another... And especially for anything that is used externally to your company, so for example open source code, protobufs can get very complicated, especially if you're exposing something that is going to be used across multiple languages. So... Nice to use in Go, not necessarily as nice to use in Ruby, for example, or in PHP.
 
 **Mat Ryer:** Yeah, or indeed a web browser.
 

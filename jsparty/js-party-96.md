@@ -20,7 +20,7 @@ It made quite a splash when you announced it last month, Atul. So we heard where
 
 **Atul R:** Basically, where the story began is that I wanted to build a music player; I was in my home, and on my computer I primarily use Linux, and on my work computer I use Mac, but I wanted something that would work on both... So I set out for something that works nicely for me, but there was nothing. I wanted a small music player widget, which would just lie around on the right side and play my favorite music.
 
-\[00:04:05.01\] I started building it out around a year and a half with Electron. I could build it out, I finished it, but the problem was that it started using a lot of CPU and memory on the side... And I was basically stuck, because I can't just play a music player and not do anything else on the side; that doesn't work.
+\[04:05\] I started building it out around a year and a half with Electron. I could build it out, I finished it, but the problem was that it started using a lot of CPU and memory on the side... And I was basically stuck, because I can't just play a music player and not do anything else on the side; that doesn't work.
 
 I set out looking for other alternatives, but couldn't find anything which is really optimal... So I started building a small framework, which was NodeGUI. Back at that time I used to also work with Qt on my free time. Qt is basically a C++ framework to build cross-platform native desktop applications. The thing with Qt is that it's not as easy to work with, because it's C++, so you have to handle all the pointers and memory issues and everything... So I started creating a wrapper around it so that I could export it to JavaScript.
 
@@ -40,7 +40,7 @@ So yeah, based on that inspiration, I -- it follows kind of a similar architectu
 
 **Atul R:** Yeah, so Qt is basically a cross-platform C++ framework, so it basically renders all your widgets on the native code. For example, on the operating system OS X it would render something with Cocoa framework... Things like that. But it also has a web browser engine, which I'm not using right now. But I will have a Web View component soon on NodeGUI itself.
 
-\[00:08:04.15\] Currently, what it does is something like what React Native does - it runs the JavaScript code, but in the end it makes native calls to the native APIs to generate native widgets on the fly.
+\[08:04\] Currently, what it does is something like what React Native does - it runs the JavaScript code, but in the end it makes native calls to the native APIs to generate native widgets on the fly.
 
 **Nick Nisi:** Okay.
 
@@ -74,7 +74,7 @@ And why I chose React is basically I am mostly familiar with React, but there is
 
 **Nick Nisi:** You mentioned one of the main reasons that you set off on this quest was because of the performance issues with Electron, and specifically being v8-based under that... What other insights have you seen since creating this, over something like Electron or React Native?
 
-**Atul R:** \[00:11:37.04\] When I set out to build this, initially I thought it would be kind of simple; I could just export out Qt's widgets outside and make a Node.js native add-on... But it wasn't simple, because every GUI system has its own message loop or event loop, and Node.js has its own event loop. So if you want two loops to work in a single thread, it's kind of impossible... So in order to merge them into a single loop, that's where Electron's architecture came into play. I basically followed what Electron does under the hood, they merge Chormium's event loop and the Node.js event loop together to form a single event loop that works for both. Similarly, NodeGUI merges both Node.js and Qt's event loop to form a unified thing.
+**Atul R:** \[11:37\] When I set out to build this, initially I thought it would be kind of simple; I could just export out Qt's widgets outside and make a Node.js native add-on... But it wasn't simple, because every GUI system has its own message loop or event loop, and Node.js has its own event loop. So if you want two loops to work in a single thread, it's kind of impossible... So in order to merge them into a single loop, that's where Electron's architecture came into play. I basically followed what Electron does under the hood, they merge Chormium's event loop and the Node.js event loop together to form a single event loop that works for both. Similarly, NodeGUI merges both Node.js and Qt's event loop to form a unified thing.
 
 The best part of this is in most cases when the application is not in use, you would actually see a 0% CPU use with the applications that you build with NodeGUI, which is a super-plus, because it saves a lot of battery on laptops and everything. Other than that, for a simple Hello World app it will be around 20 MB of RAM, and there's only one thread running. So you don't see a helper thread running, like in the case of Electron or Chromium or Chrome, right? it's just one thread, one application running, with 20 MB of RAM, and a 0% or 1%-2% of CPU.
 
@@ -86,9 +86,9 @@ The best part of this is in most cases when the application is not in use, you w
 
 **Atul R:** Yes, exactly. That's also where React comes in; you could port out your components separately, and then it would work like nothing happened.
 
-**Break:** \[00:14:45.21\]
+**Break:** \[14:45\]
 
-**Jerod Santo:** \[00:15:33.00\] Let's talk a little bit about cross-platform frameworks... Because they have a long history, and some people have had success with them. I think Electron has been one of the most successful, definitely in the JavaScript space. But in general, a lot of these things have been developed, and tried, and sometimes left behind, sometimes stuck with it... There's problems that they present, and it almost all falls back on Qt, I think, in the place of NodeGUI, but I'd be interested to hear your thoughts on it. You have the problem of lowest common denominator, application abilities, like how you access APIs in the native OSes... You have sometimes the uncanny valley of UI, where it looks pretty much like it belongs, but it doesn't actually look like it belongs; it's close, but it's kind of like weird, especially with windowing, and widgets and stuff... Other issues that prop up when you're building one piece of code to present on multiple platforms. So I'm curious how NodeGUI stacks up in that direction, and just your thoughts on that in general.
+**Jerod Santo:** \[15:33\] Let's talk a little bit about cross-platform frameworks... Because they have a long history, and some people have had success with them. I think Electron has been one of the most successful, definitely in the JavaScript space. But in general, a lot of these things have been developed, and tried, and sometimes left behind, sometimes stuck with it... There's problems that they present, and it almost all falls back on Qt, I think, in the place of NodeGUI, but I'd be interested to hear your thoughts on it. You have the problem of lowest common denominator, application abilities, like how you access APIs in the native OSes... You have sometimes the uncanny valley of UI, where it looks pretty much like it belongs, but it doesn't actually look like it belongs; it's close, but it's kind of like weird, especially with windowing, and widgets and stuff... Other issues that prop up when you're building one piece of code to present on multiple platforms. So I'm curious how NodeGUI stacks up in that direction, and just your thoughts on that in general.
 
 **Atul R:** Yeah, one of the main reasons why I chose Qt was the same thing. When I used other frameworks out there to build out the desktop applications that I wanted, I couldn't style them to my needs. For example, they always gave me the native look, but sometimes I want to build something which is very custom... So what Qt does is it allows you to paint over the native widget itself. You could customize it to whatever you like. The same way that you do it on web - you could just style your buttons to look whatever you like using CSS, similarly you could do it with NodeGUI. So you could make it look like a mobile app, or you can make a macOS app look like a Windows app, for example. That kind of flexibility allows me to build any kind of styling or UI that I want.
 
@@ -106,7 +106,7 @@ React Native also uses something called Yoga, which is a layouting library; it a
 
 **Atul R:** Yeah, Qt also supports mobile applications, but currently I haven't exported those functionalities to NodeGUI yet. But maybe... But I feel that React Native does a really good job in the end, and I really do not want to reinvent the wheel... But I want to match React NodeGUI's API to as close as possible to React Native, so that you could write the same codebase, and you could basically get out a mobile application to React Native also, so that way you don't reinvent the wheel too much. But Qt does support mobile applications as well, so it might not be too hard to export it.
 
-**Jerod Santo:** \[00:19:48.04\] Do we know any public codebases, or even just maybe private codebases but publicly-known companies who are using Electron in such a fashion, where they have a desktop application in Electron and then they have a React Native application that's running from at least a shared codebase? Maybe they have separate aspects, but similar code... I'm asking both of you all; I don't know the answer to this. I'm just curious if that's a thing people are doing.
+**Jerod Santo:** \[19:48\] Do we know any public codebases, or even just maybe private codebases but publicly-known companies who are using Electron in such a fashion, where they have a desktop application in Electron and then they have a React Native application that's running from at least a shared codebase? Maybe they have separate aspects, but similar code... I'm asking both of you all; I don't know the answer to this. I'm just curious if that's a thing people are doing.
 
 **Atul R:** I'm not sure as well. I don't know what Slack's mobile app is based on. We'd have to see.
 
@@ -130,7 +130,7 @@ React Native also uses something called Yoga, which is a layouting library; it a
 
 **Atul R:** The debugging story is pretty similar to what you are used to in Node.js. You could set up breakpoints and everything by just calling it with --inspect on the JavaScript side. But even on the C++ side you have some part of debugging, because C++ supports something called as GDB. So even in VS Code you have GDB plugins which you can just plug in and you can debug your actual C++ code inside of NodeGUI, while you're working on it... If you want to do it, that is; otherwise, you could always inspect on the JavaScript side by using regular Node debugging tools, like Node Inspector, or things like that.
 
-**Nick Nisi:** \[00:24:18.28\] Yeah, nice.
+**Nick Nisi:** \[24:18\] Yeah, nice.
 
 **Atul R:** So you can just think of NodeGUI as a Node.js add-on that can exchange into Node.js, so that way you could use all the tools that Node.js supports for debugging.
 
@@ -144,9 +144,9 @@ The only thing is while packaging a unit, to make sure that the Node add-ons tha
 
 **Atul R:** Yeah, so I haven't really looked into it yet, because it's just a month since I've launched this... But yeah, I'm actually looking into it. But it is using the standard -- Qt provided these packaging libraries which I use, so they should be compatible, because Qt already takes care of those. But I would have to actually submit an application and then see if it actually works.
 
-**Break:** \[00:25:52.08\]
+**Break:** \[25:52\]
 
-**Jerod Santo:** \[00:26:45.00\] So far, Atul, it's sounding pretty awesome. Are there dragons anywhere, or is it all just rainbows and unicorns? Are there any gotchas, or drawbacks, or things that people will run into and be like "Oh, it sounded so great on JS Party, but now I've found this out"? Where would be the dragons?
+**Jerod Santo:** \[26:45\] So far, Atul, it's sounding pretty awesome. Are there dragons anywhere, or is it all just rainbows and unicorns? Are there any gotchas, or drawbacks, or things that people will run into and be like "Oh, it sounded so great on JS Party, but now I've found this out"? Where would be the dragons?
 
 **Atul R:** Yeah, so the first dragon would be that currently it's not packing any pre-compiled libraries. So when you run it, it's gonna compile all the C++ on a system. So it's going to be slow in the first run, but eventually it gets faster, because it gets cached, and stuff. But yeah, there is a pre-compilation step coming up soon that should solve that.
 
@@ -156,7 +156,7 @@ Other than that, another dragon I would say is that you're not getting all the c
 
 But yeah, there is a pretty good list of widgets already, which should be useful for most cases, but some cases (very specific ones) will not be solved yet.
 
-**Nick Nisi:** \[00:28:07.18\] Is the focus primarily right now on windowed applications? Is there any availability or future plans to support things like -- I'm thinking on Mac, like a menu bar, or more advanced things like...
+**Nick Nisi:** \[28:07\] Is the focus primarily right now on windowed applications? Is there any availability or future plans to support things like -- I'm thinking on Mac, like a menu bar, or more advanced things like...
 
 **Atul R:** Yeah. Like a service, right? Something like a Docker service. It is being currently worked on. We do have support for system tray icons that you see, but obviously the services part is not yet ready. You could basically create a system tray icon right now, but the menu part is being worked on, and should be out soon. I'm not making any big promises, but yeah, that is basically on the roadmap.
 
@@ -184,7 +184,7 @@ The main focus here is on Linux, and I use Linux personally for as a desktop pla
 
 **Jerod Santo:** \[laughs\] I think at this point it's kind of like -- what was that video game that came never came out? Duke Nukem Forever. It's kind of a running joke, but we know that Linux has made huge strides in mobile, just the desktop is still the niche nerdy environment that it always has been.
 
-\[00:32:09.15\] That being said, it's awesome to see a lead dev who is on Linux, because usually that's the reason why it would not get the attention that it deserves, and oftentimes it's just like "Well, what OS does the lead developer run?" and that's basically the one that's gonna get the most love, so... It's nice to see you on Linux.
+\[32:09\] That being said, it's awesome to see a lead dev who is on Linux, because usually that's the reason why it would not get the attention that it deserves, and oftentimes it's just like "Well, what OS does the lead developer run?" and that's basically the one that's gonna get the most love, so... It's nice to see you on Linux.
 
 **Atul R:** I think it's highly underrated. If you're gonna just jump in, you could like it as much as you like OS X. We just won't get a shiny application set that you get with OS X, but yeah... \[laughs\] I would change that with NodeGUI, let's see.
 

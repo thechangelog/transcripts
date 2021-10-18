@@ -18,7 +18,7 @@ And with us is Latifa. Latifa is a grad student out of Tanzania. She works with 
 
 **Amanda Ramcharan:** Yes, okay. Latifa is a grad student in molecular biology and biotechnology, and she's been really helpful to us to test the model and how the app works out in the field with sciences, as well as extension workers for agriculture, as well as farmers.
 
-**Daniel Whitenack:** \[00:03:56.08\] Awesome. I guess you met around this project, right? How did the project get started? Maybe just give us a little bit of an intro on what the project is and what you're trying to do.
+**Daniel Whitenack:** \[03:56\] Awesome. I guess you met around this project, right? How did the project get started? Maybe just give us a little bit of an intro on what the project is and what you're trying to do.
 
 **Amanda Ramcharan:** The foundation of PlantVillage is to make technology available to farmers... So make the latest technology available to farmers to improve food security globally. And one of the technologies right now with the highest potential is artificial intelligence and machine learning, and phones are a very prevalent technology right now across the globe, so we wanted to combine those two technologies to create tools that farmers can access to help them grow food better.
 
@@ -42,7 +42,7 @@ But one of the other important uses of cassava is we make the starch into flour 
 
 The main problem with the diseases that we have -- there are a lot of diseases but the main diseases, the two viral diseases, these are caused by viruses. One is the mosaic disease, we call it cassava mosaic disease. And basically, this affects the leaves of the plants and the leaves become destroyed to a point that it does not make enough food for the plant as it should be when it's healthy. And because it destroys the leaf and the plant does not grow very well, it becomes stunted, it doesn't grow, and it doesn't produce good roots. So when people come to harvest eventually, they find out they actually don't have enough roots or no roots at all.
 
-\[00:08:00.10\] With the other disease - it's called the brown streak disease. It's also a viral disease. This affects the leaves too, but the leaves are not destroyed. What it does, it actually destroys the roots. So when you harvest, you find roots, but when you cut the roots, they are rotten inside so they are useless. So it's either you don't have a product or you have a useless product.
+\[08:00\] With the other disease - it's called the brown streak disease. It's also a viral disease. This affects the leaves too, but the leaves are not destroyed. What it does, it actually destroys the roots. So when you harvest, you find roots, but when you cut the roots, they are rotten inside so they are useless. So it's either you don't have a product or you have a useless product.
 
 At the moment, there is no viable solution other than identifying the plants that are infected and those that are healthy, so that you can plant healthy plants, or remove those infected ones so the disease does not spread. But that's where the challenge is. Some of these symptoms for these diseases are difficult to identify, so sometimes people don't know their plants are infected until when they harvest and they realize they don't have any product that is useful.
 
@@ -70,7 +70,7 @@ At the moment, there is no viable solution other than identifying the plants tha
 
 **Daniel Whitenack:** Awesome. I guess we can steer things a little bit more on the AI side now. I'm really interested in some of the technical things around that. First off, I imagine that there was a problem of even finding cassava data to train your models. What was the process like in terms of starting out this project and even just finding the data that you needed to train these models?
 
-**Peter McCloskey:** \[00:11:48.17\] The data collection process actually took about two years, from the beginning of 2016 through October 2017. That was just like a mass photograph period where there was at least three trips – one before I came onto the project, my first two trips, where we just went to Tanzania with some cameras and spent anywhere between five and eight hours out in the field, just photographing leaves, coming back and sorting them out and making sure that what we thought we were photographing was what was actually there, in terms of the correct ground truth labels... Because that's one of the more difficult things too when you're dealing with any type of health or sciences, especially plant sciences. Correctly labeling the data is a really difficult process because of the different symptoms, looking differently on different varieties, and at different stages of the infection they look different, as well as having co-infections, so how you deal with that... So I would say the data collection process was probably the biggest, most intensive, hardest part of this project, because there is just no publicly available (especially) cassava data, and generally, plant disease datasets are not publicly available. So we had to build our own and then go through all of the troubleshooting and difficulties that come along with building our own dataset.
+**Peter McCloskey:** \[11:48\] The data collection process actually took about two years, from the beginning of 2016 through October 2017. That was just like a mass photograph period where there was at least three trips – one before I came onto the project, my first two trips, where we just went to Tanzania with some cameras and spent anywhere between five and eight hours out in the field, just photographing leaves, coming back and sorting them out and making sure that what we thought we were photographing was what was actually there, in terms of the correct ground truth labels... Because that's one of the more difficult things too when you're dealing with any type of health or sciences, especially plant sciences. Correctly labeling the data is a really difficult process because of the different symptoms, looking differently on different varieties, and at different stages of the infection they look different, as well as having co-infections, so how you deal with that... So I would say the data collection process was probably the biggest, most intensive, hardest part of this project, because there is just no publicly available (especially) cassava data, and generally, plant disease datasets are not publicly available. So we had to build our own and then go through all of the troubleshooting and difficulties that come along with building our own dataset.
 
 **Chris Benson:** So, a couple of follow-up questions on that. First of all, what kind of sample size did you have in terms of how big was the dataset that you used of those leaves?
 
@@ -88,7 +88,7 @@ At the moment, there is no viable solution other than identifying the plants tha
 
 **Amanda Ramcharan:** Exactly. It's part of a bigger role of PlantVillage, to have a dataset of images of all the plant diseases of the world.
 
-**Daniel Whitenack:** \[00:16:07.06\] Awesome. Are there other existing datasets that fit into this same category of diseased plants? I'm just not familiar enough with that field.
+**Daniel Whitenack:** \[16:07\] Awesome. Are there other existing datasets that fit into this same category of diseased plants? I'm just not familiar enough with that field.
 
 **Amanda Ramcharan:** There are a number of different international organizations that keep databases like this, but they're not open access.
 
@@ -114,7 +114,7 @@ At the moment, there is no viable solution other than identifying the plants tha
 
 With the new object detection models, the inference times stayed low, and the phones didn't heat up as fast, and the battery didn't drain as quickly. So that was a big change that we had to do. What was really nice about the object detection was you can really see how the model is working, because it draws these boxes around what it's classifying as a specific disease or problem, so in a way it's also teaching people using the app, "This is what I'm looking at and this is what this disease is."
 
-**Daniel Whitenack:** \[00:20:08.17\] Yeah, that's super interesting. It sounds like you started out thinking, "Oh, the thing to do is just really to tell them a "disease or not" classification", but really, you found a lot of value both operationally and in terms of teaching the people more, and bringing that intelligence to them as far as just detecting objects and disease portions of plants. That's super interesting.
+**Daniel Whitenack:** \[20:08\] Yeah, that's super interesting. It sounds like you started out thinking, "Oh, the thing to do is just really to tell them a "disease or not" classification", but really, you found a lot of value both operationally and in terms of teaching the people more, and bringing that intelligence to them as far as just detecting objects and disease portions of plants. That's super interesting.
 
 **Amanda Ramcharan:** Yeah, it was a win-win.
 
@@ -136,7 +136,7 @@ So then we started to get more nuanced into, "Okay, what are the metrics that we
 
 **Chris Benson:** As you were having to go through and decide exactly what the architecture of your model would be, and you know that you are deploying it into an area where you have a lot of mobile constraints around it, both from the device itself and maybe from the environment, how did that affect the decisions you made on what architectures to go with, whether you could utilize transfer learning or not, how many layers – that kind of thing? How did the environment affect your modeling decisions?
 
-**Amanda Ramcharan:** \[00:23:49.11\] Definitely we had to use transfer learning, because there was no way we can collect that many images to train a model from scratch with these specific disease classes. There's just not enough data out there; it will take a really long time. But then, we were really constrained to the MobileNet architecture, because the inference time is the shortest, it ran the fastest... We've also tried - and we're continuing to try - different ways to shrink other more complicated, deeper models... But we really got a good performance with the MobileNet architecture. It really worked for our test case. We didn't have to do a whole lot of extensive testing of different architectures for this specific cassava problem.
+**Amanda Ramcharan:** \[23:49\] Definitely we had to use transfer learning, because there was no way we can collect that many images to train a model from scratch with these specific disease classes. There's just not enough data out there; it will take a really long time. But then, we were really constrained to the MobileNet architecture, because the inference time is the shortest, it ran the fastest... We've also tried - and we're continuing to try - different ways to shrink other more complicated, deeper models... But we really got a good performance with the MobileNet architecture. It really worked for our test case. We didn't have to do a whole lot of extensive testing of different architectures for this specific cassava problem.
 
 **Chris Benson:** Did you have to remove layers or anything, just given the vast number of layers in MobileNet or anything? Or were you able to just take it as is, transfer that over and then train on top of it?
 
@@ -162,7 +162,7 @@ So then we started to get more nuanced into, "Okay, what are the metrics that we
 
 **Daniel Whitenack:** Yeah, just like incredible stuff... And of course, we will put the link to the featured video and his talk in the show notes for everyone to see... But that's just super cool. It was so awesome to see all of you guys there. Other than featuring you and bringing some publicity around it, were you able to foster some collaboration with Google on the project?
 
-**Amanda Ramcharan:** \[00:28:20.28\] Yeah, definitely. Some of the engineers at Google are our mentors. When we run into problems and we have different challenges, there are definitely a handful of engineers there that I reach out to to get their thoughts. They're super helpful all the time, they respond really quickly. They really like this project and like to help us out.
+**Amanda Ramcharan:** \[28:20\] Yeah, definitely. Some of the engineers at Google are our mentors. When we run into problems and we have different challenges, there are definitely a handful of engineers there that I reach out to to get their thoughts. They're super helpful all the time, they respond really quickly. They really like this project and like to help us out.
 
 **Daniel Whitenack:** Yeah, that's great. I don't necessarily bring that up to advertise Google, but I think it's great that they are supporting projects like this. Like you mentioned before, there's a lot of emphasis on malicious AI and all sorts of things, but this is so awesome to see a project like this and see at least some level of support among major industry companies around this sort of thing... It's just really encouraging.
 
@@ -184,7 +184,7 @@ So then we started to get more nuanced into, "Okay, what are the metrics that we
 
 **Latifa Mrisho:** So it's quite interesting actually, because the experts – we did a study with about ten experts, so groups of ten, and the experts, even though they're experts, their ability to identify the different diseases also varies, and many varies on how exposed they are to the symptoms, to the variety, and how long they've been working in the area. And then when you go to extension officers, the agricultural extension officers are more or less the same - if they had been exposed to these diseases, then they are more inclined to know and understand them. But those agricultural extension officers who have not been exposed to the diseases, they actually are sort of clueless.
 
-\[00:32:21.04\] More or less, it's the same for the farmers. So having a tool that it can educate and aid the extension worker to be able to do his job and help the farmers is going to help a lot more than just helping them to identify the diseases. It's also teaching them and giving them more expertise while they are learning and using the app.
+\[32:21\] More or less, it's the same for the farmers. So having a tool that it can educate and aid the extension worker to be able to do his job and help the farmers is going to help a lot more than just helping them to identify the diseases. It's also teaching them and giving them more expertise while they are learning and using the app.
 
 **Chris Benson:** That is super cool. I guess, as we start finishing up here, I wanted to ask all three of you to hop in... We hear so much these days in AI about people's concerns and worries and the downside of what AI may bring to humanity and to the world at large... But you guys are in the middle of doing some pretty amazing stuff - I just want to get a sense of what it feels like to know that you've been successful using AI in these contexts and how people react to that.
 
@@ -202,7 +202,7 @@ That's just great news and I think that I'm just naturally a cautious person; I'
 
 I think it's really important to re-emphasize that we're building a tool that helps people be better at their jobs, and we're not building a robot to take over their jobs and do all the farming for them... We're just trying to help them produce more food and live better lives, and adapt to that.
 
-\[00:36:00.09\] Our end goal is really to just teach farmers and spread knowledge... So they'll use our app for a couple of months, or a year, or a couple of seasons, and then hopefully they know what the disease symptoms look like and they don't need our app to show them... And so then we're educating farmers and eventually putting them off on their own, so they don't rely on us anymore and they can provide for themselves.
+\[36:00\] Our end goal is really to just teach farmers and spread knowledge... So they'll use our app for a couple of months, or a year, or a couple of seasons, and then hopefully they know what the disease symptoms look like and they don't need our app to show them... And so then we're educating farmers and eventually putting them off on their own, so they don't rely on us anymore and they can provide for themselves.
 
 **Chris Benson:** That's super cool. Latifa, how about yourself?
 
@@ -214,7 +214,7 @@ So, when you have a tool like that, a tool that can integrate what the experts k
 
 **Daniel Whitenack:** That's awesome, and I am super inspired. I think I should just take that recording of what Latifa just said and make sure that everyone in the industry listens to that at least once. It's such a great and inspiring challenge and encouragement as far as the talents that we have and the way that they can make a real impact on people around the world... It's just super encouraging and inspiring.
 
-**Chris Benson:** \[00:39:07.24\] I think that person making the Instagram filters is crying right now. \[laughter\]
+**Chris Benson:** \[39:07\] I think that person making the Instagram filters is crying right now. \[laughter\]
 
 **Daniel Whitenack:** Well, maybe they'll just make an Instagram filter now that detects cassava plants and labels them. \[laughter\] So the next tie-in is the Instagram plug-in. \[laughter\]
 

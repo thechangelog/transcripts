@@ -6,7 +6,7 @@
 
 **Ben Johnson:** Sure. I mean, I was fully expecting people to just rag on that... Actually, I expected people to not really even notice it, because it was buried at the bottom of a long readme at first... And it somehow made it to Hacker News. And honestly, I would say it was probably 95% supportive; just other people kind of saying "Oh yeah, I've totally been there, too. It's just a lot to take on, and take in changes, and trying to manage that thing."
 
-\[00:03:58.29\] And I really tried to distill it down to "What is my goal for this project?" and I like to make tools that are minimal. I have a fixed idea of what I wanna build. So for Litestream, I wanna run SQLite in production. And anything that doesn't really support that, any extra uses cases are just not that important to me... And I wanna make it as simple as possible.
+\[03:58\] And I really tried to distill it down to "What is my goal for this project?" and I like to make tools that are minimal. I have a fixed idea of what I wanna build. So for Litestream, I wanna run SQLite in production. And anything that doesn't really support that, any extra uses cases are just not that important to me... And I wanna make it as simple as possible.
 
 So I didn't really necessarily wanna make the biggest project or the fanciest project. I wanted to make something that just kind of works, and works well for what I'm doing. So I didn't see external contributions really moving the needle for that kind of thing.
 
@@ -24,7 +24,7 @@ Actually, another one that came up right after that was S3-compatible stores... 
 
 **Jerod Santo:** Yeah. Only Ben can write code, but everybody else can-- because the question is, if I don't want contributions, then it's like "Well, why did you open-source it?" But it's clear why you open-sourced it, because you do want participation, or community involvement, and all these things. It's just specifically you're writing the code for this project.
 
-**Ben Johnson:** \[00:07:57.10\] Yeah. And I think there's a lot around the actual direction of usability and how you want it to feel, how everything integrates together, that I think is easy to miss if you're an outside contributor just bringing in an initial PR into the project. And I think I could certainly get people up and running, explain to them why certain things go together, and certain things work in the way they do... But again, that's just a lot of overhead, that I'm not necessarily opposed to. But is that time better spent building the product and making it kind of gel a little better together?
+**Ben Johnson:** \[07:57\] Yeah. And I think there's a lot around the actual direction of usability and how you want it to feel, how everything integrates together, that I think is easy to miss if you're an outside contributor just bringing in an initial PR into the project. And I think I could certainly get people up and running, explain to them why certain things go together, and certain things work in the way they do... But again, that's just a lot of overhead, that I'm not necessarily opposed to. But is that time better spent building the product and making it kind of gel a little better together?
 
 And I guess from my side, I haven't gotten to that point where I need a second person to come on and really commit code in that kind of way.
 
@@ -46,7 +46,7 @@ I mean, not Litestream. Litestream doesn't actually overwrite your database, but
 
 **Jerod Santo:** I've heard it said often that code is a liability, and features are assets. But I've never heard anyone say "Features are liabilities." And I definitely see where you're coming from. With that being said, you're probably talking about the code of the features, the maintenance of the features, which are liabilities.
 
-**Ben Johnson:** \[00:12:17.12\] Features interact with each other, and the more that you have, those interactions really grow exponentially; or is it exponentially? Whatever, geometrically. Some kind of math equation where...
+**Ben Johnson:** \[12:17\] Features interact with each other, and the more that you have, those interactions really grow exponentially; or is it exponentially? Whatever, geometrically. Some kind of math equation where...
 
 **Jerod Santo:** There's multiplication...
 
@@ -82,7 +82,7 @@ I mean, not Litestream. Litestream doesn't actually overwrite your database, but
 
 **Jerod Santo:** I haven't had a successful project like you have been with BoltDB or any of the other stuff. I've had things where maybe it's my open source deal, or I would love the contributions but never quite got there... But I've gotten features - little ones or medium-sized ones - on a few projects, and for me it's always been like... I was giddy about it. But that's kind of like you get a dopamine hit, and it's enjoyable, and so you just do something quickly, because you're like "Yay! Somebody cares!" But then six months down the road you're like "Why did I do that...?" \[laughs\]
 
-**Ben Johnson:** \[00:16:02.03\] Yeah, for sure. I certainly still feel the same way when people submit issues on the project, or submit feature requests, and things like that, or wanna discuss it... I love talking about this stuff and working it out with people... But yeah, I totally agree, there could be some regret later on.
+**Ben Johnson:** \[16:02\] Yeah, for sure. I certainly still feel the same way when people submit issues on the project, or submit feature requests, and things like that, or wanna discuss it... I love talking about this stuff and working it out with people... But yeah, I totally agree, there could be some regret later on.
 
 **Jerod Santo:** Yeah. So when you made this choice, have you read Nadia Eghbal's "Working in Public", or have you been thinking about these things? Because the reason why I made the connection - I thought maybe you were inspired by that, because she said in that book, or on our podcast afterwards, that one of the things she's realized over this time researching and being part of open source, she realized that open source doesn't mean open participation, and it doesn't have to mean that. And that resonated with me, and when I saw your post, I thought "I wonder if maybe you have been inspired by that concept..." Or maybe you came up with this completely in a silo.
 
@@ -102,7 +102,7 @@ But I think what that comment from her did, and maybe probably what yours has do
 
 **Ben Johnson:** Yeah. I was thinking about this today... I feel like there's two kinds of projects out there - you have frameworks, and you have libraries, and there's kind of a debate out there, like "Do you build this big-scoped thing, say like a React or a Kubernetes?" Like, "I'm not gonna build that by myself." It's meant to have this huge, overarching scope that your application runs on top of, versus - you know, say you have a library or a tool that is kind of an incremental, small-scoped piece... And I don't like writing frameworks; that's just not my passion. I don't like those never-ending scoped projects. I like saying "Hey, here's a problem, and there's the solution", and build the tool for it. I feel like my favorite projects are those kinds of projects, and within those tools I feel like the best projects are those. They tend to have that benevolent dictator for life management around it.
 
-**Jerod Santo:** \[00:20:23.22\] So why do you do open source? What's your intrinsic reason?
+**Jerod Santo:** \[20:23\] So why do you do open source? What's your intrinsic reason?
 
 **Ben Johnson:** I would say it's twofold. I like the reach that open source has. When I wrote BoltDB, I had people say that I could monetize it; I don't have any idea how you monetize an embedded database like that, but I'm sure you could make more money than I did off of it, obviously. And to take that and then say "Hey, this is free for anybody to use" and it gets picked up by another project... Like, it got picked up by Etcd, and then Etcd got put into Kubernetes. It's crazy to think of the reach that BoltDB, while it's a small, small piece, is deployed in some of the largest companies in the world, helping to persist state in their Etcd cluster.
 
@@ -112,7 +112,7 @@ For example, Litestream is one of those problems I've always had, where I don't 
 
 So that kind of thing -- I worked on a project before that where I ported over a tool called Klee... It's this crazy code execution tool where basically it'll analyze your code and go through all the paths of the code, and you can do things where you can generate test cases from code, and it has a solver in the backend... Anyway, it does all these kind of crazy things. So I ported that over to use with Go. I spent a ton of time on that. I released it, but it was never really finished; I just wanted to try these new things, and kind of experiment and push my brain in different ways. So it's really like an intellectual interest... That was a long answer.
 
-**Break:** \[00:23:03.21\]
+**Break:** \[23:03\]
 
 **Jerod Santo:** So one of the reasons that you say you do open source is because of the potential impact of your code. I think it's a great reason. I think it's one reason why lots of people do open source. And it's pretty cool to see, like you said, your little key-value store inside Kubernetes, powering all these deployments. It has to be satisfying. Was there any fear, trepidation or concern that maybe this decision around no code contributions would limit Litestream's impact?
 
@@ -150,7 +150,7 @@ I think having more control around the actual license and what people can end up
 
 **Ben Johnson:** Sure, that's a good point. And I will say, I tend to defer to people that probably know more than I do. I'll read summaries on a license more than I will go word for word in the license and pick it apart, because I'm no lawyer... I mean, I think the ideas around if you're gonna use this code -- or not even just use it; if you're gonna take the code and change it around, I think that stuff should be put back in the world for the benefit of everybody.
 
-\[00:28:11.00\] The one thing I don't like about it with libraries is linking this tool into your code suddenly means your code needs to be GPL as well. And that seems ridiculous to me... Whereas Litestream is pretty isolated. It's a single binary, it runs next to your application, and any changes to that should, I would assume, probably be helpful ultimately to the wider community out there. I would welcome, if not even the code contributions from that, just simply the ideas around what people are changing about it, and putting that back out there.
+\[28:11\] The one thing I don't like about it with libraries is linking this tool into your code suddenly means your code needs to be GPL as well. And that seems ridiculous to me... Whereas Litestream is pretty isolated. It's a single binary, it runs next to your application, and any changes to that should, I would assume, probably be helpful ultimately to the wider community out there. I would welcome, if not even the code contributions from that, just simply the ideas around what people are changing about it, and putting that back out there.
 
 **Adam Stacoviak:** So you wanna make sure that whatever value is there currently or can be derived from the future, whether it's you changing it or someone else changing it, you wanna make sure that future public use, the open source spirit remains with the software.
 
@@ -208,7 +208,7 @@ And closing PRs after the fact is just the most soul-sucking thing to do... Wher
 
 **Ben Johnson:** ...and you have to just close it and be like "I'm so sorry. I can't take this, because it's not what I'm looking for." So I'm trying to be as explicitly as I can, without \[unintelligible 00:31:58.27\]
 
-**Adam Stacoviak:** \[00:32:02.07\] Yeah. It's really difficult, I suppose, in the world of open source to not waste someone's time without some sort of explicit visual cue. I would imagine if you have a repository that does not have pull requests, which is sort of -- I can remember back in 2008 when GitHub first launched, that was the cool thing. PRs is the DNA of GitHub, essentially; so if you take that away, to me, you'd need to be visually far more clear on a repository that that's not an option. Maybe you have a red banner, or something. Something very different, starkly different that every other repository out there.
+**Adam Stacoviak:** \[32:02\] Yeah. It's really difficult, I suppose, in the world of open source to not waste someone's time without some sort of explicit visual cue. I would imagine if you have a repository that does not have pull requests, which is sort of -- I can remember back in 2008 when GitHub first launched, that was the cool thing. PRs is the DNA of GitHub, essentially; so if you take that away, to me, you'd need to be visually far more clear on a repository that that's not an option. Maybe you have a red banner, or something. Something very different, starkly different that every other repository out there.
 
 **Ben Johnson:** No, that's totally \[unintelligible 00:32:36.28\]
 
@@ -270,7 +270,7 @@ And closing PRs after the fact is just the most soul-sucking thing to do... Wher
 
 **Ben Johnson:** It's something I definitely struggled with. \[unintelligible 00:35:45.11\] argument of slippery slopes, but it is one of those things where like -- I don't have a problem with small pull requests, those little/tiny minutiae. But then there's gonna be somebody who instead of changing a word, they change the whole sentence. Maybe it just reads in a weird way, or it's just not what I'm trying to do. Or then maybe it becomes a small code change, but then that slowly grows... And I don't have a perfect answer for this. This is really an experiment, so I don't wanna come across saying like "I know that this is the best way to do open source out there." And it definitely has its flaws, and this is a perfect example of one. So in that sense, it's definitely hard.
 
-**Jerod Santo:** \[00:36:24.28\] It's tough... Yeah, because it seems so petty to be like "Actually, I'm not gonna accept this, because I don't accept them..." But once you accept one, now your list of contributors is two people, and you can't go back on that, and now it's like "I don't accept contributions..." "What about that person? Why did you accept that one?" It's like, "Oh, now I have to have this conversation every couple of weeks?" or whenever it happens.
+**Jerod Santo:** \[36:24\] It's tough... Yeah, because it seems so petty to be like "Actually, I'm not gonna accept this, because I don't accept them..." But once you accept one, now your list of contributors is two people, and you can't go back on that, and now it's like "I don't accept contributions..." "What about that person? Why did you accept that one?" It's like, "Oh, now I have to have this conversation every couple of weeks?" or whenever it happens.
 
 **Adam Stacoviak:** Or even back to the license - you mentioned GPL being good now; if for some reason you change your mind, every contributor is a liability to a veto to that change.
 
@@ -298,7 +298,7 @@ The code in Litestream - you're not gonna be blown away by it. I'm not doing \[u
 
 Then my other request to GitHub - we talked about this briefly, they do corporate sponsorships now... I really wish they would allow you to only take corporate sponsorships. I feel really weird about taking money from other individual developers, and I actually don't do sponsorships for that reason.
 
-\[00:39:52.09\] If you really want a wishlist, beyond that, I would say - I think that there's this idea that corporations should come along and benevolently support projects. It's in their own self-interest, for sure, but it's definitely a charity, and I don't think that's the right way to frame it; I don't think you're ever gonna convince a large swathe of companies to support open source, without really giving them something direct and tangible in value. So I know it's a contentious idea, but some idea of giving priority support to some corporate sponsorships, or giving some additional benefits that you can really give to a company and say "Hey, if you sponsor this thing for $100/month, then you get these benefits."
+\[39:52\] If you really want a wishlist, beyond that, I would say - I think that there's this idea that corporations should come along and benevolently support projects. It's in their own self-interest, for sure, but it's definitely a charity, and I don't think that's the right way to frame it; I don't think you're ever gonna convince a large swathe of companies to support open source, without really giving them something direct and tangible in value. So I know it's a contentious idea, but some idea of giving priority support to some corporate sponsorships, or giving some additional benefits that you can really give to a company and say "Hey, if you sponsor this thing for $100/month, then you get these benefits."
 
 You can do that outside of GitHub, there are ways of doing that, but I think to streamline it inside of GitHub would be really powerful. I think that would really motivate a lot of open source contributors.
 
@@ -310,7 +310,7 @@ So an individual software maintainer like yourself, doing business with corporat
 
 **Adam Stacoviak:** That makes sense, because if they can knock down all that red tape, all that minutiae in the process, the bureaucracy of that buying process, PO numbers and accounts payable - it can be a nightmare if you have no patience, or you don't wanna spend your time there, which I would imagine you would much rather just write code, or handle non-existent pull requests, or hang in discussions, or whatever... I'm just kidding, but - that would be a better use of your time. And if GitHub could level the playing field globally, at a corporation level, and remove that red tape, and make it as easy as just a relationship thing, rather than saying "Let me ask my Accounts Payable department, let me talk to my boss..." GitHub's already sort of leveled the playing field and made corporations who do wanna pour back into or buy these guys of would-be products from open source developers like yourself - that would be pretty cool.
 
-**Ben Johnson:** \[00:44:08.02\] I mean, I don't have all the answers. I'm sure there are reasons that this is a terrible idea... But I think normalizing companies paying for some kind of product on top of open source, especially support or other things of that ilk I think are a good direction, for sure.
+**Ben Johnson:** \[44:08\] I mean, I don't have all the answers. I'm sure there are reasons that this is a terrible idea... But I think normalizing companies paying for some kind of product on top of open source, especially support or other things of that ilk I think are a good direction, for sure.
 
 **Adam Stacoviak:** I'm curious, Ben, if you've been to the SQLite website much, or read much of their documentation lately.
 
@@ -354,13 +354,13 @@ So an individual software maintainer like yourself, doing business with corporat
 
 **Adam Stacoviak:** You may be able to be in their stream, so to speak. Pun intended.
 
-**Ben Johnson:** \[00:46:42.07\] Yeah, I've actually -- I won't say who this was, but I had a conversation with somebody who's a CTO of a VC-backed company, a database company, and he had talked to Richard Hipp before... Essentially, they run their group -- they make money through memberships... And I have no idea how much they make, but the guy was talking to him, like "How are you guys doing?" and all that stuff... Kind of like asking his approach to doing it that way, instead of going the VC route, and raising a bunch of money and doing a big exit... And my understanding - again, this is second-hand, but Dr. Hipp basically said "How much time do you spend coding at your company?" And the guy at this VC-backed company is like "Basically zero." He's just kind of management, and talking to VCs, and talking to investors and whatnot... And Dr. Hipp basically said he gets to spend every day, he gets to code. And that's kind of my end goal - I would love to be able to get in a place where I can just work on open source. I don't have any interest in raising VC money. If there's something that it would really help with, sure. But at the end of the day - I thought about this... If I made 100 million dollars, I don't see my life changing significantly, other than I would just spend my time working on open source...
+**Ben Johnson:** \[46:42\] Yeah, I've actually -- I won't say who this was, but I had a conversation with somebody who's a CTO of a VC-backed company, a database company, and he had talked to Richard Hipp before... Essentially, they run their group -- they make money through memberships... And I have no idea how much they make, but the guy was talking to him, like "How are you guys doing?" and all that stuff... Kind of like asking his approach to doing it that way, instead of going the VC route, and raising a bunch of money and doing a big exit... And my understanding - again, this is second-hand, but Dr. Hipp basically said "How much time do you spend coding at your company?" And the guy at this VC-backed company is like "Basically zero." He's just kind of management, and talking to VCs, and talking to investors and whatnot... And Dr. Hipp basically said he gets to spend every day, he gets to code. And that's kind of my end goal - I would love to be able to get in a place where I can just work on open source. I don't have any interest in raising VC money. If there's something that it would really help with, sure. But at the end of the day - I thought about this... If I made 100 million dollars, I don't see my life changing significantly, other than I would just spend my time working on open source...
 
 **Adam Stacoviak:** \[laughs\] All the time.
 
 **Ben Johnson:** I don't love yachts, or fancy cars, or anything like that. I just like solving problems that I find interesting. So I think my long-term goal would be somehow to make it a sustainable thing that I could just work on in that sense. So there's my goal.
 
-**Break:** \[00:48:17.16\]
+**Break:** \[48:17\]
 
 **Jerod Santo:** So we've been talking for a while about open source, but let's talk about the software, shall we?
 
@@ -378,7 +378,7 @@ So that's kind of where it started, and that's largely the use case I'm looking 
 
 **Ben Johnson:** Yeah. And that's not in there yet, but that's definitely on the roadmap right now. And I've had other people that are interested -- actually, there's been a lot of interest around this whole idea of the JAMstack... I've never really gotten into the JAMstack, so please correct me if I'm totally wrong in this... But a lot of people will take the data they have and they basically generate out the pages and post those on a CDN; you put those on a CDN, and then everyone in the world gets a local copy of that page, and it's super-fast, and super-responsive.
 
-\[00:52:14.26\] But then if you take that idea and instead of generating all your pages you just have read replicas around the world on these tiny $5/month VPSes, you could really have a global application where you have 100 millisecond or less latency between you and the server for everyone in the world, because you're replicating out... Which is kind of a weird idea.
+\[52:14\] But then if you take that idea and instead of generating all your pages you just have read replicas around the world on these tiny $5/month VPSes, you could really have a global application where you have 100 millisecond or less latency between you and the server for everyone in the world, because you're replicating out... Which is kind of a weird idea.
 
 There's actually a service - I haven't used this yet, so I guess I'm plugging them but I cannot vouch for them - called Fly.io. It's kind of like Heroku, they have persistent disks available as well... But you can run those things for a couple bucks, and I think they have 20 different regions you can deploy out to. So really, you could run this as a serverless platform, basically; but you can run the serverless platform for $40/month, and you're running globally around the world, and your users get these super-fast latencies.
 
@@ -398,7 +398,7 @@ The way that you develop (I find) with embedded databases tends to -- you almost
 
 And that query language is what really makes the difference. If you have graph data, you wanna have a graph language. If you have document data, you wanna have a document language. SQL works on relational tables. But once you actually move the storage locally, into the same process as your code, you really don't even need those separate languages. I mean, they can kind of help from a usability standpoint, but from a performance standpoint you could just as easily look up your individual -- traverse your graph nodes locally using your own language, versus the actual query language itself. Does that make sense? It's a bit esoteric.
 
-**Jerod Santo:** \[00:56:17.07\] To a certain degree...
+**Jerod Santo:** \[56:17\] To a certain degree...
 
 **Ben Johnson:** Yeah. So underlying pretty much all databases - there's some exceptions, but I would say most use a B-tree. You have a thing that you store according to a primary key. And that's true in a document store, in a graph database... Pretty much all databases use that underlying format.
 

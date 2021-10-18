@@ -24,7 +24,7 @@ Then there's the [Manyverse Open Collective](https://opencollective.com/manyvers
 
 **Adam Stacoviak:** You're primarily trying to do open source, but you're also a freelancer in the open source world. Does that mean you actually take on some client work, too?
 
-**André Staltz:** \[00:04:01.28\] Yeah, I've done that. I think last year I did it twice, if I'm not mistaken... But it's been client needs - specific bug-fixing where they need specifically me, because it's a unique case. The other case was they wanted to get some projects started, and they wanted to have a nice project template, a nice documentation set up... So I basically was helping kickstart the project.
+**André Staltz:** \[04:01\] Yeah, I've done that. I think last year I did it twice, if I'm not mistaken... But it's been client needs - specific bug-fixing where they need specifically me, because it's a unique case. The other case was they wanted to get some projects started, and they wanted to have a nice project template, a nice documentation set up... So I basically was helping kickstart the project.
 
 I do these things maximum one month or two months. I try to not take very long projects, because then it's, of course, time away from all these other things. And honestly, I try to make a small enough income so that -- like, I could try to maximize for money and buying stuff, but I try to just maximize for my savings, so that I can have enough time to work on these open source things that don't give money or revenue or anything like that.
 
@@ -50,7 +50,7 @@ So if we wanna go deep into why all of this free stuff - I've been sharing a sor
 
 **André Staltz:** I believe that open source is the next frontier for disruption in software. And when you look at the big disruptions that happened in software in the recent decades - for instance, we had at some point Microsoft being the dominant player, and they sold software; they sold Windows, or they sold Microsoft Office literally in a box that you would buy physically. That would cost you something like $400 per edition. In 2003 there was a Microsoft Office, and that cost $400 a box. Then the next version was 2007. So that's like $400 for four years, so it's essentially $100 per year.
 
-\[00:08:04.17\] The thing that came after that, that disrupted all of this, was of course the internet and the web, and that growing so much. Then came players like Google, and other SaaS players; I don't necessarily mention just -- you know, let's imagine like Dropbox, or Spotify, or Facebook, all these other things... Those sold software, in a sense, where they gave software, now not in a box; so you have the benefits of not having all of those logistic problems, right? And essentially, the revenue that they get per user, per year, is something around $10 per year, or $20, or something like that.
+\[08:04\] The thing that came after that, that disrupted all of this, was of course the internet and the web, and that growing so much. Then came players like Google, and other SaaS players; I don't necessarily mention just -- you know, let's imagine like Dropbox, or Spotify, or Facebook, all these other things... Those sold software, in a sense, where they gave software, now not in a box; so you have the benefits of not having all of those logistic problems, right? And essentially, the revenue that they get per user, per year, is something around $10 per year, or $20, or something like that.
 
 The first bit, if you're paying subscriptions, let's say Netflix or Spotify, then you might end up actually paying $100 per year, which is still kind of the same level as what Microsoft had, because -- it's kind of crazy when you think about it, that people are willing to pay $9 per month, but when you put it as in, "Are you willing to pay $400 every four years?", then it's kind of scarier... But it's kind of the same thing.
 
@@ -70,7 +70,7 @@ I actually did the calculations, and what I receive now for Manyverse through do
 
 These things are actually sustainable in the sense that if you have 10x less revenue, well then it means that all your costs should be like 10x smaller, 20x smaller. You can do that with a smaller team of developers, of course. You're not gonna have hundreds or thousands, you're gonna have dozens maybe, at scale. It also means that you shouldn't have costs such as infrastructure, like servers... So those things are also consistent with the Manyverse situation that we don't have servers running, we don't have that kind of cost, and we just have developers - basically just me now - and it's still not sustainable. I don't have that kind of sustainability to have myself funded, and I'm the only developer so far...
 
-\[00:12:12.25\] But the point is that at scale, these things are sustainable; if there's $1 per user per year, then you do the math and with a million users you're probably gonna have some kind of yearly millionaire revenue, which means like a team of a dozen people, or something like that. The case for scale becomes even more important once you're going down with these costs. I think that's the big gist of it.
+\[12:12\] But the point is that at scale, these things are sustainable; if there's $1 per user per year, then you do the math and with a million users you're probably gonna have some kind of yearly millionaire revenue, which means like a team of a dozen people, or something like that. The case for scale becomes even more important once you're going down with these costs. I think that's the big gist of it.
 
 It's not a business because donations don't have that kind of return on investment (you don't have investors), and I think that's the real key to the problem - donation-driven software, if it would be investment-driven, it would actually be much bigger, because investors would make it big. But that's not the case.
 
@@ -100,7 +100,7 @@ And then you start thinking, "Okay, what is actually meaningful in life?" and th
 
 That's a little bit why I'm doing this, but... What I was trying to say before is that I do think that there's a big potential in a new wave of software, that is 10x cheaper. This is still an early exploration of ideas, but I think that it doesn't need to be necessarily MIT-licensed. There's different experiments in licenses with open source, or barely open source, or debatably open source... One of them is called [License Zero](https://licensezero.com). Have you heard of that?
 
-**Jerod Santo:** \[00:16:15.24\] Yup.
+**Jerod Santo:** \[16:15\] Yup.
 
 **André Staltz:** License Zero is essentially that, you know, depending if you're a business or not -- if you're an individual, then you're gonna have a license that you can use the software forever, free and open source; but if you're a business, you have to buy a license. So it's kind of like a business, even though the code is always open. I think that's very interesting. I think there should be a lot more experiments in licenses.
 
@@ -114,7 +114,7 @@ This kind of things worked, for instance, with [Sublime Text](https://www.sublim
 
 **André Staltz:** Yeah. It's sustainable, and I think the difficulties with becoming sustainable are mostly related to initial capital, and that kind of stuff... Because of course, a typical software as a service startup that has no investors - they will have a very hard time. They will have a hard time. So it's the same case with donation-driven open source software; they just have a hard time similarly, because of this lack of investment. But these are things that we can solve in different ways; maybe legally, maybe in other ways... But what I'm trying to also point towards is that once you build something open source, or once you build something from this next wave of software, then you won't go back to the previous one.
 
-\[00:19:58.04\] For instance, once you're using Google Docs and you're sharing your basic documents with your friends and you're not actually paying physical dollars, you're not gonna go back to Microsoft Office and pay $100 per year for a box; you're not gonna do that. I think that an obvious next step is also happening gradually, with open source. For instance, a lot of people use the [VLC (VideoLAN) Media Player](https://www.videolan.org/vlc/), and that's open source. And you're not gonna go back to paying a similar proprietary software for that. So I think the situation is that once you build something open source and high-quality, which has finances, it has funds, and it can maintain itself constantly, you basically win.
+\[19:58\] For instance, once you're using Google Docs and you're sharing your basic documents with your friends and you're not actually paying physical dollars, you're not gonna go back to Microsoft Office and pay $100 per year for a box; you're not gonna do that. I think that an obvious next step is also happening gradually, with open source. For instance, a lot of people use the [VLC (VideoLAN) Media Player](https://www.videolan.org/vlc/), and that's open source. And you're not gonna go back to paying a similar proprietary software for that. So I think the situation is that once you build something open source and high-quality, which has finances, it has funds, and it can maintain itself constantly, you basically win.
 
 **Jerod Santo:** It's disruptive, yeah.
 
@@ -134,7 +134,7 @@ This kind of things worked, for instance, with [Sublime Text](https://www.sublim
 
 **Adam Stacoviak:** I don't know if I agree with that though, because there's so many people that continue to use Facebook, that I talk to, and I'm like "You realize they're selling your data, right?". "Yeah, I don't care." I think the reason why you see this change is because there's so much media around the change. The fact that Zuckerberg went to Congress, and was briefed, and all that good stuff; that's probably why those changes are happening, not because users are like "Hey, I want my privacy." It's a small subset that's asking for it. Not many demanding it by leaving in droves.
 
-**Jerod Santo:** \[00:23:45.22\] But the people who are aware and loud and consistently talking about these things tend to be the influencers who will move the general public over time. It's just that you kind of have that wave of adoption even, where you have the early adopters, and then here comes the masses. Well, the masses don't care. They care, but not like the early adopters do. They just kind of follow behind... So I agree with André that there are things that we're seeing which are indicating that privacy is becoming and will continue to become something that people care about more...
+**Jerod Santo:** \[23:45\] But the people who are aware and loud and consistently talking about these things tend to be the influencers who will move the general public over time. It's just that you kind of have that wave of adoption even, where you have the early adopters, and then here comes the masses. Well, the masses don't care. They care, but not like the early adopters do. They just kind of follow behind... So I agree with André that there are things that we're seeing which are indicating that privacy is becoming and will continue to become something that people care about more...
 
 **Adam Stacoviak:** That it matters.
 
@@ -150,7 +150,7 @@ We could arguably say that Zuckerberg is already the president of the world, and
 
 **André Staltz:** I don't think privacy in itself is a compelling thing. It's more like if you don't have it, it expresses itself as a problem in other ways. But I'm still not that strong on defending privacy. I don't think that's my thing. And that might sound a little bit inconsistent... But the thing that I'm really looking for with Manyverse, which confuses people quite often, or just makes them wonder, is the focus on off-grid. That to me is the biggest thing. I'm not building a social network that's more private, I'm building a social network that's off the grid.
 
-**Break:** \[00:26:51.10\]
+**Break:** \[26:51\]
 
 **Jerod Santo:** So why is off-grid so important to you?
 
@@ -174,7 +174,7 @@ All of these things are not that compelling for people in developed nations, suc
 
 Of course it's more quirky, but the point is that if you can get that use case of, let's say, social networking, and you can make it self-sufficient in the end user device and in the app, then you can have the internet connection as like an optional thing. If you have it, it's great, you can use it, but then you can have alternative sort of other transports. You can have the new internet, you can have Bluetooth... And in this way you can sort of start to transfer this use case from the old internet to the new internet in a very gradual way. So you can still support both the old internet and the new internet.
 
-\[00:32:11.25\] All of this is tied to sort of reaching the under-connected world, because they actually have a big potential to start using the social networking app, while in the developed world we don't actually have a big desire to switch. Switching is actually the very difficult thing.
+\[32:11\] All of this is tied to sort of reaching the under-connected world, because they actually have a big potential to start using the social networking app, while in the developed world we don't actually have a big desire to switch. Switching is actually the very difficult thing.
 
 **Jerod Santo:** Right.
 
@@ -196,7 +196,7 @@ In U.S.A. you had pretty okay presidents, but now you have this -- I don't know,
 
 Having the new internet is also sort of like a political thing; I don't know what you call it... But I think there's a lot of aspects to it that are quite tangible. For instance, people use a decentralized way with photos already; when they take a picture, it's always local, and it's in your Gallery app, and then you can share it however way you want... So it gives a sense to people that "Of course, this is my picture. If I don't post it anywhere, it won't reach anywhere. I can choose who I share it with."
 
-\[00:36:11.08\] I think that metaphor or that use case is quite -- obviously, people can do that with photos, but they can't do it with text, which is really weird. I mean, why can you do something with the richer media, but you can't do it with text? Well, you could take a picture of text, but the point is that it's not that common to have textual content or messages shared in this fashion. And I think people would understand it if they would just compare it with the use case that they use now, with pictures.
+\[36:11\] I think that metaphor or that use case is quite -- obviously, people can do that with photos, but they can't do it with text, which is really weird. I mean, why can you do something with the richer media, but you can't do it with text? Well, you could take a picture of text, but the point is that it's not that common to have textual content or messages shared in this fashion. And I think people would understand it if they would just compare it with the use case that they use now, with pictures.
 
 So there's a lot of arguments that the internet -- and then of course, from a developer's perspective, you can also see a lot of new use cases that you can build with this kind of decentralized stuff that you can build today with the current internet. I'm just trying to come up with some ideas here, but... Yeah, I can't find one right now.
 
@@ -212,7 +212,7 @@ Then you could have a constellation of many pubs, and depending on who you conne
 
 So it's not a network that is made permanent. It's a network that depends on who you want to connect to. The core idea in Scuttlebutt is that you define who are the people that you're interested in, or that are your friends, and then you can get data from them through whatever means are possible, such as ephemeral connections, or pubs.
 
-\[00:39:54.04\] There's also new ways... I'm building one of these through a distributed hash table. A distributed hash table is what BitTorrent uses, and what Dat uses. It's essentially like a big look-up that is spread around multiple computers, and they just bounce the request back and forth until it reaches the right destination. You could also get updates from your friend through a distributed hash table.
+\[39:54\] There's also new ways... I'm building one of these through a distributed hash table. A distributed hash table is what BitTorrent uses, and what Dat uses. It's essentially like a big look-up that is spread around multiple computers, and they just bounce the request back and forth until it reaches the right destination. You could also get updates from your friend through a distributed hash table.
 
 It's really about choosing who you want to connect to, and then getting their updates through whatever means work, essentially.
 
@@ -238,11 +238,11 @@ When you think about someone who's really famous on Twitter, their mentions are 
 
 There's a lot of peer-to-peer protocols that allow you to essentially connect with any peer, as long as they have this piece of content. Let's say BitTorrent - you want this content, and you just connect to any peer that has that. But Scuttlebutt is a bit the opposite - you don't want to connect to any peer, but you want a specific peer (let's say your friend), and you're actually happy with any content that they give you.
 
-\[00:43:52.07\] So it's sort of the opposite. Instead of specific content from any peer, it's specific peer, any content. It's really good for that. It's really good for a network of people that you're interested in, and you're fine with getting any of their content. And having enough of these that you're subscribing too, then you're gonna actually get an interesting database, and it's gonna be meaningful to you, essentially. You're not gonna have these stranger interactions.
+\[43:52\] So it's sort of the opposite. Instead of specific content from any peer, it's specific peer, any content. It's really good for that. It's really good for a network of people that you're interested in, and you're fine with getting any of their content. And having enough of these that you're subscribing too, then you're gonna actually get an interesting database, and it's gonna be meaningful to you, essentially. You're not gonna have these stranger interactions.
 
 In a practical sense, having friends of friends is actually a lot of strangers. For instance, right now I have 12,000 accounts on my computer, available offline. I don't know 12,000 people, but they are somewhat connected to me... And it's still a reasonable amount of data, in the sense that it's not too much that it blows up my computer storage, but its' not too little that it's just my friends.
 
-**Break:** \[00:44:53.25\]
+**Break:** \[44:53\]
 
 **Adam Stacoviak:** Let's talk about the user type, because I'm sitting back here, thinking about this movie called Boiler Room...
 
@@ -258,7 +258,7 @@ But what I'm trying to say is that there isn't a lot of corporate looks to the t
 
 **André Staltz:** So Scuttlebutt is not that. It's like a photograph created by real dirty people, and it's more human, it's more authentic, it's more poor than what we typically put on display. We put very shiny things on display, and iPhones, iPads and Airpods, or whatever those are called... But then the actual human things are less shiny. Scuttlebutt doesn't have investors, it doesn't have cryptocurrencies behind it... It's literally just a couple people building some stuff that they find is nice. It usually looks a bit ugly, and there's a lot of open source that looks like that; it just looks kind of ugly.
 
-\[00:48:09.11\] What I'm building with Manyverse - it does have an aesthetic that is a bit closer to the shiny stuff that we usually see, these services and startups that come up... And a lot of people actually within Scuttlebutt are quite anti-capitalists, and they're a little bit concerned that Manyverse is going to become some kind of business, just because it has this taste of shiny startup type of thing... I can talk about that as well, but yeah.
+\[48:09\] What I'm building with Manyverse - it does have an aesthetic that is a bit closer to the shiny stuff that we usually see, these services and startups that come up... And a lot of people actually within Scuttlebutt are quite anti-capitalists, and they're a little bit concerned that Manyverse is going to become some kind of business, just because it has this taste of shiny startup type of thing... I can talk about that as well, but yeah.
 
 The community is literally a lot of maker people, and also activists and artivists... Sorry, that word does not exist. Artists...
 
@@ -304,7 +304,7 @@ But yeah, the people who use it are very interesting. I learned a lot from them,
 
 **Adam Stacoviak:** I think the other aspect of this though is also size of group for users, and not just describing who might be interested... Because theoretically, I might be interested in it if one of the core usages is to create a small, tight-knit network. That might just be me, my wife, family, or very close people, and that might replace, for example on iOS, iMessages, or something like that... Which is great, but there's some drawbacks obviously around privacy, potentially. I kind of trust Apple a little bit more than others maybe... And I say "maybe" in quotes because hey, you never know...
 
-**André Staltz:** \[00:52:18.01\] Yeah.
+**André Staltz:** \[52:18\] Yeah.
 
 **Adam Stacoviak:** We don't know what isn't out there yet. So my point is that the user type - sure, we can't use it because it's not on iOS yet, but at some point it may, or whatever, but the user might be somebody who's interested in, say, small, close-knit friends... And there's other competing applications, but not the same principles, like GroupMe, for example; with [GroupMe](https://groupme.com/en-US/) you can create a small group... There's others that are like it, but the point I'm trying to make is that if the point is to have relationships that mimic more true real-world human relationships, then it might be those that are really close to you, rather than those that are very distant from you, in terms of acquaintances or connections.
 
@@ -334,7 +334,7 @@ Scuttlebutt is already downloaded on your computer. By design, it's always like 
 
 **Adam Stacoviak:** I'm going to the domain services right now and I'm buying icrowd.com. \[laughter\]
 
-**André Staltz:** \[00:56:04.08\] That's actually a good one.
+**André Staltz:** \[56:04\] That's actually a good one.
 
 **Jerod Santo:** That reminds me of some of the technologies -- I don't know if they're still out there... But five or ten years ago, where you would set up a Drobo, or some sort of hard drive at your friend's house, and you'd have yours at your house, and you'd set them up to basically be your -- instead of having a Backblaze or  some sort of third-party service, you'd back up your stuff to their house, and they'd back up their stuff to your house, on some sort of a software, and that would be your little iCrowd right there.
 

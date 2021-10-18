@@ -26,7 +26,7 @@
 
 I'm happy to announce that we have it all locked in at this point, September 2nd, a very special episode of Frontend Feud. It is a podcast super-collab with some of our favorite web dev podcasts. So we have Shoptalk Show vs. Syntax, live on September 2nd, with myself hosting. We're also gonna sprinkle in some JS Party animals onto those teams. Amelia will be joining Chris Coyier and Dave Rupert on Team ShopTalk, and Divya will be joining Wes Bos and Scott Tolinski on Team Syntax. So look forward for that.
 
-\[00:04:21.29\] We do have a YouTube event already in the system, so if you wanna go to that YouTube page and click on the Subscribe, or whatever the button is, get the announcement when this thing goes live... You'll definitely wanna participate in that one live; it's gonna be lots of fun. And I'll include the link to the livestream in the chat, as well as in our show notes.
+\[04:21\] We do have a YouTube event already in the system, so if you wanna go to that YouTube page and click on the Subscribe, or whatever the button is, get the announcement when this thing goes live... You'll definitely wanna participate in that one live; it's gonna be lots of fun. And I'll include the link to the livestream in the chat, as well as in our show notes.
 
 So a very special edition of Frontend Feud. We still would like more people to take that survey, so if you haven't yet, help us out by being part of the listeners survey at jsparty.fm/ff. Of course, one survey participator will get a free JS Party T-shirt.
 
@@ -68,7 +68,7 @@ We have to get to at least 100, otherwise it's not a good sample size, y'all, an
 
 **Amelia Wattenberger:** Yeah. I think this is actually gonna be different than the last time I was on here and said what I do, and for who... I am Amelia, I live in DC, which I also might not have the last time I was on... I moved from Upstate New York right before the pandemic, so I don't know DC very well, but hopefully that will change soon.
 
-\[00:08:14.27\] I've been a frontend developer at small startups, so I kind of do a whole range of things; sometimes I dabble in design, but it's mostly web development, and I really enjoy making data visualizations. So it's kind of a niche that I really enjoy. Oh, and right now I'm working for GitHub. It's kind of like we're rebranding as the innovation lab. So I work on a really small team. There's like two teams within the innovation lab, and we basically are focused on what is the future of developer experience, and we get to do prototypes and experiments to try out different things that we think might be cool, to help developers make their lives easier.
+\[08:14\] I've been a frontend developer at small startups, so I kind of do a whole range of things; sometimes I dabble in design, but it's mostly web development, and I really enjoy making data visualizations. So it's kind of a niche that I really enjoy. Oh, and right now I'm working for GitHub. It's kind of like we're rebranding as the innovation lab. So I work on a really small team. There's like two teams within the innovation lab, and we basically are focused on what is the future of developer experience, and we get to do prototypes and experiments to try out different things that we think might be cool, to help developers make their lives easier.
 
 **Jerod Santo:** Nice. So we should get you talking with Chris Hiller, who's doing R&D at Sauce Labs. A lot of his stuff is very much prototypes, and trying out new ideas... It sounds like you have a pretty fun job there.
 
@@ -124,7 +124,7 @@ We have to get to at least 100, otherwise it's not a good sample size, y'all, an
 
 **Amal Hussein:** Yeah. I wish Prettier could be extended to more things... Because I really do think there's things that are just really preferences. There's so many ways to skin a cat for any particular thing when you're writing software... And if we could just kind of really clearly differentiate preference versus functionality, and kind of make that clear... You know, teams just need to align, and once you align, you're not arguing in pull requests. But if we could just codify those conventions more strongly than even just linting rules, that would be really fantastic.
 
-**Jerod Santo:** \[00:12:20.02\] You mean like beyond style guides?
+**Jerod Santo:** \[12:20\] You mean like beyond style guides?
 
 **Amal Hussein:** Yeah. I mean like fully enforcing conventions across the board.
 
@@ -150,7 +150,7 @@ We have to get to at least 100, otherwise it's not a good sample size, y'all, an
 
 **Amal Hussein:** Yeah. But I think you might be on to something here by setting a threshold. You can only introduce four new warnings in a given PR, as opposed to like a hundred... \[laughs\] Maybe you can pick your battles a little more \[unintelligible 00:13:43.25\]
 
-**Break**: \[00:13:51.22\]
+**Break**: \[13:51\]
 
 **Jerod Santo:** So Amelia, what brought you to Washington DC? Was it GitHub, or was it you just wanted to move, or...? Why did you decide to move?
 
@@ -168,7 +168,7 @@ We have to get to at least 100, otherwise it's not a good sample size, y'all, an
 
 **Amelia Wattenberger:** Yeah, I'm excited.
 
-**Jerod Santo:** \[00:15:46.02\] Myself, up until six years ago, I lived across the street from where I went to elementary school. I could walk my kids to the same exact park that I went to when I was in elementary school... In fact, when I cut my chin open in third grade, and had someone's tooth go in my forehead in kindergarten. That kind of stuff.
+**Jerod Santo:** \[15:46\] Myself, up until six years ago, I lived across the street from where I went to elementary school. I could walk my kids to the same exact park that I went to when I was in elementary school... In fact, when I cut my chin open in third grade, and had someone's tooth go in my forehead in kindergarten. That kind of stuff.
 
 So you've moved quite a bit, but I haven't fallen very far from the tree myself. Amal, you've moved around quite a bit...
 
@@ -194,7 +194,7 @@ I think there's a lot of really interesting things that could happen in the brow
 
 **Amelia Wattenberger:** Yeah, yeah. You can see all these no-code tools coming out... I think there's two camps right now - there's designers and there's developers. And I feel like the no-code tools are bringing designers into development land, where they can make things interactive, make them responsive.
 
-\[00:19:41.23\] I also think it's great when developers move more towards design land... Which can be really scary, because I think developers have seen a lot of websites, and they know what looks good and what doesn't look good... At least this is true for me. So when you first start trying to do anything designy, you know it looks bad. You feel bad about yourself, you don't wanna share it, and you just kind of have to do that enough times that there's that one time where you're like "This isn't so bad. I'm happy to share this with people", and then you just get better and better.
+\[19:41\] I also think it's great when developers move more towards design land... Which can be really scary, because I think developers have seen a lot of websites, and they know what looks good and what doesn't look good... At least this is true for me. So when you first start trying to do anything designy, you know it looks bad. You feel bad about yourself, you don't wanna share it, and you just kind of have to do that enough times that there's that one time where you're like "This isn't so bad. I'm happy to share this with people", and then you just get better and better.
 
 I'm a big fan of the one person who can do both things, but also just like working closely together in tools like Figma, where both designers and developers are comfortable and they're kind of like moving things around
 
@@ -208,7 +208,7 @@ On the same token, QA is something I think that is being shared -- I don't know,
 
 So I think we all get there -- like you talk about, Amal, different areas of the stack... I think even if you're more skilled on the frontend and you see a really nice database schema for example, or a nice pattern in code, and you can appreciate that and say "Yeah, that's good." But then when you have your blank text area or your text screen, and you're trying to design that, then you have the gap. So we all have areas where we have the gap. So I think growing as a developer - and I'm including full-stack, every aspect of what we do in software - requires you to be filling in those gaps in the area that you are over time, and just -- you have to persevere through it, because you're not gonna be excellent at everything. But the more you can do more, then you can actually provide kind of holistic solutions, the better you are.
 
-**Amelia Wattenberger:** \[00:23:48.16\] That's one of my favorite clips... And I feel like an important part of that - maybe that's just the way I heard it - is that the gap is the painful part, but it's also a good thing to have a gap, because you know what's good and what's not, whereas there are tons of things I don't know anything about and I have no taste in, where if I tried to learn them, I wouldn't even know if what I was producing was like a good one or a bad one.
+**Amelia Wattenberger:** \[23:48\] That's one of my favorite clips... And I feel like an important part of that - maybe that's just the way I heard it - is that the gap is the painful part, but it's also a good thing to have a gap, because you know what's good and what's not, whereas there are tons of things I don't know anything about and I have no taste in, where if I tried to learn them, I wouldn't even know if what I was producing was like a good one or a bad one.
 
 **Jerod Santo:** Alright, we are \[unintelligible 00:24:15.01\] for a break, and we'll be right back to talk productivity tips and tricks... What are the odds Nick brings up Vim, TypeScript, or something like this?
 
@@ -238,7 +238,7 @@ So yeah, a team definitely fills that out, but in terms of what we should do ind
 
 **Amal Hussein:** Send it to my Swiss account...
 
-**Break**: \[00:27:13.29\]
+**Break**: \[27:13\]
 
 **Jerod Santo:** So we thought it would be fun - we've done this before, but it's probably been years - to just talk productivity, because there's lots of little takeaways you can have, tips and tricks; there's things that you can take... If you just get one thing out of this segment, then I think it's a win. So we have a big list of productivity tips and tricks. We probably won't hit them all, and they don't all have names next to them, so like who put what in... But Nick put his name in, so...
 
@@ -270,7 +270,7 @@ So an example of something I use for that is logging into our app with various t
 
 **Nick Nisi:** So just little, tiny hacks to make me faster and not have to jump through a lot of minutiae when I wanna change things around. Because I have to jump through a lot of minutiae anyway.
 
-**Amal Hussein:** \[00:32:12.25\] Yeah. First of all, I've never seen Nick Nisi so excited, so hallelujah, amen. \[laughter\] Praise the tmux and whatever lords...
+**Amal Hussein:** \[32:12\] Yeah. First of all, I've never seen Nick Nisi so excited, so hallelujah, amen. \[laughter\] Praise the tmux and whatever lords...
 
 **Nick Nisi:** \[laughs\]
 
@@ -312,7 +312,7 @@ But I do think that that's one thing that we kind of take for granted as profess
 
 **Amal Hussein:** Yeah.
 
-**Jerod Santo:** \[00:35:56.20\] It's funny you say that, because we've just had a fellow write in... We've just published on The Changelog an episode all about Vim, and we've got a lot of feedback about people who use Vim and love Vim... And he is a trial lawyer, and he wrote in on that episode how he's been using Vim since the '90s. Actually, Vi before it was Vim... Since the '90s. And he's using Unix tools, like the ctags stuff, and sed and awk, and it's all text-based... And he uses it in his lawyering work, and he's literally -- I actually asked him back, I'm like "Is there anybody else? Do you have like a club? What's the cross-section of lawyers who also use Unix tools?" And he said it's one person, it's just him. But because he's that way, he has superpowers. And he handles things that take other people hours and days, especially because a lot of law is just text manipulation, and collating, and extraction... So he has these skills and he's been doing it for years and years, and he says he can't even count how many hours he saved over his career because he has these skills.
+**Jerod Santo:** \[35:56\] It's funny you say that, because we've just had a fellow write in... We've just published on The Changelog an episode all about Vim, and we've got a lot of feedback about people who use Vim and love Vim... And he is a trial lawyer, and he wrote in on that episode how he's been using Vim since the '90s. Actually, Vi before it was Vim... Since the '90s. And he's using Unix tools, like the ctags stuff, and sed and awk, and it's all text-based... And he uses it in his lawyering work, and he's literally -- I actually asked him back, I'm like "Is there anybody else? Do you have like a club? What's the cross-section of lawyers who also use Unix tools?" And he said it's one person, it's just him. But because he's that way, he has superpowers. And he handles things that take other people hours and days, especially because a lot of law is just text manipulation, and collating, and extraction... So he has these skills and he's been doing it for years and years, and he says he can't even count how many hours he saved over his career because he has these skills.
 
 **Amal Hussein:** Yeah. Well, Amelia, to your point about learning Bash every few months, or relearning it - I do think we need to build up an arsenal of commands and scripts, and like "This is how I did this. This is how I solved that problem." Just kind of build that for yourself, so you can just keep that as your own reference log... I mean, that's why people blog; a lot of folks blog, just to kind of remind themselves of how they did it. You don't need to make a blog, but just make a repo, and have it be your notes, and have that be something that you're able to carry with you from job to job, and it's your own arsenal of how you did a thing... Obviously, don't steal company secrets, but... You know, most of the time there's nothing really secretive about how to write this kind of a regex, or script this thing... There's usually no company secrets there. But I would highly recommend that.
 
@@ -342,7 +342,7 @@ But I do think that that's one thing that we kind of take for granted as profess
 
 **Jerod Santo:** I've tried pomodoro years ago and it just didn't click for me, because for me it takes a while to get into a state of flow - about 25 minutes - and then if I'm gonna take a five-minute break, my context is gone, and then I'm back, and I've gotta get it back, it takes 5 or 10 minutes... So I like to get into a state of productivity, kind of make-your-schedule/manage-your-schedule thing, like get the maker schedule going... Give me four hours uninterrupted... And I'll take an hour off, I don't even care. Because if I can go 3-4 hours without stopping at all, that's where I feel the most productive. Because the first 10, 15, 20 minutes is wasted on remembering what I was doing, and trying to figure it out... And then \[unintelligible 00:40:02.08\]
 
-\[00:40:04.15\] So I tried pomodoro, it didn't really click with me... I know people that use it and swear by it, and they say they're just so much more productive with this 25 on/5 off cadence... But I think the key is the discipline; it provides a structure for discipline for your work, so you're not just dorking around, which we tend to do when we don't have discipline.
+\[40:04\] So I tried pomodoro, it didn't really click with me... I know people that use it and swear by it, and they say they're just so much more productive with this 25 on/5 off cadence... But I think the key is the discipline; it provides a structure for discipline for your work, so you're not just dorking around, which we tend to do when we don't have discipline.
 
 **Amal Hussein:** I'm with you, Jerod. That's for me really the maker's hours thing. If I'm implementing a task and I need to have hands-on keyboard time, I just need my uninterrupted time... And I'm in flow state for a few hours, and I get it done. But breaking that up over multiple days - it's really frustrating and not productive. I need large time chunks to get there, and it takes me about almost an hour to really get into a good flow state, too. Slow warm-up...
 
@@ -364,7 +364,7 @@ What I've been trying to do is -- like, if I stop, having that small task to do 
 
 **Jerod Santo:** \[laughs\]
 
-**Nick Nisi:** \[00:44:00.04\] I really try and actually get to a stopping point a half hour earlier than that, and then I have a checklist that I try and go through, of "Process this inbox. Go through my email and see if there's anything to add to my inbox. Go through the to-do's that I have accumulated throughout the day and try and flag priorities that I need to get done by tomorrow, or during the day tomorrow at some point", so that when I come in I'm not just like "What do I do? Where do I go from here?" I just have a set list of "Finish what I was working on, respond to this email, go help this person with this problem they're having" and just go from there.
+**Nick Nisi:** \[44:00\] I really try and actually get to a stopping point a half hour earlier than that, and then I have a checklist that I try and go through, of "Process this inbox. Go through my email and see if there's anything to add to my inbox. Go through the to-do's that I have accumulated throughout the day and try and flag priorities that I need to get done by tomorrow, or during the day tomorrow at some point", so that when I come in I'm not just like "What do I do? Where do I go from here?" I just have a set list of "Finish what I was working on, respond to this email, go help this person with this problem they're having" and just go from there.
 
 I don't always succeed at that, but it's something that I really try and set myself up for successfully, and it sometimes works.
 
@@ -392,7 +392,7 @@ I think my new rule there is 1) say no to most things, but also 2) there's like 
 
 **Nick Nisi:** If it's not a Hell Yes, then it's a No. That's something that I constantly have to think about. Because sometimes it can be flattering to say yes to something, and you want to do that and see what opportunities might come out of it, even though it might not be... But in the end, it can become too much. It all depends. But that's generally good advice.
 
-**Amelia Wattenberger:** \[00:48:07.17\] I like that.
+**Amelia Wattenberger:** \[48:07\] I like that.
 
 **Jerod Santo:** Yeah, that's one that I follow as well. And in fact -- it's tough, because you look at every opportunity as such a blessing, or such a cool, interesting... Like, you wanna do all the things, right? So it's kind of like "Yes...", but is it "Hell yes"? And you get to a certain point when the opportunities -- I mean, some people are in a phase of life where there aren't very many opportunities. Then it's just kind of like - well, go ahead and take the ones that come to you. But as you move on and advance, and find opportunity, and it finds you, over time, you get to a point where you get a lot of them. And then the problem changes to which ones to select and which ones not to select. And in that case - yeah, I ask myself that question all the time. "Do I really want this? Is this an obvious thing that gets me super-excited?" Or I just kind of feel like it could be good, or it's kind of like an obligation... You feel bad to say no; saying no reminds me of that Tommy Boy quote... Remember Tommy Boy's dad was really good at selling stuff? Have you seen that movie, Amelia, Tommy Boy?
 
@@ -442,7 +442,7 @@ I think my new rule there is 1) say no to most things, but also 2) there's like 
 
 **Jerod Santo:** Yeah, kids are a great excuse. It is.
 
-**Amelia Wattenberger:** \[00:52:14.08\] Yeah. I never wanna lie about it, and my reason is always like "This isn't a priority for me" or "I don't think that sounds great", which I've tried before...
+**Amelia Wattenberger:** \[52:14\] Yeah. I never wanna lie about it, and my reason is always like "This isn't a priority for me" or "I don't think that sounds great", which I've tried before...
 
 **Jerod Santo:** "I don't think that sounds great..." \[laughs\] Yeah, it's honest.
 
@@ -488,7 +488,7 @@ I think my new rule there is 1) say no to most things, but also 2) there's like 
 
 **Jerod Santo:** Maybe...
 
-**Amal Hussein:** \[00:54:53.17\] There's a particular Facebook recruiter whose last email to me was literally (I kid you not) like "Okay, Amal, so I know we've reached out to you like 50 times... Here's hoping that number 51 will be successful. Blah-blah-blah-blah..." I'm like, "Oh, my God. What part of not responding to your emails, like "Not interested", do you not understand?" Persistence can hurt you, so don't be that person.
+**Amal Hussein:** \[54:53\] There's a particular Facebook recruiter whose last email to me was literally (I kid you not) like "Okay, Amal, so I know we've reached out to you like 50 times... Here's hoping that number 51 will be successful. Blah-blah-blah-blah..." I'm like, "Oh, my God. What part of not responding to your emails, like "Not interested", do you not understand?" Persistence can hurt you, so don't be that person.
 
 **Jerod Santo:** Yeah. So for the person who just cold-emails you five, six, seven times in a row without a response, I have a text expander for them, which is an all-caps "UNSUBSCRIBE". And I just reply with that.
 

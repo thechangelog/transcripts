@@ -30,7 +30,7 @@
 
 **Julia White:** ...of "Hey, all those things you thought we'd never do - it's gone. It's the new norm, break all the rules." Just shortly after that I think he stood up and had that "Microsoft loves Linux" moment - similarly, just really trying to set down clear guidelines of like "This is where we're going. We're gonna go where our customers are, and we wanna make them successful whatever they choose to use", which is obviously a big shift.
 
-**Adam Stacoviak:** \[00:03:58.05\] I wanna pin one thing down too, because in this keynote -- I think it was Scott Guthrie's keynote, where he said "Microsoft loves open source." So you've got the Linux moment there, but I think what's interesting is that, you know, this is the beginning of the cloud for you, but you've been with Microsoft for a long time, so I wanna share that story because you've got such a history, and you've seen Microsoft maybe in a day where developers didn't -- maybe open source developers, any developers had less love, or maybe there was a different... What did Julia Liuson say, how did she frame it? "A different lens" I think is what she said for the way Microsoft's perspective was.
+**Adam Stacoviak:** \[03:58\] I wanna pin one thing down too, because in this keynote -- I think it was Scott Guthrie's keynote, where he said "Microsoft loves open source." So you've got the Linux moment there, but I think what's interesting is that, you know, this is the beginning of the cloud for you, but you've been with Microsoft for a long time, so I wanna share that story because you've got such a history, and you've seen Microsoft maybe in a day where developers didn't -- maybe open source developers, any developers had less love, or maybe there was a different... What did Julia Liuson say, how did she frame it? "A different lens" I think is what she said for the way Microsoft's perspective was.
 
 **Julia White:** Yeah.
 
@@ -76,7 +76,7 @@ I think there was always energy there, but it was just a strong mantra of like, 
 
 **Julia White:** Right.
 
-**Jerod Santo:** \[00:08:14.16\] And it seems like - specifically with VS Code, but there's many other efforts as well... It's like, maybe the 3-5 year lag is because you guys have been earning it through shipping awesome open source software that has really contributed so much to the whole ecosystem. It's like "Wow." What's kind of cool is like even Microsoft has to earn it, and then you guys have.
+**Jerod Santo:** \[08:14\] And it seems like - specifically with VS Code, but there's many other efforts as well... It's like, maybe the 3-5 year lag is because you guys have been earning it through shipping awesome open source software that has really contributed so much to the whole ecosystem. It's like "Wow." What's kind of cool is like even Microsoft has to earn it, and then you guys have.
 
 **Julia White:** Totally. People are like, "I don't understand this community and how it works", and I always start with exactly your point of "It's absolutely earned. You can't buy your way into it, you can't relationship your way in..." You just earn it, which I love; at some level it's just so true, and authentic... But yeah, it is absolutely earned. And it takes time. It's taken a long time, but that's okay... We're in, we're doing this thing. We're committed.
 
@@ -140,7 +140,7 @@ Interestingly though, in the pivot of like "How much do we support Linux? What d
 
 **Julia White:** Right?! Someone was like "You need to put that thing in the Microsoft museum. You made Microsoft history with your jacket!" So literally for like two years after that wonderful presentation, everyone's like "I don't know who you are, but I know you've got a good jacket! I know you and your jacket."
 
-**Jerod Santo:** \[00:12:03.23\] I know you're trying to -- oh, there it is...
+**Jerod Santo:** \[12:03\] I know you're trying to -- oh, there it is...
 
 **Julia White:** Oh, he is pulling it up, so you can see it.
 
@@ -190,7 +190,7 @@ So the conspiracy theory - so high... Which is fine, I understand. You have to e
 
 **Adam Stacoviak:** I'm gonna just go back to explaining why, just so -- you know, our audience is very developer, very open source, very indie, and I think there's just been this... As Julia said, this different lens, this different perspective of Microsoft that is changing, and I wanna give them a reason to see why they can begin to evolve that perspective.
 
-**Julia White:** \[00:15:58.15\] What makes it credible?
+**Julia White:** \[15:58\] What makes it credible?
 
 **Adam Stacoviak:** Yeah. Well, I don't want you to keep going on about it... I'm just explaining our perspective, why we're asking these questions.
 
@@ -204,7 +204,7 @@ And then the other thing -- we're so developer-oriented internally; we're super 
 
 **Jerod Santo:** A completely different business model, which allows that, and it's interesting just the broad sweeping implications of that primary -- I mean, it's a big decision, but away from Windows platform and towards cloud platform or Azure... It just completely changes the opportunities for the business decision-making. Everything is a whole new ball game.
 
-**Break:** \[00:18:14.17\]
+**Break:** \[18:14\]
 
 **Jerod Santo:** Let's talk about Azure...
 
@@ -232,7 +232,7 @@ And then the other thing -- we're so developer-oriented internally; we're super 
 
 **Jerod Santo:** The incumbent, yeah.
 
-**Julia White:** \[00:20:02.29\] Yeah, right? And it's all about protecting the franchise, and... It was so fun to switch over to Azure, where you're like "Oh no, we've gotta go, baby!" So how are we differentiated - actually, the core of it goes back to that developer experience. We spent some time, like "What's the soul of Azure and the company?" Satya made us all spend the time, like "What's the soul of Microsoft? Why do we exist?", in his very interesting and philosophical approach to problems... And we did the same thing on Azure, like "What's our soul? What do we wanna stand for?"
+**Julia White:** \[20:02\] Yeah, right? And it's all about protecting the franchise, and... It was so fun to switch over to Azure, where you're like "Oh no, we've gotta go, baby!" So how are we differentiated - actually, the core of it goes back to that developer experience. We spent some time, like "What's the soul of Azure and the company?" Satya made us all spend the time, like "What's the soul of Microsoft? Why do we exist?", in his very interesting and philosophical approach to problems... And we did the same thing on Azure, like "What's our soul? What do we wanna stand for?"
 
 The thing we came back to is the developer being productive, and having that incredible developer productivity experience is part of our cloud. It's just a developer platform, it's what it is, so that's our core - how do we do that differently? There's tech - fine, we'll just support all the same tech everyone else does, and other things, but HOW we do it.
 
@@ -265,7 +265,7 @@ So as we think about the technology and how we support that delivery of it, it's
 **Julia White:** Right, no one wants that. So we had to do some just core matching the tech; so there was work to be done just to make sure we had equivalent technology from the VMs, networking storage, that kind of thing. But then we just stopped and really -- and it was the entire leadership team, and it was a pretty long process, because it had to be true and authentic, because people had to buy into it. We kind of like had to earn our own stuff internally, to get everyone on board...
 And we started with just what's going on in the industry broadly, what are the topics from a trend and a technology perspective... But then it really got into these in-depth, long, over dinner sessions with customers, and we'd wallow with them... And you'd start with tech, and then you'd stop, and you start more talking about like "What about you? What do you want as a human?" Really getting on this other level of conversation with developers, with IT admins, with business decision-makers, and the thing we kept hearing was "This is a little scary and a little overwhelming."
 
-\[00:24:00.14\] After you got past the idea of like "This is awesome! There's so much cool tech! It's super great! I can't wait to do event-driven! Containers are awesome!" and then they'd be like "And I think it's a lot of work, and I don't know which one I should be using, and everyone thinks I should know, and I don't know, and I'm kind of scared by that."
+\[24:00\] After you got past the idea of like "This is awesome! There's so much cool tech! It's super great! I can't wait to do event-driven! Containers are awesome!" and then they'd be like "And I think it's a lot of work, and I don't know which one I should be using, and everyone thinks I should know, and I don't know, and I'm kind of scared by that."
 
 I remember a couple guys, they would pause and they were kind of like "I just have impostor syndrome all the time. That's how it feels." To me, those were gems of like, okay, there's tech and all this stuff, but then there's this truth, and this quiet place inside, of like "What are you gonna do about that?" So that's what we grabbed on to... Like, "Hey, we can understand that, we can empathize with that in a way that I think other companies who are newer and haven't been through the journey that we've been, and the humble self-reevaluation that we went through as a company, that gives you a new perspective on the world, versus the hubris of never making mistakes..." So I think it allowed us to hear that in a different way, so that's where we started re-centering.
 
@@ -303,7 +303,7 @@ Finally, Terry Myerson - I give him tons of credit... He was like "We're going t
 
 He did this thing called Exchange Labs, where he launched it as an education program for universities, as an excuse to be able to ship things in the cloud, that wasn't gonna affect businesses, so he stayed out of the line of fire from the sales team and other things... So we started to kind of secretly out of the back closet creating this cloud service for our email system, under Exchange Labs.
 
-\[00:28:05.20\] It was this crazy and insane story, and Ray Ozzie, every time someone would light up at the company and be like "What is this thing!?", Ray Ozzie would protect it and shut him down... We were always running to Ray, like "Ray, help...!" And that's how it started, so many years ago. I can't even -- I wanna say 10-12 years ago... A long time ago, when we put the first thing in the cloud.
+\[28:05\] It was this crazy and insane story, and Ray Ozzie, every time someone would light up at the company and be like "What is this thing!?", Ray Ozzie would protect it and shut him down... We were always running to Ray, like "Ray, help...!" And that's how it started, so many years ago. I can't even -- I wanna say 10-12 years ago... A long time ago, when we put the first thing in the cloud.
 
 I remember they came to me and they were like "How are we gonna do customer support on services? How are we gonna make money in subscriptions?" and I was like "I've got no idea, I'll go figure that out... Hold on, I'll just go figure that out." Anyway, but we did it, and then that became over time Exchange Online, and then over time from there it became Office 365, and then right about that time was when the original Windows Azure launched... But that was our first shove into commercial cloud, it was over this interesting Ray Ozzie-sponsored side-project.
 
@@ -323,13 +323,13 @@ I remember they came to me and they were like "How are we gonna do customer supp
 
 **Julia White:** No. No, no. That was essential. Actually, we're doing a video for Terry Myerson's farewell, and I was thinking, "You shoved us, kicking and screaming, into public cloud. You had the cojones to do that, where a lot of us didn't."
 
-**Break:** \[00:30:26.15\]
+**Break:** \[30:26\]
 
 **Jerod Santo:** You're a corporate vice-president at Microsoft, which is one of the largest companies in the world... We're a budding media company. You're effectively looking at our company. There's more than just us...
 
 **Julia White:** It's impressive, it's impressive. \[laughs\]
 
-**Jerod Santo:** \[00:31:49.29\] ...so I suspect we live very different lives. I'm thinking about your work life, what it means to be corporate vice-president, and I was just thinking you have to have worlds of insight into leadership, into getting things done, pushing the ball forward... Can you share with us stuff that you've learned through the years about how to inspire people to do what they're doing and how to push the ball forward at Microsoft?
+**Jerod Santo:** \[31:49\] ...so I suspect we live very different lives. I'm thinking about your work life, what it means to be corporate vice-president, and I was just thinking you have to have worlds of insight into leadership, into getting things done, pushing the ball forward... Can you share with us stuff that you've learned through the years about how to inspire people to do what they're doing and how to push the ball forward at Microsoft?
 
 **Julia White:** We've all got an opinion, so I'm happy to give you mine, from the wisdom that I've gleaned over these years... First of all, as a leader I think authenticity is so core to everything, and I think other human beings smell bull\*\*\*t (can I say that?). I have a bit of potty mouth so I've gotta check myself. No, but human beings smell that; if you don't feel like that leader is being authentic and true to you, and brave, even though they don't know all the answers, people waver... So I think that's so, so important, staying super authentic to who you are and what you believe, and getting people to follow you and wanna work with you and be with you and take these crazy risks with you... So that's super essential.
 
@@ -377,7 +377,7 @@ I talk to teams on things like "Change doesn't feel good, but it doesn't mean it
 
 **Julia White:** Yeah, yeah. You know, we've done a bunch of research at Microsoft around decision-making, human condition, emotion, reaction, and actually we had a bunch of PhD's in brain sciences to help our leadership team in general get better...
 
-**Adam Stacoviak:** \[00:36:17.02\] Is that right? Awesome.
+**Adam Stacoviak:** \[36:17\] Is that right? Awesome.
 
 **Julia White:** It's been fascinating.
 
@@ -459,7 +459,7 @@ I talk to teams on things like "Change doesn't feel good, but it doesn't mean it
 
 **Jerod Santo:** There's a lot of technology sitting in that thing, right?
 
-**Julia White:** \[00:40:03.14\] Yeah, like unbelievable, right? But then, if you were from the Xbox team, you just made the decision to end-of-life this thing, and now you're onto different pastures, and we work with people to move on. So there was this incredible resistance to this idea of how we do this, and why, and when, and was it gonna feel like we're just bringing something back, and all these things... So we really had to a) provide clarity of like "What is this about?" and "What you believed this tech was for before - it's about a whole new thing." Yes, it's the same tech, but a totally new use case, and a different approach, and a different way... So just getting everyone, kind of top-down, when everyone came up like "Oh my god, this is ridiculous, this is crazy!" Like, no, no, let me explain why it's not... I spent some time making sure they understand the vision for the future.
+**Julia White:** \[40:03\] Yeah, like unbelievable, right? But then, if you were from the Xbox team, you just made the decision to end-of-life this thing, and now you're onto different pastures, and we work with people to move on. So there was this incredible resistance to this idea of how we do this, and why, and when, and was it gonna feel like we're just bringing something back, and all these things... So we really had to a) provide clarity of like "What is this about?" and "What you believed this tech was for before - it's about a whole new thing." Yes, it's the same tech, but a totally new use case, and a different approach, and a different way... So just getting everyone, kind of top-down, when everyone came up like "Oh my god, this is ridiculous, this is crazy!" Like, no, no, let me explain why it's not... I spent some time making sure they understand the vision for the future.
 
 And then also really listen to -- like, I didn't know the history, so I had to be like "What was this? Tell me. I don't wanna do the same things again. I don't wanna step into a big doo-doo."
 
@@ -499,7 +499,7 @@ I mean, we're just early on this one, but wiring it up with our AI services, you
 
 **Julia White:** I'm sure it's right, but... But you know, the worldview that he's created, of intelligent cloud, intelligent edge, and he spent some time on this keynote talking about intelligent cloud, intelligent edge, and I've gotten a lot of questions like "Okay, so is that IoT? Does that mean hybrid? What exactly is that thing that he's talking about?" So I tried to break it down for folks... It literally is his point of view and a shared point of view that every application type that we build moving forward will be this combination of the technology that is the public cloud, and the technology like compute and data sitting on these edge nodes; and the edge nodes, if you think about it today, the biggest edge nodes are these giant data centers, or technologies running, and they're using the cloud, and most people call that hybrid.
 
-\[00:44:12.02\] But that data center is gonna evolve into a huge set of distributed connected devices, from cars to tiny little sensors in refrigerators and thermostats and that type of thing, and each one of those will hold application code, and will be running local processing, local compute and AI and make meaningful things, not just dumb sensors that ping back to the cloud, and just ping on a regular basis.
+\[44:12\] But that data center is gonna evolve into a huge set of distributed connected devices, from cars to tiny little sensors in refrigerators and thermostats and that type of thing, and each one of those will hold application code, and will be running local processing, local compute and AI and make meaningful things, not just dumb sensors that ping back to the cloud, and just ping on a regular basis.
 
 So the edge is gonna become maybe just as powerful as a data center, but a far more distributed technology set... So how do we think about it as a developer, how do you think about "Okay, my world is gonna look like that, and every application is gonna have a cloud and edge component to it. How do I start thinking about that?" And the most obvious way that happens today is IoT. So we bring it right back to like "Okay, is IoT, is this a use case people can kind of get their head around today, right now, and understand it?" But I do believe that IoT and edge will converge over time into this -- just an example of what this intelligent edge looks like.
 
@@ -527,7 +527,7 @@ So the edge is gonna become maybe just as powerful as a data center, but a far m
 
 They showed a computer vision model running on that Raspberry Pi device - super simple example, but there's a lot more you can do.
 
-**Adam Stacoviak:** \[00:47:15.26\] Well, demos have to be somewhat simple to not fail in real time, right? \[laughter\]
+**Adam Stacoviak:** \[47:15\] Well, demos have to be somewhat simple to not fail in real time, right? \[laughter\]
 
 **Julia White:** It helps, too...
 

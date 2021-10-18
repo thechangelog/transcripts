@@ -112,7 +112,7 @@ So for me writing books and writing blog posts and articles and stuff like that 
 
 **Sau Sheong Chang:** Yeah, it is. It is. It’s self-documentation, you can say that.
 
-**Break**: \[00:26:00.04\]
+**Break**: \[26:00\]
 
 **Natalie Pistunovich:** Bill, your publication of the recent book was in a slightly less traditional way. How long did it take you to write it? And how did the publication go?
 
@@ -188,7 +188,7 @@ I really do not have an ideal audience to say "This is the reader I'm trying to 
 
 **Natalie Pistunovich:** Yeah, that makes sense.
 
-**Break**: \[00:42:08.10\] to \[00:43:36.28\]
+**Break**: \[42:08\] to \[43:36\]
 
 **Natalie Pistunovich:** You both mentioned that you agree that there's a lot of general Go content out there, and we should write, as a community, books about specific things like the standard library.
 

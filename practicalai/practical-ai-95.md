@@ -34,7 +34,7 @@ My name is Chris Benson, I'm a principal AI strategist at Lockheed Martin, and w
 
 **Chris Benson:** There you go. You're building out the DGX rack there behind you.
 
-**Daniel Whitenack:** \[00:04:02.03\] I'm not quite in the server room yet, although I do expect the room I'm in will warm up quite a bit when I turn my computer on, whenever it gets going... But yeah, I'll have to make sure and have the fan going, and maybe -- you know, eventually it will be cold here in Indiana, so maybe that will be a benefit. I don't know.
+**Daniel Whitenack:** \[04:02\] I'm not quite in the server room yet, although I do expect the room I'm in will warm up quite a bit when I turn my computer on, whenever it gets going... But yeah, I'll have to make sure and have the fan going, and maybe -- you know, eventually it will be cold here in Indiana, so maybe that will be a benefit. I don't know.
 
 **Chris Benson:** I'm just glad to know you're not living in the server room there, sheltering in place in the data center.
 
@@ -84,7 +84,7 @@ My name is Chris Benson, I'm a principal AI strategist at Lockheed Martin, and w
 
 **Daniel Whitenack:** Yeah, and maybe we should clarify as well what we mean by open source. Maybe people are more familiar with that term, or not familiar... And there are some confusing things around it. Actually, maybe one of the confusing things is open source doesn't necessarily mean free either... So I guess my background isn't in computer science/software engineering; I'll probably have some computer science people get mad at me that there's a proper definition, but... I mean, open source - mainly, its etymology derives from the fact that you can see all the code that is there. The code is available for you to obtain and/or modify use. With TensorFlow, for example, you can go to GitHub.com/tensorflow/tensorflow - I think that's still the link, unless... You know...
 
-**Chris Benson:** \[00:08:25.10\] Yeah... I think it's really defined by the fact that when you distribute the code, if it's open source software and you're distributing that code around, you have to distribute the code of the programs - or programs themselves - with your distribution. So you don't just get the executable that you're running...
+**Chris Benson:** \[08:25\] Yeah... I think it's really defined by the fact that when you distribute the code, if it's open source software and you're distributing that code around, you have to distribute the code of the programs - or programs themselves - with your distribution. So you don't just get the executable that you're running...
 
 **Daniel Whitenack:** Right. Just the binary.
 
@@ -108,7 +108,7 @@ My name is Chris Benson, I'm a principal AI strategist at Lockheed Martin, and w
 
 **Daniel Whitenack:** Yeah, to that company. And also, the code that is running or doing the inference for that model - and even actually the training code for that - is using TensorFlow; you're not just copying TensorFlow itself and selling TensorFlow. You are using TensorFlow to create custom code in the same way you'd import other libraries, and that sort of thing.
 
-\[00:12:05.00\] This is a whole world of thought around open source software, and what licenses are good, and not good, and actually certain companies have restrictions around -- if you're using an open source project, they might allow you to use code that has a certain license, versus code that has a different license. That might be something you wanna be aware of with your own company as well.
+\[12:05\] This is a whole world of thought around open source software, and what licenses are good, and not good, and actually certain companies have restrictions around -- if you're using an open source project, they might allow you to use code that has a certain license, versus code that has a different license. That might be something you wanna be aware of with your own company as well.
 
 **Chris Benson:** Absolutely. And depending on policy, they may orient on the license in terms of approvals, or they may focus on specific software itself, along with its license. But you know, all this is really relevant now to AI, and I think a lot of people that have come into AI from routes other than software, particularly open source software, are having to learn this as they go along, which I thought was one of the great reasons that we should talk about this today when you suggested it - as we see the field of AI maturing and evolving very rapidly, it is becoming integrated into what is essentially a software stack that different organizations have, and their workflows, and it is how they productively enable some of their software.
 
@@ -140,7 +140,7 @@ Before we move on, I'll just mention too - there's an episode, \#322, from our f
 
 **Chris Benson:** Right. If people are wondering how that fits in - and it's not really specific to what I'm doing; this could be for a whole lot of different possibilities... If you are operating an organization and you have operational data, things that you're doing with whatever your organization is, and you need a data store to keep that, but you may also wanna provide analytics on that, you may wanna apply some AI modeling to some of that data... So it really all comes down to the fact that you're integrating AI into your software workflow. That's a good sign, that's a sign of maturity.
 
-**Break:** \[00:16:08.02\]
+**Break:** \[16:08\]
 
 **Daniel Whitenack:** So we were just getting into the topic, and you mentioned something that was really important about AI not just being about code, but being about data... And I think along with that data - a certain piece of data, which is the model itself, which is really just another piece of data... So there is the code piece, but then there is the data piece, and oftentimes there's this weirdness because code is open-sourced on GitHub, but then to me it seems like "Oh, there's this very structured way to go about finding open source code", and things... And then open data is just sort of like all over the place. It's like, totally scattered and weird. I don't know if you have a similar experience...
 
@@ -162,7 +162,7 @@ Before we move on, I'll just mention too - there's an episode, \#322, from our f
 
 **Chris Benson:** Yeah, but it is essentially a complex data structure...
 
-**Daniel Whitenack:** \[00:19:59.09\] Yeah, it's a dataset.
+**Daniel Whitenack:** \[19:59\] Yeah, it's a dataset.
 
 **Chris Benson:** ...yeah, that is the output of your modeling.
 
@@ -194,7 +194,7 @@ Maybe we should turn to how to find and search for open source tools and code an
 
 So I go there - I wanna do transfer learning with TensorFlow, TensorFlow is open source, so I can install it... And if I find the TensorFlow docs, then it'll tell me how usually there's like a Getting Started, Install TensorFlow, or they'll tell you "Hey, you can try it on Colab", or whatever.
 
-**Chris Benson:** \[00:23:53.13\] I'm the same. Another one, kind of hitting what are kind of the forces, the big names in AI, that are reputable, and that you know that their legal teams have looked at things, and all that... There's a trust factor.
+**Chris Benson:** \[23:53\] I'm the same. Another one, kind of hitting what are kind of the forces, the big names in AI, that are reputable, and that you know that their legal teams have looked at things, and all that... There's a trust factor.
 
 Another one that I'll use a lot, especially at work, is NVIDIA, because they have a huge amount of documentation online. So I'll start from them and see what they have; they have a bunch of partners as well... As does Google, as does Microsoft, as does Facebook, which is PyTorch...
 
@@ -216,7 +216,7 @@ Even if you just browse around that site, I think, and look at the various thing
 
 **Chris Benson:** Yeah, it is. It's interesting - you bring up a great point, that there are different types of things that you may be looking for. On one side, you might be looking for just broad data, and you might go to, for instance, Google's dataset search that they released last year, which is fantastic, because they have indexed many data sources and you can start looking, and that's one of many ways to enter into it. It's not the only one.
 
-\[00:27:48.03\] But you might also be looking for domain expertise as well - we've had Semantic Scholar on the show before - and you might go look for some of these scientific papers that are relevant to the things that you're about to tackle. Or you might be building on top of one of those papers. So developing that domain expertise in the specific area, and then also having a diversity of data to tackle the problem with is really important. I think that's a really hard thing for people that are new into AI, is understanding all these different pieces you have to put together into your workflow to be productive as quickly as possible.
+\[27:48\] But you might also be looking for domain expertise as well - we've had Semantic Scholar on the show before - and you might go look for some of these scientific papers that are relevant to the things that you're about to tackle. Or you might be building on top of one of those papers. So developing that domain expertise in the specific area, and then also having a diversity of data to tackle the problem with is really important. I think that's a really hard thing for people that are new into AI, is understanding all these different pieces you have to put together into your workflow to be productive as quickly as possible.
 
 **Daniel Whitenack:** Yeah, for sure. It's a challenge, but I think the situation is better now than even a couple/few years ago.
 
@@ -226,7 +226,7 @@ Even if you just browse around that site, I think, and look at the various thing
 
 **Chris Benson:** We've had the benefit of standing on top of the software development communities' shoulders. So many of these problems that had we not had that privilege of doing would have definitely slowed down the process... So we're seeing warped speed in the AI world in terms of its evolution, largely because we can look to other places that are associated, that are related, and say "Oh, that's how it was solved. Something very similar."
 
-**Break:** \[00:29:08.10\]
+**Break:** \[29:08\]
 
 **Daniel Whitenack:** Alright, well we've talked a good bit about the tooling and the code and everything that is out there... I'm curious for you - let's say that you're approaching a problem and you're using a new toolkit. Maybe it's the Dgraph thing that you were talking about - you're wanting to get into that, or... You know, for me recently - I was doing some speech-related things; there's some new speech-related stuff out of NVIDIA that's pretty interesting...
 
@@ -236,7 +236,7 @@ So there's this new toolkit of things that you have access to, but one of the th
 
 But in general, if I'm not just doing a pure learning spike, where I'm just trying to figure out how to do this thing that I care about, if I'm doing it with more of a production or productivity in mind, then I think what is the environment this has to meet; I may be looking at a tutorial, but then I'll translate it into "What are the constraints that I have? What are the resources that I have available?" and I'll take a little bit of time to try to transfer what they're trying to show me there into the world that I'm living in. Because at the end of the day, if I'm not just doing a pure learning spike and I'm doing it to deploy somewhere eventually, then it needs to fit into my world. So there's a little bit of prep time there to try to get a smooth workflow on my side going.
 
-**Daniel Whitenack:** \[00:32:36.06\] Yeah, for sure. One of the things that I do a lot is if I'm just trying to see -- let's say that I'm trying to solve a problem, like a speech recognition problem, or something... And I see there's like three different things that people are talking about using out there, three different ways of going about it, what I might do is just spin up three different Google Colab notebooks...
+**Daniel Whitenack:** \[32:36\] Yeah, for sure. One of the things that I do a lot is if I'm just trying to see -- let's say that I'm trying to solve a problem, like a speech recognition problem, or something... And I see there's like three different things that people are talking about using out there, three different ways of going about it, what I might do is just spin up three different Google Colab notebooks...
 
 **Chris Benson:** Yeah.
 
@@ -252,7 +252,7 @@ Sometimes I find myself wishing that other tools would look at Colab, recognize 
 
 **Chris Benson:** Some of the common categories of contribution would be obviously the code itself that is the core for that software... But code alone often is not enough. I can't count the number of times that I've tried to work with code that without great documentation and without great examples I've found to be extremely hard to utilize in a productive way... So if you don't feel that code is where you should make your contribution, then going and figuring out how to use the tool, or offering up your insights from using the tool into documentation, or create examples...
 
-\[00:36:03.06\] I love it when people create examples, so that if I'm coming in cold and I really don't understand the tool, a lot of times that's the best way for me to ramp up - I go to an example and then I refer to the docs from there, to try to get there. So those are some of the obvious things...
+\[36:03\] I love it when people create examples, so that if I'm coming in cold and I really don't understand the tool, a lot of times that's the best way for me to ramp up - I go to an example and then I refer to the docs from there, to try to get there. So those are some of the obvious things...
 
 And another thing that I would suggest people do is reach out to the maintainer of the project and ask them, and say "What do you need?"
 
@@ -274,7 +274,7 @@ The better way to go about it is to say "Hey, thank you so much for creating thi
 
 **Daniel Whitenack:** Yeah. I like what you say as well. There is a contribution process that's common to GitHub. There's a lot of jargon around that... And what we'll do is we'll include as a learning resource on this episode - there's a couple of really good blog posts out there about this whole process. There's a repo on GitHub... You maybe want to contribute -- when we're saying "contribute", it could be something small. If you see in a project's documentation that they have this error in their documentation and it's just a wording change, or maybe a change of a variable name, or whatever it is in their documentation (it's a small thing), you of course could create an issue on GitHub and say "Hey, you need to fix this", but it's super-quick and not that hard to just go to their repo, see how they have their documentation laid out in their repo, and then it's a matter of forking that, or making a copy of that repo, pulling that down to your local machine, making the change, pushing that back up to GitHub and then creating this thing, like Chris said, like the pull request. That's a no-brainer.
 
-\[00:40:33.11\] You don't need to know that the contributors are going to want that change. They may reject it. But I think more than likely they're gonna be just happy that people found something wrong with their documentation and fixed it. So yeah, I think that that workflow -- we'll give a good link; if you're new to GitHub, if you're new to Git and this process of pull requests and all of that, we'll put a link in so that you can learn a little bit about that.
+\[40:33\] You don't need to know that the contributors are going to want that change. They may reject it. But I think more than likely they're gonna be just happy that people found something wrong with their documentation and fixed it. So yeah, I think that that workflow -- we'll give a good link; if you're new to GitHub, if you're new to Git and this process of pull requests and all of that, we'll put a link in so that you can learn a little bit about that.
 
 **Chris Benson:** Yeah, absolutely. Another way to contribute is if you're using that software and it's working for you well, and you're solving something that's important to you, share that process; not just what you're doing, but how you did it, how you used the software, in a blog post... That doesn't actually directly require interacting with the maintainer of the software, but it is showing appreciation, it is giving back to the community by showing how to use it effectively, and it may inform them about not only what you've done, but your workflow. And all of that is really useful to other people, and very community-minded.
 
@@ -282,7 +282,7 @@ The better way to go about it is to say "Hey, thank you so much for creating thi
 
 I'm a Pachyderm user, and we've had them on the show, and there's this new GitHub Actions thing that people might be familiar with, where you can automate tests and deployments through GitHub... And I asked in their Slack "Has anyone tried to do a data pipeline from GitHub Actions?" There were a couple people that responded in Slack, like "No, but I've been thinking about trying it", and that sort of thing... So if I end up doing that, I think that would be something that would be really great. It's probably not something that they're going to pull into their main repo maybe, because it's sort of an auxiliary thing, but it would be something that would be really nice for a blog post, so that those people out there that are trying to do that thing could find a resource and do that.
 
-**Chris Benson:** \[00:43:06.11\] You know, as you say that, a thought occurred to me that I think is something that hasn't matured in the AI world, that needs to... And that is the fact that by comparison, if you look in the software world, not only do you have communities around specific software packages that are developed, but you also at the same time have a general sense of community around open source software that even transcends the specific language and libraries that you're in. You can go from one language to another. And there may be little changes in how the sub-communities work; there is an understanding in what is expected in open source in general. I think that we're not there yet with AI, and I think that would be something -- I know from our conversations what we'd both love to see is instead of just having specific datasets, or specific software packages, a sense of open AI and a larger community sense being built... And a sense of community...
+**Chris Benson:** \[43:06\] You know, as you say that, a thought occurred to me that I think is something that hasn't matured in the AI world, that needs to... And that is the fact that by comparison, if you look in the software world, not only do you have communities around specific software packages that are developed, but you also at the same time have a general sense of community around open source software that even transcends the specific language and libraries that you're in. You can go from one language to another. And there may be little changes in how the sub-communities work; there is an understanding in what is expected in open source in general. I think that we're not there yet with AI, and I think that would be something -- I know from our conversations what we'd both love to see is instead of just having specific datasets, or specific software packages, a sense of open AI and a larger community sense being built... And a sense of community...
 
 So whether you're using PyTorch with a particular dataset, or TensorFlow, or NVIDIA stuff - it doesn't matter; there's an overall sense as you move through these communities on what to expect in that AI world.
 

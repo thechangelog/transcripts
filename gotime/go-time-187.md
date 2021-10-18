@@ -8,7 +8,7 @@ The North-East U.K. - this is my favorite thing... Golang North-East is called t
 
 **Mat Ryer:** Shouted at, yeah... \[laughs\] That's what we'll do, we'll shout at your meetup, for a small fee. Okay, if you want that though, do Twitter, @GoTimeFM, and we'll shout them out.
 
-\[00:04:13.08\] Okay, let's meet our guests. We're welcoming back Katie Hockman. Katie is a software engineer on the Go security team, focusing on fuzzing, and was previously the tech lead for the Module Mirror and Checksum Database. Welcome back, Katie.
+\[04:13\] Okay, let's meet our guests. We're welcoming back Katie Hockman. Katie is a software engineer on the Go security team, focusing on fuzzing, and was previously the tech lead for the Module Mirror and Checksum Database. Welcome back, Katie.
 
 **Katie Hockman:** Thanks for having me back.
 
@@ -58,7 +58,7 @@ The North-East U.K. - this is my favorite thing... Golang North-East is called t
 
 **Mat Ryer:** Yeah, which is fair enough, isn't it? So Jay, what's the aim of the fuzzer then? Is it trying to make a panic in your Go code, or are there assertions about the output of things? What's it actually trying to do?
 
-**Jay Conrod:** \[00:08:05.24\] Yeah, panic if it finds one is definitely a great indication of a problem. In general though, it's a lot like a unit test, where if it fails, then you have a problem, and if it passes - well, it doesn't really pass, it just kind of keeps generating random stuff until it finds a failure or you get bored and give up.
+**Jay Conrod:** \[08:05\] Yeah, panic if it finds one is definitely a great indication of a problem. In general though, it's a lot like a unit test, where if it fails, then you have a problem, and if it passes - well, it doesn't really pass, it just kind of keeps generating random stuff until it finds a failure or you get bored and give up.
 
 But yeah, it's great about finding things that you don't expect, like things that you wouldn't have written a test for, because you know, you wrote a parser... We were just talking about this today, you wrote a parser that only expects valid Unicode. You didn't even think to write a test case for random garbage that someone might feed you over the network. So it's great at finding things you don't expect.
 
@@ -82,7 +82,7 @@ But yeah, it's great about finding things that you don't expect, like things tha
 
 **Jay Conrod:** Yeah. And panicking is only one way to indicate a crash. You can also say "This was an error." Just like you do with the testing package. You can say "t.error, t.fatal", something like that.
 
-**Katie Hockman:** \[00:11:50.12\] Yeah, that's something that's a bit unique with this design, where other fuzzers in Go or in other languages don't necessarily do - we're not just looking for panics, or \[unintelligible 00:11:59.15\] It's also basically -- you can virtually copy the text that you have in an existing unit test, with all the t.errors and t.fatals that you have, and just put it into the f.fuzz function, which is what was running in a loop under the hood... And it can act like a test. It is not just about panics, it's also in many ways property based testing; it's similar in that regard. You can set properties and see "Is this doing what I want?" and if not, then t.error, for example.
+**Katie Hockman:** \[11:50\] Yeah, that's something that's a bit unique with this design, where other fuzzers in Go or in other languages don't necessarily do - we're not just looking for panics, or \[unintelligible 00:11:59.15\] It's also basically -- you can virtually copy the text that you have in an existing unit test, with all the t.errors and t.fatals that you have, and just put it into the f.fuzz function, which is what was running in a loop under the hood... And it can act like a test. It is not just about panics, it's also in many ways property based testing; it's similar in that regard. You can set properties and see "Is this doing what I want?" and if not, then t.error, for example.
 
 **Mat Ryer:** What was interesting when I first saw the design proposals was you get this new testing f type, and it just has these two methods, add and fuzz. And the add lets you add some realistic-looking data, and then you pass a method into the fuzz, and that then does the mutation, does the work to create -- it's not just random data, is it? It's kind of realistic data in some way. You mentioned the mutator - how does that actually work? How does it decide what data to pick next?
 
@@ -100,7 +100,7 @@ As far as CPU and memory go, we don't really have controls for those yet. By def
 
 **Mat Ryer:** And what do you recommend then to people? How often should you run this? You mentioned earlier you run it until you get bored. Is it something that you might run every time you save a file? You just do a bit of fuzzing and just do a bit as you go, keep going? Or is this something that you imagine there's gonna be fuzz servers that are running on code to keep watching and trying different things?
 
-**Katie Hockman:** \[00:16:15.29\] I think we're gonna answer that a lot based on what's already happening with fuzzers in the Go community and otherwise. I think a goal eventually would be to integrate it into something like OSS-Fuzz, that can run fuzzers continuously and report on issues when they happen. There's already fuzz targets that use go-fuzz that do this, and we wanna have something similar for the native support, too. So that's one way. Maybe you write it, you check it in, and then you just want it to be running continuously. So maybe that's really good for code that's not changing a whole lot.
+**Katie Hockman:** \[16:15\] I think we're gonna answer that a lot based on what's already happening with fuzzers in the Go community and otherwise. I think a goal eventually would be to integrate it into something like OSS-Fuzz, that can run fuzzers continuously and report on issues when they happen. There's already fuzz targets that use go-fuzz that do this, and we wanna have something similar for the native support, too. So that's one way. Maybe you write it, you check it in, and then you just want it to be running continuously. So maybe that's really good for code that's not changing a whole lot.
 
 You just want to test something that's been around for a while and really run for a long time... But also, maybe you do wanna run it for an hour, or... You know, it just kind of depends on the code and how well it's tested and what you think you are looking for when you're doing it... But it's also expensive right now. So if you're running the default of eight, let's say you're running eight, all of your computer is just like running this thing, and it can make everything else unusable. So maybe you only want to do -parallel=1 or 2 something like that... But then you can only run one at a time. So in the future we wanna make it so that you can run multiple targets in a loop, but right now you can only run one at a time.
 
@@ -114,7 +114,7 @@ So there's just some limitations, and there's also that kind of feedback we wann
 
 **Katie Hockman:** I guess I can start, and Jay will jump in... So I basically joined the Go security team in 2019, like six months before the unspeakable times, that I won't mention, of 2020... And then we basically just wanted to find some new projects to work on now that we had the allocation of new people to work on it... And we've seen that the Go community has wanted this for a long time. There's already been a lot of work that's happened for it, and a lot of that work happened in order to demonstrate to the Go community that this is useful, and that this is helpful, and that people will benefit from having it around.
 
-\[00:20:07.29\] There's been a proposal that's been around for years, and it's gotten so many upvotes, and we in the Go team also see that too, and so a lot of it was that this has been something we've wanted for a long time, and the Go community has wanted for a long time, and we just kind of have the time to do it. It seemed like the right time, as the security team is trying to focus on this end-to-end security of your code, from the time you write it till it's running in production, and this is just a part of that. And that's been really important for our team. So I basically started on it from the beginning, where I was given this task to start thinking about.
+\[20:07\] There's been a proposal that's been around for years, and it's gotten so many upvotes, and we in the Go team also see that too, and so a lot of it was that this has been something we've wanted for a long time, and the Go community has wanted for a long time, and we just kind of have the time to do it. It seemed like the right time, as the security team is trying to focus on this end-to-end security of your code, from the time you write it till it's running in production, and this is just a part of that. And that's been really important for our team. So I basically started on it from the beginning, where I was given this task to start thinking about.
 
 **Mat Ryer:** What about you, Jay?
 
@@ -144,13 +144,13 @@ So there's just some limitations, and there's also that kind of feedback we wann
 
 **Mat Ryer:** Nice.
 
-**Break:** \[00:22:25.15\]
+**Break:** \[22:25\]
 
 **Mat Ryer:** Yeah, it's interesting, the design process... What was that like, and how did it change? Was it always like it is now, or did it take a while for that design to happen?
 
 **Katie Hockman:** It definitely took a while. I was probably sitting in design mode for like six months. It was a long time, and not necessarily like a hundred percent focus on that at every moment of that time, but it went from like "Okay, what is fuzzing? What are other people doing? What is go fuzz, and how does that look, and how do people like it? What do we care about?" And a lot of it was laying out what are the things that are important to us for this feature, and what's not, and making decisions about "Do we want to make our own fuzzing engine, or do we wanna use LibFuzzer, or existing fuzzing engines?" That was a big decision. And those things take a lot of time, because once you make that decision - it's the decision. You can't necessarily change it. So you really need to think about those things really deeply.
 
-\[00:24:22.15\] So it did change a bit over time, and there was some resistance to having this f.fuzz layout... Because it's different than a testing.t from a unit test. So people were like "Well, what if we just have a fuzz that just runs a lot more similar to go-fuzz?" And if you look at that design, it's a little bit different. That's what people are used to. So there was a little bit of resistance, like "Is that what we want? Is this what people are used to? Does this look right? Is this gonna provide us the flexibility that we need in the future?"
+\[24:22\] So it did change a bit over time, and there was some resistance to having this f.fuzz layout... Because it's different than a testing.t from a unit test. So people were like "Well, what if we just have a fuzz that just runs a lot more similar to go-fuzz?" And if you look at that design, it's a little bit different. That's what people are used to. So there was a little bit of resistance, like "Is that what we want? Is this what people are used to? Does this look right? Is this gonna provide us the flexibility that we need in the future?"
 
 So it was a lot of little things that were fixed over time, from an ever-growing group of people. Maybe at first it was like "I'll talk to Filippo Valsorda and a few other people, and talk to Dmitry Vyukov and others, and then maybe I'll bring in a few others, and a few others, and then the wider Go community, and so on." So it took a while, and a lot of small iterations of getting it to a good place. It's all been really, really useful.
 
@@ -164,7 +164,7 @@ So it was a lot of little things that were fixed over time, from an ever-growing
 
 **Katie Hockman:** Yeah, that's been difficult... And it's still something we have to push back on, because at the end of the day, we wanna do everything, and we always have to make decisions around what's a no, what's a not now, and what's a yes, and then everything in between. So there are a lot of things that we're like "Yeah, that sounds cool... Not yet." For example, dictionary support; that's something that some people do. I'm not even super-familiar with it, but I know that a lot of other fuzzers do those things to try to improve their mutator and their fuzzing engine. It's like, "That's gonna have to be later."
 
-\[00:27:52.14\] The improvements on making this the best fuzzing engine - that has to be later. We have to make the UX work first. Or even supporting structured fuzzing - how do we support structs, or other complex types? That can come later, we can add it. But each of those things, we have to make decisions on what's important to get out now, for the feedback part, and then what can we add later and make it better over time.
+\[27:52\] The improvements on making this the best fuzzing engine - that has to be later. We have to make the UX work first. Or even supporting structured fuzzing - how do we support structs, or other complex types? That can come later, we can add it. But each of those things, we have to make decisions on what's important to get out now, for the feedback part, and then what can we add later and make it better over time.
 
 **Johnny Boursiquot:** So you can totally see this with future versions of Go... My code, my fuzzing tests are not gonna break; they'll simply get better and faster and more performant.
 
@@ -196,7 +196,7 @@ So it was a lot of little things that were fixed over time, from an ever-growing
 
 **Katie Hockman:** Absolutely. Yeah, you can always just generate it on the fly, every time. That actually may be a good thing to do anyway. Even when we do support structs, if you have something that can create them in a way that's more guaranteed to pass any kind of validation and actually do something useful, that may be the best way to do it in the future anyway.
 
-**Mat Ryer:** \[00:31:55.25\] Yeah, one of the nice things about the design is that you are writing Go code. So again, it's familiar, and you can write Go code. You can do whatever you need to do to support that fuzzing process. And I think that as a design principle is also very clever. And I think -- I imagine we're gonna end up having talks at conferences of interesting ways of using the fuzzing capabilities.
+**Mat Ryer:** \[31:55\] Yeah, one of the nice things about the design is that you are writing Go code. So again, it's familiar, and you can write Go code. You can do whatever you need to do to support that fuzzing process. And I think that as a design principle is also very clever. And I think -- I imagine we're gonna end up having talks at conferences of interesting ways of using the fuzzing capabilities.
 
 **Katie Hockman:** I'm super-excited for that.
 
@@ -224,7 +224,7 @@ I don't have ideas for how to do that yet, but there's all these things that we 
 
 If we find a new crash or a new value that expands coverage even more, then we will minimize it, which means we're trying to find a smaller value that does the same thing... And after the minimization is finished, then we'll write that new value into the cache.
 
-**Katie Hockman:** \[00:36:10.12\] And to clarify also, just to add onto that - we also have two ways of storing corpus entries. We have the cache that he mentioned, and then we also have test data... So that test data directory that's within your package is actually where things like new crashes are stored. So if there's a panic or if there's a hit from a t.error or t.fatal, things like that, those are then written to test data. And how the fuzzing engine runs, and what it does, and how it interprets those two directories is a little different, because they serve a different purpose.
+**Katie Hockman:** \[36:10\] And to clarify also, just to add onto that - we also have two ways of storing corpus entries. We have the cache that he mentioned, and then we also have test data... So that test data directory that's within your package is actually where things like new crashes are stored. So if there's a panic or if there's a hit from a t.error or t.fatal, things like that, those are then written to test data. And how the fuzzing engine runs, and what it does, and how it interprets those two directories is a little different, because they serve a different purpose.
 
 **Mat Ryer:** That's very interesting, actually.
 
@@ -242,7 +242,7 @@ Does the fuzzing stuff interface in any way with current unit tests that you've 
 
 **Katie Hockman:** Um, also if you have existing tests, the nice thing about that f.fuzz function is that it doesn't take a testing.f, it takes a testing.t. So your fuzz target, that fuzz foo, which is the famous test foo, your top-level function takes a testing.f, and then you can call things like f.add to add a new corpus entry, or maybe f.cleanup if you need some cleanup to run at the end.
 
-\[00:39:57.01\] But when you run that f.fuzz function, it takes a testing.c and the inputs that you would need, maybe similar to a t.run, where it takes a t and it takes some of the values that are going in, or something like that.
+\[39:57\] But when you run that f.fuzz function, it takes a testing.c and the inputs that you would need, maybe similar to a t.run, where it takes a t and it takes some of the values that are going in, or something like that.
 
 Basically, if you have existing unit tests, you can copy those into a map.fuzz function, wrap it around a little fuzz target - we have a fuzz target - and a dream would be in the future that people just write their unit tests like that a lot of the time. Anytime there's value in writing and fuzzing something, you just write the unit test as a fuzz target, with an extra line basically of an f.fuzz, and then you have everything... Instead of having your table-driven tests where you have your struct, your test cases and you put them all above, and then you do t.run, you can do things like f.add and you can do each of those in that way, as part of a seed corpus - the beginning corpus that's running, and then all of your code that would have been in t.run just goes into f.fuzz.
 
@@ -260,7 +260,7 @@ Basically, if you have existing unit tests, you can copy those into a map.fuzz f
 
 **Mat Ryer:** That's really good, isn't it? It actually is really good. Those kind of properties, I think... I can see this becoming the new way that you -- not probably in every case, but in cases where it makes sense, I can see that becoming the kind of default way that you do write tests. Very interesting.
 
-**Break**: \[00:42:32.27\]
+**Break**: \[42:32\]
 
 **Mat Ryer:** What was a difficult thing you remember from the design process? Is there anything that stands out as tricky or contentious or something that really took time to get to grips with?
 
@@ -294,7 +294,7 @@ And we also -- we can't do it entirely statically either. We talked a while ago 
 
 And I notice in the example on the website that you have a parse query, you have the URL parser kind of function that's being tested there... And if it errors, if the query string gets given errors, you just call t.skip. So that's interesting... The user kind of becomes responsible for verifying maybe sometimes in test code that the input does actually make sense, right?
 
-**Katie Hockman:** \[00:48:11.23\] Yeah. So in that case, if it doesn't pass the basic check... Let's say you wanna do something like decode it, and then encode it, and then decode it again, but the first time it fails. You're like "Okay, well, what was given is not valid, so I'm just gonna skip it." There's no error that makes sense for that. But if it passed the first time - let's say it successfully decoded it, and then I re-encoded it, and I tried to decode it again and then that second times it fails, that's a problem. Something happened somewhere in there. So you have to kind of make those decisions in that moment.
+**Katie Hockman:** \[48:11\] Yeah. So in that case, if it doesn't pass the basic check... Let's say you wanna do something like decode it, and then encode it, and then decode it again, but the first time it fails. You're like "Okay, well, what was given is not valid, so I'm just gonna skip it." There's no error that makes sense for that. But if it passed the first time - let's say it successfully decoded it, and then I re-encoded it, and I tried to decode it again and then that second times it fails, that's a problem. Something happened somewhere in there. So you have to kind of make those decisions in that moment.
 
 **Mat Ryer:** Yeah, it makes sense, because in that sense you're not testing -- you have to also care about what you're testing and be aware of that, but I think that also the fact that this is a Go function that you're writing really helps there, because you're just writing Go code, and we know how to write Go code. So we get to kind of transfer all that knowledge straight over.
 
@@ -320,7 +320,7 @@ So what we've just added was basically in the cases where it can be converted (h
 
 **Mat Ryer:** In the go-fuzz package on the repo there is a trophies section where it lists out quite a big list of things that it's helped find and bugs that it's fixed. Do you see this having a similar kind of thing?
 
-**Katie Hockman:** \[00:52:18.09\] Yes. That's where I was \[unintelligible 00:52:18.17\] where people have DM-ed me on Twitter, or people have emailed me and been like "I've found a bug!" I'm like, "Great!" and I put it in the doc. At some point I wanna make that public, too. I'm still kind of collecting it. So that's where it's like, for now, tell one of us and we'll put it in the doc. But in the future, I wanna find a way to have people add to the trophy list, or at least report them in a more official way. But we do wanna know about those, so if you find one, please tell us, if you're interested in telling us.
+**Katie Hockman:** \[52:18\] Yes. That's where I was \[unintelligible 00:52:18.17\] where people have DM-ed me on Twitter, or people have emailed me and been like "I've found a bug!" I'm like, "Great!" and I put it in the doc. At some point I wanna make that public, too. I'm still kind of collecting it. So that's where it's like, for now, tell one of us and we'll put it in the doc. But in the future, I wanna find a way to have people add to the trophy list, or at least report them in a more official way. But we do wanna know about those, so if you find one, please tell us, if you're interested in telling us.
 
 **Johnny Boursiquot:** Are there security implications for some of those discoveries sometimes?
 
@@ -328,7 +328,7 @@ So what we've just added was basically in the cases where it can be converted (h
 
 **Mat Ryer:** So you can't keep secrets, basically. Okay. Well, speaking of unpopular... It's time for Unpopular Opinions!
 
-**Jingle**: \[00:53:23.16\] to \[00:53:39.17\]
+**Jingle**: \[53:23\] to \[53:39\]
 
 **Mat Ryer:** Okay, who's got a delicious unpopular opinion for us today?
 
@@ -398,7 +398,7 @@ Thank you so much to our guests, Katie Hockman, Jay Conrod, and of course, Johnn
 
 **Mat Ryer:** And we'll see you next time, on Go Time.
 
-**Break**: \[00:58:00.27\]
+**Break**: \[58:00\]
 
 **Mat Ryer:** I can't get over the copy and paste thing. \[laughter\] I've genuinely -- you're the first person I've ever met who had that opinion. I'm amazed.
 

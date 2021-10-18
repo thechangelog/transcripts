@@ -22,7 +22,7 @@ I should mention, our sister podcast, our rivals, those gophers over there at Go
 
 **Jerod Santo:** Let's get into the content before I say more ridiculous sentences, and talk about working from home. We should also mention, there's another aspect to this particular time, in that we're not all just working from home, we're also in more stressful circumstances than ever. So as far as the panel here goes, and our lives, and how we do our work, maybe we just go around real quick and share what our normal day is like, and what we're up to now. I'll start...
 
-\[00:03:59.14\] I've been working from home for my entire career, so I have a lot of experience at this. I'm thankful that my life right now doesn't feel all that different than it usually does, so I'm probably the least affected from the isolation, because I'm so used to it... But I know I'm a little rare in that way. How about you, Suz - are you really a worker-from-homer?
+\[03:59\] I've been working from home for my entire career, so I have a lot of experience at this. I'm thankful that my life right now doesn't feel all that different than it usually does, so I'm probably the least affected from the isolation, because I'm so used to it... But I know I'm a little rare in that way. How about you, Suz - are you really a worker-from-homer?
 
 **Suz Hinton:** I think Kball is actually in the same bucket as me. I did remote work at my last job for quite a bit, from both New York and from Seattle. Then I quit that job and got a new job. That job is in an office, so I've spent the last six months commuting into an office, and trying to rearrange my lifestyle around actually commuting in, and trying to optimize that commute, and things like that. I kind of really settled in. I have a plan on my desk, and everything... And then I'm back to remote. So that's been my situation.
 
@@ -58,7 +58,7 @@ I have switched my schedule now to starting at 4 AM and getting off around noon,
 
 **Jerod Santo:** \[unintelligible 00:07:33.09\] the daytime shift... So one thing that's nice at least is we're not completely talking out of the air. All of us have extensive experience working from home, and have dealt with a lot of the challenges. There are benefits, there are drawbacks; as with anything in the world of software, it depends... So we thought we would talk a little bit about where we work, and then how we work, and then how we not work, and maybe some of the pros and cons, giving tips and tricks along the way, or sharing our experiences...
 
-\[00:08:11.00\] I should also mention, a JS Party panelist that couldn't make it today, but also has extensive experience and has written about it is Chris Hiller. He has a great post which we'll put in the show notes called "Pro tips for devs working from home", which he spoke about as I think a pro tip on an episode of JS Party called "You don't have to dress up, but you do have to get dressed" I think is what it's called... Which, Kball, you were on that episode...
+\[08:11\] I should also mention, a JS Party panelist that couldn't make it today, but also has extensive experience and has written about it is Chris Hiller. He has a great post which we'll put in the show notes called "Pro tips for devs working from home", which he spoke about as I think a pro tip on an episode of JS Party called "You don't have to dress up, but you do have to get dressed" I think is what it's called... Which, Kball, you were on that episode...
 
 **Kevin Ball:** I was, yeah.
 
@@ -80,7 +80,7 @@ But for the kids, for them to understand - which we all just waved at Nick's dau
 
 **Kevin Ball:** Yeah. And once again, many folks who are being thrust right now into working from home, at the last minute, no ability to prepare or do anything like that... I've seen some pretty inventive setups. I saw somebody set up a standing desk where they had a cardboard area supported by LaCroixs or something like that, and various other things... Like, you can be inventive; circumstances are less than ideal.
 
-\[00:12:14.02\] If you're working from home because of an emergency like this, you can't go and build yourself a new room, like Jerod did, but you can think about how do you create that space, and at least a little bit of mental separation as much as possible.
+\[12:14\] If you're working from home because of an emergency like this, you can't go and build yourself a new room, like Jerod did, but you can think about how do you create that space, and at least a little bit of mental separation as much as possible.
 
 **Nick Nisi:** Totally. And I think one thing that can go a long ways is a decent pair of headphones. With noise-canceling maybe. Being able to tune out what's going on around you a little bit - that' can really help. Even if you're just playing white noise.
 
@@ -106,7 +106,7 @@ There's also an app called Noizio, which is for macOS, and it goes up into your 
 
 **Kevin Ball:** It took me a season to figure it out. I was like "Why am I so much less happy through the day? Oh, shoot. It's this lighting."
 
-**Nick Nisi:** \[00:16:06.19\] Yeah. I moved my office to the basement when my second kid was born, because he got the good room with all of the lighting in it... And it took me a long time to realize that maybe it was some lighting that's missing from my life, that really would make me happier during workdays. So I did get one of those seasonal-affective light that's supposed to simulate sunshine, and I'd just shine it on me occasionally.
+**Nick Nisi:** \[16:06\] Yeah. I moved my office to the basement when my second kid was born, because he got the good room with all of the lighting in it... And it took me a long time to realize that maybe it was some lighting that's missing from my life, that really would make me happier during workdays. So I did get one of those seasonal-affective light that's supposed to simulate sunshine, and I'd just shine it on me occasionally.
 
 **Suz Hinton:** I'm very sensitive to lighting, and I always have been. It's just how I am, noise and lighting. So for me, I always get so upset immediately, and I'll notice if the lighting is off. That's almost like a gift in this particular scenario... Because the first thing I do -- when i first move into this apartment that I'm currently in, I changed out every single light bulb to be the exact same temperature, and not to be "bad temperature", and tried to put full-spectrum lighting. You don't necessarily have to have those happy lights, because sometimes they're a bit expensive, but if you buy a full-spectrum light, that can actually produce something very similar to sunlight, which is very therapeutic for humans.
 
@@ -130,7 +130,7 @@ Anybody have any specific pics, or hardware, or anything in their space?
 
 **Suz Hinton:** For me, I like to warm up a space aesthetically... And expanding on that, what I mean is just having things that doesn't make it look like your room is very clinical. Because you're in your own space, you can actually be a bit more creative than perhaps you're allowed to be in an office... So even just things like a cork board - is that what you call it in America? Like a pinboard... And I put little knick-knacks and Polaroid photos and things up there, as well as the cheatsheet for OpenSCAD and things like that, that I constantly refer to. That makes me really happy.
 
-\[00:20:15.02\] And as far as being able to just cover walls with things, especially if you're in a rental - I have a giant tapestry, which is just like a piece of cotton with a printed design on it that I got from Society6. It's pinned with two thumbtacks. Sorry, I'm trying to internationalize how I'm describing these items...
+\[20:15\] And as far as being able to just cover walls with things, especially if you're in a rental - I have a giant tapestry, which is just like a piece of cotton with a printed design on it that I got from Society6. It's pinned with two thumbtacks. Sorry, I'm trying to internationalize how I'm describing these items...
 
 **Jerod Santo:** \[laughs\] You can localize them, no big deal...
 
@@ -160,7 +160,7 @@ If you're thinking about working from home for the long-term, or you have been w
 
 **Jerod Santo:** Okay, so real quick, Nick - hold that up high. We're gonna put into our show notes a picture of Nick with his Spiderman outfit, holding up his whatever that thing is. Underdesk elliptical. So you're not missing out, you'll find it in the show notes, and you definitely want to go to there.
 
-**Break:** \[00:23:29.26\]
+**Break:** \[23:29\]
 
 **Jerod Santo:** So we talked about where we work, and how we decorate, or arrange that location... The other big aspect of working from home is managing how you work, because a lot of the rules change at your house, than at an office environment; some for the better, some for the worst. Some of this depends somewhat on personality types, with regards to scheduling, and getting up in the morning and working, or staying up late and working...
 
@@ -180,7 +180,7 @@ The same way you might do in an office, think about what are you learning about,
 
 So imagine working from home, no one's looking over your shoulder, but also you're making up your own schedule for your own job at the same time. You might have maybe quarterly check-ins (at the most) with your manager for them to say "Yeah, you're sort of like on the right track in general." So I had to set up a very strict routine for myself in order to know what I was getting up in the morning for, if that makes sense.
 
-\[00:28:19.14\] So if I wanted to have "Oh, I'd like to have this one IoT project that I do, that the end result will be that a whole bunch of people will actually learn Azure IoT in a way that's approachable for them", I had to break that down into lots of little tiny things in order for me to understand what I needed to get done every day... Because there was just no mandate coming from management in that way.
+\[28:19\] So if I wanted to have "Oh, I'd like to have this one IoT project that I do, that the end result will be that a whole bunch of people will actually learn Azure IoT in a way that's approachable for them", I had to break that down into lots of little tiny things in order for me to understand what I needed to get done every day... Because there was just no mandate coming from management in that way.
 
 So even if you do work in a role where you're peeling off JIRA tickets, especially if you're a software engineer and you're working on a larger feature, it's very similar in that it would be good for you, especially if you're having less meetings now, it would be good for you to just make a list of "Okay, I want to at least have this and this and this part done of the JIRA ticket today." That would be similar to how you do things in an office, but you'd be surprised at how quickly that can unravel when you're at home, as was being mentioned before.
 
@@ -198,7 +198,7 @@ I think one of the big clarifications I've seen there that has been helpful is t
 
 And then the other thing for all of this, every type of communication - write stuff down. A lot of us have this sort of habit of doing things by verbal agreement, which is error-prone enough in an in-person setting, but you don't have the same feedback loops when you're remote and you're working more independently... So the more you can have things written down, and both of you agree that the written documents match your understanding of what's going on, the better time you're gonna have coordinating across people who are sometimes working in different timezones, sometimes working at different times... You know, your schedule may be shifted for any number of reasons, including childcare and other stuff... And just not having that in-person space to clear things up quickly.
 
-**Jerod Santo:** \[00:31:59.29\] It's hard to give scheduling advice that genericizes well, because we're all in so many different circumstances, and we all thrive and work differently. So I guess a small bit of advice - which may sound cliché - is to really know yourself and know in what circumstances you get a lot done, in what circumstances you struggle to concentrate, and then try to devise a schedule a schedule around that. Now, this of course assumes that you are given some autonomy around some schedule.
+**Jerod Santo:** \[31:59\] It's hard to give scheduling advice that genericizes well, because we're all in so many different circumstances, and we all thrive and work differently. So I guess a small bit of advice - which may sound cliché - is to really know yourself and know in what circumstances you get a lot done, in what circumstances you struggle to concentrate, and then try to devise a schedule a schedule around that. Now, this of course assumes that you are given some autonomy around some schedule.
 
 Some people don't have that, even if they're working from home. They have to be on Zoom all day, and they have to be 8 to 5, or whatever that is. In that case, I guess, just do what you've gotta do, fully realizing that the manager's schedule doesn't match a maker's schedule very well, and you'll probably struggle under those circumstances... But if you're given the autonomy to create your own schedule - well, go ahead and take the time to do that and analyze what's working, what's not working, and adjust... Because you know how well you can be productive when you're inspired, energized and excited, and how hard it is when you're not to power through.
 
@@ -214,11 +214,11 @@ All of this social distancing and everything like that - it feels really scary, 
 
 It's super-hard, it's super-scary, but just by doing this, you are helping not just yourself, but everyone around you, and you're helping the older folks, and the more at-risk folks. Lots of people are not obviously at risk than who are at risk. Somebody can look completely healthy and have an underlying condition that puts them at risk for this... So you are helping literally save your friends and co-workers. But yeah, that's a lot of emotional burden to bear. Give yourself the grace that yeah, you might not be at your best. It's okay.
 
-**Jerod Santo:** \[00:36:10.26\] On the communication front, I will just go ahead and plug a previous episode that we did - because we did an entire episode on communication skills... Which didn't assume remote work, but when you're giving communication skill advice to software developers, you do assume a certain amount of remoteness, and text-based communication, and all these kinds of things. Kball, you led that episode, and it was one of my favorites the last year. It's called "Remember, people are human" (episode 93). We will put that one in the show notes.
+**Jerod Santo:** \[36:10\] On the communication front, I will just go ahead and plug a previous episode that we did - because we did an entire episode on communication skills... Which didn't assume remote work, but when you're giving communication skill advice to software developers, you do assume a certain amount of remoteness, and text-based communication, and all these kinds of things. Kball, you led that episode, and it was one of my favorites the last year. It's called "Remember, people are human" (episode 93). We will put that one in the show notes.
 
 So if you want more on communicating while you're at home, or with people in remote places, we did a whole hour (maybe an hour-twenty) on that, on a previous episode.
 
-**Break:** \[00:36:56.24\]
+**Break:** \[36:56\]
 
 **Jerod Santo:** One of the hardest things about working from home is putting yourself to work... And that's no surprise, right? Like, "Well, it's hard to work, because I'm at home, and I don't wanna work at home." The surprising thing is sometimes just as hard is stopping working once you finally get it going... You've gotta stop. Because if you don't stop, then you're gonna die, I guess... I don't know. Eventually, you have to stop to sleep, but -- you know, it's hard time to separate that out, so we wanna talk about how you not work when you're at home... Because if your home is where you work, and you're at home, you're supposed to be working... But you're not supposed to be working all the time. How do you all deal with that?
 
@@ -234,7 +234,7 @@ So for me, having to just do a few extra steps to prepare dinner gets me out of 
 
 **Nick Nisi:** I was gonna say, try not to eat at your desk, if at all possible... But I'm guilty of it. Don't look at my desk. \[laughs\]
 
-**Jerod Santo:** \[00:40:03.08\] Do as I say, not as I do...
+**Jerod Santo:** \[40:03\] Do as I say, not as I do...
 
 **Suz Hinton:** Yeah, I think that's the single most powerful thing - just don't eat at your desk. Because it will enforce breaks.
 
@@ -276,7 +276,7 @@ So that, I think, is really the goal - to be able to have modes, and then to org
 
 **Nick Nisi:** And I think barring any hard and fast limits, like kids coming home, for example, or a spouse coming home, something like that... Something that you can do, kind of like what I mentioned for getting started for the day, coming up with a list - that's kind of like a routine that you go through. You can have a shut-down routine as well, or maybe you tidy things up around your desk, maybe you start working on what you want to accomplish tomorrow, you get code committed, things like that... And then from there, you kind of use that as a transition period between working and not working.
 
-**Suz Hinton:** \[00:44:09.08\] This reminds me of a section from Cal Newport's book where he was talking about -- he has this really dorky verbalization when he's done for the day, and I thought it was really cute. I'm trying to remember what it was, but I don't... The book was about focus; I'm also trying to remember the title, but I'm sure one of you would be able to remember it. It's not his minimalism one.
+**Suz Hinton:** \[44:09\] This reminds me of a section from Cal Newport's book where he was talking about -- he has this really dorky verbalization when he's done for the day, and I thought it was really cute. I'm trying to remember what it was, but I don't... The book was about focus; I'm also trying to remember the title, but I'm sure one of you would be able to remember it. It's not his minimalism one.
 
 **Jerod Santo:** I don't know, I'm just trying to imagine different sign-off phrases I would say, like "Well, all done for now..."
 
@@ -294,7 +294,7 @@ The other thing is having equally exciting hobbies, so that you can accomplish t
 
 When I reevaluated balance to be a dynamic tension, it got me thinking about "Okay, whatever I'm doing outside of work has to be pulling equally hard to how work is pulling." It's gotta pull my attention, it's gotta pull for my time. Another thing that really did it for me more than anything was kids... Because kids will pull harder than anything else in your life.
 
-**Jerod Santo:** \[00:48:11.03\] They will literally pull.
+**Jerod Santo:** \[48:11\] They will literally pull.
 
 **Kevin Ball:** They will literally pull, yes. \[laughter\] So that shifted me further. And I'm not saying you can or should have kids in response to this change. That's a choice that has many additional factors that go into it.. Though all this time stuck at home with partners --
 
@@ -332,7 +332,7 @@ When I reevaluated balance to be a dynamic tension, it got me thinking about "Ok
 
 Of course, everything's in the show notes. If you're listening not inside a podcast app, you can go to Changelog.com/jsparty/120 to find those notes. If you're in a podcast app, you know how to pop those show notes open. So let's do that now, and I'll share one here... A post which I'm working my way through right now by Justin Searls of Test Double. It's called "Remote, but not alone."
 
-\[00:51:46.08\] Justin's entire firm, Test Double, has been remote since 2011. He is a smart guy, with lots of good insights, so he has a very good post on the Test Double blog, all about his thoughts on working remote, both as a human, as an employee, and as a manager. So if you're in any of those perspectives, that's a good one to read. We'll put that one in there, and definitely submit that as a follow-up resource.
+\[51:46\] Justin's entire firm, Test Double, has been remote since 2011. He is a smart guy, with lots of good insights, so he has a very good post on the Test Double blog, all about his thoughts on working remote, both as a human, as an employee, and as a manager. So if you're in any of those perspectives, that's a good one to read. We'll put that one in there, and definitely submit that as a follow-up resource.
 
 **Kevin Ball:** I'll put one in... I'm shouting out some of my amazing colleagues at the company I work for called Humu. Our company is focused on behavior change and making work better for folks. Typically we work with large enterprises, but when all this remote work all of a sudden came out, a bunch of the scientists at the company quickly focused on building out a set of resources for folks who are working from home for the first time.
 
@@ -354,7 +354,7 @@ So I think that those three books are particularly relevant. There's the work, b
 
 **Jerod Santo:** Well, said. That is our show for this week. Hey, if you're out there and you're feeling particularly lonely, particularly isolated during this time, we hope this podcast and the podcasts that we produce plays a small role in keeping you connected to us. Of course, you can connect directly with us, hang out in Slack, be part of the Changelog community. Everyone is welcome here, there are no impostors... So that's all free and available to you at Changelog.com/community. We'll talk to you next time!
 
-**Break:** \[00:56:24.17\]
+**Break:** \[56:24\]
 
 **Suz Hinton:** There might be a bit of background noise... Queen Anne is just absolutely blooming right now, so there's a lot of gas-powered landscaping going on.
 

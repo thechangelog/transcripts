@@ -58,7 +58,7 @@ Jessie, you also have a new job, right?
 
 **Erik St. Martin:** A little star struck?
 
-**Jessie Frazelle:** \[00:04:00.23\] Yeah. \[laughs\]
+**Jessie Frazelle:** \[04:00\] Yeah. \[laughs\]
 
 **Carlisia Thompson:** Sarah Allen from Bridge Foundry also just joined Google. She's doing some mobile work and also using Go.
 
@@ -104,7 +104,7 @@ Jessie, you also have a new job, right?
 
 **Erik St. Martin:** No, and once it gets so big, people can't even keep up with the fact that they're submitting duplicate issues, because you can't find a similar issue.
 
-**Jessie Frazelle:** \[00:07:57.14\] Yeah. We were even fortunate to have someone who is so active in the project from the community itself; I swear, we all joked that he's like a human database of Docker issues. I swear, he really just knows them all, and he would be like "This one's a throwback to this other old one that's super old", so eventually Docker ended up hiring him, and I think that was like the greatest move ever. \[laughter\]
+**Jessie Frazelle:** \[07:57\] Yeah. We were even fortunate to have someone who is so active in the project from the community itself; I swear, we all joked that he's like a human database of Docker issues. I swear, he really just knows them all, and he would be like "This one's a throwback to this other old one that's super old", so eventually Docker ended up hiring him, and I think that was like the greatest move ever. \[laughter\]
 
 **Erik St. Martin:** It's like Damian for Docker issues. \[laughter\]
 
@@ -128,7 +128,7 @@ When you're stuck in a maintainer day and the day before that you were just abou
 
 After the design review, we go through and do a full-on code review, but I would say most pull requests that come in, they're like a typo change or some small fix. The feature requests are what take the most time, but when they're done correctly it can be smoother.
 
-**Erik St. Martin:** \[00:11:49.28\] Yeah, so I'm actually quite impressed by the pull request process for Docker when I went through that. There's a number of automated CI steps that it goes through. There's a document that it starts out, "Describe what the problem is, describe how you fixed it, give us a one-liner for what's gonna go in the changelog"... There's all this documentation that they expect you to put in there, and it's really clearly defined. It's probably one of the best I've seen, doing pull requests.
+**Erik St. Martin:** \[11:49\] Yeah, so I'm actually quite impressed by the pull request process for Docker when I went through that. There's a number of automated CI steps that it goes through. There's a document that it starts out, "Describe what the problem is, describe how you fixed it, give us a one-liner for what's gonna go in the changelog"... There's all this documentation that they expect you to put in there, and it's really clearly defined. It's probably one of the best I've seen, doing pull requests.
 
 **Brian Ketelsen:** Who put all that together, Jessie?
 
@@ -164,7 +164,7 @@ The entire CI once broke because of a stupid kernel bug, and then we ended up up
 
 **Carlisia Thompson:** Daily, I was gonna say.
 
-**Erik St. Martin:** \[00:16:01.12\] How can I love tech and hate tech so much at the same time?
+**Erik St. Martin:** \[16:01\] How can I love tech and hate tech so much at the same time?
 
 **Jessie Frazelle:** It's terrible. \[laughs\]
 
@@ -208,7 +208,7 @@ I think Brian was saying you have some experience with Linode, right Jessie?
 
 **Jessie Frazelle:** I didn't even know about that, and now I feel like I just did it a terrible way with bash scripts. \[laughter\]
 
-**Brian Ketelsen:** \[00:20:05.24\] Now, one thing that is missing - I know they've got SDKs for Python and Perl, PHP, Ruby, Java and Node, but there is no Go SDK. So anybody who's out there looking for an opportunity to make a mark in the Go land, a good place to start might be a Linode SDK for Go.
+**Brian Ketelsen:** \[20:05\] Now, one thing that is missing - I know they've got SDKs for Python and Perl, PHP, Ruby, Java and Node, but there is no Go SDK. So anybody who's out there looking for an opportunity to make a mark in the Go land, a good place to start might be a Linode SDK for Go.
 
 **Erik St. Martin:** And we have a discount code too, which is 'GoTime20', and you get two months free, which is a $20 credit. The nodes are $10 each per month, and these are all SSD and I think they have eight data centers to choose from.
 
@@ -236,7 +236,7 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Brian Ketelsen:** \[laughs\] I'm coming in with dragons next week.
 
-**Carlisia Thompson:** \[00:24:01.28\] But this is true, though. These companies have other places they can advertise, and they're advertising with us because they're supporters.
+**Carlisia Thompson:** \[24:01\] But this is true, though. These companies have other places they can advertise, and they're advertising with us because they're supporters.
 
 **Brian Ketelsen:** Yay, thanks to our sponsors.
 
@@ -294,7 +294,7 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Brian Ketelsen:** So for anybody who hasn't seen it yet, Jessie's dotfiles are the most amazing thing on the planet. I think that if I could take a month and just go spelunking through those dotfiles, I would be the happiest man on the planet.
 
-**Erik St. Martin:** \[00:28:02.03\] You know, I'm not important anymore. Brian used to borrow my dotfiles... \[laughs\]
+**Erik St. Martin:** \[28:02\] You know, I'm not important anymore. Brian used to borrow my dotfiles... \[laughs\]
 
 **Carlisia Thompson:** I went to check out her .vim files because I remember Brian mentioning it. Next week I'm getting a brand new machine, and for the first time in three or four years I've decided that I'm going to have clean slates. So I checked out Jessie's .vim file, and not only the vimrc file... She actually has a makefile there for you to run, and just magically configure out the things.
 
@@ -344,7 +344,7 @@ I've seen this... I think you've talked about it maybe a year or so ago, and I k
 
 **Erik St. Martin:** Yeah, I tried that for a workstation for a little while, and I got a little annoyed. For your own desktop you want it to be pristine, but sometimes you just gotta get stuff done and you shortcut, and you wish you didn't, but yeah...
 
-**Jessie Frazelle:** \[00:32:07.26\] Yes, that actually keeps me up at night. I just, I can't... \[laughter\]
+**Jessie Frazelle:** \[32:07\] Yes, that actually keeps me up at night. I just, I can't... \[laughter\]
 
 **Erik St. Martin:** It would keep me up at night if all sorts of other things weren't already keeping me up at night. \[laughter\] It's like there's no more time left. Alright, so everybody wanna talk about any news and projects?
 
@@ -374,7 +374,7 @@ The second time that I did it again was a few years later and it wasn't painful 
 
 I was talking to Dave Cheney one time and he was talking about how many times he rehearses it to make sure he's got his timing down right. And he knows exactly when he's falling behind and has to speed up or slow down and stuff like that, because he knows from this slide how long it takes to get to the end. I never would have thought about it that way... So preparation is everything; if you're fully prepared then you're not nearly as nervous, because you've rehearsed it so many times.
 
-\[00:35:59.19\] I think people step up on stage and they get nervous, they rush and they don't realize where they're sitting, whether they should slow down or speed up, which only adds to the nerves.
+\[35:59\] I think people step up on stage and they get nervous, they rush and they don't realize where they're sitting, whether they should slow down or speed up, which only adds to the nerves.
 
 **Jessie Frazelle:** Totally.
 
@@ -410,7 +410,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Carlisia Thompson:** I know you're super busy - if you give them to me I'll put it in. She's also on the Women Who Go channel and she has put a bunch of information. She opened a Trello board. Women, we have resources! I wanna get this thing kicked off. I know Cassandra Gil from Iron.io was looking for women to speak at the GopherFest recently, and she only got one submission from a woman, and it wasn't even technical enough. There are women Gophers out there, so let's get them speaking.
 
-**Jessie Frazelle:** \[00:40:04.00\] Totally!
+**Jessie Frazelle:** \[40:04\] Totally!
 
 **Brian Ketelsen:** Speaking of women Gophers, that Women Who Go birthday party last week was awesome.
 
@@ -472,7 +472,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** I haven't used GoCheck either... Does that do mocking or anything like that, or is it just extra assertions on...?
 
-**Jessie Frazelle:** \[00:44:06.13\] It's just extra assertions. I think that we were gonna use the other one and then we found some weird bug and then submitted a patch, but then decided to use GoCheck... I have no idea what we did there.
+**Jessie Frazelle:** \[44:06\] It's just extra assertions. I think that we were gonna use the other one and then we found some weird bug and then submitted a patch, but then decided to use GoCheck... I have no idea what we did there.
 
 **Erik St. Martin:** Somebody picked it and everybody stuck with it.
 
@@ -532,7 +532,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** So I need somebody to curate these lists for me. \[laughter\] Brian does it with GitHub projects. He just comes to me with a list of the cool ones, I don't have to dig through the whole thing. Now I just need somebody to give me a curated list of technical blog posts. The more technical, the better. I like when they make me feel dumb, because that means I have to learn stuff to understand it. Some of these - it's not hard to make me feel dumb either.
 
-**Carlisia Thompson:** \[00:47:57.24\] There is one more project I wanted to mention. Jesús Garcia Crespo, he mentioned Concourse and I hadn't heard about it. It's an open source CI system for Go, so if you wanna host your own CI, there you go.
+**Carlisia Thompson:** \[47:57\] There is one more project I wanted to mention. Jesús Garcia Crespo, he mentioned Concourse and I hadn't heard about it. It's an open source CI system for Go, so if you wanna host your own CI, there you go.
 
 **Brian Ketelsen:** That's a good one. \[cross-talk\]
 
@@ -588,7 +588,7 @@ We put it up on the GoBridge Park, it's a repo called "Presentation Help", and I
 
 **Erik St. Martin:** Actually, I don't think I'm signed up for the Nightly one. The weekly one I am, but not the nightly. That's terrible. I mean, how can you be a co-host on the Changelog podcast and not actually be subscribed to all of that stuff?
 
-**Brian Ketelsen:** \[00:52:04.25\] We're taking away your license to podcast.
+**Brian Ketelsen:** \[52:04\] We're taking away your license to podcast.
 
 **Erik St. Martin:** Right? Next week it will just be Brian and Carlisia. \[laughter\]
 
@@ -628,7 +628,7 @@ Jessie, we're kind of blindsiding you here, but do you have an open source proje
 
 Then also my co-worker from Docker, Michael Crosby, he has the world's best gists, but they're undocumented and completely random, but you'll find yourself in this goldmine of something 75% finished but super epically awesome.
 
-**Erik St. Martin:** \[00:56:14.29\] So you're just searching around for treasures...?
+**Erik St. Martin:** \[56:14\] So you're just searching around for treasures...?
 
 **Jessie Frazelle:** Yeah, and he's gonna be mad at me for stalking his gists.
 
@@ -718,7 +718,7 @@ Then also my co-worker from Docker, Michael Crosby, he has the world's best gist
 
 **Erik St. Martin:** This is fun, I think we can hang out here all day. It's still early where you are, right Jessie? \[laughter\]
 
-**Jessie Frazelle:** \[00:59:59.19\] Yeah, it's like two.
+**Jessie Frazelle:** \[59:59\] Yeah, it's like two.
 
 **Erik St. Martin:** Alright. I wanna thank everybody for being on the show, especially Jessie. This has been a lot of fun. I wanna thank the listeners, I definitely wanna thank our new sponsors, Linode and Equinox.
 

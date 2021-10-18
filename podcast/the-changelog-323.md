@@ -198,7 +198,7 @@ Also, if you have extensions, you have things like AdBlock Plus... How that work
 
 **Brian Bondy:** Yeah, they don't need to listen, and why would they listen if they can make money off your data...?
 
-**Break:** \[00:33:54.25\]
+**Break:** \[33:54\]
 
 **Adam Stacoviak:** Listeners, we take breaks, obviously, but during those breaks sometimes we have some conversation and we learn a little bit about our guest... And we asked Brian -- because we say "Hey, do you have anything to drink nearby? Go ahead and get a drink of water", whatever, and Brian didn't share it because he felt like it was better on the show... So Brian, how well did you prepare for your drinks? What do you have next to you?
 
@@ -346,7 +346,7 @@ So from a web developer's perspective, Brian, does Brave use the same dev tools 
 
 **Brian Bondy:** Yeah. There's other problems, too. If you search on Google, you'll get a Captcha thing right away pretty much, because they detect something's a little bit off, or weird, or they don't like the \[unintelligible 00:53:15.28\] So it's not the best experience, but it does give you the extra privacy.
 
-**Break:** \[00:53:28.29\]
+**Break:** \[53:28\]
 
 **Jerod Santo:** One major topic when it comes to Brave that we've touched on but we haven't focused on and we'll focus on now is the Basic Attention Token. You've got a cryptocurrency inside the browser, and potentially -- maybe not THE first, but one of the only real-world use cases so far for cryptocurrencies, aside from the straight-up value transfer of Bitcoin, and everybody else that can just transfer a value is this token that's all about attention, and using it inside Brave. It's very cool to see a cryptocurrency actually being used for a real-world use case and providing value. Tell us all about it, and we'll ask our questions once you give us the lay of the land of the way BAT works, how it works in Brave, and what you guys are doing with it.
 

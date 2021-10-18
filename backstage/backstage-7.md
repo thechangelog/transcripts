@@ -66,7 +66,7 @@ I feel like many action movies it's all about the action, and the stories are so
 
 **Adam Stacoviak:** That is the story!
 
-**Jerod Santo:** \[00:04:07.09\] By the way, spoiler alert... If you haven't seen John Wick one through three, we're gonna be spoiling the crap out of those.
+**Jerod Santo:** \[04:07\] By the way, spoiler alert... If you haven't seen John Wick one through three, we're gonna be spoiling the crap out of those.
 
 **Adam Stacoviak:** Yeah. I would definitely say if you plan to watch them, pause this show, or come back to it, put it on your list, go watch them and then come back, as we will definitely spoil things for you.
 
@@ -94,7 +94,7 @@ I feel like many action movies it's all about the action, and the stories are so
 
 **Adam Stacoviak:** I didn't wanna age anybody, but we were talking about our love or lack of love for Keanu as an actor... Going all the way back to 1986, Youngblood. I don't know if you recall that - it's got Patrick Swayze in it, it's got Rob Lowe in it...
 
-**Jerod Santo:** \[00:08:08.01\] Is it a Western?
+**Jerod Santo:** \[08:08\] Is it a Western?
 
 **Adam Stacoviak:** No, not at all. It's actually an ice hockey movie.
 
@@ -206,7 +206,7 @@ I feel like many action movies it's all about the action, and the stories are so
 
 **Adam Stacoviak:** The cultures here in Texas are built on the backs of football, for whatever reason. That's a stereotype, but it's true.
 
-**Brett Cannon:** \[00:11:58.22\] American football.
+**Brett Cannon:** \[11:58\] American football.
 
 **Jerod Santo:** Yeah, American football. That's right.
 
@@ -268,7 +268,7 @@ The thing about The Matrix, why he fit so well there, was because a guy for whom
 
 **Adam Stacoviak:** Well, that plays well to a trademark he is known for, which is intense, contemplative gaze. \[laughter\]
 
-**Jerod Santo:** \[00:15:58.13\] That's accurate.
+**Jerod Santo:** \[15:58\] That's accurate.
 
 **Brett Cannon:** The quiet loner thinking in the corner.
 
@@ -332,7 +332,7 @@ The thing about The Matrix, why he fit so well there, was because a guy for whom
 
 And I moved five times while I was in college, so I moved that TV five times. It was... Terrible.
 
-\[00:20:09.27\] But yeah, surround, 5.1, Atmos... I care about all those things. And then, the older I got, I've kind of like -- maybe I'm retired, or I think maybe the internet broke me, like watching YouTube on my phone now, or whatever it is... I just can't bring myself -- like, that being said, when I went to Adam's house and sat and watched... What did we watch? A scene from...
+\[20:09\] But yeah, surround, 5.1, Atmos... I care about all those things. And then, the older I got, I've kind of like -- maybe I'm retired, or I think maybe the internet broke me, like watching YouTube on my phone now, or whatever it is... I just can't bring myself -- like, that being said, when I went to Adam's house and sat and watched... What did we watch? A scene from...
 
 **Adam Stacoviak:** The Matrix.
 
@@ -406,7 +406,7 @@ And I moved five times while I was in college, so I moved that TV five times. It
 
 **Jerod Santo:** Awesome. I wish I would have seen them in the theater. That would have been an optimal experience, because they're so visual... It's mostly eye candy. Let me just first say that I love all three of these movies, so anything that I say beyond this point is nitpicking, and all that kind of stuff. These are all good. I don't think I'm in the minority there. These are movies that have done very well, they've obviously spawned multiple -- you don't make sequels when the first movie doesn't do well.
 
-\[00:23:58.22\] The quality is absolutely there, and the thing that I love about it, which I kind of kicked off from the start, is John Wick I - it just doesn't pull any punches; it doesn't try to deceive you into some plotline that ends up being unsatisfying. It's just like "Look, here's a guy, and he gets wronged." He's in pain because of the death of his wife, and you can tell there's a history there, but we don't know what the history is... And then these people steal his car and kill his dog, and now he's gonna kill every single person that has anything to do with them.
+\[23:58\] The quality is absolutely there, and the thing that I love about it, which I kind of kicked off from the start, is John Wick I - it just doesn't pull any punches; it doesn't try to deceive you into some plotline that ends up being unsatisfying. It's just like "Look, here's a guy, and he gets wronged." He's in pain because of the death of his wife, and you can tell there's a history there, but we don't know what the history is... And then these people steal his car and kill his dog, and now he's gonna kill every single person that has anything to do with them.
 
 That's the plot, and it just tells you that kind of right up in the first 15-20 minutes. After watching the second two films, I realized "Man, John Wick I doesn't actually have action for a while", because it is kind of establishing it, whereas the other two kind of start right in the middle of it. I think that's the advantage of sequels, they can do that. But it just doesn't try to be anything that it's not, and you're just like "Okay, I'm not expecting very much here besides awesome action", and then it delivers on that. So that's what I loved about John Wick I.
 
@@ -460,7 +460,7 @@ That's the plot, and it just tells you that kind of right up in the first 15-20 
 
 **Brett Cannon:** And he will do it with a pencil.
 
-**Adam Stacoviak:** \[00:27:57.13\] With a pencil!
+**Adam Stacoviak:** \[27:57\] With a pencil!
 
 **Jerod Santo:** Yeah...!
 
@@ -514,7 +514,7 @@ And what' also interesting is that all three movies take place within the same w
 
 **Adam Stacoviak:** Yeah. That's really interesting, how they have this subculture of what you can do and what you can't do, and kind of being called to a marker... Or when you're in that hotel - I think it's called The International...
 
-**Brett Cannon:** \[00:32:02.27\] The Continental.
+**Brett Cannon:** \[32:02\] The Continental.
 
 **Jerod Santo:** The Continental.
 
@@ -630,7 +630,7 @@ And what' also interesting is that all three movies take place within the same w
 
 **Jerod Santo:** Yeah, that whole--
 
-**Adam Stacoviak:** \[00:35:56.23\] The writing, and the whole underlying story, and the rules... I think that's really what keeps a storyline like this together. It's like, you can't just have action, like you said earlier, Jerod. You can't just have a storyline. You kind of have to have both. And part of that storyline is these rules that this unique world lives by.
+**Adam Stacoviak:** \[35:56\] The writing, and the whole underlying story, and the rules... I think that's really what keeps a storyline like this together. It's like, you can't just have action, like you said earlier, Jerod. You can't just have a storyline. You kind of have to have both. And part of that storyline is these rules that this unique world lives by.
 
 **Jerod Santo:** Yeah... Which is why I love Chapter 2. Because Chapter 1 was awesome action, and like I said, it was so barebones. There wasn't any story there. There wasn't even really - from my perspective - that much drama. It was just like "Let's watch Keanu Reeves kill everybody." And that's a really fun time.
 
@@ -688,7 +688,7 @@ And what' also interesting is that all three movies take place within the same w
 
 **Brett Cannon:** Or the relationship with Doc in Chapter 3, when he gets stabbed in the shoulder near a public library, and he has to go get that sutured up... And he helps him knowing full well that "Alright, you're gonna have to shoot me to prove to them that I actually didn't cheat and go past before you were excomunicado", but he still totally lets him come in, and helps him, and they say things to each other, and there's very much a cordial respect between them.
 
-\[00:40:15.19\] It definitely seems like there's a -- it goes both ways, where his humanity seems to have previously existed, prior to meeting his wife... But the other points, where it's like "Oh yeah, he's a stone-cold killer", and totally pushed people away because he totally just knocks someone out that they care about.
+\[40:15\] It definitely seems like there's a -- it goes both ways, where his humanity seems to have previously existed, prior to meeting his wife... But the other points, where it's like "Oh yeah, he's a stone-cold killer", and totally pushed people away because he totally just knocks someone out that they care about.
 
 **Jerod Santo:** Right. One thing I think they do a really good job of is making every character have something different and unique or interesting about them. There's a few just anonymous henchmen that die, of course, but anybody who has that relationship that you're talking about with John Wick, somehow they all have something about them that's intriguing... And a lot of times in movies you'll have these little bit parts, and they're throw-away parts that are like "Well, that didn't really add anything. I don't know that person, and I don't care. They're just like, whatever."
 
@@ -720,7 +720,7 @@ I think another thing about these films that's really interesting is you can ste
 
 **Adam Stacoviak:** Yeah. At some point I wanna play favorite character/favorite scene kind of thing...
 
-**Jerod Santo:** \[00:44:10.04\] Uuh, I like that.
+**Jerod Santo:** \[44:10\] Uuh, I like that.
 
 **Adam Stacoviak:** But there's more to go through... Let's not back from that, because I think there's some favorite characters I have, I'd love to say who they are and why, and then a few scenes that really stand out to me, so... Let's earmark that.
 
@@ -762,7 +762,7 @@ I think another thing about these films that's really interesting is you can ste
 
 **Adam Stacoviak:** Yeah. Commitment.
 
-**Jerod Santo:** \[00:48:08.05\] And I'm not a gun guy, but I have friends who are enthusiasts with guns, and these movies have a lot of respect among gun enthusiasts and people who are tactically trained, and handle guns on a regular basis and know how to take them apart and put them together, and all those kinds of things. They all respect - when I say "they all", the ones with whom I've... I don't wanna get global.
+**Jerod Santo:** \[48:08\] And I'm not a gun guy, but I have friends who are enthusiasts with guns, and these movies have a lot of respect among gun enthusiasts and people who are tactically trained, and handle guns on a regular basis and know how to take them apart and put them together, and all those kinds of things. They all respect - when I say "they all", the ones with whom I've... I don't wanna get global.
 
 **Adam Stacoviak:** How big is this audience?
 
@@ -858,7 +858,7 @@ So yeah, I've heard the same thing. People who are into guns actually respect th
 
 **Adam Stacoviak:** Far-fetched?
 
-**Jerod Santo:** \[00:52:03.06\] It moved from intriguing to somewhat convoluted. It's like borderline convoluted. I don't think they've actually jumped the shark with the story necessarily, with the world-building... There's just this inkling of like "Hmm..."
+**Jerod Santo:** \[52:03\] It moved from intriguing to somewhat convoluted. It's like borderline convoluted. I don't think they've actually jumped the shark with the story necessarily, with the world-building... There's just this inkling of like "Hmm..."
 
 **Brett Cannon:** They were pushing the envelope with that, I will agree.
 
@@ -908,7 +908,7 @@ So I do agree that the setups for the scenes were definitely more forced in thre
 
 **Jerod Santo:** Because two to me felt like it was happening to him. Like, all of a sudden, he was just reacting, and it was also fast, and I was down with that. But yeah, good point - when it goes back to his wife, it's kind of like returning to one's continuity, which makes two kind of stand out a little bit from the other two.
 
-**Brett Cannon:** \[00:55:46.11\] And I would totally understand two if they were not planning for a three. It seemed they were basically ending it at two. Then it would have gone like "Okay, we've got one. Now we've gotta find motivation for two, so now we're done." And "Oh, look, we've got a third. Well, let's maybe tie it back to his wife", versus -- there was obviously gonna be a connection from two to three, so it was like... Yeah, it went from "wife, to me, to wife", instead of some -- and maybe they just couldn't think of a better way to do the flying through... But that was my problem with two - that part of the story felt kind of out of place. It's like "I'm now the one that's angry and mad, and now I'm just gonna go kill everyone, because they want me to come back here and be in this world again, and I don't want to be."
+**Brett Cannon:** \[55:46\] And I would totally understand two if they were not planning for a three. It seemed they were basically ending it at two. Then it would have gone like "Okay, we've got one. Now we've gotta find motivation for two, so now we're done." And "Oh, look, we've got a third. Well, let's maybe tie it back to his wife", versus -- there was obviously gonna be a connection from two to three, so it was like... Yeah, it went from "wife, to me, to wife", instead of some -- and maybe they just couldn't think of a better way to do the flying through... But that was my problem with two - that part of the story felt kind of out of place. It's like "I'm now the one that's angry and mad, and now I'm just gonna go kill everyone, because they want me to come back here and be in this world again, and I don't want to be."
 
 But then if that's the driving force, he's way overdoing this... And then it gets to the end, where it seems like the driving force is "I don't wanna be part of this anymore, but I'm being forced to." And then it gets to the end, and it's like "Oh, well now I'm just gonna make war life really hell, and just totally break one of the cardinal rules of this world, and really throw everything out the window", versus something else that would lead to him like, I don't know, watching a guard outside slip up, doing something that would allow him to more walk away, versus his "Lose my patience, and I'm gonna totally overblow it." And then go into three, where it's suddenly like "Oh, I overblew it. Now I've gotta try to fix the whole thing, so I can be the one who remembers my wife etc.", which also felt a little stretched... But once again, that's because of two, because he did this thing knowing full well that he would end up in that situation.
 

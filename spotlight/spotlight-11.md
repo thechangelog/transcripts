@@ -1,6 +1,6 @@
-**Adam Stacoviak:** \[00:00:31\] Welcome to our Spotlight series titled The Future Of Node, recorded at Node Interactive 2016, in Austin, Texas. We produced this in partnership with the Linux Foundation, the NodeJS Foundation and it's sponsored by IBM and StrongLoop.
+**Adam Stacoviak:** \[00:31\] Welcome to our Spotlight series titled The Future Of Node, recorded at Node Interactive 2016, in Austin, Texas. We produced this in partnership with the Linux Foundation, the NodeJS Foundation and it's sponsored by IBM and StrongLoop.
 
-**Break:** \[00:00:43.29\] to \[00:01:05.02\]
+**Break:** \[00:43\] to \[01:05\]
 
 **Adam Stacoviak:** In this episode I talked with Rachel White, Technical Evangelist at Microsoft, about Node, IoT, robotics... We talked about making robots, inspiring developers to try new things, having fun as a developer, letting go of impostor syndrome, RFID implants and making stuff for fun, outside of our day-to-day jobs. Take a listen.
 
@@ -29,7 +29,7 @@ I get paid to make things like that. I can get people excited to try out-of-the-
 
 **Adam Stacoviak:** Fun stuff!
 
-**Rachel White:** \[00:03:47.05\] Yeah. You could totally use it for more applicable things. I would like to think that I am more reaching out to the people that may not have had too much experience with Node, and then they'll see this application -- I always open-source everything that I make, and I write the readme super documented, not making any assumptions about what the user might know, down to "Go to the website and install Node" and "Install NPM, and do all of these steps", so hopefully they can make their own weird and cool stuff by the end of it.
+**Rachel White:** \[03:47\] Yeah. You could totally use it for more applicable things. I would like to think that I am more reaching out to the people that may not have had too much experience with Node, and then they'll see this application -- I always open-source everything that I make, and I write the readme super documented, not making any assumptions about what the user might know, down to "Go to the website and install Node" and "Install NPM, and do all of these steps", so hopefully they can make their own weird and cool stuff by the end of it.
 
 **Adam Stacoviak:** That's really interesting, because you get a chance to 1) open source fund interesting projects, but also use a creative side to yourself that -- I don't wanna say not important, because it's not production code, but at the same time you have this level of freedom in your code that isn't restricted by business requirements, isn't restricted by revenue-generating things, that you can kind of like whimsically tinker, which to me is like a box of legos.
 
@@ -53,7 +53,7 @@ It was kind of exciting, because that one was the longest readme I've ever writt
 
 **Rachel White:** Yeah, and another thing too... A term that I learned recently from a good friend of mine who's a self-taught chef - autodidact learning, where you learn by doing, is pretty much the only way that I am good at absorbing any kind of information. If I can't visualize exactly how something is working, then I'm not going to get the concept of it. You could explain theory to me all day and it's gonna fly in one ear, out the other.
 
-\[00:07:58.26\] I've been programming for like 15 years; I don't have a CS background and I'm still really terrible at memorizing syntax, or... I don't know anything about any kind of SWORDing - I don't know any of that stuff, but I can probably figure anything out. I always tell people that I'm not a good engineer, and then there's always like "Oh, don't say that..." I'm like, "No, it's fine... I'm really good at problem-solving though", which I would rather be proud of, because I could figure something out; it might just take me a little bit longer... So it's probably good that I'm not writing production code.
+\[07:58\] I've been programming for like 15 years; I don't have a CS background and I'm still really terrible at memorizing syntax, or... I don't know anything about any kind of SWORDing - I don't know any of that stuff, but I can probably figure anything out. I always tell people that I'm not a good engineer, and then there's always like "Oh, don't say that..." I'm like, "No, it's fine... I'm really good at problem-solving though", which I would rather be proud of, because I could figure something out; it might just take me a little bit longer... So it's probably good that I'm not writing production code.
 
 **Adam Stacoviak:** How do you feel when I say this: "Not an impostor"?
 
@@ -73,7 +73,7 @@ I gave a hardware talk at Node Interactive EU and I was doing four hardware demo
 
 **Rachel White:** Yeah, and I'm like, "Oh, whatever... I have to get through this, otherwise we're gonna sit here and stare at each other for 20 minutes." And even yesterday - I'm not giving hardware demos at the moment - I was demo-ing a new bot, and the internet was kind of spotty. It was still working, and surprisingly, I didn't have any code errors... I forgot how to use PowerPoint!
 
-\[00:12:03.15\] So during my presentation, after I switched from the PowerPoint slides over to some live coding demonstrations, I needed to get back to my slides, but we were already halfway through, and I couldn't remember that they key command on Windows is Shift+F5 to get to a specific slide...
+\[12:03\] So during my presentation, after I switched from the PowerPoint slides over to some live coding demonstrations, I needed to get back to my slides, but we were already halfway through, and I couldn't remember that they key command on Windows is Shift+F5 to get to a specific slide...
 
 **Adam Stacoviak:** Of course, why would you remember that?
 
@@ -115,7 +115,7 @@ She encouraged me to just apply, and I did. And now, here we are. I get to tortu
 
 **Rachel White:** I do, I enjoy doing it. The majority of that was before I took the role of technical evangelist, so it was all in my spare time.
 
-**Adam Stacoviak:** \[00:16:06.06\] Yeah, and now it's what you do.
+**Adam Stacoviak:** \[16:06\] Yeah, and now it's what you do.
 
 **Rachel White:** I thought I was tired when I was doing it outside of work, and now that it's my job, I'm even more tired.
 
@@ -151,7 +151,7 @@ Putting that back to you, do you find that the fun mechanism in what you do is w
 
 **Adam Stacoviak:** You seem very down to earth...
 
-**Rachel White:** \[00:19:52.08\] Yeah, I really try and explain stuff in a way that makes sense. Like, I'm talking about Markov chains, I'm talking about stochastic stuff -- I had to look it up; I was like, "I don't know what this means." I know what Markov chains are and how they work - kind of - so I'm explaining it and I'm giving the technical definition and I'm like, "Yeah... Let's just look at a visual aid of how this works." Or really just breaking things down in a simple way, so that that is approachable.
+**Rachel White:** \[19:52\] Yeah, I really try and explain stuff in a way that makes sense. Like, I'm talking about Markov chains, I'm talking about stochastic stuff -- I had to look it up; I was like, "I don't know what this means." I know what Markov chains are and how they work - kind of - so I'm explaining it and I'm giving the technical definition and I'm like, "Yeah... Let's just look at a visual aid of how this works." Or really just breaking things down in a simple way, so that that is approachable.
 I also think the fact that I'm presenting things in an interesting setting is interesting to some people, though at conferences you can definitely tell... You get a lot of different people. You get the people that are sent by their company, that are already developing enterprise applications; they could not care less what I'm talking about, but I'm not there trying to speak to them; they already are involved in the community and utilizing it. I'm there for the people that are like, "What if I could do that?" and I just want people to feel like they could.
 
 **Adam Stacoviak:** We got derailed at the mention of my buddy trying to learn, and we kind of got back into this other groove, but I wanna go deeper in the hardware, and that kind of fun stuff. So you've done some things with NodeBots, I believe, right?
@@ -186,7 +186,7 @@ But it's a hardware example of something that's super weird, but all it is is a 
 
 **Adam Stacoviak:** iPhone.
 
-**Rachel White:** \[00:24:04.29\] Oh, iPhone closes off RFID stuff... But if somebody with an Android phone scans my hand, the text that pops up is "Follow me on Twitter" with my Twitter name.
+**Rachel White:** \[24:04\] Oh, iPhone closes off RFID stuff... But if somebody with an Android phone scans my hand, the text that pops up is "Follow me on Twitter" with my Twitter name.
 
 **Adam Stacoviak:** What?!
 
@@ -218,7 +218,7 @@ I hope that the future just encourages people to keep on being innovative and fi
 
 **Rachel White:** I just really hope that people keep on making stuff outside of their day-to-day job that they're interested in... You know, it's easy to say, "Yeah, I only wanna program if it's gonna make me money", and I understand that's super important, but if you have the time and the capabilities, make cool stuff and weird stuff that people find interesting, that will get new programmers interested in trying something new, that will inspire a student that maybe just is writing Python or Java stuff...
 
-\[00:27:52.11\] I also help out at a lot of hackathons, and some of the students are trying Node applications for the first time and they're like, "I can't believe how easy this is." It's a really good feeling to be able to expose people to something that they wouldn't have picked up and tried on their own.
+\[27:52\] I also help out at a lot of hackathons, and some of the students are trying Node applications for the first time and they're like, "I can't believe how easy this is." It's a really good feeling to be able to expose people to something that they wouldn't have picked up and tried on their own.
 
 **Adam Stacoviak:** I guess maybe one closing thought I might have is what - on the hardware side, or whatever side is more interesting to you - what's happening in Node right now that you're most excited about?
 
@@ -254,7 +254,7 @@ I'm really good at speaking vaguely, but it has a ton of stuff already built on 
 
 I think that it's only gonna help especially the Johnny-Five community grow even more. Because before, we would have to rely on Chris Williams' voodoospark firmware - which was great, and that's the first thing that I tried hardware on. That's what I had to install to get hardware to work with Node, but now there's such less of a boundary for people to just get up and running, instead of having to install some stuff in order to get where they need it to be.
 
-**Adam Stacoviak:** \[00:31:16.15\] Yeah. Any closing thoughts? This is, like I said, The Future Of Node Series - we're trying our best to inform and encourage the community to try new things, to get involved.
+**Adam Stacoviak:** \[31:16\] Yeah. Any closing thoughts? This is, like I said, The Future Of Node Series - we're trying our best to inform and encourage the community to try new things, to get involved.
 
 **Rachel White:** Yeah. If you're thinking of making something but thing that people might not like it, do it anyway, because you're never gonna know unless you try. I heard a quote from David Lynch once that was in regards to his films - when he has a vision, all of the creative process that he has that goes into it is super important to him, and it has a lot of meaning while he's making something. But once you're done and you release that into the world, your vision doesn't really matter anymore. That sounds unencouraging, but just think of when you put yourself out there the way that people will view the art that you're trying to make. Because I think that code is art - you're still making something from nothing...
 

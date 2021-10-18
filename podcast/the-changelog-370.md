@@ -12,7 +12,7 @@ When I sent the email with all of my ideas I didn&#39;t really expect him to hav
 
 **Jerod Santo:** Awesome. So you arrive at GitHub with this huge opportunity, and a chance to make a big impact. Now, we all know, we&#39;re looking back at what GitHub Sponsors is now, but when you arrived there, it was probably just a bunch of ideas, and there were so many different routes to go...
 
-**Adam Stacoviak:** [00:04:09.04] And opinions.
+**Adam Stacoviak:** \[04:09\] And opinions.
 
 **Jerod Santo:** Yeah, exactly.
 
@@ -36,7 +36,7 @@ That shape of problem really frustrates me and  makes me sad, and I thought that
 
 So we&#39;re working iteratively to put small changes out at a time, make sure they&#39;re actually working, testing them, and then moving that edge a little bit further out towards point B. So concretely, what this means is in May we launched the beta of GitHub Sponsors... And we could have, in theory, just said &quot;Everyone can join at any point&quot;, but because this was such a new thing for GitHub, we wanted to take it slowly, make sure we had feedback before we rolled it out across the entire community. Because frankly, this stuff is really serious, so we could  have really messed it up.
 
-**Adam Stacoviak:** [00:08:21.14] Yeah.
+**Adam Stacoviak:** \[08:21\] Yeah.
 
 **Devon Zuegel:** So it&#39;s now out of beta for 30 countries; we&#39;ve rolled it out now to a vast majority of countries. That was just a few weeks ago that that happened. And the thing that gave us more confidence was that we were getting a lot of positive feedback from users. We did make some adjustments to make sure that things worked better for people before rolling it out... And we plan to continue taking what&#39;s really an incremental approach, where we do one small thing at a time, as opposed to totally changing it.
 
@@ -62,7 +62,7 @@ I remember there was actually a tweet one point where someone realized that Dani
 
 **Adam Stacoviak:** Very cool.
 
-**Devon Zuegel:** [00:11:53.01] All over the place. It was really awesome. There&#39;s GitHub users everywhere... And the hypothesis that I went with was something that I got from Nadia Eghbal&#39;s Roads and Bridges report that she published in 2016, where basically she pointed out this whole coordination problem that we&#39;ve been talking about. That&#39;s the report that originally got me interested in the problem... But that was about the extent to which I had really concrete ideas about what GitHub should do. I was like &quot;GitHub should do something here, but I don&#39;t know what it is.&quot;
+**Devon Zuegel:** \[11:53\] All over the place. It was really awesome. There&#39;s GitHub users everywhere... And the hypothesis that I went with was something that I got from Nadia Eghbal&#39;s Roads and Bridges report that she published in 2016, where basically she pointed out this whole coordination problem that we&#39;ve been talking about. That&#39;s the report that originally got me interested in the problem... But that was about the extent to which I had really concrete ideas about what GitHub should do. I was like &quot;GitHub should do something here, but I don&#39;t know what it is.&quot;
 
 So I had calls or coffee or lunch with hundreds of open source developers, and sort of asked them &quot;What are the key missing pieces?&quot; And I think that was actually very key to our team being able to be effective within GitHub, where I came in -- when I did say &quot;Okay, I have some ideas about what we should do with the product, and how GitHub.com itself should change&quot;, I had a lot of credibility within the company as someone who had spoken to maybe more open source developers than maybe almost anyone who was still there, just because I had spent the last four months just doing that. So there was just tons of user interview evidence that people want this, people are just waiting for GitHub to do it.
 
@@ -84,7 +84,7 @@ You mentioned giving people an effective way to give, and what do you think the 
 
 **Devon Zuegel:** Before GitHub Sponsors existed, if you wanted to donate to or sponsor a project, you had to go outside of your usual workflow and go find them. This meant that it really benefitted people with really big Twitter followings, or someone who had a newsletter or a podcast already... And there&#39;s a lot of amazing people for whom that&#39;s true, but for most open source developers - they don&#39;t have that kind of distribution. So for us it was key to just be putting this in the repository, or on your readme, on your profile page from the get-go.
 
-[00:16:09.05] Now there&#39;s a lot of times where I&#39;ll use an open source project, and I&#39;d never heard of the developer before, but I really depend on it. So then I click that heart button and I sponsor them. For example, there&#39;s this open source note-taking tool I use called Joplin. I really like it, and I&#39;ve started contributing more to it recently too actually, and I had never heard of the maintainer; I think it&#39;s pronounced Laurent, but it&#39;s French, and I&#39;m bad with pronouncing French words. But Laurent - I&#39;d never come across his Twitter or anything like that before, but I use this tool all the time... So it was just so natural; the last time I looked at documentation I was like &quot;Oh, I guess I should sponsor this guy.&quot;
+\[16:09\] Now there&#39;s a lot of times where I&#39;ll use an open source project, and I&#39;d never heard of the developer before, but I really depend on it. So then I click that heart button and I sponsor them. For example, there&#39;s this open source note-taking tool I use called Joplin. I really like it, and I&#39;ve started contributing more to it recently too actually, and I had never heard of the maintainer; I think it&#39;s pronounced Laurent, but it&#39;s French, and I&#39;m bad with pronouncing French words. But Laurent - I&#39;d never come across his Twitter or anything like that before, but I use this tool all the time... So it was just so natural; the last time I looked at documentation I was like &quot;Oh, I guess I should sponsor this guy.&quot;
 
 **Jerod Santo:** So it definitely brings it right top-level, right there next to the star, or the fork button, so primo real estate for knowing that this is a person who you can sponsor, and I agree that probably of the  winds that GitHub brings, that&#39;s the major one in terms of just awareness.
 
@@ -104,7 +104,7 @@ The way we see it - we sort of help with the distribution and visibility side of
 
 Now, how you do that, of course, is challenging, but once you have some money, especially in a group - it&#39;s not a solo person, it&#39;s a team - you do have challenges that come up. So you said &quot;We&#39;re taking extra care in our early stages to encourage transparency and share insights with contributors on how funding decisions are made.&quot; So I&#39;m just curious how you&#39;re going about encouraging that transparency, and what you think the fruit of that will be, and maybe the Open Collective integration is a part of that.
 
-**Devon Zuegel:** [00:20:13.12] Yeah... So Open Collective has really good tools for this, so I&#39;ve been really excited to see people taking that up a lot more, and showing where the funds are spent... One of the key things we&#39;re doing right now -- well, there&#39;s two key things. One is when an organization signs up for the waitlist, we have a pretty extensive application form. When I think &quot;pretty extensive&quot; I think having really good answers to all that is a small project in and of itself; it&#39;s not something you just casually tie up. And the reason we put that there is sort of a theoretical reason.
+**Devon Zuegel:** \[20:13\] Yeah... So Open Collective has really good tools for this, so I&#39;ve been really excited to see people taking that up a lot more, and showing where the funds are spent... One of the key things we&#39;re doing right now -- well, there&#39;s two key things. One is when an organization signs up for the waitlist, we have a pretty extensive application form. When I think &quot;pretty extensive&quot; I think having really good answers to all that is a small project in and of itself; it&#39;s not something you just casually tie up. And the reason we put that there is sort of a theoretical reason.
 
 One of the models that I created during my research was this recognition that because it is so easy to start a new open source project, which is again, one of the biggest strengths of it; anyone can just go and create a repo and start sharing their code... But it often means that people haven&#39;t put much thought into how to govern the project, who is the owner of the project, which stakeholders get to be part of the decision?
 
@@ -116,7 +116,7 @@ And then the second thing we&#39;re doing is just by starting it as a beta, we a
 
 **Adam Stacoviak:** It kind of reminds me of marriage counseling, Jerod... Prior to getting married, one of the cool things and useful things to do is to have some counseling, because you kind of get on the same page about what you intend for your marriage... In this case it&#39;s more like founding counseling. &quot;How might it be best to get funding? How might it be best to organize this repo/project that has matured over time, or is still immature, and has some areas to refine itself, and be better positioned to take on funding?&quot;
 
-**Devon Zuegel:** [00:23:46.19] That&#39;s a great metaphor. I really like that a lot. And even if I don&#39;t end up going in and actually giving advice, just having the team write down what their goals are with the money and how they plan to share it I think is just a great exercise for really any team to do at any point. But we want to encourage them to do that especially at this point, if they haven&#39;t done so already.
+**Devon Zuegel:** \[23:46\] That&#39;s a great metaphor. I really like that a lot. And even if I don&#39;t end up going in and actually giving advice, just having the team write down what their goals are with the money and how they plan to share it I think is just a great exercise for really any team to do at any point. But we want to encourage them to do that especially at this point, if they haven&#39;t done so already.
 
 **Adam Stacoviak:** Yeah, that&#39;s really wise. I mean, how to spend money is very personal in some cases, and then when you start to organize people that are - as you&#39;d mentioned before, going to Singapore and to New York and to other places - in a diversity of geolocation... That means monetary, that means currency, and potentially maybe even cultural changes that may impact the way you feel about using money towards your project.
 
@@ -142,11 +142,11 @@ I think all of these platforms, GitHub included - it&#39;s really in all of our 
 
 **Devon Zuegel:** That&#39;s still sort of a loose definition, but that&#39;s the one that I roughly work with. And I think these are just the most valuable people on the platform, again, both for GitHub and for the whole community. There&#39;s just amazing alignment there, and it&#39;s a place where we can have a lot of impact on the quality of the overall community.
 
-[00:27:52.23] As for timing, I think there&#39;s two answers to the question. One is that I think it may have been too early any time sooner. Like we were talking about before, three years ago this was still a pretty new topic on people&#39;s minds... Or at least the rendition of the conversation that we&#39;re having now.
+\[27:52\] As for timing, I think there&#39;s two answers to the question. One is that I think it may have been too early any time sooner. Like we were talking about before, three years ago this was still a pretty new topic on people&#39;s minds... Or at least the rendition of the conversation that we&#39;re having now.
 
 I think the other piece was that while there had been a lot of conversation at GitHub for a really long time, and a lot of really thoughtful people had thought about it, no one had been the person to own it and to say &quot;We&#39;re gonna actually solve this now&quot; and say &quot;You know what, we feel like we actually have enough information to make a good step forward.&quot; Because this is really high stakes. GitHub can completely change the way open source works here for the worse, if we&#39;re not careful... So I think people were being very cautious. But then it got to the point where enough expertise had built up that the company felt &quot;You know what - we&#39;re ready to go now.&quot;
 
-**Break:** [00:29:01.11]
+**Break:** \[29:01\]
 
 **Jerod Santo:** Devon, you mentioned the button on the repo, you mentioned the FUNDING.yml and how you can specify how you like to take funding, you mentioned you added project support... Why don&#39;t you give the quick rundown of exactly as it exists today, how GitHub Sponsors works, and what people see and what they do with the feature.
 
@@ -156,7 +156,7 @@ When you click that sponsor button, you would be taken to Daniel&#39;s sponsorsh
 
 Just last week we made it possible for projects to receive funding, too. So if you would prefer to give to cURL, the project, as opposed to Daniel, the lead maintainer, you can also do that. It&#39;s a very similar process. We intentionally kept those two experiences as similar as possible, because really we want sponsors to just be able to fund whatever work that they care about, without having to really make a [unintelligible 00:31:46.16] decision between the two paths that they could go down.
 
-**Jerod Santo:** [00:31:53.02] What about organizations? I&#39;m thinking of like a Plataformatec, who has the Elixir project, they have the Ecto project, and I&#39;m sure they have other Elixir-related things... Can I say &quot;I wanna fund this organization on a monthly recurring basis&quot;, or it&#39;s just projects and individuals?
+**Jerod Santo:** \[31:53\] What about organizations? I&#39;m thinking of like a Plataformatec, who has the Elixir project, they have the Ecto project, and I&#39;m sure they have other Elixir-related things... Can I say &quot;I wanna fund this organization on a monthly recurring basis&quot;, or it&#39;s just projects and individuals?
 
 **Devon Zuegel:** So you can definitely fund that organization on a monthly recurring basis. One of the things that I was really excited about when we launched the ability to fund organizations was that it can be recursive. So you could have an organization that has projects, that has developers, and it kind of lets you build up to whatever level of complexity of organization as you want.
 
@@ -178,7 +178,7 @@ So what I&#39;d really like is for us as a whole ecosystem to keep offering new 
 
 **Devon Zuegel:**...30 countries can join. And if you fill out the application, I&#39;ll accept you by today or tomorrow, or the next time I go through all the applications. Then we&#39;re in beta still for sponsored developers in other countries, but we&#39;re working really hard to expand that list. And then sponsored organizations is in beta right now for all countries. And I forgot what your question was... Can you remind me?
 
-**Jerod Santo:** [00:35:58.22] The numbers on how many folks are involved, right?
+**Jerod Santo:** \[35:58\] The numbers on how many folks are involved, right?
 
 **Adam Stacoviak:** Yeah, kind of teeing it up... So trying to get a census of who&#39;s (I guess) giving you feedback. So my question was kind of driving towards what is -- I guess you kind of have three different customer types. You&#39;ve got individuals, you&#39;ve got organizations, and you&#39;ve got repositories... And they can all be one and the same, but they sometimes are not always. So you end up actually having  a very diverse set of needs or desires for  a funding model or sponsors model... So I guess my question was driving more towards what are the core things you&#39;re being asked for when it comes to getting funding? Is it tax-deductible donations or sponsorship opportunities? Is it more larger donations from corporations that use my open source project? Having an Instagram model, for example, where they get a billion dollars from Facebook, but [unintelligible 00:36:49.04] giving back to open source...? That was actually an example given by Nadia way back when she initially released some of her research around this subject... So I&#39;m just kind of curious what are some of the core things you&#39;re being asked for, or core things that are needs for GitHub Sponsors? ...but it&#39;s kind of diverse.
 
@@ -200,7 +200,7 @@ On the other hand, you could say there are people who would have given recurring
 
 I&#39;m actually pretty torn from a product perspective as to what to do... I generally bias towards giving people the options that they&#39;re asking for, unless I have a really, really good argument against it... But it&#39;s something that we wanna be very thoughtful about before we dive in. It&#39;s something that I&#39;ve been having a lot of conversations with the designers on our team, and talking to as many users as possible as we make these choices.
 
-[00:39:56.04] So that&#39;s sort of drilling down into one of the things you were asking about, but we&#39;re kind of thinking about the implications of all of these different pieces and trying to calibrate it appropriately.
+\[39:56\] So that&#39;s sort of drilling down into one of the things you were asking about, but we&#39;re kind of thinking about the implications of all of these different pieces and trying to calibrate it appropriately.
 
 **Adam Stacoviak:** What&#39;s pretty interesting is something you&#39;ve mentioned there, talking to the designers at GitHub about this, is  that these choices manifest into infinite complexity when it comes to hierarchy on  a web page or a design... And I guess ultimately the software behind it is empowered, but gosh, I&#39;m primarily an interface kind of person, and so I think about user experience all the time, and I actually was in the nonprofit business for a while, where we were doing recurring donations and single donations, and it was very difficult to sort of give people a well-ironed path that they can easily go down without having to give them so many user experience-fatiguing opportunities throughout the process, because you wanted to give them infinite opportunities to give, because hey, people are generous... &quot;Help me give the way I want to give, because I&#39;m the user I wanna do.&quot; And I actually asked this question to you before in the notes we sent you about what we might ask you... Because I actually almost gave somebody some money recently through a sponsorship, and I wanted to give them a one-time -- it wasn&#39;t a long-time sponsorship opportunity for me, and I couldn&#39;t give them a one-time donation... I was like &quot;Hm. Okay.&quot;
 
@@ -212,7 +212,7 @@ For example -- I mean, I know the norms of GitHub Sponsors, because I&#39;ve bee
 
 So we think a lot about trying to make it so that this is a really nice way to connect with people in your community and connect with the developers you depend on, as opposed to a source of even more friction and anxiety about how to relate with each other. But I think part of it too is setting those conventions and helping spread that understanding, and just developing those practices over time. So maybe it&#39;s just a question of waiting and people will become more comfortable.
 
-**Adam Stacoviak:** [00:43:43.25] Well, I think there&#39;s certainly something to be gained from the simplicity of one type of model, although I think over time you could be pressured into doing one-time donations or one-time sponsorships... But even the words collide - donations, sponsorships... Because this isn&#39;t called Donations, it&#39;s called GitHub Sponsors. You want people to sponsor an organization, an individual or a project to enable it to do its thing in the future. It&#39;s not a donation platform, it&#39;s a sponsorship platform.
+**Adam Stacoviak:** \[43:43\] Well, I think there&#39;s certainly something to be gained from the simplicity of one type of model, although I think over time you could be pressured into doing one-time donations or one-time sponsorships... But even the words collide - donations, sponsorships... Because this isn&#39;t called Donations, it&#39;s called GitHub Sponsors. You want people to sponsor an organization, an individual or a project to enable it to do its thing in the future. It&#39;s not a donation platform, it&#39;s a sponsorship platform.
 
 **Jerod Santo:** There&#39;s one (I think) pretty clear place where you could stay inside of the current use case and extend, which is you can now sponsor an organization, a project, an individual, but you can&#39;t sponsor an issue. So I think where one-off sponsorships make sense single-time is in a bounty-style system. I know I&#39;ve had a situation where I said &quot;If I could just pay money to get this thing fixed, I would. I&#39;d happily pay this. But it&#39;s been sitting open for X months and I don&#39;t have the skills or the time to do it myself, and I&#39;m not gonna nag the person and beg them to do it, because I understand where they&#39;re coming from as a maintainer... But if I could give them $500 or $100 or whatever it is, I would happily do that.&quot;
 
@@ -270,7 +270,7 @@ So we&#39;ve been talking about sponsors, and Adam, you mentioned they don&#39;t
 
 **Adam Stacoviak:** We&#39;ve retired Spotlight. I called it Spotlight, so he&#39;s winning right now, for a lack of better terms... He&#39;s winning. So do you have a better name, Jerod?
 
-**Jerod Santo:** [00:52:10.06] Oh, all the pressure right now... I&#39;ll just say Devon drilled it with GitHub Sponsors; of course, I didn&#39;t think about it nearly as much as she and the team did, but... No, I like it. I like it.
+**Jerod Santo:** \[52:10\] Oh, all the pressure right now... I&#39;ll just say Devon drilled it with GitHub Sponsors; of course, I didn&#39;t think about it nearly as much as she and the team did, but... No, I like it. I like it.
 
 **Adam Stacoviak:** There you go, Devon. You&#39;re good to go then.
 
@@ -294,7 +294,7 @@ But I do think that if your vocabulary or if your grammar don&#39;t make  it eas
 
 **Devon Zuegel:** But yeah, names really matter, which is why I grueled over, trying to think of a better name... But it is GitHub Sponsors now, and probably it won&#39;t change at this point.
 
-**Break:** [00:54:32.25]
+**Break:** \[54:32\]
 
 **Adam Stacoviak:** So when it comes to discovery, Devon, around open source, if I&#39;m not knee-deep in it, like Jerod and I tend to be when it comes to the Changelog and things we do around here at Changelog Media, if I&#39;m not in the position of me or Jerod and I&#39;m just wanting to give to open source, it&#39;s kind of difficult, I would say, to find out what might be interesting... So what do you have in plans for discovery of open source that needs to be sponsored? Like, if I wanted to give to open source, what might the future look like around discovery?
 

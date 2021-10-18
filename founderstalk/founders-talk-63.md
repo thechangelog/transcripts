@@ -24,7 +24,7 @@
 
 **Adam Stacoviak:** So was Lambda School always what you wanted to do, or...? When you were driving to Silicon Valley, I'm assuming in the Honda Civic, you were thinking something - what was on your mind? What were you dreaming of?
 
-**Austen Allred:** \[00:03:48.20\] At that time I wasn't really sure... I knew I wanted to start something, I knew I wanted to be in tech. When I was younger, I actually had this random chance to sit down for half an hour with some NASA astronaut... I asked him basically "How did you end up being an astronaut?" Surely it's every kid's dream, or it seemed likely to me that every kid wanted to be an astronaut; later I learned that that's not actually what literally every kid wants to do... But how did you get there, and why did so few other people?
+**Austen Allred:** \[03:48\] At that time I wasn't really sure... I knew I wanted to start something, I knew I wanted to be in tech. When I was younger, I actually had this random chance to sit down for half an hour with some NASA astronaut... I asked him basically "How did you end up being an astronaut?" Surely it's every kid's dream, or it seemed likely to me that every kid wanted to be an astronaut; later I learned that that's not actually what literally every kid wants to do... But how did you get there, and why did so few other people?
 
 He said - and this still resonates with me - that his entire career, what he did was just try to figure out what he thought was the most exciting, and figure out how to get in the middle of it... So that was basically the entirety of my goal. I knew that Silicon Valley was exciting, I knew I loved tech, I loved the internet, I loved computers, so I just wanted to get in the middle of it. That was pretty much it.
 
@@ -54,7 +54,7 @@ We talked to a lot of students and said "What is it that you're looking for?" an
 
 So we started out by saying "Hey, let's figure out how to make free work." We wanted it to be longer than a normal code school, so we said "Hey, let's make it six months instead of three months. Let's charge $20,000 instead of $10,000, and if we get one or two people to pay upfront, then that funds the rest of the class." And we did just that.
 
-\[00:08:12.23\] We applied to YC saying "Hey, we're trying this free thing, and a ton of people are applying, so it seems like there's a business there, but we don't know what it is, nobody knows what it is", and that's basically how we got into YC. Then we started figuring it out from there. That was less than two years ago.
+\[08:12\] We applied to YC saying "Hey, we're trying this free thing, and a ton of people are applying, so it seems like there's a business there, but we don't know what it is, nobody knows what it is", and that's basically how we got into YC. Then we started figuring it out from there. That was less than two years ago.
 
 **Adam Stacoviak:** How many years into the start, for YC and that scenario there?
 
@@ -76,7 +76,7 @@ I think one of those things where every software engineer thinks they're a good 
 
 **Adam Stacoviak:** Everything's online, right? I'm curious how you merge what you just talked about there - the need for the talent, but also the ability to instruct and the education experience, so to speak, the curriculum... But then also marrying that with being anywhere. From what I understand, you take applicants in the United States and the European Union, so that means you've got two dramatically large areas in the world to use as a base, so to speak... But that means that they can come on to Lambda School from anywhere. They don't have to be there physically; that means, potentially, custom software. What's the software back-end behind things? Not so much the tech, but how much did you have to build to get to a concept to actually bootstrap and run on?
 
-**Austen Allred:** \[00:12:25.13\] In the early days not too much. It was pretty much Slack and Zoom. One of the things that people don't realize as much about Lambda School is that it's still live and interactive. There's actually a live instructor on the other side, teaching you in real-time. It's not a mook that we throw up on a platform and you just view the videos at your own pace. So the software aspect wasn't difficult; it was "How do you get people to participate in an online environment, the same way or better than they would in a physical environment?" All that kind of thing.
+**Austen Allred:** \[12:25\] In the early days not too much. It was pretty much Slack and Zoom. One of the things that people don't realize as much about Lambda School is that it's still live and interactive. There's actually a live instructor on the other side, teaching you in real-time. It's not a mook that we throw up on a platform and you just view the videos at your own pace. So the software aspect wasn't difficult; it was "How do you get people to participate in an online environment, the same way or better than they would in a physical environment?" All that kind of thing.
 
 **Adam Stacoviak:** That's really interesting, because \[unintelligible 00:12:59.23\] code school that does a significant presence on-site that isn't just live videos; it's different than you've designed it. It's interesting how you came to that position though, to do things live... Were there early iterations that got you to that, or was that sort of the way you began and it was just sort of smart luck, so to speak, to land there first?
 
@@ -110,7 +110,7 @@ I think one of those things where every software engineer thinks they're a good 
 
 **Austen Allred:** Yeah, most fail or bail. That's actually one of our biggest filtering mechanisms for knowing if somebody is committed.
 
-**Adam Stacoviak:** \[00:15:56.23\] So there's a significant investment that you're putting into people, right? You've seen the model be wrong, so you've defined a new model; you assumed this model could be right, and it requires some capital to make it happen. You described how your economics are, that if you get a couple people to pay upfront -- and I'm sure the way you accept classes and build out classes is based on "Well, we have to have four, or five, or X pay upfront. The remaining amount can be pay zero" and we can define that model, which we haven't done yet, but... It seems kind of interesting how you've done that, because you've got to invest in people, and that means you have to have the right people in place. So this prerequisite - has that always been there, or did you sort of like stumble upon it and said "Wow, we really need to have a filtering mechanism... How do we do it? Here we go."
+**Adam Stacoviak:** \[15:56\] So there's a significant investment that you're putting into people, right? You've seen the model be wrong, so you've defined a new model; you assumed this model could be right, and it requires some capital to make it happen. You described how your economics are, that if you get a couple people to pay upfront -- and I'm sure the way you accept classes and build out classes is based on "Well, we have to have four, or five, or X pay upfront. The remaining amount can be pay zero" and we can define that model, which we haven't done yet, but... It seems kind of interesting how you've done that, because you've got to invest in people, and that means you have to have the right people in place. So this prerequisite - has that always been there, or did you sort of like stumble upon it and said "Wow, we really need to have a filtering mechanism... How do we do it? Here we go."
 
 **Austen Allred:** Yeah, so we started out by just teaching introductory classes to get people interested, and then as we kept going on as a school, we realized all the people who are performing the best are the people who did that introductory class; people who haven't can be confused, or they can be behind, or they're moving at a different pace, so let's require it for everybody.
 
@@ -128,7 +128,7 @@ But yeah, every student costs us thousands and thousands of dollars, so we have 
 
 **Austen Allred:** Yeah, it's all of that... After Y Combinator, which gave us $120,000, we raised four million, and then we decided we could either wait it out with that four million and wait for our revenue to build up, or if we wanted to keep growing at the pace we were growing, we would have to raise a little bit more... So we ended up raising another 14 million, and then a little bit after that another 30 million. We raised a little bit more in between then. All in all, it's to build out the platform, to build out a hiring network, to train people, and at the end of the day it only works out if students get hired and can pay us back.
 
-**Break:** \[00:19:48.24\]
+**Break:** \[19:48\]
 
 **Adam Stacoviak:** What's interesting is that you are sort of placing a bet, so to speak, on the future of software, and then software developer salaries. I mean, sure, we know where software is going, but there's been bubbles in the past; I'm sure there's probably some fee on your side, but you're placing a huge bet on the future of software. Obviously, that's the truth, right?
 
@@ -154,7 +154,7 @@ Now we get 1,000 applications a week... It's just not a problem anymore. We had 
 
 **Adam Stacoviak:** Where's the demographics, so to speak? Where do you see the most demand for Lambda School in the world? Obviously, we'd mentioned earlier - and I'm assuming that's still correct - the United States and the European Union... Where of those two do most of your students lie?
 
-**Austen Allred:** \[00:23:54.05\] Mostly in the United States. We've got students in every state right now, and then a bunch of the countries and territories of the E.U. But generally speaking, we over-index a little to more rural areas, and then age of the students is kind of early thirties, late twenties, on average... But not everybody. We're now seeing people drop out of some of the top schools and go directly to Lambda... So it's a pretty broad spread; pretty young, pretty old, pretty urban, pretty rural... Kind of all over the place.
+**Austen Allred:** \[23:54\] Mostly in the United States. We've got students in every state right now, and then a bunch of the countries and territories of the E.U. But generally speaking, we over-index a little to more rural areas, and then age of the students is kind of early thirties, late twenties, on average... But not everybody. We're now seeing people drop out of some of the top schools and go directly to Lambda... So it's a pretty broad spread; pretty young, pretty old, pretty urban, pretty rural... Kind of all over the place.
 
 **Adam Stacoviak:** We touched on it quickly before, but it makes sense now to dive a little deeper... So you've got web development, data science, Android development, iOS development and user experience design... Where did you begin? You began with web, is that right?
 
@@ -180,7 +180,7 @@ Now we get 1,000 applications a week... It's just not a problem anymore. We had 
 
 **Austen Allred:** They would go to something like lambdaschool.com/hire, they'd fill out a form, we'd get on a phone call, we'd figure out what the right approach is. For most of them, if they're hiring, we bring them in to do what we call a career day, and they do a presentation about their company and they start interviewing graduates immediately. Some have more specific needs; some people just email us and say "Hey, I really need a bunch of this. Why don't you train this instead?" So it becomes pretty clear pretty quickly what the demand actually is.
 
-**Adam Stacoviak:** \[00:27:57.04\] You have a pretty impressive job placement too, since we're on the subject... 82% of graduates have jobs within 180 days. That's pretty significant. I mean, compare that for me... As you'd mentioned before, you haven't always been in education, but neither have I; what is that compared to other competing, bootstrapped coding schools and/or universities?
+**Adam Stacoviak:** \[27:57\] You have a pretty impressive job placement too, since we're on the subject... 82% of graduates have jobs within 180 days. That's pretty significant. I mean, compare that for me... As you'd mentioned before, you haven't always been in education, but neither have I; what is that compared to other competing, bootstrapped coding schools and/or universities?
 
 **Austen Allred:** It's best in class out of all of those, yeah.
 
@@ -218,7 +218,7 @@ A lot of the time people get frustrated and quit too early. They look for a job 
 
 **Austen Allred:** Yeah, for sure. It's pretty rare that you can't get an employer who's hiring software engineers to pay $50,000. I mean, it happens... Not in San Francisco it doesn't happen, but I think net we're in a pretty good spot there. It's more just the binary "Does it work for you or does it not?"
 
-**Adam Stacoviak:** \[00:32:00.09\] So what are you trying to do then? If 10x-ing students tomorrow doesn't really make you much more money, what are you trying to grow towards? What's your goals?
+**Adam Stacoviak:** \[32:00\] So what are you trying to do then? If 10x-ing students tomorrow doesn't really make you much more money, what are you trying to grow towards? What's your goals?
 
 **Austen Allred:** I mean, I'll 10x hired students, if I can...
 
@@ -246,7 +246,7 @@ There's gonna be people that are looking for more software engineers every singl
 
 **Adam Stacoviak:** What are things that need to happen to fix that, that you're actively working on?
 
-**Austen Allred:** \[00:34:35.02\] We need to figure out what the right business model is in different countries, we need to figure out the compliance and the regulatory stuff, and then we need to hire and build out a school.
+**Austen Allred:** \[34:35\] We need to figure out what the right business model is in different countries, we need to figure out the compliance and the regulatory stuff, and then we need to hire and build out a school.
 
 **Adam Stacoviak:** Let's dream a little bit; let's paint a big picture for the listeners. What is your biggest hope, your biggest dream for Lambda School? You mentioned already - which I think is kind of huge, but can you go bigger than that? Educating half a million software engineers; that's pretty huge. What else beyond that?
 

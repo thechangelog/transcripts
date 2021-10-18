@@ -12,7 +12,7 @@ I'm joined, as always, by my co-host, Chris Benson, who is a principal emerging 
 
 People further up North - where I'm at, we've got probably between a foot and a half of snow... Which is a lot for here. But there's always snow, so we have snow plows, and they were working long hours, but it wasn't like they didn't have that stuff in place, and all that.
 
-**Chris Benson:** \[00:04:21.01\] And here in the usually warm South, we do not have snow on the ground, but we actually did see \[unintelligible 00:04:25.09\]
+**Chris Benson:** \[04:21\] And here in the usually warm South, we do not have snow on the ground, but we actually did see \[unintelligible 00:04:25.09\]
 
 **Daniel Whitenack:** Wow.
 
@@ -62,7 +62,7 @@ It's always an interesting one for AI in the healthcare space, because of course
 
 **Chris Benson:** That's a good point. And we had an episode very recently having to do with radiology and imagery, so I would refer people back to that... I'll get the specific episode number and put it in the show notes; it's only been a couple back. And then today, as we address some of the things -- for those who have not listened to Fully-Connected, it's Daniel and I; we don't have a guest, we're just talking about things that we've noticed in the news, kind of catching up on this... So it's a very organic conversation.
 
-**Daniel Whitenack:** \[00:08:20.02\] Yeah.
+**Daniel Whitenack:** \[08:20\] Yeah.
 
 **Chris Benson:** And one of the things I was gonna mention was I saw an article having to do with CAT scans, and the fact that there are -- without getting deeply into the medical side, but there are different grades of CAT scans, if you will, with different utilities associated with that, different costs. I noticed that there was an article about using deep learning models to take certain types of images and increase their fidelity, so that they're more useful in that thing... Kind of diving right into the topic here.
 
@@ -86,7 +86,7 @@ So they're on the whole other side of things, where they're basically saying "We
 
 **Daniel Whitenack:** But that's what they're saying. There's a lot of noise, it's low-resolution, so they're saying "We're not tracking your face, or your identity... But if something were to happen, like let's say there was a shooting in a certain area or something, they could basically replay to that specific area and see the little blobs of people moving around, and say "Oh, this guy did come out of the store, and then this happened", and whatever.
 
-\[00:12:11.05\] Of course, that's alarming and interesting in so many different ways that we probably don't have time to talk about it... But it's also an example -- like, where the mindset was typically "I just need to get better and better resolution surveillance cameras to be able to really capture every detail in my surrounding", they're sort of flipping that and saying "No. Just get really low-resolution imagery, but a whole bunch of it."
+\[12:11\] Of course, that's alarming and interesting in so many different ways that we probably don't have time to talk about it... But it's also an example -- like, where the mindset was typically "I just need to get better and better resolution surveillance cameras to be able to really capture every detail in my surrounding", they're sort of flipping that and saying "No. Just get really low-resolution imagery, but a whole bunch of it."
 
 **Chris Benson:** It's the many imperfect considerations that go into the entire field now of AI ethics.
 
@@ -118,7 +118,7 @@ It is not going to be solved any time soon. There are no right and wrong answers
 
 I think the unanswered thing on automation at this point is with it being cognitive in nature and being combined with robotics that can do things that do not require great cognitive overload, the question is how many new things are created for those that are taken away? As we really work into that over time, I think that's one of the great challenges of this century going forward. It's one of those fundamental things that we're going to have to do some restructuring to work our way through.
 
-**Break:** \[00:16:09.01\]
+**Break:** \[16:09\]
 
 **Daniel Whitenack:** Chris, I had an interesting email the other day... Actually, our friend Rajiv Shah, who was a guest on the episode 109, he came on the show and talked a lot about data leakage, which was a really great show, just discussing scenarios that can go wrong in your experiments, where some of your target data leaks back into your training, and things behave much better than you think they might... It's often hard to prevent this in a lot of scenarios, is basically what he's saying. You have to be extremely careful about this, and check yourself constantly...
 
@@ -132,7 +132,7 @@ So he emailed me -- he wrote this new article on DataRobot's website/blog called
 
 **Daniel Whitenack:** No, I don't think it's intentional in a lot of cases. I think it's a combination of things. One of the things is people version-control the code they use to do something for their own internal purposes, or their own research project, and they actually don't intend to release that, thinking that people are going to try to reproduce what they're doing... So as a result of that, they make certain assumptions, like "Oh yeah, I know I have that always installed" or "I'm running on this type of environment" or whatever... And that's just sort of assumed knowledge on their part. And it's not like malicious, like trying to keep people from reproducing what they're doing; it's just they're really stuck because that's how they're managing their code. It's open on GitHub because they have a personal account, or they want it out there, for whatever reason... I think that's thing number one.
 
-\[00:20:34.14\] Thing number two is it's just really hard with all of this technology constantly updating and being interconnected in so many weird and different ways... People will have a requirements file or something like that, that has certain packages, with versions... But they miss a certain dependency, or they don't provide that version number, and that thing makes all the difference, and breaks things in weird ways... And it's just hard. When you're trying to make things reproducible, it's actually very difficult.
+\[20:34\] Thing number two is it's just really hard with all of this technology constantly updating and being interconnected in so many weird and different ways... People will have a requirements file or something like that, that has certain packages, with versions... But they miss a certain dependency, or they don't provide that version number, and that thing makes all the difference, and breaks things in weird ways... And it's just hard. When you're trying to make things reproducible, it's actually very difficult.
 
 **Chris Benson:** This is something though that in the software world we have tackled and done quite a good job, in that it is now typical to pass a workaround like that for containers. Is there an argument to be made that data scientists and deep learning engineers and other practitioners in the field maybe should ramp up on containers and pass these around... Because that way you're passing a unit of work, if you will, that has all the dependencies built in.
 
@@ -150,7 +150,7 @@ I know we had a conversation about MLCommons recently, and they've got this proj
 
 And again, these are honest mistakes, and I'm sure there is a lot of these around. He just found some in some data science or AI books, and examples... But he also -- I think the one that struck me more was this \[unintelligible 00:24:05.15\] dataset, which is a shared task dataset based on predicting the movements of a robotic arm... And he said that he basically found that the hold-out dataset was straight-up built out of the training dataset. So there was overlap of 4,500 examples in the test set that are also present in the training set. And so yeah, you're gonna get some really interesting behavior of your models there.
 
-\[00:24:35.02\] It just goes to show - you can obviously get your data from a trusted source. You're not gonna be able to reproduce everything. You're always gonna be standing on the shoulders of other people... But you've also gotta assume that those shoulders that you're standing on - they're also fallible people. There's definitely stuff that could be bubbling up from those things that you're building your project on, that have a little bit of issue in them as well, whether that be a shared task dataset, whether that be a library that you're using, or an implementation that you're referencing, or whatever it is.
+\[24:35\] It just goes to show - you can obviously get your data from a trusted source. You're not gonna be able to reproduce everything. You're always gonna be standing on the shoulders of other people... But you've also gotta assume that those shoulders that you're standing on - they're also fallible people. There's definitely stuff that could be bubbling up from those things that you're building your project on, that have a little bit of issue in them as well, whether that be a shared task dataset, whether that be a library that you're using, or an implementation that you're referencing, or whatever it is.
 
 **Chris Benson:** Gotcha. That's interesting. One of the things as you talk about the fallibility of people doing that - there's a lot of manual stuff. Unless you're going all the way to containers or some other tool that kind of helps catch you up, there's been a couple of things that I've seen, that are almost the other end of the spectrum on that... And that is trying to do machine learning without code, to where you don't have all that --
 
@@ -182,7 +182,7 @@ So having seen some of these promoting Excel as machine learning tools - what do
 
 The one thing that I had exposure to is self-service analytics, data science and something... I'm looking at their website right now... They talk about "Simply powerful, extraordinarily easy, automated analytics of every kind. Data science and AI without coding. Data quality in minutes."
 
-\[00:28:09.10\] So I will say that I did some advising and consulting with the team last year, and for some of their data pipelining they use this tool... And I thought it was really cool, actually.
+\[28:09\] So I will say that I did some advising and consulting with the team last year, and for some of their data pipelining they use this tool... And I thought it was really cool, actually.
 
 **Chris Benson:** Is it open source, or is that commercial?
 
@@ -198,7 +198,7 @@ So at that level it all seemed quite useful. I can't speak to the flexibility of
 
 So the way I'm measuring that - I have my software development workflow, which is I think fairly mature, as is for other software developers, and then our deep learning workflows have been maturing steadily as new things have come out the last couple of years. I'm looking forward to the day when those two are able to merge in the way that I want it to merge, meaning it is a sensible, comprehensive approach. I'm excited about that, and if there is some level of no code, low code built into that, I'm okay with that. I'm not gonna push it away.
 
-**Daniel Whitenack:** \[00:31:48.23\] Well, Chris, I recently have been working on spec-ing out and getting some quotes for a new server for some of the research that's going on in our organization... And I was looking through all sorts of different options, and I talked to all sorts of different people... Thank you to -- if there's anyone out there that helped me through that, thank you.
+**Daniel Whitenack:** \[31:48\] Well, Chris, I recently have been working on spec-ing out and getting some quotes for a new server for some of the research that's going on in our organization... And I was looking through all sorts of different options, and I talked to all sorts of different people... Thank you to -- if there's anyone out there that helped me through that, thank you.
 
 But after all of our conversations on the podcast, I thought "Yeah, I kind of know enough to pretty instantly figure out what we need." And then I started looking at these different options, and the thing that got me -- so I knew a lot of the things that we needed, but then I had this thought of envisioning the multi-GPU jobs that were gonna need to run. And looking at the different systems that were available, I started questioning "What sort of machine do you actually need to run a multi-GPU job?" Because there's all of these different acronyms and things that are promoted, like the NVLink, NVSwitch from NVIDIA...
 
@@ -212,7 +212,7 @@ Essentially, if you start looking through these -- like, if I go down to two and
 
 What I ended up finding was yeah, you do get a slight boost with this NVLink/NVSwitch, but in a lot of cases, and even for some of these models, it wasn't significant at all. And in some cases it was significant. I found that sort of interesting, that -- like, yes, you do get a sort of performance hit if you don't have the interconnect... But in some cases it's not that much, because you're only updating those parameters between GPUs when you update your gradients, which isn't happening all the time. I just thought I'd share that while we are discussing things, because I hadn't fully got through that train of thought before I explored these things.
 
-**Chris Benson:** \[00:36:16.29\] So clearly, at the different levels that you can buy in in terms of hardware, from NVIDIA or other vendors, clearly they're pushing NVLink and those interconnect technologies...
+**Chris Benson:** \[36:16\] So clearly, at the different levels that you can buy in in terms of hardware, from NVIDIA or other vendors, clearly they're pushing NVLink and those interconnect technologies...
 
 **Daniel Whitenack:** Sure.
 
@@ -252,7 +252,7 @@ What I ended up finding was yeah, you do get a slight boost with this NVLink/NVS
 
 **Daniel Whitenack:** Yeah. It was very surprising to me how much I thought I knew going into that, versus what it actually took to really understand what was the optimal setup for our team, in terms of the generation of the card versus the linking, and all of that stuff.
 
-**Chris Benson:** \[00:39:56.08\] And we'll link it in the show notes -- I don't have the episode number off the top of my head, but we did an episode where you talked about your process of putting together your first server, and all the decisions that you made... So if this conversation is of any interest to someone listening, then they should definitely -- if they haven't already listened to it, go back to that episode. It was excellent. We'll put it in the show notes to give you a quick link to it.
+**Chris Benson:** \[39:56\] And we'll link it in the show notes -- I don't have the episode number off the top of my head, but we did an episode where you talked about your process of putting together your first server, and all the decisions that you made... So if this conversation is of any interest to someone listening, then they should definitely -- if they haven't already listened to it, go back to that episode. It was excellent. We'll put it in the show notes to give you a quick link to it.
 
 As we look forward, I ran into an -- IEEE Spectrum is a publication of IEEE, and they had an article here called "Deep learning at the speed of light", where they were talking about Lightmatter, which is a company who is putting together photon-based computing using light in its chips to do accelerated deep learning. Kind of an interesting thought there... I don't know where the competition is, I don't know where NVIDIA is on that, but it definitely was an interesting idea about the idea of doing that. Any thoughts? If you had an affordable chip that you could use for your purposes and there was advantage to it, would you consider doing a light-based solution for your computation?
 
@@ -284,7 +284,7 @@ By signing up for this course, which is released in the spring - I think spring 
 
 **Daniel Whitenack:** We'll link it in the show notes. I think this is really cool, actually. So they essentially have TensorFlow Everywhere, which is a series of global events that TensorFlow is hosting, with all sorts of different content... And I think it's really cool, because they have events that are geared towards certain geographies; so the timezones match up well for people. It's not like people have to livestream at midnight, or 1 AM, or something like that... But also in a number of languages. I see events in Bahasa/Indonesia, Chinese, Korean, Vietnamese, Turkish... Different languages. So people are actually getting that content in a language they value most... At least a little bit more than they were before. There's 7,000 languages in the world, and there's only a handful here... But I think it's a great step in that direction as well.
 
-\[00:44:32.26\] I thought it was really cool, the way that TensorFlow is doing this. You can go to the website, figure out which event is in your geography and works for your timing. They're kind of going on actually right now... There's some that have already gone on, but then they're stretching out through March as well. And the ones in North America, which is where we are - it's the 27th of February. I'll probably be tuning into that one. But yeah, definitely check this out.
+\[44:32\] I thought it was really cool, the way that TensorFlow is doing this. You can go to the website, figure out which event is in your geography and works for your timing. They're kind of going on actually right now... There's some that have already gone on, but then they're stretching out through March as well. And the ones in North America, which is where we are - it's the 27th of February. I'll probably be tuning into that one. But yeah, definitely check this out.
 
 **Chris Benson:** That sounds really good. Just as kind of a closing comment on that - there's so many, obviously, very enormous negatives having to do with the pandemic, but one thing that might be a small positive is the fact that there has been some interesting innovation with the whole world kept away from one another... And us still having the need to have commerce, to conduct business, to see each other and to talk, and communicate and learn. There's been quite a bit of innovation in terms of how we've approached it... So I'm curious, as we potentially are at the beginning of the end of the pandemic in terms of vaccine rollouts, and maybe at some point in the months ahead having the ability for large numbers of people to return to normal life, how do you think that'll change? Are we all just gonna fall back into our old habits and go to the conferences? Do you think more things will stay online?
 

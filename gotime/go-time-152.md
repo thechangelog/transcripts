@@ -34,7 +34,7 @@ Today we're joined by one of the creators of GopherCon, and the king of the ligh
 
 **Mark Bates:** Thank you. Well, you know, we should be talking about GopherCon, but I'll tell you why I look good; GopherCon this year has a really great -- because it's a virtual conference; we're gonna get into that. But one of the really great things they've decided to do is instead of giving their speakers some sort of GIF, they're actually working one-on-one with their speakers to look at their entire environment. Lighting, sound, camera, and everything, just to make their visual presentation and audio presentation so much better on the conference.
 
-**Mat Ryer:** \[00:04:26.29\] Wow.
+**Mat Ryer:** \[04:26\] Wow.
 
 **Mark Bates:** And then they're shipping that gear to each speaker around the world, so that they can have just wonderful conditions. So these are my GopherCon lights that they've sent me. I've just set them up for this call, so I'm very excited. I think it's gonna be really fun, just based off of that alone. But anyway...
 
@@ -82,7 +82,7 @@ It was really interesting, because we had no idea how many people would show. Th
 
 **Mark Bates:** I remember them being just dirt cheap, comparatively to conferences in general back then. It was a fun conference.
 
-**Erik St. Martin:** \[00:08:13.14\] Yeah, it ended up being 700+ people, almost 750, the first year.
+**Erik St. Martin:** \[08:13\] Yeah, it ended up being 700+ people, almost 750, the first year.
 
 **Mark Bates:** Yeah. All in one big room. You remember - just one single room, one track conference...
 
@@ -118,7 +118,7 @@ I don't think we realized even contractual stuff sometimes too, about the fact t
 
 **Mark Bates:** And a lot of people don't think or consider what does registration mean for the conference organizers. When you get there, they often offer off-peak times to do registration sometimes; usually the day before, or whatever. Try and take advantage of those, because that not only makes it quicker for you to get in and out, but also it kind of flattens that curve of a rush of people at 8 AM coming in and trying to do it. And try to get there early. Try not to wait till five minutes before the keynote, rushing in... I mean, this huge wave of people assaulting the staff. It's hard to take care of that many people, especially 2,000 people. Imagine checking in 2,000 people. That's a lot.
 
-**Mat Ryer:** \[00:12:24.25\] Yeah, we don't want the attendees to be DDOS-ing the conference. So spread it out. \[laughter\]
+**Mat Ryer:** \[12:24\] Yeah, we don't want the attendees to be DDOS-ing the conference. So spread it out. \[laughter\]
 
 **Erik St. Martin:** Yeah, there's a lot of stuff like that. The CFP staff - we had about 300 proposals a year, and 290 of them are submitted in the last 24 hours. \[laughter\]
 
@@ -138,7 +138,7 @@ You talked about the food earlier? What was it last year - seven different optio
 
 **Mark Bates:** ...there's dozens of people involved in this conference every single year. The workshops -- you know, that's not including the workshop instructors or the speakers. That's just the people who are doing all the legwork in the background... And it's been different this year, I would say. Wouldn't you, Erik?
 
-**Erik St. Martin:** \[00:15:50.08\] Yeah, it's definitely been a learning experience, and trying to adapt, and a lot of scrambling... Because in the beginning we had contractual obligations, and everything. We had planned to hold an in-person event... So kind of the first stage was figuring out how do we move past all of that, and postpone it; all of this is when Covid first started coming out, and we're kind of hanging out, seeing what's happening... You're getting conflicting things about what's gonna happen - this is March - so there's a lot of struggle there, and just legalities of, you know, contracts were in, and deposits we've made, and things like that... And then we managed to shift it. Obviously, that didn't happen, so then we're going through the same process again... And then it's like "Okay, how do we do it completely online?", which is a whole new world too, right? We all do online things, but trying to do an online event is a whole other challenge.
+**Erik St. Martin:** \[15:50\] Yeah, it's definitely been a learning experience, and trying to adapt, and a lot of scrambling... Because in the beginning we had contractual obligations, and everything. We had planned to hold an in-person event... So kind of the first stage was figuring out how do we move past all of that, and postpone it; all of this is when Covid first started coming out, and we're kind of hanging out, seeing what's happening... You're getting conflicting things about what's gonna happen - this is March - so there's a lot of struggle there, and just legalities of, you know, contracts were in, and deposits we've made, and things like that... And then we managed to shift it. Obviously, that didn't happen, so then we're going through the same process again... And then it's like "Okay, how do we do it completely online?", which is a whole new world too, right? We all do online things, but trying to do an online event is a whole other challenge.
 
 So it's been interesting in trying to figure out how to recreate what we have in-person... And I think GopherCon - my opinion is biased; I think GopherCon is a very special event, and how do we recreate that? I think the answer is probably that we can't. We can do the best we can, but it can't be this same exact thing, and we have to kind of rethink what an online version of it would look like, and not "How do we take GopherCon and put it online?"
 
@@ -164,7 +164,7 @@ So I think it's just kind of accepting that that's the way it is, that people wo
 
 **Erik St. Martin:** Yeah, and so there's some other things we're doing, too... We're gonna take the lightning talks and push those to Twitch, so we're gonna open those up to basically everybody... And then I've been kind of chatting with a bunch of regular Twitch streamers that do Go stuff too, so we're gonna hopefully try to create a hallway track, where if you wanna just go hang out in the chat, and watch people code, and kind of pop in and pop out, and "What are you working on?" "Explain this bit of code for me", and things like that...
 
-\[00:20:06.15\] They're not the same interactions, but they are new types of interactions that we're kind of learning. And I don't just mean we as GopherCon, but even we as people... I never realized how much I relied on interactions that I had while out at conferences, and stuff like that, until you're stuck at home for months in a room by yourself. This room looks really cool, but I'm sitting here by myself.
+\[20:06\] They're not the same interactions, but they are new types of interactions that we're kind of learning. And I don't just mean we as GopherCon, but even we as people... I never realized how much I relied on interactions that I had while out at conferences, and stuff like that, until you're stuck at home for months in a room by yourself. This room looks really cool, but I'm sitting here by myself.
 
 So some of these things - you look for some of those interactions, and sitting in chat and Slack... You know, it's interaction, but it's not quite the same. But in recent months I've actually found relief in going and hanging out in Twitch chats. Sitting there, watching somebody code, having a conversation with them while they're doing it, and stuff like that. It's not the same thing, but it kind of fills a hole that's there.
 
@@ -200,7 +200,7 @@ So how do we create new interactions, how do we create some interactions to get 
 
 **Erik St. Martin:** We always try to find ways to one-up ourselves... And eventually, you're gonna run out, right? \[laughter\]
 
-**Mark Bates:** \[00:24:00.19\] Yeah. We had some fun plans too for this year in Florida, but unfortunately, everything being the same... So we were talking about what we can do this year; we are doing, like we said, an hour of lightning talks each day, and like Erik said, we're gonna stream them live to everyone. So even if you don't have a conference ticket, you are welcome to join us for that hour and watch the live lightning talks, and Erik can talk a little bit about where you can find those, and how that's gonna work...
+**Mark Bates:** \[24:00\] Yeah. We had some fun plans too for this year in Florida, but unfortunately, everything being the same... So we were talking about what we can do this year; we are doing, like we said, an hour of lightning talks each day, and like Erik said, we're gonna stream them live to everyone. So even if you don't have a conference ticket, you are welcome to join us for that hour and watch the live lightning talks, and Erik can talk a little bit about where you can find those, and how that's gonna work...
 
 As for sign-up, what we're really hoping to do - because that's a big question people have over here, "How do I sign up for lightning talks?", we're gonna try to give it more of an in-person feeling. What we're gonna do -- one of the biggest problems we have with lightning talks is the technical logistics; getting laptops, and microphones, and all that stuff to work. And I can't tell you how many hours I've spent tap-dancing on stage, while I fix somebody's computer to work with the projector...
 
@@ -242,7 +242,7 @@ Like I said, we're trying to use that Go line-up on the side of the stage, by th
 
 **Erik St. Martin:** Basically, you submit the proposal, and it's wiped of any personal data. We don't know who you are, or anything about you... And there's a series of reviewers who will review it based on its technical merit... So if you are submitting a proposal, you have to remember that. Somebody - the only thing they know about you and your content and your knowledge on that subject is what you give us. If you give us three sentences that says "I'm going to talk about Buffalo", or whatever... I'm gonna just keep picking on Buffalo today.
 
-**Mark Bates:** \[00:28:08.17\] Um, excuse me, that was an exact submission from this year. Almost verbatim. I don't appreciate your breaking my anonymity here.
+**Mark Bates:** \[28:08\] Um, excuse me, that was an exact submission from this year. Almost verbatim. I don't appreciate your breaking my anonymity here.
 
 **Erik St. Martin:** So you're gonna end up with a bunch of people who are like "Well, I don't know. I don't know whether they're gonna be able to write good content about this, I don't know how well they know the subject matter... And it's gonna get rated poorly." So I think it's important to make sure that somebody who knows nothing about you or anything would be able to read that and gauge how well you're going to be able to present this topic.
 
@@ -280,7 +280,7 @@ So after that, we take roughly the top third of submissions that are rated, and 
 
 **Erik St. Martin:** It's theirs to keep.
 
-**Mark Bates:** \[00:32:10.06\] It's theirs to keep. They're not sending it to make them return it; they're sending them lights, they're sending them microphones, they're sending them whatever they need to make their 45 minutes, or 20 minutes, whatever amount of time they get, the best it can be. And that benefits both the speaker, and it benefits the conference, and it benefits the whole community. When you put the level of detail into the conference that they do, it really makes a difference. And anybody who's even been at GopherCon can definitely attest to that.
+**Mark Bates:** \[32:10\] It's theirs to keep. They're not sending it to make them return it; they're sending them lights, they're sending them microphones, they're sending them whatever they need to make their 45 minutes, or 20 minutes, whatever amount of time they get, the best it can be. And that benefits both the speaker, and it benefits the conference, and it benefits the whole community. When you put the level of detail into the conference that they do, it really makes a difference. And anybody who's even been at GopherCon can definitely attest to that.
 
 **Mat Ryer:** Well, aren't you running the risk of ruining other conferences there by making it too good?
 
@@ -296,7 +296,7 @@ So after that, we take roughly the top third of submissions that are rated, and 
 
 **Erik St. Martin:** And there are some conferences that I'm not very happy with the way they're run, but... Yeah.
 
-**Break:** \[00:33:11.23\]
+**Break:** \[33:11\]
 
 **Mat Ryer:** So I asked a question on Twitter earlier... Twitter is a website where you post little tiny messages, and people can reply, correcting you and/or giving you hate.
 
@@ -310,7 +310,7 @@ So after that, we take roughly the top third of submissions that are rated, and 
 
 **Erik St. Martin:** I think that came from just basic human decency... We all need to do a better job at this, right? So I actually kind of would like to take this opportunity -- I know that we do a lot for diversity initiatives, and it's something that's very important to us... But I also don't wanna take this opportunity to pat ourselves on the back either, because I think as a conference, we still have a lot more that we can do, and I think even as a tech community we have even more that we still need to do. So I think that we need to keep iterating, we need to keep getting better about this, and I think we need to keep making it a priority.
 
-**Mark Bates:** \[00:35:58.05\] Yeah. And if you haven't already, go and check out things like GoBridge.
+**Mark Bates:** \[35:58\] Yeah. And if you haven't already, go and check out things like GoBridge.
 
 **Erik St. Martin:** Yeah. And Women Who Go.
 
@@ -348,7 +348,7 @@ If the people at the top, whether that be the people on the language team itself
 
 **Erik St. Martin:** Yes, to all of those questions.
 
-**Mat Ryer:** \[00:40:14.03\] That last question though, it's -- so obviously he knows something... Do you know what I mean? It's like when a really bad TV interviewer says "So, did anything happen to you on the way to the studio?" \[laughter\]
+**Mat Ryer:** \[40:14\] That last question though, it's -- so obviously he knows something... Do you know what I mean? It's like when a really bad TV interviewer says "So, did anything happen to you on the way to the studio?" \[laughter\]
 
 **Erik St. Martin:** You all can -- because we're on a Zoom call, and anybody who's watching this on Twitch can see behind me; I've got like an Electronics desk back here... So Rust is something I've been wanting to learn, to do some embedded stuff on here... But we've had some projects at work kick up, that use Rust. One of those is a Kubernetes node agent that basically pretends to be a node in the cluster, and orchestrates Web Assembly to host, and stuff like that.
 
@@ -382,7 +382,7 @@ It was actually pretty funny... We were talking with individual companies about 
 
 **Mark Bates:** So fast-forward 30 days later and Erik is building his own.
 
-**Erik St. Martin:** \[00:43:48.15\] Yeah, so there's a lot of places where you can take content, and this gets into a longer discussion about how broadcast works over the internet... But essentially, we use one protocol that is very low latency to get our stream somewhere, and then on the other side that's converted/transmuxed and transcoded into different resolutions, that are delivered over HTTP in a CDN, and you have kind of a smart player that fetches that. if you're interested in how that stuff works, ping me on Twitter, or find me on Twitch, because that's what we're streaming.
+**Erik St. Martin:** \[43:48\] Yeah, so there's a lot of places where you can take content, and this gets into a longer discussion about how broadcast works over the internet... But essentially, we use one protocol that is very low latency to get our stream somewhere, and then on the other side that's converted/transmuxed and transcoded into different resolutions, that are delivered over HTTP in a CDN, and you have kind of a smart player that fetches that. if you're interested in how that stuff works, ping me on Twitter, or find me on Twitch, because that's what we're streaming.
 
 So that part is solved. How do I take my content and get lots of viewers to view it all over the world? That's a solved problem. But at the broadcast point you're stuck. So I can send there, but if I go offline to let Mark take over the channel, my stream goes offline. There's a lot of weird things like that. So our options for how do I switch between people and their streams tend to be like use Zoom, or Skype, and then route through somebody's house... And it's just awkward. I don't like that, and I have sort of a knack for taking on projects I'm totally unqualified to build, so I decided to tackle that challenge, to solve it both for GopherCon, like how do we switch between, you know, going to the MC, going to the speaker, and all of that stuff, while maintaining a linear feed.
 
@@ -404,7 +404,7 @@ But it's been interesting, because there's some things I really love about Rust,
 
 But looking at what they do for error handling, I really like that. Obviously, generics are a thing; people have been talking about it. I forgot how much I missed generics... But they have enum types where each variant of it can actually hold its own data. So one variant can just be its thing, one could hold a string, one could hold a struct, one could hold a tuple... And so when you match on these things, you can get the data contained in that variant. That's important, because the way they handle things - you can't have null. There's actually an option -- it's a generic type, but there's an option enum type where there's a variant that says none, and there's some that holds whatever your type is. So when you get the type back, you check to see "Hey, is this none or is it sum?" and get the thing out.
 
-\[00:47:53.29\] And then for error handling, there's one called result, and it's okay or error. Okay might actually contain some generic type, whatever you stored in there, and then error would return your error. It's a really, really interesting way you can do that. And then most people will end up using enums for the error variants that you could match on those, too. But yeah, so there's a lot of cool stuff in Rust that I actually really, really like.
+\[47:53\] And then for error handling, there's one called result, and it's okay or error. Okay might actually contain some generic type, whatever you stored in there, and then error would return your error. It's a really, really interesting way you can do that. And then most people will end up using enums for the error variants that you could match on those, too. But yeah, so there's a lot of cool stuff in Rust that I actually really, really like.
 
 **Mat Ryer:** Are there other ideas that you think Go should borrow? I know that Rust has borrowed some ideas from Go, hasn't it?
 
@@ -412,13 +412,13 @@ But looking at what they do for error handling, I really like that. Obviously, g
 
 **Mat Ryer:** I see. Oh, cool. Well, if you blog about that or anything, I would be very interested, Erik.
 
-**Break:** \[00:49:24.22\]
+**Break:** \[49:24\]
 
 **Mat Ryer:** We were already kind of talking about Rust, we were already at risk of treading upon our next regular section, because it's time for... Unpopular Opinions!
 
 **Erik St. Martin:** Unpopular Opinions. Okay.
 
-**Jingle:** \[00:51:27.02\]
+**Jingle:** \[51:27\]
 
 **Mat Ryer:** So do we have any unpopular opinions?
 
@@ -428,7 +428,7 @@ But looking at what they do for error handling, I really like that. Obviously, g
 
 **Erik St. Martin:** ...on a medium that's going to exist forever? Yeah, I've got a few of them... Tech-wise, full-stack developers are a myth. I think that you can find people who can do all of this stuff, but -- I used to be a senior web developer, and a junior backend developer. Now I'm a principal backend developer and a junior web developer. It's really hard to stay up on all of these topics; so as you evolve in one, you're naturally gonna fall off in others. So I think it's important to -- you may be able to operate on all levels of the stack, but you're not the same level at all levels of the stack; and if you are, you're an amazing human being, and you deserve all of the money.
 
-**Mark Bates:** \[00:52:41.20\] Thank you.
+**Mark Bates:** \[52:41\] Thank you.
 
 **Mat Ryer:** Yeah, thanks. \[laughter\]
 
@@ -488,7 +488,7 @@ But looking at what they do for error handling, I really like that. Obviously, g
 
 **Erik St. Martin:** Yup, they are still available on GopherCon.com. It's $100 for access to everything. Again, videos are gonna be released shortly after the conference, so really all you're doing there is helping us seed deposits for the next in-person conference, and everything like that.
 
-**Mark Bates:** \[00:56:07.05\] And you get access to tons of live content and exclusive content around the conference which you don't get on YouTube.
+**Mark Bates:** \[56:07\] And you get access to tons of live content and exclusive content around the conference which you don't get on YouTube.
 
 **Mat Ryer:** Yes. And we're all gonna be hanging out... Go Time are doing some special shows, some special episodes...
 

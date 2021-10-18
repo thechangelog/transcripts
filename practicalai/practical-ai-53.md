@@ -16,7 +16,7 @@
 
 **Daniel Whitenack:** That sounds awesome.
 
-**Pieter Cailliau:** \[00:04:04.14\] Yeah, that brought me into electro-mechanical engineering, and then afterwards computer science. My first job was at TomTom; sometimes in the U.S. they say TomTom, so it depends a bit, but... I was working on a portal navigation device; I was working on the map back-end in Belgium, in Ghent. Map quality assurance is a difficult problem, so TomTom tries to differentiate in how good the quality is of these maps, and they have many rules... One of those rules is a very expensive rule - is the map still connected? Can you still travel from everywhere to everywhere?
+**Pieter Cailliau:** \[04:04\] Yeah, that brought me into electro-mechanical engineering, and then afterwards computer science. My first job was at TomTom; sometimes in the U.S. they say TomTom, so it depends a bit, but... I was working on a portal navigation device; I was working on the map back-end in Belgium, in Ghent. Map quality assurance is a difficult problem, so TomTom tries to differentiate in how good the quality is of these maps, and they have many rules... One of those rules is a very expensive rule - is the map still connected? Can you still travel from everywhere to everywhere?
 
 You could imagine for example you have a continent, you have an island, there is a bridge in-between, and the map arrow says this bridge is now one-way traffic. So in the morning you go to the island and in the evening you wanna go back, but your device says "No, sorry. Can't do."
 
@@ -44,7 +44,7 @@ You could imagine for example you have a continent, you have an island, there is
 
 And in that NoSQL section of databases you have quite a lot of database models. There's the key-value store, but there's also graph; you could see search also as a database model. There's a time series, which is effectively ramping up lately, which is a lower database model, for which we also (by the way) have a very interesting module... I don't know if you want me to explain further, but I can talk more about NoSQL databases or how they came to life.
 
-**Daniel Whitenack:** \[00:08:14.19\] That was really helpful for me. I know that if we kind of zero down in on the key-value stores... So you mentioned one key distinguishing feature of Redis is that the values don't have to just be strings. You gave some other examples of things that they could be; I forget what those were.
+**Daniel Whitenack:** \[08:14\] That was really helpful for me. I know that if we kind of zero down in on the key-value stores... So you mentioned one key distinguishing feature of Redis is that the values don't have to just be strings. You gave some other examples of things that they could be; I forget what those were.
 
 **Pieter Cailliau:** For example there's a list. It's a list data type. It's interesting, sometimes when I give a talk I ask people... For example, let's do the exercise - you have two sets of items, and inside Redis they will reside as a set. For example, imagine you have two products and they have a set of tags. Now, what could you do with these two sets? Which questions could you ask the database, with two sets? Maybe I should hint...
 
@@ -66,7 +66,7 @@ And in that NoSQL section of databases you have quite a lot of database models. 
 
 **Daniel Whitenack:** You've also alluded to the fact that at least some of these modules of Redis are open source. Redis as a company - I know there are some things that are open, or open(ish)... How does the company operate? Redis itself - can you find it on GitHub? And what's the model around Redis?
 
-**Pieter Cailliau:** \[00:12:00.21\] That's a good question. Redis itself is entirely open source. It's a BSD license. You can take it, you can fork it, you can resell it, you can do whatever you want with it. Then there is a piece where we have these modules; these modules have a Redis source-available license. The idea is that you can effectively do anything with these modules, apart from creating a database as a service with these modules.
+**Pieter Cailliau:** \[12:00\] That's a good question. Redis itself is entirely open source. It's a BSD license. You can take it, you can fork it, you can resell it, you can do whatever you want with it. Then there is a piece where we have these modules; these modules have a Redis source-available license. The idea is that you can effectively do anything with these modules, apart from creating a database as a service with these modules.
 
 **Chris Benson:** Gotcha.
 
@@ -90,7 +90,7 @@ Now, to answer your question... There are quite a lot of them, but the ones that
 
 Then there is RedisGraph, which adds graph capabilities. I know all these modules, so I can talk for hours about them... But RedisGraph itself is a very interesting technology. I always try to differentiate graph native technologies and graph technologies. You can put a graph API on top of a relational database, however it will be quite slow; you make one table which is nodes, another table which is relationships, but when you have to do a traversal search, for example - a Dijkstra algorithm, which is a search algorithm - between two nodes, you have to do a join in between those tables continuously. So a graph-native database...
 
-**Daniel Whitenack:** \[00:16:13.22\] I'm so glad you're calling this out, because I actually got burned by this very issue on a project where we were trying to implement a graph database, and I mistakenly chose a graph layer on top of MongoDB (which is another database) and it was so slow. Basically, the graph logic was really interesting and good for the project, but we got burned because of this issue that you're talking about... So thanks for explaining that.
+**Daniel Whitenack:** \[16:13\] I'm so glad you're calling this out, because I actually got burned by this very issue on a project where we were trying to implement a graph database, and I mistakenly chose a graph layer on top of MongoDB (which is another database) and it was so slow. Basically, the graph logic was really interesting and good for the project, but we got burned because of this issue that you're talking about... So thanks for explaining that.
 
 **Pieter Cailliau:** Yeah, so the difference is then you have graph native, you have an O(1) time complexity to go from one node to another node. So instead of an O(log n) in a relational database. And typically, you try to keep the data as close as possible, residing in the same key, effectively.
 
@@ -102,7 +102,7 @@ One more interesting module before we dig potentially into RedisAI is RedisGears
 
 The second part is that it can also execute certain scripts based upon certain triggers or certain events. It could be for example you add something to a stream, or you change a certain key, but it could also be time-based; then you execute certain codes. This makes the entire multi-model story very beautiful. In our company, I'm the first one to say, if somebody says "Hey, multi-module/multi-model", please be cautious about that. It's not because we have multiple modules in a database that we're a multi-model database... But RedisGears kind of allows you to do that. You have for example a stream of data, you've got some name change, for example... You could say "Hey, this script is going to react upon that new piece of data." It's going to say "Hey Redis, please update the name of this person", but also "Hey, RedisGraph, make sure that graph person or that graph node is updated." So it can effectively talk to all these modules, and then it becomes very interesting.
 
-**Daniel Whitenack:** \[00:19:46.12\] So you just mentioned this idea of multi-modules or multi-module, and the ability to run scripts, the ability to put things together... You also mentioned RedisAI, which is really what we wanna get into in the rest of this discussion. But I was wondering, in terms of background, what is the background on RedisAI in terms of why the team was motivated to create it? Was it something that users were asking for? They were like "Oh, we love Redis, but we wanna integrate this somehow with AI models." What's the back-story on that and how did it come about?
+**Daniel Whitenack:** \[19:46\] So you just mentioned this idea of multi-modules or multi-module, and the ability to run scripts, the ability to put things together... You also mentioned RedisAI, which is really what we wanna get into in the rest of this discussion. But I was wondering, in terms of background, what is the background on RedisAI in terms of why the team was motivated to create it? Was it something that users were asking for? They were like "Oh, we love Redis, but we wanna integrate this somehow with AI models." What's the back-story on that and how did it come about?
 
 **Chris Benson:** It came effectively from three ways. The first one is that Salvatore, when he created this module API, the first module he created was Neural Redis. That was the first indication that there could be potentially a need for that. Then there was also some engineers inside Redis Labs who created a module called RedisML. They thought that they could, for example, have very specific data structures, for example for a random forest tree, for some regressions - some specific data structures for these AI modules, and effectively host them inside Redis.
 
@@ -114,7 +114,7 @@ The second part that we believe is data locality. For that, maybe it's interesti
 
 For sure, that data you wanna fetch becomes large, there will be some latency, and what we believe in at Redis is that everything should be extremely fast, because there's demand for high throughput databases or high throughput requests, at very low latency. Everything needs to be more and more snappy. By actually creating these data structures or by creating RedisAI we could now run your inference where your data lives... Because people sometimes also have, for example, some extra input data, get a user profile and feed it to your model to do a better inference or classification. So now that data doesn't need to be fetched from another host or from another database. It's already there. It can live within Redis, next to the model.
 
-**Chris Benson:** \[00:24:11.24\] As you talk about the chatbot example, where is the tensor serving, where you're executing deep learning models? How does that fit into this? Can you kind of give the context to that, so that we can map it together?
+**Chris Benson:** \[24:11\] As you talk about the chatbot example, where is the tensor serving, where you're executing deep learning models? How does that fit into this? Can you kind of give the context to that, so that we can map it together?
 
 **Pieter Cailliau:** There are three data structures inside RedisAI that we add. There is a tensor, there's a script, and there's a model. So the value (key-value store) now can be a tensor. You can host your tensors inside Redis. Is that answering your question?
 
@@ -130,7 +130,7 @@ The next thing is if you wanna build an application, you will have some client l
 
 One more thing that is coming up is effectively you will have a command, which is a direct acyclic graph, so you can execute those commands combined. You could, for example, set a tensor, but then the output is passed to a script; the script output is then passed to a model, and then the model output is once again passed to a script, and then the output of that script could be a tensor that is persistent inside Redis. So you can pipeline those commands in a single call towards Redis. But your explanation was spot on.
 
-**Daniel Whitenack:** \[00:27:54.16\] Awesome. A part of the reason why I have that in mind - I have a direct use case I'm thinking of in the problems I'm solving now. We have a bunch of knowledge base articles that we're doing reading comprehension on, but we're also doing a full-text search of those based on TF-IDF. So my thought is "Oh, well what if I could --", so check me on this to see if this would be a proper way to use RedisAI, but I could store the knowledge base article text as certain maybe string elements, string data structures in Redis, and then I could use maybe a script in combination with the graph that would store my TfidfVectorizer to transform those into actual tensors in the tensor data structure. Then when I would do a document search on those, maybe I could use some of the overlapping, or score generation script or something to actually do the matching. What do you think?
+**Daniel Whitenack:** \[27:54\] Awesome. A part of the reason why I have that in mind - I have a direct use case I'm thinking of in the problems I'm solving now. We have a bunch of knowledge base articles that we're doing reading comprehension on, but we're also doing a full-text search of those based on TF-IDF. So my thought is "Oh, well what if I could --", so check me on this to see if this would be a proper way to use RedisAI, but I could store the knowledge base article text as certain maybe string elements, string data structures in Redis, and then I could use maybe a script in combination with the graph that would store my TfidfVectorizer to transform those into actual tensors in the tensor data structure. Then when I would do a document search on those, maybe I could use some of the overlapping, or score generation script or something to actually do the matching. What do you think?
 
 **Pieter Cailliau:** I think that makes perfect sense to me. This is effectively what we want to do. And it can even be more beautiful. You mentioned, for example, you would fetch your knowledge graph as a tensor - if your knowledge graph is changing over time, you could effectively host that knowledge graph inside RedisGraph. Then it's there, it's living as a database, and you can effectively let it evolve over time.
 
@@ -150,7 +150,7 @@ It might be, for example, that you wanna add scoring; you could say on given sea
 
 **Daniel Whitenack:** This is truly practical AI, so... Solving problems on the fly. \[laughter\]
 
-**Break**: \[00:30:58.12\]
+**Break**: \[30:58\]
 
 **Chris Benson:** It looks like RedisAI is currently supporting PyTorch via LiveTorch, and TensorFlow via LiveTensorFlow, and also Onyx runtime as back-ends. That's pretty awesome. How big of a role did Onyx play in your strategy around modules, and can you describe it a bit to our users? Even defining what Onyx is, actually.
 
@@ -172,7 +172,7 @@ But once you wanna run it, it doesn't know anymore which back-end is effectively
 
 **Pieter Cailliau:** It's a good question. We do have a couple of client libraries. There's a Python client for RedisAI. There's also a conversion toolkit that we created to help you convert between these different models if that would be necessary, via Onyx runtime; we can probably share that later on, or at the end of the podcast. So from within your Python code you could effectively just publish your model inside RedisAI. You could push it directly, you could connect "Hey, here's my database. I wanna push this model." Obviously, there might be other ways that you still wanna do this; you might have some intermediate -- some versioning or exporting your model as a binary, so you could actually version it, and then you could ship it to DevOps.
 
-\[00:36:05.01\] Clearly, there is a component missing there to make this easily, to version your model and to say "Hey, this is now the new release we wanna publish inside RedisAI." You could do it directly, you could say "Hey, here's my client, and I directly push it to Redis." Then afterwards, if you wanna run that model, you can once again use the same client, however that client can also be wrapped in any other application that wants to consume that model.
+\[36:05\] Clearly, there is a component missing there to make this easily, to version your model and to say "Hey, this is now the new release we wanna publish inside RedisAI." You could do it directly, you could say "Hey, here's my client, and I directly push it to Redis." Then afterwards, if you wanna run that model, you can once again use the same client, however that client can also be wrapped in any other application that wants to consume that model.
 
 **Chris Benson:** I'm just kind of curious -- we've talked a little bit about some of these use cases... Before we move on, are there any other really typical use cases that you're seeing RedisAI being used for, that we haven't already covered?
 
@@ -186,7 +186,7 @@ Do you think that it's likely that the software engineers already using Redis wi
 
 But over time, we think we will get a very nice toolkit, and RedisAI will be one of those pieces into it. Combined with TensorWorks, we'd like to make the story where we can say "Hey, we've got a complete solution for you for serving your model."
 
-\[00:40:04.04\] On the other end of the spectrum is -- in that case, I don't know who the personas would be. For sure it's a data scientist, but also for example DevOps people that wanna have a good solution for serving those models.
+\[40:04\] On the other end of the spectrum is -- in that case, I don't know who the personas would be. For sure it's a data scientist, but also for example DevOps people that wanna have a good solution for serving those models.
 
 On the other hand, there is potentially also data engineers and software engineers who do already have Redis as a tool in their toolbox, and with the modules they can make all these beautiful, new applications. So ways you could use RedisAI - combine them, for example, with other modules. So if you have a search application and you wanna say "Hey, I have this top 100 or top 200 results. Why don't I run them again through some model to update or to fine-tune the scoring in-between those results?" It might have a big impact on the user experience. This is just an example, but we hope in that way that we will enable many new or interesting applications will appear.
 

@@ -14,7 +14,7 @@ That is then highly optimized. We do a bunch of performance optimization under t
 
 **Kevin Ball:** Yeah... So Gatsby is really interesting to me, because you're sort of pushing the edge of what does a static site mean. Because you're talking about sourcing data from all sorts of things. There's adaptors (I guess they're called plugins) for pulling data from WordPress, or pulling data from e-commerce sites, or pulling data from all these things that traditionally we wouldn't think of as static, but you package them all up and go.
 
-**Jason Lengstorf:** \[00:04:04.13\] Yeah, that's the plan. There's a big push right now in the content management world to create what are called headless CMS's. What that means in practice is -- like, WordPress has an admin interface, where you would go to edit your posts or create new things, or whatever. And traditionally, you would have to use the WordPress front-end. But when WordPress created a headless mode when they exposed an API, it means that any code can make an API call against your WordPress site, and pull that content out and then do whatever you want with it. So you can pull it into JavaScript templates, which is what we're doing with Gatsby - we make a query to the WordPress API, pull in that data into our GraphQL layer, and then you just write React components using that data.
+**Jason Lengstorf:** \[04:04\] Yeah, that's the plan. There's a big push right now in the content management world to create what are called headless CMS's. What that means in practice is -- like, WordPress has an admin interface, where you would go to edit your posts or create new things, or whatever. And traditionally, you would have to use the WordPress front-end. But when WordPress created a headless mode when they exposed an API, it means that any code can make an API call against your WordPress site, and pull that content out and then do whatever you want with it. So you can pull it into JavaScript templates, which is what we're doing with Gatsby - we make a query to the WordPress API, pull in that data into our GraphQL layer, and then you just write React components using that data.
 
 That's true of a whole lot of CMS's now - Shopify, and I think BigCommerce just did it, Magento is working on it... So all the big e-commerce players are exposing headless CMS's. WordPress, Drupal, Ghost... And there's a whole crop of CMS startups that are only headless; things like Sanity.io, that all they do is expose this really good editing interface, and they leave the front-end implementation, the UI implementation as an exercise for the user. That means that they're driving a lot of people toward Gatsby, because we kind of do that by default; we take a lot of the work out of using headless CMS's in a headless way.
 
@@ -28,7 +28,7 @@ Then, to get your shopping stuff, you would install the Gatsby source Shopify, a
 
 From the standpoint of the developers, they never actually see the data queries. They don't have to deal with setting up Axios or a GraphQL server, or anything like that. They just say "Alright, this is the query that has the data that I want", and you can open up -- Gatsby has a development mode where you can make GraphQL queries in the browser; so you can just open up the GraphQL Playground in your browser, type in the query until you get the data that you need, copy-paste that into your React template, and then you get a data prop on the React component that you can just use. And the data is there, you can do whatever you want with it. And you as a front-end developer - that stays exactly the same, no matter where your data comes from... Whether it's coming from a local JSON file, from a markdown file that's in a folder somewhere, or whether it's coming from a headless CMS.
 
-**Kevin Ball:** \[00:08:20.11\] Wow... So basically you're creating a mashup on steroids, right? You have this layer that just deals with all the API stuff, pulls your data from however many places you want, exposes them as a GraphQL server, and then you go.
+**Kevin Ball:** \[08:20\] Wow... So basically you're creating a mashup on steroids, right? You have this layer that just deals with all the API stuff, pulls your data from however many places you want, exposes them as a GraphQL server, and then you go.
 
 **Jason Lengstorf:** Exactly.
 
@@ -48,7 +48,7 @@ The Content Mesh is the idea that you don't have to make that trade-off anymore.
 
 **Kevin Ball:** Yeah, cool. Alright, I'm getting more and more excited to play with this. Let's maybe talk about when we go through and start building a Gatsby app. I took a look at a few different starter templates, and things like that... It seems like much of it feels very much like a React app; you have some page components, you may have layout components, you've got all your sub-components, and things like that... The things that felt differently, or felt like there might be some new concepts to understand is 1) just the way that you break down your data layer. There were three different things I saw in terms of unstructured data, page queries versus static query components, and then this concept of plugins and how they work.
 
-\[00:12:05.23\] Then there's a bunch of Gatsby-specific APIs that maybe we can dig into... But let's stay at the conceptual level for a minute. Can you talk about how those differ from your standard React app that you might already be used to building?
+\[12:05\] Then there's a bunch of Gatsby-specific APIs that maybe we can dig into... But let's stay at the conceptual level for a minute. Can you talk about how those differ from your standard React app that you might already be used to building?
 
 **Jason Lengstorf:** Yeah. The development part of Gatsby is a Node app. And while you're running that Node app, you are able to do things like programmatically create pages. When you programmatically create a page, you're setting a slug for it, so if you wanted to build an About page, you would set the path to About, and that would create a page at yoursite/about. You then choose a component for that, which would be whatever React component you want to be the page-level template for your About page. At that point, it could just be that; you could just pass in that component, and that component would have hard-coded text of like "Hi, I'm Jason. This is my website." Or you can set a context object on that Create Page call, and pass in a title, some content, maybe a last edited date... Whatever you want, you can put into that context object. Then, that would be the idea of unstructured data. So you're basically saying "Here's an object of whatever I want passed into this context object, and I can use that as the -- there's a prop that will automatically apply to the component called Page Context. That gives you the ability to create pages dynamically.
 
@@ -64,7 +64,7 @@ For example, for markdown we use a transformer called Remark. Remark creates nod
 
 Basically, we start with just this ability to pass exacting data. I'm going to pass you a context of title=myblog, and then you can further and further abstract that, until you're basically building dynamic datasets from third-party APIs. Does that make sense? I kind of went fast.
 
-**Kevin Ball:** \[00:16:00.26\] I'm trying to get my head still around the flow of data here. Can you maybe walk through step by step what happens first? Gatsby boots up in its build, and it's running a Node app.
+**Kevin Ball:** \[16:00\] I'm trying to get my head still around the flow of data here. Can you maybe walk through step by step what happens first? Gatsby boots up in its build, and it's running a Node app.
 
 **Jason Lengstorf:** Yes.
 
@@ -90,7 +90,7 @@ This is where Gatsby does a little bit of magic, because those queries aren't ex
 
 Then for each page, go through, parse it, figure out what data needs to be loaded for it, and then put that data into a prop and render with React.
 
-**Jason Lengstorf:** \[00:20:18.04\] Exactly.
+**Jason Lengstorf:** \[20:18\] Exactly.
 
 **Kevin Ball:** Cool. I like it. This is so cool! \[laughter\] That's really cool. Now, long-time listeners may know I'm fascinated by the concept of using Babel to create more specialized use cases and specialized languages. It's so much more than "Here, let me use modern JavaScript." So what you're doing here, saying "Hey, we're gonna take this thing, we're gonna use the fact that we understand it as a programmatic construct, pre-render, to pre-populate all that data and then go" - oh, that stuff is so cool! I love it.
 
@@ -108,7 +108,7 @@ Server-side rendering - the gatsby-ssr - is the same thing, but what we use duri
 
 Oh, and then the config file... I forgot. The config file allows you to set -- we call it site metadata; this would be global stuff. Your default SEO description and title, if you wanted to have your categories globally defined, and any sort of data that you want to be available - we put that into the GraphQL data layer, so you can query that anywhere on the site. It's also where you would configure your plugins, your themes, and there are a couple other options that I'm not remembering right now. All of this is very thoroughly documented. If I'm not making sense, the docs will clear up any mysteries.
 
-**Kevin Ball:** \[00:23:57.18\] Absolutely. And we will include a link for that in our show notes, so if you're listening to this, you can scroll down and get to that; or just search for Gatsby.
+**Kevin Ball:** \[23:57\] Absolutely. And we will include a link for that in our show notes, so if you're listening to this, you can scroll down and get to that; or just search for Gatsby.
 
 Before we close this out, are there any other special/magic conventions around where things live in the file system? Those are sort of magic file names. I saw there's a source folder with standard stuff, and a static folder. Are there any other things that have magic or conventional meanings?
 
@@ -116,7 +116,7 @@ Before we close this out, are there any other special/magic conventions around w
 
 **Kevin Ball:** Alright, cool. Well, let's take a quick break now, and then when we come back, we will be talking about more of the process for me as a developer, mindset-wise... Like, if I'm coming into a Gatsby project... You're someone who has built a number of Gatsby projects - how do you approach it, how do you think about it, what are the different pieces, and that sort of thing. So we kind of did the high-level architecture, and now we're gonna get into what it feels like working on it... But first, a quick break.
 
-**Break:** \[00:25:37.23\]
+**Break:** \[25:37\]
 
 **Kevin Ball:** Alright, let's just back into it then. Jason, can you maybe talk through - when you start a project, when you're going in, how do you think about it? Do you start from the data layer, do you start from the design? What are the different things you do to kick off? We talked a little bit about started templates, but maybe you could talk about what all is included in those, or themes, or any of these other pieces.
 
@@ -124,7 +124,7 @@ Before we close this out, are there any other special/magic conventions around w
 
 The next thing that we're working on is this idea of themes. Themes are gonna be a really big deal, because with a theme installed, you're actually able to have just a gatsby-config.js, and a folder full of markdown posts. Or if you were using WordPress, literally just a gatsby-config would be all you would need, and it would build the whole site for you. That's something we can dig into a little bit, if you want to, but in the general sense, when you're looking at building a Gatsby site, you're able to look at "What data do I have, and what do I want to accomplish?" and then you can just start writing React components.
 
-\[00:28:09.18\] You can do that from a design standpoint, you could take a design and break it down into React components, and then load those up with data; you could do it from a data standpoint, make your queries and get the data dumped on-screen in a pre tag; that's kind of my default - make sure that I have the data available, and start grabbing out chunks of the JSON stringified dump, and making it into components...
+\[28:09\] You can do that from a design standpoint, you could take a design and break it down into React components, and then load those up with data; you could do it from a data standpoint, make your queries and get the data dumped on-screen in a pre tag; that's kind of my default - make sure that I have the data available, and start grabbing out chunks of the JSON stringified dump, and making it into components...
 
 You can take it from whichever direction you want, because the effort required to get the site up and building and in a browser, and library loading - you can do that once you have the Gatsby CLI installed. In 30 seconds you can have a site up and running at localhost in your browser. And to edit those components, it live-reloads while you're building, so you can make an edit, save it, see it live instantly. So your ramp-up time is really low, and that's something that we find super-exciting.
 
@@ -146,7 +146,7 @@ In and of itself, that's pretty cool. It's similar to WordPress, where you insta
 
 **Jason Lengstorf:** Yeah, so you're able to do a data theme that just sets up some base components, and then have a whole bunch of style themes that would style those components, but they know the data is gonna be there. But where it really gets exciting is when you go horizontal. Because then you could take a blog theme and a commerce theme and install both of them, and get a blog and a shopping cart both installed, without having to find somebody who built a theme that does both for you. And you can add tons of these. So it's a really powerful model that we are extremely excited about.
 
-**Kevin Ball:** \[00:32:08.11\] If you have something like that - is that something that you can configure only to the extent that the theme developers has set it up? I'm thinking about - if I had a blog and a shopping cart theme, and I wanted to integrate those horizontally, I'd wanna make sure they aren't having colliding paths, and I might wanna put one in a subdirectory, or something like that. Is that something that the theme developer has to account for, or something that you as you install a theme can say "Hey, put this theme in and put it under this prefix", or something like that.
+**Kevin Ball:** \[32:08\] If you have something like that - is that something that you can configure only to the extent that the theme developers has set it up? I'm thinking about - if I had a blog and a shopping cart theme, and I wanted to integrate those horizontally, I'd wanna make sure they aren't having colliding paths, and I might wanna put one in a subdirectory, or something like that. Is that something that the theme developer has to account for, or something that you as you install a theme can say "Hey, put this theme in and put it under this prefix", or something like that.
 
 **Jason Lengstorf:** We're still working out what the conventions are for that. Themes are still pretty early days. Right now for the paths, the theme developer would need to make that configurable, but the process of doing it would be reasonably straightforward.
 
@@ -166,7 +166,7 @@ So this allows you to selectively eject components that you wanna change, withou
 
 **Kevin Ball:** This may be going a little off in the weeds, but is there a way to reference back to the original component? What if, for example, I want to sub in a header, but only on some pages? Can I have a header component that shadows, that does basically an "if...else"? "If in these pages, do this component. Otherwise go back to the original."
 
-**Jason Lengstorf:** \[00:35:59.08\] Yeah, we are ironing the last of the bugs out of it, but if the shadowed component imports itself from the theme, we don't shadow that. So you would be able to import the theme component and then re-export it.
+**Jason Lengstorf:** \[35:59\] Yeah, we are ironing the last of the bugs out of it, but if the shadowed component imports itself from the theme, we don't shadow that. So you would be able to import the theme component and then re-export it.
 
 **Kevin Ball:** Very nice, very nice. Okay, so what's the timeline on this? Themes sound awesome, but what I'm hearing is "We're still doing things."
 
@@ -184,7 +184,7 @@ Another way you could do it would be with Yarn Workspaces, but that's a little b
 
 **Jason Lengstorf:** Yes. But themes - you have to use Yarn Workspaces, because we ran into some issues with yarn link. Yarn link is really powerful, but when it hits an edge case, it tends to be an extremely confusing edge case, so we've just kind of abandoned it as a solution for themes... Because there's peer dependency problems, and it got very tangled very fast. Workspaces are predictably stable, so if you use a workspace to develop a theme, you can do it all locally, but it resolves as if it was a package, which means that when you publish it, you don't have to do any special things; you can just publish it.
 
-**Kevin Ball:** \[00:40:10.25\] Cool. And I'm hearing a lot of Yarn from you... So is it possible to use and develop in Gatsby with just Npm, or that's not the happy path?
+**Kevin Ball:** \[40:10\] Cool. And I'm hearing a lot of Yarn from you... So is it possible to use and develop in Gatsby with just Npm, or that's not the happy path?
 
 **Jason Lengstorf:** The vast majority of development in Gatsby can be done with Npm. Where you start to run into weird stuff is if you're working on Gatsby core, we use a monorepo -- and you could use Lerna with Npm. We have some -- well, let me just back that out all the way. Here's what I'll say - if you're building a Gatsby site and you're just going to be installing plugins and working with them, Npm is wonderful, and that's actually what we recommend in the docs. If you are going to be developing themes or working on Gatsby core, we just use Yarn because we found it to be predictable and it solves some problems that Npm doesn't. Npm doesn't have a workspaces feature, and that's one of the reasons that we use Yarn; it kind of overcomes a couple hurdles without external tools, and we kind of like that.
 
@@ -196,7 +196,7 @@ And for packages that rely on the window, we have a pattern written up in our do
 
 **Kevin Ball:** Alright. Let's take another quick break, and then when we come back we will talk about future-facing stuff - what's coming up, what still needs work, and all those areas; we touched a little bit on it with themes, but I'm excited to dig in more.
 
-**Break:** \[00:42:40.02\]
+**Break:** \[42:40\]
 
 **Kevin Ball:** Okay, welcome back. Let's talk a little bit about the future of Gatsby. First off, let's start with where we are now... What still feels hard when you're working on a Gatsby site? Where are the rough edges? What still needs a lot of work?
 
@@ -222,7 +222,7 @@ But if your site had no data layer, you could probably build -- I don't know whe
 
 We're pretty much in a position where -- there's a limit at which you'll probably see issues; those issues will start to go away in the fairly near future. We just did a big refactor of our internal build process to use xstate, which gives us a much more predictable build process, and we are in the process of refactoring our error handling, so that we can get better visibility into where things are going wrong... And that's opening the door for us to do a lot of work on parallelization, which will really cut down on the restrictions there.
 
-\[00:48:19.24\] So if you have an 8-core machine, it will be eight times faster than a single-core machine. I mean, it's obviously not gonna be that linear, but we're working toward that, where you can split your builds up and just add a slightly more powerful machine to cut that build time by quite a bit. Those are all things that are on our radar, and that we have active, full-time resources dedicated to to solve. So it's a problem now, but it won't be for long.
+\[48:19\] So if you have an 8-core machine, it will be eight times faster than a single-core machine. I mean, it's obviously not gonna be that linear, but we're working toward that, where you can split your builds up and just add a slightly more powerful machine to cut that build time by quite a bit. Those are all things that are on our radar, and that we have active, full-time resources dedicated to to solve. So it's a problem now, but it won't be for long.
 
 **Kevin Ball:** That makes sense. I am personally fascinated by the balance you're running as a venture-backed company with the open source stuff, but I think you actually went into that in a great deal on a Changelog episode, so I don't want to replay all of that... One question I would put out there right now is what are the services currently being offered, and are there any particular ones coming up very soon that folks might pay for that would really help them with their sites?
 
@@ -236,7 +236,7 @@ So I would say build is the next thing that's really gonna happen - the ability 
 
 **Kevin Ball:** Yeah, I think so. I'd like to pick your brain a little bit on how far we can take things like Gatsby and the JAMstack. We went through an era where static sites were all just content-based sites. That was the first generation of static site generators - "I'm gonna build my blog statically." And now we're talking about, "Well, we've got all these APIs out here in JAMstack, and all these other stuff... We could do a lot more, and push this stuff out to the edge." And it seems like one of the big areas that Gatsby seems to be getting some traction is on e-commerce, where there's great data about the importance of speed and performance, and how that directly translates to revenue.
 
-**Jason Lengstorf:** \[00:52:08.02\] Yeah, absolutely.
+**Jason Lengstorf:** \[52:08\] Yeah, absolutely.
 
 **Kevin Ball:** What are some of the other verticals where maybe this hasn't hit, but it really should, and are there areas where this isn't gonna make sense, and where static site generators are not ever gonna really dig into?
 
@@ -250,7 +250,7 @@ Where I think Gatsby would fall down, or static sites in general fall down, is t
 
 I think theoretically it's possible, if you had a really solid incremental build algorithm, and so on and so forth - you could potentially do it, and our pipedream at Gatsby is to figure out a way to run Wikipedia or a clone of Wikipedia on Gatsby... But realistically, at least in the short-term, that's probably not gonna happen. So if you're got something like a stock ticker, that's updating all of the time and needs to be server-renderable, and crawlable by Google, or something, you probably wouldn't wanna use Gatsby for that... Because what you'd end up doing is like rendering an empty box that would then client-side mount, and do a GraphQL subscription, or something... And you know, we've done that; we hooked up to Hasura (a few weeks on my livestream we did this) and set up a GraphQL subscription to pull live data as it came in. But if you needed that to be server-side rendered, you wouldn't be able to do that with Gatsby.
 
-**Kevin Ball:** \[00:56:32.00\] Can I dig into one -- back a little bit into the details of Gatsby on this... I love this idea that you're talking about, of basically having all the logged in behavior essentially just render on the client, so you don't have to worry about the fact that you don't have authentication on your static stuff, and I assume you're using an authentication service like Auth0 or Firebase for that... How do you, within Gatsby, configure all of that? Can you still take advantage of the built-in routing, or stuff like that? How would I set up an embedded client-side-only set of pages in app? And would it still feel like Gatsby within that?
+**Kevin Ball:** \[56:32\] Can I dig into one -- back a little bit into the details of Gatsby on this... I love this idea that you're talking about, of basically having all the logged in behavior essentially just render on the client, so you don't have to worry about the fact that you don't have authentication on your static stuff, and I assume you're using an authentication service like Auth0 or Firebase for that... How do you, within Gatsby, configure all of that? Can you still take advantage of the built-in routing, or stuff like that? How would I set up an embedded client-side-only set of pages in app? And would it still feel like Gatsby within that?
 
 **Jason Lengstorf:** Yes. So what we do is - under the hood, Gatsby uses reach/router. You can use reach/router as your client-side custom routing, and then we have the ability to identify a path as dynamic. In the Create Pages (I believe it is) you can match the path against a fragment and say "If the path matches user, then flag it as a dynamic page." And then what we'll do is we'll render a user template, but we won't try to render sub-pages. If you go to /user/accounts/settings/whatever, we won't attempt to render another page; we'll just bounce that back to the user template, which means that your user template effectively becomes the housing for a single-page app.
 

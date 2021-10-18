@@ -38,7 +38,7 @@
 
 **Katie Hockman:** Yeah, I can give you a quick summary to that. Basically, fuzzing is a form of automated testing that can manipulate inputs in a way they can find bugs that maybe you wouldn't otherwise be able to find on your own. In my mind, it's kind of a supplement to some of the existing testing that people already do, and it's pretty common, like unit testing or integration testing... But what sets it apart is it actually does things on its own, and kind of runs continuously; so it's kind of smart, in a way. If it has some interesting inputs, it can actually use some intelligence to go in and mutate those inputs in interesting and meaningful ways, to find crashes and panics that wouldn't easily be otherwise found if the developer had to try to identify them themself.
 
-**Mat Ryer:** \[00:04:22.08\] That's interesting then. You talk about this intelligence. It isn't just random then. There's something else going on.
+**Mat Ryer:** \[04:22\] That's interesting then. You talk about this intelligence. It isn't just random then. There's something else going on.
 
 **Katie Hockman:** Yeah, and I think it's really tricky, because there's no industry standard on how these kinds of things work. I mean, there are definitely tons of different ways that you can mutate things randomly, and then there's also a lot of interesting discussion around how do you prioritize which corpus entries - and I'll talk a little bit more about what corpuses are later, but basically which inputs to modify and how to modify them, and how smart it should really be. All those things are kind of up in the air, and a lot of different fuzzers work differently, which is actually kind of cool in my mind.
 
@@ -56,7 +56,7 @@ There's a reason we test everything, and it's because we don't always know where
 
 **Roberto Clapis:** Right. I would also add that when you write the fuzz test target, you want to expect on properties of the stuff that you work on. Instead, when you work on unit tests, you expect some output. For example, in the strings.split case you can say "I'm going to call a strings.split with two parameters, and I'm going to check that the second one never appears in the returned slices", because the separator should never appear.
 
-\[00:08:02.10\] And that is something you would generally not test in a unit test. Or you're going to check that the returned slices are less than the characters of the string. If you return more characters than there are there must be a problem, and this is stuff that normally doesn't get tested... I'm pretty bad at writing tests, but whenever I unit-test, I don't test for this kind of condition.
+\[08:02\] And that is something you would generally not test in a unit test. Or you're going to check that the returned slices are less than the characters of the string. If you return more characters than there are there must be a problem, and this is stuff that normally doesn't get tested... I'm pretty bad at writing tests, but whenever I unit-test, I don't test for this kind of condition.
 
 **Filippo Valsorda:** Yeah, and another example of something that would be good to check in a fuzz test of the split function is that if you put it back together, putting the separators between the things you split, do you get back the original string? If you do, it probably did its job right. And that's the kind of stuff that fuzzers are pretty good at finding, because they can just go and find some input where -- I don't know, the separator is at the end, and is missing one character, or I don't know, where the thing doesn't roundtrip.
 
@@ -72,7 +72,7 @@ There's a reason we test everything, and it's because we don't always know where
 
 **Mat Ryer:** So how can you do fuzzing in Go today then? What are the choices that we have?
 
-**Katie Hockman:** \[00:12:03.27\] There are a few. I can speak to at least one or two. I think the common one is go-fuzz. That's the one that everyone knows about. That was written primarily by Dmitry Vyukov. It's really amazing; I've spoken to him about it, and he's actually given a lot of really good feedback into the proposal that's out there now. So it's been nice to partner with him a little bit on that too, and have him give some feedback on that. It's really neat, and if you haven't used it, you should definitely check it out.
+**Katie Hockman:** \[12:03\] There are a few. I can speak to at least one or two. I think the common one is go-fuzz. That's the one that everyone knows about. That was written primarily by Dmitry Vyukov. It's really amazing; I've spoken to him about it, and he's actually given a lot of really good feedback into the proposal that's out there now. So it's been nice to partner with him a little bit on that too, and have him give some feedback on that. It's really neat, and if you haven't used it, you should definitely check it out.
 
 And then another tool that somebody wrote was fzgo. I think that was kind of a proof of concept written mostly by the \[unintelligible 00:12:45.20\] it sounded like, to try to integrate it a little bit more kind of with the go command, and making it look more like an end-to-end tool that wouldn't have to have so many build steps like go-fuzz has... And add a little bit of support for modules, I think, was part of that... Or maybe that was a part of go-fuzz. But there's been different features that both of them have tried to basically model and see how they would work... And I think fzgo was meant to be kind of a prototype or an experiment of what it might look like as a final approach.
 
@@ -86,7 +86,7 @@ And then another tool that somebody wrote was fzgo. I think that was kind of a p
 
 There's a demo of AFL slowly building a valid JPG out of nothing, and it slowly makes a picture and it figures out the letters, it puts in the tags, and everything. It's scary good.
 
-**Roberto Clapis:** \[00:16:01.13\] One thing that really scared me was when I ran go-fuzz against the HTTP library, and after a while I saw that in the corpus something that looked like random started appearing. I was like "Oh, cool." The Go standard package started accepting something that is not HTTP, because it was HTTP/2. Basically, it started constructing valid HTTP/2 requests from nothing. That was scary, and also, I was ashamed because I did not recognize it, and I had to manually write to decompress it and see what was going on.
+**Roberto Clapis:** \[16:01\] One thing that really scared me was when I ran go-fuzz against the HTTP library, and after a while I saw that in the corpus something that looked like random started appearing. I was like "Oh, cool." The Go standard package started accepting something that is not HTTP, because it was HTTP/2. Basically, it started constructing valid HTTP/2 requests from nothing. That was scary, and also, I was ashamed because I did not recognize it, and I had to manually write to decompress it and see what was going on.
 
 **Filippo Valsorda:** Rob, if you can ever read HTTP/2 with the naked eye, you need to tell me.
 
@@ -114,7 +114,7 @@ There's a demo of AFL slowly building a valid JPG out of nothing, and it slowly 
 
 **Mat Ryer:** Yeah, we should talk more about that proposal, but before we do, I just wanna get a few other concepts clear. There's this concept of seeding the corpus; there's this concept of kind of giving the fuzzing tool some kind of head start... A bit like with unit tests, where you say "We know these are the inputs and these are the expected outputs." You also kind of seed the fuzzing tool in a similar way, don't you?
 
-**Katie Hockman:** \[00:20:09.16\] Yes, and I think it's also kind of a goal of the proposal to try to make it such that the unit tests that people have now and the use cases that they've already come up with can basically just be directly used as seed corpus. The seed corpus is filling two needs, at least in terms of this Go proposal. First of all, seeding the mutation engine, seeding the corpus is trying to tell it "This is a good starting point for you. Build off of this", and then it can manage its own corpus on its own, as it wants to, and build it up as it finds new coverage and new interesting things. But it also can serve as a regression test of sorts. The seed corpus is either checked into your test data directory, it's basically checked in directly into your module or into your package, or it's in there programmatically. It's in your tests in code. That's run every single time go test is run, and it's also meant to act as a regression test. So you can use existing things, you can use new crashes, and you can build up that seed corpus as you find new regressions that you wanna make sure you're testing.
+**Katie Hockman:** \[20:09\] Yes, and I think it's also kind of a goal of the proposal to try to make it such that the unit tests that people have now and the use cases that they've already come up with can basically just be directly used as seed corpus. The seed corpus is filling two needs, at least in terms of this Go proposal. First of all, seeding the mutation engine, seeding the corpus is trying to tell it "This is a good starting point for you. Build off of this", and then it can manage its own corpus on its own, as it wants to, and build it up as it finds new coverage and new interesting things. But it also can serve as a regression test of sorts. The seed corpus is either checked into your test data directory, it's basically checked in directly into your module or into your package, or it's in there programmatically. It's in your tests in code. That's run every single time go test is run, and it's also meant to act as a regression test. So you can use existing things, you can use new crashes, and you can build up that seed corpus as you find new regressions that you wanna make sure you're testing.
 
 **Mat Ryer:** Yeah, so that's a really cool feature that if something fails, that automatically gets contributed to the testing. So the next time, that will explicitly get tested is how it works. That is very cool, because of course, the value of unit testing, in the cases where you find a bug and then you write a test to prove that bug, which you do if you follow TDD tightly... And in some cases I find that to be a great way to work, because you get a kind of to-do list for free from the toolchain. And as you write your test, if things aren't working, they fail, you get errors that you then have to unblock, and it's a kind of nice way to decide what you have to do to get something to pass.
 
@@ -126,7 +126,7 @@ What do we do with that corpus though? Dominic Rouse on Twitter asked "What are 
 
 If you have a bunch of test data, like let's say you have a bunch of big HTTP requests, or binary files or something like that that you already have somewhere, you can just use those too, and go test will look at test data as part of the seed corpus, too. And so I think it also depends on what the seed corpus is - is it a huge binary? Is it a small thing? Is it something that's best built programmatically, and what the best practices for that will be I think are still kind of an open question... At least it is to me.
 
-**Filippo Valsorda:** \[00:23:46.01\] I think there's also an angle of maturity of the ecosystem in there, of maturity of the technique... Because when fuzzing is just this tool that some security researchers use to smash against a program once, try to get something out of it and then move on - of course, they just run the corpus wherever they're keeping it. But I feel like just like with testing we set up continuous integration and we trust machines to do the heavy lifting for us, I expect that fuzzing also takes that path once it's built into developer workflows.
+**Filippo Valsorda:** \[23:46\] I think there's also an angle of maturity of the ecosystem in there, of maturity of the technique... Because when fuzzing is just this tool that some security researchers use to smash against a program once, try to get something out of it and then move on - of course, they just run the corpus wherever they're keeping it. But I feel like just like with testing we set up continuous integration and we trust machines to do the heavy lifting for us, I expect that fuzzing also takes that path once it's built into developer workflows.
 
 So you would have a small corpus locally on your machine, and Katie's proposal puts it automatically in a cache folder... That will do a very quick pass, but you're not gonna run the fuzzer mostly on your laptop. Part of what makes fuzzers work is that computers are fast, but also you can keep throwing more cores at it. And then you upload it, and some CI or OSS-Fuzz or some continuous integration system can just run the fuzzer, and it should persist the corpus, so it will keep running the same corpus against it, so that you make changes and the corpus is already hot and large, but is not checked into your repository, because most people don't want megabytes and megabytes of corpus checked in.
 
@@ -156,9 +156,9 @@ There's a lot of different things I'm not totally sure would be supported. If it
 
 **Katie Hockman:** Yeah, don't encourage him. \[laughs\]
 
-**Mat Ryer:** \[00:28:12.14\] Yeah. Last time Filippo was on the show he stopped me from admitting to a crime before I said it, which was brilliant. Really useful service. \[laughter\]
+**Mat Ryer:** \[28:12\] Yeah. Last time Filippo was on the show he stopped me from admitting to a crime before I said it, which was brilliant. Really useful service. \[laughter\]
 
-**Break:** \[00:28:20.27\]
+**Break:** \[28:20\]
 
 **Mat Ryer:** We can take a short break if anyone needs to, and people at home can take a break anytime they want to, really. They're probably just carrying us around on their portable devices, so they can just do what they like... I don't know why I'm explaining that. \[laughter\]
 
@@ -178,7 +178,7 @@ I was just gonna say, some bits will get cut out. If you need anything cut out, 
 
 **Mat Ryer:** Yeah, exactly. \[laughs\] It's just got me embarrassing myself. This one of them. This is one of the clips.
 
-**Break:** \[00:29:21.26\]
+**Break:** \[29:21\]
 
 **Mat Ryer:** So the new proposal - which we'll post a link to in the show notes - kind of has a very nice Go feel to it, like the design of it. So in the same way that we used to test functions being how we described unit tests, there are fuzz functions now which take a different argument, the testing.F. Is that like an interface then? What is that testing.F type?
 
@@ -192,7 +192,7 @@ I was just gonna say, some bits will get cut out. If you need anything cut out, 
 
 **Katie Hockman:** Well, I didn't include in that proposal all the other methods that are in the testing.TB interface which it will support. For example, if you have some pre-work that you need to do and you wanna fail the test or something like that, because something failed, you can do that... Things like that. Originally, some earlier designs had the testing.F function; the f.fuzz function accepted testing.F, and then it ended up being not as clear, I think, and it was gonna complicate things quite a bit...
 
-\[00:32:30.15\] And there were some discussions that Filippo and I had, and we ended up basically keeping it as a testing.T within that function. So it basically should look almost exactly like a t.run. If you have a t.run, you can copy it over directly.
+\[32:30\] And there were some discussions that Filippo and I had, and we ended up basically keeping it as a testing.T within that function. So it basically should look almost exactly like a t.run. If you have a t.run, you can copy it over directly.
 
 So it should look and feel exactly like a unit test within that f.fuzz function, which runs kind of as a unit test... And then anything you need to do before that, like set things up, add to the corpus, whatever you need to do, you can use the testing.f for that part.
 
@@ -218,7 +218,7 @@ In the proposal, the example is "It takes a testing.T, and A, which is a string,
 
 **Katie Hockman:** Like if for example you didn't f.add with two ints, or something like that?
 
-**Mat Ryer:** \[00:35:57.13\] Exactly, yeah.
+**Mat Ryer:** \[35:57\] Exactly, yeah.
 
 **Katie Hockman:** I expect it would probably panic... Because what you're doing is you're basically telling it "Here's two ints", and it's expecting a string and a big int. And maybe that can work with static check and things like that, to find those things at build time...
 
@@ -236,7 +236,7 @@ So it's kind of easier to write fuzz targets than people assume, but since fuzz 
 
 **Mat Ryer:** So would you say that fuzzing makes a lot of sense if you're working with multiple methods? I mean, in that example that Roberto gave, where you're encoding and decoding, because you can say something about the way that those two things should interoperate... But how can you make assertions on something if the input is completely random? What kind of assertion are you gonna make?
 
-**Roberto Clapis:** \[00:39:50.23\] One thing that I did - I was fuzz-testing a cache that I implemented... Caches are harder than people would normally assume, so I wanted to make sure that, for example, what I put in, I got back. So to test my cache, I did differential fuzzing with a HashMap. A HashMap is a perfect cache. I mean, it grows indefinitely, but I didn't care; it was just fuzz testing. So I just fed stuff to my cache, and when I retrieved it, if it wasn't there - meh; it was evicted. But if it was there, it should be identical to whatever was in that map. So you can have a simpler, dumber implementation of the algorithm you want to implement, or maybe a slower one. If you optimize your code, you can keep the old code, the slow one, to test against... And usually, slow code is easier to debug, and it's more reliable, and it's easier to write.
+**Roberto Clapis:** \[39:50\] One thing that I did - I was fuzz-testing a cache that I implemented... Caches are harder than people would normally assume, so I wanted to make sure that, for example, what I put in, I got back. So to test my cache, I did differential fuzzing with a HashMap. A HashMap is a perfect cache. I mean, it grows indefinitely, but I didn't care; it was just fuzz testing. So I just fed stuff to my cache, and when I retrieved it, if it wasn't there - meh; it was evicted. But if it was there, it should be identical to whatever was in that map. So you can have a simpler, dumber implementation of the algorithm you want to implement, or maybe a slower one. If you optimize your code, you can keep the old code, the slow one, to test against... And usually, slow code is easier to debug, and it's more reliable, and it's easier to write.
 
 **Mat Ryer:** Because it's slower and you can see what's happening. \[laughter\]
 
@@ -256,7 +256,7 @@ Now, unit tests are always going to be needed, but if you put on top something t
 
 **Filippo Valsorda:** One opinion I heard that I'm not supporting - retweets are not endorsements - was that "Why would you write unit tests if you already know that your program is going to break on? Just don't write the bug." I mean... \[laughter\] Yes, yes, yes. I know. But there is a degree of truth to that. The things you can write unit tests -- unit tests are actually more useful for refactoring later and for regressions. But that's the thing - it's unlikely you will think of inputs that break on the program you just wrote, because you thought about those edge cases. And fuzzing will just not care about what you thought about. Fuzzing will find where it hurts.
 
-**Roberto Clapis:** \[00:44:04.25\] Right... And one thing that I like to say is that I write test targets for my future interaction with the code, because I also used to do TDD most of the time. So I write the tests, and then I write the code that implements whatever I am testing for... And in the future, when I refactor, one of the tests will pass, when I said that I write fuzzers for the code that I wrote in the past. So basically, the fuzzer makes sure that whatever is there is actually what it meant to do, and the tests are there so that the future code will keep doing it.
+**Roberto Clapis:** \[44:04\] Right... And one thing that I like to say is that I write test targets for my future interaction with the code, because I also used to do TDD most of the time. So I write the tests, and then I write the code that implements whatever I am testing for... And in the future, when I refactor, one of the tests will pass, when I said that I write fuzzers for the code that I wrote in the past. So basically, the fuzzer makes sure that whatever is there is actually what it meant to do, and the tests are there so that the future code will keep doing it.
 
 **Katie Hockman:** I really like what Filippo said about "The fuzzing engine doesn't care what the developer thought about." I think that's the benefit of having -- that's why, for example, code reviews exist, because you need another person who's more objective to look at it, and I think a fuzzing engine can be this third-party objective being that just goes in and does everything it can to try to break it, and has no idea what you thought about it. It doesn't care about that, it just cares about trying to find as much coverage as it can, and trying to find bugs. That kind of third-party entity is a cool concept to me.
 
@@ -292,7 +292,7 @@ Now, unit tests are always going to be needed, but if you put on top something t
 
 **Filippo Valsorda:** It's a sacrifice we're willing to make, really. \[laughter\]
 
-**Break:** \[00:47:48.07\]
+**Break:** \[47:48\]
 
 **Mat Ryer:** So does anybody have an unpopular opinion for us today? It can be fuzzing-related, but it doesn't have to be... It can be anything.
 
@@ -326,7 +326,7 @@ Now, unit tests are always going to be needed, but if you put on top something t
 
 **Mat Ryer:** Yeah, that is true, actually... Because you do think -- in the beginning I thought APIs were for machines to talk to each other, but they aren't. They're for humans to build the thing that allows the machines to talk to each other. Yeah, so that is true.
 
-\[00:52:07.28\] But I don't know, Pythagoras could have been a laugh at a party. He might have had a great time with it, I don't know... \[laughter\] You're probably measuring all the stuff and you're like "Pythagoras, just put your ruler down for five minutes, mate! Have a sandwich. I've cut them into triangles, how you like them." You know, that kind of thing. Okay, any other unpopulars?
+\[52:07\] But I don't know, Pythagoras could have been a laugh at a party. He might have had a great time with it, I don't know... \[laughter\] You're probably measuring all the stuff and you're like "Pythagoras, just put your ruler down for five minutes, mate! Have a sandwich. I've cut them into triangles, how you like them." You know, that kind of thing. Okay, any other unpopulars?
 
 **Filippo Valsorda:** I have a whole list of cryptography unpopular opinions, but the thing is I don't think anybody actually has an opinion on these things, and it's just these ten people, and we're all on the same Slack, and we just discuss these things between us... So I'm not gonna go there. Instead, my unpopular opinion is that - and Katie, I know she understands, but... Dogs in the office are bad. Just bad.
 
@@ -358,7 +358,7 @@ Now, unit tests are always going to be needed, but if you put on top something t
 
 **Filippo Valsorda:** \[laughs\] Right?
 
-**Mat Ryer:** \[00:54:51.20\] What are you gonna ban next, Filippo? Foosball tables?
+**Mat Ryer:** \[54:51\] What are you gonna ban next, Filippo? Foosball tables?
 
 **Filippo Valsorda:** Ping-pong tables have gotten old... \[laughter\]
 

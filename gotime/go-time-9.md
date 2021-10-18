@@ -30,7 +30,7 @@ We also wanted to have some sort of performance, because the service that I work
 
 **Carlisia Thompson:** Yeah, yeah.
 
-**Scott Mansfield:** \[00:03:58.14\] So there is actually a new version of the Chaos Monkey coming out. It's not open source yet, but the whole backend of the Chaos Monkey has been rewritten in Go, and it's actually in production right now, striking fear into everybody's hearts here. I actually spoke to the developer before this to get some reasoning, and partly it was because Go itself is so easy to learn that he's not worried about people coming in and working on his code later. The old codebase was actually such a mess that people were afraid of changing it, so now he's rewritten it in Go.
+**Scott Mansfield:** \[03:58\] So there is actually a new version of the Chaos Monkey coming out. It's not open source yet, but the whole backend of the Chaos Monkey has been rewritten in Go, and it's actually in production right now, striking fear into everybody's hearts here. I actually spoke to the developer before this to get some reasoning, and partly it was because Go itself is so easy to learn that he's not worried about people coming in and working on his code later. The old codebase was actually such a mess that people were afraid of changing it, so now he's rewritten it in Go.
 
 **Erik St. Martin:** That's awesome, because until now I love everything Go does, and now it's wreaking chaos on my system right? \[laughter\] It is now both evil and good.
 
@@ -54,7 +54,7 @@ One of the things that's actually a good example is our metrics library, because
 
 **Erik St. Martin:** We should probably back up a little bit too, because we discussed it a little bit in another show, but we might wanna kind of talk about what Rend is, and the components of that and what you're using it for, to kind of give a better understanding of what it does and why performance was so critical.
 
-**Scott Mansfield:** \[00:08:02.23\] Okay, yeah. So earlier, as I mentioned, I work on EVCache, which is a distributed charted memcached. It's the second or third highest volume system that we have here. It's a cache that fronts pretty much everything - I mean, not everything-everything, but quite a lot. It's in all three of our Amazon regions; we hit thirty million operations per second globally earlier this year, so when we're talking about trying to save a couple microseconds or something here or there, it's because it happens a couple trillion times a day. So when we put something in front of memcached, we really didn't wanna slow it down so much; that's why I was so sensitive to having something like 80-ms GCs. Our clients actually normally see roughly one millisecond response time from us, and half of that is network latency.
+**Scott Mansfield:** \[08:02\] Okay, yeah. So earlier, as I mentioned, I work on EVCache, which is a distributed charted memcached. It's the second or third highest volume system that we have here. It's a cache that fronts pretty much everything - I mean, not everything-everything, but quite a lot. It's in all three of our Amazon regions; we hit thirty million operations per second globally earlier this year, so when we're talking about trying to save a couple microseconds or something here or there, it's because it happens a couple trillion times a day. So when we put something in front of memcached, we really didn't wanna slow it down so much; that's why I was so sensitive to having something like 80-ms GCs. Our clients actually normally see roughly one millisecond response time from us, and half of that is network latency.
 
 **Erik St. Martin:** Wow.
 
@@ -72,7 +72,7 @@ As a part of that now, Rend is the on-box memcached proxy that does... It's a wi
 
 **Scott Mansfield:** Not necessarily true. When you do things like [Chaos Kong](https://netflixtechblog.com/chaos-engineering-upgraded-878d341f15fa) where we evacuate a single region and split it between the other regions, you might have a huge number of misses in L1 very quickly. I didn't actually work on the RocksDB part, my teammate \[unintelligible 00:11:23.03\] did a lot of work to make that very efficient. The part that he's reusing is just the protocol parsing, the server loop piece of Rend, but the backend storage is all him, and there's a variety of different ways he's made the storage efficient enough to be able to handle misses like that.
 
-**Erik St. Martin:** \[00:11:43.12\] Yeah, RocksDB has been a favorite of mine for a long time. I'm kind of jealous you guys got to build something really cool with it. So walk us through the performance of that. You spoke to having to kind of go against the idioms to get the type of performance that you are, the one-millisecond latency on that. Is there a lot of those that you had to go by? Do you have kind of like a running list of things like that, of reproducible patterns that get to perform some operation in a more performant way than is currently idiomatic?
+**Erik St. Martin:** \[11:43\] Yeah, RocksDB has been a favorite of mine for a long time. I'm kind of jealous you guys got to build something really cool with it. So walk us through the performance of that. You spoke to having to kind of go against the idioms to get the type of performance that you are, the one-millisecond latency on that. Is there a lot of those that you had to go by? Do you have kind of like a running list of things like that, of reproducible patterns that get to perform some operation in a more performant way than is currently idiomatic?
 
 **Scott Mansfield:** Part of it was the design itself is less... I'm trying to think of the proper words here. Most people might immediately think like, "Okay, send messages back and forth so that you could do requests", but for us, we have a connection coming in as a connection going out, so we have these sort of vertical slices and it's a very strictly connected, like one connection in to one connection out, and that allows us to have both isolation, but also a little bit easier time programming.
 
@@ -94,7 +94,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Brian Ketelsen:** I think I have a pretty good idea. If you're at Netflix scale, then all of the rules don't apply. But if you're not at Netflix scale, use whatever you want I think we've probably spent too much time focusing on tiny microperformance benchmarks, when 90% of our latency comes from the network and the disk and the database. We should worry about those things instead.
 
-**Carlisia Thompson:** \[00:16:11.10\] My impression though is that mutex and channels, they are not interchangeable. I mean, you can use channels in the way that you would... If all you needed was a mutex, you could force a design with channels in your code, but they're not really the same thing. I could be wrong.
+**Carlisia Thompson:** \[16:11\] My impression though is that mutex and channels, they are not interchangeable. I mean, you can use channels in the way that you would... If all you needed was a mutex, you could force a design with channels in your code, but they're not really the same thing. I could be wrong.
 
 **Erik St. Martin:** No, they're not. They're not at all. The only way it ends up working that way is because you end up having one goroutine that is the thing always updating state. It's almost used that way, but I think the pattern kind of came from - I think there were some projects early on that had that pattern, and then a lot of people kind of copied it and followed suit. I can't even remember what library I picked that pattern up on, and then I kept doing it. And there were other big name Go programmers doing the same thing, too. I think we finally realized to slap our own hands, like "Why!? Why are we doing this?" The code's much more complex, it's harder to reason about... And it's actually less performant.
 
@@ -122,7 +122,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Erik St. Martin:** And if it does not solve your problem... Pull requests accepted.
 
-**Brian Ketelsen:** \[00:20:01.05\] Or forks.
+**Brian Ketelsen:** \[20:01\] Or forks.
 
 **Erik St. Martin:** Right, or forks. Kind of on a different track here - was it yesterday, or the day before? - I came across another one of your blog posts, which I actually love, which was called How To Block Forever In Go. That was kind of like a list of all the different ways... Are these just things you came across, where people would create deadlocks in code?
 
@@ -160,7 +160,7 @@ There's not too many places where I've bucked the trend; I've just tried to avoi
 
 **Scott Mansfield:** Just slap some regex on it and you're good to go.
 
-**Erik St. Martin:** \[00:23:57.02\] Right? Regex solves all the problems. Alright, so anybody have anything else you wanna talk about? Netflix, or the usage of Go there? What else are you working on, Scott? Do you have anything else going on in the open source community that we can steal?
+**Erik St. Martin:** \[23:57\] Right? Regex solves all the problems. Alright, so anybody have anything else you wanna talk about? Netflix, or the usage of Go there? What else are you working on, Scott? Do you have anything else going on in the open source community that we can steal?
 
 **Scott Mansfield:** Netflix does, certainly, for sure. I actually had this list of Go projects written down, but it's not necessarily perfect for this... I mean, there's a bunch of things - I've linked them all actually to you guys already - that are all open source and are related to Go use here. But myself personally, no, I've pretty much been stuck working on Rend this whole time.
 
@@ -198,7 +198,7 @@ Speaking of projects and news, do you guys wanna have a random roundtable about 
 
 **Erik St. Martin:** Scott, what are you doing for logging? Because you said you don't use any external dependencies. Did you write your own logging package or are you just using the standard library?
 
-**Scott Mansfield:** \[00:27:57.23\] Generally you just stay quiet when everything's okay, but we rely a lot on metrics because in AWS you can have instances just up and disappear. We run somewhere between eleven and twelve thousand instances, so we're not gonna worry about the logs from one instance, most of the time. If we do log, it's when some things are really completely wrong and we're going to close the connection, or something like that, and therefore I don't really worry so much about it. We just use the log package.
+**Scott Mansfield:** \[27:57\] Generally you just stay quiet when everything's okay, but we rely a lot on metrics because in AWS you can have instances just up and disappear. We run somewhere between eleven and twelve thousand instances, so we're not gonna worry about the logs from one instance, most of the time. If we do log, it's when some things are really completely wrong and we're going to close the connection, or something like that, and therefore I don't really worry so much about it. We just use the log package.
 
 **Erik St. Martin:** So this is more just kind of to be able to triage errors you're seeing in your metrics of system performance and latencies and things like that, then you kind of go after the fact to triage? So you don't really use this much of the tagged logging and stuff like that that other people use?
 
@@ -238,7 +238,7 @@ Alright, so moving on. What else have we got?
 
 **Erik St. Martin:** Scott, did you get a chance to see that?
 
-**Scott Mansfield:** \[00:32:00.04\] I have not yet.
+**Scott Mansfield:** \[32:00\] I have not yet.
 
 **Erik St. Martin:** It was very cool... I always like watching people work too, and he kind of walks through some of the tools that he uses and how to use them. I even saw him to the new fancy Torch graphs that Uber supplied, which I have to say is a much easier way to visually see pprof graphs.
 
@@ -294,7 +294,7 @@ I haven't used it, but anything that says "I'm 20 times faster" calls my attenti
 
 **Erik St. Martin:** So what's your feeling on this, Brian? What was it, episode two, that you made the comment about router performance...?
 
-**Brian Ketelsen:** \[00:35:58.15\] Can we please stop making more routers for Go? Please! \[laughter\] We have some, they're great, and that's not really where your code is gonna improve in terms of latency, so stop. Thank you.
+**Brian Ketelsen:** \[35:58\] Can we please stop making more routers for Go? Please! \[laughter\] We have some, they're great, and that's not really where your code is gonna improve in terms of latency, so stop. Thank you.
 
 **Carlisia Thompson:** I heard the episode and I saw that, and I had to mention it.
 
@@ -342,7 +342,7 @@ I haven't used it, but anything that says "I'm 20 times faster" calls my attenti
 
 **Erik St. Martin:** Yeah, and that's kind of what I like about the Govendor thing, because it doesn't really do much aside from stuff your dependencies in the vendor folder. At least from my understanding. I haven't seen any kind of manifest or anything like that. I've only recently started using it, but it seems to be that's all it does, stuff it into the vendor directory for you and do the go gets for you and stuff like that. I kind of like that approach. I'm still waiting for consensus on what to use.
 
-\[00:39:53.12\] One of the things with the vendoring I still haven't figured out is - and maybe somebody here can solve that for me - there's kind of the whole "You don't vendor dependencies in the library, only in the command", or do I have that flipped? Have you guys heard that, where people are advocating not to vendor dependencies for libraries?
+\[39:53\] One of the things with the vendoring I still haven't figured out is - and maybe somebody here can solve that for me - there's kind of the whole "You don't vendor dependencies in the library, only in the command", or do I have that flipped? Have you guys heard that, where people are advocating not to vendor dependencies for libraries?
 
 **Scott Mansfield:** Yes, you actually had it right. It's mostly for just... People who are writing libraries shouldn't force a dependency, because otherwise you end up running into diamond dependencies very quickly.
 
@@ -378,7 +378,7 @@ So yeah, I'm interested to see how it comes along and how long that takes.
 
 **Erik St. Martin:** Because every week somebody mentions a new channel, and like "Wow, I didn't know that existed."
 
-**Carlisia Thompson:** \[00:43:50.01\] And something about channels on Gopher Slack for people who are listening... Hop onto the GoTime FM channel, because we can all multitask here, we are very good at that and you wouldn't believe this. We have Adam tweeting for us, and we are all on the channel also typing, our guests are typing, and we're talking and doing all the things at the same time. So join us...
+**Carlisia Thompson:** \[43:50\] And something about channels on Gopher Slack for people who are listening... Hop onto the GoTime FM channel, because we can all multitask here, we are very good at that and you wouldn't believe this. We have Adam tweeting for us, and we are all on the channel also typing, our guests are typing, and we're talking and doing all the things at the same time. So join us...
 
 **Erik St. Martin:** And if you hackle us enough like Scott did, we might drag your butt on the show. \[laughter\]
 
@@ -412,7 +412,7 @@ So yeah, I'm interested to see how it comes along and how long that takes.
 
 **Brian Ketelsen:** I think that's actually also true, because I'm pretty sure there's already a JavaScript container engine.
 
-**Erik St. Martin:** \[00:47:51.29\] Right. I was gonna say, when we get off this call I'm gonna have to Google 'containers in JavaScript'. If it's not written in JavaScript, there is probably at least bindings.
+**Erik St. Martin:** \[47:51\] Right. I was gonna say, when we get off this call I'm gonna have to Google 'containers in JavaScript'. If it's not written in JavaScript, there is probably at least bindings.
 
 **Brian Ketelsen:** Yeah, I'm sure there is. I realize it's a bold statement, but I think it's less hyperbole than it sounds. There's a lot of really interesting stuff happening in Go, and a lot of the great things happening in computing right now have Go in the middle of them somewhere.
 
@@ -446,7 +446,7 @@ So yeah, I'm interested to see how it comes along and how long that takes.
 
 **Erik St. Martin:** That's not cheap.
 
-**Scott Mansfield:** \[00:51:51.13\] Honestly though, the standard library being open source has allowed me to have a much deeper understanding of what actually happens when I say, for example, 'bufio' without 'write', or something like that. It matters a lot for us. Being able to just very quickly go from docs to source code and follow the path allows me to really understand what's going on.
+**Scott Mansfield:** \[51:51\] Honestly though, the standard library being open source has allowed me to have a much deeper understanding of what actually happens when I say, for example, 'bufio' without 'write', or something like that. It matters a lot for us. Being able to just very quickly go from docs to source code and follow the path allows me to really understand what's going on.
 
 **Erik St. Martin:** Yeah, and I don't think we consider that cheating. I think it's the one thing that makes all of our lives easier, all the time.
 

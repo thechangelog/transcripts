@@ -24,7 +24,7 @@
 
 **Adam Stacoviak:** Can you share a little bit of the back-story, Jerod, like what interests in Chris? The open source summit/conference, maybe a little bit of back-story?
 
-**Jerod Santo:** \[00:03:57.06\] Yeah, so we were at the Open Core Summit and Chris had a talk about drones and robotics. I think it was called "How I convinced the Pentagon to use open source drones." Who wouldn't be interested in that, right? So I was all-in on that talk, and got to have about an hour of Chris' time just telling us this amazing story, and I wanted more people to hear the story, so I emailed him and said "Come on and tell us." I think it started around the time of the iPhone, if I recall.
+**Jerod Santo:** \[03:57\] Yeah, so we were at the Open Core Summit and Chris had a talk about drones and robotics. I think it was called "How I convinced the Pentagon to use open source drones." Who wouldn't be interested in that, right? So I was all-in on that talk, and got to have about an hour of Chris' time just telling us this amazing story, and I wanted more people to hear the story, so I emailed him and said "Come on and tell us." I think it started around the time of the iPhone, if I recall.
 
 **Chris Anderson:** It did. It's 2007. At the time I'm the editor of WIRED, I've got five kids, and my wife and I are scientists by training, and we're always trying to get the kids interested in science and technology. We'd bring home projects, and they would invariably be disappointed and tell us that we're nerds... Which is true. And this particular weekend, early 2007, two things came into the office at WIRED for review. One of them was a LEGO Mindstorms NXT kit, which is a robotics kit, and another was a radio-controlled plane. And we had a deal at WIRED, which is you were allowed to take a thing home on the weekend, as long as you agreed to review it. Typically, first come, first served, I grab these two, and I said "Okay kids, on Saturday we're gonna build a robot, and on Sunday we're gonna fly a plane." And they're like, "Okay... We'll see."
 
@@ -58,7 +58,7 @@ So on Saturday we diligently followed the instructions... And you know, when you
 
 **Jerod Santo:** We'll get to the lasers...
 
-**Chris Anderson:** \[00:07:43.21\] They were interested for like ten more seconds, and that was it for them. And I was like "What just happened...?" That should not be possible. Because you know, at the time drones were like predators, and Global Hawks, and military-industrial, and they were classified, and super-- ten billion dollars things... And we had just built a drone with LEGO pieces, around a dining room table, programmed by a nine-year-old. Putting aside that it was not a great drone, that should not be possible.
+**Chris Anderson:** \[07:43\] They were interested for like ten more seconds, and that was it for them. And I was like "What just happened...?" That should not be possible. Because you know, at the time drones were like predators, and Global Hawks, and military-industrial, and they were classified, and super-- ten billion dollars things... And we had just built a drone with LEGO pieces, around a dining room table, programmed by a nine-year-old. Putting aside that it was not a great drone, that should not be possible.
 
 When a nine-year-old can do something that is classified, that literally export controlled is a munition with toy pieces, something important in this world has changed. And I wasn't clear what it was, but I knew it was something. So I set up a website. Ten years earlier it would have been a blog, and ten years later it would have been a Twitter feed, but at the moment it was a social network. So I set up a social network I called DIY Drones, and it was largely so I could chronicle my own experiments, but also to ask dumb questions in public.
 
@@ -82,7 +82,7 @@ So everyone was recognizing there was this bounty of cool stuff that in retrospe
 
 So what we saw was that phase - I'm putting out stuff; our LEGO autopilot back in the day made the frontpage of Slashdot. So that was a thing back then.
 
-**Jerod Santo:** \[00:12:17.24\] For sure.
+**Jerod Santo:** \[12:17\] For sure.
 
 **Chris Anderson:** And then everyone's like "Oh, that's super-cool, but your code sucks", which is true; it was written by a nine-year-old. And by the way, that LEGO drone is in the LEGO museum in Billund, Denmark right now, as the world's first--
 
@@ -128,7 +128,7 @@ So over time, as things become commercially available and sort of off-the-shelf,
 
 **Jerod Santo:** Well, thank you.
 
-**Chris Anderson:** \[00:15:54.06\] The way it actually works is that you have inspectors at the ground level, and their job is just to implement the laws as they understand them. So did we have lots of meetings? Yes. Did the FBI come to the office? Many times. And everybody was -- I was gonna say everyone was super-nice; that isn't actually true. The FBI was super-nice.
+**Chris Anderson:** \[15:54\] The way it actually works is that you have inspectors at the ground level, and their job is just to implement the laws as they understand them. So did we have lots of meetings? Yes. Did the FBI come to the office? Many times. And everybody was -- I was gonna say everyone was super-nice; that isn't actually true. The FBI was super-nice.
 
 **Jerod Santo:** Most people. \[laughter\] Who wasn't very nice?
 
@@ -138,7 +138,7 @@ So over time, as things become commercially available and sort of off-the-shelf,
 
 **Chris Anderson:** And then you need to prove that it's the same as the one you're doing right now... Unfortunately, as a pioneer, we were the ones who had to go through it first.
 
-**Break:** \[00:17:00.13\]
+**Break:** \[17:00\]
 
 **Jerod Santo:** So while you're pioneering this and you're taking lots of meetings with scary people, sometimes nice, sometimes not so nice people, you're also at the same time this open source forum, and this open source code... You're starting to build a hardware company, 3D Robotics. Tell the story of how that actually turned into a business. I know you have a co-founder, which is a very interesting tale... Unpack that for us.
 
@@ -160,7 +160,7 @@ So over time, as things become commercially available and sort of off-the-shelf,
 
 **Jerod Santo:** "We're out."
 
-**Chris Anderson:** \[00:19:47.12\] "We're out. We're out." So I went onto the forums and I was like "I need someone to help put together these kits." The smartest guy in the forums was this guy who was flying a remote-controlled helicopter with a Wii controller... He posted the code, and did YouTube videos; he was really good. His name is Jordi Muñoz. Never met him, just a guy on the forum... And he said that he had a little spare time and that he would be happy to help me.
+**Chris Anderson:** \[19:47\] "We're out. We're out." So I went onto the forums and I was like "I need someone to help put together these kits." The smartest guy in the forums was this guy who was flying a remote-controlled helicopter with a Wii controller... He posted the code, and did YouTube videos; he was really good. His name is Jordi Muñoz. Never met him, just a guy on the forum... And he said that he had a little spare time and that he would be happy to help me.
 
 I said "What do you need?" and he said "I need $500 for parts", so I sent him a check, literally, a check in an envelope of $500, and he sent me back a picture of him in the garage, soddering together the parts. And I thought that was the end of it. They continued to be made, we set up a little e-commerce shop, and that was it. But he kept sending me more pictures, and just like "I've got some friends to help me. We've moved to a garage, we've moved to a bigger garage, we bought some pick-and-place machines, some low ovens..."
 
@@ -200,7 +200,7 @@ So we raised five million dollars, she let me quit my job, I met my co-founder..
 
 **Chris Anderson:** Yeah, so an autopilot is basically a circuit board with lots of chips on it. And the circuit board is like a fiberglass board, you just have those made... And the pick-and-place is a robot that takes the little chips and puts them on the board, very precisely on top of a goopy grey paste, which is actually sodder. And then it goes into what's called a reflow oven, and then that kind of melts the sodder and it all becomes electrically connected. There's other elements of it, but it's basically a robot that makes electronics.
 
-**Adam Stacoviak:** \[00:24:13.00\] Wow.
+**Adam Stacoviak:** \[24:13\] Wow.
 
 **Jerod Santo:** Adam and I also met on the internet, and he had the Changelog going at the time. We're business partners, but it took us years to build up trust, didn't it Adam?
 
@@ -246,7 +246,7 @@ Today in the industry the pilots are called operators, and the programmers are c
 
 **Jerod Santo:** For sure.
 
-**Chris Anderson:** \[00:28:03.06\] They are just in the cockpit; two of them are in the cockpit, just in case.
+**Chris Anderson:** \[28:03\] They are just in the cockpit; two of them are in the cockpit, just in case.
 
 **Jerod Santo:** Just in case. There's a social factor there as well, right?
 
@@ -298,7 +298,7 @@ There's also things involving LIDAR, and SLAM, and fisheye lens that are looking
 
 **Chris Anderson:** Some of the custom ones. You can actually see the data we posted. They just beat the fastest human, which is saying something.
 
-\[00:32:01.02\] I would say that some of the custom approaches that are really optimized for this course were indoors, at a place called Circuit Launch in Oakland. By the way, there's hundreds of these communities around the world now, and about 10,000 people... But the main one is in Oakland, California.
+\[32:01\] I would say that some of the custom approaches that are really optimized for this course were indoors, at a place called Circuit Launch in Oakland. By the way, there's hundreds of these communities around the world now, and about 10,000 people... But the main one is in Oakland, California.
 
 One clever approach recognizes that the lights on the ceiling of this place are kind of a distinct pattern, so it localizes -- it's got a fisheye lens and it can see the entire room from above. One of the problems is when you're looking forward or around you on the ground level, it's super crowded; there's spectators on the side, other cars etc. If you look up on the ceiling, it's clean, so it localizes itself based on that. That one's really fast.
 
@@ -324,17 +324,17 @@ This has to do with the recognition that drones are a low-risk kind of aircraft,
 
 **Chris Anderson:** Exactly. I think everyone recognized that back in the day, when code was a tiny fraction of the vehicle, that was okay. But now, as a majority of the vehicle's technology, it's not okay anymore. So rather than just sort of swap to this new approach where it's like "Hey, we're gonna treat a plane like a phone..." Verizon doesn't look at every line of code in Android. They say "Look, you guys do your job, build Android the way you think you should, and we're gonna test it on our networks and we're gonna look at its performance. We have a battery of tests, and if it performs well, fine. Update the code all you want, just don't change the performance." The FAA is going to be doing the same thing with drones, and it's called performance-based certification.
 
-\[00:36:07.05\] What they're saying is like "You tell us how it performs, we test to make sure it really does perform that way, and you can continue to improve and fix the code as long as it doesn't change these key performance criteria." Now, this is super-good. It's a 90-day process, rather than a nine-year process. It's built on our code process, which we -- after we got into hardware, we built a ton of drones and then got out, because the Chinese were doing such a good job. We put the code into the Linux Foundation as something called Dronecode, and it is today sort of the Android of the space; it runs a code stack called PX4.
+\[36:07\] What they're saying is like "You tell us how it performs, we test to make sure it really does perform that way, and you can continue to improve and fix the code as long as it doesn't change these key performance criteria." Now, this is super-good. It's a 90-day process, rather than a nine-year process. It's built on our code process, which we -- after we got into hardware, we built a ton of drones and then got out, because the Chinese were doing such a good job. We put the code into the Linux Foundation as something called Dronecode, and it is today sort of the Android of the space; it runs a code stack called PX4.
 
 The way we developed that code, and the professionalism of that consortium, and our testing - a simulation process is now becoming the standard that the FAA is adopting. And that's great. They want to do this experiment at the lowest risk category. These are vehicles that weigh about 2,5 kilograms, they're flying under 400 feet, not carrying people, and we're gonna build up millions of hours of evidence that this is the right way. And as the FAA gets more and more statistical power to prove that this method works, they can expand it to larger drones, drones flying over people, maybe air taxis, urban air mobility, and maybe a generation from now, the next jetliners will use this certification process that had been tested on drones first.
 
-**Break:** \[00:37:42.01\]
+**Break:** \[37:42\]
 
 **Jerod Santo:** So you mentioned Dronecode; it's out there, Linux Foundation. We'll link it up in the show notes for everybody to go click through and check out all the different subprojects, and bits and bobs. The DOD itself also seems to be adopting some of -- is Dronecode the platform that the DOD at least in some capacity is interested in adopting, or they have adopted?
 
 **Chris Anderson:** Yeah, they have adopted. DOD is giant, and there's many different parts of it. But there's one -- basically, at the small drone size they can go to Walmart and they can see what you can get from DJI. But they're not allowed to use DJI, because it's Chinese, and all that kind of stuff. So they want basically -- and this is a case throughout the military; they want what's called dual use technologies. They wanna get the -- I was gonna say bang for buck, but maybe that's too on the nose for DOD... \[laughter\] But they want the same price performance, as consumer technology, but they want it to be more secure. So rather than just buying Chinese drones and using them, they want to work with an open platform that can create drones as good and as cheap as the Chinese ones, but is trusted... And is trusted because at least parts of the DOD now recognize that open source is verifiable, that it performs well... Linux has correctly evangelized that open source is a good thing.
 
-**Jerod Santo:** \[00:40:09.07\] Paved the way.
+**Jerod Santo:** \[40:09\] Paved the way.
 
 **Chris Anderson:** Yeah. And so they've realized that the way they're gonna get price for performance is with an open platform... And not only because it can be trusted and verified and checked, and they know where it comes from, but also it avoids vendor lock-in. An open platform means that they can get many different companies using this standard... Because they hate vendor lock-in. Vendor lock-in -- it's called a Program of Record. And once you have Program of Record, it's a monopoly. And by dictating open standards, they're essentially dictating competition.
 
@@ -354,7 +354,7 @@ So that's what we did. We said, "Look, the drones exist." The only reason we did
 
 **Chris Anderson:** And you know, what happened is that the U.S. government essentially banned the purchase of DJI vehicles. It's kind of a soft ban, but it's pretty clear the way the writing's on -- DOD made a hard; the Pentagon made a hard ban. So the government has essentially shut it down, which is really bad, because among the things that they were doing is they were fighting forest fires the Department of the Interior in the Pacific West, California primarily. They used drones for that, to look through the smoke, spot hotspots, things like that... And they were at risk of having this important program shut down. Public safety, fire, police... It was basically a problem. The fleets got grounded.
 
-\[00:43:58.02\] So we realized that this was the best thing for Dronecode. Android only succeeded because Google was there to stick it into hardware and get it out there. Before that, it just didn't have critical mass. We don't have a Google for Dronecode, but what we do have now is a market. There's a vacuum in the market, where DJI is not allowed to participate... And there was demand for an open alternative. The question is who's gonna turn that into hardware.
+\[43:58\] So we realized that this was the best thing for Dronecode. Android only succeeded because Google was there to stick it into hardware and get it out there. Before that, it just didn't have critical mass. We don't have a Google for Dronecode, but what we do have now is a market. There's a vacuum in the market, where DJI is not allowed to participate... And there was demand for an open alternative. The question is who's gonna turn that into hardware.
 
 We did not wanna get into the full hardware business at all, but we did see that there was demand for it, so what we did is we took one of our Chinese members of Dronecode - a company called \[unintelligible 00:44:40.17\] in Shanghai - and we commissioned a custom vehicle from them. They were already using the Dronecode software, but we commissioned one that was appropriate for government use, and then we had them ship it over at an incomplete stage. So with the commodity elements - the motors, the batteries...
 
@@ -366,7 +366,7 @@ We did not wanna get into the full hardware business at all, but we did see that
 
 **Chris Anderson:** I think so, too. There was a Businessweek cover a year ago that got turned into -- it was called Chipgate, where there was this allegation that circuit boards from China had a component that was not specified on the board, and that component was like a backdoor, sneaky, whatever thing... I don't think it's -- first of all, it's certainly possible. I don't think that particular story was true. I think it sort of played to the paranoia of those who wanted it to be true.
 
-\[00:46:37.04\] Now there is a contingent within the U.S. government who basically says that no circuit boards can touch China. That's fine, we can make circuit boards in the United States. If you tell me that no plastics can touch China, no batteries can touch China, no wires can touch China, then I think we're in silly territory, and you might as well just pay Lockheed Martin a million dollars and do it the old-fashioned way... But we're trying to find out where that line is, and right now there's a bill actually in Congress that defines the line as the autopilot, the radio, the camera and the gimbal. If those parts -- and by the way, all the software that goes into them. If those parts are made in the United States, everything else can be made elsewhere... And I think that's appropriate.
+\[46:37\] Now there is a contingent within the U.S. government who basically says that no circuit boards can touch China. That's fine, we can make circuit boards in the United States. If you tell me that no plastics can touch China, no batteries can touch China, no wires can touch China, then I think we're in silly territory, and you might as well just pay Lockheed Martin a million dollars and do it the old-fashioned way... But we're trying to find out where that line is, and right now there's a bill actually in Congress that defines the line as the autopilot, the radio, the camera and the gimbal. If those parts -- and by the way, all the software that goes into them. If those parts are made in the United States, everything else can be made elsewhere... And I think that's appropriate.
 
 **Jerod Santo:** Awesome, Chris. Well, we're running out of time here... Tell us real quick on your new hobby, DIY Robocars, for folks interested, where is the place to go? You said there's a meetup in Oakland... What's the waypoint?
 

@@ -6,7 +6,7 @@
 
 **Jonas Downey:** Well, we didn't start by wanting to solve email, but we've kind of found ourselves in the position of solving email after having explored some things... But we started out -- we were originally looking at maybe making a successor to our product called Highrise, which is a CRM tool. It came out in the early or mid-2000's, and we had used Highrise a lot at the time, and then kind of had drifted away from it. We actually spun it off into its own company at some point... And kind of found that the problems that we had when we made Highrise, we still had, but we had kind of just stopped using that product.
 
-\[00:04:03.02\] So I thought "Well, what if we made a new one? Why don't we take a new look at that?" We had issues around external communication, things like talking to accountants, dealing with marketing people, taxes... Any of that kind of stuff, where you have to deal with outside vendors. We have a few people at the company who do a lot of that, and the communications is completely opaque. It's like, those people handle those problems, but if one of them goes on vacation or one of them goes on maternity leave, the stuff is all tied up in email, and no one has any visibility into it. So it's very hard to hand off work to someone else when you have all these outside relationships.
+\[04:03\] So I thought "Well, what if we made a new one? Why don't we take a new look at that?" We had issues around external communication, things like talking to accountants, dealing with marketing people, taxes... Any of that kind of stuff, where you have to deal with outside vendors. We have a few people at the company who do a lot of that, and the communications is completely opaque. It's like, those people handle those problems, but if one of them goes on vacation or one of them goes on maternity leave, the stuff is all tied up in email, and no one has any visibility into it. So it's very hard to hand off work to someone else when you have all these outside relationships.
 
 **Adam Stacoviak:** Yeah.
 
@@ -22,7 +22,7 @@ So when this was announced, when HEY was announced, I was like "Okay... That's d
 
 So we were stepping our foot into the idea there, but we didn't have the tech and the ideas and the wherewithal really at that point to make it work the way we wanted. And then a few years later, Jason and I had worked on some prototypes around that same Sales/CRM tool idea that was closer to what HEY became.
 
-\[00:08:01.21\] This was like in 2014, we started messing around with some ideas... And we had prototyped out something that was pretty interesting. It was more sales-focused, but it was kind of in the same spirit. And then around that same time, David and Jason decided to focus the company entirely around Basecamp for a while. So we sort of like did some prototypes, got something kind of interesting, and then walked away from it because we decided "Now we need to refocus and do our Basecamp thing."
+\[08:01\] This was like in 2014, we started messing around with some ideas... And we had prototyped out something that was pretty interesting. It was more sales-focused, but it was kind of in the same spirit. And then around that same time, David and Jason decided to focus the company entirely around Basecamp for a while. So we sort of like did some prototypes, got something kind of interesting, and then walked away from it because we decided "Now we need to refocus and do our Basecamp thing."
 
 So it kind of sat on the table for a long time, but these issues didn't go away. We still had the problems, and we had kind of been stewing on them in the background for now probably the better part of six years. We finally got back into it around 2018; that's when we first started working on what became HEY. So it took about two years to go from the initial prototype to the release.
 
@@ -52,7 +52,7 @@ The thing that's interesting about HEY is when we first built it, we built it as
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:11:52.19\] When I think about personal email, a couple of thoughts I have. The first one is that everybody uses it very differently. Whenever I have conversations with somebody about how they use email, there's lots of strategies... And my other thought is that many people don't really think it's broken. I think at the extremes it breaks down. If you get massive amounts of email it breaks down. I think when spam was more of a problem, that was a breakdown, to a certain degree... But I'm not sure it's broken.
+**Jerod Santo:** \[11:52\] When I think about personal email, a couple of thoughts I have. The first one is that everybody uses it very differently. Whenever I have conversations with somebody about how they use email, there's lots of strategies... And my other thought is that many people don't really think it's broken. I think at the extremes it breaks down. If you get massive amounts of email it breaks down. I think when spam was more of a problem, that was a breakdown, to a certain degree... But I'm not sure it's broken.
 
 So when you guys were gonna attack this, how did you solve for those two? But first of all, what were your insights about what was broken and what could be better, that manifested in HEY? And then we'll get to the other thing, which is "How do you deal with people all using it differently?" But let's start with what was broken.
 
@@ -94,7 +94,7 @@ So part of the thing was figuring out what's the feature set, what things do we 
 
 **Jonas Downey:** Yes. And then as we developed the product, we came to notice that the point of the HEY inbox is that it's only the stuff that's meaningful enough to you that you should see it relatively quickly when you check your email. When you check your email, you might well have 30 new messages, and a normal email client might have 30 unread things. Typically, maybe two of those are important enough that they actually warrant your immediate concern. The rest of it is kind of not that important. Traditional email clients don't distinguish those things very well... Or they use artificial intelligence to try to guess if something is important, or may or may not be.
 
-\[00:16:01.29\] So after we've built out these flows for how to screen people into HEY, and choose where they go, and decide what's important to you and what's not, the HEY inbox became really just the important stuff. So we decided that calling it a traditional inbox (with an n) was sort of doing it a disservice, because a lot of people hate their inboxes. The HEY inbox is not the same as a normal inbox, and it would not be honest to call it one. So we came up with this name imbox. Now, of course, people have lots of reactions to that; some people find it viscerally uncomfortable, because it's like a misspelling.
+\[16:01\] So after we've built out these flows for how to screen people into HEY, and choose where they go, and decide what's important to you and what's not, the HEY inbox became really just the important stuff. So we decided that calling it a traditional inbox (with an n) was sort of doing it a disservice, because a lot of people hate their inboxes. The HEY inbox is not the same as a normal inbox, and it would not be honest to call it one. So we came up with this name imbox. Now, of course, people have lots of reactions to that; some people find it viscerally uncomfortable, because it's like a misspelling.
 
 **Jerod Santo:** Yeah...
 
@@ -120,7 +120,7 @@ The term imbox - like you said, it's so close... I think you might have even sai
 
 **Jonas Downey:** Yeah, so I'll compare it to how Gmail works. Everybody probably has a Gmail account... The way Gmail works is all email comes into one place. Gmail uses artificial intelligence things to try to sort things into a few other buckets. There's a Promotions tab where you get marketing email, or there's like a social tab and Facebook notifications go in there. It tries to do some stuff for you... But otherwise, you're left to your own devices; stuff pours in.
 
-\[00:19:45.01\] In HEY, first of all, everyone is blocked at the gate. So before anybody can email you at all, you have to agree to let them. There's a thing in HEY called the screener, that sort of like screening your calls. You open it up and it shows a list of all the people who have tried to email you, and you get to say yes or no, sort of in the way that you would on Tinder, or something; you're gonna be like "Yeah, I like this" or "No, I don't like this."
+\[19:45\] In HEY, first of all, everyone is blocked at the gate. So before anybody can email you at all, you have to agree to let them. There's a thing in HEY called the screener, that sort of like screening your calls. You open it up and it shows a list of all the people who have tried to email you, and you get to say yes or no, sort of in the way that you would on Tinder, or something; you're gonna be like "Yeah, I like this" or "No, I don't like this."
 
 Along with that, you can also specify where you want email from this contact to arrive if they email you later. So the default - if you say "Yes, I want emails from this person", they just come into your inbox like normal. If you decide that "Actually, this is an email from some e-commerce site, and I don't really need to see it all that much, but I need to keep the receipts", you can file that in the Paper Trail, which is like a place for that kind of stuff... Or if it's a newsletter or some long-form content that you're interested in reading, but it's not that important and you can read it passively, you can file that person into the feed, and then anytime those emails come in, they'll be in the feed.
 
@@ -150,7 +150,7 @@ And the feed and the Paper Trail are kind of buried back a little bit in the app
 
 **Jonas Downey:** Yeah. There's an interesting psychology when you're in that circumstance too, where in the old model, when anybody on the internet can cold-email you and it lands in your inbox, you feel some degree of obligation to deal with that thing. You're like "Oh, this person email me. I'd better get back to them, even if it's to say I'm not interested, or I don't want this, or whatever." It's there, and it's like an obligation. So people anywhere on Earth can just put stuff on your to-do list at any time they want, without your choice. And that's one of the things that we really wanted to push back on. It's like, "Actually, how many of those cold emails are worth your time?" It could be that maybe it's half, I don't know; maybe it's less than half. But when you put it into the screener and the system gives you a way out, it really reduces that obligation...
 
-\[00:24:14.26\] And especially if you're an inbox zero person, you're a person who feels like "I've gotta be on top of this thing." It's just an easy way to be like "You know what, that advertising dude who wants to get on my show and wants to pick my brain at lunch for 15 minutes, or something? I'm good. I don't need to talk with that guy." It gives you an out, which is kind of liberating, in a way.
+\[24:14\] And especially if you're an inbox zero person, you're a person who feels like "I've gotta be on top of this thing." It's just an easy way to be like "You know what, that advertising dude who wants to get on my show and wants to pick my brain at lunch for 15 minutes, or something? I'm good. I don't need to talk with that guy." It gives you an out, which is kind of liberating, in a way.
 
 **Jerod Santo:** Hm... How does it identify a person? Is it simply their email address, or is it smarter than that?
 
@@ -192,7 +192,7 @@ Rendering emails and showing them to people is really hard, because emails are d
 
 **Jerod Santo:** For sure.
 
-**Jonas Downey:** \[00:27:52.13\] If email goes down, people can't get to their doctor records, and they can't log into things. It is tough. It's a highly-critical service. And then all of the systems stuff, like you were talking about - building up reputability scores for the domain...
+**Jonas Downey:** \[27:52\] If email goes down, people can't get to their doctor records, and they can't log into things. It is tough. It's a highly-critical service. And then all of the systems stuff, like you were talking about - building up reputability scores for the domain...
 
 **Jerod Santo:** Yeah.
 
@@ -210,13 +210,13 @@ So what we did want was to build a product that we feel strongly about, that we 
 
 So when you frame it that way, it takes a little bit of the pressure off. It's not like "Oh, we have to show up day one and be as good as Gmail." But I think we got pretty far, considering our size and the amount of time we gave ourselves to do it. I use it and I don't look at Gmail anymore; that's pretty good.
 
-**Break:** \[00:30:08.22\]
+**Break:** \[30:08\]
 
 **Jerod Santo:** So you're designing against free, you're trying to come up with compelling features... Even though you don't have to steal all of Gmail's market share, all of Outlook's market share - you actually just cut off a little niche and call that success. Still, you wanna be compelling and you want to convince people, at least some fraction of the market, that what HEY offers is better, for them at least, than what these other services offer. So we talked about the importance box, the imbox, the feed, which is for newsletters and other such things you might read casually, and then the Paper Trail, which is for everything else, it seems like - emails that you don't wanna read, but you may wanna look up later.
 
 Is that distinction of these three buckets and then the design around those - would you say that's HEY's core offering, or are there other aspects of HEY that we haven't touched on that you also consider core?
 
-**Jonas Downey:** \[00:32:12.13\] So part of the thing is that when we set out, we wanted to design something that's gonna be kind of premium. Because if you are a free email user, you use Gmail, and you're fine with it, and you don't care about email, and you don't pay much attention to it. You're probably not gonna go out and spend $100/year on a different email service. So the people we're marketing to are gonna be people who aren't that. You have to be at least somewhat intrigued by the idea of email not working for you in order to even care.
+**Jonas Downey:** \[32:12\] So part of the thing is that when we set out, we wanted to design something that's gonna be kind of premium. Because if you are a free email user, you use Gmail, and you're fine with it, and you don't care about email, and you don't pay much attention to it. You're probably not gonna go out and spend $100/year on a different email service. So the people we're marketing to are gonna be people who aren't that. You have to be at least somewhat intrigued by the idea of email not working for you in order to even care.
 
 So I think our collection, our little ecosystem of features of HEY that make it premium are a few things. One is just the hey.com address. It's just a cool email address to have. We've spent quite a good deal of money to acquire that domain...
 
@@ -260,7 +260,7 @@ A lot of people make the argument "Well, I could use Gmail or FastMail and turn 
 
 Our relationship is that we wanna make a really good product for customers who pay us directly. And we will protect them over our own business interests, or whatever... Which is why ended up doing things like blocking spy-tracking in emails. We can take those stances because we aren't beholden to advertisers. We aren't needing to play in all these pots to make money in different ways; we make money from our customers and we make the best product we can for them directly. So that's another big part of it.
 
-**Adam Stacoviak:** \[00:36:16.04\] I couldn't help but be on Wayback Machine, because you mentioned hey.com was owned by somebody else... So I was listening for a second there, but I was on Wayback Machine, trying to find old stuff, and I'm sad to say I could not find anything, or it was just broken (I'm not sure), but it was fun to try...
+**Adam Stacoviak:** \[36:16\] I couldn't help but be on Wayback Machine, because you mentioned hey.com was owned by somebody else... So I was listening for a second there, but I was on Wayback Machine, trying to find old stuff, and I'm sad to say I could not find anything, or it was just broken (I'm not sure), but it was fun to try...
 
 **Jerod Santo:** Oh, bummer.
 
@@ -304,7 +304,7 @@ Our relationship is that we wanna make a really good product for customers who p
 
 So at Basecamp obviously we don't like this practice in general, but that's part of the idea of HEY, too - if we can't do this, if we can't make a service that defends people's privacy and stands for people instead of sales tactics and advertisers and marketing tricks and stuff, then who can? It's like, are we just gonna fold to big tech and just be like "Nope, that's just the world now. Everybody's just gonna be tracked to the hills, deal with it. Too bad. It's free at least, so I hope you like that." That's not the world we wanna live in, that's not the kind of product we wanna design. We feel like now more than ever it's important to try to build something that's a contrast to that.
 
-**Adam Stacoviak:** \[00:40:22.29\] Yeah. In our world, we're using G Suite, and I think we're using G Suite just simply because it's useful in terms of it's never down. Not that we trust it. I trust it to be up. I don't trust it for all the other reasons. It's a cumbersome, hard to use tool, generally, and I don't see it really being for me; it's essentially a Gmail offshoot; it's essentially Gmail that you pay for, and it's got a lot of issues. And I think the reason why I've personally never made any changes away from it is because there's never been a decent contender.
+**Adam Stacoviak:** \[40:22\] Yeah. In our world, we're using G Suite, and I think we're using G Suite just simply because it's useful in terms of it's never down. Not that we trust it. I trust it to be up. I don't trust it for all the other reasons. It's a cumbersome, hard to use tool, generally, and I don't see it really being for me; it's essentially a Gmail offshoot; it's essentially Gmail that you pay for, and it's got a lot of issues. And I think the reason why I've personally never made any changes away from it is because there's never been a decent contender.
 
 **Jonas Downey:** Yeah. It's also just really difficult to move. If you have a company on a thing - you're on G Suite or whatever - moving your company off of that is kind of tough. We're working through ways to make that not as hard, so people can move... But it's a pain. You have to really be invested in the idea. Or hopefully starting from scratch it's easier. Like, if you're a new company, you can pick which platform you wanna be on.
 
@@ -322,7 +322,7 @@ For some people it's a show-stopper. If you're a heavy email archive person, and
 
 From a UX standpoint, you're thinking "Okay, I want people to use my app. I want people to use my thing and find it useful, but I cannot keep them in this old world where they have to hurdle the two, essentially; stand between these two lines." It's like "Here's my new email, here's my old email. I've gotta use my old email, I've gotta keep it, or keep logged into it, so that I can just use it for search", which is primarily what I would do. So if I said "Hey, I'm done with whatever, I'm using HEY completely now, and only new stuff is in there", I've now gotta adopt it. It's a big hurdle to adopt it, because I've gotta now change everything to get into it... At least that's my assumption.
 
-\[00:43:55.17\] And then as somebody who uses my email as my brain, I've now gotta still keep my old thing as simply archive and search... Which isn't terrible, but as a designer, you want people to get rid of the old thing and adopt the new thing and be like "The world is great", and move on. As a designer, you want that... So you have to straddle this line of like "Well, what you used to have is kind of still useful, in some way."
+\[43:55\] And then as somebody who uses my email as my brain, I've now gotta still keep my old thing as simply archive and search... Which isn't terrible, but as a designer, you want people to get rid of the old thing and adopt the new thing and be like "The world is great", and move on. As a designer, you want that... So you have to straddle this line of like "Well, what you used to have is kind of still useful, in some way."
 
 **Jonas Downey:** Yeah, so there's a thing about making a new product from scratch, especially of this size and scale and challenge - you have to be pretty picky about what you make time for, because you can't do everything you wanna do. So ideally, yes, I agree with you - I would personally love to be able to search my archives in here, and maybe import stuff... I would love that, and I hope we can someday do it, in some fashion... But we felt that relative to the time investment and the technical complexity it would take to do that, we could better use our time doing novel, interesting, opinionated things that would differentiate the product more.
 
@@ -350,7 +350,7 @@ And then later, we have hopefully years ahead of us on this thing - we can certa
 
 **Adam Stacoviak:** It's like luxury.
 
-**Jonas Downey:** \[00:47:59.29\] It can be a lot of different things, yeah. What I meant by premium was more that the people who would be interested in paying for this are probably premium emailers. It's people who are...
+**Jonas Downey:** \[47:59\] It can be a lot of different things, yeah. What I meant by premium was more that the people who would be interested in paying for this are probably premium emailers. It's people who are...
 
 **Jerod Santo:** Sure. Power users.
 
@@ -376,7 +376,7 @@ The modern email circumstance is that it's a huge amount of effort to keep up on
 
 We wanted to come at it from another angle and be like "Why is it like this? Why can everybody put this pressure on you, and why do you feel like you're obligated to have to act on it? You shouldn't have to feel that way?" So we designed HEY to provide you with power as the recipient... Because email as it was originally designed, the power is all with the senders. Senders can just blast, and you as the recipient get the blast. That's it. Good luck. It's on you. So we try to tilt that power structure a bit. It's not totally tilted, but it's tilted enough that you can defend yourself a little bit against this onslaught of stuff, which takes away all that obligation feeling and makes it a more peaceful experience.
 
-**Adam Stacoviak:** \[00:52:15.29\] Is there a natural strategy? \[unintelligible 00:52:16.16\] back to something Jerod said earlier, which was there's people who have certain strategies to email; you mentioned inbox zero, or keep it all and it's a badge of honor... But it seems like you've just designed for success regardless; there is no true strategy. It's just email as normal, and once you've read it or seen it, it goes into the past. You can file it, you can screen, and just using it is the strategy, essentially.
+**Adam Stacoviak:** \[52:15\] Is there a natural strategy? \[unintelligible 00:52:16.16\] back to something Jerod said earlier, which was there's people who have certain strategies to email; you mentioned inbox zero, or keep it all and it's a badge of honor... But it seems like you've just designed for success regardless; there is no true strategy. It's just email as normal, and once you've read it or seen it, it goes into the past. You can file it, you can screen, and just using it is the strategy, essentially.
 
 **Jonas Downey:** Yeah. Basically, by just using it, a lot of the effort you'd have to put in a different email client just isn't there. And this manifested a bunch of different ways. One way is that HEY doesn't notify you about email by default, at all. So when you first sign up for HEY and you start getting emails in there, you won't get push notifications unless you choose to turn them on... Either individually, for people, or individually for a thread, or you can do it just for the imbox. Those are our three ways of getting notifications.
 
@@ -394,7 +394,7 @@ Some people find that a little bit uncomfortable at the beginning, because they'
 
 The thing is that I've felt that same way at the beginning, and you use it for two weeks and you're like "Okay, I get this", and you kind of stop; you lay your guard down a little bit and it doesn't feel so weird anymore.
 
-**Break:** \[00:56:27.01\]
+**Break:** \[56:27\]
 
 **Jerod Santo:** Jonas, as you were speaking to the previously seen list as lack of ability of being completely gone, I was over here thinking I'm kind of an inbox zero person... And I'm learning how I would react, so I've been poking around the product here a little bit... And I definitely was looking for the archive button, because that's just the way I use email - I archive it once it's done, and I use it a little bit as a queue of things to do. So it's kind of a to-do list, it's kind of a to-contact list, and I do like to clear things out; even though I don't need the counts, it doesn't need to be empty, I'm not super-neurotic about it... But I am a completionist.
 

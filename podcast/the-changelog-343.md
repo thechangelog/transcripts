@@ -8,7 +8,7 @@ Things were pretty early back then, and the project was just called FaaS, and ha
 
 **Jerod Santo:** Yeah, a global community over 190 contributors... Adam, it's kind of funny mentioning December 2016, May 2017 - I was thinking back to our coverage of serverless on the Changelog and on JS Party, and I believe on the Changelog it started back in early or mid-summer 2017 with Pam Selle...
 
-**Adam Stacoviak:** \[00:04:11.02\] Yeah.
+**Adam Stacoviak:** \[04:11\] Yeah.
 
 **Jerod Santo:** We sat down with her at OSCON, and I think that show was called "The Serverless Revolution" or something... But even on that show, she said "It should be called functions as a service." That was one of kind of her rallying calls; "It shouldn't be called serverless. It's a misnomer, it's a problem." The name "serverless" has gone through the wringer, but the hypercycle - we're still on it... But it's interesting that at that time, Alex, you were out there building a thing called FaaS, and eventually OpenFaaS.
 
@@ -30,7 +30,7 @@ One of the things that I really like - I saw a graphic on Twitter by a guy named
 
 We've had the CNCF on the show laying out there their landscape for cloud-natives, and... To me honestly, it sometimes looks a little bit like a minefield or a quagmire. I've often asked people "When's it just gonna shake out and we're gonna have some winners declared, so we can just use the technology and benefit from it?" I think we've seen that with orchestration and Kubernetes, but definitely at the serverless platforms -- well, maybe OpenFaaS will be the cream that rises to the top of the crop.
 
-\[00:08:03.01\] Interestingly, when I came across this project, it was on a blog post by Abraham Ingersoll. He had laid out the state of open source serverless platforms, and what he said about OpenFaaS actually got me to contact you. He said "OpenFaaS is utterly fascinating. It's the only contender boasting a license other than Apache 2.0. I'm not sure if that's 100%, but it is MIT. It's extremely community-centric, added Kubernetes support in mid-2017 after originally targeting Docker Swarm, and it's deliciously lean." Do you think that's a fair description of what OpenFaaS is?
+\[08:03\] Interestingly, when I came across this project, it was on a blog post by Abraham Ingersoll. He had laid out the state of open source serverless platforms, and what he said about OpenFaaS actually got me to contact you. He said "OpenFaaS is utterly fascinating. It's the only contender boasting a license other than Apache 2.0. I'm not sure if that's 100%, but it is MIT. It's extremely community-centric, added Kubernetes support in mid-2017 after originally targeting Docker Swarm, and it's deliciously lean." Do you think that's a fair description of what OpenFaaS is?
 
 **Alex Ellis:** \[unintelligible 00:08:41.10\] on his initial post, and one of the things that I am learning as a maintainer and as somebody who's really proud of what the community has created is how to influence people that have done their own research and maybe have some gaps in it... So we worked very friendly with Abraham, he was a really nice guy... And he's written something that's very generous, but I think it's also true... And yeah, it's MIT-licensed, when most of the other projects are Apache 2.0. One of the main reasons that corporates pick Apache 2.0 is because it theoretically offers a patent protection on top of MIT.
 
@@ -46,7 +46,7 @@ With OpenFaaS it takes a slightly different approach. It looks at what's the poi
 
 A really nice, real-world example - and it might sound contrived, but this is actually a real-world example - is resizing images. There's a start-up out of Bangalore called Iconscout, and my main contact there just recently wrote a blog post on the OpenFaaS.com about how they're using OpenFaaS to resize all the images for their catalog of icons and stock photography.
 
-\[00:12:04.07\] He found that very simple, that developer experience of knowing exactly what Npm module he needed, how to access it in Node.js, and then it was really just a case of him looking at whatever had been configured for that deployment, looking at the request coming in, reading a file, and then outputting one at the end. That's really one of the classic use cases that people often talk about with serverless.
+\[12:04\] He found that very simple, that developer experience of knowing exactly what Npm module he needed, how to access it in Node.js, and then it was really just a case of him looking at whatever had been configured for that deployment, looking at the request coming in, reading a file, and then outputting one at the end. That's really one of the classic use cases that people often talk about with serverless.
 
 **Jerod Santo:** Yeah, it seems like the sweet spot is -- I don't know if one-off, or ad-hoc is maybe a better term... Ad-hoc functions or functionality as you want to have available to you or to another service. Maybe even you think of them as a microservice... And in terms of where it runs and how it runs, and all these other things that we usually have to think about - provisioning, and scaling, and everything else - it's like "I couldn't be bothered. I just want this to run somewhere, when you hit this endpoint." It seems like that's really the sweet spot.
 
@@ -60,7 +60,7 @@ Microservices tend to have multiple responsibilities that may be quite cohesive.
 
 Where I see the core value is in having some principles about what is a stateless and ephemeral workload, and then allowing people to solve problems the way that makes sense for them. Generally, a serverless workload or a function is short-lived, it's generally single-purpose, it has no state between invocations, and auto-scales for demand.
 
-\[00:16:11.03\] Now, there are some practical reasons why you may want some state in terms of a connection pull for a database, but the state that I'm talking about there is really things like having particulars in memory; a lot of monolithic applications would perhaps rely on certain things being established as singletons, and knowing that that's there for the next request.
+\[16:11\] Now, there are some practical reasons why you may want some state in terms of a connection pull for a database, but the state that I'm talking about there is really things like having particulars in memory; a lot of monolithic applications would perhaps rely on certain things being established as singletons, and knowing that that's there for the next request.
 
 **Jerod Santo:** Right.
 
@@ -82,11 +82,11 @@ Where I see the core value is in having some principles about what is a stateles
 
 **Alex Ellis:** You know, this is one of the things that can be incredibly hard to get to, and does need a lot of coordination. One of the ways that the broader servers community has collaborated in the past is through a serverless working group, which is part of the CNCF. I've been attending the calls and participating in demos, and getting my community involved in that pretty much since I heard about it after my talk at DockerCon. The first output of that was something called Cloud Events, and that got adopted as a sandbox project by the CNCF.
 
-\[00:20:05.19\] What Cloud Events does is it started to say "Well, I have all of these events in (for instance) Azure - when cloud storage is accessed, or when a database row is updated, but every cloud platform needs a slightly different way of consuming or producing the event", so what we are trying to do in the working group was to come together with something that all of the open source frameworks would be happy to implement, but also that we'd be able to see become a standard, and have some of the cloud providers adopt as well.
+\[20:05\] What Cloud Events does is it started to say "Well, I have all of these events in (for instance) Azure - when cloud storage is accessed, or when a database row is updated, but every cloud platform needs a slightly different way of consuming or producing the event", so what we are trying to do in the working group was to come together with something that all of the open source frameworks would be happy to implement, but also that we'd be able to see become a standard, and have some of the cloud providers adopt as well.
 
 I think the first cloud provider that probably adopted it was Azure, and that's because its spec was very close to the one that the work group came up with... And then most of the open source projects that you'll see in a serverless landscape of the CNCF will have some support for cloud events as well.
 
-**Break:** \[00:21:02.12\]
+**Break:** \[21:02\]
 
 **Jerod Santo:** Alex, I have done a little bit of serverless on Lambda. It was probably a year or two back. I know they've added things, but it was very much use the tools that they have; specifically, it was like "Well, it's gonna be JavaScript." I know they've added languages, but... You mentioned containers with OpenFaaS, so I assume that means if it can run in a container, it can run on OpenFaaS. So any language, any framework, pretty much anything?
 
@@ -94,7 +94,7 @@ I think the first cloud provider that probably adopted it was Azure, and that's 
 
 **Jerod Santo:** That sounds awesome right there. You even talk about binaries such as FFmpeg, or ImageMagick, there doesn't seem to be -- like if it can run in a container, does it have to have some boot-up time, or anything that runs too slowly maybe breaks that contract...?
 
-**Alex Ellis:** \[00:23:46.11\] Yeah, so the timeouts in a proprietary product are very often set in stone, and there's a very good and smart reason for that, which is because often an SLA is offered by that company, and they wanna make sure they have a great experience for their users. However, if you're deploying your own functions and you can commit to a longer or shorter timeout, then you should be able to pop the bonnet and actually do that... And that's part of the freedoms that you get from using this open source - they're the same defaults, but you can actually get in there and you can tune them as you need to.
+**Alex Ellis:** \[23:46\] Yeah, so the timeouts in a proprietary product are very often set in stone, and there's a very good and smart reason for that, which is because often an SLA is offered by that company, and they wanna make sure they have a great experience for their users. However, if you're deploying your own functions and you can commit to a longer or shorter timeout, then you should be able to pop the bonnet and actually do that... And that's part of the freedoms that you get from using this open source - they're the same defaults, but you can actually get in there and you can tune them as you need to.
 
 **Jerod Santo:** That's awesome. And then when you're ready to deploy, is there specific clouds that you can use? Is there like an OpenFaaS specific cloud? You mentioned it runs on Google's new Cloud Run via that contract...
 
@@ -114,7 +114,7 @@ In terms of specific debugging tools, there are a lot of different options out t
 
 **Jerod Santo:** Changing gears a little bit, I noticed on the website you do have what you call pre-built community functions, from the functions store. I kind of like that idea, just go to the store, pick your favorite function off the shelf and slap down your credit card and take it home with you. What are community functions? Is it just like "Hey, you can resize an image with this community function", is that the idea?
 
-**Alex Ellis:** \[00:28:08.13\] Yeah, the functions store came about -- OpenFaaS has been a journey; to start with, it didn't even have a CLI. Then we built one, and then we made it amazing, with lots of input and feedback from the community... It didn't have a functions store, and if you look at almost any successful project that's taken off and had traction, one of the cool things that it has is an ability - this is going back to the same thing we saw with Web 2.0, this idea of sharing and participating and discovering content.
+**Alex Ellis:** \[28:08\] Yeah, the functions store came about -- OpenFaaS has been a journey; to start with, it didn't even have a CLI. Then we built one, and then we made it amazing, with lots of input and feedback from the community... It didn't have a functions store, and if you look at almost any successful project that's taken off and had traction, one of the cool things that it has is an ability - this is going back to the same thing we saw with Web 2.0, this idea of sharing and participating and discovering content.
 
 So I noticed different people were writing very similar functions for things like detecting faces in an image, and building the store actually helped them find that. Then I started to put out a call to action and send people T-shirts and things like that to try and get it populated more and more... So you can find interesting things that you can deploy very simply, and start to make sense of functions.
 
@@ -134,7 +134,7 @@ One of the things that I quite like is a tesseract function. Vivek Singh, from B
 
 I gathered together probably around ten people that had worked with me on my other open source projects, or I just knew one way or another... And we had something like an Alex Ellis Hackers Slack that we renamed to OpenFaaS Slack, started to have Zoom calls... I'd pay up, I paid the $15/month just out of my pocket money to have a Zoom call that we could all join. So it'd be 7 o'clock on a Sunday night, and it'd be every week... We'd just get together and talk about the project and what we wanted to do.
 
-\[00:31:58.19\] Then I really started to think that we needed some values writing down... And it wasn't that these ones just went away, and had too many espressos and came back and said "This is what we're doing." It was what we'd already done up to that point. So I started to write that down and reflect on it.
+\[31:58\] Then I really started to think that we needed some values writing down... And it wasn't that these ones just went away, and had too many espressos and came back and said "This is what we're doing." It was what we'd already done up to that point. So I started to write that down and reflect on it.
 
 The three key values were "Developers first. Operationally simple. And community-centric." Now, the community-centric one - you can already see how that was starting to become really applicable. There were developers from all over the world joining, and from the U.S. Different jobs, different backgrounds. Today there's 197 people that have submitted pull requests and had them merged, which I think is pretty amazing.
 
@@ -152,7 +152,7 @@ The reason why is because it's operationally simple, and that's something that h
 
 So let's zoom back to the Zoom call, because that's kind of interesting... And just the fact that you have this weekly opt-in, "Come if you want to" kind of meetup. Can you describe how long it was, how you organized it, was it self-organized...? What did you expect from that? Has it been repeated since then? Has it been weekly for years now?
 
-**Alex Ellis:** \[00:35:59.22\] I have pretty much all the recordings on YouTube on an unlisted playlist that people can get to... But one of the things that I find really inspirational with some of the old videos I found, where Steve Jobs was talking to his early company about his work at Apple, or creating the subsequent company next... And he always went back to this example of creating the Apple One. What he said was that he and his friends wanted to create something so they could use it, and so that their friends would want to use it, too. I think that was really the core idea in the kernel of what we've been doing with OpenFaaS, and why it drove to those values.
+**Alex Ellis:** \[35:59\] I have pretty much all the recordings on YouTube on an unlisted playlist that people can get to... But one of the things that I find really inspirational with some of the old videos I found, where Steve Jobs was talking to his early company about his work at Apple, or creating the subsequent company next... And he always went back to this example of creating the Apple One. What he said was that he and his friends wanted to create something so they could use it, and so that their friends would want to use it, too. I think that was really the core idea in the kernel of what we've been doing with OpenFaaS, and why it drove to those values.
 
 Some of the early people involved in the project were coming along for that reason, too. I think that's why they put a stake in it, and why they're still there now - we were and still are building something that we want to use, enjoy using, and we want our friends to use, too.
 
@@ -176,7 +176,7 @@ My wife has helped a lot with cooking meals when I still had a day job, doing mo
 
 It's also meeting with the end users... Working late into the evening, meeting with BT, or Minio, or whoever it would be at the time, who had reached out very excited about the project, and kind of had this expectation that a big company was behind it, with a lot of money and a lot of resources; the actual fact - it takes a lot of energy to keep something like that afloat.
 
-**Break:** \[00:40:02.10\]
+**Break:** \[40:02\]
 
 **Adam Stacoviak:** Let's break down the first two pillars of your values - developers first and operationally simple. The example for the second - you'd mentioned spin-up time, to sort of adaption-focused... But break down for me what you mean by developers-first. What lens do you look at that from? How do you ensure that's true?
 
@@ -188,7 +188,7 @@ There's a UI that also is very popular. It's not particularly sophisticated, but
 
 **Adam Stacoviak:** When you add more people - because this is called community-centric - the simplicity is somewhat a subjective term, meaning that my version of simple is not exactly the same as Jerod's. How do you ensure -- you mentioned the word "defend" earlier, and "protect"... How do you ensure and defend that state there? Is it in pull requests, does it simply apply to code? Is it sort of project-driven, or is it sort of community-focused, this operational simplicity?
 
-**Alex Ellis:** \[00:43:59.19\] Yeah, so one of the ways that I think we get to this is by having these values and seeing what they look like, and then working with that. Now, there are a core group of people called the Core Contributors - it's about five of them at the moment - who probably know these values really well, because they've been around the longest... And they know what this looks like and what it doesn't. And I think instinctively, like a kind of tribal knowledge, this is something that they pass down and that they are using when they review code, and they know what is OpenFaaS and what isn't OpenFaaS.
+**Alex Ellis:** \[43:59\] Yeah, so one of the ways that I think we get to this is by having these values and seeing what they look like, and then working with that. Now, there are a core group of people called the Core Contributors - it's about five of them at the moment - who probably know these values really well, because they've been around the longest... And they know what this looks like and what it doesn't. And I think instinctively, like a kind of tribal knowledge, this is something that they pass down and that they are using when they review code, and they know what is OpenFaaS and what isn't OpenFaaS.
 
 It does go back to some of those principles of being able to run anywhere, any code, any scale, having things like a function store, a templating system, to make that simpler to remove duplication, but also as far as possible to go and say "Right, we're doing this by convention, not by configuration first."
 
@@ -212,7 +212,7 @@ I was reading a book called Traction - I think I have it up here somewhere - and
 
 So Twitter is probably the broadest kind of reach at the moment, but I think LinkedIn is just a little bit more concentrated. People are there because they want to be; it's a group that you have to join... And then Slack - I think we all know that Slack can be a double-edged sword; it can be overwhelming, it can actually be a really great experience at times as well... So I wanted to try and make sure that people knew what we were doing in the project, that they had a way to connect, and so far it's been really positive, and I'm hoping it's just gonna continue to grow.
 
-**Adam Stacoviak:** \[00:48:00.26\] What I find interesting about this is how mentioned how you're personally using posts, which I'm curious about just because so many people I hear from that are developers, engineers, or in software, aside from say on the business side of things, the relationships side of things, which everyone is in relationships, but... Developers are so inundated with requests for new positions, and just...
+**Adam Stacoviak:** \[48:00\] What I find interesting about this is how mentioned how you're personally using posts, which I'm curious about just because so many people I hear from that are developers, engineers, or in software, aside from say on the business side of things, the relationships side of things, which everyone is in relationships, but... Developers are so inundated with requests for new positions, and just...
 
 **Jerod Santo:** Recruiters.
 
@@ -234,7 +234,7 @@ So no, I don't think it's odd at all for me putting that hat on to go out and ac
 
 **Adam Stacoviak:** Yeah. So it's definitely an invitation to the community to say "Hey, share what you're doing in this world. What you're up to, if you're giving a talk, or a presentation, or whatever." It's kind of like that. But then also threaded conversations when you need it, too.
 
-**Alex Ellis:** \[00:51:45.21\] Yeah. There is a community.md, a markdown file in the FaaS repo, and that is absolutely full of hundreds (if not thousands now) of blog posts and events that are coming up, and then some industry awards and notable mentions... And if anything, it's just one way of bubbling that up. For instance, in France today, at Devoxx France, Philip from GitLab, and a friend of mine Laurent, were talking about OpenFaaS. I think they spent something like three hours going through just about everything there is to know about it... And it seemed like they had a great talk. But it's very hard for people to know what's coming up, and so this is something that I do, is kind of seek out who's gonna speak, or who's speaking, and help them amplify it and get more people to turn up, if I can.
+**Alex Ellis:** \[51:45\] Yeah. There is a community.md, a markdown file in the FaaS repo, and that is absolutely full of hundreds (if not thousands now) of blog posts and events that are coming up, and then some industry awards and notable mentions... And if anything, it's just one way of bubbling that up. For instance, in France today, at Devoxx France, Philip from GitLab, and a friend of mine Laurent, were talking about OpenFaaS. I think they spent something like three hours going through just about everything there is to know about it... And it seemed like they had a great talk. But it's very hard for people to know what's coming up, and so this is something that I do, is kind of seek out who's gonna speak, or who's speaking, and help them amplify it and get more people to turn up, if I can.
 
 **Jerod Santo:** Let's talk about community financial support, because as you mentioned off-hand, you are doing this indie, full-time now; previously, you were doing it at VMware, but you're out on your own, trying to make a go at it. What's your ideas around sustainability? I know you do have a Patreon, you also have an Open Collective, so there's a few things out there where people can support the project financially... But tell us bigger-picture - is this all experimental? Do you have a path towards monetization of some sort of cloud offering? What are your thoughts on that?
 
@@ -252,7 +252,7 @@ And then really, it's like, okay, as a SaaS, do you want to compete on price? Be
 
 There's some chunky stuff on the roadmap that I'd really love to get into, given enough time and resource, but really I think there's a potential future where, as I said earlier, this serverless 2.0 idea comes to fruition on a larger scale, where it's that container image and that basic contract that is what is portable between every cloud... And it may not be that it's running only on OpenFaaS; there's a provider that has been put together recently by one of my contributors, Ed Wilde. This can target Fargate.
 
-\[00:56:14.07\] There's another one that we kind of came up with the idea for over lunch here at Christmas, which was FaaS Lambda, as you can literally build the same function and deploy it through exactly the same tools, monitor it in the same way, and that same function can deploy to Lambda and Kubernetes at exactly the same time.
+\[56:14\] There's another one that we kind of came up with the idea for over lunch here at Christmas, which was FaaS Lambda, as you can literally build the same function and deploy it through exactly the same tools, monitor it in the same way, and that same function can deploy to Lambda and Kubernetes at exactly the same time.
 
 So I'd love to see OpenFaaS the packaging layer, and the runtime, the interfaces become something that's very broadly adopted, and is helping companies big and small to start solving these problems and make complex tools like Kubernetes more accessible.
 

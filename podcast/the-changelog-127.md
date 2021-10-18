@@ -16,7 +16,7 @@
 
 **Adam Stacoviak:** It is sort of meta, because I've stumbled upon this project of yours which is Keep a Changelog; the subtitle is "Don't let your friends dump git logs into changelogs", which I thought was pretty cool, because you know, we're "The Changelog", and everybody who does open source - or any sort of software really - is to some degree keeping changelogs; even proprietary software has changelogs, right? So this isn't just open source, this is sort of software as you see it.
 
-**Olivier Lacan:** \[00:04:09.21\] This is what I wish people would do, but I've realized in the recent months as I was actually going through upgrading a lot of old apps, a lot of apps that we have internally, that people actually don't do that. People actually tend to think that their software maintains itself, or as long as they contribute to it, then it's done and you don't really have to do the side work, because it's kind of boring to keep a changelog and actually write down like a journal... Like, "Okay, we did this this week, and that week..." Because it's just tedious, and people would rather be as impactful as they want to be.
+**Olivier Lacan:** \[04:09\] This is what I wish people would do, but I've realized in the recent months as I was actually going through upgrading a lot of old apps, a lot of apps that we have internally, that people actually don't do that. People actually tend to think that their software maintains itself, or as long as they contribute to it, then it's done and you don't really have to do the side work, because it's kind of boring to keep a changelog and actually write down like a journal... Like, "Okay, we did this this week, and that week..." Because it's just tedious, and people would rather be as impactful as they want to be.
 
 **Adam Stacoviak:** Well, even think about those who are shipping apps to the App Store, like Apple's App Store, or the Play Store, even those apps... Actually, a lot of the developers have a lot of fun with these -- I don't know if they're called changelogs there or not, but...
 
@@ -40,7 +40,7 @@ If we use Git and we can use git log, why would you ever -- you can do the same 
 
 It's got this idea of Added, Deprecated, Removed, Fixed, which I think is really important, because it kind of gives you a rhythm to follow at least, you know?
 
-**Olivier Lacan:** \[00:08:14.14\] Yeah, and this is something that I noticed - a lot of people just say what was added and say what was removed, but they don't say "Okay, was something not deprecated?" Because usually, when you parse things, it's also as important to you to know that nothing was deprecated in this version, and you can safely upgrade. Because if it's not mentioned, maybe it's not there, but maybe they forgot. And it happens a lot in open source projects, because you merge a contribution and you forget -- that person didn't make a changelog commit, and boom, you're suddenly breaking all these installs from people... And it's just a lot of friction and pain that I think we could easily remove with a little bit of forethought.
+**Olivier Lacan:** \[08:14\] Yeah, and this is something that I noticed - a lot of people just say what was added and say what was removed, but they don't say "Okay, was something not deprecated?" Because usually, when you parse things, it's also as important to you to know that nothing was deprecated in this version, and you can safely upgrade. Because if it's not mentioned, maybe it's not there, but maybe they forgot. And it happens a lot in open source projects, because you merge a contribution and you forget -- that person didn't make a changelog commit, and boom, you're suddenly breaking all these installs from people... And it's just a lot of friction and pain that I think we could easily remove with a little bit of forethought.
 
 **Adam Stacoviak:** I love the dog you have in the background, too. You warned us, but the dog is still there. I might edit that out, but I don't think so...
 
@@ -70,7 +70,7 @@ For instance, I think Haml was an example... I was waiting for a feature in Haml
 
 Of course, you can improve your feature descriptions on your library, but it's also great for people to just jump in and see, "Wow...!" Yeah, when you jump in a project, you always assess "How well-maintained is this project?" What better way to see how well-maintained a project is than show "You know what - every month, every week, every year we have these incremental changes, and this is all the things we carefully change and add."
 
-**Jerod Santo:** \[00:12:05.03\] Yeah, absolutely. I think as a user of open source software and somebody who's written a lot of software over the years, I used to get really excited for every single project update. I was like, "Oh, I can't wait to upgrade, and get this in there...", and kind of as you get scar tissue to the process of software development, and realizing that your regression test suite is not as awesome as you thought it was and there's still bugs that affect you and trickle down... I get to the point where I am very wary of upgrading dependencies...
+**Jerod Santo:** \[12:05\] Yeah, absolutely. I think as a user of open source software and somebody who's written a lot of software over the years, I used to get really excited for every single project update. I was like, "Oh, I can't wait to upgrade, and get this in there...", and kind of as you get scar tissue to the process of software development, and realizing that your regression test suite is not as awesome as you thought it was and there's still bugs that affect you and trickle down... I get to the point where I am very wary of upgrading dependencies...
 
 **Olivier Lacan:** That's so sad!
 
@@ -112,7 +112,7 @@ But if you do, then you're actually allowing your project to be more lightweight
 
 **Olivier Lacan:** Yup.
 
-**Jerod Santo:** \[00:16:04.16\] The first thing you have -- okay, the title; we'll get past that. But for each changelog entry you have a version number, a well-formatted date, which you have a section all about dates in here... Then you have four sections: Things added, Things deprecated, Removed, and Fixed.
+**Jerod Santo:** \[16:04\] The first thing you have -- okay, the title; we'll get past that. But for each changelog entry you have a version number, a well-formatted date, which you have a section all about dates in here... Then you have four sections: Things added, Things deprecated, Removed, and Fixed.
 
 In this example you give, your Added has three bullet points, but they're hyphenated, the things added. Then your Deprecated, Removed and Fixed are all empty, but you don't just leave them empty, you actually explicitly state "Nothing."
 
@@ -150,7 +150,7 @@ But the other reason is you can figure it out because it's different enough from
 
 **Olivier Lacan:** Okay. Let's start a revolution. See, you have to make another website, a single-page website like this where you talk about "Let's keep a date format", or I don't know what you wanna call it, but basically that.
 
-\[00:20:00.19\] The things that scares me in what you say is I didn't realize, being outside of -- well, having grown up outside of the American culture mostly, I don't know what's super-weird. I just know what doesn't make sense to me... But there are things that I say or do that shock people and that surprise me, because it's just not a big deal in Europe or in France.
+\[20:00\] The things that scares me in what you say is I didn't realize, being outside of -- well, having grown up outside of the American culture mostly, I don't know what's super-weird. I just know what doesn't make sense to me... But there are things that I say or do that shock people and that surprise me, because it's just not a big deal in Europe or in France.
 
 Anyway, so the date is one super-important thing. The other part actually is... It's like Heading, so the first heading -- and this is something I've been criticized for and I'm completely okay discussing it, because as you mentioned, it's not the truth, it's just an idea for a convention; we can agree or disagree, we can improve it, to be better.
 
@@ -184,7 +184,7 @@ And finally, there's the third one, which is the groups of changes - the added c
 
 **Olivier Lacan:** So now that it's public, it will happen... But no, it's never happened. Actually, my evil plan worked every single time.
 
-**Break:** \[00:23:08.01\]
+**Break:** \[23:08\]
 
 **Adam Stacoviak:** Another thing I like about this format too is that -- you know, there's a debate in your GitHub issues for this, to some degree, at least talking about what the format should be. I think there were some other sort of unusual formats that you kind of balked at, and I think it's a closed issue right now... But you might recall that one... Some sort of other -- I don't even know what the file format was, but it was something weird.
 
@@ -222,7 +222,7 @@ What I'm trying to achieve is not to please everybody; it's this idea, I guess, 
 
 **Jerod Santo:** There's lots of projects that don't have any changelog whatsoever, so something would be a huge step up, right?
 
-**Olivier Lacan:** \[00:27:54.16\] Right. So what I encourage listeners to do is basically what I've been starting to do in the last few months - I've put this page up and I've used this page as argument bullets to go inside of a project that I use. Basically, when I do an upgrade, there's a shock and I don't know why something doesn't work, and I say "Okay, let's see the changelog." If there's no changelog, I say "Okay, do you want me to make a changelog for you? This is what I offer, this is the format. Are you cool with that?" and at least two, or three, or four, or more people actually have been like "Yeah, sure. You can do it. Just send a PR."
+**Olivier Lacan:** \[27:54\] Right. So what I encourage listeners to do is basically what I've been starting to do in the last few months - I've put this page up and I've used this page as argument bullets to go inside of a project that I use. Basically, when I do an upgrade, there's a shock and I don't know why something doesn't work, and I say "Okay, let's see the changelog." If there's no changelog, I say "Okay, do you want me to make a changelog for you? This is what I offer, this is the format. Are you cool with that?" and at least two, or three, or four, or more people actually have been like "Yeah, sure. You can do it. Just send a PR."
 
 I think one of the contributors for Discourse, a really great British guy... I can't remember his name. But yeah, if you go to Discourse, they use something to -- rack-mini-profiler. It's this really cool profiling thing that you can use in Ruby apps. Sam Saffron. And his changelog was strange, because it was backwards; so the oldest changes was at the top, which is kind of counter-intuitive... And the date format was a little strange, because he's British; we can't judge, but yeah...
 
@@ -290,7 +290,7 @@ The key is "What is it about?" and then the value is - a simple example is "Buil
 
 So you end up getting in touch with all these really great people who just meant to do well, but either didn't have the graphic skills to make a badge that looks exactly the same as -- I think the Travis badge was the first...
 
-\[00:36:07.26\] So I made this thing and I talked to the Travis people and I talked to the Code Climate people and a bunch of other people (Gemnasium was really cool, too) and I said "Okay, how about we make badges for you and they're all consistent, similar color tones and similar font, and the font is more legible, so people don't have to squint, like "What is the gem version?" And then we make sure that everytime you put a badge on these, we just recommend people to link to that thing you do, instead of trying to use the badge as an ad platform. You provide value, and then we link to you, and people will see "Oh, Gemnasium is really cool! Oh Travis is awesome!" And that took off like crazy.
+\[36:07\] So I made this thing and I talked to the Travis people and I talked to the Code Climate people and a bunch of other people (Gemnasium was really cool, too) and I said "Okay, how about we make badges for you and they're all consistent, similar color tones and similar font, and the font is more legible, so people don't have to squint, like "What is the gem version?" And then we make sure that everytime you put a badge on these, we just recommend people to link to that thing you do, instead of trying to use the badge as an ad platform. You provide value, and then we link to you, and people will see "Oh, Gemnasium is really cool! Oh Travis is awesome!" And that took off like crazy.
 
 People started using the original PNG version of those badges all over the place, even before we actually had figured out a sustainable way to make them... So it was just me and my friend, Nick Acker, just making them manually, or generating them manually for everybody... Which ended up taking a lot of time.
 
@@ -312,7 +312,7 @@ Then question two - you say it's a curated list of things... So how do I decide 
 
 It's very unlikely that you're going to make a release, or cut a release, or push a release if you don't have any notable changes. It's extremely rare. There might be some bug fixes, but even those bug fixes you can say "Okay, we had a few bug fixes - about what?" It just takes you just really quickly parsing through... If you're the release manager, or if you're main/lead contributor, it takes just asking in your contribution -- so GitHub added support for contributing.md, that you can add in your repo to say "This is what we want you to do when you contribute, so start here first. If you start an issue, it's linked to it.
 
-\[00:40:04.04\] As a maintainer, why not put in there and say "Hey, if you're going to fix a bug, please make a changelog entry. A bunch of open source projects do that. Then there you go - every minor release now has a changelog entry that says "Okay, we fixed this bug. Nothing else was added, so you can be relaxed, because we didn't screw up your thing in the background."
+\[40:04\] As a maintainer, why not put in there and say "Hey, if you're going to fix a bug, please make a changelog entry. A bunch of open source projects do that. Then there you go - every minor release now has a changelog entry that says "Okay, we fixed this bug. Nothing else was added, so you can be relaxed, because we didn't screw up your thing in the background."
 
 The second part of your question was -- can you remind me? Because I've lost your second part.
 
@@ -344,19 +344,19 @@ So again, you're lessening the frustration level and you're allowing people usin
 
 **Olivier Lacan:** Yeah. There's something that worries me with -- well, it doesn't really worry me... So GitHub released something called Releases, and that was about a year ago, I think; there's a blog post for it. And their idea was "Let's be smart" -- I think they were thinking really hard about how to improve that too, on their end, and Releases is fueled partially by Git tags. I wanted just to mention that, because what I don't like about the way changelogs are made right now - and a lot of people don't like them either - is that you can't really base them off releases, or if you actually tag your releases... So you say, "Okay, this commit is the point at which this is version 1.0", in that git tag, which contains -- a lot of people don't know you could put a message on a Git tag. So if you do git tag -m, you could put a message.
 
-\[00:44:11.04\] Not a lot of GUIs allow you to see those messages, which is kind of crappy... And I don't know if GitHub and other open source repositories allow you to see that. But you could basically put those entries - the Added, Removed, Deprecated stuff - in those Git tags... And that would be great, except nobody knows how to do that.
+\[44:11\] Not a lot of GUIs allow you to see those messages, which is kind of crappy... And I don't know if GitHub and other open source repositories allow you to see that. But you could basically put those entries - the Added, Removed, Deprecated stuff - in those Git tags... And that would be great, except nobody knows how to do that.
 
 So they've added support for automatically pulling -- when you're trying to create a release on GitHub, it will actually tell you "What is the Git tag? Do you have a Git commit or a Git tag we could use?" and if you have a message on that Git commit or the Git tag, it will pull that and say "Do you wanna use that as your release note?"
 
 That's great, except that it's very rare that people actually -- it's even more rare that people keep up-to-date Git tags for every version they release than it is for them to even have a changelog in the first place... So it's a little like "Ugh, I wish people would--" It's asking even more than I'm even asking from open source developers, it seems.
 
-**Break:** \[00:45:22.01\]
+**Break:** \[45:22\]
 
 **Adam Stacoviak:** I think we might be kind of talking around this issue that you have on the project, "Why not use GitHub release notes?", and you've got a couple chimes in from GitHubbers - technoweenie, BeeKeepers... And I almost feel like GitHub muddied the waters, so to speak, by having this concept of releases. While there's always been this concept of changelog, why not just enforce that or help lift that up and pull it in too, like they had done with pull requests and merges... They made these hard concepts so much easier, which is why GitHub has blown up the way it has... Because they took what used to be hard to commit to a project or fork it or add to it, and they made it so much more accessible socially. Why not do the same thing for this idea of what a changelog is and represents for a project?
 
 **Olivier Lacan:** It's true, but at the same time I've had conversations with them... So I don't generally work for GitHub, and I just have a few people I know that work for GitHub, and every time I talk to them, it's a really good conversation and I can tell they care. I can tell they're trying to do -- that contributing file, for instance, is a good example of what you're saying... Why not just parse that changelog file and then display it somehow in the open source project's dashboard? In a sidebar, or something. That way, it will be (as you said) easier to do, and it wouldn't add one more entry point for releases...
 
-\[00:47:57.16\] But I'm thinking maybe they have a point in the releases -- I think something that I've noticed GitHub doing is just trying to make Git more accessible, in general, for every possible way... And Releases is kind of saying, "Okay, you have tags, but tags don't really mean anything to most people." It's just like, "What is a tag?" It could be a lot of things.
+\[47:57\] But I'm thinking maybe they have a point in the releases -- I think something that I've noticed GitHub doing is just trying to make Git more accessible, in general, for every possible way... And Releases is kind of saying, "Okay, you have tags, but tags don't really mean anything to most people." It's just like, "What is a tag?" It could be a lot of things.
 
 A release is a tag that has a specific kind of meaning... Because you could have tags that just say "Experimental" or "Rails 4", or whatever; you have this little branch, and you tag that. That's not really a tag, actually. It's confusing. It's just a branch called that.
 
@@ -390,7 +390,7 @@ To close the show out, we always ask a couple cool questions, which we tend to g
 
 You guys know, he sadly killed himself I think last year while he was being investigated by the FBI... And through basically just this sordid affair of just trying to release information that the public owns and should have access to... Research, basically. All the public research that is funded by the American government, and you, your tax dollars.
 
-\[00:52:14.14\] Being French, it's weird for me to care about this, but there's even less care in France for that... So for me, people like him -- I don't want martyrs, I want people like him who just have passionately tried to make things right, and don't accept that because it's the way it is, then it should stay the way it is. When people say, "Oh, it's the law", it doesn't mean you have to break it, but that doesn't mean you can change it.
+\[52:14\] Being French, it's weird for me to care about this, but there's even less care in France for that... So for me, people like him -- I don't want martyrs, I want people like him who just have passionately tried to make things right, and don't accept that because it's the way it is, then it should stay the way it is. When people say, "Oh, it's the law", it doesn't mean you have to break it, but that doesn't mean you can change it.
 
 If there's a bad law, or Congress is trying to make the internet less good then, maybe you should do something about it, and you could start with a tiny little thing. If you help bolster the open source community by making an open source project that allows for people to see campaign contributions... Or I have a friend called Tim Faust, and he's this crazy, super Excel genius guy, and he's currently parsing through the Texas (I think) gubernatorial, or one of those -- basically, the campaign spending on each parties, to see what parties waste money on... Which is super important information. It's basically civic hacking type stuff.
 
@@ -418,7 +418,7 @@ People like that inspire me a lot. Beyond technical... It's just like, "Okay, so
 
 **Adam Stacoviak:** And he just basically ranted - in a good way, obviously; sometimes the word "rant" could be used in a bad way - about his beliefs on why we should care about this and why it's important... And sometimes people just are like oblivious to things, and they just don't see, and then you've got one outlier that's like "Well, hang on a second... There's bright spots here no one's paying attention to, and here's what they mean for us 10 or 5 years from now." I think that's a really important -- internet freedom is important.
 
-**Olivier Lacan:** \[00:56:10.28\] To give you a quick person to admire that is sadly not dead -- hopefully not dead...
+**Olivier Lacan:** \[56:10\] To give you a quick person to admire that is sadly not dead -- hopefully not dead...
 
 **Adam Stacoviak:** Sadly... \[laughter\]
 

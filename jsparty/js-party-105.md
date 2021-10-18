@@ -28,7 +28,7 @@
 
 I talk about Git a lot... I've given talks many times, and workshops, so I kind of use this as motivation to go out and learn about the JAMstack and how Git powers the JAMstack. So I did that by actually taking OhShitGit, which had been an index.html file that I crafted in about two hours, three years ago, and actually moved it into Git for the first time, and rebuilt it with Eleventy as a static page builder...
 
-**Kevin Ball:** \[00:04:12.25\] There's something ironic about OhShitGit not living in Git for the first few years of its existence...
+**Kevin Ball:** \[04:12\] There's something ironic about OhShitGit not living in Git for the first few years of its existence...
 
 **Katie Sylor-Miller:** It was almost like a badge of honor at first. People would be like "Oh, is it in Git? Can I link to it?", and I would be like "No." \[laughs\]
 
@@ -72,7 +72,7 @@ I talk about Git a lot... I've given talks many times, and workshops, so I kind 
 
 **Katie Sylor-Miller:** Yes. It was so seamless, and it really allowed me to feel comfortable rearchitecting the site, and going out and testing, and looking at it, and making sure that all of the redirects work... I mean, the fact that you can even set up individual redirects in a TOML file, and then push that out to your branch, and the branch handles all of the redirects the same way that the regular site would - that really made it so easy.
 
-\[00:08:07.05\] So I think especially for blogging sites -- OhShitGit is not necessarily a blog site, but it's kind of similar, in a way; you create the content and it just stays the same, and it's not very dynamic...
+\[08:07\] So I think especially for blogging sites -- OhShitGit is not necessarily a blog site, but it's kind of similar, in a way; you create the content and it just stays the same, and it's not very dynamic...
 
 **Kevin Ball:** Right, right.
 
@@ -118,7 +118,7 @@ Then on the other side of things -- you know, at Etsy we have this philosophy of
 
 **Kevin Ball:** ...without getting pulled into "Oh, I've gotta microservice this, and I've gotta bundle all this", and whatever else is... But the challenge is you still don't wanna build up lots of tech debt, and you still don't want to fall behind in terms of capabilities, because yes, oftentimes the boring tech is good enough, but sometimes you lose a lot of productivity staying in boring tech, because there are actually breakthroughs that happen.
 
-**Katie Sylor-Miller:** \[00:11:56.19\] Totally. And I think that's something that we've seen... We have two different parts of the site - there's the public-facing site that everyone goes to when they're shopping on Etsy, and then there's a whole back-end site for the people who are selling their homemade items on the site. And for a long time there's been this split where the seller back-end was built first in Backbone and Marionette.js, and then a couple years ago (I think i 2015) we started switching over to React, and now it's entirely built in React...
+**Katie Sylor-Miller:** \[11:56\] Totally. And I think that's something that we've seen... We have two different parts of the site - there's the public-facing site that everyone goes to when they're shopping on Etsy, and then there's a whole back-end site for the people who are selling their homemade items on the site. And for a long time there's been this split where the seller back-end was built first in Backbone and Marionette.js, and then a couple years ago (I think i 2015) we started switching over to React, and now it's entirely built in React...
 
 But then our front-end buyer side, because we haven't said "Okay, we're gonna accept the challenges of building a spa that actually works", because obviously SEO is huge for us, performance is huge for us...
 
@@ -144,7 +144,7 @@ But then our front-end buyer side, because we haven't said "Okay, we're gonna ac
 
 So yeah, that's one of the big things that we're working on, is figuring out how to do server-side React rendering, and then hydration on the client, so that we can share components, we can share knowledge, but we don't sacrifice SEO and performance.
 
-**Break:** \[00:15:35.04\]
+**Break:** \[15:35\]
 
 **Kevin Ball:** Are you looking at Next, or because you've got so much established stuff you can't really go with a framework like that, or...?
 
@@ -196,7 +196,7 @@ So yeah, that's one of the big things that we're working on, is figuring out how
 
 **Kevin Ball:** Yeah, exactly. Thinking about it in the server-side world, which I think some of our folks are in that world - they're at Node, and things like that - network requests are the most expensive thing.
 
-**Katie Sylor-Miller:** \[00:20:05.19\] Yup.
+**Katie Sylor-Miller:** \[20:05\] Yup.
 
 **Kevin Ball:** So imagining this situation, you either are gonna wanna do it at the page level, where you're just like "Okay, this whole page is React, and I'm gonna do one fetch and it's gonna render everything over there", almost where PHP is just your data layer, and then you're passing that over... Or you'd wanna have like "Here's the set of components I need, and I send them all in one request and get them all back."
 
@@ -234,7 +234,7 @@ Someone would be like, "Hey, Katie, can you go build this feature?" and I would 
 
 **Kevin Ball:** So what's the process for "Okay, we've decided we're moving on from this approach." How do you get to the next approach from there?
 
-**Katie Sylor-Miller:** \[00:23:47.16\] Yeah, so I think a lot of it is -- and I will be 100% honest, that I think this is something that we're still constantly learning about... It's a really hard problem, and we don't always get it right. But I think a lot of it starts with thinking about developer experience. And I joke that I'm not a feature/product developer, but really I am; the product though that I'm building is for other engineers.
+**Katie Sylor-Miller:** \[23:47\] Yeah, so I think a lot of it is -- and I will be 100% honest, that I think this is something that we're still constantly learning about... It's a really hard problem, and we don't always get it right. But I think a lot of it starts with thinking about developer experience. And I joke that I'm not a feature/product developer, but really I am; the product though that I'm building is for other engineers.
 
 I think you have to have a lot of empathy and a lot of concern and care to make sure that the underlying structure of what you are building doesn't leak into the API that you expose for engineers to use, and that the API works in a way that the engineers who are using it think about it. So you have to put yourself in the shoes of someone who's gonna be using this, and thinking "What's gonna be the easiest way for them to switch to using this?"
 
@@ -262,7 +262,7 @@ I think you have to have a lot of empathy and a lot of concern and care to make 
 
 **Katie Sylor-Miller:** Yeah. I think the pattern that we've generally used is more of like a hybrid, where we make the new stuff backwards-compatible, so you can mix and match... And as with everything, there's trade-offs. The trade-off with that is that the old stuff has a tendency to stick around longer... But it makes it easier to do a gradual roll-out. I think the -- what is it... The Strangler pattern - have you heard of the Strangler pattern?
 
-**Kevin Ball:** \[00:28:07.20\] I think so, but let's review it...
+**Kevin Ball:** \[28:07\] I think so, but let's review it...
 
 **Katie Sylor-Miller:** It's a terrible name, but basically the idea is that it's like a stranger vine grows around a tree, and then gradually eats the tree away and replaces it. So I think the idea is that you build new stuff around the old stuff, and slowly eat away at it until the old stuff is gone. I could be butchering that... \[laughter\] I apologize in advance if I butchered what the Strangler pattern means.
 
@@ -286,7 +286,7 @@ I think you have to have a lot of empathy and a lot of concern and care to make 
 
 **Katie Sylor-Miller:** Yeah. Well, we have a team of three people whose entire job for a year was to figure out how to migrate us onto Webpack. So it's not easy, by any stretch of the imagination... But it was worth it. Again, with a boring tech, we sort of -- it took us a little while, but once it became pretty clear that Webpack was the de facto standard, and the support is there, the maintenance is there, we said "Okay, it's time to start using it."
 
-**Break:** \[00:29:58.16\]
+**Break:** \[29:58\]
 
 **Kevin Ball:** Another topic I wanted to pick your brain on - though I'm supposed to get away from using that metaphor, because that's a little bit of a weird visual there...
 
@@ -304,7 +304,7 @@ I think you have to have a lot of empathy and a lot of concern and care to make 
 
 **Katie Sylor-Miller:** Yeah, yeah. Design systems to me I think is this natural progression that -- you know, I've been doing this for almost 15 years, and throughout that time it had a lot of different names. First it was style guide, then component library... And it just makes sense. Every other computing language uses small, reusable modules of code. It's an idea that just makes sense. But I think that, again, kind of like what I said before, the difference between a successful design system and an unsuccessful one is really putting care into that API.
 
-\[00:32:04.03\] The way that you build a custom dropdown component to handle your specific product use case, versus the way that you build something that is completely reusable and exposes an API that allows multiple different teams to inject their own data and their own interaction into a component that handles opening it, animating it, how do you surface what the user selected, how do you handle accessibility is a huge challenge for things like that... You know, it's a completely different mindset.
+\[32:04\] The way that you build a custom dropdown component to handle your specific product use case, versus the way that you build something that is completely reusable and exposes an API that allows multiple different teams to inject their own data and their own interaction into a component that handles opening it, animating it, how do you surface what the user selected, how do you handle accessibility is a huge challenge for things like that... You know, it's a completely different mindset.
 
 Systems thinking has to go into every layer of the design system, basically... And I think it's really exciting that several years ago -- gosh, it was probably 8 or 9 years ago now that at my job I suggested that we create a reusable pattern library... Because I was getting so frustrated that -- you know, it's like the 50 Shades of Gray. \[laughs\] Every single Photoshop document - because it was Photoshopped then - they sent to me had four different grays, and they weren't standard... And I was like "For the love of God, please give me something that I can reuse..." I think at that point the designers were kind of like "What...?!" But it seems to me that designers are much more on board.
 
@@ -320,7 +320,7 @@ And then from there it's really thinking about components and what are the small
 
 **Kevin Ball:** Buttons are everywhere... You'd like to think they're simple. They are not simple.
 
-**Katie Sylor-Miller:** \[00:35:51.10\] They are not simple at all. Again, thinking about how do you write your CSS in such a way -- I think a lot of folks have adopted this idea of having a structural class, and then themed classes, and just thinking about the interactions between those, and what options do you expose to people, how do you allow them to make the button bigger, how do you allow them to make the text bigger, what happens if they wanna put an icon inside of a button, what happens if the text wraps onto multiple lines... There's so many things you have to think about to build a component that seems so utterly simple.
+**Katie Sylor-Miller:** \[35:51\] They are not simple at all. Again, thinking about how do you write your CSS in such a way -- I think a lot of folks have adopted this idea of having a structural class, and then themed classes, and just thinking about the interactions between those, and what options do you expose to people, how do you allow them to make the button bigger, how do you allow them to make the text bigger, what happens if they wanna put an icon inside of a button, what happens if the text wraps onto multiple lines... There's so many things you have to think about to build a component that seems so utterly simple.
 
 **Kevin Ball:** Yeah.
 
@@ -348,7 +348,7 @@ There's so much complexity on every single level, and to me the best design syst
 
 **Kevin Ball:** And it's interesting -- so maybe the thing I would ask... Thinking about a design system from now the perspective of a front-end developer, what are the key pieces in terms of designing that API that are gonna make a difference in the engineering utilization there?
 
-**Katie Sylor-Miller:** \[00:40:08.22\] Well, I think a lot of it really depends -- so there's a couple of different ways to approach how you build a design system. Some design systems just provide "Here's a bunch of CSS classes, and some example markup, and you go out and build it in whatever language you're gonna use. You just use our classes, and you use our markup structure, and you sort of handle everything else." And then there's all the way through to "We provide all of the components to you", basically.
+**Katie Sylor-Miller:** \[40:08\] Well, I think a lot of it really depends -- so there's a couple of different ways to approach how you build a design system. Some design systems just provide "Here's a bunch of CSS classes, and some example markup, and you go out and build it in whatever language you're gonna use. You just use our classes, and you use our markup structure, and you sort of handle everything else." And then there's all the way through to "We provide all of the components to you", basically.
 
 **Kevin Ball:** Yeah, yeah.
 
@@ -368,7 +368,7 @@ So there's a lot of thinking you have to do about "Okay, so if someone is buildi
 
 **Katie Sylor-Miller:** I generally tell them "If the designer hands you something that doesn't exist in the system, go out and build it with this system, as close as you can get it to their design, show it to them, say 'Is this acceptable?' and then if they say 'No, this isn't quite right', that's when you can have a conversation about the trade-offs of writing custom markup, writing custom CSS, maintaining that in the long-term versus using what's available." Or then you can have a conversation with your design systems team or whoever owns your design system about "Hey, these patterns don't fit what my designers want to do anymore, so maybe we need to expose a new class, or a new variable, or maybe a whole new pattern needs to be developed."
 
-\[00:44:19.21\] So I think a lot of times engineers, especially more junior engineers, will get handed a design and they'll just go -- they'll measure it and they'll go and they'll build it exactly... But if there's a good system in place, you should never--
+\[44:19\] So I think a lot of times engineers, especially more junior engineers, will get handed a design and they'll just go -- they'll measure it and they'll go and they'll build it exactly... But if there's a good system in place, you should never--
 
 **Kevin Ball:** You should never have to do that.
 
@@ -398,7 +398,7 @@ But what I generally tell people is "Build every component that you build custom
 
 **Kevin Ball:** Interesting.
 
-**Katie Sylor-Miller:** \[00:48:03.05\] People are constantly popping in and asking questions, "How do I use this component?" "I wanna do this thing. The designers asked for this. How do I make it happen?" Yeah, so it's a lot... \[laughs\] You definitely have to have a very customer service mindset in order to work effectively on a design system team... And relationship building, clear guidelines about contributions... At least at Etsy, our design system kind of represents what we hope -- and we're not perfect; nobody's perfect, but... I like to think that it's our highest ideals for what our front-end code should look like.
+**Katie Sylor-Miller:** \[48:03\] People are constantly popping in and asking questions, "How do I use this component?" "I wanna do this thing. The designers asked for this. How do I make it happen?" Yeah, so it's a lot... \[laughs\] You definitely have to have a very customer service mindset in order to work effectively on a design system team... And relationship building, clear guidelines about contributions... At least at Etsy, our design system kind of represents what we hope -- and we're not perfect; nobody's perfect, but... I like to think that it's our highest ideals for what our front-end code should look like.
 
 Everything should be perfectly structured, everything should be perfectly accessible, everything should be consistently named... \[laughs\] Not that we always achieve that, because we're humans, but... In my opinion, I think if other people are building stuff in their own stack that follows the lofty ideals and guidelines that we put down for the design system, then they're gonna be set up for success regardless. These are good architectural patterns for everyone. You don't have to be a design systems engineer to think about "How do I separate business logic from interaction logic?" These are important things everywhere.
 

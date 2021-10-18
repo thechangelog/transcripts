@@ -32,7 +32,7 @@
 
 **Daniel Whitenack:** I'm excited today -- occasionally on the podcast we get a chance to talk to someone who has authored a new book, or updated a book, or something like that... And of course, I always love that, because authors have put so much thought into the topics that they're passionate about, so it's really good to get their feedback and views on things. Today we have with us David Sweet, who is the author of a new book called Tuning Up: From A/B Testing to Bayesian Optimization. Welcome, David.
 
-**David Sweet:** \[00:04:31.24\] Thank you. It's great to be here.
+**David Sweet:** \[04:31\] Thank you. It's great to be here.
 
 **Daniel Whitenack:** Maybe before we get into what tuning up means from your perspective, could you just give us a little bit of a background about yourself and how you got into doing what you're doing now?
 
@@ -66,7 +66,7 @@ I had an interest in finance from the perspective of personal finance, investing
 
 Then the second step was just going on interview just to sort of see what I thought about it. The company was a small company with lots of computing resources, and the job was to build a strategy that traded a portfolio autonomously, more or less... Or almost completely autonomously. And that was very exciting; that really was right up my alley. I'd get to do coding, which is something I enjoyed doing for a long time; you get to do math, building the models, but then you get this final piece of satisfaction of watching it go do its thing. It's pretty cool.
 
-**Daniel Whitenack:** \[00:08:15.23\] So did you reach that sort of end-to-end state?
+**Daniel Whitenack:** \[08:15\] So did you reach that sort of end-to-end state?
 
 **David Sweet:** Well, I was a junior person at the time. The people who had founded the company had built a strategy. It was a single strategy. So my job was to work on this, and improve it and enhance it.
 
@@ -92,7 +92,7 @@ I see deep learning used for interpreting maybe alternative datasets, sometimes 
 
 The other thing I see a lot of is optimization of the simulation. Now, this is like old school. This is maybe 1970s on, maybe even earlier, depending on whether you wanna call it simulation... Optimization of simulation is an old school engineering technique. You build a model, you build a simulator for it, and you wanna run a controller. And controllers are hard to solve. There's no quick and easy solution like a linear regression for a controller. So you run lots and lots of simulations and you see which parameters work best, and there's all kinds of ways to solve this... And so that's a lot of what trading is. That's the end state of building a trading strategy, right before you go and put it online... And then there's a whole other stage.
 
-\[00:12:22.24\] So I think those are the three big AI-related things. In terms of simulation optimization, today you might see evolutionary algorithms where - you know, when I first started out, you might just have one parameter at a time, and sweep through ten values and make sure it looks pretty good to the eye on the graph, and then repeat that process with each new parameter. Now it's more automated, black-boxing.
+\[12:22\] So I think those are the three big AI-related things. In terms of simulation optimization, today you might see evolutionary algorithms where - you know, when I first started out, you might just have one parameter at a time, and sweep through ten values and make sure it looks pretty good to the eye on the graph, and then repeat that process with each new parameter. Now it's more automated, black-boxing.
 
 **Daniel Whitenack:** Do you feel like on that front that in the trading space there's been a time in which people are considering and trying all sorts of new things as related to these new types of models that are coming out? Or do you feel like it's been pretty progressive and incremental in terms of the same sort of strategy, but with maybe a different model, like you're talking about? Or are people trying -- I'm thinking of things like reinforcement learning or other things to try whole new approaches to the problem?
 
@@ -110,11 +110,11 @@ The big problems with financial data are the signal-to-noise ratio is very low. 
 
 One thing that -- you mentioned reinforcement learning, and that brought to mind... I don't think reinforcement learning is ready to just turn it on and get a usable answer out of, in finance. I haven't seen that. And I say that only -- I say it because it's hard. I feel like it's still cutting-edge for solving this kind of problem. I see a lot of promise in offline reinforcement learning, what's been going on the past year or so... It's just amazing, and it's very much in line with... It's like a machine learning replacement for the old - or an AI replacement, I'll say - for the old-school simulation optimization; like, how do you make that more automated, or more autonomous, or hyper-automated, or get that next level of automation. So yeah, I see a lot of promise, but I haven't seen people just kind of taking that out of the box and making it work.
 
-\[00:15:58.29\] A contextual bandit on the other hand, which is a limited subset of reinforcement learning - not only do I think that that's directly useful, but I think people in finance have been doing it ad-hoc for a long time anyway... You know, if not the most super-efficient way it can be done, like people understand it these days, I think, since the beginning of my \[unintelligible 00:16:17.12\] doing things that kind of look to me like a contextual bandit.
+\[15:58\] A contextual bandit on the other hand, which is a limited subset of reinforcement learning - not only do I think that that's directly useful, but I think people in finance have been doing it ad-hoc for a long time anyway... You know, if not the most super-efficient way it can be done, like people understand it these days, I think, since the beginning of my \[unintelligible 00:16:17.12\] doing things that kind of look to me like a contextual bandit.
 
 What makes that easier than a full reinforcement learning problem is that you're only predicting the immediate reward, so you don't have to worry about your decision now affecting the state of the world for your decision later, and then have this compounding of state changes based on previous decisions. That's a more IID sample, so to speak, to build your model with.
 
-**Break:** \[00:16:41.27\]
+**Break:** \[16:41\]
 
 **Chris Benson:** David, I know once upon a time you were working at Instagram, and you were working on recommender systems... So I'm kind of curious, what is your perception of the differences? We've been talking about finance and applying AI/ML techniques in finance versus the social media world recommenders that you were doing before... What are they alike in, and what differences have you experienced, even though you're applying some of the same algorithms potentially in both areas?
 
@@ -132,7 +132,7 @@ And then the final step is you put it online. Mike Tyson has this saying, someth
 
 **David Sweet:** Everyone has a model until they put it in production, and then things change. So it's this final step of -- with trading it means you go and you trade, and you say "Wow, I made so much money in backtesting. What's going on?" Or with recommender systems - you look like you've made a better prediction of whether someone's gonna retweet, or click Like, or do whatever, and you put it online and it didn't quite pan out the way you thought. Your predictions might not even be as good as they looked in the model offline. That can happen, too.
 
-\[00:20:17.01\] So this final step is experimentation. Either it's A/B testing, or it's some other type of an experimentation method - it's super-important and it's the common final piece in that... And for me, I feel like it's the hardest piece in a lot of ways, because you have the least amount of data to work with... But it's the most satisfying piece, because it's the most accurate. It's the real system. It's not a model, it's not a simulation, it's the real thing. You have this trade-off between the offline stuff -- it can be precise, it's very quick to iterate, but it's got bias... It's got model bias, simulator bias. The live stuff is noisy, but it' accurate, because you're really doing it.
+\[20:17\] So this final step is experimentation. Either it's A/B testing, or it's some other type of an experimentation method - it's super-important and it's the common final piece in that... And for me, I feel like it's the hardest piece in a lot of ways, because you have the least amount of data to work with... But it's the most satisfying piece, because it's the most accurate. It's the real system. It's not a model, it's not a simulation, it's the real thing. You have this trade-off between the offline stuff -- it can be precise, it's very quick to iterate, but it's got bias... It's got model bias, simulator bias. The live stuff is noisy, but it' accurate, because you're really doing it.
 
 So that's what I wanted to write about... And I'm writing in a way that can be read by quantitative traders or ML engineers.
 
@@ -156,7 +156,7 @@ But you might also call that experimental optimization. So you optimize these pa
 
 **David Sweet:** Sure. So an A/B test is the engineers' term for medical research you might call randomized control trial, which might be a phrase more familiar with people in these pandemic days. The idea is you have some way of doing things; let's say you have some way of recommending new posts to somebody on Twitter, ranking the posts, and you have some system that does this. You come up with an idea to make this system better, and so A is what you'll call the original system, and B is what you'll call the system with your change applied to it.
 
-\[00:24:04.22\] So you've got two systems slightly different, and you go and you run them live and you see how the audience or the users respond to these two system. You have usually some kind of business metric, like "How long does the person spend on Twitter? How long do people spend on Twitter using version A, and how long do they spend on Twitter using version B?" and you wanna compare and you wanna see that they spend more time. Or maybe you wanna see that they spend less time in this day and age... But typically, in a business you'd want more attention from users.
+\[24:04\] So you've got two systems slightly different, and you go and you run them live and you see how the audience or the users respond to these two system. You have usually some kind of business metric, like "How long does the person spend on Twitter? How long do people spend on Twitter using version A, and how long do they spend on Twitter using version B?" and you wanna compare and you wanna see that they spend more time. Or maybe you wanna see that they spend less time in this day and age... But typically, in a business you'd want more attention from users.
 
 **Daniel Whitenack:** Yeah. And I guess in terms of how this intersects with the AI/ML community - A/B testing could be something, like you were talking about, that can be done outside of just changing a user interface, or testing a drug, or something like that... But in terms of the AI/ML space, I think something people don't often maybe think about is "I have this model, I deploy it, and now I wanna work on version two of the model, but how do I actually know that that model is gonna perform better? Other than on a test set that I already have, how do I know that that model is gonna perform better?" Do you use A/B tests for those sorts of scenarios?
 
@@ -176,7 +176,7 @@ So in prediction, that's what you would do offline via supervised learning, a cl
 
 **Daniel Whitenack:** Yeah.
 
-**David Sweet:** \[00:28:04.27\] It's my understanding that at the larger companies this is the standard practice - everything gets tested into production. Typically, things don't just get put into production on a whim, or based on domain knowledge, or just based on the offline results; there are really experiments.
+**David Sweet:** \[28:04\] It's my understanding that at the larger companies this is the standard practice - everything gets tested into production. Typically, things don't just get put into production on a whim, or based on domain knowledge, or just based on the offline results; there are really experiments.
 
 Now, at the bigger companies there's lots of money at stake, so revenue can be high, so a small percentage change up or down can be dollar-significant. Or engagement or time spent can be high, so a small change up or down can be significant. So these things are all tested, the way I understand it.
 
@@ -184,7 +184,7 @@ I think it's less common these days, but not totally uncommon for people to have
 
 I've done sort of an informal survey over the past ten years of quant traders, and I always ask them "What fraction of the ideas that you come up with, after you've tested them, actually work and end up in your system as a good idea?" and almost everybody who's had some experience says "One in ten", and shaking their head. \[laughter\] It's just the nature of the beast. With a complex system, things can seem very reasonable, but simply be wrong. There are just too many dimensions, too many factors to keep in the human mind, and you really need to just go and test.
 
-**Break:** \[00:29:40.02\]
+**Break:** \[29:40\]
 
 **Chris Benson:** So I'm kind of curious - as we started to get into some of the techniques, I was looking through your table of contents on your book, and you have all of these techniques, most of which I'm not familiar with... And I was wondering if you could take a moment and kind of tell us briefly what each is, and what that relationship is between those, so that I'll understand... I'm super-interested, especially when I see things like multi-armed bandits, and stuff.
 
@@ -194,7 +194,7 @@ What response surface methodology does is it focused in the experimentation tech
 
 So we can bounce back and forth and there's no guarantee that you'll ever find the single optimum for both. So if you do them together, you can get the right answer. So the response surface literally means a picture of the function, the surface of the function of your business metric, like revenue let's say, versus those two parameters. So if you imagine a 3D plot with one of those nice-colored or wireframed surfaces, you're looking for the top, the highest peak in that surface. That's what response surface methodology is about.
 
-**Chris Benson:** \[00:32:20.25\] Gotcha. Thank you.
+**Chris Benson:** \[32:20\] Gotcha. Thank you.
 
 **David Sweet:** Yeah, so that limits in you in some sense. A/B testing you could apply to any two choices - should I use red or green? And there's no real surface between red and green that would make -- well, you can do frequencies... But think about this categorical Red, Green, Blue - there's no surface, you plot there. But multi-armed bandits - now, they're interesting. They go back to instead focus on systems where -- again, like A/B testing, you compare any two options. They don't really take advantage of the continuity of a parameter, but you can pick any finite set of values and compare them. But multi-armed bandits - the real change from A/B testing is that you're focusing on maximizing whatever your business metric is. Let's say revenue - you wanna make money while you're running the experiment.
 
@@ -210,7 +210,7 @@ So yeah, that can be complicated -- that process can be complicated by these int
 
 **Daniel Whitenack:** And that, I guess, brings me to my next question, which is typically we think of A/B tests, one thing or the other thing... Do some of these techniques work when you have more than two options? Let's say I have A, B, C, D and E. Or is it better to just always assume you're gonna test one thing at a time?
 
-**David Sweet:** \[00:35:50.10\] As a general rule, it's more efficient statistically to test everything at once... For the same reasons I alluded to with the two knobs, it's possible that moving to the left, your space is good, moving up, your space is good, but moving left and up at the same time is even better. If it's that kind of space you're testing, then you should do the same thing with A/B and test them all at once.
+**David Sweet:** \[35:50\] As a general rule, it's more efficient statistically to test everything at once... For the same reasons I alluded to with the two knobs, it's possible that moving to the left, your space is good, moving up, your space is good, but moving left and up at the same time is even better. If it's that kind of space you're testing, then you should do the same thing with A/B and test them all at once.
 
 The virtue in doing only two things at a time is that your test gets done faster. As you increase the number of things you're testing, the amount of data you need increases. So your test gets done faster, you'll typically have less noise, simply because your patience won't be tried as much. So maybe you'll get the data you need and it'll be easier to make a decision. It's also easier to decide between two things than it is to decide between more than two. So you have to communicate it to your team, or other teams... So there are benefits to doing the simpler thing, for sure. But it's a trade-off.
 
@@ -230,7 +230,7 @@ I suspect Google's got something similar, although I'm not as familiar with it. 
 
 **Chris Benson:** So I guess as we've kind of gone through some of the things you've covered, what are you anticipating going forward? Clearly, from early A/B testing and stuff, as we started the progression, and you've just taken us into Bayesian optimization, what are you thinking of for the future? What are you getting excited about working on or utilizing going forward? Do you have any sense of where the next steps might be, what might go?
 
-**David Sweet:** \[00:40:10.11\] Yes. What I'm most excited about is offline reinforcement learning. So doing reinforcement learning from small amounts of data. And really the key to that is not so much the learning of the controller or the strategy or whatnot, but it's the learning of the simulator itself. That's where the real power is. If I had a learned simulator that I could optimize in five different ways, one of which would be through a reinforcement learning technique like PPO, or something more recent than that... But learning the simulator from a small amount of data, and understanding what results you can trust in production, which ones you can't, and where to go and maybe explore next to get data, to improve the simulator, these kinds of questions - being able to do that well could be super-valuable.
+**David Sweet:** \[40:10\] Yes. What I'm most excited about is offline reinforcement learning. So doing reinforcement learning from small amounts of data. And really the key to that is not so much the learning of the controller or the strategy or whatnot, but it's the learning of the simulator itself. That's where the real power is. If I had a learned simulator that I could optimize in five different ways, one of which would be through a reinforcement learning technique like PPO, or something more recent than that... But learning the simulator from a small amount of data, and understanding what results you can trust in production, which ones you can't, and where to go and maybe explore next to get data, to improve the simulator, these kinds of questions - being able to do that well could be super-valuable.
 
 When you read about these kinds of things, the examples are often from robotics; they can provide a great visual, and you can kind of get data pretty quickly, but there are industrial processes everywhere -- so many things work by optimization of a simulator that I think this is gonna be super-valuable throughout society. I'm very excited about this.
 

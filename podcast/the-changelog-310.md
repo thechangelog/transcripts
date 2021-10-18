@@ -10,7 +10,7 @@
 
 **Jerod Santo:** Very cool. Well, let's back up a moment and let's get the full story. For those coming to this show, not familiar with dev.to and the dev community that you're building over there, you said it started as a little side-project - can you give us a little bit of the back-story of the website and how it came to be?
 
-**Ben Halpern:** \[00:03:47.23\] Yeah, so the whole thing started as a project I wanted to solve developer issues in one way or another, but it was kind of vague, it was just an idea... I started with a Twitter account I called The Practical Dev, and I kind of started growing it little by little, I start by just actually posting programming links and things I found throughout the web, and things I thought people would be interested in... I quickly realized that the more I injected my own voice and my opinions in my tutorial, and my humor and my jokes, the more it caught on, and it really started taking off at that point.
+**Ben Halpern:** \[03:47\] Yeah, so the whole thing started as a project I wanted to solve developer issues in one way or another, but it was kind of vague, it was just an idea... I started with a Twitter account I called The Practical Dev, and I kind of started growing it little by little, I start by just actually posting programming links and things I found throughout the web, and things I thought people would be interested in... I quickly realized that the more I injected my own voice and my opinions in my tutorial, and my humor and my jokes, the more it caught on, and it really started taking off at that point.
 
 The most notable jokes I was telling was the O'Reilly Parody Covers, the book covers... That was the first major chapter in the whole story; everything else was just kind of futzing around. But that wasn't really the end goal per se; I really wanted to create valuable resources, sort of solve some of the problems I was actually making fun of with the O'Reilly covers along the way... The chaos, the bizarre, windy path that is a software development career, the lack of consistency in some of the resources, and frankly the lack of tooling and actual community environments, and stuff like that.
 
@@ -26,7 +26,7 @@ So yeah, that's kind of like the journey on the product itself, the software... 
 
 We had growth, and stuff like that, but it had issues as a business, and that's kind of when I started getting a little distracted. I was still working at that project, but finding a little bit more interest in this other thing from time to time. That's when I happened to meet Jess Lee, who is the first co-founder in this organization.
 
-\[00:08:16.20\] She came to me through a friend, after she had recently graduated from a bootcamp, and she had a really interesting professional background, but was really brand new to coding... She just needed some mentorship, some advice, and I knew her through a childhood friend that she was a mutual friend with, and it really clicked right away; I felt like we got along, she was really easy to work with, and as we kind of started talking about dev.to a little bit more, she really clung to some of the visions, because herself was kind of a newer programmer and also a woman of color who is not necessarily part of some of the in-crowds that I think a lot of software developers really don't notice, because they... You know, they're part of the in-crowd, so they take it for granted that, like, some of these things are pretty straightforward... Even just simple things, like -- there's a lot of insidership in the whole thing. It's very cliquey, and a lot of things happen extremely organically, when really perhaps it should be a little bit more organized... Because the organicness is fun and natural, but it also leads to a lot of unhealthy situations, where a lot of really valuable software developers get alienated or left out, and it's really just a shame.
+\[08:16\] She came to me through a friend, after she had recently graduated from a bootcamp, and she had a really interesting professional background, but was really brand new to coding... She just needed some mentorship, some advice, and I knew her through a childhood friend that she was a mutual friend with, and it really clicked right away; I felt like we got along, she was really easy to work with, and as we kind of started talking about dev.to a little bit more, she really clung to some of the visions, because herself was kind of a newer programmer and also a woman of color who is not necessarily part of some of the in-crowds that I think a lot of software developers really don't notice, because they... You know, they're part of the in-crowd, so they take it for granted that, like, some of these things are pretty straightforward... Even just simple things, like -- there's a lot of insidership in the whole thing. It's very cliquey, and a lot of things happen extremely organically, when really perhaps it should be a little bit more organized... Because the organicness is fun and natural, but it also leads to a lot of unhealthy situations, where a lot of really valuable software developers get alienated or left out, and it's really just a shame.
 
 Her involvement as a friend early on really turned into more like "Okay, this is kind of a real thing." And it was really great, because she's so different from me. I'm extremely abstract, chaotic and disorganized, and she's totally the opposite, and really helped bring order and discipline to the whole thing... Traits I really appreciate in the process and in others, but is really not what I bring to the table.
 
@@ -36,7 +36,7 @@ She and I worked on it for a little while, while I still worked really hard on m
 
 **Ben Halpern:** You know, I always treated it like as a -- you know, worked my butt off, trying to make the project grow, but wasn't so completely certain about all the directions... Like, it seems easy for me to think back linearly at the time, but thinking back to some of my conversations I had, it's very clear I had a lot of vision for the purpose of the project, but not necessarily how it would be organized, and stuff like that.
 
-\[00:12:11.14\] Jess and I just kind of hung out and talked a lot; it really was just like a mentorship role at first, and naturally we just started talking more about dev.to and things we were doing with that... And I kind of tried to downplay things at the time, because I really was super loyal to the people I was working with, and stuff, so I always made sure people knew it was just a side project; that's really how I felt through and through, but it was really impossible to ignore how much momentum the project had. It's hard enough to get your friends and family to use something you're really trying to make succeed...
+\[12:11\] Jess and I just kind of hung out and talked a lot; it really was just like a mentorship role at first, and naturally we just started talking more about dev.to and things we were doing with that... And I kind of tried to downplay things at the time, because I really was super loyal to the people I was working with, and stuff, so I always made sure people knew it was just a side project; that's really how I felt through and through, but it was really impossible to ignore how much momentum the project had. It's hard enough to get your friends and family to use something you're really trying to make succeed...
 
 **Jerod Santo:** \[laughs\] Yes.
 
@@ -52,7 +52,7 @@ So I'd put my heart into this project so much that the last thing I wanted to do
 
 We really have been extremely thoughtful at each step of the way, and I think that's our special super-power - we've given ourselves enough rope to be thoughtful with everything. It's easy once you start a business to be really sprinting the whole time, just trying to pay every bill, to pay all the expenses and stuff, but... Just due to the nature of how this started, the community took so well to everything, at every stage... It really was a reflection of my personal values at every step of the way. It just happened. It reflected on the skills of everyone I was involved with professionally, everyone who was able to come together and help out... Yeah, just timing, and the people involved - really great.
 
-**Adam Stacoviak:** \[00:16:14.27\] If you ask me, something I've always appreciated and noticed has been this Ben Halperism kind of thing in there... This sort of like -- I don't wanna say weird, but just different type of humor that's very clear when you hear it and you see it; your humor is very you, so to speak... I don't know if that's clear to you, Jerod, but that's super-clear to me.
+**Adam Stacoviak:** \[16:14\] If you ask me, something I've always appreciated and noticed has been this Ben Halperism kind of thing in there... This sort of like -- I don't wanna say weird, but just different type of humor that's very clear when you hear it and you see it; your humor is very you, so to speak... I don't know if that's clear to you, Jerod, but that's super-clear to me.
 
 **Jerod Santo:** I agree with you. I would say it's a lot like a good author will inject their voice into their writing, and dev.to very much (from my perspective) has reflected Ben's personality, for a long time. Obviously, then that has other problems, like "Okay, how do we scale this and make it a brand that's equitable and not just Ben Halpern?" and I think you've been doing that along the way... But yeah, I would say that there's a reflection of Ben's personality or humor or geekiness, and that's why people like the Twitter account kind of embedded in the website. Is that something was intentional, or it just happened, or do you even disagree with that sentiment?
 
@@ -62,7 +62,7 @@ Yeah, it's all an effort in like just being careful and nuanced, and not sprinti
 
 **Adam Stacoviak:** It's also clear to me too that the thoughtfulness, not just on what you say and how you say it, or not being boring, as you said, but also what you said before was making sure this should be a business, which I think is a wise move, because sometimes a side project is just fun... And sure, maybe it has some entrepreneurial parts to is, there is maybe some money to be made, but it doesn't have to be a full-fledged everybody-in business. I think that's kind of an interesting line to toe. Can you speak to that a bit, the on either side of that line of like when it was a side project to now it being a business and how that ended up playing out for you?
 
-**Ben Halpern:** \[00:20:03.20\] Oh yeah, I mean... The whole thing was really a lot of clarity for me; I was just better at this than other things I'd done before, but from the get-go, even before I even knew what it was gonna be, I committed to giving this ten years to work...
+**Ben Halpern:** \[20:03\] Oh yeah, I mean... The whole thing was really a lot of clarity for me; I was just better at this than other things I'd done before, but from the get-go, even before I even knew what it was gonna be, I committed to giving this ten years to work...
 
 **Adam Stacoviak:** That's a long time.
 
@@ -82,7 +82,7 @@ He really brings a lot of the need-to-know sort of experience and effort in cert
 
 You've gotta do what works for you, and stuff like that... I'm very thoughtful and careful about the actual business direction, the way we make money, the way we do this and that... But there's a lot of heavy lifting in terms of running a business that thank goodness I have people who are excited about doing that kind of stuff, because that's never been my thing.
 
-**Break:** \[00:23:45.01\]
+**Break:** \[23:45\]
 
 **Adam Stacoviak:** Ben, we're now at a point where it's a business, it's legit... Obviously, you're open-sourcing it today, that's a big deal... But, I mean, Jerod and I have been paying attention to what you've been doing for a long time; we've talked years ago, and have been to some degree involved in what you're doing, but not directly, just more so as a community, not so much as one of the co-founders of course... But now that it's here, I mean, you've culminated quite a community, lots of traffic, lots of fresh articles, we link to you often through our newsletter and our newsfeed and stuff like that, so we're very familiar with what you're doing here. You've done a great job on the community front. What do you think is the secret sauce to building this particular community? Not community in general, but this particular community.
 
@@ -96,7 +96,7 @@ We try to deliver the space for people to find answers to things that are a litt
 
 The platform is really just a generic place where people can write blog posts and engage in a certain type of Reddit discussion, but we as administrators try to really make that happen in just the way software developers need it. Because some of the core insights early on was, like, these things happen, but in really generic ways, and there's no reason we can't do it with a lot of care for the software developer experience.
 
-**Jerod Santo:** \[00:28:00.03\] If you were forced to liken it to something else in terms of describing to somebody who may not know about it, even non-software things, what do you liken dev.to? Is it kind of like Medium, but different because of this...? Is it kind of like Stack Overflow without the rules? What is the best comparison for people who don't know about it?
+**Jerod Santo:** \[28:00\] If you were forced to liken it to something else in terms of describing to somebody who may not know about it, even non-software things, what do you liken dev.to? Is it kind of like Medium, but different because of this...? Is it kind of like Stack Overflow without the rules? What is the best comparison for people who don't know about it?
 
 **Ben Halpern:** The most straight up model (I think) for engaging right away is it's Medium, but more specific for developers. And everything that's different from the platform is really like that, except then we kind of take it in the direction that we give people the opportunity to really build their portfolio out a little bit, show off their GitHub projects... So in that sense it's a bit like LinkedIn, if LinkedIn wasn't full of recruitment spam and just friends from college who added you and you don't really care about their finance links, and stuff like that.
 
@@ -114,7 +114,7 @@ So yeah, Medium for software developers, in a way, but with a lot of little thin
 
 **Jerod Santo:** Well, Reddit took a hard stance for freedom of speech against moderation early on.
 
-**Ben Halpern:** \[00:32:15.01\] Yeah, so we are certainly pro free speech in every way that's practical, but I think some of these other platforms are a little bit naive in terms of human behavior, and especially just how certain classes of people are a little bit more vulnerable - or a lot more vulnerable - than others. This is a shared space and a community effort, but -- so of course we have our code of conduct and our value we sort of profess, but we also really took a serious technical approach to dealing with moderation in what we think is a pretty scalable way, more so than I think a lot of other people are doing it...
+**Ben Halpern:** \[32:15\] Yeah, so we are certainly pro free speech in every way that's practical, but I think some of these other platforms are a little bit naive in terms of human behavior, and especially just how certain classes of people are a little bit more vulnerable - or a lot more vulnerable - than others. This is a shared space and a community effort, but -- so of course we have our code of conduct and our value we sort of profess, but we also really took a serious technical approach to dealing with moderation in what we think is a pretty scalable way, more so than I think a lot of other people are doing it...
 
 In terms of like when people first sign up, there's a -- we purposefully make Sign Up only available to folks with existing social accounts; you don't really need to link anything so deeply to your Twitter or GitHub once you're on, but you actually need to come from one of those places to engage in the first place... Which is a pretty low barrier; I think between Twitter and GitHub most software developers are engaged, and anyone who for any good reason doesn't have either of those accounts, we work with them...
 
@@ -130,7 +130,7 @@ So it's a lot of little things, but we have a technical solution; we have a form
 
 It's always a real shame though when we deal with any kind of harassment; it's almost always like something gets shared to Hacker News or Reddit and there's a big influx of jerks... It's a real shame; it happens from time to time, and we don't try to create a situation where that could never happen, because that's impossible... But we deal with it pretty quickly and we try to ensure that the dialog doesn't get toxic.
 
-\[00:36:02.18\] We really try to be diplomatic with community members who are good, constructive community members most of the time, but then we hear they really weren't respectful, and things like that... We try not to make people feel like they're being policed, but of course, it's getting harder and harder and I do kind of freak out sometimes.
+\[36:02\] We really try to be diplomatic with community members who are good, constructive community members most of the time, but then we hear they really weren't respectful, and things like that... We try not to make people feel like they're being policed, but of course, it's getting harder and harder and I do kind of freak out sometimes.
 
 It saddens me if anyone ever has a bad experience, but at our scale, sometimes people do. The core people really understand that at the very least we're trying harder than the other platforms, and we always have, and that's what's -- \[Alexa voice in the background\] Oh, I'm being--
 
@@ -144,7 +144,7 @@ It saddens me if anyone ever has a bad experience, but at our scale, sometimes p
 
 **Adam Stacoviak:** Alright, bear with us here a second while Ben hacks on some funs stuff... Here's a little interlude from BMC. You're gonna love it.
 
-**Break:** \[00:37:27.11\]
+**Break:** \[37:27\]
 
 **Jerod Santo:** And we are back. We forgot what we were talking about, because... Reasons. This is what happens when people who run websites hop on Skype and talk for a while - things happen. Right, Ben?
 
@@ -172,7 +172,7 @@ I really felt like at every stage, any time, we gave people the opportunity to h
 
 We started talking about it because we were just excited about it, and we're pretty transparent about everything we want to be doing... So if we haven't really talked about it, it's because we're not totally sure what our plan is.
 
-\[00:40:04.11\] But that was a while ago, many months ago, and we didn't really ever create a deadline; we just kept having new things come up, new features we had to build, new things we had to do for the current scale of the project... But we were still just dying to do this, because it just seemed like such an exciting thing to do with the community.
+\[40:04\] But that was a while ago, many months ago, and we didn't really ever create a deadline; we just kept having new things come up, new features we had to build, new things we had to do for the current scale of the project... But we were still just dying to do this, because it just seemed like such an exciting thing to do with the community.
 
 We finally just kind of like realized we were actually getting closer and closer to feeling like we had the capacity to manage that part of the project, which is this whole new thing... There's a lot of benefits to not having to manage a bunch of people, taking part in different ways and stuff like that.
 
@@ -192,7 +192,7 @@ What made you decide to do a security audit? I don't think we did that, Jerod. D
 
 We did not open-source from the very beginning, from the relaunch, but we had had that in mind from the very beginning... So there's a huge difference just in your mindset, even just like subconsciously, I believe, when you know that that's eventually going to happen... So yeah, our security audit was probably just me thinking through everything, and then double-checking and making sure there was nothing super-stupid.
 
-\[00:44:05.29\] And then of course, we've had plenty of people report situations publicly... And publicly meaning through the GitHub issues, and then even privately, stuff they'd found. So our security has improved from it, but like you said, Adam, there's definitely other security holes that it can open up as well.
+\[44:05\] And then of course, we've had plenty of people report situations publicly... And publicly meaning through the GitHub issues, and then even privately, stuff they'd found. So our security has improved from it, but like you said, Adam, there's definitely other security holes that it can open up as well.
 
 Yeah, that's an interesting move, bringing in an outsider to do audits. Ben, can you tell us more about that?
 
@@ -206,7 +206,7 @@ Rails has a lot of convention that we follow pretty well, and we know not to run
 
 It's just a matter of programming, and had we been open source from the get-go - yeah, this is not a process we would have had to spend so much time on, and that's really my big, like "Damn, I wish we were open source right away", because we would have been much cleaner the whole way. You can't really get away with things just in passing, but overall, we got here and I'm always amazed at how successful this whole project has been and how much it impacts people, so... No major regrets, but definitely -- I don't think I would ever closed-source in the future something that didn't have a very good reason for being closed source.
 
-**Break:** \[00:48:02.19\]
+**Break:** \[48:02\]
 
 **Jerod Santo:** Ben, one of the reasons why I asked about that time span, the pre-announcement versus the open-sourcing - I was curious, and my intuition was maybe there was a little bit of accountability there... Like, once you announce a thing, you kind of have to do it, and open-sourcing, since it's not like a feature - although it can be considered one - on your product roadmap, it's the kind of thing that would just continue like "Yes, we're gonna eventually do it", but once you write a blog post and make an announcement, there's this expectation of "It's going to happen." So maybe there was a little bit of that in there, as well.
 
@@ -218,7 +218,7 @@ Yeah, it was about ripping off that Band-Aid, giving a deadline, forcing us to r
 
 But at the same time, we have the proof that we make good stuff. We have a lot of really good ideas, we know what we're doing -- we don't have all the answers, but we have a lot of good ones. That positioning, to be ready to just go do it, is totally what helps us happen.
 
-\[00:52:19.12\] And also, with Rails -- like, I know different programming languages, I've done different kinds of development, different types of web frameworks, or other kinds of programming along the way, but Rails is something I'm pretty comfortable with. I feel like I get it and I know it, and it's also very boring and old, and that's a real feature as far as I'm concerned.
+\[52:19\] And also, with Rails -- like, I know different programming languages, I've done different kinds of development, different types of web frameworks, or other kinds of programming along the way, but Rails is something I'm pretty comfortable with. I feel like I get it and I know it, and it's also very boring and old, and that's a real feature as far as I'm concerned.
 
 Before this project, I was working with a lot of newer technologies, which was kind of exciting, but you find this GitHub issue which is just like the only answer to how you can build this thing, is like hope that this feature ships at some point this year... So yeah, just happy to be using some pretty boring technology.
 
@@ -232,7 +232,7 @@ The interesting thing is that now that we have done this project - and I can't i
 
 And really, I think open source is so magical, and I don't think people work towards the most ambitious things all the time; I think what we're doing is pretty ambitious, and doing it through open source is just remarkably cool. I don't think the world understands all the time just how amazing it is when many software developers get to have a say or contribute their expertise.
 
-\[00:56:15.22\] We're also siloed solving the same problems without talking to one another very much, and the whole thing is just gonna be, at the very least, a fantastic project. And really, when we were justifying open source to ourselves, it's like "If the open source thing doesn't work out for some reason, it will be because we crashed and burned spectacularly, trying something pretty fun", as opposed to being overly concerned about the possible downsides of being out in the open, and with our pants down, and stuff like that.
+\[56:15\] We're also siloed solving the same problems without talking to one another very much, and the whole thing is just gonna be, at the very least, a fantastic project. And really, when we were justifying open source to ourselves, it's like "If the open source thing doesn't work out for some reason, it will be because we crashed and burned spectacularly, trying something pretty fun", as opposed to being overly concerned about the possible downsides of being out in the open, and with our pants down, and stuff like that.
 
 We don't want to expose our user base to any danger or anything like that, but as far as the business goes, if we put ourselves out there as maintainers of a really cool, big open source project, our worst-case scenario is a spectacular failure, as opposed to petering off and not amounting to anything really notable or awesome. It's easy to justify even the worst-case scenario that way.
 

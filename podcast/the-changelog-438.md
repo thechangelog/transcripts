@@ -2,7 +2,7 @@
 
 **Mikeal Rogers:** Yeah, they're awesome. They're non-fungible tokens. \[laughter\] If you want an explanation larger than an SNL sketch, we can definitely get into it. But yeah, the idea is pretty simple - you have these digital assets, digital things on the internet, and you wanna have some notion of like "Okay, who owns that digital asset? Can we trade it around? Can we buy it?" And what it means to own it and what it means to be the token is all nebulous, and I think that we could definitely get into that... But just foundationally, I think that you have to put yourself in this new headspace of a decentralized web, and this new decentralized web movement.
 
-\[00:04:11.06\] It kind of comes back to something that Tim Berners Lee has been saying since the late '90s, which is that the web doesn't have a data layer. We've got a presentation layer, we can link between applications and their views, but we don't have a data layer. And they tried to do Semantic Web, which didn't really work out, but now we're actually seeing decentralized networks that are on the internet, that we can kind of leverage as part of the web, and they have a lot of web-like characteristics to them... And now we're piecing together effectively this new data layer of a decentralized web. So you can make a web application just like you do today, but the backend data for that is not in Facebook or in Twitter or Instagram; it's not locked up that way. You're actually publishing data and building applications that work with data that is in public databases. Blockchains are effectively those public databases, along with networks like IPFS for doing the rest of the data delivery.
+\[04:11\] It kind of comes back to something that Tim Berners Lee has been saying since the late '90s, which is that the web doesn't have a data layer. We've got a presentation layer, we can link between applications and their views, but we don't have a data layer. And they tried to do Semantic Web, which didn't really work out, but now we're actually seeing decentralized networks that are on the internet, that we can kind of leverage as part of the web, and they have a lot of web-like characteristics to them... And now we're piecing together effectively this new data layer of a decentralized web. So you can make a web application just like you do today, but the backend data for that is not in Facebook or in Twitter or Instagram; it's not locked up that way. You're actually publishing data and building applications that work with data that is in public databases. Blockchains are effectively those public databases, along with networks like IPFS for doing the rest of the data delivery.
 
 So the cool thing about NFTs is not -- you know, people sold one for 68 million, right? I don't have any comment on whether or not that's gonna retain that value of 68 million dollars. That's not my expertise.
 
@@ -24,7 +24,7 @@ I don't know if you're always gonna have a 68-million-dollar image, but I do thi
 
 **Jerod Santo:** Sometimes. Sometimes they're pointing at some server run by a startup who may disappear...
 
-**Mikeal Rogers:** \[00:08:12.24\] We're working on that... \[laughter\]
+**Mikeal Rogers:** \[08:12\] We're working on that... \[laughter\]
 
 **Jerod Santo:** Okay.
 
@@ -52,7 +52,7 @@ What is being produced -- it's really easy to poo-poo what's going on as like a 
 
 **Mikeal Rogers:** Like, what it's good at right now is the allowing anybody to have access, but only one person to have ownership with it. And to really understand what you can do with this as a developer - we wanna speak to developers here - one way to think about this is that there's an asset, and then there's value, and then the dollar amount that people are willing to buy is related to whatever the value is. I think that people look to the dollar value to say what the value is, but there's actually a missing piece here, where our perception of value, what people are willing to pay for something has all kinds of different factors to it. And the more experiences that we create around the notion of owning something - it's going to increase the value of having that thing.
 
-\[00:12:30.15\] And even though there's a scarcity here by having one NFT, you can't think about the value of this being locked up the way that it was in the physical world. The value of some data that I put into Instagram is, to some extent, gatekeeped by Instagram. They're going to capture most of that value, and that's gonna stay within that application experience. And I get a lot of value out of sharing it with my friends and with the people in that medium, but there's not an opportunity for other developers to create additional experiences on that, that add new value to it. They really locked down the API and the things that you can do around it...
+\[12:30\] And even though there's a scarcity here by having one NFT, you can't think about the value of this being locked up the way that it was in the physical world. The value of some data that I put into Instagram is, to some extent, gatekeeped by Instagram. They're going to capture most of that value, and that's gonna stay within that application experience. And I get a lot of value out of sharing it with my friends and with the people in that medium, but there's not an opportunity for other developers to create additional experiences on that, that add new value to it. They really locked down the API and the things that you can do around it...
 
 Whereas on the web -- the value of the web has never been the value of a website. This goes all the way back to the beginning of the web, and when the web was competing against content portals. AOL was better. If your goal was to just get content, AOL was doing a better job. If you liked Oprah, you could put in keyword "oprah", and then you'd get official content from Oprah on AOL. And if you went to do "oprah" on the web, you'd have to go through Yahoo! and then find a directory of a bunch of Oprah fan sites. None of those fan sites could compete with keyword "oprah", but as a network, all of those sites together linking to each other, linking to other content on the web - that network value was much more valuable than what you got in keyword "oprah" on AOL. And this is really what technology and networks are primed to do, is to create these multiplications of value
 
@@ -68,7 +68,7 @@ One thing that we haven't really talked about here is that the Ethereum contract
 
 **Mikeal Rogers:** Whereas you can actually put "Okay, 10% of all future sales are gonna go back to the artist." So as all of these assets are getting more and more popular, that's also giving them continued income as people trade them."
 
-**Jerod Santo:** \[00:15:54.26\] Right. If you can dream it, if you can code it, you can make that ruleset into whatever it is that you're assigning the value to. The reason why I go to the ownership and the gatekeeping and the "put it on my wall in my room" versus have it in a public museum is not to degrade what it is, it's to say "If you're saying that these NFTs and this network is kind of the data layer for decentralized web", that leads me to think "Well, is decentralized web inherently public and accessible to all, or is there any ideas of privacy and security? Can I have my data on the decentralized web that's not accessible by anybody else, or does it have to be this way?"
+**Jerod Santo:** \[15:54\] Right. If you can dream it, if you can code it, you can make that ruleset into whatever it is that you're assigning the value to. The reason why I go to the ownership and the gatekeeping and the "put it on my wall in my room" versus have it in a public museum is not to degrade what it is, it's to say "If you're saying that these NFTs and this network is kind of the data layer for decentralized web", that leads me to think "Well, is decentralized web inherently public and accessible to all, or is there any ideas of privacy and security? Can I have my data on the decentralized web that's not accessible by anybody else, or does it have to be this way?"
 
 **Mikeal Rogers:** Well, one thing that we should all be very, very attuned to nowadays is that if the data is not encrypted, it's not private. It's just waiting to be hacked. So there's a lot of "private" data that's sitting in application databases, not encrypted...
 
@@ -102,7 +102,7 @@ But when you're thinking of other use cases on the decentralized web, like priva
 
 **Adam Stacoviak:** ...and it will mature. The one question I hear though a lot is "What do you actually own?" And I like when you shared a sort of deeper look at what you actually own, where you might have access to future opportunities because of the ownership of an NFT, for example. \[unintelligible 00:19:39.26\] "What do you actually own?" If it's digital, in the Monalisa example, and everybody could still see it, what do you actually own then if you just own this metadata on the decentralized web, for example? It's pretty ephemeral in terms of what you actually own... But I like the idea of how you explained it, that you have possible future access to insider type stuff, which I think is valuable.
 
-\[00:20:04.07\] So you may not really care about the value of that item, but you're willing to pay something for something, if you get something else in the future because of owning that something... You know what I mean? It's like an insider access thing.
+\[20:04\] So you may not really care about the value of that item, but you're willing to pay something for something, if you get something else in the future because of owning that something... You know what I mean? It's like an insider access thing.
 
 **Jerod Santo:** Yeah...
 
@@ -180,7 +180,7 @@ Permissionless innovation is the cornerstone of a lot of big technology movement
 
 One of the things that I've noticed is a lot of the successful art place NFT things happening right now are by -- like, the NBA is doing one, like top shots; they're selling moments, and stuff... Kind of a cool idea, and it seems like it's working out. There's not a bunch of them, but... Is that part of the Ethereum network? Because they could just have their own database, and be like "Well, it's top shots. Buy an NFT", but they don't have to be doing it legit, do they?
 
-**Mikeal Rogers:** \[00:24:02.06\] Well, so that application was built by Dapper Labs, and Dapper Labs has their own chain called Flow... So I believe that all of those assets are on Flow. I haven't validated that, but.. Dapper Labs are the folks that created Crypto Kitties, so they've been in this space a long time; they really know how to build applications. They built Flow kind of for their own use.
+**Mikeal Rogers:** \[24:02\] Well, so that application was built by Dapper Labs, and Dapper Labs has their own chain called Flow... So I believe that all of those assets are on Flow. I haven't validated that, but.. Dapper Labs are the folks that created Crypto Kitties, so they've been in this space a long time; they really know how to build applications. They built Flow kind of for their own use.
 
 This is like a good segue into transaction fees and some of the problems that people have in Ethereum.
 
@@ -212,7 +212,7 @@ Protocol Labs, Juan Benet who started the company - he's always had a lot of vis
 
 **Jerod Santo:** Right.
 
-**Mikeal Rogers:** \[00:28:12.26\] And now what you're seeing is IPFS is being used in all of these chains to talk about the data, because our addresses and our protocol is not tied to a specific chain. It's not even specifically tied to Filecoin, for that matter. You can put stuff in Filecoin and it matches all of our primitives, because we've built both of these technologies, but it's not like -- you can have assets anywhere in the world, mirrored for whatever reason, and available in the IPFS network, and participate. We're not gatekeeping that with one chain, and that's why IPFS has become so popular. We certainly have a vested interested in IPFS, but it's not like we sell it. This is an open protocol.
+**Mikeal Rogers:** \[28:12\] And now what you're seeing is IPFS is being used in all of these chains to talk about the data, because our addresses and our protocol is not tied to a specific chain. It's not even specifically tied to Filecoin, for that matter. You can put stuff in Filecoin and it matches all of our primitives, because we've built both of these technologies, but it's not like -- you can have assets anywhere in the world, mirrored for whatever reason, and available in the IPFS network, and participate. We're not gatekeeping that with one chain, and that's why IPFS has become so popular. We certainly have a vested interested in IPFS, but it's not like we sell it. This is an open protocol.
 
 **Jerod Santo:** Give us the 30-second rundown, for those who don't know what IPFS is.
 
@@ -224,11 +224,11 @@ And what IPFS does is it takes really large files and breaks them up into parts,
 
 And that network functions a lot like that. Then we have up what are called gateways, Cloudflare has a gateway... There's a bunch of different gateways. But gateways are just HTTP endpoints where you can say "Okay, HTTP endpoint /IPFS" and then give it what was in that IPFS URL, and it will pull that data out of the network and work like a CDN basically for the current web. So if you don't have IPFS protocol support in your browser, like most browsers right now, you can just use these gateway URLs. And then we're working to get IPFS native protocol support into browsers. It's in Brave right now... If you wanna just try out what first-class protocol support looks like, you can try out Brave.
 
-**Break:** \[00:30:56.01\]
+**Break:** \[30:56\]
 
 **Jerod Santo:** So you can tell that we're dealing with nascent technologies because I'm a relatively savvy developer and my head's spinning just a little bit, and Mikeal's getting deep into the weeds... Break it down for us - simple terms, developer perspective, how do NFTs work? How would I issue one? ...or I don't even know how you talk about interacting with them, but how do NFTs work?
 
-**Mikeal Rogers:** \[00:32:14.27\] Right. So if you wanna create one, you do what's called minting. To mint an NFT means you take the data, you put it into IPFS... You can use this project that I talked about, NFT.storage, and that'll handle getting all of the data in IPFS, creating the metadata file, getting you what you need to work with an NFT. But then you've gotta pick a blockchain you're gonna use, and what you're gonna do is you're gonna develop a contract around how that NFT is used, and then you're gonna reference that IPFS address for that metadata in that NFT. And then you're going to use the user's wallet. So the user that is minting the NFT, not the developer - this is the user's wallet - will then sign that transaction and put that on the network.
+**Mikeal Rogers:** \[32:14\] Right. So if you wanna create one, you do what's called minting. To mint an NFT means you take the data, you put it into IPFS... You can use this project that I talked about, NFT.storage, and that'll handle getting all of the data in IPFS, creating the metadata file, getting you what you need to work with an NFT. But then you've gotta pick a blockchain you're gonna use, and what you're gonna do is you're gonna develop a contract around how that NFT is used, and then you're gonna reference that IPFS address for that metadata in that NFT. And then you're going to use the user's wallet. So the user that is minting the NFT, not the developer - this is the user's wallet - will then sign that transaction and put that on the network.
 
 We can link to an example of how this all works, actually. That's probably a little bit better. There's a blog post about this little project called Minty, that we wrote at Protocol Labs, that does some minting. If you're pulling apart these different components, there's parts of this that are on the developer, and parts that are on the user; so the user has to have a wallet around, and there's different ways that different applications have approached having that wallet. There's a project called Metamask, which is a very popular wallet for Ethereum... You can use Ethereum wallets on a lot of other chains as well. It's a public-private key. But Metamask is really nice in that that stays in secure storage on people's devices. It's never shared with the application. So there's no man in the middle stuff, there's no custody issues. It's always the user's address. That's a really great one.
 
@@ -256,7 +256,7 @@ But a lot of these projects that are getting people to set up Metamask, getting 
 
 **Jerod Santo:** Okay, so there's the speculation, because I have to actually pay a fee in order to mint that, because there has to be entry onto Ethereum. But it doesn't have to go onto Ethereum, because it could be a different blockchain, plus I could go on one of these sidechains, so maybe I can get it cheaper, is what you're saying...
 
-**Mikeal Rogers:** \[00:36:21.17\] Yup, yup. But when you're working on a sidechain right now, you may not be involved in some of the other auction sites. So right now there's a bunch of auction sites that are all showing you available -- or not even... I should say just sales sites, that are showing you different NFTs that are potentially available to purchase. And those sites are all working on the same database. They may have some information on top of that, like they may have some private information that they got from that user about what they might be considering selling it at, or something like that...
+**Mikeal Rogers:** \[36:21\] Yup, yup. But when you're working on a sidechain right now, you may not be involved in some of the other auction sites. So right now there's a bunch of auction sites that are all showing you available -- or not even... I should say just sales sites, that are showing you different NFTs that are potentially available to purchase. And those sites are all working on the same database. They may have some information on top of that, like they may have some private information that they got from that user about what they might be considering selling it at, or something like that...
 
 For the most part, this is an open network, and all of these little application features, like having a waitlist of people that might say that they would pay a certain amount - eventually, all of that will also make it on-chain as well. All of these little pieces of information can be put into the chain over time, as long as we figure out the right protocol.
 
@@ -306,7 +306,7 @@ So yeah, so you have a --
 
 **Mikeal Rogers:** And then you've got new people creating things in your game, and you're leveraging this existing game.
 
-**Adam Stacoviak:** \[00:39:59.16\] Derivates, yeah. Authenticated derivatives.
+**Adam Stacoviak:** \[39:59\] Derivates, yeah. Authenticated derivatives.
 
 **Mikeal Rogers:** Exactly. So now we're building networks of value, and the value of the asset is not just tied to one game. It's all the games that I could ever use it in.
 
@@ -356,7 +356,7 @@ So yeah, so you have a --
 
 So the enforcement of uniqueness is not really happening at the chain level, it's happening at like a reputational level on top of the chain. This is all in a public database somewhere, and I as the artist notice that "Oh, there's a bunch of forgeries in my thing out there", we will have an open reputation system where they can say "Here are all the forgeries." And now everybody who's building applications around it will note that the forgeries are not the real thing. But that's not enforced on chain.
 
-\[00:44:08.09\] What can be enforced on chain though is if people transfer this asset for money, if they say "I'm selling it to you for this amount of Ethereum", then percentages of that fee, of that cost can go to different wallets that were preconfigured into that.
+\[44:08\] What can be enforced on chain though is if people transfer this asset for money, if they say "I'm selling it to you for this amount of Ethereum", then percentages of that fee, of that cost can go to different wallets that were preconfigured into that.
 
 **Adam Stacoviak:** Okay. You've gotta bake it into the process. Wherever I sell it, 10% comes back to me as the owner, because hey, I wanna have royalties.
 
@@ -398,7 +398,7 @@ You can take all of these different pieces of metadata and think about -- shove 
 
 **Adam Stacoviak:** And I guess the interesting part is you can -- because it's metadata in a database, you can pay attention to it and trigger things, and things can happen because something else happens, or thresholds are met, or whatever. You can really programmatically exchange and pay attention to the digital world in the future.
 
-**Mikeal Rogers:** \[00:47:53.18\] And because all of these are protocols, and because they're all cryptographically secure, there are new things that we could do that we weren't able to do before around securitizing them. You can literally do something like create a sort of decentralized autonomous organization (DAO), and say "Okay, this DAO is going to get this amount of money from these people to buy these NFTs, and then it's going to sell them on this particular cycle, and then that money is gonna come back to those people." And you can even wire up decentralized finance into these systems. So people can trade assets related to the entire lifecycle.
+**Mikeal Rogers:** \[47:53\] And because all of these are protocols, and because they're all cryptographically secure, there are new things that we could do that we weren't able to do before around securitizing them. You can literally do something like create a sort of decentralized autonomous organization (DAO), and say "Okay, this DAO is going to get this amount of money from these people to buy these NFTs, and then it's going to sell them on this particular cycle, and then that money is gonna come back to those people." And you can even wire up decentralized finance into these systems. So people can trade assets related to the entire lifecycle.
 
 **Adam Stacoviak:** This is super-complex. It can get really deep. I mean, I'm fine, keep going, but I'm just commenting that it can be really entangled.
 
@@ -460,7 +460,7 @@ Part of it is because it's easy money right now, but also, there's no skepticism
 
 **Jerod Santo:** Exactly.
 
-**Mikeal Rogers:** \[00:51:55.08\] I think that it's even bigger though when you're looking at artists and content creators... Because what they do already is create content. And it has been so difficult to figure out what the monetization model is for that content... And we've seen a lot of companies try to show up and be the right intermediary for that. And some of them have done a really good job and are quite good. I really like Substack, and I think they've done a lot for those writers, and stuff... But you can't make money on Spotify unless you're like the biggest artists in the world.
+**Mikeal Rogers:** \[51:55\] I think that it's even bigger though when you're looking at artists and content creators... Because what they do already is create content. And it has been so difficult to figure out what the monetization model is for that content... And we've seen a lot of companies try to show up and be the right intermediary for that. And some of them have done a really good job and are quite good. I really like Substack, and I think they've done a lot for those writers, and stuff... But you can't make money on Spotify unless you're like the biggest artists in the world.
 
 A lot of the way in which we do media now - you can't sell the actual digital production. The thing that you create digitally isn't something that you can actually derive a lot of money to you... And most of the value is actually captured by intermediaries. So this is really a sort of new, amazing thing for artists, where they can create something and they can have direct relationships with their fans who want to buy it and own it, and they can continue to create value and experiences around owning that over time. And everybody can participate in that. It's easy for them to go like "Okay, great. I'm creating stuff. I'll create more stuff. I'll create stuff that's an NFT."
 
@@ -482,13 +482,13 @@ A lot of the way in which we do media now - you can't sell the actual digital pr
 
 **Jerod Santo:** I'm sure that exists... Yeah, consulting. Of course, Consulting services. Someone's offered them.
 
-**Break:** \[00:54:01.02\]
+**Break:** \[54:01\]
 
 **Mikeal Rogers:** I mean, honestly, this whole space is really gonna blow up. This is Web3. This is what we're talking about. And Web3 - everybody's been talking about like "When is it gonna hit? When is the killer app gonna happen? When is the moment going to happen?" And I think this is really it. You're seeing a huge amount of adoption and a huge amount of new applications being created. And regardless of what happens with the NFT craze as a thing or as a buzzword, all of the development tools and practices and understanding of how to work with these things and how to build these experiences - that experience is just going to accumulate with the people that are early. And those tools are just gonna continue to set the standard for what people are doing in the future around Web3 and de-apps.
 
 So even though it is early and it could crash again for a little bit, I think the technology and the tooling and the knowledge that you get by being there early is really invaluable. I really encourage people to come into this space.
 
-**Jerod Santo:** \[00:56:16.28\] Well, like I said, we've been covering Ethereum for years, and Bitcoin a little bit, with Bisq, the decentralized exchange; we've been tracking these things... And the technology has always been very fascinating, and it's always been a bit inscrutable and hard to wrap your head around, and I've always been saying, regular people aren't gonna use this; something has to draw you in, because it's too hard yet. And it's getting easier and easier.
+**Jerod Santo:** \[56:16\] Well, like I said, we've been covering Ethereum for years, and Bitcoin a little bit, with Bisq, the decentralized exchange; we've been tracking these things... And the technology has always been very fascinating, and it's always been a bit inscrutable and hard to wrap your head around, and I've always been saying, regular people aren't gonna use this; something has to draw you in, because it's too hard yet. And it's getting easier and easier.
 
 The market cycles have happened. I've been along for the ride, watching it. The waves, they crash... But that whole time, the community - they just keep on developing, they just keep on coding, they keep on improving... And it's gotten better and better and better, to the point where like "Okay, it's starting to get pretty compelling. This use case - it's a new thing. It's different, and it's compelling. I mean, people are doing it. And there's gold in the hills, and now also artists have some sovereignty over their creations, which is new... And they're gonna go ahead and collect some value; they've been putting all this value into the world; they're gonna start collecting some...
 

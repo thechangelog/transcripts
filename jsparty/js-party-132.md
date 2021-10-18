@@ -18,7 +18,7 @@
 
 **Feross Aboukhadijeh:** Yeah. Actually, still to this day, if you search "Samy is my hero", you'll actually find random -- because MySpace is still around, by the way, in case you didn't realize. I actually went and logged into my old profile. There's still some random pictures from middle school Feross or high school Feross on there. But yeah, you'll still find people's profiles that say "Samy is my hero", because even after all of the aftermath of this, they never managed to fully clean up that string from their database.
 
-\[00:04:11.04\] Let me just share some of the bits from his story. "Anyone who viewed my profile who wasn't already on my friends list would inadvertently add me as a friend, without their permission... And I can propagate the program to their profile, can't I? If someone views my profile and gets this program added to their profile, that means anyone who views their profile also adds me as a friend, and hero. And then anyone who hits those people's profiles add me as a friend and hero, and so on."
+\[04:11\] Let me just share some of the bits from his story. "Anyone who viewed my profile who wasn't already on my friends list would inadvertently add me as a friend, without their permission... And I can propagate the program to their profile, can't I? If someone views my profile and gets this program added to their profile, that means anyone who views their profile also adds me as a friend, and hero. And then anyone who hits those people's profiles add me as a friend and hero, and so on."
 
 So as you can see here, it's gonna probably not end well. So he started with 73 friends, and that's when he released it. An hour later he had received one friend request. So somebody viewed his profile and got this code running on their browser and it caused them to friend him. So not too impressive so far.
 
@@ -48,7 +48,7 @@ Okay, five hours after that he goes to his profile again, kind of hesitantly at 
 
 **Feross Aboukhadijeh:** Yeah, I don't think they wanted you to type scripts in... I'm pretty sure they tried to stop scripts... But the CSS and all the other customization - I agree. I remember those days, it was really cool. You could try to make your profile stand out, and people learned HTML and CSS in order to make their profile cool. It was a real reason to learn to code. I remember that.
 
-\[00:07:53.09\] Then what happened though - so the story continues, actually... So an hour after he hits a million friends, he actually realizes that -- a friend contacts him and says "Hey, I can't actually see my profile anymore, or anyone else's profile, or anything. The site seems to be broken." Messages start appearing on other websites, where people are talking about how MySpace is now down for maintenance. Everyone at MySpace is working on getting the site back up... Now he's like "Oh, snap! Should I drive to their office and apologize to them? I think I broke the website." \[laughter\]
+\[07:53\] Then what happened though - so the story continues, actually... So an hour after he hits a million friends, he actually realizes that -- a friend contacts him and says "Hey, I can't actually see my profile anymore, or anyone else's profile, or anything. The site seems to be broken." Messages start appearing on other websites, where people are talking about how MySpace is now down for maintenance. Everyone at MySpace is working on getting the site back up... Now he's like "Oh, snap! Should I drive to their office and apologize to them? I think I broke the website." \[laughter\]
 
 Two or three hours after that the site seems to be back up, but all the code is gone... But the string "Samy is my hero" is still on everyone's profiles.
 
@@ -78,7 +78,7 @@ And the browser has no idea that that text came from the user, because when a se
 
 **Nick Nisi:** I was specifically taking a computer security class... I made a page that I was using cross-site scripting to inject code into the page, and basically what it was doing was it was assuming that you were going to visit this page while you were logged into Facebook. And so it would actually load Facebook in an iFrame, and then it would use JavaScript to keep that iFrame always under your mouse, just once, so that you click it and it was specifically clicking in that iFrame on the Add Friend request, to add me as a friend on Facebook, back when I had a Facebook account.
 
-\[00:12:08.02\] So it would do that, and then you click, it adds the friend and then the iFrame disappears, and then you can click normal. So at most you just have one erroneous click that you think "Oh, it didn't register for some reason", and you click again and then everything works. And it was for a small site... People who were in that class visited it, but it wasn't open to the wider world; it wasn't like a MySpace, where I would have taken down the internet with that, or anything. It was just a couple of people in the class that clicked it... But it's kind of using that, plus - I think hovering the iFrame under there is called clickjacking, so it was using those two combined to exploit that and add me as a friend.
+\[12:08\] So it would do that, and then you click, it adds the friend and then the iFrame disappears, and then you can click normal. So at most you just have one erroneous click that you think "Oh, it didn't register for some reason", and you click again and then everything works. And it was for a small site... People who were in that class visited it, but it wasn't open to the wider world; it wasn't like a MySpace, where I would have taken down the internet with that, or anything. It was just a couple of people in the class that clicked it... But it's kind of using that, plus - I think hovering the iFrame under there is called clickjacking, so it was using those two combined to exploit that and add me as a friend.
 
 **Feross Aboukhadijeh:** That's super-cool. So it was literally an iFrame of the Facebook site, and then no matter where you moved your mouse, you made it so that if they clicked it would click the button you wanted.
 
@@ -126,7 +126,7 @@ Okay, next question - is site A allowed to embed site B and modify its contents,
 
 **Divya:** Yeah. My assumption was the same. You're allowing it to load content, but nothing else. So you just pull content, and not running scripts, or anything like that.
 
-**Feross Aboukhadijeh:** \[00:16:16.16\] Totally, yeah. So you can't actually reach into the page's DOM and change it.
+**Feross Aboukhadijeh:** \[16:16\] Totally, yeah. So you can't actually reach into the page's DOM and change it.
 
 **Nick Nisi:** You can though, if it's on the same host and port and everything.
 
@@ -182,11 +182,11 @@ Okay, next one... Can site A embed a script from site B?
 
 **Nick Nisi:** Well, it wouldn't be. It would be cross-origin, which - you can do that, but it's opt-in. But then there's also -- JSONP is the way I was thinking about getting around that... But site B has to opt into that, because they have to understand the JSONP request, right? So... No, you can't.
 
-**Feross Aboukhadijeh:** \[00:19:49.12\] Right, yeah. So it's "No, you can't." The way to think about this one is just imagine - if I could make a request to Gmail.com/emails.json, and that's gonna return me all the emails in my inbox. It wouldn't be good if another site could make that request, and then read your emails out. So that's gonna be blocked.
+**Feross Aboukhadijeh:** \[19:49\] Right, yeah. So it's "No, you can't." The way to think about this one is just imagine - if I could make a request to Gmail.com/emails.json, and that's gonna return me all the emails in my inbox. It wouldn't be good if another site could make that request, and then read your emails out. So that's gonna be blocked.
 
 So yeah, I think -- it's all very confusing about what's allowed and what's not, and it seems like people just sort of figure this out as they use the web more and more. But when we come back after the break, I'll try to explain a little bit about the underlying principles about why are certain things allowed and why are certain things not allowed, and try to make some intuitive sense of it for everybody. So we'll be back after a quick break.
 
-**Break:** \[00:20:36.21\]
+**Break:** \[20:36\]
 
 **Feross Aboukhadijeh:** Alright, so welcome back for this next segment. I thought we'd talk a little bit about what is allowed by the browser by default and what is not, and how can we intuitively think about that. How can we have a real intuition about whether something is gonna be allowed or not?
 
@@ -198,7 +198,7 @@ That idea is called ambient authority, because basically ambiently, automaticall
 
 But unfortunately, this enabled a bunch of other bad things that we don't like, like tracking across the web... That's how ads track you, is by giving you cookies. And then also, it enabled a whole bunch of security issues. The security issues come from the fact that if somehow an attacker can get your browser to issue a request to a site that you're logged into, then your browser will helpfully attach your cookies to that request. So even if that request came from an attacker, and the attacker caused your browser to send this request to some site, like your bank, your browser is gonna go ahead and just add those cookies to the request, and then your bank is gonna see this request and think "A-ha. That's my user. I know who that is." The bank is gonna think that you did that request.
 
-\[00:24:04.28\] So it's actually quite dangerous now, and now we have to really worry about the fact that any random site on the internet might cause our browser to make a request to our bank, or to our email provider, and our browser is gonna attach our cookies, and then the provider is gonna think it came from us.
+\[24:04\] So it's actually quite dangerous now, and now we have to really worry about the fact that any random site on the internet might cause our browser to make a request to our bank, or to our email provider, and our browser is gonna attach our cookies, and then the provider is gonna think it came from us.
 
 If you think about it, that's kind of what happened in Nick's attack, where Facebook had no idea that this friend request was coming from an invisible iFrame that tricked the user... And in the Samy case, the request to add him as a friend came from some JavaScript code that Samy wrote, and again, MySpace had no way to know that it was coming from there.
 
@@ -232,7 +232,7 @@ So there's a few ways to try and stop this, and we mentioned one of them already
 
 **Feross Aboukhadijeh:** Yeah, so that's where you actually would set this option. When you send the set cookie header to the browser, that's when the browser says "Oh, the server wants me to add a cookie", and then in there you can add a little option called HttpOnly. That's really useful to do, and it's really highly recommended to do for all of your cookies.
 
-\[00:27:58.15\] The browser is gonna do its thing, where it sends the cookies to the server with every request, automatically... But it also does this other thing where you can access the cookies from JavaScript. So if you've ever used document.cookie to see the cookies that are in your browser, to set the cookie as an HttpOnly cookie, that means it's not accessible to JavaScript. It's only sent over HTTP to the server, and that's done by the browser.
+\[27:58\] The browser is gonna do its thing, where it sends the cookies to the server with every request, automatically... But it also does this other thing where you can access the cookies from JavaScript. So if you've ever used document.cookie to see the cookies that are in your browser, to set the cookie as an HttpOnly cookie, that means it's not accessible to JavaScript. It's only sent over HTTP to the server, and that's done by the browser.
 
 So as far as your JavaScript is concerned, that cookie doesn't exist. It's invisible. That's pretty useful for XSS, because if you think about it, now the attacker's code is running in your site, but there's no way they can see the user's cookie. So it's still kind of bad, they can still do a lot of destruction by doing stuff as the user, but they can't steal the cookie and then use it later.
 
@@ -264,7 +264,7 @@ This is a thing called Content Security Policy (CSP), and I have to apologize in
 
 Basically, it's a way that you can tell the browser - using an HTTP header, you can say "Hey, my JavaScript on my site will never do these things. So please, if you ever see it trying to do these things, then block it." So you can sort of upfront just say "Hey, there should never be code on my site that's gonna talk to any of these other domains." You could say "My site only talks to the GitHub API and to this other API (maybe Google Analytics, or whatever) and no one else." So if some attacker includes some code in your page and you happen to get attacked in this way, the attacker's code won't be able to talk to their own server, for example. They would only be able to talk to sites that you specified. So that completely makes their attack way harder... Because now, for example, they can't really exfiltrate the data that they're stealing from your users to their own servers. They're limited to just doing things to the page itself, for example.
 
-\[00:31:56.04\] And there's a whole bunch of different things you can do. It's not just about what servers your site can talk to, it's also things like -- you can say "My site doesn't use Flash, so just don't allow Flash embeds. If anyone is doing Flash, just don't allow it. It's a mistake." You can say "Don't allow media elements. There's no audio on my site. I don't wanna allow that entire feature, basically." Or you can say "I don't do in-line JavaScript, so I don't have in-line script tags. We only have external script tags", so now an attacker can't sneak a little in-line bit of code there onto your site. That's what CSP is all about.
+\[31:56\] And there's a whole bunch of different things you can do. It's not just about what servers your site can talk to, it's also things like -- you can say "My site doesn't use Flash, so just don't allow Flash embeds. If anyone is doing Flash, just don't allow it. It's a mistake." You can say "Don't allow media elements. There's no audio on my site. I don't wanna allow that entire feature, basically." Or you can say "I don't do in-line JavaScript, so I don't have in-line script tags. We only have external script tags", so now an attacker can't sneak a little in-line bit of code there onto your site. That's what CSP is all about.
 
 And then the other place you might have seen it is Chrome extensions. Chrome extensions actually force you to not include in-line JavaScript, and they do that with the CSP. So they say "You're gonna build your code this way, because we think it's safer", and they actually enforce it on your extension using this CSP stuff.
 
@@ -298,7 +298,7 @@ And then the other place you might have seen it is Chrome extensions. Chrome ext
 
 **Divya:** I'm looking at the extensions docs now, and they say that there's a way in which you can change the policy. Obviously, you can't do everything, but I think in your manifest.json you can add content security policy as one of the attributes, and then add whatever you want to add to it... So I think unsafe-inline is one, whatever else you want it to say, which is like "Make sure that this is a thing you can do." I think unsafe-eval is also another one. I don't know the extent in which you can do that though. I think it has to be your code though; it can't be like -- yeah...
 
-**Feross Aboukhadijeh:** \[00:36:17.04\] If you add unsafe-inline or unsafe-eval, then you've kind of made the whole CSP not that useful though... Because that's like the main thing you get from it, is that you make it hard to do XSS. But if you allow unsafe in-line or unsafe-eval, you're basically saying that any scripts that end up in the page are just gonna run, so...
+**Feross Aboukhadijeh:** \[36:17\] If you add unsafe-inline or unsafe-eval, then you've kind of made the whole CSP not that useful though... Because that's like the main thing you get from it, is that you make it hard to do XSS. But if you allow unsafe in-line or unsafe-eval, you're basically saying that any scripts that end up in the page are just gonna run, so...
 
 **Divya:** Yeah. I don't know to what extent - if it totally allows you to do anything, or if there are restrictions... I have no idea. I just looked at it...
 
@@ -318,7 +318,7 @@ But the thing that makes it really tricky is that you can have a script that you
 
 So maybe I just wanna say "Look, I trust this Google script. Let it do whatever it wants. Whatever it trusts, I will implicitly trust." And you can do that by saying basically this keyword called "strict-dynamic", and with that you can say -- the way it works is rather than enumerating all the domains that you're gonna load stuff from, you can use this thing called a nonce. In your HTTP response you say "I'm gonna just add this random thing called a nonce", which is just a random string of numbers and letters that's unique for every request, and then that tells the browser "Anytime there's a script tag, and that script tag says "nonce= " and it's that same nonce, then that means that script tag must have been generated by the server, and not by an attacker. Does that make sense?
 
-\[00:40:09.21\] Basically, the server makes up this nonce thing, and it tells the browser that in the HTTP header, and then it says "Now I'm sending you a page of all these script tags and different things, and all the script tags that the server definitely meant to put there are gonna have that same nonce set. But if an attacker managed to get their script tag into the page, there's no way the attacker could know what the nonce was, because the nonce was only in an HTTP header, and the attacker has no way of seeing that, because it's different for every request."
+\[40:09\] Basically, the server makes up this nonce thing, and it tells the browser that in the HTTP header, and then it says "Now I'm sending you a page of all these script tags and different things, and all the script tags that the server definitely meant to put there are gonna have that same nonce set. But if an attacker managed to get their script tag into the page, there's no way the attacker could know what the nonce was, because the nonce was only in an HTTP header, and the attacker has no way of seeing that, because it's different for every request."
 
 **Divya:** That's cool. I did not know about that.
 
@@ -332,7 +332,7 @@ The other thing I've seen a lot of sites do wrong when they're trying to deploy 
 
 **Feross Aboukhadijeh:** Yeah, that's a whole other story though...
 
-**Break:** \[00:41:37.12\]
+**Break:** \[41:37\]
 
 **Feross Aboukhadijeh:** Now we're gonna do a little segment where we just share a whole smattering of random security things. We're gonna share some security stories, and Divya is actually gonna tell us a little bit about one of her favorite security podcasts.
 
@@ -340,7 +340,7 @@ The other thing I've seen a lot of sites do wrong when they're trying to deploy 
 
 It's really cool, because you get to hear about different things, like security vulnerabilities that you might not have heard of... And just hear the inside story, because it's not just talking about the vulnerability that happened, but it's also the story of the person, the hacker themselves... And I think it humanizes them, because oftentimes when you read stories about things that are hacked... For instance, I read Krebs on Security, Krebs on Security -- he's a journalist, Brian Krebs, and he talks about the vulnerability and sort of the solution; what happened, as well as the resolution... So there's not a lot of focus on the hacker themselves, and oftentimes -- I mean, because he is a security researcher, the hacker is always shed in a poor light... And Darknet Diaries does sort of the opposite, where you empathize with the hacker a little, and you sort of feel bad for them, and you understand where they're coming from, and you hear the back-story of how they started, what made them create a specific bug, and so on... Which I think are really cool.
 
-\[00:44:33.17\] The other thing that -- I mentioned Krebs on Security negatively, but I also read it quite positively... He posts really frequently. I think the one story that I was really hooked on was when he talked about Mirai, which was like a botnet on the IoT stuff... And it was really fascinating just to read about it. I don't do a lot of IoT work, but he covered Mirai quite extensively, as well as talking about who the people were and how they created Mirai, and how Mirai affected a large portion of the U.S. And I think in general, if you read non-security things, Mirai was not talked about. No one knew that this was a thing, but in the security world it was pretty big. I find that really fascinating to read about.
+\[44:33\] The other thing that -- I mentioned Krebs on Security negatively, but I also read it quite positively... He posts really frequently. I think the one story that I was really hooked on was when he talked about Mirai, which was like a botnet on the IoT stuff... And it was really fascinating just to read about it. I don't do a lot of IoT work, but he covered Mirai quite extensively, as well as talking about who the people were and how they created Mirai, and how Mirai affected a large portion of the U.S. And I think in general, if you read non-security things, Mirai was not talked about. No one knew that this was a thing, but in the security world it was pretty big. I find that really fascinating to read about.
 
 And then the other thing also - Feross, you mentioned this earlier - is just vulnerabilities that happen in actual hardware... So because I read a lot of Brian Krebs, I'm paranoid about credit card machines and ATMs; so one of the things I do -- because there's a lot of these skimmers that people add onto the ATM machines, so when you put your ATM card into the card reader, it will skim your number, any of the information on the top... So people who come to take the thing can grab all of your information and basically clear your bank.
 
@@ -378,7 +378,7 @@ Oftentimes they come with a camera as well, so they can read your PIN... So they
 
 **Divya:** How was it?
 
-**Nick Nisi:** \[00:48:04.24\] It was awesome, it was really cool. It's in Las Vegas. I think it was the last year that it was at the Riviera Casino... Anyway, there were some really cool talks there, and two specifically - there was one where a guy wheeled out his own ATM that he bought on Craigslist, and he showed how he inserted a thumb drive into it, and somewhere that you could totally access if you were just coming up to one on the street... Loaded his own version of the firmware, and then had it on stage spitting out this fake money that he had printed, just to show how easy it was to get this ATM to spit out money.
+**Nick Nisi:** \[48:04\] It was awesome, it was really cool. It's in Las Vegas. I think it was the last year that it was at the Riviera Casino... Anyway, there were some really cool talks there, and two specifically - there was one where a guy wheeled out his own ATM that he bought on Craigslist, and he showed how he inserted a thumb drive into it, and somewhere that you could totally access if you were just coming up to one on the street... Loaded his own version of the firmware, and then had it on stage spitting out this fake money that he had printed, just to show how easy it was to get this ATM to spit out money.
 
 **Divya:** Wow...
 
@@ -418,7 +418,7 @@ But yeah, I'm kind of paranoid, too. I'm worried there's gonna be some really te
 
 **Nick Nisi:** Yeah. \[laughs\]
 
-**Feross Aboukhadijeh:** \[00:52:01.26\] Yeah, I guess I can add a DevCon story. I was gonna talk about a security bug, but I'll just share a DevCon story. I was there one year, too... It was really wild to just walk around the different villages they have; there's all kinds of people doing like lock-picking, and hacking voting machines, and just different little things like that. And one of the ones I went to was social engineering, and they had a guy who was up on stage in a phone booth... And I only caught the tail end of it, so I actually don't know the full context of what they were doing, but it was so memorable that I wanna share it anyway, even though I don't know exactly what they were doing.
+**Feross Aboukhadijeh:** \[52:01\] Yeah, I guess I can add a DevCon story. I was gonna talk about a security bug, but I'll just share a DevCon story. I was there one year, too... It was really wild to just walk around the different villages they have; there's all kinds of people doing like lock-picking, and hacking voting machines, and just different little things like that. And one of the ones I went to was social engineering, and they had a guy who was up on stage in a phone booth... And I only caught the tail end of it, so I actually don't know the full context of what they were doing, but it was so memorable that I wanna share it anyway, even though I don't know exactly what they were doing.
 
 I think what they were doing was calling up different companies and trying to social-engineer them live on stage, in front of everybody. I walked in and I saw a guy in a phone booth, the door was shut, so when they were on the phone, nobody on the other end of the phone line could hear the audience laughing and reacting... But we could all hear -- so they were playing the sound from the call out to the whole room, so we could all listen to the guy's conversation.
 
@@ -432,7 +432,7 @@ That's like when you hear about people who have their SIM card swapped out to an
 
 **Feross Aboukhadijeh:** Maybe we should do a whole episode on a future week about all of our security tips for JavaScript and just in general. It might be interesting. But I think we're out of time for this week. I just wanted to say thanks for joining me, Divya and Nick. That's it for JS Party this week, so we'll see you all next week. Have a good one!
 
-**Outro:** \[00:55:06.14\]
+**Outro:** \[55:06\]
 
 **Feross Aboukhadijeh:** Oh, the other thing that's dangerous about hotlinking for images is you can just change to be--
 

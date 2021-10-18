@@ -28,7 +28,7 @@ One really good thing in Node is because you know that the community is doubling
 
 **Paul Frazee:** Right, right.
 
-**Mikeal Rogers:** \[00:03:57.07\] And how many of them are just deploying with Now and they don't even know that that's in a container, right? There's already a lot of services that are like -- the containers are so hidden from you and so pushed down in the stack that you don't even know. Yeah, so that was a bit surprising... That's pretty huge, all things considered.
+**Mikeal Rogers:** \[03:57\] And how many of them are just deploying with Now and they don't even know that that's in a container, right? There's already a lot of services that are like -- the containers are so hidden from you and so pushed down in the stack that you don't even know. Yeah, so that was a bit surprising... That's pretty huge, all things considered.
 
 I'm glad that the Foundation is talking about China a bit more. I tried to talk about this, but China is the fastest-growing section of Node.js users, and probably just developers in the world, to be honest. It's crazy. There are a lot of users in China. There's like over a million Node.js users in China now, which is something like 12% of the entire community. We picked up a bunch of them with the survey, so that was cool.
 
@@ -56,7 +56,7 @@ I'm glad that the Foundation is talking about China a bit more. I tried to talk 
 
 **Mikeal Rogers:** I like the desktop application, mobile and IoT stuff was on here too, because it makes front-end really mean JavaScript front-end. If your front-end is an Electron app, you're gonna click the desktop application box... So that's great.
 
-**Alex Sexton:** \[00:07:55.19\] Mikeal, I know you used to have numbers on downloads, but it still feels like based on what gets downloaded from NPM, that over 50% of all use of NPM is for building front-end tooling, right?
+**Alex Sexton:** \[07:55\] Mikeal, I know you used to have numbers on downloads, but it still feels like based on what gets downloaded from NPM, that over 50% of all use of NPM is for building front-end tooling, right?
 
 **Mikeal Rogers:** Well, the metrics on downloads from NPM are a little bit harder to contextualize than you would think. What you kind of have to do is that you've gotta look at how much these things are depended on, and basically try to filter out what you would expect the number of just things being pulled in as a dep is from what you might call a edge dependency, like something that somebody directly pulls in and uses. Express is like an edge dependency. People don't add it as a dep in a module that they push up very often. And when they do, that module is probably like a full application.
 
@@ -78,7 +78,7 @@ A good example of this is like -- Request is depended on quite a bit, and it's d
 
 **Mikeal Rogers:** No, I actually -- so when the Foundation put out the eight million number of users, I was kind of on my way out of the Foundation, and people really went after it and were very skeptical of it... And I'm really confident in that number. There's a couple reasons for that. One is it's a very good number from NPM that gives you a very good indication of actual users. It's basically like NpmJs.org website impressions, unique users that have engaged over a particular amount... Over I think like a three months span. So it's a very good indication of how many people are engaging with the NPM website.
 
-\[00:11:53.07\] You can even use NPM without using the website, but chances are in a three-month period you're going to engage with it if you're a user... Unless you're in China. And there's a bunch of reasons for that, but before we get into that, we also have metrics on the NodeJS.org website, and because it's localized in so many different languages, it gives you a very good indication of the geographic distribution of Node users. It doesn't give you a great indication of how many users, because you can just user Node.js and never ever touch the Node.js website. There's not really a reason to go there. But it gives you a great distribution.
+\[11:53\] You can even use NPM without using the website, but chances are in a three-month period you're going to engage with it if you're a user... Unless you're in China. And there's a bunch of reasons for that, but before we get into that, we also have metrics on the NodeJS.org website, and because it's localized in so many different languages, it gives you a very good indication of the geographic distribution of Node users. It doesn't give you a great indication of how many users, because you can just user Node.js and never ever touch the Node.js website. There's not really a reason to go there. But it gives you a great distribution.
 
 **Alex Sexton:** Yeah, just docs are on there.
 
@@ -102,7 +102,7 @@ What does the containers number go up to if you take out the build tool only peo
 
 **Mikeal Rogers:** Yeah. It's not the greatest, but it was kind of good enough, and what you saw was that front-end packages had far more people engaging with them than back-end packages, and that their growth was actually a lot higher. NPM - I don't know if they're getting this from their download metrics or if they have a way of determining front-end packages and then they can segment the users on the website, because that would give them a very good indication of how many people are only engaged in front-end stuff.
 
-\[00:16:10.18\] They've said that they estimate that a little over half of Node users are doing front-end stuff. I don't think that they have a great way to figure out if they're only doing front-end stuff, which I think is what you want...
+\[16:10\] They've said that they estimate that a little over half of Node users are doing front-end stuff. I don't think that they have a great way to figure out if they're only doing front-end stuff, which I think is what you want...
 
 **Alex Sexton:** Well, I mean, primarily it would be fine...
 
@@ -122,7 +122,7 @@ But I think outside of enterprise and outside of tech analysts that care about e
 
 I know that there's a lot of weird identity politics about "Node.js is back-end, and we're whatever framework is cool right now", but at the end of the day I think that one of the greatest successes for Node.js is going to be the change that happens in the front-end web, that is facilitated by the platform.
 
-**Paul Frazee:** \[00:20:04.17\] One of the interesting side effects to that is that it's also starting to really dominate my time in Bash... Because you have so many build tools that you're running from the command line that are just Node.js packages, but I'm starting to have a lot of commands showing up that people make, and it's an NPM install. Right now, that's the main way I get new commands to use inside of my command line.
+**Paul Frazee:** \[20:04\] One of the interesting side effects to that is that it's also starting to really dominate my time in Bash... Because you have so many build tools that you're running from the command line that are just Node.js packages, but I'm starting to have a lot of commands showing up that people make, and it's an NPM install. Right now, that's the main way I get new commands to use inside of my command line.
 
 **Alex Sexton:** One benefit is that it's cross-platform.
 
@@ -164,7 +164,7 @@ Anyway, I think one thing, Alex, to point out is that this survey definitely pic
 
 Some of them were quite absurd, though... I remember there was a blog post about how MongoDB is faster than Memcached for writes. The reason is because Memcached has a response when you write, and the protocol for MongoDB didn't have a response for write. You just write it to the socket and you're like "I bet it's stored." Basically, what this metric was testing is how fast can you write write messages to a socket.
 
-**Alex Sexton:** \[00:24:13.11\] UDP versus TCP... \[laughter\]
+**Alex Sexton:** \[24:13\] UDP versus TCP... \[laughter\]
 
 **Paul Frazee:** Yeah, the UDP of databases...
 
@@ -172,13 +172,13 @@ Some of them were quite absurd, though... I remember there was a blog post about
 
 Generally, the benefits it gives are good enough, and we're good enough at keeping it up and we run enough game days to know that when it goes down, we can \[unintelligible 00:25:51.11\] In 3.2 they swapped out the underlying subsystem for something or other, and I think that made a huge difference.
 
-**Break:** \[00:26:09.12\]
+**Break:** \[26:09\]
 
 **Mikeal Rogers:** Alright, so now we're gonna dive into the Beaker Browser. Paul, why don't you give us some history here? I know that you've been working on this for quite a while now, so give us some history of why you started the project, what the mission is, and then we'll get into some of the more recent developments.
 
 **Paul Frazee:** Alright, cool. We started Beaker about a year and a month ago; we actually got started at the Decentralized Web Summit. Right before that, I had spent about two years working on Secure Scuttlebutt with Dominic Tarr. Secure Scuttlebutt is a peer-to-peer social network...
 
-\[00:28:16.02\] So Dominic had come up with this really cool, cryptographic network for exchanging different feeds of JSON, basically. The technology kind of feels like -- it's these logs of data, so it's almost like a Twitter, right? Everybody has their own feed, and they publish these JSON blobs, so we took that and said, "Okay, we could make a little peer-to-peer social network on that, and let's see what happens.
+\[28:16\] So Dominic had come up with this really cool, cryptographic network for exchanging different feeds of JSON, basically. The technology kind of feels like -- it's these logs of data, so it's almost like a Twitter, right? Everybody has their own feed, and they publish these JSON blobs, so we took that and said, "Okay, we could make a little peer-to-peer social network on that, and let's see what happens.
 
 So we got that to work, and we got a little community going, and it was really cool and definitely a great learning experience, but around the time - about a year ago - I was getting to the point where really one of the big goals I had was "How could we make it so other people could build on that tech?" Because the peer-to-peer stuff is really cool, but it's also like "Yeah, we have a peer-to-peer app, but it's not part of a platform, and it doesn't really change the situation that much." We wanna be able to have not just a peer-to-peer Twitter, but also peer-to-peer email, and a peer-to-peer Reddit, and a peer-to-peer whatever. You wanna get away entirely from the services model if you're interested in decentralization.
 
@@ -198,7 +198,7 @@ It took maybe like six months to get a browser UI on top of Electron, get all th
 
 **Mikeal Rogers:** Awesome. You mentioned that there's a bunch of different protocols that people are experimenting with right now... Which ones have you gone down the rabbit hole of supporting and which ones have you kind of solidified at this point?
 
-**Paul Frazee:** \[00:31:40.24\] The three I could speak most authoritatively on would be Dat, Secure Scuttlebutt and IPFS. Dat and IPFS are basically variations on BitTorrent. They're really similar and they're both really solid technologies. I know about the different blockchains, at least like at an arm's distance I could tell you how they work, but I haven't gone too deep into them. I'm kind of waiting for the blockchains phase to stabilize a little bit and maybe get away from the proof-of-work; I'm not a huge fan of proof-of-work. But pretty much the two that I think are the most interesting right now are Dat and IPFS.
+**Paul Frazee:** \[31:40\] The three I could speak most authoritatively on would be Dat, Secure Scuttlebutt and IPFS. Dat and IPFS are basically variations on BitTorrent. They're really similar and they're both really solid technologies. I know about the different blockchains, at least like at an arm's distance I could tell you how they work, but I haven't gone too deep into them. I'm kind of waiting for the blockchains phase to stabilize a little bit and maybe get away from the proof-of-work; I'm not a huge fan of proof-of-work. But pretty much the two that I think are the most interesting right now are Dat and IPFS.
 
 **Mikeal Rogers:** And do you support both of those protocols right now?
 
@@ -220,7 +220,7 @@ The point that we're trying to hit is that it feels just like using tools that w
 
 **Paul Frazee:** \[laughs\] You know, some pretty bad stuff goes down inside season five, I'm gonna say 99% same thing... We had to cover up a lot of scandals while we were working on this thing. \[laughter\]
 
-**Alex Sexton:** \[00:36:11.17\] It's the better internet, right? That's what the current -- whatever. Anyways... I guess we talked a little bit about the what and the how, but in your least tinfoil hat way, explain why someone would be interested in using it.
+**Alex Sexton:** \[36:11\] It's the better internet, right? That's what the current -- whatever. Anyways... I guess we talked a little bit about the what and the how, but in your least tinfoil hat way, explain why someone would be interested in using it.
 
 **Paul Frazee:** Yeah, I think actually you've gotta throw away the tinfoil hat, right? Because the tinfoil hat version would be "It's censorship resistance, so the government can't take you down", or the other one would be -- I mean, there's some interesting things to be said about that, but the main reason that you take these techs and you put them into the browser is that you want to make it do new, cool things. So for Beaker with these peer-to-peer techs, you can create a website off of your computer, and it's just a button inside the browser. You just hit Make Me A New Website and it's gonna allocate a new domain for you, and then you can immediately share the link with somebody and you're done; you've created a whole new website.
 
@@ -234,7 +234,7 @@ So the privacy story is really good, but so is the open source/open architecture
 
 **Paul Frazee:** The key there is that there's no number of people that would start to do that. It's not like there's a civil attack or anything that you could do to take over somebody's website. The way it works is that each website in the Dat network has a key pair, and the public key accesses the address of it. So instead of an IP address, you use a public key address. Then there's a private key, and that private key is controlled by whoever generated the site, and they keep that private key protected.
 
-\[00:39:55.07\] Anytime that they change the site, the sign the update that they push out into the network, so anybody that's looking for a website and wants to make sure that it's an authentic piece of content from that website, they check the signature of that content against the address of the site they try to look up.
+\[39:55\] Anytime that they change the site, the sign the update that they push out into the network, so anybody that's looking for a website and wants to make sure that it's an authentic piece of content from that website, they check the signature of that content against the address of the site they try to look up.
 
 **Alex Sexton:** I see. So the prime thing to know there is that the address is the public key, which means that you can't spoof a different private key... I mean, you could make a totally different website... So how recognizable are -- so if the website is just a public key, what stops me from, say, "Oh, here, go to Paul website" and it's just my website that is an exact copy of yours, but now it's my public key. Is there SSL certs, is there EV? How do we manage the whole identity situations? Ring of trust, that type of stuff.
 
@@ -258,7 +258,7 @@ So the privacy story is really good, but so is the open source/open architecture
 
 **Alex Sexton:** That's Max still, or...?
 
-**Paul Frazee:** \[00:43:55.21\] That's Max Ogden, he runs that, and Mathias Buus is the lead protocol engineer, and you'll know him on the web as "Mafintosh." I think it's the Knight Foundation, Sloan Foundation and maybe others that have funded them.
+**Paul Frazee:** \[43:55\] That's Max Ogden, he runs that, and Mathias Buus is the lead protocol engineer, and you'll know him on the web as "Mafintosh." I think it's the Knight Foundation, Sloan Foundation and maybe others that have funded them.
 
 **Alex Sexton:** The Alfred P. Sloan Foundation? I don't know if that's the same one \[unintelligible 00:44:20.08\]
 
@@ -280,7 +280,7 @@ Hashbase is basically a peer up in the cloud that you can push the files to, and
 
 It's similar to a federation, with the idea that one of the services that does it is just as good as one of the others, for the most part. Hashbase is open source, and we'll probably make variations that are totally compatible with it that are easier to self-deploy. And yeah, it is a service that is being run by somebody else, but you could easily jump off of our version of it and onto some other public peer service, some other super-peer service and nobody would even know, because what this service is offering you is totally in the background. There's no data silo on this thing, it's just a little utility that kind of handles work for you, hidden in the background. We think that's actually really important, because so much of what we're doing is geared towards decentralization, so we wanna make sure that people understand that.
 
-\[00:47:57.28\] The other answer that I have about the centralization aspect is that for my money I think probably where this all leads to is people being able to run service at home, like a little box, a piece of hardware that you can plug in and just forget about, but it'll keep your content online in the same way that a public super peer would, and then you have just a much better privacy store. You can have one of these home pieces of hardware sitting there and doing a search query for you and you wouldn't have to talk to Google for it. So that's the sort of thing that's gonna take some time, because you actually have to get the software put in the right place, and the hardware has to be built, or at least you have to find a good desktop somewhere.
+\[47:57\] The other answer that I have about the centralization aspect is that for my money I think probably where this all leads to is people being able to run service at home, like a little box, a piece of hardware that you can plug in and just forget about, but it'll keep your content online in the same way that a public super peer would, and then you have just a much better privacy store. You can have one of these home pieces of hardware sitting there and doing a search query for you and you wouldn't have to talk to Google for it. So that's the sort of thing that's gonna take some time, because you actually have to get the software put in the right place, and the hardware has to be built, or at least you have to find a good desktop somewhere.
 
 **Alex Sexton:** And everyone puts it behind their 10-year-old Linksys router.
 
@@ -308,7 +308,7 @@ Interestingly enough, the message format implementation inside of it is mine, th
 
 Basically, if you use Commitizen and do these proper commit messages, denoting features or fixes and stuff like that, Semantic Release will just automate the releases entirely. The pushed to NPM and everything will just happen automatically. This is really great when you combine it with a couple other tools. For these new modules that I'm running I have 100% test coverage, and I point cover all that, and I'm using this cool tool called Commitizen, so there's actually like an NPM command to write proper commit messages; using Husky, which is a way to install Git hooks into a project when you're messing around with it locally...
 
-\[00:52:20.24\] So you can kind of verify all this stuff and give people a really easy path to contribute, and then as I'm pulling in patches, I can tell if it's completely tested, and as soon as it lands with these proper commit messages, the entire release process is automated.
+\[52:20\] So you can kind of verify all this stuff and give people a really easy path to contribute, and then as I'm pulling in patches, I can tell if it's completely tested, and as soon as it lands with these proper commit messages, the entire release process is automated.
 
 It's really hard to get to this kind of level of nice tooling automation in existing projects, so it's not gonna help me out with requests any time soon, but I'm really loving it for my new projects... So check out Semantic Release on GitHub. Paul?
 

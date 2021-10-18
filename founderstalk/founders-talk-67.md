@@ -30,7 +30,7 @@
 
 **Lynne Tye:** Love it. Will do.
 
-**Adam Stacoviak:** \[00:04:04.00\] Wisdom. One thing Seth Godin says in that book is if you're in a cul de sac, get out, basically. Because if you're in a cul-de-sac, like you said, if you're going that direction and your business is in a cul-de-sac... Well what is a cul-de-sac? It's a dead end.
+**Adam Stacoviak:** \[04:04\] Wisdom. One thing Seth Godin says in that book is if you're in a cul de sac, get out, basically. Because if you're in a cul-de-sac, like you said, if you're going that direction and your business is in a cul-de-sac... Well what is a cul-de-sac? It's a dead end.
 
 **Lynne Tye:** Exactly. A pretty dead end.
 
@@ -58,7 +58,7 @@ I think the context here is helpful. My older sister and both my parents are als
 
 A year and a half in it got really hard. That was the time when my parents were like "Oh yeah, it's hard. If it was easy, everyone would do it. Just push through. We were there, it was hard. Everyone thinks it's hard."
 
-**Adam Stacoviak:** \[00:08:10.29\] Right. It's true advice.
+**Adam Stacoviak:** \[08:10\] Right. It's true advice.
 
 **Lynne Tye:** Yeah, which is true. For sure. So six months later I was really miserable and I could not pinpoint what it was... It was just mind-blowing to me. And I was also doing pretty well. I think I was the first in my class to pass my qualifying exam; I'd co-authored a paper, I was published already... Things were going really well. So I think it just didn't cross my mind that the thing I was doing well at could have been the source of my misery, and I just thought it could have been anything else. Maybe I miss my friends, maybe I'm homesick... I was dating this guy from college at the time, and I was like "Maybe we should move in together. Maybe we should break up. Are we getting married?" I had no idea where I was.
 
@@ -84,7 +84,7 @@ But yeah, that was one of many different times that I quit something. I had a lo
 
 **Lynne Tye:** A hundred percent. So Key Values helps software engineers find teams that share their values, and it's pretty on-brand with what I'm saying - it's for people who either are currently at a job that they don't love, they're not excited, there's dread every Sunday night thinking about the next day... Or anyone who's looking for a job, trying to just optimized for a life that they'd be excited about, and finding the companies and the teams that would make them happy... And it's usually because of value alignment. It's not because it's a company our grandparents have heard of. It's nice to have the name recognition, but that's definitely not a predictor for quality of life, or anything like that.
 
-\[00:12:11.29\] So yeah, the way it works on Key Values is there's a preset list of 45 values, and I ask companies that I work with to select the eight from that list that best describe their engineering culture. Then of course, the harder part is qualifying it. Not just talking the talk, but walking the walk and proving it... And I think it's really just to help reorder the steps of the interview process and help job seekers or anyone who's interested in joining a team learn about the actual people on that team, before they commit to even a phone call, but usually the exhausting interview process.
+\[12:11\] So yeah, the way it works on Key Values is there's a preset list of 45 values, and I ask companies that I work with to select the eight from that list that best describe their engineering culture. Then of course, the harder part is qualifying it. Not just talking the talk, but walking the walk and proving it... And I think it's really just to help reorder the steps of the interview process and help job seekers or anyone who's interested in joining a team learn about the actual people on that team, before they commit to even a phone call, but usually the exhausting interview process.
 
 And of course, I think it's funny I didn't notice at the time - I still build Key Values with software engineers in mind and for the job seeker, but I feel like my job is actually almost like a coach in some ways; I give a lot of pep talks to both companies and job seekers. I think it can be a pretty soul-sucking process, hiring and interviewing; on both sides, when you're searching for a job.
 
@@ -124,7 +124,7 @@ And of course, I think it's funny I didn't notice at the time - I still build Ke
 
 **Lynne Tye:** Yeah. And it's one of those things -- I think it's two lessons that I've learned... One is never judge a company based on their website. It's still tempting for me sometimes, when I'm rushing, to just get a sense of what a company does... But it's just a horrible way to judge a company, and I know everyone does it.
 
-**Adam Stacoviak:** \[00:16:08.13\] Yeah. I judge people every day by their websites.
+**Adam Stacoviak:** \[16:08\] Yeah. I judge people every day by their websites.
 
 **Lynne Tye:** It's really, really interesting... And especially with early startups -- I wouldn't say it's inversely-related or correlated, but there are definitely companies who focus way too much on making their marketing website look pretty and don't spend trying to find product-market fit, or serving their customers, and it's not like a business that's gonna do necessarily well, and it's definitely no indicator of whether the team likes each other, or jells... That's one thing.
 
@@ -142,7 +142,7 @@ I think it's not good or bad to tie your identity with what you do. If you love 
 
 **Adam Stacoviak:** Well, the thing is the dichotomy between where you're are now, based on what I know of your story, your parents, your sister - so there's definitely some people that you love and trust, that you are being influenced by in positive ways, that were role models to you, and you pursued that direction, but now you're somewhere completely different. It's almost shocking. Not that you don't deserve to be where you're at, obviously, but it's just so starkly different than brain science, or the cognitive sciences, or neurobiology, or anything like that. It's in a whole different world.
 
-**Lynne Tye:** \[00:20:05.02\] It's so different. It's so different. And just as what you were saying before - I actually think there's very little that I can transfer from my scientific research days to now. I mean, I have really great motor control, I can really with precision replicate surgeries on mice... But that's just not useful today; I don't do any of that today.
+**Lynne Tye:** \[20:05\] It's so different. It's so different. And just as what you were saying before - I actually think there's very little that I can transfer from my scientific research days to now. I mean, I have really great motor control, I can really with precision replicate surgeries on mice... But that's just not useful today; I don't do any of that today.
 
 **Adam Stacoviak:** Okay, so maybe I don't know your sciences well enough to know... My assumption was that you were studying the brain, and maybe things around how our minds work, around empathy would be really strong for you.
 
@@ -166,7 +166,7 @@ In some ways, me becoming a founder, which is so -- I never would have guessed t
 
 **Lynne Tye:** Yes, AM.
 
-**Adam Stacoviak:** \[00:23:54.11\] Okay. Because I was like "Okay, bagels..." There you go. Otherwise it might be a salad or something, or cookies. So you have this profound thought that the life you're living isn't the life you really want, for the various reasons you mentioned. At what point did you -- were you depressed for a while? Did you gain some confidence? When did you get this confidence to transform your life and become a software engineer, and do Key Values? What was that path for you?
+**Adam Stacoviak:** \[23:54\] Okay. Because I was like "Okay, bagels..." There you go. Otherwise it might be a salad or something, or cookies. So you have this profound thought that the life you're living isn't the life you really want, for the various reasons you mentioned. At what point did you -- were you depressed for a while? Did you gain some confidence? When did you get this confidence to transform your life and become a software engineer, and do Key Values? What was that path for you?
 
 **Lynne Tye:** Okay, enter long storytelling... \[laughs\] Oh man, it is really cliché... I think what happened was -- as I mentioned, I was so miserable and I didn't know why. I was really unhappy and I didn't know what it was. I guess in some ways I was depressed; I think I'd seem cheerful at the time, because there were things that still made me excited and happy, I just didn't know what was -- something just wasn't right. I had a recipe and I totally swapped out sugar for salt, and I was like "Clearly something is really wrong", but I didn't know what I did.
 
@@ -188,7 +188,7 @@ But yeah, I had nothing lined up, and as a grad student I was making like 30k/ye
 
 **Lynne Tye:** Yeah... So I did that for a while, just to make ends meet. Then these DJs that I met - we kept in touch, and they were like "Hey, you're good with people, you're organized, you're smart, you're excited about this, too... Maybe you should come work with us." They were not just DJs, but they also produced EDM concerts. They would book big arenas, book talent, DJs, the lighting, and then sell tickets. So I did that for a few months. I think I flew to Rhode Island, I've met Steve Aoki, and been to Big Sean concerts... Which was a really cool and fun time, but also at some point I was like "Yeah, I don't know if I wanna just like party for a living..."
 
-\[00:28:16.15\] The novelty wore off real quick. Not to knock that world; I think it's a really interesting one, and I love that it's so people-oriented, but... Yeah, it also couldn't pay me a full salary yet, so there were some other reasons for that.
+\[28:16\] The novelty wore off real quick. Not to knock that world; I think it's a really interesting one, and I love that it's so people-oriented, but... Yeah, it also couldn't pay me a full salary yet, so there were some other reasons for that.
 
 So I quit that, and then I traveled, did the typical soul-searching thing, and then before I learned to code, I actually joined a company called Homejoy. It was an on-demand cleaning company, and I joined fairly early; I wanna say it was like 10-15 people. Not everyone was even a full-time employee at that time... And the reason that I got in touch with Homejoy is after my three months of backpacking in South-East Asia I was just really poor, and one of my friends was like "Oh, do you wanna come over for lunch?", and I was like "Yeah! Free food. Because I literally cannot afford to pay for lunch right now."
 
@@ -210,7 +210,7 @@ My vision for Homejoy in the beginning - and this is foreshadowing for Key Value
 
 So in my mind, Homejoy was helping people find their best cleaner, and of course, in order to scale really big, to be the Uber for home-cleaning - the idea that the CEO and the leadership team had was that it doesn't matter who shows up at your house, you get the exact same clean every single time... And that to me not only seemed impossible, but it just wasn't what I -- my heart was not in that mission... So yeah, I ended up leaving Homejoy... Which ended up probably being good, because nine months later the company folded, or ten months later, or something like that.
 
-\[00:32:13.23\] But at Homejoy, the thing I did appreciate was that I -- so I was an operations manager at Homejoy, and I was managing cleaners. Basically, anyone that got a clean in the Bay Area in the 18 months I was there, I feel like I'm personally responsible for how it went... Whether it went great, or it went kind of bad, in which case I'm sorry... But yeah, I was managing like 150 cleaners at that point also... And bugs would happen...
+\[32:13\] But at Homejoy, the thing I did appreciate was that I -- so I was an operations manager at Homejoy, and I was managing cleaners. Basically, anyone that got a clean in the Bay Area in the 18 months I was there, I feel like I'm personally responsible for how it went... Whether it went great, or it went kind of bad, in which case I'm sorry... But yeah, I was managing like 150 cleaners at that point also... And bugs would happen...
 
 At one point -- I think the best story, the one that I remember the most, was there was a bug, an issue with the cleaning professionals getting their tips, so my phone was blowing up, people were dropping into the office, being like "Where's my money? Where's my tips? You guys are stealing from us?" And I had all the city managers from other cities emailing me, being like "Hey, all my cleaners are blowing my phone up. Can you fix this?" And of course, you have to file a ticket... But I was like, "No, no, no. I can't wait for this." So I ran over to the engineers and I was like "Things are on fire. I'm not leaving here until someone fixes this."
 
@@ -230,7 +230,7 @@ Then I did a bootcamp, quit that... \[laughs\] Learned a little on my own, freel
 
 **Adam Stacoviak:** Right, yeah... The process asks you to invest so much into the process before you even qualify if it's the place you wanna be.
 
-**Lynne Tye:** \[00:35:54.13\] So much...! Yeah. Like, "I don't even know if I'm excited about you yet. I'm not sure if I wanna prove... I'm not exactly standing in line to prove myself to you." So yeah, I ended up building the resource that I wish existed, which is exactly Key Values. I have to say, it's funny, when I first started Key Values, I definitely wanted -- in my mind, I was like "This will replace technical recruiters", because I just had such bad experiences with (let's face it) really incompetent technical recruiters; people who were not technical, people who weren't even employed by the company that I was trying to learn about... They didn't even know anything about the team, or about -- they just didn't know anything; they had no answers for me.
+**Lynne Tye:** \[35:54\] So much...! Yeah. Like, "I don't even know if I'm excited about you yet. I'm not sure if I wanna prove... I'm not exactly standing in line to prove myself to you." So yeah, I ended up building the resource that I wish existed, which is exactly Key Values. I have to say, it's funny, when I first started Key Values, I definitely wanted -- in my mind, I was like "This will replace technical recruiters", because I just had such bad experiences with (let's face it) really incompetent technical recruiters; people who were not technical, people who weren't even employed by the company that I was trying to learn about... They didn't even know anything about the team, or about -- they just didn't know anything; they had no answers for me.
 
 **Adam Stacoviak:** There's a lot of money in the game too, and that's why those people are there, that are really unskilled with the businesses and/or the talent... Because there's a lot of money involved.
 
@@ -252,7 +252,7 @@ And the other side is now I also understand things from the employer's perspecti
 
 All the things that someone wants to say in an interview, especially in that initial call - you don't need to repeat yourself every single time. In the spirit of engineering, which loves efficiency and automation, you really don't need to have a one-on-one spiel that you give to ten different people every day... So put it down in writing, let's have other people -- let's make sure that this is really quality content, that reflects who you are, and then give people the chance to learn about you before you even ask them to jump on the phone, or do an 8-hour take-home task.
 
-**Break:** \[00:38:48.03\]
+**Break:** \[38:48\]
 
 **Adam Stacoviak:** Let's talk about goal-setting, because sometimes goal-setting can be motivation, and a trap. Sometimes you get to a place that you set a goal too, and sometimes you get there easier than you wanted to, or desire to, or you thought you could, and then you're consumed by it. One thing in particular for us here at Changelog is we have this news feed, and I don't know if you know anything about news feeds, but they require feeding... Meaning that you have to keep putting things into the bucket.
 
@@ -282,7 +282,7 @@ I almost wish I was fully motivated by money, because it would be really simple.
 
 **Lynne Tye:** So then it was just like "What's my new goal?" I don't know. Of course, my underlying goal is like "Be happy."
 
-**Adam Stacoviak:** \[00:44:01.08\] So it sounds like you hit your financial goals; you had some certain amount of deals, or a certain kind of placement, a certain financial goal... What if your goal was more focused on not so much just your happiness, but that of the people that you serve? ...rather than a monetary goal. When you exchange value, money exchanges hands, in most cases. And if it doesn't, then it's not usually a good relationship on the long-term; maybe in the short-term. So if you exchange value between you and somebody else, or vice-versa, there's likely in a capitalistic world an exchange of money.
+**Adam Stacoviak:** \[44:01\] So it sounds like you hit your financial goals; you had some certain amount of deals, or a certain kind of placement, a certain financial goal... What if your goal was more focused on not so much just your happiness, but that of the people that you serve? ...rather than a monetary goal. When you exchange value, money exchanges hands, in most cases. And if it doesn't, then it's not usually a good relationship on the long-term; maybe in the short-term. So if you exchange value between you and somebody else, or vice-versa, there's likely in a capitalistic world an exchange of money.
 
 **Lynne Tye:** I mean, I've always wanted to help people. That makes me happy, for sure. But I don't know how -- and this is what's really interesting... I hear all these other founders talk, I see them tweet, I listen to their podcast, I talk to them in person, and a lot of people have this -- they want to make the world a better place, or somethin fluffy like that. They really wanna have the greatest impact, they wanna leave a legacy... And I'm just not genuinely motivated by some of those things. I don't know if this is super -- people say it's optimistic-nihilist, or something, but... If I really wanted to change the world, I probably wouldn't have started Key Values; there's probably a lot bigger problems. Honestly, most startups in tech - you're not really changing lives by selling ads, or getting people to use your phone apps.
 
@@ -310,7 +310,7 @@ So I think in some ways that might change... I don't know if that changes the am
 
 A lot of my founder friends that are hiring - they have this strong belief, and they want people to help them build it, and I want them to help connect... But ultimately, what I want for myself is what I want for everyone in this world - just do you, find out who that is, find your people, whether that's at a company, or family, or friends, or whatever that is; I really just want people to identify what it is that they really care about, and then find people that help them fan that fire, whatever it is...
 
-\[00:48:06.16\] And I'm not gonna judge whether that -- sometimes I talk to software engineers and they're like "Oh, I actually think I wanna leave tech", and I'm like "Okay, yeah, let's talk about that." Thankfully -- I mean, I think you actually asked about this in a side conversation, but with Key Values I don't charge by placement, and very deliberately so. I don't wanna be motivated to just get people hired. So I'm happy to talk to people when they wanna do career changes, or especially if their goal is not to just get hired at a company. I think there's something bigger than Key Values and software engineers and startups that I care about, but it's a nice (and smart, let's be honest), focused way to build a business first.
+\[48:06\] And I'm not gonna judge whether that -- sometimes I talk to software engineers and they're like "Oh, I actually think I wanna leave tech", and I'm like "Okay, yeah, let's talk about that." Thankfully -- I mean, I think you actually asked about this in a side conversation, but with Key Values I don't charge by placement, and very deliberately so. I don't wanna be motivated to just get people hired. So I'm happy to talk to people when they wanna do career changes, or especially if their goal is not to just get hired at a company. I think there's something bigger than Key Values and software engineers and startups that I care about, but it's a nice (and smart, let's be honest), focused way to build a business first.
 
 I don't know, maybe Key Values will expand to something more, but I generally think that success for a business is being focused and niched. I'm not sure what my next goal is, but part of me also wants to be good at celebrating and enjoying. I don't need to be stressed that I'm not having a really ambitious business goal... Which I up until very recently felt self-conscious admitting, because I live in San Francisco, and there's a lot of people who are very, very ambitious, and I sometimes feel nervous that I'm not ambitious enough... Because I don't want to build an empire, take over the world, and build a ten billion dollar company.
 
@@ -340,7 +340,7 @@ We learned about branding, we learned about our story, and Jerod and I became ve
 
 So we had our primary litmus test of what we should do, and something to weigh against. If you don't have that now, then the reason you're in this crisis might be because of that.
 
-**Lynne Tye:** \[00:51:51.12\] I think that's totally right. I think I don't know what my personal goals are; I don't think I know exactly what the business goals are, and I feel the pressure, the same way that I felt in grad school - people projecting their hopes and wants onto me... And I just wanna be very careful that I'm not doing things because -- I just need to be careful that it's not obligation, or I feel like that's what I'm supposed to do because smart people are telling me to do it, versus I really want that.
+**Lynne Tye:** \[51:51\] I think that's totally right. I think I don't know what my personal goals are; I don't think I know exactly what the business goals are, and I feel the pressure, the same way that I felt in grad school - people projecting their hopes and wants onto me... And I just wanna be very careful that I'm not doing things because -- I just need to be careful that it's not obligation, or I feel like that's what I'm supposed to do because smart people are telling me to do it, versus I really want that.
 
 I think this is actually a really good, interesting part, because I work with lots of different startups and I see them at different -- I grow up with some of them. Some of the companies that I onboarded two years ago - I've seen them go from two people to like 50 employees, and it's so cool...
 

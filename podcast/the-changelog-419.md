@@ -8,7 +8,7 @@
 
 **Gerhard Lazu:** So the one thing that I really enjoy is infrastructure... Even more so breaking it, understanding its limits, and then putting it back together. It's just this need to understand how something works at a very deep level, and then taking all the building blocks and putting them together much better than they were before. That's what we've been doing with Changelog.com infrastructure for many years. Half the stuff you don't even know... Right? It's being "Oh, my god!" \[laughter\]
 
-**Jerod Santo:** \[00:04:14.01\] That's right.
+**Jerod Santo:** \[04:14\] That's right.
 
 **Gerhard Lazu:** It was all for the best, trust me. We took many systems apart, we put them together, we tried different components over the years... And I feel that right now we are in a very good place. As challenging as 2020 was, we managed to complete our migration to Linode Kubernetes Engine. For the listeners from previous years, we have been running on Linode for many years now; they have an amazing infrastructure, an amazing service, and we have a great relationship with them... And they somehow manage to keep things simple, even with all this complexity.
 
@@ -26,7 +26,7 @@ For the entire year, we had downtime less than four hours. That was pretty good 
 
 I know that Adam was really excited about us going to Kubernetes. We wanted to do that for a while, but the time wasn't right... And it wasn't right because Linode didn't have a simple, one-click Kubernetes story. You had to do a bunch of things... You could do it if you really wanted to, but it wasn't easy. And then, in 2019, at the end, November, the magic happened. Linode Kubernetes Engine entered beta; I was at KubeCon, I met with Hillary Wilmoth and Mike Quatrani from Linode, we gained access to Linode Kubernetes Engine, it was in beta...
 
-\[00:08:13.27\] And with one command later, we had a three-node Kubernetes cluster. That was really simple; that was the experience that we wanted and we were waiting for. And once we had that, things kind of flowed from there. It was really simple to add all these other components.
+\[08:13\] And with one command later, we had a three-node Kubernetes cluster. That was really simple; that was the experience that we wanted and we were waiting for. And once we had that, things kind of flowed from there. It was really simple to add all these other components.
 
 Now, compared to what we had before, we had to worry about, I suppose, the migration from CoreOS to Flatcar, because CoreOS became end-of-lifed with the acquisition of CoreOS by Red Hat... So we had to do that migration, and we were approaching -- we knew that the end of life would come... So rather than doing that and continuing with a single VM/Docker Swarm complications, we went to something simpler, which was Kubernetes... Because we had this one API, and we could provision everything... Which meant less Terraforming. We didn't have to provision NodeBalancers, we didn't have to create volumes and then attach them to VMs using Terraform... We didn't have to do any of that. This Kubernetes API would do all of those things for us, which meant that it was a much simpler system to work with.
 
@@ -50,7 +50,7 @@ So while what happens behind the scenes is so complex, these components that you
 
 **Gerhard Lazu:** it's an additional component that you install in your Kubernetes cluster, that gives you -- it extends the Kubernetes API with extra-knowledge. So your Kubernetes API - by default, you say "I want a deployment." Let's just go with a deployment. But then how do you ask it for a certificate? So once you install cert manager, it's a component that in a way teaches your Kubernetes API about certificates. So then you can say "Hey, Kubernetes, give me certificates." And cert-manager - it has a bunch of components inside, but let's say it's one thing - knows how to make that happen.
 
-**Jerod Santo:** \[00:12:08.14\] Gotcha. So the complexity is on the inside. All of the difficulties and the confusion and the technical intricacies are on the inside, and if you can get is set up and configured and make use of it, your life is simpler, right?
+**Jerod Santo:** \[12:08\] Gotcha. So the complexity is on the inside. All of the difficulties and the confusion and the technical intricacies are on the inside, and if you can get is set up and configured and make use of it, your life is simpler, right?
 
 **Gerhard Lazu:** Exactly. Those components are hiding the complexity, which will be there no matter what you do, no matter what you use... But they allow you to ask for things via the single API. And the thing which gets me really excited about Kubernetes is that everything is standardized between a single API... And it goes to the point like - you want a VM, or you want a resource, you talk to the same API, and all you have to do is install the right components, so the API or those components know how to translate your request into an actual thing, whatever you may want.
 
@@ -66,7 +66,7 @@ So in our case, we had to update CoreOS. That was our responsibility, to update 
 
 **Jerod Santo:** Yeah. It's like for any application there are N concerns that must be taken care of, like Gerhard said. These things have to happen. Your DNS has to happen. Your certificates have to happen. And every application has its own number N. Maybe yours is 100; it's a pretty simple application. Maybe somebody else's is 1,000 things, or 1,200 things. Whatever it is. And the more of those you can take off your plate and onto your hosting provider's plate is just a win. It makes it more achievable for you to manage less, and then to manage more.
 
-\[00:16:13.27\] And if you were just building your own Kubernetes deployment on top of a VPS, or on top of something that's not LKE or a Kubernetes engine, there's a whole bunch of things that you have to take care of now, that you'd rather not, because maybe it's not your domain expertise, maybe it's just a huge time sink. And the more they can do, probably better than you can do it, the better off you are.
+\[16:13\] And if you were just building your own Kubernetes deployment on top of a VPS, or on top of something that's not LKE or a Kubernetes engine, there's a whole bunch of things that you have to take care of now, that you'd rather not, because maybe it's not your domain expertise, maybe it's just a huge time sink. And the more they can do, probably better than you can do it, the better off you are.
 
 **Adam Stacoviak:** It makes sense.
 
@@ -86,7 +86,7 @@ For example, we chose Ingress NGINX to do the TCP routing. But there's so many o
 
 I just wanna say "Hey, I want an SSL certificate on this domain, and I want it to always be fresh. And I just want to configure it. The details of how that happens are just not my concern." And it's really a shift. It feels good to just be able to declare... I mean, there's almost like a God complex, like "I declare this is gonna happen", and then it happens. It's like "Ah, that feels pretty good." So I think that's definitely a holy grail and a shift from a time where everybody was writing code to do their operations, and now we're writing YAML to do our operations... Whether you like YAML or not, it's a lot simple than a Turing complete, although -- is YAML Turing complete? It might be... It's simpler than code, generally. Gerhard, you probably know - is YAML Turing complete?
 
-**Gerhard Lazu:** \[00:20:25.08\] I don't know. Honestly, I don't know. Mind blank, because I'm already thinking about something else, so I don't want to lose my idea...
+**Gerhard Lazu:** \[20:25\] I don't know. Honestly, I don't know. Mind blank, because I'm already thinking about something else, so I don't want to lose my idea...
 
 **Jerod Santo:** \[laughs\] Okay, go ahead. Move on.
 
@@ -94,11 +94,11 @@ I just wanna say "Hey, I want an SSL certificate on this domain, and I want it t
 
 I remember many years back, when Kelsey Hightower gave a Tetris demo... That was it. That was like Kubernetes in one very simple picture. It will figure a bunch of things out that you thought were important, but aren't. And figuring out what your capacity is, and where you need to put things, do you need to go up or do you need to go down in scale - all those things can be taken care of. I think that's super-powerful.
 
-**Break:** \[00:21:43.25\]
+**Break:** \[21:43\]
 
 **Adam Stacoviak:** It's worth noting that we don't really need what we have around Kubernetes. This is for fun, to some degree. One, we love Linode, they're a great partner... Two, we love you, Gerhard, and all the work you've done here... We don't really need this setup. One, it's about learning ourselves, but then also sharing that. Obviously, Changelog.com is open source, so if you're curious how this is implemented, you can look in our codebase. But beyond that, I think it's important to remind our audience that we don't really need this; it's fun to have, and actually a worthwhile investment for us, because this does cost us money (Gerhard does not work for free), and it's part of this desire to learn for ourselves, and then also to share it with everyone else... So that's fun. It's fun to do.
 
-**Gerhard Lazu:** \[00:24:07.29\] There's something which I'd like to add here... And I would like to answer the question of "How does this help you, the Changelog listener?" Kubernetes is everywhere, you can't avoid it. There's a lot of documentation, examples, guides, but we go beyond that. We show you how to to run a web application in production with Kubernetes, which apparently everybody is doing these days, or trying to figure out, and there's so many opinions...
+**Gerhard Lazu:** \[24:07\] There's something which I'd like to add here... And I would like to answer the question of "How does this help you, the Changelog listener?" Kubernetes is everywhere, you can't avoid it. There's a lot of documentation, examples, guides, but we go beyond that. We show you how to to run a web application in production with Kubernetes, which apparently everybody is doing these days, or trying to figure out, and there's so many opinions...
 
 So how do you actually do it? Well, we show you how. Changelog.com itself runs on Linode Kubernetes Engine. It's proof that it's easy, straightforward, and it works. And we have all the commits to back this up, we have all the code to back this up, we can see what choices we've made... And I really love what we have built, and I really love that we can keep it real. We can still deliver business value; no one stopped anybody from shipping, and it's just a bunch of us. It doesn't take teams of 10-20-30 people to do this. It takes a person, an hour here an hour there; when you add it all up, maybe it's a few weeks... In 5-6 months, however long it was... It doesn't take that long.
 
@@ -116,7 +116,7 @@ We mention a few components of the Kubernetes API that you put together. The cer
 
 Ingress NGINX - super-simple for TCP routing, and it automatically integrates with our NodeBalancers, so that was great... I'm not going to go over all of them, but what I'll mention is I'll mention about QPrometheus, which is an operator that we use to set up Grafana and Prometheus for Changelog. If you go to grafana.changelog.com, that's basically where we host all the metrics for Kubernetes. What we don't have currently, but we would like to add is integrating Prometheus with all the services that we use.
 
-\[00:27:59.11\] For example, for our database we use the Crunchy PostgreSQL Operator. So we would like to integrate QPrometheus with our PostgreSQL database. Same thing for Ingress NGINX, which we currently don't have; we're just looking at Kubernetes metrics and system metrics... But it's relatively simple and straightforward to add all those extra things, and I suppose that's what's coming next, so we have better visibility into what happens inside of Changelog.com and all the services that we depend on.
+\[27:59\] For example, for our database we use the Crunchy PostgreSQL Operator. So we would like to integrate QPrometheus with our PostgreSQL database. Same thing for Ingress NGINX, which we currently don't have; we're just looking at Kubernetes metrics and system metrics... But it's relatively simple and straightforward to add all those extra things, and I suppose that's what's coming next, so we have better visibility into what happens inside of Changelog.com and all the services that we depend on.
 
 **Jerod Santo:** Another aspect of the setup you have is Keel, which was news to me... We also have K9s, which is the coolest part of the setup from my perspective...
 
@@ -146,7 +146,7 @@ Now, what we used to have before - we had this very simple loop that would conti
 
 **Gerhard Lazu:** Yes. If you have migrations, by the way, you run -- every deploy runs migrations... So when the new app starts, we do blue-green deploys, by the way. It's all handled very nicely by the deployment model in Kubernetes, so we don't have to worry about any of that... So when the new version comes up, you run the migration, and maybe something can go wrong, so yes... But if the app fails to start, you have readiness probes that will not put it in the load balancer. And if it crashes - well, there you go, it crashes.
 
-**Jerod Santo:** \[00:32:19.23\] What's a readiness probe? Is it like a thing that says "Hey, are you ready? Hey, are you ready?"
+**Jerod Santo:** \[32:19\] What's a readiness probe? Is it like a thing that says "Hey, are you ready? Hey, are you ready?"
 
 **Adam Stacoviak:** \[laughs\]
 
@@ -198,7 +198,7 @@ It also does periodic polls; it's polling Docker Hub to see if there's a new ver
 
 **Jerod Santo:** Tell us what GitOps is, because you keep saying "I'm not gonna talk about that." I don't know what it is; is this like you let your Git do your ops? What's GitOps?
 
-**Gerhard Lazu:** \[00:35:59.12\] Okay, so GitOps is a way of implementing deployments. You have continuous deployments, you're continuously deploying code, but it's a way of implementing -- it can use deployments in cloud-native applications. So if you're using Kubernetes, you're cloud-native; or at least that's the tagline. And what GitOps does - it allows you to define everything about your application using Git, including which version you should be running in production.
+**Gerhard Lazu:** \[35:59\] Okay, so GitOps is a way of implementing deployments. You have continuous deployments, you're continuously deploying code, but it's a way of implementing -- it can use deployments in cloud-native applications. So if you're using Kubernetes, you're cloud-native; or at least that's the tagline. And what GitOps does - it allows you to define everything about your application using Git, including which version you should be running in production.
 
 So if were using GitOps with Changelog, there would be a commit for every single deploy, which would need to be approved, merged somewhere, so it would roll out the latest version.
 
@@ -238,7 +238,7 @@ So if were using GitOps with Changelog, there would be a commit for every single
 
 **Jerod Santo:** Yeah, we used to have two repos. We had an infrastructure repo and we had the source code repo...
 
-**Gerhard Lazu:** \[00:40:18.17\] Exactly.
+**Gerhard Lazu:** \[40:18\] Exactly.
 
 **Jerod Santo:** And we were happy to get rid of the other one, and have just one place where everything lives... So it's simple.
 
@@ -260,7 +260,7 @@ But right now we have a single app instance. We don't have multiple apps running
 
 **Gerhard Lazu:** Yeah. We chose Keel because it's really simple. A lot of choices which we've made is because it's simple, and it suits us... And I would argue that it would suit the majority. Unless you're a really big team, with a really big Kubernetes deployment and investment, and all that; then you may need to do things differently, most certainly than not. But if you're a small team, of let's say up to ten people that have a bunch of apps, this may work perfectly well for a long, long time.
 
-**Break:** \[00:43:12.26\]
+**Break:** \[43:12\]
 
 **Adam Stacoviak:** Let's talk about availability, because one of the reasons why you even build this kind of infrastructure is for resilience, for availability... And I suppose to test that, let's take the site down.
 
@@ -352,7 +352,7 @@ But right now we have a single app instance. We don't have multiple apps running
 
 **Gerhard Lazu:** It will take a minute.
 
-**Jerod Santo:** \[00:48:03.13\] ...as well as a push notification to my watch.
+**Jerod Santo:** \[48:03\] ...as well as a push notification to my watch.
 
 **Adam Stacoviak:** Walk us through why the ten minutes. What's the window there? Why is it roughly ten minutes? Why is it not more than ten minutes? What's happening behind the scenes now?
 
@@ -404,7 +404,7 @@ So it's still up... We said delete VM; it's red, we can see it, but has it actua
 
 **Gerhard Lazu:** So last year what happened - the Docker service under which... We had a single VM back in the day, and we were running Docker Swarm on a single VM, and the Docker service was not configured to automatically start. I was expecting, to be honest, for the operating system to have this essential service by default started, but that was not the case.
 
-\[00:52:10.15\] So we had to manually start the Docker service, so that everything else would basically come back up. That was the problem. Obviously, we've fixed it since, but the Docker service - the Docker daemon in that case - was not running, meaning that there was no Changelog app, no database, none of those things.
+\[52:10\] So we had to manually start the Docker service, so that everything else would basically come back up. That was the problem. Obviously, we've fixed it since, but the Docker service - the Docker daemon in that case - was not running, meaning that there was no Changelog app, no database, none of those things.
 
 **Jerod Santo:** Right. And that Docker service wasn't managed -- or was supposed to be managed by CoreOS, but wasn't being, or something like that.
 
@@ -480,7 +480,7 @@ If I remember correctly, K9s actually won an award recently... A CNCF award. I'm
 
 **Adam Stacoviak:** I know Jerod logged it at the tail end of 2019...
 
-**Jerod Santo:** \[00:56:15.23\] I logged it just recently again.
+**Jerod Santo:** \[56:15\] I logged it just recently again.
 
 **Adam Stacoviak:** ...and then again this year, whenever you had a chance to play with it...
 

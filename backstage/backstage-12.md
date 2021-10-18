@@ -50,7 +50,7 @@ We probably could have kept going down that road and find ways to iterate, but I
 
 **Jerod Santo:** ...and was a much easier sale, and it ended up being more sustainable. We would not have made it if we stayed members-only then, right?
 
-**Adam Stacoviak:** \[00:04:13.20\] Yeah, definitely not. The difference in total revenue was just such a gap that it's not even worth mentioning. There's clearly an upside on the advertising model, and people know that. And whether or not it's sustainable - I guess it depends. Luckily, we're in tech, and tech seems to have a lot of dollars rolling around, no matter which side of the fence you're on... So I think we were fortunate.
+**Adam Stacoviak:** \[04:13\] Yeah, definitely not. The difference in total revenue was just such a gap that it's not even worth mentioning. There's clearly an upside on the advertising model, and people know that. And whether or not it's sustainable - I guess it depends. Luckily, we're in tech, and tech seems to have a lot of dollars rolling around, no matter which side of the fence you're on... So I think we were fortunate.
 
 I tell everybody that knows me -- it's like "You podcast for a living?" I don't know if yo get this or not, Jerod, but like "You podcast for a living? How the heck do you do that?" Well, now it makes more sense, but several years ago it was like "Really? How do you make money?" "Well, ads..." But it wasn't exactly like "Oh, just ads." We have relationships with these brands, and it's just much, much different, and I think that's the approach.
 
@@ -78,7 +78,7 @@ If we had been in a podcast around real estate, it may not have been as sustaina
 
 **Jerod Santo:** Right. We've been asked many times "How can I support you, how can I help you guys?", and historically, all we could say is "Tell your friends. Listen to the show. That's enough for us." People say "Can I at least donate? Do you have a Donate button? Can I buy your merch?" No, you can't buy our merch; we're working on that. You can buy our merch here, soon... You can buy it right now, technically, but you have to find the URL. We'll be talking more about merch here soon, but there just wasn't any sort of avenue for that. So this provides an avenue in a way that's additive; it provides value back.
 
-\[00:08:15.02\] We've never been ones out begging bread, asking "Please keep this thing going. We need you to survive." We thought this is a thing where we're providing for others, not asking for provision. So if we can't find a way of making it sustainable, we're not gonna just rely solely on that... So Changelog++ is not us saying "We need your help. Keep Changelog alive. Join Changelog++."
+\[08:15\] We've never been ones out begging bread, asking "Please keep this thing going. We need you to survive." We thought this is a thing where we're providing for others, not asking for provision. So if we can't find a way of making it sustainable, we're not gonna just rely solely on that... So Changelog++ is not us saying "We need your help. Keep Changelog alive. Join Changelog++."
 
 **Adam Stacoviak:** Like Wikipedia, for example.
 
@@ -100,7 +100,7 @@ It's also establishing that 1,000 true fans kind of thing... Because I could be 
 
 **Jerod Santo:** We talk about that a lot on our shows, as things grow up, even though open source, how that is only icky if you do it icky... Like, marketing or sales is really just providing value and just showing people that value, and either convincing them of it, or just showing it to them... But a lot of the real either not good or insincere marketing that goes on is very unattractive, and lack of sincerity is something that I don't appreciate, and I think a lot of our community also doesn't... So I think an ad-free offering for those who do want a more direct relationship, but really is just sick of the ads - why not give that option? Why not?
 
-\[00:12:23.14\] Well, the reason why not is because it was gonna be a lot of work... That was the reason why not. So we were talking about how we're kind of late at this point... We had been thinking about rebooting the membership program for a while, but we've just prioritized other things. And a lot of that just has to do with the effort involved, don't you think? Did you have other reservations besides pulling it together? We've had a notion card for over a year with details on how we would do this...
+\[12:23\] Well, the reason why not is because it was gonna be a lot of work... That was the reason why not. So we were talking about how we're kind of late at this point... We had been thinking about rebooting the membership program for a while, but we've just prioritized other things. And a lot of that just has to do with the effort involved, don't you think? Did you have other reservations besides pulling it together? We've had a notion card for over a year with details on how we would do this...
 
 **Adam Stacoviak:** \[unintelligible 00:12:51.18\]
 
@@ -160,7 +160,7 @@ It's also establishing that 1,000 true fans kind of thing... Because I could be 
 
 **Adam Stacoviak:** Well, one, we like a good competition. Competing is fun. Easy buttons are fun to push... I mean, I prefer an Easy button than a Hard button. I guess it depends... Going back to the conversation I just had with Jeff Sheldon on Founders Talk, which is on the feed, by the way, so check it out... He talked about the long, hard road. So he might not say the Easy button is fun to push.
 
-\[00:15:56.22\] In this case, I'm enjoying pushing the Easy button because it's about experimentation. We don't know - like Jerod said, we're not all-in on this. We think it's a great idea, we think we're on to something right here, especially given the things we've expressed, which is like another avenue for our listeners to support and enjoy...
+\[15:56\] In this case, I'm enjoying pushing the Easy button because it's about experimentation. We don't know - like Jerod said, we're not all-in on this. We think it's a great idea, we think we're on to something right here, especially given the things we've expressed, which is like another avenue for our listeners to support and enjoy...
 
 **Jerod Santo:** Right.
 
@@ -186,7 +186,7 @@ So yes, when you click on the ++ logo in our nav, or when you go to changelog.co
 
 **Adam Stacoviak:** Right, exactly. That's what I'm trying to get at to the audience. It wasn't a pitch. I don't believe that all those people came on the call as a means to a pitch. They came on as a means of support. Like "Hey, who are you? What are your goals? What are you trying to do? How can we be of service, essentially?" And they spent necessary time answering our questions, going through all the things; we weren't rushed. And I really appreciate that. That's exactly how we would do things, and if you're listening to this, that's the kind of stuff that works. That's the kind of sales that works. Non-sales sales.
 
-**Jerod Santo:** \[00:20:04.05\] Not only that, but they actually made changes to their platform quickly to get us on board. So we started these conversations early July - it might have been before the 4th, or maybe right after the 4th; I can't recall. And as you may know, we have our own custom platform, we've invested in that over the years, and we have our workflow, and everything is pretty streamlines the way that we do what we do... And the last thing we wanted to do was double all of our efforts; so we've made that clear to them, that if we had to put all of our episodes in our own CMS and then double all of that - the show notes, the title etc. over into their side for every episode... We ship about five episodes a week, and that's kind of a non-starter for us. So they built some tooling, and they've improved some stuff that already existed, and allowed us to do it very simply... And that was awesome. They moved very fast. Within a week and a half it was all ready to rock. So that's cool. Very exciting.
+**Jerod Santo:** \[20:04\] Not only that, but they actually made changes to their platform quickly to get us on board. So we started these conversations early July - it might have been before the 4th, or maybe right after the 4th; I can't recall. And as you may know, we have our own custom platform, we've invested in that over the years, and we have our workflow, and everything is pretty streamlines the way that we do what we do... And the last thing we wanted to do was double all of our efforts; so we've made that clear to them, that if we had to put all of our episodes in our own CMS and then double all of that - the show notes, the title etc. over into their side for every episode... We ship about five episodes a week, and that's kind of a non-starter for us. So they built some tooling, and they've improved some stuff that already existed, and allowed us to do it very simply... And that was awesome. They moved very fast. Within a week and a half it was all ready to rock. So that's cool. Very exciting.
 
 **Adam Stacoviak:** Yeah.
 
@@ -214,7 +214,7 @@ So yes, when you click on the ++ logo in our nav, or when you go to changelog.co
 
 **Adam Stacoviak:** They're known in the Tumblr space, they bought Dribble recently... But not just bought, but invested in. And I think the moves Andrew has made in the businesses he's been a part of and/or invested in as a part of Tiny, have been strategic and smart. And because of that, I also felt like "Okay, that's who's behind this. This is somebody's brainchild that was involved with Andrew." We talked to Jason the CEO that day, and he'd kind of given us a little bit of the behind-the-scenes... So maybe on a future Founders Talk we might go deeper with Andrew, we might go deeper with Jason, who knows... But the gist of the story though is people who truly care about the future of creators were behind this, so that gave me even more good feeling about this move for us to give it a try.
 
-**Jerod Santo:** \[00:24:09.24\] It's really akin to Substack, but for podcasters... You know, what Substack is doing for writers, Supercast is trying to do for podcasters. Now, I do know that Substack also has some podcasting tools, because writers also wanna podcast, so maybe they become competitors... But I feel like they have the same spirit, which is really providing a platform for indies to stay indie. Go indie and stay indie.
+**Jerod Santo:** \[24:09\] It's really akin to Substack, but for podcasters... You know, what Substack is doing for writers, Supercast is trying to do for podcasters. Now, I do know that Substack also has some podcasting tools, because writers also wanna podcast, so maybe they become competitors... But I feel like they have the same spirit, which is really providing a platform for indies to stay indie. Go indie and stay indie.
 
 **Adam Stacoviak:** Yeah. You know, without giving away too much, to speak to the sustainability opportunity for different podcasts, whether it's an individual show, or more of a network like we are - we're portraying ourselves to be more of a portfolio network - it doesn't take a ton of paid members to sustain that thing. It could be as little as 500 to 1,000, it could be as much as 2,000 to 5,000. So the opportunity for us to diversify, and I would say more secure ourselves against things like Covid and coronavirus with the world, and how things have changed monetarily. We have lost money this year as a part of this... And I guess not enough to make it suck, to make it not okay... So this definitely opened our eyes too to be like--
 
@@ -242,7 +242,7 @@ It's fun to just be a part of Plausible. The system is small enough I can unders
 
 **Jerod Santo:** Yeah. So we'll say it again, we're at the experiment phase. We can talk about what Changelog++ is today, and then we can talk about some of our ideas; not necessarily where it's going to be in the future, but things that we would like to do with it if it proves successful. Today it's basically an ad-free version of the Master feed. There's more there, but that's the gist of it. So imagine our shows -- you know we have transitionary, awesome BMC beats in between our spoken content and our ads. Well, the music is still there, it's just the ads are gone. And then you came up with "Make the ads disappear." That's basically what you do when you join Changelog++, you make the ads disappear.
 
-\[00:28:16.07\] We didn't stop there though, because our main ad, the one that's probably burned into your -- what's the ear version of a retina? Burned into your earlobes... No, that's not the love. Eardrum? I don't know...
+\[28:16\] We didn't stop there though, because our main ad, the one that's probably burned into your -- what's the ear version of a retina? Burned into your earlobes... No, that's not the love. Eardrum? I don't know...
 
 **Adam Stacoviak:** Your earholes. Just keep it simple.
 
@@ -300,7 +300,7 @@ It's fun to just be a part of Plausible. The system is small enough I can unders
 
 **Jerod Santo:** We've thought about changing it, but we've never changed it. We thought about getting different voices to say the same thing...
 
-**Adam Stacoviak:** \[00:32:08.21\] Yeah, and I think those are all still great ideas. I don't not welcome a change of just my voice up there saying it... Because as a listener of our own shows, it kind of bothers me sometimes, too...
+**Adam Stacoviak:** \[32:08\] Yeah, and I think those are all still great ideas. I don't not welcome a change of just my voice up there saying it... Because as a listener of our own shows, it kind of bothers me sometimes, too...
 
 **Jerod Santo:** \[laughs\]
 
@@ -350,7 +350,7 @@ It's fun to just be a part of Plausible. The system is small enough I can unders
 
 **Adam Stacoviak:** Yeah, exactly. I think it'll be a regular thing. So if you want those two questions, you'll be a ++ subscriber. I think even on that note, I've been a die-hard hater of walled gardens too, so take that, listener, with a grain of salt... Because I'm like -- it's so hard to think about exclusivity with this, but there is a line to be drawn... So you'll still get the same amazing value that you would normally get from the shows as they are, but we've just sort of added extra seasoning, or maybe one or two more extra days of aging, so to speak...
 
-**Jerod Santo:** \[00:36:13.00\] You're not saying you're gonna release them later, you're just saying they're gonna be more aged...
+**Jerod Santo:** \[36:13\] You're not saying you're gonna release them later, you're just saying they're gonna be more aged...
 
 **Adam Stacoviak:** Yeah. It's a metaphor for a little bit of extra extraness (whatever that might be) to them. And that's the value thing - it's experimental for us, it's us playing with it to see how that resonates on both sides. This isn't like "Stuck. This is the way it is forever." We're just trying to make sure there's a little bit more value on that ++ side, because we're asking for that dollar exchange.
 
@@ -396,7 +396,7 @@ With that said though, we did talk about - which we haven't done yet, and that's
 
 **Adam Stacoviak:** Oh, yes.
 
-**Jerod Santo:** \[00:39:54.22\] But it is closer than what some people are doing, because I'll use meta frameworks now. NestJS basically configures Express for you. Anyways, you are closer to the metal using Express, but you're nowhere near the metal. That being said, with Changelog++ one of our taglines is "Get closer to the metal", which once I started analyzing that, I realized "I feel like maybe we're calling ourselves metal then", and maybe that's arrogant. Are you metal?
+**Jerod Santo:** \[39:54\] But it is closer than what some people are doing, because I'll use meta frameworks now. NestJS basically configures Express for you. Anyways, you are closer to the metal using Express, but you're nowhere near the metal. That being said, with Changelog++ one of our taglines is "Get closer to the metal", which once I started analyzing that, I realized "I feel like maybe we're calling ourselves metal then", and maybe that's arrogant. Are you metal?
 
 **Adam Stacoviak:** Well, I guess I don't understand the arrogant side of it, but I think--
 
@@ -458,7 +458,7 @@ Then it bumps to $10/month, or $100/month, and there you go.
 
 **Adam Stacoviak:** And those dollars aren't -- they're significant, but they're not tremendous. They're not enough to turn somebody off and be like "I can't afford yearly."
 
-**Jerod Santo:** \[00:44:06.00\] Right.
+**Jerod Santo:** \[44:06\] Right.
 
 **Adam Stacoviak:** Usually, that's a number that most people can handle. And I would say that's --
 

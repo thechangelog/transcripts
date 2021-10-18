@@ -42,7 +42,7 @@ Joining me - welcome back, Chris James. Hello, Chris.
 
 **Mat Ryer:** You're very welcome. And I've got some intros for you all here, which I'm going to read now. Dave is a former academic philosopher and local librarian. A terrible marketing guy, and now a web developer and occasional contributor to Learn Go with Tests. Interesting.
 
-\[00:04:12.03\] We also have Chris, who's a former engineering manager, now funemployed. You write --wrote Learn Go with Test, didn't you?
+\[04:12\] We also have Chris, who's a former engineering manager, now funemployed. You write --wrote Learn Go with Test, didn't you?
 
 **Chris James:** Yeah. It's an ongoing project though, so it's both a past and future tense.
 
@@ -64,7 +64,7 @@ What I think TDD gives you in this first step is this kind of method for -- it a
 
 **Mat Ryer:** Yeah, that's interesting. You mentioned that the test failing is kind of important in the beginning... Why is it important that a test fails first?
 
-**Chris James:** \[00:07:53.06\] Because I think we've all been in places where we've written a test and then we kind of go along our happy way, and then we later realize that this test never fails; it's called an evergreen test, where you haven't actually verified that the test fails the way you expect it to fail.
+**Chris James:** \[07:53\] Because I think we've all been in places where we've written a test and then we kind of go along our happy way, and then we later realize that this test never fails; it's called an evergreen test, where you haven't actually verified that the test fails the way you expect it to fail.
 
 If you don't do this step, not only do you have these tests that don't actually fail for the reason you expect, but it often means that you've left some assumptions on the table. You maybe haven't quite understood the problem as well as you should have.
 
@@ -90,7 +90,7 @@ The story I prefer to tell about test-driven development is this is a tool to he
 
 Now, consumer-focused is also quite difficult to pin down. Like, do you mean the consumer of an API? Do you mean the consumer as a user clicking around on a website? That can be quite hard to pin down. But by driving from the top-down, it means that your tests really should read as if it was being called by a consumer. And in that respect, you tend to not have these kind of strange-looking tests. Generally, you'll have tests that express the truth in terms of "When I call this thing, this useful behavior comes up."
 
-\[00:12:07.14\] And again, this idea of behavior is very important with TDD as well; it's this idea of "We don't want our tests to be coupled to a sort of implementation detail", because implementation details we wanna be able to change freely. We don't want our tests locking us down. And I've certainly been in projects where we feel like we're doing a really good job, we've written tons of unit tests, we've got amazing, incredible coverage and things, but then at the same time we're all like "Yeah, I don't really wanna refactor that, because I'm gonna have to change half a dozen tests... So we'll just leave the code, we'll leave that tire fire as is."
+\[12:07\] And again, this idea of behavior is very important with TDD as well; it's this idea of "We don't want our tests to be coupled to a sort of implementation detail", because implementation details we wanna be able to change freely. We don't want our tests locking us down. And I've certainly been in projects where we feel like we're doing a really good job, we've written tons of unit tests, we've got amazing, incredible coverage and things, but then at the same time we're all like "Yeah, I don't really wanna refactor that, because I'm gonna have to change half a dozen tests... So we'll just leave the code, we'll leave that tire fire as is."
 
 And I think that comes again from this angle of maybe going bottom-up in trying to test your design, rather than thinking about it in terms of "What does a consumer want?" Because when you pin down what a consumer wants, that helps guide your design a bit better. Because rather than kind of imagining all of these abstractions, all of these designs, and interfaces, and all this malarkey, instead you're just thinking "We've got a single goal, and I've pinned it down precisely, because I've got it written down in code. It's not just like some words in JIRA, or whatever; I've got it really precisely defined. Now what is the design I need to accomplish that?" And that means - again, it's this idea of discipline to writing your software; not being overly imaginative, and things.
 
@@ -108,7 +108,7 @@ So what's the benefit then, of being your own first customer? Does it change the
 
 **David Wickes:** I think it can change the way an API looks. It can. I'm not gonna suggest -- some people can't just roll right off the bat themselves without TDD-ing and going that way. I think for me it starts with that failing test you're writing. You should be thinking -- imagine this beautiful world you live in where you've got the thing that does the thing that you want it to do. When you're using it, you don't wanna be calling eight different things, five methods there, to get to the answer you want. You basically want "Give me the thing I want as a method or a function." That's it. The magic box that does the thing you want.
 
-\[00:16:12.17\] And then by writing that in the test to begin with, just saying "This is what I as a person/consumer want to be getting out of this", you're then led through a nice API. Because yes, as you said, you're the first consumer of the API. Those tests are the first consumer of the API. They document the API quite nicely. API not just in terms of -- I mean, to be clear, API in terms of, say, an object's interface, or the way a function works. We're not just talking in terms of HTTP API's, which people often think about.
+\[16:12\] And then by writing that in the test to begin with, just saying "This is what I as a person/consumer want to be getting out of this", you're then led through a nice API. Because yes, as you said, you're the first consumer of the API. Those tests are the first consumer of the API. They document the API quite nicely. API not just in terms of -- I mean, to be clear, API in terms of, say, an object's interface, or the way a function works. We're not just talking in terms of HTTP API's, which people often think about.
 
 **Mat Ryer:** Yeah, good point. We mean any kind of code that \[unintelligible 00:16:47.18\] consume.
 
@@ -122,7 +122,7 @@ You know, the steps are there for a reason. They're there to make sure that you 
 
 The failing part is just the validation. It's not a personal attack on you, it's just "Okay, it's failing how you'd expect", and then you get on to the next step. And again, I think it's really important on the next step that when we're making it pass, the strict part is only writing enough code to make that pass. And there's this really nice quote from Kent Becks' book about TDD that says "Commit whatever sins are necessary." And what he's saying here is you shouldn't be creative at this point. You're just trying to make the software work. Because at the moment \[unintelligible 00:19:10.17\] your software doesn't work how you want it to work. So you wanna get out of this Red state as quickly as possible, because then you have the promise of the refactoring stage later... But you should only be doing this creative thought process and making things nice when you know the code works. If you're trying to make things nice and make the code work at the same time, you're doing two things at once... And software development is hard enough. A thing I like about TDD is it's just trying to make it simple, really easy to understand steps that reduce the amount of overhead that you have to go through when you're writing software.
 
-**David Wickes:** \[00:19:44.09\] I agree with everything Chris has said... I just would like to put out a word of warning in terms of following the process. Because we agree that following the process is important - Red-Green-Refactor. This can be terrible; this can be a terrible mistake sometimes... Because if you follow that process like it's a magic algorithm to spit code out, you're basically "I write my tests like that. It's done. I write my code. Next. Refactor. Well, I only know a few methods... Write another test. Write some more code. Refactor. \[unintelligible 00:20:11.13\]" It doesn't work. Rich Hickey has a great line about TDD. I mean, I feel he misunderstands TDD, don't get me wrong, but he says it's basically like driving by hitting the guard rails. "Oh, that broke. Oh, that broke. Oh, that broke. I don't really know what I'm doing, but I'm writing tests, so it must be working, and I must be making progress." This is wrong. If you're doing TDD like that, you're missing the trick. I'll put it like that. I don't think you're doing TDD very well if you're doing it like that.
+**David Wickes:** \[19:44\] I agree with everything Chris has said... I just would like to put out a word of warning in terms of following the process. Because we agree that following the process is important - Red-Green-Refactor. This can be terrible; this can be a terrible mistake sometimes... Because if you follow that process like it's a magic algorithm to spit code out, you're basically "I write my tests like that. It's done. I write my code. Next. Refactor. Well, I only know a few methods... Write another test. Write some more code. Refactor. \[unintelligible 00:20:11.13\]" It doesn't work. Rich Hickey has a great line about TDD. I mean, I feel he misunderstands TDD, don't get me wrong, but he says it's basically like driving by hitting the guard rails. "Oh, that broke. Oh, that broke. Oh, that broke. I don't really know what I'm doing, but I'm writing tests, so it must be working, and I must be making progress." This is wrong. If you're doing TDD like that, you're missing the trick. I'll put it like that. I don't think you're doing TDD very well if you're doing it like that.
 
 You should be looking at each stage and thinking, carefully, "What's going on here?" When you're writing that failing test \[unintelligible 00:20:47.20\] But the other thing is "What is this like now, when I'm writing this failing test?" Now I've got all these other tests in my wonderful test suite; is it easy to write this next test? Is it hard? Am I now having to do some weird logical \[unintelligible 00:21:03.05\] in order to get this test written? If you are, don't do that. Back out. You need now to go back to refactoring. I know, we just went from writing a new test back to refactoring, but this is fine. You might need to do this sometimes, refactoring your code, to make that next test easier to write.
 
@@ -130,7 +130,7 @@ And this idea that people have is something I hear when people don't like TDD an
 
 **Mat Ryer:** Yeah, that's a fair point. That's right, it's not an aimless thing. You're still responsible for designing your code. But I do find it helps me design better code.
 
-**Break:** \[00:22:00.27\]
+**Break:** \[22:00\]
 
 **Mat Ryer:** We should talk a bit more about how test code can get tightly coupled with program code. How does that happen, and why is that worth avoiding, and how do we avoid it?
 
@@ -144,7 +144,7 @@ And this idea that people have is something I hear when people don't like TDD an
 
 **Chris James:** There are a few things that you can look out for. I think if you're happening to have mocks, which is everyone's favorite subject - there's nothing wrong with mocks, or test doubles... But as with anything, if you use them too much or you use them incorrectly, that can cause problems. Because one reason you use mocks is to spy on something. You wanna check that something happened within the internals of the thing you're testing. And sometimes you definitely need to do that, because your thing has side effects, and you're interested in those side effects, but you really need to think carefully about this kind of thing... Because if you end up spying too much on your code - again, it comes to the point where if you want to then change the implementation details, you're gonna end up having loads of failing mocks and all sorts of tedious changes you're gonna have to do to go through it.
 
-\[00:24:05.22\] The other thing I would say is, again, I think you're less likely to have these kind of tests that are too coupled to implementation details if you start from the top. The problem with bottom-up development is you're not really using TDD at this point as a design tool, you're using TDD as a means of writing tests. And as Dave said, that's not really the point of it. And generally, if you're going bottom-up, what you've done is you've imagined some kind of design. You figured out "Oh, \[unintelligible 00:24:30.21\] Okay, I'm gonna write some tests around all of that." But if your design isn't correct, you're gonna end up again with this problem of these tests becoming more of a hindrance than actually helping you.
+\[24:05\] The other thing I would say is, again, I think you're less likely to have these kind of tests that are too coupled to implementation details if you start from the top. The problem with bottom-up development is you're not really using TDD at this point as a design tool, you're using TDD as a means of writing tests. And as Dave said, that's not really the point of it. And generally, if you're going bottom-up, what you've done is you've imagined some kind of design. You figured out "Oh, \[unintelligible 00:24:30.21\] Okay, I'm gonna write some tests around all of that." But if your design isn't correct, you're gonna end up again with this problem of these tests becoming more of a hindrance than actually helping you.
 
 **Riya Dattani:** Well, to me, when I'm writing a test, I like to keep it simple... And from the top-bottom approach, it's just nice when you have, say, like an acceptance test, and that's already focusing on something, and then you have a couple of unit tests for something that parses that acceptance test. And that's okay if that's failing, but it's already kind of like narrowing down what you need to do, and trying to make it small. Obviously, you shouldn't write an acceptance test for every single thing, but having that approach is easier to kind of make sure that you're not dealing with too many things at once. So that's how I try to look at it if I even have to code something...
 
@@ -158,7 +158,7 @@ So it just kind of stops that bad habit of testing unexported or private things.
 
 **Mat Ryer:** Yeah. I like that, too. And it's also like -- even those silly things like you get to make sure that your API reads nicely. Remember that the package name is gonna be used each time those types and methods and functions are called... So it's kind of nice that you get to be that customer again, the first time. I do that if I can.
 
-\[00:27:52.23\] I also find -- if I'm doing something that is hard... And by hard I mean say I've got some input data and I'm gonna transform it, or something; something that's quite difficult to keep in my mind. Having a test there which I can just keep running as I'm writing and tweaking the code - that to me almost feels like a cheating way of coding. Like, I don't have to be good at coding to do that. I can just keep trying little things, and do little experiments. And I find it catches off-by-one errors and things like that quite nicely. So I like that stuff.
+\[27:52\] I also find -- if I'm doing something that is hard... And by hard I mean say I've got some input data and I'm gonna transform it, or something; something that's quite difficult to keep in my mind. Having a test there which I can just keep running as I'm writing and tweaking the code - that to me almost feels like a cheating way of coding. Like, I don't have to be good at coding to do that. I can just keep trying little things, and do little experiments. And I find it catches off-by-one errors and things like that quite nicely. So I like that stuff.
 
 We've got some questions in our GoTimeFM channel on Gopherslack... If you wanna join the chat, then you can do so in there. Barnaby Salter asks "Do you use Testify when writing your tests?" Troll emoji. Do you? Bear in mind, I created Testify.
 
@@ -200,7 +200,7 @@ I really like that about ping-pong, because you could get a completely different
 
 **Riya Dattani:** Yeah, so bouncing off each other in that way could actually surprise you on how you design your code.
 
-**Mat Ryer:** \[00:32:19.13\] I love that. I've actually never thought of that... That idea that you're free to not worry about how you're gonna solve it. All you're focusing on is how you want to use that code. I think that's actually a great point, yeah.
+**Mat Ryer:** \[32:19\] I love that. I've actually never thought of that... That idea that you're free to not worry about how you're gonna solve it. All you're focusing on is how you want to use that code. I think that's actually a great point, yeah.
 
 **Chris James:** And tied to that, another important thing about TDD is this idea of iterativeness. So it should be behavior-focused, but you should be trying to cut the scope of the thing down to the smaller vertical size as you can... Because the idea is that we work in a knowledge trade, and feedback loops helps us improve our knowledge of what we're doing. So if we tighten those feedback loops and we get faster feedback on what we're doing, we have a better chance of success.
 
@@ -228,7 +228,7 @@ For example, if I said "I expect 1+2 to be 3, he would just return the code and 
 
 **Chris James:** \[unintelligible 00:36:03.01\] I think actually the built-in testing does help with TDD, because I like to think that the Go community, because it's so built in and entrenched in the language, the community has a culture of testing. Not necessarily TDD, but it has a culture of testing, right? I guess people talking about testing, and what we want from testing, and things...
 
-\[00:36:24.05\] So actually, I think the fact that it's baked in is just a signal to all Go developers, like "Go ahead, go write your tests, because it's important." And no, I don't use a debugger very much at all. I personally think just writing a failing test or just a test to exercise whatever I was doing with the debugger is a million times simpler. And I can never remember all the keyboard shortcuts of the debugger anyway... F10, F9... I don't know. I don't know what step in and step out means, I'm always just confused... \[laughs\]
+\[36:24\] So actually, I think the fact that it's baked in is just a signal to all Go developers, like "Go ahead, go write your tests, because it's important." And no, I don't use a debugger very much at all. I personally think just writing a failing test or just a test to exercise whatever I was doing with the debugger is a million times simpler. And I can never remember all the keyboard shortcuts of the debugger anyway... F10, F9... I don't know. I don't know what step in and step out means, I'm always just confused... \[laughs\]
 
 **Mat Ryer:** Yeah. Are you a good dancer?
 
@@ -260,7 +260,7 @@ Another criticism people talk about with TDD is they think "We just don't have t
 
 **David Wickes:** Again, the bottleneck is not typing. The bottleneck is not code production. The bottleneck is thinking and understanding and trying to do the right thing. And that in terms of a bottleneck is not gonna be made any slower writing TDD... If you don't know how to do TDD, it will be slower; if you think... You know, the week that I've got crunchtime in order to get something out, in order to not get fired - that is not the time to learn TDD. This is a bad time to learn TDD. Don't start doing TDD that week.
 
-\[00:40:07.06\] But if you do know how to do TDD, it is no slower, and it may be faster - because like I say, it's a thinking tool; it's a way of leveraging a test in order to think harder about your code and the right way to write it... That's when it might be better, and you'll get things done faster.
+\[40:07\] But if you do know how to do TDD, it is no slower, and it may be faster - because like I say, it's a thinking tool; it's a way of leveraging a test in order to think harder about your code and the right way to write it... That's when it might be better, and you'll get things done faster.
 
 So I very much reject this idea that "Oh no, the tests are gonna slow me down. I've gotta write a lot of tests now, as well all the production code..." No. One, you should be writing those tests anyway. I think you should be writing tested code. I think not writing tested code is not a good thing these days. And the second thing is those tests are a tool to help you get to a good design and a good place if you're doing TDD. So yeah, please. I don't think it's a slow thing. But if people actually think -- and you know, could provide me some evidence that it's the typing that's slowing them down, then good for them; please don't do TDD. Crack out all that code as fast as you can.
 
@@ -268,13 +268,13 @@ So I very much reject this idea that "Oh no, the tests are gonna slow me down. I
 
 **Chris James:** Jason Gorman did a little test - he blogged about it, I think - around the Roman numerals kata, where he basically spent one day doing it TDD, and then the next doing it without TDD, and he ping-ponged between the two. You know, very different solutions each time. Over time, he was basically faster doing TDD, is essentially what he discovered. \[unintelligible 00:41:30.09\] but it definitely wasn't any slower. It's a hard problem, hard to think about.
 
-**Break:** \[00:41:38.28\]
+**Break:** \[41:38\]
 
 **Mat Ryer:** Is TDD something that's like, you know, you can sit there in your ivory towers, in this academic space where we can be on podcasts and talk about "This is what it should do"? What about when you're on the ground? Are there real examples? Do we know, are people doing this? Is this something that happens?
 
 **Chris James:** I don' think TDD is as rare as people think it is. It's used in banks, and pacemakers, but the most wonderful news I heard was a fine gentleman who works on some Mars space rocket or something like that - he said that they did their code with TDD. So not only does it work in the real world on Earth, but it works in another world as well.
 
-\[00:44:15.14\] It's an extremely practical tool for writing software. It's not some strange niche thing... It's actually a very mature technique in terms of the software world. It's not like this thing has been \[unintelligible 00:44:25.29\] five years ago. It's pretty old, there's some really good books on it, and plenty of people are using it successfully.
+\[44:15\] It's an extremely practical tool for writing software. It's not some strange niche thing... It's actually a very mature technique in terms of the software world. It's not like this thing has been \[unintelligible 00:44:25.29\] five years ago. It's pretty old, there's some really good books on it, and plenty of people are using it successfully.
 
 **Mat Ryer:** Yeah, it's brilliant. I love that. I mean, the fact is it's used on robots on Mars... I mean, it can't be that bad, can it? \[laughter\] If it's on Mars. What next for it? What do you think is next for it? Jupiter? That's a real question, you have to answer now.
 
@@ -292,7 +292,7 @@ We talked about test doubles and mocking earlier... A really easy thing to check
 
 Another trick I like to get people to do is just read your tests out loud to a colleague. It's often harder than you think it is. Even \[unintelligible 00:47:35.25\] you think to yourself, "Oh, this test looks great. It's only four lines of code. This test is brilliant." And then you read it out loud and you're like "I actually have no idea what this test is expressing at all. It's nonsense."
 
-\[00:47:46.27\] Again, it's this idea that tests - they're telling you something. And the beauty of it is that it's this focused lens on a particular part of your system. It's quite hard to appraise lumps of code in your IDE in isolation. You see some function on its own, you go "Yeah, sure, that's great. It's just some function." But when you see it being used, that's when you start to understand. So the real pitfalls of TDD really are -- well, one of them is people not looking at their test code and thinking about it properly.
+\[47:46\] Again, it's this idea that tests - they're telling you something. And the beauty of it is that it's this focused lens on a particular part of your system. It's quite hard to appraise lumps of code in your IDE in isolation. You see some function on its own, you go "Yeah, sure, that's great. It's just some function." But when you see it being used, that's when you start to understand. So the real pitfalls of TDD really are -- well, one of them is people not looking at their test code and thinking about it properly.
 
 **Mat Ryer:** Yeah, I think that's right. You should treat your test code as important, or more important really, than your program code... Because that's another thing that happens - it's very easy to just "I'm gonna nip into this project, I'm gonna just add another test, because I can't be bothered to read all these other tests. I'm just gonna add another test." And you can end up with test code that's kind of duplicated in some ways, and it's testing the same thing in different places and things... And that's okay; sometimes it's probably unavoidable. But you lose the effect of like, if something does break later, it's quite nice when one test fails and points straight to the thing that's broken, rather than all of your tests failing. Then you still have all your work ahead of you to go and figure out what you've just done. So yeah, I think so. I think treat your test code like it's part of your program code. That is something that Go does well.
 
@@ -314,7 +314,7 @@ And the second thing is don't test methods. Never test methods. Well, do test me
 
 I think if you start with a test that you know - and when I say "test", here I'm saying unit test. If you have a unit test that you know is gonna take hours to pass, that is when you're not doing TDD right. You haven't really broken the problem down well enough.
 
-\[00:52:06.00\] I think another sign you're not doing things right is if that sense of iteration and feedback loop - that's lost. If you're stuck in the red for a long time, or you're not moving forward, adding new tests, you're just kind of stuck in one test for a long time, that should tell you that you need to rethink your approach a little bit.
+\[52:06\] I think another sign you're not doing things right is if that sense of iteration and feedback loop - that's lost. If you're stuck in the red for a long time, or you're not moving forward, adding new tests, you're just kind of stuck in one test for a long time, that should tell you that you need to rethink your approach a little bit.
 
 **Mat Ryer:** That's great.
 
@@ -328,7 +328,7 @@ But if you're doing something interesting there, in other words, if you're addin
 
 **Mat Ryer:** Brutal. Well, it's that time again... It's time for Unpopular Opinions!
 
-**Jingle:** \[00:55:30.18\] to \[00:55:46.08\]
+**Jingle:** \[55:30\] to \[55:46\]
 
 **Mat Ryer:** So, do we have any unpopular opinions today?
 

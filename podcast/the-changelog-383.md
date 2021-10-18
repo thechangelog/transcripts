@@ -22,7 +22,7 @@
 
 I picked the AGPL as a license, and the community was coming together, and we released the first version, second version, third version, and so on... And then one-and-a-half years later it became clear that there's an opportunity to actually found a real company around this.
 
-\[00:04:05.21\] I founded a company together with two other co-founders. I looked for two other people to found the company together, and that's what we did... Based in Boston, in the U.S, actually. That's also where I lived in the U.S. for two years. And yeah, this was the ownCloud company.
+\[04:05\] I founded a company together with two other co-founders. I looked for two other people to found the company together, and that's what we did... Based in Boston, in the U.S, actually. That's also where I lived in the U.S. for two years. And yeah, this was the ownCloud company.
 
 It was quite successful at the beginning, but over time it became clear that some things didn't really work out that well. There were some issues, to be honest, with my co-founders; I picked the wrong people, to be honest. There was also a little bit of misunderstanding how a real open source business should work.
 
@@ -40,7 +40,7 @@ For example, we are pure open source, we don't have proprietary extensions, we w
 
 This is something that's usually not the case with open core, because -- we had several interesting issues. For example, the enterprise edition had more features than the community edition, as mentioned before, but then sometimes a community person comes along and implements the enterprise feature in the community version. That's an interesting situation; then the company actually had to say "No, we can't accept this pull request, because this is going against our own business model."
 
-**Jerod Santo:** \[00:08:12.29\] Yeah... Misaligned incentives.
+**Jerod Santo:** \[08:12\] Yeah... Misaligned incentives.
 
 **Frank Karlitschek:** Yes, exactly. And that's, of course, stupid, because the community should be your friend; it shouldn't be your enemy somehow. And many other things - roadmap planning, product management doesn't really work if you don't really have the exact same product in the community... And the fact that everybody will contribute actually has to give the ownership of the code to the company.
 
@@ -68,7 +68,7 @@ This business model I think is a lot fairer to all the contributors, and then yo
 
 **Adam Stacoviak:** So going that route would definitely be on our side, right? You're not trying to sell a software, you're trying to sell us successful usage of that software.
 
-**Frank Karlitschek:** \[00:12:12.01\] Right.
+**Frank Karlitschek:** \[12:12\] Right.
 
 **Adam Stacoviak:** Is there enough meat in the business model? In every open source business opportunity there may not be, so how do you ensure, as you said, a self-funded, profitable, sustainable company? How do you ensure that win/win scenario? Is that the extremely difficult part?
 
@@ -92,7 +92,7 @@ Does this model work mostly, or only for mission-critical things such as hosting
 
 **Frank Karlitschek:** Sometimes other open source projects or comapnies come to me and ask for advice - "Hey, can we adopt the Nextcloud model? What's your recommendation?" And to be honest, in a lot of cases I have to say "No, this would probably not work for you", because software is different. What's special about Nextcloud is that it runs from very tiny to very big. So you can run our Nextcloud server on a Raspberry Pi for your family at home, but you can also run it on a big Linux cluster for 10,000 people. The biggest instance we have has 20 million users, actually, on one Nextcloud. And this is the same software; bit by bit, the same software.
 
-\[00:16:08.03\] This is a nice success factor for us, because we attract our contributors by being useful at home, but at the end of the day then selling support subscription to the huge guys. So this is something you want.
+\[16:08\] This is a nice success factor for us, because we attract our contributors by being useful at home, but at the end of the day then selling support subscription to the huge guys. So this is something you want.
 
 Another challenge is that this is something open source projects that are more in the middleware somewhere, like the Mongos and the Redises and others - they're facing at the moment with the cloud services, like Amazon, of course, where they just take the software and offer it as a service. That's a challenge. We don't really have this challenge too much, because first of all, we are more user-facing... Because if someone like Amazon takes MongoDB and offers hosting, and they rename it to AmazonDB, most developers probably don't care, because they know "Well, it's the same API, it's working, I can use it. All good." But we are user-facing, and if you want to offer this for your company, and then you say "Well, you can choose between Nextcloud and (I don't know) SuperCloud2000", then people will be irritated... Like, "What is that? I want to have the real thing." So for us it's a bit easier to sell to -- basically, not being exploited by the big cloud companies.
 
@@ -104,19 +104,19 @@ Another thing is that our mission is, of course, to provide security and privacy
 
 **Adam Stacoviak:** How often is the user type not wanting to use the public cloud, and using on-premise? That seems like a specific use. I don't think we could use on-premise. We're not an on-premise company, we're a distributed company, so we'd have to leverage a Linode, a DigitalOcean, or one of the big clouds, Azures and such... Is that common for an on-premise customer to be -- is that commonplace, I suppose?
 
-**Frank Karlitschek:** \[00:20:02.23\] The value proposition is -- I would say in 80% of the cases it is something around security and privacy... And this often means on-premise, but it doesn't really mean your own server in your basement. It can be in a hosting center that's next door, and you have a special contract with them, and they're certified, and they're in the same country, and you somehow trust them. It can be that.
+**Frank Karlitschek:** \[20:02\] The value proposition is -- I would say in 80% of the cases it is something around security and privacy... And this often means on-premise, but it doesn't really mean your own server in your basement. It can be in a hosting center that's next door, and you have a special contract with them, and they're certified, and they're in the same country, and you somehow trust them. It can be that.
 
 Other security things are also that you can audit the software. For example, we have some government users/customers who audited the software, so they actually looked at the code and paid people to check it, make sure everything is okay, and they looked for back-doors and other things... And because it's open source, they could check that there are no backdoors in it. That's not really possible with lots of other cloud service, Office 365, G Suite and so on.
 
 So this is important for most of our customers, but there are other benefits, too. For example, speed and cost. Usually, you say "Well, Amazon is affordable, and fast, and everything", but if you really have a lot of data... For example, Nextcloud is used by huge universities, particle accelerators research institutions who literally generate petabytes of data a day. It's really hard to upload all this data to Amazon or to Google Cloud. Because of that, they have their own hosting center in the same building. In this use case, Nextcloud can be useful to provide services, to collaborate on this data, to sync it to other machines, and so on. Amazon is big, but it becomes really expensive if you upload petabytes.
 
-**Break:** \[00:22:02.03\]
+**Break:** \[22:02\]
 
 **Jerod Santo:** I'm a bit curious about the actual forking process, since it was open core. I'm curious about the license interplay; surely, there were aspects of the software you had to leave behind, because they were proprietary aspects. Did you rewrite large swathes, was it inspired by ownCloud, or is it lots of source code came over? Tell us about the actual fork.
 
 **Frank Karlitschek:** Yeah, it was actually faster and easier than expected. When we planned it, "Hm, is this possible? Is this realistic or not?" We made a little bit of a plan; I think we planned to do the first Nextcloud release (I don't even remember) maybe two months after the announcement of the fork... It was like "Okay, we need to take the software, we need to change everything that's trademarked..." This was the most work, to be honest - to replace the old name that was still owned by the old company, with the new name. Search and replace is fast, but there are other places, like in pictures and logos, used in places, and so on... So this was a lot of work.
 
-\[00:24:15.11\] And then, as you mentioned, the proprietary pieces - of course, we can't use them, obviously, so we had to rewrite those pieces... But because most of the code development team actually moved over to Nextcloud, from day one we really had an awesome development team, so it actually was quite fast to replace all the pieces. I don't fully remember, but I think we had the first release after just 2-3 weeks after we announced the fork...
+\[24:15\] And then, as you mentioned, the proprietary pieces - of course, we can't use them, obviously, so we had to rewrite those pieces... But because most of the code development team actually moved over to Nextcloud, from day one we really had an awesome development team, so it actually was quite fast to replace all the pieces. I don't fully remember, but I think we had the first release after just 2-3 weeks after we announced the fork...
 
 **Jerod Santo:** Nice.
 
@@ -142,7 +142,7 @@ For example, a lot of the management of the old company was really confused when
 
 Then when the fork happened, people were really unchained, somehow. They were like "Oh, finally I can do what I want. I don't need to ask for permission to do this and that." And you can really see in the GitHub statistics that the productivity doubled and tripled. So it was more this kind of conflict. It was not inside the community in that way.
 
-**Jerod Santo:** \[00:27:53.26\] So talk about the community relationships. Nextcloud provides certain aspects of the cloud that are like the core experience files, photos, mail, contacts, stuff like that... You even have a to-do -- what's that, like a Kanban board thing called Deck, or On-Deck... Was it called Deck? I got logged out of the demo... As I was refreshing, it just logged me out. It warned me I was gonna get 60 minutes, and I think I'm out now.
+**Jerod Santo:** \[27:53\] So talk about the community relationships. Nextcloud provides certain aspects of the cloud that are like the core experience files, photos, mail, contacts, stuff like that... You even have a to-do -- what's that, like a Kanban board thing called Deck, or On-Deck... Was it called Deck? I got logged out of the demo... As I was refreshing, it just logged me out. It warned me I was gonna get 60 minutes, and I think I'm out now.
 
 And then there's this whole app store marketplace idea... So there's plugins... Is that what you're talking about, when they felt like they were at odds with the company? The people were willing to build out these aspects, which are like huge wins for a community, to add this brand new subsection of what -- you know, add a whole new room to your cloud... And I could see where that would butt up against an open core business, because that could be the proprietary "Pay for this feature." So is that what happened with Nextcloud, that it allowed the community to blossom around these plugins or the app store? Tell us about that.
 
@@ -160,7 +160,7 @@ I really believe in the creativity of the open source community, and this is why
 
 **Frank Karlitschek:** I have so many examples... One thing I can use as an example is the Maps app. There was the idea - and actually, to be honest, I heard from people like one, two, three years ago, who told me "Yeah, you want to work on a maps app, so you can have maps inside Nextcloud." And to be honest, I didn't really look into this idea too much, and I didn't really understand... For myself, I thought "Well, that's a weird/stupid idea. I don't want to have maps." I mean, you can go to some other mapping website, and Google will always be better than your Nextcloud maps.
 
-**Jerod Santo:** \[00:32:21.12\] Yeah.
+**Jerod Santo:** \[32:21\] Yeah.
 
 **Frank Karlitschek:** But whatever, people can do what they want. And people worked on it, and this is now a super, super-awesome app, I have to say. First of all, they won the contest of the coolest app of the year at our conference last fall, so people really like the maps app. And now that I really understand what people tried to build here, I also totally agree that it's super-awesome. For example, you can look at your photos on a map here. So if you synchronize your photos to your Nextcloud, the EXIF data is automatically extracted, and you can look at the photos on your map. That's obviously very useful to be able to do that without uploading your data to Dropbox or Google or Apple, or whatever. It's completely running on your own machine and your own infrastructure. You can also look where your contacts are based on a map.
 
@@ -176,7 +176,7 @@ But the functionality that's covered by a support contract is only the core prod
 
 **Jerod Santo:** It makes sense. I noticed in your GitHub org you have 170-something people at this point. How many of those community members have you ended up hiring? It seems like a pretty cool way of getting new hires - having community contributors building apps and then saying "Hey, why don't you come work for us?" Does that happen often?
 
-**Frank Karlitschek:** \[00:36:16.10\] Yeah, that happens often, and that's good and bad at the same time. I mean, hiring good developers for us is really easy, because if I need someone in a specific area, I can just look at the community and say "Hey, what you're doing as a hobby here - that's really nice. Do you want to get paid to do the same?" \[laughs\] So this is quite easy for us to find really good developers.
+**Frank Karlitschek:** \[36:16\] Yeah, that happens often, and that's good and bad at the same time. I mean, hiring good developers for us is really easy, because if I need someone in a specific area, I can just look at the community and say "Hey, what you're doing as a hobby here - that's really nice. Do you want to get paid to do the same?" \[laughs\] So this is quite easy for us to find really good developers.
 
 And of course, all these people - they already believe in the mission, they already understand the software, the framework. They're productive on day one, because they've already worked with the code... So hiring good developers is really easy for us. The problem is we have to be careful not killing our community... Because if you hire all the good people, then we turn the community into a company, and that's not what we want.
 
@@ -192,7 +192,7 @@ And of course, all these people - they already believe in the mission, they alre
 
 **Frank Karlitschek:** Yeah, first of all -- I mean, you're totally right... I have to be more precise with the term community, because sometimes when I talk to other companies, they're like "Yeah, we have this community, we have this community", and then they realize that they mean their customers; they call their customers community. So there are a lot of different ways to define communities.
 
-\[00:39:49.22\] For me, the community is usually the contributor community. They are the people who really helped to improve the software. And there can be coders, and there we have over 2,000 at the moment, who really help to send pull requests to the core functionality... And I don't even count the app ecosystem, because there I don't really have numbers. Some of them are developed on GitHub, and then of course we could do some statistics, but lots of those apps come from other sources, so I don't really know.
+\[39:49\] For me, the community is usually the contributor community. They are the people who really helped to improve the software. And there can be coders, and there we have over 2,000 at the moment, who really help to send pull requests to the core functionality... And I don't even count the app ecosystem, because there I don't really have numbers. Some of them are developed on GitHub, and then of course we could do some statistics, but lots of those apps come from other sources, so I don't really know.
 
 Then we have the translators. Nextcloud is available in 96 languages at the moment. Some of them are Klingon, and other things, but... \[laughter\]
 
@@ -218,13 +218,13 @@ But if you trust a volunteer who's trying to send in a bug fix, then you don't w
 
 From a business model perspective, it should be fair. They understand that we sell support, but the software should be available or everybody, so they should be able to use their own bug fix. That sounds obvious, but in a lot of cases this is not obvious. Maybe they have to buy the software later, that they fixed themselves, or some weird stuff...
 
-\[00:44:18.08\] So it's just like, "Make it easy to contribute." Of course, there's all the active things that you can do. For example, we are organizing a conference once a year, and some hackathons every few months, where we invite people, and we sometimes pay for travel. Very active community people we just invite, like "Hey, come to Berlin at summer, and we pay for the travel." This is something we do.
+\[44:18\] So it's just like, "Make it easy to contribute." Of course, there's all the active things that you can do. For example, we are organizing a conference once a year, and some hackathons every few months, where we invite people, and we sometimes pay for travel. Very active community people we just invite, like "Hey, come to Berlin at summer, and we pay for the travel." This is something we do.
 
 We have an active mentoring project where if you're a student and you want to get involved, we could give you a mentor to help you. We have a diversity program, where we help under-represented groups to get involved in Nextcloud. We have sponsoring, and internships, and other things... So we actively sponsor people and try to bring them into the community. But of course, at the end of the day we can only do this with a few people; we don't have the money to pay flights for a thousand people. So the thousands of volunteers - they have to like it. They have to like the software, they have to like the mission, they have to like the free software license... They have to like what we are doing, otherwise it's not possible to pay them to become part of the community.
 
 **Adam Stacoviak:** Let's laser into maybe a core product, like Files. How do you lead files in the direction it needs to go, in a community-driven way? Is there a product lead that works for Nextcloud that interfaces with a team (for a lack of better terms) in the community that says "Hey, I'll be a part of this team. I don't work for you, but I wanna contribute. Because I care enough/I wanna develop in these ways"? How does that work?
 
-**Frank Karlitschek:** Excellent question. We do releases of the software roughly three times a year. We have on our website communicated the schedule. For example, at the moment we're in the development phase of the version 19, and there will be a feature freeze in a few weeks. Then after that only bug fixes are allowed, and then the beta, and \[00:46:35.06\] This is organized by us, but it's not a big miracle, it's just a fixed release cycle.
+**Frank Karlitschek:** Excellent question. We do releases of the software roughly three times a year. We have on our website communicated the schedule. For example, at the moment we're in the development phase of the version 19, and there will be a feature freeze in a few weeks. Then after that only bug fixes are allowed, and then the beta, and \[46:35\] This is organized by us, but it's not a big miracle, it's just a fixed release cycle.
 
 Whatever pull requests are submitted during the development phase of this release, they go into the product. We have a review process for these pull requests. So everybody can send a pull request, and then two other core people need to approve it. They need to say "Yeah, this is secure. Fine. Coding style - fine. UI looks fine", whatever, and then it goes into the product.
 
@@ -234,7 +234,7 @@ To answer your question, how the Files part of Nextcloud looks in 19 is basicall
 
 We as a company do product management. We look at what our competition is doing, what is missing, this customer is asking for that, this needs to be refactored etc. Then we as a company tell our paid developers to work on those things. But at the end of the day, they just submit a number of pull requests. If someone else comes along and submits another pull request, then that's also part of the product. So there is not real central maintainer who says yes or no to every single feature. It's really who's doing the work decides.
 
-**Break:** \[00:48:41.20\]
+**Break:** \[48:41\]
 
 **Jerod Santo:** Frank, you've described how the community interacts with the company and how it's a community-driven open source project, with the Nextcloud company attached to it... And no doubt, you've been successful at building that community. The switch from open core to completely open source undoubtedly was a huge aspect of making that work. Like you said, you felt like you unlocked the community members to really do their thing when you switched from ownCloud to Nextcloud. I'm curious how else you had success building this community, because many open source projects want an awesome -- and we're talking about the contributor community, not just users... Thousands of contributors are excited and writing software that plugs into, or adds on top of Nextcloud, and I'm curious how you built that from the ground up.
 
@@ -242,7 +242,7 @@ We as a company do product management. We look at what our competition is doing,
 
 I think it's very important to understand that a lot of code contributors/developers, in the current job market -- I mean, they can get very nice jobs to write proprietary software for companies... So you really need to give them something so that they basically write code in their free time, without payment. A big factor here is to have a good vision and mission behind this.
 
-\[00:52:00.04\] If you're an open source project, you're a database -- I mean, maybe it's fun to make a database a little bit faster, or something; I'm sure it attracts some contributors. But in our case, it's really about providing security and privacy to users, and this is a big motivation, a big mission behind it, and this helps to attract people.
+\[52:00\] If you're an open source project, you're a database -- I mean, maybe it's fun to make a database a little bit faster, or something; I'm sure it attracts some contributors. But in our case, it's really about providing security and privacy to users, and this is a big motivation, a big mission behind it, and this helps to attract people.
 
 Also, to be honest, we picked some companies as our enemies, like the big cloud providers, like Microsoft, and Google and so on... And it's always helpful to be the small guy who is trying to compete--
 
@@ -258,7 +258,7 @@ I think if you're nice and transparent, and you have a vision, and it's easy to 
 
 **Jerod Santo:** I like the mission aspect as well. Giving something that people can really buy into; an idea, even more so than just a piece of software. An underdog story, and a vision of a life of security and privacy that you can contribute to I think is powerful. Did you guys do any deliberate community building around these relationships and the transparency? Were there meetups, or conferences, or a place where the community gathers?
 
-**Frank Karlitschek:** \[00:55:57.00\] Yeah, we're doing meetups and conferences and everything, but what we don't have is community management. A lot of companies have the normal company, and communication, and marketing, and development, and then they have this other department which takes care of the open source community. They have a community manager, and their job is to do these parallel activities, and these parallel events, and this parallel communication, and parallel development process, and stuff... And I find it weird. I mean, for us, it's the same. Our marketing also targets our community; it targets also our enterprise customers, but it also targets the community. In a lot of cases the message is also the same, because companies care about privacy and security, and our contributors, too. And the events - that's also a huge overlap. So we're trying to integrate that.
+**Frank Karlitschek:** \[55:57\] Yeah, we're doing meetups and conferences and everything, but what we don't have is community management. A lot of companies have the normal company, and communication, and marketing, and development, and then they have this other department which takes care of the open source community. They have a community manager, and their job is to do these parallel activities, and these parallel events, and this parallel communication, and parallel development process, and stuff... And I find it weird. I mean, for us, it's the same. Our marketing also targets our community; it targets also our enterprise customers, but it also targets the community. In a lot of cases the message is also the same, because companies care about privacy and security, and our contributors, too. And the events - that's also a huge overlap. So we're trying to integrate that.
 
 Another interesting thing is -- yeah, maybe to explain this a bit better... It's like in the old days, at the old project, we actually had two websites. We had a .com website and a .org website. The .com website was for the big-paying customers, and the .org was for the community. And it's always a bit weird. Nowadays we have only one website, and we balance it for both target groups, and it works out quite well.
 
@@ -282,7 +282,7 @@ To be honest, there are sometimes two target groups. In so many cases where I ha
 
 With Nextcloud it's, of course, a special situation, because it basically was founded with the core group, who really did this years before... So we really have this special understanding and focus on the community and the product and everything, so we are able to combine those two worlds in maybe a unique way.
 
-\[00:59:55.27\] Normal companies have the managers, and if you tell them "Well, we also have this community" - they don't really understand it, in most cases. Like, "Yeah, we have these weird developers that sit in the basement and they work for free. I don't really understand the mechanics..." \[laughter\] You don't see a lot of companies who really understand the power of open source. In a lot of cases with open source there's a weird license, or open source is just like "Yeah, we have this freemium model where other people use our product without paying us. That's open source." But the real social, humanistic aspect of it - you don't see it that often.
+\[59:55\] Normal companies have the managers, and if you tell them "Well, we also have this community" - they don't really understand it, in most cases. Like, "Yeah, we have these weird developers that sit in the basement and they work for free. I don't really understand the mechanics..." \[laughter\] You don't see a lot of companies who really understand the power of open source. In a lot of cases with open source there's a weird license, or open source is just like "Yeah, we have this freemium model where other people use our product without paying us. That's open source." But the real social, humanistic aspect of it - you don't see it that often.
 
 **Adam Stacoviak:** What would you say are the biggest challenge your facing is right now? You specifically, and then the company at large.
 

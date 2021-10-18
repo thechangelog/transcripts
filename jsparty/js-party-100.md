@@ -12,7 +12,7 @@ But with Safari making restrictions \[unintelligible 00:03:10.02\] CCPA coming o
 
 **Kevin Ball:** It's a great question. I think there's a number of different things inside that question. We were chatting earlier about client-side versus server-side testing... On the client side I see more and more things (broadly, not just A/B testing) moving to first-party scripts. So I see us hopefully getting away from the "load this tech from this site, and this tech from this site" and the bundle that ends up creating all of these nightmarish long download sites, and tracking from 20 different places... Marketing departments love it, it's terrible for consumers, and I think we're finally seeing regulation pushing us in a way that's gonna say "Hey, that's not viable anymore."
 
-\[00:04:03.15\] So I think for client-side testing we are going to see things moving towards instead of you just drop in a third-party script, you actually have to have an engineer do some work, and you do something that is first-party, so that you have full control over, and is not restricted in the same way. That's probably a negative for marketing departments...
+\[04:03\] So I think for client-side testing we are going to see things moving towards instead of you just drop in a third-party script, you actually have to have an engineer do some work, and you do something that is first-party, so that you have full control over, and is not restricted in the same way. That's probably a negative for marketing departments...
 
 **Jake Lundberg:** I was about to say.
 
@@ -36,11 +36,11 @@ You only really need the bulk data to get the analysis piece to understand which
 
 **Jerod Santo:** Thanks, Jake.
 
-**Break:** \[00:07:50.09\]
+**Break:** \[07:50\]
 
 **Jerod Santo:** Next up we have Amal Hussein talking about finding your tribe at conferences. Take a listen.
 
-**Break:** \[00:07:59.28\]
+**Break:** \[07:59\]
 
 **Amal Hussein:** Hi, Jerod and Kevin.
 
@@ -146,7 +146,7 @@ You only really need the bulk data to get the analysis piece to understand which
 
 **Kevin Ball:** Yup, exactly. I mean, the fun thing is - it is neat to see people who cross worlds. I love the fact that she's out there, getting people to be uncomfortable... Because as developers, a lot of times we're not very comfortable putting ourselves out there, shaking our body, moving our body a little bit...
 
-**Jerod Santo:** \[00:12:12.12\] Especially in the afternoon...
+**Jerod Santo:** \[12:12\] Especially in the afternoon...
 
 **Amal Hussein:** What body? We have a body? I don't know about that...
 
@@ -172,11 +172,11 @@ You only really need the bulk data to get the analysis piece to understand which
 
 **Kevin Ball:** TikTok...
 
-**Break:** \[00:13:04.03\]
+**Break:** \[13:04\]
 
 **Jerod Santo:** Here's Matt Broberg asking us some hard questions. This guy might have a future in podcasting.
 
-**Break:** \[00:13:14.02\]
+**Break:** \[13:14\]
 
 **Jerod Santo:** We have five minutes on the watch here... It's your show. What do you wanna talk about?
 
@@ -218,7 +218,7 @@ You only really need the bulk data to get the analysis piece to understand which
 
 **Kevin Ball:** So if you start in React, pick React and get React down. Understand it. Go deep. Try to get as much as you can in that, and really understand it before you start branching out. And I don't even say that within a specialty. So I've talked to folks who were like "Oh, I wanna learn React, and I wanna learn Vue, and I wanna learn Svelte, and I wanna learn Angular", and they're trying to learn all these things at once. They have a lot in common; if you go deep on one, you'll be able to branch out really easily later. But if you try to branch out at the beginning, you're gonna get overwhelmed and never fully understand what's going on there. So I would say start one place, go deep.
 
-\[00:16:22.12\] This actually ends up being played out if you look at published industry career maps. There's a bunch of companies who have published their career maps of "Oh, here's what we expect a junior developer, and here's what we expect a senior developer, and a tech lead", and going on and on and up into architects, what have you... They have this sort of progression, and in the beginning it's learn how to learn, and learn one thing deeply. Then as you get up into a senior engineering position, maybe you're 4-5 years in, now you're branching out and you're saying "Okay, I know my deep thing, and now I need to know the things it's interacting with." And as you get into the industry for more like 8, 9, 10 years, now you should be able to understand all the pieces and how they're fitting together, and go further and further.
+\[16:22\] This actually ends up being played out if you look at published industry career maps. There's a bunch of companies who have published their career maps of "Oh, here's what we expect a junior developer, and here's what we expect a senior developer, and a tech lead", and going on and on and up into architects, what have you... They have this sort of progression, and in the beginning it's learn how to learn, and learn one thing deeply. Then as you get up into a senior engineering position, maybe you're 4-5 years in, now you're branching out and you're saying "Okay, I know my deep thing, and now I need to know the things it's interacting with." And as you get into the industry for more like 8, 9, 10 years, now you should be able to understand all the pieces and how they're fitting together, and go further and further.
 
 But when you're just getting in, learn one thing. Don't be intimidated by all the stuff and feel like you have to do all that. That's hype, that's baloney.
 
@@ -232,11 +232,11 @@ But when you're just getting in, learn one thing. Don't be intimidated by all th
 
 **Matt Broberg:** No, man. Lightning-talking with three people...
 
-**Break:** \[00:18:28.12\]
+**Break:** \[18:28\]
 
 **Jerod Santo:** Crystal Williams-Brown approached the booth right before I was packing up to tell me about Code The Dream.
 
-**Break:** \[00:18:42.06\]
+**Break:** \[18:42\]
 
 **Jerod Santo:** Crystal, thanks for joining me. What would you like to talk about today?
 
@@ -248,7 +248,7 @@ But when you're just getting in, learn one thing. Don't be intimidated by all th
 
 And then they saw people were having a hard time getting hired, because they didn't have the work experience, so they created Code The Dream Lab, where we can make practice apps, and then make apps for other nonprofits and socially-conscious business.
 
-**Jerod Santo:** \[00:20:07.22\] Cool! So how did you get involved?
+**Jerod Santo:** \[20:07\] Cool! So how did you get involved?
 
 **Crystal Williams-Brown:** Actually, I was looking for a way to learn programming for free. I was unemployed. I'd struggled with employment for a while, and I actually do have two degrees, but neither one led to any kind of gainful employment... And I was led through the Iron Yard, oddly enough. I reached out to them and I said I couldn't afford their classes, but I really wanted to learn, and they said "Well, Code The Dream has free programming classes. You should look into them", and I was very grateful for that help.
 
@@ -296,11 +296,11 @@ And then they saw people were having a hard time getting hired, because they did
 
 **Crystal Williams-Brown:** Thank you!
 
-**Break:** \[00:23:15.08\] to \[00:23:57.06\]
+**Break:** \[23:15\] to \[23:57\]
 
 **Jerod Santo:** Okay, here's the live show on stage. Please bare with the audio if you can, because we have a lot of great guests that you will not want to miss. Here we go.
 
-**Break:** \[00:24:04.20\]
+**Break:** \[24:04\]
 
 **Jerod Santo:** Okay, well the sound of those beats means it's time for JS Party. My name is Jerod Santo, thanks for joining us. I'm joined by Kevin Ball. He goes as Kball. Say hi, Kball.
 
@@ -346,7 +346,7 @@ The first person we'd like to call up on the stage is Danese Cooper. Danese is h
 
 **Danese Cooper:** Yeah, sure. I worked on the OSI for ten years, so I'm in a good position to talk about it, I think... I think I might have served longer than almost anybody else. But Michael Tiemann, local god of open source was on that board with me, too.
 
-\[00:27:53.05\] The OSI decides whether licenses are OSD-compliant. OSD is the Open Source Definition. It's ten clauses, it's very straightforward. It's common right now for people to be suggesting changes to open source that would make it better. We actually got a -- a license was submitted this week called the Vaccine License. It has a field of uses restriction that only lets you use this software if you've vaccinated your children. People are suggesting really silly field of use restrictions... But some of them are well-intentioned, like "I wish that big corporations would have to pay", so I wanna put a clause on the license that says that that is a field of use restriction; that automatically disqualifies you from OSI approval, because that clause in the OSD says you cannot do field of use restrictions...
+\[27:53\] The OSI decides whether licenses are OSD-compliant. OSD is the Open Source Definition. It's ten clauses, it's very straightforward. It's common right now for people to be suggesting changes to open source that would make it better. We actually got a -- a license was submitted this week called the Vaccine License. It has a field of uses restriction that only lets you use this software if you've vaccinated your children. People are suggesting really silly field of use restrictions... But some of them are well-intentioned, like "I wish that big corporations would have to pay", so I wanna put a clause on the license that says that that is a field of use restriction; that automatically disqualifies you from OSI approval, because that clause in the OSD says you cannot do field of use restrictions...
 
 We talked about this a lot 20 years ago. Most of us in those days were libertarians, or at least liberal-leaning, and some of us didn't want the software to be used for instance for nuclear power, or for weaponry. But we debated it out and realized that we had to set that aside in order to not create the slippery slope of everybody needs a special carve-out. And all through the history of OSI, licenses that aren't OSD-compliant come from companies that are trying to get a carve-out for their business model, because they don't have a good, strong understanding that open source is not a business model, and they're gonna need to change what they do. They can't have their cake and eat it, too. Either they get the halo effect of open source, or they get to say how they wanna run their business in ways that open source people would not appreciate. But they can't do both.
 
@@ -380,7 +380,7 @@ Examples of recent things that were problematic - Facebook a few months or a yea
 
 **Emma Wedekind:** What do you wanna talk about?
 
-**Mo Hampton:** \[00:31:55.12\] For me, something dear to my hear is just breaking into tech. I've done that transition about three years ago, and I love what I do. There's no other job out there for me. I'm a software engineer right now...
+**Mo Hampton:** \[31:55\] For me, something dear to my hear is just breaking into tech. I've done that transition about three years ago, and I love what I do. There's no other job out there for me. I'm a software engineer right now...
 
 **Jerod Santo:** Awesome.
 
@@ -410,7 +410,7 @@ One place where we as coders often fall down is in communication with people out
 
 **Emma Wedekind:** Right. Well, degrees does not equate to your intelligence. I think IBM just recently started doing apprenticeships -- not apprenticeships, but like trials for bootcamp attendees, where they would bring them in, hire them for a year, and help them grow. So even if you didn't feel like you were prepared, they would try to coach you along and help you. I think what's important is potential and willingness to learn, as opposed to the piece of paper that you would get if you graduated.
 
-**Mo Hampton:** \[00:36:06.17\] And I think it's good also because we have -- say for me, I'm stronger probably in my soft skills than I am in my skills of software engineering, but I do have the people that have that background education to bridge that gap. So it's very good as long as we know our skillsets and we know the gaps. We come together and try to help each other out.
+**Mo Hampton:** \[36:06\] And I think it's good also because we have -- say for me, I'm stronger probably in my soft skills than I am in my skills of software engineering, but I do have the people that have that background education to bridge that gap. So it's very good as long as we know our skillsets and we know the gaps. We come together and try to help each other out.
 
 **Emma Wedekind:** Absolutely.
 
@@ -494,7 +494,7 @@ So accessibility is not just about what we traditionally think of as accessibili
 
 **Maria Lamardo:** Yeah. Even thinking about creating progressive web apps, where you could just launch right off your home screen, and it's just that much easier, once that launched. And even if you don't have great connectivity... So it's very important.
 
-\[00:39:53.10\] Playing off of what Mo was saying, coming from a different background really gave me a new perspective, because I already had the experience from all the users who were struggling interacting with these applications... And I just didn't know that a world existed for coding such things. So now coming into it, it's like "Well, I know exactly where all the pain points are" and "What can we do to fix it?"
+\[39:53\] Playing off of what Mo was saying, coming from a different background really gave me a new perspective, because I already had the experience from all the users who were struggling interacting with these applications... And I just didn't know that a world existed for coding such things. So now coming into it, it's like "Well, I know exactly where all the pain points are" and "What can we do to fix it?"
 
 So I do think that it's super-advantageous to come in with that fresh perspective, and never let your different background be a negative thing. I think it's always a good thing.
 
@@ -550,7 +550,7 @@ We've heard a lot of companies say they don't like to hire junior developers, be
 
 **Eva Howe:** You can come by our booth. We have one literally outside this door. Or you can email hi@thisdot.co.
 
-**Emma Wedekind:** \[00:43:55.17\] How does the mentorship aspect of that work?
+**Emma Wedekind:** \[43:55\] How does the mentorship aspect of that work?
 
 **Eva Howe:** It varies from woman to woman. It depends on the contract too, but the idea is that the mentor is there to help unblock the woman, to check PRs so that she's not crashing anything when she merges... And then also just to help navigate being on the technical team, especially in a sense where she may be the only woman on the team. That gets a little bit more tricky, because a lot of times the senior developer will be male, and that's hard to have that do... But in that case we like to try to plug her into her local community, where she can find more mentors that are female too, even if they're not working on that particular project.
 
@@ -590,7 +590,7 @@ Nobody is training senior folks. Everyone's trying to hire senior folks, but we 
 
 **Eva Howe:** No worries.
 
-**Jerod Santo:** \[00:48:02.19\] Alright, let's hear it for Eva. \[applause\] We talked of Vanessa. Is Vanessa here? There is Vanessa! Come on down...
+**Jerod Santo:** \[48:02\] Alright, let's hear it for Eva. \[applause\] We talked of Vanessa. Is Vanessa here? There is Vanessa! Come on down...
 
 **Emma Wedekind:** Yaay!
 
@@ -676,7 +676,7 @@ Nobody is training senior folks. Everyone's trying to hire senior folks, but we 
 
 **Vanessa Alvarez:** Something interesting that we've been doing in my company - we stopped whiteboarding, and right now what we're doing is basically we have a bunch of functions, and then we tell the person like "Hey, just pretend that we're working together, we're collaborating, just like a normal day, and just tell us what is this function doing." Then we start talking. We want that engagement and we like that conversation happening... We're testing not so much their technical skills - those too, partly - but more about collaboration. We wanna know if this person will reach to us if they have any questions. It has worked for us very well.
 
-**Emma Wedekind:** \[00:52:27.14\] It's like less of a test and more of a collaboration.
+**Emma Wedekind:** \[52:27\] It's like less of a test and more of a collaboration.
 
 **Vanessa Alvarez:** Right. So it's like "Did you read and understand this function?" "Yes." "Okay, awesome." And if they get stuck, "What are you thinking about? Tell us." "Oh, this is what's going through my mind." That has worked better, and we have gotten them to be not so nervous, and it has helped us a lot.
 
@@ -746,7 +746,7 @@ Nobody is training senior folks. Everyone's trying to hire senior folks, but we 
 
 **Clinton Dreisbach:** The easiest way I've seen so far - and this just takes time - is helping companies learn that hiring junior developers and training them is pretty much the best investment they can have. Our industry people change jobs so quickly... But you bring someone in early, and you help train them, and they become a really loyal, really amazing employee, that knows what's going on there as well as anyone.
 
-**Jerod Santo:** \[00:55:59.07\] The risk is that the loyalty doesn't actually stick, because people do move around so much that if I'm gonna invest three years in a person and then they're gonna go upgrade to a different job, to me that's a loss.
+**Jerod Santo:** \[55:59\] The risk is that the loyalty doesn't actually stick, because people do move around so much that if I'm gonna invest three years in a person and then they're gonna go upgrade to a different job, to me that's a loss.
 
 **Kevin Ball:** Well, I think to both of your points - you have to think about it as an investment. Investments have risks. But if we're willing to put in thousands of dollars to recruiting, we should be willing to put in half of that amount to training the people we already have.
 
@@ -838,7 +838,7 @@ Yeah, so... There's some pressure, but it's fun to do. I think teaching is hard,
 
 **Emma Wedekind:** Où habites-tu?
 
-**Henri Helvetica:** \[00:59:57.22\] Je suis Canadien et j'habite à Toronto.
+**Henri Helvetica:** \[59:57\] Je suis Canadien et j'habite à Toronto.
 
 **Emma Wedekind:** I have no idea what you've just said. \[laughter\]
 

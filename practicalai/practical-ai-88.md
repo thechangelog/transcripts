@@ -12,7 +12,7 @@ So that's been a lot of fun... But then I kind of tried to be fitting that into 
 
 **Daniel Whitenack:** I've seen people go back and forth, I've also seen people call for "Hey, let's not do this virtual conference thing after the crisis ends", because some people like in-person interaction. I think that, like you say, it's definitely not gonna be the same afterwards.
 
-\[00:03:49.19\] There are a variety of people trying to make it a new type of experience. At ICLR there were a few guys from California, they built this little app -- not just for ICLR, I don't think, but someone created a space for ICLRparticipants; it's called Online Town, and it's basically like you join into ICLR Online Town, and you've got a little pixel art guy, kind of like on Zelda Game Boy, if you ever played that, and you can kind of walk around Online Town... So there's like a beach, and there's like this conference room area place, and there's like a grassy lawn...
+\[03:49\] There are a variety of people trying to make it a new type of experience. At ICLR there were a few guys from California, they built this little app -- not just for ICLR, I don't think, but someone created a space for ICLRparticipants; it's called Online Town, and it's basically like you join into ICLR Online Town, and you've got a little pixel art guy, kind of like on Zelda Game Boy, if you ever played that, and you can kind of walk around Online Town... So there's like a beach, and there's like this conference room area place, and there's like a grassy lawn...
 
 You kind of walk around, and then everybody else in Online Town is also walking around. As you get close to them, then their video chat opens. So it's kind of like you're bumping into someone on Online Town, and you can talk to them, and introduce yourself, and then you can go down to the beach in Online Town, and talk about things, AI or not related... So that was actually incredibly fun.
 
@@ -46,7 +46,7 @@ You kind of walk around, and then everybody else in Online Town is also walking 
 
 **Chris Benson:** But speaking of info, we've had a couple of recent episodes about Covid; we'll link those. But today, since everyone is interacting online and still trying to work and still trying to figure out work... It's been a while since we've done one of these Fully Connected episodes, so we thought it might be kind of fun to just have an episode where we address some of the questions that we've run across in forums, online, related to AI.
 
-\[00:07:48.02\] I think we did this... I don't know when this was. It was quite a few episodes ago, but we kind of searched around Quora, and Kaggle, and Stack Exchange, and Reddit, and tried to answer some of the questions - or at least discuss some of the questions if they were ridiculous, happening online. So yeah, hopefully you enjoy this episode. We've done the same here. We've basically gone around to various places online and saw what are those questions that are popping up on the top of the list, related to artificial intelligence... And we're just gonna kind of rapid-fire, go back and forth and discuss some of these. Chris, you reached out online and got some questions from listeners as well, that we can maybe discuss...
+\[07:48\] I think we did this... I don't know when this was. It was quite a few episodes ago, but we kind of searched around Quora, and Kaggle, and Stack Exchange, and Reddit, and tried to answer some of the questions - or at least discuss some of the questions if they were ridiculous, happening online. So yeah, hopefully you enjoy this episode. We've done the same here. We've basically gone around to various places online and saw what are those questions that are popping up on the top of the list, related to artificial intelligence... And we're just gonna kind of rapid-fire, go back and forth and discuss some of these. Chris, you reached out online and got some questions from listeners as well, that we can maybe discuss...
 
 **Chris Benson:** I didn't give folks a lot of time... I announced a few hours ago that we're gonna do this on social media channels, but got some good questions.
 
@@ -74,7 +74,7 @@ I also saw some really interesting things around using ideas from physics and sc
 
 **Chris Benson:** I've definitely seen both of your examples. I've seen the same. There's been more and more physics stuff coming into it in terms of solving complex physics... You mentioned graph neural networks, and we actually talked about that last week in reinforcement learning for chip design, our most recent episode with Anna and Azalia; they're both in the Google Brain team and they were talking about their use of it. So that's a very immediate thing.
 
-\[00:11:49.04\] I think the thing that I've really noticed, especially since New Year's, is a real focus beyond deep learning. We had several years where everything was deep learning, in all capacities, and a lot of the big names, the legends in this space are really turning towards what does it take to get past that in terms of intelligence, and what are the core constituents that make up the idea of consciousness, and the focus on attention, and what do we need to add to these architectures that take them beyond the constraints or the limitations of deep learning.
+\[11:49\] I think the thing that I've really noticed, especially since New Year's, is a real focus beyond deep learning. We had several years where everything was deep learning, in all capacities, and a lot of the big names, the legends in this space are really turning towards what does it take to get past that in terms of intelligence, and what are the core constituents that make up the idea of consciousness, and the focus on attention, and what do we need to add to these architectures that take them beyond the constraints or the limitations of deep learning.
 
 So there's the research perspective, and there's the industry perspective... I think in industry we're gonna see deep learning models continuing to be very prolific and very productive for a long time to come, because you can use them in so many different applications. But I think the research world is starting to say "Okay, we've done that. How do we move past that?" So I'm really excited to see over the next year or two what kind of research directions and potentially breakthroughs might occur to lead us beyond the world of deep learning.
 
@@ -100,7 +100,7 @@ Also, I've found -- recently, I've really enjoyed working with Streamlit. We did
 
 **Chris Benson:** That sounds good. I'm just curious -- I know when you teach your classes you do both the TensorFlow curriculum and you also do PyTorch. I'm just curious, with the religious wars there...
 
-**Daniel Whitenack:** \[00:15:47.04\] So in past trainings I've done both; I've done ones where I've just used one or the other. In the one I'm doing upcoming in May I'm gonna be using both. And my thought on that -- we'll see how it goes, I guess, but my thought on it is me as a data scientist, I have to use both... Because it's like you solve one problem, and there's this great TensorFlow implementation, and it just makes sense for you to grab that, and maybe tweak it a little bit and use it in another case, like, there's this great PyTorch implementation... Maybe it's because I'm lazy, but I'm never really starting from scratch. I'm starting from something someone has done.
+**Daniel Whitenack:** \[15:47\] So in past trainings I've done both; I've done ones where I've just used one or the other. In the one I'm doing upcoming in May I'm gonna be using both. And my thought on that -- we'll see how it goes, I guess, but my thought on it is me as a data scientist, I have to use both... Because it's like you solve one problem, and there's this great TensorFlow implementation, and it just makes sense for you to grab that, and maybe tweak it a little bit and use it in another case, like, there's this great PyTorch implementation... Maybe it's because I'm lazy, but I'm never really starting from scratch. I'm starting from something someone has done.
 
 **Chris Benson:** Most of us are.
 
@@ -108,7 +108,7 @@ Also, I've found -- recently, I've really enjoyed working with Streamlit. We did
 
 **Chris Benson:** But I just wanna point out - you make a great point there, in that most of us start from benefitting from the work of others, and that transfer learning effect is a powerful, powerful thing, and we're able to get a lot more done that we would otherwise do. So that's a very practical/pragmatic way of looking at that.
 
-**Break:** \[00:17:06.08\]
+**Break:** \[17:06\]
 
 **Chris Benson:** I am gonna return back to the non-technical questions that we got asked. On one of my social media channels a friend named Susan Finegold asked "What concerns me is what can be done to prevent a hostile country, or just a criminal person or a criminal enterprise from developing AI for malicious reasons? For instance, it seems like it would be easy to use AI for terrorism, or to greatly influence or change election results, or to modify digital media for nefarious purposes." The things go on and on. How do you see that, Daniel? I know we both come from these two different sides... We'll start with you.
 
@@ -122,7 +122,7 @@ I know you've been thinking a lot about ethics questions, and all those things, 
 
 **Chris Benson:** Yeah, and that's largely where I'm at, too. I like to believe that the vast majority of us are using AI either for just normal business purposes, with some sense of benevolence in that process... Or explicitly, as we like to talk about all the time, AI for good. There are certainly bad actors out there in the world, just as you pointed out, with technology, that will use any technology, including AI, for nefarious purposes.
 
-\[00:20:12.00\] I can say in kind of a broad brush stroke, non-specific way, that certainly the different aspects of Western governments in general, and certainly the U.S. government, as we're here in the United States, have their eye on that. I think the U.S. military, the defense industry, the intelligence community and the law enforcement community are becoming very savvy at how to detect and understand what those threats are and trying to respond effectively to those; and I have some insight into that world.
+\[20:12\] I can say in kind of a broad brush stroke, non-specific way, that certainly the different aspects of Western governments in general, and certainly the U.S. government, as we're here in the United States, have their eye on that. I think the U.S. military, the defense industry, the intelligence community and the law enforcement community are becoming very savvy at how to detect and understand what those threats are and trying to respond effectively to those; and I have some insight into that world.
 
 I think, as you said, there are really smart people that are working very hard against that... So I think what I would say to Susan or anyone else is as you learn about AI in the world and some of the capabilities that we have, just like you would with email spam and other things, be practical in how you respond to different types of interactions that you have. But on the larger scale there are good folks working on that. So kind of leave it to them and be supportive of that work, and... That's where I'll stop.
 
@@ -158,7 +158,7 @@ In a convolutional neural network, which is often used for image processing, or 
 
 I probably didn't describe that in an extremely logical way. Maybe I wouldn't pass the data science interview, but...
 
-**Chris Benson:** \[00:24:11.12\] No, I think you just did pass the data science interview. That was pretty good. I'll tackle it a slightly different way though, quickly. If you think of a neural network in general as being many layers of these nodes, as Daniel described, then if you think of an image and how you break down that image, and that some layers start with the most basic aspects of an image, such as a color gradient between two distinct colors, where from that you might drive a line, and if you put some of those together you might get a curve on that line, and then small basic objects are formed... And different layers in that network handle different aspects of that.
+**Chris Benson:** \[24:11\] No, I think you just did pass the data science interview. That was pretty good. I'll tackle it a slightly different way though, quickly. If you think of a neural network in general as being many layers of these nodes, as Daniel described, then if you think of an image and how you break down that image, and that some layers start with the most basic aspects of an image, such as a color gradient between two distinct colors, where from that you might drive a line, and if you put some of those together you might get a curve on that line, and then small basic objects are formed... And different layers in that network handle different aspects of that.
 
 But eventually, just as you might build something up with Legos, you build up an image from these very basic constituents that each build upon each other, all the way to the complexity of maybe a very rich photograph. So that kind of break down or build up is how a convolutional neural network codes or decodes an image that it's trying to look at.
 
@@ -186,7 +186,7 @@ I think that people go wrong when they start with "The end has to be an AI thing
 
 **Chris Benson:** That's great advice.
 
-**Daniel Whitenack:** \[00:27:48.04\] That basically drives everything. So just satisfy your customers. If AI is needed to do that, then that's great. But there's certainly many products that don't have AI involved in them and they satisfy their customers... Like you say, it's maybe not starting with the "I'm gonna build an AI product" but "I'm gonna solve a problem" is probably the better path.
+**Daniel Whitenack:** \[27:48\] That basically drives everything. So just satisfy your customers. If AI is needed to do that, then that's great. But there's certainly many products that don't have AI involved in them and they satisfy their customers... Like you say, it's maybe not starting with the "I'm gonna build an AI product" but "I'm gonna solve a problem" is probably the better path.
 
 **Chris Benson:** Sounds good.
 
@@ -210,7 +210,7 @@ Of course, in terms of deployment, again, it's similar to any other software cod
 
 **Chris Benson:** Yeah, it's funny, we're at a moment where the major platforms - and I'll tackle it a little bit more from the deployment standpoint - have their own systems... Since I've already acknowledged that I tend to be in the TensorFlow ecosystem more, they have TFX, which is TensorFlow Extended, which is what they refer to as an end-to-end platform for deploying production ML pipelines is how they say it... But in general, I think there's still a great deal of variability in the industry in terms of how different organizations do it, and their end targets in terms of where they want to get models deployed to for use - maybe it's in a data center, maybe it's out on the edge somewhere - tends to be pretty customized. There's a lot of "We've taken a system, but now we're gonna add our own special need to it."
 
-\[00:32:08.15\] I know certainly in our organization we have some fairly unusual deployment targets by most people's standards. We definitely have to come up with an approach that works for us... So I think that's pretty typical. I don't think the world has settled in a standard way to do that, but I think the one thing -- it's still a little bit of a... I think a lot of people perceive it as a bit of a dark art to do deployment at this point.
+\[32:08\] I know certainly in our organization we have some fairly unusual deployment targets by most people's standards. We definitely have to come up with an approach that works for us... So I think that's pretty typical. I don't think the world has settled in a standard way to do that, but I think the one thing -- it's still a little bit of a... I think a lot of people perceive it as a bit of a dark art to do deployment at this point.
 
 The thing I always remind people is it's really just software development at that point, which is kind of what you were alluding to. At the end of the day you have a function, it may be different from other functions in the number of parameters, so you may have to accommodate in your architecture that you're deploying to how are you going to get all the data in if you have many inputs into your model; how do you get the data on time to that, through the model, the correct thing. That can affect your software and system architecture a bit.
 
@@ -218,7 +218,7 @@ But other than that, I know I have a strong preference for deploying in containe
 
 But for the most part, as soon as you get done with training, you're really moving into a software deployment world again... Which is a little bit foreign to people who are just data scientists. But anyway, it's good, because if the data science world can figure out what it wants to do in it, there's a lot of good options there that are fairly mature.
 
-**Break:** \[00:33:51.29\]
+**Break:** \[33:51\]
 
 **Daniel Whitenack:** Let's do another one... Maybe this is a quick one.
 
@@ -230,7 +230,7 @@ But for the most part, as soon as you get done with training, you're really movi
 
 **Daniel Whitenack:** I mean, you could buy one with a nifty GPU or something, but if you're using something like Colab Pro or something to do your initial testing, and then you're deploying on some giant cluster or something that your company has, it really doesn't matter. Buy a Chromebook.
 
-**Chris Benson:** \[00:36:08.09\] I'm the same.
+**Chris Benson:** \[36:08\] I'm the same.
 
 **Daniel Whitenack:** I think the biggest computing I do on my laptop is running a bunch of tabs of Chrome, plus Slack simultaneously. It kind of maxes out my memory usage... So yeah, I don't know. That's my quick answer to that one. I don't know if you disagree.
 
@@ -264,7 +264,7 @@ So we update those weights and biases, and then we look back to the beginning an
 
 **Chris Benson:** No, I think you got it. You mentioned about randomizing in the beginning... So that first time through, you're definitely not optimized to solve for the thing that your network is trying to learn... It's usually substantially off. And you can think of each back-prop, when it goes back to those weights, as tweaking all the weights and all the little connections in the network... And then it tries again. And each time it tweaks, it tests, and through the loss function it works its way closer and closer to a low amount of error.
 
-\[00:40:06.28\] There's some point where you decide it's good enough, as the person training the network, and you say "When it gets to that low of an error rate, we're good to go." And that's what that propagation tries to do in a feed-forward network.
+\[40:06\] There's some point where you decide it's good enough, as the person training the network, and you say "When it gets to that low of an error rate, we're good to go." And that's what that propagation tries to do in a feed-forward network.
 
 **Daniel Whitenack:** Yeah. Well, Chris, what other questions seem interesting to you?
 
@@ -292,7 +292,7 @@ So what we're seeing is we're becoming more productive by using these models in 
 
 **Daniel Whitenack:** Unfortunately, not everything published is correct... So just keep that in mind. Let's see, maybe we can move on to another fun one here. "What sucks about AI?" That's a question on the internet. What sucks about AI, Chris? I don't know if we wanna add this one into our podcast, because our podcast is about AI. Just a note - if AI sucks, that doesn't mean our podcast sucks. Just to clarify.
 
-**Chris Benson:** \[00:44:00.00\] So I have one, and we've talked about this before, and you have this - pardon me - creepy like for what I'm about to say. You know what it is now, don't you?
+**Chris Benson:** \[44:00\] So I have one, and we've talked about this before, and you have this - pardon me - creepy like for what I'm about to say. You know what it is now, don't you?
 
 **Daniel Whitenack:** I do, yeah.
 
@@ -316,7 +316,7 @@ I know you're spending all of your time doing that, and I spend all of my spare 
 
 **Chris Benson:** Yeah, I'll speak specifically at what my current interest is. And this shows my bias that I'm in the TensorFlow ecosystem... Google has now a certificate program out there where you can go and actually get certified in your TensorFlow expertise. And it is not an easy certificate to get, I'll warn you. This is not an entry-level thing. But if you've been in this space for a while, and you think that you're pretty good in your usage of TensorFlow, and you want to be able to establish it...
 
-\[00:46:53.14\] I know that there have been third-parties with certificates, but they're not taken very seriously. But now with the TensorFlow team itself sponsoring this certification process -- and you actually don't have to go into a testing center. It's good for a Covid-19 reality that we're all in; you can do it from home, on your laptop, and they have a mechanism - you're allowed up to five hours to get your test done. They test you, and everything from use of CNNs, to natural language processing... There's a whole curriculum that you have to prove yourself on in those five hours. So if you really wanna see how good you are, I would encourage you to go give that one a shot. I think it's $100, which isn't too bad, to go get that certification... And that's a good way to go from beginner or intermediate level to prove that maybe you're at an intermediate to advanced level.
+\[46:53\] I know that there have been third-parties with certificates, but they're not taken very seriously. But now with the TensorFlow team itself sponsoring this certification process -- and you actually don't have to go into a testing center. It's good for a Covid-19 reality that we're all in; you can do it from home, on your laptop, and they have a mechanism - you're allowed up to five hours to get your test done. They test you, and everything from use of CNNs, to natural language processing... There's a whole curriculum that you have to prove yourself on in those five hours. So if you really wanna see how good you are, I would encourage you to go give that one a shot. I think it's $100, which isn't too bad, to go get that certification... And that's a good way to go from beginner or intermediate level to prove that maybe you're at an intermediate to advanced level.
 
 **Daniel Whitenack:** Yeah. And there's been a bunch of things we've mentioned on the podcast... Just to list a few of those as reminders - people really love the Fast.ai content.
 

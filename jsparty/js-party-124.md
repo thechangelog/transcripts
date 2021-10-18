@@ -18,7 +18,7 @@
 
 I think they had different ways of doing it. NG-Conf had some people do live talks, and then some of them were recorded, which was interesting... And then Perf Matters had the same thing, where people could choose between whether they wanted to record it before, or do it live. And I think that was to accommodate for if you have children, or if you have a situation that makes it hard for you to do live video while at home. Then it gives you the option of just recording it when you have a quiet moment, and then still being a part of the conference as well.
 
-**Emma Bostian:** \[00:04:07.12\] Yeah, there's much more flexibility when it comes to virtual conferences... And kind of seeing what's happening on Twitter, people discussing virtual conferences, what I failed to realize is that some people actually find presenting virtually a lot more difficult, I would say myself included... But I have the added benefit of having worked on meeting software professionally for two years, so I was very used to using GoTo Meeting, and presenting over virtual meetings... So I didn't have to think about that aspect of it. But I think the weirdest thing for me when I spoke at Lockdown Conf yesterday, which was hosted by FreeCodeCamp and Quincy Larson - the weirdest thing in those instances is you can't gauge reactions of people... So if you are trying to be funny, or you have little jokes interspersed, you can't actually get a reaction of people, so you kind of feel weird... I don't like that.
+**Emma Bostian:** \[04:07\] Yeah, there's much more flexibility when it comes to virtual conferences... And kind of seeing what's happening on Twitter, people discussing virtual conferences, what I failed to realize is that some people actually find presenting virtually a lot more difficult, I would say myself included... But I have the added benefit of having worked on meeting software professionally for two years, so I was very used to using GoTo Meeting, and presenting over virtual meetings... So I didn't have to think about that aspect of it. But I think the weirdest thing for me when I spoke at Lockdown Conf yesterday, which was hosted by FreeCodeCamp and Quincy Larson - the weirdest thing in those instances is you can't gauge reactions of people... So if you are trying to be funny, or you have little jokes interspersed, you can't actually get a reaction of people, so you kind of feel weird... I don't like that.
 
 **Suz Hinton:** I totally agree. I have a weird, sort of dead pan sense of humor, and also a lot of the time I'm giving talks to an American audience, and I'm Australian, so we all have sort of slightly different cultural ideas of humor... So I usually use that to gauge, "Okay, can I continue to make these jokes, or do people even find me funny?" So you kind of tend to -- I didn't realize that I adjust my \[unintelligible 00:05:22.01\] and I adjust my talk as I go along, because I'm feeding back from that body language and the audible laughter from the audience... So I think that you've really hit on a really good point there.
 
@@ -30,7 +30,7 @@ I think the interesting thing with the current situation is a lot of conferences
 
 Also, the other assumption I find organizers sometimes making is that you want the same speakers to be on the agenda, but oftentimes it's just really hard to be like "I was supposed to physically be there, but I have to do it virtually", because to me, it's a lot more work to give a talk virtually, even though I have given that talk before... Just because for me it's a matter of - like Suz was mentioning - I gain a lot from being in front of an audience, because it's the similar thing of just understanding where people are at... Because sometimes you talk about a concept and you might talk about it at a high level, and people might give you blank stares, or they might look confused, and you might want to elaborate more on that... And if you don't have that feedback, it's really hard for you to gauge whether or not things are landing, like jokes are landing, whether concepts are landing... So that's something I feel like you miss a lot of from just like moving from physical to virtual conferences, without thinking about the impact that that might have.
 
-**Emma Bostian:** \[00:07:48.19\] Yeah. I was just thinking about all the differences... In-person conferences - I have to think a lot about what am I gonna wear, because I wanna look nice, but I also wanna be comfortable... And in a virtual setting it's a little bit less so. I don't have to wear pants, if I don't want to... \[laughter\] I mean, should I? Yeah, probably... \[laughter\]
+**Emma Bostian:** \[07:48\] Yeah. I was just thinking about all the differences... In-person conferences - I have to think a lot about what am I gonna wear, because I wanna look nice, but I also wanna be comfortable... And in a virtual setting it's a little bit less so. I don't have to wear pants, if I don't want to... \[laughter\] I mean, should I? Yeah, probably... \[laughter\]
 
 On the flipside of things, when we're doing virtual conferences, technology can fail. So my conference talks - the one I was prepared to do this year was all live coding. Well, when internet is a little bit sketchy sometimes, you can't rely on live coding being a great way to present your topic, because as you're typing, there's such a lag, potentially... So at that point now I have to go make code snippets for every step of the way, and put that in the slides... So you're right, it is a lot more work to present at a virtual conference.
 
@@ -46,7 +46,7 @@ So the level of connection is really different, because it's just -- like, I'm f
 
 It's something I think about, because I've seen conferences try to do this -- so Pert Matters did this, where they tried to do topic tables... So they would have different Google Hangouts in between talks, in between sections of the conference, where they encouraged attendees to join a Hangout to sort of meet other attendees and get to know people and talk about various things.
 
-\[00:12:09.11\] But the interesting thing is -- I was talking to Estelle about this, because she really wanted to foster that community that conferences tend to have... But the issue with doing a virtual hangout versus an in-person one is that it's way more intimidating. I was a speaker and I just felt really awkward just joining a Zoom Hangout, just because I was like -- it's so intrusive to be like "Let me just join this Hangout, because people are talking in there", but I have no context on who's in there, what they're talking about at that point in time... When you're at a conference, you can just saunter up and awkwardly edge yourself into a group...
+\[12:09\] But the interesting thing is -- I was talking to Estelle about this, because she really wanted to foster that community that conferences tend to have... But the issue with doing a virtual hangout versus an in-person one is that it's way more intimidating. I was a speaker and I just felt really awkward just joining a Zoom Hangout, just because I was like -- it's so intrusive to be like "Let me just join this Hangout, because people are talking in there", but I have no context on who's in there, what they're talking about at that point in time... When you're at a conference, you can just saunter up and awkwardly edge yourself into a group...
 
 **Suz Hinton:** Yeah, do the Pacman thing... How do you a Pacman in a Zoom meeting?
 
@@ -58,11 +58,11 @@ So having this virtual conference in my home, it's harder to a) separate work/li
 
 Virtual conferences, I think, have a lot of benefits, and we're gonna talk about that in just a minute... But first, let's take a break, and when we come back, we have a special guest that we would like to introduce to all of you.
 
-**Break:** \[00:14:39.25\]
+**Break:** \[14:39\]
 
 **Emma Bostian:** Okay, welcome back. We just had our first segment, where we talked a little bit about how virtual conferences differ from these kind of brick-and-mortar conferences... But I'm excited, because we're joined by a special guest, Quincy Larson, who -- you've founded FreeCodeCamp. That's like your official title? Why don't you introduce yourself, so I'm not speaking for you...?
 
-**Quincy Larson:** \[00:16:00.20\] Hey! Yeah, I'm Quincy Larson. My title is teacher at FreeCodeCamp. I'm also the executive director of our non-profit... And yeah, I've founded FreeCodeCamp.
+**Quincy Larson:** \[16:00\] Hey! Yeah, I'm Quincy Larson. My title is teacher at FreeCodeCamp. I'm also the executive director of our non-profit... And yeah, I've founded FreeCodeCamp.
 
 **Emma Bostian:** Nice, nice. We're super-excited to have you on today, because -- was it just yesterday that we did Lockdown Conf?
 
@@ -82,7 +82,7 @@ So we kind of touched on some of the benefits and drawbacks of virtual conferenc
 
 This was four hours, it was just a quick chunk of time... So it's not nearly as -- virtual/online conferences are not nearly as fun and exciting as in-person conferences. You're not actually shaking hands or getting to hug people, or high-five them or anything like that, that you would be able to do at an in-person conference. There aren't the same kind of like bumping into people, and meeting new people, and those kinds of exciting chance encounters...
 
-\[00:19:53.16\] So there are a lot of advantages, and there are also a lot of disadvantages. But this conference didn't really cost us any money to put on... I know from people who have put on big conferences that it is a lot of money; it's a lot of financial risk as well, because you have to book the venue, and you have to make sure all the numbers work out...
+\[19:53\] So there are a lot of advantages, and there are also a lot of disadvantages. But this conference didn't really cost us any money to put on... I know from people who have put on big conferences that it is a lot of money; it's a lot of financial risk as well, because you have to book the venue, and you have to make sure all the numbers work out...
 
 For example, I have a friend who was planning to have a big React conference that I was scheduled to go to... And of course, the pandemic hit, and he had to deal with all the contracts. He had a clause that would allow him to get out of it and everything, but I don't know how much money he lost. He almost certainly lost a lot of money as a result of that cancelation. So there's a lot of risk associated with in-person real-world high-fidelity conferences that you don't have with online conferences.
 
@@ -104,7 +104,7 @@ So unless you have a friend like Matthew Potter, it may cost you some money for 
 
 And I'm just so stoked that these kinds of demands have actually paved the way for us to be able to do this now... That is one kind of nice thing that's happened.
 
-**Emma Bostian:** \[00:24:14.22\] Definitely. And one of the things that you mentioned, Quincy, the power of parity, speaking to different currencies - I just had this epiphany, wouldn't it be great if in the future we could take that into consideration when pricing our conference tickets? I'm curious if there are any conferences already looking into where attendees are coming from and reducing costs for people with different currencies.
+**Emma Bostian:** \[24:14\] Definitely. And one of the things that you mentioned, Quincy, the power of parity, speaking to different currencies - I just had this epiphany, wouldn't it be great if in the future we could take that into consideration when pricing our conference tickets? I'm curious if there are any conferences already looking into where attendees are coming from and reducing costs for people with different currencies.
 
 **Quincy Larson:** Yeah, well YouTube does that automatically. For becoming a member on the channel, which was what you had to do to be able to chat -- we just set that up because, again, we wanted to see if we could get some donations... Essentially, the way YouTube works is they keep 30% and you keep 70%. I think with Twitch it's a 50/50 split, if people become subscribers on Twitch...
 
@@ -128,7 +128,7 @@ I think that it also just made me more confident, because I was like "Oh, I'm ju
 
 **Emma Bostian:** See, I'm with you there. If you have a good audience, who's willing to play with you, in a sense, like they joke around with you, they're willing to help you fix your bugs... When we were in Amsterdam, Frontend Developer and Vue.js Amsterdam, the crowd was so interactive... But with a virtual conference, if I mess up typing I can't phone a friend... I end up just copy-pasting solutions from the master branch... \[laughs\]
 
-**Divya Sasidharan:** \[00:28:10.27\] Yeah, so in general -- this is not just specific to virtual conferences; in general, I never live-code or do anything live, just because I... Maybe it's just an exercise in me knowing myself very well; I know myself very well, that I lack the resilience to recover... So I hardly ever do that.
+**Divya Sasidharan:** \[28:10\] Yeah, so in general -- this is not just specific to virtual conferences; in general, I never live-code or do anything live, just because I... Maybe it's just an exercise in me knowing myself very well; I know myself very well, that I lack the resilience to recover... So I hardly ever do that.
 
 I think for virtual conferences -- I've spoken at two of them so far, and one of them was an actual live talk, where I was on a Zoom call with all the participants and I presented remotely, essentially... Which was kind of an eerie feeling, because I didn't get any feedback. There was no feedback, so it was really hard to get a sense... Also, Suz was mentioning in terms of jokes - I think my pauses are also determined by how I think things are landing... So if people are understanding things; should I go faster, should I go slower...? So it's really hard for me to do that.
 
@@ -148,7 +148,7 @@ I think it also differs based on the type of people. Some people really thrive o
 
 **Emma Bostian:** But you did start to touch on one thing, which is live talks versus recorded talks... And when we come back from our next break (and our last break), we will dive a little bit deeper into that as well \[unintelligible 00:31:32.24\] Quincy about any lessons learned from planning a conference.
 
-**Break:** \[00:31:42.19\]
+**Break:** \[31:42\]
 
 **Emma Bostian:** Alright, so we've talked about virtual conferences and how they differ from in-person conferences. We've touched on benefits and drawbacks of virtual conferences and kind of what goes into planning them... But I'm curious, Quincy, what are some lessons that you've learned, or things that you would do differently next time around?
 
@@ -172,7 +172,7 @@ So anchoring the expectation, under-promising, over-delivering... I can say with
 
 **Emma Bostian:** Absolutely. And one other thing that -- well, I don't know if we've touched on this, but we're gonna touch on it now, it doesn't matter... It's this concept of virtual workshops versus talks. Okay, I shouldn't say I've never given a workshop, because that's not true... But I've never given a live workshop in person. That's also false. I just did a Frontend Masters course. Oh, my gosh, what am I saying... Okay, let's talk about virtual workshops. Have any of you given a virtual workshop? Let's start with you, Quincy. Have you ever spoken at a conference and/or given a workshop, in-person or virtually?
 
-**Quincy Larson:** \[00:36:02.28\] I've spoken at some conferences and given -- by workshop, basically I had slides prepared, and it was on a very specific topic, trying to teach people about that topic... I've done that a few times, if that's what you mean.
+**Quincy Larson:** \[36:02\] I've spoken at some conferences and given -- by workshop, basically I had slides prepared, and it was on a very specific topic, trying to teach people about that topic... I've done that a few times, if that's what you mean.
 
 **Emma Bostian:** Yes.
 
@@ -202,7 +202,7 @@ But that does bring up a good point - I would assume a workshop is a little hard
 
 One other area I wanted to touch on before we wrap up - and we did already touch on this - is live talks versus recorded talks, and the benefits of both and the drawbacks of both. Divya, you had mentioned that you were in the chat, discussing with the participants during your recorded talk, which has benefits and drawbacks. The benefit is you can engage with them in real-time as they're seeing it, but the drawback is -- perhaps internally, they're thinking "Oh, this isn't as personal, because she had already recorded this." Did you find that there was any fall-out from that with the audience?
 
-**Divya Sasidharan:** \[00:39:59.05\] It's hard to say, because I think people are really nice about the talk. I think there were a couple of comments where people were just mentioning that "Oh, it's uncanny that she's able to talk and type at the same time..." But I think in general people weren't as negative. I've seen online, on Twitter, where people have mentioned that it's kind of annoying that that happens... It's interesting, because I've actually heard conferences try to compensate for that... So for them, they'll allow speakers to do a recorded talk, but when you do a Q&A after the talk, you have to wear the same clothes that you would during the recording... \[laughter\]
+**Divya Sasidharan:** \[39:59\] It's hard to say, because I think people are really nice about the talk. I think there were a couple of comments where people were just mentioning that "Oh, it's uncanny that she's able to talk and type at the same time..." But I think in general people weren't as negative. I've seen online, on Twitter, where people have mentioned that it's kind of annoying that that happens... It's interesting, because I've actually heard conferences try to compensate for that... So for them, they'll allow speakers to do a recorded talk, but when you do a Q&A after the talk, you have to wear the same clothes that you would during the recording... \[laughter\]
 
 **Suz Hinton:** Just so it's not distracting, yeah.
 
@@ -238,7 +238,7 @@ As a quick note, if you haven't checked out FreeCodeCamp, we're gonna leave a li
 
 **Quincy Larson:** Awesome! It's great talking with you, Emma, Suz, Divya. I really appreciate you all inviting me on the show.
 
-**Break:** \[00:44:42.02\]
+**Break:** \[44:42\]
 
 **Suz Hinton:** Emma, that was so slick.
 

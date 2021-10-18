@@ -12,7 +12,7 @@ With that, I just wanted to help our listeners use this time in a way that they 
 
 **Adam Stacoviak:** What exactly is gratitude though?
 
-**Mireille B. Reece, Psy.D:** \[00:03:51.02\] Good question. Gratitude really is this sense of appreciation, or recognizing a value, that something matters to you. I think a lot of people utilize gratitude in terms of comparison. Like, I'm grateful that that's not my struggle, or I don't have to deal with that... Thinking about it around other people who have other challenges. Or "At least right now I didn't lose my job, so I should be just grateful, or I should feel good." That's not gratitude in a way in which is adaptive. It requires an appreciation of the positive aspects that you actually believe about your particular situation. It's not comparison.
+**Mireille B. Reece, Psy.D:** \[03:51\] Good question. Gratitude really is this sense of appreciation, or recognizing a value, that something matters to you. I think a lot of people utilize gratitude in terms of comparison. Like, I'm grateful that that's not my struggle, or I don't have to deal with that... Thinking about it around other people who have other challenges. Or "At least right now I didn't lose my job, so I should be just grateful, or I should feel good." That's not gratitude in a way in which is adaptive. It requires an appreciation of the positive aspects that you actually believe about your particular situation. It's not comparison.
 
 **Adam Stacoviak:** What about thankfulness? Is thankful and grateful - are those synonymous words? Are they the same?
 
@@ -36,7 +36,7 @@ With that, I just wanted to help our listeners use this time in a way that they 
 
 What does matter is instead gratefulness or gratitude. I'm grateful that -- I mean, I have more of an opportunity right now to spend time with my family. Everybody, I'm sure, has mixed feelings about that, but everybody has something they can be grateful for, and it doesn't matter, it's not in relationship to any other person, but rather their particular situation and feelings.
 
-**Adam Stacoviak:** \[00:08:03.01\] You know, too when something you care about is threatened, you kind of take stock more so, like "Wow, I really have these amazing people in my life, these amazing opportunities", and they're threatened by something, looming, whatever it might be... And it's like "You know, these things really matter to me, and I need to change my (we talked about mental frameworks) thinking, my perspective on them. How I perceive them, the value I place in my life", and I think that's where gratitude comes in. It's like, I now see them differently, or in a more different light. There's clarity involved. The visibility, the panoramic view, so to speak (as you've mentioned before) becomes more clear of these essentials, these valuable grateful things in your life.
+**Adam Stacoviak:** \[08:03\] You know, too when something you care about is threatened, you kind of take stock more so, like "Wow, I really have these amazing people in my life, these amazing opportunities", and they're threatened by something, looming, whatever it might be... And it's like "You know, these things really matter to me, and I need to change my (we talked about mental frameworks) thinking, my perspective on them. How I perceive them, the value I place in my life", and I think that's where gratitude comes in. It's like, I now see them differently, or in a more different light. There's clarity involved. The visibility, the panoramic view, so to speak (as you've mentioned before) becomes more clear of these essentials, these valuable grateful things in your life.
 
 **Mireille B. Reece, Psy.D:** Right. Exactly, Adam, because when we practice gratitude, it reinforces practices, more positive thinking, which opens your eyes to more opportunity. So there's a gentleman named Frederickson, who refers to the theory Broaden and Build. Because positive emotions tend to broaden your sense of possibilities and open your mind, which in turn allows you to build new skills and resources that can provide value in other areas of your life.
 
@@ -66,7 +66,7 @@ I think I've shared this on previous episodes, but when we're ignited in that fi
 
 **Adam Stacoviak:** Right.
 
-**Mireille B. Reece, Psy.D:** \[00:11:40.04\] So that's just it. The reason why this practice or skill is so valuable is because while it might seem small, it's the cumulative effect that is huge. It has this sort of exponential multiply effect after practicing it over and over again. One of the things that is helpful whenever we're trying to learn a new skill is create sort of like a hiccup, a way in which it sort of stands out, so that I remember to do this... So people -- encouraging them to even literally wrap a present; it doesn't have to have anything in the box... But that it's in your visual field when you wake in the morning. Because then you're like "What can I be grateful for today?"
+**Mireille B. Reece, Psy.D:** \[11:40\] So that's just it. The reason why this practice or skill is so valuable is because while it might seem small, it's the cumulative effect that is huge. It has this sort of exponential multiply effect after practicing it over and over again. One of the things that is helpful whenever we're trying to learn a new skill is create sort of like a hiccup, a way in which it sort of stands out, so that I remember to do this... So people -- encouraging them to even literally wrap a present; it doesn't have to have anything in the box... But that it's in your visual field when you wake in the morning. Because then you're like "What can I be grateful for today?"
 
 **Adam Stacoviak:** It's a fine-tuning of your focus on the positive, not the negative. And that doesn't mean the negative doesn't exist. Because I'm thinking, how can we, in today's world, right this moment, while we have uncertainty looming over us, how can we ask people to find a habit of gratefulness, of gratitude? How can we ask that with the negativity? And I think what it is - it's not dismissing the negative, it's preferring the positive...
 
@@ -94,7 +94,7 @@ So gratitude is a skill or a habit that you can practice, that actually broadens
 
 **Mireille B. Reece, Psy.D:** It is.
 
-**Adam Stacoviak:** \[00:15:46.23\] What you said, that perspective of how you run your day with gratitude - if you begin with it, it's easy to sort of... It's already happened, so it's like -- I don't know if this is a great analogy, but it's like breaking Spades. If you've ever played Spades, the card game, once Spades are broken, you can play Spades. So if you play your gratitude Spade, so to speak, in the morning, first thing, then it's there all day and you can play that Spade all day long.
+**Adam Stacoviak:** \[15:46\] What you said, that perspective of how you run your day with gratitude - if you begin with it, it's easy to sort of... It's already happened, so it's like -- I don't know if this is a great analogy, but it's like breaking Spades. If you've ever played Spades, the card game, once Spades are broken, you can play Spades. So if you play your gratitude Spade, so to speak, in the morning, first thing, then it's there all day and you can play that Spade all day long.
 
 **Mireille B. Reece, Psy.D:** Yeah, imagine that you wanna set up the conditions internally so that you can better manage the external environment and challenges that emerge throughout your day. I get into my car, I have a sense of where I'm going to be going. I don't go "Oh shoot, what was I gonna do? Where was I gonna go?" And I definitely don't check with anybody else, like "Where were you going? ...because - am I going there?"
 
@@ -116,7 +116,7 @@ One other thing with this is -- we mentioned not comparing to anybody else... Bu
 
 **Adam Stacoviak:** It's kind of like glasses.
 
-**Mireille B. Reece, Psy.D:** \[00:20:14.19\] It is, yes.
+**Mireille B. Reece, Psy.D:** \[20:14\] It is, yes.
 
 **Adam Stacoviak:** It kind of makes me think "If I can tint the world in a way..." Glasses do that. Sunglasses do that, glasses can do that with transitional lenses... Cooler sunglasses, that are like pink, or blue, or whatever colors... It tints the world.
 
@@ -150,7 +150,7 @@ Think relationally - even with your wife, it makes a difference if she tells you
 
 **Adam Stacoviak:** It's the feedback loop, too. We've talked about this a thousand times, and ever since I can't get it out of my brain. Maybe it's just the way things happen when you learn new things... But this feedback loop - it's a necessary social component to our lives, that makes us human. So the feedback loop, wanting to have feedback from someone I deeply care about - it's important to me, and it affects me, in the moment and forever.
 
-**Mireille B. Reece, Psy.D:** \[00:24:02.27\] Yeah, exactly. So not surprising that this practice also activates the brain's altruism and reward system regions. Another study found that practicing this, what the researchers describe as neuropure altruism, which basically means that your brain craves the experience of giving. I'm gonna give, without expectation of return. So in this study, two groups of participants were asked to write in a journal every day for three weeks. The first group was given general prompts, unrelated to gratitude, while the second group was prompted to write about experiences of gratitude and things they felt thankful for.
+**Mireille B. Reece, Psy.D:** \[24:02\] Yeah, exactly. So not surprising that this practice also activates the brain's altruism and reward system regions. Another study found that practicing this, what the researchers describe as neuropure altruism, which basically means that your brain craves the experience of giving. I'm gonna give, without expectation of return. So in this study, two groups of participants were asked to write in a journal every day for three weeks. The first group was given general prompts, unrelated to gratitude, while the second group was prompted to write about experiences of gratitude and things they felt thankful for.
 
 Again, when these groups were compared, the results showed that the group that had focused on gratitude had greater activation in this ventral medial prefrontal cortex and this neuropure altruism.
 
@@ -184,7 +184,7 @@ Again, when these groups were compared, the results showed that the group that h
 
 **Adam Stacoviak:** Exactly, yeah.
 
-**Mireille B. Reece, Psy.D:** \[00:27:43.20\] Yeah. So relationships are complicated, right? And everybody has different ideas around what it looks like to give in relationship. I always talk about it in terms of you, me and we. So imagine two circles - there's you, there's me, and then we both participate in the overlapping portion of the "we". So ideally, we don't want it to be like you and me all intertwined, like it's completely overlapping/eclipsing, and we don't want them totally separate. But we both participate in this overlap that is how we both want the relationship to go and look like. And sometimes there's sort of disproportionate giving, dare I say. Like, I give and the other person takes. Or the other person takes and I give. And recognizing when people feel this sense of resentment; it's sort of our body's or our brain's own indicator of like "Maybe I gave something that was beyond what I really wanted to give, because I'm expectant around them giving something back to me."
+**Mireille B. Reece, Psy.D:** \[27:43\] Yeah. So relationships are complicated, right? And everybody has different ideas around what it looks like to give in relationship. I always talk about it in terms of you, me and we. So imagine two circles - there's you, there's me, and then we both participate in the overlapping portion of the "we". So ideally, we don't want it to be like you and me all intertwined, like it's completely overlapping/eclipsing, and we don't want them totally separate. But we both participate in this overlap that is how we both want the relationship to go and look like. And sometimes there's sort of disproportionate giving, dare I say. Like, I give and the other person takes. Or the other person takes and I give. And recognizing when people feel this sense of resentment; it's sort of our body's or our brain's own indicator of like "Maybe I gave something that was beyond what I really wanted to give, because I'm expectant around them giving something back to me."
 
 So imagine I'm more focused on an outcome, as opposed to just altruistically, like "This is what I want to give, because I can't help myself, and I wanna give it to you... Because I care about you, I appreciate you etc."
 
@@ -206,7 +206,7 @@ So leaping over, stepping over a little bit in terms of addiction, that more so 
 
 For me, I didn't really grok or begin to understand health-related things, especially around food, until my thirties. Unfortunately, I just wasn't educated in my teens, obviously, because I'm an adolescent, and then twenties, to really understand the health benefits of food, and things like that. So that was the first step into understanding health. Then as you become more and more aware of health and health aspects, gratitude is kind of an easy button.
 
-**Mireille B. Reece, Psy.D:** \[00:32:13.20\] Yeah.
+**Mireille B. Reece, Psy.D:** \[32:13\] Yeah.
 
 **Adam Stacoviak:** You know what I mean? It's kind of an easy button.
 
@@ -234,7 +234,7 @@ For me, I didn't really grok or begin to understand health-related things, espec
 
 **Adam Stacoviak:** You know what I mean? So it kind of brings that aspect into it. To some degree, that "what went well" is second-nature to many folks in tech or software. It's an often thing. I love the aspect of retrospective, that's why I think I loved being product manager so much, is because I really enjoyed the process of the collaboration, I suppose, and the examination of what we did, how well did we do it, how well did we not do it, and what shouldn't we do anymore, kind of thing. That whole process had a lot of tangible things for me, that I really enjoyed the process. I really enjoyed the process of that.
 
-**Mireille B. Reece, Psy.D:** \[00:36:15.09\] I think that's really huge, because we've sort of talked about this and referenced it in other ways, but that is exactly what happens - practicing gratitude allows you to fall more in love with process over outcomes.
+**Mireille B. Reece, Psy.D:** \[36:15\] I think that's really huge, because we've sort of talked about this and referenced it in other ways, but that is exactly what happens - practicing gratitude allows you to fall more in love with process over outcomes.
 
 **Adam Stacoviak:** Yeah.
 
@@ -252,7 +252,7 @@ For me, I didn't really grok or begin to understand health-related things, espec
 
 If I'm optimizing for negativity -- we've talked to the negative sciences around that... If I'm optimizing for optimism, and gratitude, and the positive sides of things, that's gonna benefit me so much better. And those around me.
 
-**Mireille B. Reece, Psy.D:** \[00:38:15.12\] Right. I think about the template/mental framework as being able to work with yourself. Because imagine, I might want two different things at the same time, and that I feel disappointed on one hand. But if I can go "Well, you know what - here is the part you did well, and here is the effort you were putting forth in that direction. So even though you didn't get that outcome you wanted, go back and try it again", which is encouraging and motivating, as opposed to discouraging and upsetting.
+**Mireille B. Reece, Psy.D:** \[38:15\] Right. I think about the template/mental framework as being able to work with yourself. Because imagine, I might want two different things at the same time, and that I feel disappointed on one hand. But if I can go "Well, you know what - here is the part you did well, and here is the effort you were putting forth in that direction. So even though you didn't get that outcome you wanted, go back and try it again", which is encouraging and motivating, as opposed to discouraging and upsetting.
 
 **Adam Stacoviak:** This might be somewhat off-topic -- no, it's on-topic, but it's tangential. My son has Magna Blocks, and they have magnets. It's like building blocks, but they're not Legos where you click them together, it's magnets. And it's easy to build something and then let it crash. So he might erect this amazing thing and move it a little bit, and because it's magnets and they're not extremely strong, it will crumble. So my immediate response - because it is pretty disheartening to see your thing crash, it's kind of sad... So my way to counteract that is "Try again." That's all I say to him. And I say it in a positive way. "Try again."
 

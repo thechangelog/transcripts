@@ -2,7 +2,7 @@
 
 We have three sponsors today: Code School, Rollbar and GoCD from ThoughtWorks.
 
-**Break:** \[00:00:55.00\]
+**Break:** \[00:55\]
 
 **Adam Stacoviak:** We are back. We have a fun show today, Jerod. 18F... This is a show I think at least six months or more in the making, right?
 
@@ -20,7 +20,7 @@ We have three sponsors today: Code School, Rollbar and GoCD from ThoughtWorks.
 
 At the end of 2013, a bunch of Presidential Innovation fellows decided to stick around the General Services Administration for a little bit longer, and we created a small team at the time which was designed essentially to work with other agencies, helping them build software and digital services.
 
-\[00:04:08.03\] In a nutshell, 18F is a consultancy made up of federal government employees; we are a government team inside the General Services Administration (GSA) that works with other federal agencies. Over the last two and a half, almost three years we've grown from about 15 people to about 200 people. We worked with something like 37 different federal agencies, helping them deliver services, but also in a consulting capacity, too. We do a lot of short-term consultant engagements now. I think at the heart of what we do is helping an agency or a program manager see their problem in a new light, and see a path forward in a new way. We either become the team that helps them build something, or we help them get a project back on track, either by helping them buy something, or create an RFP (request for proposal) or maybe even work with an existing vendor. That's kind of the scope of what we do... Again, at the heart of it really just being the people who are helping our agency partners see their technology challenges in a new way.
+\[04:08\] In a nutshell, 18F is a consultancy made up of federal government employees; we are a government team inside the General Services Administration (GSA) that works with other federal agencies. Over the last two and a half, almost three years we've grown from about 15 people to about 200 people. We worked with something like 37 different federal agencies, helping them deliver services, but also in a consulting capacity, too. We do a lot of short-term consultant engagements now. I think at the heart of what we do is helping an agency or a program manager see their problem in a new light, and see a path forward in a new way. We either become the team that helps them build something, or we help them get a project back on track, either by helping them buy something, or create an RFP (request for proposal) or maybe even work with an existing vendor. That's kind of the scope of what we do... Again, at the heart of it really just being the people who are helping our agency partners see their technology challenges in a new way.
 
 **Adam Stacoviak:** You said the word "agency" - is that how you act internally, as an agency?
 
@@ -42,7 +42,7 @@ At the end of 2013, a bunch of Presidential Innovation fellows decided to stick 
 
 **Aidan Feldman:** Yeah, so outside of my work with GSA I do some teaching; right now I'm doing a class at Cornell, teaching about how large-scale systems work when you're doing web development, understanding DevOps principles and all the different layers of the stack, that kind of thing. In general, outside of work, I deal a lot with people learning to code, and that's something I'm also really excited about.
 
-**Jerod Santo:** \[00:08:19.18\] Very cool. Hillary, we have to ask you about this, because you have an awesome, single-word Twitter handle, @Hillary, which shows that you've been around, you got that one probably early... As many of us have to go with either a mock name, or a full name, or...
+**Jerod Santo:** \[08:19\] Very cool. Hillary, we have to ask you about this, because you have an awesome, single-word Twitter handle, @Hillary, which shows that you've been around, you got that one probably early... As many of us have to go with either a mock name, or a full name, or...
 
 **Adam Stacoviak:** Underscore-something...
 
@@ -76,7 +76,7 @@ At the end of 2013, a bunch of Presidential Innovation fellows decided to stick 
 
 **Jerod Santo:** You mentioned stickers and I just had to recall a moment I had... A week or so back I was in Portland, staying outside of Pine State Biscuits - which is spectacular, by the way - with a few friends, and there was a lamp post there that had all of the stickers on it from bands and political movements and stuff... And there was an 18F sticker, it was definitely your guys', right? They were on a side of that lamp post, and I said "Hey, I'm interviewing those people next week."
 
-**Aidan Feldman:** \[00:11:59.18\] 18F does not endorse defacing city property. \[laughter\] But yeah, \[unintelligible 00:12:06.00\] they get to some interesting places.
+**Aidan Feldman:** \[11:59\] 18F does not endorse defacing city property. \[laughter\] But yeah, \[unintelligible 00:12:06.00\] they get to some interesting places.
 
 **Jerod Santo:** It was awesome.
 
@@ -102,7 +102,7 @@ Within 18F, we chat all day, we use Slack very heavily... I think we have hundre
 
 **Adam Stacoviak:** Hillary, in one of your emails back to us you'd mentioned some details around why you're an open source team, and maybe even why open source is such a big deal to the government and maybe even 18F directly, and then all of those that hire you internally in the government to do some cool stuff.
 
-\[00:16:04.06\] In your own words, what are some of the reasons why it's important to you? What is open source towards the government? What influence does it have for the government?
+\[16:04\] In your own words, what are some of the reasons why it's important to you? What is open source towards the government? What influence does it have for the government?
 
 **Hillary Hartley:** Well, at the end of the day everything that public servants build, everything that we create is actually open source, whether we call it that or not. It belongs to the people. Any work product that we create is the people's, it belongs to our country.
 
@@ -124,7 +124,7 @@ I said that at the end of the day it's the right thing to do, but it's also hope
 
 **Aidan Feldman:** Absolutely. We believe really strongly in open source and we are open source by default. The security angle... Again, we are not the first people in government who are doing a lot of this. The Department of Defense, of all places, actually put out a memo in 2009, saying that security by obscurity - in other words hiding the source code - is not a legitimate security protection. In fact, like you mentioned, having the ability for other people to audit that code - this goes alongside with us using open source frameworks that are already getting a lot of security eyes on them - is a huge benefit for us, security-wise and otherwise.
 
-**Adam Stacoviak:** \[00:20:11.24\] Coming back to GitHub, too... I'm not sure if I got a direct answer, if that was a beacon of light of not, but it seems like it might have been, because it seemed like maybe the creation of 18F may have been an easier sell so to speak. Because as you've mentioned earlier, if this is the general public's public domain code, being able to actually put that into a community where it is normal to share, normal to collaborate, normal to fork, normal to send a pull request and be in the same mix - it seems like it made the process of doing what you're doing around 18F so much easier.
+**Adam Stacoviak:** \[20:11\] Coming back to GitHub, too... I'm not sure if I got a direct answer, if that was a beacon of light of not, but it seems like it might have been, because it seemed like maybe the creation of 18F may have been an easier sell so to speak. Because as you've mentioned earlier, if this is the general public's public domain code, being able to actually put that into a community where it is normal to share, normal to collaborate, normal to fork, normal to send a pull request and be in the same mix - it seems like it made the process of doing what you're doing around 18F so much easier.
 
 **Aidan Feldman:** Yeah, we are certainly very heavy users of GitHub. I'm sending pull requests all day, and we certainly receive a lot of contributions from outside. I see GitHub as a tool; there's a strong community, there's a lot of people that know how to use it and therefore it makes it an easier path to contribute... But really the long game for me is "How do you encourage those contributions? How do you encourage that reuse if GitHub is the right tool?" which I think it is right now. We're not using GitHub because it's GitHub, we're using GitHub because it helps us succeed in our mission.
 
@@ -136,7 +136,7 @@ I said that at the end of the day it's the right thing to do, but it's also hope
 
 In terms of contributions, I think there are lots of different ways to do open source; there's the sort of "throw it over the wall" in the sense of "Our code is available here. You can look at it and you can download it", but we really strive for the far end of doing all of our work in the open, at least in terms of code changes and those sorts of things. So you'll see all of our repositories have pull requests and comments and feedback and things like that from people on the team. There's some cool benefits; if there's a question that people on my team don't know the answer to, I can phone a friend and send him a link to a pull request, and they can actually comment in the same workflow that we use. So there are some really nice benefits there in terms of getting input on government projects, as well as anyone being able to open an issue or create a pull request, that kind of thing.
 
-\[00:24:15.17\] Given that we do have so many public repositories I think it's kind of overwhelming for people, so I think one thing we don't necessarily do a great job of is helping people understand, "Okay, I'm interested in contributing. Where do I start?"
+\[24:15\] Given that we do have so many public repositories I think it's kind of overwhelming for people, so I think one thing we don't necessarily do a great job of is helping people understand, "Okay, I'm interested in contributing. Where do I start?"
 
 **Jerod Santo:** Right.
 
@@ -156,7 +156,7 @@ In terms of contributions, I think there are lots of different ways to do open s
 
 **Jerod Santo:** Cool. Well, I think we're hitting up against our first break. You guys have a lot of projects... We're gonna highlight some of your major ones and most successful ones, so on the other side of this break we will talk about success stories and we will dig into some of the details around the technologies and the ideas behind some of 18F's most popular open source projects. We will be right back.
 
-**Break:** \[00:26:09.18\]
+**Break:** \[26:09\]
 
 **Jerod Santo:** Alright, we are back with Hillary Hartley and Aidan Feldman, talking about all things 18F and open source code with the U.S. Government. We teed up before the break talking about some of your success stories, some of the projects that are on GitHub and out there to be seen and to be interacted with... Let's just talk about a few of them, starting with Micro-purchase. Who wants to give us the rundown on that project?
 
@@ -184,7 +184,7 @@ So we had a couple of one-dollar bids since then, but mostly I think the average
 
 **Aidan Feldman:** I should also add that the one-dollar bid was maybe the first time in history that the government has been criticized for not paying enough for software. \[laughter\] I really like this project as an example of taking this unique government constraint of this magic number of $3,500 where things get a lot more complicated over number, and "Okay, how do we make that work for this sort of quick iterations and working in open source that we want to?"
 
-**Jerod Santo:** \[00:32:25.12\] Yeah, I can see this working quite well inside of the enterprise as well, as they often have similar constraints around what you can purchase without a PO or without going up a level to a manager, and I love that this started with "We have $3,500 that we can put on a credit card, so let's break up these projects so small that we can just do that however many times necessary to get it done." That's a great hack.
+**Jerod Santo:** \[32:25\] Yeah, I can see this working quite well inside of the enterprise as well, as they often have similar constraints around what you can purchase without a PO or without going up a level to a manager, and I love that this started with "We have $3,500 that we can put on a credit card, so let's break up these projects so small that we can just do that however many times necessary to get it done." That's a great hack.
 
 **Hillary Hartley:** It's also been forked by the government of Singapore. They actually took our code and they're running it, and they're running their own Micro-purchase purchase platform now.
 
@@ -208,7 +208,7 @@ So we had a couple of one-dollar bids since then, but mostly I think the average
 
 **Adam Stacoviak:** Well, cloud.gov is the platform as a service for the government. That's pretty cool.
 
-**Jerod Santo:** \[00:36:05.07\] Yeah, tell us about that.
+**Jerod Santo:** \[36:05\] Yeah, tell us about that.
 
 **Hillary Hartley:** Cloud.gov, as you said, is essentially a platform as a service for government, and the reason that the "for government" part is important is that as a developer on a team inside the federal government, you are actually supposed to be familiar with a number of regulations and memoranda and all kinds of things that tell you how to be in compliance with your code. We added it up and I think it's currently about 4,400 pages of compliance code, essentially, that people need to be aware of just to ship code, just to go from 0.1 to a 0.2.
 
@@ -222,7 +222,7 @@ It started off as a project that we were using internally and it became clear ve
 
 **Aidan Feldman:** Yeah, we have a couple business units. We'll do projects that are specific to agencies that we intend to hand off to them or a vendor to maintain on their behalf, a bulk of the projects. Then we also have these products and platforms... Cloud.gov is something that we plan to run indefinitely, and that enables our other projects, but it's its own business line really; it has customers and it has teams that are working on projects that 18F wasn't involved with, but they just needed somewhere to deploy that was going to be technically and compliance-wise easy to use and make their life easier. Cloud.gov has been a big boon for that.
 
-**Jerod Santo:** \[00:39:54.00\] And it makes total sense from your team, who's solving your own problem and then turning that over. Are there are alternatives aside from an AWS? Are there any competitors in this space trying to provide platforms for specific government needs in terms of security and the regulations, or is this basically greenfield (there's nobody else doing it)?
+**Jerod Santo:** \[39:54\] And it makes total sense from your team, who's solving your own problem and then turning that over. Are there are alternatives aside from an AWS? Are there any competitors in this space trying to provide platforms for specific government needs in terms of security and the regulations, or is this basically greenfield (there's nobody else doing it)?
 
 **Aidan Feldman:** There are certainly other platforms as a service in the world... I think Cloud Foundry, which is the tool that we're using under the hood in cloud.gov, that was developed originally by Pivotal and is also being used by HP, and Chase and a lot of other big companies, both as a commercial offering and not. Some infrastructure as a service offerings, things like AWS and Azure exist, and those are certainly heavily used in government. At the time - and, I believe, still to this day - there's no platform as a service that is going through FedRAMP certification. There is no platform as a service that is commercially available -- or, I should say, available to government, from the commercial world.
 
@@ -246,7 +246,7 @@ I hope that changes, actually, because one of the benefits of using this open so
 
 **Aidan Feldman:** Yeah. I mean, actually I'm also working on making the FedRAMP barrier lower; like the acquisitions, we don't wanna be the only game in town. We are doing a lot of this work because it is actually, in a lot of ways, easier to do it from within government than outside. But yeah, we don't want to exclude vendors; we believe competition is good, so if we can offer this but also simultaneously try and lower those barriers, that's a win for everyone.
 
-**Jerod Santo:** \[00:44:02.07\] It seems like your actions have definitely backed up that sentiment in terms of Micro-purchase and in terms of this idea behind making procurement a joy. One way to do that is to have more competition amongst those that you can procure from. I just wanted to say that that seems like more than just lip service to me; it seems like you're actually speaking out of the organization's desire for real.
+**Jerod Santo:** \[44:02\] It seems like your actions have definitely backed up that sentiment in terms of Micro-purchase and in terms of this idea behind making procurement a joy. One way to do that is to have more competition amongst those that you can procure from. I just wanted to say that that seems like more than just lip service to me; it seems like you're actually speaking out of the organization's desire for real.
 
 **Aidan Feldman:** Absolutely.
 
@@ -262,7 +262,7 @@ It goes even deeper, even if it's not the same actual system that they're runnin
 
 **Hillary Hartley:** It's interesting... There have probably been some conversations and some pushback, but for the most part we've been really lucky for two reasons. One, we have great support from our agency. Inside GSA, they believe in what we're doing and they want to give us the \[unintelligible 00:47:33.24\] and the room to experiment and to try to figure out what the right things to do are.
 
-\[00:47:43.22\] The second thing is that we grew very slowly from the beginning, and we're lucky to find early customers, early partners inside our agency and in other agencies, like the CIO of the U.S. Citizenship and Immigration Service, Mark Schwartz. We were able to find great early partners like him who already had agile teams; they were already drinking the Kool-Aid about open source and user-centered design, so it enabled us to really build up some wins and build up some talking points and create some stories early on that we could then take out to folks who were new to some of this.
+\[47:43\] The second thing is that we grew very slowly from the beginning, and we're lucky to find early customers, early partners inside our agency and in other agencies, like the CIO of the U.S. Citizenship and Immigration Service, Mark Schwartz. We were able to find great early partners like him who already had agile teams; they were already drinking the Kool-Aid about open source and user-centered design, so it enabled us to really build up some wins and build up some talking points and create some stories early on that we could then take out to folks who were new to some of this.
 
 Those two things really set us on a path... We say all the time inside our team, "Show, don't tell." Show the thing. And that's what I think enables us to bring folks along who may be new to unknown territory. But we also insulate ourselves from it a little bit as well, because we write the way that we work and the how of 18F - we write a lot of that into our contracts, if you will... We don't exactly do contracts, so to speak; they're called inter-agency agreements. We write a lot of that stuff into our inter-agency agreements, so that when people do sign on the dotted line to work with us, they know that we're an open source team, which means we're going to default to being open source unless there's a very compelling security/privacy reason not to. But it also means that they know that we're an agile team, that we're gonna talk about it vociferously, we're gonna blog, we're gonna tweet, we're gonna engage them in talking about this. I think that was another key thing that we decided to do early on, really just to enable buy-in.
 
@@ -278,13 +278,13 @@ Those two things really set us on a path... We say all the time inside our team,
 
 **Hillary Hartley:** Yeah, it's a delicate balance. We do a little bit of upfront work to basically decide if we can take on a project. So there'll be a little bit of research, there'll be a little bit of discovery, just so that we can decide if we have the right people with the right skills to approach this.
 
-\[00:52:03.23\] But generally, for any heavy user research or heavy discovery period we engage the agency for short periods of time to do that (four to six weeks), essentially to say "Come on board, we'll put together a team to help crack this thing and help figure out this problem and chart the path forward." So we do charge for those engagements.
+\[52:03\] But generally, for any heavy user research or heavy discovery period we engage the agency for short periods of time to do that (four to six weeks), essentially to say "Come on board, we'll put together a team to help crack this thing and help figure out this problem and chart the path forward." So we do charge for those engagements.
 
 **Adam Stacoviak:** I imagine just like any other agency you have the same problems, just different areas... It's about perspective, really. We're getting close to our next break, I wanna tee up what we're gonna talk about on the other side though... It's the 18F Guides, which I think is super awesome. It's the repository for best practices. You mentioned Agile earlier, how those that work with you realize you're an agile team and a lot of what you do as 18F, as an agency is outline these guides. It may not be exactly customer-facing, but it's at least transparency. So I think this is pretty interesting; you've got APIs in there, you've got your testing cookbook in there, you've got your Agile practices in there... It may not be super deep for each subject, but this is a lot of information for everybody to -- I think it's really interesting just to have the transparency level of that. Each of them tie back to a repository, so it's open and people can see it, people can contribute, even if it's simply just a typo. So it's not just code that 18F is producing.
 
 I'm teeing that up real quick before the break, and we'll dive deeper on the other side. We'll be right back.
 
-**Break:** \[00:53:30.26\]
+**Break:** \[53:30\]
 
 **Adam Stacoviak:** Alright, we're back from the break, and I mentioned the 18F Guides beforehand, the repository for best practices across the teams. I think this is super awesome to have this. Jerod and I have this sort of behind the scenes to some degree. We have this thing called One Voice - it's not exactly our playbook, but to some degree it sets the foundation for some things we do. Although Jerod's speaking out a lot, I think we probably could do better and should do better around following the 18F's ways of doing this, I think these guys are really awesome.
 
@@ -294,7 +294,7 @@ We've mentioned cloud.gov, we've mentioned Micro-purchase, and now 18F Guides - 
 
 The other factor that actually goes in here is that we were all on kind of term appointments; none of us are career civil servants that are going to be around for decades, but we're all here for 2-4 years. There will always be a little bit of turn in our workforce, so it's super important to document how we work and how we've done things in the past so that people don't have to reinvent the wheel over and over and over again every time someone new joins or someone leaves. Their knowledge is not lost.
 
-\[00:56:14.25\] The guides were sort of similar to the origin of cloud.gov. The guides are selfish in one way, in that our accessibility guide, our analytics guide, our Agile guide, our content guide - those are things for us, they're for our team, and this is how we think about these topics. But then, at the end of the day we want them to be open, we want them to be a resource that our peers and our partners can also use and learn from. This is our way of documenting the heck out of everything that we do and turning it outward for the benefit of the rest of the government and for anyone else who wants to learn a little bit about it.
+\[56:14\] The guides were sort of similar to the origin of cloud.gov. The guides are selfish in one way, in that our accessibility guide, our analytics guide, our Agile guide, our content guide - those are things for us, they're for our team, and this is how we think about these topics. But then, at the end of the day we want them to be open, we want them to be a resource that our peers and our partners can also use and learn from. This is our way of documenting the heck out of everything that we do and turning it outward for the benefit of the rest of the government and for anyone else who wants to learn a little bit about it.
 
 **Adam Stacoviak:** I think that the first time I saw someone do some guides really well was thoughtbot. Jerod, I don't know if you had seen their playbook, they had it open source. I love Chad Pytel and the team he's built at thoughtbot. I think they've always been inspiration both as an agency, as well a product team, as well as open source. They've definitely lead the way. For listeners who care, there's an episode of Founder's Talk with that where I talked to Chad Pytel about a couple years ago - it was actually just when they were expanding their offices to different countries and it was pretty interesting. Their playbook is an inspiration to me. To see you all as a government organization take the same approach, to have transparency and to codify your term, what you learned that way... Aidan, maybe in a couple of years you won't be in the position you're in anymore with 18F, but yet your knowledge base that you've kind of collected will live on.
 
@@ -306,7 +306,7 @@ We also have a lot of things that are very government-specific; there are very e
 
 **Aidan Feldman:** Sure, yeah. Our documentation is available. People, before they join, can learn about what the onboarding process is like. They can read the guides and read what's gonna be expected of them, that kind of thing.
 
-\[00:59:49.28\] We even have a tool that we've built called "the Dolores Landingham", which is a nod to the West Wing character, that helps with onboarding by essentially doing like a drip campaign over Slack... On the first day, like "Hey, have you remembered to sign up for your healthcare?" or whatever; on the second day, "Hey, have you gone and read this guide?" Onboarding in government is not a small feat, so we can have guides and tooling, all of which are open source and reusable that can allow that.
+\[59:49\] We even have a tool that we've built called "the Dolores Landingham", which is a nod to the West Wing character, that helps with onboarding by essentially doing like a drip campaign over Slack... On the first day, like "Hey, have you remembered to sign up for your healthcare?" or whatever; on the second day, "Hey, have you gone and read this guide?" Onboarding in government is not a small feat, so we can have guides and tooling, all of which are open source and reusable that can allow that.
 
 **Jerod Santo:** That's a very cool idea, an internal drip campaign via Slack to onboard people. I like that.
 

@@ -8,7 +8,7 @@ Obviously, my wife and my kids are at home with me all day. I work from home, I 
 
 **Mireille B. Reece, Psy.D:** Right?! Well, I think we can't help but look at the way in which this experience with Coronavirus is changing how we interface with one another... And yeah, we've had a number of different shifts. I was mainly live, face-to-face with patients, and kids in school, and husband working, which all of that entire apple cart has been upset... I'm trying to make accommodations, and it affects all people. As of within the last 24, I am now going to be full-time working from home as well.
 
-**Adam Stacoviak:** \[00:04:09.03\] Which is way different for someone like you.
+**Adam Stacoviak:** \[04:09\] Which is way different for someone like you.
 
 **Mireille B. Reece, Psy.D:** It is. So with that, it's involved a steep learning curve over "How do I function within the constraints of state and federal laws?" Because I care about people, and of all times that I think people need support, this is one of them.
 
@@ -36,7 +36,7 @@ But it's interesting, because technology isn't all the same in terms of its stab
 
 Because there are just these sort of idiosyncratic experiences when we are face-to-face with people -- or maybe even a better word is haphazard; they just happen, without planning... Like watercooler chat. Or somebody was walking down the hall past your office and they tripped on accident. We lose those sort of social experiences when we're not face to face. And yet, they're very necessary and very helpful to being human and doing our lives.
 
-**Adam Stacoviak:** \[00:08:30.19\] Yeah, Matt says "I've really had enough of this term social distancing. That is not all we are looking for, is it? We should be looking for physical distancing. In these times of rampant loneliness, disconnection, and lack of empathy and compassion, we need the opposite. We need social connecting."
+**Adam Stacoviak:** \[08:30\] Yeah, Matt says "I've really had enough of this term social distancing. That is not all we are looking for, is it? We should be looking for physical distancing. In these times of rampant loneliness, disconnection, and lack of empathy and compassion, we need the opposite. We need social connecting."
 
 **Mireille B. Reece, Psy.D:** Yes, I couldn't have said it better. Because I think about it with some of the issues that we're now trying to navigate, in terms of what people have all gone out out of fear and purchased, to make sure they don't run out. However, I was having a conversation recently with a friend who said how they needed something for their family, and they just put a message out there to people, like "I don't have this. If you see it, can you drop it by?" And they ended up with like ten gallons of water, or something like that, because they needed this special kind of water...
 
@@ -60,7 +60,7 @@ Obviously, the viruses in the movie versus this one is different in terms of its
 
 **Adam Stacoviak:** I don't know how old that movie is, eight or ten years old, but social distancing was a phrase in that movie. Ain't that crazy?
 
-**Mireille B. Reece, Psy.D:** \[00:12:12.16\] Wow... That's crazy. That's crazy.
+**Mireille B. Reece, Psy.D:** \[12:12\] Wow... That's crazy. That's crazy.
 
 **Adam Stacoviak:** And it was a Coronavirus.
 
@@ -88,7 +88,7 @@ I know that most of the research when it comes to remote work has said it's gene
 
 What he's talking about in terms of autonomy is that we all have this inherent drive to create. There's people who have talked about this with different companies in technology, wherein as far as I understand, they've been allotted a certain amount of time to work on their own creative endeavors, and that there's a portion of your time that it's like "I don't care what you do, we just want you to then share it", because this is intrinsic in all of us. All of us are made in a way to create and be creative.
 
-**Adam Stacoviak:** \[00:16:19.13\] Yeah.
+**Adam Stacoviak:** \[16:19\] Yeah.
 
 **Mireille B. Reece, Psy.D:** So if I'm like "Here are the keys. You can have far more flexibility and autonomy to pick when you work, how you work... All of those things, so that you can accommodate other things in your life" - wouldn't it make sense that productivity would go up?
 
@@ -122,7 +122,7 @@ If you were a night owl, wherein it's like "After 9, 10 o'clock at night, that's
 
 **Mireille B. Reece, Psy.D:** This is why I think it's helpful when we have these conversations, like - helping people build a different framework; a mental sort of grid for how they can make sense of this. I think of this like a rhythm, in all we do... Whether you're at the job, but also especially remotely, to say "Is there a rhythm that you can work within, wherein you can come together and work with people and meet up, like people will do? ...and then sort of move away and go asynchronous to not be present at the same place, at the same time, doing the same thing."
 
-\[00:20:04.04\] All of us have some sort of hybrid of that, and that's what helps us all work better, both with ourselves and with others. But we have to look at what mediums -- we've shared about how you've made changes with how you do the podcasting, so that it is more synchronous and you have more data with the visual experience, as opposed to solely audio.
+\[20:04\] All of us have some sort of hybrid of that, and that's what helps us all work better, both with ourselves and with others. But we have to look at what mediums -- we've shared about how you've made changes with how you do the podcasting, so that it is more synchronous and you have more data with the visual experience, as opposed to solely audio.
 
 **Adam Stacoviak:** Yeah. We had for a long time only met up via Skype, which did not have a video component requirement. And only recently - I would say in the last year, year-and-a-half maybe - we've started to incorporate Zoom. I would use Zoom or Hangouts or other things for meetings, but not for the podcast portion... Which is what we do.
 
@@ -142,7 +142,7 @@ If you were a night owl, wherein it's like "After 9, 10 o'clock at night, that's
 
 When I am more isolated and I don't have the interaction with co-workers, I sort of forfeit that additional information. Not to mention if I flip the lens back at myself, when I'm looking at feedback I get, like performance, I don't necessarily have to take in the feedback that my supervisor or peers are giving me, because - how do they know what I'm doing? I might not be meeting my own expectations, but they don't know that. So they can say "You're doing awesome", but I might then be like "Well, they don't really know..." So it's super-easy to minimize that feedback, which then changes how I perform, what I give, how much I'm going to offer up.
 
-\[00:24:23.06\] It's really a fascinating dynamic, I think, because there's no way that we're gonna opt out of relationships with other people. We need other people, just like you're talking about, to get jobs done.
+\[24:23\] It's really a fascinating dynamic, I think, because there's no way that we're gonna opt out of relationships with other people. We need other people, just like you're talking about, to get jobs done.
 
 **Adam Stacoviak:** It takes some self-discipline, that's for sure. You have to be strong-minded person. I don't wanna say strong-willed, because I think it doesn't give it enough depth. I think strong-minded -- and that's like an emotional intelligence kind of thing. It's potentially even a professional -- I don't know how to describe it really well, but someone who has good intentions... It really takes a lot of intention to do it well.
 
@@ -160,7 +160,7 @@ I don't know, I'm just thinking about me in particular, because when my son come
 
 **Adam Stacoviak:** Yeah.
 
-**Mireille B. Reece, Psy.D:** \[00:28:05.00\] A fair amount of work from home or remote options for work involve a degree of cognitive demand. So if I'm using this decision-making and that living like Garmin, of going "Recalculating... Recalculating...", your brain might be like "And I'm done. I can't handle more distractions, or upsetting the apple cart in another way..." But the way that we navigate that is recognizing the value of flexibility, and going "You know what - things are going to just have to be a little chaotic, until we can make it work."
+**Mireille B. Reece, Psy.D:** \[28:05\] A fair amount of work from home or remote options for work involve a degree of cognitive demand. So if I'm using this decision-making and that living like Garmin, of going "Recalculating... Recalculating...", your brain might be like "And I'm done. I can't handle more distractions, or upsetting the apple cart in another way..." But the way that we navigate that is recognizing the value of flexibility, and going "You know what - things are going to just have to be a little chaotic, until we can make it work."
 
 That's very much what it's looked like with my schedule, and kids, and going "Okay, I have to be responsible, and help them get work done for school", and have some semblance of structure for them, while I still need to do my work responsibilities... And going "You know what - it didn't look like it usually does. That's okay." We just sort of recalculate, recalibrate, and do what we can, when we can.
 
@@ -186,7 +186,7 @@ I think most people, at least here in Houston, trying to drive to -- if you live
 
 **Mireille B. Reece, Psy.D:** Yeah, sure. Clarifying that, what they're saying is, again, this hybrid. Telecommuting is good, but balancing this need for social interaction alongside having more autonomy and flexibility is going -- it's interesting living where I do, because the ferry system is a pretty routine aspect of commuting for people. So the relationships, ironically, that people build while they're on the ferries, of like "These are the people I hang out with, or decompress with on the way back from work..."
 
-**Adam Stacoviak:** \[00:32:19.29\] Yeah. That's true, too.
+**Adam Stacoviak:** \[32:19\] Yeah. That's true, too.
 
 **Mireille B. Reece, Psy.D:** Right? So there's different ways that you can go about doing it. So I have some days a week I'm at home, but then there's some days a week I'm going into the office, and really it allows meeting multiple needs at the same time. I forget where I was reading this, but talking about people who were incredibly successful in balancing life and work, and they said sort of the four quadrants of Work, Health, Family/Relationships, and I'm totally blanking on the other one... But going, we generally only get to allocate to three of them instead of the four. And really successful people really have to cut off the other two, or really downplay, and like "That's not where I'm vesting."
 
@@ -212,7 +212,7 @@ So with that, what I think is important, that Daniel Pink talks about, is this s
 
 **Mireille B. Reece, Psy.D:** I think this sense of alignment and going "It fits for me" or "It's worth it for me", because there's always some aversive aspect of whatever we do. I think about the ferry too on the negative alternative - when you miss the ferry. When you're trying so hard to get home and you might be that first car in line for the next ferry, which is 30, 40, an hour later than what you had planned on. But if I go "I recognize that this is a part of my life", and you're spot on, Adam, there is a qualitative aspect to being on the ferry. It's experiential, it's fun in a way, if you allow it to be.
 
-**Adam Stacoviak:** \[00:36:07.19\] Yeah. Well, especially if you like to take pictures, or just enjoy a bit of nature. You would almost design your life to get that, design that into this work-life blend. Maybe for some out there, as things eventually begin to normalize, this is a wake-up call for a lot of businesses and individuals who are forced to do remote work, in areas where it's possible...
+**Adam Stacoviak:** \[36:07\] Yeah. Well, especially if you like to take pictures, or just enjoy a bit of nature. You would almost design your life to get that, design that into this work-life blend. Maybe for some out there, as things eventually begin to normalize, this is a wake-up call for a lot of businesses and individuals who are forced to do remote work, in areas where it's possible...
 
 So now they get a chance to take a step back and say "Okay, I never thought this was possible before. Thankfully, I get a chance to do it. Maybe I'm not enjoying it so much right now", but eventually, you can start to design the kind of work you do, that is in line with the four quadrants, as you mentioned... And begin to buffer in some train opportunities, or some ferry opportunities, given your geolocation, or whatever. Pull in some of those things that make it more possible to design a better work-life blend in the future, that starts to fit who you are and what you wanna do in your life.
 
@@ -226,7 +226,7 @@ Talking about this sense of purpose, there was an article written by somebody in
 
 Lastly, when we're talking about this sense of what makes a difference, what data is relevant, is finally this sense of mastery. Daniel Pink identifies autonomy as this inherent drive to create; this sense of mission, or purpose. We have this drive to be a part of something bigger than ourselves, but we're driven to master certain things, so we need feedback. And if we're working remotely, how do we manage boredom, anxiety, a sort of appropriate level of challenge, as opposed to "It's too easy and I'm bored. And then I don't know how to fill my time and then I'm anxious"?
 
-**Adam Stacoviak:** \[00:40:30.28\] Yeah, I can imagine that... That's tough.
+**Adam Stacoviak:** \[40:30\] Yeah, I can imagine that... That's tough.
 
 **Mireille B. Reece, Psy.D:** Right. So even for you - what is your mechanism for feedback? Because you don't have a boss, you're not working for anybody else, and you're by yourself much of the time.
 
@@ -238,7 +238,7 @@ Lastly, when we're talking about this sense of what makes a difference, what dat
 
 **Mireille B. Reece, Psy.D:** You know, you just did an excellent job of summarizing intrinsic motivation. That your feedback, the data that you're looking at really comes from within you, and having that awareness, and looking at "Does the activities that I'm doing and investing in resonate with what's already inside of me?" I think that is a critical component when people are looking at remote work. Ask yourself, are you extroverted? Are you introverted? To what degree do I need to be face to face with people? What obstacles or challenges can I imagine encountering that would look different or feel different if I change the location of where I work? Because when I can see things from that broader panoramic perspective, it helps me look at and be better able to identify if it's gonna fit, and maybe even if it fits, for how long or how much of that part of my work do I want to make my living from.
 
-\[00:43:07.14\] Because like we were talking about, it's really different if it's your only ever always by yourself, versus "Oh, I'm gonna do this part of work, be it time limited, like three months, or more like a day a week." People talk a lot about chunking when they're self-employed...
+\[43:07\] Because like we were talking about, it's really different if it's your only ever always by yourself, versus "Oh, I'm gonna do this part of work, be it time limited, like three months, or more like a day a week." People talk a lot about chunking when they're self-employed...
 
 **Adam Stacoviak:** Batching, chunking... These are well-known things for getting things done.
 

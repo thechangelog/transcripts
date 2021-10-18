@@ -10,7 +10,7 @@
 
 **Adam Stacoviak:** So here's the way we kick off the show - diving a little deeper, especially Richard to someone like you, who's got a deep, rich history of software development; kind of figuring out where they came from, what made them get into technology in the first place. So take us back to as early as you want to that got your influence, that got your feet wet in technology. What were the first steps that got you into software development?
 
-**Richard Hipp:** \[00:03:46.19\] When I was in the 9th grade, I saw all a Teletype connected with an acoustic coupler 110-baud modem to a mainframe computer. And I said, "I've got to learn to program that." And I went to the school library and I checked out every single book about computers in my high school library, all three of them, and I read them cover to cover that night. And I got an account on that little computer and started programming away in BASIC. Saved up my money... Shortly after that, the Apple I came out, and I was about to buy the Apple I and the Apple II came out. And I bought just the motherboard for an Apple II. Got it.
+**Richard Hipp:** \[03:46\] When I was in the 9th grade, I saw all a Teletype connected with an acoustic coupler 110-baud modem to a mainframe computer. And I said, "I've got to learn to program that." And I went to the school library and I checked out every single book about computers in my high school library, all three of them, and I read them cover to cover that night. And I got an account on that little computer and started programming away in BASIC. Saved up my money... Shortly after that, the Apple I came out, and I was about to buy the Apple I and the Apple II came out. And I bought just the motherboard for an Apple II. Got it.
 
 Had to build my own keyboard, my own power supply, soldered it altogether. The first board I got didn't work. I called up Apple, they put me through the technical support and Steve Wozniak answers the phone.
 
@@ -46,7 +46,7 @@ That company has been in business now for 24 years. In the course of doing that 
 
 **Richard Hipp:** We thought it was magic. It was the most amazing thing in the world.
 
-**Adam Stacoviak:** \[00:08:03.10\] Well, take us back to that. Share with us if you can, Richard, a magic -- a story of a magic moment then. Since it's such magic to you, if you can remember back to those times when you were first enamored by this thing - what story can you share that sticks out most to you about something magical?
+**Adam Stacoviak:** \[08:03\] Well, take us back to that. Share with us if you can, Richard, a magic -- a story of a magic moment then. Since it's such magic to you, if you can remember back to those times when you were first enamored by this thing - what story can you share that sticks out most to you about something magical?
 
 **Richard Hipp:** You know, it's hard to say... There's just something magical about making things work. I've always liked building things from scratch and making things work. That goes back in my family, my father's the same way. When he builds things... My father is sort of the original maker. You see the makers now, but modern makers, they always have computers built in. The things my father makes usually involve an internal combustion engine of some sort. But it's the same idea. I just do it with abstractions on a computer screen.
 
@@ -74,7 +74,7 @@ Printers were ridiculously expensive. I did manage to get a hold of a used elect
 
 **Richard Hipp:** Well, so as an undergraduate at Georgia Tech, I did electrical engineering, and I stayed away from software because I think that was easy. I knew how to do that already, and I wanted to learn new stuff. So I did digital signal processing, which in the early 1980s was a really phenomenal thing. This was brand new stuff. Now everything is digital, but back then it was just the beginning of the digital age.
 
-\[00:11:49.07\] I'd never taken him a computer programming class until I went to Duke in graduate school, and I studied in the Department of Computer Science there. It was computational linguistics, artificial intelligence, and my thesis was on a speech recognition system and a dialogue system. I figured really cool ways, I devised some really cool things for resolving elliptical utterances and anaphora. It was interesting work, but once I left - I did that for five years at Duke and left that and never looked back. I haven't done anything with it in two and a half decades.
+\[11:49\] I'd never taken him a computer programming class until I went to Duke in graduate school, and I studied in the Department of Computer Science there. It was computational linguistics, artificial intelligence, and my thesis was on a speech recognition system and a dialogue system. I figured really cool ways, I devised some really cool things for resolving elliptical utterances and anaphora. It was interesting work, but once I left - I did that for five years at Duke and left that and never looked back. I haven't done anything with it in two and a half decades.
 
 **Jerod Santo:** Never to return, or maybe eventually?
 
@@ -110,7 +110,7 @@ It says, "He married Ginger G. Wyrick on April 16, 1994, changed the name of his
 
 **Richard Hipp:** Ginger is a musician, so we are yin and yang. She's very prolific, and all of her stuff comes through the same company.
 
-**Jerod Santo:** \[00:15:58.15\] Very cool.
+**Jerod Santo:** \[15:58\] Very cool.
 
 **Richard Hipp:** She's the president. I am Head of Research.
 
@@ -200,7 +200,7 @@ It says, "He married Ginger G. Wyrick on April 16, 1994, changed the name of his
 
 **Jerod Santo:** But we wanna talk about it, we wanna talk about its history. You mentioned kind of its inception a little bit, but we wanna draw down on that, and then we'll get into the technical features. We'll talk about the ubiquity, the community that you've built around it, the business that kind of is there that supports it, all sorts of things. We'll take a quick break and when we get back, we'll talk about all those things and more. We'll be right back.
 
-**Break:** \[00:19:50.00\]
+**Break:** \[19:50\]
 
 **Jerod Santo:** Alright, we are back with Richard Hipp and we are talking about SQLite - I can't say it my way anymore, I have to say yours …
 
@@ -222,7 +222,7 @@ I remember seeing on Net News, somebody had this really exciting post on Net New
 
 Of course, whenever people get excited about your software, an ego boost kicks in any you're like, "I'm gonna work on this and make it a little bit better."
 
-**Jerod Santo:** \[00:24:07.08\] Motivation...
+**Jerod Santo:** \[24:07\] Motivation...
 
 **Richard Hipp:** Yeah, so that was motivation to kind of work when I had the opportunity. The first version, it used GDBM as the storage engine, which is the GNU Database Manager. It's a hashing-based database, which is \[\\00:24:23.17\]. And so SQLite version one was GPL. It was also hash-based, and I wanted to expand SQLite to be able to do range queries. For that you need an ordered storage engine that orders the keys, basically a B-tree.
 
@@ -252,7 +252,7 @@ I was still doing bespoke software for various companies back then, but within a
 
 **Jerod Santo:** You mentioned the first version was GPL, and it's public domain now. Let's put that on hold. I want to talk about it specifically soon, but I want to get to the ubiquity, because you said Motorola came in and they wanted to put in their phones - that's a lot of phones, and now you have AOL and then you start to add all these other ones.
 
-\[00:27:52.02\] If we go to the website now, there's a page which was the one that I just sent to Adam, and I was like, "We gotta talk about this." Because I knew that it was in like every Linux basically, but I didn't realize it's on every android device, every iPhone, iOS device, Mac, every Windows 10 machine, so that pretty much covers all computers there.
+\[27:52\] If we go to the website now, there's a page which was the one that I just sent to Adam, and I was like, "We gotta talk about this." Because I knew that it was in like every Linux basically, but I didn't realize it's on every android device, every iPhone, iOS device, Mac, every Windows 10 machine, so that pretty much covers all computers there.
 
 **Richard Hipp:** Yes.
 
@@ -296,7 +296,7 @@ And I also think that SQLite is probably the second most widely used software co
 
 **Adam Stacoviak:** That's how I think... I would think that like just like that; my first experience with it was Ruby on Rails, and as soon as you get Rails going it's using that, and there's no need for something extra. You could add it if you wanted extra, if you need different things, but it came with it. And just the fact that it was so simple, a single file that you can copy and move it around as you wanted to. It seems to me like the access and barrier is so low to use it, it's so simple, and everything else has so many hoops to go through.
 
-**Richard Hipp:** \[00:31:50.17\] Yeah. We try and keep it simple. Now one of our earliest patrons was Symbian. The company made the operating system that -- and they were \[\\00:32:04.19\] and that was operating system on all the phones sold all over the world, except for the United States. They never really penetrated the US market. But this was in I think 2005, Symbian needed a database for their operating system, and apparently they had a big bake-off where they got 10 different embedded database engines - they told me about this later - SQLite was one of them and they competed them: seven commercial, three open. The other nine, they actually brought in engineers from that company to help tune it for their tests, where they ran tests on it and then they said that SQLite won the bake-off. And they called me up and said, "Hey, can you come over for a meeting?" "Sure." So I flew over and it was -- we had a meeting on Thanksgiving Day. They don't do Thanksgiving in London, apparently.
+**Richard Hipp:** \[31:50\] Yeah. We try and keep it simple. Now one of our earliest patrons was Symbian. The company made the operating system that -- and they were \[\\00:32:04.19\] and that was operating system on all the phones sold all over the world, except for the United States. They never really penetrated the US market. But this was in I think 2005, Symbian needed a database for their operating system, and apparently they had a big bake-off where they got 10 different embedded database engines - they told me about this later - SQLite was one of them and they competed them: seven commercial, three open. The other nine, they actually brought in engineers from that company to help tune it for their tests, where they ran tests on it and then they said that SQLite won the bake-off. And they called me up and said, "Hey, can you come over for a meeting?" "Sure." So I flew over and it was -- we had a meeting on Thanksgiving Day. They don't do Thanksgiving in London, apparently.
 
 **Adam Stacoviak:** But then they had the Mayflower. \[laughter\] That's a good reason. They were the Mayflower.
 
@@ -316,7 +316,7 @@ And I also think that SQLite is probably the second most widely used software co
 
 **Jerod Santo:** It's just humorous in light of how widely deployed it is in the entire world, and it's like, "Wow, you're not really a database guy."
 
-**Richard Hipp:** \[00:36:02.17\] Especially when early on when I was writing it in and I had come across something and I went, "How is this supposed to work?" and I had to go ask people, "What's it's supposed to do when you do this?" \[laughter\]
+**Richard Hipp:** \[36:02\] Especially when early on when I was writing it in and I had come across something and I went, "How is this supposed to work?" and I had to go ask people, "What's it's supposed to do when you do this?" \[laughter\]
 
 **Adam Stacoviak:** So we've got just a few minutes before the break, but something just dawned on me, that given what you had just said, something that a lot of software developers deal with today is this notion of imposter syndrome, where they don't belong. And given the fact that you never thought you were supposed to be a database guy or whatever, the story is... But yet as Jerod mentioned and now that everyone else knows how ubiquitously SQLite is used, have you ever dealt with or had to get over serious impostor syndrome? Has it ever been something where you're like, I don't belong here in this database world?
 
@@ -340,9 +340,9 @@ The other thing that's really different and probably helps with adoption is the 
 
 We do have another break to take, so we'll take that now. And then on the other side we'll talk to you about why you made it public domain, what the implications were that is public a domain, and then how you still sold some licenses against it anyway, which I think is hilarious. So let's take that break and we'll be right back.
 
-**Break:** \[00:39:04.00\]
+**Break:** \[39:04\]
 
-**Jerod Santo:** Alright, we are back and we are definitely going to talk about licensing and the public domain side of this. But before we get to that, I think we could actually cover some more of its technical merits. We talked about how some of the stuff was providential, or you stumbled upon perhaps some of SQLite's advantages over other database engines in certain contexts, but we shouldn't short come all of its technical merits. \[00:40:00.20\] I think what our listeners could probably use help with is knowing the clean lines when it comes to comparing and contrasting from a MySQL or from a Postgres or from anything that you choose, Richard. Could you just kind of enumerate for us a few things that make SQLite different?
+**Jerod Santo:** Alright, we are back and we are definitely going to talk about licensing and the public domain side of this. But before we get to that, I think we could actually cover some more of its technical merits. We talked about how some of the stuff was providential, or you stumbled upon perhaps some of SQLite's advantages over other database engines in certain contexts, but we shouldn't short come all of its technical merits. \[40:00\] I think what our listeners could probably use help with is knowing the clean lines when it comes to comparing and contrasting from a MySQL or from a Postgres or from anything that you choose, Richard. Could you just kind of enumerate for us a few things that make SQLite different?
 
 **Richard Hipp:** Well, from the perspective of somebody who's just using a database engine, one thing that's very different is the type system that we use. SQLite really started life as a Tcl extension, Tcl being the programming language, the Tcl/Tk. The project I was working was working on was written in Tcl/Tk and so SQLite began as a Tcl extension and as a scripting language, like Perl or Python, where you can put any type of value you want in a variable. So a variable might hold a string, a number, a byte array or whatever. So I made SQLite the same way, where just because you've declared a column of a table to be text doesn't mean you can't put integer in there, or just because you declared a column in the table to be a short int, why not put a 2-megabyte blob there? So what? It'll do that.
 
@@ -362,7 +362,7 @@ People have criticized SQLite about this. They say it's weakly typed and the oth
 
 And for that matter, with SQLite you don't have to give the column a type at all. You can just say, CreateTable T1 (a,b,c) and then you've got a table with three columns named a, b and c and you put whatever you want there.
 
-**Jerod Santo:** \[00:44:03.11\] That's just for flexibility purposes, I see.
+**Jerod Santo:** \[44:03\] That's just for flexibility purposes, I see.
 
 **Richard Hipp:** Well, it flows directly out of the scripting language traditions. You don't declare types for variables in Tcl; you didn't used to do it in Python, I guess you can do it some, now. You don't do it in JavaScript... You just say it's a var.
 
@@ -394,7 +394,7 @@ And for that matter, with SQLite you don't have to give the column a type at all
 
 **Jerod Santo:** I like that one too. You've got lots of good taglines. Here's another aspect of it that I think is a technical thing, which is probably pretty poignant considering recent events and the greater JavaScript community with dependencies: it doesn't have any. So listen to this quote from the website, "All of the deliverable code in SQLite has been written from scratch." It goes on to talk about how there's no third-party code, everything is in there, there's nothing that has a different license besides the public domain, which again we'll get into. Tell us about that decision.
 
-**Richard Hipp:** \[00:47:41.12\] Well, this -- it does relate closely to the public domain thing. I'm just one of these people... I don't like dependencies. I really like to statically link things, because with dynamic linking you just never know what version of a library you're gonna link in a runtime, and if you're delivering many copies of this, there will be some users who will come up with a bad version of a DLL or a shared library. Then they'll call you for support and it's really hard to debug if you don't know what they're running. And then, yeah, with upstream libraries and that sort of thing you're -- there's a dependency there that just makes life a little bit harder. Sometimes it works better to build your own tools.
+**Richard Hipp:** \[47:41\] Well, this -- it does relate closely to the public domain thing. I'm just one of these people... I don't like dependencies. I really like to statically link things, because with dynamic linking you just never know what version of a library you're gonna link in a runtime, and if you're delivering many copies of this, there will be some users who will come up with a bad version of a DLL or a shared library. Then they'll call you for support and it's really hard to debug if you don't know what they're running. And then, yeah, with upstream libraries and that sort of thing you're -- there's a dependency there that just makes life a little bit harder. Sometimes it works better to build your own tools.
 
 I know a lot of people say that you should never reinvent the wheel; the hacker credo is "Steal the code, don't rewrite it." I understand the point of view, but I've always been sort of the person that I'm more willing to write it myself. So rather than find a different SQL database engine that would work better than Informix, I just wrote my own. And the text editor that I used to write SQLite is one that I wrote myself.
 
@@ -442,7 +442,7 @@ I know a lot of people say that you should never reinvent the wheel; the hacker 
 
 **Jerod Santo:** How would you start? Say you want to become a software developer with zero knowledge today, and you are looking for a starting point. What would you try?
 
-**Richard Hipp:** \[00:52:01.12\] Well, I would probably try the wrong thing. \[laughter\] But if I were to advise people... One thing that I see is everybody's flocking toward integrated development environments and I want to encourage new developers to get really familiar with the command line and shell prompt. If you're on Windows, that's fine. Certainly get familiar with Bash on Unix. I see so many people coming out of school, they're new programmers, and they cannot operate without pointing and clicking, and somehow that limits their level of understanding.
+**Richard Hipp:** \[52:01\] Well, I would probably try the wrong thing. \[laughter\] But if I were to advise people... One thing that I see is everybody's flocking toward integrated development environments and I want to encourage new developers to get really familiar with the command line and shell prompt. If you're on Windows, that's fine. Certainly get familiar with Bash on Unix. I see so many people coming out of school, they're new programmers, and they cannot operate without pointing and clicking, and somehow that limits their level of understanding.
 
 I make the analogy, if I go to a foreign country where I don't speak the language, I can go to the market and I can point at things and we can make hand gestures and I can buy food to eat and stuff, but I cannot start a business or carry on a deep conversation about the meaning of life and the relationship of God and man. For that, I have to speak their language. And it's the same with computers. If you're just pointing and clicking, that's great if you're a casual observer or if you're a user and you don't want to spend the time to learn this foreign language. But if you really wanna get deep, you've got to learn the language. Once you do learn the language, it's much easier to communicate that way, much easier. So I encourage people starting out, go low level and do things from the command line rather than depending on point and click GUIs.
 
@@ -476,7 +476,7 @@ I make the analogy, if I go to a foreign country where I don't speak the languag
 
 **Jerod Santo:** And for a long time it's been public domain. And I think the piece in The Guardian which said basically, the subtitle was "Richard Hipp's database is used by some of the biggest names in IT, but he has not made a penny from it", And its whole emphasis was this aspect of you giving it away not just GPL or even LGPL, but like "This belongs to the public." So tell us your decision behind that, and then we'll probably take a break and then we'll talk more about it on the other side.
 
-**Richard Hipp:** \[00:56:01.25\] Sure. Well, just to correct The Guardian article, it was correct when it came out but, I mean, we've got a business built around this now.
+**Richard Hipp:** \[56:01\] Sure. Well, just to correct The Guardian article, it was correct when it came out but, I mean, we've got a business built around this now.
 
 **Jerod Santo:** I assume.
 

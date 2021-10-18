@@ -40,7 +40,7 @@ If you go to GitHub and you go to a project and then you click on Commit To and 
 
 **Mikeal Rogers:** I was saying I'd probably need to pay one Bitcoin, which is roughly twenty thousand dollars, to get Russian hackers to break it.
 
-**Alex Sexton:** \[00:04:04.14\] Oh yeah, for sure. The cost is still prohibitive to the point where no one's gonna troll you with this. Someone really needs to want -- there has to be a reason someone's doing this at this point. But that will only be true for like two months, or something. People will make this better instantly, and then exploit everybody across the board.
+**Alex Sexton:** \[04:04\] Oh yeah, for sure. The cost is still prohibitive to the point where no one's gonna troll you with this. Someone really needs to want -- there has to be a reason someone's doing this at this point. But that will only be true for like two months, or something. People will make this better instantly, and then exploit everybody across the board.
 
 **Mikeal Rogers:** Right, and it's pretty much a given now that governments can do this at will. What that means is that if your integrity checks involve you hashing with this algorithm, now if you're just using those checks, people can just inject malware whenever they want.
 
@@ -72,7 +72,7 @@ If you go to GitHub and you go to a project and then you click on Commit To and 
 
 **Mikeal Rogers:** Okay, nobody has. Juan Benet has been pushing this really hard for quite a while. He's one of the people behind IPFS, so lots of kind of distributed, peer-to-peer crypto stuff. He has really wanted to future-proof everything that he's been working on, so he started this little open source project called multi-format. What these are is essentially every time that you've gotta sit down and use a codec, or you've gotta use a particular encryption algorithm or a hashing function like this, let's just create a format that allows you to define which format you're using, so that libraries can just optionally support a bunch of different formats. And if in the future you wanna change formats, you don't break all of your clients, essentially.
 
-**Alex Sexton:** \[00:08:07.13\] It's very similar to .mkv or .mov - all the container things for video codecs, I suppose.
+**Alex Sexton:** \[08:07\] It's very similar to .mkv or .mov - all the container things for video codecs, I suppose.
 
 **Mikeal Rogers:** Right. Although containers, oddly, do implement a bunch of features.
 
@@ -102,7 +102,7 @@ Maybe someone doesn't get your authentication credentials, but hopefully you don
 
 **Mikeal Rogers:** Alright. Do we have anything else to say about hashing algorithms? This is a pretty deep topic to start a JavaScript show with...
 
-**Alex Sexton:** \[00:11:59.24\] Yeah, interesting choice.
+**Alex Sexton:** \[11:59\] Yeah, interesting choice.
 
 **Rachel White:** Somebody that doesn't know anything about this kind of stuff, a.k.a. me, or someone else that doesn't necessarily have to deal with the security side of the code that they write, what would be the best resource for somebody that wants to know how to actually authenticate stuff in a secure way that wouldn't anger Linus?
 
@@ -124,7 +124,7 @@ This one's bad - I don't think too many people are using SHA1. Even if you use H
 
 **Alex Sexton:** Right. The wide use of something signals far more security than a smart person, too. Someone can be smart and have a glaring hole that they singularly forgot because there's only one set of eyes on it. You can be pretty sure that the Rails auth stuff works pretty well, because every Saturday night it would be down if it didn't.
 
-**Mikeal Rogers:** \[00:16:00.17\] Unless Linus Torvalds is maintaining that library, then...
+**Mikeal Rogers:** \[16:00\] Unless Linus Torvalds is maintaining that library, then...
 
 **Alex Sexton:** Sure, sure, sure. \[laughter\] But at least it's well known. No one's being quiet about it.
 
@@ -138,7 +138,7 @@ But that's really just for known vulnerabilities, things we've already seen out 
 
 I think we're pretty good there. I think that we're actually coming into the time for a break now.
 
-**Break:** \[00:18:04.02\] to \[\\00:18:51.08\]
+**Break:** \[18:04\] to \[\\00:18:51.08\]
 
 **Mikeal Rogers:** Alright, let's dive into this a little bit. A relatively routine new version of Node came out - 7.6. We do these releases all the time, but this one is a big deal, and people are making a big deal out of it because V8 got updated in the background. They've been doing a lot of work so that we can actually take new versions of V8 in point releases and not break the API for everybody, so that's been great. But in this release, async/await came out from under a flag, so now in a current release of Node you can do async/await.
 
@@ -146,7 +146,7 @@ I'm curious what you all think of this and what your views are on it? Before I g
 
 **Alex Sexton:** I don't have a ton of opinions... I understand the two sides of this, and I feel like... I mean, I think the primary -- at least the thing people are calling their primary concern is performance of this, versus callbacks or Promises or whatever. I think that's silly, because a) it will get faster the next version, and b) it's such a small performance hit that who cares?
 
-\[00:20:08.23\] It's primarily sugar; I guess there are the people who dislike sugar and there are people who like sugar. Just use whatever you want, I don't know... I dislike that this is an issue.
+\[20:08\] It's primarily sugar; I guess there are the people who dislike sugar and there are people who like sugar. Just use whatever you want, I don't know... I dislike that this is an issue.
 
 **Mikeal Rogers:** You're just trying to make yourself above the controversy.
 
@@ -182,7 +182,7 @@ So it's nice to have a standard that going forward - if you look at the Fetch AP
 
 **Alex Sexton:** Yeah, but the Promise object doesn't have to exist in Node (the native Promise), and it just kind of does because V8 does.
 
-**Mikeal Rogers:** \[00:24:05.00\] Right, but there's some really low-level hooks. Now we're gonna get into some NodeJS details. There's a lot of tracing and debugging that you can do in NodeJS, especially in production systems to really get at the underlying state that's going on. There's all kinds of different methods to get at this; Node is one of the more inspectable platforms out there; there's different types of tracing that people do, and there's also this thing called AsyncWrap, which is like an async hook into the low-level event system. In order to do that, in Node there is this thing called Make callback in C++ land that wraps the callback that happens; it's just a little function.
+**Mikeal Rogers:** \[24:05\] Right, but there's some really low-level hooks. Now we're gonna get into some NodeJS details. There's a lot of tracing and debugging that you can do in NodeJS, especially in production systems to really get at the underlying state that's going on. There's all kinds of different methods to get at this; Node is one of the more inspectable platforms out there; there's different types of tracing that people do, and there's also this thing called AsyncWrap, which is like an async hook into the low-level event system. In order to do that, in Node there is this thing called Make callback in C++ land that wraps the callback that happens; it's just a little function.
 
 But Promises don't have that kind of hook yet - native Promises don't have the hook yet in V8, so there's work that needs to be done to get an equivalent thing happening at the native level, which at that point actually will make it much more valuable to use native Promises, rather than something like Bluebird. But anyway... What it all comes down to is that I think people don't actually like composing Promises into a bunch of things; they get kind of annoying and messy, and then end goal has been this async/await feature, which allows you to yield out a Promise. It's a syntactic sugar on top of what people are doing now. It is one of those more important pieces of syntactic sugar that makes this far more usable than it used to be, right?
 
@@ -206,7 +206,7 @@ But Promises don't have that kind of hook yet - native Promises don't have the h
 
 **Alex Sexton:** The question on our chat in Slack - you can join the Changelog Slack and the JS Party channel... Seth asked "Is there any argument against async/await other than performance and "syntax sugar is bad"? Well, against async/await maybe not, because it's just sugar, but there are plenty more arguments against Promises than just performance, namely error handling - I think is the number one complaint. Whenever you're inside of Promises, often times you're many levels deep inside thens and stuff, and errors can get swallowed in a way that's very, very hard to track them down, and very hard to even get stack traces back out of them when you do catch them.
 
-\[00:27:59.22\] You have to be very explicit about every error step along the path, and if you're not, then things just get swallowed and you don't realize that bad things are happening in your code. It may not be the number one design flaw with them, but it's certainly the number one thing people run into whenever they set up a giant Promise-based system.
+\[27:59\] You have to be very explicit about every error step along the path, and if you're not, then things just get swallowed and you don't realize that bad things are happening in your code. It may not be the number one design flaw with them, but it's certainly the number one thing people run into whenever they set up a giant Promise-based system.
 
 **Mikeal Rogers:** Yeah, and I think also the way that it handles errors kind of conflicts with the way that not just Node handles errors, because that wouldn't be accurate - Node doesn't have a way to handle errors, but a lot of the debugging facilities and tracing facilities in Node rely on errors and exceptions kind of bubbling up to the top... So because it's swallowing them, you lose a lot of the state and you can't figure out where you're going.
 
@@ -226,7 +226,7 @@ But then there are other async mechanisms... Async functions are coming in the f
 
 **Alex Sexton:** They're for debugging the Promises, though. Your code would still swallow it, but you might be able to see it in your tooling. Does that make sense?
 
-**Mikeal Rogers:** \[00:31:55.22\] Right, exactly. But honestly, the solution to callback hell is to write code that doesn't have callback hell, the same way that the way to not swallow errors in Promises is to write code in a way that doesn't swallow the errors, right?
+**Mikeal Rogers:** \[31:55\] Right, exactly. But honestly, the solution to callback hell is to write code that doesn't have callback hell, the same way that the way to not swallow errors in Promises is to write code in a way that doesn't swallow the errors, right?
 
 **Alex Sexton:** Yeah. Not necessarily a good solution, but viable.
 
@@ -250,7 +250,7 @@ But then there are other async mechanisms... Async functions are coming in the f
 
 **Rachel White:** Oh, okay... Well, the thing that you run into the most then is when you're trying to run stuff on serial port; when you're getting data from multiple places at once and sometimes this stuff that you're waiting to happen from your sensor over Wi-Fi isn't going to happen as quickly or in sync as the stuff coming over your serial port cord, so... It is sort of an issue, but not that much. I, at least, haven't run into it that often. Plus, whenever I have to deal with a bunch of really intense -- it usually happens whenever you have to rewrite more custom C to handle new kinds of chips, and then have the C work with your Johnny-Five stuff on an Arduino or a Tessel.
 
-**Mikeal Rogers:** \[00:36:21.27\] It's all like really low-level callback stuff, right? You don't get a lot of high-level proposition at that layer...
+**Mikeal Rogers:** \[36:21\] It's all like really low-level callback stuff, right? You don't get a lot of high-level proposition at that layer...
 
 **Rachel White:** Yeah... I'm trying to think of anything that I've done recently that has been what I would refer to as callback hell, and it probably would be some Node application that I utilized graphics magic with. I'm actually interested in going in and trying out the new Node version with that kind of stuff. I think it might be really helpful for people that do a lot of procedural art-based stuff on the web, actually.
 
@@ -292,7 +292,7 @@ But with a serial port, you're talking to the hardware there. It is asynchronous
 
 **Mikeal Rogers:** \[laughs\] And on that note, we're about ready for another break. When we come back, we'll talk a little bit about the featured project of the week.
 
-**Break:** \[00:39:05.24\] to \[\\00:39:54.22\]
+**Break:** \[39:05\] to \[\\00:39:54.22\]
 
 **Mikeal Rogers:** And we are back. We're gonna get into the featured project of the week, AR.js. Rachel's particularly stoked about this one, so I'm gonna let you take this over.
 
@@ -318,7 +318,7 @@ It's really cool. A-Frame is really accessible for people that are just starting
 
 **Alex Sexton:** This is only a slight side check... So it runs at 60 FPS, and if you look at the pictures of it, it's like this blob that sits on a piece of paper, and you can look around and the blob stays on the piece of paper, which is pretty nifty. You can move it and animate it and things like that; you can spin it on the piece of paper while you look around. That runs at 60 FPS, and that's pretty verifiable on the phone. But I can't get a div to animate from 200-pixels-high to 500-pixels-high at 60 FPS. I can't get my web page to scroll at 60 FPS by default half the time.
 
-**Mikeal Rogers:** \[00:44:18.15\] It's because you're not using WebGL! \[laughs\]
+**Mikeal Rogers:** \[44:18\] It's because you're not using WebGL! \[laughs\]
 
 **Alex Sexton:** I know... I'm just always so amazed that the difference -- everybody is almost hitting 60 FPS, but the place where we're starting out is always so different... It always blows my mind when these things work quickly, that's all I wanted to say.
 
@@ -350,7 +350,7 @@ You could just put a marker on your hand to know a position; you can get an RFID
 
 **Mikeal Rogers:** This is a really cool project. This reminds me... When they first used M scripting to compile down Doom and these 3D games, when they were first doing 3D standards in the browser, and those demos that nobody really ever used were what ended up pushing the web's implementation of WebGL forward.
 
-**Alex Sexton:** \[00:48:06.04\] Yeah, I mean... Brendan tore the conference circuit for like three years on those demos.
+**Alex Sexton:** \[48:06\] Yeah, I mean... Brendan tore the conference circuit for like three years on those demos.
 
 **Mikeal Rogers:** And he's so bad at playing it, too... It was so funny.
 
@@ -394,7 +394,7 @@ You could just put a marker on your hand to know a position; you can get an RFID
 
 **Alex Sexton:** You have to eat the skin in order to get all 1,200.
 
-**Mikeal Rogers:** \[00:51:59.16\] \[laughs\] No, but they are building this thing called Regl. Essentially, it's various substacks modules philosophy, and Mikola is just this amazing math dude, doing all these kinds of crazy algorithms. It essentially gives you WebGL, but then adds a bunch of features and kind of modules, and you can plug in different algorithms and stuff really easily into it. But the most amazing thing about it is when you get an error in your WebGL code, you actually get line numbers out of the debugger that gives you your line number in your crazy abstract thing from Regl.
+**Mikeal Rogers:** \[51:59\] \[laughs\] No, but they are building this thing called Regl. Essentially, it's various substacks modules philosophy, and Mikola is just this amazing math dude, doing all these kinds of crazy algorithms. It essentially gives you WebGL, but then adds a bunch of features and kind of modules, and you can plug in different algorithms and stuff really easily into it. But the most amazing thing about it is when you get an error in your WebGL code, you actually get line numbers out of the debugger that gives you your line number in your crazy abstract thing from Regl.
 
 It's really well put together, and they've done a really amazing job with the tooling and the debugging side of it. I was actually able to build much cooler, quicker things with Regl than I could with three.js. Even though there's far less big demos and stuff written with it yet, I did find it easier to just kind of pick up and learn.
 

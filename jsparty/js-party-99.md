@@ -20,7 +20,7 @@
 
 **Kevin Ball:** Yeah. I've been tuning in a lot to this recently, but I know some of our listeners may or may not have had the chance to play around with JAMstack, and since you literally wrote the book on JAMstack, recently published - last year? Late last year?
 
-**Phil Hawksworth:** \[00:03:57.27\] Earlier this year.
+**Phil Hawksworth:** \[03:57\] Earlier this year.
 
 **Kevin Ball:** Earlier this year... Maybe you can do a great one or two-minute explanation of what JAMstack is and why it matters right now.
 
@@ -56,7 +56,7 @@ So JAMstack - JAM stands for JavaScript, APIs and Markup, and it really is tryin
 
 **Phil Hawksworth:** Yeah. That's the thing... Sometimes when I talk about JAMstack, I have this diagram where I compare the traditional or a dynamic stack, and all of the lines and boxes that are in there, the bits of infrastructure, and then a JAMstack site, which is served directly from the CDN... And it's a bit of an oversimplification, but it does show how much complexity there is in one versus the other. I sometimes kind of make this slightly smart ass comment that there's no server more secure than the one that doesn't exist.
 
-**Kevin Ball:** \[00:08:08.15\] Yes!
+**Kevin Ball:** \[08:08\] Yes!
 
 **Phil Hawksworth:** If you take infrastructure out of the equation, there's less surface area to attack, there's fewer things to have to scale, fewer things to deploy to... All of these moving parts - if you can get them out of the equation, it just makes everything go much faster, and as you say, much more secure. So I love the fact that you're encouraging people to try and hack your site on Netlify. I should introduce you to our infrastructure team around the corner and see if they raise an eyebrow...
 
@@ -88,7 +88,7 @@ So you take out some of the maybe more exotic skills and the exotic complexity a
 
 So it kind of takes the shackles off a little bit, and it means that engineers can be so much more impactful and so much more rapid about it. And when you start to pull at that particular thread, it means that we can start building things that we can put in front of clients in a realistic way, much sooner. We can start to share the work as it's being developed in a real context, and it just increases the confidence in what we're building, and reduces lead time. So it's really an exciting thing as a developer, and I know that a lot of people here at the conference are developers who are enthusiastic, as they enjoy the experience of building in this way.
 
-**Break:** \[00:11:02.10\]
+**Break:** \[11:02\]
 
 **Kevin Ball:** Let's talk a little bit about the A in the JAMstack, because what we've talked about a lot here is the J, the JavaScript, and M, the Markup... And we can do some things in a pre-computed way; I could move my CMS from being in WordPress to being in Git, or something like that... But sometimes you still do need some sort of interaction, interactivity, authentication, things like that... So how does that play in?
 
@@ -118,7 +118,7 @@ That's when JavaScript and APIs start to come into play, where you can use thing
 
 **Kevin Ball:** Preach...
 
-**Phil Hawksworth:** \[00:15:52.06\] Yeah, do as much as you can upfront is kind of where I start from, and I think that's a really sensible place to begin - "How much can we do ahead of time, so we don't have to do it later?" is a great way to approach it. But then you still have the ability to enhance things later on.
+**Phil Hawksworth:** \[15:52\] Yeah, do as much as you can upfront is kind of where I start from, and I think that's a really sensible place to begin - "How much can we do ahead of time, so we don't have to do it later?" is a great way to approach it. But then you still have the ability to enhance things later on.
 
 I think on projects that I've worked in years ago, when I'd be working on maybe a traditional stack, you just assumed that everything was gonna be dynamic by default; cogs would be turning at request time, always. But then, as you start to think "Well, how can we scale it? How can we make it more resilient, and all these things?", you start to look for opportunities of things that "Oh, maybe I can take that and make that static, and start to cache certain things, and what have you." And you start to do that. But that does leave you in the position where you have to figure out what's dynamic and what's static all the time, and you have to figure out how you balance those two. So what I prefer to do is invert that, and say "Okay, this project will be static...", and by static I mean pre-generated and then served from a CDN, "...and that's gonna be my default."
 
@@ -154,7 +154,7 @@ But you might equally find that you and I might visit the same URL, which is pri
 
 **Phil Hawksworth:** And that's a path that we see very often.
 
-**Kevin Ball:** \[00:19:58.04\] Yeah. Okay, to dive into that specifically... Most because I want it, right...?! That's something I am looking at right now with my new site, "How do I handle this case?"
+**Kevin Ball:** \[19:58\] Yeah. Okay, to dive into that specifically... Most because I want it, right...?! That's something I am looking at right now with my new site, "How do I handle this case?"
 
 **Phil Hawksworth:** Yeah, yeah.
 
@@ -198,7 +198,7 @@ The other thing that happens in this redirects API is that we can conditionally 
 
 **Kevin Ball:** That's a topic that I wanna dig in more. Everything you say, I'm like "Oh, I wanna dig more into that."
 
-**Break:** \[00:24:30.12\]
+**Break:** \[24:30\]
 
 **Kevin Ball:** One of the big questions in my mind is essentially how much can we push out to the edge? What can be there? Because it's not just content. You can have authentication out there, you can have some amount of routing out there...
 
@@ -220,7 +220,7 @@ The other thing that happens in this redirects API is that we can conditionally 
 
 **Phil Hawksworth:** Well, I don't know... I'm focusing so much on trying to do that, that--
 
-**Kevin Ball:** \[00:28:03.23\] Yeah... Or flipping that around - as you have pushed more and more things, and you come from this perspective of "default push it out", and then ask yourself "Is there something that I can't?", where else have you run into (even if it's not impossible) friction in moving to this paradigm?
+**Kevin Ball:** \[28:03\] Yeah... Or flipping that around - as you have pushed more and more things, and you come from this perspective of "default push it out", and then ask yourself "Is there something that I can't?", where else have you run into (even if it's not impossible) friction in moving to this paradigm?
 
 **Phil Hawksworth:** I think it's content that updates very, very frequently. When people are keen to do things like push notifications, and opening WebSockets, and those kinds of things - that gets to be a bit more challenging. When you need to centrally manage state somewhere, that gets to be kind of tricky, because you need some central resource for that. So that starts to get a little bit more challenging.
 
@@ -256,7 +256,7 @@ Different static site generators strive differently for this, and get closer to 
 
 **Phil Hawksworth:** Right. I've been having quite a lot of fun playing with things in this territory a little bit... Mostly in the kind of "What do I cache between builds?" situation. I guess it's a lesser-known, kind of secret - don't tell anyone; this is between you and I...
 
-**Kevin Ball:** \[00:32:08.24\] \[laughs\]
+**Kevin Ball:** \[32:08\] \[laughs\]
 
 **Phil Hawksworth:** ...that in Netlify there is a means to cache things between builds. Now, this is not a thing that we've documented, but we use it, and you could use it, too. For instance...
 
@@ -286,7 +286,7 @@ One of the aspects of that is exposing the cache. So having a plugin which could
 
 **Kevin Ball:** Essentially, rather than thinking of it top-down, of "I'm going to figure out how to do it", I'm gonna observe it empirically, and say "Okay, I have observed that these files influence these things, so until I change something about my site structure, I can make these assumptions."
 
-**Phil Hawksworth:** \[00:36:06.06\] You absolutely could do that. We're not gonna give you the code to do that, but...
+**Phil Hawksworth:** \[36:06\] You absolutely could do that. We're not gonna give you the code to do that, but...
 
 **Kevin Ball:** But the hooks are there.
 
@@ -332,7 +332,7 @@ So yes, I expect the plugin to be done and finished by -- I don't know, this tim
 
 **Phil Hawksworth:** Yeah, it's great. But a content author never wants to touch Git. And frankly, a content author should never even need to know that Git exists. So one of the things that kind of came along a bit later were tools like Git-based content management systems, and one of the talks actually here at the conference was by Shawn Erquhart, who's the lead for Netlify CMS. The Netlify CMS is by no means the only Git-based CMS that exists... But what tools like that do is they're aiming to close this gap between writing markdown and submitting it to Git, and then having your continuous integration do all of its magic... Closing that gap between that and the content authoring experience.
 
-\[00:40:11.28\] Netlify CMS, for an example, gives you an authoring experience that looks like what you'd expect, can give you an instant render of what your page will look like - is it gonna apply the same templates for that page in real time, as you're typing? But behind the scenes, all it's doing is it's poking content into your Git repository. So as a content author, you're writing content in a structured way, you're seeing the result immediately, but when you hit "Give me a preview of that", you don't know that behind the scenes it's making a pull request, pushing that to a repo, making sure that your content is managed and version-controlled with your code, and all of those things. You're just working seamlessly on top of that. And more and more tools are arriving to make it feel like "Oh, it's the context that I want to work in as an author or a marketing person, or what have you." So that's one example.
+\[40:11\] Netlify CMS, for an example, gives you an authoring experience that looks like what you'd expect, can give you an instant render of what your page will look like - is it gonna apply the same templates for that page in real time, as you're typing? But behind the scenes, all it's doing is it's poking content into your Git repository. So as a content author, you're writing content in a structured way, you're seeing the result immediately, but when you hit "Give me a preview of that", you don't know that behind the scenes it's making a pull request, pushing that to a repo, making sure that your content is managed and version-controlled with your code, and all of those things. You're just working seamlessly on top of that. And more and more tools are arriving to make it feel like "Oh, it's the context that I want to work in as an author or a marketing person, or what have you." So that's one example.
 
 I think another real strength of JAMstack sites is how immediate you can get a real-life, real context preview into the hands of stakeholders.
 

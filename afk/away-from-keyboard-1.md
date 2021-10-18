@@ -1,4 +1,4 @@
-**Tim Smith:** \[00:01:46\] Describing what Jason Snell does really can't be done with one word. He's been covering Apple and other technology companies for more than 20 years, ten of those as a lead editor at Macworld. But personally, I first came to know Jason from The Incomparable, a podcast that turned into a whole network of shows on Pop Culture.
+**Tim Smith:** \[01:46\] Describing what Jason Snell does really can't be done with one word. He's been covering Apple and other technology companies for more than 20 years, ten of those as a lead editor at Macworld. But personally, I first came to know Jason from The Incomparable, a podcast that turned into a whole network of shows on Pop Culture.
 
 He's still doing that show, and if I'm counting right, he's on at least five podcasts a week. On top of that, he's the editor-in-chief of Six Colors, a site he started a little over four years ago.
 
@@ -12,7 +12,7 @@ Beyond that, the details of what I'm doing during a regular day - you know, I ha
 
 I've got freelance stuff, so I've got that marked... Sometimes I'm writing freelance stories, and I've got those blocked off, because I've got weekly and every other weekly gigs that I'm doing; so I've got those blocked off. And if I'm not writing those, then maybe I'm writing something for my own site, or I might be working on something else. I might be working on editing a podcast, or making a video or something. So there's not a super typical day, other than to say I'm probably in here 8 or 9 to 5 or 6, and I am probably doing a podcast and editing a podcast somewhere in there, and also doing some writing.
 
-\[00:04:08.10\] And at some point during the day I may wanna take a break from writing at my desk and I'll go write on my iPad on the counter in the kitchen, or I'll go to the Starbucks that's down the street and I can walk to in less than five minutes. That's if I really need a change of venue in order to get the words flowing.
+\[04:08\] And at some point during the day I may wanna take a break from writing at my desk and I'll go write on my iPad on the counter in the kitchen, or I'll go to the Starbucks that's down the street and I can walk to in less than five minutes. That's if I really need a change of venue in order to get the words flowing.
 
 **Tim Smith:** You do a lot in one day...
 
@@ -36,7 +36,7 @@ I could say not having a regular paycheck and not knowing where the next amount 
 
 Instead, it has a lot more to do with kind of getting out of my short-term -- it's so easy to get in the short-term... It's almost like a rut, or you can say you're in a groove; that's the positive kind of rut, I guess. That's great, but you do have to think about the long-term and the big picture and give yourself new assignments to do, and think a little more strategically. That can lead you to a moment where you're sitting there on a Wednesday at 10 AM and thinking "I don't even know what I should be doing right now." That's when it's actually really good to take a walk with the dog and sort of clear your head and think about what you're gonna do, or go for a run or a bike ride, or whatever.
 
-**Tim Smith:** \[00:08:07.13\] One of the things that I heard you say a few different times is the fact that you go for a walk somewhere... How important has that been for you, doing what you do? Because I think sometimes as creative people we don't give enough credit to how important it can be to take a break...
+**Tim Smith:** \[08:07\] One of the things that I heard you say a few different times is the fact that you go for a walk somewhere... How important has that been for you, doing what you do? Because I think sometimes as creative people we don't give enough credit to how important it can be to take a break...
 
 **Jason Snell:** I have to remind myself to do it... So it is important, but it is something that I have to remind myself, and it's very easy for me to get out of the habit. I am always surprised - and I shouldn't be - when my wife comes home from work and I say "Oh, I didn't do any of that. I didn't take the dog out..." I mean, I worked, but I didn't take the dog out. I didn't get out of the house today.
 
@@ -54,7 +54,7 @@ You try to - at least that's what I'm trying to do - break it up into little blo
 
 Going back to what I said about the thing that is most difficult - there is something to that, that you don't have a map; you have to make your own map. You don't have a boss telling you what to do, you have to choose what to do. That is hard, but flexibility -- it's the tyranny of choice, in some ways. Flexibility is great, but you have to build your ability to use that flexibility in ways that are positive.
 
-**Break:** \[00:11:37.24\]
+**Break:** \[11:37\]
 
 **Tim Smith:** Given how busy Jason is, one of the things that I was curious about was how he manages to strike a balance between work and being a husband and father. Unsurprisingly, the whole dynamic of that balance changed drastically when he started working from home.
 
@@ -78,7 +78,7 @@ The payoff is there are two weeks coming up when we'll be on vacation and I won'
 
 David Sparks and I talk about this on our Free Agents podcast, and we have talked about it a lot in the last three years... If you have one client, what happens when they go out of business or they drop you or they cut your work in half? You just lost half your income. If you have four clients and one of them goes out of business or drops you or cuts what they're paying you in half - guess what? Your income went down by 12% or 25%, depending on the scenario. It didn't go to zero, and that's better.
 
-\[00:16:22.22\] That also means that if you have four clients and one of them is a jerk, you can dump them and then go find another client, knowing you've got those three other clients to help see you through. So there's so many reasons, if you can, to diversify. In my case, I'm diversifying not just in terms of clients, but in terms of industry. I've got a lot of podcast revenue and a lot of freelance writing revenue, which is good in either case of if the websites I write for go out of business, then I've still got the podcast stuff. And if the podcast ad industry falls apart, I've still got the writing. And then I've also got some direct audience support from my writing and my podcasting that's in the mix there too, so it's diversified in a bunch of ways.
+\[16:22\] That also means that if you have four clients and one of them is a jerk, you can dump them and then go find another client, knowing you've got those three other clients to help see you through. So there's so many reasons, if you can, to diversify. In my case, I'm diversifying not just in terms of clients, but in terms of industry. I've got a lot of podcast revenue and a lot of freelance writing revenue, which is good in either case of if the websites I write for go out of business, then I've still got the podcast stuff. And if the podcast ad industry falls apart, I've still got the writing. And then I've also got some direct audience support from my writing and my podcasting that's in the mix there too, so it's diversified in a bunch of ways.
 
 If you're a lawyer, probably the reality is you're gonna have a bunch of different clients. If you're an artist or a writer, you're just gonna have a bunch of different clients in your field. I feel fortunate that I've ended up being able to diversify across these different media types too, because that gives me a little more confidence. I don't think all the tech websites are gonna shut down AND all the podcast advertising is going to go away immediately. I think it's unlikely that everything just goes bad immediately. You never know, but it seems a lot less likely.
 
@@ -94,7 +94,7 @@ So some of it is focusing on the things that I love to do and I want to do and t
 
 Right now, I get to make what I make and do what I do, and I am doing podcasts, and I am doing different podcasts. I do a tech podcast where I'm hosting a panel, and I do one where it's two people chatting. I do a TV podcast, I do a space podcast.
 
-\[00:19:30.08\] And then I'm writing - I'm writing for Macworld, I'm writing for Tom's Guide, I'm writing for Six Colors, and I can write different aspects for all of those different places. That's really rich and it allows me to do some of that context switching in a good way. I get to do a bunch of different stuff during the week, instead of it literally being you're chained to your desk. I could do it and I have done it, but I would rather not if I don't have to, and it helps. It helps to be able to shift.
+\[19:30\] And then I'm writing - I'm writing for Macworld, I'm writing for Tom's Guide, I'm writing for Six Colors, and I can write different aspects for all of those different places. That's really rich and it allows me to do some of that context switching in a good way. I get to do a bunch of different stuff during the week, instead of it literally being you're chained to your desk. I could do it and I have done it, but I would rather not if I don't have to, and it helps. It helps to be able to shift.
 
 **Tim Smith:** Well, I ask you because I feel like even when you're doing what you love, and even when you're in an ideal - whatever ideal means, because is there an ideal...? But even in your situation, where you love what you're doing, you have this diversity of things that you get to do, it's a pretty ideal situation for you - even then, it doesn't mean that every day is easy... You know what I mean? There's still tiredness, and there's still some lack of motivation, and that's why I ask you about that.
 

@@ -30,7 +30,7 @@ So while we're here, we'd like to really have a fluid conversation with Brad, ma
 
 **Mat Ryer:** So please do, guests... The most creative--
 
-**Brad Fitzpatrick:** \[00:04:17.15\] It used to say that I have 27 Boston Terrier pups, and I was like -- I don't know; there was just tons of stuff there over time.
+**Brad Fitzpatrick:** \[04:17\] It used to say that I have 27 Boston Terrier pups, and I was like -- I don't know; there was just tons of stuff there over time.
 
 **Mat Ryer:** Well, just random people modifying it, and stuff.
 
@@ -62,7 +62,7 @@ So while we're here, we'd like to really have a fluid conversation with Brad, ma
 
 **Brad Fitzpatrick:** So we had this bootleg Apple II that I always saw my dad screwing around on, and at some point - I was like 5 or 6 - he had taught me how to write BASIC. He wrote a program on paper that was like 10 PRINT "HELLO WORLD" 20 GOTO 10 and he was like "What do you think this does?" And I was like "Well, clearly it prints something on our printer." And he's like "Well, no, actually it doesn't print on the printer, it prints on the screen." I was like "Oh, okay..."
 
-**Mat Ryer:** \[00:08:14.24\] You were sassy for a 5-year-old, weren't you?
+**Mat Ryer:** \[08:14\] You were sassy for a 5-year-old, weren't you?
 
 **Brad Fitzpatrick:** \[laughs\] I don't know what I said... But I do remember being confused that print didn't mean it actually went to the printer.
 
@@ -106,7 +106,7 @@ So while we're here, we'd like to really have a fluid conversation with Brad, ma
 
 **Mat Ryer:** We've got a question here in our Slack channel from Johann Brandhorst, who asks "What are some tech that you're excited about?"
 
-**Brad Fitzpatrick:** \[00:12:07.03\] Well, I was really into WireGuard lately, which is why I kind of left Google to go work on WireGuard, and making WireGuard fun and easy... I don't know, I've always been kind of so-so at networking. I've been interested in networking, but I never felt super-great of it... So this is kind of a forcing function that makes me actually learn how networks work.
+**Brad Fitzpatrick:** \[12:07\] Well, I was really into WireGuard lately, which is why I kind of left Google to go work on WireGuard, and making WireGuard fun and easy... I don't know, I've always been kind of so-so at networking. I've been interested in networking, but I never felt super-great of it... So this is kind of a forcing function that makes me actually learn how networks work.
 
 **Mat Ryer:** Oh, wow... Okay.
 
@@ -142,7 +142,7 @@ I had a bunch of friends that were all kind of doing startups at the same time, 
 
 **Brad Fitzpatrick:** Yeah, so in high school I did a summer internship at Tektronix, and one of my jobs was to work on their corporate intranet, and make a company directory online, and take a bunch of their tools that were kind of like not online at all - I guess they were things that didn't exist - and work on their corporate intranet... And as part of that, I was running on some commercial Unix system, I was running Motif as my desktop, and it was like a three-button mouse, and classic, old-school Unix... And I had access to run CGI scripts, and that was my first time where I had access to a server that made dynamic responses to HTTP requests. So I just went crazy, and I made their intranet do all these dynamic things...
 
-\[00:16:08.27\] And then I wanted to do that myself, so the summer before college I started making my personal website have all the dynamic crap... And I got a copy of Visual Basic, and I made the stupidest Visual Basic app, which was just like a single-line textbox that just floated up my Start bar in Windows... And I could type into that single-line textbox. There was no button to post, you'd just hit enter and you'd post. And it just made an HTTP request. I didn't call it an API for the longest time, because I didn't really think of it as an API. I was like "I don't know, it just makes an HTTP request."
+\[16:08\] And then I wanted to do that myself, so the summer before college I started making my personal website have all the dynamic crap... And I got a copy of Visual Basic, and I made the stupidest Visual Basic app, which was just like a single-line textbox that just floated up my Start bar in Windows... And I could type into that single-line textbox. There was no button to post, you'd just hit enter and you'd post. And it just made an HTTP request. I didn't call it an API for the longest time, because I didn't really think of it as an API. I was like "I don't know, it just makes an HTTP request."
 
 So everyone downloaded this Windows program, and there was no way to post on the web even... And then later, people started writing entire paragraphs in this client. They couldn't hit Enter, because Enter posts, so they would just write this whole wall of text... And I was like, "Oh yeah, I didn't really put a character limit on that." So everyone used it effectively like Twitter, because they would type until they hit the edge of their screen, and then they'd be like "Well, I'm out of space, I guess. I'll hit Enter."
 
@@ -168,7 +168,7 @@ It was good times. It was fun goofing around... And you know, there's constantly
 
 **Mat Ryer:** It's amazing to hear all the different types of technologies that you had to innovate at the time. It's kind of really surprising. And now, of course, LiveJournal - it says on their website they are now at version 427... And that's great.
 
-**Brad Fitzpatrick:** \[00:19:54.29\] What?! They have version numbers? We didn't want to build all this stuff. At one point we went to buy -- we needed high-availability file storage for our images, and stuff... Because we had a bunch of machines that were net-booting/PXE-booting Linux and stuff, and we're like "Well, where do we store state?" We had the databases for posts and stuff, but we didn't wanna put all of our images in our databases, because we were spinning disks at the time, and didn't have much storage.
+**Brad Fitzpatrick:** \[19:54\] What?! They have version numbers? We didn't want to build all this stuff. At one point we went to buy -- we needed high-availability file storage for our images, and stuff... Because we had a bunch of machines that were net-booting/PXE-booting Linux and stuff, and we're like "Well, where do we store state?" We had the databases for posts and stuff, but we didn't wanna put all of our images in our databases, because we were spinning disks at the time, and didn't have much storage.
 
 Someone said "Oh, everyone NetApp. Go to NetApp and get one of their file servers, or whatever." So we talked to them, and we said "Okay, we need a file server. How much?" And they're like "How many users do you have?" And I was like "Um, this much." "How much do you charge them?" I'm like, "Um, this much. But not everyone pays." "What percentage pay?" And you could see them multiplying in their head... And they're like "Okay, we'll come back to you with a quote." And this was the first time that I dealt with commercial vendors... It just felt so scammy. And I was like "Oh, you're just making up a price on the fly here...", and I just got so pissed. But we had no option, because we were falling over... So we paid them all this money, which - I forget what it was, but it was like tens of thousands of dollars for something that was okay... It kind of worked, but it wasn't amazingly performant or anything. This is all pre-SSDs and stuff anyway, so even if your software is magic, there's not much you can do if you have a couple spinning disks in side this unit... Or two. I think we got a pair, for high availability reasons...
 
@@ -184,7 +184,7 @@ So that's what led me to go build our MogileFS, which is an anagram of OmgFiles.
 
 **Mat Ryer:** Do you like working in that sort of environment, or do you prefer it more relaxed, where you can just take your time and design maybe...?
 
-**Brad Fitzpatrick:** \[00:23:46.01\] No, I need a certain amount of stress. There's probably a limit, but if there's no stress at all, the priority isn't so obvious. I don't' do well when it's not obvious what the priority is. If I have 20 things that are all kind of equal priority, but I know I'm only gonna have time to do two of them today, but it's just arbitrary which two of the 20 I pick, then I'm like "Why pick anything? 18 of them aren't getting done... So why those two?" I like a certain amount of fire, so I know what to do next.
+**Brad Fitzpatrick:** \[23:46\] No, I need a certain amount of stress. There's probably a limit, but if there's no stress at all, the priority isn't so obvious. I don't' do well when it's not obvious what the priority is. If I have 20 things that are all kind of equal priority, but I know I'm only gonna have time to do two of them today, but it's just arbitrary which two of the 20 I pick, then I'm like "Why pick anything? 18 of them aren't getting done... So why those two?" I like a certain amount of fire, so I know what to do next.
 
 **Johnny Boursiquot:** Do you like the arbitrary stress? You know, say, product teams - you're making arbitrary deadlines, saying "Hey, we need to have a conference on this date, so we need to build this thing by that date." Or do you prefer the stuff that's being driven by customer need? Like, basically needing to scale.
 
@@ -196,7 +196,7 @@ So that's what led me to go build our MogileFS, which is an anagram of OmgFiles.
 
 **Mat Ryer:** Oh. It's cool. It's basically abstract. You try and just have an abstract number, a relative score for work. In some ways it's nice, because you can identify big pieces of work, usually. Someone on the team will know that this is a big piece of work, and they can talk about it... But the trouble is obviously it gets turned into dates and times, and then suddenly we're all rushing, and there's no really good reason for it.
 
-**Break:** \[00:25:48.07\]
+**Break:** \[25:48\]
 
 **Johnny Boursiquot:** So obviously -- well, I'm gonna assume that you're using a lot of Go in your day-to-day work today...
 
@@ -208,7 +208,7 @@ So that's what led me to go build our MogileFS, which is an anagram of OmgFiles.
 
 So when I discovered Perl, in '93-'94 or something like this - it was Perl 4 at the time - I was like "Whoa, I can do things really quickly!" But this was also the language everyone at the time was doing CGI scripts in too, so it was also the language that let me do cool, dynamic web stuff.
 
-\[00:28:07.04\] So I was very in the Perl community, very involved, and all of LiveJournal was pretty much all Perl, except for little bits and pieces that needed to be C for performance reasons. Memcached was originally in Perl, but it fell over within like a second, as I suspected it would. The prototype was in Perl, but then we quickly rewrote it in C.
+\[28:07\] So I was very in the Perl community, very involved, and all of LiveJournal was pretty much all Perl, except for little bits and pieces that needed to be C for performance reasons. Memcached was originally in Perl, but it fell over within like a second, as I suspected it would. The prototype was in Perl, but then we quickly rewrote it in C.
 
 So I love Perl, and I never really jumped on the Python or Ruby trains, because they were just not different enough from Perl for me to care. They had all the same pros and cons; they weren't much better. They were still like explode at runtime, and no type checking... Python and Ruby were even slower than Perl, so performance wasn't a reason... And maybe the syntax was a little cleaner, but at that point I didn't care, because I already knew Perl.
 
@@ -224,7 +224,7 @@ But then when they said they were open-sourcing it, I was like "Oh, I should loo
 
 **Brad Fitzpatrick:** Yeah, that doesn't sound like Russ... One of the Russes... \[laughter\] So then after that I started just screwing around on it. I was spending like 2,5 hours a day on the Google bus, going back and forth between San Francisco and Mountain View, and I just had a lot of time to screw around on my laptop... So I decided the Perkeep, which at the time was called Camlistore, was originally kind of a set of ideas and data structures of how I would want my personal life archiving storage system to work... But I wasn't excited to write it, because I didn't wanna write it in Perl; I was sick of scripting languages... I didn't wanna write it in C++, because that just didn't sound fun for a personal project... And so when Go came out, I was like "Well, the best way to learn a language or learn anything new is to use it", so I was like "Let's try to build this storage system idea that I had. Let's try to write that in Go."
 
-\[00:31:55.03\] I've found right away that the standard library was missing tons of stuff, so that's why I started sending in lots of changes... Then one day Rob Pike was like "Hey, do you wanna do this full-time?" I was like "What?! Work on a language full-time? That sounds great! And it's open source... I don't have to feel bad about working for the mega-corp, working on advertising..." \[laughter\]
+\[31:55\] I've found right away that the standard library was missing tons of stuff, so that's why I started sending in lots of changes... Then one day Rob Pike was like "Hey, do you wanna do this full-time?" I was like "What?! Work on a language full-time? That sounds great! And it's open source... I don't have to feel bad about working for the mega-corp, working on advertising..." \[laughter\]
 
 **Mat Ryer:** That's amazing. So again, a lot of those pieces of the standard library came out of things you needed.
 
@@ -260,7 +260,7 @@ I was like "Well, I can't have one server. I need to have at least three, becaus
 
 First I started off with VMware, because I was using it at work, with ESXi, but I couldn't stand how corporaty and enterprisy the whole thing was, so I switched to Proxmox. So now I had just VMs that were just floating around, and I don't really know which VM is on which of the three nodes... And if one of the nodes dies, the VMs just float somewhere else. I use Ceph for storage, so the storage is sprayed over all the three machines too, and I don't have to worry about where my block devices are; they're all just highly available.
 
-\[00:36:11.08\] And my router isn't a physical piece. My router is just a Linux VM that floats around the machines, too. So each one of those is plugged into -- I have three switches, and every machine is plugged into... Well, I had two switches at first, so every machine was plugged into both switches, and they're all different power supplies, and each of the three machines has two cables, one to each switch... Two ISPs, and they just failover between the ISPs... The WiFi in the house is all PoE-powered from the switches that are on UPS... So the whole neighborhood could lose power, and I would still have working WiFi for like an hour and a half... \[laughter\]
+\[36:11\] And my router isn't a physical piece. My router is just a Linux VM that floats around the machines, too. So each one of those is plugged into -- I have three switches, and every machine is plugged into... Well, I had two switches at first, so every machine was plugged into both switches, and they're all different power supplies, and each of the three machines has two cables, one to each switch... Two ISPs, and they just failover between the ISPs... The WiFi in the house is all PoE-powered from the switches that are on UPS... So the whole neighborhood could lose power, and I would still have working WiFi for like an hour and a half... \[laughter\]
 
 I did this to learn how servers worked again, and you know, stop being so dependent on the cloud. But of course, I always build these too complicated setups and I forget how they work, and then I have our second child and then I don't look at it for a year, and all my certs expired the other day, and all my home automation stopped working, because my etcd cluster was down... And I couldn't renew the certs, because to renew the certs it needed to talk to the cluster or something, and... I don't know. The whole thing's just screwed, so I wanna nuke it and start over.
 
@@ -300,7 +300,7 @@ I see a question on the Slack, how do I feel about Perl 6... It's not called Per
 
 Perl 6 has the dot-dot-dot operator, which - they call it the yadda-yadda-yadda operator, or something... And it's like a to-do, which -- it's valid code; you put it in there. I said that in Go we should make dot-dot-dot as a statement; just basically be a panic. So if you're not done writing a function yet or a method, you can say dot-dot-dot, and it would compile, and it would run, but if it ever executed that line, it would panic and say "To do dot-dot-dot encountered." It would make demo code on slides really cool. It would be syntactically correct code if it's on the slide.
 
-**Mat Ryer:** \[00:40:05.19\] It'd be nice if it just ended.
+**Mat Ryer:** \[40:05\] It'd be nice if it just ended.
 
 **Brad Fitzpatrick:** \[unintelligible 00:40:05.00\]
 
@@ -342,7 +342,7 @@ I kind of think that Go's popularity - it helps it be more popular, but I think 
 
 **Mat Ryer:** Just do a Perl 6 and make a new language with a different name... \[laughter\]
 
-**Brad Fitzpatrick:** \[00:44:08.29\] Yeah, we see how well that worked out for Python 3 and Perl 6, right? In practice, these things don't work. Ian wrote a document about all the languages, and the successful ones are the ones that don't nuke the world and start over, so... You've gotta find a way to do it iteratively.
+**Brad Fitzpatrick:** \[44:08\] Yeah, we see how well that worked out for Python 3 and Perl 6, right? In practice, these things don't work. Ian wrote a document about all the languages, and the successful ones are the ones that don't nuke the world and start over, so... You've gotta find a way to do it iteratively.
 
 **Johnny Boursiquot:** How do you manage your modules? That's another point of contention within the Go community, right? Basically, how do we manage the introduction of Go modules and the semantic import versioning, and all that stuff? I'm curious what you feel about it, if anything. Do you just say "Well, we're gonna be at v1 forever, because we don't wanna have a v2", or how do you treat that?
 
@@ -364,15 +364,15 @@ I kind of think that Go's popularity - it helps it be more popular, but I think 
 
 **Mat Ryer:** I hope.
 
-**Break:** \[00:45:45.17\]
+**Break:** \[45:45\]
 
 **Mat Ryer:** Well, it's that time again... I think it's time for Unpopular Opinions!
 
-**Jingle:** \[00:47:15.05\]
+**Jingle:** \[47:15\]
 
 **Brad Fitzpatrick:** I was hard-pressed to think of one, but then I just saw this Twitter discussion going by again... I feel like every year or so there's like a Twitter fight about whether HTML is a real programming language or not, with "real" in quotes. And you know, all these people fight about it, and it doesn't seem like too worth fighting about it. One camp is like "Oh, it doesn't have conditions. It's really just a markup language, not a programming language." And the other camp is like "No, don't belittle new people that are just getting started. You should encourage them."
 
-\[00:47:59.00\] But I'm pretty firmly in the camp that it's not a real programming language, but that doesn't matter; you're still a nerd typing stuff into a computer. Once you're typing nerdy, arbitrary stuff into a computer, it's not a small jump at that point. It's like a tiny step towards learning a real programming language that has if. \[laughter\] So I don't know... But I only thought of that because I just saw it again going by, and it seems like sacrilegious to say that HTML is not a real programming language... But I will say it.
+\[47:59\] But I'm pretty firmly in the camp that it's not a real programming language, but that doesn't matter; you're still a nerd typing stuff into a computer. Once you're typing nerdy, arbitrary stuff into a computer, it's not a small jump at that point. It's like a tiny step towards learning a real programming language that has if. \[laughter\] So I don't know... But I only thought of that because I just saw it again going by, and it seems like sacrilegious to say that HTML is not a real programming language... But I will say it.
 
 **Mat Ryer:** That's definitely gonna get your Wikipedia page trashed...
 
@@ -432,7 +432,7 @@ I kind of think that Go's popularity - it helps it be more popular, but I think 
 
 **Johnny Boursiquot:** Well, I mean...
 
-**Mat Ryer:** \[00:52:02.15\] Johnny, this could be a new regular part of the show. We make a jingle, and we'll do gif versus gif... Just to find out.
+**Mat Ryer:** \[52:02\] Johnny, this could be a new regular part of the show. We make a jingle, and we'll do gif versus gif... Just to find out.
 
 **Johnny Boursiquot:** Yeah... I don't know. I've gone back and forth honestly, and I don't know. I guess today I'm feeling like gif, but... \[laughs\]
 
@@ -482,7 +482,7 @@ Companies are replacing their corporate VPNs with this, and... I don't know. Kin
 
 **Brad Fitzpatrick:** I've definitely found some parts of the standard library I'd never used before. I was like "Oh, perfect. This exists. I never even knew about it."
 
-**Mat Ryer:** \[00:56:05.02\] Well, do you miss it? Do you miss working on the Go project at Google more officially? Or has nothing changed for you?
+**Mat Ryer:** \[56:05\] Well, do you miss it? Do you miss working on the Go project at Google more officially? Or has nothing changed for you?
 
 **Brad Fitzpatrick:** Well, I definitely ignore a lot more bugs that I used to, because now it's not my job to stay on top of a lot of things... But I'm still going to the proposal review meetings... So in that sense I'm still involved. I think I'm the first non-Googler to be part of the proposal review meetings now.
 

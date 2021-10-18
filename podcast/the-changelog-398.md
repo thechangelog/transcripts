@@ -26,7 +26,7 @@
 
 **Jerod Santo:** Doesn't that put a certain amount of weight and gravity to every single thing you say and think?
 
-**Jessica Kerr:** \[00:04:20.19\] You know, I think really it puts a gravity on where we choose to put our attention. In that sense, the control we have over future us is by where we choose to put our attention.
+**Jessica Kerr:** \[04:20\] You know, I think really it puts a gravity on where we choose to put our attention. In that sense, the control we have over future us is by where we choose to put our attention.
 
 **Jerod Santo:** So where are you putting your attention nowadays?
 
@@ -64,7 +64,7 @@ And let's see - for work, I'm learning about secure code... Oh, and we implement
 
 **Jerod Santo:** Right.
 
-**Jessica Kerr:** \[00:07:57.22\] You need to understand how iPhones work - if you're on an iPhone app - enough, and you need a good understanding of your programming language. But the most important thing is what your system is trying to accomplish, the business domain, and how the different pieces fit together. And I think a lot of the engineering principles and techniques and practices that we use - people talk a lot about "You have to use TDD, you have to use SOLID principles..." Well, okay, SOLID starts with Single Responsibility; first, you have to understand what the responsibilities are. A lot of these are just driving us toward a deeper understanding of the system we work on, making us think about it.
+**Jessica Kerr:** \[07:57\] You need to understand how iPhones work - if you're on an iPhone app - enough, and you need a good understanding of your programming language. But the most important thing is what your system is trying to accomplish, the business domain, and how the different pieces fit together. And I think a lot of the engineering principles and techniques and practices that we use - people talk a lot about "You have to use TDD, you have to use SOLID principles..." Well, okay, SOLID starts with Single Responsibility; first, you have to understand what the responsibilities are. A lot of these are just driving us toward a deeper understanding of the system we work on, making us think about it.
 
 **Jerod Santo:** So I can see as a single developer of a team, it's easy to get in your particular vertical (for a lack of a better--) like your little sub-system, and understand that intimately, and know where every line of code is.
 
@@ -100,7 +100,7 @@ Transferring that mental model of how the pieces fit together, where everything 
 
 **Jessica Kerr:** Yeah, you can reimagine a future that includes that person constructively.
 
-**Adam Stacoviak:** \[00:12:03.19\] Yeah. I like this idea of fireside chats, or campfire chats, or whatever, around "This is why our system is the way it is." That would make sense to me. Is that a thing? Do people do that often in teams?
+**Adam Stacoviak:** \[12:03\] Yeah. I like this idea of fireside chats, or campfire chats, or whatever, around "This is why our system is the way it is." That would make sense to me. Is that a thing? Do people do that often in teams?
 
 **Jessica Kerr:** That's why going out for beer is often very helpful, because it's over beers that you talk about how things are the way they are, and how they used to be, and you tell the story of that incident that you still have scars from, organizational scars...
 
@@ -148,7 +148,7 @@ Transferring that mental model of how the pieces fit together, where everything 
 
 **Jessica Kerr:** Yeah. What we don't realize is forming those relationships is our work. That builds a company. Avdi pointed out the other day - a company is a structure that's made of relationships with people that collectively forms a capability to do something. But those relationships matter, and that's how we transfer information well. We don't transfer information from documentation. The documentation that does work - trust me, professionals spend a ton of time tweaking that documentation, and getting input from lots of people, and you are not gonna spend that kind of time; it's way more time that writing the code. But the way we do transfer information is by trusting people, and we build that trust through those little tiny interactions of "I see that you are a human being."
 
-**Adam Stacoviak:** \[00:16:12.13\] It is the relationship and the interaction process built up of many parts though. The documentation obviously plays a role, because people read it...
+**Adam Stacoviak:** \[16:12\] It is the relationship and the interaction process built up of many parts though. The documentation obviously plays a role, because people read it...
 
 **Jessica Kerr:** It can help. It can help. But it never conveys as much as you think it does.
 
@@ -198,7 +198,7 @@ One thing I've started realizing is that every interaction with a person is abou
 
 **Jessica Kerr:** Exactly. When you do know this system really well, when you are that person that people can just come to with questions, and when you do something you know exactly where to push it and what buttons to twiddle... I can do 15 minutes of work a day, answer questions for a good chunk of the rest, and be more productive than anyone who's been there for two years or less.
 
-**Adam Stacoviak:** \[00:20:06.11\] Yeah, exactly.
+**Adam Stacoviak:** \[20:06\] Yeah, exactly.
 
 **Jerod Santo:** And why would you wanna give that up?
 
@@ -238,7 +238,7 @@ Also, we don't pay people for their experience at a particular company... And th
 
 **Jessica Kerr:** So that to me - my definition of legacy code is code that's not alive in someone's head. So as soon as that person leaves, those millions of lines of code become complete legacy. They're just barely not, at the moment. They're hanging on by a tiny thread... But one reason to replace code regularly is to have it continue to be alive in people's heads... Because it's really, really hard if you weren't involved in writing it to get that familiarity with the system.
 
-**Break:** \[00:23:34.23\]
+**Break:** \[23:34\]
 
 **Jerod Santo:** So you mentioned VS Code and Docker, observability, and some of the stuff you've been tinkering with... Tell us about it.
 
@@ -276,7 +276,7 @@ There's your preferences, and then there's what the project needs. So if it's an
 
 Then, when VS Code starts up the container, it installs a VS Code server on it. Not in the image, only in the container. And then -- so you've got two copies of VS Code running. You've got one in the Docker container, with all the project-specific plugins installed, and that one's doing the file manipulation. And then it's talking to VS Code on your host, on your Windows PC or your Mac. They can be completely different, and everybody's fine, because all your actual test commands and stuff are running in Linux, on the Docker container. It's the same for everybody. But then on your host VS Code you have your themes, and your keyboard layout, or hotkeys, and all of that customization that's about the interface with you.
 
-\[00:28:15.11\] So they've separated the interface with the project and the code and the deployment. You can install whatever development tools. I will, at some point, set up CI to do this, but right now I have the Heroku CLI installed on the Docker container, which I will still use for logs, and stuff... So everything that's specific to the project is there, everything that's specific to you is in the host, and everyone's happy.
+\[28:15\] So they've separated the interface with the project and the code and the deployment. You can install whatever development tools. I will, at some point, set up CI to do this, but right now I have the Heroku CLI installed on the Docker container, which I will still use for logs, and stuff... So everything that's specific to the project is there, everything that's specific to you is in the host, and everyone's happy.
 
 And then on top of that, it means that because VS Code has the server concept, you can connect multiple hosts to the same server. This is where you get the remote pairing thing happening... Because with VS Code you can connect two hosts to it. That means wherever VS Code is running, with your project, the VS Code server - and that can be in the cloud or it can be on one person's computer, the other person can connect their host, and you can both type and manipulate the same files, because you're talking to the same server. And that server can point each of you at where the other one is looking.
 
@@ -348,7 +348,7 @@ So I can be in "just follow what Avdi is looking at" mode for a while, and then 
 
 **Jessica Kerr:** Yaay!
 
-**Jerod Santo:** \[00:32:05.00\] I never use it, because I just feel like there's like an unnecessary layer in between me and what I'm trying to work on, when I could just have -- we also can set it up directly on your machine, or you can use a Docker container. So do you find that's actually a problem in practice, or am I just being a curmudgeon?
+**Jerod Santo:** \[32:05\] I never use it, because I just feel like there's like an unnecessary layer in between me and what I'm trying to work on, when I could just have -- we also can set it up directly on your machine, or you can use a Docker container. So do you find that's actually a problem in practice, or am I just being a curmudgeon?
 
 **Jessica Kerr:** In open source it's definitely a thing. If you want someone to contribute to your project, or someone wants to try it...
 
@@ -434,7 +434,7 @@ So I can be in "just follow what Avdi is looking at" mode for a while, and then 
 
 **Jessica Kerr:** It's more cordless than mobile.
 
-**Adam Stacoviak:** \[00:36:03.25\] Yeah, exactly.
+**Adam Stacoviak:** \[36:03\] Yeah, exactly.
 
 **Jerod Santo:** A cordless computer, I like that.
 
@@ -488,7 +488,7 @@ So I can be in "just follow what Avdi is looking at" mode for a while, and then 
 
 **Jerod Santo:** I'm now remembering why I don't use Dockerfile, besides curmudgeon, which is also there... But actually, Docker for Mac is super-slow, for some reason... And so now I'm gonna have to switch OSes if I wanna get this going.
 
-**Jessica Kerr:** \[00:40:07.03\] Yeah, Docker desktop for Mac used to be the best, but I think now it's better on Windows. It's not perfect, sometimes... I mean, one thing that we rely on in our programs, that we think -- we just keep assuming the file system is solid; the file system is not solid in a Docker container, running Linux on Windows. Not solid.
+**Jessica Kerr:** \[40:07\] Yeah, Docker desktop for Mac used to be the best, but I think now it's better on Windows. It's not perfect, sometimes... I mean, one thing that we rely on in our programs, that we think -- we just keep assuming the file system is solid; the file system is not solid in a Docker container, running Linux on Windows. Not solid.
 
 **Jerod Santo:** Not solid.
 
@@ -504,7 +504,7 @@ So I can be in "just follow what Avdi is looking at" mode for a while, and then 
 
 **Jessica Kerr:** Yeah, it's not perfect. When you have that extension of yourself set up, that is more efficient. It is faster. And for your own work - I mean, I'm not gonna tell you you ought to use Docker. Anyone else ought to, and you ought to once in a while, just so you make sure it still works.
 
-**Break:** \[00:41:06.06\]
+**Break:** \[41:06\]
 
 **Jerod Santo:** Do you wanna talk about DevOps and Honeycomb or anything like that?
 
@@ -526,7 +526,7 @@ We have to learn in order to choose useful actions, both as animals and as peopl
 
 **Jessica Kerr:** You know, now that we have continuous delivery, and now that we have systems composed of a zillion different services with actual useful documentation that people spend more time on than they did writing the code, the level of reuse as the company - that's a thing. Anyway. Now that we have things like Heroku and Netlify, that we can push our stuff into the world immediately, I'm not satisfied with red to green anymore. I constantly want to see how my actions affect the world.
 
-\[00:44:11.21\] So the first thing I do -- so Avdi and I have this toy app, which whenever we sit down to work on it, and it's been a week (because it's always been a week, because it's the weekend), the first thing I do is push some change to production, to show that I can still change the world in this way.
+\[44:11\] So the first thing I do -- so Avdi and I have this toy app, which whenever we sit down to work on it, and it's been a week (because it's always been a week, because it's the weekend), the first thing I do is push some change to production, to show that I can still change the world in this way.
 
 Last weekend -- we haven't implemented any real features yet. It's pretty Hello, World at this point... But darn it, we have system tests running, and darn it, I integrated Honeycomb for observability. And we haven't done anything in Honeycomb yet. All I did was installed their gem, tweak their configuration so that I wasn't hard-coding my API key and pushing it to GitHub... And that's it.
 
@@ -590,7 +590,7 @@ Then now when I deploy the site, I can go and look at the graphs in Honeycomb. A
 
 **Jessica Kerr:** Yeah. And you know what, this is another reason that stories are so powerful... Because as humans, we were built to learn, in order to do, in order to learn, in order to do. Naturally, we only learn with action. But here's the thing... So looking at it that way, it makes sense that we only learn from our own experiences, and we're terrible at learning from anyone else's. But the thing is that we can simulate the doing in our brain. When we hear a story, we're simulating the doing in our brain. It's like the mirror neurons thing, where you watch someone do a physical motion and your brain fires in the way that would make you do that physical motion, even if you're not moving. So we have that experience, and take those actions with them, and see the results with them.
 
-**Adam Stacoviak:** \[00:48:32.28\] Yeah.
+**Adam Stacoviak:** \[48:32\] Yeah.
 
 **Jessica Kerr:** So stories are so important that way.
 

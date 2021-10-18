@@ -48,7 +48,7 @@ However, one thing I'll note is that whenever they -- it was late in the present
 
 **Nick Nisi:** I think the starting price was -- was it $499? I'm sorry, $4,999.
 
-**Adam Stacoviak:** \[00:04:13.22\] That's a dream. $499 is a dream. \[laughter\] This is not a Mac Mini. Yeah, 5k basically, for the -- is that what the display sells at?
+**Adam Stacoviak:** \[04:13\] That's a dream. $499 is a dream. \[laughter\] This is not a Mac Mini. Yeah, 5k basically, for the -- is that what the display sells at?
 
 **Nick Nisi:** Yes.
 
@@ -118,7 +118,7 @@ However, one thing I'll note is that whenever they -- it was late in the present
 
 **Adam Stacoviak:** Don't forget AppleCare.
 
-**Jerod Santo:** \[00:07:57.21\] So it's six thousand... Yeah, if you're gonna AppleCare that thing up, you've got a $40,000 workstation.
+**Jerod Santo:** \[07:57\] So it's six thousand... Yeah, if you're gonna AppleCare that thing up, you've got a $40,000 workstation.
 
 **Adam Stacoviak:** I think you definitely wanna AppleCare that one. You wanna AppleCare it, you wanna get an IRA, you wanna ensure it...
 
@@ -160,13 +160,13 @@ However, one thing I'll note is that whenever they -- it was late in the present
 
 **Adam Stacoviak:** Yeah. 1,600 nits of brightness max, a million to one contrast ratio, over a billion colors presented with exceptional accuracy... Of course, I'm reading their marketing lingo here. They've got XDR - not even HDR - XDR, Extreme Dynamic Range, which is... Of course, leave it to Apple to go from something that was amazing to something even more amazing, right? There's always the cherry on top right there.
 
-I'm looking for the tech that was talked about on this page though, for their color, and stuff... Yeah, LED \[00:11:05.19\] true to life imagery requires an extremely high bright area..." So that's where they're talking about it - it requires extreme brightness, and this advanced LED technology, light shaping and intelligent image processing... Some keywords from that.
+I'm looking for the tech that was talked about on this page though, for their color, and stuff... Yeah, LED \[11:05\] true to life imagery requires an extremely high bright area..." So that's where they're talking about it - it requires extreme brightness, and this advanced LED technology, light shaping and intelligent image processing... Some keywords from that.
 
 **Jerod Santo:** Well, I have to say that the lack of a webcam is really the blocker for me. I was ready to pull the trigger on this guy, but... I'm out now. I'm out with no webcam.
 
 **Adam Stacoviak:** Yeah. I think it's interesting too how it's counter-balanced. I don't know about anybody else here, but when I was seeing it, I was like "Oh, that's really cool", but I didn't imagine its weight, and I didn't imagine how you may want to change its configuration. And then when they sort of showed that silhouette or portrait perspective of that mount area, and they sort of showed the insides of this counterbalance system - that to me is super-cool. Have you seen something like that anywhere else, that counter-balance system?
 
-**Nick Nisi:** \[00:12:09.01\] Not that I can remember, really. It looked really cool.
+**Nick Nisi:** \[12:09\] Not that I can remember, really. It looked really cool.
 
 **Jerod Santo:** So let's dive for a second into some off-topic, but yet on-topic, because I'm on the actual page of the Pro Display XDR, and I'm looking at this picture of it in landscape mode, and it's got so much code on it, and I'm thinking "Oh, yes. This is why I need one. Look how much code I can fit on it." And then I right-click because I wanna share this image with you guys... So I right-click on it to copy the image address and paste it into the chat, so I can say "Look at this image...", and it's a video element. It's not moving, it's not animated; it's a video element where they're setting the data source to -- it's an mpeg4... Oh, here it says "Replay." So maybe it was animated, but it didn't animate until I scroll down. Oh, yeah. It shows it moving. Okay, so it's like an animated GIF, but they're doing it as a video.
 
@@ -212,7 +212,7 @@ We had somebody on Changelog News recently, Adam, who was advocating for the use
 
 **Adam Stacoviak:** Nick, let me ask you, how would you spend your 1.5 terabytes of memory?
 
-**Nick Nisi:** \[00:16:08.02\] Well, I'd have Chrome, and Chrome Canary, and Slack... Like, lots of Slacks, and... What else? What other Chromium things can I run? Yeah, I don't know. I can't imagine.
+**Nick Nisi:** \[16:08\] Well, I'd have Chrome, and Chrome Canary, and Slack... Like, lots of Slacks, and... What else? What other Chromium things can I run? Yeah, I don't know. I can't imagine.
 
 **Jerod Santo:** Just go to GitHub and search for the Electron tag, and then just download all of the resulting apps and run them all at once.
 
@@ -252,7 +252,7 @@ We had somebody on Changelog News recently, Adam, who was advocating for the use
 
 **Nick Nisi:** I finally upgraded, but I had heard rumors that Apple was coming out with one, and I was like "Maybe I should just wait..." Then I was listening to some Apple podcast, I'm sure, and they were like "Oh, it's probably gonna be at least $2,000", and I was like "Well, I'll just go with something else, because monitors are cheaper." They won't be as great as one Apple can make, but they won't be $2,000 either, so... I ended up getting one that was under $1,000, and I like it for the most part, but I'm definitely happy with that decision now.
 
-**Jerod Santo:** \[00:20:00.09\] What have you got?
+**Jerod Santo:** \[20:00\] What have you got?
 
 **Nick Nisi:** I have an LG 38-inch ultra-wide. I like it, for the most part.
 
@@ -290,7 +290,7 @@ We had somebody on Changelog News recently, Adam, who was advocating for the use
 
 **Nick Nisi:** Ain't that the worst?
 
-**Jerod Santo:** \[00:24:01.20\] Yeah. So I've been living there thinking I need to change something in my life, but I just don't know exactly what I want to do, so I haven't done anything. But it seems like it's getting worse lately.
+**Jerod Santo:** \[24:01\] Yeah. So I've been living there thinking I need to change something in my life, but I just don't know exactly what I want to do, so I haven't done anything. But it seems like it's getting worse lately.
 
 **Adam Stacoviak:** Do you happen to have $5,000 just lying around? \[laughter\]
 
@@ -342,7 +342,7 @@ We had somebody on Changelog News recently, Adam, who was advocating for the use
 
 **Adam Stacoviak:** \[laughs\] I was just gonna reference your note, actually... "More Memoji mumbo-jumbo." When I saw that, I was like "Oh yeah, Jerod is not exactly excited about that."
 
-**Jerod Santo:** \[00:27:58.05\] I'm not excited about that... \[laughs\]
+**Jerod Santo:** \[27:58\] I'm not excited about that... \[laughs\]
 
 **Adam Stacoviak:** Right beneath that note though, however, is in all caps "Video rotation", which I think has got to be mentioned.
 
@@ -374,7 +374,7 @@ We had somebody on Changelog News recently, Adam, who was advocating for the use
 
 **Jerod Santo:** Yeah, that's what I was thinking of, for sure. When I saw that, I thought "Okay, this might actually change the web to a certain degree", because it is a universal sign-in across all platforms that Apple uses... And it uses face ID, which is incredibly compelling from an end user perspective, because it's just so easy and fast. And they're actually making face ID 30% faster, which was another thing that got a huge applause... But it's something that's gonna be implemented maybe in Apple Pay, where it's gonna take actual developer adoption to get it out there on the web... Because it's gonna be instead of, or in addition to all the typical social sign-in options now.
 
-\[00:32:20.03\] So I assume there'll be some sort of JavaScript SDK or something that you'll have to integrate, but I think it's a very secure and private way to get authentication out there in ways that seem like it's better in almost every way than what's currently on offer.
+\[32:20\] So I assume there'll be some sort of JavaScript SDK or something that you'll have to integrate, but I think it's a very secure and private way to get authentication out there in ways that seem like it's better in almost every way than what's currently on offer.
 
 **Adam Stacoviak:** What are the reasons why you use a third-party sign in like that? The reason why you ever sign in with Facebook, or Twitter, or others - what were the reasons, typically? Was it simply for the authentication process, or was it for the network, or was it for the "connected to the network and friends", and being able to connect to different identities? And how does this differ?
 
@@ -408,7 +408,7 @@ And one of those things is obviously your email address, but like Nick said, the
 
 **Adam Stacoviak:** Yeah.
 
-**Nick Nisi:** \[00:35:46.16\] The one thing that I'm really concerned about with this, potentially -- obviously, we don't know how it's going to actually be rolled out, but... The way I'm picturing it in my head right now, with that dialog that pops up, that looks like a very OS-specific dialog, and I'm thinking "On my Mac, is this going to be like Apple Pay, where I only see Apple Pay if I'm using Safari? And will I not be able to use the Sign In With Apple if I'm using Chrome, or Firefox, or something else? Will that affect adoption?" Not very many people use Safari on the desktop, so that could be a limiting factor.
+**Nick Nisi:** \[35:46\] The one thing that I'm really concerned about with this, potentially -- obviously, we don't know how it's going to actually be rolled out, but... The way I'm picturing it in my head right now, with that dialog that pops up, that looks like a very OS-specific dialog, and I'm thinking "On my Mac, is this going to be like Apple Pay, where I only see Apple Pay if I'm using Safari? And will I not be able to use the Sign In With Apple if I'm using Chrome, or Firefox, or something else? Will that affect adoption?" Not very many people use Safari on the desktop, so that could be a limiting factor.
 
 **Jerod Santo:** Right. That's a good point. I didn't think about that. My guess/intuition would be it works, just like Apple Pay, and it's probably gonna be inside Safari... Versus an OS-level thing that Chrome and Firefox etc. can use.
 
@@ -440,7 +440,7 @@ I think if Apple's vested interest is in secured users, or secure users in gener
 
 **Adam Stacoviak:** That random email address is kind of interesting though. I don't know how it's getting routed back, but there's times when the application you sign in, the email address you give them becomes very important to them; sometimes in display, and sometimes in communications, and other Reply To kind of scenarios, with support... So if it's this random email address, it's not a known standard for how to utilize an email address in a system; these random email addresses might actually be harmful at some point.
 
-**Jerod Santo:** \[00:40:02.14\] It definitely obfuscates it for the end website owner. If you look at it from our perspective, with Changelog.com, we have people signing in and we know their email addresses well. That's also nice, because at times we can cross-reference that with an email address on their GitHub account, and be like "Oh yeah, we know who this person is." And with this, it's gonna be like User475349@apple-whatever-whatever-obfuscated-leave-me-alone.com.
+**Jerod Santo:** \[40:02\] It definitely obfuscates it for the end website owner. If you look at it from our perspective, with Changelog.com, we have people signing in and we know their email addresses well. That's also nice, because at times we can cross-reference that with an email address on their GitHub account, and be like "Oh yeah, we know who this person is." And with this, it's gonna be like User475349@apple-whatever-whatever-obfuscated-leave-me-alone.com.
 
 Even Gravatar, for instance. That's a feature, right? I have to give my email address, and now you can use my Gravatar. That would no longer work, because it's gonna be some ridiculous email.
 
@@ -472,7 +472,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Adam Stacoviak:** I think you might need to send a text first, and then go to your contact and then say "Share it", and then share it with the phone number. Or go through the process of learning their name and associating their contact that they just gave you...
 
-**Jerod Santo:** \[00:44:00.05\] No, but it's your name. It's your info.
+**Jerod Santo:** \[44:00\] No, but it's your name. It's your info.
 
 **Nick Nisi:** Yeah, you can do that with the "share it".
 
@@ -548,7 +548,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Adam Stacoviak:** I was wondering if -- because why recreate the wheel, if there's already good wheels out there that have mass adoption already, right? That was my thought, was why they chose that direction. It was like "Hey, you've probably already got one of these systems, and it's a gateway. You already know the controller, you're already familiar with it", and maybe there's some games that are coming out on Apple Arcade, or the future of Apple Arcade, how you can subscribe etc. that you can easily move to this system - in addition to maybe, not even replacement of - and be familiar with the controlling system already. Because hardcore gamers are really attached to their controllers.
 
-**Jerod Santo:** \[00:48:09.21\] Right. Which is why I don't think they're playing games on Apple TV necessarily anyways, but... My answer to that, why I think it's a bigger deal to ship a first-party controller as part of the package - not even as an optional part - is because as a game designer, I can't design my game around a controller, unless I know it's gonna be there.
+**Jerod Santo:** \[48:09\] Right. Which is why I don't think they're playing games on Apple TV necessarily anyways, but... My answer to that, why I think it's a bigger deal to ship a first-party controller as part of the package - not even as an optional part - is because as a game designer, I can't design my game around a controller, unless I know it's gonna be there.
 
 **Adam Stacoviak:** That's true.
 
@@ -600,7 +600,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Jerod Santo:** It worked much better, but I never had love for it, because I could never find \[unintelligible 00:51:58.10\] \[laughs\]
 
-**Adam Stacoviak:** \[00:51:59.21\] What drives me crazy is latency. I don't know about you guys, but I have one -- so I have a couple Apple TVs in my house, and one of them, the latency drives me crazy, from the gesture to on-screen. It's unusable. I have to literally open up my phone and use the app instead, because that's more reliable.
+**Adam Stacoviak:** \[51:59\] What drives me crazy is latency. I don't know about you guys, but I have one -- so I have a couple Apple TVs in my house, and one of them, the latency drives me crazy, from the gesture to on-screen. It's unusable. I have to literally open up my phone and use the app instead, because that's more reliable.
 
 **Nick Nisi:** I end up having to pull the plug out of it and the restarting the whole Apple TV, and then it kind of gets back to normal.
 
@@ -638,7 +638,7 @@ Even Gravatar, for instance. That's a feature, right? I have to give my email ad
 
 **Nick Nisi:** I don't know, I just -- I mean, most of the time I have a full-screen iTerm window that's dark. So that's what I see. And then when I switch over to Chrome, or whatever, it's usually blinding... But I'm actually using extensions now to make a majority of the sites that I go to, like GitHub, for example - I make that dark now. I like the look and feel of Messages, and... The only thing that sticks out like a sore thumb right now is Slack.
 
-**Adam Stacoviak:** \[00:55:52.17\] Yeah... So that's exactly it... Which doesn't exactly make me not wanna use Dark Mode on an iOS device - like my iPhone, or whatever - but you do have to pick and choose which apps you may or may not use, because like you said, Chrome has extensions that do it... And they don't even do it that well. They're okay at the Dark Mode portion of it, and then Slack is behind... I mean, slack - more puns for me; thank you.
+**Adam Stacoviak:** \[55:52\] Yeah... So that's exactly it... Which doesn't exactly make me not wanna use Dark Mode on an iOS device - like my iPhone, or whatever - but you do have to pick and choose which apps you may or may not use, because like you said, Chrome has extensions that do it... And they don't even do it that well. They're okay at the Dark Mode portion of it, and then Slack is behind... I mean, slack - more puns for me; thank you.
 
 **Jerod Santo:** That's two now.
 

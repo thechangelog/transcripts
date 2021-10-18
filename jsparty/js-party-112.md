@@ -34,7 +34,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Jake Dohm:** Let's go JavaScript level one.
 
-**Emma Bostian:** \[00:04:04.12\] JavaScript level one, for what point value, sir?
+**Emma Bostian:** \[04:04\] JavaScript level one, for what point value, sir?
 
 **Jake Dohm:** I'm gonna start off easy, let's go 100.
 
@@ -128,7 +128,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Emma Bostian:** Absolutely. This is a conceptual model and is a set of communication protocols used in the internet and similar computer networks.
 
-**Kevin Ball:** \[00:07:57.25\] The conceptual model... Interesting. Huh. 
+**Kevin Ball:** \[07:57\] The conceptual model... Interesting. Huh. 
 
 **Jake Dohm:** Doo doo doo doo...
 
@@ -250,7 +250,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Jake Dohm:** Let me get those sweet, sweet points. I've gotta see my score all tied up with Kevin here...
 
-**Emma Bostian:** \[00:12:00.09\] After we finish this round I'll say out loud the point values again, don't worry.
+**Emma Bostian:** \[12:00\] After we finish this round I'll say out loud the point values again, don't worry.
 
 **Jake Dohm:** Sweet.
 
@@ -348,7 +348,7 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Emma Bostian:** Yeah. It's really hard for me to remember nine plus-- well, nine's not so bad, but other simple numbers... Seven - forget about it. Anyway... Alright, Chris, you're up.
 
-**Christopher Hiller:** \[00:16:08.26\] JavaScript, level 2 for 300.
+**Christopher Hiller:** \[16:08\] JavaScript, level 2 for 300.
 
 **Emma Bostian:** Alright, JavaScript level 2 for 300. Guess what - this is double Jeopardy! I don't have any noises, so... That's my noise.
 
@@ -446,7 +446,7 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Jake Dohm:** I love Flexbox Zombies too, the gamified thing by David Geddes So good. Yeah, that's how I really learned it.
 
-**Emma Bostian:** \[00:19:58.20\] Awesome. Well, we're gonna have all these in the show notes if you wanna check them out later. Alright, we've got five questions left before we take a break, so with that I think it's over to Chris now, right? Or are we on Kball?
+**Emma Bostian:** \[19:58\] Awesome. Well, we're gonna have all these in the show notes if you wanna check them out later. Alright, we've got five questions left before we take a break, so with that I think it's over to Chris now, right? Or are we on Kball?
 
 **Kevin Ball:** No, I just went. It's Chris.
 
@@ -506,7 +506,7 @@ If you guys are not in the JS Party channel, please join us, because it's a lot 
 
 **Emma Bostian:** So in third place we have Chris at 1,900, in second place - a close second place - we've got Jake with 2,500, and Kball is leading with 2,800. We're gonna take a break, but when we come back we've got round two with some other really fun topics.
 
-**Break:** \[00:23:01.03\]
+**Break:** \[23:01\]
 
 **Emma Bostian:** Welcome back to JS Jeopardy! Just to recap, we've got Chris in third place with 1,900 points, but he's doing really well and we're really proud of him. In second we've got Jake with 2,500, and in the lead we've got Kball with 2,800. This round the points are doubled, and we've got some new categories, kind of. The first category is HTML, the second one is CSS Part II, the third is JavaScript, the fourth is Even More JavaScript, and the last one is JavaScript frameworks.
 
@@ -610,7 +610,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** This combines other selectors in a way that gives them a useful relationship to each other, and the location of content in the document.
 
-**Kevin Ball:** \[00:28:18.09\] Ooh...
+**Kevin Ball:** \[28:18\] Ooh...
 
 **Emma Bostian:** It is a hard one.
 
@@ -704,7 +704,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** What is an iFrame?
 
-**Emma Bostian:** \[00:32:09.02\] That is correct, what is an iFrame.
+**Emma Bostian:** \[32:09\] That is correct, what is an iFrame.
 
 **Kevin Ball:** Speaking of being old, have y'all ever used non-iFrames, like the old frames?
 
@@ -794,7 +794,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** That is correct. Pseudo-element. There's no selector. So it's just pseudo-element.
 
-**Kevin Ball:** \[00:36:06.04\] I'm gonna dispute that... \[laughs\] So pseudo-elements - would you argue that they're actually styling a part of that thing? They're a way to select without -- no, I guess that makes sense... Never mind.
+**Kevin Ball:** \[36:06\] I'm gonna dispute that... \[laughs\] So pseudo-elements - would you argue that they're actually styling a part of that thing? They're a way to select without -- no, I guess that makes sense... Never mind.
 
 **Jake Dohm:** The description is a little mind-bendy.
 
@@ -878,7 +878,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Please do.
 
-**Kevin Ball:** \[00:39:58.20\] So that inclines me to believe it is a meta attribute of some sort, because of both the examples given, and there was the word meta in there... So it's some sort of meta attribute, and I'm actually gonna just go with the meta element, because the other examples were elements.
+**Kevin Ball:** \[39:58\] So that inclines me to believe it is a meta attribute of some sort, because of both the examples given, and there was the word meta in there... So it's some sort of meta attribute, and I'm actually gonna just go with the meta element, because the other examples were elements.
 
 **Emma Bostian:** That is correct. And yeah, it was a little obvious if you listened to the definition... \[laughs\] But you know, I just went with it anyway.
 
@@ -918,7 +918,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Emma Bostian:** Yeah, that's a hard one. Alright, so with that we'll take one more quick break, and then when we come back, we've just got a few more questions, and our final question, and we'll see where everyone stands.
 
-**Break:** \[00:41:58.03\]
+**Break:** \[41:58\]
 
 **Emma Bostian:** Alright, so we are back with the final wrap-up for JS Jeopardy. Unfortunately, Chris had to leave, but we have given him an honorary medal of survival, because he survived... And I think he hates me now. But in any case, Chris, you did a great job. And let's just continue... I don't remember who we left off with?
 
@@ -952,7 +952,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** I know exactly where it is, what it looks like... Oh, gosh. I have no idea what that's called. I'm gonna say "What is the page directive?"
 
-**Emma Bostian:** \[00:44:05.24\] That is incorrect. I'm looking for a very specific word.
+**Emma Bostian:** \[44:05\] That is incorrect. I'm looking for a very specific word.
 
 **Jake Dohm:** What is doctype?
 
@@ -1062,7 +1062,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** That's actually a really good -- you should call them out. If you're getting asked these questions, call out your interviewer. Be like "What are you testing for? You're not testing for my ability to code."
 
-**Emma Bostian:** \[00:47:50.15\] Yeah... That's really hard though. It's really hard in the moment, when you're the -- "subordinate" is not the right word, but you're not in a position of interviewing, so it's really uncomfortable to just call someone out and be like "Well, actually, it's a terrible question..." "I can explain how it works and I can show you what it's useful for, but I can't give you a definition."
+**Emma Bostian:** \[47:50\] Yeah... That's really hard though. It's really hard in the moment, when you're the -- "subordinate" is not the right word, but you're not in a position of interviewing, so it's really uncomfortable to just call someone out and be like "Well, actually, it's a terrible question..." "I can explain how it works and I can show you what it's useful for, but I can't give you a definition."
 
 **Kevin Ball:** Yeah. And hopefully, at some point you flip into the mode or there's enough abundance for you or there's enough opportunities for you where you're also interviewing them, to be like "Is this a place I wanna work?" and if they're asking questions like these, the answer is probably no. So yeah... I mean, there's lots of good ways to do interviews, there's lots of bad ways to do interviews, and we should be having this conversation -- I think we talked about this in the All Things Open episode and a few other things. This type of interview question is not helpful for interviewing... But it's fun. So let's keep rolling out, I don't wanna detour us too far.
 
@@ -1128,7 +1128,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Kevin Ball:** What is prevent default?
 
-**Emma Bostian:** \[00:51:59.05\] That is correct, prevent default. I don't know if it's default or default. I never know how to pronounce it... Alright. Okay, Jake, take it home - JavaScript again, for 200. This is the very last question before we get to the super-final round, which is literally just one question. Okay, JavaScript again for 200.
+**Emma Bostian:** \[51:59\] That is correct, prevent default. I don't know if it's default or default. I never know how to pronounce it... Alright. Okay, Jake, take it home - JavaScript again, for 200. This is the very last question before we get to the super-final round, which is literally just one question. Okay, JavaScript again for 200.
 
 **Jake Dohm:** Alright.
 
@@ -1196,7 +1196,7 @@ I don't remember who -- Jake, you answered last last time...
 
 **Jake Dohm:** I'll bet the whole of them. I'm betting all of them.
 
-**Emma Bostian:** \[00:55:07.04\] Alright. Welcome to the game where the rules don't matter. That's a different game.
+**Emma Bostian:** \[55:07\] Alright. Welcome to the game where the rules don't matter. That's a different game.
 
 **Jake Dohm:** \[laughs\]
 

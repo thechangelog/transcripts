@@ -16,7 +16,7 @@
 
 **Mireille Reece, PsyD:** Yeah, you're spot on. We've talked about this in other episodes, but you are alluding to the research that I've talked about before relative to children in orphanages in Romania, wherein these infants had significant developmental delays and challenges if they were deprived of touch, which is what contributed to changes in how we care for infants... Because what they've found is that when infants were not touched during this time period, kids developed poor emotional control or coping, they had gastro-intestinal problems, impaired cognitive development... There was a number of sequelae related to just not being touched, and that ironically then they brought in volunteers to come in and practice holding and touching and caressing in very adaptive ways... It totally changed the developmental trajectory of these kids, so long as these interventions were incorporated prior to the age of two.
 
-**Adam Stacoviak:** \[00:03:54.26\] Hm... It's a two-way street though too, the studies of the orphans... I'm thinking of the people who held these children. It's a two-way street really, right?
+**Adam Stacoviak:** \[03:54\] Hm... It's a two-way street though too, the studies of the orphans... I'm thinking of the people who held these children. It's a two-way street really, right?
 
 **Mireille Reece, PsyD:** Yeah, it's interesting, because I talk about volunteering or doing acts of service when I work with people in mental health, of going "What could you do?" So I've heard, I haven't looked into it, but there's like an extensive waiting list to go and hold the babies in the \[unintelligible 00:04:19.20\]
 
@@ -42,7 +42,7 @@
 
 **Adam Stacoviak:** My example of a scenario like this that you just gave is with my son. When my son is super-upset or he's frantic for some reason, or he can't get his words out and he's just upset, I give him a big hug. And he sort of inhales, exhales, and just calms down in my arms (same with my wife), because there's something that happens metabolically with the touch and the process of touch.
 
-\[00:07:57.14\] But you're not always a kid, and you're not always a parent, so you're a team member on a professional team - basketball, a software team, an engineering team at a high-profile company, an individual that's a remote worker... Where does touch come into play in these scenarios that makes sense? So do you have rules of engagement in a business, for example? ...like "When we can touch, it's in these ways that are appropriate." How do you (I suppose) prescribe touch to teams?
+\[07:57\] But you're not always a kid, and you're not always a parent, so you're a team member on a professional team - basketball, a software team, an engineering team at a high-profile company, an individual that's a remote worker... Where does touch come into play in these scenarios that makes sense? So do you have rules of engagement in a business, for example? ...like "When we can touch, it's in these ways that are appropriate." How do you (I suppose) prescribe touch to teams?
 
 **Mireille Reece, PsyD:** Well, sure. Like with anything, of course, there's guard rails and there's parameters... And really, I would say that there is personal preference, and that two people participate in what they allow or feel comfortable with. It's interesting, because someone said the fact is that there is a cultural variation in comfort with touch, which shows that ironically how comfortable we are in one thing or another is predominantly learned. It's not something that's inherent or innate, like you're born with it and says "This is okay and this is not."
 
@@ -68,7 +68,7 @@ Say for example you have a co-worker who despite your efforts at communicating c
 
 **Mireille Reece, PsyD:** Yes, yes.
 
-**Adam Stacoviak:** \[00:12:08.01\] But I think what we're trying to do is help people understand what touch is to being human, how it affects our brains, how it affects our relationships, the roles it plays, and how to reframe our thoughts on it around healthy ways of touching, and the ways it does really help interpersonal relationships between partners, father and son, mother and daughter, co-workers... In any walk of life, how touch can play a role in helping you be more human.
+**Adam Stacoviak:** \[12:08\] But I think what we're trying to do is help people understand what touch is to being human, how it affects our brains, how it affects our relationships, the roles it plays, and how to reframe our thoughts on it around healthy ways of touching, and the ways it does really help interpersonal relationships between partners, father and son, mother and daughter, co-workers... In any walk of life, how touch can play a role in helping you be more human.
 
 **Mireille Reece, PsyD:** Right. I love this quote by David Eagleman. He says "You can't touch something without being touched yourself." And even as we're thinking about this, I have the image always of like "My hand is the thing doing the touching." But I can touch things with my elbows... I mean, I think about one time when I was in New York City, and people would walk by and touch my arms in the middle of the scorching heat, which I was not preferable to. So it doesn't just mean with our hands, it can be feet, and different body parts etc. But that's part of what's interesting in it phenomenologically - there are two pathways in our brain for how we process touch. Did you know that?
 
@@ -96,7 +96,7 @@ Say for example you have a co-worker who despite your efforts at communicating c
 
 **Mireille Reece, PsyD:** Yeah. I think I've shared this before, but remember when I've talked through that experience of VR, wherein I went up the elevator and I had the opportunity to walk off a beautiful little wooden plank?
 
-**Adam Stacoviak:** \[00:16:01.06\] Right, yes...
+**Adam Stacoviak:** \[16:01\] Right, yes...
 
 **Mireille Reece, PsyD:** ...and the way in which I navigated it, because the information that one sense was telling me - what I could see and what I could hear - was alternative to other things that I knew. So I actually got down on the floor and touched the floor beside the plank to remind myself that there's still ground. I literally wasn't gonna step off into the abyss and fall down to my death.
 
@@ -126,7 +126,7 @@ Doctor Lindon - remember the doctor I've mentioned, who is a professor of neuros
 
 **Mireille Reece, PsyD:** Yeah. So I'm gonna dig a little deeper then to sort of talk through that grid or map that you're referencing as it relates to the brain. So if you can imagine, sensations come from the outside in. I sense. And the signal is from the touch receptors in my skin, which - my fingertips happen to have a lot of little receptors, so they're dense... And those little signals travel along the sensory nerves that connect to neurons in my spinal cord. So then it pulls up through the thalamus, which relays information to the rest of the brain, which would then be that somatosensory cortex, which is where your brain goes "Oh, this is a touch perception. This is what is going on." So imagine that this part of your brain is where you would wear headphones or a headband; that's the part of the brain that's the somatosensory aspect. So sensitive areas like our lips and fingertips stimulate much larger regions of the cortex than less sensitive parts like, say, your back. So it depends on the number of receptors per unit area, and the distance between them.
 
-**Adam Stacoviak:** \[00:20:27.18\] Yeah... It's interesting, it's crazy how deep this goes, even down to the memory graph of objects to registering emotion, or the amount of receptors to convey back to my somatosensory cortex etc. You know, what kind of touch this is; is it an infraction on my personal beliefs? All this happens so quickly.
+**Adam Stacoviak:** \[20:27\] Yeah... It's interesting, it's crazy how deep this goes, even down to the memory graph of objects to registering emotion, or the amount of receptors to convey back to my somatosensory cortex etc. You know, what kind of touch this is; is it an infraction on my personal beliefs? All this happens so quickly.
 
 **Mireille Reece, PsyD:** It does, it does. This is why it's so crazy. So how neurologists look at this, the sensitivity we have, is looking at the minimum distance between the two points on somebody's skin, where a person can identify different distinct stimuli, as opposed to just one. So if I move something on one part of my fingertip as opposed to another part, I'm still probably going to feel it on my fingertip, as opposed to my back, where I could go further way and have a different experience, because I could feel two parts, as opposed to one.
 
@@ -144,7 +144,7 @@ Doctor Lindon - remember the doctor I've mentioned, who is a professor of neuros
 
 **Adam Stacoviak:** Social bonding is interesting, especially around touch. Going back to the NBA and that study - I think that's so interesting how they can examine the congratulatory behaviors and the many ways that teammates touch one another to do that, whether it's a slap on the butt, a slap on the back, a high five, a gigantic hug, a team pile-on... All these things, I would imagine, is 1) the aspect of touching, but 2) it's like "I'm with you. On the same team, we're together, in the same emotion."
 
-\[00:23:55.29\] So it's a multi-faceted sort of thing, not just simply the touch, but to have that as an examination of whether or not they play better in the second half of the game or the season is really interesting, because what would happen if that team didn't ever touch? They'd play pretty poorly; they'd have not deep and well-connected personal relationships, and to me that's an interesting fact about the teams we play on, in terms of professionally, or even interpersonally. Your team is your home team. My team is my wife and my kids. Your team is your husband and your kids. But professionally, we have other teams, and how does that play a role?
+\[23:55\] So it's a multi-faceted sort of thing, not just simply the touch, but to have that as an examination of whether or not they play better in the second half of the game or the season is really interesting, because what would happen if that team didn't ever touch? They'd play pretty poorly; they'd have not deep and well-connected personal relationships, and to me that's an interesting fact about the teams we play on, in terms of professionally, or even interpersonally. Your team is your home team. My team is my wife and my kids. Your team is your husband and your kids. But professionally, we have other teams, and how does that play a role?
 
 **Mireille Reece, PsyD:** You know, I'm gonna get sort of giddy as I talk about research, because it just blows my mind, like a kid in the candy store. So there is a researcher, a psychologist Matthew Herrnstein out of DePaul University, who's looked at some of this back in 2009. So what he discovered or demonstrated with his research was that we have this innate ability to decode emotions via touch alone. Touch, that's it. So in a series of studies, what he did is had volunteers attempt to communicate a list of emotions to a blindfolded stranger, solely through touch.
 
@@ -170,7 +170,7 @@ Doctor Lindon - remember the doctor I've mentioned, who is a professor of neuros
 
 **Adam Stacoviak:** And not just simply because of a pandemic and all of that, but simply the distance too, with people not collocating for work, not collocating for exercise when it comes to team sports... There's probably not a lot of basketball happening in the public. Maybe in some private teams it might be happening, where there's more trust and medical care around to confirm everybody's safe, or whatever it might be... But I know Jerod here at Changelog is like "I miss playing basketball with my buddies."
 
-**Mireille Reece, PsyD:** \[00:28:12.10\] Yeah, yeah.
+**Mireille Reece, PsyD:** \[28:12\] Yeah, yeah.
 
 **Adam Stacoviak:** What I'm getting at though is what do we do then when we can't physically touch? What's a surrogate for touch in a world we can't literally touch? Or even in the case of people who are just distant, close friends, but can't touch physically?
 
@@ -194,7 +194,7 @@ So we can use these surrogates, and that's needed. This is why even some people 
 
 **Mireille Reece, PsyD:** Sure, sure.
 
-**Adam Stacoviak:** \[00:32:10.18\] Or the beers cheers one, or a thumbs up, or the handshake or the clap - these are all touch-based -- especially the clap; you're touching yourself, but there's an auditory thing that happens.
+**Adam Stacoviak:** \[32:10\] Or the beers cheers one, or a thumbs up, or the handshake or the clap - these are all touch-based -- especially the clap; you're touching yourself, but there's an auditory thing that happens.
 
 **Mireille Reece, PsyD:** Sure.
 
@@ -210,7 +210,7 @@ So we can use these surrogates, and that's needed. This is why even some people 
 
 **Mireille Reece, PsyD:** Right. So we're apt to be affected by not having somebody with us, or someone that can be there to walk alongside us, comfort us etc. I think about this in the very real experience of child birth... I mean, pretty painful, just a little bit. And I did it a couple of times. And I can vividly remember my experience, because I was fortunate enough to have both opportunities, one with a painkiller, real, and one without it, with just a person and other things. And I vividly remember when I was in active labor the way in which my providers would go and heat up these super-big, warm blankets, and very gently but firmly place them and pressure them on my legs. And it provided so much calm that I remember seeing the trees outside, and I remember that moment, but I don't remember the pain. I know I was in pain, but I'm more distant from the pain that was going on in my body at that time.
 
-**Adam Stacoviak:** \[00:36:15.13\] It shows the power of awareness, right?
+**Adam Stacoviak:** \[36:15\] It shows the power of awareness, right?
 
 **Mireille Reece, PsyD:** Yeah.
 
@@ -240,7 +240,7 @@ Like you said, with touch, being able to differentiate between different emotion
 
 **Mireille Reece, PsyD:** Yeah. Right.
 
-**Adam Stacoviak:** \[00:40:00.19\] When you were in that VR scenario, you didn't just feel better because you felt the floor, it was because you had more data to make a more wise decision. And that's why we need more data around the physicality and the socio-ways we operate as a species. We can't depart completely from touch. We have to understand its role. Obviously, do it in safe ways, that make sense given our current circumstances; I'm not saying against that. But to understand its role, and to not diminish it or reduce it completely. That it does play a role, a significant role.
+**Adam Stacoviak:** \[40:00\] When you were in that VR scenario, you didn't just feel better because you felt the floor, it was because you had more data to make a more wise decision. And that's why we need more data around the physicality and the socio-ways we operate as a species. We can't depart completely from touch. We have to understand its role. Obviously, do it in safe ways, that make sense given our current circumstances; I'm not saying against that. But to understand its role, and to not diminish it or reduce it completely. That it does play a role, a significant role.
 
 **Mireille Reece, PsyD:** Yeah, I can't speak enough to how thankful I am that German soccer has returned, so I can have some semblance of normal on the weekends... But even watching these guys out on the field - you know, they're still engaging in touch, but doing it in different ways, and I just think there's so much value in recognizing "Hey, we're on the same team." So it might be a forearm bump, and different things... And of course, as far as I understand, there's more protocols in place for their safety, but this sense of togetherness is part of what touch is about, because it mitigates vulnerability. As we talked about, of course I'm gonna feel more stressed if I'm all by myself; I've gotta figure out how to do it and nobody is with me. On some level, I know I can't get away from the awareness of my vulnerability, no matter what the situation.
 
@@ -248,13 +248,13 @@ So if I'm to sort of wrap this up and go "Why does touch matter?", it matters be
 
 Look, fundamentally, physical touch is this foundational element of human development and culture. We need to foster safe social environments wherein we have mediated communication, wherein we still are deliberate about ways in which we can hold on to physical touch in an alternative way.
 
-**Outro:** \[00:42:21.22\]
+**Outro:** \[42:21\]
 
 **Adam Stacoviak:** Hey, Mireille, we forgot to talk about something pretty important during the show, so let's put it in the after-show. It's the importance of reciprocation when it comes to touch. How you touch back. Tell us about that.
 
 **Mireille Reece, PsyD:** Yeah, I can't believe I left that out. This was just so striking to me, because I work with couples and people in relationships all the time, wherein touch matters; people tend to have different experiences and expectations when it comes to their partner.
 
-\[00:44:02.04\] So what psychologists noted was that while couples who are satisfied with each other do tend to touch more, especially at the beginning of their relationship, the true indicator of a healthy long-term bond is not necessarily how often your partner touches you, but how often they touch you in response to your touch.
+\[44:02\] So what psychologists noted was that while couples who are satisfied with each other do tend to touch more, especially at the beginning of their relationship, the true indicator of a healthy long-term bond is not necessarily how often your partner touches you, but how often they touch you in response to your touch.
 
 The stronger the reciprocity - like, "I give, you give" - the more likely someone is to report feeling this emotional intimacy and satisfaction with their relationship. So as is often true in relationships, satisfaction is as much about what we do for our partner, as it is about what we're getting from them. Ain't that crazy?
 

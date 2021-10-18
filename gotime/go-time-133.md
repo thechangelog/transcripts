@@ -24,7 +24,7 @@ Joining me today, it's Jaana B. Dogan. Hello, Jaana.
 
 **Mat Ryer:** Yeah, so dynamic languages do that all the time, don't they? Ruby, and I think even JavaScript... Because in JavaScript you can take a string and add methods to it at runtime, and you can kind of do anything you want, it's a really flexible language. And one of the things about Go is it is a strongly-typed language, so it sort of deliberately doesn't do that, but of course, the Reflect package is an exception to that rule.
 
-**Jon Calhoun:** \[00:04:11.03\] Like you said, the dynamic languages - it's almost like it's not even thought of as something separate... Like it's just part of the language. It's just something people naturally do. And if you've ever coded in Ruby or one of those languages, it seems so natural, because you see everybody doing it. It's not something that would stick out in any codebase. But when you get into Go, not only is it specific, like you have to import this reflect package, but it's also very limited in what it can do, and I think that's intentional, and it doesn't sort of go with the story of what Go is trying to achieve.
+**Jon Calhoun:** \[04:11\] Like you said, the dynamic languages - it's almost like it's not even thought of as something separate... Like it's just part of the language. It's just something people naturally do. And if you've ever coded in Ruby or one of those languages, it seems so natural, because you see everybody doing it. It's not something that would stick out in any codebase. But when you get into Go, not only is it specific, like you have to import this reflect package, but it's also very limited in what it can do, and I think that's intentional, and it doesn't sort of go with the story of what Go is trying to achieve.
 
 **Jaana Dogan:** Coming from a strongly-typed background, I was about to say that reflection is everything that your type system cannot provide as a first-class capability... But then I was looking at the Wikipedia page, and that's why I was so confused about the definition. I was in the thoughts, and Mat was thinking that I was being sad... It says "Reflection is the ability of a process to examine, introspect, and modify its own structure and behavior", so basically it's everything. And that actually makes sense, if you think about the meaning, what reflection means in daily language.
 
@@ -46,7 +46,7 @@ Joining me today, it's Jaana B. Dogan. Hello, Jaana.
 
 **Mat Ryer:** Yeah. So anybody that's not familiar -- and you see this particularly if you're working with JSON data... You can actually put a string after a field name in a struct, and that string can be parsed at runtime, and of course, it can take meta-data out of it... And the JSON example allows you to specify the field name, so you can have a different field name to the one that you're using in the struct. And you can also optionally choose for it to not include that field at all. And you can also -- there's like a syntax with a string and then a comma, which is quite a strange part of Go, actually. It's quite unusual, isn't it? There's not much else like it. And you can also tell it to omit the field if it's empty. So if it's a default value, then it won't be included in the JSON object.
 
-\[00:08:17.22\] I remember when I first saw that... It really felt like almost a temporary thing, but it has proven to be very useful and pretty effective, in particular for that use case. But Jon, you wrote something that used struct tags as well, right? That form project.
+\[08:17\] I remember when I first saw that... It really felt like almost a temporary thing, but it has proven to be very useful and pretty effective, in particular for that use case. But Jon, you wrote something that used struct tags as well, right? That form project.
 
 **Jon Calhoun:** Yeah.
 
@@ -66,7 +66,7 @@ So I think that's something that a lot of people struggle with when they get the
 
 I think people use one struct tag at a time, for very specific things, like for example JSON keys, and that sort of thing. What's your opinion? Do you think it's at a level that we don't actually need anything like an annotation, or do you think that it's a missed opportunity, just because struct tags are hard to maintain, and so on, and we are not doing a good work or we're missing some opportunities to annotate fields in a more richer way?
 
-**Mat Ryer:** \[00:12:15.17\] Yeah, it's a really interesting one, because there's definitely value in being able to add a bit of extra meta-data for a particular use case to structs. The alternative has to just be you would describe the same thing just using strong types. So Jon, in your case, instead of having an address struct with different fields and then use the struct tags to add labels and placeholders and help text and things, you'd have a form type and then a field type, probably... And it's quite verbose, but it's very clear. So I guess that's the benefit. But I always was told - and I don't know about this, but I was always told that it's slow, that struct tags are slow to parse. Is that the case still? Has there been any work optimizing that, or is it actually pretty quick?
+**Mat Ryer:** \[12:15\] Yeah, it's a really interesting one, because there's definitely value in being able to add a bit of extra meta-data for a particular use case to structs. The alternative has to just be you would describe the same thing just using strong types. So Jon, in your case, instead of having an address struct with different fields and then use the struct tags to add labels and placeholders and help text and things, you'd have a form type and then a field type, probably... And it's quite verbose, but it's very clear. So I guess that's the benefit. But I always was told - and I don't know about this, but I was always told that it's slow, that struct tags are slow to parse. Is that the case still? Has there been any work optimizing that, or is it actually pretty quick?
 
 **Jon Calhoun:** I don't know, but I've never worked on a project where that type of speed has mattered. If I'm rendering HTML and sending it back to the user, chances are sending that HTML back to the user is gonna take significantly more time than whatever the reflect struct tag parsing is gonna take, so it just wasn't a major concern.
 
@@ -80,7 +80,7 @@ The idea there is that you have actual types in your code, and you can use those
 
 **Jaana Dogan:** Yeah. Also, maintainability is higher. You can also easily run queries. You can ask your editor "Hey, show me all the users of this annotation." Or let's assume that you wanna modify a value in an annotation - you can easily search for that and just go in and refactor everything all around. So having some type safety allows you to do that... But again, as I said, I don't think we're over-abusing struct tags in Go. Maybe it's because they're not typed, so everybody's cautious about not overusing them... So I think we still have a nice balance; they're very small. But the biggest problem is people are afraid of -- since they're unstructured and you need to parse them, people are kind of scared of the maintainability, as well as some of the performance implications, if there's any.
 
-**Jon Calhoun:** \[00:16:30.28\] I agree entirely with what Jaana said, the sense that it might be because they're a little bit harder to maintain, that people don't use them as much... Whereas if you put those annotated tags in there, I almost wonder if people would use them more than they do now, and use them in cases where they don't make a lot of sense... Because I've even seen that with struct tags. I think there's a class of problems that make sense for struct tags. Encoding with JSON, or really encoding with almost anything that's similar to that... Encoding is a great example where your struct might not match exactly how it needs to encode, so you need to have some way of defining how it should encode and decode. And ORMs are kind of the same, they kind of fall in that same class, where if you're building an ORM where you just wanna quickly say "Put this into the SQL database. Here's what the names of the fields are in the SQL database" - that makes sense.
+**Jon Calhoun:** \[16:30\] I agree entirely with what Jaana said, the sense that it might be because they're a little bit harder to maintain, that people don't use them as much... Whereas if you put those annotated tags in there, I almost wonder if people would use them more than they do now, and use them in cases where they don't make a lot of sense... Because I've even seen that with struct tags. I think there's a class of problems that make sense for struct tags. Encoding with JSON, or really encoding with almost anything that's similar to that... Encoding is a great example where your struct might not match exactly how it needs to encode, so you need to have some way of defining how it should encode and decode. And ORMs are kind of the same, they kind of fall in that same class, where if you're building an ORM where you just wanna quickly say "Put this into the SQL database. Here's what the names of the fields are in the SQL database" - that makes sense.
 
 But then there's other libraries out there, like validation libraries, where you throw things like "This field is required" - and I'm not trying to say people should never use those, but I do see those as potentially being problematic long-term. They could lead to code that has a bunch of different struct tags, all littered in this type, and it's really hard to understand what each struct tag is actually doing, how they all interact together; and there's no compiler safety. If we put annotated tags in there, I wonder if people would just be more willing to do that, rather than look at other approaches.
 
@@ -98,7 +98,7 @@ But then there's other libraries out there, like validation libraries, where you
 
 **Mat Ryer:** Yeah. The Reflect API to interrogate those struct tags actually is quite good. It's quite a simple API. Because some of the Reflect package is -- it's so meta, isn't it? And some of it makes sense. You can get the value of something, and the value is a struct. It's a strong type in the Reflect package. And that describes the value. And then the values, of course, because they can be lots of different types of things, you end up with loads of methods that most of the time are illegal to call.
 
-\[00:20:19.20\] If you try and get the length of an integer, of course, the methods are there in the Reflect package to do that. So at compile time you could do it, and it's only then at runtime you're gonna find out you can't get the length of an integer. There's lots of examples of that, so you do end up checking everything. You'd be very verbose when it comes to writing defensive code to make sure that you're not gonna have any of these runtime weird things. And obviously, testing helps, but...
+\[20:19\] If you try and get the length of an integer, of course, the methods are there in the Reflect package to do that. So at compile time you could do it, and it's only then at runtime you're gonna find out you can't get the length of an integer. There's lots of examples of that, so you do end up checking everything. You'd be very verbose when it comes to writing defensive code to make sure that you're not gonna have any of these runtime weird things. And obviously, testing helps, but...
 
 **Jaana Dogan:** Yeah, you mention testing, but it's hard to test, as well. There's no canonical set of tests that you wanna run. I worked on some of the database packages, and there was all this -- like, since Go doesn't have generics, which is something that maybe we can discuss in the context of this talk, we rely a lot on interfaces and type inversion. If you have a slice of interfaces, it could be either a value or a pointer, or a pointer of pointer, and then you have to do all that magic by using the Reflect package, and the reflect package is already a very verbose thing, so wrapping and unwrapping all of those types is very hard. I couldn't figure out an easy way to test, because there was no set of canonical things, like hey, if the standard library was providing maybe some sort of like "Hey, please consider testing these", or providing a list of things to test, that would be so much easier.
 
@@ -112,7 +112,7 @@ There's all these weird cases that you get to, where it seems really simple, lik
 
 **Mat Ryer:** Yeah. I mean, in a way it's leaking the internals of how Go actually works. You do tend to learn quite a lot about the types system if you do have to use it... But frankly, I often end up in a kind of trial and error situation, relying on a TDD process to tell me if I got it right or not. I've often written -- if I've used the Reflect package, I often will have code where I call Elem() to get the element, and then for some reason (I'm not sure why) I have to call it again... And it's like "There will be a great reason for that, but I don't know what it is, and I don't really have time", and I know that if I just call elem.Elem(), then I get the thing I need in this case, because the test passes... So I end up being very sort of brute force when it comes to reflection code, which doesn't feel great.
 
-**Jon Calhoun:** \[00:23:59.07\] Yeah. I don't use TDD that often, but using Reflect is one of the cases where I most definitely use it, because I'm like "Here are all the different things I know I'm gonna put into this, and they all need to work", and it's just so much easier to start with that. Otherwise, you're just like "Yeah, this works", and then you've gotta run it and nothing works, and you're like "I don't know what's going on."
+**Jon Calhoun:** \[23:59\] Yeah. I don't use TDD that often, but using Reflect is one of the cases where I most definitely use it, because I'm like "Here are all the different things I know I'm gonna put into this, and they all need to work", and it's just so much easier to start with that. Otherwise, you're just like "Yeah, this works", and then you've gotta run it and nothing works, and you're like "I don't know what's going on."
 
 I'm just looking at some code that I've written with reflect, and I'm seeing the same thing, where it's like .type.Elem() and then like once you create that reflect.New() using that you're like .Elem() for that and you're like "Looking at this code, I have no idea why I did these things. I just know they work", which is really weird. 
 
@@ -132,7 +132,7 @@ And in test code maybe you're okay with that not being -- it's not gonna be in a
 
 **Jon Calhoun:** Yeah. Like Jaana said about how the typing system is limited, and then you mentioned the JSON encoding... And I'm sitting here, thinking like - even cases where you know you have to pass in a pointer, you can't just pass in the struct; you have to pass in a pointer to the struct to get the values back... And even having a typing system that sort of allowed you to restrict that would have helped, but because of the way things are set up, it can't do that. Instead, you have to rely on maybe an error, or something... This is not meant to be like bashing Go or something, it's just it's a struggle sometimes when you see that, because I'm sure it's confusing for some people.
 
-**Mat Ryer:** \[00:28:14.21\] Yeah. Well, what would the JSON package look like if it didn't use reflect? I mean, you almost certainly would have some kind of callback, but you'd still have interfaces, because you don't know the value type.
+**Mat Ryer:** \[28:14\] Yeah. Well, what would the JSON package look like if it didn't use reflect? I mean, you almost certainly would have some kind of callback, but you'd still have interfaces, because you don't know the value type.
 
 **Jon Calhoun:** Yeah, it would almost have to be something like "Encode this", and then instead of saying "Pass in an interface", it would almost have to say "It has to be a pointer." It would almost have to be something along those lines. But even then, that's confusing, because maps don't always work that way, if I recall correctly. I think you can just pass a map in there and it doesn't have to be a pointer, but I don't remember... Does it have to be a pointer?
 
@@ -162,7 +162,7 @@ So those use cases aren't as common, I suppose... But the JSON API I think is gr
 
 **Jon Calhoun:** Even with it as is, there's already a couple cases with JSON that are challenging... Like you said, you have structs, but -- I think Stripe is an example of this, where payment sources can be a card or like a bank account, so you have this array of things that can be different, and you kind of need to write your own type to unmarshal it correctly... So you end up having to write some custom stuff for that. And I imagine if you just didn't have the JSON package at all, it would just be a nightmare of people complaining and saying "This is awful." Because even in cases like that, where you have to write custom, I still leverage as much of the JSON package as possible... Like, make a struct with just that one field I want, unmarshal it, figure out what it is, and then pass in the struct for whichever type I care about... And that just saves me the work of doing any of the actual overhead of "How do I umarshal this?"
 
-**Break:** \[00:31:40.15\]
+**Break:** \[31:40\]
 
 **Jon Calhoun:** Earlier, Mat, you were talking about struct tags, and one of the things Jaana and I had sort of talked about a little bit before the show started was, in some ways, I kind of feel like struct tags would benefit being its own separate library, would benefit from that... Because then you can separate this... I feel like struct tags are the safest version of reflection out there, like where you import the Reflect package, and then everything else is kind of the -- maybe not worse, but it's definitely a little bit scarier... So having that edge case, where you could just pull out struct tags - it might be useful to actually have as a separate, like "Okay, I'm just looking at struct tags here."
 
@@ -176,7 +176,7 @@ One of the things that I've seen related to this was people -- if they wanna rel
 
 **Jon Calhoun:** I've definitely done the "have one source file, where all my reflect stuff got put", but I've never done anything big enough with Go's reflection that I've had to go that far... Now, I can say that I'm definitely guilty of in like Ruby going crazy with some of the meta-programming stuff, but I kind of feel like when I went to Go I just didn't feel like writing Go code; it didn't seem like the right approach, so I kind of veered away from it where I could.
 
-**Mat Ryer:** \[00:35:38.18\] Yeah. I saw an example where somebody wanted to be a very good citizen, and they were gonna put some data in the map, and if the map was nil, it was panicking, of course... So they were actually using (I think) the JSON unmarshaler; in the case that the map was nil, it would just marshal -- and they put the string in-line, like the two little curly braces, to denote an empty object. And it would actually then create a map using that technique... Which means as a programmer you then could pass in a nil map and it would still work. But again, it's a bit too magic, and also just kind of letting it panic, or... Since it was a library, even sometimes I don't mind catching situations that would panic, and then panicking with a better error message, like "You have to create the map before you pass in", or something like that.
+**Mat Ryer:** \[35:38\] Yeah. I saw an example where somebody wanted to be a very good citizen, and they were gonna put some data in the map, and if the map was nil, it was panicking, of course... So they were actually using (I think) the JSON unmarshaler; in the case that the map was nil, it would just marshal -- and they put the string in-line, like the two little curly braces, to denote an empty object. And it would actually then create a map using that technique... Which means as a programmer you then could pass in a nil map and it would still work. But again, it's a bit too magic, and also just kind of letting it panic, or... Since it was a library, even sometimes I don't mind catching situations that would panic, and then panicking with a better error message, like "You have to create the map before you pass in", or something like that.
 
 But yeah, I've seen a few cases where it's been used where you don't really need it, but people have tried to go the extra mile for their users. So yeah, those kinds of things are quite interesting.
 
@@ -206,7 +206,7 @@ So we then have to -- we can write our definition interface, we run the code gen
 
 **Jon Calhoun:** I was gonna say, I do think -- we talk about how reflection is bad, or you should try to avoid it because it's confusing, it's hard to reason about, and it's just hard to maintain... But I think sometimes that's hard, because we don't tell people alternative approaches... And I do think code generation is one of the big ones out there that can be very useful. Like you said, you're kind of doing that reflection thing where you're actually analyzing the code, and then you generate code from it, and you end up with something that's much easier to manage.
 
-\[00:40:10.29\] I've even seen some ORMs that go with that approach; I think SQLBoiler was one of them, where they would scan your SQL database and then they would generate Go structs from that... So rather than using reflection, they're like "Okay, we're just gonna spit out things that match your database perfectly, and you can just use these..." It's a very different approach, but I think having reflection being kind of limited forces people to look at these other approaches and decide "Is this better? Is this easier to maintain?"
+\[40:10\] I've even seen some ORMs that go with that approach; I think SQLBoiler was one of them, where they would scan your SQL database and then they would generate Go structs from that... So rather than using reflection, they're like "Okay, we're just gonna spit out things that match your database perfectly, and you can just use these..." It's a very different approach, but I think having reflection being kind of limited forces people to look at these other approaches and decide "Is this better? Is this easier to maintain?"
 
 **Mat Ryer:** Yeah. There's also the go generate command; you can put a comment in, a special comment... Which again, is a little bit magic, but it's like //go:generate, and then a command, and then if you type that in your project, it will run those commands. They're useful for exactly that kind of thing, where you're then gonna do a sort of pre-build step where you generate the code... And that is a nice approach, because you get the type safety, you get the compiler helping you; maybe not initially, but once it's generated, that code then is part of your project usually, and it's gonna be built... And if it's wrong, you'll find out soon enough.
 
@@ -226,7 +226,7 @@ So we then have to -- we can write our definition interface, we run the code gen
 
 **Jaana Dogan:** To me, generics has always been like "Hey, there's this template, and you generate things, and the compiler is handling all of that stuff, because the generated code is too complicated to take a look", and that's why the language needs to provide some syntactic sugar, to be able to engage with those types, and so on. So I wonder -- I think if you expose what is generated, that would be super-scary to the user. You will have all these --types, and all these different cases, and whatever... So I think it's not going to look really good for a large number of cases. That might discourage people to take a look at generics to begin with.
 
-\[00:44:19.09\] That's why I'm waiting for the actual generics proposal and implementation, because I wanna see that syntactic sugar, how it's going to look... Even though the hard work is not visible to me, at least -- I just actually am not interested in what is generated under the hood, because I know that it's going to be complicated for a lot of times.
+\[44:19\] That's why I'm waiting for the actual generics proposal and implementation, because I wanna see that syntactic sugar, how it's going to look... Even though the hard work is not visible to me, at least -- I just actually am not interested in what is generated under the hood, because I know that it's going to be complicated for a lot of times.
 
 And I think one of the reasons these generators \[unintelligible 00:44:39.19\] didn't really catch up is because you need to have some sort of an officially-blessed generics solution. As a library, I can't really randomly pick one tool versus the other. There's not a lot of experimentation, actually. You can't really expose what's underneath; I just want something that works for everyone, so we can agree on it, and all the library systems switch to it... I don't really care what's generated under the hood, and they can always optimize it, or whatever... There is so much work that has been done in this field, so we're not trying to do this for the first time.
 
@@ -260,7 +260,7 @@ I assume that we should find a solution to generics. It should be in the officia
 
 **Jon Calhoun:** It's probably one of those -- there's probably like 1% of edge cases where it's not that great with, but for most developers, that just doesn't matter enough to outweigh the benefits of having the LSP.
 
-**Mat Ryer:** \[00:48:19.23\] Yeah.
+**Mat Ryer:** \[48:19\] Yeah.
 
 **Jon Calhoun:** But then there's still the problem -- not a problem necessarily, but different editors use their own approach to this. I think GoLand is one of the ones that doesn't use language servers; they use something completely in-house. And in some ways, that's beneficial... Because when GoPlease first came out, it was pretty brittle. But theirs I think was better at the time with Go modules, but now I don't know if that's necessarily true.
 
@@ -272,7 +272,7 @@ I assume that we should find a solution to generics. It should be in the officia
 
 **Jon Calhoun:** Probably.
 
-**Break:** \[00:49:40.07\]
+**Break:** \[49:40\]
 
 **Mat Ryer:** Guess what time it is...?! \[laughs\]
 
@@ -280,7 +280,7 @@ I assume that we should find a solution to generics. It should be in the officia
 
 **Mat Ryer:** It's unpopular opinion time!
 
-**Jingle**: \[00:51:50.06\] to \[00:52:08.08\]
+**Jingle**: \[51:50\] to \[52:08\]
 
 **Mat Ryer:** So does anyone have an unpopular opinion then? Some of these things we've already said probably are a little bit unpopular, but... Have you got anything in particular?
 
@@ -288,7 +288,7 @@ I assume that we should find a solution to generics. It should be in the officia
 
 **Jon Calhoun:** Go ahead, Jaana. I'm gonna let her take the stage.
 
-**Jaana Dogan:** \[00:52:13.13\] We need generics. I think this is not a very unpopular opinion, but... I've been saying this since the beginning of the language, and everybody has been hating me... But I think we need generics.
+**Jaana Dogan:** \[52:13\] We need generics. I think this is not a very unpopular opinion, but... I've been saying this since the beginning of the language, and everybody has been hating me... But I think we need generics.
 
 **Jon Calhoun:** See, I agree entirely, but that's because I've done enough -- I think one example is for Go to do well in an educational space, like for people to pick it up in college, they're gonna be dealing with data structures, and it's really hard to do data structures without generics... And I think that's one of the reasons why Java is taught so much in school, is because it does well with that.
 
@@ -318,7 +318,7 @@ I assume that we should find a solution to generics. It should be in the officia
 
 **Jaana Dogan:** I was just about to give that as an example, because that was the moment that I actually started to feel burnout from the project, and I wanted to go and do something else... And everything was becoming this infinite loop of discussions about the possibilities, and so on... So with generics - I didn't wanna contribute to that, because there's already too many voices, and it's hard; it's a hard job to figure out, because you can't predict the future.
 
-\[00:55:52.22\] I also trust Go developers, because a lot of people care a lot about simplicity, so they never take a feature and abuse it. I think Go users are pretty informed about the core subset of the language they wanna use... And the language is not huge, but I also trust the larger ecosystem. So I'm not that concerned anymore.
+\[55:52\] I also trust Go developers, because a lot of people care a lot about simplicity, so they never take a feature and abuse it. I think Go users are pretty informed about the core subset of the language they wanna use... And the language is not huge, but I also trust the larger ecosystem. So I'm not that concerned anymore.
 
 **Mat Ryer:** Yeah, I mean, you can always not use it... And to be honest, I didn't quite realize -- I realized very late that type aliases got into the language. I remember the proposal and the big debate, but... Another one was the Try proposal, with the errors; for me, I was allergic to that, because it felt too magic... And yeah, I felt like that didn't fit in with the philosophy of Go. We have to watch out that we don't just like Go as it is, and we're too rigid not to allow any evolution, but... I do think you're right, Jaana - we kind of are aware of the simplicity and things not being too magic. We are, as a community, quite aware of that. And yeah, I suppose you can always just not use it, if you don't like it...
 
@@ -332,7 +332,7 @@ Well, I think that's all the time we have today... Next week we've got a very in
 
 Jon, thank you very much. Jaana, always a pleasure. We'll see you next time!
 
-**Outro:** \[00:59:13.07\]
+**Outro:** \[59:13\]
 
 **Mat Ryer:** That's it.
 

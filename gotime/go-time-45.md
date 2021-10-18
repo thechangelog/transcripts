@@ -68,7 +68,7 @@ I'm just gonna start with the first one on the list, which actually is from a co
 
 **Brian Ketelsen:** That's why I was trying to port forward a minute ago... So when I moved into my new house last year (right around this time) I lost the remote to my television. And I am cheap, and lazy, and did not want to get a new television. So I was googling around for interesting things to do, and I just started googling for the model number of my television, and it turns out that there is a home automation interface on the TV that is 100% unsecured over TelNet... And we don't need to get started about being unsecure over TelNet, but there is one - you have to explicitly enable it... It comes shipped off, so I had to turn it on. But once I did turn it on, now I have a TelNet prompt on my television.
 
-\[00:04:30.12\] So I hacked up a tiny Go program - it's at [github.com/bketelsen/TV](https://github.com/bketelsen/tv), and using it, you can send commands to my television to turn it on and off, turn the volume up and down and change the input sources. So from my laptop I control my television... And it really is a tiny amount of code, and I was gonna port forward that port on my home router so that everybody could play and turn on the TV and turn the volume up and down... But I just realized the IP address of my TV has changed and I don't know what it is without going out to the television to find it, so we won't play the "Everybody screw up Brian's TV game right now...", but that would have been fun.
+\[04:30\] So I hacked up a tiny Go program - it's at [github.com/bketelsen/TV](https://github.com/bketelsen/tv), and using it, you can send commands to my television to turn it on and off, turn the volume up and down and change the input sources. So from my laptop I control my television... And it really is a tiny amount of code, and I was gonna port forward that port on my home router so that everybody could play and turn on the TV and turn the volume up and down... But I just realized the IP address of my TV has changed and I don't know what it is without going out to the television to find it, so we won't play the "Everybody screw up Brian's TV game right now...", but that would have been fun.
 
 **Erik St. Martin:** \[laughs\] You get props for trying.
 
@@ -120,7 +120,7 @@ I like meeting people. I love the hacker community, it's a lot of fun to do this
 
 **Carlisia Thompson:** Why not?
 
-**Adam Stacoviak:** \[00:08:02.27\] "Where do each of you put Go lang in two years' time, maybe five years?" So basically, pontificate... Where is Go going, 2-5 years?
+**Adam Stacoviak:** \[08:02\] "Where do each of you put Go lang in two years' time, maybe five years?" So basically, pontificate... Where is Go going, 2-5 years?
 
 **Erik St. Martin:** Yeah, these future visions are always difficult... Right now, it really is the language of the cloud, right? Most distributed systems software is being written in it, all the tooling surrounding that, monitoring and metrics systems are all written in Go... I feel like it's gonna continue to grow there.
 
@@ -170,7 +170,7 @@ We keep seeing a little bit of hints at it on the phone and on embedded devices,
 
 **Erik St. Martin:** I was gonna add to that too, that I think a lot of it too is that these pieces of software for distributed systems are often complex and large, and a lot of moving parts, so I think that having a language that's much easier to fit the whole language in your head at one time I think really helps people be able to be productive writing this type of software. How about you, Carlisia? What's your vision for the next 2-5 years?
 
-**Carlisia Thompson:** \[00:12:11.15\] I agree completely with Brian, even with the timeframe. I think in five years Go will take over a lot of space that's taken up by Java right now, it will become more enterprisy... And I say this because I think over the past years, independently of Go, it just has become easier to develop things in components and in a modular way, so it will be natural to just replace pieces of systems with Go.
+**Carlisia Thompson:** \[12:11\] I agree completely with Brian, even with the timeframe. I think in five years Go will take over a lot of space that's taken up by Java right now, it will become more enterprisy... And I say this because I think over the past years, independently of Go, it just has become easier to develop things in components and in a modular way, so it will be natural to just replace pieces of systems with Go.
 
 I don't think Go is going to be the homogeneous, THE language that's going to be used - that will never happen, no matter what the language is, because it doesn't even make sense - but I think it will take up chunks and enough to be the dominant language, because of all the attributes that Go has.
 
@@ -196,7 +196,7 @@ So let's start with the first one, which was the Gopher Review Channel - what is
 
 **Erik St. Martin:** I guess we'll start there... That's more of an awareness thing. So on the Gophers Slack there is a Reviews Channel with lots of people who just camp out there and are happy to do code reviews for you. So definitely reach out with problems and questions there, and send them your code. Lots of people love to provide feedback... So yeah, that's an awareness thing more than it is a question for everybody.
 
-\[00:16:08.00\] And then [Johnny Boursiquot](https://twitter.com/jboursiquot) was talking about naming conventions... The other day we were talking about whether or not we should have one-letter variable names and things, and those are some of the topics we discussed in those few channels. Basically, this was like the closer you get to the scope where you define a variable, the less descriptive they can be.
+\[16:08\] And then [Johnny Boursiquot](https://twitter.com/jboursiquot) was talking about naming conventions... The other day we were talking about whether or not we should have one-letter variable names and things, and those are some of the topics we discussed in those few channels. Basically, this was like the closer you get to the scope where you define a variable, the less descriptive they can be.
 
 **Brian Ketelsen:** Yeah, that's actually in the Go styleguide, by the way.
 
@@ -248,7 +248,7 @@ So let's start with the first one, which was the Gopher Review Channel - what is
 
 **Erik St. Martin:** I need to do another one, but yeah, definitely brisket. I like hickory a lot. I probably cook the most with hickory. Oak's good... I've got some black cherry that I'll throw in once in a while too, but for the most part it's probably hickory. How about you, Carlisia? Do you like eating barbecue?
 
-**Carlisia Thompson:** \[00:19:55.12\] I don't eat much meat these days, but I did in the past... Brazilian barbecue, Rodizio, that kind of thing. I'm not as knowledgeable as you, especially when it comes to American cuts of meat, because in Brazil some of the cuts of meat are different.
+**Carlisia Thompson:** \[19:55\] I don't eat much meat these days, but I did in the past... Brazilian barbecue, Rodizio, that kind of thing. I'm not as knowledgeable as you, especially when it comes to American cuts of meat, because in Brazil some of the cuts of meat are different.
 
 **Adam Stacoviak:** Educate us, tell us...
 
@@ -316,7 +316,7 @@ So let's start with the first one, which was the Gopher Review Channel - what is
 
 **Carlisia Thompson:** It's called "injera".
 
-**Erik St. Martin:** \[00:24:01.14\] Yeah... It's almost like pancake material, spongy, and you tear off pieces and you kind of pinch your food off in it and eat collectively...
+**Erik St. Martin:** \[24:01\] Yeah... It's almost like pancake material, spongy, and you tear off pieces and you kind of pinch your food off in it and eat collectively...
 
 **Adam Stacoviak:** What?!
 
@@ -350,7 +350,7 @@ So let's start with the first one, which was the Gopher Review Channel - what is
 
 **Brian Ketelsen:** Today's show is brought to you by barbecue... And Toptal.
 
-**Break:** \[00:25:08.13\]
+**Break:** \[25:08\]
 
 **Erik St. Martin:** Alright, and we are back doing our AMA. \[laughter\] We went off on a tangent there with barbecue and food, and now that I'm hungry, what else do we have for questions? Here we go... Out next question is from Wade Arnold, and this came from Twitter. He says, "What aspects of the language have made it so popular for open source projects? Think of all the large codebases for complex systems in Go." I think we touched on this a little bit when we talked about the future of Go... I think that the single binary deploy, basically the language not being as complex for people to understand makes for more manageable codebases... Did anybody have any additional...?
 
@@ -368,7 +368,7 @@ So let's start with the first one, which was the Gopher Review Channel - what is
 
 **Erik St. Martin:** So our next question came from Casey Wilson on the GoTime FM Slack channel... It says "Something else... I'd like to see your guys' development environment. What does your focused mode look like?"
 
-**Brian Ketelsen:** \[00:28:05.19\] That's a good question.
+**Brian Ketelsen:** \[28:05\] That's a good question.
 
 **Adam Stacoviak:** What does "focused mode" mean?
 
@@ -408,7 +408,7 @@ I need to have headphones on my ears. I don't care if there is music playing... 
 
 **Adam Stacoviak:** Maybe it's like this.
 
-**Erik St. Martin:** \[00:32:01.05\] That reminds me... Do you guys remember the Strong Bad episodes, the little cartoon online? The one where he answers an email, and it's something about...
+**Erik St. Martin:** \[32:01\] That reminds me... Do you guys remember the Strong Bad episodes, the little cartoon online? The one where he answers an email, and it's something about...
 
 **Adam Stacoviak:** You lost me.
 
@@ -448,7 +448,7 @@ The weird thing is is there's usually always something, and EDM. Almost everybod
 
 **Adam Stacoviak:** Yeah... I like breakbeats a lot, I like the dubstep stuff - I like that kind of stuff, but then I will easily go and switch on Guns 'n Roses. I'm a huge fan of their first album... I think it's Appetite for Destruction. So I'll easily go back and just turn on Paradise City and start doing my moves... I can't help it. I'm a metal rock kind of guy, classic rock - Led Zeppelin, Kansas, Styx... I'm speaking Brian's love language here.
 
-**Brian Ketelsen:** \[00:36:21.06\] You're close, but not quite...
+**Brian Ketelsen:** \[36:21\] You're close, but not quite...
 
 **Adam Stacoviak:** Who's your number one? It's my number one too, but I haven't said their name yet.
 
@@ -498,7 +498,7 @@ The weird thing is is there's usually always something, and EDM. Almost everybod
 
 **Erik St. Martin:** So my favorite music - I think I could take an entire episode. I like to think that I have bipolar music disorder... I listen to everything, and I think it's because my dad was a DJ growing up, so I always got used to listening to everything. I get bored with a style, so usually I'll go on several day kicks, or like a week of listening to some type of music. I listened to everything; I listened to rock, like modern bands - Five Finger Death Punch, Mudvayne... Stuff like that. I listened to softer stuff like 3 Doors Down, I listened to older stuff, I love Guns 'n Roses... I'll jam out to Madonna and Whitney Houston, I don't care.
 
-**Adam Stacoviak:** \[00:40:16.24\] Nice.
+**Adam Stacoviak:** \[40:16\] Nice.
 
 **Erik St. Martin:** I like hip-hop. EDM - there's certain styles I like and some I don't. I like dubstep, I love breakbeats... Recently a little country, but that's still a little new for me. I love late '80s early '90s freestyle music; that was kind of like the precursor to techno. Yeah, I listen to just about everything.
 
@@ -548,7 +548,7 @@ But really, in terms of resources, everything you need is in the standard librar
 
 **Brian Ketelsen:** Oh my god... There isn't a nail in the sysadmin world that looks like that. That hammer is not built. \[laughter\] Don't get me started.
 
-**Adam Stacoviak:** \[00:44:00.05\] Go, go Brian! Go!
+**Adam Stacoviak:** \[44:00\] Go, go Brian! Go!
 
 **Brian Ketelsen:** Don't encourage the boy...
 
@@ -596,7 +596,7 @@ I think that makes wonderful sense - admit what you don't know, and own what you
 
 **Adam Stacoviak:** You know, the thing too is people fear that kind of stuff. I'm there too, but you just can't live in fear of judgment from other people, and it's so easy to say that and not live it, but that truly is the way out of impostor syndrome. It's like, care about how people feel about you, I guess, but don't make it so important to you that you become paralyzed to do something. Don't let fear of the crowd or fear of the impression of anybody pull you down. Just bypass it.
 
-**Erik St. Martin:** \[00:48:05.21\] So I happened to see a tweet last night too, and [it was funny](https://twitter.com/d12/status/857417347224809473). The Hip-Hop group D12 actually tweeted this.
+**Erik St. Martin:** \[48:05\] So I happened to see a tweet last night too, and [it was funny](https://twitter.com/d12/status/857417347224809473). The Hip-Hop group D12 actually tweeted this.
 
 **Adam Stacoviak:** What...?
 
@@ -646,7 +646,7 @@ Anybody who's willing to take those mistakes that you have and turn them against
 
 **Erik St. Martin:** I was gonna use that one, but I felt that was too obvious.
 
-**Brian Ketelsen:** \[00:52:02.20\] It is, and I'm just totally copping out on that, sorry.
+**Brian Ketelsen:** \[52:02\] It is, and I'm just totally copping out on that, sorry.
 
 **Adam Stacoviak:** There's a cop-out, it's pretty easy... Okay, so which one LEAST best describes you? Is that how you say that?
 
@@ -730,7 +730,7 @@ Anybody who's willing to take those mistakes that you have and turn them against
 
 **Erik St. Martin:** So for the listeners who are not Joe Shaw, what do you do? \[laughter\]
 
-**Carlisia Thompson:** \[00:55:53.17\] Yeah, I'm only doing Go... What else do I do? So I work for Fastly, and that's a CDN company, and I'm on a team that's rebuilding, let's say, the TLS and DNS management system, so there is a lot for me to learn in that domain.
+**Carlisia Thompson:** \[55:53\] Yeah, I'm only doing Go... What else do I do? So I work for Fastly, and that's a CDN company, and I'm on a team that's rebuilding, let's say, the TLS and DNS management system, so there is a lot for me to learn in that domain.
 
 **Brian Ketelsen:** Can you explain what a CDN is for those of us who do backend code?
 
@@ -752,7 +752,7 @@ And it's so easy - if we have to purge something, it's easy to hop into the admi
 
 I do lots of stuff. Talk on the mic, podcast, write scripts, order T-shirts, pass out stickers at conferences, shoot video, shoot pictures, edit photos, create Flickr accounts, tweet... I just do a lot of stuff, and it's really hard to compartmentalize what I do. The biggest thing though that I do - hopefully - and what we do here at the Changelog... Our core motto is to enrich the lives of developers. Our jobs, to do what we do here, is to hopefully bring you joy, make your jobs more fun, make life more fun, help you get to that next step, face your impostor syndrome or get over it... That' the core thing we do - make people's lives better, help people. That's what I do - I help people.
 
-**Erik St. Martin:** \[00:59:58.04\] So then I guess I'll finish this up... At my day job, I'm actually a systems architect at Comcast in the cable division. For cable, there's really kind of two sides of it: there is the newer kind of IP-based delivery, similar to the way Netflix or Hulu delivers, and then there's what we call QAM, which is Quadrature Amplitude Modulation, and that's how cable is delivered across the coax cable that comes in your house. So I work with that group, and currently I work on a project for replacing industry-specific hardware that's used to multiplex multiple video streams together into a single stream that gets modulated out of that cable... I'm replacing that with software.
+**Erik St. Martin:** \[59:58\] So then I guess I'll finish this up... At my day job, I'm actually a systems architect at Comcast in the cable division. For cable, there's really kind of two sides of it: there is the newer kind of IP-based delivery, similar to the way Netflix or Hulu delivers, and then there's what we call QAM, which is Quadrature Amplitude Modulation, and that's how cable is delivered across the coax cable that comes in your house. So I work with that group, and currently I work on a project for replacing industry-specific hardware that's used to multiplex multiple video streams together into a single stream that gets modulated out of that cable... I'm replacing that with software.
 
 The software itself was written in C++... There was a question about all Go. I primarily work in Go; occasionally, I have to patch that software, but mostly another team works on that that's written in C++. But a lot of what I do is design and build the orchestration system surrounding that - how those video streams get deployed, how they fail over when a blade goes down or an entire head end goes down, and things like that.
 

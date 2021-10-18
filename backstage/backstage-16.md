@@ -60,7 +60,7 @@ But I do know that lots of our listeners - or some of our listeners; I shouldn't
 
 **Adam Stacoviak:** I don't know, I think it's one part where things and paradigms come up, and it is the way of the future, to some degree... But I don't think the way it exactly is now is the way of the future. I'm with you; at first, I was excited about it. And what got me really excited about Clubhouse or the idea of it was whenever I was -- I don't know how I actually found out about the room, but I'd followed a couple of people, and next thing I'm getting DMs and notifications all the time about different things happening.
 
-\[00:03:58.22\] And Kim Dotcom came on and shared a lot of his story... And for those who don't know Kim Dotcom, there was a -- what was his main thing? Megaupload I believe is what it was... And a lot of the copyright infringement issues... Just a big, big ordeal.
+\[03:58\] And Kim Dotcom came on and shared a lot of his story... And for those who don't know Kim Dotcom, there was a -- what was his main thing? Megaupload I believe is what it was... And a lot of the copyright infringement issues... Just a big, big ordeal.
 
 **Jerod Santo:** Was he Silk Road, or no?
 
@@ -86,7 +86,7 @@ Another thing that got me was I'm a big Deadmau5 fan, and I was like "Whoa, I'm 
 
 **Jerod Santo:** I know there are some people who have recorded their podcasts on Clubhouse and just put that out as a podcast. But now you're using phone audio, you're dealing with all of the conversation logistics of who's on stage, who's this person, here they are, "Oh, they've side-tracked the conversation." Anyways, it just seems like maybe not the best use of our time.
 
-**Adam Stacoviak:** \[00:08:12.29\] Yeah.
+**Adam Stacoviak:** \[08:12\] Yeah.
 
 **Jerod Santo:** And a limited time.
 
@@ -132,7 +132,7 @@ Another thing that got me was I'm a big Deadmau5 fan, and I was like "Whoa, I'm 
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:12:08.04\] And we don't have that opportunity as just an individual. So we miss out a lot of times on things that we see, which is no fun. But yeah, something like this - you could throw $500 or $1,000 into some startup. Okay, small, you're sowing little so you're gonna reap little, but still, you're gonna be a part of it, and you're gonna see the upside as that thing grows, because of your vision.
+**Jerod Santo:** \[12:08\] And we don't have that opportunity as just an individual. So we miss out a lot of times on things that we see, which is no fun. But yeah, something like this - you could throw $500 or $1,000 into some startup. Okay, small, you're sowing little so you're gonna reap little, but still, you're gonna be a part of it, and you're gonna see the upside as that thing grows, because of your vision.
 
 So I love the fact that you can get \[unintelligible 00:12:34.09\] people who'd normally have to wait for IPOs, when most of the gains have already happened. Maybe not most, but the big run-up has already happened, in order to invest in companies that they think can make it. I think that's pretty cool. I'll definitely be -- I didn't participate in the Gumroad IPO... Or not IPO... What's it called? The offering. The Republic.
 
@@ -170,7 +170,7 @@ I love the concept, and I really hope that it evolves...
 
 **Jerod Santo:** Totally.
 
-**Adam Stacoviak:** \[00:16:06.19\] ...and in that case, it might be more in line with the way of the future.
+**Adam Stacoviak:** \[16:06\] ...and in that case, it might be more in line with the way of the future.
 
 **Jerod Santo:** It's a lot like talk radio in that way... You know, you're driving in your car, you flip on and people are talking; you're half paying attention, you're half not... Maybe you catch something interesting, maybe you're just flipping stations... And you're just kind of feeling that dead air. But I feel like podcasts are such a better form of that, because you can dive into a specific niche, hear only about the thing that you care about, your low and slow... What did you call it?
 
@@ -216,7 +216,7 @@ But hey, there's different forms of audio for different people, and even differe
 
 **Jerod Santo:** Yeah. And I don't know... First of all, it's worth talking about what our goals are with that feature, and what were we trying to do... Because whenever you're like "Well, should I undo this thing?" it's because it's not fulfilling the goal, perhaps... Or the amount of investment that you're continuing to invest outweighs the value that it's providing. And of course, you give everything time... So we gave it some time. We knew it'd be kind of a slow burn. And I feel like at this point, for me mentally, overhead, it's more of a cost than a value. And I also look down the road at what even success looks like - I know we had this conversation - and I think even more so today than ever before, it seems like success will bring more pain. So what were our goals around comments? Well, of course we wanted to foster conversation... Right?
 
-**Adam Stacoviak:** \[00:20:19.13\] Sure.
+**Adam Stacoviak:** \[20:19\] Sure.
 
 **Jerod Santo:** Most of our content is not our content, so even in that case, we're pointers, in many ways. The podcast episodes, of course - those are ours, in terms of we created them... But most of the Changelog News is pointing away. So it's not that we just want people talking about our content, although that's part of it as well... But we want people to talk about -- we wanna foster a community where people converse, and discuss, and "Hey, here's the stuff we're putting in the news feed. Discuss that." I think that was the goal.
 
@@ -240,7 +240,7 @@ I almost feel -- from a code/no code/deletion of code satisfaction level, maybe 
 
 **Adam Stacoviak:** Right.
 
-**Jerod Santo:** \[00:24:02.10\] And it's kind of an uphill battle to be like "Well, please comment here." I'm like, "Well, I'm talking to you in Slack. Why would I wanna go talk to you in a comment form?" I get that. We're available, and there's a lot of discussion that happens in our Slack... Go Time specifically, GoTimeFM on the Gopher Slack is a very active channel in that Slack, about Go Time and the conversations that are had on the show, follow-up, disagreements etc. happen in that channel. Hundreds, way too many comments for me to even read.
+**Jerod Santo:** \[24:02\] And it's kind of an uphill battle to be like "Well, please comment here." I'm like, "Well, I'm talking to you in Slack. Why would I wanna go talk to you in a comment form?" I get that. We're available, and there's a lot of discussion that happens in our Slack... Go Time specifically, GoTimeFM on the Gopher Slack is a very active channel in that Slack, about Go Time and the conversations that are had on the show, follow-up, disagreements etc. happen in that channel. Hundreds, way too many comments for me to even read.
 
 **Adam Stacoviak:** 8,220 people in the GoTimeFM channel on Gopher Slack.
 
@@ -274,7 +274,7 @@ But they aren't even the "problem." It's like, regular people -- everytime I get
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[00:27:59.16\] That's inappropriate, and not professional.
+**Adam Stacoviak:** \[27:59\] That's inappropriate, and not professional.
 
 **Jerod Santo:** Yeah, so these things happen... And it's just kind of like -- there's an old saying that's like "There's two kinds of crazy..." Let me see if I can look that up. Have you heard that one?
 
@@ -318,7 +318,7 @@ So that gets me to the point where I think "Well, what is success?"
 
 **Jerod Santo:** So that's why for me success is like a small amount of high-quality, just the smart, nice, kind, additive commentary just happens on our website. I would LOVE that. And you know, 99% of our audience, and our listeners, and the people who interact with us are that - they're smart, they're kind, they're thoughtful etc. But the one percenters are still in our yard, and it's kind of like that thing where people can say ten nice things about you, and it feels like "Okay", and then one mean thing about you and it destroys your day, like where we focus on the negative... That even though these (let's just call them) low-quality comments are infrequent, it's enough that it gives me ongoing anxiety about it.
 
-**Adam Stacoviak:** \[00:31:47.13\] I understand your perspective much more now... Because you're absolutely right - the negative commentary on Twitter, you don't feel compelled to have to deal with. It may still impact you similarly, but you don't feel like you have to moderate it and deal with it. And I can say, when it does happen and we have to even enforce a code of conduct, thankfully, it's on something so simple, and not something much worse. I'm thankful for that, because that's the reason for a code of conduct, is to set that expectation and to have a place to come from when defending someone else's harassment rights, or privacy rights, or whatever it might be infringed upon... But it's a chore to have to moderate. And when I write out any of my job description here, which is - I'm the janitor at lots of different things; I'm fine, I take out the garbage, no big deal.
+**Adam Stacoviak:** \[31:47\] I understand your perspective much more now... Because you're absolutely right - the negative commentary on Twitter, you don't feel compelled to have to deal with. It may still impact you similarly, but you don't feel like you have to moderate it and deal with it. And I can say, when it does happen and we have to even enforce a code of conduct, thankfully, it's on something so simple, and not something much worse. I'm thankful for that, because that's the reason for a code of conduct, is to set that expectation and to have a place to come from when defending someone else's harassment rights, or privacy rights, or whatever it might be infringed upon... But it's a chore to have to moderate. And when I write out any of my job description here, which is - I'm the janitor at lots of different things; I'm fine, I take out the garbage, no big deal.
 
 **Jerod Santo:** \[laughs\] Right.
 
@@ -340,7 +340,7 @@ So that gets me to the point where I think "Well, what is success?"
 
 So without 230 altogether, you really couldn't have user-generated content, because everything on my website would be owned by me, and I would be on the hook for it. But 230 allows that, and yet it's problematic for -- you know, there's debates about this. I don't understand the law very well, as you can tell with the way I described it, to even know what my thoughts are on it, what's wrong with it, what could be fixed.
 
-\[00:36:11.07\] There's people that wanna get rid of 230, they wanna rewrite 230 etc. I'm sure there's lobbyists on both sides. The point is these concerns, especially around the political climate in the states, and speech laws and all that, they brought comment moderation or content moderation to the forefront of political debate.
+\[36:11\] There's people that wanna get rid of 230, they wanna rewrite 230 etc. I'm sure there's lobbyists on both sides. The point is these concerns, especially around the political climate in the states, and speech laws and all that, they brought comment moderation or content moderation to the forefront of political debate.
 
 **Adam Stacoviak:** Yeah.
 
@@ -404,7 +404,7 @@ So with 230, which - I think it was written a long time ago. It was the Telecomm
 
 **Jerod Santo:** Well, that's what's interesting, because I feel like we have less of a problem in Slack...
 
-**Adam Stacoviak:** \[00:40:01.25\] We definitely do. Less of a problem.
+**Adam Stacoviak:** \[40:01\] We definitely do. Less of a problem.
 
 **Jerod Santo:** ...because many people know that you're right there, reading this. I mean, we have had a couple of problems--
 
@@ -432,7 +432,7 @@ So that's what I've been telling people, and that usually, I think, makes sense.
 
 **Adam Stacoviak:** Yeah, exactly.
 
-**Jerod Santo:** \[00:42:56.27\] And honestly, if 230 was abolished, we would just remove comments immediately and be done with it. Like, that would be the way out. It's like, "Well, easy choice for us, because they aren't huge value." But what would Twitter do? What would these sites who have just massively user-generated... I mean, Twitter is user-generated, completely. So what would they do in those contexts? Well, that's why they have lawyers, and lobbyists, and that's why they're working on influencing on politicians in this way or that, and talking with Congress and stuff, so that they understand the situation that these huge platforms are in. I do not envy their position whatsoever.
+**Jerod Santo:** \[42:56\] And honestly, if 230 was abolished, we would just remove comments immediately and be done with it. Like, that would be the way out. It's like, "Well, easy choice for us, because they aren't huge value." But what would Twitter do? What would these sites who have just massively user-generated... I mean, Twitter is user-generated, completely. So what would they do in those contexts? Well, that's why they have lawyers, and lobbyists, and that's why they're working on influencing on politicians in this way or that, and talking with Congress and stuff, so that they understand the situation that these huge platforms are in. I do not envy their position whatsoever.
 
 **Adam Stacoviak:** No. We're never gonna hire one or many attorneys or lobbyists to speak to Congress on our behalf to have comments, or the right to do so... At least at this juncture.
 

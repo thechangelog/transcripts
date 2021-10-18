@@ -20,7 +20,7 @@ I've been using Vim for about 15 years, since 2006. I was an Emacs user before t
 
 I learned Vim not because I chose to, but by dictate. My programming teacher in college was a staunch Vim proponent and forced us to write all of our programs SSH-ed into a Linux machine using Vim. I kind of hated him for it at the time, but I definitely appreciated in retrospect. Shout-out to John Clark if he's out there listening. I remember him once saying "Pico is a totally fine editor if you're writing emails to your grandma. If you're writing code, you'd better be using Vim." So that is how I came to know Vim. Here's how Drew got started.
 
-**Drew Neil:** \[00:03:50.01\] Switching jobs... I was at a job where we all used Macs, and back then we were a Rails shop and everyone was using Textmate... And I switched to a job where it was all Linux workstations, and Textmate didn't run on Linux. So I had to pick another editor. I think the ones I was considering at the time were Emacs, Vim and Gedit, I think.
+**Drew Neil:** \[03:50\] Switching jobs... I was at a job where we all used Macs, and back then we were a Rails shop and everyone was using Textmate... And I switched to a job where it was all Linux workstations, and Textmate didn't run on Linux. So I had to pick another editor. I think the ones I was considering at the time were Emacs, Vim and Gedit, I think.
 
 It was a small company, but there were a fair few Vim users, so I thought "Well, if I start using Vim, I've got a few more people I can ask questions of..." So that was kind of what got me into Vim. And I knew -- at the time, I was aware that Vim had really good support for Rails, which was what I was mainly working with at the time, mainly thanks to TimPope, who created the rails.vim plugin way back... So in some ways, that was sort of the gateway drug to Vim. Coming from a Rails background, I think Vim was quite popular with Rails developers at the time, so it kind of felt like a natural step.
 
@@ -50,7 +50,7 @@ I've been curious and felt that it was valuable to learn properly, and I knew ot
 
 **Jerod Santo:** Suz has said something interesting there, that I heard from others as well. She said it's installed out of the box on so many Linux machines, it's just always there. That is definitely a strength, and it turns out it's one of the things that Suz loves the most about Vim.
 
-**Suz Hinton:** \[00:08:05.28\] Because of the ubiquity, you end up in the scene from Jurassic Park where it's like "This is Unix. I know this." So if you have to do something really quickly on a Raspberry Pi or something, you're just like "Oh, I know this. I can do this really quickly in Vim" and it's great. So that's the dream.
+**Suz Hinton:** \[08:05\] Because of the ubiquity, you end up in the scene from Jurassic Park where it's like "This is Unix. I know this." So if you have to do something really quickly on a Raspberry Pi or something, you're just like "Oh, I know this. I can do this really quickly in Vim" and it's great. So that's the dream.
 
 What I also like about it is that because it is on everything, it can be as simple or as customized as you like. The biggest sort of personal virtue for me about it is that I have a really bad short-term memory; I find it very difficult to hold a buffer in my head of what code I need to write next... Sometimes I have to pseudo-code things out, just so I remember the steps of what I'm doing, if it's complex.
 
@@ -66,7 +66,7 @@ Drew struggled with this concept, like most of us do, but he came up with a grea
 
 **Drew Neil:** The point where it starts to make sense really is when you accept the modal nature of Vim. And for me, I feel like the point where it started making sense was kind of where I started to see those trips into insert mode and back out again as being -- well, I draw an analogy with the way a painter works. I like to compare normal mode, which is the default mode in Vim, as being just like a painter, with the paintbrush not touching the canvas... Whereas in insert mode, it's like your paintbrush is touching the canvas. If you think of every little trip into insert mode as being like a brushstroke, then that sort of modal nature starts to really make sense.
 
-\[00:11:57.25\] A couple of things that made that make sense to me was 1) realizing the way the Undo command works. If you make a trip into insert mode, you type some text, you pop back into normal mode - that's one little undoable chunk of work... Whereas in most text editors where you're generally in something like insert mode, you can type one word, or you can type a sentence, and then you can hit the Undo key, and how much text it's going to erase is a little bit of a -- you don't quite know.
+\[11:57\] A couple of things that made that make sense to me was 1) realizing the way the Undo command works. If you make a trip into insert mode, you type some text, you pop back into normal mode - that's one little undoable chunk of work... Whereas in most text editors where you're generally in something like insert mode, you can type one word, or you can type a sentence, and then you can hit the Undo key, and how much text it's going to erase is a little bit of a -- you don't quite know.
 
 **Jerod Santo:** Yeah, it's fuzzy.
 
@@ -106,7 +106,7 @@ So having that sort of being able to think in modes just made everything feel na
 
 Another one by Tim Pope that I use a lot is Fugitive, which adds Git functionality... And I love the way that that just gets out of your way. It's there when you need it. If I wanna do a git-blame, I can pull up git-blame. I don't want to have git-blame being sort of echoed on the line that my cursor is on all the time; I find that really distracting and annoying. Yeah, I like knowing that I can get to the information in Git really easily, and Fugitive lets me do that.
 
-\[00:15:50.08\] Here's a really tiny one that I really enjoy using... It's called Exchange. You can kind of take two pieces of code and just swap them. I find that really, really useful. It's something I really miss when I don't have it. I really like sort of adding new vocabulary to Vim's grammar... So my favorite way of doing that is by adding custom text objects.
+\[15:50\] Here's a really tiny one that I really enjoy using... It's called Exchange. You can kind of take two pieces of code and just swap them. I find that really, really useful. It's something I really miss when I don't have it. I really like sort of adding new vocabulary to Vim's grammar... So my favorite way of doing that is by adding custom text objects.
 
 There's a plugin by Kana Natsuno called vim-textobj-user. That's kind of a meta plugin that's like a framework for adding more text objects. So if you go to the GitHub page for that, there's a page on the wiki where he links to lots of other custom text objects that people have added.
 
@@ -130,7 +130,7 @@ Also, in the space of adding vocabulary that fits into the grammar, I really mis
 
 And then what else do I have... A very small list. Vim-airline... And that's mostly just trying to give nice aesthetics to my code editor, so I'm excited to use it. And it's pretty functional as well. It just gives you a nice-looking status bar.
 
-I use gitgutter. Gitgutter essentially does what it says on the tin - it gives you \[00:18:38.06\] things in the gutter, next to your line numbers...
+I use gitgutter. Gitgutter essentially does what it says on the tin - it gives you \[18:38\] things in the gutter, next to your line numbers...
 
 **Jerod Santo:** Like which lines you've added, which ones you've modified...
 
@@ -150,7 +150,7 @@ I use gitgutter. Gitgutter essentially does what it says on the tin - it gives y
 
 And then at work I basically run Ale, which pokes into language engines and allows you to do things like linting within Vim, and highlighting certain lines that are wrong and having explanations as to why, and order-formatting and that kind of thing. So Vim Ale is fantastic, because it supports different languages, and it's particularly good with TypeScript... A lot of people at my job - we have a special internal documentation page on getting Vim working with all of that stuff, because VS Code is kind of like the unofficially embraced editor, and they always recommend installing Ale for that reason. So I do tend to run a heavier set of plugins at work, just because there's more complexity that I deal with in my day-to-day.
 
-**Jerod Santo:** \[00:20:16.23\] If Suz's non-work setup sound minimal to you, you might describe Gary's as barebones.
+**Jerod Santo:** \[20:16\] If Suz's non-work setup sound minimal to you, you might describe Gary's as barebones.
 
 **Gary Bernhardt:** I do use a few plugins, but I'm also firmly on the side of avoiding them as much as you can, especially as a beginner. What you don't wanna do is start with 50 Vim plugins, because then you're not learning Vim, you're learning this mass of plugins that doesn't match any other given Vim user.
 
@@ -180,7 +180,7 @@ The one plugin that I would recommend even a brand new Vim user use is some kind
 
 **Gary Bernhardt:** I used a couple of Emacs Vim minor modes in the old times, so I learned their strengths and weaknesses. I've used some kind of browser Vim thing a while back. It was, I think, before Vimium. I found it to be kind of buggy, because the browser was never designed to do that... And I've tried Vim emulations in a few graphical editors, but all of those - it took me only a couple minutes to hit a number of things that were missing... And that's because I know Vim proper so well. I want weird stuff, like -- if it doesn't have :g or whatever, I'm gonna be frustrated.
 
-\[00:24:19.16\] Now, with that said, a good Vim emulation will get you the ergonomic benefits of Vim, which I think are the most important benefits. You will have less risk to your hands and your wrists. And if you don't know Vim proper, then you can use an emulation and get those benefits and not be frustrated. But if you are an expert Vim user, you'll probably gonna miss all the things that aren't there.
+\[24:19\] Now, with that said, a good Vim emulation will get you the ergonomic benefits of Vim, which I think are the most important benefits. You will have less risk to your hands and your wrists. And if you don't know Vim proper, then you can use an emulation and get those benefits and not be frustrated. But if you are an expert Vim user, you'll probably gonna miss all the things that aren't there.
 
 And when you think about what Vim is, it makes sense that the emulations are always lacking, because Vim is about 400,000 lines of C code. I checked before we started recording... And it was written over three decades. And then there's all the Vimscript on top of that. That is a lot of code. It's not just a couple dozen normal mode commands that you can implement in a little plugin and then be done.
 
@@ -224,7 +224,7 @@ One thing that I find really charming about Vim is - in my email, I can do J and
 
 I was setting up a new Gmail account the other day and hotkeys weren't turned on, and I felt quite at sea without them. So that is one where I feel like I depend on them.
 
-**Jerod Santo:** \[00:28:00.06\] That's funny, because Julia said the exact same thing, and I'm in the exact same way...
+**Jerod Santo:** \[28:00\] That's funny, because Julia said the exact same thing, and I'm in the exact same way...
 
 **Drew Neil:** Really? \[laughs\]
 
@@ -252,7 +252,7 @@ And then the last thing I will say is that you have to admit, it kind of still h
 
 **Jerod Santo:** Vim has a lot going for it - ubiquity, a powerful grammar that builds on itself, it's hackable, there's a huge community around it, but it's not all rainbows and unicorns. I just had to ask these four - what frustrates them the most about Vim? What don't they like about it? Here's Drew.
 
-**Drew Neil:** \[00:31:45.20\] One of the things I think Vim doesn't do very well is having files that have more than one language in them; something like an HTML file with a bit of CSS and a bit of JavaScript mixed in is quite a common scenario these days. I mean, Vim does support it. You can have JavaScript syntax highlighting for the script tags inside of an HTML file, but I think the way Vim has this idea of file type plugins, this idea of -- it's very easy to create a mapping in Vim, and if you create that mapping in Vim, and if you create that mapping in a file type plugin, you can say "Okay, this mapping will only be applied to Vim if you're editing a JavaScript file", which is really neat, but it kind of forces Vim's hand a little bit... Because when I think back to TextMate, which I don't know how many people are using TextMate today, but I know that TextMate got a lot of things right... And when I think Sublime came out and when VS Code came out, they said "Okay, well we support TextMate grammars or TextMate themes" or whatever. It's a way of having a new editor just suddenly look like it's got lots of plugins already written for it.
+**Drew Neil:** \[31:45\] One of the things I think Vim doesn't do very well is having files that have more than one language in them; something like an HTML file with a bit of CSS and a bit of JavaScript mixed in is quite a common scenario these days. I mean, Vim does support it. You can have JavaScript syntax highlighting for the script tags inside of an HTML file, but I think the way Vim has this idea of file type plugins, this idea of -- it's very easy to create a mapping in Vim, and if you create that mapping in Vim, and if you create that mapping in a file type plugin, you can say "Okay, this mapping will only be applied to Vim if you're editing a JavaScript file", which is really neat, but it kind of forces Vim's hand a little bit... Because when I think back to TextMate, which I don't know how many people are using TextMate today, but I know that TextMate got a lot of things right... And when I think Sublime came out and when VS Code came out, they said "Okay, well we support TextMate grammars or TextMate themes" or whatever. It's a way of having a new editor just suddenly look like it's got lots of plugins already written for it.
 
 **Jerod Santo:** Right.
 
@@ -282,7 +282,7 @@ And then the last thing I will say is that you have to admit, it kind of still h
 
 **Gary Bernhardt:** I'm pretty good at complaining, so I'll limit myself to just one thing... \[laughter\] Vimscript. To understand Vim's relationship to its scripting language, let me contrast with Emacs. Emacs is almost like an operating system that happens to ship with an editor... And long-term Emacs users will effectively end up rewriting parts of that editor sometimes, but it's still Emacs, because the layers underneath are still Emacs. So Emacs Lisp is a whole programming language, it was designed to be a programming language... Vim is not like this at all. Vim was designed to be a text editor. It had a configuration language; that configuration language grew over time to acquire normal programming constructs, and that is what we call Vimscript... So it's a hodgepodge, and it wasn't sort of designed all at once, and I don't think it's controversial to say it's kind of a mess.
 
-\[00:36:00.00\] So that is the most frustrating part of Vim for me, and it's also one of the reasons that I avoid configuration when I can. I have a very sort of mostly stock Vim configuration, despite 15 years, and Vimscript is why.
+\[36:00\] So that is the most frustrating part of Vim for me, and it's also one of the reasons that I avoid configuration when I can. I have a very sort of mostly stock Vim configuration, despite 15 years, and Vimscript is why.
 
 **Jerod Santo:** Suz shared two frustrations, one social and one technical.
 
@@ -310,11 +310,11 @@ So some of those kind of jarring moments that happen sometimes... And I think th
 
 **Suz Hinton:** Yeah, I've recorded things for an entire half hour sometimes...
 
-**Jerod Santo:** \[00:40:02.23\] \[laughs\]
+**Jerod Santo:** \[40:02\] \[laughs\]
 
 **Suz Hinton:** So you hit Q again to toggle it off, and then you kind of go into a new buffer and you hit Play to see what you were recording... Because it's quite amusing. There are definitely times in my Twitch stream where people are like "Suz, you're recording right now", because it's just like in the corner of my little status bar... \[laughs\]
 
-**Jerod Santo:** Yeah. \[00:40:16.23\]
+**Jerod Santo:** Yeah. \[40:16\]
 
 **Suz Hinton:** But yeah, I think that Tab vs. Q thing is very common too, and it's exactly the same frustration.
 

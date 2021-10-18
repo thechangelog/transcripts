@@ -20,7 +20,7 @@ But yeah, we are gonna do that, and we thought we would start off with some soft
 
 **Brian Douglas:** I am in between -- I use Macvim as my main driver. I've been a Vim user since Thanksgiving of 2014. I took a week off and learned Vim, and I just can't really pry it away from my hands... But I also use VS Code. VS Code mainly because Vim is -- it's long in the tooth, and getting things like the TypeScript and IntelliSense stuff is more effort than I want to put in to get that to work... So I just use VS Code for that stuff.
 
-**Nick Nisi:** \[00:04:18.16\] I hear you, I hear you... You're making this really hard, because I did tweet right before this that I was gonna try really hard not to make this a Vim party... But I didn't know that you use Vim, so now it's really hard. \[laughs\]
+**Nick Nisi:** \[04:18\] I hear you, I hear you... You're making this really hard, because I did tweet right before this that I was gonna try really hard not to make this a Vim party... But I didn't know that you use Vim, so now it's really hard. \[laughs\]
 
 I do use Vim... I use Neovim for all of my development. I've used Neovim since probably 2015... But Vim straight away since 2011, probably. I'd have to go back and look at my dotfiles for the first commit, because I started that, and then I just haven't stopped. Yeah, I use that... I did go through the grueling setup. My vimrc is only like 1,200 lines, so not too bad...
 
@@ -52,7 +52,7 @@ So having that type of build environment that can live in the terminal in that w
 
 **Kevin Ball:** How did you guess...?
 
-**Nick Nisi:** \[00:08:03.04\] Yeah... For work, I have a 16-inch 2020 MacBook Pro. And that's what I do all of my work on. But now my personal machine is this M1 Mac Mini... And I have this whole setup, which we'll kind of talk about the hardware side of things a little bit more with that... But I have that all hooked up going into the Mac Mini, including all of this audio interface stuff. I don't really wanna be switching that around constantly, like if I'm taking a Zoom call, but I also don't want my Zoom calls to suffer in audio quality by just using the built-in mic, or whatever.
+**Nick Nisi:** \[08:03\] Yeah... For work, I have a 16-inch 2020 MacBook Pro. And that's what I do all of my work on. But now my personal machine is this M1 Mac Mini... And I have this whole setup, which we'll kind of talk about the hardware side of things a little bit more with that... But I have that all hooked up going into the Mac Mini, including all of this audio interface stuff. I don't really wanna be switching that around constantly, like if I'm taking a Zoom call, but I also don't want my Zoom calls to suffer in audio quality by just using the built-in mic, or whatever.
 
 So sometimes I end up working -- because I'm just using Vim and Tmux, I just happen to work from the Mac Mini SSH-ed into the other machine... And if I want to access other things, like "Oh, I wanna connect to a database" or whatever, through SSH config you can just configure port forwarding, and have all of that... So I'm trying to hit my local hosts, 5432 for Postgres, and I can just have it automatically redirect to this MacBook, and run everything from there.
 
@@ -82,7 +82,7 @@ So I've done that quite a few times for open source contributions, running tests
 
 **Nick Nisi:** \[laughs\]
 
-**Kevin Ball:** \[00:12:01.23\] I must admit I have not tried Codespaces yet, so... I may have to go do that.
+**Kevin Ball:** \[12:01\] I must admit I have not tried Codespaces yet, so... I may have to go do that.
 
 **Nick Nisi:** It works fantastic. I've mostly used it as an iPad dev environment, but I really like it for that. So let's talk about another piece... Let's talk about maybe remote collaboration, and kind of how that pertains to development. As we've been working remotely, whether we typically did or not, the last year has been kind of a remote-centric world... What are some of the tools that have helped you work remotely, or collaborate remotely with others? Codespaces could definitely be one...
 
@@ -130,7 +130,7 @@ Another piece - and we've kind of talked about it already - is terminals, and te
 
 **Brian Douglas:** Yup.
 
-**Nick Nisi:** \[00:15:59.24\] It's easy to set up, easy to configure, and looks great.
+**Nick Nisi:** \[15:59\] It's easy to set up, easy to configure, and looks great.
 
 **Kevin Ball:** Yeah, I think I've just used Terminal.
 
@@ -164,7 +164,7 @@ So for that I've been - for probably the last year - using a terminal called Kit
 
 **Brian Douglas:** I just got done copying and pasting tons of code this morning, so... Why not copy and paste your setup as well?
 
-**Break:** \[00:20:01.01\]
+**Break:** \[20:01\]
 
 **Nick Nisi:** Alright, so we've talked about some of the more development-focused things, like editors, terminals, remote collaboration... Let's talk a little bit more about personal productivity. What are some tools that you leverage to keep yourself productive, keep yourself in the know of what you need to be doing, and keep your teammates in the know of what you are doing? Kball, do you wanna go first?
 
@@ -182,7 +182,7 @@ I use that a lot for myself. I don't share it with other people, it's entirely p
 
 **Kevin Ball:** So Zettelkasten is another thing that I think is really around processing your data inputs to create data outputs... So it's like "How do I take notes about the things that I read, aggregate, process, and do that, and then create reusable concepts and blocks that I can then generate outputs with?" I've played around with that; it's something I'd like to get better at, but it is not what I use for my personal productivity at all.
 
-**Nick Nisi:** \[00:24:07.17\] So you keep everything from like notes, and do you manage a to-do list in that as well?
+**Nick Nisi:** \[24:07\] So you keep everything from like notes, and do you manage a to-do list in that as well?
 
 **Kevin Ball:** I mean, "manage a to-do list" might be a little strong for what I do. I don't have a single global to-do list that I'm keeping track of... But I do manage my priorities on a daily, weekly and monthly basis.
 
@@ -206,7 +206,7 @@ I'm working on a course about automation on GitHub, so I'm kind of over the top 
 
 **Nick Nisi:** That is awesome.
 
-**Kevin Ball:** \[00:28:12.18\] Alright, I wanna dig in right away. First off, question - are you generating posts directly from the issues then?
+**Kevin Ball:** \[28:12\] Alright, I wanna dig in right away. First off, question - are you generating posts directly from the issues then?
 
 **Brian Douglas:** Yes.
 
@@ -236,7 +236,7 @@ So if you look at that issue, or post, whichever -- if you're on bdougie.live or
 
 **Brian Douglas:** Yeah, everything's free. Actions - you do have 2,000 minutes for free on an open source public repo... So like on a cron job. Most of my Actions are usually within a minute; they'll build and run and trigger stuff... So I'd have to hit that a lot to hit the limit. So I'm doing a lot of crazy stuff with Actions.
 
-**Nick Nisi:** \[00:32:13.29\] That's 2,000 minutes a month, right?
+**Nick Nisi:** \[32:13\] That's 2,000 minutes a month, right?
 
 **Brian Douglas:** Yes. And that's across your entire profile, running all across the board. It's 3,000 for paid accounts, so it's a bit of a bump... And obviously, you contact your salesperson for more minutes. I will say though that the OneGraph stuff is all free as well, it's a free product. And everything else I do is pretty much free. I'm very cheap, and I try not to pay for things.
 
@@ -256,7 +256,7 @@ And then every morning I run through a checklist of things that I need to do as 
 
 And then another script that runs that will go and check JIRA's API, find any tasks that I'm assigned to that are not already in my system, and it will put them in there... But it will also check the ones that I have in there, and go check their status on JIRA, and if I've marked them as done in JIRA, it'll mark them as done in my to-do list. So it kind of keeps them in sync between that.
 
-\[00:36:01.09\] Then I just have this one place that I'm checking for everything, and I can work off of there throughout the day... And what I do with the JIRA tasks - a lot of times I'll just write up all of the different things that I need to do. I have some templates that I keep track of for typical dev work... It's like "Do this. Write tests. Open a pull request. Review any PR comments and then merge the pull request, and mark as Done." So those are like the typical things. For every JIRA ticket that comes in, it comes in as like a new project, and then it gets those templated items as tasks for that project... And then I can add any additional tasks that I want, like "Go fix the tests in this file" or "Make sure that you're checking the style guide on this" or whatever. And I'll add all of that in there, and then that kind of sets what I work on throughout the day. And I just use OmniFocus flags to flag things that I want to do today... So I'll build up a list of typically no more than five things that I want to do, and make sure that I try and get through all of those throughout the day... And then I'll review that at the end of the day in a shutdown routine that I have, that goes through and -- I try and leave something open, or write a couple of tasks that will help me get going the next day, or make sure that they're flagged, so that I know exactly where to start...
+\[36:01\] Then I just have this one place that I'm checking for everything, and I can work off of there throughout the day... And what I do with the JIRA tasks - a lot of times I'll just write up all of the different things that I need to do. I have some templates that I keep track of for typical dev work... It's like "Do this. Write tests. Open a pull request. Review any PR comments and then merge the pull request, and mark as Done." So those are like the typical things. For every JIRA ticket that comes in, it comes in as like a new project, and then it gets those templated items as tasks for that project... And then I can add any additional tasks that I want, like "Go fix the tests in this file" or "Make sure that you're checking the style guide on this" or whatever. And I'll add all of that in there, and then that kind of sets what I work on throughout the day. And I just use OmniFocus flags to flag things that I want to do today... So I'll build up a list of typically no more than five things that I want to do, and make sure that I try and get through all of those throughout the day... And then I'll review that at the end of the day in a shutdown routine that I have, that goes through and -- I try and leave something open, or write a couple of tasks that will help me get going the next day, or make sure that they're flagged, so that I know exactly where to start...
 
 I try and use all of that, and it's really cool, because it's kind of automated, and pushing and pulling from GitHub and JIRA, but it's all coming to a single inbox for me to review.
 
@@ -284,7 +284,7 @@ I try and use all of that, and it's really cool, because it's kind of automated,
 
 **Kevin Ball:** No...!
 
-**Break:** \[00:38:42.22\]
+**Break:** \[38:42\]
 
 **Nick Nisi:** Alright, so we've talked about software that we use for development, we've talked about productivity software... Now let's talk about some hardware that we use. What do we actually look at touch/feel through the day to get our jobs done? What are the tangible pieces? Because that's very important when we work on all of this intangible stuff. Let's start with monitors. What is your ideal monitor setup, and is it what you currently have?
 
@@ -306,7 +306,7 @@ I try and use all of that, and it's really cool, because it's kind of automated,
 
 **Nick Nisi:** Oh, cool. Yeah, that kind of brings in a question I was gonna ask you, as someone who is much more prolific on Twitch than I am, how you work with an ultra-wide monitor on Twitch, since it's not very well-suited for that?
 
-**Brian Douglas:** \[00:44:02.16\] Yeah, I mean -- this might go deeper in the hardware conversation too, as well. So I have a Windows, because I've found livestreaming from just a Mac and running code -- so if I do anything Docker or anything, Twitch streaming is just not gonna work, because there's not enough power, and there's no real video card... So I have a Windows PC which I play games on, but I also stream to Twitch with, and then I take those HD60 Elgato capture cards and I plug my MacBook into there, HD, so that way inside of my OBS software, which is - we're going further down the rabbit hole, but... I use OBS to stream to Twitch; I can actually have a window which is just my Mac laptop, so I'm basically piping my Mac laptop into my PC, and then up to Twitch, so then that way nothing degrades, and I can do 1080p streams.
+**Brian Douglas:** \[44:02\] Yeah, I mean -- this might go deeper in the hardware conversation too, as well. So I have a Windows, because I've found livestreaming from just a Mac and running code -- so if I do anything Docker or anything, Twitch streaming is just not gonna work, because there's not enough power, and there's no real video card... So I have a Windows PC which I play games on, but I also stream to Twitch with, and then I take those HD60 Elgato capture cards and I plug my MacBook into there, HD, so that way inside of my OBS software, which is - we're going further down the rabbit hole, but... I use OBS to stream to Twitch; I can actually have a window which is just my Mac laptop, so I'm basically piping my Mac laptop into my PC, and then up to Twitch, so then that way nothing degrades, and I can do 1080p streams.
 
 **Nick Nisi:** So then are you physically working on the Mac?
 
@@ -358,7 +358,7 @@ I try and use all of that, and it's really cool, because it's kind of automated,
 
 Right behind me I have a Keychron K3, that I got a month or two ago, thinking I would try and use that a little bit more... And I cannot get used to it. I've tried so hard, but I just feel so clumsy with it all the time. I know I just need to invest more time, but this just feels so good. So this is what I use.
 
-**Brian Douglas:** \[00:47:41.28\] I use a $49 mechanical keyboard from Amazon called Magicforce. It comes in three different flavors - brows, red cherry, red and then the blue switches. Blues are the most clickity clackity. I've got two of them - I've got the blue, and then I've got the... Actually what is this -- the cherry red. And I like it, because I'm not really that into keyboards, but I like the feel of a mechanical keyboard, and I was Apple keyboard -- I had to do that, because that's how I write code; I just like the feel, the touch. But then when they changed the keyboard on the Macs... What was it, like 2015, 2016? Everything was different, so then I'd have the actual external keyboard, and that was fine, but whenever I leveraged my laptop, I was like "What's the point?"
+**Brian Douglas:** \[47:41\] I use a $49 mechanical keyboard from Amazon called Magicforce. It comes in three different flavors - brows, red cherry, red and then the blue switches. Blues are the most clickity clackity. I've got two of them - I've got the blue, and then I've got the... Actually what is this -- the cherry red. And I like it, because I'm not really that into keyboards, but I like the feel of a mechanical keyboard, and I was Apple keyboard -- I had to do that, because that's how I write code; I just like the feel, the touch. But then when they changed the keyboard on the Macs... What was it, like 2015, 2016? Everything was different, so then I'd have the actual external keyboard, and that was fine, but whenever I leveraged my laptop, I was like "What's the point?"
 
 So my co-worker -- actually, the CTO of Netlify, I sat with him, and he was like the whole separate keyboard person, so I just asked a lot of questions, and I was like "I'm actually gonna try this one out." And I enjoyed it enough that I bought two - one for traveling and one for at home.
 
@@ -390,7 +390,7 @@ I went on vacation, we went in the car, and I took a single 50-pound kettlebell 
 
 **Brian Douglas:** I've mentioned earlier I'm cheap, but I did splurge last year on a new camera. It's a combo - it's the camera and the lends, and I think the lens is really what makes the shot that I have right now. If anybody's seen me stream, or been on a Zoom call with me, you understand the \[unintelligible 00:51:45.02\] that you're getting right now in the pizza... But it's a Canon EOS M200. The M200 is basically the same thing as the Sony A5 or A6 series. I think the Sony ones get recommended much more, and the reason for that I think is because you could plug in a USB and it would power from your laptop or computer.
 
-\[00:52:07.01\] The Canon - you do have to have a dummy battery. I'm not a Canon fan, but my wife already had a Canon camera, so it just made sense to get the Canon instead of the Sony, at least memory cards transfer, and stuff like that.
+\[52:07\] The Canon - you do have to have a dummy battery. I'm not a Canon fan, but my wife already had a Canon camera, so it just made sense to get the Canon instead of the Sony, at least memory cards transfer, and stuff like that.
 
 But the thing that really makes it is a Sigma 16mm lens. It's a lens that -- you can't see it in the podcast, but it's about maybe 4-5 inches long, and it actually gives you that sort of... Far enough from enough from your face, but it's big enough to actually give you that \[unintelligible 00:52:32.01\] YouTube-esque feel as you're doing Zoom calls.
 

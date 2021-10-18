@@ -18,7 +18,7 @@
 
 **Daniel Whitenack:** Yeah, yeah. Well, I'm pretty excited today about our conversation, Chris. We've had a number of people come on the show and mention various opinions, or ideas about opening up datasets, so open data...
 
-**Chris Benson:** \[00:04:04.10\] Yup.
+**Chris Benson:** \[04:04\] Yup.
 
 **Daniel Whitenack:** ...whether that be image data, or speech data... We had a conversation with Mozilla Common Voice about that data... But generally, a lot of times when we get into these conversations it's more from the perspective of consuming that data for some purpose; not from the perspective of people that have actually worked to open up data... So I'm really excited today that we have a couple of people from Unsplash with us.
 
@@ -56,7 +56,7 @@ I've been working there for 4-5 years now, and I'm working as a data engineer, e
 
 **Daniel Whitenack:** Well, I think we're all learning, and it sounds like from what you're already doing you probably have a good bit of knowledge in a lot of areas, so that's great. I'm curious - you mentioned a bit about how Unsplash came about and this dataset came about... Could you give us a little bit of history of just where this data originated and the nature of it? What's included in your data, and why does it exist in the first place?
 
-**Luke Chesser:** \[00:08:02.12\] Yeah, so going back to the fundamentals, the data exists because Unsplash is this repository of images that are contributed by a community of photographers all over the world, and they open up their images and say "Hey, anyone can use these images for whatever they wanna use them for." And traditionally, that's been "Okay, I'm gonna download these images and I'm going to use them in a creative project. I'm going to make a graphic, I'm gonna use them in an article..." But there's so much more to images than just what they look like, and with two million images now in this community, we've been talking about for a while the idea of opening that up to AI researchers, or really just anybody who wants to use it in a different way.
+**Luke Chesser:** \[08:02\] Yeah, so going back to the fundamentals, the data exists because Unsplash is this repository of images that are contributed by a community of photographers all over the world, and they open up their images and say "Hey, anyone can use these images for whatever they wanna use them for." And traditionally, that's been "Okay, I'm gonna download these images and I'm going to use them in a creative project. I'm going to make a graphic, I'm gonna use them in an article..." But there's so much more to images than just what they look like, and with two million images now in this community, we've been talking about for a while the idea of opening that up to AI researchers, or really just anybody who wants to use it in a different way.
 
 We've had this API traditionally where developers can come in and pull in images for different applications; so we power Medium's images, we power Google's, we power BuzzFeed... A whole bunch of different companies use the images via the API. But the API wasn't set up to be used for the kinds of data-intensive projects where you need to pull in a lot of information.
 
@@ -76,7 +76,7 @@ We're also including search conversion data. That could be very interesting, I t
 
 **Luke Chesser:** Yeah, so the dataset isn't open-sourced, isn't released in any way to be this commercial product. There is a potential for it to have a commercial business behind it, in the sense that right now it's under a license where -- we've released two datasets. The smaller dataset is able to be used for commercial and non-commercial uses. The bigger dataset is more restricted in terms of commercial uses.
 
-\[00:12:16.19\] So there's a possibility that it could eventually commercialize in that way. We're not necessarily banking on that, or that's not the reason why we're doing it.
+\[12:16\] So there's a possibility that it could eventually commercialize in that way. We're not necessarily banking on that, or that's not the reason why we're doing it.
 
 **Chris Benson:** Sure.
 
@@ -98,13 +98,13 @@ Traditionally, in terms of the history of Unsplash, we have always started with 
 
 **Luke Chesser:** As far as I'm aware, I think if this ever has any commercial benefit, that'd be great. But at the same time, I think our primary motivation is "Let's see what gets out there, let's see what gets used..." And there's a reinforcement idea of -- you know, if a lot of different researchers are using Unsplash images, it reinforces the idea that Unsplash is the place for images, it's the place where you get images, and it's one more benefit to our contributors who open up their images, where they can say "Hey, I contributed to these models that help self-driving cars" etc. I have no idea how it's gonna be used, but they can say "There's one more benefit of me opening up my work and making it available to people."
 
-**Break:** \[00:15:06.14\]
+**Break:** \[15:06\]
 
 **Daniel Whitenack:** Alright, so I'm kind of interested -- maybe we can kick it over to Tim... I'm kind of interested in just some general stats in terms of the dataset size and the types of images that are included, and also maybe how is that growing? You mention a lot about people uploading their images... What's the trajectory of that, and what's being added most, and some of those sorts of stats?
 
 **Timothy Carbone:** Yeah, so the dataset -- I think the light dataset is about 5 GB, and the full-size dataset is more about 20-25 GB, something like that.
 
-**Daniel Whitenack:** \[00:15:59.24\] And that's the metadata about it, not the images themselves...?
+**Daniel Whitenack:** \[15:59\] And that's the metadata about it, not the images themselves...?
 
 **Timothy Carbone:** Exactly, yeah. That's just the metadata. So we have about 1.3 million photos right now, and you mentioned which kind of photos are included... So at Unsplash we have a manual curation process for every single photo that comes in. The photo can end up in different buckets. So you'd have photos that are featured, you'd have photos that are approved, because they've just matched/fit the guidelines. So that distinction is also presented in the dataset as metadata.
 
@@ -128,7 +128,7 @@ A couple of days after the release we started getting some feedback, and we've p
 
 So we have no idea really how people are gonna use this and what fields are gonna be valuable. But get it out there, get some feedback on it, see what people are using, and then if in the future we have that opportunity to make it a two-way process, we'd love to do that.
 
-**Chris Benson:** \[00:20:04.07\] Just now, at the point where this is released, you have thousands of listeners who just heard that, so we should consider that to be a call-to-action... To take advantage of the dataset, but also contribute back there.
+**Chris Benson:** \[20:04\] Just now, at the point where this is released, you have thousands of listeners who just heard that, so we should consider that to be a call-to-action... To take advantage of the dataset, but also contribute back there.
 
 **Luke Chesser:** Perfect.
 
@@ -158,7 +158,7 @@ And then you've got more serious uses of it... There's some researches out of Co
 
 **Luke Chesser:** Yeah, and I think what was cool about those datasets is -- you know, people have done already with Flickr datasets and 500px, but what's different about the dataset with Unsplash is people aren't going and bulk-uploading every photo that they take, which can skew the dataset in a certain way... You know, if I go and I upload every photo of my family to Flickr, that skews the dataset towards whatever I have... But with Unsplash it's this different thing, which is kind of "What are the best photos being taken with?" Is the mobile industry/mobile photography -- how much is that impacting professional or high-end photographers? And we're seeing different results when you analyze it with Unsplash, versus a different story that you would get with Flickr, where the iPhone and Android smartphones are completely dominating the camera industry.
 
-**Daniel Whitenack:** \[00:24:08.27\] Yeah, it's interesting to me... On that front, a lot of image datasets that you can download in typical AI tutorials, initial computer vision work, and that sort of thing - they're actually fairly low-resolution... So we're talking like maybe 227 pixels, or something like that. It sounds like the dataset from Unsplash is definitely that sort of higher quality in terms of the actual photographs, but then also scrutinized according to people not just uploading everything, but there's a curation process, there's photos coming in that are validated... Could you speak a little bit to that, in terms of the properties -- generally speaking, the properties of the photos in terms of resolution, and also just the scrutiny that people give in terms of what they upload, and the thought that goes behind that.
+**Daniel Whitenack:** \[24:08\] Yeah, it's interesting to me... On that front, a lot of image datasets that you can download in typical AI tutorials, initial computer vision work, and that sort of thing - they're actually fairly low-resolution... So we're talking like maybe 227 pixels, or something like that. It sounds like the dataset from Unsplash is definitely that sort of higher quality in terms of the actual photographs, but then also scrutinized according to people not just uploading everything, but there's a curation process, there's photos coming in that are validated... Could you speak a little bit to that, in terms of the properties -- generally speaking, the properties of the photos in terms of resolution, and also just the scrutiny that people give in terms of what they upload, and the thought that goes behind that.
 
 **Luke Chesser:** Yeah, so I think that's the central -- if we're gonna start, what is the major difference between Unsplash's dataset and some of those other ones which exist out there... Because obviously, there's a ton of image datasets that already exist, and some of them have more photos in them than Unsplash.
 
@@ -168,13 +168,13 @@ Then, as Tim hinted at before, we use a curation process where a human actually 
 
 **Chris Benson:** You know, it occurs to me that you're almost creating a niche market, in that you started Unsplash for the purpose of offering creative assets out there, that are very high-quality. And maybe initial users were Creatives who were looking for those amazing photos to include in their websites, or whatever it is they're working on... But now that you're making this available for ML and you've developed a community around the ML use cases, it might push the creative side as well, in that you now have the potential of saying -- if you move into AI-based curation and stuff, with this somewhat unique dataset as you just were discussing, that high-end/high-quality imagery, then you could actually curate from a website level, for instance, that wants to refresh constantly, to where every time you're there, you're getting new things and you could have a model that's trained to pick out certain types of images and download those directly for there, so that you can have refreshed creative. It may be a human that starts it off, but then you have ML driving a user experience that's ever-refreshing... Which is a really interesting idea to me. Instead of just randomly picking something, you can have something that is curated at that level, for a really nice website.
 
-**Luke Chesser:** \[00:28:02.16\] Yeah, absolutely. Chris, you've gotta come join our product team. \[laughter\] Two of our ideas right away on this podcast... You're quicker than us; it took us months to get there.
+**Luke Chesser:** \[28:02\] Yeah, absolutely. Chris, you've gotta come join our product team. \[laughter\] Two of our ideas right away on this podcast... You're quicker than us; it took us months to get there.
 
 **Chris Benson:** \[laughs\]
 
 **Luke Chesser:** Yeah, we've got a review team who would love for us to be able to make their jobs a bit easier and do some stuff like that, for sure. I think that's in the future for us, for sure.
 
-**Break:** \[00:28:24.06\]
+**Break:** \[28:24\]
 
 **Daniel Whitenack:** So because this is Practical AI, and as Chris knows, I'm always probably prone to jumping into details... Because I'm thinking there may be other people listening to this that are at companies that have sort of a wealth of data... And I'm even thinking at SIL, we have so much data in our archives that's so valuable for so many reasons... But it's definitely not available in this way, and the access patterns are not similar to what you're saying.
 
@@ -192,7 +192,7 @@ The dataset has that potential, where people could go out and potentially spam i
 
 In terms of how we got it through, in terms of how do you convince people inside your company to open up data, I think we're lucky in a lot of ways, in that as I was saying, we're a very small company, so it really is a conversation where me and Tim are like "Wouldn't that be cool?" "Yeah, let's do it" kind of thing.
 
-\[00:31:58.17\] I get that in other companies it's a lot harder, but we do deal with that from an image standpoint as we work with a lot of institutions who want to make their archives open and accessible. And getting that through the higher levels is hard; people wanna hoard on to data in whatever form it is, and I think we're making progress as a society towards this idea that openness can have second or third-order effects that are harder to project and put right in the bottom line right there... But they can have this greater effect on your goodwill, on your community, on a whole bunch of different things about your organization... And we're getting there. There's a lot of people that wanna lock it down and hoard stuff, but I've yet to see -- you know, people always talk about the advantages of data and how they're building a data advantage over people. I think for a lot of companies there isn't really actually a data advantage. You can hoard on to that data, but there's not a ton of value, at least commercially, in that data... So opening it up to other people can have a second or a third-order effect on your business, and so they should consider it.
+\[31:58\] I get that in other companies it's a lot harder, but we do deal with that from an image standpoint as we work with a lot of institutions who want to make their archives open and accessible. And getting that through the higher levels is hard; people wanna hoard on to data in whatever form it is, and I think we're making progress as a society towards this idea that openness can have second or third-order effects that are harder to project and put right in the bottom line right there... But they can have this greater effect on your goodwill, on your community, on a whole bunch of different things about your organization... And we're getting there. There's a lot of people that wanna lock it down and hoard stuff, but I've yet to see -- you know, people always talk about the advantages of data and how they're building a data advantage over people. I think for a lot of companies there isn't really actually a data advantage. You can hoard on to that data, but there's not a ton of value, at least commercially, in that data... So opening it up to other people can have a second or a third-order effect on your business, and so they should consider it.
 
 **Chris Benson:** I was just gonna say -- and it's not a question, just a comment on what you just said... Working in a large industry, for a large companies, as I do, I'm seeing companies like yours, with the cultures that you're just now talking about, having that impact in larger companies. And companies that have typically been very large and very closed are looking at what kinds of work companies like yours are doing, and they're starting to make those changes. Not only in industry, but also in government, actually. So you are collectively having the impact that you're striving for, I just wanted to note that.
 
@@ -204,7 +204,7 @@ In terms of how we got it through, in terms of how do you convince people inside
 
 We currently have the infrastructure that allows us to basically power thousands of integrations on the internet, so we might as well leverage that, for people to download every single photo through the link in the CSV. So I think that was the main thought process.
 
-\[00:35:55.19\] Regarding versioning, I think that's also kind of a way to stay flexible. So if you add the image to your archive, then it's kind of like frozen in time and you have that thing. If you have a link, then it's much easier to say -- I don't know, maybe today you're restricting a certain amount of pixels, and to more, you don't wanna do that anymore. You have that flexibility. And we can find that flexibility all across the dataset.
+\[35:55\] Regarding versioning, I think that's also kind of a way to stay flexible. So if you add the image to your archive, then it's kind of like frozen in time and you have that thing. If you have a link, then it's much easier to say -- I don't know, maybe today you're restricting a certain amount of pixels, and to more, you don't wanna do that anymore. You have that flexibility. And we can find that flexibility all across the dataset.
 
 I've mentioned that we want to keep adding more info, adding more things, and that's why versioning is essential. It's super-essential if we have that feedback loop model, where we have new contributions coming in; we need to have some kind of versioning in place... So yeah, that's the thought process. Kind of like always staying the most flexible we can. Yeah, that's the idea.
 
@@ -222,7 +222,7 @@ So if you have any suggestion, any feedback, you can just go on the GitHub repo 
 
 **Luke Chesser:** The one that I'm really excited about, or the data that I think is really unique, again, with this dataset -- I think the data that we have in there is a good start; we still have some ideas for where we want it to go... Specifically, the data around search conversions and the collections I think is really unique. There are datasets, again, out there that do this, but at the volume that we're gonna get to, especially in the second or third releases of the dataset, I think it starts to become really a unique dataset there. And what's cool about it is people search on Unsplash for very abstract things.
 
-\[00:40:04.09\] When you look at the types of images that are on Unsplash and what they're downloaded and used for - it's not "Find me the dog photo", "Find me the photo of the cup, or the coffee cup in this image." It's very abstract stuff, like love, or happiness, or depression... A whole bunch of things which are harder, I think, at the current stage at least, for vision models to really understand and quantify...
+\[40:04\] When you look at the types of images that are on Unsplash and what they're downloaded and used for - it's not "Find me the dog photo", "Find me the photo of the cup, or the coffee cup in this image." It's very abstract stuff, like love, or happiness, or depression... A whole bunch of things which are harder, I think, at the current stage at least, for vision models to really understand and quantify...
 
 But we're getting this real-time feedback of millions of people going on Unsplash and searching these things, scouring all the different photos, collecting them into these different collections, in different groupings, and then interacting with them in different ways... And we've exposed that data in kind of a v1 version, but we have a lot more internal data that we want to expose around that. I think if we can expose that in the right ways - and again, I'm no machine learning expert, so I have no idea... But my hope is that that can start to improve the models that are out there around understanding that. That would be a huge win, I think... Because we experienced that ourselves; when we upload images to Unsplash, the quality of the tagging for them is quite limited, in terms of it can recognize what's in the images, but can't represent "What does this image actually mean?" So if we can help improve the industry there...
 

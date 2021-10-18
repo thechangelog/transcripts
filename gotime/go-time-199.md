@@ -12,7 +12,7 @@
 
 **Angelica Hill:** Secondly, we have Tobias Theel, also known as the "Always Developing Princess." I feel like we need to talk about that a bit more. He's a lead developer for the fintech Fino and the regtech ClariLab. He has 15 years expertise, including \[unintelligible 00:04:12.13\] building digital solutions to automate KYC processes, and he is an extremely enthusiastic open source maintainer, contributor to several different projects, as well as being the author of "TinyGo: Creative DIY Microcontroller Projects with TinyGo and Web Assembly."
 
-**Tobias Theel:** \[00:04:33.09\] Hello. I'm really happy to be here.
+**Tobias Theel:** \[04:33\] Hello. I'm really happy to be here.
 
 **Angelica Hill:** Glad to have you. We'll hear more about your book during this episode, I'm sure. And then finally, last but certainly not least, we have Ron Evans a.k.a. DeadProgram, who's an award-winning software developer and expert in robotics, IoT and computer vision, who's very active in the free and the open source community, as well as being a technologist for hire at the Hybrid Group. He's helped many clients such as AT&T, Intel and Northvolt, so some of the most difficult technical and business problems. Very excited to have you and your little friend with us today.
 
@@ -44,7 +44,7 @@ Right from the beginning, I was that person who just discovered the existence of
 
 **Vladimir Vivien:** Yeah, so as a dayjob I do what I consider to be, you know -- well, it pays the bills, but it's something I could do in my sleep... So I started to look into what else I can do with Go. I've told the story last time we talked... Of course, it was pandemic-driven, when we had a hard time getting cameras for a webcam, and I started to search to see if there's any way I could build my own... So I started looking into the Raspberry Pi that had just come out, with the HQ camera...
 
-\[00:08:26.00\] And there was some stuff out there that shows you how to do it, and it's multiple steps, and of course, you have to build -- you needed a C toolchain to build the binary etc. But that got me thinking, "Hey, can't this be done with Go?" And it turned out that yes, you can. And it got me thinking what else programming hardware you can do with Go... Because what I've found out is that Go actually puts you closer to the operating system that - if you're just using Go for web or cloud-native, you don't realize how close you are to the operating system, and what sort of system programming you can do... And doing that work, I started a small project to basically do, if not every -- probably it's not gonna be every part of the \[unintelligible 00:09:16.15\] that allows you to stream video from using what we call the Video for Linux API, but at least a good chunk of it where you can build something useful using Go... Because I seriously think, when it comes to hardware and low-level programming, Go is grossly under-utilized... So we'll see.
+\[08:26\] And there was some stuff out there that shows you how to do it, and it's multiple steps, and of course, you have to build -- you needed a C toolchain to build the binary etc. But that got me thinking, "Hey, can't this be done with Go?" And it turned out that yes, you can. And it got me thinking what else programming hardware you can do with Go... Because what I've found out is that Go actually puts you closer to the operating system that - if you're just using Go for web or cloud-native, you don't realize how close you are to the operating system, and what sort of system programming you can do... And doing that work, I started a small project to basically do, if not every -- probably it's not gonna be every part of the \[unintelligible 00:09:16.15\] that allows you to stream video from using what we call the Video for Linux API, but at least a good chunk of it where you can build something useful using Go... Because I seriously think, when it comes to hardware and low-level programming, Go is grossly under-utilized... So we'll see.
 
 **Angelica Hill:** So when working on that project, were you kind of forcing Go and TinyGo onto the project, or do you feel like it truly was the right fit for that kind of project?
 
@@ -54,7 +54,7 @@ But the project is not necessarily TinyGo-specific, but it can be. As long as yo
 
 **Ron Evans:** I feel like jumping in, just because, Vladimir, what you're doing is really cool... And interestingly, long before TinyGo existed, before -- actually, a couple of times ago when I was on Go Time, I had mentioned one of the first applications of Go running on embedded Linux were video systems. When we first came out with GoBot a few years back, people started popping out of the woodwork saying "Oh, we're running Go on an embedded system for some type of video surveillance system, or video monitoring system", and I was like, "Okay, great. Open-source it!" "Oh no, we can't do that. This is all proprietary." But it's really cool that you've been working on this... I think that's a really killer application for Go, is \[unintelligible 00:12:08.16\] video.
 
-**Vladimir Vivien:** \[00:12:11.07\] Absolutely.
+**Vladimir Vivien:** \[12:11\] Absolutely.
 
 **Ron Evans:** ...whether it's using Video4Linux, which is a very powerful subsystem... GoCV, which is another project that I've been really involved in, which is using Go as a wrapper around OpenCV... It's actually a project that's quite popular among industrial and commercial computer vision companies. We have a lot of users in China who are working on commercial systems that are deployed in production today using these things.
 
@@ -80,7 +80,7 @@ So there's a suite of tools that comes with the Video for Linux call. The Video 
 
 **Tobias Theel:** Well, I guess the most fun project, and maybe also the most interesting one I've worked at or working on is a thing I also presented the last time on Go Bridge. It's myself trying to build my own smart home systems. I don't want to use some "Okay, Google" stuff, I don't want to use Alexa, or Siri, or whatever is out there in the world. I want to have my own smart hub. I have some microcontrollers from Arduino, the so-called Arduino Nano 33 IoT, which is capable of Wi-Fi communication... So I use lots of these to control, for example, an LED strip, or... I currently have one near my coffee machine to activate a power adaptor, which activates the coffee machine, so I don't have to get up from bed to brew a coffee, which is really important for me...
 
-**Ron Evans:** \[00:16:26.15\] Okay, I need one of those. I need one of those. \[laughter\]
+**Ron Evans:** \[16:26\] Okay, I need one of those. I need one of those. \[laughter\]
 
 **Tobias Theel:** I'm also building a WASM application, also using TinyGo, where I can observe all my little microcontrollers around my home, and also control them. So if I want a coffee, now I can just grab my smartphone, open up my WASM application, which currently runs on a Raspberry Pi as a server on my local network... And I just say "Okay, activate", and I can hear the coffee machine starting to brew a coffee for me, which is really, really nice, because I'm lazy.
 
@@ -118,7 +118,7 @@ So there's a suite of tools that comes with the Video for Linux call. The Video 
 
 **Ron Evans:** Yeah, with the -- I think it was three years ago, GopherCon.. We had a fantastic community hardware hack day... Well, actually, we ran the community hardware hack day every physical GopherCon, starting at the first one, when that wasn't even an official thing. It was just a community day... And I brought a bunch of flight cases full of equipment, because I had to leave directly from Denver to fly to Berlin, to do a conference there. Then also to Scotland... It was like this whole European tour. I just had a bunch of flight cases full of equipment. So I just popped the cases open, took a bunch of stuff out, on the honor system, like a library - you know, just "Play with it. Bring it back." That was the first unofficial community hardware hack day, and then that just became an actual official event.
 
-\[00:20:26.04\] And the last one, it was so big that we actually needed an overflow room. It was really cute, the organizers were running around, "These fire marshals are gonna kick us out! You've got too many people!" "Oh... I guess we're sorry..."
+\[20:26\] And the last one, it was so big that we actually needed an overflow room. It was really cute, the organizers were running around, "These fire marshals are gonna kick us out! You've got too many people!" "Oh... I guess we're sorry..."
 
 But one of the reasons it was so successful was Arduino - fantastic company, in so many different regards... They're pioneers of open source hardware in terms of popularity. There may have been open source hardware before that, but really, Massimo Banzi and the whole crew over there - they really took and made it possible for not just programmer, but artists and creative people to create interactive installations. Really, that was a big part of their rationale and motivation; it wasn't "Hey, let's do cool hardware hacking, to be cool." But it was more -- so here's another unpopular opinion... What we do with technology is much more important than the technology itself. \[laughter\]
 
@@ -138,11 +138,11 @@ So one of the reasons why they're such great support is -- well, first of all, w
 
 So combining those together - it really spread out a lot. Especially the Wi-Fi capabilities - that's a really important thing. I mean, it's internet of things - without internet, they're just things... Which - things are cool. I like things. But you need wireless things. So yeah, the Wi-Fi is really important. Even though the boards are named the same, the two boards that Tobias was mentioning are actually based on completely different processors. The Nano 33 IoT board is based on the microchip SAM D31, which is a very inexpensive but powerful chip that's used in a lot of boards. A lot of the boards from Adafruit, a lot of the boards from SparkFun, several different boards from Arduino, a lot of other manufacturers as well... So - a very cool little chip.
 
-\[00:24:12.00\] But then the other chip that they have in their other -- the Nano IoT BLE, that's actually a Nordic Semiconductor chip, the nRF52840. So that's a really common Bluetooth chip. A lot of the Bluetooth dongles that you might buy for a USB port for a long time have been based on Nordic Semiconductor chips, or chips that license their stack... So - unfortunately, they're two different stacks of hardware, and they're not really compatible with each other. So if you have one chip, you can use Bluetooth; if you have the other chip... It actually does not have Wi-Fi built in. It's actually using what I think Tobias had mentioned, another chip - kind of a co-processor - for Wi-Fi, which is actually an ESP32, which Vladimir I think had mentioned, is wanting to have the support for. So that's a very common co-processor for Wi-Fi that's bundled on a lot of the boards... Which sort of makes sense as a pattern for hardware that you see... Similar to your notebook computer has many different processors in it. It's got a small microcontroller that does nothing more than deal with the keyboard, for example. And so on.
+\[24:12\] But then the other chip that they have in their other -- the Nano IoT BLE, that's actually a Nordic Semiconductor chip, the nRF52840. So that's a really common Bluetooth chip. A lot of the Bluetooth dongles that you might buy for a USB port for a long time have been based on Nordic Semiconductor chips, or chips that license their stack... So - unfortunately, they're two different stacks of hardware, and they're not really compatible with each other. So if you have one chip, you can use Bluetooth; if you have the other chip... It actually does not have Wi-Fi built in. It's actually using what I think Tobias had mentioned, another chip - kind of a co-processor - for Wi-Fi, which is actually an ESP32, which Vladimir I think had mentioned, is wanting to have the support for. So that's a very common co-processor for Wi-Fi that's bundled on a lot of the boards... Which sort of makes sense as a pattern for hardware that you see... Similar to your notebook computer has many different processors in it. It's got a small microcontroller that does nothing more than deal with the keyboard, for example. And so on.
 
 So combining these different chips together and creating a system out of them - that's really what the hardware is about; it's about combining these interfaces, and there's some standards that already exist for doing that. So kind of our overall story arc of TinyGo is the more of these standardized interfaces that we support, the more that we make it possible to do really anything that you can do with any C program, being able to do that with a Go program... Except, of course, it's memory-safe, you have all the cool tooling, you've got the concurrency... There's a lot of great things.
 
-**Break:** \[00:26:11.19\]
+**Break:** \[26:11\]
 
 **Natalie Pistunovich:** So I have a question... You've been mentioning very specific, detailed chips, and as somebody who once worked in hardware, I barely remember any of that, and I definitely don't know those ones... But if I want to try now Go for something with hardware, what are some known limitations I can expect? What should be easy for me to implement quickly, and what should I realistically say "Not yet with Go"?
 
@@ -160,7 +160,7 @@ And they've done such a great job of supporting that language, and actually payi
 
 Same true with Arduino, to a lesser extent, only because the chips that all the original Arduinos that were based on the Arduino Uno, for example - that uses an 8-bit microcontrollers, that has in many cases somewhere between 16k and 64k of memory. You can run TinyGo on that, absolutely. In fact, that's even larger than the smallest known target for TinyGo, which is an ATtiny85 chip, which is used in a little board called the DigiSpark. First of all, it's got Tiny in the name, so that means automatically we have to make it work... \[laughter\] I don't make the rules, but it's an 8-bit processor with only 8k of RAM. And you can do more than just blink an LED. You can control a whole WS2812 strip of RGB LEDs, and do other neat things. So it's incredible what you can do with 8k of RAM. Don't you feel bad now about these giant programs you've written? I mean, I do... I think like "Yeah, this program is really small. It's only 5 MB." I'm like, "Oh... Only 5 MB."
 
-\[00:32:10.16\] If you don't have a brand new, shiny, cool microcontroller, you should go to your drawer of stuff that you've been meaning to play with for a few years, and just riffle around in there, find one of these boards, and if it doesn't work, we will try our hardest to make it work.
+\[32:10\] If you don't have a brand new, shiny, cool microcontroller, you should go to your drawer of stuff that you've been meaning to play with for a few years, and just riffle around in there, find one of these boards, and if it doesn't work, we will try our hardest to make it work.
 
 **Vladimir Vivien:** So the question I had, quickly - how would you compare Circuit Python and TinyGo?
 
@@ -176,7 +176,7 @@ But it has also some drawbacks... And there was a really great talk -- I'm tryin
 
 **Vladimir Vivien:** \[laughs\] Yes, it would be.
 
-**Natalie Pistunovich:** \[00:35:57.21\] Tobias, I noticed you were laughing when Vladimir asked the question. What is your opinion about the comparison?
+**Natalie Pistunovich:** \[35:57\] Tobias, I noticed you were laughing when Vladimir asked the question. What is your opinion about the comparison?
 
 **Tobias Theel:** \[laughs\] Hey, it's a little bit unfair to say that, but \[unintelligible 00:36:04.28\]
 
@@ -204,7 +204,7 @@ But it has also some drawbacks... And there was a really great talk -- I'm tryin
 
 But we have to have a different runtime, but with the same API. So if you look at the way that TinyGo is actually built, it's written entirely in Go, first of all. So TinyGo is written in Go, and then it uses Go's internal tooling to do part of its work, and then it uses the LLVM framework, which is a framework for creating programming languages to do the other half of its work. So hopefully it doesn't sound like we didn't have to do anything, because actually getting those two things to work together - there's quite a bit to it.
 
-\[00:39:55.24\] But you're not gonna get the same runtime, or even all the same standard library abilities when you have no operating system. A good example might be something you take for granted, which is I would like to read the file off disk.
+\[39:55\] But you're not gonna get the same runtime, or even all the same standard library abilities when you have no operating system. A good example might be something you take for granted, which is I would like to read the file off disk.
 
 **Tobias Theel:** \[laughs\]
 
@@ -230,7 +230,7 @@ One thing I've noticed with GoCV in particular is we have a huge community of pe
 
 **Ron Evans:** Well, the future of Go -- there was an actually very amusing article a few years back, a blog post that said eventually everyone ends up programming in Go. It was a person who did a hilarious eigenvector analysis with text processing of all of the blog posts on Reddit and Hacker News that were "Why I switched from X to Y", where X and Y are programming languages... So he basically took this and he put it through their models that they'd built, and they concluded that in only a few years everyone ends up programming only in Go.
 
-**Natalie Pistunovich:** \[00:44:03.25\] This is awesome. You have to share the link to that. It has to be in the show notes. I need to read this.
+**Natalie Pistunovich:** \[44:03\] This is awesome. You have to share the link to that. It has to be in the show notes. I need to read this.
 
 **Ron Evans:** It's not me, it's the math.
 
@@ -262,7 +262,7 @@ But there's a lot of really cool projects going on right now. Astro, if you've h
 
 **Ron Evans:** Suborbital - they're doing a lot of stuff with TinyGo and Web Assembly. The Proxy WASM project, which is \[unintelligible 00:47:37.11\] specification if you wanna run Web Assembly on proxies like Envoy, or Istio - the only way to use Go from that is TinyGo. And they have reasons why they tell you that, largely to do with the main Go implementation not providing the necessary APIs, as well as being too big. So we've got that. Vecty, which is frontend development in Go. TinyGo.
 
-\[00:48:10.15\] Just recently, there was a really cool project that came out called WASM 4, which lets you build retro-style gaming on a web interface. Kind of a fantasy console. It's language agnostic. They have Rust, and Python, and C++, and - oh yeah, TinyGo...
+\[48:10\] Just recently, there was a really cool project that came out called WASM 4, which lets you build retro-style gaming on a web interface. Kind of a fantasy console. It's language agnostic. They have Rust, and Python, and C++, and - oh yeah, TinyGo...
 
 **Vladimir Vivien:** Sweet.
 
@@ -286,7 +286,7 @@ But there's another unpopular opinion... \[laughter\]
 
 **Ron Evans:** Well, the first time an open source project becomes important is as soon as somebody starts making money with it. Up until then it's just a hobby, it's an experiment, it's a cool thing. As soon as company A tells you "Hey, Vladimir, we wanna pay you to work on this thing", and you're like "Um, okay. Cool. TinyGo? Yeah, I totally know that." You know... But you read Tobias' book on the way to the job interview... \[laughter\] Only now does this open source project actually matter. I mean, really matter. Before that, it's like it's fun, and it's cool, and I don't wanna talk down on people's vanity projects, because it makes them feel good, or on people's love projects, because they just need to share. Because those are wonderful things.
 
-\[00:52:01.09\] But you need to have a pretty understanding boss to be like "Yeah, I'm gonna go fly halfway around the world to go do this conference, to go talk about this way to make games... And I know we're not a game company... And in fact -- no, I'm not spending too much time on it, really. I swear." \[laughter\] Until you have somebody paying.
+\[52:01\] But you need to have a pretty understanding boss to be like "Yeah, I'm gonna go fly halfway around the world to go do this conference, to go talk about this way to make games... And I know we're not a game company... And in fact -- no, I'm not spending too much time on it, really. I swear." \[laughter\] Until you have somebody paying.
 
 In the capitalistic society in which we live, there is no way to have a sustainable project. Somebody has to come up with some money at some point. Unpopular? Yes. But not disagreed with, probably. An example from our direct experience - there's a whole bunch of people who work at Fastly who are working very diligently on contributing to TinyGo. I can't tell you exactly what they're doing right now, but they are doing a lot of really interesting work. They're helping the broader community quite a lot. And I doubt that they would be able to devote that much time and energy if it wasn't their day job.
 
@@ -318,7 +318,7 @@ If you go to a conference that specializes in hardware development, like Embedde
 
 **Ron Evans:** Oh, I've run out. \[laughter\]
 
-**Jingle:** \[00:56:13.12\] to \[00:56:30.01\]
+**Jingle:** \[56:13\] to \[56:30\]
 
 **Angelica Hill:** Great, so we're gonna be going straight to you, Tobias, because we've been waiting in anticipation for this unpopular opinion.
 

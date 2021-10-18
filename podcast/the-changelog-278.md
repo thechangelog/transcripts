@@ -28,7 +28,7 @@ Almost all of the original core people left MySQL development and joined MariaDB
 
 **Monty Widenius:** So if you want to use what everybody else is using, you should use MariaDB.
 
-**Jerod Santo:** \[00:04:13.06\] And was it a straight code fork in terms of --
+**Jerod Santo:** \[04:13\] And was it a straight code fork in terms of --
 
 **Monty Widenius:** Originally yes, but now we have some thirty man-years on top of MySQL. A lot more features, a better application and much more secure.
 
@@ -62,7 +62,7 @@ With MariaDB we don't own the code because we are a fork of MySQL, so we are bou
 
 **Monty Widenius:** First, I wanted to ensure that Sun would get the most benefit of MySQL; that's why I joined Sun originally, to see that they would be able to steer the project (MySQL) in the right direction. I stayed there for one year, and then there was friction between people who were used to working at a small company and didn't like the atmosphere at Sun. Nothing wrong with Sun, but in big companies there's a lot of bureaucracy and everything else, and people started to leave... So I talked with the CTO and said that the best way to ensure that you don't lose the minds of these bright people is that I go out, I create a new company, I hire these people, and then I can take care of them as they would be in a small company, but you would have access to them as they would have worked for you.
 
-\[00:08:11.24\] Sun thought that was a great idea, so I left Sun, and one month later Oracle announced that they will buy Sun. So instead of helping Sun, I refocused to start work on the project.
+\[08:11\] Sun thought that was a great idea, so I left Sun, and one month later Oracle announced that they will buy Sun. So instead of helping Sun, I refocused to start work on the project.
 
 **Jerod Santo:** Did that completely blindside you, the Oracle acquisition?
 
@@ -104,7 +104,7 @@ Other options we have as a company is to be open core, but I hate open core with
 
 The only thing I know and what the trend I see right now is that much more distributed environments and setups where you're using lots of servers and exchange data behind them, like some of the NoSQL solutions, but still with a strong asset compliance so that you know that you never lose something. And we already have a product for that in all our areas, in other words in analytics, but we also want to do the same thing in a transaction environment. So that's where we see at least one trend.
 
-\[00:16:19.12\] Another trend that we're working on is making it easy to transfer from closed source commercial databases to open source databases. So in 10.3 we are adding a PL/SQL layer on top of MariaDB.
+\[16:19\] Another trend that we're working on is making it easy to transfer from closed source commercial databases to open source databases. So in 10.3 we are adding a PL/SQL layer on top of MariaDB.
 
 **Jerod Santo:** Oh, really? That's interesting. So where do people go if they're interested in the BSL, in MariaDB and wanna learn more? IF they're considering using BSL for their software, where do you send them?
 
@@ -114,7 +114,7 @@ The only thing I know and what the trend I see right now is that much more distr
 
 **Jerod Santo:** Very good. Well, Monty, thanks so much for joining us.
 
-**Break:** \[00:17:08.28\]
+**Break:** \[17:08\]
 
 **Jerod Santo:** So I love interviewing people who have Wikipedia pages...
 
@@ -176,7 +176,7 @@ The only thing I know and what the trend I see right now is that much more distr
 
 **Brian Behlendorf:** Real estate, which might sound completely bizarre, but anybody who's ever bought property or a house or sold property or a house knows how much BS there is in dealing with the paperwork, but also how much we depend upon registering paperwork with the right government officials, and signing the documents...
 
-**Jerod Santo:** \[00:24:06.18\] Well, we even have companies that do these things, like closing fees, and entitlement companies...
+**Jerod Santo:** \[24:06\] Well, we even have companies that do these things, like closing fees, and entitlement companies...
 
 **Brian Behlendorf:** Right, and it might seem like "Why bother thinking about this as a problem?" Well, in emerging markets where they had started to digitize land records, in order to give people not only a sense of ownership over the property they've perhaps liven on for generations, and the idea was also allow them to be able to take out loans to start businesses, right?
 
@@ -224,7 +224,7 @@ So that made me go "A-ha!", and I started digging more at it, and my next questi
 
 **Brian Behlendorf:** It's about this idea of getting it in the form of legos and buildings blocks that people can piece together, and making sure that the all the good ideas out there about how to do it, all the controversial architectures and different ways of doing smart contracts gives them a place where they can be built independent of a single vendor... Because this is another thing that's been on my mind - a lot of the open source community had kind of forgotten about the role of neutral homes for the governance of the projects.
 
-\[00:27:59.03\] Apache has done that very well, Free Software Foundation, Software Conservancy - they've done that very well. But much of the open source will have gone to a company kind of releasing it, and then setting up a .org, the community addition...
+\[27:59\] Apache has done that very well, Free Software Foundation, Software Conservancy - they've done that very well. But much of the open source will have gone to a company kind of releasing it, and then setting up a .org, the community addition...
 
 **Jerod Santo:** Right, which makes it harder and harder for us using open source, or even just following open source, and something that we do at the Changelog all the time is help us tease apart the business from the open source thing and see clearly through the mud...
 
@@ -258,7 +258,7 @@ And finally, a lot of the companies interested in this are new to open source, s
 
 **Brian Behlendorf:** Yeah, exactly; the immutability because it's a Merkle, which is a string of signatures with data, so that you can't -- you know, you'd have your copy, I'd have my copy, but the integrity of that would be verifiable. Fabric, on top of that, has a format for being able to write scripts that get deployed across the network, written in Go, that run inside of a Docker VM.
 
-\[00:32:14.09\] What this means is that we can encode -- you and I could encode a promise that says "I promise to transfer to you some tokens in this network if the price of rice in China on this certain day", or something like that, write an options contract, or an insurance contract. And the cool thing is because it's a contract that now is shared on the network, then it's verifiable, everyone can see "Oh yeah, Brian made a promise that he would do this thing", and I can't pull it back. So your risk that I wouldn't make good on that promise or pay up is gone. This is called counterparty risk, and that's eliminated in a setting like this. Normally, that's a big issue; counterparty risk is why we have financial crises...
+\[32:14\] What this means is that we can encode -- you and I could encode a promise that says "I promise to transfer to you some tokens in this network if the price of rice in China on this certain day", or something like that, write an options contract, or an insurance contract. And the cool thing is because it's a contract that now is shared on the network, then it's verifiable, everyone can see "Oh yeah, Brian made a promise that he would do this thing", and I can't pull it back. So your risk that I wouldn't make good on that promise or pay up is gone. This is called counterparty risk, and that's eliminated in a setting like this. Normally, that's a big issue; counterparty risk is why we have financial crises...
 
 **Jerod Santo:** Yeah, exactly.
 
@@ -284,7 +284,7 @@ What's distinctive about Ethereum and Bitcoin is that they are currencies whose 
 
 **Jerod Santo:** We did a show on Ethereum maybe nine months ago and had a lot of excitement in our community around it. Smart contracts... It's kind of interesting, it was right through the crisis -- in fact, we schedules the show before the crisis, then we had a reschedule, and then everything... It was one of these things -- you know, technology moves fast; well, cryptocurrencies are the fastest-moving things. Everything had changed by the time we actually did this show, so it was very interesting that way... But yeah, smart contracts are interesting; making the actual scriptability or the writing of those contracts, bringing that down to where it's more accessible to other developers is very cool.
 
-\[00:36:19.22\] It sounds like these different projects -- it's not like you have these eight and they mesh together and perform a thing; these sound like different things.
+\[36:19\] It sounds like these different projects -- it's not like you have these eight and they mesh together and perform a thing; these sound like different things.
 
 **Brian Behlendorf:** Those four are very different things. They solve at a 100.000 foot view the same problem; it's kind of like comparing MySQL to Cassandra, to CouchDB...
 
@@ -316,7 +316,7 @@ Hopefully, it means more stability in the financial markets, because I think the
 
 **Brian Behlendorf:** So that should be digital. There should be a way to take that with you. And for things like medical records - people don't even feel connected to their medical records. So my hope is that in all these important parts of life, as they get more digital, they actually get more sovereign, they get more about -- the things that you know are portable, that you don't have to depend upon a particular company or another to hold for you and look out for you, by that it gives you more power as a consumer, more control, more flexibility.
 
-**Jerod Santo:** \[00:40:13.02\] Awesome. Brian, final thoughts, anything you wanna say?
+**Jerod Santo:** \[40:13\] Awesome. Brian, final thoughts, anything you wanna say?
 
 **Brian Behlendorf:** No, it's just really fun to be back at an open source conference. I've been coming to this for 20 years -- 21 years, we realized the other day... And to be amongst my peeps, I guess, and to see the interest and energy here; people still wanna understand what it's about, and so that's why I'm here... But more and more people are going, and we really wanna get our hands dirty with this.
 
@@ -324,7 +324,7 @@ Hopefully, it means more stability in the financial markets, because I think the
 
 **Brian Behlendorf:** Thanks.
 
-**Break:** \[00:40:49.27\]
+**Break:** \[40:49\]
 
 **Jerod Santo:** So I'm joined by Tague Griffith, who is the head of Developer Advocacy for Redis Labs. So cool that there's businesses around Redis, right? Or maybe just one - I don't know if there's more than one, but just the fact that Redis is a thing that still exists in the world... So much, and it's so vibrant that there's like a cottage industry around it - to me it's just cool!
 
@@ -342,7 +342,7 @@ Hopefully, it means more stability in the financial markets, because I think the
 
 **Tague Griffith:** Yeah, I think one of the things is it's very easy for developers to approach Redis. You've got all these data structures that are very similar to what you work with in Python, or Java, or whatever language you're working with, and it's very easy to do incremental projects with Redis. So you start maybe just as a hobbyist, and then you drop it in as a cache, your first actual real production system. Then you start finding other data structures and uses of Redis where it can really either accelerate performance, store data that doesn't fit into SQL databases really well... And then even you start looking at more of like the commercial products to hit on the high availability, the scaling and some of that. You've got this whole range of systems and uses you can apply this one product to.
 
-**Jerod Santo:** \[00:44:19.28\] Refresh me on the history of Redis a little bit. So you had -- I always call them Antirez \[N-Tie-Rez\], because I just say it in my head... Maybe it's Antirez \[N-Tee-Rez\], I don't know. Salvatore Sanfilippo started this years ago; he actually became a sponsor, but I think he got hired by VMware for a while, I don't know... It was kind of like at the frontier of paying people to do an open source thing, and how that was gonna work out, and I think we've even shows with him throughout that part, but that was years ago; I haven't kept up with where Redis is, except for as a user. Tell us a little bit of the history - maybe the recent history - of the Redis project.
+**Jerod Santo:** \[44:19\] Refresh me on the history of Redis a little bit. So you had -- I always call them Antirez \[N-Tie-Rez\], because I just say it in my head... Maybe it's Antirez \[N-Tee-Rez\], I don't know. Salvatore Sanfilippo started this years ago; he actually became a sponsor, but I think he got hired by VMware for a while, I don't know... It was kind of like at the frontier of paying people to do an open source thing, and how that was gonna work out, and I think we've even shows with him throughout that part, but that was years ago; I haven't kept up with where Redis is, except for as a user. Tell us a little bit of the history - maybe the recent history - of the Redis project.
 
 **Tague Griffith:** Sure. So I think it was around 2009 when Salvatore first released Redis, and it's -- I always pronounce it Antirez \[N-Tee-Rez\]; it actually comes from -- he and a friend were looking for handles, and it comes from Trent Reznor... I always kind of wondered where that came from, and it comes from Trent Reznor.
 
@@ -376,7 +376,7 @@ Hopefully, it means more stability in the financial markets, because I think the
 
 I think it involves different ways of working. If you look at a lot of corporations, they like to have plans, and really what we have to do is we have to take his technical direction; he sets his direction, we work with him to contribute, and that means sometimes he may not like our contributions, other times he does, and so we work in the same framework as every other contributor to the open source Redis.
 
-**Jerod Santo:** \[00:48:10.00\] Excuse me if I'm a little distracted... There's a lot of people that come to OSCON, but there's an actual pigeon that's walking around behind you; that's why I'm trying to pay attention, but I'm also like -- you know when you see a squirrel, and you're like "A squirrel!", but there's like a literal pigeon that just keeps flying around.
+**Jerod Santo:** \[48:10\] Excuse me if I'm a little distracted... There's a lot of people that come to OSCON, but there's an actual pigeon that's walking around behind you; that's why I'm trying to pay attention, but I'm also like -- you know when you see a squirrel, and you're like "A squirrel!", but there's like a literal pigeon that just keeps flying around.
 
 **Tague Griffith:** Yeah, the pigeon dropped by our booth earlier to learn about Redis, so even the pigeons love Redis.
 
@@ -414,7 +414,7 @@ Redis is fast. Everything is in memory. Any sort of well-structured Redis databa
 
 **Tague Griffith:** It's very capable. In fact, I gave a Birds of a Feather at OSCON to really talk to people about getting beyond that notion of just as a key-value. And I think so many people come to Redis as a key-value, as a cache... Everyone knows it is that, they just never get beyond that and look at all the other powerful things you can do with Redis.
 
-**Jerod Santo:** \[00:52:03.10\] Yeah. One of the things that Salvatore added probably a couple years ago now which was really cool was the scripting stuff through Lua... Lots of improvements to Redis over the years - what does the future look like? You're obviously involved in where it's headed... Push us out a year or two - what's the new stuff that's gonna be coming down the pipeline?
+**Jerod Santo:** \[52:03\] Yeah. One of the things that Salvatore added probably a couple years ago now which was really cool was the scripting stuff through Lua... Lots of improvements to Redis over the years - what does the future look like? You're obviously involved in where it's headed... Push us out a year or two - what's the new stuff that's gonna be coming down the pipeline?
 
 **Tague Griffith:** So I'll make a little bit of a plug - there's gonna be some new stuff announced at RedisConf, which we run in San Francisco.
 

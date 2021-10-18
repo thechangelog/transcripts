@@ -36,7 +36,7 @@ The first question I'm really curious to know about from you folks is "How do yo
 
 **Safia Abdalla:** This is JavaScript, but if you're working in ecosystems that are like Java or Ruby, feel free to bring in those discussions, as well. I'd be curious to know if this is something language-specific... If the environment and language you're working in kind of dictates the criteria that you use when selecting dependencies... Because each programming language has a different profile around third-party dependencies and package management, and stuff like that. But let's go with JavaScript for now.
 
-**Kevin Ball:** \[00:04:01.21\] Well, it was a little bit of a tongue-in-cheek answer, but sort of saying "In this ecosystem the tendency is to always reach for a third-party package", and I suppose what you're highlighting is that that is probably not always and everywhere the right tendency, but I think it is something that is almost cultural more than anything... Different language ecosystems have different cultures and different ease of installation. If it requires manually pulling things in and doing a local build, as compared to a simple add-a-line, or do an npm install save, like, that's gonna change how easy or hard it is, and that's gonna dramatically lower the barrier to pulling dependencies in.
+**Kevin Ball:** \[04:01\] Well, it was a little bit of a tongue-in-cheek answer, but sort of saying "In this ecosystem the tendency is to always reach for a third-party package", and I suppose what you're highlighting is that that is probably not always and everywhere the right tendency, but I think it is something that is almost cultural more than anything... Different language ecosystems have different cultures and different ease of installation. If it requires manually pulling things in and doing a local build, as compared to a simple add-a-line, or do an npm install save, like, that's gonna change how easy or hard it is, and that's gonna dramatically lower the barrier to pulling dependencies in.
 
 **Safia Abdalla:** Yeah, I totally agree with you on that.
 
@@ -54,7 +54,7 @@ When I run into trouble is just trying to hand roll things that are -- just naiv
 
 **Kevin Ball:** Chris, I think you brought up one of the key questions that I tend to ask myself when I'm looking at it - it's "How much time is this going to save?" Is this something that is a really complex thing, or is this something that is like a three-liner that I could also do myself? How close is the library to my desired behavior? If it's exactly what I need, that's gonna save me a lot more time than something that I'm gonna have to push and mold and move around and hack around often to get it to do what I want.... And also how well-supported is the library? If I run into an issue, is this something where if I file an issue somebody's likely to fix it? Is it something where if I submit a pull request somebody's likely to merge it, or am I gonna be having to, if I run into issues, support my own different branches of this library to get it to work?
 
-**Christopher Hiller:** \[00:08:07.26\] It seems like two different questions to me... One is "Do you want to pull in some third-party dependency to solve this problem?" If the answer is yes, then how do we choose which one? Because if you're looking at npm, there's gonna be ten things out there that do roughly what you want, so how do we pick them? Once you've decided to use a dependency, what goes into that decision?
+**Christopher Hiller:** \[08:07\] It seems like two different questions to me... One is "Do you want to pull in some third-party dependency to solve this problem?" If the answer is yes, then how do we choose which one? Because if you're looking at npm, there's gonna be ten things out there that do roughly what you want, so how do we pick them? Once you've decided to use a dependency, what goes into that decision?
 
 For me, the major red flag is if I go and look at something and see "Oh, this hasn't been updated in two years... Forget it." That's not gonna fly. I'm going to want something that has recent -- depending on what kind of package it is, how recent...? If it's more of a larger thing, I would want active development. If it's one of these tiny modules, maybe something in the last six months... That sort of things.
 
@@ -70,7 +70,7 @@ One of the interesting things that kind of like struck me about the event-stream
 
 I found it interesting that very few people who had installed event-stream or had it as a dependency were watching the repository on GitHub. Admittedly, it can get a little noisy, but it's one of those things where I feel like for me as an open source maintainer, people's engagement with third-party dependencies ends at install time, and they're not willing to participate in technical discussions about the future of the project, or just keep up to date on what's going on and what's being merged, who's doing the merging, and develop a personal understanding of the project... And I feel like that's the distinction between you installing a dependency and you installing an open source package, as I do think you have to engage with the open source part of it to be able to effectively use it in your own code.
 
-**Kevin Ball:** \[00:12:37.21\] That sounds like a pretty big ask, especially when you look at the dependencies or dependencies' issue... The example I've been using is like if I install a vanilla, empty Vue application or React application from one of their templates, I end up with a thousand packages in my repository... From start new project that is using this framework, there are a thousand dependencies; there's no way I have the bandwidth to engage with a thousand communities. I don't even know what 950 of those dependencies are.
+**Kevin Ball:** \[12:37\] That sounds like a pretty big ask, especially when you look at the dependencies or dependencies' issue... The example I've been using is like if I install a vanilla, empty Vue application or React application from one of their templates, I end up with a thousand packages in my repository... From start new project that is using this framework, there are a thousand dependencies; there's no way I have the bandwidth to engage with a thousand communities. I don't even know what 950 of those dependencies are.
 
 **Safia Abdalla:** Yeah. I don't think you necessarily have to engage with every dependency, but there are the key ones that you need to do. For example, in that case you would engage with the community that's working on managing that -- I guess you were saying it was like Create Voo App, or something...
 
@@ -80,7 +80,7 @@ I found it interesting that very few people who had installed event-stream or ha
 
 **Kevin Ball:** Oh, yeah... Yeah. I mean, I've had those where you have this architectural discussion for months and months and months, and then at the end of it you do a first implementation and that's when everybody wants to give feedback... They say "What are you doing?! Why are you architecting it this way? This is terrible!" And you say "We've been having this discussion and literally begging you...
 
-**Safia Abdalla:** \[00:16:06.28\] "We've been talking about this for years...!"
+**Safia Abdalla:** \[16:06\] "We've been talking about this for years...!"
 
 **Kevin Ball:** ... to contribute your ideas." But once again, you could take that as a way to blame people, but I'm not sure that that's actually gonna make it better, because that's just kind of how people are. It's not limited to open source, right? People react to things that impact them; they don't go out searching for things. If we're looking for this to be an individual ethics problem, it's never gonna solve the problem, because people can't; they're overwhelmed.
 
@@ -104,7 +104,7 @@ I found it interesting that very few people who had installed event-stream or ha
 
 **Nick Nisi:** Well, that is what happened with event-stream, right?
 
-**Christopher Hiller:** \[00:19:34.16\] Yeah... Okay, say you've solved that problem and you know what you're deploying... So you're in your development environment, you npm-install, or yarn-install, or whatever, you have your lockfile... I mean, you're gonna see what's in your Node modules, and if everything's working properly, that's what you're gonna get when you deploy it. You would look in there, obviously; if you look at the GitHub repo, that's not always gonna be the same stuff, so you'll have to look at your Node modules.
+**Christopher Hiller:** \[19:34\] Yeah... Okay, say you've solved that problem and you know what you're deploying... So you're in your development environment, you npm-install, or yarn-install, or whatever, you have your lockfile... I mean, you're gonna see what's in your Node modules, and if everything's working properly, that's what you're gonna get when you deploy it. You would look in there, obviously; if you look at the GitHub repo, that's not always gonna be the same stuff, so you'll have to look at your Node modules.
 
 I wasn't present for the chat last week, but yeah... I don't know if we're going down that road, back into the discussion about event-stream, and stuff, but... Yeah, that's a tough problem, and you can either pin your dependencies or something, and then manually validate everything that you pull in, or you can just trust people not to do stuff bad, and deploy things, and it's all about how much time it's gonna take, and how much risk you're willing to accept, at the end of the day. It's either you hand-check everything, or have some tooling to help you do that.
 
@@ -122,13 +122,13 @@ Sometimes I find that that's something that I don't do often, which I'm ashamed 
 
 **Kevin Ball:** Transient dependencies, from Mark R. in the chat...
 
-**Safia Abdalla:** \[00:23:55.10\] Yeah, transient dependencies. Thank you, Mark. I think that's always going to be a little unsolvable, just because at that point you're -- like, if someone truly wants to figure out an export, they will, and it's very hard to be proactive about those, to a certain extent. There's a lot of safety checks you can do, and tasks and validations and stuff like that, but I think if somebody really wanted to do something malicious using some transient dependency, they could... But I think it's unfair to ask people to check those deep down dependencies, but it is fair to have them be aware of how Create React App works, what's being loaded, and the general architecture of the project. That's a reasonable ask... And what it's using just as top-level dependencies. Anything deeper than that I think that's where you need to have automated tools doing the checking, and just pray that people in the world are good and won't try to mine Bitcoins all the time.
+**Safia Abdalla:** \[23:55\] Yeah, transient dependencies. Thank you, Mark. I think that's always going to be a little unsolvable, just because at that point you're -- like, if someone truly wants to figure out an export, they will, and it's very hard to be proactive about those, to a certain extent. There's a lot of safety checks you can do, and tasks and validations and stuff like that, but I think if somebody really wanted to do something malicious using some transient dependency, they could... But I think it's unfair to ask people to check those deep down dependencies, but it is fair to have them be aware of how Create React App works, what's being loaded, and the general architecture of the project. That's a reasonable ask... And what it's using just as top-level dependencies. Anything deeper than that I think that's where you need to have automated tools doing the checking, and just pray that people in the world are good and won't try to mine Bitcoins all the time.
 
 **Nick Nisi:** I think that's a good place to start... And then you do get a little bit more security through the trust of something like Create React App, which is huge, and hugely popular... There's a little bit of comfort in if there is a problem, it's probably gonna be found out pretty quick, and you can kind of lean on that a little bit, but you might be bitten -- just like in the case of event-stream, \[unintelligible 00:25:25.19\]
 
 **Safia Abdalla:** I think this discussion around how do you do security checks and audits, and what is the process for bringing in a third-party library is a good segue into the next segment, which is "What are some of the processes and steps that companies have for deciding whether or not to bring in external dependencies?" We'll be talking about that right after the break.
 
-**Break:** \[00:25:56.19\]
+**Break:** \[25:56\]
 
 **Safia Abdalla:** I'm curious to know for where you currently work now, or where you've worked before, or any interesting processes you've heard from other companies, do you have a checklist or a process for bringing a library into your codebase, and what does that process look like?
 
@@ -138,7 +138,7 @@ Now I am at a larger company, so it really just depends what you're building and
 
 But I don't know -- I imagine it varies per team to team a little bit as well, insofar as how stringent they are about adding dependencies. Maybe that's typical of any large company.
 
-**Nick Nisi:** \[00:28:03.23\] I work for a consulting company, so I get to work with a lot of different teams, and it's kind of the same thing - it depends and varies from team to team. Sometimes we just come in and they've already got what they think we need all set up, and we're just gonna work with that, and we have to go through an approval process if we wanna bring in something else. Other times we'll let them know what we wanna build and they might give us direction on like "Oh, use Angular, use this...", and we might put that. And we'll actually put in our contracts with them "This is the open source that we're going to use." And I won't list everything; I'll say "Oh, we're gonna use Angular", but not the 10,000 dependencies that come with Angular. We'll just put Angular, and assume that they understand that.
+**Nick Nisi:** \[28:03\] I work for a consulting company, so I get to work with a lot of different teams, and it's kind of the same thing - it depends and varies from team to team. Sometimes we just come in and they've already got what they think we need all set up, and we're just gonna work with that, and we have to go through an approval process if we wanna bring in something else. Other times we'll let them know what we wanna build and they might give us direction on like "Oh, use Angular, use this...", and we might put that. And we'll actually put in our contracts with them "This is the open source that we're going to use." And I won't list everything; I'll say "Oh, we're gonna use Angular", but not the 10,000 dependencies that come with Angular. We'll just put Angular, and assume that they understand that.
 
 But then if we need to bring in something else, it's usually just a discussion about why we think we need it, and yeah, licenses are checked as well... But assuming there's no problems there, then it's pretty easy to justify it.
 
@@ -170,7 +170,7 @@ Thank you for sharing that, Mark!
 
 **Christopher Hiller:** The thing that you see often in these types of tools is projects that have no license at all... \[laughs\] So what do we do with these?
 
-**Safia Abdalla:** \[00:31:41.29\] Yeah... I think the onus is definitely on the maintainer. I think if you do see that you could probably just reach out to them and request that they add a license, I think most of the time it's just a lack of knowledge, or time, on behalf of the person who made the package to add a license. I think GitHub has made that a little bit easier, by adding the license as one of their dropdowns in package creation, and just by hiding it a little bit more in their UI and having it as part of their checklist for project health.
+**Safia Abdalla:** \[31:41\] Yeah... I think the onus is definitely on the maintainer. I think if you do see that you could probably just reach out to them and request that they add a license, I think most of the time it's just a lack of knowledge, or time, on behalf of the person who made the package to add a license. I think GitHub has made that a little bit easier, by adding the license as one of their dropdowns in package creation, and just by hiding it a little bit more in their UI and having it as part of their checklist for project health.
 
 I'd love to see how those kinds of UX/UI decisions on GitHub's part have changed how many new projects emerge with valid licenses to start... But I think the licenses are one front to explore. I'm curious to know, have you worked at any organizations where they have had security teams that will audit packages before bringing them into your codebase?
 
@@ -208,7 +208,7 @@ I think that's the most level or process I have seen any of the organizations I'
 
 **Kevin Ball:** There's various versions of CC (Creative Commons) different ones, MIT, MIT X11 (interesting), NPL 2.0, Public Domain Unknown, HTTP (interesting), and one that just says "See license in license.md." So the tool is not perfect, but it gives you a sense of the varieties... No GPL showing up, so I guess I can keep using Create React App, but...
 
-**Christopher Hiller:** \[00:36:08.21\] Please don't license your code under Creative Commons...
+**Christopher Hiller:** \[36:08\] Please don't license your code under Creative Commons...
 
 **Kevin Ball:** Yeah, I wonder if it lets me dig into which ones come from which license... I think I can output to a csv or something that would let me see that, but... Yeah, kind of an interesting exploration... Like, what is CC BY 4.0 versus CC BY 3.0?
 
@@ -220,7 +220,7 @@ I think that's the most level or process I have seen any of the organizations I'
 
 I think we can take a little bit of a break, and then we'll jump into that discussion. I'm sure it's gonna be an interesting one.
 
-**Break:** \[00:37:30.23\]
+**Break:** \[37:30\]
 
 **Safia Abdalla:** We're back. We are discussing ways that your organization can contribute to a healthy open source ecosystem. During the break we got a conversation going about non-traditional ways that your company can fund open source projects. One of the things that was mentioned is donating engineering time to an open source project...
 
@@ -232,7 +232,7 @@ For example, the creator of the language Elm was hired by a company that uses El
 
 And then there's the "I use this project and I'm allowed to put some time into..." - say I run into a bug, I can go and fix it and submit that back, or things like that. All of these are different models within the context of "We're spending engineering time to support open source."
 
-**Safia Abdalla:** \[00:40:15.03\] The one that I've had the most interaction with is probably two and three, which are situations where -- you know, I think with something like React it's a little bit different, because Facebook was the entity that open-sourced the project; it was something internal that was then made public... So I think that's a little bit different than someone independent on any company starting a project and then getting support for that.
+**Safia Abdalla:** \[40:15\] The one that I've had the most interaction with is probably two and three, which are situations where -- you know, I think with something like React it's a little bit different, because Facebook was the entity that open-sourced the project; it was something internal that was then made public... So I think that's a little bit different than someone independent on any company starting a project and then getting support for that.
 
 The examples that I've worked at - generally, the way the relationship works out is the open source project has some sort of roadmap or some sort of action items that need to get done, and the company that is going to be funding engineering time on those action items has some sort of interest in seeing them be done, for their own internal reasons, or whatever... And they make I guess an in-kind donation or commitment to have their engineers working on it, and collaborating actively with the open source contributors who are not affiliated with that company.
 
@@ -252,7 +252,7 @@ Then the third is more of like the Ruby model... I've not had an experience pers
 
 Where you're getting the big problems -- it's like, the more dependencies you pull in, like if you're in a JavaScript ecosystem, the harder it even becomes, because you can't spread... It's just way too much red tape if there's like 20 projects you wanna contribute to versus one.
 
-\[00:43:53.03\] I think a question that we can -- I mean, I don't have any magic solutions, but something we can start thinking about is how can we make it easier for larger companies, and their legal departments or what have you, to allow their developers to contribute to these open source projects? Maybe that is some sort of certification, I don't know; I'm certainly no lawyer, but... That's kind of a problem I've noticed. I'm not sure where to go on that one.
+\[43:53\] I think a question that we can -- I mean, I don't have any magic solutions, but something we can start thinking about is how can we make it easier for larger companies, and their legal departments or what have you, to allow their developers to contribute to these open source projects? Maybe that is some sort of certification, I don't know; I'm certainly no lawyer, but... That's kind of a problem I've noticed. I'm not sure where to go on that one.
 
 **Kevin Ball:** That's really interesting actually, if you look at what Tidelift is doing on the financial side, or what some of the foundations like the JS Foundation do on the financial side. Those are organizations that are set up to allow big companies to financially contribute to the projects that they're involved in, without having to create relationships with all the individual developers.
 
@@ -274,7 +274,7 @@ It's one of those things where if your organization is committed to making it ha
 
 I think I generally tend to place the onus on the company with money and lawyers to figure this out, as opposed to the community, because ultimately it is an internal process, not something that open source projects have too much say in.
 
-**Nick Nisi:** \[00:48:15.11\] And another perspective that they could potentially take from a marketing perspective is if you're allowing your developers to occasionally contribute to open source projects, that's a big marketer for future developers that you want to hire, in a lot of cases.
+**Nick Nisi:** \[48:15\] And another perspective that they could potentially take from a marketing perspective is if you're allowing your developers to occasionally contribute to open source projects, that's a big marketer for future developers that you want to hire, in a lot of cases.
 
 **Safia Abdalla:** Yeah, I've definitely seen that. A lot of companies where they have one person come in and start contributing into a project, and they realize there's this whole talent pool that they wouldn't have had access to through their traditional recruiting means... And recruiting is really expensive, especially for engineers, and it can definitely pay off if you use open source contributions as a recruiting pathway.
 
@@ -292,7 +292,7 @@ I think when it is a private company or a grant from a foundation, or a non-prof
 
 The Patreon thing I don't have too much experience with... I don't know how I feel about it, because I feel like with Patreon and Open Collective and stuff like that a lot of it comes down to celebrity a little bit, and people are more likely to donate to the maintainers and contributors who are most visible in a community. That might be the person who's the most active and doing the most work, but it might also not be... So yeah, those things are always tricky, because they tend to be mostly funded by private individuals, as opposed to companies, in the case of Patreon specifically... And generally spread through word of mouth or social media, where being a name in the industry plays a big role in how likely you are to get funded. So I think those are like the two thorns with that situation.
 
-**Kevin Ball:** \[00:51:58.15\] Yeah, it seems like Open Collective in particular -- and the successful folks I've seen on Patreon, actually try to bring companies into it... The individual donation stuff really doesn't scale very easily... And it's a question of like "Should it be individual engineers donating?" That seems like a pretty sketchy way to support this stuff.
+**Kevin Ball:** \[51:58\] Yeah, it seems like Open Collective in particular -- and the successful folks I've seen on Patreon, actually try to bring companies into it... The individual donation stuff really doesn't scale very easily... And it's a question of like "Should it be individual engineers donating?" That seems like a pretty sketchy way to support this stuff.
 
 Where I've seen some more success - people are essentially making a business out of it. Evan You, who does Vue.js, the big donors are doing it because it gets their brand in a link on the pages of the docs that are sent over. So you're turning it into a business, essentially.
 
@@ -318,7 +318,7 @@ One solution was, "Well, you're buying support." And I'm thinking, "You know wha
 
 **Christopher Hiller:** IBM.
 
-**Safia Abdalla:** \[00:56:00.19\] Okay, right. In both of my cases, there was a non-profit entity that companies were able to donate their funding to... Unfortunately, I'm a little misinformed about how it worked internally from their end, but because they were working with another incorporated entity to process the funding, it was a little bit easier, and they had their stuff forked out internally... And I think that's what tends to be the most helpful - it's when a corporation is talking to another corporation and sorting things out that way, as opposed to a corporation donating to a Patreon or an Open Collective.
+**Safia Abdalla:** \[56:00\] Okay, right. In both of my cases, there was a non-profit entity that companies were able to donate their funding to... Unfortunately, I'm a little misinformed about how it worked internally from their end, but because they were working with another incorporated entity to process the funding, it was a little bit easier, and they had their stuff forked out internally... And I think that's what tends to be the most helpful - it's when a corporation is talking to another corporation and sorting things out that way, as opposed to a corporation donating to a Patreon or an Open Collective.
 
 I think Open Collective technically is a 501(c)(3), and all of the projects under its umbrella are physically sponsored projects, so it might work a little bit more smoothly.
 

@@ -12,7 +12,7 @@ A lot of people have actually spoken and written about this before, but just the
 
 **Ozan Onay:** I think it's gotta be a counterforce against the marketing machine of hype in new technologies, right? There's a lot of money behind things like Mongo, so you've got this constant force online... You don't even realize; they're inventing acronyms, they're sponsoring conferences, and it's just kind of subliminal that there's this active paid force to get you to buy into the new technologies. But there's nobody who's like putting money behind Postgres and sponsoring conferences and got a marketing team inventing flashy acronyms... So we need that reminder just as a counterforce to capitalism, in a way.
 
-**Jerod Santo:** \[00:04:05.08\] I was at the OSCON London and there was actually a Postgres company in the vendors area. So there are people out there doing different things, but yeah, there's voices that are louder than others.
+**Jerod Santo:** \[04:05\] I was at the OSCON London and there was actually a Postgres company in the vendors area. So there are people out there doing different things, but yeah, there's voices that are louder than others.
 
 **Adam Stacoviak:** Or more well-funded.
 
@@ -28,7 +28,7 @@ But the article that you wrote, this principle of "You are not Facebook" or "You
 
 **Ozan Onay:** Yeah, totally. You've gotta expect that companies like that act in their own self-interest, right? They're not gonna open-source something unless they think they're getting value from that, whether that's being a magnet for engineers, getting just good PR generally, inviting contributors and offloading some of the work of maintenance, flushing out bugs and that kind of thing. They don't do it out of the goodness of their hearts. Sometimes it's just for retention. The engineers want to have their work seen publically, and they wanna get the recognition for that. Facebook or a company like that will support that, to keep their engineers happy.
 
-\[00:07:57.12\] But the objective is not to solve your problem. You've gotta solve your problem. It's great that they provide these tools for you, but the onus is on you to read the paper, read the docs, read whatever it is that's available. Obviously, it's open source, so read the source code if you can, and really stop and think about your problem, consider the other technologies that might do as good a job, really be honest with yourself about what you need and why you're making this decision, and then pull the trigger. You can't just trust that because it's Facebook it's gonna be good for you. Probably if it's good for Facebook it's not good for you.
+\[07:57\] But the objective is not to solve your problem. You've gotta solve your problem. It's great that they provide these tools for you, but the onus is on you to read the paper, read the docs, read whatever it is that's available. Obviously, it's open source, so read the source code if you can, and really stop and think about your problem, consider the other technologies that might do as good a job, really be honest with yourself about what you need and why you're making this decision, and then pull the trigger. You can't just trust that because it's Facebook it's gonna be good for you. Probably if it's good for Facebook it's not good for you.
 
 **Jerod Santo:** We've just recently shipped a show with Gerhard Lazu where we talked about the real world situation of deploying Changelog.com, and that episode has received a lot of praise, Adam, because it was focused around a real-world problem. It wasn't just tools, it was about the Why and the What and the How, and Gerhard really brings a level and a logical method to the way he does things.
 
@@ -40,7 +40,7 @@ One thing that I've been cognizant of, Adam, and I'm curious if you are, with th
 
 When somebody delivers news about Cassandra - which I guess is not news anymore, but there's gonna be Cassandra's legacy as well - giving the context of "Hey, this derived from Dynamo. Dynamo was created specifically so that Amazon could have a high write availability shopping cart, because they lose money if you can't write to the shopping cart, but it's not such a big deal if the shopping cart is inconsistent, if you see your item twice in the cart..."
 
-\[00:12:03.11\] As soon as you hear that, that that was the reason for Dynamo's creation, that they published a paper on it and you can read it and learn a lot about the rationale and the context, and that became Cassandra, well then the news about Cassandra is less newsy and more like "Okay, this is now an open source version of this thing that worked really well for Amazon, so if I have a problem like Amazon's problem, I can use Cassandra."
+\[12:03\] As soon as you hear that, that that was the reason for Dynamo's creation, that they published a paper on it and you can read it and learn a lot about the rationale and the context, and that became Cassandra, well then the news about Cassandra is less newsy and more like "Okay, this is now an open source version of this thing that worked really well for Amazon, so if I have a problem like Amazon's problem, I can use Cassandra."
 
 Obviously, that takes a lot more work and maybe news is gonna stop at like a one or two-sentence historical background, but just being like "Hey, shiny new technology! Cassandra is great because it scales!" That's less helpful than we as providers, reverberators of news could be.
 
@@ -62,7 +62,7 @@ I think what your overall call here - besides just to point out that this is a p
 
 **Ozan Onay:** You know, I don't think we're actually that bad. I think we do strive to make good choices and to be thoughtful, but we miss the mark a lot of the time, particularly the more junior engineers, the people who are -- well, I say that, but I still have this problem and I still need to be vigilant about it, so don't take that as me saying "Hey, you youngsters, you are the ones who are struggling to do this." I do this as well, but there's one thing I've observed about the software engineering community, which is that we love fast feedback loops; we love hacking and getting the feedback, and that's in some context excellent, that's something that we can use as a process to do really good work - just a little bit of input, get some output, have a little repl going, some quick feedback, Hot Reloading, whatever.
 
-\[00:15:56.00\] This kind of thing is great in some contexts, but in other contexts you just need to sit back, turn off the computer, get a piece of paper, be thoughtful and really reason about the problem. That switch from fast feedback, fast input, see your results quickly, get that adrenaline rush of building something directly, to "Hey, let's slow down, let's take notes, let's question what we're actually doing... We have something that's working, but is it the best way that we could do this?" It's kind of counter to that fast feedback thing that works well for us in other contexts.
+\[15:56\] This kind of thing is great in some contexts, but in other contexts you just need to sit back, turn off the computer, get a piece of paper, be thoughtful and really reason about the problem. That switch from fast feedback, fast input, see your results quickly, get that adrenaline rush of building something directly, to "Hey, let's slow down, let's take notes, let's question what we're actually doing... We have something that's working, but is it the best way that we could do this?" It's kind of counter to that fast feedback thing that works well for us in other contexts.
 
 **Adam Stacoviak:** I wonder if it's similar to - and this may be very provocative... If it's similar to an addiction? Because I wonder if you can connect something like this to maybe something like where people are addicted to Instagram, or addicted to the feed, the next thing coming, where the reason why you do it is less about wise choices as a developer and more about our actual minds as human beings. We get this rush - you used the words "adrenaline rush"... I wonder if it's connected to something that's far above simply being a developer, if it's just a human flaw.
 
@@ -78,7 +78,7 @@ As with most things, the true best choices are in the grey areas, where you wann
 
 **Adam Stacoviak:** I do feel like there is this push to always be moving. "Motion creates emotion, motion shows progress, fix it along the way... You've got a race to do, so why not just get in the car, even if it has no wheels? We'll put them on the race" kind of feeling, and it's like "Well, we needed four wheels, not two" and you're halfway through the race and everybody else has already finished because they slowed down enough to think "How many wheels do we need?" You're right, motion is sort of the anti, where you're always forced to go forward, and forward is progress.
 
-**Ozan Onay:** \[00:20:13.10\] Have you guys seen Rich Hickey's "Hammock Driven Development?"
+**Ozan Onay:** \[20:13\] Have you guys seen Rich Hickey's "Hammock Driven Development?"
 
 **Adam Stacoviak:** Yes.
 
@@ -98,7 +98,7 @@ Waterfall by default encourages that, it encourages the pre-planning, and it obv
 
 **Adam Stacoviak:** Coming up after the break we talk about UNPHAT. This is, in Oz's words, I promise, "It's a dorky acronym for you to follow the next time you find yourself googling some new technology to build or rebuild your architecture around." We break down each letter of the acronym, we talk about his clear intent for humor, but more importantly, Oz shares some serious wisdom to consider when evaluating your technologies. Stick around.
 
-**Break:** \[00:22:24.11\]
+**Break:** \[22:24\]
 
 **Jerod Santo:** So the acronym you came up with was UNPHAT. Your articles says "The next time you find yourself googling some cool new technology to build or rebuild your architecture around, I urge you to stop and follow UNPHAT instead." I'll just lay out the words here, the brief synopsis; we'll go into the details. I'll tell you, eNumerate is the one that I struggle with here... Anyways, Understand (understand the problem), the N is "eNumerate multiple candidate solutions" (that's a stretch, but I get it). The P is "Read the Paper" if you find the candidate solution. The H is "Determine the Historical context", which you've referenced in this conversation as well, and then the A is "Weigh Advantages against disadvantages", and then finally, the T, as we've mentioned previously, is "Think!"
 
@@ -156,7 +156,7 @@ How did you come up with this list and acronym you've got?
 
 **Jerod Santo:** Yeah...
 
-**Adam Stacoviak:** \[00:28:16.23\] That's good context, though. It goes back to that what Oz said before, which was "Give something some history, give something some context", and I think that's just an interesting way to unravel this and bring some humor to it as well.
+**Adam Stacoviak:** \[28:16\] That's good context, though. It goes back to that what Oz said before, which was "Give something some history, give something some context", and I think that's just an interesting way to unravel this and bring some humor to it as well.
 
 **Jerod Santo:** Yeah. What we are calling for here first of all is to understand the problem, and one thing that you state there is that people tend to think in solution domains and not in problem domains. Can you unpack that for us?
 
@@ -176,7 +176,7 @@ So really, if there's one thing that you take from this conversation or this art
 
 **Ozan Onay:** So how many are sufficient? I don't know. I would challenge you to at least think of one, and at least honestly give it a bit of a whirl because the temptation is always "I know this first thing, this default thing, and therefore it's always the best." I'm not saying you need to think of five necessarily, but at least yank yourself out of that confirmation bias, that prejudice that you have for the thing that you first thought of, and just look at it from one other perspective. Maybe after that you're gonna think about another one or another one. But if all you do is temporarily yank yourself out of this deer in the headlights kind of fixation with your language or your operating system or your data store, that's great.
 
-\[00:32:00.00\] So maybe with Postgres you're not thinking "Hey, do I use MySQL instead?", it wouldn't make sense, but maybe you're thinking, "Hey, do I really need to actually persist this data? Is that really a part of the problem? Could I store it in a file? Could I store it in memory?" So maybe it's that kind of thinking instead that really gives you the different perspective. "Do I really need to solve this problem? Can I just call somebody up and talk to them about it instead?" But maybe at the end you use Postgres, I don't know.
+\[32:00\] So maybe with Postgres you're not thinking "Hey, do I use MySQL instead?", it wouldn't make sense, but maybe you're thinking, "Hey, do I really need to actually persist this data? Is that really a part of the problem? Could I store it in a file? Could I store it in memory?" So maybe it's that kind of thinking instead that really gives you the different perspective. "Do I really need to solve this problem? Can I just call somebody up and talk to them about it instead?" But maybe at the end you use Postgres, I don't know.
 
 **Jerod Santo:** Right.
 
@@ -214,7 +214,7 @@ So really, if there's one thing that you take from this conversation or this art
 
 **Adam Stacoviak:** You know it very well, I'm sure... \[laughter\] So this is my question - have you read this paper, the implementation of Postgres?
 
-**Jerod Santo:** \[00:36:00.05\] That's funny you ask that, because I was just thinking as we were coming to this third point, you know, I was doing so well up until this one... \[laughs\] And maybe I'm coming out here as not a great developer, because when it comes to reading the paper - I'm trying to think of any papers that I've read with this particular goal in mind of like vetting a tool, where I've gone and said "I'm gonna read the paper", and no, I've never read that Postgres document, to answer your question.
+**Jerod Santo:** \[36:00\] That's funny you ask that, because I was just thinking as we were coming to this third point, you know, I was doing so well up until this one... \[laughs\] And maybe I'm coming out here as not a great developer, because when it comes to reading the paper - I'm trying to think of any papers that I've read with this particular goal in mind of like vetting a tool, where I've gone and said "I'm gonna read the paper", and no, I've never read that Postgres document, to answer your question.
 
 I'm just wondering how many people -- maybe I'm the only one here, but how many people will actually do this one? I don't know, Oz... Is this aspirational, number three, read the paper? Should we all be doing this every time?
 
@@ -236,7 +236,7 @@ Hopefully you've got senior folk at your company who can point you in the right 
 
 **Adam Stacoviak:** That's true. Well, I think we're back to the whole waterfall/agile; we're forced to produce, and producing is code... Or commits, at least.
 
-**Jerod Santo:** \[00:40:04.07\] This might be a good time to mention the Papers We Love repo on GitHub and that community, because what I was thinking there, Oz, as you were talking, is it'd be great to have a centralized curated place where you could just come and say "Okay, when it comes to Bigtable or when it comes to MapReduce, this is the paper, and it's right here." I was thinking "Yeah, I've heard of Papers We Love", so I was looking it up, and actually that's close to what they're doing. They have a data store section, and this is Bigtable databases, Dynamo... So you can find all those papers in one centralized place, curated by a community. That takes out some of the legwork that may otherwise prohibit you from finding the best or the canonical paper for this particular subject or tool.
+**Jerod Santo:** \[40:04\] This might be a good time to mention the Papers We Love repo on GitHub and that community, because what I was thinking there, Oz, as you were talking, is it'd be great to have a centralized curated place where you could just come and say "Okay, when it comes to Bigtable or when it comes to MapReduce, this is the paper, and it's right here." I was thinking "Yeah, I've heard of Papers We Love", so I was looking it up, and actually that's close to what they're doing. They have a data store section, and this is Bigtable databases, Dynamo... So you can find all those papers in one centralized place, curated by a community. That takes out some of the legwork that may otherwise prohibit you from finding the best or the canonical paper for this particular subject or tool.
 
 **Ozan Onay:** I'm glad you brought that up, because they deserve a shoutout. Great community overall, particularly in New York and San Francisco. Incredible organizers. I really would encourage folks to go to those meetups if there's one in their city. Great community, great turnout. There's always a thoughtful speaker focusing on one paper... But then the people in that audience are gonna be the folk where you can't ask a question like that, "Hey, I'm trying to understand this thing. What would you read if you were me, or what would you be thinking about if you were me?" It's a totally different community to the standard meetups, so big ups to them.
 
@@ -262,7 +262,7 @@ Whereas if you just google "Is MapReduce a good tool for this job?", you're prob
 
 **Jerod Santo:** Next two points here, just to finish up your acronym before we take another quick break is "Weigh the Advantages against the disadvantages." Do you wanna expand upon that, or do you think that's self-explanatory, Oz?
 
-**Ozan Onay:** \[00:44:11.17\] Look, it was mostly to get the "A" in there, but... \[laughter\] But you know, there are gonna be tradeoffs. The main thing that we do as engineers is decide which tradeoffs to accept, and sometimes we're honest about that and sometimes we're not. To keep going with the Dynamo/Cassandra example, you trade off consistency. Maybe you want consistency. Probably you want consistency, so just being aware of that quid pro quo is what I'm saying there. You get the advantages, but that comes with disadvantages.
+**Ozan Onay:** \[44:11\] Look, it was mostly to get the "A" in there, but... \[laughter\] But you know, there are gonna be tradeoffs. The main thing that we do as engineers is decide which tradeoffs to accept, and sometimes we're honest about that and sometimes we're not. To keep going with the Dynamo/Cassandra example, you trade off consistency. Maybe you want consistency. Probably you want consistency, so just being aware of that quid pro quo is what I'm saying there. You get the advantages, but that comes with disadvantages.
 
 **Adam Stacoviak:** I liked the second half of that though, which was "Determine what was de-prioritized to achieve what was prioritized." So it makes sense advantages/disadvantages, but in that context it's about determining what was more important versus what wasn't as important, and does that align with your goals or your problem?
 
@@ -282,7 +282,7 @@ Whereas if you just google "Is MapReduce a good tool for this job?", you're prob
 
 Writing code is not really about writing, or writing a book is not really about writing. Thinking is the thing that we do mostly. Mostly, we're paid to think, and eventually that gets translated to running code. But the fact is, when you look, most people are jumping to the implementation, most people are jumping to a technology choice, most people are jumping to their way of writing code. We're not thinking.
 
-\[00:47:06.09\] The thing that we know works in software engineering is thinking; everything else is contextual, everything else there are tradeoffs. Thinking is the one thing where you can reliably get better results by doing.
+\[47:06\] The thing that we know works in software engineering is thinking; everything else is contextual, everything else there are tradeoffs. Thinking is the one thing where you can reliably get better results by doing.
 
 **Adam Stacoviak:** That's awesome. Oz, thanks so much for taking the time to write this post, to come on this show and share so much of what you know about software development and all the wisdom you've shared. I really appreciate your time, man.
 

@@ -2,7 +2,7 @@
 
 The one person over the years that I really enjoyed working with is Jean-Sébastien. And if you're wondering who you can thank for all the makefile madness that I'm leaving in my trail, it's Jean-Sébastien. He's the one who introduced me to make, and the rest is history, as they say. Not only that, but he also introduced me to the RabbitMQ codebase; we were pairing buddies for a long time, and I found out about the build system, about the pipeline, about many things.
 
-\[00:04:16.25\] So for the listeners - I mean, you've made so far into this episode, and you're still wondering what do I do; for those that don't know yet, this is where I tell you that my dayjob is to work on RabbitMQ. I'm a RabbitMQ core developer, same as Jean-Sébastien. So welcome, Jean-Sébastien, joining me in this new world...
+\[04:16\] So for the listeners - I mean, you've made so far into this episode, and you're still wondering what do I do; for those that don't know yet, this is where I tell you that my dayjob is to work on RabbitMQ. I'm a RabbitMQ core developer, same as Jean-Sébastien. So welcome, Jean-Sébastien, joining me in this new world...
 
 **Jean-Sébastien Pedron:** Thank you very much.
 
@@ -18,7 +18,7 @@ Now, while release engineering for an open source product may not seem as import
 
 **Jean-Sébastien Pedron:** Yeah, you will probably try to find alternatives to that project. This one was free -- free, I mean it didn't cost you any money, so you do not lose anything by switching.
 
-**Gerhard Lazu:** \[00:08:13.25\] Again, I view RabbitMQ as core infrastructure, but what does core infrastructure mean to you?
+**Gerhard Lazu:** \[08:13\] Again, I view RabbitMQ as core infrastructure, but what does core infrastructure mean to you?
 
 **Jean-Sébastien Pedron:** I think I have the same definition as you. A core infrastructure is a component you rely on to provide your service, for instance, if you're a company... Or even as someone at home, I rely on some core infrastructure just to run my own computers, even if it's not for work.
 
@@ -38,7 +38,7 @@ For instance, as a company, in the context of RabbitMQ for instance, I expect th
 
 In FreeBSD I remember the FreeBSD 5.0 release cycle, because between FreeBSD 4 and 5, one of the big changes was to replace global lock used all over the place in the kernel by fine-grained lockings. And this went pretty bad because it took years to stabilize that work.
 
-\[00:12:09.22\] In parallel to that, new versions of FreeBSD 4 were cut and published, but it was really difficult for the project to ship something at that time, because the cut base was very unstable, and nobody knew when we could cut even beta, let alone the final version. Yeah, it was a big problem because of that. It put pressure on people working on that code. Other people were tired because we didn't ship anything, and I'm sure end users were saddened by that situation as well, because some of them were looking forward to using the new version... Other users would see that disaster coming, and in the end nobody wanted to use FreeBSD 5.0, because it was too uncertain what you could do with that. So I think that's a good example of bad release engineering.
+\[12:09\] In parallel to that, new versions of FreeBSD 4 were cut and published, but it was really difficult for the project to ship something at that time, because the cut base was very unstable, and nobody knew when we could cut even beta, let alone the final version. Yeah, it was a big problem because of that. It put pressure on people working on that code. Other people were tired because we didn't ship anything, and I'm sure end users were saddened by that situation as well, because some of them were looking forward to using the new version... Other users would see that disaster coming, and in the end nobody wanted to use FreeBSD 5.0, because it was too uncertain what you could do with that. So I think that's a good example of bad release engineering.
 
 **Gerhard Lazu:** I think you touched up on something really interesting, which is the longer you wait to ship something, the worse the release gets, or the more problematic the release can become.
 
@@ -66,7 +66,7 @@ So the harder it is for these developers to roll out these changes or to start u
 
 **Jean-Sébastien Pedron:** I think it depends... If we stay in the company \[unintelligible 00:15:44.00\] not people at home, it depends on what kind of service you provide on top of that. For instance, if we are taking a company using RabbitMQ for cars, like you mentioned earlier, in that case RabbitMQ would be the most important one, because you want all those devices and cars and computers to communicate properly.
 
-\[00:16:16.11\] So I think that's the most important component. For a company like Sony, for instance, who is using FreeBSD in their Playstation products, if the devices they ship to gamers crash all the time because their operating system is unstable, it will be a very sad story for everyone. So in that kind of context I think the operating system is important.
+\[16:16\] So I think that's the most important component. For a company like Sony, for instance, who is using FreeBSD in their Playstation products, if the devices they ship to gamers crash all the time because their operating system is unstable, it will be a very sad story for everyone. So in that kind of context I think the operating system is important.
 
 **Gerhard Lazu:** I know that Netflix \[unintelligible 00:16:43.26\] Imagine if you can't stream your Netflix because there was a bug in FreeBSD, probably shipped worldwide, across all their \[unintelligible 00:16:54.02\]
 
@@ -90,7 +90,7 @@ So the harder it is for these developers to roll out these changes or to start u
 
 **Gerhard Lazu:** Yeah, I'm pretty sure that today, for example, you have used a system that behind the scenes uses RabbitMQ. And that's why we think of it as core infrastructure, because we know that it's everywhere. And it works well in most cases, but as it happens, we get to find out about all the cases when it doesn't work. Then we have to fix it, and then ship those fixes. So that's a very interesting perspective.
 
-**Break**: \[00:19:27.02\]
+**Break**: \[19:27\]
 
 **Gerhard Lazu:** So we've been talking generally about the RabbitMQ release engineering, the FreeBSD one, how do they compare as projects, the whole core infrastructure notion... What I'm wondering now is how does the FreeBSD release engineering process look like?
 
@@ -100,7 +100,7 @@ When we want to start to prepare the next release, we have release engineers or 
 
 So that calendar is very flexible, but it's quite useful, because it tells to the FreeBSD contributors when to expect things, and it's very easy for contributors to organize and prioritize their tasks. For instance, if someone is working on new features, then he knows that he has to finish by these dates, or it will be delayed to the next release. So that's very helpful for contributors, and like I said, this is not that strict. So any contributors can communicate also to the release engineer what he is working on, so that the release engineers know that "Okay, this specific batch is incoming. It might introduce some instabilities, but we want that in the release", so he can anticipate that and perhaps tell anyone that "Okay, we expect this to come in the next couple of weeks. This will go in that beta and we will add another one after that", for instance.
 
-\[00:23:52.25\] So that calendar tool is really useful, because it allows everyone in the community and the developers to communicate and understand what's going on. As I said, for users who will use that new version of FreeBSD, they can plan for testing, for instance. You mentioned Netflix - they'd appreciate that, because they can test in advance the new features, so they will fetch the development branch, for instance, compile FreeBSD and then try it in their environment and see how it goes, and they will give some feedback.
+\[23:52\] So that calendar tool is really useful, because it allows everyone in the community and the developers to communicate and understand what's going on. As I said, for users who will use that new version of FreeBSD, they can plan for testing, for instance. You mentioned Netflix - they'd appreciate that, because they can test in advance the new features, so they will fetch the development branch, for instance, compile FreeBSD and then try it in their environment and see how it goes, and they will give some feedback.
 
 So the fact that we use a detailed calendar - yeah, it really helps the communication and it makes the whole process more reliable and the outcome more reliable as well. I think that's the main part which was introduced following FreeBSD 5. And we have some evolutions from time, but they are mostly around adjusting the timeframe between releases, so that it's easy for end users to understand that "Okay, this will come in next September. Perhaps the release will take a bit more time, but in next September - okay, we know that we'll have a new release." This would have been very helpful in the time of FreeBSD 5, because we could have delayed some of the work done around looking to a future version, for instance, instead of trying to finish that huge task before shipping anything.
 
@@ -114,7 +114,7 @@ So the fact that we use a detailed calendar - yeah, it really helps the communic
 
 **Gerhard Lazu:** Okay. So I know that you can obviously communicate everything via the website. I don't know whether you have any commenting enabled; most websites don't. It tends to be a one-way channel... But how does the community talk to the developers? Is there a mailing list? How does that work?
 
-**Jean-Sébastien Pedron:** \[00:27:46.12\] There are many mailing lists. In fact, either by topic, for instance, there are mailing lists around the graphics stack, around the Wi-Fi drivers, around network storage, a particular CPU architecture, and so on. And there are some mailing lists about topics such as the current development branch or the stable release branches. That's the primary communication channel in FreeBSD.
+**Jean-Sébastien Pedron:** \[27:46\] There are many mailing lists. In fact, either by topic, for instance, there are mailing lists around the graphics stack, around the Wi-Fi drivers, around network storage, a particular CPU architecture, and so on. And there are some mailing lists about topics such as the current development branch or the stable release branches. That's the primary communication channel in FreeBSD.
 
 **Gerhard Lazu:** Let me guess - these mailing lists are software that runs on the same FreeBSD servers as the Git repo?
 
@@ -150,7 +150,7 @@ So if you don't know what to do, that's one way to find work to do. Another one 
 
 **Jean-Sébastien Pedron:** No, not really. It's close, but - how can I say...? Yeah, this is close to semantic versioning, but this is not documented as that. I mean, in FreeBSD we pay a lot of attention to breaking changes, as we have what we call POLA, Principle of Least Astonishment. It means that old changes which go into FreeBSD should be the less disruptive, in fact. And we should not surprise users, even between major releases.
 
-\[00:32:13.12\] So when you want to deprecate something or remove something, you have to announce that a long time before you want to do that. If possible, it's good if you can mitigate what you are about to change in a breaking way, so that the transition from one version to another major version - it must be as smooth as possible. We pay a lot of attention to compatibility between major releases. Of course, you cannot guarantee that all of the time, but that's an important part of the FreeBSD release engineering.
+\[32:13\] So when you want to deprecate something or remove something, you have to announce that a long time before you want to do that. If possible, it's good if you can mitigate what you are about to change in a breaking way, so that the transition from one version to another major version - it must be as smooth as possible. We pay a lot of attention to compatibility between major releases. Of course, you cannot guarantee that all of the time, but that's an important part of the FreeBSD release engineering.
 
 Back to the timeline, I would say that a major release -- between the beginning of the release cycle and the end we are talking 2-3 months, perhaps more if there are bugs that crept in and are difficult to track down. For minor releases, they are shorter, but we are still in the range of weeks, and perhaps months sometimes.
 
@@ -164,7 +164,7 @@ Back to the timeline, I would say that a major release -- between the beginning 
 
 Another one is the Mesa library, that you can use on Unix. It's a library providing a 3D implementation of OpenGL, for instance, and all the new standards in that area... And now it grew a lot \[unintelligible 00:35:21.18\] GPU drivers, for instance. So this is a large piece of code now, and what I like in their release engineering -- I don't remember if they followed a fixed timeline or if they provide calendars, but I like how they handle the batches. A developer is working on a batch, and he doesn't know if that batch will go into the next minor release or that needs to wait for the next major release.
 
-\[00:35:59.02\] So they have someone, like FreeBSD, who is responsible to manage the release engineering. This time he's not higher or paid for that work, so it's on his free/spare time. They are trying various ways to -- that was a few years ago, so that probably settled since, but they wanted to try several things on what would be the best way to make that communication possible... Like - a developer wants that batch into the next stable minor release, but it might not fit the timeline, and so on. They tried tags in the Git commits; I think they tried specific mailing lists, where people would post their patch, and so on. I don't know what they chose in the end, but I like how they explored \[unintelligible 00:36:53.20\]
+\[35:59\] So they have someone, like FreeBSD, who is responsible to manage the release engineering. This time he's not higher or paid for that work, so it's on his free/spare time. They are trying various ways to -- that was a few years ago, so that probably settled since, but they wanted to try several things on what would be the best way to make that communication possible... Like - a developer wants that batch into the next stable minor release, but it might not fit the timeline, and so on. They tried tags in the Git commits; I think they tried specific mailing lists, where people would post their patch, and so on. I don't know what they chose in the end, but I like how they explored \[unintelligible 00:36:53.20\]
 
 **Gerhard Lazu:** Do you know what I remember about this specific topic? During one of our RabbitMQ team summits -- by the way, RabbitMQ is a distributed team. As I mentioned, twice per year we used to meet in a single place. It used to be London. So we had like an on-site, which was an off-site for some -- but anyways, it was an on-site... And during these team summits I noticed that your laptop had a weird thing on its screen. I said "JSP, I think your screen needs replacing. This laptop needs replacing", and you were saying "No, it's okay. I'm working on some graphics drivers, and I don't quite have this thing right." So pixels were looking a bit weird, and I noticed the pixels started changing. I was like "Oh, JSP, why did you have to bring development graphics drivers to the team summit? Now we can't code properly." Then obviously I would take my laptop out and like "Okay, let's get a properly-tested and properly-running graphics card and graphics drivers." \[laughter\] That was a fun one.
 
@@ -182,7 +182,7 @@ Then you told me about your interest in developing graphics drivers, which I tho
 
 But that's an area where the hardware and the new models are put in the market at a high pace; the technology evolves a lot, and the GPU is a very complex beast. So on one side, you want to support the latest GPUs, but because if a user today buys a laptop, he will go for the latest shiny one. He won't choose the one released three years ago. So you want to ship all those new drivers and bug fixes as soon as possible, but it's very difficult because the drivers themselves are very complex, so it's very difficult to test what you ship, because no one has all the various graphic cards and GPUs and configuration in general, so it's impossible to thoroughly test.
 
-\[00:40:15.14\] Yeah, it's very difficult to find the right balance between shipping often and shipping something stable. I don't think we've found the right balance in FreeBSD either. Now drivers are provided as packages; they are not in the core anymore, the source code of FreeBSD. That improved a lot, but it still has some issues from time to time to decide on when to ship a new version of that package.
+\[40:15\] Yeah, it's very difficult to find the right balance between shipping often and shipping something stable. I don't think we've found the right balance in FreeBSD either. Now drivers are provided as packages; they are not in the core anymore, the source code of FreeBSD. That improved a lot, but it still has some issues from time to time to decide on when to ship a new version of that package.
 
 **Gerhard Lazu:** I think the more you dig into this and the more you work with this, you realize that it's not as straightforward, and everybody tries to make the best decisions they can given what they know. No one is trying to purposefully ship broken software. Sometimes it's really hard, and it looks like people don't care, or they don't think, but they do, and it's really hard. That's something worth emphasizing again and again.
 
@@ -196,13 +196,13 @@ But that's an area where the hardware and the new models are put in the market a
 
 **Jean-Sébastien Pedron:** That's why it's important to communicate well to contributors and users. That's the responsibility of that release engineering; you know that it might not be perfect in the end, what you ship, but at least you tried to make sure that people are aware of what is fine and what might not be fine.
 
-**Break**: \[00:42:35.03\]
+**Break**: \[42:35\]
 
 **Gerhard Lazu:** JSP, what did you work on before RabbitMQ?
 
 **Jean-Sébastien Pedron:** I worked as an Erlang developer for a small French company. The company was providing a website aggregating ads, so that people could look for jobs, apartments, various objects they would like to buy.
 
-**Gerhard Lazu:** \[00:43:58.06\] Craigslist, or Gumtree? For the listeners...
+**Gerhard Lazu:** \[43:58\] Craigslist, or Gumtree? For the listeners...
 
 **Jean-Sébastien Pedron:** Yeah, something like that. And we wanted to provide some kind of social media features on top of that, so that people could easily interact between them. In that company I was an Erlang developer; we were two Erlang developers working on the server side of that service. We chose to take Yaws, which is an Erlang-based web server. That was because it was easy for us to extend write directly in the Erlang VM. In fact, add our own modules and applications in addition to Yaws.
 
@@ -226,7 +226,7 @@ I know the answer to this, but I know that many listeners will be wondering... F
 
 **Jean-Sébastien Pedron:** It's quite difficult to manage. The first part is that all developers and all contributions to the RabbitMQ code might lead to changes which don't look as breaking changes when you think of a single instance of your Erlang VM, for instance; you stop the service, you load the code from the disk, it runs as expected, you stop the VM, and all is fine. But the problem starts to show when, for instance, the state of a process changes between one copy of the module and the next one. So you need to handle that migration from state v1 to state v2. There are tools to do that in Erlang, but this is not magic. You have to use them, and implement that migration from v1 to v2.
 
-\[00:48:10.04\] And it gets even more complicated when you're having a cluster of Erlang VMs. So you have to take care of the fact that, for instance, an Erlang process, while the code is reloaded, will modify its own state, and will start to use inter-process messages with a newer structure. When I say "message", in this context it's messages exchanged between Erlang processes, not messages that RabbitMQ would handle from other applications.
+\[48:10\] And it gets even more complicated when you're having a cluster of Erlang VMs. So you have to take care of the fact that, for instance, an Erlang process, while the code is reloaded, will modify its own state, and will start to use inter-process messages with a newer structure. When I say "message", in this context it's messages exchanged between Erlang processes, not messages that RabbitMQ would handle from other applications.
 
 You have to handle all those changes live, so that new process which was reloaded might receive new messages using the new format from process on that same node, but it might receive all the messages from a node which was not yet upgraded, and so on. So that part is quite difficult to handle, and if you have mistakes, then it will crash, obviously. So that feature is great, but it puts a lot of load and responsibilities on developers and contributors' shoulders, because you have to handle all the cases.
 
@@ -234,7 +234,7 @@ And the second part which is difficult is how to package that... Because Erlang 
 
 **Gerhard Lazu:** I remembered that -- this just reminds me of a discussion that we had a few years back about this very subject... And it's interesting how it comes back again. I remember the plugin system in RabbitMQ being one of the challenges when it comes to packaging RabbitMQ in an Erlang release, being able to define what is running, when, and how it's running. Again, for the listeners, RabbitMQ has this concept of plugins; a lot of them ship with RabbitMQ, others can be added, just dropped in a directory and off you go... And those plugins - they are applications. So RabbitMQ really is - this is the way I think about it - a microservices architecture in a single Erlang VM, in a single system process. Because you have all these applications exchanging messages, and by the way, they could be cross-nodes. So that's where the Erlang distribution comes in, where those messages have to traverse a network, and then you have a cluster of three nodes or four nodes. And any message, by the way - this is like an \[unintelligible 00:51:44.15\] protocol - it can arrive at any node and it will end up in the right place, because the cluster is aware of where the members are, where the processes are, and how to send those messages internally. And that's what makes it challenging.
 
-\[00:52:03.18\] So the one thing that helped (I think) in recent years is containers. Containerizing RabbitMQ, having that tarball, which really used to be the Debian package, now it's called something else... FreeBSD jail - similar concept. So the container allows us to package Erlang, even the operating system... Because that's where you have OpenSSL and all the dependencies, and we have a single tarball, which is a runnable artifact. You spin it up and it has everything that you need, in the right order, preconfigured, a bunch of things. So that really helps.
+\[52:03\] So the one thing that helped (I think) in recent years is containers. Containerizing RabbitMQ, having that tarball, which really used to be the Debian package, now it's called something else... FreeBSD jail - similar concept. So the container allows us to package Erlang, even the operating system... Because that's where you have OpenSSL and all the dependencies, and we have a single tarball, which is a runnable artifact. You spin it up and it has everything that you need, in the right order, preconfigured, a bunch of things. So that really helps.
 
 And then on top of that, obviously, if you use something like Kubernetes, you want a cluster operator, or an operator that manages your deployments, which is especially important if you have a clustered stateful system such as RabbitMQ, or a distributed stateful system. In those cases it really helps.
 

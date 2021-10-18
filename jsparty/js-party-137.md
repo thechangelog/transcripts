@@ -12,7 +12,7 @@ I think people forget that there was this time period called the 2000's. In the 
 
 **Fred K. Schott:** And that was your whole package ecosystem.
 
-**Mikeal Rogers:** \[00:04:05.26\] Yes, yes... \[laughs\] So you put a script-include in, add an URL, and it would just pull in things out of the web, in the browser; it wasn't running through a compiler. We were just pulling these things into the browser, just in time. And we kind of built from there. That was before this whole compiler ecosystem happened, because the web never really had a modules system. This was in the dark ages, when everything was using var, and all of that...
+**Mikeal Rogers:** \[04:05\] Yes, yes... \[laughs\] So you put a script-include in, add an URL, and it would just pull in things out of the web, in the browser; it wasn't running through a compiler. We were just pulling these things into the browser, just in time. And we kind of built from there. That was before this whole compiler ecosystem happened, because the web never really had a modules system. This was in the dark ages, when everything was using var, and all of that...
 
 **Fred K. Schott:** Ha-ha! Shudder.
 
@@ -32,7 +32,7 @@ And what ESM does is that it takes these primitives that we have in Node, like t
 
 Bundlers were a little bit more efficient when you wrote your application using ESM... There were just a lot of things to like as an application developer. The problem was that then what people were doing was they were almost downgrading the things that they published to Npm, that they shared with the world, from this ESM to this CommonJS. So going from a really explicit, new import/export, to just that module.exports, that require function, the code that runs on Node... Even if it was something that they were building only for the web. So it was kind of like a downgrading almost of Fidelity, and you can no longer analyze really easily what it has and what it's exporting and what it relies on... So it was this weird problem that we had where we had the technology, application developers were loving it, but then everything that we were relying on, which makes up like 90% of most web applications, Node applications - it's a huge chunk of what we end up running - was this lower-fidelity, this downgraded experience.
 
-**Mikeal Rogers:** \[00:08:00.19\] Yeah. And to put some more specifics on that, I think people have thought that they were using ESM for a long time, because they were using this import syntax and this export syntax. They weren't actually using Node's require function. But the thing that I think nobody really realized in doing that - they weren't using the browser primitives for that module system yet, obviously... But they were also relying on a lot of things that compilers were doing, that were actually not going to be practical for browsers to do in a native ecosystem. So one of the things that these compilers did was like if you imported a package by name, it would use Node's resolution logic for Node's module system to go and figure out where that module is by that name.
+**Mikeal Rogers:** \[08:00\] Yeah. And to put some more specifics on that, I think people have thought that they were using ESM for a long time, because they were using this import syntax and this export syntax. They weren't actually using Node's require function. But the thing that I think nobody really realized in doing that - they weren't using the browser primitives for that module system yet, obviously... But they were also relying on a lot of things that compilers were doing, that were actually not going to be practical for browsers to do in a native ecosystem. So one of the things that these compilers did was like if you imported a package by name, it would use Node's resolution logic for Node's module system to go and figure out where that module is by that name.
 
 This is one of the big things that kind of breaks in native ESM, is that these things have to map to files. The browser can't go and check a bunch of areas and directories recursively to figure out where the root of a package is. So it either needs to have directly a link to the file, or it needs to have a name that then there is like an import map - which is another feature of the ESM that we might talk about later - that maps that name to a specific file... So for tooling authors, this is kind of amazing, because now you have this statically-analyzable module system that you can pull in and just look at the syntax and kind of know what's going on... And each of those things are not pointing at a complicated resolution logic, they're just pointing at a file, when you're in this native space.
 
@@ -48,7 +48,7 @@ There are these things that seem like limitations of the platform, and they defi
 
 **Fred K. Schott:** Yeah, all of a sudden you were looking for one hashing function and you installed the entire cryptographic library of Node into your web application... It's like, "Why is my web app a megabyte?" It's like, "Oh, that's why..."
 
-**Mikeal Rogers:** \[00:11:59.05\] Yeah, yeah... It's pretty bad. \[laughter\] I've been dealing with removing just Buffer from my code. Just Buffer from our libraries and our dependencies. And honestly, at first it wasn't even migrating to uint8 array, it was just importing Buffer as a module instead of relying on the polyfill, because the polyfill was gonna break in all these compilers... And that took months, hundreds of PRs, and we have a much bigger change going down in the same stack where we're actually migrating to uint8 array, and changing out a value type is one of the most destructive things that you can do in these types of ecosystems. So it is a bit of a painful upgrade... But before we set this down, what are the benefits? What are we gonna get out of this other than just the pain of migration?
+**Mikeal Rogers:** \[11:59\] Yeah, yeah... It's pretty bad. \[laughter\] I've been dealing with removing just Buffer from my code. Just Buffer from our libraries and our dependencies. And honestly, at first it wasn't even migrating to uint8 array, it was just importing Buffer as a module instead of relying on the polyfill, because the polyfill was gonna break in all these compilers... And that took months, hundreds of PRs, and we have a much bigger change going down in the same stack where we're actually migrating to uint8 array, and changing out a value type is one of the most destructive things that you can do in these types of ecosystems. So it is a bit of a painful upgrade... But before we set this down, what are the benefits? What are we gonna get out of this other than just the pain of migration?
 
 **Fred K. Schott:** Yeah, I'd love to talk about some of the stuff we've worked on. Pika started as a way to find these packages; this idea that right now Npm search is very Node-focused... And you can think of Npm as -- it started as a Node package manager; the whole ecosystem has had a preference for Node, I would say, and not really been about what do web developers need from it. WebPack, Rollup - all these things existed to basically take that ecosystem and make it work for the web. So it was very much "Take a thing that is built to run as-installed on Node, and now do things to make it work on the web." It's a subtle point, but it's a really interesting part of the model, that we all have built on for the last ten years.
 
@@ -66,7 +66,7 @@ So the caching story for Snowpack as a dev environment is that basically every f
 
 **Christopher Hiller:** How does that work with -- say you're consuming a library that uses CommonJS. What do you have to do to support that?
 
-**Fred K. Schott:** \[00:16:06.13\] Yeah, so that's smack dab in the middle of our problem space, which is - revisiting that question, "What does tooling look like for a world where you're ESM-first?", the one thing we need to do is when you import React, we rewrite it to a URL, so a place that we are now hosting a React package... And then what we do is -- React is CommonJS, so that's actually a great example for this... What we do is we actually look at "Okay, you're writing ESM, so your files - they're the ones that change often. We'll have this really light-touch dev workflow where we rebuild and resend single files to the browser."
+**Fred K. Schott:** \[16:06\] Yeah, so that's smack dab in the middle of our problem space, which is - revisiting that question, "What does tooling look like for a world where you're ESM-first?", the one thing we need to do is when you import React, we rewrite it to a URL, so a place that we are now hosting a React package... And then what we do is -- React is CommonJS, so that's actually a great example for this... What we do is we actually look at "Okay, you're writing ESM, so your files - they're the ones that change often. We'll have this really light-touch dev workflow where we rebuild and resend single files to the browser."
 
 For your dependencies, those actually don't change that often. So what WebPack and others are doing today is they're rebuilding entire chunks of your application every time you save a source file. But what we're able to do is say "That CommonJS thing that we still need to handle - once you install it, it doesn't change." So we can actually -- essentially, what we're doing is we're bundling that one dependency, we're converting it from CommonJS to ESM one time, as an install step, more than a build step or a dev step. It's a one-time cost, but then gets reused until you change your dependencies again.
 
@@ -78,13 +78,13 @@ So we handle it as a -- we're ESM-first, but we have this CommonJS support where
 
 The idea there is that that's the problem to solve here, and once you solve that, now you are essentially an ESM-only dev environment. All of the files you're working on are ESM, all the files that you're serving to the user are ESM, and you can start to do some really cool stuff once you're relying on that assumption.
 
-**Break:** \[00:18:00.02\]
+**Break:** \[18:00\]
 
 **Mikeal Rogers:** Okay, so something that I have been doing is trying to port a lot of my libraries to native ESM... Particularly, I have a set of new libraries that are really the foundation for a kind of stack in the ecosystem that we're building, and I really don't wanna -- it's gonna be very hard to move that to ESM later, after a lot of people depend on it and there's a lot of ecosystem on top of it. So I really wanna do that now... So I've really been struggling with a lot of the incompatibilities in Native ESM, particularly in Node.js.
 
 It's been very easy for me for a long time now to write a library that works in Node, and works pretty well in browsers through compilers. If I'm using require, everything just kind of works; if I limit my dependencies, and stuff... I know kind of how to limit the tree, and things work out relatively well. There's definitely a bad way to do this and a good way to do this, and I've found a sweet spot.
 
-\[00:19:59.13\] When I started going into native ESM I was like "Ugh, everything's broken!" So to talk about some of the compatibility differences, I should start with some of the history here. So Node has a module system because we didn't have one in the browser. It's the same reason why it's own Buffer API. There was no binary API in JavaScript yet, so we had to invent one. And when Npm was created, Isaac started working a lot more on Node core, and in fact took over the module system. So Node's module system in Npm kind of co-evolved together, and the resolution algorithm inside of Node actually came from Npm and these kind of play on each other.
+\[19:59\] When I started going into native ESM I was like "Ugh, everything's broken!" So to talk about some of the compatibility differences, I should start with some of the history here. So Node has a module system because we didn't have one in the browser. It's the same reason why it's own Buffer API. There was no binary API in JavaScript yet, so we had to invent one. And when Npm was created, Isaac started working a lot more on Node core, and in fact took over the module system. So Node's module system in Npm kind of co-evolved together, and the resolution algorithm inside of Node actually came from Npm and these kind of play on each other.
 
 If you look at where compilers are today, you can see that they all kind of started with Browserify... And the take there was like "Okay, I have all this code in Node. How do I make it work in browsers?" So Substack wrote this compiler called Browserify, and it is very much from the point of view of a Node person that wants to get things on the browser, and not a browser person that wants to get things in Node. Substack is really the sort of philosophical center of the small modules philosophy in the Node.js ecosystem.
 
@@ -106,7 +106,7 @@ This was also before TC39 standards body doing JavaScript changed a lot of their
 
 So it's just been a real nightmare to try to get this into Node. I think the effort has taken roughly four years to figure out and get unflagged, and there's just been so many complications and compatibility issues... So at this point, the trade-offs that are there are somewhat permanent, and there are some things that are never going to work. So when you are writing ESM, you can import something that is CommonJS, and Node will figure it out and give you a module back.
 
-\[00:23:57.27\] If you are using require, and you try to require a module that was written in Native ESM for Node, it will fail. So this is a one-way migration that you make. And if you just publish a package that's just native ESM with nothing else, it's not gonna be usable by anybody using require. So that's really painful. And this was one of the first things that I dove into.
+\[23:57\] If you are using require, and you try to require a module that was written in Native ESM for Node, it will fail. So this is a one-way migration that you make. And if you just publish a package that's just native ESM with nothing else, it's not gonna be usable by anybody using require. So that's really painful. And this was one of the first things that I dove into.
 
 Eventually, with some help from Myles Borins, I figured out a way for Rollup to actually generate a CommonJS version of the package and all of the package files (individual files), and then you can use this thing called an export map in package.json. You can look up that feature if you want... And this is how you say "Here's where the import file is that's ESM (which is the regular file), and here's the one for require. So when you require this, like don't fail on the ESM version, here's the CJS version." So now there's this build step as part of all my stuff, that's using this export now. And that works well for Node compatibility.
 
@@ -140,7 +140,7 @@ There's a package by JDD who wrote Lodash called esm, and you can literally impo
 
 **Christopher Hiller:** To be clear, you have to require esm. You do not import esm.
 
-**Mikeal Rogers:** \[00:27:53.04\] Right, yeah. I should say that. You cannot import it, because the hooks that esm is using in the module system to do all this cross-compatibility stuff are deprecated in native ESM. So the moment that you're in an ESM \[unintelligible 00:28:08.15\]
+**Mikeal Rogers:** \[27:53\] Right, yeah. I should say that. You cannot import it, because the hooks that esm is using in the module system to do all this cross-compatibility stuff are deprecated in native ESM. So the moment that you're in an ESM \[unintelligible 00:28:08.15\]
 
 **Fred K. Schott:** And this is esm, the package.
 
@@ -168,7 +168,7 @@ They probably really made the right decision for their internal primitives, so t
 
 One of the nice things about newer compilers - the new Rollup and Node.js - is that they look at this export map, this new feature that tells you for all these different endpoints in the package what files do they map to, and can they map to something different for the browser, for require or for import.
 
-\[00:32:00.05\] But old compilers, like WebPack 4 and before, don't even know about that property. Browserify doesn't know about that property. They're gonna look at this old browser property instead. And so what you can do is you can fill that browser property up with another compile of the CommonJS compile like you did for Node, but just targeted for browsers instead of Node. So now you have to compiles that are now in your tarball...
+\[32:00\] But old compilers, like WebPack 4 and before, don't even know about that property. Browserify doesn't know about that property. They're gonna look at this old browser property instead. And so what you can do is you can fill that browser property up with another compile of the CommonJS compile like you did for Node, but just targeted for browsers instead of Node. So now you have to compiles that are now in your tarball...
 
 **Fred K. Schott:** Oh, boy...
 
@@ -200,7 +200,7 @@ Npm is successful because it did such a good job at hiding that dependency tree 
 
 **Mikeal Rogers:** It's as bad as you would think, right?
 
-**Fred K. Schott:** \[00:36:02.19\] It feels like specifically you are starting to realize -- tell me if this is a fair representation... That this migration is gonna need some help from the tooling ecosystem, even for Node developers. That the idea of a whole ecosystem moving in lockstep from one module system to another is not gonna be easy, or just something that can happen naturally. That there will need to be some sort of limbo state (I think that's a pretty well-named title) of a package to handle all this transition.
+**Fred K. Schott:** \[36:02\] It feels like specifically you are starting to realize -- tell me if this is a fair representation... That this migration is gonna need some help from the tooling ecosystem, even for Node developers. That the idea of a whole ecosystem moving in lockstep from one module system to another is not gonna be easy, or just something that can happen naturally. That there will need to be some sort of limbo state (I think that's a pretty well-named title) of a package to handle all this transition.
 
 **Mikeal Rogers:** Yup. So I will talk real fast - I know that we're sort of running out of time for this segment, but I do wanna talk about testing a little bit, because I think as a library author, it's one of the key benefits that you can see getting out of native ESM... Where the testing infrastructure can get a little bit nicer. One is that we just have a nicer primitive for a module system; so thinking of a module as a test, and as something that you can -- not just a file that you run and you have to inject a lot of environment around, but really almost like an object or almost like a data structure that you can pull in and poke at.
 
@@ -220,7 +220,7 @@ I'm already starting to realize a lot of the benefits of this system. Using nati
 
 **Fred K. Schott:** Yeah, it's a good way to showcase how having that one single module format for everyone really benefits the workflow itself. One thing that -- Jest I think is a really powerful test runner, but if you've ever run into like a caching issue, or tried to configure it, or peaked into that kind of plugin ecosystem that they built out, it's a pretty heavy process, especially for frontend developers, where you're building and bundling at the same time as you're then running tests on them... And you essentially have this shadow build system for a test runner, that again, they do their best to hide from you... But when you need to troubleshoot something, you really have to start digging into "Okay, what are they doing to make this code that doesn't run in Node run in a Node test runner?"
 
-**Mikeal Rogers:** \[00:40:15.20\] Yeah, yeah.
+**Mikeal Rogers:** \[40:15\] Yeah, yeah.
 
 **Fred K. Schott:** Everything you said sounds really exciting, but even just at the most primitive, this idea that -- the test runners have a lot of complexity that we don't realize until we really get stuck with a problem that's hard to solve.
 
@@ -244,7 +244,7 @@ This was really written in mind like "What is the most minimal set possible, tha
 
 **Mikeal Rogers:** Yeah, one of the nice things about this is that -- so import maps are a feature that's in Chrome under a flag, so not by default. It's not something that you can really rely upon, so you can't really do named imports in the browser right now. But they are on a flag, and so that means that if you're doing your tests in Puppeteer, you can actually totally rely on this feature, without anybody even knowing about it. So that's been awesome, and that's key to the browser support that I'm working on right now.
 
-\[00:44:17.01\] So this was the only module that I have that runs in Deno and in Node, and it was very educational to see what it was like to really write code that has no dependencies, that truly has no dependencies on anything else. I do some terminal color highlighting, and I had to write all that by hand... And also just to remember how many of the Node standard library interfaces that we're using and rely upon and don't even think about aren't in the browser. A lot of the things in this runner -- you have to pass in the current working directory, and you have to pass in the standard out interface, and stuff...
+\[44:17\] So this was the only module that I have that runs in Deno and in Node, and it was very educational to see what it was like to really write code that has no dependencies, that truly has no dependencies on anything else. I do some terminal color highlighting, and I had to write all that by hand... And also just to remember how many of the Node standard library interfaces that we're using and rely upon and don't even think about aren't in the browser. A lot of the things in this runner -- you have to pass in the current working directory, and you have to pass in the standard out interface, and stuff...
 
 **Fred K. Schott:** Oh, interesting.
 
@@ -266,11 +266,11 @@ I think their approach to package management - they don't have any right now, an
 
 **Mikeal Rogers:** Yeah. \[laughs\]
 
-**Break:** \[00:47:01.04\]
+**Break:** \[47:01\]
 
 **Mikeal Rogers:** Let's get into the thing that people actually care about. "I'm building applications; I'm one of the people who built applications and not just libraries, like Mikeal likes to mess around with... But what do I do? How do I build things? What kinds of benefits are there? Tell me how to do this, Fred, because I actually don't know."
 
-**Fred K. Schott:** \[00:48:12.24\] How to build an application with ESM?
+**Fred K. Schott:** \[48:12\] How to build an application with ESM?
 
 **Mikeal Rogers:** Yeah... I just write modules, so... You're gonna have to tell me how to make websites. \[laughs\]
 
@@ -292,7 +292,7 @@ So performance is that thing where if you're happy with what you're doing, it's 
 
 **Mikeal Rogers:** And it shouldn't be underestimated - these features really do enable a lot better performance, particularly for applications that are changing all the time... Because not every file, not every dependency is changing all that often, and a lot of the code that you're loading one time, you're actually loading every time because of a bundle. There's a lot that people talk about, like how small they got their bundle, and what their bundle performance is, and what minification does, which algorithm they use for compression... You're all getting the bundle down and down and down, but at the end of the day if loading the entire bundle is the best performance that you will ever have, that is actually still pretty bad. In an application that you're loading every day and that people are loading every day, they have all this cache that they really should be able to benefit from, and they can't.
 
-**Fred K. Schott:** \[00:52:31.18\] Yeah.
+**Fred K. Schott:** \[52:31\] Yeah.
 
 **Mikeal Rogers:** And browsers that support this are a lot of people's mobile phones. Most mobile phones are running new(ish) Chrome or new(ish) Safari... Not the newest, but new enough that often they do have these features. So for a lot of especially mobile people, the first time they load the page it's gonna take as long as it always did, but the next time they load the page, after you updated a couple things but none of your big dependency bundles, it's gonna be really fast. You're only gonna need one of those.
 
@@ -312,7 +312,7 @@ There's this really cool caching story there, where just by default you get a mu
 
 **Fred K. Schott:** Yeah, we have templates for all of these, and official plugins to support the build-in. The reason I say "Just try it and see how it works" is because what you get is essentially a 50 millisecond startup time, where instead of having to do any upfront work, we're following this model where we only need to build things as they request it. So you run your npm start, or whatever you do to start your dev server, and finger-snap, it's there. The way that that works is that because all we're doing is really setting up a server, that start-up time is -- there's nothing to do. We haven't seen you request a file yet. What that does is then you open your browser, you go to the dev site, and now all of a sudden the browser is telling the dev server "Hey, I need these files."
 
-**Mikeal Rogers:** \[00:56:16.21\] And a lot of those files don't need to be compiled, right? A lot of them can just be loaded.
+**Mikeal Rogers:** \[56:16\] And a lot of those files don't need to be compiled, right? A lot of them can just be loaded.
 
 **Fred K. Schott:** Yeah, exactly. So if you're just writing plain, old JavaScript - you're not using React, you're not using TypeScript - we're essentially just piping them; it's a pretty light dev server. And then where we come into play and where we start to match the world that you're used to - the WebPack, the build compiled world - is that we will then take a file like a TypeScript file, or a Svelte file, or a Vue file, and as it goes through that pipeline from the dev server and back to the browser, we will just build that one file.
 

@@ -16,7 +16,7 @@ Maybe let's start off by just talking about what we might mean by project struct
 
 **Mikeal Rogers:** Why don't we put it this way... You're starting a project - what are the steps that you would go through in order to create that project? Before we get into that, me and Feross just share too much history and aesthetic things in common that we're gonna skip over a bunch of really obvious stuff, if we don't actually get into it right now... Like the idea that smaller modules are good; that's not controversial between us, so we wouldn't get into it unless having explicitly talked about it.
 
-\[00:04:22.29\] I think that both of us tend to write smaller modules. These are modules that do something predictable, like they take an input and they do something predictable and they give you an output, for the most part. We don't write a lot of plugin systems, we don't write a lot of things where you pass it in and it mutates that thing and gives it back to you, and then you stack those up into a plugin system. We don't tend to write things like that, and it's fair to say that we tend to gravitate away from frameworks and libraries that do do that... Although sometimes it's not entirely possible. I can't think of a single module I've written that had a configuration file that was loaded, or anything like that. Maybe Feross has had to do that before...
+\[04:22\] I think that both of us tend to write smaller modules. These are modules that do something predictable, like they take an input and they do something predictable and they give you an output, for the most part. We don't write a lot of plugin systems, we don't write a lot of things where you pass it in and it mutates that thing and gives it back to you, and then you stack those up into a plugin system. We don't tend to write things like that, and it's fair to say that we tend to gravitate away from frameworks and libraries that do do that... Although sometimes it's not entirely possible. I can't think of a single module I've written that had a configuration file that was loaded, or anything like that. Maybe Feross has had to do that before...
 
 **Feross Aboukhadijeh:** No, not really.
 
@@ -36,7 +36,7 @@ So you're very free to rely on modules. You're not gonna be asked to resolve con
 
 So from that point of view, when I'm looking at building a new application, I usually actually don't start with the application. I think about the application and what the hardest problems are, and how I can break those into basically modules that only do that hard thing, and not everything else.
 
-**Feross Aboukhadijeh:** \[00:07:56.11\] Yeah... Just to add to this - there's a great thing Substack wrote about this; I'm pretty sure he wrote this... It's something along the lines of when you're trying to build an application, think of what modules, if they existed, would make building this application trivial.
+**Feross Aboukhadijeh:** \[07:56\] Yeah... Just to add to this - there's a great thing Substack wrote about this; I'm pretty sure he wrote this... It's something along the lines of when you're trying to build an application, think of what modules, if they existed, would make building this application trivial.
 
 **Mikeal Rogers:** Yeah.
 
@@ -70,7 +70,7 @@ Another really cool thing is -- so after you get init and after you do your firs
 
 **Mikeal Rogers:** \[laughs\]
 
-**Feross Aboukhadijeh:** \[00:12:10.23\] This is actually a good tip.
+**Feross Aboukhadijeh:** \[12:10\] This is actually a good tip.
 
 **Kevin Ball:** This is like pro tips, Node-specific. This is awesome.
 
@@ -98,7 +98,7 @@ Another quick tip here, too - NYC has this giant command to run and require 100%
 
 If you put that into your GitHub action, or Travis, or whatever CI that you're using, now your tests just actually fail if they don't get 100% coverage. So it's the tests themselves, and then also the coverage check... So then when you're getting pull requests and stuff like that, if the coverage drops at all, you'll see it, and the test will pass, and they know to add it.
 
-**Feross Aboukhadijeh:** \[00:15:59.19\] I love that. You're basically using Npm to post your shell aliases.
+**Feross Aboukhadijeh:** \[15:59\] I love that. You're basically using Npm to post your shell aliases.
 
 **Mikeal Rogers:** Yeah. Because then you can run Npx on them, too.
 
@@ -126,7 +126,7 @@ There's just a bunch of reasons why this whole setup just gets annoying... And i
 
 **Feross Aboukhadijeh:** Interesting. I kind of still wish there was a way to do some kind of a time delay between the Git commit and the publish, so that I could look through every day and see what is about to go out. Maybe it's because I'm into security a little bit; I'm really paranoid about some terrible worm or something affecting my account or the modules I'm responsible for.
 
-**Mikeal Rogers:** \[00:20:12.13\] That shouldn't be too hard... What you could do is you could -- oh man, now we're getting really into GitHub Actions. So you can do scheduled GitHub Actions that are cron jobs, basically, that just run in the cloud with all your repo code. Say you wanted to just do weekly releases; every week it would post an issue, and then the issue would say "Hey, we're gonna pull this git hash and do a release of it. Here's everything in it", and then you would get an email about that, and then you would have basically 24 hours to decide "Hey, I'm actually gonna go do that."
+**Mikeal Rogers:** \[20:12\] That shouldn't be too hard... What you could do is you could -- oh man, now we're getting really into GitHub Actions. So you can do scheduled GitHub Actions that are cron jobs, basically, that just run in the cloud with all your repo code. Say you wanted to just do weekly releases; every week it would post an issue, and then the issue would say "Hey, we're gonna pull this git hash and do a release of it. Here's everything in it", and then you would get an email about that, and then you would have basically 24 hours to decide "Hey, I'm actually gonna go do that."
 
 **Feross Aboukhadijeh:** I kind of like that, actually. I might look into that. That actually sounds cool.
 
@@ -156,7 +156,7 @@ Building on that, I wrote another one that grabs your bundle size - so it'll ins
 
 **Kevin Ball:** Alright, so this has been fascinating... I think it's a good time to take a little break, and then we will come back and maybe loop back a little bit to more specifically Node project structure. I know you two have both talked a lot about packages and libraries, but I'd be interested to explore the app side of things... So let's take a quick break and then we'll come back and dig in more.
 
-**Break:** \[00:23:41.05\]
+**Break:** \[23:41\]
 
 **Kevin Ball:** Welcome back! We are here again, talking more and more about Node project infrastructure. Now, while I could probably listen all day to y'all jam on how to better publish modules, and best practices, and using GitHub Actions - and we will include a bunch of links in the show notes about that - I do wanna get back to this question of project structure.
 
@@ -178,7 +178,7 @@ The most recent project I've done is called bitmidi.com, and that's all open sou
 
 **Kevin Ball:** Well, one interesting there is -- I feel like the front-end frameworks, some of them, have started to instill this. And even if it's not core in the framework, they've created boilerplates with standards. Create React App started this, and then you have Next doing it in React; Vue CLI has one structure, they've got Nuxt, which is very similar to Next... Things like that.
 
-\[00:28:07.22\] So the front-end frameworks, perhaps because they are more commonly building apps and there's a more visible structure in terms of the URLs and things like that, they seem to have been pushing more strong opinions on structure.
+\[28:07\] So the front-end frameworks, perhaps because they are more commonly building apps and there's a more visible structure in terms of the URLs and things like that, they seem to have been pushing more strong opinions on structure.
 
 I was looking for an equivalent in the back-end actually, and -- I don't know, does Express have a standard for how they lay things out in the file system?
 
@@ -208,7 +208,7 @@ Let's just define monorepo real quick, because I've seen that thrown around a lo
 
 So it's easier to build that kind of stuff on top of this hash-based structure than it is to try to make all of your developers really diligent about what public and private APIs are, and if this change really impacts them, and messaging all of that. Once you're relying on humans for that information, it becomes highly problematic, and it's as reliable as SemVer version numbers are, which is to say it's not...
 
-**Kevin Ball:** \[00:32:16.07\] Not at all.
+**Kevin Ball:** \[32:16\] Not at all.
 
 **Mikeal Rogers:** \[laughs\] Yeah. SemVer would be great if nobody ever shipped bugs; but it turns out that people ship bugs in their software, and so those patch releases could break things... \[laughs\]
 
@@ -238,7 +238,7 @@ I'm at this conference right now called Open Source Summit, and there's this -- 
 
 **Feross Aboukhadijeh:** "You have thousands and thousands of these little things everywhere. How do even know what's going on?" Maybe I'm getting old, or something, but that seems like craziness to me.
 
-**Mikeal Rogers:** \[00:36:06.01\] Again, I'll plug the ZEIT stuff a little bit more... They have this very brilliant set up, that I don't know why other service providers don't do. Essentially, whenever you do a deploy, whenever you push new code for a service, you get an URL that has a hash in it, that is just for that deployment. So there's no way to deploy to production. You do a deploy, you get a unique URL, and then at some point in time you say "Oh, you know what - I want that to be productioned now", and you basically alias production to that.
+**Mikeal Rogers:** \[36:06\] Again, I'll plug the ZEIT stuff a little bit more... They have this very brilliant set up, that I don't know why other service providers don't do. Essentially, whenever you do a deploy, whenever you push new code for a service, you get an URL that has a hash in it, that is just for that deployment. So there's no way to deploy to production. You do a deploy, you get a unique URL, and then at some point in time you say "Oh, you know what - I want that to be productioned now", and you basically alias production to that.
 
 This is a really nice setup, because for local development you can just keep pushing new URLs, and testing them, and looking at what happened... It's a really nice setup for CI, because as things are coming into a pull request, if it wants to test against a live server, then it can just update this hash-based URL and test everything and make sure the production works with all of this new code... And then when something finally lands in master, there's actually already a GitHub action for ZEIT, that will just re-alias all the production; make sure that everything there is deployed, and then alias production to it.
 
@@ -272,7 +272,7 @@ Also, I've been working with Cloudflare workers recently, and there's no logs. A
 
 **Feross Aboukhadijeh:** Yeah, that's true, I do.
 
-**Mikeal Rogers:** \[00:40:09.05\] Yeah. Well, then you can just make a GitHub action that will automatically fail the whole build if anybody does a push with that that didn't come from a PR. So then you're trusting in your PR process, basically.
+**Mikeal Rogers:** \[40:09\] Yeah. Well, then you can just make a GitHub action that will automatically fail the whole build if anybody does a push with that that didn't come from a PR. So then you're trusting in your PR process, basically.
 
 **Feross Aboukhadijeh:** That's true, yeah. Then you have to have two collaborators who both turned evil in order to compromise... Okay, that's actually reasonable. I would accept that level of risk... Okay.
 
@@ -298,7 +298,7 @@ Yeah, it's actually a really common workflow, where you can easily get these uni
 
 **Mikeal Rogers:** Yeah, yeah... Now that these teams are working with a lot of Lambda stuff, and a lot of event-based architectures, there's a lot more opportunities for you to just say "Oh, okay, my thing is a new service, and I have new data that's hanging off of the old data, and I just have a hook whenever any new data is created, to mutate it and put it in this other thing." So these two things can live side-by-side for quite a while and be relatively consistent, or optimistically consistent, I guess. I see bigger teams doing that a lot more... And I don't know if that's necessarily "the best" setup, but if you've ever tried to work with another team to do a data migration through an infrastructure team, it's just a huge process. So if you really want to get out a feature and try something, this is a much faster flow that you can work with.
 
-**Feross Aboukhadijeh:** \[00:43:48.17\] I also just wanna zoom out for a second and also just mention that -- here's a thing I worry about with some of these discussions... There's probably a bunch of people who are listening to us talking about this now, who are like "Oh, I've gotta go change my process now. I've gotta do GitHub Actions because Mikeal said so." Maybe you should do that, but also, if what you're doing now is working and you have other higher priorities, you don't have to drop everything; it's not like some huge problem that you have.
+**Feross Aboukhadijeh:** \[43:48\] I also just wanna zoom out for a second and also just mention that -- here's a thing I worry about with some of these discussions... There's probably a bunch of people who are listening to us talking about this now, who are like "Oh, I've gotta go change my process now. I've gotta do GitHub Actions because Mikeal said so." Maybe you should do that, but also, if what you're doing now is working and you have other higher priorities, you don't have to drop everything; it's not like some huge problem that you have.
 
 My process currently with my Jenkins server, even though you laugh at it, it actually works great. So I'm not actually in a huge rush to go and change it. Maybe if it breaks, or I need to update it and it's really painful, maybe I'll decide at that point "Oh, GitHub Actions - maybe it's time for me to look at those again." But I'm not in some huge rush to go and--
 
@@ -322,7 +322,7 @@ A lot of the pieces are there now where you don't need to have a lot of load on 
 
 **Mikeal Rogers:** \[laughs\]
 
-**Break:** \[00:47:07.24\]
+**Break:** \[47:07\]
 
 **Kevin Ball:** Okay, let's get back into it and talk about "How do we get there from here?" I have been just nerding out, listening to the two of you talk... There's so much awesome, cool stuff that is possible. One of the crazy things - and one of the things that, Mikeal, you brought up in a previous episode was because this is an ecosystem that's growing and very active, stuff is changing all the time, best practices are changing all the time... So I wanna use this segment to pick your brains on how do you adopt change? How do you keep up, how do you move things forward? If you are coming into this and you've been doing the same thing for the last five years, which as much as that sounds really painful, particularly to see these moves, is I think not that uncommon, particularly if you've been working inside larger companies, just kind of doing your thing.
 
@@ -354,7 +354,7 @@ A good example of that is CoffeeScript. A lot of people thought that that would 
 
 Also, keeping things as smaller modules that do one thing makes upgrades a lot easier. I would say that's not universally true, though. It makes upgrading certain components easier, when just those components change, or you just find a new version... But, for instance, the migration in all of Node's ecosystem, from callbacks to async/await, is a very big transition. And the more modules that you have, in like a big dep tree, the harder that transition is, because you have to update all of them, and you have to \[unintelligible 00:51:55.14\] all of those updates. It's pretty painful. We're doing it right now in IPFS actually, and it's a huge effort... But at the end of the day worth it, because we know that things are moving in that direction permanently, and we expect to be alive and we expect this project to be used by more people in the future, not less... So we should definitely take down \[unintelligible 00:52:13.22\]
 
-**Kevin Ball:** \[00:52:17.00\] A couple of things I'd love to dig in... One is just like how do you make that distinction between "This is a linear set of changes", as you described it, "that's going to impact the entire industry", versus a parallel option? People thought CoffeeScript was the future.
+**Kevin Ball:** \[52:17\] A couple of things I'd love to dig in... One is just like how do you make that distinction between "This is a linear set of changes", as you described it, "that's going to impact the entire industry", versus a parallel option? People thought CoffeeScript was the future.
 
 **Mikeal Rogers:** Yeah... So at the time you could believe that a little bit easier, because TC39 was doing roughly nothing, and hadn't put out much in a while. That's no longer the case though, right?
 
@@ -376,7 +376,7 @@ There's not a ton of compute-only things that you really need the efficiency of 
 
 **Feross Aboukhadijeh:** Yeah. I've added some people to the StandardJS repo that did translations, for example; they translated the readme. I'm not saying they're not trustworthy; they probably are. But just from a security, minimal access, defense in depth - all the good security practices - you don't wanna give somebody access that they don't need. So they would probably need to switch to a different permission. But the problem is -- yeah, I guess they could still send PRs, and they could do triage, or whatever, but they shouldn't get a commit bit, I think, in that situation.
 
-**Mikeal Rogers:** \[00:56:24.09\] Or you can change the workflow a bit, so that if somebody tries to merge their own PR, or they try to push without a PR, that it gets rejected. You can automate some of the other things to satisfy these same needs, and not just like "Adopt this right away."
+**Mikeal Rogers:** \[56:24\] Or you can change the workflow a bit, so that if somebody tries to merge their own PR, or they try to push without a PR, that it gets rejected. You can automate some of the other things to satisfy these same needs, and not just like "Adopt this right away."
 
 **Feross Aboukhadijeh:** Right. One thing I like about GitHub Actions stuff is I think probably if I were to adopt this - and I'm probably going to... I wanted to make the point about thinking about stuff carefully before just jumping on the bandwagon, but I think this is probably something I'm gonna adopt. I would probably start by trying to eliminate parts of the Jenkins stuff. All Jenkins does in my situation is it just listens for Git pushes, and then it runs a command on a server; it SSHes in and runs a script, basically. That seems pretty easy to just put into a GitHub action, so I'll probably start by picking one website (like BitMidi, or something) and then just saying "I'm gonna use GitHub Actions to deploy it", and then if it works out nicely and it doesn't cause me problems, then at some other point I will swap over all the sites to do that, all the sites I manage, not just that one. But I would test it on one first.
 
@@ -394,7 +394,7 @@ Some people will say "Oh man, I have my PHP site on this $5 Droplet, but it's st
 
 **Feross Aboukhadijeh:** Upgrade it to a $10 Droplet, instead of a $5 Droplet.
 
-**Mikeal Rogers:** \[00:59:56.28\] Yeah, yeah. \[laughs\] I mean, caching solves most performance issues, actually. People really obsess about the most performant compute patterns... But unless you're doing ML, just caching, please. Caching solves most things.
+**Mikeal Rogers:** \[59:56\] Yeah, yeah. \[laughs\] I mean, caching solves most performance issues, actually. People really obsess about the most performant compute patterns... But unless you're doing ML, just caching, please. Caching solves most things.
 
 **Kevin Ball:** Yeah. Those sound like great pieces of advice. Pick a project at a time. Don't do one that has real problems; this isn't solving real problems...
 

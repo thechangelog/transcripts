@@ -12,7 +12,7 @@
 
 **Gerhard Lazu:** Yeah. And those things didn't happen in a void, right? So you had this amazing library, which you just happen to have; I don't know how many libraries you have, but I'm sure you have a few... But this is prom\_ex, or Prom E-X, as I like to pronounce it, because of that underscore... PromEx - can you tell us a bit more about that, what that is, the library?
 
-**Alex Koutmos:** \[00:04:14.06\] Sure thing. I guess the elevator pitch for PromEx is that you drop in this one library, you add it to your application supervision tree, and then you do some slight configuration, kind of like in an Ecto repo, where you slightly configure your repo, you slightly configure your PromEx module, and then you say "Hey, I want a metrics plugin for Phoenix, a metrics plugin for Ecto", I also have one for Oban, and LiveView... So you kind of pull in whatever plugins you want that are applicable to your project... And then that's literally it. That's all you have to do. And then you have Prometheus metrics for all the plugins that you configured, and then for every plugin that I write that captures Prometheus metrics there's also a corresponding Grafana dashboard that PromEx will also upload to Grafana for you if you choose to have PromEx do that. That's kind of like an end-to-end solution for monitoring. You can set PromEx up and get dashboards and metrics in five minutes.
+**Alex Koutmos:** \[04:14\] Sure thing. I guess the elevator pitch for PromEx is that you drop in this one library, you add it to your application supervision tree, and then you do some slight configuration, kind of like in an Ecto repo, where you slightly configure your repo, you slightly configure your PromEx module, and then you say "Hey, I want a metrics plugin for Phoenix, a metrics plugin for Ecto", I also have one for Oban, and LiveView... So you kind of pull in whatever plugins you want that are applicable to your project... And then that's literally it. That's all you have to do. And then you have Prometheus metrics for all the plugins that you configured, and then for every plugin that I write that captures Prometheus metrics there's also a corresponding Grafana dashboard that PromEx will also upload to Grafana for you if you choose to have PromEx do that. That's kind of like an end-to-end solution for monitoring. You can set PromEx up and get dashboards and metrics in five minutes.
 
 **Gerhard Lazu:** I really like that part, especially the Grafana dashboards. Sometimes it's just so difficult to integrate it just right, get the correct labels, get the correct things... What happens when there's an update? Then you'd have to update the Grafana dashboard. And the one really interesting thing that PromEx - I'm pronouncing it the way you're pronouncing it, Alex; it's your library, so you're the boss here... So PromEx - I like how it manages all aspects of metrics, all the way from the Erlang VM, all the metrics, not just Erlang metrics, but as you mentioned, all those libraries, all those components of an Elixir/Phoenix app... And end-to-end, including when you have new deploys.
 
@@ -26,7 +26,7 @@ I've been playing around with these ideas for probably a couple years now. PromE
 
 **Gerhard Lazu:** That's right. I remember your early days - I would say maybe the beginning of PromEx, when we were trying to figure out what dashboards are missing, and can we improve them slightly... So I remember us working together, a little bit - it wasn't a massive amounts; just enough to make them nice. The integration was really nice. I remember when you added support for custom dashboards, which we do make use of, by the way... So we have some custom dashboards as well, that PromEx can upload for you. That was a great feature... So now we store our Grafana Cloud dashboards with the app, and PromEx updates them. So we have nice version control going around.
 
-\[00:07:49.16\] And you heard that right, we do use Grafana Cloud. We used to run our own Grafana, but then it was much easier to set up Grafana Agent, scrape all the metrics, scrape all the logs from our apps, from all the pods, from everything; we have even the Node Exporter integration in the Grafana Cloud Agent. We ship all those things to Grafana Cloud, PromEx handles most of the dashboards for us, which is really cool, and we have that nice integration going from our infrastructure, which is running Kubernetes (implementation detail, I suppose). We have a really nice setup, all version-controlled, and PromEx handles a lot of the automation between the Grafana Cloud and our app... Or should I say the other way around - between our app and the Grafana Cloud.
+\[07:49\] And you heard that right, we do use Grafana Cloud. We used to run our own Grafana, but then it was much easier to set up Grafana Agent, scrape all the metrics, scrape all the logs from our apps, from all the pods, from everything; we have even the Node Exporter integration in the Grafana Cloud Agent. We ship all those things to Grafana Cloud, PromEx handles most of the dashboards for us, which is really cool, and we have that nice integration going from our infrastructure, which is running Kubernetes (implementation detail, I suppose). We have a really nice setup, all version-controlled, and PromEx handles a lot of the automation between the Grafana Cloud and our app... Or should I say the other way around - between our app and the Grafana Cloud.
 
 So just to backtrack a little bit, all this was possible -- I think the beginning was the application. So Changelog.com, it's publicly available, freely available source code; it's a Phoenix application. That was an excellent idea, Jerod. I don't wanna say it's one of the best ones you've had, but it was a genius idea to do that. It was so good. And what that meant is that we were exposed to this whole ecosystem which is Erlang, Elixir, Phoenix, and there's so many good things happening in it.
 
@@ -48,7 +48,7 @@ So PromEx actually does ship with a very lightweight HTTP server, and it'll just
 
 **Gerhard Lazu:** Yeah, that's right. And you expose metrics. Just metrics.
 
-**Alex Koutmos:** \[00:12:10.00\] Yeah, for now it's metrics. Earlier you mentioned Grafana Agent, and the idea is to eventually ship that as part of PromEx. It will be like an optional download. So as PromEx is starting, if you configure it to push Prometheus metrics, you can have PromEx download the agent, get it up and running in a supervision tree... Then you don't even need to have PromEx serve up an HTTP server. You can push metrics directly.
+**Alex Koutmos:** \[12:10\] Yeah, for now it's metrics. Earlier you mentioned Grafana Agent, and the idea is to eventually ship that as part of PromEx. It will be like an optional download. So as PromEx is starting, if you configure it to push Prometheus metrics, you can have PromEx download the agent, get it up and running in a supervision tree... Then you don't even need to have PromEx serve up an HTTP server. You can push metrics directly.
 
 I've actually used Grafana's cloud offering. It's quite nice, and it makes the observability story super nice, especially if you're running in Heroku, or Gigalixir, places where maybe you don't own the infrastructure end-to-end, and it's tough to have a Prometheus instance scraping your stuff over the public internet. So remote write, Grafana Agent - all super-exciting things, and hopefully coming soon to PromEx.
 
@@ -68,7 +68,7 @@ Then you might say "Okay, let's only log what's important", and I'm sure \[unint
 
 Then you reach for other tools, like metrics. Metrics eventually find their way into some sort of a time series database, and they're usually pretty efficient in comparison to logs, because they're more bounded. You have a measurement, you have a timestamp, and you have some labels associated with it. A little asterisk there, because that kind of depends on what your time series database of choice is. But that's kind of roughly speaking what goes into capturing time series data.
 
-\[00:15:57.10\] So given that you've paired down what information you're capturing, you could start a lot more efficiently, and it's a lot easier to query, and you can keep these for way longer periods of time. But the problem is there that you've now traded off high-fidelity logs for explicit metrics that you're capturing over time. Again, a trade-off, and there are different tools for the job, and you kind of reach for what's best at that particular point in time.
+\[15:57\] So given that you've paired down what information you're capturing, you could start a lot more efficiently, and it's a lot easier to query, and you can keep these for way longer periods of time. But the problem is there that you've now traded off high-fidelity logs for explicit metrics that you're capturing over time. Again, a trade-off, and there are different tools for the job, and you kind of reach for what's best at that particular point in time.
 
 And then traces is kind of like a merger of the two, logs and metrics, where you can see how long your application is sitting in different parts of the application; if you're making external service calls, how long are you waiting for those external service calls... If you have something like Istio setup and you can track requests across services, you can see how long it takes to balance across service A, B, C and D, and how long it takes to unroll and go all the way back to the original caller... And then again, you get some metadata associated with those traces, and timestamps, and stuff like that.
 
@@ -80,7 +80,7 @@ So I think that perspective is very interesting, and I will definitely follow up
 
 I think it's very interesting to get to that tool which unifies them all, and Grafana Cloud could be it, but there are others as well. Now, I'm not going to go through all the names, because that's boring, but what is interesting is that we seem to be going in the same direction. And we may argue between ourselves whether the pillars of observability are a thing, or are just a big joke - different perspectives - but I think ultimately what really matters is being able to understand what is happening in your application, or what is happening with your website, or your service, or whatever. Unknown unknowns. I'm not going to open that can of worms... But the point being is "Do you understand what is happening?" It may be imperfect, it may be limited, but do you have at least an idea of where to look, where the problems are?
 
-\[00:19:59.28\] And I do know that PromEx helped us or helped you with the N+1 queries. It was very obvious "Hey, we have a problem in Ecto, and this is what that problem looks like, and this is how we fix it. And yes, we fixed it. Does Erlang 24 improve things to Erlang 23, and in what way?" And we can answer those questions as well.
+\[19:59\] And I do know that PromEx helped us or helped you with the N+1 queries. It was very obvious "Hey, we have a problem in Ecto, and this is what that problem looks like, and this is how we fix it. And yes, we fixed it. Does Erlang 24 improve things to Erlang 23, and in what way?" And we can answer those questions as well.
 
 So I think that monitoring is not going anywhere, and I think everybody respects it for what it is... But we also are aware that there are better ways, and we should improve this. So with that in mind, where do you see PromEx going? What are the hopes and the goals for the project?
 
@@ -100,7 +100,7 @@ And to that end - and I'll go back to your original question now - I would like 
 
 **Gerhard Lazu:** I think that's a very interesting perspective. I love that.
 
-**Break:** \[00:23:11.07\]
+**Break:** \[23:11\]
 
 **Gerhard Lazu:** That was a really interesting point that you've made, Alex, just before the break, and I would like to dig into it a little bit more. I would like to hear more about PromEx, the hopes and goals, because I think there's more to unpack there... But I find it very interesting how the exemplars that you have in metrics, how they link to traces. You've mentioned something very interesting about logs, and how a lot of information can be derived from them if the logs are in the right format.
 
@@ -122,7 +122,7 @@ But for when you can control those things, I think storing them in a time-series
 
 **Gerhard Lazu:** That's interesting. Okay. So PromEx - big on metrics. Maybe logs? Are you thinking maybe log?
 
-**Alex Koutmos:** \[00:28:07.12\] Perhaps... I think the extent of the log support out of PromEx will be just the shipping mechanism, given that the plan is to have Grafana Agent as part of PromEx's optional download. You can target that Grafana Agent for exporting logs to Loki. But I don't think PromEx will transform into a library where it also provides structured logging mechanisms. I think there's some good stuff already built into the Elixir logger on that front... But that's not a problem I'd like to tackle in the PromEx library.
+**Alex Koutmos:** \[28:07\] Perhaps... I think the extent of the log support out of PromEx will be just the shipping mechanism, given that the plan is to have Grafana Agent as part of PromEx's optional download. You can target that Grafana Agent for exporting logs to Loki. But I don't think PromEx will transform into a library where it also provides structured logging mechanisms. I think there's some good stuff already built into the Elixir logger on that front... But that's not a problem I'd like to tackle in the PromEx library.
 
 **Gerhard Lazu:** Okay, that makes sense. What about events?
 
@@ -138,7 +138,7 @@ That's effectively how PromEx works. All these libraries that I attach to are em
 
 I think the story there in Elixir and Erlang is very unique, because the ecosystem has kind of said, "Okay, we're all gonna use these foundational building blocks." And I think -- the last time I looked on hex.pm, I think there were like 140 libraries using telemetry, which means now across the ecosystem we have this ubiquitous language for how do we surface internal events in our libraries... Which is very powerful, because now I don't need to learn how Phoenix exports events, and how Oban exports events, and how Ecto exports events... It's all the same thing; I just need to hook into an ID for what that event is, and I'm off to the races at that point, and I can capture any information that I like.
 
-**Gerhard Lazu:** \[00:31:45.15\] That explains why PromEx was such a -- I wouldn't say straightforward, but almost like it was obvious how to put it together. It was obvious what users want and need, because you have all these libraries that expose these events; they're there, you can consume them. So Ecto this week, Oban next week... I'm simplifying it, a lot, but roughly, that's how you were able to ship support for all the different libraries, because they all standardized on how they expose events. Is that a fair summary?
+**Gerhard Lazu:** \[31:45\] That explains why PromEx was such a -- I wouldn't say straightforward, but almost like it was obvious how to put it together. It was obvious what users want and need, because you have all these libraries that expose these events; they're there, you can consume them. So Ecto this week, Oban next week... I'm simplifying it, a lot, but roughly, that's how you were able to ship support for all the different libraries, because they all standardized on how they expose events. Is that a fair summary?
 
 **Alex Koutmos:** Yeah, that's exactly right. It is quite a bit simplified...
 
@@ -172,7 +172,7 @@ So the idea is that you use PromEx for all the shared libraries in the ecosystem
 
 **Gerhard Lazu:** Right. I don't know... I really don't know.
 
-**Alex Koutmos:** \[00:36:17.28\] Yeah, me neither.
+**Alex Koutmos:** \[36:17\] Yeah, me neither.
 
 **Gerhard Lazu:** Okay.
 
@@ -184,11 +184,11 @@ But yeah, Broadway is on the list... And then Absinth is on the list after that,
 
 **Gerhard Lazu:** That makes so much sense. Of course. The way you put it, it's obvious. What's the most popular? That thing. Okay... Well, that will have the most users and will be the most successful, and people will find it the most useful. So yeah, that makes perfect sense. I like that. Very sensible.
 
-**Break:** \[00:38:00.24\]
+**Break:** \[38:00\]
 
 **Gerhard Lazu:** So one of the things that we wanted to do - I think we were mentioning this towards the beginning of the show... We were saying how Erlang 24 just shipped. It was a few weeks ago, the final 24 release. We have the first patch release... And we wanted to upgrade the Changelog app to use Erlang 24. So here's the plan... By the time you're listening to this, either next day or a few days after, we will be performing a live upgrade on the Changelog.com website, from Erlang 23 to Erlang 24. We have PromEx running, we have all the metrics, and we will see live what difference Erlang 24 makes to Changelog.com.
 
-\[00:39:40.23\] PromEx is obviously instrumental, all the metrics and all the logs get shipped to Grafana Cloud, so that's how we will be observing things, and we will be commenting out what is different, what is better, what is worse. So with that in mind, I'm wondering if there's any assumptions or expectations that we can set ahead of time. What are you thinking, Alex?
+\[39:40\] PromEx is obviously instrumental, all the metrics and all the logs get shipped to Grafana Cloud, so that's how we will be observing things, and we will be commenting out what is different, what is better, what is worse. So with that in mind, I'm wondering if there's any assumptions or expectations that we can set ahead of time. What are you thinking, Alex?
 
 **Alex Koutmos:** Yeah, so I've been thinking about this for a little while... Because measuring things before and after changes - it just excites me, to see that you've made a change and you have some measurable differences between how it was before and how it is afterwards. So I've been thinking about this, and some of my hypotheses are that memory usage will go up slightly, because that interpreted code that was compiled to native needs to be stored somewhere. So memory usage will go up slightly... And then I imagine most things CPU-bound will be sped up. So serializing and deserializing from JSON, serializing and deserializing from Postgres database - all these things, we should see a considerable change in performance. Those are kind of top of mind at the moment. How about you?
 
@@ -210,7 +210,7 @@ Another thing which I do know that we do - we do background processing on some o
 
 **Alex Koutmos:** Yeah, it works for me.
 
-**Gerhard Lazu:** \[00:44:06.18\] Okay. So no impromptu. We'll schedule it and we'll say "On this time, at this day, at this hour." Okay, I like that. That's a great idea, actually. So we'll have like at least a few days of heads up, and then you can listen to this, and then you can watch that, how we do it. Great. that makes me very excited. Okay.
+**Gerhard Lazu:** \[44:06\] Okay. So no impromptu. We'll schedule it and we'll say "On this time, at this day, at this hour." Okay, I like that. That's a great idea, actually. So we'll have like at least a few days of heads up, and then you can listen to this, and then you can watch that, how we do it. Great. that makes me very excited. Okay.
 
 So we're approaching the end, and I think we need to end on a high... Because it's Friday when we're recording this, it was a good week, and the weekend is just around the corner... So what do you have planned for this weekend, Alex? Anything fun?
 

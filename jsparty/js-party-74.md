@@ -36,7 +36,7 @@ Actually, I'm planning on making another podcast, but for Babel... But I haven't
 
 **Henry Zhu:** Yeah, seriously.
 
-**Nick Nisi:** \[00:04:03.03\] Well, we're really excited that you took some time to join us today for a party, so thank you. The first thing I thought we could talk about here is -- because you're both very prominent in open source, maybe talking a little bit about how you got there, what pulled you into open source, or what was the reason that you started looking into that. I know this is a pretty common question, but catch us up on your decisions... What led you to where you're at today?
+**Nick Nisi:** \[04:03\] Well, we're really excited that you took some time to join us today for a party, so thank you. The first thing I thought we could talk about here is -- because you're both very prominent in open source, maybe talking a little bit about how you got there, what pulled you into open source, or what was the reason that you started looking into that. I know this is a pretty common question, but catch us up on your decisions... What led you to where you're at today?
 
 **Henry Zhu:** Well, I feel like there are almost -- not different levels, but there are different... In a way, I feel like maybe a lot of people go through this, where you've tried to do open source multiple times... I remember the first time I attempted making a GitHub account, and all that. I was actually contributing to Khan Academy, and I thought it was cool that their exercises -- I don't remember what year this was; 2014, or maybe before that, actually. And I thought it was cool that math exercises were open source, so I was looking into fixing some typos, or adding a new thing... And then I tried that; my first PR got closed, because I didn't know how to rebase correctly, I didn't know how to use Git... And I think two years later I went back and I was like, "Okay, I think I can try this again..." I had some \[unintelligible 00:05:18.12\] and then this is when I found out about Angular 1.0. I was using it, and I thought I could contribute. I was looking through the issues and I found this issue about linting, so I manually did some auto-fixes... And that's how I got my first PRs there.
 
@@ -50,7 +50,7 @@ Then when I started working in the industry, I gravitated towards open source fo
 
 There were three people from the original Macintosh team. Their name was on the motherboard. Heavy people were working on this, and this team of 20 people, but they hadn't really done a lot of open source... So Ted Leung joined, who has a long history with Apache, has done open source for a long time, and he did a lot of trying to teach values and teach people how to do open source properly. I was pretty young at the time and really just soaked it up. All the value stuff, I was just really taking it in...
 
-\[00:08:01.29\] And I thought that it was even more important for me actually, because -- so my team was building these new test tools. And the test tools were also open source, but they were kind of widely applicable, and we had far less resources to build and maintain these tools than the product team... So we were like "We need a community of contributors. We need to do that, because we don't have any resources." And it worked pretty well.
+\[08:01\] And I thought that it was even more important for me actually, because -- so my team was building these new test tools. And the test tools were also open source, but they were kind of widely applicable, and we had far less resources to build and maintain these tools than the product team... So we were like "We need a community of contributors. We need to do that, because we don't have any resources." And it worked pretty well.
 
 OSAF kind of crashed and burned in terms of the actual product that we were building, but a lot of these side projects - not just the stuff that I was building - ended up having a much longer lifespan than the actual product. After that I went to Mozilla, and at Mozilla I found that I was actually adopting a lot newer practices than Mozilla was, because I had gone through this stuff with Ted, and so there was some fun tension there. I was one of the first people to put projects on GitHub at the time, at Mozilla, and they were not super-receptive to that... \[laughs\]
 
@@ -70,7 +70,7 @@ If you wanted to start an Apache project, forget about the incubator and all tha
 
 GitHub normalized all that tooling, so now you can sort of flow between projects pretty easily, because the way that you contribute and send everything around and communicate is pretty normalized and standardized. There's one onboarding for all of this. And then also just creating new projects is effectively free, so now we can create much smaller projects, that are easier to understand, and then string them together. And you've seen that play out over the last ten years... The way that applications are built is a big dependency chain, and not a giant framework, like Spring, or something like that.
 
-**Nick Nisi:** \[00:11:47.21\] Yeah, definitely. Well, my story is not nearly as storied as either of yours... I try and contribute as much as I can. I'm part of the Dojo team, so I'm working on that and really enjoying it, and working with TypeScript a lot these days... But we kind of touched on this before - a lot of open source and a lot of why GitHub has made things so much better is because most of it tends to be dealing with people. Henry, how would you say that is?
+**Nick Nisi:** \[11:47\] Yeah, definitely. Well, my story is not nearly as storied as either of yours... I try and contribute as much as I can. I'm part of the Dojo team, so I'm working on that and really enjoying it, and working with TypeScript a lot these days... But we kind of touched on this before - a lot of open source and a lot of why GitHub has made things so much better is because most of it tends to be dealing with people. Henry, how would you say that is?
 
 **Henry Zhu:** Well, as Mikeal was saying, having GitHub be such a big part of open source introduces its own challenges. Before maybe there was a lot less people involved in open source in general, and then maybe team sizes - everyone knows each other, and it was a lot more about people... And not that it's not about people now, it's just that it's almost like you don't have to know who people are, because you can just go to a random repo and make a PR, and then move on.
 
@@ -90,7 +90,7 @@ Not every project is Node.js. You're not gonna get a foundation with a bunch of 
 
 **Henry Zhu:** Yeah, I guess the long tail is not gonna be Node, it's gonna be projects smaller than Babel. It's like, if we have a hard time raising money or fundraising, then it's gonna be ever harder for other people.
 
-**Nick Nisi:** \[00:16:01.27\] Speaking of that, what are some of the ways that you can go about fundraising for projects? Henry, I know that you have a Patreon, for example, and there's other things like Open Collective to raise money for projects... Can you talk about that for a little bit?
+**Nick Nisi:** \[16:01\] Speaking of that, what are some of the ways that you can go about fundraising for projects? Henry, I know that you have a Patreon, for example, and there's other things like Open Collective to raise money for projects... Can you talk about that for a little bit?
 
 **Henry Zhu:** Yeah. I'm sure there's lots of ways to do it, but I find that... I guess this is true of a lot of things - you end up just copying what other people do, and if there's someone that you know that's doing well, then you'll just do that. Say, Evan made the Patreon, and it's like "Okay, we're making a Patreon." And Webpack had an Open Collective - "Okay, we're gonna make an Open Collective." I think it's easy for people to just see that and think that "If I did the exact same thing, I'm gonna have the same amount of success." So you've gotta do the hard work of actually -- I don't know, whatever it takes, whether it's talking to companies, or getting the name out there... Simply making a Patreon is not gonna convince anyone to give you money. Because there's lots of people -- it doesn't even matter if you have lots of followers, or people know who you are... You need a different skillset than writing code, I think... If you're talking about crowdfunding at least.
 
@@ -110,7 +110,7 @@ I think the trick there is setting up a consulting business and running that bus
 
 In other ways, when people get added as a maintainer on a project, it's because they already put in a lot of work, and it's more like you're getting recognized for the work you've already put in. So having commit rights and all that stuff is cool, and it's on maintainers to figure out when they should do that and how liberal they wanna be with doing that... With Node, it's like "Okay, you can make a PR, and now you can be a committer." I don't know, it's complicated.
 
-**Mikeal Rogers:** \[00:20:09.14\] I think there's like a ladder here. The projects need to build, first of all, so you need to have a support system, so that when people do small things, they can also take on bigger things and bigger things, at their own pace... But not everybody will do that. Some people will just do one thing and then leave. And really enabling people who have done a little bit to help out as much as they can is really important for sustaining the project.
+**Mikeal Rogers:** \[20:09\] I think there's like a ladder here. The projects need to build, first of all, so you need to have a support system, so that when people do small things, they can also take on bigger things and bigger things, at their own pace... But not everybody will do that. Some people will just do one thing and then leave. And really enabling people who have done a little bit to help out as much as they can is really important for sustaining the project.
 
 But my advice to people getting into open source is always to just take on a thing that you already know how to do. You're going to learn how to do new things in the future, but there's this social barrier that's contributing to a new project, where you're trying to feel out what that community and that project is like, and if they're gonna be mean, and if they're actually accepting of new contributions, and that whole thing... And just getting comfortable with the project is a process in and of itself. So just take on a task that you already know how to do, whether it's like a doc update or a website update, or some test update... Something relatively easy. Don't try to do a huge patch right away, or try to add some giant feature. Go through the process and learn a bit and get comfortable, and then sit down and take on something bigger. And then you'll also know the people that you wanna ping to get support in that, and all that kind of stuff.
 
@@ -118,7 +118,7 @@ But my advice to people getting into open source is always to just take on a thi
 
 I think about the first PR I made to JSLint I worked on was a readme update, to add a table of contents, which was pretty trivial... And then for Babel - Babel itself was trying to use ES6, so I just updated some code from ES5 to ES6. That was my first contribution. So whether it's build tools, or those kinds of things - those are applicable to any project. It's a good way to just getting your foot in the door.
 
-**Break:** \[00:22:05.06\]
+**Break:** \[22:05\]
 
 **Nick Nisi:** In the last segment we talked a little bit about getting into open source and maybe some paths that you might take to actually becoming a maintainer, or contributing actively to projects... But one much easier way to contribute to projects is by interacting with the project, and making requests for features, or contributing fixes, or just writing up bugs or documentation changes - things like that, to any project...
 
@@ -126,7 +126,7 @@ So in this next section I thought we'd talk about some advice for interacting wi
 
 **Henry Zhu:** I would say you need to go into it knowing that it might not be what you initially set out to be. It might be better to create an issue talking about what the use case is. The thing that you're asking for might not fit with the overall project, unless it's something really small-scoped, and it's unlikely that exactly what you're looking for is gonna happen... So I think talking through that beforehand would be better. If it's small enough, you could probably just make the PR and they'll just land it, but you have to have a good idea of what that looks like.
 
-**Nick Nisi:** \[00:24:11.12\] Yeah. It really seems like something that you have to think about is not really your specific use case, but how this fits into the more general use of the project, whether that's Babel, for example, that's used by everyone. So having something that is very specific to something that you want fixed, that might not have a big appeal to everyone else - it's probably less likely that something like that is going to get landed.
+**Nick Nisi:** \[24:11\] Yeah. It really seems like something that you have to think about is not really your specific use case, but how this fits into the more general use of the project, whether that's Babel, for example, that's used by everyone. So having something that is very specific to something that you want fixed, that might not have a big appeal to everyone else - it's probably less likely that something like that is going to get landed.
 
 **Mikeal Rogers:** Well, let's say a few things first... When in doubt, log an issue. Don't get too hung up on worrying about the exact, perfect way to say things. When in doubt, log an issue, because it's just better to get that feedback and to start the process, than to not. Just be nice, don't be super-entitled about it... And also, maintainers, be nice; there's a lot of not nice maintainers... But as far as the most constructive way to frame something like that - I always fall back to "job to be done" theory, which is essentially like a business theory from Clay Christensen who did disruption theory. The principle is that we don't buy products, we hire things to do a job. So I hire this meal to give me the calories to move on with my day. And there are lots of meals that might fit into that, but sometimes the most efficient one is the one that I can take on the go, or something like that.
 
@@ -140,7 +140,7 @@ I think often the worst thing that you can do is come with a full solution to th
 
 **Nick Nisi:** So you're saying things like that are still helpful, even though coming in you might feel a little worried that you're going to be disrupting your day to try and bring up this topic and discuss it. It's still worth bringing it up, because it helps maybe contribute to a larger problem that other people may be trying to solve, so it helps get that onto your radar a little bit better....
 
-**Mikeal Rogers:** \[00:28:05.05\] Yeah. It's always better to know than not to know. A good example of this is like, I understand all of the places in which people violate HTTP specs and OAuth specs because of the issues coming into Request. So these are not bugs in Request, these are actually bugs in other people's software, including Flickr... \[laughs\] You know, they're not case insensitive about headers, and things like that... You run into all these cases where like "Oh yeah, the actual world that people are living in and the environment of the internet is pretty brutal." And that is really good feedback when you're designing new APIs and systems... And maybe actually this is not necessarily a Request bug, but it's probably something that Request needs to consider. Request ended up writing an entire new library called Caseless in order to do headers, so that we could still think about headers in a not case-specific way, but preserve casing if you set it, because you might be dealing with a server that is violating the spec... So all of that ends up coming into the project, and eventually can make it better. Every "This isn't my bug" thing is actually good feedback about what people are using the software for.
+**Mikeal Rogers:** \[28:05\] Yeah. It's always better to know than not to know. A good example of this is like, I understand all of the places in which people violate HTTP specs and OAuth specs because of the issues coming into Request. So these are not bugs in Request, these are actually bugs in other people's software, including Flickr... \[laughs\] You know, they're not case insensitive about headers, and things like that... You run into all these cases where like "Oh yeah, the actual world that people are living in and the environment of the internet is pretty brutal." And that is really good feedback when you're designing new APIs and systems... And maybe actually this is not necessarily a Request bug, but it's probably something that Request needs to consider. Request ended up writing an entire new library called Caseless in order to do headers, so that we could still think about headers in a not case-specific way, but preserve casing if you set it, because you might be dealing with a server that is violating the spec... So all of that ends up coming into the project, and eventually can make it better. Every "This isn't my bug" thing is actually good feedback about what people are using the software for.
 
 And also, for me -- I did one of the many rewrites of the HTTP client in Node, and a lot of that was driven by all the bugs that I saw people complaining about, that were actually core bugs, but they came through Request, because people were using Request and saw the bug and they don't know if it's in core in Request or not.
 
@@ -156,7 +156,7 @@ What about some tips and tricks for reporting bugs, or actually helping to push 
 
 **Mikeal Rogers:** Yeah, yeah. It often does give you a sense of how much people care about something, and that could change how much you wanna prioritize things. The best way to ensure that something gets fixed is to fix it. \[laughter\] Send a pull request, even if it's not complete. If it's most of the way there and you need extra feedback, the pull request with working code is a good way to start that conversation, and has much more real things that people can talk through.
 
-\[00:32:08.20\] Often too, I end up in these situations where I have so much of the context of the code in my head, and it's not really written down. It would take a really long time to explain it to somebody... So when somebody comes and says "Oh, I want this feature in", I'm like "It's gonna be really hard and I don't really have time." If somebody just wrote up the start of a pull request, that wasn't complete - and this has happened a few times, where they started it, and I was like "Well, okay, this thing isn't gonna work this way, and you need to look over here." But that was still a tenth of the work that it would have taken to explain everything from scratch. I had specific things that I could comment on and point to, and say like "No, this thing is over here. Do it that way", and that whole process is just a lot easier. The moment that you have real code to talk about, everything gets easier.
+\[32:08\] Often too, I end up in these situations where I have so much of the context of the code in my head, and it's not really written down. It would take a really long time to explain it to somebody... So when somebody comes and says "Oh, I want this feature in", I'm like "It's gonna be really hard and I don't really have time." If somebody just wrote up the start of a pull request, that wasn't complete - and this has happened a few times, where they started it, and I was like "Well, okay, this thing isn't gonna work this way, and you need to look over here." But that was still a tenth of the work that it would have taken to explain everything from scratch. I had specific things that I could comment on and point to, and say like "No, this thing is over here. Do it that way", and that whole process is just a lot easier. The moment that you have real code to talk about, everything gets easier.
 
 **Nick Nisi:** Yeah. You're kind of leading into a question I was going to ask, which is how do you maintain a balance between when a feature request or a bug issue gets written, how do you maintain a balance between maybe pushing someone into helping contribute via a pull request, versus just doing it all, because like you said, you have a lot of the context in your head and you know exactly where to go.
 
@@ -176,7 +176,7 @@ I've done that in issues and seen them sit for months, and then somebody just ra
 
 **Mikeal Rogers:** Oh, and also encouraging work-in-progress PRs, as well... Because a lot of projects have really strict rules about "Don't send a PR until it's ready to be integrated", and stuff like that. So if you wanna use the review process as a way to continue to work with people and educate them, make sure to let people know that that's totally useful, to say "Put this in front of the title", or "Add his tag", or something like that.
 
-**Henry Zhu:** \[00:36:08.22\] Well, on GitHub -- yeah...
+**Henry Zhu:** \[36:08\] Well, on GitHub -- yeah...
 
 **Nick Nisi:** Yeah, they actually have draft PRs now.
 
@@ -232,7 +232,7 @@ And the thing that I keep bringing up lately is the Pika package stuff. I think 
 
 **Mikeal Rogers:** I think it's a really big leap in terms of tooling, and thinking about the platform. To some extent, it's sort of catching us up with where the platform is. The platform has improved a lot since we started building these big toolchains, and it's worth going back to basics and thinking "What can we do without all these toolchains, and what would new tools look like that take advantage of all the new platform features?" Even if we have to throw away a lot of what we've done before.
 
-**Nick Nisi:** \[00:40:13.16\] Yeah. And just to plug JS Party, we actually talked to the maintainer of Pika on episode \#69, so definitely go back and check that out.
+**Nick Nisi:** \[40:13\] Yeah. And just to plug JS Party, we actually talked to the maintainer of Pika on episode \#69, so definitely go back and check that out.
 
 **Mikeal Rogers:** Cool! Was that Fred, or the other maintainer?
 
@@ -280,7 +280,7 @@ Often when I log an issue, I'm like "Hey, I'm having this problem", and then I'l
 
 **Mikeal Rogers:** Well, people have bots now that complain when you do that. It's like, "No. No, shut up. This is meaningful feedback that your template is dumb." \[laughs\]
 
-**Henry Zhu:** \[00:44:06.29\] True.
+**Henry Zhu:** \[44:06\] True.
 
 **Mikeal Rogers:** I was really actually against the templates when they came out, and I still feel like they may be more pain than they're worth in a lot of scenarios. The best that I've seen actually are just like...
 
@@ -310,7 +310,7 @@ Also, there's this hidden feature in issue creation where you can attach a bunch
 
 **Mikeal Rogers:** Right, right. \[laughs\]
 
-**Break:** \[00:46:09.17\]
+**Break:** \[46:09\]
 
 **Nick Nisi:** Maintaining open source can be a big challenge, and it's always good to get praise, to know that your time and the contributions you're putting into it are appreciated by the users and the people who are using it, but there is much more to self-care that we'd like to deep-dive into a little bit more... So what are some things that you can do to take care of yourself as an open source maintainer, and help you avoid burnout, which seems to be so common?
 
@@ -318,7 +318,7 @@ Also, there's this hidden feature in issue creation where you can attach a bunch
 
 For me it's not working on the weekend, or -- especially now that I'm doing it full-time, it's like, okay, trying to set a set schedule, if that works... Having boundaries, and stuff like that.
 
-**Nick Nisi:** \[00:48:29.11\] For sure.
+**Nick Nisi:** \[48:29\] For sure.
 
 **Mikeal Rogers:** Yeah. Having a baby is kind of amazing, in that you have to get better at time management, and you definitely have to take breaks away from a keyboard, to do something that is not computers. Just having that built in every morning and every evening, and on the weekends as well, has been amazing.
 
@@ -340,7 +340,7 @@ But yeah, there's a million little self-care routines too that I do all the time
 
 And yeah, the time-shifting thing definitely happens for me a lot too, because I'm up so early to get our baby ready... And then I work all day, but I had odd meeting schedules because we're 100% distributed. I have people in Europe and in Australia, so there's just some interesting stuff that happens there.
 
-\[00:52:07.12\] Often in the afternoon I will take some of the bigger breaks, and get dinner ready, and things like that... And then after she goes to sleep, I'll then get like -- that's my biggest section of uninterrupted 2-3 hours to just knock out some good code. But yeah, that's the nice thing about working from home and for an entirely distributed team - there's not a lot of expectations around "This particular time you need to be doing this particular thing."
+\[52:07\] Often in the afternoon I will take some of the bigger breaks, and get dinner ready, and things like that... And then after she goes to sleep, I'll then get like -- that's my biggest section of uninterrupted 2-3 hours to just knock out some good code. But yeah, that's the nice thing about working from home and for an entirely distributed team - there's not a lot of expectations around "This particular time you need to be doing this particular thing."
 
 **Nick Nisi:** Yeah, totally. And Henry, I'm glad you brought up that it really is just faith... I was reading (I think it was) your blog post about starting that podcast, Hope in Source, and how you saw the similarities between faith and the faith in yourself to do this open source... And that's really cool, seeing that similarity and building off of that. Would you also say that maybe starting these podcasts has helped you in that as well, as part of self-care, being able to talk about what's going on more, and to -- commiserate is the wrong word, but discuss with other people in similar situations as you?
 
@@ -362,7 +362,7 @@ I don't meditate as regularly as I should, but just the process of learning tran
 
 **Henry Zhu:** Yeah. I also say being able to do it in a group, I would hope that it gets you to do it on your own too, but sometimes that's hard.
 
-**Mikeal Rogers:** \[00:55:44.04\] Yeah. I mean, not every habit you can do in a group, but that's one of the things in the book where he's like "If you can build a community of people around doing it, your chance of success and continuing to do it is much higher."
+**Mikeal Rogers:** \[55:44\] Yeah. I mean, not every habit you can do in a group, but that's one of the things in the book where he's like "If you can build a community of people around doing it, your chance of success and continuing to do it is much higher."
 
 **Nick Nisi:** Is this Atomic Habits, by chance?
 

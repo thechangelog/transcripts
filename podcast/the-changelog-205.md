@@ -78,7 +78,7 @@ I saw this with my father who died at Easter, and this is how we did it, as a fa
 
 Actually, this is probably a good time to take a break - we're about 20 or so minutes into the show - but let's come back and touch on a couple of the things that you say that are positive ways to talk to someone who's dying. I think you mentioned... Things you like, for example. So let's take this break, we'll come back and talk about some things that are constructive to talk to you, so that way when other folks feel invited to speak with you, whether it's on Twitter or through some social way, or actually face to face in these upcoming meetups you have, they have a sign from your post, they have you actually saying some things that help them understand how to talk to you and how to treat you. So let's take this break, we'll be right back.
 
-\[00:27:32.11\] COMMERCIAL BREAK \[00:28:04.29\]
+\[27:32\] COMMERCIAL BREAK \[28:04\]
 
 **Adam Stacoviak:** Alright, we're back from the break and we're talking to Pieter about a protocol for dying - it's obviously a unique thing to speak about. Pieter, you've done very great with making this readable by the world and sharing different ways to talk to someone and not to talk to someone who's passing away. Walk us through a couple of the things that are on the positive side, how to speak with somebody that is in your situation.
 
@@ -146,7 +146,7 @@ Basically, I've been pushing kind of silently for people to understand that evol
 
 **Jerod Santo:** Well, you definitely have the experience that bears it out. You've been probably there with many opportunities to spray some repellant. Let's take our last break and we'll continue talking about this, as well as community stuff, and we have some good closing questions for you as well. Lots to talk about, we'll probably run out of time and think "Man, I wish we had more time with Pieter", but let's take that break and we'll continue the conversation in a moment.
 
-\[00:49:58.25\] COMMERCIAL BREAK \[00:50:31.09\]
+\[49:58\] COMMERCIAL BREAK \[50:31\]
 
 **Jerod Santo:** Alright, we are back with Pieter Hintjens. Pieter, we've talked about a lot of things on this call. We've talked about or around ZeroMQ, which is the project that I knew you for. Now I'm starting to think maybe C4 will be your legacy, but nonetheless ZeroMQ - a very interesting project, and we've been talking about the community around it and the way you've managed it and the way you're passing the baton on.
 

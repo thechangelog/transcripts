@@ -16,7 +16,7 @@
 
 Maybe the one personality quirk I have that I'm maybe more committed to than other people is I get really irritated when it seems like things are broadly wrong... Particularly when I've started building software. It really drives me \[unintelligible 00:04:03.00\] when I hit this feeling that's like "What's there doesn't work the way it should."
 
-**Adam Stacoviak:** \[00:04:12.07\] Yeah.
+**Adam Stacoviak:** \[04:12\] Yeah.
 
 **Kurt Mackey:** In most of the places I've worked, that's led me astray, frequently... I spend a lot of time on \[unintelligible 00:04:18.04\] arbitrary stupid stuff, that had no value to anyone other than my own personal like "Oh, yes, now it's the way I want it to be."
 
@@ -72,7 +72,7 @@ One of the things that I did that I probably shouldn't have was built a custom C
 
 **Kurt Mackey:** Right.
 
-**Adam Stacoviak:** \[00:08:00.12\] Even now, I'm sure with Fly, and in the path of MongoHQ, turned Compose, that you chased directions that you thought would be dead ends, that ended up being pretty fruitful.
+**Adam Stacoviak:** \[08:00\] Even now, I'm sure with Fly, and in the path of MongoHQ, turned Compose, that you chased directions that you thought would be dead ends, that ended up being pretty fruitful.
 
 **Kurt Mackey:** Yes, that's fair.
 
@@ -112,7 +112,7 @@ One of the variants of that used MongoDB, and we ran MongoDB replicas next to th
 
 And I think tech startups in general - they don't always really value the... I call them blue collar devs. It's like the worst word ever, but they never really value the blue collar developers in the way that I think they should, because again, they're all kind of after perfection, like I was, and that perfect architecture, and all that stuff...
 
-\[00:12:05.03\] So yeah, I don't know why I like them so much, but I always have, and I think I've always sort of wanted to be one of the blue collar devs. I've always felt like it's sort of a flaw, that I like making things fun and glitzy and perfect... Anyway. That was a little bit of a tangent there.
+\[12:05\] So yeah, I don't know why I like them so much, but I always have, and I think I've always sort of wanted to be one of the blue collar devs. I've always felt like it's sort of a flaw, that I like making things fun and glitzy and perfect... Anyway. That was a little bit of a tangent there.
 
 **Adam Stacoviak:** Describe a blue collar worker. What are some attributes that describe a blue collar worker.
 
@@ -150,7 +150,7 @@ And I think tech startups in general - they don't always really value the... I c
 
 **Kurt Mackey:** Right. I also feel good about it because it's not Amazon when I'm buying from those places.
 
-**Adam Stacoviak:** \[00:15:59.21\] Yeah.
+**Adam Stacoviak:** \[15:59\] Yeah.
 
 **Kurt Mackey:** It's like, "Oh cool, this was a mom-and-pop probably" is sort of what it feels like. I think what they're doing is opening up more of their stack to be consumed by developers instead. So you kind of did the theme stuff for your store, but I think what you'll be able to do with their new things is go even deeper... And what you do is you ship your own store that kind of hooks into all their plumbing, and maybe dumps to them for the checkout process... But for what you're doing -- like, maybe you start listing your products next to the podcast, for example, on the listing; you kind of integrate it way more deeply into your particular application.
 
@@ -188,7 +188,7 @@ Now, we may not have absolute, absolute beginner content every single day, but w
 
 **Kurt Mackey:** Yeah.
 
-**Adam Stacoviak:** \[00:19:58.28\] I mean, that's cool. I would compare you to Toby, for sure.
+**Adam Stacoviak:** \[19:58\] I mean, that's cool. I would compare you to Toby, for sure.
 
 **Kurt Mackey:** Well, that's flattering. \[laughs\] It's funny -- I think that it's hard to recognize maybe status of privilege. Again, non-identifying innovation. It's like, you're always aware of the people who are doing better at X than you are... I mean, it was an interesting problem, because they -- anyway, I can talk about IBM for way longer than we have, if anyone actually cares about IBM these days, which I think is probably not the case.
 
@@ -216,7 +216,7 @@ One of my favorite classes when I did do college - and I did actually get my bac
 
 I kind of loved that even broader than the CEO, the founder job at startups is almost like a choose your own adventure thing... And it took me a while to learn that. That as the company grows, one of the things that you can really take advantage of is you can start offloading stuff that is a real chore, is a real grind, and we're actually really focused on the things that are incredibly interesting to you.
 
-\[00:23:57.27\] The CEO of New Relic, Lew Cirne - I think he was like the OG founder, coder, CEO guy... Like, the guy that maintained the CEO job and managed to offload a lot of what was happening to the COO position... And I think prior to him, investors were like "Oh no, a developer guy is not gonna be a CEO. They don't have the right DNA for this." But learning all this over time has been really fascinating. It took me a long time to learn how to actually choose your own adventure in the context of a startup... And more importantly, it took me a long time to learn that part of my job is helping other people choose their own adventure...
+\[23:57\] The CEO of New Relic, Lew Cirne - I think he was like the OG founder, coder, CEO guy... Like, the guy that maintained the CEO job and managed to offload a lot of what was happening to the COO position... And I think prior to him, investors were like "Oh no, a developer guy is not gonna be a CEO. They don't have the right DNA for this." But learning all this over time has been really fascinating. It took me a long time to learn how to actually choose your own adventure in the context of a startup... And more importantly, it took me a long time to learn that part of my job is helping other people choose their own adventure...
 
 We're going from seven people now, we're gonna be hiring pretty quickly, so we have this level-up stage between 7 and 30, where the people who right now have been focused primarily on development on Fly have had to do a lot of other stuff along the way. And helping those people offload those things and make the right hires to ease their life and have them focus on what they find really interesting and is probably way more valuable for us for them to be spending time on...
 
@@ -248,7 +248,7 @@ I think the other interesting thing about YC versus an MBA is you get a really c
 
 **Kurt Mackey:** It's like a distilled MBA on the things that I think are more interesting than I think what most businesses are kind of spending all day on.
 
-**Break**: \[00:28:03.09\]
+**Break**: \[28:03\]
 
 **Adam Stacoviak:** How do you get to Y Combinator status? To represent for those out there listening that might be like "Okay, Kurt... Cool. Y Combinator vs. MBA. Compress it, condense it, whatever..." How do you get to that place? Do you run your company for a little bit and then you apply? Do you have the idea and then you apply? How do you get to that application and then maybe the luck of the draw to get accepted?
 
@@ -258,7 +258,7 @@ The nice thing about their application process is what they -- I think what they
 
 So I think the best way to get into Y Combinator is probably -- and this is gonna maybe sound backwards... I would probably build something interesting that I thought I could sell or get people to use very quickly, and then I'd figure out how to make it big. And it's not so much that you have to start with the big... So like with Fly, with this company, I actually started with sort of the big idea, and then it took three years to find the small one that would get us going in that direction...
 
-\[00:31:54.25\] If you can build something interesting that scratches a small itch for people that \[unintelligible 00:31:58.02\] it's relatively easy to expand that into how this could become a giant thing down the road.
+\[31:54\] If you can build something interesting that scratches a small itch for people that \[unintelligible 00:31:58.02\] it's relatively easy to expand that into how this could become a giant thing down the road.
 
 And I think the really cool thing about Y Combinator is you're not committed to making it giant. You don't ever have to get out of that small business mode if you don't want to... But actually having that thought process is probably pretty helpful.
 
@@ -272,7 +272,7 @@ The problem is you can't build a lot in ten weeks. You can build a very small ve
 
 **Adam Stacoviak:** So you did this with MongoHQ. Was it Compose yet, or was it just MongoHQ then?
 
-**Kurt Mackey:** So the funny story there - and I learned this happens relatively frequently - is I went with a... I and a different co-founder went with a company called \[00:33:20.15\]; we were doing ad tech. And that company became Perfect Audience. But one of the things I learned at Y Combinator is there's a lot of founder switching... So I met the MongoHQ guys at the time and joined their company...
+**Kurt Mackey:** So the funny story there - and I learned this happens relatively frequently - is I went with a... I and a different co-founder went with a company called \[33:20\]; we were doing ad tech. And that company became Perfect Audience. But one of the things I learned at Y Combinator is there's a lot of founder switching... So I met the MongoHQ guys at the time and joined their company...
 
 **Adam Stacoviak:** Interesting.
 
@@ -294,7 +294,7 @@ So when MongoHQ went to Y Combinator, it was even more mature than I think most 
 
 **Kurt Mackey:** Yeah, yeah. I mentioned earlier it really irritates me when things don't seem like they work the way they should... And it would always seem like they didn't work the way they should to me... And this came from Ars Technica - I'm building an app, there's also a CDN out there... I should be able to use all of the CDN plumbing to enhance my application. So our theory was like if you build a CDN that developers really love, that they pick up as they're building an application instead of just trying to bolt it on later and add another layer, that'd be pretty valuable. So we kind of kept that premise the whole time, but we tried 2-3 different things beforehand that just weren't doing what we wanted.
 
-\[00:36:18.20\] And when we had this sort of epiphany that maybe part of the problem is that a lot of applications shouldn't need a CDN... Like, if you build the right infrastructure, maybe you can run applications and not be forced to put a CDN in front of them - that's when we were like "Alright, cool, this could actually get big."
+\[36:18\] And when we had this sort of epiphany that maybe part of the problem is that a lot of applications shouldn't need a CDN... Like, if you build the right infrastructure, maybe you can run applications and not be forced to put a CDN in front of them - that's when we were like "Alright, cool, this could actually get big."
 
 We were seeing the early signs... We had the ten really passionate users at that point, of something that just barely worked... But we were three years old and still trying to kind of find our path. If we'd been -- I think there's businesses that you've been running for several years that it's kind of like you're chipping away at the same thing without making a big shift... I think maybe it's the word "pivot", but not exactly. I think a lot of times pivots are like "Throw out the idea and go build \[unintelligible 00:36:57.00\]" or something.
 
@@ -322,7 +322,7 @@ I think it's a really hard choice, and I think that might be where Y Combinator 
 
 **Adam Stacoviak:** Because of immigration reasons, right? Or something like that. Or nationalization reasons.
 
-**Kurt Mackey:** \[00:39:50.08\] I don't know the precise reason. I do firmly believe that traditional venture capital investors have a profile of people they invest in, and they did not match that profile... So -- we could get way off in the weeds here, but in general, he was not able to raise money for Calendly. I think immigration might have been a component. I think he's from Atlanta; I think he's building a company in Atlanta. It wasn't Silicon Valley. Not connected to anyone in Silicon Valley. Didn't match the chiseled, white guy physique that investors really seem to seek out even still...
+**Kurt Mackey:** \[39:50\] I don't know the precise reason. I do firmly believe that traditional venture capital investors have a profile of people they invest in, and they did not match that profile... So -- we could get way off in the weeds here, but in general, he was not able to raise money for Calendly. I think immigration might have been a component. I think he's from Atlanta; I think he's building a company in Atlanta. It wasn't Silicon Valley. Not connected to anyone in Silicon Valley. Didn't match the chiseled, white guy physique that investors really seem to seek out even still...
 
 **Adam Stacoviak:** Right.
 
@@ -354,7 +354,7 @@ One of the things we never did at Compose was learn how to go from selling to de
 
 **Kurt Mackey:** So when you build things for individual devs or people's side projects, they tend to actually be things that you can get devs within large companies to use as well, with the right amount of work. But it takes a tremendous amount of trust for those large companies to start putting infrastructure on top of someone like us, or even Compose.
 
-**Adam Stacoviak:** \[00:43:51.27\] Right. It's that trust factor that you're sort of getting to. Technically you're there, but that trust factor is, I guess, ephemeral, to some degree, to get to... Like, what is okay? Trust Fly. At what point do we become trustworthy?
+**Adam Stacoviak:** \[43:51\] Right. It's that trust factor that you're sort of getting to. Technically you're there, but that trust factor is, I guess, ephemeral, to some degree, to get to... Like, what is okay? Trust Fly. At what point do we become trustworthy?
 
 **Kurt Mackey:** Yes. And there's that old maxim of "Nobody ever got fired for buying IBM." It's like, no one's ever gotten fired for buying AWS, and in some ways we're asking them to use something that's not AWS for projects... Which is a tough sell.
 
@@ -394,7 +394,7 @@ And then MongoDB ended up buying Mongo Lab, which was kind of the primary compet
 
 **Kurt Mackey:** The hardest thing for me to learn there was that at least half of everything I tried was just not gonna have any effect whatsoever. As a developer, I'm used to writing some code, and something happens, and maybe it's wrong, and maybe it breaks, but there's an obvious path to fix that. And managing people and building a company - it was really hard when things weren't working. I was like "This seems like a good idea. I'm gonna give it a try" and then nothing happened. There were like crickets, or no response. I'm still trying to learn that that's okay, and I need to keep -- almost like the boxing metaphor of like I need to keep the feet moving right; it's important whether I'm making progress or something's working or not.
 
-\[00:48:37.19\] It's been something I've learned from the MongoDB company. It's like, there's no reason that company should still be alive, but they didn't stop moving, and it worked. It's one of those few things with successful people that you can actually copy. I think a lot of times success advice is just like "Well, just be successful, and then you'll be successful. " That's not actually helpful...
+\[48:37\] It's been something I've learned from the MongoDB company. It's like, there's no reason that company should still be alive, but they didn't stop moving, and it worked. It's one of those few things with successful people that you can actually copy. I think a lot of times success advice is just like "Well, just be successful, and then you'll be successful. " That's not actually helpful...
 
 **Adam Stacoviak:** My blanket advice is "Show up and do what needs done" to be successful. Show up consistently and do what needs to be done, in whatever your pursuit is. And I think eventually, to sprinkle some flavoring in there, like salt and pepper, it might be "Care."
 
@@ -414,7 +414,7 @@ And the flipside of that is when those things aren't happening, it's pretty easy
 
 **Kurt Mackey:** Yes. It's a weirdly unnatural thing to basically say "We did good" or "You did good" or "That thing was right", or this is like a thing to cheer about. I don't know if it's a cultural American thing, or a cultural Midwest thing, or who knows, but it's really -- like, I have to work to tell people "That was good." It's really easy to find fault, and everybody's used to hearing when they've screwed up. But it's an interestingly difficult problem to tell people that this was right, this was good, and we've done good, and we should be happy about this.
 
-\[00:51:57.26\] I guess one of the problems is people are so used to looking for reasons that something that's looking for even flaws, is like -- even the good things, it's like, "Well, we're not perfect yet, so we shouldn't care too much about the little bit of thing that just happened there." And it's like, it's important to recognize that we're never perfect, particularly in a company. I don't know if your company is like this; I would bet it is, because every company is like this... Every company is like a slow motion train wreck. There's no perfectly good, comfortable company to be a part of. They're all slow motion train wrecks, in different ways.
+\[51:57\] I guess one of the problems is people are so used to looking for reasons that something that's looking for even flaws, is like -- even the good things, it's like, "Well, we're not perfect yet, so we shouldn't care too much about the little bit of thing that just happened there." And it's like, it's important to recognize that we're never perfect, particularly in a company. I don't know if your company is like this; I would bet it is, because every company is like this... Every company is like a slow motion train wreck. There's no perfectly good, comfortable company to be a part of. They're all slow motion train wrecks, in different ways.
 
 **Adam Stacoviak:** Sure, yeah.
 
@@ -438,7 +438,7 @@ And the flipside of that is when those things aren't happening, it's pretty easy
 
 And at Compose, we've built ourselves in this corner where there were a lot of companies that paid $50,000/month to manage their Mongo database instance, and we didn't have the product to do that yet, so we were just basically consulting to make it work... Because "Growing revenue is the biggest thing possible", which is true; we had to grow revenue to survive as a company and get to another funding round and become profitable...
 
-\[00:56:09.16\] But what happened is we stalled out at one point, and I believe -- it probably doesn't matter. I think this could happen at any amount of dollars. You can find a company that's gonna pay you half a million dollars a year, and use up all your time servicing that company... But we got to, I think, 5 million dollars of annual revenue, and our brains went "Hey, we're spending so much time on these customers that we're not shipping the product for who we really care about, and we're not really building product features to automate all of these things that need to happen." And some of these people probably shouldn't be customers. What they're doing doesn't really fit our product, and never will; or it'll be too long.
+\[56:09\] But what happened is we stalled out at one point, and I believe -- it probably doesn't matter. I think this could happen at any amount of dollars. You can find a company that's gonna pay you half a million dollars a year, and use up all your time servicing that company... But we got to, I think, 5 million dollars of annual revenue, and our brains went "Hey, we're spending so much time on these customers that we're not shipping the product for who we really care about, and we're not really building product features to automate all of these things that need to happen." And some of these people probably shouldn't be customers. What they're doing doesn't really fit our product, and never will; or it'll be too long.
 
 So we actually did a big shift and stopped that. We were finally like "Look, we're only gonna start caring about how many developers come and swipe their credit card and turn on a database for a while." Because it was like a "I can imagine how to control that."
 

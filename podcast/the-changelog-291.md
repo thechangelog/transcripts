@@ -12,7 +12,7 @@ Tell us a little bit of the story. It's four years later... What was this idea a
 
 **Jordan Eldredge:** Yeah, it's a funny back-story... I was sitting in my room, just -- I don't have any idea what I was doing, but a memory of Winamp skins came back to me, and I guess for anyone who doesn't remember, Winamp skins was the way that you could theme Winamp, and the implementation of it was just a zip file that contained bitmap files, which were sprite sheets.
 
-\[00:04:07.27\] I guess at work I had been doing some stuff with CSS sprite sheets, and suddenly this parallel kind of popped into my head, that like "Whoa, Winamp skins were sprite sheets, and I'm used to doing sprite sheets in CSS now... I wonder if you could sort of reconstruct the Winamp UI using CSS." I was like, "Oh, that sounds really fun."
+\[04:07\] I guess at work I had been doing some stuff with CSS sprite sheets, and suddenly this parallel kind of popped into my head, that like "Whoa, Winamp skins were sprite sheets, and I'm used to doing sprite sheets in CSS now... I wonder if you could sort of reconstruct the Winamp UI using CSS." I was like, "Oh, that sounds really fun."
 
 So I sat down at my computer and tried to pull up some bmp's, realized that "Hey, browsers can still show bmp's, just like any other image, and yeah, you could do it.
 
@@ -52,7 +52,7 @@ So it's nice to have those side projects where you can sort of like step away an
 
 **Adam Stacoviak:** I think it's an interesting perspective to have a reason to have many projects ongoing, so that you can break from one on blocks, and still have fun and enjoy your craft, but not get stuck and be pulling your hair out.
 
-**Jordan Eldredge:** \[00:08:06.29\] I think that's another big advantage of side projects - they enable you to work in that way where rather than being forced to solve a problem... If you don't have a good solution, you can just say "Well, okay, I'm putting that one on hold, and either I'll decide that it's important to come back and hack something in and move forward with something imperfect" or "Hey, I'll just sit it on the backburner and let it stew for a while...", whereas in work you've gotta ship, otherwise you're not gonna get your paycheck.
+**Jordan Eldredge:** \[08:06\] I think that's another big advantage of side projects - they enable you to work in that way where rather than being forced to solve a problem... If you don't have a good solution, you can just say "Well, okay, I'm putting that one on hold, and either I'll decide that it's important to come back and hack something in and move forward with something imperfect" or "Hey, I'll just sit it on the backburner and let it stew for a while...", whereas in work you've gotta ship, otherwise you're not gonna get your paycheck.
 
 **Jerod Santo:** So there's two kinds of people, and probably a sliding scale between them. You've got people with a bunch of ideas and no time to do them, or maybe just enough time to work on one or two, and then you have people with a lot of time and no ideas. And then like I said, there's a sliding scale, but Jordan, you seem like the kind of guy who's got lots of ideas, and you also execute on some of them, at least. We've seen Winamp2-js, we'll also probably get around to talking about UrlMe.me, which is cool as well... Where do your ideas come from? Can you give somebody advice who's like "I can't think of a cool side project"? How do you initiate a cool side project?
 
@@ -62,7 +62,7 @@ Looking back at all my projects, I think that's sort of the recurring theme... A
 
 **Jerod Santo:** Yeah, I mean, when I look at Winamp2-js, and Adam and I often discuss what makes something interesting and what makes it popular, or what resonates with developers, because other things that I think intellectually stimulate us - and obviously, we're in the arena of covering those kinds of things, and talking about them... And Winamp2-js specifically had two things going for it.
 
-\[00:12:00.27\] The first was an extreme amount of nostalgia that it evokes to most people who were around either -- I guess in the formative years or older in the late '90s, early 2000's when it was very popular.
+\[12:00\] The first was an extreme amount of nostalgia that it evokes to most people who were around either -- I guess in the formative years or older in the late '90s, early 2000's when it was very popular.
 
 And then secondly, this little bit of a surprise factor that impresses you, that you can actually do this in the browser. It has two aspects to it, which makes it very -- I don't wanna say necessarily viral, but it had waves of coverage, and it has resonated with so many people.
 
@@ -80,7 +80,7 @@ And then secondly, this little bit of a surprise factor that impresses you, that
 
 So I think much in the same that that's what has maybe driven the interest in this, it was also what drove my own personal interest in it - wanting to recreate those experiences. In fact, I said the original idea came from Winamp skins, and that was actually I think the first constructive thing I ever did on a computer... I went from a consumer of software to creating something from nothing, which is I think a really powerful moment for any -- probably almost any programmer can remember that first moment when you sat down at a computer and then sometime later a thing existed that didn't exist before, only out of your time and your brain. You didn't have to go to the store and buy parts; it was just your idea made something new in the world, and that experience, even though I was making the world's ugliest Winamp skin, that never saw the light of day and nor should it have... \[laughter\] But I think that was really formative, and I see a direct line from that experience through to writing software today. The experience of working on Winamp2-js definitely feels like that same kind of joy of sitting down at a computer and making something that didn't exist before exist, just from your own time and mental energy.
 
-**Jerod Santo:** \[00:16:04.10\] Yeah. Winamp definitely has the same warm, fuzzy feelings for me as well. I didn't take it as far as you, I didn't actually create skins, but I do remember -- this specifically for me is attached to Napster in the timeline, in terms of what was happening at the same time... And it was like, you're waiting for your files to download, right? And they're taking forever, because the internet was slow back then... And while you do that, what do you do? Well, I'm just out there download Winamp skins and swapping them out, creating playlists, and just wasting hours upon hours.
+**Jerod Santo:** \[16:04\] Yeah. Winamp definitely has the same warm, fuzzy feelings for me as well. I didn't take it as far as you, I didn't actually create skins, but I do remember -- this specifically for me is attached to Napster in the timeline, in terms of what was happening at the same time... And it was like, you're waiting for your files to download, right? And they're taking forever, because the internet was slow back then... And while you do that, what do you do? Well, I'm just out there download Winamp skins and swapping them out, creating playlists, and just wasting hours upon hours.
 
 I never quite made it across the void like you did, to like "I'm gonna create my own", but definitely down the road I had times where I peeled back the covers and saw the power of programming. Adam, were you a Winamp user back in the day?
 
@@ -106,7 +106,7 @@ It's been interesting, I've actually been able to through this project end up co
 
 **Jordan Eldredge:** Yeah, I think it's hard to untangle the experience of Winamp from the experience of digital media, digital audio being available for the very first time, and sort of just sky-rocketing into the mainstream, and suddenly this huge availability of music and the ability to just ingest music from all over with very little friction... I think everybody who went through that transition from "Oh, you only get music at a CD store, where you can drop 10-15 bucks on a CD" to "Oh, everything is suddenly available for me at my fingertips." I think that feeling is probably a very important, potent part of the emotional reaction that people have to Winamp, I would guess.
 
-**Jerod Santo:** \[00:20:18.06\] And not just music that you could buy at the CD store... Is that a thing? CD store...
+**Jerod Santo:** \[20:18\] And not just music that you could buy at the CD store... Is that a thing? CD store...
 
 **Adam Stacoviak:** When you said "CD store", I was like "CD store? That's interesting... It's not music store."
 
@@ -142,7 +142,7 @@ I think Winamp was one of the first to sort of jump on that and be like 'No, we'
 
 **Adam Stacoviak:** Wow...
 
-**Jerod Santo:** \[00:24:10.28\] Yeah, so according the history books, they sold it to AOL in 1999 for 80 million dollars. The nostalgia for Winamp 2 specifically - because you didn't build Winamp3-js or Winamp5-js, even though these things exist - is that once AOL took it over, it lost a lot of the things that people loved... There was a major rewrite, new UI, it was very AOL - which is very anti-punk, right? It's like the most mainstream thing company at the time.
+**Jerod Santo:** \[24:10\] Yeah, so according the history books, they sold it to AOL in 1999 for 80 million dollars. The nostalgia for Winamp 2 specifically - because you didn't build Winamp3-js or Winamp5-js, even though these things exist - is that once AOL took it over, it lost a lot of the things that people loved... There was a major rewrite, new UI, it was very AOL - which is very anti-punk, right? It's like the most mainstream thing company at the time.
 
 Another reason why I'm thinking it's so nostalgic is because it reminds us of a better piece of software than currently exists... Kind of like the glory days.
 
@@ -150,7 +150,7 @@ Another reason why I'm thinking it's so nostalgic is because it reminds us of a 
 
 The fact that it was a singular vision from a very singular person, I think, and then it was just well executed on top of that... And it wasn't compromised into any kind of corporate requirement. It was like, this was the thing that Justin wanted to build, and that I think has a lot of power.
 
-**Break:** \[00:25:53.14\]
+**Break:** \[25:53\]
 
 **Jerod Santo:** Jordan, you've been working on this off and on for 4+ years... Surely, it's taken different forms. I notice now it's built with React and Redux; those things didn't exist in 2014... So take us through some of the history of the software itself, maybe some technical hurdles or interesting bits, and we can talk about all that's packed into Winamp2-js.
 
@@ -160,7 +160,7 @@ The fact that it was a singular vision from a very singular person, I think, and
 
 **Jordan Eldredge:** I was just writing bad PHP and bad jQuery, like stitching together plugins and whatnot... And it was really this project that taught me JavaScript. I was curious about it, so I'd come home each night, eager to try to make it better, and as a part of that I ran up against my own limitations of knowledge. I kept having to learn, like "Okay, how do you actually (like I said) make a class?", or I'd learned about prototypical inheritance, and whatnot.
 
-\[00:28:21.21\] So I wrote it all in jQuery at first. I was very primitive at that point, I didn't do very much, and then pretty quickly I realized that this wasn't really the right way to go about it, so I rewrote it all in what we call vanilla JavaScript, without any framework at all. It existed in that form for quite a while, until then I started to run up against limitations of that, and having learned a little bit about React at that point, I realized that this sort of declarative nature of being able to, rather than managing transition between states, just managing state and then a projection of that state into a DOM state seemed like it made sense for this problem.
+\[28:21\] So I wrote it all in jQuery at first. I was very primitive at that point, I didn't do very much, and then pretty quickly I realized that this wasn't really the right way to go about it, so I rewrote it all in what we call vanilla JavaScript, without any framework at all. It existed in that form for quite a while, until then I started to run up against limitations of that, and having learned a little bit about React at that point, I realized that this sort of declarative nature of being able to, rather than managing transition between states, just managing state and then a projection of that state into a DOM state seemed like it made sense for this problem.
 
 **Jerod Santo:** Were those bumps that you were hitting with the vanilla JS version? If you recall back then, what were the particular aspects? Or was it just like crazy amounts of state everywhere, and you're having to react to it? Gosh, pun unintended... \[laughter\]
 
@@ -184,7 +184,7 @@ I think the most interesting one is, you know, Winamp2-js actually loads actual 
 
 **Adam Stacoviak:** Wow...
 
-**Jordan Eldredge:** \[00:32:04.10\] It's hacks on top of hacks to get it to work inside the browser. Once I realized that Winamp skins are just zip files of bitmaps, and someone has written a JavaScript zip utility, it's like, "Well, okay, you can do it, I guess..."
+**Jordan Eldredge:** \[32:04\] It's hacks on top of hacks to get it to work inside the browser. Once I realized that Winamp skins are just zip files of bitmaps, and someone has written a JavaScript zip utility, it's like, "Well, okay, you can do it, I guess..."
 
 **Jerod Santo:** So it unzips them, and... How does that work? You said you had some hurdles there...
 
@@ -218,7 +218,7 @@ I think having an excuse to do something terrible where you're still doing the r
 
 It's a bunch of bitmap files in a zip, that's been renamed, and then there's a number of config files in there as well... Some .ini files and whatnot, which of course I also have to parse.
 
-**Adam Stacoviak:** \[00:36:17.00\] It's tangential of course, but in this journey of yours, having to go to all these obscure, and to some degree kind of older websites that have information that not a lot of people are actually looking for anymore, and you've gotta deal with all these ads everywhere, and this weird old-school web, too... Or maybe kind of new school; there's ads everywhere now. It's like, "Is that a Download Skin button or is that an ad?"
+**Adam Stacoviak:** \[36:17\] It's tangential of course, but in this journey of yours, having to go to all these obscure, and to some degree kind of older websites that have information that not a lot of people are actually looking for anymore, and you've gotta deal with all these ads everywhere, and this weird old-school web, too... Or maybe kind of new school; there's ads everywhere now. It's like, "Is that a Download Skin button or is that an ad?"
 
 **Jordan Eldredge:** Right...
 
@@ -236,7 +236,7 @@ So yeah, I certainly didn't set out on this project with any kind of noble ambit
 
 **Jordan Eldredge:** Yeah, if you pass a carefully crafted JSON in the hash of the URL, you can inject either an Mp3 or a skin. Now, Mp3's and skins are both a little tricky because of cross-origin headers and whatnot. Something that a lot of users have asked for is this ability to -- and in fact, Winamp itself could do this; you could paste in a URL and it would play it for you... But alas, due to the cross-origin restrictions, more often than not, that experience is not gonna actually be good for the user, so I've opted to not expose it in the UI.
 
-**Adam Stacoviak:** \[00:39:58.22\] As part of that, a side effect or a side conversation might be are you cataloging these things in an S3 bucket, or something like that? Because it looks like it's on Amazon AWS; it's just you collecting these as you tweet these?
+**Adam Stacoviak:** \[39:58\] As part of that, a side effect or a side conversation might be are you cataloging these things in an S3 bucket, or something like that? Because it looks like it's on Amazon AWS; it's just you collecting these as you tweet these?
 
 **Jordan Eldredge:** Yeah, so I got some huge zip file of many thousands of skins, and I've been sort of reviewing them and looking through them, and picking ones that I thought were notable, I guess...
 
@@ -266,7 +266,7 @@ Then I just push them up to S3, because they do have to be available somewhere, 
 
 The equalizer works, so you can tweak all the different levels, the different frequency bands... And again, that works actually pretty simply through the web audio API. Once you workaround a bug that I discovered in Safari, which depending on how you ordered things in the web audio API, it would just like hard crash, like segfault Safari. That took me like three months to figure out.
 
-\[00:43:50.25\] But those are good ones, and then I think the window management has been interesting, too. Like I said, I released this first version back in 2014, and it was just the main window at that point... And then going from one window to two windows, suddenly there was a huge amount of additional extra layer of work required. So you can drag these windows around, but they -- Winamp had this great feature where most of the time you probably want them stuck to each other; you want the windows sort of arranged, but you wanted them to form a single unit... So it had like snap; so if you drag two windows close to each other, they'll sort of align directly. Getting that to work was quite a bit of effort, and in fact just recently... Another piece of that is the windows have this shade mode, where they'll collapse down to just their title bar.
+\[43:50\] But those are good ones, and then I think the window management has been interesting, too. Like I said, I released this first version back in 2014, and it was just the main window at that point... And then going from one window to two windows, suddenly there was a huge amount of additional extra layer of work required. So you can drag these windows around, but they -- Winamp had this great feature where most of the time you probably want them stuck to each other; you want the windows sort of arranged, but you wanted them to form a single unit... So it had like snap; so if you drag two windows close to each other, they'll sort of align directly. Getting that to work was quite a bit of effort, and in fact just recently... Another piece of that is the windows have this shade mode, where they'll collapse down to just their title bar.
 
 And Winamp, again, has this interesting UI feature where if you have two windows one on top of the other and you put the top window into shade mode, all the lower windows will sort of travel along with it. So getting that to work was another bunch of effort.
 
@@ -291,13 +291,13 @@ Let's see, this laundry list of other things... It can parse the binary equalize
 
 **Jordan Eldredge:** Yeah, I mean... As much as possible, I've tried very carefully to recreate everything exactly. And partially, it's just because it's kind of fun to do, but also it's actually kind of freeing, as an engineer, who -- even with the most well-defined spec, I think any project ultimately ends up being a lot of judgment calls as an engineer of like "Okay, how should this thing actually work to be the best?"
 
-\[00:47:52.16\] There's something kind of liberating about not having to make that decision ever, and just knowing like "Okay, the spec is this thing. I want it to behave exactly like this, for better or for worse." So I was literally slo-mo screen-capturing actual Winamp in a VM to see how many pixels away it is until is snaps...
+\[47:52\] There's something kind of liberating about not having to make that decision ever, and just knowing like "Okay, the spec is this thing. I want it to behave exactly like this, for better or for worse." So I was literally slo-mo screen-capturing actual Winamp in a VM to see how many pixels away it is until is snaps...
 
 **Adam Stacoviak:** Wow...
 
 **Jordan Eldredge:** And for better or for worse, there are some cases where Winamp has bugs where things don't behave in a quite sensible way, where I've actually gone ahead and reimplemented those bugs, just because for me that's kind of more interesting than trying to make the best Mp3 player, just to make the one that already exists.
 
-**Break:** \[00:48:43.25\]
+**Break:** \[48:43\]
 
 **Adam Stacoviak:** I'm thinking about how this works... It actually works. Not just looks like it works, but it actually works, and you've thought through all this cool stuff, and even recreated bugs, and I'm thinking like... We're talking about usefulness, and exporting playlists, and equalization, and all that fun stuff, but could this be like a front-end to, say, Spotify's API, for example?
 
@@ -319,7 +319,7 @@ I think the ones that I've seen are, like you said, the Spotify people want it t
 
 **Jordan Eldredge:** So Spotify itself actually did have a player called Spotiamp, which was a C Winamp clone that you could run on your desktop if you have a Spotify Premium account. I wish I could remember the guy who did that, because he's a notable guy... But he was working at Spotify and he built this Winamp clone that you could download and run and it would interact with Spotify...
 
-\[00:51:42.11\] And I think first they had some licensing issues with it, and then I think ultimately there was a whole to-do about - people were using the underlying library which that thing used as a hacking monetization model. So they were creating fake Spotify accounts, and then they would hack into arbitrary people's computers and play tracks on those Spotify author accounts tracks, and then make revenue from having their tracks listened to a bunch. So eventually Spotify had to shut down that, or they chose to (I guess) shut down that thing.
+\[51:42\] And I think first they had some licensing issues with it, and then I think ultimately there was a whole to-do about - people were using the underlying library which that thing used as a hacking monetization model. So they were creating fake Spotify accounts, and then they would hack into arbitrary people's computers and play tracks on those Spotify author accounts tracks, and then make revenue from having their tracks listened to a bunch. So eventually Spotify had to shut down that, or they chose to (I guess) shut down that thing.
 
 So yeah, Spotify itself I think - or at least some people within Spotify - would like to see a Winamp interface, and they do have this API that's available online... And I don't know for sure, but I think it might have something to do with the new DRM-enabled API's in the browser; that's a whole other conversation. But because of the DRM, we can't get direct access to the audio stream, so there are some features which don't work. The equalizer can't work, because we can't twiddle the bits the way that we need to, and the visualizer can't work, and the balance can't work...
 
@@ -345,7 +345,7 @@ So for now, and unless maybe a bunch of these things get added on top of the exi
 
 **Jerod Santo:** Nice.
 
-**Jordan Eldredge:** \[00:56:04.17\] And I guess they maybe had some internal project or something like that; at some point they had been doing some kind of web thing and it never came to fruition, and I don't know how he came into possession of those domains or whatever, but... Yeah, I guess long story short - there might have been some legal complications about getting me those domains, but I have them now... Except for .com, which I got scooped up, but...
+**Jordan Eldredge:** \[56:04\] And I guess they maybe had some internal project or something like that; at some point they had been doing some kind of web thing and it never came to fruition, and I don't know how he came into possession of those domains or whatever, but... Yeah, I guess long story short - there might have been some legal complications about getting me those domains, but I have them now... Except for .com, which I got scooped up, but...
 
 So I thought it was very cool to 1) have a much more shareable URL than \[unintelligible 00:56:33.08\] on my own JordanEldredge.com domain, with three subdirectories down... So I thought I might as well take advantage of this domain, because it seems like a cool place for it to live. But I guess I haven't fully committed to changing the name and introducing the complete confusion of, like you said, news articles and other things that talk about it as Winamp2-js, and then that not being the canonical name anymore.
 

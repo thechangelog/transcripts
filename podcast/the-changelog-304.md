@@ -12,7 +12,7 @@
 
 **Corey Sanders:** Yeah, totally. It is a set of services (not just a single service) that on the core VM side offer you Agile infrastructure - you can spin up virtual machines, you can run your services on it... But then the services in my team go well beyond just the core compute. We also do the Azure Kubernetes service, which we've talked a lot about today in the keynote.
 
-\[00:04:09.10\] We have also Service Fabric, which is a sort of managed PaaS service, and then higher-level services - some of the eventing services, messaging services are also in my team; Event Grid is also in my team - sort of more of an event-based pops up type solution.
+\[04:09\] We have also Service Fabric, which is a sort of managed PaaS service, and then higher-level services - some of the eventing services, messaging services are also in my team; Event Grid is also in my team - sort of more of an event-based pops up type solution.
 
 They're all a part of our overall cloud offering. I don't know how much broad of a spectrum you want me to give, but that's our cloud offering on Microsoft.
 
@@ -76,7 +76,7 @@ In fact, even just last week we launched an open source model called Cloud Event
 
 **Adam Stacoviak:** Okay, gotcha.
 
-**Corey Sanders:** \[00:08:03.19\] We were the only cloud actually that did a "You can publish out of Cloud Events", but many of the cloud providers you could subscribe into. With Event Grid you can both send out Cloud Events format, and listen Cloud Events format. It's a specification that now you can use, and it's a nice thing with where events are going and where IoT is going... Having sort of a standard that you can go write your events to is really nice, because it means you're not tied in with any cloud.
+**Corey Sanders:** \[08:03\] We were the only cloud actually that did a "You can publish out of Cloud Events", but many of the cloud providers you could subscribe into. With Event Grid you can both send out Cloud Events format, and listen Cloud Events format. It's a specification that now you can use, and it's a nice thing with where events are going and where IoT is going... Having sort of a standard that you can go write your events to is really nice, because it means you're not tied in with any cloud.
 
 **Jerod Santo:** Exactly, which is awesome.
 
@@ -134,7 +134,7 @@ In fact, even just last week we launched an open source model called Cloud Event
 
 **Corey Sanders:** I also think actually it's a great scenario for automation. This is where we've seen a lot of usage for serverless, in fact maybe even more than IoT, which is every time a VM gets created, do this thing; every time a storage thing happens, do this thing. This type of automation, this type of DevOps experience - I've seen a lot of usage of serverless in very exciting scenarios.
 
-\[00:11:56.24\] The one that I think is still pending, frankly, is an entire app being written with serverless. It's very hard... It's very hard because the tooling is just not there, and I feel like we're farthest along in some of these things - like, you can do local debugging of functions, so you can basically bring a function down, you can run it locally in your box, you can debug it, you can put breakpoints and so on, just like you'd expect for a normal app... But still, function chaining, which you need to write a large app, is very hard.
+\[11:56\] The one that I think is still pending, frankly, is an entire app being written with serverless. It's very hard... It's very hard because the tooling is just not there, and I feel like we're farthest along in some of these things - like, you can do local debugging of functions, so you can basically bring a function down, you can run it locally in your box, you can debug it, you can put breakpoints and so on, just like you'd expect for a normal app... But still, function chaining, which you need to write a large app, is very hard.
 
 **Jerod Santo:** Exactly.
 
@@ -202,7 +202,7 @@ I feel like there's constructs that are still missing, and frankly, we're workin
 
 **Jerod Santo:** "What is smaller than pico..."
 
-**Corey Sanders:** \[00:15:58.07\] Either way... And then the other aspect of that is that you look at something like a microservice model - and we showed this a little bit today with some of the cool, new development tools that we've talked about when it comes to Kubernetes, and being able to basically take a microservice, take it out and build sort of updates to that microservice while leaving the rest of the service untouched... With serverless, that's even easier. You're function-chaining, you start saying "Great. Take this function and just update it", and it's like that, updated and calling in into it, and suddenly you've got an entirely new path for your application going through that new function... So the agility and the cost reductions I think will drive it there.
+**Corey Sanders:** \[15:58\] Either way... And then the other aspect of that is that you look at something like a microservice model - and we showed this a little bit today with some of the cool, new development tools that we've talked about when it comes to Kubernetes, and being able to basically take a microservice, take it out and build sort of updates to that microservice while leaving the rest of the service untouched... With serverless, that's even easier. You're function-chaining, you start saying "Great. Take this function and just update it", and it's like that, updated and calling in into it, and suddenly you've got an entirely new path for your application going through that new function... So the agility and the cost reductions I think will drive it there.
 
 But then you start thinking to yourself, all CI/CD -- I mean, what CI/CD pipelines have you seen that really have deep chaining of functions and sort of pipelining of functions? They don't really exist. We do have CI/CD updating with functions, but it's still pretty primitive. So I think we're getting there, and I think we WILL get there, and I think it's gonna be a core part of many services, but I think it's gonna see the progression like object-oriented saw.
 
@@ -268,7 +268,7 @@ But then you start thinking to yourself, all CI/CD -- I mean, what CI/CD pipelin
 
 **Corey Sanders:** With the runtime portion of it, exactly. I think that is super-compelling -- and then Azure stack sort of up the chain, where it can run even the full cloud in that environment... It's super compelling when you look at that sort of cloudy picture, where it's got the center cloud, and then sort of the edge cloud... It's just super-compelling to say "Look, you write once and you can deploy anywhere." It's just a very, very exciting world that that could be.
 
-**Jerod Santo:** \[00:20:14.21\] Yeah. Let's go back to the open-sourcing of the runtime...
+**Jerod Santo:** \[20:14\] Yeah. Let's go back to the open-sourcing of the runtime...
 
 **Corey Sanders:** Yeah.
 
@@ -313,7 +313,7 @@ Specifically in this case, it can be a combination of both of these. I would act
 
 **Corey Sanders:** Yeah, it's unbelievable.
 
-**Adam Stacoviak:** \[00:23:58.26\] It's astounding. It takes so much to train these models and do all this interesting stuff around machine learning and neural networks and all the necessary things, and you've--
+**Adam Stacoviak:** \[23:58\] It's astounding. It takes so much to train these models and do all this interesting stuff around machine learning and neural networks and all the necessary things, and you've--
 
 **Corey Sanders:** We democratize all the time. Democratizing AI, making sure that whether you're a data scientist or an entry-level developer, you can take advantage of these tools.
 
@@ -381,7 +381,7 @@ Some of the things that we showed today, the developer tools, things like doing 
 
 **Corey Sanders:** Then you become the model that AI needs to learn from.
 
-**Jerod Santo:** \[00:27:59.15\] Oh, I like this... Tell me more. \[laughter\]
+**Jerod Santo:** \[27:59\] Oh, I like this... Tell me more. \[laughter\]
 
 **Corey Sanders:** You are patient zero for the system, so we need to study you, I think.
 
@@ -507,7 +507,7 @@ Some of the things that we showed today, the developer tools, things like doing 
 
 **Adam Stacoviak:** Thank you.
 
-**Break:** \[00:30:48.02\]
+**Break:** \[30:48\]
 
 **Jerod Santo:** So we're joined by Steven Guggenheimer, vice-president of Microsoft AI. Steve, thanks for coming on the show.
 
@@ -539,7 +539,7 @@ So the most useful case I think people think about is robotics. When people see 
 
 **Steve Guggenheimer:** With AI, I think we can see the potential for the transformation we'll have, and in that light, it's not one company that's gonna define it; frankly, it's not one government that's gonna define it, and there's no particular group in society... So how do you create a conversation between sort of society as a whole, government and industry, to have the conversation? We've been trying to get that proactively out there.
 
-\[00:35:55.01\] We published a book - our chief counsel and our head of AI published a book called The Future Computed, and it's meant to sort of start the conversation. We have a council inside of Microsoft on the ethics of AI, and it works across the entire company. On the ethics side, we have sort of published a set of base-level things to think about for the ethics of AI. There's seven areas; things like transparency, removing bias... So we're trying to drive that conversation proactively and get ahead of it. Again, it's not up to use to define per se, but if we're not in a healthy way trying to move forward, we're all gonna collectively sort of not get to the point we want. So that's our approach right now.
+\[35:55\] We published a book - our chief counsel and our head of AI published a book called The Future Computed, and it's meant to sort of start the conversation. We have a council inside of Microsoft on the ethics of AI, and it works across the entire company. On the ethics side, we have sort of published a set of base-level things to think about for the ethics of AI. There's seven areas; things like transparency, removing bias... So we're trying to drive that conversation proactively and get ahead of it. Again, it's not up to use to define per se, but if we're not in a healthy way trying to move forward, we're all gonna collectively sort of not get to the point we want. So that's our approach right now.
 
 **Adam Stacoviak:** What are your thoughts on organizations like OpenAI, for example? You know, just doing the research behind things, kind of putting the information out there in a non-biased way...
 
@@ -575,7 +575,7 @@ I talk to people, my friends that are our age, who worry about data privacy, the
 
 **Steve Guggenheimer:** The ability to help people when writing a paper know "Hey, that sentence looks like this sentence, and maybe you wanna change it", that's very comfortable. Laying out pictures - the ability to take a set of photos and throw them on a slide and have it give you 4-5 layouts and give you a sub-caption - that's AI. It feels like PowerPoint's just working better; it doesn't feel like "Hey, that's a creepy AI thing." So again, it's sort of how it gets used relative to the scenario it's in, and does it feel natural or does it feel unnatural?
 
-**Jerod Santo:** \[00:40:09.24\] Yeah. Going back to the point about responsibility, and kind of the community deciding maybe self-regulating or determining what's the responsible ways to go about these things - are there any efforts across organization (the Microsofts, the Googles, the Apple) by the people who are working and making huge progress in AI to kind of standardize and work together, share...?
+**Jerod Santo:** \[40:09\] Yeah. Going back to the point about responsibility, and kind of the community deciding maybe self-regulating or determining what's the responsible ways to go about these things - are there any efforts across organization (the Microsofts, the Googles, the Apple) by the people who are working and making huge progress in AI to kind of standardize and work together, share...?
 
 **Steve Guggenheimer:** Definitely sharing, in particular on the ethics in the AI conversation. Look, sort of like this podcast, there's very few forums you go to where you don't get some combination of the -- you know, if it's all developers, you get more depth on the technical side, but you do get these sort of social conscience type questions... So trying to have that conversation in a vacuum isn't too useful, so we do talk with the Facebooks of the world, we talk with Amazon... I get a lot of interesting questions from other large corporations and we connect them with the folks in our company who are sort of leading that dialogue on behalf of Microsoft.
 
@@ -601,7 +601,7 @@ We're starting to build a normalized set of cognitive services - the ability to 
 
 So now as a developer I can say "Hey, can I infuse sight into my application, or listening into my application, or reasoning? How can I start to infuse AI into the applications I'm building and how do I have that as a tool set where I can pull it from Visual Studio or whatever tools that I wanna use? I can use them against the cloud, I can use them at the edge..." So you're moving from a world that's been pretty heavy research where you pretty much do it on your own, to a set of tools that are more standardized, so every developer can use AI, or every data scientist now can more easily work with data and create models.
 
-**Adam Stacoviak:** \[00:44:12.16\] It almost kind of reminds me of JavaScript Sprinkles in a way... Like, AI Sprinkles.
+**Adam Stacoviak:** \[44:12\] It almost kind of reminds me of JavaScript Sprinkles in a way... Like, AI Sprinkles.
 
 **Steve Guggenheimer:** Yeah, Sprinkles, for sure.
 
@@ -649,7 +649,7 @@ So you're actually seeing an acceleration of the research and you're seeing thes
 
 **Steve Guggenheimer:** Well, if you think of this, there's patterns relative to AI, and one of them is AI assisting humans. This notion of "How do you help people?" How does Microsoft and the industry and AI help us as humans in any field is incredibly powerful.
 
-\[00:48:10.03\] The one that always catches you the most is healthcare. Project Emma, if you go look that up, and what we're doing relative to Parkinson's... Seeing AI, the ability to help people who are sight-impaired... I mean, the ability to help people, the work going on in genomics and radiomics... Look, I'm getting old; this stuff is like "Boy it's pretty cool!". I might be needing some of it soon.
+\[48:10\] The one that always catches you the most is healthcare. Project Emma, if you go look that up, and what we're doing relative to Parkinson's... Seeing AI, the ability to help people who are sight-impaired... I mean, the ability to help people, the work going on in genomics and radiomics... Look, I'm getting old; this stuff is like "Boy it's pretty cool!". I might be needing some of it soon.
 
 **Jerod Santo:** Yeah, you might be using it sometime soon.
 
@@ -681,7 +681,7 @@ And third - look, Microsoft research has been there for 25 years. We've been doi
 
 I think the second thing, frankly, is sort of customer and commercial ethos. When you talk about people using AI, the notion of security and privacy and management and solutions that are on premises and into the cloud, and edge and cloud computing - I think that ethos of sort of a commercial entity and how you apply this sort of in a business setting, I think people get a little less nervous about us, where we have sort of stricter rules on how we use data... We always have, and we're not in industries, we're not adding ourselves into certain industries that others are... So that combination of a commercial ethos, core fundamentals that are very sound, non-competitive, and then sort of taking this proactive approach for example on the ethics - I think that gives people a comfort level in sort of saying "Hey, we're looking for help in AI (because a lot of people are) and you seem like a good set of folks to talk to about it."
 
-**Adam Stacoviak:** \[00:52:23.08\] I think that these keynotes like you did today with Satya, his keynote, the first thing he said was privacy... That was how he essentially opened it up. It wasn't like "Here's how awesome we are and what we're doing", it's "Here's how responsible we are with the data and here's how we apply data to problems."
+**Adam Stacoviak:** \[52:23\] I think that these keynotes like you did today with Satya, his keynote, the first thing he said was privacy... That was how he essentially opened it up. It wasn't like "Here's how awesome we are and what we're doing", it's "Here's how responsible we are with the data and here's how we apply data to problems."
 When you take that and you say "Well, here's artificial intelligence laid on top of big data or cloud software", things like that, you really have to look at Microsoft differently from the point of view of like that's what you came out the gate with, not "Here's our latest tool."
 
 **Steve Guggenheimer:** "Here's all the cool science." I mean, at the end of the day, you need the science... But it comes back to that ethos - what's your ethos as a company, how do you think about the commercial landscape versus the consumer, how do you think about helping other companies use this technology, how do you think about doing it responsibly?
@@ -708,7 +708,7 @@ I've been at Microsoft 24 years, been through a lot of ups and downs, and you le
 
 **Steve Guggenheimer:** You end working across teams... Look, you have a set of people that are working on the platform, the things that developers would use, and then you have a set of people who are using it, and really what you wanna do is enable the conversation so that the platform teams learn from the people who are actually using it, and you feed things back into the platform that you need to. Teams that are busy advancing stuff are making the most of it in the products, then you've got researchers on the other side... So a lot of that is enabling the conversation, it's helping get ready for events like this, it's helping sort of bring it to life for customers...
 
-\[00:55:02.29\] So there's a decent amount of orchestration, and having been there a long time, that's actually helpful, knowing your way around... But you know, it's just fun, it's just good. I always say I like being the center of the whirlwind. AI is definitely the center of conversation or energy today, so that's where I like to be.
+\[55:02\] So there's a decent amount of orchestration, and having been there a long time, that's actually helpful, knowing your way around... But you know, it's just fun, it's just good. I always say I like being the center of the whirlwind. AI is definitely the center of conversation or energy today, so that's where I like to be.
 
 **Adam Stacoviak:** Maybe as a closing question - biggest challenges moving forward for AI? What are those biggest challenges/hurdles?
 

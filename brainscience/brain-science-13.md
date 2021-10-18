@@ -10,7 +10,7 @@ I feel like, to some degree, it's living like Garmin, when I'm trying to go some
 
 Their essential message boils down to "Brace for turbulence." And to me, brace for turbulence doesn't mean panic; it means prepare for change, and potentially (italicize potentially) discomfort as a result of that change, and to be adaptable. You've said it time and time again, this word "resilience". What does that mean for you, this word "resilience", to be resilient?
 
-**Mireille B. Reece, Psy.D:** \[00:04:13.20\] Well, resilience doesn't look like "I know everything that's coming my way, and that I can then prepare in advance, so that I know where to go, what to do, or what resources to use", but rather this sense of "I believe that I can handle things when they're not known, and look to resources, be it people or things, that help me navigate that." It's sort of like that song, "I get knocked down, I get up again"...
+**Mireille B. Reece, Psy.D:** \[04:13\] Well, resilience doesn't look like "I know everything that's coming my way, and that I can then prepare in advance, so that I know where to go, what to do, or what resources to use", but rather this sense of "I believe that I can handle things when they're not known, and look to resources, be it people or things, that help me navigate that." It's sort of like that song, "I get knocked down, I get up again"...
 
 **Adam Stacoviak:** Oh my gosh, yes...
 
@@ -44,7 +44,7 @@ Like you mentioned with these movies, our brain doesn't know the difference, whe
 
 **Adam Stacoviak:** Right. Air in my lungs, my family is safe - for now... What else?
 
-**Mireille B. Reece, Psy.D:** \[00:08:08.28\] I really wanna practice this notion of presence. Not like p-r-e-s-e-n-t-s, but p-r-e-s-e-n-c-e...
+**Mireille B. Reece, Psy.D:** \[08:08\] I really wanna practice this notion of presence. Not like p-r-e-s-e-n-t-s, but p-r-e-s-e-n-c-e...
 
 **Adam Stacoviak:** Spelling on a podcast is difficult. \[laughter\] You have to laugh at yourself there, right? Like, it's... Yeah, whatever. It's fun.
 
@@ -78,7 +78,7 @@ Like you mentioned with these movies, our brain doesn't know the difference, whe
 
 **Mireille B. Reece, Psy.D:** Yeah, so being a woman and a mom who has given birth, I have the template of birth, and practicing breathing. It's interesting going through the process, because providers and prenatal care involves like "What's your birth plan? What ideally, if you could have it your way, would you want your birth experience to look like?" But the ironic thing is while there's sort of generalities and saying "This is how it usually goes most of the time, some of the times, some ways...", that may not be what your experience is. But one of the things that most women are taught is how to breathe through the pain, because we know that birth or labor is an incredibly painful experience. So we don't do "Well, just avoid it" or "Hold your breath during the entire minute of pain."
 
-\[00:12:20.28\] Even in exercise, we're taught to breathe, and that we want to be mindful of how we can practice breathing through the fear. I think I've mentioned this before, my experience with virtual reality, and going -- the sensory information I was taking in visually, my visual system was telling me that there is an active real threat, like "I'm gonna walk off this plank out of an elevator and fall to my death." And yet, I had to practice talking back, like "Come on, Mireille... You know that isn't real..."
+\[12:20\] Even in exercise, we're taught to breathe, and that we want to be mindful of how we can practice breathing through the fear. I think I've mentioned this before, my experience with virtual reality, and going -- the sensory information I was taking in visually, my visual system was telling me that there is an active real threat, like "I'm gonna walk off this plank out of an elevator and fall to my death." And yet, I had to practice talking back, like "Come on, Mireille... You know that isn't real..."
 
 **Adam Stacoviak:** Right, "That's not real..."
 
@@ -114,7 +114,7 @@ Like you mentioned with these movies, our brain doesn't know the difference, whe
 
 **Adam Stacoviak:** Yeah. Social pressures.
 
-**Mireille B. Reece, Psy.D:** \[00:15:47.21\] Yeah, we're social. So looking at who you're spending time with and what you're listening to... And everyone is so different. Because look - I know people close to me who've had... You know, doctors will tell them in certain medical things, like "Well, the chances are like 0.1%" and they're like "Yeah, well, that happened, so of course... Those are big steps to me", right?
+**Mireille B. Reece, Psy.D:** \[15:47\] Yeah, we're social. So looking at who you're spending time with and what you're listening to... And everyone is so different. Because look - I know people close to me who've had... You know, doctors will tell them in certain medical things, like "Well, the chances are like 0.1%" and they're like "Yeah, well, that happened, so of course... Those are big steps to me", right?
 
 **Adam Stacoviak:** Yeah.
 
@@ -162,7 +162,7 @@ We know there are certain environments that tend to be more impacted, dare I say
 
 **Mireille B. Reece, Psy.D:** So recognizing that while it might not be a big deal for you/to you because it's not you, if you were them, then it would.
 
-**Adam Stacoviak:** \[00:20:04.19\] Yeah.
+**Adam Stacoviak:** \[20:04\] Yeah.
 
 **Mireille B. Reece, Psy.D:** I just think about all these different conversations that we've had, and again, we're not trying to necessarily give people all the answers, because of course we don't have them, but rather I want people to be able to think... To think differently and to look at things from alternative perspectives, so that they can be more agile or flexible in their mind, and go "While it might not directly impact me, I'm not going to do X, Y or Z because that could be me. So I'm not going to."
 
@@ -202,7 +202,7 @@ We know there are certain environments that tend to be more impacted, dare I say
 
 **Mireille B. Reece, Psy.D:** Yeah. So with that, in this conversation, talk about -- of course there has to be future implications of this... Because now we do know how interconnected we literally are, that maybe it then changes. And this is what we're getting at, of all of these unknowns. It's like, "Well, what does it mean for how we do business?" Look at how many people are working remotely now.
 
-\[00:24:13.03\] I can talk about -- I got notification, which has been interesting in watching the trends within the field of psychology and providing psychological services, because we have limitations in terms of state standards... There isn't any agreement; while there's similarities, I can't go into another state and start practicing psychology without an active license... So looking at how do we regulate this profession, because really, the regulation is for the patients, that they're protected; everything is about the best interest of them.
+\[24:13\] I can talk about -- I got notification, which has been interesting in watching the trends within the field of psychology and providing psychological services, because we have limitations in terms of state standards... There isn't any agreement; while there's similarities, I can't go into another state and start practicing psychology without an active license... So looking at how do we regulate this profession, because really, the regulation is for the patients, that they're protected; everything is about the best interest of them.
 
 So we got notification that there are certain insurers who created different codes that we can bill for, that allow us to provide therapy via technology, and then associated HIPAA-compliant practice opportunities, technologies that we can use in order to do that... Which has been very sort of a...
 
@@ -240,7 +240,7 @@ So we got notification that there are certain insurers who created different cod
 
 **Adam Stacoviak:** So in some cases, when things happen by force, there isn't a lot of knowledge around doing it, so you're sort of winging it, in a lot of cases. There's a lot of people right now winging working from not their normal work environment... Which could be at home, it could be a coffee shop... Probably not a coffee shop, but it could be potentially with people they still can gather with, that there's less threat; where the social distancing is not a thing.
 
-**Mireille B. Reece, Psy.D:** \[00:28:03.21\] Right. What's interesting - in my email this morning ironically I got a notification from Starbucks, because...
+**Mireille B. Reece, Psy.D:** \[28:03\] Right. What's interesting - in my email this morning ironically I got a notification from Starbucks, because...
 
 **Adam Stacoviak:** They're closed. \[laughter\]
 
@@ -282,7 +282,7 @@ Once upon a time, Adam, I believe you probably remembered a lot more phone numbe
 
 **Adam Stacoviak:** That's true.
 
-**Mireille B. Reece, Psy.D:** \[00:31:56.25\] It's this sense of pliability and flexibility. It doesn't mean it's preferred, like "Mm, this is good." But we have that ability to change. But like we've said, it's gonna fare better if we participate in our choice in the changes. You could say "I don't really wanna work remotely" or "I want to be able to go out." I think that's really one of the challenges within this, of like - people go stir-crazy. Not like I have any idea what living in Western Washington is throughout the winter months...
+**Mireille B. Reece, Psy.D:** \[31:56\] It's this sense of pliability and flexibility. It doesn't mean it's preferred, like "Mm, this is good." But we have that ability to change. But like we've said, it's gonna fare better if we participate in our choice in the changes. You could say "I don't really wanna work remotely" or "I want to be able to go out." I think that's really one of the challenges within this, of like - people go stir-crazy. Not like I have any idea what living in Western Washington is throughout the winter months...
 
 **Adam Stacoviak:** Oh, no... No experience with that at all.
 
@@ -340,7 +340,7 @@ Like you started in talking about -- it's hard to think about anything else, but
 
 **Adam Stacoviak:** Yeah.
 
-**Mireille B. Reece, Psy.D:** \[00:36:00.23\] \[laughs\] But it's in part because I did gymnastics for so much of my life, and doing things from different levels of height, that feeling my stomach drop, or going on rollercoasters and this uncertainty is, to some degree, fun... Like "Oh, what's next?" and riding it out... So I don't get nauseous when I go through turbulence. But maybe I haven't been on turbulence that was as bad as yours.
+**Mireille B. Reece, Psy.D:** \[36:00\] \[laughs\] But it's in part because I did gymnastics for so much of my life, and doing things from different levels of height, that feeling my stomach drop, or going on rollercoasters and this uncertainty is, to some degree, fun... Like "Oh, what's next?" and riding it out... So I don't get nauseous when I go through turbulence. But maybe I haven't been on turbulence that was as bad as yours.
 
 **Adam Stacoviak:** Well, I'll tell you, I didn't panic. I wasn't like "Oh, we're gonna crash." I braced for change.
 
@@ -372,7 +372,7 @@ Like you started in talking about -- it's hard to think about anything else, but
 
 **Adam Stacoviak:** The panic, you mean?
 
-**Mireille B. Reece, Psy.D:** \[00:39:39.26\] Yeah. Would you just hunker down, would you isolate? Would you try to get away?
+**Mireille B. Reece, Psy.D:** \[39:39\] Yeah. Would you just hunker down, would you isolate? Would you try to get away?
 
 **Adam Stacoviak:** No, I don't think I would try to get away. Or maybe potentially... I might be like "I've gotta get out of the city." I've been in hurricane scenarios here in Houston - back to Houston again; we've had hurricanes, and I've fled to Austin or San Antonio in a couple different hurricane scenarios, because it made sense then - the highways, and the ability to flee, to seek safety, to seek refuge was an ability. It was an option, so I took it.
 

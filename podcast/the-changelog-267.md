@@ -4,7 +4,7 @@
 
 This was also at the same time as Fortran was being developed. Fortran was the first non-Assembly-level programming language, but what's interesting is that Lisp was done by a team of grad students in university at MIT, and Fortran was like a multi-billion dollar project... So it always had this bootstrapping route. Anyway, that's a little bit about Lisp.
 
-\[00:03:50.28\] Functional programming has sort of evolved over time to be this paradigm that uses functions, that uses Lambda calculus... It grew mostly in Academia because of its roots in math, roots that go back to Lambda calculus and theorem proving, stuff like that. And recently it's gotten a lot of attention in the industry; no one really knows why... I've tried to figure out if there's some event or something like that, but what I can see is that big names in the industry have been warning people about functional programming - we need it, and it's better than object-oriented for some things like concurrency, for parallel programming...
+\[03:50\] Functional programming has sort of evolved over time to be this paradigm that uses functions, that uses Lambda calculus... It grew mostly in Academia because of its roots in math, roots that go back to Lambda calculus and theorem proving, stuff like that. And recently it's gotten a lot of attention in the industry; no one really knows why... I've tried to figure out if there's some event or something like that, but what I can see is that big names in the industry have been warning people about functional programming - we need it, and it's better than object-oriented for some things like concurrency, for parallel programming...
 
 I actually want to take a very simplifying view of why it's increasing in popularity. I think the size of the industry, the number of programmers is just growing by itself, it's doubling every five years, so what we're seeing is that small portion of people who were always into functional programming are growing, and because of the internet they can connect no matter where they are in the world, so now we're hearing about it. It's just the network effect.
 
@@ -14,7 +14,7 @@ So the 5% of the industry that cares about functional programming - I'm just thr
 
 **Eric Normand:** The background on that is that they can't make transistors smaller anymore; it's reaching fundamental physical limits of how many electrons you need to push through the transistor versus the amount of heat it's making and the leakage to other transistors next to it, so there's what's called "the right-hand turn" on the curve; the curve was like this exponential curve -- this is Moore's law curve... How many transistors we can fit? The cost of transistors is like doubling every 18 months... So they started just spreading out and just making more cores, that were essentially identical processors that shared memory.
 
-\[00:07:55.16\] Yeah, so there was this idea that now there's no free lunch; you can't just wait 18 months and your software is twice as fast... So what are we gonna do? We actually need to use all of our cores in our software. I think about ten years ago that was a pretty good argument, that's what it looked like was gonna happen. Cores started coming out - you had two cores, and then really soon after that four cores... That was ten years ago, and I think the Mac Pro (the all-in-one one) has like 16. So we haven't really had that doubling every 18 months.
+\[07:55\] Yeah, so there was this idea that now there's no free lunch; you can't just wait 18 months and your software is twice as fast... So what are we gonna do? We actually need to use all of our cores in our software. I think about ten years ago that was a pretty good argument, that's what it looked like was gonna happen. Cores started coming out - you had two cores, and then really soon after that four cores... That was ten years ago, and I think the Mac Pro (the all-in-one one) has like 16. So we haven't really had that doubling every 18 months.
 
 I was promised thousands of cores. I remember people saying "You're gonna have it in your laptop, thousands of cores."
 
@@ -42,7 +42,7 @@ I was promised thousands of cores. I remember people saying "You're gonna have i
 
 **Eric Normand:** Exactly, and then there's another aspect to it, which is... I mean, I hate bringing up this example, but I think it's so important - some of the biggest, most scalable websites in the world are built on PHP, which is a single thread per request; the concurrency model is simply one request has its own memory, you do whatever you want, and then it's just blown away by the operating system when it's done. And that works. Like, do we need to have one process that can handle the concurrency and all the problems that that comes with?
 
-\[00:12:21.27\] So even on the server you don't have that thing. Now we have these virtualized things where if you need to scale, you scale horizontally. The servers themselves might have many cores, but then they're running 20 VMs on them, and so each of those is taking up its separate core. We've worked around that problem in so many ways that I don't think we've had an opportunity for functional programming to have a real need, like a real pressing "this is our future" kind of need.
+\[12:21\] So even on the server you don't have that thing. Now we have these virtualized things where if you need to scale, you scale horizontally. The servers themselves might have many cores, but then they're running 20 VMs on them, and so each of those is taking up its separate core. We've worked around that problem in so many ways that I don't think we've had an opportunity for functional programming to have a real need, like a real pressing "this is our future" kind of need.
 
 **Jerod Santo:** With that being said, you're building a business around teaching people functional programming; you're obviously big into it... \[laughter\]
 
@@ -64,7 +64,7 @@ I went to college, started in the '90s, and then the hype cycle for object-orien
 
 **Jerod Santo:** Absolutely.
 
-**Eric Normand:** \[00:16:08.21\] That's right. And I like to look at the paradigms in terms of -- you know, a lot of people look at them like a list of features, like "Object-oriented is message passing with encapsulation", or "Procedural is subroutines..." Functional would be like "First-class functions, immutable data", that kind of thing. I think that's a useful perspective; you know, like a perspective about a perspective. It's useful to see the paradigms that way, sort of like a naturalist, you know? Like "Well, the red-breasted robin has red feathers on the breast...", so it's useful to be able to identify like "Oh, this language is object-oriented, because look, it has classes and methods...", but I am starting to really develop more of a notion of them as holistic approaches to problem-solving.
+**Eric Normand:** \[16:08\] That's right. And I like to look at the paradigms in terms of -- you know, a lot of people look at them like a list of features, like "Object-oriented is message passing with encapsulation", or "Procedural is subroutines..." Functional would be like "First-class functions, immutable data", that kind of thing. I think that's a useful perspective; you know, like a perspective about a perspective. It's useful to see the paradigms that way, sort of like a naturalist, you know? Like "Well, the red-breasted robin has red feathers on the breast...", so it's useful to be able to identify like "Oh, this language is object-oriented, because look, it has classes and methods...", but I am starting to really develop more of a notion of them as holistic approaches to problem-solving.
 
 This is still being developed; I don't wanna say "This is it, this is THE idea, it's the end-all", and I would love to discuss this with you, I'd love your input on this... So I see procedural as a very valuable paradigm, because so many ways that we approach a problem are step-by-step. You have a certain number of operations that you're allowed to do and you just compose them in sequence, and you can build up solutions and sub-problems you can solve with subroutines, and stuff. So it's kind of like, with procedural, the features are very much in line with the sort of abstraction that you're trying to build, right? It makes it easy to confuse the two, the features with the thinking process.
 
@@ -76,7 +76,7 @@ And then the functional - to me, functional is all about identifying the data th
 
 When the procedure is known, you're breaking it down into subroutines, sub-procedures that are manageable sizes, but it's like the perfect solution for a job of a list of known procedures, right?
 
-**Eric Normand:** \[00:20:16.07\] Exactly. You know the steps to solve it, just write them down.
+**Eric Normand:** \[20:16\] Exactly. You know the steps to solve it, just write them down.
 
 **Jerod Santo:** Right, and it's actually one of the most satisfying things you can do, because it's like - I don't know, it's just very straightforward and accomplishable. You know, we denigrated it a little bit by calling those scripts, like "Oh, it's just a script." Anyways, point being is thinking about them holistically means that you recognize when procedural is actually a perfectly fine paradigm for a problem that you need solving.
 
@@ -98,7 +98,7 @@ If you remove the features and say those are just incidental, those are things t
 
 **Jerod Santo:** Exactly, that's my point, the purity is being lost, but... I agree with you with regard to multi-paradigm usage as a good thing. Let's list some languages out there in the wild - so you said Lisp, you mentioned Fortran previously as a procedural language... What are some that have both, that are out there, that people would recognize? Beyond JavaScript, which maybe people don't realize that JavaScript has functional aspects to it, and prototype-based object orientation as well, and kind of has a little bit of everything into it... But what are some other ones that people can kind of look at latch onto and say "Oh, okay, that's what multi-paradigm is."
 
-**Eric Normand:** \[00:24:05.19\] Multi-paradigm languages... So often you'll see something like Python - Python is kind of just basic procedural, but then they added classes to it. There's also a little bit of features from functional programming; you can have lambda statements, and stuff.
+**Eric Normand:** \[24:05\] Multi-paradigm languages... So often you'll see something like Python - Python is kind of just basic procedural, but then they added classes to it. There's also a little bit of features from functional programming; you can have lambda statements, and stuff.
 
 So I kind of object to the question, because...
 
@@ -120,7 +120,7 @@ So I kind of object to the question, because...
 
 **Adam Stacoviak:** Coming up we talk through a post Eric wrote on dev.to, a site we highly recommend, by the way. Eric's post answered the question "Can I do functional programming in my language?" We also talked through object-oriented programming and functional programming on the front-end, ClojureScript and React, and PurelyFunctional.tv, a site Eric runs to help any programmer get into Clojure. Stay tuned.
 
-**Break:** \[00:27:20.16\]
+**Break:** \[27:20\]
 
 **Adam Stacoviak:** So Eric, you've got an awesome post on dev.to, which is a great website... Anybody can go there and publish, we highly recommend you check it out if you haven't yet - dev.to. And you recently published "Can I do FP in my language?" which seems like a fairly logical question that you would wanna ask... You're a wayward programmer, you're not really sure of a paradigm, or you get turned on to functional programming, and the next thing you know you're thinking "Well, I know JavaScript. Can I do it in this language?" Can you kind of state some of the things you share in that article and kind of help us understand why this question is so commonly asked?
 
@@ -134,7 +134,7 @@ So the question is more like "Why can't I just do functional programming in my l
 
 So I have the same answer - if you want to program functionally in any language, sure, but it's not gonna give you any help for learning it, and to just think of it in terms of a few features, such as MapReduce, filter and those kinds of functional tools, you're not gonna really get that holistic perspective, that holistic approach to a problem; you're just gonna sprinkle it where it seems convenient, and it's gonna be too easy to just back out to the stuff you're already familiar with.
 
-\[00:33:52.17\] It's just like learning a spoken language - you wanna immerse yourself in the language, so you set up conversations with a buddy, so you can practice speaking. "The first rule is we cannot use English, right? We can only speak French for this hour", or whatever language you wanna learn. If you don't have that rule, you'll notice by 30 minutes in you're mostly speaking English, with a couple of words in French, and you need to just like jump in, jump in the deep end.
+\[33:52\] It's just like learning a spoken language - you wanna immerse yourself in the language, so you set up conversations with a buddy, so you can practice speaking. "The first rule is we cannot use English, right? We can only speak French for this hour", or whatever language you wanna learn. If you don't have that rule, you'll notice by 30 minutes in you're mostly speaking English, with a couple of words in French, and you need to just like jump in, jump in the deep end.
 
 **Jerod Santo:** I like the idea of immersion. You state that you can do functional things or you can do functional programming in any language, but if you want to learn the concepts, the paradigm of functional programming, you can't just sprinkle it into your current environment because you're not going to expand, you're not going to actually learn.
 
@@ -184,7 +184,7 @@ I took six years of Spanish through high school and in college - that's a lot of
 
 **Jerod Santo:** Alright, so you've set us up for the big hook now, so how do you jump in? I think you'll say "Learn Clojure."
 
-**Eric Normand:** \[00:37:53.13\] Clojure is a good one. I like Clojure -- I've been into Lisp for a while, and I also learned Java in college, so to me it was just like "Oh, this is the best of both", so it was an easy transition for me. There's a bunch of other ones that might be better for each individual, depending on their history. Haskell is notoriously very functional; it takes functional programming very seriously. If you wanna jump right in the deep end and you've got a couple of years to spend figuring out how to -- I wanna put this in a good way.... Haskell is a good language, so if I say something frustrating from my experience with Haskell, it's only because it is frustrating to have to learn a totally new type system and a totally new environment.
+**Eric Normand:** \[37:53\] Clojure is a good one. I like Clojure -- I've been into Lisp for a while, and I also learned Java in college, so to me it was just like "Oh, this is the best of both", so it was an easy transition for me. There's a bunch of other ones that might be better for each individual, depending on their history. Haskell is notoriously very functional; it takes functional programming very seriously. If you wanna jump right in the deep end and you've got a couple of years to spend figuring out how to -- I wanna put this in a good way.... Haskell is a good language, so if I say something frustrating from my experience with Haskell, it's only because it is frustrating to have to learn a totally new type system and a totally new environment.
 
 It took me a while to learn Haskell, even though I'd been doing functional programming for a while, just because the type system is so different. And it's powerful. Once you get on, you learn it, you get it on your side, it actually does help you.
 
@@ -196,7 +196,7 @@ There's all sorts of options, like Elm, which also has a type system, but is not
 
 I like Clojure. That's what I teach on PurelyFunctional.tv. It's got both a JVM backend and a JavaScript back-end, so you can do front-end and back-end programming, and the ClojureScript (that's what it's called when it compiles to JavaScript) uses -- the most common way of doing DOM stuff is with React, and wrappers on React... And React is really friendly for functional programming. You just write functions that output HTML, and boom, you have a UI. I almost left front-end programming because I was so tired of one pixel off, CSS and HTML problems, and dealing with mutable state and updating the DOM and stuff like that...
 
-\[00:42:15.27\] But then React came out and I was just -- I don't know, it just made it fun again. So I recommend React with ClojureScript a lot. It saved my front-end career, I guess. \[laughter\]
+\[42:15\] But then React came out and I was just -- I don't know, it just made it fun again. So I recommend React with ClojureScript a lot. It saved my front-end career, I guess. \[laughter\]
 
 **Jerod Santo:** Nice.
 
@@ -232,7 +232,7 @@ I like Clojure. That's what I teach on PurelyFunctional.tv. It's got both a JVM 
 
 **Jerod Santo:** It's all components, right?
 
-**Eric Normand:** \[00:46:05.02\] Yeah, they're making components that are very object-oriented, they are like doing all sorts of stuff in the lifecycle methods, that's like Ajax fetching or setting some variable... They're doing something that's very procedural and effectful.
+**Eric Normand:** \[46:05\] Yeah, they're making components that are very object-oriented, they are like doing all sorts of stuff in the lifecycle methods, that's like Ajax fetching or setting some variable... They're doing something that's very procedural and effectful.
 
 I'll just tell a little story, I was hired as a contractor to functionalize some React Native code, so what I did is I came in, I added Redux, I started stripping out all of the effects from all the components, removing bugs in the process. I would finish up with one class, one component, and I'd go work on something else. Then I'd come back and find that the component I had just functionalized two weeks later was like all sorts of state everywhere... That has been my experience with trying to do functional and JavaScript. The problem I guess is commitment, lack of immersion, lack of understanding of why you wanna reduce the number of side effects, things like that.
 
@@ -256,7 +256,7 @@ I'll just tell a little story, I was hired as a contractor to functionalize some
 
 **Eric Normand:** Now, a lot of my customers on PurelyFunctional.tv I guess share this similar mindset where they're like "My team does not like functional whenever I do it", or they're just like tired of object-oriented, they're tired of the abstract proxy factoring methods, those kinds of things, and they wanna get out of that world and they see functional programming -- there's jobs now in functional programming and they see it as an escape from that, into a new rationality that they can buy into. So you know, what I do is to kind of holistically show that yes, there are jobs, there is a way to learn the stuff you need, you don't need to learn quite as much as you might think, you don't have to be an expert in functional programming to get a job in a functional language; you can learn on the job. People want good programmers more than they want functional programmers.
 
-**Adam Stacoviak:** \[00:50:11.27\] So where does this fit in then? We've gone through a lot of what you're sharing here, so how does PurelyFunctional.tv fit into your mission, to introduce to all the developers listening to this that have not immersed themselves or don't think they have the time to get involved...? What's your mission here with this and how does it fit in?
+**Adam Stacoviak:** \[50:11\] So where does this fit in then? We've gone through a lot of what you're sharing here, so how does PurelyFunctional.tv fit into your mission, to introduce to all the developers listening to this that have not immersed themselves or don't think they have the time to get involved...? What's your mission here with this and how does it fit in?
 
 **Eric Normand:** The mission of PurelyFunctional.tv is to help people thrive with functional programming - right now I'm very focused on Clojure, so to thrive with Clojure in their career. I have lessons that come out regularly, it's video, and I'm teaching Clojure, I'm teaching functional programming principles, giving lessons and exercises and things like that. So the mission is really to support functional programming, the viability as a job, as a career, that you don't have to just go into object-oriented programming.
 
@@ -280,7 +280,7 @@ I'll just tell a little story, I was hired as a contractor to functionalize some
 
 **Eric Normand:** Yeah, the curse is that these systems are so much more maintainable than the object-oriented systems that have been around for 20+ years now, that they don't require a lot of jobs. \[laughs\] So you have this team of ten people with this receipt processing system from WalMart, that's one example. A lot of the companies that use Clojure - the bigger companies - they probably acquired another company and acquihired the team... So that team is still there and it's still maintaining the system. I think WalMart is an example of that, too. Twitter's analytics stuff was done in Clojure and was acquired.
 
-**Adam Stacoviak:** \[00:54:12.02\] Would you really wanna maintain something that doesn't really need maintaining for the rest of your life just because you need a job though? Wouldn't you want, as a programmer, to be challenged?
+**Adam Stacoviak:** \[54:12\] Would you really wanna maintain something that doesn't really need maintaining for the rest of your life just because you need a job though? Wouldn't you want, as a programmer, to be challenged?
 
 **Eric Normand:** Sure, except people really want the paycheck. \[laughter\]
 
