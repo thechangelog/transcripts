@@ -140,7 +140,7 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Chris Coyier:** Whow...!
 
-**Jerod Santo:** Three strikes in your house. So Team Syntax gets one guess. You can confer amongst the team. And if you get it right, you steal the board.
+**Jerod Santo:** Three strikes and you're out. So Team Syntax gets one guess. You can confer amongst the team. And if you get it right, you steal the board.
 
 **Divya:** Okay. Can we confer openly?
 
