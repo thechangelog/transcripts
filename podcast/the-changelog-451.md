@@ -38,7 +38,7 @@ So those are probably my go-to's in my day-to-day. There's so many specific litt
 
 **Adam Stacoviak:** It's just so much easier. I mean, I guess you could auto-ll on cd, but whatever... That's my most common one.
 
-**Jerod Santo:** Yeah, so I have tons of ls aliases. Similar, I have ll as well, \[unintelligible 00:06:10.23\] I also have combinations like lld, which will long-list the directory, I think sorted by file size. And there's like lls, which is sorted by page, like last modified... I can't remember them; I'm doing them with my fingertips, I can't think of them out loud, but I have probably like eight ll and then some sort of modifier, just to save me from typing ls-lht, or whatever it is, to have to remember those incantations; it's nice to just remember the \[unintelligible 00:06:44.05\]
+**Jerod Santo:** Yeah, so I have tons of ls aliases. Similar, I have ll as well, \[unintelligible 00:06:10.23\] I also have combinations like lld, which will long-list the directory, I think sorted by file size. And there's like lls, which is sorted by page, like last modified... I can't remember them; I'm doing them with my fingertips, I can't think of them out loud, but I have probably like eight ll and then some sort of modifier, just to save me from typing ls -lht, or whatever it is, to have to remember those incantations; it's nice to just remember the shorthand.
 
 **Adam Stacoviak:** Mm-hm.
 
@@ -66,7 +66,7 @@ So those are probably my go-to's in my day-to-day. There's so many specific litt
 
 **Adam Stacoviak:** Yeah, it's more about -- yeah, exactly, the hierarchy of all the different directories beneath it.
 
-**Jerod Santo:** And tree is a page, I believe. It's always -- um, let me see if that's true. No, it just spits it out. I think you can pipe in \[unintelligible 00:07:42.00\] to add pagination, but... I don't think tree is actually a built-in. I think tree is something that's like common, but...
+**Jerod Santo:** And tree is a page, I believe. It's always -- um, let me see if that's true. No, it just spits it out. I think you can pipe into less to add pagination, but... I don't think tree is actually a built-in. I think tree is something that's like common, but...
 
 **Adam Stacoviak:** It's not. It's definitely not on the Mac, that's for sure. I don't think it's built-in on Unix, personally.
 
@@ -96,7 +96,7 @@ So those are probably my go-to's in my day-to-day. There's so many specific litt
 
 **Nick Janetakis:** Like, if you literally say the word "buffalo" seven times in a row, with certain capitalizations, it ends up being a grammatically correct English sentence, based on what a buffalo is, and Buffalo the town in New York... I don't know it well enough to explain it, but it reminded me of that.
 
-**Jerod Santo:** Yeah. Now that you say that, it does kind of ring a bell. I think I've tried to figure it out, and it doesn't seem like it would make sense, but when you see it in context, with all the capitalizations \[unintelligible 00:09:35.22\] it actually is a full sentence, right?
+**Jerod Santo:** Yeah. Now that you say that, it does kind of ring a bell. I think I've tried to figure it out, and it doesn't seem like it would make sense, but when you see it in context, with all the capitalizations in correct it actually is a full sentence, right?
 
 **Nick Janetakis:** Mm-hm.
 
@@ -132,7 +132,7 @@ So GNU had a lot of things going, but they didn't really have a working kernel. 
 
 **Nick Janetakis:** But you bring up a great point though, by the way, because there's such a difference between the GNU version of sed and the FreeBSD version of it. And that's why you can't use a certain set of flags on macOS versus maybe Debian or Ubuntu, whatever distro that you like to use that uses GNU sed. Have you ever noticed that, like with a -i flag? You can't do an in-place edit when you're trying to redirect out to a file in macOS...
 
-**Jerod Santo:** I've been on macOS for so long that I don't know probably the intricacies. I don't work too much in Linux anymore, like I did back in the early aughts. I do notice some of the -- I have to send different flags... So like in my bashrc I'll have slightly different aliases, depending on if the OS is \[unintelligible 00:13:57.27\] or not, if I'm on a Mac or not. I don't remember what they are; I think maybe even ls might have a slightly different way of coloring files, or something like this. The DNS flushing, the DNS cache is slightly different... So that is interesting, and it's based on the roots of the operating system, the BSD side versus the Linux side.
+**Jerod Santo:** I've been on macOS for so long that I don't know probably the intricacies. I don't work too much in Linux anymore, like I did back in the early aughts. I do notice some of the -- I have to send different flags... So like in my bashrc I'll have slightly different aliases, depending on if the OS is Darwin or not, if I'm on a Mac or not. I don't remember what they are; I think maybe even ls might have a slightly different way of coloring files, or something like this. The DNS flushing, the DNS cache is slightly different... So that is interesting, and it's based on the roots of the operating system, the BSD side versus the Linux side.
 
 **Nick Janetakis:** Mm-hm.
 
@@ -158,7 +158,7 @@ In fact, behind the scenes we have a unikernels post coming out soon by Ian Eybe
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** And \[unintelligible 00:17:25.08\] if you want to. Just - boom. Installed. You're done. Use it.
+**Adam Stacoviak:** And being able to install them, if you want to. Just - boom. Installed. You're done. Use it.
 
 **Nick Janetakis:** Yeah, I think there's an interesting conversation around that, because it's like -- do you know some folks where they install Vim, and they're like "Well, I wanna be a purist and not install any plugins, so that if I were to ever SSH into another machine, then my environment there is gonna be the same as it is on my dev box, because Vim is probably gonna installed there, and you don't need to worry about different plugins." And I think that's similar to this type of thing that we're talking about here, because when it comes to installing a separate version of ls or something like that -- like, I don't know, it's a weird one, right? It's like, you kind of want to optimize for what you're doing most of the time, like 95% of the time. In the Vim case, that would mean like install whatever plugins you need to make things work... But I think one of the beautiful things about the command line in general is, you know, things like sed, and grep, and ls, and whatever - it's like, once you know them once, you kind of know them everywhere.
 
@@ -186,15 +186,15 @@ So I'd be curious to know -- like, you know, I haven't used the custom version o
 
 **Nick Janetakis:** \[00:20:32.28\] Yeah.
 
-**Jerod Santo:** ...but I think it's kind of like progressive enhancement on the web. So I have my personal CD built-in, wrapped with a cd function that I wrote, which provides additional functionality. And mostly what it does - I think maybe just the only thing it does - is it just automatically calls ls anytime I change to a directory, because I've just found what I did every single time... Like, what do you do right after you \[unintelligible 00:20:55.03\] So I just monkey-patch my cd to just do the ls for me, right when I enter any directory. Just go ahead and display what's in there. I find that to be additive though, kind of like a progressive enhancement. Because when I go to another system that doesn't have that, then it just doesn't do it. It's like an operator overload, but you're not making it do some sort of destructive or random thing that you wouldn't expect, so I don't find it problematic that way.
+**Jerod Santo:** ...but I think it's kind of like progressive enhancement on the web. So I have my personal cd built-in, wrapped with a cd function that I wrote, which provides additional functionality. And mostly what it does - I think maybe just the only thing it does - is it just automatically calls ls anytime I change to a directory, because I've just found what I did every single time... Like, what do you do right after you cd? ls, cd, ls. So I just monkey-patch my cd to just do the ls for me, right when I enter any directory. Just go ahead and display what's in there. I find that to be additive though, kind of like a progressive enhancement. Because when I go to another system that doesn't have that, then it just doesn't do it. It's like an operator overload, but you're not making it do some sort of destructive or random thing that you wouldn't expect, so I don't find it problematic that way.
 
 I think with Vim it is so complex where if you do trick it out completely, you go to another system and you don't know how to use the bog standard Vim anymore, because you're just so customized. I think that's what you're speaking to. But some of these are so simple, that as long as you're just adding functionality and not removing or changing it, then in practice I'm not sure if it would really be a problem.
 
-**Nick Janetakis:** Yeah. I think that things stay the same, but you get more new stuff; that's a good way to go about it. I would be less opposed to not trying it out. You know how it is with some of these command line tools, right? Trying to remember some of those flags for all of them can be very difficult. Using the tar command or something to unzip a GZ file, right? Those flags are very, very confusing. The only way I remember that one -- there's like this stupid little Arnold Schwarzenegger meme where it has a picture of him, and then there's the flags, where it's like "Extract \[unintelligible 00:22:10.17\] or something like that...
+**Nick Janetakis:** Yeah. I think that things stay the same, but you get more new stuff; that's a good way to go about it. I would be less opposed to not trying it out. You know how it is with some of these command line tools, right? Trying to remember some of those flags for all of them can be very difficult. Using the tar command or something to unzip a GZ file, right? Those flags are very, very confusing. The only way I remember that one -- there's like this stupid little Arnold Schwarzenegger meme where it has a picture of him, and then there's the flags, where it's like "Extract Ze File Verbose me now" where it's like XZFV or something like that...
 
 **Jerod Santo:** Right. Yeah, I think tar is the poster child for inscrutable command line flags. We've all kind of memorized zxvf, csvz, and you're just like "I don't know what any of these mean..."
 
-**Nick Janetakis:** But we've brought up about running an ls after cd is really cool. That's the really cool thing about using a shell - you can just make an alias to cd where \[unintelligible 00:22:37.08\] or whatever, right?
+**Nick Janetakis:** But we've brought up about running an ls after cd is really cool. That's the really cool thing about using a shell - you can just make an alias to cd where im guessing it's just cd && ls or whatever, right?
 
 **Jerod Santo:** Yeah, I'm looking at it now... Basically, there's two if statements that are nested. The one condition is "Do I have any arguments or zero arguments?" So if I call cd with nothing, it goes home. If I call cd with arguments, it goes to where I say it's going to go. If the first case, it just calls the built-in, and then calls ls-g. If the second case, then there's another if statement... So it's probably like ten lines of code. If I'm passing dot-dot, which is to go up a directory, then it will take a specific case for that; otherwise, it just passes my arguments directly into the built-in and calls ls.
 
@@ -320,7 +320,7 @@ But yeah, I've got drafts - it's like a custom alias I created that helps me cre
 
 **Nick Janetakis:** I think there's an escape hatch that you might be able to run now. If you've run bash -c, and then put double quotes in and paste that whole command in there, then that'll run it through Bash instead of z shell.
 
-**Jerod Santo:** Nice. That's why I invited Nick, because he has that kind of knowledge at the \[unintelligible 00:31:34.16\]
+**Jerod Santo:** Nice. That's why I invited Nick, because he has that kind of knowledge at the tip of his tongue.
 
 **Adam Stacoviak:** Say that again, Nick? Can I try and do that right now?
 
@@ -354,7 +354,7 @@ But yeah, I've got drafts - it's like a custom alias I created that helps me cre
 
 **Jerod Santo:** Can't you just launch a Bash prompt somehow? Can't you just say like "Bash..."
 
-**Adam Stacoviak:** That's not my history though, is it? \[unintelligible 00:32:21.12\] Zsh history? It's probably Bash history...
+**Adam Stacoviak:** That's not my history though, is it? It would be like Zsh history? It's probably Bash history...
 
 **Nick Janetakis:** That's a really good point too, because this would be the same as running Bash, and now you're in a Bash prompt, but yeah, your history is gonna be empty.
 
@@ -458,7 +458,7 @@ So you do cat, file one, file two, and then you do the greater-then (&gt;) to di
 
 **Adam Stacoviak:** 24 hours of Changelog Master feed.
 
-**Nick Janetakis:** \[00:35:56.16\] That's very cool. I never knew that. You can also use the star operator with cat as well. If you have to match on a file pattern, you can just do something like -- well, I've done this before in the past, where I have my notes set up to where I have like "2021-" and then 07.txt, like July 2021. But you can replace that 07 with a star, and then redirect with a greater-than sign, and export out to 2021, and now suddenly \[unintelligible 00:36:18.29\] redirected out to a single file for the year 2021.
+**Nick Janetakis:** \[00:35:56.16\] That's very cool. I never knew that. You can also use the star operator with cat as well. If you have to match on a file pattern, you can just do something like -- well, I've done this before in the past, where I have my notes set up to where I have like "2021-" and then 07.txt, like July 2021. But you can replace that 07 with a star, and then redirect with a greater-than sign, and export out to 2021, and now suddenly all the monthly notes got redirected out to a single file for the year 2021.
 
 **Jerod Santo:** Very cool.
 
@@ -476,13 +476,13 @@ So you do cat, file one, file two, and then you do the greater-then (&gt;) to di
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** Now, here's where it gets interesting with these two... Because bat is not a one-for-one replacement for cat, and here's why - it defaults to piping into less. So bat will be paged by default, whereas cat won't. So if you cat a JavaScript file, it'll just spit out the entire thing, and what you'll see if it scrolls your terminal is just the end. Whereas with bat, it's gonna syntax-highlight it, which adds to the feature, but then it's also gonna \[unintelligible 00:38:05.21\] which is a pager... So it's gonna let you navigate that file. So it kind of breaks API compatibility in that way.
+**Jerod Santo:** Now, here's where it gets interesting with these two... Because bat is not a one-for-one replacement for cat, and here's why - it defaults to piping into less. So bat will be paged by default, whereas cat won't. So if you cat a JavaScript file, it'll just spit out the entire thing, and what you'll see if it scrolls your terminal is just the end. Whereas with bat, it's gonna syntax-highlight it, which adds to the feature, but then it's also gonna send it to less, which is a pager... So it's gonna let you navigate that file. So it kind of breaks API compatibility in that way.
 
 **Nick Janetakis:** Yeah. I'm curious, does it have a flag to disable the paging and just have it go all the way?
 
 **Jerod Santo:** It does have a flag to disable. So there's like a --paging=never. You can set that in your -- there's a configuration file. There's also a shorthand, which I don't know what it is. You can also alias cat to bat --paging=never. So you can make it as part of your alias so that it doesn't do that... But then it's also kind of smart insofar as if you're using it to concatenate files versus display them, it will turn it off automatically. It obviously won't got to a pager.
 
-So if you're cat-ing files together the way you're talking about with multiple text files, it'll work just like cat. But when it comes time to print them to stdout is when the pager is in there. So you can turn it off, but I think if it was my choice, I'd probably say "Well, you can turn it on. If you wanna just page, go ahead and turn this on." But the author of bat must have thought that that was a big enough feature for them that it'd be worth breaking that compatbility.
+So if you're cat-ing files together the way you're talking about with multiple text files, it'll work just like cat. But when it comes time to print them to stdout is when the pager is in there. So you can turn it off, but I think if it was my choice, I'd probably say "Well, you can turn it on. If you wanna just page, go ahead and turn this on." But the author of bat must have thought that that was a big enough feature for them that it'd be worth breaking that compatibility.
 
 **Adam Stacoviak:** You're just gonna need a batrc file.
 
@@ -500,9 +500,9 @@ So if you're cat-ing files together the way you're talking about with multiple t
 
 **Jerod Santo:** Yeah.
 
-**Nick Janetakis:** Yeah. In that regard, I try to set up my servers so that I don't have to SSH into them. And if I do, it's very one-off things, like "Oh, go through this NGINX \[unintelligible 00:40:02.04\] couple things out."
+**Nick Janetakis:** Yeah. In that regard, I try to set up my servers so that I don't have to SSH into them. And if I do, it's very one-off things, like "Oh, go through this NGINX log and grep a couple things out."
 
-**Adam Stacoviak:** \[00:40:04.19\] Yeah. \[unintelligible 00:40:05.03\] then trick away, and don't take the tools with you. Or don't feel like you have to. But you know, Jerod, a long time ago you said -- this must have been like four years ago, we were both upgrading operating systems at the same time, we happened to be getting new machines in the same timeframe, and I think you did just before me, and you were like "You know what - I'm not installing any extra stuff on this machine. I'm gonna keep it pristine... I'm using Terminal..."
+**Adam Stacoviak:** \[00:40:04.19\] Yeah. So I mean mean if you're tricking your personal, for lack of a better term, pc out then trick away, and don't take the tools with you. Or don't feel like you have to. But you know, Jerod, a long time ago you said -- this must have been like four years ago, we were both upgrading operating systems at the same time, we happened to be getting new machines in the same timeframe, and I think you did just before me, and you were like "You know what - I'm not installing any extra stuff on this machine. I'm gonna keep it pristine... I'm using Terminal..."
 
 **Jerod Santo:** Yeah.
 
@@ -564,7 +564,7 @@ Fzf - this is one, Nick, that you put into the document. Do you wanna tell us ab
 
 **Nick Janetakis:** Okay, so if you're not using Fzf and you are on the command line and you want to rerun commands that you've run in the past before, like your history file, it becomes very tedious to find these commands. You can be one of those people who just hits the up arrow 400 times in a row to try to find that command that you ran six days ago... Or you can hit Ctrl+R. And this will work without any plugins - you can do it right now - and that is going to allow you to reverse-search your history.
 
-So you can just start typing a command -- let's say you have \[unintelligible 00:45:16.29\] git command, or whatever commands that you run. You can just start typing it, first couple characters; it is going to find a match. And if it doesn't find a match, you can just hit Ctrol+R again to cycle through all these matches. So it's very handy for recalling commands that you've run in the past. And Fzf takes it to another level, because now it brings up a nice little menu that pops up, and it starts to fuzzy-find all of these -- basically every command in your history. So instead of just having to start the command off as we run it, it's gonna do a fuzzy match just like Ctrl+P (I guess) in VS Code, or whatever; if you're gonna try to open a file quickly - it's that, but for your Bash history.
+So you can just start typing a command -- let's say you have long git command, or whatever commands that you run. You can just start typing it, first couple characters; it is going to find a match. And if it doesn't find a match, you can just hit Ctrol+R again to cycle through all these matches. So it's very handy for recalling commands that you've run in the past. And Fzf takes it to another level, because now it brings up a nice little menu that pops up, and it starts to fuzzy-find all of these -- basically every command in your history. So instead of just having to start the command off as we run it, it's gonna do a fuzzy match just like Ctrl+P (I guess) in VS Code, or whatever; if you're gonna try to open a file quickly - it's that, but for your Bash history.
 
 **Adam Stacoviak:** I get something like that for free with Oh My Zsh.
 
@@ -646,7 +646,7 @@ So you can just start typing a command -- let's say you have \[unintelligible 00
 
 **Jerod Santo:** Both written in Rust, which a lot of these modern tools seem to be Rusty or Goey (if that's a word). Written in Rust or written in Go. Fzf is written in Go, I believe, and these are written in Rust. Now, I just did a quick perusal of both of these tools. It seems like exa is a little more advantaged, with just features and more modern in terms of support... Like, maybe just a newer tool. I didn't look too much into lsd. But exa is like ls, only similar the way bat does for cat, exa will use more colors.
 
-Now, there is ls in color mode, like we talked about before. So \[unintelligible 00:50:34.14\] you have ls support colors. But exa uses colors I guess more fully to distinguish file types and meta data. It also knows about symlinks, extended attributes, and it's git-aware... And then it's small and fast, and just in one single binary. But let's face it, ls is almost small, fast, and I assume it's a single binary, that's built-in.
+Now, there is ls in color mode, like we talked about before. So you can have ls support colors. But exa uses colors I guess more fully to distinguish file types and meta data. It also knows about symlinks, extended attributes, and it's git-aware... And then it's small and fast, and just in one single binary. But let's face it, ls is almost small, fast, and I assume it's a single binary, that's built-in.
 
 Exa does have tree view built in. So there you go - if you install exa...
 
@@ -782,7 +782,7 @@ Definitely this is one that I would use. I did download it, I've been using it t
 
 And I'm making this cluster to do client work, but I'm running this test cluster on my own personal AWS account. And there's certain variables of this cluster that I want to be different, like for example when I set it up on my personal account, I wanna be on US East 1, but my clients are on US West 2. So the region of the cluster needs to change. So that's like one variable. And then the other things, too - they wanna spin up like 15 servers, or like beefy ones, but I just wanna throw up a couple, just to see if things work.
 
-Basically, long story short, there's like 4-5 things in this one config file that I wanna change between my environment and their environment. And I didn't wanna have to duplicate two config files that are basically the same, except for just like two or three or four different variables... So in this case, now I just have a .env file in the directory, I defined my versions that I want to use, like US East 1, with like a couple \[unintelligible 01:08:00.16\] and then I just pipe it through env substitute, and then you can pipe that into the eksctl command - it supports that, so then it's like, I can just pop in my dynamic config file... And it doesn't support that naturally, but now it does with env substitute.
+Basically, long story short, there's like 4-5 things in this one config file that I wanna change between my environment and their environment. And I didn't wanna have to duplicate two config files that are basically the same, except for just like two or three or four different variables... So in this case, now I just have a .env file in the directory, I defined my versions that I want to use, like US East 1, with like a couple t2 smalls or whatever and then I just pipe it through env substitute, and then you can pipe that into the eksctl command - it supports that, so then it's like, I can just pop in my dynamic config file... And it doesn't support that naturally, but now it does with env substitute.
 
 **Jerod Santo:** \[01:08:16.22\] That's really cool. I think a lot of times you rely on your target platform or your runtimes that you're running to support templating, right? And a lot of them do it differently, or don't do it at all... Okay, it makes the most sense for when they don't support it at all, but it almost kind of provides a decoupled way of doing it, even if there are templating supported inside some of these tools that you're using together. You can have this standardized way that you do it, and inject those in, regardless of what's natively supported. Am I on point? Could you use it that way as well?
 
