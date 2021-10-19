@@ -9,9 +9,15 @@ test('applyReplaces works as expected', () => {
     expect(applyReplaces('I love javascript')).toBe('I love JavaScript')
     expect(applyReplaces('r/javascript')).toBe('r/javascript')
     
-    expect(applyReplaces('\[00:04:06.27\]')).toBe('\[04:06\]')
-    expect(applyReplaces('\[00:10:17.78\]')).toBe('\[10:17\]')
-    expect(applyReplaces('\[03:43.78\]')).toBe('\[03:43\]')
+    expect(applyReplaces('\[00:04:06.27\]')).toBe('\\[04:06\\]')
+    expect(applyReplaces('\[00:10:17.78\]')).toBe('\\[10:17\\]')
+    expect(applyReplaces('\[03:43.78\]')).toBe('\\[03:43\\]')
+    expect(applyReplaces('\\[00:01:46\\]')).toBe('\\[01:46\\]')
+    
+    
+    expect(applyReplaces('\\\[00:04:06.27\\\]')).toBe('\\[04:06\\]')
+    expect(applyReplaces('\\\[00:10:17.78\]')).toBe('\\[10:17\\]')
+    expect(applyReplaces('\[03:43.78\\\]')).toBe('\\[03:43\\]')
     
     expect(applyReplaces("\\`console.log($TOKEN)\\`")).toBe('`console.log($TOKEN)`')
     expect(applyReplaces("The difference between \\`foo\\` and \\`bar\\`")).toBe('The difference between `foo` and `bar`')

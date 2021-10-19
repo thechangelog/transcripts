@@ -9,8 +9,8 @@ const REPLACES = [
     [/\bdev ops/gi, 'DevOps'],
     [/\bclick[ -]ops/g, 'ClickOps'],
 
-    [/\[00:(\d{2}:\d{2}).\d{2}\]/g, '\[$1]'], // Remove leading 00: and fractions in timestamps
-    [/\[(\d{2}:\d{2}).\d{2}\]/g, '\[$1]'], // Remove fractions in timestamps
+    [/\\?\[(00:)?(\d{2}:\d{2})(\.\d{2})?\\?\]/g, '\\[$2\\]'], // Remove leading 00: and fractions in timestamps
+    
     [/\\`(.*?)\\`/g, '`$1`'], // Remove escaping backslashes before backticks
 ]
 
