@@ -14,7 +14,7 @@ I'm joined today, as usual, by my co-host, Chris Benson, who is the principal AI
 
 **Daniel Whitenack:** Sounds good. I should say, I don't think either one of us consider ourselves complete - or even semi - experts on international trade, and politics, and all sorts of things that factor into this, but kind of the bottom line is that AI and tech, and these interactions that have been happening between the U.S. and China, they're all intertwined in this really weird and interesting (and sometimes disturbing) way.
 
-\[00:04:12.29\] Maybe a good way to start out this discussion would just be to give a little bit of background on some of the elements that are coming into this. We're eventually gonna get to a point where we can talk about this AI blacklist that the U.S. came out with, that is blacklisting U.S. companies from doing business with certain AI companies in China - which is why we're talking about it on this podcast... But there's a whole bunch of things factoring into that.
+\[04:12\] Maybe a good way to start out this discussion would just be to give a little bit of background on some of the elements that are coming into this. We're eventually gonna get to a point where we can talk about this AI blacklist that the U.S. came out with, that is blacklisting U.S. companies from doing business with certain AI companies in China - which is why we're talking about it on this podcast... But there's a whole bunch of things factoring into that.
 
 One of those is the Uyghur population in China. The Uyghurs in China are an ethnic minority, they're a Muslim minority group in China, in the Western part of China, in Xinjiang and it's pretty well-documented at this point - so we're not speculating here - by the United Nations and others that there's been about a million of these ethnic Uyghurs in China that have been detained by China in (what they call) reeducation camps... So essentially detained. Have you heard about this?
 
@@ -28,7 +28,7 @@ I think you've probably mentioned a couple times on the podcast things related t
 
 **Daniel Whitenack:** Yeah, it's increased, too. I think it was around spring and June, it started seeing a pretty big surge in Academic research papers that -- I mean, you could imagine cases where maybe they wouldn't be used for surveilling Muslim minorities, but it was almost completely obvious that these papers from Chinese researchers were geared towards upping the surveillance of these minority groups. I'm just pulling up a couple of those now that I had written down.
 
-\[00:08:01.01\] This one - it's an article - "Facial feature discovery for ethnicity recognition." So it's not really hidden at all there. They even talk about constructing an ethnical group face dataset including Chinese Uyghurs, Tibetan and Korean. So these papers are not so subtle, and it's pretty clear that there's a lot of AI research that's actually going into this, which is pretty disturbing. I know there were a lot of people at that time calling for peer review journals to up their ethics part of their review with these things. I guess that gets into some conversations around censorship and other things. There's a whole lot of things factored in here.
+\[08:01\] This one - it's an article - "Facial feature discovery for ethnicity recognition." So it's not really hidden at all there. They even talk about constructing an ethnical group face dataset including Chinese Uyghurs, Tibetan and Korean. So these papers are not so subtle, and it's pretty clear that there's a lot of AI research that's actually going into this, which is pretty disturbing. I know there were a lot of people at that time calling for peer review journals to up their ethics part of their review with these things. I guess that gets into some conversations around censorship and other things. There's a whole lot of things factored in here.
 
 **Chris Benson:** Yeah, we've talked previously about the social credit system that is in place in certain parts of China, and has been going through implementation over the last couple of years, and continues to be implemented, starting in major cities such as Beijing, and then moving out from there. What we're seeing with the Uyghurs here is essentially kind of the worst-case scenario being realized, where you're specifically targeting an ethnic group and you're using this advanced technology to enable that targeting. It's the world that we definitely didn't wanna see coming about, as lovers of these technologies that we talk about every week.
 
@@ -42,7 +42,7 @@ I think you've probably mentioned a couple times on the podcast things related t
 
 **Daniel Whitenack:** So that's kind of a pie slice complication, too. Then you've got all of this other stuff that's happening in places like Hong Kong, especially Hong Kong, where there's been these pro-democracy protests going on forever. Of course, facial recognition and surveillance has been a topic in that as well. I've seen pictures of protesters taking down these surveillance poles or posts that have cameras on them... So there's a pro-democracy protest element going on there, tied in with China, but also an AI component as well.
 
-**Chris Benson:** \[00:12:04.27\] There is. Even yesterday I was reading an article that Apple \[unintelligible 00:12:08.13\] had removed an app that told protesters where police were, and the Hong Kong government - their position was "You're putting police lives in danger." I sense though that the reality is quite the opposite in terms of who is actually in danger.
+**Chris Benson:** \[12:04\] There is. Even yesterday I was reading an article that Apple \[unintelligible 00:12:08.13\] had removed an app that told protesters where police were, and the Hong Kong government - their position was "You're putting police lives in danger." I sense though that the reality is quite the opposite in terms of who is actually in danger.
 
 **Daniel Whitenack:** Yeah, there's really a lot of elements of this. There's even the NBA, the basketball association - which I'm not a sportsperson, but the NBA is huge in China, I do know that... So they're involved in this now, because of some of the things that a coach or a manager had said. The TV show South Park - they're kind of embroiled in this... So there's all of these different elements where the U.S. and China and AI and tech and trade are all sort of coalescing into this weirdness, I guess.
 
@@ -52,7 +52,7 @@ I think you've probably mentioned a couple times on the podcast things related t
 
 **Chris Benson:** Sure, absolutely. And I think the concern there is probably first and foremost security issues on whether or not information is collected and passed back to China, for use by the government, or even by commercial entities that are maybe operating on behalf of the government... And then obviously, there's intellectual property issues tied to it as well.
 
-**Break:** \[00:14:49.00\]
+**Break:** \[14:49\]
 
 **Daniel Whitenack:** Okay, so there's these eight AI-focused companies that have been blacklisted by the U.S. government... And I kind of started -- as I was thinking through this, I started thinking, first of all, it's probably interesting technology in a variety of ways that these companies are developing; whether it's being used for bad or good, I'm not totally sure. They are kind of all tied up in this complicated situation. So I thought, Chris, if you're up for it, maybe what we could do is just try to do a sort of blind taste testing of these companies and see essentially who they are, what they say they're developing, what news sources are telling us that they're developing, and get a pulse on the state of the Chinese AI companies and what they're doing... And what is interesting tech-wise maybe, what is cool, and positive, what isn't cool and positive, what everybody is saying... I don't know, are you up for that game?
 
@@ -74,7 +74,7 @@ So it looks like they're promoting the usage of this technology in a variety of 
 
 So that's kind of the sense that I get, that they're really leading in machine vision, but emphasizing a lot of these industrial applications of the machine vision.
 
-\[00:20:01.24\] I do see one example that's an unmanned aerial vehicle, so a drone, and they're emphasizing the use of that in managing transportation infrastructure and equipment, so like highways.
+\[20:01\] I do see one example that's an unmanned aerial vehicle, so a drone, and they're emphasizing the use of that in managing transportation infrastructure and equipment, so like highways.
 
 **Chris Benson:** Gotcha. So while you were doing that, I googled and got a Bloomberg article called - and I'm probably gonna butcher the name, too - "China's Hikvision has probably filmed you", is what the article title is. It starts with a couple of bullets that say "Cameras are installed at army bases, airports and schools", and then a second bullet says "Trump administration concerned about Chinese spying tactics."
 
@@ -92,7 +92,7 @@ As I scanned down through this article while you were talking, there was one par
 
 **Chris Benson:** Totally. It's funny, as we talk about this... I spend a lot of time on the topic of AI ethics as part of my job, and other tangential interests to that, and as I look at this, it's really all about what is your attention here. If you're looking at this company, if they're using it for some of the use cases that you outlined, then that is beneficial, that is something that increases the capability potentially, if they're using it for nefarious purposes... It really comes down to intent and use case, in terms of whether or not they're being fairly called out or not.
 
-**Daniel Whitenack:** \[00:24:00.02\] Yeah, and probably if they're advertising these things and they have use case stories around them, I imagine they are using a technology for manufacturing and logistics, and those sorts of things. I guess the shadiness is probably the connection with the government, and what they potentially don't feature on the website.
+**Daniel Whitenack:** \[24:00\] Yeah, and probably if they're advertising these things and they have use case stories around them, I imagine they are using a technology for manufacturing and logistics, and those sorts of things. I guess the shadiness is probably the connection with the government, and what they potentially don't feature on the website.
 
 **Chris Benson:** I think that's a fair statement. The concern -- and it's different, it's not universal; it's different between the U.S. and the U.K, I've noticed. The U.S. concern is largely on worrying about the nefarious issues and intent. The U.K, on the other hand, has largely said they are absolutely gonna continue to do business with China. Outside China, London is one of the most surveilled cities in the world, with their CCTV system... And they are a lot less worried about it there. It's an interesting perspective shift.
 
@@ -116,7 +116,7 @@ As I scanned down through this article while you were talking, there was one par
 
 They have this thing called HyperBrain, or HyperBrain Project, which is a laboratory for speech and language information processing. That sounds pretty cool. A cognitive intelligence system based on a humanoid neural network, based on the key projects of the 800 people... This is all a translation, but it seems like they're at least doing something with machine intelligence language. It looks like they've got some partnerships with malls and shopping, and some developer toolkit sort of stuff.
 
-\[00:28:02.07\] That's pretty much what I'm -- I may be butchering all of that, because I'm working off of a translation, but... Right at the top it says "Empower the world with AI", so it seems pretty ambitious.
+\[28:02\] That's pretty much what I'm -- I may be butchering all of that, because I'm working off of a translation, but... Right at the top it says "Empower the world with AI", so it seems pretty ambitious.
 
 **Chris Benson:** Gotcha. It does. I've found an article here - it's TechnologyReview.com - "Why 500 million people in China are talking to this AI." It was funny, when I pulled in, just as you were starting to get into looking over their web page, when I heard iFlytek, I just assumed it was a drone company, not being familiar with it. I just came from the first AlphaPilot race, going back to a recent episode where we talked about AlphaPilot... So I was rather surprised to suddenly realize it was language-based.
 
@@ -162,7 +162,7 @@ They talk in this article about a bunch of things, including that they have a de
 
 **Chris Benson:** "Power humanity with AI." Okay...
 
-**Daniel Whitenack:** \[00:32:13.01\] Ambitious.
+**Daniel Whitenack:** \[32:13\] Ambitious.
 
 **Chris Benson:** "Power humanity", I know. Let's not dream small. They have a proprietary deep learning framework, they gather top-tier AI talent, and they integrate... So far, this first page is very typical of what you see with companies touting AI stuff.
 
@@ -196,7 +196,7 @@ So a unicorn... Obviously, promoting a lot of deep learning technology, but it s
 
 **Daniel Whitenack:** ...it seems, like maybe the other two. Kind of to be competitive with like a Google Brain or OpenAI, or something like that.
 
-**Chris Benson:** \[00:36:00.09\] Yeah, I would agree.
+**Chris Benson:** \[36:00\] Yeah, I would agree.
 
 **Daniel Whitenack:** Cool. Well, let's say that Megvii definitely has some interesting things going on... But maybe there's a sort of ominous overtone that's coming through. Are you getting that?
 
@@ -222,7 +222,7 @@ So there's definitely sort of "We're exploring all the AI things" feel, plus tha
 
 Then it just talked about the fact that they had wide recognition for their facial scan platform. So a little bit of an ominous overtone before you even get into the article right there. Now, this is CNBC, and potentially it's an American take as such on that, but... Yeah, it definitely feels like a little bit closer to supporting government aims, a social currency such as that.
 
-**Daniel Whitenack:** \[00:40:18.06\] Yeah. One interesting thing that I'm noticing here on this one is -- I mean, similar to some of the other ones, they're emphasizing some of the non-facial recognition stuff that they're doing, which sounds amazing. I mean, there's a cancer detection tool, improving diagnosis of sick children, pushing the boundaries on Mandarin speech recognition... Really cool stuff. And one interesting thing is that some of this - like the sick children one - they talk about a Chinese-U.S. joint development, so there's definitely an international flair to some of this research which they're highlighting. A lot of that sounds pretty cool, and I don't doubt that -- I can look at the link to these papers; they're publishing papers on the cancer stuff, and other things. So it's definitely not like they're just falsifying what they're doing... But facial recognition and that surveillance is a piece of it.
+**Daniel Whitenack:** \[40:18\] Yeah. One interesting thing that I'm noticing here on this one is -- I mean, similar to some of the other ones, they're emphasizing some of the non-facial recognition stuff that they're doing, which sounds amazing. I mean, there's a cancer detection tool, improving diagnosis of sick children, pushing the boundaries on Mandarin speech recognition... Really cool stuff. And one interesting thing is that some of this - like the sick children one - they talk about a Chinese-U.S. joint development, so there's definitely an international flair to some of this research which they're highlighting. A lot of that sounds pretty cool, and I don't doubt that -- I can look at the link to these papers; they're publishing papers on the cancer stuff, and other things. So it's definitely not like they're just falsifying what they're doing... But facial recognition and that surveillance is a piece of it.
 
 **Chris Benson:** Yeah. And that, once again, comes back to what is their intent. What are they trying to do with it across their use case spectrum. And probably many are very reasonable use cases, but there are some -- this article certainly leaves that ominous overtone in terms of how it might be supporting the social currency system in China... Which obviously -- there's a value difference right there between Western values and Eastern values, at least there in China. That's the kind of thing that would scare more Westerners in a variety of Western countries... I think even in places like in the U.K, in London, where people expect to be surveilled, I think they would expect that the way the information is being used is not so nefarious.
 
@@ -232,7 +232,7 @@ So it's interesting to see as we look at global trade how we're going to reconci
 
 **Chris Benson:** Absolutely.
 
-**Daniel Whitenack:** \[00:43:44.24\] They're doing some amazing things in computer vision, but also outside computer vision, in places like language and other areas, like chat, and dialogue, and voice. So there's no question that they are producing some amazing research findings, and advancing those fields. But there's always this undertone of like "Well, how much are these companies involved with the Chinese government? How much of their funding is coming from these projects that are explicitly targeting and marginalizing this Muslim minority and other communities?"
+**Daniel Whitenack:** \[43:44\] They're doing some amazing things in computer vision, but also outside computer vision, in places like language and other areas, like chat, and dialogue, and voice. So there's no question that they are producing some amazing research findings, and advancing those fields. But there's always this undertone of like "Well, how much are these companies involved with the Chinese government? How much of their funding is coming from these projects that are explicitly targeting and marginalizing this Muslim minority and other communities?"
 
 There's always like "Yes, we know you're innovating in all of these areas", but there's kind of this shadow cast on a lot of that, which is unfortunate, in terms of how much of it is being used for those purposes. That's kind of where my mind is at, I guess.
 

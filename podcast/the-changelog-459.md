@@ -18,7 +18,7 @@ And GitHub is around a thousand engineers, so you can imagine that winning back 
 
 **Adam Stacoviak:** Does that also speak to the lower barrier to entry, in terms of class of issues?
 
-**Cory Wilkerson:** \[00:04:10.09\] Yeah, without a doubt. I think about -- one big benefit of Codespaces is just accessibility into projects now. The idea is that the environment kind of ships with the project. For some time -- for my entire career you would have to bend your environment to the will of the project, your local desktop. You'd have to kind of make the thing work to support the project. And that was oftentimes not a smooth transition whatsoever.
+**Cory Wilkerson:** \[04:10\] Yeah, without a doubt. I think about -- one big benefit of Codespaces is just accessibility into projects now. The idea is that the environment kind of ships with the project. For some time -- for my entire career you would have to bend your environment to the will of the project, your local desktop. You'd have to kind of make the thing work to support the project. And that was oftentimes not a smooth transition whatsoever.
 
 Now the idea is like "Hey, the environment is kind of attached to the project. It's part of the repository." We capture the environment and configuration. You click a button. We launch that compute for you out in the cloud; you attach your development environment and you're up and running. That class of problems is now gone.
 
@@ -40,7 +40,7 @@ Now, you have to remember, this is one of our best engineers, principal level. K
 
 So it's not just like "Oh, we lost this much productivity time." Really, the loss is "What did we not build in those moments? What did we not get accomplished in those moments?" And I think Codespaces removes that class of issues again, and keeps us focused on creating value. To me, that's so refreshing. That's what I wanna be doing when I'm at work. I wanna be building my impact story and building software for the industry. GitHub is this high-leverage moment; let me ship high-leverage, impactful code, and not toil over my environment.
 
-**Adam Stacoviak:** \[00:08:21.05\] Why do you think now is the time for Codespaces, or just in-the-cloud development?
+**Adam Stacoviak:** \[08:21\] Why do you think now is the time for Codespaces, or just in-the-cloud development?
 
 **Cory Wilkerson:** Yeah, I think all the raw ingredients are now there. The raw ingredients aren't just like tech. Some of that is just how the industry thinks. Containers have been on a tear now for years; containers are kind of everywhere. You see maturity across the industry with respect to container-based workflows. But I think another critical part around this was skepticism around cloud-based workflows is basically non-existent at this point.
 
@@ -54,7 +54,7 @@ And then of course, VS Code out there is obviously another key part of this. It'
 
 **Jerod Santo:** You said something interesting about the preciousness of our development environments... And I'm with you that we've commoditized the servers, but we definitely have not commoditized dev, because it's so intricate, it's so set up... Sometimes it's like "There be dragons. Please don't touch my laptop, because it works right now, but I'm not sure if it's gonna work tomorrow." I do hate that. I think it's almost a different skillset, of maintaining that. There's overlap between development and the maintenance of a development environment in terms of things that you need to learn... But it's almost a different task altogether. So I don't like that about it, but it's still very true that our development environments are precious to us, and they're tweaked, and configured, and customized, and all the things. So I'm sure there's probably lots of resistance to this...
 
-\[00:11:59.29\] We talk about our setup - we have probably tens of thousands of lines of code, and very few dependencies in our stack, but GitHub is 14 years old, and there's a million plus commits, and I'm sure the dependency list is very long... What kind of effort was this? Tell us the story of bringing it along.
+\[11:59\] We talk about our setup - we have probably tens of thousands of lines of code, and very few dependencies in our stack, but GitHub is 14 years old, and there's a million plus commits, and I'm sure the dependency list is very long... What kind of effort was this? Tell us the story of bringing it along.
 
 **Cory Wilkerson:** It is. These are all very, very true points. You know, the last thing I wanted to do was kind of be the vessel that went out to GitHub and said "I wanna change your development environment", because these things are so precious. Like, I'm an engineer, too. I think my environment is very much precious. And here I was, kind of the face in GitHub of saying "Well, we think we have a better way. Come join us over here."
 
@@ -70,7 +70,7 @@ But that aside, it started with just a very small number of users. So we would g
 
 Then, the next iteration on this was like "Well, let's go find a team. Let's get a full team on Codespaces. How can we get a single team - 6 to 8 people - committed to using Codespaces, and stick in this thing?" At this point we'd had this other effort running on the side to get github/github, the core github.com repository, compatible with Codespaces. And we'd gotten it to a point -- we detail how we did this in the blog post - where performance was mostly acceptable. So now we could go shop this with a team that worked primarily on GitHub.com and see what their experience was. And we're making progress there. So we're ramping in -- I think y'all have talked to Kyle Daigle in the past. Kyle was the leader of that effort that got this team spun up inside of Codespaces on GitHub core. And again, it was somewhat retentive. People were sticking, and going like "Wow, this is not what I thought. It's better than maybe what I thought."
 
-\[00:15:59.11\] But I think the real breakthrough moment came when we stopped calling this dogfooding. You hear this term all the time, dogfood... I think it actually originated -- I looked up on Wikipedia; I think the term originated inside of Microsoft a number of years ago.
+\[15:59\] But I think the real breakthrough moment came when we stopped calling this dogfooding. You hear this term all the time, dogfood... I think it actually originated -- I looked up on Wikipedia; I think the term originated inside of Microsoft a number of years ago.
 
 **Adam Stacoviak:** Is that right?
 
@@ -104,7 +104,7 @@ As you had said, you wanted to go along with your employee card and be able to s
 
 **Cory Wilkerson:** Yeah, exactly.
 
-**Adam Stacoviak:** \[00:19:59.04\] You have to get them excited.
+**Adam Stacoviak:** \[19:59\] You have to get them excited.
 
 **Cory Wilkerson:** It had to have a soul. It needed some soul behind it, that was the idea. And the fact that we did respond to this -- we actually did win business. When things didn't go well and when people wanted to opt out, they could, and they would, for a week, or whatever... But the goal was "How do we get them back in here, kind of remove whatever that impediment is, and get them productive in Codespaces again?"
 
@@ -130,7 +130,7 @@ We talked about it, again, in the blog post - you click a button and the environ
 
 **Cory Wilkerson:** Yeah. And we'll get to this in a second - one of the great parts about Codespaces is that we just commoditized the compute part of this. The environment is now running somewhere else. But dotfiles, VS Code setting sync, VS Code extensions - we bring those all to the environment. So you don't lose your curated workbench. If you've got a dotfiles repo set up on GitHub right now, we bring that into the compute environment; we bring your environment and your personality, your expression of yourself captured in code into that environment. We bring your W out to your compute, which I think is a really nice touch. So you get the unburdened computer running in the cloud so you freed up your local machine, but you can still bring your preferences into that environment.
 
-\[00:23:54.17\] I digress... Going back to building the business a little bit - it felt like startup tactics. So we had the concierge team, we had the Computer Club... We had effectively guerilla marketing. We were out on Slack every day, looking for opportunities to say "Have you tried Codespaces?" People were receiving M1 architecture Macs, and the github/github build just would not yet work. We had not put in the investment to make the github/github run on the M1 Mac, so we'd say "Hey, have you tried with Codespaces yet?" And people would be like "Well, I guess I'll try. That feels like my only path right now." And they'd click a button, they'd come back an hour later, or a day later, and just be like "What in the heck? This is incredible. How was this even possible?" And those people you just win for life. That's their full mode of operating. So that was the guerilla marketing angle...
+\[23:54\] I digress... Going back to building the business a little bit - it felt like startup tactics. So we had the concierge team, we had the Computer Club... We had effectively guerilla marketing. We were out on Slack every day, looking for opportunities to say "Have you tried Codespaces?" People were receiving M1 architecture Macs, and the github/github build just would not yet work. We had not put in the investment to make the github/github run on the M1 Mac, so we'd say "Hey, have you tried with Codespaces yet?" And people would be like "Well, I guess I'll try. That feels like my only path right now." And they'd click a button, they'd come back an hour later, or a day later, and just be like "What in the heck? This is incredible. How was this even possible?" And those people you just win for life. That's their full mode of operating. So that was the guerilla marketing angle...
 
 We did pairing sessions... So we were up in front of everyone all the time, saying "If you wanna get started, here we are. We're gonna hold your hand through this and show you the ropes, show you how we're doing." Kind of social proof, I think, which is really valuable there. All hands -- we'd get in front of the entire company and demo the thing, and be like "Look at this, it's incredible" and just try to build hype.
 
@@ -148,7 +148,7 @@ And then I'll say it again - one day we just looked up and we'd gone from a bunc
 
 I think Nat has been a believer in where this thing could go, from kind of the outset of the journey. It's just been a bit of a slug as we worked from the very early days of like "Look, we have all this tech orchestrated that can produce this effect of a Codespace", maybe the early prototype, down to now the ten second story inside of GitHub. That didn't happen overnight.
 
-\[00:28:08.25\] But the good news is most of that - almost all of that now - has made it into the product itself. So the changes that we've discovered along the way didn't just benefit github/github and the GitHub.com repository, it benefitted the entire product. I think Nat's a super-fan now. I've got some screenshots from Nat that I look at from time to time, that keep me pretty enthused about the progress we've made.
+\[28:08\] But the good news is most of that - almost all of that now - has made it into the product itself. So the changes that we've discovered along the way didn't just benefit github/github and the GitHub.com repository, it benefitted the entire product. I think Nat's a super-fan now. I've got some screenshots from Nat that I look at from time to time, that keep me pretty enthused about the progress we've made.
 
 **Adam Stacoviak:** Even in your blog post you took us on a journey from (I think) hours to 45 minutes, to 5 minutes, from 5 minutes to 10 seconds... So I don't wanna gloss -- I've got a question around 5 to 10 seconds, but I don't wanna gloss over the full journey. Is there anything in the hours to 45 minutes, to 5 minutes - that journey was worth covering deeper?
 
@@ -176,7 +176,7 @@ Pre-builds right now - I'll just go ahead and share that it's currently in beta,
 
 **Cory Wilkerson:** Yeah, I think that's why we launched with teams and enterprises first. It fits that use case super-well, no doubt about it. There's lots of Docker competency in those organizations, container competency etc. But I would also say that it's very easy to get started with Codespaces. I don't wanna scare anyone away with the GitHub story. Yes, it took a ton of work, but a lot of that now is just part of the product.
 
-\[00:31:59.23\] So we've done the discovery, and then we've captured that in the product itself. So even if you don't know anything about Docker containers, for instance, you can launch a Codespace today and it drops you kind of a default image that has the tooling for so many frameworks that you're used to working with - Node, or Rails, or Java etc. So it's like a default option.
+\[31:59\] So we've done the discovery, and then we've captured that in the product itself. So even if you don't know anything about Docker containers, for instance, you can launch a Codespace today and it drops you kind of a default image that has the tooling for so many frameworks that you're used to working with - Node, or Rails, or Java etc. So it's like a default option.
 
 And then we maintain a community-powered repository. VS Code Dev Containers is the name of the repository, where there are -- I don't have a number off-hand, but let's say hundreds of community-powered images that you can reference in your dev container.json, and launch immediately into an environment that's well-suited for, let's say, Ruby on Rails, for instance. So it's not this "Oh, you have to be a Docker expert to be able to use Codespaces" whatsoever. There are all kinds of easy entries into Codespaces.
 
@@ -194,7 +194,7 @@ So the good news here is that we didn't have to convert anyone to a Unix platfor
 
 **Jerod Santo:** Right. And your fans probably aren't running at top speed.
 
-**Cory Wilkerson:** \[00:35:54.19\] Exactly, yes. A lot of this is just kind of strange, suddenly. You're just like "This is all kind of working together."
+**Cory Wilkerson:** \[35:54\] Exactly, yes. A lot of this is just kind of strange, suddenly. You're just like "This is all kind of working together."
 
 **Jerod Santo:** I'm used to my laptop being on fire while I'm developing, and it's no longer the case.
 
@@ -224,7 +224,7 @@ And it's not just like "Oh, I've taken my laptop now and I've moved it out to th
 
 **Jerod Santo:** So let's revisit this dot feature, which is very exciting. You're on GitHub.com and you're on a repo. For example, I have the fzf repo open. Right now I'm looking at the readme... And you hit the period button, the dot on your keyboard. Explain what happens.
 
-**Cory Wilkerson:** \[00:40:04.04\] Yeah. I mean, that is -- right now I don't know that we've given it an official name. Behind the scenes we refer to this as the web editor inside of GitHub. Many people have called it GitHub.dev, a few have called it Codespaces. But the idea was we're launching Codespaces, we know it's well-suited (based on our experience internally) for teams and enterprises at this point... But the ethos of GitHub is developer-first, without a doubt. It always has been. So when we launched Codespaces, we wanted to make sure that we could give every developer on .com a better editing experience.
+**Cory Wilkerson:** \[40:04\] Yeah. I mean, that is -- right now I don't know that we've given it an official name. Behind the scenes we refer to this as the web editor inside of GitHub. Many people have called it GitHub.dev, a few have called it Codespaces. But the idea was we're launching Codespaces, we know it's well-suited (based on our experience internally) for teams and enterprises at this point... But the ethos of GitHub is developer-first, without a doubt. It always has been. So when we launched Codespaces, we wanted to make sure that we could give every developer on .com a better editing experience.
 
 So when you hit that dot button today, you move into VS Code, kind of multi-file editing experience... So that's fully functional VS Code and the browser, attached to a repository, and from that repository you're able to do basically any kind of Git operation. So you can open a PR in that space, you can make changes in that space, you can commit from that space... So there's a lot of Codespaces similarity here.
 
@@ -254,7 +254,7 @@ In other cases it's just this read tool. I would imagine the dominant use case o
 
 **Adam Stacoviak:** Some confusion there...
 
-**Cory Wilkerson:** \[00:44:03.25\] ...around that. But it's been fine, for the most part. I feel like -- we didn't quite give it a name, and I thought people would probably call it .dev, and we're seeing people largely call it .dev... But at some point it will fold into what I think is like a comprehensive Codespaces experience.
+**Cory Wilkerson:** \[44:03\] ...around that. But it's been fine, for the most part. I feel like -- we didn't quite give it a name, and I thought people would probably call it .dev, and we're seeing people largely call it .dev... But at some point it will fold into what I think is like a comprehensive Codespaces experience.
 
 **Jerod Santo:** So let's say I'm on the Codespaces product and I have my customizations in there somehow... And we haven't talked about how you do that, or is that team-level; hopefully it's personal, hopefully it's probably both, with like a CSS cascade...
 
@@ -278,7 +278,7 @@ And then again, the Dotfiles repository - a lot of people don't know what that i
 
 **Cory Wilkerson:** Yeah, there's a lot about that. And it's a relatively new product, so we're gonna be listening to customers and iterating etc. But that's the experience that we kind of launched with at this point. Most of what you see in that environment, GitHub.dev - we call it browser compute. So everything that we're doing is supported by what we can do directly in the browser. The story kind of stops. There's obviously API calls that are happening in the background out to GitHub to bring the repository contents and allow you to push etc. and Git operations... But for the most part, it's "What can we accomplish in the browser?"
 
-**Jerod Santo:** \[00:48:05.14\] Well, it's a new product/feature, but it's in the running for probably my favorite new feature in many, many years. This is just spectacular.
+**Jerod Santo:** \[48:05\] Well, it's a new product/feature, but it's in the running for probably my favorite new feature in many, many years. This is just spectacular.
 
 **Cory Wilkerson:** Yeah, it's part of my daily workflow now. It's harder for me to -- I don't know the last time I've cloned anything to my machine. I just don't do that anymore. I hop into a repository, to either .dev, to look at the contents, or into a Codespace to actually change a thing.
 
@@ -308,7 +308,7 @@ So there's all this kind of like -- the tech is super-cool, the experience is su
 
 **Adam Stacoviak:** It does.
 
-**Cory Wilkerson:** \[00:51:58.26\] You're so used to working in this one model, and you just have this mental that that's how we do development. And then at some point on your Codespaces journey or whatever, you're gonna find a moment where you're like "Actually, the real model that I want is this task-centric model."
+**Cory Wilkerson:** \[51:58\] You're so used to working in this one model, and you just have this mental that that's how we do development. And then at some point on your Codespaces journey or whatever, you're gonna find a moment where you're like "Actually, the real model that I want is this task-centric model."
 
 **Adam Stacoviak:** This pre-build though - I'm thinking about it from a Changelog.com perspective. We back up our database to S3 four or five times a day, Jerod? Or on the hour? What's the timeframe again?
 
@@ -342,7 +342,7 @@ So GitHub does this - we have a base image that we use, that we specify in our d
 
 I think the first folks we'll see, the early adopters are gonna be really high-performance engineering teams that look to get every ounce of productivity and value creation out of their engineers that they can find, on a daily basis. They understand that productivity loss is bad for the individual, it's bad for the business... People wanna be focused on creating. That's why you get into this; it's not like you wanna toil over your environment, you wanna go build something... And actually, if you're in the industry, you'll understand that many of the top shops out there have built something like Codespaces. I'm not gonna name names here, but there's a few customers that we work with, that would for instance run their CI suite, run CI tests out in some environment, and then must leave the environment for some developer to kind of like claim, and work on at that point. The entire thing is set up, you can just attach to it and work now.
 
-\[00:56:15.01\] Other large shops - I think actually Google is well-known for their CIDER web-based IDE that they've used, that they love, as far as I understand. They provide some of these same capabilities internal to Google. So the early adopters are ready there, in many ways. I think GitHub brings this out to the entire industry. I think you'll see kind of a similar cloud adoption curve - we move workloads from our precious server rack out into the cloud... Maybe we see something here with the same kind of curve with Codespaces, but maybe at a faster clip now, because we have this industry trust in the cloud.
+\[56:15\] Other large shops - I think actually Google is well-known for their CIDER web-based IDE that they've used, that they love, as far as I understand. They provide some of these same capabilities internal to Google. So the early adopters are ready there, in many ways. I think GitHub brings this out to the entire industry. I think you'll see kind of a similar cloud adoption curve - we move workloads from our precious server rack out into the cloud... Maybe we see something here with the same kind of curve with Codespaces, but maybe at a faster clip now, because we have this industry trust in the cloud.
 
 So I really do think it's gonna be -- I'll say this... You see GitHub engineers coming into the industry right now. They're coming straight out of school, straight into GitHub, and this is how they're starting their development experience. This is the way they know how to develop now. And we're gonna see this more and more, to the point that five years from now I feel like local development will have disappeared in the background. You'll still need it for some cases, but the majority of developers will want to be in an environment like Codespaces.
 

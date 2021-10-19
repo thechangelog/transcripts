@@ -114,7 +114,7 @@ In the interview, companies are very flexible with that. If you're like "Oh, I'm
 
 I also think -- this is such a tangent, but I think R is playing catch-up. R fell in the rankings to only the ninth most desirable language this past year. It used to be top five for a few years. Now they're playing catch-up. There's some really cool new packages coming out, so I wouldn't be surprised if R climbs back up the leaderboard the next couple of years.
 
-**Break:** \[00:22:35.20\]
+**Break:** \[22:35\]
 
 **Daniel Whitenack:** David, we already mentioned that you have your own AI podcast called The HumAIn Podcast. It's great to have another podcaster on the show with us; it's the first time we've done this, and we're really excited to help bridge the gap between some of these different people creating content... It's really great to have that opportunity.
 

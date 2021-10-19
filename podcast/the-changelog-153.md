@@ -22,7 +22,7 @@
 
 **Daniel Stenberg:** Sure. I'm Daniel, I'm in Sweden, I've been working on curl and with curl for a very long time (17 years), and I basically started when I wasn't really aware of any alternatives, so I started writing out my own tool... And of course, it was a small thing back then, and I only did a few \[unintelligible 00:04:09.29\] and a few things, and then it just moved on from there. Since then, I've been -- it's been a fun project, I've been working on it, and it expanded and it expanded, and it got more users over time, of course.
 
-\[00:04:25.26\] It was just a little project, and there have been a few core contributors over the years that have kind of stuck with the project and been around for a long time... But it has remained a fairly small project, developer-wise and so on. So it's low-key, no big -- it's not much of a bureaucracy or big processes or anything. We're just hacking around and improving the stuff that we like.
+\[04:25\] It was just a little project, and there have been a few core contributors over the years that have kind of stuck with the project and been around for a long time... But it has remained a fairly small project, developer-wise and so on. So it's low-key, no big -- it's not much of a bureaucracy or big processes or anything. We're just hacking around and improving the stuff that we like.
 
 That's what I've been doing on curl for a very long time, and I've been working here in Stockholm, Sweden as a consultant and doing embedded programming, basically, through my career, mostly... And just a couple of years ago, actually more like a year ago, I was looking around for a new gig here in Stockholm, and then I was offered a job for Mozilla. So right now I'm employed by Mozilla, and I work on Firefox and networking stuff during day.
 
@@ -56,7 +56,7 @@ That's what I've been doing on curl for a very long time, and I've been working 
 
 **Adam Stacoviak:** There you go.
 
-**Jerod Santo:** \[00:07:47.08\] So I first got into computers around 2000, and I first got into Linux and the command line 2002-2003. And curl was one of those tools for me personally -- you know when certain things predate you? It's almost like they always existed... You know, something like the core utils; you're not even thinking about who wrote ls, and who wrote cd... And I'm sure there's people who know exactly who wrote those things, so... Of course, you can man ls and find out. But your program, curl, is so ubiquitous, and was even back when I got started, that I didn't realize for a very long time that it was not just part of a standard Linux stack. When you were writing it, when it was called httpget, and urlget, did you have any clue that it would be deployed so broadly?
+**Jerod Santo:** \[07:47\] So I first got into computers around 2000, and I first got into Linux and the command line 2002-2003. And curl was one of those tools for me personally -- you know when certain things predate you? It's almost like they always existed... You know, something like the core utils; you're not even thinking about who wrote ls, and who wrote cd... And I'm sure there's people who know exactly who wrote those things, so... Of course, you can man ls and find out. But your program, curl, is so ubiquitous, and was even back when I got started, that I didn't realize for a very long time that it was not just part of a standard Linux stack. When you were writing it, when it was called httpget, and urlget, did you have any clue that it would be deployed so broadly?
 
 **Daniel Stenberg:** No, of course not. It was just a small project. I did it for my own site originally, and then I also found out that there were some other guys who also enjoyed it and wanted some features... But there is no point in time when you suddenly realize that it's just a constant evolution. So it's just one of these days when I looked around and I just suddenly noticed, "Oh, it's getting used all over." So no, I never intended it. It just became like that.
 
@@ -88,7 +88,7 @@ Of course, I think I did a lot of -- looking back, I think I did a lot of correc
 
 I don't remember exactly now in which order everything, but over the years, of course, more and more programs and more and more programs have adopted to use libcurl for the transfer parts... And I would say that today libcurl is the bigger part of the curl project, because curl the command line tool is more like Linux users or command line people, and the number of those are much more limited than the number of programs or projects that would use libcurl.
 
-**Jerod Santo:** \[00:12:22.25\] So it started off HTTP-focused, and it's still known for that today, but if you go to the homepage, you find out how many protocols this thing supports. It's kind of mind-numbing. Dict, which I don't even know what that is, File Protocol, FTP, FTPS, Gopher, HTTP, HTTPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMTP... Should I keep going?
+**Jerod Santo:** \[12:22\] So it started off HTTP-focused, and it's still known for that today, but if you go to the homepage, you find out how many protocols this thing supports. It's kind of mind-numbing. Dict, which I don't even know what that is, File Protocol, FTP, FTPS, Gopher, HTTP, HTTPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMTP... Should I keep going?
 
 **Adam Stacoviak:** Keep going, I like it.
 
@@ -126,7 +126,7 @@ For example, I did the SCP pretty much paid sponsorships... And I did a bunch of
 
 **Daniel Stenberg:** I've kind of been fortunate that I haven't been -- I've been able to pick my paid projects; I pretty much cherry-picked them, and I have only picked those that have matched what I think is fine for the project... I've never agreed to merge anything into the main line that I think isn't in line with what the project should do. I've only accepted features and I've only done things to curl that I think are fine for curl as a project, and whatever the companies that pay me think. So if I've done things that I don't think fits main line, I haven't merged it to main line. I've just done it for some company and allowed them to keep it outside of everything.
 
-**Jerod Santo:** \[00:16:22.09\] You've also had a whole lot of contributors over the years. It looks like on your Thanks page there's a massive 1,265 people that have provided code feedback, advice etc. over the years.
+**Jerod Santo:** \[16:22\] You've also had a whole lot of contributors over the years. It looks like on your Thanks page there's a massive 1,265 people that have provided code feedback, advice etc. over the years.
 
 **Daniel Stenberg:** Yeah.
 
@@ -166,7 +166,7 @@ For example, I did the SCP pretty much paid sponsorships... And I did a bunch of
 
 **Daniel Stenberg:** Yeah, it is.
 
-**Jerod Santo:** \[00:20:04.20\] ...which makes me think of all of the -- we can go through the list of companies and projects that have used curl as part of their product, and all the people that have benefitted over the years from your work... And it makes me think "How much work do you actually have into this thing?" 17 years, you've got all these contributors, so obviously you're not the only one committing code... But if you had to think back and say "Well, how many man hours do I have in curl?" Whether it be coding, or maintaining the mailing list, or talking to people about bugs and troubleshooting, could you even estimate that, how many man hours do you think you have into it?
+**Jerod Santo:** \[20:04\] ...which makes me think of all of the -- we can go through the list of companies and projects that have used curl as part of their product, and all the people that have benefitted over the years from your work... And it makes me think "How much work do you actually have into this thing?" 17 years, you've got all these contributors, so obviously you're not the only one committing code... But if you had to think back and say "Well, how many man hours do I have in curl?" Whether it be coding, or maintaining the mailing list, or talking to people about bugs and troubleshooting, could you even estimate that, how many man hours do you think you have into it?
 
 **Daniel Stenberg:** Yeah, I can do a rough estimate...
 
@@ -222,7 +222,7 @@ For example, I did the SCP pretty much paid sponsorships... And I did a bunch of
 
 **Daniel Stenberg:** It's not that terribly big. I think we're around 200k lines of code in the actual project, and there's a lot of tests and infrastructure around it, but the code in the actual tool and the library - it isn't that big a project.
 
-**Jerod Santo:** \[00:24:17.27\] So it doesn't feel unwieldy. It seems like projects, as they grow, especially with how many protocols you support - over the years, it seems like things tend to get unwieldy. Maybe the big rewrite starts becoming a thought... Have you ever had those kind of issues, where you hit a wall and think about a rewrite, or a different language? And nowadays, is it pretty easy to maintain and to add to?
+**Jerod Santo:** \[24:17\] So it doesn't feel unwieldy. It seems like projects, as they grow, especially with how many protocols you support - over the years, it seems like things tend to get unwieldy. Maybe the big rewrite starts becoming a thought... Have you ever had those kind of issues, where you hit a wall and think about a rewrite, or a different language? And nowadays, is it pretty easy to maintain and to add to?
 
 **Daniel Stenberg:** Well, of course, there have been some obstacles and points in time when I kind of ripped out a lot of junk and redone things internally, but I would say that I've never considered to change language. And of course, that's me being old and grumpy and coding C... But I also think that a big explanation for curl's success is that it's massively portable. It builds and runs on just everything. That also helps everyone to use it on anything. And I don't mean just Linux and Windows and Mac or whatever, but every imaginable \[unintelligible 00:25:21.29\] gaming systems, or embedded systems - everything. I kind of like that, and that's also why I've never considered to change the programming language.
 
@@ -240,7 +240,7 @@ I did a release this Wednesday, and then I added the 7.42.0 details, and I inser
 
 **Daniel Stenberg:** Yes, exactly. It's actually kind of insane. That's one of our problems, that we've added so much features and so much things that it gets hard to find your way around. It's hard to write documentation when you have so much functionality.
 
-**Jerod Santo:** \[00:28:05.03\] What about modularizing, taking libcurl and breaking it up into smaller bits, that maybe are protocol-specific, or some other arrangement that makes sense, and then having a wrapper library that kind of pulls those all in. Have you considered architectural things like that?
+**Jerod Santo:** \[28:05\] What about modularizing, taking libcurl and breaking it up into smaller bits, that maybe are protocol-specific, or some other arrangement that makes sense, and then having a wrapper library that kind of pulls those all in. Have you considered architectural things like that?
 
 **Daniel Stenberg:** I have, but I've never really found the motivation to really go there. I've tried to ask my audience or users what they think and what they want from the library in terms of protocols and everything, and it turns out that a lot of users use a lot of protocols. So it's not only that we're supporting all those protocols just in vein, but there seems to be a lot of users using a lot of these protocols. So I'm not sure that it is a benefit for the project or the design to split it up either. Also, a lot of other protocols are using shared code, so it's not -- each single protocol isn't really that separated from the rest of them.
 
@@ -268,7 +268,7 @@ I did a release this Wednesday, and then I added the 7.42.0 details, and I inser
 
 **Adam Stacoviak:** Let's take a pause here. We'll do a quick sponsored break. When we come back, considering the fact that you've been in the game so long with this project, we've gotta imagine that you've been through several different version control systems, so we wanna talk deeply about your love/hate for version control systems over the years. So let's break real quick, and we'll come back and talk about that.
 
-**Break:** \[00:32:10.08\]
+**Break:** \[32:10\]
 
 **Adam Stacoviak:** Alright Daniel, we're back. Like I said before the break, 17 years at this, you must have been through pretty much every one, and now you're on GitHub, so you're obviously using Git now... And you been using Git for a while; I think about a year now... Is that right, since you've been on GitHub?
 
@@ -294,7 +294,7 @@ And then I converted the entire CVS history I had to Git. That was fairly easy t
 
 **Jerod Santo:** Yeah. When I load up your guys' contribution history on GitHub, your 11,347 commits - that's probably going all the way back to the beginning, right?
 
-**Daniel Stenberg:** \[00:36:21.26\] To the beginning of CVS.
+**Daniel Stenberg:** \[36:21\] To the beginning of CVS.
 
 **Jerod Santo:** Okay.
 
@@ -316,7 +316,7 @@ And then I converted the entire CVS history I had to Git. That was fairly easy t
 
 **Daniel Stenberg:** Yes. And also, when you've been around, you can kind of feel it, too. SourceForge was really the big thing back in the day, but of course, it has kind of gradually faded away somehow... And GitHub is now really where everyone is, and where things are happening. So of course, it's much better to be on GitHub in comparison to SourceForge, because nowadays everyone has a GitHub account and has presence on GitHub, and not on SourceForge. So it's also kind of a matter of the least resistance. People are already there, so it's easier for people to contribute when we allow everything on GitHub.
 
-**Adam Stacoviak:** \[00:39:57.15\] This may be an insignificant thing to most people, but I like to have a little fun on projects like yours on GitHub, and I like to go through the page history, and I tried to hack the URL to figure out how far back I can go... And I was able to take us back 554 pages of commit history.
+**Adam Stacoviak:** \[39:57\] This may be an insignificant thing to most people, but I like to have a little fun on projects like yours on GitHub, and I like to go through the page history, and I tried to hack the URL to figure out how far back I can go... And I was able to take us back 554 pages of commit history.
 
 **Daniel Stenberg:** \[laughs\] Yeah.
 
@@ -352,7 +352,7 @@ But it didn't go very far or long until I realized that it wasn't a good choice 
 
 **Daniel Stenberg:** Yeah, then I dropped that dual license thing and I was like "Yeah, we're going MIT license here. Completely. As liberal as possible. Do whatever you want, just don't say that you made it."
 
-**Jerod Santo:** \[00:44:04.10\] I like that personal identification with the license that you're picking. You're thinking like "I don't think I'm a GPL man."
+**Jerod Santo:** \[44:04\] I like that personal identification with the license that you're picking. You're thinking like "I don't think I'm a GPL man."
 
 **Adam Stacoviak:** Yeah, I liked that, too. That was nice.
 
@@ -374,7 +374,7 @@ Then I've actually done -- I don't remember how many, but perhaps 5-7 different 
 
 **Adam Stacoviak:** This is an odd question to ask, but I've asked this to myself sometimes, because I'm self-employed - and Jerod, you are too, so you might like this question, but... Earlier we got the average of potentially 13,000+ hours that you've invested in this... Do you think that you made minimum wage for those hours? The money that you've been able to make as part of taking care of curl, or being paid to work on it for a couple hours a day like you are now at Mozilla - have you been able to at least make minimum wage, or well above that? Do you think we've been compensated well for that time that's been invested, I guess?
 
-**Daniel Stenberg:** \[00:48:13.21\] I'm not sure. Partly, it's my hobby, so...
+**Daniel Stenberg:** \[48:13\] I'm not sure. Partly, it's my hobby, so...
 
 **Adam Stacoviak:** Right. You don't really care.
 
@@ -414,7 +414,7 @@ I work for Mozilla now, so it was a really -- the hiring process at Mozilla has 
 
 **Daniel Stenberg:** I think there's a lot of things that are still the same... Working in open source - you work with people, and I think that people are mostly the same still. So I would say that there are still the same whiners, the same people who are doing things, the same type of criticism... No matter what you do, and no matter how much success or how many users we get in the core project, it doesn't really change the human mind, or the mental state in people. I've always had -- I shouldn't say "always", but I keep getting those annoying emails that I have to kind of resist and really keep back when I respond to them, and so on... And you know how things can be in open source projects - it can be really rough, and you have to have a really thick skin at times, because people don't hold back on what they say, and write in emails, or whatever... But of course, it's also the opposite - there's a lot of good stuff, too.
 
-**Adam Stacoviak:** \[00:52:28.21\] For those who listen to this show, they know we have some awesome closing questions we tail off the call with, but... I'm kind of curious what your favorite moment over the last 17 years might have been. If there's something that just clearly stands out to you as like "That was the day" or "That was the thing" or "This was the favorite feature", what in the last 17 years was maybe one of your most favorite moments?
+**Adam Stacoviak:** \[52:28\] For those who listen to this show, they know we have some awesome closing questions we tail off the call with, but... I'm kind of curious what your favorite moment over the last 17 years might have been. If there's something that just clearly stands out to you as like "That was the day" or "That was the thing" or "This was the favorite feature", what in the last 17 years was maybe one of your most favorite moments?
 
 **Daniel Stenberg:** I think there's been a lot of good moments, in particular when I realized who has been using curl. Like, wow... Suddenly, I realized that Facebook uses curl. And then I suddenly realized, "Wow, that's quite a lot of users", or stuff like that. But I especially remember one moment, and that is when I saw that the billboard outside -- somewhere in Silicon Valley there was a billboard with a curl command line on. Pretty much like this new one on--
 
@@ -442,7 +442,7 @@ I work for Mozilla now, so it was a really -- the hiring process at Mozilla has 
 
 **Daniel Stenberg:** But of course, it's a huge ego boost. These days, so many things are network connected, and an enormous amount of things that are using curl just to download things these days... And there are so many different things, like cars, or TVs, or printers, or routers, or whatever. It's fascinating.
 
-**Adam Stacoviak:** \[00:56:01.00\] We have a couple questions for you... I know we shared them earlier, so you may have been thinking about a couple of these... But one favorite we love to ask - and I'm really curious to hear what yours is - is who is your programming hero?
+**Adam Stacoviak:** \[56:01\] We have a couple questions for you... I know we shared them earlier, so you may have been thinking about a couple of these... But one favorite we love to ask - and I'm really curious to hear what yours is - is who is your programming hero?
 
 **Daniel Stenberg:** Yeah, I've been thinking about that question. I think it's a good question. I don't know. The one who immediately came to mind is Richard Stallman, because that's one of those original guys who managed to do so much. The guy who made GCC, Emacs, GDB, and a lot of those early days tools that are still around... Even if I would say that he was not possibly my hero these days, but...
 

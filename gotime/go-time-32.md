@@ -20,7 +20,7 @@ So I've been looking at how to smooth that process and also how to make it easie
 
 Then the other side of it that gets confusing is how to you contribute back? That's a common confusion... Like, "Okay, I wanna commit something, so I fork this repo, but now it's not in the right place... How do I change my import path?" and it's not immediately clear that you could just set your fork as a different remote for the Git repository. So there is a lot of confusion with that, because the paths are explicit that way.
 
-**Filippo Valsorda:** \[00:04:02.11\] Yeah, a number of times I've seen PRs that have all the import paths changed to fork, and the person being like, "Oh, yeah, you can remove that... I just had to do that to make it work on my machine", and every time it's this little learning process. So hellogopher is actually meant to get you through your first PR without needing to set up GOPATH at all. The project just builds, tests, runs gofmt, goimports without any need to set up GOPATH.
+**Filippo Valsorda:** \[04:02\] Yeah, a number of times I've seen PRs that have all the import paths changed to fork, and the person being like, "Oh, yeah, you can remove that... I just had to do that to make it work on my machine", and every time it's this little learning process. So hellogopher is actually meant to get you through your first PR without needing to set up GOPATH at all. The project just builds, tests, runs gofmt, goimports without any need to set up GOPATH.
 
 **Erik St. Martin:** So have you had pretty good success at CloudFlare with that, with people being able to just grab a project and work on it?
 
@@ -88,7 +88,7 @@ But if the server refuses them all, it will still see them all... And I built th
 
 **Carlisia Thompson:** So I ran it on my machine and it didn't find my GitHub public key. I'm wondering if it's because I have multiple ones and you grabbed one that wasn't active...
 
-**Erik St. Martin:** \[00:11:46.11\] No... The way the SSH protocol works is when you do public key authentication is it will pass all of your public keys, so anything that's in your .SSH directory, you'll see the IDE\_RSA.pubs and things like that... It will pass that, which contains your email address in it.
+**Erik St. Martin:** \[11:46\] No... The way the SSH protocol works is when you do public key authentication is it will pass all of your public keys, so anything that's in your .SSH directory, you'll see the IDE\_RSA.pubs and things like that... It will pass that, which contains your email address in it.
 
 **Filippo Valsorda:** There's that, but I don't even use that. I use the matching of the actual public key.
 
@@ -134,7 +134,7 @@ What other things are you working on? I know you're doing some TLS stuff as well
 
 But the point is we wanted to implement TLS 1.3 and participate in the standardization process with a real implementation deployed... So we wanted to take up TLS stack and add 1.3 ourselves. I essentially threatened to quit if they made me do it on OpenSSL -- no, I'm joking; nobody asked me. They just asked me what to use as a base, so I just jumped straight to crypto/tls, the standard library of Go, which is a wonderful stack written originally by Adam Langley, which all of the people in the industry say that it's where they go to to understand TLS. They read the spec, they fail to understand it, they go to crypto/tls, they read the Go code, and now they understand things. So that was the starting point... And we extended it to have TLS 1.3 support; we worked most on the server side, and it's now deployed globally on millions of CloudFlare sites. If you just sign up for a free account, it's on by default.
 
-\[00:15:56.17\] The nice thing we don't talk that much about, but you can definitely gather is that if our TLS 1.3 stack is in Go and you can use Go to connect to CloudFlare site it means that sometimes when you connect to CloudFlare, actually in the HTTP pipeline there is a Go HTTP reverse proxy.
+\[15:56\] The nice thing we don't talk that much about, but you can definitely gather is that if our TLS 1.3 stack is in Go and you can use Go to connect to CloudFlare site it means that sometimes when you connect to CloudFlare, actually in the HTTP pipeline there is a Go HTTP reverse proxy.
 
 **Erik St. Martin:** So all of the CloudFlare reverse proxy stuff is written in Go?
 
@@ -163,7 +163,7 @@ Saying that I'm suggesting to actually go out of your way to remove OpenSSL by a
 
 On the other hand, performance-wise it cuts an entire round trip. When you connect to a website, you first do the TCP handshake (that still happens) and then in TLS 1.2 you had to do two round trips - to the server and back, to the server and back - before you could start sending real data on the connection. Now, with TLS 1.3, you do only one. You send something, the server responds and we're ready to go with one less round trip. And round trips on mobile networks or in some countries, we are talking like seconds sometimes.
 
-**Erik St. Martin:** \[00:19:57.08\] Yeah, I can see that, especially if it's a lot of connections opening and closing, rather than keep alive base connections... There's a lot of added latency there for that additional round trip.
+**Erik St. Martin:** \[19:57\] Yeah, I can see that, especially if it's a lot of connections opening and closing, rather than keep alive base connections... There's a lot of added latency there for that additional round trip.
 
 **Filippo Valsorda:** Yeah, indeed.
 
@@ -225,9 +225,9 @@ The more Crypto part... I don't know... I mean, maybe GopherCon? This is probabl
 
 **Brian Ketelsen:** It can't be the tweets -- oh, it's the tweets problem! Oops, Adam!
 
-**Erik St. Martin:** \[00:23:54.04\] That was Adam. \[laughter\] So I think now is probably a good time to take our first sponsored break. Our first sponsor today is StackImpact.
+**Erik St. Martin:** \[23:54\] That was Adam. \[laughter\] So I think now is probably a good time to take our first sponsored break. Our first sponsor today is StackImpact.
 
-**Break:** \[00:24:07.10\] to \[00:24:57.21\]
+**Break:** \[24:07\] to \[24:57\]
 
 **Erik St. Martin:** We are back, talking to Filippo about Crypto and TLS and all the great things he's doing at CloudFlare. What else are you working on these days? I know that you've had some interesting Caddy as well, and we've had Matt Holt on the show, too.
 
@@ -242,7 +242,7 @@ Now, that's super nice because it means that you can take, for example, the Cadd
 That's one step further, it's called binary transparency; it doesn't have that much to do with Go, but Go is a very good language to start this, because getting reproducible builds is incredibly hard with anything else.
 The Debian project has been primed very hard to get the whole Deb repositories reproducible, and they're jumping through hoops that you wouldn't even imagine. With Go instead, you just set the same GOPATH and you're done.
 
-**Erik St. Martin:** \[00:28:03.21\] Yeah, you would just have to make sure you have the same Go toolchain, right? The right Go version, because theoretically it wouldn't produce the same binary if you had a different Go version.
+**Erik St. Martin:** \[28:03\] Yeah, you would just have to make sure you have the same Go toolchain, right? The right Go version, because theoretically it wouldn't produce the same binary if you had a different Go version.
 
 **Filippo Valsorda:** Oh, yeah.
 
@@ -280,7 +280,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Filippo Valsorda:** That's a very good point. In Go, we almost explicitly stated that we optimize for latency, at least in the garbage collector, by making it faster and faster in terms of pauses, but slightly slower in terms of CPU and throughput. So it's interesting that the profiling tools haven't caught up to the same priorities.
 
-**Erik St. Martin:** \[00:31:59.27\] Yeah, that's true. So you're talking about this at GopherCon India?
+**Erik St. Martin:** \[31:59\] Yeah, that's true. So you're talking about this at GopherCon India?
 
 **Filippo Valsorda:** Yeah, that's the plan.
 
@@ -364,7 +364,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Erik St. Martin:** Yeah, and more and more stuff keeps getting added... Just too much fun. Another cool project that I saw -- I guess it's chromedp. It's basically able to steer browsers using the Chrome debugging protocol, which is written in Go... And for anybody who suffered through using Selenium and things like that, this looks really cool.
 
-**Filippo Valsorda:** \[00:36:00.20\] Oh god, oh god, oh god! The Camlistore thing -- it's like I'm a pack rat, I archive everything, and I'm trying to archive everything in Camlistore, which is this content-addressed storage that we don't really have time to talk about... The point is, something I wanted was to load pages into a real headless browser, then take snapshots of them and \[unintelligible 00:36:25.29\]
+**Filippo Valsorda:** \[36:00\] Oh god, oh god, oh god! The Camlistore thing -- it's like I'm a pack rat, I archive everything, and I'm trying to archive everything in Camlistore, which is this content-addressed storage that we don't really have time to talk about... The point is, something I wanted was to load pages into a real headless browser, then take snapshots of them and \[unintelligible 00:36:25.29\]
 
 **Brian Ketelsen:** Wow...
 
@@ -396,7 +396,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Erik St. Martin:** Yeah, or something very close to it.
 
-**Brian Ketelsen:** \[00:40:02.10\] I don't know if "feeling at home" is the right way to say it, because I never feel at home in makefile. I've seen some makefile ninjas, but I am not one of them.
+**Brian Ketelsen:** \[40:02\] I don't know if "feeling at home" is the right way to say it, because I never feel at home in makefile. I've seen some makefile ninjas, but I am not one of them.
 
 **Erik St. Martin:** Yeah, it amazes me some of the stuff people know about make. It is ridiculously powerful. My knowledge of make is about equivalent to my knowledge of Bash... It's just enough to make a fork. \[laughter\]
 
@@ -422,7 +422,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Erik St. Martin:** Yeah... I feel like it's just like Bash every time I gotta do something. I gotta look up, like "How do you do a for loop in Bash again?" \[laughs\] I think it is about time for our second sponsored break, and then we'll get into some more projects and news. Our second sponsor today is actually Ardan Labs, with their Ultimate Go Training series.
 
-**Break:** \[00:41:51.09\] to \[00:42:45.24\]
+**Break:** \[41:51\] to \[42:45\]
 
 **Erik St. Martin:** Alright, and we are back talking to Filippo. For anybody who is listening live, we were just kind of joking about makefiles and the use of PHONY and how it makes Brian feel like a phony when he reads it...
 
@@ -438,7 +438,7 @@ It's rare that APIs are truthful about how many things concurrently they can pro
 
 **Erik St. Martin:** That's actually happened to me a couple of times for political reasons, where I'll just get on one day and everybody is now a cartoon character or they've changed their avatar to a flag and I haven't yet read the news to see why people are doing that... Like, "Why is everybody a cartoon character today? What did I miss?"
 
-**Brian Ketelsen:** \[00:43:57.04\] You feel so left out.
+**Brian Ketelsen:** \[43:57\] You feel so left out.
 
 **Filippo Valsorda:** There's an entire Subreddit for that, it's called Out Of The Loop.
 
@@ -488,7 +488,7 @@ For example, when I run into something new and I want to see how people are usin
 
 **Filippo Valsorda:** Yeah, I love their interface. I used it all the time also studying the TLS Crypto library; it works on the standard library too, and you can just click around and click to jump to definition, which is something that I always wanted. There used to be a web interface to what is now called Guru, which was called Pythia maybe or something like that. Anyway... Sourcegraph does that, and it's wonderful, just clicking around to...
 
-**Carlisia Thompson:** \[00:48:09.23\] Yeah, so it will work with anything that's open source, and if you want to use it on your private repos, they have a pricing structure there. You probably need to talk to your security team to find out if you can do it.
+**Carlisia Thompson:** \[48:09\] Yeah, so it will work with anything that's open source, and if you want to use it on your private repos, they have a pricing structure there. You probably need to talk to your security team to find out if you can do it.
 
 **Erik St. Martin:** Yeah, I would assume it runs on-prem or something like that for that... I'm not really sure. They have a browser extension that's cool too, so if you're just kind of like browsing around GitHub, looking, you can just kind of click and follow along, and jump to definition...
 
@@ -532,7 +532,7 @@ Ashley McNamara did the design and the images, I built the code side of it and w
 
 **Erik St. Martin:** Because Brian can't build anything without a generator...
 
-**Brian Ketelsen:** \[00:52:07.04\] Yeah, if you're not generating code, you're doing it wrong. \[laughter\]
+**Brian Ketelsen:** \[52:07\] Yeah, if you're not generating code, you're doing it wrong. \[laughter\]
 
 **Erik St. Martin:** So while we're mentioning the GopherCon site, this episode will probably be released just before the CFP closes, so if you're listening to this now and you wanna see your face on that website, it's probably gonna be your last moment to race along with the 200 other people who are going to submit in the last 48 hours...
 
@@ -576,7 +576,7 @@ Ashley McNamara did the design and the images, I built the code side of it and w
 
 **Filippo Valsorda:** Remember that there is the wonderful goget way to download the rc's.
 
-**Brian Ketelsen:** \[00:55:59.11\] I absolutely love that.
+**Brian Ketelsen:** \[55:59\] I absolutely love that.
 
 **Erik St. Martin:** And with 1.8 being right at the five-yard line, 1.9 discussions have started, too. I think it was a Golang Nuts thread that Brad Fitzpatrick started, about discussions for things that are gonna take place in 1.9. We will link to that in the show notes if you wanna be involved in those conversations, too.
 

@@ -26,7 +26,7 @@ We're joined by the author of Manning Books' "100 Go mistakes - how to avoid the
 
 **Johnny Boursiquot:** So much material...
 
-**Mat Ryer:** \[00:04:04.26\] Great. Well, let's dig in. Teiva, maybe you could just kind of tell us about yourself first. You're an engineer at Beat, right?
+**Mat Ryer:** \[04:04\] Great. Well, let's dig in. Teiva, maybe you could just kind of tell us about yourself first. You're an engineer at Beat, right?
 
 **Teiva Harsanyi:** Yeah, indeed. Software engineer in a company called Beat. You can visit it on thebeat.co. We are in the ride-hailing domain, and by the way - just a small part at the beginning - we are recruiting people, and we are doing a lot of Go, a lot of cool stuff, so if you want to take a look at it, please do.
 
@@ -56,7 +56,7 @@ So we take this multi-error struct, we make it implementing the error interface,
 
 So let's say that we implement the wall function, we do the sanity checks, and if there's an error, we mutate results to append a new error. And eventually, at the end of the function we say "I am going to return the result variable." So in the end, result can be either nil if we face no errors, or it can be a pointer referencing a multiError \[unintelligible 00:07:48.26\]
 
-\[00:07:52.00\] So let's now say that we implement the consumer side, we called our validation function and we check whether the error is nil or not. And here - surprise, the error is never nil, actually. Even when we faced no errors, the error itself that we return is never nil. So what happened in that case? We have said that eventually we were returning the result variable. So if there is no error, actually what we are going to return is a nil receiver, not a nil value directly. And as the return type was an interface, because we returned an error interface, we didn't return a nil value here; we returned an interface implemented by a nil receiver... Which is actually different from nil, and that's why the check by the consumer is never nil. It's because in Go a nil receiver is allowed, which might sound a bit odd at first, but it's actually allowed. And the reason is because a method in Go - it's just some kind of syntactic sugar, just like if the receiver was actually the first argument of a function. And it's actually allowed to pass nil arguments for pointers, right?
+\[07:52\] So let's now say that we implement the consumer side, we called our validation function and we check whether the error is nil or not. And here - surprise, the error is never nil, actually. Even when we faced no errors, the error itself that we return is never nil. So what happened in that case? We have said that eventually we were returning the result variable. So if there is no error, actually what we are going to return is a nil receiver, not a nil value directly. And as the return type was an interface, because we returned an error interface, we didn't return a nil value here; we returned an interface implemented by a nil receiver... Which is actually different from nil, and that's why the check by the consumer is never nil. It's because in Go a nil receiver is allowed, which might sound a bit odd at first, but it's actually allowed. And the reason is because a method in Go - it's just some kind of syntactic sugar, just like if the receiver was actually the first argument of a function. And it's actually allowed to pass nil arguments for pointers, right?
 
 So a nil receiver is completely allowed. And if we want to fix it in that very case, instead of possibly returning a nil receiver, we should return a nil value directly. So eventually, in the end, we could do "if result == nil { return nil }" instead of returning result. And it's actually the same on the consumer side, on the other side - if a function accepts an interface, and we pass to it a nil receiver, not a nil value, the variable assigned to this interface won't be nil.
 
@@ -74,7 +74,7 @@ Francesc did a really good -- I think it was a GopherCon talk, about when nil is
 
 **Johnny Boursiquot:** I'm curious, what is the antidote? What is the advice that you present in your book, Teiva? Is it to avoid these kinds of situations, or is there a pattern, an approach where you can still use that custom type --
 
-**Mark Bates:** \[00:12:17.12\] ...return an explicit nil?
+**Mark Bates:** \[12:17\] ...return an explicit nil?
 
 **Johnny Boursiquot:** \[laughs\] That's one way, yeah.
 
@@ -148,7 +148,7 @@ So I believe that we may still face the case where we have at some point to retu
 
 **Mark Bates:** Did you just call--
 
-**Mat Ryer:** \[00:16:12.23\] Teiva, you have to speak before Bates gets in, otherwise \[unintelligible 00:16:13.04\]
+**Mat Ryer:** \[16:12\] Teiva, you have to speak before Bates gets in, otherwise \[unintelligible 00:16:13.04\]
 
 **Johnny Boursiquot:** I keep seeing the setup, and I'm like "Teiva, jump in! Jump in! Jump in!"
 
@@ -176,13 +176,13 @@ So if we implement this parallel version of the algorithm, I run it on my local 
 
 Now let's try to imagine, in your opinion, what's the fastest between spinning up two goroutines that will both merge two elements and wait for them, or in the current goroutine merge two elements and then merge two other elements? And of course, it's gonna be the latter here, right? Because it's gonna be faster to do it in the current goroutine.
 
-\[00:20:10.24\] And if we think about it actually, in the merge sort algorithm, the deeper we go, the less efficient it will be to spin up a goroutine. And sure, goroutines are fast, but spinning up a new goroutine - it has a cost, because we have to wait for its creation, we have to wait for the internal Go scheduler to execute it, we have also the fact that concurrency introduces some form of synchronization because of mutex, or channels, or whatever... So everything has a cost, right?
+\[20:10\] And if we think about it actually, in the merge sort algorithm, the deeper we go, the less efficient it will be to spin up a goroutine. And sure, goroutines are fast, but spinning up a new goroutine - it has a cost, because we have to wait for its creation, we have to wait for the internal Go scheduler to execute it, we have also the fact that concurrency introduces some form of synchronization because of mutex, or channels, or whatever... So everything has a cost, right?
 
 Here one possible solution for this algorithm - the goal is not, of course, to design the most optimal solution for the merge sort algorithm, but discuss about a potential solution. It could be to say I will define a threshold, and I will apply the parallel algorithm that we've just described, but if the number of elements is below a certain threshold, it's simply not worth spinning up new goroutines. So instead, I am going to execute sequentially. And this threshold may depend on the machine, and everything. On my side it was about 2048 elements. And if I run this new hybrid version, let's say, of the parallel algorithm, it's about 40% faster this time compared to the sequential implementation.
 
 And one very last thing to say - I have done the same test in Java actually, where we don't have the principle of goroutines (we just have threads here) and the threshold actually was higher. It was around four times bigger, if I recall correctly, compared to goroutines. So it's kind of interesting, because somehow it shows that goroutines are actually somehow more efficient than threads for concurrent workloads, because they are for example faster to spin up... But as we illustrated with the merge sort algorithm, it's not magic nonetheless; concurrency isn't always faster.
 
-**Break**: \[00:22:19.16\]
+**Break**: \[22:19\]
 
 **Mat Ryer:** So a couple of things there... One is when you're sharing data, when you're working on the same data, you have to be safe concurrently, so you have to then log usually, and things are gonna be waiting. So that's always something to consider. And then I guess, Johnny, you benchmark things, don't you? That's how you find out these little \[unintelligible 00:24:36.23\]
 
@@ -210,7 +210,7 @@ So concurrency in Go -- what drove us all to Go originally, I think... I know it
 
 **Mark Bates:** Long-time listener, first-time caller...
 
-**Mat Ryer:** \[00:27:47.22\] And by the way, please join in the chat. That's where we hang out. Chris has a question for the ladz (with a z). Chris says "One of the strengths often touted about Go is that because it's very simple, it's more difficult to make mistakes compared to other general-purpose languages. But as we are learning, there's at least a hundred mistakes you can make, if not more. Does the panel have any ideas on changes to the language that could/should be made to reduce developer mistakes?" And kind of shadowing springs to mind for me on this one. I feel like if --
+**Mat Ryer:** \[27:47\] And by the way, please join in the chat. That's where we hang out. Chris has a question for the ladz (with a z). Chris says "One of the strengths often touted about Go is that because it's very simple, it's more difficult to make mistakes compared to other general-purpose languages. But as we are learning, there's at least a hundred mistakes you can make, if not more. Does the panel have any ideas on changes to the language that could/should be made to reduce developer mistakes?" And kind of shadowing springs to mind for me on this one. I feel like if --
 
 **Mark Bates:** Shadowing, definitely. The magic okay is another one... For those of you who kind of know what I'm talking about - you know, you kind of get the map, map returns this random okay, boolean second variable if you're asking for it. Or if you're doing a type assertion. If you ask for the second random option value that's there - these things I don't even think are documented; you just kind of know that they're there... And none of us mere mortals can add them; the Go team can add them in weird places... Like, why isn't type assertion -- and that's one of my big ones; why does that not force you--
 
@@ -256,7 +256,7 @@ So concurrency in Go -- what drove us all to Go originally, I think... I know it
 
 **Mark Bates:** Well, because I can see performance problems... Because we were just talking about people coming to Go and abusing concurrency. And let's be honest, that's what we were talking about. We were being very nice about it calling it a mistake, but it's abusing the technology, right? And we all did it when we first came. New people come and they do it. And that's the mistake, is we keep abusing it, right? But I see that mistake about to happen again with generics, and I can see everybody rushing to implement everything in generics, and I can see programs crawling to a halt because everything's super-slow.
 
-\[00:32:07.16\] And tools, parsing things and working in all these different ways in Go are gonna be not supported or working incorrectly because of generics... I just see a lot of potential mistakes (if we're gonna keep using that term) coming down the pipe here.
+\[32:07\] And tools, parsing things and working in all these different ways in Go are gonna be not supported or working incorrectly because of generics... I just see a lot of potential mistakes (if we're gonna keep using that term) coming down the pipe here.
 
 **Mat Ryer:** Yeah.
 
@@ -322,7 +322,7 @@ So concurrency in Go -- what drove us all to Go originally, I think... I know it
 
 **Mat Ryer:** Oh, your code was too good.
 
-**Johnny Boursiquot:** \[00:35:59.26\] \[laughs\] Well, perhaps not that sensibly written, again...
+**Johnny Boursiquot:** \[35:59\] \[laughs\] Well, perhaps not that sensibly written, again...
 
 **Mat Ryer:** So why didn't you put a sleep in before each one? A random sleep... \[laughter\]
 
@@ -342,7 +342,7 @@ So yeah, those are all real issues that I think people just kind of get in their
 
 So let's imagine we want to implement a kind of smart consumer, or I don't know how to call it... That will keep receiving messages from a channel. But let's say if we don't receive any messages for, let's say, one hour, we also want to log a message, to log an alert, for example, or something like this. And one way we could implement it is using time.after in this case, and we could say "I will have a for loop with a select inside and two cases." In the first case I'm going to receive messages from the channel, and then call a function, do whatever with the message we have received, and in the second case we are going to receive on the channel that is returned by time.after to log the alert "I haven't received a message since one hour."
 
-\[00:39:59.11\] So in that case, let's say, we just deploy our application, we keep receiving messages... That's great, but we notice that it consumes more and more memory and it seems to steadily increase, actually. So what's the reason actually for that? We have to know that in every iteration Go will actually evaluate time.after, and it will create a new channel. And we may actually expect this channel to be closed in every iteration, but it's not the case. Actually, the resources that are created by time.after, including the channel itself - they will be released once the timeout expires.
+\[39:59\] So in that case, let's say, we just deploy our application, we keep receiving messages... That's great, but we notice that it consumes more and more memory and it seems to steadily increase, actually. So what's the reason actually for that? We have to know that in every iteration Go will actually evaluate time.after, and it will create a new channel. And we may actually expect this channel to be closed in every iteration, but it's not the case. Actually, the resources that are created by time.after, including the channel itself - they will be released once the timeout expires.
 
 So in the worst-case scenario, where we keep receiving a high volume of messages, we will keep looping, we will repeatedly call time.after in each iteraction, and it will keep creating resources until the duration - in our case one hour - elapses, basically.
 
@@ -370,7 +370,7 @@ And here it will just reuse the same channel, basically. So it won't have to cre
 
 **Johnny Boursiquot:** Very good one, yeah.
 
-**Break**: \[00:43:14.19\]
+**Break**: \[43:14\]
 
 **Mat Ryer:** Bates, you were talking earlier about another common gotcha...
 
@@ -424,7 +424,7 @@ But it's definitely one of the big issues I see, where people should be starting
 
 **Mark Bates:** I'm glad this is coming out of your mind and not mine... Go on.
 
-**Johnny Boursiquot:** \[00:48:12.00\] \[laughs\] Yeah... Now that I think about it, it wasn't a deliberate choice. It was more of a -- maybe I'm adopting some of Mark's grumpy old dude sort of a persona, but I was like "My interfaces inside of my packages - I don't export those, at all." Because I don't want the consumer of that package to have a dependency on my own abstractions, on my own interfaces. So it's almost like I say "Well, if you wanna create abstractions or whatever it is, you create your own interface. You create a local interface to you, for whatever I'm gonna hand over to you, but I don't tend to expose my interfaces for my packages." It wasn't deliberate, it just kind of happened.
+**Johnny Boursiquot:** \[48:12\] \[laughs\] Yeah... Now that I think about it, it wasn't a deliberate choice. It was more of a -- maybe I'm adopting some of Mark's grumpy old dude sort of a persona, but I was like "My interfaces inside of my packages - I don't export those, at all." Because I don't want the consumer of that package to have a dependency on my own abstractions, on my own interfaces. So it's almost like I say "Well, if you wanna create abstractions or whatever it is, you create your own interface. You create a local interface to you, for whatever I'm gonna hand over to you, but I don't tend to expose my interfaces for my packages." It wasn't deliberate, it just kind of happened.
 
 **Mat Ryer:** Oh, amazing.
 
@@ -444,7 +444,7 @@ It surprises me, because they're on the surface relatively easy. There's not a l
 
 **Mat Ryer:** Well, it's that time again... Teiva, hold this base. Johnny, you're on the drums. Bates, pick up the guitar... It's time for Unpopular Opinions!
 
-**Jingle**: \[00:51:13.07\] to \[00:51:30.20\]
+**Jingle**: \[51:13\] to \[51:30\]
 
 **Mat Ryer:** Who's got a meaty unpopular opinion?
 
@@ -468,7 +468,7 @@ It surprises me, because they're on the surface relatively easy. There's not a l
 
 **Johnny Boursiquot:** Oh, mate. Fire!
 
-**Mark Bates:** \[00:52:04.21\] \[Captain Sparrow voice\] "I've been stuck on that island for so long... Thinking about generics and stewing away..." I'm like \[unintelligible 00:52:10.25\] from Lost. Somehow I gained weight being stranded on a desert island. I'm not quite sure how that happens.
+**Mark Bates:** \[52:04\] \[Captain Sparrow voice\] "I've been stuck on that island for so long... Thinking about generics and stewing away..." I'm like \[unintelligible 00:52:10.25\] from Lost. Somehow I gained weight being stranded on a desert island. I'm not quite sure how that happens.
 
 **Mat Ryer:** No, you look great though, mate, really. \[unintelligible 00:52:17.19\]
 
@@ -532,7 +532,7 @@ So don't be in a learning paralysis mode. Put stuff out there. Make mistakes, ta
 
 Now, how do I make that clean and good, and do what I actually wanted to do, not just "I got it to make a connection and return Hi to me." You know, like, "Great. Now let's take this and try to build on it."
 
-**Mat Ryer:** \[00:56:05.29\] Yeah, you can't really -- you learn so much by building the real thing... And this also speaks to software engineering generally. We wanna design it all upfront sometimes; we wanna know exactly what it's gonna be, so we can do good estimates and things... You learn so much by doing it, so get on and do it. You'll just make so much more ground, and making mistakes in that sense is great, because that really is how you find out what the real thing to do is. Sometimes it's impossible to know upfront, isn't it?
+**Mat Ryer:** \[56:05\] Yeah, you can't really -- you learn so much by building the real thing... And this also speaks to software engineering generally. We wanna design it all upfront sometimes; we wanna know exactly what it's gonna be, so we can do good estimates and things... You learn so much by doing it, so get on and do it. You'll just make so much more ground, and making mistakes in that sense is great, because that really is how you find out what the real thing to do is. Sometimes it's impossible to know upfront, isn't it?
 
 **Mark Bates:** Yeah. I would say 9 out of 10 times I run tests, they fail. And I'm okay with that, most of the time. There are times when I'm like "Why the hell are you failing?!" But most of the times it's like "Yeah, okay... Still not there yet. That didn't work. What can I try now to get this test to pass?" You know, just keep making those mistakes till you find it, and that's okay.
 
@@ -612,7 +612,7 @@ Now, how do I make that clean and good, and do what I actually wanted to do, not
 
 **Teiva Harsanyi:** Thank you so much.
 
-**Outro**: \[00:59:49.19\]
+**Outro**: \[59:49\]
 
 **Mat Ryer:** Um... Okay. Brilliant stuff. Thank you again. I mean, this is it. We've done the podcast.
 

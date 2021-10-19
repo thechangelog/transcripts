@@ -56,7 +56,7 @@
 
 **Adam Stacoviak:** I mean, I just, we just can't go on a whim, but yes, Strange Loop - we'd love to be there. It's an awesome conference, and I wish we could go. Alex, if you're listening to this, email us.
 
-**Pam Selle:** \[00:03:55.14\] Yeah, if Alex hears about it, or someone else in the team... But yeah, I mean, you might not be the first person that I've heard from that can be hard to get a hold of. They just have so much on their plate, and there are also a few other conferences that collocate with them... Racket, which is a Lisp - they collocate.
+**Pam Selle:** \[03:55\] Yeah, if Alex hears about it, or someone else in the team... But yeah, I mean, you might not be the first person that I've heard from that can be hard to get a hold of. They just have so much on their plate, and there are also a few other conferences that collocate with them... Racket, which is a Lisp - they collocate.
 
 **Jerod Santo:** Yeah. Elm-conf...
 
@@ -130,7 +130,7 @@
 
 **Adam Stacoviak:** They all have the Amazon logo in there, or something like it...
 
-**Pam Selle:** \[00:07:57.08\] Well, they just don't mean anything, and they just throw them on slides and talk about --
+**Pam Selle:** \[07:57\] Well, they just don't mean anything, and they just throw them on slides and talk about --
 
 **Adam Stacoviak:** It's a shame too, because they've got so much good stuf...
 
@@ -178,7 +178,7 @@ So it was revolutionary because there was technology that enabled it, but over t
 
 One very obvious thing of "Where do you put your state?" It's gotta go somewhere...
 
-**Jerod Santo:** \[00:12:09.17\] Where does it go?
+**Jerod Santo:** \[12:09\] Where does it go?
 
 **Pam Selle:** Yeah, where does it go? That's a good question. It depends.
 
@@ -210,7 +210,7 @@ But see, as I describe it -- you asked "What's revolutionary?" It's very easy to
 
 **Adam Stacoviak:** When we come back from the break we talk about the environmental impact of functions as a service and how the serverless architecture removes the need for a traditional always on server system. We also talk about how serverless is being used in production today and where it's going in the future. Stick around.
 
-**Break:** \[00:14:59.00\]
+**Break:** \[14:59\]
 
 **Pam Selle:** I also think that functions as a service are really cool from an environmental standpoint when we think about the usage of infrastructure... If I'm building what I want to be a standard, scalable infrastructure, I don't want my load to ever go over 50% maybe, because I wanna be able to handle a lot more traffic so that I don't fall over. All that water and energy, all of it is just getting wasted, and I'm paying for it. So it's bad for the environment, it's bad for my wallet, so if I use something where things are run in a scalable --
 
@@ -298,7 +298,7 @@ There's so many... I think one of my most favorite recent ones is in operations,
 
 **Pam Selle:** Sure. So what happened was someone deleted something that they shouldn't, and because of a command line argument...
 
-**Jerod Santo:** \[00:20:05.20\] Yeah, that's right - it was a command line typo.
+**Jerod Santo:** \[20:05\] Yeah, that's right - it was a command line typo.
 
 **Pam Selle:** Yeah, it was a command line argument, so it was a human error... I hope that person is okay.
 
@@ -404,7 +404,7 @@ I've heard people using it for operations task of "If I delete this route, then 
 
 **Adam Stacoviak:** Do you have a good a-ha moment story for us? When you really got it, you were like "This is really awesome!"
 
-**Pam Selle:** \[00:23:55.28\] You know, I think I almost started having it before I ended up working with IOpipe, when I first spoke with the founders... I was speaking to one of the founders and she was talking about this thing that she was working on and was building, it involved the cloud, and this thing that I think I'd heard of but I hadn't done anything with, and I barely understood it, and that's the kind of thing where you either don't understand it because it's pointless to understand it, or it's because it's something that you probably should sort out, and it will become part of what you generally know. I feel like that's what ended up happening - I kind of had an inkling (even when I first heard it) that this was gonna be a big thing.
+**Pam Selle:** \[23:55\] You know, I think I almost started having it before I ended up working with IOpipe, when I first spoke with the founders... I was speaking to one of the founders and she was talking about this thing that she was working on and was building, it involved the cloud, and this thing that I think I'd heard of but I hadn't done anything with, and I barely understood it, and that's the kind of thing where you either don't understand it because it's pointless to understand it, or it's because it's something that you probably should sort out, and it will become part of what you generally know. I feel like that's what ended up happening - I kind of had an inkling (even when I first heard it) that this was gonna be a big thing.
 
 Once we started, we spent a lot of time at the company talking to teams who are using serverless in production, and the kind of problems that they're using it on, the kind of production challenges they run into... But all of them ultimately had such amazing stories about the transition, what they saw when they went from persistent infrastructure to -- what is that? I heard someone say that running functions of service is not even immutable infrastructure, it's untouchable infrastructure. Like, you use it and it's gone... So it's untouchable infrastructure.
 

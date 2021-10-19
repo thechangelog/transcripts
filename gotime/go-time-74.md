@@ -24,7 +24,7 @@
 
 **Jon Calhoun:** I wasn't really teaching too much before that. Before I got into Go, I released an open source project on Rails, and I released some videos along with it to try to make it easier for people to pick it up, to learn how to use it... So that was like my first taste for teaching, through Screencast and that sort of thing. I really enjoyed doing it, I thought it was really helpful, especially where you usually jump in and just see a relatively bland readme, having some videos that really showed people why they cared about something; it was very impactful.
 
-\[00:04:05.25\] That was where I first got my taste for it, but it wasn't really until I learned Go and I'd been using Go for maybe a year or two, and I guess what really motivated me to do it was that I had seen in the Rails community how many great resources there were... And it's not that there aren't people making good stuff in the Go community, but it just wasn't anywhere near the same level.
+\[04:05\] That was where I first got my taste for it, but it wasn't really until I learned Go and I'd been using Go for maybe a year or two, and I guess what really motivated me to do it was that I had seen in the Rails community how many great resources there were... And it's not that there aren't people making good stuff in the Go community, but it just wasn't anywhere near the same level.
 
 To give you some examples, RailsCasts was like a weekly series where every week they'd release a new video that taught you how to do something in Rails. Michael Hartl had this book - and he also has videos for it - called Michael Hartl's Rails tutorial. It would basically teach people how to go from like zero to deploying a Twitter clone in this relatively long book, but it taught you everything you needed to know. I felt like when I was learning Go, it's not that there weren't resources, but they were all sort of spread out and you had to scour the internet through blogs and different tutorials and all this different stuff, so it wasn't as welcoming to somebody who was more of a beginner or wasn't accustomed to looking through all these different resources and piecing them together.
 
@@ -46,7 +46,7 @@ You just don't know all this information, so I really like the videos as a way o
 
 There's other benefits, I think, to video. One of the ones is -- I've actually had a bunch of people recently asking me to do live stuff, and I've typically avoided it because I record in my office with my dog, and if he hears anything outside, he barks randomly or whatever, so... If you hear that today, sorry about that. But yeah, so people would wanna see the live stuff, and the reason I like that is because I think people get this perception that developers code things idiomatic and perfectly the very first time, and the truth is that most of us don't; we write something, we try to get an idea of what we're supposed to be building, and then once we really understand the requirements and really understand the technology that we're using and understand all the pieces, we can come back and refactor our code into something that we would feel proud of submitting as a pull request... But that's rarely the very first thing. At least for me, it's almost never the first thing that I write.
 
-**Brian Ketelsen:** \[00:07:59.24\] Yeah, I've done quite a few live coding sessions, and I think that's one of the things that I enjoy most - the idea that we're not teaching how to get from A to Z in one step, we're talking about how to get from A to B, and B to C, and C to D. I don't ever write awesome code the first time, and usually my code requires Erik to come through and clean it up when I'm done... But that's a separate show.
+**Brian Ketelsen:** \[07:59\] Yeah, I've done quite a few live coding sessions, and I think that's one of the things that I enjoy most - the idea that we're not teaching how to get from A to Z in one step, we're talking about how to get from A to B, and B to C, and C to D. I don't ever write awesome code the first time, and usually my code requires Erik to come through and clean it up when I'm done... But that's a separate show.
 
 **Jon Calhoun:** I mean, it definitely makes sense. That's why you have the whole team to review your code and help you refactor things and give you ideas that you weren't thinking of. It's very easy to feel like you need to get this all figured out on your own, but in reality the Go language was developed by a team, almost every big project is developed by a team, because with the team you can get other perspectives and you can learn from each other.
 
@@ -62,7 +62,7 @@ There's other benefits, I think, to video. One of the ones is -- I've actually h
 
 **Jon Calhoun:** This is actually one of the reasons I'm -- it's not that I dislike test-driven development, but I'm not a huge advocate for it, because I feel like a lot of people get this impression that they can't -- I call that phase where you're just sort of getting a feel for the domain, a spike; I'm essentially just writing code that I don't care if I throw it away... I just wanna understand the problem space better.
 
-\[00:11:50.09\] I think a lot of times when people really push for this test-driven development, some people take it the wrong way to mean that they can't even do that... That they have to immediately go write tests, and then know exactly what the final code is gonna look like and what the functions are gonna be. So it's not that test-driven development is necessarily the problem. I guess it's just I don't like teaching it, especially to beginners, because I feel like it gives them this false impression of how they're supposed to be developing software, and it can lead to not doing that experimental stage where they really get to understand the problem they're trying to solve.
+\[11:50\] I think a lot of times when people really push for this test-driven development, some people take it the wrong way to mean that they can't even do that... That they have to immediately go write tests, and then know exactly what the final code is gonna look like and what the functions are gonna be. So it's not that test-driven development is necessarily the problem. I guess it's just I don't like teaching it, especially to beginners, because I feel like it gives them this false impression of how they're supposed to be developing software, and it can lead to not doing that experimental stage where they really get to understand the problem they're trying to solve.
 
 **Carlisia Thompson:** Yeah, because when I start writing code, mainly I try to focus on what's coming in and what needs to go out, and what I need to fill in between those two boundaries, those two points. Then if I start out with a test -- I have trouble starting out with a test, frankly... And I love tests, so don't get me wrong; they're essential. But if I start out with a test, then I am constantly modifying the test and the code, which I think is sort of the point... But I didn't learn to program that way, so it still feels awkward to me. With that said, you have a course that teaches how to write tests?
 
@@ -82,7 +82,7 @@ I think part of the reason I wanted to do that was just because I wanted people 
 
 **Brian Ketelsen:** I'm curious what your most popular episode is. I see you've got about 13 up now... Which one of them gets the most views?
 
-**Jon Calhoun:** \[00:16:05.26\] I don't actually know which one gets the most views; I can go look, but I haven't looked recently. I know that the one that gets the most pull requests for like student solutions is the very first one, and I think that's just kind of because it's the first one.
+**Jon Calhoun:** \[16:05\] I don't actually know which one gets the most views; I can go look, but I haven't looked recently. I know that the one that gets the most pull requests for like student solutions is the very first one, and I think that's just kind of because it's the first one.
 
 **Brian Ketelsen:** That would make sense, yeah.
 
@@ -107,7 +107,7 @@ I've been trying to donate to charities every time I worked with them, based on 
 
 I could give you some examples... The "Choose your own adventure" -- one of the exercises is you build a "Choose your own adventure" book... It's really just a web server with a JSON file that describes this story, and at every different spot in the story you can click a link to decide what you wanna do. Maybe you wanted to go to Gotham Go, or you wanna go to GopherCon in Denver... I think that's the way the story goes; it's been a while.
 
-\[00:20:12.04\] So you click on the link and the story progresses, and I don't know if you guys have read those "Choose your own adventure" books when you were young, but it's based off of that.
+\[20:12\] So you click on the link and the story progresses, and I don't know if you guys have read those "Choose your own adventure" books when you were young, but it's based off of that.
 
 And the exercise was actually based off of -- one year for Christmas I made my wife "Choose your own adventure book" that was... It was online, but it was a book that I took construction paper and crayons and I colored different artwork on them.
 
@@ -127,7 +127,7 @@ Another one of the exercises - you create a URL forwarder. This is something tha
 
 To give you examples, you'll hear about Docker and deploying with Docker and continuous integration, and using React on your front-end, and using all these different things... GraphQL is another one that comes up a lot. And I interact with a lot of people who are just learning to program, or who are transitioning from front-end to back-end work, or in some way are learning new things... And a lot of them get really caught up on this feeling that they have to use all these different pieces of technology that are -- you know, Facebook introduced GraphQL to solve a very specific problem that they had... And it's not that it isn't really cool technology, but if you're building your very first API, GraphQL might not be the way to go.
 
-\[00:24:15.14\] I guess to get back to that, I'm trying to give the talk sort of explaining that you can build things that are useful, that are still cool projects, that aren't bad in any single way, that don't use all these pieces of technology that you read about on the internet all the time and think that "I have to be using these things."
+\[24:15\] I guess to get back to that, I'm trying to give the talk sort of explaining that you can build things that are useful, that are still cool projects, that aren't bad in any single way, that don't use all these pieces of technology that you read about on the internet all the time and think that "I have to be using these things."
 
 **Carlisia Thompson:** I couldn't agree more, yeah.
 
@@ -151,7 +151,7 @@ A little while later we're all just trying to find ways to beef up our security 
 
 I read books like Ender's Game, or different Sci-Fi books like that and I see things like that, and... It's obviously not on the same level as those books, but it sort of like brings back that nostalgia of, you know, I had some experience that was sort of like that, and it's always gonna stick with me.
 
-**Brian Ketelsen:** \[00:28:07.03\] It sounds like an arms race, of the best fun kind. So when you do web development, Jon, what's your favorite way to build apps in Go? Are you a standard library guy? Do you like using JavaScript and a Go API? What do you find is best for you for web development? Because it sounds like you've done quite a bit.
+**Brian Ketelsen:** \[28:07\] It sounds like an arms race, of the best fun kind. So when you do web development, Jon, what's your favorite way to build apps in Go? Are you a standard library guy? Do you like using JavaScript and a Go API? What do you find is best for you for web development? Because it sounds like you've done quite a bit.
 
 **Jon Calhoun:** I try different things, depending on what I'm building, but more often than not, if I can get away with not using a JavaScript front-end, I won't. Not that I dislike them, it's just in my experience they always feel like they're changing and I don't wanna have to spend time learning something new. So a lot of the times I can just get something up quicker without it, and then I can go back and add it in if I want to... So a lot of the times it's just HTML rendered from Go.
 
@@ -175,7 +175,7 @@ I was just sort of experimenting with it, seeing what it was like, seeing if it 
 
 More recently it's gotten even smaller, because I have sort of transitioned away from doing consulting and that sort of stuff to just doing educational stuff. So this is like the first year that I haven't done any consulting work so far, and I'm trying to get through the whole year without doing it; I guess we'll see how that goes, but...
 
-\[00:32:09.18\] I want to do that because that means that long-term I can create more content to help people learn Go better, but it also means that the people who do buy courses I have, I can provide more support for them, I can be around to really help them with stuff, because that's something I really value about what I'm doing - I don't sell this course and then just disappear, or I don't just not update it or anything; I like to really help people.
+\[32:09\] I want to do that because that means that long-term I can create more content to help people learn Go better, but it also means that the people who do buy courses I have, I can provide more support for them, I can be around to really help them with stuff, because that's something I really value about what I'm doing - I don't sell this course and then just disappear, or I don't just not update it or anything; I like to really help people.
 
 Even on my blog, I write articles there that discuss different topics, and almost all of those stem from questions that I get asked in the Slack that I have. So I don't even have to think about what I wanna write about, it's usually just somebody will ask a question and it'll turn into a blog post. But yeah, getting back to your question, since I don't know if I answered it properly - most of the things I'm working on are relatively small these days.
 
@@ -193,7 +193,7 @@ Building that is really -- especially in Atom, I built the plugin for it in like
 
 **Carlisia Thompson:** Question for you, Jon - once you have these new videos, these new courses that you have on your current pipeline, what will you conceive on working on next? Let's say two, three years down the road you have plenty of materials for this level of expertise that you're trying to reach... What is next for you?
 
-**Jon Calhoun:** \[00:36:03.12\] I know that after I'm done with the testing course what I want to do beyond that is something very similar to -- have you ever seen Laracasts, or RailsCasts was another example of this... But basically, there's a bunch of sites out there that have sort of continued education. I think Laracasts calls themself "the Netflix for your development career."
+**Jon Calhoun:** \[36:03\] I know that after I'm done with the testing course what I want to do beyond that is something very similar to -- have you ever seen Laracasts, or RailsCasts was another example of this... But basically, there's a bunch of sites out there that have sort of continued education. I think Laracasts calls themself "the Netflix for your development career."
 
 The idea is that basically you're releasing new stuff to teach new design patterns... As a new thing comes out in Go, say they release a new -- let's say they somehow add generics at some point, you could teach in a video, sort of showing how to use them effectively, how to get yourself in trouble with them... Different things beyond that.
 With those models, they're kind of a continued education thing. So it's like you release an hour of video or maybe half hour of video in bite-sized chunks every week... And I could see myself doing that, specifically just because I don't think there's ever going to be a time where you wanna stop learning as a developer.
@@ -212,7 +212,7 @@ So I think there's options to sort of avoid that, but I definitely have that on 
 
 **Brian Ketelsen:** Well, you've already thought about it, so you're a step ahead of me. \[laughs\] Alright, we've got some good Go projects and news to discuss this week... Just moments ago, hot off the press, Go 1.10.1, a minor release came out. Looking at the [release history](https://golang.org/doc/devel/release.html#go1.10.minor), it really doesn't look like there's that much exciting to it. Some fixes for the compiler and the runtime, archive/zip, crypto/tls, some JSON and HTTP and profiling updates, but nothing big or exciting, nothing that said "Oh my god, upgrade now!" That was a big piece of news that just came out.
 
-**Jon Calhoun:** \[00:40:01.12\] You know how to sell it.
+**Jon Calhoun:** \[40:01\] You know how to sell it.
 
 **Brian Ketelsen:** \[laughs\] Quick, fire up your update engines! This is critical! How's that?
 
@@ -240,7 +240,7 @@ This one has some nice benchmarks and shows no allocations for almost every oper
 
 I will kick it off this week with [Luke Smith](https://github.com/LukeSmithxyz). Luke released a package called [mutt-wizard](https://github.com/LukeSmithxyz/mutt-wizard). Mutt-wizard is awesome. I've been trying to go all command line for my email forever, and I tried [JessFraz's Dotfiles](https://github.com/jessfraz/dotfiles) and I couldn't figure them out... But this mutt-wizard is a really nice curses-based wizard that just walks you through the whole thing, gets everything configured.
 
-\[00:44:18.16\] I spent a couple hours - I guess it was Monday or Tuesday morning - and got mutt configured, and I still really don't know what to do with attachments in mutt yet, but give me some time, I'll figure it out. Otherwise I can read my email now, and I'm very grateful for Luke's work putting that together.
+\[44:18\] I spent a couple hours - I guess it was Monday or Tuesday morning - and got mutt configured, and I still really don't know what to do with attachments in mutt yet, but give me some time, I'll figure it out. Otherwise I can read my email now, and I'm very grateful for Luke's work putting that together.
 
 **Jon Calhoun:** Do you mind if I ask you what's the benefit of that?
 

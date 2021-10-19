@@ -12,7 +12,7 @@
 
 I've done this full-time at several companies such as IBM, and Twitter, LexisNexis... I also consulted with quite a few companies as well, your Amazons, and Disney, and a lot of the enterprise companies. I travel all over the globe when the world is opening back up, so I do have a few gigs coming up... But yeah, I travel and do workshops at companies, and essentially teach people how to build better quality code.
 
-**Emma Bostian:** \[00:04:02.26\] That's wonderful. It's so funny, when I hear anyone asking about testing, I'm like "Angie. Angie is the expert in testing." So I'm thrilled that you could join us.
+**Emma Bostian:** \[04:02\] That's wonderful. It's so funny, when I hear anyone asking about testing, I'm like "Angie. Angie is the expert in testing." So I'm thrilled that you could join us.
 
 So you mentioned that you primarily do test automation, and I'm curious why would we wanna automate tests? Why don't we just do them manually every single time?
 
@@ -28,7 +28,7 @@ So this is essentially a capture of what your application is supposed to do, kin
 
 **Nick Nisi:** You know, very similar situation for me, too... And I think that the fact that it's not really taught in traditional computer science degrees or things like that - it got built up as this big thing to tackle in my head, and so there was just this mental obstacle to overcome before I could even really write tests... Because it was like "How do I even do that? Am I testing the right thing? What testing framework should I use?" Of course, I started with Java, so it was JUnit to start with that, but it got built up as just this big obstacle to overcome mentally before I could even really feel comfortable writing tests on my own.
 
-**Emma Bostian:** \[00:08:00.21\] Yeah. I remember - before I joined IBM as a full-time, I had an internship where I was automating the installation of WebSphere Application Server on z/OS, and even today I still don't know what that means. But I essentially had to learn Python and then used that to automate the installation of this application server on the operating system Z. And I remember having no idea why I was doing it, but I could watch the things happening in the UI, like "Oh, button clicks. Then we go to the next modal." It was like going through a wizard, and I'm like "Okay, that's pretty cool", but it seemed very labor-intensive.
+**Emma Bostian:** \[08:00\] Yeah. I remember - before I joined IBM as a full-time, I had an internship where I was automating the installation of WebSphere Application Server on z/OS, and even today I still don't know what that means. But I essentially had to learn Python and then used that to automate the installation of this application server on the operating system Z. And I remember having no idea why I was doing it, but I could watch the things happening in the UI, like "Oh, button clicks. Then we go to the next modal." It was like going through a wizard, and I'm like "Okay, that's pretty cool", but it seemed very labor-intensive.
 
 At my last job, at LogMeIn, I was doing frontend work, because I'm a frontend engineer now, and we were using Jest with Enzyme, and I actually quite liked it; learning how to mock state was really cool... And then now at Spotify we're using mostly React testing library. I really like that. But something I still struggle with to this day is kind of understanding what should be tested.
 
@@ -48,7 +48,7 @@ So there's various things you can do... In this matrix I essentially have you ev
 
 Sometimes we have multiple variations, but the heart of it, what we're actually testing, is covered. So we don't have to go bananas by adding a million tests with all of these different variations, or whatever.
 
-\[00:12:11.29\] So given that, you kind of give scores to these things, and then I have you rank them, so not only do you see which has the highest score, meaning I need to automate it, but you have to sort it, so you know "What I need to automate next" kind of vibe, and what are the things that I thought -- because I have people do a gut check first... Like, "Do you think you would automate this?" And you end up saying yes to almost everything, and then by the time you get the score, it's like "Oh wow, that's really not worth automating, and I would have thought it was."
+\[12:11\] So given that, you kind of give scores to these things, and then I have you rank them, so not only do you see which has the highest score, meaning I need to automate it, but you have to sort it, so you know "What I need to automate next" kind of vibe, and what are the things that I thought -- because I have people do a gut check first... Like, "Do you think you would automate this?" And you end up saying yes to almost everything, and then by the time you get the score, it's like "Oh wow, that's really not worth automating, and I would have thought it was."
 
 **Emma Bostian:** Definitely. It's funny, a pilot on an airplane wouldn't take off without doing a pre-flight check, so why would you ever publish software that hasn't been tested? It's funny, because you talked about how "Oh, testing isn't necessarily taught in curriculums", which was definitely the case for me... But I think of testing as kind of on par with accessibility, where they're always thought as an afterthought. Now it seems like more attention is slowly being given to these two areas as like areas of importance... Especially -- we'll talk a little bit later about test-driven development. But yeah, I guess it's so overwhelming to -- like, where do you even start learning some of these things? It can be a little overwhelming,
 
@@ -64,9 +64,9 @@ Nick, I see you definitely have had some experience with testing. What is that?
 
 And then from there, working on Dojo and going into Dojo 2 and such, we created a testing framework called Intern, that would kind of mix a lot of the more modern testing features that you now come to use in like Mocha, and Jest, and things like that... More of like the -- I forget the style of it, but \[unintelligible 00:15:43.18\] rather than just test and expect, things like that. Behavioral-driven maybe is more of what that's called. Anyway... We created that, and some tools on top of that to kind of drive web driver support... Because that's where we're focused, is browsers specifically, and running those, and really being able to test that the browser is actually doing what we want, rather than just this individualized unit of code as inputs and outputs.
 
-\[00:16:13.28\] So we had some test runners that were kind of promise-based, but built on top of Selenium Web Driver. And now those tools are kind of taken over by other more advanced tools like Cypress, and even Testing Library to an extent. And that was kind of an interesting thing that I have been looking at, is kind of how - at least from the frontend side - the testing game has changed a little bit, to where I'm not really thinking so much about unit tests, and I'm thinking more about almost integration tests. And it's kind of more the Kent C. Dodds -- his name comes to mind when I think of how that goes, and I think it's because of React testing library and the prescription for tests that that provides.
+\[16:13\] So we had some test runners that were kind of promise-based, but built on top of Selenium Web Driver. And now those tools are kind of taken over by other more advanced tools like Cypress, and even Testing Library to an extent. And that was kind of an interesting thing that I have been looking at, is kind of how - at least from the frontend side - the testing game has changed a little bit, to where I'm not really thinking so much about unit tests, and I'm thinking more about almost integration tests. And it's kind of more the Kent C. Dodds -- his name comes to mind when I think of how that goes, and I think it's because of React testing library and the prescription for tests that that provides.
 
-**Break:** \[00:16:57.16\]
+**Break:** \[16:57\]
 
 **Emma Bostian:** So let's talk a little bit more about the different types of testing. Nick, before the break you had mentioned -- was it integration testing or regression testing? Or both? Probably all of the above.
 
@@ -82,7 +82,7 @@ And then from there, working on Dojo and going into Dojo 2 and such, we created 
 
 **Emma Bostian:** Yeah. So end to end testing is -- or let's start with the smallest unit, which is unit testing... So unit testing - they're meant to test small components, right? So if you have a modal, for example, you might have like modal.test.whatever. If at Spotify I wanna do Web Components, we always have a test TypeScript file for every component. And this are meant -- like if it's a modal, to see whether or not it actually renders properly, if it's supposed to be visible, or if the text is correct, and things like that. Are there any misconceptions about unit testing? Because I feel like this is one area where people can get really minute into details, and maybe this is where they should refer to your matrix, Angie, because -- like, I struggle here to be like "Do I really need to test that a component actually renders?" It's funny, looking through our codebase, I'm like "It renders." And it's like, "Why is that always the first test? Do we really need to test that it's rendering?" I don't know... \[laughs\]
 
-**Nick Nisi:** \[00:20:07.13\] Usually, that's the one I set up just to make sure that I actually have the test runner set properly. \[laughs\]
+**Nick Nisi:** \[20:07\] Usually, that's the one I set up just to make sure that I actually have the test runner set properly. \[laughs\]
 
 **Angie Jones:** Yeah. And \[unintelligible 00:20:11.17\] or they won't ever get started. They need that one test just to feel confident...
 
@@ -104,7 +104,7 @@ And then from there, working on Dojo and going into Dojo 2 and such, we created 
 
 **Emma Bostian:** And I think a lot of what you've just mentioned can be solved by visual regression testing, or visual testing in general, and we'll let Angie tell us more about that. Actually, let's just cover it now, because it fits into this conversation. Angie, could you tell us a little bit more about visual testing?
 
-**Angie Jones:** \[00:23:58.04\] Yeah, so it works whether you wanna do unit testing, or if you wanna do more of an end to end type testing... Let me tell you what it is, first off. So visual testing is where it takes a picture of your application and its desired state - it saves that as a baseline. So when you're first writing that test, you know how you look at it as a human being and you're like "Yeah, that looks good..." Alright, boom. That's your baseline. And so then when you run your regression test, it will take another screenshot and it will compare those two screenshots together, to determine if there are any differences there. So that's visual testing.
+**Angie Jones:** \[23:58\] Yeah, so it works whether you wanna do unit testing, or if you wanna do more of an end to end type testing... Let me tell you what it is, first off. So visual testing is where it takes a picture of your application and its desired state - it saves that as a baseline. So when you're first writing that test, you know how you look at it as a human being and you're like "Yeah, that looks good..." Alright, boom. That's your baseline. And so then when you run your regression test, it will take another screenshot and it will compare those two screenshots together, to determine if there are any differences there. So that's visual testing.
 
 Now, you can run this at like the component level. Say you have a storybook library with all of your components - you can run that visual test against... And I consider that like the unit test of frontend testing. You can run this against all of the various components to make sure in isolation they all look like they're supposed to look. You don't wanna just leave it there, because we've all seen where things start overlapping, or different viewport sizes, they're bleeding off the edge of the page, and stuff like that. So that's where you would test your full page.
 
@@ -120,7 +120,7 @@ What I've seen millions of -- not millions, but quite a few places where the tex
 
 **Nick Nisi:** I'm just thinking of a very specific example of where this kind of testing would have saved me in the past... And I was working on kind of a composite component that had a lot of different pieces to it, and I ended up adding a very subtle, grey background to one piece of that. And I pushed it up and then the others on the team were like "Hey, why did you add this background to it?" I'm like, "I didn't." Because looking at my monitor, which was, admittedly, not the best, it couldn't distinguish that from just the regular white... So I'm starting at it and I'm just like "I cannot see that." But I feel like a visual regression would have been able to easily point that out to me.
 
-**Angie Jones:** \[00:28:16.02\] Exactly.
+**Angie Jones:** \[28:16\] Exactly.
 
 **Emma Bostian:** I love that. I think visual tests are some of my favorites... Because I do remember the snapshots that would give you like a DOM printout, and it's be like "Your snapshot is not the same." You would look at the DOM changes and have to accept them, or reject them... But it was just recently, I think, that I really started noticing the fact that we were doing visual regression tests, and it's only been at Spotify that we've done it. I hadn't done it at IBM and I hadn't done it at LogMeIn. But it's so useful, especially -- when we think about design mockups, sometimes engineers forget that being pixel-perfect does make a big difference, and they're like "You know, it's just a couple things are off." One of my favorite examples is from the book Atomic Habits by Adam Grant, when he talks about if a plane takes off from LAX and it wants to land in New York City, and the pilot decides to turn the headwind just like two degrees in the sky, the passengers aren't even gonna notice. It's like a very minute change. But it makes a big impact, and they're actually gonna land in Washington DC, which is not anywhere close to New York City.
 
@@ -134,7 +134,7 @@ So these are very real consequences to these visual bugs. It's not just a "Oh we
 
 **Emma Bostian:** That's so true. It's like, once we add dollars signs to things and people start taking it seriously, it's like -- accessibility as well was one area where no one wanted to invest, and then especially the EU got hit really hard with new regulations, and then we started seeing lawsuits coming out about inaccessible websites, and people getting sued... It's like - well, testing, I don't know if you can necessarily get sued for that directly, but it is a result of a lack of testing that these regressions or incorrect integrations are happening... And especially, like what Angie said, if you're working with sponsorships, your reputation and your income are on the line there.
 
-**Angie Jones:** \[00:31:56.19\] Yup, exactly. And visual testing can -- if we think outside of the box, it can help with even stuff like accessibility testing. My company Applitools, that's one of the features that's available in the visual testing... It's "Okay, now I have these two pictures of your application and I'm comparing... You're good to go, but did you know you're not following accessibility guidelines? Because there's not enough contrast between this text and its background." So that's really helpful information you might wanna know before shipping this out.
+**Angie Jones:** \[31:56\] Yup, exactly. And visual testing can -- if we think outside of the box, it can help with even stuff like accessibility testing. My company Applitools, that's one of the features that's available in the visual testing... It's "Okay, now I have these two pictures of your application and I'm comparing... You're good to go, but did you know you're not following accessibility guidelines? Because there's not enough contrast between this text and its background." So that's really helpful information you might wanna know before shipping this out.
 
 **Emma Bostian:** Absolutely it is. Let's talk a little bit about regression testing, because we actually run manual regression tests every two weeks, around two-week sprint cycles... And at the end of every cycle, when we're about to release, all of the squads get together with this huge spreadsheet and manually regression-test things.
 
@@ -164,7 +164,7 @@ Other ways people mock is if you have kind of these various development teams th
 
 **Emma Bostian:** Awesome. And Nick, you mentioned end to end testing, and this is the biggest umbrella of testing -- or the biggest type of testing, because you're actually going through user flows. Or am I mistaken?
 
-**Angie Jones:** \[00:36:19.11\] That's gonna be your most complex one to write, and the longest to run, and the hardest to maintain, so you try to have very few of those. I wouldn't at all recommend making this the heart of your test suite. I believe you should have mostly unit tests, some integration tests, and a couple of very critical end to end flows.
+**Angie Jones:** \[36:19\] That's gonna be your most complex one to write, and the longest to run, and the hardest to maintain, so you try to have very few of those. I wouldn't at all recommend making this the heart of your test suite. I believe you should have mostly unit tests, some integration tests, and a couple of very critical end to end flows.
 
 **Emma Bostian:** There's nothing more painful than having flaky end to end tests, because I've had this issue where it's like, I have to retrigger build over and over, not because my code is messing antyhing up, but just because the pipeline is so inundated, and they break...
 
@@ -180,11 +180,11 @@ So is there a way that I can maybe make an API call or something to essentially 
 
 **Angie Jones:** Yeah, you've gotta do that part. Mocking has its place, but that cannot be your end-all strategy... Otherwise - yeah, that API changed, and you had no idea, because you were still just using the mocked response, and that's when stuff starts falling apart.
 
-**Nick Nisi:** \[00:40:01.06\] Yeah. I feel like this is a good place to say things like - interfaces that TypeScript can give you are a good way to know if this API or this third-party tool that I'm using gives me an interface that shows me what they're using, and I'm coding against that, maybe I can catch it earlier by noticing that I no longer match the data that's coming back. But that's overall a good thing.
+**Nick Nisi:** \[40:01\] Yeah. I feel like this is a good place to say things like - interfaces that TypeScript can give you are a good way to know if this API or this third-party tool that I'm using gives me an interface that shows me what they're using, and I'm coding against that, maybe I can catch it earlier by noticing that I no longer match the data that's coming back. But that's overall a good thing.
 
 But yeah, the other thing I was gonna say is, in my experience with end to end testing - this is always the one that I kind of fear the most... And it's because they're the most complex, with the most number of small pieces that can go wrong, that just totally break it, and they take the longest. So they end up getting run less frequently.
 
-**Break:** \[00:40:42.27\]
+**Break:** \[40:42\]
 
 **Emma Bostian:** So we've talked about quite a few different types of testing, but one concept or paradigm that is gaining popularity is test-driven development. Angie, can you tell us a little bit more about what test-driven development is?
 
@@ -194,7 +194,7 @@ Let's say for example you needed to write a login form, you needed to write some
 
 Then you would develop just enough code to make that test work. Usually, TDD is -- I haven't seen many people do it on frontend tests. I see they mostly do it on backend, very small unit test type of thing. But you could definitely do it on frontend like this, the scenario I just gave. But the idea here is you don't get to write code unless you have a test that is dictating that I need this code in order to pass. So your tests always start out as red, because you don't have the code yet, and you write only enough code to get that test to pass.
 
-\[00:43:58.25\] This helps you with staying focused, not over-engineering the problem, and also making sure you get some regression tests at the end of all of that. So you keep going down this cycle - you write enough for that scenario, and then you think, "Okay, what about if they entered the wrong password?" Well, that's another test you then write what should happen. "Okay, I'm expecting this error. Alright, now I get to go write the code that makes that test pass, makes that possible." And you continue this cycle until you feel like you've developed the feature, and covered all your bases.
+\[43:58\] This helps you with staying focused, not over-engineering the problem, and also making sure you get some regression tests at the end of all of that. So you keep going down this cycle - you write enough for that scenario, and then you think, "Okay, what about if they entered the wrong password?" Well, that's another test you then write what should happen. "Okay, I'm expecting this error. Alright, now I get to go write the code that makes that test pass, makes that possible." And you continue this cycle until you feel like you've developed the feature, and covered all your bases.
 
 **Emma Bostian:** I can't tell you how many times that would have saved my ass, because my team in particular - we build these really new, high-priority features in the desktop app, and when we have millions of monthly active users, it's really important that we don't over-engineer our code, and that we don't forget things. And it can definitely be maybe not as exciting for some people to jump in and do tests first. A lot of engineers wanna just get straight into the problem, and that used to be kind of how I thought about it as well, and sometimes still do... But to Angie's point, you shouldn't necessarily be writing any additional code than what you need to solve all of these design problems. It would have saved my ass so many times.
 
@@ -210,7 +210,7 @@ Even in that one case where I said "Okay, you need to log in." So when you go in
 
 **Angie Jones:** So if you have an \[unintelligible 00:47:35.01\] on there that says "Login button", then in my test I can say "Okay, find the thing that has ID "Login button", click it, find this etc." That forces me to then when I implement those elements, I have to put those buttons in order to make the tests pass.
 
-**Nick Nisi:** \[00:47:57.11\] One thing that I've seen recently -- I can't remember where I saw it, but it was taking that exact same scenario where you have something unique like that, but instead of being like an ID of a button, it was maybe like a role, or some kind of accessibility on there, so that you're searching by that, but you're also enforcing that you actually have the accessibility requirements that you need.
+**Nick Nisi:** \[47:57\] One thing that I've seen recently -- I can't remember where I saw it, but it was taking that exact same scenario where you have something unique like that, but instead of being like an ID of a button, it was maybe like a role, or some kind of accessibility on there, so that you're searching by that, but you're also enforcing that you actually have the accessibility requirements that you need.
 
 **Angie Jones:** I like it.
 
@@ -236,7 +236,7 @@ So that's definitely something to consider as well, like what's the community ar
 
 **Nick Nisi:** So you mentioned at the beginning that you do a lot of consulting, coming into companies and setting up test automation... I was just gonna ask a personal question, and I know it would be set up specifically to the problem you are trying to solve, but given free range, what's your ideal testing stack?
 
-**Angie Jones:** \[00:51:48.10\] Hm... Y'all not gonna like this, because I'm on JS Party, but I'm a Java girl. \[laughs\] Java is my fave, so I like that. I love Selenium Web Driver. For JavaScript, I really like Cypress, so I work with that when I need to work with JS teams. I'm gonna put my visual testing in all of those stats, because if I'm gonna do frontend testing, it just makes sense to test the appearance of it, right?
+**Angie Jones:** \[51:48\] Hm... Y'all not gonna like this, because I'm on JS Party, but I'm a Java girl. \[laughs\] Java is my fave, so I like that. I love Selenium Web Driver. For JavaScript, I really like Cypress, so I work with that when I need to work with JS teams. I'm gonna put my visual testing in all of those stats, because if I'm gonna do frontend testing, it just makes sense to test the appearance of it, right?
 
 I like Mocha, I like Chai, I like in the Java world JUnit... API type of stuff - there's like Supertest, and Nook... Is it Nook or Nock? Emma will get us the thing, with the link...
 
@@ -290,6 +290,6 @@ I wanna extend a huge thank you to you, Angie, for joining us today and sharing 
 
 **Angie Jones:** Okay, bye-bye.
 
-**Outro:** \[00:57:21.00\]
+**Outro:** \[57:21\]
 
 **Horse JS:** Do you want to start a YouTube channel together called JavaScript?

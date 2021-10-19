@@ -18,7 +18,7 @@ I started working on a little shell project, he started working on a different o
 
 In general, it just doesn't feel super-fun. The errors are just a big blob of red text. I remember one of the first things... I said "Jonathan, this is cool!" and he said "That's cool", and he typed something in the shell, and it -- both of us use Windows, by the way... So he just went and typed something in the shell and it spewed out this big block of nonsense red text... And it just doesn't feel -- given that it's 15 years old, it's surprising how many things don't feel that modern.
 
-**Jerod Santo:** \[00:04:07.27\] Well, from a person who uses Bash every single day, all day, it doesn't feel modern at all. But I also don't have that twinge of like "I need something new." I think you just get comfortable. And I don't even know that I need a thing like Nushell until I start reading some of your examples, and I'm like "Oh, I do want this in my life."
+**Jerod Santo:** \[04:07\] Well, from a person who uses Bash every single day, all day, it doesn't feel modern at all. But I also don't have that twinge of like "I need something new." I think you just get comfortable. And I don't even know that I need a thing like Nushell until I start reading some of your examples, and I'm like "Oh, I do want this in my life."
 
 **Adam Stacoviak:** "I need this thing", yeah...
 
@@ -40,7 +40,7 @@ My reaction was -- it wasn't even a decision. It was already a decision. You jus
 
 **Yehuda Katz:** One thing Andrés is not giving himself enough credit for here is I first met Andrés -- I had a project called Tokaido, which was basically just an attempt to make a better OS10 Ruby installer. It kind of morphed over time, but more or less that project is why statically-installable Ruby exists in OS10 now. That was more or less the consequence of that; it was a Kickstarter project... And I had gotten to a point where I kind of got everything working, but I just really needed help, and Andrés showed up and did really massive amount of work and got the project over the finish line, and continued to maintain it. The project of why is Ruby not statically-installing itself super-well on OS10 is not an easy project; it was a hard project, and Andrés did really good work, and that's how I met him.
 
-**Andrés N. Robalino:** \[00:08:21.23\] Thank you, sir. That's how we met online, actually...
+**Andrés N. Robalino:** \[08:21\] Thank you, sir. That's how we met online, actually...
 
 **Yehuda Katz:** Yes, yes...
 
@@ -96,7 +96,7 @@ My reaction was -- it wasn't even a decision. It was already a decision. You jus
 
 **Adam Stacoviak:** Right. I think that's where it really comes in and makes sense there; it's not so much that it's pompous to say, it's the fact that there is nothing new that's come out to embrace this ecosystem being there, and the accessibility of things like that... So it makes sense to me to say it like that.
 
-**Andrés N. Robalino:** \[00:12:08.12\] Yeah.
+**Andrés N. Robalino:** \[12:08\] Yeah.
 
 **Yehuda Katz:** I always feel like if people wanna complain about stuff like that slogan, they're probably -- I have better things to focus on than whether it's really the GitHub era, or whatever... And I'm happy for those people to spin their wheel.
 
@@ -118,7 +118,7 @@ My reaction was -- it wasn't even a decision. It was already a decision. You jus
 
 So we just did one conversation after another, and I was also kind of putting on my PM hat... So I was the program manager for the TypeScript team for years, starting at its first public release, and then growing it through the use of TypeScript in Angular... And the discipline of growing a small project and then into a much larger one, I think you kind of get used to working with "Okay, what is the MVP for this release? What are the things we actually wanna hit?" That's basically what it kind of came down to - we saw Nushell, we saw all these ideas, kind of a garden of ideas, and we kind of cut through that garden... "Alright, this is clearly enough to show off the value of what a new shell would work like. Let's work with existing file formats, let's build the pipeline, let's build it in Rust in a way that is really composable, and has plugins, and that kind of thing." So we could kind of carve out some of those main features, and that's enough to really -- once you could see that... It's like, I tell you part of a story, and there's enough detail that you can fill in the rest in your mind. I think that's some of the philosophy of an MVP.
 
-**Yehuda Katz:** \[00:15:47.24\] And I think a good example of where it's not -- like, there's a version of what an MVP is that you read in blog posts, or self-help books, where it's just about pairing down. I think there's a good example in how the evaluator works in Nushell, where I actually wrote a real programming language interpreter, but we didn't write scripts; there's no scripts in there, there's no script file, there's no parser that parses more than one expression at a time... But the way that it is implemented is like a real evaluator, which means that things like ls pipe where CPU is bigger than ten into a block that really looks like $it.cpu is > 10 it has a real scope object, right?
+**Yehuda Katz:** \[15:47\] And I think a good example of where it's not -- like, there's a version of what an MVP is that you read in blog posts, or self-help books, where it's just about pairing down. I think there's a good example in how the evaluator works in Nushell, where I actually wrote a real programming language interpreter, but we didn't write scripts; there's no scripts in there, there's no script file, there's no parser that parses more than one expression at a time... But the way that it is implemented is like a real evaluator, which means that things like ls pipe where CPU is bigger than ten into a block that really looks like $it.cpu is > 10 it has a real scope object, right?
 
 Now, that's not the right way to do a programming language implementation if you're trying to make a fast programming language... But it is a real programming language implementation, and what that has meant is, number one, we didn't waste our time with scripts... Which are gonna be important, but are just not what 99% of anyone is doing in a shell, period. But second of all, as we've added more features, there was sort of a natural way to add them, because it's like "Oh, you wanna add a binary expression?" I don't wanna implement a binary expression in the interpreter; you do that there. As opposed to maybe like a regex for $it or something, or some other... Like, we'll just write a POSIX shell and we'll just treat each thing as a bare word and we'll do some thing in every command. That would have been a valid self-help book MVP, but it would have meant that when we got a whole bunch of interesting contributors who were trying to add stuff, they would have not succeeded.
 
@@ -150,7 +150,7 @@ So there's a balance that I think I care a lot about, and is quintessential to h
 
 **Jerod Santo:** 82... \[laughs\]
 
-**Yehuda Katz:** \[00:19:40.24\] So I'd be interested to plot the velocity, but I have a self-imposed rule that first of all I only do work in public, so I generally don't -- there's a lot of reasons people don't do work in public, which include things like "People will see it, and they'll annoy me", and whatever. And my point of view - maybe it's from Ember - is you have to actually do a lot of things to get anyone to care about what you're doing, no matter what... And if you do something in public, it doesn't matter -- like, Nushell and Dino were both public projects, and no one cared, despite the pedigree, until they were announced...
+**Yehuda Katz:** \[19:40\] So I'd be interested to plot the velocity, but I have a self-imposed rule that first of all I only do work in public, so I generally don't -- there's a lot of reasons people don't do work in public, which include things like "People will see it, and they'll annoy me", and whatever. And my point of view - maybe it's from Ember - is you have to actually do a lot of things to get anyone to care about what you're doing, no matter what... And if you do something in public, it doesn't matter -- like, Nushell and Dino were both public projects, and no one cared, despite the pedigree, until they were announced...
 
 And second of all, if somebody actually is interested, like Andrés, it's good that I didn't have to figure out how to give him access. So if somebody is super-interested in very early stage work, it sounds great. And additionally, it makes it very low-friction to share it with friends and people who are generally interested. I can open up somebody's GitHub.com on their computer and show them. I think all that friction is annoying in the beginning, and secret doesn't buy anything... So that's' rule number one.
 
@@ -166,7 +166,7 @@ You've gotta be really ruthless about what that really means, because I am not s
 
 **Yehuda Katz:** Right. I think a couple things... Like he said, a counter-intuitive thing, which is probably true enough, which is therefore if you can convince yourself to keep working, you are not dying. Even though it seems like you think you're alive or dead based on funding, or resources, or time, or something... But in reality, if you could just figure out how to keep working, you're not dead yet.
 
-\[00:23:55.04\] So this essay is one of the most influential essays I've ever read... And the other thing is that he just says "You have to prioritize it." You can only prioritize one or two things, and it's weird to prioritize staying alive as a thing; nobody wants to. But Tilde, the company I started with Leah, also has a priority of "Don't die", and that supersedes adding features to the product, or whatever. Staying alive matters a lot, because if you stay alive for enough time, it's good.
+\[23:55\] So this essay is one of the most influential essays I've ever read... And the other thing is that he just says "You have to prioritize it." You can only prioritize one or two things, and it's weird to prioritize staying alive as a thing; nobody wants to. But Tilde, the company I started with Leah, also has a priority of "Don't die", and that supersedes adding features to the product, or whatever. Staying alive matters a lot, because if you stay alive for enough time, it's good.
 
 The thing I find ironic about it is that that advice was meant to be counterintuitive compared to what other VCs are telling you. Most VCs give you some money, you last for 18 months... Instead of telling you "Don't die", they tell you "Triple, quadruple down. Keep taking more and more risk, and maybe you'll get lucky. If you're not, it's not our problem. You'll get acquihire, whatever." And the point of the essay was to tell you to focus on survival. And what I find ironic is I really believe that Paul Graham believes it, but ultimately, Y Combinator is not particularly different here. Companies that get funded by Y Combinator have the same 18-month or 24-month boom and bust cycle as anybody else, and I think that's too bad.
 
@@ -180,7 +180,7 @@ The target is there, so Jonathan has been doing well. I enjoy working with him, 
 
 On the other hand, what people are excited and enthusiastic about doing when they show up and try to contribute of course has a big impact on what actually gets done, and therefore you wanna shape the roadmap based on that. So there's sort of like a push and pull between laying out as much of the vision as you can to attract people who really share the ideas, and then being willing to be pretty flexible. If someone shows up and the only thing they care about is making it work on FreeBSD, FreeBSD is gonna be on the roadmap, because that person is doing a lot of work on it. Unless it's making everything else really hard. So I think it's, again, not a self-help book. There's a push and pull between letting people drive and articulating.
 
-**Andrés N. Robalino:** \[00:28:03.08\] And Jerod, just like you asked about the GitHub era thing, the most interesting pull request for the most is a suggestion of changing the motto. \[laughter\]
+**Andrés N. Robalino:** \[28:03\] And Jerod, just like you asked about the GitHub era thing, the most interesting pull request for the most is a suggestion of changing the motto. \[laughter\]
 
 **Yehuda Katz:** That's a very GitHub era--
 
@@ -206,7 +206,7 @@ We haven't really talked about this part, but it's a really important part of th
 
 **Yehuda Katz:** And to be concrete, that means that you can open a Cargo.toml, or package.json. Basically, any type that we support - you can now increment the version or look at the version in the same way.
 
-**Break:** \[00:31:51.01\]
+**Break:** \[31:51\]
 
 **Jerod Santo:** I think we should hover right here and just talk about cool stuff you can do, real quick... Because that's gonna get people -- talk about getting concrete, what's some cool stuff you can do with Nushell that I can't do in Bash today, or would require scripting?
 
@@ -222,7 +222,7 @@ Basically, any one of those individual things is not new, in the sense that ther
 
 **Yehuda Katz:** I think Jonathan can say more, but basically, the way to think about it is there's a lines command, which basically takes a big bunch of text and converts it into a table; there's one column in the table called "Value", and then there's just like a bunch of lines... And then there's more commands, like parse (again, Jonathan knows), which basically allow you to take the individual rows and convert them into a real column or format.
 
-**Andrés N. Robalino:** \[00:35:58.15\] The key thing is that whatever input you have for a given command internally, it has the same structure, no matter what. The same abstraction. Internally, you always have in the code a view of a table, and you can decide how to access things in it, from the code perspective. You could either process a stream per record, or as a single thing the whole thing. Anything works based on that.
+**Andrés N. Robalino:** \[35:58\] The key thing is that whatever input you have for a given command internally, it has the same structure, no matter what. The same abstraction. Internally, you always have in the code a view of a table, and you can decide how to access things in it, from the code perspective. You could either process a stream per record, or as a single thing the whole thing. Anything works based on that.
 
 For instance, the where command - ls represented the output as something with structure, a table, and the where command takes the object, conditionally tests it against the value, and gives you the result back. Depending if it wants to accumulate the whole thing, it gives you one single value, or returns just another stream, which is always the same representation internally, with the same structure.
 
@@ -248,7 +248,7 @@ Like Yehuda was saying, there's a set of verbs that are intended to be used to p
 
 **Yehuda Katz:** And from a user perspective, what this effectively amounts to is that when you say "open Cargo.toml" or "Open package.json", for the most common situations that people have heard of or use (and that includes indie files; a lot of common cases), you just get a table. You don't have to figure it out. And I think what we kind of expect long-term is that the format system itself will be like a plugin system. For example, the .gitconfig is in a particular format, or .gitkeep is in a particular format, and we would expect some of those things to be built in, but a lot more of them to just exist in the world for you to install.
 
-**Jerod Santo:** \[00:40:03.18\] One thing that I thought was really cool - and it seems obvious once I've read it - is in terms of user adoption... You have this MVP set of commands that you all have implemented, and plugins and all that stuff will be built out over time... But if you do a command that isn't supported by Nushell, it just shells out directly as a fallback; on Windows it's CMD, or on Unix it's Bash... And then it just passes standard out, standard error, all this stuff, and then it sucks it right back up.
+**Jerod Santo:** \[40:03\] One thing that I thought was really cool - and it seems obvious once I've read it - is in terms of user adoption... You have this MVP set of commands that you all have implemented, and plugins and all that stuff will be built out over time... But if you do a command that isn't supported by Nushell, it just shells out directly as a fallback; on Windows it's CMD, or on Unix it's Bash... And then it just passes standard out, standard error, all this stuff, and then it sucks it right back up.
 
 **Yehuda Katz:** So Vimworks, right?
 
@@ -286,7 +286,7 @@ I think I'm always pretty open to hearing that something is very painful for peo
 
 **Yehuda Katz:** It was a realization from PowerShell, first of all. PowerShell sort of does it. One of the things that was annoying to me about PowerShell that motivated me to work on Nushell in the first place is that PowerShell just doesn't double-down that hard on any of these things... So it's like "Oh, well we don't really have array literals. We have a syntax that effectively is an array literal. Oh, you want a nested array of arrays? Good luck, there's many Stack Overflow questions about it." And the same thing is true about tables. There's tables, and lists, and depending on what ends up happening, it's very easy to fall into a situation where you expected a table and didn't get one in PowerShell.
 
-\[00:44:08.15\] I really like tables, and I think Jonathan convinced me early on that we should really double down on it... But there's also another reason, and I think for me this is more fundamental, which is I just think people understand tables. I think spreadsheets are maybe the universal programming paradigm in all software. Everybody has used Excel.
+\[44:08\] I really like tables, and I think Jonathan convinced me early on that we should really double down on it... But there's also another reason, and I think for me this is more fundamental, which is I just think people understand tables. I think spreadsheets are maybe the universal programming paradigm in all software. Everybody has used Excel.
 
 **Andrés N. Robalino:** Yeah, Excel changed the world.
 
@@ -322,7 +322,7 @@ I think I'm always pretty open to hearing that something is very painful for peo
 
 **Jerod Santo:** It's for anything that is in this format.
 
-**Jonathan Turner:** \[00:47:59.22\] That's right.
+**Jonathan Turner:** \[47:59\] That's right.
 
 **Andrés N. Robalino:** For any given table. And let's assume if the api.github.com returned you a Toml file or a Yaml file or an XML file, there are equivalent inside Nushell for the moment, called "from- the given format", and what the command does is it takes the output from what's being piped into it and gives you back the structure. Just like ls gets you; ls gets you back a structure. Then you manipulate the data, and that's it. You can even do "get something", "where something", from the very beginning, from the pipeline.
 
@@ -346,7 +346,7 @@ Basically, anything that's not in the system - files, or even the configuration.
 
 **Andrés N. Robalino:** You can also avoid specifying the file where you wanna save at the end when you save, because Jonathan added metadata support, and it remembers the origin. In this particular case, with the plugin ink command, if you do that save on it without passing in the file that you wanna save, it remembers from the beginning of the command that you opened that file, and it will save to that file.
 
-**Yehuda Katz:** \[00:51:54.11\] Which is another thing -- so if you use Nushell, you'll probably notice there's really awesome error messages. I'm not gonna say they're perfect, but compared to PowerShell or Bash, the error messages are usable. They're like a programming language... They're pretty good.
+**Yehuda Katz:** \[51:54\] Which is another thing -- so if you use Nushell, you'll probably notice there's really awesome error messages. I'm not gonna say they're perfect, but compared to PowerShell or Bash, the error messages are usable. They're like a programming language... They're pretty good.
 
 **Adam Stacoviak:** Not saying it's better...
 
@@ -392,7 +392,7 @@ So I wired this together and I showed Yehuda. He's like "Wow, that's super-cool!
 
 **Jonathan Turner:** So the enter command - you get in, you get out. And we were trying to button everything out for the release, because it felt like this is cool, but it doesn't really mesh with the philosophy of "Oh, it's a table. It's values flowing through." We thought we had to be nice and regiment it with our MVP.
 
-\[00:56:02.11\] And Andrés kept tugging at it, and saying "No, this is cool. This is cool. Don't take it out." And he finally on chat one day said "Why don't you just have enter enter other directories, and you can think of each directory that you enter." So not cd, but enter it. So if you enter a directory, it just adds it to a ring buffer of other directories. So now we can have all kinds of different shell types, if you will. Some are just a directory that you're in, and you can hop in and out of that directory.
+\[56:02\] And Andrés kept tugging at it, and saying "No, this is cool. This is cool. Don't take it out." And he finally on chat one day said "Why don't you just have enter enter other directories, and you can think of each directory that you enter." So not cd, but enter it. So if you enter a directory, it just adds it to a ring buffer of other directories. So now we can have all kinds of different shell types, if you will. Some are just a directory that you're in, and you can hop in and out of that directory.
 
 So you might use screen, or you might use tabs in your terminal emulator, whatever, to kind of simulate that; in one shell instance we can have you jump in and out of directories, or in and out of a file... Or potentially, in the future, Andrés is working on this - help shell, where you can jump into the help system, and cd around, and ls, and ask questions... And you use the same muscle memory that you have for file systems, but you're working in other types of structures.
 
@@ -402,7 +402,7 @@ The other problem we were trying to solve, and the thing that Jonathan was super
 
 If you're inside of the Rust new project and you enter Cargo.toml, now you type shells and you see the new project and the Cargo.toml. You can move around inside Cargo.toml, and you could switch back... Maybe you're like "In order for me to know the version, I need to cat the version file", so you can go back in the main file shell, do that, and then come back to being inside of Cargo.toml. I think that's a good, simplistic, but very high-leverage answer. The answer is "Just have a shells command." And as Jonathan was saying, now that we have the concept of general purpose shell, the help system is just another way of navigating around -- it's like, you're basically looking at the metadata lens on the command tree.
 
-**Break:** \[00:59:40.05\]
+**Break:** \[59:40\]
 
 **Jerod Santo:** Shells in shell... So could this potentially -- I love how it started off as just a fever dream, and it ended up being kind of a core thing, that might make this better in terms of... Could it replace a screen or a tmux? If you had an interface into switching back and forth...
 

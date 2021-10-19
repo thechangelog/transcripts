@@ -16,7 +16,7 @@ Then a few years later GitHub came along and I moved the project over to GitHub 
 
 I've also rewritten the Getting Started guide, which is probably the one that people know the most about. My first contribution though was the Active Record Query Guide, which was previously called the Active Record Finders Guide; because it does more than finders, we renamed it to querying. The Configuring Rails Applications Guide was mine, the Asset Pipeline Guide started because I was baiting DHH on Twitter, I was like "Hey, this asset pipeline is pretty good, but where's the documentation?" and he's like "Why don't you put on your big boy pants and contribute to Rails? What have you ever contributed to Rails?"
 
-\[00:03:59.27\] This was about after my 400th commit to Rails... So I replied to him and I said "Here's the list. Here's why I am on the contributors' list." I think he was busy that day, because he didn't end up replying back.
+\[03:59\] This was about after my 400th commit to Rails... So I replied to him and I said "Here's the list. Here's why I am on the contributors' list." I think he was busy that day, because he didn't end up replying back.
 
 Anyway, after baiting him on Twitter, I ended up writing the beginning of the Asset Pipeline Guide. That's how that came about. Then the last guide that I wrote that I can remember is the engines guide, which was actually a chapter of Rails 3 in Action and I extracted the content from that and built that into the official engines guide.
 
@@ -40,7 +40,7 @@ The company I was working for at the time, ReInteractive was hired as the consul
 
 I was like, "I get to work on open source, and I get paid not a pittance, so I can actually do things." And the other offer on the table was that I get to go around the world, speaking at conferences, and I was like "Yes, yes, yes. Absolutely. I will do this, because this is an amazing offer." So I said goodbye to my consulting gig and moved over to Spree. From then on it was really just about -- it sounds glamorous that you have to travel the world and speak at conferences and maintain open source and get paid for it, but then eventually after two and a half years I ended up burning out from it, and that wasn't very good.
 
-**Nadia Eghbal:** \[00:08:14.26\] It's like a totally different function from documentation as well, right?
+**Nadia Eghbal:** \[08:14\] It's like a totally different function from documentation as well, right?
 
 **Ryan Bigg:** Yeah, totally. I'm always interested in helping out communities and building communities and helping people understand code. Documentation is one of the ways that I do that, and the community manager role was definitely another way I could do that... Because I got really involved with the spree project and I could understand the code better than most people could, and that feeling when you can transmit an idea from your brain into somebody else's brain and they go "A-ha, I get it now!" - that's where I get my biggest thrill from, it's when people understand something because I was able to explain it clearly enough to them that they could understand it.
 
@@ -64,7 +64,7 @@ The glamorous side is that you get to meet all these people and they're like "Oh
 
 **Ryan Bigg:** Yes, absolutely. It's this -- what's the word I'm looking for? Not Messiah complex... Fanboyism, hero worship probably is the better term for it. People think you're the most amazing thing and you do all this amazing work, and therefore my feelings for that were "People think I'm amazing, so I have to continually be amazing, I have to continually push the envelope and continue working and reply to all these issues and reply to all these emails and just keep going, keep going, keep going." I think that's definitely a contributing factor to the burnout; I felt like I had to be the hero.
 
-**Nadia Eghbal:** \[00:12:26.23\] Do you feel the same way about documentation as well? That sort of hero worship?
+**Nadia Eghbal:** \[12:26\] Do you feel the same way about documentation as well? That sort of hero worship?
 
 **Ryan Bigg:** Yeah, in a different kind of way. With documentation typically the projects are a much slower burn, if that makes sense; the open source projects are -- you know, if an issue or a pull request sits there for a couple of weeks, people are like "Why is it taking so long? He doesn't love me anymore." But if you're writing a book or a guide, people don't care that it's taking you weeks to write, because it's this slow process of getting the content right, getting it ordered, reviewing it, editing it, making sure it's perfect before releasing it out into the world.
 
@@ -86,7 +86,7 @@ Like Spree's payment gateway - you've got to authorize the capture, the refund, 
 
 **Nadia Eghbal:** Just thinking about it, I feel like there's almost -- the explanation that developers don't do that kind of stuff is almost just trying to pass the buck to some mythical person who's gonna come in and write all this stuff, but there's value in just having people learning how to do at least a little bit of it themselves.
 
-**Ryan Bigg:** \[00:16:02.04\] Yeah, try it. I mean, I didn't just instantly become good at writing documentation; I don't even think that I am good at writing documentation still. It's a practice, it's an art, it's a craft; any skill that you learn - you get good at if from practice. You learn the piano by playing the piano a lot. You get better at writing code because you write a lot of code. You get better at writing documentation because you write a lot of documentation, and that's what I have done. Again, I don't' think I'm any good at it, and if people feel like they aren't good at writing documentation, I'd still encourage them to try it. Trying is at least practicing, and you will get better through practice.
+**Ryan Bigg:** \[16:02\] Yeah, try it. I mean, I didn't just instantly become good at writing documentation; I don't even think that I am good at writing documentation still. It's a practice, it's an art, it's a craft; any skill that you learn - you get good at if from practice. You learn the piano by playing the piano a lot. You get better at writing code because you write a lot of code. You get better at writing documentation because you write a lot of documentation, and that's what I have done. Again, I don't' think I'm any good at it, and if people feel like they aren't good at writing documentation, I'd still encourage them to try it. Trying is at least practicing, and you will get better through practice.
 
 **Nadia Eghbal:** It's better than zero documentation.
 
@@ -106,7 +106,7 @@ On the larger projects you've got people who add new features, and you probably 
 
 The interesting thing is that Ryan didn't actually quit open source; he still occasionally contributes, but the big thing we figured out is if quitting was the right decision for him... And you might be surprised what his response is. Stay tuned.
 
-**Break:** \[00:18:30.28\]
+**Break:** \[18:30\]
 
 **Mikeal Rogers:** I wanna get into this whole time when you burned out for a minute. So before you burned out, before you wrote this blog post, what were your days and your weeks like? What were you doing on the daily?
 
@@ -128,7 +128,7 @@ What happened after that was from November through to (I think it was) June or J
 
 **Ryan Bigg:** Yeah, I kept trying to manage the email, but it's hard. "This news stuff that wasn't important, bounce it to the next day" sort of thing; I was trying to ask for support from Spree (the organization), I was just asking for somebody else to help maintain the open source issues, because that was just me doing that.
 
-\[00:24:04.02\] There was interest from this company called FreeRunning Technology who is now called Stembolt, and they were doing some open source maintenance, but they weren't as interested as they are now. They actually run the fork of Spree called Solidus and they're maintaining that, because after I quit, Spree kind of fell down; it had to lie down. So these Stembolt guys picked it up as Solidus... I wish they would have done that earlier; I would probably be continuing my work with them, but you know... Things happen.
+\[24:04\] There was interest from this company called FreeRunning Technology who is now called Stembolt, and they were doing some open source maintenance, but they weren't as interested as they are now. They actually run the fork of Spree called Solidus and they're maintaining that, because after I quit, Spree kind of fell down; it had to lie down. So these Stembolt guys picked it up as Solidus... I wish they would have done that earlier; I would probably be continuing my work with them, but you know... Things happen.
 
 So yeah, it was just hard. I did try to manage it better, I did try to get support, and I guess I just didn't reach out to enough people or the right people to get that kind of support. I felt like that was the only thing I could do, it was quit.
 
@@ -154,7 +154,7 @@ Redis - I was maintaining the Redis suite of gems But still, these projects will
 
 **Ryan Bigg:** It's true, I do continue to maintain some open source projects. I've got this open source project called Elastic which talks to ElasticSearch servers using Elixir. I actually use it at work, so when I'm working on that, I maintain it at work, and I never do any maintenance on it outside of work, because it's a work project, technically speaking. And they're completely cool with that; Culture Amp is great for that sort of thing.
 
-\[00:28:10.29\] And then I also have another open source project that I'm maintaining called Twist, which is my book review software, which I've been tinkering on for about six years. It's open source, but nobody else contributes to it, pretty much it's just me.
+\[28:10\] And then I also have another open source project that I'm maintaining called Twist, which is my book review software, which I've been tinkering on for about six years. It's open source, but nobody else contributes to it, pretty much it's just me.
 
 **Nadia Eghbal:** I'm curious just to hear more about how you handed off your projects and facilitated that process of stepping down. You said you just put out a call for volunteers and you found some maintainers; was there anything that you officially had to do on your repos? Just for other people that might be interested.
 
@@ -178,7 +178,7 @@ If anyone else feels the same way, I'm sure Sven and I could find somebody else 
 
 **Nadia Eghbal:** Would you recommend handing -- for people that are newer to open source and looking to build their reputation, would you trust someone like that to take over a project that has been handed off, versus a project that they started themselves? Does that make sense? Is that the right kind of role?
 
-**Ryan Bigg:** \[00:32:02.21\] I wouldn't recommend, like, for Sven and I to hand off i18n to somebody who's new to open source. I reckon what we could do is have this handover period of probably a year where we monitor the issues and just give guidance, that kind of thing, so if people are interested in open source, they can be like "Hey, what kind of issues are there?" and they could try and triage the issues themselves and they can give them guidance on like "You know, maybe don't call users idiots because they don't understand how the software works. Maybe don't disparage them using a lot of horrible languages..." It happens on a lot of open source projects. "Be kind, be generous with your time, but don't overdo it and don't burn out..." Kind of give them that guidance of like "It's not critically important that you work on this and if you feel like it's too much, then it's okay to step away at any point. But while you're here, we'll give you guidance, we'll give you love and we'll support you 100% of the way."
+**Ryan Bigg:** \[32:02\] I wouldn't recommend, like, for Sven and I to hand off i18n to somebody who's new to open source. I reckon what we could do is have this handover period of probably a year where we monitor the issues and just give guidance, that kind of thing, so if people are interested in open source, they can be like "Hey, what kind of issues are there?" and they could try and triage the issues themselves and they can give them guidance on like "You know, maybe don't call users idiots because they don't understand how the software works. Maybe don't disparage them using a lot of horrible languages..." It happens on a lot of open source projects. "Be kind, be generous with your time, but don't overdo it and don't burn out..." Kind of give them that guidance of like "It's not critically important that you work on this and if you feel like it's too much, then it's okay to step away at any point. But while you're here, we'll give you guidance, we'll give you love and we'll support you 100% of the way."
 
 So yeah, I think if new open source contributors wanna come in, by all means...
 
@@ -198,7 +198,7 @@ One person who I think does this really ridiculously well, who always seems chee
 
 **Ryan Bigg:** I'm a sucker for it. I'm such a sucker for it. With i18n I think I am not going to maintain that any longer with anything else, but the Elastic package - I'm probably going to maintain that as long as I work at Culture Amp or as long as I need it. But I try and realize that I'm slipping back into that lifestyle I guess you could call it, of like "Oh, I'm just gonna check these issues. I'll just reply here and I'll help out here", and that sort of thing.
 
-\[00:35:59.15\] I try and catch myself doing that, and I go "No, that wasn't healthy before, and it's probably not gonna be healthy now, so let's just not do that. Let's find something else to distract our brain with", so that's what I'm doing with my writing at the moment; that's my distraction from open source, if that makes sense.
+\[35:59\] I try and catch myself doing that, and I go "No, that wasn't healthy before, and it's probably not gonna be healthy now, so let's just not do that. Let's find something else to distract our brain with", so that's what I'm doing with my writing at the moment; that's my distraction from open source, if that makes sense.
 
 **Mikeal Rogers:** Have you had any projects that you picked up like that or sort of working on that then did grow the community and that you were able to just kind of step away from without people noticing? Are there any practices that you might have learned along the way?
 
@@ -218,7 +218,7 @@ I think what we need to have is more of a discussion in the open source communit
 
 **Nadia Eghbal:** Something that Adam was musing about that I also wanted to ask you about is do you think that we're hearing more about burnout now, just because open source as a practice or community has started to mature, and there's sort of this question now if it's not just about creating stuff in open source, but now we're kind of getting to the point where people are starting to wanna age out of a project or move on? Do you think that's contributed to why we talk more about burnout now?
 
-**Ryan Bigg:** \[00:39:51.24\] I think that's definitely the case. I think what we're seeing is the first generation of open source contributors - or at least on GitHub projects... I mean, I'm only new to this game; open source has been around longer than I've been alive. I think we're seeing these first-generation open source contributors go "I'm no longer passionate about this project. I'm thinking on moving on, but my work is going to crumble into dust and it will be meaningless if I do so", and then they burn out from it and move on.
+**Ryan Bigg:** \[39:51\] I think that's definitely the case. I think what we're seeing is the first generation of open source contributors - or at least on GitHub projects... I mean, I'm only new to this game; open source has been around longer than I've been alive. I think we're seeing these first-generation open source contributors go "I'm no longer passionate about this project. I'm thinking on moving on, but my work is going to crumble into dust and it will be meaningless if I do so", and then they burn out from it and move on.
 
 So what we should be encouraging is the second generation or next generation of open source maintainers to come along. Encourage the first generation to say "By the way, I'm looking for help", exactly like what I should have done. "I need help with these projects. I'm trying to maintain them, but I'm struggling." It's okay to admit defeat in that way.
 
@@ -226,7 +226,7 @@ So when they do that admission, then they should look around the community, like
 
 **Adam Stacoviak:** Coming up we talk with Ryan about getting paid for open source work and whether or not money actually helps. We talk about his thoughts on compensating open source developers, funding an individual contributor versus funding a project, a happy path to maintainership if there is one, and so much more. We'll be right back.
 
-**Break:** \[00:41:25.26\]
+**Break:** \[41:25\]
 
 **Nadia Eghbal:** I wanted to touch on what it's like to get paid for open source and how money and open source mix. When you were at Spree, you were being paid to work on open source, and it sounds like even some of your open source work now is on work hours. Do you think that the presence of money helps keep you in open source?
 
@@ -250,7 +250,7 @@ If I was paid to work on a particular open source project -- let's say I worked 
 
 **Ryan Bigg:** That's exactly right, yes.
 
-**Nadia Eghbal:** \[00:47:39.04\] I guess part of me wonders what makes open source not something that is fun as a volunteer hobby...? That's sort of going through my head right now, but then I think "Well, some people do enjoy contributing to open source in their spare time... And I guess I was just kind of thinking about, like, are there different stages of open source either in your own career as a contributor, or different stages of a project where doing it for free or doing it as a volunteer makes sense, and then there's a point where it's kind of like "I need to be paid for this, or it doesn't work"? Does that seem coherent?
+**Nadia Eghbal:** \[47:39\] I guess part of me wonders what makes open source not something that is fun as a volunteer hobby...? That's sort of going through my head right now, but then I think "Well, some people do enjoy contributing to open source in their spare time... And I guess I was just kind of thinking about, like, are there different stages of open source either in your own career as a contributor, or different stages of a project where doing it for free or doing it as a volunteer makes sense, and then there's a point where it's kind of like "I need to be paid for this, or it doesn't work"? Does that seem coherent?
 
 **Ryan Bigg:** Yes, it does. it does absolutely seem coherent. So when I was starting my contributions to Spree, it was a lot of times of doing Google group answering, and a couple of issues here and there, but nothing substantial. And then working on the project itself is enjoyable, so when I was contributing to other open source projects, you start out like "Oh, I'm just gonna make this contribution here" and then "It feels great, because people get to use my code; that's mainly why I contribute to open source. There's going to be somebody else out there - there's a market, in a sense, of people that wanna use my code", and that's a good feeling. "I wrote something that people are using and benefitting from", and that is why you contribute to open source in the first place.
 
@@ -276,7 +276,7 @@ But in the niche of a niche of a niche of a niche where we exist, in this Rails 
 
 **Mikeal Rogers:** You're like, "I've done more than Rails, come on!"
 
-**Ryan Bigg:** \[00:51:54.15\] Oh no, that's okay... Any contribution is fine; they can name anything I contributed to. I don't care if it's Rails 3 in Action or Multitenancy with Rails. Anything. It's just good to be known, and I try to get to know them as well. I just don't want to be like hero worship, but I wanna know who is doing the worship, if that makes sense. Because by talking to these people and not just going "Oh, that's good that you like what I do." I'm like "What do you do?" and I find out a lot of interesting stuff in the community through just that. So the fame comes with a lot of finding out information from people and finding out these cool things they're working on, or projects they're looking into. It's really good.
+**Ryan Bigg:** \[51:54\] Oh no, that's okay... Any contribution is fine; they can name anything I contributed to. I don't care if it's Rails 3 in Action or Multitenancy with Rails. Anything. It's just good to be known, and I try to get to know them as well. I just don't want to be like hero worship, but I wanna know who is doing the worship, if that makes sense. Because by talking to these people and not just going "Oh, that's good that you like what I do." I'm like "What do you do?" and I find out a lot of interesting stuff in the community through just that. So the fame comes with a lot of finding out information from people and finding out these cool things they're working on, or projects they're looking into. It's really good.
 
 **Nadia Eghbal:** Does any of it surprise you, that people from totally random walks of life that take interest in it?
 
@@ -300,7 +300,7 @@ For a new developer - two years from now, I hope that he would know better pract
 
 **Mikeal Rogers:** Yeah, I have a similar story to this, except I've been with my wife for like 12 years now. She would be like "You're being ridiculous now", but now I can actually recognize it before she needs to tell me. This is exactly what happens, actually - there's certain things that she's just never gonna do and I'm never gonna do and we'll slightly annoy each other, and when I start to get really mad about one of them, I know that I'm actually not mad about that, I'm getting sick of my job. \[laughs\] Literally, I'll start to be like "Man, she did not refill the water thing again that goes in the fridge", and I'll start to get really mad about it and I'll be like "Ohhh, I need a new job..." \[laughter\]
 
-**Nadia Eghbal:** \[00:56:28.13\] That's a good degree of self-reflection there. \[laughter\]
+**Nadia Eghbal:** \[56:28\] That's a good degree of self-reflection there. \[laughter\]
 
 **Mikeal Rogers:** It's taken a long time to get there, but yeah.
 
@@ -318,7 +318,7 @@ If you gave me a full-time job where my purview was literally "contribute to ope
 
 **Ryan Bigg:** Yeah, I'm a hard left-wing kind of guy and socialism is high on my agenda, and it's not high on people who have the money, it's high on people who don't have the money. With regards to that, while I would love if Culture Amp would hire me purely just to contribute to open source projects that they use, or funnel money into open source projects they use... Like, we use Webpack extensively, we use React extensively, Babel, Rails, Ruby... We're not contributing anything back to these projects directly, and while we do encourage open source contributions that are relevant to the work we're doing now, we don't encourage developers necessarily to go trolling through the open source projects and lending a hand.
 
-\[00:59:55.08\] It's not like we have a day where it's like "Go and work on open source, it's fine...", because it doesn't make sense financially for the company to do that; you're wasting the company's -- that's why they say it's wasting the company's time contributing to these open source projects. But the way I personally see it, you're not wasting the time -- you're spending money now to save money later. You're spending money now to maintain these open source projects, and because they are maintained in a good state, those projects will be around longer and you'll be able to benefit from them longer.
+\[59:55\] It's not like we have a day where it's like "Go and work on open source, it's fine...", because it doesn't make sense financially for the company to do that; you're wasting the company's -- that's why they say it's wasting the company's time contributing to these open source projects. But the way I personally see it, you're not wasting the time -- you're spending money now to save money later. You're spending money now to maintain these open source projects, and because they are maintained in a good state, those projects will be around longer and you'll be able to benefit from them longer.
 
 For instance, let's say Spree, which uses the Active Merchant gem extensively - if that was maintained by one person... It's maintained by Shopify, but if that was maintained by one person, and that one person decided to quit, and that project then fell into disrepair, Spree would have to pick up the maintenance of Active Merchant, because it seriously depends on it, or the community would need to exist around Active Merchant. But because Active Merchant belongs to Shopify, Shopify pays its developers to work on Active Merchant because it's important to Shopify's business.
 

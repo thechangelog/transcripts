@@ -8,11 +8,11 @@ Now, to truly understand the gravity of this, you have to understand that we nor
 
 Many listeners have reached out to me directly via email, Twitter, Slack, and I really appreciate it. Thank you very much for caring. Many have asked how they can help. Here are two websites where you can go and give money, donate clean-up supplies or even organize a crew and come here to Houston and help someone clean up. The first is youcaring.com/jjwatt, and the second is bayoucityrelief.com. Both links will be in the show notes. Thank you.
 
-**Break:** \[00:01:56.18\]
+**Break:** \[01:56\]
 
 **Adam Stacoviak:** So let's start off the conversation with community building. I think that many of us may go to conferences, many of us go out into the community, whether it's local, or going to regional conferences, and we call this thing "community". It's this word, there's people who blog about it, everyone's trying to build it, everyone's trying to do it. What exactly is building community? What is community to you?
 
-**Karolina Szczur:** \[00:04:02.28\] Wow, that's quite a loaded question to be the first one, I must say. I've actually given a talk about community building and trying to define community at the \[unintelligible 00:04:12.14\] four years ago, and it took me months to research how people define community, and I'm still unsure if I understand it correctly.
+**Karolina Szczur:** \[04:02\] Wow, that's quite a loaded question to be the first one, I must say. I've actually given a talk about community building and trying to define community at the \[unintelligible 00:04:12.14\] four years ago, and it took me months to research how people define community, and I'm still unsure if I understand it correctly.
 
 I think especially in the tech industry one thing that's important to point out is that community is something that's more than events and conferences. As you've said, it's nice to go to those gatherings and have fun, go to parties and meetups, see some talks, but community spans beyond that, and I'm really willing to focus on going beyond that in the sense that we create community every single day; it's not necessarily just running an event that's one day, two days or an evening. I want something that will actually last longer than that. I really wanna focus on not only gathering people with the same interests and the same goals and the same values together, but also creating rules for being safe in those communities. That's something that I'm really interested in.
 
@@ -28,7 +28,7 @@ So trying to define a community, I would probably say it's obviously a group of 
 
 I think it's just easier to be unsafe in a sense, that people just use this platform to be ha-ha-ha, like it's a joke, or being abusive or being a troll. So yeah, this is just more pronounced now that we have this great platform, because people feel like they can hide behind that and no one will ever know that they're a 15-year-old who's really angry behind their computer and locked into a room, for example.
 
-\[00:07:42.10\] So I guess it has just become easier to be abusive or be harmful, and some of the platforms that we use frequently, like Twitter, don't really have the necessary tools to fight the abuse.
+\[07:42\] So I guess it has just become easier to be abusive or be harmful, and some of the platforms that we use frequently, like Twitter, don't really have the necessary tools to fight the abuse.
 
 **Adam Stacoviak:** It's tough, I guess, to be Twitter these days, because they are not -- I'm assuming from our perspective, and maybe even most of the listeners who listen to this have been potentially using Twitter for quite a long time... We would probably consider ourselves early adopters; we didn't join it when the voices started singing "Hey, go to Twitter and vote for your favorite candidate", or whatever... Or get into politics, or whatever. We were there originally, whenever most of the Twitter scene was tech; it was the technology scene, the software development scene. And they're in this position where they've grown over years, and their business has not exactly stayed in alignment, and they've got this big Goliath next to them called Facebook that's doing so much better and growing at such bigger numbers... And they've got to be basically the police, to some degree, for stopping abuse.
 
@@ -48,7 +48,7 @@ Some clients aren't very good at supporting blocking, so you end up blocking som
 
 **Karolina Szczur:** Honestly, it's just inconsistency, so to say. Sometimes it actually works properly, but sometimes some of the people still surface. It's very inconsistent. It's either third-party clients or just API problems; I can't really speak, because I've never worked with Twitter API, so I don't know how good it is.
 
-**Adam Stacoviak:** \[00:11:51.10\] We spoke to the sides of community where it's a platform to be safe... Let's talk about the side where you're trying to build. You mentioned that you don't have to be at a conference; community doesn't just happen exactly just face-to-face, it happens (I think you said) "everyday." What did you mean by "everyday"? Give me an example of what community building is everyday, or showing up to be a part of community?
+**Adam Stacoviak:** \[11:51\] We spoke to the sides of community where it's a platform to be safe... Let's talk about the side where you're trying to build. You mentioned that you don't have to be at a conference; community doesn't just happen exactly just face-to-face, it happens (I think you said) "everyday." What did you mean by "everyday"? Give me an example of what community building is everyday, or showing up to be a part of community?
 
 **Karolina Szczur:** Sure. I'm really into the whole diversity and inclusion part of community work, so on a day-to-day basis for me it's mostly leveraging the \[unintelligible 00:12:26.20\] that I have and leveraging my exposure to publish articles and educate people how to build better communities or run better events, that are more inclusive, or being a little bit more proactive in the form of reaching out to people that I think could do a better job, for example conferences that have all-male lineups or don't have code of conduct and they could do better. Because sometimes they just don't know any better... Which isn't good enough, but you can educate them and coach them into being better, so to say. But some of them are just pure malice, I think. LambdaConf is one of the greatest, as in the worst example of that.
 
@@ -74,7 +74,7 @@ Some clients aren't very good at supporting blocking, so you end up blocking som
 
 So I just kind of angrily tweeted that they should do better... "Congratulations on this not very good line-up", and then I just went on with my weekend plans. Then after a day or two I've realized that it has completely exploded and GitHub has already taken down the line-up from their website, saying that they're gonna get back on track with the conference once they find a suitable line-up, which upset a lot of people.
 
-\[00:15:53.05\] There was no public post-mortem or anything like that, there was just the change on the website, and they didn't announce anything whatsoever on their Twitter, or blog posts, or anything. I've reached out to them, to the head of diversity at GitHub and they've decided they're not gonna publicize what mistakes they've made... So they really didn't want to have public record of it happening, and they didn't wanna say openly "Oh, we've made a mistake, and this is why it happened, and we're fixing it right now." To me, it was poorly handled, but I guess they're revisiting those choices, so that's beneficial to the community.
+\[15:53\] There was no public post-mortem or anything like that, there was just the change on the website, and they didn't announce anything whatsoever on their Twitter, or blog posts, or anything. I've reached out to them, to the head of diversity at GitHub and they've decided they're not gonna publicize what mistakes they've made... So they really didn't want to have public record of it happening, and they didn't wanna say openly "Oh, we've made a mistake, and this is why it happened, and we're fixing it right now." To me, it was poorly handled, but I guess they're revisiting those choices, so that's beneficial to the community.
 
 **Adam Stacoviak:** How far back was this tweet? How current is this? Days, weeks?
 
@@ -96,7 +96,7 @@ I don't have anything against GitHub personally; as a product, I think it's a gr
 
 **Adam Stacoviak:** Well, let's break this down and see this as an example of how should have they handled this? Given what you had just said there, where they represent the community in a lot of sense, right? Because they are who they are, they have a lot of responsibility... What do you think they could have done differently, given the circumstances?
 
-**Karolina Szczur:** \[00:19:59.16\] When I run events, I mostly explicitly use a call for speakers process which obviously invites everyone to apply. We worked very hard at JSConf and CSSConf Australia last year to make that process even better and to foster an anonymous process that will bring more women and more under-represented groups into our conference... Which is really tricky, because again, the process is anonymous. So definitely not only having a call for speakers - which I think they had, in some sense... That's a first step.
+**Karolina Szczur:** \[19:59\] When I run events, I mostly explicitly use a call for speakers process which obviously invites everyone to apply. We worked very hard at JSConf and CSSConf Australia last year to make that process even better and to foster an anonymous process that will bring more women and more under-represented groups into our conference... Which is really tricky, because again, the process is anonymous. So definitely not only having a call for speakers - which I think they had, in some sense... That's a first step.
 
 Then secondly, obviously, you have to have a code of conduct. You have to have information about who is the organizer, despite the organization. I actually wanna see the faces of people who are organizing this event, so I can see if the group of people that's organizing is diverse, so I can look up their work, I can kind of be comforted with the fact that I know those people.
 
@@ -116,7 +116,7 @@ Conferences that have other initiatives for diversity/inclusivity are also great
 
 There is a list of things that I'm actually working on releasing as an open source project, kind of like an inclusive conference checklist to help organizers go through it. But I would say that the code of conduct is literally just the tip of an iceberg, and a lot of women who have been working in progressing events and progressing inclusion and diversity at events know and have noticed that as well, that the code of conduct is only the beginning, and at this point just having that is just not enough.
 
-**Adam Stacoviak:** \[00:23:59.18\] I like that you mention that it's obviously not enough just to have it, but to educate the volunteers and/or paid staff that are part of the conference, having a plan if something does go wrong and knowing how to actually act upon it. You mentioned you're coming up with either resources or an eBook or something like that - I can't recall exactly what you said there, but is there anything out there like that now? Is that why you're making it, because it's not out there currently? Any sort of inclusivity or safe space checklist?
+**Adam Stacoviak:** \[23:59\] I like that you mention that it's obviously not enough just to have it, but to educate the volunteers and/or paid staff that are part of the conference, having a plan if something does go wrong and knowing how to actually act upon it. You mentioned you're coming up with either resources or an eBook or something like that - I can't recall exactly what you said there, but is there anything out there like that now? Is that why you're making it, because it's not out there currently? Any sort of inclusivity or safe space checklist?
 
 **Karolina Szczur:** I would say there are a few resources. I always defer to Ash Dryden's work. She has done amazing work in the diversity inclusion space; she's hosting a traveling conference called AlterConf that caters to under-represented groups, which is a great event. She has published extensive materials on diversity and inclusion in general, and conference wise as well. There is the [Geek Feminism Wiki](https://geekfeminism.wikia.org/wiki/Geek_Feminism_Wiki) that has a lot of materials in that space, and just blog posts scattered around if you look for them. And then obviously, you can look up some events that just have a lot of visibility and really high standards, such as JSConf EU that I'm part of, JSConf Australia and CSS Confs as well usually hold themselves against the same standards. We try to do basically everything that should be an industry standard and more, which is really hard work.
 
@@ -136,7 +136,7 @@ But yeah, I guess a long way around this question to answer is there is no centr
 
 **Adam Stacoviak:** Do you have flexibility in your full-time work to be able to -- even if it was for a stint of like two months or something like that, do you have the ability to step away? Is that flexibility available to you?
 
-**Karolina Szczur:** \[00:28:06.20\] Not really, to be honest...
+**Karolina Szczur:** \[28:06\] Not really, to be honest...
 
 **Adam Stacoviak:** So it's not even a money problem, it's more just a time problem, and maybe even an energy problem... Like, to have enough energy to do it.
 
@@ -154,7 +154,7 @@ My advice would be look up some amazing events, from the JSConf family of events
 
 **Adam Stacoviak:** After the break, Karolina and I talk about building teams, specifically teams that are remote-first. We break down what that means, why it's important, and we also talk about the dark side of being a remote worker, the impact of real-time communications like Slack, maintaining work/life balance, being able to work-ate, play-ate and sleep-ate, something I try to do every single day. All this and more, after the break.
 
-**Break**: \[00:31:10.17\]
+**Break**: \[31:10\]
 
 **Adam Stacoviak:** So my background in terms of what you may know now is as a podcaster - running the Changelog, doing what we do here - but prior to this, before I was a professional podcaster, so to speak, somebody who did this full-time, I was primarily a designer, product manager, UX designer. That would be the \[unintelligible 00:32:22.24\] and I worked for this non-profit called PureCharity - still an awesome place to go (PureCharity.com). We started out there as a remote developer team. Part of the team was centralized in Rogers, Arkansas, and everyone else was distributed throughout -- it just happened to be at the time Texas and Missouri. I don't know why those two states in the United States, but those two states.
 
@@ -174,7 +174,7 @@ In terms of advice, at that point there was almost nothing, no resources. I thin
 
 **Karolina Szczur:** I think it's also a good book about running a company in general; it doesn't have to be remote-specific. It talks about meetings and pointless meetings and pointlessly digging people's time without reason, and I think that you can apply that advice to any organization, not necessarily remote. I think that was the only resource available at that time.
 
-\[00:36:03.01\] Afterwards, a lot of companies popped up that were remote-first, such as Buffer or Help Scout, that I think still kind of lead that space right now. They publish a lot of articles quite frequently about remote culture and working together in general, which I think is a great starting point if you are looking into starting a company. I think it's harder when you transition.
+\[36:03\] Afterwards, a lot of companies popped up that were remote-first, such as Buffer or Help Scout, that I think still kind of lead that space right now. They publish a lot of articles quite frequently about remote culture and working together in general, which I think is a great starting point if you are looking into starting a company. I think it's harder when you transition.
 
 So as you said, it's a fairly common thing to happen, that you have headquarters somewhere in the world, and then you decide to hire remote workers, and then it's this "you versus them" situation because they are so disconnected from everything that is happening on site that it's very difficult to make that work.
 
@@ -192,7 +192,7 @@ If you're an immigrant in Australia, it prevents you from traveling extensively 
 
 **Karolina Szczur:** Yeah. So the reason why I say remote-first is because a lot of people like to say "Oh, we're cool, we're remote", but they actually don't live up to the expectations that you would have of them. They have a bunch of rules that would be hidden somewhere in the HR documents that actually prevent you from having that flexibility.
 
-**Adam Stacoviak:** \[00:40:05.11\] Do you think some of these things are stemming from policies, or tools available that makes it hard? It seems like your point there was "Work anywhere, but anywhere in the US, or anywhere in Australia", not to be able to live -- I think you're originally from Poland, right?
+**Adam Stacoviak:** \[40:05\] Do you think some of these things are stemming from policies, or tools available that makes it hard? It seems like your point there was "Work anywhere, but anywhere in the US, or anywhere in Australia", not to be able to live -- I think you're originally from Poland, right?
 
 **Karolina Szczur:** Yes.
 
@@ -230,7 +230,7 @@ That creates a problem for the company, taking into account recent legislation i
 
 **Adam Stacoviak:** You're not a fan, it sounds like.
 
-**Karolina Szczur:** \[00:43:59.10\] I'm not a fan of the whole fake glamour of digital nomad, and just saying digital nomad...
+**Karolina Szczur:** \[43:59\] I'm not a fan of the whole fake glamour of digital nomad, and just saying digital nomad...
 
 **Adam Stacoviak:** Okay...
 
@@ -248,7 +248,7 @@ So there are ways of overcoming that, and there are ways of successfully having 
 
 **Adam Stacoviak:** World traveler. I agree, I don't think that the term -- if I were that person, if I were doing that, I wouldn't call myself... I think it's become common because that's the terminology people most associate to it, but I would -- I guess the nomading is... I don't know, I'm not really sure, because I feel similar to how you feel, but I don't feel exactly the same, because I kind of get what nomad means; maybe I wouldn't attach the digital part. I'd just be like "Hey, I'm nomading right now. I'm traveling the world."
 
-**Karolina Szczur:** \[00:47:57.19\] Yeah, definitely. I don't have a particular problem with the notion; I've traveled a bunch, I've spoken at many conferences... For two years, basically, I had no home. I was in my country for maybe like six months, and then six months traveling... Which was great, but I think long-term it's not really sustainable. You not only spend a lot of money traveling, but secondly, it gets really lonely. I think it's cool to look at people's Instagrams, and like "Oh my god, they're on all of those beaches in Thailand", as everyone is, posting fancy photos...
+**Karolina Szczur:** \[47:57\] Yeah, definitely. I don't have a particular problem with the notion; I've traveled a bunch, I've spoken at many conferences... For two years, basically, I had no home. I was in my country for maybe like six months, and then six months traveling... Which was great, but I think long-term it's not really sustainable. You not only spend a lot of money traveling, but secondly, it gets really lonely. I think it's cool to look at people's Instagrams, and like "Oh my god, they're on all of those beaches in Thailand", as everyone is, posting fancy photos...
 
 **Adam Stacoviak:** Especially you, you're a photographer... I have to pause you, because I was on your -- would you call it your exposure site? Is that what you would call it?
 
@@ -274,7 +274,7 @@ So there are ways of overcoming that, and there are ways of successfully having 
 
 I know that for me, like you - you'd mentioned you've been a remote worker or someone who's worked remotely for six years now... I think for me it's been since 2006; it's been 11 years, I guess. I'm in my 11th year of working either for myself or remotely, and that's crazy. 11 years I've not gone into an office -- only in one year of those 11 years, and this was for like maybe five months that I have a "real job", where I went into somebody's office and worked in their office. So that's like a few months out of 11 years... I've pretty much worked from home; "my home was my office" state of mind - it's sort of tough to have that routine and having a work zone where work happens there, where you don't get trapped in always feeling like you have to be productive.
 
-**Karolina Szczur:** \[00:52:20.08\] Definitely. It's really hard to disconnect, especially if you don't have a big apartment or a big house, then it becomes even more tricky. I'm lucky enough to actually have a room that's a separate office.
+**Karolina Szczur:** \[52:20\] Definitely. It's really hard to disconnect, especially if you don't have a big apartment or a big house, then it becomes even more tricky. I'm lucky enough to actually have a room that's a separate office.
 
 **Adam Stacoviak:** Huge advocate of that.
 
@@ -306,7 +306,7 @@ Yeah, I think it's really important, and it's also important to find things that
 
 **Adam Stacoviak:** Something, yeah... You change colors - who knows? Or lack of color...? But like the close to community, that conversation we had there, I'm gonna ask you this question - you've got a couple companies mentioned here on your blog post, but you'd mentioned a couple during this conversation - Help Scout was one of them, and I believe Buffer was another. What other companies could people look to to emulate, both 1) as somebody who's an employer or running their own company, or 2) looking at employees within a company and saying "Can I model similar things? Can I follow their blogs?" Who is out there to model?
 
-**Karolina Szczur:** \[00:56:03.19\] I would say hands down Basecamp, on not only remote, but just company culture in general. These are my go-to's. I would say definitely read whatever they're writing; they have amazing amounts and quality of advice, but not every single time you're able to adapt that to your own company; not all advice is actually universal.
+**Karolina Szczur:** \[56:03\] I would say hands down Basecamp, on not only remote, but just company culture in general. These are my go-to's. I would say definitely read whatever they're writing; they have amazing amounts and quality of advice, but not every single time you're able to adapt that to your own company; not all advice is actually universal.
 
 I think it's just important to stay in touch with your employees. I think actually remoteness is one of the biggest tests that you can have on your organization in terms of your culture and how empathetic you are, and how good of an employer and employee you are, because that really tests your communication skills as well.
 

@@ -4,7 +4,7 @@
 
 So a lot of these posts are actually meant to help dialogues by reducing people's insecurity around not knowing something.
 
-**Jerod Santo:** \[00:03:54.19\] That's interesting, because I realized that kind of without realizing it - for those following along at home, you can go to code-cartoons.com to see some of Lin's work there... The topics are not novice topics. There's a cartoon guide to Flux, to hot reloading and time travel debugging, to Redux - to really things that are difficult to understand even for what we call "seasoned software engineers."
+**Jerod Santo:** \[03:54\] That's interesting, because I realized that kind of without realizing it - for those following along at home, you can go to code-cartoons.com to see some of Lin's work there... The topics are not novice topics. There's a cartoon guide to Flux, to hot reloading and time travel debugging, to Redux - to really things that are difficult to understand even for what we call "seasoned software engineers."
 
 You're really kind of bringing them down to a level that somebody -- it's like making them more approachable, and like you said, for people who may be too embarrassed to ask.
 
@@ -32,7 +32,7 @@ There's a book to this though, too. Am I correct in saying that, or is there not
 
 **Lin Clark:** Things have kind of changed. I've not done a great job, I'm not very good at the brand management part of all of this. Originally, when I started code-cartoons, I wasn't working at Mozilla, I was just doing it in my spare time, and I planned to do a book around all of the React ecosystem, doing code cartoons. And then I got a job at Mozilla... I was working in dev tools at first, but I managed to turn Code Cartoons into my full-time job at Mozilla, so a lot of the latest work is on the Hacks blog (Mozilla's Hacks Blog). I can send a link for the show notes for that.
 
-\[00:07:53.00\] There's no book in the works currently. There may be in the future, but I'm doing a lot more work around web technologies, things like WebAssembly, JavaScript, how the browser works right now.
+\[07:53\] There's no book in the works currently. There may be in the future, but I'm doing a lot more work around web technologies, things like WebAssembly, JavaScript, how the browser works right now.
 
 **Jerod Santo:** You kind of answered one of my questions, because one of the things that I did notice on Code Cartoons is it doesn't appear that you've been publishing to that particular website anymore, so I was wondering if maybe the magic wore off, or if you got sick of drawing, or something... But it sounds like you just transitioned that into your day job, which is cool.
 
@@ -64,7 +64,7 @@ There's a book to this though, too. Am I correct in saying that, or is there not
 
 **Lin Clark:** There's the physical process of actually making the cartoons, and then there's the mental process of actually figuring out what should go in them. I'll start with the mental process, which is basically consuming everything I can on a subject - video, blog posts, the spec itself, all of that... And just filling my brain to the brim. Then doing a lot of yoga, and jogging; I try to load up in the morning on a particular topic, and then when I go for my run, I'll just have that going in the back-burner, because I find that thinking about it consciously a lot of times doesn't work. I have to let those metaphors come to me.
 
-\[00:12:01.04\] So then, once I've had a few that come to me, I'll put them on post-it notes on my wall and I'll start filling in this wall of post-it notes until the narrative becomes clear through that. Then I fill another wall of post-it notes that actually have all of the images that I'm going to do in order. At the same time, I'll usually be recording... I don't actually write them, I say them out loud, because I find that that helps me keeps my words shorter.
+\[12:01\] So then, once I've had a few that come to me, I'll put them on post-it notes on my wall and I'll start filling in this wall of post-it notes until the narrative becomes clear through that. Then I fill another wall of post-it notes that actually have all of the images that I'm going to do in order. At the same time, I'll usually be recording... I don't actually write them, I say them out loud, because I find that that helps me keeps my words shorter.
 
 If I imagine the person I'm explaining it to, I tend to explain it in a much more accessible way, so I actually will record it and then transcribe it. That will be happening at the same time that I'm putting these post-its on the wall that are all of the images. Then at that point it's just a matter of busting through all of those images and drawing them all out. For that, I use Photoshop and the Wacom Cintiq tablet.
 
@@ -97,7 +97,7 @@ I would product-manage and I would do UX design with them kind of in real-time, 
 
 **Adam Stacoviak:** We see in plain view a fairly simple drawing, but behind the scenes there's all these thoughts, and the run, and the processing, and the filling to the brim and then all the post-it notes to the wall... It's a process, Lin, that's pretty intense. It's true artistry.
 
-**Lin Clark:** \[00:15:57.16\] It is intense, and I'm so exhausted after every single one... I'm just ready to collapse.
+**Lin Clark:** \[15:57\] It is intense, and I'm so exhausted after every single one... I'm just ready to collapse.
 
 **Jerod Santo:** In reading these, what I was reminded of was "Why's (Poignant) Guide to Ruby", why the lucky stiff - talk about bringing advanced concepts to people who are intimidated... And your drawings are more -- I don't even know if professional is the right word; his were more whimsical, it was kind of crazy. Lin, are you familiar with that book, "Why's (Poignant) Guide to Ruby"?
 
@@ -117,7 +117,7 @@ I put it in this blog post, it went up on Hacker News, got hundreds -- I think i
 
 **Lin Clark:** Yes, I still get that on a lot of the articles; people will just comment saying "Oh, here's a French version" or "Here's a Russian version", so it's great to have all of those translations and to make it accessible to even more people.
 
-**Break:** \[00:18:46.28\]
+**Break:** \[18:46\]
 
 **Jerod Santo:** So Lin, you are at Mozilla now, where you work on -- well, what do you work on at Mozilla, besides drawing more code cartoons?
 
@@ -143,7 +143,7 @@ The thing about WebAssembly is it actually runs in the same engine as JavaScript
 
 **Lin Clark:** It's hard to completely describe it, because it's kind of the first of its kind on the web. It is kind of like Assembly language, but it's more like a virtual Assembly language. It gives you pretty low-level operations, but they're not exactly targeted for a particular machine, like Assembly code would be. That's because you don't know when you're sending a file across the web what machine that other person is running on, so you can't have Assembly code that is specific to that machine.
 
-\[00:23:53.10\] What WebAssembly does is it gives you something that looks like Assembly and is pretty close to Assembly, but then the virtual machine will translate it into actual Assembly code for whatever machine that it's running on. So in the browser, the browser will do that short little hop between WebAssembly and actual Assembly.
+\[23:53\] What WebAssembly does is it gives you something that looks like Assembly and is pretty close to Assembly, but then the virtual machine will translate it into actual Assembly code for whatever machine that it's running on. So in the browser, the browser will do that short little hop between WebAssembly and actual Assembly.
 
 **Jerod Santo:** So then for these other languages to run in the browser - so for Rust to run in the browser, its job is to somehow build or compile itself into a WebAssembly-compatible binary? Is that the right language?
 
@@ -162,7 +162,7 @@ There are also other languages that are starting, too. I think that Go actually 
 
 **Jerod Santo:** There's a lot of people who love JavaScript, and then there's other people that don't like it so much, and then there's a lot of people that really dislike JavaScript... So people are excited about Wasm for different reasons, but some people who are really into Go, or really into Rust, they're excited because they think "I may never have to write JavaScript anymore."
 
-\[00:28:01.16\] Some people may think the Rust community is trying to replace JavaScript ("You don't need it anymore, you need Rust"), but what I'm hearing from you and from other people - that's not the story here; there's more to it, or it's nuanced. What is the story with this interop and making them almost merge that you guys are trying to do, as opposed to just saying "Hey, we can just WebAssembly, we don't need JavaScript anymore"?
+\[28:01\] Some people may think the Rust community is trying to replace JavaScript ("You don't need it anymore, you need Rust"), but what I'm hearing from you and from other people - that's not the story here; there's more to it, or it's nuanced. What is the story with this interop and making them almost merge that you guys are trying to do, as opposed to just saying "Hey, we can just WebAssembly, we don't need JavaScript anymore"?
 
 **Lin Clark:** Well, there are a lot of things that JavaScript does really well, and it does it without increasing the barrier to entry for new developers. We don't want to tell new developers "Oh, you have to go learn a language that might be more difficult", we want people to still have that easy onboarding ramp, so JavaScript gives that. And there are also just a lot of places where the performance of JavaScript is fine and you really don't need to have a really fine-tuned level of performance.
 
@@ -176,7 +176,7 @@ So you put it into this array buffer, and then on the WebAssembly side you just 
 
 That's a pretty complicated process for a lot of JavaScript developers, and even for people who are not working with JavaScript; it's just very low-level... So we have a tool called wasm-bindgen which will automatically wrap your WebAssembly module with some JS code that will actually do that for you, all of that conversion, and it will also make it possible to use Rust structs in JavaScript as classes, it will do a lot of that wiring up and marshalling the data for you.
 
-\[00:31:44.05\] So right now it is pretty Rust-specific. We're hoping that we can expand it to support other languages as well, so that all languages can then have this easy "Pass a string, pass a struct, pass whatever you want from JavaScript back to WebAssembly." And there's also some work that's happening in the WebAssembly community group to make this easier as well. There's a proposal called anyref, which will make it possible to take references and share them between JavaScript and WebAssembly, and there's also something called host bindings, which would do a lot of the translation of values at the boundary between JavaScript and WebAssembly.
+\[31:44\] So right now it is pretty Rust-specific. We're hoping that we can expand it to support other languages as well, so that all languages can then have this easy "Pass a string, pass a struct, pass whatever you want from JavaScript back to WebAssembly." And there's also some work that's happening in the WebAssembly community group to make this easier as well. There's a proposal called anyref, which will make it possible to take references and share them between JavaScript and WebAssembly, and there's also something called host bindings, which would do a lot of the translation of values at the boundary between JavaScript and WebAssembly.
 
 **Adam Stacoviak:** I wanna say calling back to the cartoons, too - your visual description and then your code description of this is so much easier to step into, following along as you're talking through this... I mean, this post you wrote, and then obviously the code cartoons that go with it are just -- as you're talking through it, I can kind of almost hear you creating these in the transcription process that you mentioned earlier; I can hear your process for describing these complex things, and it's just so much easier to see as code cartoons.
 
@@ -194,7 +194,7 @@ Basically, it's this thing called a stack machine; if you wanna add two numbers 
 
 One of the things that WebAssembly doesn't support yet that a lot of languages do need is integration with the garbage collection in the browser. You can write your own garbage collection and ship it down with your code, and that works fine, but it also makes the file size larger, it can be hard to - if you have objects that are going between JavaScript and WebAssembly, it can be hard to keep track of those... And it's just kind of tricky to write a good industrial-grade garbage collector, but all of the browsers have really good garbage collectors, so we're trying to over the next year really push that forward and make it possible for languages to depend on the garbage collection in the browser.
 
-\[00:36:02.03\] Now, this isn't gonna work for all languages, but we think that there are a lot of languages that then will be able to target WebAssembly really easily.
+\[36:02\] Now, this isn't gonna work for all languages, but we think that there are a lot of languages that then will be able to target WebAssembly really easily.
 
 **Jerod Santo:** Going back to the bindgen conversation and what you're providing there - it sounds like all the plumbing necessary to convert things into the right formatting, the serialization or really the marshalling into classes and stuff on the JavaScript side... Recently I saw a Hello world Rust thing in WebAssembly; by the way, there's WebAssembly Studio, which I hadn't heard of until maybe today even, which is pretty cool. For those out there who would like to play around with this stuff, webassembly.studio (we'll link that up as well), and you can see examples of people doing things... And they have a very simple Hello world where it's using wasm-bindgen, and there is a function defined in the Rust side called greet, which takes a string as an argument, and then there is a function on the JavaScript side which I think you're probably familiar with - it's called alert... So that one's built right in.
 
@@ -206,7 +206,7 @@ They are both using the opposite functions - one of the JavaScript side, one on 
 
 **Lin Clark:** That project in particular is a Mozilla thing, and the WebAssembly Studio is also a Mozilla thing. Michael Bebenita, who is one of our folks in emerging technologies, created WebAssembly Studio kind of in his spare time I think, and people were so excited about it that it's now something that he and a few other people work on.
 
-**Break:** \[00:38:45.09\]
+**Break:** \[38:45\]
 
 **Jerod Santo:** Lin, tell us about the work that you're doing with the Wasm ES modules spec. It sounds complicated.
 
@@ -234,7 +234,7 @@ Where are you looking at in terms of progress and what we can expect this work t
 
 **Lin Clark:** It's always hard to say with standards, it's hard to give dates. We've been making good progress... I presented to the WebAssembly CG two weeks ago, basically explaining how exports are going to work in every kind of case - when you're importing JavaScript functions into WebAssembly, when you're exporting from WebAssembly to JavaScript, when you have cycles between the different things, and everybody seemed to be on board for the design, so now the next step is doing a rough draft of the spec text and making sure that everybody from the different groups is on board for that spec text.
 
-\[00:44:11.19\] So I'll be going to TC39 in May to talk to them - they're the standards body in charge of JavaScript - and working with them to make sure that everything that we're doing makes sense from their perspective as well.
+\[44:11\] So I'll be going to TC39 in May to talk to them - they're the standards body in charge of JavaScript - and working with them to make sure that everything that we're doing makes sense from their perspective as well.
 
 Once we've gotten everybody on board for the decisions and we have some spec text, we should be able to push it through... We also need to have some people implementing it, and I just saw on Twitter a few days ago that JavaScriptCore (JSC), the JavaScript engine that is in WebKit - they have already started playing around with an implementation, and we've had interest from other people, like folks on the Chrome team, folks in Node, so I think we're gonna be able to get the implementations done pretty quickly, too. So I think that it should be moving along at a nice pace.
 
@@ -250,7 +250,7 @@ So it will be nice for us if more code is in WebAssembly on the web, it will be 
 
 **Lin Clark:** I think that we are going to see it spreading. Once it gets into a few key pieces of software, I think we'll see it spreading pretty quickly. What we think is gonna happen is the frameworks will start building WebAssembly components within the framework, that everyone will be using them and nobody will realize that they're using WebAssembly, because they have a JavaScript interface to interact with that WebAssembly.
 
-\[00:48:01.22\] I don't know if you've seen the EmberConf keynote that Yehuda Katz and Tom Dale gave maybe a month ago... They talked about their work to using WebAssembly in the Glimmer engine, and we've talked with the React team about how they might use WebAssembly; there are other frameworks I know that are looking at how they can use WebAssembly for parts of their framework that don't really need to be in JavaScript and where they could see performance gains from switching to something like WebAssembly.
+\[48:01\] I don't know if you've seen the EmberConf keynote that Yehuda Katz and Tom Dale gave maybe a month ago... They talked about their work to using WebAssembly in the Glimmer engine, and we've talked with the React team about how they might use WebAssembly; there are other frameworks I know that are looking at how they can use WebAssembly for parts of their framework that don't really need to be in JavaScript and where they could see performance gains from switching to something like WebAssembly.
 
 **Jerod Santo:** We just had a show about Ember last week with Chad Hietala... Adam, did we talk about that? I mean, he talked about Glimmer quite a bit, but this doesn't ring a bell.
 
@@ -282,7 +282,7 @@ So it will be nice for us if more code is in WebAssembly on the web, it will be 
 
 Basically, before we would get speed-ups at a certain rate, it looks like that rate of speed-ups and processors, like how fast a computer can work, at least when you have one ship - it looks like that has a limit. We're only going to be able to make the circuits that are in there so small before they start burning up. So the chip manufacturers have started splitting up into multiple cores, so that they can have a core-- because you can think of a core as kind of like a brain. If you have one brain working on a problem, it can only go so fast; if you have two brains or four brains working on that same problem, it can go faster, but you can have some costs of communicating/coordinating between these different brains.
 
-\[00:52:15.13\] One way that people have gotten around that cost of communicating between the different brains is just have them work on pretty separate tasks. It's called core-screened parallelism. You might have one of the cores working on figuring out what to show inside the browser window, and another core working on the Chrome, the address bar or the scroll, or all of that stuff. And then another core working on whatever is in the background tab. That can lead to under-utilization of the cores. It can mean that you're leaving some of those cores without work to do, if the background tab isn't doing anything, if the address bar isn't changing.
+\[52:15\] One way that people have gotten around that cost of communicating between the different brains is just have them work on pretty separate tasks. It's called core-screened parallelism. You might have one of the cores working on figuring out what to show inside the browser window, and another core working on the Chrome, the address bar or the scroll, or all of that stuff. And then another core working on whatever is in the background tab. That can lead to under-utilization of the cores. It can mean that you're leaving some of those cores without work to do, if the background tab isn't doing anything, if the address bar isn't changing.
 
 What we wanna do, and what we have been doing over the past year and a half or so, is introducing fine-grained parallelism into the browser, making it possible to split up work not just at that cores level of one tab goes to one core and another tab goes to another, but actually having the work that happens inside a single tab be split up across different cores. So that's what I am talking about in this talk, it's exactly how we're doing that and why we're doing it, and also how application code could then also be split up among these different cores.
 
@@ -294,7 +294,7 @@ You can speed that up by however many cores you have, because it's splitting up 
 
 Another part of project Quantum is this thing called WebRender. When you're rendering a web page, you need to figure out the plan for what is gonna show up on the screen, that is parsing the HTML into DOM nodes and then figuring out the style for those, and then figuring out the measurements for where those things should go on the page (that's called layout). Once you have that plan in place, you actually need to paint it to the screen, you actually need to paint pixels.
 
-\[00:55:06.13\] So a lot of browsers, including us, have split things up into this compositing stage -- or rather a painting stage and then a compositing stage, where they create layers, and then basically put the layers together and take a picture of them. And what we're doing with WebRender is actually removing the distinction between those two, and making the work a lot more parallel by moving it to the graphics processing unit (GPU).
+\[55:06\] So a lot of browsers, including us, have split things up into this compositing stage -- or rather a painting stage and then a compositing stage, where they create layers, and then basically put the layers together and take a picture of them. And what we're doing with WebRender is actually removing the distinction between those two, and making the work a lot more parallel by moving it to the graphics processing unit (GPU).
 
 **Adam Stacoviak:** That's a popular thing happening nowadays too, especially as you talk about all the stuff happening with GPUs, and just the acceleration things happening on that front around NVIDIA and different hardware I've heard about. I'm not fluent in it, but I've heard a lot about GPU acceleration these days.
 

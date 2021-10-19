@@ -6,7 +6,7 @@ The second one would be quite an important one. Over the last couple of years - 
 
 I agree with GDPR, it's something necessary for the web to keep it healthier, but I also think that website owners that care about it can use a different solution that doesn't use cookies, that doesn't collect personal data, which means also that you can get analytics without needing to give all this prompt to your visitors and kind of annoy their experience. So these are the major ones that I believe most people will get quite a good benefit from.
 
-**Jerod Santo:** \[00:04:27.27\] Speaking of the first point - you started with the bloated script, and then moving on to the GDPR privacy concerns... Do you know how big it is? This is something that I haven't necessarily considered, even though I've had my reasons for not wanting to have it. Are we talking about hundreds of kilobytes, are we talking about megabytes?
+**Jerod Santo:** \[04:27\] Speaking of the first point - you started with the bloated script, and then moving on to the GDPR privacy concerns... Do you know how big it is? This is something that I haven't necessarily considered, even though I've had my reasons for not wanting to have it. Are we talking about hundreds of kilobytes, are we talking about megabytes?
 
 **Marko Saric:** No, not at all. Basically, if you take the speed tests... Because of SEO reasons -- Google announced speed was one of their factors recently for the search results... And if you take for example the Google Page Speed Test, one of the things they will actually mention is the third-party aspect of you having the analytics script from Google Analytics, as in "That slows down your site." So this is why I mention it, because if you remove Google Analytics from your site, or you use something very small or lightweight, that kind of error or that kind of warning goes away and you get a better score.
 
@@ -28,7 +28,7 @@ Basically, even though it's -- let me check how big the script is. Even though t
 
 I think I'm not the special case here. I think this is quite common. People install Google Analytics because it's the most popular tool, or it's something that they've told that I need to have... And they have this - this collects 300 different metrics from their visitors, and they use maybe five of them. It's a waste in terms of the kb load on every website visitor... Thinking in the sense of the climate change even - how to decrease the Carbon footprint of a website, there's a Carbon footprint calculator. If you decrease something like 50 kb of your site, your score gets so high that you're something like in the top 10% of the sites that load fast. So it does make a difference, and it's something people don't use to look at; and if you don't use it, then you can remove it. For me personally it makes sense to do that.
 
-**Jerod Santo:** \[00:08:13.28\] I'm just like you, Adam. For me, if I said "What's the number one reason why I don't like it?" I'm just like, I log into the thing and I just wanna log out again. There's so many features that I don't care about... I don't care about conversion tracking, I don't care about AdSense things, and goals... It seems like the information I want is further away than I want it to be, and the information I don't care about is right there, and then the filtering is convoluted...
+**Jerod Santo:** \[08:13\] I'm just like you, Adam. For me, if I said "What's the number one reason why I don't like it?" I'm just like, I log into the thing and I just wanna log out again. There's so many features that I don't care about... I don't care about conversion tracking, I don't care about AdSense things, and goals... It seems like the information I want is further away than I want it to be, and the information I don't care about is right there, and then the filtering is convoluted...
 
 And then the other thing is I don't really trust it. And I don't not trust it in a privacy way, although I think that's there as well; I'd say my second reason is I feel like they have so much of our information, and we're just giving them more... Like "Here. Here's all of our website traffic information." That feels naive to me. But I don't actually trust their analytics, I think because of our audience demographic, and Changelog.com's traffic demographic. Most of the people that read our website are blocking things.
 
@@ -46,7 +46,7 @@ And then the other thing is I don't really trust it. And I don't not trust it in
 
 So this was a nice piece of marketing, because it's like "Here's this great post all about it, and here's some alternatives... By the way, Plausible Analytics is something that we're building, which is an alternative to that." So I would love to hear all about how that works, and some of the stuff Adam's bringing up.
 
-\[00:12:10.00\] Let's pull Uku into the conversation, because you've been waiting in the wings here... Uku, when did you start building this, and was it because of the reasons that we've been discussing with regard to the status quo of tracking and analytics with Google and other large providers?
+\[12:10\] Let's pull Uku into the conversation, because you've been waiting in the wings here... Uku, when did you start building this, and was it because of the reasons that we've been discussing with regard to the status quo of tracking and analytics with Google and other large providers?
 
 **Uku Täht:** For sure, yeah. When I first started writing the Plausible codebase, I didn't wanna use Google Analytics, but its -- I didn't have much of a problem with its UX, because I had never really used it; I'm a developer, I don't spend much time in analytics... But I was working on a different project, and the marketing guy asked me to install an analytics tool... And he asked me to install the industry standard, Google Analytics obviously, and it just rubbed me the wrong way, for some reason... Because the year previous I'd become very aware of all these privacy issues, and I was trying to use less and less services by Google. I was just getting off Chrome, and trying to replace Gmail, and things like that.
 
@@ -68,7 +68,7 @@ There is one thing that was interesting about that early stage... I had tried to
 
 **Jerod Santo:** Did the early interest inspire you, or was it more the commitment?
 
-**Uku Täht:** \[00:15:55.29\] Yeah, both. I felt like the fact that people cared enough to send me an email about it, but also I felt like I have something to show to them in a few months... So I felt like I made a commitment to some real people. And that changed it. That actually kept me going for three months, to get it out there.
+**Uku Täht:** \[15:55\] Yeah, both. I felt like the fact that people cared enough to send me an email about it, but also I felt like I have something to show to them in a few months... So I felt like I made a commitment to some real people. And that changed it. That actually kept me going for three months, to get it out there.
 
 **Adam Stacoviak:** Well, you'd be surprised what happens when you feel like somebody's in the fight with you.
 
@@ -106,7 +106,7 @@ I realized I'm not gonna build deep expertise in marketing and content writing. 
 
 **Uku Täht:** I was trying to write blog posts, I was writing emails to people, "Hey, can you include me in your blog post about Google Analytics alternatives?" I was writing updates on Indie Hackers, I was trying to post stuff on Hacker News... Sort of haphazard. I didn't have a strategy. I was just opportunistically trying to get in front of people with Plausible. But at the same time, I felt like it was taking time away from what I really enjoy doing, which is development.
 
-\[00:20:01.14\] I really wanted to involve someone who could help with marketing, with getting Plausible in front of people, and telling its story. But the other aspect, which is why I reached out to Marko, is that accountability aspect that we talked about earlier. I felt like working on it alone, I started going a little bit crazy sometimes. If you don't have someone to talk to, if you don't have someone to hash your ideas out, someone to tell you when you're wrong, it's so hard to make up my mind. I was going back and forth on a lot of decisions; I didn't commit to a strategy... I didn't like working alone.
+\[20:01\] I really wanted to involve someone who could help with marketing, with getting Plausible in front of people, and telling its story. But the other aspect, which is why I reached out to Marko, is that accountability aspect that we talked about earlier. I felt like working on it alone, I started going a little bit crazy sometimes. If you don't have someone to talk to, if you don't have someone to hash your ideas out, someone to tell you when you're wrong, it's so hard to make up my mind. I was going back and forth on a lot of decisions; I didn't commit to a strategy... I didn't like working alone.
 
 It's interesting - there's a lot of talk about being a solo founder, and whether that's a good thing or a bad thing... And I felt like it was a bad thing. I didn't enjoy it at all. I think people are different, but for me - yeah, I felt like I was going crazy at times.
 
@@ -140,7 +140,7 @@ It's interesting - there's a lot of talk about being a solo founder, and whether
 
 One thing was Google is obviously the target there, because -- you know, Facebook is easy, because if you don't use Facebook, you don't see it much. But Google is like -- any website has Google fonts, has Google Analytics... Google has everything - the AMP, and so on. And Google is so much more difficult to get away from, and this is maybe why I focus more on Google rather than something like Facebook, which I think is probably an even worse company. So just because of the fact that Google is so much more difficult, so much more ingrained into pretty much every website that we visit... That's where some of these posts have come from, that was the motivation really.
 
-**Adam Stacoviak:** \[00:24:04.20\] Yeah. In a lot of cases, this reminds me of the Basecamp story, Jerod. Back when Basecamp first came around it was the power story; that's what we were kind of talking around. They have a story of this David and Goliath, which is mentioned in one of the posts on Plausible.com... Or is it--
+**Adam Stacoviak:** \[24:04\] Yeah. In a lot of cases, this reminds me of the Basecamp story, Jerod. Back when Basecamp first came around it was the power story; that's what we were kind of talking around. They have a story of this David and Goliath, which is mentioned in one of the posts on Plausible.com... Or is it--
 
 **Jerod Santo:** .io.
 
@@ -176,7 +176,7 @@ WordPress by itself is not what you have the image of in all these marketing sit
 
 **Adam Stacoviak:** I wanna go back to what you said though, Marko... You wanted to play a role in making a more healthy web. And this isn't simply just "Google = bad. Plausible = good." It's not just simply saying that. It's more this notion of power. How you make a more healthy internet is probably decoupling away from one person or one large entity controlling the data.
 
-\[00:27:53.08\] So in the aggregate, if GA has been freely available and is so accessible to many people - and I think the stat is somewhere above 80% of most websites out there are using this free tool... And that means in aggregate, over many years, potentially decades, you've got a lot of data. As an ad tech company - I'm not saying that they're using it in bad ways, or they're bad people, or they're a bad company; there's varying degrees of that. But the point is just like when you put that kind of data in one organization's power or control, potentially bad things could happen. When you control your own data and you have your own data, then we don't have to worry that some other organization has our data, whether it can be used against us or not. It's just a matter of "You don't know when you want privacy until you need privacy."
+\[27:53\] So in the aggregate, if GA has been freely available and is so accessible to many people - and I think the stat is somewhere above 80% of most websites out there are using this free tool... And that means in aggregate, over many years, potentially decades, you've got a lot of data. As an ad tech company - I'm not saying that they're using it in bad ways, or they're bad people, or they're a bad company; there's varying degrees of that. But the point is just like when you put that kind of data in one organization's power or control, potentially bad things could happen. When you control your own data and you have your own data, then we don't have to worry that some other organization has our data, whether it can be used against us or not. It's just a matter of "You don't know when you want privacy until you need privacy."
 
 **Marko Saric:** Yeah, I agree with you. I think my thinking of this started to change with all the Snowden stuff, and Cambridge Analytica, and all these things happening a few years ago. I'm a marketer, and I was using these tools personally, I was using these tools in my profession as well, and that kind of made me aware of the issues. I was ignorant about these issues before, I guess, and it took Snowden and it took all this media campaign and all these people to talk about it for me to realize "Hm, maybe I should rethink what I'm doing here. Maybe this is not the healthiest in the long-run, to have Facebook and Google pretty much control everything we do online."
 
@@ -194,7 +194,7 @@ There's an argument that the more you know, the better it is, but I think that d
 
 **Uku Täht:** Marko, in my view, you're quite unique, being a marketer who thinks that the web is a little bit broken and wants to fix it. I remember telling to my friends before I stumbled on your website, "I wanna find a marketer who cares about privacy and open source", and I couldn't find one. I was trying to find someone who could help me with this, but someone who wasn't just a marketer as I thought.
 
-\[00:31:55.29\] No offense, but it's also my understanding that it's marketers who want more and more data usually, and from the marketing departments - it's where some of this data collection issues are coming from, and the previous issues... So I thought it was very unique to find someone who can do marketing, but also is in that same sort of mindspace in terms of understanding what Google is about, and trying to fix that.
+\[31:55\] No offense, but it's also my understanding that it's marketers who want more and more data usually, and from the marketing departments - it's where some of this data collection issues are coming from, and the previous issues... So I thought it was very unique to find someone who can do marketing, but also is in that same sort of mindspace in terms of understanding what Google is about, and trying to fix that.
 
 **Marko Saric:** Yeah. Maybe I'm just a bad marketer, that I don't collect all the data. \[laughter\]
 
@@ -202,7 +202,7 @@ There's an argument that the more you know, the better it is, but I think that d
 
 **Marko Saric:** Yeah, I think in general it's something that you can argue that there's a need for it, but it's not something that's necessary. I think the more important thing is being able to have a product that people want, and then being able to communicate about the benefits of that product to people that are interested in it, to people that that product solves issues for. And that thing you cannot really do as well just by knowing a lot of data; you actually need to speak to real people, you need to get into their shoes and understand them better in order to communicate with them, or in order to create a product that actually solves the issues they have.
 
-**Break:** \[00:33:14.00\]
+**Break:** \[33:14\]
 
 **Jerod Santo:** Guys, whenever you build a product or a service as the anti-X, as the David to some Goliath, you have to be very intentional with features, you have to set yourself apart, sometimes you have to pick which features you're not gonna develop, especially in the case of a privacy thing... You say "We're not gonna do that, because that's privacy." But whenever people are looking at it and they're thinking "Okay, I would love to go away from Goliath/Google Analytics, but I've been using it for so long, it's free, I like this about it... I do complain about it, but there are things I like."
 
@@ -226,7 +226,7 @@ I like the event tracking features; we do use it. We like to know on our website
 
 **Uku Täht:** So there's a feature that I'm planning to add that no one has requested, for example...
 
-**Jerod Santo:** \[00:36:14.21\] Nice.
+**Jerod Santo:** \[36:14\] Nice.
 
 **Uku Täht:** ...and that's gonna start in summer, which is being able to just query ad-hoc anything, basically, by clicking on whatever you want in the UI. There's no request for that, and I'm gonna do it at some point... And I've said no to things for sure, but more or less - I'd say 80% - the prioritization comes straight from users.
 
@@ -274,7 +274,7 @@ We didn't have a thing that would differentiate us, that would give people a rea
 
 **Marko Saric:** We are catering to people that care about these things, just as we do, and they will also want to remove Google Analytics from their site; they also want less tracking, but they still wanna see something. This is what allows us to make these decisions, because we know we're pretty much on the same page as a lot of our audience.
 
-\[00:39:58.24\] This also helps with the roadmap... If you go to the roadmap right now, which is on our site, a lot of those requests - they're pretty much fit with what you're thinking about. Now it's just about prioritizing them and getting time to do them, and doing them right, so it fits with the product. But it's not like we have completely different people asking for something that really does not fit. It's a niche product that people that come to it are actually interested in this thing, and then they kind of think in similar ways, which really helps in building a product that's kind of unified and that makes sense for this audience.
+\[39:58\] This also helps with the roadmap... If you go to the roadmap right now, which is on our site, a lot of those requests - they're pretty much fit with what you're thinking about. Now it's just about prioritizing them and getting time to do them, and doing them right, so it fits with the product. But it's not like we have completely different people asking for something that really does not fit. It's a niche product that people that come to it are actually interested in this thing, and then they kind of think in similar ways, which really helps in building a product that's kind of unified and that makes sense for this audience.
 
 **Uku Täht:** Talking about prioritization - there's a really interesting new input, which is Marko. Now that we have a marketer on board, we are dogfooding our own products more and more. Previously we didn't have much traffic, and it was me looking at the stats. "Just 50 people today. Cool."
 
@@ -300,7 +300,7 @@ I can come from a more marketing side and I can push some of the more marketing 
 
 **Jerod Santo:** Yeah. I think that will net you a lot of good will over time, when you get to it.
 
-**Uku Täht:** \[00:44:05.27\] Yeah, I think the way we make money should be hosting the open source solution, and committing to it... But it shouldn't be from guarding the secrets or having some kind of walled garden that you can't access.
+**Uku Täht:** \[44:05\] Yeah, I think the way we make money should be hosting the open source solution, and committing to it... But it shouldn't be from guarding the secrets or having some kind of walled garden that you can't access.
 
 **Adam Stacoviak:** Yeah. You mentioned it was MIT... What was the thought behind making it MIT? Why is the transparency important? Obviously, Google Analytics is not, so...
 
@@ -350,7 +350,7 @@ You can't lose customers' trust. You have the threat of forking, and the threat 
 
 **Jerod Santo:** Yeah, absolutely.
 
-**Marko Saric:** \[00:48:17.05\] Yeah. Great.
+**Marko Saric:** \[48:17\] Yeah. Great.
 
 **Jerod Santo:** So before we get too far afield from the product, I do wanna ask you this, Uku... So you have lightweight JavaScript, you've gone no cookie at this point... I've thought a lot about just removing JavaScript altogether would feel even better. And I thought, if we had some sort of Plausible... If we had just good enough, even server-side analytics that just did log analysis, and was at least smart enough, whether it was like blacklist, or machine learning algorithms on the user agents - whatever it was, to just get rid of the real body stuff, the scrapers, and stuff - I would actually be just fine with that. I wonder if you've considered server-side logging, or if it was JavaScript all the way. Because your JavaScript is not doing very much at this point.
 
@@ -386,7 +386,7 @@ You can't lose customers' trust. You have the threat of forking, and the threat 
 
 **Jerod Santo:** It's the ultimate differentiator. It goes the complete opposite direction. And I haven't seen -- because I've been looking for it, and I was like "Is this something that we should build open source, or something?" I've looked -- there's obviously open source log analysis tools, and a few things our community members in Slack have pointed us to... Nothing's quite been what I thought it should be, so it would be a differentiator. No JavaScript. That sounds nice. That feels nice.
 
-**Uku Täht:** \[00:51:57.27\] Yeah. I've actually said publicly to a few people, "If you feel like you wanna deal with the log analysis tools and manage that - I think that's better than including our JavaScript." In terms of privacy, it's great.
+**Uku Täht:** \[51:57\] Yeah. I've actually said publicly to a few people, "If you feel like you wanna deal with the log analysis tools and manage that - I think that's better than including our JavaScript." In terms of privacy, it's great.
 
 **Jerod Santo:** Yeah.
 
@@ -428,11 +428,11 @@ So there's work going on to make it really easy for people to run it themselves 
 
 **Marko Saric:** About the contributions aspect on GitHub - this is again the first time that I'm dealing with this kind of GitHub and open source aspect of running a startup... When this blog post went viral a few weeks ago, I think the day after there was a new thread on GitHub - quite a long, beautiful thread where a guy said "You're using unnecessary code", or I don't even know what he wrote; Uku is much more familiar with that. But basically, a guy that really knows his stuff - he came in there and he wrote pieces of code, how we can improve our tiny 1.4 kb script to go even lower, to perhaps get it to 1 kb or even under 1 kb.
 
-\[00:56:16.17\] I thought that was amazing, that somebody would take 1-2 hours to write quite a long GitHub thread to help us, without us asking for it, without us knowing him... Just because he read that post perhaps on Hacker News, and he thought "Okay, these guys don't know what they're doing. Let's get it from 1,4 kb to 1,1 or 1,0." I just thought it was amazing that this kind of contribution can happen.
+\[56:16\] I thought that was amazing, that somebody would take 1-2 hours to write quite a long GitHub thread to help us, without us asking for it, without us knowing him... Just because he read that post perhaps on Hacker News, and he thought "Okay, these guys don't know what they're doing. Let's get it from 1,4 kb to 1,1 or 1,0." I just thought it was amazing that this kind of contribution can happen.
 
 **Uku Täht:** Yeah. I know from experience that running an open source project is a lot of work as well. So far, I've focused on the product aspect and the business aspect of things... Because one of the trickiest subjects is "How do you get open source funded? How do you get people working on open source in a sustainable way?" That's kind of what we're trying to figure out here... It's definitely a direction I wanna go in, is more community involvement and more of a community project where we charge for hosting it.
 
-**Break:** \[00:57:23.04\]
+**Break:** \[57:23\]
 
 **Jerod Santo:** Well, you're well on your way... Let's get back to the blog post, because as I mentioned, it's never as much fun to celebrate by yourself. We're here to celebrate with you guys. Marko had a hit post, we talked about it - "Why you should stop using Google Analytics." Can you guys share some of the impact of this? Because everybody loves that moment when the thing they've been toiling over get some attention, and gets some users... And you've got a little bit of open source starting to trickle in, and there's interest. How big did this blog post go, and what did that result in in terms of users, trials, people giving you money?
 

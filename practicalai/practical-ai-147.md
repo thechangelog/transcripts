@@ -24,7 +24,7 @@
 
 **Daniel Whitenack:** Maybe just remind the listeners, the State of Data Science Report that you do... Just give us a sense of who contributes to that, what sort of audience is behind the graphs and the statistics that you gather.
 
-**Peter Wang:** \[00:04:15.24\] Yeah, so a brief rundown - it's something we've been doing for many years now, but it's a survey of our user base, but not limited to our user base. So we put a call-out, obviously, through the channels that we have the most access to, so it's gonna be a lot of Anaconda users... But anyone's free to take it. We put the call-out on social media and whatnot.
+**Peter Wang:** \[04:15\] Yeah, so a brief rundown - it's something we've been doing for many years now, but it's a survey of our user base, but not limited to our user base. So we put a call-out, obviously, through the channels that we have the most access to, so it's gonna be a lot of Anaconda users... But anyone's free to take it. We put the call-out on social media and whatnot.
 
 This year we had almost 4,300 participants from 140 countries. We ran the survey for about a month; it runs on the April to May timeframe. We had a third -- not quite a third of our respondents were students...
 
@@ -44,7 +44,7 @@ And we ask those questions because we've heard different stories from different 
 
 **Chris Benson:** So just as you're going through your thought process, what are you attributing that to, or what's your theory about it?
 
-**Peter Wang:** \[00:07:54.08\] Well, a quarter of the folks identify themselves as being senior, a quarter are manager, and then 10% director and about 8% principals. So I think what's happening is there's a little bit of title inflation in data science roles... And some data scientists, to be retained and to not get picked off by big tech giants, they're maybe getting some titles and promotions and whatnot, and that might be what's affecting this. And it can also be that the teams are growing a little bit. You naturally have to bump up the title of the senior person in the team, as you're hiring more entry-level people behind them. That's my hypothesis, but I haven't validated that.
+**Peter Wang:** \[07:54\] Well, a quarter of the folks identify themselves as being senior, a quarter are manager, and then 10% director and about 8% principals. So I think what's happening is there's a little bit of title inflation in data science roles... And some data scientists, to be retained and to not get picked off by big tech giants, they're maybe getting some titles and promotions and whatnot, and that might be what's affecting this. And it can also be that the teams are growing a little bit. You naturally have to bump up the title of the senior person in the team, as you're hiring more entry-level people behind them. That's my hypothesis, but I haven't validated that.
 
 Another thing that was really interesting is that -- so we ask about your primary job function; not all the things you do, but really what is your title or what is your primary job function... And over the years, the number of people who identify primarily as data scientists in our respondent pool - that number has been going down lower and lower and lower. And we get more people from all walks of the business answering our polls, and they're using Anaconda in their jobs, but their titles are cloud engineer, or data engineer, I suppose data scientist, there's product managers, there's ML engineers... There's many other kinds of people. Sys admins... So data scientists this year - the number of people who had data scientist as their primary job function was only 11% in our respondent pool.
 
@@ -58,7 +58,7 @@ I remember my first data science position, DevOps Doug... If you're listening, s
 
 **Peter Wang:** I think I can say quite confidently there are more people using these tools and doing these things across the organization. I don't know that I wanna go on the record to claim that they're having a better time of it. \[laughter\] Or that it's gotten easier. I think that you're right, some of the tooling has gotten better... We keep pushing that boulder up the hill. We hope we're making some progress... And we're not the only ones; there's lots of people. There's the maintainer teams of individual projects themselves, as well as the broader Python community, and the core Python developers, \[unintelligible 00:12:00.29\] and people like that. But at the same time, the landscape has gotten more complex. There's more kinds of hardware out. There's more proprietary offerings with various cloud vendors. There's more different variants of GPUs that come out every year, every generation being so much better than the previous one... But you can't get rid of the old ones that you've bought last year. You've gotta keep using them.
 
-\[00:12:21.25\] And there's all these different -- so the landscape is getting more complex even as some things are getting easier. And I think that trend will continue. So more people will be using this across the organization, there will be more people motivated to try to solve the problem... But at the same time, everyone's busy, and these problems are at the infrastructure level, kind of below the radar or below the water line of what DevOps Doug or \[unintelligible 00:12:47.08\] are able to see... I'm trying to get the alliteration going there, you know...
+\[12:21\] And there's all these different -- so the landscape is getting more complex even as some things are getting easier. And I think that trend will continue. So more people will be using this across the organization, there will be more people motivated to try to solve the problem... But at the same time, everyone's busy, and these problems are at the infrastructure level, kind of below the radar or below the water line of what DevOps Doug or \[unintelligible 00:12:47.08\] are able to see... I'm trying to get the alliteration going there, you know...
 
 **Chris Benson:** That was good, I liked it. Keep going.
 
@@ -70,7 +70,7 @@ I remember my first data science position, DevOps Doug... If you're listening, s
 
 So we're entering this era of cybernetics, we're just at the very beginning of it, and it's gonna be completely different and so much more heterogeneous than the era of just personal computing, which settled up pretty quickly into x86... And it was actually x86 versus Mac, and PowerPC and the Mac... But it was mostly x86 and Windows and DOS on the business computing side. And it's a sea change. So the changes will continue \[unintelligible 00:16:19.22\]
 
-**Break**: \[00:16:25.03\]
+**Break**: \[16:25\]
 
 **Daniel Whitenack:** So Peter, one of the things you mentioned was this question that you added in this year about how maybe budgets around data science have changed within a business due to changes related to the pandemic, and all of the global things that are going on. What were the results there, and what are some of your thoughts on those?
 
@@ -84,7 +84,7 @@ So the majority of people, it seems like their businesses kept their data scienc
 
 But on a broader thing, from an industry perspective, I think you make a good point that some businesses saw an opportunity to shift their business model to accelerate certain things that are digital in nature, digital engagement being one of those areas where it's like, "Yeah, you're gonna have to do that or not have any engagement, because everyone's locked down."
 
-\[00:20:09.01\] So those areas were areas that then by its very nature of being a digital engagement it creates so much data exhaust. So then of course you wanna analyze that, and of course you wanna use that to feed back into improving the product and increasing engagement. So there was a natural kind of baseline (I would say) tailwind for some of that stuff, but we already used it across a lot of industries. So there's brick and mortar, or more physical domain businesses where - yeah, their businesses were unfortunately negatively impacted, and there wasn't budget available, so they had to cut some staff, or...
+\[20:09\] So those areas were areas that then by its very nature of being a digital engagement it creates so much data exhaust. So then of course you wanna analyze that, and of course you wanna use that to feed back into improving the product and increasing engagement. So there was a natural kind of baseline (I would say) tailwind for some of that stuff, but we already used it across a lot of industries. So there's brick and mortar, or more physical domain businesses where - yeah, their businesses were unfortunately negatively impacted, and there wasn't budget available, so they had to cut some staff, or...
 
 We did drill in and ask, if the organization decreases investment, in what way did it do so? And half the people said "Well, we just lost some budget", half the people said "Our team didn't grow." 40% of people said "Yeah, we actually laid off some people", and then about a third said that they had various project timelines put on hold indefinitely, or for some extended period of time.
 
@@ -100,7 +100,7 @@ So if you have some data scientists who've done some work and they're familiar w
 
 **Daniel Whitenack:** Something you mentioned a little while back was a focus on understanding why and how it's hard for people to get things into production... Maybe seeing some trends and some discussions... And I've even seen some, you know, over the past few months, blog posts and other things talking about "Hey, we're however long into this data science and AI thing, and it's so hard to get things into production."
 
-**Peter Wang:** \[00:24:04.19\] Right.
+**Peter Wang:** \[24:04\] Right.
 
 **Daniel Whitenack:** So I don't know what you asked specifically in the State of Data Science Survey, but maybe you could share with us some of your thoughts on that front. I mean, we have been doing this for so long... Is it all due to those sort of complicated environments and targets that we're deploying to, or are there other things at play here?
 
@@ -120,7 +120,7 @@ But for 23% of the respondents to say "No, this is a problem we have at our orga
 
 Python, by making so many design trade-offs for readability, ease of getting started and things like that - it was easy to get started, and a lot of people learned it, and it sort of has this executable pseudo-code thing/nature, which people like... So it got that. And then there were another set of design decisions that said "We should make the VM as simple as possible, so we can integrate with C libraries." C and C++ interop was an important thing. Okay, well that's a really, really big design decision to stick through for like 25 years. And if you do that, what happens is you end up being like one of the best languages to script or integrate or embed into a C/C++ runtime environment, which includes all of those numerical libraries that people have been developing for forever.
 
-\[00:27:48.22\] So oops, you happen to be a really great scientific computing and numerical language all of a sudden, even though you are not anywhere near -- I mean, Python was designed to be a more friendlier Bash, and maybe a slightly more readable Perl... And so these collections of design decisions sort of put you into a particular niche, or maybe a very large niche.
+\[27:48\] So oops, you happen to be a really great scientific computing and numerical language all of a sudden, even though you are not anywhere near -- I mean, Python was designed to be a more friendlier Bash, and maybe a slightly more readable Perl... And so these collections of design decisions sort of put you into a particular niche, or maybe a very large niche.
 
 So when you look at the design decisions behind Go and Rust, there are very sharp-pointed opinions as to "Rust is about that type safety. Let's not have any more buffer overflows on streams. Let's just not have that anymore. Surely we should get there in 2020." So I think that design decision and optimizing for some of those usability and developer quality of life things - it put you into a particular spot.
 
@@ -148,7 +148,7 @@ Go is different. Go is like "We wanna be multi-thread out the wazoo, super-fast 
 
 And it's interesting - you're a data scientist, and you might be concerned with performance... But when we look deeper at the respondents and we \[unintelligible 00:32:14.18\] by job, the data scientists are not the ones that predominantly identify recoding models as being a roadblock to production. Among data scientists, that is the next to least popular concern.
 
-\[00:32:29.13\] The biggest concern the data scientists has was a skills gap in their organization, whether it was data engineering, or Docker, or something like that, and then managing environments dependencies, and then meeting IT security standards is another one. Getting access to computing resources. Those are all the things. Recoding models wasn't their big blocker.
+\[32:29\] The biggest concern the data scientists has was a skills gap in their organization, whether it was data engineering, or Docker, or something like that, and then managing environments dependencies, and then meeting IT security standards is another one. Getting access to computing resources. Those are all the things. Recoding models wasn't their big blocker.
 
 **Chris Benson:** I'm just curious, which roles most worried about that?
 
@@ -166,7 +166,7 @@ And what's really interesting is we also ask people - because it's a hot hiring 
 
 Anyway, that was another really super-interesting find. It was stark; no other role, no other sets of roles -- Do you think data scientists are in demand, maybe there's a higher thing there? No, data scientists - 50% of them are like "Yeah, I'm either here for the foreseeable future, or I might start looking in 2-3 years." 50%. But when it comes to the MLOps and cloud ops folks, 3% said that they would stay at their current firm for the foreseeable future, another 25% to 30% said that they will start looking in 2-3 years, and the rest of them were all within the next 6-12 months, or "I'm currently looking."
 
-**Daniel Whitenack:** \[00:35:53.04\] That's crazy. So you mentioned this sort of contrast between what the data scientists were concerned with and what these cloud/MLOps/data ops people were concerned with... On that spectrum was this element of efficiency, and also recoding models... I know, if I'm not wrong, Anaconda has some sort of recent news in terms of some things related to optimized Python and efficiency... Do you wanna share that with the listeners?
+**Daniel Whitenack:** \[35:53\] That's crazy. So you mentioned this sort of contrast between what the data scientists were concerned with and what these cloud/MLOps/data ops people were concerned with... On that spectrum was this element of efficiency, and also recoding models... I know, if I'm not wrong, Anaconda has some sort of recent news in terms of some things related to optimized Python and efficiency... Do you wanna share that with the listeners?
 
 **Peter Wang:** Yeah, it's very exciting news. Basically, we have hired the Pyston team... And for those of you who don't know, Pyston is an open source alternative Python interpreter that runs on your unmodified Python code. It can go 20% to 50% faster as an interpreter...
 
@@ -190,7 +190,7 @@ So we're really excited about that... And of course, it's an open source project
 
 So the goal of the project is to make it as easy as possible to just drop in a replacement interpreter. Now, of course, the elephant in the room is "What about all of those wonderful extension modules that everyone loves to use?" So we are looking into what it takes to make sure that all of that is covered well as well. There is recompilation necessary for some of that stuff, but we're Anaconda, we're pretty good at building libraries and compiling them... So yeah, we're really excited about trying to deliver something very awesome there for people.
 
-**Daniel Whitenack:** \[00:39:08.02\] That's so cool. Yeah, I'm really excited to follow that and try some things out on my own. So I guess to close this out here as we're wrapping out the conversation... Predicting the future, you're always gonna be wrong; that's my experience. But when you come back and see us next year for the State of the Data Science Report, any predictions for what we might be seeing over the coming year?
+**Daniel Whitenack:** \[39:08\] That's so cool. Yeah, I'm really excited to follow that and try some things out on my own. So I guess to close this out here as we're wrapping out the conversation... Predicting the future, you're always gonna be wrong; that's my experience. But when you come back and see us next year for the State of the Data Science Report, any predictions for what we might be seeing over the coming year?
 
 **Peter Wang:** Over the coming year... Wow - yeah, lots of interesting things. Lots of interesting things. I think that the information warfare and technological warfare between U.S. and China is going to start having -- the first few drops of rain are gonna start hitting our ecosystem from that. I do believe that. I think that -- well, depending on the amount of political capital the Biden administration has to spend on these things, I think regulation of tech is going to certainly, of course, have implications in our industry, because so much of what people use these data processing tools for are around user behavior and data analysis of a lot of that kind of stuff. So I think as an industry, we're going to have to get more political sooner rather than later.
 

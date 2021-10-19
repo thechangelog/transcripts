@@ -10,7 +10,7 @@
 
 I'm sure we've talked about Brené Brown before, but if you haven't heard of her, go check her out. Once upon a time, she worked for the University of Houston in their College of Social Work before she went on to do a ton of research around shame and vulnerability and connection. And so she actually distinguishes between perfectionism and healthy behavior, and she says, and I quote, "Perfectionism is not the same thing as striving to be your best. Perfection is not about healthy achievement and growth. Perfectionism is used by many people as a shield to protect against the pain of blame, judgment, or shame."
 
-\[00:04:16.08\] So really, perfectionism, as a construct, is this sense of being a gerbil on a wheel, like "Never enough, never enough, never enough", because I always could do more. So Psychology Today, in one of their articles said "Perfection, of course, is an abstraction and an impossibility in reality, and striving for it can actually lead to procrastination, a tendency to avoid challenges, rigidity in thinking and overall lack of creativity." That doesn't sound like it works so well for much of anyone, does it?
+\[04:16\] So really, perfectionism, as a construct, is this sense of being a gerbil on a wheel, like "Never enough, never enough, never enough", because I always could do more. So Psychology Today, in one of their articles said "Perfection, of course, is an abstraction and an impossibility in reality, and striving for it can actually lead to procrastination, a tendency to avoid challenges, rigidity in thinking and overall lack of creativity." That doesn't sound like it works so well for much of anyone, does it?
 
 **Adam Stacoviak:** No, I guess the lack of creativity will come when you put so much pressure on yourself that you feel like any direction you go or move is not in the perfect direction, and so you just don't move, or your movements that you take aren't as creative because you have limits and boundaries that are perceived, but not real.
 
@@ -32,7 +32,7 @@ I'm sure we've talked about Brené Brown before, but if you haven't heard of her
 
 **Mireille Reece, PsyD:** Yeah, and ironically-- so with that, when you're bracing yourself, you tend to constrain the way in which you think or see things. So your mental framework just got narrowed tremendously. So it's like, I can't then be creative. I have to stay within the confines of this box, so that I'm sure never to fall out of line. Except then I never get out of my box. I never do things that I don't know are going to be perceived well or received in a favorable way. I will be more robotic.
 
-**Adam Stacoviak:** \[00:08:13.07\] Yeah. What's interesting is this idea that Brené brings up, which is this concept of a shield, that people use perfectionism or the pursuit of being perfect as the shield to protect against the three things that we don't want often to happen when we seek connection, which is blame, judgment or shame. And that concept of a shield is like... Obviously, a shield does what - it's a metaphor or it's literal context is it shields you, it blocks something from getting you that you don't want to get you, whatever it might be. It could be a sword, it could be blame, it could be judgment, it could be shame... But the point is that we will often unintentionally use the pursuit of perfectionism, being perfect, as a shield, and not know it, just in our everyday life. Sometimes it takes a wakeup call like, "Hey, just get that done; don't seek perfectionism," because you're just trying to shield yourself from something that's just -- you should just put yourself out there. You know what I mean? Like, get out of that rigid framework.
+**Adam Stacoviak:** \[08:13\] Yeah. What's interesting is this idea that Brené brings up, which is this concept of a shield, that people use perfectionism or the pursuit of being perfect as the shield to protect against the three things that we don't want often to happen when we seek connection, which is blame, judgment or shame. And that concept of a shield is like... Obviously, a shield does what - it's a metaphor or it's literal context is it shields you, it blocks something from getting you that you don't want to get you, whatever it might be. It could be a sword, it could be blame, it could be judgment, it could be shame... But the point is that we will often unintentionally use the pursuit of perfectionism, being perfect, as a shield, and not know it, just in our everyday life. Sometimes it takes a wakeup call like, "Hey, just get that done; don't seek perfectionism," because you're just trying to shield yourself from something that's just -- you should just put yourself out there. You know what I mean? Like, get out of that rigid framework.
 
 **Mireille Reece, PsyD:** Yeah, and so when we talk about this today as a construct, perfectionism is this means of running away from the possibility of shame, and we've talked about shame in earlier episodes, and what it does to our brain. But shame is really, as a construct, this sense of not being enough; feeling like there's an inherent defect. So no amount of striving is actually going to create the outcome that I need in order to feel better... Hence why it's so self-perpetuating. And now I'm stuck on this wheel of "Keep going" and "You've got to do more, you've got to do more", and it's out of a place of compensation. If I believe that there's something wrong with me, I'm going to do everything in my power to prove that there is nothing wrong, and nobody can sustain that over a lifetime.
 
@@ -44,7 +44,7 @@ If it's defensive, defenses are designed to protect and to help us buffer other 
 
 **Adam Stacoviak:** Well, how do you combat that then? So it's not advocating "Don't seek perfectionism, don't seek being perfect." It's the opposite of that, which is, "Where do you find your worth?" Maybe even beyond that, how can you be more secure in who you are, who you believe you are, and not rely upon the feedback of others to have that as a foundation?
 
-\[00:12:04.19\] Sure, you're going to have the feedback from others speak into that. It's not so much to decouple it and to remove it. It's just to say-- you said predominant, but what if you can flip that and say, "Well, the majority of my self-worth is derived from what I perceive as my self-worth, versus allowing others to speak into that and change it"?
+\[12:04\] Sure, you're going to have the feedback from others speak into that. It's not so much to decouple it and to remove it. It's just to say-- you said predominant, but what if you can flip that and say, "Well, the majority of my self-worth is derived from what I perceive as my self-worth, versus allowing others to speak into that and change it"?
 
 **Mireille Reece, PsyD:** Yeah. Look, everybody is totally entitled to their own opinion of what they like and what they think is good enough or acceptable, but we're all different. Nobody starts, really, in the same place. I mean, genes play a role, environment plays a role, opportunities... There's so many things that each individual comes to the plate with. So going, "You need to perform at this level" or "Because I perform at that level, so I'm going to hold you to my own expectations" doesn't necessarily work. So it is a decoupling of saying, "I can't solely base my self-perception on the feedback from one, just anyone", and two, "How do I, to some degree, create a filter around the feedback I do get from other people?" I always give the analogy-- not that I can relate with this in any way, but if I were in the grocery store checkout line and the cashier told me about how I was doing as a mom, because my kids were losing their cool as toddlers, for whatever reason... It's not to say he/she couldn't give me feedback give me feedback about how I'm doing as a mom, because my kids are melting down and maybe it's irritating, or whatever... Or I'm not meeting the expectation of parenting at that moment. But does this person know me? Do they know who I am? Do they see me outside of this context? Do they know my children? Do they know what time of day it is? There's so many things that give context to that situation, and so for me to go-- it's not like I might not be affected by what she says, but if I'm to say, my sense of myself as a mother is rooted in the feedback I get from a person working a job at a checkout stand - that's probably not the most helpful feedback.
 
@@ -54,7 +54,7 @@ There's a saying around assume, which we won't say on the show because, hey, tha
 
 **Mireille Reece, PsyD:** Right, and so when we're talking about perfectionism, you said, "What do we do?" Well, I'm gonna back up a little bit, and while we've talked about it in general terms, I want to talk about it from the perspective of how researchers have sought to clarify it. I don't know how familiar our listeners are in terms of different things in terms of research, but doing research, what investigators look at is aspects of reliability or validity. Are you familiar with these?
 
-**Adam Stacoviak:** \[00:15:56.04\] I'm not an expert researcher, but I can imagine you want validity and reliability in your research and the data?
+**Adam Stacoviak:** \[15:56\] I'm not an expert researcher, but I can imagine you want validity and reliability in your research and the data?
 
 **Mireille Reece, PsyD:** Yeah.
 
@@ -88,7 +88,7 @@ So in this, one of the things that they found is it really is this excessive con
 
 **Mireille Reece, PsyD:** Low bar. \[laughs\] So self-oriented perfectionism - I just have these expectations that I've got to adhere to or achieve. Then there's socially-prescribed perfectionism, wherein individuals feel like others expect them to be perfect. And then other-oriented, where individuals place high status on others, so everybody needs to then adhere to Adam's standards for work. That would be really challenging, because who's got the same standard?
 
-**Adam Stacoviak:** \[00:20:10.27\] Yeah.
+**Adam Stacoviak:** \[20:10\] Yeah.
 
 **Mireille Reece, PsyD:** Right? So people experience these different perfectionistic traits to various degrees. So one person might score high on all three, but they might just fall in an extreme in one or two of those, not all of those. So she found that socially-prescribed perfectionism - this researcher, Molnar - this socially-prescribed perfectionism was associated with poor physical health, which then means, guess what else happens? You end up seeing the doctor more often, you probably have to take time off of work in order to go to the doctor, and gave themselves lower scores when it came to rating their own health.
 
@@ -114,7 +114,7 @@ So in this, one of the things that they found is it really is this excessive con
 
 **Adam Stacoviak:** Yeah. I mean, I think there's certainly a requirement to do a job. So if you just break it down to "What do we need someone in this position to do to adequately perform in this position?" That makes sense, you're gonna have that. But the flexibility around that, especially when it comes to somebody else's expectations of it - it can get a little bit fungible, I suppose. Blurry.
 
-**Mireille Reece, PsyD:** \[00:24:04.15\] Right. Yeah. Well, I think about this, for example, in the context of any startup company. When you're doing startup, there's usually a lot of work involved, and a few people are doing a lot of the work.
+**Mireille Reece, PsyD:** \[24:04\] Right. Yeah. Well, I think about this, for example, in the context of any startup company. When you're doing startup, there's usually a lot of work involved, and a few people are doing a lot of the work.
 
 **Adam Stacoviak:** Right.
 
@@ -138,7 +138,7 @@ So it's interesting talking about this too from a research perspective. There's 
 
 **Adam Stacoviak:** Gotcha. Yeah.
 
-**Mireille Reece, PsyD:** \[00:28:09.15\] So these studies took place from the 1980s to today, and examined the relationship between perfectionism and the factors that impact employees' effectiveness. These studies included nearly 25,000 working-age individuals. That's a pretty big sample size. So what they've found, the short answer was this - that perfectionism is a much bigger weakness than job applicants and interviewers probably assume. Results predicted that there were some beneficial workplace outcomes, like perfectionists tend to be more motivated on the job, worked longer hours and can be more engaged. Bbut I don't know that people think about this when they're going about their work or they're interviewing. I always think about things in terms of the question behind the question. Generally speaking, when people ask questions, there's usually another question that's behind the question I'm actually getting.
+**Mireille Reece, PsyD:** \[28:09\] So these studies took place from the 1980s to today, and examined the relationship between perfectionism and the factors that impact employees' effectiveness. These studies included nearly 25,000 working-age individuals. That's a pretty big sample size. So what they've found, the short answer was this - that perfectionism is a much bigger weakness than job applicants and interviewers probably assume. Results predicted that there were some beneficial workplace outcomes, like perfectionists tend to be more motivated on the job, worked longer hours and can be more engaged. Bbut I don't know that people think about this when they're going about their work or they're interviewing. I always think about things in terms of the question behind the question. Generally speaking, when people ask questions, there's usually another question that's behind the question I'm actually getting.
 
 **Adam Stacoviak:** What are you really asking, right?
 
@@ -162,7 +162,7 @@ So it's interesting talking about this too from a research perspective. There's 
 
 **Adam Stacoviak:** Well, that's the awareness that comes into play. It's like, what is making me not do this? ...which can often define the next step towards doing it. You may not be doing something because of the shield we talked about earlier. You may be seeking to do it well, and maybe that's a variation of perfection, but the point is that, when you procrastinate against something, you're shielding from some negative response of some sort, and the next good step can be surmised by examining why you haven't taken the necessary step to reach the goal or do the thing or have the outcome.
 
-**Mireille Reece, PsyD:** \[00:32:00.07\] Yeah. So I think about these-- I'm like, how can I make it even simpler? Excellence-seeking is the relentless burn; like, you've gotta go and go, and burning the candle on both ends phenomenon. Whereas failure-avoiding is the buffering from the bad. I'm always trying to buffer. So am I burning, trying to output as much as I can at my expectation, or am I trying to buffer against shielding? Oh, shoot. It wasn't enough.
+**Mireille Reece, PsyD:** \[32:00\] Yeah. So I think about these-- I'm like, how can I make it even simpler? Excellence-seeking is the relentless burn; like, you've gotta go and go, and burning the candle on both ends phenomenon. Whereas failure-avoiding is the buffering from the bad. I'm always trying to buffer. So am I burning, trying to output as much as I can at my expectation, or am I trying to buffer against shielding? Oh, shoot. It wasn't enough.
 
 **Adam Stacoviak:** I never considered the procrastination side being a dimension, as they say here, a sub-dimension of perfectionism... You know, like the opposite - you're not trying to excel, you're trying to under-excel by not failing, or avoiding failure, and that's an interesting extreme that you see on both sides. Is there a third sub-dimension that's the middle ground there? What's the middle between excellence-seeking and failure avoiding?
 
@@ -180,7 +180,7 @@ So that's the beneficial side, but the detrimental side was stronger for those w
 
 **Adam Stacoviak:** Would it be then if you identify as a perfectionist, and to agree with what this research has said around excellence-seeking and failure-avoiding to balance those two? So if you have more of a balance of those aspects-- so recognizing that as a perfectionist, if this is how you identify, as a perfectionist, I can see, based on this research, and see it in their own work and their own practices and prospectives etc. that they see the excellence-seeking, which is the opposite of failure-avoiding. If you're excellent seeking, you know what you're running away from, which is the failure; and if you're failure-avoiding, you're not so much not seeking the excellence, but you're like delaying or deterring or whatever it might be around certain things, essentially to balance these two as best you can.
 
-**Mireille Reece, PsyD:** \[00:36:20.02\] Right. What is healthy perfectionism then? If you've been listening like, "Okay, well, that's great. Now I know what doesn't work. Tell me what does."
+**Mireille Reece, PsyD:** \[36:20\] Right. What is healthy perfectionism then? If you've been listening like, "Okay, well, that's great. Now I know what doesn't work. Tell me what does."
 
 **Adam Stacoviak:** Yes, please. What does work?
 
@@ -216,7 +216,7 @@ I tend to make sense of this so much in the lane of health and exercise, and goi
 
 **Adam Stacoviak:** I would think so. Yeah, because you're gonna think about-- I'm not really sure how you even define anxiety, but let me take a stab at how it might manifest... If you are concerned about an outcome and you're carefully watching for its progress, the tension that you feel as that comes about or not is anxiousness.
 
-**Mireille Reece, PsyD:** \[00:40:19.14\] Yes, well said.
+**Mireille Reece, PsyD:** \[40:19\] Yes, well said.
 
 **Adam Stacoviak:** It's tension, right?
 
@@ -250,7 +250,7 @@ I tend to make sense of this so much in the lane of health and exercise, and goi
 
 **Mireille Reece, PsyD:** Exactly.
 
-**Adam Stacoviak:** \[00:43:57.15\] ...is the shield, it's who knows you so well that the feedback is worth receiving?
+**Adam Stacoviak:** \[43:57\] ...is the shield, it's who knows you so well that the feedback is worth receiving?
 
 **Mireille Reece, PsyD:** Right, and so with this, it gets a little trickier in the workplace, because I mean, obviously, you're not, most of the time, going to have that relationship with a boss or a colleague.
 
@@ -278,7 +278,7 @@ I tend to make sense of this so much in the lane of health and exercise, and goi
 
 **Mireille Reece, PsyD:** Because my output would have looked different had I had the access to the tool that I wanted.
 
-**Adam Stacoviak:** \[00:46:35.21\] My perspective on this is very specific. So I've recently built several mountain bikes, and it's interesting to build a bike from the frame up. And what I learned was that having the right tool is crucial.
+**Adam Stacoviak:** \[46:35\] My perspective on this is very specific. So I've recently built several mountain bikes, and it's interesting to build a bike from the frame up. And what I learned was that having the right tool is crucial.
 
 **Mireille Reece, PsyD:** Yes.
 

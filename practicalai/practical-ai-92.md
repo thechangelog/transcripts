@@ -6,7 +6,7 @@ We're gonna continue to try to bring a focus on explainability and bias and fair
 
 If you have questions about anything related to AI and policing and fairness and bias and all of those things, we'd love to have a discussion with you about that. You can reach out to us any time on Twitter or on our Slack channel or on our LinkedIn page, and we'd love to have those discussions. I'd love to hear what you're thinking about our content and about AI and fairness and bias in general. So please reach out, and I hope that this episode is useful and beneficial for you.
 
-**Intro:** \[00:01:52.15\]
+**Intro:** \[01:52\]
 
 **Daniel Whitenack:** Welcome to another Fully Connected episode of Practical AI, where Chris and I keep you fully-connected with everything that's happening in the AI community. We'll take some time to discuss some of the things and the latest AI news, and we'll be digging into some learning resources to help you level up your machine learning game.
 
@@ -22,7 +22,7 @@ I'm Daniel Whitenack, I'm a data scientist with SIL International, and I'm joine
 
 **Chris Benson:** I did, and I was staying socially-distanced, and I did that despite the fact that officially Georgia was the first state to open up...
 
-**Daniel Whitenack:** \[00:04:07.22\] Yeah, that's true... And it was something weird; it was like pool halls and tattoo parlors, or something...
+**Daniel Whitenack:** \[04:07\] Yeah, that's true... And it was something weird; it was like pool halls and tattoo parlors, or something...
 
 **Chris Benson:** Everything about it was weird. It really, really was. You look at the things and go "Why did they choose that...?"
 
@@ -74,7 +74,7 @@ So by the time I got him free, I looked like I was an axe murderer, with blood r
 
 **Daniel Whitenack:** Yeah, for sure, for sure. So what else is on your mind, Chris?
 
-**Chris Benson:** \[00:07:54.22\] Well, I'll tell you what I was thinking about... When we knew that we were gonna start planning this, I've had something on my mind for a while, and that is that we've started to allude to it in recent episodes this year... And that is the fact that we're kind of getting to a turning point in the entire field of artificial intelligence. While we have been so very focused on deep learning for the last few years, and pretty much the entire time we've been doing this podcast, we're starting to get to a point where a lot of the big advancements seem to have come out, and we're seeing a lot of incremental stuff.
+**Chris Benson:** \[07:54\] Well, I'll tell you what I was thinking about... When we knew that we were gonna start planning this, I've had something on my mind for a while, and that is that we've started to allude to it in recent episodes this year... And that is the fact that we're kind of getting to a turning point in the entire field of artificial intelligence. While we have been so very focused on deep learning for the last few years, and pretty much the entire time we've been doing this podcast, we're starting to get to a point where a lot of the big advancements seem to have come out, and we're seeing a lot of incremental stuff.
 
 And that's not to say we won't see some big advancements continue going forward, but it's kind of becoming a little bit mature in terms of there are models of various types - CNNs, in the NLP space; we've talked about BERT, GPT-2, and everything... But we're kind of finding ourselves focusing heavily on the next version of the same model, to some degree, and the variants that are there.
 
@@ -94,7 +94,7 @@ And between the NeurIPS talk and DARPA's perspective, and a bunch of others that
 
 **Daniel Whitenack:** Yeah, definitely... And I guess I can bring the practical side in here. I will admit that with any sort of conversation about AGI, or general intelligence, or next things, I often come in with a good amount of cynicism, and I probably don't give it the respect that it's deserved in terms of the discussion... But I will say that some of this stuff that you forwarded me, and also the NeurIPS keynote, which we'll link to in our show notes - it was definitely interesting, and there were elements of what he's talking about as far as system 2 AI, that are rooted in things that are being explored and experimented with, and that sort of thing...
 
-\[00:12:18.00\] So it's not so much like Terminator scenario, or singularity talk, but more kind of -- like you're saying, pushing beyond this sort of very limited, task-oriented models, to maybe something slightly differently, or at least things that operate in a slightly different way... So yeah, I'll try to get off of my limited imagination a little bit, to discuss things.
+\[12:18\] So it's not so much like Terminator scenario, or singularity talk, but more kind of -- like you're saying, pushing beyond this sort of very limited, task-oriented models, to maybe something slightly differently, or at least things that operate in a slightly different way... So yeah, I'll try to get off of my limited imagination a little bit, to discuss things.
 
 **Chris Benson:** \[laughs\] That's funny.
 
@@ -116,7 +116,7 @@ Of course, there's multilingual models, I totally realize that now, but I think 
 
 **Chris Benson:** Yeah, we do... And part of it comes from working in this field... And that is, as working people in artificial intelligence, the sex-appeal quickly drops away, that it appears to be from the outside... And you are grinding through working with data, and you are trying to create models, and testing them, and trying to fix it, and it's no different from any other type of engineering, essentially. You're getting work done. And I know both of us are also software developers, and there's a lot in common. It's a very bread-and-butter kind of thing, which most people don't think of AI as about, but when you're working in the field, it really is.
 
-**Daniel Whitenack:** \[00:16:03.09\] Yeah, I tell people - it's not like you stick your laptop in a corner and sprinkle some fairy dust over it and it becomes sentient and starts learning. Essentially, what we're doing is a very dumb thing. We're doing trial and error, right?
+**Daniel Whitenack:** \[16:03\] Yeah, I tell people - it's not like you stick your laptop in a corner and sprinkle some fairy dust over it and it becomes sentient and starts learning. Essentially, what we're doing is a very dumb thing. We're doing trial and error, right?
 
 **Chris Benson:** Absolutely.
 
@@ -128,11 +128,11 @@ But what we sometimes lose sight of as engineers working with the here and now o
 
 As we look at that and try to figure out where we're going - and we're getting a call from luminaries now about turning that page into the next things... So that was really what I wanted to start talking a little bit about on this episode - just give us a little bit of context for the future and where we would go next.
 
-**Break:** \[00:18:20.12\]
+**Break:** \[18:20\]
 
 **Daniel Whitenack:** One of the things that I enjoyed about some of the material that I was looking at when you pointed me to the NeurIPS talk, and then I followed some additional links after that, and was exploring things, is this idea of system one versus system two thinking. I think this is an idea that was developed in a book by a leading economist, "Thinking, Fast and Slow" - this idea of system one thinking, which are those things that we as humans think about (or the tasks) that don't really require any sort of slow thinking, or we don't have to slow down to figure it out. I have my coffee cup by my desk, and I want to take a drink, so I just pick up the cup and I take a drink... I don't have to take a moment, get out the chalkboard, write out how I'm gonna pick up the coffee cup, write some papers in academic journals about my unique method for doing it, and then do it.
 
-**Chris Benson:** \[00:20:16.23\] \[laughs\]
+**Chris Benson:** \[20:16\] \[laughs\]
 
 **Daniel Whitenack:** It's just something that I just pick up. I don't even have to expend -- like, I have to have the thought to pick it up, and I have to do the motion, but I don't have to slow down my life to think about how to do it, right?
 
@@ -154,7 +154,7 @@ Was that idea of the different ways of thinking - did that resonate with you as 
 
 With attention, it's the ability to focus on one or just a few elements at a time, and we've seen that now crop up in a variety of deep learning algorithms, at a kind of basic level. It's definitely in some NLP areas, and you're seeing it pop up in others as well, based on those successes. And the ability to have what they're referring to as soft attention, which essentially allows you to focus on the things that you need, but they also evolve over time, and it's very much kind of encompassed by the idea of short-term memory... And Joshua notes that attention is an internal action, and it needs a learned attention policy. All this kind of starts also feeding into consciousness, in terms of if you think of consciousness not as a wishy-washy thing - and I'm just horrified, by the way, as an aside, at how poorly I'm doing at explaining this after seeing his amazing keynote...
 
-**Daniel Whitenack:** \[00:23:50.20\] \[laughs\] You're doing beautiful.
+**Daniel Whitenack:** \[23:50\] \[laughs\] You're doing beautiful.
 
 **Chris Benson:** Oh, my gosh... I'm taking a master's work and just killing it. But he talks about the need for consciousness to be defined computationally. So not to be this kind of wishy-washy, ethereal idea that we think of it as typically in our daily life, but something that you can identify algorithmically. The nature of consciousness is very short-term in memory, it requires attention...
 
@@ -170,7 +170,7 @@ I think that, like you say, practitioners who work in this every day - there's s
 
 **Chris Benson:** I agree. As a matter of fact, just as a note - the time horizon to get to AGI has so many steps between here and there, and it will likely be long enough out, whatever that time length is. I can totally understand why people would doubt that we're ever gonna get there. And a while back - you know, I do this Atlanta Deep Learning Meetup, and a while back we had dueling sessions where I was kind of arguing toward why we would get to the concept of AGI, and another friend of mine there took a different session and argued why that was just fantasy. And I still think I'm right on that, no surprise, but I can totally get why he would not think that that is a realistic thing... And that is because as we do what we do as practitioners, it is so many steps out it feels infinite. It feels like that thing that you're never gonna reach. So I'm sympathetic to people...
 
-\[00:28:16.06\] I think that the work we're doing right now, and all the work we've done in deep learning, as different as that is from the neuroscience of a human brain, that it's still incremental steps to get us there. We are learning from what is working and what is not working, and we are learning from the unexpected side effects, and things like that... And every little bit of that pushes us farther down that road.
+\[28:16\] I think that the work we're doing right now, and all the work we've done in deep learning, as different as that is from the neuroscience of a human brain, that it's still incremental steps to get us there. We are learning from what is working and what is not working, and we are learning from the unexpected side effects, and things like that... And every little bit of that pushes us farther down that road.
 
 So I do think we're eventually gonna get there, and I think there's giant implications, which we can talk about a little bit later in this episode, about what that means, and legal aspects and all that other stuff around it.
 
@@ -180,13 +180,13 @@ He's been in the game a long time, and has continually just innovated over time,
 
 So I definitely think you're right that these sort of mechanisms -- and that comes about by thinking of "Okay, what sort of mechanism do we need to push things further?" Well, attention was developed, and self-attention, and transformers... And that pushed those systems to this new sort of level. So I think that there's gonna continue to be those things that are developed, and it requires a different way of thinking. So yeah, it's a good point.
 
-**Break:** \[00:30:47.16\]
+**Break:** \[30:47\]
 
 **Chris Benson:** So I wanted to talk about the other thing that we introduced at the beginning, and that was the DARPA perspective. And I introduced DARPA for the purpose of making sure everybody was on board with what that was... But it's really interesting to see them kind of looking out; it's a great lens to read up on what DARPA is doing, and what kinds of solicitations and announcements they're making out there in the public space... Because you may be able to infer kind of where things are going over the next decade or two in doing... Because that's their mission. It's kind of funny, kind of the hollywoodish version of DARPA - it was like a spy agency, or something.
 
 **Daniel Whitenack:** Men in Black sort of stuff.
 
-**Chris Benson:** \[00:32:14.03\] Yeah, really. There was a -- I won't name the book; I'm not sure if I can remember it, but a friend of mine asked me to read a book, and I stopped at the first chapter, because the whole premise of the book was like DARPA, which was like this spy agency, was sending agents out into the field to do nefarious things, and I was like "I just can't take that." It's so far from reality.
+**Chris Benson:** \[32:14\] Yeah, really. There was a -- I won't name the book; I'm not sure if I can remember it, but a friend of mine asked me to read a book, and I stopped at the first chapter, because the whole premise of the book was like DARPA, which was like this spy agency, was sending agents out into the field to do nefarious things, and I was like "I just can't take that." It's so far from reality.
 
 What DARPA is essentially - and this will probably offend them, do dumb it down this much... But it's essentially a giant project management office. Their mission is to look at what are the next great technologies that are gonna lead us into the future... And many of those things, even though they may be looking with a military view, end up out in the general population, just as the internet did. So it really does affect our daily life, eventually.
 
@@ -200,7 +200,7 @@ And then we eventually got to this point that we're at now, where we've been in 
 
 So what DARPA is really looking for are organizations - academic, industry, within the military itself, that are interested in this idea of contextual adaptation, where you're essentially pushing all of those characteristics as far as you can, and you are able to perceive, form a contextual model, and learn, abstract, reason, and really all of those concepts that really lead eventually to the AGI concept that we've been talking about, are seeing at least the next stage of realization. There may be many waves after this potentially, but it's kind of taking us from where we are now in 2020 as we record this, into the next some-odd years of what this is likely to be.
 
-\[00:36:23.23\] So that framework - I keep coming back to that in my own professional life, and I think it's really important that we start recognizing that maybe we're seeing a fairly mature, statistical, learning marketplace, if you will. And people are able to put into production all these great deep learning models... But a lot of the really cool research, as we saw with that NeurIPS keynote, are now focused on what in this context would be the third wave, and what in that context was system two.
+\[36:23\] So that framework - I keep coming back to that in my own professional life, and I think it's really important that we start recognizing that maybe we're seeing a fairly mature, statistical, learning marketplace, if you will. And people are able to put into production all these great deep learning models... But a lot of the really cool research, as we saw with that NeurIPS keynote, are now focused on what in this context would be the third wave, and what in that context was system two.
 
 **Daniel Whitenack:** Yeah, since we're talking a lot about generalization, and also perceiving an environment and making sequential series of decisions, so solving these sort of longer, or thinking slow-type problems, it seems like a lot of the time when they're referring to these things, my mind seems to go to reinforcement learning... And I know that that's something obviously that OpenAI is working on, but it also strikes me that reinforcement learning is not a new thing, right? It's been around since the 1950's, I think, even as an idea... So I wonder, if that's a big piece of this third-wave or system two thinking or however it's framed - if that's so valuable, why has it not pushed forward more rapidly into kind of standard practice, and practical implementations, and it's still a playing Atari sort of scenario, and maybe not as practical as a lot of data scientists using it, and that sort of thing. Do you think that's because of the models that are being used within the reinforcement learning framework, or is it because attention wasn't placed on it, or...?
 
@@ -212,7 +212,7 @@ This is used in robotics, and in other places, but it seems like most data scien
 
 I guess my question is kind of getting towards like if that's to become a more pillar of this sort of new way of thinking, is that just because we haven't been trying to solve those types of problems, or the models applied within reinforcement learning weren't good enough yet?
 
-**Chris Benson:** \[00:39:57.19\] Well, it's only my opinion, but my sense of it is that we're still early days in reinforcement learning, and this current incarnation, by the way - to take any confusion away from people - is called deep reinforcement learning, where we're applying the traditional deep learning ideas such as having a bunch of nodes that are connected, and you have a back-propagation that is doing \[unintelligible 00:40:17.12\] and applying that within this learning model which we call reinforcement learning... Which wasn't always -- it originally had nothing to do with deep learning. So we took something that existed...
+**Chris Benson:** \[39:57\] Well, it's only my opinion, but my sense of it is that we're still early days in reinforcement learning, and this current incarnation, by the way - to take any confusion away from people - is called deep reinforcement learning, where we're applying the traditional deep learning ideas such as having a bunch of nodes that are connected, and you have a back-propagation that is doing \[unintelligible 00:40:17.12\] and applying that within this learning model which we call reinforcement learning... Which wasn't always -- it originally had nothing to do with deep learning. So we took something that existed...
 
 **Daniel Whitenack:** Yeah, it's independent of what type of model you use it in.
 
@@ -230,7 +230,7 @@ But I think we're really early days, and I think it's a transitional technology,
 
 **Daniel Whitenack:** Yeah, even for wave two or system one AI.
 
-**Chris Benson:** \[00:43:44.22\] Absolutely. We were way behind, even in system one, or wave two, as you said... And as that starts to evolve toward system two and wave three, we are still trying to figure out what that means. That fast change makes it even harder. And that has a lot to do with how these technologies are gonna interact with us, the human actors, side-by-side, and all this working together as a system.
+**Chris Benson:** \[43:44\] Absolutely. We were way behind, even in system one, or wave two, as you said... And as that starts to evolve toward system two and wave three, we are still trying to figure out what that means. That fast change makes it even harder. And that has a lot to do with how these technologies are gonna interact with us, the human actors, side-by-side, and all this working together as a system.
 
 So it's gonna be interesting in the years ahead to see how the evolution of human culture, be it laws, be it regulations, be it ethics, starts to constrain or shape the future of these technologies as they evolve. It's not strictly a technical conversation, which we have a habit as engineers to fall back into.
 

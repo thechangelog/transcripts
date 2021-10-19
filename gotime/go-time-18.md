@@ -24,7 +24,7 @@ I started writing a blog alongside of the screencasts, did some longer screencas
 
 **Aaron Schlesinger:** Yeah, it's kind of both. I have my repo on GitHub, basically it's just all the issues or requests for screencasts. There's a couple in there to remind me to fix the site, or something, but almost all of it, the vast majority is people asking about, "Can I get a screencast on how to use the SQL package?" or how to do some specific thing with net/http and what have you. So about half of the screencasts are in response to those, and the other half are just things that I've seen that might be underutilized or new, or something like that, and I just try and distill it down into that 5-minute format.
 
-\[00:03:49.20\] I try to make sure that each screencast has no prior dependencies. Some of the screencasts will be like, "If you have seen this screencast, it will help you, but you don't need it." But most of them are just like, you start at minute one and it takes you all the way through to the end. My goal is by the end you at least know the basic building blocks for how to get something done. Then, if you want to go into more detail, I put on the site the equivalent of the show notes - links to good blog posts and good documentation and so forth, for people who wanna dive a little deeper.
+\[03:49\] I try to make sure that each screencast has no prior dependencies. Some of the screencasts will be like, "If you have seen this screencast, it will help you, but you don't need it." But most of them are just like, you start at minute one and it takes you all the way through to the end. My goal is by the end you at least know the basic building blocks for how to get something done. Then, if you want to go into more detail, I put on the site the equivalent of the show notes - links to good blog posts and good documentation and so forth, for people who wanna dive a little deeper.
 
 **Erik St. Martin:** I think this is really interesting. It's kind of along the same lines of the posts that Ben Johnson has been doing, kind of giving people little stuff to chew on for net/http or things like that, introducing people more to the standard library. I'm seeing that more and more as kind of like a pattern where you're exposing people to these things they might not be familiar with.
 
@@ -50,7 +50,7 @@ I think that's building on kind of where we're at with the language too, because
 
 **Erik St. Martin:** So talk to us about what some of the most popular ones are. Do you have ones that get exponentially more viewings and followings that others, or is it pretty scattered?
 
-**Aaron Schlesinger:** \[00:07:41.19\] I think the number one by far is how to write a full stack web application, all the way from database access, down to serving up templates and writing JavaScript. That one was how to do it with just the standard library. I think that one had like 5,000 views after the first week. The rest of them, maybe they get to 1,000 views in the first couple weeks. I don't know what the second or third would be, but that one's the top.
+**Aaron Schlesinger:** \[07:41\] I think the number one by far is how to write a full stack web application, all the way from database access, down to serving up templates and writing JavaScript. That one was how to do it with just the standard library. I think that one had like 5,000 views after the first week. The rest of them, maybe they get to 1,000 views in the first couple weeks. I don't know what the second or third would be, but that one's the top.
 
 **Brian Ketelsen:** Hang on a second... You did that in five minutes?
 
@@ -72,7 +72,7 @@ In any case, going back to the design patterns question that I have - how do you
 
 I try to take from all three, but I wouldn't say I have a specific strategy or algorithm for figuring out where to take design patterns from and how to present them.
 
-**Erik St. Martin:** \[00:11:58.27\] We had Dave Cheney on the show two episodes ago (episode 16) and we were talking a little bit about design patterns and how they came about. How do you see the design patterns as we know them in The Gang Of Four book applying to Go? What's your opinion on how they kind of fall in? Should we be trying to leverage all of these things inside of Go, or do you think that there's certain mechanics about the language that we should try to stick more to Go ways of doing things and not necessarily adopt all of these patterns?
+**Erik St. Martin:** \[11:58\] We had Dave Cheney on the show two episodes ago (episode 16) and we were talking a little bit about design patterns and how they came about. How do you see the design patterns as we know them in The Gang Of Four book applying to Go? What's your opinion on how they kind of fall in? Should we be trying to leverage all of these things inside of Go, or do you think that there's certain mechanics about the language that we should try to stick more to Go ways of doing things and not necessarily adopt all of these patterns?
 
 **Aaron Schlesinger:** I'd say technically of course it's possible, I think probably possible to do every single one of the Gang Of Four design patterns. But I think that Go simplicity is actually very powerful. I think Dave did a talk - it was either Dave or Rob Pike... One of those two, or maybe even both - they did a talk on basically saying, "Simplicity is hard and simplicity is powerful." That's my mantra. I watched and read the slides for that talk, and that's kind of what I try to live by with Go.
 
@@ -82,7 +82,7 @@ If you take a builder pattern, design pattern, something like that, and you brin
 
 **Erik St. Martin:** Well, that was kind of Dave's talk too, about the SOLID design, talking about single responsibility, open and closed, and the key points that will make software more maintainable, and then looking at design patterns as how they apply to that, whether they make things more complicated, and just recognizing this stuff. That's the whole thing, right? Design patterns are neither good, nor bad. Well, they're mostly good, but it's not religion. We don't have to look at some problem and then shop for the design pattern to solve that. It's okay to have things that are custom too, if it simplifies your design without creating a lot of coupling or things like that.
 
-**Aaron Schlesinger:** \[00:15:53.10\] Yeah. I think since I started writing Go, I kind of started to look at design patterns like just a recipe. If you're a cook, you wanna make an apple pie, you're gonna probably go to a couple different recipes to get the feel for how to make this pie; what's the general stuff that goes into it, how generally do you cook it, and then you're gonna probably make it your own after maybe a couple pies, after you cook for maybe a month or so. That's what I think the Go community is doing and should be doing. We're not just taking -- I keep going back to builders, so I'll continue there... We're not just taking builder from Java or C++. I've seen a couple different implementations of it, some of which are way simpler than the Gang of Four book, or what we see in Java.
+**Aaron Schlesinger:** \[15:53\] Yeah. I think since I started writing Go, I kind of started to look at design patterns like just a recipe. If you're a cook, you wanna make an apple pie, you're gonna probably go to a couple different recipes to get the feel for how to make this pie; what's the general stuff that goes into it, how generally do you cook it, and then you're gonna probably make it your own after maybe a couple pies, after you cook for maybe a month or so. That's what I think the Go community is doing and should be doing. We're not just taking -- I keep going back to builders, so I'll continue there... We're not just taking builder from Java or C++. I've seen a couple different implementations of it, some of which are way simpler than the Gang of Four book, or what we see in Java.
 
 I think that there's not just one builder pattern now in Go. I think that there's kind of, your mileage may vary, and some of the patterns work better for situations than others, and I think that's a great thing. That's evolution.
 
@@ -96,7 +96,7 @@ So I think we look at our own problems differently, and I'm interested to see ho
 
 **Aaron Schlesinger:** Yeah, absolutely. If people can go back to that cookbook and say, "Oh, this looks pretty similar to visitor pattern..." The other thing I was gonna say, on your point, Carlisia, the Go programming language now is starting to give birth to concurrency design patterns that C++ and Java can't really do, because they don't have a first-class channel or a first-class lightweight thread primitive.
 
-\[00:20:01.26\] So it's even more important I think for people to be able to pick up things like the barrier pattern using WaitGroups and using Goroutines and then adapt to their needs. Because there's so many ways you can use that pattern, for example.
+\[20:01\] So it's even more important I think for people to be able to pick up things like the barrier pattern using WaitGroups and using Goroutines and then adapt to their needs. Because there's so many ways you can use that pattern, for example.
 
 **Erik St. Martin:** Yeah, and I think we see stuff, you know, fan-in, fan-out, and things like that, that become so much simpler because we have the concept of the channels. It becomes so much easier to do things like that.
 
@@ -140,7 +140,7 @@ When you're watching an even stream that screams concurrency, once it screams co
 
 **Erik St. Martin:** I was just gonna say, what is this? Just a four-loop curling out, long-polling?
 
-**Aaron Schlesinger:** \[00:27:50.17\] Yeah, it would sleep for two seconds and then poll the Kubernetes API. I made the decision to make the plunge after we started getting bug reports where people were saying, "Oh, it missed the pod!" Because the pod would start up and then die within that two seconds. So that's when we took the plunge, we rewrote all that in Go, and just kind of never looked back. That was the benchmark that made us decide we're gonna move forward and start writing everything in Go.
+**Aaron Schlesinger:** \[27:50\] Yeah, it would sleep for two seconds and then poll the Kubernetes API. I made the decision to make the plunge after we started getting bug reports where people were saying, "Oh, it missed the pod!" Because the pod would start up and then die within that two seconds. So that's when we took the plunge, we rewrote all that in Go, and just kind of never looked back. That was the benchmark that made us decide we're gonna move forward and start writing everything in Go.
 
 We still have some old stuff in Python and it's working great. Our API server is actually all Python, and Python is super well suited for that. But the other components - our logging system is all in Go, that deals with consuming and fanning out tons of log data. We have a log storage system, same thing; built on Redis, but the whole multiplexer for all the data just fans into Redis, collates all the data. We've got this plugin system that can push the data all out to... I think we've got like 7 or 8 community-generated plugins, and stuff.
 
@@ -180,7 +180,7 @@ The Go choice there has been super helpful, because just by virtue of its simpli
 
 **Brian Ketelsen:** It applies, we're just getting deep.
 
-**Aaron Schlesinger:** \[00:31:57.10\] Yeah, and you know, to take it back to Go for a second, the Kubernetes codebase is extremely interesting from a, maybe we can say an etymology standpoint; the original codebase was kind of written like Java, and then it open-sourced, and then people outside of Google started contributing, and now it's like this crazy mix of Java-like code, idiomatic code, code from other organizations...
+**Aaron Schlesinger:** \[31:57\] Yeah, and you know, to take it back to Go for a second, the Kubernetes codebase is extremely interesting from a, maybe we can say an etymology standpoint; the original codebase was kind of written like Java, and then it open-sourced, and then people outside of Google started contributing, and now it's like this crazy mix of Java-like code, idiomatic code, code from other organizations...
 
 **Erik St. Martin:** ...generated code...
 
@@ -208,7 +208,7 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Brian Ketelsen:** But look at the gigantic gains that we got just in 1.7; I can't wait 'till people have some time to actually work on some enhancements to that. I think 1.8, 1.9, 1.10 are gonna be amazingly fast and stable and awesome.
 
-**Erik St. Martin:** \[00:36:06.02\] Yeah, especially when more people start getting in and writing the SSA rules. That's far beyond my ability to start looking at assembly language and coming up with these rules.
+**Erik St. Martin:** \[36:06\] Yeah, especially when more people start getting in and writing the SSA rules. That's far beyond my ability to start looking at assembly language and coming up with these rules.
 
 **Brian Ketelsen:** Well, speaking of 1.9, Vim Go 1.9 was released. We've got a lot of Vim Go lovers. That was a big release.
 
@@ -256,7 +256,7 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Carlisia Thompson:** So it was just made public that Steve Francia is joining the Go Language Team at Google. So happy about that! He wrote a blog post talking about what his role will be. It seems pretty awesome.
 
-\[00:39:53.19\] The other thing I wanted to mention is there is a repo with patterns in Go, and it looks pretty cool. It has an accompanying website with tables for each type of patterns, and a bunch of patterns inside each table, with the status. The status means if there is a code implementation for that or not, and it seems whoever is in charge of this is putting code forward, that corresponds to each of the patterns.
+\[39:53\] The other thing I wanted to mention is there is a repo with patterns in Go, and it looks pretty cool. It has an accompanying website with tables for each type of patterns, and a bunch of patterns inside each table, with the status. The status means if there is a code implementation for that or not, and it seems whoever is in charge of this is putting code forward, that corresponds to each of the patterns.
 
 **Erik St. Martin:** Wow, this is Gang Of Four for Go. Do you see this link, Aaron?
 
@@ -278,7 +278,7 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Brian Ketelsen:** Let's take just a minute and thank our second sponsor, which is Backtrace.
 
-**Break:** \[00:41:42.24\]
+**Break:** \[41:42\]
 
 **Erik St. Martin:** I'm still caught up on these design patterns for Go, like holy cow! \[laughter\]
 
@@ -290,7 +290,7 @@ As long as people are continuously refactoring a little bit to make more idiomat
 
 **Carlisia Thompson:** I'm glad you mentioned that, Brian, because as we were talking before, I was thinking, wouldn't it be great if somebody could compile these idioms that at least you have been talking about, that Go has, that could be used in place of design patterns? If we could have a compilation of things and talk, like you were saying; this would be a good chance to do that. Here's the design pattern, here's how you would do it by using idioms in Go, without actually having to do a full-blown implementation of the design pattern.
 
-**Erik St. Martin:** \[00:43:54.11\] Yeah, more like, you know, you may be used to solving this with this pattern and this language, but this would be the way you would solve the same problem in Go.
+**Erik St. Martin:** \[43:54\] Yeah, more like, you know, you may be used to solving this with this pattern and this language, but this would be the way you would solve the same problem in Go.
 
 **Carlisia Thompson:** Exactly.
 
@@ -358,7 +358,7 @@ Alright, so I think we are about out of time... Oh, the other thing - anybody wh
 
 **Erik St. Martin:** Somebody needs to go out and tell the rest of the troops.
 
-**Brian Ketelsen:** \[00:47:58.00\] I retweeted it, isn't that enough?
+**Brian Ketelsen:** \[47:58\] I retweeted it, isn't that enough?
 
 **Carlisia Thompson:** Yeah, Erik, everybody retweeted it. \[laughter\]
 
@@ -404,7 +404,7 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Carlisia Thompson:** Oh, there are so many.
 
-**Aaron Schlesinger:** \[00:52:03.26\] Does anyone know how many are in Awesome-Go?
+**Aaron Schlesinger:** \[52:03\] Does anyone know how many are in Awesome-Go?
 
 **Erik St. Martin:** I need to look at Awesome-Go more often... It's been a while. It's probably been a couple of months since I've looked at Awesome-Go to see if anything new is there. But it's so big now, how would you even know? You need to export it and do a diff...
 
@@ -420,7 +420,7 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Erik St. Martin:** Well, if it's a good segue, go ahead.
 
-**Aaron Schlesinger:** Alright... Well, I wanted to mention a library by Sam Boyer called GPS. It is a library that basically you import into your code; it's about ten lines of code, and you can get the entire dependency tree for any package, in a Go data structure. On top of it, it's being brought into the Glide project, which if you don't know it's a package manager for Go. It's also going to be used, I predict, inside of Peter Burjon's \[00:53:35.19\] working group to do better package management in Go. So I predict that this project is going to be used in whatever solution they come out with. Eventually, we're going to have something like NPM search for Go, which would be amazing.
+**Aaron Schlesinger:** Alright... Well, I wanted to mention a library by Sam Boyer called GPS. It is a library that basically you import into your code; it's about ten lines of code, and you can get the entire dependency tree for any package, in a Go data structure. On top of it, it's being brought into the Glide project, which if you don't know it's a package manager for Go. It's also going to be used, I predict, inside of Peter Burjon's \[53:35\] working group to do better package management in Go. So I predict that this project is going to be used in whatever solution they come out with. Eventually, we're going to have something like NPM search for Go, which would be amazing.
 
 **Erik St. Martin:** That kind of reminds me... There was another tool that I saw come out - I can't remember where it was or who mentioned it, but it basically does the whole visualization of your dependency tree for your project. For the life of me, I can't remember what the project name was, but I will link to it in the show notes, because I will find it; my brain won't be able to let it go. It basically drew out a big graph of your dependencies.
 
@@ -456,7 +456,7 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Brian Ketelsen:** Yeah, he's awesome.
 
-**Aaron Schlesinger:** \[00:56:08.12\] He DM-ed me on Slack when he first started Caddy. He said, "Do you think Caddy is an okay name to use?" I said, "Well, what does it do?" He said, "It's a better web server." I said, "I don't care what you name it, build that! \[laughter\] People will use that."
+**Aaron Schlesinger:** \[56:08\] He DM-ed me on Slack when he first started Caddy. He said, "Do you think Caddy is an okay name to use?" I said, "Well, what does it do?" He said, "It's a better web server." I said, "I don't care what you name it, build that! \[laughter\] People will use that."
 
 **Brian Ketelsen:** You can call it Bob, we don't care.
 

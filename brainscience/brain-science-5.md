@@ -18,7 +18,7 @@ That being said, I wanna delineate the difference between even our brain, versus
 
 **Mireille B. Reece, Psy.D:** Yeah...
 
-**Adam Stacoviak:** \[00:04:17.20\] There's different systems that sort of incorporate the ability for the symphony to sound good, you know what I mean?
+**Adam Stacoviak:** \[04:17\] There's different systems that sort of incorporate the ability for the symphony to sound good, you know what I mean?
 
 **Mireille B. Reece, Psy.D:** Exactly, yeah. And just like when we're looking at physical health -- I mean, think about the way in which our understanding of nutrition has changed over the years. Is it the same today, even as it was six months ago, or four years ago? No.
 
@@ -44,7 +44,7 @@ So I'm looking at these fundamentals physically as sleep, food, and activity. So
 
 Let's say someone's on a speaking circuit and they've gotta travel quite a bit for a quarter of the year. Well, their sleep probably goes down, their activity goes in haywire, their routines and all that stuff get off-track... And you wonder why you hit this state of burnout, or this stage of just inability to do the day-to-day as easily as you had been able to beforehand. Well, it's because you've really taxed all of your core systems.
 
-**Mireille B. Reece, Psy.D:** \[00:08:05.19\] Yeah, exactly. I think it's helpful maybe if we talk about these things in terms of knowns and unknowns. There are generally things that are going to work for all people, all humans, regardless, and then there's specifics; those unknowns that are relative to individuals.
+**Mireille B. Reece, Psy.D:** \[08:05\] Yeah, exactly. I think it's helpful maybe if we talk about these things in terms of knowns and unknowns. There are generally things that are going to work for all people, all humans, regardless, and then there's specifics; those unknowns that are relative to individuals.
 
 **Adam Stacoviak:** Right. Their experiences in life... You've mentioned loss before - whether or not they've lost a parent, or a loved one... Unique things that happen in individual lives.
 
@@ -74,7 +74,7 @@ Let's say someone's on a speaking circuit and they've gotta travel quite a bit f
 
 **Mireille B. Reece, Psy.D:** Athletes really know this - if they want to do better, they're going to sleep more. Because it allows your muscles to repair... Even in exercise, what happens when we're building muscle is ironically we create small tears in the muscle fibers, so there has to be time for the repair to occur, and if I don't rest, which is why I need to have a sort of rhythm of rest amidst my life in order for all the repairs to take place.
 
-**Adam Stacoviak:** \[00:12:11.10\] Yeah. That's actually a great point, because when we sleep, that's when people often even burn a lot of fat, too. There's a lot of fat-burning, there's a lot of digestive things happening at sleep, there's a lot of things (like you'd mentioned) in muscle repair etc. And I don't know why our brains need to sleep, why our bodies need to sleep, but for whatever reason it does significantly contribute to our physical health and our mental health.
+**Adam Stacoviak:** \[12:11\] Yeah. That's actually a great point, because when we sleep, that's when people often even burn a lot of fat, too. There's a lot of fat-burning, there's a lot of digestive things happening at sleep, there's a lot of things (like you'd mentioned) in muscle repair etc. And I don't know why our brains need to sleep, why our bodies need to sleep, but for whatever reason it does significantly contribute to our physical health and our mental health.
 
 Something I learned several years ago - I heard somebody on the stage say "Work eight, play eight, and sleep eight." So while I may not success everyday at that, that's my goal. That's what I'm optimizing for. And I'm terribly doing one of those right now, which is sleep. I'm in a cycle right now where sleep is -- I get it, but it's not perfect right now. And I realize how that's taxing on me, too. My optimization is I wanna work eight, I wanna play eight, and I wanna sleep eight.
 
@@ -102,7 +102,7 @@ I wanna say, your will and your choices really play a critical role in that traj
 
 **Mireille B. Reece, Psy.D:** Yes...!
 
-**Adam Stacoviak:** \[00:16:13.08\] So often do we take vacations, and -- I'm always pretty critical, and I'm always trying to maintain some sort of healthy food direction, similar to my North Star with "work eight, play eight, sleep eight". I try to say "I wanna eat healthy. It's okay to have a bad day, but get back on the track." I'm not a failure because I didn't do well this day, but so often do I attempt to go into a vacation with some sort of plan of maintaining my healthy eating, and by day four I'm like "You know what - let me give myself at least a break... Because I deserve it, right?"
+**Adam Stacoviak:** \[16:13\] So often do we take vacations, and -- I'm always pretty critical, and I'm always trying to maintain some sort of healthy food direction, similar to my North Star with "work eight, play eight, sleep eight". I try to say "I wanna eat healthy. It's okay to have a bad day, but get back on the track." I'm not a failure because I didn't do well this day, but so often do I attempt to go into a vacation with some sort of plan of maintaining my healthy eating, and by day four I'm like "You know what - let me give myself at least a break... Because I deserve it, right?"
 
 **Mireille B. Reece, Psy.D:** Yeah, you're exactly right. That's the second key thing when it comes to the physical aspect of managing our mental health - it's food. Food provides us energy. So in the same way - if I don't put gas in my car, I'm not gonna get anywhere. I'm not going anywhere. So it is that I have no energy input to provide output. And our brains need food and fuel.
 
@@ -142,7 +142,7 @@ We've talked about much of our template comes from having kids and raising kids,
 
 **Adam Stacoviak:** Yes.
 
-**Mireille B. Reece, Psy.D:** \[00:19:50.18\] But recognizing different foods provide different nutrients, and that since our health is never a set point, it means I'm never going to have to stop managing health. So this is a forever-gig, where I am trying to look for ways in which my body can optimize, in terms of whatever I'm doing. Again, if you have a very physically-laborious job, it's gonna look very different than somebody who has a very cognitive-demanding job, right?
+**Mireille B. Reece, Psy.D:** \[19:50\] But recognizing different foods provide different nutrients, and that since our health is never a set point, it means I'm never going to have to stop managing health. So this is a forever-gig, where I am trying to look for ways in which my body can optimize, in terms of whatever I'm doing. Again, if you have a very physically-laborious job, it's gonna look very different than somebody who has a very cognitive-demanding job, right?
 
 **Adam Stacoviak:** Yeah.
 
@@ -164,7 +164,7 @@ And when I went to this modified diet, I discovered that I didn't dip, and I did
 
 **Adam Stacoviak:** I've got good friends who love cross-fit, I've got good friends who love to rock-climb, even the fake kind, in the gym... And I dig that. That's fun. But it's not something I can do on repeat. For me, I had to find an activity that was both fun, engaging, and then also taxing physically, to progress and just to maintain. Everybody is gonna have a different version of that for themselves.
 
-**Mireille B. Reece, Psy.D:** \[00:24:14.23\] Right. So I wonder if it's helpful for our listeners to think about this in terms of rhythms. You mentioned the eight-eight-eight. Everybody's gonna have a little bit different rhythm at different times, but the components that you're going to need are sleep, food and motion, or activity... Because there's all of this sort of bartering - like, output/input/output/input. And if I don't allow for my body to sleep, my brain to sleep, and if I don't input food to provide energy, and I don't discharge the negative energy, my mental health, my whole health is going to fare differently.
+**Mireille B. Reece, Psy.D:** \[24:14\] Right. So I wonder if it's helpful for our listeners to think about this in terms of rhythms. You mentioned the eight-eight-eight. Everybody's gonna have a little bit different rhythm at different times, but the components that you're going to need are sleep, food and motion, or activity... Because there's all of this sort of bartering - like, output/input/output/input. And if I don't allow for my body to sleep, my brain to sleep, and if I don't input food to provide energy, and I don't discharge the negative energy, my mental health, my whole health is going to fare differently.
 
 It's interesting, because in working with people with mental health disorders, anxiety - one of the best things that people can do when they wrestle with anxiety, ironically, is actually move more... Because anxiety as an emotion is energy, so instead of trying to squelch or squash it, I wanna move it. I wanna barter. It's like, "I'll give you two, you give me four."
 
@@ -184,7 +184,7 @@ It's interesting, because in working with people with mental health disorders, a
 
 **Mireille B. Reece, Psy.D:** Yeah. Well, this actually connects in to the next thing I wanna talk about in regards to managing our mental health, and that looks like both relationships and boundaries. I had a friend who is an amazing individual, so a lot of people wanted her time, and words, and energy, and she was just becoming fatigued as a result of this. So she started making it a sort of caveat to interact with her that she wouldn't meet people for coffee anymore, but rather it looked like going on a walk. "You can join me between X time, and we can walk." And it was amazing how just setting that boundary and changing the nature of the relationship - it really reduced how many people joined her.
 
-**Adam Stacoviak:** \[00:28:11.19\] Right.
+**Adam Stacoviak:** \[28:11\] Right.
 
 **Mireille B. Reece, Psy.D:** And so relationships are another key component of doing our mental system well.
 
@@ -202,7 +202,7 @@ One of the things that I've been incredibly cognizant of in working with people 
 
 **Adam Stacoviak:** How often does that happen to you? I don't know how often I hold resentment, but I can recall recently having a conversation with my daughter about value. That "This thing was in this condition - because I was gonna let her use it - when I gave it to you, so you're a child and you don't really understand the value of things and what it took me to get this in the first place", and the fact that it's seven years old and it still looks this nice, it's because I take care of my things... So I hold a certain value to that, and I have to somehow transfer that value to her, so that she can respect the item as well as I had, and treat it well too, so that it has the same lifespan after the gift, after giving it to her, for example.
 
-**Mireille B. Reece, Psy.D:** \[00:31:56.22\] Sure. And I would say to some degree it looks different with kids than it does adults in our relationships, because -- I always say "Kids are still cooking."
+**Mireille B. Reece, Psy.D:** \[31:56\] Sure. And I would say to some degree it looks different with kids than it does adults in our relationships, because -- I always say "Kids are still cooking."
 
 **Adam Stacoviak:** Yeah, that's true.
 
@@ -232,7 +232,7 @@ One of the things that I've been incredibly cognizant of in working with people 
 
 **Mireille B. Reece, Psy.D:** Exactly. So that whatever way in which their brain wasn't working correctly, we can sort of hiccup around it. And that really highlighted the vast degree of humanity and what we're capable of. And so what was hard for one person or what was a boundary for one person wasn't for another, and that was so good. It really helped me see the beauty of how varied we are as people. I don't think I've ever looked at going to get groceries the same way, because I know what it looks like to stock shelves...
 
-**Adam Stacoviak:** \[00:35:57.23\] Yeah. When you put it back, you put it back with the label out, on the edge, stacked neatly... I'm just kidding. Yeah, when you go to the restaurant - you're almost sort of self-preparing for the server to take the plates away, or whatever it might be. What do they call that - prebussing. We often do that a lot, me and my wife, because we've both been servers in our life.
+**Adam Stacoviak:** \[35:57\] Yeah. When you put it back, you put it back with the label out, on the edge, stacked neatly... I'm just kidding. Yeah, when you go to the restaurant - you're almost sort of self-preparing for the server to take the plates away, or whatever it might be. What do they call that - prebussing. We often do that a lot, me and my wife, because we've both been servers in our life.
 
 **Mireille B. Reece, Psy.D:** Oh my word, yes, because you know what that is. Somebody who is in that job, doing that role, is going to look different in terms of managing their mental health, than say you or I in our jobs and what we're doing. I have an incredibly social job, but that is incredibly isolating.
 
@@ -260,7 +260,7 @@ I can talk about things in terms of gender, or sort of expectations as being a f
 
 **Adam Stacoviak:** So we hope, yeah. Exactly, if you go back to the idea that DNA is unique, then we are all unique, and if our lives, if even our sleep patterns and our food patterns and our activity patterns and our relationships and our boundaries are all different, we're all gonna have a different life experience... And that perspective is crucial.
 
-**Mireille B. Reece, Psy.D:** \[00:40:07.07\] Yeah. And I would say it's really what contributes to the beauty. When you think about the sounds that you like to hear, and the people that you wanna interface with, it's really in the way in which we're different, because I can learn something from someone else, and I had no idea that this was true, or other people liked this, or do that. And when we can respect that, it just creates this gorgeous harmony. But what we have to lead with when we're managing our mental health is really this sense of empathy and respect, that I don't need another one of me. I need another every-individual. Everybody in this world is here for a reason, and I wanna take delight in the way in which that creates a symphony...
+**Mireille B. Reece, Psy.D:** \[40:07\] Yeah. And I would say it's really what contributes to the beauty. When you think about the sounds that you like to hear, and the people that you wanna interface with, it's really in the way in which we're different, because I can learn something from someone else, and I had no idea that this was true, or other people liked this, or do that. And when we can respect that, it just creates this gorgeous harmony. But what we have to lead with when we're managing our mental health is really this sense of empathy and respect, that I don't need another one of me. I need another every-individual. Everybody in this world is here for a reason, and I wanna take delight in the way in which that creates a symphony...
 
 **Adam Stacoviak:** Yeah. Diversity, not conformity.
 
@@ -294,7 +294,7 @@ So it gets sort of modeled and nuanced, dare I say, when we start talking about 
 
 **Adam Stacoviak:** This could be a whole different podcast. Let's give a sliver of it though.
 
-**Mireille B. Reece, Psy.D:** \[00:44:08.13\] Okay. Well, attention -- there's all different kinds of attention. There's sustained attention, divided attention, and then even shifting attention. And so all of these things play a role. But one of the things we know -- e-mail, for example... Researchers have looked at this and they say it's not really helpful to look at your email first thing in the morning, because it ends up putting you more on the defense, so to speak. You are reacting to your day, instead of planning out and deciding where you wanna go every day.
+**Mireille B. Reece, Psy.D:** \[44:08\] Okay. Well, attention -- there's all different kinds of attention. There's sustained attention, divided attention, and then even shifting attention. And so all of these things play a role. But one of the things we know -- e-mail, for example... Researchers have looked at this and they say it's not really helpful to look at your email first thing in the morning, because it ends up putting you more on the defense, so to speak. You are reacting to your day, instead of planning out and deciding where you wanna go every day.
 
 I really want people to take home this sense of being in the driver's seat, and I want people to practice choosing with a deliberate or intentional way of where they wanna go as based on who they are and what they want. I do think -- this is cognitive aspects, like how our minds make sense of our world are very much this interplay of our background, as well as our environment. And I often tell patients, "It's not the eyes that see, and it's not the ears that hear. It's how our minds make sense of that information."
 
@@ -304,7 +304,7 @@ I can say I have a sense of what starvation looks like, but I have never been to
 
 **Mireille B. Reece, Psy.D:** Right. And so going back to insight - that is really a key part when it comes to managing our mental health... And I have to be considerate around my background, individually, in terms of not only where I'm from, but my biology, my DNA, as well as my experiences, and the way in which they have shaped how my mind takes in the information.
 
-**Adam Stacoviak:** \[00:46:49.15\] Yeah. I had to google this real quick, just because I wanted to make sure that I had a dictionary-ish version of insight, so what defines insight. If I understand correctly, insight in the capacity we're talking about is the capacity to - and this is them saying it, not me - the capacity to gain an accurate or deep, intuitive understanding of a person or a thing. So to have insight is this whole separate thing, where it's like you're almost discovering secrets, right?
+**Adam Stacoviak:** \[46:49\] Yeah. I had to google this real quick, just because I wanted to make sure that I had a dictionary-ish version of insight, so what defines insight. If I understand correctly, insight in the capacity we're talking about is the capacity to - and this is them saying it, not me - the capacity to gain an accurate or deep, intuitive understanding of a person or a thing. So to have insight is this whole separate thing, where it's like you're almost discovering secrets, right?
 
 **Mireille B. Reece, Psy.D:** Yeah.
 

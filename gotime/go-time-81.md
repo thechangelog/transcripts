@@ -14,7 +14,7 @@ Also, when I talked about this on Twitter earlier, a lot of people were talking 
 
 **Johnny Boursiquot:** Well, there are lots of ways to answer that, depending on basically who the stakeholder is, but... If we're talking as a consumer of an API, typically what I look for is basically a clarity of purpose - is this thing doing what I expect it to do, how I expect it to do it? I'm also looking for usage documentation. In case of a web API, not just endpoints, inputs and outputs, but really, how do I make use of this if maybe I'm new to the domain, and maybe I'm just wrapping my head around what it is that I can do with this thing; what can I see as usage documentation, examples of how this API is utilized?
 
-\[00:04:06.20\] Lastly, I like a stable API, both from a functionality standpoint -- I don't want once I've integrated the API into my wares for it to be changing under my feet... But I'm also looking for stability in the operation of the API - how stable is it? If it's an external API, do I need to put safeguards in place for it if it goes down, or something like that. So there are different elements that make a good, reliable and stable API.
+\[04:06\] Lastly, I like a stable API, both from a functionality standpoint -- I don't want once I've integrated the API into my wares for it to be changing under my feet... But I'm also looking for stability in the operation of the API - how stable is it? If it's an external API, do I need to put safeguards in place for it if it goes down, or something like that. So there are different elements that make a good, reliable and stable API.
 
 **Mat Ryer:** If you're looking at a Go package that you're gonna use in a project, what sort of things do you care about when you look at that package? Is it the same sorts of things, around -- it has to be very clear how I'm gonna use it, same kind of thing?
 
@@ -30,7 +30,7 @@ Do you have any particular approach to achieve a stable API? For example, for me
 
 **Mat Ryer:** Yeah, so for me - me and David (David Hernandez was my partner at Machine Box), we basically got obsessed with taking features out, and only delivering the so simple API... So simple that people think it's not enough. That was the idea. We wanted people to look at the API and think "Well, this is almost like a beta API anyway." So we got obsessed with that, of just stripping everything out and only having the very core things. That's one way to do it.
 
-\[00:08:07.29\] Then another trick we've used which works is to always have the tests around for version 1. You could even have them literally, physically, somewhere else as well, so that you have a test suite that protected your version 1 API. As long as all those tests still pass, provided they were what described the API in the first place, then you know you haven't broken it and code will continue to work.
+\[08:07\] Then another trick we've used which works is to always have the tests around for version 1. You could even have them literally, physically, somewhere else as well, so that you have a test suite that protected your version 1 API. As long as all those tests still pass, provided they were what described the API in the first place, then you know you haven't broken it and code will continue to work.
 
 **Jaana Dogan:** It's also behavior-wise providing some compatibility because you're testing things, right? I think the hardest part of API design is also providing some compatibility in terms of behavior as well. I mean, we just feel like we are more flexible in terms of breaking behavior, but at the end of the day it's also the most challenging part of design, not to break the behavior for a long time.
 
@@ -58,7 +58,7 @@ So these things I've sort of enumerated before as being key points or key aspect
 
 But you know, the way I build my APIs - and I was having this conversation with somebody yesterday on Slack - is I actually think the best APIs are those consumed by the person writing them just constantly. They said to me "Oh, somebody who dogfoods their own stuff as much as you do..." and I'm like "Well, I wrote it because I needed it, so yeah, I'm gonna dogfood it..." And by doing that, what happens is you start working away those rough edges.
 
-\[00:11:57.03\] I think what Mat said - he started with something really small, and that's usually how I do it. I kind of do a combination of what JBD does and what Mat was talking about, which is I often just kind of play around, scrappy files, and hack away at something until I feel "Okay, I understand the domain now."
+\[11:57\] I think what Mat said - he started with something really small, and that's usually how I do it. I kind of do a combination of what JBD does and what Mat was talking about, which is I often just kind of play around, scrappy files, and hack away at something until I feel "Okay, I understand the domain now."
 
 A good example of that, a couple weeks I used JBD's Mini package to write some transport controls for logic, and it was a lot of hacking around just trying to figure out how to make it work, how to talk to logic... And once I do that, then I can refactor that into something that's a lot more user-friendly, serviceable, testable, that sort of stuff. I don't ever go straight for "I'm gonna design the perfect API", because it never works. I don't think I've ever sat down and designed a perfect API.
 
@@ -74,7 +74,7 @@ If I hadn't taken that approach with Buffalo, I think it wouldn't have grown the
 
 **Jaana Dogan:** I think the biggest problem is bad design is coming from people who never use their stuff, because there's a developer product side. I personally worked for developer products all through my entire life; I've worked for larger companies, and we usually have like "Hey, we're going to build this product", we just don't really understand what is going on, and we over-assume some of the priorities, and design, and so on. And I ended up seeing lots of engineers that didn't really use whatever they are building, because it's not necessarily some requirement in their day-to-day lives. And since they are so clueless about what does the big picture look like, how usable it is and so on, you usually end up having all these big gaps, usability problems, design problems. It's the most ideal that you actually build something that you need... But it's also hard to scale, because at some point you need to have a big team or 5-10 people to maintain an infrastructure thing, and it becomes a job on its own to maintain that; people primarily working on it are not using it, so it's sometimes challenging...
 
-**Mark Bates:** \[00:16:07.25\] It's always challenging. I see that all the time. You get PRs or issues in, people say "I need this thing, and I need it to be done." The one I always feel bad for is those to write a PR to solve a problem they have, that is either a) solved already, or b) is not necessarily a problem that should be solved by whatever they're contributing to... And if they'd opened an issue earlier, they would have gotten that feedback earlier.
+**Mark Bates:** \[16:07\] It's always challenging. I see that all the time. You get PRs or issues in, people say "I need this thing, and I need it to be done." The one I always feel bad for is those to write a PR to solve a problem they have, that is either a) solved already, or b) is not necessarily a problem that should be solved by whatever they're contributing to... And if they'd opened an issue earlier, they would have gotten that feedback earlier.
 
 But it's hard - when you're a package maintainer or an API maintainer, you really have to keep looking at every PR and enhancement that comes into your project, you have to really look at it and say "How is this going to affect my users of this API? How are they going to work with it? Is it something that can be worked on and extended later? Is this API too strict?"
 
@@ -82,7 +82,7 @@ We see that a lot, where it's very one-way, and it's very hard-coded to a partic
 
 **Jaana Dogan:** Yeah. For me it's the hardest to say "Hey, this doesn't have to be in the core. It could be an extension. You can just maintain it somewhere else. It's kind of like a utility." If I keep hearing that lots of people need the same type of utility, we usually end up merging it as a utility package, or something... But I try to have some resistance maybe in the first place, not to over-populate the APIs. You just wanna keep things a little bit core, and then gradually, organically grow things, depending on what people want.
 
-**Break:** \[00:17:55.21\]
+**Break:** \[17:55\]
 
 **Mat Ryer:** We were just talking about the main reason why I have said no to people who have sent in PRs has been because that functionality doesn't really belong, like we talked a little bit about in the last section. It doesn't quite belong there. So one good rule is if the user can easily just do this themselves, they probably should do it, and leave your package with that. If you can do this outside in userland, then at least initially that's what you should encourage. And if lots of people start to do that, then I would say it's a good candidate for being something potentially that the package solves... But how do you decide what belongs in a package or in an API, what belongs there and what doesn't? Are there any rules, or is this more of an art?
 
@@ -100,7 +100,7 @@ I think Go, generally speaking, culturally speaking, is a little bit different; 
 
 **Mark Bates:** Right, yeah. Same exact thing. And to harken back to what you said earlier, JDB, about an external package or plugin - I think that's a super-important thing that I don't think a lot of people think of... And Mat was kind of saying it, too - if you can do it externally, you probably should. I know I do that a lot; I'll write a lot of third-party packages for my own stuff, as a way of just trying something out and seeing if it's even a tool that I want or need. If I have a problem, I'll go "Let me write a small package", maybe have some middleware, or whatever it is I need for my app, and try it; if it's good, then I can publish it. If it's not, then I can rebuild it, and try to understand... I would love to see more people do that with the packages they're using, try to build the extensions outside of the actual core of whatever package they're trying to use... Because most of the time that stuff can be a singular focus, where just that company really needs that piece. They can still publish the open source part of it if they want to, but it's a great way to try to figure out whether that even needs to be in it.
 
-\[00:24:22.26\] DHH does this with Rails a lot. He writes gems for features that he thinks might end up in Rails later. Of course, he just ends up pushing them all into Rails regardless, but I like that approach of "Let me try this as a plugin or an extension, or a third-party package that sits on top of it all", and maybe I use embedding or something like that to enhance those APIs that I'm trying to wrap. But just a nice way of understanding the process and not cluttering your main API.
+\[24:22\] DHH does this with Rails a lot. He writes gems for features that he thinks might end up in Rails later. Of course, he just ends up pushing them all into Rails regardless, but I like that approach of "Let me try this as a plugin or an extension, or a third-party package that sits on top of it all", and maybe I use embedding or something like that to enhance those APIs that I'm trying to wrap. But just a nice way of understanding the process and not cluttering your main API.
 
 **Mat Ryer:** And TDD really helps in Go with that. You can even put the test code in a different package, and if you do that, I use just a different package name in the same folder... If you do that, you then have to access your package using the dot notation and importing your package as you would. So it's a good way to catch any kind of stuttering in the naming. You might have brewer.brewt, when really that's kind of redundant; you could just have brewer.t. But of course, when you're designing the package, you think "Oh, this package is gonna brew-t, so the function is gonna be called brew-t." That totally makes sense. But having the test code externally, that's quite a nice little trick, just to get an idea of the API footprint that you're creating, and getting an idea of that design from the beginning.
 
@@ -114,7 +114,7 @@ I think Go, generally speaking, culturally speaking, is a little bit different; 
 
 **Johnny Boursiquot:** One set of things I think in a lot of ways are very pronounced, the need for them are more pronounced with internal teams and software that doesn't end up being open source, and basically being subjected to that level of feedback that we've all been talking about - you know, when you're in an internal team, you still have to factor in a lot of these good practices that we've been talking about... But from my experience, what I've seen is that when you are tasked with developing an API for internal consumption, it's so easy to start throwing the kitchen sink at it. "These are all the things that might be needed..." You're giving a spec and you know what it is you're supposed to build, but that too requires some sort of iteration; that too requires that you do maybe some readme during development, you share that with the team, get some feedback on that...
 
-\[00:28:21.00\] But I think the one way to always ensure that you're never exposing too much - because once it's out there, it's hard to take it back - is to make judicious use of the internal package. Basically, keeping as much internal as possible before you start exposing things in the rest of your package. Because you have a lot more flexibility and being able to refactor things inside of that internal package.
+\[28:21\] But I think the one way to always ensure that you're never exposing too much - because once it's out there, it's hard to take it back - is to make judicious use of the internal package. Basically, keeping as much internal as possible before you start exposing things in the rest of your package. Because you have a lot more flexibility and being able to refactor things inside of that internal package.
 
 For those who are new to Go, basically the Go toolchain understands that pretty much if you have an internal folder and you have a package in there, anything in there basically is allowed to reference other things that are in there. But if you're importing that package, as a user of that package you cannot get access to the things that are internal. Using that mechanism -- and this is something I wish I saw more in open source code out there... Basically, keeping as much hidden from external consumption as possible until you're ready and you're sure that whatever it is you're gonna expose is indeed needed and is gonna be relied upon.
 
@@ -142,7 +142,7 @@ The other one, of course, is Johnny what you mentioned right at the beginning of
 
 **Mat Ryer:** Yeah. One real-life example I have of this is we had an API that was an ID. The ID field happened to be prefixed with the Unix time. So it was an ID, but also if you knew about that, if you noticed it, you could pull the time out, and then you knew the time that something was created. So people were doing that... And it wasn't part of the spec. The field was called ID. It didn't say "It's got the time in it, so help yourself." So yeah, it got abused, it got misused. And that becomes a problem.
 
-**Jaana Dogan:** \[00:32:16.06\] Yeah... I have this rule - whatever you put out is going to be abused, so you'd better keep it really small.
+**Jaana Dogan:** \[32:16\] Yeah... I have this rule - whatever you put out is going to be abused, so you'd better keep it really small.
 
 **Mark Bates:** You know what I love -- I don't know if it's changing the subject or not, but we're talking about APIs, and one of the things, not just the footprint... I like to see consistencies across APIs, too. Anybody who's ever used my stuff knows that I tend to name things similarly. I tend to have the same patterns, the same ways of interacting with the code... And it's not because I just really like those styles, it's because I think consistency is important. If you pick up these packages, they feel comfortable, familiar, and easy to use if you know, say, the companion package.
 
@@ -164,7 +164,7 @@ That happened with me with Packer, where I moved from v1 to v2, and the v2 API i
 
 **Johnny Boursiquot:** Why? You don't like a /v2 in your package path? \[laughter\]
 
-**Mark Bates:** \[00:35:59.26\] We're not gonna go into this today. \[laughter\]
+**Mark Bates:** \[35:59\] We're not gonna go into this today. \[laughter\]
 
 **Johnny Boursiquot:** Okay... I was trolling, sorry.
 
@@ -194,9 +194,9 @@ Well, if I'd just instead used `io.Reader`, which is a much smaller type, it jus
 
 **Mat Ryer:** Yeah, but that's a great discussion to have. I've been doing a lot of code reviews lately, over the last week, and a lot of it has been about that. It's been about figuring out whether you've got the design right, really, and then having a discussion around that. And like Jaana mentioned earlier, discussing that stuff around interfaces is very easy, because there's less ambiguity around it... And seeing code is also less ambiguous than even readmes.
 
-**Jaana Dogan:** \[00:40:13.04\] Talking about interfaces, somebody gave me this advice a while ago - try to not introduce a lot of interfaces in Go. Try to utilize what is in the standard library. I think lots of people took that advice, and that's why there's not a lot of fragmentation going on in the library space. You can see that everybody embraced io.Reader. Everything works against those core APIs. I really like that in Go; I like it because we don't have much fragmentation... Because the interfaces are small, and we had this initial culture of not introducing new interfaces, but utilizing what is already there.
+**Jaana Dogan:** \[40:13\] Talking about interfaces, somebody gave me this advice a while ago - try to not introduce a lot of interfaces in Go. Try to utilize what is in the standard library. I think lots of people took that advice, and that's why there's not a lot of fragmentation going on in the library space. You can see that everybody embraced io.Reader. Everything works against those core APIs. I really like that in Go; I like it because we don't have much fragmentation... Because the interfaces are small, and we had this initial culture of not introducing new interfaces, but utilizing what is already there.
 
-**Break:** \[00:40:57.28\]
+**Break:** \[40:57\]
 
 **Mat Ryer:** So why don't we talk in this last section a bit more about web APIs? HTTP isn't going anywhere, I don't think, and still most people in Go are writing web services like this, like HTTP APIs, and things... So does all this same thinking apply? I feel like it does. Is there anything specific we know about web APIs that we should talk about?
 
@@ -210,7 +210,7 @@ One example is, for backwards compatibility, JSON actually ends up being quite a
 
 **Mat Ryer:** I'd rather it was strict upfront, rather than create problems later... Because that's the temptation with anything schemaless, I think. We feel like "Oh, we don't have to solve these problems. We can just accept anything, and we'll just stick it into Mongo, we'll stick it into a schemaless data store." But what you really do is just move the problem to later. You still have that problem of knowing what the data is and what to do with it.
 
-**Mark Bates:** \[00:44:14.13\] Right. And again, in a dynamic language like Ruby or Python, where you can get away with that a lot easier, it's fine, and almost welcome, in a lot of ways there... But in a type-safe language like Go, or trying to get stuff into a database from JSON, there's definitely a lot of handholding you've gotta be aware of, and things you've gotta watch out for when you're accepting those payloads.
+**Mark Bates:** \[44:14\] Right. And again, in a dynamic language like Ruby or Python, where you can get away with that a lot easier, it's fine, and almost welcome, in a lot of ways there... But in a type-safe language like Go, or trying to get stuff into a database from JSON, there's definitely a lot of handholding you've gotta be aware of, and things you've gotta watch out for when you're accepting those payloads.
 
 **Mat Ryer:** Yeah. It's actually rude in Ruby to return the same data twice. It's sort of rude. \[laughter\]
 
@@ -234,7 +234,7 @@ One example is, for backwards compatibility, JSON actually ends up being quite a
 
 **Johnny Boursiquot:** Well... Maybe. \[laughs\] I mean, there are legitimate cases; again, definitely taking into account what you said earlier, about the fact that the rule is not universal. But yeah, there are some cases where you have machine-generated APIs, and you have other machines consuming these APIs based on some pre-defined spec... So it does happen. But yeah, generally speaking, I think you're writing APIs to be consumed by other humans, that are gonna be reading and trying to figure out how it is you want them to use your API... So yeah, it should be readable above else, which again, that extends into the Go ethos - readability over clever tricks, and obfuscated things... So basically just trying to make it as clear as possible to actually use.
 
-**Mat Ryer:** \[00:48:06.25\] Yeah. Almost boring, right? You don't have to be creative in that API design. Like Mark said, when earlier he was talking about being consistent within a project, that also applies across the whole community, and there are patterns that have emerged, that we sort of all like, and we've all kind of rallied around. And they won't be unchanging, they won't make it into the spec or anything, but that becomes part of the culture, and it is around simplicity, like "What's NewMonkey gonna do when I call zoo.newmonkey?"
+**Mat Ryer:** \[48:06\] Yeah. Almost boring, right? You don't have to be creative in that API design. Like Mark said, when earlier he was talking about being consistent within a project, that also applies across the whole community, and there are patterns that have emerged, that we sort of all like, and we've all kind of rallied around. And they won't be unchanging, they won't make it into the spec or anything, but that becomes part of the culture, and it is around simplicity, like "What's NewMonkey gonna do when I call zoo.newmonkey?"
 
 So yeah, I think there's clues that we can leave, and also - again, simplicity. If your goal is to make it as simple as possible, I think that helps on all of these axes.
 
@@ -250,7 +250,7 @@ That said, this goes squarely against the whole basically "only expose just what
 
 **Mark Bates:** Right? It's a tricky question, because it's an important design decision. That's the 80 rule, right? 80% of the time you wanna display the album and the artist and the songs, right?
 
-**Johnny Boursiquot:** \[00:51:49.00\] But sometimes you might not, which is why I love things like [GraphQL](https://graphql.org/), for example, which gives you the flexibility to be able to ask for some things and not others, because sometimes you just want some things and not others, right? So rather than you trying to guess ahead of time what the common usage pattern is gonna be, you provide the flexibility for somebody to ask just for what they want.
+**Johnny Boursiquot:** \[51:49\] But sometimes you might not, which is why I love things like [GraphQL](https://graphql.org/), for example, which gives you the flexibility to be able to ask for some things and not others, because sometimes you just want some things and not others, right? So rather than you trying to guess ahead of time what the common usage pattern is gonna be, you provide the flexibility for somebody to ask just for what they want.
 
 **Mark Bates:** That's great. Can you write all my GraphQL APIs, please?
 
@@ -310,7 +310,7 @@ That said, this goes squarely against the whole basically "only expose just what
 
 **Mat Ryer:** Wow, that sounds awesome. What's the name of it?
 
-**Johnny Boursiquot:** \[00:56:03.29\] They're called [The Achievement Network](https://www.achievementnetwork.org/). And actually, now that we're talking about it, they are -- although I'm not gonna mention them too much during my upcoming talk... They are in part the subject of my keynote that's happening for GothamGo this week.
+**Johnny Boursiquot:** \[56:03\] They're called [The Achievement Network](https://www.achievementnetwork.org/). And actually, now that we're talking about it, they are -- although I'm not gonna mention them too much during my upcoming talk... They are in part the subject of my keynote that's happening for GothamGo this week.
 
 **Jaana Dogan:** Oh, wow.
 

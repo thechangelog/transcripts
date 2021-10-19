@@ -8,7 +8,7 @@ I really quickly just wanna say thank you to Eve, because she was excellent. Can
 
 We all contribute to the community in different ways. I know Eve has written a book, which she so graciously handed out today. You've written a couple books, right? And Marcy, you do a lot of accessibility work, you've joined Gatsby, you teach things... And Kate, I don't know what your main Medium is - if you blog, or if you just are an awesome human, but we all contribute in different ways, and I would love to really quickly hear how you got started... Just a quick intro to how you got started in the community, how did you start contributing?
 
-**Eve Porcello:** \[00:03:51.09\] I got started coding. I used to be a project manager. I would work with a lot of developers, they would tell me a lot of things, and I would wanna know if those things were true... \[laughter\] So I learned to code with a lot of help, from a lot of online resources, and then made the transition into consulting, and then into teaching. That's kind of how all of that started, and I feel like working as a teacher, creating videos and things like that has been a really vital part of my career... Because I live up in the woods, in Northern California; no one's gonna find out what I'm doing up there, unless I make some of that stuff for people.
+**Eve Porcello:** \[03:51\] I got started coding. I used to be a project manager. I would work with a lot of developers, they would tell me a lot of things, and I would wanna know if those things were true... \[laughter\] So I learned to code with a lot of help, from a lot of online resources, and then made the transition into consulting, and then into teaching. That's kind of how all of that started, and I feel like working as a teacher, creating videos and things like that has been a really vital part of my career... Because I live up in the woods, in Northern California; no one's gonna find out what I'm doing up there, unless I make some of that stuff for people.
 
 **Emma Wedekind:** Awesome. Marcy?
 
@@ -30,7 +30,7 @@ Eventually, I found my way into React, and I just really love how fast it is... 
 
 **Kate Beard:** Well, I think one that I don't tell a lot of people is that actually my entire career in coding is because of a failure; my previous job didn't work out, and I was kind of wondering what to do, and ended up finding Founders and Coders, and did the course, and now I'm enjoying coding so much... I feel like I've really found my groove. Had I not had that initial failure, which I think it's quite a taboo to talk about having lost a job, and stuff... But yeah, I wouldn't be here today without that having happened.
 
-**Emma Wedekind:** \[00:08:18.14\] Wonderful. We're happy you're here.
+**Emma Wedekind:** \[08:18\] Wonderful. We're happy you're here.
 
 **Marcy Sutton:** We're super-happy you're here. So thinking about this question you asked me a little bit earlier, and I had to really think -- I mean, there's lots of things that we struggle with on a day-to-day basis; coding is hard. And I've had a string of pretty terrible managers that I don't think really understood the impact that their words would have. I had a manager say in front of me to a client that I was not a hardcore developer, and that just ruined it for me, to be honest, in that job... And there was so much that was going right, but that just took the wind out of my sails.
 
@@ -44,7 +44,7 @@ If something doesn't make sense to me as a documentation person, chances are oth
 
 **Emma Wedekind:** I think this goes to show that when we're up here, we have maybe this sense of authority that we know exactly what we're talking about, but I still think that we ourselves are overcoming impostor syndrome. I don't think that ever goes away. So here's a question people ask - how do you overcome impostor syndrome? It's like, I don't know that we actually do; I think we get better at managing it... So it's really reassuring to hear these esteemed, smart women sitting up here telling us they still struggle.
 
-**Break:** \[00:11:00.14\]
+**Break:** \[11:00\]
 
 **Emma Wedekind:** If you were to mentor yourself, how would you give the advice? What would you say to a young woman, or to anyone, regardless of gender or identity - what would you say to encourage them? We'll start with Marcy.
 
@@ -72,7 +72,7 @@ So anybody who writes a blog post, makes a video - your perspective is valuable,
 
 **Emma Wedekind:** Absolutely. I fully agree. One question that we got on Twitter which I found very endearing was "What advice would you give to people who want to support under-represented groups?" How do we support under-represented groups appropriately? What's the best way to go about encouraging more under-represented to get into tech and to stick with it? I know we're all pondering up here, like "Hm..."
 
-**Kate Beard:** \[00:15:46.15\] I think doing things like this, like giving a platform... For example, all of the speakers today were women, or for example there's also the AfroTech Fest, which is for the BME community in the U.K. So offering platforms for people to share their knowledge and experiences like that is really important. And then I guess trying to find people to mentor, if you have the time and energy to do that... Sorry, I'm gonna keep mentioning Codebar, because it's wonderful... But that is a meetup for under-represented people in tech. So even just going there and offering your time as a coach to help people out with their projects and their journey in learning is really good.
+**Kate Beard:** \[15:46\] I think doing things like this, like giving a platform... For example, all of the speakers today were women, or for example there's also the AfroTech Fest, which is for the BME community in the U.K. So offering platforms for people to share their knowledge and experiences like that is really important. And then I guess trying to find people to mentor, if you have the time and energy to do that... Sorry, I'm gonna keep mentioning Codebar, because it's wonderful... But that is a meetup for under-represented people in tech. So even just going there and offering your time as a coach to help people out with their projects and their journey in learning is really good.
 
 **Emma Wedekind:** Wonderful.
 
@@ -100,7 +100,7 @@ I think that's something I'd like to see more - new, fresh voices, and giving pe
 
 **Marcy Sutton:** I think those conversations are important, and I think there's kind of a fine line -- I personally don't share a lot about it, because I don't wanna come off as braggy, but in smaller groups maybe that's a more comfortable setting where you can actually talk with other people... So go out to lunch, go talk about it. It can change your life.
 
-**Emma Wedekind:** \[00:19:50.01\] Yeah. You're your biggest advocate. No one's gonna fight as hard for you as you will... So I love that. Cool. How are we doing on time? 15 minutes? Okay.
+**Emma Wedekind:** \[19:50\] Yeah. You're your biggest advocate. No one's gonna fight as hard for you as you will... So I love that. Cool. How are we doing on time? 15 minutes? Okay.
 
 One question we also got was "How do you choose topics when you're writing a talk?" I'll just start... I chose design systems because it was the one thing I really felt comfortable discussing. I gear more towards the theoretical talks, because again, impostor syndrome... And every time I discuss something I discuss something extremely technical code-wise, I'm always convinced that it's not correct, or I'm gonna get criticism for it... So I always steer towards these theoretical talks, which I think is where I shine. Hopefully, I can push myself outside those boundaries, but... If there's something that you love and you're passionate about it, talk about it. If you're interested in it, people will also be interested in it, regardless of the topic.
 

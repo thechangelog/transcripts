@@ -18,7 +18,7 @@ But yeah, I work a full-time job at GitHub on the API team there, and then Exerc
 
 **Adam Stacoviak:** It seems like truly a second gig too, because you've got a gigantic staff of mentors, you've got volunteers, you've got tons of things happening. I mean, 48 different tracks/languages... A lot. This is clearly not a one-person operation.
 
-**Katrina Owen:** [00:04:03.13] No, thank goodness I'm not alone on this anymore. 48 active tracks. Each of those tracks has their own maintainers, so people who are familiar with the language, comfortable with the language, who care about the language and who help ensure that the track is solid, that we have exercises that cover the broad range of language features, and the broad range of the standard library to give people something to sink their teeth into...
+**Katrina Owen:** \[04:03\] No, thank goodness I'm not alone on this anymore. 48 active tracks. Each of those tracks has their own maintainers, so people who are familiar with the language, comfortable with the language, who care about the language and who help ensure that the track is solid, that we have exercises that cover the broad range of language features, and the broad range of the standard library to give people something to sink their teeth into...
 
 **Adam Stacoviak:** Yeah.
 
@@ -46,7 +46,7 @@ Then it gives you a bunch of little exercises that you can run through, which gi
 
 **Katrina Owen:** Yeah, try working at GitHub... [laughter] They literally will write out sentences that consist of emoiji, and assume that you'll know what it means. "Ice-cream bike blow cloud" - it's like, "I have no idea what this means." "It means I'm going to lunch", or whatever... I have no idea.
 
-**Adam Stacoviak:** [00:07:58.29] Just say I'm going to lunch.
+**Adam Stacoviak:** \[07:58\] Just say I'm going to lunch.
 
 **Katrina Owen:** I know, right?
 
@@ -86,7 +86,7 @@ Then another thing that made that particularly difficult was we didn't really kn
 
 The title on the Wired Article was actually "The site that will teach you how to program well enough to get a job", or something like that, which I had never claimed at all... And which Exercism didn't do. So we got a lot of people who tried to use it who were definitely not well-equipped at the time to get started by trying to download a binary and stick it in their path; of course, they'd never heard of path before...
 
-**Jerod Santo:** [00:11:58.26] Right.
+**Jerod Santo:** \[11:58\] Right.
 
 **Adam Stacoviak:** I remember talking about rewriting the CLI from Ruby to Go, and that was a bleeding edge at the time.
 
@@ -104,7 +104,7 @@ Over time, I've found that as long as I get help, that it's not just all on me, 
 
 So I think that it's really important to be able to address that gap, to help bring a lot more people into a lot more languages in a way that's really comfortable, and challenges you just at the right level, and gives you lots of feelings of success - lots of successes, lots of small wins, so that you're not feeling dumb and stupid and overwhelmed, and feeling like "Maybe Rust is just too hard for me, or maybe Haskell is just too hard for me. Maybe I'm not smart enough."
 
-**Jerod Santo:** [00:16:04.05] So it started as a scratching of an itch and perhaps an exploration in fun, as a lot of side-projects do, and at a certain point, because it was so useful and successful, it became, like you said, somewhat of an obligation, like yo had to keep it going for people.
+**Jerod Santo:** \[16:04\] So it started as a scratching of an itch and perhaps an exploration in fun, as a lot of side-projects do, and at a certain point, because it was so useful and successful, it became, like you said, somewhat of an obligation, like yo had to keep it going for people.
 
 **Katrina Owen:** Yeah.
 
@@ -124,7 +124,7 @@ I was talking to Jeremy Walker, who's on the team page there, and I was telling 
 
 So he said, "This is totally solvable", and then he offered to help solve it. So he and this team worked with me over the course of 18 months, and they did phenomenal work. For the first 8 months we only asked questions, basically. We started digging into "Well, who uses Exercism? What are they using it for? At what points, when you're learning the language, are you feeling vulnerable? What are the negative emotions that are associated with using Exercism? How could we avoid that or mitigate that? What does it mean to be done with a language track? What does it mean to be done with an exercise?"
 
-[00:20:09.25] All of these questions led us to really go to the fundamental meaning of what is Exercism and how does it need to be structured in order to properly support people's learning, to cover just this bridge?
+\[20:09\] All of these questions led us to really go to the fundamental meaning of what is Exercism and how does it need to be structured in order to properly support people's learning, to cover just this bridge?
 
 It turned out there were so many things where -- we were optimizing previously for three groups of people: people who were learning to program for the first time, or who are learning their first programming language, professional programmers who are ramping up in a second language because they need it out of curiosity or for a project or a new job, and then the third group was what we like to call the artisans, the people who really care about the idioms and readability, and how do you best use Ruby to make it feel and smell and taste like Ruby...
 
@@ -146,13 +146,13 @@ And especially with Rust - there are some language features that are really diff
 
 So if we do that well, it could make sense for Mozilla to be a track sponsor on the Exercism Rust track, for example.
 
-**Adam Stacoviak:** [00:24:07.13] Yeah, if it's such a great on-ramp for languages in particular, obviously... I guess potentially even some frameworks, too; that remains to be seen. But if you're that much of an on-ramp, it would make sense... You're a first stop, so to speak, on a path, for a newcomer or someone just getting started, or whatever. It's a clear stopping point for somebody.
+**Adam Stacoviak:** \[24:07\] Yeah, if it's such a great on-ramp for languages in particular, obviously... I guess potentially even some frameworks, too; that remains to be seen. But if you're that much of an on-ramp, it would make sense... You're a first stop, so to speak, on a path, for a newcomer or someone just getting started, or whatever. It's a clear stopping point for somebody.
 
 **Katrina Owen:** Yeah. So that might make sense. We want to have the site out for a while first, so that we can see what the numbers look like and make sure that we have the features to support the mentorship and the new user experience before we start reaching out to potential partners or sponsors. But that's one way.
 
 Another thing that we have been considering is partnerships who are in publishing. Someone who creates a lot of great content for Python - it might make sense to have sponsors in the Python track to say "Hey, you've completed the Python track. Here's some great next steps for you."
 
-**Break:** [00:25:12.24]
+**Break:** \[25:12\]
 
 **Adam Stacoviak:** Katrina, I think the next stop in this conversation would make sense to sense to say -- since revenue is on the table, but you're not gonna charge users, what are some ideas you have for legitimizing this thing into something you can not just be a side project, but be a profit center for you?
 
@@ -162,7 +162,7 @@ The second thing is potentially partnering with publishers to have relevant cont
 
 And a lot of people also - which I think is interesting - they use it to ask someone to give someone feedback. So they would send people to Exercism and say "Do three exercises and then go give other people feedback, and then send us the link to that" and then discuss sort of "What does good feedback mean", "What does this mean in the context of team communication, or team leadership (if that's that type of position you're looking for)."
 
-**Jerod Santo:** [00:28:05.20] That's definitely an interesting use case that I wouldn't have thought of. So you mentioned that you worked with Thalamus, these other four people on your core team now, and you spent 18 months roughly doing a ground-up rewrite, those first eight months or so you said you were just asking questions and really just diving deep into what Exercism is and what you want it to be... So share with us some of those answers, and some of that focus that you gained and how that turned into - maybe not the technical bits necessarily; we'll definitely dive into the rewrite... But maybe even the rebrand and some of the changes around that. What were the outputs and result of that process?
+**Jerod Santo:** \[28:05\] That's definitely an interesting use case that I wouldn't have thought of. So you mentioned that you worked with Thalamus, these other four people on your core team now, and you spent 18 months roughly doing a ground-up rewrite, those first eight months or so you said you were just asking questions and really just diving deep into what Exercism is and what you want it to be... So share with us some of those answers, and some of that focus that you gained and how that turned into - maybe not the technical bits necessarily; we'll definitely dive into the rewrite... But maybe even the rebrand and some of the changes around that. What were the outputs and result of that process?
 
 **Katrina Owen:** I wanna say that there are probably three really key changes. The first one is the brand itself, where Exercism was just a name I came up with, using Wordoid.com, because I thought it was funny... Like, there was no reason to call it Exercism other than that the Ruby community likes puns, and it was a pun.
 
@@ -198,7 +198,7 @@ And then the third thing was that every once in a while, someone would see the l
 
 **Adam Stacoviak:** What did you learn about the learner type? What do you call the learner in your taxonomy?
 
-**Katrina Owen:** [00:32:00.15] Sometimes I call them learner, sometimes I call them author... Like, just the author of a submission, as opposed to mentor; so that's usually in context of author versus mentor.
+**Katrina Owen:** \[32:00\] Sometimes I call them learner, sometimes I call them author... Like, just the author of a submission, as opposed to mentor; so that's usually in context of author versus mentor.
 
 **Adam Stacoviak:** Gotcha.
 
@@ -214,7 +214,7 @@ And in terms of new programmers, you can be fairly new to programming when start
 
 With Exercism, it's all pre-created, small -- I love the scope of a lot of these tasks or challenges... Do you feel like there's a missing piece there, or do you feel like it's different strokes for different folks? What are your thoughts on challenges vs. real-world things?
 
-**Katrina Owen:** [00:35:45.27] I completely agree that having a real-world goal makes it much easier to stick with it; however, a lot of people aren't even sure how to make a real-world goal... For some people it's like "I want to make an iOS app and it has to do this... It's a way of exploring shoe design, or whatever..." and they don't know exactly where they wanna go... They will be able to just go after that.
+**Katrina Owen:** \[35:45\] I completely agree that having a real-world goal makes it much easier to stick with it; however, a lot of people aren't even sure how to make a real-world goal... For some people it's like "I want to make an iOS app and it has to do this... It's a way of exploring shoe design, or whatever..." and they don't know exactly where they wanna go... They will be able to just go after that.
 
 Other people are like, "Yeah, I find that programming is fun" and they might have some ideas around what they might wanna make, but it can be really hard to actually come up with something that is concrete enough and within reach enough...
 
@@ -242,7 +242,7 @@ What's the mentor motivation? We talked about your motivations, we talked about 
 
 So the whole mentor thing is very new, and as part of that, we are asking people to literally sign up to be mentors.
 
-[00:40:05.04] They get added to a Slack workspace, they sign our code of conduct, and as part of that, we ask them "Why would you do this? Why do you care? What do you want to get out of it?" and the answers were fascinating; they were all over the place. There were a few common threads. The first one is they get a kick out of helping other people learn, for a number of reasons. Sometimes it's warm fuzzies, but more often, they find that they are challenged in ways that are really interesting when they are helping other people learn. So they learn a lot by helping other people learn.
+\[40:05\] They get added to a Slack workspace, they sign our code of conduct, and as part of that, we ask them "Why would you do this? Why do you care? What do you want to get out of it?" and the answers were fascinating; they were all over the place. There were a few common threads. The first one is they get a kick out of helping other people learn, for a number of reasons. Sometimes it's warm fuzzies, but more often, they find that they are challenged in ways that are really interesting when they are helping other people learn. So they learn a lot by helping other people learn.
 
 Some people were very much in the "You know, other people mentored me, and now I wanna give back", and I don't actually know if they'll stick around; I don't know if that is as strong.
 
@@ -266,7 +266,7 @@ Some people were very much in the "You know, other people mentored me, and now I
 
 **Adam Stacoviak:** They might be somebody who's like "I write blog posts often, or as often as I like to, I released the course, but I'm not really anybody. I need to get more well-known, or I'd like to be more well-known. I'd like to help more people", and this is one more way that they can take 5%-10% of their week and give it back, because they're already trying to level up themselves.
 
-**Katrina Owen:** [00:44:11.14] It might work, I have no idea...
+**Katrina Owen:** \[44:11\] It might work, I have no idea...
 
 **Jerod Santo:** Well, similar to the motivation of people who help other people in Stack Overflow, and a lot of them are -- I mean, it's gamified; I don't know if you're doing any gamification with the Exercism mentorship, but you know, it gives them the street cred over time... So they think that all that helping will eventually come back to them, and I think in certain cases it does.
 
@@ -296,7 +296,7 @@ But yeah, we always need more people, and we want people to be able to go on vac
 
 An interesting thing is the niche tracks - if you know PL/SQL, boy, do I have work for you... [laughter] It's so hard to find people who have enough fluency with some of these more niche languages to actually step in and mentor... Some of those can be -- if you know a niche language and we have it on Exercism, you can bet that your help would be greatly appreciated.
 
-**Break:** [00:47:51.18]
+**Break:** \[47:51\]
 
 **Jerod Santo:** So Katrina, this rethink, this redo, this take two - we've talked about the new branding, we've talked about this new mentorship model and how you're making them official sign-up mentors, and then you also have the tracks themselves, which you've redesigned a little bit from the ground up... Tell us about what's new with the individual tracks, and then we'll get into how you went ahead and technically accomplished this.
 
@@ -324,7 +324,7 @@ So we wanted to replicate that with Exercism, and chose to have -- for every tra
 
 **Adam Stacoviak:** That's a whole different show, Jerod. [laughter] But yeah, I like that; the scenic route sounds really cool, I like that.
 
-**Katrina Owen:** [00:53:44.17] Yeah. One of the discoveries that I had as I was talking to the Rust team recently was that -- so they use Exercism when teaching their Rust Bridge workshops, and the math exercise... There are a bunch of little exercises that are mostly inspired by Project Euler exercises, so they're very math-heavy, and a lot of the people who go through the Rust Bridge find that incredibly intimidating... So one of my next tasks is to go through all of the tracks on all of Exercism and script PR's to make sure that a) their tag does math, so that you can just filter them away and not have to worry about them, but also that they're never on the core track; that they're always optional.
+**Katrina Owen:** \[53:44\] Yeah. One of the discoveries that I had as I was talking to the Rust team recently was that -- so they use Exercism when teaching their Rust Bridge workshops, and the math exercise... There are a bunch of little exercises that are mostly inspired by Project Euler exercises, so they're very math-heavy, and a lot of the people who go through the Rust Bridge find that incredibly intimidating... So one of my next tasks is to go through all of the tracks on all of Exercism and script PR's to make sure that a) their tag does math, so that you can just filter them away and not have to worry about them, but also that they're never on the core track; that they're always optional.
 
 **Jerod Santo:** Another thing that we haven't talked about and think it's probably what we need to talk about next is the technical side of the rewrite. Now, anytime somebody wants to start a big rewrite, Joel Spolsky comes out of the closet and slaps you across the face before you do it... No. People pull out that old blog post of Joel's, "Things you should never do", which is a ground-up rewrite is like anathema.
 
@@ -358,7 +358,7 @@ So we wanted to replicate that with Exercism, and chose to have -- for every tra
 
 **Katrina Owen:** Yeah, so the site itself - it used to be some cobbled together Sinatra apps, multiple Sinatra apps. Some of them were all mounted inside the same app, some of them were running separately, along with a Ruby gem that I updated more or less every day to get all the changes to the tracks in... It was a complete mess, and it was also nearly impossible to contribute to, because it was all custom. Nothing followed any sort of conventions, and Sinatra is fairly well-documented, but it's really flexible... So there was not good jumping in point, even if you were familiar with Ruby, to help out with the website.
 
-[00:57:55.24] So for the rewrite we chose Rails, which is still Ruby, but it's a framework that is much more widely used than Sinatra, very well documented, and it's something that everyone on the core team is familiar with... So it was a really rapid -- it was something that we could do very quickly, the rewrite, whereas if we had chosen a different technology, if we had chosen to go with, say, Clojure or Python with Django, or something like that, we would have had to ramp up a lot... So even if maybe Django is more common or more familiar than Rails is in general, it would not necessarily have been a great choice for us.
+\[57:55\] So for the rewrite we chose Rails, which is still Ruby, but it's a framework that is much more widely used than Sinatra, very well documented, and it's something that everyone on the core team is familiar with... So it was a really rapid -- it was something that we could do very quickly, the rewrite, whereas if we had chosen a different technology, if we had chosen to go with, say, Clojure or Python with Django, or something like that, we would have had to ramp up a lot... So even if maybe Django is more common or more familiar than Rails is in general, it would not necessarily have been a great choice for us.
 
 One of the really interesting pieces was figuring out how to get all of the changes from 45 different language tracks into the site, without having to make individuals deploy every day. One of the problems I ran into was I was the only person deploying the old site, and people would be like "Hey, so I've made this change to the Elixir track, and I'm not seeing it on the site." I'm like, "Yeah, that's because I forgot to deploy." [laughter] Or if I got sick -- I got surgery last year, and for a few days there I was not deploying Exercism.
 

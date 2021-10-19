@@ -24,7 +24,7 @@ Mikeal, you're here, so you might as well say hello...
 
 **Frannie Zlotnick:** Well, my background is academic social science; I was chained as a political scientist and I got interested in computational social science, which basically means doing social science with data sets that are too big to handle with the normal tools, so I started doing a little bit of CS and data mining type methodologies, and that kind of lead accidentally to working at GitHub. I actually interviewed before I knew what GitHub was... \[laughter\]
 
-\[00:04:12.04\] I sort of fell into it accidentally, but it appealed to me because really the fascinating data on GitHub is all really social data; it's about how people are working together to build things, and that's actually a really fantastic place to be doing data work from a social science perspective.
+\[04:12\] I sort of fell into it accidentally, but it appealed to me because really the fascinating data on GitHub is all really social data; it's about how people are working together to build things, and that's actually a really fantastic place to be doing data work from a social science perspective.
 
 **Adam Stacoviak:** I have an interesting history with GitHub to some degree, because I remember sitting in San Francisco in a random office with Chris Wanstrath and Tom Preston-Werner, conducting an interview for a podcast called The Web 2.0 Show. This was literally like a month and a half after GitHub launched, so... It's been a track. GitHub has evolved over the years; it started out as social coding and has done all these cool things to raise I guess the bar of open source, but also make it so much more accessible to the world
 
@@ -50,7 +50,7 @@ And then obviously this survey, OpenSourceSurvey.org - I guess that redirects to
 
 **Frannie Zlotnick:** Yeah, so for the types of questions that people are interested in, a large part of the problem is getting access to the right people. This is a community that's kind of over-surveyed; people get a lot of emails asking them to take surveys, and at some point they get tired of doing it, so it's hard to get the people you wanna talk to to take the survey, so the sampling is hard; an unbiased way is very difficult to do.
 
-\[00:08:09.10\] Generally, what people have done is they'll go through public records of open source projects and look for people who committed or otherwise participated in a project and then just email them. But that means you miss this huge community of people that we know are there who are using projects and looking at them but not necessarily actively contributing to them, and we think that that's a really important part of the community, as well. But unless they leave a visible artifact of having been there, there's no way for the researchers to know that they're there.
+\[08:09\] Generally, what people have done is they'll go through public records of open source projects and look for people who committed or otherwise participated in a project and then just email them. But that means you miss this huge community of people that we know are there who are using projects and looking at them but not necessarily actively contributing to them, and we think that that's a really important part of the community, as well. But unless they leave a visible artifact of having been there, there's no way for the researchers to know that they're there.
 
 By having access to the traffic going to these projects, we have an ability to get to people in a way that is virtually impossible for most other people.
 
@@ -70,7 +70,7 @@ Let's rewind a bit and kind of touch base on exactly what this is... So this is 
 
 So the way you get high-quality data that is closer to representative of the whole community is you randomly select people, hopefully in a way that gives everybody who's there an equal probability of being invited to take the survey.
 
-**Adam Stacoviak:** \[00:11:58.27\] With that in mind, you've got quite a few questions, so maybe not a 15-minute survey; maybe a half hour, 45 minutes... This is 50 questions - what's the rough average that you would expect for someone to dedicate towards entering this?
+**Adam Stacoviak:** \[11:58\] With that in mind, you've got quite a few questions, so maybe not a 15-minute survey; maybe a half hour, 45 minutes... This is 50 questions - what's the rough average that you would expect for someone to dedicate towards entering this?
 
 **Frannie Zlotnick:** This was actually an 11-15 minute survey, depending on which set of branches you hit. If you answered some questions in a certain way, you'd get some additional questions. But the average time was something like 11 minutes. That was intentional. A really long survey is really tedious and taxing. You get better data if people don't find it really annoying to take your survey.
 
@@ -94,7 +94,7 @@ So there's still this sort of bias in who decides to participate, but because we
 
 **Adam Stacoviak:** Let's find out where this came from, if you don't mind. I wanna go deeper into the context, some of the insights discovered from this. It sounds like this has been in the making for quite a while. You mentioned Arfon Smith, also on season one of RFC - great episode, we'll put that in the show notes, so go check that out... But this predates your getting hired there, Nadia, so where does this begin in terms of like motivation...? What was the purpose, what were the beginnings of this effort?
 
-**Frannie Zlotnick:** \[00:16:00.07\] Yeah, the motivation was really just to make data available for people to do interesting and good research on this community. It's good for us internally at GitHub if people are doing research on what makes open source sustainable and healthy; the data is useful to us as well.
+**Frannie Zlotnick:** \[16:00\] Yeah, the motivation was really just to make data available for people to do interesting and good research on this community. It's good for us internally at GitHub if people are doing research on what makes open source sustainable and healthy; the data is useful to us as well.
 
 We also have interest in making sure that the data is available not just to researchers but also broadly available to the people who can kind of do the most with it, which is the community itself. So the idea was really just to use our unique position with regard to the community to be able to create high-quality data that could then be used by other people to do interesting research. and to help people make decisions on what their communities need, and help people understand different parts of their community, like help maintainers understand contributors, help contributors understand users who don't necessarily contribute... Things like that.
 
@@ -114,7 +114,7 @@ I thought that sounded really interesting. I'd mostly been working on internal-f
 
 **Adam Stacoviak:** After the break we'll dive deep into the insights of this open source survey from GitHub. With more than 50 questions, this survey is by far one of the most widest-range research topics GitHub has done to release as open data. We're gonna highlight some of the most actionable and important insights from this after this break.
 
-**Break:** \[00:20:05.20\]
+**Break:** \[20:05\]
 
 **Mikeal Rogers:** I'm kind of ready to dive into the insights a little bit... Is everybody else ready to dive into the insights?
 
@@ -138,7 +138,7 @@ What we don't know are more about the types of things that get in people's way, 
 
 **Mikeal Rogers:** Yeah, you made a particular point in here about English and how nearly a quarter of open source communities have less than very well English skills. So it's not saying "All docs need to be in another language", but it needs to be in a form of English that is not really complicated, right?
 
-**Adam Stacoviak:** \[00:24:04.04\] That's something actually that I personally discovered while at Node Interactive recently, Mikeal, when I was invited to come up there with you all and do that. I was talking to Shiya Luo, and she was originally from China, but works at Autodesk and had moved to San Francisco, but also kind of went back and forth. We talked about the Great Firewall of China, the disconnection there, but she talked a really big deal about the difference of accessibility to docs because of the language barrier... And then the time it takes for things to be translated, and by the time it is translated - if it ever is - it's kind of too late.
+**Adam Stacoviak:** \[24:04\] That's something actually that I personally discovered while at Node Interactive recently, Mikeal, when I was invited to come up there with you all and do that. I was talking to Shiya Luo, and she was originally from China, but works at Autodesk and had moved to San Francisco, but also kind of went back and forth. We talked about the Great Firewall of China, the disconnection there, but she talked a really big deal about the difference of accessibility to docs because of the language barrier... And then the time it takes for things to be translated, and by the time it is translated - if it ever is - it's kind of too late.
 
 **Mikeal Rogers:** Yeah. The way that we kind of solved this in the Node Project is just that a lot of people that speak other languages are contributors or committers in some way and they watch doc changes. As doc changes happen, they make suggestions about the language to simplify it a little bit, to make it more easily translatable, but also that just makes it more understandable.
 
@@ -160,7 +160,7 @@ Using and contributing to open source happens a lot, even on the job, and it's o
 
 It's certainly not all that there is in there, and I think a fully complete treatment of all the data in there would be just overwhelming, and people would stop reading it; they wouldn't go through the whole thing.
 
-\[00:28:11.26\] We wanted to keep it pretty limited to some key things, and then leave the rest of it open for other people to find and to research and to publish on. Because the original idea - really the point was the data... That we would putting out the data for the research community and for the open source community to do what they will with it.
+\[28:11\] We wanted to keep it pretty limited to some key things, and then leave the rest of it open for other people to find and to research and to publish on. Because the original idea - really the point was the data... That we would putting out the data for the research community and for the open source community to do what they will with it.
 
 The insight section was more of a "Oh, we found all this fascinating stuff." We wanna make sure that people actually do learn these things from it, but it's kind of a small chunk of what's in there.
 
@@ -184,7 +184,7 @@ We did go through all of the questions as a group, just to see -- given Frannie'
 
 **Mikeal Rogers:** Assholes are just a really small dot, and then there's people who tolerate assholes, and then a much larger bubble of nice people. And some nice people will tolerate that kind of behavior, but far more just won't. So you're excluding this much bigger group when you accommodate people who are toxic.
 
-**Nadia Eghbal:** \[00:32:03.12\] And that was totally what we had found about... A smaller portion of people have personally experienced something, but a lot more people have seen something happen, and there's a pretty significant number of people that stop contributing to your project when they see behavior like that. It was good to actually have data to say this really does matter. That common practice or common wisdom is actually true and useful.
+**Nadia Eghbal:** \[32:03\] And that was totally what we had found about... A smaller portion of people have personally experienced something, but a lot more people have seen something happen, and there's a pretty significant number of people that stop contributing to your project when they see behavior like that. It was good to actually have data to say this really does matter. That common practice or common wisdom is actually true and useful.
 
 **Adam Stacoviak:** It's interesting to see how much negativity is out there. Even 18% of respondents having -- that's enough. I mean...
 
@@ -208,7 +208,7 @@ People being jerks to each other on the internet is a thing that happens in a lo
 
 I think open source gets an unfair reputation for that and it turns a lot of people off from it. But none of it is great, because humans are just kind of not nice to each other on the internet, period, when left unchecked... But being able to see that is useful.
 
-**Mikeal Rogers:** \[00:35:51.27\] I think one important difference though between GitHub and other online communities is that if you're really into ham radios and you go on ham radio forum and you experience negative behavior, your choice is basically "I stop talking about ham radios on the internet, or I continue to put up with this." On GitHub it's literally like "I just go to another project that's not terrible." So you have this huge number of people that actually just leave projects because of it, right?
+**Mikeal Rogers:** \[35:51\] I think one important difference though between GitHub and other online communities is that if you're really into ham radios and you go on ham radio forum and you experience negative behavior, your choice is basically "I stop talking about ham radios on the internet, or I continue to put up with this." On GitHub it's literally like "I just go to another project that's not terrible." So you have this huge number of people that actually just leave projects because of it, right?
 
 **Nadia Eghbal:** Yeah.
 
@@ -218,7 +218,7 @@ I think open source gets an unfair reputation for that and it turns a lot of peo
 
 **Adam Stacoviak:** Coming up after the break, we get into a heavy topic - dealing with negativity in open source. We also talked about maintainers having to be the police... And an even more touchy subject - the accuracy of this research. Is this a true representation of the overall open source community? All this and more after the break.
 
-**Break:** \[00:37:24.16\]
+**Break:** \[37:24\]
 
 **Adam Stacoviak:** This is a tough subject, not often discussed - the impact of negativity in open source. Sometimes when that happens, people are force to go into private channels or to enforce their code of conduct and get into very uncomfortable situations, basically having to deal with these negative experiences that have real consequences to not just the people, but also to the project. Sometimes people just don't interact, or they just don't interact publicly. What do you think?
 
@@ -242,7 +242,7 @@ I don't always wanna be the bad person and say "Hey, you can't play anymore, bec
 
 **Frannie Zlotnick:** Actually, the finding is that an individual having the ability to block another user without having to involve somebody else is the part that is most effective at addressing problematic behavior. If you have to ask a third-party - we asked about maintainers, we asked about legal intervention, police intervention, ISPs or hosting services... Bringing in these third parties at any level is less effective than giving people the power to protect themselves on an individual basis.
 
-\[00:42:11.27\] I think the findings suggest that you wanna move away from having a kind of third-party policemen and give people tooling to be able to say "Whether or not this person is part of this community or not, I don't wanna interact with them."
+\[42:11\] I think the findings suggest that you wanna move away from having a kind of third-party policemen and give people tooling to be able to say "Whether or not this person is part of this community or not, I don't wanna interact with them."
 
 **Adam Stacoviak:** So a singular level opt-out, basically...
 
@@ -266,7 +266,7 @@ I'll also just give a shoutout to GitHub making improvements... There is a beta-
 
 **Adam Stacoviak:** Does this go back to the pool for which the data it represents -- going back to the random/non-random question, biased/unbiased... This assumes that the person was on GitHub, they were prompted some way to say "We have this survey, please take part." Being that it's such a wide chasm between those numbers - 95%, 3% and 1% - I'm just wondering, given that big of a difference, how confident do you feel in the accuracy of that? If you took the same and you expanded across all of GitHub and everyone who has ever interacted with GitHub answered, would that still be true?
 
-**Frannie Zlotnick:** \[00:46:09.29\] The way we sampled was definitely not how you would try to get all GitHub users. You had to do a really specific set of actions on a licensed open source repo that indicated sincere interest in open source in order to make it into the pool, and then we randomly sampled from that. So it's definitely in no way representative of the general GitHub user base.
+**Frannie Zlotnick:** \[46:09\] The way we sampled was definitely not how you would try to get all GitHub users. You had to do a really specific set of actions on a licensed open source repo that indicated sincere interest in open source in order to make it into the pool, and then we randomly sampled from that. So it's definitely in no way representative of the general GitHub user base.
 
 **Adam Stacoviak:** Can you share what those actions might be, maybe to kind of give folks an idea...? Or is that secret stuff?
 
@@ -288,7 +288,7 @@ I'm unhappy about the number, but now I can see why it would be there.
 
 **Nadia Eghbal:** One thing that made me happy from the reaction was there were a couple people - prominent open source contributors - who offered to mentor people that are trying to get into open source... I think from the React community there were a couple people. I thought that was really nice, just for people to be sort of like aware that if the numbers are that bad, it's really important to keep an eye out for people that are interested in contributing but might need a little bit of an extra push. That's obviously not super scalable, but I thought it was just like a nice human response.
 
-\[00:50:09.06\] For me, the documentation part of it ties really strongly back to this... Document your stuff and make it as transparent as possible, so that everybody understands how to get into it. That was why we did the open source guides earlier this year too, so that it doesn't feel like open source is this big, shadowy process and you have to talk to the right people to understand how it works.
+\[50:09\] For me, the documentation part of it ties really strongly back to this... Document your stuff and make it as transparent as possible, so that everybody understands how to get into it. That was why we did the open source guides earlier this year too, so that it doesn't feel like open source is this big, shadowy process and you have to talk to the right people to understand how it works.
 
 Some of that ties into also the findings around people who had given or received help from a stranger in open source, and seeing that women were less likely to ask for help from a stranger, because there's sort of the assumption that "I'm not allowed to do that", or whatever... So just really going out of your way to -- and it's not just women... There are a lot of people who are hesitant to contribute because they don't feel comfortable asking for this sort of thing, so making processes really explicit and transparent might bring more people out of the woodwork than you would expect. That was my take on that.
 
@@ -308,7 +308,7 @@ I've certainly experienced this as a conference organizer where you're trying to
 
 **Nadia Eghbal:** You know, we wrote an open source guide about that. Just saying... \[laughter\]
 
-**Adam Stacoviak:** \[00:54:01.06\] I may get it and read it... \[laughs\] \[unintelligible 00:54:02.16\]
+**Adam Stacoviak:** \[54:01\] I may get it and read it... \[laughs\] \[unintelligible 00:54:02.16\]
 
 **Frannie Zlotnick:** One of the neat things about the code of conduct findings - we didn't highlight this in the write-up, but I kind of wish we had - was that it has this reputation of being controversial, because there's some loud people on the internet who really, really hate them... But our findings show that they're actually not controversial. We allowed people to say about all these things in that table that you're looking at, from responsive maintainers all the way down to contributor license agreements, like "Is it very important to have it?" all the way to "It doesn't matter either way", all the way to "Very important not to have it."
 
@@ -328,7 +328,7 @@ Either you allow that to become like a giant thread that derails the pull reques
 
 **Adam Stacoviak:** Coming up after the break we talk about the relationship of businesses and open source - how they use it, whether or not they encourage contributing to it. We also examine how open source has become the culture default in many cases, and what people actually value in open source, because you might be surprised... And what you can expect from the future of this survey.
 
-**Break:** \[00:58:17.18\]
+**Break:** \[58:17\]
 
 **Adam Stacoviak:** I can't remember the exact code you have, Mikeal, but you had a quote on the bonus episode, the season one, the behind-the-scenes episode of Request For Commits, about the relationship of businesses and their relationship with open source and how it's severely skewed. With so much as this data shows of open source contributions happening on the job, it kind of reflects back on that idea that more companies should help sustain open source. But it doesn't mean just money, it might mean that 10%-20% time being allowed towards open source.
 

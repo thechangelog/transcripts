@@ -10,7 +10,7 @@
 
 **Jerod Santo:** Right, to do a boot.
 
-**Miguel de Icaza:** \[00:03:59.07\] And the other piece was Linux, and the challenge -- and at the time there was another one, BSD. BSD was the big name; there had been a series of Dr. Dobb's articles about 386 BSD. It was just around the time where NetBSD had essentially made it into a real thing. This was before the forks, or right about the time that they forked, between NetBSD and FreeBSD.
+**Miguel de Icaza:** \[03:59\] And the other piece was Linux, and the challenge -- and at the time there was another one, BSD. BSD was the big name; there had been a series of Dr. Dobb's articles about 386 BSD. It was just around the time where NetBSD had essentially made it into a real thing. This was before the forks, or right about the time that they forked, between NetBSD and FreeBSD.
 
 The problem was these BSD's didn't have dynamic libraries, so the nice thing about Linux is that they have dynamic libraries, shared libraries, which meant I could put it on my half a partition.
 
@@ -48,7 +48,7 @@ The problem was these BSD's didn't have dynamic libraries, so the nice thing abo
 
 So ever since I decided "I'm gonna help the GNU project. Maybe I can't write code..." - at the time I couldn't write code, or I wasn't proficient enough in UNIX to do that, but I said "I'm gonna go ahead and help these guys." And I didn't have money -- you could contribute in two ways: give money or write code. "Well, the money is out of the question. The code? I don't know UNIX that well yet, so... Maybe one day." Anyways, that's how it started.
 
-\[00:07:59.06\] I think my first -- I can't remember if it was... Either I joined the Wine Project, and I was writing with the Wine Project, writing the .ini reader, if you remember that format...
+\[07:59\] I think my first -- I can't remember if it was... Either I joined the Wine Project, and I was writing with the Wine Project, writing the .ini reader, if you remember that format...
 
 **Jerod Santo:** I don't remember the format, and I remember using Wine...
 
@@ -82,7 +82,7 @@ Then Mono was -- we built this Outlook clone called Evolution, and we went throu
 
 **Jerod Santo:** \[laughs\] That's what you were doing. Head-on.
 
-**Miguel de Icaza:** \[00:11:46.18\] But Tcl is a language with some kinks - it was good for the time - and around that time Richard Stallman says "You know, if we recompile Tcl to Scheme, you're ten times faster. There was a paper going around at USENIX too that said "If you recompile everything to Scheme, Scheme automatically makes it fast", and minds were blown. And it turns out many years later that the measurements were all busted and they benchmarked the wrong thing...
+**Miguel de Icaza:** \[11:46\] But Tcl is a language with some kinks - it was good for the time - and around that time Richard Stallman says "You know, if we recompile Tcl to Scheme, you're ten times faster. There was a paper going around at USENIX too that said "If you recompile everything to Scheme, Scheme automatically makes it fast", and minds were blown. And it turns out many years later that the measurements were all busted and they benchmarked the wrong thing...
 
 **Jerod Santo:** Oh, broken benchmarks.
 
@@ -116,7 +116,7 @@ So I've competed with Microsoft all these years, and you know, there's ups and d
 
 **Jerod Santo:** Was there a line of communication at all back in the earlier Mono days with Microsoft?
 
-**Miguel de Icaza:** \[00:16:06.24\] There were communications with a lot of engineers... A lot of engineers, program managers... Mostly in personal capacity, never in an official capacity. And then Sam Ruby from IBM, who later became a big Ruby person - oddly, Sam Ruby... \[laughter\] Had invited us - at the time of my previous company - to join the Ecma meetings, because we had this implementation of .NET that we had built from specs, and they said "Well, who better to join the Ecma meeting than somebody who actually has implemented the specs, to iron out the details? So we did have contact to a lot of Microsoft people through the committee.
+**Miguel de Icaza:** \[16:06\] There were communications with a lot of engineers... A lot of engineers, program managers... Mostly in personal capacity, never in an official capacity. And then Sam Ruby from IBM, who later became a big Ruby person - oddly, Sam Ruby... \[laughter\] Had invited us - at the time of my previous company - to join the Ecma meetings, because we had this implementation of .NET that we had built from specs, and they said "Well, who better to join the Ecma meeting than somebody who actually has implemented the specs, to iron out the details? So we did have contact to a lot of Microsoft people through the committee.
 
 **Jerod Santo:** I see. It was a common meeting ground around the spec.
 
@@ -138,7 +138,7 @@ So we first put Mono in there; we were very happy, the JIT compiler runs. And th
 
 One of our guys, Zoltán Varga - they went and made a static compiler for .NET, and it was amazing. We gave it to Unity. At this point, Unity is probably four or five employees.
 
-**Jerod Santo:** \[00:20:07.20\] Forty-five?
+**Jerod Santo:** \[20:07\] Forty-five?
 
 **Miguel de Icaza:** No, four or five guys...
 
@@ -170,7 +170,7 @@ At that point... We really stopped worrying about the fear of "What could Micros
 
 **Miguel de Icaza:** Yeah, I mean, people were in there to make money. It was a more pragmatic crowd. And I stopped competing with Microsoft at that point, and it was more like a very good complement to what Microsoft was doing.
 
-**Break:** \[00:23:00.14\]
+**Break:** \[23:00\]
 
 **Jerod Santo:** What was your personal demeanor towards the company? I mean, you say you were always competing... But was it antagonistic, or was it in good spirit of competition?
 
@@ -202,7 +202,7 @@ And then there was the uglier era when open source kind of becomes a brand, and 
 
 **Jerod Santo:** I don't remember that.
 
-**Miguel de Icaza:** \[00:29:54.25\] There were kind of a big scandal, because they got annotated. In retrospect, I don't think there were ever very serious documents, but somebody in a massive organization wrote papers saying "Hey, this is how you do it." You write dozens of these things continuously, right?
+**Miguel de Icaza:** \[29:54\] There were kind of a big scandal, because they got annotated. In retrospect, I don't think there were ever very serious documents, but somebody in a massive organization wrote papers saying "Hey, this is how you do it." You write dozens of these things continuously, right?
 
 **Adam Stacoviak:** There were a lot of internal memos, recounts of...
 
@@ -242,7 +242,7 @@ So I think that the thinking internally of Microsoft started to change, and Micr
 
 **Adam Stacoviak:** So we heard a story that...
 
-**Miguel de Icaza:** \[00:33:52.28\] But remember, this is 1997... And Mozilla doesn't go open source until 1999. At this point Mozilla is still proprietary.
+**Miguel de Icaza:** \[33:52\] But remember, this is 1997... And Mozilla doesn't go open source until 1999. At this point Mozilla is still proprietary.
 
 **Adam Stacoviak:** We've got alternate influences on this side, too. We've got Brendan Eich on record, talking deeply about the funding of the browsers and the funding of the web through -- and I'm only paraphrasing this big story that he knows very intimately, but just the browsers wars, and ads, and how everything's been paid for, essentially, long story short... But I'm trying to figure out if you've got some sort of idea of how IE or even Microsoft might be different as a company, and maybe even how we may be different had they done what you said... Because they didn't.
 
@@ -272,7 +272,7 @@ I think that the passion and the desire to go and fix those things is there. Hav
 
 In the tech world, I would say, before I go there, that one thing that was very interesting is that the new CEO is very different, Satya Nadella. Not only he embraces the change in Linux and open source and these things, but as an individual he is deeply empathetic, he relates to other people, and he tries o get himself in other people's shoes, and tries to understand their perspective.
 
-\[00:37:53.28\] So from the tech perspective, I like to think that we can do more, in our software, to be more empathetic. I think that it shows beautifully, for example, with Apple products; they're products that people love to use... They work for the user, not against the user, and it's a different mindset than the raw engineering perspective of "I'm gonna build a piece of great software. It's gonna be very fast, very efficient... Very something - very configurable, very programmable. It's gonna be the Swiss army knife." And as it turns out, there's a time for the Swiss army knife and there's a time for just a bottle opener. Sometimes all you need is a bottle opener.
+\[37:53\] So from the tech perspective, I like to think that we can do more, in our software, to be more empathetic. I think that it shows beautifully, for example, with Apple products; they're products that people love to use... They work for the user, not against the user, and it's a different mindset than the raw engineering perspective of "I'm gonna build a piece of great software. It's gonna be very fast, very efficient... Very something - very configurable, very programmable. It's gonna be the Swiss army knife." And as it turns out, there's a time for the Swiss army knife and there's a time for just a bottle opener. Sometimes all you need is a bottle opener.
 
 **Jerod Santo:** Right, a single-purpose tool.
 
@@ -306,7 +306,7 @@ The nice thing is that it's super cheap. You prototype on paper! What does it co
 
 **Miguel de Icaza:** When somebody says "Well, you should add these buttons", like "Well, do you want me to wire that up? I've gotta change everything." As engineers, we have to embrace this world where we can think first about the user, show some empathy... That's what I like about Satya and his whole pitch in his book "Hit Refresh" - we've gotta get into the user's shoes and try to do what they're gonna do, and save yourself a lot of time, a lot of engineering by knowing what you're gonna do.
 
-\[00:42:00.02\] So I care a lot about that. I don't know that I communicate that always as well as I could, even to my team, but that's one thing I feel...
+\[42:00\] So I care a lot about that. I don't know that I communicate that always as well as I could, even to my team, but that's one thing I feel...
 
 **Adam Stacoviak:** Hopefully this podcast will influence that a little bit.
 
@@ -364,7 +364,7 @@ That idea - I love it being such a meme, because as it spreads, we all benefit. 
 
 **Miguel de Icaza:** No, not really. I guess no, I don't have anything to get off my chest.
 
-**Jerod Santo:** \[00:45:14.08\] Fair enough.
+**Jerod Santo:** \[45:14\] Fair enough.
 
 **Miguel de Icaza:** Let me close with one thing - what has been fabulous is in this new Microsoft just how much open source code is written by Microsoft and contributed to Microsoft. The other day I saw the stats and there were these gianormous numbers; I think GitHub published them. Microsoft I think is now the number one contributor - by some metric, I don't know what it is... I don't know if the number matters anyways. It's so much code that...
 

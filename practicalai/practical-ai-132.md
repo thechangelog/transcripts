@@ -74,7 +74,7 @@ I'm wondering if you have any sort of perspective or learnings on that front in 
 
 So that's one of our key challenges, is trying to help customers through that journey, from getting their first light bulb, to being the kind of fully enrolled customer that has maybe multiple devices, and is taking advantage of some of these higher intelligence features. So that is one of the things that my team focuses on, is facilitating that journey with customers, helping them set up devices intelligently, and helping them recover from really common kinds of errors that they run into when they're setting up and starting to learn how a smart home works.
 
-**Break:** \[00:15:11.27\]
+**Break:** \[15:11\]
 
 **Chris Benson:** So I think that was a great segue there in terms of what you were just describing to talk about -- I'd love to talk about how you're really putting machine learning at the central enabler of being able to make all this happen to people, to where they're able to do that. I know you mentioned earlier that there is a services called Hunches that you guys are working on, and I would love to understand more about that, because I think I've been waiting for something like that for years. I'm selfishly thinking about the new house that we're gonna build, and how that fits in, so I can't wait to hear this.
 

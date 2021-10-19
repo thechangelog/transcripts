@@ -28,7 +28,7 @@ The third thing that I would say in regards to the fundamentals of being human i
 
 **Adam Stacoviak:** Big-time.
 
-**Mireille B. Reece, Psy.D:** \[00:04:06.27\] And we don't always get to pick the way in which we struggle, but we all struggle. So some of it I would say we actually participate in the choosing of that, and going, you know, if it's how I spend my money, or if I'm abusing this thing or that, that there's a way in which I participate in it. But some things we don't. I wouldn't say that we participate in the struggle of grief sometimes. Bad things happen to good people all the time, and it doesn't mean that somebody did something, or you did something per se to cause that grief, but... Struggle.
+**Mireille B. Reece, Psy.D:** \[04:06\] And we don't always get to pick the way in which we struggle, but we all struggle. So some of it I would say we actually participate in the choosing of that, and going, you know, if it's how I spend my money, or if I'm abusing this thing or that, that there's a way in which I participate in it. But some things we don't. I wouldn't say that we participate in the struggle of grief sometimes. Bad things happen to good people all the time, and it doesn't mean that somebody did something, or you did something per se to cause that grief, but... Struggle.
 
 **Adam Stacoviak:** Yeah. I see that in humans, and I don't really see that anywhere else. I don't look at my fish tank and see my fish struggling; I don't look at my dog or my cat, or the squirrel outside struggling. It seems very akin to being human, right? I didn't really consider how much people struggle, but you struggle in many different ways; not only do you struggle physically, but emotionally and mentally with learning new things, or with dealing with relationships, or being in a relationship, or like you had mentioned before, the grief of losing somebody, being broken up with, or losing a loved one.
 
@@ -38,7 +38,7 @@ So for somebody else, the struggle could be totally different. It might be that 
 
 **Adam Stacoviak:** It's also like you're trying to comprehend life. The struggle really is a comprehension problem. You're trying to make sense of what you think is happening, what your truth is, in a sense; what's true to you, what's really happening. And the struggle is that comprehension process. But I also think of it like - as we approach these different topics of being designed to feel, designed to connect, or the fact that we all struggle, it's almost like we're enabling those that would listen to this show the ability to know truths about being human, and then therefore being able to enable or offer empathy to others, because of these truths.
 
-**Mireille B. Reece, Psy.D:** \[00:07:40.00\] Right, and I think that's really a significant lie, when we do struggle... That we're like "Oh my word, nobody's ever struggled like this. I'm all alone in this, and now I can't find a way out." That actually isn't gonna help us do that struggle any better, and that's why even looking at these things and going "You know, I do feel the way that I do and I have these emotions around this situation or experience, but also where are my people, who do I walk alongside me in life in order to navigate this struggle?" Fundamentally, we're all gonna struggle more when we don't know. This is why being able to name things really makes a difference.
+**Mireille B. Reece, Psy.D:** \[07:40\] Right, and I think that's really a significant lie, when we do struggle... That we're like "Oh my word, nobody's ever struggled like this. I'm all alone in this, and now I can't find a way out." That actually isn't gonna help us do that struggle any better, and that's why even looking at these things and going "You know, I do feel the way that I do and I have these emotions around this situation or experience, but also where are my people, who do I walk alongside me in life in order to navigate this struggle?" Fundamentally, we're all gonna struggle more when we don't know. This is why being able to name things really makes a difference.
 
 In the field of neuroscience we sort of say "Name it to tame it." What I mean by that is when we're able to put words to our experiences, it changes the way in which we navigate it.
 
@@ -66,7 +66,7 @@ Our brain stem is really only responsible for essential functions, like breathin
 
 **Mireille B. Reece, Psy.D:** So if you put your hand up, like you're being sworn in - so hold your right hand up beside you, and then fold your thumb across the palm of your hand, and then take your four fingers and fold them over the top of your thumb. In this analogy, your wrist would be synonymous with your brain stem, and then your thumb would be synonymous with what we call the limbic system, or the mammalian brain, which is associated with mammals. And then the four fingers on the front is part of our neocortex, but more specifically the frontal lobe, or prefrontal cortex. So it's one portion of the neocortex. That is what makes us human.
 
-\[00:12:15.01\] We sort of joke and say "Put your lid on", which is like "How can I manage my emotions? I put my human brain on." When we look at emotions more specifically, the seat or the emotional center of the brain is actually in that mammalian brain, so your thumb. It involves two key brain structures - your hippocampus, which is responsible for memory, as well as the amygdala. And that amygdala is what is the key part of the brain responsible for emotions.
+\[12:15\] We sort of joke and say "Put your lid on", which is like "How can I manage my emotions? I put my human brain on." When we look at emotions more specifically, the seat or the emotional center of the brain is actually in that mammalian brain, so your thumb. It involves two key brain structures - your hippocampus, which is responsible for memory, as well as the amygdala. And that amygdala is what is the key part of the brain responsible for emotions.
 
 Now, bear in mind - and please, as we talk through this - the brain is always more complex than specifically saying "Oh, this part of the brain only does X, Y and Z." That's what we know for now, and research always adds to or modifies that.
 
@@ -98,7 +98,7 @@ So if there's an injury, what can happen is that a neural network gets modified,
 
 **Mireille B. Reece, Psy.D:** Yeah, because we're recalling it, and it's not happening live; it happened in the past... But I'm recalling it in the current moment, and now it has a different feel; or I got new information, and then it might get banked.
 
-**Adam Stacoviak:** \[00:16:04.09\] New associations... It's wild to think about how we can -- that's part of believing your own personal truth, your memory, and how my version of a story and your version of a story, even if we were both perfectly fine eyewitnesses - coherent, able, whatever - that your version of it and my version may be very similar, but not the same.
+**Adam Stacoviak:** \[16:04\] New associations... It's wild to think about how we can -- that's part of believing your own personal truth, your memory, and how my version of a story and your version of a story, even if we were both perfectly fine eyewitnesses - coherent, able, whatever - that your version of it and my version may be very similar, but not the same.
 
 **Mireille B. Reece, Psy.D:** Right. It's actually interesting, because the research they've done with eyewitness testimony is that it is actually pretty unreliable.
 
@@ -126,7 +126,7 @@ Imagine thinking about the way you drive to work. I can't really use that with y
 
 **Mireille B. Reece, Psy.D:** "I don't remember that entire drive." So it's been so habituated, that neural network is so strong that you're like "This is just what we do", and sort of on autopilot you just do it.
 
-**Adam Stacoviak:** \[00:20:00.17\] That happened today, actually. We were driving somewhere -- it was last night for dinner; and I'm getting ready to make a left, and Heather is like "No, you're gonna go straight here." That happens often, by the way... But the point was when I'm at this particular stoplight I tend to make a left, because I'm going into Tomball, and not onto the highway to go to the Woodlands, or whatever. So my brain is like "When you're here, you should be making a left", and so I habitually was like "Left turn signal, gonna make a left", even though I know where we're trying to go.
+**Adam Stacoviak:** \[20:00\] That happened today, actually. We were driving somewhere -- it was last night for dinner; and I'm getting ready to make a left, and Heather is like "No, you're gonna go straight here." That happens often, by the way... But the point was when I'm at this particular stoplight I tend to make a left, because I'm going into Tomball, and not onto the highway to go to the Woodlands, or whatever. So my brain is like "When you're here, you should be making a left", and so I habitually was like "Left turn signal, gonna make a left", even though I know where we're trying to go.
 
 **Mireille B. Reece, Psy.D:** Right. Because your brain has just been well-practiced. So if your attention isn't on where you were switching gears to go "Oh yeah, today we're going this way", then you're just gonna do what's been automated.
 
@@ -156,7 +156,7 @@ The interesting thing actually with emotions is that they're actually really imp
 
 **Adam Stacoviak:** It makes sense, yeah. I like that a lot; the way you break that down is pretty interesting.
 
-**Mireille B. Reece, Psy.D:** \[00:23:55.03\] And so because we're fundamentally hardwired to connect, then it means that we're all going to fare a lot better when we have other people that we can walk alongside with. Think about the kinds of individuals that you relate well with. Usually, you share probably similar hobbies, interests, likes, dislikes...
+**Mireille B. Reece, Psy.D:** \[23:55\] And so because we're fundamentally hardwired to connect, then it means that we're all going to fare a lot better when we have other people that we can walk alongside with. Think about the kinds of individuals that you relate well with. Usually, you share probably similar hobbies, interests, likes, dislikes...
 
 **Adam Stacoviak:** I think that you've said before "your people", and I don't know what you really mean by that, but I think it's probably the people you identify with, the people that maybe even are easy to empathize with... And as you mentioned, likes/dislikes, things like that. You need your people, right? And without your people -- you'd mentioned also the prison system, the idea of isolation and how that changes somebody. It could also kind of drive them crazy, because that feedback loop is missing, and they don't have their people. And I would even say in that scenario, in prison, your people probably are harder to find even... Just because of the scenario.
 
@@ -178,7 +178,7 @@ One example I think of is, you know, I grew up in the Midwest, both my husband a
 
 Somebody was joking about the Pacific North-West people, and how as a general rule we're -- not mean, but we just sort of answer a question and then go back to what you were doing... Whereas if you're in the South, you ask somebody for directions and they start telling their story, and like "What are you here for?" and then they invite you over to their house for tea, and then they introduce you to their family... It's just a whole different world. But some of that comes from just a shared sort of way of life, but some of it can come from just interests.
 
-\[00:28:17.20\] Another example for me is having grown up more in athletics, and having coached competitive gymnastics for a number of years - I love being around people who are fit, and love to take on a challenge, and be like "Yeah, let's try a Tough Mudder or a marathon", or whatever. Whereas other people might be like "No way. I got up and walked to the fridge. That was good."
+\[28:17\] Another example for me is having grown up more in athletics, and having coached competitive gymnastics for a number of years - I love being around people who are fit, and love to take on a challenge, and be like "Yeah, let's try a Tough Mudder or a marathon", or whatever. Whereas other people might be like "No way. I got up and walked to the fridge. That was good."
 
 **Adam Stacoviak:** "That's my workout."
 
@@ -204,7 +204,7 @@ Where I live, there's a huge military population, and so we have a lot of famili
 
 The other thing that's really important when it comes to connection is touch. There's some research which really shows how just the fundamental of embracing another -- I forget if it's 20 seconds or what, but having a longer embrace, like a hug... The way in which it helps buffer stress; it reduces arousal and reactivity because there's touch. You can hear the testaments of widows, women or husbands who've lost their significant other, and just how much they missed being touched, because they used to have the embrace all the time.
 
-\[00:31:59.14\] We can also see this in parenting. You hold babies, they're close to you. That touch. And some years ago there used to be orphanages, and the challenge was that these babies, these infants weren't tended to, and when they didn't have touch, they didn't survive.
+\[31:59\] We can also see this in parenting. You hold babies, they're close to you. That touch. And some years ago there used to be orphanages, and the challenge was that these babies, these infants weren't tended to, and when they didn't have touch, they didn't survive.
 
 **Adam Stacoviak:** Because touch is that crucial.
 
@@ -244,7 +244,7 @@ The other thing that's really important when it comes to connection is touch. Th
 
 **Adam Stacoviak:** What I'm hearing all along the way is the struggle. This connecting and feeling is a big struggle.
 
-**Mireille B. Reece, Psy.D:** \[00:36:06.17\] It is. You know, ironically... My husband always says "47 or 7, it doesn't matter." You still are trying to figure out how to live beside other people who make choices you might not make, and to stay in connection, as families, and going -- you know, we pick the people; we can't necessarily pick our relatives... We can pick our family, pick the people that you wanna hold close.
+**Mireille B. Reece, Psy.D:** \[36:06\] It is. You know, ironically... My husband always says "47 or 7, it doesn't matter." You still are trying to figure out how to live beside other people who make choices you might not make, and to stay in connection, as families, and going -- you know, we pick the people; we can't necessarily pick our relatives... We can pick our family, pick the people that you wanna hold close.
 
 In that example, say somebody has their cell phone out and keeps looking, or tapping their fingers, etc. Well, what if you gave them an opportunity by saying "Hey, by the way, what's up? Are you waiting for a call?" and you enquired, i.e. used your words, and then said "Hey, that just bothers me. I don't have a lot of time. I took time out of my day, so that we could have lunch or dinner, yadda-yadda, and I'd really love for you to be present with me here." Then if they can accommodate that, it's going "Oh, they took the feedback I gave them", and the next time they either clarified and said "Hey, you know what - I just have to keep my phone out because I'm waiting for this call. But as soon as that comes, I'll put it away."
 
@@ -274,7 +274,7 @@ In that example, say somebody has their cell phone out and keeps looking, or tap
 
 **Adam Stacoviak:** Some would call that -- so I said "confrontation", and some would say that what you described was passive-aggressive.
 
-**Mireille B. Reece, Psy.D:** \[00:39:44.05\] Touché. However, this is part of being an adult and being human. We have to use our own words, and if you feel like someone is being passive-aggressive, you can say "Hey, that didn't really feel so hot to me. I don't prefer for you to come in the back door in that way. Just tell me you don't like it." Everybody is different, but at least you had the actual interaction with the person around that particular situation... As opposed to leaving the setting, being ticked off or irritated, that like "Dude had his phone there the whole freakin' time", right? So you had an opportunity to actually shift your feeling in the actual context of the relationship real-time.
+**Mireille B. Reece, Psy.D:** \[39:44\] Touché. However, this is part of being an adult and being human. We have to use our own words, and if you feel like someone is being passive-aggressive, you can say "Hey, that didn't really feel so hot to me. I don't prefer for you to come in the back door in that way. Just tell me you don't like it." Everybody is different, but at least you had the actual interaction with the person around that particular situation... As opposed to leaving the setting, being ticked off or irritated, that like "Dude had his phone there the whole freakin' time", right? So you had an opportunity to actually shift your feeling in the actual context of the relationship real-time.
 
 **Adam Stacoviak:** What I'm hearing is that there's no opt out. As you'd mentioned, you can't opt out a feeling; you can opt out on how you may wanna feel about something, or change that, but it sounds like you can't opt out of struggling. You're stuck with struggle.
 
@@ -290,7 +290,7 @@ In that example, say somebody has their cell phone out and keeps looking, or tap
 
 **Adam Stacoviak:** Yeah... Wow. It takes learn by doing, in most cases; iteration, patience... There's so many people who are so hard on themselves, especially programmers... Because you're often in uncharted territories; on the hourly, on the daily. So having patience for yourself and your own learning process, and understanding that you are gonna struggle - because we're human - but then figuring out how to get around those, or just giving yourself some slack by saying "You know what, I'm only human."
 
-**Mireille B. Reece, Psy.D:** \[00:43:10.03\] Right. And bear in mind that especially if you're then frustrated because of the emotions that you're having, like "Ugh, I keep trying to work out this thing, and no matter what, I can't get past it. I can't figure out this code. What's not working?" Actually, the emotions that you have, especially the negative ones, are gonna run interference with your ability to actually both problem-solve and cope... Because it's like you're just living like a dog. You're just in that mammal brain, trying to contend with the emotions, as opposed to the actual problem.
+**Mireille B. Reece, Psy.D:** \[43:10\] Right. And bear in mind that especially if you're then frustrated because of the emotions that you're having, like "Ugh, I keep trying to work out this thing, and no matter what, I can't get past it. I can't figure out this code. What's not working?" Actually, the emotions that you have, especially the negative ones, are gonna run interference with your ability to actually both problem-solve and cope... Because it's like you're just living like a dog. You're just in that mammal brain, trying to contend with the emotions, as opposed to the actual problem.
 
 When we're looking at these ways that we struggle, it really is just true that nobody gets to opt out of humanity... And I would say that's really a good thing, because we can really enjoy our lives and have some really amazing experiences - relationships, emotions - and figure out how to get better. I'm fascinated by people; that's really what got me into this field - I'm sort of like a perpetual two-year-old; I always wanna know about why. "Why do they do this? Why does it work this way? Why did they do that?"
 

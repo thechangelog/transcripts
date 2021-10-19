@@ -10,7 +10,7 @@
 
 We're really lucky, actually, because Ben is founder of Istanbul, a pretty big -- I think kind of a golden standard in the JavaScript community for testing coverage, instrumentation, and so we're gonna be getting into all the nitty-gritty details, and the back-story, and all of that. We'll talk about test coverage, testing in general, open source, project arcs... Lots of stuff to cover. So welcome, Ben. Why don't you tell us a little bit about yourself before we get started?
 
-**Benjamin Coe:** \[00:04:01.24\] Yeah, so my name is Ben Coe, as you said, and I was an early engineer at Npm Incorporated. That's definitely where I got more into open source and more into actually test coverage related stuff, while I was there.
+**Benjamin Coe:** \[04:01\] Yeah, so my name is Ben Coe, as you said, and I was an early engineer at Npm Incorporated. That's definitely where I got more into open source and more into actually test coverage related stuff, while I was there.
 
 Today I am what's called a developer programs engineer at Google. Basically, we're on the cusp between an engineer and a developer advocacy type of role, where we still do quite a bit of engineering, and we do do a certain amount of speaking. It's kind of a nice combination of two skills that I enjoy doing.
 
@@ -52,7 +52,7 @@ This other person decided to fork Optimist and give it a yargs theme. It wasn't 
 
 **Amal Hussein:** So I think what's really interesting about you, Ben, is that you've been in the Node community for such a long time that I think you've really seen so many arcs and evolutions... And I think one of the benefits of being involved in a community that's about to hockey stick early on is that you get to really be part of the foundational toolset story. You get to contribute to things like argument parsers that are used by thousands of libraries... Bringing us to Istanbul, can you tell us a little bit about what is Istanbul and what motivated you to create it?
 
-**Benjamin Coe:** \[00:08:12.28\] Yes, I like this story. Basically, I came into Npm having a belief in test coverage, because I'd seen it used really effectively at the prior company I was at... And I've learned that it was a toolset that benefitted me, because I could really start to see the parts of the codebase that just really didn't' have any testing written for them; we'll talk later in this podcast about how test coverage isn't a perfect thing, but it can certainly tell you what parts of your codebase aren't very well-exercised, which is powerful... So I came into Npm and I was an advocate of this... But the way that tests were written for the Npm client, because it used a technology called TAP, where it creates a sub-process for every one of the unit tests that run, there actually wasn't really an easy methodology at the time for getting test coverage.
+**Benjamin Coe:** \[08:12\] Yes, I like this story. Basically, I came into Npm having a belief in test coverage, because I'd seen it used really effectively at the prior company I was at... And I've learned that it was a toolset that benefitted me, because I could really start to see the parts of the codebase that just really didn't' have any testing written for them; we'll talk later in this podcast about how test coverage isn't a perfect thing, but it can certainly tell you what parts of your codebase aren't very well-exercised, which is powerful... So I came into Npm and I was an advocate of this... But the way that tests were written for the Npm client, because it used a technology called TAP, where it creates a sub-process for every one of the unit tests that run, there actually wasn't really an easy methodology at the time for getting test coverage.
 
 Istanbul already did exist at this time. There was another thing called blanket that existed, which was similar... And they would basically work that you instrumented your test suite - maybe it's a Mocha test suite, and it's able to do the real-time instrumentation, but they didn't work well with sub-processes.
 
@@ -72,7 +72,7 @@ Then we'd start to find bugs with Istanbul's instrumentation, and I started pitc
 
 Istanbul, as I understand it, was kind of the v2 of something that grew up inside of Yahoo! originally. This approach to instrumentation was initially hammered out for Yahoo!'s testing needs.
 
-**Amal Hussein:** \[00:11:58.11\] I think that's just super-interesting. This clarifies a lot of misconceptions I had up until about two minutes ago... I kind of associated the two projects as one and the same, in many respects. I was like "Oh, NYC seems like the executor binary for Istanbul in many ways. It's like the front-loader, or whatever."
+**Amal Hussein:** \[11:58\] I think that's just super-interesting. This clarifies a lot of misconceptions I had up until about two minutes ago... I kind of associated the two projects as one and the same, in many respects. I was like "Oh, NYC seems like the executor binary for Istanbul in many ways. It's like the front-loader, or whatever."
 
 So Istanbul was preexisting via Yahoo!, and you came in and helped augment it, it seems, and now you're a maintainer; it's just the way things go in open source.
 
@@ -98,7 +98,7 @@ Okay, so we've got instrumentation as a whole... How does instrumentation work? 
 
 And what they actually do is they very cleverly take the code you've written and then replace all of the code with code that would do the same thing, but has counters in it. So basically they take every single statement in the entire codebase, and someone's actually gone into the trouble of backwards-engineering how you would write identical JavaScript that does the exact same thing, but has counters in it. And it turns out that mostly using parentheses, which allow you to -- if you just put parentheses around a random set of statements in JavaScript, I believe it returns the same first thing, but executes the second thing... Or am I backwards? It executes the first thing and then returns the second thing... Either way. I might be backwards. But the point is it basically puts parentheses around tons of your code, and then these counters are just running as your code runs normally, and then there's basically a global object, it keeps track of all those lines of code that were run, and then when your thing's done running, that global object gets written somewhere, and now you're able to do a test coverage report. That's how Istanbul works... That's how NYC works, because NYC would run Istanbul and then get that report out the other end.
 
-\[00:15:45.00\] The thing I've been going really deep on for the last couple of years is the V8 JavaScript engine; it actually has test coverage built into it now, and that test coverage works a little differently, where your JavaScript code doesn't execute -- like, when you run code in the web browser and Node.js, your JavaScript code doesn't get turned into a tree and executed directly. It actually gets turned into an intermediate bytecode representation...
+\[15:45\] The thing I've been going really deep on for the last couple of years is the V8 JavaScript engine; it actually has test coverage built into it now, and that test coverage works a little differently, where your JavaScript code doesn't execute -- like, when you run code in the web browser and Node.js, your JavaScript code doesn't get turned into a tree and executed directly. It actually gets turned into an intermediate bytecode representation...
 
 If anyone remembers -- everyone's heard about the Java JVM, where the Java code you write actually gets turned into virtual machine code that runs in the JVM... JavaScript actually works really similarly. And V8 now lets you turn on coverage, and then as it writes this bytecode that's going to go into actually executing in your web browser to give you a pop-up or whatever, it puts additional bytecode in that also counts how many times those statements were called... So it happens kind of a layer up from the JavaScript code. I'm really excited about this, because it means that we're able to collect coverage without creating this really munged up code that has parentheses thrown into it, and has a global object that you're using to track stuff.
 
@@ -128,7 +128,7 @@ And then the other thing was that we weren't able to handle ESM modules, basical
 
 So the Node project relied on this, and we published nightly coverage reports, but we were using NYC to instrument. NYC does have a performance impact on your average project that's running it, but for most tiny JavaScript projects you're not gonna notice if your test took ten seconds to run, versus eight seconds to run, or something. But on the Node codebase, with this pre-instrumentation process, it was more like a 200% or 300% decrease in performance... So instead of the suite taking 15 minutes to run, it was taking 45 minutes to run, or something.
 
-\[00:20:18.05\] So around this time, one, I was concerned about just how long it was taking to run the \[unintelligible 00:20:22.18\] coverage; it felt like it was making it so people weren't able to do it themselves. Around the same time ESM was starting to get some traction, and there was no way to track coverage for ECMAScript modules... So there was a twofold motivation - I wanted to see if this could speed up the Node.js codebase, and I wanted to make sure I supported ECMAScript modules. So I started to work on the C8 project years ago, when the V8 coverage was pretty immature in the V8 codebase, ECMAScript modules were pretty immature... I didn't know if the whole project would work, basically. And I'd never contributed to V8 before.
+\[20:18\] So around this time, one, I was concerned about just how long it was taking to run the \[unintelligible 00:20:22.18\] coverage; it felt like it was making it so people weren't able to do it themselves. Around the same time ESM was starting to get some traction, and there was no way to track coverage for ECMAScript modules... So there was a twofold motivation - I wanted to see if this could speed up the Node.js codebase, and I wanted to make sure I supported ECMAScript modules. So I started to work on the C8 project years ago, when the V8 coverage was pretty immature in the V8 codebase, ECMAScript modules were pretty immature... I didn't know if the whole project would work, basically. And I'd never contributed to V8 before.
 
 The first time I started really writing C++ code was when I started this C8 project. But it ended up being really fun. The initial versions of coverage in V8 had a ton of holes in it; it just didn't quite work very well. Because I'd become pretty obsessive about coverage working on Istanbul and NYC for years, I kind of knew what the community wanted. It was just missing certain things. It couldn't handle \[unintelligible 00:21:30.17\] statements, or it couldn't handle ternary operators; there were just random things that the coverage couldn't do, and I knew if I was gonna expose this to the wider community, that the first question I would get is why doesn't it support X, or why doesn't it support Y.
 
@@ -142,7 +142,7 @@ So I like C8 a lot... I think because it's grown so slowly, people don't know ab
 
 **Divya:** Yeah, that's fair.
 
-**Break:** \[00:23:22.22\]
+**Break:** \[23:22\]
 
 **Amal Hussein:** So Ben, that was a super-brain-dive/deep-dive...
 
@@ -158,7 +158,7 @@ So I like C8 a lot... I think because it's grown so slowly, people don't know ab
 
 So you know, there's a lot of people using this code, there's definitely some edge cases, like you said, some extreme edge cases with JavaScript implementations, the things that could break... What's that arc been like for you as a maintainer, to have that kind of growth?
 
-**Benjamin Coe:** \[00:27:52.25\] Yeah, it's been really interesting. For me, the description that comes to mind is "exciting", because when I worked on NYC initially I really did think of it as scratching an edge case that we had for Npm, which was to deal with the sub-processes, so we could actually test them... And it was surprising to me to see it become so popular across the whole community. I think it really did help drive test coverage in general, having (like you say) these integrated ways of doing it; having it so easily done just right inside of Jest, or having it right inside of a technology like Tap made it -- it really drove adoption.
+**Benjamin Coe:** \[27:52\] Yeah, it's been really interesting. For me, the description that comes to mind is "exciting", because when I worked on NYC initially I really did think of it as scratching an edge case that we had for Npm, which was to deal with the sub-processes, so we could actually test them... And it was surprising to me to see it become so popular across the whole community. I think it really did help drive test coverage in general, having (like you say) these integrated ways of doing it; having it so easily done just right inside of Jest, or having it right inside of a technology like Tap made it -- it really drove adoption.
 
 What's also been really neat to me is that -- I've worked with the Jest folks to help them with any bugs they've bumped into... And Jest actually supports this, a V8-based approach too, experimentally, so I've worked with them to support that alternative way of doing coverage, so Jest can do both.
 
@@ -186,7 +186,7 @@ So for me -- it's like everything being involved in... Like you said early on in
 
 So getting back into community stuff - there's so much perception around test coverage, and everyone trying to get to 100%... And 100% is certainly useful, for sure, but is it the end-all-be-all? Does 100% mean no bugs? And this is a trick question, of course.
 
-**Benjamin Coe:** \[00:31:48.20\] One thing I'd like to bring up -- and I've brought it up already earlier in this podcast... One real strength I see of coverage in relation to the Node project is that it tells people areas where they could contribute easily... Because you do wanna try to have test coverage of most core components of a large open source project like Node. So giving people that entry point to contribute I think is amazing. To your point, 100% coverage is not no bugs, in any regard... Because you might codify the weird, broken behavior, right?
+**Benjamin Coe:** \[31:48\] One thing I'd like to bring up -- and I've brought it up already earlier in this podcast... One real strength I see of coverage in relation to the Node project is that it tells people areas where they could contribute easily... Because you do wanna try to have test coverage of most core components of a large open source project like Node. So giving people that entry point to contribute I think is amazing. To your point, 100% coverage is not no bugs, in any regard... Because you might codify the weird, broken behavior, right?
 
 **Amal Hussein:** It's certainly, I think, a metric. It's a metric to the health of a codebase. But coverage doesn't tell you the quality of your -- it doesn't say that these tests are quality tests. I mean, you could just have a test that runs a high-level function, and just because it does that, you all of a sudden have all this coverage... But you know, your branching isn't there, or whatever else. I feel like there's some flaws there with test coverage being used as this metric for -- I think a lot of times it's synonymous with quality.
 
@@ -206,7 +206,7 @@ There's actually a really interesting -- talking about a point that \[unintellig
 
 So I'd run coverage and I'd see these 45 lines of code aren't covered, and I'd be like "What the heck are these 45 lines of code doing?" So the approach I always take to improving coverage in a codebase that's maybe unfamiliar to me, or maybe a little crufty, or whatever, is make sure you can really describe -- the tests should kind of describe the functionality. "This feature should behave like this; this feature should behave like this, this feature should behave like this." It shouldn't be "Lines 135 to 167 in file foo.js." If your tests are just exercising some lines of code, I don't think you're gonna have well-written tests.
 
-\[00:36:01.23\] I think coverage is a good indicator of "Shoot, we haven't covered these lines of code." But it's not a substitute for writing well-written tests that are descriptive and actually explain what the heck they're testing. That's my two cents.
+\[36:01\] I think coverage is a good indicator of "Shoot, we haven't covered these lines of code." But it's not a substitute for writing well-written tests that are descriptive and actually explain what the heck they're testing. That's my two cents.
 
 **Divya:** That's actually a really good point, because some coverage tools it's like "These lines have been covered, therefore they have been tested", which is probably not the case... Like, \[unintelligible 00:36:24.03\] does the thing that it should be doing... So yeah.
 
@@ -226,7 +226,7 @@ I think that's really challenging with unit tests in particular, because I think
 
 **Amal Hussein:** ...all the else cases, you know? \[laughs\] Or the if cases, sometimes.
 
-**Break:** \[00:39:20.02\]
+**Break:** \[39:20\]
 
 **Amal Hussein:** I'd love to talk to you a little bit about what you see as the future of testing coverage, and just testing maybe in general, more broadly, in the JavaScript community... I know you're very humble and you're like "I'm not a testing authority", but you kind of are... So where are things heading?
 
@@ -246,7 +246,7 @@ Let's say you have a Node project, and then this is like a serverless thing, and
 
 I think one approach people might start taking is instrumenting -- you know, kind of like a canary application, where you have a canary application that runs the next version of your codebase to make sure that it's healthy. Maybe people are running a canary version with instrumentation like coverage and maybe telemetry data for the first six hours after deployment, and trying to collect data that way...
 
-\[00:44:04.27\] I think that's one of the really exciting things about pushing this stuff towards the actual engines like V8 - you can actually get it so you can have that instrumentation and still run at a fairly fast rate, such that you're not impacting customers too much.
+\[44:04\] I think that's one of the really exciting things about pushing this stuff towards the actual engines like V8 - you can actually get it so you can have that instrumentation and still run at a fairly fast rate, such that you're not impacting customers too much.
 
 I think everyone else absolutely hated it at Npm - I use this one library called Nock to try to test the HTTP layer... So you kind of test your program up to the point when you have that external dependency, like the external function you're gonna invoke... And one approach, if it's (say) an HTTP API you're interacting with, Nock's such a really nice tool for testing right up to that point.
 
@@ -270,7 +270,7 @@ Ben, this has been a really fascinating discussion. I'd love to kind of close th
 
 What I have been told is you don't magically get a ton of maintainers because you joined a foundation... Like, "Oh, here's our pool of yargs maintainers that were just waiting to write command line parsers." Kind of having a core of maintainers I think is always one of the most difficult parts of an open source project... And I've found throughout the years -- sometimes I'll have a pool of 2-3 folks who are doing incredible work on a project, and it's almost always that it's a specific task they had for work, so they wanted to get it built... And I very much encourage those types of contributions and appreciate them, but definitely, it ebbs and flows, the number of folks who are working on yargs, or Istanbul, or any of these projects.
 
-\[00:48:10.07\] So I think the story for sustainability does have to be that as a maintainer you just need to not be too stressed out if your issues are counting up a little bit... And the issues that I try to put the most attention to are if we have a major, for instance, security issue. I do treat that as a P0. And because of my role at Google, where I know some googlers are using some of the libraries, and I don't feel too bad spending a couple hours out of my work week if we would have a P0 security issue I had to address.
+\[48:10\] So I think the story for sustainability does have to be that as a maintainer you just need to not be too stressed out if your issues are counting up a little bit... And the issues that I try to put the most attention to are if we have a major, for instance, security issue. I do treat that as a P0. And because of my role at Google, where I know some googlers are using some of the libraries, and I don't feel too bad spending a couple hours out of my work week if we would have a P0 security issue I had to address.
 
 **Amal Hussein:** Yeah.
 
@@ -284,7 +284,7 @@ What I have been told is you don't magically get a ton of maintainers because yo
 
 **Benjamin Coe:** And this is where I see foundations attractive, too... Because I think foundations definitely have their mind on some of the same things, which is how we can keep something sustainable for an extended period of time.
 
-**Divya:** \[00:50:34.06\] Yeah. I think there's pros and cons. The pro is you're within a foundation, so there's a lot more process. Also, within the Node Foundation there's a process around how to manage the community, so there's not a lot of people yelling at contributors, or back and forth, between the maintainers and contributors. There's more of a balance. But the downside to that also is that foundations sometimes move very slowly, and that's sometimes that I've heard a lot of people, where they're like, they don't wanna join the Node Foundation, for example, because there's a lot of process, which means that they can't move as quickly, or iterate, and have as much control anymore. Again, it's a trade-off that you have to make for yourself in the project.
+**Divya:** \[50:34\] Yeah. I think there's pros and cons. The pro is you're within a foundation, so there's a lot more process. Also, within the Node Foundation there's a process around how to manage the community, so there's not a lot of people yelling at contributors, or back and forth, between the maintainers and contributors. There's more of a balance. But the downside to that also is that foundations sometimes move very slowly, and that's sometimes that I've heard a lot of people, where they're like, they don't wanna join the Node Foundation, for example, because there's a lot of process, which means that they can't move as quickly, or iterate, and have as much control anymore. Again, it's a trade-off that you have to make for yourself in the project.
 
 **Amal Hussein:** Yeah, for sure. I don't know, I think that the open source sustainability problem is one that's -- I don't know if the sun is ever gonna set on that... But it interesting to hear how different maintainers tackle it.
 
@@ -298,7 +298,7 @@ The ones that I've seen that are the most successful is the foundation model, or
 
 **Amal Hussein:** Oh yes, yes... That... OMG.
 
-**Benjamin Coe:** I think of it more as patronage, in the \[00:52:11.00\] kind of sense.
+**Benjamin Coe:** I think of it more as patronage, in the \[52:11\] kind of sense.
 
 **Divya:** Yeah, exactly. \[laughter\]
 
@@ -326,6 +326,6 @@ I don't wanna live in a world full of FANG company sponsored software. Everybody
 
 **Amal Hussein:** Thank you...
 
-**Outro:** \[00:54:45.17\]
+**Outro:** \[54:45\]
 
 **\[Robot voice\]** Everyone, JavaScript is so cool! Have you heard?

@@ -10,7 +10,7 @@ And during the summer - it must have been like three years ago now - they moved 
 
 **Jerod Santo:** So Carbon, to describe it, is a website where you go and you put your code in, and it gives you a shiny, very attractive display of that you can then use on the social networks, or you take it, put it in your readme, share it with friends...
 
-**Mike Fix:** \[00:04:27.13\] Yeah.
+**Mike Fix:** \[04:27\] Yeah.
 
 **Jerod Santo:** Very cool.
 
@@ -30,7 +30,7 @@ I was stoked recently to find out that NASA has these, in a jet propulsion labor
 
 **Mike Fix:** We're definitely like a staple mismatch case. If you're reading Working in Public by Nadia, we're like the stadium case, where a lot of people are looking at it, but no one's really touching it... And I think that's totally fine and appropriate. An open source application maybe shouldn't have the same number of contributors as something like a library or a framework.
 
-\[00:08:13.21\] But yeah, contributor growth is not that high for how many users we have and how many starts on GitHub, or whatever it is... There's only been like 100 contributors. And when I think about it, I'm stoked we have 100 contributors, but that's definitely a bit mismatch from hundreds of thousands of users... Which is fine. Every single contribution that does come in then, I get really stoked, and revitalized, and I reimagine the hopes of open source in general.
+\[08:13\] But yeah, contributor growth is not that high for how many users we have and how many starts on GitHub, or whatever it is... There's only been like 100 contributors. And when I think about it, I'm stoked we have 100 contributors, but that's definitely a bit mismatch from hundreds of thousands of users... Which is fine. Every single contribution that does come in then, I get really stoked, and revitalized, and I reimagine the hopes of open source in general.
 
 I've had contributions recently that have been among the best contributions ever, from people just coming and discovering Carbon for the first time... And honestly, coming in and fixing bugs that have existed since three years ago, that I've never been able to solve, never had the time or different perspective to take a look at that... So that just always gives me energy to keep going, for sure.
 
@@ -40,7 +40,7 @@ I've had contributions recently that have been among the best contributions ever
 
 So a lot of the contributions that I make in the interim is just cleaning up code, cleaning up bugs, utilizing new technologies to make things even more stable, such that in the future there's less intervention with these sorts of things... And it's really a testament to how I -- it's kind of like a case study on creating an open source application that is self-sustaining in every mechanism that you can imagine. So the code is continually getting compressed and using the right technologies and the right use cases, so that it remains stable... But also the app itself is hosted on Now, or Vercel, which is free; we don't pay for a domain, we don't pay for hosting, we don't pay for any aspect of that thing, which is very huge for the project, because we don't necessarily want to have to rely on selling something in order to keep this app afloat. We want it to sustain itself and let people utilize it as a public good.
 
-\[00:11:59.01\] And then the last piece there is in the last wave of what's next for Carbon I've built a system of storing snippets that you can save later, and then when share those snippets on Twitter or whatever, they automatically unfurl and they point back to source, which lets you do a lot of things, like you can remix snippets just like you would, like GitHub gists, that sort of thing - duplicate them, edit them, reference lines of text in them.
+\[11:59\] And then the last piece there is in the last wave of what's next for Carbon I've built a system of storing snippets that you can save later, and then when share those snippets on Twitter or whatever, they automatically unfurl and they point back to source, which lets you do a lot of things, like you can remix snippets just like you would, like GitHub gists, that sort of thing - duplicate them, edit them, reference lines of text in them.
 
 That was something that might have seemed obvious for a while, but we were hesitant to maybe go that direction, because there's a cost associated. We need a database, we need to store these things, and we don't want the cost of that to actually hurt the project in the long run, where we have to shut down things or roll back features, or whatever it may be. So I'm very careful with our solutions there, to make sure the project sustains itself. So that's why we have a Firebase database, and Firebase Auth, and things that scale for a developer team the size of what we have... Yeah, that has been our approach.
 
@@ -54,7 +54,7 @@ So our hesitation is not that we don't wanna give users what they want, but we w
 
 **Mike Fix:** Yeah, there's this weird thing where -- I think it has to do with how they handle foreignObjects and SVGs, or something like that... Basically, the library that we use to translate an HTML chunk to an image - it fails in a low-level event in Safari. So when we shipped Carbon, Safari didn't work at all; for months it didn't work. So our solution - because we knew this was a low-level browser incompatibility - was to just spin up Chrome in the background and fire the data off to a headless Chrome browser and then send back the snippet to Safari. That's how we get around it, and that's been there since -- for a long time now. We originally treated it as just like supporting Safari, but really we had to build like an API to replace the in-browser feature.
 
-**Jerod Santo:** \[00:15:58.01\] That's a really cool hack. So in every other browser it's just generating that image right there, in your browser; Carbon doesn't do anything on the backend, unless you're using Safari.
+**Jerod Santo:** \[15:58\] That's a really cool hack. So in every other browser it's just generating that image right there, in your browser; Carbon doesn't do anything on the backend, unless you're using Safari.
 
 **Mike Fix:** Yeah. And the goal there is we want this thing to be completely offline-capable...
 
@@ -100,7 +100,7 @@ So much work goes in behind the scenes, you don't even think about all these lit
 
 **Mike Fix:** Yeah, and that's totally fine, too. Yeah, it doesn't necessarily have to grow like this over time, but it's been such a fun experience to see new people using it in new, unique ways... You know, back to the NASA story, back to all the other folks that share it and use it in their books, or in their presentations, or what have you... That's been inspiring to keep moving forward with these features. And there's more we can do. We can make a theme storefront, that people can share their themes publicly, or whatever... Or all sorts of things like that. So there's more we can do; we're not doing everything... But it's been fun just to be a maintainer, honestly. That's what gets me most excited about it - to have this thing that's in the public, that lets us experiment with all sorts of facets... Like, maybe unique business models we can experiment with. We can experiment with OpenCollective. We can experiment with Open Collective, we can experiment with the cutting edge Next.js features. We can experiment with how you maintain a repository. We have our own custom bot that's set up to merge pull requests, and respond to issues, and label things a certain way... Those are all things that we can work on in public, and that's what's been most exciting - to be the maintainer throughout all of those pieces of work.
 
-**Jerod Santo:** \[00:20:18.28\] I think that's an aspect of open source that we don't maybe talk about so much, maybe because it's implied here on the Changelog, especially with Maintainer Spotlight.
+**Jerod Santo:** \[20:18\] I think that's an aspect of open source that we don't maybe talk about so much, maybe because it's implied here on the Changelog, especially with Maintainer Spotlight.
 
 **Adam Stacoviak:** The freedom?
 
@@ -116,7 +116,7 @@ Along those lines, in the future I can imagine companies who have a mission, and
 
 **Adam Stacoviak:** So what's your goal then with Carbon? It started out as a way to save time from people, essentially; put code out there in fun ways, but save a designer's time... What's that going out? It's evolved over the years, so what's the situation?
 
-**Mike Fix:** \[00:23:54.11\] Yeah... So as a product, it's kind of doing its job, and if it never changed again, I think I would still be happy with it. And the reason I keep wanting to change it and maintaining it and pushing it forward is to act as like a public staple of open source. The fact that there's not too many products that are fully open source... I want it to act as that figure, that symbol for people that want to operate their business or their product in a different way, and still show that it can have reach, that it can have impact; that maybe in the future I can make money.
+**Mike Fix:** \[23:54\] Yeah... So as a product, it's kind of doing its job, and if it never changed again, I think I would still be happy with it. And the reason I keep wanting to change it and maintaining it and pushing it forward is to act as like a public staple of open source. The fact that there's not too many products that are fully open source... I want it to act as that figure, that symbol for people that want to operate their business or their product in a different way, and still show that it can have reach, that it can have impact; that maybe in the future I can make money.
 
 We're not making money with Carbon not because it's open source, we're not making money because there's not really potentially the right business model yet, or something like that. But that's always the goal with Carbon - to show a different way of making progress on something while being transparent, while utilizing these mechanisms that don't really translate well in a closed-source business. People can see all of our thought processes in public, they can see all the mistakes we've made, they can see the trade-offs that we're making explicitly in the code. And those sorts of things just don't come about when you have a closed-source thing. We wanna be a staple that people can point to when they're considering "Hey, I'm building a service. Maybe my frontend should be open source, so that people can understand how it's being used", that sort of thing. Lots of different goals wrapped up, and a lot of it is just evangelizing open source as the right mechanism for getting things done.
 
@@ -128,7 +128,7 @@ But if I was gonna turn that into an actual business model, I'm most excited abo
 
 The reason I'm really excited about that is because -- not that it's gonna make Carbon money or anything, but it's gonna help a lot of small creators. A lot of small creators that are creating beautiful themes, beautiful fonts, and maybe don't have a hundred thousand eyeballs every month; they can just put it up on Carbon and have that sort of connection point. That's the business model I see as the most mutually beneficial.
 
-\[00:28:04.05\] Right, we could toss up ads and make some money, but it's not gonna make enough money to viscerally change my happiness, and definitely it won't improve the users' lives when using Carbon. So this other thing would be kind of like a better translation, because 1) I think it actually would add value to Carbon. People could come to Carbon and see what's new. It's not so static, it's not just like always the same screen every time. And 2) I think it would parallel well with helping small creators just like we were when we started Carbon out - we had no audience, and we wanted to share this thing we made. That seems like the best business model for us to take it in a direction for, but we're still figuring out how to do that that fits well with the community, and like I said before, sustain that program going forward in a more self-serve way.
+\[28:04\] Right, we could toss up ads and make some money, but it's not gonna make enough money to viscerally change my happiness, and definitely it won't improve the users' lives when using Carbon. So this other thing would be kind of like a better translation, because 1) I think it actually would add value to Carbon. People could come to Carbon and see what's new. It's not so static, it's not just like always the same screen every time. And 2) I think it would parallel well with helping small creators just like we were when we started Carbon out - we had no audience, and we wanted to share this thing we made. That seems like the best business model for us to take it in a direction for, but we're still figuring out how to do that that fits well with the community, and like I said before, sustain that program going forward in a more self-serve way.
 
 **Adam Stacoviak:** That's what drew me to do this show, because I saw that Dracula Pro was on Carbon. I'm like "That's cool!" I can imagine its distribution for an indie creator like Zeno... And I see what you see, which is like this could be a moving billboard; not so much in terms of a make-money billboard, but an easy way -- because it's got a lot of interest and eyeballs using it on the daily, many engineers all over the world using Carbon... And why not show off your code and show off Zeno's work with Dracula Pro... And I don't know what else is beneath the surface, because I haven't dove in and discovered, but I imagine it's an open opportunity now for, say, the designer behind -- I believe Inter is the font... That's something else we wanna talk to around Maintainer Spotlight, is like making this really awesome open source font that a lot of people are using; it's amazing, a lot of work, I'm sure, has gone into it. I'm assuming the story we'll hear from that. But you get people like that behind there, and you've got sort of a distribution channel for indie creators, basically.
 
@@ -144,7 +144,7 @@ The reason I'm really excited about that is because -- not that it's gonna make 
 
 **Mike Fix:** That one's a font by Phil out of Formidable. A really fun font. It's definitely unique, and I have that as actually my default font on my editor still, on my personal computer. So yeah, it's embedded in Carbon right now, and probably hard to find. I'm not sure many people even see it coming across using Carbon in their day-to-day... But the next stop obviously is to make a more centralized home for these links, make it like a marketplace where people can actually scroll through it. I would love to do that, and I would easily put time into creating that; it's just a matter of finding enough tools to showcase. Right now we have three; that doesn't make much of a marketplace. But if there were a few dozen small creators that wanted to showcase fonts, their themes, their developer-focused tools - yeah, I would love to help them out.
 
-**Break:** \[00:31:18.13\]
+**Break:** \[31:18\]
 
 **Jerod Santo:** Well, we've been talking about business models, but each time you bring up a business model you say "Well, this one might not make money, but it's exciting." Are there any money-makers? Like, advertising... You named a few. But is there a money-maker in here, and if not, could this be a thing supported by the community through GitHub Sponsors, through Open Collective? I mean, you could go that traditional/non-traditional route.
 
@@ -176,7 +176,7 @@ The reason I'm really excited about that is because -- not that it's gonna make 
 
 **Jerod Santo:** Nice, congrats.
 
-**Mike Fix:** \[00:36:11.15\] Yesterday it was 24k.
+**Mike Fix:** \[36:11\] Yesterday it was 24k.
 
 **Adam Stacoviak:** Congratulations!
 
@@ -206,7 +206,7 @@ I'm trying to be very cognizant of how we shape the platform going forward, so t
 
 **Adam Stacoviak:** On the feel-good front, I really enjoy this being distribution for indie makers. I noticed, as you mentioned, affiliates; you'd mentioned that as a business model earlier, in regards to Dracula Pro. There's a button next to it that says Purchase. Is there a list anywhere where like -- I see you've got Night Owl in here from Sarah Drasner; I love that theme, it's super-popular on VS Code. I saw something recently, there was some sort of fundraiser around it; I don't know what the details are. But there's no outbound link for Night Owl, for example, to go visit it on the Visual Studio Code's website where you can view it and see its source, and maybe its homepage, or any blog posts that Sarah wrote about it etc. How do you see the resources from a visitor discovery standpoint on Carbon now?
 
-**Mike Fix:** \[00:40:10.10\] Yeah, that's a great point you called out. I guess that's what's solidifying my answer here; for all the links that we've posted there, it's been third-party led. They've all reached out to me saying "Hey, can we get this affiliated link on Carbon? That will help me out. That will help my tool out."
+**Mike Fix:** \[40:10\] Yeah, that's a great point you called out. I guess that's what's solidifying my answer here; for all the links that we've posted there, it's been third-party led. They've all reached out to me saying "Hey, can we get this affiliated link on Carbon? That will help me out. That will help my tool out."
 
 And yeah, I would love to link to Sarah's fundraiser around Night Owl, for sure. I don't know, it just never came across my plate for me to lead that decision. But if someone wanted to put it up there, I'm sure we'd be able to find a good home that fits well within the application for causes that we want to encourage, for tools we wanna help out.
 
@@ -226,7 +226,7 @@ And yeah, I could see it pointing to other things that maybe aren't so digital t
 
 **Adam Stacoviak:** Yeah. When you have a core promise - every product has a core promise, and you deliver that first. I always say "Sell the need, plant the seed." Plant the seed is like "How can I check out Dracula Pro behind the scenes? Core product and selling need is "How can I get my code image to use Dracula Pro?" You know what I mean? So don't distract...
 
-**Mike Fix:** \[00:44:04.15\] That's right. What I do like about this system too is that - sure, we might not be making much money on affiliate links, but by putting them on there we get to enhance our own product with better themes. We get to use Dracula Pro. Dracula Pro is being used on Carbon, and we get to use these pro fonts for free. And then we get to extend it to more people as well. So that's another reason I like that sort of model, even if it doesn't make money, which - we're obviously not hurting for money right now as a product... At least where we continually improve the platform. Affiliates like that are things that I'm definitely eager to try out. I would love to get some Operator Mono on there, or other sorts of things that I know developers love, but we can't put on Carbon without having the creator sanction it.
+**Mike Fix:** \[44:04\] That's right. What I do like about this system too is that - sure, we might not be making much money on affiliate links, but by putting them on there we get to enhance our own product with better themes. We get to use Dracula Pro. Dracula Pro is being used on Carbon, and we get to use these pro fonts for free. And then we get to extend it to more people as well. So that's another reason I like that sort of model, even if it doesn't make money, which - we're obviously not hurting for money right now as a product... At least where we continually improve the platform. Affiliates like that are things that I'm definitely eager to try out. I would love to get some Operator Mono on there, or other sorts of things that I know developers love, but we can't put on Carbon without having the creator sanction it.
 
 **Jerod Santo:** So those are some ways that you're gonna extend the product to capture some value, but what about extending the product to create more value? You said you want to enable creators and teachers to share code in ways that are more valuable and more accessible in all these different ways. Have you considered moving images?
 
@@ -250,7 +250,7 @@ That's an issue that at first glance I thought "Hey, we're not gonna support thi
 
 **Jerod Santo:** It's certainly complicated.
 
-**Mike Fix:** \[00:48:06.27\] "...or I don't know if I can do it." But then a contributor is like "No, I've got it. Step aside, I can totally take care of this myself." That's fascinating, in terms of distributed software development, but it's also just a really cool thing that someone's willing to contribute that.
+**Mike Fix:** \[48:06\] "...or I don't know if I can do it." But then a contributor is like "No, I've got it. Step aside, I can totally take care of this myself." That's fascinating, in terms of distributed software development, but it's also just a really cool thing that someone's willing to contribute that.
 
 **Adam Stacoviak:** Well, let's use this as an exercise then to maybe real-time vet how that feature ties into sustainability, and the way you mentioned it works on a plane, client-side not backend... Real-time vet that feature and how that would change the sustainability trajectory of Carbon right here, live.
 
@@ -288,7 +288,7 @@ Another story there is just like - sure, they might be out of date at this point
 
 **Jerod Santo:** Hey, that's a good thing. What about tools and techniques? As a maintainer of a stadium-style project, you're a one-to-many kind of guy - do you have any tools of the trade, like bots that you've written, or things that you say "I could live without this service" when it comes to maintaining Carbon?
 
-**Mike Fix:** \[00:52:22.22\] Yeah, yeah. So the two main things that kept Carbon a free platform is using Now, which has a free tier, that just lets people like me create stuff. And I'm totally happy with that being a thing. It's like Carbon.now.sh, so it's like a fine trade-off there... And then Firebase is another thing that really -- I don't think we could have this stored infrastructure in place without that, because it's very pluggable...
+**Mike Fix:** \[52:22\] Yeah, yeah. So the two main things that kept Carbon a free platform is using Now, which has a free tier, that just lets people like me create stuff. And I'm totally happy with that being a thing. It's like Carbon.now.sh, so it's like a fine trade-off there... And then Firebase is another thing that really -- I don't think we could have this stored infrastructure in place without that, because it's very pluggable...
 
 But yeah, for maintaining stuff, tools and that sort of thing, I built a bot called Repo Ranger (reporanger.com). That's like a bot dedicated to helping alleviate some of the burden of being a maintainer. It very much stems off of my needs, but I'm building it with maintainers in mind, and I would love to add features to that bot if other maintainers had them. But it helps do tons of common interactions; it merges a pull request for you as soon as the build is done, so you don't have to watch it. It closes a duplicate issue if you add a duplicate label, but only after a certain time...
 
@@ -312,7 +312,7 @@ It does a few other things, too... We automated comments just to keep things con
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[00:56:09.03\] Because getting bots to talk together is pretty fun, but pushing one thing, or making one comment, or updating one label and orchestrating that you had once done manually - that's a feeling.
+**Adam Stacoviak:** \[56:09\] Because getting bots to talk together is pretty fun, but pushing one thing, or making one comment, or updating one label and orchestrating that you had once done manually - that's a feeling.
 
 **Mike Fix:** Yeah, for sure. It's cool, because by using labels - that's the reason why Repo Ranger works around labels for the most part; other text-based things lets you configure it, but it also creates this paper trail, and this system that's visible about how people coming into the project expect the product to operate. New maintainers to Carbon eventually could look at my labels and descriptions of them and see "Oh, this is how this repo is governed." It's a tangible thing to point to about how maintainers should operate in Carbon. And it also lets people -- you know, they can open a pull request from their command line and add a label with the same tool in the command line and never even open up GitHub. Just have it all completely automated, but still have the paper trail that is GitHub.
 

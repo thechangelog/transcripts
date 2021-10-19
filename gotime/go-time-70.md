@@ -54,7 +54,7 @@
 
 **Leonid Kalneus:** But you know, right now I'm in St. Petersburg - I moved from Novosibirsk last year - and today in St. Petersburg it's -20 Celsius degrees.
 
-**Brian Ketelsen:** \[00:04:12.07\] Wow. Now, St. Petersburg is on the Western side of Russia, right?
+**Brian Ketelsen:** \[04:12\] Wow. Now, St. Petersburg is on the Western side of Russia, right?
 
 **Leonid Kalneus:** Yeah, right.
 
@@ -122,7 +122,7 @@
 
 **Erik St. Martin:** It's just the two of us right here... \[laughter\] Nobody will ever know.
 
-**Leonid Kalneus:** \[00:07:59.16\] Yeah, also we have -- do you know Telegram?
+**Leonid Kalneus:** \[07:59\] Yeah, also we have -- do you know Telegram?
 
 **Carlisia Thompson:** Yeah.
 
@@ -200,7 +200,7 @@
 
 **Leonid Kalneus:** Yeah, even more than 400.
 
-**Brian Ketelsen:** \[00:12:01.09\] Oh, that's good. That's great for a first conference. Well done!
+**Brian Ketelsen:** \[12:01\] Oh, that's good. That's great for a first conference. Well done!
 
 **Carlisia Thompson:** That is excellent, yeah.
 
@@ -258,7 +258,7 @@
 
 **Leonid Kalneus:** For sure, one of the biggest is [MailRu Group](https://en.wikipedia.org/wiki/Mail.Ru). Do you know the social network [VKontakte (VK)](https://en.wikipedia.org/wiki/VKontakte)? It's like the Russia Facebook. They use Go in some of their backend services. And actually, there are a lot of smaller companies that use Go in their production also. I can mention [Avito](https://en.wikipedia.org/wiki/Avito.ru). It's like a Russian eBay, but a bit smaller than eBay, for sure. They also use Go in their backend services. That's the most well-known, I think. And not Russian, but Russian-speaking - the guys from Gett, from Minsk... Do you know a company called [Juno](https://gett.com/juno/)? It's like Gett in New York -- it's not like, it's Gett in New York. So yeah, they have a lot of stuff in Go.
 
-**Brian Ketelsen:** \[00:16:36.04\] Nice.
+**Brian Ketelsen:** \[16:36\] Nice.
 
 **Leonid Kalneus:** Yeah, they're very nice folks.
 
@@ -286,7 +286,7 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Leonid Kalneus:** Wow, so... If you are speaking about far, far away Siberia, I will be happier if more speakers will come to visit us and talk to our gophers in person. Maybe this is the most important point for us.
 
-**Carlisia Thompson:** \[00:20:14.18\] Do you mean at your meetup?
+**Carlisia Thompson:** \[20:14\] Do you mean at your meetup?
 
 **Leonid Kalneus:** For example, we can use DevFest Siberia as a place to meet. Yeah, because it's quite huge land, we have more than 700 people there... So it's quite reasonable to come to Siberia to talk to this audience.
 
@@ -342,7 +342,7 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Brian Ketelsen:** So how many organizers are there for GopherCon Russia? There's you, and a few others, right?
 
-**Leonid Kalneus:** \[00:24:05.02\] Yeah, it's me, Alex - Alex is the organizer of the Moscow Gophers community. And we have Elena - she's responsible for organizing stuff, and me and Alex, we're more about the speakers, the program and so on.
+**Leonid Kalneus:** \[24:05\] Yeah, it's me, Alex - Alex is the organizer of the Moscow Gophers community. And we have Elena - she's responsible for organizing stuff, and me and Alex, we're more about the speakers, the program and so on.
 
 **Brian Ketelsen:** So do you wanna say hi to them on the air?
 
@@ -404,7 +404,7 @@ Then somebody else walked up and said "Oh, hi Dmitry!" It was Dmitry Vyukov, and
 
 **Leonid Kalneus:** Yup.
 
-**Erik St. Martin:** \[00:27:57.27\] Dot ru (.ru). I know we mentioned one or two speakers, but did you wanna give a quick highlight of a few more speakers? Maybe a couple of the keynoters, or things like that.
+**Erik St. Martin:** \[27:57\] Dot ru (.ru). I know we mentioned one or two speakers, but did you wanna give a quick highlight of a few more speakers? Maybe a couple of the keynoters, or things like that.
 
 **Leonid Kalneus:** Well, I don't want to highlight someone else. I think everyone is quite a brilliant speaker there, at the least. Yeah.
 
@@ -456,7 +456,7 @@ The second item to talk about - it was 2-3 days ago, the results for the [2017 G
 
 **Erik St. Martin:** The link is in the show notes, but it was actually -- there's been a huge shift in the number of people who basically say they program Go outside of work or they do it at work. They basically swapped. 2016 I think 66% of people or something like that - the top answer was "I program Go outside of work", and now at work seems to be the thing.
 
-\[00:32:05.28\] Some of the other stuff I found interesting was actually the rankings based on language expertise and preferences. I expected to see -- obviously, Go was the top one in the list, but I expected to see a lot more like Python and Ruby and JavaScript... I didn't expect to see Java and C and C++ up there. This is in order of preference, but these languages have been around longer, so I think it's somewhat of an indicator of the communities that people are coming from when adopting Go... I mean, that'd be my assumption; if I had to answer my preference list, it would probably be Go first, and then the language I came from.
+\[32:05\] Some of the other stuff I found interesting was actually the rankings based on language expertise and preferences. I expected to see -- obviously, Go was the top one in the list, but I expected to see a lot more like Python and Ruby and JavaScript... I didn't expect to see Java and C and C++ up there. This is in order of preference, but these languages have been around longer, so I think it's somewhat of an indicator of the communities that people are coming from when adopting Go... I mean, that'd be my assumption; if I had to answer my preference list, it would probably be Go first, and then the language I came from.
 
 **Carlisia Thompson:** Yeah, that's a good assumption, I think.
 
@@ -486,7 +486,7 @@ Some other interesting statistics out of that were operating system of choice th
 
 **Brian Ketelsen:** Fair... Or maybe they bring their Macs because they're afraid of not fitting in...
 
-**Erik St. Martin:** \[00:36:08.28\] No, actually -- I mean, if you think about it, I fall into that category really well, right? I develop exclusively on Linux - I have my Linux workstation, I have a Linux laptop I write code on... But I do all my adminy stuff - social media, video chats and email and all that stuff, my to-do lists and stuff are all on my Mac, so when I travel, I bring my Mac.
+**Erik St. Martin:** \[36:08\] No, actually -- I mean, if you think about it, I fall into that category really well, right? I develop exclusively on Linux - I have my Linux workstation, I have a Linux laptop I write code on... But I do all my adminy stuff - social media, video chats and email and all that stuff, my to-do lists and stuff are all on my Mac, so when I travel, I bring my Mac.
 
 **Brian Ketelsen:** That's true, good point.
 
@@ -522,7 +522,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Leonid Kalneus:** Yes, and yes.
 
-**Carlisia Thompson:** \[00:40:06.21\] Do you think a lot of people in your community knew about it and took it, too?
+**Carlisia Thompson:** \[40:06\] Do you think a lot of people in your community knew about it and took it, too?
 
 **Leonid Kalneus:** I'm not sure, actually, because I can't track that, but I think I spread this link to the community.
 
@@ -578,7 +578,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** No, 100%. All of them said GoTime was their favorite podcast. Even if they came from another place where they had a different podcast, they said GoTime was better. \[laughter\]
 
-**Erik St. Martin:** \[00:44:00.14\] Brian has this Chrome filter called "Craze Brian", and when he turns it on, everything turns into 100% love. \[laughter\] It's like, every site he goes to, "100% of the people who use this site love Brian." \[laughter\]
+**Erik St. Martin:** \[44:00\] Brian has this Chrome filter called "Craze Brian", and when he turns it on, everything turns into 100% love. \[laughter\] It's like, every site he goes to, "100% of the people who use this site love Brian." \[laughter\]
 
 **Brian Ketelsen:** That'd be an interesting Chrome filter. I'm gonna work on that, for Donald Trump.
 
@@ -638,7 +638,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Leonid Kalneus:** It's an application - you sign up and it collects all your contacts from the address book, and you can search for any phone numbers and find the name of the person. The fun story here is, for example, you can find out how other people wrote down in their address book; it's very fun. I can send you the name...
 
-**Brian Ketelsen:** \[00:48:00.11\] Oh... That's scary.
+**Brian Ketelsen:** \[48:00\] Oh... That's scary.
 
 **Leonid Kalneus:** It's very bad for the privacy, but a very funny application.
 
@@ -684,7 +684,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Leonid Kalneus:** No, unfortunately. But yeah, we have Vadim - he is a Google developer expert on machine learning. Yeah, quite a cool guy. I will send his GitHub to the Slack.
 
-**Brian Ketelsen:** \[00:50:54.24\] That's awesome, thank you.
+**Brian Ketelsen:** \[50:54\] That's awesome, thank you.
 
 **Erik St. Martin:** Alright, so if nobody has any other projects to give a shout-out to, I think we are at time. Thanks so much for coming on the show, Leo. Thank you to all of our listeners, thank you Carlisia for being on the show... Brian, we're no longer friends.
 

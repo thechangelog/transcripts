@@ -24,7 +24,7 @@ Now, I did read that you used to teach a course at NYU on security, so you think
 
 **Jerod Santo:** Nice.
 
-**Dan Guido:** \[00:03:58.14\] I got to do a lot of things there. I taught their Capstone course in software exploitation for a while, I taught about 300 kids how to write exploits (that was fun), and then I tried to represent their program to other random folks - that could be students, that could be sponsors, that could be people that hired those students for a long time. It was a really fun part of my career, but at some point I kind of grew out of it. I've lost touch with the kids these days... \[laughter\] So now I try to support people that are starting their own companies instead, which is a little bit closer to my current experience.
+**Dan Guido:** \[03:58\] I got to do a lot of things there. I taught their Capstone course in software exploitation for a while, I taught about 300 kids how to write exploits (that was fun), and then I tried to represent their program to other random folks - that could be students, that could be sponsors, that could be people that hired those students for a long time. It was a really fun part of my career, but at some point I kind of grew out of it. I've lost touch with the kids these days... \[laughter\] So now I try to support people that are starting their own companies instead, which is a little bit closer to my current experience.
 
 **Jerod Santo:** Gotcha.
 
@@ -56,7 +56,7 @@ WireGuard is itself the name of the code that implements the WireGuard protocol,
 
 **Jerod Santo:** Who is that person?
 
-**Dan Guido:** \[00:08:00.05\] Jason Donenfeld. He really knows what he's doing, and he's had the code and the protocol for it reviewed by a lot of academics, by a lot of software security professionals, and he's been able to really whittle down the design to the minimum possible amount of code required to implement it as well, the minimum number of cryptographic components required to implement it... Which really is the kind of stuff that gets protocols like IPSec in trouble.
+**Dan Guido:** \[08:00\] Jason Donenfeld. He really knows what he's doing, and he's had the code and the protocol for it reviewed by a lot of academics, by a lot of software security professionals, and he's been able to really whittle down the design to the minimum possible amount of code required to implement it as well, the minimum number of cryptographic components required to implement it... Which really is the kind of stuff that gets protocols like IPSec in trouble.
 
 But this is a whole other tangent. Let's just talk about what Algo VPN is...
 
@@ -82,7 +82,7 @@ So there's the proliferation of hundreds of these services. You don't really kno
 
 The issue here is that you really do need to think about security when you're using a VPN service. What is that person going to do with your traffic? Because you're taking every single packet that comes out of your computer and handing it over to some guy you've never met, in a country that's not yours, that has a different set of laws that you might not be familiar with, that might not have the competence to actually run it.
 
-\[00:12:09.05\] I can probably set up a VPN service, but I'm a super-conservative security professional and I don't think I can do it right. At least not right now, and not with the resources I have today.
+\[12:09\] I can probably set up a VPN service, but I'm a super-conservative security professional and I don't think I can do it right. At least not right now, and not with the resources I have today.
 
 So if I can't do it right, what makes you think that some random dude out in Eastern Europe can? \[laughs\] First off, there's this question of trust, like "Who are these people running the service, and are they actually living up to whatever they say in their marketing?" That's problem number one.
 
@@ -102,7 +102,7 @@ Okay, end of rant... Does that all make sense for why I'm a little bit skeptical
 
 That being said, the entrepreneur in me, and the one that likes to see these things as like -- it's a perfect market opportunity. I do like when people take something that is exclusive to technical folks and can open it up to a broader user base, and say like "That's a business opportunity." It's like "Here's this thing which is very useful", and whether you're using it to get access to Disney+ or you're using it to actually secure yourself while you're at a coffee shop and you don't want people reading your email, it's very useful service... But it's traditionally difficult to acquire for people who aren't technical. And now we can all get access to it. I like that idea, but I understand how it ends up not so idealistic.
 
-**Dan Guido:** \[00:16:06.01\] I just cannot imagine how many VPN installations that baby Yoda has driven in the last few weeks... \[laughter\] But let's dive into that, because yeah, there are some VPN service providers out there that are doing a good job, and are doing their diligence, as good as one can do with those kinds of risks. Because no matter who you are, if you're running a VPN service, you're painting a huge target on your back.
+**Dan Guido:** \[16:06\] I just cannot imagine how many VPN installations that baby Yoda has driven in the last few weeks... \[laughter\] But let's dive into that, because yeah, there are some VPN service providers out there that are doing a good job, and are doing their diligence, as good as one can do with those kinds of risks. Because no matter who you are, if you're running a VPN service, you're painting a huge target on your back.
 
 **Jerod Santo:** For sure.
 
@@ -120,11 +120,11 @@ On the other hand, there's a different kind of review, where you're doing a secu
 
 **Dan Guido:** \[laughs\] Yeah. It's frustrating, because you're right, a lot of the review sites are actually driven by the marketing budgets from all the VPN providers. They pay for those reviews. I know for a fact, because I've participated in a WireCutter one that there was no payment involved.
 
-\[00:19:32.22\] On the other hand, a lot of people cite that there's that one privacy site for something, where it tries to break down every single technical specification whatsoever. Hundreds of indicators, like 200 different feature comparisons that they use to try and figure out what the difference is between all these different VPNs... And really, it just boils down to three to five different features, like "Did you get a security review?" That's a great one to start. "Are you using modern VPN software? Have you been compromised in the past?" \[laughs\] These are some things -- or like "Is the ownership of your company known? Why can't I find out who it is?"
+\[19:32\] On the other hand, a lot of people cite that there's that one privacy site for something, where it tries to break down every single technical specification whatsoever. Hundreds of indicators, like 200 different feature comparisons that they use to try and figure out what the difference is between all these different VPNs... And really, it just boils down to three to five different features, like "Did you get a security review?" That's a great one to start. "Are you using modern VPN software? Have you been compromised in the past?" \[laughs\] These are some things -- or like "Is the ownership of your company known? Why can't I find out who it is?"
 
 When you look into the details, there was a study done this year where they've found that close to one third of the VPN services on the market were secretly operated by firms in China. If you look at PIA, somebody found out last -- actually, I think it was Kenn White... He found out last week that PIA is actually founded and operated by the same guy who ran Mt. Gox, the Bitcoin exchange that lost hundreds of millions of dollars in Japan. Nobody knew that... \[laughter\] So is that the guy that you wanna be giving all your traffic to? Like, every packet that you send to the internet? Probably not.
 
-**Break:** \[00:20:46.09\]
+**Break:** \[20:46\]
 
 **Jerod Santo:** Okay, so you \[unintelligible00:21:32.09\] or at least the only ones approved by WireCutter... But you have Algo VPN, and we're all nerds, and I can set up my own self-hosted cloud thingy... So why did you build Algo VPN and what inspired it in the first place?
 
@@ -134,7 +134,7 @@ IPSec, especially services like strongSwan and the other services that implement
 
 Now, I'm sure some listeners out there are in the position where they've got like 1,000 two-factor auth keys, and they have no idea what to do with them when they get a new phone... This was the situation that I thought about when this thing was spitting out keys at me, like "What have I gotta do with all this stuff? I need to protect it somewhere, I need to rotate these keys every once in a while... What are these keys even good for?" So I kind of panicked, and I shut down the install right in the middle; I'm like "I can't do this." And it was at that moment that I decided I would set up my own.
 
-\[00:23:46.21\] So I dove into strongSwan, I got a lot of help from some of the strongSwan developers to come up with the ideal, the perfect strongSwan configuration for just a roaming laptop around the world... And that took a lot of work. I didn't wanna support every protocol under the sun; I didn't wanna enable a lot of these features that are more suited for enterprise use. I really wanted the minimal configuration possible, where there's only one way to do it right, and then set that as the standard, and that would be it.
+\[23:46\] So I dove into strongSwan, I got a lot of help from some of the strongSwan developers to come up with the ideal, the perfect strongSwan configuration for just a roaming laptop around the world... And that took a lot of work. I didn't wanna support every protocol under the sun; I didn't wanna enable a lot of these features that are more suited for enterprise use. I really wanted the minimal configuration possible, where there's only one way to do it right, and then set that as the standard, and that would be it.
 
 As I was building this up, I finally got it to work after a couple days after I landed in Berlin... Which was even funnier, because I walk into the apartment that this firm rented for my girlfriend, and the TV is set to all-Russian channels, and it has this really cheap Chinese router that's already been set up with internet service, she didn't know where it came from...
 
@@ -162,7 +162,7 @@ So we started adding more code to it, we started sandboxing every service inside
 
 **Jerod Santo:** Let me tell you where you sold me in the intro blog post... It's when you said that it only does the most secure thing, and that's the only way that it works; it just does this one way... You said you wanted one way to do it. And this is how it works. You don't have to pick your cryptography, your hashing... I don't want any choices on those particular things. Yes, give me customization on usability, but...
 
-\[00:28:00.13\] I remember distinctly - this was probably years ago now - when I set up a stock, vanilla NGINX server for a customer, and I went out and ran SSL Labs against it, or something... And you accept -- not insecure, but deprecated, old SSL and TLS versions, and that means that your NGINX install is not hard, and it's not as secure as it could be... And I remember thinking "Why shouldn't it just come out of the box, doing the best thing?" I understand, because it's backwards-compatibility, and there's lots of reasons why that's like that, or developer laziness, whatever it is... And I'm a fan of NGINX, so I'm not -- this is just the way things are; it's like "I support these 13 different handshakes." It's like "Well, but 12 of them shouldn't be used anymore."
+\[28:00\] I remember distinctly - this was probably years ago now - when I set up a stock, vanilla NGINX server for a customer, and I went out and ran SSL Labs against it, or something... And you accept -- not insecure, but deprecated, old SSL and TLS versions, and that means that your NGINX install is not hard, and it's not as secure as it could be... And I remember thinking "Why shouldn't it just come out of the box, doing the best thing?" I understand, because it's backwards-compatibility, and there's lots of reasons why that's like that, or developer laziness, whatever it is... And I'm a fan of NGINX, so I'm not -- this is just the way things are; it's like "I support these 13 different handshakes." It's like "Well, but 12 of them shouldn't be used anymore."
 
 **Dan Guido:** What do you need them for?
 
@@ -196,7 +196,7 @@ So really, Algo VPN is made so that you can't screw it up... All the way to the 
 
 But yeah, there are certain things, certain features that we can add to Algo VPN that would compromise the ideals, that would compromise the mission that it has, the values that it has. Installing OpenVPN is a good example. OpenVPN as client software has had tons of issues. If you wanna force your users to install client software, they have to patch that. I don't wanna make people patch anything. This should be software you don't need to patch. It should have enough defense and depth, and it should re-use existing components so that it's much lighter-weight, which means I don't have to think about it as much.
 
-\[00:32:10.24\] We don't wanna depend on TLS either, and OpenVPN does. TLS has been riddled with all kinds of security issues, a lot because you can negotiate those ciphers and negotiate the protocols that you're using with TLS, which OpenVPN inherits. This is a total shoehorn in the first place.
+\[32:10\] We don't wanna depend on TLS either, and OpenVPN does. TLS has been riddled with all kinds of security issues, a lot because you can negotiate those ciphers and negotiate the protocols that you're using with TLS, which OpenVPN inherits. This is a total shoehorn in the first place.
 
 TLS is not made to be a VPN. It operates at a totally different layer, it's made to do something different. It was a poor fit to begin with, and we shouldn't be using it here.
 
@@ -216,7 +216,7 @@ NordVPN getting hacked last year, or... Who's the other one? There was another o
 
 **Jerod Santo:** It's interesting, there's a couple kinds of trouble. There's the kind of trouble where you're in trouble, but you know you're in trouble. And then there's the kind where you think you're not in trouble, so now you're brazen and bold... And you actually are. And then you find out. Ignorance is not bliss in this case. So if you think you're anonymous and you're being promised anonymity by somebody, or maybe you set it up yourself, like you said, and you're assuming the anonymity - well, now you can get yourself in all sorts of trouble, because you assume that to be the case and it's not true. This happens I think a lot.
 
-**Dan Guido:** \[00:36:03.17\] I think the Grug has a really good quote here. There's a tweet he made, I think it was something along the lines of "No one is gonna go to jail for your $5/month 'logless' VPN service." If it comes down to the operator of that service having to spend ten years in prison versus handing over the details...
+**Dan Guido:** \[36:03\] I think the Grug has a really good quote here. There's a tweet he made, I think it was something along the lines of "No one is gonna go to jail for your $5/month 'logless' VPN service." If it comes down to the operator of that service having to spend ten years in prison versus handing over the details...
 
 **Jerod Santo:** They're gonna turn you over.
 
@@ -224,7 +224,7 @@ NordVPN getting hacked last year, or... Who's the other one? There was another o
 
 But luckily, you know what - most people aren't. Most people are using VPNs to access TV, so... \[laughter\] You shouldn't be selling out all your internet traffic to some random dude, so that you can watch Disney+.
 
-**Break:** \[00:37:05.06\]
+**Break:** \[37:05\]
 
 **Jerod Santo:** So briefly walk us through setting up the Algo server today. What do you do, what does it do, what don't you have to do? ...and then we'll talk about running it as a client, and we'll kind of go from there. But how do you just get it going? It's an Ansible script, so I'm assuming it's Python. Get some Python on your machine and run it.
 
@@ -234,7 +234,7 @@ Basically, at a high level, the steps include - on Mac or Linux, or Windows if y
 
 The install script will ask you some questions, like "What do you wanna name the server?" You have to give it a name. It has a default name, and you can just press enter. You have to give it an API key, and that means the one cloud service that you'd like to deploy it to - you need to go log into that cloud service with your account there, and then grab an API key from that service, that lets the Ansible scripts do things to it.
 
-\[00:39:41.17\] Now with that API key Ansible and Algo VPN will start up a server, add the VPN software to it, generate the keys needed on your local machine, send those keys over to the remote server, and then lock the whole thing down. And locking it down means a lot of things. it means setting up AppArmor policies for each service, it means reconfiguring a couple of Linux defaults to be a little bit more secure, changing some file permissions in places, some kernel parameters in places, setting CPU accounting to make sure that certain services can't run out of control...
+\[39:41\] Now with that API key Ansible and Algo VPN will start up a server, add the VPN software to it, generate the keys needed on your local machine, send those keys over to the remote server, and then lock the whole thing down. And locking it down means a lot of things. it means setting up AppArmor policies for each service, it means reconfiguring a couple of Linux defaults to be a little bit more secure, changing some file permissions in places, some kernel parameters in places, setting CPU accounting to make sure that certain services can't run out of control...
 
 And then at the end of it it prints out a congratulations message that says "You've got a new personal VPN, and here's the key for it." At the end of that message, now you've got a bunch of files that are like preconfigured profiles for the VPN users that you wanted to create. So those profiles are things like an Apple profile, so if you have an iPhone, you can take an Apple profile, send it over to your iPhone, and then now you've got your VPN on your iPhone.
 
@@ -282,7 +282,7 @@ As we've mentioned before, there's no real way to configure WireGuard, it either
 
 **Jerod Santo:** So then you just reprovision your config, or the thing on your devices, and you're good to go.
 
-**Dan Guido:** \[00:44:06.12\] Yeah. The first time you use Algo VPN it might be like 10-20 minutes to really learn what it expects, how to use it, but then subsequent redeployments are really just gonna be muscle memory. You're just gonna open up that ZIP file again, run through the commands, press Enter, it'll take 2-3 minutes end-to-end, and you'll have a new, fresh server.
+**Dan Guido:** \[44:06\] Yeah. The first time you use Algo VPN it might be like 10-20 minutes to really learn what it expects, how to use it, but then subsequent redeployments are really just gonna be muscle memory. You're just gonna open up that ZIP file again, run through the commands, press Enter, it'll take 2-3 minutes end-to-end, and you'll have a new, fresh server.
 
 I do that about once a month. When taking a new vacation out to Atlanta, or whatever, maybe I'll deploy a new one. But in general, I don't worry about it took much. We're not adding massive new features.
 
@@ -310,7 +310,7 @@ I think the Bitcoin community, the Python community, the Npm community, Ruby Gem
 
 **Jerod Santo:** So \[unintelligible 00:47:43.17\] about running this for other people... I did notice it's multi-user, and you start to think "Okay, well I'm savvy enough that I can get Python 3 on my machine and run this, but I would like to run it for my girlfriend, or my wife, or my friends, or my mom and dad", and that seems like something that's totally feasible, especially if you can just get them to download WireGuard and then send them this QR code and say "Boom, here's your QR code. You're all set, you're on a VPN." Is it as simple as that to get multiple people up and using it?
 
-**Dan Guido:** \[00:48:12.21\] Yeah. There's a config file in Algo VPN, and you just add however many users you want to a list. Our of the box it comes pre-configured with those users - Dan and Jack. \[laughs\] Jack is my co-developer.
+**Dan Guido:** \[48:12\] Yeah. There's a config file in Algo VPN, and you just add however many users you want to a list. Our of the box it comes pre-configured with those users - Dan and Jack. \[laughs\] Jack is my co-developer.
 
 **Jerod Santo:** Man, you're trying to hack your way into all of our VPNs, man... Come on.
 
@@ -332,7 +332,7 @@ It doesn't hurt to generate extra. You can always just make like 20 of them and 
 
 On the other hand, the concern that you might have as well - if they're using all the bandwidth to torrent the latest season of Silicon Valley or whatever it might be, am I gonna have enough bandwidth/am I gonna suffer by sharing a VPN service with them? And overwhelmingly, the answer is gonna be no. The amount of bandwidth that's provisioned to a single virtual instance of an Ubuntu server in a service like DigitalOcean or Amazon is just enormous.
 
-\[00:50:56.28\] I have Gigabit Fiber at home. I'm calling you from a files connection where I routinely (without a VPN) get like 950 mbps... And that isn't really slowed down when I'm running a VPN. My upstream to the internet, even though it's tunneling through one of those cloud services, really does not see a whole lot of slowdown at all. So I don't anticipate that somebody out there is gonna be completely saturating a 500 mb link 24/7. And if they are, then I actually probably would use that to start a conversation with them.
+\[50:56\] I have Gigabit Fiber at home. I'm calling you from a files connection where I routinely (without a VPN) get like 950 mbps... And that isn't really slowed down when I'm running a VPN. My upstream to the internet, even though it's tunneling through one of those cloud services, really does not see a whole lot of slowdown at all. So I don't anticipate that somebody out there is gonna be completely saturating a 500 mb link 24/7. And if they are, then I actually probably would use that to start a conversation with them.
 
 **Jerod Santo:** \[laughs\] Yeah, now it's time to have a conversation...
 

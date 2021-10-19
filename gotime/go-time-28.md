@@ -40,7 +40,7 @@ I've written a book about it on how to build your own programming language and s
 
 **Brian Ketelsen:** I have to say, I got early access to the book and did some read-throughs on it, and it is an amazing book. If you haven't yet picked up a copy, it's well worth the read. I learned a million things and I've only made it through maybe four chapters... It's really good.
 
-**Thorsten Ball:** \[00:04:03.14\] Thank you.
+**Thorsten Ball:** \[04:03\] Thank you.
 
 **Erik St. Martin:** We'll link to it in the show notes.
 
@@ -64,7 +64,7 @@ So that's the first reason, because it's easy to do. The other reason why it loo
 
 **Thorsten Ball:** To be completely honest, for me the biggest takeaway would be that it's super fun. As I said, I work with web applications all day, and if you develop locally, you have to spin up your server, your database, you have to make external requests and so on and so forth. If you develop a programming language, you don't need anything. You only need the standard library, and that is super enjoyable. So that's the first thing - it's a lot of fun, and I think -- I wrote this on the landing page of the book... This is for people who enjoy programming. You don't get a certificate, and I don't know if an employer will care if you say you read this book; the focus of the book is fun. If you love to dig deep, if you love to understand topics and to better understand them, this book is for you.
 
-\[00:08:13.22\] The other thing is, if you learn how to implement your own programming language, you learn how other languages work, right? And you start to understand why interpreters are the way they are, and you start to understand how Brendan Eich could implement JavaScript in ten days, or something like this. I think that's really valuable, because at the end of the day, a programming language is just a tool you use to get a job done, ideally. This is a tool you use, and I'm of the opinion the better you know your tools, the better you can wield them.
+\[08:13\] The other thing is, if you learn how to implement your own programming language, you learn how other languages work, right? And you start to understand why interpreters are the way they are, and you start to understand how Brendan Eich could implement JavaScript in ten days, or something like this. I think that's really valuable, because at the end of the day, a programming language is just a tool you use to get a job done, ideally. This is a tool you use, and I'm of the opinion the better you know your tools, the better you can wield them.
 
 I'm a big fan of understanding the abstractions you work with, so if I'm building a web page, I think you should know how HTTP works; maybe not in the beginning, but to get the most out of it, you should know one level of abstraction beneath the one you're working on - that's always the phrase I use. I don't know who said it, I've tried to find out one time, but couldn't find the original author.
 
@@ -76,7 +76,7 @@ I learned a lot more about software by learning about hardware, too. When you st
 
 **Thorsten Ball:** I totally agree. Before the show started we had a little chat in the chatroom about IDEs, and I'm hesitant about IDEs. I use Vim, I'm a big fan of it... The things is, with IDEs - my problem with them is you're on such a high level in the abstraction pyramid... You're up there in your IDE and you press a button, and something happens further down; if something further down blows up, then you suddenly don't know what it is and how it works and why it blew up. If you understand the lower levels, you can handle these problems better.
 
-**Carlisia Thompson:** \[00:12:04.20\] Yeah, that part I didn't really understand, because I don't see the difference between pressing the button on an IDE and pressing a key or a combination of keys on a Vim or Emacs. I don't know... I'm not sure what you meant.
+**Carlisia Thompson:** \[12:04\] Yeah, that part I didn't really understand, because I don't see the difference between pressing the button on an IDE and pressing a key or a combination of keys on a Vim or Emacs. I don't know... I'm not sure what you meant.
 
 **Thorsten Ball:** Okay, what I meant is it's not Vim or IntelliJ themselves, but if you use Vim - and you're probably gonna use Git on the command line, and you're gonna use a curl on the command line, and so on. If you know those tools and how to use the tools themselves, you probably understand them better than a Git hidden behind a graphical UI and hidden behind three layers of IDE. Does that make sense?
 
@@ -94,7 +94,7 @@ I don't know, maybe my argument is the same one - if you can see what you're wor
 
 **Erik St. Martin:** I think the line comes between usage and implementation. If you use something that's GDB or Git tied into your IDE, you understand the principles from a usage standpoint, but not necessarily the implementation details. So when things go wrong, the implementation details are usually what matter in trying to diagnose and troubleshoot the problem. We could say this about any technology... A database, for example MySQL. Most of us just use it, but when things go wrong, having an understanding of how databases work is without a doubt going to help you, and I think it's just a tradeoff of the time involved in learning the tool at that level, versus the productivity that you need. So things like Git or something like that are maybe a slight learning curve, but it's not the same level as learning how a database is actually implemented at the disk layer.
 
-\[00:16:09.11\] For most of us there's not a lot of value in that, but there can be a lot of value in understanding the operating system at least at like a surface level, and command line and things like that. It's just kind of a constant trade, I guess.
+\[16:09\] For most of us there's not a lot of value in that, but there can be a lot of value in understanding the operating system at least at like a surface level, and command line and things like that. It's just kind of a constant trade, I guess.
 
 **Brian Ketelsen:** I wanted to bring up almost the same point, but from the opposite direction. I've only ever done Git from the command line, and I was in Windows the other day and needed to do a Git operation, and I had the GitHub client, GitHub Windows application, and I opened it up and I couldn't understand how to use it.
 
@@ -116,7 +116,7 @@ I think you also have to really draw the line somewhere, because if you keep dig
 
 **Carlisia Thompson:** And that brings up a good point, too... I was like this earlier in my programming life, trying to just use one tool for a particular thing, and there's absolutely nothing wrong with using multiple tools; there's nothing wrong with using a couple IDEs, one to do most of the stuff and one to do other things that they do better. For example, I use a graphical Git tool to see a history, like we were talking about, but I cannot figure out -- even if I wanted to use it to merge stuff... I've tried it before and I'm like, "I don't know how this works, I don't understand it." But for looking at history it's perfect, and looking at diffs.
 
-**Thorsten Ball:** \[00:20:03.09\] That's certainly true, yeah. That's exactly what I meant. As I said, you have to decide what to look into, and you have to decide how much time you're gonna spend. What I'm saying is if you're trying to understand those levels below you, and even if they at first might not seem related to what you do in your day job, I think there's gonna be a payoff if you understand them better. That's what Brian said at the beginning, that a better understanding of hardware gives you a better understanding how in the end software is gonna work on it.
+**Thorsten Ball:** \[20:03\] That's certainly true, yeah. That's exactly what I meant. As I said, you have to decide what to look into, and you have to decide how much time you're gonna spend. What I'm saying is if you're trying to understand those levels below you, and even if they at first might not seem related to what you do in your day job, I think there's gonna be a payoff if you understand them better. That's what Brian said at the beginning, that a better understanding of hardware gives you a better understanding how in the end software is gonna work on it.
 
 **Erik St. Martin:** Yeah, and I think it's important to choose your battles, too. We've only got so much time and mental capacity to learn these things, so I think it's okay to take the easier abstractions on the things that you don't care about so much, but maybe don't on the things that are going to help you succeed directly at your job, or your task at hand.
 
@@ -124,7 +124,7 @@ I think you also have to really draw the line somewhere, because if you keep dig
 
 **Erik St. Martin:** I think it's about time to take a break, and when we get back we really wanna start talking a little bit more about your book, and all that good stuff. So let's take a quick break.
 
-**Break:** \[00:21:15.02\]
+**Break:** \[21:15\]
 
 **Erik St. Martin:** And we are back, talking to Thorsten Ball about his interpreter book, Writing an Interpreter in Go, which has been really interesting.
 
@@ -132,7 +132,7 @@ I think you also have to really draw the line somewhere, because if you keep dig
 
 With that, I wanted to start talking about what exactly is an interpreter and a compiler, how they work and why are they the building blocks, and what makes it such a big deal and useful for us to know about them?
 
-**Thorsten Ball:** \[00:23:47.03\] Yeah, that's exactly the point you make. I think it's really funny because a lot of people, they... What you said is absolutely correct - the market of compiler writers is a small one. You don't see many advertisers or recruiters sending out emails like "Do you wanna write a compiler?" But a compiler is hugely complex, it's interesting, it has a lot of parts, and if you understand how they work, you can take those parts and use them in other places. If you look at those parts, you can recognize patterns and then use those patterns again.
+**Thorsten Ball:** \[23:47\] Yeah, that's exactly the point you make. I think it's really funny because a lot of people, they... What you said is absolutely correct - the market of compiler writers is a small one. You don't see many advertisers or recruiters sending out emails like "Do you wanna write a compiler?" But a compiler is hugely complex, it's interesting, it has a lot of parts, and if you understand how they work, you can take those parts and use them in other places. If you look at those parts, you can recognize patterns and then use those patterns again.
 
 The basic idea behind a compiler is it takes input, which is programming code or code, and it takes this input, transforms it and puts out something the computer can understand and execute. You take puts "Hello World" and give it to a compiler, and the compiler outputs machine code. This machine code is much longer than puts "Hello World" and it contains all the machine code instructions that tell the CPU and the computer how to display Hello World on your screen. It does this by having certain stages... You always talk about stages and passes with compilers. Source code comes in on one end, and on the other end comes out machine code, or some other form of code. I don't wanna escalate this conversation, but there are certain compilers that do not translate to machine code, but other programming languages; they're sometimes called transpilers.
 
@@ -156,7 +156,7 @@ In the end, it's the same idea - you take source code and output something that 
 
 **Erik St. Martin:** So let me ask this... Why an interpreter instead of a compiler? And a good question for some of the listeners may actually be "What's the difference between an interpreter and a compiler?"
 
-**Thorsten Ball:** \[00:27:46.13\] Alright. First of all, the difference is an interpreter takes source code as input and executes it, and it doesn't leave anything behind except what the source code tells the interpreter to do. A compiler takes source code as input and produces something that can then be executed. For example, Ruby the programming language is an interpreted programming language, and if you want to run Ruby source code, you take Ruby source code and pass it to the Ruby interpreter, and it executes the source code. And a compiler, like the Go compiler, it takes Go code and produces and leaves behind an artifact, an executable binary file you can then run on your computer and your operating system, and your CPU can now understand this. That's the big distinction. But again... It's turtles all the way down. The lines get fuzzy real fast if you start to dig in, because there are certain interpreters - for example those highly optimized JavaScript engines - that kind of cross the line, because they're compiling while they are executing. This is called "just in time" compilation (JIT).
+**Thorsten Ball:** \[27:46\] Alright. First of all, the difference is an interpreter takes source code as input and executes it, and it doesn't leave anything behind except what the source code tells the interpreter to do. A compiler takes source code as input and produces something that can then be executed. For example, Ruby the programming language is an interpreted programming language, and if you want to run Ruby source code, you take Ruby source code and pass it to the Ruby interpreter, and it executes the source code. And a compiler, like the Go compiler, it takes Go code and produces and leaves behind an artifact, an executable binary file you can then run on your computer and your operating system, and your CPU can now understand this. That's the big distinction. But again... It's turtles all the way down. The lines get fuzzy real fast if you start to dig in, because there are certain interpreters - for example those highly optimized JavaScript engines - that kind of cross the line, because they're compiling while they are executing. This is called "just in time" compilation (JIT).
 
 So the question is, "Is this a compiler, or is this an interpreter?" because it takes source code, it then compiles it to get machine code, and it then executes this machine code directly, just in time. The question is, "Is this a compiler or an interpreter?" I don't know what the answer is... They're called JIT interpreters or JIT compilers, and they're really fascinating.
 
@@ -170,7 +170,7 @@ I think in the end it's not one or the other, because if you learn how to write 
 
 **Thorsten Ball:** Yeah, that's the thing. I love to talk about virtual machines, but I try not to get into them. You could build a compiler that outputs bytecode, right? And bytecode is something like made-up machine code; it's machine code for a machine that doesn't exist, and it's not as hairy as assembly language or machine code, and it's easier to understand. But if I were to explain in a book how to compile to bytecode, I'd have to explain what a virtual machine is. And if I have to explain what a virtual machine is, I'm also gonna have to explain what a machine is.
 
-\[00:32:09.07\] That's what you said, you have to understand assembly language and you have to understand what an assembler is, and what instructions are, and then you have to explain how the machine works. I don't know... The scope blows up.
+\[32:09\] That's what you said, you have to understand assembly language and you have to understand what an assembler is, and what instructions are, and then you have to explain how the machine works. I don't know... The scope blows up.
 
 **Erik St. Martin:** I was actually gonna recommend a book that I read a few years ago and I'm probably due to read again, that I highly recommend to people. It's very short, and I don't know whether you've come across this... It's called The Elements of Computing Systems.
 
@@ -184,7 +184,7 @@ So now that your book has come along in a language that I'm super interested in,
 
 If you have this in combination with the book - a teacher that guides you along the way and gives you additional information and hints and tips and tricks and so on, this would be an amazing course to take.
 
-\[00:35:53.21\] The thing is, there are few other books like this. If you look at compiler books, most of them have at least 600 pages, and everybody always recommends Dragon Book, and I think it has 900 pages. Those are books - their target audience is not you or me sitting at home on a Saturday evening, like "I'm going to program something today." Their target audience is probably students sitting in college or university and trying to really study compilers. Their target audience is also other professors or computer science experts. That makes it really hard to digest, and that actually kind of kicked off the idea that I should write a book... Because, to be honest, I love handholding, I love if someone walks me through, like "Go from this to this, in these steps." I love this, and there can't be too much handholding and explanation. That's what I try to do - fill the gap between let's say an every man's interpreter book.
+\[35:53\] The thing is, there are few other books like this. If you look at compiler books, most of them have at least 600 pages, and everybody always recommends Dragon Book, and I think it has 900 pages. Those are books - their target audience is not you or me sitting at home on a Saturday evening, like "I'm going to program something today." Their target audience is probably students sitting in college or university and trying to really study compilers. Their target audience is also other professors or computer science experts. That makes it really hard to digest, and that actually kind of kicked off the idea that I should write a book... Because, to be honest, I love handholding, I love if someone walks me through, like "Go from this to this, in these steps." I love this, and there can't be too much handholding and explanation. That's what I try to do - fill the gap between let's say an every man's interpreter book.
 
 **Erik St. Martin:** I think for most of us that don't have large academic background, it's really that "source code or it didn't happen" type feeling.
 
@@ -208,7 +208,7 @@ If you have this in combination with the book - a teacher that guides you along 
 
 In the introduction of the book I recommend that if you want to get the most out of the book, read it and try to type off the code or follow along by writing out the code, or copy and paste it, but try to follow the steps by actually building the interpreter. I think that's how I learn the best.
 
-**Carlisia Thompson:** \[00:39:50.19\] Carlisia, you mentioned I think on a prior show that there's a Coursera course for it... Is she still here? Did we lose her?
+**Carlisia Thompson:** \[39:50\] Carlisia, you mentioned I think on a prior show that there's a Coursera course for it... Is she still here? Did we lose her?
 
 **Brian Ketelsen:** Uh-oh...
 
@@ -234,7 +234,7 @@ In the introduction of the book I recommend that if you want to get the most out
 
 **Erik St. Martin:** So let's take a quick sponsor break.
 
-**Break:** \[00:41:06.24\]
+**Break:** \[41:06\]
 
 **Erik St. Martin:** And we are back, talking to Thorsten Ball about his Go interpreter book and all things compilers, interpreters and learning low-level development. Before the break we kind of brought up impostor syndrome. Why don't you talk to us a little bit about that? The whole idea about learning hardware or compilers and interpreters and garbage collection, and all these things -- I know especially for people who don't have academic backgrounds can kind of make a lot of people, myself included, feel inadequate to do the jobs that they're hired for.
 
@@ -242,7 +242,7 @@ In the introduction of the book I recommend that if you want to get the most out
 
 What I experienced in the last years is every topic that at first feels super intimidating loses this appeal once you dig into it, and you start to realize "Wait a second, it's not really magic. Actually, it's pretty to understand here, and here" and then you grow up your understanding and you understand more. In the end, you lose all your fear and this feeling of "I'm not worthy enough to understand this", because you suddenly realize "Oh well, it's actually just this and this. It's not this huge thing I made it out to be."
 
-\[00:44:15.21\] The big part of it is trying to get over yourself and trying to tackle this and trying to get an understanding of it.
+\[44:15\] The big part of it is trying to get over yourself and trying to tackle this and trying to get an understanding of it.
 
 One of the big things with impostor syndrome is that you always assume that, "Oh the other people - they know much more than I do. I don't know how compiler's work, but it seems like everybody else does. I don't know how interpreter languages work, but everybody else does", and so on. I think that's a fallacy. Probably everybody knows that it's a fallacy and you still get the same feeling anyway. The thing is, if you get to know these other people that are super experts in these super specialized topics, you start to realize that they don't know certain things you know. You can probably find 20 compiler writers which you or I made out to be these super mystical computer wizards - you can find 20 of them that don't know how to use HTML and CSS. If you realize this, this is a super comforting feeling... Once you realize that from the outside it looks like everybody else has it all figured out, but then you realize if you peek behind the curtain, no, it's not like that. You know other things they don't know.
 
@@ -256,7 +256,7 @@ One of the big things with impostor syndrome is that you always assume that, "Oh
 
 **Erik St. Martin:** Yeah, there's no one greater than the other, it's just different.
 
-**Carlisia Thompson:** \[00:47:51.17\] Yeah, I started trying to minimize my impostor syndrome by interacting more with people that I think are amazing, and I don't want to minimize the feeling, because it's real, I feel, and I think everybody feels it to whatever extent... It's funny, because you have these people you admire, we always have people we admire, and sometimes we have a chance to see them face to face, and we might get shy about talking to them, because they're so amazing and you think, "Oh my gosh, I'm not at that level at all. Not even close", and we don't realize that they are amazing at what they do because they've been doing it for a long time, but they're not amazing at everything. Sometimes you are amazing in ways that they don't even know... Like Brian was saying about the API aspect of development.
+**Carlisia Thompson:** \[47:51\] Yeah, I started trying to minimize my impostor syndrome by interacting more with people that I think are amazing, and I don't want to minimize the feeling, because it's real, I feel, and I think everybody feels it to whatever extent... It's funny, because you have these people you admire, we always have people we admire, and sometimes we have a chance to see them face to face, and we might get shy about talking to them, because they're so amazing and you think, "Oh my gosh, I'm not at that level at all. Not even close", and we don't realize that they are amazing at what they do because they've been doing it for a long time, but they're not amazing at everything. Sometimes you are amazing in ways that they don't even know... Like Brian was saying about the API aspect of development.
 
 You can totally interact with people like that and even collaborate if you open yourself up for them to help you, for example, and keeping in mind that maybe you can help them as well. It's brilliant. Then you start seeing, "I too have things to contribute." I think it helps a lot.
 
@@ -326,7 +326,7 @@ The same thing is kind of happening... I get really shy -- people say to me, "Oh
 
 **Thorsten Ball:** His repository is super interesting. There's so much work in there, and it's super interesting.
 
-**Erik St. Martin:** \[00:56:10.02\] The other thing too is the Go Blog has a survey on there, which is blog.golang.org/survey2016, and they are kind of reaching out to the community to get an idea for use cases, in particular company use cases and the reasons why people are or aren't adopting, and whether they're continuing to grow within the organization, and things like that. So if you use Go inside your company, definitely participate in that because I have the feeling, as with all of their reach outs to the community, that that will highly impact future Go for all of us.
+**Erik St. Martin:** \[56:10\] The other thing too is the Go Blog has a survey on there, which is blog.golang.org/survey2016, and they are kind of reaching out to the community to get an idea for use cases, in particular company use cases and the reasons why people are or aren't adopting, and whether they're continuing to grow within the organization, and things like that. So if you use Go inside your company, definitely participate in that because I have the feeling, as with all of their reach outs to the community, that that will highly impact future Go for all of us.
 
 **Brian Ketelsen:** There's a reason behind that, yes.
 

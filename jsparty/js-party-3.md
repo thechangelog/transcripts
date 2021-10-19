@@ -18,7 +18,7 @@ The resulting experience is that when you go to Google and you search for a news
 
 The negative side that people dislike is a) Google is hosting all the content, so they end up being the controller and the gate and have all the information about all the traffic, and then also the URLs are really not great, because it's gonna be google.com/AMParticle/yourURLtoYourWebsite... Which is better than them hiding it entirely, I think, but still somewhat negative. So you have this whole new ecosystem of AMP web pages, and it's kind of hard to -- as a user, I don't necessarily wanna opt out of it, but I often wanna break out of it. It's improving slowly... We can talk about what we think about it, I guess, outside of my explanation of what it is. Is that helpful at all?
 
-**Rachel White:** \[00:04:01.08\] Yeah, that's helpful for me. I actually didn't even know what AMP was until last week when everyone came to New York for AMP Conf, but I had noticed while browsing the internet when I'm trying to fall asleep and I'm trying to read the articles... I've had these - now that I know - AMP articles pop up, and I've been trying to send them to my friends, and I'm like "Why is there not a link?"
+**Rachel White:** \[04:01\] Yeah, that's helpful for me. I actually didn't even know what AMP was until last week when everyone came to New York for AMP Conf, but I had noticed while browsing the internet when I'm trying to fall asleep and I'm trying to read the articles... I've had these - now that I know - AMP articles pop up, and I've been trying to send them to my friends, and I'm like "Why is there not a link?"
 
 I'm okay with the speed; obviously, that makes a lot more sense, but please, someday let me copy a link faster somehow...
 
@@ -48,7 +48,7 @@ They're pretty much like asm.js that we talked about last week. Asm.js is a comp
 
 **Mikeal Rogers:** Or is it the fact that you can't insert your ads and you can't do all these things that destroy performance?
 
-**Alex Sexton:** \[00:07:51.22\] It's everything. I think one of the primary benefits... I think out of context, AMP is a bad idea and we shouldn't do it. Why would we do that? It centralizes things and it's bad, and blah-blah-blah... But I think in context, if you look at -- I can't remember the exact stat... If you look at some graph that was released recently, it's some insane amount of browser UAs that content websites get are the Facebook browser. The Facebook browser is one of the top three browsers in existence. Even though it's not a real browser... The whole goal that they're doing there is to make these fast experience, without ads, so you don't have to deal with the web as it stands today.
+**Alex Sexton:** \[07:51\] It's everything. I think one of the primary benefits... I think out of context, AMP is a bad idea and we shouldn't do it. Why would we do that? It centralizes things and it's bad, and blah-blah-blah... But I think in context, if you look at -- I can't remember the exact stat... If you look at some graph that was released recently, it's some insane amount of browser UAs that content websites get are the Facebook browser. The Facebook browser is one of the top three browsers in existence. Even though it's not a real browser... The whole goal that they're doing there is to make these fast experience, without ads, so you don't have to deal with the web as it stands today.
 
 So Google's one-upping them, saying "Hey, let's do this all with the real web, without apps, without all these things... And if you don't follow these rules and you don't sign up for AMP, you don't put the attribute and you don't do any of these things, your site's gonna be so much faster anyways...", so it's kind of like the asm fallback; it's like, if your browser doesn't support asm, it's still gonna be superfast anyways, based on the things that we already have in place for making websites fast. But if we run it through our thing, because we know the constraints, we can make it even faster... If that makes sense.
 
@@ -70,7 +70,7 @@ So AMP web pages show up in a carousel above the results. Now, speed is already 
 
 Actually, a lot of people don't know this... If you click on to an AMP page from the carousel, you can see the contextual relationship -- I clicked on the middle one, and the article before was this, and the article after was this, and they're all part of the same new story, even though they're different, specific articles; it's all about Sean Spicer wearing his United States flag upside down, or whatever.
 
-\[00:12:08.06\] There are arrows in the top nav bar, and you can click actually between the carousel from the different websites. You can just page through the different articles somewhat instantly, which is something I've never used, but also seems kind of cool. But absolutely, all the feedback from content developers is "We want to be in the carousel", not "We want a super fast web page so our users can whatever-whatever-whatever..."
+\[12:08\] There are arrows in the top nav bar, and you can click actually between the carousel from the different websites. You can just page through the different articles somewhat instantly, which is something I've never used, but also seems kind of cool. But absolutely, all the feedback from content developers is "We want to be in the carousel", not "We want a super fast web page so our users can whatever-whatever-whatever..."
 
 **Mikeal Rogers:** Yeah, so I hate this. This is terrible. So there's the AMP format, which is basically a set of really good practices, for being a good mobile citizen, and making your stuff fast on mobile. That's great. They've done a great job there, it's great to get people on that bandwagon, but all of those positive arguments immediately kind of fall away when you start to look at how they're incentivizing people to create the content.
 
@@ -96,7 +96,7 @@ You can stand on a high horse and say, "We're doing this on the web, whereas, sa
 
 I think AMP certainly adds negatively to that pile; so I'm not defending AMP for this, but I don't think killing AMP would in any way solve that problem, for what it's worth.
 
-**Mikeal Rogers:** \[00:15:58.12\] Well, it seems like they have more solutions in their regular search results than they do in AMP right now, at least. Or there's just less content, so it's easier to game.
+**Mikeal Rogers:** \[15:58\] Well, it seems like they have more solutions in their regular search results than they do in AMP right now, at least. Or there's just less content, so it's easier to game.
 
 **Alex Sexton:** Sure. It's early days.
 
@@ -132,13 +132,13 @@ It's because we're relying on Apple to maintain their App Store in order to get 
 
 **Mikeal Rogers:** I don't even know if that's true, though... It seems like they're taking a lot of the garbage and just putting it around the AMP thing now, and just saying "We don't even need to worry about mobile performance anymore, because most people are reading it through this AMP thing."
 
-**Alex Sexton:** \[00:20:12.03\] Sure, that's a very good criticism. You can serve different things to Google than you serve to users; that's pretty tried and true. They have a UA, and all that kind of stuff. So absolutely there could be this backlash. If I'm trying to jump into the heads of the Google engineers that did this, it's like "Hey, we have this problem where increasingly, even web articles, content that people are writing on the web, people are consuming in centralized, native applications, and one of the core reasons that this happens is performance. So we need to fix the performance cost." And they're saying the ends of centralizing and doing these things justified the means of eventually all websites care about performance in the future. It creates a new environment where performance matters... But I definitely understand the notion that if people don't have to do any work in order to have fast websites on AMP, then perhaps they'll actually invest fewer resources in making their actual websites faster, as long as they could separate those two things well enough.
+**Alex Sexton:** \[20:12\] Sure, that's a very good criticism. You can serve different things to Google than you serve to users; that's pretty tried and true. They have a UA, and all that kind of stuff. So absolutely there could be this backlash. If I'm trying to jump into the heads of the Google engineers that did this, it's like "Hey, we have this problem where increasingly, even web articles, content that people are writing on the web, people are consuming in centralized, native applications, and one of the core reasons that this happens is performance. So we need to fix the performance cost." And they're saying the ends of centralizing and doing these things justified the means of eventually all websites care about performance in the future. It creates a new environment where performance matters... But I definitely understand the notion that if people don't have to do any work in order to have fast websites on AMP, then perhaps they'll actually invest fewer resources in making their actual websites faster, as long as they could separate those two things well enough.
 
 So I think it should be a fundamental goal of the AMP project to enforce somehow that regular website are getting faster along with the AMP websites. I think that would go a long way to assuage those fears.
 
 **Mikeal Rogers:** Yeah. I mean, I'll reiterate again... And full disclosure, Malta, who's one of the lead engineers over there, is a good friend of mine... \[laughs\] The format is great; I wish that people followed the format and didn't have all the other garbage on their websites. I think that the issues that we tend to have with it, the carrot and stick that they're using to get this adopted through its integration with the Google product is really problematic. But that's all that we have for this topic... We're gonna take a quick break and when we come back we're gonna get into a topic that I've already forgotten about, but I'm sure that I'll remember by the time that we come back. \[laughs\]
 
-**Break:** \[00:22:19.24\]
+**Break:** \[22:19\]
 
 **Mikeal Rogers:** Alright, now we're gonna talk a little bit about JavaScript fatigue. I'm certainly fatigued... I even forgot that the topic was gonna be JS fatigue. There's been an amazing amount of tweets and articles about this, and it's already reaching the point where people are just referencing JS fatigue and assuming that everybody knows what they're talking about, so I feel like it's probably gonna be really good to come back around and into this a little bit.
 
@@ -148,7 +148,7 @@ So I think it should be a fundamental goal of the AMP project to enforce somehow
 
 **Rachel White:** Alright! Well, let me tell you... I think the JavaScript fatigue is like the burden of choice of "I have so many things to use. What should I use? What can I use?"
 
-\[00:24:04.09\] Now I'm reading this thing and it's right down all of the framework, build tools, libraries you can think of for 30 seconds straight and stop. You could keep on writing the whole entire 30 seconds.
+\[24:04\] Now I'm reading this thing and it's right down all of the framework, build tools, libraries you can think of for 30 seconds straight and stop. You could keep on writing the whole entire 30 seconds.
 
 There's so many different JavaScript libraries that all achieve the same end goal but in various ways, depending on what you need for it. There's multiple bundlers, there's multiple things that handle your routing in Node, there's multiple ways to do JavaScript animations, there's multiple MVCs, there's multiple package manager options... There's so many different things, and I think that aside from there being so many different JavaScript libraries for people to choose from, I think that the fatigue is not only not being able to choose, but also having the feeling of not being able to keep up with how fast these things are coming out.
 
@@ -174,7 +174,7 @@ There's so many different JavaScript libraries that all achieve the same end goa
 
 **Alex Sexton:** I still feel like it's exponentially exploded since... I think you nailed it with NPM...
 
-**Mikeal Rogers:** \[00:28:05.08\] Yes... So it has exploded, but here's the thing... One of the reasons why you get this more in this space than in the cloud space, or enterprise, is because people build more new web applications than they maintain web applications. People build new stuff all the time, and so when you have new things to build, you just have the opportunity to take a new tool.
+**Mikeal Rogers:** \[28:05\] Yes... So it has exploded, but here's the thing... One of the reasons why you get this more in this space than in the cloud space, or enterprise, is because people build more new web applications than they maintain web applications. People build new stuff all the time, and so when you have new things to build, you just have the opportunity to take a new tool.
 
 **Alex Sexton:** But isn't Python primarily -- like, what about... People build websites with Python constantly too, but I guess it's because JavaScript is the common language among every Python, PHP, Ruby or whatever website, that it's multiplied times all the other languages?
 
@@ -194,7 +194,7 @@ You get sucked into this specific world where it feels like you can solve everyt
 
 **Alex Sexton:** It's usually the opposite. It's usually extremely smart, brand new developers, started two years ago when Redux and React were coming up, and they've come up in that world, and that's how they solve anything. I don't wanna be the "get off my lawn" person who's like "You gotta learn the DOM API before you can learn framework", but because those tools are so powerful, I think it lulls you into this false specialization, if that makes sense.
 
-**Rachel White:** \[00:32:00.10\] I see what you're saying. Well, it is the world that you have to live in, right? I think it's notable that Substack doesn't have this problem, and I'll start off by saying "We can't all be Substack." This isn't a solution for everyone. But if you are really diligent about not using frameworks, not using a lot of vertically integrated plugin architectures, and you just use these small components that have understandable inputs and outputs - so there may be a lot of complexity behind the module that it's doing, but what you understand is you give it this input and you know that you get this output. And if you string those together, you can adopt new modules that replace old ones all the time; every time that you take on a new project, you're just adding a couple tools to your tool chest. Long-term it's a really sustainable strategy for this particular problem.
+**Rachel White:** \[32:00\] I see what you're saying. Well, it is the world that you have to live in, right? I think it's notable that Substack doesn't have this problem, and I'll start off by saying "We can't all be Substack." This isn't a solution for everyone. But if you are really diligent about not using frameworks, not using a lot of vertically integrated plugin architectures, and you just use these small components that have understandable inputs and outputs - so there may be a lot of complexity behind the module that it's doing, but what you understand is you give it this input and you know that you get this output. And if you string those together, you can adopt new modules that replace old ones all the time; every time that you take on a new project, you're just adding a couple tools to your tool chest. Long-term it's a really sustainable strategy for this particular problem.
 
 **Alex Sexton:** For one person.
 
@@ -214,7 +214,7 @@ A lot of the problems that those frameworks solve, like redefining how the event
 
 So I think frameworks actually help to prevent the fatigue that a lot of people feel by making a lot of choices, by default.
 
-**Rachel White:** \[00:36:12.17\] So if the problem doesn't lie with the frameworks, and ideally the groups of people that are working on these frameworks are making the best decisions for modules to implement into those libraries, could the JavaScript fatigue then just extend to the module makers that are making so many different versions of the same thing, I guess...?
+**Rachel White:** \[36:12\] So if the problem doesn't lie with the frameworks, and ideally the groups of people that are working on these frameworks are making the best decisions for modules to implement into those libraries, could the JavaScript fatigue then just extend to the module makers that are making so many different versions of the same thing, I guess...?
 
 **Mikeal Rogers:** I used to hope for a better outcome for this kind of stuff. When I started to see all these frameworks be built out of more small components, I thought that we would have a lot more longevity and a lot more sanity around them, but what we've actually seen is weird consolidation and plugin patterns, and a lot of the underlying tools turning into their own frameworks.
 
@@ -238,7 +238,7 @@ When mobile was on the rise, we saw a new slew of frameworks that solved mobile;
 
 **Alex Sexton:** Right. I think specifically that Carrot in this case is like what are native apps doing... It's almost entirely the generator of new ideas... How do we compete with more or less a better experience in almost every default case from the native apps and the web; by kind of the way it works it's always gonna be a little bit behind the proprietary curve because of its constraints. But yeah... I don't know. Sorry, I cut you off again.
 
-**Mikeal Rogers:** \[00:40:20.01\] No, that's notable. I don't know what the next thing is going to do that React can't adapt itself enough to handle, and so we'll get a new framework... But I do think it's notable that one of the problems that React solved was creating this componentized model, and in order to do that, they basically had to invent subsets of the language and run everything through a compile chain in JSX... And that we actually do have language-level features that supplant most of that. With tagged template literals you can basically not have to do such a crazy compile chain now, and you have these language-level subsets, but there hasn't been a new framework that has really taken advantage of that. Everybody taking advantage of it isn't kind of the substack -- actually I'm this a bit, too...
+**Mikeal Rogers:** \[40:20\] No, that's notable. I don't know what the next thing is going to do that React can't adapt itself enough to handle, and so we'll get a new framework... But I do think it's notable that one of the problems that React solved was creating this componentized model, and in order to do that, they basically had to invent subsets of the language and run everything through a compile chain in JSX... And that we actually do have language-level features that supplant most of that. With tagged template literals you can basically not have to do such a crazy compile chain now, and you have these language-level subsets, but there hasn't been a new framework that has really taken advantage of that. Everybody taking advantage of it isn't kind of the substack -- actually I'm this a bit, too...
 
 **Alex Sexton:** Styled Components I think does a pretty good job with CSS in-line, for what it's worth.
 
@@ -248,7 +248,7 @@ When mobile was on the rise, we saw a new slew of frameworks that solved mobile;
 
 **Mikeal Rogers:** Yeah, and when we come back, we'll get into the project of the week.
 
-**Break:** \[00:41:51.00\]
+**Break:** \[41:51\]
 
 **Mikeal Rogers:** And we're back. Now we're gonna get into the project of the week, Paths.js. This is a library, it's pretty sweet... It's for doing SVG paths and stuff like that. You've spent some time looking into this, Rachel, why don't you tell us a little more about it?
 
@@ -270,7 +270,7 @@ When mobile was on the rise, we saw a new slew of frameworks that solved mobile;
 
 **Alex Sexton:** I always start trying to write them, and as soon as I have to declare the size on the board in two different places, I'm dead. I don't know if you guys have ever done it by hand... It immediately confuses me.
 
-**Rachel White:** \[00:44:00.20\] I mean, I could do a square, but that's about it, probably. \[laughter\]
+**Rachel White:** \[44:00\] I mean, I could do a square, but that's about it, probably. \[laughter\]
 
 **Mikeal Rogers:** There we go... I think something interesting about this is that it's really giving you a lot of simple code paths for declaring and doing different kinds of math. You could build a lot of great libraries for just doing interesting math operations on these primitives... So I think this could actually open up a lot more of an ecosystem on top of SVG stuff.
 
@@ -306,7 +306,7 @@ So this would be similar to that... You don't have to know SVG. It depends.
 
 **Alex Sexton:** And I think that's true of D3. There is no D3 visualization that didn't initially come from Mike Bostock's demo set of visualizations, modified from there. I'm not sure I could use this library; I don't do a ton of SVG, but I don't know if I could very quickly pick this up, because it kind of fundamentally means you have to know a lot about plotting and math.
 
-**Rachel White:** \[00:48:05.26\] I don't think it's for you... \[laughter\]
+**Rachel White:** \[48:05\] I don't think it's for you... \[laughter\]
 
 **Alex Sexton:** It would be part of my job to implement some of these things, for what it's worth. The graphs is absolutely something I could get assigned at work at any given time.
 
@@ -330,7 +330,7 @@ But there are things like processing JS that kind of flip that on it. I can unde
 
 The way that it works is you have an object with key-value pairs for each item that you are going to swap out, and the value is an array of a bunch if different strings that it could be for that object. I've seen a bunch of really cool poetry things done with this, but the main reason that I wanted to talk about Tracery is because George Buckenham (v21 on GitHub and on Twitter) made this really awesome Node.js library that also allows you to implement it into projects even easier. But he didn't stop there. After he did the Node library, he decided "Hey, wouldn't it be awesome if instead of grammar, people could swap SVG variables out?"
 
-\[00:52:15.17\] So there's this website called cheapbotsdonequick.com, and it utilizes Tracery and allows you to automatically create your own Twitter bot. One of the most popular ones that I usually tell people about when I'm talking about this is @softlandscapes (which has a ton of followers on Twitter). What it does is every 6-8 hours it tweets out a really pretty, gradient, pastelly landscape of a gradient sky and a mountain range, and it's just really nice to look at.
+\[52:15\] So there's this website called cheapbotsdonequick.com, and it utilizes Tracery and allows you to automatically create your own Twitter bot. One of the most popular ones that I usually tell people about when I'm talking about this is @softlandscapes (which has a ton of followers on Twitter). What it does is every 6-8 hours it tweets out a really pretty, gradient, pastelly landscape of a gradient sky and a mountain range, and it's just really nice to look at.
 
 If you go to the cheapbotsdonequick.com site you can see the source code, and it hurts my brain to look at. It's the Tracery JSON for the SVG that is generative. So that is my pick of the week. It's fun, and it gets people to make some stuff. That's it.
 
@@ -350,7 +350,7 @@ If you go to the cheapbotsdonequick.com site you can see the source code, and it
 
 **Mikeal Rogers:** Alright, so I'll get into my pick. I picked Lemonade Stand. It's a repository from Nadia Eghbal, who is the co-host with me on Request For Commits. She put together this amazing page of basically every open source funding model that you can think of... Everything from getting paid by a company to work on open source, to donation buttons, to crowdfunding, to grant funding... Literally, starting a company and getting venture capital. She has all of them listed with different case studies of different projects that have done it this way, and links to articles, and pros and cons list... It's really cool, so look for that in the show notes - Lemonade Stand.
 
-**Alex Sexton:** \[00:54:56.11\] Cool. My pick of the week is a polyfill, so it's really a pick for the DOM... It's the Intl.js library. I think a lot of people don't use Intl, they're still using various random plugins, but I would love to see more standardization around internationalization, and formatting, and things like that. If you're unfamiliar with Intl, it's an object in most modern browsers (as well as Node now) and it can help you do number formatting, currency formatting, daytime formatting - all that kind of stuff, all in the native web platform, which is beautiful.
+**Alex Sexton:** \[54:56\] Cool. My pick of the week is a polyfill, so it's really a pick for the DOM... It's the Intl.js library. I think a lot of people don't use Intl, they're still using various random plugins, but I would love to see more standardization around internationalization, and formatting, and things like that. If you're unfamiliar with Intl, it's an object in most modern browsers (as well as Node now) and it can help you do number formatting, currency formatting, daytime formatting - all that kind of stuff, all in the native web platform, which is beautiful.
 
 And the polyfill is Andy Earnshaw's polyfill; that just goes on top. It doesn't do things like collation, because it's really tough and there are some algorithms it doesn't do, but it's pretty good, because Safari obviously is still hurting us here. They don't have Intl.
 

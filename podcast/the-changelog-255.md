@@ -12,7 +12,7 @@ First of all, Johannes, thanks so much for joining us.
 
 As you're querying a RESTful API, you're usually getting back JSON of a certain shape, and you can think about GraphQL as basically you're sending a query to the server with just the shape of the JSON, but without the values; kind of like a JSON blob, but just the keys, without the values, and the server fills in the values for you. If you take this concept, you can directly tell the server the shape of the data you're expecting, and you can do queries to get data and you ask for what you want and you get predictable results, and you can even traverse your entire data of your back-end in a certain way, and you get a lot of flexibility you wouldn't be able to get with a common REST API. That's maybe a quick way to describe GraphQL from a front-end perspective.
 
-**Jerod Santo:** \[00:03:54.08\] So the big wins are a reduced number of calls to the API, because you don't have to make subsequent requests for related objects or records, as well as the flexibility to grab exactly what you need and nothing more... So reduced payload size, flexibility, so therefore speed, right?
+**Jerod Santo:** \[03:54\] So the big wins are a reduced number of calls to the API, because you don't have to make subsequent requests for related objects or records, as well as the flexibility to grab exactly what you need and nothing more... So reduced payload size, flexibility, so therefore speed, right?
 
 **Johannes Schickling:** Exactly. These two problems you called out are actually called data overfetching. Imagine you're starting out building an app and you have a REST API for that, and the iOS app has quite a lot of different requirements, and you keep adding stuff to this endpoint; you also start building an Android app, which doesn't have all of these data requirements, and it anyway gets all of the data constantly over the wire and fetches maybe 60%-70% more data than it actually needs. So the other idea is to keep the REST endpoints really slim.
 
@@ -26,7 +26,7 @@ I think if you're already heavily invested into a JSON API, then that's probably
 
 **Jerod Santo:** So we mentioned back that Facebook announced this -- they had actually been running GraphQL internally for a couple of years before creating the specification, as well as open-sourcing a reference implementation in JavaScript (that was September 2015). About a year later GitHub announced that they're switching to GraphQL for their public API, September 2016. I've got a quick paragraph from the GitHub announcement on the GitHub engineering blog that I think will give a real world example of what you're talking about, Johannes, with regards to the query problem (too many API calls). They said that the REST API is responsible for 60% of GitHub requests made to their database tier. "This is probably because, by its nature, hypermedia navigation requires a client to repeatedly communicate with a server so that it can get all the information it needs. Our responses were bloated and filled with all sorts of \*\_url hints in the JSON responses to help people continue to navigate through the API to get what they needed.
 
-\[00:08:13.07\] Despite all of the information we provided, we heard from integrators that our REST API also wasn't very flexible. It sometimes required two or three separate calls to assemble a complete view of a resource. It seemed like our responses simultaneously sent too much data and didn't include data that consumers needed."
+\[08:13\] Despite all of the information we provided, we heard from integrators that our REST API also wasn't very flexible. It sometimes required two or three separate calls to assemble a complete view of a resource. It seemed like our responses simultaneously sent too much data and didn't include data that consumers needed."
 
 Now, earlier on I said if you can sideload relationships, you can get around some of the problems of the "too many API calls", but that requires you to have a very intimate understanding of the client that's accessing the API, and when you're building a general purpose API for many different clients, like you said, with regards to an Android client, an iOS client and so on, you just don't have that level of flexibility; you have to be generic. In those cases, REST just wasn't a great fit. Anything to add there? Is that a decent real world example of what you're talking about?
 
@@ -44,7 +44,7 @@ If you're heading over to GraphQL.org, you actually see in the header, where it 
 
 **Jerod Santo:** What's really cool about that is because you're defining the schema with the type definitions, and everything that's supported. You get basically free and up-to-date docs all the time, right? Because that's basically what you're writing.
 
-**Johannes Schickling:** \[00:12:05.02\] Exactly. There's so much great tooling around that, and the type definition is really the foundation for that. That's probably one of the biggest a-ha moments for people getting into GraphQL - trying out this GraphQL Playground or this GraphQL Graphical editor where you see all of this autocompletion, and you can toggle automatic documentation for your API and you don't need to maintain a Swagger documentation, all of that. That's really a completely new level of what you would get out of Swagger, for example.
+**Johannes Schickling:** \[12:05\] Exactly. There's so much great tooling around that, and the type definition is really the foundation for that. That's probably one of the biggest a-ha moments for people getting into GraphQL - trying out this GraphQL Playground or this GraphQL Graphical editor where you see all of this autocompletion, and you can toggle automatic documentation for your API and you don't need to maintain a Swagger documentation, all of that. That's really a completely new level of what you would get out of Swagger, for example.
 
 **Jerod Santo:** What are the drawbacks, because right now it sounds like unicorns and rainbows all over the place? With all technologies there are tradeoffs; what are some of the drawbacks?
 
@@ -56,7 +56,7 @@ In these cases, if they already have their REST API, that's probably fine. But a
 
 **Johannes Schickling:** Yeah, and that's the beauty of GraphQL - it's so simple to understand it fairly quickly, but at the same time, now that we're using GraphQL for more than two years, there are constantly new points where we have brilliant a-ha moments, where the simplicity of GraphQL enables completely new concepts; it's really well thought out, and it's very much worth it to stay internally at Facebook for five years until it's really evolved to what it is today. The simplicity is what makes it so easy to understand. It's so well-designed, and it enables so many different scenarios.
 
-**Jerod Santo:** \[00:16:03.27\] One drawback that I've heard - and I can't validate this, so I'm gonna ask it to you - is that because every API call is a unique snowflake, it's darn near impossible to have an efficient caching strategy on the server side. Is that something that you run into, or is that a non-issue?
+**Jerod Santo:** \[16:03\] One drawback that I've heard - and I can't validate this, so I'm gonna ask it to you - is that because every API call is a unique snowflake, it's darn near impossible to have an efficient caching strategy on the server side. Is that something that you run into, or is that a non-issue?
 
 **Johannes Schickling:** That's a very good point. GraphQL is definitely a new paradigm how you expose your API -- I mean, that's the entire idea of a REST API, is that you have on a resource level that you can do HTTP caching and so on. You cannot directly transfer that concept to GraphQL, so you need new ways to cache. I agree, that is not as well understood as REST APIs, for example, currently are. But this allows for new kinds of concepts; you can cache more on a data graph level. There's just a lot more still to be explored, and that's definitely one of the parts of how you build GraphQL servers, where there's a lot of movement currently.
 
@@ -76,7 +76,7 @@ It's not directly something that is just not possible, it's just something where
 
 **Adam Stacoviak:** Coming up after the break, we're gonna talk about mutating data - how you go about changing data with GraphQL mutations, authentication and permissions, and the role of Graphcool and how it's aiming to be your favorite serverless GraphQL back-end. Stick around.
 
-**Break:** \[00:20:30.25\]
+**Break:** \[20:30\]
 
 **Jerod Santo:** Johannes, we talked about fetching data, the advantages there, the simplicity... We haven't talked about mutating data, so why don't you give us the quick rundown, and we'll go from there?
 
@@ -92,7 +92,7 @@ For example, as you're creating this new image, you might want to get its ID bac
 
 **Johannes Schickling:** It's basically up to you how you design your mutations. Whatever fits your use case, you can design mutations that do that. For example, if you have a more complicated piece of business logic in your backend, for example if you're building a web shop and you have a checkout process that usually does more than just one thing, you would create a mutation that does exactly that, and your implementation would take care of all of the implementation steps. It would maybe create another object, it would maybe transform a list of items into a representation that fits your web shop, like other items, and so on. It could basically do whatever you want your mutation to do, and you expose it in a very minimal way to the front-end.
 
-**Jerod Santo:** \[00:24:20.09\] So what about permissions and authorizations and stuff? If you're having this kind of an ad-hoc "put your query together" API, but you wanna provide different access for different clients - is that something that's built into GraphQL, or is that something you'd have to go out on your own and figure out how to get that done?
+**Jerod Santo:** \[24:20\] So what about permissions and authorizations and stuff? If you're having this kind of an ad-hoc "put your query together" API, but you wanna provide different access for different clients - is that something that's built into GraphQL, or is that something you'd have to go out on your own and figure out how to get that done?
 
 **Johannes Schickling:** Really good question. I think we should talk about both things. The first is authentication. Going back to your last question, neither of these concepts are directly built into GraphQL, but it's so flexible that you can basically use whatever concept you want to use; you can use it with GraphQL. Every authentication mechanism you would have for your REST API, you can more or less directly translate to your GraphQL API.
 
@@ -107,7 +107,7 @@ For example, if you wanna query a user, maybe you're allowed to see the user's n
 **Johannes Schickling:** Exactly. And that's actually one of the biggest steps how we see ourselves as a next step in the evolution of back-end services. If you think about Parse or Firebase, you have these concepts of ACL and roles, so that you can say like "This user has the admin role, and therefore this user is allowed to do X." But in most real world applications, that's way too minimal, and that doesn't allow you to implement your real application.
 What we basically allow you to do is you can specify any kind of authorization rules based on the graph structure of your data.
 
-\[00:28:09.09\] In our Instagram example, imagine you have an author of a post, of an image, and just this author is allowed to change the description or the image URL of this post. Or every person has a lot of followers, and maybe this following needs to be accepted, and then just accepted followers are allowed to view images. All of these permission rules are based on the information which is embedded in the graph structure of your data schema.
+\[28:09\] In our Instagram example, imagine you have an author of a post, of an image, and just this author is allowed to change the description or the image URL of this post. Or every person has a lot of followers, and maybe this following needs to be accepted, and then just accepted followers are allowed to view images. All of these permission rules are based on the information which is embedded in the graph structure of your data schema.
 
 We basically give developers a way to implement these permission rules in the form of GraphQL queries which represents permission rules by just specifying these conditions with the simplicity of GraphQL queries. That sounds fairly abstract, and you would certainly need to see a few examples, but this is a really simple concept which allows you to specify any sort of permission rules.
 
@@ -123,7 +123,7 @@ This openness of these technologies allow you to migrate away, and this is somet
 
 **Jerod Santo:** So you like how Parse went open source after acquisition. Are you saying Graphcool would do the same thing if you guys found yourselves in a similar situation?
 
-**Johannes Schickling:** \[00:32:13.23\] Right. I think it took Parse a bit to really get there. For example, it didn't open source those things on day one. It was a lot of pushback, back and forth around which parts are being open-sourced, until really most parts got open-sourced. That's one part of it.
+**Johannes Schickling:** \[32:13\] Right. I think it took Parse a bit to really get there. For example, it didn't open source those things on day one. It was a lot of pushback, back and forth around which parts are being open-sourced, until really most parts got open-sourced. That's one part of it.
 
 We've taken the same concept, and this is something that really resonates with people. We have this policy, what we call "the sunset policy", which basically says "Whenever something would happen to a service, everything would just be open-sourced, and people can host it on their own." Everything internally is built on open technologies, with Docker and so on... So people could host it on their own.
 
@@ -141,7 +141,7 @@ Where the proprietary part is -- and there's nothing really secret about it, it'
 
 **Johannes Schickling:** It's definitely a consideration, and we are looking into ways how we could go down a path like that. One part of that is just that this system is far from trivial. We started out building the first few prototypes in Node, and it just grew quite quickly and we knew we had to build it in a way that is scalable, that will be maintainable going forward.
 
-\[00:35:59.09\] For example, half of our tests base was basically just something that could have been caught by a good type system, so really quickly we decided to rebuild everything in Scala. Now it's just a really huge codebase with multiple microservices, a lot of infrastructure involved, and that takes us quite a lot of time to ramp up new engineers to understand that internally. Open-sourcing all of that would just slow us down quite significantly, since we would need to have documentation around that, and people would rather be concerned about "Hey, how can I get this to run on my own?" and it would just slow us down, since every decision we would make internally - how we are changing infrastructure, and so on - would suddenly be a breaking change.
+\[35:59\] For example, half of our tests base was basically just something that could have been caught by a good type system, so really quickly we decided to rebuild everything in Scala. Now it's just a really huge codebase with multiple microservices, a lot of infrastructure involved, and that takes us quite a lot of time to ramp up new engineers to understand that internally. Open-sourcing all of that would just slow us down quite significantly, since we would need to have documentation around that, and people would rather be concerned about "Hey, how can I get this to run on my own?" and it would just slow us down, since every decision we would make internally - how we are changing infrastructure, and so on - would suddenly be a breaking change.
 
 We rather want to move really quickly on that internally. We are managing internal breaking changes people will never know about, and once we have found a good way to orchestrate everything internally, we want to take one step at a time to open-source a version of that.
 
@@ -157,7 +157,7 @@ We're working quite hard. It is a lot of work, and I wouldn't say we're entirely
 
 **Jerod Santo:** Yeah, I'm just thinking about... With GraphQL, the clients basically write their own queries. Then with services like Graphcool and AWS Lambdas serverless you don't have servers, you don't have -- what's next, codeless? Like, I don't have code anymore? I'm thinking about this because you said "business logic", and it's like "Where the crap does my code go nowadays?" I feel like I'm being marginalized as an application developer. It keeps getting pitched to me as if I'm becoming Superman, but I feel like maybe my role is reduced... What do you think of that?
 
-**Johannes Schickling:** \[00:40:04.14\] I wouldn't say so... For us, again, it comes down to this concept of level of abstraction. When you're building a back-end, I think nobody is really obsessed with the part of "How can I map the API perfectly to the database?" and "How can I migrate my database in the best possible way?"
+**Johannes Schickling:** \[40:04\] I wouldn't say so... For us, again, it comes down to this concept of level of abstraction. When you're building a back-end, I think nobody is really obsessed with the part of "How can I map the API perfectly to the database?" and "How can I migrate my database in the best possible way?"
 
 **Jerod Santo:** That's the drudgery, right? That's the work, that's the labor.
 
@@ -171,7 +171,7 @@ Going back to this analogy of Lego building blocks, the great idea of bringing G
 
 **Adam Stacoviak:** After the break we're talking about the difference between live queries and subscriptions; we dig deeper into this idea of a serverless GraphQL back-end, we're talking about where community is taking place, the future of GraphQL and also where it's going. Stay tuned.
 
-**Break:** \[00:43:25.11\]
+**Break:** \[43:25\]
 
 **Adam Stacoviak:** We've kind of come to a point where it's like "Where is GraphQL going? How can you work with it? What conferences are out there? Where is the community meeting?" and resources about how to get started. You mentioned earlier in this show GraphQL Europe, I think you even mentioned in the off-air there's a podcast that you created... Where are things at for you?
 
@@ -185,7 +185,7 @@ There are quite a lot of emerging resources for and by the community. I think Gr
 
 **Johannes Schickling:** Right. There are actually a lot of notes being published at the moment, so you don't just have to take my word for it. We actually also sat down with the creators of GraphQL and we are now also quite involved in talking about different features for the future of GraphQL and how that is shaping. The great thing about GraphQL is really that it's an open standard. It is an open specification, there's an RFC process... You can go to GitHub, you can propose a new RFC with a certain feature, you can hear other community members' ideas and thoughts about this. If you make a strong case, that might even be merged into the GraphQL standard.
 
-\[00:47:57.02\] Recent developments - just last week as well was a really eventful week for GraphQL. Just last week GraphQL's Subscriptions got officially merged into GraphQL. GraphQL's Subscriptions - for those of you who don't know - is a way to establish a real time connection to your GraphQL back-end. Usually, that's by websockets, and you can subscribe to certain changes, and the server will send you events.
+\[47:57\] Recent developments - just last week as well was a really eventful week for GraphQL. Just last week GraphQL's Subscriptions got officially merged into GraphQL. GraphQL's Subscriptions - for those of you who don't know - is a way to establish a real time connection to your GraphQL back-end. Usually, that's by websockets, and you can subscribe to certain changes, and the server will send you events.
 
 The great thing about this is you can utilize the same GraphQL query concept. For these events you can even also traverse the graph and query for certain pieces of information you're interested in. A common scenario might be that you want to build a chat application. You might want to listen for new messages being created, and for every message you're interested in the text of it, and also in the name of the author, or something like that.
 
@@ -209,7 +209,7 @@ GraphQL Subscriptions, as I said, are based on events that the server sends, and
 
 **Adam Stacoviak:** We did!
 
-**Jerod Santo:** \[00:51:51.03\] That one's either in your feed somewhere or soon will be. You can also just search Changelog.com for "serverless" if you wanna listen to that. But you guys had this new architecture announcement on your blog, introducing the serverless GraphQL back-end architecture, and it seems to be the result of some of your work of joining these two concepts. This seems to be exactly what you're the most excited about, so tell us about this architecture concept and what you're trying to get from the community with regards to it.
+**Jerod Santo:** \[51:51\] That one's either in your feed somewhere or soon will be. You can also just search Changelog.com for "serverless" if you wanna listen to that. But you guys had this new architecture announcement on your blog, introducing the serverless GraphQL back-end architecture, and it seems to be the result of some of your work of joining these two concepts. This seems to be exactly what you're the most excited about, so tell us about this architecture concept and what you're trying to get from the community with regards to it.
 
 **Johannes Schickling:** Right, right. So this architecture is basically, like I said, merging these two new paradigms how you build APIs based on GraphQL, and also what serverless infrastructure just enables developers to build applications in a lot less friction. It removes a lot of friction and it removes the requirements of hosting your own service, and so on... And bringing these two concepts together, we've proposed a new architecture idea where the GraphQL back-end would basically be automatically generated based on your GraphQL schema.
 

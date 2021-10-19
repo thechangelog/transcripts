@@ -40,7 +40,7 @@
 
 **Liz Rice:** Sure, okay. So, I am I suppose an engineer by trade, I spend a lot of my career working on protocols, and I started off writing in C for a very long time. And I had a few years where I stopped writing code and I went and did product management for a few companies. Some of them you might have heard of, like Skype and Last.fm. And then I did some consultancy for a few years, and then it turned out people had invented much more interesting languages than C, and I got back into programming again.
 
-\[00:04:05.23\] And now I am... Well, a technology evangelist is my job title for a company called Aqua Security, and we help enterprises with securing their containerized deployments. But I basically have a really fun job of demonstrating things and trying to explain what is going on in various basic technology, hopefully with some kind of relationship to security and to containers, but we're pretty relaxed about how... Some of my talks don't really talk about security very much at all, and so... Yeah, it's really fun.
+\[04:05\] And now I am... Well, a technology evangelist is my job title for a company called Aqua Security, and we help enterprises with securing their containerized deployments. But I basically have a really fun job of demonstrating things and trying to explain what is going on in various basic technology, hopefully with some kind of relationship to security and to containers, but we're pretty relaxed about how... Some of my talks don't really talk about security very much at all, and so... Yeah, it's really fun.
 
 **Erik St. Martin:** I think understanding things at a more in-depth level helps with security though too, so I'd argue that it's beneficial from a security standpoint.
 
@@ -54,7 +54,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Carlisia Thompson:** Yeah, and I'm thinking... So, is there a container-level security gateway, I would say?
 
-**Liz Rice:** \[00:08:01.13\] Yeah, so at Aqua we have a product that covers the whole life cycle of containers, really. So we do the image scanning and looking for vulnerabilities... And in some ways, that's more complex for containers, just because you've got more instances of different pieces of code. I guess there's a few other bits and pieces, but the bit that I think is fascinating is runtime profiling and learning what the containers are supposed to do, and being able to alert when something unexpected happens.
+**Liz Rice:** \[08:01\] Yeah, so at Aqua we have a product that covers the whole life cycle of containers, really. So we do the image scanning and looking for vulnerabilities... And in some ways, that's more complex for containers, just because you've got more instances of different pieces of code. I guess there's a few other bits and pieces, but the bit that I think is fascinating is runtime profiling and learning what the containers are supposed to do, and being able to alert when something unexpected happens.
 
 **Carlisia Thompson:** Yeah, that is exactly what I was thinking about, and I think you touched on that. With so many microservices and so many images and maybe even so many containers, you would need something like what your company does, that would help manage the security for all of the basic group.
 
@@ -70,7 +70,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Brian Ketelsen:** So, is there a trick to taking something that's as complex as say syscalls or networking, and presenting it in a way that makes people understand it? It still feels like magic, but they appreciate the presentation afterwards? Because I think that's the feeling that everybody takes away from your presentations, is 'That's absolute magic. But I can do that, too'.
 
-**Liz Rice:** \[00:12:02.24\] Yeah, I think... My process is to try building things; I like to think 'What happens if I try and build this thing, or if I try to reproduce what's going on?' Or 'If I try using something, what will happen?' So, it's experimentation. And I'll try lots of things, and some things do always leap out and say 'Over here, this is really interesting.' And it's easy enough to write in a few lines of code, so I can remember it. Because obviously, I have to be able to memorize the code to type it in when I'm speaking, so... And yeah, I somehow end up exploring something thinking 'This is really fascinating!' Like the _Syscalls_, then getting into `ptrace`. And I'd heard of `ptrace`, I had an idea what it was, but when you start trying it and exploring it, you think 'Yeah, this is really powerful, I get this.'
+**Liz Rice:** \[12:02\] Yeah, I think... My process is to try building things; I like to think 'What happens if I try and build this thing, or if I try to reproduce what's going on?' Or 'If I try using something, what will happen?' So, it's experimentation. And I'll try lots of things, and some things do always leap out and say 'Over here, this is really interesting.' And it's easy enough to write in a few lines of code, so I can remember it. Because obviously, I have to be able to memorize the code to type it in when I'm speaking, so... And yeah, I somehow end up exploring something thinking 'This is really fascinating!' Like the _Syscalls_, then getting into `ptrace`. And I'd heard of `ptrace`, I had an idea what it was, but when you start trying it and exploring it, you think 'Yeah, this is really powerful, I get this.'
 
 **Erik St. Martin:** Yeah. The first time I ever used `strace` or `ltrace` and got to see all the syscalls and library calls that were being made by processes, you're like 'I have super powers!'
 
@@ -96,7 +96,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Carlisia Thompson:** And how you approach looking at these things that are lower-level and we don't get to look at on a daily basis unless we make an effort and have the curiosity to do so — so, the way you approach looking at these things I think makes a big difference.
 
-\[00:12:51.00\] For example, looking at this talk about the syscalls, there was a moment when you outputted some stack to the screen, to the terminal, and I was looking at that and was like 'Okay, that's what the output is.' And you were looking at that and thinking 'No, those are duplicates.' I would've been thinking it 'Well, that's how it is.' And you were thinking 'Well, those are duplicates, that doesn't sound right, so let's look more into it.' I would've just totally taken it for granted that that's how it was.
+\[12:51\] For example, looking at this talk about the syscalls, there was a moment when you outputted some stack to the screen, to the terminal, and I was looking at that and was like 'Okay, that's what the output is.' And you were looking at that and thinking 'No, those are duplicates.' I would've been thinking it 'Well, that's how it is.' And you were thinking 'Well, those are duplicates, that doesn't sound right, so let's look more into it.' I would've just totally taken it for granted that that's how it was.
 
 **Liz Rice:** Yeah, I think I might have had a certain amount of... I don't know, I'm gonna say storytelling license there, because I had actually seen the bit in the man page that says "You've got these two different stop states, and you can't tell the difference who's the tracer", but it just makes more sense as a story to do it that way, to say 'Oh, look, here's the duplicate, now I'm gonna explain why they're duplicate and address that issue.'
 
@@ -126,7 +126,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Erik St. Martin:** Being you have a networking background, what about something networking related? I think there's a lot of stuff going on in the cloud networking space now; you know, [CNI](https://github.com/containernetworking/cni), and you've got things like [Flannel](https://github.com/coreos/flannel) and [Calico](https://www.projectcalico.org/) and all of these things that create these mesh networks and things. Understanding that a little bit might be interesting.
 
-**Liz Rice:** \[00:19:56.00\] Yeah. I should really understand Flannel and Calico better than I currently do, so actually that's a really good idea. I should probably dig into those more. There's so many things, there's a world of things out there to learn about.
+**Liz Rice:** \[19:56\] Yeah. I should really understand Flannel and Calico better than I currently do, so actually that's a really good idea. I should probably dig into those more. There's so many things, there's a world of things out there to learn about.
 
 **Erik St. Martin:** Yeah. Finding the time for all of them is the challenge.
 
@@ -160,7 +160,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Erik St. Martin:** So I think it would be really interesting, especially because... I think a lot of us came from dynamic languages and things like that, and Go is a lot closer to C in the sense of being a systems language, so I think there's a lot of people learning a lot of these things that I think a lot of the people who came from the systems programming background take for granted. They learned C, they've written syscalls, they understand the kernel and how it operates, and even networking.
 
-\[00:24:02.20\] And there's a much larger group of people probably migrating to Go that this is all new information for. So I think it's really valuable that people like you and Julia are trying to help educate people on these things in ways that they can easily understand.
+\[24:02\] And there's a much larger group of people probably migrating to Go that this is all new information for. So I think it's really valuable that people like you and Julia are trying to help educate people on these things in ways that they can easily understand.
 
 **Liz Rice:** Hopefully, yes.
 
@@ -186,7 +186,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Liz Rice:** So, I don't know if this is still the case, but Amazon, and certainly at the time, supported Node and Python, and I think maybe one other. Certainly, those two, of which Python I was by far the most familiar with, so that was the natural choice to hack something together.
 
-\[00:28:02.10\] But now there are some schemes and some libraries and tooling out there to let you implement the real function in whatever language you like. There's one called [Apex](https://github.com/apex/apex) that I've heard is really good to let you write your functions in Go, and then you've got this little scheme thing in Python, or whatever, that calls your function. It's all done with containers, you know?
+\[28:02\] But now there are some schemes and some libraries and tooling out there to let you implement the real function in whatever language you like. There's one called [Apex](https://github.com/apex/apex) that I've heard is really good to let you write your functions in Go, and then you've got this little scheme thing in Python, or whatever, that calls your function. It's all done with containers, you know?
 
 **Brian Ketelsen:** Turtles all the way down.
 
@@ -226,7 +226,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Liz Rice:** Yes, so there is an organization called the [Centre for Internet Security](https://www.cisecurity.org/), and they write guidelines they call benchmarks for how to configure software to implement best practices for security. And they've got a -- I guess over the last two or three months they released a benchmark for Kubernetes, and—so, basically the guidelines are 200 pages of 'You should check whether or not you are running with this option', and 'You should check that this flag is set to zero', and 'You should check that this other flag is set to something else.' And so it's a lot of tests that we have with kube-bench, automated. And it's a Go program that implements these tests, and the tests themselves are written in these YAML files. So, as the spec evolves, as the benchmark evolves it should be easy for us to update the test files. And it should also be possible for people to add their own custom tests if they want to. Essentially, each test is mostly calling out to some kind of... Say, for example, calling out to PS and checking the results of PS to see what executables are running, that kind of thing. So, it's a pretty flexible tool.
 
-\[00:31:56.20\] But the idea is then that you can run it on all the nodes in your cluster and get a report in a standard format, either some text output or JSON output, to report on how well your Kubernetes nodes are complying with the benchmark. So it should just make it -- automate something that would otherwise be impossibly too much work to do by hand.
+\[31:56\] But the idea is then that you can run it on all the nodes in your cluster and get a report in a standard format, either some text output or JSON output, to report on how well your Kubernetes nodes are complying with the benchmark. So it should just make it -- automate something that would otherwise be impossibly too much work to do by hand.
 
 **Brian Ketelsen:** Yeah, we've dealt with the CIS benchmarks in the past - Erik and I both at previous companies - and it's really painful, really ugly. So, having that automated is awesome, and especially for something as modern as Go. Or, sorry, as modern as Kubernetes.
 
@@ -244,7 +244,7 @@ Secrets management is another important aspect, and Kubernetes fairly recently -
 
 **Brian Ketelsen:** Yeah, that's what the documentation said - if you have problems, disable SELinux.
 
-**Erik St. Martin:** \[00:35:51.25\] Well, I think that's probably the biggest issue with security, it's the inconvenience factor. And even, say like Seccomp and things like that, that... So, for anybody who is not familiar with what a Seccomp profile is, and Docker creates a standard one for you, but it basically controls the system calls that the process in the container is allowed to make. And you can actually modify this and make it more restrictive, or less restrictive, to limit what the process can do interacting with the kernel. But most of the time people have problems with things and they're like 'Oh, this is a pain. Enable everything.'
+**Erik St. Martin:** \[35:51\] Well, I think that's probably the biggest issue with security, it's the inconvenience factor. And even, say like Seccomp and things like that, that... So, for anybody who is not familiar with what a Seccomp profile is, and Docker creates a standard one for you, but it basically controls the system calls that the process in the container is allowed to make. And you can actually modify this and make it more restrictive, or less restrictive, to limit what the process can do interacting with the kernel. But most of the time people have problems with things and they're like 'Oh, this is a pain. Enable everything.'
 
 **Liz Rice:** I think that's exactly right. Yeah, making these things easy is a huge challenge—easy to use, huge challenge.
 
@@ -270,7 +270,7 @@ Secrets management is another important aspect, and Kubernetes fairly recently -
 
 **Liz Rice:** I guess I know that I can talk about... [Container Camp](https://2017.container.camp/uk/) in London coming up very soon, and Container Shed not long after. Container Camp is only in a couple of weeks' time, so probably just about the time this podcast gets released, probably it would be the same day as Container Camp. But that's always a really funny small group of people talking about containers. Small as in it's not like [GopherCon](https://www.gophercon.com/), it's not thousands of people, it's more like 100 or 200 or something.
 
-**Brian Ketelsen:** \[00:39:59.00\] What's been your favourite conference to attend so far? What's the conference that has the best atmosphere, the best fun?
+**Brian Ketelsen:** \[39:59\] What's been your favourite conference to attend so far? What's the conference that has the best atmosphere, the best fun?
 
 **Liz Rice:** You mean apart from GopherCon? Because obviously that would be a terribly suck up thing for me, to say GopherCon. So, I'm not gonna say GopherCon.
 
@@ -348,7 +348,7 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Carlisia Thompson:** Yeah, I love that. \[laughs\] Is that an actual thing? Is that an actual button you can put on the keyboard? I wasn't sure if he was just joking.
 
-**Liz Rice:** \[00:48:06.00\] I mean the external one that you can plug in.
+**Liz Rice:** \[48:06\] I mean the external one that you can plug in.
 
 **Erik St. Martin:** Yeah, the newer MacBook Pros have a touchscreen bar thing, and you can program it to have new buttons there that do things.
 
@@ -438,7 +438,7 @@ Talking about the practical stuff - it's very easy to install, it's very easy to
 
 **Brian Ketelsen:** Shh, don't tell anybody.
 
-**Erik St. Martin:** \[00:56:01.00\] Alright, do we have any other interesting projects, news, articles that are must see?
+**Erik St. Martin:** \[56:01\] Alright, do we have any other interesting projects, news, articles that are must see?
 
 **Brian Ketelsen:** No.
 

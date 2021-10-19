@@ -10,7 +10,7 @@ I worked for Microsoft, as I've just said, for 23+ years. Now I work as a consul
 
 I realized that even inside Microsoft, which people may think of from the outside as having this single way of writing software, there were actually a bunch of different ways; some were better and some were worse, but people didn't really know. They just tended to use the same technique and language and process that they'd used before, which might have been something that the person who created the group happened to like, or had some experience with... And from our central perspective in Engineering Excellence we could tell that some of these processes were better than others. It made me realize that across the industry you have the same issue - people just don't really know if the way they're writing software is actually correct, if they're using the right language, as I said, or the right tools and technologies.
 
-\[00:03:53.06\] A lot of it starts with what I consider the basic problem with software, which is that when you're in school, Academia doesn't really study industry, and you don't get a lot of advice on this. You tend to write small pieces of software, two or three people working for a semester, and then you're done. In that environment really any language is fine, and everybody can meet in a room to discuss things, so stitching together large pieces of software from individual components doesn't really happen, and the original authors of the software are there for the entire duration, so they just know how it works; the documentation is not really an issue.
+\[03:53\] A lot of it starts with what I consider the basic problem with software, which is that when you're in school, Academia doesn't really study industry, and you don't get a lot of advice on this. You tend to write small pieces of software, two or three people working for a semester, and then you're done. In that environment really any language is fine, and everybody can meet in a room to discuss things, so stitching together large pieces of software from individual components doesn't really happen, and the original authors of the software are there for the entire duration, so they just know how it works; the documentation is not really an issue.
 
 And then you get into the industry and you're working on these large pieces of software -- obviously, at Microsoft I worked on Windows and Office, two very large pieces of software. At this point they have thousands of developers on them, and this stitching together and maintaining it over different cycles of engineers as people leave and new people join really becomes critically important, and it's just not something people are prepared when they go to school and study computer science or software engineering.
 
@@ -26,7 +26,7 @@ You have these coding camps springing up, which are much shorter in duration and
 
 **Adam Stacoviak:** When you say "Academia" - you mentioned coding camps; would you consider Lambda School, or Bradfield School of Computer Science, if you're familiar with those...? Would you consider those in the grey area between bootcamps or coding camps and Academia? Because they kind of play in this intensive role, in this sort of partnered relationship with the would-be or could-be developer.
 
-**Adam Barr:** \[00:08:14.23\] What I've read about Academia and what I looked at was really four-year universities, granting engineering degrees, essentially.
+**Adam Barr:** \[08:14\] What I've read about Academia and what I looked at was really four-year universities, granting engineering degrees, essentially.
 
 **Adam Stacoviak:** Gotcha.
 
@@ -50,7 +50,7 @@ Obviously, you're gonna have to learn computer science concepts to make this you
 
 **Adam Stacoviak:** What about goals though? Don't you think that the goals for a bootcamp or the grey area of, as I mentioned, Lambda or Bradfield, for example, the goals are fundamentally different. The goals for Academia, for your program, for example, aren't to teach today's best practices - though they should be aware of them - and it's more like skills and skillsets there on the long-term, and deep knowledge in computer science or various areas of software engineering. The goals are fundamentally different, right?
 
-**Adam Barr:** \[00:12:00.12\] Oh yeah, I agree. The bootcamp is trying to get somebody employed quickly, with a specific skillset, and that should not be what Academia is teaching. But Academia should be more focused on the other areas - what's the right language to use, can you tell if software is high-quality, can you tell if software is obsolete, what is good code, what is bad code, what's the right trade-off between performance and maintainability of the software... They should be studying that sort of thing in industry, rather than on these...
+**Adam Barr:** \[12:00\] Oh yeah, I agree. The bootcamp is trying to get somebody employed quickly, with a specific skillset, and that should not be what Academia is teaching. But Academia should be more focused on the other areas - what's the right language to use, can you tell if software is high-quality, can you tell if software is obsolete, what is good code, what is bad code, what's the right trade-off between performance and maintainability of the software... They should be studying that sort of thing in industry, rather than on these...
 
 **Adam Stacoviak:** Fake projects.
 
@@ -72,7 +72,7 @@ I mean, I know my personal experience and I've talked to other people, and this 
 
 Then eventually, after working with other people's code for a while, it sort of dawned on me "Oh yeah, okay, I understand now." There's certain standards that you want to enforce, and there's actually benefits of a code review; it makes you better as a programmer.
 
-**Adam Stacoviak:** \[00:16:09.03\] I've got a question here on this front - do you think that this gap that we're identifying also leads into interesting and/or bad hiring practices? If we don't understand what a software engineer truly can do... As you said, Jerod, if I have this stamp on the wall that says "Hey, I'm a software engineer..."
+**Adam Stacoviak:** \[16:09\] I've got a question here on this front - do you think that this gap that we're identifying also leads into interesting and/or bad hiring practices? If we don't understand what a software engineer truly can do... As you said, Jerod, if I have this stamp on the wall that says "Hey, I'm a software engineer..."
 
 **Jerod Santo:** A piece of paper, yeah.
 
@@ -98,7 +98,7 @@ I once did an interview where somebody said "Solve this problem", and I came up 
 
 **Adam Barr:** But I think some people would say that's a terrible interview; they wrote a bad algorithm and they only got lucky to catch it at the very end. What if it had shipped etc. But my view would be, "Well, that's a pretty good interview", because first of all, I solved two problems for the price of one, and I realized while discussing testing that I had a bug, and then I fixed it, which is really what you actually do as a software engineer. But I think a lot of people would disagree on that, and say "No, no, you've gotta come up with a clever algorithm or we're not gonna hire you."
 
-**Break:** \[00:19:28.14\]
+**Break:** \[19:28\]
 
 **Jerod Santo:** We've been talking about this gap between industry and Academia, and why smart engineers can write bad code. Adam, I'm assuming the response to that is because they aren't taught well enough to write good code coming out of college... What are some things we can change, if we're just going to maybe mold a four-year curriculum, or take existing university and change the way they do what they do to produce better output? What would you change?
 
@@ -114,7 +114,7 @@ A lot of the problems you hit happen when you're actually writing code, and it w
 
 I spent a lot of time in college -- we had one big lab in school, because this was pre-internet, pre-campus networks... So we were all together, but still we'd mostly just be grinding away in grim silence next to each other. Nowadays students mostly code in their own rooms, so they're not near even other students they could ask for help... So having more labs, even if the students have to bring their own computers, but just having it all be programming together I think would be very helpful.
 
-\[00:23:48.12\] The other thing - I talk in the book about empirical studies, which is basically studying programmers, how they work, and I think students should both read empirical studies... Microsoft Research is actually driving a good uptick in empirical studies of software engineering, which was a big thing in the '70s, but kind of died out. So students should study some of that. There's actual studies about what's the right amount of code, what's the right length for a method, things like that; studies of variable naming, this sort of thing.
+\[23:48\] The other thing - I talk in the book about empirical studies, which is basically studying programmers, how they work, and I think students should both read empirical studies... Microsoft Research is actually driving a good uptick in empirical studies of software engineering, which was a big thing in the '70s, but kind of died out. So students should study some of that. There's actual studies about what's the right amount of code, what's the right length for a method, things like that; studies of variable naming, this sort of thing.
 
 So I think students could study that, but they could also try to do a little bit themselves. They could actually try to do a little research project where "We write code in two different ways/two different languages/with two different constraints, and actually try to figure out something about which is better." Probably to learn about it, and probably just to get students to realize that there are different ways to write code, and the way they've learned or taught themselves may not be the only way.
 
@@ -142,7 +142,7 @@ So there's little bits here and there, but I think the general engineering degre
 
 **Adam Barr:** The other thing I do wanna call out is the couple of school - Carnegie Mellon and Harvey Mudd - which are addressing another problem in software engineering, which is the lack of women, and they are really trying to make sure their programs are as open as possible to women, and encouraging them and supporting them, and trying not to get people scared off by the high school nerd type (which of course I was) who is most likely male, and make sure that a CS program is welcoming to people who just show up and say "Hey, I want a major in computer science, because I like computers, I like games, I like virtual reality. I have an interest in it, but I was not in the programming club in high school." I think that's very important, just to expand the pool of people who can become professional programmers, because we need a lot of programmers...
 
-**Adam Stacoviak:** \[00:28:10.10\] Absolutely.
+**Adam Stacoviak:** \[28:10\] Absolutely.
 
 **Adam Barr:** ...and knocking 50% of the world's population out of the running from the start, of course, is a bad idea.
 
@@ -158,7 +158,7 @@ It sort of gets to this problem that people tend to study small pieces of code, 
 
 So I think that's the important thing to realize... Although a lot of people seem to instinctively think that "Well, code that's faster is also cleaner, because I've cut out some code", or something. In fact, the typical pattern is that code starts out fairly cleanly designed, and then in order to make some performance optimizations, people will add some side-channel, or some extra API parameter or whatever, just because "Oh, in this situation we need to optimize it", and really performance is generally fighting against clean design, and therefore against readability and maintainability.
 
-\[00:31:58.26\] I think a lot of people don't realize that, and when they complain about new kids coming out of school, that's what they complain about. They'll talk about people programming in C\# and they don't realize what exactly goes on when they're manipulating a string, and "Isn't that a terrible thing?" And to me -- I mean, I'll take people not knowing what code is generated on string manipulation; I'll take that gladly over buffer exploits in network-facing C code, where yeah, everyone knows what's going on with that string manipulation because you wrote the code yourself and you got it wrong, and you have a buffer overrun. That's much worse than, "Oh yeah, these kids today don't know what's going on."
+\[31:58\] I think a lot of people don't realize that, and when they complain about new kids coming out of school, that's what they complain about. They'll talk about people programming in C\# and they don't realize what exactly goes on when they're manipulating a string, and "Isn't that a terrible thing?" And to me -- I mean, I'll take people not knowing what code is generated on string manipulation; I'll take that gladly over buffer exploits in network-facing C code, where yeah, everyone knows what's going on with that string manipulation because you wrote the code yourself and you got it wrong, and you have a buffer overrun. That's much worse than, "Oh yeah, these kids today don't know what's going on."
 
 To me, having string manipulation taken out of the hands of programmers, the nitty-gritty details, is a fantastic thing, which is why most modern languages have chosen to do that.
 
@@ -178,7 +178,7 @@ Something like method length has been studied somewhat, and Steve McConnell in C
 
 Those are some very constricting rules, that she believes produces good code... Or I guess produces clean code. So that produces clean code. So definitely some work being done in this space, but no consensus, because a lot of people would disagree with those rules.
 
-**Adam Barr:** \[00:36:09.29\] Right. And what did she study? Is that just her personal experience, and based on what? I'm sure that's correct in some situations and incorrect in other situations... I think you have a lot of this where it's just--
+**Adam Barr:** \[36:09\] Right. And what did she study? Is that just her personal experience, and based on what? I'm sure that's correct in some situations and incorrect in other situations... I think you have a lot of this where it's just--
 
 **Jerod Santo:** Yeah, and she'll even say that it's not always correct, but she teaches it as a starting place for people, to go from there; start there and then move away. And hers is all industry experience, she's not an academic.
 
@@ -204,7 +204,7 @@ You can look at DevOps, or functional programming; that's sort of what's getting
 
 **Jerod Santo:** Here's a pro tip for people who are writing best practices or pattern style - if you aren't sure if it's a good idea or a bad idea, don't call it a law. The Law of Demeter - I think that's maybe the hubris there; even though they admit, like you said, in their paper that "This is a concept, we see some value to it." You call something a law, something like gravity; we're all pretty much stuck to that one. But with the Law of Demeter, as a young programmer, you hear law and you think "Alright, I can never call through to C. It's just a rule." That's problematic.
 
-**Break:** \[00:39:43.18\]
+**Break:** \[39:43\]
 
 **Adam Stacoviak:** So the goal of this book is to raise awareness, get the industry people interested in what's going on, but also Academia, having that feedback between the two counterparts. Industry is moving forward maybe faster, as we've said, than Academia, and for good reasons, and Academia has a whole different goal set in terms of educating the future software engineers of the world. So how do we get these two parties to talk more? Is it conferences, is it podcasts, is it forums? Based on your research, what are some good ways that we can get this feedback loop going?
 
@@ -218,7 +218,7 @@ So they agreed, "Yes, we should have a conference next year to try to solve this
 
 I think one issue is that -- because I've talked to academics about this, and they say "Oh, there's people from Microsoft who come to our conference, and they present, and we talk to them", but that tends to be Microsoft Research, which is not the product groups. So as I said earlier, that knowledge doesn't tend to transfer back to the product groups that actually work on shipping software, and I wish we had a lot more people from those product groups that are actually shipping stuff go to those conferences.
 
-\[00:43:58.13\] The big one probably is the International Conference on Software Engineering (ICSE), which is happening actually in May. That's a joint IEEE/ACM conference in Montreal this year, which is my hometown. Unfortunately, I can't go because of conflicts, but that's a very good, There's papers on a variety of topics, but some of them are about software engineering, some empirical studies of software engineering, where you could actually learn about this.
+\[43:58\] The big one probably is the International Conference on Software Engineering (ICSE), which is happening actually in May. That's a joint IEEE/ACM conference in Montreal this year, which is my hometown. Unfortunately, I can't go because of conflicts, but that's a very good, There's papers on a variety of topics, but some of them are about software engineering, some empirical studies of software engineering, where you could actually learn about this.
 
 Somebody from a product group coming there and saying, "Hey, I actually work on a large piece of software. What can you teach me?" would be very welcomed. I think that people do want this knowledge to spread in the industry, it's just that there's a slight lack of this knowledge, and also industry is viewed as not really welcomed there, because they're just interested in shipping stuff and counting their money and whatnot.
 
@@ -246,7 +246,7 @@ I think ACM and IEEE Computer Society are very valuable things to join. Though m
 
 **Adam Barr:** And they actually have magazines. There's this thing they send you...
 
-**Jerod Santo:** \[00:47:57.15\] Yeah, I definitely remember them, but it's almost like once I graduated college and went into the field and started writing software professionally, I completely disconnected from these things, and haven't ever considered them until today. \[laughs\] Which was 14-16 years later.
+**Jerod Santo:** \[47:57\] Yeah, I definitely remember them, but it's almost like once I graduated college and went into the field and started writing software professionally, I completely disconnected from these things, and haven't ever considered them until today. \[laughs\] Which was 14-16 years later.
 
 **Adam Barr:** Yeah, they just had an article by a physicist about why quantum computing might be entirely bogus, which was interesting to read... That sort of thing. They talk about self-driving cars a bit now... So just interesting stuff to read about. And like I said, it just seems like you should belong to it as a working programmer. I'm not trying to personally shame you, and I'm not here to sell memberships, but...
 
@@ -270,7 +270,7 @@ Thinking back, there were a lot of very difficult bugs in that environment, beca
 
 But then we also had bugs that were very tricky software problems that you just had to figure out. We had one bug where we tried to figure out what was happening with a Token Ring driver, which is some network technology so obscure that I'm sure most of your listeners never heard of it... So we had this Token Ring bug, and we said "Well, let's try to write to a log, some logging memory, to see what's happening, just track to this point. We've got a packet, we send a packet, the packet is completely transmitting, and we start out writing words to the log, transmit, receive, and we realize that even that was messing up the timing so much that we could write a single letter to the log. And we're talking about basically writing something to memory; writing one byte instead of six bytes, or whatever. We had to change it so we were writing only a single byte to memory at each point in this log, otherwise it messed up the timing and the bug never happened again. Things like that...
 
-\[00:52:37.07\] When you start to work on applications and higher-level stuff, it's like "Oh, wow, this bug just repros every time. You run this test script and the thing crashes." It seems so easy, but... Yeah, just a lot of time spent, and that was back when you couldn't work remotely; you had to go into the lab to look at problems, you had to go to your desk to work on anything, so you spent a lot of time at work. If something broke, you were getting in your car and going to work to look at it; you couldn't just remote in.
+\[52:37\] When you start to work on applications and higher-level stuff, it's like "Oh, wow, this bug just repros every time. You run this test script and the thing crashes." It seems so easy, but... Yeah, just a lot of time spent, and that was back when you couldn't work remotely; you had to go into the lab to look at problems, you had to go to your desk to work on anything, so you spent a lot of time at work. If something broke, you were getting in your car and going to work to look at it; you couldn't just remote in.
 
 When I look back -- I don't know if you ever read "The Soul of a New Machine", that book about a Data General project back in this '70s...
 
@@ -306,7 +306,7 @@ When I look back -- I don't know if you ever read "The Soul of a New Machine", t
 
 **Jerod Santo:** Yeah.
 
-**Adam Barr:** \[00:55:57.04\] But I know there were cases at Microsoft where people would say "We can't understand this thing. We're just gonna throw it away." Some particular module, or a part of the NT kernel, or some application, where because of how it was written and the fact that everybody who worked on it was no longer around, it was just completely replaced, and obviously that's a big negative, if your code is just completely incomprehensible, and people think it's better to spend the time to completely rewrite it. For that to happen to your code. I don't think that has happened to anything I wrote, although who knows...
+**Adam Barr:** \[55:57\] But I know there were cases at Microsoft where people would say "We can't understand this thing. We're just gonna throw it away." Some particular module, or a part of the NT kernel, or some application, where because of how it was written and the fact that everybody who worked on it was no longer around, it was just completely replaced, and obviously that's a big negative, if your code is just completely incomprehensible, and people think it's better to spend the time to completely rewrite it. For that to happen to your code. I don't think that has happened to anything I wrote, although who knows...
 
 **Adam Stacoviak:** Me neither.
 
@@ -318,7 +318,7 @@ When I look back -- I don't know if you ever read "The Soul of a New Machine", t
 
 **Adam Barr:** Well, it's on Amazon, BarnesAndNoble.com... It's published by MIT Press. I know the Barnes & Nobles in Seattle had it last time I checked, if you actually wanna go to a physical bookstore and buy it. Also, it's available on Kindle and whatever other eBook formats you choose to use.
 
-**Adam Stacoviak:** \[00:57:26\] You know, speaking of going to a real bookstore, I went to a Barnes & Noble recently, and those places are actually pretty cool. You can grab the book you wanna buy, you can look through it... I mean, how novel of an idea is that? You can even sit down in a comfortable chair and read a little bit of it. So cool! I would actually recommend that.
+**Adam Stacoviak:** \[57:26\] You know, speaking of going to a real bookstore, I went to a Barnes & Noble recently, and those places are actually pretty cool. You can grab the book you wanna buy, you can look through it... I mean, how novel of an idea is that? You can even sit down in a comfortable chair and read a little bit of it. So cool! I would actually recommend that.
 
 **Jerod Santo:** It turns out physical retail stores have value. Who would have thought...?
 

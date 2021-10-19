@@ -22,7 +22,7 @@
 
 My name is nornagon. Actually, I also picked it when I was 15. It came from a computer game called Creatures that had little creatures in it called Norns that you would take care of and teach, and stuff. It’s actually the reason that I became a software engineer - that game had a modding system that you could build new plants and toys and things that would go in the world using a custom scripting language that the developer of that software created, called Chaos, and that was my first programming language. It was Chaos – this weird Assembly-like scripting language. That introduced me to a community of people who taught me real programming languages over IRC. The name’s unique, so I just kept it. It works fine.
 
-**Kevin Ball:** \[00:04:18.25\] That’s awesome. Alright, so let’s talk about Electron a little bit. I think most folks are probably familiar with Electron if they’re in the JavaScript space, but maybe not everyone. How about we start with just what is Electron?
+**Kevin Ball:** \[04:18\] That’s awesome. Alright, so let’s talk about Electron a little bit. I think most folks are probably familiar with Electron if they’re in the JavaScript space, but maybe not everyone. How about we start with just what is Electron?
 
 **Shelley Vohr:** Alright. At a really baseline level, Electron is effectively a framework that allows you to use web technology to write pseudo-native apps on desktop platforms like Windows, Mac, and Linux. You have access to a JavaScript API, and you can use this to basically create applications like Slack, or WebTorrent desktop, or Atom, or VS Code, or any similar apps like that.
 
@@ -46,7 +46,7 @@ That’s I think pretty different to know Atom works. When you download Atom, yo
 
 **Jeremy Apthorp:** I’ll kick that one to Shelley, since I think she has some more experience with that.
 
-**Shelley Vohr:** \[00:07:48.11\] I would say yes, essentially. People have built out a lot of little tools that improve Electron in specific category, allow for easier development for – I don’t know; I’m trying to think of a simpler example... For like logging, or something similar. But generally, yeah. Generally, you treat it primarily just like developing web technologies, except that you’re thinking more in terms of desktop, so thinking about dialogues and other things you wouldn't typically think about in a web context. But otherwise, the perspective I would say is not altogether different.
+**Shelley Vohr:** \[07:48\] I would say yes, essentially. People have built out a lot of little tools that improve Electron in specific category, allow for easier development for – I don’t know; I’m trying to think of a simpler example... For like logging, or something similar. But generally, yeah. Generally, you treat it primarily just like developing web technologies, except that you’re thinking more in terms of desktop, so thinking about dialogues and other things you wouldn't typically think about in a web context. But otherwise, the perspective I would say is not altogether different.
 
 **Kevin Ball:** Nice. So does Electron enforce any particular application architecture?
 
@@ -76,7 +76,7 @@ So basically you shouldn’t ever load code from a remote server in the renderer
 
 **Jeremy Apthorp:** Yeah, so you mentioned building a browser with Electron, and it’s interesting that you mentioned that, because there was a project that I think involved Brendan Eich, called Brave, the Brave browser... And they started off building on Electron because it was a super easy platform for them to get started, and they eventually forked Electron and changed a few things about the security model, and then I think just recently they announced that they’re retiring their fork and they’re building directly on top of the Chromium source code, much in the same way that Opera does. So I think that’s an example of how people have evolved through that, going through that set of decisions.
 
-**Feross Aboukhadijeh:** \[00:12:01.28\] Yeah, that might be a conversation for later, but I’m actually really curious what the trade-offs are there, why Electron hasn’t maybe pulled those changes in their fork back in and made the sandbox more secure by default. I’m guessing there are some good reasons or some tradeoff there that would be interesting to know about.
+**Feross Aboukhadijeh:** \[12:01\] Yeah, that might be a conversation for later, but I’m actually really curious what the trade-offs are there, why Electron hasn’t maybe pulled those changes in their fork back in and made the sandbox more secure by default. I’m guessing there are some good reasons or some tradeoff there that would be interesting to know about.
 
 **Jeremy Apthorp:** Yeah, absolutely. We can chat about that in depth later. There was an Electron developer summit recently in Prague, and things like that came up... So yeah, Shelley and I can both speak to that.
 
@@ -108,7 +108,7 @@ So Brave made the decision, since they’re basically only running untrusted cod
 
 **Jeremy Apthorp:** Electron has that also. There’s the option that you can set on the web contents that you open, you can set like context isolation, and that way, the code that’s running in that frame and the code that’s talking to it is running in different contexts.
 
-**Feross Aboukhadijeh:** \[00:15:45.06\] I actually find just in my use of Electron that just from a conceptual point of view it’s really useful for me to try to keep all of the Node stuff out of the renderer and use messaging or use remote -- it's better actually to just use messaging, so that the main process does all the Node stuff, and all of that stuff is securely over in its own place and I can just see all the things that the... All the Node privilege-type things that the app might do, and then I can see that -- the renderer basically only has the ability to ask the main process to do certain things, and then the main process could deny it...
+**Feross Aboukhadijeh:** \[15:45\] I actually find just in my use of Electron that just from a conceptual point of view it’s really useful for me to try to keep all of the Node stuff out of the renderer and use messaging or use remote -- it's better actually to just use messaging, so that the main process does all the Node stuff, and all of that stuff is securely over in its own place and I can just see all the things that the... All the Node privilege-type things that the app might do, and then I can see that -- the renderer basically only has the ability to ask the main process to do certain things, and then the main process could deny it...
 
 Basically, say that for example my app needs the ability to read one specific file, then I can put that specific code in a function in the main process and then the renderer can just ask the main process to read that one file, versus instead of giving it full access to the FS package that it could use to do anything, like to write anything or to just run wild. I find that pretty useful.
 
@@ -128,9 +128,9 @@ If you’re using third-party packages, you have to be really careful. Having th
 
 So I think there’s something there to – there’s a fairly fundamental question there of like the computer is supposed to be an agent of the user, and there’s an inherent obfuscation of like, “If I do these things with my computer, if I open this app, if I click this button, there’s this level of trust, because I can’t see the electrons that are moving around inside the processor and see the packets that are going out the network. I can’t directly perceive what’s going on”, so there’s some level of trust that needs to be established between the operating system and the user.
 
-\[00:19:44.24\] I think it’s really the operating system’s responsibility to provide that trust, which is a long way of saying it’s a complicated problem, and we need complicated tools to attack it. And I think this lies – certainly, some of that responsibility lies in the hands of Electron, but it also crosses over into operating system authors and publishers, like Apple, Microsoft and Google, as well as back up the pipeline into app authors and how they design and build their apps and publish their apps.
+\[19:44\] I think it’s really the operating system’s responsibility to provide that trust, which is a long way of saying it’s a complicated problem, and we need complicated tools to attack it. And I think this lies – certainly, some of that responsibility lies in the hands of Electron, but it also crosses over into operating system authors and publishers, like Apple, Microsoft and Google, as well as back up the pipeline into app authors and how they design and build their apps and publish their apps.
 
-Break: \[00:20:30.14\]
+Break: \[20:30\]
 
 **Kevin Ball:** Okay, so let’s talk about why people are using Electron. We’ve touched a little bit on it. We’re all web devs probably, so web development is a pro, but why do we see people who might otherwise be doing traditional desktop applications using Electron?
 
@@ -140,7 +140,7 @@ Felix actually recently wrote an article - I think it was about a month and a ha
 
 **Jeremy Apthorp:** I think to add to that, you said the right tool for the job... What is the job? The thing that people come to use Electron for is like, “I wanna write an app that a user is gonna use, something that I’m gonna distribute to people who aren’t me, that they’re gonna run on their desktop machine (Windows, Mac or Linux), and it’s gotta do something that a web app normally can’t, even if that thing is only just like opening its own window, or reading a file off of the file system.”
 
-\[00:23:50.00\] I think that if you want to do that thing, "I want to distribute something to my users that does a little bit, to a lot more than a web app can, on a desktop machine", I think your options are -- if you want it to do something that isn’t Electron, you could, say, write a Qt app in C++, or you could write an app with C\# and Mono, or Gtk\# maybe... And none of those options are really very good. They’re good at what they do, but what they do isn’t building cross-platform apps in a way that’s easy to develop.
+\[23:50\] I think that if you want to do that thing, "I want to distribute something to my users that does a little bit, to a lot more than a web app can, on a desktop machine", I think your options are -- if you want it to do something that isn’t Electron, you could, say, write a Qt app in C++, or you could write an app with C\# and Mono, or Gtk\# maybe... And none of those options are really very good. They’re good at what they do, but what they do isn’t building cross-platform apps in a way that’s easy to develop.
 
 So I think that a lot of people have familiarity with WebTech, and I think also the dev tools for WebTech are really best in class.
 
@@ -176,7 +176,7 @@ The number of people in the world who already know how to use those technologies
 
 **Kevin Ball:** I’ve just put it in the Slack channel. I’ll put it in here, so they can put it in the show notes. But yeah, the uptake has been phenomenal. We were brainstorming some examples of big apps using it – obviously, the Slack app that you were talking about, Atom, VS Code...
 
-**Jeremy Apthorp:** \[00:28:24.11\] Skype... We’re currently talking over an Electron app.
+**Jeremy Apthorp:** \[28:24\] Skype... We’re currently talking over an Electron app.
 
 **Kevin Ball:** Really? I didn’t know that.
 
@@ -208,7 +208,7 @@ So I was talking to one of the -- I used to work on the Chrome team at Google...
 
 I think also the people who complain about memory usage are the people who open activity monitor and look at the memory number. I think if you don’t open that activity monitor or Top, or whatever, and look at the memory usage, you’re never going to notice how much memory that app is using, unless you’re trying to run like ten instances of Photoshop, and your machine is swapping.
 
-\[00:31:52.27\] So I think memory usage is not itself bad. It has downstream effects that are bad, and that’s mostly -- until you hit your memory limit of active memory, you’re not gonna notice anything. And then as soon as you hit that limit, you hit a cliff of the swap. So if you’re swapping a lot, that’s when you start to notice the detrimental effects of a lot of memory in use.
+\[31:52\] So I think memory usage is not itself bad. It has downstream effects that are bad, and that’s mostly -- until you hit your memory limit of active memory, you’re not gonna notice anything. And then as soon as you hit that limit, you hit a cliff of the swap. So if you’re swapping a lot, that’s when you start to notice the detrimental effects of a lot of memory in use.
 
 **Kevin Ball:** I have a suspicion that a lot of these folks complaining are power users. I just opened up Top, and I order by memory usage, and I look at the top 30 processes, ten of them are Chrome, seven of them are Slack, because I have ten Slack channels or things in my Slack app, and then there’s a few other things... But that’s because those are the most phenomenally useful applications.
 
@@ -238,7 +238,7 @@ And then the other issue is potentially startup time. I saw a lot of people aski
 
 **Feross Aboukhadijeh:** Yeah, so I initially just wrote -- the way I figured out what was causing the startup time to be slow is I wrote a wrapper around the Require function, and just timed how long every require took... Because every time you call Require, there is -- yeah, so in the naïve use case of calling require, it reads the file that you’re requiring from the disk, and then you do all those requires synchronously, one at a time, because it’s a synchronous call, so that can take a while if you’re reading like a thousand files, which is definitely possible in a decently-sized package tree.
 
-\[00:36:28.23\] But then I think there’s a way where you can take the whole Node modules folder and bundle it up into a single file, like an asar file is what it’s called. I think it stands for Atom Archive File or something. You probably are familiar with this. But anyway…
+\[36:28\] But then I think there’s a way where you can take the whole Node modules folder and bundle it up into a single file, like an asar file is what it’s called. I think it stands for Atom Archive File or something. You probably are familiar with this. But anyway…
 
 **Jeremy Apthorp:** Yeah...
 
@@ -266,13 +266,13 @@ It’s just like a mobile app. You do code splitting so that you don’t have to
 
 **Jeremy Apthorp:** Okay, cool. So I haven’t used them myself, so I certainly wouldn’t class myself as an expert on these, but I understand that the way that they work is that you can bundle all of your JavaScript together into one file, similar to the asar approach that you were talking about... But then what you do is you load it into V8 ahead of time, and that parses and constructs all of the internal structures that V8 will need to run it at runtime, and then you can snapshot all of that information that V8 has constructed out of your JavaScript code, and then load that snapshot back up on startup in your app.
 
-\[00:40:12.00\] So in development, you can create that snapshot and then ship that snapshot out to your users, and when they start the app, instead of having to start from the raw JavaScript files or even the packaged up asar (you still have to parse all of that JavaScript), you can start from a snapshot, which is much more like friendly for load time.
+\[40:12\] So in development, you can create that snapshot and then ship that snapshot out to your users, and when they start the app, instead of having to start from the raw JavaScript files or even the packaged up asar (you still have to parse all of that JavaScript), you can start from a snapshot, which is much more like friendly for load time.
 
 **Feross Aboukhadijeh:** That makes a lot of sense.
 
 **Jeremy Apthorp:** Another tool that you can get in your arsenal.
 
-Break: \[00:40:42.14\] to \[00:41:16.09\]
+Break: \[40:42\] to \[41:16\]
 
 **Kevin Ball:** Alright, so let’s jump back in and talk about community. Shelley, can you talk a little bit about the Electron core team, community ecosystem – all the stuff around this?
 
@@ -296,7 +296,7 @@ So there’s a lot of companies who are using Electron for something quite speci
 
 **Jeremy Apthorp:** \[laughs\] Well, Google recently launched an app that’s built on Electron, so maybe it’ll go back up to four.
 
-**Kevin Ball:** \[00:44:12.16\] Nice. And what about -- so you mentioned there is some tooling and other stuff that sprung up around Electron... How large is that broader ecosystem?
+**Kevin Ball:** \[44:12\] Nice. And what about -- so you mentioned there is some tooling and other stuff that sprung up around Electron... How large is that broader ecosystem?
 
 **Shelley Vohr:** Just in terms of the number of apps that are using it, or...?
 
@@ -326,7 +326,7 @@ I know that you have open source maintainer burnout is a big issue in our commun
 
 **Jeremy Apthorp:** I can go first... I’m sure Shelley has thoughts on this as well. I think being paid for it makes a huge difference, and I think there's a lot of flack that gets thrown at projects that are maintained by people doing it in their spare time or doing it as a passion project.
 
-\[00:48:06.27\] Part of what you do when you do that is like, “I’m building this thing because I want to use it and love it", and it can be super demotivating to see that people can really focus on the negative aspects of that.
+\[48:06\] Part of what you do when you do that is like, “I’m building this thing because I want to use it and love it", and it can be super demotivating to see that people can really focus on the negative aspects of that.
 
 But for me, working at Slack, I’m surrounded by people who depend on the app that I enabled to exist with the work that I’m doing... So I’m surrounded by people who are thinking positively about that, and I’m getting a salary for it, which is definitely not…
 
@@ -344,7 +344,7 @@ And then also I really love, definitely -- probably one of my favorite parts of 
 
 So I think Electron does a fantastic job -- not that I’m biased, but a fantastic job of building a community that’s really open to everyone... Which certainly is not to say that we’re "Mission accomplished", this sort of thing. It’s something that is not like a medal that you put on your coat and you say, “We did it!” It’s something that we do actively every day and every person in the community is involved in, and it’s something that we’ll continue to do, and I’m really happy to be a part of a community that puts such an emphasis on those aspects.
 
-**Shelley Vohr:** \[00:51:56.00\] Yeah, I agree pretty strongly with that, in the sense that I really love the things we’ve been able to do so far, but at the same time I’m pretty excited to keep iterating on, for example, the way that we label good first issues, and the way that we make ourselves available to less experienced programmers who might want to contribute to an Electron issue, or write a feature and might not know how.
+**Shelley Vohr:** \[51:56\] Yeah, I agree pretty strongly with that, in the sense that I really love the things we’ve been able to do so far, but at the same time I’m pretty excited to keep iterating on, for example, the way that we label good first issues, and the way that we make ourselves available to less experienced programmers who might want to contribute to an Electron issue, or write a feature and might not know how.
 
 **Jeremy Apthorp:** Yeah, absolutely.
 
@@ -362,7 +362,7 @@ So I think Electron does a fantastic job -- not that I’m biased, but a fantast
 
 I think a huge part of the value of that is seeing people’s faces and being like, “Oh, you work on this thing, I saw your name on that issue... How is it going? I now know who you are as a person, as well as a name on GitHub.”
 
-\[00:55:56.09\] But as a part of that summit, we came up with collaboratively the things that we’re all collectively most concerned about or most excited about, and one of the biggest things that I think we had the most conversation about was keeping up-to-date with Chrome.
+\[55:56\] But as a part of that summit, we came up with collaboratively the things that we’re all collectively most concerned about or most excited about, and one of the biggest things that I think we had the most conversation about was keeping up-to-date with Chrome.
 
 Electron 3, the beta version of Electron 3 is on Chrome version 66, which I think is already three versions behind Chrome proper. So there’s a lot of stuff that we’ve been talking about - how can we improve our velocity on that and how can we stay up-to-date with Chrome and stay current... Which is a tricky thing, because Chrome is kind of a moving target.
 
@@ -376,7 +376,7 @@ If something changed in Chrome, like build flag changed, then we would have to f
 
 So that’s some ongoing work, but there’s also things around CI, and running Chrome’s tests as much of them as we can from our build of Electron, upstreaming things, like Shelley said; if we can upstream the patches that we need inside of -- we have a bunch of patches to Chromium, as well as patches to Node, so if we can upstream those, that will reduce the maintenance burden on us.
 
-\[00:58:43.08\] Things like introducing some modularity... For example, some of our less commonly used features are things like PDF display or printing, and if we could flag those off, that means that somebody who’s working on updating to a new version of Chromium doesn’t have to fix all of the build errors in that particular module straight away; they can get the base stuff working, and then somebody who’s an expert in one of those particular features – like PDF or off-screen rendering – can come in in parallel and fix the errors or whatever needs to be fixed in that particular module... So using a technical tool there to introduce parallelism on a people level.
+\[58:43\] Things like introducing some modularity... For example, some of our less commonly used features are things like PDF display or printing, and if we could flag those off, that means that somebody who’s working on updating to a new version of Chromium doesn’t have to fix all of the build errors in that particular module straight away; they can get the base stuff working, and then somebody who’s an expert in one of those particular features – like PDF or off-screen rendering – can come in in parallel and fix the errors or whatever needs to be fixed in that particular module... So using a technical tool there to introduce parallelism on a people level.
 
 So those are some things that we’re thinking about for staying up-to-date with Chrome. The other things that we talked about... That’s one of the ones that I know the most about, so that’s what I will blubber on about, but we also talked a lot about the relationship between Electron and the web platform, and progressive web apps, and how can we build a smooth path in between Electron and PWAs.
 

@@ -44,7 +44,7 @@ It's a big subject, and joining me to discuss it today, we're welcoming back the
 
 **Mat Ryer:** Fair enough. Well, so I was thinking about that - hosting Heroku, and stuff... I use App Engine quite a lot, and you can do these things quite easily hosting static sites, but it's when the sites can't be static - that's when things get more interesting. What's the experience so far on the panel of people building things for web in Go? Any thoughts?
 
-**Mark Bates:** \[00:04:15.05\] That's a loaded question...
+**Mark Bates:** \[04:15\] That's a loaded question...
 
 **Aaron Schlesinger:** Yeah...
 
@@ -82,7 +82,7 @@ I think we just need to understand as a community that there are a lot of great 
 
 **Mark Bates:** There are very few times where I use the built-in stuff. I use it if it's a couple endpoints and nothing too dramatically complex. If I wanna start getting into HTTP verbs, and kind of more advanced routing, then I absolutely just jump straight to gorilla/mux.
 
-**Mat Ryer:** \[00:08:07.02\] Yeah, agreed. I'm the same, actually. Even if it's a couple of verbs, I might have a switch case in there, or just something...
+**Mat Ryer:** \[08:07\] Yeah, agreed. I'm the same, actually. Even if it's a couple of verbs, I might have a switch case in there, or just something...
 
 **Mark Bates:** Right.
 
@@ -114,7 +114,7 @@ I think we just need to understand as a community that there are a lot of great 
 
 **Mark Bates:** Yeah, all that usually falls off the contexts. It's interesting - when things like Echo were doing that context pattern a long time ago when they first came out, they got a lot of grief because they weren't following the kind of response writer, request handler pattern. But now that Go is all about the context... I don't feel as though it's an odd pattern anymore.
 
-\[00:12:08.17\] I mean, I suppose you could do context and then response request, but I think at that point you're splitting hairs. As long as you have access to the original request and response, like Aaron said, I think that's kind of the nice balance of both worlds there.
+\[12:08\] I mean, I suppose you could do context and then response request, but I think at that point you're splitting hairs. As long as you have access to the original request and response, like Aaron said, I think that's kind of the nice balance of both worlds there.
 
 **Mat Ryer:** They also both respect the context interface as well, from the actual standard library, right?
 
@@ -136,7 +136,7 @@ I think we just need to understand as a community that there are a lot of great 
 
 **Johnny Boursiquot:** Yes, you definitely have to tell us about that, but... You know, when I came to it -- I remember you and I having a conversation; actually, we were on a train down to New York, to GothamGo, or something like that... And we were talking about this dogma that we have around web application development. It's like "Well, there's a lot of great ideas that came from the Rails world", because we both had done that, so we were saying "Why isn't this-- there are shortcuts, there are well-known patterns that make you productive as a developer. Why are we so against that in the Go community?" That feeling - I'm sensing a little bit less of it, but I think it's still there for a lot of folks, and perhaps you know some of those folks and where that thing is coming from.
 
-**Mark Bates:** \[00:16:03.11\] Well, I think I understand where it came from a lot, and I get it, and I can understand why it's changing now, thankfully. When we first jumped into Go, you and I were fairly earlyish adopters... Certainly before the first GopherCon. So it's been a while now. First of all, actually, let me jump back even further and just say that Rails fundamentally changed the way web development works, period. I feel very confident in saying that. Anybody who did web development prior to 2005 knows what I'm talking about. It changed the playing field entirely on how we build web applications, and how we look at them and view them, and I think in a very positive way.
+**Mark Bates:** \[16:03\] Well, I think I understand where it came from a lot, and I get it, and I can understand why it's changing now, thankfully. When we first jumped into Go, you and I were fairly earlyish adopters... Certainly before the first GopherCon. So it's been a while now. First of all, actually, let me jump back even further and just say that Rails fundamentally changed the way web development works, period. I feel very confident in saying that. Anybody who did web development prior to 2005 knows what I'm talking about. It changed the playing field entirely on how we build web applications, and how we look at them and view them, and I think in a very positive way.
 
 But I think what happened was -- and I know myself, I hit this too in the Rails world, and others hit it in other worlds, and it's an inevitable kind of thing, and people are gonna hit it in Go too, and they're gonna hit it with Buffalo, and that's fine... You hit that point where you're working against the framework now; your application has grown too big, or the things you wanna do don't necessarily fit it. We've all been there - most of us have anyway - in our previous lives with that.
 
@@ -160,7 +160,7 @@ But in the case of web development, in that scenario I think it's okay to bring 
 
 **Aaron Schlesinger:** I was gonna say the same thing... \[laughs\]
 
-**Mat Ryer:** \[00:19:20.20\]
+**Mat Ryer:** \[19:20\]
 
 **Mark Bates:** We're uniform! We've got GoBuffalo.io, and @gobuffalo\_io on Twitter, and GoBuffalo on Github, and... Whatever. That's enough name-dropping.
 
@@ -170,7 +170,7 @@ But in the case of web development, in that scenario I think it's okay to bring 
 
 **Mat Ryer:** Sorry, Johnny. What were you saying? \[laughter\]
 
-**Johnny Boursiquot:** \[00:19:41.25\] It's fine, it's all good. So when you say that Buffalo is basically the Rails of Go, some people might wince at that. But I'm like, "Yeah...! Why not?" Because doing web development in Rails is super-easy. Once you get comfortable, or if you're familiar with Rails development, then coming into Go and saying that "Oh, there's something that works kind of like the same way. You get a faster, more performance server, but kind of the same idioms, same things that you're used to" - that's gonna make you a lot more productive a lot sooner if you're a Go adopter coming from those communities. So I think it's a good thing.
+**Johnny Boursiquot:** \[19:41\] It's fine, it's all good. So when you say that Buffalo is basically the Rails of Go, some people might wince at that. But I'm like, "Yeah...! Why not?" Because doing web development in Rails is super-easy. Once you get comfortable, or if you're familiar with Rails development, then coming into Go and saying that "Oh, there's something that works kind of like the same way. You get a faster, more performance server, but kind of the same idioms, same things that you're used to" - that's gonna make you a lot more productive a lot sooner if you're a Go adopter coming from those communities. So I think it's a good thing.
 
 **Mark Bates:** Yeah. And you know, we've been seeing a lot of that in the Slack channel, and on the issues, and stuff like that. We're seeing it as a great way people are coming into Go, and hopefully staying for the Go. Back in the early days of Ruby, and Rails -- well, early days of Rails, because Ruby had been around for like ten years prior to that, it was "You come for the Rails and you stay for the Ruby..." And that was true; Ruby is a very powerful, expressive language. For certain applications it's amazing. And you know, we're seeing anecdotal evidence that Buffalo is helping with that same kind of thing. People are coming into Go, they're seeing Buffalo, they're seeing that kind of Rails-like framework they're used to, and they're saying "Great, let me try to attack a problem I already know, put together a little weekend website for myself using this tool", and then they see the power you get with Go... And all the wonderful tooling, and concurrency, and all that wonderful stuff you get right out of the box with Go. We're seeing a lot of people coming into the language from that angle. That's obviously very rewarding for us.
 
@@ -190,7 +190,7 @@ But then, on the other side of the coin, it's like we've been saying just now - 
 
 **Mark Bates:** I think you're 100% right. If you try to go into a language and just copy over the thing that you're used to, it doesn't quite work. That's one of the things I always say when I'm teaching classes - you need to just kind of let go of the old ways of doing things from your previous language, and learn the Go ones.
 
-\[00:24:11.00\] But with that said, Buffalo has been going on now for 2,5, almost 3 years, and again, it was extracted from a project I was working on before that... So there's still a lot of stuff in there that I look at and I say "Oh, wow, that's not very idiomatic", or "That could definitely be more Go-ish", simply because you learn over time, and you're growing... And of course, we get a lot of first-time contributors to the project, but they're also first time to Go, and there's a learning curve (like you said, Aaron) to understand these idioms and patterns.
+\[24:11\] But with that said, Buffalo has been going on now for 2,5, almost 3 years, and again, it was extracted from a project I was working on before that... So there's still a lot of stuff in there that I look at and I say "Oh, wow, that's not very idiomatic", or "That could definitely be more Go-ish", simply because you learn over time, and you're growing... And of course, we get a lot of first-time contributors to the project, but they're also first time to Go, and there's a learning curve (like you said, Aaron) to understand these idioms and patterns.
 
 So there's definitely a long way to go with tools like Buffalo, and Echo, and a lot of them. We're all still learning as a community... Like I said, context came out of nowhere a while ago, in 1.7, and that was a fundamental shift in the way we think about all of our Go applications. Now modules are kind of there, and obviously Aaron you know about modules, and everybody who follows me on Twitter knows how I feel about modules... We're trying to learn all over again that new world, right?
 
@@ -226,7 +226,7 @@ There's Bgo as well, that I've heard some good things about... There's Iris, the
 
 I think all the other ones you've mentioned are great, but I really don't think Iris actually deserves to be discussed as a serious contender, because of the actions of its maintainer. But that's just me.
 
-**Johnny Boursiquot:** \[00:28:15.29\] Okay. I mean, hey, everybody definitely -- if you wanna look into that and understand why Mark and other folks in the community feel that way, definitely do that. I think this touches on a good point as well - when we talk about the Go community, it's not just the source code. You kind of have to be a decent human being as well. So if you're not a good human, or you're mistreating others, or you're doing some of the things that Mark just mentioned, if you're a bad actor within the Go community, it doesn't matter how great your tag is; you have to be a good citizen within the ecosystem in order to thrive in it.
+**Johnny Boursiquot:** \[28:15\] Okay. I mean, hey, everybody definitely -- if you wanna look into that and understand why Mark and other folks in the community feel that way, definitely do that. I think this touches on a good point as well - when we talk about the Go community, it's not just the source code. You kind of have to be a decent human being as well. So if you're not a good human, or you're mistreating others, or you're doing some of the things that Mark just mentioned, if you're a bad actor within the Go community, it doesn't matter how great your tag is; you have to be a good citizen within the ecosystem in order to thrive in it.
 
 **Mark Bates:** Yeah. Absolutely. Moving on past that - Johnny, you brought up Martini, and stuff... I don't think we can talk about web development without talking about codegangsta, for just a quick minute - Jeremy Saenz. For those of you who aren't familiar with him -- I know Aaron and Mat do know who he is...
 
@@ -244,7 +244,7 @@ He also wrote Negroni, which was the middleware software... He wrote a tool call
 
 **Mark Bates:** One of the things that we did in the Buffalo project - we wrote a little tool that does it, and you'll see it in all the repos - is a shoulders.md file. What that literally does - it's a tool that goes through and finds all of the dependencies in your application and it generates a markdown file with links to the GoDoc for all of them... Because we are proud to showcase these packages. We can't build Buffalo by hand for every piece of it... But you also have to recognize those people; you can't just use it and not give back to them.
 
-**Aaron Schlesinger:** \[00:32:15.00\] We just used your shoulders tool, Mark, in Athens... And I was astounded to see how long that list was, of all of the big bulb giants. It was just like "Wow... All of this stuff is out there." It's just really cool to see how much goes into writing a web app.
+**Aaron Schlesinger:** \[32:15\] We just used your shoulders tool, Mark, in Athens... And I was astounded to see how long that list was, of all of the big bulb giants. It was just like "Wow... All of this stuff is out there." It's just really cool to see how much goes into writing a web app.
 
 **Mat Ryer:** I was surprised to find out that the shoulders tool that you've just mentioned a moment ago actually contains stolen code. \[laughter\]
 
@@ -306,7 +306,7 @@ So in about less than a minute I can have a CRUDed version of a book's applicati
 
 **Mat Ryer:** And then everything looked prettier.
 
-**Break:** \[00:36:28.09\]
+**Break:** \[36:28\]
 
 **Aaron Schlesinger:** Can we pause and can we talk about the database stuff in Buffalo, and how just freakin' cool it is?
 
@@ -342,7 +342,7 @@ So in about less than a minute I can have a CRUDed version of a book's applicati
 
 No, there are tons of other -- there are definitely others... There's like Goose, and Migrate, and a few other tools out there that preceded Pop and Fizz... But the problem that I personally ran into that they couldn't solve for me was, again, the project that Buffalo stemmed from, I needed multiple database support, and I needed multiple SQL files. I needed a way to migrate all of those.
 
-\[00:39:57.25\] And if you've ever tried to write SQL that works on SQLite, MySQL and Postgres, like DDL SQL in particular... Good luck. You can't. You can't write one that works, so either you have to manage three files, which means you have to have changes for each one, or if statements, or something... And that's where all of that came out of - "Let's try to figure out some sort of common DSL like Active Record does, so I can write the migrations once, and then just run them against the different databases on the client side." I think that was definitely one of the biggest wins to come out of this project.
+\[39:57\] And if you've ever tried to write SQL that works on SQLite, MySQL and Postgres, like DDL SQL in particular... Good luck. You can't. You can't write one that works, so either you have to manage three files, which means you have to have changes for each one, or if statements, or something... And that's where all of that came out of - "Let's try to figure out some sort of common DSL like Active Record does, so I can write the migrations once, and then just run them against the different databases on the client side." I think that was definitely one of the biggest wins to come out of this project.
 
 **Aaron Schlesinger:** I wanted to mention another framework that I learned about and played with a bunch in the last year or so called Goa.
 
@@ -380,7 +380,7 @@ From a storytelling point of view, I always like to still handcraft the API... B
 
 **Aaron Schlesinger:** The code that's generated for the server, the HTTP REST API code for the server looks pretty good. I would make a couple of tweaks here and there for sort of the average API... But it looks decent. Passable, I would say. But then, if you go over to the gRPC side, it's a mess. In my opinion it's a mess, and I think it's more because of the gRPC server package than Goa itself. It's kind of trying to dance around the oddities of the gRPC package that gets imported.
 
-\[00:44:07.08\] But it's like you said, you're locked into the decisions that Goa made for how they're gonna design their server, and in essence, the code that you have to fill in on the server side... But I'll take that over handwriting stuff, pretty much.
+\[44:07\] But it's like you said, you're locked into the decisions that Goa made for how they're gonna design their server, and in essence, the code that you have to fill in on the server side... But I'll take that over handwriting stuff, pretty much.
 
 **Mat Ryer:** If that's what you want. If it fits, then there's nothing better, absolutely. It's just for the times when it doesn't quite fit, or if you wanna do just a small tweak, then you get stuck, and that's where the pain comes. But like you say, it's a trade-off, and it depends what you care about. You're right about that gRPC stuff - it is very weird what gets generated. It's code, but it's not very readable, it's not very user-friendly, in my opinion. But that's kind of the attitude when you generate code - the attitude is "A human is not gonna look at this. It's gonna get generated just before we then compile, so it doesn't matter." But remember, we do all go through projects, read code... We like to sit and read it, and see what it's doing.
 
@@ -406,7 +406,7 @@ But the code generation part is hard. It's hard on a lot of levels. One, because
 
 **Mat Ryer:** There's a Printer package. You actually have a printer that you give it the AST and it'll print it. And that's basically gofmt.
 
-**Aaron Schlesinger:** \[00:47:57.27\] Yeah... I'd be interested to see what it's like, I suppose, to generate code actually using Go to build up the syntax tree, and then passing it through that printer function.
+**Aaron Schlesinger:** \[47:57\] Yeah... I'd be interested to see what it's like, I suppose, to generate code actually using Go to build up the syntax tree, and then passing it through that printer function.
 
 **Mark Bates:** It's a decent amount of work if you're going to build it all from scratch. Take my word for it on that.
 
@@ -438,7 +438,7 @@ So I agree, Mat, I think there's a place for a really nice tool that breaks down
 
 **Mark Bates:** Yeah. A lot of the secret sauce behind the Go Buffalo packages is that; we're doing all sorts of stuff about just inspecting the environment, and inspecting the folder, and inspecting your app, and trying to guess all this information... So for us, I can tell you that if we had one package where we could just say "Hey, give us everything" - wow, that would make the stuff we could do with Buffalo so much more powerful.
 
-**Break:** \[00:52:10.21\]
+**Break:** \[52:10\]
 
 **Mat Ryer:** Back to web... What about WASM?
 
@@ -458,7 +458,7 @@ So I agree, Mat, I think there's a place for a really nice tool that breaks down
 
 **Aaron Schlesinger:** Maybe more something like gorilla/mux. Yeah, maybe a gorilla/mux type of thing, where it's not prescribing everything you have to do to get your app running, but it has sort of guide rails for "Here is where you should be writing Go to get something done, and here is how you should be interfacing your Go over to the JavaScript and HTML and everything in the front-end land." Because really right now we've got -- again, we've got this standard library, the syscall/js library... I've seen some cool stuff built on top of that, that does look like frameworky kind of stuff, but it's sort of unclear to me still when I open up my IDE and I get ready to start writing that web app - it's kind of like, I don't really know what to do, besides start playing around with syscall/js, because nothing jumps out at me yet.
 
-**Mat Ryer:** \[00:55:38.20\] Yeah, that syscall/js thing is essentially a meta language really for JavaScript. I think that's what we need to fix. I think that's the big outstanding problem with this... Because for example, you have to write "document.call" and then pass a string, which is the method you want to call, and then pass in arguments, and things. And there's some good reasons for why that's the case... But there's gotta be enough commonly-used stuff in the browser, or even the published browser APIs, that we could implement directly in proper Go, that we could then use; so we could just say "document. " and then there's a function in that package called getElementByID, and then it returns an element, a strongly-typed thing.
+**Mat Ryer:** \[55:38\] Yeah, that syscall/js thing is essentially a meta language really for JavaScript. I think that's what we need to fix. I think that's the big outstanding problem with this... Because for example, you have to write "document.call" and then pass a string, which is the method you want to call, and then pass in arguments, and things. And there's some good reasons for why that's the case... But there's gotta be enough commonly-used stuff in the browser, or even the published browser APIs, that we could implement directly in proper Go, that we could then use; so we could just say "document. " and then there's a function in that package called getElementByID, and then it returns an element, a strongly-typed thing.
 
 It's tough, obviously, because JavaScript is a dynamic language and Go isn't, so you have figure that out, reconcile that... But apart from that, I think that's the big problem that needs to be solved.
 
@@ -498,7 +498,7 @@ And then the same thing with Go. I think Go still needs to figure out how better
 
 **Mat Ryer:** So why is that?
 
-**Mark Bates:** \[00:59:45.08\] A bunch of reasons. One, we were obviously waiting -- Google App Engine support was always a big thing for us; we wanted to make sure that we could support that, because it's a big platform now. Obviously, that has changed; they've opened up a lot, so obviously we can do that. But also, we're still growing and we're still trying to figure this thing out. We're not at 1.0 yet, and I know we're not at 1.0 yet because there's still a lot to do, there's still a lot of work, and I know that changes will have to be made because of that. Some of them will be big, breaking changes, and some of them will be small and minor changes... And that's okay, and hopefully they'll be able to stick with us...
+**Mark Bates:** \[59:45\] A bunch of reasons. One, we were obviously waiting -- Google App Engine support was always a big thing for us; we wanted to make sure that we could support that, because it's a big platform now. Obviously, that has changed; they've opened up a lot, so obviously we can do that. But also, we're still growing and we're still trying to figure this thing out. We're not at 1.0 yet, and I know we're not at 1.0 yet because there's still a lot to do, there's still a lot of work, and I know that changes will have to be made because of that. Some of them will be big, breaking changes, and some of them will be small and minor changes... And that's okay, and hopefully they'll be able to stick with us...
 
 When we get to 1.0, I want that to be solid. I don't wanna race there. I talked to Steve Francia a while back about Hugo, and he said "There's a reason why we're still at 0.53", or whatever it was at the time. And the reason is it's a big commitment to go to 1.0. And again, I don't think the project is there yet, and I think there's a lot of ways we can go, and a lot of ideas that I have, and improvements to be had... And I just hope that the community can step up and help us get to that faster.
 

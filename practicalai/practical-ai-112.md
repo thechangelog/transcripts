@@ -8,7 +8,7 @@ My name is Chris Benson. I am a principal emerging technology strategist with Lo
 
 **Daniel Whitenack:** Yeah, in the intros to a few episodes I mentioned that I was building an AI workstation, and actually ended up -- so I have a few computers sitting around me; one of those is that workstation I was mentioning. Another one is -- we can talk about that one as well, actually... But yeah, it's been a bit of an interesting journey, and I think at least new-wise maybe some people are thinking about this these days, but NVIDIA's latest release with their 30 Series GPUs... Actually, even today I was talking to someone who was trying to get their hands on one, and there's none anywhere.
 
-\[00:04:07.28\] So this is November 10th as we're recording this, of 2020, and I forget when they release those. I think it was in maybe September... But they've been pretty scarce. And I think what happened is the -- so there were the lower-tier ones, I think primarily geared towards gamers... And those basically sold out instantly. And so then the ones -- I think the 3090, the higher-tier ones, that were geared towards AI training, and stuff... The gamers then just started going to those, and basically everything sold out for anyone.
+\[04:07\] So this is November 10th as we're recording this, of 2020, and I forget when they release those. I think it was in maybe September... But they've been pretty scarce. And I think what happened is the -- so there were the lower-tier ones, I think primarily geared towards gamers... And those basically sold out instantly. And so then the ones -- I think the 3090, the higher-tier ones, that were geared towards AI training, and stuff... The gamers then just started going to those, and basically everything sold out for anyone.
 
 This morning I was on a call with the guy and he was like -- we were taking the call while he had Best Buy pulled up, and he was getting notifications when they would release some on Best Buy... But he never got one, so he went into the thing and pushed the Add to Cart; then they make you wait, and then by the time their waiting in the queue was done, then your cart opens and it's sold out and no longer available. It was kind of a vicious cycle like that.
 
@@ -36,7 +36,7 @@ So I really haven't done much other than connect from my laptop to those machine
 
 **Daniel Whitenack:** Yeah, this is not really AI or computer -- well, I guess it's computer-related, but... So I SSH into either one of these machines... Or actually, on the workstation sometimes I SSH in and just run jobs, and sometimes I'll connect through a Jupyter server. The other machine I can SSH in, or actually even just connect a monitor and work on it directly...
 
-\[00:07:53.05\] We have Comcast Xfinity internet here, and just like the home internet network, I have the Xfinity router, so just the one that comes from the ISP... I guess they assume that most people aren't gonna be wanting to connect in that way... At my wife's business - she owns a manufacturing business, and when I'm there and I wanna connect back home to my AI machine, then I have to open up a port in our home network, and then do this port-forwarding thing, and all of that is kind of difficult in the Xfinity firmware that's on that router.
+\[07:53\] We have Comcast Xfinity internet here, and just like the home internet network, I have the Xfinity router, so just the one that comes from the ISP... I guess they assume that most people aren't gonna be wanting to connect in that way... At my wife's business - she owns a manufacturing business, and when I'm there and I wanna connect back home to my AI machine, then I have to open up a port in our home network, and then do this port-forwarding thing, and all of that is kind of difficult in the Xfinity firmware that's on that router.
 
 Our listeners may also remember that I installed a new network at my wife's business, which has some really great network appliances, and Ubiquity gear... So I'm thinking actually of taking both of these machines and maybe just putting them in the IT closet at her work... And then whenever I need to connect, just SSH into that network and find the computers. I think that's actually the better solution. That's the workflow things that I mention in terms of connecting to them.
 
@@ -56,7 +56,7 @@ Our listeners may also remember that I installed a new network at my wife's busi
 
 **Daniel Whitenack:** Yup, exactly. There's no reason why you couldn't use it in that way, but also, if you're doing -- if you're using this workstation primarily for those types of workloads, like training workloads and that sort of thing, if you're pulling up a monitor and you have 17 Chrome tabs up, and it's eating away at the memory. You also have the GPUs then potentially supporting various graphics operations... Not that it's consuming a lot in terms of the same amount that training consumes, but it's just not optimized. So yeah, there's really not anything running on there other than those few things that I mention.
 
-**Chris Benson:** \[00:11:53.23\] Gotcha. So what was your motivation for doing it this way? Because we have talked, and anyone who's listened to a number of our episodes - prior to you doing this we were talking for a while about really focusing on... You know, we have all three major cloud providers out there, with all these services... I remember us having conversations going "Ah, why do it elsewhere?" and stuff. Clearly, you had a change of heart somewhere along the way... So what was it that motivated you to do this?
+**Chris Benson:** \[11:53\] Gotcha. So what was your motivation for doing it this way? Because we have talked, and anyone who's listened to a number of our episodes - prior to you doing this we were talking for a while about really focusing on... You know, we have all three major cloud providers out there, with all these services... I remember us having conversations going "Ah, why do it elsewhere?" and stuff. Clearly, you had a change of heart somewhere along the way... So what was it that motivated you to do this?
 
 **Daniel Whitenack:** I think there were a few things. It wasn't any one particular thing. The first, which is not really practical in any way, is just because my brother-in-law was building a new gaming computer, and I was kind of watching him do that, and we were talking about it... And I kind of realized that back in college would have been the last time I built a personal computer of any kind... And I used to do that fairly frequently, especially since I was in -- I worked as an IT person at my college, so I would do that frequently, or dig into guts of computers fairly frequently, and switch out parts, and whatever.
 
@@ -100,7 +100,7 @@ Our listeners may also remember that I installed a new network at my wife's busi
 
 **Daniel Whitenack:** Yeah, there's a breakeven point. I think when I did the research -- there are some really great, affordable... I mean, depending on your definition of affordable, but there are some cheaper, manageable solutions for using GPUs in the cloud. One of those was Paperspace, which I was using before for longer training runs... That's a really great system, that integrates with a lot of things now.
 
-\[00:15:55.29\] I think even Hugging Face transformers... I saw an article about an integration there. And that's easy to use. I like the design pattern there; they have integrated notebooks, and all of that... There's also Google Colab, and things like that, where you can even get free GPU usage...
+\[15:55\] I think even Hugging Face transformers... I saw an article about an integration there. And that's easy to use. I like the design pattern there; they have integrated notebooks, and all of that... There's also Google Colab, and things like that, where you can even get free GPU usage...
 
 **Chris Benson:** Yeah.
 
@@ -120,7 +120,7 @@ So there is a breakeven point, and I think -- I kind of calculated it out, a bit
 
 **Daniel Whitenack:** I think those were the two main things. I also knew that there were a couple other people coming onto our team that would need this sort of resource... So when I'm not running things, it could also benefit others on the team that needed GPU resources, and were either gonna pay for those or get their own machines.
 
-**Break:** \[00:18:11.22\]
+**Break:** \[18:11\]
 
 **Chris Benson:** Okay, so now that we've talked about why you chose to do it, let's actually get into the machine itself for a bit, and let's talk about what you've built.
 
@@ -130,7 +130,7 @@ So there is a breakeven point, and I think -- I kind of calculated it out, a bit
 
 **Daniel Whitenack:** Yeah, sure. So I'm actually going to - while we're talking, I'm gonna pull up a couple links where I started my research... Originally, when I was looking at this I was like "Do I really want to roll my own workstation, and get all the parts and do all that? Or just get a really cool workstation, that is still gonna be really cool and sit by my desk, but isn't gonna require all of that work?"
 
-\[00:19:52.06\] So I started looking at places like Lambda Labs, or System76. They have these pre-built deep learning workstations with 4-8 GPUs, different configurations... And I really liked the look of those and what you could do with them, but when I started calculating out the costs, it was gonna be pushing $10,000 to $12,000, which - rightfully so; they need to make profit on those, and there is a significant amount of work in terms of fabrication of what they're putting together, and the design in that, and making sure it's maintainable, and all that... But I was looking at definitely a lower price tag than that, in terms of what I could accommodate...
+\[19:52\] So I started looking at places like Lambda Labs, or System76. They have these pre-built deep learning workstations with 4-8 GPUs, different configurations... And I really liked the look of those and what you could do with them, but when I started calculating out the costs, it was gonna be pushing $10,000 to $12,000, which - rightfully so; they need to make profit on those, and there is a significant amount of work in terms of fabrication of what they're putting together, and the design in that, and making sure it's maintainable, and all that... But I was looking at definitely a lower price tag than that, in terms of what I could accommodate...
 
 So I've found a couple of blog posts that appealed to me right out of the bat. The first one of these was from a guy named Jeff Chen, who is out in California... I believe at the time he wrote the blog post he was at university, doing research. It's from 2019, and the title is "How to build the perfect deep learning computer AND save thousands of dollars", which is obviously very appealing to me.
 
@@ -156,7 +156,7 @@ But also, I wanted to get it expandable for the future, I guess... So start out 
 
 So a lot of times I find that it's most easy to just do single GPU training, but on a higher-tier GPU, than do multi-GPU trainings all with lower-tier GPUs, if that makes sense.
 
-**Chris Benson:** \[00:23:49.09\] Got it. So let me ask this - is it fair then to say that your training runs are... Since you have two GPUs, you're doing two concurrent training runs, versus doing a single one where you're using both of the GPUs there.
+**Chris Benson:** \[23:49\] Got it. So let me ask this - is it fair then to say that your training runs are... Since you have two GPUs, you're doing two concurrent training runs, versus doing a single one where you're using both of the GPUs there.
 
 **Daniel Whitenack:** Yup. So the second logic with this is that I knew that primarily on these speech projects I was working with a single other main developer on this work... And so my thought process with that was while I'm running something on GPU one, he can be running something on GPU two.
 
@@ -198,7 +198,7 @@ What I ended up doing was getting a motherboard which -- actually, this reminds 
 
 **Daniel Whitenack:** So that supported actually four. So I could run four, although it seems like a tight fit. I don't know if this is just me and my inexperience and not knowing that things are that tightly fitting... I could definitely fit four, I think, but right now I have two spaced out, so there's a slot in between the two that I have in there; there's actually a slot at the bottom... And then I have one in the next slot up, and then there's this empty slot, and then the final one. So they're actually spaced out a bit. If I were to put all four in there, now seeing that, they would be pretty tightly packed. So depending on ventilation stuff, that may be an issue.
 
-**Chris Benson:** \[00:28:17.05\] That's what I was gonna ask. Coming at it from someone who also does not do hardware and has not built a system in quite a while, but having previously put NVIDIA cards in that had big fans, and things like that - when you talk about slotting it in, is that including those ventilation capabilities, or is that without that?
+**Chris Benson:** \[28:17\] That's what I was gonna ask. Coming at it from someone who also does not do hardware and has not built a system in quite a while, but having previously put NVIDIA cards in that had big fans, and things like that - when you talk about slotting it in, is that including those ventilation capabilities, or is that without that?
 
 **Daniel Whitenack:** Yeah, so as I learned, there's a bunch of options here as well, and there's two main types of cards. There's actually a blower style card, which pulls in air from one side and actually shoots it through the card and out the back of the computer, and then there's another style, which people might see in pictures, where there's two or more fans on the bottom, and it just sort of blows down. It blows from top to down, and drives air away from the card.
 
@@ -220,7 +220,7 @@ Actually, this is one of my new moves as well, but I ordered case fans, and I th
 
 **Daniel Whitenack:** This is, in my understanding, the lanes of communication between your CPU and various other things that are connected to your motherboard, like your hard drives, or other things. What's gonna happen is when you start adding GPUs, you're gonna start filling up those lanes. According to the Jeff Chen blog post, as a general rule - this is probably not true maybe across the board, but as a general rule you might think that each GPU requires at least eight of those PCIe lanes... And so what you have to do is you have to find a combination of CPU - because that determines some compatibility with the motherboard. So a combination of CPU, then a combination of motherboard that gives you enough PCIe lanes to support the number of GPUs that you need to support.
 
-\[00:31:59.13\] So there's a little bit of arithmetic there; nothing too complicated, but you have to be sure... Because some CPUs and motherboard combinations - the pairing will not support the needed number of PCIe lanes that you need to run those, and then also run... So I added a solid-state drive for my hard drive, and actually on my desk I have a second one, because I already filled it up... That's one item on my "Didn't do it right" list.
+\[31:59\] So there's a little bit of arithmetic there; nothing too complicated, but you have to be sure... Because some CPUs and motherboard combinations - the pairing will not support the needed number of PCIe lanes that you need to run those, and then also run... So I added a solid-state drive for my hard drive, and actually on my desk I have a second one, because I already filled it up... That's one item on my "Didn't do it right" list.
 
 **Chris Benson:** We'll get to that in a few minutes.
 
@@ -242,7 +242,7 @@ There was some study I've found -- I actually probably couldn't find it again...
 
 **Chris Benson:** Now that you've kind of talked about these components, and you started to tell us a little bit about some of the things that you've learned and might change as you've gotten some education, kind of go back through and what would you do different -- you've already started on that line, but I'm kind of curious... There's a big learning process that you had to go through this, and neither one of us are hardware people, so what do you know now that you didn't know before?
 
-**Daniel Whitenack:** \[00:35:55.11\] Yeah, so there's a couple of things. Probably the funniest thing is my case doesn't close... \[laughter\]
+**Daniel Whitenack:** \[35:55\] Yeah, so there's a couple of things. Probably the funniest thing is my case doesn't close... \[laughter\]
 
 **Chris Benson:** Does that affect the airflow then, and the cooling?
 
@@ -266,7 +266,7 @@ But I mentioned this other machine that I've been running, which - I actually re
 
 **Daniel Whitenack:** Inference, but also pre-processing. CPU - I'm doing all my pre-processing on this machine too, and pre-processing is also part of that CPU workload that you have to consider. And I use Intel's OpenVINO toolkit to optimize the models for running on Intel CPUs. So if all of that was in a single workstation -- like, I had the Intel CPU and the motherboard, and I could do the pre-processing, I could do the model optimization, all of that together, rather than swapping back and forth, or doing that in separate places. I think just the saving in terms of my workflow would be useful.
 
-\[00:40:09.11\] So that may be one thing to keep in mind - those other pieces of your workflow, like optimizing your model for certain hardware, or pre-processing as well. Those are things that you need to think about. Those are equally valid things to think about when you're designing a system.
+\[40:09\] So that may be one thing to keep in mind - those other pieces of your workflow, like optimizing your model for certain hardware, or pre-processing as well. Those are things that you need to think about. Those are equally valid things to think about when you're designing a system.
 
 **Chris Benson:** So just as an aside, since you were kind of touching on it for a second... If you look at what your existing workflow is from beginning to end and the choices that you've made, what are each of the big pieces? What frameworks are you using, and all that? ...just to throw it out there, so that people can get a context for it.
 
@@ -282,7 +282,7 @@ And then after that, in the products we're building we have a custom way of bund
 
 **Chris Benson:** Earlier when we were talking about motivations and you talked about the breakeven there, you kind of figured out what made sense, but obviously, when you made the choice and you're not going with cloud because of the breakeven in that case, what are you thinking in terms of your upgrade? Because we've talked about being able to fill in with more GPUs and enhance the capability of the box, but what about over time, as GPUs start to age - what's your thinking there that makes that a good choice from your standpoint?
 
-**Daniel Whitenack:** \[00:43:32.15\] Yeah, right now I have no choice there, because I can't get my hands on any more GPUs, because they've all ceased to exist on the face of any website on the internet... So I can't get my hands on any. But I think right now we're in a pretty comfortable spot in terms of the workloads that we're running... However, we're ramping up some of the work on these prototypes that we've built. I'm guessing if those catch on and are productized a little bit more, then we'll have a need for an interesting new workflow which is a bit more automated.
+**Daniel Whitenack:** \[43:32\] Yeah, right now I have no choice there, because I can't get my hands on any more GPUs, because they've all ceased to exist on the face of any website on the internet... So I can't get my hands on any. But I think right now we're in a pretty comfortable spot in terms of the workloads that we're running... However, we're ramping up some of the work on these prototypes that we've built. I'm guessing if those catch on and are productized a little bit more, then we'll have a need for an interesting new workflow which is a bit more automated.
 
 So right now, most of what we've been doing - on this machine at least - is prototyping work and preparing very custom deployments for very specific applications. In the end, we're going to build a bit more of an automated workflow. For example, one of the things we're doing is spoken language identification. So audio comes in, and then we detect what language is being spoken in that audio clip. So if for example in a certain application we want these four language instead of the six languages that we originally had in our model, we wanna be able in a very quick way to spin up a pipeline that would redo the training with different combinations of data. That's something that I think would be interesting...
 

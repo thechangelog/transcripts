@@ -48,7 +48,7 @@
 
 **Paul Tweddle:** The thing with Christopher Nolan is a lot of his movies - he has characters wearing masks and talking... Batman, obviously, Bane was a big issue in 2012... And the movie starts off with everyone wearing a gas mask; they take them off for a bit, and then they have to put them back on to go back into the past, and there's just so many scenes that are really badly mixed... And people are wearing gas masks as well, they purposely muffle the sound to make it sound like it's a gas mask... And yeah, it's really difficult writing the script. \[unintelligible 00:04:12.27\] just thinking "I have no idea what has just been said."
 
-**Adam Stacoviak:** \[00:04:17.18\] It's kind of frustrating as a moviegoer, with that kind of scenario.
+**Adam Stacoviak:** \[04:17\] It's kind of frustrating as a moviegoer, with that kind of scenario.
 
 **Jerod Santo:** Yeah, for sure.
 
@@ -90,7 +90,7 @@ But you know, I think that's probably the case... I didn't see the film in a the
 
 **Adam Stacoviak:** Okay.
 
-**Jerod Santo:** \[00:08:04.09\] It was very heavy, and dense, and I had to sit down and pay it close attention and read the subtitles. It was a long film. And we always watch movies at the end of the night, and so - I was not gonna make it through in a single sitting. So it was a couple of sittings. I've seen it one time; I've also since read a little bit more about it since then... But I'm definitely probably the outlier if we're gonna take a poll here amongst the four of us. Just once.
+**Jerod Santo:** \[08:04\] It was very heavy, and dense, and I had to sit down and pay it close attention and read the subtitles. It was a long film. And we always watch movies at the end of the night, and so - I was not gonna make it through in a single sitting. So it was a couple of sittings. I've seen it one time; I've also since read a little bit more about it since then... But I'm definitely probably the outlier if we're gonna take a poll here amongst the four of us. Just once.
 
 **Adam Stacoviak:** Brett, how about you? How many times did you watch it?
 
@@ -146,7 +146,7 @@ But you know, I think that's probably the case... I didn't see the film in a the
 
 **Adam Stacoviak:** ...which is really -- it really throws you as a first-watcher. This is my perspective, and this is why I like this film so much, because I really like to dig into certain films... There's just so many layers to it, if you desire to pursue them. If you're somebody who isn't that passionate about films, it makes sense to watch it once, or not fully once, in certain scenarios... Or in the case of Brett, having a father-in-law drag you back through it again and give you some questions to answer or ask on a podcast... It totally makes sense.
 
-\[00:12:00.20\] I think I've maybe watched it -- I wanna say double-digits potentially, but I think I'm similar, where it's like a background movie... And maybe less because -- I'm definitely not a movie reviewer; I'm just more of an enjoyer. I'd say at least -- fully watched it, like literally sat down and watched it end to end, I'd say maybe five times, for really watching it. But other times it's been a background movie; so maybe not quite double digits actually watching it.
+\[12:00\] I think I've maybe watched it -- I wanna say double-digits potentially, but I think I'm similar, where it's like a background movie... And maybe less because -- I'm definitely not a movie reviewer; I'm just more of an enjoyer. I'd say at least -- fully watched it, like literally sat down and watched it end to end, I'd say maybe five times, for really watching it. But other times it's been a background movie; so maybe not quite double digits actually watching it.
 
 Let's call that six, because I did watch it mostly last night as prep, to some degree, just to get reacclimated to a lot of the different things in the movie... Just to make sure "Hey, I watched that movie." And actually to go one layer deeper, because - Christopher Nolan... I went back and watched Memento, Inception... Not that you need to to grasp tenet, but I think I've become for sure a Christopher Nolan fan... And even Interstellar. Interstellar is a phenomenal film. The guy just makes really great movies, that I've always enjoyed. I've probably watched Interstellar way more than I watched Tenet. It's just the best... No so much best story-wise, but definitely best if you're imagining space and all the possibilities and the real science. There's also a book, The Science of Interstellar... I can't recall the physicist who wrote that book; I'll tell you in a second, unless somebody knows and can tell me.
 
@@ -186,7 +186,7 @@ Let's call that six, because I did watch it mostly last night as prep, to some d
 
 **Paul Tweddle:** There's so much evidence for it... Obviously Robert Pattison dyes his hair in the film. He has a different haircut. And that is very similar to Max, who is Kat's son. And it's very layered... There's so many different strands you can pull on. He speaks Estonian, and he also has a British accent, similar to Kat's... Obviously, if he had a father who was Estonian and a mother who was English, he would be bilingual... The name Maximilien, if you take the last four letters of it and reverse it, they spell Neil... When he first meets the protagonist, he says "Would you take a woman and child hostage?", which is obviously referring to Kat and Max, to see what kind of guy he is.
 
-\[00:16:23.05\] The protagonist at the end, he obviously goes off with Max and Kat... And this follows on from Neil saying that this is the start of a wonderful friendship... There's so many things... I wish I'd brought my notes, to be honest... But those are just the main ones off the top of my head, that he's kind of the right-hand man to the protagonist, which if the protagonist did start a relationship with Kat, her son would very much grow into that role, with having him as a father figure.
+\[16:23\] The protagonist at the end, he obviously goes off with Max and Kat... And this follows on from Neil saying that this is the start of a wonderful friendship... There's so many things... I wish I'd brought my notes, to be honest... But those are just the main ones off the top of my head, that he's kind of the right-hand man to the protagonist, which if the protagonist did start a relationship with Kat, her son would very much grow into that role, with having him as a father figure.
 
 **Adam Stacoviak:** The only challenge to that theory - and I don't disagree with it, because there's so much evidence for it - is just that Kat does not act like she knows Neil. I think you would know your son.
 
@@ -232,7 +232,7 @@ Let's call that six, because I did watch it mostly last night as prep, to some d
 
 **Brett Cannon:** So probably enough to have some personality quirks that you could theoretically pick up on, unless you're trying to cover your tracks to not screw things up with your past mom by trying to not act like yourself.
 
-**Paul Tweddle:** \[00:20:10.06\] I mean, she'd just been shot, and she was heavily drugged up as well, on the gurney, and he doesn't say goodbye to her before he sets off to the mission.
+**Paul Tweddle:** \[20:10\] I mean, she'd just been shot, and she was heavily drugged up as well, on the gurney, and he doesn't say goodbye to her before he sets off to the mission.
 
 **Brett Cannon:** He can also just be rude...
 
@@ -250,7 +250,7 @@ One thing that you'd mentioned in terms of the Neil plotline in terms of being M
 
 **Brett Cannon:** No, I just wanna know how do you know that it's officially the first meeting?
 
-**Adam Stacoviak:** \[00:23:53.22\] Well, I guess you don't know officially - and Paul, you can probably speak to this - but the reason why the theory exists that Neil is Max is because he asked the protagonist then "Would you hold a woman or a child hostage?" And so story-wise, that's when they first met. But they have a deeper relationship that goes into other factors of the timeline of their lives, because that's the first time they actually met -- that's been really challenging...
+**Adam Stacoviak:** \[23:53\] Well, I guess you don't know officially - and Paul, you can probably speak to this - but the reason why the theory exists that Neil is Max is because he asked the protagonist then "Would you hold a woman or a child hostage?" And so story-wise, that's when they first met. But they have a deeper relationship that goes into other factors of the timeline of their lives, because that's the first time they actually met -- that's been really challenging...
 
 **Paul Tweddle:** From the protagonist point of view, that's the first time they met. But Neil is basically moving backwards through that.
 
@@ -286,7 +286,7 @@ And Sator is getting messages from the future, and he's believing them because t
 
 **Paul Tweddle:** It just is a movie thing.
 
-**Adam Stacoviak:** \[00:27:49.26\] Right, exactly. Christopher likes to use real science, to some degree... I don't think inversion is possible. I think if it was, it'd probably be like this, except for there's certain actions a human would do I just would not wanna see inverted... But that's a different show.
+**Adam Stacoviak:** \[27:49\] Right, exactly. Christopher likes to use real science, to some degree... I don't think inversion is possible. I think if it was, it'd probably be like this, except for there's certain actions a human would do I just would not wanna see inverted... But that's a different show.
 
 You know, when you think about this - a scientist created this algorithm sometime in the distant future, and this entire plotline begins because they send a message back, essentially, to destroy this algorithm, because this algorithm is responsible for the end of the world... And they're saying it back essentially to dismiss it from the future. To erase it, essentially, by putting it in the past... Which sets off all this inversion, all this - for a lack of better words - time travel, which it's not really a time travel movie, it's more of a time movement movie. You move through time. You zig-zag through it, rather than actually travel... What do you think about that?
 
@@ -346,7 +346,7 @@ You know, when you think about this - a scientist created this algorithm sometim
 
 **Adam Stacoviak:** Right. In the notes I have a visual explanation of inversion for the folks listening to this. You'll see this in your show notes. But I saw this on -- what is his name...? His name is, I think, \[unintelligible 00:31:27.24\] Probably one of the best explanations visually of inversion. And while you can't hear the audio to this because it's just simply a still picture, it depicts two people's timeline, and if you watched this, you would see when they first meet, which is kind of like Neil and the protagonist, that their timelines sort of zig-zag through time. And vertically, you're at the same point. Left is past, right is future, so you can kind of see visually that the person on top - they actually die in the person's past, despite them zig-zagging and actually meeting a couple times. So they actually have a lot of history, despite him dying so early in the one person's point of view timeline.
 
-\[00:32:19.03\] It's really challenging to sort of like -- that's why I think this film is so interesting layers-wise, because of the way you can zig-zag through time; so much can happen. To explain one more visual point here - the bottom person's timeline. As you can see, they go all the way to the right, and you can see that one person on top, his timeline goes away - well, that's the point when he realizes his good friend passed away, and he searches and searches and searches for him; then one day he finds this Turnstile and zig-zags back through his own past, potentially to find this person, which he might eventually see them again... So it's just so interesting how you can zig-zag through time and use this as a story plot.
+\[32:19\] It's really challenging to sort of like -- that's why I think this film is so interesting layers-wise, because of the way you can zig-zag through time; so much can happen. To explain one more visual point here - the bottom person's timeline. As you can see, they go all the way to the right, and you can see that one person on top, his timeline goes away - well, that's the point when he realizes his good friend passed away, and he searches and searches and searches for him; then one day he finds this Turnstile and zig-zags back through his own past, potentially to find this person, which he might eventually see them again... So it's just so interesting how you can zig-zag through time and use this as a story plot.
 
 **Paul Tweddle:** Yeah.
 
@@ -378,7 +378,7 @@ You know, when you think about this - a scientist created this algorithm sometim
 
 **Paul Tweddle:** Yeah. Either way, he's being controlled by the future protagonist or the people from the future, or he gets his list of things to do, and what to do, and that's it. So he doesn't really have any actual knowledge or agency on how to control things; he just gets told what to do.
 
-**Brett Cannon:** \[00:35:57.18\] Yeah. He only knows what has been sent back to him, versus \[unintelligible 00:35:58.26\] understand the whole situation, and then travel back to try to deal with it. Sator never really does that back and forth beyond, it seems, this small snippet of time we see in the film, versus characters like Neil, who have done potentially vast amounts of time travel -- not time travel, but inversion to replay through these events to really have a full understanding of what occurred and what will occur and what has occurred... A much broader worldview of things that are occurring.
+**Brett Cannon:** \[35:57\] Yeah. He only knows what has been sent back to him, versus \[unintelligible 00:35:58.26\] understand the whole situation, and then travel back to try to deal with it. Sator never really does that back and forth beyond, it seems, this small snippet of time we see in the film, versus characters like Neil, who have done potentially vast amounts of time travel -- not time travel, but inversion to replay through these events to really have a full understanding of what occurred and what will occur and what has occurred... A much broader worldview of things that are occurring.
 
 **Adam Stacoviak:** While we're on the subject of Sator, I wanna mention this -- I guess Christopher Nolan's throwback to The Joker whenever they're about to go into the car chasing... That scene is actually one of the most interesting scenes; I've actually taken the film, put it into Adobe Premiere and inverted the film with sound too, so that I can have an inverted version of the film. I don't know if you've done this, Paul, or not... Let me know if you have. I had to, because that scene alone made me wanna watch it from different directions... And it's just super-challenging to watch the film that's going forward, backwards. So I actually made a backwards version of the film to kind of get that. That's the weirdo in me.
 
@@ -420,7 +420,7 @@ If you view it as one timeline, it makes sense. If you view it as one person, ba
 
 **Adam Stacoviak:** \[unintelligible 00:40:13.27\]
 
-**Brett Cannon:** \[00:40:17.09\] It's like you reverse-post. You usually go forward, write yourself a note, give it in the inversion post office, they go back and then deliver the note to you at the beginning. It's like, "Hey, by the way, this is what's about to happen to you. Watch out."
+**Brett Cannon:** \[40:17\] It's like you reverse-post. You usually go forward, write yourself a note, give it in the inversion post office, they go back and then deliver the note to you at the beginning. It's like, "Hey, by the way, this is what's about to happen to you. Watch out."
 
 **Paul Tweddle:** Yeah, exactly.
 
@@ -470,7 +470,7 @@ If you view it as one timeline, it makes sense. If you view it as one person, ba
 
 **Brett Cannon:** You think there's free will, and you think you're making a decision, and you fight so hard against it, and the thought that you're having about free will right now really isn't ocurring in terms of a choice of having that thought. It actually already was decided, and that's the head trip. The point that you're having a head trip is not because you chose to have that head trip; it was already pre-determined. It just happens to be the way the universe was pre-determined up front, based on physics, that you're gonna have this thought, and it's gonna happen to lead into you having this revelation and having your head hurt, and all that.
 
-\[00:44:10.07\] Same thing here - you might think you're trying to make these decisions to fight against it, but it was all pre-determined anyway that you were going to have this fight, and that's the way it was going to be, and it just happens to be that it was pre-determined you were gonna have these thoughts about trying to fight it, whether you could or not, and all that... It really was all just completely laid out, just stamped right on the ground. That's the timeline, that's all the events that are gonna occur, right?
+\[44:10\] Same thing here - you might think you're trying to make these decisions to fight against it, but it was all pre-determined anyway that you were going to have this fight, and that's the way it was going to be, and it just happens to be that it was pre-determined you were gonna have these thoughts about trying to fight it, whether you could or not, and all that... It really was all just completely laid out, just stamped right on the ground. That's the timeline, that's all the events that are gonna occur, right?
 
 **Paul Tweddle:** Yeah.
 
@@ -518,7 +518,7 @@ If you view it as one timeline, it makes sense. If you view it as one person, ba
 
 **Brett Cannon:** Yeah... Sorry, I didn't write the laws of physics.
 
-**Paul Tweddle:** \[00:48:00.08\] It's just the domino effect. You knocked down a domino, and with all the other pieces set up in place, it's just gonna carry on going. And if you had dominos that criss-cross and interact with each other on different lines, that's basically humans interacting.
+**Paul Tweddle:** \[48:00\] It's just the domino effect. You knocked down a domino, and with all the other pieces set up in place, it's just gonna carry on going. And if you had dominos that criss-cross and interact with each other on different lines, that's basically humans interacting.
 
 **Jerod Santo:** So while we're talking humans, I'm gonna soften this conversation a little bit... Why do we never learn the protagonist's name? And as a follow-up to that, why is his character not super fleshed out? He seems to me to be maybe the least interesting person in the movie.
 
@@ -562,7 +562,7 @@ So you know, if there are people from the future working in the past, and they k
 
 **Brett Cannon:** I think this is when you start to hear about the reviews where it feels kind of like rushed, or not quite as fleshed out of a film as other Nolan films especially... As Paul just said, you just don't develop the main character \[unintelligible 00:51:58.22\] most of the time. So it feels really odd as you're kind of just suddenly thrown into the whole thing of "Oh, I'm now in a wind turbine, and now I'm suddenly doing this thing", and there's not a lot of discussion of who this person is, and all this... You're just following along, because -- once again, as Paul said, it's really a heist film with weird time, and that's really the focus of this whole thing. Not the people.
 
-**Adam Stacoviak:** \[00:52:23.01\] Yeah. Even the initial scenario at the -- I believe they call them freeports, at the airport. Even that initial scenario, all the planning for -- which we haven't even mentioned this gigantic plane from an orchestration standpoint of the film... Instead of doing CGI, they actually bought the plane. They bought a plane. It was cheaper to buy the plane and crash a real plane into a building than it was to do CGI... So software has to get better, I guess... Because that's what it is, essentially - CGI is very costly. Maybe it's the people, maybe it's the software... I don't know what it is. But either way.
+**Adam Stacoviak:** \[52:23\] Yeah. Even the initial scenario at the -- I believe they call them freeports, at the airport. Even that initial scenario, all the planning for -- which we haven't even mentioned this gigantic plane from an orchestration standpoint of the film... Instead of doing CGI, they actually bought the plane. They bought a plane. It was cheaper to buy the plane and crash a real plane into a building than it was to do CGI... So software has to get better, I guess... Because that's what it is, essentially - CGI is very costly. Maybe it's the people, maybe it's the software... I don't know what it is. But either way.
 
 **Paul Tweddle:** Yeah. But they're going about in the movie how the environment is destroyed in the future, and then the destroying of a big plane, instead of just doing it on a computer.
 
@@ -610,7 +610,7 @@ So you know, if there are people from the future working in the past, and they k
 
 **Paul Tweddle:** But that's because the security at the freeport is that elaborate. If it was just a shop with a safe in the back, they wouldn't be crashing a plane.
 
-**Adam Stacoviak:** \[00:55:43.27\] He'd just met this person though. He'd just met Kat, and he feels compelled enough to do that kind of elaborate of a scheme, despite what he does or doesn't know yet about Tenet. From a watcher's point of view - and I think this is, one, love of film, sure, but then as an empathizer of those who probably would love the movie if they could just get past a certain few things before even watching it, which is why I think my perspective is that you should watch this movie... Your probably need to watch it several times; at least twice...
+**Adam Stacoviak:** \[55:43\] He'd just met this person though. He'd just met Kat, and he feels compelled enough to do that kind of elaborate of a scheme, despite what he does or doesn't know yet about Tenet. From a watcher's point of view - and I think this is, one, love of film, sure, but then as an empathizer of those who probably would love the movie if they could just get past a certain few things before even watching it, which is why I think my perspective is that you should watch this movie... Your probably need to watch it several times; at least twice...
 
 **Paul Tweddle:** Yeah, definitely.
 
@@ -700,7 +700,7 @@ So you know, if there are people from the future working in the past, and they k
 
 **Brett Cannon:** But it's interesting though --
 
-**Jerod Santo:** \[00:59:57.11\] Because of the charisma. That's the thing that's lacking from the protagonist, is Bond charisma and interest. There's none of that.
+**Jerod Santo:** \[59:57\] Because of the charisma. That's the thing that's lacking from the protagonist, is Bond charisma and interest. There's none of that.
 
 **Brett Cannon:** The other thing though is it does solve the problem of that feeling of like you're missing half of an opening act... Because if it's Bond, you already have the back-story. You don't need it.
 

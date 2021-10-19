@@ -14,7 +14,7 @@ Frankly, I think this notion of being a founder was less an obvious path. I thin
 
 **Adam Stacoviak:** Yeah. And just to clarify, you said 2013, but I think you meant 2003...
 
-**Mike McDerment:** \[00:04:14.28\] Oh... \[laughs\] My bad. Hopefully, people can switch context there. Absolutely, I meant 2003. Yeah, that was the moment we got started, and it wasn't really a company for a little while, yet.
+**Mike McDerment:** \[04:14\] Oh... \[laughs\] My bad. Hopefully, people can switch context there. Absolutely, I meant 2003. Yeah, that was the moment we got started, and it wasn't really a company for a little while, yet.
 
 **Adam Stacoviak:** So let's talk about maybe that path then, the early days. I don't want you to go through your entire history, I'd like to focus on some things that you're doing now as a CEO... Because I think Mike today versus Mike in 2003, or even 2010, when we last spoke on a different podcast that I ran, called The Web 2.0 Show - that interview is still out there; we'll link it up in the show notes, and you can go back and listen to how terrible I sounded, and maybe how amazing you sounded, I don't know... We'll find out.
 
@@ -36,7 +36,7 @@ I think those were two of the big, fundamental changes from a technology standpo
 
 **Adam Stacoviak:** Well, let's compare and contrast then, for the listeners' sake... I wanna get into this rewrite/competitor you built in a bit, so kind of dovetail into that if you'd like, but compare and contrast the technologies that you built the classic FreshBooks on, and the things you're using today... Like, are you using open source? Are you in the cloud? You don't have to go too deep into that, but just the tech... Give me kind of a bird's eye view of today versus then.
 
-**Mike McDerment:** \[00:08:17.26\] Yeah. So we've always been open source, just LAMP stack being a thing... It's just that they were seriously under-developed at that point in time. Today we're a single-page app, with Ember hosted Google cloud... I think those are some of the big pieces. And then you have all these tools available to you, whether it's things like Datadog or whatever to monitor application performance, or all the tooling...
+**Mike McDerment:** \[08:17\] Yeah. So we've always been open source, just LAMP stack being a thing... It's just that they were seriously under-developed at that point in time. Today we're a single-page app, with Ember hosted Google cloud... I think those are some of the big pieces. And then you have all these tools available to you, whether it's things like Datadog or whatever to monitor application performance, or all the tooling...
 
 **Adam Stacoviak:** Observability, monitoring, stuff like that.
 
@@ -50,7 +50,7 @@ Effectively, where we got to was -- you can talk about the age of some of the te
 
 But one of the places we were stuck is the architecture of our application when we started out was just not clean, so we had a lot of back-end, or almost middleware (if you want) logic baked in with our front-end. So if I think about the root cause for what we decided to do, which was to fully replatform, it was really because "Hey, we believe consumer expectations have changed so much - because of mobile, because of other advances - that if we want to win long-term, we're not gonna be able to refactor our way to greatness."
 
-\[00:10:46\] So we started out and said "Okay, if user experience matters, ease of use and simplicity, we have won on that today, but it will be harder and harder for us to win and win again, and win long-term, if we don't do something radical design-wise. Let's design those designs at where it would be... And then, you know, can we get from here to there?" And the short answer was "Not really." So we decided to replatform... And in so doing, it opened up a whole series of other problems for us.
+\[10:46\] So we started out and said "Okay, if user experience matters, ease of use and simplicity, we have won on that today, but it will be harder and harder for us to win and win again, and win long-term, if we don't do something radical design-wise. Let's design those designs at where it would be... And then, you know, can we get from here to there?" And the short answer was "Not really." So we decided to replatform... And in so doing, it opened up a whole series of other problems for us.
 
 Questions when you replatform - if you read Joel Spolsky, or what have you - the number one strategic mistake you can make as a software company is "You just don't do it. You're bound to fail."
 
@@ -60,7 +60,7 @@ Questions when you replatform - if you read Joel Spolsky, or what have you - the
 
 My favorite ones are maybe less obvious and more business-oriented, but you could build another version of your offering, and it could fundamentally perform worse from a business standpoint, and you wouldn't even know. What happens is inside the building -- you're building a new platform, and your team is falling in love with doing the new thing... But that doesn't mean it's better, or more business-performant. And that should be the reason you're doing this stuff. Technology, as much as we all love it, is a means to an end, and if you're making the necessary investments to make the platform, the thing better perform better. So you wouldn't know that for sure...
 
-\[00:12:14.18\] Then there's the good old "Hey, your competitors are still moving, while you're standing still, replatforming." That's not good. They're catching up if you've got a lead. Okay, that's bad, because it's probably gonna be a multi-year thing if you're relatively established... We're number two in America for small business accounting software, so it's hard to do that...
+\[12:14\] Then there's the good old "Hey, your competitors are still moving, while you're standing still, replatforming." That's not good. They're catching up if you've got a lead. Okay, that's bad, because it's probably gonna be a multi-year thing if you're relatively established... We're number two in America for small business accounting software, so it's hard to do that...
 
 And then finally, my favorite one - I like to call it a sophomore jinx, but I like to describe it this way... If you've ever had a band you love their first album, and you go buy the second one and you're ashamed to be a fan, because it's so bad...
 
@@ -84,7 +84,7 @@ We actually ran both platforms and let our customers choose when to move over, a
 
 So all this -- we tried to take this challenging thing that is usually a major trust-mitigating event and find a way to design the experiences so ideally it's trust-building or neutral. We had lots of people who were super-excited about the new FreshBooks. The vast majority. But we definitely had some people who were like "This is not what I had hoped." And that might have been two years ago. And now they'd be like "Oh, it's better than I imagined." This is the thing about software.
 
-\[00:16:12.07\] So I think not only was creating a new company novel and different, our approach to migrating customers from one platform to another - I've never heard of anyone else doing that before; also novel. I think the team, and for executing the complexity in those things, and conceiving of them, deserve a lot of credit.
+\[16:12\] So I think not only was creating a new company novel and different, our approach to migrating customers from one platform to another - I've never heard of anyone else doing that before; also novel. I think the team, and for executing the complexity in those things, and conceiving of them, deserve a lot of credit.
 
 **Adam Stacoviak:** Certainly it would take a lot of trust of a team in a leader like you to believe in that path and to put their neck on the line every single day, and come to work, and kill it, and do what you've done... So I guess the question hanging in my mind is "Is the new FreshBooks the same technology that you built with this competitor? Was it a one-to-one?" Did you essentially acquire that company? So you wanted to build it in secret, but in the public side at some point they do connect the dots, and you're here talking today, so it's not a secret... So how do you do that and then fold all this in in a way that remains trustworthy?
 
@@ -122,7 +122,7 @@ It took us a while to realize it could be that simple. That was a thing... And a
 
 **Mike McDerment:** I think that is the question, and I honestly don't know. The benefits and the trade-offs were so interesting and fascinating... I think for the team and the company and realizing what we're capable of, I wanna do it every day. But in terms of the cost and the time and what have you, it's like, "Man, could we find a way to refactor it?" \[laughs\]
 
-**Adam Stacoviak:** \[00:20:08.19\] How many years has it been into this transition? Because I'm a customer... So let's do full disclosure here - I'm actually a user of FreshBooks for a long time, using the classic version of it, and I know that you've had a non-classic version for at least a couple of years.
+**Adam Stacoviak:** \[20:08\] How many years has it been into this transition? Because I'm a customer... So let's do full disclosure here - I'm actually a user of FreshBooks for a long time, using the classic version of it, and I know that you've had a non-classic version for at least a couple of years.
 
 **Mike McDerment:** Yeah, that's right. And we would have started building that 18 months before that, so call it a solid 3,5 years.
 
@@ -162,11 +162,11 @@ So I built a team of those folks, and then started learning how to lead a little
 
 I mean, I think one of the hardest things for me has always been letting people make their mistakes. I'm sitting there, it's so obvious to me they're making a mistake, I just wanna give them the answer, but you've gotta let them go and do it. That has been one of the hardest lessons for me. And that's not to say I think I'm always hard, or anything like that. That's not the point. But when I know someone's heading down the wrong path... Back in the day I would never let them do it. I'd just be like, "No, we're doing this", whatever.
 
-\[00:23:59.19\] Ultimately, people don't build up and get to the same level of capability if you're sort of stealing that away from them. So that was poor leadership and management on a bunch of levels from me. That I think has been one of the hardest things.
+\[23:59\] Ultimately, people don't build up and get to the same level of capability if you're sort of stealing that away from them. So that was poor leadership and management on a bunch of levels from me. That I think has been one of the hardest things.
 
 And then, interestingly, I'm coming into a phase again now where it's like "Okay, things are operating at a scale...", I brought in a better half, who's like a president, to drive the next growth period of the business... And I actually need to go back to almost those earlier days, and tinkering and bringing some of that kind of thinking into the business... So I'm working on longer-term, squishier things now, around brand, and things of that nature, which I'm very well-suited to do, but are decidedly less operational; they still require a measure of leadership, but the focus is very different. Far more intangible, nothing urgent, but all highly important, as opposed to a lot of years where everything is urgent and important. So that's kind of a little window into my life these days.
 
-**Break:** \[00:25:09.17\]
+**Break:** \[25:09\]
 
 **Adam Stacoviak:** The next question for you, I guess, dove-tailing off of that, is how do you keep up as a leader? Where do you get your skills? Do you read books, do you have a coach? How do you keep yourself sharp? Is it just bloodied knuckles? Are you a lone ranger? Give us your personality type.
 
@@ -188,7 +188,7 @@ I do like other forms of books, and I like reading in general, but mostly I'm re
 
 Then the final thing is just surrounding myself with -- and I think where most of the stuff I've gotten in the last few years has been frankly the management team members I hire, who are all more expert... I cannot do their job. But that's not my job. My job is to build the team, and to point the company in the right direction, understanding the market, and the customer, make sure the bank accounts is full... I can do those things. But they operate their functional areas, and they're great with people leadership, people management, so there's some learning there.
 
-\[00:32:12.06\] And then the final thing I layer on top of that is I now do these things -- we have a weekly thing called Shorthands; we offer everybody lunch and we give them recent updates of the company.
+\[32:12\] And then the final thing I layer on top of that is I now do these things -- we have a weekly thing called Shorthands; we offer everybody lunch and we give them recent updates of the company.
 
 And not every time, but most of the time I'll do a thing called "Mike's Musing", which is I literally talk about something I've learned about leadership. That act of having to explain it to somebody else helps to reinforce how much -- it turns out I've actually learned a bunch... But the act of consciously saying, "hey I saw something", they're always inspired by some manager or leader I'd been talking with in the last 72 hours, and then I just take this lesson, and I don't refer to that individual or anything like that, but I just say "Hey, here's how I'd handle this. Let's build our collective leadership capacity." I think those are the things on that journey that I've been down.
 
@@ -208,7 +208,7 @@ But the point is, I actually have some big, meaty, interesting challenges inside
 
 The individual in question has been fantastically successful, and they like to lean in the 0 to 18-month timeframe, and I lean 18-month plus... So we're together, on the same page with each other's files, but we don't need to go to the same meetings. In the same meeting, we bring a different area of focus. He might be called a COO in other businesses. I think this individual brings a lot more to bear than most COOs would... So it's a great partnership, from my point of view.
 
-\[00:36:01.05\] It actually is quite liberating, because it's like "Okay, you run the results in the operations, and I'm gonna run the future. We'll do both together", but that's where the emphasis lies, and kind of more the accountabilities, and that's fine.
+\[36:01\] It actually is quite liberating, because it's like "Okay, you run the results in the operations, and I'm gonna run the future. We'll do both together", but that's where the emphasis lies, and kind of more the accountabilities, and that's fine.
 
 **Adam Stacoviak:** I guess the reason why I brought that back up in that capacity was to say that you began as the original founder, the visionary, and you've had to graduate yourself out of this role of everyday doing, and more leading and building the team, as you'd mentioned - you mentioned you couldn't do their job etc. - to now being in a position where you can free yourself up again to get back into the details. So I asked you about your motivation etc, and I guess that leads me to this question of like -- you know, if that's the case, if you're now able to get back into some of these bigger challenges you mentioned, that are still in the office, what's the next big thing for you? What's the next big thing for FreshBooks?
 

@@ -14,7 +14,7 @@ As a student, I kind of came into the understanding that life isn't the same, no
 
 From that talk, one champion in one place at my school, someone invited me to go to San Francisco and talk. That's where talk kind of evolved; that was maybe over a year ago. So then I just kept going, because I have a mantra as a student - my mantra is there's three rules.
 
-**Jerod Santo:** \[00:04:07.04\] I like this...
+**Jerod Santo:** \[04:07\] I like this...
 
 **Camille Eddy:** You say yes to every new opportunity, you don't do anything twice, and then you always make your accomplishments visible. So through that, I said yes to speaking in San Francisco, even though I'd never been in San Francisco; I was okay with that. And then I also make sure I keep changing... So now I'm at OSCON, which is just how it happened.
 
@@ -62,7 +62,7 @@ So I was able to push through that, I was a first NASA research student; I did u
 
 **Jerod Santo:** But they add up over time.
 
-**Camille Eddy:** \[00:07:58.24\] But it adds up over time. Yeah, adding up in a way -- there are other questions like "Where do you come from? What country are you from?" things that bother you, that they don't realize, and they also don't realize that it happens to me like ten times a day. So it's like, yeah, you might think you're the first one to ask me this, but I get this ALL the time. So just paying attention to little things that bother you and understanding my relation to that.
+**Camille Eddy:** \[07:58\] But it adds up over time. Yeah, adding up in a way -- there are other questions like "Where do you come from? What country are you from?" things that bother you, that they don't realize, and they also don't realize that it happens to me like ten times a day. So it's like, yeah, you might think you're the first one to ask me this, but I get this ALL the time. So just paying attention to little things that bother you and understanding my relation to that.
 
 Then when I came and did some internships out of the state I did find black people to be my mentors... And they helped me realize that I'm not the only one, I'm not crazy, and that there are other ways to encourage the conversation.
 
@@ -94,7 +94,7 @@ And it's not just the end user that needs to know this, it's also the developer.
 
 **Adam Stacoviak:** From an end user's perspective, I can say that I can trust AI more if I know the transparency point of it. If I know why you're telling me this is important to me, that I can confirm whether that's true or not, and help it even shape its future recommendations for me... Because if it's inaccurate, I want it to know. So if everybody can somehow influence that -- are you advocating for that? Or how do we shape those kinds of biases inside if AI in that case?
 
-**Camille Eddy:** \[00:12:19.00\] Yeah, I think one of the things to think about is -- this conversation has been happening for a long time, it's just not coming into prevalence... And this is kind of what happens when you engineer products in a box, basically; when you engineer in one lab--
+**Camille Eddy:** \[12:19\] Yeah, I think one of the things to think about is -- this conversation has been happening for a long time, it's just not coming into prevalence... And this is kind of what happens when you engineer products in a box, basically; when you engineer in one lab--
 
 **Jerod Santo:** In a research lab.
 
@@ -124,7 +124,7 @@ Another version would be like when I go on my Twitter and I look at my Twitter a
 
 **Camille Eddy:** And then also the reflection that we haven't done it yet; we haven't done half of the work that's necessary yet. Not just to define the problem, but to create products, especially out-of-the-box products. They're not existing yet... Except for those couple of toolkits that I mentioned, that don't necessarily serve all of the ideas that I'm talking about, for Microsoft and Facebook... We haven't been talking about this in an actionable way long enough, and really, at the end of the day, I'm a mechanical engineer, right? I'm here to help dip people's toes in the water, and hopefully, as we start talking about it more, there's really cool books, like The Algorithms of Oppression, that really lays it out... It lays out that case use about why it would be helpful to your business model to do it. And then also just more conversations with people who are using it and not finding a great experience.
 
-**Jerod Santo:** \[00:16:30.04\] One great example - I got back to this all the time - is Instagram ads specifically, and the visceral reaction that Instagram users have had to those ads, so much so that people believe that Instagram/Facebook is listening to their conversations... Because the ads were getting good enough to where they will suggest something to you that you don't think you've google-searched, you don't think you've put into Amazon... You think you were just talking about it with your friend or your significant other, and all of a sudden they're advertising it to you, and you have no idea why...
+**Jerod Santo:** \[16:30\] One great example - I got back to this all the time - is Instagram ads specifically, and the visceral reaction that Instagram users have had to those ads, so much so that people believe that Instagram/Facebook is listening to their conversations... Because the ads were getting good enough to where they will suggest something to you that you don't think you've google-searched, you don't think you've put into Amazon... You think you were just talking about it with your friend or your significant other, and all of a sudden they're advertising it to you, and you have no idea why...
 
 So people are convinced that Facebook is listening to them, like actually turning on their microphone. In fact, there was a great Reply All episode all about that, about whether or not it's actually happening... And it's not. They're not doing that. But they're applying AI and different other fuzzy techniques in order to make their ads so good - they're getting very well targeted - that it creeps you out because you don't know how they came to that distinction.
 
@@ -164,7 +164,7 @@ Now, if I go to Instagram's head of marketing and say "Your ads are actually mak
 
 **Camille Eddy:** Yeah, I think Facebook has a big recommender engine. That stuff is definitely proprietary. That's why we can't see it. That's part of the problem, that's the wall there... It's proprietary, we can't tell you, we don't wanna tell you, and therefore you don't have the levers. If it was built on a more open source platform, then we probably would be able to go in there and finagle with it.
 
-\[00:20:11.27\] In that case, we have to switch it, make it inside out, and say "Hey, now we really do want these." Make the business case to the people; holler, scream, shout, pull hair, do all those things.
+\[20:11\] In that case, we have to switch it, make it inside out, and say "Hey, now we really do want these." Make the business case to the people; holler, scream, shout, pull hair, do all those things.
 
 **Jerod Santo:** Open source for the win.
 
@@ -212,7 +212,7 @@ And then also just learning more... Right now I'm working on autonomous cars, wh
 
 **Adam Stacoviak:** Pleasure.
 
-**Break:** \[00:24:01.23\]
+**Break:** \[24:01\]
 
 **Adam Stacoviak:** So Jerome, you do some pretty cool stuff for veterans, man.
 
@@ -238,7 +238,7 @@ And then also just learning more... Right now I'm working on autonomous cars, wh
 
 **Jerome Hardaway:** Yes, we don't charge veterans a dime. It's all about finding the veterans that have the most promise. Usually, the average veteran that comes to our program - they're stuck, they have been trying to learn how to code, they've hit a brick wall... Like there's so much stuff on the internet and you don't know which direction to go, and that's our job.
 
-\[00:28:18.28\] We not only point them in the right directions, we provide a curriculum for them to go through. As they get more advanced, we supply a mentor, and these are the processes that we do; then we start helping them with the process of prepping for a job. We help them with interview prep, resume, looking at your portfolio, looking at your GitHub, looking at your LinkedIn, looking at how you present yourself when it comes to your resume - all of these things that come into play, and we make sure that everybody who's telling you advice, they've walked that road.
+\[28:18\] We not only point them in the right directions, we provide a curriculum for them to go through. As they get more advanced, we supply a mentor, and these are the processes that we do; then we start helping them with the process of prepping for a job. We help them with interview prep, resume, looking at your portfolio, looking at your GitHub, looking at your LinkedIn, looking at how you present yourself when it comes to your resume - all of these things that come into play, and we make sure that everybody who's telling you advice, they've walked that road.
 
 I'm at CBSI. Our primary CTO - he is at USAA, and then we have our CDO who's at USA Today. These guys - we're all people at big companies, so we take that time -- you know, this is what you need to do, this is what we're seeing, this is how we would change... You know, keeping that feedback loop open.
 
@@ -268,7 +268,7 @@ Then after that we have a technical interview; another person, that way there is
 
 **Jerome Hardaway:** As a person who is in the military, box, and does programming, I box in my spare time to release stress, so...
 
-**Jerod Santo:** \[00:31:56.04\] You see the parallels.
+**Jerod Santo:** \[31:56\] You see the parallels.
 
 **Jerome Hardaway:** I see the parallels all the time. You have to be hungry, you have to want it, you have to show up every day. There's never a day or a time where you're like "I've achieved it all", because there's always somebody right behind you who's gonna know just as much as you.
 
@@ -312,7 +312,7 @@ Secondly, everything that we do in the military these days are a lot of procedur
 
 There are people that I know today that four years ago I was in awe of. I've turned my heroes into my peers. That is cray. \[laughter\] You can't put a price on that type of experience. That's what helps me get up at 04:30 in the morning, and start focusing on making myself a better person.
 
-**Jerod Santo:** \[00:35:52.13\] Yeah. "Embrace the suck" reminds me of a saying -- a distinction that I've heard lots of times is like there's good suck and there's bad suck. This is the good suck, and that's the one you have to embrace... Like "Yeah, this is hard, this is harsh, this sucks", but you know what's at the end of the road is good. There's all that stuff that sucked that's like, just get that out of your life.
+**Jerod Santo:** \[35:52\] Yeah. "Embrace the suck" reminds me of a saying -- a distinction that I've heard lots of times is like there's good suck and there's bad suck. This is the good suck, and that's the one you have to embrace... Like "Yeah, this is hard, this is harsh, this sucks", but you know what's at the end of the road is good. There's all that stuff that sucked that's like, just get that out of your life.
 
 **Jerome Hardaway:** And that's the strength of military life. If you were ever deployed, if you've ever heard like "Hurry up and wait", you've been in that world where you're waiting for six hours, and then somebody comes out like "Hey, we've gotta hurry up and knock this out." I'm like "Really?" We have to move in 15 minutes; we've gotta move 40 people in 15 minutes. We've been here six hours, they didn't say anything to us, but now in these 15 minutes we have to move everybody. Okay, that's cool... Embracing the suck; that's the military life. If you've ever been on deployment, you have to embrace the suck. It's like, it's 120 degrees out here and everybody hates us, but you know, we're gonna go home soon, so we're just gonna embrace the suck and move on.
 
@@ -396,7 +396,7 @@ They're in there with the pre-work, they're talking to other veterans... It's a 
 
 **Adam Stacoviak:** Don't waste my time.
 
-**Jerome Hardaway:** \[00:39:48.00\] People don't really like that style, but I'm doing this because I remember every day how hard it was with the transition... So I'm here to make your transition easy, so you don't have to go through what I went through.
+**Jerome Hardaway:** \[39:48\] People don't really like that style, but I'm doing this because I remember every day how hard it was with the transition... So I'm here to make your transition easy, so you don't have to go through what I went through.
 
 **Jerod Santo:** Alright. Was there somebody there for you?
 
@@ -436,7 +436,7 @@ That's another thing that programming has in common with boxing - you stop for a
 
 **Jerome Hardaway:** Thank you.
 
-**Break:** \[00:43:13.05\]
+**Break:** \[43:13\]
 
 **Jerod Santo:** Alright, so we're joined by Abby Cabunoc Mayes, Working Open, Practice Lead at the Mozilla Foundation... That's a mouthful.
 
@@ -500,7 +500,7 @@ That's another thing that programming has in common with boxing - you stop for a
 
 **Jerod Santo:** Right. It's key. It's P.
 
-**Adam Stacoviak:** \[00:47:56.05\] It's P.
+**Adam Stacoviak:** \[47:56\] It's P.
 
 **Jerod Santo:** Okay.
 
@@ -510,7 +510,7 @@ That's another thing that programming has in common with boxing - you stop for a
 
 **Abigail Cabunoc Mayes:** Yeah, so that's when I got really interested in open source, because my lab was really writing open source software for these researchers... But then open science, generally; I was like, "Yeah, this is really important." A lot of people are really scared about -- like, there's something wrong with the research system if a lot of people are just hiding their data.
 
-So then Mozilla Science started, so that's why I joined Mozilla. And since then, my role has shifted to be less about just open science - I still do quite a bit of open science - and about working open across \[00:48:26.28\]
+So then Mozilla Science started, so that's why I joined Mozilla. And since then, my role has shifted to be less about just open science - I still do quite a bit of open science - and about working open across \[48:26\]
 
 **Jerod Santo:** Tell us a little bit about Mozilla, because... You know, intellectually, I know Mozilla does a lot of stuff, but instinctively, I think Firefox, and then that's pretty much where my brain stops. So tell us - Mozilla Science is not a thing I've heard of... Tell us some of the other stuff Mozilla is into, and how your work affects everything.
 
@@ -564,7 +564,7 @@ So that's a broader view... It's different for each project, what that looks lik
 
 **Abigail Cabunoc Mayes:** Yeah, so this work started when I was a part of Mozilla Science, and what we are trying to do -- we just took a bunch of developers who were interested in science, and put them in touch with a bunch of scientists... But then we realized that scientists weren't great at working open; they'd have their project and they were like "Oh, I don't need you yet. Just wait..."
 
-**Jerod Santo:** \[00:52:08.00\] It's probably like cultural -- not clashes, but just differences.
+**Jerod Santo:** \[52:08\] It's probably like cultural -- not clashes, but just differences.
 
 **Abigail Cabunoc Mayes:** Yeah. So then I started writing these little guidebooks... It's like, "Here's how you can open your work a little bit, so that you can benefit from all these developers that want to help you, that care about science." Then we realized these guides are really helpful for just anyone running an open project, so we started doing that.
 
@@ -622,7 +622,7 @@ Also, my husband - at the time, he was running this startup accelerator in Toron
 
 **Adam Stacoviak:** When you say "advantage", it makes feel it's like a growth hack of some sort... Like, you're doing it as a hack to an alternative way, and somehow you're gonna get better benefits from -- as an advantage, so to speak... Can you speak to that? The advantages of being open, the growth hack part of it, like how you would be better off that way, the growth potential...
 
-**Abigail Cabunoc Mayes:** \[00:56:08.19\] Yeah. I think there's a lot of advantages to working open, but I think by working open and letting people see what you're doing, and inviting people to join in, you can -- well, with science, you get the best ideas, you get the best innovation that way, and it's not just one person trying to figure out how to solve this problem, but you have hundreds of people trying to solve it.
+**Abigail Cabunoc Mayes:** \[56:08\] Yeah. I think there's a lot of advantages to working open, but I think by working open and letting people see what you're doing, and inviting people to join in, you can -- well, with science, you get the best ideas, you get the best innovation that way, and it's not just one person trying to figure out how to solve this problem, but you have hundreds of people trying to solve it.
 
 **Jerod Santo:** Yeah, once you get de-facto trust, right?
 
@@ -648,7 +648,7 @@ We do a couple exercises around solidifying what you're doing and your messaging
 
 **Abigail Cabunoc Mayes:** Yeah, yeah.
 
-**Adam Stacoviak:** \[00:59:27.00\] You're also part of the Journal for Open Source - is that right?
+**Adam Stacoviak:** \[59:27\] You're also part of the Journal for Open Source - is that right?
 
 **Abigail Cabunoc Mayes:** Yeah, the Journal for Open Source Software.
 

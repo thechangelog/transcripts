@@ -50,7 +50,7 @@ What we do is we get a full backline, a full band that comes in, and they usuall
 
 **Jamal Yusuf:** If it&#39;s not already, it&#39;s gotta be soon.
 
-**Mark Bates:** [00:04:03.10] Yeah... I don&#39;t wanna say where it is for fear of Heather. [laughter]
+**Mark Bates:** \[04:03\] Yeah... I don&#39;t wanna say where it is for fear of Heather. [laughter]
 
 **Johnny Boursiquot:** She&#39;ll chase you down, really...
 
@@ -90,7 +90,7 @@ Everybody&#39;s gonna be in the hotel. The conference is in the Marriot. I think
 
 **Johnny Boursiquot:** Don&#39;t feel bad... They can just cross the street and get in there.
 
-**Mark Bates:** [00:07:49.18] No, no, I meant for the people in our hotel. [laughter] So you&#39;re gonna see people all the time. But the schedule - I&#39;m sure Johnny has some tips here in a second here; I&#39;m just gonna finish up my tip... The schedule is always a tough one - how do you watch the talks AND network? And how do you watch three talks simultaneously? So my advice always is -- most conferences do it, but GopherCon in particular does an amazing job of recording the talks. Just first-class. And they&#39;re all available and they&#39;re always up within about 2-3 weeks after the conference. It&#39;s ridiculously quick.
+**Mark Bates:** \[07:49\] No, no, I meant for the people in our hotel. [laughter] So you&#39;re gonna see people all the time. But the schedule - I&#39;m sure Johnny has some tips here in a second here; I&#39;m just gonna finish up my tip... The schedule is always a tough one - how do you watch the talks AND network? And how do you watch three talks simultaneously? So my advice always is -- most conferences do it, but GopherCon in particular does an amazing job of recording the talks. Just first-class. And they&#39;re all available and they&#39;re always up within about 2-3 weeks after the conference. It&#39;s ridiculously quick.
 
 So when you&#39;re looking at a schedule and you see, say, two talks that you&#39;re really interested in, my advice - I would go to the one that&#39;s less crowded. I&#39;d go to the &quot;less popular&quot; one. You&#39;ll get better seats, the speaker will really appreciate it if the room fills up with other people, you won&#39;t be standing, and a lot of times the fire marshals will come out and they&#39;ll kick people out if they&#39;re standing in the row, or sitting down, or stuff like that.
 
@@ -114,7 +114,7 @@ Again, the talks and the keynotes - all these things are recorded, and you can a
 
 Again, this kind of leads into my other point - if there are people that you know of online, and you&#39;re like &quot;Man, this person&#39;s always talking about Go. I&#39;d love to meet them&quot;, then actually go talk to them. There&#39;s this sort of fear that if you go talk to somebody who you consider to be popular in the Go community, or they&#39;re unapproachable - that couldn&#39;t be further from the truth. The Go community is absolutely very welcoming, and the people you know of that are a part of that community - they&#39;re also very nice people; they&#39;re welcoming and they enjoy actually talking to people and getting to know other people. So don&#39;t be afraid to actually talk to your heroes - I hate using that term, but don&#39;t be afraid to actually go and talk to these people, because they&#39;re people, too.
 
-[00:11:56.00] So absolutely take advantage of the networking time, and anytime you step out of the hallway, out of a session, or the main ballroom where usually they have the keynotes - you&#39;re gonna find people out there; you&#39;re gonna find sponsor booths as well, there&#39;s all these people hanging out there, trying to get the swag... Bring a bag.
+\[11:56\] So absolutely take advantage of the networking time, and anytime you step out of the hallway, out of a session, or the main ballroom where usually they have the keynotes - you&#39;re gonna find people out there; you&#39;re gonna find sponsor booths as well, there&#39;s all these people hanging out there, trying to get the swag... Bring a bag.
 
 **Mark Bates:** Bring a shopping bag. [laughter]
 
@@ -130,7 +130,7 @@ And by the way, Heather would kill me if it sounds like we&#39;re telling everyb
 
 So do it, it&#39;s worth it. The networking is 100% worth it. And Johnny is right - everybody in the community is super-approachable. No one will yell at you or brush you off, absolutely off. They might brush me off, but not you.
 
-# **Break:** [00:14:22.01]
+# **Break:** \[14:22\]
 
 **Jon Calhoun:** So for those of us who have never gone to a training session, can you guys talk a little bit more about why -- this year might be too late, obviously, but in the future, why they should consider them? Versus -- you know, there&#39;s all these different training options; you can hire people to come into your company, you can buy courses online... There&#39;s  a million different options, but training sessions always seem to sell out pretty quickly, or they seem to do very well... So what makes that in-person training session at like a GopherCon or something like that - who would you pitch that to?
 
@@ -152,7 +152,7 @@ You&#39;ve heard people say it before - if you wanna learn something really well
 
 **Mark Bates:** I have to echo everything Johnny has said, so  I won&#39;t go into that. But from the student&#39;s perspective, if you&#39;re already going to, say, a GopherCon, and spending a bit of money, why would you wanna spend an additional $300 or $400 or $500 -- I don&#39;t know what the tickets are... But every conference offers workshops; most conferences do, and they&#39;re all at different prices anyway... So why would you pay for the extra add-on? And I think Johnny is definitely correct when he says having a person there in front of you - you can&#39;t beat that value; you can&#39;t beat that. It&#39;s hands-down the best way, is to interact with another human being.
 
-[00:19:59.03] As somebody who runs a training company, that&#39;s what I do for a living - I go around and I train developers all around the world with Gopher Guides. We go into these corporate environments and they pay a lot of money to bring trainers on-site to do that. It&#39;s just what it is, that&#39;s just the way training and teaching works. Not every company can afford to do it; not every company can bring in dedicated people for three days, fly them to their office and do it. That&#39;s kind of Fortune 500 level companies.
+\[19:59\] As somebody who runs a training company, that&#39;s what I do for a living - I go around and I train developers all around the world with Gopher Guides. We go into these corporate environments and they pay a lot of money to bring trainers on-site to do that. It&#39;s just what it is, that&#39;s just the way training and teaching works. Not every company can afford to do it; not every company can bring in dedicated people for three days, fly them to their office and do it. That&#39;s kind of Fortune 500 level companies.
 
 But your startups - if you can get people to the conference, then that extra $200, $300 or $400 add-on can actually be quite valuable and be really worth it, where they can get the training for the three or four developers on their team at basically bargain rates... Because they really are. It&#39;s eight hours, but usually the conference workshops are pretty cheap in terms of the actual value you&#39;re getting per head... So yeah, I always think it&#39;s worth it.
 
@@ -178,7 +178,7 @@ Honestly, most of us are introverts. Most of us. And a few of us are ambivert - 
 
 So definitely pace yourself... It&#39;s hard to say &quot;Don&#39;t be overwhelmed&quot;, because that&#39;s sometimes outside of your control, but basically take it in in strides a little bit and give yourself permission to be overwhelmed... But then take a step back and if you need to step outside the conference venue to catch your breath or whatever it is, please, do it. I&#39;d rather you get the most out of it, keep your energy levels up and get the most out of the experience than sort of burning out... Because you actually could burn out in those 2-3 days if you&#39;re not careful.
 
-**Mark Bates:** [00:24:20.05] Oh yeah, it&#39;s tough. Again, I agree with Johnny. I often go back to my hotel room in the afternoon - usually in the afternoon break - for a couple hours and just sit in the dark watching something on Netflix for an hour... Just trying to recenter and refocus my energy again before I go back out and do it all over again. It&#39;s a lot. Have you ever been to any conferences before, Jamal?
+**Mark Bates:** \[24:20\] Oh yeah, it&#39;s tough. Again, I agree with Johnny. I often go back to my hotel room in the afternoon - usually in the afternoon break - for a couple hours and just sit in the dark watching something on Netflix for an hour... Just trying to recenter and refocus my energy again before I go back out and do it all over again. It&#39;s a lot. Have you ever been to any conferences before, Jamal?
 
 **Jamal Yusuf:** I have, but I&#39;m completely new to the entire gopher community. It&#39;s not my first conference, but I never thought I&#39;d be attending a GopherCon conference. And maybe just to speak on the perspective of somebody who&#39;s just coming into the community and seeing it, all the hard work you guys are putting in... The first thing is I&#39;m coming from a C++ background, and C++ conferences are not as fun, and there aren&#39;t as many opportunities... There&#39;s almost a rigid stance on things, and it&#39;s very hard to integrate and fall into that.
 
@@ -196,7 +196,7 @@ I talked to Bill a few times via Twitter, he&#39;s been amazing. Brian has  been
 
 One of the things was like -- I forgot that it&#39;s gonna be recorded. Now I&#39;m attending it, I&#39;m like &quot;Man, if I miss it, if I don&#39;t pick it up... It&#39;s different.&quot; But then I forget - it&#39;s gonna be uploaded two weeks later, and it&#39;s not the end of the world.
 
-**Mark Bates:** [00:28:00.16] Something like that, yeah. So let me ask you - are you gonna be around on the last day, the community day?
+**Mark Bates:** \[28:00\] Something like that, yeah. So let me ask you - are you gonna be around on the last day, the community day?
 
 **Jamal Yusuf:** I am. I have not signed up for any workshops yet. I&#39;ve got a partial scholarship, so I&#39;m still thinking about the benefits of attending. I know there&#39;s benefits, but cost-benefit, cost for the ticket to attend, and all that.
 
@@ -226,7 +226,7 @@ We actually had somebody from the core team approving PRs. Brad Fitzpatrick was 
 
 **Mark Bates:** Is it? Oh, we should probably look at the agenda. [laughter] We probably think we already know it all, yeah.
 
-**Jon Calhoun:** [00:31:57.28] Yeah, so it says from 10 AM to 12 PM they&#39;re doing the contributor workshop, and then later on in the day is when they&#39;re doing the fireside chat/panel, where they take questions and talk to the community about Go, and that sort of stuff.
+**Jon Calhoun:** \[31:57\] Yeah, so it says from 10 AM to 12 PM they&#39;re doing the contributor workshop, and then later on in the day is when they&#39;re doing the fireside chat/panel, where they take questions and talk to the community about Go, and that sort of stuff.
 
 **Johnny Boursiquot:** Right, right.
 
@@ -252,7 +252,7 @@ So I spent 30 minutes in the car with him asking him if he writes Go, too. [laug
 
 **Mark Bates:** Yeah. There will definitely be a lot of people... I&#39;m looking  at the Go team community room on the last day; like you said, there&#39;s a contributor workshop from 10 to 12, where you can learn how to contribute to Go directly.
 
-[00:35:52.23] Then at 1:30 to 3 there&#39;s Grow In Go, which is kind of like a fireside chat panel with the Go leadership and team, and then the closing... So it looks like there&#39;s a whole day where you can hang out with the team, talk to the team, get to know them... Again, like Johnny said, most of the team is gonna be there, plus a large contingent of community contributors to Go as well. There&#39;s usually a contributor summit that happens at the conference as well... So there&#39;ll be a lot of both core team and contributors just wandering the halls, all week, and you can absolutely chat to any of them. They will love to chat with you. I&#39;m just volunteering everybody.
+\[35:52\] Then at 1:30 to 3 there&#39;s Grow In Go, which is kind of like a fireside chat panel with the Go leadership and team, and then the closing... So it looks like there&#39;s a whole day where you can hang out with the team, talk to the team, get to know them... Again, like Johnny said, most of the team is gonna be there, plus a large contingent of community contributors to Go as well. There&#39;s usually a contributor summit that happens at the conference as well... So there&#39;ll be a lot of both core team and contributors just wandering the halls, all week, and you can absolutely chat to any of them. They will love to chat with you. I&#39;m just volunteering everybody.
 
 **Johnny Boursiquot:** [laughs]
 
@@ -266,7 +266,7 @@ So I spent 30 minutes in the car with him asking him if he writes Go, too. [laug
 
 **Johnny Boursiquot:** Nice, nice. Looking forward to seeing Tim.
 
-# **Break:** [00:37:03.25]
+# **Break:** \[37:03\]
 
 **Jon Calhoun:** So you were talking about community day, with the lightning talks. For anybody who&#39;s unfamiliar, can you tell them what&#39;s the difference between regular talks/lightning talks, and why they should care about one over the other? Not necessarily over the other, but you know... [laughter]
 
@@ -276,7 +276,7 @@ So the lightning talks  - again, for those of you who don&#39;t know, they&#39;r
 
 You usually get like Ramya Rao (sorry, Ramya)... She writes the Go plugin for VS Code. She usually gives a lightning talk every year, and she&#39;s giving one this year... So that&#39;s always a great place to hear what&#39;s upcoming for things like VS Code. I know Florin from JetBrains who works on the Goland IDE - he&#39;s also giving  a talk... So there&#39;s all these really just interesting talks from people from all around the world, with all just interesting perspectives.
 
-[00:40:13.04] Some of them are &quot;Hey, I wrote this cool thing. I just wanna show it.&quot; Some are &quot;This is my company. I just wanna show it.&quot; [laughter] Those are a little less interesting... And then some are just like &quot;I&#39;ve found this weird issue, this weird bug, this hack... Watch me do something terrible with Go, than you should never do...&quot; So there&#39;s always fun stuff there, and it&#39;s a fun day. And if you don&#39;t like the talk, there&#39;s a great chance that seven minutes later you might like the next one. So you&#39;re not sitting there for 45 minutes or half hour, just being like &quot;Oh my god, will this person stop talking...?&quot; You&#39;re there for 7 minutes.
+\[40:13\] Some of them are &quot;Hey, I wrote this cool thing. I just wanna show it.&quot; Some are &quot;This is my company. I just wanna show it.&quot; [laughter] Those are a little less interesting... And then some are just like &quot;I&#39;ve found this weird issue, this weird bug, this hack... Watch me do something terrible with Go, than you should never do...&quot; So there&#39;s always fun stuff there, and it&#39;s a fun day. And if you don&#39;t like the talk, there&#39;s a great chance that seven minutes later you might like the next one. So you&#39;re not sitting there for 45 minutes or half hour, just being like &quot;Oh my god, will this person stop talking...?&quot; You&#39;re there for 7 minutes.
 
 They&#39;re not all winners. They can&#39;t be, statistically... But there&#39;s plenty of diversity and interest there I think for everybody who wants to attend.
 
@@ -312,7 +312,7 @@ So if you wanna see the next Brad Fitzpatrick, or the next Johnny, or the next C
 
 **Mark Bates:** They absolutely are. That&#39;s why I love going to these things. I don&#39;t know it all, none of us do. I have learned about packages, and libraries, and tools, and just endless -- I don&#39;t have a CS degree, so whenever I&#39;m in big brain land with all these CS people, I just try to suck in as much as I possibly can from them, and learn what I don&#39;t know. We all have our areas of specialty. Jamal, I&#39;m sure you could tell us some stuff... For example, I have never done C++ a day in my life. I would be all thumbs. I couldn&#39;t even tell you how to compile it. So just because you&#39;re a newbie in Go doesn&#39;t mean you don&#39;t have anything to offer anybody else... And that&#39;s obviously not just for you, Jamal, but that&#39;s for everybody.
 
-[00:44:00.17] Just because you&#39;re new to the conference or the community doesn&#39;t mean you&#39;re not useful or welcome or have knowledge to offer. Thankfully, lightning talks, like you said, are a great way of helping people show that they can do that... But you should know that you can, and know that not all of us -- no one does, right? But even those of us who have been there since day one of the conferences, for example... I don&#39;t know. Ask me how the garbage collector works; I have no idea.
+\[44:00\] Just because you&#39;re new to the conference or the community doesn&#39;t mean you&#39;re not useful or welcome or have knowledge to offer. Thankfully, lightning talks, like you said, are a great way of helping people show that they can do that... But you should know that you can, and know that not all of us -- no one does, right? But even those of us who have been there since day one of the conferences, for example... I don&#39;t know. Ask me how the garbage collector works; I have no idea.
 
 **Johnny Boursiquot:** Yeah, we value outside perspective. Personally, I enjoy hearing about those stories. People are who coming to Go, or if sometimes they&#39;re coming to programming in general and Go happens to be their first language - I absolutely love these people, because I really get to shape and mold them, if you will... But you know, you have people who are coming from other programming languages, so they bring their own ideas and dealing with certain things, and sometimes you engage in a little debate with them. &quot;Well, I&#39;m used to doing things that way.&quot; &quot;Well, this is why we don&#39;t do this very thing that way in Go&quot;, kind of thing. So you get a chance to get some outside perspective. And a lot of times we&#39;re like &quot;Hey, that would be kind of cool in Go.&quot;
 
@@ -334,7 +334,7 @@ I remember going to my very first GopherCon. Actually, Mark was right there, sit
 
 Fast-forward a few years later, pretty much that&#39;s what we do now. We do Go full-time, and we are part of the Go community, and a lot of us basically have businesses that have sprouted out of being involved in the Go community... It&#39;s really an investment possibly in your future, and this is why I say &quot;Hey, when you go to the conference, don&#39;t forget to actually network.&quot; You&#39;re not just going for the content; you can watch the content later anyways. So don&#39;t forget to actually network and get to know people.
 
-**Mark Bates:** [00:48:13.08] Yeah. Like we talked about earlier, there&#39;s all sorts of events for that built in, like the welcome party, and community day, and all sorts of other stuff... But there are other events as well, aren&#39;t there, Johnny?
+**Mark Bates:** \[48:13\] Yeah. Like we talked about earlier, there&#39;s all sorts of events for that built in, like the welcome party, and community day, and all sorts of other stuff... But there are other events as well, aren&#39;t there, Johnny?
 
 **Johnny Boursiquot:** Yes. One of my favorites that&#39;s actually going to happen this year is the GoBridge reception. I think that&#39;s happening on Thursday evening. So if you are a person who&#39;s considered under-represented in the Go community, and/or have helped put together a GoBridge event or a workshop or a scholarship of some kind, we absolutely encourage you to come and participate. This is our way of saying &quot;Hey, we&#39;re part of this subgroup within the Go community that basically cares deeply about diversity and inclusion and really making the Go community welcome for people from under-represented groups.&quot; We&#39;d love to get together and talk shop, talk about &quot;Okay, this is the impact we&#39;re having. This is how we can make things better.&quot; Ideas come out of such events, so I absolutely encourage folks... Even if you&#39;ve never heard of GoBridge and wanna understand what it is and what it&#39;s about, and you think you can help, we absolutely would love to have you. It&#39;s absolutely something that I&#39;d highly recommend.
 
@@ -360,7 +360,7 @@ Then GoBridge, and Women Who Go... Heather says &quot;So many toys!&quot; There 
 
 So the GopherCon team really wants to help in any way they can, and obviously they need your help to help as well, so buy that swag. Support any of these community efforts, whether it be through GoBridge, or through GopherCon itself, because they care, and we care, and we should all care... I&#39;m sorry, that&#39;s my passionate little speech. I&#39;ll shy off to the corner now.
 
-**Jon Calhoun:** [00:51:51.14] Somebody had mentioned in Slack that I believe there&#39;s a pre-party meetup, but I don&#39;t know if -- is that before GopherCon entirely? I know that at a lot of conferences different local meetups will tend to try to have a meetup the day before the conference... So if you happen to be in the area early, look around for those.
+**Jon Calhoun:** \[51:51\] Somebody had mentioned in Slack that I believe there&#39;s a pre-party meetup, but I don&#39;t know if -- is that before GopherCon entirely? I know that at a lot of conferences different local meetups will tend to try to have a meetup the day before the conference... So if you happen to be in the area early, look around for those.
 
 **Mark Bates:** I think that&#39;s the San Diego Gophers, it looks like on Tuesday the 23rd... That&#39;s the day before the workshops. And I guess Cosmos is also hosting a sort of mixer party thing as well. Let&#39;s see... There are a couple of sponsors that are hosting, one Tuesday and one Wednesday. Wednesday is Cosmos. They&#39;re gonna be holding some sort of a mixer-mingly thing here. Then yeah, a meetup on Wednesday, and I don&#39;t know what the other one is, because Heather hasn&#39;t finished typing it to me yet.
 
@@ -412,7 +412,7 @@ Somebody who actually knows what would be more appropriate for you based on your
 
 **Johnny Boursiquot:** [laughs] Don&#39;t start with me.
 
-**Mark Bates:** [00:56:02.13] You know, have you ever met Victoria Boursiquot? She&#39;s lovely.
+**Mark Bates:** \[56:02\] You know, have you ever met Victoria Boursiquot? She&#39;s lovely.
 
 **Johnny Boursiquot:** [laughs]
 

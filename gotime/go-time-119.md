@@ -22,7 +22,7 @@
 
 So I managed to put together a deal with him; he didn't wanna do it anymore, and make that sort of weekly commitment, because it is a pretty big thing to publish something every single week... And because I was already familiar with doing it, I got in touch with him, I said "I've noticed you've kind of missed a few issues here and there" and he's like "Yeah, I need to focus on other things in my life...", and I took it over and we kind of came to an arrangement.
 
-\[00:04:02.17\] That's kind of where it all just comes from. I kind of built on that initial core of people that he had originally brought together... And I can't remember how many subscribers it had when we bought it, but I think it was like within four digits. It was like 4k, 5k. It wasn't huge, but it was enough that there was something to build upon.
+\[04:02\] That's kind of where it all just comes from. I kind of built on that initial core of people that he had originally brought together... And I can't remember how many subscribers it had when we bought it, but I think it was like within four digits. It was like 4k, 5k. It wasn't huge, but it was enough that there was something to build upon.
 
 **Johnny Boursiquot:** I'm wondering what got it on your radar. I'm curious, did the newsletter -- you're so into newsletters... Every time I think of you, I think of newsletters. Did the fact that there was another programming language newsletter out there that sort of piqued your interest, or was Go the first thing that drew you in?
 
@@ -50,7 +50,7 @@ I was learning enough Go that I kind of knew how it operates and what its ethos 
 
 **Mat Ryer:** It's funny, I also used to do a lot of Ruby, and I knew of Mark even back then, from the Ruby community. He did a couple of books on it as well, and some posts, and whatever... But it's interesting, there's a lot of people that are interested - or people that were interested in Ruby and also have a shared interest in Go... But it's funny, if you think of the two languages, they're very different, aren't they? They're almost opposites, in some way...
 
-**Peter Cooper:** \[00:08:12.26\] In some ways... I think it's because a language like Ruby attracts people that are -- I mean, just discount all the people that are beginners, that have just come to Ruby as their first language. Ruby otherwise attracts people that are kind of looking for something a little bit different.
+**Peter Cooper:** \[08:12\] In some ways... I think it's because a language like Ruby attracts people that are -- I mean, just discount all the people that are beginners, that have just come to Ruby as their first language. Ruby otherwise attracts people that are kind of looking for something a little bit different.
 
 That was definitely true in 2004, when David Heinemeier Hansson came to it and began working on Rails... Or, as it was, Basecamp, which then he kind of extracted into Rails. But he kind of came to it almost like a progressive developer. I don't know if this is the right world... It might be a little bit politically charged to use, but... I kind of see people like DHH and maybe some of us as being reasonably progressive.
 
@@ -68,7 +68,7 @@ So maybe it's something that I would associate even with older developers; I don
 
 **Peter Cooper:** Now that you've explained it like that, I get your point... \[laughter\] But I think this is one of the things actually where people talk to me and they approach me at conferences and stuff and they're like "How did you even do this? I can't imagine doing one newsletter every single week, let alone 10-11, or whatever it is." And I'm like "Well, it's just easy. It's just what I do."
 
-\[00:12:08.00\] I've just kind of realized it's actually something that I just am innately good at, just through practice and persistence and having done it a lot of times. It's a bit like when you see people that are really good at Rubik's cubes; you know, the cubes with the colored squares on each side. There are people that can look at that and then just go \[unintelligible 00:12:24.11\] with their fingers, and bam! They've solved the puzzle. And I look at it and I don't even understand where to begin, and how you even get to that point.
+\[12:08\] I've just kind of realized it's actually something that I just am innately good at, just through practice and persistence and having done it a lot of times. It's a bit like when you see people that are really good at Rubik's cubes; you know, the cubes with the colored squares on each side. There are people that can look at that and then just go \[unintelligible 00:12:24.11\] with their fingers, and bam! They've solved the puzzle. And I look at it and I don't even understand where to begin, and how you even get to that point.
 
 Maybe to a certain extent - and I'm quite a modest guy - I'm kind of doing that when I'm putting together these newsletters. I'm kind of looking at a lot of stuff, but I can keep those separate narratives in my head and I can just do it like a Rubik's cube, and bam, I produce what I need to produce and it's just correct. Obviously, I'm not saying I'm perfect. I do make mistakes. But as time goes by, I do get better and better, and I just seem to keep it in my head. I'm just saying natural skill might not be the most attractive answer, but it's kind of where I'm at.
 
@@ -82,7 +82,7 @@ I hear that a lot, but the reason I kind of am okay with doing it is because I d
 
 **Mat Ryer:** It's really funny you mentioned that... And you mentioned that you are somewhat detached from the communities. It really doesn't feel like that when you look at the newsletter, so I wonder how the quality remains. It's always been very good. Sometimes, some of my articles have slipped through... \[laughter\] But on the whole, they are generally -- I mean, how do you keep that quality? It must be a difficult thing to do in the first place, and also sustain.
 
-**Peter Cooper:** \[00:15:54.04\] I think part of it is that if the quality ever slips, I tend to get people telling me it has. So if I've included an article that is just really bad - and this happened a few times; I don't think with Go. I've made a couple of factual errors with Go that I've been pulled up on... Such as when I think I said the Go Modules proposal had been accepted by the core Go team a week before they actually accepted it; I had some people pull me up about that. It just said something like "Oh yeah, we're close to agreeing it", and I kind of went with "Oh, it's all been agreed."
+**Peter Cooper:** \[15:54\] I think part of it is that if the quality ever slips, I tend to get people telling me it has. So if I've included an article that is just really bad - and this happened a few times; I don't think with Go. I've made a couple of factual errors with Go that I've been pulled up on... Such as when I think I said the Go Modules proposal had been accepted by the core Go team a week before they actually accepted it; I had some people pull me up about that. It just said something like "Oh yeah, we're close to agreeing it", and I kind of went with "Oh, it's all been agreed."
 
 So occasionally I have errors like that, and occasionally I will link to something that isn't quite right... But I tend to get people reach out and say "Why did you link to that? It sucks, blah-blah-blah..." and I tend to learn from that experience. But I don't know... You could say it's luck, you could say it's skill... It's just like trying to ask a footballer "How is it that you score those goals?" It's hard for them to break down and think about the meta-processes that they use.
 
@@ -98,7 +98,7 @@ When I see something like an article about a goroutine, or something like that, 
 
 I talk to people about this sort of thing, and some people are just like "Oh, I totally get what you mean. I do the same thing", but a lot of people are just like "What are you even on about? I can't even keep up with what you're saying. You're speaking at 500 miles an hour..." So yeah, it's complicated, is probably what I've realized. But I'm just so big on absorbing concepts and learning things that even if I do make mistakes, I tend to relearn stuff again the next time, so quickly that I kind of make up for my past mistakes. That's probably the best way I can put it.
 
-**Break:** \[00:19:52.04\]
+**Break:** \[19:52\]
 
 **Jon Calhoun:** So when you're looking at all this different stuff - you're working on multiple newsletters and you're exploring different solutions to problems, and as you said, you deep-dive into these things, do you ever look at a problem in one language and think "These idiots... This is solved in other languages. Why aren't they just following their lead, or doing what they're doing?" Because I can imagine looking at different languages; that would be frustrating to see one language struggling with something that maybe two other languages just sort of figured out already.
 
@@ -112,7 +112,7 @@ We had this in all the different worlds; going back where we've had internet com
 
 So if you're doing Go, but you also do some C and you also do some Ruby, because you're participating in all those different communities at once, you can kind of bring back and forth some of the values and keep things going. And then really it's just a goal of bringing newcomers into the fold and making sure that they adhere to the community norms.
 
-\[00:24:06.11\] I think that's something we're seeing a lot more happening now with codes of conduct, and things like that. People have really had to start thinking about this, and it can't just be some sort of "Old boys club" all the time. Actually, a lot of the most valuable contributions in our different communities come from a diverse array of people. It's taken especially some of the older people like me a really long time to see how that works, but it's really valuable and I'm really happy that that work is ongoing.
+\[24:06\] I think that's something we're seeing a lot more happening now with codes of conduct, and things like that. People have really had to start thinking about this, and it can't just be some sort of "Old boys club" all the time. Actually, a lot of the most valuable contributions in our different communities come from a diverse array of people. It's taken especially some of the older people like me a really long time to see how that works, but it's really valuable and I'm really happy that that work is ongoing.
 
 **Mat Ryer:** That's really interesting to hear. The way you talk about the drama in the Ruby world makes it sound like I wanna see that on Netflix.
 
@@ -142,7 +142,7 @@ If there's a lot of noisy people saying "You must use a certain tool", "You must
 
 I guess just the older you get, the more you see these loops constantly happening... And yeah, maybe it gets easier to be a novice as you get older. I don't know, just throwing that out there.
 
-**Johnny Boursiquot:** \[00:28:03.08\] A couple of points... The sheer volume of content coming out... And for me, this is really the value of the newsletters; they provide me with a filter. Basically, rather than paying attention to 300 things for that week, I can wait for the newsletter, whether it be one of yours, or maybe The Changelog on Sundays, or something... And basically just sit down and see what's been going on this week, and then even further do some selection myself and then say "Okay, these are the things that I consider to be important. These are the things that Peter or the Changelog team considers to be important", and then I'll take a look.
+**Johnny Boursiquot:** \[28:03\] A couple of points... The sheer volume of content coming out... And for me, this is really the value of the newsletters; they provide me with a filter. Basically, rather than paying attention to 300 things for that week, I can wait for the newsletter, whether it be one of yours, or maybe The Changelog on Sundays, or something... And basically just sit down and see what's been going on this week, and then even further do some selection myself and then say "Okay, these are the things that I consider to be important. These are the things that Peter or the Changelog team considers to be important", and then I'll take a look.
 
 There's just too much. It's not a judgment call on the quality of everything going on, it's more like as a human being with a limited amount of time - I have 24 hours in a day, and a good chunk of it is already spoken for... There's only so much I can consume.
 
@@ -156,7 +156,7 @@ In aggregate, my readership is better than me at everything, because there's an 
 
 So you will know in Go you will be 95th percentile or higher, on a small group of things, I assume. Like, you are really like "I'm the S on this thing." I won't be the expert on that, but I will have seen enough of the entire community that I know what tools people are using in all different areas. I know how people are interacting with things like Kafka, or Postgres, or what the biggest library for talking to MongoDB is - although actually that's a very small number now, but... I will have an idea of all these things. So that's why when you come to the newsletter, you can be like "Okay, I'm an expert on this thing, and I'm gonna skip all these articles that I know I don't need to read, but on all these other things I'm gonna trust Peter to be good enough at all these other things..."
 
-\[00:32:15.07\] I think that's the relationship that perhaps people like you have with the newsletters. You've perhaps not put it into words, but that's how it's kind of seen. I don't have to be an expert at all this stuff, I just have to be good enough that I'm better than you at a bunch of stuff.
+\[32:15\] I think that's the relationship that perhaps people like you have with the newsletters. You've perhaps not put it into words, but that's how it's kind of seen. I don't have to be an expert at all this stuff, I just have to be good enough that I'm better than you at a bunch of stuff.
 
 **Mat Ryer:** Yeah, that is really interesting. I wonder if you could talk a little bit about some of the technical challenges around doing this. Presumably you've got some tech that you've built yourself, or use, that makes it happen... How does it actually technically work?
 
@@ -174,7 +174,7 @@ Probably another one actually is the system that sends the email, which is quite
 
 The editor that we use to put issues together, which is now used by -- well, three of us in the company use it. It's basically a live text editor that we can all use at the same time if we wish, so we can actually work on an issue live. We have a kind of weird version of XML that we use to align all our newsletters on the left, and then on the right it's the live preview, which we can resize to see what it looks like on mobile, and everything... But it's completely live. So as I'm typing, it updates visually what it looks like immediately. That's why we can do in the newsletter some interesting visual things, like we can include breakout boxes and stuff like that, that for other people -- I've seen a lot of people do newsletters, but they're very formulaic; they always look the same, every single week, whereas I can change the layout of the newsletter almost like on a whim. We don't tend to, just because of time, but it's possible to do.
 
-\[00:36:17.10\] So yeah, I've pretty much built all the tools for this thing, and maintained them, and that's pretty much what keeps me in the development world for sort of 50% of what I do - just mucking around with these tools... But there's a lot of parts.
+\[36:17\] So yeah, I've pretty much built all the tools for this thing, and maintained them, and that's pretty much what keeps me in the development world for sort of 50% of what I do - just mucking around with these tools... But there's a lot of parts.
 
 **Johnny Boursiquot:** So how much of that is in Go?
 
@@ -196,7 +196,7 @@ When we produce a newsletter, it produces a kind of a text and HTML kind of arti
 
 So I was actually thinking more like a publisher than a developer at that point, because the way I look at it is like a clean newspaper page, and I wanna put something here, and put something here, and maybe run a big headline across here... I kind of have that freedom to do that with this. Whereas some of the tools - and I know people that have built some of these curated newsletter tools that are a bit more structured and automated, where you can put items in and it formats, and everything... But you can't just randomly throw different types of content in, or put multiple-column layouts in, or stuff like that, and I can just do that... So I wanted that.
 
-**Mat Ryer:** \[00:40:20.17\] And the trick there is that you've got that immediate feedback system where you could see the live preview, isn't it?
+**Mat Ryer:** \[40:20\] And the trick there is that you've got that immediate feedback system where you could see the live preview, isn't it?
 
 **Peter Cooper:** Yeah.
 
@@ -234,13 +234,13 @@ But for visual things or anything - I mean, we don't tend to do too much that's 
 
 **Jon Calhoun:** But for whenever you're learning, it's a great way to just jump into something and instantly see that feedback... And I think that's why some of those languages are so appealing to beginners. I think JavaScript has that allure, where you can just open up the console on any website and mess with things; that's very, very appealing, and I think at times you'll probably see that Go doesn't attract as many new programmers as say JavaScript or some of the other languages because of that.
 
-**Peter Cooper:** \[00:44:11.10\] Yeah. I mean, editing work in code I think is actually a very underrated learning technique. A way that I have always tended to learn very quickly is if I find a program that works really well. When I was trying to learn modern C -- as I said, I did C in the '90s for quite some time, but I didn't touch it for quite a long time after that... And then I kind of came back to it and I was like "Oh my God, I can understand what's going on, but people are laying it out in a different way, they're putting different structures into their programs..."
+**Peter Cooper:** \[44:11\] Yeah. I mean, editing work in code I think is actually a very underrated learning technique. A way that I have always tended to learn very quickly is if I find a program that works really well. When I was trying to learn modern C -- as I said, I did C in the '90s for quite some time, but I didn't touch it for quite a long time after that... And then I kind of came back to it and I was like "Oh my God, I can understand what's going on, but people are laying it out in a different way, they're putting different structures into their programs..."
 
 So I looked at codebases like Redis - it was a really good example of that, the data structure, the database thing... And the way he wrote that is just very elegant, and I could go in and I could work out it has an "add a command" to it. I think I even did a YouTube video about this - I added a command and showed how that all worked, and everything... And it kind of really -- editing is something that already works and is already... Not perfect, but good. It helps me learn, at least.
 
 That's a way for me to learn, is from examples, rather than going from first principles of saying "Right, we're gonna do #include stdio.h printf("blablabla")" from scratch again, because sometimes you might lack the imagination to think "Well, what is it that I can build with printing stuff to the screen? I want something that works, and then I'll tweak it, change a few numbers here and there."
 
-**Break:** \[00:45:33.09\]
+**Break:** \[45:33\]
 
 **Jon Calhoun:** Peter, when you were talking about using a book, and that being your Bible essentially when you were learning a language - you bringing this up made me think of that, because I remember as I learned, I'd be like "Well, do I really understand this?" and that working program that was in the book was the only thing you had to go from... So a lot of the times you'd go through and be like "Well, let me try tweaking things. If I wanted to do this, is this the right line to change, so that it actually makes those changes?" And I think for a lot of people that's just kind of how they learned. One, you write the code and you read through and try to understand what it's saying, but to verify you understand, a lot of the times it's "Let me change this to see if it actually does what I want."
 
@@ -254,7 +254,7 @@ I think Zed Shaw did a little bit of this... He's quite well known in the Python
 
 **Mat Ryer:** They start completely from scratch, yeah. So it does make sense. I used to copy the code out of Amiga Format Magazine to build little games, and stuff... And then we changed that; we made a pool game once, and then we changed the cushions and just made the pockets really big, so the game was really easy... And just being able to go and figure out how these pockets were described in this weird array, just that process - that's kind of the time when I fell in love with code... I realized we could create things, and make things happen using these strange, magic spells almost.
 
-**Peter Cooper:** \[00:48:17.08\] Yeah. There's a lot to be said for watching other people do things... And I guess that is exactly what my job is. I am spending nearly my entire job watching what other people are doing and what other people are releasing, and kind of turning that into personal wisdom that then I can hopefully use to inspire what it is that I choose to go into the newsletters.
+**Peter Cooper:** \[48:17\] Yeah. There's a lot to be said for watching other people do things... And I guess that is exactly what my job is. I am spending nearly my entire job watching what other people are doing and what other people are releasing, and kind of turning that into personal wisdom that then I can hopefully use to inspire what it is that I choose to go into the newsletters.
 
 **Mat Ryer:** Yeah, that's great. How many people does the newsletter reach?
 
@@ -288,7 +288,7 @@ I think people, like you said, get upset about stuff like that, but realisticall
 
 I think we ought to be a bit more forgiving of each other and a little bit understanding that we can't satisfy everyone. That's definitely true of us. This is one of the points I put down in my notes - you can never fully saturate an audience. I can never reach 100% of all Go developers. That's just not gonna happen.
 
-\[00:52:10.21\] I encounter people that -- say the JavaScript world; we've got 170k subscribers, and I run into people at conferences, and they're like, "Oh, I've never heard of JavaScript Weekly." And it's like, I don't sit there thinking "Well, that's a bit weird... Surely, everyone knows about us by now", because there's millions of JavaScript developers. There's just all these different pockets of different places. JavaScript developers don't even know about each other half the time, let alone all the different resources are in the community.
+\[52:10\] I encounter people that -- say the JavaScript world; we've got 170k subscribers, and I run into people at conferences, and they're like, "Oh, I've never heard of JavaScript Weekly." And it's like, I don't sit there thinking "Well, that's a bit weird... Surely, everyone knows about us by now", because there's millions of JavaScript developers. There's just all these different pockets of different places. JavaScript developers don't even know about each other half the time, let alone all the different resources are in the community.
 
 So there are definitely Go developers who have never heard of this podcast, and it's never even crossed their radar... And I kind of wonder, do we need to actually improve that or not? It's always good to extend your reach, but is it something that's worth worrying about? I don't think it is.
 
@@ -314,13 +314,13 @@ If your friend says "I'm gonna go and write a novel about a political scandal" o
 
 We've had people approach us, and say "Oh, I'd love to translate the newsletter for such-and-such language", but it's literally been a handful of inquiries over the past however many years... So if someone came to us and said "Oh, we wanna just copy what you do and just translate it into Russian..." That's probably a good example, because that's a culture that's just different enough from our culture that they're probably not gonna read my newsletter en-masse in Russia. Because it has its own alphabet, it's own culture, and everything. And if someone came to me and said that, I'd probably be like "Yeah, just do it." Because it's not going to affect me in any way, and it just will help the community, which is partly what this is about. It is my business, but at the same time, if I just wanted to make money, there's a lot of things I could be doing that I don't do, just because it's not right to do... So I am very keen on helping the community.
 
-\[00:56:00.19\] So if anyone is listening and you're in a different land - I'm not gonna say Australia or something like that, of course, because people from Australia or America or England or Ireland and whatever will all subscribe to the English one... But if you're in a different culture - Poland, Saudi Arabia... Or I don't know - where is Go popular other than China...? Yeah, just get in touch, because I'd be interested in seeing you do stuff like that.
+\[56:00\] So if anyone is listening and you're in a different land - I'm not gonna say Australia or something like that, of course, because people from Australia or America or England or Ireland and whatever will all subscribe to the English one... But if you're in a different culture - Poland, Saudi Arabia... Or I don't know - where is Go popular other than China...? Yeah, just get in touch, because I'd be interested in seeing you do stuff like that.
 
 **Mat Ryer:** Great. Well, first of all, I don't know if we thanked you really yet for the work that you and the team put into the newsletter... It really is a resource that is valuable for everyone. I'm sure I speak for everyone.
 
 You mentioned not satisfying everyone and not being able to satisfy everyone, and that brings us neatly to our new regular slot, Unpopular Opinions.
 
-**Jingle:** \[00:56:55.14\] to \[00:57:12.17\]
+**Jingle:** \[56:55\] to \[57:12\]
 
 **Mat Ryer:** So Peter, maybe you could kick us off and give us an unpopular opinion.
 
@@ -334,7 +334,7 @@ And it would pay quite well, because 3%-5% of my subscriber base is quite a lot.
 
 **Mat Ryer:** That is very interesting. I think of that sponsorship model as well when it comes to conferences. It's very common for conferences - people pay for the tickets, but the prices would be a lot higher if it didn't have any sponsorship there. So it's actually a good one, because you're right - I think if you ask people generally, they'll say "I hate ads" or...
 
-**Jon Calhoun:** \[00:59:51.29\] See, it's a challenging subject, because generally speaking, I think people want things as free as advertising makes it, but they don't want the advertising. And it's like, you can't have your cake and eat it, too. You've gotta kind of choose. And I get that there are cases where people are overly zealous and they track you, and they do all these things that you don't want them to do, and that can be troublesome... But then there's also cases, like you said, where conferences are cheaper, newsletters are made available... This podcast is possible because we have advertisers. Otherwise a lot of this stuff would be very hard to do. We wouldn't have people to edit the show and do different things like that.
+**Jon Calhoun:** \[59:51\] See, it's a challenging subject, because generally speaking, I think people want things as free as advertising makes it, but they don't want the advertising. And it's like, you can't have your cake and eat it, too. You've gotta kind of choose. And I get that there are cases where people are overly zealous and they track you, and they do all these things that you don't want them to do, and that can be troublesome... But then there's also cases, like you said, where conferences are cheaper, newsletters are made available... This podcast is possible because we have advertisers. Otherwise a lot of this stuff would be very hard to do. We wouldn't have people to edit the show and do different things like that.
 
 So I can imagine this podcast would be a very different thing if we had to charge everybody, and it would also make the people that you can reach - it would limit it so much. You could no longer help people who are struggling to get into tech from a rougher background, or maybe they have a job that doesn't pay that well... And I think being able to reach those people is worth it, in many cases. But I do agree with you, Peter, that you kind of have to approach it ethically. You can't just be like "Let me just track everything, do whatever, and just abuse all of my readers/listeners", or whatever they happen to be.
 

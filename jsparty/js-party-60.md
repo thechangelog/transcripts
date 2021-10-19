@@ -24,7 +24,7 @@ It's a little thing we're calling ELI5, if you wanna say it that way... And let 
 
 **Suz Hinton:** Is this like a literal -- how literal is this? Because if you tell me like I'm five, I will use literal language for a five-year-old. Is that what we're doing?
 
-**Jerod Santo:** \[00:03:53.10\] I think it would be fun to try that. I know for a fact when it gets to the one that I'm gonna try to explain, I will not be doing that, because there's just no possible way a five-year-old will understand this, or that I could explain it to them. Anyways...
+**Jerod Santo:** \[03:53\] I think it would be fun to try that. I know for a fact when it gets to the one that I'm gonna try to explain, I will not be doing that, because there's just no possible way a five-year-old will understand this, or that I could explain it to them. Anyways...
 
 **Suz Hinton:** Yeah, I think I set you up for failure with that one.
 
@@ -48,7 +48,7 @@ That is my "Explain it like you're five", assuming your five-year-olds like the 
 
 **Kevin Ball:** Aren't they all...? I mean, our neighbors are, too. They get together and they're like, "Okay, I have these PAW Patrols..." Somehow the puppies are each called The PAW Patrol when you're five, or three... And yeah. It's a thing.
 
-**Jerod Santo:** \[00:08:09.07\] It's a thing. Suz, does that help you out at all? Are these concepts that ever trip you up, or have you been doing this long enough that they're ingrained into your psyche?
+**Jerod Santo:** \[08:09\] It's a thing. Suz, does that help you out at all? Are these concepts that ever trip you up, or have you been doing this long enough that they're ingrained into your psyche?
 
 **Suz Hinton:** I do still use them. I've used bind the other day actually in a unit test; I was trying to pass something in that needed to be a constructor, and it was very confusing, and I needed to bind a different... Anyway, it's not important. \[laughter\] But I did actually use it, and I knew how to use it. But I've never heard it described with PAW Patrol before. I think there's something about PAW Patrol that I don't understand fully in order to fully connect this analogy.
 
@@ -74,7 +74,7 @@ So if you imagine that your dad is Redux, because he is responsible for some of 
 
 So that would be how you would normally interact with Redux, aka your dad, in order to be able to make changes or request that something in the house changes, to your liking especially. So if your dad can only really write something down in the planner, what happens if he needs to go and do something things before he can update that state, or update what the dinner plans are? So what happens if you say "Dad, I want pizza", and he doesn't actually know if he has all the ingredients in the fridge to make pizza tonight? Well, because the only thing he can do is just update things, if he goes and checks the fridge or anything like that, then he could be potentially changing a whole bunch of other stuff, and that's really not allowed in Redux, because you're not supposed to have side effects.
 
-\[00:12:09.27\] And you can think of side effects as anything your dad has to do outside of the conversation of "Dad, I want pizza tonight", and him actually putting that down in the plan.
+\[12:09\] And you can think of side effects as anything your dad has to do outside of the conversation of "Dad, I want pizza tonight", and him actually putting that down in the plan.
 
 So if he has to go and check the fridge, which can be seen as an asynchronous thing, because you actually have to wait for him to go and check, before you're actually going to see whether or not the state is gonna be changed and updated and that pizza is gonna end up on the menu... You know, if there are no ingredients, then he might actually come back and update and say "Sorry, there's gonna be pasta tonight, so everyone should be aware that there's pasta."
 
@@ -122,7 +122,7 @@ So a thunk, a Redux Thunk is a library that gives your dad extra abilities, so t
 
 **Suz Hinton:** If you've used React and you haven't had somebody installing something like Redux Thunk before, you will run into that very quickly, where you're like "I wanna update state, but I need something to happen first, that is a function, in order for me to know what that state should even be in the first place." It's basically an output of just trying to abstract your code in the first place, I guess. That's the last thing that I would add to that.
 
-**Jerod Santo:** \[00:16:16.26\] Okay.
+**Jerod Santo:** \[16:16\] Okay.
 
 **Kevin Ball:** Yeah, honestly, I feel like I've been spoiled by Vue and Vuex, because Vuex gives you most of what Redux does, but conceptually you have actions that can return promises, and you don't have to have this additional concept of a thunk. I think it's more the language that's the challenge, than anything. If I think about it as "This is just adding the capability to have functions as a Redux action."
 
@@ -146,7 +146,7 @@ So a thunk, a Redux Thunk is a library that gives your dad extra abilities, so t
 
 **Jerod Santo:** That's right. And you're thinking, "I love OCaml, but my parents keep asking me for this awesome new front-end for their JSON API that they've been working on." So you think "If I could have an OCaml-like thing, but in the front-end, with JavaScript in the mix, then that would be super-cool." So maybe you find ReasonML, which is not a new language; it's just kind of a syntax, and it's a toolchain, so it's kind of like a transpiler, or a compiler, if you will, bringing OCaml to the JavaScript ecosystem, so you have access to all of the Yarn and Npm stuff, you have access to all of what OCaml provides... And it's somewhat akin to - I think not technically, but in philosophy it's similar to - what Elixir does to Erlang, I think Reason does to OCaml. It's not like a one-to-one, but they say there's about 80% of what OCaml semantics are - they're just straightforward maps over the modern JavaScript... And then the Reason team - this is an open source project out of Facebook, and I believe they definitely are using in production, so it's a serious project that's production-grade... They filled in a lot of the gaps, and they have to decide how are they going to fill in the last 20% and make it all work.
 
-\[00:20:05.23\] The cool thing about it that I found, which five-year-olds love, is that you can actually also compile to bare bone Assembly, iOS and Android, in addition to JavaScript. So it compiles to good-looking, interoperable JavaScript, it also compiles to stuff that OCaml would compile to.
+\[20:05\] The cool thing about it that I found, which five-year-olds love, is that you can actually also compile to bare bone Assembly, iOS and Android, in addition to JavaScript. So it compiles to good-looking, interoperable JavaScript, it also compiles to stuff that OCaml would compile to.
 
 **Suz Hinton:** Interesting. This is actually very helpful. How would you compare this to something that I'm probably much more familiar with, just because of my job, but also where I work, which is TypeScript? Is this just like the OCaml take on TypeScript, having a type system, but also it adds terse functional programming syntax in there, too? Is that sort of what I understand?
 
@@ -162,7 +162,7 @@ So a thunk, a Redux Thunk is a library that gives your dad extra abilities, so t
 
 **Suz Hinton:** Oh, that makes a ton of sense, yeah.
 
-**Break:** \[00:22:34.11\] to \[00:23:52.13\]
+**Break:** \[22:34\] to \[23:52\]
 
 **Jerod Santo:** Alright, next up, it's one of our favorite times of the day - it's Pro Tip time. This is where we will share our pro tips. Sometimes it's because we are actual pros, other times it's because we've done dumb things, and you can learn from those dumb things that we have done. Maybe it's a lifehack, maybe it's a lesson learned - whatever it is, we have some tips for everybody today, and we are here to share them, so let's get right into it. Suz, you are first up, and you said yours is dumb, but... We'll be the judge. Go ahead, give us your pro tip.
 
@@ -178,7 +178,7 @@ He jumped off the computer, and then I just ran cat /etc/hosts just in case, and
 
 What had actually happened was they were like "Cool, so everyone tested this thing for us. We're gonna release it to production", and then I completely forgot to remove that entry. They must have kept that VM up or that service up for another three months, and then they've turned it off... And because it had been three months, there's no way that I remembered that I'd added that. And if fact, embarrassingly, when I first found this in my /etc/hosts, I flew into a rage, and I started sub-tweeting that company, because I thought that their CLI tool had added that as an entry when I installed the CLI tool for the actual IoT service. I didn't mention them by name, luckily, but I very quickly deleted that very angry tweet when I figured out that it was actually me.
 
-**Jerod Santo:** \[00:28:16.24\] So maybe you need a version control for your /etc/hosts, so you can Git blame on it, and make sure who's changing things over time; Git blame almost always points the finger right back at the one blaming, right?
+**Jerod Santo:** \[28:16\] So maybe you need a version control for your /etc/hosts, so you can Git blame on it, and make sure who's changing things over time; Git blame almost always points the finger right back at the one blaming, right?
 
 **Suz Hinton:** Yeah. I would love to have something like an AppleScript that even just watches that file, and says, "Hey, do you still want this in here, or this has changed...?" Or I could have just honestly set a cron job just to delete that later... But yeah, because I was testing it for a week, I kind of just got distracted and started working on other stuff and totally forgot that I put that in there.
 
@@ -210,7 +210,7 @@ Is that correct...? Someone correct me if that's wrong.
 
 I got it on the store, and then they changed all the rules, and they sandboxed everything... And I had to take it out of the store. Then they completely changed the way that the Mac worked with regards to networking, and the app quit working. Now it's just a fragment of my history, but... Yes, I was a big fan of /etc/hosts. But just like everybody else who has edited their /etc/hosts quite a bit, I've definitely forgot about it and shot myself in the foot like you did there, so... Common mistake.
 
-**Suz Hinton:** \[00:32:07.11\] Yes. Create reminders or clean up scripts that automatically run for yourself. Just do yourself a favor and automate yourself out of making mistakes.
+**Suz Hinton:** \[32:07\] Yes. Create reminders or clean up scripts that automatically run for yourself. Just do yourself a favor and automate yourself out of making mistakes.
 
 **Jerod Santo:** That's awesome.
 
@@ -230,7 +230,7 @@ Now I have all these recurring things where I have an event for when I typically
 
 For this week I have a goal for my client work, I have a goal for what I'm doing on sort of a training and courses side, I have a goal for what I'm doing planning around travel, and things like that, I have family and personal stuff, I have writing stuff... And once again, it's not like this is a "You have to do these things", but it gives me a place for when I'm thinking about "Okay, I'm trying to get this stuff. Here's how I'm gonna--", it lets me plot out what I need to be doing to get to where I want to do; if something comes up and I'm like "Oh, I need to deal with that, but now is not the right time" it gives me a place to put it that is kind of holistic, and then each week when I do my Monday morning strategy session, where I start is I go and I pull out my spreadsheet and I say, "Okay, what's on my agenda for this week? Okay, here's all the things I thought that I wanted to do. Are those still applicable? Yes. Okay, how do I schedule them into my week?", what have you.
 
-\[00:35:48.01\] These two tools together of calendaring things that are just for me, to remind myself to do it, and having a big picture spreadsheet of like "Here's what I'm trying to accomplish and what I think I kind of need to be doing at each time", and treating both of these as tools, rather than dictation, like "This has to happen"; it's more like "This is a reminder. This is helping me keep track of it." I feel like those two together have completely revolutionized how I'm thinking about and organizing my weeks, and I feel more on top of everything and I'm getting more done, and it's amazing.
+\[35:48\] These two tools together of calendaring things that are just for me, to remind myself to do it, and having a big picture spreadsheet of like "Here's what I'm trying to accomplish and what I think I kind of need to be doing at each time", and treating both of these as tools, rather than dictation, like "This has to happen"; it's more like "This is a reminder. This is helping me keep track of it." I feel like those two together have completely revolutionized how I'm thinking about and organizing my weeks, and I feel more on top of everything and I'm getting more done, and it's amazing.
 
 Those are my pro tips for life - use your calendar, and spreadsheets are great.
 
@@ -252,7 +252,7 @@ The problem with that one - it's super forward-thinking, and it requires habitua
 
 Now, another one which I think is a little bit easier... If you are a test writer -- if you don't write automated tests, then you can't use this tip, but... Leave some tests failing at the end of the day; at least one, maybe a couple. Whatever it is that you're currently working on, leave it in a state where maybe you just wrote the test and you didn't write the application code yet, so when you come back, you run your test suite, you see what's failing, and obviously you can pick up right where you left off. It will help you jog your memory of "Hey, what was I actually working on yesterday?"
 
-\[00:39:45.18\] The third one, the one I still use to this day -- like I said, I wrote this back in 2011, and of these three tips, the third one I still use pretty much on a daily basis... Which is just to leave certain code changes uncommitted, or unstaged even, in Git. So when I come back, I can just look at Git -- that's what I do, I say "Okay, Git status. I can see these three files are edited; I have a function that's defined, but there's no body to the function, so nothing's been checked in." Everything that I was working on - it helps that context kind of just rush back into my brain, and it helps me get back to that place of being "Okay, this is exactly where I was", so I can get in the flow a bit faster.
+\[39:45\] The third one, the one I still use to this day -- like I said, I wrote this back in 2011, and of these three tips, the third one I still use pretty much on a daily basis... Which is just to leave certain code changes uncommitted, or unstaged even, in Git. So when I come back, I can just look at Git -- that's what I do, I say "Okay, Git status. I can see these three files are edited; I have a function that's defined, but there's no body to the function, so nothing's been checked in." Everything that I was working on - it helps that context kind of just rush back into my brain, and it helps me get back to that place of being "Okay, this is exactly where I was", so I can get in the flow a bit faster.
 
 So three ways you can do it... I like the dirty Git stage, because it's the easiest; basically, you kind of limp in to the end of your day, like "Oh, I'm not gonna do this commit. I'm just gonna stop", which is nice. And then also you can leave a test suite failing - that requires a little bit more effort - or you can write yourself a note... But the easiest is usually the one that we can create a habit out of.
 
@@ -272,7 +272,7 @@ I think in that case, if you do have long periods of time - which is totally not
 
 **Jerod Santo:** Very good. Well, those are your pro tips for today.
 
-**Break:** \[00:43:38.29\] to \[00:44:42.25\]
+**Break:** \[43:38\] to \[44:42\]
 
 **Jerod Santo:** And for our last discussion of this episode, we are going to point our spotlight on a specific project. This is something that we like to do on a regular basis. Here at Changelog one of our goals is to shine a light on open source that deserves it, and help people get the word out about the cool stuff that they're building in our space, and especially when they're giving that stuff away free as in beer, free as in libre... Whatever it is, we like to shine a spotlight.
 
@@ -288,7 +288,7 @@ The concept here is "How much work can we do in a distributed way that doesn't r
 
 This lets you just do kind of whatever you want; maybe I'm gonna route things to different servers based on whatever your route is, maybe I'm gonna do some really smart caching, that's smarter than a standard CDN, maybe I'm gonna include authentication... Whatever it happens to be. And the thing I think is interesting about is where a lot of the edge application stuff has been platform-specific, and they do target their own Fly Edge Application runtime, this claims to work on anything that has an edge service worker implementation. So you can run it on the Cloudflare service workers, you can run it at Lambda@Edge, you can run it essentially anywhere and create your own, customizable edge-based application. That just sounds pretty darn cool to me, and it's all in JavaScript, or TypeScript... So anyone listening to this podcast, you probably have the skills to write your own edge application.
 
-**Jerod Santo:** \[00:48:01.20\] So the applications on the edge - this is a somewhat new marketing term, or industry term for... You know, we went cloud, and now we're moving back to these edge devices; think of it as edge nodes on a much larger network. This is a term used by a lot of the big cloud providers. I know Microsoft has been talking about the intelligent edge, which is like instead of these dumb terminals that are reporting everything back to a central cloud service where all of the smarts are, let's put some of those smarts back into the edge, let's make the edge intelligent.
+**Jerod Santo:** \[48:01\] So the applications on the edge - this is a somewhat new marketing term, or industry term for... You know, we went cloud, and now we're moving back to these edge devices; think of it as edge nodes on a much larger network. This is a term used by a lot of the big cloud providers. I know Microsoft has been talking about the intelligent edge, which is like instead of these dumb terminals that are reporting everything back to a central cloud service where all of the smarts are, let's put some of those smarts back into the edge, let's make the edge intelligent.
 
 Suz, I know as somebody who's involved in the Azure team, maybe this is something you can speak to as well, in terms of this terminology, and what people are thinking of, and why this is better than having all of the smarts cloud-side.
 
@@ -302,7 +302,7 @@ It can also do things like run machine learning; like you said, run extra proces
 
 So it's kind of this swing back and forth, and I just wonder if it's just gonna perpetually swing, if we're gonna find a sweet spot... I wonder if you guys have thoughts on that.
 
-**Kevin Ball:** \[00:52:04.15\] Well, I feel like a lot of that has been driven by hardware advancement. Back in the day, to get enough power to do anything interesting you had to have something really expensive, so centralized. Then processors got cheaper, whatever, you have thicker clients. Then we say "Okay, now we're dealing with mobile phones and IoT devices", so suddenly processors -- it's hard to get enough out there, because the battery, and what have you, so we swing back to centralized.
+**Kevin Ball:** \[52:04\] Well, I feel like a lot of that has been driven by hardware advancement. Back in the day, to get enough power to do anything interesting you had to have something really expensive, so centralized. Then processors got cheaper, whatever, you have thicker clients. Then we say "Okay, now we're dealing with mobile phones and IoT devices", so suddenly processors -- it's hard to get enough out there, because the battery, and what have you, so we swing back to centralized.
 
 When we talk about edge, I think there is a clarification to be made, because I think you can talk about edge in terms of "I have an edge device that's actually sitting there", or -- this could still be in the cloud, but it's on servers that are distributed worldwide, and pushing it out rather than having a centralized server; it's got many copies, so you just get whatever is closest to you.
 
@@ -316,7 +316,7 @@ I think it is not infeasible to see a situation where the only things that have 
 
 So we could end up in a situation where for the vast majority of users, most of what they're fetching is coming from something that's very close to them. That's an incredibly powerful possibility for extending the amazingness that is the internet, that is right now mostly hosted in North America, and making it accessible to folks worldwide.
 
-**Jerod Santo:** \[00:55:42.10\] So in terms of edge applications, with regard to that geographic distribution, a CDN is the epitome or the quintessential edge application, because an entire point of a content delivery network is to move the content geographically, physically closer to the users. So we have CDNs that are a thing, we have CDN providers - Changelog's provider is Fastly... I mean, if you think about them, they're basically one big mesh network with all these different edges, right? They call them POPs (points of presence), but those are basically servers that are geographically located in regions where they can serve content very quickly. Like you said, speed of light is not changing, so there's just no possible way that you could serve a request faster from New York City over to London than if you have a server that's located in the U.K; it's just gonna be faster.
+**Jerod Santo:** \[55:42\] So in terms of edge applications, with regard to that geographic distribution, a CDN is the epitome or the quintessential edge application, because an entire point of a content delivery network is to move the content geographically, physically closer to the users. So we have CDNs that are a thing, we have CDN providers - Changelog's provider is Fastly... I mean, if you think about them, they're basically one big mesh network with all these different edges, right? They call them POPs (points of presence), but those are basically servers that are geographically located in regions where they can serve content very quickly. Like you said, speed of light is not changing, so there's just no possible way that you could serve a request faster from New York City over to London than if you have a server that's located in the U.K; it's just gonna be faster.
 
 So with Fly CDN and this really softwarification of these things, it's really allowing regular old developers like us to maybe build these CDNs right into our application, and rely upon the bigger clouds that already have all those different distributed servers to run them on different edges around the world.
 
@@ -326,7 +326,7 @@ So with Fly CDN and this really softwarification of these things, it's really al
 
 **Suz Hinton:** Yeah, it actually falls really nicely into that last comment, which is, again, from an IoT perspective, we even have services in Azure such as the device provisioning service, where every single device that comes off the factory floor is programmed with this one phone number that it phones home to; but once it's phoned home to that, that provisioning service can figure out "Okay, well, where is this device located? Where is the nearest possible server for it to now have as its home base?", because obviously this provisioning service is just really querying that for it; then it can tell the device, "Okay, well based on your geographic region, or based on all of the different responses, or based on the fact that this service is not at capacity, so you can register yourself to it, we would recommend that from now on you just phone this service here."
 
-\[00:58:45.29\] So that's where you start bringing the logic in, so that it's able to even understand where it should be routing to in the first place, rather than having to do this kind of round-robin of trying to ping to find where it should be finding it in the first place. You can do it as just the first setup, and as long as that device is assumed to always be in a very similar location from then on, then you've actually solved that problem.
+\[58:45\] So that's where you start bringing the logic in, so that it's able to even understand where it should be routing to in the first place, rather than having to do this kind of round-robin of trying to ping to find where it should be finding it in the first place. You can do it as just the first setup, and as long as that device is assumed to always be in a very similar location from then on, then you've actually solved that problem.
 
 **Jerod Santo:** Very cool. We'll check out /superfly/cdn. Of course, all links for things discussed on this show are in the show notes, so open up your podcast app, and click there; if you're on the website, hey, you're staring at them... Go ahead and click through, check these things out. Definitely interesting times, and interesting advancements in what we can do. The democratization -- you know what I'm talking about; things are getting to more people, and we're bringing the good cookies down to the shelves where the kids can reach them... And by the kids I mean us, as we explain things to each other like we're five.
 

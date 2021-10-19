@@ -32,7 +32,7 @@
 
 **Carmen Andoh:** Just be home anyway. You're like "Whatever..."
 
-**Johnny Boursiquot:** \[00:03:58.10\] Any day could be your last... That's rough. Carmen, how are you?
+**Johnny Boursiquot:** \[03:58\] Any day could be your last... That's rough. Carmen, how are you?
 
 **Carmen Andoh:** I'm well. I need a vacation from my vacation, I think... But it was nice to get time off.
 
@@ -54,7 +54,7 @@ Now we're getting to that part I think I like... When infrastructure gets boring
 
 Before Kubernetes, Puppet, Chef or Ansible was your tool of choice to do some of the same things with multiple machines. Kubernetes changes the how. Some people call it abstraction; we introduce things like pods, we leverage some distributed system principles around service discovery... But all of that is just the how. How do you find your applications, how do you configure them into the load balancer?
 
-\[00:08:06.00\] Now, the interesting thing here is a part if that journey - we decided to take the Linux machine and treat it like the hypervisor. So we moved networking, security - all of these things that you typically got from a cloud provider like IaaS, or if you're on VMware on-prem, VMware already had these things to integrate your machine to the rest of the environment. We had to go rebuild all of that in the Kubernetes world, and we got pretty far. We did a decent job of networking; it's still confusing for a lot of people to be managing bridges on Linux machines instead of having the underlying networking fabric... And then we also did another thing - we took the application packages, container images, and we decided to just let them run side by side on the kernel, and we spent the last 3-4 years trying to securely do that... And that's a very hard problem, because the Linux kernel isn't designed to give you that kind of security for untrusted workloads.
+\[08:06\] Now, the interesting thing here is a part if that journey - we decided to take the Linux machine and treat it like the hypervisor. So we moved networking, security - all of these things that you typically got from a cloud provider like IaaS, or if you're on VMware on-prem, VMware already had these things to integrate your machine to the rest of the environment. We had to go rebuild all of that in the Kubernetes world, and we got pretty far. We did a decent job of networking; it's still confusing for a lot of people to be managing bridges on Linux machines instead of having the underlying networking fabric... And then we also did another thing - we took the application packages, container images, and we decided to just let them run side by side on the kernel, and we spent the last 3-4 years trying to securely do that... And that's a very hard problem, because the Linux kernel isn't designed to give you that kind of security for untrusted workloads.
 
 Now we're coming back full circle, where now we're gonna take those container images, some of the things we got from the Kubernetes world aka a pod - one or more containers, their volumes and their dependencies - and we're gonna put them on micro VMs. So we just went five years to come back full circle. We made the VM smaller, but we're keeping the API from Kubernetes, we're keeping the container image, and now we're back to much better virtualization, almost the original purpose of cloud.
 
@@ -72,7 +72,7 @@ That means you could be using the Kubernetes API, but all you're really doing is
 
 **Kelsey Hightower:** It's funny, people complain about YAML, like "Oh my god, YAMLs... So terrible." And you have to step back for a second. I'm gonna just talk through my journey of this to get to where I get to the concept of infrastructure as data. If you have five Linux machines, the first thing you're gonna try to do is write some Bash scripts. You're gonna write some Bash scripts, some for loops, you're gonna SSH things around...
 
-\[00:12:09.18\] And if you've ever seen people write Bash scripts over time, you go into their home directory and you see files like "Do this stuff 01. Do this stuff 002, but don't use it anymore, because you should be using the other script." \[laughter\] So you have no version controls, you have no semantics, no abstractions. You're just writing Bash scripts.
+\[12:09\] And if you've ever seen people write Bash scripts over time, you go into their home directory and you see files like "Do this stuff 01. Do this stuff 002, but don't use it anymore, because you should be using the other script." \[laughter\] So you have no version controls, you have no semantics, no abstractions. You're just writing Bash scripts.
 
 Fast-forward to configuration management. We get things like CFEngine - big shout-out to Promise Theory - and then we get Puppet, Chef and Ansible, and then they formalize. It's almost like the Ruby on Rails for shell scripting. So now we have this configuration management error and we all start to say "Infrastructure as code." The problem is now you have to test it, people can write any code they want, it's unbounded context, and it's the same problems we had with software - how do you secure it? You're gonna have bugs... it's just all over the place. But it is a better place to be than we were before.
 
@@ -92,7 +92,7 @@ If I think about that as an idea applied to infrastructure, it really does, from
 
 I wonder, in the design then, through the life of Kubernetes - because you know, building abstractions is hard - were there any abstractions that didn't fit, or things that didn't quite work, that had to evolve differently? Or because of the nature of it, you were able to get a good design from the very beginning?
 
-**Kelsey Hightower:** \[00:15:46.21\] This is where I learned the most as a developer, from working in the Kubernetes community - so a big shout-out to Brendan Burns, Joe Beda, and people like Brian Grant, that was a little bit more behind the scenes. The work that they put into the API design -- also someone named Clayton Coleman from Red Hat... They spent so much time on the API design.
+**Kelsey Hightower:** \[15:46\] This is where I learned the most as a developer, from working in the Kubernetes community - so a big shout-out to Brendan Burns, Joe Beda, and people like Brian Grant, that was a little bit more behind the scenes. The work that they put into the API design -- also someone named Clayton Coleman from Red Hat... They spent so much time on the API design.
 
 When you open up a Kubernetes configuration, you see the API version, and then the API group. And maybe about halfway into the lifetime of Kubernetes we decided there should be a thing called core. What's required to run a container? You need things like the scheduler, you need things like what is the definition of the thing you wanna run, the pod, and you need something like a replication controller. These things represent core, including things like services and so forth. With those core primitives you can build everything else.
 
@@ -108,7 +108,7 @@ For example, let's think about a CI/CD build. Typically, with a CI/CD build you'
 
 Now, let's take that and try to make it a declarative model. If you try to make that a declarative statement, you may define the trigger; if this source repository sees the change on master, then run the build. And then that could be a declarative object that sits there, and the system will then try to behave and represent that. But here's the thing - how do you represent a build failure? That's a very imperative thing. So what Kubernetes has - and it's a very important part of the Kubernetes API - there's a status field at the bottom. This allows us to capture the imperative side effects from the declarative statements we make. So when that build fails, if you look at your status field, it will say "Hey, this build failed for these reasons, but you're never touching the declarative state that you want, the trigger, you just have the results of the trigger." And people tend to mix the two.
 
-\[00:19:47.03\] Some people will put the status as part of the API, and now it's no longer declarative, because I'm not declaring that I want a failed build, so why is it part of the API? It's just an output of the API. So that nuance is really key to getting that right.
+\[19:47\] Some people will put the status as part of the API, and now it's no longer declarative, because I'm not declaring that I want a failed build, so why is it part of the API? It's just an output of the API. So that nuance is really key to getting that right.
 
 When I see people trying to roll a bunch of imperative things into Kubernetes, it gets really tricky on how to build that API without munging the two worlds.
 
@@ -144,7 +144,7 @@ So when people say it's taking long, or it's too slow, or let's say there is a f
 
 **Kelsey Hightower:** I think that's why it's really critical to expose as little of the API service as possible in the beginning... Because you can always usually add something, but it's really hard to take away.
 
-**Mat Ryer:** \[00:24:02.06\] Yeah. And there is an art to it, and it's useful in Go - you can do little tricks like putting your tests in the test package, so it's an external package, and you import the main package. That's quite a nice way to see the footprint of the API as you're writing it, and keeps that in mind. And literally, in the autocomplete in the editors, if the list is too long, it gets a bit annoying. Well, that's what it's gonna be like for your users as well... So yeah, keeping everything small, and don't commit to anything too much. And it's about future-proofing things, but you do have to be honest. The whole team has to be really honest about the reality of writing code.
+**Mat Ryer:** \[24:02\] Yeah. And there is an art to it, and it's useful in Go - you can do little tricks like putting your tests in the test package, so it's an external package, and you import the main package. That's quite a nice way to see the footprint of the API as you're writing it, and keeps that in mind. And literally, in the autocomplete in the editors, if the list is too long, it gets a bit annoying. Well, that's what it's gonna be like for your users as well... So yeah, keeping everything small, and don't commit to anything too much. And it's about future-proofing things, but you do have to be honest. The whole team has to be really honest about the reality of writing code.
 
 And if you do have influences in the team that perhaps aren't technical or don't think about things in this way, that's when you can get a lot of tension between product, and tech, and these things... So yeah, a part of our mission as developers probably is to communicate and educate on that point. It can be very difficult to do in practice, but it's really valuable... So it's great to hear that Kubernetes as a massive, successful project, has this approach. Sometimes it's wrong about things... I think that's a great lesson for people, actually.
 
@@ -160,7 +160,7 @@ So you can say "Here's my application. It listens on this port. It needs these s
 
 **Kelsey Hightower:** I'm looking at getting a new house built from the ground-up. I've always bought maybe a house brand new, right? And I was like "How long will it take to build the house?" And they were very optimistic; they were happy and smiling. They said "We can get it done in a year." I was like "A year? What the hell are you doing?" And they're like "Well, here's the thing... We have to make sure that the land is prepped, we have to go get permits every step of the way. We need a permit for this piece, and we need a permit for that piece... Someone needs to go and check that we do exactly the work that the permit said we were going to do, and we have to make sure that we have all of that... And then building the house - that's roughly the easy part. It's all the other stuff that we have to do..." Because you can't mess up the house and be like "Yeah, the roof is off slightly. Don't worry. We'll ship a patch for the roof." Like, "No, I don't want a patch for the roof." \[laughter\]
 
-**Jaana Dogan:** \[00:28:34.00\] I have a question about this... Does this mean that you need a cloud provider to run Kubernetes?
+**Jaana Dogan:** \[28:34\] I have a question about this... Does this mean that you need a cloud provider to run Kubernetes?
 
 **Kelsey Hightower:** I love that question. Here's the thing... I meet a lot of people that say "Hey, I have very little experience. I don't know how to manage a Linux server. Hell, I don't even know how to patch a Linux server. But what I wanna do now is I wanna leapfrog all of that and just start running a massive distributed system. I can do it in probably ten minutes, fifteen tops." And I'm sitting there like "Wow, man... That's a bit disrespectful to the industry", because this is not a point-and-shoot camera. There's a lot going on to this. We're talking about the difference between making a movie and filming your child's birthday party. These aren't the same things.
 
@@ -176,7 +176,7 @@ So yeah, this managed service provider seems to be the way to go... How do you f
 
 That works at scale, because imagine if everyone tried to build their own grid. This would be a straight-up disaster; people would be getting electrocuted all over the place, they'd all come up with some group therapy, like DevOps, to talk about what happens when the grid doesn't -- you know, like "Hey, I've been burned..." Everyone's walking around with half an arm, because they don't know how to run power grids. And there'll be a bunch of conferences about how to run power grids, and there'd be 20k-30k people talking about how to best manage power grids.
 
-\[00:32:21.12\] This is what we're seeing in tech right now - lots of people are trying to be cloud providers part-time, and without the same level of budgets. So as the technology advances, eventually it starts to make sense. And maybe there's a trust thing that's missing. With power, we assume that it's always going to flow. And when it stops flowing, it becomes like a national emergency, if we have a blackout, or something like that.
+\[32:21\] This is what we're seeing in tech right now - lots of people are trying to be cloud providers part-time, and without the same level of budgets. So as the technology advances, eventually it starts to make sense. And maybe there's a trust thing that's missing. With power, we assume that it's always going to flow. And when it stops flowing, it becomes like a national emergency, if we have a blackout, or something like that.
 
 **Mat Ryer:** Yeah, it's like The Purge. \[laughter\]
 
@@ -198,7 +198,7 @@ That works at scale, because imagine if everyone tried to build their own grid. 
 
 **Johnny Boursiquot:** Seriously, seriously...
 
-**Break:** \[00:36:17.11\]
+**Break:** \[36:17\]
 
 **Johnny Boursiquot:** We've been talking about the API for some time, and I think there's a reason for that... Is it fair to say that the learnings, the journey that we've gone through to have the Kubernetes API as it is today - is that really the crown jewel? And this is why I'm asking that... We have projects that are even looking to make Kubernetes simpler; one of the things you're gonna hear over and over is that "Well, Kubernetes is a complex system. There's a lot of moving parts. You've just gotta know what you're doing" kind of thing. And yeah, we're gonna have the people who are gonna geek out, and they're gonna go through the manual, they're gonna figure out "Okay, this knob goes here, and this one attaches here..." They're gonna figure it out, great. But you have projects that are trying to simplify that, using the same API, the same abstraction. I think of things like K3S, versus K8S. There's that common ground that is the API. Is it fair to say that the Kubernetes API itself, as we know it today, is really the crown jewel of this project?
 
@@ -210,7 +210,7 @@ So when I lay it on to of my infrastructure, if I've gotta lay it on top of GCP,
 
 On the other side, as a developer, let's assume that either your team or whoever you bought Kubernetes from is doing a good job in terms of keeping that thing available. You get to then deal with a different API.
 
-\[00:40:07.16\] You get to say "Kubernetes, run this. Kubernetes, run that. Kubernetes, tell me when that is no longer true." And for some people, that's all they know about Kubernetes. They've never installed it before. All they know is that if you give it things, it runs them. And when things aren't working, here's how you leverage the API to troubleshoot them. We have to do a better job as an industry of separating the two.
+\[40:07\] You get to say "Kubernetes, run this. Kubernetes, run that. Kubernetes, tell me when that is no longer true." And for some people, that's all they know about Kubernetes. They've never installed it before. All they know is that if you give it things, it runs them. And when things aren't working, here's how you leverage the API to troubleshoot them. We have to do a better job as an industry of separating the two.
 
 **Carmen Andoh:** Well, what about the future? I mean, we're getting better and better at having managed service providers to be able to help you get jump-start it, and provide value to the business... But I know you've also talked a lot about *Serverless*, and maybe that kind of form of compute. Can you talk about maybe what this decade should bring, and maybe *Operators* and why would they choose that instead?
 
@@ -228,7 +228,7 @@ And then Oracle did something amazing. Ten years latet from my initial exposure 
 
 **Mat Ryer:** Don't even look at it.
 
-**Kelsey Hightower:** \[00:43:52.20\] Yeah, if it look at it, it costs extra. \[laughter\] They send you photos of it, and you pay the invoice, so you know it's there. But the key there though is that now people just start to focus on using the database, and not managing the database.
+**Kelsey Hightower:** \[43:52\] Yeah, if it look at it, it costs extra. \[laughter\] They send you photos of it, and you pay the invoice, so you know it's there. But the key there though is that now people just start to focus on using the database, and not managing the database.
 
 **Mat Ryer:** Yeah, I mean, that's me. That's my whole approach. It resonates a lot, because when I'm building things, I wanna just focus on the bits that are important or that are unique, that I'm doing. I really don't want -- I mean, if I could just get away with just stitching some things together to build a product, then I'm very happy doing that.
 
@@ -246,7 +246,7 @@ And people will be sitting there like "What the hell are you doing? I have work 
 
 I think the goal is I want people to be able to hyper-focus and be the best person they can be, while not preventing them from learning other things if that's what they choose.
 
-**Carmen Andoh:** \[00:47:58.00\] Well, you said in your Oracle experience they collapsed layers so that people could focus on a specialty, rather than all the other layers. And that particular specialty was still very productive and fruitful, and we've had lots of developers still working on it. So even if we were to collapse layers, we're still gonna find more work to do.
+**Carmen Andoh:** \[47:58\] Well, you said in your Oracle experience they collapsed layers so that people could focus on a specialty, rather than all the other layers. And that particular specialty was still very productive and fruitful, and we've had lots of developers still working on it. So even if we were to collapse layers, we're still gonna find more work to do.
 
 **Jaana Dogan:** I feel like maybe specialization is -- there's some stigma; people don't necessarily wanna specialize because tech is changing so fast. If you just know how to wire the cable, there's no guarantee that you'll be able to take it to the next level. In tech, we change the way we work every 2-3 years, so I think that's one of the main reasons people try to avoid to specialize.
 
@@ -262,7 +262,7 @@ I think the goal is I want people to be able to hyper-focus and be the best pers
 
 **Mat Ryer:** Yeah. I do think it applies all the way up, as well. There's Hugo, that static site generator that was started by Steve Francia, and the Buffalo project, which is a kind of hyper-example of that, where that is extremely high-level and abstracted away from a lot of the other things that are really going on in that application... And the evolution of that - I know that they are working towards a v1 release, and... It's that same kind of principle really, that you don't necessarily have to build all the things. The point is to get something good done, and then get some value from it. Get people using it. You learn so much by doing that. I never can stress it enough.
 
-**Break:** \[00:51:45.06\]
+**Break:** \[51:45\]
 
 **Johnny Boursiquot:** So we're coming up on our time with Kelsey, and it's been awesome having him... But I'm also interested in perhaps maybe something controversial from Kelsey.
 
@@ -270,7 +270,7 @@ I think the goal is I want people to be able to hyper-focus and be the best pers
 
 **Johnny Boursiquot:** We're trying to introduce a new segment to this show, that focuses on unpopular opinions.
 
-**Jingle:** \[00:54:00.24\]
+**Jingle:** \[54:00\]
 
 **Johnny Boursiquot:** Now, I know a lot of people like most (if not all) the things Kelsey says, but I'm interested in hearing something that perhaps folks may not like from Kelsey.
 
@@ -280,7 +280,7 @@ And then the second one is "Monoliths are the future." Because the problem peopl
 
 Now the codebase it's so bad, and you say "You know what we should do? We should break it up. We're gonna break it up and somehow find the engineering discipline we never had in the first place." And then what they end up doing is creating 50 deployables, but it's really a distributed monolith. So it's actually the same thing, but instead of function calls and class instantiation, they're initiating things and throwing it over a network and hoping that it comes back. And since they can't reliably make it come back, they introduce things like Prometheus, OpenTracing, all of this stuff. I'm like "What are you doing?!" Now you went from writing bad code to building bad infrastructure... And what you deploy the bad code on top of.
 
-\[00:56:15.01\] There are reasons that you do a microservice, so to me a microservice makes sense in the context of you're a bank, and you have this big monolith that does everything. Then mobile comes out. You wanna do mobile banking, but it requires a different set of APIs. You don't have to add that to the monolith. You can go create a new application that handles most of the mobile concerns, and then connect back to the existing infrastructure to do its work. That makes sense to me. But this idea of microservices are a best practice - it seems to be unpopular with most people's initiatives.
+\[56:15\] There are reasons that you do a microservice, so to me a microservice makes sense in the context of you're a bank, and you have this big monolith that does everything. Then mobile comes out. You wanna do mobile banking, but it requires a different set of APIs. You don't have to add that to the monolith. You can go create a new application that handles most of the mobile concerns, and then connect back to the existing infrastructure to do its work. That makes sense to me. But this idea of microservices are a best practice - it seems to be unpopular with most people's initiatives.
 
 They're like "Oh, we're bringing in Kubernetes, so we can do microservices. We are going to rearchitect everything" because it drives a lot of new spend, it drives a lot of new hiring... So a lot of people get addicted to all the flourishment of money, and marketing, and it's just a lot of buzz that people are attaching their assignment to, when honestly it's not gonna necessarily solve their problem.
 

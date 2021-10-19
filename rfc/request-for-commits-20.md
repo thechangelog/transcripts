@@ -30,7 +30,7 @@ Then you went away for several months. We released the show, it was great, all t
 
 A couple of years down the line, as we were thinking about what would a season three look like, or who else do we wanna bring onto the show, I'm kind of feeling like a lot of these stories are out there now - not just on RFC, but just all over the place... We're kind of at a point where sustainability is a little bit more of a given, that it's something really important in open source and it's something people should be paying attention to.
 
-\[00:03:37.12\] I often have this -- I just think back to early 2016 and how we still had to make a case back then that this stuff was important. I remember having so many conversations with people that were just like "Yeah, open source is great, and everything is going really well. People like working on this stuff without any sort of recognition or sustained attention on their work", and now I feel like I never have those conversations anymore, because we've kind of moved past it and now it's a little bit more of people that are really excited about creating solutions, and bringing more conversations around this stuff, and... Yeah, there's just like multiple people working on different aspects of the problem. I think from that perspective RFC did its job and we got a lot of those interesting conversations going on the show, and now we're sort of like letting it dissolve back into the broader conversation.
+\[03:37\] I often have this -- I just think back to early 2016 and how we still had to make a case back then that this stuff was important. I remember having so many conversations with people that were just like "Yeah, open source is great, and everything is going really well. People like working on this stuff without any sort of recognition or sustained attention on their work", and now I feel like I never have those conversations anymore, because we've kind of moved past it and now it's a little bit more of people that are really excited about creating solutions, and bringing more conversations around this stuff, and... Yeah, there's just like multiple people working on different aspects of the problem. I think from that perspective RFC did its job and we got a lot of those interesting conversations going on the show, and now we're sort of like letting it dissolve back into the broader conversation.
 
 **Jerod Santo:** Okay, Mikeal, shower with praise.
 
@@ -46,7 +46,7 @@ Now I feel like there's been a very, very big shift in what we look at for open 
 
 Yeah, I think that was a big part of making the case, being like "Here are all the stories", and at some point you can't really deny that it's a problem, when you're hearing it from lots of ecosystems and lots of different types of people in all these different ways.
 
-**Adam Stacoviak:** \[00:07:52.25\] It's interesting too, because your perspective was from a venture-backed scenario; I don't know the full story, but you came from a different angle, you weren't really in software day-to-day, but you saw this larger problem and you're like "How is no one talking about this? How is this not on the forefront of people's concerns?", because you've got -- I don't know if Heartbleed happened after or before us discovering you and the work you've done and all that good stuff... Does anybody know when Heartbleed happened, can you recall the timeframe?
+**Adam Stacoviak:** \[07:52\] It's interesting too, because your perspective was from a venture-backed scenario; I don't know the full story, but you came from a different angle, you weren't really in software day-to-day, but you saw this larger problem and you're like "How is no one talking about this? How is this not on the forefront of people's concerns?", because you've got -- I don't know if Heartbleed happened after or before us discovering you and the work you've done and all that good stuff... Does anybody know when Heartbleed happened, can you recall the timeframe?
 
 **Nadia Eghbal:** It might have been right before we talked...
 
@@ -88,7 +88,7 @@ That, and then we talked about the role of contribution policies and theories, a
 
 I think in my conversations with Mikeal helped me understand this aspirational of "Well, maybe it doesn't all need to fall on one person." That's a really great thing about open source - 1) you can always walk away, you don't have to carry all that burden, and 2) just thinking about how much can you push off to other people and not take on all that stuff yourself.
 
-\[00:12:24.06\] I think we do have slightly different philosophies on some of this stuff, and that's also why I think we're very complementary when we talk about this stuff. I think I'm still really interested in single-maintainer projects as something markedly different from -- most of the open source projects that make it into very public conversations are the really big ones, like Linux-sized, or Apache-sized, or whatever, and I think a huge thing that's been missing from the conversation, and it's still not talked about enough, is the situation of more single-maintainer projects.
+\[12:24\] I think we do have slightly different philosophies on some of this stuff, and that's also why I think we're very complementary when we talk about this stuff. I think I'm still really interested in single-maintainer projects as something markedly different from -- most of the open source projects that make it into very public conversations are the really big ones, like Linux-sized, or Apache-sized, or whatever, and I think a huge thing that's been missing from the conversation, and it's still not talked about enough, is the situation of more single-maintainer projects.
 
 I went really back and forth on this. At first I was like really like "Champion the maintainer!" and then I was like "Well, maybe there's a way to broaden it and bring in more contributors, so it's not so much work just for the maintainer, and you're off-loading some of that." I think I've come back to the maintainer side of things of - in the end, there are gonna be a smaller subset of people who are doing the bulk of the work, and I'm mostly interested in figuring out how to allow those people to do it in a more focused manner. That's different from "How do we get every contributor to get compensated or paid on an open source project?", which is actually not something I'm particularly interested in.
 
@@ -104,7 +104,7 @@ So there's some interesting stuff happening around single-maintainer projects, a
 
 **Mikeal Rogers:** We didn't really talk enough about tooling on this show, I think. But that's something I think about a lot at work all the time... For GitHub as a platform, how can we take -- like, there's some work that just no human should be doing, period, and it's not about off-loading that to contributors, it's just about improving how your project is structured, and yeah, I think that's a really big part of the conversation.
 
-**Adam Stacoviak:** \[00:16:11.28\] I remember talking to you, Mikeal, about -- everytime we connect, you're like "I've got a new project, I'm working on this fun thing", and it's always bleeding edge, and then you're talking about the different tooling you have to automate this stuff... Can you share a bit -- does it make sense in this format to share maybe some of the key findings you found to automate, like what particular areas?
+**Adam Stacoviak:** \[16:11\] I remember talking to you, Mikeal, about -- everytime we connect, you're like "I've got a new project, I'm working on this fun thing", and it's always bleeding edge, and then you're talking about the different tooling you have to automate this stuff... Can you share a bit -- does it make sense in this format to share maybe some of the key findings you found to automate, like what particular areas?
 
 **Mikeal Rogers:** So Gregor, from the Hoodie project, has really been pushing this model for a while. A lot of people in the Hoodie project actually have been creating a bunch of tooling around this. The big one is called Semantic Release, which basically is complete release automation. So if all your tests pass, every time that you accept a PR, every time that you push, you just get a new release... And the version number is determined by this commit metadata that says "Is there a new feature, or a fix, or a breaking change?" that kind of stuff, and it's just a much better model for -- not having to manual-release, for one, is amazing... But also getting everybody in that kind of habit. And then if you move to 100% code coverage, which in Node there's a lot of great tools to help you with this. Tap already has code coverage integrated; I have some code on top of Puppeteer, which is like a headless Chrome testing utility... My tooling is called Cappadonna, and that basically adds the coverage into the browser sections. But there's new work that I just saw Ben Coe push up a PR for it to get code coverage directly into Puppeteer.
 
@@ -144,7 +144,7 @@ Going back, Nadia, to that article you've mentioned of Mikeal's, which was calle
 
 **Jerod Santo:** Head games.
 
-**Adam Stacoviak:** \[00:20:01.07\] Oh, boy... It's reminding me of a book; I won't say it, but it was pretty cool. Anyways... Let's talk about the state of sustainability in terms of open source.
+**Adam Stacoviak:** \[20:01\] Oh, boy... It's reminding me of a book; I won't say it, but it was pretty cool. Anyways... Let's talk about the state of sustainability in terms of open source.
 
 **Jerod Santo:** Yeah.
 
@@ -164,7 +164,7 @@ Then the other big area I see is support and services, of "Yeah, can we guarante
 
 **Mikeal Rogers:** Yeah. I think that that's a good way to categorize them. I will say that I've been very surprised by both the success and failure cases that we've seen, and also what the reaction of older open source people has been to these experiments... It's been almost universally negative. I have a hard time trying to figure out why they've been so negative about it. It tends to be that they are adamant that big companies not have formal relationships in these projects, whether that's through sponsorship or putting their logo up or anything. They want some kind of like plausible deniability between the contributor and the company.
 
-\[00:24:28.19\] The odd thing is that almost universally these people are employed by these big companies, so they have the most -- all of the unofficial relationships and all the background influence is really prevalent in all of these older projects and older open source people, and they are really adamant that that not be formalized in any way, which is suspect to me... Really suspect.
+\[24:28\] The odd thing is that almost universally these people are employed by these big companies, so they have the most -- all of the unofficial relationships and all the background influence is really prevalent in all of these older projects and older open source people, and they are really adamant that that not be formalized in any way, which is suspect to me... Really suspect.
 
 **Jerod Santo:** Because whether it's implicit or explicit, the influence is still there, either way.
 
@@ -182,7 +182,7 @@ I guess if that one tension is "Do you support maintainers or contributors?" and
 
 **Adam Stacoviak:** I'm curious how that one might play out though, because funding a person doesn't prevent them from burning out. Just because you give me enough money to keep doing what I'm doing doesn't mean that I'm not gonna get burnout. Does it even matter, I guess? I mean, obviously it matters, but from the sense of funding or supporting - does supporting somebody as an individual, does that inhibit your or does that stop you from concerning yourself that you're gonna burn out, or you're just like "They'll do what they want"?
 
-**Mikeal Rogers:** \[00:27:48.21\] Look, I think that people burn out outside of open source; they burn out in tech in general. I think that open source -- we tend to talk about it in the open source community because 1) we actually have a community of people to talk about it in, whereas when you're just like a person at a desk in a company, you don't have a community of people to talk about the issue of burnout with.
+**Mikeal Rogers:** \[27:48\] Look, I think that people burn out outside of open source; they burn out in tech in general. I think that open source -- we tend to talk about it in the open source community because 1) we actually have a community of people to talk about it in, whereas when you're just like a person at a desk in a company, you don't have a community of people to talk about the issue of burnout with.
 
 So we end up talking about it more in open source, and I think that because of that, we think that open source is causing burnout in some manner... And I don't know that it is. I think that it's really easy when you take your passion and you allow other people to add responsibilities to it and add things to it. If you don't manage that well and you don't manage your time and your mental state well, then you are likely to burn out.
 
@@ -208,7 +208,7 @@ I think the one dynamic that will get interesting if we focus on funding people 
 
 **Mikeal Rogers:** I feel like in general a topic that I'd like to see a lot more conference talks about and a lot more discussion about is how to leave, how to walk away from something responsibly. It's actually better for the project for you to be less involved, most of the time; the more you kind of hover around, the less that other people can take on that responsibility from you... And it's not good for you, and it's not good for them.
 
-\[00:32:09.22\] It's actually better just to have a cleaner break a lot of the time, but people feel this kind of nagging responsibility to hover around, and things like that. I've been getting this a lot over the last seven or eight months. Since leaving the Foundation, people are like "Oh, are you going to the Foundation conference? Are you gonna be in this meeting, or that?" and I'm like "No. No, absolutely not."
+\[32:09\] It's actually better just to have a cleaner break a lot of the time, but people feel this kind of nagging responsibility to hover around, and things like that. I've been getting this a lot over the last seven or eight months. Since leaving the Foundation, people are like "Oh, are you going to the Foundation conference? Are you gonna be in this meeting, or that?" and I'm like "No. No, absolutely not."
 
 **Adam Stacoviak:** That's funny.
 
@@ -230,7 +230,7 @@ So you can go to changelog.com/podcast to pick that up, or just search in any po
 
 **Mikeal Rogers:** We should plug the Sustain OSS conference. The Open Collective folks put that on together, and the last one was one of the best events that I've been to in terms of -- I mean, it was like an 8-hour version of RFC, with a lot of people in the room that you would wanna have as guests... It was a really, really good group of people and we got to talk about a lot of really good stuff.
 
-\[00:36:01.11\] My worry with it was always that it was gonna be too prescriptive, but it really wasn't. It was about everybody talking about the things that had worked for them and why. That's a way to learn and to create a lot of new leaders in open source.
+\[36:01\] My worry with it was always that it was gonna be too prescriptive, but it really wasn't. It was about everybody talking about the things that had worked for them and why. That's a way to learn and to create a lot of new leaders in open source.
 
 **Nadia Eghbal:** Yeah, definitely Sustain OSS. GitHub also does an event series called Maintainerati, which is maintainers getting together to talk about their shared challenges and things that they're facing... So that's another good channel if you're a maintainer.
 
@@ -258,7 +258,7 @@ This Friday we're gonna release a show with David Heinemeier Hansson on Stimulus
 
 Let's end by saying thanks... I mean, I know personally -- I've personally benefitted from knowing both of you, and then playing the behind-the-scenes role I personally have in this show's creating and execution and production, so it's been a lot of fun to coordinate things with you all, but at the same time take a back-seat to the content, and you two totally drove this thing. Mikeal, I know you'll compliment Nadia, and you'll back me up at least on this - your prior show notes are amazing; they should be published on their own, although I know they're not exactly public stuff. Not that they're bad or good, just that it's not a cohesive end-to-end document. For people like us, it really makes a lot of sense. So those are really appreciated.
 
-\[00:39:11.04\] I learned a lot of stuff from both of you, but all that to say thank you so much for working with us and caring about the community so much to put your time and effort into it, and then obviously to come back on as a finale to give a nice ending to a show like this, so thank you very much.
+\[39:11\] I learned a lot of stuff from both of you, but all that to say thank you so much for working with us and caring about the community so much to put your time and effort into it, and then obviously to come back on as a finale to give a nice ending to a show like this, so thank you very much.
 
 **Mikeal Rogers:** Thanks.
 

@@ -30,7 +30,7 @@
 
 **Johnny Boursiquot:** Is that something that you're sort of pushing internally, or did you just sort of bring it in as something to be addressed and then move on to other things? How does that relationship between the community and you advocating on our behalf to Google - how does that work, typically?
 
-**Steve Francia:** \[00:04:02.24\] As someone -- we didn't really go into my background yet, so I'll speak briefly to it, because it's a good introduction to this topic. Prior to joining Google and the Go team at Google, I ran engineering in open source at Docker, and before that I ran engineering and lead open source in the developer experience at MongoDB. At Mongo I first discovered Go, we adopted it for a number of our projects there, and I personally fell in love with the language and started working on some side projects, some of which have grown far larger than I ever would have expected them to.
+**Steve Francia:** \[04:02\] As someone -- we didn't really go into my background yet, so I'll speak briefly to it, because it's a good introduction to this topic. Prior to joining Google and the Go team at Google, I ran engineering in open source at Docker, and before that I ran engineering and lead open source in the developer experience at MongoDB. At Mongo I first discovered Go, we adopted it for a number of our projects there, and I personally fell in love with the language and started working on some side projects, some of which have grown far larger than I ever would have expected them to.
 
 [Hugo](https://github.com/gohugoio/hugo) is one of them, it's a website generator. When I sat down to write it, I knew how I wanted it to work, but there was libraries that I needed to create it that didn't exist yet, so I wrote a number of libraries in tandem with Hugo. One of them is called [Cobra](https://github.com/spf13/cobra), another is called [Viper](https://github.com/spf13/viper). Those have really been broadly adopted through the Go community. So I came in from having a unique perspective of using Go both for personal side projects, as well as in a company environment, and having had those experiences, I was pretty familiar with some of the pains and rough edges, and dependency management was one. I highlighted that one with the team... It wasn't something that the team wasn't already aware of.
 
@@ -45,7 +45,7 @@ There's still a long road ahead to delivering the right solution, but the work t
 
 **Carlisia Thompson:** Just to get that straight... Peter Bourgon was leading the design and the specs, and [Sam Boyer](https://twitter.com/sdboyer) is leading the implementation - is that right?
 
-**Steve Francia:** \[00:07:57.00\] I wouldn't frame it that way. I think Peter's leading the efforts. Peter is the one who really got the group together and ensured that they had meetings regularly and kind of set up the schedule. I'd call him more like a project lead. There's four people on the working group; I think Sam is definitely one of the active people in that, but there's four of them. I think they're all contributing quite a bit. I'm not sure if one of them is the lead of it over another, but I know they all meet regularly and are building stuff together.
+**Steve Francia:** \[07:57\] I wouldn't frame it that way. I think Peter's leading the efforts. Peter is the one who really got the group together and ensured that they had meetings regularly and kind of set up the schedule. I'd call him more like a project lead. There's four people on the working group; I think Sam is definitely one of the active people in that, but there's four of them. I think they're all contributing quite a bit. I'm not sure if one of them is the lead of it over another, but I know they all meet regularly and are building stuff together.
 
 **Carlisia Thompson:** Yeah, we had him talking to us two   I think.
 
@@ -73,7 +73,7 @@ So a lot of the things were reinforcement, but also giving a lot more accuracy i
 
 **Erik St. Martin:** Yeah, one of the things I was surprised to see was more than half of the participants use Go at work, and we can only speculate about a couple of years ago, but I'd have to venture a guess that there were a few big companies using Go in 2013-2014, but I'd say most people were probably hobbyists back then... It certainly wasn't half.
 
-**Steve Francia:** \[00:12:05.09\] Yeah, if we go back... It depends how far we go back, but there was certainly a point - probably around the first GopherCon - when it was clear that Go was of interest to a large group of people, and yet the adoption wasn't quite there. And that's a normal growth curve of any technology - companies won't adopt something if there's not people that can do it, that know how to use it, so it really has to start with people's interest.
+**Steve Francia:** \[12:05\] Yeah, if we go back... It depends how far we go back, but there was certainly a point - probably around the first GopherCon - when it was clear that Go was of interest to a large group of people, and yet the adoption wasn't quite there. And that's a normal growth curve of any technology - companies won't adopt something if there's not people that can do it, that know how to use it, so it really has to start with people's interest.
 
 I guess we were all fortunate that Go developed the interest, and as we've seen it progress, companies are adopting Go more and more readily, so more and more users are being paid to write Go.
 
@@ -92,7 +92,7 @@ We do a lot within the Go community, whether it's through meetups or through com
 
 I think there's some work that we need to do to make Go -- around the resources... Not really changing the language, but better resources and more support around our new users, but I think there's a lot of the core ingredients there that make Go  just a wonderful language, and people are gonna adopt it; people are already adopting it at a pretty brisk pace and I think that's gonna continue.
 
-**Carlisia Thompson:** \[00:16:20.15\] There is so much to talk about community, and there's a lot about community in the survey... One thing that caught my attention related to community is a question that says, "What is the biggest challenge facing the Go project today?" and the top answer with about two percent (there were many answers to that) was "community." I don't know what that could mean... Do you have an idea, Steve?
+**Carlisia Thompson:** \[16:20\] There is so much to talk about community, and there's a lot about community in the survey... One thing that caught my attention related to community is a question that says, "What is the biggest challenge facing the Go project today?" and the top answer with about two percent (there were many answers to that) was "community." I don't know what that could mean... Do you have an idea, Steve?
 
 **Steve Francia:** Yeah, so one of the challenges we have with the survey is it's really easy to present accurate results with multiple choice, or questions with already determined answers. And questions that had open text box answers - it's much harder to present that data. What we've done here is really kind of a simple metric - how often a given word appeared. In this specific question you're talking about, there really wasn't anything that could be gleaned by using that approach. There were just too many words and not enough consistency across them.
 
@@ -110,7 +110,7 @@ I think there was a bunch of comments that people expressed, and a lot of them w
 
 **Steve Francia:** I heard a few different questions there, and I'll try and address each of them. For me, one of the big surprises from the survey was often I think of Go - and I think most of us do - as a language that people convert to from a different language... Mostly because Go is such a new language, most people already learned another language and they're coming to Go. And they bring with them - just like learning any new language - the foundation.
 
-\[00:20:19.16\] I think one of the interesting things that I learned from the survey was one-third of the people who said that they had experience in Go said that that was the language they had the most experience in, more than any other language. This for me conveyed the idea that Go isn't just a language for people to convert to. It's a language that people are learning programming through, that they're coming to for the first time, or it's a language they've spent the most - I won't say most time in, because we asked expertise, and time isn't a very accurate measure of expertise, but it's the language that they felt they had the most knowledge about, and they felt the most comfortable using.
+\[20:19\] I think one of the interesting things that I learned from the survey was one-third of the people who said that they had experience in Go said that that was the language they had the most experience in, more than any other language. This for me conveyed the idea that Go isn't just a language for people to convert to. It's a language that people are learning programming through, that they're coming to for the first time, or it's a language they've spent the most - I won't say most time in, because we asked expertise, and time isn't a very accurate measure of expertise, but it's the language that they felt they had the most knowledge about, and they felt the most comfortable using.
 I think that was really interesting... I didn't expect that, and partly, I guess, I come in with my own perspective. I knew a good number of languages before Go, but it's interesting that a lot of users consider it their language of most experience. In fact, more users were in that bucket than any other bucket.
 
 **Erik St. Martin:** I'm actually really surprised by that, because I probably come in with the same preconceptions, that most of us have experiences with other languages, we have years of history with those languages, so it takes a long time for our skill in Go to overtake our knowledge in a language we came from. So that's actually really surprising to hear that. People are getting more experience and expertise in Go than the languages they came from.
@@ -119,11 +119,11 @@ I think that was really interesting... I didn't expect that, and partly, I guess
 
 **Erik St. Martin:** I think it's about time for our first sponsored break, but after that I wanna chat a little bit about the way people are using Go, because I found some of that stuff interesting, too. Our first sponsor for today is Backtrace.
 
-**Break:** \[00:22:54.20\]
+**Break:** \[22:54\]
 
 **Erik St. Martin:** Alright, we are back talking to Steve Francia, and we're talking about the 2016 survey results and some of the stuff that we find interesting there. Before the break I mentioned the uses of Go. One of the things that I actually found surprising was that web development actually seemed to overtake systems programming on there, because it felt at least in the early days that people struggled with how to do web stuff, because - as we were discussing - a lot of people come from JavaScript and Python and Ruby into Go, so they're used to having things like Django and Rails and things like that. So I actually find it interesting that web development is the leader in the uses.
 
-**Steve Francia:** \[00:24:25.24\] I'll clarify a little bit... We asked two questions, and they're easy to mix up because they're very related. One was "What areas do you work in?" and in that one, web development was overwhelmingly the number one option. If I think about that... I work for Google - is that a web development company? It probably is.
+**Steve Francia:** \[24:25\] I'll clarify a little bit... We asked two questions, and they're easy to mix up because they're very related. One was "What areas do you work in?" and in that one, web development was overwhelmingly the number one option. If I think about that... I work for Google - is that a web development company? It probably is.
 
 **Erik St. Martin:** That's fair.
 
@@ -143,7 +143,7 @@ But there's another question, "What do you write in Go?" and in this one "web se
 
 One of the things that I felt best from this was most of the challenges, the vast majority of the challenges identified were ones that were (I'll call them) growing pains for a new technology that's really emerging into the mainstream. Not many of the challenges were really fundamental things. In fact, I would posit that none of them were things that were fundamental to the language or the ecosystem. So it gave me a lot of confidence knowing, "Yes, like everything, we have challenges ahead of us, but to meet those challenges, it's gonna require effort from us and the community to do it." But they're not fundamental things that we can't fix.
 
-\[00:28:12.18\] I think if we look at the challenges, many of them would apply across all of those industries, or most of those industries. There were not many challenges that we looked at that applied only to one.
+\[28:12\] I think if we look at the challenges, many of them would apply across all of those industries, or most of those industries. There were not many challenges that we looked at that applied only to one.
 
 **Carlisia Thompson:** And what challenges are these that you're thinking about?
 
@@ -161,7 +161,7 @@ I think that there's a lot that we can do to just surface some of the great thin
 
 **Steve Francia:** There isn't that I'm aware of today, but I believe that there will be some time during 2017, or at least I'd like there to be. Go is changing - or I'll say the audience for Go is changing a bit. If you look at our web page and the material around it, it hasn't changed in a number of years. It's really catered towards the early adopter, and the early adopter is not our audience anymore. The early adopters adopted it, and now we're going for the later adopters, the more mainstream adopters, and more of the decision makers. So I think there's work to be done on adjusting our messaging to match the audience of today, and I think case studies is a part of that.
 
-**Erik St. Martin:** \[00:32:14.10\] Yeah, and it's difficult too, even just in the convincing teammates thing. Even people who have been in the Go world for a number of years, it's "Give me your elevator pitch for why you should use Go", and it's really hard to think of just like a silver bullet; it's all the little things combined that make it so great to work with.
+**Erik St. Martin:** \[32:14\] Yeah, and it's difficult too, even just in the convincing teammates thing. Even people who have been in the Go world for a number of years, it's "Give me your elevator pitch for why you should use Go", and it's really hard to think of just like a silver bullet; it's all the little things combined that make it so great to work with.
 
 **Steve Francia:** I don't wanna misquote our users, but I think what came through from reading all the commentary was people that use Go really love it. I think it was pretty clear, like "If you try Go, you'll see why", but it's hard to convey that until you try it. And I think you articulated well why - it's not like there's two things that we can -- "Well, Go does this, so you should use it." It's really a bunch of little things that come together to really make a great experience.
 
@@ -180,7 +180,7 @@ One area we're trying to improve is the ability for people to contribute to the 
 
 We're also trying to build more open and inclusive - we call them community working groups, where people are in an organized working group and are working towards a solution, or to address a need in Go.
 
-\[00:36:07.06\] This is somewhat new territory for Go, and every community need to figure out how it's going to do this. That's in the place that we're in, we're trying to figure it out... We're gonna run a little experiment over the next few months with our first inclusive working group, which you'll be hearing about pretty soon. With that, we're hoping to be the prototype that we can use more and more.
+\[36:07\] This is somewhat new territory for Go, and every community need to figure out how it's going to do this. That's in the place that we're in, we're trying to figure it out... We're gonna run a little experiment over the next few months with our first inclusive working group, which you'll be hearing about pretty soon. With that, we're hoping to be the prototype that we can use more and more.
 
 Other things that I'm working on is trying to -- well, first, just make sure that all of the events around the world are supported. There's a number of Go conferences which all of you on the call know about, as all of you are responsible for at least one of them, and so am I. So we're all responsible for at least one of them... So there's the conferences, and then there's meetups all over the world. We're trying to get a program set up to support those and make sure that they have all the things that they need.
 
@@ -190,11 +190,11 @@ A lot of these things are somewhat interactive and experimental. We're gonna try
 
 **Erik St. Martin:** One of the things you mentioned was actually contributing, and I wanted to dig into that a little bit... But first, let's take our second sponsored break. Our second sponsor for today is Ultimate Go.
 
-**Break:** \[00:38:07.07\]
+**Break:** \[38:07\]
 
 **Erik St. Martin:** Alright, and we're back, talking to Steve Francia. Before we took the sponsored break, we were talking about your goals for this year, and you had mentioned contribution to the project. That was really interesting, to see how many people felt that they weren't welcome. It really took me off-guard too, because I've always thought the Go community was very welcoming. Did you get anything from the comments about why people might not have felt welcome? It's overwhelming to look at the project and figure out how to contribute, or is it the community?
 
-**Steve Francia:** \[00:39:42.02\] I'll say what my opinion is about this; I can't speak to if the survey responses -- because we didn't ask this specific question as a free text response, but I think one of the things is, if you look at the Go team... This is my personal opinion - I look at the Go team and I see Rob Pike, Robert Griesemer and Ken Thompson and Brad Fitzpatrick and Russ Cox... All of these people - Ian Lance Taylor - just luminaries who had long careers of really successful technologies and books, and it's easy to be intimidated and feel like you can't live up to it, or "What value could I add to the efforts?"
+**Steve Francia:** \[39:42\] I'll say what my opinion is about this; I can't speak to if the survey responses -- because we didn't ask this specific question as a free text response, but I think one of the things is, if you look at the Go team... This is my personal opinion - I look at the Go team and I see Rob Pike, Robert Griesemer and Ken Thompson and Brad Fitzpatrick and Russ Cox... All of these people - Ian Lance Taylor - just luminaries who had long careers of really successful technologies and books, and it's easy to be intimidated and feel like you can't live up to it, or "What value could I add to the efforts?"
 
 I was talking to [Katrina Owen](https://twitter.com/kytrinyx) about this, and I asked her "How do you feel?" and she said, "I feel like as long as I'm one of the smartest people alive, that I'm welcome to contribute." I'm paraphrasing her, those weren't her exact words. I kind of felt the same way, and then I became a member of the Go team, and I thought to myself, "Well, I guess I am smart enough", but I remember feeling that way before I joined the team. I remember going through this experience of "Well, they hired me... I suppose I am smart enough, and now I'm starting to make contributions to the project." But I think it is intimidating, and I think there's also this sense of "They don't need my help." And I wanna dispel both of those myths.
 
@@ -208,7 +208,7 @@ So regardless of your technical experience, there's different areas that you're 
 
 **Steve Francia:** This is also one of the few questions -- because we were able to segment the data in lots of different ways and try and learn from that... This was one of the few questions where people that were not active Go users - as defined by they didn't select "I use Go at work" or "I use Go not at work"... So if they didn't select either of those options, this was one of the questions that they actually scored better on. So non-active Go users felt more welcome to contribute to the project than active Go users.
 
-\[00:44:18.26\] What conclusions can we draw from that? I don't think we can draw exact conclusions, but I think we can speculate that it's likely because they aren't as familiar with the process. You always feel welcome until you're closer, and then you recognize that "Oh, this is kind of intimidating."
+\[44:18\] What conclusions can we draw from that? I don't think we can draw exact conclusions, but I think we can speculate that it's likely because they aren't as familiar with the process. You always feel welcome until you're closer, and then you recognize that "Oh, this is kind of intimidating."
 
 **Erik St. Martin:** Yeah, and I think some of the other stuff too is there's a lot of quick wins and stuff in the GitHub issues. Some of the Gerrit stuff can get confusing, but there's also a lot of formal papers that go back and forth, and working documents where people will work on... You know, you always see that the big changes come through that way, and a lot of people aren't used to working in that process either. They're used to taking a ticket and kind of working on it, as opposed to collaborating on a big document or specification before digging in. So I wonder if some of that also adds to the intimidation of what's required to be involved.
 
@@ -220,7 +220,7 @@ Definitely, part of it is recognize that they're trying to make you or your cont
 
 **Steve Francia:** There's also an observation that I've made over the last few months: if there's not a right answer that emerges, the Go team leadership is not against postponing it until there is one. So the need to have something versus the need to have the right thing... Again, this for me is a bit of a culture shift. There's a lot of things where it's like "It would be nice to have this, but we don't really know the right way to do it yet. We're gonna continue to think about it, but we're okay with waiting until we have the right answer."
 
-**Erik St. Martin:** \[00:48:09.13\] That's one of the things when we talk about the little things that are part of the language and the way the team and the community operates... I think that that's one of the things we can appreciate, because Go doesn't have a lot of baggage and weird quirks because of these things that were just kind of rushed, and now there's tons of code in the wild that requires it, so it can't be removed or fixed.
+**Erik St. Martin:** \[48:09\] That's one of the things when we talk about the little things that are part of the language and the way the team and the community operates... I think that that's one of the things we can appreciate, because Go doesn't have a lot of baggage and weird quirks because of these things that were just kind of rushed, and now there's tons of code in the wild that requires it, so it can't be removed or fixed.
 
 **Johnny Boursiquot:** \*coughs\* JavaScript \*coughs\*.
 
@@ -238,7 +238,7 @@ From the outside looking in, you're thinking "Wow, is the Go team mad at him for
 
 **Steve Francia:** Yeah, I think you said it well. This is something that I know the Go team is actually working on - the fact is people are taking a step of courage to propose something or to send a patch, and they have a lot of emotion sometimes riding on that, and when you have someone that you admire (I will say) shoot you down - even though that's not what's happening; that's the way it sometimes feels - you definitely react differently.
 
-\[00:52:10.20\] I know as a team, we've been working on how to communicate in a way that's encouraging. It's a work in progress, but in my 6-7 months here I've seen improvement of that; people are not just saying no, they're saying "Here's why no" or "Here's what we need for this to go further." So to give them a path forward, rather than just a wall.
+\[52:10\] I know as a team, we've been working on how to communicate in a way that's encouraging. It's a work in progress, but in my 6-7 months here I've seen improvement of that; people are not just saying no, they're saying "Here's why no" or "Here's what we need for this to go further." So to give them a path forward, rather than just a wall.
 
 I think that's a big thing for us that the Go team is learning - people take our words with a lot more weight than sometimes we realize. We're trying to be better about understanding people's feelings. That's something we're working on.
 
@@ -258,7 +258,7 @@ I know coming for me personally, getting to see and watch the Go team interact w
 
 **Johnny Boursiquot:** Yeah, definitely [Go Buffalo](https://github.com/gobuffalo/buffalo). I've been playing around with it to sort of stand up a project that I've taken on, and I was quite surprised how easy it was to get going... I mean, obviously, beyond reading just the introductory stuff on the main page (I think it's gobuffalo.io), it was really quite easy to get going. So kudos to [Mark Bates](https://twitter.com/markbates), the lead contributor to that. Very good job! I'm looking forward to contributing something back to that.
 
-**Erik St. Martin:** \[00:56:03.08\] How about you, Steve? Did you wanna give a shoutout to anybody?
+**Erik St. Martin:** \[56:03\] How about you, Steve? Did you wanna give a shoutout to anybody?
 
 **Steve Francia:** Yeah, for me the one project that I use more than any other project is Fatih's [Vim-go](https://github.com/fatih/vim-go) project. I've been a long-time user of Vim, and one of my projects that's been popular for a while is my Vim Distribution, which is really just my own personal Vim configuration that happens to be adopted by tens of thousands of people. And that's really what happened, I'm not being short when I say that. It wasn't intended to be a project, it was just my Vim configuration. But to see what Fatih has done with the Go integration, it's just phenomenal... The amount of time and effort that he puts into it; it really benefits me a lot, and as the survey demonstrated, a lot of our users. I was shocked to see how many users were Vim users in Go.
 

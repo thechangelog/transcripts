@@ -1,4 +1,4 @@
-**Gerhard Lazu:** \[00:02:33.24\] So I really wanted to talk to you about this topic of Kaizen. Kaizen, for those that's the first time they hear this, is the concept of the art of self-improvement specifically. And that is really powerful, because it's the best way that you have to improve yourself, and to always think about "How can I do this better?" It all starts with "How can I do this better?" So with that in mind, what I wanted us to do every tenth episode was to reflect on what can we improve for the application, for our setup, but also the show, because - isn't that the best way of improving? I think it is...
+**Gerhard Lazu:** \[02:33\] So I really wanted to talk to you about this topic of Kaizen. Kaizen, for those that's the first time they hear this, is the concept of the art of self-improvement specifically. And that is really powerful, because it's the best way that you have to improve yourself, and to always think about "How can I do this better?" It all starts with "How can I do this better?" So with that in mind, what I wanted us to do every tenth episode was to reflect on what can we improve for the application, for our setup, but also the show, because - isn't that the best way of improving? I think it is...
 
 **Adam Stacoviak:** Kaizen. I love it.
 
@@ -12,7 +12,7 @@
 
 **Gerhard Lazu:** The reason why I care so much about this is that having been part of Pivotal, this company which isn't anymore - it was acquired by VMware last year or two years ago - is that one of the core principles was to always be improving. "Be kind" was there as well. But always be improving was something that was embodied in the retrospectives that we used to have every single week at the end of the week. And this was good, because what worked well, what didn't work so well? Anything that people wanna discuss? And that made sure that everybody was in sync with problems, but also the wins. I think that's important.
 
-\[00:04:05.19\] So having done it for 5, 6, 7 years, it's so deep-ingrained in me I cannot not do it. It's part of me. And I do it continuously. And I think the infrastructure setup that we've been rolling for some number of years has been an embodiment of that. Every year it has been improving. It was rooted in this principle.
+\[04:05\] So having done it for 5, 6, 7 years, it's so deep-ingrained in me I cannot not do it. It's part of me. And I do it continuously. And I think the infrastructure setup that we've been rolling for some number of years has been an embodiment of that. Every year it has been improving. It was rooted in this principle.
 
 Now, one thing that we did in the past differently is that we improved, or at least we shared those improvements once per year. It was a yearly thing. And one of the ideas for the show was to do it more often, to improve more often. So we can improve in smaller steps, but also figure things out a lot, lot quicker, what works and what doesn't work, rather than once a year.
 
@@ -44,7 +44,7 @@ So - Fastly. I would like to mention that, because Fastly, our partner - amazing
 
 **Gerhard Lazu:** Well, apparently, the assets that were served by AWS had something to do with it. I don't know exactly in which capacity, but AWS was serving certain emoji assets, and Fastly was part of that... And emojis stopped working for Slack, so I think in the Slack setup somewhere -- I mean, everybody uses Slack to communicate these days, because everybody's at home these days, or most of us are at home these days. So you couldn't use emojis in Slack anymore. They stopped working.
 
-**Jerod Santo:** \[00:08:05.15\] That makes more sense than "The emojis just stopped working globally", across the entire world of devices... But yeah, inside Slack.
+**Jerod Santo:** \[08:05\] That makes more sense than "The emojis just stopped working globally", across the entire world of devices... But yeah, inside Slack.
 
 **Gerhard Lazu:** Sensational. It's news, it has to be sensational. \[laughter\]
 
@@ -82,7 +82,7 @@ I was basically chilling, it was like a day off... It was a great one. I was in 
 
 **Gerhard Lazu:** I remember that, actually. I remember that, because I remember looking at the stats, and the stats were down, and I was thinking "I wanna talk to Jerod about this." So if there's one lesson to learn from this, we need to double up. So everything that we do, we need to do two of that thing. Say like monitoring - we have two monitoring systems. Because sometimes Grafana Cloud has an issue, and we want to still know -- and when I say Grafana Cloud, I mean the black box, all the exporters... There was a recent one as well when they pushed updates, sometimes things are offline for a few minutes... And it makes you think that a website is offline, but it's not. Or when it is offline, you don't get anything. So we used Pingdom as a backup, and that helps. So stats - I think it's great to have stats from Fastly, but I don't think we can rely only on those stats. I think we need more.
 
-**Jerod Santo:** \[00:12:14.26\] Well, it's one of those ROI kind of conversations, and I think this is a good conversation for Ship It, like "What's worth doing?" and the fact is that in our five years of being on Fastly, this is the first incident they've had... And if it didn't happen to be right when we released a popular episode of the Changelog -- if it was just like a Saturday and we missed some downloads, I wouldn't care all that much. At the end of the day, I know that show is popular, so it's not really changing my life... I just know it was popular because people reacted that way, versus looking at the download stats.
+**Jerod Santo:** \[12:14\] Well, it's one of those ROI kind of conversations, and I think this is a good conversation for Ship It, like "What's worth doing?" and the fact is that in our five years of being on Fastly, this is the first incident they've had... And if it didn't happen to be right when we released a popular episode of the Changelog -- if it was just like a Saturday and we missed some downloads, I wouldn't care all that much. At the end of the day, I know that show is popular, so it's not really changing my life... I just know it was popular because people reacted that way, versus looking at the download stats.
 
 So the question becomes "What does it take to get that redundancy? What does that redundancy cost, and what does it gain?" And in the case of stats, I'm not sure what side of the teeter-totter we actually end up on, because the way it works now as Fastly streams the logs of all of the requests to the mp3 files over to S3, and then we take those logs, which are formatted in a specific way, parse them, and then bring them locally into our database, and it's reproducible in that way off of S3. So we can just suck down the same logs from S3 whenever we want, re-parse them, recalculate...
 
@@ -100,7 +100,7 @@ But what would it take to get Linodes doing the same thing, or changing the way 
 
 Now, the pipeline that orchestrates all of that will be interesting... But this is not something that's gonna happen even like in a year. It's slowly, gradually... It's maybe a direction that we choose to go towards... And maybe we realize "You know what? Actually, in practice, Cloudflare and Fastly - it's just too complicated." Because only once you start implementing you realize just how difficult it is.
 
-**Adam Stacoviak:** \[00:15:58.03\] Yeah, that's that cost that Jerod was talking about - how much does the redundancy cost, and how much does it gain you?
+**Adam Stacoviak:** \[15:58\] Yeah, that's that cost that Jerod was talking about - how much does the redundancy cost, and how much does it gain you?
 
 **Gerhard Lazu:** So from a CDN perspective we just basically have multiple DNS entries; you point both Fastly and Cloudflare to the same origin - or origins in this case... \[unintelligible 00:16:14.15\] The configuration is maybe slightly different, but we don't have too many rules in Fastly. How do they map to Cloudflare? I don't know. But again, there's not that much stuff. I think the biggest problem is around stats. We keep hitting that.
 
@@ -132,7 +132,7 @@ Now, the pipeline that orchestrates all of that will be interesting... But this 
 
 **Jerod Santo:** Okay, good.
 
-Break: \[00:19:16.04\]
+Break: \[19:16\]
 
 **Gerhard Lazu:** So you were asking, Jerod, what is next on our hill... One of the things I learned from the Fastly incident is that we don't have anything to manage incidents. When something is down, how do we let users know what is going on? How do we learn from it in a way that we can capture and then share amongst ourselves and then also others?
 
@@ -190,7 +190,7 @@ So what I would like to do is first of all capture this problem in a way that we
 
 **Gerhard Lazu:** No, that was actually me... But the token which I deleted was the one for the old infrastructure. There were two tokens.
 
-**Adam Stacoviak:** \[00:24:07.02\] I see, okay. So this happened -- do you know when, roughly? Can you assume at least?
+**Adam Stacoviak:** \[24:07\] I see, okay. So this happened -- do you know when, roughly? Can you assume at least?
 
 **Gerhard Lazu:** June 19th sounds right. But a single token was deleted and we had two.
 
@@ -236,7 +236,7 @@ So what I would like to do is first of all capture this problem in a way that we
 
 **Jerod Santo:** \[laughs\] Everywhere where you can get an emoji rendered, we're there...
 
-**Gerhard Lazu:** \[00:27:54.18\] Exactly. There are a couple of things here. For example, one thing which this reminded me is that we do not declare - and this is a bit of a chicken and egg situation, where we should absolutely manage the tokens on DNSimple site with something like for example Kubernetes (why not?), which continuously declares those. Now, obviously you still need a token that creates tokens. But if you have that -- we should have a token that it needs \[unintelligible 00:28:23.09\]
+**Gerhard Lazu:** \[27:54\] Exactly. There are a couple of things here. For example, one thing which this reminded me is that we do not declare - and this is a bit of a chicken and egg situation, where we should absolutely manage the tokens on DNSimple site with something like for example Kubernetes (why not?), which continuously declares those. Now, obviously you still need a token that creates tokens. But if you have that -- we should have a token that it needs \[unintelligible 00:28:23.09\]
 
 I think that's a bit interesting, because then what do you do from the perspective of security? It can't give itself access to everything, and then delete all the DNS records. That's not good. So some thought needs to go there... But the idea being is that even like with Fastly, for example, when we integrate, we still have manual things, manual integrations; we don't declare the configuration. That's something which I would like us to do more of... And maybe also have some checks that would -- I mean, if you don't have DNS or something isn't right, like in this case you don't have access to DNS, that's a problem, and you would like to know about it as soon as possible. So the token being deleted on the 19th, and the failure only happening two weeks later almost, end of June - that is not great, because it removes the moment that you've done something, which... Maybe it was me. Maybe I have deleted by mistake the wrong token. But I remember there were two... Who knows. Maybe I've seen two tokens when there was just one. It's possible. And then when that happened, it makes sense that two weeks later that this thing starts failing... But because it took so long for this failure to start happening, it was really difficult to reconcile the two and to link the two together.
 
@@ -250,7 +250,7 @@ From a monitoring perspective, you can check that things are the way you expect 
 
 **Gerhard Lazu:** It has a couple of elements... But the element that I'm thinking about based on your initial question was having the concept of a runbook. I know I have a problem - great, I'm going to communicate my problem. So what do I do? And you codify those steps in something which is called a runbook. For example, if Jerod had to roll the DNS, what would he do? How would he approach it? It didn't have to be me, but the problem is, as you very well spotted, is that I am the one who has the most context in this area, and it would take Jerod longer to do the same steps. Make files plural, we have how-to's.
 
-\[00:32:00.08\] So how to rotate credential? This is a step by step process, like seven steps or four steps, however many it's now, how to basically rotate a specific credential. So we need something similar to that, but codified in a way that first of all - there's an incident; these people need to know about it, maybe including our listeners... Like, "Hey, we are down. We know we're down, we're working on it. We'll be back shortly." And then one of us, whoever is around - because maybe one of us is on holiday. And if I'm on holiday, what do you do? What are the steps that you follow to restore things? And as automated as things are, there's still elements... I mean, ROI. Not everything is automated, because it's not worth automating everything, or it's impossible.
+\[32:00\] So how to rotate credential? This is a step by step process, like seven steps or four steps, however many it's now, how to basically rotate a specific credential. So we need something similar to that, but codified in a way that first of all - there's an incident; these people need to know about it, maybe including our listeners... Like, "Hey, we are down. We know we're down, we're working on it. We'll be back shortly." And then one of us, whoever is around - because maybe one of us is on holiday. And if I'm on holiday, what do you do? What are the steps that you follow to restore things? And as automated as things are, there's still elements... I mean, ROI. Not everything is automated, because it's not worth automating everything, or it's impossible.
 
 **Jerod Santo:** Right.
 
@@ -296,7 +296,7 @@ From a monitoring perspective, you can check that things are the way you expect 
 
 **Gerhard Lazu:** Yeah. I think it's just specific to the service.
 
-**Adam Stacoviak:** \[00:36:04.06\] Yeah. And you go there and you're like "Oh man, there's never been a runbook for this. I'm screwed. Call Gerhard" or "Call so-and-so", you know?
+**Adam Stacoviak:** \[36:04\] Yeah. And you go there and you're like "Oh man, there's never been a runbook for this. I'm screwed. Call Gerhard" or "Call so-and-so", you know?
 
 **Gerhard Lazu:** Yeah, I suppose... But I think if you operate a platform long enough or a system long enough, you see many, many things, and it just progresses to the point that -- let's imagine that we did have multi-cloud. Let's imagine that Linode was completely down, and the app was running elsewhere. We wouldn't be down. Okay, we would still be in a degraded state, but things would still be working. If we had multi-CDN, Fastly is down - well, Cloudflare is up. It rarely happens that both are down at the same time. So then it's degraded, but it still works, so it's not completely down.
 
@@ -324,7 +324,7 @@ In this case, for example, we didn't have this, but right now if the backend goe
 
 Some are hard, some are dead simple, and sometimes you may even be surprised and say "You know what - I would not have guessed that this platform is so much better, so why are we complicating things using this other thing?" But you don't know until you try it. And you can't be trying these things all the time, so you need those innovators that are out there. And if for example we have something stable that we depend on, something that serves us well, we can try new things out in a way that doesn't disrupt us completely. And I think we have a very good setup to do those things.
 
-**Adam Stacoviak:** \[00:40:05.26\] This reminds me of Sesame Street. Have either of you watched Sesame Street?
+**Adam Stacoviak:** \[40:05\] This reminds me of Sesame Street. Have either of you watched Sesame Street?
 
 **Gerhard Lazu:** Not that I remember...
 
@@ -340,7 +340,7 @@ Some are hard, some are dead simple, and sometimes you may even be surprised and
 
 **Adam Stacoviak:** This makes sense to do, in some cases. Does it work for me? It depends. Maybe. Maybe not.
 
-Break: \[00:41:31.29\]
+Break: \[41:31\]
 
 **Gerhard Lazu:** So I would like us to talk about the specifics, three areas of improvements for the changelog.com setup. Not for the whole year 2022, but just like over the next couple of months. Top of my list is the incident management, so have some sort of incident management... But that seems like a on-the-side sort of thing, and we've already discussed that at some length.
 
@@ -348,7 +348,7 @@ The next thing is I would like to integrate Fastly logging. This is the origin, 
 
 So what I mean by that is like when a request hits Fastly, that request has to be proxied to a node balancer running in Linode, and that has to be proxied to Ingress NGINX running in Kubernetes, and that has to be proxied to eventually our instance of Changelog. How does that work? How does that interaction work? How many requests do we get? How many fail? When are they slow? Stuff like that. So have some SLO's uptime as well, but also how many requests fail, and what is the 99th percentile for every single request? That's what I would like to have.
 
-**Jerod Santo:** \[00:44:00.28\] How hard is that to set up?
+**Jerod Santo:** \[44:00\] How hard is that to set up?
 
 **Gerhard Lazu:** Not too hard. The only problematic area is that Fastly doesn't support sending logs directly to Grafana Cloud. So I looked into this a couple of months ago, and the problem is around authenticating the HTTPS origin where the logs will be sent... Because it needs to push logs, HTTP requests. So how do we verify that we own the HTTPS origin, which is Grafana Cloud? Well, we don't. So we don't want to DDOS any random HTTPS endpoint, because that's what we would do if we were to set this up.
 
@@ -410,7 +410,7 @@ So we need to set up - and again, this is in the support you get with Fastly, wh
 
 **Gerhard Lazu:** Well, then we've hit another interesting thing, in that I really wanna try Honeycomb out. I've signed up, and I wanna start sending some events their way and just start using Honeycomb to see what insights we can derive from the things that we do.
 
-\[00:47:49.08\] One of the things that I really wanna track with Honeycomb - and I wasn't expecting to discuss this, but it seems to be related, so why not... I wanna visualize how long it takes from git push to deploy. Because there are many things that happen in that pipeline, and from the past episodes, this is really important. This is something that teams are either happy or unhappy about. The quicker you can see your code out in production, the happier you will be. Does it work? Well, you wanna get it out there quickly. Right now it can take anywhere between 10 and 17-18 minutes. Even 20. Because it depends on so many parts. Circle CI, sometimes the jobs are queued. The backups that run - well, sometimes they can run 10 seconds more. The caches that we hit in certain parts, like images being pulled, whatever - they can be slower. Or they can be cold, and then have to be warmed up.
+\[47:49\] One of the things that I really wanna track with Honeycomb - and I wasn't expecting to discuss this, but it seems to be related, so why not... I wanna visualize how long it takes from git push to deploy. Because there are many things that happen in that pipeline, and from the past episodes, this is really important. This is something that teams are either happy or unhappy about. The quicker you can see your code out in production, the happier you will be. Does it work? Well, you wanna get it out there quickly. Right now it can take anywhere between 10 and 17-18 minutes. Even 20. Because it depends on so many parts. Circle CI, sometimes the jobs are queued. The backups that run - well, sometimes they can run 10 seconds more. The caches that we hit in certain parts, like images being pulled, whatever - they can be slower. Or they can be cold, and then have to be warmed up.
 
 So we don't really know, first of all -- I mean, in my head I know what they are, all the steps, but you and Jerod don't know. What does the git push have to go through before it goes out into prod, and what are all the things that may go wrong? And then which is the area or which is the step which takes the longest amount of time and also is the most variable? Because that's how we focus on reducing this time to prod. And Honeycomb - they're championing this, left, right and center.
 
@@ -436,7 +436,7 @@ Charity Majors - I don't know which episode, but she will be on the show very so
 
 **Gerhard Lazu:** Yes.
 
-**Jerod Santo:** \[00:51:41.26\] It's what you do. Cache invalidation is one of the hard things in computer science. So it's slow, but it's simple. It's like, "We'll just rebuild it every time." It's like, why does React re-render the entire DOM every time? Well, it doesn't anymore, because that was too slow, so it does all this diffing, and stuff. But there's millions and millions of dollars in engineering spent in figuring out how React is going to smartly re-render the DOM, right? It's the same thing. It's like, there's so many little what-if's once you start only doing -- and this is why Gatsby spent years on their feature, partial builds. Because building \[unintelligible 00:52:21.22\] which is static site generator - building a 10,000 page static site with Gatsby was slow; I just made up the word10,000, but... You know, 100,000, whatever the number is - it was slow, and so it's like "Well, couldn't we just only build the parts that changed?" Like what Adam just said. It's like "Yeah, we could." But then they go and spend two years building that feature, and VC money, and everything else to get that done. So it's like a fractal of complexity.
+**Jerod Santo:** \[51:41\] It's what you do. Cache invalidation is one of the hard things in computer science. So it's slow, but it's simple. It's like, "We'll just rebuild it every time." It's like, why does React re-render the entire DOM every time? Well, it doesn't anymore, because that was too slow, so it does all this diffing, and stuff. But there's millions and millions of dollars in engineering spent in figuring out how React is going to smartly re-render the DOM, right? It's the same thing. It's like, there's so many little what-if's once you start only doing -- and this is why Gatsby spent years on their feature, partial builds. Because building \[unintelligible 00:52:21.22\] which is static site generator - building a 10,000 page static site with Gatsby was slow; I just made up the word10,000, but... You know, 100,000, whatever the number is - it was slow, and so it's like "Well, couldn't we just only build the parts that changed?" Like what Adam just said. It's like "Yeah, we could." But then they go and spend two years building that feature, and VC money, and everything else to get that done. So it's like a fractal of complexity.
 
 **Gerhard Lazu:** Yeah.
 
@@ -468,7 +468,7 @@ Charity Majors - I don't know which episode, but she will be on the show very so
 
 **Gerhard Lazu:** I would be, right? \[laughter\] This is exactly right, yeah.
 
-**Jerod Santo:** \[00:55:47.11\] "You've now left the '90s..." Maybe I should explain why we're using local storage. Some of it is actually just technical debt. This was a decision I made when building the platform back in 2015, around how we handle uploads. Not image uploads, but mp3 uploads... Which is one of the major things that we upload and process. And these mp3's are anywhere from 30 to 100 megabytes. And once we have them, we also want to do post-processing, like post-upload processing on the mp3's. Because we go about rewriting ID3 tags, and doing fancy stuff based on the information in the CMS, not a pre-upload thing. So it's nice for putting out a lot of podcasts, because if Gerhard names the episode and then uploads the file to the episode, the mp3 itself is encoded with the episode's information without having to duplicate yourself.
+**Jerod Santo:** \[55:47\] "You've now left the '90s..." Maybe I should explain why we're using local storage. Some of it is actually just technical debt. This was a decision I made when building the platform back in 2015, around how we handle uploads. Not image uploads, but mp3 uploads... Which is one of the major things that we upload and process. And these mp3's are anywhere from 30 to 100 megabytes. And once we have them, we also want to do post-processing, like post-upload processing on the mp3's. Because we go about rewriting ID3 tags, and doing fancy stuff based on the information in the CMS, not a pre-upload thing. So it's nice for putting out a lot of podcasts, because if Gerhard names the episode and then uploads the file to the episode, the mp3 itself is encoded with the episode's information without having to duplicate yourself.
 
 So because of that reason, and because I was new to Elixir and I didn't know exactly the best way to do it in the cloud, I just said "Let's keep it simple. We're just gonna upload the files to the local disk." We had a big VPS with a big disk on it, and were like "Don't complicate things." So that's what we did.
 
@@ -498,7 +498,7 @@ I think in this case, this S3 and the database, which is not managed, have the p
 
 **Adam Stacoviak:** Does this Arc thing also impact the chaptering stuff we've talked about in the past, Jerod? Wasn't that also part of it?
 
-**Jerod Santo:** \[00:59:58.02\] There is an angle into that... So for the listeners, the chaptering -- so the mp3 spec... Actually, it's the ID3 version 2 spec, which is part of the way mp3's work - it's all about the headers - supports chaptering. ID3 v1 does not. ID3 v1 is very simple. It's like a fixed frame kind of a thing... And ID3v2 is complicated more so, but it has a lot more features, one of which was chaptering, which - chapters are totally cool. You know, Ship It has roughly three segments - well, we could throw a chapter into the mp3 for each segment, and if you wanna skip to segment three \[unintelligible 01:00:31.27\] you could. We would love to build that into our platform, because then we can also represent those chapters on the web page. So you can have timestamps, and click around... Lots of cool stuff.
+**Jerod Santo:** \[59:58\] There is an angle into that... So for the listeners, the chaptering -- so the mp3 spec... Actually, it's the ID3 version 2 spec, which is part of the way mp3's work - it's all about the headers - supports chaptering. ID3 v1 does not. ID3 v1 is very simple. It's like a fixed frame kind of a thing... And ID3v2 is complicated more so, but it has a lot more features, one of which was chaptering, which - chapters are totally cool. You know, Ship It has roughly three segments - well, we could throw a chapter into the mp3 for each segment, and if you wanna skip to segment three \[unintelligible 01:00:31.27\] you could. We would love to build that into our platform, because then we can also represent those chapters on the web page. So you can have timestamps, and click around... Lots of cool stuff.
 
 Unfortunately, there's not an ID3v2 Elixir library, and the way that we do our ID3 tags right now, by way of Arc, is with FFmpeg. So we shell out FFmpeg, and we tell FFmpeg what to do to the mp3 file, and it does all the ID3 magic, and then we take it from there.
 

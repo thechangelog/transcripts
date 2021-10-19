@@ -20,7 +20,7 @@ I should mention, our sister podcast, our rivals, those gophers over there at Go
 
 **Suz Hinton:** \[laughs\]
 
-**Jerod Santo:** \[00:03:54.17\] Let's get into the content before I say more ridiculous sentences, and talk about working from home. We should also mention, there's another aspect to this particular time, in that we're not all just working from home, we're also in more stressful circumstances than ever. So as far as the panel here goes, and our lives, and how we do our work, maybe we just go around real quick and share what our normal day is like, and what we're up to now. I'll start...
+**Jerod Santo:** \[03:54\] Let's get into the content before I say more ridiculous sentences, and talk about working from home. We should also mention, there's another aspect to this particular time, in that we're not all just working from home, we're also in more stressful circumstances than ever. So as far as the panel here goes, and our lives, and how we do our work, maybe we just go around real quick and share what our normal day is like, and what we're up to now. I'll start...
 
 I've been working from home for my entire career, so I have a lot of experience at this. I'm thankful that my life right now doesn't feel all that different than it usually does, so I'm probably the least affected from the isolation, because I'm so used to it... But I know I'm a little rare in that way. How about you, Suz - are you really a worker-from-homer?
 
@@ -54,7 +54,7 @@ I have switched my schedule now to starting at 4 AM and getting off around noon,
 
 **Suz Hinton:** New shift, next shift
 
-**Nick Nisi:** \[00:07:57.05\] Right... \[laughter\]
+**Nick Nisi:** \[07:57\] Right... \[laughter\]
 
 **Jerod Santo:** Next shift, you're going to start off the daytime shift... So one thing that's nice at least is we're not completely talking out of the air. All of us have extensive experience working from home, and have dealt with a lot of the challenges. There are benefits, there are drawbacks; as with anything in the world of software, it depends... So we thought we would talk a little bit about where we work, and then how we work, and then how we not work, and maybe some of the pros and cons, giving tips and tricks along the way, or sharing our experiences...
 
@@ -76,7 +76,7 @@ But in the basement it was hellish. It was actually harder probably on my wife t
 
 But for the kids, for them to understand - which we all just waved at Nick's daughter as she walked through the room - they don't get it. They just see their parent and they're like "Hi!", and it's like "Well, you've just ruined my flow. It's gonna take me 20 minutes to get back where I was. Thanks... But you're cute, so I'll forgive you."
 
-**Nick Nisi:** \[00:11:54.14\] Yeah, that is a challenge. If you hear kids in the background, it's because I have no choice right now. They can't go anywhere, I can't go anywhere... \[laughter\] But we're all having fun together. I'm wearing Spiderman pajamas, she's wearing Spiderman pajamas, so... You know, we're having fun.
+**Nick Nisi:** \[11:54\] Yeah, that is a challenge. If you hear kids in the background, it's because I have no choice right now. They can't go anywhere, I can't go anywhere... \[laughter\] But we're all having fun together. I'm wearing Spiderman pajamas, she's wearing Spiderman pajamas, so... You know, we're having fun.
 
 **Kevin Ball:** Yeah. And once again, many folks who are being thrust right now into working from home, at the last minute, no ability to prepare or do anything like that... I've seen some pretty inventive setups. I saw somebody set up a standing desk where they had a cardboard area supported by La Croix or something like that, and various other things... Like, you can be inventive; circumstances are less than ideal.
 
@@ -102,7 +102,7 @@ There's also an app called Noizio, which is for macOS, and it goes up into your 
 
 **Kevin Ball:** One other thing that I remember noticing a lot the most recent time, prior to this - when I switched from in-the-office to work-from-home - was lighting. I was going from being in an office that was brightly-lit all the time, into my home office, which was not... And it took me a while to realize that my mood was substantially lower, because I was just in a less well-lit space for a long period of time...
 
-\[00:15:55.25\] And I invested in getting some better lighting, and even just deliberately -- I still don't have great ambient lighting, but I've got one of those little stand lights, and I would even just like shine it on me, and it would make such a difference in terms of my mood through the day, of just having more light around.
+\[15:55\] And I invested in getting some better lighting, and even just deliberately -- I still don't have great ambient lighting, but I've got one of those little stand lights, and I would even just like shine it on me, and it would make such a difference in terms of my mood through the day, of just having more light around.
 
 **Nick Nisi:** I totally agree with that... And that's not something that you would really think about too much. Or at least I didn't.
 
@@ -130,7 +130,7 @@ Anybody have any specific pics, or hardware, or anything in their space?
 
 **Jerod Santo:** I love that.
 
-**Suz Hinton:** \[00:20:02.04\] For me, I like to warm up a space aesthetically... And expanding on that, what I mean is just having things that doesn't make it look like your room is very clinical. Because you're in your own space, you can actually be a bit more creative than perhaps you're allowed to be in an office... So even just things like a cork board - is that what you call it in America? Like a pinboard... And I put little knick-knacks and Polaroid photos and things up there, as well as the cheatsheet for OpenSCAD and things like that, that I constantly refer to. That makes me really happy.
+**Suz Hinton:** \[20:02\] For me, I like to warm up a space aesthetically... And expanding on that, what I mean is just having things that doesn't make it look like your room is very clinical. Because you're in your own space, you can actually be a bit more creative than perhaps you're allowed to be in an office... So even just things like a cork board - is that what you call it in America? Like a pinboard... And I put little knick-knacks and Polaroid photos and things up there, as well as the cheatsheet for OpenSCAD and things like that, that I constantly refer to. That makes me really happy.
 
 And as far as being able to just cover walls with things, especially if you're in a rental - I have a giant tapestry, which is just like a piece of cotton with a printed design on it that I got from Society6. It's pinned with two thumbtacks. Sorry, I'm trying to internationalize how I'm describing these items...
 
@@ -162,7 +162,7 @@ If you're thinking about working from home for the long-term, or you have been w
 
 **Jerod Santo:** Okay, so real quick, Nick - hold that up high. We're gonna put into our show notes a picture of Nick with his Spiderman outfit, holding up his whatever that thing is. Underdesk elliptical. So you're not missing out, you'll find it in the show notes, and you definitely want to go to there.
 
-**Break:** \[00:23:46.04\]
+**Break:** \[23:46\]
 
 **Mark Bates:** One of the things that when I first started it took me ages to figure it out, and then I started talking to people more and more about, is when you got to an office you don't get eight hours of uninterrupted work. You don't. You get four, maybe. That's on a good meeting day... No, I'm serious. Between people coming to your desk in interruption, you go to get a cup of coffee and you're there for ten minutes, somebody in the hall, that hallway meeting... You'd be surprised how when you add those up over the course of the day, those add up to hours in a day.
 
@@ -174,7 +174,7 @@ So I don't worry anymore about taking breaks, I don't worry anymore about making
 
 **Mat Ryer:** Yeah, that's a really good point. I think it's a very naive view, and people think that you have to just be working solid amounts; like, you have to work eight hours a day, solid, uninterrupted. I've worked in situations where it's office-based, and sometimes the people around you don't necessarily understand the job in the same way, and they might not be as technical, or just have a different perspective completely...
 
-\[00:27:49.28\] I've had some experiences where they really value the amount of time you sat looking at the screen. And if you measure that as a way of deciding how productive you're being or how good an employee somebody is, it's really a mistake, I think. Focusing on actually what gets delivered - that's the important thing. That shift - and especially if you work in a trusted team - can make all the difference.
+\[27:49\] I've had some experiences where they really value the amount of time you sat looking at the screen. And if you measure that as a way of deciding how productive you're being or how good an employee somebody is, it's really a mistake, I think. Focusing on actually what gets delivered - that's the important thing. That shift - and especially if you work in a trusted team - can make all the difference.
 
 So things like what time you got started, or how long you spent on your little break, or whatever - that becomes kind of background noise really, because it isn't that important.
 
@@ -206,7 +206,7 @@ So yeah, to answer, Mat, that is exactly how I ring around that... And I just ha
 
 **Carmen Andoh:** Right.
 
-**Mark Bates:** \[00:32:02.25\] My wife would take and drop one of our kids off, and then go into Boston... Then in the afternoon we'd go take a dog for a huge walk, like an hour-long walk, even though school is like six minutes away... But just get a nice, big walk in in the afternoon. That was nicely scheduled around picking him up. Those things are gone now, for a lot of people.
+**Mark Bates:** \[32:02\] My wife would take and drop one of our kids off, and then go into Boston... Then in the afternoon we'd go take a dog for a huge walk, like an hour-long walk, even though school is like six minutes away... But just get a nice, big walk in in the afternoon. That was nicely scheduled around picking him up. Those things are gone now, for a lot of people.
 
 For me, I'm still trying to keep that timeframe, if I can, and still keep trying to take him out in the afternoon... Although I've found that now that my wife's home, we're trying to see if we can coordinate a little bit more time in the afternoon for her and I to maybe go for a walk. You know, just a little break in the afternoon, which is quite nice. So if you have a spouse, or a partner, or somebody like that, you can schedule a nice walk in the afternoon, take a break, with kids, whatever...
 
@@ -268,7 +268,7 @@ But that also allows me to sort of -- it's almost like my pajamas are my deep th
 
 Again, it's boundaries, separating the psychic space of "This is the home, where I try to relax and unwind from work, but also where I now have to work."
 
-**Mark Bates:** \[00:36:15.21\] The one thing I will say is slippers are 100% allowed.
+**Mark Bates:** \[36:15\] The one thing I will say is slippers are 100% allowed.
 
 **Carmen Andoh:** Oh, yes...! I'm so happy.
 
@@ -334,7 +334,7 @@ And even as far as space goes - my wife and I keep an office chair at our dining
 
 **Mark Bates:** For the first time I got my very first dog just over a year ago, and it has changed my life. I can't believe I've worked from home all this time without a dog.
 
-**Jon Calhoun:** \[00:40:10.08\] My dog will literally -- if I'm in my office too long, he'll come over and start nudging me with his nose...
+**Jon Calhoun:** \[40:10\] My dog will literally -- if I'm in my office too long, he'll come over and start nudging me with his nose...
 
 **Carmen Andoh:** Really?!
 
@@ -414,7 +414,7 @@ And it doesn't have a setting where you can say "Only notify me between these ho
 
 **Jon Calhoun:** I walk, or I pace, anytime I'm on the phone... And I think it comes from sitting around, so when I get a chance to do it, I do it... And whenever I'm on my phone, my wife will be like "You can sit down." I'm like, "No, I'm fine. I sit all day." I also have to tell people this all the time when I go places, when they're like "Sit down", and I'm like "You know, I sit a lot through the day. I'm fine standing."
 
-**Mat Ryer:** \[00:44:12.04\] Yeah. It's rude almost, isn't it? I was at an elderly relative's house, and they were like "Oh, sit down", because it's rude for them to not invite you to sit down... But then it got flipped on its head and just became I was the rude one for not wanting to sit down... So I just sat.
+**Mat Ryer:** \[44:12\] Yeah. It's rude almost, isn't it? I was at an elderly relative's house, and they were like "Oh, sit down", because it's rude for them to not invite you to sit down... But then it got flipped on its head and just became I was the rude one for not wanting to sit down... So I just sat.
 
 **Mark Bates:** Yeah, but that doesn't surprise anybody...
 
@@ -430,7 +430,7 @@ And it doesn't have a setting where you can say "Only notify me between these ho
 
 **Mark Bates:** Well, you did ask me what I wore to bed, so... I think I'm justified in my criticism today, Matthew.
 
-**Break**: \[00:44:44.06\]
+**Break**: \[44:44\]
 
 **Adam Stacoviak:** I don't know about you, but my whole entire spectrum of everything right now is colored by Coronavirus. Everything that's happening, all the change that's taking place... My bubble, and everyone that I speak with - it's the only topic on mind. What about you?
 
@@ -442,7 +442,7 @@ Obviously, my wife and my kids are at home with me all day. I work from home, I 
 
 **Mireille B. Reece, Psy.D:** Right?! Well, I think we can't help but look at the way in which this experience with Coronavirus is changing how we interface with one another... And yeah, we've had a number of different shifts. I was mainly live, face-to-face with patients, and kids in school, and husband working, which all of that entire apple cart has been upset... I'm trying to make accommodations, and it affects all people. As of within the last 24 hours, I am now going to be full-time working from home as well.
 
-**Adam Stacoviak:** \[00:48:13.17\] Which is way different for someone like you.
+**Adam Stacoviak:** \[48:13\] Which is way different for someone like you.
 
 **Mireille B. Reece, Psy.D:** It is. So with that, it's involved a steep learning curve over "How do I function within the constraints of state and federal laws?" Because I care about people, and of all times that I think people need support, this is one of them.
 
@@ -468,7 +468,7 @@ But it's interesting, because technology isn't all the same in terms of its stab
 
 **Mireille B. Reece, Psy.D:** Yeah. And I think this is really important as we talk about remote work experiences... I think for a lot of people it's involved a sort of learning curve of going "What works for me, and how do I create that work-life blend/balance, wherein I still get to see people?" This is why in my area in the North-West here there are more and more pop-ups with remote locations where people from all different kinds of work arenas can come to the same place and pay even for a spot. One day a week, two days a week or more, to be able to interface with other people.
 
-\[00:51:59.13\] Because there are just these sort of idiosyncratic experiences when we are face-to-face with people -- or maybe even a better word is haphazard; they just happen, without planning... Like watercooler chat. Or somebody was walking down the hall past your office and they tripped on accident. We lose those sort of social experiences when we're not face to face. And yet, they're very necessary and very helpful to being human and doing our lives.
+\[51:59\] Because there are just these sort of idiosyncratic experiences when we are face-to-face with people -- or maybe even a better word is haphazard; they just happen, without planning... Like watercooler chat. Or somebody was walking down the hall past your office and they tripped on accident. We lose those sort of social experiences when we're not face to face. And yet, they're very necessary and very helpful to being human and doing our lives.
 
 **Adam Stacoviak:** Yeah, Matt says "I've really had enough of this term social distancing. That is not all we are looking for, is it? We should be looking for physical distancing. In these times of rampant loneliness, disconnection, and lack of empathy and compassion, we need the opposite. We need social connecting."
 
@@ -488,7 +488,7 @@ But it's interesting, because technology isn't all the same in terms of its stab
 
 **Adam Stacoviak:** Yeah. I joked about Contagion, the movie, the last time we had this conversation. We've actually had one episode come before this one, on memory, which was recorded prior to Coronavirus being a thing... I guess it was actually while it was happening, but not so much on the restrictions here in the United States. And it's funny that I went back and watched this movie not as entertainment, although it can be entertainment... More so as bootcamp, and potentially what could happen.
 
-\[00:55:51.17\] Obviously, the viruses in the movie versus this one is different in terms of its effect on humankind, but similar in nature, in the way it spreads and all the things that happen. And they actually said the phrase "social distancing" in the movie.
+\[55:51\] Obviously, the viruses in the movie versus this one is different in terms of its effect on humankind, but similar in nature, in the way it spreads and all the things that happen. And they actually said the phrase "social distancing" in the movie.
 
 **Mireille B. Reece, Psy.D:** Wow.
 

@@ -40,7 +40,7 @@
 
 **Jon Calhoun:** It was probably like 2012-2013... That one stemmed from - I was working on a project where we had to talk with a bunch of APIs concurrently, and it was written in Ruby... So it was kind of just annoying, because Ruby handles one request for a server you have up - if you're using Ruby on Rails at least - and while we could do all those different requests in threads and wait for the response, it was annoying that our server would basically sit there doing nothing while it waited for some APIs to respond... And I was like "If we could actually have a server that could handle multiple requests at once, there's no real reason why this one can't do it." It just wasn't set up to do it at the time.
 
-**Mat Ryer:** \[00:04:03.05\] Yeah... See, that's another thing - you get a few things that it does out of the box, that are very attractive. And actually, one of our first questions from the Reddit feed is from dlibian. Dlibian asks "What kinds of projects are best for learning Go?" For people that really want to start to learn Go, are there any types of projects that are more suited and more suitable, or can they just sort of pick any problem and go after it? What do we think?
+**Mat Ryer:** \[04:03\] Yeah... See, that's another thing - you get a few things that it does out of the box, that are very attractive. And actually, one of our first questions from the Reddit feed is from dlibian. Dlibian asks "What kinds of projects are best for learning Go?" For people that really want to start to learn Go, are there any types of projects that are more suited and more suitable, or can they just sort of pick any problem and go after it? What do we think?
 
 **Jon Calhoun:** I think generally speaking, diving in is more important than getting the perfect project. For me, I always like doing things on my local file system, like opening up files, appending to them maybe... Just simple stuff like that that I can actually go look at a file and verify that it worked as I expected. Not having to worry about servers and that sort of stuff, that doesn't necessarily make it super-complicated in Go, but it's harder to verify everything... So that's where I tend to start. But I think each person is gonna be different.
 
@@ -60,7 +60,7 @@ I know teams that have done that as a way of introducing Go into the team. They'
 
 **Jon Calhoun:** I wonder if it had to do with the fact that it's built into the standard library, and in a lot of other languages - that I'm aware of, at least - it's not really built into the standard library.
 
-**Roberto Clapis:** \[00:08:04.27\] Yeah, that and the fact that it could very easily expose language functions that you wrote in the language, to the templating language. So it was very easy for them to just write most of the logic in Go and just expose the function that they needed to the template.
+**Roberto Clapis:** \[08:04\] Yeah, that and the fact that it could very easily expose language functions that you wrote in the language, to the templating language. So it was very easy for them to just write most of the logic in Go and just expose the function that they needed to the template.
 
 **Mat Ryer:** Yeah. Another question that was asked by ninevolt is "Why should people try Go?" Some people are kind of skeptical, and I understand this; there's so many new things... You don't wanna have this shiny object syndrome where you're just chasing everything and you never really get good at anything... So some people therefore become automatically skeptical and hold back from learning a language. This is the case for this particular questioner... And they asked "Is there a kind of convincing sales pitch to convince people to try something with Go?"
 
@@ -102,7 +102,7 @@ Now I've found that even when I write TypeScript, which is the other language th
 
 **Jon Calhoun:** I would generally agree with Peter, that if you haven't been exposed to a scenario where you've already considered Go, there's probably not much at this point that's gonna sell you, and I think trying to make the sales pitch is just not gonna resonate.
 
-\[00:12:06.25\] The only thing that I would probably add to what Roberto added is that the community in Go is also something that I think other languages should sort of look at and get an example of at least -- it's one of the better ones, in my experience, so getting a feel for what it could be and making sure they set the bar at the right level, versus just sort of accepting a toxic community...
+\[12:06\] The only thing that I would probably add to what Roberto added is that the community in Go is also something that I think other languages should sort of look at and get an example of at least -- it's one of the better ones, in my experience, so getting a feel for what it could be and making sure they set the bar at the right level, versus just sort of accepting a toxic community...
 
 **Mat Ryer:** Yeah, I think that's a great point. I think these are all great points. For me, I'd say that in particular if you're building web servers, web services, JSON APIs, those kinds of things, Go does a good job with those kinds of things. You get a lot out of the box for free. For example, each HTTP request runs in its own goroutine because of the standard library, the way that that works. So kind of automatically you get a level of quite safe concurrency to operate in... And you may get that also with other languages.
 
@@ -116,7 +116,7 @@ I think tooling is another great area. When you've got a task, something repetit
 
 To go back to the question, like "What is it a bad fit for?", if you wanna build in the consultancy style of like high throughput, very rapidly procured, kind of cruddy web services, I think Go is probably not a great fit, because that's not the model that it uses to talk about HTTP. I think this is a really interesting thing that comes up over and over again. I don't know, maybe that's just me.
 
-**Roberto Clapis:** \[00:15:46.16\] I would say that to address that, some people wrote frameworks. I know that there are some frameworks that when you use them, they don't feel like Go, but they allow you to write Go in other parts of the code, and in the entire HTTP kind of CRUD stack, or an MVCstack is handled by the framework. But I would agree with you... There are other things in which Go is not good for.
+**Roberto Clapis:** \[15:46\] I would say that to address that, some people wrote frameworks. I know that there are some frameworks that when you use them, they don't feel like Go, but they allow you to write Go in other parts of the code, and in the entire HTTP kind of CRUD stack, or an MVCstack is handled by the framework. But I would agree with you... There are other things in which Go is not good for.
 
 For example, it happens all the time on Twitter when people discuss that some things should be made in Rust, or in Go, or in C, or stuff like that, and I would say that most of the time, one of the two is the better choice. It's like, if you need to write firmware for an embedded device, and there's a very limited amount of memory - yes, you could use TinyGo or TamaGo, which are two perfect options, but I would just say that maybe that's not what you're looking for. If you have to write a real-time application, Go still has a GC. You can write GC-free Go. It's not pleasant. So just use the right tool for the job.
 
@@ -138,13 +138,13 @@ I've tried to build UIs with Go. I still prefer the TypeScript approach, some th
 
 **Jon Calhoun:** I think Rust is probably the one that I see this the most in, because people will show me -- I think it's \[unintelligible 00:19:52.08\] and they'll show me code that does something... Like, they'll compare it to error handling in Go, and they'll say "Look, looking at if err != nil is distracting", and then they'll show me the example in Rust, and I'm like "I don't know Rust, so I know that's my issue here, but I don't know what that code is doing." It just is not clear to me.
 
-\[00:20:11.11\] So for me, at least in the Go sense, readability is somebody who basically is just a junior programmer could look at this and probably get a pretty good idea of what it's doing. But in Rust, I think you're right, they're viewing it differently. What they consider readable is different.
+\[20:11\] So for me, at least in the Go sense, readability is somebody who basically is just a junior programmer could look at this and probably get a pretty good idea of what it's doing. But in Rust, I think you're right, they're viewing it differently. What they consider readable is different.
 
 **Peter Bourgon:** And this error handling thing is such a great example, because in Go error handling is explicit. It's part of the philosophy. Go considers error handling to be programming, and in a lot of other languages it's just not modeled that way. That has ramifications.
 
 **Roberto Clapis:** Right. But I also think that it matters how much of your brain you're willing to dedicate to the language, instead of the code that you are writing, instead of the logic that you are writing, and how much you're willing to dedicate to the actual problem that you're trying to solve. Sometimes Go might exceed on the other side, but I like that when I read Go and when I write Go, my brain doesn't invest any energy in "How do I do this in Go?" I know how to do this in Go, and I just do it, which is not true in many other cases... So I like that simplicity and I like that I don't have to focus to write Go on Go, but I can focus on something else.
 
-**Break:** \[00:21:27.21\]
+**Break:** \[21:27\]
 
 **Mat Ryer:** There's some interesting questions actually around some of the specifics of how we actually do things as well. There's a lot on structuring, which I think we'll come to later, but there's one that I quite like here, which we can discuss, and we may have differing opinions... To constructor or not to constructor. Some languages make heavy use - in fact, sometimes they're compulsory; in order to create a class you have a constructor. In Go you don't really have classes, but you can still have this idea of constructors, where you just sort of have a function, usually pretty fixed with new, to create something, and then it returns the thing, and maybe sometimes an error, if there's some work to do to get that thing. How do we feel about constructors?
 
@@ -154,7 +154,7 @@ I've tried to build UIs with Go. I still prefer the TypeScript approach, some th
 
 **Jon Calhoun:** I can start by saying that when I started writing Go, I wrote a constructor for everything. And I think part of that stemmed from -- my history is Ruby and Java. And Go in some ways just sort of felt a little bit more like Java, because it was typed, and some of that stuff... So I think I just jumped into that mindset of "I need to write these." And then - I don't know when, but at some point I kind of realized that a lot of these constructors were not useful. I didn't need them at all. So I started taking a step back and asking myself "Do I really need it for this type? Why don't I just expose these fields and let the developer set them?"
 
-\[00:24:24.08\] So I don't really have a specific "Yes, you should use them/No, you shouldn't" type thing. For me it was just stepping back and deciding, case by case, is it necessary? And if it wasn't necessary, I just tried not to do it, because it didn't seem worth the effort.
+\[24:24\] So I don't really have a specific "Yes, you should use them/No, you shouldn't" type thing. For me it was just stepping back and deciding, case by case, is it necessary? And if it wasn't necessary, I just tried not to do it, because it didn't seem worth the effort.
 
 The other thing I would add is that if you are using a constructor, I think the common approach that people would take at first is to write -- like, if you're writing a thing, you write a new thing function that creates it... And I think there's a lot of times where you can make your constructor function a little bit more clear as to what it's doing. The database SQL package is a good example, where you call sql.open and it returns a db instance. I think that makes way more sense than sql.newdb, which isn't really clear what it's doing.
 
@@ -190,7 +190,7 @@ But to be honest, I think for me the convenience -- I went through a similar evo
 
 So yes, but for me it depends on the case, which doesn't help. For services and things like this, if you've got these sort of service-level objects, structs and things, then I do tend to do it, because usually they have dependencies and it's kind of a nice way to tell that story.
 
-\[00:28:16.16\] But yeah, it depends... If I was building some lower-level thing, or something that had more of a data structure component to it, I think I'd probably think maybe differently. What do you think about the options as well, a way of customizing things by passing in little option functions, which can then run and modify things?
+\[28:16\] But yeah, it depends... If I was building some lower-level thing, or something that had more of a data structure component to it, I think I'd probably think maybe differently. What do you think about the options as well, a way of customizing things by passing in little option functions, which can then run and modify things?
 
 **Peter Bourgon:** Functional options is a configuration pattern, right?
 
@@ -226,7 +226,7 @@ So yes, but for me it depends on the case, which doesn't help. For services and 
 
 **Roberto Clapis:** Yeah, basically I can give you the concrete example. We are building a framework to develop web applications, and when you set up your entire server, you register handlers. After you have registered handlers, you're supposed to register plugins. That is something that will intercept requests and responses, for security reasons. Most of the logic will just be in handlers.
 
-\[00:32:06.25\] And then after you're done, you start a server, and at that point you are not supposed to change nor the handlers, not the plugins anymore. And vice-versa, when you install a plugin, you still had to register a handler at that point. We could do this by panicking, if you did things out of order... And this is still on the plate. But we found out that checking these at compile time, making sure that if your code compiles and you did stuff in the right order felt like a good thing to provide.
+\[32:06\] And then after you're done, you start a server, and at that point you are not supposed to change nor the handlers, not the plugins anymore. And vice-versa, when you install a plugin, you still had to register a handler at that point. We could do this by panicking, if you did things out of order... And this is still on the plate. But we found out that checking these at compile time, making sure that if your code compiles and you did stuff in the right order felt like a good thing to provide.
 
 **Mat Ryer:** I've genuinely never seen that as an example in Go.
 
@@ -282,7 +282,7 @@ So if your type has these semantics, then they can be good. But with that said, 
 
 **Mat Ryer:** Yeah, that's true.
 
-**Jon Calhoun:** \[00:36:15.08\] And you still have to look something up. So I think at the end of the day, the short answer is that you're gonna have to look something up. Looking up a specific date is really not that big of a deal, compared to looking something else up. And there's tooling that makes that easier.
+**Jon Calhoun:** \[36:15\] And you still have to look something up. So I think at the end of the day, the short answer is that you're gonna have to look something up. Looking up a specific date is really not that big of a deal, compared to looking something else up. And there's tooling that makes that easier.
 
 **Peter Bourgon:** Yeah, I always have to look up the \[unintelligible 00:36:29.08\] time stuff personally. I never remember that.
 
@@ -350,7 +350,7 @@ So if your type has these semantics, then they can be good. But with that said, 
 
 **Jon Calhoun:** Yeah. There's a couple that are like that. There's just a couple that are like "If you don't know these ones, then you should probably figure them out." But then there's other ones where "Okay, I get it. This one's not quite as clear." So I have mixed feelings on that at times, but I tend to just use the written out "status okay" or whatever, just because I want all my code to be consistent... But sometimes I'm on the fence there.
 
-**Mat Ryer:** \[00:40:21.13\] Yeah. If I wanna say, as a string, "We'll post you a T-shirt", I'll use the post const there. So I'll go the other way and use it way too much, where you shouldn't use it. That's a joke, by the way. Any beginners - don't do that. It'd be crazy.
+**Mat Ryer:** \[40:21\] Yeah. If I wanna say, as a string, "We'll post you a T-shirt", I'll use the post const there. So I'll go the other way and use it way too much, where you shouldn't use it. That's a joke, by the way. Any beginners - don't do that. It'd be crazy.
 
 **Peter Bourgon:** \[unintelligible 00:40:35.20\]
 
@@ -376,7 +376,7 @@ So if your type has these semantics, then they can be good. But with that said, 
 
 **Roberto Clapis:** Right. And it allows you to do more general things. In dependency injection frameworks one thing that really happens is that they compute the graph, and the server responds. They will need to build up the entire graph and construct most of the things, even if you're not gonna use them, because they don't know if you're going to use them.
 
-\[00:44:06.18\] One thing that I like to do in my web servers, especially if I use cloud services - I use sync once everywhere to construct my stuff, so I know that stuff will be constructed only if I actually need it... And it's very hard to do that if you just inject magical things that depend on other magical things. I like to do the things that I need to do, not more.
+\[44:06\] One thing that I like to do in my web servers, especially if I use cloud services - I use sync once everywhere to construct my stuff, so I know that stuff will be constructed only if I actually need it... And it's very hard to do that if you just inject magical things that depend on other magical things. I like to do the things that I need to do, not more.
 
 **Mat Ryer:** Right. So by default try not to do anything, and then when it's needed... And that comes down to also the environment in which you're gonna deploy the code... Because if you put that into a situation where it scales down to zero instances automatically very often, you're probably gonna get a big saving with only doing things on-demand. Whereas if you've got services that run for a long time, or that are just permanently running, maybe it's easier to just get all the work done upfront, so you know it's gonna succeed, and then you can go from there. So I think yeah, those kinds of decisions matter more, for sure.
 
@@ -396,7 +396,7 @@ I think it was Ben Johnson on Twitter who made a good point about this... And he
 
 Anything else on that? If not, we have a question about init, which I wanna put to Peter.
 
-**Peter Bourgon:** \[00:47:57.11\] Why are you doing this...?
+**Peter Bourgon:** \[47:57\] Why are you doing this...?
 
 **Mat Ryer:** Well, I know we're gonna get a good answer. What about init? When should you use init, Peter?
 
@@ -416,7 +416,7 @@ But you shouldn't have package-level state, right? In general, you should try to
 
 **Peter Bourgon:** Right. And I hope it's uncontroversial to say, this is a design choice that was made in pre v1 of the language, that there would be this global registry and package db, and this would be basically the way to use it. And I hope it's uncontroversial to say that this pattern has not stood the test of time. This is not a good pattern. So to use the global registry and package db you have to do it this way, and that's true, and it's too bad. But if you're writing your own package, do not copy this pattern. This is not the way to do things.
 
-**Break:** \[00:50:50.12\]
+**Break:** \[50:50\]
 
 **Mat Ryer:** I think probably our final question is gonna be a big, meaty one. We get this a lot, I certainly get this a lot, and it actually turns out to be a very difficult one to answer, but we're gonna do our best... Or your money back; it's free. You get to forget the ads, that's the way we'll refund you; you can forget all about the ads from this podcast. The question is "How do you structure Go code?" This is something that people care a lot about, it's the kind of thing that for beginners is very intimidating.
 
@@ -434,7 +434,7 @@ So it is always idiomatically different from project to project, by definition. 
 
 I personally follow the approach, when I'm building something new, of I just have a single folder, it's got a main in there, and then all the types. I just use file name prefixes with underscores actually to group the functionality up together, and have it all together. And then later, if we have to deploy this other service in a different way, or something changes like that, then I've got a good reason to go and have a look and make some changes. But I'm doing it in an informed way.
 
-**Roberto Clapis:** \[00:56:07.24\] I will say that the sentence that you said - it seems there is no scheme that you will adhere to; you can't get it wrong. I would phrase it different; I would say that since there is no mandatory structure, you might have a chance to get it right... Because so many times in a project I had--
+**Roberto Clapis:** \[56:07\] I will say that the sentence that you said - it seems there is no scheme that you will adhere to; you can't get it wrong. I would phrase it different; I would say that since there is no mandatory structure, you might have a chance to get it right... Because so many times in a project I had--
 
 **Mat Ryer:** Less optimistic...
 

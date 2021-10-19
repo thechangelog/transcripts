@@ -116,7 +116,7 @@ There's a big political and philosophical debate around that, but the reality is
 
 And even if you look at front-end frameworks for JavaScript, you'd think at some point one of them would have just won out and everybody would have stopped... But they all solve different goals, and if something comes along and it's unique enough and solves a different enough problem, I think we see that that tends to happen, it still tends to get some traction and move up.
 
-**Break:** \[00:19:59.00\]
+**Break:** \[19:59\]
 
 **Mat Ryer:** The Context package, when that happened - that was kind of one of those shifts you talked about, Steve, where suddenly now people expected to be able to cancel things that they couldn't cancel before... For example like copying. Is there a context-aware copy operation in the standard library? If you do io.Copy(), it just copies the whole thing until the end of the file, right? Is there a cancelable one, or do you have to write that on your own?
 
@@ -338,11 +338,11 @@ Then the site itself is hosted on the Google Cloud Platform. The high-level arch
 
 **Mat Ryer:** Yeah. And it will scale significantly as well, won't it? That's something that's nice, especially when you're not really into the operational side of things. You can sort of not worry about it, so yeah, I'm all over that... It sounds great to hear.
 
-**Break:** \[00:54:53.12\]
+**Break:** \[54:53\]
 
 **Mat Ryer:** So, actually we have a new regular part of our show, and it's gonna get its own jingle as well... It's Unpopular Opinion.
 
-**Jingle:** \[00:56:20.02\]
+**Jingle:** \[56:20\]
 
 **Mat Ryer:** So we're gonna ask "Do you have an unpopular opinion that you'd like to share?" Anyone?
 

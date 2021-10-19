@@ -322,7 +322,7 @@ For Restic, I would always say that it shows a same default and make things conf
 
 **Erik St. Martin:** So I think that we've probably overshot our sponsored break a little, so let's go ahead and take that real quick. Our sponsor for today is Toptal.
 
-**Break:** \[00:37:33.11\]
+**Break:** \[37:33\]
 
 **Erik St. Martin:** And we are back, talking to Alexander Neumann from Restic. Before we went to break we were talking about some of the feature requests and things that you've had... What's next for Restic? What are some things that you do want to implement? Where do you see this going?
 

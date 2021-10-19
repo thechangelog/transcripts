@@ -18,7 +18,7 @@
 
 **Michael Malyuk:** Hello, hello. Thanks for inviting me.
 
-**Daniel Whitenack:** \[00:03:59.27\] And we were able to grab Michael for an interview while he is doing his world travels. I think right now he is in Moscow, is that right?
+**Daniel Whitenack:** \[03:59\] And we were able to grab Michael for an interview while he is doing his world travels. I think right now he is in Moscow, is that right?
 
 **Michael Malyuk:** Yup.
 
@@ -78,7 +78,7 @@
 
 **Michael Malyuk:** It's the easy trip. \[laughs\] 2,000 meters. \[laughs\]
 
-**Daniel Whitenack:** \[00:07:53.26\] Yeah, nice. So the company is Heartex... I think we've already spoiled the punchline here, but it has to do with data labeling. So how did you get to a place where data labeling was something that you felt like you wanted to devote a lot of effort to?
+**Daniel Whitenack:** \[07:53\] Yeah, nice. So the company is Heartex... I think we've already spoiled the punchline here, but it has to do with data labeling. So how did you get to a place where data labeling was something that you felt like you wanted to devote a lot of effort to?
 
 **Michael Malyuk:** We were working on some algorithms in our spare time, just trying things, and by the time we decided to start a company, we all realized that at our past or current companies the biggest issue that we had to handle ourselves was the data labeling part. We were talking to multiple data scientists, machine learning experts, and they have all agreed that it's an unsolved problem, and more or less like a holy grail. If you're able to get your labels in the right moment, in the right place, then you basically end up with high-quality models.
 
@@ -102,7 +102,7 @@ I also like to think about it in way that sometimes when you get the datasets or
 
 **Daniel Whitenack:** In terms of the types of data that people generally need to label or annotate, as Chris mentioned, there's of course a lot of different types of data that are relevant to AI, and in some cases AI models might work on multiple types of data. But maybe you could just give some common types of data that people need to label or annotate, or maybe the most common ones that you run across?
 
-**Michael Malyuk:** \[00:12:06.04\] Sure. I would say the most common ones are images, of course. So when you are placing a bounding box on the image when you are doing semantic segmentation on the image, you can also think about even classifying images as a data labeling problem. So you're basically assigning a class to the entire image; what you see on the image. Is it for example an image of a fruit, or an image of a person?
+**Michael Malyuk:** \[12:06\] Sure. I would say the most common ones are images, of course. So when you are placing a bounding box on the image when you are doing semantic segmentation on the image, you can also think about even classifying images as a data labeling problem. So you're basically assigning a class to the entire image; what you see on the image. Is it for example an image of a fruit, or an image of a person?
 
 Then text... So you can be classifying text, for example, for sentiment. You can be doing named entity recognition. Audio - you can be doing speaker separation, you can be classifying audio for number of classes, so doing the multi-class classification... Those are the most common ones. Then you have, of course, time series. Now you also have 3D spaces, with all \[unintelligible 00:13:04.03\] data is coming from autonomous vehicles... And videos.
 
@@ -122,11 +122,11 @@ So there's a whole bunch of this probably infinite different types of annotation
 
 **Michael Malyuk:** Sure. The process itself -- again, it's very dependent on the dataset and what you're trying to achieve, the problem you're trying to solve... But in general, I would describe it as basically creating some metadata for every item in your dataset. For example for an image, this metadata might be a rectangle at a certain position, with a certain class applied to this rectangle... Which is basically called bounding box labeling.
 
-\[00:15:52.05\] To do so, you need to have the tool that enables you to put this bounding box in the right position and to assign the label, the class that you want to this bounding box. A lot actually depends on the tool, how accurately and how quickly you can do that in case your dataset is super-big, and in case you're looking for very high-quality labeling. Because in the result, the quality of your models in most cases is directly tied to how accurately your data is labeled.
+\[15:52\] To do so, you need to have the tool that enables you to put this bounding box in the right position and to assign the label, the class that you want to this bounding box. A lot actually depends on the tool, how accurately and how quickly you can do that in case your dataset is super-big, and in case you're looking for very high-quality labeling. Because in the result, the quality of your models in most cases is directly tied to how accurately your data is labeled.
 
 **Chris Benson:** Gotcha. And one of the things that you mentioned, by the way, being bounding box, a couple of times - I just wanted to define that for a second. A bounding box, if you're looking at an image and you're trying to define the value of different parts of that image for purposes of training subsequently, then a bounding box is (really just like it sounds) a geometric shape that you're assigning to different parts of the image to define the different areas of the image that you want the model to either focus on or not focus on. I just wanted to note that.
 
-**Break:** \[00:17:03.21\]
+**Break:** \[17:03\]
 
 **Daniel Whitenack:** Okay, Michael, so let's say that I'm convinced that I need to do data labeling, and I'm convinced that I should put time into it. It is an important part of my AI workflow, and one of the most important parts, because it has this direct impact on the quality of my predictions... And let's say that I have 100,000 samples or more to label. There's obvious challenges around the time-consuming nature that it would take to label each of those 100,000 samples. Are there other challenges? I'm thinking in terms of maybe bias, or crowdsourcing this... What sorts of challenges do people face when they're labeling data, maybe other than the obvious one like the time-consuming nature of it?
 
@@ -134,7 +134,7 @@ So there's a whole bunch of this probably infinite different types of annotation
 
 Biases. When different people label a dataset, you may end up with different results, so personal biases. Then even before that, you actually need to have a tool to help you do that, because datasets have different types of annotations and labeling is very different, so you have to invest time into either creating your own tool, or using something from the open source... And there are many more. I would say that two major ones are time and quality.
 
-**Daniel Whitenack:** \[00:19:58.19\] Yeah, so quality being around the verification of the data, right?
+**Daniel Whitenack:** \[19:58\] Yeah, so quality being around the verification of the data, right?
 
 **Michael Malyuk:** Yeah.
 
@@ -156,7 +156,7 @@ This field is called active learning, and active learning is basically a way to 
 
 **Michael Malyuk:** I think right now there are two ways, basically. The first one is using the services, so you just send your datasets to the service company and you get back the label datasets, the results. Second one is either building your in-house team, or just using your data science team, and using the tools to help them do that. The problem with the first one, with the service company, is that you don't have control over the process. So you just get back the results and then you have to verify if the results are of good quality or not. In most cases you don't get good quality results, and then again, if you are dealing with data that requires domain-specific knowledge, usually you can't outsource that easily. And privacy is another issue.
 
-\[00:23:43.02\] With the second one, we have found that a lot of companies are starting using some sort of open source solution just to get their data labeled, and basically build the first version of their models. And when they find out that they need to upgrade the tool and tweak the tool to their needs more and more, before it becomes this monstrous tool that you kind of don't want and you don't have resources to support anymore - at this point they're looking for something that is more production-ready and is ready to scale.
+\[23:43\] With the second one, we have found that a lot of companies are starting using some sort of open source solution just to get their data labeled, and basically build the first version of their models. And when they find out that they need to upgrade the tool and tweak the tool to their needs more and more, before it becomes this monstrous tool that you kind of don't want and you don't have resources to support anymore - at this point they're looking for something that is more production-ready and is ready to scale.
 
 **Daniel Whitenack:** In terms of the range of things - so there's a ton of different types of models and architectures that people use for these different tasks. You've mentioned sentiment analysis, image classification... I imagine that the burden in different of these model types is heavier in terms of data labeling, and maybe -- Chris, I know you've worked in masking images for robot perception, and that sort of thing?
 
@@ -174,7 +174,7 @@ This field is called active learning, and active learning is basically a way to 
 
 **Michael Malyuk:** Yeah. And what I like about the open source Label Studio - it's the first open source data labeling tool that you cannot only download and run, you can also embed it into your own pipelines.
 
-**Daniel Whitenack:** \[00:28:00.15\] Oh, okay. So does that mean you can run it non-interactively somehow, or how would that work out in practice?
+**Daniel Whitenack:** \[28:00\] Oh, okay. So does that mean you can run it non-interactively somehow, or how would that work out in practice?
 
 **Michael Malyuk:** In many different ways. You can use that tool to create the labels, and you can also use it to look at predictions of your model. You can embed this tool into your pipeline, and you can verify what your model predictions are. You can ask your team members, or for example domain knowledge experts to provide the labels for specific items in your dataset. So there are multiple ways how you can embed and use it. And it's really flexible in how you can define the different types of tasks it can handle.
 
@@ -184,11 +184,11 @@ This field is called active learning, and active learning is basically a way to 
 
 You can do many different things. All that we have discussed, like bounding boxes, named entity - you can do all of them at the same time if you want to. It's basically dependent on the task and dependent on the dataset that you have; you can configure it like a Swiss Army knife - you can configure it and tailor it for your particular needs.
 
-**Break:** \[00:30:21.17\]
+**Break:** \[30:21\]
 
 **Daniel Whitenack:** Alright, so every once in a while on this podcast the topic intersects very nicely with a problem that I'm trying to solve in my own work, and this is one case... So in those cases, as Chris knows, I like to selfishly try to get the guest to help solve my problem on the fly. One of those problems is I have not found a tool that will let me easily label reading comprehension data. This is the case where you have a question and a passage of text, and then the output that you want is an answer that is drawn from that text; maybe a span within the article/text/something like that... And there's no tool out there - at least that I've found - that does that. So with Label Studio, could you walk me through -- let's say I came to Label Studio, and what would it take to setup that sort of interface with these Label Studio components? Would that be possible?
 
-**Michael Malyuk:** \[00:32:12.19\] Possible, yes. I would suggest basically installing it, then looking at the templates that we provide, use the template as the starting point, and then looking at the tags that you can use for your particular problem. Based on your description I think it's very much doable.
+**Michael Malyuk:** \[32:12\] Possible, yes. I would suggest basically installing it, then looking at the templates that we provide, use the template as the starting point, and then looking at the tags that you can use for your particular problem. Based on your description I think it's very much doable.
 
 **Daniel Whitenack:** Yeah, so because I'm a data scientist/back-end person, and I don't know that much front-end, but maybe I've hacked on HTML before - would that be something I could tackle? How much front-end experience do I need?
 
@@ -206,7 +206,7 @@ You're also able to load your predictions from your current models if you have t
 
 **Daniel Whitenack:** And that kind of pushing the predictions into the tool, or let's say like for my training script I wanna pull the latest annotations out... I saw you mentioned some things about maybe a REST interface, or something like that; how does that interaction work, and the plumbing between the two? Once you've got Label Studio up and running, what's the most useful way of plumbing between an annotation tool and your training and inference, in your experience?
 
-**Michael Malyuk:** \[00:36:05.09\] Again, two ways. First one where we provide just the front-end part. It's basically Npm, a JavaScript package. You initialize the package and you send the data into the package so basically there is no API, nothing. It's as simple as that. And there's the second part where we provide you with the data manager and we initialize the Label Studio front-end for you. In that case you just give Label Studio the JSON formatted file and we read the data from there.
+**Michael Malyuk:** \[36:05\] Again, two ways. First one where we provide just the front-end part. It's basically Npm, a JavaScript package. You initialize the package and you send the data into the package so basically there is no API, nothing. It's as simple as that. And there's the second part where we provide you with the data manager and we initialize the Label Studio front-end for you. In that case you just give Label Studio the JSON formatted file and we read the data from there.
 
 **Daniel Whitenack:** Cool. This is still reasonably new, in that you were just in the Himalayas thinking about it a year ago... But actually, if I'm looking at the GitHub on Label Studio, it seems like there's been some activity there and there seems to be a bit of a community developing. Hae you been able to get contributions of components and start to interact with the community in that context?
 
@@ -228,7 +228,7 @@ Then there's another trend with the weak supevision, that you can also use to la
 
 So the quality - how do we verify that the labels are high-quality. Another one is understanding and finding edge cases in your datasets, and trying to understand how to label those. That's also very interesting, because if you have real-world datasets that consist of millions of images, there is no way you can look into each image by hand. You need some ways to automate that, and pick those items for you that needs some attention. So I would say, at least from my standpoint, we're right now concentrating on the quality control a lot.
 
-**Daniel Whitenack:** \[00:40:17.19\] Yeah, that makes a lot of sense. It sounds like there's no shortage of things to explore there and improve upon, but it does sound like actually AI augmentation of the labeling process, especially in terms of quality control and all of those things, is gonna be really important. So if people are listening and they want to try out Label Studio, they want to follow you on this journey and as things come out, where can they find out more about Label Studio, and maybe get started and try out a few things? And also maybe what are some of the great ways that maybe people could contribute to Label Studio? ...because you are getting those bug reports, and other things... What are some of the ways that the community can give back, as well?
+**Daniel Whitenack:** \[40:17\] Yeah, that makes a lot of sense. It sounds like there's no shortage of things to explore there and improve upon, but it does sound like actually AI augmentation of the labeling process, especially in terms of quality control and all of those things, is gonna be really important. So if people are listening and they want to try out Label Studio, they want to follow you on this journey and as things come out, where can they find out more about Label Studio, and maybe get started and try out a few things? And also maybe what are some of the great ways that maybe people could contribute to Label Studio? ...because you are getting those bug reports, and other things... What are some of the ways that the community can give back, as well?
 
 **Michael Malyuk:** Sure. I would say the easiest way that you can try out Label Studio right now is Npm-install label-studio. Then labelstud.io is our website... And GitHub - GitHub.com/heartexlabs/labelstudio. We have documentation there, and some quick guides how you can start very quickly; it's basically a couple lines of \[unintelligible 00:41:31.15\] and you're up and running.
 

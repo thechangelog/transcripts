@@ -40,7 +40,7 @@ In the past, we've had a button element - or a radio button element, or a checkb
 
 Web Components are so you can make your own button, that has not quite an opaque of an API, but you can make your own components that are standalone that you can pull into a page and use just as if you were using a button or a select... You could use the Alex button or the Mikeal button, or the Mikeal select, or the clock, or the social widget component. So kind of like the React world or the Ember world where you're making these discrete components that have their own APIs and then using them as units of development - you can do that. It didn't necessarily come from that, it came before both of those were super popular ideas, but it certainly has taken a longer ramp time as the standards track normally does.
 
-\[00:03:56.13\] We can get into some of the technical implementation details of how this works, but I also think you might have mentioned the Shadow DOM already, and that's really just the DOM that exists inside of the component, rather than to the developer once they're using your components. So if you think about the old button, technically there's a span and a div or whatever inside of the button, but that's not exposed to developers. In that same way, whenever you build the clock component, you don't have to expose all the different spans and divs and things inside of your clock component; it just is a clock, and it's not necessarily CSS-selectable from outside.
+\[03:56\] We can get into some of the technical implementation details of how this works, but I also think you might have mentioned the Shadow DOM already, and that's really just the DOM that exists inside of the component, rather than to the developer once they're using your components. So if you think about the old button, technically there's a span and a div or whatever inside of the button, but that's not exposed to developers. In that same way, whenever you build the clock component, you don't have to expose all the different spans and divs and things inside of your clock component; it just is a clock, and it's not necessarily CSS-selectable from outside.
 
 **Rachel White:** So is it just rendering these components in a cleaner way than having to append all of those other things that exist inside of the regular component?
 
@@ -64,7 +64,7 @@ So with the Shadow DOM, are you even seeing the other components, if I was gonna
 
 **Alex Sexton:** Especially if you're pulling in components from other people. So if so-and-so styled this button and so-and-so styled this clock and whatever, in the React world there's a higher chance for collisions. Even the box model - one relies on the newer box model, and one relies on the... Things like that are going to all change.
 
-**Rachel White:** \[00:08:06.05\] Cool, so why is this stuff important to know, for people that don't know what it is?
+**Rachel White:** \[08:06\] Cool, so why is this stuff important to know, for people that don't know what it is?
 
 **Alex Sexton:** I think it's unfortunately a longer-term vision for the web than it would have been if people didn't make such good userland libraries to do similar things... I think there's this very similar world to where we live in, an alternate universe where React didn't come out and Ember didn't do the component version of their views, and Web Components really takes off.
 
@@ -94,7 +94,7 @@ Some things we already use are a part of that... I don't know. Some of it leaks 
 
 **Alex Sexton:** I think while the Google people were the ones -- this all came out of the Web Manifesto, I believe... That was a large amount of Google people, and I think the core authors of this specification started at Google, but it is not a Google-only thing; it is a specification in the W3C that has passed and is real and is in multiple browsers, and things. So I think it is OF Google, but not solely BY Google.
 
-**Mikeal Rogers:** \[00:12:03.08\] Right, right. I think you addressed the Polymer thing, where people tend to conflate this with Polymer... And Polymer IS a Google thing, very directly. But this is much larger.
+**Mikeal Rogers:** \[12:03\] Right, right. I think you addressed the Polymer thing, where people tend to conflate this with Polymer... And Polymer IS a Google thing, very directly. But this is much larger.
 
 **Alex Sexton:** I think one of the core problems there specifically was in the beginning no browser implemented Web Components, but you could effectively use them if you used Polymer... So for a while the only way to use Web Components was with Polymer, and I think that history caused this conflation, versus other similar situations that that didn't happen in.
 
@@ -112,7 +112,7 @@ But yeah, I wouldn't expect that React or Ember ends up with a Web Component ver
 
 **Mikeal Rogers:** Interesting, very interesting. I'm trying to play out in my head how much of the web affects this. Like the way that you use Stripe, for instance, or I was using the Tito embed the other day... You get this JavaScript include, and then you kind of use this custom element, and right now it has to do all this crazy stuff to find that element and do a bunch of stuff after load... Is it really gonna change the model of how that kind of stuff is implemented, where when you're like, "Hey, include my custom element in your page" - is it gonna work really differently and a lot smoother than it does today?
 
-**Alex Sexton:** \[00:15:51.14\] Yeah, I think there are HTML imports which I don't know if have made it into browsers yet... And there are a few things that make a lot of those things really cool. I have implemented a long time the Stripe.js credit card form as a web component just internally to try it out, and the amount of work that I have to do to style safely and do all the third party JavaScript things in the current world versus the Web Component world is pretty vastly different.
+**Alex Sexton:** \[15:51\] Yeah, I think there are HTML imports which I don't know if have made it into browsers yet... And there are a few things that make a lot of those things really cool. I have implemented a long time the Stripe.js credit card form as a web component just internally to try it out, and the amount of work that I have to do to style safely and do all the third party JavaScript things in the current world versus the Web Component world is pretty vastly different.
 
 And the speed at which our component can kind of render and then be attached, versus execute the JavaScript and then be injected is also pretty different. If we know one thing about the performance of checkout pages is that everybody who's ever tested it is like "This matters a lot." So I think it could be a pretty good fundamental change in the direction of rendering, and I think that's what a lot of -- a lot of the cool wins are the modularity and the composability and the scoping and all those things that we've had trouble with on the web whenever you're building a larger application, and I think those will be the things that people think about more than some of this stuff.
 
@@ -126,7 +126,7 @@ That's what rehydration is... It says "We can just attach ourselves to a server-
 
 **Mikeal Rogers:** Well, you just mentioned SEO, which means it's time for a break and we get off this topic... \[laughs\] So we're gonna take a quick break and when we come back we're gonna talk about conferences.
 
-**Break:** \[00:19:30.22\]
+**Break:** \[19:30\]
 
 **Mikeal Rogers:** Now we're gonna get into conferences a little bit. JavaScript has an amazing conference scene... There's a million little community conferences out there, it has really exploded in the last few years. We're just gonna talk a little bit about speaking at conferences, and if you're thinking about going to a conference, what to look for; if you're thinking about applying to speak what to look for, and maybe even a little bit about what it's like to run a conference.
 
@@ -144,7 +144,7 @@ There's a lot of really awesome resources, and a lot of these conferences also h
 
 **Mikeal Rogers:** I don't think that we could have done that nearly as well. Alex and I are both people that Chris helped out getting our events off the ground in that JSConf family. For me NodeConf and JSFest, and for Alex TXJS. But yeah, that's a great group of conferences... Even the conferences that aren't "JSConf family" are really directly influenced by that whole thing.
 
-\[00:24:00.06\] There's all kinds of new events popping up all over the place, and you can really see the difference in the content and how people are treated... A lot of the code of conduct stuff that is now pretty standard in conferences really started with JSConf\_US a while back. Alex, do you have anything to add?
+\[24:00\] There's all kinds of new events popping up all over the place, and you can really see the difference in the content and how people are treated... A lot of the code of conduct stuff that is now pretty standard in conferences really started with JSConf\_US a while back. Alex, do you have anything to add?
 
 **Alex Sexton:** Me? This Alex?
 
@@ -164,7 +164,7 @@ Actually, maybe I have an observation that I don't know if it's true... It feels
 
 **Rachel White:** It's okay. I think that it's getting a lot more spread out, and there's not really any -- I mean, it's hard to put on conferences of that scale... I think that the closest that I've been to where I felt that really -- I mean, every conference that I go to is pretty much... They're all really great, but there's just something special that hasn't been matched for me aside from Nordic.js. Nordic.js goes all out, and it's a different environment obviously because it's not here in the United States, but it's great...
 
-\[00:28:05.15\] I think that there's also a lot more speakers now. People realized, "Hey, people are doing that, I wanna do it too." I mean, that's what I did. I guess this is a good segue into how you can speak at conferences.
+\[28:05\] I think that there's also a lot more speakers now. People realized, "Hey, people are doing that, I wanna do it too." I mean, that's what I did. I guess this is a good segue into how you can speak at conferences.
 
 Jenn Schiffer was like, "Hey Rachel, if you wanna speak at conferences, you should just submit a talk", and I did, and it got accepted, so I had to build a robot... And then I spoke at JSConf last call, and it was awesome. I was like "This is fun!"
 
@@ -202,7 +202,7 @@ I have a game I like to play - speak/attend/stream. We'll say three conferences 
 
 **Rachel White:** I guess somebody asked about non-JS conferences, and I really haven't actually attended many non-JS conferences, so I'm gonna defer to you two. I've heard good things about OSCON and some other things like that, but...
 
-**Alex Sexton:** \[00:32:02.22\] It's a pretty different beast, I think... There are lots of full-stack conferences, and the core language conferences of almost every language are usually pretty great. Ruby has some... I think a lot of the conferences in JavaScript that are great actually kind of stem from the style of conferences that the Ruby community -- and Chris has admitted as much that I don't which Ruby...
+**Alex Sexton:** \[32:02\] It's a pretty different beast, I think... There are lots of full-stack conferences, and the core language conferences of almost every language are usually pretty great. Ruby has some... I think a lot of the conferences in JavaScript that are great actually kind of stem from the style of conferences that the Ruby community -- and Chris has admitted as much that I don't which Ruby...
 
 **Mikeal Rogers:** RubyFringe.
 
@@ -226,7 +226,7 @@ Now they don't sponsor a lot of the smaller events because there are these bigge
 
 **Alex Sexton:** I have some answers to that, having participated in some of that... So when a ticket costs a grand, people are not paying for the tickets. I think that is a fundamental reason why the audiences are very different at the two different conferences - it's people who often put up their own money to attend a community conference, versus people who's company have sent them to a conference to learn things.
 
-\[00:35:56.08\] So if you're gonna send someone to a conference, you wanna send them to the most reputable one that you can find, and O'Reilly is a very reputable name in tech education. There are very big names on that ticket. And of course, those people give the same talk every time, because you can't give 300 different talks in a year if that's your whole job, or whatever.
+\[35:56\] So if you're gonna send someone to a conference, you wanna send them to the most reputable one that you can find, and O'Reilly is a very reputable name in tech education. There are very big names on that ticket. And of course, those people give the same talk every time, because you can't give 300 different talks in a year if that's your whole job, or whatever.
 
 So I think you end up with an audience that cares a little less because they're not invested, which isn't to say that there aren't tons and tons of people who care a whole bunch in those places... But I think the environment becomes different because it isn't a bunch of people who are necessarily all on the same page.
 
@@ -254,7 +254,7 @@ By far, the majority of food truck situations end up poorly, which is why I have
 
 The event Alex is talking about was NodeConf 2012, and we actually did two different food trucks, one of which was very good at that, and everybody ate and got out of there in time, and the other one didn't process the line for an hour and a half, and we had to push everything back.
 
-**Rachel White:** \[00:40:04.05\] I'd like to circle back really quick to people that are interested and wanting to speak at conferences... So I know that in New York there's this really great thing that Tracy Hinds and Justin put out called Right To Speak, where people get together and they have abstract ideas, or just maybe even a few talk topics that they're interested in workshopping, and trying to help people flesh them out.
+**Rachel White:** \[40:04\] I'd like to circle back really quick to people that are interested and wanting to speak at conferences... So I know that in New York there's this really great thing that Tracy Hinds and Justin put out called Right To Speak, where people get together and they have abstract ideas, or just maybe even a few talk topics that they're interested in workshopping, and trying to help people flesh them out.
 
 I would suggest if you are interested in speaking, don't do it unless you're super passionate -- not "Don't do it...", "Don't do it unless you're like..."
 
@@ -276,7 +276,7 @@ The job of a speaker is not to teach everybody in 20 minutes how to use somethin
 
 Anyone reading documentation to you for 20 minutes is not going to be compelling, and it's a waste of money for the most part. So I totally agree - definitely inspire people, give them the -- and I don't mean like slimy-wimy, "everybody is great, everyone is a special unicorn type inspiration." Those talks can be very good too, I'm not against those talks, but I mean really talk about why you're excited about something and how it changed things for you, or something like that... Or why it's important for the web, or something. I think those types of talks really go over much better.
 
-**Rachel White:** \[00:44:17.16\] I wanna hear about the journey, not the steps.
+**Rachel White:** \[44:17\] I wanna hear about the journey, not the steps.
 
 **Alex Sexton:** Yeah.
 
@@ -286,7 +286,7 @@ Anyone reading documentation to you for 20 minutes is not going to be compelling
 
 **Mikeal Rogers:** On that note, I think we can take a break now. When we come back, we'll get into the project of the week.
 
-**Break:** \[00:44:33.15\]
+**Break:** \[44:33\]
 
 **Mikeal Rogers:** Alright, this week's project of the week is p5.js. Why don't you tell us about this, Rachel?
 
@@ -300,7 +300,7 @@ Processing.js is a more true port of processing to JavaScript. You don't have to
 
 So in comes p5! P5 is a really awesome, accessible library made my Lauren McCarthy, who was at NYU ITP and the Processing Foundation, which deals with Processing.js and a lot of other ports of processing to other languages. What they wanted to do is they wanted to make it so that people could do the same kind of things that you would do with processing, but a little bit looser written. So it's not gonna be exactly the same with all of the super involved animations you can do with your regular processing, but with p5 it lets you write more natural JavaScript to do some really cool stuff in the browser, involving a lot of shapes and interactions, and artsy stuff. It's all Canvas-based.
 
-\[00:48:19.19\] There's a bunch of other plugins that you can get for it. There's the p5 library, which is just the regular access to the shapes and stuff, but there's also p5.dom, which lets you interact with HTML5 objects outside of the canvas. You can do video/audio/webcam input, text... I was messing around with the video one, it's really cool. It essentially grabs each pixel in the video and maps it to a drawn instance of whatever shape that you use and hides the video. It makes basically an animation of whatever video you give it to, but with shapes instead for each pixel.
+\[48:19\] There's a bunch of other plugins that you can get for it. There's the p5 library, which is just the regular access to the shapes and stuff, but there's also p5.dom, which lets you interact with HTML5 objects outside of the canvas. You can do video/audio/webcam input, text... I was messing around with the video one, it's really cool. It essentially grabs each pixel in the video and maps it to a drawn instance of whatever shape that you use and hides the video. It makes basically an animation of whatever video you give it to, but with shapes instead for each pixel.
 
 There's also p5.sound, which uses web audio stuff, and you can do playback and effect a lot of the stuff on the canvas that you would build art with there. There's p5.serial, which lets you do serial communications with stuff and lets you interact with it with p5... There's so many. There's also bots, which was made by Sarah Groff-Palermo, who's a New York-based dev who's at Kickstarter...
 
@@ -320,7 +320,7 @@ There's another person who teaches at ITP named Daniel Shiffman who has a really
 
 **Rachel White:** Yeah... People that are super -- this is like a challenge that I'm going to give... If you have never really tried to do anything artsy or you're just a JavaScript dev and you build web stuff all the time, I would love if you tried to make something neat with p5. Because if you know JavaScript in and out with your heart, then you should be able to do some really awesome stuff with -- a lot of p5 stuff is just iterating through objects to place shapes randomly.
 
-\[00:52:11.10\] Please make something with it and tweet it at me, because I just wanna see what other cool things that people can use to do this. I also think it's a really good accessible library for people that are trying to try something new, and wanna try and make something every day... Because you could make something with this in like 15-20 minutes, just like a little code sketch, and it's gonna help you get used to regular JavaScript, but also a new library that makes pretty art.
+\[52:11\] Please make something with it and tweet it at me, because I just wanna see what other cool things that people can use to do this. I also think it's a really good accessible library for people that are trying to try something new, and wanna try and make something every day... Because you could make something with this in like 15-20 minutes, just like a little code sketch, and it's gonna help you get used to regular JavaScript, but also a new library that makes pretty art.
 
 **Mikeal Rogers:** Sweet. Alright, are we ready for picks? Do you have your picks ready?
 

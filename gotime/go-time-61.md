@@ -32,7 +32,7 @@
 
 **Andrew Poydence:** Yeah, so we (as in Pivotal) originally inherited Cloud Foundry from VMware, and VMware had done everything in Ruby. And the DEA, which was the Droplet Execution Agent, was written in Ruby, and it was essentially a giant black box of magic, where everything was written with metaprogramming, and standard Ruby...
 
-\[00:04:07.08\] So we wanted to add quite a bit of functionality, including speed, and being able to implement that in Ruby became insurmountable; there were all the security concerns, there were orchestration problems, so some developers decided "Hey, this would be a great opportunity to re-write this in a way that would actually be maintainable."
+\[04:07\] So we wanted to add quite a bit of functionality, including speed, and being able to implement that in Ruby became insurmountable; there were all the security concerns, there were orchestration problems, so some developers decided "Hey, this would be a great opportunity to re-write this in a way that would actually be maintainable."
 
 Go was picked because of its simplicity, so DEA Go (which is Diego) was born, and it's a massively distributed team; it's got contributors all across the country... I think there's people in Europe contributing to it, and it lends itself to that because it was written in Go and people can quickly jump in, gather context in the part that they need to and start contributing.
 
@@ -52,7 +52,7 @@ With Go, since a lot of these things aren't written in frameworks, you can simpl
 
 **Andrew Poydence:** It lends itself to, I think, enabling people to quickly help without all this extra \[unintelligible 00:07:56.16\] and we're not switching between frameworks all the time, much like maybe on a JavaScript project.
 
-**Jason Keene:** \[00:08:02.00\] Also, the standard library is very high quality and it's almost intuitive. Once you learn one standard library package, the conventions, the intuition you develop from learning that package translates into most of the other packages in the standard library, so that also helps with getting people up to speed.
+**Jason Keene:** \[08:02\] Also, the standard library is very high quality and it's almost intuitive. Once you learn one standard library package, the conventions, the intuition you develop from learning that package translates into most of the other packages in the standard library, so that also helps with getting people up to speed.
 
 **Carlisia Thompson:** So let's continue on this thread - I'm curious to know, for Loggregator do you make use of an external package, or are you doing everything just mostly using the standard library? Do you use an external package that has to do with logging?
 
@@ -71,7 +71,7 @@ We've done that with several of the components, so yeah, I'd say we've done a go
 
 **Carlisia Thompson:** And these variables, can you give us an idea...? Because it's very interesting to talk to somebody who has been working with one particular project for so many years, and we're always trying to take insights for people who are listening that they can pay attention to and maybe use in their own work, so I'm curious to know what sort of variables, what sort of ideas are guiding rewrites, because obviously you're saying you're not just refactoring for refactoring's sake, which is great.
 
-**Jason Keene:** \[00:11:47.13\] Yeah, I guess I could give one of the examples of something we've rewritten -- we switched over to using gRPC well over a year and a half ago, and that was kind of motivated from an engineering perspective... Like, we wanted to reduce the cost of us maintaining our own custom messaging. Previous to using gRPC, we had our own custom TCP framing, and TCP batching, and UDP code for managing messages... We also used \[unintelligible 00:12:21.17\] websockets... We had this hodgepodge of different transports, so from an engineering perspective we wanted to do this rewrite, and what kind of motivated that was security - that was one of the major motivating factors.
+**Jason Keene:** \[11:47\] Yeah, I guess I could give one of the examples of something we've rewritten -- we switched over to using gRPC well over a year and a half ago, and that was kind of motivated from an engineering perspective... Like, we wanted to reduce the cost of us maintaining our own custom messaging. Previous to using gRPC, we had our own custom TCP framing, and TCP batching, and UDP code for managing messages... We also used \[unintelligible 00:12:21.17\] websockets... We had this hodgepodge of different transports, so from an engineering perspective we wanted to do this rewrite, and what kind of motivated that was security - that was one of the major motivating factors.
 
 gRPC gives us mutual auth TLS, which is an awesome feature to have for doing secure communication between different components, and we get that as a feature, and as part of that, we get to also reduce some of the technical debt on the project and do a rewrite of our message transport.
 
@@ -85,7 +85,7 @@ So as these larger deployments have come out, we wanted to be able to handle all
 
 **Jason Keene:** So the big one we ran into first was Loggregator has an agreement with app developers that when you log a `stdout', it won't be slow; in fact, it won't push back at all, it should be free. So Loggregator has the task of ensuring that while we do our best to push messages through this distributed network system, we will not push back on the application. So we use channels, obviously, for distributed data; Go has those and they're great. But what we've noticed was as you write to a channel and that channel can't receive any data because there's downstream latency, we want to not drop the new messages, we'd rather drop the old messages. So now you have some kind of complicated thing, instead of just your normal writing to a channel with a select and a default, because those would drop the new messages... So we ended up making something called a [diode](https://github.com/cloudfoundry/go-diodes), which essentially was a ring buffer that operated purely on atomics, and would therefore prioritize new messages over old ones. This enabled us to have buffer data, allow for network latency and recover from that, while ensuring we didn't push back on producers, and still trying to get the most amount of logs we possibly could to our consumers.
 
-\[00:15:59.10\] So we went and ripped out a lot of channels that we previously had before, to enable less buffering, fewer goroutines per connection, and a little less latent in the end.
+\[15:59\] So we went and ripped out a lot of channels that we previously had before, to enable less buffering, fewer goroutines per connection, and a little less latent in the end.
 
 **Carlisia Thompson:** This is open source, isn't it?
 
@@ -117,7 +117,7 @@ I'm trying to think of some other projects I've noticed recently who adopted it.
 
 **Carlisia Thompson:** Now, I'm reading here that one of your project goals is to have _an opinionated log structure_... So talk to us about that. At the very least -- I've never used it, so I'm guessing it's to offer struct to a logging, and why is that the best goal for this project?
 
-**Jason Keene:** \[00:20:06.19\] We took the approach that there's textual logs, like an application can emit just normal, standard output stuff, and then there's metrics, such as counters, or gauges, timers... Much like you'd find in a project like [Prometheus](https://prometheus.io/). So what we did was we decided "We'll make this [protocol buffer](https://developers.google.com/protocol-buffers/) messages, and have them be very strict about what they'll accept", and the idea would be any producer has to put those fields in there, and that would enable then the consumers of Loggregator to know what they could get.
+**Jason Keene:** \[20:06\] We took the approach that there's textual logs, like an application can emit just normal, standard output stuff, and then there's metrics, such as counters, or gauges, timers... Much like you'd find in a project like [Prometheus](https://prometheus.io/). So what we did was we decided "We'll make this [protocol buffer](https://developers.google.com/protocol-buffers/) messages, and have them be very strict about what they'll accept", and the idea would be any producer has to put those fields in there, and that would enable then the consumers of Loggregator to know what they could get.
 
 That has enabled a lot of nice things, because all of a sudden these very generic consumers can come in - such as the Stackdriver one - and not know very much about Cloud Foundry as a whole (this massive system), and yet still can pull in and do very interesting things with the data. So it's been a nice way to document how metrics flow through Loggregator without having to dig through massive amounts of readme's, and go through different components as to what they're trying to accomplish... It enables the compiler, essentially, to do more work for you as well. You can't accidentally send some invalid protocol buffer message; that will be rejected.
 
@@ -135,7 +135,7 @@ We decided to move our API more towards a generic place, and have generic metric
 
 Pivotal's main focus is to enable developers to do interesting things, so Cloud Foundry wants to enable developers to do hard, complex distributed systems, and maintain them, and iterate on their software quickly, and have confidence that their stuff is actually working, so they need visibility in that.
 
-**Brian Ketelsen:** \[00:24:03.00\] Now, here's kind of a random, off-the-wall question - how complicated is a Cloud Foundry install? Is it something I can put on my laptop, or do I have to have a minimum number of VM's to run it, or a minimum number of physical nodes?
+**Brian Ketelsen:** \[24:03\] Now, here's kind of a random, off-the-wall question - how complicated is a Cloud Foundry install? Is it something I can put on my laptop, or do I have to have a minimum number of VM's to run it, or a minimum number of physical nodes?
 
 **Andrew Poydence:** It scales down pretty well. There's a project called [Bosh Deployment](https://github.com/cloudfoundry/bosh-deployment) -- we use Bosh to manage the Cloud Foundry deployment. So you can run Bosh deployments locally on your laptop. We do it on our Linux orchestrations here for development purposes we'll deploy at Cloud Foundry. Granted, it's a trimmed down version of Cloud Foundry; it's not completely, highly available... But you can run that on your laptop as long as it can run a decent-sized VM.
 
@@ -165,7 +165,7 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Jason Keene:** Yeah, and the wrappers for something like diodes are easy to generate, just kind of boilerplate code. \[unintelligible 00:27:38.13\] Like Andrew said, we kind of worked around it. I'm happy with the pattern that we've adopted to make our stuff generally usable, but it doesn't mean that you have to use things like interface{} (empty interface) and unsafe pointer... But we kind of contain them in a small box, so that it doesn't bleed out into the rest of your program.
 
-**Andrew Poydence:** \[00:28:03.27\] And I think that's been really key for us, again, on this massively distributed team. I think if you let your unsafe pointers or interface{} leak too far, again, if someone were to just drop in the middle of your codebase and try to help, they wouldn't have the compiler helping them there, like "What is this interface{} ? What is it supposed to represent? How am I supposed to know?"
+**Andrew Poydence:** \[28:03\] And I think that's been really key for us, again, on this massively distributed team. I think if you let your unsafe pointers or interface{} leak too far, again, if someone were to just drop in the middle of your codebase and try to help, they wouldn't have the compiler helping them there, like "What is this interface{} ? What is it supposed to represent? How am I supposed to know?"
 
 **Jason Keene:** The casting of unsafe pointers is not always intuitive. We've had situations in the past where sometimes putting an extra * - the compiler doesn't tell you "Hey, this is referencing something you shouldn't dereference...", so yeah...
 
@@ -203,7 +203,7 @@ Pivotal's main focus is to enable developers to do interesting things, so Cloud 
 
 **Erik St. Martin:** And the ways to work around it are kind of fun, too. Brian here is like the king of code generation.
 
-**Brian Ketelsen:** \[00:32:03.21\] Hahahaha!
+**Brian Ketelsen:** \[32:03\] Hahahaha!
 
 **Andrew Poydence:** We could use some of that, I think. We've got one library that does its best to generate a tree traversal for you, which was a very interesting problem, but generating code is hard...
 
@@ -242,7 +242,7 @@ I think that's about it. There were some other reasons why we kind of adopted it
 
 **Jason Keene:** That is something that when you're using gRPC - and protobufs, for that matter - you kind of have to consider your upgrade paths. It's something that you have to spend some time considering; it's not something you get for free... But it definitely provides a clear path for you, and it's something that you can tell that people who created gRPC and protobuf, it's something that they are concerned about, having these smooth up paths.
 
-**Erik St. Martin:** \[00:36:10.07\] Right, because when you get to the actual protocol that things are communicating over, it's extremely hard to change it, because then everything basically has to come down and back up at the same time, unless there's kind of well thought out upgrade paths.
+**Erik St. Martin:** \[36:10\] Right, because when you get to the actual protocol that things are communicating over, it's extremely hard to change it, because then everything basically has to come down and back up at the same time, unless there's kind of well thought out upgrade paths.
 
 **Andrew Poydence:** Yeah, that's not a thing in Cloud Foundry. Loggregator has components and agents that run on every single VM in Cloud Foundry, so... There's customers that have deploys that go for days, because they're rolling so many VM's, so your VM that rolls from the beginning has to still be compatible with the servers that will get rolled for a couple more days, type of thing.
 
@@ -282,7 +282,7 @@ I think that's about it. There were some other reasons why we kind of adopted it
 
 **Erik St. Martin:** Yeah, you're just combing through code, looking for anywhere that could leak memory...
 
-**Jason Keene:** \[00:40:00.04\] "Something happened in prod... We don't know what. Fix it."
+**Jason Keene:** \[40:00\] "Something happened in prod... We don't know what. Fix it."
 
 **Erik St. Martin:** Yeah. I mean, I think we're still trying to find the perfect balance between ops and dev and things, right? And I think a lot of the initial motivation, at least from my standpoint, for the whole DevOps movement is to understand how your code would be deployed and to help deliver your code as a full-fledged product, with the tools that the operators need to support it, and the documentation for how to handle these scenarios, how to figure out when it needs to be restarted, things like that... Instead of just taking this new build and being like "Here, you make it live." But whether developers go full-fledged operations, I don't know whether that's the right mix; I think we're still figuring that out, it's still early... But I think it does make sense for us to have some operations knowledge.
 
@@ -306,7 +306,7 @@ I think that's about it. There were some other reasons why we kind of adopted it
 
 **Andrew Poydence:** [The nines of reliablity](https://en.wikipedia.org/wiki/High_availability#%22Nines%22) have been really nice. How to measure success on a distributed system is kind of a tricky concept. It can seem like it's working to you, but then you have a different consumer that they're not getting what they expect at all, and how do you measure how things are going...?
 
-**Erik St. Martin:** \[00:44:00.22\] Yeah, and then I think you have the flipside of it, which is anytime you give somebody a metric on which to measure something, it's "Well, it has to be five nines. There has to be 100% test coverage...", you know?
+**Erik St. Martin:** \[44:00\] Yeah, and then I think you have the flipside of it, which is anytime you give somebody a metric on which to measure something, it's "Well, it has to be five nines. There has to be 100% test coverage...", you know?
 
 **Andrew Poydence:** Right...
 
@@ -352,7 +352,7 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Erik St. Martin:** So maybe we can keep our job then... \[laughter\] Another cool project I came across is called [GoTTY](https://github.com/yudai/gotty), which I've only played with a little bit, but it seems super cool, where you basically can share your terminal, but through a web page, so everybody else kind of gets to hit a website and live-view your terminal.
 
-**Brian Ketelsen:** \[00:48:07.00\] GoTTY is really awesome, I've used it to back a couple projects that I wrote this spring, and there's a lot of power to it. You can pipe it through to just about anything. I've had mine piped through to Docker, so that when somebody hit a web page, it would automatically spawn a Docker container and drop them into a shell. So you had web-based containerized shell environments for everybody using GoTTY.
+**Brian Ketelsen:** \[48:07\] GoTTY is really awesome, I've used it to back a couple projects that I wrote this spring, and there's a lot of power to it. You can pipe it through to just about anything. I've had mine piped through to Docker, so that when somebody hit a web page, it would automatically spawn a Docker container and drop them into a shell. So you had web-based containerized shell environments for everybody using GoTTY.
 
 **Erik St. Martin:** I didn't even realize that you had used GoTTY for that.
 
@@ -410,7 +410,7 @@ The way we test that is we have a pretty aggressive black box testing of our sys
 
 **Erik St. Martin:** Oh, nice!
 
-**Brian Ketelsen:** \[00:52:05.23\] I don't know how I did it, but I managed to sign myself up for five talks in eleven days, and I am one talk into that eleven days, and already regretting the whole plan. I think it was Erik's idea.
+**Brian Ketelsen:** \[52:05\] I don't know how I did it, but I managed to sign myself up for five talks in eleven days, and I am one talk into that eleven days, and already regretting the whole plan. I think it was Erik's idea.
 
 **Erik St. Martin:** Are they all five different talks?
 
@@ -456,7 +456,7 @@ You know, I am really, really grateful to be able to do the job that I do. I'll 
 
 He's going to be -- well, I think he is already, or soon to be the VP of developer relations at [source{d}](https://sourced.tech/)
 
-**Erik St. Martin:** \[00:56:04.00\] source{d}.
+**Erik St. Martin:** \[56:04\] source{d}.
 
 **Carlisia Thompson:** source{d}, which I've never heard of this company before, but they sound really cool.
 

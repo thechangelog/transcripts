@@ -9,7 +9,7 @@ That kind of wound down in 2013 and they were like, "Well, do you wanna jump bac
 
 I started looking around at different server-side languages, like "Hey, what JSP, ASP...? Dang, we can't use ColdFusion? I knew that one! PHP... Right? Or do we wanna go with Ruby, or Node, or Python...?" and then I had a student who I'd trained back in the early 2000s who'd become an awesome JavaScript engineer - Aaron Roberson, shout out to... Shout out to Nike - he's up at Nike now, one of their engineers. And Aaron's like, "Dude, you gotta check out Go." I was like "Go? What's Go?" He's like, "Go is like the zen perfection of programming." I'm like, "Okay, I'm interested. Tell me more about Go" and he's like, "It was built by the masters..." I'm like, "What do you mean?" He's like, "Google built Go. They hired the heaviest hitters in the industry and they put some of the greatest minds to work." I'm like, "Who? Who are the greatest minds?" "Rob Pike, Robert Griesemer, Ken Thomson..." The same people who created the C programming language, UNIX, UTF-8, they created the language because all the languages in the world weren't making Google happy, and so Google said, "Let's build a new language."
 
-\[00:04:09.01\] So they hired these guys who helped create C, helped create UNIX, helped create UTF-8 and they created this new language, Go. "You gotta check that out. It's built to do what Google does."
+\[04:09\] So they hired these guys who helped create C, helped create UNIX, helped create UTF-8 and they created this new language, Go. "You gotta check that out. It's built to do what Google does."
 
 So when I heard that, I was like, "Okay, you totally got my interest." The credentials sold me alone, so I just started really having to level my skill set up. It was just like late nights, late nights, late nights, 2013... Is this too much? Do you guys want me to keep rambling?
 
@@ -23,7 +23,7 @@ In 2014 December, that's when I started learning Go, and then in 2015, literally
 
 Caleb really broke some incredible trail, and then we took all that which we learned from Caleb and we've just been teaching it at California State University Fresno and Fresno City College, and it's been an incredible experience just to be involved. I love the language. I love the fact -- to me it's a programmer's language. This isn't a Mickey Mouse language, this is for people who really know how to program, and you have to understand what's going on at all levels. If you're doing web dev with Go, you have to know the HTTP protocol, you have to know RFC 7230 and IETF. You have to know that every bunch of text is going back between the client and the server, it's formatted in a certain way. And you've got your start line, and then you have your headers, and then you have your body; you have to know the syntax of the status line and the request line, and be able to parse that and put together your own ServeMux. What is a ServeMux? First time I heard ServeMux mux I thought, "Man, are we talking about a dog here? What's a ServeMux?" But that's basically just another name for server, router...
 
-\[00:07:56.26\] Once you understand all that, using the net package, you can start to put together your own server and do all of your own routing without even having to rely upon what's available to you in the net/http package. But when you can do that, you understand the net/http package.
+\[07:56\] Once you understand all that, using the net package, you can start to put together your own server and do all of your own routing without even having to rely upon what's available to you in the net/http package. But when you can do that, you understand the net/http package.
 
 I think Go is amazing. For web dev it's my first choice. I love it because of the performance. Another interesting anecdote - just to finish the ramble - is when I first started learning Go there weren't a lot of materials out there for web dev, but Go was really big quickly in China, because Go scales incredibly; Go does what Google does. So one of the books that I started reading was a book written -- I think the guy's name was \[unintelligible 00:08:38.01\]. He wrote that book in Chinese and then it got translated to English, so I was trying to learn Go web dev in a book that was basically Chinglish. I don't know if you know Chinglish, you can google it.
 
@@ -42,7 +42,7 @@ I think the language could really use a big foothold in academia, and I'm happy 
 
 **Brian Ketelsen:** Yeah, but why don't we take a moment to introduce the rest of our show? \[laughs\] This is Brian Ketelsen, I'm sitting in for Erik St. Martin today, who's in an airport listening live... Hi, Erik, we miss you! And we've got Bill Kennedy in today...
 
-**Bill Kennedy:** \[00:12:04.29\] Hey, everybody!
+**Bill Kennedy:** \[12:04\] Hey, everybody!
 
 **Brian Ketelsen:** And Carlisia Pinto is joining us, as usual... And we're all excited to be here.
 
@@ -72,7 +72,7 @@ I think Go is a great first language, because it teaches programming fundamental
 
 **Todd McLeod:** I'm not. I'm not writing a book about Go. I love being able to connect with people. I kind of view it as -- anthropologically we've learned from each other in person; that's the vast amount of our history through evolution as humans. We learned talking to each other, so in my trainings I really love trying to... So much gets conveyed non-verbally. You can hear my voice, but if you can also see me, I think that that conveys a lot.
 
-\[00:16:14.26\] I just really love that medium of teaching where it's online, it's a course, you can see what I'm showing you on the screen, you get the nuances of my voice, I could school you a little bit and give you direction and tell you to do this exercise (Go do it! Go do it now! Just pause the video, do the exercise!) It's fun; personality comes through, you can see me...I really try to do that with all my courses.
+\[16:14\] I just really love that medium of teaching where it's online, it's a course, you can see what I'm showing you on the screen, you get the nuances of my voice, I could school you a little bit and give you direction and tell you to do this exercise (Go do it! Go do it now! Just pause the video, do the exercise!) It's fun; personality comes through, you can see me...I really try to do that with all my courses.
 
 A lot of courses are just sort of a very narrated, reading a script, voiceover presentation or screencast. You can learn things from those, but it lacks that life and that vitality. I think that's again where that sort of artistic soul of mine comes in, where I love to create and think about the aesthetics of it, and what's the final product, what's the feel of it gonna be, and how do you convey something and have a good time and enjoy it, and also build all that into it?
 
@@ -83,7 +83,7 @@ I just try to get people the tools they need to learn. That's my craft being an 
 
 **Brian Ketelsen:** That's awesome. We need to take our first sponsor break.
 
-**Break:** \[00:18:48.18\]
+**Break:** \[18:48\]
 
 **Carlisia Thompson:** Todd, you said that you don't like the idea of bootstrapping because you quickly reach a point where you don't know what you are doing because you don't have the foundation... Or maybe I'm interpreting more than what you said here, but I think that also has to do with what you said about Go being a real language. But I want to hear from you what you mean when you say that Go is a real language. What does that mean to you?
 
@@ -96,7 +96,7 @@ With HTML and CSS, I'm not a fan of frameworks and libraries. Yeah, they get a l
 So if you look at metrics, and I'm really into building websites now, and we're putting together a website ourselves, which I'm very excited about, and performance is so key, it's such a key metric... When you look at studies on performance, like Amazon lowers their time by one hundred milliseconds and sales go up 1%, it's like, "Wow, people are super sensitive." Performance is really key, so the average size of a web page today - 2,200-2,400 kb, right? And the site we're building right now is 400-600 kb each page. So we're like one tenth, one-sixth the size of average sites. How do we do that? We don't have any jQuery, we don't have bootstrap, and when we want to put an image onto the page, we're not using Font Awesome. Because if you download Font Awesome, that's 100 kb. That's one twenty-fourth of your size budget for that page if you're trying to hit normal sizes today.
 Instead, we extract SVGs, run them through Illustrator, get that SVG and then stick that code in. That costs us maybe 7 kb, or 5 kb on that page for those images.
 
-\[00:23:56.17\] So just keeping things lean, and having complete control over your codebase, and a thorough understanding of your codebase - to me, that's what it means to be a craftsperson. This is very much a craft; it's the craft of building software. And just as somebody like a woodworker, they would know all the tools in the wood shop, and they would know the different characteristics of the different materials they work with. And when you first come into a craftsperson's workspace - like a woodworker's workspace - you might be like, "Holy cow, there's a lot to know about this craft! There's like a hundred different lays, or all these different little chisels and files, and where would you use each one and why, and which material would you choose for which situation...", but after time you become that craftsperson and you have that intimate knowledge of all of your tools and all of your materials, and you can really start to build beautiful, well-built, performant applications.
+\[23:56\] So just keeping things lean, and having complete control over your codebase, and a thorough understanding of your codebase - to me, that's what it means to be a craftsperson. This is very much a craft; it's the craft of building software. And just as somebody like a woodworker, they would know all the tools in the wood shop, and they would know the different characteristics of the different materials they work with. And when you first come into a craftsperson's workspace - like a woodworker's workspace - you might be like, "Holy cow, there's a lot to know about this craft! There's like a hundred different lays, or all these different little chisels and files, and where would you use each one and why, and which material would you choose for which situation...", but after time you become that craftsperson and you have that intimate knowledge of all of your tools and all of your materials, and you can really start to build beautiful, well-built, performant applications.
 
 So that's my approach - just to do things well. When I looked at server-side languages, different languages approach things in different ways, but Go seemed to me to be the one that was the most zen - coming back to that word, zen - and the one that is the most fundamental. You're working down at a low level and you understand everything that's going on. You're actually getting that request and parsing that text and you can build your own ServeMux if you want. A lot of that is abstracted away for you if you use the net/http package in the standard library. But you could grapple it, you could wrap your head around it and you could see what's happening there.
 
@@ -106,7 +106,7 @@ Sometimes I say "Go suffers no fools!" Kind of like the Pirate Ride at Disneylan
 
 So it doesn't suffer fools. I mean, it's got \[unintelligible 00:27:42.12\] it's got a slice to bite. I mean, it gets down to all of your data structures and everything, and ... I just gotta ramble a little bit more about Go - this is one of the things I love about Go: innovation. Technology is about innovation, and for me - that's my perspective, but that's the heart and cornerstone of what programming technology is about.
 
-\[00:28:10.05\] A lot of people, as I've met people learning the language, they're like "How come it doesn't have generics? This isn't OOP... Where is the inheritance?" \[laughs\] I'm like, "You're a programmer! You create things that innovate. You need to innovate, too", and I feel like that's what they did with Go.
+\[28:10\] A lot of people, as I've met people learning the language, they're like "How come it doesn't have generics? This isn't OOP... Where is the inheritance?" \[laughs\] I'm like, "You're a programmer! You create things that innovate. You need to innovate, too", and I feel like that's what they did with Go.
 
 They looked at, "Hey, this is how programming's evolved - spaghetti code, procedural, structured OOP"... They looked at research, like Tony Hoare's CSP, and then they said, "Let's integrate all that and do this new thing." When I first started to learn Go, people were like "Go's all about types. It's all about types." I'm like, "I don't understand that yet." But now I'm like, "Oh, it's totally all about types!" You create your own types. I can create my own type "hotdog" if I want, and the underlying type can be an int, and then I gotta attach a method to that. And interfaces...
 
@@ -120,7 +120,7 @@ I feel like Go innovated and took programming and tried to bring it to the next 
 
 You know, the first thing that came to mind, Bill, is I did a presentation here at a little tech event we had in Fresno, and gave everybody an introduction in the language and I made a video about that on YouTube. We could put that video in the show links. If there's people out there who are interested in Go, you're wanting to start to learn go, you could check out that video on my YouTube channel, and in 45 minutes it lays out how you declare your variables, different ways to use the variables... It lays out all the basics, gets you up to declaring types, structs, aggregate data type that holds different types of data together in one data type, and methods, and interfaces, and polymorphism... That's all in like 40 minutes.
 
-\[00:32:23.12\] In terms of teaching people, like "Okay, GoBridge - we wanna reach out to people, disadvantaged populations also, and people who've had no experience with computers or maybe didn't grow up with a lot of access to computers...", I think that the next thing that comes to mind is reach them when they're young, if you can. There's research out there that shows there's a break point psychologically at age 13, and then again at age 25. After those break points it becomes harder and harder to learn a language, and that's just any language.
+\[32:23\] In terms of teaching people, like "Okay, GoBridge - we wanna reach out to people, disadvantaged populations also, and people who've had no experience with computers or maybe didn't grow up with a lot of access to computers...", I think that the next thing that comes to mind is reach them when they're young, if you can. There's research out there that shows there's a break point psychologically at age 13, and then again at age 25. After those break points it becomes harder and harder to learn a language, and that's just any language.
 
 **Bill Kennedy:** Let me interrupt you real quick, because this is kind of what I'm looking for. Natalie, who lives in Berlin, has been giving classes to beginner-beginners. One of the things that she's noticed - and these are the kind of things that we as people who wanna educate won't learn until we get into the classroom... One of the things she's noticed which I thought was fascinating is that people who are just starting out programming will not ask questions. She's got to almost directly ask that person, "Ask me a question, ask me a question!" before they will. Are you finding those types of things? How are you dealing with those? How can somebody who wants to get into this space, what are they gonna experience and how have you gotten around those types of issues?
 
@@ -133,11 +133,11 @@ So it is hard for people to ask questions, and I think just bringing that human 
 
 **Carlisia Thompson:** You know what, I'm going to risk and say it might be a universal thing, because I grew up in Brazil and my elementary, all the way up to high-school was done in Brazil. Like Todd, I was the one asking the questions all the time, sometimes up to the point of being a pain in the butt, and 90% of the class wasn't asking questions. It was always like this; I lived in different cities, it was always like this. So it might be normal... most people won't ask questions.
 
-**Todd McLeod:** \[00:36:06.14\] Alright, enough theory. Let's model it. Let's all start admitting what we don't know. \[laughter\] Right now.
+**Todd McLeod:** \[36:06\] Alright, enough theory. Let's model it. Let's all start admitting what we don't know. \[laughter\] Right now.
 
 **Brian Ketelsen:** Well, I can tell you one way to figure out what you don't know - by using Backtrace, our second sponsor.
 
-**Break:** \[00:36:18.00\]
+**Break:** \[36:18\]
 
 **Carlisia Thompson:** Talking about beginners and teaching, I have a question for Todd that's more generic. I would like to know your opinion about whether kids should learn how to program early on? I will volunteer my opinion - I say usually kids should not be spending time programming early on. Maybe when they are early teens they could start learning, because I think kids should invest time in learning especially how to write. There is so much reasoning and logic that goes into writing, and programming is so much about reasoning and logic, and writing is so important for so many aspects of our lives, that I think you have to make time for programming and you have to cut time from somewhere.
 
@@ -147,7 +147,7 @@ I'd much rather have kids spending extra time in writing, rather than programmin
 
 I think it's fantastic if kids could program before 13. I also think if we're gonna force certain subjects on students (reading, writing, arithmetic) I think coding needs to be in there. That needs to be your bread and butter. That's the new math, that's the way we do calculations for engineering tasks. Like yeah, you need to know some basics - multiplication, division, subtraction, addition, but beyond that you should just be coding, I think.
 
-**Brian Ketelsen:** \[00:39:48.01\] I'd rather see official logic, first. I'd rather have a formal training in real logic than programming first. I think programming is an extension to math and logic, so a good background in math and then logic and then programming would help programmers. I think one of the things that I stumbled with -- I was one of those kids that was programming at ten, and I didn't understand all of the concepts, so I fumbled through them. Had I had maybe more formal training in logic earlier, it might have been easier.
+**Brian Ketelsen:** \[39:48\] I'd rather see official logic, first. I'd rather have a formal training in real logic than programming first. I think programming is an extension to math and logic, so a good background in math and then logic and then programming would help programmers. I think one of the things that I stumbled with -- I was one of those kids that was programming at ten, and I didn't understand all of the concepts, so I fumbled through them. Had I had maybe more formal training in logic earlier, it might have been easier.
 
 **Todd McLeod:** Oh, cool.
 
@@ -181,7 +181,7 @@ I think it's fantastic if kids could program before 13. I also think if we're go
 
 **Todd McLeod:** I don't know, maybe because I'm a goofball. \[laughs\] For me it's kind of like just hanging out here with you guys. It's fun, I like talking, and I like sharing. For me, I approach it as... I hate the ivory tower of academia, and I hate that pretention and ostentation (or however you say that word). I like approachable, and I think we're all in this together; I know some things, so let me share them with you, and I know that all of you can and have -- Bill and Brian, I've learned from you guys... We all learn from each other. I just approach it in that way, and that's how I approach my classes. It's like, "Hey, let's have a good time and enjoy ourselves and figure this stuff out."
 
-\[00:44:00.01\] I think also it's the fact that I've been doing it since (gosh, man...) 1997. That's almost two decades. If you look at Malcolm Gladwell's theory of outliers, it takes 10,000 hours, or 4 hours a day for ten years to become an expert at something, and I definitely know that the way I teach today is really different than the way I taught when I started out. I think it's a skill, like anything, knowing how to present material and how to do oratory oration, public speaking in a way that's captivating and compelling. Pacing, changing the volume - which I've just done here to demonstrate it - and then speeding it up... All of that, as humans, we are designed to notice that which changes. If you can keep stimulating people, they keep paying attention. You do that in a variety of different little techniques that I don't even think about anymore, unless I stop and start talking about them.
+\[44:00\] I think also it's the fact that I've been doing it since (gosh, man...) 1997. That's almost two decades. If you look at Malcolm Gladwell's theory of outliers, it takes 10,000 hours, or 4 hours a day for ten years to become an expert at something, and I definitely know that the way I teach today is really different than the way I taught when I started out. I think it's a skill, like anything, knowing how to present material and how to do oratory oration, public speaking in a way that's captivating and compelling. Pacing, changing the volume - which I've just done here to demonstrate it - and then speeding it up... All of that, as humans, we are designed to notice that which changes. If you can keep stimulating people, they keep paying attention. You do that in a variety of different little techniques that I don't even think about anymore, unless I stop and start talking about them.
 
 So I think that all has something to do with it.
 
@@ -200,7 +200,7 @@ I'm a full believer in doing what I can to help others, and if you can't afford 
 
 **Carlisia Thompson:** I think Bill Kennedy gets paid every time he sends somebody a book, because he's always trying to push the book for free to people. \[laughter\]
 
-**Todd McLeod:** \[00:47:59.16\] Yeah, he gave my entire class his book. You know, that generous spirit always comes back. You can never have too many friends.
+**Todd McLeod:** \[47:59\] Yeah, he gave my entire class his book. You know, that generous spirit always comes back. You can never have too many friends.
 
 **Bill Kennedy:** Actually, the royalties to the book, Brian, that goes back to Gopher Academy every year for the scholarship fund, right?
 
@@ -234,7 +234,7 @@ I am very excited about all of the changes in the http package, graceful shutdow
 
 I don't even know what kind of speed they're taking over at the garbage collection team, but they must be living next to a math lab because all they do is make that damn garbage collector faster and faster and faster and faster. Kudos to them for working so hard to make garbage collection awesome.
 
-**Bill Kennedy:** \[00:52:05.24\] Brian, I'm sure you had the same thought I did reading through the 1.8 notes. All I thought about was, "Oh my god, we have a lot of work to do to update materials for teaching."
+**Bill Kennedy:** \[52:05\] Brian, I'm sure you had the same thought I did reading through the 1.8 notes. All I thought about was, "Oh my god, we have a lot of work to do to update materials for teaching."
 
 **Brian Ketelsen:** Right? Yeah, so much! There's so many big changes, and the thing about the Go 1 compatibility guarantee is that that code that you wrote for Go 1 is still gonna work in 1.8. I love that. But I was actually thinking exactly the same thing this morning, or last night when I was reading those release notes - "God, I've got a lot of material to update."
 
@@ -282,7 +282,7 @@ It's completely client-compatible with Kafka, and there's nothing that makes me 
 
 **Todd McLeod:** Hm! Yeah, I'm gonna model that not knowing right here for all the other students out there. I experienced this at times when I listened to GoTime, but it's like, "Oh yeah, what is Kafka? I've never heard of it, never been exposed to it." So it's like GitHub, but for data.
 
-**Brian Ketelsen:** \[00:56:04.27\] Well, that's a poor way to say it, maybe I should have said it better. Kafka is a... Gosh, it's so difficult to describe. It's a distributed data store that processes streams that allows you to get to your data at different points in time. We use Kafka frequently as the source of truth for our data, and then other systems, like the databases, the queues and whatever, read from Kafka. That propagates the data throughout the system. So Kafka is the source of truth, and everything else reads from Kafka.
+**Brian Ketelsen:** \[56:04\] Well, that's a poor way to say it, maybe I should have said it better. Kafka is a... Gosh, it's so difficult to describe. It's a distributed data store that processes streams that allows you to get to your data at different points in time. We use Kafka frequently as the source of truth for our data, and then other systems, like the databases, the queues and whatever, read from Kafka. That propagates the data throughout the system. So Kafka is the source of truth, and everything else reads from Kafka.
 
 Distributed log - thank you, Erik St. Martin for jumping in and telling me it's a distributed log. So it kind of allows you to have any client be able to come in that can say, "Start me at zero and give me all of the changes in the data." It's an amazing system... If you haven't played with Kafka yet, go check out the documentation. There's a steep conceptual curve to Kafka, so you need to dedicate some time to read it. But once I did that, I just could not love technology more than I love Kafka.
 

@@ -38,7 +38,7 @@ I'm just curious if at this stage in webpack and your career - does the public o
 
 **Tobias Koppers:** I don't care that much about that. I think because it's so large, you always get negative feedback. You get few positive feedback, because nobody says positive stuff about something... You get more negative feedback than positive feedback, I think, especially on Twitter and other platforms. But I tend to ignore the negative feedback a lot, not take it personally, more take it as ideas of what you can improve, or what can be done better.
 
-**Jerod Santo:** \[00:04:16.12\] How do you accomplish that? ...because this is something you work on all the time. So something that happens is when you dedicate a lot to something is you can begin to identify, like "I'm the webpack guy." I always think of Daniel Stenberg, who's like -- cURL is his life, and he said this is his life's work, is cURL. He identifies very closely. So I'm curious, if you don't identify yourself as the webpack guy, or if you just have thick skin and the criticisms brush off? How do you not focus on the criticisms?
+**Jerod Santo:** \[04:16\] How do you accomplish that? ...because this is something you work on all the time. So something that happens is when you dedicate a lot to something is you can begin to identify, like "I'm the webpack guy." I always think of Daniel Stenberg, who's like -- cURL is his life, and he said this is his life's work, is cURL. He identifies very closely. So I'm curious, if you don't identify yourself as the webpack guy, or if you just have thick skin and the criticisms brush off? How do you not focus on the criticisms?
 
 **Tobias Koppers:** Yeah, I think I identify as the webpack guy. It's like my baby, so it's kind of yes... But I'm not the guy who takes it seriously that the negative feedback is bad. Often it's more like all the frustration - they say something bad, and I have the ability to ignore this, or... I don't know. Difficult to say.
 
@@ -68,7 +68,7 @@ I think we had a lot of influence, and I think it's cool to influence what the p
 
 **Tobias Koppers:** Yup. Before I started full-time, I worked like ten hours per week on webpack, so part-time... And it was more work involved than I could do in the part-time I had, with having a real job. At this time, Sean started collecting money to Open Collective and trying to fund the webpack project.
 
-\[00:08:04.04\] My contract ended, and I decided to not continue working at my existing job. It was a risky step, but I tried to work at least a few months from the existing money of the webpack Collective, try to work a few months full-time, to make progress, more and more features, webpack 2 was at this time active... So yeah, I started with the idea of only working a few months, but it took on and we got more funding, so -- I liked working on webpack full-time, so I just continued working on that.
+\[08:04\] My contract ended, and I decided to not continue working at my existing job. It was a risky step, but I tried to work at least a few months from the existing money of the webpack Collective, try to work a few months full-time, to make progress, more and more features, webpack 2 was at this time active... So yeah, I started with the idea of only working a few months, but it took on and we got more funding, so -- I liked working on webpack full-time, so I just continued working on that.
 
 It was a risky step, because at this time we only had money to fund me about a few months (five or six). I wrote about quitting my job, and wasting time, I have a family, and I've got a baby at this time... But I think it was a good idea and a good step to do this, and work full-time on this. I think I've made a lot of progress and brought webpack forward with working more on this.
 
@@ -88,7 +88,7 @@ I pay myself a fixed wage, and the other contributors get money depending on the
 
 **Adam Stacoviak:** Yeah. We definitely wanna dive deeper at some point into the value-add for those brands who sponsor webpack, for sure, more deeply... But I'm curious if you would say that you feel like you've sacrificed quite a bit to be a part of webpack. Would you consider what you're doing a sacrifice?
 
-**Tobias Koppers:** \[00:12:05.03\] I don't think it's a sacrifice. I want to work on this, and I do it for fun, and for my work, for my job... So I'm not sure...
+**Tobias Koppers:** \[12:05\] I don't think it's a sacrifice. I want to work on this, and I do it for fun, and for my work, for my job... So I'm not sure...
 
 **Adam Stacoviak:** Let me frame the question a little differently... Because the reason why I'm asking you this is not to give you a chance to say "Oh yes, I sacrifice greatly for the community. They should love me", it's more like - you know, there's so much that happens in open source because of people who truly care... And often they're doing these things in sacrifice and not knowing they're actually sacrificing.
 
@@ -116,7 +116,7 @@ I say that because there's so much in open source that happens because of goodwi
 
 **Jerod Santo:** Right. So webpack is unique insofar as it has gained a substantial amount of financial backing, which many projects never reach that. Many open source maintainers, like you said, Adam, they struggle to reach at least financial sustainability for their projects... And webpack has gotten there. Now, "there" comes with other problems; we'll get into those. But Tobias, in your eyes - like I said, a $500,000 estimated annual budget according to the current sponsors, and all that kind of stuff... So not an insignificant amount of money - like you said, maybe not as much money as value that webpack's bringing - I'd argue that it's really low... But in your eyes, how did you get here? How did you, the team of webpack, get to this place where you have large corporations sponsoring you in substantial sums? What got you here?
 
-**Tobias Koppers:** \[00:16:07.27\] I would say Sean got us here. He started all the ideas about going to companies or saying at conferences that we need sponsors. I also think we had a good timing, because the community or the ecosystem and the companies are starting to invest more in open source, and care about open source... And I think the mentality of companies changed in the recent times; they're more willing to pay/invest into open source maintaining or open source funding. So it's probably luck, and... Yeah, it's also Sean - he did a good job in going to companies and asking them to fund us and sponsor us.
+**Tobias Koppers:** \[16:07\] I would say Sean got us here. He started all the ideas about going to companies or saying at conferences that we need sponsors. I also think we had a good timing, because the community or the ecosystem and the companies are starting to invest more in open source, and care about open source... And I think the mentality of companies changed in the recent times; they're more willing to pay/invest into open source maintaining or open source funding. So it's probably luck, and... Yeah, it's also Sean - he did a good job in going to companies and asking them to fund us and sponsor us.
 
 Also, the visibility of the company scaled from all those sponsors and the good citizens. Companies need more workers, and recently it's gotten more difficult to get good employees, and so it's also a good advertisement for getting employees for companies. For us, it was very good timing, and luck, and... Probably we also did a good job in our product, but I think it was much luck, and Sean.
 
@@ -144,7 +144,7 @@ At this time we also started, maybe because of Sean, to organize ourselves as a 
 
 **Adam Stacoviak:** Yeah. \[laughs\] It's wild how he joined himself, too. He saw the ingredients for a great recipe, and made it a meal. Do you like that?
 
-**Jerod Santo:** \[00:19:51.03\] I do. Well played, sir. So we talk about the challenges of having arrived financially, and yet still having more people who aren't paid full-time, and lots of contributors involved... And we started getting a little bit into the money situation; it sounds like every month you just kind of decide how to parcel out the current budget. Has there been struggles on deciding how the team allocates the funds? Is it just yourself that does that? Is it the core team that gets together and says "Tobias gets 10k this month, and we're gonna put 5k towards conferences..." How does that work, or not work?
+**Jerod Santo:** \[19:51\] I do. Well played, sir. So we talk about the challenges of having arrived financially, and yet still having more people who aren't paid full-time, and lots of contributors involved... And we started getting a little bit into the money situation; it sounds like every month you just kind of decide how to parcel out the current budget. Has there been struggles on deciding how the team allocates the funds? Is it just yourself that does that? Is it the core team that gets together and says "Tobias gets 10k this month, and we're gonna put 5k towards conferences..." How does that work, or not work?
 
 **Tobias Koppers:** Technically, the core team decides it... But \[unintelligible 00:20:33.27\] I decide it. Basically, I didn't change anything last years about funding. It's more like I have a tool which extracts all the contributions from GitHub, and kind of \[unintelligible 00:20:47.19\] It's a mostly automated process, and it puts some value on contributions of GitHub, and then they are paid the amount of money on Open Collective. There's a threshold, but if you are over the threshold, then I send you a weekly mail to get some information \[unintelligible 00:21:14.10\] and you can convert it to $2,000 on Open Collective by sending an expense. I think it's like 10-20 people per month that get money.
 
@@ -166,7 +166,7 @@ There's also some kind of factoring \[unintelligible 00:21:30.01\] everybody got
 
 **Jerod Santo:** You could, but there's just easier paths to that end. If that's your end, there's better means; that's all.
 
-**Adam Stacoviak:** \[00:23:46.09\] Right, gotcha. Tobias, can you speak to your longevity with Open Collective? Because we referenced episode \#233 with Sean Larkin, way back in December 2016 (that was quite a while ago), and that was a big part of that conversation, or a large part around the sustainability side of it, was the efforts made to build your community within Open Collective... And even to this day you're using it.
+**Adam Stacoviak:** \[23:46\] Right, gotcha. Tobias, can you speak to your longevity with Open Collective? Because we referenced episode \#233 with Sean Larkin, way back in December 2016 (that was quite a while ago), and that was a big part of that conversation, or a large part around the sustainability side of it, was the efforts made to build your community within Open Collective... And even to this day you're using it.
 
 It allows you to accept -- I forget what that term is, but I guess it's contributions, for expenses. So it gives you this framework, this paying framework, how you deal with finances and money and contributors on a financial side. What's your experience with Open Collective? How has that worked out for you? I suppose good, but what are the mechanics of that and how does that work day-to-day?
 
@@ -204,7 +204,7 @@ Open Collective also recently joined with GitHub Sponsors, so you can make a Git
 
 **Tobias Koppers:** Yeah.
 
-**Adam Stacoviak:** \[00:27:50.22\] It seems diversity on the front of ways you can sustain a project or ways you can give would be competing interests, meaning that it would be difficult to funnel everyone to a place, to have a flow, to either contribute and get paid, file an expense etc. It seems like it'd be a lot of work... And I was actually excited to see that news with Open Collective and GitHub Sponsors, because in the current state of GitHub Sponsors you would have to have a company... And by way of what Open Collective has always been about - it has been about making it so that the world can sort of self-organize sans company, so that they can be the...
+**Adam Stacoviak:** \[27:50\] It seems diversity on the front of ways you can sustain a project or ways you can give would be competing interests, meaning that it would be difficult to funnel everyone to a place, to have a flow, to either contribute and get paid, file an expense etc. It seems like it'd be a lot of work... And I was actually excited to see that news with Open Collective and GitHub Sponsors, because in the current state of GitHub Sponsors you would have to have a company... And by way of what Open Collective has always been about - it has been about making it so that the world can sort of self-organize sans company, so that they can be the...
 
 **Jerod Santo:** The legal entity.
 
@@ -212,7 +212,7 @@ Open Collective also recently joined with GitHub Sponsors, so you can make a Git
 
 **Tobias Koppers:** Yeah, yeah. That's the idea, Open Collective is the fiscal or legal entity behind GitHub Sponsors which can receive the money.
 
-**Break:** \[00:29:13.09\]
+**Break:** \[29:13\]
 
 **Jerod Santo:** Tobias, you've been working on webpack full-time for a while now... I'm just curious what your average workday looks like. Is there an average workday?
 
@@ -222,7 +222,7 @@ Sometimes I do work myself, so it's -- really, most time I spend to view pull re
 
 There's a lot of work involved in really finishing pull requests from contributors, and also doing some of my own pull requests... Sometimes I get distracted to my own work and don't do issues and pull requests. It's more like randomly choosing what I do. We also have a project board, and sometimes I select stuff from there.
 
-**Jerod Santo:** \[00:32:09.06\] Looking at the repo right now, there's 369 open issues, 81 open pull requests. I'm just curious if this is a good place for you, or do you feel like you're behind, or are you ahead of normal? What does your normal queue look like?
+**Jerod Santo:** \[32:09\] Looking at the repo right now, there's 369 open issues, 81 open pull requests. I'm just curious if this is a good place for you, or do you feel like you're behind, or are you ahead of normal? What does your normal queue look like?
 
 **Tobias Koppers:** Yeah, we don't really close issues or pull requests... Most issues stay open until the bot is closing them. So it's not that we really are behind closing issues. I only look at the first page of the issues and move the stuff from there to them. Issues never get closed, because people don't close issues if their problems aren't solved. But sometimes \[unintelligible 00:32:53.22\]
 
@@ -278,7 +278,7 @@ I think webpack has many issues; there are bugs at edge cases... The whole confi
 
 **Jerod Santo:** So there's maintenance, which we're talking about, and then there progress. And as the core developer, one of the four (and one is a PR person), so you have a few people on the core team, pushing the progress forward, pushing webpack forward. How do you decide when you're gonna maintain and when you're gonna make progress?
 
-**Tobias Koppers:** \[00:36:03.14\] I try to maintain, to have no unread issues and unread pull requests; so just basic maintenance. I also try to fix bugs reported as soon as possible, but it's not very often that there's a bug which can easily be fixed... But it's the basic maintenance, that I always do. After that, it's more like what I have fun to do. Sometimes I want to do progress, do some innovation stuff, make some cool new feature, or whatever... And sometimes I have fun making the pull request somebody did, and maintaining/fixing stuff, reorganizing things.
+**Tobias Koppers:** \[36:03\] I try to maintain, to have no unread issues and unread pull requests; so just basic maintenance. I also try to fix bugs reported as soon as possible, but it's not very often that there's a bug which can easily be fixed... But it's the basic maintenance, that I always do. After that, it's more like what I have fun to do. Sometimes I want to do progress, do some innovation stuff, make some cool new feature, or whatever... And sometimes I have fun making the pull request somebody did, and maintaining/fixing stuff, reorganizing things.
 
 Most maintenance is refactoring, and cleaning up. Most bugs need some refactoring, reorganization and cleanup. That's what's fun, \[unintelligible 00:37:04.00\]
 
@@ -302,7 +302,7 @@ I also think that progress comes from issues. Writing issues, and contributors t
 
 **Tobias Koppers:** Yeah. Basically, I prioritize bugs. So it's kind of \[unintelligible 00:39:49.13\] I want to make webpack as good as possible, but to ensure high quality and stability for webpack. I think stability and bug-freeness is one of webpack's main features compared to competitors. So I really prioritize bugs and I really want to get rid of them. If bugs are reported, I usually fix them within days.
 
-**Jerod Santo:** \[00:40:16.03\] So hack number two, how to get your issue addressed - put the bug label on it. Even if it happens to be a feature, just throw "bug" on there and Tobias is gonna give it at least two looks. \[laughter\]
+**Jerod Santo:** \[40:16\] So hack number two, how to get your issue addressed - put the bug label on it. Even if it happens to be a feature, just throw "bug" on there and Tobias is gonna give it at least two looks. \[laughter\]
 
 **Tobias Koppers:** Yeah, but if you write issues, you can't decide the labels. Only maintainers can decide the labels.
 
@@ -330,7 +330,7 @@ It's not that easy to integrate features from competitors, because we also have 
 
 It's open source, so it's more the mentality of open source to share ideas. I also think if you're doing new bundlers, you're also copying most features from webpack, and it's \[unintelligible 00:42:58.05\] and in the end, the user benefits if all tools have a similar feature set, or at least a shared, common feature set, which can work across bundlers.
 
-**Adam Stacoviak:** \[00:43:14.18\] If someone is listening to this that happens to be considering a competitor or a maintainer of a competitor, what would you say to them in terms of collaboration? Is it something where there's sort of like a webpack guild of sorts, where you sort of have this build step union, so to speak, or collective where you're sharing knowledge and sort of leveling each other up, and you can help them optimize their things, and maybe there's a place for their tool and a place for your tool as well, that - while you're competitors, you don't have to be blood-thirsty competitors, you could be collaborative.
+**Adam Stacoviak:** \[43:14\] If someone is listening to this that happens to be considering a competitor or a maintainer of a competitor, what would you say to them in terms of collaboration? Is it something where there's sort of like a webpack guild of sorts, where you sort of have this build step union, so to speak, or collective where you're sharing knowledge and sort of leveling each other up, and you can help them optimize their things, and maybe there's a place for their tool and a place for your tool as well, that - while you're competitors, you don't have to be blood-thirsty competitors, you could be collaborative.
 
 **Tobias Koppers:** Yes... I would say, if somebody has new ideas and wants to do some cool stuff, then you can write an issue and we can discuss this. We also have a Slack channel where we can chat with each other and share ideas.
 

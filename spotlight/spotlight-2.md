@@ -1,4 +1,4 @@
-**Jerod Santo:** \[00:00:31\] Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor of Changelog. Katrina Owen is an accomplished speaker, creator of the excellent coding practice and feedback site Exercism.io, and co-author of 99 Bottles of OOP.
+**Jerod Santo:** \[00:31\] Welcome to our first Spotlight series, recorded at OSCON London 2016. I'm Jerod Santo, managing editor of Changelog. Katrina Owen is an accomplished speaker, creator of the excellent coding practice and feedback site Exercism.io, and co-author of 99 Bottles of OOP.
 
 Have you ever heard the story of how Katrina went from anonymous developer to sharing a byline with Sandi Metz? She shared all the details during this face-to-face chat. Listen in.
 
@@ -40,7 +40,7 @@ So he told us that story, and it was just amazing. But with Sandi we tried to pl
 
 **Jerod Santo:** You really wanted that book.
 
-**Kristina Owen:** \[00:04:03.01\] Oh, my goodness! It was really exactly what I needed at that time. I had been struggling with refactoring and trying to figure out on my own, like "How do you make code better? How do you remove dependencies? How do you make it more readable? How do you make it less painful?" The talk was all about that; it was like exactly that, and this book was gonna be life changing.
+**Kristina Owen:** \[04:03\] Oh, my goodness! It was really exactly what I needed at that time. I had been struggling with refactoring and trying to figure out on my own, like "How do you make code better? How do you remove dependencies? How do you make it more readable? How do you make it less painful?" The talk was all about that; it was like exactly that, and this book was gonna be life changing.
 
 **Jerod Santo:** You just knew it.
 
@@ -90,7 +90,7 @@ At one point, a couple other guys were like, "You should give a talk." I was lik
 
 **Jerod Santo:** What do you think that -- first, for the audience's sake, let's lay out what the talk was, but then tell me what you think really resonated about it. Because it did. Everybody loved it - why?
 
-**Kristina Owen:** \[00:07:53.25\] Yeah, so the title was Therapeutic Refactoring. The CFP was blind; first of all, I was given a chance, even though I had no experience speaking, nobody knew anything about who I was. The abstract spoke for itself, and the title I think was alluring. This conference was also at a spa...
+**Kristina Owen:** \[07:53\] Yeah, so the title was Therapeutic Refactoring. The CFP was blind; first of all, I was given a chance, even though I had no experience speaking, nobody knew anything about who I was. The abstract spoke for itself, and the title I think was alluring. This conference was also at a spa...
 
 **Jerod Santo:** It was at a spa?
 
@@ -144,7 +144,7 @@ At one point, a couple other guys were like, "You should give a talk." I was lik
 
 **Kristina Owen:** Don't try to do too much. And then I showed her the before and after and sort of explained, and she was like, "Okay, so now you look smart and I feel dumb..." I was like, "Oh, that's not good..."
 
-**Jerod Santo:** \[00:11:54.23\] That's not the goal, right?
+**Jerod Santo:** \[11:54\] That's not the goal, right?
 
 **Kristina Owen:** That's not what I was trying to go for, so I worked really hard to try to figure out how do I carry the audience along with me in this discovery, so that it really feels like this is... I mean, this is not hard, right? But I want you to understand when watching it that this is simple and it's approachable and it's something that you can do, and it's not magical; I'm in no way special for doing this. So that was really important.
 
@@ -208,7 +208,7 @@ After the call, I was like "I should have found out..." -- like, "Did you think 
 
 **Kristina Owen:** Well, in particular Sandi was solving it in really interesting ways. When most people submit a solution to Exercism, they'll submit one solution and then you talk about that. She submitted one solution that had four solutions in it; four completely different approaches with this long commentary of like, "Well, if this were the tradeoffs I was making, then this solution... But if this other thing, then this other solution." It was the most interesting approach that I'd ever seen in terms of not what the actual solutions were, but in terms of thinking deeply about the design tradeoffs here. Like, in what situations would one approach/design work, and in what situation would another?
 
-\[00:15:58.12\] Also, this sort of lead to me asking, "There are these abstractions in this problem - how did you know?" and she was like, "Well, I just did." And I couldn't see it.
+\[15:58\] Also, this sort of lead to me asking, "There are these abstractions in this problem - how did you know?" and she was like, "Well, I just did." And I couldn't see it.
 
 Eventually, over time, we used my refactoring practice and skill to figure out how can we go step by step from the simple solution to these abstractions that she just knew were there, because of her experience.
 
@@ -256,7 +256,7 @@ At that point, we worked a lot on the structure of the book. We had all of the c
 
 **Kristina Owen:** So the first five chapters out of six are out. We didn't want to release it -- we released the first four chapters in beta this summer (early June, early July, something like that). We didn't wanna release it before those four chapters -- before we had something that you could actually read and get something out of it. We didn't want to sell you a promise, we wanted to sell you something concrete, that has valuable, that will be more valuable, but that you can already enjoy.
 
-**Jerod Santo:** \[00:20:05.28\] That's a great story. I hope it's a really good book. I was able to sit in a little bit on one of your trainings, so I understand the problem and I have a feeling that it's gonna be a really good book, because just walking through the refactorings of that specific problem... I was there working for the Changelog, not taking the class, just observing, but I wanted to bust out my editor...
+**Jerod Santo:** \[20:05\] That's a great story. I hope it's a really good book. I was able to sit in a little bit on one of your trainings, so I understand the problem and I have a feeling that it's gonna be a really good book, because just walking through the refactorings of that specific problem... I was there working for the Changelog, not taking the class, just observing, but I wanted to bust out my editor...
 
 **Kristina Owen:** Oh, it's so tempting...
 
@@ -286,7 +286,7 @@ At that point, we worked a lot on the structure of the book. We had all of the c
 
 **Jerod Santo:** I like that.
 
-**Kristina Owen:** \[00:24:03.00\] You're now talking about the vulnerability of being human and not being perfect, and not figuring this all out, and that's often where we can help each other in just having insights and sharing experiences.
+**Kristina Owen:** \[24:03\] You're now talking about the vulnerability of being human and not being perfect, and not figuring this all out, and that's often where we can help each other in just having insights and sharing experiences.
 
 **Jerod Santo:** I would say it's worth it. It's worth stepping out a little bit. I have a tendency where if I have a lot of knowns in the place, I will just cling to them.
 

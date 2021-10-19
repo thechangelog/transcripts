@@ -14,7 +14,7 @@ Eric, why don't you start us off with the real basics of what makes a language f
 
 **Jerod Santo:** Dang, I was trying to start basic...
 
-**Eric Normand:** \[00:04:04.21\] Yeah, yeah... So JavaScript, as you said, is a multi-paradigm language. Functional programming is possible in JavaScript; it's actually quite good, it's above average for doing functional programming... But I don't think anyone would say it is a functional language. There's other languages like Haskell, or Clojure, or Scheme... You know, these other languages are more focused on functional programming, and give you a lot more features that support functional programming.
+**Eric Normand:** \[04:04\] Yeah, yeah... So JavaScript, as you said, is a multi-paradigm language. Functional programming is possible in JavaScript; it's actually quite good, it's above average for doing functional programming... But I don't think anyone would say it is a functional language. There's other languages like Haskell, or Clojure, or Scheme... You know, these other languages are more focused on functional programming, and give you a lot more features that support functional programming.
 
 JavaScript is kind of in this place on that graph of how functional is it - it's more functional than a lot of languages; it's more functional than, say, Java, for instance.
 
@@ -52,7 +52,7 @@ JavaScript is kind of in this place on that graph of how functional is it - it's
 
 And so making this distinction between actions that depend on time - because they're hard to deal with - and calculations is like the first gateway into functional programming. Oh, and data is easy. Data is just the stuff that doesn't do anything; it's just inert. The strings, and numbers, and hashmaps, and lists, stuff like that.
 
-**Kevin Ball:** \[00:08:21.26\] I like how simple your language is there... Because I feel like one of the barriers to a lot of folks getting into FP is it feels like there's a lot of jargon. And you start talking with somebody and you're like "I just wanna send an email", and before you know it, they're talking about monads, and you're like "What in the world is all of this...?!"
+**Kevin Ball:** \[08:21\] I like how simple your language is there... Because I feel like one of the barriers to a lot of folks getting into FP is it feels like there's a lot of jargon. And you start talking with somebody and you're like "I just wanna send an email", and before you know it, they're talking about monads, and you're like "What in the world is all of this...?!"
 
 **Eric Normand:** \[laughs\] Yeah... I think that - you know, and I speak for functional programming as a community - we have over-complicated it. Functional programming has been incubated in Academia, and you don't get tenure by making stuff easy. \[laughter\] You have to find a hard problem and solve it in some weird way, a novel way...
 
@@ -76,7 +76,7 @@ So I toyed a lot with a whole bunch of ideas, like "How do I name them so that t
 
 **Jerod Santo:** Help us differentiate, if that's the big difference.
 
-**Eric Normand:** \[00:11:44.23\] Right, right. So a pure function... Like I said before, the nice thing about a pure function is that you can call it -- you know, as long as you pass it the same arguments, it's going to give you the same result. And that makes it great for testing... Because when we test; we test on our development machines, we test on the build server... And then we wanna make sure that that same function that we're testing is gonna act exactly the same way in production. So by making it a pure function, we get that out of the box; we can guarantee that we can test it a thousand times and it's gonna give us the same answer.
+**Eric Normand:** \[11:44\] Right, right. So a pure function... Like I said before, the nice thing about a pure function is that you can call it -- you know, as long as you pass it the same arguments, it's going to give you the same result. And that makes it great for testing... Because when we test; we test on our development machines, we test on the build server... And then we wanna make sure that that same function that we're testing is gonna act exactly the same way in production. So by making it a pure function, we get that out of the box; we can guarantee that we can test it a thousand times and it's gonna give us the same answer.
 
 An impure function - you can't do that. So notice it starts to become a lot harder to test. It might have to read from the database. Okay, now in your test environment you have to set up a database and put some data in there for it to read, and the reproducibility becomes a lot harder. You have to basically set up the bubble that that impure function runs in to simulate it working in production... Because that's when you want it to actually work, in production.
 
@@ -112,7 +112,7 @@ The other thing about actions that makes them hard, besides being harder to test
 
 **Eric Normand:** That's right. They're the point, and I really think that in discussions about what functional programming is, we've gotten it backwards, that we say "Oh, functional programming is all about programming with only pure functions." And I think it's really the opposite. It's like "Well, we've got this tool called Pure Functions, that will let us ignore them for a while, because we know they're not gonna change, and they're really easy to deal with."
 
-\[00:16:12.25\] They're so easy to deal with that we can put a type system on them and the computer can figure stuff out about them. It's the side effects; it's when to launch the missile, and "Do I do this first, or that first?" and "How do I guarantee that in an asynchronous environment or a multi-threaded environment? How do I do that?" That's where functional programming has a lot to say, and a lot of constructs for dealing with stuff like that.
+\[16:12\] They're so easy to deal with that we can put a type system on them and the computer can figure stuff out about them. It's the side effects; it's when to launch the missile, and "Do I do this first, or that first?" and "How do I guarantee that in an asynchronous environment or a multi-threaded environment? How do I do that?" That's where functional programming has a lot to say, and a lot of constructs for dealing with stuff like that.
 
 **Kevin Ball:** So can we talk a little bit then about what are the language features that are important for doing this? Because as we've currently described it, this is something that you could do in Java. You could separate out the easy, deterministic functions from the actions that are changing the world... And yet, as we described, Java is a dysfunctional language; it is not a good language for functional programming, whereas JavaScript is reasonable. And then there are these dedicated functional languages, or the languages that are really functional-oriented. So what are the layers of language features that make this paradigm easier or harder?
 
@@ -134,7 +134,7 @@ But then there's the next gateway, which is sort of higher-order programming... 
 
 **Eric Normand:** That's right. Yeah, that's it. You can treat it like a value in your language. So it can be an argument, a return value, it can be stored in a variable, or even in the value of an object, a property of an object, put it in an array... Anything you can do to a number, or a string, you can do it to a function.
 
-**Break:** \[00:19:38.25\]
+**Break:** \[19:38\]
 
 **Jerod Santo:** So we've talked about a couple aspects of functional programming languages... Immutability, which - you avoided that word; you had your own way of describing it, which was simpler, but I can't remember what it was... Immutability and first-class functions. What was the way you described immutability? Was that on purpose? Because you seem very careful with your wording. I think you said "The ability to not change things."
 
@@ -214,7 +214,7 @@ But then there's the next gateway, which is sort of higher-order programming... 
 
 A simple example is instead of a function looping through a bunch of customers and sending each one an email inside the loop, you could map over the customers and generate a list of the emails in a data representation (the subject, the body), and then something else will loop through that and send off the emails, maybe in batches, or however you wanna do it.
 
-**Jerod Santo:** \[00:28:24.02\] Right.
+**Jerod Santo:** \[28:24\] Right.
 
 **Eric Normand:** And that way, you're pushing more and more of the code into calculations, and then you just have this little tight loop that's just "Send an email, send an email, send an email..." It doesn't have to do any decision-making or anything. It's just a very simple -- \[unintelligible 00:28:37.21\]
 
@@ -236,7 +236,7 @@ A simple example is instead of a function looping through a bunch of customers a
 
 So anyway, we have a bunch of tools like this. What I really like about them is they're very simple. You could write them yourself. They're not like some complex thing. You probably have written them yourself, and maybe you didn't know it. So map is like three, four lines long. Filter - it's a few lines. Reduce starts to get a little bit more complicated, but you could write it in a couple lines. And you know, there's a number of these. Lodash has a bunch of them already built in. I know a lot of people use Lodash; it's a really great tool for that kind of thing.
 
-\[00:32:17.15\] So the reason I think that they're useful is it lets you transform really complicated, nested for loops into a sequence of steps. So you look at the for loop and you're like "I mean, I really have to trace through in my head what's happening in every iteration, and keep track of two nestings of what's going on at which point?" But if you turn it into a chained sequence of functional tools, it might be four or five steps, and each one is really simple and clear what it's doing. So you could -- you know, this nested for loop could have some conditionals inside. That conditional could be turned into a filter.
+\[32:17\] So the reason I think that they're useful is it lets you transform really complicated, nested for loops into a sequence of steps. So you look at the for loop and you're like "I mean, I really have to trace through in my head what's happening in every iteration, and keep track of two nestings of what's going on at which point?" But if you turn it into a chained sequence of functional tools, it might be four or five steps, and each one is really simple and clear what it's doing. So you could -- you know, this nested for loop could have some conditionals inside. That conditional could be turned into a filter.
 
 **Jerod Santo:** Right.
 
@@ -278,7 +278,7 @@ And then the other thing is, like, often for loops start out really easy. And th
 
 **Jerod Santo:** And stay there.
 
-**Eric Normand:** \[00:36:10.17\] Well, they stay there, yes. They get it, and they use them really productively, and that's great... But I would implore people to look at stuff that Lodash gives you besides map, filter and reduce... There's a lot of other cool tools that could really be great in your toolbox. One I really like is called frequencies. So if you have a sequence - or any collection, but let's say it's an array of values... It's surprising how often it comes up where I just wanna know how many of each thing I have; how many two's do I have, how many three's do I have, how many ten's do I have? And you can write that really easily. It's just a loop through this array, and you plop it into a hashmap with a one. But if it's already in the hashmap, you just add one to it. You could just write this, and now you have this reusable, very abstract, reusable function that is useful in so many algorithms.
+**Eric Normand:** \[36:10\] Well, they stay there, yes. They get it, and they use them really productively, and that's great... But I would implore people to look at stuff that Lodash gives you besides map, filter and reduce... There's a lot of other cool tools that could really be great in your toolbox. One I really like is called frequencies. So if you have a sequence - or any collection, but let's say it's an array of values... It's surprising how often it comes up where I just wanna know how many of each thing I have; how many two's do I have, how many three's do I have, how many ten's do I have? And you can write that really easily. It's just a loop through this array, and you plop it into a hashmap with a one. But if it's already in the hashmap, you just add one to it. You could just write this, and now you have this reusable, very abstract, reusable function that is useful in so many algorithms.
 
 **Kevin Ball:** You use that all the time.
 
@@ -296,7 +296,7 @@ And then the other thing is, like, often for loops start out really easy. And th
 
 **Eric Normand:** It's so funny, because we often think of making a data structure as like an expensive operation... But these days, people have so much memory on their machines that a little hashmap -- I mean, literally, this hashmap could have at most 26 entries in it. It's not big. And you're not copying the users. Those objects are just being referenced. So when you think about how little is actually being allocated, it's not that much. You've got 26 entries in a hashmap and 26 arrays. And the rest is all just referenced to the original user object. So we're like counting pennies over here, and people have millions in their iPhone.
 
-**Break:** \[00:40:04.14\]
+**Break:** \[40:04\]
 
 **Kevin Ball:** One thing that I think has brought functional paradigms very much front and center for many folks using JavaScript is the trend in frontend frameworks, and React in particular, to move towards more functional paradigms... So I'd love to get your sense of both what are the parts of that that are working well, what are the parts that are unintuitive, and how do some of the more React-specific concepts like hooks and things like that play into your mindset when you think about functional programming?
 
@@ -304,7 +304,7 @@ And then the other thing is, like, often for loops start out really easy. And th
 
 The stuff I worry about when I see people in the wild actually using React is them making impure components... Components that will call out to the server to get user data whenever they are mounted into the DOM. Now they're doing it with hooks, but they used to do it on component \[unintelligible 00:43:45.06\] or whatever lifecycle method they chose at the time... And what that means is now your component is in action. It depends on when it mounts, and how many times it mounts, and you have this same problem.
 
-\[00:44:02.07\] And you see apps that have this issue where every component on the page -- you know, the idea is the component is supposed to self-sufficient; it's supposed to know where to get its data from, and how to get it, and it's gonna get it when it needs it. So you've totally given up any ability to control how many requests it makes, or when they get made...
+\[44:02\] And you see apps that have this issue where every component on the page -- you know, the idea is the component is supposed to self-sufficient; it's supposed to know where to get its data from, and how to get it, and it's gonna get it when it needs it. So you've totally given up any ability to control how many requests it makes, or when they get made...
 
 So you have a thing where on a page it might make a hundred requests at the same time. Those are gonna get queued up in the browser in some random order, because you can't control it in an Ajax/asynchronous environment... And then maybe three or four will go out at the same time, and you're just waiting on them, and they're all blocking each other... It's the opposite of what I dreamed of when I first started using React. In React it's supposed to be very reactive; you click on something and it changes instantly, without a loading spinner, and stuff like that. Nowadays we've reimplemented the page refresh poorly...
 
@@ -318,7 +318,7 @@ Clojure and ClojureScript are functional languages, and what we do is we keep th
 
 **Eric Normand:** It does get closer... This is funny. In ClojureScript -- we were one of the first adopters of React. I remember David Nolan, the maintainer of ClojureScript, was experimenting with it back in 2013, and I looked at it back then, too... And then there was like an explosion of wrapper libraries in ClojureScript in 2013 and 2014... And we kind of set the trajectory back in 2014. So we haven't kept up to date with all of the developments in the React world...
 
-\[00:48:23.21\] I mean, it must have been like React 10 or 11 when we stopped doing new features, because we had everything we wanted. We had the virtual DOM, we had a better event system that React gave us... And what more could you want? We could make a wrapper to provide anything else.
+\[48:23\] I mean, it must have been like React 10 or 11 when we stopped doing new features, because we had everything we wanted. We had the virtual DOM, we had a better event system that React gave us... And what more could you want? We could make a wrapper to provide anything else.
 
 So we don't use context that much, but I am somewhat familiar with it. It does get closer... I still think that the big problem is that it requires those context wrapper elements, and that you can't make modifications outside of that. So this is what I'm talking about - I like to keep my state in a global variable, so an object that has semantics, in a global variable. That way, I can do -- like, what if I want to make a WebSocket to the server, and the WebSocket's gonna send me data, and I wanna put that into the state? Why should I have to go through a component to do that? The context requires you're still in the Dom, and you have to use some kind of a hook or something to get a setter for that context state, and then get it into the WebSocket...? Like, that's weird. How do you do that without all these problems? You can just have a handler on the -- I don't remember what the event is called in the WebSocket world, that "I just got a message. You handle that", and you just update the state. And then because React is reactive, it should just re-render everything that's looking at that state.
 
@@ -334,7 +334,7 @@ But with hooks, you can use state, or use something and you're getting data from
 
 **Jerod Santo:** Yeah, a long time. So you've had a lot of iterations on how to explain these concepts.
 
-**Eric Normand:** \[00:52:10.14\] Yes, yes...
+**Eric Normand:** \[52:10\] Yes, yes...
 
 **Jerod Santo:** And I think you've gotten very good at it, I should say... For those who wanna hear more from Eric, we had you on the Changelog back in 2017. Can you believe it? It was four years ago... Talking a lot about similar things. Because you've been beating the functional programming drum for a very long time. And that was a well-received episode; I'm sure we cover similar, but different ground on that. We'll link that one up in the show notes.
 
@@ -358,7 +358,7 @@ One thing that's cool about this book - because you have some exercises and some
 
 **Eric Normand:** Yeah. I mean, even just identifying the actions and the calculations... People have told me, early readers -- because it's in early access now; it should be published soon. But people have told me "Wow, that has changed the way I see all the software. I can now say "Oh, this is gonna be hard, because look, it's an action." And all this other stuff. Oh, that's easy to test. Let's just test it and get it out of the way." Those kinds of things really help people. And I haven't seen anyone, besides this book - even in my previous \[unintelligible 00:55:50.14\] because it's a lot of work... It wasn't just like me writing down what I know. I had to figure out what's the best way to teach this... Which is why I came up with actions, calculations and data, and all these little mnemonics for remembering this stuff. This is stuff that we do, and it changes the way you see programming. And no one had gone through and actually broken down functional programming to this basic level.
 
-\[00:56:19.25\] You know, when you read a functional programming book, they might have one or two sentences explaining what a pure function is. Well, we spend the whole first part on that. We spend eight chapters just talking about what's a pure function, how do you make them, how do you recognize when it's impure, and convert it into a pure function, how do you make data immutable... All this stuff that is just kind of like a footnote in other books... I basically take a step back and say "This is the stuff that people need. You're not teaching the meat of it, you're just teaching the--" I mean, I call it froth. It's the froth of like "Oh, once you get all this other stuff, you can go super-deep." You're four levels into the onion, and you're doing all this cool stuff, but no one knows how you got there, because you're not making a path for people to follow from where they are. So that's what I try to do, is figure out where people are and bring them.
+\[56:19\] You know, when you read a functional programming book, they might have one or two sentences explaining what a pure function is. Well, we spend the whole first part on that. We spend eight chapters just talking about what's a pure function, how do you make them, how do you recognize when it's impure, and convert it into a pure function, how do you make data immutable... All this stuff that is just kind of like a footnote in other books... I basically take a step back and say "This is the stuff that people need. You're not teaching the meat of it, you're just teaching the--" I mean, I call it froth. It's the froth of like "Oh, once you get all this other stuff, you can go super-deep." You're four levels into the onion, and you're doing all this cool stuff, but no one knows how you got there, because you're not making a path for people to follow from where they are. So that's what I try to do, is figure out where people are and bring them.
 
 The book is called Grokking Simplicity, it's published by Manning, and it's available in early access, so you can get it now. If you buy it now, you'll get the updates. And once it's finalized, you'll get the printed version.
 
@@ -372,7 +372,7 @@ I'm curious if there are other mind shifts you have identified through your teac
 
 The third one is starting to think about having a -- I call it first-class. Maybe that's the wrong term... But an explicit model of time. So when you're dealing with any domain, the domain itself is not going to always match the languages' model. For instance, if you have a function that sends an email, every time you call it, it's gonna send that email. But your domain says "Wait, I shouldn't send it more than once." So how do you make an explicit model of time, which is like once only - how do you make that out of the implicit model of time that your language gives you?
 
-\[00:59:35.29\] So you have something like, how do you coordinate all these Ajax requests that are coming in in random order? You put them out in a certain order, but they're coming back however they come back... So you need something to reorder them in the order you want them to be in, and promises is one way to do that... But we talk about different approaches, different constructs similar to promises that you could do. So you're actually making a new model of time, that like "This is the order that things need to happen in."
+\[59:35\] So you have something like, how do you coordinate all these Ajax requests that are coming in in random order? You put them out in a certain order, but they're coming back however they come back... So you need something to reorder them in the order you want them to be in, and promises is one way to do that... But we talk about different approaches, different constructs similar to promises that you could do. So you're actually making a new model of time, that like "This is the order that things need to happen in."
 
 Here's a simple one I can describe quickly... Let's say you have two Ajax requests you need to send off, and you need to wait for both of them. Okay, I know you can do Promise.all; that exists, right? But let's say you don't have a promise, and you wanna do it a different way. You can't put a callback on the one that you think will take longer, because it's not how Ajax works. They just come back in random order.
 

@@ -14,7 +14,7 @@
 
 **Matt Rickard:** No, I did the math. And I've spent a lot of time in open source as well, so it's not even a 9-to-5, it's like a 6-to-12, or whatever. I mean, it's an all-day thing.
 
-**Jerod Santo:** \[00:04:07.10\] So you're well over. Where did you earn your keep? You've had a couple different jobs... Do you wanna tell us about the 10,000 hours you've put in? ...where it was and what kind of stuff you worked on.
+**Jerod Santo:** \[04:07\] So you're well over. Where did you earn your keep? You've had a couple different jobs... Do you wanna tell us about the 10,000 hours you've put in? ...where it was and what kind of stuff you worked on.
 
 **Matt Rickard:** Yeah, so I've just been programming a bunch... I programmed a bunch in school, after college I worked in New York for a bit as a programmer... I came out to the West Coast here to work at Google. I worked on open source, I worked on Kubernetes, and specifically a bunch of sub-projects in Kubernetes. I was a maintainer of minikube, kind of the local development environment for Kubernetes. Scaffold, which is kind of a Kubernetes tool to help you build and deploy your apps... And then Kubeflow, which is a machine learning toolkit on top of Kubernetes as well.
 
@@ -52,11 +52,11 @@ So we're just gonna go down, pick a few, see how long we last, and talk about so
 
 **Matt Rickard:** Yeah, you've probably never heard of it, because I tried to come up with it myself... I tried to coin the term. So it's a new thing. But it's me trying to describe a pattern that I've seen in software configuration where a configuration seems to evolve through specific, increasing levels of flexibility and complexity before returning to either hardcoded values or Bash. So you go from hardcoded values, which are the easiest/simplest configuration, but provide very little flexibility.
 
-\[00:08:04.03\] And as the program surface starts to increase, and with that configuration you start to incorporate environment variables, flags, and eventually you wanna start to check that into version control, so you turn it into a configuration file, maybe Yaml, JSON, something like that... And then as you kind of turn on this heptagon of configuration - and I only call that heptagon just because a lot of the ideas came from Kubernetes, and the Kubernetes logo has got the seven points, and it just kind of worked out well...
+\[08:04\] And as the program surface starts to increase, and with that configuration you start to incorporate environment variables, flags, and eventually you wanna start to check that into version control, so you turn it into a configuration file, maybe Yaml, JSON, something like that... And then as you kind of turn on this heptagon of configuration - and I only call that heptagon just because a lot of the ideas came from Kubernetes, and the Kubernetes logo has got the seven points, and it just kind of worked out well...
 
 **Jerod Santo:** Right...
 
-**Matt Rickard:** But as you're going from configuration files, you start to need a little bit more extensibility in terms of templating, and I think templating is something that we're all unfortunately accustomed to a little bit too much... So that's kind of one wheel on the configuration heptagon, a configuration. And then from templating, you go to kind of a DSL, a domain-specific language, and that allows you to have a little more type safety and a little more domain-specific reusable modules... I'm sure some of us have used Puppet in the dev ops world, or there's tons of other DSLs out there... But eventually, these DSLs become a little too inflexible. Maybe the requirements change, the domain changes, and then we go back to Bash. So that's kind of like this never-ending cycle of configuration that I've seen. And I saw this a lot in Kubernetes. There was a lot of Bash in Kubernetes, and a lot of configuration...
+**Matt Rickard:** But as you're going from configuration files, you start to need a little bit more extensibility in terms of templating, and I think templating is something that we're all unfortunately accustomed to a little bit too much... So that's kind of one wheel on the configuration heptagon, a configuration. And then from templating, you go to kind of a DSL, a domain-specific language, and that allows you to have a little more type safety and a little more domain-specific reusable modules... I'm sure some of us have used Puppet in the DevOps world, or there's tons of other DSLs out there... But eventually, these DSLs become a little too inflexible. Maybe the requirements change, the domain changes, and then we go back to Bash. So that's kind of like this never-ending cycle of configuration that I've seen. And I saw this a lot in Kubernetes. There was a lot of Bash in Kubernetes, and a lot of configuration...
 
 **Jerod Santo:** Yeah.
 
@@ -72,7 +72,7 @@ So we're just gonna go down, pick a few, see how long we last, and talk about so
 
 **Jerod Santo:** There's an analogue to this in economics. Benedict Evans talks about the process of bundling and unbundling, and he says in any given industry you're either in a bundling process or an unbundling process... And it's cyclical, right? So an example of that is television, where we're all cable TV, everything was bundled as one, and then we broke out of that individual, on-demand, subscribe to this, that and the other thing, and how we're like in a rebundling that's happening; you can see it with YouTube TV, and different aggregators trying to pool together content. And that sounds very inefficient... Your heptagon sounds inefficient, because it's like, "Well, we're going around in this circle."
 
-\[00:11:57.23\] But what I've heard pointed out is that progress often looks like a circle when you look at it on its head, like in a two-dimensional plane... But then when you look at it in three-dimensional, it's more like a helix, where it is moving in a circular way, but it's getting better as it goes... And I think with software, that's a lot of what we're seeing - these iterations, and a lot of times returning to the old idea, but you're returning to it with new eyes. You're returning with new tools. And so you are building up, but you're not like building blocks on top of each other; you're kind of like circling the wagon, but you're going up... You know, it's like a helix rising... Which is slower than we would want it to, but it's still progress, right?
+\[11:57\] But what I've heard pointed out is that progress often looks like a circle when you look at it on its head, like in a two-dimensional plane... But then when you look at it in three-dimensional, it's more like a helix, where it is moving in a circular way, but it's getting better as it goes... And I think with software, that's a lot of what we're seeing - these iterations, and a lot of times returning to the old idea, but you're returning to it with new eyes. You're returning with new tools. And so you are building up, but you're not like building blocks on top of each other; you're kind of like circling the wagon, but you're going up... You know, it's like a helix rising... Which is slower than we would want it to, but it's still progress, right?
 
 **Matt Rickard:** Yeah, yeah. I think that's a great point, and I think we're seeing that play out in the data stack a bit, with a lot of old ideas and tooling around data warehouses... And now that we have cloud data warehouses, you have Snowflake, BigQuery, Redshift etc. we're bringing back a lot of those old ideas, things like \[unintelligible 00:12:51.29\] there's analogues to that now... And it seems kind of like more of the same, but it's really different once you start to look under the surface.
 
@@ -88,7 +88,7 @@ So we're just gonna go down, pick a few, see how long we last, and talk about so
 
 **Matt Rickard:** Yeah... I don't really know how to get around it. I keep on falling prey to it over and over again... But maybe that's just kind of the name of the game.
 
-**Matt Rickard:** \[00:15:48.16\] And what do you think comes out of the falling prey to it again and again? Do you think that it's a necessary thing that you just learn from and grow from as a result of like just this awareness that it's not efficient to repeat yourself? Instead of saying "Don't", let's say "Maybe not repeat yourself", or "Should not" versus "Don't." It's kind of a little softer on the -- it's maybe just being more aware of the times when there are the patterns... As you said, Jerod, the pattern matching - to just be aware that these can lead down bad roads if you repeat yourself too often, and it makes sense to DRY up things...
+**Matt Rickard:** \[15:48\] And what do you think comes out of the falling prey to it again and again? Do you think that it's a necessary thing that you just learn from and grow from as a result of like just this awareness that it's not efficient to repeat yourself? Instead of saying "Don't", let's say "Maybe not repeat yourself", or "Should not" versus "Don't." It's kind of a little softer on the -- it's maybe just being more aware of the times when there are the patterns... As you said, Jerod, the pattern matching - to just be aware that these can lead down bad roads if you repeat yourself too often, and it makes sense to DRY up things...
 
 **Jerod Santo:** To treat it more loosely?
 
@@ -108,7 +108,7 @@ So programmer me was like, "Alright, now I need a templating language", so I can
 
 What helped was I had to have it done in like an hour and a half, and so I'm like, "Don't start coding. Just hardcode the values and move on, man..." It's tough. It's tough to fight that urge to generalize.
 
-\[00:20:07.26\] Let's move to the next one... Here we have a reflection of yours on code comments. You say "If you have to write a comment that isn't a doc string, it should probably be refactored. Every new line of comments increases this probability." And then you have a link to a more nuanced take, which is from the Linux Kernel documentation, which I did not read, because - who has time for nuance, right?
+\[20:07\] Let's move to the next one... Here we have a reflection of yours on code comments. You say "If you have to write a comment that isn't a doc string, it should probably be refactored. Every new line of comments increases this probability." And then you have a link to a more nuanced take, which is from the Linux Kernel documentation, which I did not read, because - who has time for nuance, right?
 
 First of all, tell us what -- when you have that and it's not a doc string, what specifically do you mean by a doc string? And then how did you learn this, and why do you believe this?
 
@@ -136,9 +136,9 @@ But yeah, I think the what and the why's, those should be in-line comments. Not 
 
 **Jerod Santo:** But this ties into another one that you say, which is if it looks ugly, it's most likely a terrible mistake... \[laughter\] But I just love that, because it can apply to so many aspects of life. But your point is like, refactor the code, versus making the comment, if you can. Refactor the code so it's readable and clear. But then you say if it's ugly, it's most likely a huge mistake. Where did this one come from? I love it, but I'm not sure where you drew that conclusion.
 
-**Matt Rickard:** \[00:23:55.20\] Yeah, definitely personal experience here... When I was working on minikube, a lot of the complexities around spinning up a single-node Kubernetes distribution on your laptop - so not only are you one layer deep with containers, you're also another layer deep with the fact that it has to run in a virtual machine on your laptop... So that's Widows, that's macOS... We optionally spin up a VM on Linux... But I've found myself working with some pretty undocumented virtualization libraries on macOS, and I was trying to think "Hm, maybe this is not the most maintainable way forward." So I think that's one piece of personal experience where when it was ugly, it was maybe not the right way to go.
+**Matt Rickard:** \[23:55\] Yeah, definitely personal experience here... When I was working on minikube, a lot of the complexities around spinning up a single-node Kubernetes distribution on your laptop - so not only are you one layer deep with containers, you're also another layer deep with the fact that it has to run in a virtual machine on your laptop... So that's Widows, that's macOS... We optionally spin up a VM on Linux... But I've found myself working with some pretty undocumented virtualization libraries on macOS, and I was trying to think "Hm, maybe this is not the most maintainable way forward." So I think that's one piece of personal experience where when it was ugly, it was maybe not the right way to go.
 
-**Break:** \[00:24:40.04\]
+**Break:** \[24:40\]
 
 **Jerod Santo:** So anytime you reflect on 10,000 hours of programming, surely Stack Overflow comes into those reflections... And it turns out it did, because one of your findings or one of the things that you believe now, after all this time, is that browsing the source is almost always faster than finding an answer on Stack Overflow. Now, I kind if agree with you, but I also kind of disagree, so I'd love to have you elaborate a little bit on this one.
 
@@ -154,7 +154,7 @@ I do think that it's maybe a little bit language-dependent. I write a lot of Go,
 
 **Jerod Santo:** That's not Stack Overflow either.
 
-**Matt Rickard:** \[00:28:09.20\] It's kind of coding, right? I'm coding a config file, which isn't necessarily coding.
+**Matt Rickard:** \[28:09\] It's kind of coding, right? I'm coding a config file, which isn't necessarily coding.
 
 **Jerod Santo:** You're using a thing.
 
@@ -188,7 +188,7 @@ FFmpeg - I give it praise often. It's one of the most robust tools I've ever see
 
 **Jerod Santo:** Let me add on -- I think it's a great example there... And let me add this to what Matt is saying, because I believe this to be true. If you have a library dependency that your application relies upon, and you're afraid to, or for whatever reason will not peek under the covers and grok its source code, you should not be using that piece of software. You should be ready, willing and able to read the source code of your dependencies.
 
-\[00:31:51.23\] Now, sometimes those people are better at writing software than you are. I've learned tons of things... Other times you're like, "What the heck is going on?" Well, if it's ugly, it's probably a huge mistake... \[laughter\] You will level up as a developer, you will better maintain your application, you will better own and operate your application, and you'll be much better at vetting dependencies being willing to do that. So I think Matt's advice there really pays dividends, because not only are you getting at what is true, but you're also getting familiar with your entire stack, versus just the parts that you're used to maintaining.
+\[31:51\] Now, sometimes those people are better at writing software than you are. I've learned tons of things... Other times you're like, "What the heck is going on?" Well, if it's ugly, it's probably a huge mistake... \[laughter\] You will level up as a developer, you will better maintain your application, you will better own and operate your application, and you'll be much better at vetting dependencies being willing to do that. So I think Matt's advice there really pays dividends, because not only are you getting at what is true, but you're also getting familiar with your entire stack, versus just the parts that you're used to maintaining.
 
 I think black box is kind of a lie... There are some things which can be a black box for a while, but that's just somebody else's abstraction, right? So you're gonna have to -- it's gonna leak eventually, so be willing to dive in there and look at that code.
 
@@ -228,7 +228,7 @@ I think otherwise you've just gotta follow your peers. Pay attention to the Chan
 
 **Jerod Santo:** Go ahead, bring it up right now.
 
-**Matt Rickard:** \[00:35:54.03\] What's a good example of the greats there? I think in Silicon Valley in particular - and this may be just a break, or something else, but... The way you've found the greats there was just by paying attention to where the money was going. Who was getting funded, who was competing, who was stealing engineers away from others? In many ways it was Gavin Belson, the evil bad guy, essentially, the big tech person, fighting the little guy trying to build the best algorithm to build a better internet. You find the best by just seeing who is actually putting stuff in the market and winning. So that's how you find the best.
+**Matt Rickard:** \[35:54\] What's a good example of the greats there? I think in Silicon Valley in particular - and this may be just a break, or something else, but... The way you've found the greats there was just by paying attention to where the money was going. Who was getting funded, who was competing, who was stealing engineers away from others? In many ways it was Gavin Belson, the evil bad guy, essentially, the big tech person, fighting the little guy trying to build the best algorithm to build a better internet. You find the best by just seeing who is actually putting stuff in the market and winning. So that's how you find the best.
 
 **Jerod Santo:** Alright, I take it back. Do not work in a Silicon Valley one right there... It was a good effort though. While we're talking about other people's code, reading their code, learning from them, number 14 - I'll give you guys this one, listeners - definitely counts as a lesson. Use other people's code religiously. I think it ties in what I was just talking about when I was saying don't be afraid of looking at the said code. I was saying you shouldn't use it if you don't. It doesn't mean you have to understand it, but you have to be willing to dig into it, I think.
 
@@ -246,7 +246,7 @@ So now my appetite kind of changes, and the decision-making process kind of chan
 
 **Matt Rickard:** I think a lot of it is context-dependent on what you're building. For instance, when I was writing lower-level library code, in that sense I think you wanna take as few dependencies as possible, just because it can really complicate some of your downstream consumers if they need a dependency on, let's say, Leftpad, or something like that. But if you're writing more higher-level application code, I think you've gotta ask yourself what goal, what are you trying to achieve here.
 
-\[00:40:00.17\] If you're working on a startup, I think it makes sense to outsource as much of the non-core value proposition of your application. It's possible. Sure, you can write your own authentication library, but just look at how many amazing startups have been built on Ruby on Rails - GitHub, Shopify, GitLab... I'm sure there's a ton others. But sometimes it makes sense to just use other people's code in that case.
+\[40:00\] If you're working on a startup, I think it makes sense to outsource as much of the non-core value proposition of your application. It's possible. Sure, you can write your own authentication library, but just look at how many amazing startups have been built on Ruby on Rails - GitHub, Shopify, GitLab... I'm sure there's a ton others. But sometimes it makes sense to just use other people's code in that case.
 
 **Matt Rickard:** Would you also say it's proven ground, where if you're at a lower level, you're on less proven ground, so there's probably less code to potentially even choose from, even if you could? ...and maybe where you're in more proven ground, say a frontend, where things are sort of stabilized or something like that, it makes a lot more sense, because maybe even the user base of that dependency might be great. They've got a lot of community happening there, a lot of support coming in, so it makes zero sense for you to invent here, rather than dependency yourself.
 
@@ -270,7 +270,7 @@ Now, on the other side, a community can move away from you and your project. All
 
 **Matt Rickard:** Yeah.
 
-**Jerod Santo:** \[00:44:07.07\] Yeah, definitely I think size matters. Well, while we're talking dependencies, cyclomatic complexity... Let's squeeze this one in, huh? Because this is right on topic, isn't it?
+**Jerod Santo:** \[44:07\] Yeah, definitely I think size matters. Well, while we're talking dependencies, cyclomatic complexity... Let's squeeze this one in, huh? Because this is right on topic, isn't it?
 
 **Matt Rickard:** Yeah, yeah.
 
@@ -282,7 +282,7 @@ Now, on the other side, a community can move away from you and your project. All
 
 **Matt Rickard:** Yeah, so it's basically just like an actual quantitative measure of how many independent paths exist in your source code... So think of control structures, so like if else statements, how many nested if else statements are there, how many nested for loops are there... It's something that a lot of static code analyzer tools can tell you. It's not always maybe apples to apples in terms of "Oh, this project has this super-high cyclomatic complexity, and that means it's a bad project." I think you really need to look at it at a relative term... But it's something good to track with your project, and I know there's a bunch of tools for Go that do this, just to know if you're introducing some really gnarly control flow in terms of super-nested if statements, super-nested for loops etc... Because the cyclomatic complexity, while it is kind of relatively good or bad, it does correspond to the number of test cases you need to cover your code, if you think about it that way.
 
-**Break:** \[00:45:53.09\]
+**Break:** \[45:53\]
 
 **Jerod Santo:** So Matt, number 15, which says "Most code out there is terrible" was a corollary to number 14, which said "Use other people's code religiously." I think a corollary - if I know what a corollary is, and maybe I don't - to "Most code out there is terrible" is number 3, "Delete as much code as you can." Does that sound right?
 
@@ -330,7 +330,7 @@ So once we were able to move over to a different solution - I mean, I probably d
 
 **Jerod Santo:** How so?
 
-**Matt Rickard:** \[00:51:57.01\] To feel like you shouldn't or can't delete it is having less confidence in yourself that you could rewrite it better... You know what I mean? Like, you wanna hold on to it because maybe you're less confident that you -- so Jerod, to your point, and maybe a hat tip to you might be that you're highly confident in your abilities to rewrite the code better.
+**Matt Rickard:** \[51:57\] To feel like you shouldn't or can't delete it is having less confidence in yourself that you could rewrite it better... You know what I mean? Like, you wanna hold on to it because maybe you're less confident that you -- so Jerod, to your point, and maybe a hat tip to you might be that you're highly confident in your abilities to rewrite the code better.
 
 **Jerod Santo:** Maybe I'm overconfident.
 
@@ -370,7 +370,7 @@ So once we were able to move over to a different solution - I mean, I probably d
 
 **Jerod Santo:** Yeah, you would think these would be small concerns, but they end up becoming large concerns in software architecture, right? It's like, where the files go, how I name things, where to put things... Especially when you start working on teams, then there's disagreements over how this works... You're introducing logistics into your software by having these distinctions prematurely, and having to make sure everything's in the right place, named the correct way etc. Start simple, and then only abstract when it's necessary and beneficial. That is an art though, and it does take time to learn, and even somebody who's done it for -- I think you and I are in very similar boats. I've definitely been writing software for 15 years... I still screw that up. I still make the wrong call, and then maybe it's hours later, maybe it's days or weeks, and I'm like "That was the wrong call", and then I go ahead and roll that back... I'm gonna go back to where I started and go ahead and just try it the other way and see if it works any better.
 
-**Matt Rickard:** \[00:56:19.13\] What are the downsides? Let's say over-organizing... Is there an over- to that, potentially? So you wanna organize it, and it's an art to do so, but what about over-organizing? Can it be fatiguing, so to speak? The reason why I ask this is I often see this in the -- on the frontend mainly, where I play most, in SaaS. I know that when SaaS came about, it was -- you can always add import CSS files, for example, on the frontend... But it was less common, because it really in the end just created one big CSS file on the frontend itself when you moved it along. But in SaaS, I noticed that a lot of people would compartmentalize little components, and it would be like a five-line rule set for CSS in there, and it's like, "Well, that could have been in the regular file..." You just find yourself \[unintelligible 00:57:02.26\] in so many different files, it's like, "Is this really helpful?" What's the downside to over-organizing?
+**Matt Rickard:** \[56:19\] What are the downsides? Let's say over-organizing... Is there an over- to that, potentially? So you wanna organize it, and it's an art to do so, but what about over-organizing? Can it be fatiguing, so to speak? The reason why I ask this is I often see this in the -- on the frontend mainly, where I play most, in SaaS. I know that when SaaS came about, it was -- you can always add import CSS files, for example, on the frontend... But it was less common, because it really in the end just created one big CSS file on the frontend itself when you moved it along. But in SaaS, I noticed that a lot of people would compartmentalize little components, and it would be like a five-line rule set for CSS in there, and it's like, "Well, that could have been in the regular file..." You just find yourself \[unintelligible 00:57:02.26\] in so many different files, it's like, "Is this really helpful?" What's the downside to over-organizing?
 
 **Jerod Santo:** Hard to find things?
 

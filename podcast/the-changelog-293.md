@@ -130,7 +130,7 @@ And we're kind of continually -- I'd mentioned we added a learning section recen
 
 **Chad Hietala:** Yeah... I don't know how many JavaScript half-lives Ember has been through, but it'll probably go through several more... \[laughter\]
 
-**Break:** \[00:29:02.15\]
+**Break:** \[29:02\]
 
 **Jerod Santo:** Alright, Chad, so do your best to catch us up -- you don't have to give us the full four years between Ember 2.0 and Ember 3.0, or 3.1, which is the latest release... We'll talk a little bit more -- I know you got into a little bit of the innovations and also where you see things going with the status board, but tell us what's new... For those people who have maybe used Ember a couple years ago, or check it out then and moved on, didn't dive deep into it and have it on a production application; if they revisited the project, what would they find now that they wouldn't have found last time around?
 
@@ -190,7 +190,7 @@ So with Glimmer.js it's the same rendering engine that Ember uses. They have the
 
 That was kind of the idea around Glimmer.js, but what we're actually thinking about with Ember is how can we make an actual experience like that inside of Ember? This is thinking about "Can we serve a bare backbone of Ember, that can do the same things that Glimmer.js has?", so that's why we don't bifurcate. While the Glimmer VMs are the same between these two things and you can totally take -- you'll be able to take a component from a Glimmer.js app and put it in an Ember app and it just works... That's one of the things that we're actively working on right now. But we're also coming from the other end and saying "Can we make it so that you can build very lightweight applications with Ember itself?"
 
-**Break:** \[00:48:08.24\]
+**Break:** \[48:08\]
 
 **Adam Stacoviak:** It sounds like Glimmer is similar to the way Vue is heading, in terms of drop-in, ease of use, that kind of thing.
 

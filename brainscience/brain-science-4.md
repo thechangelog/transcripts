@@ -20,7 +20,7 @@ The problem is that sometimes the experiences that we have throughout life pumme
 
 **Adam Stacoviak:** Right.
 
-**Mireille B. Reece, Psy.D:** \[00:04:09.12\] The problem is that I now didn't do that thing that was hard, heavy, overwhelming or scary, and so then I'm going to -- when that thing comes up again, do you think it's going to be any lighter than it was the first time?
+**Mireille B. Reece, Psy.D:** \[04:09\] The problem is that I now didn't do that thing that was hard, heavy, overwhelming or scary, and so then I'm going to -- when that thing comes up again, do you think it's going to be any lighter than it was the first time?
 
 **Adam Stacoviak:** It's probably gonna be heavier. So what you're saying is that you get relief from this scenario, but maybe the burden of it truly doesn't really go away yet. It's still there, it's just sort of delayed.
 
@@ -46,7 +46,7 @@ If I think that the project is hard or that I can't do it, and then I don't do i
 
 I mean, once upon a time you weren't as skilled as you are today in your line of work, right?
 
-**Adam Stacoviak:** \[00:08:14.13\] Yeah. Yesterday I sucked. Today I'm better. \[laughter\] No, I'm just kidding. There definitely is, because I've been podcasting since 2006, so there's definitely a record of all of my bad and all of my good, or my attempts at being good, or better, at what I do.
+**Adam Stacoviak:** \[08:14\] Yeah. Yesterday I sucked. Today I'm better. \[laughter\] No, I'm just kidding. There definitely is, because I've been podcasting since 2006, so there's definitely a record of all of my bad and all of my good, or my attempts at being good, or better, at what I do.
 
 **Mireille B. Reece, Psy.D:** Right. And so how did you get better? When you had those bad days, did you throw in the towel and you're like "I'm good."
 
@@ -84,7 +84,7 @@ I mean, once upon a time you weren't as skilled as you are today in your line of
 
 **Adam Stacoviak:** True, yeah.
 
-**Mireille B. Reece, Psy.D:** \[00:11:48.20\] So when you can name that and identify that as a component, it can change the way in which you ride that emotional wave. Because then you're not going toe-to-toe with Heather, right? You're like "Oh, we're both just hungry."
+**Mireille B. Reece, Psy.D:** \[11:48\] So when you can name that and identify that as a component, it can change the way in which you ride that emotional wave. Because then you're not going toe-to-toe with Heather, right? You're like "Oh, we're both just hungry."
 
 **Adam Stacoviak:** Well, usually it's about where should we go to eat or what's for dinner, and it's simple decisions pretty much... But for some reason, these simple decisions are very hard to accomplish because of our inability to actually execute on the decision, because we're hungry, or we're tired, or it's the end of the day and it's like "Come on...!" That's why a plan beforehand is always good, for this and other scenarios.
 
@@ -104,7 +104,7 @@ I mean, once upon a time you weren't as skilled as you are today in your line of
 
 Sometimes when we're anxious, one of the words we give to -- a way in which we think that doesn't work well is catastrophic thinking. Catastrophic thinking is this way in which I'm imagining every possible, plausible, wretched outcome I could come up with... And it's amazing how many things a brain can come up with.
 
-**Adam Stacoviak:** \[00:15:55.22\] Yes, it is. You're not thinking very rationally at that moment. You're thinking very irrationally, and pretty much anything you dream of; it's like Chicken Little almost. The sky is falling. And it's not really falling.
+**Adam Stacoviak:** \[15:55\] Yes, it is. You're not thinking very rationally at that moment. You're thinking very irrationally, and pretty much anything you dream of; it's like Chicken Little almost. The sky is falling. And it's not really falling.
 
 **Mireille B. Reece, Psy.D:** Right. And imagine that when you're in that place of anxiety, rational thought has no effect. Imagine you're trying to have a conversation with a two-year-old in a grocery store about why they can't have candy. They don't really care. They just want what they want, when they want it.
 
@@ -144,7 +144,7 @@ Along with that would be the "name it to tame it." So when I can't say what I'm 
 
 **Adam Stacoviak:** Wow.
 
-**Mireille B. Reece, Psy.D:** \[00:20:09.07\] So you're able to move and maneuver more adaptively when you exercise. It makes your brain more pliable. Much of what I encounter with individuals struggling with anxiety or depression, a lot of the times I'm trying to increase or improve this flexibility in their mind, that life and the way in which they see the world doesn't have to be black or white. It's not binary, "Either this or that."
+**Mireille B. Reece, Psy.D:** \[20:09\] So you're able to move and maneuver more adaptively when you exercise. It makes your brain more pliable. Much of what I encounter with individuals struggling with anxiety or depression, a lot of the times I'm trying to increase or improve this flexibility in their mind, that life and the way in which they see the world doesn't have to be black or white. It's not binary, "Either this or that."
 
 **Adam Stacoviak:** There's some grey area in there.
 
@@ -170,7 +170,7 @@ Along with that would be the "name it to tame it." So when I can't say what I'm 
 
 **Mireille B. Reece, Psy.D:** Being in the here and now. Our brains are always wanting to hijack us; our emotions sort of move us to the future. Some people would offer than when it comes to mental health, we're really trying to manage aspects of chaos and rigidity. Just like that teeter-totter, too emotional, and I'm just -- all the chaos; or I'm too rigid, and everything has to fit neat and tidy into a box. But what's ironic is in life a lot of things don't fit neat and tidy into a box, and so if that throws you over into more chaos, now you don't have the same strategies or files to fit the things that are supposed to fit, and now you're in trouble because, because, because... All the things, as a result of that.
 
-**Adam Stacoviak:** \[00:24:08.18\] Coping kind of reminds me of habits in a way, because you have something that sort of cues this emotional charge, the emotion attached to whatever the scenario is and how you deal with it, the coping practices, how you navigate troubled waters, right? Like, that's what coping is. How you resolve something.
+**Adam Stacoviak:** \[24:08\] Coping kind of reminds me of habits in a way, because you have something that sort of cues this emotional charge, the emotion attached to whatever the scenario is and how you deal with it, the coping practices, how you navigate troubled waters, right? Like, that's what coping is. How you resolve something.
 
 **Mireille B. Reece, Psy.D:** Right, and that's why too you might be really skilled in one area, because that cue carries a different emotional charge than a different one. So you could say "Professionally, in my work, I feel incredibly competent and skilled and master, but then I move over here into relationships, and it's like, I'm back down at the novice, and maybe sometimes get up to beginner." But that isn't reinforcing then, unless you figure out a hack to be able to build in the positive feelings around this skill acquisition.
 
@@ -196,7 +196,7 @@ So if it is that I wanna use exercise and that isn't very skilled for me, then I
 
 **Mireille B. Reece, Psy.D:** So if I just say I want to get better at X, Y or Z, that's very unspecific. There isn't a time coordinated with it, so I can't necessarily measure the effort I put forth. If it's related to a healthy habit, or something at work that's aversive, it would be that I'm going to spend 15-20 minutes on this project that I don't necessarily want to do. That is my measuring effort, as opposed to "I completed the project, I shipped it" or "I lost a certain amount of weight", or "I could fit into these jeans", but rather "I went to the gym" or "I went mountain-biking for 20 minutes, two times this week." Then it alleviates that pressure that it has to look a specific outcome.
 
-**Adam Stacoviak:** \[00:27:48.15\] I like the focus on the effort, because I think we all try. Sometimes we try harder than other times, sometimes we struggle to try harder etc. but the outcome is always the variable; the effort is always gonna be present, whether it's small or large... And I think we need to give ourselves some credit for even making the plan to try. There's so many people who just get stuck on that part alone. And I know for me - like you were just saying that, about the results - I often will attach my happiness to a result, rather than just showing up... And as we said earlier, showing up is half the battle. To get better at something, you have to show up.
+**Adam Stacoviak:** \[27:48\] I like the focus on the effort, because I think we all try. Sometimes we try harder than other times, sometimes we struggle to try harder etc. but the outcome is always the variable; the effort is always gonna be present, whether it's small or large... And I think we need to give ourselves some credit for even making the plan to try. There's so many people who just get stuck on that part alone. And I know for me - like you were just saying that, about the results - I often will attach my happiness to a result, rather than just showing up... And as we said earlier, showing up is half the battle. To get better at something, you have to show up.
 
 **Mireille B. Reece, Psy.D:** Exactly, Adam. Exactly. I think that as well everybody's evidence of effort is going to look different.
 
@@ -222,7 +222,7 @@ So if it is that I wanna use exercise and that isn't very skilled for me, then I
 
 **Adam Stacoviak:** In all honesty though, one of my biggest motivators has always been to be a servant... Because there's a lot of things that we've done through our main show (The Changelog) and others to serve the community of the software ecosystem, software developers, anybody in and around the software world - tech entrepreneurs, technology etc. It's the ability to be able to see somebody in need and help them through something, hear their story and reinforce something, whatever... But in a lot of cases it's really about serving the community.
 
-**Mireille B. Reece, Psy.D:** \[00:31:59.19\] Yeah, and so it pays for you to be able to help people struggle less. Because if more people have access to information -- and that's what I would say with this; if I don't know that there's other options for how I navigate my feelings, why would I choose something else? I didn't even know that it was available.
+**Mireille B. Reece, Psy.D:** \[31:59\] Yeah, and so it pays for you to be able to help people struggle less. Because if more people have access to information -- and that's what I would say with this; if I don't know that there's other options for how I navigate my feelings, why would I choose something else? I didn't even know that it was available.
 
 So this is another thing when it comes to emotions - we can have expectations. And when those expectations go unmet, we're apt to have feelings about those... And going, "That doesn't infer anything about me, my value or my competency." But we're really apt to make meaning of things, because that's how we're designed as people; we wanna understand the value of different things. But we are all sort of in process, and even if I am struggling in this way over here, it doesn't mean I can't get over there. But if I'm going to make meaning and say that I can't, because I couldn't in this instance, now I'm gonna struggle, even more than where I was at the beginning.
 
@@ -250,7 +250,7 @@ Moving right along, other options... This is an interesting one. Have you ever h
 
 **Adam Stacoviak:** Right, right, right. Geez, I really wish I could tell myself some of these things whenever I'm at that critical moment of high emotion in a moment, because I think I would tell myself, given that I have rational thought now and not then, in those moments, "Chill out. Chill out, take a break", or "name it to tame it", "breathe deep", whatever it might be, hold some ice, do something that is not a negative response to this scenario, and something that delays potentially even dealing with it. I know we said earlier that could be kind of a bad thing, but maybe a delayed reaction to this thing might be better, because I can put my frontal lobe on, I can put my lid on, as you've said before, and rationally cope with the challenge at hand.
 
-**Mireille B. Reece, Psy.D:** \[00:36:02.25\] Yeah, and that isn't a bad strategy in that sense, but the key different is that you're actually going to come back to the thing or the feeling that's causing the upset, as opposed to just "I'm not gonna deal with it again."
+**Mireille B. Reece, Psy.D:** \[36:02\] Yeah, and that isn't a bad strategy in that sense, but the key different is that you're actually going to come back to the thing or the feeling that's causing the upset, as opposed to just "I'm not gonna deal with it again."
 
 **Adam Stacoviak:** Right.
 
@@ -292,7 +292,7 @@ Moving right along, other options... This is an interesting one. Have you ever h
 
 **Mireille B. Reece, Psy.D:** Well, the turtle - they're gonna do whatever they need to do as well. And I would still recommend the same strategies, with writing things down. Also breathing... We haven't mentioned that, but what a lot of people don't realize is ironically when they get upset, they hold their breath.
 
-**Adam Stacoviak:** \[00:39:54.25\] Oh yes, that's true. That's why I love my Apple Watch. My Apple Watch reminds me several times a day, even if I don't listen, to breathe.
+**Adam Stacoviak:** \[39:54\] Oh yes, that's true. That's why I love my Apple Watch. My Apple Watch reminds me several times a day, even if I don't listen, to breathe.
 
 **Mireille B. Reece, Psy.D:** Yeah. This is really at the heart of the beginning of panic attacks. And always there's more to it than this... But you start holding your breath, and then you can't breathe, and then your brain is like "Hey, you're not breathing...!"
 
@@ -338,7 +338,7 @@ Moving right along, other options... This is an interesting one. Have you ever h
 
 **Adam Stacoviak:** So maybe they're less of a threat. Is that the same thing?
 
-**Mireille B. Reece, Psy.D:** \[00:44:02.28\] Yeah, yeah. It's a strategy to calm their brain, so that they're not in that anxious place around what is everybody thinking, imagining, perceiving etc, which... We're never in charge of how other people hear what we say. The things I've heard people say I've said, I did not say... \[laughter\]
+**Mireille B. Reece, Psy.D:** \[44:02\] Yeah, yeah. It's a strategy to calm their brain, so that they're not in that anxious place around what is everybody thinking, imagining, perceiving etc, which... We're never in charge of how other people hear what we say. The things I've heard people say I've said, I did not say... \[laughter\]
 
 **Adam Stacoviak:** That's really interesting, this mind-trickery. I think we've talked about this before, but this idea that you said our mind doesn't understand if it's real or if it's manufactured, so to speak. I like that, because it's a way you can acquire a skill even.
 

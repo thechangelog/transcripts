@@ -34,7 +34,7 @@
 
 **Richard Littauer:** But a lot of times they don't have the information, they don't have the knowledge for how to build a community, they don't know how to set up contributing docs or codes of conduct, or readmes, or how to track different repos across an organization to make sure they're actively being maintained.
 
-**Jerod Santo:** \[00:04:04.10\] Sure, so it's like a consulting situation.
+**Jerod Santo:** \[04:04\] Sure, so it's like a consulting situation.
 
 **Richard Littauer:** It's like a consulting situation, yeah...
 
@@ -80,7 +80,7 @@ Yeah, there's a lot of great projects, a lot of bad ones, but I love it when you
 
 **Jerod Santo:** The problem with Go's formatter is it gives tabs to your code, and we all know that people who use tabs make less money. \[laughs\]
 
-**Richard Littauer:** \[00:08:06.22\] I don't mind which god you worship, you know...? It's alright...
+**Richard Littauer:** \[08:06\] I don't mind which god you worship, you know...? It's alright...
 
 **Jerod Santo:** It's objective now. People who use tabs make less money, so it's like the final say on the debate. No...
 
@@ -129,7 +129,7 @@ I'm trying to think of any particular people who just no one would know about wh
 **Jerod Santo:** So yeah, we haven't mentioned -- you said you're a digital nomad... Name some of the places that you've worked from around the world, some of your favorites.
 
 **Richard Littauer:** In the past two months I've worked from Reykjavík, Ireland, Edinburgh, Glasgow, the Highlands, London, Berlin, San Francisco and Brussels.
-\[00:11:51.27\] My favorite is Edinburgh, I went to uni there. That's my home. I did work on the bus from Reykjavík airport into Reykjavík itself; that was really fun. Watson, with whom I basically sort of run ArcticJS, which happens every two years in Svalbard, in the North of Norway.
+\[11:51\] My favorite is Edinburgh, I went to uni there. That's my home. I did work on the bus from Reykjavík airport into Reykjavík itself; that was really fun. Watson, with whom I basically sort of run ArcticJS, which happens every two years in Svalbard, in the North of Norway.
 
 **Jerod Santo:** I don't even know where that is...
 
@@ -147,7 +147,7 @@ I'm trying to think of any particular people who just no one would know about wh
 
 **Adam Stacoviak:** Coming up, Jerod talks with Karthik Ram about the struggles he felt when trying to reproduce code in scientific research papers, and how that lead to rOpenSci, an organization which got started five years ago with the help of Twitter and a grant. We talk about the open source tools they've created for the data science community, how they got over four million dollars in funding, and we also cover their plans to support and scale their thriving open science tools. Stay tuned.
 
-**Break:** \[00:13:30.07\]
+**Break:** \[13:30\]
 
 **Jerod Santo:** So Karthik Ram, here to talk about your open source project. Tell us about it. What's it called and what does it do?
 
@@ -177,7 +177,7 @@ I'm trying to think of any particular people who just no one would know about wh
 
 **Karthik Ram:** ...we have a staff of about seven people, we maintain 150 modules, we train people and we build community.
 
-**Jerod Santo:** \[00:15:57.04\] How did you get that done? In a nutshell... \[laughs\]
+**Jerod Santo:** \[15:57\] How did you get that done? In a nutshell... \[laughs\]
 
 **Karthik Ram:** Magic...
 
@@ -241,7 +241,7 @@ I'm trying to think of any particular people who just no one would know about wh
 
 **Karthik Ram:** I was at postdoc, doing actual research back then, and this was my distraction, doing open source. Josh Greenberg from the Sloan Foundation, who I got connected to through a bunch of people, believed in us and said "If you want to quit your day job and do this full-time, I will back you." And sure enough, everything aligned, and then I quit my day job, and then in a year I made my collaborator quit his day job, and now we've made seven people quit their day jobs.
 
-**Jerod Santo:** \[00:20:17.24\] Wow. What are some challenges you face today? Five years in, you've got a lot done, but what are some challenges now that face you?
+**Jerod Santo:** \[20:17\] Wow. What are some challenges you face today? Five years in, you've got a lot done, but what are some challenges now that face you?
 
 **Karthik Ram:** The challenges we face right now is scaling. Every new person we want to add to our team is one other FTE that we need to support going forward. Our current budget is about a million dollars a year, and to grow that beyond one million a year is very hard, because we write software for public good, and it's very hard to do that if you don't actually generate revenue.
 
@@ -289,7 +289,7 @@ I'm trying to think of any particular people who just no one would know about wh
 
 **Karthik Ram:** It's a new thing that we've started. Like any open source project, we're kind of stretched thin; even though we're seven people, we have these grand ideas to give fellowships to new open source projects, provide support for interns, like The Google Summer Of Code... We have all these grand plans that just take time and staff, and we're doing the best we can.
 
-**Jerod Santo:** \[00:24:00.09\] Give us some waypoints where people can go to either learn from your work or to help out with your work. What's the best way to get involved?
+**Jerod Santo:** \[24:00\] Give us some waypoints where people can go to either learn from your work or to help out with your work. What's the best way to get involved?
 
 **Karthik Ram:** Fantastic question. We have tons of opportunities for people to get involved. If people just go to GitHub.com/ropensci, you can contribute code, you can contribute documentation, you can help us wrangle issues... And you're welcome to join our Slack. We have a link on our website, and you can participate.
 
@@ -333,7 +333,7 @@ The other thing that we do that is really important to the open source community
 
 **Adam Stacoviak:** Up next we talk with Andrea Goulet and Scott Ford about the love of legacy projects, legacy code... You know, all that stuff most developers hate to deal with. Andrea and Scott run a consultancy called Corgibytes, whose sole focus is to support and maintain legacy code projects. We also learn their podcast (Legacy Code Rocks) is modeled after The Changelog, which was very flattering. Check it out at LegacyCode.rocks. We'll be right back.
 
-**Break:** \[00:28:09.00\]
+**Break:** \[28:09\]
 
 **Jerod Santo:** I'm ready when you guys are. You guys look comfortable.
 
@@ -377,7 +377,7 @@ The other thing that we do that is really important to the open source community
 
 **Scott Ford:** Nice...
 
-**Jerod Santo:** \[00:31:52.12\] And it wouldn't be interviews like conversational -- it would be interviews, but more like vignettes, and telling those stories, because they had to be fascinating... Of things like Vim, of all of the little tools that we use in UNIX, and stuff. Like Ls, for instance. I mean, sure, a lot of those built-ins haven't been actively developed for a long time, but nonetheless, they're legacy not because they're old and crufty, but because they've remained valuable for years and years, and I think that's noteworthy, something you should celebrate, as opposed to denigrate.
+**Jerod Santo:** \[31:52\] And it wouldn't be interviews like conversational -- it would be interviews, but more like vignettes, and telling those stories, because they had to be fascinating... Of things like Vim, of all of the little tools that we use in UNIX, and stuff. Like Ls, for instance. I mean, sure, a lot of those built-ins haven't been actively developed for a long time, but nonetheless, they're legacy not because they're old and crufty, but because they've remained valuable for years and years, and I think that's noteworthy, something you should celebrate, as opposed to denigrate.
 
 **Andrea Goulet:** Right, yeah. And over the course of the project - because it originally started a few years ago where we were at an Agile conference and they happened to have a software craftsmanship track...
 
@@ -419,7 +419,7 @@ I think a big part of legacy code is a lack of communication around things. Tell
 
 **Jerod Santo:** I guess the reason I point that out is because there's good money in doing the work that a lot of other people don't wanna do, right? You guys have found that? You're giving me the side eye, maybe there's not that good money.
 
-**Andrea Goulet:** \[00:36:01.18\] Well, I think with any business there's always gonna be ups and downs that fluctuate, but we've got a team of 12 people now, and we've got a backlog of resumes, surprisingly, of people who want to leave their current gig and come work for us...
+**Andrea Goulet:** \[36:01\] Well, I think with any business there's always gonna be ups and downs that fluctuate, but we've got a team of 12 people now, and we've got a backlog of resumes, surprisingly, of people who want to leave their current gig and come work for us...
 
 **Scott Ford:** Yeah, I feel like we have the inverse of what a lot of technology firms have, where...
 
@@ -487,7 +487,7 @@ I think a big part of legacy code is a lack of communication around things. Tell
 
 **Scott Ford:** Right.
 
-**Andrea Goulet:** \[00:40:10.02\] Yeah, and part of it is like "How easy is it?" If you don't have good documentation, do you have continuous deployment set up so that you can just kick something off? Or is it gonna be this big back and forth where you haven't developed a relationship with the maintainer? There's a lot of idiosyncrasies there of "Do people want me to go in and fix their error messages? I don't know."
+**Andrea Goulet:** \[40:10\] Yeah, and part of it is like "How easy is it?" If you don't have good documentation, do you have continuous deployment set up so that you can just kick something off? Or is it gonna be this big back and forth where you haven't developed a relationship with the maintainer? There's a lot of idiosyncrasies there of "Do people want me to go in and fix their error messages? I don't know."
 
 **Jerod Santo:** Yeah. Thinking about a lot of the recent conversations, both here at Sustain and elsewhere around the value of non-code contributions, and really the desire, the need - not just for sustainable projects, but for healthy projects... One of the things I like to have as a conversation here with people - I haven't quite opened it up - is like "Does healthy and sustainable mean the same thing or are there distinctions?" I think there are distinctions, but that's a conversation to be had.
 
@@ -535,7 +535,7 @@ We've also had a couple of clients who are supported by a foundation, so they ha
 
 **Andrea Goulet:** Basically, enhancing documentation, so that we can be an augment of that. But I think it's even more systemic than that, and are there different business models, like open source insurance, that companies could pay for on a specific project? Could they use the Patreon model where it's like an individual developer contributes and says "I value this, so we're not relying so much on enterprises or organizations." So you've got a couple other ideas, too.
 
-**Scott Ford:** \[00:43:56.05\] I have a blog post -- I have three, but I can't remember the third... \[laughter One was insurance, one was a Patreon model where you have a large -- oh, I remember the third one. The third one was kind of like a collective of organizations that depend heavily on a particular project, and having that group of people or organizations come together to fund a full-time person on that project. To do so, maybe the money for that would be managed through something transparent like Open Collective, but recognizing that there are smaller businesses out there who depend on open source projects just as much as the really big companies do, but they can't afford to hire somebody full-time.
+**Scott Ford:** \[43:56\] I have a blog post -- I have three, but I can't remember the third... \[laughter One was insurance, one was a Patreon model where you have a large -- oh, I remember the third one. The third one was kind of like a collective of organizations that depend heavily on a particular project, and having that group of people or organizations come together to fund a full-time person on that project. To do so, maybe the money for that would be managed through something transparent like Open Collective, but recognizing that there are smaller businesses out there who depend on open source projects just as much as the really big companies do, but they can't afford to hire somebody full-time.
 
 **Jerod Santo:** Full-time staff members, yeah.
 
@@ -567,7 +567,7 @@ We've also had a couple of clients who are supported by a foundation, so they ha
 
 **Jerod Santo:** Right, but I do not feel like it's in my client's best interest to go and spend 20 hours building a brand new thing or a huge feature, which probably would be generally useable to lots of people... So there has to be other ways.
 
-**Andrea Goulet:** \[00:48:07.14\] Yeah, we're in the same thing. I think you've mentioned something really important, which is the legal framework around it, because we had the same thing - we had our attorney look at everything through the lens of open source, and I think that's something that most consultancies might forget, is that there's a lot of IP-related things here, so we have it in our master services agreement that you are allowing us to use and to spend --
+**Andrea Goulet:** \[48:07\] Yeah, we're in the same thing. I think you've mentioned something really important, which is the legal framework around it, because we had the same thing - we had our attorney look at everything through the lens of open source, and I think that's something that most consultancies might forget, is that there's a lot of IP-related things here, so we have it in our master services agreement that you are allowing us to use and to spend --
 
 **Jerod Santo:** And I've had a couple clients push back on that particular point as well, or at least ask for clarification.
 
@@ -625,7 +625,7 @@ One of the things that I've been really encouraged about at the conversations to
 
 **Scott Ford:** Yeah, that's the show.
 
-**Andrea Goulet:** \[00:52:06.17\] I would say we're always looking for folks who are interested in being guests. I know that there's a lot of folks who kind of are on both the Changelog, as on their feed, so... You listen to it every night when you do the dishes.
+**Andrea Goulet:** \[52:06\] I would say we're always looking for folks who are interested in being guests. I know that there's a lot of folks who kind of are on both the Changelog, as on their feed, so... You listen to it every night when you do the dishes.
 
 **Scott Ford:** Yeah, I listen to the Changelog while I do the dishes.
 

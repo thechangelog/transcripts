@@ -34,7 +34,7 @@ I got my undergraduate degree from the University of California Berkeley, and th
 
 **Daniel Whitenack:** Excellent. I got lucky. Chris, why don't you give us a little bit of intro to yourself?
 
-**Chris Shallue:** \[00:03:55.04\] Sure. My background is actually a bit of a mixed bag... I started out in mathematics; I was studying mainly pure and applied mathematics in my undergrad degree in Australia, and then I did some research in pure mathematics... But after a while, I kind of wanted to do something with a bit more of an application into the real world, rather than the theoretical world, so I briefly moved into research in biomechanical engineering.
+**Chris Shallue:** \[03:55\] Sure. My background is actually a bit of a mixed bag... I started out in mathematics; I was studying mainly pure and applied mathematics in my undergrad degree in Australia, and then I did some research in pure mathematics... But after a while, I kind of wanted to do something with a bit more of an application into the real world, rather than the theoretical world, so I briefly moved into research in biomechanical engineering.
 
 I realized after a short period that that wasn't really for me, and so I then decided to apply for a job at Google, just because I knew that Google was doing some really exciting and interesting work that I thought I would love to be a part of... So I applied for a job at Google, and that was about four and a half years ago, and since I've been at Google, I'm a software engineer here.
 
@@ -60,7 +60,7 @@ I guess I thought it would be really cool if I could discover a planet, so...
 
 **Chris Shallue:** So I did a little bit of research on -- a Google search, basically, and I found Andrew's name as someone who had worked with this data a lot. I basically wrote an email to Andrew, pitching a collaboration with him, and obviously I did a good job, because we ended up working together on this project.
 
-**Chris Benson:** \[00:08:00.09\] So I guess - this is Chris - I was wondering, if you could kind of tell us a little bit about what the goals of Kepler are, as well as the project itself, and kind of tie it all together for listeners that might not be familiar with it?
+**Chris Benson:** \[08:00\] So I guess - this is Chris - I was wondering, if you could kind of tell us a little bit about what the goals of Kepler are, as well as the project itself, and kind of tie it all together for listeners that might not be familiar with it?
 
 **Andrew Vanderburg:** Yeah, I can talk about that. Kepler is a telescope in space; it was launched in 2009. When astronomers talk about telescopes, one of the most important things that we like to say is how big it is... So Kepler is a one meter telescope, which means that its primary mirror, the thing that it uses to collect and focus light, is about a meter across in diameter.
 
@@ -86,7 +86,7 @@ Kepler has really ushered in this era of starting to see and know about smaller 
 
 **Andrew Vanderburg:** Right. So behind the telescope - I guess inside the telescope is more accurate - is a giant digital camera, and the way Kepler works is that every 30 minutes it takes a picture of about 200,000 stars all at once. This is how it operated during its original mission, which ran from 2009 to 2013, and that's what we'll focus most of our time on today. Since then, its operating has changed a little bit. But during its original mission, it took pictures of about 200,000 stars all at once. That's not really the data that Chris and I are working with though.
 
-\[00:12:01.15\] What we look for with Kepler is not trying to take a picture of the planet itself; we're trying to see how bright the star is at all of these times. So what we do is we take the images that Kepler has acquired, we measure how bright the star is in each of those images, and we construct for ourselves a time series, measurements of how bright the star is at every 30-minute interval over the course of about 4 years. That's what Chris and I are fundamentally working with. We call these light curves.
+\[12:01\] What we look for with Kepler is not trying to take a picture of the planet itself; we're trying to see how bright the star is at all of these times. So what we do is we take the images that Kepler has acquired, we measure how bright the star is in each of those images, and we construct for ourselves a time series, measurements of how bright the star is at every 30-minute interval over the course of about 4 years. That's what Chris and I are fundamentally working with. We call these light curves.
 
 **Daniel Whitenack:** So just for someone that's never done this before, to me, it sounds like -- so you have these images... It sounds like a pretty good amount of data munging, because... Like, if I'm thinking about one of these images - how many stars did you say were in an image?
 
@@ -108,7 +108,7 @@ So the way Kepler finds planets is that instead of looking for the planets direc
 
 **Andrew Vanderburg:** That's exactly right. So an exoplanet is passing in between the star and the telescope, and it's casting its shadow on the Kepler. And because Kepler is so sensitive and so precise, it's able to measure even very tiny shadows, even very tiny dimmings that get cast onto it.
 
-\[00:16:01.00\] Fundamentally, what we look for is we look for these dimmings, and we look for them to repeat over and over and over again, because every time it repeats is a different time that that planet has orbited around the star and come back in front of it to where we see it.
+\[16:01\] Fundamentally, what we look for is we look for these dimmings, and we look for them to repeat over and over and over again, because every time it repeats is a different time that that planet has orbited around the star and come back in front of it to where we see it.
 
 **Chris Benson:** Okay. And Chris, I guess can you carry that over into the machine learning model in terms of how you select the features and what you're doing from an architectural standpoint?
 
@@ -124,7 +124,7 @@ So you asked about the feature selection... I guess there's perhaps two approach
 
 In this project we actually took a slightly different approach, and we didn't sit down and think about any of those features ourselves. Instead, we kind of treated these light curves that Andrew mentioned as kind of like a one-dimensional image.
 
-\[00:19:54.19\] If you imagine that, for example, a photograph is actually a two-dimensional image, right? It's like a two-dimensional grid of pixels. Well, what we have is we have a sequence of brightness measurements over time, and so we treat that one-dimensional sequence of brightness measurements as kind of like a 1D photo or a 1D image. So we trained a type of model called a convolutional neural network, which is exactly the kind of model that we typically use to classify photos, that's actually been very successful in recent years.
+\[19:54\] If you imagine that, for example, a photograph is actually a two-dimensional image, right? It's like a two-dimensional grid of pixels. Well, what we have is we have a sequence of brightness measurements over time, and so we treat that one-dimensional sequence of brightness measurements as kind of like a 1D photo or a 1D image. So we trained a type of model called a convolutional neural network, which is exactly the kind of model that we typically use to classify photos, that's actually been very successful in recent years.
 
 So we kind of applied a very similar model to one that is used to detect, say, cats and dogs in the photos you take on your phone, and we applied that to this problem. So we kind of give the input as actually the light curve itself, and that's the only input that our model gets.
 
@@ -144,7 +144,7 @@ I'm curious, just being a person that's occasionally developing models myself as
 
 **Chris Shallue:** Yeah, I think it's a good idea to have a good understanding of the basics, I guess. As I said before -- so I work mainly with neural networks in my job, so if you are gonna wanna train a neural network for your problem, which is often a very good idea, you should know, as I said, what the basic categories of neural networks are. Often, the different categories are kind of well-known to be suited to particular types of tasks.
 
-\[00:24:05.01\] Convolutional neural networks are very well known for image detection, anything with an image input. Then recurrent neural networks are very well known when your input is language; so if you have like a translation problem or something like that.
+\[24:05\] Convolutional neural networks are very well known for image detection, anything with an image input. Then recurrent neural networks are very well known when your input is language; so if you have like a translation problem or something like that.
 
 For me, part of it was knowing what the sort of strengths and weaknesses of these architectures were, in what domains they had been successful in the past, and then I guess it was, okay, my problem isn't exactly any of those previous problems, but can I think of it with an analogy to some other problem that has been solved before?
 
@@ -164,7 +164,7 @@ I've had people come up to me and ask "What do you think about using a neural ne
 
 **Daniel Whitenack:** Yeah, so I remember I did some computational chemistry sort of stuff in my research, and I remember right at the time (a couple years from graduating) someone started applying machine learning techniques to basically do what we are trying to do analytically... And I think at the time I felt a little bit threatened by it, because I felt like I was being machine-learned out of a job maybe... But at that time I really had no perspective, so it's great to hear that there is some excitement around that.
 
-**Chris Benson:** \[00:28:13.23\] I've got a quick question for you guys... Did you run into any kind of challenges on your side, in terms of getting the data ready, having the right data, training, validating, or anything? Or was it pretty smooth sailing all the way through for you?
+**Chris Benson:** \[28:13\] I've got a quick question for you guys... Did you run into any kind of challenges on your side, in terms of getting the data ready, having the right data, training, validating, or anything? Or was it pretty smooth sailing all the way through for you?
 
 **Daniel Whitenack:** I bet the first model that they trained was the one in the paper, that's my guess. These guys are pros, Chris. \[laughter\]
 
@@ -204,7 +204,7 @@ On the flipside though, I guess having a small amount of training data means tha
 
 **Daniel Whitenack:** So I am curious... You set out to find planets... How many exoplanets have you discovered, and do any of them have aliens on them, to your knowledge, yet?
 
-**Chris Shallue:** \[00:32:14.14\] At the moment we have discovered two exoplanets.
+**Chris Shallue:** \[32:14\] At the moment we have discovered two exoplanets.
 
 **Daniel Whitenack:** That's awesome.
 
@@ -230,7 +230,7 @@ The stars that we searched were all stars that were known to have multiple plane
 
 If you have a big planet, it will make a deep dip. If you have a small planet, it will make a shallow one. That's one of the ways you can tell the difference. But the most fundamental way you can tell is just when it happens, because generally, planets proceed along in their orbits, and it's almost like clockwork - they come back and go in front of their star after the same interval of time every orbit.
 
-\[00:35:54.05\] For our Earth, that interval of time is 365 days (a year). For these two new planets that we discovered, they were both about two weeks. So when you look at the light curves for these stars that have many planets, all going in front of the star, you'll see dips that repeat every 14 days, you'll see dips that repeat every 300 days, you'll see dips that repeat every 60 days, for example, and all of those dips you can identify the periodicity, and that's how you separate out which planet is causing which dip.
+\[35:54\] For our Earth, that interval of time is 365 days (a year). For these two new planets that we discovered, they were both about two weeks. So when you look at the light curves for these stars that have many planets, all going in front of the star, you'll see dips that repeat every 14 days, you'll see dips that repeat every 300 days, you'll see dips that repeat every 60 days, for example, and all of those dips you can identify the periodicity, and that's how you separate out which planet is causing which dip.
 
 **Daniel Whitenack:** That helps a lot, I appreciate it.
 
@@ -266,7 +266,7 @@ In general, all of the data is public and freely available for people to go and 
 
 **Chris Benson:** That's your caveat right there. \[laughter\]
 
-**Daniel Whitenack:** \[00:40:01.03\] That's great. Good disclaimer. If you're sitting in Starbucks right now you might not wanna start the download... But yeah, awesome. You guys have discovered planets... Where do you go from there? What's next?
+**Daniel Whitenack:** \[40:01\] That's great. Good disclaimer. If you're sitting in Starbucks right now you might not wanna start the download... But yeah, awesome. You guys have discovered planets... Where do you go from there? What's next?
 
 **Andrew Vanderburg:** I told you at the beginning of this podcast that the main goal of Kepler was to figure out how common planets like our Earth are... And after the mission launched - Kepler took data in its original mission for about four years - people started trying to estimate that number, but the numbers that people are getting are fairly discrepant. They can range over more than a factor of ten, and that means we really don't have a very precise and accurate estimate of how common planets like our own Earth are. There are a couple of reasons for this.
 
@@ -286,4 +286,4 @@ That's kind of the next step. That will be another extra layer of difficulty, bu
 
 **Chris Shallue:** Yeah, thanks for having us.
 
-Break: \[00:44:19.27\] to \[00:45:16.17\]
+Break: \[44:19\] to \[45:16\]

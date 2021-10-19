@@ -24,7 +24,7 @@ Gatsby does generate sites statically, can write your application with React, wi
 
 **Dustin Schau:** I think that's pretty fair. I think it's React as the presentation layer, and then GraphQL as the data layer, and then stitching them together, and then compiling them to a static HTML. What's really cool, and why Gatsby isn't just a "static site generator" is that there's also a runtime that gets shipped, which people have lots of opinions on, of course; moving into that later. But the idea is that once it hits the browser, everything has been optimized as much as possible, but then it's fully functional, dynamically, at runtime, so that you can make a data request, you can do interactions, you can do whatever you can in a React application, because it produces a React application.
 
-**Kevin Ball:** \[00:03:52.10\] I have a question about that; I'm jumping in already. So one thing -- first off, I love the way that we're moving to compile-time stuff, and we're kind of precompiling everything, and doing this sort of static site plus approach... But one thing that has come up a couple of times is that often that creates sort of an interactivity gap. So rather than the traditional SPA approach of you get a loading screen, you get a loading screen, you're waiting, you're waiting, you're waiting, and then you get something that you can interact with right away, we show the user a page right away, because we're shipping out compiled HTML, but sometimes we're lying, because when you try to interact with it, it doesn't work until the thing fully hydrates.
+**Kevin Ball:** \[03:52\] I have a question about that; I'm jumping in already. So one thing -- first off, I love the way that we're moving to compile-time stuff, and we're kind of precompiling everything, and doing this sort of static site plus approach... But one thing that has come up a couple of times is that often that creates sort of an interactivity gap. So rather than the traditional SPA approach of you get a loading screen, you get a loading screen, you're waiting, you're waiting, you're waiting, and then you get something that you can interact with right away, we show the user a page right away, because we're shipping out compiled HTML, but sometimes we're lying, because when you try to interact with it, it doesn't work until the thing fully hydrates.
 
 So I'm curious if Gatsby is doing anything -- well, first off, how big of a problem does that end up being with Gatsby sites? What's that interactivity gap look like in terms of time? And then two, if there's anything on the radar to address that.
 
@@ -50,7 +50,7 @@ In general, I think the approach is just load as minimal amount of JavaScript as
 
 **Dustin Schau:** I think it's worth it. There's a really great article that one of my co-workers Michal recently wrote on why Gatsby is better with JavaScript... So we do things like preloading and prefetching, so that it makes the actual experience not only faster, but it feels faster, so of course, that requires JavaScript.
 
-\[00:08:04.15\] In general, I think it's absolutely worth it. I don't even really like to publicize it, but there is a Gatsby plugin that removes the JavaScript... But I think for us, most real-world applications you're going to ship to an end user - they require at least some JavaScript. And because I think React has the best implementation of how I wanna write my UIs, which I hope isn't too contentious of a take...
+\[08:04\] In general, I think it's absolutely worth it. I don't even really like to publicize it, but there is a Gatsby plugin that removes the JavaScript... But I think for us, most real-world applications you're going to ship to an end user - they require at least some JavaScript. And because I think React has the best implementation of how I wanna write my UIs, which I hope isn't too contentious of a take...
 
 **Nick Nisi:** I'm shocked!
 
@@ -100,7 +100,7 @@ But as far as whether we're going to do that in Gatsby - probably not any time s
 
 **Kevin Ball:** It does raise an interesting plugability question around Gatsby... So one thing that you highlighted that I think is really important to think about is Gatsby has these two conceptual layers. There's a very interesting data pipelining layer that does a lot of interesting stuff and packages things up into GraphQL, and then there's a React-based view layer. Do you see any possibility that those two things might be separated and you could have someone be building a Vue.js or Svelte, or something else-based view layer on top of the GraphQL data pipeline?
 
-**Dustin Schau:** \[00:12:19.25\] It's a great question. If I recall correctly, Sarah Drasner from Vue opened up an issue on GitHub a while ago, asking that very question... So to me, to be totally frank, I think React is the way that applications should generally be written... But our idea of sourcing data from anywhere - it is very much an interesting space. You can source data from anywhere, and then you can also output using whatever mechanism you want...
+**Dustin Schau:** \[12:19\] It's a great question. If I recall correctly, Sarah Drasner from Vue opened up an issue on GitHub a while ago, asking that very question... So to me, to be totally frank, I think React is the way that applications should generally be written... But our idea of sourcing data from anywhere - it is very much an interesting space. You can source data from anywhere, and then you can also output using whatever mechanism you want...
 
 So from a product perspective it's a little challenging, because a lot of what we're doing is React code, so our runtime would then kind of need to be forked into different languages, different frameworks... So is it something that could be done? Yes. Is it something that we plan to do at this time? No. But based on -- I've definitely been monitoring this space closely, and they're doing a lot of really cool stuff. Svelte is awesome, Rich Harris is incredible. Worth a follow on Twitter; if anyone doesn't follow him, he's amazing.
 
@@ -122,7 +122,7 @@ Landscape changes fast. I think React is here to stay. I think it's kind of stab
 
 One thing that we haven't as of yet captured - at least not on a broader scale... So we have, I think last I checked, 3,000(ish) contributors to Gatsby, which is pretty incredible... And most of the contributions we get, which are always valuable, are documentation, tests... What I'd call smaller changes. I think what we've maybe missed the mark on, or what we could definitely use some help with from the community is broader chunks of work.
 
-\[00:16:15.23\] The RFC process is how other spaces do this, so React has an RFC process, Next.js, a similar React framework in the same kind of space we're in, has an RFC process... Our RFC process is really not so much something necessarily new. It's a tweak on the model, so we have it as a separate repo. We found as open source maintainers it's really hard to keep a pulse on disparate repos, outside of the main Gatsby flow. So what we're really looking for is more eyes on these RFCs by internalizing them into our main monorepo.
+\[16:15\] The RFC process is how other spaces do this, so React has an RFC process, Next.js, a similar React framework in the same kind of space we're in, has an RFC process... Our RFC process is really not so much something necessarily new. It's a tweak on the model, so we have it as a separate repo. We found as open source maintainers it's really hard to keep a pulse on disparate repos, outside of the main Gatsby flow. So what we're really looking for is more eyes on these RFCs by internalizing them into our main monorepo.
 
 People look at the Gatsby monorepo sometimes as a bit overwhelming, but literally everything we do is in that monorepo. We have our starters there, we have all of our Gatsby packages as like a Lerna monorepo, and then now we'll have RFCs that if and when they get merged, you can help shape the Gatsby roadmap and propose a chunk of work that will benefit the broader Gatsby ecosystem. Super-exciting process that we're beginning to experiment with and roll out, and that hopefully we'll see some success with.
 
@@ -138,7 +138,7 @@ So yeah, my call-to-action for our community is if you have a great idea, someth
 
 As far as the breakdown, I think last I checked maybe 50% of the company is open source. There's a really great blog post that actually goes into detail on -- you know, we're doubling down on the open source ecosystem... So yeah, open source is and will always be a focus, and it's a focus of our hiring, it's a focus on all of what we do, and then that work directly leads into a better experience for everyone. And then Cloud also of course uses the open source product as well... So we want our product good for everyone, including ourselves.
 
-**Break:** \[00:19:14.03\]
+**Break:** \[19:14\]
 
 **Nick Nisi:** Talking about open source versus the business side, you did mention that there's this whole cloud aspect of Gatsby. Do you wanna give us an intro into what that is?
 
@@ -166,7 +166,7 @@ To your question now, for Contentful let's say, they have this \[unintelligible 
 
 **Dustin Schau:** Yeah, so I think in a lot of ways what our cloud offering is doing is pretty similar to Netlify. Our Build product is continuous deployment, in the same way that Netlify has continuous deployment. I think the big difference is that Netlify is a CD solution for any application - they're pretty agnostic - whereas we are a CD application and more, kind of replicating the CMS, for just Gatsby.
 
-\[00:24:20.09\] So I think the interesting thing is that we can do some things on the open source product that then impact Cloud in a (of course) positive sense... So really, Netlify is kind of like a generalist who's building out any application, and then Gatsby is specializing in delivering Gatsby applications, and the use cases for (for instance) what could be built on Netlify could be different.
+\[24:20\] So I think the interesting thing is that we can do some things on the open source product that then impact Cloud in a (of course) positive sense... So really, Netlify is kind of like a generalist who's building out any application, and then Gatsby is specializing in delivering Gatsby applications, and the use cases for (for instance) what could be built on Netlify could be different.
 
 So we're kind of capturing the CMS space - and that includes Preview - and that isn't necessarily a space that Netlify has touched as much. We're kind of making a platform for collaboration for teams using Gatsby, and it's a little bit different than Netlify, which is \[unintelligible 00:25:01.29\].
 
@@ -190,7 +190,7 @@ What we did is that one of the heaviest and potentially slowest pieces of a Gats
 
 **Dustin Schau:** ...what incremental builds is - I think it requires some nuance, but I think the mental model that everyone holds is "I had a blog post. I just built out that blog post, not my entire application." What's really terrible about that is it unblocks using "static site generators" for more and more interesting use cases.
 
-\[00:28:15.19\] One of the most common complaints we hear of users of Gatsby is "Well, I have a million pages, and I don't wanna wait 35-40 minutes for my build to complete. I've just been changing a blog post." Or "I have real-time edits. My content editors are making changes every ten, five, one seconds, and I can't wait for my build to complete." So what Incremental Builds does is -- I think of it quite simply as just fast builds. The ultimate goal is that builds are kind of just this seamless, obvious thing that just happened.
+\[28:15\] One of the most common complaints we hear of users of Gatsby is "Well, I have a million pages, and I don't wanna wait 35-40 minutes for my build to complete. I've just been changing a blog post." Or "I have real-time edits. My content editors are making changes every ten, five, one seconds, and I can't wait for my build to complete." So what Incremental Builds does is -- I think of it quite simply as just fast builds. The ultimate goal is that builds are kind of just this seamless, obvious thing that just happened.
 
 It's something that we're definitely working on, and we hope to have more to share on that soon... But it's a super, super-interesting space, and it's honestly what I think tons and tons of users have been asking for since the entirety of Gatsby as a tool. So anyone who decouples their content from their presentation layer, so using an SSG, has asked for this, in every framework. You could probably go through GitHub issues for anyone and be like "What about incremental builds?"
 
@@ -208,7 +208,7 @@ There are edge cases here. I don't wanna portray a silver-bulleted scenario ever
 
 **Dustin Schau:** Exactly. And what's really cool is that this is how preview works. I was mentioning earlier a tool called Gatsby Preview - that's the essential mechanism that enables that "hot reloading." We have this big blog of data, let's say; you know, this tree of data. So we know what components are plucking from this tree, and those are the components that we rerender.
 
-\[00:32:10.12\] So the idea is that Preview is rerendering/hot reloading in the cloud, Incremental Builds is rerendering the build process. So it's like "Just do this work", because we know which pages require which pieces of data.
+\[32:10\] So the idea is that Preview is rerendering/hot reloading in the cloud, Incremental Builds is rerendering the build process. So it's like "Just do this work", because we know which pages require which pieces of data.
 
 **Nick Nisi:** Is that utilizing React's DOM diffing, to effectively do that? Like saying "Oh, you have these components, and these props on them have effectively changed, so I need to rerender this."
 
@@ -238,7 +238,7 @@ Earlier there was, you know, "Could we use distributed builds locally?", and the
 
 So what we do is using this GraphQL and utilizing this plugin ecosystem - we use this library Sharp - we'll take this image and then generate the GraphQL query, and then we'll generate the different image sizes, so different viewports, different DPIs etc. And then that GraphQL query will contain a data shape that you can then directly pass to the gatsby-image component. That data shape includes things like source, source type etc. So gatsby-image constructs a picture element with a source and then a source set.
 
-\[00:35:58.04\] This image transformation, what it's doing is it's generating images in (I believe) three or four different variants, in different sizes; it's optimizing them, it's compressing them, so that the end user experience - if you've seen a Gatsby application, you'll see this medium blur effect.
+\[35:58\] This image transformation, what it's doing is it's generating images in (I believe) three or four different variants, in different sizes; it's optimizing them, it's compressing them, so that the end user experience - if you've seen a Gatsby application, you'll see this medium blur effect.
 
 At build time we just do the base64 image, so it's super-small, and then with an Intersection Observer, once you scroll that image into the viewport, you then load in the image that you need for your viewport. On mobile you get a smaller image, on desktop you'll get a larger image, but the end user experience is that it's happening behind the scenes, using this JavaScript layer, and then it's loading just what you need, when you need it.
 
@@ -264,7 +264,7 @@ I think that's one of the cool values of Gatsby, is we kind of are the performan
 
 **Dustin Schau:** Yeah. It's funny... I saw and heard that Jason Lengstorf was on this podcast a year ago or something, and he said this a lot - I don't know if it's a Jason original, but I'll give him tons of credit \[unintelligible 00:39:52.04\] But it's like "Make the right thing the easy thing." I think that's what we do with Gatsby, which is pretty cool.
 
-**Break:** \[00:40:05.28\]
+**Break:** \[40:05\]
 
 **Kevin Ball:** Alright, something that you said in that last piece, talking about images and how it's all configurable, got me wondering "How configurable or accessible to developers is the Gatsby Cloud build process?" I have a particular use case in mind, something that I build for a site that I am hosting on Netlify... For each page there is a thumbnail that if that thumbnail doesn't exist in my repository during the build process, it will auto-generate it. So it'll auto-generate a thumbnail for every page that does not already have one... At least within the context of blog pages. So I did that; they have these various ways that you can hook into the build process as you go, and I'm kind of curious what Gatsby Cloud makes available to folks.
 
@@ -290,7 +290,7 @@ So that to me, based on what you're saying, sounds like it could be like a Gatsb
 
 **Kevin Ball:** It's a small world...
 
-**Dustin Schau:** \[00:44:07.03\] He wrote it as like a React component, and then it hooks into Cloudinary behind the scenes. I think even better yet, that could be a Gatsby plugin that will then generate that. I'm getting really into the weeds, so I can broaden it up if we need to, but - Gatsby has these low-level Node APIs, and then those Node APIs are then what makes a plugin do something.
+**Dustin Schau:** \[44:07\] He wrote it as like a React component, and then it hooks into Cloudinary behind the scenes. I think even better yet, that could be a Gatsby plugin that will then generate that. I'm getting really into the weeds, so I can broaden it up if we need to, but - Gatsby has these low-level Node APIs, and then those Node APIs are then what makes a plugin do something.
 
 So the idea here is that you could listen to when a node in Gatsby is created, so when a blog post is created, and then you could at build time construct that SEO image, or that blog post image. So that plugin would, again, just work in the cloud.
 
@@ -308,7 +308,7 @@ What we do with Gatsby is we optimize - because we are the framework, we are the
 
 So to your actual question as to what things are maybe slighted for more areas for improvement in user experience... Generally, I think we're hitting the mark there. We've optimized the things that we know about, we provided the right level of abstractions or right -- I mean, it is a component at the end of the day, but the right level of nuance that you need for a good user experience... But it's definitely is something that we're always thinking about.
 
-\[00:47:56.24\] One of our key reasons -- our CEO, Kyle, always says Gatsby is a tool that for him is a way to create delightful user experiences... So it's like, we want to give the users all the control, all the power, all the right level of abstractions, so that they can do that without being a \[unintelligible 00:42:18.28\] expert, or without being an accessibility expert, or thing X, thing Y, thing Z. So definitely a good question...
+\[47:56\] One of our key reasons -- our CEO, Kyle, always says Gatsby is a tool that for him is a way to create delightful user experiences... So it's like, we want to give the users all the control, all the power, all the right level of abstractions, so that they can do that without being a \[unintelligible 00:42:18.28\] expert, or without being an accessibility expert, or thing X, thing Y, thing Z. So definitely a good question...
 
 **Nick Nisi:** You were talking about plugins... I'm curious what are your thoughts on cool plugins that people should check out, or really interesting community-provided plugins for Gatsby.
 
@@ -336,7 +336,7 @@ As far as user-generated ones, it's honestly hard to get a handle on them, becau
 
 **Dustin Schau:** So one of my favorite ones he ever did is he talked about writing a blog, and he was like "Oh, I'll use TypeScript, and I'll use \[unintelligible 00:51:44.29\] and I'll use Webpack" for like a blog that has three posts... And it's like, "Well, you don't really need this stack for a static blog that's not particularly interesting." Of course, again, Gatsby is a great use case for it. I get the meme, it's pretty funny.
 
-\[00:51:59.09\] As far as actual, novel use cases, it sounds a little arrogant... I think there's a kind of \[unintelligible 00:52:04.24\] People think of Gatsby as an SSG, so it's like hey, you can do apps with Gatsby; so it's just a React application... And the idea is that if you generate as much as possible upfront, ahead of time, and then you have a login experience... I used this tool called OneGraph, which is (again) kind of like a GraphQL stitching service, so I can query from Twitter, from GitHub, from Gmail. So I did a small little Gmail clone and \[unintelligible 00:52:35.06\] so clearly it's not Gmail-level, but I think that's a pretty interesting one. It's open source, look for gatsby-mail.
+\[51:59\] As far as actual, novel use cases, it sounds a little arrogant... I think there's a kind of \[unintelligible 00:52:04.24\] People think of Gatsby as an SSG, so it's like hey, you can do apps with Gatsby; so it's just a React application... And the idea is that if you generate as much as possible upfront, ahead of time, and then you have a login experience... I used this tool called OneGraph, which is (again) kind of like a GraphQL stitching service, so I can query from Twitter, from GitHub, from Gmail. So I did a small little Gmail clone and \[unintelligible 00:52:35.06\] so clearly it's not Gmail-level, but I think that's a pretty interesting one. It's open source, look for gatsby-mail.
 
 As far as other interesting Gatsby applications or use cases I hadn't seen--
 
@@ -356,7 +356,7 @@ I think one of my favorites is Harry's, the razor. There is a women's variant ca
 
 As far as exposing our GraphQL API, I think the really interesting space - and there's actually a CMS that's doing this - is generate ahead of time as much as you can, and then also listen with this GraphQL API, with this shared component... So I think it's Prismic. Yeah, I believe it's Prismic. Prismic works very well with Gatsby, and so they're actually doing that. There's more to figure out there, because there is a runtime cost to that. You're loading this bundle of JavaScript, so the benefit is relatively clear to the end user. It's like, "I have the content and I don't need to wait for every build." Everything's up there. The future state is "Well, you don't have to wait for a rebuild." But if your rebuild is instant, you don't need to listen for that change.
 
-**Kevin Ball:** \[00:56:04.26\] Yeah. The use case that I'm interested in is for example for gated areas. Maybe this has changed too, but my understanding is to create a gated area within a Gatsby application, you basically make it client-side only. You don't prerender.
+**Kevin Ball:** \[56:04\] Yeah. The use case that I'm interested in is for example for gated areas. Maybe this has changed too, but my understanding is to create a gated area within a Gatsby application, you basically make it client-side only. You don't prerender.
 
 **Dustin Schau:** Well, define what you're gating. Are you defining the whole experience, or a portion of it?
 

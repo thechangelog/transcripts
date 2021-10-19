@@ -36,7 +36,7 @@
 
 **Mat Ryer:** Hang on, so Jon can just say the same thing I said, and gets away with it? It was almost verbatim what I said... \[laughter\]
 
-**Johnny Boursiquot:** \[00:03:53.16\] Kind of like Vim, and Emacs, you know... You know Vim's better, but you still need to allow Emacs -- hey, I'm kidding, I'm kidding. Let's not start this, let's not start this. Alright, Ramya, we had you on the show previously to talk about Go support within VS Code, and [in that episode](https://changelog.com/gotime/49) - I'm blanking on the episode number, but I'm sure our listeners can find it - we talked a little bit about the history of Go support inside of VS Code, the plugin, the development process, how you manage the organization and the open source contributions around that stuff... That's all well and good, and we don't wanna rehash that today. But what I would like to know is what have you been up to since then. Are you still doing anything editor-related, or Go-related at Microsoft?
+**Johnny Boursiquot:** \[03:53\] Kind of like Vim, and Emacs, you know... You know Vim's better, but you still need to allow Emacs -- hey, I'm kidding, I'm kidding. Let's not start this, let's not start this. Alright, Ramya, we had you on the show previously to talk about Go support within VS Code, and [in that episode](https://changelog.com/gotime/49) - I'm blanking on the episode number, but I'm sure our listeners can find it - we talked a little bit about the history of Go support inside of VS Code, the plugin, the development process, how you manage the organization and the open source contributions around that stuff... That's all well and good, and we don't wanna rehash that today. But what I would like to know is what have you been up to since then. Are you still doing anything editor-related, or Go-related at Microsoft?
 
 **Ramya Rao:** Yeah, sure. I think it's been like two years since that episode, I guess; it was in 2017. And yes, for almost two years (or one-and-a-half years) after that episode I have been very much heavily involved in the Go support and in the Go plugin. It's been a great one or two years after that... But you know, life happens, things change... Recently at Microsoft I moved out from the VS Code team, so the amount of time that I was spending on the Go extension has definitely changed, but my interest and passion and the hope to see it shine more is still the same.
 
@@ -64,7 +64,7 @@
 
 So the way almost every Go plugin for most of the editors were written is it stands in-between the editor and the actual tool. So every time you form a request for "Hey, give me the definition for this symbol", it fires off a request to (say) Godev, gets the results, parses the results, and then gives it back to the editor in a way it understands.
 
-\[00:08:04.03\] So you can imagine this is like a big mishmash of about 5 to 6 different essential tools, and then for all the other fancy features that you want there are extra tools to fill up the gaps, like Go modify tags that will help you update your struct fields, fill struct, which would populate it with default values... So you have all of those things, again, powered by individual tools. And that worked great for the longest of time. And when it stopped working great was recently, in the past two years, because of the changes that were happening in the Go language and the Go command itself.
+\[08:04\] So you can imagine this is like a big mishmash of about 5 to 6 different essential tools, and then for all the other fancy features that you want there are extra tools to fill up the gaps, like Go modify tags that will help you update your struct fields, fill struct, which would populate it with default values... So you have all of those things, again, powered by individual tools. And that worked great for the longest of time. And when it stopped working great was recently, in the past two years, because of the changes that were happening in the Go language and the Go command itself.
 
 This has been very beautifully explained by Rebecca in this year's GopherCon talk. If you've not seen it already, please, please do listen to the talk. I think it's named "[Go, pls stop breaking my editor](https://www.youtube.com/watch?v=EFJfdWzBHwE)."
 
@@ -82,7 +82,7 @@ So finally, we had the Go Tools team from Google itself stepping up and saying "
 
 And I think because they were using their own thing, it became very hard for one person to maintain, and I think it sort of fell behind as a result... Which was disappointing for me, because I was a big fan of Sublime Text for the longest time, and it was what I was used to; I think that's what I liked it. So that led me to trying other stuff, and eventually settling on VS Code... But it'd be nice to have one universal Gopls that everybody can integrate with, because that really makes it so that no matter what editor you like, you can still get great support.
 
-**Ramya Rao:** \[00:12:16.20\] Absolutely. That's one of the big selling points of the language server. You create one language server and it can now cater to multiple editors... Because the language server protocol itself has been stable and has been onboarded to many, many editors already, so any editor that can support that protocol can hook up to Gopls and give you the exact support that you would see in, say, VS Code, or any other editor.
+**Ramya Rao:** \[12:16\] Absolutely. That's one of the big selling points of the language server. You create one language server and it can now cater to multiple editors... Because the language server protocol itself has been stable and has been onboarded to many, many editors already, so any editor that can support that protocol can hook up to Gopls and give you the exact support that you would see in, say, VS Code, or any other editor.
 
 So then, at the end of the day, you won't be judging an editor or choosing an editor for the particular language support it provides, but more for the inherent other features that the editor itself - the language-agnostic things that the editor provides. That would be a world I would love to be in, because if you get completions in a way in one editor, that should be the exact same thing you should get in the other editor. Everybody need not go and keep reinventing the wheel all over again.
 
@@ -96,7 +96,7 @@ All these extra things that some might consider important, some might consider f
 
 But for a while, I felt like whatever language you went with, you had to go find an editor for that language, one that supported it well. That was more important than half of the other stuff. So you kind of got stuck learning some new setup for the editor, whereas now we're getting to the point where if you're a Vim user, you can pretty much count on most languages having a language server, and you can switch between languages pretty easy because that's there. But if it wasn't, then that becomes much more challenging.
 
-**Ramya Rao:** \[00:15:43.23\] And I believe that is still the case for certain languages... Because I have heard from people who've been using C\# forever that they'd much rather stick to Visual Studio than go to VS Code, because they still find a big gap. Now, that can be attributed maybe to different things. One, you're used to a particular way of doing things... Now, just because a lightweight editor gives you -- you have to relearn a lot of things, and it's not related to the language, but just workflow, just like what we were just talking about.
+**Ramya Rao:** \[15:43\] And I believe that is still the case for certain languages... Because I have heard from people who've been using C\# forever that they'd much rather stick to Visual Studio than go to VS Code, because they still find a big gap. Now, that can be attributed maybe to different things. One, you're used to a particular way of doing things... Now, just because a lightweight editor gives you -- you have to relearn a lot of things, and it's not related to the language, but just workflow, just like what we were just talking about.
 
 So workflows would definitely be tied to the editors. If it just comes to the language support, then language servers can step in and remove that gap for you. The way I tell it to certain people is like, if you think of what you're seeing in your editor, and if you divide it into data versus behavior, behaviors and interactions are your editors; like what comes directly out of your editors. Data can come from the language server. So it's the data part we would like to reach a world where all editors give you the same set of completions, take you to the same file when you do F12 to try to go to Navigation... And how they do it, how fast they are, or what keyboard shortcut comes out of the box by default, how it looks like, how does the peek window look like - all that is interactions, behaviors, UI. That goes into the editor land, and that's where different editors can do things differently, and you judge editors based on that.
 
@@ -106,13 +106,13 @@ But if you just say like "This is the general problem I am solving; I have this 
 
 So it's interesting seeing how those flows differentiate, and then if you try to get somebody to switch from one or the other, it's a complete change in how you think about the problem and tackling it, so it'd be very hard to even compare "Is one better than the other?" It's more just "Which process are you better with?"
 
-**Break:** \[00:18:37.09\]
+**Break:** \[18:37\]
 
 **Johnny Boursiquot:** I find it incredibly hard to - I think you touched on this - to switch to different editors... But I think some of the reasons why I've switched editors... Sometimes I feel like peer pressure has been a part of that process... \[laughter\]
 
 **Ramya Rao:** Of all the reasons, I wouldn't have imagined peer pressure to be the reason to switch editors, Johnny, honestly...
 
-**Johnny Boursiquot:** \[00:19:58.05\] I mean, seriously... I remember when VS Code was coming out... Back then I was a Sublime user as well, and I think I even tried Atom for a little bit... And those editors had their problems, but I'm like "You know what, I don't wanna switch..." And before that I was all Vim, all the time. I'm still Vim, just not all the time.
+**Johnny Boursiquot:** \[19:58\] I mean, seriously... I remember when VS Code was coming out... Back then I was a Sublime user as well, and I think I even tried Atom for a little bit... And those editors had their problems, but I'm like "You know what, I don't wanna switch..." And before that I was all Vim, all the time. I'm still Vim, just not all the time.
 
 Anyways, to me there's a switching cost. But what tipped me over the edge - I'd always go to the website, look at the list of features... I'm like, "I'm gonna stick with my editor. Oh, it has that? That's kind of nice though..." You know, I'm pining over these other features, and I'm like "Oh, that'd be nice to be able to do." Then I'd go search within the plugin directory for my editor, and I'm like "Can I do that? Is there something for me to do that in my editor?"
 
@@ -144,7 +144,7 @@ I think a huge part of it - and maybe some developers out there will also agree 
 
 **Mat Ryer:** Yeah. So that's why I ask that. There's a few others, too. They're brilliant. And I love the fact that any of us can extend this, as well. We can contribute too if there's something specific. Sometimes you might need something just for your team, and it's not worth sharing, but often I bet if you solve a problem for yourself, you need other people to do it. Do you have to do it in JavaScript though, if you wanna write an extension for VS Code?
 
-**Ramya Rao:** \[00:24:14.20\] Yes. An extension for VS Code has to be in JavaScript, because that's how it can talk to VS Code. So yeah... You can get around that, but... JavaScript is pretty easy, and most of our Getting Started guides, especially around extension authoring - we spent quite some time last year in improving the docs, especially around how to extend VS Code. So we have a whole lot of samples targeting different parts of the editor on how would you extend it. How would you extend the file explorer? How would you add a new view on the left side, the activity bar? How would you add a status bar item down below? How would you do this, how would you that...? So there are tons of examples already out there.
+**Ramya Rao:** \[24:14\] Yes. An extension for VS Code has to be in JavaScript, because that's how it can talk to VS Code. So yeah... You can get around that, but... JavaScript is pretty easy, and most of our Getting Started guides, especially around extension authoring - we spent quite some time last year in improving the docs, especially around how to extend VS Code. So we have a whole lot of samples targeting different parts of the editor on how would you extend it. How would you extend the file explorer? How would you add a new view on the left side, the activity bar? How would you add a status bar item down below? How would you do this, how would you that...? So there are tons of examples already out there.
 
 So if you're someone who's thinking of trying to extend VS Code and might feel that "Oh, but I don't know JavaScript", there's a lot of starting points you can jump off of. There's a lot of scaffolding already involved. So we hope that the time we spent last year \[unintelligible 00:25:11.18\] from the team definitely lowers the barrier into getting an extension for VS Code.
 
@@ -170,7 +170,7 @@ Earlier, Johnny had said that there's like 12 shortcuts that he uses in the edit
 
 **Ramya Rao:** When I started in the VS Code team I used to see everybody around me use all the fancy shortcuts, and I just couldn't bring myself to learn them... Because historically, I've never been a keyboard-heavy person. I didn't mind using my mouse, I didn't mind losing out on whatever the 10%-20% speed that you would get by not removing your hand, and moving it two inches... But over time, I did familiarize myself with certain shortcuts and they've remained with me.
 
-\[00:28:17.22\] But since I've changed teams and I now see other people trying to do things, and when I tell them "Hey, you know there's a shortcut, right?" and it just blows their mind... "I didn't know we could do this!" So if I had to share, first I would share those. Symbol search in the current file that you're on, Ctrl+Shift+O. It gives you a dropdown of all the methods and variables in your file.
+\[28:17\] But since I've changed teams and I now see other people trying to do things, and when I tell them "Hey, you know there's a shortcut, right?" and it just blows their mind... "I didn't know we could do this!" So if I had to share, first I would share those. Symbol search in the current file that you're on, Ctrl+Shift+O. It gives you a dropdown of all the methods and variables in your file.
 
 **Jon Calhoun:** Is that Cmd+R on Mac?
 
@@ -228,7 +228,7 @@ Ctrl+B - it was hilarious when the other day I told someone "You know you can us
 
 **Ramya Rao:** Is that your confession? \[laughs\]
 
-**Mat Ryer:** \[00:32:06.04\] Yeah, it sounded like a confession, didn't it?
+**Mat Ryer:** \[32:06\] Yeah, it sounded like a confession, didn't it?
 
 **Johnny Boursiquot:** Yeah, I've done that... It wasn't a bad experience at all. It felt wasteful, but...
 
@@ -266,7 +266,7 @@ I've found that for me, that worked way better, and that was one of the things t
 
 **Jon Calhoun:** That's a good one. I know one that's Go-specific, that I absolutely love, is go to definition, which for me is Cmd+Option+Down. I think that's the same for everybody...
 
-**Johnny Boursiquot:** \[00:36:13.19\] If you had Vim bindings, that's just GD. I'm just saying...
+**Johnny Boursiquot:** \[36:13\] If you had Vim bindings, that's just GD. I'm just saying...
 
 **Jon Calhoun:** Okay... Well, one of the reasons I love that one - and it depends on the language you're in, but in Go I love it because everything is documented in source code... So it's an instant way to jump to documentation, which is absolutely fantastic when you're coding.
 
@@ -304,7 +304,7 @@ Now, there might be some languages for which something might not be applicable..
 
 **Ramya Rao:** Yeah, finding references, or even giving an interface - well, what implements this interface? Not just where is it referenced, but what implements this interface? The symbol search that I talked about - every file, every language has a particular shape defined to it; there are functions, there are classes, there are interfaces... Everybody has a way of defining them, and the editor gives you a way to show them in a structured format... Whether you call them interface or something else, it's up to the language. But the fact that there is a structure and you'd like to see the structure is common, regardless of what language you're using.
 
-**Mat Ryer:** \[00:39:47.28\] Yeah, it makes sense. I love also some of the features in VC Code that surprise people when you're new to programming, or they're not programmers. Sometimes people look over your shoulder, like "What do you do?" and then they're like "Oh yeah, that's awful. I'm gonna go." But before that, what they see are things like Cmd+D for me, which is that select, where you select all of the occurrences of a particular piece of text throughout a file. That for me is extremely useful, and it is a variant that selects all within the file as well. That as a trick for just quickly selecting a load of things that you want to do some work on at the same time - I find that to be very useful. I thought it was gonna be one of those features that just looks cool, and is a bit of a gimmick, but practically it's not very useful, but it turns out to be very useful... But it does blow people away when they see -- for some reason they think you're smart because you're doing more programming at the same time, you know? \[laughter\]
+**Mat Ryer:** \[39:47\] Yeah, it makes sense. I love also some of the features in VC Code that surprise people when you're new to programming, or they're not programmers. Sometimes people look over your shoulder, like "What do you do?" and then they're like "Oh yeah, that's awful. I'm gonna go." But before that, what they see are things like Cmd+D for me, which is that select, where you select all of the occurrences of a particular piece of text throughout a file. That for me is extremely useful, and it is a variant that selects all within the file as well. That as a trick for just quickly selecting a load of things that you want to do some work on at the same time - I find that to be very useful. I thought it was gonna be one of those features that just looks cool, and is a bit of a gimmick, but practically it's not very useful, but it turns out to be very useful... But it does blow people away when they see -- for some reason they think you're smart because you're doing more programming at the same time, you know? \[laughter\]
 
 **Ramya Rao:** Yeah... And Cmd+D reminds me of -- I've used it in a slightly... I've extended that. I mean, "extend" is the wrong word to use when there are extensions being talked about. Sorry... So what I've done is in big log files when I wanna get rid of noise, and when I know that the noise is in certain lines, having certain words, then I've used Cmd+D or changed all occurrences to select them, and then there's another command that can take you to the end of the line. There's a command that tells "Just move the cursor to the end of the line." And then I could do Shift+Home, or whatever it is, based on whether you're on Windows or Mac, and then just select the entire line and just backspace and it's gone.
 
@@ -330,7 +330,7 @@ Now, there might be some languages for which something might not be applicable..
 
 **Johnny Boursiquot:** Funny enough, I think I ran across a Chrome extension which used Vim bindings to navigate Chrome. I tried it, and I was like "Okay, that's a bit much." You'd have to be a really huge fan of Vim to be navigating the web with it.
 
-**Break:** \[00:43:19.16\]
+**Break:** \[43:19\]
 
 **Johnny Boursiquot:** So for the longest time I basically would tell myself that "Okay, you are not a true (to use poor terminology from the recruiting industry) ninja or rock star developer blah-blah-blah until you can completely navigate your editor, gained mastery of it, with Cmd/Ctrl keys, you're just flying through the text...", kind of like how Hollywood tends to portray programmers and "hackers." The screen is just flying by, a 3D cube floating up in the air, and that kind of nonsense... But basically, I use to associate mastery of your craft, your language, whatever you happen to be working on, with how well you're able to navigate your editor, how quick your fingers are. Is it fair to tie your rise of competency as a developer to how fluidly you're able to navigate and get things done in your editor?
 
@@ -360,7 +360,7 @@ Remember back when you were using either computers or typewriters for the first 
 
 **Ramya Rao:** Hey, that's why we have autosave, right?
 
-**Mat Ryer:** \[00:48:09.05\] Oh, we don't even need to. Brilliant. \[laughter\]
+**Mat Ryer:** \[48:09\] Oh, we don't even need to. Brilliant. \[laughter\]
 
 **Ramya Rao:** So yeah, I would compare that to that. If you feel like typing without looking at the keyboard gives you an advantage, then maybe knowing some shortcuts will give you some advantage as well.
 
@@ -410,7 +410,7 @@ So I'm curious if there's other cases like that that you guys can think of, wher
 
 **Mat Ryer:** And I suppose if methods are a different color to functions, and things like that, you could get some of the glues. The strings one is a great example, Jon... Because you're right - if you accidentally escape something, or you're trying to escape it and it's not changing, it is a clue, and that feedback is dead useful. But otherwise - yeah, it's just what looks good for me. I just want my eyes to be happy while I've got work.
 
-**Johnny Boursiquot:** \[00:52:07.09\] I've gone back and forth, but mostly I've stayed with the color stuff. Honestly, it's really what value you get out of it. I think Jon has a pretty good reason for liking them. For me, I'm at the point where -- I don't know, maybe that's age... I've been looking at code for a long time, and if they're there by default, it's great; I'm okay with them. But if they're not there, I'm still able to navigate the code and whatnot. So yeah, it doesn't say anything about you as a developer if you like them or not...
+**Johnny Boursiquot:** \[52:07\] I've gone back and forth, but mostly I've stayed with the color stuff. Honestly, it's really what value you get out of it. I think Jon has a pretty good reason for liking them. For me, I'm at the point where -- I don't know, maybe that's age... I've been looking at code for a long time, and if they're there by default, it's great; I'm okay with them. But if they're not there, I'm still able to navigate the code and whatnot. So yeah, it doesn't say anything about you as a developer if you like them or not...
 
 What I do wanna do though, before we start to wrap up the show, is to kind of get an idea from Ramya, since she's still pretty much in charge of the direction of Go support inside of VS Code - what's next? Are you just looking for stability at this point, or are you still thinking that there's some significant things that could be added to make the experience better? What are you thinking about, what's next?
 
@@ -430,7 +430,7 @@ So yeah, at the moment it's more about do whatever needs to be done to help the 
 
 So give it a try and report - report issues, report what's working, what's not working... Because feedback is the way we can improve things. Especially this GopherCon, I met so many people who came up to me and said "We love VS Code, but in the last year things have not been that great, things are breaking because of..." "Of course, we understand." "Can you let us know when it'll get back to the way it used to be?"
 
-\[00:56:09.29\] So getting back to the way it used to be is by helping the language server become better... And you can do that by trying it out. Even if you don't wanna do it five days a week, try it out one day a week, report issues, and together we can make that better. And that will take us back to the lovely place VS Code used to be for Go developers, and then we can focus on other things, like debugging, or snippets... Or even VS Code itself.
+\[56:09\] So getting back to the way it used to be is by helping the language server become better... And you can do that by trying it out. Even if you don't wanna do it five days a week, try it out one day a week, report issues, and together we can make that better. And that will take us back to the lovely place VS Code used to be for Go developers, and then we can focus on other things, like debugging, or snippets... Or even VS Code itself.
 
 The one thing I mentioned last time was VS Code itself is going so fast. We talked about it. Release notes... Every single month so many new things coming out. Part of those new things are also new APIs for language extensions to use and onboard. So once we get off of this basic language support that we are working on with the language server, we can start looking into those fancy things, like code actions, and refactorings; how best to hook into those hooks that VS Code provides. We can focus on that once we get out of the basic language server issues. So there's lots to do, but I think the more immediate step is driving more usage to the language server and reporting issues.
 

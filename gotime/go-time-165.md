@@ -6,7 +6,7 @@ Joining me today to discuss this, it's regular Jon Calhoun. Hello, Jon.
 
 **Mat Ryer:** You told me earlier you've never had a Go program end, so this is uncharted--
 
-**Jon Calhoun:** \[00:03:59.28\] I didn't say that... \[laughs\] I said most of my programs aren't designed to end. So when they end, what happens is I'm trying to make sure my server gets it back up.
+**Jon Calhoun:** \[03:59\] I didn't say that... \[laughs\] I said most of my programs aren't designed to end. So when they end, what happens is I'm trying to make sure my server gets it back up.
 
 **Mat Ryer:** Right. Interesting. Okay, I'm sure we'll talk more about that. We're also joined by a member of the Go team who's been working on the runtime for the last 2.3 years, he told me. Welcome to the show, Michael Knyszek. Hello!
 
@@ -42,7 +42,7 @@ Joining me today to discuss this, it's regular Jon Calhoun. Hello, Jon.
 
 **Mat Ryer:** That's cool then. Reclaiming the memory is nice... So then if we've got some program that has a massive map of data, before we return we don't have to go through and delete all that data, do we? We don't have to go and do that sort of cleaning up, releasing memory. That will just happen automatically, right? Yeah.
 
-\[00:08:12.13\] And then the files one is an interesting one. If you open a file in Go, and normally we defer the close of that file, or we might have some other mechanism for closing that... If you don't close that file and the program exits, does that leak a file handle, or does the operating system clean that up?
+\[08:12\] And then the files one is an interesting one. If you open a file in Go, and normally we defer the close of that file, or we might have some other mechanism for closing that... If you don't close that file and the program exits, does that leak a file handle, or does the operating system clean that up?
 
 **Michael Knyszek:** No, the operating system cleans that up. Files on most systems are pretty -- the concept of a file goes pretty deep into the OS. It actually just keeps track of these things and says "Okay, this process exited", and it usually keeps a reference count for these files, if I recall \[unintelligible 00:08:47.10\] and it goes and decrements its reference count.
 
@@ -60,7 +60,7 @@ Now, if I had something more long-running, then maybe it makes more sense. I gue
 
 **Michael Knyszek:** Programs can really end -- I mean, broadly speaking, can end in two ways. Either something tells the program to end, or it decides "I'm done" and closes itself out. In the context of something external, you might see something like Ctrl+C. If you type Ctrl+C in your command line, what basically happens is Linux sends what's called a signal, which are surprisingly difficult to work with correctly outside of Go. Go actually makes this quite nice to use, because it wraps the whole thing in a channel. But once your program receives a signal, it needs to handle it in some way. So with Go, you can use the os/signal package to get notified about when you get something like Ctrl+C. Something wants to end your program, and so using the os/signal package lets you capture that and say "Okay, let me do the cleanup that I need to do, so that I can get my graceful shutdown."
 
-\[00:12:06.02\] If the program wants to end internally, there's more of an assumption that the program as a whole would know that, and if it wants to gracefully shut down, then it has to provide its own mechanism for doing so.
+\[12:06\] If the program wants to end internally, there's more of an assumption that the program as a whole would know that, and if it wants to gracefully shut down, then it has to provide its own mechanism for doing so.
 
 **Mat Ryer:** Right. That makes sense. So is that quite messy in the runtime code there? Because I imagine there's lots of edge cases that it's dealing with, and lots of different operating systems, right?
 
@@ -82,7 +82,7 @@ I do think the os/signal package provides some pretty good documentation on this
 
 **Mat Ryer:** Fair enough. And since Go 1.16, we actually also have a NotifyContext helper too, in the signal package... Which will cancel a context on a signal. So that's kind of like nice. If you're using context for cancelation across your program - and this is essentially the pattern for anyone unfamiliar, where you pass in a context argument as the first argument through the chain of all your programs, and then whenever you've got loops within that, of work, or maybe you're iterating over a set of data, you can just periodically, i.e. at the start of each loop, check to see if that context is finished, and there's either a channel that will be closed, or you can check to see if there's an error being returned. And then you can abort that operation. So that's a nice way to do graceful shutdown, or at least "I'll finish what I'm currently doing, and then I'll stop." It gives you that sort of graceful shutdown, and you can do that quite nicely with context. But you used to have to write that signal code yourself; with the addition of NotifyContext, you don't need to anymore. You can just wire it up to a context and it will be canceled for you when the program is interrupted.
 
-\[00:16:07.21\] I think it's a good practice - this is something I always do... If you get a second interrupt signal, then it's worth doing a more serious exit. Sometimes I think operating systems will send that kill as the second signal. But if it's just a command line and you press Ctrl+C and something's wrong in your logic somewhere, you can easily hang, because you've caught that signal. So it can be good practice to look for a second one and to do an immediate os.Exit, and that way you never get caught having to go and try to force-quit your own business. So yeah, graceful shutdown I think is very cool.
+\[16:07\] I think it's a good practice - this is something I always do... If you get a second interrupt signal, then it's worth doing a more serious exit. Sometimes I think operating systems will send that kill as the second signal. But if it's just a command line and you press Ctrl+C and something's wrong in your logic somewhere, you can easily hang, because you've caught that signal. So it can be good practice to look for a second one and to do an immediate os.Exit, and that way you never get caught having to go and try to force-quit your own business. So yeah, graceful shutdown I think is very cool.
 
 Another way to get a kind of form of graceful shutdown, or at least of cleaning up after you, is with a defer statement. In the func main function, when you defer things in there, they do get called before the function exits, and therefore before the program exits. But that's not true for os.Exit, is it, Michael?
 
@@ -106,7 +106,7 @@ I will note that the moment you do this sort of exit call, whether or not code r
 
 **Mat Ryer:** That's interesting then... So you have to be careful with that. But you may well want your program to exit with a specific status code. But if you're doing that deep somewhere in your program, it's possible other things aren't happening... So you probably would only want to use os.Exit right at the top in the main, or very near there, based on probably the return from some other functions that you're creating as part of your application.
 
-**Michael Knyszek:** \[00:19:57.22\] Yeah, that's generally a good pattern. Basically, what I see is you have main, and if you just return cleanly from main, then that's your os.Exit(0)... Because interestingly enough, if you look under the hood, when you return from main, all it does is do a very tiny bit of cleanup, which is that race detector stuff... And then it calls the same exit system call. It does exactly the same thing that os.Exit does.
+**Michael Knyszek:** \[19:57\] Yeah, that's generally a good pattern. Basically, what I see is you have main, and if you just return cleanly from main, then that's your os.Exit(0)... Because interestingly enough, if you look under the hood, when you return from main, all it does is do a very tiny bit of cleanup, which is that race detector stuff... And then it calls the same exit system call. It does exactly the same thing that os.Exit does.
 
 So that's sort of also just the right point to put the exit, because it's basically like saying "Well, if I return for main, it will just call os.Exit(0) effectively, so now is a good point to run os.Exit(1)." That being said, it depends on the program. I could certainly imagine a program where you get to a point when you're like "There is no way I can proceed. Even if other things are still running, there's absolutely no way I can proceed. Maybe it just makes sense to drop everything on the floor."
 
@@ -114,7 +114,7 @@ So that's sort of also just the right point to put the exit, because it's basica
 
 **Michael Knyszek:** Precisely. Panics are going to run defers, and that's actually not the only thing that's going to run defers. If you do runtime.Goexit, like a goroutine calls runtime.Goexit, it will also have its defers executed. And this is totally safe to do, because basically the goroutine itself is synchronously -- we know we're stopping execution of the goroutine at this point, and we're sort of walking back and running all of the defers.
 
-**Break:** \[00:21:48.09\]
+**Break:** \[21:48\]
 
 **Jon Calhoun:** So if you're doing runtime.Goexit for a goroutine, I assume that you don't have the same cleanup guarantees that you would have with a os.Exit call... Like, how you said all the files and all the other stuff from the OS gets handled. I'm assuming that the goroutines files aren't kept track of separately.
 
@@ -122,7 +122,7 @@ So that's sort of also just the right point to put the exit, because it's basica
 
 **Mat Ryer:** Yeah, that's interesting, when you think about things like HTTP response bodies, it's very important you get a read closer when you get one of these. You get it if you make a request using an HTTP client; you get back a response, and that response may or may not have a body. And we are responsible for closing those bodies to clean up memory, and things. Presumably, that gets sorted out for us if the program ends, things like that... Because they sort of rely on the underlying operating system for managing resources, right?
 
-**Michael Knyszek:** \[00:24:01.28\] Right. Again, in the Unix philosophy of "Everything is a file. So is an internet connection, so is a TCP/IP connection", which sort of underlies all of HTTP -- it's the backbone that most operating systems build right into the operating system, and it's usually exposed through an interface that looks like a socket... And the interface for this in Go looks like a net.Conn. That sort of represents the underlying connection. So basically, if you os.Exit, it's gonna close that socket like it was any other file. So if you have a client on the other side listening on that connection, then it's going to be the same thing as if the connection was abruptly ended. So it's the same sort of failure mode.
+**Michael Knyszek:** \[24:01\] Right. Again, in the Unix philosophy of "Everything is a file. So is an internet connection, so is a TCP/IP connection", which sort of underlies all of HTTP -- it's the backbone that most operating systems build right into the operating system, and it's usually exposed through an interface that looks like a socket... And the interface for this in Go looks like a net.Conn. That sort of represents the underlying connection. So basically, if you os.Exit, it's gonna close that socket like it was any other file. So if you have a client on the other side listening on that connection, then it's going to be the same thing as if the connection was abruptly ended. So it's the same sort of failure mode.
 
 **Jon Calhoun:** The cool thing about some of these is you can actually test them if you go write a little program that just has a web server and just sits there and sleeps for ten seconds, and you curl into it or whatever just to make a connection, and then close the server and see what happened, you can kind of see what's going on.
 
@@ -164,7 +164,7 @@ So that's sort of also just the right point to put the exit, because it's basica
 
 **Jon Calhoun:** So one of the questions that was asked (I believe) on Twitter was "Why are deferred functions not run when os.Exit is called?"
 
-**Michael Knyszek:** \[00:27:49.25\] I think there's actually a pretty good explanation here. If you call go exit, then you have a goroutine that's saying "I'm done. I'm gonna quit." So it is totally safe for it to run its own defers. But now consider you have a goroutine that decides "Oh, I'm going to exit", and now let's consider this world where if you call os.Exit it runs all the defers in your application. What ends up happening is the goroutine calls os.Exit, and it stops everything else and it asks all these goroutines, wherever they are, to start running their defers. The tricky part is it's not always gonna be safe to run those defers. You don't know where those goroutines actually stopped. With the go exit, at least you as the programmer know "Okay, I'm calling this at a point where I know the defers are gonna run fine."
+**Michael Knyszek:** \[27:49\] I think there's actually a pretty good explanation here. If you call go exit, then you have a goroutine that's saying "I'm done. I'm gonna quit." So it is totally safe for it to run its own defers. But now consider you have a goroutine that decides "Oh, I'm going to exit", and now let's consider this world where if you call os.Exit it runs all the defers in your application. What ends up happening is the goroutine calls os.Exit, and it stops everything else and it asks all these goroutines, wherever they are, to start running their defers. The tricky part is it's not always gonna be safe to run those defers. You don't know where those goroutines actually stopped. With the go exit, at least you as the programmer know "Okay, I'm calling this at a point where I know the defers are gonna run fine."
 
 Let's say you have a defer that relies on some variable that it captures. You have defer func() and in there you do something with a variable declared outside that's a pointer, and it's nil at first. But by the end of the function, it is actually non-nil, and it's relying on that to not actually panic inside of the defer. Well, what happens if some other goroutine calls go exit right in the middle of that function's execution? Now your exit is gonna cause this other goroutine somewhere else to panic, and that isn't what you intended at all, right? And it also brings this sort of global thinking into your code where now you have to consider "Oh no, but maybe this can actually be nil because something else can call go os.Exit()."
 
@@ -184,7 +184,7 @@ And I think one thing worth clarifying, which I don't know if we've actually tou
 
 **Michael Knyszek:** I don't think so. I think generally speaking there aren't that many cases where a truly graceful shutdown is necessary... And especially because in those cases things get really messy. There are some resources that you really do want to clean up. If you have a child process and you say that you wanna wait for that child process to end before you exit it, or let's say you're running \[unintelligible 00:31:45.25\] and you create a new network interface, because you're a Docker, or something like that... When you exit, you might wanna actually clean that up. And cleaning that out, especially in a large application, no matter what could possibly happen, is actually fairly complicated to do.
 
-\[00:32:03.02\] So one way to look at it is have a graceful shutdown, try to clean up everything before you exit. Another way to look at it is just have your program be resilient to stuff being left on the ground. So when it comes back up and it sees that there's something with the same name already there, then it just deals with it in some sane way. It's always gonna be hard. This is always going to be a hard problem. Cleaning up, or teardown, or shutdown, termination, whatever you wanna call it, is always a hard problem.
+\[32:03\] So one way to look at it is have a graceful shutdown, try to clean up everything before you exit. Another way to look at it is just have your program be resilient to stuff being left on the ground. So when it comes back up and it sees that there's something with the same name already there, then it just deals with it in some sane way. It's always gonna be hard. This is always going to be a hard problem. Cleaning up, or teardown, or shutdown, termination, whatever you wanna call it, is always a hard problem.
 
 **Mat Ryer:** Yeah, but I think that's good advice though, Michael, even if your program you're writing doesn't really need to do much graceful shutdown; it's quite a nice practice to build that into a little command line tool, for example, where you interrupt the Cmd+C even if it's just printing a statement to say that we're cleaning up, or finishing, or whatever. I think it is a good practice building it in.
 
@@ -216,7 +216,7 @@ So I think it is quite nice. It's nice to have that as a mindset. And also, it c
 
 **Mat Ryer:** Well, there's an os.exec.CommandContext as well, that takes your context and kills the command if the context gets canceled. So that's very cool.
 
-**Jon Calhoun:** \[00:36:06.14\] Okay. I thought that's what you were referring to, but... It is interesting that that doesn't exit, because I don't know what I would've really expected without reading the docs or hearing you say that... Because I've definitely used it before, but I've never thought too much about it, because most of the time I'm running really quick things... But I could definitely see if you were like starting up a server, doing something external, that that might lead to some weird behavior.
+**Jon Calhoun:** \[36:06\] Okay. I thought that's what you were referring to, but... It is interesting that that doesn't exit, because I don't know what I would've really expected without reading the docs or hearing you say that... Because I've definitely used it before, but I've never thought too much about it, because most of the time I'm running really quick things... But I could definitely see if you were like starting up a server, doing something external, that that might lead to some weird behavior.
 
 **Mat Ryer:** Yeah. Well, it just keeps running the processes and you have to go and figure out why.
 
@@ -228,7 +228,7 @@ So I think it is quite nice. It's nice to have that as a mindset. And also, it c
 
 Actually, I've run into this too, where I'm trying to clean up a child process and now I have all of these complicated defer statements, and using the signal package to capture Ctrl+C's, so that I can try to gracefully clean up the sub-processes, and stuff... Because again, yeah, it's a server sitting on a port.
 
-**Break:** \[00:37:14.24\]
+**Break:** \[37:14\]
 
 **Jon Calhoun:** So you said that os.Exit is pretty low-level... If I recall correctly, in C++ don't you return the status code from main?
 
@@ -248,7 +248,7 @@ Actually, I've run into this too, where I'm trying to clean up a child process a
 
 **Jon Calhoun:** But when you actually wanna have an error status code, the only way to really do it, that I'm aware of at least, is os.Exit. And if you're calling that, then things might not behave the way you expected.
 
-**Michael Knyszek:** \[00:40:04.23\] Yeah.
+**Michael Knyszek:** \[40:04\] Yeah.
 
 **Mat Ryer:** On that, specifically, I've done it before where I'll have sentinel error types, which is another term coined (I think) by Dave Cheney... Where you have a variable that is just an error type; or some other way of being able to figure out what the type of error is. And then at the very top in main, I always just call into a run function, and then on the response of that, I check the error that returned from this run function, and check it against any specific values for the specific numbers. Otherwise I would just return with some generic 1... And that way, you keep all of it in func main; all the os.Exits are in one place, and you can logically see the entire flow when it starts to get unwound.
 
@@ -268,7 +268,7 @@ So yeah, it's things like that. I don't know if it's that big a deal to let it j
 
 **Mat Ryer:** That's another strategy, isn't it?
 
-**Jon Calhoun:** \[00:44:05.07\] Yeah. I mean, for quick things, it's like "Alright, is deleting the files and rerunning the program gonna take more time than writing graceful shutdown code?" So you kind of have to weigh which one makes more sense... But if it's like a one-time program, then sure, whatever. But if it's something you're gonna be using a ton in a company, then maybe that doesn't make sense.
+**Jon Calhoun:** \[44:05\] Yeah. I mean, for quick things, it's like "Alright, is deleting the files and rerunning the program gonna take more time than writing graceful shutdown code?" So you kind of have to weigh which one makes more sense... But if it's like a one-time program, then sure, whatever. But if it's something you're gonna be using a ton in a company, then maybe that doesn't make sense.
 
 **Mat Ryer:** Yeah. I think it also depends on the situation as well. Another time I've used this is when we were gonna run code in Docker; and running in some kind of cloud environment, the interrupts are essentially the platform telling you that this instance is gonna be going away. And you may well be in the middle of handling some request where that could happen.
 
@@ -282,7 +282,7 @@ So yeah, that's another time where we've had to just take the signal and don't j
 
 **Mat Ryer:** Okay, it's that special time again, so gather around, children, with your pints of beer... I've got nieces and nephews, but I don't know what I'm doing. It's time for Unpopular Opinions!
 
-**Jingle:** \[00:46:47.10\] to \[00:47:02.16\]
+**Jingle:** \[46:47\] to \[47:02\]
 
 **Mat Ryer:** Okay, who wants to kick us off? Michael, do you perhaps have an unpopular opinion?
 
@@ -290,7 +290,7 @@ So yeah, that's another time where we've had to just take the signal and don't j
 
 If you're not familiar with those terms, don't worry about it... But I think going forward there's enough room to grow here that we can make a really, really -- I mean, it's already first-class and quite good. There's been a lot of excellent work put into it. But I think there's so much room to grow here that the common sort of -- there are lots of reasons why the common thinking of like "Well, of course generational garbage collection is gonna make your programs run faster." I think there's a lot of reasons why that same sort of thing doesn't hold in Go, and I think there are actually better paths going forward.
 
-\[00:48:11.07\] So that's my unpopular opinion... And of course, maybe I'll change my mind in like a year or two, but that's where I am right now. That's where I've been for like a year.
+\[48:11\] So that's my unpopular opinion... And of course, maybe I'll change my mind in like a year or two, but that's where I am right now. That's where I've been for like a year.
 
 **Mat Ryer:** No, that's a great one. We will be testing these on Twitter. We do the poll and find out if they are popular or unpopular that's gonna be an interesting one. Jon, what do you think? I suppose you don't use garbage collection, because none of your data is garbage, or something?
 
@@ -326,7 +326,7 @@ If you're not familiar with those terms, don't worry about it... But I think goi
 
 **Mat Ryer:** What about that idea though of "Just don't worry about it. Turn off garbage collection." It sounds like a hacky thing, but... Somebody made the case for doing that in a cloud environment, where you just have these little short-running function-like things that just spin up, do their work, and then disappear. Kind of like a \[unintelligible 00:52:05.25\] or some other... I don't know; I can't use that reference, I don't think. What about that as a strategy? Is that just mad?
 
-**Michael Knyszek:** \[00:52:13.11\] I don't think it's totally mad. I don't know if the wider Go community knows (it probably does), but the Plan 9 C compiler somewhat famously just allocated memory and never freed it. It was written in C, and it just called malloc, but it never called free, because the assumption was by the time you're done compiling - "Whatever. The OS will clean it up. It's fine."
+**Michael Knyszek:** \[52:13\] I don't think it's totally mad. I don't know if the wider Go community knows (it probably does), but the Plan 9 C compiler somewhat famously just allocated memory and never freed it. It was written in C, and it just called malloc, but it never called free, because the assumption was by the time you're done compiling - "Whatever. The OS will clean it up. It's fine."
 
 So for short programs there is some wisdom here... And I've known other systems that have done something similar, because there are performance gains to be had. If you know you're not gonna run for a very long time, then of course it works.
 
@@ -354,7 +354,7 @@ Of course, I will say that in most cases it probably doesn't make sense. It coul
 
 **Mat Ryer:** Fair enough. Okay, well thanks so much everyone for joining us. See you next time!
 
-**Outro:** \[00:54:15.02\]
+**Outro:** \[54:15\]
 
 **Jon Calhoun:** I'm genuinely not sure how the Terminator would work, given how much internet of things -- like, all the devices that go offline when AWS goes down... If you go back in time where there is no AWS... Like, this isn't gonna work.
 

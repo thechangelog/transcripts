@@ -18,7 +18,7 @@
 
 **Lucas Fernandes da Costa:** But actually, no one ever talked to me about it before I ever said anything. I remember I was walking around at -- I think it was FluentConf, and I was expecting someone to say something about the tattoo, but actually I think no one noticed... Which was quite disappointing. But it's fine, I guess.
 
-**Jerod Santo:** \[00:03:51.28\] Lucas, there's a guy that lives here in Omaha... He has a big mustache; one of those Monopoly man mustache, you could twirl it; and I see him \[unintelligible 00:04:04.01\] and on the side of it he's like a fixer guy, or a painter, I can't recall exactly what his business is... But on the side of his business truck, or his minivan or whatever it is, it's got the mustache. And he's worked it into his name and his brand... So I was talking about the mustache - he's had it his whole life now, he's like in his fifties... There's just no way he could get rid of that mustache; he's stuck with it. It's who he is... And I'm just curious if you feel like you can't quit Vim now, you're stuck with it for life... Because you're the guy with :w on your ankle.
+**Jerod Santo:** \[03:51\] Lucas, there's a guy that lives here in Omaha... He has a big mustache; one of those Monopoly man mustache, you could twirl it; and I see him \[unintelligible 00:04:04.01\] and on the side of it he's like a fixer guy, or a painter, I can't recall exactly what his business is... But on the side of his business truck, or his minivan or whatever it is, it's got the mustache. And he's worked it into his name and his brand... So I was talking about the mustache - he's had it his whole life now, he's like in his fifties... There's just no way he could get rid of that mustache; he's stuck with it. It's who he is... And I'm just curious if you feel like you can't quit Vim now, you're stuck with it for life... Because you're the guy with :w on your ankle.
 
 **Lucas Fernandes da Costa:** Yeah, I'm definitely stuck with that for life. I've thought about trying Emacs, I gotta say that, but... It's just not who I am--
 
@@ -42,7 +42,7 @@ In the beginning, I've gotta say, it was very frustrating. But after a month, I 
 
 **Lucas Fernandes da Costa:** When I started out in college, we were using Eclipse. That was alright at the time, but one of the things I struggled the most - and I even talk about it in the post - is that, especially for people that are starting out, I think it's hard to figure out what's the limit of the IDE, where does the IDE stop and where does the language toolchain start.
 
-\[00:08:14.28\] I think it gets a bit confusing for people, especially people that are new, what are the things that are related to their development environment and what are the things related to the toolchain they're using. I think that made things harder to understand.
+\[08:14\] I think it gets a bit confusing for people, especially people that are new, what are the things that are related to their development environment and what are the things related to the toolchain they're using. I think that made things harder to understand.
 
 Once I moved to Vim and I just started using my terminal all the time, I feel like I know what my machine is doing; it's not as if I was handing that to an IDE. I'm not just pressing buttons and expecting things to happen, and not really knowing what's going on in the background. I feel like I'm in full control, and if anything goes wrong, I know what the CLI tool or what the terminal is telling me... Because you get used to the terminology, you get used to how things fail, instead of just cryptic error messages, or just pop-ups or errors being hidden, or anything like that.
 
@@ -54,7 +54,7 @@ But if you had to think about what was the most important thing -- you seem to b
 
 I think there are many more advantages than just being fast. Being fast is cool. When I'm doing a talk and I'm doing live coding, if I open Vim, I know that the subject of all the questions are gonna be about Vim, or at least 50% of them, and they are 50% about live coding. So it's fun, but I don't think it's the main reason why I use Vim. It's probably what got me started, but not what keeps me going in it.
 
-**Adam Stacoviak:** \[00:11:57.26\] Yeah, it seems like the limitations of - as you've said in your post, too - the limitations of a GUI being bloatware for one, or just containing features that you don't really need... You in particular, or maybe even all users at large... For the most part, this is getting past that and sort of - back to the analogy of having access to bare metal - makes a lot of sense.
+**Adam Stacoviak:** \[11:57\] Yeah, it seems like the limitations of - as you've said in your post, too - the limitations of a GUI being bloatware for one, or just containing features that you don't really need... You in particular, or maybe even all users at large... For the most part, this is getting past that and sort of - back to the analogy of having access to bare metal - makes a lot of sense.
 
 One thing you'd mentioned was how you persisted through learning Vim, which for me that's been my hang-up, personally. I still use VS Code; I'm a previous Sublime Text user, I know many of the Vim commands, and I'm an occasional coder, not an everyday coder, so I don't feel like I need to learn this today... And there's a part of me that has regret, like "Man, I really wish I would have persisted", like you did, on a side project, or found some sort of way through, because somehow, someway along the way... As you'd said, you'd fallen in love with the Vim way of things, versus a GUI way, and you couldn't go back. Can you talk about that persistence, and maybe some of the things you did to persist? What were the things that made you get over these learning hurdles of Vim?
 
@@ -68,7 +68,7 @@ My experience learning it was indeed very frustrating at the beginning, especial
 
 **Jerod Santo:** Yeah... I don't dislike it. I feel like I have shared this before, but I'll share it again, just for the conversation. My introduction to Vim was by necessity. My teacher in college, teaching me C++ - the basically was a Vim die-hard, and he said "You're gonna SSH into this UNIX machine, and you're gonna use Vim. That's what you're gonna do, there's no if's, ands or buts about it. That's what you're gonna do to write your C++ programs."
 
-\[00:16:05.26\] Therefore, I didn't have a choice. I think if I had a choice... In fact, he let us use -- it was either Pico or Nano. I think it was actually Pico, for the first two programs. Then he specifically said "By the way, Pico is (he specifically said) a text editor in which you should write letters to your grandma, but not write computer programs." So he was very opinionated...
+\[16:05\] Therefore, I didn't have a choice. I think if I had a choice... In fact, he let us use -- it was either Pico or Nano. I think it was actually Pico, for the first two programs. Then he specifically said "By the way, Pico is (he specifically said) a text editor in which you should write letters to your grandma, but not write computer programs." So he was very opinionated...
 
 **Adam Stacoviak:** Wow.
 
@@ -82,17 +82,17 @@ In my current life, by the time I get Vim configured to do all the things that I
 
 **Lucas Fernandes da Costa:** Yeah, I completely agree with that. I think even VS Code is a great application, Sublime as well. I really don't like IDE's, but I think there are still some disadvantages; of course, everyone has their preferences. For me, what motivates me to keep using Vim is that - I would say that when you're using command line interfaces, things are already written for you; it's easy to communicate between programs. As Douglas McIlroy has said, if you write programs that work well together and if you use the universal interface, which are just like text streams, I think it's just so easy to incorporate new things into your flow; things get so much more flexible, and I think you avoid writing software.
 
-\[00:20:38.17\] I feel like there's also lots of duplication. If you already have tools available for you to do one thing, if you can use streams and you can combine much more programs, then I think many times you will avoid writing a plugin. Also, that's how I feel about Vim now - I don't try to make Vim an IDE, as I tried in the beginning; I just tried to go with the raw thing and tried to use the terminal the way it is supposed to be used, I guess... But of course, I think VS Code is great. I've seen lots of people using it already, and I think that's a very important distinction you made there... I just think that there are still some advantages if you're using the terminal.
+\[20:38\] I feel like there's also lots of duplication. If you already have tools available for you to do one thing, if you can use streams and you can combine much more programs, then I think many times you will avoid writing a plugin. Also, that's how I feel about Vim now - I don't try to make Vim an IDE, as I tried in the beginning; I just tried to go with the raw thing and tried to use the terminal the way it is supposed to be used, I guess... But of course, I think VS Code is great. I've seen lots of people using it already, and I think that's a very important distinction you made there... I just think that there are still some advantages if you're using the terminal.
 
 **Jerod Santo:** Don't get me wrong, I'm a Terminal junkie... I'm just speaking specifically of having your primary editor in the terminal. That's pretty much the only thing that I don't do in the terminal. Everything else is. So I agree with all of the things that you're saying there, and I've found that Vim fits well in that workflow... So I'll use it as my $ editor in my environment variables, so that when I'm going to do a Git commit, it will open it in Vim. So I'm not completely on the other side of the fence here; I'm just a person who, when it comes time for day-to-day writing software, I do enjoy both the speed and - there's an aesthetic value to a graphical interface that draws me over Vim.
 
-**Break:** \[00:22:18.02\]
+**Break:** \[22:18\]
 
 **Jerod Santo:** So we've been talking about bloatware, and I'm trying to define some lines, because I think there's some GUIs that are, some that aren't... Lucas, you start off your post saying "GUIs are bloatware, and I've said it before", so this is something you've got your thoughts and reasons about... Expand on that for us, and why exactly this is a talking point for you.
 
 **Lucas Fernandes da Costa:** I think as we were saying earlier, it's important to make those distinctions between GUIs in general and IDEs. Of course, I'm not a big fan of GUIs in general; I think they're just not optimal for what we do. I'm not saying GUIs are inherently bad, I'm just saying that due to the nature of the tasks we do, which involves a lot of repetition, which might involve a lot of need to automate things, a lot of need to integrate programs, combine programs, I think when you use CLI tools you are a lot more flexible when it comes to that; it's a lot easier to combine programs using streams, you can use many tools to automate what you're doing, it's a lot easier to create scripts, it's a lot easier to extend programs; you don't have to write a plugin... Many things are available right out of the box, because people have written great UNIX tools, everything's very readily available.
 
-\[00:25:10.07\] I think also since we use those tools a lot, with a lot of frequency, I think it's a lot easier for you to memorize commands and just type them out, than it is to be searching around for buttons, or trying to remember a specific sequence of things you need to do, whilst you could have automated all of that.
+\[25:10\] I think also since we use those tools a lot, with a lot of frequency, I think it's a lot easier for you to memorize commands and just type them out, than it is to be searching around for buttons, or trying to remember a specific sequence of things you need to do, whilst you could have automated all of that.
 
 So yeah, I think there are of course advantages to using GUIs, but I just think that due to the nature of the things we do, it's more productive to use CLI tools. Also, all the information they provide you... When it comes to how you communicate with the machine, it's also a lot more exact, it's a lot more precise. It's kind of like as if you were talking with a machine in its own language; it's easier for it to understand what it says, and it's easy for you to tell it in a precise way what you want it to do.
 
@@ -102,7 +102,7 @@ So yeah, I think there are of course advantages to using GUIs, but I just think 
 
 **Jerod Santo:** True. Now, you can get fancy and do an SSH mount and use your local VS Code against the remote machine, or something like that, but... Yeah, point taken.
 
-**Lucas Fernandes da Costa:** \[00:28:09.26\] Yeah, that's one of the reasons why I don't add too many things to my Vim configuration. I try to use it as minimal as possible. It's kind of like this disciplined pursuit for less, so that I can be comfortable in any environment.
+**Lucas Fernandes da Costa:** \[28:09\] Yeah, that's one of the reasons why I don't add too many things to my Vim configuration. I try to use it as minimal as possible. It's kind of like this disciplined pursuit for less, so that I can be comfortable in any environment.
 
 When I'm pairing with a co-worker, many times I'll just fire up Vim and just use it without its syntax highlight or anything, because I just feel comfortable that way, and it's a lot easier for me to write code anywhere, on any device. It's very good.
 
@@ -122,7 +122,7 @@ When I'm pairing with a co-worker, many times I'll just fire up Vim and just use
 
 **Lucas Fernandes da Costa:** I think Neovim is a natural evolution for when you're using Vim. I think you end up getting annoyed by the synchronous tasks, and I think it's just a natural move, since configurations are compatible, and everything. I think also once you've used a couple terminal emulators like iTerm2 or Terminator or whatever you use, I think you just -- it's a natural evolution to go to Tmux, I think. Also, it's very configurable, all the plugins and everything; also being able to attach and detach sessions.
 
-\[00:32:06.02\] I think Tmux integrates really nice with everything else that's on the terminal. I think, as you've said, iTerm2 is not available everywhere, that's true, but to be honest, when I started using it, I wasn't really very proficient with terminals, so I just started using iTerm2; I quite liked it. I used to replace lots of \[unintelligible 00:32:30.22\] features... You know, splitting panes and opening tabs...
+\[32:06\] I think Tmux integrates really nice with everything else that's on the terminal. I think, as you've said, iTerm2 is not available everywhere, that's true, but to be honest, when I started using it, I wasn't really very proficient with terminals, so I just started using iTerm2; I quite liked it. I used to replace lots of \[unintelligible 00:32:30.22\] features... You know, splitting panes and opening tabs...
 
 **Jerod Santo:** Right...
 
@@ -164,7 +164,7 @@ I'm curious if iTerm2 has any killer features that you're still using it, or you
 
 **Adam Stacoviak:** Right. Because the terminal is already here, why don't I just try to use this? And for these reasons... You know, he's already using Tmux and whatnot. So the next time I got a machine, I recalled that conversation; and I'm a fan of minimalism, I achieve and aspire to have less. It doesn't mean I always am a minimalistic person, that is my natural state of being though. So I was like, "You know what, I'm gonna follow in Jerod's footsteps and just resist iTerm2 and use Terminal", and I haven't looked back since. That's years now.
 
-**Jerod Santo:** \[00:36:10.11\] And to be fair to iTerm2, the built-in Terminal app has gotten a lot better in recent years. There was a time where there was a huge disparity between what iTerm2 provided and what the built-in app provided; it was way better, in multiple ways. And most people use it because of the split pains... But like we said, if you have Tmux and you're familiar with that, it solves that problem for you.
+**Jerod Santo:** \[36:10\] And to be fair to iTerm2, the built-in Terminal app has gotten a lot better in recent years. There was a time where there was a huge disparity between what iTerm2 provided and what the built-in app provided; it was way better, in multiple ways. And most people use it because of the split pains... But like we said, if you have Tmux and you're familiar with that, it solves that problem for you.
 
 So I think there used to be a bigger difference, and I think at this point it's less so. But that being said, if I go through and look at all of iTerm2's features, I can probably find reasons why I don't wanna use this. I can probably find reasons to install it. But my new philosophy is instead of asking "Why shouldn't I install something?", I ask "Why do I need to?" And if I don't need to, I don't do it. That's been the perspective, I believe... And how far can I get on just what's already available to me? When it comes to the command line in UNIX-based tools, you can live your life without installing very much.
 
@@ -192,7 +192,7 @@ What would be cool is if you could just have Tmux sessions last, persist through
 
 **Adam Stacoviak:** Yeah, exactly.
 
-**Jerod Santo:** \[00:40:13.02\] Or you just find yourself typing the same crap out all the time. As programmers, every time we type the same thing over and over again, our brains start thinking "How can I not do this every single time?" And that's a lot of the stuff Lucas has done; what you're sharing in your setup is really just you solving those problems. It's one of those things - I think the mindset of a terminal/in-terminal editor user, versus an IDE user is an IDE user generally is like "Just do all the things for me, give me a button, and I just wanna push it." I think that's a perfectly viable way of looking at it. But on the other side, it's kind of just the more hacker lifestyle of "Nah, I'm gonna create my own environment that's ideal and perfected, and I can smooth over all the little issues."
+**Jerod Santo:** \[40:13\] Or you just find yourself typing the same crap out all the time. As programmers, every time we type the same thing over and over again, our brains start thinking "How can I not do this every single time?" And that's a lot of the stuff Lucas has done; what you're sharing in your setup is really just you solving those problems. It's one of those things - I think the mindset of a terminal/in-terminal editor user, versus an IDE user is an IDE user generally is like "Just do all the things for me, give me a button, and I just wanna push it." I think that's a perfectly viable way of looking at it. But on the other side, it's kind of just the more hacker lifestyle of "Nah, I'm gonna create my own environment that's ideal and perfected, and I can smooth over all the little issues."
 
 One thing that I've done years ago - I don't even realize it anymore; I think about it now because we're talking about this - is I just started realizing, in the command line every time you change directories into a new folder, what's the first thing you do pretty much? What's the next command?
 
@@ -214,7 +214,7 @@ One thing that I've done years ago - I don't even realize it anymore; I think ab
 
 **Jerod Santo:** Which I think was one of the main points, Lucas, you were driving home earlier.
 
-**Lucas Fernandes da Costa:** \[00:44:09.11\] Yeah, exactly.
+**Lucas Fernandes da Costa:** \[44:09\] Yeah, exactly.
 
 **Adam Stacoviak:** Something else you mentioned too though, Jerod, was Bash, and configuring it, and hacking it. The last piece on the terminal starter pack is Zsh, and maybe the extension of that is Robby Russel's Oh-my-zsh, which I'm a fan of personally... But you're using Bash, Jerod, so we're like two-to-one here.
 
@@ -246,7 +246,7 @@ One thing that I've done years ago - I don't even realize it anymore; I think ab
 
 **Lucas Fernandes da Costa:** Yeah, I think indeed Oh-my-zsh makes it a lot easier to get started with it, and the community is just so -- it's so easy to find ways of solving your problems, find help and documentation and everything you need. I think Oh-my-zsh really made it a lot easier for people to start using Zsh.
 
-**Break:** \[00:47:36.20\]
+**Break:** \[47:36\]
 
 **Jerod Santo:** So we talked about the four pillars, you might say, of your setup - Neovim, Tmux, iTerm2 and Zsh by way of Oh-my-zsh, of course. The command line and the terminal is way more than that, and the more of the commands that you know and learn and ingrain into your workflow, the better you are at it.
 
@@ -274,7 +274,7 @@ Rsync - I saw a talk these days, and the guy was saying that rsync is made of ma
 
 **Jerod Santo:** Why do you say that?
 
-**Lucas Fernandes da Costa:** \[00:51:57.24\] It's ridiculously fast, and it just works so well. It's ridiculously simple to use. Just having an incremental file transfer that is so easy to use - it's just ridiculously magic.
+**Lucas Fernandes da Costa:** \[51:57\] It's ridiculously fast, and it just works so well. It's ridiculously simple to use. Just having an incremental file transfer that is so easy to use - it's just ridiculously magic.
 
 Also grep. Grep is such a great tool. I was reading these days a post about why grep is so fast, and it was just -- all these things have so much magic into them... It's not just rsync. I think rsync and grep stand out, but I think both rsync and grep are great tools.
 
@@ -302,7 +302,7 @@ I never reach for make. I use it when other people have written makefiles; I wou
 
 **Jerod Santo:** I love it. I also give my +1 to most of these. Rsync - I would be embarrassed to tell you how many things I'm still deploying or backing up with rsync, on different machines around the world. Such a useful tool.
 
-\[00:56:01.16\] Ag - you talked about ag, and you didn't pause there very much... This is a search tool, similar to ack. So there's been this progression of search tools. Grep - which is built-in on all Linuxes, probably most UNIXes - is an awesome tool. Ack is a replacement for grep, but with a great website, better than grep.com.
+\[56:01\] Ag - you talked about ag, and you didn't pause there very much... This is a search tool, similar to ack. So there's been this progression of search tools. Grep - which is built-in on all Linuxes, probably most UNIXes - is an awesome tool. Ack is a replacement for grep, but with a great website, better than grep.com.
 
 Ag is called the Silver Searcher. It's just like ack, only it's focused on speed. I think it's written in POSIX-compliant C code... So is this ag (the Silver Searcher) - do you use this only inside of Vim, by way of a plugin, or do you just use it from the command line tool when you're searching a code directory...? Do you use it in place of grep, or do you also use grep in different contexts?
 

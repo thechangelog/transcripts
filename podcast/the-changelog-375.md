@@ -10,7 +10,7 @@
 
 **Björn Rabenstein:** You might think it's like a political thing, that we have to get an award, but I think we really have a bunch of awesome people.
 
-**Gerhard Lazu:** \[00:03:59.03\] I think Prometheus, looking at how it grew -- everybody's looking at Kubernetes and everybody knows Kubernetes, but Prometheus is also a graduated project in the CNCF... And a lot of activities are happening around Prometheus, around observability, around metrics... I find that super-interesting, because it's not just about the platform, it's also all the other tooling that goes in the platform. And Prometheus is one of the shining stars of the CNCF.
+**Gerhard Lazu:** \[03:59\] I think Prometheus, looking at how it grew -- everybody's looking at Kubernetes and everybody knows Kubernetes, but Prometheus is also a graduated project in the CNCF... And a lot of activities are happening around Prometheus, around observability, around metrics... I find that super-interesting, because it's not just about the platform, it's also all the other tooling that goes in the platform. And Prometheus is one of the shining stars of the CNCF.
 
 **Ben Kochie:** We were the second graduated project.
 
@@ -46,7 +46,7 @@
 
 **Björn Rabenstein:** Also, how this ecosystem doesn't have a strict boundary. You have lots of projects that are not Prometheus projects, but they are closely related, and there are lots of integration points. It's open source, it's open community, and I think that really works well.
 
-**Gerhard Lazu:** \[00:07:57.23\] One thing which I really liked about Prometheus is this emerging standard of OpenMetrics. So it's less about a specific product and it's more about a standard, which people and vendors are starting to agree on, and I think that is such an important moment. When you have all these companies saying "You know what - Prometheus is on to something." So how about we stop calling the exposition format that, and we start calling it OpenMetrics? Did you have any involvement with that?
+**Gerhard Lazu:** \[07:57\] One thing which I really liked about Prometheus is this emerging standard of OpenMetrics. So it's less about a specific product and it's more about a standard, which people and vendors are starting to agree on, and I think that is such an important moment. When you have all these companies saying "You know what - Prometheus is on to something." So how about we stop calling the exposition format that, and we start calling it OpenMetrics? Did you have any involvement with that?
 
 **Ben Kochie:** Yeah, I'm one of the people that started the OpenMetrics project, and as a site reliability engineer, I'm working with my developers to instrument their code and make it so that I can monitor it... And I also have to work with a lot of vendor code. And for a long, long time, the only real proper standard is SNMP. But SNMP for a modern developer is extremely clunky and really hard to use, and it's not cloud-native, if we wanna use the buzzword.
 
@@ -62,7 +62,7 @@ As an SRE, I don't actually care if vendors use Prometheus, but we need OpenMetr
 
 **Gerhard Lazu:** So we have metrics, the story is really good, we have traces, and the story of distributed tracing is really good as well... Where are logs, or events (as some like to call them), where do they fit in in this model? And I'm looking at Björn, because I know that Loki is this up-and-coming project... We'll be talking later with Tom about Loki, and there was -- I forget his name, but he's the maintainer of Loki, or the head behind Loki \[unintelligible 00:11:36.10\]
 
-**Björn Rabenstein:** \[00:11:44.23\] Actually, we have a bunch of people at Grafana working on Loki. It's like a big deal, obviously. I don't even feel like I would do them justice if I now tell them. You should probably ask later... I mean, perhaps you should take it from the other way - people see Prometheus, they realize it's this hot thing that they should use, they see all the success they have, and then they try to shoehorn all their observability use cases into Prometheus, and then they start to use Prometheus for event logging... And Prometheus is a really bad event logging system. That's a lot where we have to fight -- not fight; where we have to convince people that they shouldn't do this, even if they're angry at us.
+**Björn Rabenstein:** \[11:44\] Actually, we have a bunch of people at Grafana working on Loki. It's like a big deal, obviously. I don't even feel like I would do them justice if I now tell them. You should probably ask later... I mean, perhaps you should take it from the other way - people see Prometheus, they realize it's this hot thing that they should use, they see all the success they have, and then they try to shoehorn all their observability use cases into Prometheus, and then they start to use Prometheus for event logging... And Prometheus is a really bad event logging system. That's a lot where we have to fight -- not fight; where we have to convince people that they shouldn't do this, even if they're angry at us.
 
 But then there's also the other -- whatever the backlash where the logs processing people try to solve everything... Yeah, we kind of have more this inclusive picture; you need all those tools, you need to combine them nicely, and Loki has this idea where you take some parts of Prometheus, which is like service discovery and labeling, and use the exact same thing for logs collection, and then it's easy to connect the dots and jump from an alert with certain labels, into the appropriate logs that you have collected. It goes into that area, but I guess you will talk a lot about that with Tom.
 
@@ -86,7 +86,7 @@ You have things like Kubernetes and config maps and operators, and then you migh
 
 So Prometheus has grown a lot, Prometheus is on a crazy trajectory right now, from where I'm standing... And I would like to zoom in a little bit in a shorter time span, for example the last six months, just to get a better appreciation of all the change that is happening in Prometheus. Let's focus on the last six months, the big items that have been delivered, and the impact that they had on the project.
 
-**Björn Rabenstein:** \[00:16:09.19\] We should also say, there's so many -- we call it "project", a repository in the Prometheus GitHub org, and there are many projects. AlertManager is probably something very famous, Node\_exporter is pretty active and big, and all those things... But every project has new stuff going on, and I think we should restrain ourselves to just the Prometheus server itself, because otherwise we could chat forever about all the new things.
+**Björn Rabenstein:** \[16:09\] We should also say, there's so many -- we call it "project", a repository in the Prometheus GitHub org, and there are many projects. AlertManager is probably something very famous, Node\_exporter is pretty active and big, and all those things... But every project has new stuff going on, and I think we should restrain ourselves to just the Prometheus server itself, because otherwise we could chat forever about all the new things.
 
 **Ben Kochie:** Yeah. And actually, a few of us have been discussing that the Prometheus-Prometheus core code is really reasonably feature-complete, and it's not actually moving that fast. We have lots of small changes that are still important, but the speed of the project is actually how many additional things that are connected to Prometheus that is expanding.
 
@@ -108,7 +108,7 @@ This is one of those things -- the feature actually hasn't changed at all in its
 
 **Ben Kochie:** For all those projects that are being built around Prometheus, it's very important and it's becoming even more important for the core to be more robust, to be more performant, to be dependable, so that it can support all those extension points and all that growth.
 
-**Björn Rabenstein:** \[00:20:04.26\] Yeah, I guess if it's still experimental, we should do something about it. \[laughs\] Shall we talk about the flipside of that, the remote read?
+**Björn Rabenstein:** \[20:04\] Yeah, I guess if it's still experimental, we should do something about it. \[laughs\] Shall we talk about the flipside of that, the remote read?
 
 **Gerhard Lazu:** Yeah, yeah.
 
@@ -136,7 +136,7 @@ The back-end would build up all this huge amount of samples in memory, and then 
 
 **Gerhard Lazu:** So why do you think that this remote write and remote read are becoming more and more important these days? Is something happening with Prometheus? Is it getting to a point where this is becoming more and more important? Why is it an important thing now?
 
-**Ben Kochie:** \[00:23:50.25\] As users of Prometheus grow, they grow beyond the capacity of one Prometheus server, and Prometheus was designed from a background of distributed systems... And where Prometheus got its inspiration - we had hundreds or thousands of monitoring mini-nodes, and each of these mini-nodes would watch one specific task and keep track of one small piece of the puzzle. And as people grow their monitoring needs, they're running into the same exact problems, where a single monitoring server is not powerful enough to monitor a whole entire Kubernetes cluster with tens of thousands of pods, and multiple clusters that are geo-distributed. So they're running into the same problems. And being able to take Prometheus and turn it into just the core of a bigger system means that you need these in and out data streams in order to make it the spokes of a full platform.
+**Ben Kochie:** \[23:50\] As users of Prometheus grow, they grow beyond the capacity of one Prometheus server, and Prometheus was designed from a background of distributed systems... And where Prometheus got its inspiration - we had hundreds or thousands of monitoring mini-nodes, and each of these mini-nodes would watch one specific task and keep track of one small piece of the puzzle. And as people grow their monitoring needs, they're running into the same exact problems, where a single monitoring server is not powerful enough to monitor a whole entire Kubernetes cluster with tens of thousands of pods, and multiple clusters that are geo-distributed. So they're running into the same problems. And being able to take Prometheus and turn it into just the core of a bigger system means that you need these in and out data streams in order to make it the spokes of a full platform.
 
 **Gerhard Lazu:** So that's another hint as to the popularity of Prometheus and the use cases for Prometheus, which - they are like machines, they aren't big enough to be able to run everything in one machine. So again, it got to the point where you need more than one, and what does that look like. So this is a story in a use case which is becoming more and more relevant.
 
@@ -156,7 +156,7 @@ So we always get a release \[unintelligible 00:26:23.15\] nominated ahead of tim
 
 **Frederic Branczyk:** Because we have all these tools, we can do these things in a controlled way, as opposed to realizing these things after we've already released it and users are opening issues. One thing that personally for my organization is really cool about the regular release schedule is we know exactly when the next release candidate is going to be cut, so the SRE team can plan \[unintelligible 00:27:53.26\] these kinds of releases, and contribute back with issues, and so on. I think that's also for us as maintainers really powerful to get more consistent feedback.
 
-**Gerhard Lazu:** \[00:28:10.07\] Do you see the adoption of new releases? Is there a way of seeing what the adoption is? What I mean by that - maybe number of downloads, maybe something that would tell you "Okay, the users are upgrading, and they're running these new releases." Is there such a place that you have? Maybe it's publicly available...?
+**Gerhard Lazu:** \[28:10\] Do you see the adoption of new releases? Is there a way of seeing what the adoption is? What I mean by that - maybe number of downloads, maybe something that would tell you "Okay, the users are upgrading, and they're running these new releases." Is there such a place that you have? Maybe it's publicly available...?
 
 **Ben Kochie:** Yeah, there are counters for looking at how many downloads we get from the official releases. There's also how many people pull their Docker images... But we're not really paying attention to this. We're more focused on development than marketing numbers.
 
@@ -178,7 +178,7 @@ So we always get a release \[unintelligible 00:26:23.15\] nominated ahead of tim
 
 Sometimes we have little storage optimizations where we try, after some problems in the past where you couldn't go back from once you have gone to the higher version and the storage has used the new encoding version internally, the older versions couldn't act on it... And we are now doing things where you have to switch it on with a flag in the next minor release, and then it becomes default, but you could still switch it off, and then it becomes the only way of doing it. It's very smooth, and I think rarely -- I mean, some companies have these very strict procedures to whitelist a new version, but in general it's happening rarely that somebody says "I really still have to run Prometheus 2.12. Could you please have this bug fix release for 2.12?"
 
-**Frederic Branczyk:** \[00:32:05.17\] Yeah. As a matter of fact, I don't remember the last time we've done anything like this.
+**Frederic Branczyk:** \[32:05\] Yeah. As a matter of fact, I don't remember the last time we've done anything like this.
 
 **Ben Kochie:** Yeah, the releases are always upgradable within the major version... So the incremental upgrade is completely seamless. It's just dropping the new version, restart, and away you go. There has been no real problem with upgrades.
 
@@ -212,7 +212,7 @@ Sometimes we have little storage optimizations where we try, after some problems
 
 **Ben Kochie:** Yeah. So we're replacing our handwritten JavaScript from 2013 or so with a nice, new React user interface. It's now in 2.14, and you can go give it a spin. There's a button you click to try the new UI.
 
-**Björn Rabenstein:** \[00:35:48.07\] Essentially, at the moment, this is just reconstructing all the features we have... But this will allow modern stuff, like proper autocompletion, and tooltips, and all those things; that will be very easy to include. You get a glimpse of it if you do the Grafana Explore view. It's a lot of stuff... But that's all very much wired into Grafana, and in the Prometheus UI we try to get this in a more generic form. And we also want to be able to do this Language Server Protocol (LSP), which is this generic way where IDEs can inquire from a server what to do with autocompletion, and stuff. So this could work for the Prometheus UI itself, but there's actually an intern at Reddit, working with Fred \[unintelligible 00:36:36.12\] he's working on this, just implementing this LSP for PromQL. Then you can point your VS Code to that, and suddenly you get autocompletion in your editor, writing rules. That's so cool.
+**Björn Rabenstein:** \[35:48\] Essentially, at the moment, this is just reconstructing all the features we have... But this will allow modern stuff, like proper autocompletion, and tooltips, and all those things; that will be very easy to include. You get a glimpse of it if you do the Grafana Explore view. It's a lot of stuff... But that's all very much wired into Grafana, and in the Prometheus UI we try to get this in a more generic form. And we also want to be able to do this Language Server Protocol (LSP), which is this generic way where IDEs can inquire from a server what to do with autocompletion, and stuff. So this could work for the Prometheus UI itself, but there's actually an intern at Reddit, working with Fred \[unintelligible 00:36:36.12\] he's working on this, just implementing this LSP for PromQL. Then you can point your VS Code to that, and suddenly you get autocompletion in your editor, writing rules. That's so cool.
 
 **Frederic Branczyk:** Yes, I'm really excited about that.
 
@@ -236,7 +236,7 @@ There's a question which I have - I'm wondering what are the limits for describi
 
 Julius did the initial work for this React-based UI, and just within a couple of weeks of having this entry, we've had a tremendous amount of contributions to this... Because suddenly, we've opened up a pool of engineers that can help us out with these things... Which was kind of the initial point anyways, because nobody was really contributing to the old UI, and suddenly we are just a couple weeks into it and it just validated the point that making this more accessible opens a large pool of contributions.
 
-**Björn Rabenstein:** \[00:40:19.05\] Which I think is a very interesting point in open source projects - should you go for something with a known, big base of people who \[unintelligible 00:40:26.03\] got really refurbished a while ago in Elm... Which has a way smaller community, but a very committed community, and we had a bunch of committed contributors. I think they are now obviously not happy that this is happening in React... But I think it's a really tough decision. You could say it's the same when we started Prometheus and decided to use Go and not Java, for example. Go is a way technically better language for that, but back then we were early adopters. We also found a lot of bugs in Go, or feature requests that we really needed, but it was a big bet to go into this new language that doesn't have an established community yet.
+**Björn Rabenstein:** \[40:19\] Which I think is a very interesting point in open source projects - should you go for something with a known, big base of people who \[unintelligible 00:40:26.03\] got really refurbished a while ago in Elm... Which has a way smaller community, but a very committed community, and we had a bunch of committed contributors. I think they are now obviously not happy that this is happening in React... But I think it's a really tough decision. You could say it's the same when we started Prometheus and decided to use Go and not Java, for example. Go is a way technically better language for that, but back then we were early adopters. We also found a lot of bugs in Go, or feature requests that we really needed, but it was a big bet to go into this new language that doesn't have an established community yet.
 
 I think it's not a clear cut what way to go, but it speaks volumes that we get new contributors that are super-enthusiastic about code in React. I wouldn't be enthusiastic, but luckily there are others who like it.
 
@@ -260,7 +260,7 @@ I think this is an actual hard problem. I actually read a paper right now that s
 
 We have a governance structure now... I think it's an interesting, but also very hard, or it's a hard problem, that's why it's an interesting problem. And important.
 
-**Gerhard Lazu:** \[00:44:02.00\] That's a paper which I would like to read, for sure... And I know that many others will as well, so I will look forward to that link from Björn. Okay, so one of the things which I'm aware of as a Prometheus user is memory use. Is there anything that is being done about that in the next six months, any improvements around improving Prometheus' use of memory?
+**Gerhard Lazu:** \[44:02\] That's a paper which I would like to read, for sure... And I know that many others will as well, so I will look forward to that link from Björn. Okay, so one of the things which I'm aware of as a Prometheus user is memory use. Is there anything that is being done about that in the next six months, any improvements around improving Prometheus' use of memory?
 
 **Frederic Branczyk:** Yes. As a matter of fact, we had one of our developer summits just after PromCon, and this was one of the topics that we talked about. The way that the Prometheus time series database works is that there is an active \[unintelligible 00:44:38.21\] where the inserts are happening, the live inserts of the data that's being scraped. That builds a block of the most recent two hours of data, and then that's flushed to disk to an immutable block, and then we use memory mapping, so the kernel takes care of that memory management there.
 
@@ -272,7 +272,7 @@ There are various other mechanisms that we wanna look into. Even within the immu
 
 **Ben Kochie:** We can forward-port some of the optimizations... \[laughter\] Yeah, the Prometheus 2 format was very much designed to reduce the CPU needs for ingestion, and that completely succeeded, to the point where we actually have spare CPU. When you look at the CPU to memory ratios of a common server, the Prometheus server will use all of the memory, but only a quarter of the available CPU in the typical ratios you get on servers. So we could spend some more CPU to improve the compression and get us back some of that memory... Because every time we improve our compression, it not only improves the disk storage space, it improves the memory storage. Because we keep the same data in memory as we do on disk.
 
-**Gerhard Lazu:** \[00:48:05.11\] I'm sure that many users will be excited about this. I'm very excited to hear that, and I'm looking forward to what will come out of this. As we are approaching the end of our interview, any other things worth mentioning, or one thing which is really worth mentioning?
+**Gerhard Lazu:** \[48:05\] I'm sure that many users will be excited about this. I'm very excited to hear that, and I'm looking forward to what will come out of this. As we are approaching the end of our interview, any other things worth mentioning, or one thing which is really worth mentioning?
 
 **Björn Rabenstein:** There would be no story about the future complete without my favorite topic in Prometheus, and that's histograms. I'm probably known as Mr. Histogram, or something.
 
@@ -284,7 +284,7 @@ Histograms in Prometheus is an extremely powerful approach, but it's kind of hal
 
 I had a little talk at PromCon, where I was giving my current state of research, and now at this conference... So many people and so many companies and organizations are interested in that. It was really exciting. The idea is to get something where we could have way more buckets, or we even have some kind of digest approach to that, that plays well with the Prometheus data model. So it's a true challenge, and it will be fairly invasive, because it also changes the Prometheus storage engine, how the evaluation model works... Because suddenly you have something that is not just a float, it's a representation of a distribution. But the idea is that we will have very detailed - and not very expensive - histograms in the not-too-far future, and I'm very hyped about this.
 
-**Gerhard Lazu:** \[00:52:03.08\] That is so cool, that is so cool. You mentioned something there which reminded me of a discussion which you had earlier, and that was around being more open and getting the community more involved in what is happening in Prometheus. You (or maybe Fred) mentioned about the monthly community calls, the virtual calls... Who would like to cover that?
+**Gerhard Lazu:** \[52:03\] That is so cool, that is so cool. You mentioned something there which reminded me of a discussion which you had earlier, and that was around being more open and getting the community more involved in what is happening in Prometheus. You (or maybe Fred) mentioned about the monthly community calls, the virtual calls... Who would like to cover that?
 
 **Ben Kochie:** Sure. Yeah, we're trying to be more open with the wider developer community and our wider user base, and a lot of people have found that the Prometheus developer team is a little closed off and a little opaque... So we're now doing monthly public meetings and sharing what the developer team is up to, and taking more input from the community in order to be a better open source project.
 
@@ -322,7 +322,7 @@ I had a little talk at PromCon, where I was giving my current state of research,
 
 **Frederic Branczyk:** Thank you.
 
-**Break:** \[00:54:47.11\]
+**Break:** \[54:47\]
 
 **Gerhard Lazu:** It's the 21st of November, 2019. It's the last day of KubeCon North America. It's been a sunny day, it's been a great day so far. We had a great number of hosts and guests on this show -- no, there was only one; it was just me. \[laughter\] We had a great number of guests on this show. Just earlier I was talking to Björn from Grafana, Fred from Red Hat, and also Ben from GitLab, and they were all on the Prometheus team, very passionate, a lot of interesting things that they've shared with us... Now we have Tom from Grafana, and we have Ed, also from Grafana.
 

@@ -24,7 +24,7 @@
 
 I mean, it wasn't a choice that I was interested in no matter what, but I'm actually not even sure that if you make that choice, it -- because if you catch your mind back, actually, in the moment leading up to when we first announced it, there were a lot of different orchestrators out there, a lot of different projects, a lot of different approaches, many of whom only the people who were paying attention even noticed... And I think that the reason that five years later we're here, 7,500 people, is because it's not the tech, it's the community; the fact that it really could be something that everybody could bet on is the reason why it survived.
 
-**Adam Stacoviak:** \[00:04:31.06\] Interesting.
+**Adam Stacoviak:** \[04:31\] Interesting.
 
 **Brendan Burns:** Yeah. So I'm a big believer that open always wins, that community always wins. It takes longer than others sometimes, it takes a while sometimes, but...
 
@@ -58,7 +58,7 @@ I mean, it wasn't a choice that I was interested in no matter what, but I'm actu
 
 **Adam Stacoviak:** So speaking to that, that's the exact recipe for essentially having a project that matters in this world, in this particular world here... Not the world at large, but this Kubernetes/cloud-native world.
 
-**Brendan Burns:** \[00:08:02.02\] Yeah, and I think that's true. I mean, I'm not gonna say that it has to be every project. You look at things like SQL Server - massively successful database, not open source. I think you can certainly build useful, interesting software that a lot of people use... But I think that in the world of infrastructure, where you're using it, but you're running on it, and you really wanna be able to understand it and debug it, and participate in it, and it's a platform...
+**Brendan Burns:** \[08:02\] Yeah, and I think that's true. I mean, I'm not gonna say that it has to be every project. You look at things like SQL Server - massively successful database, not open source. I think you can certainly build useful, interesting software that a lot of people use... But I think that in the world of infrastructure, where you're using it, but you're running on it, and you really wanna be able to understand it and debug it, and participate in it, and it's a platform...
 
 **Adam Stacoviak:** It needs to be open, yeah.
 
@@ -92,7 +92,7 @@ If you think about someone who sells software on a CD - every copy of that CD do
 
 **Brendan Burns:** Yeah, for every customer there's a little bit of consulting, a little bit of operations you have to do. It's very linear, and that means it's hard to scale your business... And I view that as an infrastructure problem; we're not supplying the right infrastructure to these software vendors to enable them to manage their software at scale... So I hope that Kubernetes - and especially managed Kubernetes, like in the Azure Kubernetes service - provides that, provides that sort of application-oriented infrastructure and makes it easy to build and scale your app.
 
-**Adam Stacoviak:** \[00:12:09.10\] Any particular good stories around managed applications? What's just a great example of a managed application, and why?
+**Adam Stacoviak:** \[12:09\] Any particular good stories around managed applications? What's just a great example of a managed application, and why?
 
 **Brendan Burns:** We've built a really great partnership with Databricks, for example, in Azure. Databricks is a big data/data warehouse kind of streaming analytics solution... Fundamentally, it's a piece of software that that company built, and now they've been able to turn it into a product inside of Azure, without being -- they're still an independent company, they're still doing their thing and running on all sorts of different clouds and on-prem, but by using managed applications, they've been able to integrate it into the Azure API in a way that makes it more native to Azure than it is if they just sort of installed it on -- and it makes it more operable too, because we can enable their operators to gain access to all of the resources that are being deployed in Azure, to support it.
 
@@ -120,7 +120,7 @@ I think as a cloud provider, that's an obligation. I see that as an obligation t
 
 **Brendan Burns:** I think it's a long-term goal. I think it's a focus for Azure to build an environment in which our partners can be financially successful, invested in their success. I think historically that's always been something that Microsoft has been good at - partnering well with companies, ensuring that they can make money on our platform... I think it's an important differentiator for our cloud, for sure.
 
-**Break:** \[00:15:27.11\]
+**Break:** \[15:27\]
 
 **Adam Stacoviak:** You'd mentioned people, community, things like that, and the importance level of it. For us, in our business here at Changelog, one thing we do is partner well - not only with community members, but also with different brands that need our help to share their story, tell developer culture stories, and just the stories about these different brands that just have a hard time telling more than their core competencies, actually making them far more human than they're able in other avenues...
 
@@ -142,7 +142,7 @@ And one thing I'll often have to tell people about our perspective when it comes
 
 We were just at the Contributor Summit yesterday and we were celebrating a bunch of people who do release management, who've done docs, who have helped organize the task board for various special interest groups... Totally non-technical jobs, totally not distributed -- but they're essential jobs to keeping the community going. And the fact that we've created a community where people volunteer for that and then get rewarded - that's why it's successful. I'm a big believer in that.
 
-**Adam Stacoviak:** \[00:20:04.07\] Well, I'm glad you brought it back to the community, because that was the tangent I wanted to go on earlier... What I wanted to ask you about that was that we hear the word "community" a lot. "It's because of the community", and I'm not discarding that; I'm just sort of like making fun of ourselves as we say this, but there's some people out there who are like "What do they mean by community?" So help me break down what community is at the cloud-native level, the Kubernetes level. What is a community member? Is it a user, is it vendors? How do you see successful community being implemented in this community here?
+**Adam Stacoviak:** \[20:04\] Well, I'm glad you brought it back to the community, because that was the tangent I wanted to go on earlier... What I wanted to ask you about that was that we hear the word "community" a lot. "It's because of the community", and I'm not discarding that; I'm just sort of like making fun of ourselves as we say this, but there's some people out there who are like "What do they mean by community?" So help me break down what community is at the cloud-native level, the Kubernetes level. What is a community member? Is it a user, is it vendors? How do you see successful community being implemented in this community here?
 
 **Brendan Burns:** I think it's twofold, I think there's two different layers of community. There's the core Kubernetes contributor community, which -- we had like 400 people yesterday. They are the people who day and day out - this is their job; they're working on providing it as a service, or they're working on making it better, or working on integrating storage providers into the core project.
 
@@ -154,19 +154,19 @@ So I think it can be vendors, but I think the big thing is that everybody is sor
 
 **Adam Stacoviak:** Yeah. When you were saying that was the interesting thing about the team, I was thinking it is kind of interesting because somehow you've magically been able to have probably highly influential people from various companies come together, and then still not enable or disable clicks, and access, and politics. I'm sure you're not free of it, but...
 
-**Brendan Burns:** \[00:24:02.18\] Yeah, I'm not gonna be like "We're free of all that stuff, it's kumbaya all the time", but I think that we have been very lucky in the group of people who were in the initial leadership positions... But once you shape a culture, it kind of takes care of itself.
+**Brendan Burns:** \[24:02\] Yeah, I'm not gonna be like "We're free of all that stuff, it's kumbaya all the time", but I think that we have been very lucky in the group of people who were in the initial leadership positions... But once you shape a culture, it kind of takes care of itself.
 
 We had this steering committee summary at the end of the community meeting yesterday, and we got up there, and -- in another world, you could imagine us being like "Here's the future direction of Kubernetes for the next 12 months. We will do this, this and this. We are the steering committee, and we tell you what to do." Instead, we spent a long time talking about how our primary job is giving away responsibility, and giving away power, and delegating to people. I think that when you do that -- it's funny; you might say it's lazy to be like "Oh, I'm just gonna let you take care of that. I'm not gonna do it, you take care of it", but when you do that to people, they do such an awesome job because you've trusted them, because you've given them power, but you've also told them that you trust them. They're gonna do amazing things to validate your trust. I think that's really helped.
 
 We still have plenty of bikeshedding discussions, where we spend way too much time talking and not enough time doing, and sometimes we have fairly significant disagreements, but I do think that there's a level of respect amongst everybody that is important to the project, for sure... And I think unique, actually. If there's anything that I'm proud of from the project, it is that small community, that culture, that group of people that we built there. It's a pretty special thing.
 
-**Break:** \[00:26:11.03\]
+**Break:** \[26:11\]
 
 **Adam Stacoviak:** It seems like the secret sauce is that somehow everyone who matters - or can either destroy or build up the future of Kubernetes - understands that hey, if Kubernetes succeeds, then your business has an opportunity to thrive, or our business has an opportunity to thrive, so that's our treaty, so to speak, our DMZ, so to speak.
 
 **Brendan Burns:** Yeah, but there's two different ways that that can end - that can end in sort of the mutually assured destruction, cold war style, like "Yeah, everyone's gonna mess with it, but nobody's gonna really invest in it either." Or it can end up where we are, which is like "We're gonna really go and collaborate", raise all boats, as you said...
 
-**Adam Stacoviak:** \[00:28:13.12\] I like how you say bet. Earlier you've said the word "bet" a couple times - bet everything on the fact that it's gonna --
+**Adam Stacoviak:** \[28:13\] I like how you say bet. Earlier you've said the word "bet" a couple times - bet everything on the fact that it's gonna --
 
 **Brendan Burns:** Yeah, yeah. And you have to. That's what it is.
 
@@ -212,7 +212,7 @@ All of our libraries are built from OpenAPI specifications. So it's a JSON speci
 
 So to fix this bug, what I'm gonna do in the talk is we have to make a change to the OpenAPI specification, we have to rerun that code generator, we have to then take that generated code, check it into the client library repository, build that client library repository and then push it out to Maven, and these code library things.
 
-\[00:31:58.24\] So it's a very small thing that turns into a bunch of different stages in this pipeline. And just to explain why - it's the only way we can keep up with the project. There's always these new API types being added in, there's always new data fields and whatnot. So if we didn't use a code generator... And you see this actually, because there are people out there who have handwritten Kubernetes client libraries, and over time they just get further and further out of date... And they get further and further out of date because it's just exhausting to try and keep up, so the only way you can do it is through these code generators. But if you use the code generator, then suddenly you're beholden to the features that are supported by the code generator, to the quality of the API spec, which has some gaps, the quality of OpenAPI itself, which has gone through a couple different versions to fix some problems. That's sort what the whole talk is about. It's gonna be very much in the sausage-making.
+\[31:58\] So it's a very small thing that turns into a bunch of different stages in this pipeline. And just to explain why - it's the only way we can keep up with the project. There's always these new API types being added in, there's always new data fields and whatnot. So if we didn't use a code generator... And you see this actually, because there are people out there who have handwritten Kubernetes client libraries, and over time they just get further and further out of date... And they get further and further out of date because it's just exhausting to try and keep up, so the only way you can do it is through these code generators. But if you use the code generator, then suddenly you're beholden to the features that are supported by the code generator, to the quality of the API spec, which has some gaps, the quality of OpenAPI itself, which has gone through a couple different versions to fix some problems. That's sort what the whole talk is about. It's gonna be very much in the sausage-making.
 
 **Adam Stacoviak:** So who's the person that should not miss that, or if they're listening later, they should go on YouTube and find the talk?
 
@@ -258,7 +258,7 @@ It's been an interesting exercise as well in understanding these places in the p
 
 **Brendan Burns:** Alright.
 
-**Adam Stacoviak:** \[00:36:13.28\] I'm looking at your Twitter feed recently, and... Am I pronouncing correctly when I say -- is it Phippy?
+**Adam Stacoviak:** \[36:13\] I'm looking at your Twitter feed recently, and... Am I pronouncing correctly when I say -- is it Phippy?
 
 **Brendan Burns:** Phippy. The PHP app. Phippy, the friendly PHP app.
 
@@ -342,7 +342,7 @@ As a tribute to all of that, and a tribute to the fact that KubeCon had come to 
 
 **Adam Stacoviak:** For whatever reason, the conference from last year still had a huge stack, I wanna say maybe like 25 of them, and I've been thinking... Like, I wanna keep one for me. I've got one of them framed, ready to go up on the wall, because I wanna place it in my studio...
 
-**Brendan Burns:** \[00:40:15.25\] Right.
+**Brendan Burns:** \[40:15\] Right.
 
 **Adam Stacoviak:** But then the others - I've got 25 or 30 of these things, so maybe if you're listening to this, reach out and we'll see if we can ship you one somehow...
 

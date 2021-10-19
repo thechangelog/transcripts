@@ -12,7 +12,7 @@ I happen to be operating solo today. Daniel was not able to make it out here. I 
 
 **Anima Anandkumar:** Yeah, certainly. I've had a pretty amazing childhood in terms of the people around me were always encouraging me in my passion for maths and sciences, but also for dancing and arts and everything. My mom is an engineer, my dad has a small-scale industry that manufactures all kinds of components, builds machines... So I would go there as a kid, my mom and dad would take me there, to see how those machines operated and how -- it just seemed so magical that you could automatically build these components; they would be in all kinds of shapes, you had these machines going at this really high speed... So that was fascinating, and I would ask my parents "How is this possible?" and they would be like "It's all math." So math was a friendly thing to me from early childhood.
 
-**Chris Benson:** \[00:04:34.01\] How old were you about that time period? What age were you at that point?
+**Chris Benson:** \[04:34\] How old were you about that time period? What age were you at that point?
 
 **Anima Anandkumar:** I think my earliest memories are either me solving some puzzles, or some toys, and going to industry -- like, my parents always took me when I was maybe three or four...
 
@@ -58,7 +58,7 @@ My grandfather is a math teacher, so he was teaching me --
 
 **Anima Anandkumar:** No, but I think the earliest memory that I have, that very much relates to what I'm doing with AI today - I remember suddenly stopping and questioning myself "Huh, I feel so differently right now. I feel like there's something that's me." It's kind of what they call self-actualization. And again, no one had told me about it, I had no idea, but I was just playing; I remember this moment very vividly, where I felt "Oh, there's something known as me", even though maybe that's not the language I used... And for us, taking baby steps in AI - that's so fascinating, how kids learn so quickly, learn so intuitively, come up with all these developments in their personality...
 
-**Chris Benson:** \[00:08:22.09\] Yes, there's so many things that we take for granted as humans, and ironically, those of us now in the AI space look back with kind of increduleness, in terms of saying "Wow, you don't think about that, but there's so much there that we're trying to discover now in the field of AI, so that we can do amazing things.
+**Chris Benson:** \[08:22\] Yes, there's so many things that we take for granted as humans, and ironically, those of us now in the AI space look back with kind of increduleness, in terms of saying "Wow, you don't think about that, but there's so much there that we're trying to discover now in the field of AI, so that we can do amazing things.
 
 **Anima Anandkumar:** Yeah, and I would say we are still quite far away from getting anywhere close to that, right? But that's what will keep me employed for a lifetime, so... \[laughs\]
 
@@ -78,7 +78,7 @@ My grandfather is a math teacher, so he was teaching me --
 
 **Anima Anandkumar:** I think I would have been more around eight or so...
 
-**Chris Benson:** \[00:11:54.22\] Yeah, so you were still quite young at that point in time... Okay. By that time, did you pretty much know that this was the path that you were on, as you grew up? Or were you still kind of finding yourself...
+**Chris Benson:** \[11:54\] Yeah, so you were still quite young at that point in time... Okay. By that time, did you pretty much know that this was the path that you were on, as you grew up? Or were you still kind of finding yourself...
 
 **Anima Anandkumar:** I was still dancing; I always loved dance. I should say much of my family is engineers and mathematicians, although my uncle is a biotechnologist, so I would hear from him of advances in biology... So no one really put me in any one path. For me, I was generally fascinated with science and technology, math and engineering, but at that point I was looking at documentaries, for instance, about NASA, and space... That's how Caltech, actually -- you know, I remember thinking "Oh, that's such a fascinating place." So for me to go from there to actually be at Caltech, and be an NVIDIA, that's making these cutting edge technology to enable AI is a big leap.
 
@@ -104,7 +104,7 @@ So I remember we were hearing about this exam in high school, and my first react
 
 **Anima Anandkumar:** Yeah, yeah... And I would still be programming. And I had a minor in computer science, so I'd have all these different elements put together. That's where this entrance exam I felt was an opportunity for me to really go into like -- you know, when we look at physics, like, "What are the basic principles?" Not only know about the laws of physics, but how do I apply to different systems?
 
-\[00:16:11.28\] What made this test challenging, at least at that point - those were near to olympiad-level questions, and why are those questions challenging? That's because they're not the usual ones you would solve during your assignment, or during your usual schooling...
+\[16:11\] What made this test challenging, at least at that point - those were near to olympiad-level questions, and why are those questions challenging? That's because they're not the usual ones you would solve during your assignment, or during your usual schooling...
 
 **Chris Benson:** So did you dive heavily into physics at your university schooling at that point? Had you been exposed to it prior to university at all, or was this kind of a new area that you entered into?
 
@@ -174,7 +174,7 @@ So I came into it from that viewpoint of how to reduce requirements in communica
 
 **Anima Anandkumar:** Yes.
 
-**Chris Benson:** \[00:23:58.05\] And specifically, what was the PhD in? By the time you finish this long process -- actually, "finishing" is probably the wrong word, but as you got to this point in this journey, what was your PhD in?
+**Chris Benson:** \[23:58\] And specifically, what was the PhD in? By the time you finish this long process -- actually, "finishing" is probably the wrong word, but as you got to this point in this journey, what was your PhD in?
 
 **Anima Anandkumar:** My thesis title, if I recall it right - it's been a decade now - is "Distributed statistical inference." My first project led to many other projects of like how do you route this in an energy-efficient way in a network, and how do you model correlations across different sensors in useful ways? That's when it got into this large-scale machine learning, because we said "Oh, there should be dependencies... What do these correlations mean?" There should be an underlying graphical model, a probabilistic model that connects all these measurements.
 
@@ -182,7 +182,7 @@ That's when I started getting fascinated into all the literature of machine lear
 
 Back then, these main machine learning conferences -- back then it was called NIPS, and now it's called NeurIPS, and ICML... These were tiny events. Signal processing events were much bigger, and so many people were wondering why I made the switch. For me it's always been about where the core intellectual ideas are, and where there's a lot of potential; to me it felt this machine learning revolution has to happen, it's just a matter of when... So I'm happy I went into core machine learning before it all took off.
 
-**Break:** \[00:26:20.17\]
+**Break:** \[26:20\]
 
 **Chris Benson:** So now that you've finished your PhD, let's turn toward you're now out there - you have your PhD, your faculty, and you are doing work in the space... How did you arrive at Caltech? There's a couple of questions I'll ask you about when you get there, and then ultimately at NVIDIA. And then after all that, I'm gonna turn you toward your talks itself down the road... But tell me how did you move over to Caltech, what made that transition?
 
@@ -200,7 +200,7 @@ Back then, these main machine learning conferences -- back then it was called NI
 
 **Anima Anandkumar:** I actually started at UC Irvine, which is not far from Caltech; Southern California, a beautiful place, and a lot of really amazing colleagues.
 
-**Chris Benson:** \[00:28:12.19\] If the listeners could see my face right now, I'm blushing, for having done that... But keep going, sorry about that.
+**Chris Benson:** \[28:12\] If the listeners could see my face right now, I'm blushing, for having done that... But keep going, sorry about that.
 
 **Anima Anandkumar:** \[laughs\] Yeah, and as I said, I was getting into this new field in the sense of publishing - these conferences, new people... So there was a bit of me that was stressed, "Oh my god, I'm starting this faculty life, I am doing this...", but there were just truly fascinating problems. I was looking at these probabilistic models and asking questions like "When can you learn these models at scale?" and "What do you mean there's a correlation between these models? Are there a few variables that can summarize the effects?" That's when I got introduced into latent variables, the idea that we can't measure everything in this world. There's always gonna be something hidden, and it's the hidden thing that maybe we are really after, that's what we'd like to learn, but we can't directly measure it.
 
@@ -224,7 +224,7 @@ Back then, these main machine learning conferences -- back then it was called NI
 
 **Anima Anandkumar:** Yeah, exactly. So back then, the question was "What's the simplest thing you can do there?" I tell my students and I tell my colleagues and all the researchers I work with - first think about the simplest thing you can do, and if it doesn't work, then go to the more and more complex... Because one of the dangers which I'll come to later with deep learning is you may just overly get it complicated and not understand what's going on.
 
-**Chris Benson:** \[00:32:01.29\] You sound like an engineer when you say that; I can totally see that background there... You know, start with the simple.
+**Chris Benson:** \[32:01\] You sound like an engineer when you say that; I can totally see that background there... You know, start with the simple.
 
 **Anima Anandkumar:** Yeah, I have a lot of respect for the traditional engineering that makes aircrafts fly today, and all the transportation structures, everything. There's a lot, I think, which will come to my latest part, in the end, about my talk - it's blending the old and the new together.
 
@@ -250,7 +250,7 @@ The most basic algorithm - or I wouldn't call it basic, because it was sophistic
 
 **Anima Anandkumar:** Yeah, so I'm still at UC Irvine, although I took a break... This particular work, when I first started doing tensors, was in Microsoft Research. Microsoft Research, even now on the East Coast, this is headed by Jennifer Chayes... Again, an amazing role model, both for women and men. She wants to encourage open research. I went there, I gave a talk on one of my earlier topics that works on statistical physics, and her background is physics. She was so fascinated I used it in machine learning; that was not a connection that many people made before... So she was like "Oh, come over, hang out, talk to researchers, see what comes out." So we had no agenda.
 
-\[00:36:12.01\] There was \[unintelligible 00:36:12.28\] and Daniel Shue and many other researchers around... One day we started bouncing ideas about "Okay, there is PCA, this kind of algorithm on matrices...", now this topic modeling, which is looking at trying to extract topics - is that enough? And if not, why not? Why should we need more? I'm not an expert on tensors at that point, and nobody is, because we don't really study that in undergraduate. But I think asking questions is where you suddenly lead into a whole new direction and whole new area that's completely unexpected.
+\[36:12\] There was \[unintelligible 00:36:12.28\] and Daniel Shue and many other researchers around... One day we started bouncing ideas about "Okay, there is PCA, this kind of algorithm on matrices...", now this topic modeling, which is looking at trying to extract topics - is that enough? And if not, why not? Why should we need more? I'm not an expert on tensors at that point, and nobody is, because we don't really study that in undergraduate. But I think asking questions is where you suddenly lead into a whole new direction and whole new area that's completely unexpected.
 
 **Chris Benson:** And is that what happened to you?
 
@@ -276,7 +276,7 @@ In the beginning, people were shooting us down. "Oh, this is not convex. How do 
 
 So I think that revolution was happening, that convex is great, but so many things are not convex, and we can't just try to force things to be convex when they are not. We'd be limiting ourselves so much.
 
-**Chris Benson:** \[00:40:14.25\] Understood. So for the audience here, if you could see her - she is so passionate about what she is talking about. She's waving her arms around... It must be a delight to take classes from you, for your students. Keep going. We're both smiling a lot, because this is so fascinating... And you've made my job so far as an interviewer so easy, because you're good at carrying it on. So tell us how you delved into it.
+**Chris Benson:** \[40:14\] Understood. So for the audience here, if you could see her - she is so passionate about what she is talking about. She's waving her arms around... It must be a delight to take classes from you, for your students. Keep going. We're both smiling a lot, because this is so fascinating... And you've made my job so far as an interviewer so easy, because you're good at carrying it on. So tell us how you delved into it.
 
 **Anima Anandkumar:** Thanks, Chris. I love talking about it, and by the way, my most recent class - I will make all the videos online, so you are welcome to go check them out.
 
@@ -304,7 +304,7 @@ One of the first things we did there was to ask "Okay, where do tensors and deep
 
 **Chris Benson:** That makes sense, yes.
 
-**Anima Anandkumar:** \[00:44:10.21\] So why do we then limit all to two dimensions and just matrices, when we go through the layers? That's kind of the basic intuition. If you think about the image, it's width and height, and if it's a colored image, it's now also RGB channels.
+**Anima Anandkumar:** \[44:10\] So why do we then limit all to two dimensions and just matrices, when we go through the layers? That's kind of the basic intuition. If you think about the image, it's width and height, and if it's a colored image, it's now also RGB channels.
 
 **Chris Benson:** Sure.
 
@@ -332,7 +332,7 @@ So that was an amazing and a very busy time there. I launched the topic detectio
 
 Yeah, so seeing both the engineering side of it from a big production viewpoint, and all the pain points... This is where the SageMaker machine learning platforms that got also discussed in the keynote yesterday when Jensen Huang invite Matt Garman from AWS, right? It was a part of the launch...
 
-**Chris Benson:** \[00:48:01.11\] Sure. I've used SageMaker, so I now know...
+**Chris Benson:** \[48:01\] Sure. I've used SageMaker, so I now know...
 
 **Anima Anandkumar:** Yes. So I was very much involved right from the beginning to the launch. So all that was great learning lessons, and that's when at that point I got an offer from Caltech. There's so much happening in Amazon and in industry in general... And that's when I asked, "Okay, what do I do? Because I'm in a great place right now." But I do think for the longer-term research, and especially going to the fundamental sciences -- you know, Caltech in particular has such a strong strength... And for me, machine learning and artificial intelligence would make a true impact. I mean, not to downplay the other ones; the others are important, too. To me, a holy grail would be "What basic scientific discoveries can we make with that?" If we can enable that, that can just have such transformative effects.
 
@@ -368,7 +368,7 @@ Yeah, so seeing both the engineering side of it from a big production viewpoint,
 
 **Anima Anandkumar:** That's right. And now we have to have higher standards because all eyes are upon us, right?
 
-**Chris Benson:** \[00:52:11.14\] Absolutely.
+**Chris Benson:** \[52:11\] Absolutely.
 
 **Anima Anandkumar:** Now it's in the public, and they're asking, "Oh, what is this name?" And worse than that, you have these few bad actors use the name to gain notoriety, because any news is news, right? Any publicity is good, because everybody's competing for talent, competing for attention... So you'd have these T-shirts with things like "My NIPS \[unintelligible 00:52:36.03\]" and all these...
 
@@ -396,7 +396,7 @@ I think it really helped us grow as a community better, because it brought us to
 
 **Anima Anandkumar:** Yeah, and this is to me just the beginning. There's so many efforts, like AI For All, that brings in under-represented high school students, or Fast.ai, democratizing AI to everybody... And there's the human perspective of AI that was launched at Stanford just a few days ago, that's specifically saying ethics should be at the forefront. I think these are all things that we as researchers, we as people having a stake in AI, in whichever different role, should really think about.
 
-**Chris Benson:** \[00:56:14.25\] I'm gonna turn us a little bit, and as we start to wind up, I'd like to get -- you've talked a little bit about your first talk, and the role of tensors in machine learning, but you also had a fascinating talk, and I know Daniel is going to be incredibly jealous that I was the one, because Daniel came into AI from physics, and I did not... But your talk is "Infusing physics into deep learning algorithms for stable landing of drones", and I was wondering if you'd share a few minutes of that was about...
+**Chris Benson:** \[56:14\] I'm gonna turn us a little bit, and as we start to wind up, I'd like to get -- you've talked a little bit about your first talk, and the role of tensors in machine learning, but you also had a fascinating talk, and I know Daniel is going to be incredibly jealous that I was the one, because Daniel came into AI from physics, and I did not... But your talk is "Infusing physics into deep learning algorithms for stable landing of drones", and I was wondering if you'd share a few minutes of that was about...
 
 **Anima Anandkumar:** Sure.
 
@@ -422,7 +422,7 @@ In this work we said, "Okay, let's now learn this unknown ground effect through 
 
 **Chris Benson:** So you started with a simple thing, true to your engineering, didn't work, and you did then the logical thing about...
 
-**Anima Anandkumar:** Yeah. And it also shows that we shouldn't apply deep learning blindly. Then once we stabilized the network, and we also have guaranteed theoretically that this will not crash, meaning it has \[00:59:30.21\] perspective (that's the technical term), then that also worked beautifully... I have videos of it where you see a very quick speed-up, and still a very fast, but smooth landing, with deep learning. To me, this is just even the first step. Ultimately, what we wanna ask is these autonomous drone flights - that you can certify they are safe, and that still today, given the recent incidents, we have so much to uncover there.
+**Anima Anandkumar:** Yeah. And it also shows that we shouldn't apply deep learning blindly. Then once we stabilized the network, and we also have guaranteed theoretically that this will not crash, meaning it has \[59:30\] perspective (that's the technical term), then that also worked beautifully... I have videos of it where you see a very quick speed-up, and still a very fast, but smooth landing, with deep learning. To me, this is just even the first step. Ultimately, what we wanna ask is these autonomous drone flights - that you can certify they are safe, and that still today, given the recent incidents, we have so much to uncover there.
 
 **Chris Benson:** Yes.
 

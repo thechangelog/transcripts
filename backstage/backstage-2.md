@@ -28,7 +28,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Tim Smith:** \[laughs\]
 
-**Jerod Santo:** \[00:04:14.09\] Do you have a man-crush on Matt Damon, or what's within The Martian specifically that makes that one the one you wanna watch?
+**Jerod Santo:** \[04:14\] Do you have a man-crush on Matt Damon, or what's within The Martian specifically that makes that one the one you wanna watch?
 
 **Adam Stacoviak:** I'm a Sci-Fi guy, I listened to the book on audible... The audible book is so much better than the movie, but the movie is definitely a good meal replacement for the actual 9+ hour-long book.
 
@@ -110,7 +110,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Tim Smith:** Yeah.
 
-**Jerod Santo:** \[00:07:53.13\] Well, that's terrible. Okay, that I get. That, I totally get, in terms of like "I'm gonna rip these, because I can't put up with all of this cruft." It's like consumer hostile activity going on. What do you spend on Blu-ray - $30, $20?
+**Jerod Santo:** \[07:53\] Well, that's terrible. Okay, that I get. That, I totally get, in terms of like "I'm gonna rip these, because I can't put up with all of this cruft." It's like consumer hostile activity going on. What do you spend on Blu-ray - $30, $20?
 
 **Adam Stacoviak:** Some of them, yeah. It depends. A good 4K Blu-ray that has the 4K disc, the 1080p Blu-ray, and potentially separate featurettes or a bonus disc, plus a digital copy - which is a common package these days - is averaging probably between $20 and $30.
 
@@ -156,7 +156,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Adam Stacoviak:** Disney movies aren't gonna be on Netflix forever... So you can't rely on them either. But if you own it, you can always rely on having the disc, but now you've got the experience. So one layer removed from that is backing up to a known format called MKV. On a Mac you can do that, on Windows you can do that via this application called Make MKV. It's free. I think portions of it might even be open source, which is kind of interesting.
 
-\[00:12:00.28\] Now you have this backed up, full resolution version; it's the exact movie. What happens is you pop your disc into a player - which we'll get into later, because there's a player... We'll talk about that later. There's some different players you can do, especially from the Mac. Macs don't have Blu-ray support out the box.
+\[12:00\] Now you have this backed up, full resolution version; it's the exact movie. What happens is you pop your disc into a player - which we'll get into later, because there's a player... We'll talk about that later. There's some different players you can do, especially from the Mac. Macs don't have Blu-ray support out the box.
 
 **Jerod Santo:** It's a bag of hurt; isn't that what Steve Jobs called it? Blu-ray is a bag of hurt, I think... Or a bag of trouble? What did he call it? It was a bag of something. I'll get the quote, keep going.
 
@@ -202,7 +202,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Adam Stacoviak:** Probably not very often, because they're stuck in a box, the experience is bad - all the things we've talked about. However, if you could just on your Apple TV, or on your phone, or even on your web browser navigate somewhere or open an app and select from your player and literally, in seconds, be playing your favorite flick, well then there's trade-offs. You can deal with anything that may change from the original source, and there' s always something that's a little different... But from what I can tell, not much. So much not much that it's not even worth talking about.
 
-\[00:16:03.05\] Now, there are certain cases where -- I did a demo for you guys; you guys can laugh at me here. Interstellar did have some issues; it just is a really high-resolution movie... It could be the media, it could be the transcoding process from disc to file format, that somehow that file is just horror to read, unless you in Plex use a different version, or not go with the original quality.
+\[16:03\] Now, there are certain cases where -- I did a demo for you guys; you guys can laugh at me here. Interstellar did have some issues; it just is a really high-resolution movie... It could be the media, it could be the transcoding process from disc to file format, that somehow that file is just horror to read, unless you in Plex use a different version, or not go with the original quality.
 
 These things, even when you have a Blu-ray in your player, it's streaming to the transcoder in the player at a megabits/second kind of format. Full resolution is like 20-30 megabits/second; that's original, unchanged, uncompressed. Now, you're still compressing it and that gets faster. Compression can go to, let's say, 15, 10, 9, 8 megabits/second... Obviously, if you compress it, it gets easier to transcode faster, it's less bandwidth across your player, less bandwidth across your HDMI cable, across your network, whatever.
 
@@ -256,7 +256,7 @@ But I played this thing in this demo and it kept buffering, so that means the wh
 
 **Adam Stacoviak:** Well, let me go down my list here then. I'll go down this list. I actually have a one through nine list. I could probably go on further -- I just put down what I thought was pretty cool. First up is back-up your Blu-ray or your DVD to the MKV full format in full resolution, assuming that's your strategy... Which is mine, and I'm just cool with that.
 
-\[00:20:10.09\] So I'm pulling down 10, 15, 20, sometimes 30 GB files from my media and I'm storing it. Plex is basically a real-time transcode of this full resolution file format, which you can pretty much format for any new machine or whatever, and it does this all in real-time, or in the background. I'll pause here and say typically you would rip it, and then if you knew that your strategy was not store the full version of it, and you know that you'll always watch it on iOS, for example, then you can open up HandBrake and feed the MKV format, and then transcode it to a newer, lesser version of it... Which defeats the whole purpose, in my opinion. Well, you don't have to do that, because Plex does all that for you. So you can easily manage and play different versions.
+\[20:10\] So I'm pulling down 10, 15, 20, sometimes 30 GB files from my media and I'm storing it. Plex is basically a real-time transcode of this full resolution file format, which you can pretty much format for any new machine or whatever, and it does this all in real-time, or in the background. I'll pause here and say typically you would rip it, and then if you knew that your strategy was not store the full version of it, and you know that you'll always watch it on iOS, for example, then you can open up HandBrake and feed the MKV format, and then transcode it to a newer, lesser version of it... Which defeats the whole purpose, in my opinion. Well, you don't have to do that, because Plex does all that for you. So you can easily manage and play different versions.
 
 Let's stay Interstellar has some issues on your device, your Apple TV. Well, you can tell it to create a separate version from the original, that doesn't have any issues; the resolution barely changes if you even pay attention. If you watch a movie on Netflix, you are not getting full resolution, Blu-ray, 1080p quality. At all.
 
@@ -286,7 +286,7 @@ Here's a cool one - if you want to, you can play and access your Plex media from
 
 **Adam Stacoviak:** Great question. You do have to have a port forward, and that's fairly easy... So if you're comfortable with doing any firewall stuff... The other one though is you can actually use -- was it UPnP, I believe it is...?
 
-**Jerod Santo:** \[00:24:14.13\] Universal Plug and Play?
+**Jerod Santo:** \[24:14\] Universal Plug and Play?
 
 **Adam Stacoviak:** Yeah. So if you're cool with that, which has its trade-offs as well, then the media server can actually do that for you, and do the firewall stuff. But if you're a super nerd and you wanna actually poke a hole, you can do the whole public -- on your IP address, you can... This is really easy though. If you have a firewall--
 
@@ -320,7 +320,7 @@ In this case, you've got this rip, you sync your movies to your device, and you 
 
 **Adam Stacoviak:** And syncing is so easy. When you sync, it says "Which version do you want? Original, or do you wanna transcode to High/Medium/Low format?" and they give you options. If you're like "I'm trying to get out of here fast" or "I don't have a lot of space on my device", or for whatever reasons... You can take the original copy, it'll transcode that for you, it'll sync it to your device, and then you move on. Or you can pull down a lesser version for bandwidth or storage reasons... The point is that you can take it with you... No different than as if you would sync from VUDU, because VUDU allows you to download as well, and usually they force you to download SD versions, which basically is 720p... A low-grade 720p.
 
-**Tim Smith:** \[00:28:14.05\] For clarity, the mobile sync is a Plex Premium feature.
+**Tim Smith:** \[28:14\] For clarity, the mobile sync is a Plex Premium feature.
 
 **Adam Stacoviak:** It is. But here's the thing - if you're doing this, go Plex Premium. I mean, it's just a no-brainer. You're gonna enjoy it. For me, if you enjoy this stuff... Think about how long you've had Netflix. Year! $10-$12/month, $15/month - I don't know what the number is these days... You do the math. Four or five months later you've got yourself a Plex pass, and you pay them one time.
 
@@ -354,7 +354,7 @@ But yeah, anyway... I have more commentary on what Adam all said, but I'll wait 
 
 **Jerod Santo:** Yeah, go ahead.
 
-**Tim Smith:** \[00:31:43.21\] Okay, so here's my main issue with this whole thing - and it's something I put at the bottom of the doc... My problem with Plex - because I did use it for a little bit - was the fact that I have to manage the media, and that's the part that I don't like. I love iTunes, because I don't have to keep track where those files are, I don't have to make sure that they're backed up, and I don't have to pay for RAID space, or an upgraded Dropbox to put files in there. With iTunes, I just download the ones that I want, the TV shows or the movies that I wanna watch to my device when I need it, and then I remove them when I'm done with it, and they're safe in the cloud. I don't have to worry about it.
+**Tim Smith:** \[31:43\] Okay, so here's my main issue with this whole thing - and it's something I put at the bottom of the doc... My problem with Plex - because I did use it for a little bit - was the fact that I have to manage the media, and that's the part that I don't like. I love iTunes, because I don't have to keep track where those files are, I don't have to make sure that they're backed up, and I don't have to pay for RAID space, or an upgraded Dropbox to put files in there. With iTunes, I just download the ones that I want, the TV shows or the movies that I wanna watch to my device when I need it, and then I remove them when I'm done with it, and they're safe in the cloud. I don't have to worry about it.
 
 One of the things that you said earlier was the fact that with the MKV format you have it in full resolution and then you can pick which version you want... I mean, it's weird for me as a geek to say this, but I don't wanna care about that. I just wanna watch a movie, and I want the software to say "This is the best version that we can give you at the internet speed that you're at."
 
@@ -388,7 +388,7 @@ One of the things that you said earlier was the fact that with the MKV format yo
 
 **Jerod Santo:** Between a 4K Blu-ray versus a 4K Apple version?
 
-**Adam Stacoviak:** \[00:35:44.13\] Well, let's skip 4K because you can't rip that anyways... Let's just say 1080p HD Blu-ray, original, uncompressed. You can tell the difference. You'll see banding, you'll see color shifts, you'll hear sound differences... They even compress the audio, as well as the video; so you'll hear a difference if you have stereo speakers, or maybe even a soundbar, or something that's upgraded to make your experience better, you will tell the difference, and you can.
+**Adam Stacoviak:** \[35:44\] Well, let's skip 4K because you can't rip that anyways... Let's just say 1080p HD Blu-ray, original, uncompressed. You can tell the difference. You'll see banding, you'll see color shifts, you'll hear sound differences... They even compress the audio, as well as the video; so you'll hear a difference if you have stereo speakers, or maybe even a soundbar, or something that's upgraded to make your experience better, you will tell the difference, and you can.
 
 Where Plex I believe really does well and is less trade-offs is that you're getting the original, locally. You're not even using the internet bandwidth. It's locally to you. And provided you have a decent home network, this shouldn't be an issue.
 
@@ -416,7 +416,7 @@ Now, pretty much when you buy something today it's sort of like a given, because
 
 **Adam Stacoviak:** So there's scenarios where it may not work perfectly for you, and I can see how it's not a one-to-one; it's more of like a "maybe", a "one-maybe" for you...
 
-**Tim Smith:** \[00:39:56.11\] Yeah.
+**Tim Smith:** \[39:56\] Yeah.
 
 **Adam Stacoviak:** In other cases, I just think this provides more flexibility... Because I have so many Blu-rays that I have just not watched or played or whatever because they're literally -- they were; now they're right behind me, because I'm ripping them all... But they were in an attic. And I would wanna watch them, but I'd be like, "Well... I mean, I've gotta get up and go find it, and put it in the player", and then deal with the whole trailer stuff that we've talked about before... And I was like, "Well, I just won't do that." So I've got a lot of movies unwatched that I would totally watch again and again, with friends, family, whatever, that I just don't.
 
@@ -436,7 +436,7 @@ I'll go out to a Redbox and rent something if I think that I know I wanna hear i
 
 **Jerod Santo:** Yeah, I believe that. I believe that more than the video difference, especially if you have a 7.1 setup.
 
-**Adam Stacoviak:** \[00:43:49.12\] If we all agree that sound is -- yeah, sound is way important when it comes to a movie. It can make a movie. Speaking of, in particular - and let's get into an actual movie here and see if we all agree on this... Blade Runner 2049.
+**Adam Stacoviak:** \[43:49\] If we all agree that sound is -- yeah, sound is way important when it comes to a movie. It can make a movie. Speaking of, in particular - and let's get into an actual movie here and see if we all agree on this... Blade Runner 2049.
 
 **Jerod Santo:** Never seen it.
 
@@ -488,7 +488,7 @@ I was actually more like that with music. Tim, I was in the same boat with you w
 
 **Adam Stacoviak:** I'll agree with you on the music part of it. My disc collection I did end up ripping from the original media, and I think I was so bullish on the idea that I actually got rid of the media... Like "I don't need this anymore. I've ripped it to disc and I've got it forever", and I do, I still have it.
 
-**Jerod Santo:** \[00:48:16.18\] Yeah, I still have a library that -- when I got stolen, I went on Napster and just redownloaded every... Actually, it was post-Napster. It was probably LimeWire, or Gnutella, or the crazy things after Napster got taken down.
+**Jerod Santo:** \[48:16\] Yeah, I still have a library that -- when I got stolen, I went on Napster and just redownloaded every... Actually, it was post-Napster. It was probably LimeWire, or Gnutella, or the crazy things after Napster got taken down.
 
 **Tim Smith:** I remember LimeWire.
 
@@ -532,7 +532,7 @@ The experience of watching it, to me, if you're really into this stuff, is well 
 
 **Adam Stacoviak:** Mine acts as Plex and as a NAS for me and other people that use our network to backup photos, to backup other things. So it's a multi-face computer. I will say some requirements may be -- you should have strong Wi-Fi. I would prefer wired when it's a main screen. If it's your living room, or your media room, those would be wired, so you can truly enjoy full resolution. But I've gotta be honest with you, I enjoy full resolution on my iPhone 7+ device on Wi-Fi. Full resolution, no buffering, no concerns, ever. Ever. I've never had an issue playing, even Interstellar, that caused me some issues one time. Full resolution on Wi-Fi.
 
-\[00:52:26.03\] So I would just say strong Wi-Fi, or at least be able to make it better or fine-tune your connection choosing different channels, whatever. Whatever you can do to make your Wi-Fi more strong for you, then I would suggest that, and prefer wired when you can do wired back to your network.
+\[52:26\] So I would just say strong Wi-Fi, or at least be able to make it better or fine-tune your connection choosing different channels, whatever. Whatever you can do to make your Wi-Fi more strong for you, then I would suggest that, and prefer wired when you can do wired back to your network.
 
 Some sort of dedicated computer - it could be your machine and you just run it for the cases you want to... So this is like lower buy-in, higher buy-in. You don't have to have an actual dedicated -- although my preference would be something dedicated.
 
@@ -568,7 +568,7 @@ On the storage side, your mileage may vary, but basically if you're gonna go the
 
 **Tim Smith:** That's what Backblaze does with their NAS backup. You're only paying for the amount of data that you're actually backing up.
 
-**Adam Stacoviak:** \[00:56:03.18\] And I'm sure you could probably just have that installed as an app, even on like a Mac OS, and point it at a drive and say "This is the drive I want you to watch, or these drives", and those things sync to, say, different sources or endpoints inside of Backblaze.
+**Adam Stacoviak:** \[56:03\] And I'm sure you could probably just have that installed as an app, even on like a Mac OS, and point it at a drive and say "This is the drive I want you to watch, or these drives", and those things sync to, say, different sources or endpoints inside of Backblaze.
 
 **Jerod Santo:** Backblaze is basically $5/month per machine. So if it's mounted as a drive on that machine and it's not like an actual network storage, then that computer backs up, and it's just another...
 

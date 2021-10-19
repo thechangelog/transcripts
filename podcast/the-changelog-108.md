@@ -8,7 +8,7 @@
 
 **Adam Stacoviak:** Yeah, me too. This is episode 108, and today's show is sponsored by Digital Ocean.
 
-**Break:** \[00:00:56.05\]
+**Break:** \[00:56\]
 
 **Adam Stacoviak:** I'm excited to have our guest on today, Katrina Owen. She's an instructor at Jumpstart Lab, and maker of Exercism (I got that pronunciation right), which we hope to learn quite a bit about on this show today. Katrina, without further ado, welcome to the show.
 
@@ -56,7 +56,7 @@
 
 **Jerod Santo:** So let's go back to you knocked on someone's door and said "Give me a job" and they did... Can you elaborate on that? It sounds pretty amazing.
 
-**Katrina Owen:** \[00:05:53.17\] Yeah, so my resume basically was a bunch of like "I helped people do this" and "I built that", and it's basically not very impressive... But then it said "And I have a degree in Genetics" and the CTO looked at it and said "You must be pretty smart", so I got the job.
+**Katrina Owen:** \[05:53\] Yeah, so my resume basically was a bunch of like "I helped people do this" and "I built that", and it's basically not very impressive... But then it said "And I have a degree in Genetics" and the CTO looked at it and said "You must be pretty smart", so I got the job.
 
 At first, all I really was gonna do was help them test stuff and write little scripts and debug and whatever, but within a very short time I was writing production code... So I think it took about three months before I was really productive. Absolutely dangerous. I wouldn't wanted to have me as the only developer, but a team of smart people - they absolutely kept me busy and I was producing content and being useful.
 
@@ -82,7 +82,7 @@ I found that to be very frustrating and I got kind of obsessed with the whole XP
 
 But after a while I got frustrated with that and decided to move to a different language, and at least find a company where they cared about testing than they did at the previous company. And this was at the time when I was also moving back to Norway.
 
-\[00:09:57.15\] So I studied genetics in Norway, moved to L.A., worked at this startup, and then moved back to Norway after three years. And in Norway I went to a Ruby meetup, and I guess there were probably 15 people there. The next day a couple companies called me up and said "Hey, you should come talk to us." One of those companies hired me on as a developer, and I more or less learned Ruby on the job there. I stayed there for about 2,5 years.
+\[09:57\] So I studied genetics in Norway, moved to L.A., worked at this startup, and then moved back to Norway after three years. And in Norway I went to a Ruby meetup, and I guess there were probably 15 people there. The next day a couple companies called me up and said "Hey, you should come talk to us." One of those companies hired me on as a developer, and I more or less learned Ruby on the job there. I stayed there for about 2,5 years.
 
 From there, I did the talk Therapeutic Refactoring, which let me travel around and talk to people and meet people at a bunch of conferences... And I also was kind of done at the company. I loved the company I worked at in Norway; they are absolutely amazing. They always come up with great ideas, they're always inventing things... Their latest project is taking government map data and using it to show on the web 3D maps of Norway, and then you can select a square of Norway and click, and you get sent a 3D printed model of the landscape that you've selected... Which is awesome. So they're always making up things like that.
 
@@ -120,7 +120,7 @@ I met Jeff from Jumpstart Lab at a conference, and we talked, and eventually -- 
 
 **Katrina Owen:** When I was working at this Ruby job in Norway I felt very stressed out about always having to -- there was always this pressure to ship, and there always is, because that's what we do, that's the whole point, right? And I felt like I was always in so much of a hurry that I didn't really learn very much... I'd often be throwing code that I wasn't happy with into the repository, and I felt like I never had time to go back to it.
 
-\[00:14:23.08\] One day I just realized that I wanted to spend time, just a little bit of time making sure that something was beautiful; I didn't care what... So I'd come in really early in the morning before anyone else got to work and spend about an hour just writing tests and refactoring some tiny piece of code in the project.
+\[14:23\] One day I just realized that I wanted to spend time, just a little bit of time making sure that something was beautiful; I didn't care what... So I'd come in really early in the morning before anyone else got to work and spend about an hour just writing tests and refactoring some tiny piece of code in the project.
 
 I did this on a daily basis for quite a long time, probably about a year, and it transformed how I thought about programming in many ways. The first thing was that because I was writing tests and refactoring for my own pure pleasure - it bothered me to wait for the test suite to run... So waiting for any number of seconds -- anything over a second was very frustrating, and not pleasurable, and I was there just to refactor for the pure pleasure of it. So I started looking into how to design my code in such a way that the test suite would be very fast and very responsive, and that led me into this refactoring loop that had this immediate feedback, and never really took me out of flow.
 
@@ -160,7 +160,7 @@ I ended up in this flow state for a long time, and it was very pleasurable. It f
 
 **Adam Stacoviak:** I know for me, sometimes when I'm isolated and I can kind of lament a little bit with you on that state of bliss for the bit there... Even if it may not be super-useful when I'm done, whatever I've just shipped - it might be optimizing one line to be easier to read, and I can imagine how this is gonna change three other things I'm working on to make those smaller or more readable, more bite-sized, more translatable, whatever the reasons are for it... I think that that might also be part of the refactoring. It's like this constant kind of making things better, even if it's just for yourself.
 
-**Katrina Owen:** \[00:20:03.16\] Yeah.
+**Katrina Owen:** \[20:03\] Yeah.
 
 **Jerod Santo:** Moving from the refactoring over to your project, Exercism... It seems like that really is all about -- I mean, it's about code review, it's really about refactoring... Isn't it?
 
@@ -182,7 +182,7 @@ So these patterns emerge, and these discussions - by asking "Why did you name it
 
 **Katrina Owen:** No, you don't have like two geniuses giving feedback; everybody writes code, and then once you have completed an exercise - and you actually decide on your own when you feel like you've completed it, you've had enough feedback and you're done, you move on... At that point you gain access to everyone else who is currently doing that same exercise that you just completed.
 
-**Jerod Santo:** \[00:24:15.24\] So you get to see all their code...
+**Jerod Santo:** \[24:15\] So you get to see all their code...
 
 **Katrina Owen:** Yeah.
 
@@ -222,7 +222,7 @@ I was like, "I really like these names because - this, that and the other. I lov
 
 **Adam Stacoviak:** Since you're talking about how to nitpick, is the "How to Nitpick" documentation - is that a living document then?
 
-**Katrina Owen:** \[00:27:54.06\] It's a living document, and right now it's nowhere near done. I keep seeing new things that I wanna address, and right now the documentation doesn't seem to be the best place to do that, so I'm gonna work with the UX people to figure out how to present that information in a way that's useful and timely, like getting that information when you actually are trying to nitpick, rather than when you decide to go read some documentation.
+**Katrina Owen:** \[27:54\] It's a living document, and right now it's nowhere near done. I keep seeing new things that I wanna address, and right now the documentation doesn't seem to be the best place to do that, so I'm gonna work with the UX people to figure out how to present that information in a way that's useful and timely, like getting that information when you actually are trying to nitpick, rather than when you decide to go read some documentation.
 
 **Jerod Santo:** So you're a Ruby developer, you have a command line client written in Go...
 
@@ -250,7 +250,7 @@ I'm still not anywhere near competent, but I can get a little bit of stuff done 
 
 **Katrina Owen:** There's just one way to do it, and that's kind of a relief. When I do so much Ruby, it's really a relief to be on the other end of that scale. I'm very excited about the concurrency model in Go, I'm also very excited about the fact that there's no inheritance... It's object-oriented, but it's all through composition. It has this incredible focus on the interface. The API of your object is very important, and I really like that.
 
-**Jerod Santo:** \[00:32:21.05\] I can kind of relate on the "There's only one way to do it" being attractive. I'm also a Ruby developer and I've loved the freedom that Ruby gives us to express ourselves... And then over time I see actually my tastes in Ruby changing to where something that I used to think was a good way of writing Ruby, now I look at that and it's unattractive or it's silly, or whatever reason... Then I start porting my Ruby over to my new Ruby style, and I look at my old style and I'm like "I can't believe I used to write like that." And I'm not talking about readability and stuff, I'm just talking about pure style. After a while, that kind of just wears on you; it's like, "I wish they'd just tell me how to write it and let me think about the problem-solving." I know there's use cases for both scenarios, but that is an attractive thought, although I haven't actually got into trying Go yet, so...
+**Jerod Santo:** \[32:21\] I can kind of relate on the "There's only one way to do it" being attractive. I'm also a Ruby developer and I've loved the freedom that Ruby gives us to express ourselves... And then over time I see actually my tastes in Ruby changing to where something that I used to think was a good way of writing Ruby, now I look at that and it's unattractive or it's silly, or whatever reason... Then I start porting my Ruby over to my new Ruby style, and I look at my old style and I'm like "I can't believe I used to write like that." And I'm not talking about readability and stuff, I'm just talking about pure style. After a while, that kind of just wears on you; it's like, "I wish they'd just tell me how to write it and let me think about the problem-solving." I know there's use cases for both scenarios, but that is an attractive thought, although I haven't actually got into trying Go yet, so...
 
 **Katrina Owen:** Yeah. I really like both styles, or both this really very varied and expressive craziness that we're allowed in Ruby, and the concise expressive, minimalistic approach that we're encouraged to use in Go. I really like both, and I think that they can both inform the other.
 
@@ -272,7 +272,7 @@ So I guess we talked about Go a bit here... Originally, the CLI was written in R
 
 **Adam Stacoviak:** Oh, makes sense...
 
-**Katrina Owen:** \[00:36:09.17\] ...and it's really a pain to set up all the Ruby -- like, setting up Ruby on your machine is actually quite an ordeal, especially if you don't know Ruby. So with the Go, it's possible to cross-compile for all the different operating systems and architectures, and people just have to download and install this one binary, and that's it. No dependencies.
+**Katrina Owen:** \[36:09\] ...and it's really a pain to set up all the Ruby -- like, setting up Ruby on your machine is actually quite an ordeal, especially if you don't know Ruby. So with the Go, it's possible to cross-compile for all the different operating systems and architectures, and people just have to download and install this one binary, and that's it. No dependencies.
 
 **Adam Stacoviak:** So on the homepage that you have, the Try It version, the quickie, "don't worry about telling us your Github", "just do it now" version, I guess, will that eventually go away, or is it dead and you just haven't removed it yet?
 
@@ -310,7 +310,7 @@ Some people are doing exercises in the language that they use primarily, and usi
 
 **Jerod Santo:** I'm logged into my homepage now on Exercism, and it looks like I got a zero in the upper right-hand corner; are there some gaming aspects that you've started, or what is that zero?
 
-**Katrina Owen:** \[00:39:45.23\] No... It's notifications. No notifications. Again, I'm gonna be talking to UX people to help me clarify all of that. I don't actually want gaming aspects to this. It's really hard to game things well and encourage the right behavior, and it's so easy to get it wrong and encourage really arbitrary, wrong, uninteresting behavior and unhelpful types of competition, so I'm trying to avoid that.
+**Katrina Owen:** \[39:45\] No... It's notifications. No notifications. Again, I'm gonna be talking to UX people to help me clarify all of that. I don't actually want gaming aspects to this. It's really hard to game things well and encourage the right behavior, and it's so easy to get it wrong and encourage really arbitrary, wrong, uninteresting behavior and unhelpful types of competition, so I'm trying to avoid that.
 
 **Adam Stacoviak:** I fully agree with you. I was actually thinking about that a bit ago. I just happened to be studying the characteristics of a social network; at my day job I work at Pure Charity, which I guess is kind of one part social network, one part crowdsource funding... I was just thinking about different things we've talked about, and for whatever reason gaming was on my -- these gaming things that have been all the rage, and then have kind of trickled off since then... Every time I kind of go into something that kind of gives me points, I'm just like "Stop that! It's annoying. Don't do that." I don't like that stuff, it drives me crazy.
 
@@ -334,7 +334,7 @@ At the same time, sometimes it can be effective. It is kind of putting it to goo
 
 "I'm looking at this code and I'm seeing that this is repeating over and over. Is there a way to remove this duplication? Or I'm seeing that the same parameters pass to all of these methods. Perhaps there's a second object where these methods would belong in." So it's looking at the existing code and being very specific and actionable about the things that you see there, rather than either just being sort of generically positive ("Hey, that's great!") or pushing it in directions based on some future speculative "Well, maybe new requirements are coming down the line..." - we don't know anything about requirements; let's just look at the code that we have, and look at the code smells or whatever that we can identify here, and address those.
 
-**Adam Stacoviak:** \[00:44:16.09\] I was just looking at my notes too, I also wanna glaze over this - I was thinking about your counterpart in writing the Go CLI... I'm not sure how you say his last name, so I don't wanna butcher it, but I know his first name is Mike.
+**Adam Stacoviak:** \[44:16\] I was just looking at my notes too, I also wanna glaze over this - I was thinking about your counterpart in writing the Go CLI... I'm not sure how you say his last name, so I don't wanna butcher it, but I know his first name is Mike.
 
 **Katrina Owen:** Mike Gehard, yeah. He's a developer at Pivotal Labs. He's based out of Boulder, which isn't too far from Denver. He comes down to the office that I work at every once in a while, and we've talked about design and refactoring and pairing and teaching and a bunch of those things, and he's been working on the Cloud Foundry command line client in Go for the past few months... So he helped me get started with that, wrote all of the basic things, and then I basically ask him for feedback when I start mucking about with things.
 
@@ -382,7 +382,7 @@ At the same time, sometimes it can be effective. It is kind of putting it to goo
 
 **Adam Stacoviak:** Cool. Well, I'm anxious to hear your answer to this next one, which is who is your programming hero?
 
-**Katrina Owen:** \[00:48:16.02\] Sandi Metz. Sandi Metz has been programming since 1978. She's been one of those people who just basically stayed in her caved and programmed always, until maybe 3-4 years ago, where she went to a conference and was caught in a hallway rant about design... \[laughter\] So this publisher from Addison Wesley overheard her ranting in the hallway at some Ruby conference, and spent two or three years convincing her to write a book, which she did.
+**Katrina Owen:** \[48:16\] Sandi Metz. Sandi Metz has been programming since 1978. She's been one of those people who just basically stayed in her caved and programmed always, until maybe 3-4 years ago, where she went to a conference and was caught in a hallway rant about design... \[laughter\] So this publisher from Addison Wesley overheard her ranting in the hallway at some Ruby conference, and spent two or three years convincing her to write a book, which she did.
 
 That book - it took her two years to write - just got published in September, I think, of last year. It's a book that really changed how I think about code.
 
@@ -446,7 +446,7 @@ I'm a fan of the book, but I think it's kind of neat... Just to kind of tie off 
 
 Thank you so much for taking the time to come on this show. Is there anything else you wanna riff on real quick on before we close out?
 
-**Katrina Owen:** \[00:52:26.00\] No, I think I'm good. Thank you so much for inviting me.
+**Katrina Owen:** \[52:26\] No, I think I'm good. Thank you so much for inviting me.
 
 **Adam Stacoviak:** Yeah, it's been an honor to have you on the show. I know that Jerod was a fan of yours with that talk that we've mentioned during the show, and I'm becoming more and more of a fan/stalker, whatever you wanna call it, but... Yeah, that's for sure.
 

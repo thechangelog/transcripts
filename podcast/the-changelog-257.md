@@ -24,7 +24,7 @@ Then I published a big FAQ. It was basically a How To for using Perl on Windows 
 
 **Jerod Santo:** \[laughs\] It was pretty good.
 
-**Evan Prodromou:** \[00:03:58.10\] I'd only been doing software for about five years, and I'm like "No one has ever personally thanked me for something I did."
+**Evan Prodromou:** \[03:58\] I'd only been doing software for about five years, and I'm like "No one has ever personally thanked me for something I did."
 
 **Adam Stacoviak:** Wow.
 
@@ -48,7 +48,7 @@ It wasn't that big a deal, we could recover from it, but the worst part being th
 
 One of the things I learned later was that most travel guides are updated on a 3-5 year editorial cycle; they don't actually get updated every year, even though it's got the name of the year up on the front. They don't send a writer out more than once every three or five years.
 
-\[00:07:53.00\] I had been looking at Wikipedia, I was really interested in it, and together with that experience, we realized that having a Wiki edited travel guide where anyone could update the travel entries would mean that nobody would have that same kind of problem that we had just had. If there were changes in prices, if hotels or restaurants opened or closed, that kind of stuff would get updated immediately.
+\[07:53\] I had been looking at Wikipedia, I was really interested in it, and together with that experience, we realized that having a Wiki edited travel guide where anyone could update the travel entries would mean that nobody would have that same kind of problem that we had just had. If there were changes in prices, if hotels or restaurants opened or closed, that kind of stuff would get updated immediately.
 
 So we started Wikitravel in 2003 and had that first kind of exciting point of launching the site, getting the first group of users involved - a lot of people who were involved in Wikipedia - and then having a number of articles come out about the project... Oh, god. I mean, our first articles were like on Advogato and Kuro5hin -- like, there are two names I've not heard in a long time -- but they gave us the boost that we needed to really get that virtuous cycle going with that site.
 
@@ -68,7 +68,7 @@ For people who are English-speaking, it's one thing. We can get a lot of commerc
 
 **Adam Stacoviak:** And obviously not arrive at a hotel is not there anymore...
 
-**Evan Prodromou:** \[00:12:02.19\] Right... \[laughs\] Well, let's hope not. I think the other thing that's been really interesting that's happened with Wikivoyage and Wikitravel is that it's become the default data set for a lot of the travel apps on iPhone and Android.
+**Evan Prodromou:** \[12:02\] Right... \[laughs\] Well, let's hope not. I think the other thing that's been really interesting that's happened with Wikivoyage and Wikitravel is that it's become the default data set for a lot of the travel apps on iPhone and Android.
 
 **Adam Stacoviak:** That's interesting.
 
@@ -86,7 +86,7 @@ We tended to have abbreviated histories, abbreviated information... You're not l
 
 For a long time, we had this kind of "It doesn't make sense for us to be a part of the Wiki Media Foundation... Or should we be on our own?" I think there was also an expectation that not every Wiki in the world needed to be a part of the Wiki Media Foundation. Jimmy Wales started a company called Wikia that does some amazing wikis... There is a fantastic site called WikiHow, which is How To and instruction manuals.
 
-\[00:16:04.11\] We felt like we were part of an ecosystem there. We had a good tie to Wiki Media and Wikipedia, but we didn't think that we had to kind of merge in. I think eventually having Wikivoyage be part of the Wiki Media Foundation has been a really good fit, but it was definitely a long time to get there.
+\[16:04\] We felt like we were part of an ecosystem there. We had a good tie to Wiki Media and Wikipedia, but we didn't think that we had to kind of merge in. I think eventually having Wikivoyage be part of the Wiki Media Foundation has been a really good fit, but it was definitely a long time to get there.
 
 **Jerod Santo:** So you gave us your formative experience, and I think most people who've caught the open source bug have had a similar experience to what you have in some form or another. I even had it even just writing on a blog... Just blogging technical things that I thought weren't interesting to anybody, but putting out very specific errors and then the fixes to them - it turns out that's of huge value to people who are also pasting those errors into Google...
 
@@ -104,7 +104,7 @@ I definitely think that there is a step-by-step process where once you get start
 
 **Jerod Santo:** One of the ways you've been applying that experience it seems like over the years is with regard to open-federated open source social networks. Give us a little bit of history of your work with Identica, Pump.io, StatusNet... These things.
 
-**Evan Prodromou:** \[00:20:15.14\] Yeah, so partly because my experience was Wikitravel, I was involved with a number of people who were interested in how free and open source software was going to be affected with cloud computing. This is like 2006-2007.
+**Evan Prodromou:** \[20:15\] Yeah, so partly because my experience was Wikitravel, I was involved with a number of people who were interested in how free and open source software was going to be affected with cloud computing. This is like 2006-2007.
 
 I was part of a group - The Franklins Street Group - that did some discussion and put out a statement (The Franklins Street Statement) about free and open source software in a kind of cloud computing world, and ways that people can be preserving their freedom in that kind of world.
 
@@ -126,7 +126,7 @@ I think that as the period from 2007 to 2017 has shown, social software has beco
 
 **Jerod Santo:** If you work for Google.
 
-**Evan Prodromou:** \[00:24:04.27\] Yeah, there you go. \[laughter\] I think it's definitely an area that continues to need focus from the open source community. The big thing that's been kind of the way that things have gone in waves -- so I started StatusNet, I published a federation protocol that would let two StatusNet applications talk to each other, and that was called OStatus. Then Diaspora came along and they built their own federation protocol that let you have two Diaspora systems to talk to each other. Tent.io came along - they have a protocol that lets Tent systems talk to each other.
+**Evan Prodromou:** \[24:04\] Yeah, there you go. \[laughter\] I think it's definitely an area that continues to need focus from the open source community. The big thing that's been kind of the way that things have gone in waves -- so I started StatusNet, I published a federation protocol that would let two StatusNet applications talk to each other, and that was called OStatus. Then Diaspora came along and they built their own federation protocol that let you have two Diaspora systems to talk to each other. Tent.io came along - they have a protocol that lets Tent systems talk to each other.
 
 So all of us were putting out this great free and open source software, very easy to use, very interesting stuff, but we didn't make it talk to each other, and that I think has been the big sticking point for federated software. I know that there have been at least 10 really interesting projects over the last ten years that have gotten a lot of media attention, and looked like we were gonna break through, but we keep having this kind of not-invented-here syndrome where we make our own protocol, make our own systems, and we don't make them inter-operate.
 
@@ -138,7 +138,7 @@ I think that it's unlikely that Facebook will ever disappear from the Earth, but
 
 **Adam Stacoviak:** Coming up after the break, we talk about the open web and all the social networks, Evan's open source social platform called StatusNet, Micro.blog and a JSON feed from Manton Reece and the importance of being open and federated, and Evan's role in the W3C Social Web Working Group. All this and more after the break.
 
-**Break:** \[00:27:35.07\]
+**Break:** \[27:35\]
 
 **Jerod Santo:** Alright, Evan, you were discussing other social networks down through the ages... It seems like every couple of years there's a new round of potential Twitter replacements, or Facebook replacements... Like you mentioned, Diaspora... I recall Identica; I don't know what's still going on with Identica. Recently we've had Mastodon, there's people talking about Scuttlebutt, Manton Reece has a new thing called Micro.blog...
 
@@ -162,7 +162,7 @@ The third part and the third major deliverable is a federation protocol. When we
 
 The same way that we use email or that we use some other systems, telephone systems. None of us expects each other to be on the same cellular telephone network, we expect them to just work together. That's the way we expect social systems to work, and we're looking to have that happen.
 
-\[00:32:06.24\] We've done a combination of those three things: the Activity Streams System, the ActivityPub - ActivityPub covers both the client-to-server API and the server-to-server protocol.
+\[32:06\] We've done a combination of those three things: the Activity Streams System, the ActivityPub - ActivityPub covers both the client-to-server API and the server-to-server protocol.
 
 We have a number of other things that have come out, which has been really interesting. We've encoded some of the other really cool stuff that's happening on the web and in social, so MicroPub is kind of a slimmed down version of ActivityPub. We have a system called Webmention, which is kind of a modernized pingback mechanism that does a very nice job of giving a federation experience. So we're basically doing a lot to put these things out there.
 
@@ -186,7 +186,7 @@ So none of us think of Ruby as like "Oh yeah, I hate C\#, I use Ruby instead." W
 
 **Evan Prodromou:** Yeah, exactly. And there's that feeling that like "Grandma's on Facebook. Eventually, I'm gonna have to go back and say "Thanks for the happy birthday, grandma", right?" It pulls you back in, because they have that critical mass of people. So I think that tools that integrate using the custom APIs of Facebook, Twitter, Instagram etc. - those are ones that are more successful, so you can keep your existing networks without kind of giving them up.
 
-\[00:36:07.11\] I think also ones that stimulate hackerly instincts are also really powerful. The more that we have cool third-party clients, the more that we have cool hacks, games that integrate with the social network etc., the more likely we're gonna be to use that kind of thing.
+\[36:07\] I think also ones that stimulate hackerly instincts are also really powerful. The more that we have cool third-party clients, the more that we have cool hacks, games that integrate with the social network etc., the more likely we're gonna be to use that kind of thing.
 
 I think that you get a virtuous cycle where you have the platform, and then third-party clients build on top of that, and because there are third-party clients, there are more people using it; the more people using it, the more third-party clients want to build for it, and you get this nice cycle.
 
@@ -212,7 +212,7 @@ I think that there are a lot of people like us for whom spinning up a DigitalOce
 
 **Jerod Santo:** In a world.
 
-**Evan Prodromou:** \[00:40:03.10\] They don't pay for the software, right? Asking them to pay for their social networking is not gonna work, so it's going to be -- I think that in a federated world what happens is you probably have a mix of advertising-based systems that do connect into that federation the same way as the self-hosted ones do, or the enterprise ones do. But I think it's interesting to think like "What's the advantage there?"
+**Evan Prodromou:** \[40:03\] They don't pay for the software, right? Asking them to pay for their social networking is not gonna work, so it's going to be -- I think that in a federated world what happens is you probably have a mix of advertising-based systems that do connect into that federation the same way as the self-hosted ones do, or the enterprise ones do. But I think it's interesting to think like "What's the advantage there?"
 
 I think the advantage for someone who would be starting a commercial social network in that kind of world is like "I can start a new network and there would be hundreds of thousands or millions of people already on the network, because I'm being a part of this federation." So that's a big aspect.
 
@@ -234,7 +234,7 @@ And again, with email we have a mix of proprietary software, open source softwar
 
 **Jerod Santo:** I think email is the best success story to use, because it's used globally by everybody. It's on open protocols, SMTP, POP3 and IMAP, and it's completely federated. I think a failure case - if you wanted to say "What worked for email?" and then "What didn't work?" So IRC is the opposite, right? IRC is federated, IRC is very popular amongst people like us, and in many ways it's better, in many ways it's worse, but it never broke through, which is interesting, because they probably both started in the good old days. E-mail was used by everybody; IRC never made it outside of hacker circles, and even amongst us - most of us are on Slack, because they provide overall a better experience.
 
-\[00:44:13.00\] So what - and I'm not necessarily asking you to answer this, Evan... I'm just kind of throwing this out as a thought - why did email get traction and IRC never did?
+\[44:13\] So what - and I'm not necessarily asking you to answer this, Evan... I'm just kind of throwing this out as a thought - why did email get traction and IRC never did?
 
 **Adam Stacoviak:** Or even remain. Not so much just traction, but remain...?
 
@@ -260,7 +260,7 @@ So those are a couple things... Can you get something that's fun for hackers?
 
 How many of us use Twitter because of all the hilarious bots that are on there? That's a big part of a lot of people's Twitter experience, right? That is largely because they built an API early on that was fun and easy to use. You really don't need to know much about the Twitter API to be posting. I think that the more that open source projects are easy and accessible to third-party developers, the more that we get fun bots, fun add-ons, fun applications, fun games that run on the network.
 
-**Jerod Santo:** \[00:48:29.02\] One of the things I'll add is that even a more basic concern with regards to -- just going back to IRC versus email and why one took off and one didn't... E-mail appealed to humans at a level they already understood. You already know how the mail system works; I'm talking conceptually now, not technically or anything like that. "This is like mail for your computer", and that's something that everyone was like "Oh, okay, I get mail. Internet mail? Okay, I'm gonna get mail on my computer." I'm just talking about human buy-in into the network, not just how it works and the federation...
+**Jerod Santo:** \[48:29\] One of the things I'll add is that even a more basic concern with regards to -- just going back to IRC versus email and why one took off and one didn't... E-mail appealed to humans at a level they already understood. You already know how the mail system works; I'm talking conceptually now, not technically or anything like that. "This is like mail for your computer", and that's something that everyone was like "Oh, okay, I get mail. Internet mail? Okay, I'm gonna get mail on my computer." I'm just talking about human buy-in into the network, not just how it works and the federation...
 
 The people who are creating cool things, like you said, are attracting other people to use it, but the ones who are just deciding "Should I get an email account?", they're thinking "Is this gonna provide value? Is this something that I understand and can use?" whereas IRC was very technically challenging (like you said), very insider. Actually, when I was exposed to IRC as a young lad - I probably was like 16, 17 - it was scary, weird... The whole interaction with IRC was something...
 
@@ -278,7 +278,7 @@ In the open source software community we tend to think like "You must be at leas
 
 **Evan Prodromou:** "You must be this smart to use our software, or you're not good enough for our software", right? And then we say things like "Why doesn't anybody use our software?" and it's like "Well, because you said they're not smart enough, you said they're not good enough." Nobody wants to be told that they're not good enough, and nobody's gonna not do a task because you told them they're dumb; they're gonna go find someone who says "You're smart" and they're gonna go find someone who says "Here's the easy way to do that", right?
 
-\[00:52:15.22\] How many of us -- I think things that we do, like having cut & pasteable curl outputs to Bash - curl shell scripts down, and then output them through Bash, and do an installation... That is -- everybody knows it's the wrong thing to do and everybody has criticisms, but it's soooo easy! One copy & paste, right?
+\[52:15\] How many of us -- I think things that we do, like having cut & pasteable curl outputs to Bash - curl shell scripts down, and then output them through Bash, and do an installation... That is -- everybody knows it's the wrong thing to do and everybody has criticisms, but it's soooo easy! One copy & paste, right?
 
 Finding those things where it's like "Maybe we could close that gap a little bit. Maybe we could just make it a little bit easier for folks", and eventually that spark happens, right? And I think that it's really up to us, rather than up to the users to close that gap.
 
@@ -312,7 +312,7 @@ I think that I've said also a lot of things about federated social web that appl
 
 **Adam Stacoviak:** That could be the honey, the attractant, but it can't be what keeps.
 
-**Evan Prodromou:** \[00:56:12.11\] Yeah, because people don't stay angry forever.
+**Evan Prodromou:** \[56:12\] Yeah, because people don't stay angry forever.
 
 **Adam Stacoviak:** That was App.net's ploy at first, it was like "We're not this thing", and that thing was Twitter, and that was what was supposed to attract and keep in it. Eventually, you just posted to Twitter AND at DotNet, and then it was like "Well, why am I doing this?" But maybe you had longer conversations. There was a small group of people who had a good experience there, but in the end they just didn't stay... And Twitter just attracts more people, the masses, the mainstream; when more and more people are there, you can't deny the network's presence.
 
@@ -320,7 +320,7 @@ I think that I've said also a lot of things about federated social web that appl
 
 **Adam Stacoviak:** Coming up, we talk about Fuzzy.ai, a service that lets you create agents that add intelligence to your applications. We talked through ways to add simple, intelligent responses to your apps, that have a huge impact on the users' experience. Evan also makes a huge claim by calling data the new oil. It's required for machine learning engines, yet it's a scare resource and one that not everyone has. All this after the break.
 
-**Break:** \[00:58:10.22\]
+**Break:** \[58:10\]
 
 **Adam Stacoviak:** What's this next thing for you? Where you're at now is in AI... We've kind of shared Evans' history, so to speak; your history through the social networks, creating standards, and we're in a place now where AI is taking far more presence in things. You've got machine learning, you've got deep learning - you have all these different stacks of basically artificial intelligence, and you've got a new endeavor that is spawning from this. Can you talk about that?
 

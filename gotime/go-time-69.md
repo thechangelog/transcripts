@@ -22,7 +22,7 @@ I also contribute to a bunch of open source libraries. I do have a couple of fav
 
 I think it's great, and I think there's gonna be a lot coming out of it. I've been kind of playing with it a little bit today, over the past couple of weeks. I think now there's even some full-time support that been added onto OpenFaaS. And I think Go is just a great contribution to that, because obviously, within functions you wanna kind of keep your memory footprint very low, as well as your execution time. And with the concurrency primitives that Go offers, I think that goes very well hand in hand.
 
-**Brian Ketelsen:** \[00:04:19.20\] So how do you see functions sitting in the overall landscape of architecture? I struggle to understand where a good place to put functions in serverless is. Where do you see that fitting in architectures that you make?
+**Brian Ketelsen:** \[04:19\] So how do you see functions sitting in the overall landscape of architecture? I struggle to understand where a good place to put functions in serverless is. Where do you see that fitting in architectures that you make?
 
 **Brian Scott:** I think right now the landscape is still very open. I think folks are still trying to grasp the best approach when to use functions. Right now, I tend to use functions for quick one-offs, for instance like ETL jobs, or even transcoding jobs, where I need to quickly transcode a video file or maybe run some operation against an image file. But even among the API landscape, it's becoming a thing where you break your application more and more into microservices. Instead of having a whole dedicated service to a particular role in your application, it's now just split out as a function. Since functions are also so cheap to actually run, you can now build these massive applications broken up into many different functions.
 
@@ -36,7 +36,7 @@ I think we're gonna see functions become more of like a mainstream into actually
 
 **Erik St. Martin:** Yeah, I think serverless is really interesting. It's something that -- like, I've had my eye on for, like you said, ETL and batch jobs and things like that, but I haven't connected yet with this all serverless vision that some people have, where the web request comes in to a serverless function, which calls other functions, and there's no real full-fledged service that things have hit... And that might just be because of the use cases of stuff that I've worked on, but I haven't bought fully into that yet; maybe I just don't have the vision yet.
 
-**Brian Scott:** \[00:08:08.28\] Yeah, it takes time. Back when I was doing serverless like a year ago, Go wasn't fully supported within Lambda yet. It was supported within other serverless frameworks, but I used [Apex](https://github.com/apex/apex) to quickly be able to tar up my full web app... And I remember writing a web app in Buffalo and actually running a full app within serverless, and just attaching to that back-end database that's running within like a managed service. But I think over time there's gonna be a lot of lessons learned, and there's gonna be a lot of breakthroughs in how we can use serverless and actually push forward.
+**Brian Scott:** \[08:08\] Yeah, it takes time. Back when I was doing serverless like a year ago, Go wasn't fully supported within Lambda yet. It was supported within other serverless frameworks, but I used [Apex](https://github.com/apex/apex) to quickly be able to tar up my full web app... And I remember writing a web app in Buffalo and actually running a full app within serverless, and just attaching to that back-end database that's running within like a managed service. But I think over time there's gonna be a lot of lessons learned, and there's gonna be a lot of breakthroughs in how we can use serverless and actually push forward.
 
 **Erik St. Martin:** Yeah, that's true. I mean, it is still early. I think that there'll be better abstractions and things that kind of make it more approachable, right? It's not that I don't see the value in paying for compute by the second only as a request comes in; really, my not sharing the vision yet is really in lots of unanswered questions about the maintainability and debuggability of an application that behaves that way.
 
@@ -48,7 +48,7 @@ I think we're gonna see functions become more of like a mainstream into actually
 
 **Erik St. Martin:** That's true, too. You're not paying for all the idle time of your website running, and you get three hits a month, or whatever.
 
-**Brian Scott:** \[00:11:54.12\] Yeah, exactly. You only pay for what you need. There's a lot of best practice that goes with that serverless; making sure that your execution time is small, making sure that your memory footprint stays within a certain limit. I think we now need to start thinking more of that. Before it was like, "I have a box with eight cores and 32 gigs of RAM. I don't really need to care about how much resources I'm actually using", but I think in the world of serverless you now have to pay more attention to that.
+**Brian Scott:** \[11:54\] Yeah, exactly. You only pay for what you need. There's a lot of best practice that goes with that serverless; making sure that your execution time is small, making sure that your memory footprint stays within a certain limit. I think we now need to start thinking more of that. Before it was like, "I have a box with eight cores and 32 gigs of RAM. I don't really need to care about how much resources I'm actually using", but I think in the world of serverless you now have to pay more attention to that.
 
 **Erik St. Martin:** I just really want [Kelsey Hightower's](https://twitter.com/kelseyhightower) [No Code](https://github.com/kelseyhightower/nocode) to catch on, so that I can retire... \[laughter\]
 
@@ -68,7 +68,7 @@ I don't think we're actually there yet; I think maybe the most concepts are stil
 
 **Brian Scott:** Definitely, yeah. I first met [Mark Bates](https://twitter.com/markbates), the creator of Buffalo, at GopherCon last year, in 2017. But prior to that, we were actually talking quite a bit. For years -- I got started with Go many years ago, and at the time I had a mentor who was kind of teaching me the fundamentals of like AI and machine learning, and he really wanted to get me into Erlang. Now, at the time I was a big Rails guy; I was all about Rails. I just loved the ease of the tooling, I loved the ease of being able to have access to packages and libraries that were able to solve things. For example, if I needed to actually send email, I could use the mailer action or the mailer controller to actually be able to add the mail functionality into my application.
 
-\[00:16:17.00\] So when Buffalo came out, it was just like a revelation for me. It was something that I wanted to jump into right away, and I saw the promise that Buffalo provided to developers, to be able to easily extend and kind of create that same ecosystem that Rails did for Ruby.
+\[16:17\] So when Buffalo came out, it was just like a revelation for me. It was something that I wanted to jump into right away, and I saw the promise that Buffalo provided to developers, to be able to easily extend and kind of create that same ecosystem that Rails did for Ruby.
 
 During my Rails days, I was deep into things like RailsCasts and I followed Peter Cooper and saw all the cool things that he built, and I felt like you know what, for me to quickly learn Buffalo would be awesome if I can just go ahead and create some type of application that allowed me to utilize all the functionality of Buffalo. So actually during GopherCon last year, I sat with Mark Bates and I had this idea to create something like RubyFlow, but that allowed me to learn all the ins and outs of Buffalo.
 
@@ -88,7 +88,7 @@ It's been an amazing experience. I'm able to prototype and to literally test out
 
 **Brian Scott:** Yes, so far, as far as RSS feeds -- so there is an RSS feed that another contributor to Golang Flow actually added, and we so far have about just under 2,000 subscribers on the RSS feed, mainly from outside the US. As far as users, I would say we have about 120 logged in users into [GolangFlow.io](http://golangflow.io/) right now, and that was just in the past month-and-a-half.
 
-\[00:20:04.28\] Ideally, I get roughly I would say about 200 pageviews a day. So it's pretty good. The average user spends about 5-10 minutes, just browsing through all the pages, or at least all the posts that are currently on Golang Flow.
+\[20:04\] Ideally, I get roughly I would say about 200 pageviews a day. So it's pretty good. The average user spends about 5-10 minutes, just browsing through all the pages, or at least all the posts that are currently on Golang Flow.
 
 So it's totally gaining traction... I think it's still fairly new, but again, it's really for more of like a learning exercise, and what I do like is that I'm already getting issues where there's other developers out there that are using it to actually learn Buffalo. They're actually going in and seeing how the application uses different features of Buffalo. So whenever a new feature or a new generator gets added into Buffalo, I do try and think of some way to integrate that into Golang Flow, just for others to actually learn how to use that properly.
 
@@ -114,7 +114,7 @@ But there is a sharing functionality, so if you do see a post that you like, the
 
 **Brian Ketelsen:** Right. So I think we need to talk about THE topic of the week, because there is one thing that's happened this week in Go, and I'm not moving directly onto news yet, but there is a thing that happened, and that's the big drop of the [Vgo](https://github.com/golang/vgo) app...
 
-**Erik St. Martin:** \[00:24:13.05\] Go 1.10? Nah... \[laughter\]
+**Erik St. Martin:** \[24:13\] Go 1.10? Nah... \[laughter\]
 
 **Brian Ketelsen:** [Versioned Go](https://github.com/golang/vgo). If you haven't heard because you aren't tied into the news like I am with a drip feed every morning, Versioned Go is a fork of the Go tool that supports versioning capabilities; it replaces go get, it replaces dep, and it allows you to create reproducible builds, and it does that by creating a module file, go.mod, that describes your module and its dependencies. And it's a big deal because it's learning from [dep](https://github.com/golang/dep), but it's mostly not dep. So it's completely new.
 
@@ -138,7 +138,7 @@ So this has been a big discussion, especially with everybody kind of recently ju
 
 **Brian Scott:** I agree with you. I think there has to be some level of deep effort to solve the problem. Dep definitely solves a lot of problems, and I love dep. It solved all my use cases. And yeah, I've totally been bitten by that too, where something changes down the stream and it really affects you and you really can't find the previous version of it... I don't have that problem too many times, but I'm glad that Sam and the team are definitely working, and hopefully they'll just take the best things out of both Vgo and dep and create something better.
 
-\[00:28:13.13\] I was hoping to see dep actually brought into the Go toolchain, and actually have that native command. I was actually waiting for that. But if there's more time that's needed to actually flesh out a fuller solution not only for versioning, but as well as for dep management, I think they should definitely go ahead and do that.
+\[28:13\] I was hoping to see dep actually brought into the Go toolchain, and actually have that native command. I was actually waiting for that. But if there's more time that's needed to actually flesh out a fuller solution not only for versioning, but as well as for dep management, I think they should definitely go ahead and do that.
 
 **Erik St. Martin:** Yeah, I mean, there's a couple points with it, right? I think it's the minimal version selection that is where Sam is kind of debating that that may be too simplistic, and I think that's okay too, right? I know Russ and the team, they wanna move quick and I think they're anticipating trying to get this in to 1.11, and maybe solidified by 1.12... But I know that they will kind of hold back if there seems to be issues, and maybe they're somewhere in between.
 
@@ -152,7 +152,7 @@ But this whole mod file approach I think is really interesting, because tools li
 
 **Erik St. Martin:** Yeah, I think it's gonna be super powerful to do that, and for reproducibility, and being able to have central caches, and things like that. In the enterprise world, without a doubt, having projects vetted is gonna be huge, and just kind of having your own central repo that gets updated.
 
-**Brian Ketelsen:** \[00:32:15.15\] Yeah. You know, I've been shouting that from the mountaintop. Two conference talks that I've given in the last year have been about how much the enterprise needs more control over that and more reproducibility. I think the proxy idea in Vgo will get us much closer to what we're looking for.
+**Brian Ketelsen:** \[32:15\] Yeah. You know, I've been shouting that from the mountaintop. Two conference talks that I've given in the last year have been about how much the enterprise needs more control over that and more reproducibility. I think the proxy idea in Vgo will get us much closer to what we're looking for.
 
 **Brian Scott:** Yeah, I totally agree. And even just talking about it now, I really wish that that was into full tuition right now. I could totally use that like right now. I can't wait until that hopefully becomes like a thing, because that's really the type of solution that we need right now.
 
@@ -164,7 +164,7 @@ But this whole mod file approach I think is really interesting, because tools li
 
 **Erik St. Martin:** Yeah, and it'll be interesting to be able to do stuff like that and to have mirrors of these things, and think about sharing and everything... I can't say that we have a finalized idea, but we're definitely having discussions. We are diagramming some stuff out and bouncing it off people, and when we get more details on what these things will look like and have some working examples, we'll definitely let the world see them. But it is interesting to think about... Like, it's a scary thought; somebody takes control of a proxy or whatever, how do I guarantee that I'm getting the code that I think I'm getting?
 
-\[00:35:51.29\] And especially because we all have this inherent nature of just go install and run it, right? This isn't unique to Go. People have been gem-installing stuff and everything for ages...
+\[35:51\] And especially because we all have this inherent nature of just go install and run it, right? This isn't unique to Go. People have been gem-installing stuff and everything for ages...
 
 **Brian Scott:** [curl|bash](https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/) same thing. So yes, you're absolutely right. I mean, even with Docker pull - you're docker-pulling some image down from the hub. You don't know if it was tampered with. So yeah, we definitely need to create solutions to these problems.
 
@@ -204,7 +204,7 @@ My biggest question is about having the central repository for packages which yo
 
 What else have we got? I came across a really cool project called [Gitleaks](https://github.com/zricethezav/gitleaks) as well, that's super cool for scanning your Git repos for leaked credentials or services.
 
-**Brian Scott:** \[00:40:26.25\] That's really cool, especially when a lot of folks -- you don't really think about it, but I'm sure everyone's guilty of putting some type of secret into Git.
+**Brian Scott:** \[40:26\] That's really cool, especially when a lot of folks -- you don't really think about it, but I'm sure everyone's guilty of putting some type of secret into Git.
 
 **Erik St. Martin:** Yeah, it happens all the time by accident... All the time.
 
@@ -234,7 +234,7 @@ So here's another interesting one - who read the [Cloudflare post](https://blog.
 
 **Brian Scott:** \[laughs\] Yeah. Definitely tons to read. So is Pixel new? I was actually searching for a game library just the other week, the past week, because I've been reading this book "Ready Player One" and it got me thinking about all the '80s games... And I wanted to develop a game in Go, and I was actually looking at game libraries, and actually I did come across that one, I just wasn't sure how maintained it was.
 
-**Erik St. Martin:** \[00:43:27.16\] It's been around for a while; I think it has been like a year or so since it has had an update. There's a couple of others I'll think of and I'll send them to you...
+**Erik St. Martin:** \[43:27\] It's been around for a while; I think it has been like a year or so since it has had an update. There's a couple of others I'll think of and I'll send them to you...
 
 **Brian Scott:** Great, great.
 

@@ -20,7 +20,7 @@ Joining me on this quest, Jon Calhoun. Hello, Jon.
 
 **Lea Anthony:** I think originally, when I first started with Go, I went on the same path as everybody else, making CLI apps, making servers... I'd come from a Node world at the time, so I was kind of doing similar things on the backend. One of the things that I thought about when I was learning Go was "How can I make visual things?" I love visual things, so the obvious thing to do there is to create a server and to hook up your browser to it and to see things visually that way.
 
-\[00:04:10.25\] I sort of went along with that approach, I thought "What should I do? What sort of application should I make as a test?" I was using restic at the time to get my backups, and I thought "That's quite a good idea." It's fairly static, there's some information that you can get from the application... It didn't really have a good library - I still don't think it does, actually - so there's a bit of shelling and running code, and trying to parse it up, and all that stuff... But what I discovered pretty quickly was that what you could actually do through a web browser was by its very nature fairly restricted, and I kind of wanted to still use all of that funky JavaScript stuff on the frontend, or the nice libraries and tools that you could use to do visual stuff, but to hook it up to my Go application.
+\[04:10\] I sort of went along with that approach, I thought "What should I do? What sort of application should I make as a test?" I was using restic at the time to get my backups, and I thought "That's quite a good idea." It's fairly static, there's some information that you can get from the application... It didn't really have a good library - I still don't think it does, actually - so there's a bit of shelling and running code, and trying to parse it up, and all that stuff... But what I discovered pretty quickly was that what you could actually do through a web browser was by its very nature fairly restricted, and I kind of wanted to still use all of that funky JavaScript stuff on the frontend, or the nice libraries and tools that you could use to do visual stuff, but to hook it up to my Go application.
 
 So like I said, I kind of hit that sort of sandbox restriction pretty quickly, and I thought "How can I marry the two things that I now really love? ...this amazing, traditionally backend language, with a very rich ecosystem and frontend technologies?" That's where it kind of started... And I didn't really get my first break on that until I found the WebView project. That allows you to present web frontend using \[unintelligible 00:05:30.28\] I started looking at that, and I thought "That's cool. That'd be really great if I could combine this with Go." They do allow you to do that, but there was a lot of technical stuff you had to deal with, of message parsing, and all that stuff... So that's really kind of like the birth of the project there - how do I make this easy for other people, and myself, obviously?
 
@@ -34,7 +34,7 @@ So like I said, I kind of hit that sort of sandbox restriction pretty quickly, a
 
 You create your application, and then you, as part of the creation of that object, of that struct, you then give it a link to your assets essentially, and it will serve them for you. The way that it does that - it actually uses a packer; originally, I used Mark Bates' packer, and then he deprecated it, and I was very upset... So I took on the challenge and wrote something very similar, because I really liked the way it worked... And they're essentially just strings. You just pass a string to the object and it takes those and serves those.
 
-**Mat Ryer:** \[00:08:26.29\] So the reason you do that then is so that when you ship the app, you don't have to ship alongside it those assets. They get bundled inside because of a build step inside the binary, don't they?
+**Mat Ryer:** \[08:26\] So the reason you do that then is so that when you ship the app, you don't have to ship alongside it those assets. They get bundled inside because of a build step inside the binary, don't they?
 
 **Lea Anthony:** That's absolutely right, yeah.
 
@@ -56,7 +56,7 @@ There's a keyboard company in Japan called ergodox-ez. They create these amazing
 
 **Lea Anthony:** Yeah, that's right. The difference is that that mechanism there - and this was a key part, the design of the project... That mechanism for communication is completely hidden from you. So instead of having to worry about messages, requests, parameters, all that sort of stuff, you actually just call functions. The IPC mechanism, the way that it works is that you essentially bind Go functions or struct methods to your application, and they get presented at the frontend through a JavaScript endpoint. So it'll be windows.backend. and then it'll be a package name, because you have to qualify the methods in your structs, and then just the name of the Go method that you bound. That receives the parameters that would be sent through to your backend code, your backend code will run, and the result of that would be sent back to JavaScript. That mapping was pretty interesting, and the way that it was done was through promises.
 
-\[00:12:24.00\] What I sort of figured out early out was that if you had a Go method that returned a value and an error, that's essentially the same as a promise. And so what happens is if you send a value back and the error is null, then the promise resolves. If you send an error back, then the promise rejects. So you're able to easily deal with the backend calling the backend code as if it's part of your application... Which it is, obviously, but part of your frontend application.
+\[12:24\] What I sort of figured out early out was that if you had a Go method that returned a value and an error, that's essentially the same as a promise. And so what happens is if you send a value back and the error is null, then the promise resolves. If you send an error back, then the promise rejects. So you're able to easily deal with the backend calling the backend code as if it's part of your application... Which it is, obviously, but part of your frontend application.
 
 **Mat Ryer:** Yeah. So does it preserve types as well then, if you're passing strings and integers? Can you call them in your JavaScript code using those types and they turn up as those types in the Go side?
 
@@ -70,7 +70,7 @@ There's a keyboard company in Japan called ergodox-ez. They create these amazing
 
 **Lea Anthony:** Yeah, I guess it just depends on the original project. The difference between running an application in native UI versus an application in a browser versus an application in WebView, which is even more limited than a browser - you're gonna hit some limitations somewhere, based on the use case. The obvious one is complexity on a native UI perspective. "How do I make that work on different platforms?" There are some approaches that you can take to do that.
 
-\[00:16:03.16\] When you do a server app, obviously, you have that disconnect between the frontend and the backend... And in the browser as well you have things like local storage, which you don't actually have in WebView. So the limitation I'd say of writing a Wails app would be twofold. One is it isn't a full browser, which makes it good, in a way; it's slimline it's making good use of the resources... But you also don't necessarily know which libraries would necessarily work. There are so many libraries out there; if you use one that uses something that's native to a browser, then you're gonna hit that limitation. That's one.
+\[16:03\] When you do a server app, obviously, you have that disconnect between the frontend and the backend... And in the browser as well you have things like local storage, which you don't actually have in WebView. So the limitation I'd say of writing a Wails app would be twofold. One is it isn't a full browser, which makes it good, in a way; it's slimline it's making good use of the resources... But you also don't necessarily know which libraries would necessarily work. There are so many libraries out there; if you use one that uses something that's native to a browser, then you're gonna hit that limitation. That's one.
 
 The other one would be that Wails uses the native renderer on your system. There's pros and cons with that. The con is that on Windows it's still basically IE11, so you'd have to deal with that. And there's a lot of libraries that kind of get around. I've not really hit that problem, but some people do.
 
@@ -106,7 +106,7 @@ The other one would be that Wails uses the native renderer on your system. There
 
 But the nice thing, I think, that makes this a really cool project is that however you build it, it's one codebase that's running everywhere. So you can really get a big saving. And if you think about all the things you can do in Go code, like accessing the file system, presumably you can access the file system in Wails apps, right?
 
-**Lea Anthony:** \[00:19:57.27\] Absolutely. You can do whatever you would like to do on your Go side. There's no limitations on that. What I have done is provided a runtime which operates both in the JavaScript land and the Go end, so some of that stuff is wrapped up for you. Maybe you wanna show a file select dialogue, so you can call this runtime command in Go, and Wails version - which we'll talk about in a bit - you can also do that in the JavaScript land. So you can essentially call a function, open a dialogue, get the user to select something, and it just appears as a string in Go. So it's almost like a synchronous operation in your go where you're saying "I wanna get a file name", and it goes away and does it for you.
+**Lea Anthony:** \[19:57\] Absolutely. You can do whatever you would like to do on your Go side. There's no limitations on that. What I have done is provided a runtime which operates both in the JavaScript land and the Go end, so some of that stuff is wrapped up for you. Maybe you wanna show a file select dialogue, so you can call this runtime command in Go, and Wails version - which we'll talk about in a bit - you can also do that in the JavaScript land. So you can essentially call a function, open a dialogue, get the user to select something, and it just appears as a string in Go. So it's almost like a synchronous operation in your go where you're saying "I wanna get a file name", and it goes away and does it for you.
 
 **Mat Ryer:** Is it like a file -- do you get literally the file scheme on that when it turns up in Go then? And is it just a path to a local file?
 
@@ -140,7 +140,7 @@ The drawback of that is people get used to things working in the browser... So s
 
 **Lea Anthony:** That's right.
 
-**Mat Ryer:** \[00:24:01.29\] Hm... And you mentioned events then as well, and that's quite an interesting thing, when we think about Go, and we have channels, and we have different ways of running things concurrently and communicating events... Can you also get those events to fire in the frontend part of the app? Like, something happens in the backend; maybe if it's gonna walk the filesystem, it's gonna take a long time... Maybe there's an event to say "I've just completed." How does that get into the frontend?
+**Mat Ryer:** \[24:01\] Hm... And you mentioned events then as well, and that's quite an interesting thing, when we think about Go, and we have channels, and we have different ways of running things concurrently and communicating events... Can you also get those events to fire in the frontend part of the app? Like, something happens in the backend; maybe if it's gonna walk the filesystem, it's gonna take a long time... Maybe there's an event to say "I've just completed." How does that get into the frontend?
 
 **Lea Anthony:** Good question. So as part of the runtime there's a unified events system. On the Go side you have emit and you have on, and it's the same in the frontend, too. And whenever you emit a message, you do it in the standard JavaScript way and it has a name, and it has that optional data along with it. If you fire that from Go, you can read it in Go and you can try to run it in JavaScript. And the reverse is true. So you could, say, have a JSON string, or whatever kind of data in the frontend, you could emit an event by a name, and receive that in Go. It was quite interesting early on, thinking about the differences between that and a call.
 
@@ -154,7 +154,7 @@ So you have the obvious thing of "Here's my URL. This is how long I want you to 
 
 **Mat Ryer:** It is quite exciting.
 
-**Break:** \[00:27:24.28\]
+**Break:** \[27:24\]
 
 **Jon Calhoun:** So as you were developing all this, it sounds like you had to come up with a lot of unique solutions to allow the two to communicate, and allow things to work the way that it makes the most sense... With things like Web Assembly coming along, do you think they would eventually make it so that this type of stuff would be easier to do, in almost any language? Or are there still gonna be big limitations?
 
@@ -192,7 +192,7 @@ I think that was one of the things that always made delivering any sort of softw
 
 **Lea Anthony:** Yeah, it's almost like bundling Chrome with your application, where Chrome only executes your code, is my understanding. But it also gives you a very easy one single target problem... So as long as it works in Chrome, you get it.
 
-**Jon Calhoun:** \[00:32:10.18\] So when you're running in WebView then, I assume you have the JavaScript running there... Do you run into some other limitations, like with browsers? One of the ones that comes to mind is cross-origin resource sharing; if you use the JavaScript to actually talk with an API, for some reason, which might not make sense with Wails, but I guess might be possible - not really sure... Well, first off, is that possible?
+**Jon Calhoun:** \[32:10\] So when you're running in WebView then, I assume you have the JavaScript running there... Do you run into some other limitations, like with browsers? One of the ones that comes to mind is cross-origin resource sharing; if you use the JavaScript to actually talk with an API, for some reason, which might not make sense with Wails, but I guess might be possible - not really sure... Well, first off, is that possible?
 
 **Lea Anthony:** Yeah. It's kind of interesting, because the frontend and backend - they have similar ways of doing things. So you can make an HTTP request from JavaScript, but you could also do it from Go. So you'll likely hit -- whatever limitation you hit on one end, you'd hit on the other. The cross-origin - I don't think you have that problem; I'm pretty sure you don't, because it's not really running into a server, and there's not a browser that's gonna guard you from that kind of thing.
 
@@ -216,7 +216,7 @@ When I was thinking about people making JavaScript calls, I was sort of thinking
 
 **Mat Ryer:** So what about a desktop icon? Is that how this binary looks? Because normally in Go when you build a binary, you get a default terminal-looking application, and if you double-click it, nothing happens; you have to run it in the terminal. What's the asset you get after you've done the Wails build?
 
-**Lea Anthony:** \[00:36:06.22\] So there's basically two build modes. Well, it's for two targets. There's a desktop application target, so a packaged version, which has an icon, and is something you can double click and run... And the other one is kind of like your standard Go output, which is just a terminal app that you run. You'd mainly use that for development. Like a Windows, for instance - it's good to run that in that mode, just so you can see the debug output, and all that kind of stuff.
+**Lea Anthony:** \[36:06\] So there's basically two build modes. Well, it's for two targets. There's a desktop application target, so a packaged version, which has an icon, and is something you can double click and run... And the other one is kind of like your standard Go output, which is just a terminal app that you run. You'd mainly use that for development. Like a Windows, for instance - it's good to run that in that mode, just so you can see the debug output, and all that kind of stuff.
 
 But Wails does come with the ability to pack down to the package. So on Windows, that's essentially -- you know, it generates the manifest file, it generates a different range of icons, and you'd have different sizes into an icon file... And then it compiles that up into the .exe that you would expect from any other build tool.
 
@@ -244,7 +244,7 @@ It's fairly customizable, because the actual system assets that it generates - i
 
 **Lea Anthony:** Yeah, I doubt that there's too much involved in packing a binary asset into your application. I mean, it only does one thing; so long as it does that, I think we're good.
 
-**Mat Ryer:** \[00:39:38.03\] Yeah, I quite like the similarities... And Mark Bates was actually - or is working, or was, before this proposal, because this proposal may supersede it... But yeah, he was working on a new API that mirrored the OS package. So you basically open files, and you can stat them, and you use the existing API, essentially a copy of it... Except that it goes through this layer where they may be embedded in the binary, and you sort of can't tell.. And I think the go:draft proposal - and we'll post a link to it in the show notes - has that same kind of idea, which is nice, that you get to kind of use the learning you have already from existing APIs... That may well be cool. And the nice thing is Wails could adopt that and upgrade that, and it almost wouldn't change anything for anybody, would it? It's almost an internal piece which happens transparently, right?
+**Mat Ryer:** \[39:38\] Yeah, I quite like the similarities... And Mark Bates was actually - or is working, or was, before this proposal, because this proposal may supersede it... But yeah, he was working on a new API that mirrored the OS package. So you basically open files, and you can stat them, and you use the existing API, essentially a copy of it... Except that it goes through this layer where they may be embedded in the binary, and you sort of can't tell.. And I think the go:draft proposal - and we'll post a link to it in the show notes - has that same kind of idea, which is nice, that you get to kind of use the learning you have already from existing APIs... That may well be cool. And the nice thing is Wails could adopt that and upgrade that, and it almost wouldn't change anything for anybody, would it? It's almost an internal piece which happens transparently, right?
 
 **Lea Anthony:** That's right. It's one of those things as well -- pretty much the Go philosophy is that frameworks are frowned upon. And I tend to agree, even though I've created a framework. I kind of tend to agree that it's--
 
@@ -268,11 +268,11 @@ So in a way, it's extremely powerful, and it doesn't do too much, that's the oth
 
 **Lea Anthony:** Yeah.
 
-**Break:** \[00:43:25.14\]
+**Break:** \[43:25\]
 
 **Mat Ryer:** It's time for Unpopular Opinions!
 
-**Jingle:** \[00:45:27.15\]
+**Jingle:** \[45:27\]
 
 **Mat Ryer:** Okay, do we have any unpopular opinions?
 
@@ -304,7 +304,7 @@ So in a way, it's extremely powerful, and it doesn't do too much, that's the oth
 
 And yeah, the problem is when you're fighting the framework. That's what I like about Wails - it doesn't force you to use a particular web technology. It's somewhat agnostic, so your teams will get to use expertise they already have in order to then build desktop apps... And I think that is quite a valuable thing in itself. It seems like if it was more opinionated, of course, then there's gonna be more cases where it hits up against things that it doesn't do naturally, or it doesn't do very well. So that's what I was saying, I think it has a nice sweet spot.
 
-**Lea Anthony:** \[00:48:30.08\] I think you've actually made me realize something. I've completely mis-sold this thing, haven't I? It's actually a tool, it's not really a framework; because frameworks imply there's lots of opinions, and there isn't. It's really just a tool to compile things, to build things... Yeah, it's more like a developer tool. Interesting.
+**Lea Anthony:** \[48:30\] I think you've actually made me realize something. I've completely mis-sold this thing, haven't I? It's actually a tool, it's not really a framework; because frameworks imply there's lots of opinions, and there isn't. It's really just a tool to compile things, to build things... Yeah, it's more like a developer tool. Interesting.
 
 **Jon Calhoun:** A build tool is probably more accurate... Because we talked about Fyne I think the last time we looked at GUIs, and it's a lot more opinionated, I think, in how you -- like buttons, and things... I think all those things kind of look the same in that, if I recall correctly, and it has some basic scaffolding used to build things in the UI. And it gives you the ability to quickly throw something together and make it work on multiple operating systems, but there are limitations to that based on what they think things should look like, and what their version of a checkbox is, or something... So it goes both ways, and I think yours is probably as unopinionated as possible; that's probably what I'd call Wails.
 
@@ -338,7 +338,7 @@ When I was looking for a logo, I kind of developed one which was a bit of a homa
 
 **Jon Calhoun:** It makes way more sense now.
 
-**Lea Anthony:** \[00:52:07.04\] Tolkien was obsessed with the language, which is kind of interesting. He was obsessed with languages in general, so...
+**Lea Anthony:** \[52:07\] Tolkien was obsessed with the language, which is kind of interesting. He was obsessed with languages in general, so...
 
 **Mat Ryer:** Yeah, yeah. He made the whole language, didn't he? Didn't he make Elvish, the language, and actually did all the work to build it into a real language?
 

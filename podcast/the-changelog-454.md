@@ -24,7 +24,7 @@
 
 **Richard Hipp:** I always thought Software Configuration Management, but Source Control Management works too, I guess...
 
-**Jerod Santo:** \[00:03:59.14\] Sort of. I mean, I guess we'll find out that it does more than just source control, right? It does a lot of things. But also - do you configure software, software configuration? I don't know; neither of them (I guess) fits all that Fossil does, but SCM is definitely a thing... A thing that isn't discussed so much anymore because I think everybody, for the most part, except for you and your community, Richard, are just using Git and GitHub.
+**Jerod Santo:** \[03:59\] Sort of. I mean, I guess we'll find out that it does more than just source control, right? It does a lot of things. But also - do you configure software, software configuration? I don't know; neither of them (I guess) fits all that Fossil does, but SCM is definitely a thing... A thing that isn't discussed so much anymore because I think everybody, for the most part, except for you and your community, Richard, are just using Git and GitHub.
 
 **Richard Hipp:** Pretty much, yup.
 
@@ -94,7 +94,7 @@ It's been five years, it's probably still the most used software in the world, m
 
 **Adam Stacoviak:** Why is that? Because it was paid for by somebody?
 
-**Richard Hipp:** \[00:08:01.22\] Originally we thought we were gonna sell this and make money from it, and that's how we were gonna support ongoing development. That didn't really play out, nobody ever bought it. It does sort of become our business value, our intellectual property. I mean, you can take the SQLite code and fork it and start your own thing...
+**Richard Hipp:** \[08:01\] Originally we thought we were gonna sell this and make money from it, and that's how we were gonna support ongoing development. That didn't really play out, nobody ever bought it. It does sort of become our business value, our intellectual property. I mean, you can take the SQLite code and fork it and start your own thing...
 
 **Jerod Santo:** The tests...
 
@@ -178,7 +178,7 @@ So we've kept the business small. It's not a promise, but we wanna support SQLit
 
 **Jerod Santo:** Yeah, so one thing that has changed - or maybe it hasn't changed, but Adam and I have become aware of this... The last time we talked, 2016 - of course it was already pervasive, it's already out there in tons of things... But it's not client-server. So I guess what you call server-side, write-heavy web server style usage is really the place where SQLite wasn't playing quite as much, because you had switched to a Postgres or something at that point... But it seems like a lot of people take it more serious even for like backends on web servers nowadays. We know Ben Johnson has his Litestream project, which is like streaming replication... So there's tooling around "Hey, I actually wanna use this in a production capacity, on a web server or a web application backend", whereas it didn't seem like people were doing that then, or maybe they just weren't talking about it as much. They were doing it and talking about it now.
 
-**Richard Hipp:** \[00:12:19.01\] No, so SQLite was originally designed to be more of the database engine for the edge of the network...
+**Richard Hipp:** \[12:19\] No, so SQLite was originally designed to be more of the database engine for the edge of the network...
 
 **Jerod Santo:** Yeah, like embedded.
 
@@ -216,7 +216,7 @@ So we've kept the business small. It's not a promise, but we wanna support SQLit
 
 **Richard Hipp:** No, everything's worked out really well. We've been able to solve a lot of problems for a lot of people, and it's been just an amazing journey. One of the great things is that I've been able to go out and visit so many different companies and so many different cultures and see so many different styles of development... It's really been an eye-opener. I would have never imagined that there was such a diversity of corporate cultures and development styles out there.
 
-**Adam Stacoviak:** \[00:15:54.00\] Jerod mentioned Litestream and Ben Johnson... What are your thoughts on that in particular? This idea that you can -- using the replication process of SQLite, and doing what he's done with that... What are your thoughts on Ben's project in particular?
+**Adam Stacoviak:** \[15:54\] Jerod mentioned Litestream and Ben Johnson... What are your thoughts on that in particular? This idea that you can -- using the replication process of SQLite, and doing what he's done with that... What are your thoughts on Ben's project in particular?
 
 **Richard Hipp:** I think it's an interesting idea. Dan (one of the other developers) and I had a Jitsi conversation with Dan at one point, and we really appreciate what he's doing. He's not the only one doing that, let me say... There are other groups that are working on that as we speak.
 
@@ -250,7 +250,7 @@ I think it's a great idea, and I really applaud him doing it. Whether or not he 
 
 **Richard Hipp:** There's lots of things I would have done differently if I'd known back then what I know now. But we're kind of locked in by legacy. We need to support the literally trillions of SQLite databases that are already in the field. So how can we do that and do a column store at the same time...
 
-**Jerod Santo:** \[00:20:01.29\] Could you just have another file format that's like column store mode, and it's like "Well, now it uses this file"?
+**Jerod Santo:** \[20:01\] Could you just have another file format that's like column store mode, and it's like "Well, now it uses this file"?
 
 **Richard Hipp:** Yeah, but then you've got added complexity. The other thing we need to balance is that -- because SQLite runs on small devices, we need to be careful not to let the footprint of a library grow too big. There's been steady growth in the size of the library. We're pushing 600 kb right now.
 
@@ -296,7 +296,7 @@ So -- I mean, that's something that I'll be looking at in the coming year, or in
 
 **Jerod Santo:** \[laughs\]
 
-**Break**: \[00:22:21.05\]
+**Break**: \[22:21\]
 
 **Jerod Santo:** So I think this will lead us into Fossil, but I wanted to touch briefly on Althttpd... Because I saw this and it just made me laugh. Of course Richard Hipp wrote his own web server to power SQLite.org. Tell us about this. I mean, I understand you like to write your own tools... But you know, Apache existed, NGINX existed... Maybe it was very young when it existed.
 
@@ -304,7 +304,7 @@ So -- I mean, that's something that I'll be looking at in the coming year, or in
 
 **Jerod Santo:** NGINX was out there...
 
-**Richard Hipp:** \[00:23:58.01\] ...but it was big and complicated, and I said "Well, I'll stand up Apache, we'll do that..." I looked at the documentation, I read through the documentation multiple times... And I said to myself "Can I configure this in a way that will be secure?" Maybe with some trial and error, but how would I know that it's secure? I wouldn't really know. I mean, you really have to spend some time and become an Apache expert to know that it's secure. Maybe they have better tools now, two decades on. But it occurred to me in order to write something that I would really trust to run on my servers, I need to write it myself. So I put together Althttpd. It's very, very simple; it's a single file of C code, so that you can audit it and make sure that it's not doing anything weird... And I put it out there and it works.
+**Richard Hipp:** \[23:58\] ...but it was big and complicated, and I said "Well, I'll stand up Apache, we'll do that..." I looked at the documentation, I read through the documentation multiple times... And I said to myself "Can I configure this in a way that will be secure?" Maybe with some trial and error, but how would I know that it's secure? I wouldn't really know. I mean, you really have to spend some time and become an Apache expert to know that it's secure. Maybe they have better tools now, two decades on. But it occurred to me in order to write something that I would really trust to run on my servers, I need to write it myself. So I put together Althttpd. It's very, very simple; it's a single file of C code, so that you can audit it and make sure that it's not doing anything weird... And I put it out there and it works.
 
 I make no claim to be the most efficient, it is not the web browser that you want to deploy at scale. This is not the web browser you wanna use if you're building the next Facebook. But for small websites, it works great. It's the traditional "Fork a new process to handle each HTTP request" design. So we handle one HTTP request, it calls exit, and the operating system cleans up the mess. So that's really simple and secure. We don't have to worry about memory leaks, or anything like that... And it handles the load fine. I mean, we're doing -- I mean, it's not a huge load.
 
@@ -330,7 +330,7 @@ So I wrote it back around the year 2000. It's over two decades old. I've put it 
 
 I got lucky that worked out well in the end, because having control of your own storage engine - it allows you to do optimizations and features that you couldn't do if you had to maintain compatibility to somebody else's API. So these sorts of things help a lot. With Althttpd I can do things on the website that I can't do easily with NGINX and Apache, because it does things that they don't do. So I can't really easily convert the website over to those now, because I have to recode it to the Apache/NGINX style.
 
-**Jerod Santo:** \[00:28:21.04\] Do you have a for instance, like something that you can do there?
+**Jerod Santo:** \[28:21\] Do you have a for instance, like something that you can do there?
 
 **Richard Hipp:** Well, with Althttpd there's no configuration file. You just point it to a directory that contains your content, and if the files in that directory are executable, they're CGI. And if they're not executable, they're static content.
 
@@ -380,7 +380,7 @@ I got lucky that worked out well in the end, because having control of your own 
 
 **Richard Hipp:** You know, I can't point to specific lessons. I do find that it does work well to control your own tools. If you do a diff between Althttpd and the web server that's built into Fossil, you'll find a lot of commonality there, because I borrowed heavily between the two. But what I've found is that when you control your own tools, you can go further and do things that you can't do if you're depending on somebody else for your tools. And I won't use Althttpd as the example, but rather Lemon, the parser generator that I use in SQLite. Most people when they're doing a language parser, they'll bring up Yacc or Bison. But I'd written my own version back in the 1980's, because I was dissatisfied with the interface for Yacc... And I used that for SQLite. And I had had it out there for open source for a long time and nobody noticed it until it appeared in SQLite. But by using Lemon as the parser generator, I was able to add new features to Lemon to support language features in SQLite that would just not be possible to do with Yacc.
 
-\[00:32:21.01\] For example, we've just recently in SQLite added the "materialized" keyword. But suppose there's somebody with a schema out there and they've got a column named materialized. If that became a proper keyword, then suddenly when they try to read their database in it wouldn't be able to parse the schema because it was using a keyword as the column name. That wouldn't work.
+\[32:21\] For example, we've just recently in SQLite added the "materialized" keyword. But suppose there's somebody with a schema out there and they've got a column named materialized. If that became a proper keyword, then suddenly when they try to read their database in it wouldn't be able to parse the schema because it was using a keyword as the column name. That wouldn't work.
 
 So we have this feature in Lemon so that if it sees a keyword in a context where it thinks it needs an identifier, and it can't use the keyword there, it will change the keyword into an identifier and use it as an identifier. You can't do stuff like that in Yacc, but because we control the parser generator, we can pull little tricks like that and maintain backwards compatibility.
 
@@ -412,7 +412,7 @@ And we were also able to optimize the code generated by that parser generator so
 
 **Jerod Santo:** And a database, you know?
 
-**Richard Hipp:** \[00:35:45.02\] Yeah, and a database. Absolutely. So yeah, you use the tools that are appropriate, but I have my own text editor, I have my own web server, my own parser generator, my own version control system etc. I keep threatening to do my own email transfer agent, and I've actually put work into that, and that turns out to be a really, really hard problem. That's a harder problem than writing a database engine, actually, because of all the legacy you have to support... But I'm really dissatisfied with what we have available in terms of email systems. If you wanna host your own email, that's kind of hard to do these days.
+**Richard Hipp:** \[35:45\] Yeah, and a database. Absolutely. So yeah, you use the tools that are appropriate, but I have my own text editor, I have my own web server, my own parser generator, my own version control system etc. I keep threatening to do my own email transfer agent, and I've actually put work into that, and that turns out to be a really, really hard problem. That's a harder problem than writing a database engine, actually, because of all the legacy you have to support... But I'm really dissatisfied with what we have available in terms of email systems. If you wanna host your own email, that's kind of hard to do these days.
 
 **Adam Stacoviak:** It's super-challenging. It takes so much work to do that. We've actually just logged something - I can't think of all the details, but they were giving a walkthrough of how essentially to host your own email and all the things you would have to do, and I'm just like "No, that's just so much. It's just so much."
 
@@ -476,7 +476,7 @@ On the other hand, I'm unwilling to say anything bad about CVS, because I had to
 
 **Richard Hipp:** But yeah, it has its issues. So we started out with SQLite in CVS, because back in 2000 that's what everybody was using for everything. And that went on for a while, but I recognized that it was inadequate. And Git had just started to come out; it really hadn't gotten the traction that it has now. Mercurial was out, and it was still an open question, "Do I use Git or Mercurial?" And that was a big debate back then. This was before GitHub.
 
-\[00:40:06.26\] I had been doing some work on SQLite with some avionics companies, and I'd come to understand this quality standard called DO-178B. This is a quality standard used in avionics, and I thought "Well, I'm gonna apply this to SQLite." And part of the DO-178B standard is version control, or source control management. And I looked at the requirements that they had, and in my opinion - which doesn't really count for much, but my opinion was that neither Git nor Mercurial really filled the bill here. And I thought "Well, I'm gonna do my own."
+\[40:06\] I had been doing some work on SQLite with some avionics companies, and I'd come to understand this quality standard called DO-178B. This is a quality standard used in avionics, and I thought "Well, I'm gonna apply this to SQLite." And part of the DO-178B standard is version control, or source control management. And I looked at the requirements that they had, and in my opinion - which doesn't really count for much, but my opinion was that neither Git nor Mercurial really filled the bill here. And I thought "Well, I'm gonna do my own."
 
 The other one that had influenced me was called Monotone. And Monotone, if you've never heard of it, as far as I know, it was the first version control system that was Git-like in the sense that it used SHA-1 hashes to name everything... And I was influenced by Monotone as well. But I wanted a version control system that would work easily from behind a shared hosting environment. This was before the age of ubiquitous virtual private servers. Back then, when you wanted to lease space on a server, they just gave you a shell account and you had your home directory and you put your stuff in your ~/bin. And they ran Apache for you, and it just pointed to your directory, and did its thing.
 
@@ -490,7 +490,7 @@ With for example Git, when you make some changes, you make your changes and then
 
 **Jerod Santo:** Is it still distributed, or is it a client server?
 
-**Richard Hipp:** \[00:44:01.17\] It's still distributed, but when you're on a network, it behaves as if it's a client server, because as soon as you do a commit, it immediately pushes your changes out to the server, if that server is available. So if your system catches on fire, you haven't lost anything.
+**Richard Hipp:** \[44:01\] It's still distributed, but when you're on a network, it behaves as if it's a client server, because as soon as you do a commit, it immediately pushes your changes out to the server, if that server is available. So if your system catches on fire, you haven't lost anything.
 
 I remember a few years ago that actually happened to Linus. A distro caught fire, or somehow went inoperable, and he lost a couple of days' worth of commits, or something. I don't remember the details of the story.
 
@@ -518,7 +518,7 @@ So apart from those minor differences, they're really kind of the same thing. Th
 
 The other big difference I guess is Fossil does try to -- people talk about Git and Mercurial as they're distributed. Well, Fossil is distributed too in the sense that everybody has copies of all of the files. But Fossil is non-distributed in the good sense of the word. It's not just the source files that it controls, it also controls your bug tickets, your wiki, your forum, your chat room, and you can hyperlink between all of these things and it manages them all together. And it keeps everything in a single file on disk.
 
-\[00:47:49.29\] So Fossil is non-distributed in the sense that you only have one place to go to find all of your tools and all of your files... Whereas if you're using another system, whatever that might be, you've got this system for version control, and "Oh, I'm pulling in the wiki from here, and I've got that..." and "Oh, we're using this bug tracking system, and we've got a separate web page for that..." You might have slightly different looks and feels. If you're using Markdown as your markup language you've probably got 3 or 4 different dialects of markup that get involved... Whereas with Fossil it's all together, it's all in one file, and there's one place to go on the web to see it all.
+\[47:49\] So Fossil is non-distributed in the sense that you only have one place to go to find all of your tools and all of your files... Whereas if you're using another system, whatever that might be, you've got this system for version control, and "Oh, I'm pulling in the wiki from here, and I've got that..." and "Oh, we're using this bug tracking system, and we've got a separate web page for that..." You might have slightly different looks and feels. If you're using Markdown as your markup language you've probably got 3 or 4 different dialects of markup that get involved... Whereas with Fossil it's all together, it's all in one file, and there's one place to go on the web to see it all.
 
 **Jerod Santo:** Yeah, so is that one file per project then?
 
@@ -534,7 +534,7 @@ The other big difference I guess is Fossil does try to -- people talk about Git 
 
 The thing is, because it's hosted with a relational database, we can follow branches forward in time, in addition to backwards in time. If you think about it with Git, if you know a check-in, it's really easy to find the check-ins that came before. But say you've bisected and landed on a check-in, or say a customer of the company says "Hey, we're having trouble with this check-in", you can't easily find out what came afterwards, what things were added to this check-in later in time. You have to go searching the Git log, or do some stuff like that... And the GUIs don't typically provide you with this information, because it's hard to find. Because the internal data structure - it has a pointer to the ancestors, to the things that came before, but there are no pointers going forward in time, because the check-in is immutable, and at the time of the check-in you don't know what's gonna come next. But if you store this information in a relational database, then you can create an index and you could follow that index forward in time.
 
-\[00:52:07.20\] So given a point in time, we can see what's going on in all branches simultaneously, both forwards and backwards. It's a very powerful feature to maintain situational awareness. And I talked to Git users and they say "Oh, I don't need that. I've never used that." You know, fair enough... But I never needed bisect until I had the capability, and now I can't live without it. Once you start using this powerful feature of being able to see what comes next, what came after this check-in, it's hard to go back.
+\[52:07\] So given a point in time, we can see what's going on in all branches simultaneously, both forwards and backwards. It's a very powerful feature to maintain situational awareness. And I talked to Git users and they say "Oh, I don't need that. I've never used that." You know, fair enough... But I never needed bisect until I had the capability, and now I can't live without it. Once you start using this powerful feature of being able to see what comes next, what came after this check-in, it's hard to go back.
 
 **Jerod Santo:** So you mentioned that GUIs don't make it easy... Does Fossil have a GUI itself?
 
@@ -546,7 +546,7 @@ And the nice thing is that then when you set up a server, if you want to, you do
 
 And the way it's set up, when you do "fossil ui" it's got a little mini web server running locally, but you can also run it from CGI, or SCGI, or whatever hosting mechanism you prefer. Same interface either way.
 
-**Break**: \[00:54:24.13\]
+**Break**: \[54:24\]
 
 **Jerod Santo:** So hop us back to the branching and merging, if you don't mind... One thing that I do often is throw stuff away.
 

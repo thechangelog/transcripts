@@ -28,7 +28,7 @@ In the past I've worked on machine learning systems, and I've programmed in seve
 
 I worked with IronRuby by writing a book for Manning which never got published, because Microsoft canceled the project before the book was finished, or at the same time that the book was finished, really.
 
-\[00:03:50.19\] So then from there I also started a startup at that point, where I was gonna do real-time social media filtering. You can look at today -- it would probably be the most similar to IFTTT, because you could set up some query parameters, and if a Twitter feed or a Facebook feed or whatever social media feed would raise an event that matches those created parameters, it would trigger yet another webhook or some other event that you could then react to.
+\[03:50\] So then from there I also started a startup at that point, where I was gonna do real-time social media filtering. You can look at today -- it would probably be the most similar to IFTTT, because you could set up some query parameters, and if a Twitter feed or a Facebook feed or whatever social media feed would raise an event that matches those created parameters, it would trigger yet another webhook or some other event that you could then react to.
 
 To do so, I had to analyze the Twitter Firehose and so on, and Ruby didn't get me far enough, so I started looking for something else and I found Scala. Scala at that time only had Lift as a web framework. People said it was very interesting, but from my point of view it was a web framework that conflated all kinds of responsibilities, and so I started looking for something that looked like Sinatra, because Sinatra was as concise as I could think of for developing web apps -- or API's.
 
@@ -42,7 +42,7 @@ In the meantime, through Scalatra I got into [Swagger](https://swagger.io/), bec
 
 Everybody who writes an API ends up having the same problem - now you have a bunch of clients who are talking to your API; you still wanna be able to evolve your API over time, you bring new people on board, they don't know how to use your API, they don't know what the inputs are, what the outputs are, especially if you're writing a dynamic language kind of API... So to formalize those expectations between the boundaries that existed within our teams, we came up - and many people like us - have come up with a format to describe what goes into the API.
 
-\[00:08:03.22\] Essentially, it's just a schema for your input and output parameters that captures what some people look at as a contract for your API. Once you have a machine-readable version of something like that, you can take it in many different forms. The very first thing that we then did was make a UI for it, because now you have this API; if you run the UI, you point it to this description which is hosted with your API. You can show a nice documentation, especially if you add some markdown or some richer form of documentation, and that documentation lives with your code. That's important, so that for every version of your code you actually have a complete form of documentation for the API that that application exposes.
+\[08:03\] Essentially, it's just a schema for your input and output parameters that captures what some people look at as a contract for your API. Once you have a machine-readable version of something like that, you can take it in many different forms. The very first thing that we then did was make a UI for it, because now you have this API; if you run the UI, you point it to this description which is hosted with your API. You can show a nice documentation, especially if you add some markdown or some richer form of documentation, and that documentation lives with your code. That's important, so that for every version of your code you actually have a complete form of documentation for the API that that application exposes.
 
 From there, obviously, machine-readable makes it also that it's easy to generate clients for your API, because you now know exactly what goes in and out of the API, so you can generate a client for it. If you then take that a little bit further and you make the API specification easy to define, from there you could also look at it like "Oh, why don't I do contract-first, and I start generating a server?" Here, Go is particularly strong, because it allows for these broken-up definitions in many files, and so on. So I took this from what we've tried with Scala, take an API specification and just generate a service for it that implements the entire specification, so you don't have to really think about all of the ceremony, but just start writing the things you care about, the things that happen after all of the common parts.
 
@@ -58,7 +58,7 @@ So that's a rundown of what Swagger is. Of course, there are marketplaces now wh
 
 In that case, what I've tried to do is define a number of documentation comments that also look good when you just do GoDoc, to describe what is in your API. So you document your routes with some of the expectations that are required for Swagger, you document your models, and you just write doc comments, basically. Then you `run swagger generate spec` and you point it to your main package, and it will reflect over your application and generate the Swagger JSON file.
 
-\[00:12:17.05\] From there, you take the Swagger binary and you do `swagger surf`, and point it to the spec document that you just created, and it will serve up an HTML UI for you.
+\[12:17\] From there, you take the Swagger binary and you do `swagger surf`, and point it to the spec document that you just created, and it will serve up an HTML UI for you.
 
 **Carlisia Thompson:** So if I want to have a system where I can share this documentation with my entire team, should I have them download Swagger? Should they download the binary and run -- for example, I can have the Swagger documentation file on GitHub somewhere, maybe together with my project; they download that, they run it themselves? Or should I put up a server to run, so we can all access online?
 
@@ -86,7 +86,7 @@ In that case, what I've tried to do is define a number of documentation comments
 
 **Erik St. Martin:** Yeah, and it actually exists in more projects than people probably realize. I'm fairly certain both [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/) have Swagger support.
 
-**Ivan Porto Carrero:** \[00:15:52.09\] Yeah. Actually, the Docker API, the last time I looked - but things might have changed again - uses the generated version of it, so they use it to generate their models. Then Kubernetes uses it through Go RESTful, but then custom resources in Kubernetes \[unintelligible 00:16:11.00\] they use the toolkit that I've built for validation of those resources, for example, because within the toolkit lies buried also a fully-typed implementation of JSON Schema, and the JSON Schema validation, and so on. So as part of the Swagger implementation I had to develop this.
+**Ivan Porto Carrero:** \[15:52\] Yeah. Actually, the Docker API, the last time I looked - but things might have changed again - uses the generated version of it, so they use it to generate their models. Then Kubernetes uses it through Go RESTful, but then custom resources in Kubernetes \[unintelligible 00:16:11.00\] they use the toolkit that I've built for validation of those resources, for example, because within the toolkit lies buried also a fully-typed implementation of JSON Schema, and the JSON Schema validation, and so on. So as part of the Swagger implementation I had to develop this.
 
 There were varying libraries to do JSON Schema within Go, but most of them had some problems and I tried to submit some PRs, they never got accepted, so I decided to fork and just make it work the way I wanted it to work.
 
@@ -116,7 +116,7 @@ So yeah, it's in many places. Last week there was a project - \[unintelligible 0
 
 It's this interesting thing - Kubernetes allows you to package your app and deploy the containers and do all of that service discovery, all of the coordinated stuff you are actually required to run these larger infrastructures, but I think most people are surprised by how much Linux you have to know to really operate it well... Because it doesn't hide anything from you. It's there, it makes extremely creative use of the kernel facilities. Technically, it's a very interesting project.
 
-**Erik St. Martin:** \[00:20:19.09\] Yeah, it's a lot of fun. I think that there should be experts in that stuff, too. Don't get me wrong, but a lot of businesses, especially smaller businesses - they're worried about having to scale fast, and things like that... And then once you start hitting odd scenarios and stuff like that, and you hit saturation points and things fail in odd ways, and then your team who was developing features now becomes firefighters trying to figure out some of the issues, and things like that.
+**Erik St. Martin:** \[20:19\] Yeah, it's a lot of fun. I think that there should be experts in that stuff, too. Don't get me wrong, but a lot of businesses, especially smaller businesses - they're worried about having to scale fast, and things like that... And then once you start hitting odd scenarios and stuff like that, and you hit saturation points and things fail in odd ways, and then your team who was developing features now becomes firefighters trying to figure out some of the issues, and things like that.
 
 It's a fun world, right? Some of us enjoy doing that, but not everybody has the extra resources to be able to do that. And like you said, with the on-prem people and stuff like that that are used to running vSphere and things like that - they've already got that expertise on their team. And not every team is fortunate enough to have the kind of infrastructure expertise.
 
@@ -132,7 +132,7 @@ It's a fun world, right? Some of us enjoy doing that, but not everybody has the 
 
 **Ivan Porto Carrero:** And you probably already have solutions in place, right? Most of these companies probably already have a library like Go Get in their infrastructure, that allows you to encapsulate all of those calling patterns - call all the services at once, drop all the requests when I have the first response, and so on. That's essentially what's being captured here.
 
-\[00:24:05.20\] So it's gonna be interesting to see it play out; I'm gonna be a spectator in this one... \[laughter\] This whole Go Swagger thing keeps you apparently busy, so in between my work...
+\[24:05\] So it's gonna be interesting to see it play out; I'm gonna be a spectator in this one... \[laughter\] This whole Go Swagger thing keeps you apparently busy, so in between my work...
 
 **Erik St. Martin:** Is that what you work on most of the time?
 
@@ -158,7 +158,7 @@ So now we've submitted the paper again; once it's accepted, I can publish it bec
 
 **Brian Ketelsen:** So tell us how PKS works. PKS is an implementation of Kubernetes for distribution on VMware... So does it provision Kubernetes on VMware systems?
 
-**Ivan Porto Carrero:** \[00:28:08.02\] Yes, but it does more than that. It is a joint effort between Pivotal and VMware, and to some extent also Google, for the Cloud Foundry stuff on Google. Now, this doesn't mean that PKS requires Cloud Foundry. It can be used next to it, and it can be used standalone. What I work on - at the VMware side at least - is the integrations with the VMware stack, then the optimizations we can do at a Hypervisor level to work with something like Kubernetes, so that you get these benefits of maintenance mode and the separation between your hardware and your actual workloads.
+**Ivan Porto Carrero:** \[28:08\] Yes, but it does more than that. It is a joint effort between Pivotal and VMware, and to some extent also Google, for the Cloud Foundry stuff on Google. Now, this doesn't mean that PKS requires Cloud Foundry. It can be used next to it, and it can be used standalone. What I work on - at the VMware side at least - is the integrations with the VMware stack, then the optimizations we can do at a Hypervisor level to work with something like Kubernetes, so that you get these benefits of maintenance mode and the separation between your hardware and your actual workloads.
 
 It uses [[BOSH](https://bosh.io/docs/), so that's the one component that's required, the BOSH piece. If you're not familiar with it, BOSH is a lifecycle manager for applications. It's something that will monitor your infrastructure. If something goes wrong, it's going to take immediate action. If one of the nodes becomes unresponsive, for example, or some failure condition happens, it's gonna try to restart the processes; if the processes aren't to blame, it's gonna recreate the VM. That's, in a nutshell, what it does. It's a managed Unattended version of Kubernetes.
 
@@ -172,7 +172,7 @@ Other than that, we make sure that it can leverage just all of this stuff that V
 
 There is more stuff to it, because NSX-T is quite an extensive piece of work. So it's pretty optimized in how it deals with sending traffic and doing the routing rules and so on, but those are implementation details of NSX-T itself. What is unique I think is that it has a centralized management plan for all types of container interfaces, and that is where Kubernetes also takes advantage of it. The NSX team has an integration for Kubernetes that also works with some of the other Kubernetes distributions, so yes, it's a very important piece of it, the security aspects that NSX-T brings to bear.
 
-**Brian Ketelsen:** \[00:32:10.04\] Now, if I remember right, there's a lot of components that have been built by either Pivotal or VMware, that kind of contribute to this system. I know there was something called Kubo - that's related to this, right?
+**Brian Ketelsen:** \[32:10\] Now, if I remember right, there's a lot of components that have been built by either Pivotal or VMware, that kind of contribute to this system. I know there was something called Kubo - that's related to this, right?
 
 **Ivan Porto Carrero:** Yeah, [Kubo](https://pivotal.io/partners/kubo) is the Kubernetes on BOSH. That is the piece that interacts with BOSH, and BOSH works through a system called _Releases_. _Releases_ is some archive that has some metadata in addition to having potentially all of the source code to rebuild that particular release from scratch. It then also has all of the monitoring and failure conditions that it knows about, and their remediation. So it encapsulates all of that in a single package, and that is what Kubo is.
 
@@ -198,7 +198,7 @@ It looks pretty slick, and it feels like maybe it's the thing that happened afte
 
 **Carlisia Thompson:** And you can do your own code for this, but it has this dashboard, and it's so easy to use.
 
-**Erik St. Martin:** \[00:35:54.11\] Last episode we told everybody to update to Go 1.9.1 and Go 1.8.4 (I think it was). So there is a minor patch release, 1.9.2 and 1.8.5, which has just some basic updates to the compiler and runtime and stuff. But if you are noticing issues with go get on non-Git repositories, those will fix it. That bug was introduced in the last patch release.
+**Erik St. Martin:** \[35:54\] Last episode we told everybody to update to Go 1.9.1 and Go 1.8.4 (I think it was). So there is a minor patch release, 1.9.2 and 1.8.5, which has just some basic updates to the compiler and runtime and stuff. But if you are noticing issues with go get on non-Git repositories, those will fix it. That bug was introduced in the last patch release.
 
 Other updates - GoBot released [1.7.0](https://github.com/hybridgroup/gobot/releases/tag/v1.7.0)...
 
@@ -240,7 +240,7 @@ In its 1.0 version, Authboss was not all that I wanted it to be.
 
 **Erik St. Martin:** Yeah, that's the thing with most of the open source projects - you see them and you're like "I want this thing", but it's not production-ready, right? We're all guilty of it. It's like, "Oh, it's on GitHub. I can totally use it in production." \[laughter\]
 
-**Brian Ketelsen:** \[00:40:04.17\] Well, it doesn't bother me to jump in and help them make it production-ready; it's just like the idea that somebody has taken a vision and started to see it through to reality. That's usually when I find the projects, too - somewhere in between vision and reality.
+**Brian Ketelsen:** \[40:04\] Well, it doesn't bother me to jump in and help them make it production-ready; it's just like the idea that somebody has taken a vision and started to see it through to reality. That's usually when I find the projects, too - somewhere in between vision and reality.
 
 **Erik St. Martin:** So our next one - I am particularly excited about... Who wants to talk about [grv](https://github.com/rgburke/grv)?
 
@@ -280,7 +280,7 @@ It reminds me a lot of... What's the mail program? The UNIX mail program, like _
 
 **Erik St. Martin:** Okay, so what else do we have? Oh, [dep 0.3.2](https://github.com/golang/dep/releases/tag/v0.3.2) was also released, and that added import support for gvt and gb, and it had some other bug fixes and improvements. So if you are currently using dep or were waiting for something that would auto-import from gvt or gb, I encourage you to play with that.
 
-**Ivan Porto Carrero:** \[00:44:15.10\] That's been one of the best blog posts I've ever read about version management from the guy... From...
+**Ivan Porto Carrero:** \[44:15\] That's been one of the best blog posts I've ever read about version management from the guy... From...
 
 **Carlisia Thompson:** From [Sam Boyer](https://twitter.com/sdboyer)...
 
@@ -318,7 +318,7 @@ He gives really good contrasts and he speaks in a very simple language. I though
 
 **Erik St. Martin:** Ivan, I don't know whether you listen to the show, but basically what we do every week is we give a shout-out to an OSS maintainer, group or project, just to kind of show the love. It does not have to be written in Go, so anything is up in the air. We often give shout-outs to tools and things like that that we use.
 
-**Ivan Porto Carrero:** \[00:48:14.19\] Okay. I haven't given it much thought though, so...
+**Ivan Porto Carrero:** \[48:14\] Okay. I haven't given it much thought though, so...
 
 **Erik St. Martin:** Yeah, you don't have to have anything.
 
@@ -344,7 +344,7 @@ He gives really good contrasts and he speaks in a very simple language. I though
 
 **Erik St. Martin:** Mine for this week is [gonum](https://github.com/gonum). If you haven't seen it, it is filled with libraries for like linear algebra statistics, probability, things like that. And I'm really excited to see how this progresses. It is a world I'm not as smart in, so I'm glad people are writing these algorithms for me... But I'm mostly excited because Python with the NumPy library seems really to be the area that people are working in some of the more scientific regions. Seeing these things introduced in Go makes me hopeful that we'll start seeing more of those projects being completed in Go, as well.
 
-**Brian Ketelsen:** \[00:51:08.02\] That would be awesome.
+**Brian Ketelsen:** \[51:08\] That would be awesome.
 
 **Carlisia Thompson:** See? Go is growing! And look at this documentation... I love it! It's pretty awesome. Really well put together.
 

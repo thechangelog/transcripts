@@ -16,7 +16,7 @@
 
 What Moore's Law actually says is that the number of transistors that you can cram on a chip doubles every 18 to 24 months. That's the part that is still relatively true, although it's slowing down. The interesting thing, and the thing that people typically get confused with this is -- so there's something else called Dennard's scaling, that broke down around 2006. I think that's what has led to us having all these multi-core chips now, where you got a lot of performance out of your single-core chips before.
 
-\[00:04:25.01\] What Dennard's scaling says is that as your transistors get smaller, the voltage and current stay proportionate to that, so effectively your power density is the same for a smaller transistor as it is for a larger one. What that means is that you can basically jack up the frequency or the voltage on the chip as you scale the number of transistors, so you get clock speed for free over time.
+\[04:25\] What Dennard's scaling says is that as your transistors get smaller, the voltage and current stay proportionate to that, so effectively your power density is the same for a smaller transistor as it is for a larger one. What that means is that you can basically jack up the frequency or the voltage on the chip as you scale the number of transistors, so you get clock speed for free over time.
 
 **Jerod Santo:** Just by increasing the power.
 
@@ -52,7 +52,7 @@ What Moore's Law actually says is that the number of transistors that you can cr
 
 But what they do - you can still get these multi-core chips now, right? The number of core on your chips has definitely been increasing, so that's what they're using the transistors for... Where they used to pack more transistors into things like out of order execution and other stuff on the dye; now you're just building out and replicating chips of effectively the same size on the same -- well, cores of effectively the same size on the chip. So that's what your multi-core CPU's are doing, they're becoming their own little massively parallel machines.
 
-**Jerod Santo:** \[00:08:20.29\] So even back in that show, even then we were talking about the proliferation of cores at least at a consumer level hasn't gone crazy in terms of you're still talking about two-core, four-core, eight-core.
+**Jerod Santo:** \[08:20\] So even back in that show, even then we were talking about the proliferation of cores at least at a consumer level hasn't gone crazy in terms of you're still talking about two-core, four-core, eight-core.
 
 **Todd Gamblin:** Sure.
 
@@ -76,7 +76,7 @@ I think you're gonna see the HPC side start to shift towards different architect
 
 **Adam Stacoviak:** Maybe for those out there that are like catching up and maybe just trying to follow along, to some degree, if they're not schooled in transistors and chips, can you break down what a chip is and what the components of it are, and the thresholds we have kind of gone over the years and we're at today? Is that possible?
 
-**Todd Gamblin:** \[00:12:12.09\] Sure. Yeah, we could talk about that some. At the lowest level, people talk about transistors. What a transistor is - it's a thing that if you apply current to it, it changes the conductivity of the material. What that means -- think of it as a wire, with another wire coming into it; if you put some current on that thing, then the first wire either conducts or it doesn't. All that means is that now you have a switch, so you can build out more complex logic from that switch. That's the fundamental thing that enables us to build computers. They can build that now by etching it on silicon. So they oxidize silicon - that's what all these fabs and big chip plants are doing - they etch lots of transistors onto silicon with chemical reactions, and there's different processes for doing that.
+**Todd Gamblin:** \[12:12\] Sure. Yeah, we could talk about that some. At the lowest level, people talk about transistors. What a transistor is - it's a thing that if you apply current to it, it changes the conductivity of the material. What that means -- think of it as a wire, with another wire coming into it; if you put some current on that thing, then the first wire either conducts or it doesn't. All that means is that now you have a switch, so you can build out more complex logic from that switch. That's the fundamental thing that enables us to build computers. They can build that now by etching it on silicon. So they oxidize silicon - that's what all these fabs and big chip plants are doing - they etch lots of transistors onto silicon with chemical reactions, and there's different processes for doing that.
 
 Those processes are what enable us to cram more transistors on the chip over time. It's improvements to them, and -- I mean, I'm not a process scientist, so I don't know a whole lot about that, but effectively Moore's Law originated when Gordon Moore in 1965 observed that that process had resulted in the effective doubling of transistors every 18 months or two years back in 1965. He was looking at the range from 1958 to 1965. So that's where that comes from.
 
@@ -108,7 +108,7 @@ The difference is that if you increase this clock frequency, that just means tha
 
 **Jerod Santo:** Divvy it up.
 
-**Todd Gamblin:** \[00:16:04.18\] Yeah, you have to divide it up into smaller chunks, or figure out a way to do it; it might involve changing your whole algorithm, and that's a lot harder. And not all workloads can do that, and not all consumer workloads can do that, so it's interesting to see how this will pan out on consumer chips... Although I think with all this machine learning stuff going on now -- it's not like there's a shortage of numerically-intensive things to do on your desktop machine or on your phone... Or games, they have always taken advantage of things.
+**Todd Gamblin:** \[16:04\] Yeah, you have to divide it up into smaller chunks, or figure out a way to do it; it might involve changing your whole algorithm, and that's a lot harder. And not all workloads can do that, and not all consumer workloads can do that, so it's interesting to see how this will pan out on consumer chips... Although I think with all this machine learning stuff going on now -- it's not like there's a shortage of numerically-intensive things to do on your desktop machine or on your phone... Or games, they have always taken advantage of things.
 
 We can talk about GPUs some. GPUs are an interesting design point. I think in the functional programming podcast you were mentioning earlier, you guys mentioned that "Oh, people told me I was gonna have thousands of cores. Where are my thousands of cores?" and the answer is "They're in your GPU", because that's a very different workload from what your desktop CPU is doing; it's data parallel. It's easy to divide up the work that you have to do for graphics rendering.
 
@@ -128,7 +128,7 @@ So if we're coming to this from a high-level language... I think most of the lis
 
 So if you have that pipeline where you can pull instructions from memory, you can do stuff to numbers and write it back to memory, then that's effectively what a modern core (I guess) looks like. That's a processor. You can run programs on that.
 
-\[00:20:08.03\] It used to be that you had one core on the chip, and that was what you did; you had one thread of execution, you would fetch an instruction, you'd do what it said, you'd write the result back to memory and you would go on and fetch the next one, and do what it said. And there's just a whole lot of optimizations that have happened over the course of processor history that led to what we have today.
+\[20:08\] It used to be that you had one core on the chip, and that was what you did; you had one thread of execution, you would fetch an instruction, you'd do what it said, you'd write the result back to memory and you would go on and fetch the next one, and do what it said. And there's just a whole lot of optimizations that have happened over the course of processor history that led to what we have today.
 
 Spectre and Meltdown have been the news recently. The chips do things like speculative execution; they can say "Hey, I'm not gonna know whether I wanna execute this stream of instructions for a little while, but while I'm waiting to figure it out, can I go and try that?" Then, as we found out, you can get bugs from that... But it's also a huge performance increase.
 
@@ -148,9 +148,9 @@ There's lots of these different sequential optimizations that people have done, 
 
 The reason that the multicore stuff doesn't change your perception of what's going on on the computer quite as much, or at least from a programming perspective - one reason is that there are a lot of multi-threaded programs, and even your operating system is... You know, even before you had multi-core chips, your operating system was executing multiple things at the same time; it was just doing it by time-sharing. So you know what a context switch is - it's when you're executing one program and then the OS says "Well, there's this other thing that's running at the same time; I'm gonna swap that in, execute it for a little bit, then I'm gonna preempt it and switch back to the other thing that you were doing."
 
-\[00:24:16.01\] And effectively, that's how your OS did multitasking before you had multi-core chips, is by just switching back and forth between different tasks really rapidly. And now, on your chip you really can have things executing actually in parallel, so to some extent it's kind of a natural transition, because you can just execute different threads on different cores, and the operating system has to manage that... But you still have context-switching too, so you can still execute many more tasks on your chip than you had cores.
+\[24:16\] And effectively, that's how your OS did multitasking before you had multi-core chips, is by just switching back and forth between different tasks really rapidly. And now, on your chip you really can have things executing actually in parallel, so to some extent it's kind of a natural transition, because you can just execute different threads on different cores, and the operating system has to manage that... But you still have context-switching too, so you can still execute many more tasks on your chip than you had cores.
 
-**Break:** \[00:24:52.28\]
+**Break:** \[24:52\]
 
 **Jerod Santo:** Well, Moore's Law is not dead, but dying... Murphy's Law, however - eternally true.
 
@@ -168,7 +168,7 @@ The reason that the multicore stuff doesn't change your perception of what's goi
 
 In our community, the other places that people are looking - so there's quantum computing, and people talk about that a lot.
 
-**Jerod Santo:** \[00:27:59.20\] Oh, I wanna talk about that.
+**Jerod Santo:** \[27:59\] Oh, I wanna talk about that.
 
 **Todd Gamblin:** Yeah... Okay.
 
@@ -205,7 +205,7 @@ But I think the theme across all these different areas is that it's more special
 
 **Todd Gamblin:** Yeah.
 
-**Jerod Santo:** \[00:31:54.01\] Tell us real quick -- you mentioned you work at Lawrence Livermore National Lab, and you said "We care about high-performance computing." Maybe explain the specific use cases as much as is public knowledge (not top secret stuff that you guys do and you're applying these technologies to).
+**Jerod Santo:** \[31:54\] Tell us real quick -- you mentioned you work at Lawrence Livermore National Lab, and you said "We care about high-performance computing." Maybe explain the specific use cases as much as is public knowledge (not top secret stuff that you guys do and you're applying these technologies to).
 
 **Todd Gamblin:** Okay, so I work for the Department of Energy; I think the Department of Energy has been in the news as Trump has picked his cabinet lately... We deal with a couple of different things. I think the DOE is the biggest funder of science research in the US, alongside the NSF, and that involves funding universities, it involves funding the national laboratories, and we're also in charge of managing the US nuclear stockpile and making sure that it stays safe and reliable.
 
@@ -231,7 +231,7 @@ And I guess the other interesting facility here that's in the news frequently is
 
 **Adam Stacoviak:** Well, I was still stuck back at the size of this TrueNorth, and I was thinking about the size of this thing... I was actually thinking about at what point does -- because these things are really, really small... At what point does a chip - or microchip, or however you wanna term this - get so small that it gets to the very, very small, which if you study physics and things like that, you know life like we see it, then you see the very, very big, which is planet sizes, and universe sizes, then you get the very, very small, which is like atom sizes... Like, how small do these things get? But then this star conversation is far more interesting to me... I like that.
 
-**Todd Gamblin:** \[00:36:13.05\] So there's lots of physics that goes on in the Department of Energy, so I guess -- shameless plug (I can endorse the Department of Energy) it's a good place to work, because you get to find out about stuff like this.
+**Todd Gamblin:** \[36:13\] So there's lots of physics that goes on in the Department of Energy, so I guess -- shameless plug (I can endorse the Department of Energy) it's a good place to work, because you get to find out about stuff like this.
 
 **Jerod Santo:** Yeah, sounds interesting.
 
@@ -275,7 +275,7 @@ So that's where the HPC comes in. Simulating something like that takes an awful 
 
 **Jerod Santo:** How big of a performance hit is it that you're seeing? There are some reports it would be up to 30%, but it doesn't sound like that's necessarily the case...
 
-**Todd Gamblin:** \[00:39:58.09\] Yeah, I think that's in line, depending on the workload. It really depends on what application you're running, because it's that system call overhead that you're paying for. So we have an interest in high-performance computing because there's basically never an end to the computing capacity that we need to simulate the stuff that we're looking into. Most of the place where we get into architecture around here is in optimizing the performance of applications... So we have people who work with the application teams and they say "Okay, your simulation does this... How can I make that execute more efficiently on the hardware?"
+**Todd Gamblin:** \[39:58\] Yeah, I think that's in line, depending on the workload. It really depends on what application you're running, because it's that system call overhead that you're paying for. So we have an interest in high-performance computing because there's basically never an end to the computing capacity that we need to simulate the stuff that we're looking into. Most of the place where we get into architecture around here is in optimizing the performance of applications... So we have people who work with the application teams and they say "Okay, your simulation does this... How can I make that execute more efficiently on the hardware?"
 
 Then we also look at procurement. So we have this workload, we know that we need to run these things, so what's the next machine that we're gonna buy? I was talking about Sequoia - Sequoia is the 16th realized 20 peak petaflop machine that we have on the floor right now. Our next machine is gonna be a 125 petaflop machine... So the whole procurement process - people get together and they look at the architectures from different vendors and they say "How is our workload gonna execute on this?"
 I think in the future you're gonna have to think more and more about matching the applications to the architecture... And we had to think about that, because our next machine is a big GPU system.
@@ -304,7 +304,7 @@ The GPUs have kind of won in terms of that's the thing that hasn't a market out 
 
 **Adam Stacoviak:** Yeah... \[laughter\]
 
-**Todd Gamblin:** \[00:44:13.11\] But if you want the details on our current machine, there's a nice article at The Next Platform by our CTO, who is in charge of that procurement process.
+**Todd Gamblin:** \[44:13\] But if you want the details on our current machine, there's a nice article at The Next Platform by our CTO, who is in charge of that procurement process.
 
 **Adam Stacoviak:** Awesome. Well, we'll make sure we link it up in the show notes.
 
@@ -324,13 +324,13 @@ The GPUs have kind of won in terms of that's the thing that hasn't a market out 
 
 **Todd Gamblin:** Alright... \[laughter\] With simulation we can make it better. We can more effecive sharks with laser beams. That sounds scary, though; I think we should think about the consequences in doing that.
 
-**Break:** \[00:45:08.12\]
+**Break:** \[45:08\]
 
 **Adam Stacoviak:** So I guess the question I have is like if you've got this 200-million-dollar computer, it's gotta be something that's pretty demanding, right? People are gonna wanna use this thing, because you're not gonna wanna not get the return on investment for that thing... So what's it like scheduling, managing a project -- how do you schedule time for it? Do you have to predict how long the project will take, the compute time...? Give us a day-to-day operation of using one of these computers.
 
 **Todd Gamblin:** I can't speak necessarily to what the actual application guys would do, because I'm a performance guy, so I work with them to help speed things up. But the usage model is basically you have to write a proposal to get time on these things. For the bulk of our workload - and this is the case for other Department of Energy laboratories, too - you have to write something up that says "I have this scientific problem. It really needs a lot of CPU cycles, it's not possible without that, and here is what it would enable; this is why it's worth the time on the machines."
 
-\[00:48:08.18\] Those go through here, and at Argonne, and at Oak Ridge, all these other labs... A competitive process where reviewers look at the proposals, they evaluate "Does it have merit?" and then once that's done, you get assigned hours according to what you asked for on the machine. So you get CPU hours. That's millions of CPU hours or more, depending on what the project is.
+\[48:08\] Those go through here, and at Argonne, and at Oak Ridge, all these other labs... A competitive process where reviewers look at the proposals, they evaluate "Does it have merit?" and then once that's done, you get assigned hours according to what you asked for on the machine. So you get CPU hours. That's millions of CPU hours or more, depending on what the project is.
 
 A CPU hour is measured in terms -- I think we may be doing node hours now; I'm not sure if it's CPU hours or node hours, but basically it's just a measure of how much compute power you're allowed to use. So that's how we justify it, and the machines stay busy all the time, because we have science projects that need them for their workloads. We have more work than the computers could ever possibly do, but they are doing it fast, so it enables new science.
 
@@ -343,7 +343,7 @@ I think one of the things that we've been helping people with a lot lately - and
 
 One of the things we've developed is -- we call them performance portability frameworks; we have this thing called RAJA... It's a C++ library where you can write a loop -- instead of a for loop you write a for all, or you pass a lambda to it, and you pass that for all a template parameter that says "Hey, I want you to execute on the GPU" or "I want you to execute on the CPU." That allows them to tune effectively for different architectures; they can kind of swap out the parallelism model under there. So tuning that, getting the compilers to optimize it well for different machines - that's the kind of things the performance folks have been working on.
 
-**Jerod Santo:** \[00:51:59.26\] So you answered the one question that I was thinking when you talked about scheduling, "Do these things ever sit idle?" Because that would be the worst use of a huge, massively powerful, expensive computer - idle time. I guess it's heartening to find out that there's so much work to do, that that's not a problem whatsoever; in fact, the problem is the opposite - you need to start procuring some more to continue more and more research.
+**Jerod Santo:** \[51:59\] So you answered the one question that I was thinking when you talked about scheduling, "Do these things ever sit idle?" Because that would be the worst use of a huge, massively powerful, expensive computer - idle time. I guess it's heartening to find out that there's so much work to do, that that's not a problem whatsoever; in fact, the problem is the opposite - you need to start procuring some more to continue more and more research.
 
 **Todd Gamblin:** Yeah...
 
@@ -369,7 +369,7 @@ One of the things we've developed is -- we call them performance portability fra
 
 So I would say that the majority of what we do at the compute center is open source in terms of the infrastructure that we're using. Our machines run Linux, and we have a team downstairs that manages a distribution for HPC, we call it TOSS, which is a Tri-Lab Open Source Stack. That's basically Linux distribution with our custom packages on top of it, and that's how we manage our deployment for the machines. So that's one way...
 
-\[00:56:10.10\] Then we have people working on -- the people who work on those projects... ZFS is used in Lustre; we have a guy who actually did the ZFS on Linux port and manages that community... I think we get a lot out of that; it's Brian Behlendorf at Livermore. Not the Brian Behlendorf who's doing blockchain stuff, but actually another Brian Behlendorf...
+\[56:10\] Then we have people working on -- the people who work on those projects... ZFS is used in Lustre; we have a guy who actually did the ZFS on Linux port and manages that community... I think we get a lot out of that; it's Brian Behlendorf at Livermore. Not the Brian Behlendorf who's doing blockchain stuff, but actually another Brian Behlendorf...
 
 **Jerod Santo:** I was gonna ask that.
 

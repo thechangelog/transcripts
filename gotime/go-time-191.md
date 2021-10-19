@@ -16,7 +16,7 @@
 
 **Mat Ryer:** Yeah.
 
-**Jerod Santo:** \[00:03:53.17\] And then we thought it'd be kind of fun to lean into that in kind of a sarcastic way and make it as serious as possible. Hence, we're recording you, we're gonna take a clip, we're gonna take the time to make a clip of your opinion, we're gonna put it on Twitter, and we're gonna ask everybody what they think about your opinion. So you share the opinion on Go Time, and then we have a poll and a very official poll on @GoTimeFM on Twitter... And not only that, but we actually track the results and save them for a later use. It couldn't get more serious. I mean, practically, you could start a government around such a policy.
+**Jerod Santo:** \[03:53\] And then we thought it'd be kind of fun to lean into that in kind of a sarcastic way and make it as serious as possible. Hence, we're recording you, we're gonna take a clip, we're gonna take the time to make a clip of your opinion, we're gonna put it on Twitter, and we're gonna ask everybody what they think about your opinion. So you share the opinion on Go Time, and then we have a poll and a very official poll on @GoTimeFM on Twitter... And not only that, but we actually track the results and save them for a later use. It couldn't get more serious. I mean, practically, you could start a government around such a policy.
 
 **Mat Ryer:** Yeah.
 
@@ -96,7 +96,7 @@
 
 **Mat Ryer:** Well, there we go.
 
-**Jerod Santo:** \[00:07:59.19\] So it's kind of funny that the most unpopular thing has nothing to do with Go or programming.
+**Jerod Santo:** \[07:59\] So it's kind of funny that the most unpopular thing has nothing to do with Go or programming.
 
 **Mat Ryer:** The thing is it's a tough one, isn't it? Because you're making a very bold claim. I mean, saying it's the most exciting sport... If you just said "Baseball is one of the most exciting sports", you could have made a few more friends, I think...
 
@@ -148,7 +148,7 @@ I don't know, I see the reuse of err too much, and to me it just makes code a li
 
 **Mat Ryer:** Yeah, that's a fair point. So then are we just gonna do what's popular because it's popular, for its own sake, because it's sort of already established and it's hard to fight? Or do we try and evolve "Is it worth a fight, to battle or try and change minds there?" That's really interesting.
 
-**Jerod Santo:** \[00:12:14.29\] There's also a bigger thing here that this plays into, which is abbreviating things in code, in clarity... Because brevity is the soul of wit, but it's not the soul of readability necessarily. And I'm not a big fan of just chopping words up, especially in this case, if we just say like "Well, a word you're abbreviating is error, and you're abbreviating it with err, which is just two letters shorter." I understand taking internationalization and saying i18n. To me that's a huge win. But this seems like such a small win; I wonder where it came from.
+**Jerod Santo:** \[12:14\] There's also a bigger thing here that this plays into, which is abbreviating things in code, in clarity... Because brevity is the soul of wit, but it's not the soul of readability necessarily. And I'm not a big fan of just chopping words up, especially in this case, if we just say like "Well, a word you're abbreviating is error, and you're abbreviating it with err, which is just two letters shorter." I understand taking internationalization and saying i18n. To me that's a huge win. But this seems like such a small win; I wonder where it came from.
 
 **Mat Ryer:** Yeah, I don't know. I think probably the tradition of C. There's another thing that Dave Cheney often talks about in Go, which is that if you're using a variable nearby, i.e. if you've just got a little loop that you're gonna loop around something, then single letters are fine, because the context is right there in front of you. If it spans multiple pages or a full page of code, maybe you lose that context of what that thing means, so it's worth having a slightly more descriptive thing. Sort of like the further away you get from where it's being used, the more descriptive its name needs to be. Fields in a struct, for example, need proper, good names, ideally, rather than single letters.
 
@@ -198,7 +198,7 @@ Let's move on to something totally unrelated... Well, it's related insofar as it
 
 **Jerod Santo:** You like them all.
 
-**Mat Ryer:** \[00:15:55.20\] Well, you can learn things about the language and different ideas that people are thinking about the language. That was the surprise for me, because I thought it would be much more personal about things like, you know, I like to copy on my computer... I'll never paste. That's \[unintelligible 00:16:12.02\] You learn quirky things about people, where they're a bit interesting. And you do get that too, in that case... But yeah, I really do enjoy all of them.
+**Mat Ryer:** \[15:55\] Well, you can learn things about the language and different ideas that people are thinking about the language. That was the surprise for me, because I thought it would be much more personal about things like, you know, I like to copy on my computer... I'll never paste. That's \[unintelligible 00:16:12.02\] You learn quirky things about people, where they're a bit interesting. And you do get that too, in that case... But yeah, I really do enjoy all of them.
 
 **Jerod Santo:** Well, this next one was by me... And you were there. This is episode 154, "How Go helped save Healthcare.gov", which actually became (I think) the most popular episode of the modern era, probably because of this opinion right here. This is what drove everybody to the show. I was actually going for most unpopular of all time; I didn't expect to come in with 81% unpopular, although I did help the JS Party listeners also vote on that particular poll, just for fun...
 
@@ -266,7 +266,7 @@ Johnny Boursiquot: Go! I wanna hear it. \[laughs\]
 
 **Jay Conrod:** My unpopular opinion is that Ctrl+V or Cmd+V (for the Mac users out there) should paste with formatting by default.
 
-**Mat Ryer:** \[00:20:08.06\] That is outrageous. That one genuinely \[unintelligible 00:54:04.26\]
+**Mat Ryer:** \[20:08\] That is outrageous. That one genuinely \[unintelligible 00:54:04.26\]
 
 **Jay Conrod:** I know, right? And the reason is if you're pasting within the same doc, like you're moving a paragraph or something, you definitely wanna keep that formatting. If you're copying from a different doc in the same app, you probably still do... I know it's weird when you paste from the web browser and it has formatting you don't want, but I think it's better for Ctrl+V to do the same thing wherever you are, every time. I like software that's simple and not too magical, or at least simple to understand and explain, even if it's doing something complicated.
 
@@ -308,7 +308,7 @@ And then somehow, Mark Bates got himself onto the show, and on episode 171 he co
 
 So that is our top five most unpopular opinions... Baseball - the most exciting. Err, hard to read. Chocolate kind of nasty. JS Party is better, and paste with formatting - a default.
 
-**Break**: \[00:23:42.28\]
+**Break**: \[23:42\]
 
 **Jerod Santo:** Well, switching gears now, let's switch now to the top five most popular. We'll do this your way - we'll work our way up to number one. We'll do it your way, Mat, just because I'm kind and gracious.
 
@@ -338,7 +338,7 @@ Now, stubbornness causes all sorts of problems, too. It can actually be maladapt
 
 **Mat Ryer:** I see, yeah. I mean, that does kind of make sense...
 
-**Jerod Santo:** \[00:28:04.09\] It does. And I also had an appropriate number of hedges in there, if you listen closely... I didn't take a hard line; I also recognized how stubbornness can be a problem in teams, and in life... So I think that's why so many people agreed with me. 83%.
+**Jerod Santo:** \[28:04\] It does. And I also had an appropriate number of hedges in there, if you listen closely... I didn't take a hard line; I also recognized how stubbornness can be a problem in teams, and in life... So I think that's why so many people agreed with me. 83%.
 
 **Mat Ryer:** Yeah.
 
@@ -362,7 +362,7 @@ My landing page - someone comes to it, they read about Porter (or anything), and
 
 **Mat Ryer:** Well, that's why the Porter documentation is so good... If you have that attitude, then of course. And yes, that's obviously the very best. You can tell that Carolyn spends a lot of time thinking about that. And it's a sort of user experience of your API's or whatever it is that you've got at your projects. And it is so important. It's one of those important things, like writing as a skill even becomes such an important thing for software engineers to have, and it's worth kind of exploring and practicing, and things... Because yeah, it makes all the difference. If you can onboard people easier, just by spending a bit of time in the writing, and thinking about it really from their point of view, which is this shortcut trick... If you wanna write better documentation, you have to sort of imagine you don't know anything. If you can work with somebody as well, that also is cool. But Carolyn is right, if they're new people to the project, their questions are really valuable, because they probably represent lots of other people too, don't they?
 
-**Jerod Santo:** \[00:32:45.03\] Yeah, absolutely. That's the thing - when you're receiving bad or negative or jerky feedback, first of all it hurts because it's on something you've poured a lot into; we identify oftentimes with the thing that we created, of course. But for every one person who gives you that feedback, you have to realize there's probably nine - or maybe 99; I don't know what the order of magnitude is - happy people that are using it and have never said a word to you.
+**Jerod Santo:** \[32:45\] Yeah, absolutely. That's the thing - when you're receiving bad or negative or jerky feedback, first of all it hurts because it's on something you've poured a lot into; we identify oftentimes with the thing that we created, of course. But for every one person who gives you that feedback, you have to realize there's probably nine - or maybe 99; I don't know what the order of magnitude is - happy people that are using it and have never said a word to you.
 
 **Mat Ryer:** Fair point. I can see why it was a popular one. 84% popular.
 
@@ -378,7 +378,7 @@ While I'm talking about this, just keep in mind that I'm mostly just talking abo
 
 GraphQL is not a query language that wanted to be used by having a pre-generated query, which is always the same per compiled version of an app, and then having different requests come in separately, because they were all statically-generated from maybe a schema, or something like that... GraphQL wanted to first of all allow people to bundle several queries at once, or even several mutations. I don't think it will allow bundling a query and a mutation acting on the results of those queries; I think that's decidedly against its design.
 
-\[00:36:04.10\] But it definitely can execute an arbitrary number of queries at the same time, and also an arbitrary number of mutations. So if I wanted to change labels in a hundred GitHub issues in the same request, theoretically I can do that. And I was really excitedly searching for Go tools that allow you to kind of batch up a bunch of queries, and then they all execute transparently over GraphQL. It wasn't a thing that I was able to find.
+\[36:04\] But it definitely can execute an arbitrary number of queries at the same time, and also an arbitrary number of mutations. So if I wanted to change labels in a hundred GitHub issues in the same request, theoretically I can do that. And I was really excitedly searching for Go tools that allow you to kind of batch up a bunch of queries, and then they all execute transparently over GraphQL. It wasn't a thing that I was able to find.
 
 **Mat Ryer:** There we go.
 
@@ -414,7 +414,7 @@ So I think in a lot of ways the things we usually see as disadvantages are more 
 
 **Jerod Santo:** Kris has gone on to share many unpopular opinions over the last year since he joined the show as a panelist; none have been quite this popular, but none have quite been as unpopular as he had hopes... So I love working with Kris on this, because he's always like "I think this one's --" Even that one, he was very positive; he's like "I think this is gonna be very unpopular", but no. It turns out no.
 
-**Mat Ryer:** \[00:40:01.15\] Yeah. I mean, it just sort of sums Kris up, that sort of spirit; nothing can slow him down. It's just a sort of great attitude to have; it's very inspiring. But yeah, it annoys me that we still talk about diversity, that we still have to keep talking about it. It seems to be -- maybe it's one of the things we'll always have to talk about. It just becomes a part of what we'll always have to do, for some reason, fighting against some default -- I don't know.
+**Mat Ryer:** \[40:01\] Yeah. I mean, it just sort of sums Kris up, that sort of spirit; nothing can slow him down. It's just a sort of great attitude to have; it's very inspiring. But yeah, it annoys me that we still talk about diversity, that we still have to keep talking about it. It seems to be -- maybe it's one of the things we'll always have to talk about. It just becomes a part of what we'll always have to do, for some reason, fighting against some default -- I don't know.
 
 **Jerod Santo:** I don't know. Time will tell. I think it's gotten better, from my perspective, over the last five years...
 
@@ -454,7 +454,7 @@ And Go sort of doesn't have them, so you can't tie yourself in knots in the same
 
 On episode 167 Kris Brandow said "We try to make software engineering look too easy." 81% of gophers agreed. And on episode 165 Michael Knyszek said "Go's garbage collector doesn't need to become generational." 81% of people agreed.
 
-**Break**: \[00:44:27.02\]
+**Break**: \[44:27\]
 
 **Jerod Santo:** Next up we have a bunch of generics unpopular opinions... What do you think, should we try to do all of them?
 
@@ -478,7 +478,7 @@ The sync.Map - look at the comments around the sync.Map type. You know somebody 
 
 **Ramiro Berrelleza:** I believe that the whole not having generics is a good thing for Go, and that there's only one way of doing things is really, really good. Everytime there's a discussion on introducing another way of dealing with returns, or errors... Like that pattern of if err!= nil, then do that - I know it's repetitive, but I love it. Going back to what I was talking about earlier, it makes your code a lot more declarative, intent is clearer on why you're doing things, so that is something that I hope that the people who are working right now in generics - I wish they would not do it. I think now it's a done deal. But if they do, I hope that we don't lose on this one way of doing everything; that's one thing that I love about Go, that when I was coding in Python gave me a lot of trouble. There's one way of writing to disk, and that's great; and then everybody follows that pattern. That is something that I hope sticks around for a while.
 
-**Jerod Santo:** \[00:48:13.24\] Daniel Marti, who's one of our frequent guests, is also against generics. Not the feature itself, but the amount of time and money that could have been invested elsewhere. This is from episode 155, titled "What would you remove from Go?"
+**Jerod Santo:** \[48:13\] Daniel Marti, who's one of our frequent guests, is also against generics. Not the feature itself, but the amount of time and money that could have been invested elsewhere. This is from episode 155, titled "What would you remove from Go?"
 
 **Daniel Martí:** I've got one, and I'm not sure how I feel about it... I think Go as a language is making a mistake by investing so much into generics... Because they're putting a bunch of very smart people for years and years into generics, how to design them and how to implement them... And if instead you've invested those resources in improving the compiler's support of interfaces, with changes like the one we discussed for 1.16, I think if you covered the common use cases of interfaces and made them faster, I think a lot of these use cases for generics would go away.
 
@@ -502,7 +502,7 @@ Brian Ketelsen: My favorite is when you have a pattern that you want to apply to
 
 **Mat Ryer:** Yeah.
 
-**Jerod Santo:** \[00:51:00.08\] That was like in the first five minutes of the show, I think.
+**Jerod Santo:** \[51:00\] That was like in the first five minutes of the show, I think.
 
 **Mat Ryer:** Yeah, that show was a great one. People should listen to the whole thing. He starts the episode with a song.
 

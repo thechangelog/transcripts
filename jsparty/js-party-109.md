@@ -28,7 +28,7 @@ So all these vendors - we need to know which modules are loaded, because we need
 
 **Nick Nisi:** Nice. Very cool. So it's to understand what's in the cache, is kind of the big--
 
-**Vladimir de Turckheim:** \[00:04:06.11\] It's even before what's in the cache. When the modules are loaded, you have the chance/opportunity to intercept that, and ever rewrite the modules. In the talk yesterday I had three examples. One of them was actually loading TypeScript modules. So if you create a loader hook that transpilers TypeScript to JavaScript, you could virtually tell Node "Hey, this is how to do with TypeScript." And it will not run TypeScript natively, because nobody does that, but it will run TypeScript transparently, meaning that you would not have any single file of JavaScript in your code except the module, and Node will know how to do TypeScript because you have taught it how to do that.
+**Vladimir de Turckheim:** \[04:06\] It's even before what's in the cache. When the modules are loaded, you have the chance/opportunity to intercept that, and ever rewrite the modules. In the talk yesterday I had three examples. One of them was actually loading TypeScript modules. So if you create a loader hook that transpilers TypeScript to JavaScript, you could virtually tell Node "Hey, this is how to do with TypeScript." And it will not run TypeScript natively, because nobody does that, but it will run TypeScript transparently, meaning that you would not have any single file of JavaScript in your code except the module, and Node will know how to do TypeScript because you have taught it how to do that.
 
 After the talk, someone told me about having a YAML loader, because there are a lot of things you can do in YAML that you can't do in JSON, but that are still possible in a JavaScript object. So the idea would be like "Hey, I want to import YAML modules transparently, without having to read the file and transpile that. I want my developers to just import YAML modules", and that's pretty much what this API can do.
 
@@ -48,7 +48,7 @@ The only potentially issue in the future is that "How do you compose multiple lo
 
 Basically, instead of changing your code to make it easier to test, you would just need to load your code, and then in your test file you will be able to mock by changing the proxies and the behavior of the code, but only for your test file, not for the whole world.
 
-**Nick Nisi:** \[00:08:08.22\] Yeah. That's really cool. So you would not necessarily have to write code that injects the dependencies; you could just have it through the loader inject the handler for the proxy, and then change things on the fly and change them back afterwards.
+**Nick Nisi:** \[08:08\] Yeah. That's really cool. So you would not necessarily have to write code that injects the dependencies; you could just have it through the loader inject the handler for the proxy, and then change things on the fly and change them back afterwards.
 
 **Vladimir de Turckheim:** Exactly. Over the few last years I've seen so many people reinventing the wheel for dependency injection in Node... I won't troll any annotation-heavy framework in that, but... That's the thing - stop reinventing the wheel and creating 1,000 projects, when we can have one single, at least cleaner way of doing that, that does not require your code to have unstandard module loading... Because that's the main issue I have with all of these alternative dependency injections things - they reinvent the way you load modules, meaning that... I'm still a vendor, I still do Node.js instrumentation, and if you do weird things, that gives me more work to instrument it, and I'm lazy.
 
@@ -74,7 +74,7 @@ So yeah, one of my examples was instantiating a gist without downloading it befo
 
 **Vladimir de Turckheim:** Security is not a big deal, is it...? \[laughter\] Someone just say no.
 
-**Nick Nisi:** \[00:12:01.17\] So that's really cool... And I see this API as being one of those APIs -- I'm thinking back to Myles' keynote yesterday, where he was talking about... I think he called it the existential dread of transpilation, or something along those lines. We are using transpilation and we're using CommonJS and all of this, and there are a lot of things that CommonJS can do, or can be abused to do, that ES modules really can't, because of the way that they're statically analyzed, and things like that... And this seems like one of those APIs that is allowing us to not really have to take away a lot of features when we go to that. So we can do things like that, kind of get in the middle of how modules are actually loaded and change that in really interesting ways.
+**Nick Nisi:** \[12:01\] So that's really cool... And I see this API as being one of those APIs -- I'm thinking back to Myles' keynote yesterday, where he was talking about... I think he called it the existential dread of transpilation, or something along those lines. We are using transpilation and we're using CommonJS and all of this, and there are a lot of things that CommonJS can do, or can be abused to do, that ES modules really can't, because of the way that they're statically analyzed, and things like that... And this seems like one of those APIs that is allowing us to not really have to take away a lot of features when we go to that. So we can do things like that, kind of get in the middle of how modules are actually loaded and change that in really interesting ways.
 
 Another way is the -- I think it was called "module attributes", where you might be able to load JSON in the future with ES modules, for example.
 
@@ -94,7 +94,7 @@ So yeah, hack around and bring every language of the world to Node.js, so we can
 
 **Nick Nisi:** Thank you. Alright. How's everyone feeling? I'm very excited for our next guest to come on, and that is Marian Villa. Would you please come up to the stage? Let's have a round of applause for Marian. \[applause\] Welcome, Marian.
 
-**Marian Villa:** \[00:16:00.25\] Thank you.
+**Marian Villa:** \[16:00\] Thank you.
 
 **Nick Nisi:** Tell us a little bit about your talk. The title of that talk was "Transforming a country through code."
 
@@ -114,13 +114,13 @@ So she goes to Pioneras, and we only created a meetup, but this meetup really ch
 
 **Marian Villa:** Our core was Node, because we have a really cool mentors that are here, at this conference. They are really great for the tech culture in Colombia, because they created different conferences in our country. There was JSConf, I was co-organizer in 2018 and 2017, and I'm very close to this community.
 
-Actually, most of them -- I know Node is back-end, but most of them have really strong roots in the JavaScript language. Most of them are front-end developers, but we have really cool \[00:19:35.07\] smart girls doing Node in Colombia.
+Actually, most of them -- I know Node is back-end, but most of them have really strong roots in the JavaScript language. Most of them are front-end developers, but we have really cool \[19:35\] smart girls doing Node in Colombia.
 
 **Nick Nisi:** Very cool. So the way that you get into the program - you start off with no skills in programming at all...
 
 **Marian Villa:** Zero. Actually, most of them don't have a computer. We have a special room in \[unintelligible 00:19:57.22\] with really cool PC laptops... And they get in touch with the technology through this space, because they don't have it in their homes. So that's from zero, actually.
 
-**Nick Nisi:** \[00:20:13.00\] So they go from that... And about how long is the typical program?
+**Nick Nisi:** \[20:13\] So they go from that... And about how long is the typical program?
 
 **Marian Villa:** It's one year, but I actually specified that -- I mean, they learn how to search on Stack Overflow, and GitHub, and how to... They self-learn in other spaces like libraries, or small study groups, and they can share one laptop for five young women... But with mentorship - because we also have a mentorship program - in a year they can get the job.
 
@@ -148,7 +148,7 @@ And the third thing will be food, because we like to share with them some snacks
 
 **Marian Villa:** Yes, actually I know in Latin America there are a few groups about girls in coding areas, but there are some places like Bolivia, or Peru... Peru also have, but -- I mean, Bolivia, Ecuador... And they have a space for something like Pioneras. But we are creating a change one community at a time.
 
-\[00:24:12.05\] So we open a meetup in other cities, because we have 32 departmentos - and departamentos will be like burrows, or something like that - in demographical political divisions... But we have really jungle or really poor areas that don't have developed like the big cities that we are in right now. So we like to expand to the rural areas and perhaps create a bigger impact in our country first.
+\[24:12\] So we open a meetup in other cities, because we have 32 departmentos - and departamentos will be like burrows, or something like that - in demographical political divisions... But we have really jungle or really poor areas that don't have developed like the big cities that we are in right now. So we like to expand to the rural areas and perhaps create a bigger impact in our country first.
 
 **Nick Nisi:** Very interesting. It's so cool, and it's such a great thing. You truly are transforming a country, just as your title states, which is really cool... How can we help with that?
 
@@ -170,7 +170,7 @@ We need to improve our English skills, because they are really smart, but they n
 
 **Nick Nisi:** ...and thank you for talking with us.
 
-**Break:** \[00:26:36.06\]
+**Break:** \[26:36\]
 
 **Nick Nisi:** Alright, next up with have Chris Wilcox and Jason Etcovitch, so please welcome them to the stage. \[applause\] Welcome! Chris, you are an engineer at Google, and your talk yesterday was "Oh, no! The robots are taking over!", I think.
 
@@ -178,7 +178,7 @@ We need to improve our English skills, because they are really smart, but they n
 
 **Nick Nisi:** Yeah, absolutely. And in your talk you mentioned using Probot. Jason, you're the maintainer of Probot... Welcome to the show!
 
-**Jason Etcovitch:** \[00:28:11.27\] Thank you. Thank you for having me.
+**Jason Etcovitch:** \[28:11\] Thank you. Thank you for having me.
 
 **Nick Nisi:** One thing that I thought was pretty cool in your talk - you gave a list of the five levels of automation, and I just wanted to go over those real quick, and talk about them... Automating portions of your workflow is step one, automating the discovery and work, but under supervision, would be step two. Letting the robot do the work for you, but with supervision, would be step three, and then doing the work unsupervised, and pulling out the fallback support would be step four, and then "The robot is your boss" is step five.
 
@@ -204,7 +204,7 @@ For instance, our publishing flow to Npm is multi-step. The first step is that w
 
 **Nick Nisi:** That's awesome. \[laughs\]
 
-**Jason Etcovitch:** \[00:31:52.14\] It was this sort of weird thing where bots were interacting with each other... It was awesome, and terrifying. So Probot - the tagline on the website is "It's a framework for building GitHub Apps." So GitHub Apps are a way to integrate with GitHub. Probot is very webhook-focused, so if something happens on GitHub, your Probot app will be set up to receive a webhook, and then it has all kinds of helper APIs to say "Okay, this happened on GitHub. Now, here's how we're gonna handle it."
+**Jason Etcovitch:** \[31:52\] It was this sort of weird thing where bots were interacting with each other... It was awesome, and terrifying. So Probot - the tagline on the website is "It's a framework for building GitHub Apps." So GitHub Apps are a way to integrate with GitHub. Probot is very webhook-focused, so if something happens on GitHub, your Probot app will be set up to receive a webhook, and then it has all kinds of helper APIs to say "Okay, this happened on GitHub. Now, here's how we're gonna handle it."
 
 A very common example would be somebody pushed code, we wanna run CI - most CI providers will have that built-in, but if you wanted to build that through Probot, that's how you would sort of frame it.
 
@@ -224,7 +224,7 @@ And then another one - and this is something that in the Probot community we saw
 
 **Nick Nisi:** Nice. That's really cool. So there's a lot that you can do with either Probot or Actions... Chris, what is the most complex thing that you have a bot doing?
 
-**Chris Wilcox:** \[00:35:43.00\] Typically, you don't want bots to be complex. Complex bots fail in complex ways, and that tends to get sort of hairy. I would say the neatest thing we probably do though - not that it's that complex - we find that especially so many repositories' issues go stale. Either it gets assigned to a developer and that developer gets overburdened, or goes on leave, or it's just not their area of expertise; they were misassigned. So it just falls to the bottom of their stack in the stuff they do. And if we detect that, we'll pick someone else on the team to randomly assign it to, an issue juggler, essentially... And that tends to stop things from just getting stale, and it makes it look like we're a little more active, and we can be a little more responsive to customers.
+**Chris Wilcox:** \[35:43\] Typically, you don't want bots to be complex. Complex bots fail in complex ways, and that tends to get sort of hairy. I would say the neatest thing we probably do though - not that it's that complex - we find that especially so many repositories' issues go stale. Either it gets assigned to a developer and that developer gets overburdened, or goes on leave, or it's just not their area of expertise; they were misassigned. So it just falls to the bottom of their stack in the stuff they do. And if we detect that, we'll pick someone else on the team to randomly assign it to, an issue juggler, essentially... And that tends to stop things from just getting stale, and it makes it look like we're a little more active, and we can be a little more responsive to customers.
 
 **Nick Nisi:** Nice.
 
@@ -252,7 +252,7 @@ The thing that made the change for us is we go as far now to auto-detect if we o
 
 **Chris Wilcox:** We started doing this before Actions was around, which is why we made the choices we did. We didn't have a chance to evaluate Actions. I think if we started today, we would definitely consider Actions... But there are a few constraints - Actions don't deal very well with long-running tasks, so that can be problematic. It's also hard if we ever wanted to scale up.
 
-\[00:39:44.16\] So we used a thing called Google Cloud Functions, which ultimately takes a small bit of Node.js (or a few other languages; in our case it's Node) and executes it for us on an event hook. It starts up a service when we need it, and shuts it down, so it costs us very little money... And we could adapt that into Docker containers fairly straightforward, and then maybe eventually we need a Kubernetes cluster... Who knows.
+\[39:44\] So we used a thing called Google Cloud Functions, which ultimately takes a small bit of Node.js (or a few other languages; in our case it's Node) and executes it for us on an event hook. It starts up a service when we need it, and shuts it down, so it costs us very little money... And we could adapt that into Docker containers fairly straightforward, and then maybe eventually we need a Kubernetes cluster... Who knows.
 
 We've also extended to have some security measures. We store none of the secrets in the functions themselves; they're all stored in the key management service - also a thing that Google Cloud provides - and allows us to be a little more secure, a little more confident. It's also a lot easier for us to rotate our secrets... So from a convenience standpoint it's pretty good for us.
 
@@ -284,7 +284,7 @@ That will forward it to localhost:3000, and allow us to test it locally. You can
 
 The other really nice thing that SME.io does is it lets you see the requests that have been made, which I find very useful when it comes time to write integration tests, unit tests... I can look at a real JSON payload and I can capture that, and I can use it again later. That I think is something I don't see a lot of examples of, but it's probably - for me personally - the most useful thing about SME.
 
-**Nick Nisi:** \[00:44:09.08\] Yeah. That's a nice way to get at that. It's very beneficial.
+**Nick Nisi:** \[44:09\] Yeah. That's a nice way to get at that. It's very beneficial.
 
 **Jason Etcovitch:** Yeah, I think we actually have an issue open in the server repo; it's like "Add screenshots of the JSON payload view", because it's super-helpful.
 
@@ -314,7 +314,7 @@ It's a weird thing that we've seen people use for completely different intention
 
 **Jason Etcovitch:** Thank you.
 
-**Break**: \[00:46:39.21\]
+**Break**: \[46:39\]
 
 **Nick Nisi:** We have one more talk that we're gonna do, and that is on Node.js worker threads... So I'd like to introduce Rich Trott and Anna Henningsen. If you'd please come up... Let's give them a round of applause. \[applause\] Why don't you introduce yourselves?
 
@@ -322,7 +322,7 @@ It's a weird thing that we've seen people use for completely different intention
 
 **Nick Nisi:** Nice.
 
-**Anna Henningsen:** \[00:48:04.19\] Workers is one thing that I pushed quite a bit, yeah.
+**Anna Henningsen:** \[48:04\] Workers is one thing that I pushed quite a bit, yeah.
 
 **Nick Nisi:** And workers - so I'm learning about the Node team internals... What working group does workers fall under? Or does it?
 
@@ -378,7 +378,7 @@ It's a weird thing that we've seen people use for completely different intention
 
 **Rich Trott:** That could offload to a thread in the pool that Node maintains under the hood, but no, it's not gonna be a thread that you manage through this.
 
-**Anna Henningsen:** \[00:52:12.04\] Definitely not in a way that should be visible through the API.
+**Anna Henningsen:** \[52:12\] Definitely not in a way that should be visible through the API.
 
 **Nick Nisi:** Exactly, yeah.
 
@@ -420,7 +420,7 @@ If there's a hard crash, for some reason, like some bug in Node, it won't tear t
 
 **Nick Nisi:** Gotcha.
 
-**Rich Trott:** \[00:56:09.26\] Yeah, every use case is different, I guess... I've been surprised a few times, where -- mostly making example applications to sort of demonstrate worker threads... But I've been surprised a few times in both directions, like "Oh, worker threads should have really performed a lot better here, and they didn't." Or the other way around, where "Wow, that really made that take no time at all."
+**Rich Trott:** \[56:09\] Yeah, every use case is different, I guess... I've been surprised a few times, where -- mostly making example applications to sort of demonstrate worker threads... But I've been surprised a few times in both directions, like "Oh, worker threads should have really performed a lot better here, and they didn't." Or the other way around, where "Wow, that really made that take no time at all."
 
 **Anna Henningsen:** Yeah.
 

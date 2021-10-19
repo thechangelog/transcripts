@@ -12,7 +12,7 @@ We've also looked at the reaction to various parts of the book, and discovered t
 
 Also, there's been changes in the way that the industry works. We are doing far more in terms of cloud type stuff, concurrency is now everybody's problem... So we've had to address those new areas as well.
 
-**Andy Hunt:** \[00:04:06.11\] You have to sort of go back and put yourself into what the world was like 20 years ago, because certainly when we first took on this latest adventure, it's like "Oh, we'll just go through and change a couple of the technological references, and we'll beef up some of the things that we've had more experience with... But it won't be that different." And you go back and you read it and then you start to remember your friends at the time, your clients at the time, what you were working on, and you really start to realize what a different world it was 20 years ago. AOL was carpet-bombing people with CD's, trying to get you to dial-up, this sort of thing.
+**Andy Hunt:** \[04:06\] You have to sort of go back and put yourself into what the world was like 20 years ago, because certainly when we first took on this latest adventure, it's like "Oh, we'll just go through and change a couple of the technological references, and we'll beef up some of the things that we've had more experience with... But it won't be that different." And you go back and you read it and then you start to remember your friends at the time, your clients at the time, what you were working on, and you really start to realize what a different world it was 20 years ago. AOL was carpet-bombing people with CD's, trying to get you to dial-up, this sort of thing.
 
 We didn't have anything in there talking about security, trying to fight against bad actors, because at the time it was sort of just a struggle to get your code to work; you didn't really have to worry specifically about it being attacked, for the most part... And now that's kind of step one.
 
@@ -32,7 +32,7 @@ Some things like that changed, I certainly think for the better, where advice th
 
 **Dave Thomas:** It probably is, yeah. First, find \[unintelligible 00:07:50.11\]
 
-**Jerod Santo:** \[00:07:54.01\] Exactly. One of the things you say in the preface, speaking to this - the things that have changed - you say that if you take a developer from 1999 and drop them into a team today, they'd struggle in this strange, new world... And that got me thinking, is there anything that you two struggle with in the strange, new world? And if not, how have you managed to keep up with the pace of change?
+**Jerod Santo:** \[07:54\] Exactly. One of the things you say in the preface, speaking to this - the things that have changed - you say that if you take a developer from 1999 and drop them into a team today, they'd struggle in this strange, new world... And that got me thinking, is there anything that you two struggle with in the strange, new world? And if not, how have you managed to keep up with the pace of change?
 
 **Andy Hunt:** Well, everything, every day. It's funny, anytime I go out and give a conference talk, I always throw in a joke that "Well, it's Wednesday. That means there've been 47 new JavaScript frameworks that came out this morning", and invariably, the whole crowd laughs nervously, because that's not far off...
 
@@ -54,7 +54,7 @@ I just feel that we are too willing to hope that there is a silver bullet out th
 
 **Adam Stacoviak:** Isn't that the name of progress to some degree though? You almost have to sacrifice a bunch of bad decisions to make a good decision.
 
-**Dave Thomas:** \[00:12:01.03\] Yeah, to a point. But once those bad decisions are actually stopping you going forward, then you're into the negative territory. If we were to make bad decisions more slowly, then we'd be able to make more progress, that's what I'm saying. I'm all for experimenting, I'm just saying we don't always have to be using the cutting edge of everything, every time we write a piece of code.
+**Dave Thomas:** \[12:01\] Yeah, to a point. But once those bad decisions are actually stopping you going forward, then you're into the negative territory. If we were to make bad decisions more slowly, then we'd be able to make more progress, that's what I'm saying. I'm all for experimenting, I'm just saying we don't always have to be using the cutting edge of everything, every time we write a piece of code.
 
 **Andy Hunt:** Again, it comes down to context. A lot of the times boring is great. There's some applications, some things out there... The thing that's driving my pacemaker, my MRI machine, whatever - I'd like that to be built with pretty boring tech; something very stable, that's been around forever, no surprises. I do not want last Wednesday's JavaScript framework involved in that.
 
@@ -90,7 +90,7 @@ Sometimes a little bit of that... Moderation, I guess, goes a long way.
 
 **Andy Hunt:** Yes, but I wouldn't say -- we try not to preach. It was more a case of we were out there, working in the trenches, working in the field, working alongside with folks, and what both Dave and I noticed, going from client to client, different company to different company, large to small, people were making the same classes of mistakes. They were doing the same things, looking at the wrong end of the telescope, and suffering in the same ways.
 
-\[00:16:01.28\] The original idea was that we were just gonna write a little whitepaper of the things that we'd observed. It's like "You know, it hurts less if you do it this way. Try to bear this in mind." But of course, you can't just come out and tell people "Brush your teeth" and "Eat your broccoli", or this kind of exercise.
+\[16:01\] The original idea was that we were just gonna write a little whitepaper of the things that we'd observed. It's like "You know, it hurts less if you do it this way. Try to bear this in mind." But of course, you can't just come out and tell people "Brush your teeth" and "Eat your broccoli", or this kind of exercise.
 
 **Dave Thomas:** You always get that the wrong way around.
 
@@ -114,7 +114,7 @@ Unlike any software project ever, that little idea of a whitepaper grew into a l
 
 So there's definitely a lot of that, attitudes and approaches that changed. Moving stuff to the cloud - big change. We would talk about the build machine sitting in the corner... Which some people still have, bless their hearts... But that right there is a really big shift, of having build machines that are just fungible resources, off somewhere else. Spot instances, on demand. You can say that in one sentence and that's kind of a small change, but that really engenders a sea-change of attitudes of how you approach deployment, how fast you can deploy, what your restrictions are... It really opens up a whole different world.
 
-**Dave Thomas:** \[00:19:53.27\] I think it's funny that a man originally born in Connecticut - or was it New York? Whatever... - has been living in the South long enough that he can say "Bless their hearts." \[laughter\] It's a nice touch.
+**Dave Thomas:** \[19:53\] I think it's funny that a man originally born in Connecticut - or was it New York? Whatever... - has been living in the South long enough that he can say "Bless their hearts." \[laughter\] It's a nice touch.
 
 **Jerod Santo:** It is nice.
 
@@ -126,7 +126,7 @@ At the end we talk about "Don't enable scumbags." I hope that doesn't get beeped
 
 **Dave Thomas:** But it's true. It is possible to write software which is used for some very, very bad things, and we wanna be thinking about that... Because really, the community of software developers, we're in a position which is pretty unique. We can and we are changing the world, and the world that we create is largely up to us. I mean, yeah, people are gonna tell us what they want, but we have the power to say yes or no... And we need to be thinking very hard, "Is the software that they're wanting me to write going to harm other people?" And if so, are you prepared to take that in on your conscience?
 
-**Break:** \[00:22:08.03\]
+**Break:** \[22:08\]
 
 **Jerod Santo:** Do you two still work together, beyond just writing the book?
 
@@ -136,7 +136,7 @@ At the end we talk about "Don't enable scumbags." I hope that doesn't get beeped
 
 **Dave Thomas:** But we interact. It's actually been quite fun - doing this book has been an excuse to work together again for a while... And it's actually kind of nice, after a break, to go back and work with someone you've worked with for a long time, because you can still use the shorthand. You don't worry about all the kind of day-to-day stuff that normally gets in the way.
 
-**Andy Hunt:** \[00:24:08.06\] It was funny, when we first decided that we should take a serious look at redoing this edition of the pragmatic programmer, we each went off and made a list of - to answer your question - what were the biggest changes over the last 20 years? What are the things we should address? What topics did we feel we should drop, which ones should we revisit a little stronger? And when we came back and compared our lists, they were 75%-80% the same. So we started off definitely on the same page.
+**Andy Hunt:** \[24:08\] It was funny, when we first decided that we should take a serious look at redoing this edition of the pragmatic programmer, we each went off and made a list of - to answer your question - what were the biggest changes over the last 20 years? What are the things we should address? What topics did we feel we should drop, which ones should we revisit a little stronger? And when we came back and compared our lists, they were 75%-80% the same. So we started off definitely on the same page.
 
 **Jerod Santo:** So we've talked about what changed the most... I was thinking about your book in terms of churn and in terms of diffs, because you have the two versions - you can run a diffing tool against them and see what's changed, what's new, and maybe interestingly, what hasn't changed; the most timeless of things that you wrote 20 years ago... What are those things that still stand as true today as they were when you first penned them, 20 years ago?
 
@@ -158,7 +158,7 @@ At the end we talk about "Don't enable scumbags." I hope that doesn't get beeped
 
 **Adam Stacoviak:** How do you feel about empathy in today's workplace? I feel like in the last 20 years that's the thing that separated most. Before we were far more collocated, working together, and over the last 20 years we've been separated more and more. Now we use things like Zoom, or Skype, or Slack, or whatever might still be cool to communicate... And the ability to have a face-to-face, person-to-person interaction is lost, and therefore it's hard to empathize.
 
-**Dave Thomas:** \[00:28:01.01\] I think that's a really astute thing, and it's not just in the workplace. If I look at my kids, I would say the majority of their interactions with their friends are online. Yeah, they see them sometimes, but most of the time they'll be sitting there chatting with them online somehow. And yeah, I think that does actually impact everybody's empathy; not just developers', but the entire world, as we move away from face-to-face, and reading body language... Basically, just sitting quietly with people.
+**Dave Thomas:** \[28:01\] I think that's a really astute thing, and it's not just in the workplace. If I look at my kids, I would say the majority of their interactions with their friends are online. Yeah, they see them sometimes, but most of the time they'll be sitting there chatting with them online somehow. And yeah, I think that does actually impact everybody's empathy; not just developers', but the entire world, as we move away from face-to-face, and reading body language... Basically, just sitting quietly with people.
 
 I think that definitely impacts the world, and it could be the reason we're seeing a more aggressive apparent society than we have for a long time.
 
@@ -174,7 +174,7 @@ It's all to do with various psychology and physiology and other kind of -ologies
 
 **Jerod Santo:** Right.
 
-**Andy Hunt:** \[00:32:04.20\] In quite a few places in the book we point out that this idea came from Simula, in 1967, or this idea came from this other place, way back when... We don't have a good sense of history. I like to lay blame for a lot of our issues at the college or university level; that may or may not be fair, but that's where I put it... Because it is rare to find a history of computing class that would teach you how the ideas came to be, and who worked on what.
+**Andy Hunt:** \[32:04\] In quite a few places in the book we point out that this idea came from Simula, in 1967, or this idea came from this other place, way back when... We don't have a good sense of history. I like to lay blame for a lot of our issues at the college or university level; that may or may not be fair, but that's where I put it... Because it is rare to find a history of computing class that would teach you how the ideas came to be, and who worked on what.
 
 **Dave Thomas:** I don't think this should a separate class. What we do is we write software, and just like poets and authors, we start with a blank page and we create something from it. Now, if you want to become an author, I would suggest that one of the things that you do from age four is...
 
@@ -194,7 +194,7 @@ Then you can ask yourself, "Okay, is there something I really need to think abou
 
 **Dave Thomas:** Yeah. And the actual context of Go To Considered Harmful as a letter is actually to do with program proving. The fact that if you have a Go To statement, it is really hard to write proofs of programs. And back then, the idea was that we should be able to mathematically prove our programs correct. There were people who spent their entire careers working on program proving. Now, we still have that in some very restricted domains, like logic design, but that is no longer relevant to us... And yet, we still carry around all of these things that we've received based on headlines - Go To Considered Harmful, post-increment - and don't really know why we do it.
 
-**Jerod Santo:** \[00:36:07.26\] Here's one that I learned - globals are evil. Global variables are evil, but it's almost like a cargo cult; I never learned why. It's just like a maxim; it's just like "This is true..."
+**Jerod Santo:** \[36:07\] Here's one that I learned - globals are evil. Global variables are evil, but it's almost like a cargo cult; I never learned why. It's just like a maxim; it's just like "This is true..."
 
 **Dave Thomas:** You should read our book.
 
@@ -220,7 +220,7 @@ For this course I'm giving, I was looking for a PDP-11 emulator, so we'd all be 
 
 **Jerod Santo:** Well, I agree with you. I feel like a lot of us just wanna have some work. A lot of us just wanna become functional programmers, so we can get a job, and then we're busy with our job.
 
-**Dave Thomas:** \[00:40:00.04\] And you've gotta start with that, but it's that old saying about chopping down all the trees - first you have to sharpen the axe, right? So one of the important things - and we mentioned this a little in the book - is you have to set aside time to sharpen your axe, to improve your knowledge portfolio and sharpen your skills. It doesn't come for free. You can't just go to college or university, or go to a code bootcamp and "Now I know everything." It's not like the matrix, where you stick the jack in your head and "Boom! I know jiu-jitsu."
+**Dave Thomas:** \[40:00\] And you've gotta start with that, but it's that old saying about chopping down all the trees - first you have to sharpen the axe, right? So one of the important things - and we mentioned this a little in the book - is you have to set aside time to sharpen your axe, to improve your knowledge portfolio and sharpen your skills. It doesn't come for free. You can't just go to college or university, or go to a code bootcamp and "Now I know everything." It's not like the matrix, where you stick the jack in your head and "Boom! I know jiu-jitsu."
 
 **Jerod Santo:** Someday...
 
@@ -248,7 +248,7 @@ It's like when the Model T first came out - the starter instructions ran two pag
 
 **Andy Hunt:** \[laughs\]
 
-**Dave Thomas:** \[00:43:47.00\] No, it depends on the level of... If you can componentize stuff well enough that it is genuinely a black box, then you don't have to know how it works. For example, my car has so far exceeded my knowledge of how it works... But unless it's something really trivial, it goes down to the shop every time something breaks. Because I open the front of my car and it basically looks like a big plastic box. I have no idea what's going on. But that's okay, and I'm happy to use my car, because it is componentized to the point where somebody somewhere can fix it. If software were componentized, the same would be true. If I could rely on a box that did something, a library for example -- which I do, actually, thinking about it... When I get a sign out of a math library, or a co-sign, I don't know which particular expansion it uses; I don't know how it does it. I know is probably way, way beyond my level of math understanding, but I don't care, because it's gonna produce a sign.
+**Dave Thomas:** \[43:47\] No, it depends on the level of... If you can componentize stuff well enough that it is genuinely a black box, then you don't have to know how it works. For example, my car has so far exceeded my knowledge of how it works... But unless it's something really trivial, it goes down to the shop every time something breaks. Because I open the front of my car and it basically looks like a big plastic box. I have no idea what's going on. But that's okay, and I'm happy to use my car, because it is componentized to the point where somebody somewhere can fix it. If software were componentized, the same would be true. If I could rely on a box that did something, a library for example -- which I do, actually, thinking about it... When I get a sign out of a math library, or a co-sign, I don't know which particular expansion it uses; I don't know how it does it. I know is probably way, way beyond my level of math understanding, but I don't care, because it's gonna produce a sign.
 
 **Jerod Santo:** Right.
 
@@ -274,7 +274,7 @@ That's what we're lacking... So you don't have to know. If you can rely on the t
 
 **Andy Hunt:** And I think the important thing to remember - which again I think we lose sight of - is this is still brand new to us as a species. The whole field of computing has only been in existence, depending where you count from, 50-60 years tops; late '40s maybe. That's nothing. You look at some of the older professions - legal, medical - where they've had hundreds of years, thousands of years in some cases, to come up with "Here's how we mentor people, here's how we educate people to bring them through the ranks, here's how we attack problems, here's how we address ethics in our profession..." We've had a lot of time to work out those issues in other areas, and we're embryonic at this point. 50 years is nothing.
 
-**Break:** \[00:48:01.21\]
+**Break:** \[48:01\]
 
 **Adam Stacoviak:** It sounds like this book became a happy accident, in terms of you weren't intending to write the book, and you wrote down some of your thoughts, and that became this very popular 20-year-old book that we're now talking about, with a brand new edition 20 years later.
 
@@ -302,7 +302,7 @@ That's what we're lacking... So you don't have to know. If you can rely on the t
 
 We had friends start to write to us and say "Hey, can I write a book for all y'all?" Because "all y'all" is the proper plural, as I discovered. I thought it was just "y'all" down here; I was wrong. It's "all y'all." \[laughter\] So our friends started coming and saying "Hey, we'd like to write a book. Can we write a book?", and we started publishing books, and never did get back around to the "developer in a box" concept.
 
-**Jerod Santo:** \[00:51:56.26\] Maybe now is the time. Get them rubber ducks back out.1
+**Jerod Santo:** \[51:56\] Maybe now is the time. Get them rubber ducks back out.1
 
 **Adam Stacoviak:** Do you still have that supplier in check? \[laughter\]
 
@@ -336,7 +336,7 @@ Also, it wasn't universally beloved when we were working on it. We had a couple 
 
 I guess my point here is if you come out with something, you're always gonna have naysayers. You will have people who say that you're wrong, or they disagree, or whatever... And hey, you know what? It's a big world. That's fine.
 
-\[00:56:13.12\] We've had enough feedback over the 20 years from people who, like you said, this has changed their careers, this has changed their lives for the better. We get fan mail. I think it's kind of rare in the tech book world that you get a lot of fan mail from people, especially 10-20 years after the fact... But we still get fan mail email regularly, that this has made a big impact on people... And as Dave says, that is pretty humbling. I'll still chalk it up to beginner's luck, because we were just writing down what worked for us. "Here are the things that we've noticed. Here's the stuff that you might wanna think about. Try and do it this way."
+\[56:13\] We've had enough feedback over the 20 years from people who, like you said, this has changed their careers, this has changed their lives for the better. We get fan mail. I think it's kind of rare in the tech book world that you get a lot of fan mail from people, especially 10-20 years after the fact... But we still get fan mail email regularly, that this has made a big impact on people... And as Dave says, that is pretty humbling. I'll still chalk it up to beginner's luck, because we were just writing down what worked for us. "Here are the things that we've noticed. Here's the stuff that you might wanna think about. Try and do it this way."
 
 We approached it very realistically, very honestly. We didn't have a product to sell, we weren't trying to sell some big IDE or some development tool or some process... It's just "Hey, here's the stuff we've done. This works. Give it a shot." And that's proved to be workable and very popular.
 

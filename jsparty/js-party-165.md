@@ -30,7 +30,7 @@
 
 **Florian Scholz:** Yeah, Open Web Docs - we've been just launching it in January, so it's a pretty new initiative... And what we're trying to do is support platforms like MDN with documentation, with technical writing, and help web developers out there to read all about the web and how it works.
 
-**Nick Nisi:** \[00:04:27.25\] Very nice. So when I think about web docs, there are three letters that come to mind, and it goes on the end of every DuckDuckGo search that I do, and that's MDN. So can you tell us a little bit about Open Web Docs and their relationship with MDN or with Mozilla?
+**Nick Nisi:** \[04:27\] Very nice. So when I think about web docs, there are three letters that come to mind, and it goes on the end of every DuckDuckGo search that I do, and that's MDN. So can you tell us a little bit about Open Web Docs and their relationship with MDN or with Mozilla?
 
 **Florian Scholz:** Oh yeah, absolutely. Open Web Docs actually works a lot with MDN, because MDN is the premier source for documentation, it has been for many years. I think last year MDN celebrated its 15th anniversary, so it's one of those old-school sites out there, and it has been serving web developers for quite some time. And yes, we're working with them very closely, documenting web standards... And both Will and I have actually been employed there, so we've been long-time Mozillians. So yeah, we've been on this mission to document the web for quite some time now.
 
@@ -46,7 +46,7 @@ Recently, even more so people got together and thought about having more diverse
 
 **Florian Scholz:** Yeah, this was kind of the event that triggered everyone getting their heads together in terms of "Okay, how can we come to a more diverse funding for such an important platform?" So we worked with Open Web Docs's founding organizations to figure out a way forward.
 
-**Kevin Ball:** \[00:08:04.19\] Cool. So... Talk a little bit about those founding organizations. I guess the money before was mostly coming from Mozilla. Now you're on Open Collective. I saw there are individuals fundraising... But is the expectation this is going to be something truly sponsored by the community, or is it something that's going to be a set of large companies donating, or how are you thinking about making this thing sustainable?
+**Kevin Ball:** \[08:04\] Cool. So... Talk a little bit about those founding organizations. I guess the money before was mostly coming from Mozilla. Now you're on Open Collective. I saw there are individuals fundraising... But is the expectation this is going to be something truly sponsored by the community, or is it something that's going to be a set of large companies donating, or how are you thinking about making this thing sustainable?
 
 **Florian Scholz:** Well, this is something for us to figure out this year, really. We are really happy about the generous funding that we've received from the founding organizations. We're gonna see if we're effective with this initial plan and our initial ideas around supporting the web platform documentation. And yes, ideally we can sustain, and continue with this mix of individual backers and organizations.
 
@@ -66,7 +66,7 @@ So next to MDN we're also supporting a lot the browser-compat-data project, and 
 
 **Florian Scholz:** Yeah. So we made this two years ago, or something... Basically, the browser-compat-data project is so rich these days; we have over 12,000 features in there. As you all know probably, the API surface of the web is just getting bigger and bigger every year; there's tons of APIs added to it, and so there's obviously more and more compat data about all these new features, CSS properties, new web APIs, new JavaScript/ECMAScript core features... So this browser-compat-data project is about collecting all this data and how the different browsers are supporting it.
 
-\[00:12:26.00\] And Can I Use did have really good compat data, and obviously, it's one of the premier addresses in the net to figure out compats as well... But it only covered - I think it was like 500 features or so... So we really teamed up with Alexis here and merged in the MDN compat data in Can I Use... And yeah, for quite some time now you can search on Can I Use and the results will also give you everything that's in the data store for browser compat data.
+\[12:26\] And Can I Use did have really good compat data, and obviously, it's one of the premier addresses in the net to figure out compats as well... But it only covered - I think it was like 500 features or so... So we really teamed up with Alexis here and merged in the MDN compat data in Can I Use... And yeah, for quite some time now you can search on Can I Use and the results will also give you everything that's in the data store for browser compat data.
 
 **Nick Nisi:** Now, in terms of what y'all are planning here - at first glance it sounds like this is essentially pull out the organization that was supporting MDN from Mozilla, create an independent organization, diverse funding sources, but essentially operating the same way. Is the intent to have primarily dedicated staff, technical writers that are employees of OWD? What's the future-facing model?
 
@@ -84,7 +84,7 @@ Organizationally -- so Mozilla still plays a big role with MDN. Mozilla is still
 
 **Florian Scholz:** Yeah, I think for this year we're focusing on MDN, and I think that's a lot of work; documenting the web on MDN is a life task... So for this year we're focusing on that, but beyond that, I think there's opportunities for us to also contribute to make spec processes better. I've been thinking a lot about how does it actually work if someone invents something and puts it in the spec, then people implement it, then people write tests for it, and test262 or wpt tests... But then what they always forget is documentation. So what I also wanna work on is how can we work closely with specifications for standards organizations, help them learn more about documentation and how can we bring documentation more into the standards organizations, and make people aware that - yes, you have written the spec, but specs aren't documentation and friendly towards developers necessarily... So what can we do. These kinds of questions is something I would really love to work on.
 
-**Will Bamberg:** \[00:16:25.25\] As I see things right now, I don't think there's any real appetite to do something like MDN, but to another platform... Because MDN does what it does, and it does what it does well. So there might be other things that fulfill different kinds of needs that we want to work on. But MDN is MDN, and there's not much point making another one that I can see.
+**Will Bamberg:** \[16:25\] As I see things right now, I don't think there's any real appetite to do something like MDN, but to another platform... Because MDN does what it does, and it does what it does well. So there might be other things that fulfill different kinds of needs that we want to work on. But MDN is MDN, and there's not much point making another one that I can see.
 
 Back in 2014 there was this thing called webplatform.org, which was a project by a bunch of browser vendors to build a replacement for MDN, and it wasn't really successful because MDN was already there. So you know, I think it doesn't seem like a direction we really want to go in.
 
@@ -102,7 +102,7 @@ Back in 2014 there was this thing called webplatform.org, which was a project by
 
 **Florian Scholz:** Yeah. Right. \[laughs\]
 
-**Break:** \[00:18:14.22\]
+**Break:** \[18:14\]
 
 **Nick Nisi:** Right, so in the last section we talked about what the Open Web Docs are, what the organization is, its relationship with MDN, and a little bit about its funding... But let's dig a little bit deeper into the process and what goes into the organization, and figuring out what to actually work on... So I'll just ask you - how do you decide what to work on within this? Do you find docs that need cleaning up on MDN? Do you look at new APIs coming in and kind of base it off of that? What's the actual process that goes into the actual work?
 
@@ -120,7 +120,7 @@ If I were to describe my typical day, what the hell I am doing every day for Ope
 
 **Nick Nisi:** How does it work in terms of the actual content, and deciding when releases get pushed to actual MDN? Is it just kind of ad-hoc as things come in? Do you wait for translations, or what's the process behind that?
 
-**Florian Scholz:** \[00:23:56.27\] I think we're gonna enable translations soon, and this is something that the Mozilla engineering team is working on... But we're not actually waiting on anything. Basically, once a pull request is reviewed, it goes live. It's merged, and then it gets deployed, so there's not much of any further approval thing in between there.
+**Florian Scholz:** \[23:56\] I think we're gonna enable translations soon, and this is something that the Mozilla engineering team is working on... But we're not actually waiting on anything. Basically, once a pull request is reviewed, it goes live. It's merged, and then it gets deployed, so there's not much of any further approval thing in between there.
 
 It used to be a wiki, and then basically everyone who had an account could just come in, make changes and it's live, much like on Wikipedia. So by moving to GitHub, there's actually a moderation level in here, which is pull requests... That's how things get approved, really. It doesn't really need more than that, I don't think...
 
@@ -138,7 +138,7 @@ Also, if you are passionate about an API or a thing that you're like "This is so
 
 **Nick Nisi:** Yeah, this is pretty cool. I'm going to admit that usually I just come to MDN through search, and I find the exact API that I'm looking for... It's usually something like slice and splice, or something like that, where I'm trying to figure out the difference... And I don't do much browsing beyond that, but I am right now - and I noticed under Reference and Guides there's accessibility, there's even one on game development that kind of gives you some resources on that... There's a lot more here than just web APIs, which is pretty cool. Or it's kind of collating stuff together as it relates to the web APIs, which is also pretty cool.
 
-\[00:27:54.27\] I was gonna ask about how new stuff gets added into MDN, particularly like new web APIs, or... I'm thinking in terms of -- like, one thing that I try to keep up on is TC39 proposals, when things get to stage four... Is it at that point that things then get added to MDN, or how does that work?
+\[27:54\] I was gonna ask about how new stuff gets added into MDN, particularly like new web APIs, or... I'm thinking in terms of -- like, one thing that I try to keep up on is TC39 proposals, when things get to stage four... Is it at that point that things then get added to MDN, or how does that work?
 
 **Will Bamberg:** Yeah, pretty much. I think stage four is probably a good time. Sometimes even stage three proposals make it to MDN. I think in the past it depended a lot -- like, some browsers shipped it, and then some technical writer of that browser vendor decided "Okay, it's time to get it on MDN." But as I've tried to get into earlier, I wanna kind of change this model also a bit; stage four also means not only you have Test262 tests, but also it means you have docs on MDN, please. These kinds of things would be really great going forward.
 
@@ -160,7 +160,7 @@ In terms of things likes guides - there are areas that we know MDN is lacking. W
 
 **Florian Scholz:** So yeah, I think we're trying to do user testing and user interviews, maybe sometimes even A/B testing on some docs, to figure out what is best for all the web developers using MDN.
 
-**Kevin Ball:** \[00:32:10.02\] What's the decision-making process behind including documentation specifically about third-party -- or stuff that's not part of the platform itself? For example, just searching around - I was searching on JavaScript framework, and I saw "Oh, there's an MDN article on Ember.js specifically", where there's articles on accessibility in React specifically. So what's the distinction or what's the decision-making process around whether X, Y, Z third-party library should get included on MDN?
+**Kevin Ball:** \[32:10\] What's the decision-making process behind including documentation specifically about third-party -- or stuff that's not part of the platform itself? For example, just searching around - I was searching on JavaScript framework, and I saw "Oh, there's an MDN article on Ember.js specifically", where there's articles on accessibility in React specifically. So what's the distinction or what's the decision-making process around whether X, Y, Z third-party library should get included on MDN?
 
 **Florian Scholz:** Yeah, so by default, MDN really cares about the web platform, so I think vanilla JS and just documenting web standards is the top priority. However, and as we go into guide material tutorials and that sort of thing - well, there is the reality that frameworks are used, and some are used a lot, especially in a thing that we call the learning area on MDN, where people can go and actually follow a pathway, so that at the end they actually say "Okay, I've learned, I've accomplished something by going through this cause, or through this set of articles, and I've learned how to do things with Ember or React." And for how to choose, which frameworks to use, I think we really reached out to almost all of the major frameworks to give us input and to help us contribute this documentation in their learning area specifically... So I think it was kind of fair. We weren't preferring any framework there, really... And if any framework doesn't see itself on MDN, but we should have it, then talk to us; we're happy to add it.
 
@@ -176,7 +176,7 @@ On the other hand, people ask for these docs quite often, and I think especially
 
 **Nick Nisi:** And along the same lines, I know that they are separate things and it's not technically open web, but from just like a knee-jerk comparison between -- as a JavaScript developer I'm writing JavaScript, and me personally, I'm writing JavaScript either in a browser or on the server... And so I have caught myself typing in "readFileSync mdn" or something to try and find Node-specific APIs there. But you don't see that as a purview for Open Web Docs to be looking into?
 
-**Florian Scholz:** \[00:36:14.01\] Yeah, I don't think we're gonna write server-side Node documentation... But here again we look at what our users want, and they actually told us that the compat tables should have Node.js as a thing in there. So we did that, and people love it. Whenever they browse the core JavaScript docs and they see the Node.js support version there as well, it's like "Awesome. I just needed to know this." And apparently, the Node.js docs themselves, they probably don't make it so great to browse which version supports what... But yeah, there you have it directly on MDN too now.
+**Florian Scholz:** \[36:14\] Yeah, I don't think we're gonna write server-side Node documentation... But here again we look at what our users want, and they actually told us that the compat tables should have Node.js as a thing in there. So we did that, and people love it. Whenever they browse the core JavaScript docs and they see the Node.js support version there as well, it's like "Awesome. I just needed to know this." And apparently, the Node.js docs themselves, they probably don't make it so great to browse which version supports what... But yeah, there you have it directly on MDN too now.
 
 **Nick Nisi:** Yeah. That kind of got me thinking about it, because I do see Node in those compat tables.
 
@@ -204,7 +204,7 @@ This is a typical task that we do - we advise, "Hey, this thing, AppCache, or Da
 
 **Kevin Ball:** This is just my own ignorance speaking, but do you all do migration guides as well? In that example, "You're doing a new project - you shouldn't be using this, you should be using that. If you have an old project, here's how you migrate."
 
-**Florian Scholz:** \[00:40:22.23\] Well, AppCache - I think we wrote up some material, "Okay, AppCache is gone. Use Service Workers." But I don't think we do this regularly. We should probably do this more often. I think migration guides are great.
+**Florian Scholz:** \[40:22\] Well, AppCache - I think we wrote up some material, "Okay, AppCache is gone. Use Service Workers." But I don't think we do this regularly. We should probably do this more often. I think migration guides are great.
 
 **Kevin Ball:** Alright. Feature request. File it \[unintelligible 00:40:35.11\]
 
@@ -214,7 +214,7 @@ This is a typical task that we do - we advise, "Hey, this thing, AppCache, or Da
 
 **Florian Scholz:** Some brainstorming here, I love it.
 
-**Break:** \[00:40:41.01\]
+**Break:** \[40:41\]
 
 **Nick Nisi:** So we talked about what the Open Web Docs is and what you've been doing and what your focus is for 2021, and that is MDN specifically... But where do you see that going beyond 2020? What other kinds of ideas do you maybe hope to take on, or are thinking about taking on? What does the future look like?
 
@@ -226,7 +226,7 @@ And then another thing I'm thinking about is also writing more documentation abo
 
 Another thing I'm thinking about is -- I'm contractually obligated to bring up TypeScript... And I'm thinking like, you know, in the TypeScript core repo there's a lot of core web API types for all of the different APIs that are maintained by the TypeScript team... But that could be considered living documentation that is exposed to me through my editor...
 
-**Florian Scholz:** \[00:44:33.13\] Right. So one of the things that we started actually one or two years ago, after we kind of got started with the compat data, is to think more about data and documentation. So one of the things I could see us doing is do more research and investigate more how documentation could actually become more data. TypeScript uses this a lot to see what is this thing, and MDN could expose a lot of its information - not only the compat data, which is structured data by now, but there's so much more information in the documentation that we could expose as data and get that integrated into IDEs or into TypeScript or other languages that could make use of it. So I think this could be an area where we do more research and do interesting things in.
+**Florian Scholz:** \[44:33\] Right. So one of the things that we started actually one or two years ago, after we kind of got started with the compat data, is to think more about data and documentation. So one of the things I could see us doing is do more research and investigate more how documentation could actually become more data. TypeScript uses this a lot to see what is this thing, and MDN could expose a lot of its information - not only the compat data, which is structured data by now, but there's so much more information in the documentation that we could expose as data and get that integrated into IDEs or into TypeScript or other languages that could make use of it. So I think this could be an area where we do more research and do interesting things in.
 
 **Kevin Ball:** That raises an interesting point - is there an MDN API of some sort that, for example, IDEs could pull in documentation for all of these supported APIs?
 
@@ -238,7 +238,7 @@ So what sorts of things would developers like to see in their workflow? What kin
 
 And as Florian says, browser compat data is one of these things that is a kind of trailblazer for this. Back five years ago, compat data was just HTML in pages. It was like it was locked up in the HTML, the compat status of, say, \[unintelligible 00:47:19.23\] It was like it was dead; it was just there in the HTML. And what happened with browser compat data is it turned into data and then it becomes live, and you can remix it, and you can build different views of this data and you can have a single page that lists a compat story for everything in an array, and it can just pull from the same data. That's a powerful thing, and if we can do that for more of our documentation, I think it would be super-cool.
 
-\[00:47:46.17\] And we do this as well -- there's this thing called mdn/data, which again, even before browser compat data, it was like a really early attempt to try and do this, and have some kind of structured content for mostly CSS properties. And it was actually used in MDN to power some stuff. It was a kind of really early prototype, and there are things we'd do differently if we did it again, and there are ways we'd consume it differently if we did it again. It's obviously an idea that has been kind of kicking around for a long time.
+\[47:46\] And we do this as well -- there's this thing called mdn/data, which again, even before browser compat data, it was like a really early attempt to try and do this, and have some kind of structured content for mostly CSS properties. And it was actually used in MDN to power some stuff. It was a kind of really early prototype, and there are things we'd do differently if we did it again, and there are ways we'd consume it differently if we did it again. It's obviously an idea that has been kind of kicking around for a long time.
 
 **Kevin Ball:** Yeah.
 
@@ -284,7 +284,7 @@ And as Florian says, browser compat data is one of these things that is a kind o
 
 **Kevin Ball:** So in the compat data right now, do you have links back to relevant documentation pages?
 
-**Florian Scholz:** \[00:51:52.16\] Yeah, we do. This has been good for various embedding projects. It's not only "Can I use embedding--" So I'm thinking back to MDN. It's VS Code, and other projects - yeah, embedding the compat data... Yeah, using this part of structured MDN data already, and then this is kind of our -- we wanna do more of what BCD did really, with more short description and more data that MDN has to offer.
+**Florian Scholz:** \[51:52\] Yeah, we do. This has been good for various embedding projects. It's not only "Can I use embedding--" So I'm thinking back to MDN. It's VS Code, and other projects - yeah, embedding the compat data... Yeah, using this part of structured MDN data already, and then this is kind of our -- we wanna do more of what BCD did really, with more short description and more data that MDN has to offer.
 
 **Kevin Ball:** Yeah, absolutely. So you already have your index, right? So you just need to add whatever the sets of structured pieces that you wanna be able to display, and you can use that index to look it up.
 
@@ -314,7 +314,7 @@ And as Florian says, browser compat data is one of these things that is a kind o
 
 **Nick Nisi:** That is exciting. I'm excited about the idea of that, and all that you could do with that data. Being able to integrate it in all sorts of different ways. I don't know if it exists, but one cool thing could be like "These are the browsers or the environments that I support", and then every time I try and use something - maybe it's like a stage three or stage four feature - show me in my editor right now if it's not going to get there with or without a build step. That'd be really cool.
 
-**Florian Scholz:** \[00:55:40.11\] Yeah. Avoiding this kind of context switch from the editor, going to the documentation, going back into the editor - that's a good thing. We've done this -- I've added a Learn More link to console errors. So if you're in DevTools and you're doing something, and then like a syntax error or whatever it's spitting out, then in Firefox you get a little Learn More that explains what is going on and how you can debug that... And this has been really cool. So whenever you integrate into the workflow and make links or contextual information available, then people really love this, and I really wanna see more of this - bring documentation closer to the developers, in their environments.
+**Florian Scholz:** \[55:40\] Yeah. Avoiding this kind of context switch from the editor, going to the documentation, going back into the editor - that's a good thing. We've done this -- I've added a Learn More link to console errors. So if you're in DevTools and you're doing something, and then like a syntax error or whatever it's spitting out, then in Firefox you get a little Learn More that explains what is going on and how you can debug that... And this has been really cool. So whenever you integrate into the workflow and make links or contextual information available, then people really love this, and I really wanna see more of this - bring documentation closer to the developers, in their environments.
 
 **Nick Nisi:** Yeah, I really like that. So we've talked about it a bit, but what is the easiest way for the community to get involved in Open Web Docs? Is it just go to MDN's GitHub and start looking at issues, or contributing to the docs there? Is it go to Open Web Docs on GitHub, and is there a way to get familiar or help contribute to the steering committee, or things like that, like the actual organization?
 

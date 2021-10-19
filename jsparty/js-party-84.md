@@ -36,7 +36,7 @@ Were there any major gotchas along the way?
 
 Honestly, I don't care, because I'm making an application, so I'm willing to have people wait a bit while they are downloading it. It would be better if it was leaner, but it's okay. It's maybe something that will be improved, and it's already better because the first version of my port to browser of my app was using asm.js, which is a kind of subset of JavaScript that Emscripten used to compile to, and it was 7 MB maybe. So things are progressing.
 
-**Kevin Ball:** \[00:08:11.04\] Yeah. Well, and Web Assembly megabytes are cheaper, in some ways. They're the same amount over the wire, but parsing cost goes way down.
+**Kevin Ball:** \[08:11\] Yeah. Well, and Web Assembly megabytes are cheaper, in some ways. They're the same amount over the wire, but parsing cost goes way down.
 
 **Florian Rival:** Yeah. And again, it depends on what you're making. If you're making a complex game or app, it might be okay to ask the user to download this bundle. And also, as I'm packaging the application as an Electron application, 3 MB more or less - that's okay. So yeah, that's the first gotcha.
 
@@ -60,7 +60,7 @@ But still, I was really interested in React, because I've been using React Nativ
 
 **Florian Rival:** Yeah, yeah. In my talk I'm speaking about Web Assembly for the first part, and then moving to more React-related stuff, but that really could be another framework. The cool thing with React is that it has already a huge ecosystem. In the second part of my talk I more or less explain all the packages and open source modules that I've been using in React to make an interface that looks like a native interface.
 
-\[00:12:03.03\] For example, a list of Android \[unintelligible 00:12:03.03\] and if there are performance issues, how to deal with them, and other things like displaying trees of nodes... For example, in my software, the events that are describing the rules of the game - it's basically a tree that is displayed on screen... So how to do it properly with DOM elements in React. But all these things could be applied to another framework.
+\[12:03\] For example, a list of Android \[unintelligible 00:12:03.03\] and if there are performance issues, how to deal with them, and other things like displaying trees of nodes... For example, in my software, the events that are describing the rules of the game - it's basically a tree that is displayed on screen... So how to do it properly with DOM elements in React. But all these things could be applied to another framework.
 
 **Kevin Ball:** Yeah, that makes a ton of sense. Were there any things that you found were missing, coming in into Web Assembly? I know for example the Web Assembly is making a big push - or the Web Assembly Coalition - towards being able to do multi-threading, and scripting across that... Was that something that proved to be a problem, not having those features?
 
@@ -86,7 +86,7 @@ The first time, you're like "There should be a good chance that it's gonna crash
 
 **Florian Rival:** Yeah, exactly. And I've been looking at things to automate the creation flow types, or TypeScript types for the library that is generated... It's still not a thing. I've seen a project called Nbind, that allowed to compile your C++ codebase to asm.js; so it's still not Web Assembly, but they are making automatic generation of typing... So I'm really missing Vis; I hope that we'll see more and more tooling creating Vis types.
 
-\[00:16:12.14\] On the JavaScript side I've been using Flow to type all my stuff, so at least I have the safety -- not the safety as strong as a really strongly-typed language, but still... At first I started without, and now I cannot write any code without types, because I'm getting more confidence, and these kinds of things that are easy to debug in JavaScript - they are there in Web Assembly, so I want to be sure to pass the proper things.
+\[16:12\] On the JavaScript side I've been using Flow to type all my stuff, so at least I have the safety -- not the safety as strong as a really strongly-typed language, but still... At first I started without, and now I cannot write any code without types, because I'm getting more confidence, and these kinds of things that are easy to debug in JavaScript - they are there in Web Assembly, so I want to be sure to pass the proper things.
 
 **Kevin Ball:** Yeah, it is an interesting example of how these things that are convenient, but maybe not necessary in JavaScript - suddenly they become a requirement when you start bridging into other languages.
 
@@ -96,7 +96,7 @@ The first time, you're like "There should be a good chance that it's gonna crash
 
 **Florian Rival:** Yeah. Sometimes I'm back in some components of the user interface that are not typed, and I'm like "What was I thinking?!" I mean, it's okay, it's working well, but it's a good thing to add typing and to have the peace of mind that things will be alright.
 
-**Break:** \[00:18:04.19\]
+**Break:** \[18:04\]
 
 **Kevin Ball:** So it sounds like you have kind of a mixed background. You're coming from C++ and more traditional programming, and now you do a lot of Web, and React, and things like that... I think our audience -- we have also a mixed background; the listener here might have just JavaScript, or they might be coming from all of those, but for someone who is just used to coding for the Web and JavaScript, can you talk a little bit more about the things to wrap your head around if for example you wanted to come and start using your game engine, or you wanted to start working with some other native libraries? What feels different?
 
@@ -104,7 +104,7 @@ The first time, you're like "There should be a good chance that it's gonna crash
 
 I think the important thing to think about when you're using Web Assembly with C++, might be better if Web Assembly is getting garbage-collected at some point. For others it's not the case. So I think the most important thing is to make sure that you understand the lifetime of your objects.
 
-\[00:20:15.10\] I'm creating a new Web Assembly object for example when my component is mounted. Then I have to destroy this object when the component is unmounted, otherwise the JavaScript object that is the shell - or the Web Assembly object - will be garbage-collected, but the inner Web Assembly object in memory will stay there. So I think that's still something that I had issue with...
+\[20:15\] I'm creating a new Web Assembly object for example when my component is mounted. Then I have to destroy this object when the component is unmounted, otherwise the JavaScript object that is the shell - or the Web Assembly object - will be garbage-collected, but the inner Web Assembly object in memory will stay there. So I think that's still something that I had issue with...
 
 At some point, for example, I created a new Web Assembly object, then I deleted it at some point, and without seeing it, I was reusing it at some other point... So it was a crash, again.
 
@@ -130,7 +130,7 @@ At some point, for example, I created a new Web Assembly object, then I deleted 
 
 **Kevin Ball:** Yeah, absolutely. I'm just thinking about if JavaScript is calling in to something that's gonna allocate memory, and then JavaScript owns that object and is required to then call in to write a test, we're gonna kind of have to bridge across...
 
-**Florian Rival:** \[00:24:05.18\] Yeah, right. I think that there is no good solution for now, except maybe automatic garbage collection. Basically, you can't really test for manual memory management. You just have to be careful.
+**Florian Rival:** \[24:05\] Yeah, right. I think that there is no good solution for now, except maybe automatic garbage collection. Basically, you can't really test for manual memory management. You just have to be careful.
 
 **Kevin Ball:** Yeah, absolutely. So you talked a little bit -- for the game engine your target is laptop, desktop, things like that. Is this also a methodology that will work for targeting mobile applications?
 
@@ -152,7 +152,7 @@ I think that we'll see more and more applications - well, web apps, and even web
 
 **Florian Rival:** Yeah, yeah. Give more visibility around what you're importing, maybe some more checking around what's already inside your bundles, code-splitting; conversely, things that are in native are not yet in JavaScript... But things are improving.
 
-\[00:28:02.10\] I like to look at even the language JavaScript - it used to be a scripting language, and now with all the ES6 and all the typing that we can add, we are moving toward a really robust language... And on the contrary, languages like C++ are now introducing things like lambdas, and automatic typing... So things are going in the same direction, actually.
+\[28:02\] I like to look at even the language JavaScript - it used to be a scripting language, and now with all the ES6 and all the typing that we can add, we are moving toward a really robust language... And on the contrary, languages like C++ are now introducing things like lambdas, and automatic typing... So things are going in the same direction, actually.
 
 **Kevin Ball:** Yeah, absolutely. When you were talking about the size of the Web Assembly, pulling in the standard library... Is there any concept of tree shaking when you talk about compiling? We've got this standard library, but maybe I'm only using five functions. And sure, they use 20 more underneath the covers, but 25 out of however many thousand...
 
@@ -176,7 +176,7 @@ But those are things that we can improve, and it's great to see that in the Java
 
 I think this feedback loop that is really quick is important in the whole stage of the development, including in libraries. If you want to make a new C++ library, that takes a bit of time to get the whole tooling set up; that will be a nightmare, if you compare it to Npm. I hope that things that are compiling to Web Assembly, like Rust, are improving this - the ability to create libraries really quickly. Because that's how you create an ecosystem that is exploding, instead of growing linearly.
 
-**Kevin Ball:** \[00:32:00.13\] Yeah. We seem to be figuring out some of the factors that make that possible, I think. An emphasis on refactorability and composability is huge. That was one of the driving - at least stated - motivations for hooks; it makes it easier to cut and paste code, and refactor into new locations, and move things around.
+**Kevin Ball:** \[32:00\] Yeah. We seem to be figuring out some of the factors that make that possible, I think. An emphasis on refactorability and composability is huge. That was one of the driving - at least stated - motivations for hooks; it makes it easier to cut and paste code, and refactor into new locations, and move things around.
 
 **Florian Rival:** I was speaking about typing... I think it's a bit the same. When you're investing a bit in some tooling like this for making this easier to refactor, then it's a huge win. Some people told me "Yeah, but you know, if you make small modules, you will have things that have a simple interface, so you don't need typing, for example." That may be true, but on the other hand, you can't say that you will never refactor something. Even a small module, you'll want to, at some point, add or remove something. Even components -- a strength of React is to be able to move components easily, and I think something that you want to keep is your ability to refactor things without breaking things... So that's why I think typing and having a library that allows you to create a component using only a function - that's a really good thing.
 
@@ -196,7 +196,7 @@ To come back to Gatsby, I think that it's making out of the box most of what I w
 
 **Kevin Ball:** Yeah. It is amazing how fast Gatsby sites are... And they're doing a lot more than just the server-side rendering there -- or sorry, a lot of the pre-rendering. They're really emphasizing "How do we optimize this to make it super fast?"
 
-**Break:** \[00:36:26.18\]
+**Break:** \[36:26\]
 
 **Kevin Ball:** I wanna swing back now, because we were talking about the importance of auto-reload, and that kind of fast iteration... When you're working in your C++ codebase, is there a way to hook it up, so that you get automatic recompile and changing, or how does that end up working?
 
@@ -216,7 +216,7 @@ Now I have less Vis because as my C++ code is more or less my business logic, I 
 
 **Kevin Ball:** Yeah. Talking about the build steps - it sounds like you have a manual build still, but I've seen people do Webpack integration, essentially pulling in C++ or Rust stuff as modules, directly into Webpack.
 
-**Florian Rival:** \[00:40:25.28\] I have to check that. That's surely possible, especially for a language like Rust, or any new language that compiles to Web Assembly. They have something to play on the side of integration with JavaScript. I'm using Create React App for direct application; I highly recommend it. I don't want to mess too much with the initial setup. I want to be able to upgrade it easily. That's why I'm okay with having a manual build step that I launch... But even this I could improve. I could do a watcher by myself. Or maybe later there will be some kind of integration between Emscripten, Webpack... We'll see.
+**Florian Rival:** \[40:25\] I have to check that. That's surely possible, especially for a language like Rust, or any new language that compiles to Web Assembly. They have something to play on the side of integration with JavaScript. I'm using Create React App for direct application; I highly recommend it. I don't want to mess too much with the initial setup. I want to be able to upgrade it easily. That's why I'm okay with having a manual build step that I launch... But even this I could improve. I could do a watcher by myself. Or maybe later there will be some kind of integration between Emscripten, Webpack... We'll see.
 
 **Kevin Ball:** I haven't looked at the newer versions of Create React App, because I've been more in the Vue ecosystem recently... Do they still require you to eject to customize the Webpack config, or do they use the Webpack Compose?
 

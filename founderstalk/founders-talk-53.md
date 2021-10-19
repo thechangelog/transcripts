@@ -8,7 +8,7 @@
 
 I kind of have this backlog list that I always keep of prioritized life stuff, and right now I'm actually trying to get through a very significant chunk of that backlog. That's sort of how I'm structuring my days. Then also a significant amount of unstructured time, just like "Hey, I can sit and read all day if I want to", and that's also been amazing. But I'm only four weeks in, so that's what I've figured out so far.
 
-**Adam Stacoviak:** \[00:04:01.22\] So this is a sabbatical - are you calling it a sabbatical?
+**Adam Stacoviak:** \[04:01\] So this is a sabbatical - are you calling it a sabbatical?
 
 **Danielle Morrill:** I don't really know what to call it... It's a weird thing, I guess -- I mean, I'm 33, so I don't really know when that's an appropriate thing to say, and I'm not like a professor... But I don't know what else to call it. I'm not planning to work for the rest of 2018.
 
@@ -30,7 +30,7 @@ But anyways, I can relate to that, because impostor syndrome creeps in all of us
 
 **Danielle Morrill:** I mean, on some level you know, like "No... Actually, look at all that I've done and what I've created." You can look at your business, which has progressed so much since the first time we've talked... And it's like, "Oh wait, I did that." So it's like, both things can be true at the same time, right? Isn't that weird? I think it's very weird.
 
-**Adam Stacoviak:** \[00:07:53.07\] It's very weird. I think that's the struggle of being an entrepreneur. This show is not about me, but I'm gonna share a short version of this, because you might identify, as well...
+**Adam Stacoviak:** \[07:53\] It's very weird. I think that's the struggle of being an entrepreneur. This show is not about me, but I'm gonna share a short version of this, because you might identify, as well...
 
 **Danielle Morrill:** Oh, please.
 
@@ -50,7 +50,7 @@ I feel like part of the meditation and what I'm going through right now is actua
 
 **Danielle Morrill:** I don't think it's an issue of happy or not happy, I think it's an issue of goals. It's like "Does it serve the goals that I'm gonna be setting?" Because I think that that lifestyle, to some extent, was quite successful for me, and those choices, things like getting up early, or living and dying by the calendar, were just necessary for my context... So I think the important question is "What do I wanna be doing day to day?" Let's assume I start another startup, or take a job, or whatever I decide to do - what's my day to day gonna look like and how do I craft a cadence of life around that, that isn't just holdovers, like memories from previous lifestyles? I think that's why the deprogramming is so important, to get back to almost like a bit more of a blank canvas to design a life.
 
-\[00:12:09.27\] I don't really think that I would say all those things were necessarily bad; they just accumulate into a lot of responsibility, and if I keep carrying that around on top of whatever else I decide to do, it's kind of limiting.
+\[12:09\] I don't really think that I would say all those things were necessarily bad; they just accumulate into a lot of responsibility, and if I keep carrying that around on top of whatever else I decide to do, it's kind of limiting.
 
 If I continue to live the lifestyle I've been living as a startup founder, then the most likely thing I'll do is become a startup founder again, because it will be easy to slot that into the design of that cadence of life. But if I can really clear the canvas, then that opens up a much broader set of possibilities... Because you don't think of yourself as a painter if you check the stock market at 8:30 in the morning. There's just storyline stuff that gets messed up there; I might not mean to, but I think it would cause me to maybe limit the possibilities that I would consider... So I'm trying to open up the aperture as wide as I can.
 
@@ -76,7 +76,7 @@ If you don't look back on what you've been doing, you're just gonna keep making 
 
 **Danielle Morrill:** I totally agree. And I think even beyond that, I think it's partly about mistakes, but it's also about not seeing all the possibilities for the narrative that you have. I think it's easy to just stay kind of on the narrative line that makes sense... Like, I can see that it will be very plausible for me to announce that I'm becoming a VC of some big firm. That's sort of like one of the really obvious next things that could happen, right?
 
-\[00:16:13.01\] And I think that it's very easy to just say "Well, that's so plausible that when that opportunity comes along, I'm just gonna take it." And I think the reflection causes you to say "What else might not be so plausible to other people, but for me, when I actually look at it, it's a really great opportunity, a great idea?"
+\[16:13\] And I think that it's very easy to just say "Well, that's so plausible that when that opportunity comes along, I'm just gonna take it." And I think the reflection causes you to say "What else might not be so plausible to other people, but for me, when I actually look at it, it's a really great opportunity, a great idea?"
 
 I feel like I was sort of in that space when I joined Twilio, I was sort of in that space mentally when I started Referrly, which became Mattermark... And so part of it is like to create things, whether it's your life story, or companies - I think you have to not just play out the narrative other people are expecting from you, because it's obviously really hard to stick to a narrative that you don't really feel is your own... So it's about mistakes, which is looking backwards, but it's also looking at all the future possibilities and maybe like trying to predict which versions of that future you might be happiest with if you pursue them.
 
@@ -96,7 +96,7 @@ I think you kind of go through decision-fatigue in an environment like that, of 
 
 **Adam Stacoviak:** Yeah. Well, since you've mentioned Mattermark before, just a few minutes ago, and being a CEO, let's talk about -- I would say the part I'd like to focus on maybe is the 18 months, since you've mentioned that earlier, too. I'm also learning about your story as we talk through it, so it's sort of like real-time discovery... But you mentioned there was an 18-month stint there where you were working to sell, so you must have recognized at some point that you needed to... Can you talk a bit about maybe that time, and sort of give me and the rest of the audience a frame of reference to key off of?
 
-**Danielle Morrill:** \[00:20:02.18\] Yeah, absolutely. Let's see, we're at the end of May now... The company was sold -- officially, December 22nd was the close date, so we closed just before the calendar year ended... So I guess the 18 months includes the six months of transition time, but if you look at the beginning of 2017, that's kind of where we kind of reached a point of making some decisions. The company was struggling; we began to expand beyond our initial market... Our initial market was focused on private investors, and we had taken a go at a market strategy that was gonna bring the company into sales and marketing, and make it so people could identify and qualify leads...
+**Danielle Morrill:** \[20:02\] Yeah, absolutely. Let's see, we're at the end of May now... The company was sold -- officially, December 22nd was the close date, so we closed just before the calendar year ended... So I guess the 18 months includes the six months of transition time, but if you look at the beginning of 2017, that's kind of where we kind of reached a point of making some decisions. The company was struggling; we began to expand beyond our initial market... Our initial market was focused on private investors, and we had taken a go at a market strategy that was gonna bring the company into sales and marketing, and make it so people could identify and qualify leads...
 We were selling about -- let's say roughly 40%-50% of our revenue was in that bucket, but it was growing very fast, and just churning very fast... So we didn't have product/market fit there, and we were trying a lot of different things; we had a lot of indicators that it could be lucrative, but we started to run out of time. We had successively missed maybe our fourth or fifth quarter.
 
 So we had a board meeting, and -- you know, it's just difficult... When you're missing quarters, you're usually also turning over senior executives, you're trying out different things... And our board is amazing and super-supportive, but it was sort of like "Okay, we're at this place now where we're flirting with not being financeable at this point, and we still have money left, so we need to make some choices." I don't know if I have the timeline quite right, but we didn't make the decision in that meeting to sell.
@@ -111,7 +111,7 @@ I could talk more about the process, of course, but I think it's really importan
 
 **Danielle Morrill:** Or just kind of died... \[laughs\] We killed it.
 
-**Adam Stacoviak:** \[00:23:50.03\] Well, you know, you've put a lot of work into it, and to sell it and not -- I don't know, would you consider it admitting failure, to sell? What does that mean to you?
+**Adam Stacoviak:** \[23:50\] Well, you know, you've put a lot of work into it, and to sell it and not -- I don't know, would you consider it admitting failure, to sell? What does that mean to you?
 
 **Danielle Morrill:** I mean, the company was sold as a revenue-generating business; it's generating revenue for its acquirer now, so that's great... And the product is still alive, and customers still use it, so I think those things are successes.
 
@@ -131,7 +131,7 @@ That's basically what it comes down to - you kind of have an order of who you ow
 
 **Adam Stacoviak:** That's interesting to frame it -- I mean, it's the truth, but to frame it as an order of who you owe... Because when you get to a -- we talked earlier about the layers of responsibility, and you mentioned HR, you mentioned some things that like "Oh, I wouldn't have to do this..." Those are all things that sort of like just weigh on you, and you end up owing people... And whether you actually have debt to them or not, it's some sort of things, like "Hey, I owe you at least an explanation, or actually money, because you're an investor" or "I'm sorry, because you're an employee and things didn't turn out the way we had anticipated, and we have to go this road..."
 
-**Break:** \[00:27:03.02\]
+**Break:** \[27:03\]
 
 **Adam Stacoviak:** How do you feel like you personally handled that transition? We talked in the pre-call about change, and I think we even referenced the book "Who Moved My Cheese?" which is one of my favorite books in the world; I think everybody should read that book... But how did you deal with change at that point?
 
@@ -149,7 +149,7 @@ Anyway, long-winded, but I had to cope with my own feelings about change first, 
 
 That's kind of how I felt... It was like I'm letting myself down, I'm letting my co-founders down, letting down the employees, letting down the investors, letting down all the people who've been rooting for me... You said you've been a fan of mine for a long time...
 
-**Adam Stacoviak:** \[00:32:25.05\] You didn't let me down.
+**Adam Stacoviak:** \[32:25\] You didn't let me down.
 
 **Danielle Morrill:** But that's the thing, you start thinking that way, and it's very interesting...
 
@@ -173,7 +173,7 @@ So yeah, I think there's a desire to be invisible, but... And yeah, I probably t
 
 **Adam Stacoviak:** The reason why I go back to that is because I think about -- we're here in the United States, both you and I, so this is sort of like localized to here, at least... It may be similar in other areas, but I can only speak from experience here - I feel like it's so freaking hard to build and run a business, and sometimes you're just like "Is it worth it?" And I think it's kind of what you've talked about - you scrutinized "Hey, I could have just had a job and got paid market salary, and maybe made a couple more million dollars", and you kind of reflected on which would have been better or worse, to some degree... I just think like, "Man, it is just so hard." I just wanna say that, because that's just how I feel in those moments; it is hard, and you sacrifice, and you may make just as much as you may have somewhere else, but you know what? In the words of Gary Vaynerchuk, you may be happier doing what you're passionate about than doing something that you're not for somebody else... And there's power in that.
 
-**Danielle Morrill:** \[00:35:50.22\] I think he's right. I mean, the thing you can never take back is time... But I'm so glad that I've spent the time this way, but I also feel like I didn't spend a minute I didn't want to. When we decided to sell the company, I feel like that was the way of getting paid, was saying "I'm not gonna spend two or three years more than what I wanna spend on this." If I had done that, and then walked away with nothing - I think that would have been the real shame. But where I ended up, and I said what I would look at it as is a proper recognition of reality; I think we kind of got to this sweet spot where I don't think I wasted time, I don't regret spending any of it, but I do think there was a line coming up that, you know... And I don't know what would have happened past that point, like what would happen to my motivation, to my mental health? I don't even know if we would have gotten a deal done at all, so...
+**Danielle Morrill:** \[35:50\] I think he's right. I mean, the thing you can never take back is time... But I'm so glad that I've spent the time this way, but I also feel like I didn't spend a minute I didn't want to. When we decided to sell the company, I feel like that was the way of getting paid, was saying "I'm not gonna spend two or three years more than what I wanna spend on this." If I had done that, and then walked away with nothing - I think that would have been the real shame. But where I ended up, and I said what I would look at it as is a proper recognition of reality; I think we kind of got to this sweet spot where I don't think I wasted time, I don't regret spending any of it, but I do think there was a line coming up that, you know... And I don't know what would have happened past that point, like what would happen to my motivation, to my mental health? I don't even know if we would have gotten a deal done at all, so...
 
 Yeah, I think it's probably not talked about enough. I think a lot of founders don't walk away with anything more than a job offer, and there's kind of a positive press engine around acquisitions, which obviously we didn't end up tapping into... It provides a cover story, or kind of a different kind of payment, like a reputational payment, and I think that's great; I think that's fine, and that's a good reason to do acquisitions, but... Yeah, unfortunately, I have a pretty low responsibility life; I don't have a mortgage, I don't have kids, so for me this is not really a big deal, but I can totally imagine people in other situations, where my outcome versus the amount of time I spent - I don't know, maybe the math goes a different way.
 
@@ -187,7 +187,7 @@ I think that we don't talk about it, and if you don't talk about it, people don'
 
 **Danielle Morrill:** It was fun. I would definitely say, like, for founders, if you're thinking of shutting your company down, you might as well try to sell it just to learn something about what that looks like... Because there were so many things I didn't know about that... It was kind of like closing a loop for me on my startup knowledge journey. I mean, sure, there's tons more for me to learn, but it was a major piece I didn't know; I had never seen a terms sheet for buying my company before. I had never read the terms, and I had never really -- there's so many other things, and actually, I think next time around if I do another startup, probably when I do another startup, some of the things that matter at the end are things that are good to be working on the whole time...
 
-\[00:40:05.01\] So it kind of gave me a little more insight, like "Cool, if I wanna mitigate some risk and make my company more buyable next time around, there's some things I could have done", that would have potentially increased the value, or just made it easier to do a deal, or given me more leverage, and it's nice to know what those are now.
+\[40:05\] So it kind of gave me a little more insight, like "Cool, if I wanna mitigate some risk and make my company more buyable next time around, there's some things I could have done", that would have potentially increased the value, or just made it easier to do a deal, or given me more leverage, and it's nice to know what those are now.
 
 **Adam Stacoviak:** You linked out to -- his name is Ryan Caldbeck... I wasn't familiar with him until you linked out to this... Some call them tweet storms; I just call it a thread, a self-conversations, essentially, of his position as a CEO, and essentially talking about the health of how he looks at his current position. He shares how he's tired, and he explains how it's not often enough a conversation happening in the public to tell other entrepreneurs or other CEOs to sort of like have a place to voice their feelings.
 
@@ -209,7 +209,7 @@ I just think this sleep thing -- I mean, they say sleep deprivation has tons of 
 
 Or you've got investors and you don't want them to doubt you, and you're feeling uncertain, but you're trying to figure out "Do I let something play out a little longer, or do I look for advice now?" Maybe you decide "I've gotta let it play out a little more. I don't want them to feel like I'm jerking the wheel", so you don't bring it up. That's lonely.
 
-\[00:44:10.15\] So I think a lot of the loneliness comes from maybe good decisions, but I mean, honoring other agreements, or just that sense of like "Hey, no one else has a mirror of my brain. There's not someone I can necessarily always confide in, who will understand all the context that I would need to share either a win or a loss."
+\[44:10\] So I think a lot of the loneliness comes from maybe good decisions, but I mean, honoring other agreements, or just that sense of like "Hey, no one else has a mirror of my brain. There's not someone I can necessarily always confide in, who will understand all the context that I would need to share either a win or a loss."
 
 And as a CEO, you're like "Well, I'm probably annoying if I just am going to my team, especially the people who are reporting either to me, or up to me through other managers..." If you express vulnerability or doubt or questioning, as much as we wanna think that people are people handling that, it gets misread a lot... So you can't necessarily confide in very many people on your team without there being consequences. Now, I've tried it both ways; I've tried doing it anyway, and just saying like "We're gonna be an open, transparent, vulnerable company" and there's consequences (good and bad) there. I've tried being really kind of cards held close to the chest, and I think that's also got consequences... So there's this sense of a constant battle to figure out "Who should I be sharing this seemingly important thing with? Or do I just keep it to myself?" and I think sometimes when you're exhausted with that decision, it's easier to just not share... That's where loneliness for me has come from.
 
@@ -223,7 +223,7 @@ So yeah, I'm a huge fan of therapy, I'm a huge fan of peer therapy, like mentors
 
 I think I had to go through like -- in my career, I think I've had like four or five coaches until I found the one that I stuck with for years and years.
 
-**Adam Stacoviak:** \[00:48:01.16\] Wow. I've been given that advice, to get what you just mentioned, but I don't know what the first step is... And I live in Houston, so I'm not in the Valley to have access to maybe the next startup that's just doing it as a business or as a service... What advice do you have on finding that kind of person?
+**Adam Stacoviak:** \[48:01\] Wow. I've been given that advice, to get what you just mentioned, but I don't know what the first step is... And I live in Houston, so I'm not in the Valley to have access to maybe the next startup that's just doing it as a business or as a service... What advice do you have on finding that kind of person?
 
 **Danielle Morrill:** Well, I'll just straight up shill for Reboot, because I think they're amazing... But I think asking other CEOs, like asking me, and I can certainly provide some suggestions, I would say who are you working with because a lot of these coaches work remotely over Skype. So I don't think you should look at being in Houston, or being in Europe as a reason why you can't get access to someone here. And the same thing is -- like, there's coaches everywhere. I think it's probably just very much a referral-based thing. So I would start there... I'd say there's more founders working with coaches and therapists than maybe people wanna admit.
 
@@ -249,7 +249,7 @@ So what's the difference between a CEO who's based in San Francisco but on the r
 
 **Adam Stacoviak:** Yes, you do.
 
-**Danielle Morrill:** \[00:51:48.02\] I made this spreadsheet that I think really helped me... Basically, it lays out what are all the possible things that could happen, like big picture - like, sell the company, turn this thing around, go in this new market... Whatever the buckets are. And then what would the impact be on the core constituents that I care about? So my employees, my investors, myself, maybe my co-founders, my family... Whatever you feel are the core constituencies that you are responsible for representing. I hope I said customers in there; if not, the customers should definitely be in there.
+**Danielle Morrill:** \[51:48\] I made this spreadsheet that I think really helped me... Basically, it lays out what are all the possible things that could happen, like big picture - like, sell the company, turn this thing around, go in this new market... Whatever the buckets are. And then what would the impact be on the core constituents that I care about? So my employees, my investors, myself, maybe my co-founders, my family... Whatever you feel are the core constituencies that you are responsible for representing. I hope I said customers in there; if not, the customers should definitely be in there.
 
 And I just kind of filled in the grid, and I started to look at like what would just be deal-breakers? What things am I not willing to do? Maybe one of the scenarios is just so bad for my investors that it's not acceptable, or it's so bad for my family that it's not acceptable. And then I think from there, kind of getting a sort of stack or make sense of "What are the outcomes or the scenarios that I'd be okay with and how okay would I be?"
 
@@ -263,7 +263,7 @@ Obviously, you can't sit there and hem and haw over it; that's the whole point o
 
 **Danielle Morrill:** I mean, all we're gaining in doing this is we're getting better and better at making good decisions, so I just feel like if we would come away with that skill improving, then I think that's a win, even though in my case there's not a monetary win... So I feel like if that's the thing that I got from this whole thing, then I would love to get to share that.
 
-**Adam Stacoviak:** \[00:54:49.27\] Well, in closing, I had no idea this was your first time doing any sort of interview like this... I'm so thankful that you said yes to come on, because I didn't know that. I just knew when I restarted Founders Talk I definitely wanted to talk to you. I didn't know when in your life that would be, or the circumstances, and it just happens to be after the acquisition and there's a different story to tell, but I'm so thankful that you said yes and have the ability to come back and talk through things without, I don't know, just it being bad for you, I guess... I'm really thankful that you're in a good place, and the company went well, and you're on a happy path, and you've got so much wisdom to share... So I'm thankful that you came on and did that.
+**Adam Stacoviak:** \[54:49\] Well, in closing, I had no idea this was your first time doing any sort of interview like this... I'm so thankful that you said yes to come on, because I didn't know that. I just knew when I restarted Founders Talk I definitely wanted to talk to you. I didn't know when in your life that would be, or the circumstances, and it just happens to be after the acquisition and there's a different story to tell, but I'm so thankful that you said yes and have the ability to come back and talk through things without, I don't know, just it being bad for you, I guess... I'm really thankful that you're in a good place, and the company went well, and you're on a happy path, and you've got so much wisdom to share... So I'm thankful that you came on and did that.
 
 **Danielle Morrill:** Thank you, it was fun. I think I realized some things that I had thought, but I haven't said out loud before, so... I really, really enjoyed it.
 

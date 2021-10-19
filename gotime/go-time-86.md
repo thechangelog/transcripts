@@ -62,7 +62,7 @@
 
 **Mat Ryer:** Wow.
 
-**Marwan Sulaiman:** \[00:04:04.12\] But because fo the U.S. sanctions at the time, her developer salary was basically a sixth of what a personal computer would cost; the monthly salary, that is. Obviously, you'd have to save up for six months without spending a penny to be able to afford a computer at the time. But her father actually had sold the house, because he was targeted by the regime for a completely different story... And he had asked each of his six children what they wanted as a gift from the money he had made selling the house, and my mom asked for a computer.
+**Marwan Sulaiman:** \[04:04\] But because fo the U.S. sanctions at the time, her developer salary was basically a sixth of what a personal computer would cost; the monthly salary, that is. Obviously, you'd have to save up for six months without spending a penny to be able to afford a computer at the time. But her father actually had sold the house, because he was targeted by the regime for a completely different story... And he had asked each of his six children what they wanted as a gift from the money he had made selling the house, and my mom asked for a computer.
 
 That same computer he bought her is the one that I grew up with, and it's a super-old computer that I went around the internet looking for. I talked to my mom, I was like "Do you remember what it was called?" It was an Iraqi-assembled version of what I've found out to be the NEC PC-6001. In the U.S. apparently it was called the NEC TREK.
 
@@ -116,7 +116,7 @@ The most interesting thing is that she still doesn't believe that COBOL is still
 
 **Aaron Schlesinger:** But I wanna take that time and instead say, Marwan, I'm super-glad that you remembered that you liked programming, and went through the journey, went through a programming bootcamp, and all that stuff, and among other things working on Athens with all of us.
 
-**Marwan Sulaiman:** \[00:08:07.25\] Yeah, I'm glad I remembered it too, because I really did not like my first job.
+**Marwan Sulaiman:** \[08:07\] Yeah, I'm glad I remembered it too, because I really did not like my first job.
 
 **Carmen Andoh:** And I love the story about how it was a failure that prompted you to this path. Maybe it's a reminder that sometimes failure is a really good thing in our life.
 
@@ -144,7 +144,7 @@ I think it's totally true. Some people have had terrible luck, and I am one of t
 
 It was interesting, because it used to just all be about the GOPATH, and one of the nice things I liked about GOPATH was the fact that the import path was also the URL of the project itself, where it was hosted. So it's just a simple thing, but it turned out in practice whenever you would go and look in a project and see a dependency, you could just copy the import path and paste it in the browser, and then it opens that project. I always found that as a kind of cognitive shortcut to be really useful.
 
-\[00:11:56.06\] So I'm quite friendly when it comes to talking about GOPATH. I know that it's one of the most tricky things for a lot of people, and has been a challenge, and there are obviously other problems with it... But it's interesting to see that the Go team kind of acknowledged this as a problem, and the community and the Go team all kind of started to explore different ideas around how to do dependencies differently.
+\[11:56\] So I'm quite friendly when it comes to talking about GOPATH. I know that it's one of the most tricky things for a lot of people, and has been a challenge, and there are obviously other problems with it... But it's interesting to see that the Go team kind of acknowledged this as a problem, and the community and the Go team all kind of started to explore different ideas around how to do dependencies differently.
 
 Has anyone got any feelings about anything in the history of that? Were there any projects -- what did you think of the Vendor folder? Was that something that you thought was a good step, or do we feel like that was bad? How do we feel?
 
@@ -170,7 +170,7 @@ I just remember seeing that environment variable as an option, and just really l
 
 **Aaron Schlesinger:** Well, what you've just said actually, Mat - that was the primary reason that we started building Athens; it's because there's been so many breakages like that across the community.
 
-**Mat Ryer:** \[00:16:06.16\] Yeah. I did hear one thing early when I was in Go, that really resonated and also did sound a bit funny, which was when someone asked that question "What do you do if the packages change?", I think the answer was "Well, don't change them." So once you've released a package, don't change it.
+**Mat Ryer:** \[16:06\] Yeah. I did hear one thing early when I was in Go, that really resonated and also did sound a bit funny, which was when someone asked that question "What do you do if the packages change?", I think the answer was "Well, don't change them." So once you've released a package, don't change it.
 
 **Aaron Schlesinger:** Yeah.
 
@@ -196,7 +196,7 @@ What comes after is basically a list of third-party dependencies and what versio
 
 Sometimes you could manually go in and change that file, and the Go command has some help with that, where you can say "go.mod replace", which at the end of the day is you're just changing the go.mod file to say "Hey, this import path (let's say) github.com/pkg/errors (for example), I don't want that code, I want that import path, but I actually wanna point to another fork. Something like github.com/marwan/errors, because I have a change that maybe is not yet merged into the upstream." So you could dig a little bit deeper. That's the go.mod file...
 
-**Mat Ryer:** \[00:20:26.23\] I feel like just editing the file is probably easier than using that replace tool... Don't you think?
+**Mat Ryer:** \[20:26\] I feel like just editing the file is probably easier than using that replace tool... Don't you think?
 
 **Marwan Sulaiman:** That's what I do, yeah. I just wanted to be a little bit technical and say you could potentially never touch it, but actually if you go in and just put a replace clause there, copy paste the import path, it's quite easy. So that's why I think the go.mod file is a little interesting, in that it's kind of like the human and the computer working together to make your program build, which is in itself a testament to how complex dependency management is.
 
@@ -212,7 +212,7 @@ So that's kind of the go.mod file... And it has a companion file that you touche
 
 **Mat Ryer:** Right...?
 
-**Break:** \[00:22:41.29\]
+**Break:** \[22:41\]
 
 **Mat Ryer:** So what happens if a dependency goes away, or a project just gets deleted? Nevermind there's a new version, but it's just gone.
 
@@ -230,7 +230,7 @@ So that's kind of the go.mod file... And it has a companion file that you touche
 
 **Aaron Schlesinger:** And Carmen, that points to this concept of federation too, which is a whole other cool thing that I think the module ecosystem has, that like you said, it would have helped in the Npm ecosystem for sure... But it kind of warms my heart to be able to say that the Go Modules ecosystem isn't just dependent on one server somewhere. Anyone can run a server, and there actually already are multiple public proxies, and you can run your own proxy as well. It all just kind of works together, and that's really cool to think about, to me at least.
 
-**Carmen Andoh:** \[00:28:23.16\] I agree. And I loved Athens when it first came out. I remember that there was a white paper that came out, and it was -- Modules is based on protocols that people can use; it was basically empowering the ecosystem to build out solutions as they saw fit.
+**Carmen Andoh:** \[28:23\] I agree. And I loved Athens when it first came out. I remember that there was a white paper that came out, and it was -- Modules is based on protocols that people can use; it was basically empowering the ecosystem to build out solutions as they saw fit.
 
 And then of course I saw Athens, and I think it was you that was -- we were at a meetup in Portland together and you did a presentation on it, and then I tried to steal away some of my work time to be a contributor to it... That was short-lived. \[laughs\] But I just love what you're doing, both of you. And of course, there's also Manu, and a lot of other people. It's such a great channel in GopherSlack Athens... So welcoming, and active, and people that are helpful... I really enjoy it.
 
@@ -258,7 +258,7 @@ And then of course I saw Athens, and I think it was you that was -- we were at a
 
 I wrote a Buffalo app - shout-out to Mark, who's not here today - that basically implemented that, and it stored the modules in memory after it went and grabbed them up from GitHub, or wherever. If you did a go get against the then Athens proxy, it would in the background go and do its own go get, back up to GitHub or wherever, it would get the module down and then store it in the in-memory database. Then the next time you did a go get, it would serve that module directly out of memory. That was a toy, pretty much, but I showed it to a couple folks - Marwan mentioned Carolyn van Slyck - and I showed it to Erik St. Martin and Brian Ketelsen, and... If I forgot anyone, I really apologize, but I think that's almost everybody. And they were totally into it too, so we decided to work together.
 
-\[00:32:00.22\] We created a new GitHub org to host this code in, and the code - I called it "vgo prox", like vgo proxy, which was totally lame... So Brian went to one of those startup name generators, because naming is hard... \[laughter\] I think the name that came out was like "Athens-Brass", so we went with the Greek theme and just called it Athens. That's how it ended up where it is.
+\[32:00\] We created a new GitHub org to host this code in, and the code - I called it "vgo prox", like vgo proxy, which was totally lame... So Brian went to one of those startup name generators, because naming is hard... \[laughter\] I think the name that came out was like "Athens-Brass", so we went with the Greek theme and just called it Athens. That's how it ended up where it is.
 
 Then Brian did a couple talks on it, I did a couple small things like meetups, and people just kind of at first trickled in, and then... I wouldn't say we're really having a massive surge of people, but it's more than the trickle now. It's gained some steam. Obviously, we have amazing contributors now, maintainers like Marwan, and we've got a bunch of others. I think there's like six core maintainers. There's gotta be 15 or 20 official contributors in the GitHub org now, and there's tons of other folks too, who'll come in and they'll ask a question, or they'll fix the docs, or they'll fix a bug, or whatever...
 
@@ -280,7 +280,7 @@ The Athens project, by the way, on GitHub now has 2,200 stars, which is pretty i
 
 **Marwan Sulaiman:** Right. It depends on when a module is created. If you're building your own project and you import a dependency, regardless of Athens or a proxy, when Go adds this module to your go.mod file, it does not add any test dependencies, and that's when you have to type a little magic in the command line, which is called `go mod tidy`. `go mod tidy` basically tidies up your entire go.mod file, it removes any dependencies you don't need, but it also puts in all of the test dependencies, so that if you ever run your dependency tests, you'll have the right -- or basically if you're running your own tests that are relying on some files or some packages in that dependency, then you're also gonna make sure that your tests are reproducible.
 
-**Mat Ryer:** \[00:36:17.02\] Right. So the tests do go along in the proxy then, in Athens, when the copy gets created. It copies the whole thing, does it?
+**Mat Ryer:** \[36:17\] Right. So the tests do go along in the proxy then, in Athens, when the copy gets created. It copies the whole thing, does it?
 
 **Marwan Sulaiman:** Yeah. The interesting part about that is the fact that old proxies must use the Go command itself to download modules. They don't have to, but that means they're going kind of rogue. There is a bit of a background to this... For example, think that you're trying to build something from Athens. So you're on your local computer, there's an Athens server somewhere, and you say "Hey, can I please get package number one?" And if Athens doesn't have package number one in storage, it's gonna have to go get it from somewhere. It could go to GitHub and download it itself, and just return it to you, but the problem there is that you might have skipped a byte here and there, and your checksum is gonna be completely different from another proxy's checksum, or the original Go checksum.
 
@@ -310,7 +310,7 @@ The performance -- I believe the original vgo papers had CockroachDB as an examp
 
 **Mat Ryer:** Wow. That is really cool... And actually especially important if you're in a country or a town where the internet connection really isn't doing it for you... And I know that there are gophers in this situation, with low-quality internet connections. That's gonna actually make a real difference there, to builds and dependencies. That's awesome.
 
-**Aaron Schlesinger:** \[00:40:06.00\] I think another part is that since it's HTTP, it's the web, so you can cache it, you can put CDNs in front of it, you can do all the cool HTTP things that web developers know and love. I don't know all the details of some of the public proxies that are out there right now, but if I had to guess, I would say that they're probably sitting with CDNs next to them, and that means that if you do a `go get` using one of those proxies, you would be go getting one of those tiny zip files from somewhere really close to you, that has really good bandwidth.
+**Aaron Schlesinger:** \[40:06\] I think another part is that since it's HTTP, it's the web, so you can cache it, you can put CDNs in front of it, you can do all the cool HTTP things that web developers know and love. I don't know all the details of some of the public proxies that are out there right now, but if I had to guess, I would say that they're probably sitting with CDNs next to them, and that means that if you do a `go get` using one of those proxies, you would be go getting one of those tiny zip files from somewhere really close to you, that has really good bandwidth.
 
 **Mat Ryer:** Brilliant. That's awesome.
 
@@ -330,7 +330,7 @@ So before the code even enters your codebase, you can tell, you can actually pro
 
 It's kind of another testament to the community as well, that we've got these open protocols and now we can build all these different layers in the security space, in this case, that I think is just really cool.
 
-**Break:** \[00:44:48.02\]
+**Break:** \[44:48\]
 
 **Mat Ryer:** How do we use Athens today then? Do you use that Go proxy environment variable, or do you not have it hosted yet? Is it publicly available? What's the situation?
 
@@ -354,7 +354,7 @@ One of the ones that I host is on our docs page, that's kind of like "This is th
 
 **Mat Ryer:** Brilliant. Were there any surprises as you were building Athens? Because I think a lot of the value in it really comes -- and this could be wrong, but it seems to me like a lot of the real value of it just comes from the design of it and the thinking of it... But was it technically difficult to implement? Were there any surprises as you were building it, and as you've been working on it?
 
-**Aaron Schlesinger:** \[00:48:10.29\] Were there surprises...? I'm trying to think of a real example... Because all I remember right now is saying "Hm, I didn't think of that", but I don't remember what it was...
+**Aaron Schlesinger:** \[48:10\] Were there surprises...? I'm trying to think of a real example... Because all I remember right now is saying "Hm, I didn't think of that", but I don't remember what it was...
 
 **Marwan Sulaiman:** I have a couple.
 
@@ -400,7 +400,7 @@ One of the ones that I host is on our docs page, that's kind of like "This is th
 
 **Mat Ryer:** Do you know if they could support the ETags, and the If-Match header, and things? ...so that you could even say "Give me this dependency if it's changed. If not..." Or does that not make sense, because you're already asking for specific versions anyway?
 
-**Marwan Sulaiman:** \[00:51:40.07\] You're not necessarily asking for a specific version when you wanna download a module first. The Go Download Protocol comes with five different endpoints. One of these endpoints is a bit of a discovery endpoint; it's saying "For this module, what versions do you have?" So this is the v/list endpoint. So when you say "gopkg/errors/v/list", you might get a list of semantic versions, and if the repository doesn't have a semantic version, it will go to the next discovery endpoint, which is called @latest. It's like "Okay, if you don't have any semantic versions, just give me the latest", which could be kind of like a Git commit type pseudo-semver. That said, currently there's no way to support -- actually, I'm not familiar with ETags, but any sort of special headers I know as of now it doesn't support, which I can get more into... But maybe explain ETags first...?
+**Marwan Sulaiman:** \[51:40\] You're not necessarily asking for a specific version when you wanna download a module first. The Go Download Protocol comes with five different endpoints. One of these endpoints is a bit of a discovery endpoint; it's saying "For this module, what versions do you have?" So this is the v/list endpoint. So when you say "gopkg/errors/v/list", you might get a list of semantic versions, and if the repository doesn't have a semantic version, it will go to the next discovery endpoint, which is called @latest. It's like "Okay, if you don't have any semantic versions, just give me the latest", which could be kind of like a Git commit type pseudo-semver. That said, currently there's no way to support -- actually, I'm not familiar with ETags, but any sort of special headers I know as of now it doesn't support, which I can get more into... But maybe explain ETags first...?
 
 **Mat Ryer:** You just send a string, I think, and then the server decides whether it has a newer version based on that, and then it sets an ETag header. So it's just a caching thing, but I wondered if that played into this, or if it could... But it's quite interesting.
 
@@ -422,7 +422,7 @@ I was thinking as well about -- if somebody owns a GitHub repo or they maintain 
 
 **Marwan Sulaiman:** My favorite use case is currently the Twirp framework, as trying to upgrade or migrate to Modules. They are already at version 5, and so there's a whole discussion about how to go to version 6 and introduce Modules, but still support people not using Modules... So it's definitely a complex topic when you want to ensure backward compatibility.
 
-**Mat Ryer:** \[00:56:18.05\] Yeah. In fact, it's funny, because Mark Bates once sent me a message, and he just said "We can't be friends anymore because you haven't tagged your releases in this repo." \[laughter\] That was it. And I've not heard from him since. \[laughter\]
+**Mat Ryer:** \[56:18\] Yeah. In fact, it's funny, because Mark Bates once sent me a message, and he just said "We can't be friends anymore because you haven't tagged your releases in this repo." \[laughter\] That was it. And I've not heard from him since. \[laughter\]
 
 **Carmen Andoh:** And that's why he's not on this show today.
 

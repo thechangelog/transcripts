@@ -30,7 +30,7 @@
 
 Opening a file, you wanna put right near that statement where you open the file, you wanna put something that says "I need to close the file at the end of the function." And the classic way in C, for example, is at every single exit point you've gotta put a close there. The defer is just a really nice way to express it, and it's right near the open, so it's very well expressed... And you can contrast it with other language uses like try finally in Java or JavaScript, which is doing something similar. Try finally is another contract which says "Do some code, and at the end of it make sure you do something in the finally clause." But that stuff in the finally clause is pretty far away from where you did the open.
 
-\[00:04:13.23\] So as you said, one of the nice things is it's right there, and I agree with that; it really makes it obvious, "I wanna get this done, and it needs to be done."
+\[04:13\] So as you said, one of the nice things is it's right there, and I agree with that; it really makes it obvious, "I wanna get this done, and it needs to be done."
 
 **Mat Ryer:** And with try finally you could easily end up nesting things quite a lot. If you're trying to open a few files and then you want to make sure they're all closed, and maybe making some API calls as well and doing a few other things, you can end up with really deeply-nested try catch blocks all over the place. One of the things defer gives you is that it doesn't do that, does it?
 
@@ -58,7 +58,7 @@ And then the optimization we've been doing over time is to deal with those simpl
 
 Then I wanted to get back to lower-level stuff, like compilers and systems stuff after doing other things for a while, so I transferred to the Go team about a year ago, within Google, and just was interested in doing languages and compilers.
 
-\[00:08:01.02\] I have done compiler work in the past, so... I've worked a fair bit of time on some stuff that's gonna help optimize Go usage in Google itself, and then in the last six months or so I've been working with the compiler and runtime people. I'm kind of a newer person, compared to a lot of the more senior people here. I've got this very interesting project to optimize defer further.
+\[08:01\] I have done compiler work in the past, so... I've worked a fair bit of time on some stuff that's gonna help optimize Go usage in Google itself, and then in the last six months or so I've been working with the compiler and runtime people. I'm kind of a newer person, compared to a lot of the more senior people here. I've got this very interesting project to optimize defer further.
 
 **Mat Ryer:** Yes. Well, that sounds great. And this project to optimize defer is a great one, because one of the things I love about the way that the situation is at the moment with Go is that we can use these language features somewhat liberally, and I tend to use them somewhat liberally... And sometimes there's like a trade-off between the performance and the readability. Occasionally, it's worth having very difficult to read code if in your particular case it's valuable that it is very performant. So I get that, for sure.
 
@@ -76,7 +76,7 @@ Of course, you can use defer in other cases for opening and closing the files. T
 
 In C++ one of the acronyms that's used that came from Bjarne Stroustrup is "Resource Acquisition Is Initialization", which is called RAII... But in any case, he's basically just saying that you can express acquiring a resource, and then guaranteeing that you're gonna release it at the end of the block by initializing a variable. So what people do is, for instance, they might have a class which is basically a lock, and they acquire it at the beginning of the block, and then just by exiting the block, the lock is released.
 
-\[00:12:12.06\] All that was kind of a description to say, well, C++, and especially GCC, has made that overhead basically zero. They do the right thing; they generate code at the end of the block, that just calls the unlock call. So it's a very little overhead for that. And then they do the extra work to make sure it happens at panic time. If we can get closer to that all the time, then people don't have to think about it for defer as well.
+\[12:12\] All that was kind of a description to say, well, C++, and especially GCC, has made that overhead basically zero. They do the right thing; they generate code at the end of the block, that just calls the unlock call. So it's a very little overhead for that. And then they do the extra work to make sure it happens at panic time. If we can get closer to that all the time, then people don't have to think about it for defer as well.
 
 **Mat Ryer:** That's very interesting. It's funny, you mentioned a little nugget there, which is something that surprises a lot of people, I've found, which is that of course - well, not of course at all, actually; it surprised me in the beginning - when code panics, the defers still run.
 
@@ -102,7 +102,7 @@ So the creators of Go and in particular Ken Thompson knew you kind of wanted to 
 
 **Dan Scales:** Yes, that totally makes sense. Definitely. The code that you don't have control over has a bug in it, say, and for certain things you wanna make sure your program doesn't crash if they have a bug in their program, or as you said, you don't agree with the error that they are indicating.
 
-**Jon Calhoun:** \[00:16:06.03\] So at a high-level, does somebody wanna go over just what that recovery looks like? Like, why we need to use defer, how you would use defer... Because I know we've talked about it -- I'm guessing most listeners have seen this, but just at a high-level...
+**Jon Calhoun:** \[16:06\] So at a high-level, does somebody wanna go over just what that recovery looks like? Like, why we need to use defer, how you would use defer... Because I know we've talked about it -- I'm guessing most listeners have seen this, but just at a high-level...
 
 **Mat Ryer:** Yeah, well - you tend to use an anonymous function, don't you? So you defer the function and do it in line, and then there's a block. So at the top of the function you have a block of code that is in a defer, so you know that this is gonna run at the end. And then you call -- it's a built-in function, I suppose...?
 
@@ -118,7 +118,7 @@ That defer function finishes, and as long as it finishes successfully, then now 
 
 **Dan Scales:** Exactly, yes. So you can translate the panic, error or whatever to a returned value error. Exactly, yes.
 
-**Break:** \[00:18:33.29\]
+**Break:** \[18:33\]
 
 **Mat Ryer:** As a general rule, I try and exclusively use errors, and I try not to use panics at all. It's interesting, that was where defer kind of came from, wasn't it? It was in order to be able to recover from panics that they needed this feature. Is that right, Dan?
 
@@ -126,7 +126,7 @@ That defer function finishes, and as long as it finishes successfully, then now 
 
 **Mat Ryer:** So that's where defer came from for that case. It's just funny, in my particular case I never use the panic, but I use the defer all the time.
 
-**Dan Scales:** \[00:20:05.08\] Yeah. It was kind of a good combination, that defer can be used for both recover and for the more standard ways of releasing resources. And we don't wanna overemphasize the recover or the panic case, because that's certainly not the Go methodology. The Go method of having normal errors that you expect or whatever is obviously return values... So you don't wanna depend on panic recover as a way to return errors very often. They have to be very unusual, because that path is not optimized.
+**Dan Scales:** \[20:05\] Yeah. It was kind of a good combination, that defer can be used for both recover and for the more standard ways of releasing resources. And we don't wanna overemphasize the recover or the panic case, because that's certainly not the Go methodology. The Go method of having normal errors that you expect or whatever is obviously return values... So you don't wanna depend on panic recover as a way to return errors very often. They have to be very unusual, because that path is not optimized.
 
 So the normal case of returning errors by return value; definitely you can do it, and it definitely is a good way, as you said, of dealing with packages you don't control, and errors you don't expect, and so forth... But yes, I think it's very nice that defer is used both for dealing with a recover, but I would say even more importantly at this point doing that releasing of resources and the guaranteeing of the function. That part is the one that is a really nice feature, that helps you maintain your code, and lets you do these interesting stuff.
 
@@ -142,7 +142,7 @@ So the normal case of returning errors by return value; definitely you can do it
 
 **Jon Calhoun:** It's also interesting - I feel like the Go community has embraced the way defer works to the point that you see people writing code where you'll call a function to set something up and it returns a teardown function. So you'll very commonly see people like "Okay, I called this and it returns teardown, and then I immediately called defer teardown." The fact that people have noticed this makes such a big impact on readability... And I don't wanna think about how to tear this down; the function that sets it up should have to deal with that, not me.
 
-**Mat Ryer:** \[00:23:38.16\] Yeah, that's the nice thing about that. It is about keeping the tidy up close to where you're allocating the resources. It's literally harder to forget to do it, essentially. But I do love that pattern where you return the clean-up function. I do it a lot if I have test helpers that are starting servers, or anything. And you can hide a lot of stuff inside a function then, and change it later without touching the API. You've asked the user to defer this function, so you know that it's gonna get called kind of teardown time, so you can use that and add features to existing things just by having that as a pattern. It's a great one. Context does it too when you do -- with cancel.
+**Mat Ryer:** \[23:38\] Yeah, that's the nice thing about that. It is about keeping the tidy up close to where you're allocating the resources. It's literally harder to forget to do it, essentially. But I do love that pattern where you return the clean-up function. I do it a lot if I have test helpers that are starting servers, or anything. And you can hide a lot of stuff inside a function then, and change it later without touching the API. You've asked the user to defer this function, so you know that it's gonna get called kind of teardown time, so you can use that and add features to existing things just by having that as a pattern. It's a great one. Context does it too when you do -- with cancel.
 
 **Dan Scales:** Cancel, yes.
 
@@ -166,7 +166,7 @@ But on the other hand, if you want to look at local variables at the exit, and h
 
 **Jon Calhoun:** The last part you were talking about, that is what they're doing -- with all the error wrapping stuff, you see a lot of code that comes out now where they defer a function that will check to see if an error is nil, and if it is, they'll go ahead and wrap it at that point.
 
-**Dan Scales:** \[00:28:15.23\] Exactly.
+**Dan Scales:** \[28:15\] Exactly.
 
 **Jon Calhoun:** That's using that latter part, where you're saying it's looking at what the actual error was at that time, and that makes that possible because you're waiting to actually look and see what the error was. But if they wanted to actually look at a value directly, then it would be the last set of parentheses; whenever they call defer, they would pass something in there, correct?
 
@@ -206,7 +206,7 @@ Alternatively, you could just have a normal function, in which case you don't ge
 
 **Dan Scales:** \[laughs\] I see.
 
-**Mat Ryer:** \[00:31:58.18\] Yeah, it could have made me feel bad. Yeah, I think I've done that and logged it, just because I want to see what could happen... But nothing's happened yet, so I'm still waiting...
+**Mat Ryer:** \[31:58\] Yeah, it could have made me feel bad. Yeah, I think I've done that and logged it, just because I want to see what could happen... But nothing's happened yet, so I'm still waiting...
 
 **Dan Scales:** Right, yes.
 
@@ -244,7 +244,7 @@ So the Go defer runs at the function level... It's a little different; I can see
 
 **Dan Scales:** Yeah, there are several performance optimizations, of which one relates to defer... There's this work that I did, and it was from some ideas from a bunch of the people in the group. The idea was - as we started talking about it - to make the overhead lower in the more common cases... And that's what's been going on in the last few releases. Defer has been steadily getting faster in some of the common cases.
 
-\[00:36:00.21\] In this release we wanted to make it even faster, and basically, you can think of it as we're running the function calls directly at the exit. So the compiler is directly generating those function calls at the exit... I think you were saying that's how you think of it... And in the common cases where we can do it.
+\[36:00\] In this release we wanted to make it even faster, and basically, you can think of it as we're running the function calls directly at the exit. So the compiler is directly generating those function calls at the exit... I think you were saying that's how you think of it... And in the common cases where we can do it.
 
 So we can do that in most of the frequent cases of defer. This optimization is not turned on if any defer in the function is in the loop. However, we do do it if they're in conditionals. So if all the defers in your function are either just straight defers, no conditional, or they're in a conditional, then we will do the optimization that I'll describe. If any defer is in a loop, then we will not do that optimization yet, and we'll do the standard runtime thing.
 
@@ -266,7 +266,7 @@ You do have to still set the defer bits, because we're gonna need to know about 
 
 **Mat Ryer:** That's great. It's really clever. So making it work with conditions is a bit of a genius move; I think that is a bit of a genius stroke. Because I think it's quite clear that -- if you think about how could you optimize defers, then yeah, just statically have a look, see what gets called, and just put them in the exit points. It seems quite simple. But yeah, to make that work with conditionals... And then with loops, that's gotta be impossible, isn't it? ...that kind of approach.
 
-**Dan Scales:** \[00:39:48.27\] Yeah, you need some kind of runtime thing, because of course, you're gonna have to save an arbitrary amount of information... So you need some kind of link list, which is what we already have in the previous implementation, the more general implementation. So if you have a loop, you can call defer 100 times, and where are you gonna put all that information? You're gonna have to do some heap allocation, and so forth.
+**Dan Scales:** \[39:48\] Yeah, you need some kind of runtime thing, because of course, you're gonna have to save an arbitrary amount of information... So you need some kind of link list, which is what we already have in the previous implementation, the more general implementation. So if you have a loop, you can call defer 100 times, and where are you gonna put all that information? You're gonna have to do some heap allocation, and so forth.
 
 **Jon Calhoun:** So when you were deciding to support if statements, did you do any sort of code analysis or anything to say "This is something we need to cover", or was it more just "We should probably just do it, so we did it"?
 
@@ -306,7 +306,7 @@ There's always certain choices, more optimizations that we could do, or there ar
 
 **Mat Ryer:** No, but genuinely... So my source code would stay looking with defers, so it was readable.
 
-**Dan Scales:** \[00:44:11.13\] Oh, I see.
+**Dan Scales:** \[44:11\] Oh, I see.
 
 **Mat Ryer:** It was an automatic part of the build process.
 
@@ -324,7 +324,7 @@ There's always certain choices, more optimizations that we could do, or there ar
 
 **Dan Scales:** We'd rather -- especially if you're deferring an unlock, and you want your web server to continue on, you really wanna make sure that unlock happens, because you might have a thread that's about to die, but you're gonna continue... The web server might hold on to a lock that's important for all the other threads.
 
-**Break**: \[00:44:58.04\]
+**Break**: \[44:58\]
 
 **Jon Calhoun:** When you guys were deciding to actually make these optimizations, was it because you were seeing people do what you're saying, they were commenting these things out and doing that? Was it because you wanted to make sure code was more correct, or was it because you thought "We want code to stay readable, so we need to improve on this"? What was the motivation behind improving this, when arguably somebody could do what Mat said, and get rid of it themselves if they really wanted to?
 
@@ -332,7 +332,7 @@ There's always certain choices, more optimizations that we could do, or there ar
 
 So readability, maintainability - that's a correctness problem too, and it's especially a correctness problem that's really hidden if it's a panic. Maybe this is a library, and they figure "We don't need to deal with a panic." But then you put that library on a web server and you want that server to keep running, even after one of the threads has had a problem... So all those reasons.
 
-**Carmen Andoh:** \[00:48:02.11\] We have a question from a live listener... "Is there a way to call defer only in the case of a panic, so you only pay the penalty when it's needed?"
+**Carmen Andoh:** \[48:02\] We have a question from a live listener... "Is there a way to call defer only in the case of a panic, so you only pay the penalty when it's needed?"
 
 **Dan Scales:** That's a good question... No, there's nothing in the language - Is there any way to stop defers? There's no way to stop defers... So you have to run that code, and you just do a quick check, of course, but you do have to run the deferred function.
 
@@ -362,7 +362,7 @@ Sometimes it's not totally necessary. They see defer overhead, but it's 1% or 0,
 
 **Carmen Andoh:** Do you think with this optimization we can start to say that we're reaching RAII performance on par with C++, or we are on the way to doing that?
 
-**Dan Scales:** \[00:51:49.02\] Yes, I think so. It's much more the overhead that you would expect from the normal semantics, and just like C++, and so forth. I think there are more optimizations to do, and the GCC compiler which does C++ of course has been evolving for years and years and years, and all that... And there's also a trade-off of how much information you store on the side, and so forth. To make exceptions and zero overhead in GCC took a number of years, and it requires information on the side, which we have as well. But they have a lot of information, and stubs, and so forth... So yes, I would say we're pretty close; we're quite close, as you can see from those numbers, and there's maybe little optimizations we can do further.
+**Dan Scales:** \[51:49\] Yes, I think so. It's much more the overhead that you would expect from the normal semantics, and just like C++, and so forth. I think there are more optimizations to do, and the GCC compiler which does C++ of course has been evolving for years and years and years, and all that... And there's also a trade-off of how much information you store on the side, and so forth. To make exceptions and zero overhead in GCC took a number of years, and it requires information on the side, which we have as well. But they have a lot of information, and stubs, and so forth... So yes, I would say we're pretty close; we're quite close, as you can see from those numbers, and there's maybe little optimizations we can do further.
 
 **Carmen Andoh:** That's great.
 
@@ -408,7 +408,7 @@ The Go builders have tests for running on different distributions, and they have
 
 **Dan Scales:** Yes. There are memory optimizations, and some other optimizations \[unintelligible 00:55:52.27\] delays in running the garbage collector, and so forth.
 
-**Carmen Andoh:** \[00:56:01.29\] For the scheduler... Yeah.
+**Carmen Andoh:** \[56:01\] For the scheduler... Yeah.
 
 **Mat Ryer:** I wanna see time/sleep optimized, because it can really take a lot of time... \[laughter\]
 

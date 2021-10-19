@@ -30,7 +30,7 @@
 
 **Dave Blakey:** Absolutely. Telemetry is an extremely broad term, as you said. Obviously, here we can narrow it into at least computing and modern computing, I suppose, but at its core, it really means collecting and storing, and I like to think using, but not necessarily... But collecting and storing data from remote sensors, or remote machines, remote computers. So from the left side being how much electricity or gas is your water heater using, to the right side being what's the response time of an API back-end that you have. It's around getting that information, and all of that kind of stuff.
 
-\[00:04:26.17\] I think more recently it's around a lot of the techniques and the areas in which to add telemetry to applications while you're building them. As you all know, when you start to scale things out, it's often too late, if you haven't done it already.
+\[04:26\] I think more recently it's around a lot of the techniques and the areas in which to add telemetry to applications while you're building them. As you all know, when you start to scale things out, it's often too late, if you haven't done it already.
 
 **Johnny Boursiquot:** So it's one of those things where it may not feel important in the start of a project, but when you need it, you're wishing you had put it in from the start, kind of thing... Yeah?
 
@@ -50,7 +50,7 @@ That's what I would advise - make it super-easy to send just a slug, and the val
 
 At our business we have what we call our code contract, and it's this set of nine rules for everything that we write... And one of the rules is that everything has to use this telemetry helper that we put in, because we knew at some stage it would become a problem. And it uses very little development work, you know?
 
-**Jaana Dogan:** \[00:07:58.00\] Yeah, I've seen a lot of cases where people are debating what to collect, and how to collect, and so on... I think there's also some sort of confusion around what matters for the success of the project, and so on. So you have to be more holistically maybe thinking about all the specs - availability, debuggability - in order to at least have a better understanding of what you wanna collect and how you are going to be utilizing it.
+**Jaana Dogan:** \[07:58\] Yeah, I've seen a lot of cases where people are debating what to collect, and how to collect, and so on... I think there's also some sort of confusion around what matters for the success of the project, and so on. So you have to be more holistically maybe thinking about all the specs - availability, debuggability - in order to at least have a better understanding of what you wanna collect and how you are going to be utilizing it.
 
 A lot of times, small companies end up failing because they start too late, and so on... But it's very important to start thinking about this at the very early stages.
 
@@ -68,7 +68,7 @@ If you have that type of setup, where you're saying something is a statistical a
 
 **Jon Calhoun:** So if you're starting off with your telemetry, and say you don't have a clue what to start with, like you're somebody who just hasn't gone about doing it, what are the first few metrics you would suggest they try out?
 
-**Dave Blakey:** \[00:11:48.27\] I would say it's probably broken up into three areas. The first area you've got is your actual server. Whether it's a cloud instance, it's a VM, it's a container, whatever it is, the actual system that's hosting it - most people don't realize how far down the journey of telemetry they are... Because they can tell the CPU usage on there, they can tell the memory, or they can tell if it's online or offline. That's a data point, right? Like, is the server working or is the server not working? So you start to monitor things like that, and you start to have some basic understanding of your server, obviously, and servers.
+**Dave Blakey:** \[11:48\] I would say it's probably broken up into three areas. The first area you've got is your actual server. Whether it's a cloud instance, it's a VM, it's a container, whatever it is, the actual system that's hosting it - most people don't realize how far down the journey of telemetry they are... Because they can tell the CPU usage on there, they can tell the memory, or they can tell if it's online or offline. That's a data point, right? Like, is the server working or is the server not working? So you start to monitor things like that, and you start to have some basic understanding of your server, obviously, and servers.
 
 The second thing is your network. That's where most scaling and telemetry information and data becomes very useful. The time of up and down sites is long gone, but what if your website's or your API's response on average is 200 milliseconds, and there was a deployment last night and now it's 400 milliseconds? This is very important information to have. Simple things like HTTP reply times, and your HTTP reply statuses, for example. How many 200 codes are there, 400 codes, 500 codes... Just picking up that there's 5% of responded pages are errors, versus 0.1%, can really help you to shortcut an issue.
 
@@ -82,7 +82,7 @@ We work primarily with what you would call more modern types of deployments, I g
 
 **Jaana Dogan:** I think one of the other questions is - you know, you mentioned a bit about anomalies, or some teams, some organizations prefer to set some SLOs, and they produce some alerts as soon as some of the metrics are out of the boundaries... And I think each organization has a different strategy. Some organizations prefer a monitoring team or an SRE team to be reactive to the alerts, and then they escalate it or delegate it to other teams - to the first-responders, versus other folks, and so on. It has a lot to do about the organization and the way the company/organization works, right?
 
-**Dave Blakey:** \[00:16:02.24\] You make a good point, because I was talking almost from the angle of saying "There's something wrong. Let's look at the telemetry", but the next kind of natural step from that is exactly like you're saying... It's to rather have the data be presented to people when things are picked up, like anomalies and that. And yeah, the bigger the business, the more likely there is a team that is responsible for that... But that doesn't mean that smaller businesses can't use open source free tools to achieve very similar types of results.
+**Dave Blakey:** \[16:02\] You make a good point, because I was talking almost from the angle of saying "There's something wrong. Let's look at the telemetry", but the next kind of natural step from that is exactly like you're saying... It's to rather have the data be presented to people when things are picked up, like anomalies and that. And yeah, the bigger the business, the more likely there is a team that is responsible for that... But that doesn't mean that smaller businesses can't use open source free tools to achieve very similar types of results.
 
 **Jaana Dogan:** We talked a lot about metrics, but you specifically mentioned that our systems are getting larger, and there are a lot of different components... Recently, in the last decade or five years, distributed tracing and logging especially, correlated with a trace IDE or a request IDE has also become very popular in terms of collecting signals. Some organizations at least use them as another source of telemetry... What do you think about that?
 
@@ -94,7 +94,7 @@ We work primarily with what you would call more modern types of deployments, I g
 
 So it's a pretty developed space in terms of how you see that information once you start to store it and keep it in a time series database, and all these kinds of things... But it's really up in the air with how you track, how you communicate. Probably the biggest thing we see are people that are just using StatsD to stream telemetry data to something, and then collect it and ultimately output it into some sort of dashboarding solution.
 
-**Jaana Dogan:** \[00:20:05.10\] Yeah, as a person who has some experience in this field - I used to work on OpenCensus, and I think we were trying too hard to maybe unify the approaches; unify the export types, the exported data, or unifying the library space, or trying to establish standards... But it seems like the field is very crowded, and it's just hard to -- maybe it doesn't make much sense, because at the end of the day, all you care is getting the data to a dashboard and be able to utilize the data... And I think that's primarily what the organizations care about; they don't necessarily care about the export format or the library they're using to instrument...
+**Jaana Dogan:** \[20:05\] Yeah, as a person who has some experience in this field - I used to work on OpenCensus, and I think we were trying too hard to maybe unify the approaches; unify the export types, the exported data, or unifying the library space, or trying to establish standards... But it seems like the field is very crowded, and it's just hard to -- maybe it doesn't make much sense, because at the end of the day, all you care is getting the data to a dashboard and be able to utilize the data... And I think that's primarily what the organizations care about; they don't necessarily care about the export format or the library they're using to instrument...
 
 **Dave Blakey:** In a lot of cases they don't even care about the reliability of it, and that's one of the challenges with that space as well. If your telemetry data is something that you're collecting every second or multiple times a second, losing some of it doesn't matter, in most cases. If we for example are writing the response times of an API the whole time, we stream that information through UDP, and we don't even check if the destination got it... Because we'll pick up that node data has been plotted for five minutes, but if one packet drops, a lot of the time with telemetry that's not a big problem. That's often internally developed, how people get that data out... And much more, the standards seem to be on the display of it and the detection of it. But like you guys mentioned, there are a lot of projects starting out there, so maybe it will clear up on that.
 
@@ -108,7 +108,7 @@ Often, when people build their own things it's because there is a need, but you 
 
 **Dave Blakey:** I think the term observability -- like you say, there's pillars of it, there's all these things... But to me, it has seen a rise in popularity lately because of exactly what we were just saying, this black box effect that things have. So really what it is -- let me give you an example in our world... You've got one web server that runs your API, and then you have to scale that out and you've now got two. Then imagine you scale that out a lot, and instead you've got 30, and they're in multiple data centers... And it's all going through some load balancer, and someone says to you "Oh, every time I use my Android phone, if I'm in South America, when I try to log in I get a 500 error." That's to me observability. It's like a needle in the haystack. The problem just becomes so compounded when everything is being funneled through one point and then split off into all different directions.
 
-\[00:24:23.26\] The rise of observability I think actually comes out of trying to problem-solve, trying to debug issues, and not being able to see them... Where telemetry came into play and you said "Okay, you know you have an issue. Let me look at the general health and well-being of my system at large in order to be able to see where I should focus down."
+\[24:23\] The rise of observability I think actually comes out of trying to problem-solve, trying to debug issues, and not being able to see them... Where telemetry came into play and you said "Okay, you know you have an issue. Let me look at the general health and well-being of my system at large in order to be able to see where I should focus down."
 
 If you were looking for that problem, perhaps you will notice that Azure data center has 5% errors on requests, whereas your Amazon one has 0.2%. So you know "Hm, it seems like something is going on in my Azure data center", and I can start to drill down there. And that's where then the rest of observability comes in, like how accurate can your logging be; can you actually look for all 500 errors that went to all the web servers in this data center, and then find the web server that it went to and dig into that...?
 
@@ -122,7 +122,7 @@ Observability is a broader approach to be able to utilize whatever you collect i
 
 **Dave Blakey:** Exactly. My simple example in the beginning that you don't need more servers, you need to stop the brute force login attack - it's that kind of full visibility of the system... Because what you think is wrong may not be what's wrong. And if you can see all of the moving pieces and components, then you can hopefully see what's actually happening on your system, and ideally prevent an issue, but also debug an issue.
 
-**Break**: \[00:27:12.08\]
+**Break**: \[27:12\]
 
 **Johnny Boursiquot:** Let's take it down one level a bit... So if I'm a Go developer - obviously, we have a lot of Go listeners on the podcast; I'm not sure if you realize that, but... They are going to want to understand not only basically "Hey, I'm a Go developer. Where do I get started with telemetry? What do I measure? How does Go make it easier or harder, or simpler?" Basically, they have these concerns... But in all of our collective experience, does Go make the job of collecting or emitting or whatever we do around telemetry in our projects - does Go make that harder compared to other projects? I'm curious...
 
@@ -142,7 +142,7 @@ So I think there's one particular thing that we may take care in the long-term, 
 
 **Dave Blakey:** It's so difficult... Because I agree with everything you said, and then at the same time, it's a hard problem to solve, because the important metrics in one app are totally different from another. But I do agree that if there was a very easy, accessible, well-documented -- you know, the lines of code for the project would probably be very small... But a well-documented source that people could use just as the book on what you should store from a Go app, and what foundation you should start with... I think that would encourage people to not have to go back in time, like you said, and add to it.
 
-**Jaana Dogan:** \[00:32:23.04\] Yeah, I altered a page on the [golang.org/doc/diagnostics](https://golang.org/doc/diagnostics.html) but it's never a document that people read through before they push something to production... So maybe we should do a better job explaining the whole production-related issues.
+**Jaana Dogan:** \[32:23\] Yeah, I altered a page on the [golang.org/doc/diagnostics](https://golang.org/doc/diagnostics.html) but it's never a document that people read through before they push something to production... So maybe we should do a better job explaining the whole production-related issues.
 
 **Dave Blakey:** Often a popular package does a better job of getting a readme across than a page...
 
@@ -164,7 +164,7 @@ I think in 2.0 there's a topic around this, that they're thinking about deprecat
 
 **Dave Blakey:** Yeah, we are by no means the authority on collecting telemetry information. We focus on a very specific sector of application telemetry, and then we process it and report on it all ourselves. But in my personal development experience - not from a large-scale project or anything like that - I've found that it's better to fire and forget telemetry than to expose a telemetry collection point. I don't know if that's really where the standard will go... Maybe people will point to this podcast as where I was wrong about what the future of telemetry in Go would be... But you know, exposing a bunch of almost what I would call debug stuff as the solution to telemetry is a bit of a slippery slope... As opposed to saying "This is a metric that we care about for reason X, and we're gonna send it to location Y, and in the future we'll use it for various things." Because one of the biggest parts where you start to learn what telemetry you need and how to use your telemetry is when it actually either helps you solve a problem or doesn't.
 
-\[00:36:14.09\] If you've got an issue and you're able to see where that issue is through your telemetry, then you learn something... And especially if you cannot see where it is through your telemetry, you learn something. We've had that, where we've said -- you know, we've had this performance problem that we've ultimately found, and our telemetry didn't find that, and so we've added more tracking in that piece of the code.
+\[36:14\] If you've got an issue and you're able to see where that issue is through your telemetry, then you learn something... And especially if you cannot see where it is through your telemetry, you learn something. We've had that, where we've said -- you know, we've had this performance problem that we've ultimately found, and our telemetry didn't find that, and so we've added more tracking in that piece of the code.
 
 I think it's almost just like a dump out on some HTTP GET that people need to then collect data and pretend to process it in place... It probably doesn't actually solve the developer problem of making sure that the things get used... But that could just be my personal opinion.
 
@@ -180,7 +180,7 @@ But if you have a globally available collector, pushing is much easier, because 
 
 Yeah, if that answers your question -- I think our approach has always been to push the stuff out where possible, and to let the app decide what's important and what's not, and how it wants to deliver those messages.
 
-**Jaana Dogan:** \[00:40:12.24\] Since you're talking about the UDP, do you have an agent that collects...? What is the collection model like?
+**Jaana Dogan:** \[40:12\] Since you're talking about the UDP, do you have an agent that collects...? What is the collection model like?
 
 **Dave Blakey:** For us -- so we've got two sides of telemetry, really... We've got our product, which collects specific telemetry for our [ADCs](https://en.wikipedia.org/wiki/Application_delivery_controller) and load balancers and things like that... But then more so I'm talking about for our own internal use, like for our code, and our hosting systems, and all that kind of stuff... And for that, we just have our own -- again, that DevOps, hacked everything together... But we have our own collector thing in the middle, that does a whole bunch of various things with that data. And the reason that that happened was because we use it for some of our actual applications, our clients' telemetry as well, specifically for anomaly detection in it... So it does all of that stuff for us.
 
@@ -196,7 +196,7 @@ Generally, we've tried to be as open as possible, especially when we deal with l
 
 **Dave Blakey:** I think that's 100% true. When you look at the more traditional model, you've also got multiple stakeholders, who only want certain pieces of the data on their certain platforms. You've got IT ops and you've got security, and they can run totally separately... So I think that it's critical. The way we have wound up having to do that is by building it ourselves.
 
-**Break:** \[00:44:15.08\]
+**Break:** \[44:15\]
 
 **Jon Calhoun:** So you talked about on the ADC side of things you're collecting certain telemetry... Can you share some of the more important ones you feel like you guys are collecting, and where customers have found them to be useful?
 
@@ -210,7 +210,7 @@ So all of that type of stuff is your traditional things that you expect, like wh
 
 But by the same token, we will also check for variances between two things. For example, if the average user sends far more GET requests than POST requests, but one user is sending far more POST requests than GET requests - is this a security issue? Are they trying to brute force a password, is this something weird? Is a specific user getting way more 404 errors than everyone else? Why is that? It's probably some script, or something. So telemetry is often a combination of two values, like "What is this value versus that value?" as opposed to just a single value. So that's a lot of the stuff we focus on.
 
-\[00:48:09.09\] The client connects to us, we connect to the web servers and we send their data back. That's our model... So everything in that communication chain is the telemetry that we care a lot about, because it could mean that there's a problem with the client servers, it could mean that there's latency or issues that are affecting the user, or it could mean a security issue... So that's the type of stuff we need to obviously track for scaling up and scaling down, as well as for alerting the user to problems with their service.
+\[48:09\] The client connects to us, we connect to the web servers and we send their data back. That's our model... So everything in that communication chain is the telemetry that we care a lot about, because it could mean that there's a problem with the client servers, it could mean that there's latency or issues that are affecting the user, or it could mean a security issue... So that's the type of stuff we need to obviously track for scaling up and scaling down, as well as for alerting the user to problems with their service.
 
 **Jaana Dogan:** Yeah, it sounds like a very difficult field, especially given the trends of traffic can change, the usage can change... You have to incorporate all of that in order to actually be confident about the detection, right?
 
@@ -226,7 +226,7 @@ I remember one of the ones that stuck out to me was I was helping with Google Co
 
 If you have a timed event, and that sort of traffic spikes, then it becomes very challenging... And I think that's probably also -- you see video games and stuff like that that have a launch date, and I think they have to deal with that type of problem pretty heavily, where it's hard to detect an anomaly when everything just skyrockets all of a sudden.
 
-**Dave Blakey:** \[00:51:56.10\] Yeah, exactly. But a lot of the time an anomaly can be informative. I think that's also up to the team that gets them, to make sure that they do the right thing. If our website gets ten times the views after this podcast, I'm happy to be told. It's not gonna go offline... But you know, sometimes informative telemetry is not necessarily a problem, but yeah, it can reach the point of spam, which then people start to ignore, which is a big problem... But you know, it's a balancing act. With alerts and with anomaly detection it's all about balancing it; you wanna make sure you pick stuff up.
+**Dave Blakey:** \[51:56\] Yeah, exactly. But a lot of the time an anomaly can be informative. I think that's also up to the team that gets them, to make sure that they do the right thing. If our website gets ten times the views after this podcast, I'm happy to be told. It's not gonna go offline... But you know, sometimes informative telemetry is not necessarily a problem, but yeah, it can reach the point of spam, which then people start to ignore, which is a big problem... But you know, it's a balancing act. With alerts and with anomaly detection it's all about balancing it; you wanna make sure you pick stuff up.
 
 The problem at our scale becomes so vast, because -- let's use a use case. Let's say a banking client of ours - they might have systems in 20 different countries. Now, how many failed logins per second do you think they get? It could be 500, it could be 1,000 that they get per second... So if they've got 10 more, or 20 more, or 50 more, it might not detect an anomaly. But what if they get 50 more in all of their locations around the world, all from the same country? Is that a problem? Probably it is. So sometimes -- that's the funny thing about telemetry, people tend to zoom all the way in.
 
@@ -242,7 +242,7 @@ We were talking about trace IDEs, and "What is the individual request?" A lot of
 
 **Johnny Boursiquot:** Okay. One last question for you before we go to our next segment... Based on what you're seeing so far and how your customers are, or what you're seeing in terms of the data that you can glean from how your customers use your product, are most of the things that trigger something to look at, something that's important to look at, of the anomalies - are most of those triggered from internal sources, meaning that the developer is pushing new code, making changes that's causing issues, or are those coming from the outside? Maybe there's somebody who's trying to brute force their way in, or maybe the company just got listed on some popular website or something, and maybe there's a surge in traffic. Generally speaking, where are the biggest sources of problems?
 
-**Dave Blakey:** \[00:56:25.14\] Generally speaking -- the answer I wanna give you as well is "Well, it's both." But let's pin me down for an actual answer...
+**Dave Blakey:** \[56:25\] Generally speaking -- the answer I wanna give you as well is "Well, it's both." But let's pin me down for an actual answer...
 
 **Johnny Boursiquot:** \[laughs\]
 
@@ -258,7 +258,7 @@ I think that's the beauty of telemetry, is understanding those unknown changes. 
 
 **Jon Calhoun:** Sure. Mat started this segment called Unpopular Opinion... And I think right about here they put in some little riff...
 
-**Jingle:** \[00:59:10.07\] to \[00:59:27.18\]
+**Jingle:** \[59:10\] to \[59:27\]
 
 **Jon Calhoun:** Basically, the idea is we want you to share an unpopular opinion you have, preferrably in tech, but it doesn't necessarily have to be... With the goal being to just share with listeners that not everybody agrees with the really popular opinions, everybody has different things that they disagree with, and wanna share.
 

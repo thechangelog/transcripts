@@ -20,7 +20,7 @@
 
 **Mat Ryer:** Well, Pace is a project management tool, and we're trying to do it in a very minimalist user experience... So the user experience was kind of vital, really, for us. We wanted to make sure it was a beautiful experience, and also easy to use and hard to abuse, and these kinds of things. So we knew that we couldn't just render static things on the server and serve them to the frontend. We wanted them to be more immediate than that, and we wanted tighter feedback loops for users and things. So we knew there was gonna be some rich element to it in the frontend... And we started looking at Vue, didn't we, David?
 
-**David Hernandez:** \[00:04:16.05\] Yeah, at the beginning we were doing a little prototype with Vue. We'd been doing it for a while, like more than 2-3 weeks doing it, isn't it? But at some point we didn't enjoy it. It was a little bit cumbersome. It basically didn't feel right. We liked the component side, the thing that React started, with three layers in the same file, like the JavaScript, the HTML and the CSS in the same place... But dependencies and state management was a problem. We basically didn't enjoy it, we didn't feel it was right; we were struggling, the learning curve was a little bit high... So we were evaluating new things. I don't know how Svelte came in, to be honest. It was a tweet, or we just googled it, or whatever, but we just said "Oh, we should try it."
+**David Hernandez:** \[04:16\] Yeah, at the beginning we were doing a little prototype with Vue. We'd been doing it for a while, like more than 2-3 weeks doing it, isn't it? But at some point we didn't enjoy it. It was a little bit cumbersome. It basically didn't feel right. We liked the component side, the thing that React started, with three layers in the same file, like the JavaScript, the HTML and the CSS in the same place... But dependencies and state management was a problem. We basically didn't enjoy it, we didn't feel it was right; we were struggling, the learning curve was a little bit high... So we were evaluating new things. I don't know how Svelte came in, to be honest. It was a tweet, or we just googled it, or whatever, but we just said "Oh, we should try it."
 
 **Jerod Santo:** Yeah. Mat, do you remember how Svelte came in? Was it a tweet, was it a...?
 
@@ -42,7 +42,7 @@ Svelte would be a challenge, or potentially a tough sell inside of a larger grou
 
 **David Hernandez:** Yeah, we didn't try to migrate, we just started again from scratch. It was like "Oh, these three weeks in the frontend..." It wasn't worth it; we just started again from scratch. And Svelte passed really quickly the tests. The two-minute or five-minute test that you \[unintelligible 00:08:03.28\], see if you'd be able to do something useful with it... Svelte passed it very quickly. So yeah, up to that, we fell in love with the framework. We really like it right now.
 
-**Jerod Santo:** \[00:08:16.12\] So how would you describe Pace in terms of an application? Is it an API with a single-page app? Is it server-rendered web pages that you're sprinkling interaction on top? How does that actually all fit together?
+**Jerod Santo:** \[08:16\] So how would you describe Pace in terms of an application? Is it an API with a single-page app? Is it server-rendered web pages that you're sprinkling interaction on top? How does that actually all fit together?
 
 **David Hernandez:** Okay, so it's a single-page application on top of our -- it's not a REST API, it's a Go backend in App Engine. We used Google Cloud for most of the infrastructure. We have to communicate server-side/frontend-side. It's \[unintelligible 00:08:44.00\] it's called Oto. It's a way that we can define the interfaces in Go, and generate the JavaScript client or other types of clients. We have the JavaScript client and the Go client automatically generated, so we can just connect with any kind of language, but at the moment we only have that.
 
@@ -60,7 +60,7 @@ So literally, as David said, they're Go interfaces, which are strongly-typed int
 
 **Mat Ryer:** Yeah, it's nice... But again, that's another decision you probably wouldn't get to make if you were in a team situation, because sometimes we'd reach a barrier; we couldn't do something, and we'd have to go and add a capability to this API layer, the Oto project. But that's okay for us to do that, since we were not only just two of us, but we were also building the entire stack ourselves.
 
-**Jerod Santo:** \[00:12:07.12\] Right. So that generated JavaScript code - do you go ahead and just check that into your repo and it just lives there, or is it generated on the fly during a deploy? How does that work?
+**Jerod Santo:** \[12:07\] Right. So that generated JavaScript code - do you go ahead and just check that into your repo and it just lives there, or is it generated on the fly during a deploy? How does that work?
 
 **Mat Ryer:** I think it might be both. We do check it in... Do we, David? I don't remember. I know sometimes we do...
 
@@ -90,7 +90,7 @@ So for us, tech that we enjoy and that we're familiar with - all those things pl
 
 **Mat Ryer:** Essentially, it's just plain old JavaScript. It uses the fetch API to make calls. It's just HTTP. And it is actually at the moment HTTP in JSON, but it's just a case of tweaking the templates to change that even into something else. So if we wanted to get those messages even smaller, we can do that in the Oto project, and we just then run the latest version we'll generate, and we won't have to touch any of our other code. It'll just work.
 
-**Jerod Santo:** \[00:16:00.03\] Is this a pattern that you two have done previously, maybe at Machine Box or elsewhere? Because you would think in terms of familiarity, something that's more familiar to more people, like the GraphQL API, for example, might be just a simpler choice. You don't have to make all these decisions. But if you've already done it before...
+**Jerod Santo:** \[16:00\] Is this a pattern that you two have done previously, maybe at Machine Box or elsewhere? Because you would think in terms of familiarity, something that's more familiar to more people, like the GraphQL API, for example, might be just a simpler choice. You don't have to make all these decisions. But if you've already done it before...
 
 **Mat Ryer:** Yeah, it might be more about control... Because that's the thing - we want to make this thing do exactly what we need it to do... So this is a way to do that, if you write it yourself. I don't necessarily recommend this, actually, as a strategy for teams, or anything.
 
@@ -116,7 +116,7 @@ So for us, tech that we enjoy and that we're familiar with - all those things pl
 
 **Mat Ryer:** He did ask, and they said no.
 
-**Break:** \[00:17:21.03\]
+**Break:** \[17:21\]
 
 **Jerod Santo:** I would love to hear the user experience of building Pace with Svelte. Give us a feature that's built out that you've done, what it looks like in Svelte. Maybe as a developer and then as an end user of course we have the website; maybe people can go to the website and see that feature... But a lot of these tools is about developer experience, and you want it to stay minimal, you want it to stay tight and lean, and that's what was attractive. Of course, compile-time stuff is a huge attractor for performance; another reason was Svelte simplicity... And you seem to like it, because you're here to talk about it, so tell us what it feels like, what's a practical use that you're doing.
 
@@ -128,7 +128,7 @@ So for us, tech that we enjoy and that we're familiar with - all those things pl
 
 **Jerod Santo:** Sure.
 
-**Mat Ryer:** \[00:19:45.26\] But essentially, we built a control which -- you give it a set of data, an array of data, you give it also a grouping function, and then it essentially calls that function for each item, and if the group is different to the previous one, then it renders the group header, and if not, it doesn't. So it uses what they call slots in Svelte, which is like passing little templates, little bits of markup into a component. So you just say Grouper -- it looks like a normal HTML element; you pass the data in as attributes, and then you create a slot for the group heading, and a slot for each item, and then that's it. It will render that and group it up for you. And if you wanna change how things are grouped, it's just a case of changing the little Grouper function, which is really simple - it takes in the item, and you return the value, wherever that group value is. And it's kind of as simple as that.
+**Mat Ryer:** \[19:45\] But essentially, we built a control which -- you give it a set of data, an array of data, you give it also a grouping function, and then it essentially calls that function for each item, and if the group is different to the previous one, then it renders the group header, and if not, it doesn't. So it uses what they call slots in Svelte, which is like passing little templates, little bits of markup into a component. So you just say Grouper -- it looks like a normal HTML element; you pass the data in as attributes, and then you create a slot for the group heading, and a slot for each item, and then that's it. It will render that and group it up for you. And if you wanna change how things are grouped, it's just a case of changing the little Grouper function, which is really simple - it takes in the item, and you return the value, wherever that group value is. And it's kind of as simple as that.
 
 That served us quite a few times, actually, in Pace so far... So that was a nice one. Can you think of any others, David?
 
@@ -156,7 +156,7 @@ That served us quite a few times, actually, in Pace so far... So that was a nice
 
 **Mat Ryer:** That's alright. I know, I did. Yeah, so it's nice that the setup and the teardown is all in one place. If you think about code maintainability, having -- a bit like the reason why we like components... It is you get to bundle things that are meaningful together. So in the same way, yeah, you have a function - it returns the cleanup. So everything's in one place, and if you forget to clean something up, it can kind of see it, because it's in the same file. It's right there, actually... So we really like the way they've done actions, and it speaks, again, to the minimalist design that Svelte has, which really appeals.
 
-**Jerod Santo:** \[00:24:24.26\] What about downsides? I'm sure it's not all puppies and rainbows and unicorns. Have you hit any rough edges, bugs, things that are missing, that you expect to be there? Anything that you would not like about it?
+**Jerod Santo:** \[24:24\] What about downsides? I'm sure it's not all puppies and rainbows and unicorns. Have you hit any rough edges, bugs, things that are missing, that you expect to be there? Anything that you would not like about it?
 
 **Mat Ryer:** There is a concept of kind of "on mount" and "on destroy", and there was some weirdness around when you could call "on destroy." And if you called it at the wrong time, then things weren't getting called properly. I actually think they got fixed. So we updated Svelte, we updated our dependency, and I think it fixed it... But also, because we're using client-side routing - which, by the way, is how we say that word in British English...
 
@@ -190,7 +190,7 @@ That served us quite a few times, actually, in Pace so far... So that was a nice
 
 **David Hernandez:** But pretty much we're happy users, isn't it? We didn't interact a lot. Not at the level that we have in the Go community, where we are more active. Here it's just good users, more than active contributors.
 
-**Mat Ryer:** \[00:27:44.19\] Yeah. There's a thing that we grew to love, which is definitely weird about Svelte... Which is this kind of -- it's a dollar syntax for making something reactive. So I think it's technically a label in JavaScript. So you do $: and that is valid. JavaScript - you're just defining a label, I think, called $... But in Svelte's world, that means something, and essentially, you can write a line of code or a block of code, and any variables that are mentioned in that code, if they change, this will get basically reevaluated. So that turns out to be a very nice way of describing almost in a declarative way what you want to happen... Because of the responsive nature of it, it feels a little bit magical, but yeah, it was something that initially -- because we sort of didn't want there to be lots of new syntax, or anything like that to learn. And this one, I thought "Hm, I don't know about this", initially. And they even said that on the side; they say "We know this is weird. Bear with us, you're gonna love it." And we do. They're right.
+**Mat Ryer:** \[27:44\] Yeah. There's a thing that we grew to love, which is definitely weird about Svelte... Which is this kind of -- it's a dollar syntax for making something reactive. So I think it's technically a label in JavaScript. So you do $: and that is valid. JavaScript - you're just defining a label, I think, called $... But in Svelte's world, that means something, and essentially, you can write a line of code or a block of code, and any variables that are mentioned in that code, if they change, this will get basically reevaluated. So that turns out to be a very nice way of describing almost in a declarative way what you want to happen... Because of the responsive nature of it, it feels a little bit magical, but yeah, it was something that initially -- because we sort of didn't want there to be lots of new syntax, or anything like that to learn. And this one, I thought "Hm, I don't know about this", initially. And they even said that on the side; they say "We know this is weird. Bear with us, you're gonna love it." And we do. They're right.
 
 **David Hernandez:** Yeah, it takes a while to learn it, and it takes a while to make your mind, "Oh, I can use the dollar thing." Once you get it, it turns out to be pretty good. I quite like it.
 
@@ -198,7 +198,7 @@ That served us quite a few times, actually, in Pace so far... So that was a nice
 
 **David Hernandez:** At the beginning I was like "Oh, let's not use it for a while. Maybe we don't need it." But no, we were wrong on that one, and it deserves a little bit of a learning curve in that sense. For the rest of the framework - it's pretty easy to learn, and I quite enjoy learning it.
 
-**Break:** \[00:29:32.13\]
+**Break:** \[29:32\]
 
 **Jerod Santo:** So let's talk about Pace itself a little bit. This is not your first rodeo... You guys built and sold Machine Box, so you're successful entrepreneurs, so they say... And here you are with Pace; it's a project management tool (?), entering a market built with the JIRAs, the Trellos, the Pivotal Trackers... What else? Microsoft--
 
@@ -226,7 +226,7 @@ That served us quite a few times, actually, in Pace so far... So that was a nice
 
 **David Hernandez:** \[laughs\]
 
-**Jerod Santo:** \[00:32:03.27\] So I've already spilled the beans, I've named like seven of them, so I guess we can't play. Maybe next time around. But the point is it's a crowded market; lots of people trying to solve this problem. Basecamp's another one. Project management tools, communication tools... Why would you pick this space, and then how are you actually trying to carve out a niche and make Pace stand out?
+**Jerod Santo:** \[32:03\] So I've already spilled the beans, I've named like seven of them, so I guess we can't play. Maybe next time around. But the point is it's a crowded market; lots of people trying to solve this problem. Basecamp's another one. Project management tools, communication tools... Why would you pick this space, and then how are you actually trying to carve out a niche and make Pace stand out?
 
 **Mat Ryer:** Yes. Well, like with Machine Box, it comes from solving our own pain... And I always think, whenever I've worked on something where I really understand the pain myself, the results are so much better. Whenever we try and imagine something, that we're gonna build a solution to some problem that we're sort of imagining or we don't really have personal experience with, you make sometimes very fundamental and sometimes quite silly mistakes or assumptions, and it takes a lot of work to test and retest assumptions, and all this kind of thing. So we definitely got a little bit addicted to this idea of solving your own real personal pain... And we were using JIRA, which is extremely powerful -- it's a platform, really, for this kind of thing.
 
@@ -240,7 +240,7 @@ So we've reached a point that the communication is also as important as the proj
 
 It turns out that from around a couple of months we've only been using Pace, we don't use Slack anymore, absolutely we don't use JIRA, we don't have to, nobody tries to make us to use JIRA, or any other project management tool... So we built Pace with Pace, and that is even a good motto, isn't it?
 
-**Jerod Santo:** \[00:36:16.07\] Right. So what was the core functionality of Pace? It seems like there's this concept of "The medium is the message", and we think of certain applications... Trello is a list of lists, and so cards are the thing; JIRA - I feel like the ticket, or whatever that thing is called, is like the center of the world... And you kind of get boxed into these concepts. With Slack it's really like the chat, it's the message, and it's a stream of messages... So you're trying to blend worlds, but keep it simple, you're trying to provide some structure for project management, but you're also trying to provide some sort of just discussions, and commentary, which is a place that GitHub is also playing in that world as well, with their new Discussions stuff, which is kind of like Issues, but not issues... Anyways, what's Pace's core functionality? Is it a list of things, is it a conversation? What is it?
+**Jerod Santo:** \[36:16\] Right. So what was the core functionality of Pace? It seems like there's this concept of "The medium is the message", and we think of certain applications... Trello is a list of lists, and so cards are the thing; JIRA - I feel like the ticket, or whatever that thing is called, is like the center of the world... And you kind of get boxed into these concepts. With Slack it's really like the chat, it's the message, and it's a stream of messages... So you're trying to blend worlds, but keep it simple, you're trying to provide some structure for project management, but you're also trying to provide some sort of just discussions, and commentary, which is a place that GitHub is also playing in that world as well, with their new Discussions stuff, which is kind of like Issues, but not issues... Anyways, what's Pace's core functionality? Is it a list of things, is it a conversation? What is it?
 
 **Mat Ryer:** Well, it does have the concept of a piece of work... I mean, some of these things that we've seen modeled elsewhere are modeled like that for quite good reasons. We were very open when we started. We would just allow anything to happen. We weren't strict with ourselves as we were exploring it... Part of why we wanted to quickly get into rapid prototyping and building things is because that process is how we learn, really, what we're doing.
 
@@ -252,7 +252,7 @@ So you do have this concept of cards - they're the tasks that you do - and we al
 
 One example is you can't assign work to other people in Pace, you can only take work. So that is a big shift, because often you'll have situations where people are just assigned work by somebody else, and it becomes somebody's job really to dish work out. But that turns out to not be a very efficient way of sharing our work, because nobody knows better than you the things that you're interested in, the things that you're good at, the things you're gonna be able to do a good job on... So this shift - it's probably not gonna change things too much, but it's a slight shift in the balance of power, and it empowers the team to pool the work, rather than it being pushed on them. Even just psychologically, that has quite a significant different feeling to it. You'll still have a manager say "Oh, I think you should do this. Is that okay? Please assign it to yourself." "Oh yeah, okay." You're then doing it with consent, with kind of collaboration. It's less command and control.
 
-\[00:39:43.00\] So there's a few little quirks of it like that that are bringing in really our years of experience of how we've successfully run teams, and it encodes it into the tooling, so it's kind of a no-brainer. You don't really have to be thinking "Who's best to do this work? I'm gonna assign it to somebody." And there's no worse feeling for a developer when they're assigned a task that they have no idea about and they feel completely out of their depth, especially when that happens to more junior team members.
+\[39:43\] So there's a few little quirks of it like that that are bringing in really our years of experience of how we've successfully run teams, and it encodes it into the tooling, so it's kind of a no-brainer. You don't really have to be thinking "Who's best to do this work? I'm gonna assign it to somebody." And there's no worse feeling for a developer when they're assigned a task that they have no idea about and they feel completely out of their depth, especially when that happens to more junior team members.
 
 So instead of that, just being pushy, and a very impersonal, just "Assigned. This work is just assigned to you", it becomes a conversation. And when you're comfortable then, you go and accept, "I'll assign this to me", and that has a very different feeling to it. I've seen that be very successful. So there's a few little quirks of the app like that, which we hope will find and resonate with people; find the right people where that works.
 
@@ -272,7 +272,7 @@ And there's a lot of times where it's absolutely death, and that thing was not n
 
 **David Hernandez:** Yeah, that's a great question. Yeah, if I need Mat, I call him; phone, or -- I never called you by phone probably, Mat... I never need you.
 
-**Mat Ryer:** \[00:44:07.09\] I can't understand you.
+**Mat Ryer:** \[44:07\] I can't understand you.
 
 **Jerod Santo:** \[laughs\]
 
@@ -310,7 +310,7 @@ I don't think it solves it. So it is gonna be a bit of a niche product, we're co
 
 If we're adding features, it's gonna be to make the developers' experience better, or that software team members' experience better... And that's it. We don't want everyone to use it, we don't want to be JIRA. We're gonna be small, and we're sort of embracing that.
 
-**Jerod Santo:** \[00:47:53.01\] One last question and then we'll call it a day... The name makes me think that it's about speed and velocity, and it makes me think of things like XP and Scrum and points and estimates, and tracking, or speed, like Pivotal Tracker style... Is that something you're after, or do you eschew that side and Pace is just like a good name?
+**Jerod Santo:** \[47:53\] One last question and then we'll call it a day... The name makes me think that it's about speed and velocity, and it makes me think of things like XP and Scrum and points and estimates, and tracking, or speed, like Pivotal Tracker style... Is that something you're after, or do you eschew that side and Pace is just like a good name?
 
 **Mat Ryer:** No, actually sometimes that is the right speed for what you're doing. Sometimes going fast is the right speed. Pace is talking about that there is the right pace for something; sometimes going slow is the right speed to develop things.
 
@@ -362,7 +362,7 @@ Check out Go Time if you're crazy... What else? Guys, I appreciate you coming on
 
 **Mat Ryer:** Put it in twice.
 
-**Outro:** \[00:52:37.23\]
+**Outro:** \[52:37\]
 
 **Jerod Santo:** Okay, should we get back into the nitty-gritty?
 

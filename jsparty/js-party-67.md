@@ -26,7 +26,7 @@ But before we get to that, I wanna rant and rave a little bit about CSS-Tricks a
 
 **Suz Hinton:** Oh yeah, I still sometimes - not even sometimes... I still often use code examples from CSS-Tricks to pull something off, because I'm not a full-time front-end developer anymore, and so while I obviously remember most of what I've been doing for the 12 years that I was a front-end developer, I've totally forgotten certain things, like "How do I set up keyframe animations again?" and "How do I get the CSS to behave in this way?" I am constantly being thrown into CSS-Tricks from Google when that happens, and I'm so appreciative of that.
 
-**Chris Coyier:** \[00:03:42.17\] I mean, me too. I land on my own site all the time to grab stuff, because there's no reason that you'd memorize exactly what -- keyframes is a pretty good example, right? Because you're like "Oh, what is it - is it @animation?" Or "Oh no, that's the other property that you used to call it once you actually have written the keyframes, which the syntax is @keyframes", and then you're like "Is it 0% and then it has sub-brackets? That's weird...", or whatever... It's an easy kind of thing to forget... And why remember it? It doesn't matter. It's more important that your brain remembers that it exists and what it's for, than it does what the syntax is, so...
+**Chris Coyier:** \[03:42\] I mean, me too. I land on my own site all the time to grab stuff, because there's no reason that you'd memorize exactly what -- keyframes is a pretty good example, right? Because you're like "Oh, what is it - is it @animation?" Or "Oh no, that's the other property that you used to call it once you actually have written the keyframes, which the syntax is @keyframes", and then you're like "Is it 0% and then it has sub-brackets? That's weird...", or whatever... It's an easy kind of thing to forget... And why remember it? It doesn't matter. It's more important that your brain remembers that it exists and what it's for, than it does what the syntax is, so...
 
 **Suz Hinton:** I'm more proud of that. I'm proud of going "Well, I don't have to use JavaScript to animate this. I know I can do this with keyframes in CSS", which is actually very relevant to this podcast episode, but I digress... So yeah, I'm just so appreciative of CSS-Tricks. I've been using it for years and years and years, ever since it's existed. It's really cool to have yourself on the show to comment on that.
 
@@ -52,7 +52,7 @@ We've celebrated our ten years last year... If I asked me starting that site out
 
 Vacations is being really a clutch thing for the -- I don't know, it feels like there's two different kinds of burnout; there's real, hardcore "I'm flipping done" burnout, and then there's "I'm feeling burned out, I need a break", and then I sit on a beach and read a book and I come back feeling a lot better about the world. A beach doesn't help version one, usually. You might come back even more done, done... It usually works for me.
 
-**Jerod Santo:** \[00:08:14.12\] One last question before we move on to the great divide... If you were gonna start CSS-Tricks over today, what would it look like? Would it look as it does right now?
+**Jerod Santo:** \[08:14\] One last question before we move on to the great divide... If you were gonna start CSS-Tricks over today, what would it look like? Would it look as it does right now?
 
 **Chris Coyier:** Gosh, what a wonderful question. It's hard to think about, because I feel like we've made some good choices with the tech and the approach of what we did. It's a WordPress site, so I've kind of long been a defender of WordPress, largely for this reason - I've been so productive with it, and I feel like it's been a good match technologically for what I'm doing as a publication and kind of a CMS around CSS-Tricks, that I don't know that if I could start over today that I would pick something else, that I would necessarily go with a static site generator, or staff up earlier and harder than I did before, or anything. It's not like "I did everything perfectly! I'm perfect Mr. Perfect!", but I don't have any solid, super-gnarly regrets with it necessarily. It was okay...
 
@@ -74,7 +74,7 @@ Vacations is being really a clutch thing for the -- I don't know, it feels like 
 
 **Chris Coyier:** Yeah... I just think it's just kind of be talky about it is maybe the better version than leading. Just be like, "I don't know, we went with this FOR US." Sometimes when you talk about technological choices, and considering them and all that, always try to provide as much context as you possibly can... Like, "This is what we're choosing, for these reasons. This is what we talked about." Or "We punted on making a decision at all, because we just didn't even have time to research it properly... So we kind of chose what was already there, because it just was already there." As much context as you can give is nice, you know?
 
-**Jerod Santo:** \[00:12:20.13\] Suz, I'm curious of your thoughts on this, because in the hardware space, in the streaming space a lot of people are looking to you for certain - I don't know if leadership is the right term there - inspiration they find; they look for you for more knowledge, more details. Do you feel like, now that you have this respect, especially with Twitch streaming, but also with all your hobbies and the stuff that you're doing, and as an advocate for Azure and all these things, do you feel the pressure to perform in the way that you haven't in the past?
+**Jerod Santo:** \[12:20\] Suz, I'm curious of your thoughts on this, because in the hardware space, in the streaming space a lot of people are looking to you for certain - I don't know if leadership is the right term there - inspiration they find; they look for you for more knowledge, more details. Do you feel like, now that you have this respect, especially with Twitch streaming, but also with all your hobbies and the stuff that you're doing, and as an advocate for Azure and all these things, do you feel the pressure to perform in the way that you haven't in the past?
 
 **Suz Hinton:** I absolutely do, yeah. It's really good that you bring that up. Even when I wrote that article about how I Twitch-stream, I actually went back and fixed a bunch of things that were totally okay for me, but I felt that people would pick on, if I actually said "Oh, this is what I'm doing", and it's 90% of where I need it to be, so that's why I haven't really touched it and made it perfect.
 
@@ -100,7 +100,7 @@ I think that sometimes that pressure is good, because it means that, you know, i
 
 **Suz Hinton:** I know that Sarah Drasner calls it scrollytelling, which I think is cool... \[laughter\]
 
-**Jerod Santo:** \[00:15:56.10\] A beautiful article... I'm curious if this is something you wanna do more on, is this something that --
+**Jerod Santo:** \[15:56\] A beautiful article... I'm curious if this is something you wanna do more on, is this something that --
 
 **Chris Coyier:** Yeah, I think we have another one in the works...
 
@@ -128,7 +128,7 @@ Most of the effort was that I really wanna hopefully make this clear that this i
 
 Unfortunately, the worst criticism I got for it felt like what I was not hoping for, which is just like "You're just stirring up controversy where there is none" kind of thing. What do you even mean...? I don't even feel like this is particularly controversial, really... And it's not just me saying it; look at all the names in this article. We didn't even say what it was.
 
-**Break:** \[00:19:36.05\]
+**Break:** \[19:36\]
 
 **Jerod Santo:** So we've been discussing this impactful article you've put all this effort in, called The Great Divide. Link in the show notes, of course. If you haven't gone to the website and read it - maybe you read it in your RSS reader like I did - definitely check it out, because it's great-looking and Chris put a lot of effort into this... We haven't talked about the content very much; I do wanna say that we did an entire show on it a couple episodes back, where you can hear Suz, Kball and Nick's thoughts on this. Episode 61, we'll link that also in the show notes.
 
@@ -150,7 +150,7 @@ So I try not to be old-guardy, in a way. I feel pretty new school with my unders
 
 **Jerod Santo:** One thing I wanted to bring up with regard to the divides - it's interesting to me, I guess, from a cultural perspective, or I don't know, looking at us as people... Because there's been divides in software developments all the way back, and these are prominent divides; even the idea with front-end and back-end, the idea of designer and developer, the idea of -- heck, Emacs vs Vim, the idea of functional programmers versus object-oriented programmers... There's this tribalism, there's a need to identify with a certain group, and that's really deep in our culture, and something that we do try to bring people across those different silos and cross-pollinate ideas; that's kind of some of our goals with what we do here at Changelog, is to really be polyglot and to break down those barriers...
 
-**Chris Coyier:** \[00:24:07.25\] Great.
+**Chris Coyier:** \[24:07\] Great.
 
 **Jerod Santo:** But never before I think have we seen it where the people who are dividing have the same title.
 
@@ -178,7 +178,7 @@ Or I'm hiring somebody to work on my VuePress site, that uses styled modules, or
 
 **Jerod Santo:** Yeah. So that's one of the talking points that I have in our notes around -- because when you start thinking about solutions... I love the way you say "I don't necessarily have a point. It's just an observation." These are not simple things; like you said, "I'm gonna go take a shower (where we all think best, of course) and when I get out, I'm gonna have a solution" - that's not the way it's gonna work. But I was thinking about codifying or formalizing share terminology, which is a huge effort, because you have to share that terminology, which is one of the problems... You know, five people have terms, and they mean six different things, because one person forgot what theirs meant before, and they changed it. That's the way we actually are.
 
-\[00:28:12.22\] But is that effort - specifically on the hiring front, and around the ability to categorize more effectively for hiring... I think if it's not for hiring, I don't think the categorization really matters all that much, myself; I've always been of the idea that we should be "bread-first vs depth-first", and I don't really like to put people into boxes, but for hiring it's kind of a necessary thing... Is that a worthy effort? Even in my notes I say "Is that a lost cause?" Because it just seems like, "How do you even get that done in a practical sense, without some sort of W3C consortium for developer titles?"
+\[28:12\] But is that effort - specifically on the hiring front, and around the ability to categorize more effectively for hiring... I think if it's not for hiring, I don't think the categorization really matters all that much, myself; I've always been of the idea that we should be "bread-first vs depth-first", and I don't really like to put people into boxes, but for hiring it's kind of a necessary thing... Is that a worthy effort? Even in my notes I say "Is that a lost cause?" Because it just seems like, "How do you even get that done in a practical sense, without some sort of W3C consortium for developer titles?"
 
 **Chris Coyier:** Yeah, for the terms it seems to me like it'd be cool to see a job board that didn't even allow job titles on it. You've got a paragraph instead of a title -- I mean, this will never happen, so I hate to throw out solutions that don't have it... \[laughter\] But you just have to take one paragraph to describe what the heck you need! Because what I find so funny about this is at companies - somebody there knows what you need. It's probably another developer. But for whatever reason, at some size of company, that person isn't involved anymore, and it falls to HR, or something. That's another thing that you can verify in 30 seconds. Go to some of these sites, click on the front-end developer role and look at the job description; it's probably gonna just suck! I hate to say it, but... It'll just be full of jargon, and weird requirements, and it'll mention Microsoft Word for some reason... It's so easy to find these terrible job postings.
 
@@ -196,7 +196,7 @@ But I think there's a lot of people who are even applying for these jobs, they'r
 
 **Suz Hinton:** Yeah. I've worked on teams where someone has been told that they're working on X, and then things change between when they're hired and when they actually start, and that's either not communicated to them or the job description was so generic that when people interviewed them, the developers technically interviewing them weren't briefed correctly on exactly what they're going to be doing, whether they're going to be working on the platform team, or something like that... And it seems like unbelievable, but I have actually been working at companies and seeing that happen, and then everyone is disappointed. That person is stressed out, because all of a sudden--
 
-**Chris Coyier:** \[00:31:50.29\] Right, because you can't just piece out -- look at all that work you just did; it's not like you're gonna get some great severance package if you peace out in week one...
+**Chris Coyier:** \[31:50\] Right, because you can't just piece out -- look at all that work you just did; it's not like you're gonna get some great severance package if you peace out in week one...
 
 **Suz Hinton:** \[laughs\] Yeah, yeah. I think that's a problem. I really do love your idea of just sit down and write something, such as "We need somebody who's really good at accessibility, but can also have enough chops on this other technology in order to get us over the line and really innovate in this area." Those kind of job descriptions are amazing.
 
@@ -214,7 +214,7 @@ But then if you do it the other way around, for some reason this is thornier, wh
 
 **Chris Coyier:** I love that! What a great way to put it. I wanna quote that in my follow-up of that, because that's incredible. Of course, it has a tremendous value, because as a front-end developer that's your core thing; you're working with the browsers, which is THE thing that the users interact with. It's so incredibly important to get right.
 
-**Jerod Santo:** \[00:35:52.24\] I have an old friend who comes from the programmer back-end side of that particular divide, and he would use to refer to what you would call the UI, or the job of the front-end/designer/that whole side of the stack as "arts and crafts", you know?
+**Jerod Santo:** \[35:52\] I have an old friend who comes from the programmer back-end side of that particular divide, and he would use to refer to what you would call the UI, or the job of the front-end/designer/that whole side of the stack as "arts and crafts", you know?
 
 **Suz Hinton:** That's ludicrous.
 
@@ -240,7 +240,7 @@ So it's just interesting that multiple people come into the exact same place, wh
 
 **Jerod Santo:** Yes.
 
-**Chris Coyier:** \[00:40:08.25\] At the conference I was just at, the final speaker - and he's often the final speaker at those conferences - a guy named Gerry McGovern; I think he just has a great way of talking about how important that stuff is... And he never talks about code, I don't he's much of a coder at all, but he's just this kind of user champion, and not just a user champion, but he'll look at your business and just -- I feel like he just sees a bunch of ants running around, worried about these tiny little coding problems, and just throws up his arms and is like "What are you all doing? Nobody is thinking about the user, nobody is talking to the user, nobody is observing the user... What is happening here?!" I think about it all the time, because I feel like that's what I do at work; it's because I'm kind of a nerd and I just kind of like that part, and I've managed to do okay in my life so far just focusing on how to make rounded corners on things that maybe I'll just stay here, and it's kind of fun... \[laughter\] But looking at him, I'm like "You're so right..." Not that we never talk to users, but definitely not with the kind of frequency and velocity.
+**Chris Coyier:** \[40:08\] At the conference I was just at, the final speaker - and he's often the final speaker at those conferences - a guy named Gerry McGovern; I think he just has a great way of talking about how important that stuff is... And he never talks about code, I don't he's much of a coder at all, but he's just this kind of user champion, and not just a user champion, but he'll look at your business and just -- I feel like he just sees a bunch of ants running around, worried about these tiny little coding problems, and just throws up his arms and is like "What are you all doing? Nobody is thinking about the user, nobody is talking to the user, nobody is observing the user... What is happening here?!" I think about it all the time, because I feel like that's what I do at work; it's because I'm kind of a nerd and I just kind of like that part, and I've managed to do okay in my life so far just focusing on how to make rounded corners on things that maybe I'll just stay here, and it's kind of fun... \[laughter\] But looking at him, I'm like "You're so right..." Not that we never talk to users, but definitely not with the kind of frequency and velocity.
 
 **Jerod Santo:** Well, let's end this portion of the conversation on this idea that you actually end your article with, Chris, when you say that JavaScript is heating up, CSS workshops are easier to fill than they used to be, so it's not like any of our skills are becoming out of demand; that being said, demand changes. You said that one constant is change... In light of that, speak to the individuals - and Suz and Chris, I want you both to do this - in order to not be divided technologically, individually, not to be pigeon-holed, what are some ways, what are some practical advice to keep up to advance with technologies and not become "old guard" or have skills that are no longer demanded, and not have any of the skills that are currently demanded? What are some of advice for folks?
 
@@ -260,7 +260,7 @@ So my best advice is to keep up with everything, is to try to play with things a
 
 **Chris Coyier:** Yeah... You know, I was trying to think of a little way you should think about what you should learn... Do you wanna frame it again, to help me and to help people understand what we're talking about?
 
-**Jerod Santo:** \[00:44:09.06\] Yeah, sure. So the general idea is that things are changing, and that's the only thing that we know - the industry is going to change. What is valuable today - in terms of specific technologies, not necessarily broad skillsets - may not be valuable tomorrow... Hey, it could be more valuable, who knows? I don't think JavaScript itself is trending down. We could all say it's going to be continued, but we don't know what's going to be obsoleted by what new technology. So in an effort not to become "obsolete", to become less demanded, what are some ways that people can look to themselves, find out where they're lacking and help themselves to float above those risks.
+**Jerod Santo:** \[44:09\] Yeah, sure. So the general idea is that things are changing, and that's the only thing that we know - the industry is going to change. What is valuable today - in terms of specific technologies, not necessarily broad skillsets - may not be valuable tomorrow... Hey, it could be more valuable, who knows? I don't think JavaScript itself is trending down. We could all say it's going to be continued, but we don't know what's going to be obsoleted by what new technology. So in an effort not to become "obsolete", to become less demanded, what are some ways that people can look to themselves, find out where they're lacking and help themselves to float above those risks.
 
 **Chris Coyier:** I love that! What an awesome thing to talk about... Because you're so right about all that. So I liked how we ended last round of stuff that we were talking about, talking about how important users are, and there's actually -- I wish I could quote it exactly, but there's even a thing in the spec for the web platform spec (I think it's in the HTML spec somewhere) that has this golden rule in it, and it has this "What you should consider most important overall" and in the way bottom of it is theoretical purity of a solution, and the way top of it is "Does it work? Does it consider the users at the very top of this thing?", which is great.
 
@@ -272,7 +272,7 @@ On ShopTalk show our little saying is "Just build websites!" In a way it was def
 
 Now, that might leave you high and dry, because you're like "Well, what technology then?" and that's a little bit of a harder question. If I have to throw technologies at you, I'd say there's a lot of good stuff happening around the idea of a progressive web app, which is a pretty wide swathe of technologies, that can involve anything from the oldest school of technologies to the newest, fanciest stuff that's going on... It's more of a theoretical grouping of what the output is expected to be, so if you've never heard of that, definitely look that up. It seems like a big kind of important thing happening on the web, but in its early days; so if you're a PWA master, that's probably not a bad place to be headed with your career... And JavaScript is a part of that world as well, and you teed this up pretty well; JavaScript has just absolutely blown up, so I would never discourage somebody from going that route with their career these days. That's a smart move.
 
-**Break:** \[00:47:45.29\]
+**Break:** \[47:45\]
 
 **Jerod Santo:** Alright, let's turn our attention now to another one of Chris' babies, CodePen, which hosts just thousands and thousands -- I don't know, maybe you can give us a round number on how many amazing little programs and web thingies that are hosted on this site. We're gonna actually go roundtable style and talk about a few of our favorites, or things that we love on CodePen.io. Chris, off the top of your head, do you know how many pens are out there these days?
 
@@ -300,7 +300,7 @@ Ana Tudor is @thebabydino on CodePen, and Sarah Drasner is @sdras, I think. We c
 
 Heydon Pickering blogged recently this interesting idea that he had three flexbox containers in a row, and that at a certain breakpoint he could get them to all flop down to vertically, but you could do it based on the size of the parent container, not a media query for the whole page. In front-end development that's been highly desired for a long time; it's like "Oh my god, could I please make decisions on the width of the parent container, please, please, please?" That's what matters, not the width of the stupid page, because inside the page who knows what's going on; maybe I'm breaking things into columns, or not columns... It's easy for a component to be in a smaller place on a big screen, in a bigger place on a small screen, just because of how columns break down sometimes. So to have this be this little thing that is a little bit close to what they call a container query is great.
 
-\[00:52:07.26\] He wrote it up and explained it all, but of course there's a pen that goes with it, and it's so great to have that as a quick reference place to for a front-end technique like that. It may not make the most beautiful homepage kind of thing, but it demonstrates the concept really well.
+\[52:07\] He wrote it up and explained it all, but of course there's a pen that goes with it, and it's so great to have that as a quick reference place to for a front-end technique like that. It may not make the most beautiful homepage kind of thing, but it demonstrates the concept really well.
 
 For some reason when you asked me this just earlier today, I thought of this -- just one popped into my mind, so I thought I'd just roll with it... But it was this demonstration of a front-end technique like this, where the demo wasn't particularly beautiful but the functionality is so cool. Are you all familiar with the accessibility problems with a modal?
 
@@ -330,7 +330,7 @@ Let's say you have a parent element that is a modal, and it has a transition on 
 
 **Jerod Santo:** Well, it's the web; we're used to not perfect, right? We've been there, done that, and continue to do that as we build new things. That's pretty cool, Chris. Give us the link to that pen.
 
-**Chris Coyier:** \[00:56:12.28\] Credit there goes to Kushagra Gour, and the article is "A CSS approach to trap focus inside of an element." Very cool.
+**Chris Coyier:** \[56:12\] Credit there goes to Kushagra Gour, and the article is "A CSS approach to trap focus inside of an element." Very cool.
 
 **Suz Hinton:** Nice.
 

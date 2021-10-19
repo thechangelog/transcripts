@@ -8,7 +8,7 @@ So I've been obsessed with the GitHub API for a long time and built a lot of thi
 
 So this kind of light bulb went off for me talking to people at Universe last year of this idea of like a scriptable GitHub, or scriptable workflows. GitHub has all of these primitives for software development - it has code, it has review, it has issues and project management, but what it's lacking for a lot of people is this notion of "When this event happens or when these conditions are met, for my team and my needs it should kick off this chain of workflows."
 
-\[00:03:57.08\] It went through a bunch of iterations last fall. I started in November, I built this hack day demo where it used kind of a custom parameter, and you just commit a file in your repo and say "on this event, when these conditions are met, then do this thing." I got it pretty far; I worked on that for a few weeks.
+\[03:57\] It went through a bunch of iterations last fall. I started in November, I built this hack day demo where it used kind of a custom parameter, and you just commit a file in your repo and say "on this event, when these conditions are met, then do this thing." I got it pretty far; I worked on that for a few weeks.
 
 Then after talking with people and kind of soliciting some feedback online, someone was like -- actually, like a jQuery-ish JavaScript style thing where you could dollar sign on this event and then chain a bunch of actions together. I took it a little bit farther... Then this last March one of the folks on the Electron team named Jacob Groundwater reached out to me and he was like "Can I give you some unsolicited advice?", which is always the best...
 
@@ -30,7 +30,7 @@ Basically, the plan that they had laid out for me was to create a series of open
 
 **Jerod Santo:** What an awesome internship, by the way. I'm thinking back to my college internship. It was at a technology company where I basically spent the summer answering phone calls and helping people upgrade their version of Java... I'm totally jealous right now, how awesome that internship sounds.
 
-**Bex Warner:** \[00:08:08.19\] I think the tagline of the GitHub internship is "No coffee runs", something like that. \[laughter\]
+**Bex Warner:** \[08:08\] I think the tagline of the GitHub internship is "No coffee runs", something like that. \[laughter\]
 
 **Adam Stacoviak:** Is that right?
 
@@ -52,7 +52,7 @@ So I just think that initial partnership I guess I would call it... We started m
 
 **Brandon Keepers:** Yeah, it's in there somewhere. I mean, I think it does force you though to think about "How does our project go from being useful to being presentable?" Part of it is just like "Here's the function that it serves", but then you also have to help people understand what that function is, and maybe even where it's going. So yeah, I think pulling together the site was a lot of that, going through "How do we wanna present this?"
 
-\[00:12:03.10\] Because there's also a part of this to me - which maybe we can dive in a little bit more - like this is step one and where I think a lot of platforms are going in a few years... The idea of scriptable extensions, and not necessarily -- ten years ago webhooks was the big innovation, and then you had this app-platform thing start to emerge. I think making your platform scriptable was gonna be the next, and I think there's even a few steps beyond that.
+\[12:03\] Because there's also a part of this to me - which maybe we can dive in a little bit more - like this is step one and where I think a lot of platforms are going in a few years... The idea of scriptable extensions, and not necessarily -- ten years ago webhooks was the big innovation, and then you had this app-platform thing start to emerge. I think making your platform scriptable was gonna be the next, and I think there's even a few steps beyond that.
 
 **Adam Stacoviak:** What kind of platforms make sense for that to play? You probably have some ideas, but where aside from GitHub does something like Probot work?
 
@@ -72,7 +72,7 @@ An example - actually, Bex, do you wanna talk about Sentiment Bot, or the Welcom
 
 **Bex Warner:** Yeah, sure. So I was actually just the other day writing up some documentation about that... So during my internship, one of the bots I created was Sentiment Bot, which was the aforementioned sentiment analysis, but just done through Google's Perspective API. Basically, the bot runs in a way such that if you install it on your repository, it will scan through issue comments, and if there's an issue comment that is above a toxicity threshold that whoever owns the repository will set in a configuration file, the bot will comment on it and link to the repository's code of conduct, as well as just sort of a retroactive way of trying to get people to reconsider potentially negative circumstances.
 
-\[00:16:10.00\] That app is hosted, so anyone who wanted to install Sentiment Bot on their repository can just go and click through and get a free version of it. But it becomes more complicated when people want to install multiple instances of apps or mix in customizations that really make sense for their project; that's definitely a struggle we've had - making the deployed version work for everyone's specific needs.
+\[16:10\] That app is hosted, so anyone who wanted to install Sentiment Bot on their repository can just go and click through and get a free version of it. But it becomes more complicated when people want to install multiple instances of apps or mix in customizations that really make sense for their project; that's definitely a struggle we've had - making the deployed version work for everyone's specific needs.
 
 **Adam Stacoviak:** So the bots that are available on Probot.GitHub.io right now that are under the Explore section, those are hosted by GitHub, but if you wanna do your own version of those or something like it, you host it yourself.
 
@@ -88,7 +88,7 @@ One of the great things about GitHub and a lot of companies now is their willing
 
 Yeah, I mean... The short answer to that is I would love to see it become something official, and it's still to be determined.
 
-**Adam Stacoviak:** \[00:20:01.03\] I think the interesting thing about a company like GitHub is that once you -- and you've been there for a while too, Brandon... Once you get to a place like you are as a company, it's pretty easy to start -- very similar to Amazon, how they have their main business, but then they also have AWS, and all then all these other slivers of Amazon things, but they're very much standalone businesses.
+**Adam Stacoviak:** \[20:01\] I think the interesting thing about a company like GitHub is that once you -- and you've been there for a while too, Brandon... Once you get to a place like you are as a company, it's pretty easy to start -- very similar to Amazon, how they have their main business, but then they also have AWS, and all then all these other slivers of Amazon things, but they're very much standalone businesses.
 
 So I can see how -- maybe not so much how easy it is, but like Marketplace, for example, or /jobs. You've got your job, or you've got lots of different slivers of GitHub that isn't exactly GitHub's core mission, however it does lead to the core mission, which is advancing the open source mission.
 
@@ -106,7 +106,7 @@ What I get really excited about with Probot, one of the reasons has kind of been
 
 **Brandon Keepers:** That's a great question... I think it depends. There's been moments in GitHub's past where there is a lot of pressure to get something right the first time. Any company struggles with this around large product launches. If we roll out a feature, there's 5-10 million developers using it right away. How many is it, 25 million(ish) developers on GitHub at the moment, so there is a pressure in that sense.
 
-\[00:24:14.07\] If you're going to roll out something at large scale, you'd better be kind of sure that it's right. Our product teams have a lot of really good ways of arriving at that, and almost everything that we ship is iterative; we start to roll it out to select groups, and stuff like that. So I think there is that sense in anything that's kind of core, I guess, to the business.
+\[24:14\] If you're going to roll out something at large scale, you'd better be kind of sure that it's right. Our product teams have a lot of really good ways of arriving at that, and almost everything that we ship is iterative; we start to roll it out to select groups, and stuff like that. So I think there is that sense in anything that's kind of core, I guess, to the business.
 
 Something like this - and maybe since this was a side project and a passion project, I haven't felt so much of the pressure in terms of what will people think of this with regard to GitHub. I think the bigger pressure has been like I've kind of bought into this vision of where it's going, and if it doesn't work out - that's a kind of pretty big bet for me personally. I'm more than happy to be wrong, but I don't want to be, I guess, if that makes sense. \[laughter\]
 
@@ -122,7 +122,7 @@ So I wanna see us start to get to that with all of the other products that we us
 
 **Adam Stacoviak:** Coming up after the break, we talk with Brandon and Bex about more of Probot apps, bots, whatever you wanna call them. We wanna know how they interact with the GitHub Marketplace, how it's built into GitHub apps, what the vision of Probot is, what it might look like in two or three years... And it might even be cool if Probot lived inside GitHub instead of a self-hosted kind of thing you get around on your own. We talk about all those details after this.
 
-**Break:** \[00:27:23.25\]
+**Break:** \[27:23\]
 
 **Jerod Santo:** Brandon, you said that the form of Probot, what it exists as today, began to solidify for you when you had some help from your friend, but also when you started thinking about the use cases that you were trying to solve for. We'd like to hear some of the use cases out there. We heard a little bit about Sentiment Bot, and - was it Welcome Bot?
 
@@ -152,7 +152,7 @@ And yeah, it just helps you keep your project in shape, and make it so that ever
 
 **Adam Stacoviak:** Yeah, you would feel a little silly, exactly. \[laughter\]
 
-**Jerod Santo:** \[00:32:01.23\] That might lead us later on to where -- we saw your best practices for robots; we might dive into that at the end if we have time...
+**Jerod Santo:** \[32:01\] That might lead us later on to where -- we saw your best practices for robots; we might dive into that at the end if we have time...
 
 **Brandon Keepers:** Yeah, I was actually gonna bring that up related to getting that in a robot... Actually, is that alright if we go into that real quick?
 
@@ -191,7 +191,7 @@ I think it's important for the entire bot ecosystem and app ecosystem to think a
 **Jerod Santo:** For sure.
 
 **Brandon Keepers:** Yeah, I mean... I have a lot of feels about the bot ecosystem and its emerging, and one of my strongly held beliefs at the moment is that I don't converse with bots; I want bots that either know what I want, or that I can command. I don't wanna have to have a conversation with a robot, knowing that it's a robot. So I like that my robot just every day vacuums the floor at 9 AM, because at one point I told it "9 AM is the time that is ideal to vacuum the floor."
-\[00:35:49.09\] I like that my thermostat adjusts the temperature based on my behavior in the past. I shouldn't have to talk to it. So yeah, there's this fine line between bots practicing empathy and going too far to like them pretending to be human. It will be interesting to see where that goes in the next 6-12 months.
+\[35:49\] I like that my thermostat adjusts the temperature based on my behavior in the past. I shouldn't have to talk to it. So yeah, there's this fine line between bots practicing empathy and going too far to like them pretending to be human. It will be interesting to see where that goes in the next 6-12 months.
 
 **Jerod Santo:** We'll add your list of best practices to the show notes, the top-level categories or empathy autonomy and configuration, so anybody out there building a bot, check out these best practices. And if you have best practices of your own - I don't know, PR, or maybe we should have a thing that is beyond just Probot, but in general. I think best practices for building bots would be a cool thing for anybody to have access to.
 
@@ -213,7 +213,7 @@ It's a really simple bot. Going back to best practices a little bit, I think tha
 
 **Brandon Keepers:** It's probably more of a reflection of where our heads have been at, just trying to think through like "How do you demonstrate that you can add features on top of GitHub?" And some of them are what I would consider rather core features. So there's an app for configuring GitHub settings via pull requests; so you just commit config.yaml to your repo, and you can change the project name, you can change the topics, you can change whether it's public or private, so you can have -- you know, like open-sourcing a repo is now a pull request. You could change the collaborators that are on it, you can configure the labels...
 
-\[00:40:16.15\] So just kind of trying to get people thinking on this idea of -- you know, even something like Bat, which is like "Oh, we're going to have pull requests on repo settings; that doesn't have to be a core GitHub feature." It really is not -- the API pretty much allows you to do anything you can do from the web UI, so we're starting to demonstrate some of those features.
+\[40:16\] So just kind of trying to get people thinking on this idea of -- you know, even something like Bat, which is like "Oh, we're going to have pull requests on repo settings; that doesn't have to be a core GitHub feature." It really is not -- the API pretty much allows you to do anything you can do from the web UI, so we're starting to demonstrate some of those features.
 
 There's also a few bots -- I'm trying to not say bots; a few apps...
 
@@ -239,7 +239,7 @@ So I love that; you'd think I would be tempted to call it bots, but there's also
 
 **Jerod Santo:** There's an aspect of scale there, and I want you to tell me if I'm keying into it or if I'm being mislead, but with a bot, and even with a lot of the existing apps that you guys have - with Stale, with Welcome, with Sentiment bot; uh-oh, it's an app called bot... \[laughter\] Naming is hard. These things are all kind of like the UNIX philosophy, like one thing well. They're very small in the scope of what they try to accomplish, but then when you go to GitHub Marketplace where apps exist and you have Circle CI and all these other things that are business-level integrations with GitHub - is Probot always going to live in the small UNIX philosophy of scripting GitHub, or is it also supposed to scale up, and you're building apps with Probot that you can maybe build a business on? Which one is it?
 
-**Brandon Keepers:** \[00:44:20.13\] That's a good question. From the beginning, Bex mentioned that we originally called them plugins, and it's actually designed so that any of these apps can all be run from the same instance, the same deployment; we can talk more about how it's built, but it's all Node, so if you wanna combine multiple things together, you just declare dependencies on each of those packages and then it'll start off and run all of them in one instance.
+**Brandon Keepers:** \[44:20\] That's a good question. From the beginning, Bex mentioned that we originally called them plugins, and it's actually designed so that any of these apps can all be run from the same instance, the same deployment; we can talk more about how it's built, but it's all Node, so if you wanna combine multiple things together, you just declare dependencies on each of those packages and then it'll start off and run all of them in one instance.
 
 I was kind of intentional starting to look at home some of these large open source projects were designing their automation. If you look at a project like Kubernetes that I mentioned earlier, they have a ton of really awesome tools built around their GitHub project, but they're all these monoliths that are tied to Kubernetes' workflow. So the idea was "Let's try and pull all these individual pieces of functionality out, so that we can deploy them and they're useful on their own." But then if somebody has custom needs, or if it's an enterprise that wants to run something on their own infrastructure, they can pull all these together and not have to reinvent the wheel.
 
@@ -263,7 +263,7 @@ To more directly answer your question, I think the answer is actually "I don't k
 
 If somebody wants to try and build a business on closing stale issues, best of luck... \[laughter\] But those are just the type of things -- as developers, we shouldn't have to deal with the overhead of this lack of automation in our lives every day.
 
-\[00:48:10.22\] But some of these things just aren't profitable, so the way I thought about it and have tried to explain it to other people is like my hope is that this fills in that gap in the middle. Developers get the best experience, you get first-class features from GitHub, great apps from Marketplace partners, and everything in the middle the community can build themselves and share.
+\[48:10\] But some of these things just aren't profitable, so the way I thought about it and have tried to explain it to other people is like my hope is that this fills in that gap in the middle. Developers get the best experience, you get first-class features from GitHub, great apps from Marketplace partners, and everything in the middle the community can build themselves and share.
 
 Inevitably, I think it is going to force Marketplace people to keep going up the stack, and try and find things that are higher value. I think this is like the story of human progress, where we're constantly solving one problem that used to be profitable and then now it becomes commoditized and you have to go on and solve the next problem. I think it will have that effect, but I think in the end developers get better tools... And even people building businesses - you're going on and building more interesting businesses, that are harder to replicate, which I think puts you in a better position.
 
@@ -283,7 +283,7 @@ GitHub's API is pretty intense, so you'll get a lot of information about that is
 
 **Jerod Santo:** So it probably would be exhaustive to go through all of the events and stuff, but maybe if there's -- and of course, there's documentation now, so go read that, but is there anything that's glaringly missing? Like, "Oh, I wanna build this", but you guys have already thought of that and you can't do it because of reason X, Y or Z?
 
-**Bex Warner:** \[00:52:05.07\] Up until recently the pull request reviewer API was unavailable to GitHub apps, but I think as of potentially soon, most of that will no longer be an issue... Right, Brandon?
+**Bex Warner:** \[52:05\] Up until recently the pull request reviewer API was unavailable to GitHub apps, but I think as of potentially soon, most of that will no longer be an issue... Right, Brandon?
 
 **Brandon Keepers:** Yeah, I believe so. To kind of expand on that, so GitHub apps was one of the first major features that was launched as a preview feature. It was launched last year at Universe, and the idea was to get it out in front of people so that they can start using it and building on it, and keep iterating on it.
 
@@ -301,7 +301,7 @@ There's the Linter -- Bex, do you wanna talk about that? You've probably worked 
 
 **Adam Stacoviak:** Brandon, when you were saying what you said about the slash commands and things like that, it kind of made me feel like, since you said this is designed to help you add features to GitHub, it almost made me feel like the reminders idea could be similar to how a browser extension will recognize that you're on X, Y, Z site, for example Hacker News, where it'll say "buffer this" or "do something somewhere else" where it actually adds interface. So in the soundbar, rather than just a slash command, you might actually have a brand new piece of interface because you have this app installed... And the interface, maybe it's a standard way GitHub has interface. You can maybe add things to the sidebar, or add meta data to issues... Just different things like add things to GitHub that aren't GitHub, and maybe store that data somewhere - I'm not even sure how, but this seems to open the door to allow you to make GitHub your own. Is that what you're thinking?
 
-**Bex Warner:** \[00:56:34.04\] Metadata... \[laughter\]
+**Bex Warner:** \[56:34\] Metadata... \[laughter\]
 
 **Brandon Keepers:** Yeah, that's what I was thinking... Yeah, that's actually one of our goals in experimenting with this - trying to figure out how to push the platform. The idea about adding UI to GitHub is not new. A lot of integrators have been asking for that, and it's something that a lot of people on the platform seem to be really interested in. I think it's just a matter of figuring out what are those patterns.
 

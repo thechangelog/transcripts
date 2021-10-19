@@ -28,7 +28,7 @@ I think Rebecca and I both have children now...
 
 **Rebecca Murphey:** It seems so important...
 
-**Alex Sexton:** \[00:03:52.06\] Yeah. I mean... It was, at the time. Alright, I think we're gonna start off with not a traditional segment, but we kind of wanna talk about things that didn't exist in the web or JavaScript the last time we were all on a podcast together - which is quite a bit, which is kind of cool in how fast things gather speed and become the main deals that everyone talks about, but you don't realize how quickly that comes up. Paul, do you wanna talk about something that has happened since then?
+**Alex Sexton:** \[03:52\] Yeah. I mean... It was, at the time. Alright, I think we're gonna start off with not a traditional segment, but we kind of wanna talk about things that didn't exist in the web or JavaScript the last time we were all on a podcast together - which is quite a bit, which is kind of cool in how fast things gather speed and become the main deals that everyone talks about, but you don't realize how quickly that comes up. Paul, do you wanna talk about something that has happened since then?
 
 **Paul Irish:** Sure, there was a JavaScript framework that was introduced in this time period that some of you might be familiar with, called ReactJS.
 
@@ -66,7 +66,7 @@ I think they were trying to focus on the autobindy-type stuff, because that was 
 
 **Paul Irish:** In that you were right in the argument of rolling your own is just more feasible and kind of easier...
 
-**Alex Sexton:** \[00:08:01.02\] But Rebecca was right in the sense that it's actually better...
+**Alex Sexton:** \[08:01\] But Rebecca was right in the sense that it's actually better...
 
 **Rebecca Murphey:** Rebecca was right in that Rebecca was at bizarre voice for another three years after Alex rolled his own...
 
@@ -110,7 +110,7 @@ And it's interesting, because at least on our team, we haven't come to a conclus
 
 **Rebecca Murphey:** And I think that what we've seen is that the types help, but they don't make you write good JavaScript. And so you can have a Closure Compiler comment that says "These 40 arguments are these types", but you still are passing in 40 arguments. I think it can seem like kind of a safety net for people who maybe aren't used to writing JavaScript, which is kind of my world, but it doesn't make your JavaScript good.
 
-**Alex Sexton:** \[00:12:04.13\] Yeah. It's interesting, because I think part of the standards bodies are kind of maybe taking -- like, normally, when people do their own things and add to, like -- CoffeeScript happened, and then I think a lot of ES6 was at least sped up, and some syntax like Feathers were inspired by CoffeeScript. The innovations to the language end up in the spec, but I almost feel like the opposite thing is happening with types, where they're like "We wanna get types in. We've been looking at it for a long time, it's hard. Let's try this, let's try this..." and then whenever FlowType and Typescript came out, they were like "Okay, well those things solve it, so let's not work on it as hard in the spec, because people have options already." So I'm interested to see how that plays out long-term. I don't ever see JavaScript bringing types, for what it's worth; it would just change it too fundamentally... But maybe I'm wrong. That's a prediction.
+**Alex Sexton:** \[12:04\] Yeah. It's interesting, because I think part of the standards bodies are kind of maybe taking -- like, normally, when people do their own things and add to, like -- CoffeeScript happened, and then I think a lot of ES6 was at least sped up, and some syntax like Feathers were inspired by CoffeeScript. The innovations to the language end up in the spec, but I almost feel like the opposite thing is happening with types, where they're like "We wanna get types in. We've been looking at it for a long time, it's hard. Let's try this, let's try this..." and then whenever FlowType and Typescript came out, they were like "Okay, well those things solve it, so let's not work on it as hard in the spec, because people have options already." So I'm interested to see how that plays out long-term. I don't ever see JavaScript bringing types, for what it's worth; it would just change it too fundamentally... But maybe I'm wrong. That's a prediction.
 
 In that same vein, ES5 - we did an episode whenever ES5 landed, and we talked about the new array prototype functions and things like that, and how you'd have to use polyfills to get it all to work. Since then, a few versions of JavaScript have been released, and it's kind of evergreen now, and it's hard... I guess JavaScript isn't evergreen, it's HTML, whatever. But we've had ES6, ES7, ES2015, ES2016, and now we're in the midst of 2017. I think we're all using -- everyone's using Babel for everything. I guess DevTools probably isn't, Paul, right?
 
@@ -138,7 +138,7 @@ In that same vein, ES5 - we did an episode whenever ES5 landed, and we talked ab
 
 **Paul Irish:** Can I ask another question on this topic? Because I think one of you guys know the answer better than me... Around ES modules and .mjs extension. Because I don't really know where things are completely, but I just remember being slightly infuriated that we're gonna have to adopt .mjs for all the ES module files, for this whole load compatibility, and I was like "Come on! The people that have been doing it wrong, they get the real extension, and now the real thing gets kicked off...? This is so stupid! It's stupid!" And then at some point I was hanging out with Alex Russell and Domenic Denicola, and I was like "Guys, isn't this so stupid?!" and they were like "Why? What's the problem with it?" They were like "It seems okay..." and I was like "Well, if they think it's okay, then probably I guess it's okay..." \[laughter\]
 
-**Alex Sexton:** \[00:16:07.15\] You kind of glossed over that -- I think Bradley Meck mostly was working on how to do importing of JavaScript modules in Node.js officially based on this stuff... I don't even know the exact details of the problem, but there was some problem where because people were doing modules in a weird way before, all their stuff would break if we kept using the same system that they're currently using. So in order to differentiate between those two different systems, you would name your real new official modules with the extension .mjs instead of .js... And I think I agree that the people who broke it should have to change -- I think it's an Office Space quote, "Why should I have to change my name? He's the one who sucks." \[laughter\]
+**Alex Sexton:** \[16:07\] You kind of glossed over that -- I think Bradley Meck mostly was working on how to do importing of JavaScript modules in Node.js officially based on this stuff... I don't even know the exact details of the problem, but there was some problem where because people were doing modules in a weird way before, all their stuff would break if we kept using the same system that they're currently using. So in order to differentiate between those two different systems, you would name your real new official modules with the extension .mjs instead of .js... And I think I agree that the people who broke it should have to change -- I think it's an Office Space quote, "Why should I have to change my name? He's the one who sucks." \[laughter\]
 
 We don't have a ton of time to get to the beginning of this, so we're gonna move on a little bit. There was an io.js release and fork, and a few other things, but Node.js 8 is coming out soon, so I don't think we can cover all that... Plus Mikeal's not on the show and he'll want to have opinions.
 
@@ -170,11 +170,11 @@ But anyways, that EtherPad instance that we had was hosted on OkSoClap.com, and 
 
 **Rebecca Murphey:** And that all the DNS entry doesn't resolve...
 
-**Adam Sontag:** \[00:19:52.22\] If I recall, Alex is a guy who knows when things are things... \[laughter\]
+**Adam Sontag:** \[19:52\] If I recall, Alex is a guy who knows when things are things... \[laughter\]
 
 **Alex Sexton:** I'm a guy who knows when things are things, and that was a thing. I think we're running up on the first break, so we're gonna take a break right now and come back with a few classic segments.
 
-**Break:** \[00:20:10.18\]
+**Break:** \[20:10\]
 
 **Alex Sexton:** And we're back. During the break, Paul reminded me of the fact that the OkSoClap EtherPad instance was actually used by TC39, the Technical Committee number 39 from the ECMA standards body organization system enterprise... \[laughter\] They used the OkSoClap for years to take notes, so the official JavaScript language was partially developed using the OkSoClap.com EtherPad created by yayQuery... So our tentacles go deep into the language.
 
@@ -216,7 +216,7 @@ I forgot... Mikeal and Rachel are gonna be gone next week, and I need to get Ric
 
 **Alex Sexton:** That was about Node.js' forking into io.js... That was the Gilmore Girls, season two, episode three.
 
-\[00:24:01.20\] Let's get into a classic segment. This is a little segment... It's about little, tiny things that you never thought you knew. It's something that we like to call
+\[24:01\] Let's get into a classic segment. This is a little segment... It's about little, tiny things that you never thought you knew. It's something that we like to call
 
 \[all together, loud\] "Hideeeeenhancements!" \[The Little Tiny Things/ You Never Thought You'd See\]
 
@@ -254,7 +254,7 @@ I forgot... Mikeal and Rachel are gonna be gone next week, and I need to get Ric
 
 **Rebecca Murphey:** Speaking of IE10, I just wanted to let you know about this other browser that came out... It's called IE9. It's gonna have CSS3 support, and you can hear us talk all about this in the South by Southwest (???) episode of yayQuery. \[laughter\]
 
-**Alex Sexton:** \[00:27:41.09\] Yeah, me and Paul -- oh, that's a good story. Paul and I were given, via yayQuery - because we were on the yayQuery podcast, for some reason, we got VIP press badges to the IE9 launch party at South by Southwest, and we sat at press tables as they did the press announcement. We were next to Wired. Wired was writing the article on IE9 being launched, and me and Paul were just writing tweets about how IE9 was just gaming all of their demos. It was a really good time.
+**Alex Sexton:** \[27:41\] Yeah, me and Paul -- oh, that's a good story. Paul and I were given, via yayQuery - because we were on the yayQuery podcast, for some reason, we got VIP press badges to the IE9 launch party at South by Southwest, and we sat at press tables as they did the press announcement. We were next to Wired. Wired was writing the article on IE9 being launched, and me and Paul were just writing tweets about how IE9 was just gaming all of their demos. It was a really good time.
 
 Then we got to go see yaySayer at the after party, in the VIP section. We were there with -- who was it...? Werner Vogels from Amazon, the CTO of Amazon. It was a wild ride. IE9... Good old days. \[laughter\] Yeah, yayQuery press badges were a thing at some point... \[laughter\]
 
@@ -278,7 +278,7 @@ You can do it instantly... If all you wanna look at is CSS, it's just gonna look
 
 **Paul Irish:** Yeah, pwmetrics.
 
-**Alex Sexton:** \[00:31:55.25\] Pwmetrics - it's a command line tool that will automatically run Lighthouse locally in a Chrome instance... So if you wanna hook that up to your build process to get metrics out, and then kind of like test that pass. I think it could be a really nifty test to say that like "You can never ship more than some bottom line of like 80% of the code that gets loaded must be executed, otherwise the tests fail", or something. Does that make sense? It could be a really nifty build-time check that causes you to never go over that... Because once you go over too far, it's much harder to fix.
+**Alex Sexton:** \[31:55\] Pwmetrics - it's a command line tool that will automatically run Lighthouse locally in a Chrome instance... So if you wanna hook that up to your build process to get metrics out, and then kind of like test that pass. I think it could be a really nifty test to say that like "You can never ship more than some bottom line of like 80% of the code that gets loaded must be executed, otherwise the tests fail", or something. Does that make sense? It could be a really nifty build-time check that causes you to never go over that... Because once you go over too far, it's much harder to fix.
 
 **Paul Irish:** Yeah, exactly.
 
@@ -332,7 +332,7 @@ You can do it instantly... If all you wanna look at is CSS, it's just gonna look
 
 **Adam Sontag:** We lost a lot of good devs out there... \[laughter\]
 
-**Alex Sexton:** \[00:35:38.12\] Yeah... LABjs was Kyle Simpson, or getify, as you've probably seen streams of consciousness fly by your Twitter stream from him... Really bright dude, but I definitely did not expect a 3.0 or any late updates to the script loader entries. So yeah, 3.0 is in the works... I think it actually is somewhat in relation to actual standards that have gotten through.
+**Alex Sexton:** \[35:38\] Yeah... LABjs was Kyle Simpson, or getify, as you've probably seen streams of consciousness fly by your Twitter stream from him... Really bright dude, but I definitely did not expect a 3.0 or any late updates to the script loader entries. So yeah, 3.0 is in the works... I think it actually is somewhat in relation to actual standards that have gotten through.
 
 Kyle did some work with the standards bodies to do some of the async false stuff, in order to guarantee in-order async loading... So if you inject a script with async false after the DOM was already loaded, it means that it must execute in order, and that is like a thing now.
 
@@ -402,7 +402,7 @@ Next up, we were going to have "Paul Irish's jQuery Anti-pattern for Performance
 
 **Alex Sexton:** Classic!
 
-**Rebecca Murphey:** \[00:39:51.02\] He did just do that... As men do. No, sorry. No, I just saw this video, and... A lot of people are mystified by Webpack and how it works - especially people who are kind of new to JavaScript and frontend development, or people who have been doing it for a while, but feel like they need to be "doing it right" now, and they're like "Oh, I need to learn Webpack" and "Yikes, that's scary!" This was just a really great video by Naomi Jacobs at BuzzJS, so check that out. I haven't heard of her, but she was just a really approachable speaker, who kind of laid out "Here's what Webpack actually does. It's not magic, it's just JavaScript to make your app be able to load asynchronously, be able to load in tiny chunks, instead of all at once, and be able to do all the cool things that you can do with Webpack."
+**Rebecca Murphey:** \[39:51\] He did just do that... As men do. No, sorry. No, I just saw this video, and... A lot of people are mystified by Webpack and how it works - especially people who are kind of new to JavaScript and frontend development, or people who have been doing it for a while, but feel like they need to be "doing it right" now, and they're like "Oh, I need to learn Webpack" and "Yikes, that's scary!" This was just a really great video by Naomi Jacobs at BuzzJS, so check that out. I haven't heard of her, but she was just a really approachable speaker, who kind of laid out "Here's what Webpack actually does. It's not magic, it's just JavaScript to make your app be able to load asynchronously, be able to load in tiny chunks, instead of all at once, and be able to do all the cool things that you can do with Webpack."
 
 So check it out, it's 45 minutes or so long, but it was super approachable. I sat in a room with a bunch of other devs watching it, and could see them like "Oh, I get it now...", so I highly recommend it.
 
@@ -446,7 +446,7 @@ So check it out, it's 45 minutes or so long, but it was super approachable. I sa
 
 **Alex Sexton:** For sure. Alright, I think we running up on a break, so... Yeah.
 
-**Break:** \[00:44:07.22\]
+**Break:** \[44:07\]
 
 **Alex Sexton:** And we're back! One segment that I believe only happened one time - I don't think it was officially a segment, because in the episode we didn't know it would become a segment, because - a lot of becauses in this - Adam intro-ed it. There was some show on The Food Network, Adam...? Throwdown - is that what it's called? Or is it like a segment of a show?
 
@@ -462,7 +462,7 @@ This friend was saying that by default now we should use fat arrows that way; ev
 
 **Rebecca Murphey:** Yeah, that's kind of what I'm saying. I think that we tend to do this anyway, but we don't lint for it, but I think it's more out of laziness that we tend to do it, because it's less typing. Whether we need the "this" or not, we just do it because it's a really handy way to write.
 
-\[00:47:58.02\] We do this all the time with arrow functions that you pass to map, or something like that; we don't NEED the "this" binding, but it's just a handy way to do it.
+\[47:58\] We do this all the time with arrow functions that you pass to map, or something like that; we don't NEED the "this" binding, but it's just a handy way to do it.
 
 **Alex Sexton:** Right, yeah. So I guess I lose. It seems like...
 
@@ -514,7 +514,7 @@ This isn't a segment either, but we did this during our live reunion show last t
 
 **Rebecca Murphey:** Yeah, I use it as my primary personal browser, I don't use it for -- like, I have a Chrome for work, that I use for Gmail, but then I use Brave for browsing.
 
-**Alex Sexton:** \[00:52:00.20\] Yeah. I was talking to Brendan a little bit on Twitter about new features... One weird thing, Paul, is that DevTools in Brave can't be doc-ed. It has to be a separate window, because of some -- I think it has to do with sandboxing, or something like that.
+**Alex Sexton:** \[52:00\] Yeah. I was talking to Brendan a little bit on Twitter about new features... One weird thing, Paul, is that DevTools in Brave can't be doc-ed. It has to be a separate window, because of some -- I think it has to do with sandboxing, or something like that.
 
 **Paul Irish:** Process sandboxing. There's two separate processes, so putting them in the same thing is kind of painful, I guess... But interesting...
 
@@ -542,7 +542,7 @@ And my last tidbit there is private browsing - it's something that I think users
 
 **Rebecca Murphey:** The Pinboard guy was just talking on Twitter about how programmers don't think they can be replaced by automation. I wonder -- like, we won't be using keyboards because we aren't doing anything at all... \[laughter\]
 
-**Paul Irish:** \[00:55:53.08\] I was gonna throw out a prediction along those lines, which was that more basic web design is going to be handled by our AI overlords. And especially, it makes a whole lot of sense with Wix and Squarespace etc. to be using -- whatever that startup is that I think didn't really...
+**Paul Irish:** \[55:53\] I was gonna throw out a prediction along those lines, which was that more basic web design is going to be handled by our AI overlords. And especially, it makes a whole lot of sense with Wix and Squarespace etc. to be using -- whatever that startup is that I think didn't really...
 
 **Alex Sexton:** Yeah, it failed. It's like the AI-generated...
 

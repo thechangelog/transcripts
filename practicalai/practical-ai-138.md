@@ -8,7 +8,7 @@
 
 **Daniel Whitenack:** Yeah, cool. So maybe before we get to there, let's maybe start at PyTorch Lightning. People might have heart of PyTorch, they might have heard of Lightning... I know Lightning kind of shows up in my Twitter feed quite a bit... Could you just give us a little bit of context for what PyTorch Lightning is, and how people can use it, where it might fit into people's workflow?
 
-**William Falcon:** \[00:04:14.24\] Yeah, so I'll talk a little bit about my experience to understand the motivation behind it... Because my sense from speaking to people in the community is that we've all had very similar problems and thought about very similar approaches. The difference is we open-sourced this, and a lot of people started contributing to it.
+**William Falcon:** \[04:14\] Yeah, so I'll talk a little bit about my experience to understand the motivation behind it... Because my sense from speaking to people in the community is that we've all had very similar problems and thought about very similar approaches. The difference is we open-sourced this, and a lot of people started contributing to it.
 
 So I started out as a software engineer, and I was working in finance, and before that I was an undergrad and I was starting to do research... And I'd been working as a software engineer, and when I got into AI research, it was in computational neuroscience; we were trying to take neural activity from the brain and trying to reconstruct what generated that. That was in the context of eye sight, basically. And so what happened there is none of us were really big engineers in deep learning. We weren't experts. So I started training models, and back then I was using Theano, which is a very old framework... And I remember the first time we got something running on the GPU, and it was magical, because suddenly my time went from months to a few days, and I was like "Great."
 
@@ -24,7 +24,7 @@ I left that project for a bit and went into the startup world, and spent a few y
 
 From there, I started my Ph.D. and kind of like started that research flow again. Then, coming from the startup world, I was like "How do I bring that speed and agility to research?" Because we all know this, and I think \[unintelligible 00:07:37.01\] talks about this - we all know this first-hand, but the outcome of doing anything with AI nowadays is honestly a function of how fast you iterate through ideas. Because 90% of your ideas are gonna fail, and then one or two are gonna work, and then you're good to go. So literally, just how fast can you power through those ideas is probably the single biggest predictor if that thing is going to work or not. I knew that, and I wanted to bring that ability to my Ph.D. research. I was like "Hey, maybe I can finish this thing in three years, as opposed to six, or whatever."
 
-**Daniel Whitenack:** \[00:08:06.21\] Ambitious. \[laughs\]
+**Daniel Whitenack:** \[08:06\] Ambitious. \[laughs\]
 
 **William Falcon:** Yeah... Looking back now, it's not a good idea, but yeah, that was the goal.
 
@@ -48,7 +48,7 @@ What's really cool now is that it's evolved into -- you know, my vision really w
 
 **Chris Benson:** I noticed as you're kind of going through the story, it seems like as you progressed over those years through the different aspects of your own life, and you're kind of looking at the same problem through multiple lenses, as you're going from software development, and then you're doing research, and then you're at Facebook doing research, and the scales are changing... It seems very much like you were scratching your own itch, but having the benefit of taking into account multiple perceptions of that problem, so that you ended up having a very rich understanding of what was needed and how it could satisfy multiple user groups. Do you think that's a fair assessment, or am I missing the boat? It seems like it was a really smart way of building a robust project from different perspectives, all rolled into one.
 
-**William Falcon:** \[00:12:07.12\] Yeah, I think that's right. Like I said, none of this was ever because I was trying to build anything for anyone else. I was trying to make myself move fast in research.
+**William Falcon:** \[12:07\] Yeah, I think that's right. Like I said, none of this was ever because I was trying to build anything for anyone else. I was trying to make myself move fast in research.
 
 **Chris Benson:** Right.
 
@@ -64,13 +64,13 @@ So all of that is handled by the trainer. And this is the stuff that you're gonn
 
 We can think about a model like a convolutional neural network, or a linear regression model. Just like a self-contained module. Today's models are actually not models. We need a new name, because there's something that doesn't exist, and I think the Lightning module, which is a system, because models now interact with each other. Like, what do you call an encoder and a decoder working together to make an auto-encoder or variational encoder. a  They're not models; it's collections of models interacting together. Same for transformers.
 
-\[00:16:07.17\] So that's really what the Lightning module is about - you pass these models into it, and then how they interact together is abstracted by that. And I think that's a missing abstraction that was not there, which is why people were jumping through so many hoops, to be like "Oh, well how do you do GANs? How do you do this other stuff?"
+\[16:07\] So that's really what the Lightning module is about - you pass these models into it, and then how they interact together is abstracted by that. And I think that's a missing abstraction that was not there, which is why people were jumping through so many hoops, to be like "Oh, well how do you do GANs? How do you do this other stuff?"
 
 So it's important to decouple that, because now I have this single file that's completely self-contained, that I can now share with my team across in a different division, and their problem might be completely different, with a different data set, and they don't have to ever change the code on that model; all they have to do is change what hardware they're using and then what the dataset is. As long as it conforms to the API that the model is expecting, it works. So it makes code extremely interoperable.
 
 I think people come to Lightning because they wanna train on multiple GPUs and so on. And under the hood we have this API called Accelerators that lets you do that. But that's only a very small part of it. I think once you get into it, you see that the rest of it is the ability to collaborate with peers, and be able to have reproducible and scalable code.
 
-**Break:** \[00:17:08.18\]
+**Break:** \[17:08\]
 
 **Daniel Whitenack:** Thank you for the great introduction to what Lightning is, and how to think about some of the abstractions that you're working with. I'm wondering if you could maybe share a little bit -- I've seen some different stories online, but I was wondering from your experience with the community that's working with this, could you provide any sort of stories around how people have been able to scale things up with Lightning? Maybe in your own work, or maybe stories that you like to highlight.
 
@@ -80,7 +80,7 @@ Today what's interesting is that -- you know, when I run into these people, beca
 
 So what's cool is just like, it's been super-flexible. I think there are public cases that we can talk about. There are blog posts by big companies like NVIDIA, Facebook and so on, about how they use Lightning; you can read that. I think something that we do specifically in the community is we really like to protect our partners, because this is a community, and we wanna keep people's work fairly private as well... So I won't get into too many details. I'm just pointing you to open sources that you can look at, and how they use it. But these are big projects as well.
 
-\[00:20:05.20\] There are probably about 3,000 projects now that use Lightning that you can literally just go to see them. So the companies that have open-sourced their work, you can see what projects they're working on. It's everything from video prediction, to segmentation, to NLP, to summarization, to classification... We integrate really well with basically most frameworks out there. So if you use anything that's PyTorch-based, it's very likely going to work with Lightning right off the bat.
+\[20:05\] There are probably about 3,000 projects now that use Lightning that you can literally just go to see them. So the companies that have open-sourced their work, you can see what projects they're working on. It's everything from video prediction, to segmentation, to NLP, to summarization, to classification... We integrate really well with basically most frameworks out there. So if you use anything that's PyTorch-based, it's very likely going to work with Lightning right off the bat.
 
 Now, in terms of scaling -- we've done it internally, but we've also heard from the corporate partners that they're training things on... Yeah, I guess the number - there's no real limit so far; I guess it's whatever PyTorch supports...
 
@@ -120,7 +120,7 @@ So we were able to train a GPT model... I remember it was like 20 billion parame
 
 People will say "Oh, but where are the advanced examples?" and my point is that "That is the advanced example." All you have to do is change the data and it'll still work for ImageNet. \[laughs\]
 
-**Chris Benson:** \[00:24:15.27\] That's great.
+**Chris Benson:** \[24:15\] That's great.
 
 **William Falcon:** That's the beauty of it. There's no different example for that. I mean, we'll put it in if you want, but at the end of the day, just change your data and set GPUs to 64 and you're good to go. So that's the easy part. So if you're coming outside of PyTorch, then you can do that.
 
@@ -140,7 +140,7 @@ Now, there's other stuff left -- so that's literally it. You just have to copy t
 
 For the data, you can leave it as is. You can just pass in the data loaders directly to Lightning. Or you can use something called the data module, which is a completely optional abstraction... But it basically captures your training, validation and test data loader into one class, and couples the transforms as well. Because what usually happens at big companies is that I'm working on -- let's say I'm maybe selling something. I'm selling clothing. So I have the dataset of our inventory, with images and so on, and then when I give it to you, you're gonna be like "Hey, how did you transform the images? Did you crop it? Did you random flip? What did you do?"
 
-\[00:28:21.24\] So unless they give you that code, then it's gonna be a little bit hard, and we could mess it up. So the data module embeds all of that. So I just have to say "Here's the data module for the clothing dataset", and you just run it and you know it's gonna be consistent across the board, no matter how you run it. So that's an optional -- I mean, I highly encourage abstraction, but it's optional.
+\[28:21\] So unless they give you that code, then it's gonna be a little bit hard, and we could mess it up. So the data module embeds all of that. So I just have to say "Here's the data module for the clothing dataset", and you just run it and you know it's gonna be consistent across the board, no matter how you run it. So that's an optional -- I mean, I highly encourage abstraction, but it's optional.
 
 That's basically it... So if you do it, I would just recommend - don't delete your project; just do the refactor first, put it into Lightning, run it once... When you do it with Lightning, you're gonna be able to run it on your local machine with CPUs or GPUs. Take a batch of data from your dataset, or a single example, and overfit both models - your original code and this one - with the same seed and everything. And make sure you get the same results. Then once you get that, you know you're good to go; you know you didn't mess it up. At that point, you can go ahead and say GPUS=128 and then off you go.
 
@@ -154,7 +154,7 @@ That's basically it... So if you do it, I would just recommend - don't delete yo
 
 I joke, but it is kind of like cleaning your house, I guess. Imagine -- I guess roses, right? Maybe this is a good example. A rose - you have to cut it from the bush, and trim all this stuff, and then you get this bulb at the end, which is what you care about. It feels like that. It's like, no one's adding these other leaves because they want to, it's because they have to. So when you refactor your code, it's this sense of like "Okay, it's a lot cleaner now. I just removed a lot of unnecessary stuff." And also stuff that you're likely to mess up. We test very thoroughly, and we have thousands of people testing this stuff. So did we mess up the backward pass? Definitely not. Did you mess it up? Hopefully not. \[laughs\]
 
-**Break**: \[00:31:11.09\]
+**Break**: \[31:11\]
 
 **Daniel Whitenack:** Okay, I wanna kind of circle all the way back to where our conversation started, because I wanna get back to that cool demo that I saw on Twitter about Grid.ai. Maybe you could just give us a little bit of sense of what Grid.ai is, kind of how it came about, how it's maybe connected to the Lightning community (if at all), and then we can get into some of the details about what it enables.
 
@@ -170,7 +170,7 @@ So that's really the focus of Grade.ai, is to just completely eliminate the pain
 
 **Daniel Whitenack:** So I am wondering... There's still a lot of people, I think - and maybe I have a misconception about this - that they think maybe training models on GPUs in the cloud is always gonna be more expensive than training on a sort of... Like, you're gonna buy an on-prem server and do it in-house. Based on your experience with that and the current state of cloud providers and all of that, is that perception mostly driven by the fact that -- and I feel very seen by the comment about, like, you have all these Bash scripts strung together; that's my life, maybe... \[laughs\] But is it because that way of doing things is a bit inefficient and you waste a lot of resources, and that sort of thing? Where do you think that perception is coming from, and do you think is accurate, I guess is my question.
 
-**William Falcon:** \[00:35:56.16\] Yeah, I think you hit it right on the nail. If your system is inefficient, then it's more efficient to have your own machines. Running on Grid means that we install your dependencies, everything you need to link up your data, in a matter of minutes, if not seconds. People don't generally optimize their stuff in the backend to do that. So what they end up doing is they wanna run on the local machines because they don't have to install their environments, they don't have to do all this stuff again. It's just there, and it's repeatable, and things start immediately, so it's a lot cheaper.
+**William Falcon:** \[35:56\] Yeah, I think you hit it right on the nail. If your system is inefficient, then it's more efficient to have your own machines. Running on Grid means that we install your dependencies, everything you need to link up your data, in a matter of minutes, if not seconds. People don't generally optimize their stuff in the backend to do that. So what they end up doing is they wanna run on the local machines because they don't have to install their environments, they don't have to do all this stuff again. It's just there, and it's repeatable, and things start immediately, so it's a lot cheaper.
 
 I'm not gonna say that running on your local stuff is not generally cheaper if you're doing things 24/7, but you're limited by bursting capabilities. So you're never going to have -- I don't know how many GPUs AWS has, but it's gotta be hundreds of thousands. So if you have to hit a deadline or do something really quick, and even go through ideas fast, if you're buying your own GPUs, you're gonna be limited by how many you have there. So it's gonna be more like sequential model building, I suppose, to asynchronous building.
 
@@ -188,7 +188,7 @@ So for our users today - you can now access artifacts, you can get model checkpo
 
 Now, we're gonna make it a lot easier, for sure - kind of the way that we do things - but today we are laser-focused on training. But I will say, I think working with Grid at this stage is great, because I think companies will be able to help us influence that roadmap, and help us build something that they really care about as well... Because as soon as we start getting to deployment, we're gonna do it our way, and we have a very special way of doing things, so we hope that we have the feedback from the community and users to make sure that we're doing it in a really useful way.
 
-**Daniel Whitenack:** \[00:40:01.20\] And how as a user of Grid.ai -- because this is really fascinating to me, because I've even been struggling to get some in-house GPUs, just with supply chain issues and all of those things... So running things on the cloud is something that we're actively thinking a lot about, and doing it in an optimized way... Now, we kind of talked before about going, say, from PyTorch to PyTorch Lightning. Let's say I've got my Python code, I'm using Lightning, it works great, and now I wanna run it with Grid.ai on 100 GPUs in the cloud. What does that look like? Do I need to set up my cloud account, set up billing on that side, and then set up my Grid account and then use a Grid tool to connect them both? How does that whole flow work from that point?
+**Daniel Whitenack:** \[40:01\] And how as a user of Grid.ai -- because this is really fascinating to me, because I've even been struggling to get some in-house GPUs, just with supply chain issues and all of those things... So running things on the cloud is something that we're actively thinking a lot about, and doing it in an optimized way... Now, we kind of talked before about going, say, from PyTorch to PyTorch Lightning. Let's say I've got my Python code, I'm using Lightning, it works great, and now I wanna run it with Grid.ai on 100 GPUs in the cloud. What does that look like? Do I need to set up my cloud account, set up billing on that side, and then set up my Grid account and then use a Grid tool to connect them both? How does that whole flow work from that point?
 
 **William Falcon:** That's a good question. Generally, I like to think about what we're trying to do like that leap between Windows machines to Mac machines, where things just work. Like, what is that Apple experience for machine learning. And to answer your question, it's very easy. It's not as easy as I want it to be today, but it will be. Basically, there are a few ways. We have three tiers of usage on Grid. We have the community tier, which is free. Literally, you're just paying the AWS compute. There's nothing in there; we're just orchestrating stuff for you. But it doesn't really work for teams and big companies, because there's a lot of stuff that needs to happen. Then we have the teams and enterprise tier, so that you do those kind of things.
 
@@ -198,7 +198,7 @@ Yes, there will be times when that fails, and we will work with you to figure ou
 
 But if you have corporate data, then you're gonna be in the teams and enterprise tier. There, what you end up doing is we basically link up your cloud accounts. So you just set it up through Grid, you're passing credentials through there, and then those keys let us control resources on your behalf only as much as you allow us to, to make sure that we orchestrate everything on your cloud. So it's kind of this hybrid on-prem vs. not on-prem. We also offer on-prem if people want it.
 
-\[00:42:47.00\] So once you do that, you basically put in your cloud credentials in there, then you're good to go. When you run stuff on Grid, instead of running on the Grid Cloud, which is a community cloud, you just select your cloud, whatever you named it, and then you just run on it. That means you can link up as many of these as you want as well.
+\[42:47\] So once you do that, you basically put in your cloud credentials in there, then you're good to go. When you run stuff on Grid, instead of running on the Grid Cloud, which is a community cloud, you just select your cloud, whatever you named it, and then you just run on it. That means you can link up as many of these as you want as well.
 
 **Chris Benson:** As we kind of wind up here, one of the things that's really struck me through the conversation is that you are a man of substantial vision. And as we kind of wind up, I'm really curious if you would kind of look out a little bit beyond just the next product cycle, and that kind of thing, into where you want to go, both with Grid.ai, and where you see the larger industry going in general, in terms of trying to make this work a little bit better for people, and take the struggle out of it, that you clearly have been working on for a while, in various capacities? Could you tell us a little bit about what future you think we're going toward, and how you would like to shape it?
 

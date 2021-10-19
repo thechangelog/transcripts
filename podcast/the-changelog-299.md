@@ -14,7 +14,7 @@ In 2017 I was awarded and given this prize, and it comes in the form of a gold m
 
 **Jerod Santo:** Now, you just tweeted at us a few days back - May 18th; we're recording this on May 22nd, 2018, so on a time delay... Did something bring it to your mind, or did you finally get a copy of the picture that you could share? Why the delay on the tweet if this happened late last year?
 
-**Daniel Stenberg:** \[00:03:57.08\] So I brought it up from a completely different reason, actually. Previous to that tweet, I tweeted another image that was one of these funny things, about one of these fake O'Reilly covers from a book that says "Thanklessly maintaining open source" and a sad lama on it... You know, more of the constant mantra that is maintaining open source is a bit of a thankless job many times, and we do a lot of things... And then someone replied to me and said "Well, you got a gold medal." \[laughter\] So I had to sort of show the other side of the coin really, because I think I have gotten a lot of good things from open source, and I enjoy it a lot. It's not an ordeal or a struggle for me, it's a pleasure and I do it for fun... So I definitely wanted to bring out some of the goodies and goodness that I experienced from working with open source.
+**Daniel Stenberg:** \[03:57\] So I brought it up from a completely different reason, actually. Previous to that tweet, I tweeted another image that was one of these funny things, about one of these fake O'Reilly covers from a book that says "Thanklessly maintaining open source" and a sad lama on it... You know, more of the constant mantra that is maintaining open source is a bit of a thankless job many times, and we do a lot of things... And then someone replied to me and said "Well, you got a gold medal." \[laughter\] So I had to sort of show the other side of the coin really, because I think I have gotten a lot of good things from open source, and I enjoy it a lot. It's not an ordeal or a struggle for me, it's a pleasure and I do it for fun... So I definitely wanted to bring out some of the goodies and goodness that I experienced from working with open source.
 
 **Jerod Santo:** Well, this is only your second time on this show, but it's probably the umpteenth time that your name has been mentioned since we had you on three years back, because you impressed us so much with the 17 years of dedication to curl, and just this relentless pursuit of what is such a popular, widely-used tool, and so relied upon. This is definitely the web's infrastructure type of a thing. And so many people burn out, fizzle out, projects change...
 
@@ -46,7 +46,7 @@ So many things go what we might consider wrong - wrong in terms of sustainabilit
 
 **Daniel Stenberg:** But it is open source, and its licensed extremely liberal, so anyone is free to continue wherever they feel like at that point, or at any point, really.
 
-**Jerod Santo:** \[00:08:08.01\] It kind of reminds me of this conversation we had off-air at Build with the Python theme there, Adam, about really the passing down of the torch from Guido van Rossum to whoever is next with regards to the Python project, and when you have a BDFL, if that BDFL is really good at doing BDFL things, everything goes well... But eventually, there needs to be a passing of the torch. Have you put serious thoughts into that, or are you far enough away -- of course, with that we always bring up the somewhat morbid conversation of the bus factor, like "What if something bad happens to Guido or to yourself, Daniel?", but more likely, an eventual retirement from software or from open source... Is that something that is actively in your mind, or does it just feel like it's really far away at this point?
+**Jerod Santo:** \[08:08\] It kind of reminds me of this conversation we had off-air at Build with the Python theme there, Adam, about really the passing down of the torch from Guido van Rossum to whoever is next with regards to the Python project, and when you have a BDFL, if that BDFL is really good at doing BDFL things, everything goes well... But eventually, there needs to be a passing of the torch. Have you put serious thoughts into that, or are you far enough away -- of course, with that we always bring up the somewhat morbid conversation of the bus factor, like "What if something bad happens to Guido or to yourself, Daniel?", but more likely, an eventual retirement from software or from open source... Is that something that is actively in your mind, or does it just feel like it's really far away at this point?
 
 **Daniel Stenberg:** Both yes and no. I would say that it is active in my mind, in the regards that I've been thinking about it and I've sort of given it thoughts about how to do it at some point in time, but it's not something that I consider doing any time soon, sort of hand it over to someone.
 
@@ -62,7 +62,7 @@ But at the same time, the way I do the project, I also know that I have a pretty
 
 **Adam Stacoviak:** I can recall several years ago when we talk to you before, you mentioned how some of the income you've been able to make obviously has been because of contract jobs that you've done for various companies to add features, or specific things... You know, I'm just imagining that it's very difficult to piecemeal and break off some of that whenever it's so kind of you focused in the minutiae of it... And it's not exactly - I don't wanna say not the funnest work. I've never done it, obviously, but it doesn't have this lure, like some other popular projects may have, like "Hey, come and be a contributor, and you'll have this glorious open source lifestyle." \[laughter\] I'm not sure there's much draw; how do you draw people into this project with you?
 
-**Daniel Stenberg:** \[00:12:01.14\] Yeah, that's a good question... I don't know.
+**Daniel Stenberg:** \[12:01\] Yeah, that's a good question... I don't know.
 
 **Adam Stacoviak:** I mean, it's the pipelines of the internet, right? It's internet plumbing.
 
@@ -92,7 +92,7 @@ It also goes back to this constant question... I say, "Yeah, I've been working w
 
 **Adam Stacoviak:** I think we asked you that on the last podcast... \[laughs\]
 
-**Jerod Santo:** \[00:16:02.24\] That was actually one of our questions, was "What's new with curl? What have you been doing these last few years?"
+**Jerod Santo:** \[16:02\] That was actually one of our questions, was "What's new with curl? What have you been doing these last few years?"
 
 **Daniel Stenberg:** What have I been doing - that's a completely natural question, and it's not a bad question, it's just that, you know, when you're working with something and the facade or the front is the same, and the whole point with the tool and the library is that it should work the same way... We work really hard to make sure that it keeps working the same way, but of course, we added a little stuff, and we fixed bugs, and stuff. But the point is that you shouldn't realize that a lot of stuff underneath actually changed and we sort of replaced half of the engine, and added a lot of other things, or documented everything again in another way; you don't have to think about that.
 
@@ -132,7 +132,7 @@ I wanna sometimes help people in the project and people around me to realize tha
 
 **Jerod Santo:** It's kind of like a "Did you know...?" kind of thing. I think that would be so useful. I was thinking - you know, kind of a callback to a recent show - maybe there was a Devhints out there for curl, and of course, there is... So devhints.io/curl. This is kind of what I'm thinking, but it's light on examples. There's three examples, and I think you could probably come up with some complex use cases where "This would be super handy for this particular case, and then here's your curl command."
 
-\[00:20:06.21\] One thing I have seen a lot of, which is really neat, is different HTTP tooling - specifically some desktop apps for Mac - will actually have like an "Export to curl" button once you've crafted a specific request, right? And then you can just get the curl export and put that in your terminal, and that's really cool.
+\[20:06\] One thing I have seen a lot of, which is really neat, is different HTTP tooling - specifically some desktop apps for Mac - will actually have like an "Export to curl" button once you've crafted a specific request, right? And then you can just get the curl export and put that in your terminal, and that's really cool.
 
 **Daniel Stenberg:** Yeah, the "Copy as curl" has really become a popular feature, and I like that, too.
 
@@ -158,7 +158,7 @@ I've actually just landed it in Git, so it'll be for the next curl release, the 
 
 **Jerod Santo:** Well, I'm sure a long time coming, but you also mentioned that this was not an insignificant amount of code change. Maybe you weren't set up to do this kind of output, or -- why was it a bigger feature than maybe people would think it is?
 
-**Daniel Stenberg:** \[00:23:50.17\] I think it's mostly a lot of internal decisions on how to do HTTP, and show headers... You know, we have this concept of headers, and curl supports a lot of different protocols, and some of them have the internal concept of headers, but I only wanted to do the bold for HTTP headers. So it was mostly because of how I had done this with curl until now, or not done it.
+**Daniel Stenberg:** \[23:50\] I think it's mostly a lot of internal decisions on how to do HTTP, and show headers... You know, we have this concept of headers, and curl supports a lot of different protocols, and some of them have the internal concept of headers, but I only wanted to do the bold for HTTP headers. So it was mostly because of how I had done this with curl until now, or not done it.
 
 And also, I had to change -- I don't know how to explain it, but headers come until the carriage return line at the end of a feed, so you wanna make sure that you actually do this on a complete header, and not on a partial header. So if it would be an extremely long header, it would still need code to handle -- that would only do the left part and not the right part of it, so it was a lot of finicky internal things.
 
@@ -166,13 +166,13 @@ And also, I had to change -- I don't know how to explain it, but headers come un
 
 **Daniel Stenberg:** Yes, and I've sort of done a lot of decisions a long time ago that were convenient because I didn't do this, and now when I had to go back and make sure that I could split up the headers like this, then I had to just remodel a couple of things and shape it up. But I think it was all good. I think I improved some other tiny things in the process, and I know that a lot of people will appreciate getting the headers bold; however small it may sound, it's one of those details that makes it look better.
 
-**Break:** \[00:25:31.02\]
+**Break:** \[25:31\]
 
 **Adam Stacoviak:** So I guess we came to this conversation through an embarrassing moment for me... It was early in the morning on a Sunday, and somebody in our Slack - Daniel - had said "Hey, what's the state of HTTP/2 and where is it going?" and I'm like "Great question, we should ask Ilya. We've had him on the show a while back, and it'd be great to catch up. I send him an email with the subject line "Current state of HTTPS?", not /2, and I had to quickly check that, because that was obviously not right... But I was reaching out to essentially get an update on TLS 1.3, QUIC, and some other stuff... So maybe help us understand -- he said that you're working on this; you've got a lot of stuff going on. What's going on?
 
 **Daniel Stenberg:** There's a lot of stuff going on. Well, HTTP/2 - that shipped three years ago, right? Our last episode... And the RFC was published in May 2015, so yeah. And now, three years later, the work is of course no longer going on standard-wise on HTTP/2 very much. There are still things happening in HTTP/2, but the fundamentals are there, and it's good, and it's working, and it's being used.
 
-\[00:28:00.16\] I could just add perhaps that if we look at traffic done by Firefox, we can see that Firefox is using HTTP/2 in about 75% of all HTTPS traffic, so I would say that is pretty good; a significant amount of the traffic is HTTP/2 now... Counted by volume, of course. If you look at the other ways - how a large percentage of all the web servers in the world that are providing HTTP/2, it's not as nice numbers. I think we're approaching 40% of the top 1,000, and in the top 10 million it's like 25% or so.
+\[28:00\] I could just add perhaps that if we look at traffic done by Firefox, we can see that Firefox is using HTTP/2 in about 75% of all HTTPS traffic, so I would say that is pretty good; a significant amount of the traffic is HTTP/2 now... Counted by volume, of course. If you look at the other ways - how a large percentage of all the web servers in the world that are providing HTTP/2, it's not as nice numbers. I think we're approaching 40% of the top 1,000, and in the top 10 million it's like 25% or so.
 
 But it's still moving, and I think the numbers are still rising pretty quickly. I think they doubled roughly the last 12 months or so. They've been doing that for a while. So it's growing, and it's being used, and it's being understood, and I think there are areas that have been more successful, and some that have been less successful in the protocol.
 
@@ -197,7 +197,7 @@ Anyway, Google took their efforts to the IETF and said "We should make a standar
 
 **Daniel Stenberg:** So we are pretty much stuck. TCP or UDP - those are the ones we have to choose between.
 
-**Jerod Santo:** \[00:31:56.13\] So now the answer is "Well, we can't change TCP enough to make it faster or better or more secure, but we can take UDP, which is very lightweight and doesn't have any of these things a TCP has, and make it TCP-like", but not with some of the trappings, I guess?
+**Jerod Santo:** \[31:56\] So now the answer is "Well, we can't change TCP enough to make it faster or better or more secure, but we can take UDP, which is very lightweight and doesn't have any of these things a TCP has, and make it TCP-like", but not with some of the trappings, I guess?
 
 **Daniel Stenberg:** Exactly. By choosing UDP and basically "Do it all yourself", then you can basically decide how to do it... You just do whatever you want. And in Google's case, they have a fairly large client-side implementation and a fairly large server-side implementation. They were in an excellent position to experiment with doing their own protocol over UDP, and implement all this and check it out, see how it works... And it worked really good, and they figured out that "This is a protocol we should make a standard for the web and the internet."
 
@@ -229,7 +229,7 @@ And looking at Google's numbers, they claim that they -- my number is old now, b
 
 **Daniel Stenberg:** Yes, exactly. So I think they went public with it in 2013, but then they had already been working on it in private before that... But then they produced what I call Google QUIC, and that is basically sending HTTP/2 over UDP, with custom encryption code. So you could almost use your HTTP/2 implementation and just provide that QUICK stack, and it would work. But when they took that protocol -- well, they kept up with documenting how the protocol worked, and they had a website for everything, and they made it all in the public, and they took their latest update of the drafts to the IETF and said "We should document this protocol. This is QUIC from Google", blah-blah-blah, and when they brought it into the IETF and they started to look at it and decide on how to move forward on this, they came to the conclusion that this bundled solution that is one transport protocol that is only sending HTTP/2 wasn't ideal for a protocol or a transport like this. So they came up with the conclusion that QUIC should be split in a transport part and an application part.
 
-\[00:36:39.06\] So it should be able to also transport other things than HTTP, and DNS was one of the first things that were discussed and it has been one of the second protocols that have been in discussion all the time. So then QUIC became "QUIC the transport", and "HTTP over QUIC" is the new HTTP...
+\[36:39\] So it should be able to also transport other things than HTTP, and DNS was one of the first things that were discussed and it has been one of the second protocols that have been in discussion all the time. So then QUIC became "QUIC the transport", and "HTTP over QUIC" is the new HTTP...
 
 **Jerod Santo:** Is that the final version of QUIC, or is that a transitionary version as well?
 
@@ -247,7 +247,7 @@ And looking at Google's numbers, they claim that they -- my number is old now, b
 
 **Daniel Stenberg:** Well, yes, but that's the reality... Just as sort of a little story into this - one of the features they added in TCP... I think like seven years ago they added a TCP Fast Open, which is a way to send data already in the first SYN packet in TCP. You know, when you do a TCP handshake, you do a SYN, and SYN - there is a three-way handshake... So in order to gain roundtrip, they invented this method where you could add data already in the first SYN packet, so you would save a roundtrip; you would get data earlier. And you know, a lot of this struggle is to get data earlier; reduce roundtrips, get data earlier. So sending data already in the first packet of TCP - that's potentially saving, if not tens, but sometimes hundreds of milliseconds if you're far away; it's a huge benefit.
 
-\[00:40:27.29\] But implementing and using this TFO over the internet today - it turns out to be a struggle and a pain to make sure that it works, because there are so many machines out there that block that little new bit that comes saying "Here's the TFO", saying "Nuh-uh... That's not TCP the way we want it. Deny!"
+\[40:27\] But implementing and using this TFO over the internet today - it turns out to be a struggle and a pain to make sure that it works, because there are so many machines out there that block that little new bit that comes saying "Here's the TFO", saying "Nuh-uh... That's not TCP the way we want it. Deny!"
 
 **Jerod Santo:** Yeah, that's a tough problem. You just have so much infrastructure out there... It's not feasible to change the boxes in the middle, because there's just too many owners, too many places, too many situations that you're never gonna be able to replace those.
 
@@ -275,13 +275,13 @@ This is really good, as long as your network is decent, and it turns out that if
 
 **Daniel Stenberg:** Yeah, and much less roundtrips. You can fire off 100 requests at once, basically, and get the responses, instead of this ping-pong - request/response, request/response, sending/waiting, sending/waiting.
 
-\[00:44:10.14\] This TCP limitation is not there in QUIC. In QUIC you create connections, but they're not connections in the same way as TCP has them. When you're sending a stream, the streams themselves are reliable within the stream. So we can send things, and you know that the picture or imagine or whatever you send will arrive in the other end unmodified and exactly as it was sent from the source. But the streams - they are independent from each other. So if you drop a packet somewhere in the middle, that belongs to stream one. Stream two can still continue, because it still has all its little packets. It's only the one that actually has lost packets that has to wait. So this makes the lossy network situation completely different, because then if you lose a few packets somewhere - yeah, sure, those streams that belong to those that actually have lost packets, they will have to wait and resend packets and everything, but the others can continue.
+\[44:10\] This TCP limitation is not there in QUIC. In QUIC you create connections, but they're not connections in the same way as TCP has them. When you're sending a stream, the streams themselves are reliable within the stream. So we can send things, and you know that the picture or imagine or whatever you send will arrive in the other end unmodified and exactly as it was sent from the source. But the streams - they are independent from each other. So if you drop a packet somewhere in the middle, that belongs to stream one. Stream two can still continue, because it still has all its little packets. It's only the one that actually has lost packets that has to wait. So this makes the lossy network situation completely different, because then if you lose a few packets somewhere - yeah, sure, those streams that belong to those that actually have lost packets, they will have to wait and resend packets and everything, but the others can continue.
 
 **Jerod Santo:** It sounds like "Thank goodness for UDP", because it's provided us a loophole around the ossification, right? We would have been stuck if this UDP hack wasn't available to us.
 
 **Daniel Stenberg:** Exactly. It is exactly like that. That's why it has to be UDP, and that's why we're doing all this work, implementing TCP-like stacks in user space in both ends. QUIC, as a protocol, is (I would say) far more advanced than HTTP/2, because now you also have to implement the transport part, and then the HTTP part on top of that.
 
-**Break:** \[00:45:57.15\]
+**Break:** \[45:57\]
 
 **Jerod Santo:** Daniel, if you were to describe QUIC's mission, what would it be?
 
@@ -295,7 +295,7 @@ This is really good, as long as your network is decent, and it turns out that if
 
 **Daniel Stenberg:** Exactly, the spec is sort of you can do it either way. But for QUIC there's no unencrypted version. You need TLS 1.3. You can't avoid it.
 
-**Jerod Santo:** \[00:48:03.15\] You said there's more QUIC coming... This QUIC hasn't even arrived yet; how can we look that far down the pipeline?
+**Jerod Santo:** \[48:03\] You said there's more QUIC coming... This QUIC hasn't even arrived yet; how can we look that far down the pipeline?
 
 **Daniel Stenberg:** I think that is maybe -- we don't have to care about it right now, but...
 
@@ -321,7 +321,7 @@ But the IETF version of QUIC, which is quite different over the wires... It's so
 
 **Jerod Santo:** Tell us more. What things?
 
-**Daniel Stenberg:** \[00:52:01.25\] Well, it's like building a tower, or building a house - when can you move in? When I implemented HTTP/2 for curl, I went in pretty early, and I started implementing support already in one of the drafts I think a year before it finalized. That turned out to be really useful, both as feedback back into the standard process, but also a lot of just trying out things and getting everything working, and interoping with all the other implementers. I think it's really useful to get in as early as possible... But not too early from my point of view, because in the QUIC world there's so much transport here, and I wanna have the transport part fairly done by the time I start adding the HTTP parts on top of that transport stuff.
+**Daniel Stenberg:** \[52:01\] Well, it's like building a tower, or building a house - when can you move in? When I implemented HTTP/2 for curl, I went in pretty early, and I started implementing support already in one of the drafts I think a year before it finalized. That turned out to be really useful, both as feedback back into the standard process, but also a lot of just trying out things and getting everything working, and interoping with all the other implementers. I think it's really useful to get in as early as possible... But not too early from my point of view, because in the QUIC world there's so much transport here, and I wanna have the transport part fairly done by the time I start adding the HTTP parts on top of that transport stuff.
 
 Then I need to cooperate with others to do a library; there are already many libraries that implement this, but I am having a particular one in mind, and when I work with those guys, to make sure that we get an HTTP over QUIC library that works fine with curl, and that I can make sure that curl uses.
 
@@ -339,7 +339,7 @@ I'm not sure why they picked DNS as the other protocol to use here, because... I
 
 **Daniel Stenberg:** One of the interesting things without TCP is what is an HTTPS URL, really? Or an HTTP URL, for that matter... But HTTPS URLs - they are basically implying TCP, right? Or HTTPS is... Since they're not saying "Connect to me on UDP port 443", because you probably don't have that. So that's one of the greater challenges - how to move away from that.
 
-\[00:56:26.02\] I didn't mention that, but the way you bootstrap into a QUIC world from HTTP (or HTTP/2) is that the server is replying with an alt Alt-Svc header saying "You can connect to this origin over on this server, using this protocol", blah-blah-blah, and then you continue from there and you cache that information.
+\[56:26\] I didn't mention that, but the way you bootstrap into a QUIC world from HTTP (or HTTP/2) is that the server is replying with an alt Alt-Svc header saying "You can connect to this origin over on this server, using this protocol", blah-blah-blah, and then you continue from there and you cache that information.
 
 **Jerod Santo:** I was actually gonna ask about that - is that then a UDP request? Like, the client sends one of those first? It can't be a TCP request...
 

@@ -30,7 +30,7 @@ Joining me today -- well, it's only Johnny Boursiquot, isn't it? Hello, Johnny.
 
 **Elias Naur:** So immediate mode is, in contrast to retained mode - and retained mode is the design or the way to structure regular or most other user interface libraries. So retained mode is where you have a lot (if not all) of your visible user interface state in the user interface library. The example I like to use is the browser, because almost everyone knows a little bit of JavaScript programming and the browser DOM... And in the DOM, you store all that is visible on the browser page, and also of course many things that are not visible... But for our case it's the visible thing that we're interested in.
 
-\[00:04:15.11\] And the thing about retained mode is that you usually have (at a very high level) your program state duplicated. So if you have, say, a list of contacts or something else you want to display in your browser page, you typically have that list twice. You have some representation in your program that you got from a database, or from the network, or somewhere else... And then you have it -- in the case of Go, you have Go structures to represent those contexts.
+\[04:15\] And the thing about retained mode is that you usually have (at a very high level) your program state duplicated. So if you have, say, a list of contacts or something else you want to display in your browser page, you typically have that list twice. You have some representation in your program that you got from a database, or from the network, or somewhere else... And then you have it -- in the case of Go, you have Go structures to represent those contexts.
 
 But on the other hand, you also have that information stored in the DOM in the case of the browser, because you have a DOM element for the label of the name of the contact, you have a DOM element that represents the profile image of the contact, and so on. If you have other information on that page, well that's also represented by DOM elements.
 
@@ -48,7 +48,7 @@ And the great thing about that is that you don't have this duplication of state.
 
 And again, back to the retained mode example, if you say you have this label that represents a name, and an update to the profile comes from the network, to say "Well, the user changed his name", or something, then you have to change that name in your structure, which is unavoidable, but you also have to have an existing reference, or obtain a reference to the DOM element that represents the names. And sometimes the name is displayed several times, in the same user interface; you have to update all those duplicate state somehow.
 
-\[00:08:12.19\] And again, if you want to remove a label, or remove a contact, or something like that, then you have to go in and take the element out. So not just duplicating the actual state, which is the username, you're also duplicating so to speak the metadata of that label, which - does it exist at all? Where is it? Where is it positioned? And so on.
+\[08:12\] And again, if you want to remove a label, or remove a contact, or something like that, then you have to go in and take the element out. So not just duplicating the actual state, which is the username, you're also duplicating so to speak the metadata of that label, which - does it exist at all? Where is it? Where is it positioned? And so on.
 
 And again, in immediate mode you get an update, "Okay, I'll redraw/respecify my entire interface, and draw whatever is relevant." And if you don't need the label, you just don't draw it.
 
@@ -64,7 +64,7 @@ And the last task for any user interface, which I think is the most interesting,
 
 In the DOM you say addEventListener() and you call it 'click', and then you give it a JavaScript closure or a function.
 
-\[00:12:10.14\] And that of course leads to "When do you remove this callback?" What if this callback is invoked? Because you can't really -- a lot of bugs are hidden, in the sense that they only trigger when you click the button at the wrong time. That's a very typical example of something that can be very difficult to deal with in traditional user interfaces. What if the user clicks it on the wrong time? And that almost never happens, because the user almost always behaves nicely, if you can say that. He/she clicks the button when it's time to click the button, and don't click it when it's not relevant to the user interface. But sometimes they do anyway, because of delays, or something like that, and then you get a weird crash and you have to debug that.
+\[12:10\] And that of course leads to "When do you remove this callback?" What if this callback is invoked? Because you can't really -- a lot of bugs are hidden, in the sense that they only trigger when you click the button at the wrong time. That's a very typical example of something that can be very difficult to deal with in traditional user interfaces. What if the user clicks it on the wrong time? And that almost never happens, because the user almost always behaves nicely, if you can say that. He/she clicks the button when it's time to click the button, and don't click it when it's not relevant to the user interface. But sometimes they do anyway, because of delays, or something like that, and then you get a weird crash and you have to debug that.
 
 So again, back to the immediate mode design - you don't want state in the user interface, in the library itself, so you don't have callbacks. What you do instead is as you specify the interface, you at some convenient time (convenient for you, the programmer), you ask the button "Have you been clicked since the last frame?" And that does an if check and if you have something like a toggle bar, then you could do a for loop, say "As long as you've been clicked", if you have a user that very quickly clicks a toggle, a checkbox twice, then you need to update the state twice. But other than that, it's more or less just an if statement. Say "if button clicked...", and then update your state. Do whatever you want. Show something, print something to the screen, initiate a network request, whatever you want to do. And that is it.
 
@@ -78,7 +78,7 @@ And again, if you don't want to handle events because you're not ready to do it,
 
 So is there a loop within (in this case) Gio, where basically you have the opportunity at the next iteration of the loop? Are you redrawing everything? Or why are you using some of that terminology? How does that connect back to this kind of timeline-based animation and creative tooling?
 
-**Elias Naur:** \[00:15:52.07\] It connects back because that's exactly what happens. You have a for loop at some top level. In a Gio program you have a for loop at the top level of your program, typically... And that for loop typically contains a select statement, which waits for events from (say) the network, but also from the window, which feeds the event channel with frame events. A frame event is simply a request from the system for any reason to redraw you. And in essence, you go through the whole user interface as it is right now. Not your whole program state, as I said before, but you go through the relevant program state necessary to respecify, redraw the window as it is now.
+**Elias Naur:** \[15:52\] It connects back because that's exactly what happens. You have a for loop at some top level. In a Gio program you have a for loop at the top level of your program, typically... And that for loop typically contains a select statement, which waits for events from (say) the network, but also from the window, which feeds the event channel with frame events. A frame event is simply a request from the system for any reason to redraw you. And in essence, you go through the whole user interface as it is right now. Not your whole program state, as I said before, but you go through the relevant program state necessary to respecify, redraw the window as it is now.
 
 And you say framing and timing - there's not an explicit timeline as such, but the interesting thing about what you're saying is that to animate things with immediate mode and Gio. There's a most simple thing you can imagine, and that is simply asking for the frame events at regular intervals, which is typically when your monitor will refresh (say) 60 times per second if it's a 60hz monitor, or even more if it's on a phone... But you ask the Gio system for "I'd like to animate things." More concretely, what you do is say "My state is changing all the time." So you get these frame events at regular intervals, and you simply update your state according to the current time, and that's it. That's how you animate.
 
@@ -94,11 +94,11 @@ So I think that's one of the many advantages - something like animation is taken
 
 **Elias Naur:** Two things. The first thing is that you don't explicitly say "clear screen" and then "draw this, draw that". What you do as a program developer is you actually specify your interface as a list of operations. So you say "Okay, I want an area here which is wide, and on top of that I want this button shaped blue, and on top of that I want some text" and so on. So what you end up with is a list of operations that describe at a quite low level what your screen is going to look like, and you pass that to the georenderer... Which you don't know anything about, but you just pass it along and say "Okay, do whatever you want with that."
 
-\[00:19:57.14\] And what Gio can do at that point is that -- it doesn't do that much yet, because it's pretty fast already, but what it can do is that it can recognize a diffing algorithm. It can take "Okay, what did you draw in the last frame, and what are you drawing now? What are the differences between these two operation lists?" And it can do that very efficiently, because I decide in the API what is the format of this operation list. It can be constructed so that it is very easy to find the differences, and then just draw that difference. That's one reason.
+\[19:57\] And what Gio can do at that point is that -- it doesn't do that much yet, because it's pretty fast already, but what it can do is that it can recognize a diffing algorithm. It can take "Okay, what did you draw in the last frame, and what are you drawing now? What are the differences between these two operation lists?" And it can do that very efficiently, because I decide in the API what is the format of this operation list. It can be constructed so that it is very easy to find the differences, and then just draw that difference. That's one reason.
 
 The second reason, just very shortly, is that it uses the GPU to draw, and the GPU is screamingly fast, even on phones.
 
-**Break:** \[00:20:44.04\]
+**Break:** \[20:44\]
 
 **Jon Calhoun:** Assuming I'm understanding this correctly, whenever an immediate mode program, something like Gio is rendering, and you say it's like this for loop that continues iterating every time, I assume that that means that every single time one of the ways that you're avoiding bugs is you're essentially getting like a snapshot of all the data, because like you said, you're not duplicating it. So you don't have to worry about that "Well, I was in the middle of changing something, but it's not quite done." Because this is the data every time, it presumably should make things easier to replicate. If you give it this set of data and tell it to render, you should see the same thing on screen every single time. Is that correct?
 
@@ -120,7 +120,7 @@ But as far as I can tell, they still have some kind of explicit state tracking. 
 
 **Mat Ryer:** We're actually using Svelte... You built the same kinds of things -- as a JavaScript framework you built the same kinds of things, but all the processing happens at compile time. So there isn't a lot of runtime in the browser with Svelte. It's just -- they do all that work at runtime. So I think that's quite interesting... But still, conceptually, I'm not sure where it fits in with those... But it's really interesting to hear about that.
 
-\[00:24:19.12\] I was gonna ask - so you mentioned clicking a button. I had an Amiga, and I used to love building UIs on this Amiga. And you actually didn't have any frameworks then. You could draw rectangles and lines and pixels and circles, I think, and you could fill, and not much else. So to do things like even change the state of a button on hover, it was a case of catching the mouse events, and then comparing through some -- the way I used to do it was just kind of a global X/Y on the screen, positioning. So I would just check "Is the mouse kind of greater than the X, but not greater than the X plus the width of the button?" and that told you if it was in this part of the screen... And same for the Y axis. And then you could know... So does Gio have to do things like that, at that low level? Does it deal with any other kinds of abstractions, or is it literally kind of from the ground up, it's dealing with those low-level problems?
+\[24:19\] I was gonna ask - so you mentioned clicking a button. I had an Amiga, and I used to love building UIs on this Amiga. And you actually didn't have any frameworks then. You could draw rectangles and lines and pixels and circles, I think, and you could fill, and not much else. So to do things like even change the state of a button on hover, it was a case of catching the mouse events, and then comparing through some -- the way I used to do it was just kind of a global X/Y on the screen, positioning. So I would just check "Is the mouse kind of greater than the X, but not greater than the X plus the width of the button?" and that told you if it was in this part of the screen... And same for the Y axis. And then you could know... So does Gio have to do things like that, at that low level? Does it deal with any other kinds of abstractions, or is it literally kind of from the ground up, it's dealing with those low-level problems?
 
 **Elias Naur:** Gio as a library is from the ground up. When you consider what to base your UI library on, it's very tempting to use something else... Say for Android and iPhone, for example, they have a very rich set of widgets, and they have a lot of behavior already encoded in those widgets... So many frameworks take the approach of reusing -- they say "Okay, we'll just reuse whatever is available on the platforms", and then try to make that behave the same across platforms... Which, of course, works pretty well in the beginning, but then (at least in my experience) breaks down. The devil is in the details, essentially.
 
@@ -136,7 +136,7 @@ So yes, in essence, Flutter as well as Gio does at the lowest level handle event
 
 **Elias Naur:** I can show a program, but that would not be very useful on a podcast... So what you're asking for is what is the structure of a typical Gio program...
 
-**Mat Ryer:** \[00:28:07.05\] Yeah. Would you create a struct that describes a kind of view, and have that contain sort of child nodes of the things that make up that page? Do you build it in that kind of --
+**Mat Ryer:** \[28:07\] Yeah. Would you create a struct that describes a kind of view, and have that contain sort of child nodes of the things that make up that page? Do you build it in that kind of --
 
 **Elias Naur:** No, we will do it -- actually, it depends on the program, of course. If you have something in the program that needs to be dynamic... Say you have a list of users; then you need somewhere a slice of user objects, I suppose, which is then filled in from somewhere else, and then you need that slice to represent a dynamic number of users.
 
@@ -152,7 +152,7 @@ So you get constraints sort of as an input in this context, and it's up to the w
 
 **Mat Ryer:** That's really cool. It's nice to know that, because of course, everyone's gonna probably -- if you're building an app, you're gonna need those kinds of layouts, to be able to say "Spread these elements out evenly" or "This is the one that can expand to fill the space, these other two are fixed", those kinds of things. They are very useful, and I saw in some of the source code examples it is really quite easy. You just sort of create like a tree of elements, isn't it? It works all the way down. Really interesting.
 
-\[00:31:53.06\] So what sort of use cases is this for? When you look at it on the GioUI.org, it does look like an application framework for building frontend apps. And by the way, on that website there is an image of an example view that you've renedered... And I was blown away, because there's a little Run button next to it, which I almost missed; and clicking that sort of ran the Web Assembly version of it, didn't it? Which is crazy. So it supports Web Assembly.
+\[31:53\] So what sort of use cases is this for? When you look at it on the GioUI.org, it does look like an application framework for building frontend apps. And by the way, on that website there is an image of an example view that you've renedered... And I was blown away, because there's a little Run button next to it, which I almost missed; and clicking that sort of ran the Web Assembly version of it, didn't it? Which is crazy. So it supports Web Assembly.
 
 **Elias Naur:** Yes. But not very well. Well, it supports Web Assembly in theory, but in practical terms the Go implementation of Web Assembly - which is an entirely different discussion - is very, very bad... Because one thing, Web Assembly is not that great either, because it lacks support for something such as threads, for example; you only have access to one thread... And it's interface -- for example for Gio I need the access to WebGL, which is the browser way of doing hardware accelerated graphics, and you essentially have to call a Reflect-like interface from Go, which then calls into JavaScript, which then invokes the browser's underlying WebGL implementations... And as you can imagine, that is very inefficient.
 
@@ -172,7 +172,7 @@ So Gio has almost the minimal dependencies you can have, which is simply somewhe
 
 **Elias Naur:** And that's another reason why even though we got Go to run very efficiently with Web Assembly, you may not choose it anyway to use in the browser, because you'll kind of have the same problem as you have with Flash, or with the Java applets of the old. It's much better integrated in the browser, but it's still not so well integrated that you can select this element and inspect it from the inspector... It doesn't integrate 100% with the rest of the page if you have that.
 
-**Mat Ryer:** \[00:36:01.07\] You could just use HTML and CSS, I suppose...
+**Mat Ryer:** \[36:01\] You could just use HTML and CSS, I suppose...
 
 **Elias Naur:** If you have something that you need to be very slick, then yeah, you should use something that is native to the browser. But of course, if you have a project which is primarily an app or a desktop application, and you need a quick and dirty way to draw that in the browser or activate that in the browser, then that's a perfectly viable way to do it, because the code is literally the same. So other than dealing with a different size, and so on, it's the same code.
 
@@ -184,13 +184,13 @@ I hope and expect that that will be very useful for doing the future tutorials, 
 
 **Mat Ryer:** Yeah, I agree. Absolutely. And it is great, if you go to that website - we'll put it in the show notes - there are definitely some things to play with.
 
-**Break:** \[00:38:04.28\]
+**Break:** \[38:04\]
 
 **Mat Ryer:** When you look at the website you do get a sense that it's for applications, but what about games? What about more fun things that you could potentially use it to build? Is that viable?
 
 **Elias Naur:** Yeah, sure. An issue you have with games is that you typically want a very low-level access to your graphics card. If you have anything else than the most basic games, then you need this axis. And Gio, for portability reasons, only more or less exposes the operations that are necessary to do 2D vector-based user interfaces well. So what I've done to cover this use case - because I really want to cover those niche use cases well, because one thing that happens when you introduce something like this to the world is that all the Go programmers say "Well, that seems like a good idea." But if you ask a so-called frontend developer, he will say "Why should I care about Go at all?" So I have to learn a different language just to use your framework.
 
-\[00:39:50.10\] So I'm trying to reach those niches where you have enthusiastic Go programmers anyway, or you have an existing bunch of code anyway, and I think that games is a very good example... Also because I used to do computer games in a previous life, about 15 years ago.
+\[39:50\] So I'm trying to reach those niches where you have enthusiastic Go programmers anyway, or you have an existing bunch of code anyway, and I think that games is a very good example... Also because I used to do computer games in a previous life, about 15 years ago.
 
 So the problem is, of course, that you need the low-level access. And the great thing is that that is also solved by Gio being very portable. So what you can do is you can extract Gio and only use the widgets and the layouts and all the tools that are in the Gio Go code, the portable Go code. And then you can attach another renderer to it. So there's somewhere in Gio that translates these operations, say "circle there, rectangle there, background there, text there" - translates that to GPU commands. And you can take those commands and intercept them and merge them with whatever you have.
 
@@ -220,7 +220,7 @@ You don't see many new desktop applications done these days... And if you do, it
 
 **Elias Naur:** \[laughs\]
 
-**Mat Ryer:** \[00:44:03.22\] It is very good. But as a general rule as well, it's a nice thing -- for anybody that's getting into open source that doesn't feel like their coding is up to scratch yet, it is a kind of great way to get involved in other projects, is by doing logos or other kind of artwork bits and pieces like that. And I think it brings the projects to life. I don't have any data on it, nor have I done any research whatsoever, but 80% of open source projects with a logo probably are gonna do better, aren't they?
+**Mat Ryer:** \[44:03\] It is very good. But as a general rule as well, it's a nice thing -- for anybody that's getting into open source that doesn't feel like their coding is up to scratch yet, it is a kind of great way to get involved in other projects, is by doing logos or other kind of artwork bits and pieces like that. And I think it brings the projects to life. I don't have any data on it, nor have I done any research whatsoever, but 80% of open source projects with a logo probably are gonna do better, aren't they?
 
 **Johnny Boursiquot:** \[laughs\]
 
@@ -250,7 +250,7 @@ So sponsorship is very important... But also, what I'm going to work on is this 
 
 **Mat Ryer:** That's brilliant. Well, it's that time again... It's time for our Unpopular Opinions.
 
-**Jingle:** \[00:48:11.17\]
+**Jingle:** \[48:11\]
 
 **Mat Ryer:** So who wants to go first? Anyone got an unpopular opinion?
 
@@ -318,7 +318,7 @@ So you sort of say "Okay, this is very tedious. It must be because I'm not very 
 
 **Elias Naur:** Diverting again? \[laughter\]
 
-**Mat Ryer:** \[00:52:10.24\] He doesn't run in immediate mode, so... \[laughter\]
+**Mat Ryer:** \[52:10\] He doesn't run in immediate mode, so... \[laughter\]
 
 **Johnny Boursiquot:** Nice, nice... \[laughter\]
 
@@ -340,7 +340,7 @@ That's the idea, that's what I'm thinking - we shouldn't conflate all these disc
 
 **Jon Calhoun:** I think it's especially challenging because, like you said, startups will -- like, if you start with one developer on a startup, they kind of have to do everything. They might not be great at it all, but they have to do it all. And then when you go to hire, usually the way that gets split up is there's one frontend guy - and by frontend I mean he's doing UI, UX, he's doing probably some coding still... He's doing all these different things, all put together, and they just sort of define it as a frontend developer.
 
-\[00:55:53.07\] Then the larger a company gets, I feel like you're correct, definitely, that these things get isolated and you specialize in what you're really good at... And that ends up having much better results, I'm sure. But it's just very hard, because a lot of these smaller companies are kind of -- it's almost like everybody's hiring using the same terms, but looking for different things, and that makes it really challenging.
+\[55:53\] Then the larger a company gets, I feel like you're correct, definitely, that these things get isolated and you specialize in what you're really good at... And that ends up having much better results, I'm sure. But it's just very hard, because a lot of these smaller companies are kind of -- it's almost like everybody's hiring using the same terms, but looking for different things, and that makes it really challenging.
 
 **Mat Ryer:** You're right, the size of the team I think is important for this... Because David and I - we're building something, and there's just two of us working on it, and we're doing the whole stack. There's pros and cons to that. One of the pros, of course, is we can think about a user experience thing and know all the way down to the database how that's gonna work. When the problem is small enough and you can do that, you can deliver quite a really good experience, paying attention to all the bits in that.
 

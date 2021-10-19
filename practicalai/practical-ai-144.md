@@ -18,7 +18,7 @@
 
 **Nick Wan:** Alright. SLICED is a competitive data science game show that we have on my Twitch channel. It's for data scientists, and they receive a dataset that they've never seen before. And they have two hours to create predictive models, data visualization, find good coding practices, or random things that me and Meg have deemed important to do in the dataset, and all these things earn them points.
 
-\[00:04:14.21\] At the end of the night, depending on how well your model performed, how good your data visualization was based off me and Meg's qualitative--
+\[04:14\] At the end of the night, depending on how well your model performed, how good your data visualization was based off me and Meg's qualitative--
 
 **Meg Risdal:** Whims...
 
@@ -40,7 +40,7 @@ So then we decided to do a pilot season on Nick's stream, and that was well-rece
 
 So I've been desperately seeking out what was that sort of alternative, and there was really no good one, so I figured "Let's just make one", and bring together something that everyone can rally around and cheer for people and become fans of people and data science, and things that you would typically find at conference socials, or conference networking events, things that people can get behind... And for whatever reason, it's worked...
 
-**Meg Risdal:** \[00:08:18.20\] It's working, so far... \[laughter\]
+**Meg Risdal:** \[08:18\] It's working, so far... \[laughter\]
 
 **Chris Benson:** So that begs the question - for someone who has no seen SLICED, can you describe the experience a little bit? Both for the viewer and also for the person who's participating directly.
 
@@ -60,7 +60,7 @@ We have the datasets available on Kaggle, the contestants are using the Kaggle p
 
 **Meg Risdal:** ...a worldwide audience is what I like to call it. So yeah, the contestant experience -- Nick and I put a lot of work into recruiting contestants, so we've got 16 folks... So kind of like a little bit of behind-the-scenes, I suppose, is -- we do everything through Discord, so they're just doing screen sharing on Discord, and we have a little bit of kind of like a green room experience, 30 minutes where we do setup, kind of like the vibe check from the contestants, and I know it's some nerves, and they're kind of like swapping tips, and some ways that they're gonna plan to approach the challenge for the evening... So that's kind of cool behind-the-scenes to see.
 
-\[00:11:50.09\] Then they kind of go dark. It's like two hours live-coding, which - they can be fairly isolated... So they can't hear anything, they can't see anything, we don't let them watch the stream etc. We do let them stream to their own channels if they have Twitch or YouTube, so folks like Jesse Mostipak and David Robinson, for instance, did their own streams on Twitch and YouTube respectively... \[unintelligible 00:12:14.21\] mode on Twitch... So they can be fairly in their own kind of lane for those two hours of live-coding, all while knowing that their screen is visible to chat.
+\[11:50\] Then they kind of go dark. It's like two hours live-coding, which - they can be fairly isolated... So they can't hear anything, they can't see anything, we don't let them watch the stream etc. We do let them stream to their own channels if they have Twitch or YouTube, so folks like Jesse Mostipak and David Robinson, for instance, did their own streams on Twitch and YouTube respectively... \[unintelligible 00:12:14.21\] mode on Twitch... So they can be fairly in their own kind of lane for those two hours of live-coding, all while knowing that their screen is visible to chat.
 
 I think a cool dynamic is the one-way kind of communication that we see from the contestants. They'll sometimes write comments in there, like Markdown, or -- a bit meta (I guess) has been memes... So one component of their points is chat vote. Basically, I think it's five or ten points (it has kind of varied throughout the season) that they can earn through winning a chat vote. So we poll our audience at the end of the episode and say "Who's your favorite?" basically.
 
@@ -78,7 +78,7 @@ And then, of course, Nick has alluded to the community on things like Twitter et
 
 **Nick Wan:** Sure. So we are looking for folks who understand what predictive modeling is, so being able to take a dataset and being able to put that through some sort of statistical or machine learning model package, and come out with predictions... Whether they're regression problems or classification problems. So be able to go from beginning to end with a dataset in to predictions. And then also be able to have some sort of data visualization skills, whether that's really basic, like if you're in Base-R, or you're using Matplotlib, or whatever it might be... Or if you are really fancy, doing things in Plotly, or doing things in Bokeh, or whatever it might be, crafting amazing interactive stuff. Whatever your data visualization skillset is, just have some.
 
-\[00:15:48.09\] With those two components, that typically -- at least in my personal opinion, that usually qualifies most folks as data analysts or above kind of skillset. So that's sort of what we're looking for. Of course, the big component of all of this is you only have two hours to do all of it. So whether you're a 20-year vet in tech, doing software engineering and deep learning, or if you are a student, the time is really the limiting factor for everyone, so you can't really get so deep into the neural net architecture. You can't really develop a full, end-to-end, shiny app... But that does serve as sort of like "What can you do then?"
+\[15:48\] With those two components, that typically -- at least in my personal opinion, that usually qualifies most folks as data analysts or above kind of skillset. So that's sort of what we're looking for. Of course, the big component of all of this is you only have two hours to do all of it. So whether you're a 20-year vet in tech, doing software engineering and deep learning, or if you are a student, the time is really the limiting factor for everyone, so you can't really get so deep into the neural net architecture. You can't really develop a full, end-to-end, shiny app... But that does serve as sort of like "What can you do then?"
 
 On top of all that, we are always looking for people who are interested in participating for the next shows, and we have that on our site... So it's not too dissimilar from like a problem set you might get from a job interview... But it really is just a double-check to make sure that you have the skills that would qualify you into SLICED. And also, we don't wanna bring in people who are just gonna do nothing, or do -- maybe they think it's one thing and it's not, and they have a tough time getting through an episode... We don't wanna put people in a situation where they might be embarrassed, or something. We just wanna make sure that if you could get through some of the more basic issues we've seen, that most likely will -- you know, we most likely will have confidence that you'll be able to get through the season.
 
@@ -102,7 +102,7 @@ Oh yeah, the other part of the question was --
 
 **Meg Risdal:** Yeah...
 
-**Nick Wan:** \[00:19:59.07\] I learned that drob will stop at nothing to learn something.
+**Nick Wan:** \[19:59\] I learned that drob will stop at nothing to learn something.
 
 **Meg Risdal:** yeah.
 
@@ -150,7 +150,7 @@ Speaking of meme-ing, Jesse I think offered her coaching in meme skills to David
 
 I do have a follow-up question. I'm curious about recognizing that these people clearly have the resources to do the job that they do, for the purpose of the contest. Do they bring their own GPUs, so to speak? Or is there any sort of leveling of infrastructure and equipment? How do you approach that?
 
-**Meg Risdal:** \[00:23:56.25\] Yeah, so one of the things that we've put together in advance of the show is a little bit of like contestant guidelines... And with SLICED being a pretty new concept, we didn't wanna get super-rigid with every single minutia and detail, but rather we wanted to provide some kind of higher-level guidance. And one of the pieces of guidance was just don't bring your super-computer, don't fire up TPU's for these putzy little things... Just kind of like asking --
+**Meg Risdal:** \[23:56\] Yeah, so one of the things that we've put together in advance of the show is a little bit of like contestant guidelines... And with SLICED being a pretty new concept, we didn't wanna get super-rigid with every single minutia and detail, but rather we wanted to provide some kind of higher-level guidance. And one of the pieces of guidance was just don't bring your super-computer, don't fire up TPU's for these putzy little things... Just kind of like asking --
 
 **Chris Benson:** You can't bring your own DGX for the contest, just for yourself...
 
@@ -172,7 +172,7 @@ So a lot of it is me and Meg making sure the QA on the backend is pretty good; s
 
 **Daniel Whitenack:** Speaking of those tasks themselves, I know the one last night -- Chris is gonna love it if he doesn't already know about it, because he's an animal lover... But can you describe, maybe just highlight a couple of the tasks to give a sense of what are these tasks that the contestants are working on?
 
-**Meg Risdal:** \[00:28:10.22\] Yeah. So last night's dataset was our first multi-class classification challenge that we gave our contestants this season. We gave them a dataset of animals that were in animal shelters, and they had to predict the outcome, meaning was the animal adopted, was it transferred, or was it something else? So there's three classes that they had to predict, and it was a dataset of about 70,000 or so (it was in the tens of thousands of observation), and they had information about what type of animal... Most of them were cats or dogs, they had information about the coat color, whether the animal was spayed or neutered, how old the animal was etc.
+**Meg Risdal:** \[28:10\] Yeah. So last night's dataset was our first multi-class classification challenge that we gave our contestants this season. We gave them a dataset of animals that were in animal shelters, and they had to predict the outcome, meaning was the animal adopted, was it transferred, or was it something else? So there's three classes that they had to predict, and it was a dataset of about 70,000 or so (it was in the tens of thousands of observation), and they had information about what type of animal... Most of them were cats or dogs, they had information about the coat color, whether the animal was spayed or neutered, how old the animal was etc.
 
 So yeah, that was the dataset from last night. Maybe I'll talk about one other, one of my favorites, and then Nick maybe you wanna share one of your favorites, or something... But one that was a big fan favorite, as well as a contestant favorite, was a dataset about Airbnbs in New York City. They were predicting -- this was a regression task, so they were predicting the Airbnb price. I believe this was a fan-favorite for a few reasons. Really the diversity of the dataset, the data types in the dataset are really great fodder for creativity, which really plays out in things like data visualization, but also feature engineering...
 
@@ -186,7 +186,7 @@ So this dataset had text fields, it had geospatial fields... So there was just a
 
 **Nick Wan:** ...but for the most part, they're all really fun datasets, and the QA and all the drama at the end in terms of judging - that's where I get my energy from. So no real particular favorite, I would say.
 
-**Break**: \[00:31:30.09\]
+**Break**: \[31:30\]
 
 **Chris Benson:** So we've been talking about the competition, these contestants, and the way they're doing it, but we haven't talked in-depth about how you're doing your scoring and how the winners -- I know that they have two hours to do it, but you have these amazing data scientists that are competing against each other... I imagine that some of them are everyone solving, or multiple people are solving... So how do you get to that winner in this game? How do you come out on top against these other super-stars?
 
@@ -206,7 +206,7 @@ And then usually, it's like splitting hairs at the end. We've seen everything fr
 
 **Chris Benson:** Yeah, how do you guys resolve that? It sounds like you \[unintelligible 00:35:50.08\]
 
-**Meg Risdal:** \[00:35:50.05\] We don't. We just move on. \[laughter\] I think over time we have become more in sync, I wanna say... I don't know; maybe that's just wishful thinking, or something... But yeah, it's 100% subjective, and we have written out in the contesting guidelines that I mentioned earlier, we have given them some sense of things that we look for... But really, I think there's like three approaches overall that I've seen our contestants take to the data visualization portion. The easiest is probably just like volume. Some contestants just go for like "I'm just gonna go for like basic, all over the board kind of like EDA kind of stuff", just looking at different cuts of the data in visualizations, and kind of otherwise keep things very basic.
+**Meg Risdal:** \[35:50\] We don't. We just move on. \[laughter\] I think over time we have become more in sync, I wanna say... I don't know; maybe that's just wishful thinking, or something... But yeah, it's 100% subjective, and we have written out in the contesting guidelines that I mentioned earlier, we have given them some sense of things that we look for... But really, I think there's like three approaches overall that I've seen our contestants take to the data visualization portion. The easiest is probably just like volume. Some contestants just go for like "I'm just gonna go for like basic, all over the board kind of like EDA kind of stuff", just looking at different cuts of the data in visualizations, and kind of otherwise keep things very basic.
 
 The second approach I would say is people who really go for the insights, which I think those are the folks that are looking for the data visualization points... So I would say people who stand out in this regard are folks like David Robinson, also one of our contestants, Josh Pohlkamp-Hartt, who competed in yesterday's episode, really do a lot of work to iterate and draw out true insights from the data, which is something that we look for and really appreciate. They spend time customizing their plots to really make them really readable, and following best practices as far as data visualization.
 
@@ -228,7 +228,7 @@ So I would say that kind of summarizes the strategies that I think I've seen fro
 
 **Meg Risdal:** Yeah... I think I somehow earned some reputation early on that was reinforced through chat. I wanna say I gave one of our contestants just one point in data visualization. At that point maybe we had like 15 points to allocate across the four contestants; now we allocate 20 points across to contestants... And I gave one of our contestants one point, and I said something like "You did data visualization. You checked a box. You created one plot." So it was kind of like a conciliatory, like "Just one point for doing it, but otherwise it was crap." \[laughter\]
 
-**Chris Benson:** \[00:40:04.20\] What's the guy's name? Simon Cowell, or...?
+**Chris Benson:** \[40:04\] What's the guy's name? Simon Cowell, or...?
 
 **Nick Wan:** Yeah.
 
@@ -252,7 +252,7 @@ And the thing about industry is it's always in a given period of time, right? Yo
 
 I think though we are seeing the same thing from our contestants too, and I think that is actually significant. It's bigger than I could have guessed or imagined. Just last night Ethan Douglas, one of our contestants, at the start of the season -- you know, we're in the play-offs now; at the start of the season he kind of just described himself as a data analyst, and didn't have a tremendous amount of experience as a professional data scientist writing predictive models... And he shared with me in kind of like the pre-show green room, so to speak, that he has really matured as a data scientist more in the last couple months through SLICED than he has in the last few years as a self-taught coder... And he considers himself now a data scientist.
 
-**Daniel Whitenack:** \[00:43:26.19\] That's so cool.
+**Daniel Whitenack:** \[43:26\] That's so cool.
 
 **Meg Risdal:** So he has really evolved and learned a ton from the show. Our contestants - some of them - are doing a lot of practice in-between episodes, where they're making appearances, and it's obviously a very strong potential embarrassment in front of a worldwide audience watching you live-code. It's a very strong forcing function to learn. So I think for folks out there who are hoping to glean the same thing from SLICED, I think the message is to just like put yourself out there and set some timeboxed goals for yourself and go through -- this apparently is a great set of motions to go through to learn how to do data science end-to-end. It's a motivator.
 

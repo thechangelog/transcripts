@@ -106,7 +106,7 @@
 
 **Jerod Santo:** Nah... Tell us how you really feel.
 
-**Adam Stacoviak:** \[00:03:59.19\] You know, honestly -- I mean, you just kind of get wiped out from a conference; it takes a lot of energy out of you, I would say... And I'm not super high-energy right now. I wish I was. A little coffee could do. So I would say now, because of no coffee, not because of the company.
+**Adam Stacoviak:** \[03:59\] You know, honestly -- I mean, you just kind of get wiped out from a conference; it takes a lot of energy out of you, I would say... And I'm not super high-energy right now. I wish I was. A little coffee could do. So I would say now, because of no coffee, not because of the company.
 
 **Jerod Santo:** Okay. Tim, what have you got?
 
@@ -202,7 +202,7 @@ You were at London a couple years ago... We came back to OSCON here in the U.S.,
 
 **Jerod Santo:** \[laughs\]
 
-**Adam Stacoviak:** \[00:07:59.13\] That's what's gonna happen. What's interesting too is we talked a lot about the five active shows, what's going on, and our aura slowdown, I suppose, to growth of shows, to focus on the growth of those shows... It was interesting, too. The listeners don't get to hear about that too often.
+**Adam Stacoviak:** \[07:59\] That's what's gonna happen. What's interesting too is we talked a lot about the five active shows, what's going on, and our aura slowdown, I suppose, to growth of shows, to focus on the growth of those shows... It was interesting, too. The listeners don't get to hear about that too often.
 
 **Jerod Santo:** Well, tell them about it more.
 
@@ -224,7 +224,7 @@ So the focus for a little bit now, maybe these next 6-8 months, is polish, growt
 
 **Jerod Santo:** ...the inner circle of that, which is the ones who interact, the people who are making the show better by giving feedback and making requests, and telling us "Hey, this is a great person, you've gotta have them on", or "Heck, I'm a great person. You should have me on", whatever it happens to be... I feel like that's happening more in the last year. Is that something you're feeling?
 
-**Adam Stacoviak:** \[00:12:01.22\] I see the community side of it, for sure... You know, friendly faces, familiar conversations in Slack... Even on Twitter, seeing similar people mention things, or retweet things, or just whatever... I see it happen a lot more in Slack, but not so much in the issues, like you've mentioned...
+**Adam Stacoviak:** \[12:01\] I see the community side of it, for sure... You know, friendly faces, familiar conversations in Slack... Even on Twitter, seeing similar people mention things, or retweet things, or just whatever... I see it happen a lot more in Slack, but not so much in the issues, like you've mentioned...
 
 **Jerod Santo:** In what?
 
@@ -288,7 +288,7 @@ So the focus for a little bit now, maybe these next 6-8 months, is polish, growt
 
 **Jerod Santo:** Yeah, what's up with that?
 
-**Adam Stacoviak:** \[00:16:01.05\] I don't know... \[laughter\] It's a deep subject. How deep should we go? I think what's interesting is that, you know, that show has always been associated with only open source, whereas I believe - even if you go back into the archives - open source is a large portion of the conversation. It's sometimes even the entry point into the conversation, but it's not the conversation... You know what I mean?
+**Adam Stacoviak:** \[16:01\] I don't know... \[laughter\] It's a deep subject. How deep should we go? I think what's interesting is that, you know, that show has always been associated with only open source, whereas I believe - even if you go back into the archives - open source is a large portion of the conversation. It's sometimes even the entry point into the conversation, but it's not the conversation... You know what I mean?
 
 **Jerod Santo:** Yeah.
 

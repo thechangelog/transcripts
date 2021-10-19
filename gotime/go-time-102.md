@@ -30,7 +30,7 @@ Principles - are there any that stand out to anyone, things that you think are p
 
 **Peter Bourgon:** I'd like to back up half a step, actually, and observe the things that you observed - principles, set and setting, this sort of thing. Another thing that I am increasingly aware of when I talk about how you should design your application is the context in which you program.
 
-\[00:03:58.18\] If you're writing by yourself and just kind of like exploring a problem space, the rules are completely different than if you're on a team of 20 people, working for a Fortune 500. And they're completely different if you're working on an open source project with 100 maintainers that drift in and out.
+\[03:58\] If you're writing by yourself and just kind of like exploring a problem space, the rules are completely different than if you're on a team of 20 people, working for a Fortune 500. And they're completely different if you're working on an open source project with 100 maintainers that drift in and out.
 
 I think we often fail to bring up our contexts when we talk about what's good and what's bad, and I think that more than anything is behind a lot of our opinions. So I try to do that; I often fail... Maybe that's something that's worth talking about.
 
@@ -52,7 +52,7 @@ I think we often fail to bring up our contexts when we talk about what's good an
 
 And a lot of people think "Well, if I just quickly throw a logger in the global state, it's very easy for me to use", but I've written a lot of programs where there's no global state at all, and the cost of typing the keys just never enters into the cost equation for me... Especially if the program is gonna be running in production or something for a year, or two, or six. The cost of typing just never enters into the cost equation for me. But again, this is my context, and a lot of other people who are writing short-lived programs (or whatever) have different contexts.
 
-**Ben Johnson:** \[00:08:14.29\] Yeah, I used to always start applications where I had a main struct that I kind of almost held things in, or I'd even inject standard in/standard out, just to be able to test those, and do loggers... I've kind of backed off that; I'll get to that when I need it, when it's grown big enough... But I try not to start going crazy at first.
+**Ben Johnson:** \[08:14\] Yeah, I used to always start applications where I had a main struct that I kind of almost held things in, or I'd even inject standard in/standard out, just to be able to test those, and do loggers... I've kind of backed off that; I'll get to that when I need it, when it's grown big enough... But I try not to start going crazy at first.
 
 **Mat Ryer:** That's interesting. Talk a bit more about that idea of injecting standard in/standard out. How would you literally do that?
 
@@ -78,7 +78,7 @@ Yeah, I do wonder if we could maybe get rid of global state. If we ever did a ma
 
 **Mat Ryer:** Yeah. We've kind of jumped straight into common mistakes. Maybe we should keep going with this little thread, because it's quite interesting... And again, it's worth saying that if you do -- part of my approach with the team is always "It's okay to make mistakes. We'll start simple, and if we do make a mistake, we just have to be ready at that time to - once we feel that pain, then it's worth fixing." And that approach also helps you avoid going too far in the beginning, as well; you're not spending all this time building out this big, complicated architecture thing that you're never actually really gonna need.
 
-**Ben Johnson:** \[00:12:19.18\] One of the first talks about Go was about Andrew Gerrand, I think it was called "Code that grows with grace." He laid out the evolution of a program from something extremely simple to something that was moderately complex, and the point was at every step of the way don't write more program than you need at that step... And yeah, I think there's great value in that.
+**Ben Johnson:** \[12:19\] One of the first talks about Go was about Andrew Gerrand, I think it was called "Code that grows with grace." He laid out the evolution of a program from something extremely simple to something that was moderately complex, and the point was at every step of the way don't write more program than you need at that step... And yeah, I think there's great value in that.
 
 **Mat Ryer:** Yeah. It's not a failing if people try -- I think what happens is we look at successful projects, and a lot of Go is in the open source world; you go and have a look and you see all this structure, and stuff, but hopefully that's there's for a reason, and it's sort of organically grown into that, rather than it being designed that way from the very beginning. You're probably not in that situation yet, so you don't have to do those things. I think that's the same kind of principal, yeah; I think it really applies.
 
@@ -92,7 +92,7 @@ Yeah, I do wonder if we could maybe get rid of global state. If we ever did a ma
 
 If you try and do that from the very beginning, sometimes you can, and sometimes you see little shortcuts to make, but it can get in the way of that process where you're exploring. You should definitely be free to just explore and get that problem solved, and then afterwards you can go and -- I rewrite it, literally.
 
-\[00:16:03.23\] There's a quote from Hemingway, I think, where he said "The art of writing is rewriting." I think that applies to software, as well. You can't always do it, because in the real world, with teams, we don't always have the luxury of time, but it's so worth it that I actually always encourage teams to deliberately build in time for it, just because the results are so much better.
+\[16:03\] There's a quote from Hemingway, I think, where he said "The art of writing is rewriting." I think that applies to software, as well. You can't always do it, because in the real world, with teams, we don't always have the luxury of time, but it's so worth it that I actually always encourage teams to deliberately build in time for it, just because the results are so much better.
 
 **Kat Zień:** Yeah, I completely agree that coding for the future is the number one problem that especially junior developers have. They try to anticipate everything, and I really try and encourage them to just think about their problem at hand, and worry about other things later. And I think that what you said is right - you shouldn't really expect to get it right from the start, because especially the bigger the problem, the bigger the application you're building. It's very hard to just get it right from the start and predict absolutely everything and how it's gonna look like in a year. A lot of the things come out in the wash. But I think just applying some good principles from the start will let you then change that code much better.
 
@@ -114,17 +114,17 @@ I think it's very important to just try and draw from your own experience. If yo
 
 **Peter Bourgon:** I think we're talking about, in a sense, like abstractions... Like, where do we define the abstraction boundaries in our program. One thing that took me a long time to learn but I think is really true is that abstractions have to emerge from the program. You can't apply them from day one, they have to be revealed from what you build. So premature abstraction is the root of all evil.
 
-**Kat Zień:** \[00:20:10.13\] I think it's also really important to really take your time to make sure that you understand the problem and the domain that you're dealing with. I've had it so often in the last few months where I'd be given a task to do, or I need to get something done, and then I would immediately jump into the things that I think I know, and I would do it this way. And then you just take a step back and you ask the question "But does that actually address the original problem that we're trying to solve?" and surprisingly, most of the time you're like "Oh, yeah, maybe we don't actually need to do this, or we can just do that."
+**Kat Zień:** \[20:10\] I think it's also really important to really take your time to make sure that you understand the problem and the domain that you're dealing with. I've had it so often in the last few months where I'd be given a task to do, or I need to get something done, and then I would immediately jump into the things that I think I know, and I would do it this way. And then you just take a step back and you ask the question "But does that actually address the original problem that we're trying to solve?" and surprisingly, most of the time you're like "Oh, yeah, maybe we don't actually need to do this, or we can just do that."
 
 It's also important to not get too tied to your usual ways of doing things, or because you always do your things that way... Because sometimes you might surprise yourself if you take a step back and actually zoom out of the code a little bit, and then you kind of see new patterns emerge, or maybe a new grouping that would make your life easier in some way... And also, just thinking about "Does this actually address the problem that we're trying to solve with this particular application?"
 
-**Break:** \[00:21:12.01\]
+**Break:** \[21:12\]
 
 **Mat Ryer:** If you already have lots of, say, whether they're microservices, or whatever they are - you already have things that you're working on, and you're adding more of those, do you think it's best to just follow the patterns that are already established, just for the sake of consistency? Or do you think it's worth using new learning and new concepts to improve things gradually? How do you feel about that?
 
 **Ben Johnson:** Personally, I feel like if you have a lot of microservices and you're not really quite sure about your structure - or a lot of packages, for that matter - I feel like unless you get the package structure right, packages kind of beget packages. You can't do circular dependencies, so a lot of times you end up having this third package to interface with these two packages, because they can't reference each other... And you just get this massive onslaught of packages. Honestly, sometimes I recommend people just to actually consolidate when they get to where it explodes too far, and they kind of come back and revisit.
 
-**Mat Ryer:** \[00:24:12.05\] Yeah, that's a great point. I don't like it when you have a package that's there really just to make the compiler happy... Because we're not really writing the code for the compiler, are we? We're writing code for our fellow humans.
+**Mat Ryer:** \[24:12\] Yeah, that's a great point. I don't like it when you have a package that's there really just to make the compiler happy... Because we're not really writing the code for the compiler, are we? We're writing code for our fellow humans.
 
 **Kat Zień:** I think my number one advice to somebody who has microservices is to keep them (in the official terms) homogeneous, which means exactly the same - they're just a carbon copy. And I think a step forward from that is just use code generation to just spin up a brand new service that has exactly the same structure, for a bunch of reasons. One of them is familiarity. If you have ten microservices, maybe you can memorize how each one is structured. If you have a thousand microservices, it makes your life a lot easier if you can just open any service and you can navigate around without getting too lost, because you already know where to expect everything.
 
@@ -144,7 +144,7 @@ Another example is if you have a release schedule where you might have an API th
 
 And then with regards to the team owning microservices - the way my company is structured is that teams own microservices... And say a team owns 5 or 10 different microservices. But then you've got 10, 5 people in a team, and they can each touch that service any day. So to keep one person tied to a microservice is obviously not future-proof and not scalable. And then because we've got new developers joining the team, we've got people moving between teams every now and then, you just reduce that barrier to entry, if they can come in and on day one just recognize the same structure and the same patterns.
 
-**Peter Bourgon:** \[00:28:13.13\] [Uber gave a talk](https://www.youtube.com/watch?v=nLskCRJOdxM) recently that went into some detail about the patterns they use. I think it was at GopherCon San Diego... Was that correct?
+**Peter Bourgon:** \[28:13\] [Uber gave a talk](https://www.youtube.com/watch?v=nLskCRJOdxM) recently that went into some detail about the patterns they use. I think it was at GopherCon San Diego... Was that correct?
 
 **Mat Ryer:** Yeah.
 
@@ -168,7 +168,7 @@ So I kind of saw this from the outside, and I'm like "Okay, they're doing someth
 
 We use libraries quite a lot, so we've basically extracted all the common functionality into libraries that you pull into each service, and that way every single service is the same, it does the same, it works in the same way. If you deploy a new service, it instantly pops up a Grafana dashboard for you, because it's spun up in the same way. So there's very little friction to actually add a new service... And again, we use code generation quite heavily for that, so if you just wanna start a new service, it's just one command and boom, you have it. And all you have to do is just fill in the business logic. Everything else is taken care of, because there's no point reinventing the logic, the same, a thousand times.
 
-**Mat Ryer:** \[00:32:08.16\] Yeah, it's not the interesting thing about that service, is it? It's just something that you have to have.
+**Mat Ryer:** \[32:08\] Yeah, it's not the interesting thing about that service, is it? It's just something that you have to have.
 
 **Kat Zień:** Yeah, and the great thing is that as we add more people, they don't need to know the details about how does routing work, or whatever; they can just assume that they are black boxes that work, and then if they wanna do something on it one day, they can explore more and dive in more... But it just reduces that barrier of entry for new engineers.
 
@@ -194,7 +194,7 @@ And then in the same way, if you wanted to swap the type of database that you us
 
 **Kat Zień:** The way we solved the problem - and that's just one of the possible ways - instead of having a method or a function on a struct to turn it into a different struct, because that then means that the struct has to have knowledge of how does the third-party representation look like, for example if you wanna translate a domain logic, a business logic struct to a database struct... And it shouldn't; it shouldn't care what the database expects. And then equally, you could have that function done on the database struct, so it takes the domain one and turns it into its own form... But again, how do you decide? So the way we solved it is we just have marshaling packages. It's just really dumb marshaling, kind of like Utils package, which just takes a struct of this kind and outputs a struct of a different kind, and then we just have them available across the service, so it just calls it on the way in and on the way out.
 
-**Peter Bourgon:** \[00:36:19.18\] This is a topic of frequent conversation in the Go Kit world. And to tie back to an earlier conversation we were having about evolving a codebase as your requirements grow, I think it's just a question of complexity and how philosophically strict you wanna be in your application. Because plenty of people will take their gRPC types and use them as database models... And you can do that, you can use the same type through all the layers of the hexagonal architecture; it violates the layering principle, in theory... And there are consequences to that, but maybe it's worth it, rather than writing the marshaling and unmarshaling code. Maybe that's too laborious.
+**Peter Bourgon:** \[36:19\] This is a topic of frequent conversation in the Go Kit world. And to tie back to an earlier conversation we were having about evolving a codebase as your requirements grow, I think it's just a question of complexity and how philosophically strict you wanna be in your application. Because plenty of people will take their gRPC types and use them as database models... And you can do that, you can use the same type through all the layers of the hexagonal architecture; it violates the layering principle, in theory... And there are consequences to that, but maybe it's worth it, rather than writing the marshaling and unmarshaling code. Maybe that's too laborious.
 
 If you wanna be really strict, you're gonna have a new data type at each layer of the architecture, and you're gonna write the code to translate it. And maybe that code is just a cast. Maybe that's fine. So it's just a question of how rigid and strict you want your application to be. If the application is only gonna live for a year because you only have six months of runway and you don't have product-market fit, it probably makes no sense to go through all the struggle. But if you're Fortune 500 and this code is gonna live past your lifetime, then yeah, maybe take the time, because that extra 20 minutes of typing is nothing in the grand scheme of things.
 
@@ -208,7 +208,7 @@ So I don't know about struggle, but I tend to move away from actually big contro
 
 I was very pleased to hear that defers got a turbo boost in the recent release of Go, because that was one example where for readability, defers -- I actually love defer. We should do an episode just on defer, I think. It's such a brilliant thing. The arguments against defer were it didn't perform great originally, and it is a kind of runtime thing. It's not something the compiler can just do. Because I was thinking maybe the compiler could just look at where the defers are and just copy the code, essentially, to all the exit points. But of course, you could queue up a lot of defers in a for loop, for example, at runtime, so there's no possible way -- well, sometimes it's possible, but not always...
 
-\[00:40:01.21\] I always prefer the readability of defer over the performance... But what you've described makes sense, and actually if you're squashing things down and just keeping things simple, and not breaking all these things into layers early, then you can do that. And I think when it comes time to break that out, you'll know at that point, and you'll make a decision about where that stuff will live. It'll probably be quite clear.
+\[40:01\] I always prefer the readability of defer over the performance... But what you've described makes sense, and actually if you're squashing things down and just keeping things simple, and not breaking all these things into layers early, then you can do that. And I think when it comes time to break that out, you'll know at that point, and you'll make a decision about where that stuff will live. It'll probably be quite clear.
 
 **Peter Bourgon:** I just wanna say, I think the defer episode should be the last episode of Go Time.
 
@@ -228,13 +228,13 @@ To give a real-life example of that - and we actually have one of the Monzo guys
 
 And then afterwards, that kicks off a bunch of events, and then those events are consumed by all the services, and one of them is gonna send the feed item, one of them is gonna fetch the logo for the merchant, and so on and so forth. But the actual mission-critical path is just approving the transaction. And if everything else fails afterwards, we don't really care; we can deal with that... We can replay it, or we can do whatever. It's just that \[unintelligible 00:44:08.20\] that is the critical point. So I think it's thinking about systems in this way that is the really, really powerful skill.
 
-**Mat Ryer:** \[00:44:16.08\] That's a great example as well of something where the user experience directly impacts the design of that system, and I think that is something that we should do more of, and it's vital that we know the why of what we're building for that exact reason.
+**Mat Ryer:** \[44:16\] That's a great example as well of something where the user experience directly impacts the design of that system, and I think that is something that we should do more of, and it's vital that we know the why of what we're building for that exact reason.
 
 In that particular case, Kat, I do love it when I pay with my card and the merchant (is that what they're called?), the person in the shop is still waiting to get approved, and my watch has already said "Yes, it's fine. It's gonna be fine." And sometimes they have to wait quite a while after, and I suppose that's their bits that are being slow... But they don't trust me; I just show them my watch and say "Yeah, it's done. Bye!" That doesn't work, unfortunately. Not yet.
 
 **Kat Zień:** Yeah, I do exactly the same. \[laughs\] Yeah, and also sometimes there's a third-party restriction. For example, the need for actually approved transactions really quickly comes directly from Mastercard. They give you a few hundred milliseconds to respond, and if you don't, they will just cut you off. So it's in your best interest.
 
-**Break:** \[00:45:23.08\]
+**Break:** \[45:23\]
 
 **Kat Zień:** I can ask a related question; a sort of new question, but an interesting one that I've actually been thinking about as well... Which is - personally, how often do you actually end up writing the really concurrent code, using concurrent patterns in your day-to-day job... And that leads to a different question, which is "Should you design your applications with concurrency to start with? When should you introduce it? Should you over-complicated it in that sense start with, or do you just start sequentially and then branch out?" What's your take on it?
 
@@ -244,7 +244,7 @@ In that particular case, Kat, I do love it when I pay with my card and the merch
 
 But sometimes channels are a lovely interface, and they just fit perfectly, don't they... And they are very exciting times. So I do love using channels.
 
-**Kat Zień:** \[00:48:09.18\] That actually reminds me of a talk at GopherCon 2018 in Denver... There was a talk from somebody from the Go team, I can't remember now... He was talking about advanced concurrency patterns, and he actually mentioned this as one of the important things, which is if you're writing a package or a module that is to be used by other people, don't build the concurrency into it; write functions that can be run concurrently by the consuming code. That was a great mind shift for me as well. Instead of putting concurrency in, just write a function that can be safely run in a concurrent way, and then the consumer will decide whether they want to do it concurrently or not.
+**Kat Zień:** \[48:09\] That actually reminds me of a talk at GopherCon 2018 in Denver... There was a talk from somebody from the Go team, I can't remember now... He was talking about advanced concurrency patterns, and he actually mentioned this as one of the important things, which is if you're writing a package or a module that is to be used by other people, don't build the concurrency into it; write functions that can be run concurrently by the consuming code. That was a great mind shift for me as well. Instead of putting concurrency in, just write a function that can be safely run in a concurrent way, and then the consumer will decide whether they want to do it concurrently or not.
 
 **Mat Ryer:** Yeah. For me it's about the fact that the user then knows exactly what's happening, because they did it. I'm very anti-magic, despite having the appearance of a magician... Which I'm well aware of.
 
@@ -270,7 +270,7 @@ And to quickly touch on the previous subject of "Do you have controllers, models
 
 **Mat Ryer:** That is great though. I'm so pleased you said that, because I know for a fact that people feel like that's a failure if that happens; they feel like they haven't solved structure, they haven't architected if properly, because they don't know what they're doing. That's how people feel about this... And it really isn't the case. Yeah, I agree.
 
-\[00:52:18.08\] I genuinely will start nowadays with just a single folder. Everything's in main; I don't' even break it out into packages in the beginning. Even when I know for sure it's gonna have to happen. It's a sort of journey, that's the thing; it is a journey, it's not that we're building the final state. We're never really building the final state of anything in software. So I'm really pleased you gave that example...
+\[52:18\] I genuinely will start nowadays with just a single folder. Everything's in main; I don't' even break it out into packages in the beginning. Even when I know for sure it's gonna have to happen. It's a sort of journey, that's the thing; it is a journey, it's not that we're building the final state. We're never really building the final state of anything in software. So I'm really pleased you gave that example...
 
 **Kat Zień:** Yeah. And whenever I talk about DDD, and you talk about the different components in DDD, like the repositories, and the services, and the value objects and whatever, some people try and desperately find every single one of those in their application... And sometimes you just don't have them, and that's completely fine. It doesn't make you a worse programmer if you don't have those things. Sometimes you just don't.
    
@@ -286,7 +286,7 @@ And to quickly touch on the previous subject of "Do you have controllers, models
 
 If the user needs the interface, they can write their own. That's a really interesting property, I think, of the way Go's interfaces work. They are kind of duck typing, although apparently it's called structural typing, because it's a compile-time thing; it doesn't happen at runtime.
 
-\[00:55:57.13\] As long as the concrete type or the type implements the same methods with the same signatures as in your interface, then you can use it in place, and that as a property I think really helps. But what about dependencies, and dependency injection, and things like that? How do we feel about interfaces there?
+\[55:57\] As long as the concrete type or the type implements the same methods with the same signatures as in your interface, then you can use it in place, and that as a property I think really helps. But what about dependencies, and dependency injection, and things like that? How do we feel about interfaces there?
 
 **Ben Johnson:** I like interfaces a lot for that. I think a few things about interfaces - I think one thing that people tend to get wrong early on is that they define interfaces by the... You know, like the library defines the interface, versus the color... And I think that's probably one of the biggest things that people usually need to overcome to really get that to snap and understand it.
 

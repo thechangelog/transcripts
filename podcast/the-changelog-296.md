@@ -32,7 +32,7 @@ I saw a really interesting -- someone said something really valuable to me, and 
 
 **Jessica Rose:** ...it's exactly what you think it is - it's the amount of memory, it's the amount of space you have available for mental processes, whereas cognitive load is the amount of working memory you have booked up; it's how many mental processes you're doing and how much of that cognitive load they eat.
 
-\[00:04:16.26\] I often like to ask people to visualize having too many browser tabs open - that's eating up too much of your browser's working memory.
+\[04:16\] I often like to ask people to visualize having too many browser tabs open - that's eating up too much of your browser's working memory.
 
 **Adam Stacoviak:** Right, right. Last time I actually had a bout of this - I opened up Slack with the intention of going to a particular person's private conversation to pull back... Essentially what email is, very similar. I'm going into Slack to get some information I know they shared with me; I do a couple scrolls (I knew I had to do that), but before I knew it, I found out later, something else grabbed my attention, and I'm in Slack and I'm like "What am I doing?" I didn't even do the thing I was supposed to be doing, so...
 
@@ -60,7 +60,7 @@ Something you said in your talk was like -- and I think what a good message migh
 
 But I think a lot of our dear listeners may not have sort of the funds or the flexibility to do it. The advice I would still give is when everything seems overwhelming, "I've gotta do this, and the other thing's due" - really triage what's going to doom you... Well, everything feels like doom when you're overloaded, but what's going to make your life more difficult if you don't solve it. You probably don't have to call your aunt back. You probably do have to pay your tax bill. Like, yeah, just triage where you can.
 
-**Adam Stacoviak:** \[00:07:57.29\]There's a book by Brian Tracy, that may not be the best prescription for this, but I think it's called Eat That Frog, or Eat The Frog, or something like that. Have you heard of that?
+**Adam Stacoviak:** \[07:57\]There's a book by Brian Tracy, that may not be the best prescription for this, but I think it's called Eat That Frog, or Eat The Frog, or something like that. Have you heard of that?
 
 **Jessica Rose:** Oh, yeah...!
 
@@ -110,7 +110,7 @@ So what does burnout feel like? What would you describe burnout as? If someone's
 
 **Adam Stacoviak:** I was side eyeing, I didn't wanna say yes to any of those things, but I couldn't help but doing so. There's times when I get up -- I love what I do, and it's a shame, because I do really enjoy what I do... But not every day. I don't always enjoy it the first thing in the morning. And I was really listening closely when you said you have this bug, or this thing you're dealing with, with a code problem, or whatever... "Oh, by the way, I've gotta take care of the laundry, I've gotta help with this..." - that's what happens to me sometimes. I heard myself in your talk today, basically.
 
-**Jessica Rose:** \[00:12:04.23\] And everybody's brain works really differently, and neuro diversity is one of the most exciting things about the way people engage with the world around them, and mental processes and social processes are so cool... I think wedding self-care into the way we view our own mental processes and approach the world is absolutely critical.
+**Jessica Rose:** \[12:04\] And everybody's brain works really differently, and neuro diversity is one of the most exciting things about the way people engage with the world around them, and mental processes and social processes are so cool... I think wedding self-care into the way we view our own mental processes and approach the world is absolutely critical.
 
 **Adam Stacoviak:** What is that? What do you mean by that?
 
@@ -150,7 +150,7 @@ Long story short, I was just like -- she thought I was complaining, but I wasn't
 
 **Adam Stacoviak:** It did happen, okay. Can you share the story?
 
-**Jessica Rose:** \[00:15:47.27\] So I went in to talk to my GP, and I'd been working as a contracting consultant for a while... And I went in to chat with her because I was having a really hard time sleeping, and I was lethargic... I was just pretty miserable, and my GP (general doctor) is just absolutely glorious; she's very sarcastic and absolutely delightful. She was like, "Okay, okay... Okay... Well, I can give you this antidepressant, this antidepressant, or this antidepressant, but you should probably quit your job and we can skip all of those." And I was like "Are you telling me that's your medical advice?" She was like "Yeah, yeah, look!" and then grabbed a prescription pad and just wrote "Please quit your job."
+**Jessica Rose:** \[15:47\] So I went in to talk to my GP, and I'd been working as a contracting consultant for a while... And I went in to chat with her because I was having a really hard time sleeping, and I was lethargic... I was just pretty miserable, and my GP (general doctor) is just absolutely glorious; she's very sarcastic and absolutely delightful. She was like, "Okay, okay... Okay... Well, I can give you this antidepressant, this antidepressant, or this antidepressant, but you should probably quit your job and we can skip all of those." And I was like "Are you telling me that's your medical advice?" She was like "Yeah, yeah, look!" and then grabbed a prescription pad and just wrote "Please quit your job."
 
 **Adam Stacoviak:** Wow, I mean... Technically, she did write it on paper. That was her medical pad -- I don't know what you call those things; prescription pads. It's a legit thing, right?
 
@@ -216,7 +216,7 @@ Long story short, I was just like -- she thought I was complaining, but I wasn't
 
 **Jessica Rose:** So we tend to focus on a different topic each month, and we just talk to folks in that space, and about their experiences and about what kind of advice they could give. So we talked about wearables this past month, and then next month we're gonna be talking -- oh dear, that's like tomorrow, isn't it? In May we'll be talking about different types of funding. We'll be talking to somebody about bootstrapping, we'll be talking to somebody about working with VC's...
 
-**Adam Stacoviak:** \[00:20:20.18\] Okay.
+**Adam Stacoviak:** \[20:20\] Okay.
 
 **Jessica Rose:** Yeah, I'm pretty excited for it.
 
@@ -258,7 +258,7 @@ Long story short, I was just like -- she thought I was complaining, but I wasn't
 
 **Adam Stacoviak:** Yeah, I could agree with that.
 
-**Break:** \[00:22:52.10\]
+**Break:** \[22:52\]
 
 **Adam Stacoviak:** Henry, you're in the middle of an experiment which I think to some might seem risky, but you've got it kind of fleshed out. You've been down this road, you've been doing open source for a while; you've even said you've accidentally become a maintainer at one point, I believe, either on the React Podcast, or Request For Commits -- somewhere I've heard it, but I'm not really sure where. Where is this leading you to? You're in open source full-time now, but solo. A company is not paying you to do it, you're doing it yourself.
 
@@ -282,7 +282,7 @@ But halfway -- not halfway through it... Like a year later, I'm working on Babel
 
 I think I asked for full-time and they gave me half, which was already amazing... So I was like, "That's cool. Okay, I'm good" and I kind of just started working on that. But the problem was that that's always gonna be hard, like "What does it mean to do 50%? Is it like half of my sprints are Babel and the other half is real work?"
 
-**Adam Stacoviak:** \[00:27:54.17\] But how did that work out actually practically? Did it work out? Were you still kind of saying "My responsibility is just like -- oh, now half of it really is this, but it's not."
+**Adam Stacoviak:** \[27:54\] But how did that work out actually practically? Did it work out? Were you still kind of saying "My responsibility is just like -- oh, now half of it really is this, but it's not."
 
 **Henry Zhu:** Yeah... I think it's kind of like that. It was an experiment for them too, because they'd never done that with other people.
 
@@ -306,7 +306,7 @@ In the end, I didn't really have any issues, when I got to that point. But befor
 
 **Henry Zhu:** Yeah, that's something that -- I kind of talked about this in my talk; it's something I always wanted to do, but I never really did it. I would kind of half do it. It's like, you have a picture in your mind of what a maintainer should be, and usually it's about code. So even if I wanted to do something else, I knew like "Oh, I have like this box" where it's like "This is what a maintainer should be", so I just focused on code.
 
-\[00:32:11.00\] But now it's like, okay, I don't really know what it looks like, but I want to figure out those things, so that means like -- right now I'm just focusing on getting funding and that kind of thing, but I do wanna spend my time like "Okay, should we make a Babel meetup, where instead of giving talks, it's just a meetup where we come... I'm there, and I'll teach you about how to contribute to open source or get involved in our project", instead of waiting for people to randomly show up in our GitHub, making a PR or an issue. Obviously, everyone is very intimidated, so if I'm there, then people will feel at least willing to show up and see what it's about.
+\[32:11\] But now it's like, okay, I don't really know what it looks like, but I want to figure out those things, so that means like -- right now I'm just focusing on getting funding and that kind of thing, but I do wanna spend my time like "Okay, should we make a Babel meetup, where instead of giving talks, it's just a meetup where we come... I'm there, and I'll teach you about how to contribute to open source or get involved in our project", instead of waiting for people to randomly show up in our GitHub, making a PR or an issue. Obviously, everyone is very intimidated, so if I'm there, then people will feel at least willing to show up and see what it's about.
 
 Maybe we make a podcast, maybe we do livestreaming, or we start doing more like video chat instead of just talking on Slack or Twitter... Like, just things that make it so that I seem more accessible, and human, instead of just like some person... And also, so that people know that there's a few people working on this, not just a huge company, a huge team, or something like that; it's like a few volunteers, but yet you're using it... And then people feel like "Oh, I'm not good enough", but it's like, I got started in the same way, not knowing anything, accidentally, and I'm here, and I wanna help other people get to that, if they want to.
 
@@ -340,7 +340,7 @@ I mean, it's weird - I say full-time, but it's full-time for the project, but it
 
 **Henry Zhu:** Yeah, business development; that's still part of it, it's just not what people normally think. And I'm mostly just doing like reviewing, and very meta level things, that I hope are like long-term things that we would never consider before. Before, when you're at work and you have limited time, you're always thinking about taking out fires, like these short-term things; but if you're full-time, then why aren't we doing these longer-term goals, like getting contributors, investing in people, so that maybe some of them will be committed, instead of just like asking a hundred people to make a good first PR.
 
-**Adam Stacoviak:** \[00:36:10.15\] So you've decided to go with the Patreon route, and I'm not trying to get in the politics of the different routes you could go to seek funding, so I'm not asking you to share the advantages of this platform versus another, but what is it about -- not so much Patreon, but how are you incentivizing people and/or corporations or companies to support you? Who is the customer that you're seeking? If you're doing business development, you're seeking out "Who can fund you? Who can believe in this mission? Who can help sustain you to make it happen?" Who is that person and/or company?
+**Adam Stacoviak:** \[36:10\] So you've decided to go with the Patreon route, and I'm not trying to get in the politics of the different routes you could go to seek funding, so I'm not asking you to share the advantages of this platform versus another, but what is it about -- not so much Patreon, but how are you incentivizing people and/or corporations or companies to support you? Who is the customer that you're seeking? If you're doing business development, you're seeking out "Who can fund you? Who can believe in this mission? Who can help sustain you to make it happen?" Who is that person and/or company?
 
 **Henry Zhu:** I should probably have a better, specific group of people, but there's a lot of different people that it could be. First, I'll say that we have an Open Collective which is another crowdfunding site that's for the project itself, so I can take the money from there, which is good, because there's not enough from Patreon right now.
 
@@ -370,7 +370,7 @@ So what happened was that a few days ago I had like $3,000/month, and then sudde
 
 It should also be said that you live in New York City, right? It's not exactly cheap to live there. I'm sure you've got fairly -- even if you trimmed your expenses, you'd be like... What size is your apartment now? I don't wanna say a smaller apartment, because maybe you're in the smallest one already, I don't know.
 
-**Henry Zhu:** \[00:40:09.02\] Yeah, it's not enough to cover the rent, and then I have to pay for insurance, too. So even the base of that is already very high... But the good thing is that our Open Collective has a good amount of money there now, so I can at least use that. Then the other plan is to reach out to companies, which I've done - and hopefully those go through soon - and it's like, okay, one idea is this idea of a support contract, which is something that Webpack is doing, where you pay a certain amount, say it's like $1,000/month, and we'll give you two hours of time to help you with whatever.
+**Henry Zhu:** \[40:09\] Yeah, it's not enough to cover the rent, and then I have to pay for insurance, too. So even the base of that is already very high... But the good thing is that our Open Collective has a good amount of money there now, so I can at least use that. Then the other plan is to reach out to companies, which I've done - and hopefully those go through soon - and it's like, okay, one idea is this idea of a support contract, which is something that Webpack is doing, where you pay a certain amount, say it's like $1,000/month, and we'll give you two hours of time to help you with whatever.
 
 Then that means I can work a lot less hours and you can still get paid. If you can convince them to do that, that would be really good. And you only have to do that for like 10 companies, but the problem is that now there's like a huge potential, but right now there's none, so it's like... Where is that?
 
@@ -392,7 +392,7 @@ So in your case, maybe it's the relationship side of the equation... Invest a li
 
 That's interesting though, man... The uncertainty... Do you sleep well? I mean, given -- I'm not saying you're in a bad situation, because you're not, but you know, there's some uncertainty... Do you fret, do you get upset? How's life for you right now?
 
-**Henry Zhu:** \[00:44:01.11\] It's interesting... I guess, oddly, I'm not too worried. In the end, I do have -- the backup is just like "Get another job", and it's fine. That's totally--
+**Henry Zhu:** \[44:01\] It's interesting... I guess, oddly, I'm not too worried. In the end, I do have -- the backup is just like "Get another job", and it's fine. That's totally--
 
 **Adam Stacoviak:** It's an experiment.
 
@@ -420,7 +420,7 @@ That's probably the best way, because they're usually unwilling to give money, b
 
 **Henry Zhu:** Well, one measure of success that I might think of is the idea that I could just go away, leave the project, and everything is good. So I could leave it now, and -- I kind of talked about this in the talk... You have this sense of like pride, where like "If I leave, everything's gonna go bad, and no one's gonna take it up", but that's not the case. I'm not that irreplaceable.
 
-\[00:48:10.26\] But obviously, I still feel like I'm needed (or whatever that means), and it's like "When do we get to a point where we have enough contributors?" I don't wanna say the boss factor... My boss - he said this is the lottery factor; that's like a better way of putting it.
+\[48:10\] But obviously, I still feel like I'm needed (or whatever that means), and it's like "When do we get to a point where we have enough contributors?" I don't wanna say the boss factor... My boss - he said this is the lottery factor; that's like a better way of putting it.
 
 **Adam Stacoviak:** Okay, I haven't heard of this one.
 
@@ -450,13 +450,13 @@ I think for me I really like working on Babel, but I think another thing I like 
 
 I had this idea in my mind of "What does it look like to be a JavaScript ecosystem maintainer?" So not just like one project, but a lot of what that is -- I mean, that seems like really burdensome, but you know, I think that would help coordinate things, or at least talk to people, instead of just like they're all in their little isolated bubble, or something.
 
-**Adam Stacoviak:** \[00:52:05.11\] Yeah. Anything I didn't ask you that you wanna share, that I just missed?
+**Adam Stacoviak:** \[52:05\] Yeah. Anything I didn't ask you that you wanna share, that I just missed?
 
 **Henry Zhu:** I don't know, I guess my talk today was just about how we can think differently about open source... Not just like getting things for free, but actually helping and serving people. And I think the values that are there - maybe we don't really emphasize much, and we kind of get influenced by how non-open source works... So whether it's like adding transactions, or thinking about things in a very robotic way, when open source has its own views on things. We kind of just take those things and we copy them, because that's just the way we do things, and that's probably why we keep seeing all this behavior.
 
 We can change the medium in which we do open source such that it is building up people, it is bringing community, and those kinds of things. I think we should be thinking about that more. I don't really have an answer, and it's gonna be really hard, because this is all non-technical, versus the code itself... But yeah, I like to think, what are the habits or things that we can create such that we can reinforce the ideas that we want? In our minds are the ones we want, but in reality we don't act those out.
 
-**Break:** \[00:53:39.10\]
+**Break:** \[53:39\]
 
 **Adam Stacoviak:** Sitting down, talking to Simon Willison here, getting in the groove, talking about data. You are so - more than everybody I've ever met - excited about data, bro. Earlier I didn't tell you this because I was just enjoying the moment, but you got really excited about some data.
 
@@ -480,7 +480,7 @@ We can change the medium in which we do open source such that it is building up 
 
 After a few of these meetings, a bunch of people said "You know, you really need to talk to this guy Simon Rogers, one of the journalists", because Simon Rogers was the journalist at The Guardian responsible for the infographics, where you publish a graph in the newspaper, and somebody has to phone up a bunch of government agencies and gather the data. He'd been doing this for years and was really good at it. He could get data on anything, and all of this data -- I asked him where it was, and he said "Oh, I've got it in Excel spreadsheets on the computer under my desk." And I'm like "This is gold!"
 
-\[00:56:11.11\] So we got together, we started pulling it and we ended up thinking, okay, the easiest thing we can do is start a blog - we'll start The Guardian Data Blog and we'll publish these things as Google spreadsheets. We did this, and The Guardian still has a data blog today where they're publishing data behind the stories.
+\[56:11\] So we got together, we started pulling it and we ended up thinking, okay, the easiest thing we can do is start a blog - we'll start The Guardian Data Blog and we'll publish these things as Google spreadsheets. We did this, and The Guardian still has a data blog today where they're publishing data behind the stories.
 
 **Adam Stacoviak:** Wow.
 

@@ -2,7 +2,7 @@
 
 We've got three sponsors today - GoCD, Linode and our friends at Flatiron school.
 
-**Break:** \[00:01:06.15\]
+**Break:** \[01:06\]
 
 **Adam Stacoviak:** Alright, we're here today, Jerod, talking to Mark Nadal, talking about GunDB and a bunch of other fun stuff, to kind of tee this up. I think this began in the ping repo - is that right?
 
@@ -28,7 +28,7 @@ We've got three sponsors today - GoCD, Linode and our friends at Flatiron school
 
 Over time, I realized that code, when it comes to implementation, is a completely different world than mathematics and philosophy. But I got over that curve, jumped on the Node.js bandwagon back in 2009, except for... I'm just a basement-dwelling programmer, so I didn't pay attention to the forums or the chat rooms. Even though I've been using Node from 0.2.2, I didn't really actually get involved with the community until much later, and I kind of feel like I missed out on that opportunity.
 
-\[00:04:10.14\] I was building a collaborative web design tool, because I'd done lots of freelance stuff for making websites for clients, and I was like "This is ridiculous. I'm just moving some boxes around on the screen. Why is CSS so dumb?" I sit down with a client, I figure out exactly what they want, and then I go and build it.
+\[04:10\] I was building a collaborative web design tool, because I'd done lots of freelance stuff for making websites for clients, and I was like "This is ridiculous. I'm just moving some boxes around on the screen. Why is CSS so dumb?" I sit down with a client, I figure out exactly what they want, and then I go and build it.
 
 A week later I come back and I'm like, "Hey, here's exactly what you wanted." They're like, "Oh, this is so cool, but could you move that sidebar to the other side of the screen?" and I'm thinking in my head, "Nooooo...!"
 
@@ -46,7 +46,7 @@ At that point I started struggling with the backend of the system I was trying t
 I'm like, "Okay, come on... Why is it that now that I've built a web design tool that lets people quickly create really cool websites, nobody wants to hire me to build websites? They want to hire me to build backend systems, even though I don't know anything about backend systems." So I figured, "Okay, I need to start fixing this problem. I need to build a database that can handle the needs that I have."
 
 Quick lead into Gun here - you'd think that a website creation tool should use a document-based database, because pages are documents. That's what I did, but the problem and what ends up happening is that you've got the sidebar, you've got the header, the footer, you reuse those across all the pages, so you end up having a mix between document-structured stuff, as well as relational structure stuff. That's at the point where I was like, "Well, I can't just switch over to a SQL database, because I need the ad-hoc creation of websites in documents, and I can't use a document database, so what do I do?"
-\[00:07:55.11\] I discovered graph databases and then Firebase was taking off at that time, so I thought "Okay, the real-time stuff has a benefit." That's kind of a quick history.
+\[07:55\] I discovered graph databases and then Firebase was taking off at that time, so I thought "Okay, the real-time stuff has a benefit." That's kind of a quick history.
 
 **Jerod Santo:** So where you are today is with a product called GunDB which, as Kevin McGee describes it "a floss graph database written in JavaScript that was developed by a frontend guy", and then he says, "What!?" Somewhat intriguing... Of course, we've just heard a little bit of your path to getting where you are, and in that thread you mentioned a lot of buzzwords, \[unintelligible 00:08:27.24\] and so on and so forth. Did you just go out and study everything to do with graph databases, or how did you get from frontend guy with a logic and math background to "I'm now building what is a venture-backed company around an open source graph database"?
 
@@ -84,7 +84,7 @@ There was a part I wanted to focus on in your question... Would you mind repeati
 
 **Mark Nadal:** This is something I wanna strongly emphasize to all newcomers coming into the tech industry, as well as programmers that have been around for a long time. I am a frontend developer, and it was 2010-2011... I expected people out there to have solved the backend, to make it easy for me to build a solution. I set myself up on Amazon Web Services because I heard that it was scalable, that things would auto-scale. They just didn't tell me that I had to go in there and figure out how to program everything to auto-scale.
 
-\[00:12:15.13\] I don't have those skill sets, I don't know how to do those things, so when my server crashed in the middle of the night, I was like "What on earth? I thought this was a solved problem."
+\[12:15\] I don't have those skill sets, I don't know how to do those things, so when my server crashed in the middle of the night, I was like "What on earth? I thought this was a solved problem."
 
 So I'd been frustrated for long enough, whether it just be my desktop operating system or tools that I use while trying to program -- and hey, I'm using JavaScript. JavaScript should be one of the most laughed at programming languages out there. Why do these things just seem not to work? And if they don't work, why on earth am I sitting around, trusting these databases that have been around for 30 years, 20 years, 10 years, 5 years? I'm not saying those databases aren't good - they're fantastic, but when I have a problem and they don't deliver, I would argue - regardless of whether you're a newbie or have been programming for a long time - that is an opportunity to strike at.
 
@@ -98,7 +98,7 @@ So if you're a newbie and you're like, "What is up with all this weird programmi
 
 **Mark Nadal:** Yeah, if you want a lesson in trying to overcome haters, just get on Twitter or get on Wikipedia, right? You'll get tackled enough, and... Anyways, going back to your question.
 
-\[00:16:04.07\] I had these problems with my database crashing back in like 2012-ish. It wasn't actually till late 2013, early 2014 that I started struggling with like "Oh, I need the header and the footer in my collaborative web design tool to be reused across pages", and that's when my friend mentioned Neo4j. I'd never heard of graph databases before and I'm like, "Oh, well... I've been wanting to get off of the current database I have long enough anyways, so I should try out Neo4j." Neo4j is fantastic, it was great. The setup was fantastic, they have this really cool interactive tutorial in their admin dashboard to learn how to do a Cypher query, which is their query language; they've got D3 plugins built right into their admin panel so you can visualize the graph... Really neat, but there's two fundamental problems still.
+\[16:04\] I had these problems with my database crashing back in like 2012-ish. It wasn't actually till late 2013, early 2014 that I started struggling with like "Oh, I need the header and the footer in my collaborative web design tool to be reused across pages", and that's when my friend mentioned Neo4j. I'd never heard of graph databases before and I'm like, "Oh, well... I've been wanting to get off of the current database I have long enough anyways, so I should try out Neo4j." Neo4j is fantastic, it was great. The setup was fantastic, they have this really cool interactive tutorial in their admin dashboard to learn how to do a Cypher query, which is their query language; they've got D3 plugins built right into their admin panel so you can visualize the graph... Really neat, but there's two fundamental problems still.
 
 First, and this is where we get to talk about some really exciting things like WebTorrent and IPFS and the whole peer-to-peer decentralized movement. Neo4j is still what's called a master-slave database. That means ultimately all rights have to go through a master, and/or if you wanna scale up at some point, you're going to have to run a fancy algorithm known as Paxos or Raft to make sure that there is consensus of the consistency of the data. And I personally have discovered that while those are very useful for certain industries that you cannot go away from, like banking - you really wanna make sure that the account balance in somebody's bank account is correctly reflecting the amount of money they have before they overspend it or underspend it... Most web applications out there, especially with this movement that Firebase has been pushing, of the real-time web, having everything interconnected, IoT -- doesn't need that. You can have a much more resilient system that will scale a lot better if you switch over to a decentralized architecture.
 
@@ -108,13 +108,13 @@ The second problem is that I am a JavaScript junkie, probably to the disappointm
 
 Neo4j's spec for talking to a client was just way too verbose, and I decided, "Okay, either I use one of the existing drivers out there, I'm gonna have to learn all the Cypher stuff", and I felt uncomfortable with that, OR... Well, two strikes against Neo4j, even though it's a great database, I could just take the effort I'm doing now and whip out a prototype of what a peer JavaScript-NodeJS graph-based database is, especially with all the Firebase quirks -- not quirks... All the Firebase perks to it slapped on top, as well as it then being the peer-to-peer side of the equation.
 
-\[00:20:08.16\] So I made a prototype, proof of concept, only spent a couple weeks on it, posted it to Hacker News, and whow! Got to the homepage of Hacker News and I could tell that even though I hadn't even really written this thing yet, I just had a proof of concept, people wanted this. It wasn't just me that was struggling with the academic snobbery of databases. A quick shoutout to a guy named Aphyr (Kyle Kingsbury). He did a series called "Call Me Maybe" Jepsen tests where he analyzed a ton of databases out there and found out that a lot of the marketing claims of these databases just weren't true; they didn't stand up to the sort of things that they were claiming.
+\[20:08\] So I made a prototype, proof of concept, only spent a couple weeks on it, posted it to Hacker News, and whow! Got to the homepage of Hacker News and I could tell that even though I hadn't even really written this thing yet, I just had a proof of concept, people wanted this. It wasn't just me that was struggling with the academic snobbery of databases. A quick shoutout to a guy named Aphyr (Kyle Kingsbury). He did a series called "Call Me Maybe" Jepsen tests where he analyzed a ton of databases out there and found out that a lot of the marketing claims of these databases just weren't true; they didn't stand up to the sort of things that they were claiming.
 
 Between those three or four things, I decided "Well, it seems like a great timing, a great opportunity... We might as well go for it."
 
 **Jerod Santo:** That's a good spot to pause, actually. We've got to take our first break in a second, but you brought up decentralization as point number one; point two, JS junkie - I don't think anybody listening to this podcast is hating on you for being a JS junkie, so no worries there. Then you mentioned IPFS and stuff like that... Let's take this quick break and when we come back we'll dive a little deeper into some of those things and why decentralized makes this even better. We'll be right back.
 
-**Break:** \[00:21:29.24\]
+**Break:** \[21:29\]
 
 **Adam Stacoviak:** Alright, we're back with Mark, talking about GunDB. Mark, you mentioned decentralized, you mentioned JS junkie, you mentioned IPFS, but what we may have not done perfectly yet is give the elevator pitch to Gun. Give us the elevator pitch - what is Gun, how do people use it, what did you make it for?
 
@@ -124,7 +124,7 @@ In terms of what offline-first and peer-to-peer and being a graph database mean 
 
 When Twitter is bragging about how they have these 300 million users active monthly and how they've learned to scale and all that stuff, with the advent of things like Pokémon and these apps that just get tons of people really quickly, scaling is not going to be the exception. Having millions and millions of users is not going to be the exception for these monoliths, it's going to be the default that most apps have.
 
-\[00:24:07.26\] So out of the box, there's an expectation now that we're going to have to have systems for any average developer to spin up and be able to handle that type of load with the five billion new users coming online. That's more than what's currently online.
+\[24:07\] So out of the box, there's an expectation now that we're going to have to have systems for any average developer to spin up and be able to handle that type of load with the five billion new users coming online. That's more than what's currently online.
 
 How do we do that? Well, this actually is not a computer science problem, it's not a programming problem. You can't throw those things at it; it winds up being a physics problem. It goes actually back to the roots of the web itself and looking at it as a decentralized protocol, a decentralized algorithm. I think that's where a lot of the excitement people might have heard about the resurgence of peer-to-peer is coming from - it's looking at the root, and now is the time to capitalize on that.
 
@@ -141,7 +141,7 @@ For instance, a lot of databases out there are licensed under something called t
 
 It might seem like nothing when you just have a couple university \[unintelligible 00:27:40.10\] coming together and saying, "Oh, here's a proposal for how computers can talk to each other." It's so ethereal... It's not like you're moving gold around. There's no tangible, physical resources to it. But because they came together and said, "Hey, here's something, here's an idea that has amazing potential, and we're gonna give it away for free to anybody and everybody", suddenly you get the rise of the Googles, the Microsofts, the Apples.
 
-\[00:28:10.29\] You have to admit, Microsoft and Apple, or software or hardware companies - a lot of the money they've made is off of the services being internet-enabled and stuff like that.
+\[28:10\] You have to admit, Microsoft and Apple, or software or hardware companies - a lot of the money they've made is off of the services being internet-enabled and stuff like that.
 
 You get the sudden rise of technology and growth and prosperity that keeps on growing, even during some of the world's greatest recessions. That is why open source matters so much. The foundation of technology, if it's based on, "Hey, I know you, you know me, or I don't know you, but I'm gonna give you this for free, because I believe in this cause of decentralization and in open source" only helps things grow, and it makes the world and our lives better collectively. That's why I'm passionate about open source.
 
@@ -163,7 +163,7 @@ When I came out of that program, on demo day I got connected with the guy who ha
 
 At the very end he was like, "Hey, would this be good for gaming?" and I'm like, "No, you don't use a database as a gaming engine; that's just ridiculous." I left the meeting and I'm like, "Shoot, I blew it." Forty-five minutes later though I realized, "Huh, what if he wasn't asking me a question? What if he was giving me an insight from all of the experience he has being a billionaire and investing in all these companies?" I'm like, "Okay, so hopefully I can get another meeting with him. I'm gonna build the game that he suggested I build in that meeting."
 
-\[00:31:57.01\] So I come back to him in the next meeting. I only have like 10 minutes with him, and the first thing I do when I walk into the room is I say, "Hey Tim, I built the game that you wanted. It's a gunslinger game, so whoever can tap on the screen faster than the other person wins." He was actually the one who said that I should build a gun-slinging game and I totally missed the pun, since my database is called Gun.
+\[31:57\] So I come back to him in the next meeting. I only have like 10 minutes with him, and the first thing I do when I walk into the room is I say, "Hey Tim, I built the game that you wanted. It's a gunslinger game, so whoever can tap on the screen faster than the other person wins." He was actually the one who said that I should build a gun-slinging game and I totally missed the pun, since my database is called Gun.
 
 So I walk into the meeting and say, "Hey Tim, we're gonna play this game you told me to build. I built it. If I win, you have to invest some amount of money in my company." He was like, "Okay, game on!"
 
@@ -207,7 +207,7 @@ The important thing that I wanna highlight is that it's easy for me to chat abou
 
 But because I identified that problem, that a lot of people would just say, "Oh, well I'm too stupid, I'm the problem here", I decided to reframe it and say, "No, if I'm having a problem with this and I'm just a stupid frontend guy, we need to make this a better experience for everybody else." So I wanna encourage people out there, like "Hey, if you're struggling with something, don't put yourself down. You are brilliant because you're hacking on these systems, or even if you're learning these systems."
 
-\[00:35:44.28\] You have the genius insight that's already above the rest of the world which collapsed in the economic fallout of the housing crisis. You are already on the game and figuring out and being ahead of the curve, so don't put yourself down. Take that hacker insight that you have that says, "Hey, I'm having to hack around this" or "I'm having to hack to do this - there's a problem there." Stab at it and leverage the connections that you have currently to just keep on building up slowly, year after year. Keep on persevering, keep on fighting for it.
+\[35:44\] You have the genius insight that's already above the rest of the world which collapsed in the economic fallout of the housing crisis. You are already on the game and figuring out and being ahead of the curve, so don't put yourself down. Take that hacker insight that you have that says, "Hey, I'm having to hack around this" or "I'm having to hack to do this - there's a problem there." Stab at it and leverage the connections that you have currently to just keep on building up slowly, year after year. Keep on persevering, keep on fighting for it.
 
 A piece of advice in here... First, never take people's advice, because if you take people's advice it's probably two years late.
 
@@ -235,11 +235,11 @@ But if you're also a person that wants to actually get their technology in the h
 
 You wanna leverage all these things back to back moving forward. It's scary, it really is scary, but...
 
-**Jerod Santo:** \[00:39:57.27\] That actually makes me think about something I just read this morning... I don't know if you've seen it, but our friend of the show, Slava Akhmechet -- he's been on the show a couple times - at RethinkDB, now working at Stripe, just recently posted a post-mortem on RethinkDB with his thoughts on why they ultimately failed. They were in a very similar situation that you are in with regards to an open source datastore product focused on developers, and he has some insight that I think would be interesting to pose to you in light of GunDB, and maybe have a conversation around that.
+**Jerod Santo:** \[39:57\] That actually makes me think about something I just read this morning... I don't know if you've seen it, but our friend of the show, Slava Akhmechet -- he's been on the show a couple times - at RethinkDB, now working at Stripe, just recently posted a post-mortem on RethinkDB with his thoughts on why they ultimately failed. They were in a very similar situation that you are in with regards to an open source datastore product focused on developers, and he has some insight that I think would be interesting to pose to you in light of GunDB, and maybe have a conversation around that.
 
 We've hit our second break, so we'll take up those things on the other side of this short break.
 
-**Break:** \[00:40:40.04\]
+**Break:** \[40:40\]
 
 **Jerod Santo:** Alright, we're back and we are discussing "the business side" of an open source product like GunDB, and a venture-backed product. On the other side of the break I mentioned RethinkDB's recent post-mortem about why that open source datastore didn't make it as a venture-backed company, and Slava Akhmechet has a nice piece -- the interesting thing is it's a draft... He hasn't published it, but it's public on his GitHub in his Drafts folder. I don't know if he's done with it, he hasn't hit the Publish button, but either way it got circulated today. I just read it this morning, and he has a couple of thoughts around why RethinkDB failed.
 
@@ -251,7 +251,7 @@ The first one is what really struck me, and I thought, "Hm, I wonder what Mark t
 
 **Adam Stacoviak:** Dang!
 
-**Jerod Santo:** \[00:44:01.18\] Yeah, it's one of those sad truths. What do you think about that, Mark? In light of Gun.
+**Jerod Santo:** \[44:01\] Yeah, it's one of those sad truths. What do you think about that, Mark? In light of Gun.
 
 **Mark Nadal:** It's brutal, it's true. I know Slava and Mike, I've had the honor of chatting with them several times; they even mentored me in a couple of places when I met with them for an hour or two. Really great guys, incredible product, incredible focus and drive... I can only say good things about them.
 
@@ -269,7 +269,7 @@ There's a whole new opportunity there, because there's very few databases that d
 
 The second is about focusing on a metric that is good, and I don't wanna be the villain here, but it's true... I want to have a developer-focused project that gets developers excited, is done correctly - I'm doing that as best as I possibly can, and I feel like we've been pretty successful at that regard. We've surpassed Cassandra and ArangoDB or these other databases in developer popularity on GitHub. We're about to hit 4,000 GitHub stars.
 
-\[00:47:46.09\] We've focused on performance in this upcoming release that we have; we're not faster than Redis, although you have to take benchmarking with a grain of salt. So we're doing our best to be really good at quality software that works, and we have several demos that you can see in our GitHub readme, where we crash all of the servers and we're still able to recover all the data.
+\[47:46\] We've focused on performance in this upcoming release that we have; we're not faster than Redis, although you have to take benchmarking with a grain of salt. So we're doing our best to be really good at quality software that works, and we have several demos that you can see in our GitHub readme, where we crash all of the servers and we're still able to recover all the data.
 
 We've even invested a lot of energy into building a distributed testing tool to make sure that we can set up real-world scenarios and simulate failure cases, and check! Gun works properly.
 
@@ -288,7 +288,7 @@ Back on the Gun's side, we already have customers that are using us. We're gonna
 
 That's our first little grab at the market, and as a database technology, you're fundamental. Once you are able to deliver to people, you're able to slowly grow on top of that.
 
-\[00:51:43.07\] Then there's some other really exciting news, because for the last year - and I can't really share this - I've been focusing on trying to get connected with and take down some really big fish in the market. We have a really sweet strategy play that you guys will get to watch in the coming year, to see whether we succeed or fail at this.
+\[51:43\] Then there's some other really exciting news, because for the last year - and I can't really share this - I've been focusing on trying to get connected with and take down some really big fish in the market. We have a really sweet strategy play that you guys will get to watch in the coming year, to see whether we succeed or fail at this.
 
 We're gonna hit some pretty big names, and if we're successful, if we land those contracts, then that's an opening to these large deals. I think what I'm gonna argue here is that if you are a startup in the same vein, trying to figure out how to be open source, how to chase your passion and convictions but still make money, I would emphasize - make really strategic plays where you leverage connections that you have. It can take years - it's taking me a long time, too - where you're getting in front of the powers that be currently, and you have a technology that they simply have to use, or else...
 
@@ -304,7 +304,7 @@ The second thing was what I already mentioned with Vue.js - if you're big enough
 
 Partner with those people, potentially do a lot of free work - I've been doing a ton of free work for the last ten months - and make strategic bets, because that is going to be your partnership as a solution, as a product. You gotta convince them, and basically say "Hey, we're built on your technology, so we have to use you, so why don't we come together and as a consortium or as a partnership, or why don't we, Gun, just hire you, and you bring the technology, the product, the solution that you've developed as one of our own, and you act as the ambassador out to these customers that you already have?"
 
-\[00:56:09.04\] That's the strategy I'm taking - I paid a lot of attention to the open source community and I'm trying to partner with the people that have the solution that these big companies need, and that solution can only be built on top of Gun. Then you capitalize that and crack the market open.
+\[56:09\] That's the strategy I'm taking - I paid a lot of attention to the open source community and I'm trying to partner with the people that have the solution that these big companies need, and that solution can only be built on top of Gun. Then you capitalize that and crack the market open.
 
 **Jerod Santo:** So ultimately, are you selling services to these enterprises? Are you selling license? Posting? What's the ultimate sale?
 

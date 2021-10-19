@@ -26,7 +26,7 @@
 
 **Adam Stacoviak:** Gotcha. I heard somebody say recently this three-year aspect - rather than starting something new, expecting success right away. It was more like "I'm doing this knowing that what I'm doing today will bring success three years from now." And I don't know if that's a one-to-one with that, but it's this -- we live in a very instant gratification world today.
 
-\[00:03:58.18\] If you want to play a song, you're reminded of a great, old song that you really love, what are you gonna do? You're probably gonna open your phone, pull up Spotify and go to Search, and it's probably gonna be there. You're gonna push play and be gratified with listening to it, and have all those memories, and then go back to your day. Or a movie that's probably on Netflix, or available for rent. There's nothing that's not available to us pretty much instantly when it comes to consumption.
+\[03:58\] If you want to play a song, you're reminded of a great, old song that you really love, what are you gonna do? You're probably gonna open your phone, pull up Spotify and go to Search, and it's probably gonna be there. You're gonna push play and be gratified with listening to it, and have all those memories, and then go back to your day. Or a movie that's probably on Netflix, or available for rent. There's nothing that's not available to us pretty much instantly when it comes to consumption.
 
 **Mireille B. Reece, Psy.D:** Yeah, but then it makes it harder to stay in that pocket or that time under tension while you're working to cultivate that longer-range goal. But that's so much of life, and I think the longer that I live and the more experiences I have, the more I really become an advocate for invested in process-based goals, wherein I'm learning to fall in love with all of these itty-bitty wins along the way, so that I just want to keep going, because I can see evidence of my effort in whatever way I'm placing it.
 
@@ -52,7 +52,7 @@
 
 **Adam Stacoviak:** Right. Because your effort could have been perfectly on point. You could have had everything right when it comes to that, but the variables of the outcome just were not under your control, so you couldn't have trained well enough to confirm these variables that were just not in your control.
 
-**Mireille B. Reece, Psy.D:** \[00:07:47.01\] Yeah, and there's been researchers who've broken down this construct of perfectionism... And what they've looked at is going "When is perfectionism maladaptive, versus more adaptive?" I would say in athletics, high-level athletes are perfectionistic, but in a good way... Because when it came down to it, there's this one little area of perfectionism called concern over mistakes, and if they see the lack of achievement of that outcome-based goal as a failure, that's when it's maladaptive, versus they see it as like "Oh, I was so close...! I got silver in this category/sport." So it then leads to more process in performance goals.
+**Mireille B. Reece, Psy.D:** \[07:47\] Yeah, and there's been researchers who've broken down this construct of perfectionism... And what they've looked at is going "When is perfectionism maladaptive, versus more adaptive?" I would say in athletics, high-level athletes are perfectionistic, but in a good way... Because when it came down to it, there's this one little area of perfectionism called concern over mistakes, and if they see the lack of achievement of that outcome-based goal as a failure, that's when it's maladaptive, versus they see it as like "Oh, I was so close...! I got silver in this category/sport." So it then leads to more process in performance goals.
 
 **Adam Stacoviak:** Do you think it makes sense to attach the phrase "Not yet" to an outcome goal then? Maybe you have a measurable where it's time-based, if we get into SMART goals, or apply SMART goals to this... But I'm thinking maybe the phrase "not yet" might be helpful to round off or soften an outcome goal.
 
@@ -90,7 +90,7 @@
 
 **Mireille B. Reece, Psy.D:** Yes. \[laughs\] Yeah, so it's then amplifying desire and motivation, that I want to keep performing, to move me in the direction of that desired outcome.
 
-**Adam Stacoviak:** \[00:12:04.11\] Right. What I found really interesting when I read through this was -- I had never broken down goals to this degree... And I like the fact that now I understand that outcome goals are -- I understand what they are, but they're not fully under my control. But what is under my control is how I can perform, and the process I do to perform.
+**Adam Stacoviak:** \[12:04\] Right. What I found really interesting when I read through this was -- I had never broken down goals to this degree... And I like the fact that now I understand that outcome goals are -- I understand what they are, but they're not fully under my control. But what is under my control is how I can perform, and the process I do to perform.
 
 So I can control those variables and the outcome, as we said before, if we can say "Not yet" or find a way to soften it and round it off; then it makes it a little bit easier to show up every day, I suppose, and not feel like quitting. Because the reasons why you feel like quitting is because you don't celebrate the small wins, or understand how to bite-size chunks of these goals to get there. And whenever the outcome doesn't come because the variables are out of your control, then you're like "Why did I even try? Seriously, why do I even try? Why did I do this?"
 
@@ -120,7 +120,7 @@ So you might get into it for that kind of payout, but it's just difficult to onl
 
 **Adam Stacoviak:** Briefly, yeah. In a previous episode.
 
-**Mireille B. Reece, Psy.D:** \[00:16:06.17\] Right. SMART goals are Specific, Measurable, Achievable, Realistic and Timely. I need to be specific. I just can't say "I wanna get better at coding."
+**Mireille B. Reece, Psy.D:** \[16:06\] Right. SMART goals are Specific, Measurable, Achievable, Realistic and Timely. I need to be specific. I just can't say "I wanna get better at coding."
 
 **Adam Stacoviak:** Right.
 
@@ -162,7 +162,7 @@ So you might get into it for that kind of payout, but it's just difficult to onl
 
 **Mireille B. Reece, Psy.D:** So that isn't good or bad, but like we've talked about in other episodes, I need to be considerate around the energy that I'm allocating in different places. So I might say "Okay, I'm gonna move over this goal as it relates to my relationships, and I'm gonna consider the way in which I show up for my family. I am going to come out of my office every day at five o'clock, because I'm going to make an effort to always be available, from the time I finish at five, until I go back in it at nine in the morning, or whatever."
 
-**Adam Stacoviak:** \[00:20:15.03\] Right. You're describing my life, in a way...
+**Adam Stacoviak:** \[20:15\] Right. You're describing my life, in a way...
 
 **Mireille B. Reece, Psy.D:** \[laughs\]
 
@@ -188,7 +188,7 @@ So on the personal and professional side I'm achieving goals that I set for me f
 
 **Mireille B. Reece, Psy.D:** And that is an excellent question, because you're getting at this sense of commitment as it relates to constraints, and saying "If I don't manage all of these dimensions of my life, and the things that I care about are prioritized, then I might actually get to an outcome that I didn't really want."
 
-**Adam Stacoviak:** \[00:24:15.20\] Right.
+**Adam Stacoviak:** \[24:15\] Right.
 
 **Mireille B. Reece, Psy.D:** But it means that you have to be deliberate around planning and going "What can I actually commit to?" Because if it's saying "I have this many conferences and I'm going to be gone ten times throughout the 12 months for an average of five days...
 
@@ -208,7 +208,7 @@ So on the personal and professional side I'm achieving goals that I set for me f
 
 **Mireille B. Reece, Psy.D:** Yeah, so it's meant saying no to other professional opportunities, because I prioritized my family and my commitment to them... Because I only get 18(ish) years, and then that chapter. So I try to be very deliberate around the activities, and really savoring the times that I have with my family right now.
 
-**Adam Stacoviak:** \[00:27:59.29\] And being present is so important, especially when it comes to -- I mean, any relationship really, but specifically with a spouse or children... Because being present and being aware - you can be in the moment with a loved one... Let's just say kids. But if you're tied to Twitter, or your phone, or something that's distracting you, and your kid's talking to you and they say "Daddy/mommy, did you hear what I'm asking you to play with me?" What kind of feedback does that give your children, or your child in this case? You're not present, you're not aware, you're not in the moment, and quite literally we cannot rewind time. We can't get those moments back, so once they're gone, they're gone.
+**Adam Stacoviak:** \[27:59\] And being present is so important, especially when it comes to -- I mean, any relationship really, but specifically with a spouse or children... Because being present and being aware - you can be in the moment with a loved one... Let's just say kids. But if you're tied to Twitter, or your phone, or something that's distracting you, and your kid's talking to you and they say "Daddy/mommy, did you hear what I'm asking you to play with me?" What kind of feedback does that give your children, or your child in this case? You're not present, you're not aware, you're not in the moment, and quite literally we cannot rewind time. We can't get those moments back, so once they're gone, they're gone.
 
 That doesn't mean, "Oh, guilt trip forever. Be present every single moment." It just means be aware of where you're not putting your value in... And if those moments are truly valuable, then find ways to say no to things, potentially even dealing with addiction. Addiction to an app, for example; addiction to that dopamine hit whenever you see a like, or a retweet, or a Twitter thread you put out there blows up and gets on Hacker News, or whatever it might be...
 
@@ -230,7 +230,7 @@ So when you're talking about even being distracted, in the moment, we work reall
 
 **Adam Stacoviak:** Right. That's really interesting to think about that. Eye connection is one of those -- I don't know the science behind it, so back me up here, but whenever you look somebody in the eye, there's a human-to-human, one-to-one, peer-to-peer, clear, distinct connection that can't be disregarded. If you ever find yourself in a room full of people, you kind of know when eyes are on you. You can look at somebody and the next thing you know you've caught eyes with somebody you don't even know, and they look away. There's some sort of interaction there with humans looking each other in the eye.
 
-**Mireille B. Reece, Psy.D:** \[00:31:57.02\] Well, and I would even make it a little broader, in just looking at a face in terms of facial expression... Because there's so much more data as it relates to how you say things, the way in which your face contorts. Because emotions, generally speaking, are universal in terms of how we express them with our face. So I'm losing a whole piece of data when I don't look at people, because it's actually related to even empathy, and the neuroscience of mirror neurons... So that I can actually have more of an emotional awareness of another person. So it just changes even the way in which the interaction feels.
+**Mireille B. Reece, Psy.D:** \[31:57\] Well, and I would even make it a little broader, in just looking at a face in terms of facial expression... Because there's so much more data as it relates to how you say things, the way in which your face contorts. Because emotions, generally speaking, are universal in terms of how we express them with our face. So I'm losing a whole piece of data when I don't look at people, because it's actually related to even empathy, and the neuroscience of mirror neurons... So that I can actually have more of an emotional awareness of another person. So it just changes even the way in which the interaction feels.
 
 **Adam Stacoviak:** Right.
 
@@ -258,7 +258,7 @@ So when you're talking about even being distracted, in the moment, we work reall
 
 **Adam Stacoviak:** Right.
 
-**Mireille B. Reece, Psy.D:** \[00:36:06.14\] So you guys can comment, tell us ideas, topics you want to have us talk about, because we want to share with you and give you guys more of what you're looking for.
+**Mireille B. Reece, Psy.D:** \[36:06\] So you guys can comment, tell us ideas, topics you want to have us talk about, because we want to share with you and give you guys more of what you're looking for.
 
 **Adam Stacoviak:** Right.
 
@@ -284,7 +284,7 @@ So when you're thinking like "What can I give Mireille and Adam feedback on to d
 
 But I think it's really important why we did this show though, Mireille. I know we talked about the decade turning, but it's uniquely positioned, because this is the time of the year when people think "I have got to do all the things...", because there's such a social pressure from everyone else. There's lists that come out, there's YouTube shows, there's TV shows; everyone starts talking about this new year, and the new you, and this new goal-setting, and I think it's really wise of you to pitch this idea of goal-setting because our audience is naturally going into the new decade, like we are; we can't help it, so why not go in with a better perspective on how to better goal-set and to uniquely understand what you're trying to do, so that we can set people up for success, and not failure.
 
-**Mireille B. Reece, Psy.D:** \[00:40:22.19\] With that, I wanna wrap up this discussion as it relates to really the obstacles as we go to do that. I believe it was a Greek philosopher who might have been the first to hypothesize that there's fundamental human motives related to having reward. Our brain is always looking for that hit of dopamine, like "What reward am I gonna get for moving in a direction, and what pain is gonna be associated with that?"
+**Mireille B. Reece, Psy.D:** \[40:22\] With that, I wanna wrap up this discussion as it relates to really the obstacles as we go to do that. I believe it was a Greek philosopher who might have been the first to hypothesize that there's fundamental human motives related to having reward. Our brain is always looking for that hit of dopamine, like "What reward am I gonna get for moving in a direction, and what pain is gonna be associated with that?"
 
 **Adam Stacoviak:** Oh, boy... Yeah.
 

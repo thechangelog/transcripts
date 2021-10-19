@@ -2,7 +2,7 @@
 
 There's also talks of Linuxbrew, which is a fork of Homebrew joining in lots of fun stuff happening in this package manager space for the operating systems. We have three sponsors on today's show - Rollbar, Toptal and Linode.
 
-**Break:** \[00:00:57.10\]
+**Break:** \[00:57\]
 
 **Adam Stacoviak:** We're back, we've got a fun show lined up. We've got Mike McQuaid here from Homebrew. Homebrew \[unintelligible 00:02:24.24\], recently Homebrew 1.0. Jerod, what do you think about that?
 
@@ -20,7 +20,7 @@ Now, it's kind of giving us this chance to become a more real software project a
 
 **Adam Stacoviak:** I can barely remember last week or last month, but just based on our own show notes, me and Wynn - when Wynn was part of this show... And it's kind of funny, because now Wynn works with Mike; he's manager-manager of somebody's manager or something like that, at GitHub. We caught up with Max Howell, talked about Homebrew... I think this show was a lot more loose then. I don't think we were quite as standardized as we are now, where we kind of go into the history and go deep like this. It was a bit more of a wing it kind of show then, I guess.
 
-\[00:04:05.21\] It was fun talking to Max. I can't remember a single thing we talked about. I know we talked about at least Mac, beer and scrobbling, because that's what the notes say. You can check that out at changelog.com/35, or scroll pretty far back in the list of podcasts that you have there when you're a listener.
+\[04:05\] It was fun talking to Max. I can't remember a single thing we talked about. I know we talked about at least Mac, beer and scrobbling, because that's what the notes say. You can check that out at changelog.com/35, or scroll pretty far back in the list of podcasts that you have there when you're a listener.
 
 **Jerod Santo:** Yeah, so it's been a long time and definitely kind of a catch-up show... But a new show, an introduction to Mike. Mike, we like to get backgrounds, origin stories... Kind of the roots of where you began in the programming trades. Can you tell us how you got started and what got you to where you are now?
 
@@ -40,7 +40,7 @@ I had a job where I was doing Qt toolkits - which everyone thinks is Q-T, but it
 
 Then I remember one day I had some friends over, I'd do a monitor setup and I was trying to watch a DVD without tearing on my new Nvidia card or whatever, and I couldn't get a DVD to play. This was in 2008, 2009 I think, and I couldn't get a DVD to play properly. That was the day I realized that my days with desktop Linux were done. I pulled up the Mac and that worked perfectly, so I slightly move my approach onto the Mac with \[unintelligible 00:07:41.08\] before I kind of gave up.
 
-\[00:07:45.19\] Then I used MacPorts a bit, and then I ended up working on this thing called MacPorts Dummies, which lead me a little bit into Homebrew. MacPorts Dummies was a way of pretending that a bunch of stuff was installed that was provided by RSX. I kind of knew Max, who was a friend of a friend, and we ended up meeting up, going for a beer and stuff like that. He was like, "There's this Homebrew thing I made that you should check out. It sounds like it's sort of in keeping with your interests."
+\[07:45\] Then I used MacPorts a bit, and then I ended up working on this thing called MacPorts Dummies, which lead me a little bit into Homebrew. MacPorts Dummies was a way of pretending that a bunch of stuff was installed that was provided by RSX. I kind of knew Max, who was a friend of a friend, and we ended up meeting up, going for a beer and stuff like that. He was like, "There's this Homebrew thing I made that you should check out. It sounds like it's sort of in keeping with your interests."
 
 I guess that was about 2009 I started working on Homebrew, and I guess since then I've been working as a maintainer and never really stopped.
 
@@ -70,7 +70,7 @@ When Max left - he was the lead at that point, and when he left we kind of agree
 
 I think where we struggled and where we felt the pain of that coming up recently was when I was contributing a lot more than other people were, and when you have the idea that "Oh, this is a democracy and everyone gets to vote", it doesn't... I guess I read that thing about the governance models and the best one... Meritocratic is a really loaded terms and I don't think it applies in open source, but what people have described is the meritocratic governance model is almost like you have more decision-making power based on doing more work, basically.
 
-\[00:12:31.15\] That's not commit counts or lines of code changed, but basically if you're more involved, or you're spending more time on the project, and you're kind of leading the direction a bit more, then you probably have a bit more say.
+\[12:31\] That's not commit counts or lines of code changed, but basically if you're more involved, or you're spending more time on the project, and you're kind of leading the direction a bit more, then you probably have a bit more say.
 
 I think the lead maintainer thing came about because I was essentially gonna fill in that role, and to validate some other complaints that were made, I was maybe sort of overruling or pushing through some things and not really operating by the committee's side of things.
 
@@ -88,7 +88,7 @@ Then it seems like when Max dipped away and stepped off to do his own thing, or 
 
 **Mike McQuaid:** Yeah, and it's interesting as well because, as I suspected you were gonna mention later on anyway, we've split into two repositories now. You've got Homebrew/brew which is the package manager, and Homebrew/core which is the formulae, and we kind of split the history between them as well. You can kind of see the kind of disquiet difference in contribution patterns between the two. There's the same sort of faces in there, but there's people who are very active in one and not really in the other. I think that was the big thing where Max particularly was always most active in the package manager. And I guess lately I've been sort of similar; I've had a reasonable number of contributions to the packages, but not nearly as much as some other people.
 
-\[00:16:04.19\] The 1.0 release has been more of a thing around the package manager rather than the packages itself, so that's where my focus has been the last few months certainly.
+\[16:04\] The 1.0 release has been more of a thing around the package manager rather than the packages itself, so that's where my focus has been the last few months certainly.
 
 **Jerod Santo:** So when you went to this meritocracy or voting-based thing, you all found that it wasn't moving forward at the desired pace that you guys wanted it to, and because you were already kind of implicitly acting as a leader - or, as you thought, perhaps overstepping your bounds but people actually appreciated it - did you end up with this flat structure where it's Mike McQuaid and then everybody else, or is there underneath that structure a group of core maintainers and then everybody else? How exactly is it structured now?
 
@@ -106,11 +106,11 @@ Maybe part of that is because we started gathering analytics - which I don't wan
 
 **Mike McQuaid:** I guess I've been at GitHub coming up to three years, so certainly the majority of my time working on Homebrew has not been at GitHub. Similarly with my previous employees... They have, I guess, paid me to work on Homebrew on occasion when I've had Google Summer of Code students through GitHub and stuff like that, or Homebrew people at Summer of Code students which have been blessed with GitHub - I've spent work time on that.
 
-\[00:20:11.29\] In terms of day to day work, I don't - in theory at least - work on it on GitHub's time. If I'm blocked waiting for something for like five minutes, like I'm waiting for a test to finish, I'll go through my Homebrew emails, triage, give a little reply, whatever... Then equally, if there's something that is going to or it's currently blowing up and will affect GitHub employees - because we use Homebrew fairly heavily internally - then I'll fix that. But I don't generally do the day to day Homebrew work during GitHub time. That's mainly my evenings, weekends, spare time etc.
+\[20:11\] In terms of day to day work, I don't - in theory at least - work on it on GitHub's time. If I'm blocked waiting for something for like five minutes, like I'm waiting for a test to finish, I'll go through my Homebrew emails, triage, give a little reply, whatever... Then equally, if there's something that is going to or it's currently blowing up and will affect GitHub employees - because we use Homebrew fairly heavily internally - then I'll fix that. But I don't generally do the day to day Homebrew work during GitHub time. That's mainly my evenings, weekends, spare time etc.
 
 **Jerod Santo:** Very good. Well, I think that sets us up. Let's take a break and on the other side we'll talk about what is new with Homebrew 1.0.0. We'll be right back.
 
-**Break:** \[00:20:57.23\]
+**Break:** \[20:57\]
 
 **Jerod Santo:** Alright, we are back, celebrating, cheersing even on Homebrew 1.0 with \[unintelligible 00:22:39.08\] Mike McQuaid. See what I did there?
 
@@ -120,7 +120,7 @@ Maybe part of that is because we started gathering analytics - which I don't wan
 
 One thing about the original Homebrew repository - which, by the way, is still out there; you guys have it under /legacy-homebrew - is it was always one of the most forked and starred and watched and contributed to, probably has the most PRs perhaps of almost any repository on GitHub, because not just the package manager itself, the source code that makes up Homebrew, but also all the different formulae, which is the descriptions of how packages get installed and uninstalled.
 
-\[00:23:58.22\] When I first saw that you guys split up into different repos I thought, "Oh no, they had this great star count, they had this great fork count, this statistical legacy there that now is going to be broken." But that being said, you all have set up analytics over the last year, so that gives you better stats than just the stars and the forks for actual usage.
+\[23:58\] When I first saw that you guys split up into different repos I thought, "Oh no, they had this great star count, they had this great fork count, this statistical legacy there that now is going to be broken." But that being said, you all have set up analytics over the last year, so that gives you better stats than just the stars and the forks for actual usage.
 
 Start off with telling us the onus behind splitting the repositories, and then perhaps give us some insight into the analytics that you guys have been tracking.
 
@@ -136,7 +136,7 @@ Nowadays we have, as you mentioned, the analytics, that was introduced in March,
 
 As a whole, it basically just provides what analytics tend to do for any piece of software, which is it lets us inform our future design and inform what things we focus on based on the stuff our users actually use, rather than our speculation of what the users use, which is something we didn't have before.
 
-**Adam Stacoviak:** \[00:27:49.22\] GitHub stars and watchers are indicators, but they're not exactly... I don't think those things are for maintainers, I think they're more for the general public to show. They can't give you that deep of insight; knowing watchers and stars - those are important, but it's not giving you deep enough insights that you need as a maintainer these days.
+**Adam Stacoviak:** \[27:49\] GitHub stars and watchers are indicators, but they're not exactly... I don't think those things are for maintainers, I think they're more for the general public to show. They can't give you that deep of insight; knowing watchers and stars - those are important, but it's not giving you deep enough insights that you need as a maintainer these days.
 
 **Mike McQuaid:** Yeah, I agree. You certainly can't have like, "Oh, we did this, we shipped this new feature and we got 5% more stars", that doesn't really help us, whereas when we see that we shipped this new feature and our error count's gone up from 0.01% to 0.05% and stuff like that, that's more of the type of things we're concerned about. And it's particularly useful when we can go and see... If something breaks, we periodically go through and do some porting, or when a new version of OSX is out or whatever, and it's useful to be able to go through all of our packages and be like, "Okay, well this thing's broken on the new version of OSX, but no one has actually installed this since March. So let's not go and spend like three hours trying to fix this piece of software that no one is actually using." We can just remove it instead - we call it "sending it to the bone yard." That means the definition is still there if someone wants to pick that up at a later point, and pull that through, then they can do that; it's all a bit easier than navigating through the Git history if you're not a Git whiz, and it lets us kind of push away the maintenance part of that, for a wee while at least.
 
@@ -150,7 +150,7 @@ So that vocal minority got very upset, some of them, on Hacker News and Reddit a
 
 It is depressing that we still in 2016 have to deal with stuff like this, because... If there's any of those people who -- and I did say this to someone who emailed me... That is what kills open source. That's what drives open source maintainers away and kills successful open source projects. I had moments -- bizarrely, some of our other major maintainers had to be talked into staying in the project at all, because they were...
 
-\[00:31:53.08\] We talk about diversity problems sometimes in open source as well. Several of my co-workers who aren't just, you know, young white men, who I talked to about the Homebrew thing, they just said "That sounds awful. I would never want to be involved with a project where I would have that abuse, for something I do in my spare time to try to help out other people."
+\[31:53\] We talk about diversity problems sometimes in open source as well. Several of my co-workers who aren't just, you know, young white men, who I talked to about the Homebrew thing, they just said "That sounds awful. I would never want to be involved with a project where I would have that abuse, for something I do in my spare time to try to help out other people."
 
 I think it does seem to be getting better and we do seem to be as a community recognizing that this behavior is not acceptable and this behavior is not how we build software, but we don't necessarily have all the toolings and institutions and everything quite figured out how to stop stuff like that when, as you say, you're an email or a Twitter message away from someone starting to be mean.
 
@@ -170,7 +170,7 @@ It is valuable to be able to see these kinds of things, and the dropdown is quit
 
 **Mike McQuaid:** And the thing that some people have asked already actually about that, people who are scientists have been asking, "It would be really useful for me, as I've worked on some piece of software as part of my PhD, to be able to put in a paper - this has actually been used this many times, or installed this many times", because that gives some - I don't know, I'm not a scientist, but that gives I think some sort of weighting or a sense of importance to the kind of work they'd been doing, which I can understand.
 
-**Jerod Santo:** \[00:36:05.03\] Yeah. Or people who are putting the work in to maintain specific formulas - or formulae, as you guys like to call them. I'd like to know, like "Is this worth my effort? Me and six other people are using it, and I got six complaints." That's all users, as opposed to "Oh, a lot of people are really drawing value from this, I'm gonna continue to maintain it."
+**Jerod Santo:** \[36:05\] Yeah. Or people who are putting the work in to maintain specific formulas - or formulae, as you guys like to call them. I'd like to know, like "Is this worth my effort? Me and six other people are using it, and I got six complaints." That's all users, as opposed to "Oh, a lot of people are really drawing value from this, I'm gonna continue to maintain it."
 
 **Mike McQuaid:** Yeah, exactly.
 
@@ -188,7 +188,7 @@ As a result, I flipped that git fetch operation to just being an HTTP call, and 
 
 **Mike McQuaid:** Yeah, it's much, much easier when you have that. It's nice to be able to jump in there and play around. But I think even if I didn't control that side of things, there might have been ways I could have played around and made it a little bit faster. But no, it's certainly easier, as you say, when you have that... And when you have very smart co-workers who I can kind of bump it off, who actually work on Git itself as their day job, and then be like "Okay, am I being stupid here? Why is this slow?" and all this type of thing in there, and then discussing an approach with them. That was pretty fun.
 
-**Jerod Santo:** \[00:40:16.05\] Just one aspect of user experience, I think focusing on speed is key there. In fact, Adam and I were kind of lamenting a little bit before the call about certain bits of software that do autoupdate but you don't run them enough for them to ever be updated. The example - for me, at least - is Firefox, which I don't use on a regular basis, but I do use if I'm doing browser testing or for one-off purposes, and it seems like... I think they may do it in the background now, but it used to be every time I launched Firefox it would say, "Hey, we have an update."
+**Jerod Santo:** \[40:16\] Just one aspect of user experience, I think focusing on speed is key there. In fact, Adam and I were kind of lamenting a little bit before the call about certain bits of software that do autoupdate but you don't run them enough for them to ever be updated. The example - for me, at least - is Firefox, which I don't use on a regular basis, but I do use if I'm doing browser testing or for one-off purposes, and it seems like... I think they may do it in the background now, but it used to be every time I launched Firefox it would say, "Hey, we have an update."
 
 I use Brew all the time, so I don't have that issue, but it can be the kind of thing where you don't launch it very often, and then it feels like every time you're running the Brew command it's updating. Sometimes I just gotta get this thing installed; I need this command so I can fix something that's on fire... So speed I think is important to fix that. If it happens real fast, no big deal. But in light of "There is a new update", does it automatically run that for you, or does it prompt you where you can say, "Not right now." Have you thought through those kinds of things?
 
@@ -212,7 +212,7 @@ If it's the same command we're having to tell people to run every single time an
 
 **Adam Stacoviak:** And as you said, it's just definitions, right? It's just pulling back the latest things that are available to brew install.
 
-**Mike McQuaid:** \[00:43:43.25\] Yeah, exactly. The other thing that's kind of tricky from a package manager perspective is that you have this conflict between what people want and what people need. Humans, myself included, are lazy, and if you can avoid upgrading something now and if you can kind of put it off until tomorrow, most people will. But then there's some other stuff that's like, "Well, actually that's a really big deal with security, so you need to update this now." If you don't want to update it now, then we've gotta nudge you in the right direction so that you do that, so that your machine doesn't get \[unintelligible 00:44:20.04\] and we're at least partly responsible.
+**Mike McQuaid:** \[43:43\] Yeah, exactly. The other thing that's kind of tricky from a package manager perspective is that you have this conflict between what people want and what people need. Humans, myself included, are lazy, and if you can avoid upgrading something now and if you can kind of put it off until tomorrow, most people will. But then there's some other stuff that's like, "Well, actually that's a really big deal with security, so you need to update this now." If you don't want to update it now, then we've gotta nudge you in the right direction so that you do that, so that your machine doesn't get \[unintelligible 00:44:20.04\] and we're at least partly responsible.
 
 It's that kind of weird conflict that you have where sometimes you've gotta just force people to do things, or not implement things that they want you to. A recent thing that could have made the 1.0 release and I kind of pruned it from there - we used to let you run Homebrew as root. You would have to completely change all the ownerships so it was root to almost emphasize that "Look, I'm really sure", but in the end we were just like, "You know what? There's a use case for this, but it's just a really bad idea." If you run Homebrew as root, while all the package managers that run as root, they drop privileges because that's what they're designed; so they will run as root, and then when it actually comes to doing an installation or whatever, they'll go and be like "Okay, I'm a user now with no privileges, so I can't do stuff."
 
@@ -224,7 +224,7 @@ In Homebrew, because the vast majority of our users are not running as root, we 
 
 The problem with this, as time goes on and we say in our repo like, "Oh yeah, we wanna add a readme, we wanna add a code of conduct, we wanna add a bunch of stuff in our repository root", the problem with that is all that stuff ends up then getting dumped in usr/local. Then people are like, "Okay, well /usr/local/bin/wget - okay, I'm fine with that. usr/local/readme.md - that feels kind of weird to me when there's other stuff in usr/local." People were annoyed with that, and I kind of understand that.
 
-\[00:47:54.10\] It was actually one of our users who came up with something which was, frankly, a hack, but it's never really been patched, which was that by default Homebrew's (what we call the) prefix, which is usr/local, and that's where all your files get symlinked to, like usr/local/bin etc. - that has actually remained unchanged, and that was the same as where we had the repository previously. But there was a hack you could do where you could install the repository in a different case and a different place, and symlink it finally, and then it would put the repository's files - the readme file, code of conduct, documentation or whatever - in a different path that you specify of your choosing. Then usr/local would contain just the symlinks and the installed packages.
+\[47:54\] It was actually one of our users who came up with something which was, frankly, a hack, but it's never really been patched, which was that by default Homebrew's (what we call the) prefix, which is usr/local, and that's where all your files get symlinked to, like usr/local/bin etc. - that has actually remained unchanged, and that was the same as where we had the repository previously. But there was a hack you could do where you could install the repository in a different case and a different place, and symlink it finally, and then it would put the repository's files - the readme file, code of conduct, documentation or whatever - in a different path that you specify of your choosing. Then usr/local would contain just the symlinks and the installed packages.
 
 You may have seen the usr/local/cellar directory - that's where all the binaries are actually stored, and then they're symlinked into various different locations. The problem is if we decided to move that, we would have to rebuild all our binary packages for all of our OSX versions, and that's basically a massive pain that we don't want to have to go through.
 
@@ -244,7 +244,7 @@ Again, that's another example of somewhere where it's massively cut down on a bu
 
 **Adam Stacoviak:** That's funny. As we're talking through all this, the details, I'm just reflecting back on earlier in this show when you said that you do this Homebrew stuff, as you said, whenever you're running a test suite and it takes five minutes, or something like that... I'm just reflecting on all these details and all this complexity and all this community and all this -- how important Homebrew is to so many developers out there, how you and others do this in your spare time. That's just crazy to me.
 
-**Mike McQuaid:** \[00:51:54.02\] Yeah, I mean, I say kind of here and there, but in the run up to 1.0 I'd sort of decided I wanted to ship it all around about the Sierra release. In the two weeks before that, I was just like doing pretty much every evening and weekend, pretty much all evening and weekend. I think we were getting to the point where my dog and wife would've not tolerated any further. \[laughter\]
+**Mike McQuaid:** \[51:54\] Yeah, I mean, I say kind of here and there, but in the run up to 1.0 I'd sort of decided I wanted to ship it all around about the Sierra release. In the two weeks before that, I was just like doing pretty much every evening and weekend, pretty much all evening and weekend. I think we were getting to the point where my dog and wife would've not tolerated any further. \[laughter\]
 
 **Adam Stacoviak:** We know you're a dog lover too, we can hear your pups in the background there for a second or two... They got a little cameo on the show.
 
@@ -252,7 +252,7 @@ Again, that's another example of somewhere where it's massively cut down on a bu
 
 **Adam Stacoviak:** Cool, let's pause there then. When we come back, we've got lots of other things to talk about - Software Freedom Conservancy, the new community site, several other things happening... More community growth and maybe even more ways that the community could step in and support Homebrew and ship their own formula - or formulae, as you might say. Let's pause here, and we'll be right back.
 
-**Break:** \[00:52:54.08\]
+**Break:** \[52:54\]
 
 **Adam Stacoviak:** We're back with Mike McQuaid, talking about Homebrew. Mike, around Homebrew there's several terminologies used - you've got cask, you've got tap, you've got brew, you've got formula/formulae... I think that's changed, if I'm correct.
 
@@ -268,7 +268,7 @@ Actually, a fun little fact - when we split out Homebrew into the two repositori
 
 **Mike McQuaid:** Yeah, definitely. I think there's a recognition in that that a) people are gonna want to do stuff that we don't have the -- if you work at a company, you may well won't have internal tools which are installed by Homebrew through a tap, but also it's helped us with some of the really long tail stuff, because now we can say to people "If you're the only person interested in this, then you can just create your own tap and you can keep that up to date." Then, if more and more people use that - particularly now that we have analytics for some of this stuff - then we can consider bringing that into Homebrew itself. Before that, we couldn't. Not the kind of private taps that are revealed by analytics - we're careful to not do that, but within the Homebrew organization we have several taps for different things. It lets us as well kind of subdivide maintainers based on things they're interested in. We have a science tap, a PHP tap, a Python tap.
 
-\[00:56:10.07\] To install Python, you don't have to tap the Python tap, but it provides some sort of stuff which is deeper into that ecosystem, and stuff which we wouldn't include in our main repository can kind of find a home in some of these taps instead. And these taps can be run independently and a little bit looser on some of the restrictions that we have to have to keep the core working effectively.
+\[56:10\] To install Python, you don't have to tap the Python tap, but it provides some sort of stuff which is deeper into that ecosystem, and stuff which we wouldn't include in our main repository can kind of find a home in some of these taps instead. And these taps can be run independently and a little bit looser on some of the restrictions that we have to have to keep the core working effectively.
 
 **Jerod Santo:** Tell us about Cask. What's Cask?
 

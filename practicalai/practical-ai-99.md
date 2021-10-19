@@ -52,7 +52,7 @@
 
 **Chris Benson:** I don't recall it. Tell us about it. Foo Bar us.
 
-**Jack Morris:** \[00:04:05.11\] Okay, so I'll tell you the story... Basically, I was in my sophomore year in college; at UVA we call it second year, because we \[unintelligible 00:04:11.12\] So I was in my second year. I had this personal website I think I was working on... I was searching up something related to a software project I was working on on Google. I think what I typed in was something like "Python list comprehensions", something related to that... And I typed it in, and then - it's hard to explain in audio, but basically there's the search result page for Google, all the results, and it kind of animated, it shrunk up and slid over, and then kind of like behind the search results...
+**Jack Morris:** \[04:05\] Okay, so I'll tell you the story... Basically, I was in my sophomore year in college; at UVA we call it second year, because we \[unintelligible 00:04:11.12\] So I was in my second year. I had this personal website I think I was working on... I was searching up something related to a software project I was working on on Google. I think what I typed in was something like "Python list comprehensions", something related to that... And I typed it in, and then - it's hard to explain in audio, but basically there's the search result page for Google, all the results, and it kind of animated, it shrunk up and slid over, and then kind of like behind the search results...
 
 **Daniel Whitenack:** Aaah... I've heard of this.
 
@@ -72,7 +72,7 @@ So I thought I was wrong about how far along we are in solving some different NL
 
 **Chris Benson:** And what is a skip-thought vector, just for those of us who don't know?
 
-**Jack Morris:** \[00:07:54.28\] Yeah, it's now no longer the state of the art method, but it's a way to take a sentence and encode it into a vector, so that you can compare that vector to other sentences to see if they're similar or dissimilar...
+**Jack Morris:** \[07:54\] Yeah, it's now no longer the state of the art method, but it's a way to take a sentence and encode it into a vector, so that you can compare that vector to other sentences to see if they're similar or dissimilar...
 
 **Chris Benson:** Gotcha.
 
@@ -94,7 +94,7 @@ I think the quintessential example is the panda, and then you add this tiny litt
 
 **Daniel Whitenack:** Yeah.
 
-**Jack Morris:** \[00:11:56.16\] ...that are patterned in a certain way that convinces the camera that they're not a person, or it just totally distorts their facial recognition software... It's pretty cool. So that's a really hot area of research, adversarial examples with convolutional neural networks or other image processing deep learning models... And then naturally, one would wonder whether that exists for text, and if so, what that would be. And it turns out it's not as cut and dry; it's a hotly debated and somewhat murky concept, but one hypothesis, like you talked about it, is you can substitute words that maybe don't change the meaning with respect to the task.
+**Jack Morris:** \[11:56\] ...that are patterned in a certain way that convinces the camera that they're not a person, or it just totally distorts their facial recognition software... It's pretty cool. So that's a really hot area of research, adversarial examples with convolutional neural networks or other image processing deep learning models... And then naturally, one would wonder whether that exists for text, and if so, what that would be. And it turns out it's not as cut and dry; it's a hotly debated and somewhat murky concept, but one hypothesis, like you talked about it, is you can substitute words that maybe don't change the meaning with respect to the task.
 
 In sentiment analysis, maybe if you substitute a proper noun for another proper noun, like substituting the United States for Turkey, should never really change the sentiment of any sentence. And I think that's what he was talking about in that project.
 
@@ -110,7 +110,7 @@ And on the other hand, you want it to be safe. You don't want people to be able 
 
 I think one really easy one is there's these toxic comment classifiers that I think are actually in use right now, definitely on Facebook. They have this \[unintelligible 00:15:14.17\] system for deciding whether a comment is just totally "toxic" and needs to be flagged, or discarded, or hidden, or you have to say you're 18 to read it, or whatever... So if you're someone who, for whatever reason, thinks it would be a good idea to write a toxic comment and then avoid that sort of flagging system, that would be a pretty good example of when you want to run an attack on an NLP model. And you could actually use tags to tag for that. They should not.
 
-**Break:** \[00:15:51.21\] to \[00:17:20.05\]
+**Break:** \[15:51\] to \[17:20\]
 
 **Chris Benson:** So let's say that our model fails on an adversarial example. What could we do to fix it?
 
@@ -130,7 +130,7 @@ There's some research that's shown that gives you some improvements, but you can
 
 **Jack Morris:** I think that lends a hand to why adversarial examples in NLP are not as well-defined as in vision... Because if you have two images next to each other, it's very clear whether or not they're similar, and whether the change from image one to image two could be classified as imperceptible. But if you have two sequences of texts, there's no imperceptible change, unless they're exactly the same. So if you make a change, any sort of change that you might define as imperceptible becomes at least like a point of argument.
 
-\[00:19:48.22\] I'll tell you two really popular definitions. One would be with respect to semantics... So if you have sentence one, and then you replace some words with synonyms, or like you said, with a proper noun, that should generally not change the semantics of the original input. So you could say -- if I have a sentence that said "I loved the movie Parasite. Best movie I've ever seen", and then I replaced a couple words and I said "I liked the movie Parasite. Greatest movie I've ever seen", a lot of people would say that's invariant with respect to semantics, like they contain the same meaning. So if they have different predictions, that would be classified as an adversarial example.
+\[19:48\] I'll tell you two really popular definitions. One would be with respect to semantics... So if you have sentence one, and then you replace some words with synonyms, or like you said, with a proper noun, that should generally not change the semantics of the original input. So you could say -- if I have a sentence that said "I loved the movie Parasite. Best movie I've ever seen", and then I replaced a couple words and I said "I liked the movie Parasite. Greatest movie I've ever seen", a lot of people would say that's invariant with respect to semantics, like they contain the same meaning. So if they have different predictions, that would be classified as an adversarial example.
 
 And then the other thing that I was gonna bring up, another definition, is with respect to character-level changes. Imagine a typo on a computer, basically. If instead of saying "I loved Parasite" I spelled loved "lvoed", or something like that, just switched around the characters a little bit, it's actually really shocking how many state of the art NLP models will just totally mispredict that, for whatever reason...
 
@@ -142,7 +142,7 @@ It almost seems like unit testing software or something to me, where it's like, 
 
 **Jack Morris:** Yeah, that's a really pertinent question, I think, to anyone who's an engineer and actually trying to build NLP systems for real people... And it's not one that's solved yet. But another idea that I've heard - I think Ian Goodfellow has done the talks and advocated for this is the idea of if you're building a model, adding some kind of output that can identify whether an input is malformed, or maybe doesn't fit with the distribution of the training data at all. So that in the case I indicated before might indicate a misspelling, or some kind of really unnatural misspelling that a user would never produce... Or maybe just a synonym substitution, like maybe using a word that might have the same meaning, but would almost never be used in that context by a real person, which is something I think I see a lot with these adversarial example papers. They might say "Okay, if two are synonyms in the Thesaurus, they can always be substituted for each other", a lot of the time that might not be a very natural substitution or something that a human would probably never actually do.
 
-\[00:24:01.10\] So if you can train a model that has some way to indicate whether an input is acceptable or not, it can alleviate a lot of those concerns... Though they're still there, I think in the general case it would make your system a lot better.
+\[24:01\] So if you can train a model that has some way to indicate whether an input is acceptable or not, it can alleviate a lot of those concerns... Though they're still there, I think in the general case it would make your system a lot better.
 
 **Chris Benson:** I know you and Daniel do a lot of work in this area, so I'm kind of approaching it as the one who's not actively doing models in NLP... If I'm understanding you correctly, it sounds like there's really a different set of use cases if you were to compare this to adversarial and CNNs... Whereas that behavior is, in some sense, often maybe nefarious; trying to change a classification, for some purpose. Whereas this, it sounds like -- you mentioned robustness earlier, and it sounds like there may be a lot of use cases where you're helping a user not make mistakes, where you're trying to prevent unexpected behavior, intentional or not, in terms of what the user was trying to do... Do you think that's fair? Do you think that the types of use cases that this might be applied to are fairly different?
 
@@ -160,7 +160,7 @@ I definitely wanna get to this open source project, TextAttack, which I actually
 
 **Jack Morris:** Yeah, you kind of nailed it. I was working on things related to trying to define adversarial examples in NLP, and like I said, there's a lot of disagreement on what counts... And there has been a decent amount of research into this idea, but it's not very homogenous. It's actually pretty disorganized, I'd say. And a lot of people have really similar ideas, but they change one or two things \[unintelligible 00:27:44.10\] and all their code and projects are generally implemented in different places... So it's kind of a headache trying to reimplement results and compare things. But it turned out that a lot of the people that suggested NLP attacks were using a lot of the exact same components. One example is the Thesaurus I was talking about before. Have you all heard of GloVe word vectors?
 
-**Daniel Whitenack:** \[00:28:14.13\] Yeah. From Stanford, right?
+**Daniel Whitenack:** \[28:14\] Yeah. From Stanford, right?
 
 **Jack Morris:** Yeah, from Stanford, a few years ago. Those are still pretty much top of the line word vectors you can download. They're more commonly called word embeddings. You can download this big matrix that's assigned to 100,000 or a million words from English, and each one has their own word embedding... And it's a vector of dimensionality, maybe 300, and they're supposed to encapsulate a lot of information about English. So if you're training an NLP model, the initial layer is probably going to use an embedding similar to that, and GloVe is kind of like the just very accepted word vector a lot of people use, at least before people started using transformers and subwords.
 
@@ -174,7 +174,7 @@ But all these attacks use those counterfitted word embeddings. Maybe over ten pa
 
 And even stepping back from that, the entire process for generating adversarial examples in NLP is very similar. By the process, I mean the process of taking a text input, so a sequence of words, and then producing some other sequence of words that generally fools the model. So taking maybe the sentiment classification example - you have an input that's classified as positive, and the process of finding an adversarial example would be "Which words can I substitute that will change this classification to negative?" So that turns it into a combinatorial search problem, and most people do it in the exact same way, and often use the same word vectors, and then change a few different things, and then release their attack. So our idea was if we break that process down into components, then we can construct the attacks from different papers based on these components.
 
-**Chris Benson:** \[00:31:47.14\] You've definitely captured me in terms of interest in adversarial attacks... So let's say that I'm out there and I'm listening to this, or I've just come across TextAttack... Can you describe the library, let me know what I should know about it as a beginner coming into it that wants to use it, what are the goals that I should keep in mind that the project tackles, and are there any things that I should not address as well with this library, that I'd look elsewhere... So can you give me that beginner perspective?
+**Chris Benson:** \[31:47\] You've definitely captured me in terms of interest in adversarial attacks... So let's say that I'm out there and I'm listening to this, or I've just come across TextAttack... Can you describe the library, let me know what I should know about it as a beginner coming into it that wants to use it, what are the goals that I should keep in mind that the project tackles, and are there any things that I should not address as well with this library, that I'd look elsewhere... So can you give me that beginner perspective?
 
 **Jack Morris:** Yeah, absolutely. It might help for me to talk real quickly about that systemized \[unintelligible 00:32:25.03\] the components, and then I can explain the most common use cases... Because obviously, you can pull out any one of the components and use them for your own purposes. So one thing that we really focused on in TextAttack is trying to make it work out of the box. For example, those counterfitted word embeddings, instead of going to this website, downloading it, unzipping it, moving it, finding out how to load all the data, you just import TextAttack and do "textattack.the-class" and just initialize it and it will download everything for you... Which I think is really cool.
 
@@ -194,7 +194,7 @@ And then there's two other components. So we had the transformation and the cons
 
 I think a really cool one that I wanna explore more in the future is with sequence to sequence models, like a machine translation model. Your goal might be to take the original output translation and change as many characters as possible.
 
-\[00:36:14.08\] Say you're translating a sentence into French; you would have your original translation, and if you could substitute a word from the input with a synonym, and then it produced a translation that was totally different, even just in terms of characters, or its Blue score, that would be pretty telling, and probably very bad for your translation system... So that would be another goal function, would be trying to minimize the Blue score.
+\[36:14\] Say you're translating a sentence into French; you would have your original translation, and if you could substitute a word from the input with a synonym, and then it produced a translation that was totally different, even just in terms of characters, or its Blue score, that would be pretty telling, and probably very bad for your translation system... So that would be another goal function, would be trying to minimize the Blue score.
 
 And then the last component is called the Search method. That's basically like if you have the input and you have all these transformations, how do you decide which one to keep? Which is important, because if you just tried all the combinations -- I mean, if you have an input of ten words and each word has 50 neighbors, you end up with 50 times 50 times 50 possible substitutions that you might wanna combine... So the space grows exponentially very quickly, so you have to come up with some sort of greedy, or approximate heuristics for doing that. That's what we call a Search method.
 
@@ -208,7 +208,7 @@ In terms of the open source -- I mean, there's interest in the library... What i
 
 **Jack Morris:** Yeah, that's a great question, and something we're still discussing and trying to figure out. We've written a lot of code, and there's a lot of different features that still could be connected. Obviously, once you work on a library for a while, there's just so many improvements you wanna make to it. I have this giant list that will take my whole life to finish...
 
-**Daniel Whitenack:** \[00:40:17.02\] \[laughs\] Right.
+**Daniel Whitenack:** \[40:17\] \[laughs\] Right.
 
 **Jack Morris:** But I think I could probably break the potential users down into three groups, at least three main groups. The first one would be what I mentioned before, what I imagine would eventually be just the most common general use case - using the components, because they're easy to use. But a second one would probably be, like you said, people who wanna work on researching the robustness of the NLP model, so maybe coming up with new goal functions, or trying a new transformation.
 
@@ -230,7 +230,7 @@ And then the third use case would probably be people who actually want the test 
 
 Talking about vision, there are a few very common libraries in vision; one's called CleverHans. No other names are coming to mind, but I know there's one by IBM; one called FullBox... And those are pretty standard tools for researchers that are interested in the robustness of computer vision models. So not even that I'm super-convinced that TextAttack will be that tool, but I'm hoping that just putting everything in one place would make it a lot easier for people to actually do that research and make fair comparisons and advance the field... So hopefully getting people actually excited about it by making these things easy to use will then lend a hand to people actually contributing. That's the goal.
 
-\[00:43:42.06\] We've been working on this since almost about a year ago, but it's only been open source since May, so hopefully that'll come with time... But yeah, right now I think one of the recipes was implemented by the authors, and then the rest we kind of did by hand...
+\[43:42\] We've been working on this since almost about a year ago, but it's only been open source since May, so hopefully that'll come with time... But yeah, right now I think one of the recipes was implemented by the authors, and then the rest we kind of did by hand...
 
 **Daniel Whitenack:** That's awesome. I think this is so well set up, and a lot of thought has been put into it... I'm thinking back to the code that I wrote in academic research; the reason why it brought me back there is because you have a little octopus emoji on TextAttack, and the code that eventually I implemented my method in in my Ph.D. was called Octopus... But I don't know that anyone would be able to run my module of Octopus, just because it was nothing near well-documented like this, or anything like that... So I hope that you do get contributions.
 

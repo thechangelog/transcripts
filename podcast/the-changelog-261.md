@@ -10,7 +10,7 @@ Nobody fully really understands why it happens, but once you have it, it's essen
 
 **Adam Stacoviak:** Managing it involves obviously monitoring it, so you have to have something in today's age - whether I think it was blood on a strip and the device would read it, and you'd do that several times a day; you'd have to prick your finger. Is that what you're talking about?
 
-**Tim Mecklem:** \[00:03:58.07\] Yeah. I mean, insulin was discovered a long time ago, but how to manage diabetes has come about much more recently. There's some really cool technology that's come out since my generation, which is like continuous glucose monitoring, and insulin pumps that can deliver insulin automatically through a little motor. There's just really neat technology, but at the end of the day most of it still requires for you to draw blood in order to measure and to calibrate the devices that you're using to do this stuff.
+**Tim Mecklem:** \[03:58\] Yeah. I mean, insulin was discovered a long time ago, but how to manage diabetes has come about much more recently. There's some really cool technology that's come out since my generation, which is like continuous glucose monitoring, and insulin pumps that can deliver insulin automatically through a little motor. There's just really neat technology, but at the end of the day most of it still requires for you to draw blood in order to measure and to calibrate the devices that you're using to do this stuff.
 
 I actually have a little bit of a personal context with that now, because I'm actually wearing a continuous glucose monitor myself, and I'm going through a lot of the first-person empathy, I guess you could call it, that my wife has been going through for years... Just waking up in the middle of the night to something telling you "Check your blood sugar." That kind of thing is distracting, but it also wrecks a lot of other parts of your life. If you don't get a good night of sleep, it can affect everything.
 
@@ -34,7 +34,7 @@ Dexcom works similarly. I believe you can go longer, and it will still give you 
 
 **Jerod Santo:** Obviously, a lot of people are working on making this something more integrated or smoothed in people's lives; I know there's people who have been trying to do this kind of monitoring through eyes, and there have been rumors that Apple is working on something with the watch... Is there anything that's heartening with regard to maybe research and development that you know about, where perhaps it becomes in the next couple of years a little less (what's the word?) intrusive?
 
-**Tim Mecklem:** \[00:08:18.26\] Yeah, there's a few things going on. They're actually growing (I believe they're called) islet cells, and they're embedding them under people's skin. They're doing some really interesting things where basically they're giving people the function of a pancreas without necessarily having to try to do a transplant, or something like that. That's really exciting. I know Amanda is following that really closely.
+**Tim Mecklem:** \[08:18\] Yeah, there's a few things going on. They're actually growing (I believe they're called) islet cells, and they're embedding them under people's skin. They're doing some really interesting things where basically they're giving people the function of a pancreas without necessarily having to try to do a transplant, or something like that. That's really exciting. I know Amanda is following that really closely.
 
 I think there's really nothing more that I would like as an end result to all of this work that I've done, to be able to just throw it away and say "You know what? Diabetes is a thing of the past. We don't need any of this technology anymore. People's bodies can function the way they were supposed to." But ultimately right now, on the horizon, Medtronic has a new FDA-approved closed-loop pump and they're doing some really cool research with embedding or implanting these cells into people.
 
@@ -64,7 +64,7 @@ I think everybody who does something like this should pause and this about wheth
 
 **Jerod Santo:** Yeah, because you said no at first.
 
-**Tim Mecklem:** \[00:11:57.19\] I said no, and I said "Okay, think about this for a month, Amanda. If you really want me to go forward with this, I want you to be purposeful about it. I want you to come back and tell me without any reservation this is something you want me to look at", knowing that I'm just in a support role and she's the one that has to deal with the consequences of whatever's happening there.
+**Tim Mecklem:** \[11:57\] I said no, and I said "Okay, think about this for a month, Amanda. If you really want me to go forward with this, I want you to be purposeful about it. I want you to come back and tell me without any reservation this is something you want me to look at", knowing that I'm just in a support role and she's the one that has to deal with the consequences of whatever's happening there.
 
 At the end of about a month or so she said "Yes, I want you to look into this", so I began a journey... A journey of learning, specifically around Open APS. It has many strengths; its community is one of them. One of its weaknesses, I would say, is that you essentially have to be a Linux system administrator to set it up. You are installing a Linux operating system on what I like to call "tiny computers" - just an embedded device, like a Raspberry Pi - and then you are going through many, many steps to get to the end. They've done a lot of work to improve that, but when I started out with it, it took about two weeks just to wrap my head around what the loop would even look like.
 
@@ -98,7 +98,7 @@ Ben West is somebody who worked on it very early on, and has done a lot of thing
 
 **Tim Mecklem:** That's kind of a hard question to answer, because it's really hard to pin down exactly what Open APS is. It's clearly not a product; they're very forthcoming with that, because products have commercial responsibilities, and they're usually monitored and regulated by the FDA and things like that.
 
-\[00:15:59.05\] Each Open APS install is essentially a custom thing. You may buy some hardware that gets you there faster, but ultimately at the end of the day you're pulling down packages and repos and you're building something and trying to understand the algorithms as you're going. It's not an easy process.
+\[15:59\] Each Open APS install is essentially a custom thing. You may buy some hardware that gets you there faster, but ultimately at the end of the day you're pulling down packages and repos and you're building something and trying to understand the algorithms as you're going. It's not an easy process.
 
 **Jerod Santo:** Wow.
 
@@ -132,13 +132,13 @@ Another guy named Nate Racklyeft - I think he went to work at Apple - ended up a
 
 So I contributed back to that project, but as I was doing those things, I kept thinking "Man, this is supposed to be what Elixir is really good at." It's supposed to be able to decode binary chunks like this and split them out and make them meaningful data very quickly and very easily, and it should be handling all of the problems that you get with insulin pump communications. There's just wireless interference, there's multiple pumps in the same room, people's looping rigs can interfere with each other... This is something that Elixir should do really well at.
 
-\[00:20:01.24\] As I was building up my understanding of how the insulin pump works, I was implementing a reference implementation for myself; I was learning how to do this in Elixir. So I was picking up the language at the same time that I was really understanding a problem domain that was new to me. So it was fun - I got to build it with tests, I got to really drive through some examples, and then what I took from that, I contributed back to the Loop application on the iOS side, and then back to Open APS on the tiny computer side.
+\[20:01\] As I was building up my understanding of how the insulin pump works, I was implementing a reference implementation for myself; I was learning how to do this in Elixir. So I was picking up the language at the same time that I was really understanding a problem domain that was new to me. So it was fun - I got to build it with tests, I got to really drive through some examples, and then what I took from that, I contributed back to the Loop application on the iOS side, and then back to Open APS on the tiny computer side.
 
 **Adam Stacoviak:** Coming up after the break, we talk with Tim about the Open APS project, which stands for Open Artificial Pancreas System. This allows those who are willing to build their own system to loop. Looping is a process which involves monitoring glucose levels, predicting where a person's glucose levels area heading, and then delivering insulin based on that prediction. Needless to say, it's a complex problem to solve.
 
 We also talked to Tim about Elixir and Phoenix, how he's learning it, and how it's fitting into the solution he's building. All this and more, after the break.
 
-**Break:** \[00:21:14.10\]
+**Break:** \[21:14\]
 
 **Jerod Santo:** Tim, you said that you contributed back, the things that you were doing in Elixir, back to the Open APS project. What does that contribution look like in terms of technical logistics? You have some Elixir code and you're trying to get it back to them? Is it another implementation of their reference? What's the actual contribution, what does it look like?
 
@@ -174,7 +174,7 @@ Docker fits well on the laptop or server space; Nerves fits great it really tigh
 
 **Adam Stacoviak:** I was right there with you.
 
-**Jerod Santo:** \[00:27:56.06\] So your dream translates pretty well... Hopefully it translates into some people willing to help you out, and maybe break out their editors as well. How far are you down the road on this dream and what you've been putting together on the Elixir side of things?
+**Jerod Santo:** \[27:56\] So your dream translates pretty well... Hopefully it translates into some people willing to help you out, and maybe break out their editors as well. How far are you down the road on this dream and what you've been putting together on the Elixir side of things?
 
 **Tim Mecklem:** I really wanted to put together something that was compelling. The first thing that I wanted to do - I didn't wanna go too far and try to really just accomplish everything, because I can't do this by myself. I also didn't wanna aim too low and just have people look at it and say "Meh... Okay, whatever" and then move on. What I've decided on was an open CGM monitoring loop, and that's actually why I'm wearing a sensor right now. I'm gathering the data from it. Every five minutes, these pumps - or whatever CGM you're using - will store a new blood glucose number.
 
@@ -214,7 +214,7 @@ So my first goal - and I've basically accomplished that as of a couple weeks ago
 
 I gave a talk and at the end of my talk -- I mean, it was totally right in line with the things that I'm saying today, and I thought "Okay, this is cool. I get an audience, people are listening to me." After it was over, I couldn't believe the response of people who came up and said "My parents, my father and my mother had type 2 and died because of complications."
 
-\[00:31:59.16\] Some of the solutions that are being done here, like some of the monitoring that's coming to the market and being able to be distributed to people through the commercial means, a well as the things that the community is doing are amazing. This wasn't available ten years ago, and people are willing to pay a lot of money for it, and now we have a community of people who are just developing it and giving it away for free, and that's just amazing to me.
+\[31:59\] Some of the solutions that are being done here, like some of the monitoring that's coming to the market and being able to be distributed to people through the commercial means, a well as the things that the community is doing are amazing. This wasn't available ten years ago, and people are willing to pay a lot of money for it, and now we have a community of people who are just developing it and giving it away for free, and that's just amazing to me.
 
 **Adam Stacoviak:** That's an interesting perspective there - as a society, up until maybe... Like, I don't know if open source has done this, but technology seems more tangible to everyday human beings I guess is the perspective. We've been a society that has trusted some sort of for-profit company to create some edge device that we use to save our lives every day. That's the society we've been. And over the last 5-10 years or more, we've become more of a grassroots like this, Nightscout and the tagline there, which is "We are not waiting. We're taking it on our own, we're asking, we're demanding (in many cases) that it be open."
 
@@ -232,7 +232,7 @@ You say that everybody would want this if they could have it - I'm not sure that
 
 **Adam Stacoviak:** Maybe the better way to say it may be "Everybody who needs it will want it." Right? Because if you needed something and you didn't have it, it would solve a huge problem, you'd probably want it.
 
-**Tim Mecklem:** \[00:35:46.10\] Yeah, I think what definitely matters in all of this, even when you go to the commercial solutions that are coming out, is that people really have to take ownership of their own disease management.
+**Tim Mecklem:** \[35:46\] Yeah, I think what definitely matters in all of this, even when you go to the commercial solutions that are coming out, is that people really have to take ownership of their own disease management.
 
 **Adam Stacoviak:** That's so true.
 
@@ -274,7 +274,7 @@ My real goal is that Elixir becomes the communications platform, it becomes the 
 
 So there's monitoring the pump side, then there's monitoring the CGM, which may be on the pump, and it may be something separate. From that, you pull every five minutes a trend, essentially. You're pulling in "What's my current blood glucose value? What's maybe one or two previous to that, and where am I headed? Am I going high, am I going low, am I staying where I'm at?" Once you have all that information, that's where the prediction and the control come in and that's where I would like to leave most of what is an Open APS unmodified.
 
-\[00:40:22.22\] So the prediction side is take all these variables and do a count, guess about 30 minutes out into the future where you're headed, plot you along a curve, and then if you're gonna head outside of the boundaries, then apply more insulin or remove some of it on the basal rate.
+\[40:22\] So the prediction side is take all these variables and do a count, guess about 30 minutes out into the future where you're headed, plot you along a curve, and then if you're gonna head outside of the boundaries, then apply more insulin or remove some of it on the basal rate.
 
 **Jerod Santo:** Does your project have a name or a website or a place to go for the people who are interested, where they can contact you?
 
@@ -292,7 +292,7 @@ My end goal is really for my work to go away; that's long, long term. I would lo
 
 **Adam Stacoviak:** Coming up after the break we talk with Tim about Elixir and Nerves, and why they're a great fit for this project. We talk about pattern-matching Elixir, how his work applies to other CGMs (Continuous Glucose Monitoring) and how his work can scale to allow for wider adoption. We also talk about the human equation... You know, all of you out there listening to the show right now - how can you get involved with this project? How can you help Tim solve this problem? To find out, stay tuned.
 
-**Break:** \[00:44:35.11\]
+**Break:** \[44:35\]
 
 **Jerod Santo:** Alright, Tim, earlier on you were talking about Elixir and how it got you all excited when you began to dive in and solve this problem and write some tests and see them pass - that's always a good feeling. We didn't really dive into why that was a good fit. You mentioned binary matching, and I've been doing some work with Elixir in parsing ID3 tags, and the bit string syntax and pattern matching, and I can see where -- in that case it's definitely a good fit, and I'm thinking it's probably very similar... So open that up for us and tell us why Elixir and then (as a follow-up) Nerves - when we get to there - fit... So where into the kind of work that you're doing...?
 
@@ -304,7 +304,7 @@ So there's just lots of different varying links and varying types of data that a
 
 So there's just a lot of manipulation of data and streams and binary that when you look at it in the Python code or you look at it in the Swift code, they handle it reasonably, but you're going a bunch of different places to try to figure out how it works. And then Elixir - I mean, it's right there in the function head; you're just saying "Okay, if it's this kind of an event based on that first byte, it's gonna be twelve long, and then the first four are gonna be the timestamps; let's go decode those." It's just all right there.
 
-\[00:48:15.20\] There's no indirection and there's no "Oh, this is scary because it's binary, so I have to treat it differently, and I have to have a raise", and scary things like that. It's just regular function head processing, just like everything else in Elixir. It's really exciting, because you can see how it's processing the data without having to go jump around and jump through hoops.
+\[48:15\] There's no indirection and there's no "Oh, this is scary because it's binary, so I have to treat it differently, and I have to have a raise", and scary things like that. It's just regular function head processing, just like everything else in Elixir. It's really exciting, because you can see how it's processing the data without having to go jump around and jump through hoops.
 
 **Jerod Santo:** So because in Elixir you can pattern-match inside your function signatures, inside your arguments, and it's treating these binaries as bit strings or as binary data type that also can be pattern-matched, you can just pattern-match on the first byte and call a different function based on what that is, and pass the rest of the blob down into the function... And it's all right there, right? You just have your different functions that match based on what that first byte is, and then passes the rest on and you can slice and dice that as well.
 
@@ -332,7 +332,7 @@ With a lot of other previous experiences I've had, that kind of breaks assumptio
 
 **Jerod Santo:** So anybody who wants to loop says "You've gotta get this one, because we know how to talk to it."
 
-**Tim Mecklem:** \[00:52:00.02\] Yes, at the moment. There are actually groups doing some of that work with other pumps on the market; I don't know much about their efforts, but I know they've had some recent breakthroughs.
+**Tim Mecklem:** \[52:00\] Yes, at the moment. There are actually groups doing some of that work with other pumps on the market; I don't know much about their efforts, but I know they've had some recent breakthroughs.
 
 **Jerod Santo:** That's where I'm trying to get to in my mind, because I'm starting to think of adoption, you know? Like, how do we get more people who want to loop to be able to? Like you said before, a lot of it is, well, they've gotta switch pumps, or something. A lot of it is cost, or timing around healthcare and blah-blah-blah that holds them back, and it seems like, well, if we had interfaces into more of these devices and we had a layer of abstraction where this product that you're thinking about had a layer where it could talk to not just this specific pump that you're coding against now, but could work against these seven, which cover 90% of the market, or something like that, you open it up to a lot more people without having to have them own specific hardware.
 
@@ -356,7 +356,7 @@ With a lot of other previous experiences I've had, that kind of breaks assumptio
 
 When people ask me what I'm doing, I'd love to be able to say "Well, there's another adequate solution out there, and let's eventually move there." It's kind of weird, I have these competing intentions, but I really wanna see this experience improve; I want to support the community, and at the same time, I'd love for it to all kind of go away, and for us to solve diabetes in a completely different way.
 
-**Jerod Santo:** \[00:56:02.19\] Right. But one is real; one you can actually effect, and the other one is completely out of your hands, right?
+**Jerod Santo:** \[56:02\] Right. But one is real; one you can actually effect, and the other one is completely out of your hands, right?
 
 **Tim Mecklem:** Right, absolutely.
 

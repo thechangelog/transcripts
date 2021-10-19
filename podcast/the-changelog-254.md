@@ -12,7 +12,7 @@ Ansible was something really interesting and it had a lot more in common with my
 
 I've built this deployment tool called Deliver (very aptly named). Deliver was just a Bash script, really - a fairly complicated Bash script - which at the time was meant to replace Capistrano, and I think for our real Ruby listeners, they will know the deployment tool, which maybe is still the case today; I don't know, I haven't really watched that space too closely. But Capistrano inspired me to build Deliver, which was later used for Erlang deployment, and some users might know it as eDeliver.
 
-\[00:04:05.05\] And since the new Changelog application was Elixir and was Erlang-based, eDeliver was mentioned even I think on the Phoenix blog as a deployment tool for Phoenix.
+\[04:05\] And since the new Changelog application was Elixir and was Erlang-based, eDeliver was mentioned even I think on the Phoenix blog as a deployment tool for Phoenix.
 
 **Jerod Santo:** Let me stop you right there and I'll add some color to that situation. As many of you know, we did a complete rewrite of Changelog.com website and CMS last year, in Elixir and Phoenix. We have shows about that - a couple shows last year, Adam, on Elixir and Phoenix, where we give a little bit of information about the back-story around that.
 
@@ -28,7 +28,7 @@ I realized how Ansible was like a natural continuation of Deliver, but obviously
 
 **Jerod Santo:** What's interesting about that is Deliver and eDeliver attracted me because, like you said, they were a series of shell scripts. Coming from my experience - and I fought you tooth and nail probably a little bit as we went... We laughed how old-school my approach to everything is, because a bunch of shell scripts to me is my history of deploying apps. Usually, I just write a new one each time and just rerun it to push out a new version, and stuff like that.
 
-\[00:08:05.25\] So that was very attractive, but yet once we got started, we didn't end up using either of those tools to deploy Changelog.com. I wanted to mention I emailed you first 3rd July of last year, 2016... And once you said that you were interested, I sent back an email with a list of our needs and our wants, and then things that I wasn't sure about, and a timeline -- and I wanna bring it to the timeline, because it's funny in retrospect, and I think probably everybody who works in this industry can laugh at timelines, and the naivety sometimes of developers...
+\[08:05\] So that was very attractive, but yet once we got started, we didn't end up using either of those tools to deploy Changelog.com. I wanted to mention I emailed you first 3rd July of last year, 2016... And once you said that you were interested, I sent back an email with a list of our needs and our wants, and then things that I wasn't sure about, and a timeline -- and I wanna bring it to the timeline, because it's funny in retrospect, and I think probably everybody who works in this industry can laugh at timelines, and the naivety sometimes of developers...
 
 So this email is 3rd July, and...
 
@@ -56,7 +56,7 @@ For me, the first thing was to focus and drive out all the answers to my "What?"
 
 You needed the entire infrastructure to be configured and set up in such a way so that it can be easy to update, to manage, and so that you don't have to worry about a lot of the details that go underneath.
 
-\[00:11:52.18\] For me, the most important thing was to understand your approach, and also how you see infrastructure and how you see deployment, because based on that we could have gone so many different ways... Just like look at Deliver, eDeliver, Capistrano, Chef, Puppet and all these tools which are used for deployments. There are so many ways to skinning the cat, but the point is figuring out what works for you, what you're comfortable with... You keep alluding to the old-school approach and to the Bash scripts, and this was something that was easy for me as well; it was a mental model that worked well for me, I was comfortable with, and I have already used it in a couple of production deployments. These are just like WordPress websites and different backend applications... It was something which I'd worked on over the years and it just made sense for me, so I knew that it would make sense for you as well.
+\[11:52\] For me, the most important thing was to understand your approach, and also how you see infrastructure and how you see deployment, because based on that we could have gone so many different ways... Just like look at Deliver, eDeliver, Capistrano, Chef, Puppet and all these tools which are used for deployments. There are so many ways to skinning the cat, but the point is figuring out what works for you, what you're comfortable with... You keep alluding to the old-school approach and to the Bash scripts, and this was something that was easy for me as well; it was a mental model that worked well for me, I was comfortable with, and I have already used it in a couple of production deployments. These are just like WordPress websites and different backend applications... It was something which I'd worked on over the years and it just made sense for me, so I knew that it would make sense for you as well.
 
 Knowing the "How?" part fairly well and understanding the mechanics, I could steer you towards the "What?" and driving out to the important things, such as for example back-ups. Is availability important to you? How important is it and what limitations/constraints do we have when it comes to the infrastructure? Do we have API calls or do we have servers which come and go on a daily basis, or do we have something which is more permanent?
 
@@ -70,7 +70,7 @@ This wasn't like a greenfield project, in the sense that you already had your Ch
 
 In that process we used Pivotal Tracker, which just embraces this process of learning and discovery and sharing what you learned. That worked well for us, because we were a distributed team; it was just a few of us, and we had very limited time. I, for one, only had half an hour every day. That was it. That was on a good day.
 
-\[00:15:56.29\] So what can you possibly achieve in half an hour and do that every single day, so that in like a month, two months you get to this point where you can switch the infrastructure on and you have all these high picture goals dealt with and addressed. So knowing what to focus from a user perspective - your users and you yourselves are users of this thing - helped me prioritize things and helped me just figure out what makes most sense... Because as I said, there are so many approaches, and they all have their own merits.
+\[15:56\] So what can you possibly achieve in half an hour and do that every single day, so that in like a month, two months you get to this point where you can switch the infrastructure on and you have all these high picture goals dealt with and addressed. So knowing what to focus from a user perspective - your users and you yourselves are users of this thing - helped me prioritize things and helped me just figure out what makes most sense... Because as I said, there are so many approaches, and they all have their own merits.
 
 Based on what I knew and based on the constraints, it was the sensible thing to do, the right thing to do.
 
@@ -106,7 +106,7 @@ So how do you preserve the original intent and how do you preserve what matters 
 
 **Gerhard Lazu:** I'm not sure if the talk was recorded. It is only a 10-minute one, which is a fairly short one. It was given at the London Ruby user group and it was given I think in November of 2016, I believe (I'm not sure). It was trying to capture exactly this - how do you approach working in a team which doesn't work together? I pair every single day, and I've been doing that for many, many years. I switch teams on a regular basis...
 
-\[00:20:22.22\] Having worked with many different teams of different sizes - I've been working with Pivotal and for Pivotal for many years now, I've been working for IBM for a while, and they themselves have been consulting for all sorts of small and big companies and enterprises... How do you keep the context and keep everyone involved and engaged, and keep the information and the knowledge and the learnings flowing?
+\[20:22\] Having worked with many different teams of different sizes - I've been working with Pivotal and for Pivotal for many years now, I've been working for IBM for a while, and they themselves have been consulting for all sorts of small and big companies and enterprises... How do you keep the context and keep everyone involved and engaged, and keep the information and the knowledge and the learnings flowing?
 
 In a way, make sure that when you finish a project or when you move off, all that knowledge isn't lost. That taught me a lot about how to approach things in a way that is like a team effort; it's not one person, it's not one approach... It has to work for everyone.
 
@@ -118,7 +118,7 @@ Coming back to our own little setup, in comparison to most of the projects that 
 
 **Adam Stacoviak:** Coming up after the break, we ask Gerhard how he knows what questions to ask when setting up an infrastructure that has particular needs. We also talk about why Pivotal Tracker, believe it or not, is a crucial tool for his process, how we're using Docker, and the distinct units that make up our CI flow. Stay tuned.
 
-**Break:** \[00:23:48.15\]
+**Break:** \[23:48\]
 
 **Jerod Santo:** Gerhard, what I teed up for you before the break, which I'm still curious about, is how do you know what questions to ask when you're tasked with "Setup an infrastructure for this particular need"? You asked me 17 things... That was just the kickstart; I'm sure there were lots of questions that you asked throughout the process, but how do you even know where to start, because if I can know where to start, then I won't need somebody else to ask me the questions -- I don't need you anymore. But how do you know it? You just experienced it so many times that you just...? I won't answer for you, go ahead - how do you know which questions to ask?
 
@@ -136,7 +136,7 @@ So I said something to you like "These are our goals, these are our needs. Of co
 
 **Adam Stacoviak:** Or if it happened frequently, then it might be bad.
 
-**Jerod Santo:** \[00:27:41.03\] Sure, but just knowing that we don't need those five nines or six nines, or I don't know how many nines people need nowadays... That was something that informed you on the type of solutions that you could come up with, and frankly, in that case, things that we don't have to do, which other people might have to... So we can come up with something less complex than you would otherwise, if we required that "always on."
+**Jerod Santo:** \[27:41\] Sure, but just knowing that we don't need those five nines or six nines, or I don't know how many nines people need nowadays... That was something that informed you on the type of solutions that you could come up with, and frankly, in that case, things that we don't have to do, which other people might have to... So we can come up with something less complex than you would otherwise, if we required that "always on."
 
 So insights like that - that's why your questions were like, "What would happen if the website went down? Do you want daily backups?" You also asked us about legacy content, you asked us about existing relationships... We have service providers that we work with: Linode, Fastly and others, so we had conversations around those things, because of course, that's gonna limit certain choices, as well.
 
@@ -154,7 +154,7 @@ Once you do that, once you have this beginning of a story, then you have the pla
 
 Also, we also have conversations about things, about how we're approaching things, we're making decisions all the time... A lot of them are not worth capturing, but some of them, especially the crucial ones -- and again, you need to be sensible about it, I suppose... Not everything is important, but you will know when something is worth mentioning. I think a lot of it is discipline, to be honest... Taking the time and having the discipline to capture those things, and trusting that eventually someone will be very thankful that you've done that.
 
-\[00:32:10.24\] I suppose it's the same approach to commits, right? Maybe those are easier to understand... When you do your commit summary, how do you do your commit summary and why do you do your commit summary? There are some very good blog posts out there which go into great detail about this. But the point is the same - knowing why you are doing certain things and why they are important, and having been in situations in which you wished there was more information, you wished the "Why?" was captured - "Why did this happen?" I can see how it happened, maybe, if I can understand the code, but WHY did it happen?
+\[32:10\] I suppose it's the same approach to commits, right? Maybe those are easier to understand... When you do your commit summary, how do you do your commit summary and why do you do your commit summary? There are some very good blog posts out there which go into great detail about this. But the point is the same - knowing why you are doing certain things and why they are important, and having been in situations in which you wished there was more information, you wished the "Why?" was captured - "Why did this happen?" I can see how it happened, maybe, if I can understand the code, but WHY did it happen?
 
 A lot of the time, the WHY gets always missed, whether it's the business WHY, whether it's the code WHY, whether it's the infrastructure WHY... But it's very important, because then we have this workaround in some place - and we have many workarounds actually in quite a few places - but there's always a good reason, and the people that did those workarounds were not stupid, they were not trying to make your life difficult; they had to make certain trade-offs. Understanding what those tradeoffs were and understanding why they chose something is the most important thing, not what was chosen.
 
@@ -164,7 +164,7 @@ We use them undisciplined, but you were using it in such a way that either it li
 
 **Gerhard Lazu:** Exactly. I think that summarizes it really, really well. I think everything starts from a very simple concept, and that is it's not about you, it's about everyone else around you. If you're doing your job in a way that will always, always benefit the others, then that will start changing the way others around you approach their work, and they will behave the same, which means that you will benefit from what they do. So the selfishness is removed from the process, and that changes the team dynamics in a way that I think makes the team and the workplace a great, great place to be in.
 
-\[00:35:51.18\] Everything is pleasant, everyone knows everything, everything is easy to find, if you forget a thing, it's fine, you can always go back; if you make a mistake, it's not a problem, because everything around it is built in such a way so that either someone will learn from that and will improve things, or you will just discover something that no one has thought about before. So you can't mistakes -- not any mistakes which are bad; everything is a learning opportunity, and everything you do you're sharing with everyone around you.
+\[35:51\] Everything is pleasant, everyone knows everything, everything is easy to find, if you forget a thing, it's fine, you can always go back; if you make a mistake, it's not a problem, because everything around it is built in such a way so that either someone will learn from that and will improve things, or you will just discover something that no one has thought about before. So you can't mistakes -- not any mistakes which are bad; everything is a learning opportunity, and everything you do you're sharing with everyone around you.
 
 It does take more effort, it is more difficult, but it's so much more satisfying. Even open source - all the tools which you use, it's other people doing things for everyone else, because they believe it's the right thing to do.
 
@@ -196,7 +196,7 @@ Now, Docker is a lot more than contain-- ugh, I can't pronounce this word; this 
 
 **Gerhard Lazu:** Yes, that's correct, containerization. So when it comes to containerization, it's really simple and easy for developers to just use it. There are other technologies, such as for example Garden, which I'm fairly familiar with; maybe most of the listeners aren't, but the point is Docker isn't the first one, but it's the one which made it really easy, and even though they've added a lot of features which I think are moving it away from what it used to be, it's still the easiest way to get started.
 
-\[00:40:24.26\] It's very self-contained, it's very predictable... Yes, it does have its bugs, as we've discovered and as we've seen, yes, there is some fragmentation and some things which I wish they were better, but overall it works well.
+\[40:24\] It's very self-contained, it's very predictable... Yes, it does have its bugs, as we've discovered and as we've seen, yes, there is some fragmentation and some things which I wish they were better, but overall it works well.
 
 We didn't have a lot of issues with it. We had some... It's impossible not to have any issues, because it means you're not using it, you're not changing it, you're not updating it. So we have come across a few bugs. Did it take the system down? I don't think so.
 
@@ -226,7 +226,7 @@ When it comes to the application - our listeners already know - it's Elixir, whi
 
 There are two repositories, both hosted on GitHub. One of them is the infrastructure repository, which contains all the code, and basically all the glue, holding all the services together, and the application which is already open-sourced, the changelog.com application.
 
-\[00:44:06.11\] When it comes to the services that we used, all the credentials are stored in LastPass; that's where all the credentials are stored, and when we configure out CI, we pull credentials from LastPass. Either one of us can just pull the credentials by the LastPass CLI. We configure the CI using this tool called Fly; it's self-contained and it's very easy to use and fairly self-explanatory, and I think that's it. What did I miss, Jerod?
+\[44:06\] When it comes to the services that we used, all the credentials are stored in LastPass; that's where all the credentials are stored, and when we configure out CI, we pull credentials from LastPass. Either one of us can just pull the credentials by the LastPass CLI. We configure the CI using this tool called Fly; it's self-contained and it's very easy to use and fairly self-explanatory, and I think that's it. What did I miss, Jerod?
 
 **Jerod Santo:** I think you didn't cover backups, but you said the CI...
 
@@ -254,7 +254,7 @@ So it's simple; we could have downtime, but it'd be fairly easy to redeploy and 
 
 **Gerhard Lazu:** Yes, that is correct. I did ask if you want to use multiple cloud providers for redundancy, or if you have any preference... However, you will need backups. It doesn't matter who you're hosting with, you do want to have full backups. I mean, data corruption, data loss... All sorts of things can happen. It's not just downtime that you have to worry about. And full redundant backups, stored off-site, are important.
 
-\[00:47:58.25\] Now, not everyone can do them... Some systems are too big and you just can't do them. However, for the Changelog and for the majority, 99% of the systems out there, you can do full backups. So I have the whole push towards microservices and all that, where you have smaller components... Because the components are getting too big, they have too much state, too much knowledge and too much responsibility, and it's really difficult to have all this in a single place, and how do you even back that stuff up? How do you recreate it? How do you scale it?
+\[47:58\] Now, not everyone can do them... Some systems are too big and you just can't do them. However, for the Changelog and for the majority, 99% of the systems out there, you can do full backups. So I have the whole push towards microservices and all that, where you have smaller components... Because the components are getting too big, they have too much state, too much knowledge and too much responsibility, and it's really difficult to have all this in a single place, and how do you even back that stuff up? How do you recreate it? How do you scale it?
 
 So it's different tradeoffs, but we definitely do not need a distributed "always available, always on" sort of system, so why have one in the first place?
 
@@ -288,7 +288,7 @@ Secondly, because I like to develop with real data that has recent episodes and 
 
 **Adam Stacoviak:** After the break we talk about why Gerhard chose Ansible and Docker over something like Kubernetes. We also talk about our potential lock-in to the hosting provider we chose. Linode, as you may know, is a partner of ours, and everything we do at Changelog is hosted on Linode servers. But the question is "Are we locked in, or are we free to move to another hosting provider if we want?" This question brought up our tie to Docker - are we locked in to only using Docker? Stick around to find out.
 
-**Break:** \[00:52:22.04\]
+**Break:** \[52:22\]
 
 **Adam Stacoviak:** Gerhard, in the break we often ask some questions, and before the break, Jerod was teeing up sort of this restrospective lookback to see what went well, what didn't go well, and kind of like see how we can move towards the future. That got me thinking about the episode that we haven't released yet - which is coming up very soon - on Kubernetes... And I've just been thinking about this whole conversation... What you've built for us seems very bespoke, very particular for us, and since that Kubernetes' conversation, I've been thinking "Why didn't Kubernetes fit for us?"
 
@@ -304,7 +304,7 @@ The Kubernetes service is very big; the community is different, of course, and I
 
 I think now that Kubernetes is much more mature, we can start considering it, and very slowly we can start migrating components across, why not? But you will still have these extra layers of things, and all this documentation to go through and understand and to keep up with changes as they happen. What we have is simple. Imperfect in many ways, but it works.
 
-**Jerod Santo:** \[00:56:18.04\] I'm just getting to learn our current stack, Stack... I mean, are you gonna switch me to Kubernetes all of a sudden?
+**Jerod Santo:** \[56:18\] I'm just getting to learn our current stack, Stack... I mean, are you gonna switch me to Kubernetes all of a sudden?
 
 **Adam Stacoviak:** \[laughs\] Well, I'm not pushing for it. I guess I'm playing the advocate out there who's listening to this show thinking "I've been hearing nothing but good things about Kubernetes, or other systems out there that essentially help you..." -- they basically took the 17 questions (I'm assuming; this is all assumptions)... Assuming that the 17 questions that Gerhard asked originally was something that the overall community of Kubernetes asks (or something like that asks) when saying "Let me automate your infrastructure. Let me build out your infrastructure and make it very command-driven", as we'd heard about on that show, rather than maybe -- not so much the complexity, or even in your case where you say "simple", Gerhard... To not have to do it yourself or think through it yourself and remake the wheel each time.
 
@@ -320,7 +320,7 @@ When you're trying to do migrations such as this, I think you need to be careful
 
 **Jerod Santo:** If I were to set this entire thing up myself, we would be tied specifically to the VPS, because I would have installed the entire system directly on the "hardware", and a migration to anything different would have been a huge undertaking that we probably would have said, "It's not worth our effort." But with this system, Gerhard has set us up to have the flexibility and the capability of moving not just hosts, but container platforms -- well, maybe not container platforms... I don't know, Gerhard, could we switch off of Docker?
 
-**Gerhard Lazu:** \[00:59:45.27\] Runtimes. Yes, you could. You definitely could. Docker is not -- so one thing which I'm trying to emphasize (and maybe I'm doing it poorly) is that we haven't been focusing on the stack. We haven't chosen Docker for its features, we have chosen Docker for what it offers us based on the goals. Based on the goals and based on where we were, it was an easy step, it was an easy transition. I think that's important.
+**Gerhard Lazu:** \[59:45\] Runtimes. Yes, you could. You definitely could. Docker is not -- so one thing which I'm trying to emphasize (and maybe I'm doing it poorly) is that we haven't been focusing on the stack. We haven't chosen Docker for its features, we have chosen Docker for what it offers us based on the goals. Based on the goals and based on where we were, it was an easy step, it was an easy transition. I think that's important.
 
 Making steps small enough and manageable enough so you can keep doing them consistently, and you can keep moving towards where you're trying to get to... Because that changes in itself. Changelog today I'm sure is very different than it was a year ago, right? You have more shows, you have more content, you have more listeners... So the Changelog landscape is changing, right? Pun intended.
 

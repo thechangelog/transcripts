@@ -4,7 +4,7 @@
 
 So we were like "Well, what is a slideshow? It's an array of images that you click Next and Previous through", and if we have an easy way to convert them, then that's really cool. I kind of stumbled on it, but then Steve, my business partner at the time - he's like the evil genius, and he went in and tweaked all the pixels and crazy things like that, and came out with a way to basically get a higher-quality image than my first attempt... And then Jon Hoyt, who we had been hanging out with a lot at the time, was like "Hey, I wanna get into programming. Let me work on this. You guys are busy, you're doing other stuff... I have some free time on the side. I'd like to get started on this."
 
-\[00:04:12.03\] So that was kind of how it started out originally. Then from there, it was like, okay, everyone we talked to -- we were going to a lot of conferences, we were hustling, selling our wares, trying to get people to use our other apps... And everyone that we talked to was like "Can I use it? Can I use it?" This was -- I don't know what it was; a decade ago. Back then, it's like, beta accounts, and -- we were talking at pre-show about South by Southwest, and stuff, and I remember when we went to South by Southwest we actually for one of our apps had business cards with a blank spot, like an invite code, and then we would use our phone to generate an invite code right in front of someone and write it down with a marker as like this extra personal touch, instead of just this auto-generated printed thing.
+\[04:12\] So that was kind of how it started out originally. Then from there, it was like, okay, everyone we talked to -- we were going to a lot of conferences, we were hustling, selling our wares, trying to get people to use our other apps... And everyone that we talked to was like "Can I use it? Can I use it?" This was -- I don't know what it was; a decade ago. Back then, it's like, beta accounts, and -- we were talking at pre-show about South by Southwest, and stuff, and I remember when we went to South by Southwest we actually for one of our apps had business cards with a blank spot, like an invite code, and then we would use our phone to generate an invite code right in front of someone and write it down with a marker as like this extra personal touch, instead of just this auto-generated printed thing.
 
 **Adam Stacoviak:** That's cool, yeah.
 
@@ -56,7 +56,7 @@ I remember the first time after that RubyConf, Matz, the creator of Ruby, upload
 
 Then there's the other side where it's like you're building a custom app from scratch, and that's the MS... We were kind of in the middle. Our expectation was that a developer would build your site... You know, like "This template requires this data", and the pages would then be built based on whatever template you pick. So if you picked a template that was like a blog post template, it would change the form data that would be filled out. So you'd have a title description, tags etc. Whereas another piece of content would be something different.
 
-\[00:08:06.13\] So it was kind of that in-between. It was - okay, what we wanna do is have a developer who's building a site have full control over all the little pieces of data that they wanna collect... And then have a content person who's actually fleshing out the whole site. Their only job is just to put the content in it. They don't think about how things look, how things work, any of that kind of stuff. So it was in that middle spot where Harmony kind of sat.
+\[08:06\] So it was kind of that in-between. It was - okay, what we wanna do is have a developer who's building a site have full control over all the little pieces of data that they wanna collect... And then have a content person who's actually fleshing out the whole site. Their only job is just to put the content in it. They don't think about how things look, how things work, any of that kind of stuff. So it was in that middle spot where Harmony kind of sat.
 
 **Adam Stacoviak:** And how did that work out?
 
@@ -86,7 +86,7 @@ For me, I've got similar stories in my belt, where I've met specific people at c
 
 **Adam Stacoviak:** I'll never forget meeting them. It was the coolest. We literally had the best time ever. I still remember all the stories... The point is that you meet certain people because of certain things you do, and it's like, have you ever considered if you didn't do those few things that were pivotal to your story or to your arc? Have you considered "Well, if I didn't do Speaker Deck I would have met Chris, wouldn't have worked at GitHub, wouldn't have had to do the acquisition, buyback", and all these things. I just wonder if you've ever considered how we do certain things in our lives and they play a key role...
 
-**John Nunemaker:** \[00:12:18.27\] Yeah. There's definitely stuff that -- well, with Chris, the one thing with him was like I had met him before. We had met at several conferences before, so this was kind of just like us catching up from like "Oh, I haven't seen you in four months, or six months. What's going on?"
+**John Nunemaker:** \[12:18\] Yeah. There's definitely stuff that -- well, with Chris, the one thing with him was like I had met him before. We had met at several conferences before, so this was kind of just like us catching up from like "Oh, I haven't seen you in four months, or six months. What's going on?"
 
 **Adam Stacoviak:** Right, okay.
 
@@ -122,7 +122,7 @@ And long story short, Steve gave me some great advice, and I really appreciated 
 
 **John Nunemaker:** It was amazing, yeah. We had a great time, sun, fun, all that kind of stuff... And then there was like a few talks here and there where we just like got in a room and people presented on various things, and stuff like that. But I just remember specifically about him. He peppered me... Because I was all about Mongo back then, so he peppered me with Mongo questions.
 
-**Adam Stacoviak:** \[00:16:00.16\] Yeah. Well, you know, that's how it works out. What I find interesting, I think, with Speaker Deck, is how it led you to GitHub. So maybe give us a quick snapshot of that meeting with Chris, and some of the particulars there...
+**Adam Stacoviak:** \[16:00\] Yeah. Well, you know, that's how it works out. What I find interesting, I think, with Speaker Deck, is how it led you to GitHub. So maybe give us a quick snapshot of that meeting with Chris, and some of the particulars there...
 
 **John Nunemaker:** Sure.
 
@@ -176,7 +176,7 @@ So that was huge. I remember texting Steve right away... I was just like -- I di
 
 **John Nunemaker:** Yeah, how do we respond? Because GitHub was obviously going to be successful, and so we were like, attaching yourself in some manner to somebody who is successful is a good thing to do, generally. It doesn't usually -- if somebody is on a rocket ship going up, and you grab on, that's a good thing. So we were like, "Well, that seems good, to have him." He would have connections, he would have ideas, we like him as a person... So that was really exciting, but I didn't respond, because I was just like "I don't know, we'll just think about it."
 
-\[00:20:13.15\] So then the very next day he was like "Sorry, I just got excited. Let me tell you why you should do this." And then he went on this big sales pitch of like himself, which was hilarious, because we didn't need a sales pitch from him. It was like -- I literally just hadn't responded because I was so shocked and happy and excited that I didn't know how to respond... So he did this long pitch and we were like "Let's just meet up." He flew into South Bend... You know, not a huge town, but good size; 100k-150k people. So we hung out the one night, talked a bunch, had a good time...
+\[20:13\] So then the very next day he was like "Sorry, I just got excited. Let me tell you why you should do this." And then he went on this big sales pitch of like himself, which was hilarious, because we didn't need a sales pitch from him. It was like -- I literally just hadn't responded because I was so shocked and happy and excited that I didn't know how to respond... So he did this long pitch and we were like "Let's just meet up." He flew into South Bend... You know, not a huge town, but good size; 100k-150k people. So we hung out the one night, talked a bunch, had a good time...
 
 Earlier in the day it had transitioned -- like, we had this tiny little office that was like this three-story building, and it's like a huge brick, square, totally boring... A bunch of healthcare, and boring things in it... And there was this tiny little tower on it, with two floors, four and five, and that was our office. We had bright colors in it... It was fun. So we were in there, and I remember it was always really hot, because the air conditioner never worked... So we were warm, and talking about what could happen... And Chris kept talking about investing, and then he changed to like merging... And we were like "Well, it wouldn't be a merger. You guys are huge, and we're small." And he's like "Yeah. It would be an acquisition. Well, what if we just acquired you?" And we were like "Oh, wow."
 
@@ -242,7 +242,7 @@ But yeah, so we had baked oatmeal. He had never had it before, and I was like, "
 
 **Adam Stacoviak:** \[unintelligible 00:24:06.19\]
 
-**John Nunemaker:** \[00:24:09.05\] Yeah. So like "We need to talk to them, and figure out from there what to do." So we were like "That's cool." And it was mostly just like "Should we do this or not?" And we hadn't said yes, and he hadn't said yes. It was kind of just like feeling it out. Neither of us had been involved in an acquisition of any sort. If you picture somebody in the dark, walking around, stubbing their toe and running into things - that's literally what was happening. A bunch of rookies.
+**John Nunemaker:** \[24:09\] Yeah. So like "We need to talk to them, and figure out from there what to do." So we were like "That's cool." And it was mostly just like "Should we do this or not?" And we hadn't said yes, and he hadn't said yes. It was kind of just like feeling it out. Neither of us had been involved in an acquisition of any sort. If you picture somebody in the dark, walking around, stubbing their toe and running into things - that's literally what was happening. A bunch of rookies.
 
 And then we went out to San Francisco, Steve and I did, and I remember we met in the situation room, the founders and us, and then Kyle, and \[unintelligible 00:24:41.27\] and some of those guys were there, too... And they showed us a bunch of stuff they were doing, behind the scenes stuff. That was kind of cool. Atom, they showed Atom... It was just (I think) a dream in Chris' head at that point, but he had kind of got it working, and stuff...
 
@@ -268,7 +268,7 @@ Then I remember it was the morning of my birthday... I had kind of mentally deci
 
 **Adam Stacoviak:** Know your value and push back a little bit.
 
-**John Nunemaker:** \[00:27:51.23\] It's funny, that's such a basic thing, but if you've never done before, you think "If I negotiate, then it might go away." But that's not what happens, usually. If you negotiate, they either say no, or they compromise in some fashion; they being the other side. So I've definitely learned that now; whatever comes to you first, always negotiate for better... Because why not? In anything. Especially in job interviews, things like that, you should always do the same thing. Always ask for 10% more, 20% more, or some other random benefits, and stuff. So yeah, it was one of those things, I'm like "Okay. Well, I'll try that." They had offered some amount of cash, and that we would all get option packages; so not equity, but options, and stuff like that. So we were like "Okay, cool." So what I thought was like "Well, we're all about the long-term. We're not about the short-term. Cash was short-term. Options were long-term. Let's go for that."
+**John Nunemaker:** \[27:51\] It's funny, that's such a basic thing, but if you've never done before, you think "If I negotiate, then it might go away." But that's not what happens, usually. If you negotiate, they either say no, or they compromise in some fashion; they being the other side. So I've definitely learned that now; whatever comes to you first, always negotiate for better... Because why not? In anything. Especially in job interviews, things like that, you should always do the same thing. Always ask for 10% more, 20% more, or some other random benefits, and stuff. So yeah, it was one of those things, I'm like "Okay. Well, I'll try that." They had offered some amount of cash, and that we would all get option packages; so not equity, but options, and stuff like that. So we were like "Okay, cool." So what I thought was like "Well, we're all about the long-term. We're not about the short-term. Cash was short-term. Options were long-term. Let's go for that."
 
 I think in the article I said I asked for twice the options, but I looked back and I've found the email... We asked for almost four times the options. Which was kind of funny.
 
@@ -292,7 +292,7 @@ But yeah, so that was kind of -- we asked for that, and Chris was like, "You kno
 
 **John Nunemaker:** I can't say for sure. I don't think so. I think at some point they created a pool for employees when they came in. At that time, when you started at GitHub, you got X options, just by default. So all of the people who working with us basically came in with those default options, and then Steve and I, because we were the owners of the company and it would take more to entice us, then we got more than the default standard package. But yeah, as far as I know, they had a pool at that point, and I don't think it was coming out of any of their pockets.
 
-**Break**: \[00:31:23.25\]
+**Break**: \[31:23\]
 
 **Adam Stacoviak:** With Orderedlist you had certain upsides, obviously; you had your own control, as you mentioned, keeping it, owning 100% of something smaller, or owning a little bit of something bigger, and the ride along the way... What do you think about -- because it seems like it was a Speaker Deck acquisition, but I guess it was Orderedlist too, because you had some employees...
 
@@ -334,7 +334,7 @@ Hilariously, as soon as we started, we all five went in different directions and
 
 **John Nunemaker:** Yeah, Matt Graham, Steve Smith, Brandon Keepers, Jon Hoyt, and then myself. All Midwest.
 
-**Adam Stacoviak:** \[00:36:07.02\] Brandon Keepers was head of open source for a bit there, too.
+**Adam Stacoviak:** \[36:07\] Brandon Keepers was head of open source for a bit there, too.
 
 **John Nunemaker:** He was, yeah. He did that for a while. He worked on a bunch of different stuff, so... And actually, he's probably gonna be joining us on Flipper pretty soon. He's been doing a bunch of work with us, and he kind of got excited about it, and I think we'll have some of the band back together again on that, so...
 
@@ -364,7 +364,7 @@ I think that was my biggest worry, or if I were to think about regrets, it would
 
 **Adam Stacoviak:** Yeah. I like that word better. I know what you're saying, but I think it's important to make that distinction... Because you were already making an impact, in my opinion. You've got a great product, Speaker Deck, the business you were running was very influential in terms of the open source you were producing, the design style that Steve had, and you had a very specific focus on the function, not just simply the form... And I think in many ways you had a strong brand for Orderedlist, in my opinion. So you wanna make sure that you can have impact, especially if you're an entrepreneur and you've got your own thing, you wanna give that up to have impact, not just simply show up and be an individual contributor with no real autonomy to where the thing is going, especially at that time of GitHub; it was still being shaped. It had a lot of inertia, but in many ways it was still being shaped. Every day there was a new feature of something, there was a new direction you can go... And you got to be a part of what that could be.
 
-**John Nunemaker:** \[00:40:21.26\] Yeah. And I think it was amazing to look back and see how that kind of came about and how that went. Going back to the original - from the standpoint of my concern about regrets, I don't think I really had any concerns other than the impact. That was the only thing I was worried about. I was like "Will I be able to have an impact?" Because like you're saying, it was growing and changing so fast, it was like "How is that gonna be--" It was obviously going to be big, and so how am I going to have an impact on that... And I think to some extent, looking back, I didn't really have a huge impact. I spent a lot of time in the deep, dark corners, and things like that. I didn't ship anything public -- the most public thing was probably the traffic graphs, and some of that stuff... Which still exists today, and that's cool, but most of my stuff was behind the scenes. It was stuff that you didn't know if I did it, you only knew if I messed up. So if I messed up, then you would know about it. That was definitely neat and fun. Looking back, that was my concern, was impact, and that's probably -- if I were to go back and do it again, I think that's the thing I would change. I would probably go in and try and do more of the shaping and the public stuff. But you can't, and that's okay. It went fine.
+**John Nunemaker:** \[40:21\] Yeah. And I think it was amazing to look back and see how that kind of came about and how that went. Going back to the original - from the standpoint of my concern about regrets, I don't think I really had any concerns other than the impact. That was the only thing I was worried about. I was like "Will I be able to have an impact?" Because like you're saying, it was growing and changing so fast, it was like "How is that gonna be--" It was obviously going to be big, and so how am I going to have an impact on that... And I think to some extent, looking back, I didn't really have a huge impact. I spent a lot of time in the deep, dark corners, and things like that. I didn't ship anything public -- the most public thing was probably the traffic graphs, and some of that stuff... Which still exists today, and that's cool, but most of my stuff was behind the scenes. It was stuff that you didn't know if I did it, you only knew if I messed up. So if I messed up, then you would know about it. That was definitely neat and fun. Looking back, that was my concern, was impact, and that's probably -- if I were to go back and do it again, I think that's the thing I would change. I would probably go in and try and do more of the shaping and the public stuff. But you can't, and that's okay. It went fine.
 
 **Adam Stacoviak:** Are you still in touch with Chris today?
 
@@ -384,7 +384,7 @@ I remember I emailed him after -- probably the last time we had anything to say 
 
 **John Nunemaker:** Yeah. I think I sent it to that email address, because that was the only one in my address book, and I'm like "I don't even know if GitHub addresses--" I mean, I assume they're still working, but I didn't know if he was checking it, because now he was like a fellow at Microsoft, or whatever...
 
-**Adam Stacoviak:** Remind me what the name of that was... What was the name of the original company? That was his personal \[00:43:30.07\]
+**Adam Stacoviak:** Remind me what the name of that was... What was the name of the original company? That was his personal \[43:30\]
 
 **John Nunemaker:** \[unintelligible 00:43:31.06\]
 
@@ -400,7 +400,7 @@ I remember I emailed him after -- probably the last time we had anything to say 
 
 **John Nunemaker:** Yeah. He ended up replying; he just didn't check that email hardly at all, so three months later he goes like "Dude, sorry, I totally don't check this email, ever..." But yeah, so that was probably the last time.
 
-**Adam Stacoviak:** \[00:44:10.16\] Did he just say "You're welcome" and that was it, or was it just like --
+**Adam Stacoviak:** \[44:10\] Did he just say "You're welcome" and that was it, or was it just like --
 
 **John Nunemaker:** Oh, it was typical Chris. He was just really--
 
@@ -434,7 +434,7 @@ I remember I emailed him after -- probably the last time we had anything to say 
 
 I remember I counted up one time, towards the end of GitHub, and I was like -- I don't remember if it was 8 or 12 layers below Chris at that point... And I remember thinking how crazy that was. When we started, it was one layer, and then eight years later it was 12, or some ridiculous number like that.
 
-**Break:** \[00:47:26.28\]
+**Break:** \[47:26\]
 
 **Adam Stacoviak:** I said at the top of the show, let's go back and begin with my email. What's funny is my email to you was around me being happy for you that you were able to acquire Speaker Deck back from GitHub, and kind of give new life back into it; there's a story arc there, but that was 2018, and we've spent the better part of almost three years trying to get you on the show, essentially... Life's happened, I think you got an RV, I can't recall if a kid was in the email or not...
 
@@ -448,7 +448,7 @@ Obviously, you're a huge fan of open source, you're still involved in open sourc
 
 And then as I was thinking about that over the weekend, I remember I was like, "Why don't I just buy it? I'm already maintaining it basically in my free time. I wouldn't be any different, except now I would have ROI if something good happens to it. I'd have ROI." That, again, comes back to impact. So I think on that front, that's kind of where -- so I was like, "You know what - let's try it." Again, I don't think I've thought about it until like we're talking about it now, but... Common thread - you never know it until you ask. So worst-case scenario, when you negotiate, they say no.
 
-\[00:51:57.08\] I remember I think I offered -- I don't even remember. At that point it was losing like $1,000/month or more, just from hosting, and AWS bills, and stuff, and I was like, "Alright, I'll give you $5,000." So basically, this shows that I'm real, I'm genuinely offering for it, and I will take on the burden of $1,000/month, vetting the buyer, all the problems that could possibly arise from selling it, and any possible negative impact of closing it down, or any of that kind of stuff.
+\[51:57\] I remember I think I offered -- I don't even remember. At that point it was losing like $1,000/month or more, just from hosting, and AWS bills, and stuff, and I was like, "Alright, I'll give you $5,000." So basically, this shows that I'm real, I'm genuinely offering for it, and I will take on the burden of $1,000/month, vetting the buyer, all the problems that could possibly arise from selling it, and any possible negative impact of closing it down, or any of that kind of stuff.
 
 I sent that up the tree, and at some point they were like, "Yes." They dropped the price to like -- I don't know if I'm allowed to talk about any of that kind of stuff, but it was like an order of magnitude lower. They were just like --
 
@@ -468,7 +468,7 @@ So I got it back, signed the paperwork, three days later my daughter was born, a
 
 But yeah, so that was kind of a nuts way of getting it back... And then obviously Microsoft acquired GitHub, and then I was on paternity leave, which was like the perfect to be on paternity leave, because everyone is running around like chickens and trying to get everything lined up for this Microsoft acquisition... And I was just on paternity leave, just chilling with my kids, which was pretty awesome and stress-free... Especially because at that time I was on the security team, and they were doing a ton of work. So I felt bad, but also I was like "Well... It was just good timing."
 
-\[00:55:51.12\] And I was planning on coming back, mostly because I was like "I don't know if this is gonna go through, or any of that kind of stuff." I remember it closed on a Friday and my first day back was Monday and I was like "I'm sorry, but I'm resigning." That was pretty much it. So then it was like, "Okay, we've got Speaker Deck, kind of hacking on Flipper Cloud..." So that kind of is the end of that story. Then it kind of went on to Fewer & Faster, and joining up with Steve again on Fewer & Faster and then also on Box Out Sports, another thing that we're working on together. But yeah, it was definitely crazy.
+\[55:51\] And I was planning on coming back, mostly because I was like "I don't know if this is gonna go through, or any of that kind of stuff." I remember it closed on a Friday and my first day back was Monday and I was like "I'm sorry, but I'm resigning." That was pretty much it. So then it was like, "Okay, we've got Speaker Deck, kind of hacking on Flipper Cloud..." So that kind of is the end of that story. Then it kind of went on to Fewer & Faster, and joining up with Steve again on Fewer & Faster and then also on Box Out Sports, another thing that we're working on together. But yeah, it was definitely crazy.
 
 **Adam Stacoviak:** So you were there really for the acquisition, but not so much for the ownership and stewardship of Microsoft.
 

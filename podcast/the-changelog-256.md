@@ -56,7 +56,7 @@
 
 **Jerod Santo:** Refocused. Tell us about this shift in you guys' vision.
 
-**Dustin Kirkland:** \[00:03:57.23\] Sure. So I think the biggest and most obvious change is we're mourning the death of the Ubuntu phone. The Ubuntu phone was a pretty awesome experiment that we ran for almost five years now, but the Ubuntu phone project is now no more.
+**Dustin Kirkland:** \[03:57\] Sure. So I think the biggest and most obvious change is we're mourning the death of the Ubuntu phone. The Ubuntu phone was a pretty awesome experiment that we ran for almost five years now, but the Ubuntu phone project is now no more.
 
 **Jerod Santo:** It's no more.
 
@@ -120,7 +120,7 @@ Okay, so a shift in strategy, lots of things learned... Hey, it takes guts to ki
 
 **Adam Stacoviak:** Well, can we maybe rewind and say why you were even going after the phone? Was it simply this mission of everywhere, or was there a real reason?
 
-**Dustin Kirkland:** \[00:07:56.17\] You know, we had some early partners on it. We're all just free software -- we're here at OSCON, and you won't find more free software - truly GPL free software - anywhere in the world than in the Canonical and Ubuntu family of software. GPL and AGPL are our default licenses; we really default to a free software world. And we were running a lot of Android and a lot of iOS devices on our persons, on our tablets, but we've got this innate desire to run open source and truly free software that we can inspect, that we can update, that we can fix... That was the real goal of the phone.
+**Dustin Kirkland:** \[07:56\] You know, we had some early partners on it. We're all just free software -- we're here at OSCON, and you won't find more free software - truly GPL free software - anywhere in the world than in the Canonical and Ubuntu family of software. GPL and AGPL are our default licenses; we really default to a free software world. And we were running a lot of Android and a lot of iOS devices on our persons, on our tablets, but we've got this innate desire to run open source and truly free software that we can inspect, that we can update, that we can fix... That was the real goal of the phone.
 
 We ran an unsuccessful Indiegogo campaign to raise 32 million dollars to build our own hardware and OS. We raised half of that, and set the record for --
 
@@ -196,7 +196,7 @@ Over the course of the couple years, we showed that vision, but it's just really
 
 **Jerod Santo:** It was an uphill battle.
 
-**Dustin Kirkland:** \[00:12:01.07\] There was a lot of us fighting for third place. Blackberry... Remember ten years ago, Blackberry would have been the clear...
+**Dustin Kirkland:** \[12:01\] There was a lot of us fighting for third place. Blackberry... Remember ten years ago, Blackberry would have been the clear...
 
 **Jerod Santo:** ...leader in that.
 
@@ -248,7 +248,7 @@ Click was good for packaging the Facebook app or the calendar app for the Ubuntu
 
 **Jerod Santo:** Thank you.
 
-**Dustin Kirkland:** \[00:16:04.01\] Disagree with that one, I dare you! \[laughter\]
+**Dustin Kirkland:** \[16:04\] Disagree with that one, I dare you! \[laughter\]
 
 **Jerod Santo:** This man speaks truth!
 
@@ -272,7 +272,7 @@ The other way of doing it is the opposite of shared libraries, which is static c
 
 **Adam Stacoviak:** When we come back from the break, we're gonna talk about Bash on Ubuntu on Windows, specifically Bash on Ubuntu on Windows server, which was announced recently at Microsoft Build Conference. We ask questions like "Why is Microsoft behind this move? What can we expect from Windows Server, but more importantly, who is asking for this and why?" Stick around.
 
-**Break:** \[00:19:00.07\]
+**Break:** \[19:00\]
 
 **Jerod Santo:** Last time we had you on -- in fact, the reason that we brought you on was the big Bash on Windows announcement last year, and we found out on that show that -- Dustin was the messenger... Microsoft did a lot of the work and it was kind of their idea, and Canonical played along and that was great, it was very cool.
 
@@ -328,7 +328,7 @@ So yeah, there's absolutely Linux machines running in the millions, Ubuntu machi
 
 **Adam Stacoviak:** Yes.
 
-**Dustin Kirkland:** \[00:24:03.24\] Good question, and I think...
+**Dustin Kirkland:** \[24:03\] Good question, and I think...
 
 **Adam Stacoviak:** Who asked for it and why?
 
@@ -406,7 +406,7 @@ So I think server users want to be able to take advantage of that as well.
 
 **Adam Stacoviak:** So for those listening, where do they go to find out more?
 
-**Dustin Kirkland:** \[00:28:09.06\] Rich Turner at Microsoft has a blog post that's out today talking about it. This is a new thing, it's in beta for Windows server and it will be for a while...
+**Dustin Kirkland:** \[28:09\] Rich Turner at Microsoft has a blog post that's out today talking about it. This is a new thing, it's in beta for Windows server and it will be for a while...
 
 **Adam Stacoviak:** Does that mean you can sign up for the beta, or is it available to download for anybody?
 

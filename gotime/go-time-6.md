@@ -48,7 +48,7 @@
 
 **Brian Ketelsen:** So the second interesting project I found is one in the multitude of vendoring projects. This one's called Manul, and you'll find a link to that in the show notes. It's another one that does vendoring with Git submodules this time, and it looked to be one of the better vendoring packages that supports Git submodules. So it had some very nice commands and utilities with it.
 
-**Erik St. Martin:** \[00:03:54.17\] I’m interested to see though how they solve some of the drawbacks from using submodules, because a lot of people have reservations about using Git submodules. There’s kind of some inherent flaws with the way it works. Number one would be that you’re still relying on that repository to exist in the future. So if it went down or somebody decided to delete their project - because that totally never happens -
+**Erik St. Martin:** \[03:54\] I’m interested to see though how they solve some of the drawbacks from using submodules, because a lot of people have reservations about using Git submodules. There’s kind of some inherent flaws with the way it works. Number one would be that you’re still relying on that repository to exist in the future. So if it went down or somebody decided to delete their project - because that totally never happens -
 
 **Carlisia Thompson:** Or you can just rename it.
 
@@ -82,7 +82,7 @@
 
 **Erik St. Martin:** Yeah. Jackie Stewart was a Formula1 driver and I think during an interview he had said something along the lines that you don’t need to be an engineer or mechanic to be a racecar driver, but you need to have Mechanical Sympathy. Basically he was just implying by having some level of understanding of how the machine, the car worked, that it made you a better driver. And I think as Bill kind of pointed out, Martin Thompson started applying that to programming. So Bill, would you like to fill us in a bit on how you think that that concept applies to programming?
 
-**Bill Kennedy:** Yeah. I mean, I only have a perspective on it from the Go side, and it's something I really focus in the training. I kind of focus on two things in the training: data-oriented design and Mechanical Sympathy, and trying to show how the language Go itself is very in tune around these two ideas. And I really, really believe that if you don’t understand the data that you’re working with, you do not understand the problem that you’re trying to solve. It all starts there, like everything, every problem that we're trying to solve is really a data manipulation problem in some fashion, in some way. \[00:08:03.21\] So it all really starts with the data, and it's this idea that if you don’t understand the data you're work with you don’t understand the problem, and if you don’t understand the cost of solving that problem, you can’t really reason about solving it. And to be able to reason about the cost you have to have some understanding of what every line of code is doing and how that's affecting the operating system and the hardware, which is there to execute those instructions that you're spending time writing to begin with. So I think it's that relationship that I’m really interested in and think about in terms of what Go is doing to help us.
+**Bill Kennedy:** Yeah. I mean, I only have a perspective on it from the Go side, and it's something I really focus in the training. I kind of focus on two things in the training: data-oriented design and Mechanical Sympathy, and trying to show how the language Go itself is very in tune around these two ideas. And I really, really believe that if you don’t understand the data that you’re working with, you do not understand the problem that you’re trying to solve. It all starts there, like everything, every problem that we're trying to solve is really a data manipulation problem in some fashion, in some way. \[08:03\] So it all really starts with the data, and it's this idea that if you don’t understand the data you're work with you don’t understand the problem, and if you don’t understand the cost of solving that problem, you can’t really reason about solving it. And to be able to reason about the cost you have to have some understanding of what every line of code is doing and how that's affecting the operating system and the hardware, which is there to execute those instructions that you're spending time writing to begin with. So I think it's that relationship that I’m really interested in and think about in terms of what Go is doing to help us.
 
 **Brian Ketelsen:** So when you talk about Mechanical Sympathy, you’re talking about things at the physical level, like the discs, the caches, the CPU, electrical things. How much of that as a programmer do we have to care about?
 
@@ -92,7 +92,7 @@
 
 **Bill Kennedy:** So we've got to talk about this at a very high representative level, because hardware is really different. But in essence, we're dealing with a piece of hardware that has caches in, and from our perspective it can be all the same. The idea is that that hardware needs to have the memory that we're working with as close to it as possible, and what’s going to happen today is if you need any, even a byte of memory that's sitting out in main, it’s got to move from main memory into let’s say the L1 or L2 cache for it to be used. And these caches get pulled in and out on cache lines, and the default cache line today is the 64-byte cache line. So the idea now is that if you have instructions that are working with data, which is what we do, right? I mean, this is what we do all day - we’re reading memory, we're writing to memory... This memory has to now get into the caching system in order for us to be able to use it. This state has got to be moving on these 64-byte cache lines from main and back in. And so, one of the things that we can do to be sympathetic with the hardware is try to work with data in as contiguous blocks as possible. The more contiguous our data is, you usually then at that point are probably iterating over that data. And iterating over data can create predictable access patterns to that data that the hardware today can pick up on.
 
-\[00:12:12.04\] So if we really want to give the hardware its best opportunity to take advantage of everything that's in there, we've got to be sympathetic with it. We've got to try to look at data in a way of, what are our working sets of data? Can we lay data out contiguously, work with data contiguously and can we create predictable access patterns around that, so the hardware can pick up on what are the next cache lines that are probably in play or will definitely be in play, and pull those into the caches before those next instructions need them.
+\[12:12\] So if we really want to give the hardware its best opportunity to take advantage of everything that's in there, we've got to be sympathetic with it. We've got to try to look at data in a way of, what are our working sets of data? Can we lay data out contiguously, work with data contiguously and can we create predictable access patterns around that, so the hardware can pick up on what are the next cache lines that are probably in play or will definitely be in play, and pull those into the caches before those next instructions need them.
 
 **Carlisia Thompson:** How does somebody learn about what predictable access patterns look like? And what can they do to achieve that?
 
@@ -126,7 +126,7 @@
 
 **Bill Kennedy:** So you can’t guarantee in that case that every single node is on the same cache line, or even in cache lines that are next to each other.
 
-**Erik St. Martin:** \[00:15:55.04\] And I guess another example would be like a multidimensional array, right? Iterating over row-based versus column-based.
+**Erik St. Martin:** \[15:55\] And I guess another example would be like a multidimensional array, right? Iterating over row-based versus column-based.
 
 **Bill Kennedy:** Yeah, we actually have some examples in the training with that over benchmarking, where you actually see a significant difference in performance. If you go row based you see it’s much faster than if you go in column based... Kind of breaking, you know, going against the grain.
 
@@ -142,7 +142,7 @@ And other areas of the language too, where you see that you're really being symp
 
 **Erik St. Martin:** Yeah, I think there’s a lot of programming idioms that can be followed to help. But I think you’re right... Like I said, I never really considered some of the language functionality, that it’s abstracting the way these things and making our programs more sympathetic by default, right? And channels are a good example too, right? You know, you’re passing pieces of data over between threads, so that the data can stay locally on the cache or that particular thread.
 
-**Bill Kennedy:** \[00:19:54.04\] So what about the reference type, your slice, your maps, your channel values, right? We’re always told, "Do not share this. Everybody can get a copy of these values." And what that's doing is that it's allowing us to not put pressure on the GC right? Like, we get to leverage the stacks to the fullest extent because everybody can get a copy of this slice.
+**Bill Kennedy:** \[19:54\] So what about the reference type, your slice, your maps, your channel values, right? We’re always told, "Do not share this. Everybody can get a copy of these values." And what that's doing is that it's allowing us to not put pressure on the GC right? Like, we get to leverage the stacks to the fullest extent because everybody can get a copy of this slice.
 
 The thing that's being shared underneath is what let’s say necessary has to be on the heap, just that. And all these little objects that we need to pass values around across these program boundaries, we get to leverage the stack, right?
 
@@ -158,7 +158,7 @@ I can totally see you designing your software in a way that is not data-oriented
 
 And I’m a big fan of functions, I love functions. One of the things that was so great when I got into Go was I had my functions back. Not everything had to be on a method on a class. And I think functions can also help reduce a huge amount of your code when you’re using them in a sense where, "Here's my state and here’s some behavior." I mean, methods play a huge role in Go, I’m not saying that you’re not gonna have methods, but for me it’s about not thinking about architecting things in terms of an object-oriented design or pattern, but really thinking about, "This is the data, these are the manipulations, this is the input, this is the output and how do I do that with the least amount of code?"
 
-**Erik St. Martin:** \[00:24:04.09\] And now the data-oriented design concept came from the game programming world, I believe.
+**Erik St. Martin:** \[24:04\] And now the data-oriented design concept came from the game programming world, I believe.
 
 **Bill Kennedy:** Yes.
 
@@ -178,7 +178,7 @@ Now, the false sharing comes in because of that. From your perspective you're no
 
 An example Scott Meyers uses is that somebody has created a global array of counters. So all of these counters, let’s say there's sixteen counters all in the same cache line, and you launched sixteen threads, each thread getting its own index of a counter on this cache line, and all sixteen threads getting their own core; you now have sixteen copies of these cache line of these counters in every single core, and every time one thread writes, increments its counter, all other fifteen other caches now have to be marked as dirty. And your chugging through memory because every thread that does a ++ on their counter is causing every other thread now to have to wait for their copy of the cache line to get updated. So that’s really what 'false sharing' is all about.
 
-**Erik St. Martin:** \[00:28:22.20\] So an example of that would be if you had a single backing array holding all of your counters?
+**Erik St. Martin:** \[28:22\] So an example of that would be if you had a single backing array holding all of your counters?
 
 **Bill Kennedy:** Yeah.
 
@@ -196,7 +196,7 @@ An example Scott Meyers uses is that somebody has created a global array of coun
 
 The next thing I tell people is if you’re working with data, try to work with slices of values as your initial load of data. You can share different elements of those slices, but the core data you’re working with, we try to keep it as contiguous as possible. It’s not going to be perfect because you're going to have strings, and you're going to have reference types of high pointers to things, but the compilers are tools; it’s gonna do its best that we work with it to help us there. And try to think about if you're working with very large sets of data, what are the working sets that you might be working with at any given time? Try to keep that together and really try to avoid, when you can and when its practical, things like linked lists that are not gonna really help you create predictable access patterns. There are times where whatever you’re doing, the algorithms that you’re trying to build are just not gonna be practical for arrays and linear traversals and things. That is what it is. But I think a lot of times you can lay that data out in a way and work with in a way where you can gain these sympathies that still implement the algorithms that you're trying to implement.
 
-**Brian Ketelsen:** \[00:32:00.02\] So what about laying out your data at a lower level? I know when we talked about this a few months ago when you came to visit us in Tampa, you talked about the size of the structs and keeping them within word boundaries. How does that affect processing speed?
+**Brian Ketelsen:** \[32:00\] So what about laying out your data at a lower level? I know when we talked about this a few months ago when you came to visit us in Tampa, you talked about the size of the structs and keeping them within word boundaries. How does that affect processing speed?
 
 **Bill Kennedy:** I’m not really sure if I said that... If the struct is data - to me when I look at a struct, I look at it in two different ways. What I'll ask is: Does this struct represent my pure data or is it a struct that’s gonna be some sort of concept like a pool of goroutines? I’m creating a pool of goroutines. I’m gonna create multiple instances of this thing. It's managing goroutines just let me do work. That’s one thing. But if the struct is gonna be pure data, then the size of that struct is what it needs to be, whether it’s 4k or its 24 bytes - it is what it is. But what I’m looking at then is the concept of padding. If it’s pure data where I’m gonna create a hundred thousands of these structs and even lay them out contiguously in memory, I don’t wanna lay the fields out in such a way where I’m going to get extra patting bytes in between, that’s gonna cause me now to have to use more memory than I need to. But that’s only when the struct, in my view, the struct is really pure data. Other than that, I wanna lay fields out on a struct that makes sense organizationally to what that struct is doing.
 
@@ -208,7 +208,7 @@ You know, the hardware today is designed to copy data really, really fast too. A
 
 **Carlisia Thompson:** What are some easy things to do, some easy rule of thumbs that can help people achieve this data-oriented design, thinking about grouping data that you’re going to use together in the same place? When you set out a program, how do you think about these things?
 
-**Bill Kennedy:** I really believe that every problem we solve is a data problem with some data manipulation. So the very first thing I’m doing on projects is I’m asking what is the data that we’re working with? What is my input? And what is it that we’re trying to achieve? Where are we trying to get to? Here’s my input, here's my output and then we could start thinking about how we’re gonna get from here to there. \[00:36:02.28\] And sometimes these are really complex problems. We've got to break them down into really, really small attainable smaller data transformation prompts, and for me that's when I start thinking about what does this data look like, it's some of these pure data, it's some of this more constructs around how we wanna do the manipulations, and then things like Eric and Brian were already saying - well, we know that this is gonna go across maybe multiple cache lines. Is it pretty large data? Can we group the working sets together? These types of things.
+**Bill Kennedy:** I really believe that every problem we solve is a data problem with some data manipulation. So the very first thing I’m doing on projects is I’m asking what is the data that we’re working with? What is my input? And what is it that we’re trying to achieve? Where are we trying to get to? Here’s my input, here's my output and then we could start thinking about how we’re gonna get from here to there. \[36:02\] And sometimes these are really complex problems. We've got to break them down into really, really small attainable smaller data transformation prompts, and for me that's when I start thinking about what does this data look like, it's some of these pure data, it's some of this more constructs around how we wanna do the manipulations, and then things like Eric and Brian were already saying - well, we know that this is gonna go across maybe multiple cache lines. Is it pretty large data? Can we group the working sets together? These types of things.
 
 I don’t get completely paralyzed over it, because we have to solve the problem. If you don’t get something to work, almost you can’t do any of these. You gotta get something to work first. But I think what's brilliant is Go is pushing us in the direction to do things fairly right the first time if we follow the idioms, if we work with slices of values, if we’re doing things the way that, as a community over the last few years, we’ve been directing people to do.
 
@@ -240,7 +240,7 @@ I don’t get completely paralyzed over it, because we have to solve the problem
 
 **Bill Kennedy:** The trainings are always really exciting and I’m really excited to be doing a [NATS workshop on the 3rd day of GopherCon](https://www.meetup.com/Denver-NATS-Cloud-Native-and-Microservices-Messaging/events/231095092), but I think one of the things I’m really excited about right now is Carlisia and I through GoBridges started the remote meet up platform, and we’re putting an all-star lineup of speakers together right now that will start speaking in June and July. It's gonna be awesome because it doesn’t matter where you live, everybody's gonna be able to come together, and the BigMarker platform is really amazing in terms of being able to have a collaboration. The real goal for us right here is not for GoBridge to have a remote MeetUp but for anybody, no matter where they live, to be able to start their own MeetUp, to be able to find the speakers and the things that they're interested in and have a MeetUp even if they're the only person that lives in this small town or remote area of the world. Start a MeetUp, find people who have similar interests, find your own speakers and start to meet. You know, I’m really hoping that we can see another 10 or 15 Go MeetUps by the end of the year, all being driven around this idea of a remote MeetUp.
 
-**Brian Ketelsen:** \[00:40:19.17\] That’s neat idea.
+**Brian Ketelsen:** \[40:19\] That’s neat idea.
 
 **Erik St. Martin:** Yeah, Brian and I commonly don’t make it out to the Tampa one. I mean time gets the better of you, so...
 
@@ -280,7 +280,7 @@ I don’t get completely paralyzed over it, because we have to solve the problem
 
 **Brian Ketelsen:** So, one of the projects that I wanted to shout this week was Go Validator. The link will be in the show notes, but if you've ever had to validate inbound data, you know how painful it is to write that regex for email validation or credit card validations. This is a project by Alex Saskevich, that collects all of the important validations that you might need to do for incoming data, and it's just a treasure trove of good validations. Even if you're against dependencies, this is one you wanna have because they're a very nicely organized list of things to validate your data.
 
-**Erik St. Martin:** \[00:44:19.06\] Excellent. Carlisia?
+**Erik St. Martin:** \[44:19\] Excellent. Carlisia?
 
 **Carlisia Thompson:** I wanna give a shout out to Joe Fitzgerald - I can’t pronounce it properly. He is the one who does all the Go packages for Atom and he does an amazing job. He has go-plus, autocomplete-go, go-metalinter, tester-go... A bunch of packages. I use them all the time. He’s amazing. He's frequently on the editor channel on Gophers.slack.com, and very helpful. I love the things that he's doing for Atom. Thank you, Joe.
 
@@ -322,7 +322,7 @@ So with that said, I think we are out of time unfortunately, but it has been qui
 
 I don’t know whether the newsletters sign up is on that site, but if it’s not, it is there or will be here soon. So keep checking back to the GoTime.FM to sign back up. iTunes will drop I think in about a week and a half, something like that, because they get forever to approve... Unless they tell us for some reason they don’t like our show. \[laughter\]
 
-**Brian Ketelsen:** \[00:48:05.23\] Not approved.
+**Brian Ketelsen:** \[48:05\] Not approved.
 
 **Erik St. Martin:** So we are on Twitter @GoTimeFM when you are listening live, GoTime FM channel on Slack, you can also socialize with us. And did I miss anything? Did we get it all?
 

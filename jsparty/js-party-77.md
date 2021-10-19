@@ -38,7 +38,7 @@ Let's start off with GitHub, the source of all code, the host of most code, and 
 
 So it's just a strange thing... Maybe they're trying to fly under the radar. It's hard for GitHub to fly under our radar, because we are so integrated. I mean, "we" not Changelog, but "we" the developer community... So maybe they just thought "Hey, let's just do it now, and people will find out." What do you guys think about the Friday afternoon live stream?
 
-**Nick Nisi:** \[00:04:11.02\] I saw a tweet about it 2-3 days before, and I thought it was very strange, because usually I find out about new GitHub features on the homepage. There will just be like a little box that says "Hey...!", and that links to their blog, and has whatever the new feature is. Draft PRs, or whatever. But I saw a tweet, and I'm like "Man, they never pre-announce an announcement like this", so... I was pretty excited to tune in, and I watched the live stream and was excited about it.
+**Nick Nisi:** \[04:11\] I saw a tweet about it 2-3 days before, and I thought it was very strange, because usually I find out about new GitHub features on the homepage. There will just be like a little box that says "Hey...!", and that links to their blog, and has whatever the new feature is. Draft PRs, or whatever. But I saw a tweet, and I'm like "Man, they never pre-announce an announcement like this", so... I was pretty excited to tune in, and I watched the live stream and was excited about it.
 
 **Jerod Santo:** I was there long enough to get the gist of the announcement, and then -- it was Friday afternoon, I had other more relaxing things to be doing... So tell us about the stream itself, Nick. I know that Nat Friedman was up there, they brought up some demos... What was the overall feeling of that presentation?
 
@@ -68,7 +68,7 @@ So it's just a strange thing... Maybe they're trying to fly under the radar. It'
 
 **Kevin Ball:** Yeah, so there's two areas of this that I think are super-interesting, where GitHub can really make a difference relative to the status quo. One is I think this makes it far easier to set up internal package registries, to share code inside of an organization... Because you don't have to figure out anything new, you don't have to set up your own server to manage it, you don't have to do any of that. You just use the tools you're already using, and you can make internal packages and set up an internal registry. So I think the organizational case for that is really interesting.
 
-\[00:07:25.29\] The second piece that I think is a very interesting possibility, that we'll see if we can get to, is this potentially allows for end-to-end verification of "Is the code that is in a repository that's visible to the world - the code repository, the open source code, is that what is actually being used to generate the package?" Because we ran into situations like the event-stream hack, where there was discrepancy. People were obfuscating what's easily visible to the world, versus what's actually getting pushed into the registry. And there's obviously some complications here. Almost nobody is shipping raw code, at least in the JavaScript code; you're probably transpiling it, you're bundling it, you're doing whatever... Though actually in things like Ruby and Python and other languages that might be less true.
+\[07:25\] The second piece that I think is a very interesting possibility, that we'll see if we can get to, is this potentially allows for end-to-end verification of "Is the code that is in a repository that's visible to the world - the code repository, the open source code, is that what is actually being used to generate the package?" Because we ran into situations like the event-stream hack, where there was discrepancy. People were obfuscating what's easily visible to the world, versus what's actually getting pushed into the registry. And there's obviously some complications here. Almost nobody is shipping raw code, at least in the JavaScript code; you're probably transpiling it, you're bundling it, you're doing whatever... Though actually in things like Ruby and Python and other languages that might be less true.
 
 But what this enables is at least the potential to do end-to-end validation of "Is the code I'm looking at as an open source developer reviewing this actually what's getting installed in my system?"
 
@@ -92,7 +92,7 @@ But what this enables is at least the potential to do end-to-end validation of "
 
 **Divya Sasidharan:** Exactly, and it's really frustrating... But yeah, so hopefully this will be much nicer, a better workflow. And like you're saying, Nick, with the GitHub Actions - I think that'll be really neat as well, because I find in general whenever I publish a package, I would have to use the Npm CLI, and then... It's basically like two different things I'm doing. I'd be like "Push to GitHub", and then from GitHub I have to version it, and then I have to be like "Okay, let me go publish it on Npm", and then figure out what's happening. I've messed it up a couple of times. I'm like "Wait, let me roll back! Roll back!" \[laughter\]
 
-**Kevin Ball:** \[00:11:52.09\] I have a couple questions on this, that are perhaps less sunny... One question is -- one of the really nice things about some of the language-specific registries right now is you don't have to ask about "Where do I load things from?" I'm not much of a sysadmin person, but I know every time I have to muck with Linux and Ubuntu or whatever, I'm like "Shoot! Where do I load these packages from? Some of them are in the default registry; do I have to add registries? Do I have to do this, do I have to do that...?" It's much more of a headache than with Python or Ruby or JavaScript, where I'm just like "Okay, there is one registry, I'm gonna install from there, and I'm good." So that's one area where I'm wondering, "Is this a step towards fragmentation in these language ecosystems?"
+**Kevin Ball:** \[11:52\] I have a couple questions on this, that are perhaps less sunny... One question is -- one of the really nice things about some of the language-specific registries right now is you don't have to ask about "Where do I load things from?" I'm not much of a sysadmin person, but I know every time I have to muck with Linux and Ubuntu or whatever, I'm like "Shoot! Where do I load these packages from? Some of them are in the default registry; do I have to add registries? Do I have to do this, do I have to do that...?" It's much more of a headache than with Python or Ruby or JavaScript, where I'm just like "Okay, there is one registry, I'm gonna install from there, and I'm good." So that's one area where I'm wondering, "Is this a step towards fragmentation in these language ecosystems?"
 
 And then the second one, which is almost the inverse problem, is --
 
@@ -122,7 +122,7 @@ Let's talk about it specifically inside the JavaScript, the front-end space - Np
 
 **Kevin Ball:** Yeah, if we look at what is their pitch at Npm for enterprise package, they have enterprise-grade JavaScript, whatever that means, but then they also say "Do you duplicate development, so manage your internal stuff in the same way you manage your open source stuff?" And then there's team management, which we also are already doing on GitHub... The only thing they have on here that I'm not sure is definitely addressed is this security expertise piece... But yeah, I think most of the value-adds that Npm enterprise have are very much challenged by this.
 
-**Jerod Santo:** \[00:15:56.18\] Yeah. I just wanna comment on that enterprise-grade JavaScript; it makes me think of -- have you guys ever seen the enterprise version of FizzBuzz, that made the rounds a couple years ago? So funny! It was like this Java class that does FizzBuzz, the programming quiz, in the most enterprisy way possible. I'll try to find the code and put it in the show notes. It's spectacular. But that's what I think of enterprise-grade JavaScript -- it's like, "Are you writing the JavaScript for us, or...? How is it enterprise-grade? Is my code magically better because I'm using you as a enterprise provider?"
+**Jerod Santo:** \[15:56\] Yeah. I just wanna comment on that enterprise-grade JavaScript; it makes me think of -- have you guys ever seen the enterprise version of FizzBuzz, that made the rounds a couple years ago? So funny! It was like this Java class that does FizzBuzz, the programming quiz, in the most enterprisy way possible. I'll try to find the code and put it in the show notes. It's spectacular. But that's what I think of enterprise-grade JavaScript -- it's like, "Are you writing the JavaScript for us, or...? How is it enterprise-grade? Is my code magically better because I'm using you as a enterprise provider?"
 
 **Kevin Ball:** I mean there is also a sort of de-risking component here... Because I don't know if I'm -- I'm probably not the only one who's watched all the Npm-related drama on Twitter going down over the last few months...
 
@@ -158,7 +158,7 @@ Running a company is bloody hard, and without knowing the background, I don't wa
 
 **Jerod Santo:** That is funny.
 
-**Kevin Ball:** \[00:20:24.08\] I really want to like GitLab, and every time that I've tried their UI, I'm like "This is so much worse than GitHub."
+**Kevin Ball:** \[20:24\] I really want to like GitLab, and every time that I've tried their UI, I'm like "This is so much worse than GitHub."
 
 **Divya Sasidharan:** Yeah.
 
@@ -180,7 +180,7 @@ Running a company is bloody hard, and without knowing the background, I don't wa
 
 **Jerod Santo:** Two last points that that makes me think of. The first one is that Microsoft -- you just named Microsoft and said that only one has a bad reputation with developers, and that it wasn't Microsoft, it was Facebook. And it's true. Microsoft has been on a very intentional (I don't know) five or six-year process of mending their relationship with the software developers that weren't always inside of the Microsoft Windows camp. And they've done a heck of a job at it. It's evidenced by everybody using VS Code, like Divya is saying; everybody is using GitHub and loving GitHub, and Microsoft owns that, and it hasn't been bad for us yet... So it's just interesting how successful they've been at changing their reputation, because public opinions are a very hard thing to sway.
 
-\[00:23:56.12\] The second thought I had is there's an adage, mostly about robotics and automation, and AI and whatnot, about Amazon - in the next ten years you will be either working for Amazon, or they will put you completely out of business. That's the path that Amazon is on, just in the more mainstream space. So in a lot of ways maybe in the software space, set aside AWS, Microsoft might be on that path where they might be the player when it comes to developer tools over the next 5-10 years.
+\[23:56\] The second thought I had is there's an adage, mostly about robotics and automation, and AI and whatnot, about Amazon - in the next ten years you will be either working for Amazon, or they will put you completely out of business. That's the path that Amazon is on, just in the more mainstream space. So in a lot of ways maybe in the software space, set aside AWS, Microsoft might be on that path where they might be the player when it comes to developer tools over the next 5-10 years.
 
 **Divya Sasidharan:** Yeah. I think it's only in the recent few years where I've heard people say they would want to work for Microsoft... \[laughs\] I have not heard that in a really long time. And now there are lots of developers, very talented developers who are like "If Microsoft gave me a job, I would take it."
 
@@ -208,7 +208,7 @@ Running a company is bloody hard, and without knowing the background, I don't wa
 
 **Kevin Ball:** This is a one-hit-wonder Twitter account.
 
-**Break:** \[00:26:00.25\]
+**Break:** \[26:00\]
 
 **Jerod Santo:** Alright, next up we turn our focus to JavaScript trends. The fine folks at CBCompiler have an interesting research and analysis they did; they call it "Game of Frameworks: JavaScript Trends of 2019", wherein they went out and surveyed -- I think it was 300 different job postings in April, from around AngelList, Stack Overflow, LinkedIn etc, and they compiled them down to find out what companies are posting about which skills specifically inside the JavaScript space companies are looking for, and they produced a nice chart. We will link all that in the show notes if you wanna look at that chart.
 
@@ -216,7 +216,7 @@ I'll tell you right now that React is numero uno, so it wins the Game of Framewo
 
 **Divya Sasidharan:** Yeah, I think they call this skills...
 
-**Kevin Ball:** \[00:27:55.10\] This is skills, not frameworks...
+**Kevin Ball:** \[27:55\] This is skills, not frameworks...
 
 **Jerod Santo:** I know, but it was called "Game of Frameworks." I know it's a Game of Thrones reference, but it's like, where are the frameworks? Anyways. I'm nit-picking at this point.
 
@@ -280,7 +280,7 @@ I'll tell you right now that React is numero uno, so it wins the Game of Framewo
 
 **Kevin Ball:** So let's step back a little bit from making fun of these folks, because -- I mean, I think there are things to make fun of, but it's actually a really hard problem if you're cross-cutting, which I think they are (it's across industries), to look at what are people putting in resumes and use that to derive something interesting. That's a very hard problem. But what do we think this indicates about finding a job right now, in tech, doing JavaScript? Are there insights that we can draw from this with our additional industry context?
 
-**Divya Sasidharan:** \[00:31:53.29\] I think the expectation is much higher. So like, yes, you should know JavaScript, but there's also this expectation that you also know all these frameworks, you know TypeScript, or you've worked with webpack... So for someone who might be newer, or who has just started picking up skills, it's really overwhelming. And I've talked to a lot of people who have gone through bootcamps, or are fresh out of school, and they're like "What should I focus on?" Usually, my answer is just like "Just get really good at JavaScript, or whatever it is you want to do..." Because I think the flavors come and go. There's a lot of frameworks that come in; React is popular now, but who knows what will happen in five years... So like you're saying, Nick, just a solid understanding of one thing, and then working your way through... But I find a lot of job descriptions tend to just give you the laundry list of everything, and that's really hard for someone who's looking for a job, to be like "Wait, I only have one of this, or two", out of twenty.
+**Divya Sasidharan:** \[31:53\] I think the expectation is much higher. So like, yes, you should know JavaScript, but there's also this expectation that you also know all these frameworks, you know TypeScript, or you've worked with webpack... So for someone who might be newer, or who has just started picking up skills, it's really overwhelming. And I've talked to a lot of people who have gone through bootcamps, or are fresh out of school, and they're like "What should I focus on?" Usually, my answer is just like "Just get really good at JavaScript, or whatever it is you want to do..." Because I think the flavors come and go. There's a lot of frameworks that come in; React is popular now, but who knows what will happen in five years... So like you're saying, Nick, just a solid understanding of one thing, and then working your way through... But I find a lot of job descriptions tend to just give you the laundry list of everything, and that's really hard for someone who's looking for a job, to be like "Wait, I only have one of this, or two", out of twenty.
 
 **Nick Nisi:** Yeah, for sure. I think that if you have a good, firm understanding of the fundamentals, you can really jump in and pick up Vue, or React, or anything, pretty quickly. It's just JavaScript.
 
@@ -298,7 +298,7 @@ So your focus should be figuring out how to go deep. Pick one specialty, go deep
 
 **Divya Sasidharan:** Vue is still cool.
 
-**Jerod Santo:** \[00:35:59.09\] It's still cool. \[laughs\] So Rich Howell in the chat is also a Vue developer, and is currently applying for work, and can confirm that it's pretty low on people's list. He says thankfully, his Vue experience transfers over to React pretty well. So that's one thing that you'll find over time, is a lot of the skills from all these things transfer over. There are some -- if you're deep into Angular and you know the bugs, the workarounds for the bugs, that skill will not translate. Maybe your process of finding those workarounds absolutely will, but you know how exactly to interact with this API because you've gotten that deep into it - that itself probably won't transfer over to another one, because they're not gonna have that bug. They're not gonna have that specific API. That being said, the general themes and architectural things in a lot of these frameworks will transfer over.
+**Jerod Santo:** \[35:59\] It's still cool. \[laughs\] So Rich Howell in the chat is also a Vue developer, and is currently applying for work, and can confirm that it's pretty low on people's list. He says thankfully, his Vue experience transfers over to React pretty well. So that's one thing that you'll find over time, is a lot of the skills from all these things transfer over. There are some -- if you're deep into Angular and you know the bugs, the workarounds for the bugs, that skill will not translate. Maybe your process of finding those workarounds absolutely will, but you know how exactly to interact with this API because you've gotten that deep into it - that itself probably won't transfer over to another one, because they're not gonna have that bug. They're not gonna have that specific API. That being said, the general themes and architectural things in a lot of these frameworks will transfer over.
 
 I think a lot of what happens with people is they just get analysis paralysis, and they're just like "What do I pick? What do I do? I've spent most of my time reading articles like this, of which one, because it's such a huge decision." And I guess my point here is just realize it's not that huge of a decision, and maybe just optimize for something like this - "Most jobs here... I'm just gonna learn that one and go from there."
 
@@ -318,7 +318,7 @@ Also, I think I posted in the chat, but have you seen that tweet that Emma tweet
 
 **Jerod Santo:** No.
 
-**Divya Sasidharan:** \[00:40:06.12\] She was trying to immortalize the different technologies, and I thought it was really funny... And CSS is like flaky, unpredictable one. \[laughs\] It's so funny...
+**Divya Sasidharan:** \[40:06\] She was trying to immortalize the different technologies, and I thought it was really funny... And CSS is like flaky, unpredictable one. \[laughs\] It's so funny...
 
 **Jerod Santo:** That is funny. We'll have to include that one in the notes as well. One other thing that I noticed in here - and then I wanna kick it over to maybe Nick to talk about back-end too, because Node is popular... But inside of Node, what do you learn, what do you dive into there, if you're thinking more back-end JavaScript, is that there are a lot of things on this list - I'm not sure how long this list is; maybe 20 items, but I didn't count them and they aren't numbered... But there are lots, like four at least that I'm just staring at, that have specifically to do with testing. Unit testing is one, Mocha another one (obviously, a very specific testing library), continuous integration, which you can't really use without tests; Jest, TDD... These are things in here. So in terms of big trends, especially in the dynamic language space -- now, TypeScript is in there as well, which might mitigate some of the tests that you have to write; and Nick can probably gush on that in a minute, but... Learn how to write automated tests for code, because yes, the specifics of the way you do it in this language, how do you mock in this language versus that etc. may not transfer over, but the skill of being able to write a test, to fully exercise a piece of code, you'll use for the rest of your career. So absolutely, that is something that is trending, and will continue to trend until we have machines that write all our tests for us. But then who's gonna test the machines...?
 
@@ -340,7 +340,7 @@ What about the back-end, guys?
 
 **Kevin Ball:** I think one thing that is tricky both on the front-end and on the back-end, and I think judging from what I've seen is something that you start to really wrap your head around a little later in the game - certainly a year or two at least into your career, if you're coming from bootcamp, and we have focused very much on early-career folks for this conversation... This is data manipulation and data management. How do I think about taking data, transforming it, using it in different ways, whether that's on the back-end, saying "What are the data stores that I'm working with and how do I normalize my data?", or on the front-end, saying "Okay, I'm loading this data from APIs, but it may not be exactly what I need for my UI, unless I'm using GraphQL, or if I am using GraphQL, thinking about how do I generate those queries?"
 
-\[00:44:01.20\] That way that data flows through systems, and you can manipulate it, and thinking about things like transformations, and mapping, and all that stuff - that seems to be something that is a little harder for folks to pick than the kind of first UI logic, or in the back-end, sort of first logic around "Okay, I'm setting up these routes, and this type of thing", but really starts to be important as you go forward. That seems like you're just thinking about data and how data flows through an application is something that -- it's not really well-captured in one particular tool here, but definitely is something that I've seen folks struggle with, and that is really important as you start to move from entry-level to a little bit more senior.
+\[44:01\] That way that data flows through systems, and you can manipulate it, and thinking about things like transformations, and mapping, and all that stuff - that seems to be something that is a little harder for folks to pick than the kind of first UI logic, or in the back-end, sort of first logic around "Okay, I'm setting up these routes, and this type of thing", but really starts to be important as you go forward. That seems like you're just thinking about data and how data flows through an application is something that -- it's not really well-captured in one particular tool here, but definitely is something that I've seen folks struggle with, and that is really important as you start to move from entry-level to a little bit more senior.
 
 **Nick Nisi:** For sure.
 
@@ -392,7 +392,7 @@ What about the back-end, guys?
 
 **Kevin Ball:** If you choose to climb that ladder, it does open up a lot of really interesting things. I definitely have been called in more than once to recover, like "Oh my god, I feel like I lost my code", or "Oh, what happened here?" Just understanding how Git works, even if you don't necessarily know all of the different commands, but if you're willing to put in the work to build that mental model of like "What actually is happening, and where are these things, and what are the many ways that I can find and get to them?", it does have benefits that flow out.
 
-**Divya Sasidharan:** \[00:48:03.10\] I think also when you're starting to have arguments around whether you should squash your commits or do a merge is when you're like "Okay, I think I've leveled up my Git skills...", to a point where you can have an opinion on one versus the other.
+**Divya Sasidharan:** \[48:03\] I think also when you're starting to have arguments around whether you should squash your commits or do a merge is when you're like "Okay, I think I've leveled up my Git skills...", to a point where you can have an opinion on one versus the other.
 
 **Jerod Santo:** Even if you're Nick and you have the wrong opinion... \[laughter\[
 
@@ -428,7 +428,7 @@ What about the back-end, guys?
 
 **Jerod Santo:** We've just found our next segment idea. \[laughter\]
 
-**Break:** \[00:49:34.10\]
+**Break:** \[49:34\]
 
 **Jerod Santo:** Okay, folks, one of our favorite segments is shout-outs. This is a great opportunity for us to shout-out and thank or give props to a person, people, a project - anything really, that we think deserves some shout-outs and maybe hasn't got them, maybe has, but we all like to take a turn. Let's start off with Kball... Give us your shout-outs.
 
@@ -436,7 +436,7 @@ What about the back-end, guys?
 
 Three particular people and instances I'm gonna shout out. First, there was a recent article on Smashing Magazine by Stefan Kaltenegger; I probably butchered his name... But he did this article on essentially how you can work to bridge the gap between designers and developers, and it's just kind of a nice walkthrough of things that you can do as a developer and as a designer - I think more focused on the developer - to help bridge that gap. It also referenced out to a cool resource that I hadn't seen before called "Can't unsee", which gives you practice developing your design eye. So that's one of the three people I'm gonna shout-out on this subject.
 
-\[00:52:09.02\] The next one is Ryan Singer, who wrote an article on the Signal vs. Noise blog recently about the place of UX, and looking at alternative ways of thinking about user experience as essentially being the boundary between any two things that are supply and demand. One, he was talking about - okay, between the user and the product, that's where we usually think about it, but actually this concept of design is really important at every place where you have interactions between different groups. I think that was really cool.
+\[52:09\] The next one is Ryan Singer, who wrote an article on the Signal vs. Noise blog recently about the place of UX, and looking at alternative ways of thinking about user experience as essentially being the boundary between any two things that are supply and demand. One, he was talking about - okay, between the user and the product, that's where we usually think about it, but actually this concept of design is really important at every place where you have interactions between different groups. I think that was really cool.
 
 And then the final shout-out I'm gonna do is for a conference that my friend Dylan Schiemann is involved with organizing. Conference organizers in general deserve shout-outs, but this one in particular is a conference called Halfstack, which is focused on UI-centric front-end development. They are expanding from being only in London, to having events in Vienna, New York, and Phoenix, and various other things.
 
@@ -480,7 +480,7 @@ Most of the time you look at a framework, and you look at the documentation, and
 
 And then the last thing - I really like shaders, just for fun. They don't really do anything for me in terms of getting me money, or a job...
 
-**Jerod Santo:** \[00:56:45.24\] \[laughs\] They're doing something...
+**Jerod Santo:** \[56:45\] \[laughs\] They're doing something...
 
 **Divya Sasidharan:** I get excited about them because I think they're really cool, and interesting, and totally different. I also like thinking and doing things outside of what I normally do - it's always nice to switch gears - so sometimes in my free time I work on WebGL, and GLSL, which is like the shader language for the web... Super-cool. And there's a library that I recently discovered called Blotter.js, which is a JavaScript API for drawing text effects... And it's so cool! It's done by someone at this hacker school that I went to, called Recurse Center... Also a shout-out, because Recurse Center is awesome. If you've never heard of it, it's like a retreat for developers, so if you're just trying to find your groove, you need to be around other people who are working on \[unintelligible 00:57:39.25\] and the idea is that you can work on a week, or a month -- no, actually it's a week, three months, or... I forget the timespan. I did it for a week. So it's very low stakes; you can just take a week off of work and go there. You get to work on a project that you're really interested in.
 

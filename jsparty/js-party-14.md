@@ -42,7 +42,7 @@ We have some other things like WHATWG URL implementation; it's not officially su
 
 **James Snell:** N-API - the whole purpose of it is to allow native add-on developers to write to an API that is going to remain stable, that is guaranteed to remain stable across Node versions.
 
-\[00:03:58.03\] Previously, if you were writing a native add-on, you were writing to the V8 API, so you were writing to the native abstractions for Node, the nan tool. The problem with those is that every time V8 changes its API, you end up having to recompile. Every time you install a new version of Node - a new major version - you end up having to recompile.
+\[03:58\] Previously, if you were writing a native add-on, you were writing to the V8 API, so you were writing to the native abstractions for Node, the nan tool. The problem with those is that every time V8 changes its API, you end up having to recompile. Every time you install a new version of Node - a new major version - you end up having to recompile.
 
 The new N-API is really designed to make it so that a native add-on can be written once and used across multiple versions of Node without recompiling on a single system. It's even possible to write a module that works both against the V8 version of Node and the Chakra Core version of Node... So not just different versions of the V8 engine, but a completely different engine altogether.
 
@@ -68,7 +68,7 @@ I think as we go down this path - it's still very early - it will make things li
 
 **James Snell:** Yeah, anything that takes the error first and then some set of arguments afterwards - it will take that and automatically wrap it in a function that is Promise-enabled. If you do util.promisify() fs.readFile, then you'll get a Promise back -- a function that returns a Promise back that you can use with async/Await and that kind of thing.
 
-\[00:08:00.04\] It works probably for 80%-90% of the functions, the callback-receiving functions in Node. For the ones that don't quite fit the pattern, like fs.exists, for instance, that doesn't have that error-first pattern, there is a way of customizing the source function, so that you can customize the way that that Promise is made, so that it'll still work. We are going through a number of different functions within core and adding this customization. Right now there's a couple that don't quite work, and we're working on fixing those. But it's also something that any other module that wants to use util.promisify(), they should be able to do the exact same thing. It's pretty exciting.
+\[08:00\] It works probably for 80%-90% of the functions, the callback-receiving functions in Node. For the ones that don't quite fit the pattern, like fs.exists, for instance, that doesn't have that error-first pattern, there is a way of customizing the source function, so that you can customize the way that that Promise is made, so that it'll still work. We are going through a number of different functions within core and adding this customization. Right now there's a couple that don't quite work, and we're working on fixing those. But it's also something that any other module that wants to use util.promisify(), they should be able to do the exact same thing. It's pretty exciting.
 
 The other thing we did with Promises is we made it so that for a native Promise it is now domain-aware. The domains module has been deprecated for a while, but it's still used; there's still lots of people that use it. Now inside your cache you can actually access the current domain; it's relatively minor, but it is important.
 
@@ -84,7 +84,7 @@ So it's really difficult to figure those things out and see what we need to do t
 
 **James Snell:** Okay, so right now what's inside V8 - you have the compiler, and you optimize with the compiler: it takes the JavaScript and compiles it down to bytecode, optimizes it and does a number of tricks to make it faster. The TurboFan+Ignition is just a new compiler and a new optimizer inside V8, and for most people, whether you're using the old Crankshaft stuff or the news stuff, there's just not gonna be any impact, you're not gonna see any difference. But the new compiler and optimizer is really geared towards optimizing the new language features, so things like class, or spread arguments, or any of the new language features. Crankshaft - which was the old optimizer - just wasn't set up to handle these new language features very well at all. The new toolchain will make it so that those things can actually perform decently going forward. For most people, they won't see a difference.
 
-\[00:11:45.27\] The code that is going to see a significant difference is code that has been highly, highly optimized to take advantage of quirks in the old Crankshaft optimizer. We have some examples of this in Node core itself, where we actually will unroll for loops in order to make it faster. What that means is instead of just going through the entire loop every time, we'll see "Does this thing only have one item or two items or three items?" and we will special-case handling those, and then loop only if none of the other more optimized cases apply. Under Crankshaft it ends up being significantly faster.
+\[11:45\] The code that is going to see a significant difference is code that has been highly, highly optimized to take advantage of quirks in the old Crankshaft optimizer. We have some examples of this in Node core itself, where we actually will unroll for loops in order to make it faster. What that means is instead of just going through the entire loop every time, we'll see "Does this thing only have one item or two items or three items?" and we will special-case handling those, and then loop only if none of the other more optimized cases apply. Under Crankshaft it ends up being significantly faster.
 
 Code that is highly optimized for Crankshaft could actually end up running slower under TurboFan, because a lot of those optimization tricks are not longer there or are being done a completely different way.
 
@@ -116,7 +116,7 @@ Once we make that change, we'll be handling error message changes as semver mino
 
 **Alex Sexton:** I find that I can't think of a project or a company that I've been at that didn't eventually hit that point where it's like "Maybe we should stop allowing users to rely on regex to know what went wrong in the application, and give them some solid code." It also matters a lot for internationalization whenever you want errors in other languages and stuff, so... Good work.
 
-**James Snell:** \[00:16:13.07\] Yeah, like I said, there's over 150 of these here, so...
+**James Snell:** \[16:13\] Yeah, like I said, there's over 150 of these here, so...
 
 **Alex Sexton:** If you're more like my end and doing less -- I mean, I do plain Node applications, but if you're more of a web developer and you use it as a build chain, are you gonna notice speed improvements, are you gonna notice nothing? Is there something that sticks out, like a less server-y person might recognize if they just upgrade?
 
@@ -142,13 +142,13 @@ If you look at version 7, it's not an LTS version - it's newer than 6, it had as
 
 **James Snell:** That's gonna be in October... Then is when the downloads for 8 will really start to take off and it will become the predominant version.
 
-**Mikeal Rogers:** \[00:19:55.25\] I was looking at these graphs the other day actually, and one of the really nice things about them is that really old versions of Node are going away quicker. There's a floor that you can't kind of go below because a bunch of CI just tests against older versions, but we can be fairly confident that people aren't really relying on them very much anymore. Downloads really floored out for 0.10 and 0.12, and they've even come down quite a bit for version 4.
+**Mikeal Rogers:** \[19:55\] I was looking at these graphs the other day actually, and one of the really nice things about them is that really old versions of Node are going away quicker. There's a floor that you can't kind of go below because a bunch of CI just tests against older versions, but we can be fairly confident that people aren't really relying on them very much anymore. Downloads really floored out for 0.10 and 0.12, and they've even come down quite a bit for version 4.
 
 We were comparing the numbers earlier, that 100k mark... When we do releases of 6, they peak out at around 800k in a day. So already on day 1 you're at an eighth of the market share for the last LTS line. Then by the time that we hit that six-month mark, it is a big shift.
 
 Alright, I think that that covers Node 8. We're gonna take a quick break, and when we come back we're gonna talk a little bit about edumacation. Stick around.
 
-**Break**: \[00:21:05.01\]
+**Break**: \[21:05\]
 
 **Mikeal Rogers:** Let's get into this Glit \[laughter\] -- Glitch "raise your hand" feature...
 
@@ -162,7 +162,7 @@ Glitch really wants to lower the barrier for entry, and building things on the w
 
 Then anyone who wants to help people who are learning and working on projects on Glitch can go and see who's asking for help. When you respond to someone in need, it'll ask that person to give you access to their project, and then you can get in and start coding with them.
 
-**Alex Sexton:** \[00:24:03.10\] I would like to request from the community that someone make a Chrome plugin that switches the "raise your hand" to a David S. Pumpkins icon -- I don't know if you guys watch this or not, but... \[laughter\] "Any questionsss...?" \[laughter\] Really solid.
+**Alex Sexton:** \[24:03\] I would like to request from the community that someone make a Chrome plugin that switches the "raise your hand" to a David S. Pumpkins icon -- I don't know if you guys watch this or not, but... \[laughter\] "Any questionsss...?" \[laughter\] Really solid.
 
 **Mikeal Rogers:** Tom Hanks will send us a cease and desist on that one. \[laughter\]
 
@@ -186,7 +186,7 @@ When you're doing Git-it, you get to the point where you add a collaborator to y
 
 Then at the end of it all you make a pull request and RepoRobot is merging all the pull requests. So it's going through and it's like sort of reviewing the pull request, because after a certain amount of time, errors became common - or mistakes people were making became common. So the top three or four most common mistakes RepoRobot's also looking out for, and will leave a comment on your pull request, telling you that "This thing was wrong. Here's what you can do to fix it." Then, if your pull request is great, it merges the pull request and then it rebuilds this page that has a list of everybody's names on it that have done it, which is like 13,000+ now... Which is awesome, but also -- I'm using free services as much as I can on this, and right now I have this problem where GitHub notifies you via email if you've been added to a project, and then you have to accept that invitation. So I'm using this third-party email service, but I'm using their free tier and right now too many people are doing Git-it, and I'm blowing through the email tier... So I have to fix this.
 
-**Mikeal Rogers:** \[00:28:03.05\] Oh, man... The problems with success... I think this is all really interesting, because it seems like in a programming community - and especially in the web community - we keep coming up with these really interesting modes of education where we actually have like intervention and hand raising and a lot of follow through... And I feel like every other week I see a new e-learning platform that's just like a bunch of videos of lectures from people that you never see \[laughs\] And it's like "I don't think that people can really learn this way."
+**Mikeal Rogers:** \[28:03\] Oh, man... The problems with success... I think this is all really interesting, because it seems like in a programming community - and especially in the web community - we keep coming up with these really interesting modes of education where we actually have like intervention and hand raising and a lot of follow through... And I feel like every other week I see a new e-learning platform that's just like a bunch of videos of lectures from people that you never see \[laughs\] And it's like "I don't think that people can really learn this way."
 
 **Jessica Lord:** Yeah, I really love about Glitch that -- you know, I feel like so much of our lives are spent talking about developer tools every day, and every new, hot developer tool and framework, but Glitch is actually trying to build tools to help people BECOME developers and think of new ways to do that. That's so awesome and refreshing, I think...
 
@@ -206,7 +206,7 @@ It's become so complicated, and I feel like it's something that we all take mayb
 
 The fact that, as a company who can choose from a large pool of very talented developers who exist, and like it's still necessary at that level to provide environments and tooling and scripts and all these different things in order to help people be successful... If you take out the fact that they've had years of experience on doing this type of thing, and then you put yourself in the shoes of someone who's brand new, especially the -- if you remember my story from last week (I know everyone doesn't listen week-to-week or pay attention to what I say specifically), whenever I was first getting started, I needed a database; I didn't know how to search for a database, but even once I found a thing that wasn't a database but I thought it might be, I ran it locally on my computer because I had no idea how it worked. So I was running Cold Fusion on my dad's Windows XP box and I didn't understand why the website went down whenever I turned it off. \[laughter\]
 
-\[00:31:59.02\] I think as much infrastructure as can be automatic is super interesting to me for that reason. And it's really hard once you know things to know what you didn't know in the past, and I think that's why -- like, I want all this stuff to exist, but I think that the absolute most important thing here is that we measure people's ability to use this stuff and how much it helps them, compared to not having it, and just tweak the hell out of it until people can be successful more quickly. I think it's an awesome start.
+\[31:59\] I think as much infrastructure as can be automatic is super interesting to me for that reason. And it's really hard once you know things to know what you didn't know in the past, and I think that's why -- like, I want all this stuff to exist, but I think that the absolute most important thing here is that we measure people's ability to use this stuff and how much it helps them, compared to not having it, and just tweak the hell out of it until people can be successful more quickly. I think it's an awesome start.
 
 **Mikeal Rogers:** I find it kind of hilarious that one of the bigger arguments for "frameworks are easier for new people" is that they're not confronted with a bunch of choices, right? Like, they don't have to go out and find every little module to do every little thing. But before you use these frameworks that have this dev environment, there's like a ton of choices they haven't streamlined for you, that you don't know how to make... It's nice that Glitch has taken that out of the way.
 
@@ -214,7 +214,7 @@ The fact that, as a company who can choose from a large pool of very talented de
 
 **Mikeal Rogers:** Yeah, that makes a lot of sense. I think this is a good spot for a break. When we come back, we'll talk a bit about Tad, and we'll get into our projects of the week. Stick around!
 
-**Break:** \[00:34:15.17\]
+**Break:** \[34:15\]
 
 **Mikeal Rogers:** The project of the week this week is Tad. Tad is a little Electron app for dealing with CSV files and tabular data and stuff like that. It's pretty cool! Has anybody had a change to check this out?
 
@@ -226,7 +226,7 @@ The fact that, as a company who can choose from a large pool of very talented de
 
 **Mikeal Rogers:** Yeah, I just love that Electron is letting us build tiny apps, like just apps that do a thing... This isn't like a full spreadsheet app, with macros and all of that. For a long time, if you wanted to do something simple with tabular data, that was basically what you had to use. And so often, I just want something much simpler that can visualize and maybe do small manipulations or analysis... This is just awesome.
 
-**Alex Sexton:** \[00:36:17.10\] Have you guys heard of -- what is it called... Google Docs? \[laughter\]
+**Alex Sexton:** \[36:17\] Have you guys heard of -- what is it called... Google Docs? \[laughter\]
 
 **Mikeal Rogers:** Also, a little heavyweight, a little heavy...
 
@@ -306,7 +306,7 @@ The fact that, as a company who can choose from a large pool of very talented de
 
 **Alex Sexton:** Uhm... Nope. Let's take a small break.
 
-**Mikeal Rogers:** \[00:39:56.01\] \[laughs\] No, we don't need a break. So I have mine ready... Yeah, I let everybody know on the internets that I'm gonna be leaving the Node.js Foundation; there's a little blog post about it, and stuff like that. But yeah, after a few years of leading the foundation since we've started it, I'm gonna take off and do something else... I haven't decided what else yet, but I definitely need a short break from Node.js directly... It should be fun, whatever I end up doing.
+**Mikeal Rogers:** \[39:56\] \[laughs\] No, we don't need a break. So I have mine ready... Yeah, I let everybody know on the internets that I'm gonna be leaving the Node.js Foundation; there's a little blog post about it, and stuff like that. But yeah, after a few years of leading the foundation since we've started it, I'm gonna take off and do something else... I haven't decided what else yet, but I definitely need a short break from Node.js directly... It should be fun, whatever I end up doing.
 
 And the project is in very good hands... Everything is very, very good. It's a very positive thing. But yeah, I just want everybody to know that I'm gonna be unemployed, and...
 
@@ -342,7 +342,7 @@ And the project is in very good hands... Everything is very, very good. It's a v
 
 **Alex Sexton:** So maybe I'll do some shameless self-promotion... My pick this is -- Stripe put out some new products this past week. I think Stripe Connect has a new version, and then also something -- I'm trying to remember the non-internal name... Stripe Sigma. You can go look at what those are, but very specifically I'm talking about the landing pages for those. Those are my picks this week. The designers at Stripe are very good and they work on these, so if you check out Stripe.com/connect and Stripe.com/sigma...
 
-\[00:43:06.29\] The Sigma page might as well be like a 3D C JavaScript that -- I don't know, it's really nifty. And then the other one uses some -- my very specific thing that I like about it is that it uses CSS Grid, which is kind of like a slightly useable thing on desktop modern browsers now - it's something we've talked about in a previous episode - even though it might not work everywhere... But I always assumed Grid was like a layout mechanism, like "Here are some columns" type thing, or "Here are the sections of the website for content", so it kind of surprised me to see... We these skewed stripes in the background; they used to be really hard to put together - you had to do images or do these different things, and with Grid it just works perfectly.
+\[43:06\] The Sigma page might as well be like a 3D C JavaScript that -- I don't know, it's really nifty. And then the other one uses some -- my very specific thing that I like about it is that it uses CSS Grid, which is kind of like a slightly useable thing on desktop modern browsers now - it's something we've talked about in a previous episode - even though it might not work everywhere... But I always assumed Grid was like a layout mechanism, like "Here are some columns" type thing, or "Here are the sections of the website for content", so it kind of surprised me to see... We these skewed stripes in the background; they used to be really hard to put together - you had to do images or do these different things, and with Grid it just works perfectly.
 
 So this is like a little section with the class name of Stripe, so open up your console and go to the Stripe.com/Connect and look at the Stripe section for a beautiful designer usage of the CSS Grid. That's my pick for the week. That 10 lines of HTML and CSS. \[laughter\]
 
@@ -356,4 +356,4 @@ It's cool though, right? I'm always so excited when Stripe launches a new produc
 
 **Adam Stacoviak:** I don't see why they wouldn't...
 
-**Break:** \[00:45:09.12\]
+**Break:** \[45:09\]

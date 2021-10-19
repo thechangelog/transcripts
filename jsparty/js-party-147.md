@@ -426,7 +426,7 @@
 
 **Jerod Santo:** The Hypertext Assassins have won both the first two rounds, and they have currently 106 points. Team Kball sitting at zero.
 
-**Break:** \[00:16:41.01\]
+**Break:** \[16:41\]
 
 **Jerod Santo:** Let's move now to round three. We're gonna call up Nick and Mikeal. Are you guys ready?
 
@@ -806,7 +806,7 @@
 
 **Emma Bostian:** That's the best part about this game. This game - you can get whatever answers people dream up.
 
-**Break:** \[00:29:57.06\]
+**Break:** \[29:57\]
 
 **Jerod Santo:** Okay, so after the regular rounds -- team Kball wins that round, but there's only a few points. It totals up to 62 points. And team Emma has 106 points. So team Emma wins, and now we move on to our Fast Money round. Emma, the three of you can decide which of the two of you -- or maybe just decide who's gonna sit out and not play Fast Money round.
 
@@ -1098,7 +1098,7 @@ Name something that you associate with Google Chrome. Abenezer, you said DevTool
 
 **Jerod Santo:** So we'll leave you with the visual thought of Kball dancing to reggaetoni... That's JS Party for this week, we'll talk to you next time.
 
-**Outro:** \[00:41:21.20\]
+**Outro:** \[41:21\]
 
 **Jerod Santo:** Alright... I didn't have my normal JS Party \[unintelligible 00:42:20.17\] No, that's JS Danger. There it is... Now it's the chill beats. Everybody can relax...
 

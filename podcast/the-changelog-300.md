@@ -22,7 +22,7 @@
 
 And then there's also -- a lot of that personal account is a lot of art. I do a lot of painting, and I think that doesn't mix for a lot of people. I think there's a lot of people who follow me for the painting, and I'd like to have those separate. I can put some paintings out, I can do a lot more talking about art, things like that, keep it private, and then direct people towards the more professional book, programmer-oriented things.
 
-**Jerod Santo:** \[00:04:10.26\] See, I appreciate that, because I'm a long-time Twitter user, and we could probably just talk about the platform and the medium for an hour and call it a show, but we don't necessarily wanna do that... But while we're here, thinking about channels and segments of people -- I follow a lot of people that will say, like, you know... And I completely respect this take they have, but it's like "You get all of me. You're gonna get my software side, you're gonna get my personal side, you're gonna get all these things", and that's fine, but as a reader, as a person who's there... There's people that -- maybe I don't care about Zed's art, for example; just throwing that out there. So you're actually splitting those out for people; it's kind of a public service in certain ways, for those that just want this type of a thing.
+**Jerod Santo:** \[04:10\] See, I appreciate that, because I'm a long-time Twitter user, and we could probably just talk about the platform and the medium for an hour and call it a show, but we don't necessarily wanna do that... But while we're here, thinking about channels and segments of people -- I follow a lot of people that will say, like, you know... And I completely respect this take they have, but it's like "You get all of me. You're gonna get my software side, you're gonna get my personal side, you're gonna get all these things", and that's fine, but as a reader, as a person who's there... There's people that -- maybe I don't care about Zed's art, for example; just throwing that out there. So you're actually splitting those out for people; it's kind of a public service in certain ways, for those that just want this type of a thing.
 
 **Zed Shaw:** Exactly, exactly. And also, you know, my books are targeted at beginners and they're trying to learn to code, so I think it's kind of not right if I'm also in there ranting about how terrible the industry is, and causing disillusion in people.
 
@@ -54,7 +54,7 @@ My thing is always like "Don't worry about that, just focus on coding. Get your 
 
 **Jerod Santo:** Relatively poor.
 
-**Zed Shaw:** \[00:07:44.10\] Yeah, yeah. Not now, but there was a period of time when I was actually homeless, and trying to work as a programmer in open source... I'm honest about this thing. So it's funny, because I kind of like that description, because it's sort of like saying "Yeah, if you wanna be famous and actually successful, then you kind of don't wanna be a programmer. You wanna be a founder, and start a company." But also, it's sort of -- yeah, it summarizes it; I'll own that. I'm about as famous as you can get without actually running a giant billion dollar company. I don't know if that's actually accurate, but whatever; I'll go for it.
+**Zed Shaw:** \[07:44\] Yeah, yeah. Not now, but there was a period of time when I was actually homeless, and trying to work as a programmer in open source... I'm honest about this thing. So it's funny, because I kind of like that description, because it's sort of like saying "Yeah, if you wanna be famous and actually successful, then you kind of don't wanna be a programmer. You wanna be a founder, and start a company." But also, it's sort of -- yeah, it summarizes it; I'll own that. I'm about as famous as you can get without actually running a giant billion dollar company. I don't know if that's actually accurate, but whatever; I'll go for it.
 
 And then I think the other thing about it is when we did that in 2010 I was kind of on the cusp of kind of coming to this realization that open source really wasn't the best way to move forward with my career, and I think it was right about the time when I started really pushing my books forward and started changing my career from being the guy who made all this software to the guy who teaches people how to make software. That's been the big shift for me; I shifted out of -- I took that fame that was really not doing much for me as far as an open source developer, and my skills at teaching, that I kind of just stumbled on... You know, I wouldn't say I was an expert already, but... I turned that into a new career as an educator; I teach people how to learn to code, how to pick up new skills, things like that. I do a lot of live teaching now... And that's sort of been my direction. And then on the side with that, I've been doing a lot of painting. I love art, I'm doing painting now.
 
@@ -68,7 +68,7 @@ So a lot of times, I tell people, like let's say you wanna learn Go. I don't do 
 
 So far, that seems to work for folks. I'm saying, you don't have to read my books, but if you go through a bunch of books and get the code working and then go and squash bugs, that's a pretty good path.
 
-**Adam Stacoviak:** \[00:11:54.19\] That's interesting too, because there's so many open source projects out there that are now -- we've talked about it on this show, and other shows, talking about how do you flag and give somebody an on-ramp? There's so many on-ramps out there in open source to easily take that advice and run with it.
+**Adam Stacoviak:** \[11:54\] That's interesting too, because there's so many open source projects out there that are now -- we've talked about it on this show, and other shows, talking about how do you flag and give somebody an on-ramp? There's so many on-ramps out there in open source to easily take that advice and run with it.
 
 **Zed Shaw:** Yeah. We're gonna get into it; I've got a love/hate relationship with open source, but I do think fixing bugs is kind of like the bread and butter for a lot of programming, especially entry-level programming. And the easiest place to find bugs to fix is projects that are totally open, and you fix the bug, and you send them the code, and they go "Oh, that's cool. Thank you for fixing the bug." So that's one way to kind of like build up your skills and also get recognition for what you're doing, and kind of build up a resume for what you're working on.
 
@@ -80,7 +80,7 @@ So far, that seems to work for folks. I'm saying, you don't have to read my book
 
 **Jerod Santo:** They're less likely to, yeah.
 
-**Adam Stacoviak:** \[00:12:53.10\] It will merge.
+**Adam Stacoviak:** \[12:53\] It will merge.
 
 **Zed Shaw:** Well, they might have a problem with your code quality, and usually they'll give you feedback; they'll be like "Hey man, you've gotta use these variables like this... Can you redo this one?"
 
@@ -124,7 +124,7 @@ Sure, it's great - everyone should know algorithms; that's a useful thing to lea
 
 **Zed Shaw:** But bug fixing is universal. It doesn't matter what programming language it is, it doesn't matter where you come from, where you went to school... If you can't fix bugs, I don't think you can really code. So it's an easy test... You can also do it without making people work for free. So you just point them at an open source project, you say "Fix bugs. That's your job interview", and they fix bugs. It's done for free. It's an easy way to check that they can understand code...
 
-\[00:16:13.04\] I think 80% of a programmer's work is fixing bugs. I think if I sit around, most of the time I'm coding it's "Oh, this doesn't work. This doesn't work. This doesn't work. Oh, now it works."
+\[16:13\] I think 80% of a programmer's work is fixing bugs. I think if I sit around, most of the time I'm coding it's "Oh, this doesn't work. This doesn't work. This doesn't work. Oh, now it works."
 
 **Jerod Santo:** Well, the rest of the time you're just writing the bugs.
 
@@ -158,7 +158,7 @@ So yeah, security is tough, because you've gotta secure every little aspect. All
 
 **Zed Shaw:** Well, yeah... Ultimately, a lot of that is partially your fault, right? I mean, there's decisions that I made that I shouldn't have made. But I think at the same time I had created these projects that all these companies were using, and at the end of the day rather than hire me or get me consulting, they went the complete opposite direction and seemed to go out of their way to tell everyone that my software was terrible.
 
-\[00:20:18.07\] Twitter was, I think, the worst for that. They were using Mongrel at the time as an excuse for why their website wouldn't work... And it really had nothing to do with Mongrel. They just were terrible coders, and that's why their website didn't work.
+\[20:18\] Twitter was, I think, the worst for that. They were using Mongrel at the time as an excuse for why their website wouldn't work... And it really had nothing to do with Mongrel. They just were terrible coders, and that's why their website didn't work.
 
 But that basically caught me up and being homeless, combined with a couple other things and bad decisions on my own... But it was nearly impossible for me to find work within the Ruby on Rails open source industry at the time. That sort of taught me really quickly "Don't get involved with these communities that promise you that you're going to get a piece of the pie if you contribute."
 
@@ -186,11 +186,11 @@ As we talk, you'll find out... That's a common pattern where like you'll do some
 
 **Adam Stacoviak:** Yeah, and I see that in your history and I'm just wondering maybe what others assumed, which was like "Did that cause your scenario, or did your scenario perpetuate it?"
 
-**Zed Shaw:** \[00:24:04.18\] Yeah, my scenario perpetuated it, because keep in mind, I was working at Bear Sterns when I wrote that. So I was able to finally get a job, and the only job I could get was working at basically this crappy bank in New York, a bank that eventually collapsed. That's how terrible that place was. And I was not making all that much money. Pretty much Ruby on Rails destroyed my ability to work as a Java programmer, because of all the animosity that David Heinemeier Hansson created between Rails and Java. So the second I started becoming high-profile within Ruby on Rails, I couldn't get work as a Java guy because they were like the Anti-Rails to that point.
+**Zed Shaw:** \[24:04\] Yeah, my scenario perpetuated it, because keep in mind, I was working at Bear Sterns when I wrote that. So I was able to finally get a job, and the only job I could get was working at basically this crappy bank in New York, a bank that eventually collapsed. That's how terrible that place was. And I was not making all that much money. Pretty much Ruby on Rails destroyed my ability to work as a Java programmer, because of all the animosity that David Heinemeier Hansson created between Rails and Java. So the second I started becoming high-profile within Ruby on Rails, I couldn't get work as a Java guy because they were like the Anti-Rails to that point.
 
 And then I find out all these background deals that Ruby on Rails people made, and a lot of the things that people were saying about me, and the stuff that Twitter was saying to defend themselves from investors wondering why their system collapsed all the time... That was why I couldn't get work, and I'm like "Alright, screw this, I'm gonna write about it." And I came out and told the truth.
 
-**Break:** \[00:25:10.02\]
+**Break:** \[25:10\]
 
 **Jerod Santo:** That brings us to the tweet storm in question that caught both Adam and my eye. We interview a lot of people on the show, we talk to a lot of people in the open source community, so we see different perspectives... And one thing I appreciate about you, Zed, is of course some things you do say are inflammatory, so that gets people worked up, but you definitely see things differently than a lot of people, and I always appreciate a separate voice out there, crying "Here's a different thing than what you're hearing normally." So that's what caught my eye about what you were saying, specifically around what you just said with regard to making money in open source, and really the move of corporations into the community, which is something we've been tracking, of course, over the last ten years. It's been very obvious that that's been something that's happened and it's very intentional.
 
@@ -206,7 +206,7 @@ So let's start with I guess kind of the money quote, because it plays right into
 
 **Jerod Santo:** Please do.
 
-**Zed Shaw:** \[00:28:03.14\] So it's sort of interesting that -- I mean, do you feel that's controversial? Like you said, it's dystopian, but do you think it's controversial at all? Do you disagree that corporations have kind of totally taken over open source and it's difficult to make money as an open source developer?
+**Zed Shaw:** \[28:03\] So it's sort of interesting that -- I mean, do you feel that's controversial? Like you said, it's dystopian, but do you think it's controversial at all? Do you disagree that corporations have kind of totally taken over open source and it's difficult to make money as an open source developer?
 
 **Jerod Santo:** Well, I would say that it's always been difficult to make money as an open source developer, so I don't think that's necessarily new. I would say that corporations have definitely moved in in big ways, and have made open source an emphasis, and because of just the pure weight of their size - we're talking about large technical corporations like Microsoft, like Google, like Facebook; these are the big tech companies...
 
@@ -234,7 +234,7 @@ So yeah, corporations are gonna go out and do that. I'm not surprised. Are you s
 
 **Adam Stacoviak:** I have no problem with anybody making open source and making money from it, personally. I encourage it, please do that.
 
-**Zed Shaw:** \[00:31:56.00\] Yeah, but what we do is when I GPL-ed something, all these dudes came out saying I was a jerk for GPL-ing my stuff, because I'm gonna make money on it.
+**Zed Shaw:** \[31:56\] Yeah, but what we do is when I GPL-ed something, all these dudes came out saying I was a jerk for GPL-ing my stuff, because I'm gonna make money on it.
 
 **Adam Stacoviak:** Maybe they're just jealous.
 
@@ -256,7 +256,7 @@ And then the other thing is they use it as a way to collaborate with other giant
 
 **Zed Shaw:** Exactly. My favorite example is every time some IETF standard comes out, it's always to-do's from Google and someone from Mozilla. The standard - you look and it's like a Facebook person, a Google person, and then a Mozilla person, because they need someone from a non-profit to say that "Yeah, yeah, yeah, this isn't anything that was baked in a back-room, based on code we already have. This is totally about the community."
 
-**Adam Stacoviak:** \[00:35:54.04\] So what's your response on neutral? Just that they employ people to be on these committees or the foundations?
+**Adam Stacoviak:** \[35:54\] So what's your response on neutral? Just that they employ people to be on these committees or the foundations?
 
 **Zed Shaw:** Yeah, so my response is basically "Show me the cash." Let's say you join the Python Software Foundation, or Software Freedom Conservancy - I don't know if they do any of this, but if you're a member of that, if you're in the Python community, if your project is there, and then they're constantly begging for money but they have these giant corporations that are a part of it, then you not that they're not actually a part of the community that they claim to be.
 
@@ -270,7 +270,7 @@ So what I've started to sort of realize is there seems to be a motivation or eve
 
 I mean, we always talk about letting your code do the talking, like bring software, bring value to the community, contribute back - all of these things, and I agree and I think that corporations should be offering money to people... And in some ways they are, in other ways they aren't. We're seeing more and more emphasis on that from the developer side of like not just being open source friendly, but actually being like a supported or a sustainer of open source from these corporations who are doing very well financially... But what about all the value-add? Because these are very huge software projects, and many people are making livings off of TensorFlow, that they just would have never had a chance on their own?
 
-**Zed Shaw:** \[00:40:03.20\] Yeah, so in that respect it's that sort of enlightened self-interest that they're saying they do. I call it "fopen source", because it still serves the company. No matter what you do, what that company needs is what's gonna happen. And I'd be fine with it if they said "Yeah, this is an open source project you can use, but it's gonna be in our direction, okay?" So they come out and they say like "Hey, this is TensorFlow, and you know what? Google's gonna run it, and we do our thing; if you wanna contribute, that's cool, but what we do, what we want first is what comes out as what's gonna go in the project." But that's not what they do. What they do is they--
+**Zed Shaw:** \[40:03\] Yeah, so in that respect it's that sort of enlightened self-interest that they're saying they do. I call it "fopen source", because it still serves the company. No matter what you do, what that company needs is what's gonna happen. And I'd be fine with it if they said "Yeah, this is an open source project you can use, but it's gonna be in our direction, okay?" So they come out and they say like "Hey, this is TensorFlow, and you know what? Google's gonna run it, and we do our thing; if you wanna contribute, that's cool, but what we do, what we want first is what comes out as what's gonna go in the project." But that's not what they do. What they do is they--
 
 **Jerod Santo:** I think in many cases it's pretty clear... I mean, when we have these conversations on this show, we ask people "What kind of open source is this? Is this community-driven, is it a Google project that's open to be contributed to, but it's a Google direction?", and they're historically very clear on those things. Even -- hey, Changelog.com is open source, and we just say right on the front, like "This is our CMS. We have a product roadmap; you can contribute."
 
@@ -298,13 +298,13 @@ I feel like in a lot of readmes, a lot of open source website, it'll say right t
 
 **Zed Shaw:** Right, after they got Joyent to sort of agree to their things. Because Joyent wasn't really running the project ethically; they were doing exactly what I was saying.
 
-**Jerod Santo:** \[00:43:19.27\]They were letting it languish.
+**Jerod Santo:** \[43:19\]They were letting it languish.
 
 **Zed Shaw:** Yeah, they weren't running it well; they were only doing what they wanted and what benefitted them, but then claiming "Oh, this is a community. We're all friends!" So then Io forks for that very reason.
 
 **Jerod Santo:** Isn't that a success story though? Isn't that just like the actual open source thing working? Like, okay, Joyent was letting it languish, they wanted to maintain and control - and I'm just going based on memory; this was years ago, so maybe the details are not particularly clear... But the maintainers, which was Mikeal Rogers and friends - I can't remember the other names, but we interviewed Mikeal Rogers about it... They forked, they forced Joyent's hand, a lot of changes happened... Like you said, there was definitely propaganda back and forth, there was communication back and forth, there were blog posts written, there were conversations had... At the end of the day, I think the forked team were very happy to recombine and keep it a singular community. I think they got a lot of things that they wanted out of it... So I just don't see how that's a failure of open source in terms of if things aren't going your way...
 
-**Zed Shaw:** \[00:44:26.20\] I didn't really say it was a--
+**Zed Shaw:** \[44:26\] I didn't really say it was a--
 
 **Jerod Santo:** Well, I said "You just fork", and then you're saying that "Well, then they force you back in", or I can't remember exactly what you said...
 
@@ -328,7 +328,7 @@ So actually, for a long time I didn't blame the open source projects, I didn't b
 
 So the internet comes out, and suddenly you can use that whole propaganda tactic again to get a new batch of followers, and ta-dah! There you have it. But I think what I have started to find is that a lot of the people who are programmers kind of like that there's corporations taking advantage or harming the people that they consider their enemies in some ways, or that have a project they think is gonna become the winner, the programming language is gonna become a winner and wipe out every other programming language... And I'm like, "No, that's terrible. Why would you wanna wipe out every programming language? That's just awful."
 
-\[00:48:00.02\] And I started to realize, look, I think the reason why these corporations can do all this stuff - they can collude illegally and nobody cares, and they can just destroy people's lives, and take-take-take and never give back and all these sorts of things - because you too have been saying, "Oh, well they gave out Kubernetes", right? But Kubernetes is not cash money to the people that wrote the open source that started their company. So really giving back is helping the programmers that made your stuff, not "Oh hey, thanks for making that stuff. Here's this thing you totally don't need..."
+\[48:00\] And I started to realize, look, I think the reason why these corporations can do all this stuff - they can collude illegally and nobody cares, and they can just destroy people's lives, and take-take-take and never give back and all these sorts of things - because you too have been saying, "Oh, well they gave out Kubernetes", right? But Kubernetes is not cash money to the people that wrote the open source that started their company. So really giving back is helping the programmers that made your stuff, not "Oh hey, thanks for making that stuff. Here's this thing you totally don't need..."
 
 **Adam Stacoviak:** I actually asked Brendan Burns face-to-face at KubeCon last year this very question; he was one of the founders of Kubernetes. I said "Why don't you just keep it for yourself? Why didn't you turn it into a corporation yourself, or a for-profit thing?" He was like, "It would have never gone how it has." It wouldn't have been the ride that has been. He had his own reasons, but he was like "You know, that's not the way it needed to go." It was by choice to do it that way, and he was one of the founders of the project.
 
@@ -356,7 +356,7 @@ So for me, I think if -- yeah, Kubernetes totally made the right decision... Try
 
 **Zed Shaw:** So I think GitLab is a very good example of someone working -- like, it's two people that mainly started it, and then they just ran it, and then it got successful enough that they were able to actually receive a pretty large VC investment. But it's different... You can go with your crappy app that you hacked up in a weekend on your phone, do a pitch deck; if you know the right VC's at this company, they'll be like "Yeah, cool, here's 20 million." So open source is a much, much higher amount of effort to prove that there's a market.
 
-\[00:51:55.27\] I actually think if the guys who did Kubernetes went off to investors and said "Yeah, what we wanna do is create this thing that basically makes it so you can craft your AWS infrastructure, whatever." They'd be like, "Hm... Nah, we don't wanna do that, because a bunch of our portfolio companies need free stuff."
+\[51:55\] I actually think if the guys who did Kubernetes went off to investors and said "Yeah, what we wanna do is create this thing that basically makes it so you can craft your AWS infrastructure, whatever." They'd be like, "Hm... Nah, we don't wanna do that, because a bunch of our portfolio companies need free stuff."
 
 **Jerod Santo:** Now I'm just thinking of all the different people who built -- I mean, another trend that we're tracking, and I don't disagree that it's easy in 2018... I think it was probably easier in 2016 to get VC funded in the Valley with an app or just in general with a good pitch deck... I hear it's getting harder; we're not in the Valley, I've never written a pitch deck, I don't know those things very well... But the other thing that we're saying - we've been tracking this trend of large organizations moving in - also is VC-funded open source projects, and we're coming out of our ears with them.
 
@@ -376,7 +376,7 @@ And then when you don't really wanna work for free, like when you go "No, screw 
 
 **Zed Shaw:** Yeah. You know, I will say, based on the documents that we saw from Microsoft about their "embrace and extend" strategy - I remember there were things that they had said when they got sued... Remember back in the day a whole bunch of these emails came out? And we know what their strategy is now. I predict you actually are gonna see sort of a similar "embrace and extend" strategy come out of Google and Amazon and whatnot... And we're gonna find out that actually no, they've just been sort of exploiting open source to pad their pockets.
 
-\[00:55:56.22\] But again, oh well, I mean, that's companies. Why are we surprised by that? I'm not surprised by that. And then I feel open source developers, programmers in general I feel are very - I don't know why, but I think they're very fascist... Like servile fascists.
+\[55:56\] But again, oh well, I mean, that's companies. Why are we surprised by that? I'm not surprised by that. And then I feel open source developers, programmers in general I feel are very - I don't know why, but I think they're very fascist... Like servile fascists.
 
 Totalitarianism, right? Okay, so totalitarianism is basically the belief that somebody else should control things... And that's fine; somebody else controls things seems to be like, you know, governments, societies, religions, whatever. But then they add on "And anyone who disagrees with me is the enemy and should be destroyed." So that's kind of like the simplest way to say "That's totalitarianism."
 
@@ -390,7 +390,7 @@ Oh, my favorite is when they say they're gonna win. Like, "Oh, JavaScript is gon
 
 So what I see is, yeah, sure, I think corporations are taking advantage of programmers, but I think there's so many servile fascists in programming that they kind of agree with it and they kind of like it, and so there's no way to fix it. There's no way you're gonna stop them. There's no fix, it's just how they are, and the only way to fix it for yourself is just don't go into that. Don't try to make money in open source. Try to maybe build up a career, but stay very far away from the communities, don't identify yourself with any one language or project or anything like that, and just basically play the game and try to get out and get ahead without getting hurt.
 
-**Break:** \[00:59:02.26\]
+**Break:** \[59:02\]
 
 **Adam Stacoviak:** Zed, is the cat-v link to Rails is a Ghetto - is that the canonical? Google says it is, I'm just curious if that's what you--
 

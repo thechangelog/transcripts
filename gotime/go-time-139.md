@@ -54,7 +54,7 @@
 
 **Mark Bates:** Okay, I have a question, Mat, before we go any further, about testing frameworks.
 
-**Mat Ryer:** \[00:04:11.10\] Testing frameworks -- what?
+**Mat Ryer:** \[04:11\] Testing frameworks -- what?
 
 **Mark Bates:** Are we talking about frameworks that help us test, or testing frameworks like Buffalo?
 
@@ -98,7 +98,7 @@ For example, the simplest case, like the syntactic sugar case - and I think Test
 
 **Boyan Soubachov:** Sure, of course. Obviously, Testify -- well, Mat, I believe you were one of the original authors...
 
-**Mat Ryer:** \[00:07:52.02\] Okay, yeah... So this was way back -- I think even before the first GopherCon. So this was like 2014 time. And we came from Ruby, and I'd done a lot of JavaScript and C\#, and a lot of these languages have testing frameworks, or even some of them are just built-in, where you can use language like assertEqual and you give it two things. And if those two things aren't equal, that's considered then a failing test. So in Go, if you don't use a testing framework, you end up writing long-hand really that process. So you'll use an if, and check two variables; if they're not equal, or whatever the condition is, then you use the testing.T to do some work to either report the error, or fail the test, or whatever it is you wanna do.
+**Mat Ryer:** \[07:52\] Okay, yeah... So this was way back -- I think even before the first GopherCon. So this was like 2014 time. And we came from Ruby, and I'd done a lot of JavaScript and C\#, and a lot of these languages have testing frameworks, or even some of them are just built-in, where you can use language like assertEqual and you give it two things. And if those two things aren't equal, that's considered then a failing test. So in Go, if you don't use a testing framework, you end up writing long-hand really that process. So you'll use an if, and check two variables; if they're not equal, or whatever the condition is, then you use the testing.T to do some work to either report the error, or fail the test, or whatever it is you wanna do.
 
 We did Testify just because we were used to writing in that format, that's all. It was purely kind of syntactic sugar. And then because it was so early, it just kind of became part of an easy choice. It was the oldest, probably, at one point, and probably always is...
 
@@ -122,7 +122,7 @@ For me, like I said, I'm a huge, huge fan of Require. I probably used at the mos
 
 What I like about it is - just what Mat was saying earlier - all that repetitive code, just all those if checks, now I've gotta come up with a good log message... And when I'm writing tests, I just wanna write my tests and I want it to be fast. I just need to get tests, and I want to spend more time writing more tests, and not more time writing less tests. And just pulling out those if statements, and pulling out that logic... You know, in my Go code that I'm testing, of course I'm gonna take care to craft better error messages, and have better syntax, and all that sort of stuff. But when I'm writing my tests, I just need it to say that these two things weren't equal, and I don't need to keep repeating that constantly... And things like Require just kind of do that.
 
-\[00:12:33.26\] And I also quite like the way it reads, too. My tests are a lot smaller. Maybe they're now a half dozen or eight lines long, as opposed to three times that, with all the if checks that are going on in there... And I can just read it; it's like "Do this. Okay there was no error. This was not nil. These are equal. Done." I just read it quickly down...
+\[12:33\] And I also quite like the way it reads, too. My tests are a lot smaller. Maybe they're now a half dozen or eight lines long, as opposed to three times that, with all the if checks that are going on in there... And I can just read it; it's like "Do this. Okay there was no error. This was not nil. These are equal. Done." I just read it quickly down...
 
 I remember, Mat, you and I had a conversation around this offline one day, about is.
 
@@ -178,7 +178,7 @@ I remember, Mat, you and I had a conversation around this offline one day, about
 
 **Boyan Soubachov:** Yeah, exactly.
 
-**Break:** \[00:15:21.02\]
+**Break:** \[15:21\]
 
 **Mat Ryer:** Well, we talked about the way it reads, so you can say "require not nil", or "assert equal", those kinds of things...
 
@@ -210,7 +210,7 @@ I wanted to just talk about the format though, the readability of it, because th
 
 **Mark Bates:** The thing I like about BDD versus unit testing actually has to do with the names of the tests... You know, when you're writing a simple test - you know, test that create does something; that's a pretty simple test name. But when you start having all those weird variants, then the string-based text names become really useful. When you just need a little bit more description as to what it is you're trying to test... And that's harder to do in a units type of a test, where you have a function name.
 
-\[00:20:05.21\] For me, I get around that a little bit in Go with underscores in my test names. So I have a different approach to how I do my test names. So it obviously starts with "test", because we all have to start there, and then usually it's an underscore, with the next thing being if I'm testing, say, something on a struct, or a type, then it'll be the type. So it's test\_type\_method, or something like that, where I can kind of look at the tests, read them a little bit better, try to figure out what they're doing... And also, when I'm trying to do run, it helps me, because I have a bit of a pattern. So if I wanna test all the file stuff, my types called "file", and I wanna run all the file tests, I can do test\_file\_ and it's gonna get me all of the tests for the file type when I do the run.
+\[20:05\] For me, I get around that a little bit in Go with underscores in my test names. So I have a different approach to how I do my test names. So it obviously starts with "test", because we all have to start there, and then usually it's an underscore, with the next thing being if I'm testing, say, something on a struct, or a type, then it'll be the type. So it's test\_type\_method, or something like that, where I can kind of look at the tests, read them a little bit better, try to figure out what they're doing... And also, when I'm trying to do run, it helps me, because I have a bit of a pattern. So if I wanna test all the file stuff, my types called "file", and I wanna run all the file tests, I can do test\_file\_ and it's gonna get me all of the tests for the file type when I do the run.
 
 So that's how I'm getting around it in Go, is with using that... But there are frameworks like Ginkgo that let you experience that a bit more in Go.
 
@@ -228,7 +228,7 @@ So that's how I'm getting around it in Go, is with using that... But there are f
 
 **Boyan Soubachov:** I think it depends on the framework. I haven't personally used Gopter just yet in Go, but in a lot of them you can actually specify where I want to range from min int to maxim, so whatever the minimum and the maximum value is... Or you can just say "Give me this distribution." I believe it can be customized. But if I'm not mistaken, the default is to just basically sample from the minimum to maximum, and try and find pathological cases of the input values.
 
-**Mark Bates:** \[00:24:00.14\] Do either of you do fuzz testing/fuzzing?
+**Mark Bates:** \[24:00\] Do either of you do fuzz testing/fuzzing?
 
 **Mat Ryer:** I have once, but it was really to play with it. But I think it depends on the kind of code you're writing, because it's not suitable for everything, is it?
 
@@ -294,7 +294,7 @@ So that's how I'm getting around it in Go, is with using that... But there are f
 
 **Mat Ryer:** Right. Yeah, so that's great. The specific question from Aditya was about database mocking... So how do we feel about mocking databases?
 
-**Boyan Soubachov:** \[00:28:00.16\] Myself, personally, I find it quite useful a lot of the time. An approach I actually like to take is to try and abstract our database interface as an interface... And then just spawn a new stub or mocked version of that interface and pass it in.
+**Boyan Soubachov:** \[28:00\] Myself, personally, I find it quite useful a lot of the time. An approach I actually like to take is to try and abstract our database interface as an interface... And then just spawn a new stub or mocked version of that interface and pass it in.
 
 **Mat Ryer:** What does the interface look like for a database?
 
@@ -318,7 +318,7 @@ In Go, it's not my problem. \[laughter\] My tests are still plenty fast. They're
 
 **Mark Bates:** Yeah, and for me it's like, if I'm gonna spend -- I don't need to spend all that time. I'll just hit Postgres. It's right there; it's gonna be there. My server is gonna be there, my CI, it's local, it takes me 30 seconds to install... I'll just hit it. And I know that all my queries are correct, I know that my marshaling to and from the database is correct... I feel like there's a whole -- and this is my unpopular opinion. Mat wanted me to come up with an unpopular opinion, and I was gonna say that I like assertion libraries... But I think this is more unpopular.
 
-**Mat Ryer:** \[00:32:12.09\] Okay, well save it for the official segment.
+**Mat Ryer:** \[32:12\] Okay, well save it for the official segment.
 
 **Mark Bates:** Well, you've got it now, Mat...
 
@@ -360,7 +360,7 @@ In Go, it's not my problem. \[laughter\] My tests are still plenty fast. They're
 
 **Mark Bates:** Right.
 
-**Boyan Soubachov:** \[00:35:49.06\] We're spending more time on getting the right interface and abstraction going. But that's, as we've been talking, purely because of the team size and the codebase size. It becomes more practical to do that.
+**Boyan Soubachov:** \[35:49\] We're spending more time on getting the right interface and abstraction going. But that's, as we've been talking, purely because of the team size and the codebase size. It becomes more practical to do that.
 
 **Mat Ryer:** Yeah. The other thing about mocking - if you want to mock something out, even if it's a database or some third-party service, or whatever, it is useful in test code to be able to do that so that you can return realistic data, so that your code can do it's thing, so that it's predictable, and all that stuff. I have, in the past, done assertions inside the mock almost, and I feel like this might be a step too far, in most cases. The idea is there's a method -- in fact, there's a project called Moq, which is one that I wrote with some friends of mine, I can't remember who. It's in the repo though; credit where credit's due.
 
@@ -380,7 +380,7 @@ I use that pattern quite a lot too (I like that), of "Here's a default way of do
 
 **Mat Ryer:** Yeah. A good use of that is if you need to control time, because the *time.Now()* function just returns the current time. Obviously, in real code, that's different every time... But you can have a function field that matches the *time.Now()* signature - which I think is just empty func - and then assign it by default to *time.Now()*, and then control that in your test code. So yeah, I love those sort of mini-mocks almost...
 
-**Mark Bates:** \[00:40:03.22\] In Ruby we had a great thing called timecop; it was such a random Ruby thing... It would override basically time.now to be whatever value you wanted it to be \[laughter\] You could just override anything; you could say like "I wanna be three weeks into the future", and time.now would return three weeks in the future.
+**Mark Bates:** \[40:03\] In Ruby we had a great thing called timecop; it was such a random Ruby thing... It would override basically time.now to be whatever value you wanted it to be \[laughter\] You could just override anything; you could say like "I wanna be three weeks into the future", and time.now would return three weeks in the future.
 
 **Boyan Soubachov:** Great Scott! \[laughter\]
 
@@ -388,7 +388,7 @@ I use that pattern quite a lot too (I like that), of "Here's a default way of do
 
 **Boyan Soubachov:** The way I look at it, at least - if it's something that's... How likely is it to change? Basically, how likely is your database state to change? How likely is your time to change? If it's anything other than low, take it out, mock it out, make it as a dependency that's injected. But that's a rule of thumb that I follow anyways...
 
-**Break:** \[00:41:03.29\]
+**Break:** \[41:03\]
 
 **Mat Ryer:** Talking about Testify then, Boyan, what do you see are the challenges with maintaining a project like Testify? What's easy and what's difficult, and Great Scott?
 
@@ -396,7 +396,7 @@ I use that pattern quite a lot too (I like that), of "Here's a default way of do
 
 A big difficulty there is just how many different requests we have to add this specific feature, so that it works in my case, and this specific feature in my case... And we try and be as fair as possible and consider each case, but ultimately we're guided by what the community as a whole or as a greater have benefit from this. Also, a big thing is to always be vigilant of starting to couple it to be dependent on either some other technology or some other proprietary standard, or whatever... Because I think a great example was we've had a request to change how the framework works, so that it makes it easier to run in GoLand... Which would break it forever on who's not using GoLand... So that was a no-no in our books.
 
-**Mark Bates:** \[00:44:40.06\] One of the things that I often hear people say about Testify, obviously (because it's one of the big ones), but about any of the assertion libraries, is "Well, occasionally I'll hit a rough spot, or I'll hit something that doesn't quite work." Equal is always a great example of that. There's some really edge cases there. I ran into just yesterday an edge case with Testify zero, where I had an expectation that if I implemented *isZero() bool* which is kind of like an unofficial interface you'll find across a standard library (Time has it), I thought that if I did that and called not-zero, or zero on Testify, that it would look at my type, see that it implements the zero, returns false, and then is not -- you know, whatever. And that's not the case. And I even dug deep into Reflect, because it uses Reflect zero, and even that doesn't call that interface.
+**Mark Bates:** \[44:40\] One of the things that I often hear people say about Testify, obviously (because it's one of the big ones), but about any of the assertion libraries, is "Well, occasionally I'll hit a rough spot, or I'll hit something that doesn't quite work." Equal is always a great example of that. There's some really edge cases there. I ran into just yesterday an edge case with Testify zero, where I had an expectation that if I implemented *isZero() bool* which is kind of like an unofficial interface you'll find across a standard library (Time has it), I thought that if I did that and called not-zero, or zero on Testify, that it would look at my type, see that it implements the zero, returns false, and then is not -- you know, whatever. And that's not the case. And I even dug deep into Reflect, because it uses Reflect zero, and even that doesn't call that interface.
 
 So I hit one of those edge cases, and it took me a few minutes to dig through the code, figure it out, and then I said "Oh, man - okay, I really thought it worked that way. It doesn't. I'll just change the way I'm running my tests a little bit." And I just moved on. I don't know, I don't put a lot of credence into the "I hit one random edge case, so they're all terrible" argument. I find that if you hit one edge case, you've hit one edge case. If the rest of the time it's working just fine for you, that's definitely a baby with the bathwater kind of a thing.
 
@@ -412,7 +412,7 @@ If I threw out all my tests yesterday because the Require zero did not follow th
 
 **Mark Bates:** Yeah. And I'll keep adding the tests as things break, and I find those new edge cases; I'll keep adding new tests to cover them. But yeah, you've just gotta move on with your day at some point. And like I said, there was no way I was throwing out Testify because *isZero()* didn't behave quite the way I thought it did... Despite the fact that -- and don't forget, the documentation makes no claims to respecting that pseudo-random interface anyway. I made an assumption on my part, proved out to be wrong, and I just changed my test to \[unintelligible 00:47:23.02\] And that was fine; I just made that little change, but...
 
-**Mat Ryer:** \[00:47:33.12\] Yeah. I think that's right. When Testify was in its early stages we had this policy of anybody that contributed a PR was invited to become a maintainer. This was an idea that -- because it's a community-owned thing; it was completely open source, so it's kind of this community spirit and inclusiveness, and stuff. The effect of that, I think, in Testify's case, was that the API grew quite a lot. And if you look at the index page in GoDoc for stretchr/testify/assert package, it's massive. And of course, the Require is too, yeah.
+**Mat Ryer:** \[47:33\] Yeah. I think that's right. When Testify was in its early stages we had this policy of anybody that contributed a PR was invited to become a maintainer. This was an idea that -- because it's a community-owned thing; it was completely open source, so it's kind of this community spirit and inclusiveness, and stuff. The effect of that, I think, in Testify's case, was that the API grew quite a lot. And if you look at the index page in GoDoc for stretchr/testify/assert package, it's massive. And of course, the Require is too, yeah.
 
 So what's the downside to having that much stuff there? There are pros and cons to it, so what are the pros? What are the cons?
 
@@ -442,7 +442,7 @@ If you have a test and you want to assert, but you now want to figure out "Which
 
 **Boyan Soubachov:** Yeah, exactly. What we now discussed has touched on a lot of very good points, which is - we've heard a lot of feedback, we've seen a lot of people ask us "Why do you have this? Why do you have that?" and functions that we've even never seen before are there, people submitting pull requests on... So the future for us is -- I mean, myself and my two other co-maintainers, George and Martijn, we think it's about time to look at a version two. We've had so many breaking change requests, where we would break the API... We've got a nice, long list that we could put in a whole separate version, so that's why we started a trial for version two... And because it's community-first; we do this for the community, not for some ideals we have. If I were to write Testify myself, I know what it would look like... But I'm not writing it for myself.
 
-\[00:52:36.27\] Mat, as you pointed out, maybe we can do something with a dataset, but we mostly want to hear what the community's opinions are, rather than look at what -- because we can gauge what's used and what's not, at best, even if we could... But we can't gauge what's missing, or what the community would like to have changed. That's why we have a survey out, a simple Google form, if I may plug it...
+\[52:36\] Mat, as you pointed out, maybe we can do something with a dataset, but we mostly want to hear what the community's opinions are, rather than look at what -- because we can gauge what's used and what's not, at best, even if we could... But we can't gauge what's missing, or what the community would like to have changed. That's why we have a survey out, a simple Google form, if I may plug it...
 
 **Mat Ryer:** Please do, yeah.
 
@@ -466,7 +466,7 @@ If you have a test and you want to assert, but you now want to figure out "Which
 
 **Mat Ryer:** I've just called time.now, and it is now time for the officially sanctioned Unpopular Opinion.
 
-**Jingle:** \[00:54:22.11\] to \[00:54:42.14\]
+**Jingle:** \[54:22\] to \[54:42\]
 
 **Mat Ryer:** So who's got an unpopular opinion for us today?
 
@@ -494,7 +494,7 @@ If you have a test and you want to assert, but you now want to figure out "Which
 
 **Mark Bates:** It's not even choosing what time it is, it's just overriding whole methods, and types, and fun stuff... \[laughs\]
 
-**Mat Ryer:** \[00:55:57.13\] Yes... Well, I think that's a great one, actually. Boyan, there's definitely something in there. I think a lot of what we do is quite weird as software people, but it's best not to think about it too much and just get on with it.
+**Mat Ryer:** \[55:57\] Yes... Well, I think that's a great one, actually. Boyan, there's definitely something in there. I think a lot of what we do is quite weird as software people, but it's best not to think about it too much and just get on with it.
 
 Thank you so much. We have reached the end of today's show, but thank you... And anybody at home that's interested in talking about Testify, go to the project, check the show notes, have a look in the GoTimeFM Slack channel... We'll be leaving a link to the survey there for you to do. Boyan, thank you so much. Especially, thank you for getting up so early.
 

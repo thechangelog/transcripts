@@ -26,7 +26,7 @@ Kball has some exposure... I have enough exposure so far, as I've been perusing 
 
 We implemented a technique which we called verticalization, so having multiple teams. We had five teams at this time, and each team built one piece of the e-commerce system from top to bottom, so everything... And then we integrated in the frontend layer. This was our first project.
 
-\[00:03:59.06\] Then at this time the term micro frontends wasn't around yet. I think it came up two or three years later in one of ThoughtWorks' Technology Radar episodes.
+\[03:59\] Then at this time the term micro frontends wasn't around yet. I think it came up two or three years later in one of ThoughtWorks' Technology Radar episodes.
 
 **Jerod Santo:** So you were doing micro frontends, but there was no term for micro frontends.
 
@@ -54,7 +54,7 @@ Let's pick a real example... We are doing e-commerce and we have one team who is
 
 One example there is that in microservices the trade-off that you're making is you're trading off developer simplicity and organizational alignment. The downside or what you get instead is you get more operational complexity. You've got to deal with all of these different coordinated services, and deal with coordination problems and various other things... So what's the equivalent trade-off in the micro frontends world? What do you get, and what is it that you're giving up, or that you're having to take on when you adopt a micro frontend approach?
 
-**Michael Geers:** \[00:08:25.23\] I think it's quite comparable. So micro frontend, as microservices, are also distributed systems. Developing a monolith is always easier than running a distributed system with multiple groups of teams that have to coordinate with each other.
+**Michael Geers:** \[08:25\] I think it's quite comparable. So micro frontend, as microservices, are also distributed systems. Developing a monolith is always easier than running a distributed system with multiple groups of teams that have to coordinate with each other.
 
 The trade-offs are different in the aspect that we now have to think about assembling a frontend out of pieces, which we wouldn't have to do if we just implemented a monolithic frontend. And with this assembly of multiple pieces you also introduce redundancy... Which you do with microservices as well, but with microservices this redundancy is only server-side, so you can offset the redundancy by increasing your server capacity, for example... Which you can't do if you're putting more load on your customer's browser, for example. If you have five teams, and all five teams use different JavaScript frameworks, the browser (your customer) has to download them and has to cope with all of this code... So you have to do a lot more planning in the frontend than you have to do in the backend.
 
@@ -70,7 +70,7 @@ Following on on that, one of the things that microservices did is it changed whe
 
 The smallest project we did was with ten people, and we are running an e-commerce shop with two teams. One team handled everything before the checkout, and the other team did the checkout and the self-service area of the e-commerce system. So this worked also really well.
 
-**Jerod Santo:** \[00:12:10.24\] So with the frontend/backend split, you tend to split more on technology or skillset... Whereas with a cross-functional split, you're splitting on the function? Give everybody some examples of a cross-functional team split, because I've never done that. E-commerce - one team is working on the cart, and the other person is working on auth? What's a cross-functional split look like on teams?
+**Jerod Santo:** \[12:10\] So with the frontend/backend split, you tend to split more on technology or skillset... Whereas with a cross-functional split, you're splitting on the function? Give everybody some examples of a cross-functional team split, because I've never done that. E-commerce - one team is working on the cart, and the other person is working on auth? What's a cross-functional split look like on teams?
 
 **Michael Geers:** Yes. As we focused on e-commerce, we have a pattern that is applicable for many of our e-commerce customers. The thing that works really well for us is looking at the customer and the way the customer takes throughout the e-commerce system. He starts at the homepage, and then looks around, doesn't know what he's wanting to buy, and comes in the decision phase having picked three products, for example, deciding which one would fit best. When he decided, he goes into the checkout flow and moves on. We draw our boundaries or out team cuts along these lines.
 
@@ -88,7 +88,7 @@ Another example, if you're building a banking site, for example, you have an are
 
 **Michael Geers:** Yes. So classical pages are a really good indicator for "Here's a specific task the user wants to know", so getting informed about one specific product, for example. These are typically good boundaries... They are not perfect, because on one page there are things that are going on across teams; so on the product page we might also see recommendations, or see shipping information, which is not the primary goal of the team who does the product page, for example. So you have to do some Assembly, in some cases... But in general, pages are a good indicator.
 
-**Break:** \[00:15:10.28\]
+**Break:** \[15:10\]
 
 **Kevin Ball:** Michael, just before the break we were talking about the ways that we can divide these out... We can divide them out by route, or by specialty, sometimes you might have a nav team... Those different division points have different implications for how you might do integration, so can you talk us through some of the different types of integration that folks have come up with? I know there's some server-side solutions, there's client-side solutions... What is the spectrum of options that people are using here, and what are the trade-offs involved with them?
 
@@ -104,7 +104,7 @@ This is the server-side aspect, and if you're going client-side for composition,
 
 So these are the techniques we are using... There are also more sophisticated libraries or platforms out there which will handle this stuff I talked about in a more easy-to-use way. A prominent player is the framework called single-spa, which is the meta-router framework, but also companies like Zalando, which in Europe is a big e-commerce player, that published a tool called Tailor, which does server-side integration. There's also a library called Podium, which is in a similar spirit...
 
-**Kevin Ball:** \[00:20:05.20\] So when you do these different types of integrations, like for example in your Web Components-based integration, how does that impact deployment? For example, one of the micro frontends changes - can you do an isolated deploy, or you've got to package everything together and deploy everything? How does that work?
+**Kevin Ball:** \[20:05\] So when you do these different types of integrations, like for example in your Web Components-based integration, how does that impact deployment? For example, one of the micro frontends changes - can you do an isolated deploy, or you've got to package everything together and deploy everything? How does that work?
 
 **Michael Geers:** Autonomy and being able to test a deploy your piece of the user interface of the system yourself as the team is one of the key factors... So it's very important for us, at least, that the teams are able to deploy, to update, to move on with their UI without having to coordinate with the other teams.
 
@@ -134,7 +134,7 @@ You can also implement caching when you say, "Okay, the navigation only changes 
 
 **Jerod Santo:** Yeah, I can see where it would make some sense to still be able to deploy autonomously, but basically request at a certain point in time everybody else's micro frontends that you need in order to deploy the entire application, and just go... Or whichever ones have changed. You could probably get as fancy as you want with that, but maybe it's solving a problem that -- it was a premature optimization. If you guys have been doing this for years in this style, and haven't run into that as a need, do you think that that's something other teams might desire, or is it just kind of a non-issue in practice?
 
-**Michael Geers:** \[00:24:17.04\] We are running quite large platforms with this technique, but we are not at Amazon's scale, or whatever... So it's definitely possible that things we are using are not built for doing much larger integrations. You need more optimization in the integration points than we are currently practicing.
+**Michael Geers:** \[24:17\] We are running quite large platforms with this technique, but we are not at Amazon's scale, or whatever... So it's definitely possible that things we are using are not built for doing much larger integrations. You need more optimization in the integration points than we are currently practicing.
 
 **Jerod Santo:** One thing that happened with microservices was a bit of a brush fire of adoption when people started to use them and talk about them, and advocate that style of architecture, because it seemed to solve a need that so many organizations had, or thought they had. It turns out you can make a big ball of mess with microservices, just like you can with a monolith. That being said, I'm curious if there are other teams in organizations maybe bigger or smaller than the teams you've been working with, that are adopting micro frontends, or at least testing the waters.
 
@@ -148,7 +148,7 @@ What are some of the equivalent things going on in micro frontends? What are the
 
 One thing -- when we do this kind of projects, we use a concept which is called self-contained systems. The idea of having the system that a team owns be as self-contained as possible, holding its own data, not using a central data store together with the other teams... We do replication in the background, for example; so we have one team who owns the master product database, for example, and they also do the UI where the people from the company can enter new products... And all other teams also need product data; not the full database, but at least a name and an image, maybe a price... And we do replication between the systems to cope for the case of one team failing, so that we don't have this cascade of one thing goes down and the other teams have to deal with it, other than losing the UI parts, that will definitely be gone when one team goes out.
 
-**Kevin Ball:** \[00:28:37.01\] So in this case, adopting micro frontends forced you into a microservices architecture as well.
+**Kevin Ball:** \[28:37\] So in this case, adopting micro frontends forced you into a microservices architecture as well.
 
 **Michael Geers:** Definitely, yeah. Definitely a huge amount of power. Also, people coming from the microservices world, which say "Okay, this thing you are now calling 'micro frontends' are just microservices with UIs, which we were promoting for a long time, but nobody implemented them."
 
@@ -162,7 +162,7 @@ Is there any way these micro frontends can, for example, publish their data need
 
 **Michael Geers:** \[unintelligible 00:31:00.11\] I think you could build it, but I haven't read from someone who did it... So you're opting for other priorities. You are accepting a single backend, and I think you are in a tighter coupling mode, so your language - what is the product - has to be the same across all teams. The thing we are advocating comes more from the domain-driven design world, where you accept that the term product means something completely different when you talk to warehouse people, than when you talk to marketing people; they think about the product in completely different ways. So dividing the data model into multiple paths is the thing that might get into your way if you're trying to build large applications where people don't talk to each other this way.
 
-**Break:** \[00:32:02.07\]
+**Break:** \[32:02\]
 
 **Kevin Ball:** One thing you mentioned in that last bit, Michael, was around wanting to really allow teams to go their own way and make their own decisions, and all of that sort of thing. But that can also potentially lead to catastrophic performance implications. One of the early criticisms I saw of micro frontends is it now becomes really easy to have a frontend application that's loading all of React, and all of Vue, and maybe even all of Angular, because each team is making their own decisions... And suddenly, you've got megabytes of JavaScript going out to your browser.
 
@@ -180,7 +180,7 @@ Another interesting trend we are starting to see is the appearance of smaller li
 
 I think trends for stuff like Svelte or Stencil, which would use the framework overhead completely - so the code grows linear to the amount of features you build - will play in this direction even further... So you minimize the overhead.
 
-**Kevin Ball:** \[00:36:02.05\] Yeah, it does seem like runtimeless frameworks like Svelte are a perfect match for this...
+**Kevin Ball:** \[36:02\] Yeah, it does seem like runtimeless frameworks like Svelte are a perfect match for this...
 
 **Michael Geers:** Yes!
 
@@ -208,7 +208,7 @@ I think trends for stuff like Svelte or Stencil, which would use the framework o
 
 **Jerod Santo:** Yeah, it's kind of a "slow down to go faster" thing, because there's a certain rigidity and thoroughness (for a lack of a better term) required in order to do this correctly and well, that will slow you down in the small, but if it all works out to allow for these advantages of team autonomy and the other things you spoke about, Michael, ends up on a large being a win, even though in these small, little ways you're actually slowing down, for instance to really document the API of this thing.
 
-**Kevin Ball:** \[00:39:56.28\] I think that's why it comes back to this being really an org structure thing, rather than a product thing, right? You implement these approaches when the communication challenges of your org structure get large enough that you reap a lot of benefits by shrinking things down into isolated teams... And then you have to formalize the communication structures across those teams, which include code, and places where you're sharing things... But because communication overheads rise exponentially with the number of people, that can be really valuable beyond some point. And it sounds like, Michael, you've seen that value even be ten people, where you can split across two teams and suddenly you see a pretty big increase...
+**Kevin Ball:** \[39:56\] I think that's why it comes back to this being really an org structure thing, rather than a product thing, right? You implement these approaches when the communication challenges of your org structure get large enough that you reap a lot of benefits by shrinking things down into isolated teams... And then you have to formalize the communication structures across those teams, which include code, and places where you're sharing things... But because communication overheads rise exponentially with the number of people, that can be really valuable beyond some point. And it sounds like, Michael, you've seen that value even be ten people, where you can split across two teams and suddenly you see a pretty big increase...
 
 **Michael Geers:** Yes, definitely. Coming to a decision with five people is much easier than coming to the same decision with ten people.
 

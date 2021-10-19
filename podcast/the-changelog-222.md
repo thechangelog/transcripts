@@ -4,7 +4,7 @@ Gavin is the founder of Ethereum, the creator of the Solidity contract language 
 
 We've got two sponsors today - Code School and Rollbar.
 
-**Break:** \[00:00:37.26\]
+**Break:** \[00:37\]
 
 **Adam Stacoviak:** Alright, we're here today -- Jerod, a fun show. Gavin Wood joining us today from Ethcore... Is that right?
 
@@ -20,7 +20,7 @@ I did school, I actually made a few games then, and I actually ended up publishi
 
 I spent a short stint in the games industry, working with a company called Frontier Developments, which some of the older listeners probably remember as Elite, one of the original 8-bit space trading game, which was pretty enjoyable. I left there to go and do some consulting work on and off. I worked for Microsoft Research for a while, doing some of their more advanced and API-driven projects, working on things like video synthesis and embedded them in specific languages. After a couple of startups I ended up getting to Ethereum. I met up with Vitalik back in late 2013, and we started coding the C++ implementation, which was kind of more or less operational about a month later, and is probably fairly stated as being the first working implementation, in that it's the first one that could actually send transactions between machines and allow you to run programs on the Ethereum virtual machine.
 
-**Adam Stacoviak:** \[00:04:14.18\] You mentioned a name there, Vitalik - he's the inventor and co-creator of Ethereum, right?
+**Adam Stacoviak:** \[04:14\] You mentioned a name there, Vitalik - he's the inventor and co-creator of Ethereum, right?
 
 **Gavin Wood:** That's exactly right, yeah.
 
@@ -42,7 +42,7 @@ If you look at Bitcoin, the only reason Bitcoin really works is that all of the 
 
 **Jerod Santo:** I think that's a pretty good explanation. Speaking of nodes in the network and financial systems, let's dig a little bit into Ethereum, just at a top level, maybe explain some jargon... But I think what might be useful, for your sake Gavin, is to give a little bit of Adam and my background with regard to cryptocurrencies, Bitcoin, Ethereum, just so you know where we stand in terms of understanding. I'll just let you know that our audience is very technical - we're developers, we're hackers, some of us may be cryptocurrency day traders, but you also have those that are more like Adam and myself, casually following along, or perhaps not following along at all. But we all pretty much know what Bitcoin is, and understand how it works, maybe at a high level. Give us Ethereum, the elevator pitch in light of that level of background, and then we'll go on to clarify a few of the terms here next.
 
-**Gavin Wood:** \[00:07:53.19\] Okay, so Ethereum is programmable money. Bitcoin is money, more or less, on the internet; "magic internet money", as it's sometimes called. Ethereum is programmable money. It's doing the same thing, it's still magic internet money, but this money can have particular software attached to it, particular conditions or particular logic. It can even storage attached to it, so the money can remember some sort of history, can remember what happened to itself, and it can do different things depending on that memory. So that's really what we're talking about with Ethereum.
+**Gavin Wood:** \[07:53\] Okay, so Ethereum is programmable money. Bitcoin is money, more or less, on the internet; "magic internet money", as it's sometimes called. Ethereum is programmable money. It's doing the same thing, it's still magic internet money, but this money can have particular software attached to it, particular conditions or particular logic. It can even storage attached to it, so the money can remember some sort of history, can remember what happened to itself, and it can do different things depending on that memory. So that's really what we're talking about with Ethereum.
 
 Now, it could also be described as a decentralized application platform, it could be described as a smart contract platform, but at the end of the day, probably the thing that makes most sense to people is the notion that it's money that can have program software installed actually in it.
 
@@ -60,7 +60,7 @@ Finally, the DAO. The DAO is a very particular bit of software that was placed o
 
 **Gavin Wood:** Yeah, I mean, other systems have attempted this. If you look at, for example, Omni (Mastercoin) or Counterparty - they've attempted to actually layer on top of Bitcoin, and it's difficult. Bitcoin really wasn't designed to be a base layer of ultimately multiple protocols, so it's trying to -- I think Vitalik actually coined the phrase, "It's like trying to implement HTTP over SNTP", it doesn't quite work.
 
-\[00:12:02.10\] The alternative, which is to sort of try and build Bitcoin out into something much more like Ethereum I think is possible, but then you've got the issue of governance - who decides how the Bitcoin protocol should evolve at a time? And being an entirely decentralized peer-to-peer system, there is really no governance system in place to make that decision, and as such, what we've seen over the months and years is that Bitcoin actually is relatively stable, some might say, or stagnant, other might say.
+\[12:02\] The alternative, which is to sort of try and build Bitcoin out into something much more like Ethereum I think is possible, but then you've got the issue of governance - who decides how the Bitcoin protocol should evolve at a time? And being an entirely decentralized peer-to-peer system, there is really no governance system in place to make that decision, and as such, what we've seen over the months and years is that Bitcoin actually is relatively stable, some might say, or stagnant, other might say.
 
 Either way, significant changes are very difficult to make to Bitcoin, basically because you require everybody's acceptance before they can go in.
 
@@ -76,7 +76,7 @@ As such, I did not believe at the time that we were going to end up programming 
 
 Similarly with Ethereum - the first language I created for programming contracts was LLL, the low-level language (Lisp-Like Language), which was indeed very low-level. You tended to code with opcodes themselves, but it allowed you to do so in a way that was a little more convenient.
 
-**Jerod Santo:** \[00:16:01.08\] Right. So you said contracts there, and you mentioned smart contracts previously, and perhaps that's a term that we haven't quite explicitly stated how that fits into the equation. It sounds like smart contracts are kind of the end result of the programming that you do. Can you explain smart contracts and what that means?
+**Jerod Santo:** \[16:01\] Right. So you said contracts there, and you mentioned smart contracts previously, and perhaps that's a term that we haven't quite explicitly stated how that fits into the equation. It sounds like smart contracts are kind of the end result of the programming that you do. Can you explain smart contracts and what that means?
 
 **Gavin Wood:** Yeah. The smart contracts are something that Nick Szabo wrote somewhat about in the early '90s. It's basically the idea that you can have contracts which are written in English or whatever the language of the country is, and sort of execute it in terms of a court ultimately, and lawyers and judges. Or, you can have the same sort of concepts, the same sorts of agreements, but codify it in a machine-readable fashion, and ultimately execute it by computers.
 
@@ -86,7 +86,7 @@ What Ethereum does is it provides a platform for these smart contracts. It provi
 
 Before that, let's tee this up and we'll take our first break. So we have smart contracts, we can program them with this Solidity programming language (or set of languages) and run these things on the Ethereum Virtual Machine... But the question that comes to my mind, and I think the one that's interesting to our audience so much as developers is like, that sounds great and all, but what can I build? What does this open up? What are some applications that now I can create using this that I couldn't create previously? Don't answer that, Gavin, we'll take a break and you can answer it on the other side. We'll be right back.
 
-**Break:** \[00:18:57.25\]
+**Break:** \[18:57\]
 
 **Jerod Santo:** Alright, we are back with Gavin Wood, talking about cryptocurrencies in general and Ethereum in particular. Gavin, I teed up before the break that I'm interested in what are the kind of things that can be built on this platform, and maybe perhaps just as interesting, things that have been built or are being built. What are some use cases, where does this really fit in where we can take advantage of it as developers?
 
@@ -96,7 +96,7 @@ It seems like an obvious thing. It's like "Of course there's a computer, and of 
 
 When we think about applications, then we get to the thing of "Well, actually, what could I do if there were this JavaScript environment that anybody could log into and could do so securely, with an authenticated user identity that we could count on?" Then we could start thinking about, "Well, what does the service currently offer that the Ethereum machine/computer could in principle do?" and one of them is obviously currencies. Central banks - and probably most consumer banks - will have a computer that retains the account balances of each identity that banks with them, each person or each organization. In principle, we can place this software on this willed computer. But because it's a willed computer and it's shared it means that we cannot just be fairly guaranteed it's gonna work okay because we can audit it, but also we can use these balances, this logic in other applications. So no longer do we need to start integrating with banks or central banks or payment systems, but we can use the currency directly because it turns out that the object - literally, the software object, the instance - that is listing everybody's account balances is in the same environment (literally, almost in the same computer program) as the software that's actually wanting to make a payment.
 
-\[00:24:25.17\] And when you start considering, "Well, actually there's not limit to this...", the environment can be added to as required, and anybody can push logic and code to the environment, and be sure that the logic and code that they see is gonna continue working exactly as they expect, or at least as the code states, then we can start really thinking about how we can rewire society so that many of our systems that we currently have to have behind walled gardens, looked after by very influential and powerful organizations and people -- or we can start bringing this logic that ruins society (because it really does ruin society) actually into a shared space and sort of redemocratize it, if you like.
+\[24:25\] And when you start considering, "Well, actually there's not limit to this...", the environment can be added to as required, and anybody can push logic and code to the environment, and be sure that the logic and code that they see is gonna continue working exactly as they expect, or at least as the code states, then we can start really thinking about how we can rewire society so that many of our systems that we currently have to have behind walled gardens, looked after by very influential and powerful organizations and people -- or we can start bringing this logic that ruins society (because it really does ruin society) actually into a shared space and sort of redemocratize it, if you like.
 
 **Adam Stacoviak:** I have a question here on the building side of things, Jerod... Just using Coinbase (since we've mentioned them) as the example, when you say "How do you get Ether?" or "How do you buy Ether?", you know, their steps are pretty easy, it's 1-2-3. You sign up for Coinbase - we're not advertising for them, but this is how you get Ether, in this case, unless you mine it... So you sign up for Coinbase, you connect your bank account and you essentially exchange some currency that you have, which could be USD, it could be GBP or something else, and then you buy, and then you can sell Ether. At what point does a developer or someone who cared to build something on this - at what point do they get to program Ether?
 
@@ -118,7 +118,7 @@ What we normally think of as being something that sits on a server, that has may
 
 **Gavin Wood:** Now, the other thing is to say the concepts that the blockchain can currently encode -- the language that we have to play with in terms of what aspects of reality we want to place on the blockchain... For example, if we're talking about a marriage contract, we may want to talk about things like there being a judge in the case of divorce to determine whose fault it was that they're getting divorced, in order to make sure that there's proper payment between the two -- now, the notion of judge is not really... It's pretty easy to write that into a legal contract, because we have centuries of case lore about what it is to be in such a role - that's not the case with Ethereum; we're still in the very early days, so we have relatively little concept. Our language is not very rich. But the richness is something that, in the same way that with programming you end up increasing the level at which you code over time, there's more and more system libraries written and integrated into the system, and you end up being able to code in much richer concept. That's gonna be the same with Ethereum.
 
-\[00:30:03.09\] At the moment, the concepts we're able to draw on are relatively poor, but over time we're going to be building system libraries, you might say, or case precedent lore, in the case of legal parallel - this is going to build up the language into something much richer.
+\[30:03\] At the moment, the concepts we're able to draw on are relatively poor, but over time we're going to be building system libraries, you might say, or case precedent lore, in the case of legal parallel - this is going to build up the language into something much richer.
 
 **Jerod Santo:** I think it might be useful to specify a specific set of contracts that we could talk about in real terms, and that would help us understand the ins and the outs - I think that's what Adam was getting at... How does the Ether fit in, how do you get money in and out? The DAO is no doubt your most popular set of contracts, and perhaps a little bit notorious now because of the hack... Give us the DAO, the lay of the land, and the recent history there, and help us understand Ethereum in light of it.
 
@@ -134,7 +134,7 @@ Now, you can buy into the DAO - that was the idea - by depositing Ether under th
 
 **Gavin Wood:** Sure. There was a company called Slock.it, which still exists - they're doing as far as I hear reasonably well - and for whatever reason Slock.it wanted to pursue this idea of a universal sharing network. This is the idea of basically take something like Airbnb, take Uber and maybe a few other apps that allow people to share their resources or do decentralized service industry work - that's kind of what this was about. This was basically trying to take a resource that you own and be able to allow someone else to use it for a period of time, in return for a payment.
 
-\[00:34:09.00\] The idea behind Slock.it was basically to say, "One of the critical elements to make this work is gonna be a lock that's controlled by a blockchain." So they went and made a lock that was controlled by a blockchain.
+\[34:09\] The idea behind Slock.it was basically to say, "One of the critical elements to make this work is gonna be a lock that's controlled by a blockchain." So they went and made a lock that was controlled by a blockchain.
 
 **Adam Stacoviak:** While we're on this subject, I don't mind if maybe we can establish, as you said earlier Jerod, some terminology. It may be completely obvious for those who are deep into this, but for those who aren't, what exactly is a blockchain?
 
@@ -150,7 +150,7 @@ What we've done basically with the blockchain is create a decentralized version 
 
 And then yes indeed, there was a bug in the contract, which was probably a bug that would be recognizable to a low-level device driver programmer. In a way, the contracts that we're writing, these programs are more or less at that level, because they're dealing so closely with the Ethereum Virtual Machine. Essentially, it was a re-entry bug. A particular function call was being called actually within itself by the malicious transaction, so before it actually finished its operation, it was being called again; because of the order of the points in the function, it was doing the bad thing before it was doing the good thing, so the bad thing started to multiply up.
 
-\[00:38:13.00\] Eventually, they were asymmetric and the good things couldn't make it back down to normal again. That's essentially what went wrong. Basically, someone was draining money out (the bad thing) and there was no way of compensating that with a good thing, because so much money had been drained out.
+\[38:13\] Eventually, they were asymmetric and the good things couldn't make it back down to normal again. That's essentially what went wrong. Basically, someone was draining money out (the bad thing) and there was no way of compensating that with a good thing, because so much money had been drained out.
 
 Now, when I think of a re-entry bug, I think of interrupt programming, and it was only after this bug that I thought actually what we're doing with the contracts is in some sense more similar to interrupt rather than function calls. When we think about function calls, we don't really thing about re-entry bugs, at least not malicious re-entry bugs. With interrupt programming it's a little different and you're much more careful about your state because you do actually fear that the same interrupt may be called while the current one is executing.
 
@@ -166,7 +166,7 @@ Now, when I think of a re-entry bug, I think of interrupt programming, and it wa
 
 **Gavin Wood:** I think the Wild Wild West comment is quite true. It is a lawless area if you don't count the law of the program, the law of the software. Ultimately, the software is based upon a social system, which is assuming that everybody is self-interested and the economics of the blockchain will mean that no individual can actually alter the outcome of anything. Everyone is almost pulling in a different direction, which averages out at zero. That's the kind of thing that blockchain is trying to engender, and that's the economic game that acts as the foundation to why the blockchain is fair and democratic.
 
-\[00:41:59.13\] With the DAO, so much of the value was compromised, that that assertion was not wholly true; the parties that were maintaining Ethereum - the community, in fact - had an awful lot to lose. What happened is that they formed almost like a special interest group within the Ethereum community, which wanted a reset of this particular bug, or particular exploit of the bug.
+\[41:59\] With the DAO, so much of the value was compromised, that that assertion was not wholly true; the parties that were maintaining Ethereum - the community, in fact - had an awful lot to lose. What happened is that they formed almost like a special interest group within the Ethereum community, which wanted a reset of this particular bug, or particular exploit of the bug.
 
 **Jerod Santo:** So here we have the decision of what to do about it. This is, to give some context, June-July 2016; that's probably enough timeframe, although probably not completely accurate. Then you have conversations going out... Where does the community meet? From my perspective as more of a community watcher, it's like they're on Twitter, they're on Reddit, I'm sure there's forums on different Ethereum websites, probably there's some conversation behind closed doors, but from your perspective, where is the community conversation going around about "What do we do about his circumstance?"
 
@@ -180,7 +180,7 @@ One of the more interesting places was this voting system - I don't remember who
 
 **Jerod Santo:** Really?
 
-**Gavin Wood:** \[00:45:45.19\] Nobody made a specific decision other than the miners themselves. Some of the miners just decided one way or another. Other miners, particularly the pools, actually put it out to a vote. They said to their members, "Which way would you like us to mine? Which flag would you like us to set?", and the pool members would have voted one way or the other. I think one of the pools actually voted against the fork, so they voted to keep the exploit in place. But I think ultimately actually the pool decided to override them anyway, when it was clear that everybody else was going with the other.
+**Gavin Wood:** \[45:45\] Nobody made a specific decision other than the miners themselves. Some of the miners just decided one way or another. Other miners, particularly the pools, actually put it out to a vote. They said to their members, "Which way would you like us to mine? Which flag would you like us to set?", and the pool members would have voted one way or the other. I think one of the pools actually voted against the fork, so they voted to keep the exploit in place. But I think ultimately actually the pool decided to override them anyway, when it was clear that everybody else was going with the other.
 
 **Jerod Santo:** Does that mean that from that point forward, once you had people running with both flags, you basically have two blockchains or two histories that are running in parallel? Is that how that works?
 
@@ -200,7 +200,7 @@ We're gonna have to go through the same phase with Ethereum. There's gonna be an
 
 The second thing that could happen is just the economic foundation behind the smooth running of the Ethereum at work gets a little afraid, and that's pretty much what happened with the DAO. The fact it forked owed to the fact that there was such a large contingent of value that people wanted to save, that were also people who maintained the Ethereum network.
 
-\[00:50:05.09\] I think as the network matures, that's gonna be much less likely to happen, quite simply because the value of Ethereum is going to disperse as more and more people get involved.
+\[50:05\] I think as the network matures, that's gonna be much less likely to happen, quite simply because the value of Ethereum is going to disperse as more and more people get involved.
 
 **Adam Stacoviak:** I guess another question is, on the front of that, as you mentioned before Jerod, 150-160 million dollars in the DAO, and Gavin, with you seeing this as still sort of compared to the Wild Wild West, and then what you just said there - it seems like it's even in guinea pig stage almost... Not so much that it doesn't work, because it does, but there's some kinks in the robe that need to be ironed out, and only maturity and only time will allow that to happen. Is it possible that someone with lots of money in Ether could potentially lose big as part of maturity?
 
@@ -238,7 +238,7 @@ You have a lot of your personal wealth in Ether; I assume that you also had a pa
 
 **Jerod Santo:** Wow.
 
-**Gavin Wood:** \[00:54:04.00\] So in reality, I'm not sure whether it really was saving money. That said, if you have the option of trying to right what is pretty obviously a wrong, should you do something or should you not do something? For me it was less of a practical concern and more of just like "Well, maybe if I see someone being robbed in the street, I would like to actually be the guy that goes up and stops the robber and returns the handbag."
+**Gavin Wood:** \[54:04\] So in reality, I'm not sure whether it really was saving money. That said, if you have the option of trying to right what is pretty obviously a wrong, should you do something or should you not do something? For me it was less of a practical concern and more of just like "Well, maybe if I see someone being robbed in the street, I would like to actually be the guy that goes up and stops the robber and returns the handbag."
 
 **Adam Stacoviak:** Right.
 
@@ -254,13 +254,13 @@ You have a lot of your personal wealth in Ether; I assume that you also had a pa
 
 It seems like you weathered the storm, but I wanna talk about the fallout and the repercussions of the hard fork, where things are now, and give people some look into the present and the future and how we can fit in as software developers. So, tee that all up, and we'll be right back.
 
-**Break:** \[00:56:33.11\]
+**Break:** \[56:33\]
 
 **Adam Stacoviak:** Alright, we are back with Gavin Wood and we have done it... We've survived the DAO hack, we are on the other side now looking back. This is late September, early October 2016, the Ethereum community still lives... It's a little bit different now; we actually have two histories, two currencies. There's now Ethereum and Ethereum Classic. Gavin, give us the lay of the land now, after you guys have survived and moved forward from the unfortunate summer you had.
 
 **Gavin Wood:** Well, it's more or less as you said - Ethereum split up, basically, between the people that run with the flag that said "Help rescue the DAO", and on the other hand, the people who didn't run with that flag. We have the immutable Ethereum, as it were, the Ethereum where the code truly did rule, the broken code rule, and then the Ethereum where it was sort of hardcoded to fix that application issue. That's more of less where it stands.
 
-\[00:58:16.14\] By and large, the aftermath has died down, people are getting on. I think at the moment that the Devcon, the Ethereum conference is happening in Shanghai; I don't think there's all that much talk about Ethereum Classic, although I can't say for sure.
+\[58:16\] By and large, the aftermath has died down, people are getting on. I think at the moment that the Devcon, the Ethereum conference is happening in Shanghai; I don't think there's all that much talk about Ethereum Classic, although I can't say for sure.
 
 From what I've seen of the talks, people are sort of focusing much more on the forward-looking stuff, rather than the DAO. The Ethereum Classic community seems to be continuing; I haven't seen any major technical improvements on it recently, but nonetheless there's a change in their logo, and it is continuing. The price is dropping somewhat, but yeah, it seems to be still here.
 

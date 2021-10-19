@@ -28,7 +28,7 @@
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:04:04.07\] And of those three, I think Consistency historically has been our problem. We've not always been all that consistent with shipping shows. We've had long breaks, we almost podfaded at one point... And we've had streaks where we shipped three shows in a day and then not ship for a couple of weeks.
+**Jerod Santo:** \[04:04\] And of those three, I think Consistency historically has been our problem. We've not always been all that consistent with shipping shows. We've had long breaks, we almost podfaded at one point... And we've had streaks where we shipped three shows in a day and then not ship for a couple of weeks.
 
 I think probably the best thing that happened to us at the Changelog in 2018 - 47 episodes... You know, we shoot for 50, roughly, plus or minus?
 
@@ -42,7 +42,7 @@ Then obviously consistency... You mentioned we've had some ups and downs on that
 
 **Jerod Santo:** Absolutely.
 
-**Adam Stacoviak:** I think 47 episodes later - yeah, I'm pretty stoked about that. Three shy of our actual goal... I'm curious, what do you think made us miss that goal? Was it maybe our more frequent traveling? I think we've actually traveled a little less this year than we did last year, 2017. You had a \[00:06:19.16\] in 2017.
+**Adam Stacoviak:** I think 47 episodes later - yeah, I'm pretty stoked about that. Three shy of our actual goal... I'm curious, what do you think made us miss that goal? Was it maybe our more frequent traveling? I think we've actually traveled a little less this year than we did last year, 2017. You had a \[06:19\] in 2017.
 
 **Jerod Santo:** Yeah, I would have to look back and see which actual weeks we missed, and then correlate what happened, but... We're talking about the Changelog; that's 47 episodes of the Changelog. We've shipped a lot more episodes than that throughout our entire catalog, so it's not that we haven't always been shipping, it's just that for some reason the Changelog itself -- sometimes guests cancel, sometimes we've got things that come up, other times we take a trip... We went to OSCON and we got a bunch of content there, but while we're there, we may not ship a show that week, for instance. So things come up...
 
@@ -56,7 +56,7 @@ The first one that I highlight is Winamp2 JS, which is right up there on my pers
 
 **Adam Stacoviak:** Some interesting sub-facts about Jordan Eldredge, the creator of that projects... He went to the n-th degree around the creation, and kind of tie back to the original Winamp... He was very specific with how he did it, and I think it was one of those labor of love projects that just had a lot of good fruits to come from it. One, an appearance on the show here, and then, you know, Facebook, getting hired there, working on Nuclide.
 
-**Jerod Santo:** \[00:08:16.07\] Yeah, and I think one of the reasons why maybe that show was so popular in terms of downloads is because Jordan was very fun and forward to work with us and try interesting things... Back in the spring and early summer I was Twitch-streaming stuff, and just experimenting, and he would hop on there and we were hacking on Winamp2, trying to get a Winamp version of our on-site player at Changelog.com to work... And then he actually took the episode and he put it in the playlist of the Winamp2 JS homepage.
+**Jerod Santo:** \[08:16\] Yeah, and I think one of the reasons why maybe that show was so popular in terms of downloads is because Jordan was very fun and forward to work with us and try interesting things... Back in the spring and early summer I was Twitch-streaming stuff, and just experimenting, and he would hop on there and we were hacking on Winamp2, trying to get a Winamp version of our on-site player at Changelog.com to work... And then he actually took the episode and he put it in the playlist of the Winamp2 JS homepage.
 
 There's a specific URL that if you go directly to it I think it's just like his homepage .changelog... Or /changelog, excuse me; it's not a file extension, it's a sub-directory. Something like that, and it would automatically play his episode of the Changelog in Winamp2 JS, in the browser. That was super rad, and I think that probably got him some extra downloads on his episode.
 
@@ -92,7 +92,7 @@ Well, she moved from one side of the country to the other, and she talks about t
 
 So add that, plus the fact that I'm time-constrained, as you well know; I'm not a full-time changelogger. We hope to change that soon, at which point maybe I will be streaming on Twitch again, but... Just time-constraints and productivity, basically. It was fun, people were involved, it had some traction... It just wasn't really -- in terms of ROI for a business it just wasn't there.
 
-**Adam Stacoviak:** \[00:12:21.00\] It's interesting, because I think in that show -- we actually left that show with Suz very bullish on the idea, and I think there's a lot of people who look at someone like Suz, for example her dedication and commitment to it, "Oh, I can do that." You probably can, but then you get into it and you realize "Wow, this actually is really hard" six months in, or x weeks in, or whatever it is, and that's just credit to someone like Suz, who's just got such -- I mean, she travels tons, she does a great work at Microsoft, she's always involved in JS Party now...
+**Adam Stacoviak:** \[12:21\] It's interesting, because I think in that show -- we actually left that show with Suz very bullish on the idea, and I think there's a lot of people who look at someone like Suz, for example her dedication and commitment to it, "Oh, I can do that." You probably can, but then you get into it and you realize "Wow, this actually is really hard" six months in, or x weeks in, or whatever it is, and that's just credit to someone like Suz, who's just got such -- I mean, she travels tons, she does a great work at Microsoft, she's always involved in JS Party now...
 
 I mentioned one of my favorite things is when a show turns into a friendship, and she's been a great friend to us in many different ways, and a great contributor to a lot of the content we're producing here... I just love it when the community comes full circle. Suz is out there in the world, doing her awesome stuff, we cross paths on a podcast, and now we're friends forever, and we found ways to work together, too. To me, that's what I think makes this game worth playing for.
 
@@ -112,7 +112,7 @@ I think one is just the managing and being a leader within a developer organizat
 
 **Jerod Santo:** Yeah, it's difficult when we plan out shows, because we're trying to serve a breadth of experience in terms of our audience. We know we have the super-hardcore hackers, and then we have the people who are just learning, and then we have people who are tangential to the actual code, but maybe not necessarily writing code day-to-day...
 
-\[00:16:06.28\] Some of our shows -- I mean, one that I was thinking of that I didn't expect would do as well as it has in terms of just listenership was our "Keeping up with Elm" episode that I did back in October with Richard Feldman... Super straight scope, small scope - talking about Elm. It's a catch-up show, which means you kind of have to know Elm in the first place, or at least know what it is... And we're talking about new features, and speed, and the way things are architectured... Just very nerdy, very technical, and it still over the last couple months was one of the most popular episodes. But a show like that one with Julia is just more approachable for a bigger audience, where you don't necessarily have to have the technical expertise to get something out of it... And she has, like you said, so much wisdom and experience in leadership that there were just tons of takeaways.
+\[16:06\] Some of our shows -- I mean, one that I was thinking of that I didn't expect would do as well as it has in terms of just listenership was our "Keeping up with Elm" episode that I did back in October with Richard Feldman... Super straight scope, small scope - talking about Elm. It's a catch-up show, which means you kind of have to know Elm in the first place, or at least know what it is... And we're talking about new features, and speed, and the way things are architectured... Just very nerdy, very technical, and it still over the last couple months was one of the most popular episodes. But a show like that one with Julia is just more approachable for a bigger audience, where you don't necessarily have to have the technical expertise to get something out of it... And she has, like you said, so much wisdom and experience in leadership that there were just tons of takeaways.
 
 **Adam Stacoviak:** It was definitely one of my favorites, because we did kind of get away from just simply the technical sides of things... And you know, actually on today's frontpage of Changelog.com - this is sort of an aside here real quick, off the beaten path of our plan here, but "Is code enough?" That was a talk by Henry Zhu at All Things Open, and I think it just goes similar to that, not so much "Is code enough?", but is it only about code? And I think our obvious answer is no, it's not only about code. I mean, at the other end of every function is what? More data. Just kidding... HUMANS! Humans, right? Humans are there...
 
@@ -130,7 +130,7 @@ I think one is just the managing and being a leader within a developer organizat
 
 Sure, most everybody just thinks "Oh, it's Microsoft's cloud" or whatever, but I think this is such an interesting story on how we even began this show, and back to the beginnings of Office... She told this whole story of how Azure actually began with -- what was that presentation? What was the insider thing they have at Microsoft...? I can't remember what it's called now. The server they have... Not IIS server, but the...
 
-**Jerod Santo:** \[00:19:53.03\] SharePoint?
+**Jerod Santo:** \[19:53\] SharePoint?
 
 **Adam Stacoviak:** SharePoint, yeah. I think it was some sort of cloud-based SharePoint idea \[unintelligible 00:19:56.04\] if I'm remembering correctly... I could probably scan the transcript and find this out.
 
@@ -162,7 +162,7 @@ I've seen her since then speak on stage. That wasn't her first time to the rodeo
 
 **Jerod Santo:** Yeah. One last -- this isn't a single episode. I did not put it in our outline, so if I'm wondering what I'm talking about, I just am looking at the stats here as we talk, and one other -- I guess I'll call this a trend... Two episodes that both fared pretty well, and were both on the same topic, is GraphQL. If we think about what developers are interested in, things that are burgeoning and becoming more popular, episode \#297 with Johannes Schickling, "Prisma and the GraphQL data layer" did very well with our listeners, and then of course, John Resig \[unintelligible 00:24:02.23\] this is actually a cross-post from JS Party; this was a JP Party episode that we did with -- Suz and I interviewed John Resig, all about GraphQL, because he's quite bullish on it... And that was a JS Party episode, but we put it in the Changelog feed, because it was so good. That one also was very popular... So GraphQL is hitting on all cylinders at this point in 2018.
 
-**Adam Stacoviak:** \[00:24:29.04\] I really enjoyed the 101 too, that we got recently, on just Graph databases, the laying that out to me, in that episode -- what was the episode for that, since you're on the GraphQL kick...
+**Adam Stacoviak:** \[24:29\] I really enjoyed the 101 too, that we got recently, on just Graph databases, the laying that out to me, in that episode -- what was the episode for that, since you're on the GraphQL kick...
 
 **Jerod Santo:** That was Dgraph, and Manish Jain talking about Dgraph. We were actually focused on licensing in that episode, because Dgraph went through that licensing switcheroo, and Commons Clause, and all that... But he definitely gave a good 101 on graph databases. I actually pulled that out and made a little post of it from the transcript, because it was such a good explanation, and people enjoyed reading that one... So yeah, that was a good episode, as well.
 
@@ -198,7 +198,7 @@ What I like about Zed is he makes us think. He makes us really think about the d
 
 **Jerod Santo:** It's definitely up there. It's top 15 for the year, so... It did well, it was listened to.
 
-**Adam Stacoviak:** \[00:28:17.26\] Right. So it wasn't not a listener favorite, it just wasn't THE most favorite.
+**Adam Stacoviak:** \[28:17\] Right. So it wasn't not a listener favorite, it just wasn't THE most favorite.
 
 **Jerod Santo:** No. Well, controversy of course brings listens, because people wanna hear what's going on, so... Lots of engagement, I guess, if we're gonna use the internet marketing speak.
 
@@ -222,7 +222,7 @@ This story and this person just mean so much to me afterwards. As you'd mentione
 
 We did that show, and I think it was 117 minutes long, so almost two hours. Good luck with the ride if you do listen to this show, and... Maybe skip the last two minutes, because I know I almost teared up in the last two minutes, personally.
 
-**Jerod Santo:** \[00:32:21.03\] Well, speaking of favorites, real quick, because we've got other stuff to get to - let's real quick each of us pick a favorite episode of the year; personal favorite, not necessarily the one that did the best, or resonated the most, or was the most controversial.
+**Jerod Santo:** \[32:21\] Well, speaking of favorites, real quick, because we've got other stuff to get to - let's real quick each of us pick a favorite episode of the year; personal favorite, not necessarily the one that did the best, or resonated the most, or was the most controversial.
 
 **Adam Stacoviak:** So this is staff favorites...
 
@@ -268,7 +268,7 @@ And here's Angie coming on, core contributor, staple of the community in Drupal,
 
 **Adam Stacoviak:** Oh, boy...
 
-**Jerod Santo:** \[00:35:52.09\] But by the end of the call -- I remember having to run to the bathroom at the end... But just a blast. Brett is such a nice guy... What a great message; again, more on the community side. Of course, he has deep roots in Python, Python core contributor for many years... He's been through it all, and he's stuck through thick and thin, a lot of the problems in open source, and a lot of the victories, and just has a really positive and solid message... And I felt like by the end of that show and by the end of that four-hour conversation that we had a friend, so that was a great episode.
+**Jerod Santo:** \[35:52\] But by the end of the call -- I remember having to run to the bathroom at the end... But just a blast. Brett is such a nice guy... What a great message; again, more on the community side. Of course, he has deep roots in Python, Python core contributor for many years... He's been through it all, and he's stuck through thick and thin, a lot of the problems in open source, and a lot of the victories, and just has a really positive and solid message... And I felt like by the end of that show and by the end of that four-hour conversation that we had a friend, so that was a great episode.
 
 **Adam Stacoviak:** I'm trying to get to the episode to see what the time was. So if we were on the call for four hours...
 
@@ -314,7 +314,7 @@ We do have a show that maybe y'all don't know about called Backstage, and it's k
 
 **Jerod Santo:** That's right. That's the battle-hardened way to do it.
 
-**Adam Stacoviak:** \[00:40:07.16\] I've done that. I actually personally subscribed to our Master feed. I used to track -- because you always pay attention to what you do, to some degree at least, how things work and stuff, QA... I listen to shows I'm not on, I love it... That's how I do it - I actually subscribed to the Master feed, because it's just easier.
+**Adam Stacoviak:** \[40:07\] I've done that. I actually personally subscribed to our Master feed. I used to track -- because you always pay attention to what you do, to some degree at least, how things work and stuff, QA... I listen to shows I'm not on, I love it... That's how I do it - I actually subscribed to the Master feed, because it's just easier.
 
 **Jerod Santo:** It's just less feeds.
 
@@ -338,7 +338,7 @@ Now we actually have six active podcasts. Right now Go Time is on hiatus, but co
 
 Those were fun to do, but we've got some plans around our podcasts, and that's why we say, subscribe to the Master feed. There's more than just the Changelog. So if you're listening to this and you're thinking like "I had no idea about the other shows... This is amazing!", well, today is basically Christmas for you, or something like that, because... You know, we've got more shows, the Master feed is for you, and there's lots that you've been missing out on.
 
-\[00:43:54.29\] I'm pretty excited about that, because we mentioned Suz earlier, and different relationships... We've added on more of a team to JS Party; the panelists grew from three - we hiatused it for a little bit, brought it back with a larger panelist perspective, to give Mikeal, Alex and Rachel kind of a break, because they were kind of getting burned on being able to travel, and be there, and the show was, you know, a little off and on in its frequency because of that... And going back to the three C's, it makes sense... But Suz Hinton, Feross Aboukhadijeh, Kevin Ball, you, Jerod, Nick Nisi, Safia Abdalla, Christopher Hiller, Mikeal Rogers, Alex Sexton and Rachel White are all current panelists of this awesome show we call JS Party. I love that show.
+\[43:54\] I'm pretty excited about that, because we mentioned Suz earlier, and different relationships... We've added on more of a team to JS Party; the panelists grew from three - we hiatused it for a little bit, brought it back with a larger panelist perspective, to give Mikeal, Alex and Rachel kind of a break, because they were kind of getting burned on being able to travel, and be there, and the show was, you know, a little off and on in its frequency because of that... And going back to the three C's, it makes sense... But Suz Hinton, Feross Aboukhadijeh, Kevin Ball, you, Jerod, Nick Nisi, Safia Abdalla, Christopher Hiller, Mikeal Rogers, Alex Sexton and Rachel White are all current panelists of this awesome show we call JS Party. I love that show.
 
 **Jerod Santo:** Yeah, talk about consistent... Ever since we rebooted it - I think it was back in June, with this new expanded panel, and a new time, which is Thursdays at noon Central, 1 PM Eastern (I guess that's 10 AM Pacific Time), we've shipped an episode every week ever since. So we've been very consistent. It's been a blast having a rotating panel. I look at it like cheers; you wanna go somewhere where everybody knows your name... And of course, it's a JS Party, so we really have a fun atmosphere. And even though I'm not the JavaScript guy, I have felt very welcome there, I've had lots of fun... I still feel like I have things to say, because I write plenty of JavaScript... And it's been fun to just be a part of that panel of people. So many smart people, so much fun.
 
@@ -350,7 +350,7 @@ My most favorite thing about JS Party is, I would say, the respect level everyon
 
 **Jerod Santo:** Yeah, there's lively debates. There's lots of laughing. It's a blast, and it's been a joy to work on and to put out each and every week this year. Let's talk about Away From Keyboard a little bit, because we've mentioned it off-hand... We've mentioned Tim, so maybe you should give the full story on Tim as our newest addition to the team... It was 2018, right? He wasn't with us in 2017. So a huge change, and a huge advance, and one of the reasons why we've been able to accomplish the consistency side is because of Tim, and Away From Keyboard is his show... So Adam, why don't you tell the folks about Tim Smith?
 
-**Adam Stacoviak:** \[00:47:57.07\] Yeah, let's start with Tim Smith first, and then go on with Away From Keyboard. I've known Tim for -- geez, let's just say years. The blog post I wrote introducing him to our community, the new senior producer here, says that I've known him since 2012... \[background noise\] That's my family in the background; they're coming in as a cameo. They just got back from school.
+**Adam Stacoviak:** \[47:57\] Yeah, let's start with Tim Smith first, and then go on with Away From Keyboard. I've known Tim for -- geez, let's just say years. The blog post I wrote introducing him to our community, the new senior producer here, says that I've known him since 2012... \[background noise\] That's my family in the background; they're coming in as a cameo. They just got back from school.
 
 So Tim joins us as the newest member, senior producer... I've known Tim for many years, and he has always been the kind of person that focused on the details. That's what I love -- it's probably one of my most favorite qualities of Tim... Not my favorite thing of Tim, but my favorite quality of his - his focus and attention to detail; he sweats those things, and I think he holds us accountable to the details, which I really love in a person... Because I will sometimes shave off an edge because I can be lazy, and Tim doesn't let me, basically. Neither you do, Jerod, but you know, that's what I love about Tim.
 
@@ -374,7 +374,7 @@ Yeah, that's all I have to say about Away From Keyboard. I love the show. I love
 
 **Jerod Santo:** Oh, that would be fun. Yeah, Away From Keyboard is awesome. It's about 30 minutes, it's highly produced, and I would say low frequency, but high-quality. If you want one to listen to, of course the one with Suz would be good, if you are a Suz Hinton fan. Episode \#4, if you want a recommendation - Jeff Robbins is an actual rock star. I freakin' love that episode, and I think you will, too... So check that one out, subscribe to AFK, and if Tim's editing this - Tim, if you wanna go above and beyond, splice a little preview of AFK right in here.
 
-**Adam Stacoviak:** \[00:52:09.17\] Boom! Drop it.
+**Adam Stacoviak:** \[52:09\] Boom! Drop it.
 
 **Tim Smith:** Hey. Yeah, thank you. So in this episode that Jerod was just talking about, I asked Jeff Robbins about the decision -- when his band was offered a record deal, he had to stop his business. Was that a difficult decision?
 
@@ -396,7 +396,7 @@ Those episodes - a lot of them are evergreen, so it's a great back-catalog. Of c
 
 I think what's also interesting is that you can still subscribe to the show in Apple iTunes, or in Overcast, or on Android, or wherever you're at. There's still the RSS feed there. So it's not like -- like you said, it's archived on the site and we call it retired, but it's no different than, say, when you go to Netflix and you watch a season and they're already done, like, they're just not doing any more. That's all... That's the difference. You can still listen the same way you listen to every other podcast, it's just that that's the end; when you get to episode 20, there won't be anymore, there won't be episode 21.
 
-**Jerod Santo:** \[00:56:17.27\] Which is kind of nice for us completionists, because you can actually accomplish something, you can finish, which I always appreciate finishing.
+**Jerod Santo:** \[56:17\] Which is kind of nice for us completionists, because you can actually accomplish something, you can finish, which I always appreciate finishing.
 
 **Adam Stacoviak:** We mentioned this as one of our favorites in a recent episode, which was (from what I can tell) a beloved episode; this is kind of going back a little bit to the Changelog... It was our recent conversation about Brave and BAT, but in particular with Request For Commits; if you're a fan of Brendan Eich (who isn't...?), founder of Brave and creator of JavaScript - he talked quite heavily behind the history of the web, how it had been funded, the back-story on the earlier browser wars and the emerging different monetization models they were all coming up with... It was a very different world. The web was becoming the web, and the browsers were becoming the browsers, and the wars were becoming the wars all the same time.
 

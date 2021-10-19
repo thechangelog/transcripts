@@ -48,7 +48,7 @@ Finally, I thought, "You know who's really good with news? It's Saron Yitbarek, 
 
 **Saron Yitbarek:** Sure. I am Saron, I'm host of the CodeNewbie Podcast, and we actually do a lot of stuff beyond the podcast... But the idea came from really my own coding journey. I guess it's been a little over two years ago at this point... So when I first learned to code, I learned mostly on my own for a few months, just in my apartment; I quit my job, I did it full-time. I did Treehouse and Code School, and a bunch of other resources that your listeners are probably familiar with... And it was sad, and lonely, and frustrating, and it was really hard to learn on my own.
 
-\[00:03:59.16\] Then I applied and got accepted into a programming bootcamp, and I did that for three months. It was a great experience for me, I learned a ton, but what I really got out of it was the community; it was really just sitting next to a bunch of people who were just as excited, just as passionate, who were just as terrified as I was learning to code... And that's really where the value was. And I felt that to get that value, it cost me $11,000 and a total of six months without a job... Which fortunately I can afford, but a lot of people can't. And I really wanted to provide a community for people who were struggling and learning to code on their own, and making the switch the way that I did.
+\[03:59\] Then I applied and got accepted into a programming bootcamp, and I did that for three months. It was a great experience for me, I learned a ton, but what I really got out of it was the community; it was really just sitting next to a bunch of people who were just as excited, just as passionate, who were just as terrified as I was learning to code... And that's really where the value was. And I felt that to get that value, it cost me $11,000 and a total of six months without a job... Which fortunately I can afford, but a lot of people can't. And I really wanted to provide a community for people who were struggling and learning to code on their own, and making the switch the way that I did.
 
 So it started with just a Twitter chat, it started with using the hashtag CodeNewbie, and just me tweeting out from my personal account and saying "Hey, if you're out there and you're learning to code, what are you learning? What are you excited about? What are some languages, what are some resources that you'd like to share?" And the people responded. We did that for many months, and it kept growing, and it kept building momentum, and it got to a point where I said "These Twitter chats are great, but you can't really do in-depth conversations with Twitter chats." So I said, huh - a podcast is a really good format for in-depth conversations, so that's how the podcast got started.
 
@@ -72,7 +72,7 @@ And it wasn't so much the saving lives part, it's just me being very honest... A
 
 I worked at NPR for a short bit, I worked at discover magazine... And in that time, I read the Steve Jobs book. And to me, that book just changed my life, because for the first time technology was presented in a way that got me excited about creating, and I'd never ever thought of myself as a creator when it comes to tech. I always thought of myself as a consumer.
 
-**Jerod Santo:** \[00:08:16.21\] Was that his bio, the Walter Isaacson one, or...?
+**Jerod Santo:** \[08:16\] Was that his bio, the Walter Isaacson one, or...?
 
 **Saron Yitbarek:** Yes.
 
@@ -100,7 +100,7 @@ And it's not that I feel like I need to be the best programmer and that's the go
 
 **Jerod Santo:** So you got started on online trading courses, and yet you're here saying that it's awesome, and it sounds like those things were kind of like false starts for you. Is that fair to say?
 
-**Saron Yitbarek:** \[00:11:43.03\] Yeah, I mean, the thing with the online stuff is it helped me enough to know that I wanted to keep going... But I was honestly shocked at the difference between learning online for a few months, and being in a more structured program for the same amount of time. I feel like I was able to skip nine years of what would have been very frustrating, very slow learning, and condense it down to the things that I needed to know to be productive.
+**Saron Yitbarek:** \[11:43\] Yeah, I mean, the thing with the online stuff is it helped me enough to know that I wanted to keep going... But I was honestly shocked at the difference between learning online for a few months, and being in a more structured program for the same amount of time. I feel like I was able to skip nine years of what would have been very frustrating, very slow learning, and condense it down to the things that I needed to know to be productive.
 
 And honestly, a lot of people that we interview on the CodeNewbie podcast are -- at least half of them are mostly self-taught, mostly using online resources and books, and I have so much admiration for those people, because I think it takes a very specific determination, and work ethic, and discipline, and faith in yourself to be able to be productive and get a job purely on online.
 
@@ -134,7 +134,7 @@ I think that if I had a senior developer or someone say "You should do this cour
 
 **Saron Yitbarek:** Yeah. \[laughs\]
 
-**Jerod Santo:** \[00:15:49.14\] I've spent a lot of my career as a solo developer, in my basement... So I have stretches where I don't have a team, and I'm okay with that. It's nice to be around people, it's also nice to be around by myself... But what I miss out on is I wonder am I missing out on -- like, could I be better, even as a developer, or as a thinker, or a problem-solver, if I had somebody else that was riffing and jiving with me? And would I be learning faster? Some of those are reasons why I listen to all the podcasts, and I read all the blogs - I feel like I don't have that much of a community physically there with me of people who are awesome developers and I'm just learning from constantly.
+**Jerod Santo:** \[15:49\] I've spent a lot of my career as a solo developer, in my basement... So I have stretches where I don't have a team, and I'm okay with that. It's nice to be around people, it's also nice to be around by myself... But what I miss out on is I wonder am I missing out on -- like, could I be better, even as a developer, or as a thinker, or a problem-solver, if I had somebody else that was riffing and jiving with me? And would I be learning faster? Some of those are reasons why I listen to all the podcasts, and I read all the blogs - I feel like I don't have that much of a community physically there with me of people who are awesome developers and I'm just learning from constantly.
 
 So I can definitely feel the sense of need for a team, and I do like developing by myself and being solo, but I'm always wondering, "Is the grass really greener over there?" It sounds like perhaps it is... \[laughter\]
 
@@ -166,7 +166,7 @@ So I can definitely feel the sense of need for a team, and I do like developing 
 
 But it was really hard... I worked so hard in college. I worked so, so hard. I graduated in four years, and by the time I graduated I had enough credits to get three full degrees. That's how hard I worked. And I was very active, I stayed up very late, I sacrificed my social life, and at the end of it I was like "Crap, I have no idea what I'm gonna do now." And it was really disappointing for me; it was incredibly disappointing for my parents, especially when I went from well-paying, secure job as a doctor, to journalist. That was not fun.
 
-\[00:20:04.12\] But I think that as sad as I was and as disappointed as I was, I knew that eventually I would figure it out, and getting through the crappy parts where you haven't quite figured it out was way harder than I thought it would be, but eventually I knew I'd get there... And I just asked my parents, and my friends and all that to just be patient with me as I figured it out.
+\[20:04\] But I think that as sad as I was and as disappointed as I was, I knew that eventually I would figure it out, and getting through the crappy parts where you haven't quite figured it out was way harder than I thought it would be, but eventually I knew I'd get there... And I just asked my parents, and my friends and all that to just be patient with me as I figured it out.
 
 But yeah, it was hard, because among my family and my friends I was always the one who did things right, and who played ahead, and who was really organized, and had her crap together... And then I just didn't. And dealing with that was rough.
 
@@ -204,7 +204,7 @@ The hard part for me, specifically with the speaking, was I applied to RailsConf
 
 **Saron Yitbarek:** I think I threw up the night before, and then I got my period immediately after. So that was fun. Oh my god, I was so nervous... I was shaking the entire time. Apparently, you can't tell it from the video, which is great. And I found out that I do this nervous thing where when I speak I actually clench my butt cheeks really hard, to the point where my left one twitches. So that's what that was like.
 
-**Jerod Santo:** \[00:24:18.11\] Did you find this out while you were on stage?
+**Jerod Santo:** \[24:18\] Did you find this out while you were on stage?
 
 **Saron Yitbarek:** I did. I'm like "Why is it twitching? Oh, because I'm clenching them, because I'm so nervous..." So that's what speaking is like.
 
@@ -230,7 +230,7 @@ The hard part for me, specifically with the speaking, was I applied to RailsConf
 
 **Adam Stacoviak:** Well, let's pause here... I know we wanna dive deeper into the story of CodeNewbie, where this came from, all that, but we have some awesome sponsors that make this show possible.
 
-**Break:** \[00:25:01.21\]
+**Break:** \[25:01\]
 
 **Adam Stacoviak:** Alright, we're back from that awesome break. We've got Saron here, we've got embarrassing moments, we've got potential doctorates, new communities forming, nervous twitches we didn't know we had... And then we've got this new community, CodeNewbie, and it's so thriving now... You said earlier you're kind of glad you didn't come on earlier, because the show has gotten better, but you've also grown the community quite a bit... But we like to go back to the beginning, where things first, first began, and I think you said it started on Twitter. Maybe start there, if that's where it began for you.
 
@@ -238,7 +238,7 @@ The hard part for me, specifically with the speaking, was I applied to RailsConf
 
 We did that for a while, and when we started, I had absolutely zero plans to start a community, or a podcast, or team projects, or any of that. I just saw something that I thought was interesting, I saw something that I thought would help people, and so I just started tweeting. I emailed everyone that I knew and I said, "Hey, I'm starting this thing. You should totally jump in and join the chat. I'd love for you to tell your friends and tweet about it."
 
-\[00:28:06.01\] That's where it all started, and eventually it got to a point where it needed to really be its own thing, where people were using the hashtag outside of that one hour, and people would tweet us questions, and specifically would tweet questions using the hashtag, and we'd have conversations around the hashtag... So I thought it makes more sense for CodeNewbie to have its own Twitter account and be its own thing, and then we can talk about being a code newbie full-time, without it being directly tied to my account. That's what happened next.
+\[28:06\] That's where it all started, and eventually it got to a point where it needed to really be its own thing, where people were using the hashtag outside of that one hour, and people would tweet us questions, and specifically would tweet questions using the hashtag, and we'd have conversations around the hashtag... So I thought it makes more sense for CodeNewbie to have its own Twitter account and be its own thing, and then we can talk about being a code newbie full-time, without it being directly tied to my account. That's what happened next.
 
 It's one of those things that I thought would last maybe a couple months, but it just kept going, and people kept coming back... And people started adding it to their calendars, and people were really looking forward to it, so... That's how we got started.
 
@@ -264,7 +264,7 @@ He saw my RailsConf talk which came out by that time, and he saw my cartoon, whi
 
 Around that time they were starting this kind of three-month guest panel -- I think we called it a Rogan Residence Program, where they have different people coming on for three months at a time... So they really liked the show that I did, and they had me on for just a three-month period. And after that, they wanted to keep me on, so they asked me to become a full panelist.
 
-\[00:32:06.00\] I think that was the second most terrifying thing that I've done in code so far... Because every week I had to show up and talk to these incredible people about stuff I didn't really know about, and try to follow along as much as I can, and try to be present without sounding too stupid and too beginnerish... And it was really hard; it was really, really hard. But just like submitting that talk, I did it not necessarily because I enjoyed it every week, but because I knew that that was a really big step for my career, and I knew that it would help me in the long run... So I kind of took my feelings, I put them in a drawer and I closed it, and I said "Just stop it. I can't deal with you right now. I have work to do."
+\[32:06\] I think that was the second most terrifying thing that I've done in code so far... Because every week I had to show up and talk to these incredible people about stuff I didn't really know about, and try to follow along as much as I can, and try to be present without sounding too stupid and too beginnerish... And it was really hard; it was really, really hard. But just like submitting that talk, I did it not necessarily because I enjoyed it every week, but because I knew that that was a really big step for my career, and I knew that it would help me in the long run... So I kind of took my feelings, I put them in a drawer and I closed it, and I said "Just stop it. I can't deal with you right now. I have work to do."
 
 **Jerod Santo:** Just stop it... \[laughs\]
 
@@ -292,7 +292,7 @@ The podcast setup process was really hard. I don't know how it was for you guys 
 
 **Saron Yitbarek:** Yeah. My husband is a techie as well; he's not a developer, but he loves technology and he does a lot of tech stuff, and he loves audio and video editing, and knows a ton about that stuff... So we spent almost every evening for about a month trying out different tools, and different recording software, and different ways to upload audio -- we tried so many different combinations before we found the one that worked, and before we found the one that we really liked.
 
-\[00:36:11.07\] I wanted to make sure my audio sounded as high-quality as it could, and I wanted to make sure that the guest's audio was as good as it could be as well. So there was just a lot of trial and error.
+\[36:11\] I wanted to make sure my audio sounded as high-quality as it could, and I wanted to make sure that the guest's audio was as good as it could be as well. So there was just a lot of trial and error.
 
 Now that we have a process set up, it's fairly straightforward... But I think it was two weeks ago, he went to visit some family in Florida, so I had to do one of my interviews on my own... We usually run the server, and the upload, and all that stuff on his computer, and this time we had to do it on mine, so we had to redo all that setup on my computer... And there were just so many pieces. I'd forgotten how many pieces there were to get it to work.
 
@@ -330,7 +330,7 @@ So it was really hard, but I really wanted to do it, and I love just the excuse 
 
 **Saron Yitbarek:** It's a program for Linux that does really easy file uploads... So we have that also set up on Ubuntu on his computer, and then that's where people upload stuff as well. And then for editing we use audition. So it's not so much that these pieces themselves are complex, it was more about -- for Mumble, one of the other benefits to it is you get really granular control over your audio settings... And we had to figure out what the right settings were. And it took a lot of trial and error to figure out what the right settings were. And the very first episode podcast we did, we did not have the right settings at all. And luckily, the person that I did it with was actually a person who started the Twitter chat with me way back; his name is \[unintelligible 00:39:36.23\] Really great guy, a really great developer... And when we did it, I picked him because he has a great story and he's awesome, but also because I knew that if I had to re-record, or if anything went wrong, he'd be the most understanding person.
 
-\[00:39:51.26\] So when we interviewed the first time, all the settings were terrible; we had to re-record the whole thing and threw it away. The second time that we did it, he sounded fine, but I sounded like crap, so I had to basically redub myself, which was really awkward, because it was over an hour's worth of a conversation, and I had to fake all the laughing, and all the sighs, and the pauses and the breaks... And I also wanted to time it so that the timing just fit in with the existing time.
+\[39:51\] So when we interviewed the first time, all the settings were terrible; we had to re-record the whole thing and threw it away. The second time that we did it, he sounded fine, but I sounded like crap, so I had to basically redub myself, which was really awkward, because it was over an hour's worth of a conversation, and I had to fake all the laughing, and all the sighs, and the pauses and the breaks... And I also wanted to time it so that the timing just fit in with the existing time.
 
 So I did that, and then my audio was still totally wrong, and I was basically clipping the entire time... And I said to myself, "I can't believe I have to do this a third time." So I did it again, and I had a transcript of everything I said, and I'm just like --
 
@@ -406,7 +406,7 @@ I think there are so many unknowns. There are so many technological unknowns, th
 
 **Saron Yitbarek:** Yeah, and what's interesting... So when I worked at NPR, I wrote the scripts, which means that I interviewed the guest ahead of time, I wrote out all the questions, I did all the research, and the host - I wrote for Michel Martin for the show "Tell me more", and she would read from that script, and then ad-lib as much as she wanted to... So I went into the podcasting world thinking I needed to write a script every time. And I did an hour research on every guest, wrote out the questions etc. and it honestly didn't go as well as I wanted... And over time I learned to trust myself. Right now I don't script. I don't even -- I'll do a quick Google search, just so I have main highlights, but I realized that I do a lot better as a podcaster when I know very little about the guest, when I know just enough to ask the right questions, but I don't know the answers... Because then I can naturally take the conversation where the listener wants it to go, because I'm reacting and I'm not planning. And that to me was really surprising.
 
-**Adam Stacoviak:** \[00:44:17.11\] I'm with you there, because I've been in the same position; I've had other shows before besides this show here, The Changelog, and there's times when we scripted just to give us guidelines, not to script it.
+**Adam Stacoviak:** \[44:17\] I'm with you there, because I've been in the same position; I've had other shows before besides this show here, The Changelog, and there's times when we scripted just to give us guidelines, not to script it.
 
 **Saron Yitbarek:** Right, exactly.
 
@@ -450,7 +450,7 @@ And then there are people who don't care about those pieces, and they do a quick
 
 **Adam Stacoviak:** It's essentially just take what you do live and put it right on tape, and don't do much editing, or any editing at all. Maybe you do some EQ-ing, or if it's visual you do some color correction or whatever, but it's pretty much what it is is what it is; it's gone through the door. And I like that approach with the option to edit a little bit, but not the uhms and the ahs, and not to make Jerod's question come perfectly after mine, at the perfect half a second or millisecond later; it's more like just to make sense of the matter, so that it is a good show and it's listenable. That's our angle when it comes to our edits. Our edits - just so everybody knows - are probably about at least one time the length of the show, because you've gotta listen to it...
 
-**Saron Yitbarek:** \[00:48:08.14\] That's pretty good.
+**Saron Yitbarek:** \[48:08\] That's pretty good.
 
 **Adam Stacoviak:** But we watch the timeline, we know where the breaks are at, and we've gotten to the point where we know... And I would say maybe at least a length of the show and a half, or twice the length of the show. So if it's a one-hour show, two hours to edit. But that's rare, a two-hour edit.
 
@@ -476,7 +476,7 @@ It's funny, as we're talking about audio editing, my husband's about to walk in.
 
 **Adam Stacoviak:** That's a sign to take a break then. Let's take that break I said we would, to listen to a sponsor. Again, we love our sponsors, they're super-awesome... And if you wanna support us, support us by supporting them. When we come back, there are a couple more questions I'd like to talk to you about around your podcast... Well, not just your podcast, but where you're going with CodeNewbie, and I think you might have the same questions, Jerod; I'm gonna assume that. Then we have another topic we'll dive into, but let's start there when we come back from this break, and we'll go from there. We'll be right back.
 
-**Break:** \[00:50:48.13\]
+**Break:** \[50:48\]
 
 **Adam Stacoviak:** We are back with Saron, CodeNewbie, this great story... Jerod, I don't know about you, but I'm amazed, honestly. I'm so excited to have her on the show, and I'm so excited about this story. It just doesn't seem to get any better, I guess... Saron, you said with CodeNewbie - when it started, you did some market research and you kind of knew the opportunity. Jerod, you asked the question about how wide and vast the developer space is, and what opportunities you might have to educate and teach and lead newbies. So I'm wondering... I don't really know how to ask the question, but I kind of wanna open up the topic of the business side. There is some sustainability. We've talked about open source sustainability on this show before; there's some sustainability to what you're doing, and I'm kind of curious with that research and with what you're doing, if you thought about how can you do this for not just now, but the future... So what are some of the things you're doing to make it sustainable?
 
@@ -498,7 +498,7 @@ I think that for me the biggest question has been "Where does CodeNewbie go? Wha
 
 **Saron Yitbarek:** ...and people, exactly. So the problem that we're solving is not education, it's loneliness. It's just that feeling of being completely overwhelmed by this incredible thing that you wanna do, and you feel like you can't. That's the problem that we're solving for. And once I was able to crystallize that and really focus on that, it became about making sure that the space we've created, the community that we've created continues to be incredibly positive.
 
-\[00:56:10.28\] About half the tweets from CodeNewbie come from me, and the other half come from our community manager. When I tweet on CodeNewbie, I take on a very specific persona. I am the ultimate cheerleader. Any tweet that I have, my responses are filled with exclamation points, and smiley faces, and we try to celebrate all of the little wins, all the big wins, and it's really important for me to be overly positive and overly enthusiastic. That has really defined the community in every aspect of what we do. So I think that as far as sustainability, it's about being very clear about who we are and what we wanna do, and continuing to nurture that.
+\[56:10\] About half the tweets from CodeNewbie come from me, and the other half come from our community manager. When I tweet on CodeNewbie, I take on a very specific persona. I am the ultimate cheerleader. Any tweet that I have, my responses are filled with exclamation points, and smiley faces, and we try to celebrate all of the little wins, all the big wins, and it's really important for me to be overly positive and overly enthusiastic. That has really defined the community in every aspect of what we do. So I think that as far as sustainability, it's about being very clear about who we are and what we wanna do, and continuing to nurture that.
 
 **Jerod Santo:** Do you have an endgame? Do you have a master goal that you're trying to reach?
 

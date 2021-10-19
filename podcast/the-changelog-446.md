@@ -54,7 +54,7 @@
 
 **Adam Stacoviak:** Yeah. Well, that's why the community lens to that show was very important to get to, because that lets you do that. Like, what the community really would appreciate hearing from these people that represent this community, that thrive in this community. I think that's the secret sauce, in my opinion. That's what I love most about this show, is the community aspect of it. Sure, you are a good centerpiece to the show and you bring a lot to it, but it's not just you; it's a \[unintelligible 00:04:11.02\] of awesome people involved, and you bring your own perspectives and your own thoughts from the community and your own insights and whatnot - that's what makes the show really special.
 
-**Mat Ryer:** \[00:04:21.14\] Yeah, like I said, I love doing it.
+**Mat Ryer:** \[04:21\] Yeah, like I said, I love doing it.
 
 **Jerod Santo:** One thing I've learned over the last couple of years that you've been on the show is that you came to Go in kind of a strange way - it seems strange to me - which correct me if I'm wrong, but I think you wanted to use App Engine, and App Engine supported Go, and maybe Python, I don't know, maybe C++... But you're like "Ah, I'll take Go." Is that basically the way it went down? Because you've been using Go a long time, so it stuck...
 
@@ -96,7 +96,7 @@ One thing that stood out to me is it made a point of diversity. It was something
 
 **Jerod Santo:** \[laughs\] We don't give anybody five minutes. You've got 2,5. Go ahead.
 
-**Mat Ryer:** \[00:08:05.13\] Okay. Well, I think Go Time has become a big part of that story as well, and it's nice to go back and listen to random episodes in the past as well. It's a very fun thing to do. And it's all just kind of open and free for everyone to listen to. I think it's great, so I'm really glad you did start it.
+**Mat Ryer:** \[08:05\] Okay. Well, I think Go Time has become a big part of that story as well, and it's nice to go back and listen to random episodes in the past as well. It's a very fun thing to do. And it's all just kind of open and free for everyone to listen to. I think it's great, so I'm really glad you did start it.
 
 **Jerod Santo:** So are we.
 
@@ -132,7 +132,7 @@ One thing that stood out to me is it made a point of diversity. It was something
 
 **Adam Stacoviak:** Well, play that right now.
 
-**Extract begins:** \[00:10:29.27\]
+**Extract begins:** \[10:29\]
 
 **Jerod Santo:** So I’m not gonna come on a podcast about Go and say that JavaScript is a better programming language; I’m no fool. I wanna walk out of here alive. But. I will happily start a proxy war by saying that JS Party is a superior podcast to Go Time.
 
@@ -160,7 +160,7 @@ Go Time records on Tuesdays, one of the worst days of the week. JS Party records
 
 **Mat Ryer:** That is quite the pitch.
 
-**Extract ends:** \[00:11:51.00\]
+**Extract ends:** \[11:51\]
 
 **Mat Ryer:** It was good, wasn't it?
 
@@ -170,7 +170,7 @@ Go Time records on Tuesdays, one of the worst days of the week. JS Party records
 
 **Jerod Santo:** Wouldn't you agree?
 
-**Mat Ryer:** \[00:11:57.01\] Yeah... Well, it's funny. It's funny, because I think that also as an idea is quite funny, of tech wars... Some people really do take it very seriously and arguing about languages and things... You know, Go and JavaScript together - you can make some amazing things. So yeah, JS Party is a good podcast, but... I don't know.
+**Mat Ryer:** \[11:57\] Yeah... Well, it's funny. It's funny, because I think that also as an idea is quite funny, of tech wars... Some people really do take it very seriously and arguing about languages and things... You know, Go and JavaScript together - you can make some amazing things. So yeah, JS Party is a good podcast, but... I don't know.
 
 **Jerod Santo:** Better podcast. Okay.
 
@@ -228,7 +228,7 @@ Go Time records on Tuesdays, one of the worst days of the week. JS Party records
 
 **Jerod Santo:** So you had 16 Bitcoin, and you must have wanted to watch the price of those Bitcoins in your menu bar. I'm putting this together. Is that right?
 
-**Mat Ryer:** \[00:15:48.06\] There you go. Exactly right. So I wanted to just see the Bitcoin price in my menu bar. And there wasn't really a way to do it. There was no app to do it, so I started to build the little project just for myself. That's why it's called Bitbar, because it comes from Bitcoin.
+**Mat Ryer:** \[15:48\] There you go. Exactly right. So I wanted to just see the Bitcoin price in my menu bar. And there wasn't really a way to do it. There was no app to do it, so I started to build the little project just for myself. That's why it's called Bitbar, because it comes from Bitcoin.
 
 **Jerod Santo:** Gotcha.
 
@@ -286,7 +286,7 @@ So I open-sourced it and I used it, and a few people joined in and added some fe
 
 **Jerod Santo:** So what kind of user base came out of that? Because a lot of the Hacker News folks - they kind of hit it and quit it. It's like big ol' interest, and then here today, gone today. But you had substantial contributors, and like you said, it's an open plugin kind of an infrastructure, because as long as you can create a program that writes to standard out in the format that you specify, then you can write a plugin pretty easily. So is that what really got all these people writing plugins?
 
-**Mat Ryer:** \[00:20:12.10\] Yeah, I think so. I think it's the ease at which you can contribute something, and the immediate pay-off you get. It's that same thing that attracted me to Go, the fact that I was able to deliver something very quickly - I think that also applies there. And you can also do it at development time. You can make a script and iterate on it and refresh it and you just see it live updating, and stuff. So the development process is very easy. And that was kind of an accident, if I'm honest. I've since learned to really pay attention to developer experience, and user experience, even of dev tools - or maybe especially of dev tools. But I think it was a bit of a got-lucky really with that design.
+**Mat Ryer:** \[20:12\] Yeah, I think so. I think it's the ease at which you can contribute something, and the immediate pay-off you get. It's that same thing that attracted me to Go, the fact that I was able to deliver something very quickly - I think that also applies there. And you can also do it at development time. You can make a script and iterate on it and refresh it and you just see it live updating, and stuff. So the development process is very easy. And that was kind of an accident, if I'm honest. I've since learned to really pay attention to developer experience, and user experience, even of dev tools - or maybe especially of dev tools. But I think it was a bit of a got-lucky really with that design.
 
 **Jerod Santo:** I love that happy accident, because it was like your lack of Objective-C skills accidentally created a very nice abstraction that you probably would have by-passed, right?
 
@@ -304,7 +304,7 @@ So it was great, it was like winning the lottery, or something. Very exciting. B
 
 So yeah, I was kind of a bit nervous, and a bit worried about that, but also just basically very excited that there were all these plugins, and I was excited by what the plugins were doing. It was people building amazing things with this, and it was great.
 
-**Break:** \[00:23:40.25\]
+**Break:** \[23:40\]
 
 **Jerod Santo:** So go back to 2016. You've got all of this excitement, you've got all this \[unintelligible 00:24:44.14\] I would think it's like a relatively finished piece of Objective-C software, that can read from any kind of executable... Why rename it? We know that it's a rewrite, but why rewrite it? Joel Spolsky is gonna be mad at you... Or who was it that wrote the big rewrite post?
 
@@ -342,7 +342,7 @@ And we did a Go Time episode with the creator of Wails, which is a Go-powered - 
 
 **Jerod Santo:** With a w.
 
-**Mat Ryer:** \[00:27:50.12\] Yeah. So I think it was that. So I was texting him, and he was tipsy, I think, is the polite way to say it... So he was agreeing, he was all over this idea; he was loving it. And I was like "Okay, maybe wait till the morning and see if you still feel the same." And then about ten hours later I got a message that just said in all caps "I REGRET NOTHING." \[laughter\]
+**Mat Ryer:** \[27:50\] Yeah. So I think it was that. So I was texting him, and he was tipsy, I think, is the polite way to say it... So he was agreeing, he was all over this idea; he was loving it. And I was like "Okay, maybe wait till the morning and see if you still feel the same." And then about ten hours later I got a message that just said in all caps "I REGRET NOTHING." \[laughter\]
 
 **Adam Stacoviak:** That's awesome.
 
@@ -388,7 +388,7 @@ We built a plugin browser, because it's a proper desktop app it has transparency
 
 **Adam Stacoviak:** The argument is contextual.
 
-**Mat Ryer:** \[00:32:02.13\] Yeah. You just learn. It's what you learn in that process. And honestly, even to the point where I really resist designing software too much. There is obviously value in designing software, and you should be designing software, but you can definitely very easily over-design upfront, and then you're sort of locked into these ideas you had at the beginning when you knew the least.
+**Mat Ryer:** \[32:02\] Yeah. You just learn. It's what you learn in that process. And honestly, even to the point where I really resist designing software too much. There is obviously value in designing software, and you should be designing software, but you can definitely very easily over-design upfront, and then you're sort of locked into these ideas you had at the beginning when you knew the least.
 
 **Jerod Santo:** Right.
 
@@ -442,7 +442,7 @@ We built a plugin browser, because it's a proper desktop app it has transparency
 
 **Mat Ryer:** Yeah, yeah. Well, fortunately, the Wails project does a lot of the heavy lifting for you. I mean, you essentially can use your own UI frameworks, and I quite enjoy building UIs as well. I got into Svelte, which is a UI JavaScript framework, and it has a similar philosophy as Go, in that it tries to be minimalist. It doesn't do everything, it doesn't give you all these complicated features. It gives you a small feature set, just enough, and therefore it's kind of easier to use.
 
-\[00:36:14.07\] And it also has this other effect that I'm sure is well known - it basically does a lot of its work at compile-time, not at runtime. So in theory that makes the projects much faster when you use them. And to be honest, you do notice that I think they're very snappy UIs when you use Svelte...
+\[36:14\] And it also has this other effect that I'm sure is well known - it basically does a lot of its work at compile-time, not at runtime. So in theory that makes the projects much faster when you use them. And to be honest, you do notice that I think they're very snappy UIs when you use Svelte...
 
 So that was it. Frontend was Svelte. There's an API that Wails gives you. You can just expose Go methods to the frontend and call them in JavaScript. It's all transparent, so it's very easy, and it's kind of like a promise API, so you make a call to the backend, you get back a promise... If there's an error, then you use the catch to handle it. So it's very natural, like building a web with a server, but the server just happens to be running locally on the machine. And then the Wails tools packages it all up and bundles it together into a single binary. Then you run it, and that's it.
 
@@ -480,7 +480,7 @@ Lee had to do work in Wails to support menus, because it wasn't a priority. If y
 
 **Mat Ryer:** There's no reason to not like it, yeah. And the other thing that happened which was very exciting was -- this is just back to when it was Bitbar... Years ago, when I was young, I used to get this Amiga Format magazine, which was a computer magazine, it had floppy disks on the front, and it'd give you free stuff, and it had programs inside it, and all sorts... And I loved this. I think for my birthday I got a subscription to this magazine, so every month, I remember -- my dad worked in the mines, so he'd get up very early... So he'd usually get up and get the post, and then leave the magazine by my bed, so I'd always remember, very tired, but just so excited that it was there; I knew it was there, and I couldn't wait to wake up, but it was too early... So there's lots of nostalgia around that particular magazine for that reason...
 
-\[00:40:05.13\] And then years later -- I don't really bother with magazines, because the internet tells you all the things. And I just randomly bought this magazine one time, and I was just flicking through it... And I just opened up this double-page spread on Bitbar, and it was just like explaining how to use it and how to write plugins...
+\[40:05\] And then years later -- I don't really bother with magazines, because the internet tells you all the things. And I just randomly bought this magazine one time, and I was just flicking through it... And I just opened up this double-page spread on Bitbar, and it was just like explaining how to use it and how to write plugins...
 
 **Jerod Santo:** Wow.
 
@@ -530,7 +530,7 @@ Lee had to do work in Wails to support menus, because it wasn't a priority. If y
 
 **Mat Ryer:** Yeah, I think that's right. And I think the fact that it enabled developers, which is obviously a big focus at GitHub... But something he mentioned was it's almost like just by making a different decision - which in the beginning just happened by accident, but just that change in the way you think about it unlocks things for other people, and enables other people. And then that multiplying effect that you can have always appealed to me, and Nat also mentioned the same thing, and that was -- I liked that. I liked the fact that you can do this almost the same work that you were gonna do anyway, but just with that attitude of that slight twist on it, you can unlock things for others and enable others I think is nice, especially in open source projects.
 
-**Break:** \[00:43:46.11\]
+**Break:** \[43:46\]
 
 **Jerod Santo:** So to me the coolest thing about this project is how extensible it is. Two aspects. First of all, there's hundreds of plugins already written to just be used. So if you want something in your menu bar, the likelihood of it being in there is high. Secondly, if it's not, you can just totally hack it together yourself, right?
 
@@ -586,7 +586,7 @@ So we talked a little bit about the plugin architecture, how it all works... I w
 
 **Mat Ryer:** Yes. There's lots of email -- in fact, email has its own category. You can see all the plugins at xbarapp.com, and I made a kind of menu bar that contains the category of all the plugins. It just mirrors the repo, so it's very low-fi... But yeah, there are lots of email things in there, too. So yes. I think it's yes.
 
-**Jerod Santo:** \[00:47:53.07\] Can xbar buy and sell Bitcoin each time Elon Musk tweets?
+**Jerod Santo:** \[47:53\] Can xbar buy and sell Bitcoin each time Elon Musk tweets?
 
 **Mat Ryer:** \[laughs\] You could make it do that, if it doesn't already. There are also loads of crypto -- in fact, that might be the biggest area, crypto...
 
@@ -698,7 +698,7 @@ The other one was the clipboard history, which has been in there for a while, wh
 
 **Mat Ryer:** Yes. And you can even wire up a menu item to tell it to refresh as well. There's actually quite a lot you can do to the menu items themselves, including you can open a URL, you can run a script... That means you can actually -- and if you have some state somewhere, which is up to the plugin how it does that, you can actually build quite interesting, interactive applications that turn out to be quite surprising as well. People in space...
 
-**Jerod Santo:** \[00:52:03.27\] I'm excited to hear what our community of listeners come up with once they start playing with this thing, because the sky really is the limit. Let's get back to this list here... Can xbar manage Adam's PiHole?
+**Jerod Santo:** \[52:03\] I'm excited to hear what our community of listeners come up with once they start playing with this thing, because the sky really is the limit. Let's get back to this list here... Can xbar manage Adam's PiHole?
 
 **Mat Ryer:** \[laughs\] I don't know what that means.
 
@@ -768,7 +768,7 @@ Actually, that would be useful because the one thing I do often - or at least of
 
 **Mat Ryer:** Yeah. There's a plugin called "Is it up?", which - you give it a URL and it just pings it and tells you if it's up or not.
 
-**Jerod Santo:** \[00:56:06.12\] Nice.
+**Jerod Santo:** \[56:06\] Nice.
 
 **Mat Ryer:** It's so simple, but...
 
@@ -830,7 +830,7 @@ Actually, that would be useful because the one thing I do often - or at least of
 
 **Adam Stacoviak:** I hope GitHub does something about that at some point, because that's what OpenCollective has done well, was remove that portion... Because it's generally -- this gets into the details, but it's generally some sort of fiscal sponsor... We talked with Pia, which we'll have out before this episode, so you can go back into our feed and listen to that with Pia from OpenCollective and all the details around that... But it's a difficult thing. It's a difficult thing to support a developer, and probably definitely more difficult to support other developers by way of, you know? That's challenging.
 
-**Mat Ryer:** \[00:59:49.10\] Yeah. I do think GitHub will end up enabling that, at least, the sponsorship for a project... Because at the moment everyone's sponsoring me on that. Not everyone... In fact, if you want to sponsor me, please do. But people are sponsoring me personally, and it'd be better if you could sponsor the project, and then we could somehow split that between the contributors.
+**Mat Ryer:** \[59:49\] Yeah. I do think GitHub will end up enabling that, at least, the sponsorship for a project... Because at the moment everyone's sponsoring me on that. Not everyone... In fact, if you want to sponsor me, please do. But people are sponsoring me personally, and it'd be better if you could sponsor the project, and then we could somehow split that between the contributors.
 
 So yeah, I'm not trying to make money from xbar. That's not really what it was ever for. I did get sent loads of socks at one point, because in the readme I had an Amazon wishlist, because people were asking like "Can I send you some Bitcoin, or something?" I needed some socks at the time. But then I ended up getting about 200 pairs of socks in the post...
 

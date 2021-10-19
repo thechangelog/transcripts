@@ -38,7 +38,7 @@
 
 Attention, ironically, is actually a function of our brain; it is generally related to our prefrontal cortex, so that front part, your forehead, right behind there. The prefrontal cortex is part of the frontal lobe, which is related to this system of executive function. Executive function involves set shifting, how quickly we process information, problem-solving... And so if I don't consider what I'm placing my attention on, I might not also consider the domino effect that occurs from focusing in that way.
 
-**Adam Stacoviak:** \[00:04:20.04\] Yeah.
+**Adam Stacoviak:** \[04:20\] Yeah.
 
 **Mireille B. Reece, Psy.D:** I've talked about this phenomenologically, when you buy a new car, and then all of a sudden you go out and you drive and you go "There's one! And there's one! And there's another!" Right? And nothing really changed, other than your attention. And maybe I can even substitute the word awareness for attention...
 
@@ -56,7 +56,7 @@ You've said before, Mireille, that when you can participate in your choices, it'
 
 **Adam Stacoviak:** Right. When you have options... You have options. You have choices. What exactly is the will though? Because we talked about that being a finite resource...
 
-**Mireille B. Reece, Psy.D:** \[00:08:02.13\] Right, it is, but it doesn't mean it can't grow, it can't change. And this is why I love talking about the brain and really doing what I do - neuroplasticity, so the brain's flexibility, willingness, ability to adapt is alive and real, and it doesn't matter what age you are. You can always change your brain. So willpower, again, as a resource to say "I've built it maybe over in this lane, because what I've done is allocate my resources, so that now it doesn't require as much for that habit, that skill, that practice... But over here in this new lane, now it requires greater resources for resistance."
+**Mireille B. Reece, Psy.D:** \[08:02\] Right, it is, but it doesn't mean it can't grow, it can't change. And this is why I love talking about the brain and really doing what I do - neuroplasticity, so the brain's flexibility, willingness, ability to adapt is alive and real, and it doesn't matter what age you are. You can always change your brain. So willpower, again, as a resource to say "I've built it maybe over in this lane, because what I've done is allocate my resources, so that now it doesn't require as much for that habit, that skill, that practice... But over here in this new lane, now it requires greater resources for resistance."
 
 So attention isn't a sort of one thing, it's multi-faceted. And I don't know how much we've talked about this, but it's really important to get that the brain is never as simple as we'd like it to be, and we're always discovering more... But we process information from the bottom up, so think brain stem up, to more of the neocortex, as well as top-down; so within that neocortex, back down. Because it's always interfacing.
 
@@ -74,7 +74,7 @@ Studies talk about bottom-up features of perception, which is this degree to whi
 
 **Mireille B. Reece, Psy.D:** Right. It's this competing system. So if I'm taking in information bottom-up, my senses tell me one thing - think VR - and then my higher cognitive functions tell me another thing, like "That's not real, even though your brain it's telling you is real." Oh gosh, now how do I respond, and which thing do I put greater attention on?
 
-**Adam Stacoviak:** \[00:12:08.20\] Yes. That's a constant battle.
+**Adam Stacoviak:** \[12:08\] Yes. That's a constant battle.
 
 **Mireille B. Reece, Psy.D:** It is, because attention really sort of blows things up, so that then colors all of what you see... I see this a lot in the work that I do, in just the way that people have been trained, so to speak, by their experience, to go "This is what I expect in relationship. Here's the way that people treat me." And I have to go "Hold on..." I recognize and I empathize that this is what it's been like for you, but is that always only ever true? Or is that what you've trained yourself to see, and/or is there a way in which you actually participate in that, because you believe or put your attention to see relationships or people that are going to interface with you in that way, and now you're stuck in the same cycle.
 
@@ -104,7 +104,7 @@ We can look at it with even any work things that you do. Say you always get stuc
 
 **Mireille B. Reece, Psy.D:** But if I don't know how to interpret the signals that fear is sending me, I'm gonna struggle, because fear - it could be that it is an actual threat. I mean, it could be around a loss, or it could be an act of violence, it could be performance anxiety in that way... But how do you begin to be aware of your own internal system, that then creates the physiological response, which then competes for your attention, and then runs the dialogue as based on past experience, not present or future?
 
-**Adam Stacoviak:** \[00:16:14.23\] We're still int his new year aspect; it's still January barely... And people are still transitioning to and determining their goals for the year, if that's what you do; not so much that it's a new year's thing, but just something that people tend to do because it's a new year, a new beginning, it's a new slate to build upon. And a way that you can use fear to your advantage is if your goals that you've set for the year don't scare you, in some way. You probably didn't push yourself or you're probably not pushing yourself as far hard as you could to -- not so much just for the sake of progress, but for the sake of the fact that it's a feedback of "If the goals that I've put before me don't give me some sort of fear, then I probably should push my goals a little further." And that's probably where I can say I personally use fear to my advantage.
+**Adam Stacoviak:** \[16:14\] We're still int his new year aspect; it's still January barely... And people are still transitioning to and determining their goals for the year, if that's what you do; not so much that it's a new year's thing, but just something that people tend to do because it's a new year, a new beginning, it's a new slate to build upon. And a way that you can use fear to your advantage is if your goals that you've set for the year don't scare you, in some way. You probably didn't push yourself or you're probably not pushing yourself as far hard as you could to -- not so much just for the sake of progress, but for the sake of the fact that it's a feedback of "If the goals that I've put before me don't give me some sort of fear, then I probably should push my goals a little further." And that's probably where I can say I personally use fear to my advantage.
 
 **Mireille B. Reece, Psy.D:** Sure.
 
@@ -138,7 +138,7 @@ That being said, it doesn't mean it's easy... Right? Hence binge-watching Game o
 
 **Mireille B. Reece, Psy.D:** There is this aspect of willpower involved with attention. So what if you could think of attention very much like your camera lens?
 
-**Adam Stacoviak:** \[00:20:19.04\] Well, we've used that as an example before, the panoramic view versus the narrow view. This makes sense.
+**Adam Stacoviak:** \[20:19\] Well, we've used that as an example before, the panoramic view versus the narrow view. This makes sense.
 
 **Mireille B. Reece, Psy.D:** Selfie mode versus outward-mode.
 
@@ -184,7 +184,7 @@ That being said, it doesn't mean it's easy... Right? Hence binge-watching Game o
 
 **Adam Stacoviak:** They're very vulnerable, yeah.
 
-**Mireille B. Reece, Psy.D:** \[00:24:14.00\] Correct. Even when you write a program. Whenever you sort of use yourself as the frame of reference to then offer something to the world, without a guaranteed outcome around how others are gonna receive it - now I'm vulnerable, now I'm anxious, and now I'm like "Am I really thinking with my whole brain, or am I just thinking like a reptile, and I'm just like fight, flight or freeze?" Do I go hide out under my turtle shell, or do I puff up and try to...
+**Mireille B. Reece, Psy.D:** \[24:14\] Correct. Even when you write a program. Whenever you sort of use yourself as the frame of reference to then offer something to the world, without a guaranteed outcome around how others are gonna receive it - now I'm vulnerable, now I'm anxious, and now I'm like "Am I really thinking with my whole brain, or am I just thinking like a reptile, and I'm just like fight, flight or freeze?" Do I go hide out under my turtle shell, or do I puff up and try to...
 
 **Adam Stacoviak:** Attack.
 
@@ -202,13 +202,13 @@ So coming back around to that attention, there is what we talk about or describe
 
 But then there's also sustained attention. So it's literally like one track, one way; there's no two-ways streets. I'm on a one-way road, and this is all I'm focused on.
 
-**Break:** \[00:26:45.03\] to \[00:26:45.12\]
+**Break:** \[26:45\] to \[26:45\]
 
 **Adam Stacoviak:** So these two aspects of attention - you've got divided, you've got sustained... I think about flow. Years ago I did a podcast with a woman named Kathy Sierra, very famous in the software world. She exposed me to user experience and this aspect to the brain that's cognitive awareness, so to speak... And she had talked about the state of flow, and I had no idea about it. I read some books obviously since then about it, but it's sort of borderlining on these two things where you have divided or sustained attention, and the benefits that can come from being in a state of flow, which a lot of our listeners are gonna be pretty familiar with, but... Very interesting and deep subject.
 
 **Mireille B. Reece, Psy.D:** Yeah, flow is a very interesting concept, and it gets at the heart of the sustained attention, although there's more to it... And that flow is very much the epitome of mindfulness, like I'm fully absorbed in the moment I'm in. Some people would reference flow very much like the concept of play, and for play as a construct, it's qualified by two things. One is that I don't want it to end, and two, that I lose track of time. Hence, it's a deep dive. I am all-in whatever I'm doing.
 
-**Adam Stacoviak:** \[00:28:13.11\] That's why they encourage some work -- I'm not sure how to phrase it, but essentially making work playful. Because you get lost. You find a kid deep in a pretend mode, their play mode, whatever it is - it's gonna be very difficult to get their attention. My son - he's playing, and I'm like "Eli, Eli", and I'm trying to get his attention, for whatever reason... It hits hard to sort of like -- it's almost like zapping them out of something. You almost have to do something significant to get their attention. And they even almost sort of shake themselves awake... And I'm using this as a metaphor, obviously, for this, but that's what it reminds me of.
+**Adam Stacoviak:** \[28:13\] That's why they encourage some work -- I'm not sure how to phrase it, but essentially making work playful. Because you get lost. You find a kid deep in a pretend mode, their play mode, whatever it is - it's gonna be very difficult to get their attention. My son - he's playing, and I'm like "Eli, Eli", and I'm trying to get his attention, for whatever reason... It hits hard to sort of like -- it's almost like zapping them out of something. You almost have to do something significant to get their attention. And they even almost sort of shake themselves awake... And I'm using this as a metaphor, obviously, for this, but that's what it reminds me of.
 
 When we're in flow, it's like tunnel vision, deep, deep, deep, and some really amazing things can come from that... Whether it's a child play, or using that in a work-related aspect, whether it's an artist, a podcaster, a software developer, whatever it might be, to use this data flow to their advantage.
 
@@ -230,7 +230,7 @@ So it's very much in sports, athletic performance, of like I'm using these data 
 
 **Adam Stacoviak:** So determining what it is that allows me to have a distraction-free scenario for a sustained amount of time, in order to hit these peak performance flow states. Most of what I do -- I think pretty much anybody who desires to be productive is like "How can I optimize for those environments?" And when we're trying to define our day and design our work life, the work time of our life -- for me, I've mentioned before, work eight/play eight/sleep eight. So when I define my eight, how can optimize those eight, to have as much of that as possible?
 
-**Mireille B. Reece, Psy.D:** \[00:32:06.11\] Yeah. So am I correct if what you're saying is you are aware that there's certain elements that you utilize in order to impose constraints around you and the time you spend in the type of work that you're doing?
+**Mireille B. Reece, Psy.D:** \[32:06\] Yeah. So am I correct if what you're saying is you are aware that there's certain elements that you utilize in order to impose constraints around you and the time you spend in the type of work that you're doing?
 
 **Adam Stacoviak:** You are correct.
 
@@ -278,7 +278,7 @@ So it's very much in sports, athletic performance, of like I'm using these data 
 
 **Adam Stacoviak:** Oh, wow.
 
-**Mireille B. Reece, Psy.D:** \[00:36:08.11\] So I impose other constraints in order to be able to do it. Also, other things that I do - tethering this in distraction plus flow, I will play certain music as based on whatever activity I'm trying to cultivate, or get done.
+**Mireille B. Reece, Psy.D:** \[36:08\] So I impose other constraints in order to be able to do it. Also, other things that I do - tethering this in distraction plus flow, I will play certain music as based on whatever activity I'm trying to cultivate, or get done.
 
 **Adam Stacoviak:** Right. Yeah, I actually play some -- that's why I asked you if it was audio waves earlier, because I listen to some theta waves stuff when I'm working. They call it white noise, pink noise... There's different types of noise, but essentially it's -- in some cases, like in banks, for example, they will play certain sounds that reduces the audibility of words. So you may be ten feet away from the teller, but not be able to hear that person communicate personal feedback to the person two feet away from them; you're ten feet away. So it disrupts the audibility of words by distance.
 
@@ -298,7 +298,7 @@ So you have the bonus, you don't have to leave your home, but then how does your
 
 **Adam Stacoviak:** Yeah. Well, many functional medicine doctors that I follow will say "Do not put a TV in your bedroom." Guess where we have a TV.
 
-**Mireille B. Reece, Psy.D:** \[00:40:06.05\] \[laughs\] Right. But it's going "Do I need those constraints, or am I able to manage it?" What's hard for me isn't necessarily hard for someone else, which may be semi-hard for another person. It really just comes back to building skills alongside this awareness.
+**Mireille B. Reece, Psy.D:** \[40:06\] \[laughs\] Right. But it's going "Do I need those constraints, or am I able to manage it?" What's hard for me isn't necessarily hard for someone else, which may be semi-hard for another person. It really just comes back to building skills alongside this awareness.
 
 **Adam Stacoviak:** Yeah.
 
@@ -336,7 +336,7 @@ So when we use distractions to help us, or very much in this case of managing mo
 
 **Adam Stacoviak:** That's right.
 
-**Mireille B. Reece, Psy.D:** \[00:43:45.13\] ...so that I am not focused on that thing that feels aversive to me. And I think this is so much at the heart of change, when people realize "Oh, you mean I don't have to just wallow in the feeling?" No. No, change it. Change the channel of what you're focusing on. So imagine then I've got sort of this divided attention. I'm aware that I'm being poked, but my attention is also attuned to music, or something else that's positive, that feels good. I'm in the Bahamas on a beach.
+**Mireille B. Reece, Psy.D:** \[43:45\] ...so that I am not focused on that thing that feels aversive to me. And I think this is so much at the heart of change, when people realize "Oh, you mean I don't have to just wallow in the feeling?" No. No, change it. Change the channel of what you're focusing on. So imagine then I've got sort of this divided attention. I'm aware that I'm being poked, but my attention is also attuned to music, or something else that's positive, that feels good. I'm in the Bahamas on a beach.
 
 **Adam Stacoviak:** Right. Barbados.
 
@@ -362,7 +362,7 @@ So when we use distractions to help us, or very much in this case of managing mo
 
 **Mireille B. Reece, Psy.D:** No.
 
-**Adam Stacoviak:** \[00:46:16.20\] It's Auditory Sensory... MR. I don't know what the MR stands for. But it's essentially people -- it's huge; it's huge in this distraction to fall asleep scenario. ASMR essentially is some sort of audio sensory thing that you can listen to, that's like maybe crackling of tinfoil, or different sensories, or like fingernails or a microphone, or something like that. These are really things that people listen to, and they get really unique and deep. Some are very out there, and some are very benign and normal... But essentially, it's sounds that you wouldn't typically hear, that provide this distractive state...
+**Adam Stacoviak:** \[46:16\] It's Auditory Sensory... MR. I don't know what the MR stands for. But it's essentially people -- it's huge; it's huge in this distraction to fall asleep scenario. ASMR essentially is some sort of audio sensory thing that you can listen to, that's like maybe crackling of tinfoil, or different sensories, or like fingernails or a microphone, or something like that. These are really things that people listen to, and they get really unique and deep. Some are very out there, and some are very benign and normal... But essentially, it's sounds that you wouldn't typically hear, that provide this distractive state...
 
 **Mireille B. Reece, Psy.D:** So that you can fall asleep.
 

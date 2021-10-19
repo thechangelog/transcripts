@@ -30,7 +30,7 @@ One big difference is that not only we have embraced all our partners fully with
 
 When we did this two years ago -- Gerhard, why don't you just real quickly... You said lots changed, we've simplified, and we're gonna focus obviously on the new infrastructure, but in order to talk about simplification, can you at least review the old way we deployed Changelog.com, before this new shiny?
 
-**Gerhard Lazu:** \[00:04:15.17\] Yes, of course. Two years ago we were using Ansible to do a lot of the orchestration and a lot of the tasks running in our infrastructure. We were using Concourse for our CI, which we had to run ourselves; it was not a managed service. This year there's no more Ansible, there's no more Concourse; everything that runs is self-contained within Docker Swarm. So we have services, everything is nicely defined, and the core of Changelog infrastructure is a Docker stack.
+**Gerhard Lazu:** \[04:15\] Yes, of course. Two years ago we were using Ansible to do a lot of the orchestration and a lot of the tasks running in our infrastructure. We were using Concourse for our CI, which we had to run ourselves; it was not a managed service. This year there's no more Ansible, there's no more Concourse; everything that runs is self-contained within Docker Swarm. So we have services, everything is nicely defined, and the core of Changelog infrastructure is a Docker stack.
 
 **Jerod Santo:** And at the core of driving that infrastructure, previously Ansible - basically, Gerhard has replaced Ansible with, pardon my French, just a badass makefile, if I may just break our own rules here, Adam, and go explicit for a second... A makefile that does all these things. It's kind of amazing.
 
@@ -56,7 +56,7 @@ Where did you get these wizard make skills? Where did you learn this stuff?
 
 I first picked up make while joining the RabbitMQ team. The RabbitMQ team had the entire build system based on make, and on a tool called Erlang.mk. Erlang.mk is a tool that's built by Loïc Hoguin; he is also the creator of Cowboy, which is the web server that Phoenix uses behind the scenes, as well as a bunch of other projects. So make is still very present in the world of Erlang, and definitely in the world of RabbitMQ, and that's where I picked up a lot of the make skills.
 
-**Jerod Santo:** \[00:08:00.26\] So is it a tool that you commonly go to? Was this out of the norm for you to reach for this particular task, or is it just one of those second-nature things, like your hammer, nowadays?
+**Jerod Santo:** \[08:00\] So is it a tool that you commonly go to? Was this out of the norm for you to reach for this particular task, or is it just one of those second-nature things, like your hammer, nowadays?
 
 **Gerhard Lazu:** I think it's a bit of both, to be honest. I used Bash for a lot of things, and I had scripts all over the place... And what I've seen in make was the potential to make all these different scripts saner. I really liked the fact how you can have make targets that depend on other make targets, and it has a certain composibility that Bash scripts didn't have.
 
@@ -78,7 +78,7 @@ So when you describe the new setup, you start off by saying that Changelog.com i
 
 **Jerod Santo:** It does.
 
-**Gerhard Lazu:** \[00:12:01.13\] It does a lot of things, a lot of heavy lifting. It does a lot of just \[unintelligible 00:12:03.11\] will be very complicated if you were not using Phoenix, and if you were not using the Erlang VM, and we can circle back to that... But it's just a web application, in a nutshell, which needs a database, and it's 3T in that we have a proxy in front. It's a little bit more complicated than that, because the proxy does a couple of things... But it's just your typical web application.
+**Gerhard Lazu:** \[12:01\] It does a lot of things, a lot of heavy lifting. It does a lot of just \[unintelligible 00:12:03.11\] will be very complicated if you were not using Phoenix, and if you were not using the Erlang VM, and we can circle back to that... But it's just a web application, in a nutshell, which needs a database, and it's 3T in that we have a proxy in front. It's a little bit more complicated than that, because the proxy does a couple of things... But it's just your typical web application.
 
 The core - this core, like database, application, proxy - all is described as a Docker stack. A Docker stack - you can define your services that make up your stack. In this case we have a bunch of services (there are a couple more that we define) that form the core of Changelog. The nice thing about this is that because we describe the core of Changelog in a Docker stack, we can spin it up locally on a machine that runs a Docker daemon that is configured to run in Swarm mode... Which is very simple - just Docker Swarm in it, and the Docker desktop all of a sudden runs in Swarm mode, where you can deploy Docker stacks. That allows anyone on the team to run the core of Changelog - and when I say the core of Changelog, I mean everything except the IS bits; so anything that, for example, can only run in Linode, like a load balancer - a NodeBalancer in their case - or a block storage volume... Obviously, you couldn't get that locally, but you can get everything that makes Changelog. And we can set up production - identical copies of our production - locally, because we describe everything declaratively in this Docker stack.
 
@@ -96,7 +96,7 @@ In front of the load balancer we always had this - we had Fastly, which we use f
 
 **Adam Stacoviak:** Well, it seems like in this day you may think that CDNs are pretty well-known, but some people might just reach for block storage, for example, because if it's just assets, maybe like "Well, I wanna store this on my own, and not think about robotic caching, or all these other features, like IPv6, for example, and the logging we have, the streaming logs, and stuff like that. So it's interesting that some might just reach for block storage, but in this case a CDN really gives us some super-powers that we didn't have to build ourselves.
 
-**Gerhard Lazu:** \[00:16:11.20\] Exactly. So the truth is that we still use block storage, but we use block storage which is a Linode feature, which is completely opaque to the CDN. All the CDN does - it will read some static files from somewhere, it doesn't matter where they come from, and then it will cache them... So whether we use block storage, or whether we use a local volume, that doesn't really matter as far as the CDN is concerned. Once the file is in the CDN, it's in the CDN.
+**Gerhard Lazu:** \[16:11\] Exactly. So the truth is that we still use block storage, but we use block storage which is a Linode feature, which is completely opaque to the CDN. All the CDN does - it will read some static files from somewhere, it doesn't matter where they come from, and then it will cache them... So whether we use block storage, or whether we use a local volume, that doesn't really matter as far as the CDN is concerned. Once the file is in the CDN, it's in the CDN.
 
 The CDN just makes sure that our content is quickly accessible - mp3s, especially mp3s, through the entire world. So they get served from the edge locations, rather than from the Linode data center where the Changelog application runs, and where the source and the origin of all the media and static assets is.
 
@@ -136,7 +136,7 @@ As far as I know, Linode doesn't have something similar to S3, which is more lik
 
 **Jerod Santo:** Right, CloudFront.
 
-**Gerhard Lazu:** \[00:19:56.02\] But the difference between, for example, block storage and S3 is that S3 - you consume it via an API, and you work with objects. You don't work with files... I mean, you can, but the performance is not good. There are different modes in which you can use that, but they are like -- I wouldn't say hacks, not classes either, but it's not how it's meant to be used. You're meant to put a file, get a file, list files... You have operations like that.
+**Gerhard Lazu:** \[19:56\] But the difference between, for example, block storage and S3 is that S3 - you consume it via an API, and you work with objects. You don't work with files... I mean, you can, but the performance is not good. There are different modes in which you can use that, but they are like -- I wouldn't say hacks, not classes either, but it's not how it's meant to be used. You're meant to put a file, get a file, list files... You have operations like that.
 
 **Jerod Santo:** Yeah. Let's stop for a moment and I will explain a little bit, because people might be wondering why are you not using an object storage... And Gerhard, you asked me this as well - why do we need local storage? Because in the age of 2019 - or I guess when we started this, in 2016, even then I had been using Heroku for many years, and they will not allow local storage of files. It has to be transient, it has to be ephemeral... And you store things in Memcached, or you store them in S3, or you know, services.
 
@@ -158,7 +158,7 @@ So rather than going to, let's say, Kubernetes, because everyone is using Kubern
 
 You mentioned block storage - it's easy, it's comfortable... It might not be great, but it works for us, and I'm sure the day will come when we will replace that with something else... But it was too big of a step. We had to make smaller steps, for example replacing the CI and changing the way we define the core of Changelog. That was an easier step to make, which made everything simpler and nicer to work with. One day, I'm sure the time to replace block storage and the time to use Kubernetes will come... But it was not in this situation.
 
-**Break:** \[00:23:58.26\]
+**Break:** \[23:58\]
 
 **Jerod Santo:** So simplification was one of our main goals. Another goal that we had was to allow a better integration into GitHub pull request flow for contributors, with running the tests, integrating with a CI... Concourse CI does a lot of things really well, and Gerhard, you actually introduced it to me back then, and I enjoyed a lot of its benefits. One of the things it doesn't do well was what I think is a rather simple feature, just because of the architecture of Concourse CI, which is really a power tool for building your own pipelines - this doesn't really integrate very well into the needs of GitHub for those pull request builds. With that and other reasons, we've replaced Concourse CI with Circle CI, this version around. Gerhard, walk us through that... Circle CI - what it's doing, how it got here etc.
 
@@ -178,7 +178,7 @@ Circle CI ticked a lot of boxes, and I think the most important box which it tic
 
 **Gerhard Lazu:** I mean, on paper they are great, but we're not using them; we're not dogfooding them, so we don't know how great they actually are. And when they have some scaling issues, when they have just growing pains, we're not aware of that. So it's very difficult to empathize with the people that we recommend to use this tool... And from my perspective, that was the biggest reason to switch to Circle CI - manage less infrastructure, embrace our partners, and just see what the experience is like.
 
-\[00:28:07.16\] Not only that, but because we are using Circle CI, our users can see how to use it, and they can maybe try and mimic what we do as a starting point, and then make it their own, obviously.
+\[28:07\] Not only that, but because we are using Circle CI, our users can see how to use it, and they can maybe try and mimic what we do as a starting point, and then make it their own, obviously.
 
 Circle CI is a lot simpler in terms of what it does for us. I'm sure you can do some amazing things with Circle CI, but we don't. The reason why we don't is because switching from Concourse - well, the reality was I had to do a lot of things when it came to the switch, and I was thinking, "Okay, what's the simplest thing to use Circle CI to do all the things that we need, but not the more complex bits? And are these things better suited, for example, for Docker? Can we define this as a loop?" For example the application updater. We have this service that runs in Docker that updates our application. This has a couple of benefits.
 
@@ -194,7 +194,7 @@ Concourse is a bit more than a CI. As Jerod was alluding to, it's this automatio
 
 **Gerhard Lazu:** Let's take the most common path, which is the one where someone pushes a change into master branch. So we're not creating any branches, we're pushing a small change to the master branch. When the master branch updates, Circle CI receives the update via a webhook, and it runs the pipeline. By the way, we can also define pipelines in Circle CI, which is very nice.
 
-\[00:32:08.00\] The pipeline - all it does is, the first thing, it resolves the dependencies, makes sure that we have everything we need. Then it runs the tests. It compiles assets, any assets that we need; this is the CSS, JavaScript, images... And then it publishes an image to Docker Hub.
+\[32:08\] The pipeline - all it does is, the first thing, it resolves the dependencies, makes sure that we have everything we need. Then it runs the tests. It compiles assets, any assets that we need; this is the CSS, JavaScript, images... And then it publishes an image to Docker Hub.
 
 We have this application updater which I mentioned runs within our production system, and it continuously checks to see if there's a new image. If there is a new image that was published to Docker Hub, it pulls that image, and because it's a Docker service, it will spin up a new instance of Changelog. If this new instance passes all the checks - there are a couple of health checks which we define - then it gets promoted; so we have blue-green deploy. It gets promoted to master, and actually gets promoted to the live application. The old application just gets spun down.
 
@@ -220,7 +220,7 @@ Jerod, you were the first one that open-sourced the entire new Changelog.com app
 
 **Adam Stacoviak:** That's right, that's right. Come have fun, come have fun.
 
-**Gerhard Lazu:** \[00:35:52.25\] That's exactly right, and that's the one thing which I've always appreciated, and even loved the way we did things at Changelog. I really like that. You can even see what things we have in flight... For example Raul Tambre - he wanted IPv6 support, and the reason why we did that is because he said "Hey, I would like IPv6 support, and this is where we could start", and even the PRs, and that was one of the nicest features to work with the community. Just really, really nice.
+**Gerhard Lazu:** \[35:52\] That's exactly right, and that's the one thing which I've always appreciated, and even loved the way we did things at Changelog. I really like that. You can even see what things we have in flight... For example Raul Tambre - he wanted IPv6 support, and the reason why we did that is because he said "Hey, I would like IPv6 support, and this is where we could start", and even the PRs, and that was one of the nicest features to work with the community. Just really, really nice.
 
 Actually, now that I think of it, PR 246, where we made it easier for everybody to contribute to Changelog.com, that's what started this new look at how we use Docker and how can we improve our use of Docker so that anyone can benefit from this simple approach.
 
@@ -250,7 +250,7 @@ And there's a third approach, which is actually closest to production, where the
 
 **Gerhard Lazu:** These are actually all good questions, which I very much enjoy, I have to say that. So the gist of this application updater is literally a WhileLoop, and Docker service update. So it's a Docker service update that's running in a WhileLoop, which is like three lines of code. That's it. That's how simple it is.
 
-**Jerod Santo:** \[00:39:59.06\] Where does that code exist? Does it exist in a Docker file, or is it part of the Docker stack? Where does that actual code exist?
+**Jerod Santo:** \[39:59\] Where does that code exist? Does it exist in a Docker file, or is it part of the Docker stack? Where does that actual code exist?
 
 **Gerhard Lazu:** There is a Docker file that builds the container image, which runs this code. And the image gets deployed with the entire stack (part of the Docker stack) onto production. So you get the application, you get the database, you get the proxy, and you get the application updater.
 
@@ -310,7 +310,7 @@ So the latest tag, when it points to a new sha, then the Docker daemon knows, "H
 
 **Jerod Santo:** So who answers the phone when somebody calls?
 
-**Gerhard Lazu:** \[00:44:04.02\] Internally in Docker there is an IP, which is almost like a gateway, and any request coming in goes to the live app... And the live app is the one that's healthy and has passed all the health checks. The new app, as it starts up, is not ready to serve requests. So it needs to come up in the health check checks, port 4000, whether the response is a 200 response. When the new app container - when that health check passes, the service knows to update the internal rooting to point to the new app instance. It's all automatic, it's all managed by Docker, we don't have to do anything.
+**Gerhard Lazu:** \[44:04\] Internally in Docker there is an IP, which is almost like a gateway, and any request coming in goes to the live app... And the live app is the one that's healthy and has passed all the health checks. The new app, as it starts up, is not ready to serve requests. So it needs to come up in the health check checks, port 4000, whether the response is a 200 response. When the new app container - when that health check passes, the service knows to update the internal rooting to point to the new app instance. It's all automatic, it's all managed by Docker, we don't have to do anything.
 
 We used to have lots of scripting that used to make this switch for us, which is still in the old infrastructure repository, where all this was kept. It was complicated, it was custom... We're not using that anymore; we're just delegating to the Docker service update, which manages all this lifecycle for us.
 
@@ -332,7 +332,7 @@ We used to have lots of scripting that used to make this switch for us, which is
 
 **Jerod Santo:** Right.
 
-**Gerhard Lazu:** \[00:47:39.20\] But this being Erlang and being Elixir, it's just basically some processes will start crashing inside the Erlang VM. When it comes to, for example -- I think this is mostly in the admin area, because most of the website is static, and what the users see once we generate that static content, it doesn't go to the database. So this is definitely one way of, let's say, screwing production. If you have a bad migration or something that does a breaking change to the database, it would take your production down.
+**Gerhard Lazu:** \[47:39\] But this being Erlang and being Elixir, it's just basically some processes will start crashing inside the Erlang VM. When it comes to, for example -- I think this is mostly in the admin area, because most of the website is static, and what the users see once we generate that static content, it doesn't go to the database. So this is definitely one way of, let's say, screwing production. If you have a bad migration or something that does a breaking change to the database, it would take your production down.
 
 But let me ask you this question - what would the alternative be?
 
@@ -354,11 +354,11 @@ But let me ask you this question - what would the alternative be?
 
 As I was mentioning earlier, I work on the RabbitMQ team, where distributed stateful systems is the bread and the butter of what we do. Any sort of rolling migrations are extremely, extremely complicated. That's why - how do you, for example, upgrade a RabbitMQ cluster? Most of the time, rolling upgrades work. But when we introduce breaking changes at the protocol level or at a scheme level, we recommend to deploy something on the side, like blue-green deploys. If we do that with something like PostgreSQL, image setting up a database copy, what happens with the rights that arrive to the data, which is like with databases running in production - how do you basically move them to this new database instance? PostgreSQL is a single instance, not a cluster, which complicates things even further... So it's a complicated problem, which I don't think we need to solve, to be honest.
 
-**Break:** \[00:50:31.16\]
+**Break:** \[50:31\]
 
 **Adam Stacoviak:** We didn't go deep enough into monitoring in the last segment, so let's do that now. We have Rollbar, we have Pingdom, and this new thing I didn't even know existed until literally minutes ago... So if you look at netdata.changelog.com, this is visibility into our CPU, our RAM, our load - all sorts of interesting stuff. So what is netdata? And kind of tail off the monitoring piece of how we run Changelog.
 
-**Gerhard Lazu:** \[00:51:48.20\] Netdata is definitely a component which we didn't mention; it gives us visibility into system metrics, so what happens on the host, on the Linode VM that runs the Changelog application, the database and all the other components that make up Changelog. I would have to mention logs, as well; logs and metrics - they kind of go hand in hand.
+**Gerhard Lazu:** \[51:48\] Netdata is definitely a component which we didn't mention; it gives us visibility into system metrics, so what happens on the host, on the Linode VM that runs the Changelog application, the database and all the other components that make up Changelog. I would have to mention logs, as well; logs and metrics - they kind of go hand in hand.
 
 There's one more component, which would definitely be the application exceptions, which - I already mentioned Rollbar. By the way, we mentioned Rollbar to track errors, as well - application errors, application exceptions - and also to track deploys. So they kind of go together.
 
@@ -392,7 +392,7 @@ Currently, we only display metrics for the last hour, and that's it. The reason 
 
 **Jerod Santo:** I'm learning. I'm learning things. That makes sense. Okay, long-term metrics coming out of Prometheus is a nice-to-have down the road... In the blog post you also mentioned business metrics. I'm not familiar with these tools... I know we did a show on Prometheus probably three years ago, but that doesn't mean I remember any of it, and I'm here to tell you I don't... So while we're talking about business metrics, how could we use this beyond just netdata, but longer than a day?
 
-**Gerhard Lazu:** \[00:56:11.03\] For example, let's say that you wanted to track how many times an episode was downloaded, and when it was downloaded. This is something that we could track, downloads - it could be like a rate of episodes. We could track them over time, and we can aggregate all downloads across all episodes. And that's obviously just one type of metric that we could have.
+**Gerhard Lazu:** \[56:11\] For example, let's say that you wanted to track how many times an episode was downloaded, and when it was downloaded. This is something that we could track, downloads - it could be like a rate of episodes. We could track them over time, and we can aggregate all downloads across all episodes. And that's obviously just one type of metric that we could have.
 
 We could also track when the users stop listening, for example, to mp3 files; how much of them they download. We could start all these metrics alongside everything else in a system like Prometheus, and it would use Grafana to visualize those metrics. So literally anything that you wanna track long-term, we could store it in Prometheus' metric storage system, and we could visualize it using Grafana, which is a metrics visualization system.
 
@@ -406,7 +406,7 @@ I do use Prometheus every day. Actually, all the RabbitMQ metrics - there's a ne
 
 **Jerod Santo:** So for now I'm just dumping everything right into Postgres, and basically using good old SQL to slice and dice it into things that we wanna see. That being said, it's very manual. If we wanna have a new view -- in fact, I just added a view today, a graph of all episodes' first seven days reach. Basically, the launch data reach for episodes on a graph... And it's like, that's a feature that I had to develop. I would love to have a tool -- maybe similar to Metabase, Adam, where we're dumping the information into some sort of raw storage, and then it's sliceable and diceable in ways that are more ad-hoc, or more like a reporting tool. is that Prometheus, or is that Grafana, or is that neither of those?
 
-**Gerhard Lazu:** \[00:59:55.24\] Grafana would be able to visualize metrics, and it has this concept of data sources. So you could, for example, use Grafana with InfluxDB, with Prometheus. It even supports Stackdriver, which is a Google product. So it supports these different metric storage systems. One of them is Prometheus.
+**Gerhard Lazu:** \[59:55\] Grafana would be able to visualize metrics, and it has this concept of data sources. So you could, for example, use Grafana with InfluxDB, with Prometheus. It even supports Stackdriver, which is a Google product. So it supports these different metric storage systems. One of them is Prometheus.
 
 I would need to take a closer look at all your metrics. I am very familiar with Prometheus, and I would know what it can and it can't do that well. Most metrics -- I haven't come across a metric that Prometheus can't store or you can't use it for. Maybe, for example, InfluxDB would be more efficient; now, do we need that? I don't know. Maybe. I would definitely need to take a closer look at the metrics. But what I do know for sure is that if you are writing code that manages metrics, you would be better served using a system that was built for that, and maybe writing code that is specific to your business needs.
 

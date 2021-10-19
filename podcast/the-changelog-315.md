@@ -8,7 +8,7 @@ I've been aware of the existence of federated social networks for a few years. B
 
 Back in 2010 it was kind of a promising technology actually, because they had support from Google; Google was developing their own social network, which was the predecessor of Google+, and it was, I think, called Google Buzz. They actually had a hand in developing some of the protocols that were later used in Identi.ca, which was later renamed to StatusNet, which would later become GNU social.
 
-\[00:04:08.07\] In March 2016 I just wanted to check, "Well, how is that GNU social thing doing right now?" I saw that it was still alive, but it obviously looked kind of awful visually... So I was like, "Yeah, I like using TweetDeck; I kind of wanna make an interface for it that works like TweetDeck, and that looks good, and maybe people will switch." But I didn't have any big ambitions about that; I just I'd make something that people who really used GNU social would just switch to. I wasn't expecting anyone from outside that circle to make a jump.
+\[04:08\] In March 2016 I just wanted to check, "Well, how is that GNU social thing doing right now?" I saw that it was still alive, but it obviously looked kind of awful visually... So I was like, "Yeah, I like using TweetDeck; I kind of wanna make an interface for it that works like TweetDeck, and that looks good, and maybe people will switch." But I didn't have any big ambitions about that; I just I'd make something that people who really used GNU social would just switch to. I wasn't expecting anyone from outside that circle to make a jump.
 
 I soon found that GNU social had a rather arcane codebase, and very old-style PHP. I kind of decided to try starting from scratch... And so I started. The UI became kind of like a secondary thought; I started developing in Ruby, and I started with an API-first approach. The first few months that Mastodon existed, I was using it from the terminal, using Curl. That's quite a long story about just March, isn't it...?
 
@@ -26,7 +26,7 @@ Then in November 2016 is when the interface was ready enough that I posted a lin
 
 **Eugen Rochko:** Yeah. I mean, the ambitions grew with more success, I'd put it that way; when I noticed that it was actually getting popular, I wasn't satisfied with it just being a niche thing anymore. So if you have the opportunity to make a real alternative to a big platform and for it to become the future of social networking, well, you don't really wanna pass up the opportunity.
 
-\[00:07:56.10\] So yeah, nowadays it really is a Twitter alternative, but not in the way that it's specifically made (how would I put it...?) for Twitter, like a Twitter clone... It's not that, and it's never been that. It works this way just because it's how it felt natural to me as the Twitter user. So from years of using Twitter before, this is what I would have expected from a social media platform.
+\[07:56\] So yeah, nowadays it really is a Twitter alternative, but not in the way that it's specifically made (how would I put it...?) for Twitter, like a Twitter clone... It's not that, and it's never been that. It works this way just because it's how it felt natural to me as the Twitter user. So from years of using Twitter before, this is what I would have expected from a social media platform.
 
 **Adam Stacoviak:** Right. I think what's interesting about Twitter is it's become a utility. They originally opened up the question, which was how Twitter began similar in nature to yours, like just kind of accidental. I'm sure that they didn't think they would build the business they built today; their ambitions grew over time as success grew. It originally began because it wanted to answer the question of what's happening right now for you, like "What are you doing right now?" That was either delivering a pizza for delivery drivers or whatever, and a messaging system... But now it's become so popular that it's become a utility. And I think once you get to utility status, that's when we had to start breaking down the walls of like corporate interest in that, and I think that's where maybe your angle is with Mastodon... Is that correct, or somewhat accurate?
 
@@ -46,7 +46,7 @@ Then, obviously, that idea evolved, and I no longer think that's a very good ide
 
 **Eugen Rochko:** Yeah, I was thinking about that time... I think the idea of multiple organizations and individuals owning in equal parts their independent servers that intercommunicate with each other is a lot better anyway; it scales a lot better, it works a lot better for self-determination... If there are servers in Germany, there are servers in France, and they can operate according to their own customers and values and laws - I think that's just a lot better than if just Twitter was owned by the U.S. government, god forbid.
 
-**Jerod Santo:** \[00:11:53.01\] Right. There's a lot of nuance in things at play here. You have Adam saying it is a utility - well, not in a governmental, political sense, it's not a utility. We're saying that it's very -- I think your word was "indispensable", which I think is a strong word... There are people who want it to be a utility - these things should be taken over; there's lots of ins and outs and what you about really the politics around these things, and definitely I think we can all agree - at least us three here on the call - that having a large amount of data and really broadcast ability in the hands of a few entities, whether those are public or private... Like you said, the U.S. government owning these things - maybe not any better than Twitter Inc. owning these things. Who knows...?
+**Jerod Santo:** \[11:53\] Right. There's a lot of nuance in things at play here. You have Adam saying it is a utility - well, not in a governmental, political sense, it's not a utility. We're saying that it's very -- I think your word was "indispensable", which I think is a strong word... There are people who want it to be a utility - these things should be taken over; there's lots of ins and outs and what you about really the politics around these things, and definitely I think we can all agree - at least us three here on the call - that having a large amount of data and really broadcast ability in the hands of a few entities, whether those are public or private... Like you said, the U.S. government owning these things - maybe not any better than Twitter Inc. owning these things. Who knows...?
 
 But this federated model that you're doing with Mastodon definitely is a response -- or not a response to that, but it answers a lot of the problems that singular control introduces. Now, it probably has its own problems, but...
 
@@ -74,7 +74,7 @@ They're not 100% compatible with each other -- well, that's a weird thing to say
 
 **Eugen Rochko:** The Social Working Group.
 
-**Jerod Santo:** \[00:15:55.20\] Yeah, the Social Working Group. This was episode 257, for those interested. Very interesting guy, very fun conversation... And one of the things that I said back then, we were talking about -- even a part of the title of that show is "The problem with social networks", and we were talking about how a lot of alternatives to existing networks pop up, they come and they go... You mentioned Google Buzz, which I had actually forgotten existed...
+**Jerod Santo:** \[15:55\] Yeah, the Social Working Group. This was episode 257, for those interested. Very interesting guy, very fun conversation... And one of the things that I said back then, we were talking about -- even a part of the title of that show is "The problem with social networks", and we were talking about how a lot of alternatives to existing networks pop up, they come and they go... You mentioned Google Buzz, which I had actually forgotten existed...
 
 **Adam Stacoviak:** I had forgotten that, too. What about Wave?
 
@@ -102,7 +102,7 @@ People always want something new, and the same thing is for news. They only publ
 
 **Eugen Rochko:** It's not even just that; it's not even just that. It's people's criteria for winning is not adjusted for what Mastodon is. It's a new concept. E-mail is old, but nobody thinks of it as a social network, and nobody really talks about the success of email. I mean, it's pretty clear it is used by everyone, so I guess it's already successful but nobody really talks about it.
 
-**Jerod Santo:** \[00:19:51.11\] That's because there's no press releases for email, right? \[laughter\] There's no certain entity saying "Look how successful we are", because it's like a public good, or it's a concept...
+**Jerod Santo:** \[19:51\] That's because there's no press releases for email, right? \[laughter\] There's no certain entity saying "Look how successful we are", because it's like a public good, or it's a concept...
 
 **Eugen Rochko:** Right. People judge a new social network using the criteria they have from other social networks like Twitter or Facebook that report on active user numbers, they report on quarterly revenue, they talk about monetization, how you put ads into it... And all that stuff is kind of irrelevant to Mastodon. Even the question of celebrities, like people say "Oh, there's not enough celebrities on Mastodon." Like, do we really care about that? I mean, we kind of have local celebrities, just people who are talented, who collect following... But do we really need a random person who was in a Hollywood movie on Mastodon? What would they really give us?
 
@@ -128,7 +128,7 @@ That's not to say that user growth is not important at all. I think there is tha
 
 **Eugen Rochko:** Obviously, I am interested in appealing to new users, in appealing to the mainstream, in growing the platform, because with every new user it becomes more useful to everyone else. And certainly, as it's becoming more active, it's becoming more interesting and you find more cool cat pictures... But yeah, I guess it's just an existential thing... Like, there is no time pressure on that sort of thing.
 
-**Break:** \[00:23:48.08\]
+**Break:** \[23:48\]
 
 **Jerod Santo:** So let's talk about that new user experience. One of the things that definitely differentiates it from a centralized platform is the first thing you have to do is pick an instance, which seems like a bit of a barrier, because "Where do I belong?" Tell us about instances, how you join, and kind of how a regular person interfaces with Mastodon, both in a local instance, and then kind of the federated network.
 
@@ -154,7 +154,7 @@ If you want to be in kind of a safe space environment, you're gonna go and get o
 
 **Eugen Rochko:** Definitely, definitely.
 
-**Jerod Santo:** \[00:28:08.06\] In fact, I have some friends who have joined Mastodon, and I'm a very technical person and I've definitely stopped and looked at it and thought "Yeah, I'm just not sure which instance I would pick", so I just go back to email and Twitter... But you're saying "If you don't know, pick Mastodon.social." Can you migrate later on? Can I switch instances?
+**Jerod Santo:** \[28:08\] In fact, I have some friends who have joined Mastodon, and I'm a very technical person and I've definitely stopped and looked at it and thought "Yeah, I'm just not sure which instance I would pick", so I just go back to email and Twitter... But you're saying "If you don't know, pick Mastodon.social." Can you migrate later on? Can I switch instances?
 
 **Eugen Rochko:** Kind of. Currently, it's a bit of a manual process; you do have to tell your followers to follow the new account, and the content doesn't move, but there is at least a helper in terms of displaying on your profile that you have, in fact, moved... So it's halfway there. We're working on something better, but it's a tall order. I mean, not a lot of federated networks have solved this kind of problem. You can't really migrate an email address either; you have to tell all of your contacts to update their address books. XMPP had a similar problem as well, which was the federated chat service that Gtalk used to use and WhatsApp used to use, and they removed federation from those... But yeah, it had the same problem, that it was based on contacts, and you had to kind of let people know to friend you on a new account if you wanted to move.
 
@@ -184,7 +184,7 @@ So definitely not a new problem, and definitely not a solved problem anywhere, s
 
 **Eugen Rochko:** It can be solved, yeah. It's not really -- I mean, the thing is you could really solve everything if you just use brute force... Like, "Okay, so I've got 40,000 posts on my account, and I've got 139,000 followers. Let me move to a different server!" If I wanted to, okay, go through every one of those 40,000 posts, re-download them on the new server, and go through 140,000 people and resubscribe them to the new account. I mean, it's possible; the only problem is that's a bit of a computationally-expensive operation, isn't it? That's the only real obstacle on the path there.
 
-**Jerod Santo:** \[00:32:11.06\] Yeah. Where it gets a little bit confusing for me - it makes sense as a new user, just sign up for Mastodon.social. I definitely understand where there would be people saying "Okay, now we're basically centralizing on this single instance. Potentially bad, especially if Eugene goes power-hungry and changes everything, or something." But then it's like "Okay, maybe I don't wanna do that. Maybe I wanna pick one", so here's another one, Mastodon.technology. This is just one that I've found; there's a little picker where you can through some of the instances... This Mastodon instance is for people interested in technology. Discussions aren't limited to technology, but because tech folks shouldn't be limited to technology either... So it's not like I have to talk about technology if I join that instance, but it's for people who associate with technology - it seems like a pretty broad brush.
+**Jerod Santo:** \[32:11\] Yeah. Where it gets a little bit confusing for me - it makes sense as a new user, just sign up for Mastodon.social. I definitely understand where there would be people saying "Okay, now we're basically centralizing on this single instance. Potentially bad, especially if Eugene goes power-hungry and changes everything, or something." But then it's like "Okay, maybe I don't wanna do that. Maybe I wanna pick one", so here's another one, Mastodon.technology. This is just one that I've found; there's a little picker where you can through some of the instances... This Mastodon instance is for people interested in technology. Discussions aren't limited to technology, but because tech folks shouldn't be limited to technology either... So it's not like I have to talk about technology if I join that instance, but it's for people who associate with technology - it seems like a pretty broad brush.
 
 It just feels like such a big decision, like "Am I a tech folk?" \[laughs\]
 
@@ -208,7 +208,7 @@ But then there are ones that are like oh, this is for LGBT people, or this is fo
 
 **Eugen Rochko:** So Mastodon does have that. There is a timeline of every public post, and you can filter that by "Posts from everyone" or "Posts by people on your server." That's where the whole topic thing comes into it, because you can look at posts just from your server, and so you get this kind of feeling of community, with your neighbors, and that's where the potential for hanging out with people with the same interests comes into it... Because you can see posts from people you're not following yet.
 
-**Jerod Santo:** \[00:36:05.26\] Gotcha.
+**Jerod Santo:** \[36:05\] Gotcha.
 
 **Eugen Rochko:** It's kind of like a big chat room. But it's funny, because it's kind of an incidental feature; it wasn't really made for this, it was more like "Here's a timeline of everyone, just so you can find somebody to follow. Here's a way to filter it", and suddenly here's this whole thing where instances are created around specific topics.
 
@@ -244,7 +244,7 @@ Essentially, what our Slack community represents - if that became a Mastodon, we
 
 **Adam Stacoviak:** Like a firewall, essentially.
 
-**Eugen Rochko:** \[00:40:13.15\] Yeah, essentially like a firewall...
+**Eugen Rochko:** \[40:13\] Yeah, essentially like a firewall...
 
 **Adam Stacoviak:** In concept.
 
@@ -266,7 +266,7 @@ There are also ways to forward reports from people, from one server to another. 
 
 **Eugen Rochko:** Exactly.
 
-**Adam Stacoviak:** \[00:43:59.11\] Those are good community effects. People aren't forced to agree with you or do what you say; they have the option to hear you, receive that, and then do what they feel. But at your local level you can still make your choices for them.
+**Adam Stacoviak:** \[43:59\] Those are good community effects. People aren't forced to agree with you or do what you say; they have the option to hear you, receive that, and then do what they feel. But at your local level you can still make your choices for them.
 
 **Eugen Rochko:** Exactly.
 
@@ -312,7 +312,7 @@ There's more. There's Subway Tooter, there is Tootdon, and probably more.
 
 **Adam Stacoviak:** Fairly new?
 
-**Eugen Rochko:** \[00:47:55.20\] Yeah, they're really new, and many of them have been started at the same time, or close to the same time, so it's kind of natural for them to be multiple, rather than one app.
+**Eugen Rochko:** \[47:55\] Yeah, they're really new, and many of them have been started at the same time, or close to the same time, so it's kind of natural for them to be multiple, rather than one app.
 
 **Adam Stacoviak:** Aside from platform, like Android, iOS, I can see having the need for many, and I'm not saying only one is needed, but I wonder what the differentiators are? What are they adding to? Sure, innovation, opportunities for innovation - that makes sense; free will, free market...
 
@@ -332,7 +332,7 @@ I've always wished that there would be some app that just took the video recorde
 
 It downsizes the images, if possible, if they're too big for the web. We're trying to use the storage as efficiently as possible.
 
-**Break:** \[00:50:55.19\]
+**Break:** \[50:55\]
 
 **Adam Stacoviak:** Continuing the conversation on just differentiation - obviously, you've got one API, one way things work, you've got standards in which bandwidth can be used, all that good stuff... So everyone's playing by the same rules, theoretically, but yet you have many different types of applications that could be done for different experiences. What else differentiates Mastodon?
 
@@ -350,7 +350,7 @@ Essentially, it's part of the design that eventually, years later maybe, some de
 
 Essentially, you give them the ability to do that and they can have their own instance, it's federated, all that good stuff, they have their own application, but somebody else could use the same application and connect their own Vine-like Mastodon instance.
 
-**Jerod Santo:** \[00:55:58.23\] Lots of opportunities... Maybe I've hosted too many servers in my day, but I just go back to the instances and the providers of the instances, and that's why, Eugene, I was asking about bandwidth costs and the settings... Because I started thinking like -- I see the incentive, and it sounds like a really great network for users, and I wonder what the incentives are for hosting, the costs of hosting, like what it takes to set up an instance, because ultimately, for a federation to work, you need to have enough instances. You can't have three or four; you're gonna end up with a similar situation.
+**Jerod Santo:** \[55:58\] Lots of opportunities... Maybe I've hosted too many servers in my day, but I just go back to the instances and the providers of the instances, and that's why, Eugene, I was asking about bandwidth costs and the settings... Because I started thinking like -- I see the incentive, and it sounds like a really great network for users, and I wonder what the incentives are for hosting, the costs of hosting, like what it takes to set up an instance, because ultimately, for a federation to work, you need to have enough instances. You can't have three or four; you're gonna end up with a similar situation.
 
 So you need those options, but over time and the success of the network is gonna cause the hosting costs to go up. I'm just thinking of hosting the Vine instance, and maybe I have that limit of 40 MB per upload, but people are doing thousands of vines a day all of a sudden and I'm just running this as my little side-hobby... So what are some of the incentives for people to host instances, and what are costs, and what does that look like?
 
@@ -380,7 +380,7 @@ There are no financial motivators for hosting an instance really. We're really m
 
 **Adam Stacoviak:** Yeah.
 
-**Eugen Rochko:** \[00:59:48.18\] However, if you use a dedicated box to put it on, it can be quite cheap... And if you're smart about where to store the user uploaded files, it can be cheaper, too. Amazon S3 is the most popular choice, but the problem is it's quite expensive to store data, and it's very expensive to get the data out through bandwidth, as you said. But there is a trick you can do to reduce the storage.
+**Eugen Rochko:** \[59:48\] However, if you use a dedicated box to put it on, it can be quite cheap... And if you're smart about where to store the user uploaded files, it can be cheaper, too. Amazon S3 is the most popular choice, but the problem is it's quite expensive to store data, and it's very expensive to get the data out through bandwidth, as you said. But there is a trick you can do to reduce the storage.
 
 First of all, why would you even use S3 in the first place? Well, if you have more than one machine serving Mastodon, as you would if you're scaling up, or if you just have limited disk-based storage on your box, then you would need something like object storage. But at the same time there's no reason why your load balancer or your NGINX couldn't just serve those files or store a copy of them.
 

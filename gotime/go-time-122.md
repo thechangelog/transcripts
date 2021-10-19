@@ -36,7 +36,7 @@
 
 In some of the other extended discussions about try - this isn't all about error handling - Daniela Petruzalek said other languages have core values, and she kind of pointed to the zen of Python. So that was what had kind of got me percolating for a year. Then a couple months ago I was lucky enough to be invited to go to the second GopherCon in Israel. They said "You have an hour" and I was like "Well, what have I got that would fill an hour?"
 
-\[00:04:03.14\] So very much the talk that came out of it and the ideas that came out are kind of an hour's worth of ideas... As well as recognizing these really are not my ideas, these are just things that I've pulled together. I also need to apologize for everyone having to read an hour's worth of text. That's the reason why that document is so long; if they gave me 30 minutes, it would have been much shorter.
+\[04:03\] So very much the talk that came out of it and the ideas that came out are kind of an hour's worth of ideas... As well as recognizing these really are not my ideas, these are just things that I've pulled together. I also need to apologize for everyone having to read an hour's worth of text. That's the reason why that document is so long; if they gave me 30 minutes, it would have been much shorter.
 
 **Mat Ryer:** \[laughs\] That's great. There is a kind of mini-site as well, where you've written out a set of these rules, or these points... How can we find that?
 
@@ -76,7 +76,7 @@ So that's why each of them comes with at least a little paragraph to describe th
 
 **Mat Ryer:** You're right, the titles of each little point are quite poetic, so it does leave a lot of room for interpretation. They aren't code, are they? So yeah, I appreciate that, and it's a good point to make... And I've seen this actually happen where someone will give a talk, and they'll kind of skip over some of the fundamentals just to get to the higher-level ideas, and then somebody that perhaps didn't have those fundamentals - their experience of it is then very different... And I've seen that happen a couple of times. So I think that is a thing that we have to look out for. But the little descriptions on the site I think for sure help that.
 
-**Dave Cheney:** \[00:08:30.05\] To give some background - in a growing community like Go's growing community, which we all hope it is, most of the people in this community will have joined recently. We know this makes sense mathematically, and it also makes sense anecdotally. If you think of all the conferences you go to, like \[unintelligible 00:08:46.01\] you might do a show of hands of like "Who's been here a long time? Who's their first time here?", the majority of the people at conferences and at meetups are newcomers... So we should optimize for the newcomer rather than over-focusing on the old hands who've been here a long time.
+**Dave Cheney:** \[08:30\] To give some background - in a growing community like Go's growing community, which we all hope it is, most of the people in this community will have joined recently. We know this makes sense mathematically, and it also makes sense anecdotally. If you think of all the conferences you go to, like \[unintelligible 00:08:46.01\] you might do a show of hands of like "Who's been here a long time? Who's their first time here?", the majority of the people at conferences and at meetups are newcomers... So we should optimize for the newcomer rather than over-focusing on the old hands who've been here a long time.
 
 **Mat Ryer:** Yeah, I think that's a nice decision if you have to make that decision... Because the thing about people with more experience is they have more experience. So they are more kind of equipped to be able to find the right information, and things like this. I do feel like whenever I give a talk, I always try and give it to someone that's new. I always want to make sure they're at least covered... That's why sometimes - even on this show - I sound like an idiot... It's not because I am one, it's because I'm being nice.
 
@@ -92,7 +92,7 @@ So I see writing idiomatic Go as aspirational, something that everybody should b
 
 **Dave Cheney:** Yeah. I think you touched on my key uncomfortableness with this idea of idiomatic Go. It is not that we shouldn't be writing code in the idiomatic style, but actually the word "idiom" itself - I went to the dictionary, and the definition of "idiom" is "The way that we do things around here." It's sort of the accepted norm. And any kind of culture that has that "This is the way that we do things around here", it can be groupthink. "We write code like this because we write code like this."
 
-\[00:12:14.01\] Now, the reason that I said idiomatic Go can be exclusionary is not the ideas of "We should write good Go code in the style that we've all become accustomed to", it's the way that that's actually administered. Scott Meyers, the C++ author, has this amazing blog post on writing The Effective C++ books. He totally breaks the fourth wall about how he went about writing the Effective C++ books, and the thing that I took away from that is -- well, first of all, avoid absolutes. You have titles like "You shouldn't say always and never, but say prefer or avoid." So first of all, moving away from absolutist language is important.
+\[12:14\] Now, the reason that I said idiomatic Go can be exclusionary is not the ideas of "We should write good Go code in the style that we've all become accustomed to", it's the way that that's actually administered. Scott Meyers, the C++ author, has this amazing blog post on writing The Effective C++ books. He totally breaks the fourth wall about how he went about writing the Effective C++ books, and the thing that I took away from that is -- well, first of all, avoid absolutes. You have titles like "You shouldn't say always and never, but say prefer or avoid." So first of all, moving away from absolutist language is important.
 
 The second one was that, in my observations - and I really wanna ask the rest of you how they perceive it... Most of the times, the way the idiomatic Go has been used, it is usually with a negation in front of it. That's not idiomatic. You did that wrong. And that's the key thing which I'm concerned about idiomatic Go as a teaching too.
 
@@ -116,7 +116,7 @@ So this whole exercise was really a question of "How can we reframe that comment
 
 **Carmen Andoh:** Getting to the heart of what idioms are for in programming - many ways for the code to compile, but in order for understandability to increase, in order for the code to grow well, age well, be able to be refactored, we have to layer the shared meaning on top, which is idiomatic Go.
 
-\[00:15:52.21\] So what I'm hearing is when you say "No, that's not idiomatic", there are certain contexts for which that might be okay... If the person is already at a certain level of understanding of Go. But we should also be very explicit in saying "The reason why we like idiomatic Go is because it helps us later on for X, Y and Z." I just love that we're even talking about this, because this transcends just Go, to any programming language.
+\[15:52\] So what I'm hearing is when you say "No, that's not idiomatic", there are certain contexts for which that might be okay... If the person is already at a certain level of understanding of Go. But we should also be very explicit in saying "The reason why we like idiomatic Go is because it helps us later on for X, Y and Z." I just love that we're even talking about this, because this transcends just Go, to any programming language.
 
 **Mat Ryer:** I like that idea that you've just brought up, which is instead of saying "Oh, this is rejected because it's not idiomatic", even if you don't say "idiomatic", you could say "This is a way to do this." And it's a sort of teaching opportunity, isn't it? ...which we don't always feel like we have time for, but sometimes it can be just a different way of framing the same thing you were gonna say before... And suddenly, like you say, Dave, it's a positive experience then, instead of a negative one.
 
@@ -130,7 +130,7 @@ So again, these three... Depending on who you're talking to, the teams that you'
 
 **Dave Cheney:** Yeah, an excellent question... And I need to give some editorial context here. To talk about public speaking - I'm sure everyone's been through that wave where you're like "This is a great idea. I'm gonna propose this as a conference talk." And then even better, you get accepted and you're elated; you're like "This is fabulous!" And then you're making some notes, and you're gonna drink some coffee, and you write in your book for a little bit, and then in about a month you come back and you say "Right. Time's ticking, I've gotta go and write that talk", and you sit down and write it, and you're like "Crap. This idea is not as good as I thought it was. This isn't gonna work out as well as I thought it was. I've made a terrible mistake."
 
-**Carmen Andoh:** \[00:20:01.14\] \[laughs\]
+**Carmen Andoh:** \[20:01\] \[laughs\]
 
 **Dave Cheney:** This is a process that I go through every talk that I write. And then it's a process like pulling yourself out, saying "Okay--", you've promised to do this talk, on this subject, you probably missed the point to change a topic, so you've just gotta grin and bear it... From talking to other speakers, I think this is actually a very common thing, that happens to everybody.
 
@@ -154,7 +154,7 @@ To point to maybe some guidance here - does everyone remember the blog post a co
 
 **Johnny Boursiquot:** \[laughs\] Sure...!
 
-**Dave Cheney:** \[00:24:06.07\] We'll definitely put it in the show notes, but the idea of innovation tokens is that every time you start a new project, you bring with you all the knowledge that you have. So you're doing a new web application - well, you're gonna pretty much start from the old application, and maybe you'll change a few things. Maybe you'll be like "Oh, that database... That was a poor choice. For this I think we need a different kind of database." But then in taking on something new, like changing your database, you've just spent one of your innovation tokens. You've taken on a big risk, because that's a unknown. The main push of this "Choose boring technology" blog post was you don't have unlimited innovations tokens. You have two, maybe three. More like one.
+**Dave Cheney:** \[24:06\] We'll definitely put it in the show notes, but the idea of innovation tokens is that every time you start a new project, you bring with you all the knowledge that you have. So you're doing a new web application - well, you're gonna pretty much start from the old application, and maybe you'll change a few things. Maybe you'll be like "Oh, that database... That was a poor choice. For this I think we need a different kind of database." But then in taking on something new, like changing your database, you've just spent one of your innovation tokens. You've taken on a big risk, because that's a unknown. The main push of this "Choose boring technology" blog post was you don't have unlimited innovations tokens. You have two, maybe three. More like one.
 
 So if you're thinking about trying to apply moderations of virtue to your Go code, say "Well, this code sure does use a lot of concurrency." Maybe that's the one innovation token. Using a lot of goroutines to kind of break up this problem, then maybe we shouldn't think of something hypothetical; maybe we shouldn't have a lot of complicated data structures as well. It's really about recognizing "Hm, I've used a lot of a certain part of Go. The goal is not to us all of the parts at the same time." I've pushed my stack in on that one idea.
 
@@ -168,7 +168,7 @@ But it's a realization that that is probably -- like, if everything in your code
 
 **Mat Ryer:** Yeah, if you use all of the 25 Go keywords in the program, then yeah, I reckon you probably are. \[laughter\]
 
-**Break:** \[00:27:17.21\]
+**Break:** \[27:17\]
 
 **Carmen Andoh:** There was a recent post about the six stages of a Go programmer, and it was the evolution in a small, quippy GitHub gist... Which is basically this - you start out simple, but "No, now I wanna use all the features." Then you realize over time you go back to the very beginning, where you started. Then there was another cheeky Rob Pike homage without syntax highlighting. \[laughter\]
 
@@ -190,7 +190,7 @@ So this is all part of the journey, and there's just not fast way through it. Yo
 
 **Mat Ryer:** A coward? \[laughter\] Oh, we'll cut that out, for sure.
 
-**Johnny Boursiquot:** \[00:32:02.19\] Like, I realize I've done this -- so you do this enough times in a project and you realize the ego that you're bringing to a project. It's almost like you're dismissing months or years' worth of people's hard work and effort... And requirements are never clear the first time around. So there's just so much you don't know about a project before, and then here you are, you just show up and you're like "Oh, this is nonsense. I'm just gonna rewrite the whole thing over the weekend." The ego about that, it's just like "Get over yourself." \[laughter\]
+**Johnny Boursiquot:** \[32:02\] Like, I realize I've done this -- so you do this enough times in a project and you realize the ego that you're bringing to a project. It's almost like you're dismissing months or years' worth of people's hard work and effort... And requirements are never clear the first time around. So there's just so much you don't know about a project before, and then here you are, you just show up and you're like "Oh, this is nonsense. I'm just gonna rewrite the whole thing over the weekend." The ego about that, it's just like "Get over yourself." \[laughter\]
 
 **Dave Cheney:** This is fascinating. I think as we grow in our careers and put on some hat or some little lapel pin that says "Senior" or something like that - maybe we don't say it out loud anymore. Maybe we say it in our heads. We're a little more cognizant of "Okay, so the code is written in a time and a place." But can I ask you this question - so that's the project you've been assigned, you've got a group of humans you're working with... But what if it's a library that someone comes along -- you have a vendor library, and you're asked to integrate with that; I'm not gonna name any names, AWS...
 
@@ -214,7 +214,7 @@ I try to explain to my kids what is it about programming, and I said "Well, if y
 
 I have felt anxious about that... Not as in "Oh, is someone gonna mess up my work?", but literally like "I'm leaving this debt for other people. And I've said it a couple of times now, if code can't be maintained, either because there isn't -- to give an example, the first Go code I wrote Atlassian was rewritten after I left, because I was the only Go programmer. It was reasonable that they rewrote it. But that is not a strategy for the growth of a language. Code that we leave behind as we move between jobs has to be maintainable and has to be sustainable.
 
-\[00:35:51.29\] To summarize the whole thing, these are suggestions for maintainable Go code that other people coming into the project are going to be able to understand and work with, and also Go code that you'd be happy to work on yourself. In a way, it is trying to find a way of explaining idiomatic Go without saying "Don't do this. Don't do that", because idiomatic Go can also be quite positively absolutist, in like "Always do this, always do that."
+\[35:51\] To summarize the whole thing, these are suggestions for maintainable Go code that other people coming into the project are going to be able to understand and work with, and also Go code that you'd be happy to work on yourself. In a way, it is trying to find a way of explaining idiomatic Go without saying "Don't do this. Don't do that", because idiomatic Go can also be quite positively absolutist, in like "Always do this, always do that."
 
 The real take-away I want from this is that, for the success of our language and for the success of any project, it has to be maintainable, and that exists beyond any one individual.
 
@@ -236,7 +236,7 @@ I really love the ideas coming out of that talk there. They're very similar to y
 
 **Carmen Andoh:** Yeah. The one thing I keep thinking about though as Go enters in two million people, and new people coming in all the time - most of the new people are coming in with previous ideas, previous assumptions, previous idioms, previous culture... And that is the thing, when you ask questions like you show up to a company and "Do you wanna rewrite everything?" or what do you do when you want to try to get to some sort of consensus about culture idioms or whatnot... So how does that clash when you either are getting a team to try Go from another language, or writing a new service, and it's traditionally been thought of as a Java shop or a Python shop...
 
-\[00:40:02.09\] In the same way that an American is going to maybe make some faux pas in another country, what are the faux pas that you get when you come to Go from other languages?
+\[40:02\] In the same way that an American is going to maybe make some faux pas in another country, what are the faux pas that you get when you come to Go from other languages?
 
 **Dave Cheney:** That's the $64,000 question.
 
@@ -266,7 +266,7 @@ How many times have you fought with tests that are flaky because they're hitting
 
 To bring it back to "Leaving concurrency to the caller", one of the best ways to do that is (unfortunately for the author) to give up the responsibility of "Who's gonna start that goroutine?" to the core, to somebody else. To provide them hooks... I mean, the easiest way to provide a hook for someone to run your function concurrently is just write a function. They can put it in a goroutine if they want.
 
-\[00:44:14.03\] Those are some of the ideas that Peter has, these more complex notions of when we have workers. You think of the workers that collectively represent providing a service, like an index, or a search, or a thing that accepts connections - they kind of all conceptually work together as a group; you need a way of managing them as a group. So Go Kit's run package has some good ideas in there.
+\[44:14\] Those are some of the ideas that Peter has, these more complex notions of when we have workers. You think of the workers that collectively represent providing a service, like an index, or a search, or a thing that accepts connections - they kind of all conceptually work together as a group; you need a way of managing them as a group. So Go Kit's run package has some good ideas in there.
 
 **Mat Ryer:** I was gonna say, one of the other things - if you do the concurrency inside your package... You know, in Go it's very easy to make something concurrent. It's not very easy to do the other way around, to take concurrent code and synchronize it, especially if it's running inside some package, and there's other channels and things that exist that you don't have any access to.
 
@@ -276,11 +276,11 @@ But I'll tell you one trick - and I've actually had this very recently... One tr
 
 **Mat Ryer:** I think the testable examples that we have, that just fall out of go test, are one of Go's undiscovered gems. They should be an example for every single API function. There isn't, because, basically, the documentation... But the power that they give to someone reading GoDoc - there's literally a piece of sample code. That isn't just from a code comment; it's tested, it works with the example that you're seeing, right there on the screen. It was such a straightforward thing, such a simple thing, but incredibly powerful. I can't think of another language in the contemporaries that has that baked in... Not just in the documentation, but the integration through the testing package and through the way that they're highlighted in GoDoc is just a hidden gem.
 
-**Break:** \[00:46:15.09\]
+**Break:** \[46:15\]
 
 **Johnny Boursiquot:** I would like to touch on the bit where if you think something is slow, prove it with a benchmark. That's actually one of my favorite features in the language. You don't have to bring in third-party tooling or anything like that to test the efficiency of your code; it's built into the language. It's built into the test framework. So if you think something is slow, don't just eyeball it; actually write the benchmarks to actually prove it, and then do the work.
 
-\[00:48:00.08\] And to that point, I think there's this sort of -- early on, when I first started doing Go, there was this constant buzz around the community about "Oh, Go is fast, Go is fast, but you have to know how to use goroutines, you have to know how to program it just right." There was this constant murmur, a focus on pure performance. If this thing wasn't doing zero allocation, speedy... This was a time when we were coming out with that HTTP router every other week... Maybe this was a period where we as a community had to mature a little bit, get to know the language, and grow as developers...
+\[48:00\] And to that point, I think there's this sort of -- early on, when I first started doing Go, there was this constant buzz around the community about "Oh, Go is fast, Go is fast, but you have to know how to use goroutines, you have to know how to program it just right." There was this constant murmur, a focus on pure performance. If this thing wasn't doing zero allocation, speedy... This was a time when we were coming out with that HTTP router every other week... Maybe this was a period where we as a community had to mature a little bit, get to know the language, and grow as developers...
 
 But this whole notion that "Oh, if it's not fast (by some arbitrary measure), then you need to go back to the drawing board" kind of thing. So yes, please, do touch on that... Because to me, Go already solves a vast majority of the problems I have from a speed standpoint. Very rarely do I have to actually try to optimize just one part or one area of my code. Maybe that's just me, but... I don't find myself constantly having to worry about optimizing my Go code.
 
@@ -296,7 +296,7 @@ So in the absolutist view you can say "Oh look, that's still slower", but the po
 
 **Mat Ryer:** You're right. It's a good point as well, because as soon as you have a few things in your program interacting, things get very unpredictable, very quickly... Way too quickly, in my opinion. But... Physics, I suppose. Yeah, that's another reason to prove it, isn't it? That's why you sort of say "Prove it", because actually, it might be wrong, and you might be really surprised by how your code actually runs in the wild, or even just at some kind of realistic scale.
 
-**Carmen Andoh:** \[00:51:59.05\] Yeah. And the one thing that I would say in terms of idiomatic Go is that you have to know when to also break the rules, and that's hard too, especially when you're a beginner. And when you talk about dogma - I mean, you can't have when each release is fixing previous problems that you were dogmatic about... Defer is the perfect example, with 1.14.
+**Carmen Andoh:** \[51:59\] Yeah. And the one thing that I would say in terms of idiomatic Go is that you have to know when to also break the rules, and that's hard too, especially when you're a beginner. And when you talk about dogma - I mean, you can't have when each release is fixing previous problems that you were dogmatic about... Defer is the perfect example, with 1.14.
 
 **Johnny Boursiquot:** It's stressful as a beginner who's learning the language, whether because you have to fork, or out of desire to learn something new, learn the language... It's frustrating to always be sort of second-guessing yourself "Am I doing this right? Am I doing this the idiomatic way?" or is somebody more experienced than me going to look at this code and tell me the very thing that Dave was advocating before? ...basically, don't say "Hey, we don't do things like this around here." So it's stressful.
 
@@ -320,7 +320,7 @@ So to put the final nail in the idiomatic Go coffin - the last thing I want for 
 
 **Johnny Boursiquot:** Wow, you actually butchered that one up... \[laughs\]
 
-**Jingle:** \[00:55:32.25\]
+**Jingle:** \[55:32\]
 
 **Mat Ryer:** So does anyone have an unpopular opinion? It can't be about my timing this time... Dave, have you got one, please?
 
@@ -328,7 +328,7 @@ So to put the final nail in the idiomatic Go coffin - the last thing I want for 
 
 **Johnny Boursiquot:** Well, according to Hacker News, you have. \[laughter\] What a fun bunch...
 
-**Carmen Andoh:** \[00:56:10.01\] It doesn't have to be about Go... It could be about anything. Yeah, about anything. Here's your moment.
+**Carmen Andoh:** \[56:10\] It doesn't have to be about Go... It could be about anything. Yeah, about anything. Here's your moment.
 
 **Dave Cheney:** So... Think about your day. Think about the things that you've done in the day, and think about the things that have interrupted you during that day. Think about the things that have interrupted your focus. A lot of them are probably unavoidable, like "My dog just came downstairs", or your family, or there might be someone at the door... But the thing that occurs to me is that many of these interruptions are actually self-inflicted. Mobile phone notifications, pop-ups, chat messages, the inevitable clamor of Slack... All of these things interrupt your focus.
 

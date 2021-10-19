@@ -24,7 +24,7 @@ Continuous delivery is kind of a broader method of developing software in which 
 
 **Marko Anastasov:** Yeah. For example, in my personal journey as a developer, I first discovered continuous integration, and I was led to it through basically realizing the importance of automated tests, and getting feedback often... And I think that's probably a frequent case.
 
-\[00:04:17.16\] On the other hand, deployment is -- you know, even when you're having a prototype and you don't have any tests, and you're not even thinking about CI, you are... And maybe it's a web app, maybe it's a hobby project; the way you're deploying it basically is continuous deployment, typically. So maybe you do a git push and it goes live.
+\[04:17\] On the other hand, deployment is -- you know, even when you're having a prototype and you don't have any tests, and you're not even thinking about CI, you are... And maybe it's a web app, maybe it's a hobby project; the way you're deploying it basically is continuous deployment, typically. So maybe you do a git push and it goes live.
 
 So there's some kind of a mix in terminology, because these two things are typically done together, in teams of a certain size and codebases of a certain size. It's just that when you talk about maybe just continuous delivery, for example, it's maybe too ambiguous for people to also understand that it includes CI. The way I see it, it's just so we know what we're talking about.
 

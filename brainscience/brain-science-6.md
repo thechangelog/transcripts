@@ -14,7 +14,7 @@ And then respect is always this sort of outlier that just hangs out there, and i
 
 **Adam Stacoviak:** Right...? Because empathy is seeing their point of view and understanding from their point of view. Compassion is one step further, which is seeing that, feeling that, being there with them, but then also wanting to change that for them, and playing a role in that; kind of partnering them even.
 
-**Mireille B. Reece, Psy.D:** \[00:03:54.27\] Yeah, and I think that's the other piece of compassion - it cues something in us to want to do something for that person to alleviate the suffering that they're encountering. In my world I see this often in the experience of people grieving... Because grieving is an incredibly painful process. So people will offer solutions or strategies, or tell people what they should be doing, when grief is an incredibly individualized gig. And part of that is because it's rooted in the relationship that someone has with another, be it a person, or an animal, or something that they really cared about. So when we lose that, we have to make this maneuver of something tangible to an intangible place in our life... And that's a process.
+**Mireille B. Reece, Psy.D:** \[03:54\] Yeah, and I think that's the other piece of compassion - it cues something in us to want to do something for that person to alleviate the suffering that they're encountering. In my world I see this often in the experience of people grieving... Because grieving is an incredibly painful process. So people will offer solutions or strategies, or tell people what they should be doing, when grief is an incredibly individualized gig. And part of that is because it's rooted in the relationship that someone has with another, be it a person, or an animal, or something that they really cared about. So when we lose that, we have to make this maneuver of something tangible to an intangible place in our life... And that's a process.
 
 So nobody else is going to have that same relationship with that other person, but people are very quick to offer input around what people "should" be doing.
 
@@ -42,7 +42,7 @@ So nobody else is going to have that same relationship with that other person, b
 
 **Mireille B. Reece, Psy.D:** Right, but think about how respect is really leading the charge... Because respect, if we're talking about it through that perspective that says "This regard for the feelings, wishes, thoughts, rights or traditions of another person", that's sort of my step one of going "You're not me, and you don't have to be." And if I don't start there, then I'm really already off-kilter, because guess what I'm using as a reference point? Yourself. We tend to use what we know to make sense of what we don't know. So I'm going to use my own template...
 
-**Adam Stacoviak:** \[00:08:04.22\] Which makes sense...
+**Adam Stacoviak:** \[08:04\] Which makes sense...
 
 **Mireille B. Reece, Psy.D:** Right. Imagine I'm just switching which way my lens is focused, so I put it back on me to try to understand you, which it may not fit you...
 
@@ -80,7 +80,7 @@ So nobody else is going to have that same relationship with that other person, b
 
 **Adam Stacoviak:** Yeah, and that's gotta be -- I mean, especially in the kids' place, where they're still discovering... They don't have experience, like we do, the wisdom we do, of many years or several decades. They're still learning about their environment, and even themselves. And truly, what is real and what's not real. There's a lot of fantasy in a child's mind. Kids believe in monsters, and things like that. Well, there really are monsters, they're just not quite the same kind of monster as a kid makes in their mind. So it's still real, but not quite real.
 
-**Mireille B. Reece, Psy.D:** \[00:11:54.20\] Right, and -- I mean, it's dark, and shadows are real... And our brains can assimilate light and dark into a pattern that looks like a monster.
+**Mireille B. Reece, Psy.D:** \[11:54\] Right, and -- I mean, it's dark, and shadows are real... And our brains can assimilate light and dark into a pattern that looks like a monster.
 
 **Adam Stacoviak:** Yes.
 
@@ -106,7 +106,7 @@ When we talk about healthy or unhealthy adaptive or maladaptive things in relati
 
 **Adam Stacoviak:** I haven't had a half hour to mull on this and think about it, but I would say that - like with anything for me or anyone else - I've learned through trial and error, or by doing, or by in many ways failing... I'm sure I've failed many times in my life to respect someone else, which helped me understand how to respect someone else.
 
-**Mireille B. Reece, Psy.D:** \[00:16:14.15\] Sure. So re-learning, and going "I thought that this was okay, but maybe this doesn't work very well when I do it this way...", and really that's what I want people to take away, is that all of these things that we talk about are skills that we can acquire over time, and not everyone's in the same place. So often people want to correlate age with maturity, or age with skill.
+**Mireille B. Reece, Psy.D:** \[16:14\] Sure. So re-learning, and going "I thought that this was okay, but maybe this doesn't work very well when I do it this way...", and really that's what I want people to take away, is that all of these things that we talk about are skills that we can acquire over time, and not everyone's in the same place. So often people want to correlate age with maturity, or age with skill.
 
 **Adam Stacoviak:** Yeah, that's not the truth. It's easy to assume that, and it makes sense to assume it, because you assume because someone's 30 they should be in a 30-year-old's mindset... However, their experiences in life, trauma etc. and you mentioned loss earlier, geez... Losing a loved one or parents truly changes you in quite deep ways. So someone who's 30 may not actually be in that 30-year-old mindset, because they've had some significant troubles in their life.
 
@@ -128,7 +128,7 @@ When we talk about healthy or unhealthy adaptive or maladaptive things in relati
 
 **Mireille B. Reece, Psy.D:** Right...? So it's like, I can know how valuable sleep is. That if I want to do better with myself and with others, that probably sleep should be in my top three. But I'm like "No, I can just --" I mean, I don't know if it's just my individual thing, being a mom, being in the field I'm in or what, but I'm always apt to be like "Oh, I'll just keep pushing", maybe it's a little type A in there... But I will push harder and longer to get whatever needs to be done, done, without regard for the implications on myself. So it's interesting, we want to sort of put respect, empathy and compassion all in the lane of others, but let's flip it for a second and apply it to ourselves.
 
-**Adam Stacoviak:** \[00:20:29.24\] Yeah.
+**Adam Stacoviak:** \[20:29\] Yeah.
 
 **Mireille B. Reece, Psy.D:** I think about it in terms of our limits. We want to infer that because I've done something at one point in time, I should be able to do that. Take, for example, staying up late, pulling all-nighters when you're in college or grad school, or doing whatever project startup etc. You can go full-tilt, and it's like "Dude, I've got coffee. We can just keep going."
 
@@ -156,7 +156,7 @@ I thought I could just keep running as I used to once upon a time run. But when 
 
 **Adam Stacoviak:** Yeah. You have to ease off of it a little bit.
 
-**Mireille B. Reece, Psy.D:** \[00:24:06.26\] Right. So if we're practicing thinking of these concepts in a system, be it with others or with ourselves, don't all parts count?
+**Mireille B. Reece, Psy.D:** \[24:06\] Right. So if we're practicing thinking of these concepts in a system, be it with others or with ourselves, don't all parts count?
 
 **Adam Stacoviak:** Yeah.
 
@@ -174,7 +174,7 @@ So I started to train with a trainer, just once a week, because I was like "That
 
 **Adam Stacoviak:** Yeah... There's a lot of things also... If you have a consistent relationship with someone and that relationship has some -- some awareness in that relationship might be "How is your communication happening? Has it become more frequent, less frequent? When you do talk, do you talk shortly? Do you talk in long-form?" I would say communication with someone might be a key ingredient. I would say potentially even arguing. If arguments ensue. Or a lot of disagreement comes around...
 
-\[00:28:13.21\] Whether it's somebody you're in close, intimate relationship, or if it's just somebody brand new that you're trying to essentially argue with over a point of view... And there's no winning, because you will both walk away not right, or both right, and never really resolve it. So maybe arguing, communication... Those are some physical ways, but... What do you think?
+\[28:13\] Whether it's somebody you're in close, intimate relationship, or if it's just somebody brand new that you're trying to essentially argue with over a point of view... And there's no winning, because you will both walk away not right, or both right, and never really resolve it. So maybe arguing, communication... Those are some physical ways, but... What do you think?
 
 **Mireille B. Reece, Psy.D:** I definitely think those are true, because ironically... Some researchers have contended that couples' difficulties with communication - because a lot of people will go seek therapy when communication is a problem... But how many couples when they're first dating have issues with communication?
 
@@ -192,7 +192,7 @@ I liked where you were going at though, which is what are some of the indicator 
 
 **Mireille B. Reece, Psy.D:** Well, I think that in some ways people -- some people might talk about depression and anxiety... Well, we talk about them in all sorts of ways, but some would say depression looks more like a certain sort of cognitive rigidity, an inflexibility in one's mind... Whereas anxiety is sort of like this never-ending chaos of like "I can't settle my brain, I can't settle my mind in any way." So imagine if I have trouble shifting the lens in my mind over and over and over again... It could look like depression. And depression is really this sort of feedback loop of learned helplessness, like "Nothing I do really pays off. I can make efforts to change, I can try to talk to somebody differently, I can try to get more sleep, I can try to exercise, but nothing really seems to make a difference."
 
-\[00:31:56.12\] But another key thing, even with that depression -- one of the key symptoms is actually sort of these excessive feelings of guilt. Guilt is actually an interesting indicator light, because guilt doesn't work. I always describe it like a hook. I can't feel guilty unless I allow someone to make me feel guilty. Like, I have a hook and I let people hang stuff on it.
+\[31:56\] But another key thing, even with that depression -- one of the key symptoms is actually sort of these excessive feelings of guilt. Guilt is actually an interesting indicator light, because guilt doesn't work. I always describe it like a hook. I can't feel guilty unless I allow someone to make me feel guilty. Like, I have a hook and I let people hang stuff on it.
 
 **Adam Stacoviak:** Right... Okay.
 
@@ -218,7 +218,7 @@ I liked where you were going at though, which is what are some of the indicator 
 
 **Mireille B. Reece, Psy.D:** Yeah. But so, ironically, then what would also be helpful to navigate that differently would look like creating clarity around the expectation. So "I expect to have X, Y or Z done or completed by such-and-such in time, on such-and-such a day... Or not." Or "Here's what I can do." Or "I can't give you any certainty, because I am juggling all of these other plates right now." It's okay to say "I don't have the bandwidth right now to give." So even if we reframe or create flexibility around this word No, that No really just means "Not right now." Then I can feel better about saying No.
 
-**Adam Stacoviak:** \[00:36:16.20\] It might also mean maybe never...
+**Adam Stacoviak:** \[36:16\] It might also mean maybe never...
 
 **Mireille B. Reece, Psy.D:** It could... \[laughs\] It could. But that allows flexibility if you want to extend that, to say "I will put a sort of cursor/tab mark right there that I'm willing to revisit it at a later time."
 
@@ -238,7 +238,7 @@ The first one of them is criticism. Sometimes criticism can be constructive... T
 
 **Adam Stacoviak:** "You always do this..." or "You are always bad at that." Sorry, I had to jump in there. My bad. It's coming out, it's coming out...
 
-**Mireille B. Reece, Psy.D:** \[00:39:51.15\] Exactly. It was, because we teach this to our kids... And ironically, the other day I had said something about "always" or "never", and it was my child who reminded me, like "Mom, in this family we don't say always and never." I was like, "Thank you, child..." Because he gave back exactly what I'd been teaching him. And that will never (ironically) feel good, when criticism says "You are always, only ever, X or Y." And so "You are always so stubborn. You just never listen." It's like assaulting somebody with words, to say "This is who you are" as a binary thing. You are either A, or B. You are either stubborn, or you work well with me.
+**Mireille B. Reece, Psy.D:** \[39:51\] Exactly. It was, because we teach this to our kids... And ironically, the other day I had said something about "always" or "never", and it was my child who reminded me, like "Mom, in this family we don't say always and never." I was like, "Thank you, child..." Because he gave back exactly what I'd been teaching him. And that will never (ironically) feel good, when criticism says "You are always, only ever, X or Y." And so "You are always so stubborn. You just never listen." It's like assaulting somebody with words, to say "This is who you are" as a binary thing. You are either A, or B. You are either stubborn, or you work well with me.
 
 Then we have defensiveness, which - this arises when we feel criticized or attacked. It's sort of like "I'm gonna not take responsibility", or again, blame this on another person. "Well, that wasn't my fault. You didn't tell me I was responsible to do X, Y or Z, so it's up to you to manage that, alright?" Think hot potato when it comes to defensiveness. Like, "It's not mine. Not mine. You take it. No, you."
 
@@ -272,7 +272,7 @@ Then we have defensiveness, which - this arises when we feel criticized or attac
 
 **Adam Stacoviak:** Wow, that's true.
 
-**Mireille B. Reece, Psy.D:** \[00:43:54.28\] Do I call myself stupid? Do I call myself a moron? It's a way in which we actually assault ourselves... Or even this sense of like "What's wrong with you? Why can't you just get it right?!" We reference this a lot in therapy, this inner critic, wherein there's no space to err or be human. It's like "Oh no, you will fall in line. No matter what day, what time, hop to, get with it, or shame on you!"
+**Mireille B. Reece, Psy.D:** \[43:54\] Do I call myself stupid? Do I call myself a moron? It's a way in which we actually assault ourselves... Or even this sense of like "What's wrong with you? Why can't you just get it right?!" We reference this a lot in therapy, this inner critic, wherein there's no space to err or be human. It's like "Oh no, you will fall in line. No matter what day, what time, hop to, get with it, or shame on you!"
 
 **Adam Stacoviak:** Yeah. I'm so glad that you're reminding us to... When we apply these things - and we still have one more to go through - when we look at empathy, compassion, respect, or these four horsemen, to not just look at everyone else, but to the self... Because we often are our worst critics, and almost unanimously. We often think that it's a one-way street, these things; it's actually a two-way street. It's how do we feel about us, how do we speak to ourselves - because that could be the beginning of someone's issues. How they feel about themselves is stopping them from having these things for other people.
 
@@ -294,7 +294,7 @@ Then we have defensiveness, which - this arises when we feel criticized or attac
 
 **Mireille B. Reece, Psy.D:** Right...? But the withdrawer needs time to be like "Hold on, I still need time to breathe and sort of recalibrate, so that I can come back to you, and remember that you're not like an ogre.
 
-**Adam Stacoviak:** \[00:46:47.29\] Right. Well, in any -- oh, I can't say that; in most scenarios there needs to be this sort of safe ground, this time to sort of decompress... Going back to HALT - when you're hungry, angry, tired or lonely - in those scenarios you're not gonna make the best decisions. You won't even make the best decisions about your emotions in regards to the other person that you're in relationship with.
+**Adam Stacoviak:** \[46:47\] Right. Well, in any -- oh, I can't say that; in most scenarios there needs to be this sort of safe ground, this time to sort of decompress... Going back to HALT - when you're hungry, angry, tired or lonely - in those scenarios you're not gonna make the best decisions. You won't even make the best decisions about your emotions in regards to the other person that you're in relationship with.
 
 **Mireille B. Reece, Psy.D:** Yes.
 

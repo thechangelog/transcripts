@@ -22,7 +22,7 @@ On today's show we have Johnny Boursiquot... Hello, Johnny.
 
 **Mat Ryer:** You don't care how big the menu is, you will go to that place.
 
-**Jerod Santo:** \[00:04:04.03\] That's right. Supersize Me.
+**Jerod Santo:** \[04:04\] That's right. Supersize Me.
 
 **Mat Ryer:** Yeah, omnivore. And we're also joined by a special guest today, who you may remember from a lightning talk back at GopherCon 2015. It's Paul Smith. Hello, Paul.
 
@@ -46,7 +46,7 @@ I had also pushed up against some of the limits of Python in my work, especially
 
 **Paul Smith:** Yeah, it does. So my first professional web development job was working for a small non-profit here in Chicago... We were an environmental non-profit, and I was basically one of the few web developers there, so I had a lot of freedom to pick and choose technologies. At the time I remember using Cold Fusion, and PHP, even some early Ruby on Rails in the very early days of that stack... But I helped co-found a startup with the co-creator of Django, the Django web framework, Adrian Holovaty, in 2007, called EveryBlock. EveryBlock was a hyper-local news startups. So the idea that we would go out and collect information on the web, in different sources, about news that was happening near you, on your block, in your neighborhood - you wouldn't care about it if it was across town, but if it's happening on your block, you super-care about it a lot.
 
-\[00:08:17.22\] So since obviously Adrian was the creator of Django, we used Django for that. So that kind of made the choice easy, but I've definitely experienced in my time that it was an interesting set of factors that lead to you picking a different technology or a different stack... But for me, it's been about expressiveness, how productive I can be in it, and does it perform well enough. And Django, Python checked a lot of those boxes, for sure, and EveryBlock went on to be a pretty successful, although relatively short-lived startup.
+\[08:17\] So since obviously Adrian was the creator of Django, we used Django for that. So that kind of made the choice easy, but I've definitely experienced in my time that it was an interesting set of factors that lead to you picking a different technology or a different stack... But for me, it's been about expressiveness, how productive I can be in it, and does it perform well enough. And Django, Python checked a lot of those boxes, for sure, and EveryBlock went on to be a pretty successful, although relatively short-lived startup.
 
 **Mat Ryer:** Yeah, because you sold it to MSNBC, right?
 
@@ -74,7 +74,7 @@ Now you've got things like Mapbox, and there's just a lot more flexibility when 
 
 **Paul Smith:** Yeah. So after EveryBlock I found myself working to support President Obama's reelection campaign in 2012, which was headquartered here in Chicago. There was a big technology effort around the campaign. For the first time -- well, technology had been a part of his original campaign for Office, but they really brought it in-house; we were gonna build a lot of our own tools, the software that we use not just for the website, but how we interact with our volunteers, how we reach out to potential voters, how we organize and coordinate the campaign... Writing custom software in-house.
 
-\[00:12:19.20\] So I was the deputy director for technology at the Democratic National Committee during his reelection. So we were supporting the campaign, and coming up with all these tools, and building the technology to run the campaign. Actually, that was one of the places where I first had an idea that Go could really do the job at scale. So this is leading to how this all wound up in the government, but we were building tools to support the final days of the election, when millions and millions of people were gonna turn out. At the time, early voting and mail-in ballots wasn't quite as popular as it is now, for obvious reasons... But we were building tools to help with that get out to vote effort, so mainly people looking up their polling place, "Where do I go to vote?"
+\[12:19\] So I was the deputy director for technology at the Democratic National Committee during his reelection. So we were supporting the campaign, and coming up with all these tools, and building the technology to run the campaign. Actually, that was one of the places where I first had an idea that Go could really do the job at scale. So this is leading to how this all wound up in the government, but we were building tools to support the final days of the election, when millions and millions of people were gonna turn out. At the time, early voting and mail-in ballots wasn't quite as popular as it is now, for obvious reasons... But we were building tools to help with that get out to vote effort, so mainly people looking up their polling place, "Where do I go to vote?"
 
 So that was a very popular page on the BarackObama.com website, and we decided to make a key component of that sort of back-end service that was looking up, kind of translating from your home address into the database of polling locations, where you actually go to vote... There was a key component there that we decided to use Go for to do the middle layer. Because we knew it was gonna be high-volume, we wanted low-latency, and it performed fantastic. I knew Go at that point was something that you could put into production on mission-critical services. It gave me a lot of confidence about the language itself.
 
@@ -90,7 +90,7 @@ So it did those two big things, and then HealthCare.gov was the way that they we
 
 **Paul Smith:** So October 2013 rolls around, and the site launches and it's immediately clear that it's not working. It's in the news, and people were talking about it. It's kind of all anybody is really talking about. And the folks that I worked with on the campaign, that technology team that I talked about, were texting each other, back-channeling, like "What's going on? How did we get it so right on the campaign side, but when it came to this really critical part of governing, how is it going so wrong?" And we were brainstorming "What could possibly be going wrong?"
 
-\[00:16:08.29\] We didn't really have visibility into it, nobody really did... So I get a call in a couple of days after that... This is like mid-October 2013. It's from Todd Park; he was at the time the CTO of the United States. So he works inside the White House as the chief technology officer of the United States... And they're putting together a team.
+\[16:08\] We didn't really have visibility into it, nobody really did... So I get a call in a couple of days after that... This is like mid-October 2013. It's from Todd Park; he was at the time the CTO of the United States. So he works inside the White House as the chief technology officer of the United States... And they're putting together a team.
 
 Basically, they want to get some outside folks who have technology experience, and figure out what's going wrong, because they themselves didn't know what was wrong with the site. They were asking the people who were working on it, the contractors, the government agency, and they didn't know; they couldn't get that information up to the White House, believe it or not.
 
@@ -116,7 +116,7 @@ So yeah, I said immediately yes, and the very -- I think next day, or maybe it w
 
 **Paul Smith:** Well, we didn't really know... So this is a really important part - the team that built HealthCare.gov was still there, and from what we can understand... I think some important context here is -- just remember how much pressure there was every single day on this thing. This signature, political thing. It's literally on the news every single day. We're walking into the buildings where this is going on, and it's on CNN, in the lobby, on the big, flat panel screens.
 
-\[00:20:05.25\] The pressure was intense. And the people who were working on it, who had built it - because we didn't build it, we were just showing up there to kind of figure out what was going wrong - they're still there. The problem was -- well, in some ways they didn't know what they didn't know, and I'll get to that in a second, what I mean by that.
+\[20:05\] The pressure was intense. And the people who were working on it, who had built it - because we didn't build it, we were just showing up there to kind of figure out what was going wrong - they're still there. The problem was -- well, in some ways they didn't know what they didn't know, and I'll get to that in a second, what I mean by that.
 
 So they didn't quite know how to fix it, and they weren't doing the things that they needed to do to get the right kind of information up to people like the president, people in the West Wing, the White House, who were trying to operationalize this and try to understand what was wrong and communicate, try to prioritize how it would get fixed. They weren't doing the right sort of things that -- so for example there wasn't monitoring. Like, there was, but it wasn't accessible; it was maybe hidden behind a VPN that some people had access to, but it was really hard to figure out "Is the site up or down? What parts are up or down? What is the performance degraded, what's the baseline?" So that didn't exist. That's kind of problem one.
 
@@ -142,17 +142,17 @@ But what they built was enterprise software. They architected a big, complex mac
 
 **Paul Smith:** And then it couldn't scale. So you could potentially use scale, you could throw resources at it to kind of overcome those limitations... But the design of it made that really hard. And some of the physical realities. We take for granted we can spin up a VM in AWS, or Google Cloud, or Azure, or whatever it is. The government was not ready for all that stuff in 2013. So HealthCare.gov was deployed into a data center that -- you know, they had VMware, they had some tools like that, but fundamentally, there were racks of servers that were like "These are the HealthCare.gov racks." And that's it. And like a SAND attached to it for network storage, and things like this... But like I said, when that traffic starts flowing in and the individual components are not architected in a way for low latency and responsiveness, you start to get these bottlenecks, these pile-ups dogpile, there's not good caching... So all those components get strained and stressed, and they sort of cascadingly fail.
 
-\[00:24:12.21\] And then on top of all of that, the team that was building it was - they were running through the tape. They were still building things. They were exhausted. They were not communicating well across teams. So they just had this big, big, complex thing that wasn't quite the right shape for what they needed, and it wasn't in a physical place where you could just turn up the horizontal scaling knob... And then there was just this lack of communication and coordination.
+\[24:12\] And then on top of all of that, the team that was building it was - they were running through the tape. They were still building things. They were exhausted. They were not communicating well across teams. So they just had this big, big, complex thing that wasn't quite the right shape for what they needed, and it wasn't in a physical place where you could just turn up the horizontal scaling knob... And then there was just this lack of communication and coordination.
 
 So yeah, we walked into the situation on day one, honestly thinking "Oh, maybe we'll be here for a couple of days, give them some ideas of what to do next..." Little did we know, we were gonna spend the next 2,5-3 months of our lives basically seven days a week to get this thing turned around... Because we knew that's what it would take, given what we walked into.
 
-**Break:** \[00:25:09.26\]
+**Break:** \[25:09\]
 
 **Mat Ryer:** So were these people used to building government websites with relatively low traffic, and they usually just -- like, manual forms are turned into web... We have that same here local government especially; they don't feel very modern. Is it just literally that, that the experience of the people building it was just for those types of systems, and they'd never really encountered a situation like this sort of high-throughput situation?
 
 **Paul Smith:** Yeah, I think that's exactly right. Basically, when time came to build HealthCare.gov, the way government contracting works is you sort of work with government contractors. You don't really just go out and contract with Google... Although Google does have some government work; but that's not how it would normally work. You would normally reach out to these companies that have historically worked with the government, and government is their main customer.
 
-\[00:27:55.00\] And yes, so for the ten years or twenty years prior to HealthCare.gov, the kinds of companies that were sort of bidding on the HealthCare.gov work - their main experience was with building those more enterprise software stacks, and they didn't really have the experience of that consumer web, that at the time, in 2013, was becoming more common and more of a commodity. We were understanding about memcache, and how you scale up an application, how you deliver a good experience in AWS... It was becoming more and more common. That experience and expertise hadn't made its way over to government.
+\[27:55\] And yes, so for the ten years or twenty years prior to HealthCare.gov, the kinds of companies that were sort of bidding on the HealthCare.gov work - their main experience was with building those more enterprise software stacks, and they didn't really have the experience of that consumer web, that at the time, in 2013, was becoming more common and more of a commodity. We were understanding about memcache, and how you scale up an application, how you deliver a good experience in AWS... It was becoming more and more common. That experience and expertise hadn't made its way over to government.
 
 **Mat Ryer:** Yeah. So there's something else about the way of working like that, in these older companies, or bigger companies, with all this architecture and hierarchies, and things - often, you end up isolating by functionality, don't you? So you end up having database people separate from application or business logic people; it's all kind of divided up like this. So that's hard, to have that kind of coherent idea about anything, I find anyway.
 
@@ -172,7 +172,7 @@ So we put you through the narrowest part of the funnel up top... So you sign up,
 
 **Paul Smith:** Right, exactly. We used to joke on the rescue that if we were the healthcare.ca, it would just be like "You have healthcare", and that's it; static page. Anyway... \[laughter\]
 
-**Mat Ryer:** \[00:32:02.02\] Yeah... Much easier tech. That's a good reason to do it, if no other.
+**Mat Ryer:** \[32:02\] Yeah... Much easier tech. That's a good reason to do it, if no other.
 
 **Paul Smith:** And I have to say, I personally believe we should have affordable, universal healthcare in this country; I think it's a right. I'm really proud of the Affordable Care Act for moving us closer to that goal. It expanded coverage tremendously. What's what was so important to us, and why it was critical that we worked so hard to turn it around, was because we didn't wanna go backwards. We didn't wanna lose 20 million people covered with healthcare; we wanted to lock that in, although now it's up for...
 
@@ -196,7 +196,7 @@ So really, our innovation, if anything, on the rescue itself was bringing -- one
 
 So it created a sense of urgency, it created accountability, which was good... And not just like finger-pointing or blame, but "Hey, we really need you to do this thing, and it's really important, because we need this bug to be fixed", or whatever. And people really rallied to that. So we wrote very little code, although we did write some Go code, that turned out to be pretty load-bearing.
 
-**Johnny Boursiquot:** \[00:36:11.02\] Yeah, let's get into that a little bit. So what is the extent to which Go played a role here? It sounds like there was some immediate impact derived out of the involvement of Go, and I'm curious to hear all the different layers and where you got a chance to involve Go in the rescue.
+**Johnny Boursiquot:** \[36:11\] Yeah, let's get into that a little bit. So what is the extent to which Go played a role here? It sounds like there was some immediate impact derived out of the involvement of Go, and I'm curious to hear all the different layers and where you got a chance to involve Go in the rescue.
 
 **Paul Smith:** Sure. So the kind of -- I'll try to put you in the mindset of where we were in late November of that year, which was... We had a deadline that we were working towards - end of December. So if you were an American and you wanted use HealthCare.gov, you needed to have signed up by December 23rd to be covered for the subsequent year. So that was sort of driving everything we were doing, that deadline... In the sense that people may have left HealthCare.gov, they tried to use it in the early days and it was a bad experience, they couldn't get on, they had problems, and they went away... But through the media and through other signals, and just the knowing that this is the deadline, a bunch of people were gonna come back in December, all at once. So we had better have this thing be able to handle that surge of traffic.
 
@@ -230,7 +230,7 @@ We knew that we weren't quite there yet, so we started to think about "How do yo
 
 **Jerod Santo:** Yeah. Captive audience.
 
-**Paul Smith:** \[00:39:57.01\] That's the thing... If you're trying to sign up for healthcare for your family, you're sufficiently motivated to keep trying. You're gonna come back. Yeah, so that's what we did. But here's the thing - we're still operating in this environment of this complex site and data center, which - I didn't even talk about how difficult it was to even just deploy code. That was a high-risk endeavor, just to do a deployment. Just to change the code or change the configuration was very high-risk.
+**Paul Smith:** \[39:57\] That's the thing... If you're trying to sign up for healthcare for your family, you're sufficiently motivated to keep trying. You're gonna come back. Yeah, so that's what we did. But here's the thing - we're still operating in this environment of this complex site and data center, which - I didn't even talk about how difficult it was to even just deploy code. That was a high-risk endeavor, just to do a deployment. Just to change the code or change the configuration was very high-risk.
 
 **Mat Ryer:** That's a terrible one, actually... And I even see some teams working on far less important tech fall into that same problem, where you're either too scared to change and deploy, or sometimes it is just really hard to do; there's lots of process or lots of things that have to happen. And yeah, there's something, again, about being able to be iterative and quick, because you can be sort of opportunistic and pounce on things; you can be more agile (the lower-case agile).
 
@@ -246,7 +246,7 @@ I should mention that we had like this throttling mechanism that essentially dia
 
 **Johnny Boursiquot:** That sounds really low-tech in a good way... No more than is needed.
 
-**Paul Smith:** \[00:44:04.17\] It was the least clever thing we could come up with. If I have to convey some life lessons here, going back to just that last point about deploying code, I think one of the things you wanna do as early on in an endeavor, a project, a startup, a new project, whatever it is - you wanna exercise that path to production as early as you possibly can... Even if it's just putting a Hello World out there, it exercises your DNS, it exercises your hosting, it exercises your CI/CD pipeline. You wanna do all of that early, instead of finding out when you're ready to have a big publicity campaign that you forgot to tell so-and-so to turn on auto-scaling, or something like this. So that's lesson one.
+**Paul Smith:** \[44:04\] It was the least clever thing we could come up with. If I have to convey some life lessons here, going back to just that last point about deploying code, I think one of the things you wanna do as early on in an endeavor, a project, a startup, a new project, whatever it is - you wanna exercise that path to production as early as you possibly can... Even if it's just putting a Hello World out there, it exercises your DNS, it exercises your hosting, it exercises your CI/CD pipeline. You wanna do all of that early, instead of finding out when you're ready to have a big publicity campaign that you forgot to tell so-and-so to turn on auto-scaling, or something like this. So that's lesson one.
 
 The other lesson is like the higher the stakes, and the bigger the audience maybe, the less clever you wanna be... Because when things break, they break non-linearly. They don't break in just simple, straightforward ways at scale like that. They kind of catastrophically break. And then you have this added pressure to restore service... So you wanna make it as easy on yourself as the person who's in operations to recover... And the best way you do that is by not being too clever while you're building the software.
 
@@ -258,7 +258,7 @@ The other lesson is like the higher the stakes, and the bigger the audience mayb
 
 **Paul Smith:** Right. They kind of splinter out in ways that are hard to predict... Especially when you're talking about a distributed system with a lot of components, cascading failure is a real failure mode that is hard to reason about in advance.
 
-**Break:** \[00:46:01.05\]
+**Break:** \[46:01\]
 
 **Jerod Santo:** So what was the total time that you were on this project? When did you feel like you could call it quits, like "Well, we're no longer needed here. Go back to regular life"?
 
@@ -270,7 +270,7 @@ The other lesson is like the higher the stakes, and the bigger the audience mayb
 
 **Jerod Santo:** For sure.
 
-**Paul Smith:** \[00:48:07.26\] It's unacceptable to me that somebody could not get their healthcare because a website didn't work. There's something so viscerally wrong about that. We know how to make websites work, right? We know how to make websites scale, we know how to have good user experiences... It is unacceptable, so I felt that really viscerally. And it's not just about the technology scaling too, from the technology hardware and software perspective. It's also about -- you know, user experience can be... An interface, the language of the site, the design can also be a way to kind of disenfranchise people, or keep them from achieving their goals. So that has to be a consideration as well. But that visceral feeling...
+**Paul Smith:** \[48:07\] It's unacceptable to me that somebody could not get their healthcare because a website didn't work. There's something so viscerally wrong about that. We know how to make websites work, right? We know how to make websites scale, we know how to have good user experiences... It is unacceptable, so I felt that really viscerally. And it's not just about the technology scaling too, from the technology hardware and software perspective. It's also about -- you know, user experience can be... An interface, the language of the site, the design can also be a way to kind of disenfranchise people, or keep them from achieving their goals. So that has to be a consideration as well. But that visceral feeling...
 
 So my co-rescue team partner, Greg Gershman, who I met outside the White House that first morning - he was also a software engineer, had been a presidential innovation fellow, so that's how he kind of came into the whole thing... We looked at each other and were like "We should really start a company. We should start a company that can bring the knowledge and experience that we have about developing modern digital services - web applications, websites - with great customer experience, great user experience, and offer that to government, and say "This is a better way of doing the things that you yourself are saying you wanna build, but you don't have the talent and experience to do it." So that's what we did.
 
@@ -306,7 +306,7 @@ So yeah, people knew we were from the White House. Word gets around in an instan
 
 Well, it's that time... We're gonna do Unpopular Opinions!
 
-**Jingle:** \[00:52:37.18\] to \[00:52:53.17\]
+**Jingle:** \[52:37\] to \[52:53\]
 
 **Mat Ryer:** So who would like to put forward our first unpopular opinion of the evening?
 
@@ -344,7 +344,7 @@ It definitely has some downsides. There's another flywheel to go wrong somewhere
 
 **Johnny Boursiquot:** I think I've seen this evolution take place over the years... Usually, those who start out being backend developers, where that's really what their bread and butter is, once they start doing a little bit of frontend development, they're like "Yeah, this is the natural progression. I'm gonna use my server-side code to push out the frontend code. Great." And eventually, they'll either make that transition to doing full-on frontend, all-there, stateful JavaScript development, or they'll sort of stick with those server-side rendered pages, because there's a comfort zone there.
 
-\[00:56:11.22\] Then you have people coming to it from the other side, saying "Hey, I'm a JavaScript developer, I'm all about the UI, I'm into the CSS, I'm into the HTML DOM and all that stuff..." They're coming at it from this other side, and then they get to the edge, where they're like "Okay, I don't really wanna go do that backendy stuff you're talking about... That Django, the Rails... Maybe not." And then Node comes along and you say "Oh yeah, I can do backend now. \[laughter\] I'm gonna take my JavaScript skills and go to some backend." So it depends on where you're coming from. You're gonna have a different posture but yeah, it's not right or wrong, it's just different.
+\[56:11\] Then you have people coming to it from the other side, saying "Hey, I'm a JavaScript developer, I'm all about the UI, I'm into the CSS, I'm into the HTML DOM and all that stuff..." They're coming at it from this other side, and then they get to the edge, where they're like "Okay, I don't really wanna go do that backendy stuff you're talking about... That Django, the Rails... Maybe not." And then Node comes along and you say "Oh yeah, I can do backend now. \[laughter\] I'm gonna take my JavaScript skills and go to some backend." So it depends on where you're coming from. You're gonna have a different posture but yeah, it's not right or wrong, it's just different.
 
 **Jerod Santo:** I really think it does depend on what you're building... And I know that's the moderate stance, the "it depends" stance...
 

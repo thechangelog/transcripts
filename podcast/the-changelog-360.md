@@ -14,7 +14,7 @@
 
 **Abhinav Asthana:** Yeah. \[laughs\] Banks start charging fees when your balance goes below a certain amount, and I was like "Postman is doing well, it's a good side project", but I wouldn't have imagined the journey at all, from that point onwards. It's been a pretty crazy ride.
 
-**Jerod Santo:** \[00:04:07.06\] Did it start as the typical developer "scratch your own itch", or were you looking to serve other people from the start?
+**Jerod Santo:** \[04:07\] Did it start as the typical developer "scratch your own itch", or were you looking to serve other people from the start?
 
 **Abhinav Asthana:** It was primarily for myself; I'm a typical scratcher in each project, and I was inspired by others' "scratch your own itch" projects. It's not the first time I tried this thing. I have a lot of itches, certainly. I actually listed down ten itches, and I'm like "Let me actually build something which solves my own unique itch." There were other clients back then, and I was like "It's not really fitting the bill", and "I like this thing versus that thing." You have to be a little picky to -- I mean, developers are picky, and I was picky; "I don't like this for this reason, and that reason...", and then I was like "Okay, I will build this thing", which became Postman. I put it up on the Chrome Web Store and it turned out that this was shared; the pain was shared, the itch was shared by a lot of other developers.
 
@@ -34,7 +34,7 @@ Some people think that Postman has been in existence for more than ten years, li
 
 **Adam Stacoviak:** Let's go back a little further then to the itch. What specifically was the itch in the early days of Postman that you were solving for? What is the core problem set maybe now, or even earlier, for API developers?
 
-**Abhinav Asthana:** \[00:08:08.19\] I saw a very basic problem... When you're compiling and running code, that whole loop can be done on your machine. You run a program, you know if it has problems or not. If it's a website that you're developing, you load the website in the browser, and if the page works, you know; if it doesn't work, your browser console tells you. But with APIs things become a little interesting, because things are running on somebody else's machine. And I saw that basically to debug APIs and to work with either your own APIs or somebody else's APIs you had to kind of send a lot of API calls, you had to tweak parameters, you had to work in places when you didn't have complete documentation...
+**Abhinav Asthana:** \[08:08\] I saw a very basic problem... When you're compiling and running code, that whole loop can be done on your machine. You run a program, you know if it has problems or not. If it's a website that you're developing, you load the website in the browser, and if the page works, you know; if it doesn't work, your browser console tells you. But with APIs things become a little interesting, because things are running on somebody else's machine. And I saw that basically to debug APIs and to work with either your own APIs or somebody else's APIs you had to kind of send a lot of API calls, you had to tweak parameters, you had to work in places when you didn't have complete documentation...
 
 So whether you were figuring stuff out for yourself or for an application that you were supposed to build on somebody else's API, you were just working a lot with APIs, and none of those existing tools -- people would write call commands, you would have a bash history of call commands, and the better developer would be who has a bigger bash history, because "Oh, I wanna send you those calls." And I'm like "Why is that happening."
 
@@ -52,7 +52,7 @@ I think a related problem which got us into building stuff on the collaborative 
 
 I think when the collaborative tools came in, and the Create an Account stuff, I was just like "Well, there's a little bit more here than I wanted", and I started looking for other things, but... The law of large numbers - the more people you serve, you're gonna have some people that it just doesn't quite fit, and for me at that time I just jumped off the wagon. I have looked at it recently, and -- oh boy, it's changed quite a bit since then. But yeah, I was using it completely in a solo context, and so the collaborative tools did not appeal to me... Where I'm probably less than half of 1% of people who are like that. Most people are not like me; most people are in teams more often than not.
 
-**Abhinav Asthana:** \[00:12:15.25\] Yeah. So I don't wanna harp on that a little too much, but our hypothesis was that it's gotta be a pretty sad API that's gonna be used by one person. \[laughter\]
+**Abhinav Asthana:** \[12:15\] Yeah. So I don't wanna harp on that a little too much, but our hypothesis was that it's gotta be a pretty sad API that's gonna be used by one person. \[laughter\]
 
 **Jerod Santo:** Guilty. I write the saddest little APIs there are.
 
@@ -70,7 +70,7 @@ So I tried a whole bunch of things, but primarily what got me into doing Postman
 
 Ankit at that time was working in Mumbai, India, and I was in Bangalore, so I booked a bus ticket; I was like "I can't afford a plane ride, because Bangalore doesn't really go down so I'm just gonna go to Bombay and I'm gonna get my head straight, and stay with Ankit and see where it goes. So there were no plans of building a company; it was just "I wanna work with somebody I like." That was my hope, that Ankit would eventually join. "And I want to work on something that people love, and we'll see where that goes."
 
-**Adam Stacoviak:** \[00:16:10.20\] Ankit being one of your co-founders.
+**Adam Stacoviak:** \[16:10\] Ankit being one of your co-founders.
 
 **Abhinav Asthana:** Yeah.
 
@@ -96,7 +96,7 @@ The funny thing in adverts was that you have a postman going on a bicycle from d
 
 So we were ramen profitable then, and that's when we had investors reach out saying that "Hey, you guys have a lot of traction. We heard about you from other folks... Have you thought of starting a company?" At this time we were not really incorporated. It was just like the three of us working together.
 
-**Adam Stacoviak:** \[00:20:11.28\] What's interesting here is I heard donations, which is interesting... And then Jerod, you mentioned earlier their recent announcement of 50 million dollars series B. So from donations to 50 million dollars in a series B - it's an interesting story, to consider donations being a monetization strategy to bootstrap, to where you're at now. It's gigantically different.
+**Adam Stacoviak:** \[20:11\] What's interesting here is I heard donations, which is interesting... And then Jerod, you mentioned earlier their recent announcement of 50 million dollars series B. So from donations to 50 million dollars in a series B - it's an interesting story, to consider donations being a monetization strategy to bootstrap, to where you're at now. It's gigantically different.
 
 **Abhinav Asthana:** Yeah. I wouldn't recommend it...
 
@@ -120,19 +120,19 @@ I've been coding from the sixth grade till 2016, and I was the CTO. The CTO titl
 
 Then I started getting more into being open to talking, and listening, and... Eventually, of course, you have to learn to lead, and stuff. But it was a journey, I didn't learn it in a day, and I don't think I got any of it figured out... But it's a journey, and it's been good for us.
 
-**Adam Stacoviak:** \[00:23:58.18\] It's interesting how sitting down with a user of a product you're building or have built, and how motivating that is to you, because you see them using it, and not only do you get that feedback loop going, but you kind of have this -- we're all in this, in some way, shape or form, to be in relationship with other people... And that way you're able to actually reach out and help other people solve their problems with your tooling... And I can't even imagine how motivating that was for you, to actually see people face-to-face using Postman.
+**Adam Stacoviak:** \[23:58\] It's interesting how sitting down with a user of a product you're building or have built, and how motivating that is to you, because you see them using it, and not only do you get that feedback loop going, but you kind of have this -- we're all in this, in some way, shape or form, to be in relationship with other people... And that way you're able to actually reach out and help other people solve their problems with your tooling... And I can't even imagine how motivating that was for you, to actually see people face-to-face using Postman.
 
 **Abhinav Asthana:** Yeah, it totally changed my perspective on what Postman was. Of course, I liked it as a side project, and it was fun to work on it, and I knew it had value... But once you see how passionate people are about the thing that you've built, you actually feel more responsible for it. It's not like you can think of anything -- we are very conscious of breaking changes; like even for usual I can say "Okay, you can go and use Postman that way", still... And you wanna respect that.
 
 When people have invested a part of their life in learning a product that you've built, they've built workflows around it, there are mission-critical things that are happening... I think once you meet them and you see that there are real people using the product... I mean, we have more than seven million users on the website... But what is still important is the stories and use cases of each one of them. It made me more responsible, and I did the same thing with every single employee at Postman since then. We fly them out and we hold meetups. And of course we tell people "This is what Postman can do", but a lot of it is for us to just know what they're doing with the product.
 
-**Break:** \[00:25:49.01\]
+**Break:** \[25:49\]
 
 **Jerod Santo:** Abhinav, you've mentioned the seven million plus developers right there on the homepage; three hundred thousand plus companies using this, a hundred and thirty million plus APIs... A lot of us build things similar to Postman, or we have tools, we have open source projects, we've got our hobbies, and we'd love to have more people using them. We don't wanna build that one little API for one, right? \[laughter\] Nobody wants to build that, except apparently me... But how did you get here? Because seven million people is just a large amount, and you've had a lot of success over 2012-2019 (seven years). There had to be a tipping point, or some sort of hockey stick; maybe there were some features you added early on... Tell us some of the insights that you've learned, maybe in retrospect, or maybe you knew how to get so many people using and loving this tool.
 
 **Abhinav Asthana:** Absolutely, yeah. It's been something -- I'll be analyzing, looking back, and we have some observations that we then projected forward, and I think with the last four years a lot of them have just turned out right. Our first insight was that building APIs means groups of people working together; and now you would say "Of course, building software means groups of people working together", but we saw that APIs are a different way to combine larger pieces of software.
 
-\[00:28:13.08\] You can take open source libraries, and you can mesh them in, and do includes and requires, and say that "Okay, my software is more capable because it has these libraries." And what we saw is this proliferation of this way of working through APIs, and that's how fundamentally software was getting built. In 2012-2013 I think ProgrammableWeb listed out a few thousand APIs, but the number of APIs, looking at it from my experience at Yahoo! or at other startups, or from the people that we were talking to, it seemed a lot.
+\[28:13\] You can take open source libraries, and you can mesh them in, and do includes and requires, and say that "Okay, my software is more capable because it has these libraries." And what we saw is this proliferation of this way of working through APIs, and that's how fundamentally software was getting built. In 2012-2013 I think ProgrammableWeb listed out a few thousand APIs, but the number of APIs, looking at it from my experience at Yahoo! or at other startups, or from the people that we were talking to, it seemed a lot.
 
 Everybody was building APIs internally, for their partners, for public platforms and stuff... And we saw that as building APIs required groups of people to come together, how do they share what they're working on, and how do they make their workflow a little bit better? So we invented this concept of a Postman collection, where you could basically put together API calls - it could be any set of API calls; it could be your calls that you debugged, and the five calls that don't work for an API. Or these are the 50 API endpoints that my API has. Or this is a definite use case of my API working with Slack's API, or Stripe's API. So we said, okay, the way developers work (or the way we work) is you're kind of in this mode of debugging, testing, combining, and you want to share that with somebody else.
 
@@ -144,7 +144,7 @@ So what we saw was this started getting traction, not just with internal develop
 
 In 2016 we launched this concept of a team library, where you could share collections that you're working with, all in one page. It kind of becomes a shared API repository for your team. Then it eventually evolved into this concept of a workspace, where you can invite people and work with them in real time, like the way you work on Google Docs, or Slack, for all the things that you're doing together. We feel that was one very strong thread that ran through to help Postman grow.
 
-\[00:32:10.15\] And along with that, just adding more tools to enrich everybody's workflow. Now Postman can test for hundreds of different kinds of APIs. It already supports so many different kinds of protocols, and so many different ways of working with request bodies, and stuff. So we continued all of that, we added more tools to cover more of the workflow. You can create mock servers in Postman, you can build documentation in Postman... And I think the only other thing I'd mention is that we knew this nature of developers to try to tinker with the tool, to do things a little bit more efficiently, so we built this JavaScript-based runtime in the product, which gave rise to other use cases like automation testing, and chaining, eventually leading up to integrations with CI/CD systems and whatnot.
+\[32:10\] And along with that, just adding more tools to enrich everybody's workflow. Now Postman can test for hundreds of different kinds of APIs. It already supports so many different kinds of protocols, and so many different ways of working with request bodies, and stuff. So we continued all of that, we added more tools to cover more of the workflow. You can create mock servers in Postman, you can build documentation in Postman... And I think the only other thing I'd mention is that we knew this nature of developers to try to tinker with the tool, to do things a little bit more efficiently, so we built this JavaScript-based runtime in the product, which gave rise to other use cases like automation testing, and chaining, eventually leading up to integrations with CI/CD systems and whatnot.
 
 So we always kept the tool extensible. It was collaborative, so people could share things, and that has helped us grow. At this point, actually, we have to discover use cases now from people. Like "Okay, what are you using Postman for?" and we know a little bit better.
 
@@ -162,7 +162,7 @@ Back to the collaborative bit - I mean, I guess it kind of seems obvious, but I 
 
 So I guess the takeaway there is if you're building collaborative tools, and the sharing/collaborative side is hard, then you're not doing yourself any favors whatsoever. You mentioned the collections - was that a thing you formalized around, and made it really easy to just share a link and pass it on? Was there anything that you did around the landing page for the person who's not a Postman user, who gets a collection passed to them? Share some insights on how you guys really smoothed that out and made it shareable.
 
-**Abhinav Asthana:** \[00:35:58.18\] Yeah, yeah. These were all observations. As I said, everything that we have built comes from observations, or generally what people want... And it's a little bit different than what people say they want. We noticed that people would download these JSON files, put it into a repository, and then they would have -- I mean, people still do that. They're kind of doing that over and over again. And a repository kind of works, but generally when you're working across different teams you don't have access to the same repository. When you are sharing a public API, Microsoft is not gonna give you access to their codebase repository.
+**Abhinav Asthana:** \[35:58\] Yeah, yeah. These were all observations. As I said, everything that we have built comes from observations, or generally what people want... And it's a little bit different than what people say they want. We noticed that people would download these JSON files, put it into a repository, and then they would have -- I mean, people still do that. They're kind of doing that over and over again. And a repository kind of works, but generally when you're working across different teams you don't have access to the same repository. When you are sharing a public API, Microsoft is not gonna give you access to their codebase repository.
 
 So there was this notion of sharing of a collection, and people would describe a sequence of steps that they would do, and we just thought of making that set of steps simple. The first iteration was you can upload a collection as a link, the way you share a Google Doc. You get a link and then you can open that link, and now you can use Google Docs with that thing loaded. So you could do that with Postman through the Share a Link and then Import Flows.
 
@@ -178,7 +178,7 @@ Now we have been studying these social groups inside companies, and how that int
 
 **Jerod Santo:** Yeah. Once you get into private APIs, especially with access tokens, and responses... There's probably lots of stuff that sensitive, and you at least want good access controls around who sees what, but then also - have you had any pushback...? I don't know, does Postman store those collections on you guys' infrastructure, so now you have some burden of holding on to other people's sensitive API data as well?
 
-**Abhinav Asthana:** \[00:40:08.16\] Yeah, yeah. That's one of the risks that come with any SaaS cloud-based service. We have certain best practices, we have tried to bake certain defaults in the product. There's some stuff that will just not be stored in our servers by definition. You can store API keys and passwords locally, it will not be synced up. So there are lots of these different safeguards that we have had to put in, and people weigh those against the value that they get in terms of a better workflow.
+**Abhinav Asthana:** \[40:08\] Yeah, yeah. That's one of the risks that come with any SaaS cloud-based service. We have certain best practices, we have tried to bake certain defaults in the product. There's some stuff that will just not be stored in our servers by definition. You can store API keys and passwords locally, it will not be synced up. So there are lots of these different safeguards that we have had to put in, and people weigh those against the value that they get in terms of a better workflow.
 
 **Jerod Santo:** Many SaaS companies who are providing similar services that you are with regard to sensitive data have tried the on-premise model - GitHub Enterprise, Npm famously (or maybe infamously now) have had their two separate products, the public and private package repositories... Is on-premise something that you've thought about, or do you offer it, or have you tried that route?
 
@@ -218,7 +218,7 @@ Now we have been studying these social groups inside companies, and how that int
 
 **Abhinav Asthana:** Yeah. If you're automation breaks, like if it's running tests, imagine that your test fails, you want to hit that thing which tells you that five things are not working.
 
-**Break:** \[00:44:26.20\]
+**Break:** \[44:26\]
 
 **Jerod Santo:** So we've talked about where Postman came from, what it was, what it's turning into... Maybe we could talk a little bit about your vision for the future. Right now you do pitch it as the most complete ADE. Or maybe it's the only ADE, because you guys made up the acronym, or maybe not. That being said, there's some competitors out there... You're now saying "Use Postman to build your APIs. It's a fully integrated shareable environment." Tell us more about what it looks like today, what features you're adding, and people can expect if they check it out.
 
@@ -240,7 +240,7 @@ The other thing we saw was Postman always was about testing APIs, or building AP
 
 So we looked at this particular definition and we saw that essentially this whole process of building APIs is going through the cycle of design, developing, testing and deploying... And people essentially need some direction on how to go about it.
 
-\[00:48:19.16\] So we looked at all of these different activities, and said, okay, Postman is gonna define the notion of an API, and it's gonna help people go through this workflow. And along this workflow, you will connect all of these different tools and techniques that you use in building that API. So now you have this API tab inside Postman, and you can create a new API, you can give it a name, you can give it a version, you can define the API through a schema; we support OpenAPI, GraphQL, RAML, and a bunch of other things... And you can generate Postman collections out of that schema, and those collections could then in turn be turned into mock servers, automation test suites, documentation, monitoring... And it gives you this place in which you can really see all those things that an API is, and connect to other things where an API is being represented.
+\[48:19\] So we looked at all of these different activities, and said, okay, Postman is gonna define the notion of an API, and it's gonna help people go through this workflow. And along this workflow, you will connect all of these different tools and techniques that you use in building that API. So now you have this API tab inside Postman, and you can create a new API, you can give it a name, you can give it a version, you can define the API through a schema; we support OpenAPI, GraphQL, RAML, and a bunch of other things... And you can generate Postman collections out of that schema, and those collections could then in turn be turned into mock servers, automation test suites, documentation, monitoring... And it gives you this place in which you can really see all those things that an API is, and connect to other things where an API is being represented.
 
 So it kind of brings together a lot of these other disparate workflows that existed outside a Postman, into Postman. It streamlines a lot of those build steps people are already doing, and people just feel more comfortable, that "Okay, all of these things are in one place."
 
@@ -280,7 +280,7 @@ I think all those cases are valuable. In fact, billions of dollars are spent in 
 
 **Adam Stacoviak:** Come on now.
 
-**Jerod Santo:** \[00:52:14.22\] Come on, support everything.
+**Jerod Santo:** \[52:14\] Come on, support everything.
 
 **Abhinav Asthana:** \[laughs\]
 
@@ -304,7 +304,7 @@ We had a great first conference last year, and now we're holding a second iterat
 
 Maybe now that we're closer to having a full understanding of Postman, its inception, to its history, to how you've grown to where you are, maybe paint a picture for the future. Where is API development going? What are some of the tooling happening that you're seeing is on the forefront of enabling teams to better collaborate, to better manage, to better version etc.
 
-**Abhinav Asthana:** \[00:55:51.26\] Sure, yeah. First of all, we believe that APIs are essentially the building blocks of modern software. Now you kind of get this massive power of functionality, and storage, with cloud-based tools available to infinitely scale up anything that you want to use. So I think APIs as a general trend will continue to be those building blocks for modern software.
+**Abhinav Asthana:** \[55:51\] Sure, yeah. First of all, we believe that APIs are essentially the building blocks of modern software. Now you kind of get this massive power of functionality, and storage, with cloud-based tools available to infinitely scale up anything that you want to use. So I think APIs as a general trend will continue to be those building blocks for modern software.
 
 Another related trend that we see is everything is kind of API-fied, in a way. Businesses are APIs, governments have APIs - that is a lot of data that is exposed through APIs, that is useful in social contexts, or other things that we can't even hypothesize.
 

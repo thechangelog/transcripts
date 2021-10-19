@@ -42,7 +42,7 @@ So should JavaScript be rebranded? Today we're gonna be debating that. I'll be y
 
 **Divya Sasidharan:** And then they try to mimic different sounds, like the telephone...
 
-**Kevin Ball:** \[00:04:03.21\] Yes, it's kind of amazing, and I am absolutely shocked that y'all are not familiar.
+**Kevin Ball:** \[04:03\] Yes, it's kind of amazing, and I am absolutely shocked that y'all are not familiar.
 
 **Divya Sasidharan:** Classic.
 
@@ -108,7 +108,7 @@ Many of us being web developers, have gotten the very common email from recruite
 
 So the naming itself causes a lot of confusion, especially for those who are not super-technical and not in the technical community itself... The thing being JavaScript also, as Nick mentioned, is an incredibly fractured community. Not only are we not writing JavaScript as is, many of us don't write vanilla JavaScript anymore; we write different flavors of JavaScript. There is React.js, which is now called React; I don't think anyone calls it React.js. There's Vue.js, which is a Vue flavor of JavaScript... There's Angular, there's Ember, there's all these different frameworks, and so all of us are no longer writing JavaScript in the same way that you would if you write vanilla JavaScript. No one is always Document.querySelector(), everyone is using their flavor of things, and interacting with the DOM that way.
 
-\[00:07:53.16\] So the fracturing of the JavaScript community -- and this is not even to say TypeScript comes in... Because TypeScript completely fractures the community. So the framework kind of gives pockets of people who are still interacting with JavaScript... But the moment we think about TypeScript, that completely moves JavaScript in a completely different direction... Because JavaScript by definition is dynamically-typed, and with TypeScript it adds a type system to a language that doesn't have any types. So in a sense, there is this split in a community - there's the people who are very anti-TypeScript, and then there are people who are very pro-TypeScript. This fissure that's happening already comes to the fore and questions whether or not the term JavaScript actually fully encapsulates the community... Because TypeScript still uses JavaScript, it just adds types on top of it.
+\[07:53\] So the fracturing of the JavaScript community -- and this is not even to say TypeScript comes in... Because TypeScript completely fractures the community. So the framework kind of gives pockets of people who are still interacting with JavaScript... But the moment we think about TypeScript, that completely moves JavaScript in a completely different direction... Because JavaScript by definition is dynamically-typed, and with TypeScript it adds a type system to a language that doesn't have any types. So in a sense, there is this split in a community - there's the people who are very anti-TypeScript, and then there are people who are very pro-TypeScript. This fissure that's happening already comes to the fore and questions whether or not the term JavaScript actually fully encapsulates the community... Because TypeScript still uses JavaScript, it just adds types on top of it.
 
 So should we now rename JavaScript to something else? There are many alternatives out there. There's -- I think some people call it Mocha, which is what it was called before... I think it was called LiveScript at one point... But there's also various fun interpretations of it, such as a \[unintelligible 00:08:58.10\] depending on the language that you speak... And then there's JawaScript, so it's not JavaScript; there's EichenScript, because of Brendan Eich... And then there's also this concept of ECMAScript, which is technically JavaScript... Very confusing; similar to the confusion earlier with Java and JavaScript, there's a confusion around why is the community that federates or talks about the standards for JavaScript called ECMA... I mean, sure, there's naming and there's a lot of history around that, but there's often confusion, because ECMAScript is technically JavaScript, but then there's TC39, which is the governing body for pushing standards forward...
 
@@ -122,7 +122,7 @@ It seems to me that we have all these different frameworks, and just like any ot
 
 So to Divya's point - she said "We want to bring everything back together, and have that unity." Well, we do. We all write JavaScript, right? ...insofar as the naming of it and the confusion around ECMAScript, because Oracle owns the trademark to JavaScript, I would imagine that if ECMAScript could call it JavaScript, they would. But they can't, because Oracle owns the trademark, so they had to come up with a different name.
 
-\[00:12:01.28\] JavaScript is ECMAScript, as JavaScript is ECMAScript. There's one language... So I don't see it as being necessary to rebrand. This is kind of a solution in search of a problem. There's really no good reason in my mind to do it.
+\[12:01\] JavaScript is ECMAScript, as JavaScript is ECMAScript. There's one language... So I don't see it as being necessary to rebrand. This is kind of a solution in search of a problem. There's really no good reason in my mind to do it.
 
 **Nick Nisi:** Good points, good points for sure. You make a good point about it not really having a marketing problem, because it is the most popular language in the world... But what if that changes? What if something like -- I know everybody says it won't, but what if a WebAssembly language overtakes JavaScript? Would we need to market it differently then?
 
@@ -146,13 +146,13 @@ It's time to end the confusion. It's time to cut ourselves loose from the rottin
 
 I mean, recruiters are always gonna be confused. But if you wanna confuse people, try renaming the most widely-used language in the world. Have you ever tried changing the name of a widely-used piece of code? Now try it again without Find and Replace. Try it again in over one million public packages, downloaded over a billion times a day into who knows how many private applications and packages. This is not gonna reduce confusion, folks. This is gonna ramp confusion up to 11.
 
-\[00:15:58.12\] Not even thinking about the code, what about documentation and past articles? How many millions of articles are already talking about JavaScript? Now every new developer of WebScript, or EichScript, or whatever the heck you wanna call is gonna have to not only look for things in that, but also understand that these other things talking about JavaScript have relevance to them. They're not gonna replace the knowledge, we're just adding onto the stack with something more and more confusing for new people coming into the industry.
+\[15:58\] Not even thinking about the code, what about documentation and past articles? How many millions of articles are already talking about JavaScript? Now every new developer of WebScript, or EichScript, or whatever the heck you wanna call is gonna have to not only look for things in that, but also understand that these other things talking about JavaScript have relevance to them. They're not gonna replace the knowledge, we're just adding onto the stack with something more and more confusing for new people coming into the industry.
 
 Every one of those recruiters is gonna talk to you "Oh, you have JavaScript experience. Well, we're looking for WebScript, so you're clearly not applicable." This is not gonna make anything better. So I would close with a Haiku... \[laughter\] Because you all make it possible. "Should we rebrand it? D'oh, JavaScript is just fine. Stop navel-gazing."
 
 **Nick Nisi:** Very nice!
 
-**Break:** \[00:16:53.13\]
+**Break:** \[16:53\]
 
 **Nick Nisi:** Now, what if we could find a middle ground between the two? I think that the Yip Yips are arguing that it should be something potentially drastically different, like Mocha, or LiveScript, a completely new name, and the Nope-Nopes are saying that JavaScript is just fine. But the article that this whole argument is based on actually offers a simple solution, which is why don't we just call it JS? Drop JavaScript completely, and it just be JS. Or maybe have ServerJS and WebJS as distinctions between the two, between obviously the server side and the client side.
 
@@ -208,7 +208,7 @@ The article argues that just like you don't really know what PHP stands for, eve
 
 **Kevin Ball:** A military term referring to anything involving all services of the Armed Forces.
 
-**Nick Nisi:** \[00:20:04.06\] But Java could be coffee, right? So it could mean other things...
+**Nick Nisi:** \[20:04\] But Java could be coffee, right? So it could mean other things...
 
 **Divya Sasidharan:** That's true.
 
@@ -274,7 +274,7 @@ Also, frameworks... Ember has a really cute little -- I don't even know what tha
 
 **Jerod Santo:** Good point, Nick. Yep, let's do it.
 
-**Divya Sasidharan:** \[00:23:58.17\] Also, I wanted to say something to your confusion point about renaming being really hard... So JavaScript renames all the time, because they're like "ES2015", and then "ES2016", or like ES5, and then ES6... And then they were like "Now we name by years", which is very confusing, because I'm pretty sure people still say ES6, even though it's ES2015. There's this fissure that happens, so I'm like "JavaScript already renames itself every so often... So what is the difference if we were to just rebrand it completely?" People are already expecting it. \[laughter\]
+**Divya Sasidharan:** \[23:58\] Also, I wanted to say something to your confusion point about renaming being really hard... So JavaScript renames all the time, because they're like "ES2015", and then "ES2016", or like ES5, and then ES6... And then they were like "Now we name by years", which is very confusing, because I'm pretty sure people still say ES6, even though it's ES2015. There's this fissure that happens, so I'm like "JavaScript already renames itself every so often... So what is the difference if we were to just rebrand it completely?" People are already expecting it. \[laughter\]
 
 And to your point about technical articles going out of date - technical articles by nature expire within a couple of months. They're not valid, because the standards move forward, and it's just the nature of it. \[laughter\]
 
@@ -316,7 +316,7 @@ If you're writing in Python, Python standards don't change. Yeah, Python is movi
 
 **Nick Nisi:** I just mean with all of the new symbols, and everything... There's a lot of Perl in there. Especially when you went from ES5 to ES2015; there was a bit of a ramp-up time to be able to read the JavaScript that you were accustomed to writing.
 
-**Break:** \[00:27:25.27\]
+**Break:** \[27:25\]
 
 **Christopher Hiller:** This is a question for Divya and Jerod... When someone says JavaScript, are you confused about what they're talking about?
 
@@ -378,7 +378,7 @@ If you're writing in Python, Python standards don't change. Yeah, Python is movi
 
 **Divya Sasidharan:** But I agree. I think definitely certain things like ClojureScript and -- it's very different. Similar to Elm. Elm is considered in the JavaScript ecosystem. I don't think Elm has been talked about as outside of it. So when we talk about frameworks, Elm kind of gets thrown in sometimes, but when you're writing Elm, it's not like writing JavaScript. It compiles down to JavaScript. Even though they're part of the JavaScript -- it doesn't make sense.
 
-\[00:32:00.03\] I think it's crazy... Because I'm like "Whenever you write Elm, it doesn't look like JavaScript", and you're using the compiler to compile to JavaScript. So that is a really confusing thing, because when you talk about frameworks in the front-end scope of things - which, front-end generally includes all JavaScript-related things - that's a huge confusion, because you're like "Oh, you know JavaScript? You'll be able to pick up Elm", which is totally not true. I know someone from the Elm community is probably gonna have my neck on Twitter after this gets released, but...
+\[32:00\] I think it's crazy... Because I'm like "Whenever you write Elm, it doesn't look like JavaScript", and you're using the compiler to compile to JavaScript. So that is a really confusing thing, because when you talk about frameworks in the front-end scope of things - which, front-end generally includes all JavaScript-related things - that's a huge confusion, because you're like "Oh, you know JavaScript? You'll be able to pick up Elm", which is totally not true. I know someone from the Elm community is probably gonna have my neck on Twitter after this gets released, but...
 
 **Jerod Santo:** I don't think the Elm folks claim that Elm is JavaScript. I think they claim that it's a front-end framework, and I think that's a fair claim...
 
@@ -408,7 +408,7 @@ That being said, going back to my conversation on Monday - it's strange, it's un
 
 **Divya Sasidharan:** Well, because also if you're in a committee, there's a lot of processes -- so the ECMA, TC39 committee has specific ways in which they conduct their meetings, and there's language and processes, because it's just a general standards board... So the language that they speak is very different from the average JavaScript developer. So there's a huge disconnect, because when TC39 has meetings and they talk about things, they're so deep down in the weeds in terms of how exactly the JavaScript language works, and the repercussions of specific standards going through to various stage... As opposed to the average JavaScript developer, who's like "Why don't we have this one thing? We should have this."
 
-\[00:36:09.04\] So the experiences are very different, and it's really hard to bring those two things together, because also TC39 tends to be -- because it's very much a wider problem, of like the problem of the web and how do we make JavaScript better, so that it encompasses all of the problems you could potentially have when you work with JavaScript... But it often only includes members of specific companies; it's very large-scale tech companies, like Paypal, and Google, and Microsoft, and all of them have representatives that go there. So the question then becomes "Are they representative of the average developer?" and oftentimes that answer is no... Because they're thinking about things on a different scale. So because of that, there's also this issue of how they talk to developers. Because if you're at a level that's completely different from someone else, it takes a lot for you to bring it down -- or not to bring it down, but to meet someone at their frequency.
+\[36:09\] So the experiences are very different, and it's really hard to bring those two things together, because also TC39 tends to be -- because it's very much a wider problem, of like the problem of the web and how do we make JavaScript better, so that it encompasses all of the problems you could potentially have when you work with JavaScript... But it often only includes members of specific companies; it's very large-scale tech companies, like Paypal, and Google, and Microsoft, and all of them have representatives that go there. So the question then becomes "Are they representative of the average developer?" and oftentimes that answer is no... Because they're thinking about things on a different scale. So because of that, there's also this issue of how they talk to developers. Because if you're at a level that's completely different from someone else, it takes a lot for you to bring it down -- or not to bring it down, but to meet someone at their frequency.
 
 I think the issue that we're having now in the community - this disconnect - is because that gap hasn't been closed. TC39 is trying to educate, but they're educating at a level that the average JavaScript developer is like "This is not a problem I care about", or "It's not something I feel is tangible." That's a huge problem, because I'm like "They're supposed to represent us, but we don't feel represented", so that causes a lot of disconnect.
 
@@ -476,7 +476,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Jerod Santo:** Then we don't have to rename, and yet not confusion. It's a PartyScript. Hm? Hm? Hm?
 
-**Christopher Hiller:** \[00:40:03.29\] If we're talking names, I like RadScript. \[laughter\]
+**Christopher Hiller:** \[40:03\] If we're talking names, I like RadScript. \[laughter\]
 
 **Jerod Santo:** Oh, that's nice.
 
@@ -560,7 +560,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Kevin Ball:** Since I love coffee, and it wouldn't cause any more confusion at all, I'd love it to be like a French press coffeemaker, or something like that... But really where I'm gonna have to land is the jumping spider, because I think the fun of spiders and the web, and the fact there are land-based spiders that could be our Node spiders, and there are web-based spiders that could be our web stuff... It's a flexible idea. And plus, who doesn't love spiders all over their code...?
 
-**Nick Nisi:** \[00:44:10.12\] Australia.
+**Nick Nisi:** \[44:10\] Australia.
 
 **Divya Sasidharan:** And it'll take debugging to its true form. \[laughs\]
 
@@ -600,7 +600,7 @@ I think the issue that we're having now in the community - this disconnect - is 
 
 **Jerod Santo:** And... Kball killed the podcast. \[laughter\]
 
-**Break:** \[00:45:35.10\]
+**Break:** \[45:35\]
 
 **Jerod Santo:** Chris mic-dropped me. \[laughter\]
 

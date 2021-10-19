@@ -4,7 +4,7 @@
 
 So that's really what was the pain point at that time - automate the reverse proxy. That's something I started to work on, but it was a side project. So yeah, I started to do a few lines of code in Go, then \[unintelligible 00:03:56.21\] and then I was just passionate about it.
 
-\[00:04:01.28\] A few months later I had something, I had a project, and it was Traefik. I decided to open-source it, and I was like "Yeah, maybe it will interest a few people in the world, because maybe a few people will hit the same pain that I did." But I was not expecting anything.
+\[04:01\] A few months later I had something, I had a project, and it was Traefik. I decided to open-source it, and I was like "Yeah, maybe it will interest a few people in the world, because maybe a few people will hit the same pain that I did." But I was not expecting anything.
 
 Surprisingly, the success was here. The project was on the front page of Hacker News, and it changed everything. So it was completely unexpected. From a side project it went to a real open source project with a community around it, with external maintainers, external contributors in only a few weeks... So that really was how everything started.
 
@@ -24,7 +24,7 @@ So since you started Traefik in 2015, what things did you get right?
 
 **Gerhard Lazu:** Yeah, that makes a lot of sense. I always thought that it was those graphics and drawings which were really good. I always remembered those; I was sure that the success was basically that. By the way, who did those drawings? Was it you, by any chance?
 
-**Emile Vauge:** \[00:08:05.28\] No, it's a friend of mine who is also a developer... But he's doing some design as a side project, so yeah.
+**Emile Vauge:** \[08:05\] No, it's a friend of mine who is also a developer... But he's doing some design as a side project, so yeah.
 
 **Gerhard Lazu:** Traefik was so approachable because of that, and I'm pretty sure that that mentality was seen throughout everything else - polite, correct, inclusive, but also approachable. And I think those drawings captured it really well. So the thing which really stuck with me over the years is how consistent they have remained and how well they were able to explain some complex problems and some complex concepts. So I really enjoyed them, by the way. Whoever your friend is, he or she is doing an excellent job, so keep at it. It's great, I love them.
 
@@ -40,7 +40,7 @@ And the structure thing makes perfect sense. Once you get a bit more structured,
 
 **Emile Vauge:** Yes. And that's an interesting topic, because we changed at least three or four times the chain. We adapted. I think we started with Travis plus Docker Hub. Pretty basic. And after a few months we \[unintelligible 00:11:26.27\] were lasting like 50 minutes. We were hitting the \[unintelligible 00:11:33.09\] of Travis, so we changed to Cycle CI, and it was a big error... And then we changed again to -- we just changed to Circle CI, which was better... And then we ultimately changed to Semaphor CI, which was super-interesting, because we divided the time by ten, I guess, adapting our tests to Semaphor... So it was extremely performant, and probably a bit more basic. You know, you had less command on Semaphor... But that's fine. We were doing everything with our own script... So yeah, we migrated to Semaphor, and then we connected to the company Semaphor, and then we became friends, and so they gave us some server... And that's it.
 
-\[00:12:22.07\] So we had to adapt several times our CI... And even today, it's kind of complex, because we have a build that is generated on the fly for each PR, with each commit, and it allows us to test everything. It allows the contributor to test everything. As you said, as soon as the PR is merged, we generate an experimental build that everybody can use... So yeah, I think we are really on top of the CI. It is super-important to us, and it allowed us to manage crazy amounts of contributors.
+\[12:22\] So we had to adapt several times our CI... And even today, it's kind of complex, because we have a build that is generated on the fly for each PR, with each commit, and it allows us to test everything. It allows the contributor to test everything. As you said, as soon as the PR is merged, we generate an experimental build that everybody can use... So yeah, I think we are really on top of the CI. It is super-important to us, and it allowed us to manage crazy amounts of contributors.
 
 **Gerhard Lazu:** You're right. I'm exactly of the same opinion, and I'm glad that you're seeing in practice the same thing. If you get that right, many things will start happening as a result of that. Super-important. So - big fan. Thank you for sharing that.
 
@@ -56,9 +56,9 @@ I don't think we did any big mistake, but what I learned is that it was possible
 
 And another thing, a mistake, I guess, that we made is the big gap between 1.x and 2 branch on Traefik. We decided at that time that many things were not that great with the architecture of the 1.x branch, so we wanted to revamp the project basically. I'll just give you one technical example. For example, in the 1.x branch we had some integration with Kubernetes using the Ingress specification... And the Ingress specification is pretty basic on Kubernetes. And as soon as you want to add some options, you had to use annotations. And this was really an issue, because annotations can become a mess, because it's not a structure. It's just annotation. And if you want to do something complex, it becomes a mess. So we decided that "Hey, in Traefik 2 we will support Ingress, but also our own CRD, which will allow us to do some complex stuff on Kubernetes without annotation, which is a pain." And surprisingly -- so we were sure that the community will be okay with that, and we were wrong. The community just wanted to have Ingress... Most of the community, of course; some people were okay with CRD, but most people just wanted to have some Ingress.
 
-\[00:16:21.01\] So that's one mistake we did. We were convinced internally, in the company, that CRD was the thing to do, but that was not what the majority of the community was thinking... And we learned from that. Sometimes you have a disconnection between your team and the community, and you have to work on that every day. You have to avoid disconnecting your team from the community every day. And it's a real \[unintelligible 00:16:46.04\] It's not easy to do. So the connection between a company and a community - it's a lot of work.
+\[16:21\] So that's one mistake we did. We were convinced internally, in the company, that CRD was the thing to do, but that was not what the majority of the community was thinking... And we learned from that. Sometimes you have a disconnection between your team and the community, and you have to work on that every day. You have to avoid disconnecting your team from the community every day. And it's a real \[unintelligible 00:16:46.04\] It's not easy to do. So the connection between a company and a community - it's a lot of work.
 
-**Break:** \[00:16:55.06\]
+**Break:** \[16:55\]
 
 **Gerhard Lazu:** I'm really glad that you mentioned the relationship between the community and the company and the product, because I know how important that is. Not only it's important, but it's very easy to get them out of sync, and then the product goes in certain directions, or the community goes in different directions... And they just get out of sync. And it's not nice. It's friction, and tension, and you have to address it at some point if you want to be successful as a project. Because it started as a project, it started as this idea, it's a great idea, but how do you sustain it as it grows and as it becomes more complex?
 
@@ -66,7 +66,7 @@ So what did you do to reconcile those differences between Traefik the company, T
 
 **Emile Vauge:** Exactly. I mean, it will be work in progress... There is no deadline. It will be always work in progress. You need to work on that every day, as I said, if you want to sustain the connection. One thing we did among others is creating a group of the most active contributors. Kind of a private group, where we would have a specific connection with those. It's called an ambassador, the ambassadors group, and we share with the, some ideas, for example, we have for the roadmap. We discuss with them about this roadmap, we get their ideas, their feedback, we try to have them on board for private betas prior to everyone else... So we try to have a really specific connection with those which are the most active ones. So that's something we created because we really wanted to be sure that an active contributor would receive something special from us, because we do care about them. So that's really something we wanted to create for a long time.
 
-\[00:20:03.02\] Another thing we did is have a specific process to handle all the input we had from the community every day. To give you an idea, we have so many contributions, PRs, issues, posts on the forum, on Twitter, on Slack. This is so active that we need to have a specific process every day to handle everything. Other than that, the queue is becoming so huge after a week that it's not even manageable anymore. So we need to have a dedicated team to handle all the issues and PRs every day. And that's an every day work.
+\[20:03\] Another thing we did is have a specific process to handle all the input we had from the community every day. To give you an idea, we have so many contributions, PRs, issues, posts on the forum, on Twitter, on Slack. This is so active that we need to have a specific process every day to handle everything. Other than that, the queue is becoming so huge after a week that it's not even manageable anymore. So we need to have a dedicated team to handle all the issues and PRs every day. And that's an every day work.
 
 So it's not a joke... As soon as the open source project is big - I mean, you just have to invest in it even more. And you have to have big dedication on it. So yeah, that's how we are dealing with it. We have strong values on it. For example, we don't want a PR to last forever, because it's kind of discouraging for external contributions. And of course, we did some mistakes. Some PR did last for six months. We got some super-complex PR, and you know, it needs some time; internal discussions, external discussions... It's not that easy to get some external contribution. But we try to be as fast as possible to encourage people, or at least to not discourage them... And it requires a lot of work.
 
@@ -88,7 +88,7 @@ So what does the system look like for you? Do you have a JIRA? I hope not... I d
 
 **Emile Vauge:** Yeah, every repo has their own issues. Sometimes we do have some connection between a few issues, between different repos. Traefik is having its own issues, relating another issue on another repo, sometimes on another project, maybe even driven by Traefik Labs...
 
-**Gerhard Lazu:** \[00:24:07.17\] Okay. So one thing which I noticed is you also started using GitHub Actions a bit more in the last year, six months... Six to twelve months.
+**Gerhard Lazu:** \[24:07\] Okay. So one thing which I noticed is you also started using GitHub Actions a bit more in the last year, six months... Six to twelve months.
 
 **Emile Vauge:** Exactly.
 
@@ -110,7 +110,7 @@ I also liked your release cycle. I thought that was really interesting. You ment
 
 **Emile Vauge:** Alright, so it's pretty common, I guess... We have, as you said, bug fixes, minor releases and major releases. We just followed the semver versioning system. We do approximately 3-4 minor releases per year. Basically, once every three months. And of course, in minor versions - it needs to be backward compatible, no breaking change.
 
-\[00:28:05.29\] For example, if we need to add something new, it has to be without any breaking change. And with the bug fixes - we have different types of bug fixes, which correspond to different types of issues, with priority issues, I guess... So we have a mechanism where -- for example, if we have a vulnerability discovered which is pretty concerning, we tag it at priority zero, which means we have to release it today, the fix. Just... Today. That's the rule.
+\[28:05\] For example, if we need to add something new, it has to be without any breaking change. And with the bug fixes - we have different types of bug fixes, which correspond to different types of issues, with priority issues, I guess... So we have a mechanism where -- for example, if we have a vulnerability discovered which is pretty concerning, we tag it at priority zero, which means we have to release it today, the fix. Just... Today. That's the rule.
 
 **Gerhard Lazu:** Now, that is something really powerful... Because you saying that, it means that your pipeline for all the supported versions has to be fast. It can't take more than a few hours, all of it... Because if it takes more than a few hours - well, you can't release it in a day. It's just impossible, because there's only so many hours in a day, and you have so many versions to patch, and it has to work in parallel. So this brings a couple of follow-up questions. How many versions do you currently support?
 
@@ -142,7 +142,7 @@ I also liked your release cycle. I thought that was really interesting. You ment
 
 **Gerhard Lazu:** Yeah, it makes sense. I think a release calendar makes sense from the perspective of communicating what to expect, and when. If you know that, for example, you're going to ship a new minor in (let's say) three months, or six months, and then there will be a feature freeze in five months, any new contributions, no matter how amazing, they'll have to wait for the next one. Why? Because you have to have those discussions; you have to run all the testing, you have to get all the betas, alphas, RCs, whatever you need to do, so that the community is aware of what's coming and they can actually get excited about it.
 
-\[00:32:12.23\] And who knows, maybe someone else will have another idea and say "Hey, have you thought about this?" And then that contribution becomes even more amazing, because it's being discussed and it's been out in the open for a while longer before the final implementation lands, in a shipped minor. So that makes sense.
+\[32:12\] And who knows, maybe someone else will have another idea and say "Hey, have you thought about this?" And then that contribution becomes even more amazing, because it's being discussed and it's been out in the open for a while longer before the final implementation lands, in a shipped minor. So that makes sense.
 
 So what would make Traefik bump to a major version? We know how minors get bumped... What would Traefik make it bump from v2, which is currently, to v3?
 
@@ -170,7 +170,7 @@ So what would make Traefik bump to a major version? We know how minors get bumpe
 
 **Gerhard Lazu:** Yeah, that makes sense. So when we say Traefik's API, what I understand by that is how things get configured and discovered, so how Traefik does it. That's my understanding. Are we thinking about something else when we are talking about the Traefik public API?
 
-**Emile Vauge:** \[00:35:49.20\] We also expose a REST API to update or change the configuration. So we have, I guess, what we could call a real API... But yes, typically we have an API, but we can also configure Traefik through a configuration file, through annotation in Docker, or whatever, through a configuration file on Kubernetes, or through a KV store with Etcd or Consul...
+**Emile Vauge:** \[35:49\] We also expose a REST API to update or change the configuration. So we have, I guess, what we could call a real API... But yes, typically we have an API, but we can also configure Traefik through a configuration file, through annotation in Docker, or whatever, through a configuration file on Kubernetes, or through a KV store with Etcd or Consul...
 
 **Gerhard Lazu:** All those are APIs.
 
@@ -190,7 +190,7 @@ But for example, you have two ways to use plugins inside Traefik today - you can
 
 **Gerhard Lazu:** Perfect. It makes sense. Again, for some projects I know it doesn't make sense, but I think this is important, because I just wanna know where you stand. And again, I love it.
 
-**Break:** \[00:38:43.07\]
+**Break:** \[38:43\]
 
 **Gerhard Lazu:** Changelog.com is a traditional three-tier monolithical application that runs on Kubernetes. We have a proxy in the front, we have the app itself, and we have the database. Fairly standard. One thing that we have been noticing - or I have been noticing, to be precise - is that we have some long-tail latencies in our proxy. Some requests, once they hit the proxy, they can take up to 40-50 seconds, while the 95th percentile is around 300-400 milliseconds. We'll have a whole debugging session, with Rawkode David and Marques from Equinix Metal around this... Because the stack is Kubernetes. So you have Kube Proxy, you have the database... There's so many layers there.
 
@@ -222,7 +222,7 @@ You mentioned something really interesting around services, and I'm wondering if
 
 **Gerhard Lazu:** It's just \[unintelligible 00:43:59.00\]
 
-**Emile Vauge:** \[00:44:01.05\] Yes. So if this is the case, you need to have something that handles the tracing in front of your database. I mean, it depends on the database. Some databases have some integration with those tracing systems, some don't. In this case, you need to have something in front of that.
+**Emile Vauge:** \[44:01\] Yes. So if this is the case, you need to have something that handles the tracing in front of your database. I mean, it depends on the database. Some databases have some integration with those tracing systems, some don't. In this case, you need to have something in front of that.
 
 **Gerhard Lazu:** Yeah, that makes sense. Okay. And can Traefik be the something, or would it need to be something else.
 
@@ -242,7 +242,7 @@ The big pain point that we are seeing coming is the number of Kubernetes cluster
 
 **Emile Vauge:** Everything. You can think about Kubernetes federation, that's one solution to handle several Kubernetes clusters as a management perspective, but also connectivity to those clusters, interconnectivity between those clusters, end-to-end security from users to all those clusters... All those aspects. High availability between all those clusters. How do you do a blue/green deployment between two clusters, or between a hundred clusters? This kind of stuff.
 
-\[00:48:02.23\] So today it's almost impossible to do it simply. I mean, it is impossible to have something simply. You have to gather a gigantic number of software and platforms to make it work, and that's an interesting problem that we want to tackle at Traefik Labs.
+\[48:02\] So today it's almost impossible to do it simply. I mean, it is impossible to have something simply. You have to gather a gigantic number of software and platforms to make it work, and that's an interesting problem that we want to tackle at Traefik Labs.
 
 **Gerhard Lazu:** That's a big problem space, and you made me really curious now, so I'll keep an eye. That sounds really interesting. So coming from this big problem space, coming to a smaller problem space - or not problem space, but like a space... Which is your favorite Traefik proxy? Because Traefik is so much more than just a proxy. By the way, if you've made it this far and you don't know what Traefik is, just go and check it out. There's so many aspects to it. But if we look just at the Traefik proxy, the 2.5 version, the latest minor, which is your favorite feature, Emile?
 
@@ -252,7 +252,7 @@ The big pain point that we are seeing coming is the number of Kubernetes cluster
 
 **Emile Vauge:** In theory, Traefik is connecting to the CDN itself. It is configuring itself the CDN, to create the DNS entry, for example, to validate your \[unintelligible 00:50:43.02\] certificate. So you don't have to do anything in that specific use case.
 
-**Gerhard Lazu:** \[00:50:50.08\] I think I'm thinking about getting hold of the values of the public \[unintelligible 00:50:53.01\] and the private key, so that we can upload them to the CDN. Because Cert Manager, that manages the integration with the certificate provider - LetsEncrypt in this case - via DNS, so Cert Manager is integrated with DNS, which then gets a LetsEncrypt certificate... And then we have a job basically which automatically synchronizes the resulting private key in a certificate...
+**Gerhard Lazu:** \[50:50\] I think I'm thinking about getting hold of the values of the public \[unintelligible 00:50:53.01\] and the private key, so that we can upload them to the CDN. Because Cert Manager, that manages the integration with the certificate provider - LetsEncrypt in this case - via DNS, so Cert Manager is integrated with DNS, which then gets a LetsEncrypt certificate... And then we have a job basically which automatically synchronizes the resulting private key in a certificate...
 
 **Emile Vauge:** Yeah.
 

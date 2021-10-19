@@ -34,7 +34,7 @@ I really enjoy, at least for myself, the technical challenge of working on these
 
 **Jerod Santo:** Seven years is a long time in internet years; that's eternity. It must be very satisfying to keep you there that long.
 
-**John Resig:** \[00:06:42.17\] Yeah, it definitely is. I think it's nice because as Khan Academy has grown, I certainly feel like I've grown a lot, too. I think one of the reasons why I decided to work at Khan Academy in the first place - and this might come up later, but when I joined Khan Academy, I stepped down from jQuery; I left the project. I left it in good hands, but I deliberately wanted to move on, to be able to work on a product, actually getting to ship something and get it out to users, and have that sort of flow and that process... So that's something I've been really just enjoying and really relishing.
+**John Resig:** \[06:42\] Yeah, it definitely is. I think it's nice because as Khan Academy has grown, I certainly feel like I've grown a lot, too. I think one of the reasons why I decided to work at Khan Academy in the first place - and this might come up later, but when I joined Khan Academy, I stepped down from jQuery; I left the project. I left it in good hands, but I deliberately wanted to move on, to be able to work on a product, actually getting to ship something and get it out to users, and have that sort of flow and that process... So that's something I've been really just enjoying and really relishing.
 
 We have excellent teams, really good designers, engineers, front-end and back-end, QA people, and being able to ship really high-quality stuff is -- I don't know, it's a lot of fun... So that's something that -- I feel like we haven't always been able to do that; certainly back in the beginning it was much more loose, and everyone had to do everything, but now we're larger(ish); we're still less than 200 people, but we're certainly a lot more professional and we're hitting things that at least I'm very proud of.
 
@@ -52,7 +52,7 @@ At least for us - we have a lot of REST APIs, both public and private, and maint
 
 So we knew we were kind of interested in GraphQL, but we needed to kind of understand whether or not this was going to work for us... So what we ended up doing was a number of experiments. We hold hackathons and Khan Academy, so during the hackathons we did some experimentation with trying out GraphQL on parts of our website. This was not intended to ship; obviously, it's a hackathon, you're just doing something to see if it works... But in that process, we were like "Hey, this is pretty cool."
 
-\[00:11:08.11\] So the next phase of that was I was on the classroom team last year... The classroom is all developing products for teachers and students, in a classroom setting. And in there, we were gonna be redesigning and redeveloping a number of our products, and I realized "This is actually a really good opportunity to experiment with using GraphQL, because since it's a greenfield opportunity, we don't need to be relying upon existing REST APIs necessarily (we would be writing new ones anyway), so let's use this as a chance to define a GraphQL architecture, implement it, and start using it for these new products."
+\[11:08\] So the next phase of that was I was on the classroom team last year... The classroom is all developing products for teachers and students, in a classroom setting. And in there, we were gonna be redesigning and redeveloping a number of our products, and I realized "This is actually a really good opportunity to experiment with using GraphQL, because since it's a greenfield opportunity, we don't need to be relying upon existing REST APIs necessarily (we would be writing new ones anyway), so let's use this as a chance to define a GraphQL architecture, implement it, and start using it for these new products."
 
 In doing so, it ended up working really well. As we were using this, we were just like "Hey, this is amazing. It is so much easier to use." Then we in the classroom team started talking to other teams, and we were like "Okay, this is actually really legitimate", and we started to get other teams to kind of like start experimenting with their architectures.
 
@@ -70,7 +70,7 @@ I really appreciate that you wanted to go back and actually then create this mis
 
 **John Resig:** Yeah... I think it's a couple things. One is having a missing manual -- and then there's a couple of things, which is that I think when we started using GraphQL versus now, there is just a lot more documentation and tool now than a year and a half ago... Which is the reality of pretty much any new technology. But additionally, I was very interested in getting people excited about this technology... I was, and am.
 
-\[00:14:59.08\] I wanted to not only have there be a good resource for people to use, but also just that -- I feel like there's some work to be done to even convince people that GraphQL is interesting in the first place. I'm convinced, but yeah... So I think part of the book is explaining and looking at REST APIs, looking at GraphQL, and looking at the benefits that GraphQL provides. So yeah, that's where my heart and mind is at.
+\[14:59\] I wanted to not only have there be a good resource for people to use, but also just that -- I feel like there's some work to be done to even convince people that GraphQL is interesting in the first place. I'm convinced, but yeah... So I think part of the book is explaining and looking at REST APIs, looking at GraphQL, and looking at the benefits that GraphQL provides. So yeah, that's where my heart and mind is at.
 
 **Jerod Santo:** It's always interesting seeing large software companies adopt these new technologies... Especially when Facebook came out and announced GraphQL and released it, they had already had a successful track record with React, but then they also had Relay, and they wanted everybody to use Relay; that hasn't panned out quite as well, but with GraphQL I think you had early signs of success when GitHub decided that GraphQL was worth them investing in, and now we see Khan Academy - especially yourself, John - writing a book about GraphQL. That's going to, I think, sway a lot of people, if they were just saying "Yeah, no big deal", to take a look at it. Is that some of your intention, and then why would you necessarily want that to be the case - so that it has a brighter future?
 
@@ -82,7 +82,7 @@ When we use GraphQL and we're developing new products, the rate at which we can 
 
 Now, instead of having to do some server-side -- if you want a property that's missing, you have to change some server-side code with the REST API, then go to the client, and change the fields you're getting... Whereas now with GraphQL you can just do all on the client. Since everything's been specified in the schema, you can just say "Hey, I need the username here. I wasn't getting it before, but now I want it." You just add it in, and there it is. In that way, your ability to iterate is so dramatically improved, and you can just get stuff out very fast... And that's great for us - we're working with designers and we're doing a lot of testing in schools, and we can just try stuff out, get it out there, experiment, get the results back and just keep iterating again and again. So yeah, I think that's something that's worked out very well for us.
 
-Break: \[00:19:00.21\]
+Break: \[19:00\]
 
 **Suz Hinton:** So as you've been doing these iterations, has there been anything that's popped up that you didn't expect to run into with GraphQL? ...such as the way you write schemas, or even just how those queries end up connecting on the back-end... Or is there any sort of little polls that came out of it that you could share with us today?
 
@@ -102,7 +102,7 @@ So yeah, anyway, that's something that we've been actively learning. At least in
 
 What's interesting is that -- like, we're using Python on our back-end, and on our front-end we're actually going through old pages of our site and replacing REST API calls or GraphQL calls... And some of those pages are older; they aren't using the latest Apollo and all these wonderful frameworks... But we've kind of created little shims where we can stick these GraphQL calls.
 
-\[00:24:10.27\] So yeah, you can really make it work wherever you want it to run, no matter what technology stack you have. So yeah, I think that's something that's nice, and I think people don't necessarily always realize that.
+\[24:10\] So yeah, you can really make it work wherever you want it to run, no matter what technology stack you have. So yeah, I think that's something that's nice, and I think people don't necessarily always realize that.
 
 **Jerod Santo:** I can speak a little bit to the back-end ecosystem, because just as part of my work at Changelog and Changelog News, we obviously keep our thumb on the pulse of what's going around, in as much of a polyglot way as we can... And I would say in the last 18 months or so, across many of the different ecosystems - Node was very early and often in terms of tooling and support for GraphQL back-ends, but I've seen a lot of advancements in the Elixir ecosystem, in Ruby, as well as Python... So there's just a lot going on, and a lot of the different back-end technologies are racing to get their tooling and support for building GraphQL APIs as solid and quality as they can. So you've definitely seen a groundswell support across different ecosystems.
 
@@ -120,7 +120,7 @@ So if we wanna rework our API and be like, "Can we delete this data? Can we work
 
 **John Resig:** Yeah... So the refactoring process takes minutes, as opposed to hours and things just breaking in weird ways that you can't quantify. So this is something that is -- for me, when I saw that, I was just like "Okay, that makes all this worth it." \[laughs\] It's the sort of thing that is truly important.
 
-\[00:28:03.27\] I think one of the technologies we've been using a lot at Khan Academy additionally is Flow, with Flow types. The nice part is that if you have this GraphQL data come in, you can define the Flow types for the GraphQL data structure, and then you can sort of trace a whole path through your applications. So again, if we change the name of one of these props, I can just go change that in the Flow type definition and now I can see every single place in my application that's breaking as a result of that.
+\[28:03\] I think one of the technologies we've been using a lot at Khan Academy additionally is Flow, with Flow types. The nice part is that if you have this GraphQL data come in, you can define the Flow types for the GraphQL data structure, and then you can sort of trace a whole path through your applications. So again, if we change the name of one of these props, I can just go change that in the Flow type definition and now I can see every single place in my application that's breaking as a result of that.
 
 This sort of stuff - again, it's making refactoring possible in ways that really just weren't feasible before... So this is something that really, really excites me.
 
@@ -134,7 +134,7 @@ I know that it's obviously a very generic technology, but are there any sort of 
 
 **John Resig:** That's a good question. It's not something I've had a ton of experience with, honestly... But as I've played around with GraphQL and experimented with it, I guess it really felt like it is able to handle lots of different cases and lots of different database styles or querying mechanics. I think generally it does work better or it's a little bit better-suited to document-centric databases.
 
-\[00:31:55.22\] When I've gone through and implemented GraphQL on top of MongoDB or something like that, it's really simple; it couldn't possibly be much simpler. It's a little more work if you're doing a SQL database, or something... But again, it's not insurmountable at all.
+\[31:55\] When I've gone through and implemented GraphQL on top of MongoDB or something like that, it's really simple; it couldn't possibly be much simpler. It's a little more work if you're doing a SQL database, or something... But again, it's not insurmountable at all.
 
 Unfortunately, I don't feel like I have very good advice here to give specifically, and I wouldn't be surprised -- this is something I haven't done much research into at this point, but it wouldn't surprise me if there are people building just like databases design for GraphQL at this point, or kind of all-in-one type of deals, that are designed for performance in caching and all these sorts of things from the get-go, so you don't have to weld them on your own... But that's something that unfortunately I haven't done a lot of research into at this point.
 
@@ -150,7 +150,7 @@ GitHub allows people to do that, and I'm very curious to hear about how they do 
 
 Now, additionally, another thing that we do is we have lots of monitoring and logging for all of our GraphQL queries... So we track the performance of every query, we track this performance over time, and then we have alerts for when queries are being especially slow. That way, we can look at them and be like, "Hey, this query is taking five seconds. That seems excessive. What can we do to make this faster?" With this data, we can delegate this to the teams to work on and improve.
 
-\[00:35:56.26\] But at least so far, what's interesting is that initially the front-end team - we were champing at this, we were like "We really want this. It's gonna make our lives easier", but I think an interesting part about the GraphQL switch here is that the back-end team now is very excited about this change, too... And one of the reasons for this is that it dramatically simplifies the back-end.
+\[35:56\] But at least so far, what's interesting is that initially the front-end team - we were champing at this, we were like "We really want this. It's gonna make our lives easier", but I think an interesting part about the GraphQL switch here is that the back-end team now is very excited about this change, too... And one of the reasons for this is that it dramatically simplifies the back-end.
 
 Previously, we would have a REST endpoint, and we would get some information about a teacher and their students, or something like that... And within that single REST endpoint is many different queries, data being transformed and mutated and all this sort of stuff, and then it gets mushed back into a JSON blob and put out.
 
@@ -166,7 +166,7 @@ I could see where if it was a GraphQL API with a well-defined schema that a lot 
 
 Have you felt less communication lag or maybe tension between -- I don't know how big your teams are, if you have walls and whatnot between them... I know some companies have very strong walls between teams. What are your thoughts on that?
 
-**John Resig:** \[00:40:03.02\] Yeah, so one thing I'll mention briefly is that we do have a front-end team and back-end team, and we do have people who are full-stack... But additionally, we're pretty porous; front-end people are making back-end changes, back-end people are doing front-end changes.
+**John Resig:** \[40:03\] Yeah, so one thing I'll mention briefly is that we do have a front-end team and back-end team, and we do have people who are full-stack... But additionally, we're pretty porous; front-end people are making back-end changes, back-end people are doing front-end changes.
 
 **Jerod Santo:** Well, that's the way it should be, right? ...I think.
 
@@ -174,7 +174,7 @@ Have you felt less communication lag or maybe tension between -- I don't know ho
 
 I think that's something that feels empowering. You don't have to wait and rely upon getting a more senior engineer or back-end engineer in to go work on this... But I think the thing is that there's far more common cases just like "Oh, we're just missing this field, but it already exists in the schema, so we just add it in and now we're done." That's the sort of thing that is -- yeah, the velocity impact is tremendous. And of course, that's helping the individual engineers so we don't have to go into the back-end, or we find someone else to finish it... Whatever the case might be. So yeah, it's been pretty great.
 
-Break: \[00:41:47.26\]
+Break: \[41:47\]
 
 **Suz Hinton:** John, we have some really cool community questions from our JS Party/Changelog community for you... We're gonna read some of them out to you on this segment.
 
@@ -184,7 +184,7 @@ Break: \[00:41:47.26\]
 
 I think the first part was the question, which is like "What is the benefit of it over REST if you don't have the HTTP bottlenecks?" So this less probably about the user experience, I guess, on the surface layer.
 
-**John Resig:** \[00:43:42.07\] Yeah... So there's a couple things. One, GraphQL queries don't necessarily have to wait until everything is done before returning. I know that Apollo and with a compile server you can start to return data in batches. You can get some of the initial layers of requests and return those, and keep returning more as you're getting deeper and deeper.
+**John Resig:** \[43:42\] Yeah... So there's a couple things. One, GraphQL queries don't necessarily have to wait until everything is done before returning. I know that Apollo and with a compile server you can start to return data in batches. You can get some of the initial layers of requests and return those, and keep returning more as you're getting deeper and deeper.
 
 So it isn't necessarily the case that it's an all-or-nothing proposition with GraphQL. Certainly, the simple implementation would be all or nothing, but I'm looking at a lot of the different tech stacks that exist now, like Apollo server... They're much more robust, and can handle incremental data.
 
@@ -206,7 +206,7 @@ Yeah, so I think there are definitely ways of improving the performance, improvi
 
 **Jerod Santo:** Gotcha. Very good. Okay, next question from the community... This one comes from Dylan Schiemann, who listeners may remember from the Dojo episode back on JS Party \#25... Dylan says "So jQuery... That's like a query language for GraphQL, right...?"
 
-**John Resig:** \[00:48:06.13\] \[laughs\] Yeah, it's funny, because Dylan and I go way back... He was working at Dojo, I was working at jQuery... All this, at this point, old-timer JavaScript framework folk... \[laughs\]
+**John Resig:** \[48:06\] \[laughs\] Yeah, it's funny, because Dylan and I go way back... He was working at Dojo, I was working at jQuery... All this, at this point, old-timer JavaScript framework folk... \[laughs\]
 
 **Jerod Santo:** Yup. In our chat room, he mentioned that you guys have been trolling each other for years, so he thought that would be appropriate...
 
@@ -224,7 +224,7 @@ Okay, so Dylan does actually have a serious question following up on his troll, 
 
 **John Resig:** I do see it as a relatively good bridge. It's certainly of its time, where jQuery was so DOM-centric... Like, you are querying DOM elements, manipulating those elements directly... Certainly whenever I do stuff like that these days, it feels very antiquated. \[laughs\]
 
-\[00:51:41.04\] Personally, I don't have regrets about not doing architectural things, and it's not because I feel like I missed out... At the time, I made very deliberate decisions not to work on that. We knew that jQuery was opinionated in some ways, in that "These are the ways of querying DOM elements", and things, but it was not opinionated about how you built your application. You can build it in any way you want it, you can use jQuery in that context, but we weren't dictating how that should work... So I'm okay with this.
+\[51:41\] Personally, I don't have regrets about not doing architectural things, and it's not because I feel like I missed out... At the time, I made very deliberate decisions not to work on that. We knew that jQuery was opinionated in some ways, in that "These are the ways of querying DOM elements", and things, but it was not opinionated about how you built your application. You can build it in any way you want it, you can use jQuery in that context, but we weren't dictating how that should work... So I'm okay with this.
 
 If you look at React -- I was mentioning earlier that we were early adopters of React at Khan Academy, but we were (I believe) the first organization outside of Facebook to adopt React... And React is so dramatically different from the jQuery way of doing things. I don't think we could ever have iterated on jQuery to the point at which we arrived at React. It's a fundamentally different branch of the evolutionary tree, and frankly, I feel like React is a lot better for the kind of things that it's trying to do.
 
@@ -240,7 +240,7 @@ So yeah, I don't know; I don't have regrets about it. I think jQuery was great, 
 
 I think additionally, having a schema defined on the back-end - like, you have the schema on the back-end and then queries on the front-end - those two together really make GraphQL what it is. So yeah, I don't think the transport layer -- as I'm developing in using GraphQL, I don't think about how it's getting to the client necessarily. That's not my primary concern; my primary concern is more about "Okay, what data am I requesting as the data that I need?" And I feel pretty good about that.
 
-\[00:55:59.05\] So I guess to answer the question - yeah, I would agree that probably the query language itself, but then combined with the schema definitions is really what makes GraphQL special.
+\[55:59\] So I guess to answer the question - yeah, I would agree that probably the query language itself, but then combined with the schema definitions is really what makes GraphQL special.
 
 **Suz Hinton:** That makes a lot of sense.
 
@@ -262,7 +262,7 @@ I think usually issues like that are happening - if they happen at all - in the 
 
 **Suz Hinton:** Our last question is from Rasmus Hanson, and they ask "What are some common mistakes people make when working with or implementing GraphQL?"
 
-**John Resig:** \[00:59:53.07\] I feel like I don't have enough data looking at people at large, what mistakes they've made... I feel like there are mistakes that we made... \[laughs\]
+**John Resig:** \[59:53\] I feel like I don't have enough data looking at people at large, what mistakes they've made... I feel like there are mistakes that we made... \[laughs\]
 
 **Suz Hinton:** Yeah, we'd love to hear that. Personal anecdotes would be amazing.
 

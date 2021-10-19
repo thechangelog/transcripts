@@ -18,7 +18,7 @@ It turned out not to be too hard, and after the initial version there were many 
 
 **Jerod Santo:** Oh, you're not? You have some taste about it though. You care.
 
-**Adam Stacoviak:** \[00:03:58.25\] Sure, I have some tastes... I'm not on the fringe or in the know of what's current, less so now, but I think with monospace in particular - they're unique because they have to serve a certain purpose... Readable, certain size, similar size, they've gotta fit into terminal windows, and there's unique properties for monospace fonts in particular... And you wanna put some style in there, but yet, it's a very constrained design pattern to design towards. I like the fact that they're so creative and so diverse, given those constraints.
+**Adam Stacoviak:** \[03:58\] Sure, I have some tastes... I'm not on the fringe or in the know of what's current, less so now, but I think with monospace in particular - they're unique because they have to serve a certain purpose... Readable, certain size, similar size, they've gotta fit into terminal windows, and there's unique properties for monospace fonts in particular... And you wanna put some style in there, but yet, it's a very constrained design pattern to design towards. I like the fact that they're so creative and so diverse, given those constraints.
 
 **Jerod Santo:** Yeah. Things that I've always looked for in a programming font specifically - of course, monospace is a necessity, because you need to line your code up, right? Indentation, and code alignment - these things are...
 
@@ -44,7 +44,7 @@ It turned out not to be too hard, and after the initial version there were many 
 
 **Nikita Prokopov:** Yeah, yeah. It's implemented as italics, but yeah, there's really curly italics. I think it's Victor Mono and \[unintelligible 00:07:36.19\] There are two fonts like that. I'm not using those... I don't even use italics in my coding at all, and I don't use bold fonts.
 
-\[00:07:49.27\] I also have not only taste for fonts - or an opinion, not only for fonts, but also for color schemes. I prefer all the text be the same font, the same width, weight... So no bold, no italics, just the same letters over and over, with some colors.
+\[07:49\] I also have not only taste for fonts - or an opinion, not only for fonts, but also for color schemes. I prefer all the text be the same font, the same width, weight... So no bold, no italics, just the same letters over and over, with some colors.
 
 I've seen that italics and bold make actually text harder to read, because you have to switch. When everything is in the same font and the same weight, it's just easier to read for me. So yeah, I am not using those.
 
@@ -74,7 +74,7 @@ I've seen that italics and bold make actually text harder to read, because you h
 
 **Nikita Prokopov:** Sure. So the idea was that in traditional fonts there were certain letter combinations that was not rendered nicely together. If you have f follow by i, the dot of the i and the edge of the f would overlap, and it doesn't look nice... So they figured out that they will draw this pair separately and replace the combination with specifically drawing pairs that smooth a little bit this overlap. This was in fonts like forever; I think in Metallic fonts this was used as well. It comes from Metallic fonts in real typography. And this was in computers as well, but it only was used for really rare combinations like fi, fl, ffi, stuff like that.
 
-\[00:12:32.07\] And then - I don't remember the name, but somebody figured out (the guy who built Hasklig font, I guess) that you can use the same technique, but for programming stuff... And if you think about programming -- not letter combinations, but symbol combinations... Like for example in C or C++ you have dash follow by greater sign, which kind of looks like an arrow, but is not an actual arrow. In some fonts, normally these characters are not even supposed to stay next to each other. So they are not even aligned. So the dash is like minus between numbers, and greater is also supposed to be between numbers. They're not supposed to stay next to each other...
+\[12:32\] And then - I don't remember the name, but somebody figured out (the guy who built Hasklig font, I guess) that you can use the same technique, but for programming stuff... And if you think about programming -- not letter combinations, but symbol combinations... Like for example in C or C++ you have dash follow by greater sign, which kind of looks like an arrow, but is not an actual arrow. In some fonts, normally these characters are not even supposed to stay next to each other. So they are not even aligned. So the dash is like minus between numbers, and greater is also supposed to be between numbers. They're not supposed to stay next to each other...
 
 Yeah, so sometimes they look not well together.
 
@@ -96,7 +96,7 @@ So that idea that in the places where you're doing ASCII art in your code, like 
 
 Then the idea became popular and everybody starting doing them... So right now it's at different levels of support in different editors. Sometimes you have to turn them on, sometimes it's enabled by default... But yeah, it's a thing.
 
-**Jerod Santo:** \[00:16:19.26\] Yeah. And worth noting, if this is something that's new to you as a listener - and this was new to me, and I was immediately turned off, because I thought "Are you replacing my text with a Unicode character that represents it?" Because that, I do not want. I do not want to have maybe non-standard - I guess if it's Unicode, it is a standard... But I wanna have the actual thing as written. So it's worth noting that the way that you accomplish this is basically a presentation layer thing. You're not replacing the underlying bytes, the characters. You're actually just presenting them. Correct?
+**Jerod Santo:** \[16:19\] Yeah. And worth noting, if this is something that's new to you as a listener - and this was new to me, and I was immediately turned off, because I thought "Are you replacing my text with a Unicode character that represents it?" Because that, I do not want. I do not want to have maybe non-standard - I guess if it's Unicode, it is a standard... But I wanna have the actual thing as written. So it's worth noting that the way that you accomplish this is basically a presentation layer thing. You're not replacing the underlying bytes, the characters. You're actually just presenting them. Correct?
 
 **Nikita Prokopov:** Yes, that's correct. That's the idea with... This is why it all works so beautifully, because you can see beautiful, Unicode-like -- it's not Unicode-like, but beautiful, specifically drawn shapes in your editor, and your compiler still understands this as plain ASCII characters. So yeah, there's no conflict there; you just see it slightly better than it is in underlying Unicode inside.
 
@@ -112,7 +112,7 @@ Then the idea became popular and everybody starting doing them... So right now i
 
 I like \[unintelligible 00:19:41.20\] it makes it closer to mathematical notation. If you would write some equations on a paper, or in a typographically well-set paper, you would use beautiful characters that look the way they're supposed to look. And if you just type in code in ASCII, you're just trying to imitate that, but you have very poor tools, so you cannot build an arrow. It just looks better. It's not a game-changer at all.
 
-**Jerod Santo:** \[00:20:20.17\] Right.
+**Jerod Santo:** \[20:20\] Right.
 
 **Nikita Prokopov:** You will not write better code with it, and I am not advocating that it's a must-have...
 
@@ -136,7 +136,7 @@ I like \[unintelligible 00:19:41.20\] it makes it closer to mathematical notatio
 
 **Adam Stacoviak:** Yeah. You said the word "if", and there's quite a big if here, on language-specific glyphs. So JavaScript's got some HTML markdown; Java, C\#, Ruby, Go, Swift, we mentioned Elixir, Kotlin, R... So you've took some time pretty much down the swathe of languages being used today to give them special representation for certain things they're doing inside their syntax... And that's really interesting. And even go beyond that, to do things like \[unintelligible 00:23:17.28\] When you were just mentioning where would you use this, I was thinking it could be super-cool to have these kinds of things whenever you're writing a CLI and something's happening, or you're doing some console stuff and you have an opportunity, let's say like a module installation with Npm, or some thing like that. When something's happening, you can do some really cool \[unintelligible 00:23:35.29\] squares, partial boxes, some really cool stuff, really cool art with this type of font typeface, over say Ubuntu Mono, where there's just not that opportunity.
 
-**Jerod Santo:** \[00:23:51.15\] Yeah, similar to -- Curl has that new spaceship progress indicator, where it' an ===&gt;, and that's the ASCII version of a rocket ship. But if you actually had a font like this, that had accounted for a rocket ship as like a thing, then that could just be translated on the fly into something that looks much more like an actual spaceship, or rocket ship. I'm curious --
+**Jerod Santo:** \[23:51\] Yeah, similar to -- Curl has that new spaceship progress indicator, where it' an ===&gt;, and that's the ASCII version of a rocket ship. But if you actually had a font like this, that had accounted for a rocket ship as like a thing, then that could just be translated on the fly into something that looks much more like an actual spaceship, or rocket ship. I'm curious --
 
 **Adam Stacoviak:** It could be edited even. You can be swapping out characters behind the scenes and it becomes very animation-like.
 
@@ -160,17 +160,17 @@ I think there was also an article a few months back when a guy built -- using th
 
 **Adam Stacoviak:** How do you accomplish that then? Are you iterating based on Fira Mono, and you've got the -- like, how a language might have a superset or a subset, or is it like that where you're sort of building on, and you're in tandem with their development of that font?
 
-\[00:28:04.29\] Are you drawing the vector versions of all these characters yourself by hand, or did you use some sort of base layer of work and added onto? And is your work tied back to theirs, and has to wait till they iterate so you can iterate and add on...? Are you still connected to the original Fira Mono somehow?
+\[28:04\] Are you drawing the vector versions of all these characters yourself by hand, or did you use some sort of base layer of work and added onto? And is your work tied back to theirs, and has to wait till they iterate so you can iterate and add on...? Are you still connected to the original Fira Mono somehow?
 
 **Nikita Prokopov:** Yeah, sure. The first ligatures - yes, I have to draw all the vector forms myself. It helped a little bit that, for example, they already had arrows, Unicode arrows, and I just extended them a little bit; so it's a simple operation. But some of them I had to draw from scratch. So basically you just open a file, which is a set of vector shapes, you add new glyphs, and you have to draw a vector shape for those glyphs. For example, if I want an arrow, I draw an arrow. It usually comes in two weights, so you have to draw it for normal and for bold, and then the software interpolates for all the other weights...
 
 I left the letters from Fira Mono as they are. We fixed a few bugs that they had in Cyrilic, I think, or some rare languages, let's say that... Basically, right now FiraCode has letters from Fira Mono a while back. Luckily for me, I guess, they're not iterating, they're not changing Fira Mono anymore, so I don't have to keep up. It would be probably pretty hard in there, because if they change metrics or something like that, I will have to adjust all my ligatures, and I have just so many of them, so it would be tricky... But yeah, let's say it has a snapshot of Fira Mono from 4-5 years back, and I am just building on top of that. Every new version of FiraCode is just more and more ligatures, with sometimes bugs fixed, sometimes new Unicode characters... Sometimes something gets removed, but yeah, it's basically just adding slightly on top.
 
-**Break:** \[00:30:29.08\]
+**Break:** \[30:29\]
 
 **Adam Stacoviak:** Well, thankfully the source is out there for this stuff, because without it, you'd be starting from scratch... There's a repo out there for Fira Sans, that's got FiraCode, Fira Mono, Fira Sans in there; some of them kind of dated in terms of their last commits to them... FiraCode and Fira Mono being four years ago, Fira Sans being two years ago. Thankfully, this is open source, and you can improve upon this work.
 
-**Nikita Prokopov:** \[00:31:48.14\] Yeah, so the biggest luck for me was that it was open source; it was Open Font License, so anybody can build modifications and distribute them freely. The original work on Fira Sans was done by Ralph du Carrois, or something like that (I'm not sure how to pronounce the name) and Erik Spiekermann. They built it for Firefox mobile operating system. I think it was called Firefox OS, or something like that... So it was supposed to be the default font on Firefox OS. But then Firefox OS didn't happen, but the font already was built and it was openly distributed, and it had monospace, and I was lucky just to have it.
+**Nikita Prokopov:** \[31:48\] Yeah, so the biggest luck for me was that it was open source; it was Open Font License, so anybody can build modifications and distribute them freely. The original work on Fira Sans was done by Ralph du Carrois, or something like that (I'm not sure how to pronounce the name) and Erik Spiekermann. They built it for Firefox mobile operating system. I think it was called Firefox OS, or something like that... So it was supposed to be the default font on Firefox OS. But then Firefox OS didn't happen, but the font already was built and it was openly distributed, and it had monospace, and I was lucky just to have it.
 
 After that, they tried to update it, I think twice. They built -- I think the Fira Sans that you mentioned from two years ago was the first attempt; then they formed a different company and rebranded it as FiraGO. It's basically Fira Sans, but updated again. So the FiraGO is recently newly updated. Fira Mono wasn't really updated since 4-5 years back. It doesn't get new versions anymore.
 
@@ -194,7 +194,7 @@ They released though at some point a version called FiraCode, which is just Fira
 
 **Jerod Santo:** Interesting.
 
-**Adam Stacoviak:** \[00:36:17.04\] That's an interesting question though, Jerod, because I was thinking earlier, if the barrier to entry -- like he'd mentioned, he's a programmer primarily, but curious about design, and in particular fonts and typography... And the next question is adoption. So if he puts them out there, you've gotta define all these installation instructions, and this and that... But if you're using Google Fonts - and that's pretty common - you can use that for desktop AND the web.
+**Adam Stacoviak:** \[36:17\] That's an interesting question though, Jerod, because I was thinking earlier, if the barrier to entry -- like he'd mentioned, he's a programmer primarily, but curious about design, and in particular fonts and typography... And the next question is adoption. So if he puts them out there, you've gotta define all these installation instructions, and this and that... But if you're using Google Fonts - and that's pretty common - you can use that for desktop AND the web.
 
 So it can be, in many ways, access to a large population of people who are font-curious and they wanna try things out... So the way you get adoption is by having distribution. I'm thinking "How do you get distributed?" Well, it sounds kind of backwards though, because it seems that they should be working more closely with you to ensure that your desires for it are fulfilled through Google Fonts... And it seems like they're not exactly collaborating with you, they're just sort of using your source and doing their own thing with your stuff, which is totally fine - license and legally, and whatever...
 
@@ -216,7 +216,7 @@ So it can be, in many ways, access to a large population of people who are font-
 
 **Jerod Santo:** Yeah, certainly. That's a cool open source success story. I know you're building on top of some open source... Of course, there's always copyright and legal things that happen here or there, and licensing, but it seems like everything's pretty much -- it shook out and been good. What about managing an open source community and project around a font? Is it different than managing open source around a codebase? I know you have some open source Clojure libraries, too... Does it feel like that, does it feel different? Is it actively developed? It sounds like you're working on the next version, so... I would tend to think a font - you design it and it's done, but I guess if you're adding ligatures all the time, you could just do it till the end of time. Does it feel like a coding project, or does it feel like a different thing altogether?
 
-**Nikita Prokopov:** \[00:40:15.13\] Yeah, it certainly feels the same. There are a couple of differences. For one, it's really hard to take pull requests on the font, because the way a font is built - at least FiraCode - it's built in proprietary software, GlyphsApp, which I think is kind of standard for font builders. There is FontLab and there is GlyphsApp; I think those are the two most popular programs. They're both very expensive, so you would not buy them just to change a letter in a font and submit a pull request... Because of that, I have to do most of the changes myself. So it's mostly issues, and people request and I just implement them myself. So that's different.
+**Nikita Prokopov:** \[40:15\] Yeah, it certainly feels the same. There are a couple of differences. For one, it's really hard to take pull requests on the font, because the way a font is built - at least FiraCode - it's built in proprietary software, GlyphsApp, which I think is kind of standard for font builders. There is FontLab and there is GlyphsApp; I think those are the two most popular programs. They're both very expensive, so you would not buy them just to change a letter in a font and submit a pull request... Because of that, I have to do most of the changes myself. So it's mostly issues, and people request and I just implement them myself. So that's different.
 
 I would like to accept pull requests, but I think because you have to buy this program to design a font, and also because I'm not sure how well the font file itself will work with changes/patches, as you can do with source code. I think it's not well-optimized for patches. It's text format, but I think it's not well optimized.
 
@@ -236,7 +236,7 @@ For feature requests, they just build up, and at some point - right now I do it 
 
 **Adam Stacoviak:** Obviously, it's not your day job, so I'm not grilling you why you're not doing your job, I'm just trying to figure out - what is it that makes these issues stay open for you? What's your philosophy on keeping them open?
 
-**Nikita Prokopov:** \[00:43:59.23\] Yeah, if the issue is not resolved, like if I am certain I will never implement it, I close it because it won't implement. If I do implement it, I close it because it's done... But if I am uncertain, if there's pros and cons, I just leave it open. I don't see a problem with lots of open issues. Okay, maybe at some point I will have time and come back and take another look; maybe something changes.
+**Nikita Prokopov:** \[43:59\] Yeah, if the issue is not resolved, like if I am certain I will never implement it, I close it because it won't implement. If I do implement it, I close it because it's done... But if I am uncertain, if there's pros and cons, I just leave it open. I don't see a problem with lots of open issues. Okay, maybe at some point I will have time and come back and take another look; maybe something changes.
 
 I think in the last release I closed some issues from four years ago, or something like that... It's still possible. I don't mind open issues and I don't see a problem with them... I know with some repositories - especially in big companies, I think - old issues get closed automatically. I don't do that, because I don't see the point. It doesn't become less relevant because nobody took a look at it for a year. It's probably still an unsolved problem.
 
@@ -274,7 +274,7 @@ I think in the last release I closed some issues from four years ago, or somethi
 
 **Adam Stacoviak:** Plus the mindspace... Which is a lot; if you've got a day job, and other activities, and things that you're interested in, it's a lot to handle. And the reason why we did this show is not so much to say "Oh, let's quantify your effort", but more like, you know, there's a lot that goes into producing open source, that goes into maintaining open source, to lead a community, to do something like this with a labor of love... And it's less about quantifying that and more about being clear with how much effort it takes to be committed as you are and others are to open source.
 
-**Jerod Santo:** \[00:48:06.07\] Have you had a lot of support? I notice you have a Patreon, I see you have some supporters, you're trying to get to a certain amount of money to help you work on these things... And I would say you've had some modest success there, but I'm curious how you would view that.
+**Jerod Santo:** \[48:06\] Have you had a lot of support? I notice you have a Patreon, I see you have some supporters, you're trying to get to a certain amount of money to help you work on these things... And I would say you've had some modest success there, but I'm curious how you would view that.
 
 **Nikita Prokopov:** Yeah, I think it's pretty successful. Patreon certainly helps a lot, especially the money for the license, for GlyphsApp...
 
@@ -298,7 +298,7 @@ And I think that FiraCode is probably the most popular font with ligatures for p
 
 **Nikita Prokopov:** Patreon is certainly the biggest one. It might be because it was set up the first, and when I announced it, most of the people went there. The GitHub is probably ten times smaller, and PayPal is -- I don't know; it's 2-3 times smaller than GitHub. And also, PayPal a one-time thing, and GitHub and Patreon is every month.
 
-**Adam Stacoviak:** \[00:51:12.09\] When it comes to this opportunity to sponsor you as an individual, what is it that makes you like or dislike certain feature sets from them? What do you like most about GitHub Sponsors? Obviously, PayPal is not being used very much... What's the skew between the two in terms of your preference, in terms of how they do things, and represent you as an individual creator etc?
+**Adam Stacoviak:** \[51:12\] When it comes to this opportunity to sponsor you as an individual, what is it that makes you like or dislike certain feature sets from them? What do you like most about GitHub Sponsors? Obviously, PayPal is not being used very much... What's the skew between the two in terms of your preference, in terms of how they do things, and represent you as an individual creator etc?
 
 **Nikita Prokopov:** I would say that the idea of Patreon is the best, because you can have posts, you have extra material, and stuff like that. You can hide something for Patreons only, stuff like that. All the features.
 
@@ -330,7 +330,7 @@ Nikita, thank you so much for your dedication to this interesting font for progr
 
 **Nikita Prokopov:** Thank you for having me.
 
-**Outro:** \[00:54:54.08\]
+**Outro:** \[54:54\]
 
 **Jerod Santo:** Boom goes the dynamite! You're off the Changelog Hotseat. I'm gonna leave these ligatures on for a few days. I wanna commit to a week of just leaving it as it is configured right now, and then I'll send you guys a tweet or a text or an email and let you know what I think after a week... Because maybe I'll just turn out loving it, and I'll become your next big advocate. Who knows. Or maybe I'll hate it and turn it off. I don't know.
 

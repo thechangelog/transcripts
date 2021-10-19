@@ -34,7 +34,7 @@
 
 **Emma Bostian:** I wish I had that though, because I need to create one in general... Like, I would rather be building too many than none, which is currently the state of my portfolio... So I'm curious what drew you into D3. First of all, can you tell us what D3 is?
 
-**Amelia Wattenberger:** \[00:03:58.10\] Yeah, so D3 stands for Data-Driven Documents, and it's a JavaScript that is from the jQuery era; I think it's maybe ten years old at this point, so it's been around for a really long time. I see JavaScript libraries that help with data visualization on kind of a spectrum, where at one end you have D3, where it's more low-level, and on the other end you have charting libraries that kind of do all the work for you. I think Recharts is one, React Charts... There's a lot of those.
+**Amelia Wattenberger:** \[03:58\] Yeah, so D3 stands for Data-Driven Documents, and it's a JavaScript that is from the jQuery era; I think it's maybe ten years old at this point, so it's been around for a really long time. I see JavaScript libraries that help with data visualization on kind of a spectrum, where at one end you have D3, where it's more low-level, and on the other end you have charting libraries that kind of do all the work for you. I think Recharts is one, React Charts... There's a lot of those.
 
 But then on the left side of the spectrum, really D3 is the lowest level that you could get, where it has a lot of utility functions that help with transforming data into visual dimensions, like turning -- let's say you're visualizing temperature, so a lower temperature will be on the left side of the chart, and a higher temperature will be on the right side of the chart... So how do we go from temperature to pixels to the right? D3 really helps with those really low-level "I'm gonna make the whole chart myself, but I could use a little bit of help... But I'm not gonna rely on a charting library to do it all for me." So it's harder to learn, but it's way more powerful once you get the hang of it.
 
@@ -54,7 +54,7 @@ So because D3 had such a good ecosystem of people posting their code online, it 
 
 I think that's part of why people have such a hard time learning D3 - they jump into the deep end, because it's so easy to get there, and then you kind of have to swim upstream to figure out what everything does. It's both hard and easy at the same time.
 
-**Jerod Santo:** \[00:08:05.28\] That's interesting.
+**Jerod Santo:** \[08:05\] That's interesting.
 
 **Amelia Wattenberger:** And the other reason I think it's so hard is the whole reason I think data visualization is so hard - because it's where a bunch of different fields meet. You have to learn visual perception, you have to learn user experience design, how are users viewing charts, what could be confusing about a chart, and you have to learn data analysis, statistics... There's a whole set of things that you have to learn in addition to D3. So I think because a lot of developers are like "I'm gonna make a chart. I'm gonna use D3..." There's just a lot to learn to do with making a chart in the first place.
 
@@ -70,7 +70,7 @@ I've seen examples where you can tab into a chart and it'll say "Chart width - 1
 
 **Jerod Santo:** Yeah, which is so nice when it works. But with D3 you're actually working at a lower layer, where maybe that library is actually telling D3 what to do underneath the covers, but you're drawing polygons, you're drawing lines. You're actually programmatically or imperatively telling it what to do at maybe the drawing layer, if you think of it that way. So that's powerful, but difficult to pick up. Charting libraries at higher levels are easier to pick up, but less powerful... How do you help folks make the decision of like "Where do I fit in? Do I go for D3 and just dive in, and I can be a craftsperson, and just get underneath there? Or am I happy with a higher-level thing?"
 
-\[00:12:15.25\] Do you have to make those decisions on a regular basis? I mean, you've learned D3 very well, so you've grabbed the power tool, but what about somebody new? How can you help them make that decision?
+\[12:15\] Do you have to make those decisions on a regular basis? I mean, you've learned D3 very well, so you've grabbed the power tool, but what about somebody new? How can you help them make that decision?
 
 **Amelia Wattenberger:** Yeah, yeah... And one fun fact is that most, if not all JavaScript charting libraries are probably using D3 under the hood.
 
@@ -96,7 +96,7 @@ Also, when I say "learn D3", I don't see it as this huge, overwhelming process. 
 
 For a few of the more common complicated graphs they'll have just a method that you say "Hey, draw this chart for me", and it'll get you pretty much there. The way I usually use D3 is I will only use the utility functions, like "Turn these temperature numbers into pixel numbers" or "Turn this set of numbers into colors", and then because I'm usually working in some kind of JavaScript framework like React, I'll just create those SVG elements using, say, the React render( ) function, and use D3 for like "Help me transform this data into physical attributes."
 
-\[00:16:06.09\] So it both will help you draw a ton of different complex charts, in which case there are tons, and there's also D3-libraries that are just -- people created them who don't have any affiliation with D3. But you can make pretty much any chart type that you want, but you're not gonna get that easy function that's like "Draw me a tree map." \[laughs\]
+\[16:06\] So it both will help you draw a ton of different complex charts, in which case there are tons, and there's also D3-libraries that are just -- people created them who don't have any affiliation with D3. But you can make pretty much any chart type that you want, but you're not gonna get that easy function that's like "Draw me a tree map." \[laughs\]
 
 **Jerod Santo:** "Draw me a tree map..."
 
@@ -118,7 +118,7 @@ I have one more question before we take a break here... What are the alternative
 
 Then there's also, further along on the spectrum, the charting libraries, where you don't really need to learn D3... Until you do.
 
-**Break:** \[00:20:04.22\]
+**Break:** \[20:04\]
 
 **Emma Bostian:** Alright, so we are back... We've learned a lot about the foundations of D3, and now I wanna dive a little bit more into some of the cool projects that you've built, Amelia... Because for those of you listening who haven't check out her portfolio, it is a must do. I'm gonna link a couple of things down in the show notes, and I wanna talk a little bit more about some of these... But you have the coolest article I've ever seen on the CSS Cascade, which is how styles are applied to different HTML elements. So it's kind of about specificity and how styles are applied... How the heck did you build something so complex? How did you even come up with this idea in your mind, the design for it, and then how did you execute it? How long did this take? It would have taken me 12 years to build this.
 
@@ -142,7 +142,7 @@ So along the left-hand side of this web page, which is in the show notes, you wi
 
 **Jerod Santo:** If I made this, I would just have it as my desktop wallpaper, and I'd just stare at it every day, like "Yeah, I made that..." \[laughter\]
 
-**Amelia Wattenberger:** \[00:24:01.20\] So the hardest part for this was just going from spec to figuring out what the different tiers are. What way can we visualize this that will kind of make it stick with you? So I fudged it a little bit; this isn't exactly what the spec says... The first tier... Basically, the way the cascade works is the higher up something is in the cascade - you have a certain selector, and a selector that is higher up in the cascade will win over a selector that's lower in the cascade.
+**Amelia Wattenberger:** \[24:01\] So the hardest part for this was just going from spec to figuring out what the different tiers are. What way can we visualize this that will kind of make it stick with you? So I fudged it a little bit; this isn't exactly what the spec says... The first tier... Basically, the way the cascade works is the higher up something is in the cascade - you have a certain selector, and a selector that is higher up in the cascade will win over a selector that's lower in the cascade.
 
 The way I broke it down - it has four tiers. The first tier is called "Importance." I didn't know what else to call it... And basically, the way the spec is written is -- these steps are kind of meshed together. Transition and active transition will win over anything else... And then below transition is anything you put "important" on, and then there's active animations, and then underneath that all normal styles.
 
@@ -172,7 +172,7 @@ So this spec is a little bit weird, where the next tier that I have is called th
 
 The elements on the page are just two divs using Flexbox, with code snippets in them, and another div underneath with the answer.
 
-**Emma Bostian:** \[00:27:54.26\] That's so cool. This article was great... Not just because I love specificity and I think it's great and everyone should fully understand it, but because I just think it's the most beautifully chaotic website I've ever seen... And I don't mean that in a bad way. There's just so much hidden meaning... I'm gonna be honest right now - I saw that it was a waterfall, and it didn't fully hit me until we were talking about the cascading waterfall... And I was like "I get it!"
+**Emma Bostian:** \[27:54\] That's so cool. This article was great... Not just because I love specificity and I think it's great and everyone should fully understand it, but because I just think it's the most beautifully chaotic website I've ever seen... And I don't mean that in a bad way. There's just so much hidden meaning... I'm gonna be honest right now - I saw that it was a waterfall, and it didn't fully hit me until we were talking about the cascading waterfall... And I was like "I get it!"
 
 **Jerod Santo:** "I get it! I see what you did there..."
 
@@ -198,7 +198,7 @@ Another one of these posts has a long code example. It's actually about doing in
 
 And as far as writing a book in general, I could never write a non-tech book. The reason that I could write this book at all was that -- basically, the process was I wrote a code snippet, or I outlined the whole book, and then for each chapter the first step was "What code should we build that would help teach this concept?"
 
-\[00:32:09.25\] And then I just -- you know, I'm a developer, I'm very used to this... I wrote the code first. And then I kind of took notes on "Okay, what did I do first? What did I do second? What are the concepts that we need to learn for this?"
+\[32:09\] And then I just -- you know, I'm a developer, I'm very used to this... I wrote the code first. And then I kind of took notes on "Okay, what did I do first? What did I do second? What are the concepts that we need to learn for this?"
 
 Then for writing the chapter, it was really just like documenting "What did we do? What are resources that can help someone understand these concepts? What are the different concepts?" Without starting by doing the code, I could never have written a book.
 
@@ -236,7 +236,7 @@ Then for writing the chapter, it was really just like documenting "What did we d
 
 **Amelia Wattenberger:** Oh God, no... I don't know if I could do that. I would definitely write a tech book again... It was definitely worth it, if only for the reason that over my career as working as a developer on dashboards, this really gave me a chance to take a step back and think through "What have I learned? What are these different concepts?" and kind of formalize them, make sure what I have in my head matches what the actual code is. I learned a lot writing the book, which is really valuable to me... Because I'm sure there were tons of things that I never would have done a proper deep dive on, if not for "This needs to be right, because I'm telling it to other people."
 
-**Break:** \[00:35:37.03\]
+**Break:** \[35:37\]
 
 **Emma Bostian:** Alright, so we've heard a little bit more about your awesome book and some of your really cool blog posts, but I am really curious to know quite a bit more about your process for how you designed, built all of that. I wanna know all the details about this overview chart on the State of JS Survey... So could you walk me through your process of how you built this?
 
@@ -252,7 +252,7 @@ This is their fourth or fifth year running this survey, which was really impress
 
 The answers for each tool - as a person's going through the survey, and the question... I don't know the exact wording, but the question is something like "What is your experience with Angular?" and they have five responses. Let me find the exact wording... I don't know the exact wording, but basically, the responses were "I haven't used it, I'm not interested in using it", "I haven't used it, I am interested in learning it", "I have used it, and I don't like it or I don't wanna use it again" and "I have used it and I do wanna use it again."
 
-\[00:40:16.23\] That kind of data - we could do a basic bar chart of each of these tools for what percent of people cited each of these different answers, but it's kind of hard to extrapolate across different charts where there's like four different bars, and you're like "Okay, this first one's short over here, and this other one's short, but not as short..." So I thought "How can we reduce this into two dimensions?" So I turned those questions into one dimension that is "What percent of people have used it, and what percent of people haven't used it?" and the other dimension is "People like it or they don't like it."
+\[40:16\] That kind of data - we could do a basic bar chart of each of these tools for what percent of people cited each of these different answers, but it's kind of hard to extrapolate across different charts where there's like four different bars, and you're like "Okay, this first one's short over here, and this other one's short, but not as short..." So I thought "How can we reduce this into two dimensions?" So I turned those questions into one dimension that is "What percent of people have used it, and what percent of people haven't used it?" and the other dimension is "People like it or they don't like it."
 
 So I collapsed across people who had and hadn't used it, which you can argue that those are different, but like "I haven't used it and I don't wanna use it" and "I have used it and I don't like it" - those are different things, but for the sake of "This is the data we have", those are the two dimensions... So you can plot each tool on a chart where the vertical axis is further up, tools have been used more, and the horizontal axis is further to the right - tools people like more. So you can have kind of a scatterplot of each tool on that chart.
 
@@ -276,7 +276,7 @@ Then the thought was "How do we add a historical component to this?" and then I 
 
 **Jerod Santo:** That being said, it's worth noting that -- first of all, we will embed this in the show notes, so you can just go look at it and know what we're talking about... What's cool is you have the different categories along the bottom JavaScript flavors - front-end, back-end, testing etc. - and as you hover your mouse over them, it focuses on that type of tool, or that subsection, and they animate it and draw in the arrows as they draw across... And one thing that you notice about the front-end frameworks in general - except for Svelte, that just has a singular point - is they're all generally getting more popular, but then moving a little bit to the left, or a lot, in a certain cases...
 
-**Amelia Wattenberger:** \[00:44:19.15\] Like they all do this year...
+**Amelia Wattenberger:** \[44:19\] Like they all do this year...
 
 **Jerod Santo:** So the more popular they get, the more negative the opinions get about them... And I think that's just the way -- you know, it's like the old Batman... It was not in Batman Returns, but "Either die a hero, or live long enough to become a villain..." That's just what's happening - the more popular you get, the more people are like "Meh, I'm over you, React..."
 
@@ -292,7 +292,7 @@ Really, I should sketch more often, and it's a goal of mine to do that more ofte
 
 So I'll usually go straight to the code, and something that was nice was that this State of JS website is built with Gatsby... I'm pretty sure; it's at least with React... So I create my own React environment to work through with the dummy dataset, or a third size dataset. So I iterated a few times that way, and went back and forth with Sacha... And he came up with some really good points. It was his idea to do how the tools have changed over time. And then at some point we had to switch to a dark chart, moving it over to the actual site...
 
-\[00:47:23.13\] Yeah, so it starts with "What is the goal, and what data do we have?" The middle part is like hand-sketching, and then the last part, which usually takes the most time, is iterating on different ways that we can visualize it within the browser, with the real dataset.
+\[47:23\] Yeah, so it starts with "What is the goal, and what data do we have?" The middle part is like hand-sketching, and then the last part, which usually takes the most time, is iterating on different ways that we can visualize it within the browser, with the real dataset.
 
 **Emma Bostian:** That's really cool. If you guys haven't checked out the overview chart on the State of JS Survey, I highly recommend it. Like Jerod said, we will embed this in the UI. What kind of plans do you have for the future? Do you have any fun projects that you're working on with D3, or are you just kind of taking it easy at the beginning of this year?
 

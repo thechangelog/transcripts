@@ -124,7 +124,7 @@ Actually, working on a compiler allows me to stretch that whole area of language
 
 I find that when I say that I'm a compiler engineer, I actually see it as encompassing this whole realm, and not just the technical aspects of the work. And it's a really cool place to work.
 
-**Break:** \[00:20:50.28\]
+**Break:** \[20:50\]
 
 **Jerod Santo:** So one thing that you and the SpiderMonkey team works on is developing features not in a silo, but alongside other people who are developing the same features, and then debating how those features could look, and the approving which ones are good, which ones are not good, which ones need to be changed... Are we implementing? Are we not implementing? When? All of these things, like you said, a lot of it is the communication and the humanity side, which is a fund challenge, I believe.
 
@@ -314,7 +314,7 @@ For example, they won't polyfill your array object to do the wrong thing suddenl
 
 **Jerod Santo:** Well, I've found the compartment proposal. We'll get the realms proposal and LavaMoat in the show notes for those who wanna do their own research.
 
-**Break:** \[00:50:46.26\]
+**Break:** \[50:46\]
 
 **Jerod Santo:** Many of us are just building apps for the browser, using the browser, to live our lives... We don't really understand exactly how it works. We know that SpiderMonkey is part of Firefox. You've mentioned Gecko... We understand that V8 is inside of Chromium-based things, and SpiderMonkey - you can embed it in a bunch of stuff... But let's take Firefox, for example. When I load a web page - let's say I load hag.codes, and Firefox does its thing... can you explain, at least to some level of granularity, how it all fits together? Where is Firefox interacting with your work, for example?
 

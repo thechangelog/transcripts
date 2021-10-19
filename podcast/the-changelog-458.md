@@ -20,7 +20,7 @@
 
 It started off as just like I was interested in politics and I was interested in computers, and I really thought those two weren't related... And then by the end of the '90s it was like "Oh yeah, actually these are super-related."
 
-\[00:04:04.01\] So I worked at a startup called Ximian, which worked on the GNOME Linux desktop. Then, after that I was like "Actually, law school sounds like it would be fun." Pro tip, kids - law school, not fun.
+\[04:04\] So I worked at a startup called Ximian, which worked on the GNOME Linux desktop. Then, after that I was like "Actually, law school sounds like it would be fun." Pro tip, kids - law school, not fun.
 
 Since then I've worked at a series of Mozilla as an attorney, where I worked on the Mozilla public license, revision version 2.0, I worked at a big law firm for a while, working among other things on the Google Oracle lawsuit for Google, where fair use came up quite a bit, which is something we'll talk about today. Then I worked at the Wikimedia Foundation, and now I'm the co-founder of a startup called Tidelift, where we are trying to make open source better for everyone by helping build a sort of economic and payment loop so that maintainers get paid to do all the sort of not fun parts of maintenance. They're not fun, but they're really important for businesses and enterprises, so we're trying to close that loop as a business. But yeah, I'm a copyright nerd at heart, so I think that's sort of why I'm here today.
 
@@ -38,7 +38,7 @@ Right now, GitHub Copilot is in a -- is it called a closed beta? I'm not sure. Y
 
 Nat and I haven't talked about this much, but I felt like that was a sort of appropriate thing to lean on him for... I mean, I think it's fascinating. There's both the lawyer side of me, but I do wanna say, it simply is an example of -- some of the examples of code coming out of it are simultaneously amazing, and also very much occasionally the "Boy, the robots are not coming for us any time soon."
 
-\[00:08:17.04\] I saw somebody used it to auto-generate a function about Calendars, and it was like "Oh yeah, months are 30 days long, and years are 365 days long", and apparently nobody's trained it on -- you know, that blog post "Falsehoods programmers believe about time" or believe about dates, or whatever... Nobody's trained it on that yet. Or maybe it's just not heavily weighted enough. But it simply is a technical matter.
+\[08:17\] I saw somebody used it to auto-generate a function about Calendars, and it was like "Oh yeah, months are 30 days long, and years are 365 days long", and apparently nobody's trained it on -- you know, that blog post "Falsehoods programmers believe about time" or believe about dates, or whatever... Nobody's trained it on that yet. Or maybe it's just not heavily weighted enough. But it simply is a technical matter.
 
 **Christopher Hiller:** Right. It'll generate code, but that code is not necessarily correct.
 
@@ -54,7 +54,7 @@ So we've kind of explained what it does, and then a little bit of what it doesn'
 
 **Christopher Hiller:** Right. So it's just dealing with a lot of text. So when Copilot came out and people started playing with it, and then on Twitter you see that you can give it certain prompts and it will actually generate code that may have been -- I mean, it's kind of obvious that it's getting the code that it's writing from GitHub. So that's anything on GitHub. So a lot of people were kind of upset about this... Luis, why do you think people were upset about it?
 
-**Luis Villa:** \[00:11:58.09\] Boy, that's actually a deceptively-complicated question, because I think there's so many layers of -- you know, people are upset for very business reasons... Like, what if this code that's created is accidentally copyright-infringing for my company? I've heard -- maybe they're apocryphal by now, but I've definitely heard at least some CTOs, VPs saying "We can't use this in our company's codebase until there's a little more legal clarity." So that's one reason people are a little angry. I think there's some sense that maybe GitHub was being a little sloppy about that... So that's one source of concern.
+**Luis Villa:** \[11:58\] Boy, that's actually a deceptively-complicated question, because I think there's so many layers of -- you know, people are upset for very business reasons... Like, what if this code that's created is accidentally copyright-infringing for my company? I've heard -- maybe they're apocryphal by now, but I've definitely heard at least some CTOs, VPs saying "We can't use this in our company's codebase until there's a little more legal clarity." So that's one reason people are a little angry. I think there's some sense that maybe GitHub was being a little sloppy about that... So that's one source of concern.
 
 Another source of concern is simply just the emotional -- you know, authors feel ownership over their code. That's very deeply-felt for a lot of people; certainly not for everybody, but for a lot of people, for a lot of authors, and that's not unique to code. It happens for authors of books and music as well. So we've seen some of the same kind of emotional reaction to some people who get sampled; some musicians who get sampled, they're like "Oh, this is so awesome. My music is being reused." Nine Inch Nails - their stuff got reused by... I've never actually said this out loud, so I may be mispronouncing - Lil Nas X. His stuff sampled from a Nine Inch Nails track, and Nine Inch Nails was like "Cool. I finally have a number one hit." Whereas a lot of other musicians that get sampled are taking it to court, literally. So there's that emotional component.
 
@@ -68,7 +68,7 @@ It was also impressive that it didn't go the route of some other AI stuff that's
 
 At the same time, I've seen really (I'll just say) dumb examples of it, where somebody autocompleted an About Me page, and it autocompleted the About Me including the Twitter handles of a GitHub employee, and stuff like that. So it's showing that it's literally just copy-paste at that point. But it is kind of in an intelligent way, so it's straddling this line of really simple and really complicated, and really impressive, that I think is an interesting place to be... But of course, this is the early days, so it's gonna continue learning and going from there.
 
-**Luis Villa:** \[00:16:09.22\] You know, Nick, something that I was realizing as I was preparing to talk to you guys today... Actually, a lot of the -- I mean, even before... Because Tabnine - there were a few other things like Tabnine... There's also just been IDE autocomplete for a long time, of various sorts. It knows what kind of codebase you're working in, and it'll -- it's one thing when it autocompletes... I mean, we've had our brackets get matched automatically for ages in Emacs, right?
+**Luis Villa:** \[16:09\] You know, Nick, something that I was realizing as I was preparing to talk to you guys today... Actually, a lot of the -- I mean, even before... Because Tabnine - there were a few other things like Tabnine... There's also just been IDE autocomplete for a long time, of various sorts. It knows what kind of codebase you're working in, and it'll -- it's one thing when it autocompletes... I mean, we've had our brackets get matched automatically for ages in Emacs, right?
 
 **Nick Nisi:** Yeah.
 
@@ -80,7 +80,7 @@ There's been some (to me) sort of frustrating inconsistency about people who unt
 
 **Nick Nisi:** Let's actually break right there and we'll come back after the break and talk about that... Yeah, it's potentially terrifying just thinking about how the technical aptitude of a court could potentially decide the faith of software... That's terrifying.
 
-**Break:** \[00:19:26.09\]
+**Break:** \[19:26\]
 
 **Christopher Hiller:** So Luis, you mentioned that fair use can be a grey area around this sort of thing... Can you go into a bit more about -- I know this is a thing that continually comes up in trials, "Is this fair use or not?" And so where do you think something like Copilot lands, and why?
 
@@ -90,7 +90,7 @@ There used to be a copyright blog called "Promote the progress." The idea was th
 
 So this was done in the transition of fair -- if I'm remembering my timeline correctly, the transition of fair use into actual statutory law, written down law, as opposed to judges sort of making things up on the fly, happened in the '50s. So very much the examples - if you go back to what was Congress talking about, they were talking about things like teachers. So if you want to use a few minutes of a movie in a classroom to teach some point, fair use protects that. Fair use says "The copyright holder can't just unilaterally block that." Or another canonical example is literary criticism. If you wanna quote a paragraph of a book in order to prove a point about "This author is an asshole", then you can do that; fair use allows you to do that.
 
-\[00:24:01.10\] Chris, to your point about it seems like it comes up in court a lot - the whole thing about fair use is that it is sort of "I know it when I see it." There are some guidelines, there's a four-factor test that everybody applies... But the fourth factor is sort of like "Yeah, and whatever else we wanna throw in at the time." That's because the whole point of it is like "You know what - people may be doing something new and different and innovative with this stuff, and we don't want authors to be able to block that if we think it's a good idea." That's sort of the core of it. So "We think literary criticism is a good idea." And important there to note that it's criticism.
+\[24:01\] Chris, to your point about it seems like it comes up in court a lot - the whole thing about fair use is that it is sort of "I know it when I see it." There are some guidelines, there's a four-factor test that everybody applies... But the fourth factor is sort of like "Yeah, and whatever else we wanna throw in at the time." That's because the whole point of it is like "You know what - people may be doing something new and different and innovative with this stuff, and we don't want authors to be able to block that if we think it's a good idea." That's sort of the core of it. So "We think literary criticism is a good idea." And important there to note that it's criticism.
 
 One of the reasons that we have this fair use established is because if copyright holders could block that kind of use, then you would only have positive reviews of books. The authors would be able to say "Yeah, I didn't really like that review. Take it down." They would be able to use copyright to block that.
 
@@ -104,7 +104,7 @@ A lot of the arguing in Google Oracle over "Is this reimplementation of the API 
 
 This question has come up a lot recently in these questions of -- we joke that you could write an entire casebook... A casebook is like a legal equivalent of a sort of intro to programming kind of thing, where you take snippets around like fair use of these cases, and you say "Well, here's what a judge found about this. You budding lawyer should learn about the law by reading what the judge says about this." And we often joke that you could write an entire casebook about copyright just through the lawsuits that Google has been involved in... Because early 2000's, they were just like "You know what - we're gonna scrape the whole web. It's gonna be great. We're gonna organize all the world's knowledge." And average people were like "Yay! Organizing the world's knowledge."
 
-**Christopher Hiller:** \[00:28:20.19\] Scan all the books...
+**Christopher Hiller:** \[28:20\] Scan all the books...
 
 **Luis Villa:** Scan all the books, scan all the porn... There's a whole line of cases that are about Google Image Search and this one porn company who just -- the guy really didn't like Google, or search engines in general... Perfect 10. There's a whole line of cases about Perfect 10. Yeah, Google Book Search - another huge one, where they literally just said "We're gonna scan all the books, and if you don't like it..." And the authors didn't like it. There was a big, extensive lawsuit from a bunch of authors, and the U.S. courts eventually found "No, you know what - we understand you, the authors, aren't happy about this, but this is so transformative." Transformative use is a concept that is not found anywhere in the statute, but a lot of courts have found that a useful concept, starting in sort of the mid-90s.
 
@@ -116,7 +116,7 @@ U.S. courts found this idea of like "Oh, well if it's really transforming how it
 
 So a copy was made, so a copyright infringement has occurred, unless fair use defends that. And courts have generally found -- and there's some good policy reasons for this... One of my favorite papers in this area is a paper - I'll share a link with you guys so that you can put it on the \[show notes\]. It's a paper about how fair use is actually really important to building equitable training sets, because we know that a lot of training sets -- this is not so relevant for code, but if you're doing a training set on faces and you want a racially and gender-diverse set of faces in order to do your training on, you're gonna have to use fair use, because you literally can't buy a racially-diverse training set. It just doesn't exist, because Getty and all these other photo services actually have all kinds of biases. So you're gonna have to deliberately construct and you're gonna have to rely on fair use for that. If you rely only on things you can buy a license to, you're just introducing all sorts of biases into your training dataset.
 
-\[00:32:06.17\] Of course, as we know, any of you who followed artificial intelligence policy discussions, there's all kinds of other ways you can introduce bias... But fair use is one of the few good tools we have to remedy that in the AI space more generally. Again, that hasn't come up, Nick, as you mentioned, Microsoft Tay, or those kinds of -- I haven't seen any egregious examples.
+\[32:06\] Of course, as we know, any of you who followed artificial intelligence policy discussions, there's all kinds of other ways you can introduce bias... But fair use is one of the few good tools we have to remedy that in the AI space more generally. Again, that hasn't come up, Nick, as you mentioned, Microsoft Tay, or those kinds of -- I haven't seen any egregious examples.
 
 I'm actually really curious... My first job out of college with Ximian was as a QA guy, and I'm deadly curious what kind of QA they did around race and gender and things like that. Because in obvious use cases, something like "Copilot, build me a gender selector dropdown", and that's like a fraud... That's one of those things that it turns out there's all kinds of fraud. And I have no idea -- I haven't seen any particularly bad examples of that. Maybe I just haven't looked hard enough, but...
 
@@ -126,7 +126,7 @@ I'm actually really curious... My first job out of college with Ximian was as a 
 
 Somebody challenged my copyleft bonafide on Twitter, and I was like "I literally don't think I can fit all the copyleft licenses that I've advised on into one tweet..." And there aren't that many of them. So I get it, I do believe in reciprocity as an important part of how we build software... But at the same time, we've also always -- like, a lot of old-school copyleft folks have also been old school fair use folks. So this is a little bit of -- I think there was some tension there and some frustration on both sides of that discussion which came through. Welcome to arguing on the internet.
 
-**Break:** \[00:35:46.13\]
+**Break:** \[35:46\]
 
 **Nick Nisi:** Taking maybe a step back from this and thinking about this from a software perspective, and specifically a software license perspective - maybe I'm misstating the overall argument around that, but is it considered fair use because it's just training off of potentially certainly licensed code, and not necessarily running it, and if it were doing something to run it, would that change the way that it might be perceived?
 
@@ -140,7 +140,7 @@ Another is how much did you copy? It is one thing -- so this is one of the key w
 
 This came up in the Oracle/Google trial, because Google - well, really Apache, but I will say Google for simplicity - really only copied one type of thing. I used to have these numbers right on top of my brain; it's a really good sign that I don't remember them exactly anymore... But it was basically like 10,000 lines of API function names... But they didn't copy the other several million lines of the implementation.
 
-**Nick Nisi:** \[00:40:09.29\] They just reimplemented them.
+**Nick Nisi:** \[40:09\] They just reimplemented them.
 
 **Luis Villa:** They carefully reimplemented them. So a court will look at that and say "Oh, it looks like actually not much of this was copied." But this is where it gets a little complicated... And again, why does this go to courts to decide these things - there's a famous case about the biography of Gerald Ford, who's our nation's most boring president, essentially... Except that he pardoned Richard Nixon.
 
@@ -162,7 +162,7 @@ So we've got the "What was the nature of the taking? How much did you take?" Ano
 
 For you as a user of Copilot - that company was not trying to sell you five lines of code... They weren't trying to license five lines of code to you, and you weren't looking to buy five lines of code. You were just gonna write it yourself anyway.
 
-\[00:43:58.19\] So a court, again, is gonna look somewhat skeptically at -- and this is something we know from the Google Book Search case, that a court is gonna say "Well, you all weren't selling snippet search of your book." In fact, if anything, this is a key difference from Google Book Search to Copilot... The court found in that case that actually this is gonna help you sell more books, because people are gonna find books, there's a limitation on how much gets shown, and there's a Buy button right there... There's no equivalent to that in -- maybe GitHub will do something like "By the way, it looks like you copied this from the Linux Kernel. Click here to do GitHub Sponsors." That might be a little tacky, but you could see that as a thing they could do in the future, perhaps.
+\[43:58\] So a court, again, is gonna look somewhat skeptically at -- and this is something we know from the Google Book Search case, that a court is gonna say "Well, you all weren't selling snippet search of your book." In fact, if anything, this is a key difference from Google Book Search to Copilot... The court found in that case that actually this is gonna help you sell more books, because people are gonna find books, there's a limitation on how much gets shown, and there's a Buy button right there... There's no equivalent to that in -- maybe GitHub will do something like "By the way, it looks like you copied this from the Linux Kernel. Click here to do GitHub Sponsors." That might be a little tacky, but you could see that as a thing they could do in the future, perhaps.
 
 So that's sort of the basic analysis of how much got taken, was it really important stuff that got taken, what was the commercial impact, is it something new and bold and different, that wasn't gonna happen anyway? And I think looking at all those, I find a really hard time seeing that a court is gonna say that this was not a fair use... Because it's so different, the impact is so small... The emotional impact is real, and I don't wanna downplay that. As authors -- but again, the whole point of fair use is sometimes authors are pissed, and we ignore that as a policy matter.
 
@@ -196,7 +196,7 @@ By the way, I should say again, this is all in the U.S. E.U. has different sets 
 
 They've been really good... I'm not a Microsoft apologist. I literally got into open source in part because I was convinced that Microsoft was evil. I'm still personally irritated at the Bill Gates image rehabilitation campaign... The guy has all this money to give to charity because he operated an abusive monopoly. That's why he has so much money. So it's nice that he gives it away, but let's not forget that first part.
 
-\[00:48:05.01\] So I'm not a Microsoft apologist, but I think GitHub and Microsoft in the past few years have mostly done really well by open source... So I think maybe they got a little laurel resting, a little too comfortable here, and didn't fully think through how much this would really emotionally piss people off, even if the lawyers gave a full thumbs up.
+\[48:05\] So I'm not a Microsoft apologist, but I think GitHub and Microsoft in the past few years have mostly done really well by open source... So I think maybe they got a little laurel resting, a little too comfortable here, and didn't fully think through how much this would really emotionally piss people off, even if the lawyers gave a full thumbs up.
 
 **Christopher Hiller:** Right.
 
@@ -212,7 +212,7 @@ So if Copilot violates the GPL, Copilot also violates MIT and BSD, because those
 
 **Christopher Hiller:** Right.
 
-**Luis Villa:** \[00:51:43.25\] That makes me cringe, because that is not the -- Matthew Garrett, who's a former FSF board member, has written really eloquently on this in a long blog post. His vision of software freedom is very much about tearing down the copyright system. In his view, he thinks that -- like, he got into free software in part because the whole idea was more people should have access to more source code, and we should have fewer restrictions on how it's used. And GPL was a tool to get to that end.
+**Luis Villa:** \[51:43\] That makes me cringe, because that is not the -- Matthew Garrett, who's a former FSF board member, has written really eloquently on this in a long blog post. His vision of software freedom is very much about tearing down the copyright system. In his view, he thinks that -- like, he got into free software in part because the whole idea was more people should have access to more source code, and we should have fewer restrictions on how it's used. And GPL was a tool to get to that end.
 
 But in this blog post he talks about how we should be cheering on something that helps break down some of those barriers. Again, as a long-time card carrying FSF member until the recent leadership stuff, I agree. It's actually really interesting - a lot of these copyleft licenses have clauses in them that very specifically say "This is limited by fair use. If there's a fair use --" And that's sort of redundant, in some sense. You don't have to write that into the license, because it's already part of the law. So it's belts and suspenders. But it was also -- we put those in there, and I say "we", because literally, I helped put some of those into some of these licenses. We put those in there because it was a statement that fair use is important to us as like an ethical concern, not just a legal concern.
 
@@ -238,7 +238,7 @@ So to see some people being like "Oh yeah, I love fair use when I get to fair us
 
 **Luis Villa:** Actually, one of the fun things about this for me is learning -- like, because my dayjob is very much not machine learning, I have not stayed super in touch with it. There's this project called Eleuther AI (I don't know if I'm pronouncing it right) that is an entire open source GPT model... And they have not just the model, but it is trained; by hook or by crook they got some GPU hours to train it... And they've built a whole dataset, which by the way, includes a lot of open source code... And they specifically included open source code - before Copilot - because part of their vision is open source code completion.
 
-\[00:55:16.06\] So that's out there, this W3C working group on robots.txt but for code is out there... A lot of cool stuff that I found out about from the sort of mini furor about this. So I'm more optimistic.
+\[55:16\] So that's out there, this W3C working group on robots.txt but for code is out there... A lot of cool stuff that I found out about from the sort of mini furor about this. So I'm more optimistic.
 
 Besides - you know, I mentioned there's the legal thing, there's the sort of "Are you a jerk?" thing, and there's also this policy layer of "Do we really like what AI is doing to centralize power with companies that can scrape a lot of data, and have the GPU cycles to do training on that data?" And I think another strong reason why we should be strongly in favor of fair use in our community is that the weaker we make fair use, the more AI becomes a game that can be played only if you have a strong legal team. The position that a lot of people are taking around this would shut down Eleuther AI.
 

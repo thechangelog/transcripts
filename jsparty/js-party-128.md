@@ -44,7 +44,7 @@
 
 **Jerod Santo:** I should say, I'm here for that clickbait, so... Nick said that and I thought "Hm, I've gotta show up for that show."
 
-**Matt Gadd:** \[00:03:52.28\] That is super. Super, super-controversial comment. \[laughter\] So to step it back a bit, and not make the bold statement - I guess the main thing that we've focused on since day one in modern Dojo was being TypeScript-first, and being unashamedly TypeScript-focused. I've been a big supporter of TypeScript since the super-early days, when there was a lot of rough edges...
+**Matt Gadd:** \[03:52\] That is super. Super, super-controversial comment. \[laughter\] So to step it back a bit, and not make the bold statement - I guess the main thing that we've focused on since day one in modern Dojo was being TypeScript-first, and being unashamedly TypeScript-focused. I've been a big supporter of TypeScript since the super-early days, when there was a lot of rough edges...
 
 The framework's basically entirely geared towards the TypeScript experience... I think that's really important, in terms of how you work with it, how things that we do because it's in TypeScript all kind of dovetail together to make it a kind of more out of the box experience than writing some React in TypeScript and the associated libraries. So yeah, I guess that was one of the key goals of Dojo as a framework.
 
@@ -60,7 +60,7 @@ So that's kind of where I was going with that comment. I've used it on a couple 
 
 So that was always a thing in the back of the mind. And this kind of goes back to what I was saying, we're a TypeScript-first framework; a lot of the APIs, when we're designing them, we're thinking about how that works with TypeScript. And at the point in time, with the kind of inference that we wanted to get, classes were really the best we could do. And we had a mix-in approach with classes, which was quite unique. So you could still do that composition, but it was never our end goal, and I think you can see that through the lineage of where compose was, and what Dojo the original version was.
 
-\[00:07:46.16\] So I think, come around to Dojo 6 - obviously, we've iterated quite a lot over that period of time from 2 to 6 - we finally had the capabilities to provide a system based on functions that were class-based, that allowed us to a) compose behaviors that could also affect the types that came out as well, and I think that's one of the key differentiators between Dojo and more JS frameworks that have TypeScript definitions as an add-on; we have a concept in -- I don't wanna get too in the weeds, but obviously, we have this composition mechanism called middleware, and that can affect things like the widget properties. So you can design self-contained behavior that will add properties for you to the widget interface, that you can then use in a component... So the idea behind it being encapsulating the behavior and the types. And that was the key thing in Dojo 6 that we changed, which is out at the moment.
+\[07:46\] So I think, come around to Dojo 6 - obviously, we've iterated quite a lot over that period of time from 2 to 6 - we finally had the capabilities to provide a system based on functions that were class-based, that allowed us to a) compose behaviors that could also affect the types that came out as well, and I think that's one of the key differentiators between Dojo and more JS frameworks that have TypeScript definitions as an add-on; we have a concept in -- I don't wanna get too in the weeds, but obviously, we have this composition mechanism called middleware, and that can affect things like the widget properties. So you can design self-contained behavior that will add properties for you to the widget interface, that you can then use in a component... So the idea behind it being encapsulating the behavior and the types. And that was the key thing in Dojo 6 that we changed, which is out at the moment.
 
 **Nick Nisi:** Yeah, so with middleware - would you equate that loosely to hooks in React?
 
@@ -92,7 +92,7 @@ As much as what I was saying earlier, with TypeScript evolving, it means we can 
 
 **Nick Nisi:** \[laughs\] I'm the worst... Yeah, code mods - it's using code mods to help you to rewrite the code, and it can do that in a very type-safe way, and it's used in the AST to walk that, so it's correct in the changes that it makes, which is really cool.
 
-**Matt Gadd:** \[00:12:10.23\] Yeah, and I think you make a really valid point about the TypeScript aspects - again, it kind of gives you confidence that you're going to be aware of those changes if you do have to make... In the past, let's say, you had a huge codebase and it had no tests in it. Upgrading your framework then is kind of a big deal, because you don't really have that confidence, because you haven't got any tests.
+**Matt Gadd:** \[12:10\] Yeah, and I think you make a really valid point about the TypeScript aspects - again, it kind of gives you confidence that you're going to be aware of those changes if you do have to make... In the past, let's say, you had a huge codebase and it had no tests in it. Upgrading your framework then is kind of a big deal, because you don't really have that confidence, because you haven't got any tests.
 
 Now, obviously, types don't replace tests, but they do help you still in discovering kind of those things that could break. As frameworks offers, having those types is monumental to big projects.
 
@@ -112,7 +112,7 @@ But the main kind of takeaway is we're in a similar space to Angular, but we und
 
 **Jerod Santo:** Hm... It sounds like a nice middle ground.
 
-**Matt Gadd:** \[00:15:43.13\] Yeah, and to be honest with you, I feel like React kind of in the last year -- there's a lot of people pursuing that space with React as well. You've got things like Next.js... I think Ryan Florence and Michael Jackson are developing an application framework... So I think a lot of places are going that way, where they understand that -- you know, it's just the classic thing, you could waste months writing WebPack configs; you could spend months trying to correctly figure out the best way to test things. So yeah, just removing some of that overhead is a big deal.
+**Matt Gadd:** \[15:43\] Yeah, and to be honest with you, I feel like React kind of in the last year -- there's a lot of people pursuing that space with React as well. You've got things like Next.js... I think Ryan Florence and Michael Jackson are developing an application framework... So I think a lot of places are going that way, where they understand that -- you know, it's just the classic thing, you could waste months writing WebPack configs; you could spend months trying to correctly figure out the best way to test things. So yeah, just removing some of that overhead is a big deal.
 
 **Jerod Santo:** Similar to what the Redwood folks are trying to do, saying "You're gonna use React and GraphQL, and we're gonna build an application framework around those technologies", and fill in a lot of the stuff that if React were a -- full-stack is a lame way of saying it, Because it's all frontend, but if it was a full-app framework, it would provide those things, a lot like Ember does, and it sounds like Dojo and Angular do.
 
@@ -142,9 +142,9 @@ Yeah, so there's just a lot of things... We care a lot about interoperability as
 
 We have a really good custom element story for that, in terms of we have a build tool that will take our Dojo widget, and with no additional config or anything, or any code change, we can spit out a custom element that you can use just in plain HTML, that has the correct properties. You can use children in it, you can use attributes, events etc, just like you'd expect to use any other custom element. I think that's really powerful, because that's another thing that things like React, even though it's a component authoring system, it doesn't provide you any way to build those things out of the box, or ship them to use with other libraries.
 
-**Nick Nisi:** \[00:20:14.05\] Yeah, that's the main story that I like, and what led me to that comment - you have all of this out of the box, and then as you go to upgrade and get all these new, awesome features which we'll talk about in the next segment (what's coming in Dojo 7), you can pretty confidently upgrade... And using the upgrade tool, it becomes pretty painless, as well. And all of the features and tools that you're going to use that ship with Dojo obviously just get upgraded and are usable in the new version, as well.
+**Nick Nisi:** \[20:14\] Yeah, that's the main story that I like, and what led me to that comment - you have all of this out of the box, and then as you go to upgrade and get all these new, awesome features which we'll talk about in the next segment (what's coming in Dojo 7), you can pretty confidently upgrade... And using the upgrade tool, it becomes pretty painless, as well. And all of the features and tools that you're going to use that ship with Dojo obviously just get upgraded and are usable in the new version, as well.
 
-**Break:** \[00:20:45.13\]
+**Break:** \[20:45\]
 
 **Nick Nisi:** So in the Dojo news, Dojo 7 is either here or just around the corner; I won't confidently say that it's here...
 
@@ -162,7 +162,7 @@ So we've really improved the usability of our widgets. We've got a more extensiv
 
 So in Dojo 7 one of the huge things, one of the biggest requests that we've had, obviously, is for Material styled-components. Now, a lot of people out there might go and use a specific Material component library; with our widget system the idea is that you could style this as Material, you could style it as Ant Design, you can style it however you want. So kind of this really proved how good our theming system was and how extensible our components were to allow us to create that.
 
-\[00:23:59.23\] So we discovered a lot doing that, but at the end of the it we've got a set of widgets now that obviously you can use the Dojo theme, you can use the Material theme for Material-looking components... And beyond that, we really improved the theming experience. In Dojo 7 we've got this concept of variance, which allows you to -- it's basically powered just by CSS variables, but on top of the theme you can then configure a variant for it. We're shipping a dark version of Material, and that is just a variant of the Material thing.
+\[23:59\] So we discovered a lot doing that, but at the end of the it we've got a set of widgets now that obviously you can use the Dojo theme, you can use the Material theme for Material-looking components... And beyond that, we really improved the theming experience. In Dojo 7 we've got this concept of variance, which allows you to -- it's basically powered just by CSS variables, but on top of the theme you can then configure a variant for it. We're shipping a dark version of Material, and that is just a variant of the Material thing.
 
 **Jerod Santo:** That's awesome.
 
@@ -184,7 +184,7 @@ In the past we were kind of manually updating markdown to document what the inte
 
 **Matt Gadd:** Hyperscript is basically just -- so TSX and JSX are obviously made up XML-like syntax that gets compiled down to (if you're using React) React's create element. Basically, that functional API was what we used before instead of JSX. And we supported TSX and JSX. TSX was always more declarative, and the hyperscript is basically a completely programmatic API. We supported both from day one, but in our reluctance to look too much like Re-- I think there's a strong affiliation with JSX and TSX with React. At the time, obviously, we preferred showing the programmatic API and using it.
 
-\[00:28:15.06\] There's no functional difference in terms of what actually happened under the hood, but we've slowly over time realized that one of the biggest things about React actually wasn't React, it was about people writing (if you look at it) HTML-like things in a reactive way... So we fully embrace TSX now, in documentation and the rest of it.
+\[28:15\] There's no functional difference in terms of what actually happened under the hood, but we've slowly over time realized that one of the biggest things about React actually wasn't React, it was about people writing (if you look at it) HTML-like things in a reactive way... So we fully embrace TSX now, in documentation and the rest of it.
 
 **Nick Nisi:** Yeah, I really like that too, because -- not that I had anything against hyperscript, but it's easier. In Dojo at least there was two different hyperscript functions to call, whether you're creating DOM or creating another widget, and it just kind of blends together now, which is -- I mean, it always did before, but now the internal widgets all blend together and are easy to write, especially if you like that JSX/TSX syntax.
 
@@ -208,7 +208,7 @@ As always, we've been trying to improve the story in terms of how we ship polyfi
 
 **Matt Gadd:** But then stubborn enterprise customers... But yeah, so we've been trying to obviously -- we don't want to ship legacy code to modern browsers. There's a lot of progress in this space - differential loading, and things like that. In Dojo 7 we're a lot more intelligent about how and when we'll load a polyfill. Some of those are decided on if you use that kind of thing in code, so if you use an intersection observer for instance in your code, then we will include the capability for that polyfill to be loaded. If you don't use an intersection observer in your code, then we won't even think about loading it. And then on top of that, when you get to loading that in a browser, we'll conditionally check if whether you have that capability unloaded... So basically the end goal being you never load more than what's required or what's used. That's really helped us kind of keeping our bundle sizes down, and only loading absolutely what's necessary, and only loading modern code... Because there's a big cost in shipping transpiled ES5 bundles. The difference between shipping a legacy bundle and a modern bundle is huge. So yeah, that's one of our key focuses all the time, is on keeping our bundle sizes down, and doing intelligent things to split code effectively.
 
-**Jerod Santo:** \[00:32:13.05\] It sounds really great, Matt. When can we get it? \[laughter\]
+**Jerod Santo:** \[32:13\] It sounds really great, Matt. When can we get it? \[laughter\]
 
 **Matt Gadd:** That's a great question. I think hopefully we're gonna be released this week, but I said that last week.
 
@@ -226,7 +226,7 @@ Now, what we won't do is -- early on we did flip that kind of constraint, in tha
 
 At some point, that still continues even in modern browsers, because of the way that everything's moving a lot quicker nowadays, in terms of people intending to ship things early and frequently in the browsers... But there is still -- when you look at Safari, in terms of how quickly they ship things, for example, I think they only just ship ResizeObservers in their last release or the release before.
 
-\[00:36:04.27\] Obviously, IE11 is the absolute worst-case scenario, but a lot of these systems we design work well in terms of modern features that are implemented in all browsers yet as well. For instance, in the Safari scenario, we don't ever wanna put the ResizeObserver in your bundle if you never use it, but also, we don't wanna put it in your bundle if you're in Chrome and you've got that implemented natively. So a lot of it is deferring and lazily loading things. That is genuinely one of the key things that we do.
+\[36:04\] Obviously, IE11 is the absolute worst-case scenario, but a lot of these systems we design work well in terms of modern features that are implemented in all browsers yet as well. For instance, in the Safari scenario, we don't ever wanna put the ResizeObserver in your bundle if you never use it, but also, we don't wanna put it in your bundle if you're in Chrome and you've got that implemented natively. So a lot of it is deferring and lazily loading things. That is genuinely one of the key things that we do.
 
 **Nick Nisi:** You mentioned designing APIs around TypeScript, and what it supports... I'm curious, does that complicate things as you're looking to upgrade TypeScript, because of maybe workarounds, or ways that you're reaching for the right type of inference? Does it make it harder to support later versions of TypeScript?
 
@@ -248,7 +248,7 @@ We use a lot of generics, there's a lot of things there. But for people as end u
 
 **Nick Nisi:** I just wanna make sure we're as controversial as possible.
 
-**Matt Gadd:** \[00:39:39.12\] Yeah, yeah... \[laughter\] I think if you speak to some people, what their opinions are on unit tests, or integration tests, there is a lot of blurring there between what people think a unit test is and isn't nowadays. We could be super-controversial about the boundaries of a test, and things like that... But I like to think of it as - all we care about is being able to test our expectations of components, and I don't care how we do it. The Dojo test harness is an Enzyme-like shallow renderer, which is controversial... It does a lot of things differently to Enzyme; I think it avoids a lot of the things that I think those kinds of tests got a bad rep for.
+**Matt Gadd:** \[39:39\] Yeah, yeah... \[laughter\] I think if you speak to some people, what their opinions are on unit tests, or integration tests, there is a lot of blurring there between what people think a unit test is and isn't nowadays. We could be super-controversial about the boundaries of a test, and things like that... But I like to think of it as - all we care about is being able to test our expectations of components, and I don't care how we do it. The Dojo test harness is an Enzyme-like shallow renderer, which is controversial... It does a lot of things differently to Enzyme; I think it avoids a lot of the things that I think those kinds of tests got a bad rep for.
 
 The key thing for us is we want you to be able to write tests that are consistent, that are easy to write, and are not giving you false positives on what you're writing.
 
@@ -270,7 +270,7 @@ We do provide a testing harness for the component level, and what we class as a 
 
 **Nick Nisi:** Cool. So yeah, definitely look for the release of Dojo 7. There'll be an updated blog post on Dojo.io, which if you're looking for an example of a build time rendered site with Dojo, Dojo.io is that.
 
-**Break:** \[00:43:31.23\]
+**Break:** \[43:31\]
 
 **Nick Nisi:** So that's what's coming in Dojo 7. Matt, what can we look forward to going into the future, with Dojo 8 and beyond?
 
@@ -286,7 +286,7 @@ I think you find that moment when -- and I get frustrated with it; I wear two ha
 
 It's not just the developer ergonomics, because I think people get caught up in that... Developer ergonomics means "Yeah, this is nice to write code in", but it's also about just removing the friction of writing so much code, and doing a lot of things for people. And yes, in some cases that will be too contrived for them. That might only fulfill 90% of use cases, but that's the real idea, is to give more power out of the box, with less code to write. So that's a huge initiative in Dojo 8.
 
-**Nick Nisi:** \[00:48:01.12\] That's really cool. So you would write one time how to fetch data from somewhere, and then theoretically that could plug into any component that needs that?
+**Nick Nisi:** \[48:01\] That's really cool. So you would write one time how to fetch data from somewhere, and then theoretically that could plug into any component that needs that?
 
 **Matt Gadd:** Yeah, that's exactly it. One thing that I think people have really struggled with in bigger applications, whether it be in Dojo or React - a classic thing is this cache invalidation, that no one knows when to do it. No one knows when to fetch something or when to evict that data out, because it's stale. And you see it in every app. It's really tough to work out in what lifecycle that happens.
 
@@ -306,7 +306,7 @@ So the first version of that is in the Dojo 7 widget, so anything that's powered
 
 But it's quite cool, because it powers the combo box, the select widgets, we've got a Typeahead, and things like that; they all use resources, so the resources out of the box are built to support kind of a pagination in these widgets, so infinitely scrolling things, managing the offsets, queries etc. All those things are dealt with out of the box.
 
-\[00:52:11.20\] So you can provide a resource that's got three million items. That works in tandem with the virtualization of rendering, and the rest of it... And that all works out of the box in Dojo 7, while in our earlier ones all that was left to the end user. You would have to provide the number of items to that select widget or that combo box, and you were in charge with efficiently loading 30,000 items. So that's a big change in Dojo 7.
+\[52:11\] So you can provide a resource that's got three million items. That works in tandem with the virtualization of rendering, and the rest of it... And that all works out of the box in Dojo 7, while in our earlier ones all that was left to the end user. You would have to provide the number of items to that select widget or that combo box, and you were in charge with efficiently loading 30,000 items. So that's a big change in Dojo 7.
 
 **Jerod Santo:** It sounds like a lot of stuff, Matt. Have you been working on this all by yourself, or do you have a team of people?
 
@@ -326,7 +326,7 @@ I think there's a lot of value if you're writing TypeScript full-stack, because 
 
 There's a load of interest in libraries there. I don't think as Dojo we'd like to reinvent the wheel on that entire -- I think, as Jerod just said, we already do a lot of things on the frontend, so thinking about those things on the backend would be a huge amount of work, but we certainly definitely see a space maybe horizontal to Dojo, a kind of stack that we'd recommend for you to be a full TypeScript stack. But whether we develop all of that or just have a composition of libraries - it's more likely to be a composition of libraries.
 
-\[00:55:44.05\] But I think it's a super-interesting space again, because I think more and more people want to write full-stack apps, without changing languages, and not having that overhead. Now, that doesn't work for everyone. If you're in a big enterprise, you might be stuck with Java. It is what it is. I do think it's a really interesting space. I think Redwood is really cool, genuinely. I think that's a really good niche to be in. I think for now our key focus is going bigger on the frontend in terms of those application-level, and then see where we get to.
+\[55:44\] But I think it's a super-interesting space again, because I think more and more people want to write full-stack apps, without changing languages, and not having that overhead. Now, that doesn't work for everyone. If you're in a big enterprise, you might be stuck with Java. It is what it is. I do think it's a really interesting space. I think Redwood is really cool, genuinely. I think that's a really good niche to be in. I think for now our key focus is going bigger on the frontend in terms of those application-level, and then see where we get to.
 
 **Nick Nisi:** Yeah, that's awesome. I really like the idea of what you said, the generated contract between the client-servers is very interesting, and something that can be done with TypeScript.
 

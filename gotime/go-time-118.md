@@ -58,7 +58,7 @@
 
 **Jon Calhoun:** Yup.
 
-**Mark Bates:** \[00:03:51.19\] The example I always use when I'm doing training is like an entertainer interface. So if I'm starting a club, some sort of an entertainment venue, if I use a concrete type, if I say "I want to use this concrete type; the concrete type is Beatle. Anybody who's a Beatle can play at my club." Well, there's only two people in the whole world who can play.
+**Mark Bates:** \[03:51\] The example I always use when I'm doing training is like an entertainer interface. So if I'm starting a club, some sort of an entertainment venue, if I use a concrete type, if I say "I want to use this concrete type; the concrete type is Beatle. Anybody who's a Beatle can play at my club." Well, there's only two people in the whole world who can play.
 
 Admittedly, if I got one of those two, I could easily pack the house. The other one would be tending bar. But that's concrete behavior. I can only fill it two nights of the year, possibly. If I accept an interface, if I say "Anybody who's an entertainer, anybody who can play something, whether it be a guitar or a flute, or can read poetry, or an improv troop", they can all entertain; they all have this play method on them, just like a Beatle would. Now I could have Paul McCartney come play, I can have the flutist come play, I can have that dance group come and perform, because they all implement that. They're not concrete anymore. To me, that's always a clear analogy, but... Maybe not.
 
@@ -72,7 +72,7 @@ But the duck typing idea is if it looks like a duck and it sounds like a duck, i
 
 **Johnny Boursiquot:** Along those lines, my favorite use of interfaces is to leverage its ability to provide that sort of independent means of decoupling packages, the dependency between packages. For example, I do a lot of work with the AWS SDKs, and for example when writing a lot of data to (say) DynamoDB, I don't necessarily have to bring in the AWS SDK in the DynamoDB interface or implementation anywhere near my code. I can simply create an interface that I expect my code to use, and basically have that interface be local to my code, not even export it to the rest of the application at all... Have that be local to my code, and maybe in my main package when I'm initializing my application, I can then basically initialize a value that represents a client to my DynamoDB server, and then pass that in.
 
-\[00:08:16.15\] And as long as it satisfies the interface I've defined for my code locally, everything is good. My code didn't have to know anything about the fact that it's even a DynamoDB implementation at all. It can be anything that actually implements that interface. So that allows you to create that separation, that decoupling, because of that implicit satisfaction of those methods. Then it really allows you to keep your code separate and not have to depend on any sort of actionalities at all. That's my favorite part of using interfaces.
+\[08:16\] And as long as it satisfies the interface I've defined for my code locally, everything is good. My code didn't have to know anything about the fact that it's even a DynamoDB implementation at all. It can be anything that actually implements that interface. So that allows you to create that separation, that decoupling, because of that implicit satisfaction of those methods. Then it really allows you to keep your code separate and not have to depend on any sort of actionalities at all. That's my favorite part of using interfaces.
 
 **Jon Calhoun:** I'm glad you brought that up, because like Mark was saying, a lot of people got hung up on this fact that "How do I know if I'm implementing an interface?" and I think it's a weird paradigm to get used to. You kind of lift that responsibility off your shoulders, and it's the person who's using the type that actually has to care about "Is this going to be implementing an interface?" and then they define the interface.
 
@@ -88,7 +88,7 @@ Like every other type, if you don't need to export something, don't. By keeping 
 
 **Mark Bates:** I don't think it's wrong, and I don't think that's what Johnny was saying. I think what he was saying, like most code, is start with the least amount exported, and export what you need as you go. And I can tell you from very much so first-hand experience that I'm feeling a lot of pain around a lot of this - exposing too much of your API too early, and exporting too much of it does cause problems. It causes a lot of problems down the line in terms of migrating things, dependencies, things get stuck, and it becomes difficult to work with.
 
-\[00:12:19.12\] If you start by exposing nothing and then expose the things you need as you go, that's really very useful. So yes, there are very much so reasons you should expose interfaces. I don't think anybody would ever say don't. The standard library is littered with them; they are very useful. I think what Johnny is saying and what most people are advocating is "Don't expose the ones that people don't need to know about", the ones that are just useful for you, inside of your package. Only expose the ones that people need to fulfill to work with your package. Maybe I'm misunderstanding the question, but that's the way I was viewing it.
+\[12:19\] If you start by exposing nothing and then expose the things you need as you go, that's really very useful. So yes, there are very much so reasons you should expose interfaces. I don't think anybody would ever say don't. The standard library is littered with them; they are very useful. I think what Johnny is saying and what most people are advocating is "Don't expose the ones that people don't need to know about", the ones that are just useful for you, inside of your package. Only expose the ones that people need to fulfill to work with your package. Maybe I'm misunderstanding the question, but that's the way I was viewing it.
 
 **Mat Ryer:** Yeah, I think that's right. And I think I have a special place in my heart as well for single-method interfaces, for a kind of similar reason like about the whole minimalist mindset of keeping everything as tiny as possible. And doing that even down to the interface level, there's some surprising things that can happen, which only work with single-method interfaces. One example is just being able to use a function type, like the handle func is the great example of that. For anyone that hasn't seen that code, go and look up the handler func and Handler types in the HTTP package. It's not very much code, but it's very cool how there's a function type which happens to match the signature of the ServeHTTP method in the handler interface... And it too implements the ServeHTTP method and then just calls itself. So it's this kind of weird inception. It's the weirdest little thing that I think you encounter in Go often.
 
@@ -104,7 +104,7 @@ Like every other type, if you don't need to export something, don't. By keeping 
 
 **Mat Ryer:** Yes, that's another use. If you do have some kind of concrete dependency, like you're gonna send an email, and you're using a package from SendGrid, let's say that they didn't export an interface, so you only have a struct to work with. If you wanna stub that out and test the code that you're writing to make sure it uses that SendGrid API int he way you expect, if that's indeed the kind of test you wanna do, then that can be quite tricky if you forget that you can write the interface after. You can write an interface that just essentially describes the same methods that you're gonna call in the original SendGrid API. You use that type instead in your real code, and then you've got an opportunity to build your own stub version of that, that you can use for testing.
 
-\[00:16:07.00\] Sometimes you can't avoid the situation of having to test those types of dependencies if you wanna unit-test something. And for those cases, that's incredibly useful. So it's really worth remembering that you can write your own interface about something else. It doesn't always have to be the other way around.
+\[16:07\] Sometimes you can't avoid the situation of having to test those types of dependencies if you wanna unit-test something. And for those cases, that's incredibly useful. So it's really worth remembering that you can write your own interface about something else. It doesn't always have to be the other way around.
 
 **Jon Calhoun:** Another one that's come up with some of that weird stuff is any type that chains (there's method chaining) can be really hard to use an interface for, so you almost have to wrap the whole thing in something else that returns interfaces, and sort of define your interface there. It can get frustrating at times, but it's just kind of the way it is.
 
@@ -152,7 +152,7 @@ Like every other type, if you don't need to export something, don't. By keeping 
 
 **Jon Calhoun:** I'm pretty sure what Mat's saying is right, I just -- it's one of those things that every time you happen to do it, you're like "Let me go ahead and write this real quick and make sure it works." \[laughter\]
 
-**Mark Bates:** \[00:20:03.11\] Yeah, make sure this works...
+**Mark Bates:** \[20:03\] Yeah, make sure this works...
 
 **Mat Ryer:** Exactly.
 
@@ -176,7 +176,7 @@ Like every other type, if you don't need to export something, don't. By keeping 
 
 **Mark Bates:** It doesn't solve the problem I had, but yes, it is useful that that fix is there.
 
-**Break:** \[00:21:36.09\]
+**Break:** \[21:36\]
 
 **Jon Calhoun:** I know this is really delayed, but earlier we were talking about single-method interfaces... I think the one thing that I wanna point out is that one of the aspects of them that I really like is just that it makes writing closures and turning them into an interface much easier. Because otherwise, using a closure for an interface would be a nightmare.
 
@@ -190,7 +190,7 @@ So for some projects, that's quite a nice little neat package, a little neat way
 
 **Jon Calhoun:** We're gonna find out after this that BitBar has not been working with the latest update, or something...
 
-**Mat Ryer:** \[00:23:59.16\] No, it works. It doesn't really need many updates, frankly. It's kind of like done. For anyone that doesn't know, it's a little project which puts the output of any script or program into your Mac menu bar.
+**Mat Ryer:** \[23:59\] No, it works. It doesn't really need many updates, frankly. It's kind of like done. For anyone that doesn't know, it's a little project which puts the output of any script or program into your Mac menu bar.
 
 **Mark Bates:** And the contents of your password manager into Mat's email. \[laughter\]
 
@@ -220,7 +220,7 @@ Sometimes in my notebook I'll actually write out Go interfaces to try and think 
 
 **Jon Calhoun:** Building on what Mat said, I think one of the downsides to jumping straight to an interface is that it causes you to think "Oh, I'm gonna have three implementations of this", and starting to focus on breaking things into multiple versions, when sometimes that's just never the case. The classic example is typically your database. You're like "Well, what if we switch out for another database?" But in reality, most people never do that. So it's one of those -- it's not that you can't do some of that stuff to make it easier for you, but it doesn't make sense to bend over backwards to make this possible later, when in reality you're probably not gonna do it.
 
-**Mat Ryer:** \[00:27:56.16\] Yes. And often, whenever you think like that, the detail actually doesn't allow it anyway. Two different data stores often behave very differently. You wouldn't treat them the same. So it's more likely to encourage bigger changes anyway, isn't it? So I completely agree.
+**Mat Ryer:** \[27:56\] Yes. And often, whenever you think like that, the detail actually doesn't allow it anyway. Two different data stores often behave very differently. You wouldn't treat them the same. So it's more likely to encourage bigger changes anyway, isn't it? So I completely agree.
 
 **Mark Bates:** When I design interfaces upfront, they're almost never correct. It's because you're guessing; you're taking a wild stab at what you think the interface is, and especially if you go ahead and publish that. Now, I've been doing a lot of work with interfaces recently, and I can tell you that a lot of what I've been doing now is working with problems that I do understand and problems that I do know what these interfaces need to look like now, and how people are using them. But even then, I'm still saying "What's the simplest I can get away with?" and see how far I can push that before it starts breaking, and before I need a second method, or a concrete type, or something further down the line.
 
@@ -250,7 +250,7 @@ So I definitely have to go back to the drawing board, and we're currently rewrit
 
 **Johnny Boursiquot:** So if you're now telling me you're gonna provide this whole new pluggable system that can basically take any ORM tooling you want, it can use any UI interface you want, all the bits and pieces - if you make everything pluggable, then do you not create another problem? Now you have to document patterns. "Hey, you could use this set of things. This for ORM, this for template generation, this for that..." It's almost like you're pushing the decision to the user of the framework, as opposed to being opinionated about it.
 
-**Mark Bates:** \[00:32:07.06\] I'm absolutely doing that. I think a little bit cleaner than you might be imagining it... Buffalo today - right now you can say "Generate a new app" and you get this whole web stack, and it's got Node, and it's got Pop, and it's got Plush, and all that sort of stuff. That's that very opinionated that you were talking about. There's also a flag and you can generate a JSON one, which is slightly different. And that won't ever go away. We will still have those -- Rails calls them templates, but I'm not quite sure exactly... Kind of default presets, if "presets" is a good word, where you'd say "Give me the web preset", and Buffalo will ship with a few of them... And you're gonna get a Go file that has all those plugins in them, and you could just pull them out, or add your own, or whatever... Or you could come up with a different present that your company has of all these plugins, and just use that instead.
+**Mark Bates:** \[32:07\] I'm absolutely doing that. I think a little bit cleaner than you might be imagining it... Buffalo today - right now you can say "Generate a new app" and you get this whole web stack, and it's got Node, and it's got Pop, and it's got Plush, and all that sort of stuff. That's that very opinionated that you were talking about. There's also a flag and you can generate a JSON one, which is slightly different. And that won't ever go away. We will still have those -- Rails calls them templates, but I'm not quite sure exactly... Kind of default presets, if "presets" is a good word, where you'd say "Give me the web preset", and Buffalo will ship with a few of them... And you're gonna get a Go file that has all those plugins in them, and you could just pull them out, or add your own, or whatever... Or you could come up with a different present that your company has of all these plugins, and just use that instead.
 
 So yeah, there's always gonna be opinions, and it's just like -- you know, Rails basically generates a Basecamp for you whenever you do Rails new... \[laughter\] Buffalo new will always generate the Basecamp for me, I would assume... Or something like that. But we need to make it easier for other people. Not everybody wants Pop, not everybody wants these things. And I know myself, I have hit points where I'm like "I need to do X, Y and Z" and I can't, because I don't have the hooks in the tooling, I don't have the hooks in the library itself...
 
@@ -266,7 +266,7 @@ So no, I could not have come up with a better design than I did when I first sta
 
 **Mark Bates:** Yeah. We're currently rewriting the entire CLI project to a v2, using pure Go and interface-based plugins to really drive us. We're about 70% done, including some major pieces like generate some command, generate resource, and build, and test... And so far it's holding up beautifully. We've got some very small interfaces, not a ton of them. They're all standard libraries, there's no Buffalo types. Everything is a plugin; even the subcommands are plugins... And it's all managed with just a slice of plugins. It's ridiculously simple in its concepts, but really powerful. You could build really amazing things with just a few interfaces if you line them up correctly, and think about what it is you're doing. And you set yourself a space to work in.
 
-\[00:36:12.23\] For me, it's been understanding that everything is a plugin. If you take something like Buffalo generate, that generate command is just another plugin, and it implements the one interface you need to be a subcommand of Buffalo, which is a main function that takes a context, root, string for where you are, and the slice of arguments returns an error. That's it. Now it's a subcommand of Buffalo.
+\[36:12\] For me, it's been understanding that everything is a plugin. If you take something like Buffalo generate, that generate command is just another plugin, and it implements the one interface you need to be a subcommand of Buffalo, which is a main function that takes a context, root, string for where you are, and the slice of arguments returns an error. That's it. Now it's a subcommand of Buffalo.
 
 That generate plugin issues three or four interfaces maybe, that say "Hey, if you implement these, you're gonna get these different lifestyle hooks when you run Buffalo generate", one of them being, say, a subcommand of Buffalo generate, like resource. And that's it.
 
@@ -282,7 +282,7 @@ In this case, testing this plugin that runs all these things in a goroutine was 
 
 **Mat Ryer:** You've reminded me of another one that's great, and Jon and I were talking about this the other week, as well... It's that idea of being able to wrap things with interfaces. A bit like how the middleware things work in the HTTP way. You have a function that takes in a handler and returns a handler, and then what you can essentially do is create a new handler that does extra things before and after passing the execution on to the other handler. So that thing of wrapping is actually quite useful.
 
-\[00:40:23.09\] One trick that you can use as well - if you've got a long-running io.Copy operation and you want to cancel that with context, you can create a kind of a reader with a context yourself... Which essentially wraps another reader and intercepts the read method (that's obviously the first one that gets called), checks to see if the context has been canceled by checking the err method; if that returns an error, the read method can return the error. If not, it passes it on to the inner reader. That's a way that you can actually get a cancelable io.Copy, which - it's really cool to think that just because of these basic interfaces you can add actually quite a lot of power just by thinking about it in the right way.
+\[40:23\] One trick that you can use as well - if you've got a long-running io.Copy operation and you want to cancel that with context, you can create a kind of a reader with a context yourself... Which essentially wraps another reader and intercepts the read method (that's obviously the first one that gets called), checks to see if the context has been canceled by checking the err method; if that returns an error, the read method can return the error. If not, it passes it on to the inner reader. That's a way that you can actually get a cancelable io.Copy, which - it's really cool to think that just because of these basic interfaces you can add actually quite a lot of power just by thinking about it in the right way.
 
 **Jon Calhoun:** The reader is a really fun one to experiment with. I would definitely encourage anybody trying to wrap their head around this idea to spend some time with that. When I was messing around with the context -- Mat and I were talking about "Is it possible to cancel a reader?" and for whatever reason we hadn't read the whole thread on the GitHub issue, where somebody actually proposed just wrapping it like we said... But in the process of looking at it, I was like "Alright, let me go ahead and just throw this context in there and just check to see if it's canceled and just stop it." Well, one of the issues you run into is if you're doing really small files to test it, your one read will just read the entire file in one method call... So it's like, "Well, that doesn't work."
 
@@ -296,7 +296,7 @@ This all stems from a single-method interface, which is the crazy part. It's not
 
 So again, not many keystrokes and suddenly you can peer inside your code without having to open up a debugger and things; those are difficult to use, especially when you're dealing with byte streams, and things.
 
-**Jon Calhoun:** \[00:44:03.21\] There's a lot of really cool ones like that in the io package. *io.TeeReader* is another one that does kind of like what Mat was saying, I believe, except whenever you're reading, you can actually pass in something that will write everything that it reads to that output. So you can actually have it write to Stdout everything that it's reading from a file, so you can actually see "What am I actually reading from this HTTP request body, and what does it look like?" and you don't interfere with the rest of your code, you just wrap it real quick, test it, look at it and visually see "What am I getting?" and then you can remove it as soon as you're done.
+**Jon Calhoun:** \[44:03\] There's a lot of really cool ones like that in the io package. *io.TeeReader* is another one that does kind of like what Mat was saying, I believe, except whenever you're reading, you can actually pass in something that will write everything that it reads to that output. So you can actually have it write to Stdout everything that it's reading from a file, so you can actually see "What am I actually reading from this HTTP request body, and what does it look like?" and you don't interfere with the rest of your code, you just wrap it real quick, test it, look at it and visually see "What am I getting?" and then you can remove it as soon as you're done.
 
 **Mark Bates:** Yeah, *io.MultiWriter* is awesome. I use that one all the time, just for that purpose, just for debugging what I'm expected to see, if I'm generating files, or whatever... It's like "Why am I not seeing that?"
 
@@ -346,13 +346,13 @@ So again, not many keystrokes and suddenly you can peer inside your code without
 
 **Mark Bates:** Oh, absolutely. But honestly, you look at Rails, and one of the things that made Rails Rails was method missing. And a lot of Rails is based entirely off of method missing. All that magic that everybody loves in Rails is essentially using method missing. Sometimes well and sometimes not so well.
 
-**Mat Ryer:** \[00:48:11.22\] Yeah. So for anyone not familiar, basically if you call a method on an object, if you do that in Go, if you call a method and it's not there, that's a compile-time error. In Ruby, it'd just let you do that, but then it would just call like a catch-all inside, called "method missing". Then it gave you a kind of second change of seeing if you could do something with it. And a lot of the Rails things - you could write things like "find by name and age", and then that becomes a new method that you just invented...
+**Mat Ryer:** \[48:11\] Yeah. So for anyone not familiar, basically if you call a method on an object, if you do that in Go, if you call a method and it's not there, that's a compile-time error. In Ruby, it'd just let you do that, but then it would just call like a catch-all inside, called "method missing". Then it gave you a kind of second change of seeing if you could do something with it. And a lot of the Rails things - you could write things like "find by name and age", and then that becomes a new method that you just invented...
 
 **Mark Bates:** Yeah, you could basically parse the name of the method and generate -- in that case it was generating queries for SQL... And also (in Ruby) if a type didn't exist, a module or a type, you could also capture that and define types on the fly. I had a library that distributed Ruby, and if you'd just ask for any type inside of a module, it would just create the module, it would create the type and connect it to a remote data source somewhere for DRb stuff... And it just did all that by capturing those error hooks where things don't exist in Ruby. \[laughter\] That's -- I know... Isn't it terrible?
 
 **Johnny Boursiquot:** Oh, my god...
 
-**Break:** \[00:49:36.05\]
+**Break:** \[49:36\]
 
 **Jon Calhoun:** So getting back to Go...
 
@@ -382,7 +382,7 @@ So again, not many keystrokes and suddenly you can peer inside your code without
 
 **Jon Calhoun:** So I guess it depends what we wanna talk about. The first obvious thing is, for anybody who's unaware, errors in Go are just an interface. It's an interface that just has the single error method, and it returns a string. And it's weird how powerful that ends up becoming, because it allows you to return nil, it allows you to just return any specific error type you want...
 
-\[00:51:55.00\] I find that really useful, because you'll see all this code where people get to return specific errors, and you can actually check them and see what they're doing. It's probably led to some bad patterns too, but it does let you do a lot more with the code that you otherwise could have. So I'd like to explore that more, but I don't really know where to start. Any suggestions?
+\[51:55\] I find that really useful, because you'll see all this code where people get to return specific errors, and you can actually check them and see what they're doing. It's probably led to some bad patterns too, but it does let you do a lot more with the code that you otherwise could have. So I'd like to explore that more, but I don't really know where to start. Any suggestions?
 
 **Mark Bates:** \[laughs\]
 
@@ -436,7 +436,7 @@ So again, not many keystrokes and suddenly you can peer inside your code without
 
 **Mark Bates:** No, it's just more so I can say "return file not found err" as opposed to "fmt.errorf file not found." I can kind of declare the error once and return it. But I'm not telling you to check for it, I'm not making you aware of it. It's just so that I don't have to change --
 
-**Jon Calhoun:** \[00:56:07.00\] A shorthand.
+**Jon Calhoun:** \[56:07\] A shorthand.
 
 **Mark Bates:** Yeah, it's a shorthand. Exactly.
 
@@ -484,9 +484,9 @@ I have to say, we are approaching that special time where we launch our new radi
 
 **Mat Ryer:** It's time for your unpopular opinions.
 
-**Jingle:** \[00:59:42.21\]
+**Jingle:** \[59:42\]
 
-**Mat Ryer:** \[00:59:50.21\] So let's go. Actually, for the first time we have an unpopular opinion from our Slack channel. Dylan writes that interface names should be adjectives, rather than er verbs. SO he prefers "closable" to "closer". What do you think about that? Is that unpopular?
+**Mat Ryer:** \[59:50\] So let's go. Actually, for the first time we have an unpopular opinion from our Slack channel. Dylan writes that interface names should be adjectives, rather than er verbs. SO he prefers "closable" to "closer". What do you think about that? Is that unpopular?
 
 **Johnny Boursiquot:** All I'll say is sometimes it is hard to twist a name into following that convention. I mean, I'm with Dylan on that one; you don't have to be dogmatic about it. Sometimes just for readability's sake it just makes more sense to go with what makes sense, right?
 

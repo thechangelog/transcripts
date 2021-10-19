@@ -42,7 +42,7 @@ We've known each other just casually in our Slack chat, but we tend to talk shop
 
 **Nick Janetakis:** Right. I guess the TL;DR - my name is Nick Janetakis, I've been a freelance web developer for about 20 years, and as of about four years ago I started doing video courses, mainly around Docker, Flask, and other programming topics. Since then, I started a blog, and I pretty much write about everything openly, from the dev business point of view up to technical details as well.
 
-**Jerod Santo:** \[00:04:14.14\] That's definitely where your and my paths cross - both the technical details and on the dev business. I know you're selling subscriptions or videos directly to developers, we are providing content for developers, so we have a lot of similar thoughts, similar tasks, the exact same audience... Slightly different angles on it, but... Talk about your application you're building. I know this is a side project, to a certain degree, and you have existing videos that you've been selling other ways... Help me understand where you're at in the technical sense.
+**Jerod Santo:** \[04:14\] That's definitely where your and my paths cross - both the technical details and on the dev business. I know you're selling subscriptions or videos directly to developers, we are providing content for developers, so we have a lot of similar thoughts, similar tasks, the exact same audience... Slightly different angles on it, but... Talk about your application you're building. I know this is a side project, to a certain degree, and you have existing videos that you've been selling other ways... Help me understand where you're at in the technical sense.
 
 **Nick Janetakis:** When it comes to hosting videos, you don't necessarily need to develop your own course hosting platform... There are these other platforms out there, like Thinkific and Teachable; I'm not sure if you've heard of them before... But they're basically like a course-hosting platform as a service; they're a SaaS app that you sign up for, you pay whatever ($50-$100/month) and they give you the whole enchilada. So people can sign up, they can create an account, they can put in billing information, credit cards or PayPal, and then they can go consume the courses that you've created, because those Teachable and Thinkific sites, if you're the course instructor, you get an admin back-end where you can assemble the course however you see fit. You create your table of contents, upload the videos, etc. So they're just like an end-to-end SaaS for building courses, and distributing them as well.
 
@@ -58,7 +58,7 @@ I basically used your platform as almost my sole learning experience for getting
 
 **Jerod Santo:** What's funny about that-- now, go ahead, you were just gonna give me a compliment, and I'll take it. \[laughs\]
 
-**Nick Janetakis:** \[00:08:07.25\] Oh yeah, I said I owe basically everything based on what I've done so far in the course platform to your progress of what you've done for the community on that front.
+**Nick Janetakis:** \[08:07\] Oh yeah, I said I owe basically everything based on what I've done so far in the course platform to your progress of what you've done for the community on that front.
 
 **Jerod Santo:** Awesome. So that relates to what I was just gonna say - we were on WordPress for years. In fact, we started on Tumblr - this was even before I was involved; Adam and Wynn set up a tumblelog -- I think that's what they're called, Tumblrs or tumblelogs back in the day, because Tumblr was super-hot... And then it moved to WordPress when it relaunched, in 2012, I think, or 2013... Adam did most of the heavy-lifting there. Then we've been on WordPress for years, and it was just lots of headaches. We love WordPress, it's a great general purpose CMS, but like you said, as developers and as hackers we have very specific needs, and we want things to work in very specific ways, and the freedom to diverge from the mainstream is really what we desire... And I build web apps for a living, and I have for a decade, mostly in Rails previously...
 
@@ -76,7 +76,7 @@ And then the readme, one question in the FAQ was "Should I use this for my podca
 
 **Nick Janetakis:** Yeah. Brand new, totally from scratch. And then I just pulled out the components of things that I liked from your app into mine... Like the user registration, with the magic links, and all that stuff. That's very non-specific to a podcast platform.
 
-**Jerod Santo:** \[00:12:07.26\] True. I talked about one of my strengths as a developer... But one of my weaknesses as a developer in terms of being generally useful code is I don't ever (pretty much ever) go back and abstract libraries from things I build. I will build this magic link-based sign in system, and if I were to start tomorrow on a brand new site, instead of packaging that up into a mix -- what did I call them? I forget... Libs, packages... I don't know.
+**Jerod Santo:** \[12:07\] True. I talked about one of my strengths as a developer... But one of my weaknesses as a developer in terms of being generally useful code is I don't ever (pretty much ever) go back and abstract libraries from things I build. I will build this magic link-based sign in system, and if I were to start tomorrow on a brand new site, instead of packaging that up into a mix -- what did I call them? I forget... Libs, packages... I don't know.
 
 **Nick Janetakis:** Yeah, packages.
 
@@ -98,7 +98,7 @@ So maybe that's another reason why I don't think in libraries, because I don't l
 
 **Jerod Santo:** Right. And that's a very good point, one that I've learned over time - we tend to prematurely abstract things. And while I don't think in libraries, I definitely think in terms of abstractions, and dry. We tend to really want dry. And as soon as we see a pattern once - I'm saying this like the royal we, but I'm probably talking about myself... We want to say "Okay, pull out a function, pull out a module here, and I'm gonna reuse this in ten places." And what you find out is a) YAGNI, in those cases; you actually aren't gonna use it ten times. Maybe you're gonna use it twice, maybe three times. But what you realize is that third time that you use it, it's different enough contextually code that you're now complicating the function that you're pulling out in order to take different arguments or handle a slightly different case.
 
-\[00:16:29.25\] So the rule of three, which I think Jeff Atwood has written about and many people talk about is so powerful, and I've learned it over time, if you're not using it three times - and in my case, I think if they're not pretty much identical uses - then you shouldn't be drying that code up; just go ahead and leave it wet, and let it be, because you're gonna cause yourself more harm down the road.
+\[16:29\] So the rule of three, which I think Jeff Atwood has written about and many people talk about is so powerful, and I've learned it over time, if you're not using it three times - and in my case, I think if they're not pretty much identical uses - then you shouldn't be drying that code up; just go ahead and leave it wet, and let it be, because you're gonna cause yourself more harm down the road.
 
 That's something that I have learned the hard way, it's taken years... But now I see it all the time, especially in less experienced developers, who are just like "Ooh, a pattern. I'm gonna pull it out", and you end up causing yourself more harm than good.
 
@@ -116,7 +116,7 @@ Even things like I wanna customize the workflow for actually creating a payment,
 
 **Jerod Santo:** Another angle at this is that similar to us, where our website stack provides us certain luxuries, and one of the things that Adam and I do is sweat all the details; that's just who we are, we want everything to be great that we do... And that was really where we were with Wordpress. It's like "This is good, but it's never gonna be great, because a) we don't enjoy hacking on it, and b) we're always fighting against the generic." So that's why we built custom - so we can make things exactly the way that we want, because we run everything.
 
-\[00:20:13.12\] That being said, like I said before, a podcasting and news CMS is not our business. Our business is creating content. We wanna be logging the news, we wanna be recording and producing podcasts, not necessarily writing software... Because no one's banging on our doors saying "More software, please."
+\[20:13\] That being said, like I said before, a podcasting and news CMS is not our business. Our business is creating content. We wanna be logging the news, we wanna be recording and producing podcasts, not necessarily writing software... Because no one's banging on our doors saying "More software, please."
 
 So in your circumstance, every hour that you spend on your custom CMS, you're not spending on creating video tutorials, which is where your value is... So that's something you probably consider, too.
 
@@ -148,7 +148,7 @@ And then I'm almost acting as like an accountability partner. I offer advice as 
 
 **Nick Janetakis:** I'm not sure if I ever wanna phase myself out of doing that type of work, because it almost comes full circle back to creating the courses. When I work with these people on a regular basis, I'm being exposed to all sorts of crazy, interesting and cool problems that I never would have been exposed to if I didn't speak with them... So I often get decent blog post ideas, or even course topics that I always make generic. I'm never gonna use their company name, or anything like that, but it's a good idea generator.
 
-**Jerod Santo:** \[00:23:55.10\] Yeah. I'm in a similar spot, I've been doing contract dev since '06, and on my own since 2012, and continue to this day to do that, and The Changelog has always been my side project. Now, we've been fortunate enough that Adam was able to make it his full-time project. It was always a hobby/side project for him up until -- I think it's been three or four years now... 2015-2016 he went full-time on Changelog, so it's been going very well... And we're at a point now where I could come on full-time anytime now, so we're getting close to doing that.
+**Jerod Santo:** \[23:55\] Yeah. I'm in a similar spot, I've been doing contract dev since '06, and on my own since 2012, and continue to this day to do that, and The Changelog has always been my side project. Now, we've been fortunate enough that Adam was able to make it his full-time project. It was always a hobby/side project for him up until -- I think it's been three or four years now... 2015-2016 he went full-time on Changelog, so it's been going very well... And we're at a point now where I could come on full-time anytime now, so we're getting close to doing that.
 
 One of the things that I've always thought was a must-have - I've taught web development as well - is having real-world experience on a day-to-day basis. Not moving into the realm of someone who just talks about things... Even as a teacher, I didn't wanna be a teacher that just taught what I used to do, or what I learned; I wanted to have actual real-world, in-the-trenches experience to bring to my teaching. And the same thing with podcasting, these conversations... It helps being in the thick of it, day-to-day, and having client work where everything is -- like you said, I've seen it all, I've experienced lots of different codebases, different circumstances...
 
@@ -164,7 +164,7 @@ So that's another hope - I'll have the platform, I'll have our internal tooling 
 
 **Nick Janetakis:** Sure. I have a question for you though - how much time do you actually put into the Changelog codebase? Infrastructure, the actual application etc.
 
-**Jerod Santo:** \[00:27:58.21\] Personally, not very much at this point. It comes in fits and spurts. We have ongoing features that I work on, but... Are you looking for an hours/week number?
+**Jerod Santo:** \[27:58\] Personally, not very much at this point. It comes in fits and spurts. We have ongoing features that I work on, but... Are you looking for an hours/week number?
 
 **Nick Janetakis:** Yeah, like a rough estimate.
 
@@ -184,7 +184,7 @@ That also is tied into some of the artwork changes - each one has to have their 
 
 **Jerod Santo:** Yeah. Have you done any search engine optimization, or anything like that?
 
-**Nick Janetakis:** \[00:32:09.18\] A little bit. That's like a whole topic that I've been thinking about for the last 4-5 years when I started making a blog. It's like "Do I wanna put all of my content on my main nickjanetakis.com/ site, or -- because right now I actually host my courses on their own domain name, so diveintodocker.com, buildasaasappwithflask.com etc. So I really just have that one landing page for the course, like the description of the course before you would buy it... Whereas all of my content - I don't know how many blog posts (like 200-something), they all live on my main site... And I always wonder if it would be better if certain content were posted on those course domains instead, like Docker content on a Docker course. But it really comes back down to abstractions... Like, if I put all of my Docker blog posts on the diveintodocker.com domain, because that's one course, what happens if I make a new course - which I'm planning on making - for Docker in the future? It's like, well, do blog posts go on that second Docker courses domain name, or the first one, or somewhere else?
+**Nick Janetakis:** \[32:09\] A little bit. That's like a whole topic that I've been thinking about for the last 4-5 years when I started making a blog. It's like "Do I wanna put all of my content on my main nickjanetakis.com/ site, or -- because right now I actually host my courses on their own domain name, so diveintodocker.com, buildasaasappwithflask.com etc. So I really just have that one landing page for the course, like the description of the course before you would buy it... Whereas all of my content - I don't know how many blog posts (like 200-something), they all live on my main site... And I always wonder if it would be better if certain content were posted on those course domains instead, like Docker content on a Docker course. But it really comes back down to abstractions... Like, if I put all of my Docker blog posts on the diveintodocker.com domain, because that's one course, what happens if I make a new course - which I'm planning on making - for Docker in the future? It's like, well, do blog posts go on that second Docker courses domain name, or the first one, or somewhere else?
 
 **Jerod Santo:** Right...
 
@@ -204,7 +204,7 @@ But yeah, I feel like developers -- we're both developers ourselves... I don't k
 
 **Jerod Santo:** Yeah... It's a balance. Looking at your website right now, I would definitely say your "Learn Docker with my newest course" banner - I think that's really solid. I think it's not obtrusive. The fact that you have the taste to not overlay "Sign up for my newsletter", "Buy my new course" as I'm reading, is key. I'm an insta-close on anybody who pops up anything on me... Which is the same thing that we do. And we have a strong call-to-action to sign up when you hit the homepage signed out. Changelog.com, you're signed out - there's a nice, big banner there. It's not an overlay, but you can't miss it. You can exit out, and we'll store that in the cookies so we won't show it to you again.
 
-\[00:36:15.27\] If you're signed in, it obviously won't show it to you, because you've already signed up. But we try to stay super-tasteful with any sort of promotion that we do, because we have being offended by pushy people. You know, we're developers...
+\[36:15\] If you're signed in, it obviously won't show it to you, because you've already signed up. But we try to stay super-tasteful with any sort of promotion that we do, because we have being offended by pushy people. You know, we're developers...
 
 So I'd say you're doing quite well in that regard. I'm just looking at one of your blog posts; there's a quick jump-down to a video, it's cool... Do you have one that's specifically -- this one I'm looking at is "Calculate invoice amounts with Bash", that's the most recent one.
 
@@ -222,7 +222,7 @@ Even newsletters... When was the last time -- I'm not bashing newsletters, becau
 
 One of the things that she says that was interesting to me, which I hadn't really considered before, and it made me wanna do more stuff that's personality-based, or personal, or... Even Backstage - we've been doing Backstage for a while; we don't record it very often... But I wanna do more Backstage stuff, because she says that there's actually a relationship to a person that matters more than the ones and zeroes of what you're providing them, or the dollar value of "This content is worth this value."
 
-\[00:40:10.06\] Anyways, I don't have much beyond that to say about it... It's made me change a little bit my perspective, because I would originally agree with you. But now I might say "Well, maybe people just like to hear from Nick Janetakis", and maybe they appreciate your work, and you do help them learn, and they would love to just keep up with what you're doing, and what your thoughts are on whatever it is you think is interesting to write about.
+\[40:10\] Anyways, I don't have much beyond that to say about it... It's made me change a little bit my perspective, because I would originally agree with you. But now I might say "Well, maybe people just like to hear from Nick Janetakis", and maybe they appreciate your work, and you do help them learn, and they would love to just keep up with what you're doing, and what your thoughts are on whatever it is you think is interesting to write about.
 
 Some of it is around this idea of the new rise of personal newsletters as the newest social network, as people are starting to move away from public everything into more private, inbox-based writing. Kind of a new version of blogging. Anyways, I'll send you that link.
 
@@ -256,7 +256,7 @@ I actually have used Reddit more now than I used to. Specific Subreddits are pre
 
 But I also do newsletters now... And I used to be a "Kill the newsletter" kind of guy, like no email. It's actually kind of nice having something just put in your inbox once a week. Of course, you can ignore it if you want to... But I like how it's packaged up and presented. It's not like a Daily Star, minute-by-minute stream of what's happening in this time box.
 
-**Nick Janetakis:** \[00:44:21.13\] Yeah, I've even had some people who have subscribed to my list be like "Just send more stuff."
+**Nick Janetakis:** \[44:21\] Yeah, I've even had some people who have subscribed to my list be like "Just send more stuff."
 
 **Jerod Santo:** Send more stuff... \[laughs\]
 
@@ -292,7 +292,7 @@ But we have so many people that go back-catalog on our shows; it always surprise
 
 2: He had something that looked reasonable. Okay, so let me use that. Back then I didn't even use noise reduction, and all this other stuff. You can hear crickets in the outside, because it was during the summertime, and it was like 8,000 degrees with the windows open... It wasn't extremely bad, but I also had terrible headphones. I didn't even hear half that stuff then. Ignorance is bliss type of thing. \[laughter\] So then eventually, as I did more courses, I upgraded my equipment.
 
-\[00:48:07.28\] For the longest time I was using this one program ASIO Link Pro on Windows, and what it allowed you to do was -- I was never that type of person who wanted to record my audio, and then have to go in and actually remove noise for all the tracks, and then import it into my video afterwards. I'd much rather have all of that stuff done in real time... It saves so much time in the editing process.
+\[48:07\] For the longest time I was using this one program ASIO Link Pro on Windows, and what it allowed you to do was -- I was never that type of person who wanted to record my audio, and then have to go in and actually remove noise for all the tracks, and then import it into my video afterwards. I'd much rather have all of that stuff done in real time... It saves so much time in the editing process.
 
 So one of my biggest improvements for workflow was a couple years ago I started using that ASIO Link Pro program, which allowed me to take input from my microphone, direct it through that program, put it into an actual digital audio workstation - I happened to use REAPER back then... Do the noise cancellation, and leveling, and compression there, and then output it directly to the program I was using to record the videos. So when I hit Record to record a video, my audio was already pristine, in final form. That saved a ton of time when editing.
 
@@ -316,7 +316,7 @@ But yeah, for me I think - just like coding - when you're making courses, you wa
 
 **Jerod Santo:** Very cool. Yeah, I've used Camtasia. It seems like pretty good software. I've got the Scarlett sitting over there... I haven't done too much in terms of video; I'm just kind of dipping my toes into that water, but always interested in hearing how people who create good coding videos go about it.
 
-**Nick Janetakis:** \[00:52:14.09\] I'm gonna change it around, though... About a year ago (or six months ago maybe) I did want to -- so right now, I don't know if you know this, but I am running Windows, unfortunately. At least there is the subsystem for Linux, which is pretty decent... My whole dev environment is actually driven by Tmux and Vim and all this other stuff; very command line-focused, and it's actually pretty good. But I did wanna switch to native Linux, but unfortunately I had some issues with the Scarlett in Linux. I kept getting these weird -- the audio would completely drop out... A hardware malfunction type of drop out. It wasn't even like -- what's that term...? It wasn't like something was getting overloaded, it was just like a signal drop. But apparently it's not happening to everybody, and I was using the Debian Testing channel, so maybe there was something wrong with that... But yeah, ideally I would love to go native Linux and just record with FFmpeg on hotkeys, and optimize the heck out of it.
+**Nick Janetakis:** \[52:14\] I'm gonna change it around, though... About a year ago (or six months ago maybe) I did want to -- so right now, I don't know if you know this, but I am running Windows, unfortunately. At least there is the subsystem for Linux, which is pretty decent... My whole dev environment is actually driven by Tmux and Vim and all this other stuff; very command line-focused, and it's actually pretty good. But I did wanna switch to native Linux, but unfortunately I had some issues with the Scarlett in Linux. I kept getting these weird -- the audio would completely drop out... A hardware malfunction type of drop out. It wasn't even like -- what's that term...? It wasn't like something was getting overloaded, it was just like a signal drop. But apparently it's not happening to everybody, and I was using the Debian Testing channel, so maybe there was something wrong with that... But yeah, ideally I would love to go native Linux and just record with FFmpeg on hotkeys, and optimize the heck out of it.
 
 **Jerod Santo:** That'd be cool.
 
@@ -338,7 +338,7 @@ When we have somebody who calls in and they're like "I'm on Linux", we're like "
 
 **Jerod Santo:** Yeah, I've used it. It worked really well. In fact, somebody put it in Ping. Let me look it up. Ping is our repo on GitHub where people suggest shows, and stuff... They said "You should have these guys on", and I was like "I love that software!"
 
-**Nick Janetakis:** \[00:56:07.21\] Yeah, I know exactly what you're talking about, but I can't think of it.
+**Nick Janetakis:** \[56:07\] Yeah, I know exactly what you're talking about, but I can't think of it.
 
 **Jerod Santo:** The guy didn't actually end up coming on, otherwise I would totally remember what it was.
 
@@ -356,7 +356,7 @@ It's one of those things where you just think "That's gonna be buggy..." And may
 
 **Jerod Santo:** Yeah. Each time you do it, you're kind of impressed. Every time you drag that mouse across to the other OS, it's just like "Oh, man..." Cool, Nick. Well, this has been fun. Like I said, Backstage is a great place to talk shop. You and I have lots of shop that interacts with each other. I loved hearing about what you're up to... And make sure you send me any links with things that we mentioned, so we can put them in the show notes, for people that are interested. I'll put Synergy in there, as I'm sure listeners are at least intrigued if they'd never heard of that one.
 
-\[00:58:54.24\] Listeners, let us know if you enjoyed this. We have discussions on Changelog.com. Speaking of our custom CMS, we have recently added commentary. So while everybody else removes comments from their websites, we're putting them back. We're putting them back on the website. One of the cool things about that is you can discuss specific episodes. All news items get comments, and each episode of the podcast gets its own news item, so you can comment on podcast episodes.
+\[58:54\] Listeners, let us know if you enjoyed this. We have discussions on Changelog.com. Speaking of our custom CMS, we have recently added commentary. So while everybody else removes comments from their websites, we're putting them back. We're putting them back on the website. One of the cool things about that is you can discuss specific episodes. All news items get comments, and each episode of the podcast gets its own news item, so you can comment on podcast episodes.
 
 To do that, if you open your show notes, there's a link to it in the show notes. It says, I think, "Discuss on Changelog News", or something like that. Click that link. If you're on the website, click the Discuss button there in the toolbar, let us know what you think. If you have questions for Nick, or for me... If you like this style of episode, let us know; if you hate this and hope we never publish it again - well, don't be mean about it, but we appreciate that feedback as well... And yeah, I look forward to doing this more often, if people think it's something they wanna listen to.
 

@@ -54,7 +54,7 @@ The other thing too is I'm making all this Podcast Royale thing sound super-surg
 
 **Adam Clark:** ...strategic, and like it's all calculated, and... It is those things, but it's not just those things. I am doing something that I enjoy doing, and I'm not doing something that I hate doing, that I'm just gonna slog through for the next five years, so that I could potentially have something worth selling, or whatever... I don't know that I would do that. I am doing something that I really enjoy doing, and I don't intend to necessarily stop doing it. But the point is I'm building something that is getting me somewhere.
 
-**Break:** \[00:10:49.11\]
+**Break:** \[10:49\]
 
 **Tim Smith:** There's not much setup needed for this next bit of information. Adam grew up in a cult.
 

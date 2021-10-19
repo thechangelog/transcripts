@@ -12,7 +12,7 @@
 
 **Kevin Ball:** Awesome. So for folks who aren't familiar, can you give us just a quick rundown on what GraphQL is and how it differs from traditional APIs?
 
-**Brian Douglas:** \[00:03:52.05\] Yeah, so GraphQL came out of the Facebook team. Lee Byron and Dan - I forget Dan's last name... Dan and a third person who also escapes me. Lee is probably the most public-facing GraphQL team member. They came up with a spec to interact with the backend that was different from REST. Graph being graph database, QL being query language - so GraphQL is just another way for your mobile team, your frontend team to interact with the API that doesn't have to be a RESTful way.
+**Brian Douglas:** \[03:52\] Yeah, so GraphQL came out of the Facebook team. Lee Byron and Dan - I forget Dan's last name... Dan and a third person who also escapes me. Lee is probably the most public-facing GraphQL team member. They came up with a spec to interact with the backend that was different from REST. Graph being graph database, QL being query language - so GraphQL is just another way for your mobile team, your frontend team to interact with the API that doesn't have to be a RESTful way.
 
 **Kevin Ball:** Yeah, one of the things that interests me a lot about it is it's almost flipping your paradigm on your head. So instead of crafting your API around your backend representation, your models that you are exposing as resources, you are allowing the frontend to say "Here's the data I want right now.... Just give it to me. You figure out the rest."
 
@@ -34,7 +34,7 @@ I built a wrapper using [Apollo's Launchpad](https://launchpad.graphql.com) to b
 
 **Brian Douglas:** Yeah, and the caching - that's something that a lot of people are talking about now, and GraphQL Europe's literally happening at the same time as Fluent Conf, so I'm sure a lot of cool conversations will happen around that... But a company like Apollo - actually, Meteor is Apollo's project... Or vice-versa - Apollo is Meteor's project... And they do caching for you within the Apollo 2. Peggy had a talk about Apollo in general and what it does there, so that's what handles the caching, but everything is the same. So if you do caching on your backend already, every time you hit your GraphQL endpoint and you're hitting the API on the REST side into your gateway, if you've hit already, the caching exists. So all that is the same, unless you wanna pull it to the GraphQL side, and I think now those rate limiting caching happening on the GraphQL gateway side are conversations and solutions that are happening now... But prior to that, everything you did with REST - exactly the same.
 
-**Kevin Ball:** \[00:08:06.12\] Nice. So it feels like, in a lot of ways, this is part of the evolution towards more complex frontends... And as we've tried to do more and more on the front-end, we've then had to think more and more about data, and you have stuff coming like the Elm architecture, and Flux, Redux, Vuex - all these different ways to do it. Is GraphQL a replacement for those? Does it play nicely with those?
+**Kevin Ball:** \[08:06\] Nice. So it feels like, in a lot of ways, this is part of the evolution towards more complex frontends... And as we've tried to do more and more on the front-end, we've then had to think more and more about data, and you have stuff coming like the Elm architecture, and Flux, Redux, Vuex - all these different ways to do it. Is GraphQL a replacement for those? Does it play nicely with those?
 
 **Brian Douglas:** Yeah, that's a conversation that a lot of people -- there's a lot of popular blog posts that get really popular, but don't really have much substance to it, where it's like GraphQL is the replacement for REST... I don't believe that's the case. I think GraphQL is an enhancement to REST, and if you go the gateway route you're still exposing stuff the same way... And we zoom out a little bit more of like what's happening on the frontend; there's more infrastructure going to the frontend. For example, now we have things like Webpack that are just making everything magically happen on our frontend, and we're bundling down to like HTML and CSS like in the good old days... And I think as we're speaking, Brendan Eich is gonna be speaking on the main stage... He's one of the grandfathers of the web, and they've been doing it like that for years, and now we're revisiting that by using things like Webpack, and now with Redux, and we're managing all our data on the frontend, and we have the... I like the term "backend for your frontend" type of deal... So I think GraphQL is just enhancing that conversation, where now you no longer have to worry about actions and reducers, now you're just worrying about queries and mutations. It's a different paradigm, but I think I could see GraphQL expanding into other frontend architectures and being more of like a thing that people are gonna get more serious about in the next few years.
 
@@ -46,7 +46,7 @@ So specific features, mainly due to problems that we have -- I was explaining ac
 
 **Kevin Ball:** Interesting. Yeah, I remember trying to set something up where I was not using the built-in widget, but I was trying to show how many stars or something like that, and I was hitting the API, and any sort of public-facing website that has any amount of traffic hits the rate limit almost instantly. So does this get you around that?
 
-**Brian Douglas:** \[00:11:52.27\] Yeah, we're working on some creative things -- I actually work on the GraphQL team at GitHub, but I'm following close enough... I'm actually fairly new to GitHub within the last six months, so I got in at a great time, apparently...
+**Brian Douglas:** \[11:52\] Yeah, we're working on some creative things -- I actually work on the GraphQL team at GitHub, but I'm following close enough... I'm actually fairly new to GitHub within the last six months, so I got in at a great time, apparently...
 
 **Kevin Ball:** Yeah, that must have been a crazy ride...
 
@@ -80,7 +80,7 @@ Schema stitching is another thing I briefly mentioned in my talk. Now that's lik
 
 **Brian Douglas:** Yeah... And it's funny, because as I was doing my second pair programming interview, I alluded to my GitHub profile, and the interviewer actually mentioned "Yeah, I actually haven't seen your profile, because we don't actually look at your profile." So we love people who have lots of contributions on GitHub, and are using it actively and are part of our open source community.
 
-\[00:16:07.15\] It's a really great way to see what other people are working on, other cool projects that maybe somebody I'm following on has contributed to, and maybe because I know them, I can reach out to them directly and be like "Hey, I saw you work on X or Y. Can you give me a mentorship or help me into that project?" But as far as hiring practice, GitHub is not gonna be the next LinkedIn. LinkedIn will be the next LinkedIn, and GitHub will continue to be GitHub.
+\[16:07\] It's a really great way to see what other people are working on, other cool projects that maybe somebody I'm following on has contributed to, and maybe because I know them, I can reach out to them directly and be like "Hey, I saw you work on X or Y. Can you give me a mentorship or help me into that project?" But as far as hiring practice, GitHub is not gonna be the next LinkedIn. LinkedIn will be the next LinkedIn, and GitHub will continue to be GitHub.
 
 **Kevin Ball:** And they'll both be owned by Microsoft.
 
@@ -102,7 +102,7 @@ Open Collective is very successful with the Webpack community and they're doing 
 
 **Brian Douglas:** Yeah.
 
-**Kevin Ball:** \[00:20:03.12\] As a developer advocate, I know there are lots of developers who would love you to advocate for ways to get money to open source.
+**Kevin Ball:** \[20:03\] As a developer advocate, I know there are lots of developers who would love you to advocate for ways to get money to open source.
 
 **Brian Douglas:** Yeah. I'm a developer advocate at GitHub, but I'm also helping with the GitHub developer program as well, which has been in existence for a little bit, but it's still getting its feet off the ground; it's been established way before even the Microsoft inkling of the conversation started... But if you wanna be part of the GitHub developer program and you're looking to get closer to GitHub and find out more information about new API releases, changes, the whole GraphQL thing, we do workshops that we funnel directly to the program; you can sign up at developer.github.com/program. I would love to talk to with you. I'm literally doing tons of interviews in the next week with current members, and finding out what they're looking to get out of a program of this nature.
 
@@ -112,7 +112,7 @@ Open Collective is very successful with the Webpack community and they're doing 
 
 **Kevin Ball:** Awesome. Thanks, man.
 
-**Break:** \[00:21:04.10\]
+**Break:** \[21:04\]
 
 **Kevin Ball:** I am here talking with Aimee Knight, former professional ice skater turned full stack developer. Aimee, how are you doing?
 
@@ -126,7 +126,7 @@ Open Collective is very successful with the Webpack community and they're doing 
 
 **Aimee Knight:** Yup. So I am not super deep-diving into CSS anymore because I'm at a new job now... But I was at Warner Brothers for about two years, and I was doing frontend there, so I'm back to full stack now... But while I was at Warner Brothers -- I guess the talk is a deep dive into CSS and how the browser renders your style sheets. The back-story on that is, you know, when I first started programming, JavaScript was the part that really scared me, and CSS was like "Oh, this is super easy... Just change a color here and there", and JavaScript was the part that I was really scared of. But then somewhere, you know, kind of like my progression as a developer, I felt really confident with my JavaScript and my ability to debug my JavaScript, and like you give me a problem with JavaScript, eventually I'm gonna be able to figure out a solution, and I'm gonna be able to reason about it and tell you if it's not working why it's not working... But as I got more advanced with CSS, I did not feel that way.
 
-\[00:23:59.07\] I felt like I was just blindly throwing darts at a dartboard half the time, and when I got to Warner Brothers - really amazing designers, and they hand you something and you have to implement it, I really felt like I couldn't call myself a frontend developer, because I could implement the logic all day for the JavaScript, but I just felt scared sometimes when they'd hand me these designs... I was like "Oh my god, I don't know how I'm gonna be able to do this..."
+\[23:59\] I felt like I was just blindly throwing darts at a dartboard half the time, and when I got to Warner Brothers - really amazing designers, and they hand you something and you have to implement it, I really felt like I couldn't call myself a frontend developer, because I could implement the logic all day for the JavaScript, but I just felt scared sometimes when they'd hand me these designs... I was like "Oh my god, I don't know how I'm gonna be able to do this..."
 
 Long story short there -- also, with JavaScript, I'm kind of one of those proponents for understanding the language before you really deep-dive into the framework, so I wanted to apply that same reasoning to CSS, so I figured if I really want to be able to debug my CSS, I need to understand at a lower level what's happening; so I wanted to understand how the browser is actually parsing my style sheets... So I started going into that, and then I also wanted the talk to be a little bit more practical, and common problems developers face... So that's the stuff I dug into.
 
@@ -156,7 +156,7 @@ Long story short there -- also, with JavaScript, I'm kind of one of those propon
 
 **Kevin Ball:** Oh, yeah.
 
-**Aimee Knight:** \[00:28:04.17\] I have a slide or two about that, but... You know, that's another thing -- I think CSS is getting more and more attention now, and it's becoming "a little more cool" with stuff like that, where you can more low-level and play around with things, so I'm excited about that, too.
+**Aimee Knight:** \[28:04\] I have a slide or two about that, but... You know, that's another thing -- I think CSS is getting more and more attention now, and it's becoming "a little more cool" with stuff like that, where you can more low-level and play around with things, so I'm excited about that, too.
 
 **Kevin Ball:** Yeah, the idea of being able to polyfill CSS perfectly is super exciting.
 
@@ -180,7 +180,7 @@ I make the joke, it's kind of like playing the game KerPlunk, \[laughter\] where
 
 **Aimee Knight:** Yeah... So all that to say, I've actually kind of enjoyed working in the codebase, because you have very interesting constraints there. If you need to go in there and mess with this cyclomatic complexity method is like 120, and you need to go in there. I'm a very precise person and I enjoy that, and so you have to really take your time when you're in there, understand what's going on, and you kind of have to be a little bit careful about what you're doing... It's been fun.
 
-**Kevin Ball:** \[00:32:17.06\] When I look at the industry at large - the sexy stuff is all the brand new projects using all of the new frameworks and what have you, but how many codebases... I mean, this stuff changes, the cutting edge changes every year or two; nobody can rewrite their apps every year or two, so the vast majority of our code is legacy code.
+**Kevin Ball:** \[32:17\] When I look at the industry at large - the sexy stuff is all the brand new projects using all of the new frameworks and what have you, but how many codebases... I mean, this stuff changes, the cutting edge changes every year or two; nobody can rewrite their apps every year or two, so the vast majority of our code is legacy code.
 
 **Aimee Knight:** Yeah. I don't know, I really enjoy it. There's actually a consultancy startup in -- I'm not sure where they're based in; they're called [Corgibytes](http://corgibytes.com/). I listened to one of the developers there do a talk a while ago, and they do really legacy stuff... The process that he describes seems a little bit like what we're going through, and it's been very interesting. I've kind of enjoyed it.
 
@@ -198,7 +198,7 @@ I think too it's a good thing for people -- you know, you don't feel too far beh
 
 **Aimee Knight:** Yeah, I sometimes get goosebumps about it, because it was one of the best decisions I've ever made, and it's absolutely -- I know Tracy Lee is going to give a talk about this... It has changed my life in so many different ways and so many good ways. But the back-story on that, for people who haven't heard - so yeah, I've spent the majority of my life as a competitive figure skater, and I went to college, but the plan was kind if just that I was gonna coach for the rest of my life... My parents did not really push me too hard academically, and I thought, you know, "Yeah, I probably will just coach..." This was my life.
 
-\[00:36:17.23\] I traveled around competing, and I made it really far, but -- my junior year in college is when I kind of thought, you know, I had been through so many injuries, and I just kind of wanted to do something very different than what I'd done all my life... But at that point it was too late to change majors. So I finished out what I was doing, and I started working for an advertising agency, so I ended up doing marketing type stuff, and that's how I kind of got turned on into programming.
+\[36:17\] I traveled around competing, and I made it really far, but -- my junior year in college is when I kind of thought, you know, I had been through so many injuries, and I just kind of wanted to do something very different than what I'd done all my life... But at that point it was too late to change majors. So I finished out what I was doing, and I started working for an advertising agency, so I ended up doing marketing type stuff, and that's how I kind of got turned on into programming.
 
 There was a developer that I was working with, and the story really was that I was doing marketing/project management; it was a very small agency, so we'd wear a lot of hats... And we had our won site which was written in ExpressionEngine, and we had changed addresses, and the phone number had changed, and I got tired of asking the developers to go in and update it... And we couldn't actually change it like just in the CMS portion, we actually had to change some stuff in the code... So I went home one weekend, I thought "I'm so tired of asking this... I'm gonna figure out how to do it myself." And I did that, and I was hooked. I had to make the changes on the live site, but I was absolutely hooked.
 
@@ -214,7 +214,7 @@ Another part too is I skated for so many years and I learned in my twenties that
 
 **Aimee Knight:** I just feel super blessed. Like, how many people get to do something they love, and they get paid to do it, it's their job...? Yeah, it's awesome.
 
-**Kevin Ball:** \[00:39:53.27\] Absolutely. I think the tech industry and programming have certainly been very good for me in my life, and one of the reasons I'm now doing more teaching and training is I wanna enable that, because it's one of the few jobs that you can get right now where you can come in without a degree, you can self-teach or go through one of these bootcamps...
+**Kevin Ball:** \[39:53\] Absolutely. I think the tech industry and programming have certainly been very good for me in my life, and one of the reasons I'm now doing more teaching and training is I wanna enable that, because it's one of the few jobs that you can get right now where you can come in without a degree, you can self-teach or go through one of these bootcamps...
 
 One thing that I've seen recently that I really love is this new thing Lambda School that Austen Allred is doing, where they don't even charge you up front. They only charge you if you end up in a job making at least 50k a year, and then it's a percent based on your income, so it's guaranteed to be affordable.
 
@@ -248,11 +248,11 @@ So you can come in, you don't have to go through a degree, you can self-teach or
 
 **Kevin Ball:** As I said, you seem to have been doing quite well at it. You're coming out and speaking at talks, you're keynoting places, you're on the podcast... What are your recommendations for folks who maybe they've gotten into the industry, they've been there for a year or so, and they're trying to say "How do I get to the next level?"
 
-**Aimee Knight:** \[00:44:09.18\] Man, that's a hard thing, and I always preface advice I give with "This is what worked for me. I don't know that it will necessarily work for you." There's a million different ways to go about things, but I've never been really focused on mid, senior, stuff like that. I will find something that I'm excited about, and I will dive into that, and that's how I progress. I am very much of the "junior dev for life" mentality.
+**Aimee Knight:** \[44:09\] Man, that's a hard thing, and I always preface advice I give with "This is what worked for me. I don't know that it will necessarily work for you." There's a million different ways to go about things, but I've never been really focused on mid, senior, stuff like that. I will find something that I'm excited about, and I will dive into that, and that's how I progress. I am very much of the "junior dev for life" mentality.
 
 We were talking about you've gotta be careful not to burn yourself out... I'm in it for the long haul, so I try to keep a "slow and steady wins the race" mentality. That would be my advice: slow and steady wins the race, stay excited, guard yourself so that you don't get burned out, so you can stay excited and you can keep progressing.
 
-**Break:** \[00:45:13.16\]
+**Break:** \[45:13\]
 
 **Kevin Ball:** I am here with Bryan Hughes, technical evangelist from Microsoft, @nebrius in all things online (Twitter, GitHub etc.) and long-time open source contributor, primarily in JavaScript. Bryan, how are you doing?
 
@@ -280,7 +280,7 @@ So yeah, I've been talking about it in addition to using it. My talk today was t
 
 **Kevin Ball:** Yeah, one of the things I love about TypeScript - and I'm not really a big TypeScript user - is the way that in contrast to some other attempts to add typing to JavaScript, it is really a superset of the JavaScript language. So you can drop JavaScript in and it just works. It makes it a lot easier to migrate and to just start using.
 
-**Bryan Hughes:** \[00:48:16.04\] I think that's really one of TypeScript's greatest powers - it is a superset and vanilla JavaScript is typescript, and I think that design decision came very early on, of course, and I think it was informed by a couple of historical events. No technology ever exists in a vacuum... And one of the things about TypeScript is it was one of the first compile-to-JavaScript languages to become popular after CoffeeScript, and I think that's really important.
+**Bryan Hughes:** \[48:16\] I think that's really one of TypeScript's greatest powers - it is a superset and vanilla JavaScript is typescript, and I think that design decision came very early on, of course, and I think it was informed by a couple of historical events. No technology ever exists in a vacuum... And one of the things about TypeScript is it was one of the first compile-to-JavaScript languages to become popular after CoffeeScript, and I think that's really important.
 
 CoffeeScript - it's easy to criticize a lot of its design decisions. I was personally never a big fan of it, but it was really important, and I think we should give it a lot of credit in that it sort of invented the whole compile-to-JavaScript phenomenon. We wouldn't really have Babel the way it looks today without CoffeeScript, because it pioneered it. But it did, of course, have a number of drawbacks, I think the biggest one of which (as you were hinting at) is that it was an all or nothing. If you wanted to use CoffeeScript, you had to rewrite your entire codebase, and that's just not very tenable. I think that was one of the big complaints, especially when most people actually started using it.
 
@@ -302,7 +302,7 @@ The analogy I always like to make is that's a lot like unit tests. Unit tests ar
 
 **Kevin Ball:** When we're especially seeing the rise of typed languages for web development as more and more complexity moves to the front end, and moves to things that are being developed in JavaScript or JavaScript-like languages, compile-to-JavaScript languages, things like that... We're seeing that with that additional complexity, having some additional support can be pretty useful.
 
-**Bryan Hughes:** \[00:52:02.04\] Yes, and I think VS Code is a really good example of this. TypeScript was in a way kind of also developed to really help out the VS Code team... Because that codebase is actually a lot older than VS Code itself. It started off as an online editor called Monaco. I wanna say it was maybe part of the Azure portal; I don't actually quite remember, but I know it was part of our online property, and not actually -- it wasn't originally developed to be a desktop editor. It was when Electron came around that we were like "Hey, wait, we've got this really good online editor... I think we could do things here", but there was so much more that had to be added, and as the project kept growing, it was kind of becoming unmanageable. So we brought TypeScript in, and now it's back to being a really manageable codebase.
+**Bryan Hughes:** \[52:02\] Yes, and I think VS Code is a really good example of this. TypeScript was in a way kind of also developed to really help out the VS Code team... Because that codebase is actually a lot older than VS Code itself. It started off as an online editor called Monaco. I wanna say it was maybe part of the Azure portal; I don't actually quite remember, but I know it was part of our online property, and not actually -- it wasn't originally developed to be a desktop editor. It was when Electron came around that we were like "Hey, wait, we've got this really good online editor... I think we could do things here", but there was so much more that had to be added, and as the project kept growing, it was kind of becoming unmanageable. So we brought TypeScript in, and now it's back to being a really manageable codebase.
 
 I wanna say it's about half a million lines of code, something like that these days... It's not a small codebase at all, and I think once you get to that size, not using stating typing is unattainable.
 
@@ -342,7 +342,7 @@ I wanna say it's about half a million lines of code, something like that these d
 
 **Bryan Hughes:** Raspberry Pi.
 
-**Kevin Ball:** \[00:56:12.07\] Sorry, Raspberry Pi.
+**Kevin Ball:** \[56:12\] Sorry, Raspberry Pi.
 
 **Bryan Hughes:** Yup.
 

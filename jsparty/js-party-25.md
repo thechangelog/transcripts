@@ -22,7 +22,7 @@ Roughly 2005 is when we first shipped a 0.1 release... But at the time we were r
 
 **Dylan Schiemann:** Well, prior to that there was the WDF DOM forum started by ppk (Peter-Paul Koch), where we would discuss all the flaws of the DOM. That started probably in maybe 2001, and a lot of the people there have led to people who started working on Dojo. So yeah, it even goes back further than that.
 
-\[00:03:56.00\] The name Dojo itself was suggested by Leonard Lin, who had a startup at the time. We just had terrible luck with naming; we got a cease and desist back in 2004 from Microsoft, which is kind of funny, because we're such TypeScript fans now, but at the time because we had the word "windows" in the name netWindows, so... We had to change the name on that. It's just a lot of good old history back then, when things were quite different.
+\[03:56\] The name Dojo itself was suggested by Leonard Lin, who had a startup at the time. We just had terrible luck with naming; we got a cease and desist back in 2004 from Microsoft, which is kind of funny, because we're such TypeScript fans now, but at the time because we had the word "windows" in the name netWindows, so... We had to change the name on that. It's just a lot of good old history back then, when things were quite different.
 
 **Suz Hinton:** So keeping in mind that there are folks who have entered the front-end development industry just recently, or even just a few years ago, they might be missing context about things like browser incompatibilities and animation challenges and things... Could you give us a little bit more information about the kind of issues that Dojo was solving pre-version 2, that are different to what other JavaScript libraries and frameworks are trying to solve nowadays?
 
@@ -46,7 +46,7 @@ A lot of the ES5 and ES6 features around just array operators, bind and just oth
 
 **Alex Sexton:** Even real-time stuff too, right? Socket.d was Dojo...
 
-**Dylan Schiemann:** \[00:07:59.02\] Yeah, Dojo had an early WebSocket implementation, and it had fallbacks to things like Forever Frame techniques, or long polling... Just because we needed real-time no matter what, so we started a project through the Dojo Foundation called CometD, that was basically one of the first open source real-time client server communication protocols as well.
+**Dylan Schiemann:** \[07:59\] Yeah, Dojo had an early WebSocket implementation, and it had fallbacks to things like Forever Frame techniques, or long polling... Just because we needed real-time no matter what, so we started a project through the Dojo Foundation called CometD, that was basically one of the first open source real-time client server communication protocols as well.
 
 **Alex Sexton:** I think that's why I initially got into Dojo a long time ago. Not that I was ever super involved with it, but I think that was the only way you could get any of that done, and the documentation was good, and I had the fallbacks... It was really cool to see real-time.
 
@@ -72,7 +72,7 @@ My goal has never really been to say "Hey, we wanna own the web." Instead, it's 
 
 **Dylan Schiemann:** Yeah... So James Burke was an early Dojo contributor when he was working at AOL, and then when he left to go to Mozilla, he found himself in a jQuery world and he wanted to bring the bits and pieces of Dojo that he liked to the broader ecosystem. So between him and a few other people, the AMD specification kind of came to light. John Hann and Rawld Gill are probably the two others known at that time.
 
-**Alex Sexton:** \[00:12:09.13\] I have a line in that spec, just FYI.
+**Alex Sexton:** \[12:09\] I have a line in that spec, just FYI.
 
 **Dylan Schiemann:** Oh, you do? Nice.
 
@@ -101,7 +101,7 @@ The joke among the people I know is that I'm incredibly stubborn. Dojo has laste
 
 That said, the base of committers and contributors has changed drastically over the years. Almost no one who worked on the original Dojo (0.1) still works on Dojo today... But I think that's okay. I think people's lives and perspectives change, and their focus grows. Alex now is best known pretty much for trying to bring a lot of the goodness from Dojo 1 into the standards bodies through his work at Google.
 
-\[00:16:10.24\] I think it's not so much about "Hey, we need to all work on Dojo forever", but how can we make the biggest mark or positive influence on the web?
+\[16:10\] I think it's not so much about "Hey, we need to all work on Dojo forever", but how can we make the biggest mark or positive influence on the web?
 
 **Suz Hinton:** That's really insightful. Nick, when did you come to start contributing to Dojo?
 
@@ -113,7 +113,7 @@ One thing in particular is the Dijit system, with its declarative syntax for cre
 
 **Dylan Schiemann:** Yeah, it's really interesting... So the early data grid we had worked with real-time stuff, but it also was one of the first implementations of a virtualized DOM; it supported virtual scrolling, and virtualized rendering of nodes... And if you sort of look at Dojo's grid plus Bespin, which later became the editor that's now part of Amazon, the Cloud 9 editor - these were sort of the two early virtual DOM implementations that React was later crazy enough to say "We should do this for the whole page of your application." So there was a lot of cool inspiration there, but if you think about it, data grids were kind of probably THE reason people chose Dojo 1 - we had a really nice, robust data grid, and we've had one for many years... And in the enterprise, every application kind of starts with the data grid.
 
-**Break:** \[00:19:03.21\]
+**Break:** \[19:03\]
 
 **Alex Sexton:** Alright, Dylan, I think we're gonna talk a little bit about Dojo 2, but it actually kind of reminds me of a slogan that isn't anywhere near official, but... Wouldn't you say that Dojo 2 is kind of a rehash of something that Dojo 1 already did? \[laughter\] And to that end, explain the misnomer with the "Don't Ask, Don't Tell", and "Dojo Already Did That", DADT.
 
@@ -139,7 +139,7 @@ We did make a huge bet on TypeScript. While frameworks like Angular use TypeScri
 
 **Alex Sexton:** As far as the ergonomics of using Dojo 2 versus Dojo 1, is it still a similar -- like, there are Dijits and there are these things...? I assume it's become more declarative, in like a more virtually DOM-y kind of way, all these types of things have been adopted... What are the main impacts of like day-to-day application development in Dojo 2 versus Dojo 1?
 
-**Dylan Schiemann:** \[00:24:07.16\] Dojo 1 was really its own thing. We had our own module system, our own class-like system, our own widget system and so on... And part of that was because back in the day the standards process was not great; it was more black box, things would get thrown over the wall to you, as opposed to today, where it's very much aligned with the ecosystem and there's a lot of open participation.
+**Dylan Schiemann:** \[24:07\] Dojo 1 was really its own thing. We had our own module system, our own class-like system, our own widget system and so on... And part of that was because back in the day the standards process was not great; it was more black box, things would get thrown over the wall to you, as opposed to today, where it's very much aligned with the ecosystem and there's a lot of open participation.
 
 So Dojo 2 is much different in that it's very focused with standards and common patterns. Yes, we have a widget system, but it's also built on a virtual DOM engine... One that we had originally started with using based on MECAT but that we forked, so we could get a bit more control over how we render widgets. It uses ES modules, we use Typescript, we have a number of core features...
 
@@ -163,7 +163,7 @@ We also write all of our modules with TypeScript's strict type-checking turned a
 
 **Alex Sexton:** Doesn't that then leak down into your strictness, though?
 
-**Dylan Schiemann:** \[00:28:13.22\] No, no... I'm mostly just kidding. I mean, they're very good engineers, but there's just a few places where they can't be fully strict, but we are. And it is a little more painful, but the goal is to make it so our end users don't have to suffer for us not getting things just right.
+**Dylan Schiemann:** \[28:13\] No, no... I'm mostly just kidding. I mean, they're very good engineers, but there's just a few places where they can't be fully strict, but we are. And it is a little more painful, but the goal is to make it so our end users don't have to suffer for us not getting things just right.
 
 **Alex Sexton:** When you talk about them not being strict - it's in their own parser...? I guess I'm confused how -- if you're checking with their parser and they're not strict, it seems like it would follow that you have the same... I guess I'm confused.
 
@@ -179,7 +179,7 @@ Stepping forward, that's something we're known for - we want what you create to 
 
 Accessibility is about a few things... First of all, the components or widgets that we create are accessible out of the box. They comply and conform to the best standards that are out there, and that we've gone through and done that. Sarah Higley leads our efforts on Dojo 2 around accessibility.
 
-\[00:32:11.23\] Then it's about providing good guidance, good documentation information about how we do that, so that engineers don't just turn around and break accessibility in their own efforts. Then we do also provide some automated testing for the things you can automate. Obviously, you cannot automate everything around accessibility, but there's a few good tools - there's aXe, and there's Tenon, and a few others, and our Intern testing tool hooks into those to basically say "Hey, these are mistakes that you might make that could break accessibility." You can automatically test for them in your code base, and at least be notified "Hey, this first passive stuff that you could do to break accessibility, you shouldn't ever do, because the tests will tell you otherwise."
+\[32:11\] Then it's about providing good guidance, good documentation information about how we do that, so that engineers don't just turn around and break accessibility in their own efforts. Then we do also provide some automated testing for the things you can automate. Obviously, you cannot automate everything around accessibility, but there's a few good tools - there's aXe, and there's Tenon, and a few others, and our Intern testing tool hooks into those to basically say "Hey, these are mistakes that you might make that could break accessibility." You can automatically test for them in your code base, and at least be notified "Hey, this first passive stuff that you could do to break accessibility, you shouldn't ever do, because the tests will tell you otherwise."
 
 **Suz Hinton:** Why do you think that other JavaScript frameworks or libraries have not really tried to have this built in from day one?
 
@@ -193,7 +193,7 @@ I've been around the ecosystem long enough that I know that I don't have to push
 
 But yeah, I think if you're designing systems that work well together, you're less likely to introduce things that break your approach. There's the classic example of "Hey, I've pulled 20 widgets from 20 different places, and I don't know if all of them are going to be accessible", whereas if you release a set of widgets together and you've tested them all for accessibility, you could make the promise that "Hey, we may not be perfect, but we've put serious effort into thinking through these problems and done our best to do that, and then accepting fixes and releasing them quickly where we failed."
 
-**Suz Hinton:** \[00:36:01.14\] What kind of things do you think would help with that fragmentation issue that you just mentioned about "Well, Dojo is a collection of things that were worked on and that were made to be consistent"? When you have a whole community making lots of different types of components, such as when you can just npm install a React component, for example, or a Vue component, or an Ember component, how do you think that we could convince the community be more mindful of these things? How do we sort of stop that fragmentation of the different gaps that we see as far as accessibility goes?
+**Suz Hinton:** \[36:01\] What kind of things do you think would help with that fragmentation issue that you just mentioned about "Well, Dojo is a collection of things that were worked on and that were made to be consistent"? When you have a whole community making lots of different types of components, such as when you can just npm install a React component, for example, or a Vue component, or an Ember component, how do you think that we could convince the community be more mindful of these things? How do we sort of stop that fragmentation of the different gaps that we see as far as accessibility goes?
 
 **Dylan Schiemann:** One of the challenges we've had as an ecosystem is what I described as the GitHub effect, and GitHub obviously is one of the most amazing things to happen ever to software engineering... But it's also a bit of a curse, in that before GitHub it was actually a challenge to start an open source project; it required effort in actually setting up a project and setting up source control... And today it's so easy - you just create a URL and go to it and start a project... And what it's done is it's reduced the barrier to entry of creating your own framework, rather than the effort to contributing to someone else's. So there's a lot of value in getting people to actually work together and collaborate on things, that gets lost when everyone just kind of does their own thing, in their own way. And obviously, there's a use for both, because you need innovation and creativity, and that only happens when people try and experiment and fail, and eventually find a nice path forward...
 
@@ -211,7 +211,7 @@ How do you ensure that going forward and how do you design these different widge
 
 **Dylan Schiemann:** So we've taken a few interesting approaches. The first is everything in Dojo 2 is easily imported or exported as a web component, and that's just how it works out of the box. So it's not that Dojo 2 widgets have to be used as web components, but that they easily can be... As well as being able to pull in web components from elsewhere.
 
-\[00:40:16.04\] Obviously, this is just the custom elements portion of the web components spec, but we think that's really important because if you can reduce the barrier of entry between frameworks with regards to how components are authored and used, that's really useful. It also is a standard way to say "I'm registering a custom tag that has these properties and these attributes and this behavior."
+\[40:16\] Obviously, this is just the custom elements portion of the web components spec, but we think that's really important because if you can reduce the barrier of entry between frameworks with regards to how components are authored and used, that's really useful. It also is a standard way to say "I'm registering a custom tag that has these properties and these attributes and this behavior."
 
 Now, web components aren't perfect. There's a challenge in sort of cross-component communication, cross-component data sharing... They're really designed to kind of be standalone. But you take advantage of the standard that's there, and then you figure out how to augment it where you can. That's kind of the foundational piece.
 
@@ -224,7 +224,7 @@ So we just kind of keep following the WICG list, TC39 efforts, WHATWG, and kind 
 We also look for things we can do that make the authoring experience better. For example, we have this system that uses CSS modules and TypeScript together, so that when you're applying a class name to a component, you can only as an author create valid TypeScript if you include a CSS class name that was part of that component's CSS file. And we do that by just importing a TypeScript definition file that is automatically created from each CSS file that's related to each component.
 For example, if I'm in my Hello, world widget, I've got a list of CSS class names that can be autocompleted as it's time to style them in my JavaScript code. That might sound like a small thing, but it's just one of those things that saves you five or ten seconds every time you need to figure out which class name to apply to a component, because your IDE is gonna sort of lock you into that list of ones that you've scoped in the context of that component. So really just kind of looking at how all these pieces fit together, where we feel things are going, and just kind of trying to keep that direction going where the web is going in general.
 
-**Break:** \[00:44:00.22\]
+**Break:** \[44:00\]
 
 **Suz Hinton:** So for our last segment today Alex was gonna start chatting with Dylan about web standards and foundations, and you just had a few questions for Dylan around that.
 
@@ -246,7 +246,7 @@ Today, standards are amazing compared to back then. I mean, they're not perfect,
 
 In the early Dojo 1 days I kind of had the feeling of "Standards are broken. We'll just do whatever we want." But today's standards feel pretty good, so we try to align to them much more closely.
 
-**Alex Sexton:** \[00:48:03.27\] Around the same time Dojo was released - I guess a little while after, but... I know I've talked to Alex Russell a little bit about this in the past, but you guys felt pretty strongly about code rights and licenses and licenses and things like that, to the extent where you created a very hands-off, but protective entity, which was I think one of the first foundations that I had known of. Obviously, there was Apache, but it was like pretty early on. So tell me about the history of the Dojo Foundation.
+**Alex Sexton:** \[48:03\] Around the same time Dojo was released - I guess a little while after, but... I know I've talked to Alex Russell a little bit about this in the past, but you guys felt pretty strongly about code rights and licenses and licenses and things like that, to the extent where you created a very hands-off, but protective entity, which was I think one of the first foundations that I had known of. Obviously, there was Apache, but it was like pretty early on. So tell me about the history of the Dojo Foundation.
 
 **Dylan Schiemann:** Yeah, so after getting that -- Alex got that cease and desist over the name netWindows; it was pretty clear that we did not wanna be the legal entity for a framework... So we talked with some friends - we knew Martin Cooper, who was the vice-president of the Apache Software Foundation, we knew the president of the Python Software Foundation... And we just kind of asked them a lot of questions and realized it wouldn't be that difficult to start a foundation that was focused on JavaScript, so we did. At the time it was called the Dojo Foundation, because we weren't particularly clever with naming things... And for us it was a really big, important point, which was that the code that's there, people can use; they can trust it's not gonna be pulled out away from them, the licensing is not going to change on them.
 
@@ -260,7 +260,7 @@ Basically, the idea is it's a home that provides support and protection for proj
 
 You know, my hope has always been that the foundation would encourage projects to collaborate more, instead of reinventing the wheel. For example, with Dojo 2 we leverage the PointerEvents Polyfill, which is a JS Foundation project. We leverage Globalize, which is another project, we leverage Intern, which is the testing framework that's part of the foundation, and we also use parts of Grunt for our development tooling...
 
-\[00:52:09.02\] So the idea is really not to say "Hey, all these projects should become the same", but if they have clear boundaries and API approaches, can they be used together in a nice way?
+\[52:09\] So the idea is really not to say "Hey, all these projects should become the same", but if they have clear boundaries and API approaches, can they be used together in a nice way?
 
 **Alex Sexton:** As far as like if I'm a person who maintains an open source library that's not huge, but a lot of people use my calendar implementation, or my something implementation... What do you suggest they do as far as licensing? Obviously, there are very specific licenses they could choose, but suppose like foundations how they manage the same minefield?
 
@@ -278,7 +278,7 @@ When you choose a license for your project, you very much need to decide what yo
 
 For years actually the Dojo Foundation said "Anyone could just follow the rules of the Dojo Foundation and contribute for code, even for their own project, in that way." The JS Foundation works a little differently in that it has basically a CLA bot that when you open a PR, if you haven't committed a PR to that project before, it makes you sign a form real quick in the browser that says "Hey, I know what I'm doing. I can contribute this code and I have the rights to" to streamline the process, but that also means it's kind of limited to the projects that are part of the foundation, because it needs to hook into that system. But again, it's just having a CLA process that says "I agree that the code I can contribute is mine to contribute" is really important.
 
-**Alex Sexton:** \[00:56:12.20\] Yeah, I've definitely found that almost tends to be the place where I worry the most about getting code that looks good to me, but actually someone didn't have the rights to actually give it to me. That can be scary.
+**Alex Sexton:** \[56:12\] Yeah, I've definitely found that almost tends to be the place where I worry the most about getting code that looks good to me, but actually someone didn't have the rights to actually give it to me. That can be scary.
 
 **Dylan Schiemann:** Absolutely. Just doing everything you can to make sure your users aren't gonna be sued for using your project is a good thing, and CLA is one part of that process, where the code you're accepting, the person who has submitted it has at least declared they have the rights to do that, is really powerful.
 

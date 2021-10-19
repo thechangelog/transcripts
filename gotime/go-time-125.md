@@ -42,7 +42,7 @@ Natalie, three meetups and three conferences you organize. That's phenomenal. Th
 
 **Mat Ryer:** Well, that's lovely. Actually, so that our listeners get to know you, for those that haven't met you, maybe we could start off with a working-from-home tip from each of you. That would be a great new regular slot of the show... Working from home tips. Ronna, do you wanna go first?
 
-**Ronna Steinberg:** \[00:04:15.19\] I think Natalie should actually go first. I mean, she does have more experience with this. I have more experience I think on managing this part.
+**Ronna Steinberg:** \[04:15\] I think Natalie should actually go first. I mean, she does have more experience with this. I have more experience I think on managing this part.
 
 **Mat Ryer:** Okay. Natalie, would you like to go first?
 
@@ -84,7 +84,7 @@ Then I came to the very first meetup, and he said "Oh, by the way, I'm moving to
 
 **Natalie Pistunovich:** There was one in Iceland, in Reykjavik.
 
-**Mat Ryer:** \[00:08:09.24\] Yeah, the Iceland one was also excellent. And this year, what's happening with--
+**Mat Ryer:** \[08:09\] Yeah, the Iceland one was also excellent. And this year, what's happening with--
 
 **Natalie Pistunovich:** Berlin. Well, this year, if you'd asked me a few months ago, I would have told you Berlin, and this is where it would end, but now there is a pandemic so... Hopefully Berlin. We'll see how things develop.
 
@@ -122,7 +122,7 @@ So some of the conferences are kind of commercial, others are more sort of just 
 
 **Natalie Pistunovich:** And then it was ranging from XS to 5XL. So I like onesies, for babies, which is really cute. But also, other types of things, like -- having spent some time living in Kenya and talking to people and learning how hard and disconnected the regular everyday in certain areas from what I'm used to from Europe got me really realizing how hard it is to be part of this if you're not living in a place like the U.S. or Europe.
 
-\[00:12:09.12\] And just doing a call for paper usually will not get you to reach such people... So I get a chance to use the network that I built there to every year to fly in speakers, or attendees. From Africa, from Latin America, from Asia... It is nice to be able to do this.
+\[12:09\] And just doing a call for paper usually will not get you to reach such people... So I get a chance to use the network that I built there to every year to fly in speakers, or attendees. From Africa, from Latin America, from Asia... It is nice to be able to do this.
 
 **Mat Ryer:** Yeah, because otherwise there probably isn't a conference or even a meetup near them, is there?
 
@@ -174,7 +174,7 @@ But finding a space is not always obvious. If your company is able to host this,
 
 **Johnny Boursiquot:** Before we move on, I am curious as to what some of the challenges beyond venue - and I'm not sure if food tends to be a part of the meetups, when they're organized in those environments, as they tend to be... You know, with U.S. or Europe-based meetups. So beyond venue and food, which are common, I would imagine, across all meetup organization - but beyond these, what is the most challenging aspects for, say, a meetup in Lagos or a meetup in Nairobi? Beyond that, what are some of the other concerns that you have to contend with, that you necessarily don't have to in the States, or in the U.K, or something like that?
 
-**Natalie Pistunovich:** \[00:16:26.06\] I think that's a great question. From the little bit that I got to see, Go is not yet as popular, so you can find many people individually working on this... But the network is still being built. For comparison, the Berlin User Group I think has almost 1,000 people, and many of them work in companies that are using Go.
+**Natalie Pistunovich:** \[16:26\] I think that's a great question. From the little bit that I got to see, Go is not yet as popular, so you can find many people individually working on this... But the network is still being built. For comparison, the Berlin User Group I think has almost 1,000 people, and many of them work in companies that are using Go.
 
 And even in the Berlin meetup it's sometimes hard to find people to give a talk, because they think their project is boring, because they think "Oh, it's just what I'm doing at work." So if this is a language you're learning for fun, and you're coming to listen and not necessarily to give a  talk, then having enough speakers is harder. But this is harder with any community that is beginning, and I think that Go is just not yet as popular there.
 
@@ -198,7 +198,7 @@ Then our members would do a real-life, industry-level challenge; something that 
 
 **Mat Ryer:** That's really cool, and that's a whole different ball game as well. So much to actually get your hands on and get stuck into. I find hands-on experience is a great way to learn for a lot of people, especially me... So yeah, learning by actually building is a nice thing that others ought to probably think about as well.
 
-**Ronna Steinberg:** \[00:20:12.21\] Yeah, it comes from my own experience. I mean, if there's one thing that I learned in my career, it's that I learned best when I was paid to learn something... \[laughs\] And I was actually doing it on the job. So I'm giving people the opportunity to learn on the job. They have access to mentors from the hosting company, the hosting company gets to maybe try and recruit people off of that, so they can you know.. a bit of a market going on, I'm not going to deny it. Hopefully, we'll get a lot of people recruited, and a lot of people hired, and we'll increase the community.
+**Ronna Steinberg:** \[20:12\] Yeah, it comes from my own experience. I mean, if there's one thing that I learned in my career, it's that I learned best when I was paid to learn something... \[laughs\] And I was actually doing it on the job. So I'm giving people the opportunity to learn on the job. They have access to mentors from the hosting company, the hosting company gets to maybe try and recruit people off of that, so they can you know.. a bit of a market going on, I'm not going to deny it. Hopefully, we'll get a lot of people recruited, and a lot of people hired, and we'll increase the community.
 
 **Mat Ryer:** Great.
 
@@ -214,7 +214,7 @@ There are these kinds of things that still exist, that I'm wondering if they pla
 
 **Natalie Pistunovich:** It's a really great question, and my answer is probably really biased, because I've only participated in the events that I was invited to, obviously... So I did not get a change even to be part of such events. But probably the most -- so Kenya felt to me very open-minded in that sense, and probably the place that had the most people with traditional outfits, if that's any indicator, was actually Mauritius, an island in Africa.
 
-\[00:23:49.08\] Even there, men that had a very traditional outfit, with this costume, and the head cover still were there, and listening to my talk, asking questions... But I'm sure that this is because they read the agenda and they saw that there's gonna be a woman speaker, and if they would not want that, they would not show up there in the first place.
+\[23:49\] Even there, men that had a very traditional outfit, with this costume, and the head cover still were there, and listening to my talk, asking questions... But I'm sure that this is because they read the agenda and they saw that there's gonna be a woman speaker, and if they would not want that, they would not show up there in the first place.
 
 So definitely that exists, definitely that's a problem. This is not something that I personally experienced, because usually it's announced who the speakers are. But it's really important that you're raising awareness to this, so thank you very much.
 
@@ -238,7 +238,7 @@ The reality is that hard work is not going to get you everywhere. For some peopl
 
 This thing about the work alone gets you to where you need to be - I think deep down everybody knows that's not true. It's never been -- that's table stakes, everybody has to work hard... And those who are privileged enough that don't have to work as hard, and they just have the connections, basically can just skip a few steps... And again, more power to them, whatever that ends up being for them.
 
-\[00:27:52.05\] But I think if everybody is working hard -- what we're trying to do... I'm gonna speak for Natalie and for Ronna for a little bit here... I think what we're all trying to do, because I think we're all part of this organization of community events group, I think what we try to do is basically create opportunities for people to learn and engage. We're broadening the surface area for connections to happen, for learning to happen. We're creating opportunities.
+\[27:52\] But I think if everybody is working hard -- what we're trying to do... I'm gonna speak for Natalie and for Ronna for a little bit here... I think what we're all trying to do, because I think we're all part of this organization of community events group, I think what we try to do is basically create opportunities for people to learn and engage. We're broadening the surface area for connections to happen, for learning to happen. We're creating opportunities.
 
 We can't open some doors for people, because -- I don't know about you, but I don't have that much pull. I can't place somebody at a company and say "Hey. Here, have a job." I can't give you a job; I can create opportunities for you to come, and to meet, and to learn, and to participate, and to engage, and to give some of yourself and some of your time... And the more you give, the more you receive.
 
@@ -258,7 +258,7 @@ But then, there is always this concern that people who do come, are not necessar
 
 I think it's very important, because we do put a lot of work into this, and we're always worried that -- you know, on the one hand we don't wanna pressure anybody. But on the other hand, we don't want to see opportunities go to waste.
 
-**Break:** \[00:32:12.29\]
+**Break:** \[32:12\]
 
 **Mat Ryer:** Could you tell us a bit more about the scholarship then, please?
 
@@ -294,7 +294,7 @@ I think it's very important, because we do put a lot of work into this, and we'r
 
 Then it turned out that it's quite a headache, trying to figure out what to say in that form. Because if people are applying -- for instance, how do you ask somebody what under-represented group they belong to? Because when we asked them what under-represented groups they identify with, people who are not necessarily a native English speaker just said "All of them. I identify with every single fight, from every under-represented group out there." So I think there's a lot of that going on...
 
-\[00:36:32.15\] And then how to get people to trust you over a form, with personal information that is quite sensitive, and... A lot of things that happen in there. Then there is forming a committee to figure out who's going to go. It is very hard to tell people that they are going to measure other people, and it's a very difficult task, I think. I'm glad actually that I don't rank people, and I don't decide who goes, because that makes my life a bit easier. And then take all of that data...
+\[36:32\] And then how to get people to trust you over a form, with personal information that is quite sensitive, and... A lot of things that happen in there. Then there is forming a committee to figure out who's going to go. It is very hard to tell people that they are going to measure other people, and it's a very difficult task, I think. I'm glad actually that I don't rank people, and I don't decide who goes, because that makes my life a bit easier. And then take all of that data...
 
 And then there is the logistic of hotel, flights and all of that stuff. Some of these people are flying for the very first time in their lives, and they're going to be doing it on their own.
 
@@ -316,7 +316,7 @@ So I think these scholarships really need to take things very seriously. We are 
 
 What I did in the first year was go to Meetup.com, go to WomenTechmakers.com - all those platforms list different types of meetups - and just start searching for keywords. I personally texted on Twitter and on Meetup and on Facebook to those different groups, "Hi, Women Who Tech in Lesotho. Please share this with your attendees." Being able to reach people outside of your immediate or even first or second degree of connections is incredibly hard.
 
-**Mat Ryer:** \[00:40:23.15\] So you find existing communities and go there. That's one way.
+**Mat Ryer:** \[40:23\] So you find existing communities and go there. That's one way.
 
 **Natalie Pistunovich:** Yes, this is one thing you do. Another thing is that in those events, in those meetups, whenever I get a chance to give a workshop or a talk somewhere that is not Europe and not the U.S, I'm making sure to stay in touch with as many people as possible, so that later I'll be able to tell them "Hey, this is the time for the scholarship. Please share this with anybody you think can be relevant."
 
@@ -348,7 +348,7 @@ And here's the other thing, too - the importance of representation, the importan
 
 Maybe you're learning Go for the first time, maybe you're coming from a different language, or a different community; it doesn't matter. In some sense, we are all beginners. Because even the experienced folks within the community, we are learning from the beginners as well. It's not like we reached a pinnacle and we stopped learning. We're still learning, too. We're all learning together.
 
-\[00:43:59.01\] So the importance of actually making it okay to say "Hey, you know what - we know it's intimidating from the outside, but let us help you be part of this community", I think it's huge. So yeah, kudos to you, Natalie; that was a very enjoyable talk. It kind of gave me courage to do mine the following year. But yeah, I think these things are important.
+\[43:59\] So the importance of actually making it okay to say "Hey, you know what - we know it's intimidating from the outside, but let us help you be part of this community", I think it's huge. So yeah, kudos to you, Natalie; that was a very enjoyable talk. It kind of gave me courage to do mine the following year. But yeah, I think these things are important.
 
 **Natalie Pistunovich:** Well, thank you for the great talk.
 
@@ -392,7 +392,7 @@ When you're organizing something, it's all about that organization and all the e
 
 **Ronna Steinberg:** I was told a lot of stories about what happened, but I actually cannot give a first-hand account for this.
 
-**Natalie Pistunovich:** \[00:47:52.05\] So we started the fish bowl session with Alan, who was the first speaker, and myself. We proposed the topic of becoming a GDE. Then there were some questions around that. Then the next topic was -- I cannot remember, but I'm pretty sure the topic that impressed Ronna the most was when one of the Women Who Go members who came to this meetup, she started asking the crowd on being a beginner in Go. And she got a lot of great tips, and was practically handling the crowd on her own for about 15 minutes; she learned a lot, taught the group a lot...
+**Natalie Pistunovich:** \[47:52\] So we started the fish bowl session with Alan, who was the first speaker, and myself. We proposed the topic of becoming a GDE. Then there were some questions around that. Then the next topic was -- I cannot remember, but I'm pretty sure the topic that impressed Ronna the most was when one of the Women Who Go members who came to this meetup, she started asking the crowd on being a beginner in Go. And she got a lot of great tips, and was practically handling the crowd on her own for about 15 minutes; she learned a lot, taught the group a lot...
 
 **Mat Ryer:** That's great.
 
@@ -444,7 +444,7 @@ And it's the holiday season, so everybody is out of office, and longer vacations
 
 **Mat Ryer:** If we make this into a Netflix special, that's what has to happen. \[laughter\] You've just gotta give people what they want.
 
-**Break:** \[00:51:40.03\]
+**Break:** \[51:40\]
 
 **Mat Ryer:** So as attendees, as people that are gonna take part in this community but aren't involved in organizing, what things can we do to make your lives easier? That's always an interesting thing to think about, and often the answers surprise me, so it might be nice for people to hear. Is there anything in particular that we should or shouldn't be doing, that we do, that we probably just don't even know we're doing it?
 
@@ -496,7 +496,7 @@ I had organized an event, and kind of dealing with the same logistical issues th
 
 **Natalie Pistunovich:** \[laughs\]
 
-**Johnny Boursiquot:** \[00:56:03.09\] And then thankfully, I had -- I think it was 2-3 days. It wasn't the day before, like Natalie's, but close enough to be like "Oh, man...!" Maybe it was my ego, I was just kind of bruised a little bit, and I'm like "I don't like this." So I decided to cancel the event.
+**Johnny Boursiquot:** \[56:03\] And then thankfully, I had -- I think it was 2-3 days. It wasn't the day before, like Natalie's, but close enough to be like "Oh, man...!" Maybe it was my ego, I was just kind of bruised a little bit, and I'm like "I don't like this." So I decided to cancel the event.
 
 Later on, after I'd organized a make-up or follow-on event or whatnot, later on I had somebody come during that event and tell me "Hey... You know, the last time you had organized this event, I had gotten a babysitter, I had made arrangements..." They were from an under-represented group, so they were already struggling financially to be able to set time aside from work. They probably worked multiple jobs and they had to take time off, and they had to find a babysitter, go out of pocket...
 

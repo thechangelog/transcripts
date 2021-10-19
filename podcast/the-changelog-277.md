@@ -86,7 +86,7 @@
 
 **Julia Liuson:** From a business model perspective we totally missed it. We didn't create Amazon, we didn't create Facebook, we didn't create Google, and all of these internet business models, even though they all started their business from the Microsoft IE browser.
 
-**Jerod Santo:** \[00:08:10.22\] Right, Internet Explorer. For a lot of people that WAS the internet.
+**Jerod Santo:** \[08:10\] Right, Internet Explorer. For a lot of people that WAS the internet.
 
 **Julia Liuson:** I think we were the enablers; I think we enabled people to build these true internet companies, but we didn't really--
 
@@ -172,7 +172,7 @@ If you think about even in the '97 -- let's just say '97 kind of timeframe... '9
 
 **Julia Liuson:** Right, because the infrastructure wasn't there. So you optimize for different things. At that time, if you had any questions or problems with your software, you would call Microsoft... There was no internet, right? '97, '98... And you would call our product support people on the phone, try to describe your problem, and we'll be like "Oh, we're trying to help you sort it out" etc, but even if I figured out a little issue that I had, I don't really have a way as Microsoft to give you a patch; there was just no such mechanism allowed or was really enabled.
 
-**Adam Stacoviak:** \[00:12:10.11\] Right. The only way to get them something would be to mail that to them... Potentially.
+**Adam Stacoviak:** \[12:10\] Right. The only way to get them something would be to mail that to them... Potentially.
 
 **Julia Liuson:** Well, even with mail, you have -- like, the installer doesn't support a patch, the software doesn't know how to patch, you need to have someone from IT to patch it for you... It's super complicated.
 
@@ -202,7 +202,7 @@ Fast forward, for us the transformation really started after we shipped Visual S
 
 So it was a major transformation that we had to go through, and that transformation happened with every single major Microsoft product line, to say "Well, how do we really take that huge box software mentality and think about every piece of software we ship in Microsoft as a service, which you make incremental updates quickly, and you really observe and respond to customer feedback quickly?" That's really the pursuit that we have been on.
 
-**Jerod Santo:** \[00:16:07.25\] Interesting. So that transition seems to correlate with what we opened with, which is the opening up of the software as well... Because you could have changed all your machinery, but still shipped proprietary binaries... But you didn't do that; you changed the machinery of the way you build the software to be incremental, but you also, it seems like one by one, or sometimes five by five, these different individual products, or .NET Core and then more of .NET, so on and so forth. You just opened up the software itself. Speak to that decision and how it played out.
+**Jerod Santo:** \[16:07\] Interesting. So that transition seems to correlate with what we opened with, which is the opening up of the software as well... Because you could have changed all your machinery, but still shipped proprietary binaries... But you didn't do that; you changed the machinery of the way you build the software to be incremental, but you also, it seems like one by one, or sometimes five by five, these different individual products, or .NET Core and then more of .NET, so on and so forth. You just opened up the software itself. Speak to that decision and how it played out.
 
 **Julia Liuson:** Yeah, and that is another great question, because you're exactly right - changing a software process doesn't necessarily change the deliverable. And of course, that huge pivot we made is that Visual Studio was really, for a long time - and that's the old meme we're talking about - people think about it as a product that only runs on Windows, that only supports Microsoft platforms. That was true for many years. And the strategic pivot we actually decided on is that we want to -- and it's very much tied with the new Microsoft mission when Satya became CEO... We wanna empower every person, every organization to achieve more, and how that comes down to us in the developer division space is that we want to really empower every developer and every development team to achieve more.
 
@@ -218,7 +218,7 @@ That capability of us understanding developers' needs and open-sourcing our core
 
 The power of the IDE is that there's a whole set of -- it's particularly powerful when you have very complex multi-step processes that will just simplify and automate it for you. That is actually one of the biggest powers of the IDE.
 
-\[00:20:03.00\] Think about, for example, what we download on-stage in terms of mobile development. You're developing a bunch of code, we're compiling it, and then we're actually patching that into the device or emulator, and then setting up the debugger with it, and we demo very similar scenarios for Docker's development against our Azure Kubernetes Service (AKS), and from Visual Studio IDE's. A simple, almost F5 gesture, and all of that workflow is done for you.
+\[20:03\] Think about, for example, what we download on-stage in terms of mobile development. You're developing a bunch of code, we're compiling it, and then we're actually patching that into the device or emulator, and then setting up the debugger with it, and we demo very similar scenarios for Docker's development against our Azure Kubernetes Service (AKS), and from Visual Studio IDE's. A simple, almost F5 gesture, and all of that workflow is done for you.
 
 A lot of developers love them, but there are also developers for some scenarios, like "I don't wanna use your workflow. I want to go construct my own workflow, so I just want the code editor to go do a thing for me, and I can go assemble my own workflow for me." That also happens. So we're like, "You know what? In that case, Visual Studio Code is great for you." You define and you decide what your workflow is. It's not going to package these things up for you, so you have the full freedom to go do and write whatever code you want to go write. And we provide this light IntelliSense to help you, we have this light capability of debugging to help you... So it's not going to decide your workflow for you.
 
@@ -240,7 +240,7 @@ Our learning is that we actually have that, the Monaco editor embedded in a numb
 
 And I remember we had this conversation -- I remember Anders was there, and Eric was there, and a bunch of other people... And we were like, "Why don't we just make a local editor, and we can experiment, we can see how the community thinks about it, whether there's some catch-on or not...?" And we have, between Erich Gamma, who obviously was one of the key folks behind Eclipse back at IBM, and all of the VS folks, we have many, many decades of experience building IDE's, so we know what are the key workflows and things like that, what are the thoughts, so we positioned it to be what we call a lightweight code optimize editor - that was the key positioning. And we were like "That is the area we're really gonna focus on, and we're gonna have a very flexible extension system, and the way we design extensions is going to be such that it can never interfere with some main editor experience, which is a core lesson that we have learned from both Eclipse and Visual Studio. I cannot necessarily say the same thing about the Visual Studio extension system, or the Eclipse extension system.
 
-\[00:24:19.07\] We have taken these lessons that we have collectively learned and applied it to the design of VS Code. Initially, we were like "Hey, let's try it out, to see if it's actually something that's gonna resonate with the market, and to see if there's actually a developer need." What we learned is yes, there is one, and not to mention that it's always great when our strategy of really serving all the developers married very well with identifying good pain points, and actually deliver a good solution. When those things come together, it's just super powerful.
+\[24:19\] We have taken these lessons that we have collectively learned and applied it to the design of VS Code. Initially, we were like "Hey, let's try it out, to see if it's actually something that's gonna resonate with the market, and to see if there's actually a developer need." What we learned is yes, there is one, and not to mention that it's always great when our strategy of really serving all the developers married very well with identifying good pain points, and actually deliver a good solution. When those things come together, it's just super powerful.
 
 **Jerod Santo:** Yeah, that's gotta be exciting.
 
@@ -258,7 +258,7 @@ One of the phrases I increasingly say is that we're not only customer obsessed, 
 
 **Jerod Santo:** Do you see the analogy of Microsoft Word would be your IDE, and then your Notepad would be your VS Code, and they serve different niches during context, right? Do you see that as lasting 5, 10 years down the road, them running in parallel, or do you see VS Code as eventually becoming the one true editor, as it usurps its established product?
 
-**Julia Liuson:** \[00:28:10.01\] I think that one of the things we have learned in the last five years as well is that we used to do five-year planning - we no longer do that because the tech world changes so fast. Five years ago, can you imagine we're here talking about these things, and talking about Kubernetes and containers?
+**Julia Liuson:** \[28:10\] I think that one of the things we have learned in the last five years as well is that we used to do five-year planning - we no longer do that because the tech world changes so fast. Five years ago, can you imagine we're here talking about these things, and talking about Kubernetes and containers?
 
 **Adam Stacoviak:** It's a different world.
 
@@ -282,7 +282,7 @@ One of the phrases I increasingly say is that we're not only customer obsessed, 
 
 I personally think the best way for us to really keep going forward is to have a very tight engagement loop, constantly hear our customers' feedback, understand in the new world what are the new pain points our customers are experiencing, and continue to provide value to our customers. That's really quickly, right? That's actually the way to kind of keep moving forward with the industry. We're creating new technologies, other companies are creating new technologies, the entire industry is moving up very fast, and we just have to keep going with that flow.
 
-**Break:** \[00:30:01.27\]
+**Break:** \[30:01\]
 
 **Jerod Santo:** You've been there from the beginning...
 
@@ -404,7 +404,7 @@ So then what we decided to do -- it was kind of popular, but we decided "Well, l
 
 **Adam Stacoviak:** At that point you're like "I'm just drinking my coffee, man..."
 
-**Chris Dias:** \[00:39:51.24\] Yeah, "Get out. Get out of my face." \[laughter\] So we decided to pivot and see if we could do a local client based tool. Again, since we had this Node infrastructure and everything, we moved it over to -- what was it called before it was Electron? There was Electron, before that it was called Atom Shell, but then there was the...
+**Chris Dias:** \[39:51\] Yeah, "Get out. Get out of my face." \[laughter\] So we decided to pivot and see if we could do a local client based tool. Again, since we had this Node infrastructure and everything, we moved it over to -- what was it called before it was Electron? There was Electron, before that it was called Atom Shell, but then there was the...
 
 **Jerod Santo:** Before Atom Shell?
 
@@ -424,7 +424,7 @@ So that was kind of the genesis of it, and really that's the way it progressed. 
 
 I think also a big component of it is honestly the openness and transparency of the VS Code team with the community. I think a number of people that have been converts from other tools have been because they've been able to interact with members of the VS Code team on GitHub, through issues or pull requests, or even over Twitter.
 
-\[00:44:08.01\] I think something that the team prides themself of quite a bit is how open and how engaged they are with the community of not just developers that use VS Code, but developers that use other tools.
+\[44:08\] I think something that the team prides themself of quite a bit is how open and how engaged they are with the community of not just developers that use VS Code, but developers that use other tools.
 
 **Chris Dias:** Yeah, I'll echo... To me, it's editing and debugging. So like, you say you're a JavaScript guy and you're using Sublime; probably you have a bunch of packages that you've figured out that you kind of like, and recommended from other people... It may or may not provide you sort of a completion experience for plain old JavaScript, right?
 
@@ -466,7 +466,7 @@ The other thing I wanted to note on this point was -- I just forgot what it was.
 
 **Chris Dias:** So the other thing about Typescript and JavaScript - you can do sort of like a single file, bar x = some string and parts but with Typescript it works actually cross-file. All the files and folders in your workspace you can sort of just say "Here's the universe of things", so then I get completions against things that are in other files.
 
-**Jerod Santo:** \[00:48:20.18\] As long as they're in the same project or folder...
+**Jerod Santo:** \[48:20\] As long as they're in the same project or folder...
 
 **Chris Dias:** Yeah, and you can even go so far as put a JSON file in the folder to say "Here's what my workspace looks like. Here's my project. Include these files, exclude these files. This is how I want the compiler to run against it", and you configure it quite a bit. But by default it just happens.
 
@@ -506,7 +506,7 @@ Inspecting values is that much faster; you don't have to litter your code with c
 
 **Chris Dias:** Yeah, so it's not overwhelming; we try to not be overwhelming in VS Code. We actually try to make it so that people that write debuggers can actually contribute things back to the explore on the left-hand side... So for like a particular language, if there's something that's really useful for that language, they can contribute, but everybody is not then bombarded with that UI. We try to make it pluggable for the debuggers.
 
-\[00:52:03.29\] The shared debugging we showed today was actually really cool, because -- I mean, the scenario is really like "Hey, can you come over here and look at this? Help me debug this thing", and you basically sit there and you're both like "step-step-step-step." But if you're in another room, another place, to be able to let you do it--
+\[52:03\] The shared debugging we showed today was actually really cool, because -- I mean, the scenario is really like "Hey, can you come over here and look at this? Help me debug this thing", and you basically sit there and you're both like "step-step-step-step." But if you're in another room, another place, to be able to let you do it--
 
 **Jerod Santo:** It's not a person  this is not screen sharing.
 
@@ -546,7 +546,7 @@ I think with pair programmers probably it is, but with lots of other stuff...
 
 **PJ Meyer:** Or VS Code. They don't need to have VS Code. Amanda had Visual Studio 2017, so Chris was going from VS Code on a Mac to Visual Studio on a PC.
 
-**Jerod Santo:** \[00:55:56.07\] So what does that session data look like on the wires? It has to be a normalized format that at least those tools can use it. Is it a thing that you could publish a spec and people could plug it in? So I could be using Sublime and you could be using VS Code, and because we both -- you know, whoever wrote the Sublime side of it, wrote to that format, they can get the session data... Is that a potential thing?
+**Jerod Santo:** \[55:56\] So what does that session data look like on the wires? It has to be a normalized format that at least those tools can use it. Is it a thing that you could publish a spec and people could plug it in? So I could be using Sublime and you could be using VS Code, and because we both -- you know, whoever wrote the Sublime side of it, wrote to that format, they can get the session data... Is that a potential thing?
 
 **Chris Dias:** I think it's definitely a potential thing. I don't know if it's in the roadmap or where it is in the roadmap, but if you think about it, it makes sense. It's kind of like -- we talked a little bit about language servers earlier... We actually have this nice protocol, it's called the Language Server Protocol, that we made open source in a public area thing, which basically means that any editor or IDE can use the language server and plug into the environment. So you can use Sublime with Typescript and get a pretty rich editing experience, because it goes to the Language Server Protocol.
 

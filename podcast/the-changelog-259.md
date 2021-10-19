@@ -18,7 +18,7 @@ As a chair, I was also a speaker by giving two workshops on the first two days. 
 
 **Kelsey Hightower:** Shaking hands... Sometimes people come to see you. Maybe you have an open source project that you released and this is the first time they get to see you in person, and then you can actually make time for them one-on-one to go deeper in that conversation. And then I'm also learning, too. So I go and say "Hey, what are you working on?" and I just listen for a minute.
 
-**Adam Stacoviak:** \[00:04:10.24\] Give us an example of some feedback you heard from the community, about the conference. What's something you heard today?
+**Adam Stacoviak:** \[04:10\] Give us an example of some feedback you heard from the community, about the conference. What's something you heard today?
 
 **Kelsey Hightower:** I think a lot of people were interested that our government is now actually embracing and shipping things. People think open source is just a grassroots thing that you do if you're hardcore, and then everyone else in the world ignores it. The scope of it has grown big time, and for some people having a person in a tailor-made suit on stage, articulating in very great detail about what they're doing at the White House and being able to give us a URL to go touch the code... Whether you're a startup or a big company, that's always been a challenge -- do you actually ship? And now here we are, the White House is shipping internal projects; I think a lot of people are like "Oh, if they can do it..." This is the king of bureaucracy, right? The government is actually shipping software.
 
@@ -54,7 +54,7 @@ And from there, just doing work in the community, I was invited to be a co-chair
 
 **Kelsey Hightower:** "Do I belong?", and the truth is for most people it's where they come and do their first contribution. So we kind of have this kind of getting started segment of the show where you come out and you actually get to do your first commit, or you learn how to do Git for the first time. "How do I check out some code? How do I set up my editor?" There are a lot of tutorials that are geared towards that. Some of the things, like the Open Container Day, where people come and contribute... We have a thing called Open Contribute as well - you can get in that with a hall pass.
 
-\[00:08:08.03\] So you just get the smaller tier thing, the hall pass, you walk around and you get all the events: after parties, you get to go to all the Container Day, TensorFlow Day, and learn from all the people that are core contributors to these projects. I think it's worth for people to come in and get that experience and then decide if they wanna go a little deeper in the next year.
+\[08:08\] So you just get the smaller tier thing, the hall pass, you walk around and you get all the events: after parties, you get to go to all the Container Day, TensorFlow Day, and learn from all the people that are core contributors to these projects. I think it's worth for people to come in and get that experience and then decide if they wanna go a little deeper in the next year.
 
 **Jerod Santo:** I'm changing the subject a little bit on you... A recent tweet - I think you even have it pinned at this point - "I don't write code for free, I write code for freedom."
 
@@ -78,7 +78,7 @@ Just my personal background - when I decided to write code myself, I turned on G
 
 **Kelsey Hightower:** So I try to follow with my actions. Recently I was here in Austin and I gave a keynote about my personal life, and let's just say there was a lot of people crying, myself included, on stage, because some of those words I've never said out loud before... And it wasn't a sad story, it was just a very real story. To me, that is meeting the expectations of the community, taking all feedback from years and years of doing this stuff, and then one day being able to be on stage and give it right back to people - that's what happens when you listen.
 
-**Adam Stacoviak:** \[00:12:11.10\] What is this keynote you were speaking of?
+**Adam Stacoviak:** \[12:11\] What is this keynote you were speaking of?
 
 **Kelsey Hightower:** At DevOps Days, Austin, I gave this keynote. It's untitled.
 
@@ -118,7 +118,7 @@ Someone came up to me afterwards and was like "You did that on purpose, you were
 
 **Adam Stacoviak:** Pull through, man!
 
-**Jerod Santo:** \[00:16:01.28\] And then cheering them. No one's in the audience like "Ha-ha! We knew you were gonna mess up this live demo! We caught you!" Everyone's there cheering on the person.
+**Jerod Santo:** \[16:01\] And then cheering them. No one's in the audience like "Ha-ha! We knew you were gonna mess up this live demo! We caught you!" Everyone's there cheering on the person.
 
 **Kelsey Hightower:** You said something really important there, "We caught you!" Like, people are there usually to support the speaker, and when people hit a rough spot or they get emotional or they get scared or nervous, you can look into people's eyes and you just see they're like "I'm right here for you. I'm not checking my email right now. You're good, I'll be quiet while you get through this." I think a lot of people forget that that's the interaction we have.
 
@@ -154,7 +154,7 @@ Someone came up to me afterwards and was like "You did that on purpose, you were
 
 **Adam Stacoviak:** Coming up after the break we talk with Safia Abdalla about being a command line junkie, and her talk on the intersection of business and open source, and how open source can operate more like a business. We also talk about the ever-growing number of hats and skills required of open source maintainers. All this and more, after the break.
 
-**Break:** \[00:20:01.01\]
+**Break:** \[20:01\]
 
 **Adam Stacoviak:** Safia - like Mafia - Abdalla.
 
@@ -204,7 +204,7 @@ Someone came up to me afterwards and was like "You did that on purpose, you were
 
 There was a couple of stuff more recently... I released Giddy, which is a command line wrapper around Git, and it attempts to address some of the user experience hiccups with Git.
 
-\[00:24:08.11\] Revision history traversal at the command line with Git is not super fun, so Giddy abstracts that logic out and provides you two simple commands to do revision history traversal, and it's also got a Giddy-oops functionality, which basically allows you to fix common Git issues, like "Oh, I made a commit, but I forgot to add this file", or "Oh, I wanna undo this commit that I just did."
+\[24:08\] Revision history traversal at the command line with Git is not super fun, so Giddy abstracts that logic out and provides you two simple commands to do revision history traversal, and it's also got a Giddy-oops functionality, which basically allows you to fix common Git issues, like "Oh, I made a commit, but I forgot to add this file", or "Oh, I wanna undo this commit that I just did."
 
 **Jerod Santo:** A lot of command line tools.
 
@@ -280,7 +280,7 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Safia Abdalla:** Good. Adam knows what he's talking about.
 
-**Jerod Santo:** \[00:28:10.22\] But we caught you off when you were talking about PyData Chicago, so I apologize...
+**Jerod Santo:** \[28:10\] But we caught you off when you were talking about PyData Chicago, so I apologize...
 
 **Safia Abdalla:** Yeah, so we meet once a month; generally, people talk about work that they're doing that's really into machine learning, deep learning, really interesting stuff going on in the field that's also happening out in open source... Because one of the big things about data science is although it can be used to push a company's bottom line forward and help them make more money because they understand their customers' habits better, it's also something that should be done in a public space. People should know what technology companies are using to process their data and have insights and awareness into how that works. So my effort with PyData Chicago is just kind of bring more transparency into the field of data science.
 
@@ -340,7 +340,7 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Safia Abdalla:** Yeah, so the premise I started off in my talk was the fact that a lot of open source projects, at least the ones that are really notorious, well known and well utilized in the industry, in production and inside projects and pretty much everywhere, are the ones where the maintainers or contributors have put in a lot of time into developing the technical codebase, the documentation, they've put in a lot of work in developer evangelism and the marketing and branding, and they've also, to a certain extent, done some work around fundraising and sustainability plans for their open source project.
 
-\[00:32:07.00\] The premise I laid out was all of these things are things that a tech startup would do. Think of any successful tech startup, and it's likely that they're executing all five of those things. But open source maintainers and contributors who own or build large successful projects don't get the same amount of noise or attention that tech CEOs do, because there just isn't that allure and that curiosity associated with open source. So the premise I laid out was that every open source project that operates and has a certain scale is actually a mini-business, and maintainers are actually entrepreneurs who have the potential to go off and start tech companies in the usual lens that we think of them.
+\[32:07\] The premise I laid out was all of these things are things that a tech startup would do. Think of any successful tech startup, and it's likely that they're executing all five of those things. But open source maintainers and contributors who own or build large successful projects don't get the same amount of noise or attention that tech CEOs do, because there just isn't that allure and that curiosity associated with open source. So the premise I laid out was that every open source project that operates and has a certain scale is actually a mini-business, and maintainers are actually entrepreneurs who have the potential to go off and start tech companies in the usual lens that we think of them.
 
 I talked a little bit about what that means for us to exist in a society that glorifies and values the Mark Zuckerbergs, but doesn't glorify and value the people who made it possible for Mark Zuckerberg to build Facebook in his dorm room, over the course of a couple of days or weeks.
 
@@ -378,7 +378,7 @@ I talked a little bit about what that means for us to exist in a society that gl
 
 **Adam Stacoviak:** So as it versions...
 
-**Safia Abdalla:** \[00:36:05.01\] Yeah, scrolling through settings in their app is a bit more hidden. In the install screen, if that's something where the software would make sense to have that kind of information displayed in the install screen... But I think move it away from like hidden behind settings and various toggles and menus, and just put it front and center where the user can access it if they know that that's what they wanna read.
+**Safia Abdalla:** \[36:05\] Yeah, scrolling through settings in their app is a bit more hidden. In the install screen, if that's something where the software would make sense to have that kind of information displayed in the install screen... But I think move it away from like hidden behind settings and various toggles and menus, and just put it front and center where the user can access it if they know that that's what they wanna read.
 
 **Adam Stacoviak:** Yeah... I was surprised that they did it at all.
 
@@ -442,7 +442,7 @@ I talked a little bit about what that means for us to exist in a society that gl
 
 Just like in business, there's luck and timing, and there's things outside of your control, but a lot of the people that we see having success in open source is because they are thinking about it in the same way that an entrepreneur would. They're very deliberate about their actions, and they're not just floating some software out there.
 
-**Safia Abdalla:** \[00:40:02.09\] Yeah... One thing that I like to say is if you wanna have a successful open source project, you have to have a lot of hustle. It's that same--
+**Safia Abdalla:** \[40:02\] Yeah... One thing that I like to say is if you wanna have a successful open source project, you have to have a lot of hustle. It's that same--
 
 **Adam Stacoviak:** You have to have what?
 
@@ -512,7 +512,7 @@ So I'll probably keep developing that. I'm probably gonna say in the JavaScript 
 
 We also get a glimpse at a different side of GitHub... The side that Nadia and Mike work on that has a mission of better supporting open source maintainers, their communities, and communicating their road map to open source developers. Stick around.
 
-**Break:** \[00:43:53.07\]
+**Break:** \[43:53\]
 
 **Adam Stacoviak:** So we're here with Mike McQuaid and Nadia Eghbal from GitHub. It's been a fun conference, open source at OSCON - the Changelog's here...
 
@@ -570,7 +570,7 @@ We also get a glimpse at a different side of GitHub... The side that Nadia and M
 
 **Nadia Eghbal:** Well, it's the first year either of us have been involved with it, so...
 
-**Adam Stacoviak:** \[00:48:01.12\] Well, they keep inviting you back, or at least letting you pay to come back, so something is working... \[laughter\]
+**Adam Stacoviak:** \[48:01\] Well, they keep inviting you back, or at least letting you pay to come back, so something is working... \[laughter\]
 
 **Jerod Santo:** Well, there is a transaction in there, I'm sure.
 
@@ -640,7 +640,7 @@ When I speak to people as a GitHubber, if people had complaints with GitHub, I w
 
 **Nadia Eghbal:** The guides...
 
-**Jerod Santo:** \[00:51:56.11\] The guides, as well as the -- even just recently, which I don't even know if it had any fanfare, but you're not adding license metadata in a very explanatory way to everything, as you're like picking. So just making it easier on us when we're making those decisions that are outside of our developer wheelhouse smoother... Really helpful.
+**Jerod Santo:** \[51:56\] The guides, as well as the -- even just recently, which I don't even know if it had any fanfare, but you're not adding license metadata in a very explanatory way to everything, as you're like picking. So just making it easier on us when we're making those decisions that are outside of our developer wheelhouse smoother... Really helpful.
 
 **Nadia Eghbal:** There are some really good things coming on the pipeline too from the community and safety team, just in terms of helping you manage your communities better and manage those conversations. There are a lot of really good things in the works this year that I'm very excited about, but won't talk about because...
 
@@ -678,7 +678,7 @@ When I speak to people as a GitHubber, if people had complaints with GitHub, I w
 
 **Mike McQuaid:** Yeah. I think we are beginning to open up a bit more with that, and opening up with the community and not making everything a public announcement, but reaching out to people who are gonna be affected by these changes and getting their feedback on them before the release.
 
-**Adam Stacoviak:** \[00:54:08.24\] Gotcha. The open source guides that you did - is that focused towards maintainers, or on-ramping contributors? What is the purpose of the guides?
+**Adam Stacoviak:** \[54:08\] Gotcha. The open source guides that you did - is that focused towards maintainers, or on-ramping contributors? What is the purpose of the guides?
 
 **Nadia Eghbal:** All of it. Originally, the idea was to have information publicly available for maintainers or aspiring maintainers, so that that kind of knowledge is shared among the whole community, but I think some of the most popular content has actually been some of the stuff that we wrote about how to contribute to open source in the first place and find a project, and that's also been coming around even internally, having that information out there, and taking the stance of saying "This is the way that open source gets built" has fed into our product itself. That's been really good.
 

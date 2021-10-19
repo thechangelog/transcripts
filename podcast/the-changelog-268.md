@@ -4,7 +4,7 @@ Give us a little bit of the back-story. Tell us what it is first, and we'll dive
 
 **Eduardo Cuducos:** Okay, good. First of all, thanks, Fabio, once more. Anyway, I think we are pretty good at technology stuff; by 'we', I mean people who started this project... But some of us were not so familiar with politics in general, so at a certain point Irio one of the founders, decided to get more involved in politics, and he might have asked a question that goes something like "How can I use the knowledge I have in technology (he's a great data scientist, he's a great developer) to go to a sea that is unknown to me, like politics?"
 
-\[00:04:18.03\] As we live in an age that we have a lot of open data about our government, it was kind of one possible answer to use data science to understand what this data was telling us about our government, so we can know who should we vote for, or at least who shouldn't we vote for... So I think that is the very beginning of the idea of Serenata de Amor.
+\[04:18\] As we live in an age that we have a lot of open data about our government, it was kind of one possible answer to use data science to understand what this data was telling us about our government, so we can know who should we vote for, or at least who shouldn't we vote for... So I think that is the very beginning of the idea of Serenata de Amor.
 
 **Jerod Santo:** So if you're gonna summarize where we're at today or what it does currently, just at a big picture -- we'll dive into the details, but what does it do?
 
@@ -18,7 +18,7 @@ We are still looking for further data -- not looking for, but looking into (does
 
 **Jerod Santo:** Right. So you gave us the initial idea, and now we know what it is, what it does. Let's hear the back-story on bringing this software to exist. You said the idea happened... I'll lay out there that two months of development was crowdfunded, almost 1,300 people participated in that crowdfunding event... Tell us that story, when the founder had the idea for this project and how it came to be.
 
-**Eduardo Cuducos:** \[00:08:09.03\] The founder is called Irio, and he had at a certain point that question in his mind "How can I use the technology I have to go deeper in politics?" He approached some friends - I was one of them - and we looked at his idea and said "Wow, that's amazing. Let's do something about it." The three of us were very familiar with crowdfundingm for different reasons, and our idea was "Okay, let's put a project on a crowdfunding platform, so we can raise money to do a kind of MVP and kind of show people that this is possible - we can actually use technology, we can use machine learning to make sense of it." There's like tons of data that is public by a law in Brazil, and in most of the countries, wherever they are.
+**Eduardo Cuducos:** \[08:09\] The founder is called Irio, and he had at a certain point that question in his mind "How can I use the technology I have to go deeper in politics?" He approached some friends - I was one of them - and we looked at his idea and said "Wow, that's amazing. Let's do something about it." The three of us were very familiar with crowdfundingm for different reasons, and our idea was "Okay, let's put a project on a crowdfunding platform, so we can raise money to do a kind of MVP and kind of show people that this is possible - we can actually use technology, we can use machine learning to make sense of it." There's like tons of data that is public by a law in Brazil, and in most of the countries, wherever they are.
 
 This was kind of a crazy thing to do, because there's no -- we couldn't expect much from crowdfunding in terms of money; it wasn't feasible to expect money to work for a full year in the project, so we kind of estimated that we could raise money for two months. Two months is a very short period of time for a data science project, so we decided that we should start with a very simple idea, get our hands dirty on it and just show people that it's really possible.
 
@@ -36,7 +36,7 @@ What was pretty much important was that we got a lot of support from the media i
 
 **Eduardo Cuducos:** It was literally going through law text... So we have a document - I really don't know how to say what this document is in English; it's not a law, but it's a kind of agreement from the Lower House, from the Chamber of Deputies, saying how much is this money we're talking about and how representatives can use it.
 
-**Adam Stacoviak:** \[00:12:08.20\] Okay. So kind of like guidelines on how public officials can use public funds to go about doing their jobs day to day.
+**Adam Stacoviak:** \[12:08\] Okay. So kind of like guidelines on how public officials can use public funds to go about doing their jobs day to day.
 
 **Eduardo Cuducos:** Yes, yes. Those guidelines, for some reason, they have the same weight as the law, if you actually decide to sue someone, for example, because there's no law above it. It could be, but there's no law, so this is kind of the main piece that you would look at if someone sued a Congress person and said "Hey, you are not using this money as we expect you to do."
 
@@ -58,7 +58,7 @@ These are the kinds of things that Rosie is uncovering, and I think it's importa
 
 **Eduardo Cuducos:** Okay. Brazil is a big country and we have a lot of representatives basically because we have a lot of different states, different sizes... To sum up, we have a little bit more than 500 representatives; it's 513, if I'm not wrong. They are reimbursed for those kinds of expenses - expenses with meals, with security, if they wanna subscribe for some content (whether it is digital or printed, it doesn't matter), consultancies... Which kind of makes sense.
 
-\[00:16:14.17\] They have to vote for a law, and it's not their field of expertise, so they can hire a consultant or a consultancy to help them. Transportation, because in theory, in democracy they should be close to the people who voted for him, so they can be reimbursed for traveling from the capital, which is in the middle of a massive country, to whatever part of the country elected him or her... Different kinds of expenses, so it works in a reimbursement process. They pay from their pockets, they save the receipt and they submit it to the house, to the Chamber of Deputies, saying "Hey, I just spent 10 bucks with this", and show the receipt, and they are reimbursed.
+\[16:14\] They have to vote for a law, and it's not their field of expertise, so they can hire a consultant or a consultancy to help them. Transportation, because in theory, in democracy they should be close to the people who voted for him, so they can be reimbursed for traveling from the capital, which is in the middle of a massive country, to whatever part of the country elected him or her... Different kinds of expenses, so it works in a reimbursement process. They pay from their pockets, they save the receipt and they submit it to the house, to the Chamber of Deputies, saying "Hey, I just spent 10 bucks with this", and show the receipt, and they are reimbursed.
 
 The problem is actually that we've been to the Chamber of Deputies and there are actually four people working in this process. In the office there are not representatives, they are -- how do you call it? Public servants?
 
@@ -82,7 +82,7 @@ The problem is actually that we've been to the Chamber of Deputies and there are
 
 **Jerod Santo:** There you go.
 
-**Eduardo Cuducos:** \[00:19:49.23\] There you go... \[laughs\] And I just ran a quick live code and say, okay, but imagine you have all those in a data set... And for the project we use Python and Pandas, so I'm just guessing, but in ten lines of code I could, from a sample of 1,500 receipts (that is basically what the department gets every day), I say "Okay, from this we have just 13 that are from meals or that are outliers." So in one day you can look at 13 receipts, but you can't look through 1,500 receipts... So that's the idea. And with technology it's easy; it's like ten lines of code and you can automatically approve probably most of them and just pay attention to the ones that probably deserve this extra attention. That's the idea, I guess.
+**Eduardo Cuducos:** \[19:49\] There you go... \[laughs\] And I just ran a quick live code and say, okay, but imagine you have all those in a data set... And for the project we use Python and Pandas, so I'm just guessing, but in ten lines of code I could, from a sample of 1,500 receipts (that is basically what the department gets every day), I say "Okay, from this we have just 13 that are from meals or that are outliers." So in one day you can look at 13 receipts, but you can't look through 1,500 receipts... So that's the idea. And with technology it's easy; it's like ten lines of code and you can automatically approve probably most of them and just pay attention to the ones that probably deserve this extra attention. That's the idea, I guess.
 
 **Jerod Santo:** Yeah, exactly. This is classic human empowerment, right? So the combination of a computer and a human in this case - you have the computer to basically flag outliers, or oddities, and then the human to then... You're reducing the human's load from 1,500 to maybe a dozen. Like you said, the previous number - you couldn't even do that, and then a dozen sounds like you can do that in an hour.
 
@@ -104,7 +104,7 @@ What's hard for computers and they're getting better at it, but they're still no
 
 **Eduardo Cuducos:** Yeah... Actually, politicians are pretty clever, I'm gonna say that. There's another layer to add to the discussion. Officially, the Chamber of Deputies, the administrations, the public servants we were talking about, they are only there - that's what's reading in this piece of paper that acts like the law - to say if the receipt used for the claim is a valid one... That says if the federal revenue ever gets the receipt, would the federal revenue say "Yes, this is actually legal for revenue", whatever... Which is bizarre; the other side of this coin is that only the politician (the representative) is able by law to decide if the expense is claimable (probably this word doesn't even exist), like if he or she can claim the reimbursement for this expense.
 
-\[00:24:08.11\] If one of the representatives goes to a restaurant that we know for sure one cannot pay more than $100 for a meal, and he goes there and says "Okay, this is my receipt. I've spent $500", actually by law he is the only person allowed to say if this is reimbursable or not...
+\[24:08\] If one of the representatives goes to a restaurant that we know for sure one cannot pay more than $100 for a meal, and he goes there and says "Okay, this is my receipt. I've spent $500", actually by law he is the only person allowed to say if this is reimbursable or not...
 
 **Jerod Santo:** \[laughs\] Oh, man...
 
@@ -136,7 +136,7 @@ What's hard for computers and they're getting better at it, but they're still no
 
 **Adam Stacoviak:** Coming up, we ask Ed how he and his team got involved in this project and what their position is, whether they're civilians, government officials, employers, or none of the above. When they got started this project, they started to report these discrepancies back to the government, and as you may assume, they got a really low rate of response, so they gave Rosie (the robot) a Twitter handle and started making these discrepancies public data, which started to obviously raise awareness, but also ruffle the feathers of those in power. To find out what happens next, stay tuned.
 
-**Break:** \[00:27:40.21\]
+**Break:** \[27:40\]
 
 **Adam Stacoviak:** What about rewinding a bit when you said "To do this in the first place, the founder of this project, they wanted to get more into politics', and you say that you are working with the individuals processing these receipts. How did you all go about getting -- the idea is great too, but how did you get to actually be embedded into the government at seams? What is your position? Is your position civilians, is your position government officials? Is this project governmentally sanctioned? How did that sell happen, how did you get there?
 
@@ -152,7 +152,7 @@ What's hard for computers and they're getting better at it, but they're still no
 
 So we started to report it, and actually we got a really low rate of response, because actually they don't have to reply at all. The Chamber of Deputies, if anyone from the population asked them something - "Hey, there's this data, this receipt here... It's kind of odd. Can you clarify that for me?", it's compulsory for them to give us a response, but it's not compulsory for the Congress person to report back to the Chamber of Deputies, to this administration part of the Chamber.
 
-\[00:32:03.08\] So we started to have a really low rate of responses. We did a kind of marathon of reports in one week, and we reported almost a thousand cases, and we just had 10% of response, which is pretty low. So from that point we started to turn our attention not to officially reporting cases, but bringing them to the public arena, to a public place... Basically, we gave Rosie a Twitter account...
+\[32:03\] So we started to have a really low rate of responses. We did a kind of marathon of reports in one week, and we reported almost a thousand cases, and we just had 10% of response, which is pretty low. So from that point we started to turn our attention not to officially reporting cases, but bringing them to the public arena, to a public place... Basically, we gave Rosie a Twitter account...
 
 **Adam Stacoviak:** \[laughs\] That seems like the best way to call it out, just to make it public, instead of saying "Hey, can you tell me more about this?" It's more like, "Hey, this is happening."
 
@@ -170,7 +170,7 @@ When Rosie started to tweet, we were careful with the language... So she basical
 
 **Adam Stacoviak:** That's interesting that your perspective first was to just silently whistle-blow back to the government potential corruption, or potentially just an error or an oversight - not so much saying "These people are wrong, they're breaking the law", maybe it's by accident, who knows? - to get essentially no response, or a lack of response, or slow response, in a lot of cases... And now turn it over to the public and say "Here's a public data set of erroneous receipts happening in our government, and here's who is to blame."
 
-**Eduardo Cuducos:** \[00:36:16.29\] Yeah, it's interesting, because we work with \[unintelligible 00:36:20.12\] because this is public shaming and you shouldn't do that, like just pointing fingers; maybe people will believe some Congress person because of no reason... But an interesting story is that in the very beginning our idea was to put Rosie to work and she would give us back suspicions, and then we'd have a kind of blind review of suspicions, and then we had a Google forum for people interested in helping us investigate in the suspicion; so we would sort cases and do this bling review, and only after three people flag it as "Okay, this is not a false positive", then we would report it. And that was a disaster, because basically people don't have the knowledge of the law we had, so people wouldn't say "Okay, he was in Vegas and it was just a beer, a small bottle, so it's not illegal/immoral, so that's okay", when actually by the law, it's not written but we have this shared understanding that it wasn't supposed to be that way.
+**Eduardo Cuducos:** \[36:16\] Yeah, it's interesting, because we work with \[unintelligible 00:36:20.12\] because this is public shaming and you shouldn't do that, like just pointing fingers; maybe people will believe some Congress person because of no reason... But an interesting story is that in the very beginning our idea was to put Rosie to work and she would give us back suspicions, and then we'd have a kind of blind review of suspicions, and then we had a Google forum for people interested in helping us investigate in the suspicion; so we would sort cases and do this bling review, and only after three people flag it as "Okay, this is not a false positive", then we would report it. And that was a disaster, because basically people don't have the knowledge of the law we had, so people wouldn't say "Okay, he was in Vegas and it was just a beer, a small bottle, so it's not illegal/immoral, so that's okay", when actually by the law, it's not written but we have this shared understanding that it wasn't supposed to be that way.
 
 So we shut down this blind review thing in favor of -- which was kind of crazy, because we were putting a lot of pressure on our shoulders, a lot of work on our desk to investigate all the suspicions before reporting. Then we were kind of just tweeting stuff and names...
 
@@ -182,7 +182,7 @@ It was, I think, a really good experience, in spite of the blind review thing, a
 
 **Jerod Santo:** So the question is you've got Rosie Da Serenata... How scalable is Rosie? You have this Twitter account, and it's for Brazil and it's in Portuguese, and the question that I always seem to ask our guests is "How scalable are these things?" The idea of course is free, and anybody, in their government or their locality can go out and build their own system, but how scalable do you see this in light of taking the rules that are specific to Brazilian, and porting the system (or maybe even just the idea of this system) to different localities? Because citizens of many countries probably learn of something like this and think "I would love to have something like this where I live."
 
-**Eduardo Cuducos:** \[00:40:08.23\] Okay, I love to talk about questions like that. First of all, I think the most basic step in this direction is that everything we do in terms of code, in terms of technology is in English. Again, we've been criticized because we were letting a lot of Brazilians out, that maybe don't speak English or maybe they don't feel comfortable discussing issues on GitHub in English... But that's a decision we took and we embrace it.
+**Eduardo Cuducos:** \[40:08\] Okay, I love to talk about questions like that. First of all, I think the most basic step in this direction is that everything we do in terms of code, in terms of technology is in English. Again, we've been criticized because we were letting a lot of Brazilians out, that maybe don't speak English or maybe they don't feel comfortable discussing issues on GitHub in English... But that's a decision we took and we embrace it.
 
 All the code itself is in English and all the comments or the discussions are in this technological forum that is GitHub... Because that's the idea - people should use it to their own realities. So this is the first thing.
 
@@ -206,7 +206,7 @@ Right now in Brazil I've known about different cities or different initiatives t
 
 **Adam Stacoviak:** Yeah, an RFP. A lot of people have to bid on it, and it's a process.
 
-**Eduardo Cuducos:** \[00:44:05.15\] Yeah, like I'm building a bridge, so different engineers can bid "Okay, I can build this bridge for this amount", and the government is kind of obliged to pick the cheapest one.
+**Eduardo Cuducos:** \[44:05\] Yeah, like I'm building a bridge, so different engineers can bid "Okay, I can build this bridge for this amount", and the government is kind of obliged to pick the cheapest one.
 
 So those guys - I've known about them like two days ago - they did this for the city of Sao Paolo (the biggest Brazilian city) for this RFP. They are using NLP to cluster these calls by similarity; so when they have very similar calls with very different prices, there's something wrong, so probably there's someone trying to take advantage of one or another call.
 
@@ -214,7 +214,7 @@ So they actually, as far as I know - I've gone through their GitHub - they haven
 
 **Adam Stacoviak:** In this final segment of the show we talk about the importance of open data, but more importantly, making it accessible. This involves data scientists joining the effort to help make this not just public data, but usable public data. They also call out to all of our listeners in Brazil to reach out and get involved in this project. We'll be right back.
 
-**Break:** \[00:45:50.23\]
+**Break:** \[45:50\]
 
 **Adam Stacoviak:** I think one of the things that gets me personally so excited about open data, public data from governments is that it allows those people out there that have the ability to look at the data and examine it, and potentially cross-examine how government spending is being done and put the power back into the people's hands, versus just assuming that there is no corruption, or there is no illegalities taking place.... That someone out there is looking into this, in ways that aren't just trusted individuals.
 
@@ -236,7 +236,7 @@ And also, is XML the proper file format to make that assessable? I think tech pe
 
 **Adam Stacoviak:** Ugh...
 
-**Jerod Santo:** \[00:51:57.09\] There's terrible forms of public data, and we can't get to the interesting work until we get access to what is rightfully ours, in whatever locale you happen to be in as a citizen.
+**Jerod Santo:** \[51:57\] There's terrible forms of public data, and we can't get to the interesting work until we get access to what is rightfully ours, in whatever locale you happen to be in as a citizen.
 
 **Adam Stacoviak:** It's a big problem.
 
@@ -266,7 +266,7 @@ I think this is pretty interesting. We've seen journalists doing amazing jobs be
 
 **Eduardo Cuducos:** But the real reason why we picked up a chocolate name is in the mid '90s there was a Swedish politician, she probably was going to be the next prime minister of Sweden, and for some reason (I don't remember why), they started to investigate her, and they realized that she was using public money to buy stuff she wasn't supposed to buy, and one of those things was a single bar or maybe two bars of Toblerone.
 
-**Adam Stacoviak:** \[00:56:14.26\] Toblerones, yes. Those are really good.
+**Adam Stacoviak:** \[56:14\] Toblerones, yes. Those are really good.
 
 **Eduardo Cuducos:** So it became known as "the Toblerone Affair." I don't know if we have a Wikipedia page for Toblerone, but if you go to this politician page on Wikipedia, it's there, the Toblerone Affair.
 

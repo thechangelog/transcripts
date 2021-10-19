@@ -10,7 +10,7 @@
 
 **Chris Benson:** That does sound like a nice week, indeed.
 
-**Daniel Whitenack:** \[00:04:19.06\] Yeah. Otherwise, I watched SLICED the other night, which - we just talked to Meg and Nick from SLICED, which is a live data science competition... I watched that the other night, and that was quite fun. It's just interesting to see - you sort of have a stigma of certain people... They're like a data science hero. And when they sit down to code, they're not going to Stack Overflow, and they're not doing a thing that just barfs up a bunch of exceptions on them... But that's definitely not the case. So it's just cool to kind of sit back and see people live, "Oh, I'm gonna pull up Stack Overflow, I'm gonna pull up Plotly documentation...", like "How do I do a grouped barplot in Plotly?" That's like the same thing I do - whenever I hit one of those things, I just go straight to Google.
+**Daniel Whitenack:** \[04:19\] Yeah. Otherwise, I watched SLICED the other night, which - we just talked to Meg and Nick from SLICED, which is a live data science competition... I watched that the other night, and that was quite fun. It's just interesting to see - you sort of have a stigma of certain people... They're like a data science hero. And when they sit down to code, they're not going to Stack Overflow, and they're not doing a thing that just barfs up a bunch of exceptions on them... But that's definitely not the case. So it's just cool to kind of sit back and see people live, "Oh, I'm gonna pull up Stack Overflow, I'm gonna pull up Plotly documentation...", like "How do I do a grouped barplot in Plotly?" That's like the same thing I do - whenever I hit one of those things, I just go straight to Google.
 
 **Chris Benson:** Don't we all?
 
@@ -28,7 +28,7 @@
 
 **Daniel Whitenack:** Yeah, especially for non-technical people. This model, it's like code generation. So I think the one thought is like "Oh, this is for coders or technical people to aid them." But that example actually has an impact potentially for non-technical people. I'm just using a Word document. And actually, before this thing existed, maybe I wasn't able to write cool scripts, because I'm not a programmer. But now I can have this super-power to do these sort of tasks over my document or over my data, that I didn't have the ability to do before, because I didn't know complicated pivot table map function things in Excel, or however people do those things that don't code.
 
-**Chris Benson:** \[00:08:26.08\] I think we're coming into this point where we're seeing these capabilities, like what OpenAI is putting out, and more and more these types of sophisticated "Let us do this for you..." It's bringing more and more people into this field to take advantage of it. If there is anything that we have seen in the last -- this is where the innovation is happening right now. We're not seeing giant new architectures the way we did a few years ago, or entirely new paradigms of deep learning architectures. What we're seeing now are novel ways of using it, making it more accessible to people, and being able to get more productive, and stuff.
+**Chris Benson:** \[08:26\] I think we're coming into this point where we're seeing these capabilities, like what OpenAI is putting out, and more and more these types of sophisticated "Let us do this for you..." It's bringing more and more people into this field to take advantage of it. If there is anything that we have seen in the last -- this is where the innovation is happening right now. We're not seeing giant new architectures the way we did a few years ago, or entirely new paradigms of deep learning architectures. What we're seeing now are novel ways of using it, making it more accessible to people, and being able to get more productive, and stuff.
 
 But just for the record, I'm still waiting for somebody to bring us some novel, new architectures as well. I'm ready for some more right now, just for the record, in case anyone out there is about to release a breakthrough.
 
@@ -54,7 +54,7 @@ So in my mind, people might not be familiar with the term lexicon... At least be
 
 **Daniel Whitenack:** Yeah, for sure. Maybe I'll just illustrate what I'm talking about with one of these articles, which I think is a good starting point for this discussion. It's an article called "An electronic brain. Naming, categorizing, and new futures of AI." That's a guest post by a doctoral researcher at Oxford, Yung Au. Sorry if I mispronounced your name. This article I thought was just fascinating...
 
-**Chris Benson:** \[00:12:12.20\] I did, too.
+**Chris Benson:** \[12:12\] I did, too.
 
 **Daniel Whitenack:** I think all of these articles, if I was to put them in a category, would be like "Thought-provoking", or something... Because I don't know -- you know, reading through the bulk of them, I don't think maybe anyone could read through all of them and maybe say "Hey, I fully agree with everything that's written here" or "That's my perspective, too." It's different perspectives on the subject of AI. So I think it's thought-provoking. It helps you reformulate how you think about AI and the language that you use around AI.
 
@@ -86,7 +86,7 @@ But he goes in and he talks about these components also of how we frame the term
 
 **Chris Benson:** It feels more like the feelings that we have when we say machine learning instead of artificial intelligence, the way they do that. I think practitioners tend to think of machine learning as the pragmatic, fundamental stick-with-the-science kind of mentality, whereas AI is a little bit more glossy marketing. Even though you're speaking of the AI translation, it feels like that's how I would think of as machine learning in my own context.
 
-**Break**: \[00:16:37.12\]
+**Break**: \[16:37\]
 
 **Daniel Whitenack:** So Chris, we were just getting into some of this discussion about how AI is represented in the Cantonese context, and starting to talk about how there is embedded within the term this idea of manual labor, or something very practical...
 
@@ -102,7 +102,7 @@ But he goes in and he talks about these components also of how we frame the term
 
 **Daniel Whitenack:** When I'm teaching classes, I think oftentimes when I get into like, okay, well if we think about most AI systems - and there are certainly exceptions that don't fit into this pattern that I'm about to say... But if we think about most AI systems, what we're talking about is essentially an automated process of trial and error. It's actually a very dumb process, in the sense that we have a set of examples, we're trying to recreate the data transformation from that input to an output, and the way in which we do it is we try a bunch of times. So we put the examples in, we try to make the prediction based on some encoded parameters, and when it's not good, we change the parameters, and then we just do that a bagillion times, until we get the right set, or the "best" set of parameters... And then out comes the model, which so many people see as enchantment, or like you put fairy dust on the computer in the corner...
 
-**Chris Benson:** \[00:20:04.26\] \[laughs\]
+**Chris Benson:** \[20:04\] \[laughs\]
 
 **Daniel Whitenack:** I see some faces in training sometimes where it's like, it's a little bit disappointing for people; in other ways it's maybe reassuring, because they came into it thinking it's harder to get into this practice than they thought, because there's some fundamentally subtle and mysterious thing that they need to understand in order to do the work.
 
@@ -136,7 +136,7 @@ So in the spirit of what AI now is trying to do, I would think that, for example
 
 **Chris Benson:** I agree.
 
-**Daniel Whitenack:** \[00:23:55.11\] Because even if you think about a model... A model has certain connotations, especially for people that aren't deeply rooted in maybe a scientific discipline, like physics or chemistry or mathematical simulations... They may think that that model term is also quite intimidating... But this is another maybe earth-shattering thing for people when I'm doing trainings - what is a model? Well, maybe I'll ask you, Chris. If someone was to ask you what is an AI model at its core, like when you get your magnifying glass and you look at the AI model, what is it composed of, I guess? Maybe that's another way.
+**Daniel Whitenack:** \[23:55\] Because even if you think about a model... A model has certain connotations, especially for people that aren't deeply rooted in maybe a scientific discipline, like physics or chemistry or mathematical simulations... They may think that that model term is also quite intimidating... But this is another maybe earth-shattering thing for people when I'm doing trainings - what is a model? Well, maybe I'll ask you, Chris. If someone was to ask you what is an AI model at its core, like when you get your magnifying glass and you look at the AI model, what is it composed of, I guess? Maybe that's another way.
 
 **Chris Benson:** Well, the "composed of" threw me off a little bit. I think of a model generically, and this isn't specific necessarily to deep learning... But as a representation of an entity that is real, in some sense. That doesn't mean that necessarily it's physical. It represents the characteristics, and stuff.
 
@@ -180,7 +180,7 @@ But really, when we talk about a model in the context of deep learning, and we'r
 
 **Daniel Whitenack:** I don't know if it crosses all cultures, but... That gets to the idea that some of these terms, just from the start, like artificial intelligence model, gradient descent...
 
-**Chris Benson:** \[00:28:08.21\] Oh...
+**Chris Benson:** \[28:08\] Oh...
 
 **Daniel Whitenack:** And that's not a bad term for the method of optimization, right? It's actually a very appropriate term.
 
@@ -214,7 +214,7 @@ For example, they talk about the word "smart." Like, we talk about a smart fridg
 
 **Daniel Whitenack:** Yeah, yeah.
 
-**Chris Benson:** \[00:31:52.01\] It's one of those words that's alluding -- it's a marketing thing. It's alluding to this thing... As you just pointed out before the break, it doesn't often show itself to be a reality.
+**Chris Benson:** \[31:52\] It's one of those words that's alluding -- it's a marketing thing. It's alluding to this thing... As you just pointed out before the break, it doesn't often show itself to be a reality.
 
 **Daniel Whitenack:** Yeah. And they talk about, you know, this is maybe driven by claims of technology companies to drive marketing in various ways... And in some ways it's harmful, because people want their stuff to be smart, but they don't think about "Where is this data going? What risks does this expose me to?", which we've definitely seem some issues with that over time in terms of IoT and smart devices, and security, and all of those things.
 
@@ -240,7 +240,7 @@ For example, they talk about the word "smart." Like, we talk about a smart fridg
 
 **Chris Benson:** Yeah, I don't think there's any standard approach, that I'm aware of at least. This reminds me - it's not exact, but it's close. A year or two ago we were talking about how AWS was offering facial recognition services to law enforcement agencies, and there were some civil liberty concerns around that... And I believe AWS ended up pulling back from that, as offering it. But the point is that AWS may not have felt as a service provider that they needed to evaluate that. But if you're talking about a tool that can be used in ways that may not be strictly ethical in every context, then there's a big question mark hanging over that entire thing, is "What are your responsibilities when you release such a capability to the public?"
 
-**Daniel Whitenack:** \[00:36:14.26\] I mean, at the end of the day you can't have total control over what your end users do with their thing, because at the end of the day humans are tricky, and deceptive, and all of those things, in various scenarios.
+**Daniel Whitenack:** \[36:14\] I mean, at the end of the day you can't have total control over what your end users do with their thing, because at the end of the day humans are tricky, and deceptive, and all of those things, in various scenarios.
 
 I think you can -- you know, maybe this gets to the principles and how you structure your licenses, and that sort of thing, as a provider. For example, I know there's well-accepted and widely used guidance from the United Nations around malicious use of technology to oppress indigenous populations... So this is language that you can include in licenses that you sign with companies. And certainly, a company signing a license on that - it doesn't mean that they won't do that, or oppress some population, or something like that.
 
@@ -258,7 +258,7 @@ One of the things that we like to do in these Fully Connected shows is share wit
 
 One of the ones that I've found - actually, I don't know if it was yesterday or today - was a new, free PDF book that's posted onto archive from Jeff Heaton, who's teaching a course at Washington University in St. Louis, entitled "Applications of Deep Learning." And you can just go straight to the archive and download the PDF. I was really impressed with my initial inspection of this resource. It's applications of deep neural networks with Keras, and it seems like there's this sort of very consistent and practical treatment of everything from preliminaries of how to read in a CSV file, through to "How do I interact with TensorFlow to do various things?", all the way down to reinforcement learning and setting up environments for reinforcement learning. And all of this is treated seemingly very consistently with Keras, and very much in a code-first sort of way.
 
-\[00:39:57.09\] So as soon as you start scrolling through the book, you'll see very explicit sections which are "Hey, here is the Python code that does this thing, and here is the expected output from that Python code." And of course, there's equations and figures and stuff in there as well, but I like that there's this very clear call-out of how this is code-based, how it's all with Keras... I haven't gone through the whole thing, obviously, since I've just found it in the last couple of days... But I know I'll use it as a reference, but I think it would also be a good alternative for people that are out there maybe thinking "Hey, what is that comprehensive resource that I could turn to to really get into this field?" and maybe starting with a little bit of Python knowledge work into some of these more complicated topics, like adversarial networks, or convolutional neural networks, or other things, with TensorFlow and Keras. I think this would be a really good one to check out and maybe include in your list of things to work through.
+\[39:57\] So as soon as you start scrolling through the book, you'll see very explicit sections which are "Hey, here is the Python code that does this thing, and here is the expected output from that Python code." And of course, there's equations and figures and stuff in there as well, but I like that there's this very clear call-out of how this is code-based, how it's all with Keras... I haven't gone through the whole thing, obviously, since I've just found it in the last couple of days... But I know I'll use it as a reference, but I think it would also be a good alternative for people that are out there maybe thinking "Hey, what is that comprehensive resource that I could turn to to really get into this field?" and maybe starting with a little bit of Python knowledge work into some of these more complicated topics, like adversarial networks, or convolutional neural networks, or other things, with TensorFlow and Keras. I think this would be a really good one to check out and maybe include in your list of things to work through.
 
 **Chris Benson:** I agree, and I was not aware of this until you mentioned it just now; I downloaded it as you were talking, and looking through it... It's very current, it's fall of 2021, and we're in August of 2021 as we're recording this... So it's a recent resource, and I'm looking through it and i looks fantastic.
 

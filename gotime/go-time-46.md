@@ -62,7 +62,7 @@ In Canada the difference is that if you're rich you don't actually get to get th
 
 **Erik St. Martin:** So you haven't learned to pronounce it yet, so we're gonna make up the pronunciation on the show...
 
-**Carlisia Thompson:** \[00:04:11.01\] You have heard it here first.
+**Carlisia Thompson:** \[04:11\] You have heard it here first.
 
 **Marc-Antoine Ruel:** Yeah, that's great. So the fun thing is that it started in 2014. Back at that time there was a company named GroupGet, and they wanted to test a platform; it was a small startup. And they started to do a googlers-only selling of the [FLIR Lepton](https://www.flir.com/products/lepton/), which is an infrared camera. So I bought one and I was like "Yay, I have an infrared camera! Now what do I do with it?"
 
@@ -92,7 +92,7 @@ Then I decided to start the project that I named [dlibox](https://github.com/mar
 
 Because of that, I was actually able to make them so that basically you can have very, very faint lighting that you can keep in the room for the whole night. It's pretty nice.
 
-**Brian Ketelsen:** \[00:07:56.11\] That's fantastic. I have very long - maybe 15-meter - LED strips under the bunk beds in all of my kids' room, because underneath the bunk bed gets almost no light at all. So they even use those during the day time, but it would be awesome to be able to control the brightness of those.
+**Brian Ketelsen:** \[07:56\] That's fantastic. I have very long - maybe 15-meter - LED strips under the bunk beds in all of my kids' room, because underneath the bunk bed gets almost no light at all. So they even use those during the day time, but it would be awesome to be able to control the brightness of those.
 
 **Marc-Antoine Ruel:** Yeah, that's cool. Because otherwise, depending on the kind of light, it can be very bright and then it's kind of aggressive, especially at night. So yeah, having the possibility to have a very faint light is really nice.
 
@@ -114,7 +114,7 @@ The way it works - it's really not Raspberry Pi specific at all. Basically, as l
 
 One of the reasons is that actually in a previous library I used to do Kernel development on Windows at Matrox, a video card maker in the late '90s. I was doing just trivial imaging over FireWire 1394 and it was really nice. I had 1,000 fps cameras, which was very amazing at that time. But I was working on Windows NT 4, so the tradeoff was \[laughs\] I was stuck on a really crappy OS.
 
-\[00:12:31.28\] On the other hand, I got to learn a lot about terminal development. For example, Windows NT 4 didn't have any native support for plug and play, so it was really a pain to work with. But then Windows 2000 came out and it was awesome, obviously. \[laughs\] At least it worked.
+\[12:31\] On the other hand, I got to learn a lot about terminal development. For example, Windows NT 4 didn't have any native support for plug and play, so it was really a pain to work with. But then Windows 2000 came out and it was awesome, obviously. \[laughs\] At least it worked.
 
 Basically, this concept of managing discoveries of device -- well, actually, at the time I didn't want to have discovery of device, but I wanted to have a discovery of the functionality provided by the host. I experimented with that for many months, and I finally got something that I like, maybe in October or November of last year.
 
@@ -132,7 +132,7 @@ There's also it was valid and it worked, or it was valid and it failed to load. 
 
 **Marc-Antoine Ruel:** Actually, it's the reverse. When you start it up, it tries to discover all the hardware features of the platform, of the host itself, but it doesn't try to discover anything attached to it, so to not start interfering, or anything like that. Then it's really up to the application, basically.
 
-**Erik St. Martin:** \[00:16:15.06\] Okay, yeah. So it tries to discover whether things like SPI or [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) or UR is available on board, and then from there you kind of take control of those connections?
+**Erik St. Martin:** \[16:15\] Okay, yeah. So it tries to discover whether things like SPI or [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) or UR is available on board, and then from there you kind of take control of those connections?
 
 **Marc-Antoine Ruel:** Exactly. For example, if you take a chip, by default SPI is not enabled, so it will not be loaded, so then when you request SPI bus/ SPI connection, it will refuse because it didn't find any... If you then follow the instructions to enable it, then after that it would be available, and when you request one it will give you the first one available. Well, there's only one, so it's simple in this case.
 
@@ -148,7 +148,7 @@ The SSD1306 - it's also a dual protocol device that can talk I2C and SPI, but th
 
 He also wrote -- well, he actually designed the Periph-tester board. Basically, it's a board that has eeprom, and the device that exposes 1-Wire. Basically, you can test eeprom over SPI if I recall correctly and eeprom over 1-Wire. This way we can make sure that all of these protocols are not broken by any kind of change, basically.
 
-\[00:20:03.21\] It's really awesome. It's being tested continuously. Basically, every time there's a change pushed, the smoke tests are tested on this port.
+\[20:03\] It's really awesome. It's being tested continuously. Basically, every time there's a change pushed, the smoke tests are tested on this port.
 
 **Erik St. Martin:** That's awesome. I think we are a little overtime for our first sponsored break, so let's take that, and then I wanna talk to you a little bit about some of that performance stuff. I know we chatted behind the scenes a little bit about some of the performance differences, like using this for doing things like [bit-banging](https://en.wikipedia.org/wiki/Bit_banging).
 
@@ -156,7 +156,7 @@ He also wrote -- well, he actually designed the Periph-tester board. Basically, 
 
 **Erik St. Martin:** So our first sponsor for today is Toptal.
 
-**Break:** \[00:20:34.16\]
+**Break:** \[20:34\]
 
 **Erik St. Martin:** Alright, and we are back, talking to Marc-Antoine. Just before the break I wanted to hear -- we were talking about the performance differences, and we had talked a little bit about how you have the DMA (direct memory access) support, and you had done some things for performance of bit-banging.
 
@@ -170,7 +170,7 @@ Someone on the IRC channel on freenode helped me with that, because otherwise I 
 
 On the other processors, for example like the [BeagleBone](https://beagleboard.org/bone), it could be possible, I just didn't get to that point yet. Basically, the idea there is really just that you can do bit-banging, and I've done it by the DMA controller, or the reverse is to basically have your own logic analyzer that can run without having to take a full CPU.
 
-\[00:24:08.19\] On the other hand, because it's using memory map GPIO registers, you can actually read through really fast and basically you can abuse the system by taking a full core, and have this full core just doing a busy loop of reading a register, then you just append that to a circular buffer. Then another core can just update that the UI, basically. That's one of the things I was actually looking at probably doing, where it's purely CPU-based, so it takes a lot more processing power, but on the other hand you don't need any messing with the Kernel, so that's actually a saner option.
+\[24:08\] On the other hand, because it's using memory map GPIO registers, you can actually read through really fast and basically you can abuse the system by taking a full core, and have this full core just doing a busy loop of reading a register, then you just append that to a circular buffer. Then another core can just update that the UI, basically. That's one of the things I was actually looking at probably doing, where it's purely CPU-based, so it takes a lot more processing power, but on the other hand you don't need any messing with the Kernel, so that's actually a saner option.
 
 **Erik St. Martin:** I know a lot of our listeners too probably aren't all hardware people, so maybe we can talk a little bit about what DMA is and why you would wanna use that.
 
@@ -184,7 +184,7 @@ There's three commands that are shipped with Periph.io. There's `periph-info`, w
 
 **Marc-Antoine Ruel:** Yeah, actually there's even more than that. Let me paste that on the channel. One of the first ways that I decided to test devices was to write one executable per device driver. So you are not required to use them, but it's a nice way to figure out how to start your application, basically. So if you want to use, for example, the APA102, you can just look at it and it already has functionality, for example animating the lights based on the ping you made, or things like that.
 
-\[00:28:13.13\] Most of them are really meant to make sure that your device works well. They are not necessarily exposing a lot of functionality, but enough to be able to get by. The GPIO ones are really useful and you just want to do a quick switch of value, just reading quickly. It's pretty nice.
+\[28:13\] Most of them are really meant to make sure that your device works well. They are not necessarily exposing a lot of functionality, but enough to be able to get by. The GPIO ones are really useful and you just want to do a quick switch of value, just reading quickly. It's pretty nice.
 
 **Brian Ketelsen:** That's awesome.
 
@@ -202,7 +202,7 @@ The Pi is incredibly faster, but on the other hand you have to buy an SD card, w
 
 So for embedded stuff -- not embedded stuff, but for stuff to be carried on, it's very nice. It's something I really like a lot. One thing I wanted to backtrack is when I started the project on Periph I wasn't sure actually if I were going to do it or not. Thorsten von Eicken, which I referenced earlier - he reached out to me in September or so of last year, and he wasn't really contributing to embed. And then he looked at the way I was discussing the design and he was like, "I think you have a point here", and it's really worked. So basically I used his knowledge in this area to be able to have someone to discuss with until the project became public, and he did all of the code reviews, which really helped me to structure the project.
 
-\[00:32:03.20\] I decided to make it private for a long time, because I really wanted to refactor the hell out of it. Basically, when you have a project and you have no users, you cannot break anyone, so that's the best thing ever, because nobody's complaining if they are not using it. But the problem is that eventually we want to have users, so the line there was when to make it public, versus keeping the liberty of breaking the library as much as I wanted.
+\[32:03\] I decided to make it private for a long time, because I really wanted to refactor the hell out of it. Basically, when you have a project and you have no users, you cannot break anyone, so that's the best thing ever, because nobody's complaining if they are not using it. But the problem is that eventually we want to have users, so the line there was when to make it public, versus keeping the liberty of breaking the library as much as I wanted.
 
 Eventually, I got the pressure to actually release it, because eventually I just wanted to have something -- people wanted to use it, but at the same time I still feel that it's not... I feel right now that it's not good enough in the design and I really want to change a lot of features. For example the SPI driver I'm not happy still with the current design of the interfaces.
 
@@ -216,7 +216,7 @@ The other thing is that I didn't want to pay for a server, because I'm super che
 
 The nice thing with it is that every time there's a commit, it will run, but the tests are specific to the hardware it's running on. For example, if the board running gohci as a tester board, it will run the smoke test related to that. Otherwise, I can run the GPIO smoke test to make sure that edge triggering is good, or things like that. So there's actually a fair number of smoke tests, and the smoke tests test all kind of logic in the library that is better tested when you have hardware to test against.
 
-\[00:36:10.17\] They're still unit tests, and the unit tests are run on Travis, and it works great, but sometimes you're testing also the operating system underneath, and the hardware itself. I really wanted to have a distinction between the hardware testing and the unit testing, and it's kind of the side effect of my work, my day job basically, where I'm working on the Chrome infrastructure, and I've been working on that since 2008.
+\[36:10\] They're still unit tests, and the unit tests are run on Travis, and it works great, but sometimes you're testing also the operating system underneath, and the hardware itself. I really wanted to have a distinction between the hardware testing and the unit testing, and it's kind of the side effect of my work, my day job basically, where I'm working on the Chrome infrastructure, and I've been working on that since 2008.
 
 Chrome is a really large project and there's a lot of unit tests and a lot of smoke tests, too. The current scale at which Chrome runs is pretty intense. There's over 200 commits per day, and a single test can represent up to around 30 hours of tests for a single commit. So the scale at which it runs is very high, and I was like "Let's do the complete reverse", something very simple to see how far it can go. That's basically how it happened. It's a very focused project for a very single purpose job, but it fits the deals fine, so I'm very happy about it.
 
@@ -234,7 +234,7 @@ But writing the website -- because I knew that the website was very important an
 
 **Erik St. Martin:** It's got its little wired up backpack and the LED...
 
-**Marc-Antoine Ruel:** \[00:40:08.21\] \[laughs\] Yeah... Another thing that I did was doing outreach to people. One of the first persons I tried to talk to was Jana -- actually, I kept contact with her for pretty much the whole cycle. I also discussed with [Ron](https://twitter.com/deadprogram), the maintainer of Gobot; he's a busy guy, but I was able to get a hold of him for an hour and a half, and I was very glad that he took the time to talk with me. We've discussed ways where the bigger picture will fit, so basically my take has been that I actually don't care that much about writing device drivers.
+**Marc-Antoine Ruel:** \[40:08\] \[laughs\] Yeah... Another thing that I did was doing outreach to people. One of the first persons I tried to talk to was Jana -- actually, I kept contact with her for pretty much the whole cycle. I also discussed with [Ron](https://twitter.com/deadprogram), the maintainer of Gobot; he's a busy guy, but I was able to get a hold of him for an hour and a half, and I was very glad that he took the time to talk with me. We've discussed ways where the bigger picture will fit, so basically my take has been that I actually don't care that much about writing device drivers.
 
 As I've said before, most of the devices I wrote were really just to test the underlying code for the host operating system drivers. I tried to position the library as much as low-level that would fit under Gobot. That said, it's not a given that there's a way to make everything work as much as I'd like, but that's definitely the goal I'm trying to aim for.
 
@@ -250,7 +250,7 @@ So at the beginning, most of the work was soul searching up to a point, where I 
 
 I don't know if in the end people will actually think it's a good thing, but I think it is, so I decided to do it. I feel that it's of neat, because afterwards you don't program for a specific board anymore. That's one of the things I really like - all the boards are really abstracted away. You just have a string for the name of the GPIO you want to use, and you can use the string of the pin from the board name or from the CPU name, or any other kind of aliases that you want.
 
-\[00:43:59.22\] That's the only string you need to change to be able to run on a different kind of hardware. I felt it was pretty neat, because you don't need to reference packages that are board-specific. They are there if you want to use them, but you're never required to use them. That was one of the key points I really wanted to focus on.
+\[43:59\] That's the only string you need to change to be able to run on a different kind of hardware. I felt it was pretty neat, because you don't need to reference packages that are board-specific. They are there if you want to use them, but you're never required to use them. That was one of the key points I really wanted to focus on.
 
 **Erik St. Martin:** So you had mentioned you were playing with some other things for hardware-based projects, too... I forget what episode it was, but a few episodes ago we had talked about [GoKrazy](https://gokrazy.org/), which was an interesting way of creating Go applications and just deploying them out to your Raspberry Pi without thinking about it.
 
@@ -278,7 +278,7 @@ So that's basically the mechanism it uses. I think it's something that is the wa
 
 **Brian Ketelsen:** Secret thing, secret thing... You know what I ran into on the internet two days ago? I was doing my typical late-night surfing through GitHub thing, looking for interesting projects to star and talk about on the show, and I ran across a fork of CoreOS that Jessie Frazelle maintains, and it looks very clearly to me, in her fork of CoreOS's build scripts, that she is using CoreOS as a desktop OS, because she's added X11 and all kinds of other stuff to it. I can't wait to find some time to talk to her about that - maybe at GopherCon - and find out what that looks like.
 
-\[00:48:06.25\] That is crazy, because CoreOS - it's got Chrome's updating system, but it's Gentoo in the background... So it's really powerful how you could build the whole OS just by changing a couple of config files and rerunning a script and waiting a couple hours.
+\[48:06\] That is crazy, because CoreOS - it's got Chrome's updating system, but it's Gentoo in the background... So it's really powerful how you could build the whole OS just by changing a couple of config files and rerunning a script and waiting a couple hours.
 
 **Marc-Antoine Ruel:** Yeah, but my main feature request for ChromeOS would be to be able to run Docker images. That's kind of aligned with the idea. I think it would be a great idea, but I failed to convince the leadership to get that...
 
@@ -298,7 +298,7 @@ That's actually one thing I would have liked to do with gohci, because then I wo
 
 **Marc-Antoine Ruel:** Yeah, it's incredible work... Oh, my god. Actually, I've been experimenting with that six or seven years ago, and that's something I have in the back of my mind, but I knew that it was a lot of work to try it out. Basically, I wanted to do an experiment. The experiment basically was to have a client server version of a text editor, where the frontend is a client, and then the backend is actually the one doing the I/O for the files and things like that...Which is kind of hilarious when you think about it and you're now to the point where your text editor is a client server architecture, but it's a great idea!
 
-\[00:52:03.16\] The reason I wanted to do that was my feeling was "Well, then you can just `go get` all the plugins you want", and you make the plugins as out-of-process plugins, and you just communicate with the plugins with -- I was using net/rpc with gob encoding, but the idea was you make sure that the interfaces fit or are exactly the same, so basically I wrote a hashing algorithm of interfaces through reflection. Basically, it's kind of a COM GUID, but with hashes, which is where really my Windows experience shined through.
+\[52:03\] The reason I wanted to do that was my feeling was "Well, then you can just `go get` all the plugins you want", and you make the plugins as out-of-process plugins, and you just communicate with the plugins with -- I was using net/rpc with gob encoding, but the idea was you make sure that the interfaces fit or are exactly the same, so basically I wrote a hashing algorithm of interfaces through reflection. Basically, it's kind of a COM GUID, but with hashes, which is where really my Windows experience shined through.
 
 The idea is that you use reflection to enumerate all the methods in the interface, and if it references a struct, you also go into these structs and hash all the public members of the struct, and you recurse until you go to the end and you have only basic types. Basically, you hash each of the names and the types, and you add zeroes and a null character in there, and you basically generate a deterministic hash in the end, and that represents a way to communicate with another party that the interfaces that you're using are exactly the same. So then you get a form of binary compatibility, because you know that both are using exactly the same structure of definitions.
 
@@ -310,7 +310,7 @@ Basically, the thing is that he actually knows how to write a text editor unlike
 
 **Marc-Antoine Ruel:** Yeah, but I don't recall if we looked at it, but I would have stuck with JSON-RPC too, because the thing is that most of the time it's local net. I mean, you're running the frontend and the backend on the same system, so bandwidth is not too much of a problem. Then there's the performance of the amount of data - gRPC is more compact than JSON-RPC, but on the other hand, gRPC implicitly depends on an HTTP/2, where JSON-RPC is very easy to just do over a dump pipe, basically over stdout and stdin.
 
-\[00:55:59.06\] So in practice, it's simpler to use JSON-RPC, and because of that, it's simpler to do it in languages like using Node.js, or things like that. I think I will use the same idea; I wouldn't use gRPC because of that.
+\[55:59\] So in practice, it's simpler to use JSON-RPC, and because of that, it's simpler to do it in languages like using Node.js, or things like that. I think I will use the same idea; I wouldn't use gRPC because of that.
 
 **Erik St. Martin:** gRPC would be fun though if you could have a UI on your local box, and then just post the server-side somewhere else. Because if you're going client-server, they don't necessarily have to be on the same host, right?
 

@@ -8,7 +8,7 @@
 
 **Sid Sijbrandij:** Gitter is this great service where if you have an open source project, it gives you kind of a room for everyone to hang out. When we came across its path, it was growing, it was doing well, but there was no business model behind it. So the more successful it was, the more money it lost.
 
-\[00:04:17.23\] Our mission is everyone can contribute, and we thought it was great that this thing enabled open source communities to become more active over time... We thought that deserved a home, and we acquired it. We invested, we made it better at \[unintelligible 00:04:31.13\] but long-term, chat is not something that GitLab is gonna specialize in.
+\[04:17\] Our mission is everyone can contribute, and we thought it was great that this thing enabled open source communities to become more active over time... We thought that deserved a home, and we acquired it. We invested, we made it better at \[unintelligible 00:04:31.13\] but long-term, chat is not something that GitLab is gonna specialize in.
 
 We're trying to have a complete DevOps platform delivered as a single application. There's all kinds of things in there, from monitoring, all the way to managing, from security all the way to planning, but chat is not one of it, so we looked for a better home, a home of a company that was specialized in chat, but also -- well, I think it's a big benefit; we've found a home that is open source, open protocol... All the things that we hold near and dear.
 
@@ -24,7 +24,7 @@ One of your promises back to the community was to open-source it, which you did.
 
 I think chat clients are a very different business. There's a lot more people that use chat than DevOps tools, and UX is much more important. It's important anyway, but with chat it is extremely important. So it's a different ball game, and again, we're not playing.
 
-**Adam Stacoviak:** \[00:08:08.19\] It's tough to get a chat client to rule them all, essentially. That's the desire, I suppose, from a chat ops platform or a DevOps platform like GitLab - you'd essentially be saying "This is the one that rules them all", and it's just not the case. Many people -- some use Slack, some use Gitter, some use IRC still yet.
+**Adam Stacoviak:** \[08:08\] It's tough to get a chat client to rule them all, essentially. That's the desire, I suppose, from a chat ops platform or a DevOps platform like GitLab - you'd essentially be saying "This is the one that rules them all", and it's just not the case. Many people -- some use Slack, some use Gitter, some use IRC still yet.
 
 **Jerod Santo:** Oh, yeah...
 
@@ -48,7 +48,7 @@ The How, in terms of the transition - because transitions are tricky, acquisitio
 
 This is a case where we have a non-indie project going to a new owner, versus the initial, when GitLab acquired it and it went from indie to non-indie in that regard. But we have a passing, and the how is interesting, from Matrix's perspective. You mentioned it's going to become this native bridge... Maybe tell us how it's gonna work in the short-term, because Gitter is a standalone service, and it's going to integrate with Matrix. But I thought there already were bridges to IRC and Slack, and maybe even Gitter already.
 
-**Matthew Hodgson:** \[00:12:11.29\] Yeah, so there already is a pretty basic bridge between Gitter and Matrix, and I think it was the second one we ever built. The first one was, of course, IRC, but the second one was using the same codebase, but customizing it for Gitter... And the reason was that one of our developers on bridges at the time was very active in the Neovim community. And Neovim had ended up being split between IRC, Gitter and Slack, all at the same time... So we experimented on the poor Neovim community by going and bridging them from IRC to Gitter, and also eventually to Slack. I think it's still running today...
+**Matthew Hodgson:** \[12:11\] Yeah, so there already is a pretty basic bridge between Gitter and Matrix, and I think it was the second one we ever built. The first one was, of course, IRC, but the second one was using the same codebase, but customizing it for Gitter... And the reason was that one of our developers on bridges at the time was very active in the Neovim community. And Neovim had ended up being split between IRC, Gitter and Slack, all at the same time... So we experimented on the poor Neovim community by going and bridging them from IRC to Gitter, and also eventually to Slack. I think it's still running today...
 
 But the problem is that Gitter doesn't have any native concept to bridging. So we did it using the simplest, worst possible type of bridge, which we call BridgeBot/Base-Bridging So you literally have a bot called MatrixBot (not very imaginatively), that connects in on the Gitter channel, and it relays the messages to people on the Matrix side, who could in turn be coming in via IRC, or Slack, or whatever.
 
@@ -60,7 +60,7 @@ So what we'll be doing is setting up a proper home server on Gitter.im, and have
 
 And because we've got loads of developers already hanging out on Matrix -- the entire Mozilla community now is on Matrix, and the GNOME folks use it, and they have their own server... And KDE has it, and has its own server... Bits of the Linux Foundation I think are coming on board as well... It will be super-nice to get all of the projects to hang out on Gitter and just be able to directly link them together, and \[unintelligible 00:15:43.15\] one happy family, rather than the balkanization and the silos that we otherwise.
 
-**Break:** \[00:15:55.21\]
+**Break:** \[15:55\]
 
 **Jerod Santo:** So with an open source project it's always worth asking "What exactly is being acquired?" Surely the Gitter brand and IP of what Gitter is... I assume there's some employees that are being transferred between organizations. Is that correct as well? Are you getting a team?
 
@@ -78,7 +78,7 @@ So we basically wanna get the best of both worlds and then converge the two.
 
 **Adam Stacoviak:** I remember when we talked last, Matthew, one of the things we ended that show with -- it was episode 384 of The Changelog... And near the end, one of the biggest questions we sort of ended on was this still question mark - and I suppose Gitter might be solving this for you - is a UI problem for Matrix. Maybe speak to that. The details here make sense, but why this acquisition? Why did you need to acquire Gitter to make this happen? The two codebases, the overhead... Why was that the smarter move towards, I suppose, solving your UI problem?
 
-**Matthew Hodgson:** \[00:22:06.19\] Honestly, we'd been talking to Eric for two years, I would say, about getting Gitter natively into Matrix... And he was interested. He was saying "Hey, this could be an interesting thing for us to do. But then we've got our own priorities, we're looking after our own users... It's a bit of a big strategic decision", and all the rest of it. And I honestly think that if we had done the work ourselves and contributed it as an MR against Gitter, it probably would have been merged, and Gitter could have natively come onboard, too. But the way in which the cards are falling here is almost better, in that we can do it pushing from both sides at the same time, and we can, as I said, use it as this poster child kind of flagship example of integrating an app into Matrix... And our hope is that the guys at Slack will sit there and say "Hm. Perhaps it isn't that hard. Perhaps we'll go and bridge in, too." Or Mattermost, or Rocket.Chat, or whoever it might happen to be.
+**Matthew Hodgson:** \[22:06\] Honestly, we'd been talking to Eric for two years, I would say, about getting Gitter natively into Matrix... And he was interested. He was saying "Hey, this could be an interesting thing for us to do. But then we've got our own priorities, we're looking after our own users... It's a bit of a big strategic decision", and all the rest of it. And I honestly think that if we had done the work ourselves and contributed it as an MR against Gitter, it probably would have been merged, and Gitter could have natively come onboard, too. But the way in which the cards are falling here is almost better, in that we can do it pushing from both sides at the same time, and we can, as I said, use it as this poster child kind of flagship example of integrating an app into Matrix... And our hope is that the guys at Slack will sit there and say "Hm. Perhaps it isn't that hard. Perhaps we'll go and bridge in, too." Or Mattermost, or Rocket.Chat, or whoever it might happen to be.
 
 The Rocket.Chat guys, for instance, have been trying to do this for years, since really early days, and they hired somebody - I think twice now - to work on Matrix integration, and the problem has been in that instance that we didn't have the bandwidth to support them from the matrix side. Plus, it was pretty early. This was like 3-4 years ago, and it was too early, and it kind of fell apart; they ended up implementing their own limited federation, and that sort of thing.
 
@@ -108,7 +108,7 @@ We wouldn't want one company to own all of email, and it would be strange for on
 
 **Sid Sijbrandij:** ...and I think none of these things are true. There was no investment bank involved, frankly, I don't think Matrix overpaid, and I think the investment is gonna increase after this. So I think there's a very good case for synergy, and thanks for saying that.
 
-**Adam Stacoviak:** \[00:25:51.02\] You too, Sid, as well - I can see that you have, I suppose, a care... And I'm curious what the relationship after this might be. Sure, this is an acquisition, but this doesn't seem like a relationship where you just sort of like shake hands and just walk away. What do you think GitLab will do around Gitter over the long-term? Will you continue to promote what's happening here? What role do you see GitLab playing, or I suppose the marketing behemoth that you can be for Gitter and Matrix and this blossoming ecosystem of open source goodness, and developer chat, and all those fun things? Because you care about the community, so I would imagine that you're not gonna just walk away. What's gonna happen from here for you?
+**Adam Stacoviak:** \[25:51\] You too, Sid, as well - I can see that you have, I suppose, a care... And I'm curious what the relationship after this might be. Sure, this is an acquisition, but this doesn't seem like a relationship where you just sort of like shake hands and just walk away. What do you think GitLab will do around Gitter over the long-term? Will you continue to promote what's happening here? What role do you see GitLab playing, or I suppose the marketing behemoth that you can be for Gitter and Matrix and this blossoming ecosystem of open source goodness, and developer chat, and all those fun things? Because you care about the community, so I would imagine that you're not gonna just walk away. What's gonna happen from here for you?
 
 **Sid Sijbrandij:** Yeah, I don't think the acquisition by Matrix has any requirements for us to keep doing anything after, but GitLab -- the project is Gitter, and we look forward to continuing that. We're open to helping out; our mission is everyone can contribute, so if there's stuff in GitLab that can be better, we are open to that discussion. I've been a big fan of Matthew and what he and his team are doing. If we can support that, either on a company level or on a personal level, I'd be happy to help.
 
@@ -126,7 +126,7 @@ We will literally blog the hell out of this, so that people can go and see the s
 
 So the mechanics are surprisingly tricky to get right, and we just want this to be the flagship example of doing it... And the fact that both sides of the bridge end up under the same organization is just a really convenient way of making sure that's successful.
 
-**Break:** \[00:29:50.12\]
+**Break:** \[29:50\]
 
 **Jerod Santo:** We've come to an interesting place in the world of open source, where we have companies that are built around open source projects acquiring open source projects from other companies who are built around open source projects. I don't think this acquisition is unprecedented, but it's definitely an instance in an emerging trend of kind of a new class of things... At least I believe it is.
 
@@ -146,7 +146,7 @@ Maybe what might be interesting for the audience - if there's deal terms that we
 
 **Jerod Santo:** Humor us and we'll move on. We're not gonna hold your feet to the flame here, Matthew, but humor us with something. The reason why I ask is not because I wanna peg a number and everyone's like "The acquisition was this." It's because, like, I'm inside the open source world, I'm also in the business world - I don't even know the order of magnitude of what is this kind of a process like, and I've never gone through a due diligence like you have... So any insight into that process; you don't have to share the numbers, but something that maybe we can provide some context, or even just a challenge or a struggle that you went through in making this decision... Because both companies, Adam, make a big decision here.
 
-**Matthew Hodgson:** \[00:34:06.12\] I can tell the story from our side. And honestly, this was a very painless process, indeed. Huge kudos to GitLab for being a very transparent, no-BS outfit. I think it probably helped that Eliran knew Sid already - and Eric, for that matter - so it's not like we're doing business with strangers... And the due diligence process was basically a bunch of shared Google Docs which look very much to be the existing, internal shared Google Docs which GitLab would put together. We were just invited straight into them and could scribble all over them.
+**Matthew Hodgson:** \[34:06\] I can tell the story from our side. And honestly, this was a very painless process, indeed. Huge kudos to GitLab for being a very transparent, no-BS outfit. I think it probably helped that Eliran knew Sid already - and Eric, for that matter - so it's not like we're doing business with strangers... And the due diligence process was basically a bunch of shared Google Docs which look very much to be the existing, internal shared Google Docs which GitLab would put together. We were just invited straight into them and could scribble all over them.
 
 We had a couple of video calls to look over the KPIs, the Grafana dashboard style view of where things are at, and how traffic was shaping over the years, and what the figures were... But it was just very straightforward.
 
@@ -162,7 +162,7 @@ I think we were impacted a bit by it being the summer, and so lost a bunch of ti
 
 **Jerod Santo:** Yeah. That seems to be a fairly normal point of contention, that particular piece.
 
-**Sid Sijbrandij:** \[00:38:13.01\] Yeah. It's kind of ironic, because that point of contention - the biggest thing is the representation about the codebase. Like, are we sure that all the open source licenses that are used in the product are adhered to? If Matrix would acquire the project from us and then they'd find this AGPL library that if we wouldn't have adhered to the license, now we would be liable to that. So that was an interesting one to discuss. You're moving a project between two open source companies, and the biggest problem is open source licenses. \[laughter\]
+**Sid Sijbrandij:** \[38:13\] Yeah. It's kind of ironic, because that point of contention - the biggest thing is the representation about the codebase. Like, are we sure that all the open source licenses that are used in the product are adhered to? If Matrix would acquire the project from us and then they'd find this AGPL library that if we wouldn't have adhered to the license, now we would be liable to that. So that was an interesting one to discuss. You're moving a project between two open source companies, and the biggest problem is open source licenses. \[laughter\]
 
 **Jerod Santo:** Yeah, exactly. Well, that's a fitting detail. Thanks for sharing that, guys. What about from the -- back to the end user perspective here... If I'm a happy Gitter user today - maybe I'm on the Angular project and we're just happily using the chat service - what can I expect in the next 6 months, 12 months, 3 years? What's gonna change and what's not gonna change?
 
@@ -194,7 +194,7 @@ And then as soon as we possibly can - it really depends on how fast Eric and the
 
 **Sid Sijbrandij:** One interesting thing that I would see is that it becomes easier to migrate from the Gitter chat room to the rest of the company. And I think right now that's something where we at GitLab struggle. We have people in the Gitter chat room, but it's kind of hard to add them to all our development channels, the channels that are a bit more internal, because sometimes someone shares a customer name, or something like that, and that's a tough problem. We're not solving it with this move, but... I think making the outside of the company more permeable for open source contributors, for the wider community is something that Matrix and Element has an opportunity to do like nobody else...
 
-\[00:42:23.12\] And I think it's super-important that it's not like you have your external chat room, you have your internal chat room, but imagine that you could still DM the people inside the company. I think that's the promise of Matrix, and that will be super-important for the health of open source communities.
+\[42:23\] And I think it's super-important that it's not like you have your external chat room, you have your internal chat room, but imagine that you could still DM the people inside the company. I think that's the promise of Matrix, and that will be super-important for the health of open source communities.
 
 **Matthew Hodgson:** Yeah. \[unintelligible 00:42:41.22\] in terms of how Gitter has been used, that often it ends up being a slightly secondary community often to the primary one... Because you get your Gitter room for free on your repository, and so there's always gonna be people just turning up there, asking questions, and whether you like it or not almost, you can have that community there, much to the frustration of the official project who uses Discord, or whatever it might happen to be.
 
@@ -210,7 +210,7 @@ I suppose the issue with that, this "among the many" is that you can kind of loc
 
 Instead, you have things like that Neovim example I gave earlier, where they're split three ways. In Mozilla they were split into the private internal Slack, so it wasn't even happening in the public domain anymore... And then on the IRC/Mozilla network, as well as people also on Telegram. It's just destroying the culture and the efficiency and the cohesion of these projects. It's almost a forking mechanism, like you would see - and it might be pretty problematic if your project is suddenly forked from under you... Except it's even worse, it's your community forking its ability to talk to itself. It's almost a balkanizing and breaking down.
 
-\[00:45:53.17\] So that is the risk, and that's what we're trying to fix, with Matrix and Gitter being the only chat system that has ever focused purely on developers, which really is quite something. I'm amazed that nobody else did that, because... You know, IRC was never just for developers; it was kind of freeform geek chat on the internet. Discord obviously for gamers, and they've kind of done this slightly half-assed, trying to get open source people into it, too... But Gitter is only an Element in Matrix. It was like IRC, just a general comms platform. Going and getting those guys from Gitter into the existing developer \[unintelligible 00:46:29.14\] is just a no-brainer.
+\[45:53\] So that is the risk, and that's what we're trying to fix, with Matrix and Gitter being the only chat system that has ever focused purely on developers, which really is quite something. I'm amazed that nobody else did that, because... You know, IRC was never just for developers; it was kind of freeform geek chat on the internet. Discord obviously for gamers, and they've kind of done this slightly half-assed, trying to get open source people into it, too... But Gitter is only an Element in Matrix. It was like IRC, just a general comms platform. Going and getting those guys from Gitter into the existing developer \[unintelligible 00:46:29.14\] is just a no-brainer.
 
 **Adam Stacoviak:** When speaking to the Gitter as it speaks -- now, you'd mentioned "Let's not screw it up", or something to that degree... And then even to your board of directors you'd said "This is what we need to do", so obviously, the pressure is on to do something. You'd mentioned not screwing it up, or doing different things to integrate, and obviously, we're talking about fragmentation here... One of the things that was mentioned was essentially becoming -- or, sorry, that Gitter will become a full-fledged Matrix client. Can you speak to the direction beyond the next six months or so? What's the long-term plan with Gitter and Matrix?
 
@@ -224,7 +224,7 @@ And once we have those, and once the app launches at least as fast as Gitter, th
 
 And in case you're thinking that this is us being megalomaniacal on the Matrix, and assimilating poor Gitter into the collective, it's worth noting that Eric and the Gitter folks had already come up with this as a plan before the acquisition, specifically for the mobile apps. Apparently, the mobile apps as native iOS and Android have been a pain to maintain. It's just too much stuff for the Gitter team to look after. They were falling behind, they didn't have the same features, and so there's already a GitLab bug out proposing to just deprecate them entirely, in favor of just using a progressive web app instead... Which would have been sad in terms of losing those native apps entirely.
 
-\[00:50:17.26\] One of the proposals that came up, again, prior to the acquisition on the bug, was "Hang on a sec, why don't we just use Element (or Riot, as it was then) in order to replace the native mobile apps?" And everybody said "Oh, that's great. Yeah, why don't we use Matrix for that?"
+\[50:17\] One of the proposals that came up, again, prior to the acquisition on the bug, was "Hang on a sec, why don't we just use Element (or Riot, as it was then) in order to replace the native mobile apps?" And everybody said "Oh, that's great. Yeah, why don't we use Matrix for that?"
 
 So it's not just us, it's Gitter themselves thinking "Well, actually, do we really need to have a dedicated app for this?" And it's shown that where the app is better - Element is better in some places - then hopefully we can get best of both worlds.
 
@@ -240,7 +240,7 @@ Sid, any final words from you, or something you'd like to pitch or promote as we
 
 Thanks so much for diving into this, I really appreciate the questions.
 
-**Outro:** \[00:53:04.07\] to \[00:53:05.18\]
+**Outro:** \[53:04\] to \[53:05\]
 
 **Adam Stacoviak:** Whaddup, listeners. We've got a little bonus for you today. Just when you think it's over, we wanna give you a little bit more today. Here is an extended segment with just Matthew. Sid had a hard stop, so we asked Matthew to stick around for a few more minutes, and this is what happened.
 
@@ -252,7 +252,7 @@ Thanks so much for diving into this, I really appreciate the questions.
 
 **Matthew Hodgson:** Okay, so that must have been back in March, I guess... At the beginning of the end times, pandemic-wise that we caught up... And then it was in April that we announced that Automattic, the guys behind WordPress had come onboard Matrix, with a strategic investment in Element, the for-profit that we use to keep the lights on for Matrix development and hiring the core Matrix team.
 
-\[00:54:00.11\] So it was really exciting... They put just under five million dollars into funding Matrix, with the hope of basically building an opportunity both for the WordPress ecosystem, and likewise, in Matrix supporting WordPress.
+\[54:00\] So it was really exciting... They put just under five million dollars into funding Matrix, with the hope of basically building an opportunity both for the WordPress ecosystem, and likewise, in Matrix supporting WordPress.
 
 Now, since then, things haven't moved quite as fast as I would hope, which is entirely my fault and our fault on the Element side, for going and hooking up the WordPress world with Matrix. But the intention is still very much to get better integration for Matrix within WordPress and vice-versa. And occasionally, I have some really nice people at Automattic pinging me, saying "Hey! So, do you know that call, where we were gonna be working on those integrations? Please, can we have it?"
 
@@ -274,7 +274,7 @@ I can't really think of any other companies other than Automattic and GitLab who
 
 **Matthew Hodgson:** I hope so. We spent ages on the open governance for the Matrix Foundation to basically try to legally create a safety net or a kind of protection mechanism to make sure that even if we did go evil and sell out -- who knows what happens...? If we get acquired by some obnoxious company perhaps, or the world economy completely collapses and we frantically start trying to think of ways to avoid having to downsize the company, or keep the project...
 
-\[00:58:12.06\] There are all sorts of worst-case scenarios where things could go wrong. So to try to force ourselves to do the right thing, we basically built it into the articles of association of the foundation, that bad stuff like that will at least not impact Matrix, and that Matrix as a protocol would be protected from it.
+\[58:12\] There are all sorts of worst-case scenarios where things could go wrong. So to try to force ourselves to do the right thing, we basically built it into the articles of association of the foundation, that bad stuff like that will at least not impact Matrix, and that Matrix as a protocol would be protected from it.
 
 But these things are hard. You look at dramas with DRM at the W3C, or other places where neutral standards bodies have got onto rocky waters, or whatever the expression is...
 

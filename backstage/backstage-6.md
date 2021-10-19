@@ -112,7 +112,7 @@
 
 **Adam Stacoviak:** It was pretty annoying. I think what repopularized it, if not the first time, was when the Marlon Wayans brothers did that scary movie parody, and it was the ghost from Scream, the bad person in Scream, which was like this ghost face, which became super-popular for Halloween, too.
 
-**Jerod Santo:** \[00:04:17.04\] Oh, for sure.
+**Jerod Santo:** \[04:17\] Oh, for sure.
 
 **Adam Stacoviak:** This is definitely Backstage, by the way...
 
@@ -194,7 +194,7 @@
 
 **Jerod Santo:** Everybody. Text the whole family. "Did you know I can talk to my wife...?"
 
-**Adam Stacoviak:** \[00:08:02.23\] "...about this Dick Tracy device?"
+**Adam Stacoviak:** \[08:02\] "...about this Dick Tracy device?"
 
 **Jerod Santo:** And then their mom says "Yes, honey. Just like Dick Tracy." And then they say "Who's Dick Tracy?"
 
@@ -328,7 +328,7 @@
 
 **Adam Stacoviak:** Blockchain and serverless... I don't know, how do you feel about blockchain?
 
-**Jerod Santo:** \[00:12:04.03\] Mixed emotions.
+**Jerod Santo:** \[12:04\] Mixed emotions.
 
 **Adam Stacoviak:** Yeah? Why is that?
 
@@ -366,7 +366,7 @@
 
 **Jerod Santo:** ...eventually, we'll see real use cases happening out there.
 
-**Adam Stacoviak:** \[00:16:11.01\] Yeah, right. All the exciting hype has been in place, the gauntlet has been thrown.
+**Adam Stacoviak:** \[16:11\] Yeah, right. All the exciting hype has been in place, the gauntlet has been thrown.
 
 **Jerod Santo:** Also, a lot of people have to now build the things, and that takes time.
 
@@ -426,7 +426,7 @@
 
 **Jerod Santo:** ...or hopefully at all, if the abstraction holds.
 
-**Adam Stacoviak:** \[00:20:15.18\] The idea thought is not so much do less, but to have more focus. If you as a team no longer really have to concern yourself with the uptime of the infrastructure which you're on, then that's one less point of -- you know, where you're not focused on the product, and the service itself, rather than the technology it's running on.
+**Adam Stacoviak:** \[20:15\] The idea thought is not so much do less, but to have more focus. If you as a team no longer really have to concern yourself with the uptime of the infrastructure which you're on, then that's one less point of -- you know, where you're not focused on the product, and the service itself, rather than the technology it's running on.
 
 **Jerod Santo:** Yeah...
 
@@ -478,7 +478,7 @@ We had a couple of people talking to us about bio -- biotech? I don't know; what
 
 **Jerod Santo:** He has a series of educational movies. Jumanji, Jumanji 2, Jumanji 3... \[laughs\]
 
-**Adam Stacoviak:** \[00:23:04.09\] And let's not forget Moana...
+**Adam Stacoviak:** \[23:04\] And let's not forget Moana...
 
 **Jerod Santo:** That's right.
 

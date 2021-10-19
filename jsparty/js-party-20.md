@@ -26,7 +26,7 @@ So Safia, Nick, Chris, say hi!
 
 **Nick Nisi:** Hello!
 
-**Jerod Santo:** \[00:04:05.01\] We're excited to have you guys here today. We want to get to know the new panelists a little bit, but we don't wanna go through a pure "Tell us your life story", because we only have three segments here... The way we're gonna do that is we're gonna instead introduce you three to us by way of your relationship with JavaScript and with the web. So this first segment I have roughly titled "What do we love about JS?" and I'm just now realizing those are also my initials, but please don't tell me what you love about me... Let's focus on JS, the JavaScript Party.
+**Jerod Santo:** \[04:05\] We're excited to have you guys here today. We want to get to know the new panelists a little bit, but we don't wanna go through a pure "Tell us your life story", because we only have three segments here... The way we're gonna do that is we're gonna instead introduce you three to us by way of your relationship with JavaScript and with the web. So this first segment I have roughly titled "What do we love about JS?" and I'm just now realizing those are also my initials, but please don't tell me what you love about me... Let's focus on JS, the JavaScript Party.
 
 I have a somewhat humorous side-story - my kids think that JS Party is like "Jerod Santo Party", so I haven't broken it to them. But we're gonna have a round-robin style conversation about what we love about JS. I will start, and I will just say that I'm very much punching my impostor syndrome in the face by coming on a JavaScript show, because I have a dirty little secret, which is that I don't really love JavaScript, the language; never really have. But what I do love about it is its ubiquity, how much you can get done, and all of the different things that it enables. I'm a huge lover of the web and the web platform, and I love that JavaScript fits into that awesome triad of HTML, CSS and JavaScript that makes up the web.
 
@@ -44,7 +44,7 @@ But my biggest interest in JavaScript is the community and how open everything i
 
 **Safia Abdalla:** I've just been trying to get myself into a habit of committing to things and building a lifestyle around consistency. One of the big things that I wanted to do was to become a better writer and start holding myself accountable to publishing blog posts three times a week - on Mondays, Wednesdays and Fridays. So it's part me hoping to learn new things and expand my knowledge as a developer, part me trying to become more disciplined and committed to a particular project, and then part wanting to become a better writer.
 
-\[00:07:57.01\] I have a lot of people who have asked me about how I've been doing the blogging thing over the past couple of months, and I think I might probably just write a blog about that and share it out next week, or something, so... Stay on the lookout for that.
+\[07:57\] I have a lot of people who have asked me about how I've been doing the blogging thing over the past couple of months, and I think I might probably just write a blog about that and share it out next week, or something, so... Stay on the lookout for that.
 
 **Jerod Santo:** Very cool. Alright, Chris, let's pitch it over to you. You've been a long-time maintainer of the Mocha library... Tell us about JavaScript and you.
 
@@ -56,7 +56,7 @@ I was writing apps for the web for quite a while, and I got heavily into Angular
 
 **Jerod Santo:** Very good. I think it's interesting, your statement about JavaScript being relatively small in terms of the breadth of the language. Like you said, the standard library is very much lacking. I came to JavaScript from a Perl, then Ruby, and a little bit of a Python background, as well as just learning that I hated C and C++ at the time; I learned that, and I was like "Okay, not that...!" And I actually had the opposite reaction - whereas you thought "Oh, this is great, I can actually master this!" ...a lot of people like that about Go, where Go is very easy to learn in terms of the breadth or the scope of the language proper, I was looking for the batteries; I would routinely get frustrated because of the lack of the things I'm used to in a standard library. So it's just interesting that we have both found the same thing, but reacted kind of viscerally in different directions. But I'm a big fan of Mocha, so thank you for all your work on that over the years. We should say Chris was on Request for Commits -- somebody in the chat give us the episode number; we'll include it in the show notes, a great episode... All about sustainability, and Mocha, and the softer side of open source. That is definitely a must listen, so go back and check that out.
 
-\[00:12:09.03\] Alright, Nick, let's turn to you - I could introduce you, Nick, probably pretty well, because we've actually known each other for a long time as co-organizers of the Nebraska JavaScript conference (NEJS Conf), which by the way, the CFP is still open on that, but closing soon... There we go, RFC \#15; thank you, chat room. So check that out if you wanna listen to Chris talk about the softer side of Mocha.
+\[12:09\] Alright, Nick, let's turn to you - I could introduce you, Nick, probably pretty well, because we've actually known each other for a long time as co-organizers of the Nebraska JavaScript conference (NEJS Conf), which by the way, the CFP is still open on that, but closing soon... There we go, RFC \#15; thank you, chat room. So check that out if you wanna listen to Chris talk about the softer side of Mocha.
 
 But Nick, fellow Omahan, fellow JavaScript person, co-organizer of NEJS Conf... I actually don't even know your story with regards to JavaScript, so let's hear it.
 
@@ -75,13 +75,13 @@ I think what Chris was saying, about it being really a small language that you c
 
 **Safia Abdalla:** I think I came into client-side JavaScript probably a little bit later than everybody else, since I'm younger... So I was definitely a part of that generation that at the beginning grew up thinking that jQuery and JavaScript were pretty much the same thing, because at that point it had such a strong hold on client-side JavaScript development in general.
 
-\[00:16:12.17\] I remember when I first started to actually write DOM manipulating code in vanilla JavaScript, I was like "What is going on here? This is so different, and clunkier." So yeah, the API was so attractive that I think it definitely drew a lot of people who otherwise would have been deterred by the vanilla API for interacting with the DOM, into JavaScript, and then kind of like provided a smooth place to take off from into other parts of the language.
+\[16:12\] I remember when I first started to actually write DOM manipulating code in vanilla JavaScript, I was like "What is going on here? This is so different, and clunkier." So yeah, the API was so attractive that I think it definitely drew a lot of people who otherwise would have been deterred by the vanilla API for interacting with the DOM, into JavaScript, and then kind of like provided a smooth place to take off from into other parts of the language.
 
 **Jerod Santo:** Yeah, just to emphasize the learnability side of it real quick... The fact is that the industry has very much moved beyond jQuery as standard; a lot of the reason is because the browsers have made those API's better... You know, querySelectorAll() and what have you... A lot of the quirks have been worked out, and there's other ways of building production-scale applications. But when it comes to teaching, we still have been very involved in introducing people to the web and building for the web, and we still use jQuery and teach it just because at that point it doesn't matter what's JavaScript and what's jQuery; it's getting people to realize how manipulable the web is, and how jQuery's API focusing on the CSS selectors as the way of getting into it, while you're already teaching them CSS, right? So they're learning the CSS selectors, and now let's use CSS selectors to grab elements and manipulate them very easily by calling one-word functions. There's really still no more powerful way to get somebody excited about learning JavaScript and the web than just showing them what jQuery can do.
 
 **Safia Abdalla:** Yeah, that's a great point.
 
-**Break:** \[00:17:59.15\]
+**Break:** \[17:59\]
 
 **Jerod Santo:** Next, let's look at a specific project. It's always fun to find specific projects out there, especially ones that have general-purpose use, or maybe even a certain level of depth or the things they're providing are impressive... And tease it apart a little bit - take a look at it, talk about its pros and its cons, and there's so many projects in the JavaScript space that it's very difficult to even keep up with them. But we found a project this week which I think hit Changelog news -- maybe it was last week, but it was one of the more popular things that we logged on Changelog news, which is called Tabler. We'll pass a link to Tabler into the chat, so everybody can check it out.
 
@@ -89,7 +89,7 @@ It deems itself an admin panel made simple, so it very much fits into the catego
 
 **Safia Abdalla:** Yeah, it is.
 
-**Jerod Santo:** \[00:20:00.29\] It is. And I think they call that Bootstrap 4 because it took 4 years to write... Isn't that the case?
+**Jerod Santo:** \[20:00\] It is. And I think they call that Bootstrap 4 because it took 4 years to write... Isn't that the case?
 
 **Safia Abdalla:** Oh, I'm not sure about that. I just know it's the newest one and it kind of took a while to get there.
 
@@ -115,7 +115,7 @@ I guess one thing that I would be looking at is how it would fit in with the res
 
 **Christopher Hiller:** I kind of have similar concerns... I use Bootstrap 3. It's been a while since I've touched Bootstrap, but as I recall, there are basically two parts; I don't know if that's still true, but there's the JavaScript part, and the CSS part. You probably want the CSS part if you're using Bootstrap, and the JavaScript part is people will write their own implementation to work with the CSS in whatever framework that people tend to use... So does this want you to use Bootstrap's JavaScript, are there adapters for frameworks, or how does that work? This is better suited to a more server-side rendered app... But definitely, if I'm going to build a dashboard, I'll definitely take a closer look at this.
 
-**Jerod Santo:** \[00:24:20.02\] That kind of opens up two larger questions that I often have for people, or even for myself... When you see something built on Bootstrap, or even just \*insert UI framework here\*, take Bootstrap out of it specifically; let's say built on X, where X is a Bootstrap or Foundation, or a Semantic UI, or what have you - there's probably more, I can't think of them... Is that a selling point for y'all, or is that actually like "Ugh..."
+**Jerod Santo:** \[24:20\] That kind of opens up two larger questions that I often have for people, or even for myself... When you see something built on Bootstrap, or even just \*insert UI framework here\*, take Bootstrap out of it specifically; let's say built on X, where X is a Bootstrap or Foundation, or a Semantic UI, or what have you - there's probably more, I can't think of them... Is that a selling point for y'all, or is that actually like "Ugh..."
 
 **Safia Abdalla:** I think it depends. Some people do use Bootstrap and Foundation, and they're really good at using those tools effectively and introducing some aspects of their product's brand to it... But there's some where it's definitely easy to tell that although they used the tools to help speed up the development process, they didn't extend upon them.
 
@@ -133,7 +133,7 @@ In my opinion, they should be used as starting points, and they should be custom
 
 **Jerod Santo:** What's the state of Web Components, yeah... \[laughter\] I knew we had a JS Party about Web Components, but that was a year ago, so a lot changes in time. And sometimes a lot doesn't change, but we hope it does.
 
-\[00:27:52.13\] Okay, last question on this front - so we've talked about the UI framework... And definitely this is garnered towards admins and dashboards, so aside from this particular project, I guess a two-part question would be -- the first part is do you all build admins on the regular, or is that something that for your job or your interest is not something you do very often?
+\[27:52\] Okay, last question on this front - so we've talked about the UI framework... And definitely this is garnered towards admins and dashboards, so aside from this particular project, I guess a two-part question would be -- the first part is do you all build admins on the regular, or is that something that for your job or your interest is not something you do very often?
 
 Then part B would be if you do build admins, what's your usual go-to, how do you build them out, and would this change that at all?
 
@@ -169,7 +169,7 @@ One of the things that actually made me nervous when I went to the Tabler dashbo
 
 So in that case, for the entire interface I'm using another CSS toolkit called Tachyons, which is way lighter than Bootstrap or Foundation, and it doesn't have -- it's got a different style to it, I'll put it that way. So I'm not doing anything fancy with the dashboard, and I think that's almost fine. One of the big reasons that writers, when I talk to them, are going to the dashboard anyway is they come with a question that's like "How much money did I make this month? What should I expect in my bank account?" And that's what they wanna be able to get really quickly, and then everything else is kind of nice to have, but not totally necessary, so I've deprioritized it.
 
-**Jerod Santo:** \[00:32:14.07\] Keep it simple.
+**Jerod Santo:** \[32:14\] Keep it simple.
 
 **Safia Abdalla:** Yeah.
 
@@ -182,13 +182,13 @@ I've seen a lot of systems like that, I don't know if there's a good one that is
 
 **Jerod Santo:** Cool. Let's wrap up by just saying thanks to (I believe he's) @CodeCalm on Twitter for putting Tabler out there for people to use and enjoy if that's something that will suit them. He dubs it a "Premium and open source dashboard template with responsive and high-quality UI", and then he emphasizes "For free", which we all love that side of open source as well. So check out Tabler if you haven't, and we'll call it a wrap.
 
-**Break:** \[00:34:58.14\] to \[00:35:30.17\]
+**Break:** \[34:58\] to \[35:30\]
 
 **Jerod Santo:** For segment three today, we are going to give some shout-outs. These are kind of like your traditional picks, except for they can focus on a person, it could be a project, it could be anything that you think deserves it, and we're not limiting ourselves to one... And I think that's good, because I'm looking at our list and it looks like you all had a bunch of them, so this will be good.
 
 Let's start with Safia - who would you like to give a shout-out to in this show?
 
-**Safia Abdalla:** \[00:35:57.04\] Sure, so I want to give a shout-out to a person, and then a project. The person is I want to give a shout-out to - my shout-out is actually long overdue... His name is Jeremiah; his handle is @Fishrock123 on Twitter, and I think GitHub as well.
+**Safia Abdalla:** \[35:57\] Sure, so I want to give a shout-out to a person, and then a project. The person is I want to give a shout-out to - my shout-out is actually long overdue... His name is Jeremiah; his handle is @Fishrock123 on Twitter, and I think GitHub as well.
 
 A couple months back I was doing a series on my blog where I read parts of the Node codebase and tried to answer questions about how built-in modules are registered, how the main process is initialized, how different modules work... And Jeremiah did a really wonderful job of providing feedback on where I misunderstood some things, and help me make my blog posts more accurate, so shout-out to him for that.
 
@@ -208,7 +208,7 @@ He always on top of this thing, so whenever GitHub changes any UI component, the
 
 And there's also an associated userscript called GitHub Dark script. What that is basically extra configuration and settings for GitHub dark, and you can do all sorts of cool things like change your background, or change your syntax highlighting... And that is actually a userscript, like Stylish and user styles and that sort of thing. These are Greasemonkey and Tampermonkey extensions; you may have heard of that.
 
-\[00:40:21.18\] Greasemonkey is originally a Mozilla plugin. Tampermonkey is the Chrome analog. GitHub Dark script works with that, and you load the extension and then you can put whatever userscript you want in it. There's the GitHub Dark scripts, there's extra user scripts that do all sorts of just little tweaks, kind of like the GitHub Refined Chrome extension; I know a lot of people really like that extension, and I do, too.
+\[40:21\] Greasemonkey is originally a Mozilla plugin. Tampermonkey is the Chrome analog. GitHub Dark script works with that, and you load the extension and then you can put whatever userscript you want in it. There's the GitHub Dark scripts, there's extra user scripts that do all sorts of just little tweaks, kind of like the GitHub Refined Chrome extension; I know a lot of people really like that extension, and I do, too.
 
 The cool thing is that GitHub Dark works with GitHub refined, and that's all styled as well, so it looks great. And so does Octotree. Octotree also has a dark style. Awesome work.
 
@@ -220,7 +220,7 @@ Let's get into my shout-out. I'm shouting out to two people. One of them is the 
 
 Jack is a guy who was the original creator of Semantic UI, so I thought it was appropriate with our admin and UI template conversation around Tabler, because we use Semantic UI for our admin here at Changelog, and also I use it on a bunch of client projects. It's been a tool in my toolkit for years, and I very much appreciate it. It's helped me make lots of money over the years, it's helped me build things fast, and this is a project that I think has helped so many people, it's amazing. Over 40,000 stars on GitHub, over 4,000 forks, and it's very much been kind of a project headed up by a single person, that has been through different states of activity, and it's been interesting to watch Jack manage the issues, which have climbed up to almost 600 now; he has 69 pull requests... So you can see how maybe he's even a little bit drowning under the weight of it all. I've kept up with Jack over the years, and he's been trying to find different ways of sustainability and what have you, so I just like to mention him when we have a chance to shout-out people as somebody who has helped me a lot in my life, and I think has helped a whole lot of other people as well... So shout-out to Jack.
 
-\[00:43:41.01\] The second shout-out for me is to another person - this is Alexandru Maier, which you probably haven't heard of... Alexandru tirelessly transcribes our podcast. This very show right here -- in fact, Alexandru, you may be transcribing this in a few weeks... Hi, thank you for all your hard work. You make our transcripts awesome. Each one of our episodes gets transcribed, and he writes it in markdown, puts it up on GitHub, and then we suck them into the website from there, so they can be contributed to by the community on GitHub.
+\[43:41\] The second shout-out for me is to another person - this is Alexandru Maier, which you probably haven't heard of... Alexandru tirelessly transcribes our podcast. This very show right here -- in fact, Alexandru, you may be transcribing this in a few weeks... Hi, thank you for all your hard work. You make our transcripts awesome. Each one of our episodes gets transcribed, and he writes it in markdown, puts it up on GitHub, and then we suck them into the website from there, so they can be contributed to by the community on GitHub.
 
 We have I think over 30 people who have gone in and fixed things up, add links, help Alexandru out, but he does a really awesome job, especially around jargon. He's not a technical person necessarily - in the sense of developer technical, but when he hears a word that he doesn't understand, he actually goes and looks it up and gets the proper nouns right, and figures out the jargon, and does a really great job. That's why we love working with him and that's why we still do not let computers do our transcriptions yet. Eventually, Alexandru, they may catch up with you, but not yet... So shout-out to you, and thank you for all your hard work.
 

@@ -6,7 +6,7 @@
 
 **Chris Benson:** It sounds good. As we get back in the swing of things, today was my first day back into work after a little vacation time...
 
-**Daniel Whitenack:** \[00:04:25.19\] Yeah, same here.
+**Daniel Whitenack:** \[04:25\] Yeah, same here.
 
 **Chris Benson:** ...so I'm trying to readjust my whole brain into actually having to be productive, which is a scary thing...
 
@@ -66,7 +66,7 @@
 
 **David Kanter:** Yeah, absolutely. Actually, I'd say in some ways m background in ML dates back to when I was in university at the University of Chicago, where I did math and economics, and you know, a lot of econometric analyses, actually. Very similar to some forms of machine learning. But from there, I was very heavily involved in computer architecture, microprocessor design, I had a startup for a few years... And then sort of when I shut that down I ended up getting into a lot of consulting, and ended up falling in with the predecessor to MLCommons, which was a collaborative benchmarking effort called MLPerf. And in a lot of ways, MLPerf brought together the community of machine learning, and then sort of system architecture, computer engineering, and so forth.
 
-\[00:07:58.27\] Then, as you mentioned, we formed MLCommons, which is a non-profit, a global engineering consortium to bring everyone together around our overall goals. So I very much come from the technical side, again, on sort of the performance aspects, but over the last 2-3 years I've really leveled up my understanding of machine learning quite considerably, both through my consulting, and now my day job.
+\[07:58\] Then, as you mentioned, we formed MLCommons, which is a non-profit, a global engineering consortium to bring everyone together around our overall goals. So I very much come from the technical side, again, on sort of the performance aspects, but over the last 2-3 years I've really leveled up my understanding of machine learning quite considerably, both through my consulting, and now my day job.
 
 **Daniel Whitenack:** Yeah, and MLPerf, I remember -- so when did that come about? Because that's been around for some time, right? I remember seeing things about it.
 
@@ -94,7 +94,7 @@ But the other thing is we knew that this was one leg of the tripod, and that we 
 
 What we really noticed early on is there's so much excitement around machine learning, around AI, but it was almost like the UN without their translation devices, and people would be talking about performance in ways that were very much not apples to apples. So the goal of the benchmarking side of things is to both provide a common set of metrics for what constitutes progress. A benchmark in some sense is a barometer on progress. And you know, does it always point true North? Not exactly. But if it's off by 5-6 degrees, it's fine; you're still heading in the right direction. But it's also about giving everyone a common language for where you are in fact heading, whether it's sales and marketing, or engineering, or academic research, or even folks in the government... And sort of clarifying the field and providing a map and a barometer, in some sense.
 
-**Daniel Whitenack:** \[00:11:57.23\] Yeah, it seems kind of interesting to me to think a lot about this side of benchmarking. I think where a lot of people -- if you were to talk to a lot of AI practitioners or ML practitioners, and talk to them about performance or leader boards or something like that, they probably immediately think of "Oh, some list of models..." and they've got this accuracy on ImageNet, or they've got this blue score on this machine translation task, or something like that... And it's really a measure of the performance of the output of the model, not of its performance on hardware. And actually, you kind of see, as these leader boards have been released, people put more and more effort in, and actually the models at the very top might be very poorly performant on a lot of -- or maybe even some lowly people like me might not be able to run them on any hardware that we own.
+**Daniel Whitenack:** \[11:57\] Yeah, it seems kind of interesting to me to think a lot about this side of benchmarking. I think where a lot of people -- if you were to talk to a lot of AI practitioners or ML practitioners, and talk to them about performance or leader boards or something like that, they probably immediately think of "Oh, some list of models..." and they've got this accuracy on ImageNet, or they've got this blue score on this machine translation task, or something like that... And it's really a measure of the performance of the output of the model, not of its performance on hardware. And actually, you kind of see, as these leader boards have been released, people put more and more effort in, and actually the models at the very top might be very poorly performant on a lot of -- or maybe even some lowly people like me might not be able to run them on any hardware that we own.
 
 So how has your conversations with people over time around MLPerf and actual performance on hardware overlapped or come into conflict with those other sort of conversations around "Oh, how accurate can we be?" and that sort of thing?
 
@@ -106,7 +106,7 @@ So how has your conversations with people over time around MLPerf and actual per
 
 To pivot to the second part of your question, about MLCommons, our goal is advancing innovation in machine learning, to drive the whole industry forward. So when I think about where we are today, there are a lot of digitally-native companies that have tremendous AI capabilities... But then we look at "How do we reach the rest of the world? How do we reach analog companies?" Someone like Goodyear, for example, or Macy's. As opposed to Amazon, where I think of digitally-native shopping. So in order for that to happen, it can't be these handcrafted things; you need a lot of standard components. And we have the beginnings of that, we have things like TensorFlow and PyTorch to help us along the way, but there's a well-proven recipe for industry growth...
 
-\[00:16:00.27\] MLCommons is really built to address three key things that we see there. One of these performance benchmarks, and generally speaking, metrics - and you know, if you think about the industrial revolution, if you wanna make a precision airplane, if you confuse your meters with inches, you end up with things like crashing the Mars lander. So we've gotta get the measurement down.
+\[16:00\] MLCommons is really built to address three key things that we see there. One of these performance benchmarks, and generally speaking, metrics - and you know, if you think about the industrial revolution, if you wanna make a precision airplane, if you confuse your meters with inches, you end up with things like crashing the Mars lander. So we've gotta get the measurement down.
 
 Then we need our raw materials. You've had folks on this show before, like our colleagues at Mozilla, and Unsplash, where you referenced ImageNet. And this is the raw ingredient to AI and ML, which is datasets. And there we're very much influenced by ImageNet. They provided the resource that catalyzed this latest revolution in machine learning. \[unintelligible 00:16:55.28\] and convolutional nets beat humans at image classification, and the rest is an adventure we're living out.
 
@@ -114,7 +114,7 @@ And then the third pillar of MLCommons is what I call best practices, which is "
 
 So those are the three things that we see really driving the industry forward and helping to bring the benefits of machine learning, whether it's translation, speech recognition, self-driving cars, medical diagnostics to the whole world.
 
-**Break:** \[00:18:19.12\]
+**Break:** \[18:19\]
 
 **Daniel Whitenack:** David, I'm pretty curious about the structure and origins of MLCommons, in the sense that I'm kind of reading about this really exciting group of people that's joined together to help form MLCommons, with the initial founding board including representatives, from people like Alibaba, and Facebook AI, and Google, Intel... But then you've got people involved, researchers from Academia, and even startups... So could you kind of describe a little bit of the origin story of how this organization came to be, and what it was like? Was it like people from all of these different companies on a Zoom call, and just saying "Hey, this thing needs to exist? Remember that MLPerf thing? Maybe we need to create this other thing..." Or has it been sort of forming, and is it rooted in deeper things, like MLPerf, and that sort of thing?
 
@@ -126,7 +126,7 @@ And at the start of last year we kind of got started on forming a non-profit tha
 
 **David Kanter:** One of the things that we're very blessed by is that a lot of the folks who are pioneering key pieces of infrastructure in ML are members. TensorFlow and PyTorch - we have representatives from Facebook and from Google, so when we run into something or have a question... You know, sometimes we're lucky enough to get the right people there in the call to start with, but you know, it's pre-Covid days, a tap of the shoulder away, and now probably an instant message, or Slack, or a Facebook message away.
 
-\[00:24:02.19\] So I think that has actually been a tremendous strength of ours. But a lot of these communities are almost orthogonal to what we do. Our benchmarks, for example, are full-system. So it incorporates software systems, cloud, hardware, compilers, everything. But we do very much -- we're a global and open standard, and in some sense you really have to be, as a benchmarking organization, because there's this intrinsic judging quality to it. And just as it is in the judicial system in the United States, the judging organizations, so to speak, must be above reproach, must be open and equal to all. And that is very much our goal. So it's not that there are members per se, but we wanna work with everyone. We're all fellow travelers.
+\[24:02\] So I think that has actually been a tremendous strength of ours. But a lot of these communities are almost orthogonal to what we do. Our benchmarks, for example, are full-system. So it incorporates software systems, cloud, hardware, compilers, everything. But we do very much -- we're a global and open standard, and in some sense you really have to be, as a benchmarking organization, because there's this intrinsic judging quality to it. And just as it is in the judicial system in the United States, the judging organizations, so to speak, must be above reproach, must be open and equal to all. And that is very much our goal. So it's not that there are members per se, but we wanna work with everyone. We're all fellow travelers.
 
 **Daniel Whitenack:** Good way to put it, I like that a lot. So we've talked a lot about MLPerf... Maybe we could dive into a couple of these other pillars that you mention. You mentioned datasets; I'm looking at your website now - you talk about datasets and models publicly-available, and can form the foundation of new capabilities... And specifically, I see you mentioned the speech dataset, the world's largest public speech-to-text dataset, which is maybe your first foray into this. So could you maybe describe your vision in the longer term for this datasets component of MLCommons? And then how you got started with the speech dataset.
 
@@ -140,7 +140,7 @@ So that's the vision... And as you say, the People's Speech is our first dataset
 
 Now, I don't claim that this will give you a truly production-worthy model, but I think it can really lower the bar for a lot of people, and it's very exciting to me. There's two folks in my life who actually really benefit from speech technology.
 
-\[00:27:55.25\] One is my mother, who had a stroke a few years back, and has difficulty reading, but she uses speech-to-text on her phone all the time. So that's great. She speaks English, and both English and Mandarin have very robust systems... But it doesn't take long before you get to other very commonly-spoken languages, like Portuguese, where there's really almost no public data, but that's a language that's spoken by 300 million people.
+\[27:55\] One is my mother, who had a stroke a few years back, and has difficulty reading, but she uses speech-to-text on her phone all the time. So that's great. She speaks English, and both English and Mandarin have very robust systems... But it doesn't take long before you get to other very commonly-spoken languages, like Portuguese, where there's really almost no public data, but that's a language that's spoken by 300 million people.
 
 So if we can help push those frontiers out... I would love to be able to extend, and play a role in extending speech technology to the next several billion people, this decade.
 
@@ -160,7 +160,7 @@ So if we can help push those frontiers out... I would love to be able to extend,
 
 But it is true that as a volunteer project one of the biggest challenges is turnover. And this is true in graduate schools as well, and actually this is one of the things that I think is sort of a lesson from ImageNet that we're trying to build on and improve, which is the ImageNet folks did something amazing on a very tight budget. We wanna reproduce that. But we also think that the techniques that go building these datasets are durable, and by putting a lot of this expertise within an organization, we can drive down the cost over time... Because there's all sorts of tricks of the trade that are very much embodied in people, and may not get written down. So when you have people rotating in and out, you kind of lose that. But by having an organization behind that, where it's all written down, and we have some continuity - folks like myself and other leads - I think there is a great opportunity to really build up momentum that is beyond a single project.
 
-**Break:** \[00:32:22.07\]
+**Break:** \[32:22\]
 
 **Chris Benson:** David, I'm kind of curious - I know that one of the pillars that you have that is around best practices is called MLCube. I wonder if you could start us off by describing what that is, what it's conventions are, and such, and kind of give us a quick intro to that.
 
@@ -174,7 +174,7 @@ Some of the organizations that we work with are super-computer sites, and some o
 
 **Daniel Whitenack:** Yeah, I definitely agree... Speaking after some interesting experiences, even this last week, trying to get a number of random models to run locally. It's difficult, and people are eager, because they see these really awesome things coming out in research papers, and "Will this happen at Google, or will this happen in OpenAI?" And almost instantly it's up on GitHub, but then actually running it and doing something useful with it is a whole other game.
 
-\[00:35:55.16\] So in terms of like -- let's say I'm an AI practitioner, and you mentioned Model Zoo, and portable models... What are you envisioning with MLCube my workflow would be if I was either contributing some model to MLCube, or some method? And also on the other side, so being a consumer of that and integrating it into my own work.
+\[35:55\] So in terms of like -- let's say I'm an AI practitioner, and you mentioned Model Zoo, and portable models... What are you envisioning with MLCube my workflow would be if I was either contributing some model to MLCube, or some method? And also on the other side, so being a consumer of that and integrating it into my own work.
 
 **David Kanter:** Yeah, that is a perfect question. Actually, this is one of the things that makes me very glad that we had certain deliverables in our launch, which was the MLCube team put together a great tutorial on how to publish a model and package it up with MLCube. So I think we have a couple of examples up already... And the beautiful future I'd love to see is where it's so low-friction that everyone who's publishing research papers does it.
 
@@ -202,7 +202,7 @@ We have some tutorials on how to -- sort of the Hello World equivalent. And I th
 
 **David Kanter:** Although it's actually jackets. You can't see it because this is a podcast, but I am wearing one with the MLPerf logo.
 
-**Daniel Whitenack:** \[00:40:02.11\] Oh, yeah.
+**Daniel Whitenack:** \[40:02\] Oh, yeah.
 
 **Chris Benson:** I see it there.
 
@@ -228,7 +228,7 @@ So that's kind of the sweet spot that we wanna focus on and do. And you know, yo
 
 **Daniel Whitenack:** \[laughs\] So how do you with this sort of very collaborative group, and so many parties involved, do you know sort of right now -- like, I'm just thinking of datasets... How do you choose what's the next dataset that you're gonna focus on, and what area it is, and that sort of thing? Is that driven out of feedback from the community, or is there kind of a roadmap from the board, or like a combination of the two? How's that work?
 
-**David Kanter:** \[00:43:56.14\] That's a very good question. I think it is very much driven by the member community and the board. And one of the keys to any effort like this is, you know, we don't really wanna be taking money away from our member companies, but we obviously have to keep the lights on and do -- you know, there's a lot of functions that we are providing. But part of the value of being a member is helping to drive that forward.
+**David Kanter:** \[43:56\] That's a very good question. I think it is very much driven by the member community and the board. And one of the keys to any effort like this is, you know, we don't really wanna be taking money away from our member companies, but we obviously have to keep the lights on and do -- you know, there's a lot of functions that we are providing. But part of the value of being a member is helping to drive that forward.
 
 So there are other things that we've identified as being opportunities, in terms of datasets. And that is sort of a board decision, but the way the board works - this is not like a Roman emperor. This is actually genuinely community-driven. We listen to our members... And then there's also a bit of vision involved. And vision is not "You just listen to everyone and do what they say", you have to start with an end in mind. And by nature, a community will generally pull you to where their focus is, but some of the things that we happen to think are very important are things like AI and medicine. That's clearly huge potential for impact on the whole world. Self-driving vehicles, another one. Tens of thousands of people are killed or injured in automobile accidents, and if we could cut that down by an order of magnitude, that would just be a huge benefit to society.
 
@@ -242,7 +242,7 @@ But again, medicine - my father is a physician. He's retired now. But I just see
 
 The name of the game is "How do we build a better world and a bigger role for AI?" because ultimately then all of our members benefit, and everyone across the world. So I think those are the things that really excite me.
 
-\[00:47:48.04\] Five years from now maybe there are other pillars to our organization that kind of come up. One of the things that we like having is we have sort of a research group that allows for more rapid development of these ideas, so that -- you know, things like the datasets, we can sort of quickly iterate on until we figure out that "Yeah, this is a good idea. This is mature now. Let's go push some real weight behind it." Or "That idea wasn't quite ready." And there's a lot ideas that are great, but it might not be the right time for them.
+\[47:48\] Five years from now maybe there are other pillars to our organization that kind of come up. One of the things that we like having is we have sort of a research group that allows for more rapid development of these ideas, so that -- you know, things like the datasets, we can sort of quickly iterate on until we figure out that "Yeah, this is a good idea. This is mature now. Let's go push some real weight behind it." Or "That idea wasn't quite ready." And there's a lot ideas that are great, but it might not be the right time for them.
 
 So the three things we've started should really keep us good for the next five years, maybe even longer, but... Just the impact, and then maybe some other new ideas as they come along. So that's for me, I think.
 

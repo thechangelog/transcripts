@@ -6,7 +6,7 @@
 
 **Alan Cooney:** ...and essentially, for your listeners, Skyhook is a travel website, so a website where you can book adventure holidays. So obviously, this has impacted us quite hard, and it's been a challenge to get through that. But at the same time, we've taken this big opportunity to really rethink how we're doing things and really improve our product, so that we can come out of this - and are starting to come out of this now - with a much, much better product for customers.
 
-**Gerhard Lazu:** \[00:04:16.16\] So Skyhook Adventure - what does it do as a company?
+**Gerhard Lazu:** \[04:16\] So Skyhook Adventure - what does it do as a company?
 
 **Alan Cooney:** Essentially, at its heart, Skyhook is basically a website where you can book adventure trips, like hiking to Everest base camp... Really unique trips. Or canoeing all the way across Scotland. And when you do that, you're actually booking with a local guide. Not a big company, typically a one-man operation. We find that gives you a really, really unique, authentic experience.
 
@@ -24,7 +24,7 @@ One part would be the trips that you browse and you look at, and I could sort of
 
 That's how we then obviously joined the team slightly later on, and we went down this track of diving into the serverless world, and created the first iteration of the new Skyhook platform, which was a serverless monolith really of sorts, based on AWS... And we're using RDS as the database. We've then gone on from that journey from there, really.
 
-**Gerhard Lazu:** \[00:07:54.27\] Right. So even though you had all these Lambda functions - that's what serverless means to you, that's actually what it translates to, Lambda functions running on AWS - they were all backed by the same RDS database. Is that right?
+**Gerhard Lazu:** \[07:54\] Right. So even though you had all these Lambda functions - that's what serverless means to you, that's actually what it translates to, Lambda functions running on AWS - they were all backed by the same RDS database. Is that right?
 
 **Saul Cullen:** Exactly, yeah. So we were using AWS' Aurora database initially. It took us quite a while to design it, and you had to zoom out to see the whole thing, which was an interesting experience the further we got... But yeah, that's exactly right, that's how we started.
 
@@ -58,7 +58,7 @@ So we continued down that route for some time. The database grew and the zooming
 
 **Gerhard Lazu:** So what is better about the new setup?
 
-**Alan Cooney:** \[00:11:56.22\] I can give you the business side, and it will be interesting to hear as well on the technical side. From a business side, it's way more reliable. And you know, you have these problems as a startup, but to give you the example of a host adding their trip - so the guest or customer experience of booking a trip has always been quite smooth... But in terms of adding trips and editing trips, it's been very clunky and very bug-prone, so we'd \[unintelligible 00:12:20.08\] support tickets every day. If you gave a demo, there was a good chance it would break \[unintelligible 00:12:25.01\] obviously quite embarrassing... And that's basically gone away.
+**Alan Cooney:** \[11:56\] I can give you the business side, and it will be interesting to hear as well on the technical side. From a business side, it's way more reliable. And you know, you have these problems as a startup, but to give you the example of a host adding their trip - so the guest or customer experience of booking a trip has always been quite smooth... But in terms of adding trips and editing trips, it's been very clunky and very bug-prone, so we'd \[unintelligible 00:12:20.08\] support tickets every day. If you gave a demo, there was a good chance it would break \[unintelligible 00:12:25.01\] obviously quite embarrassing... And that's basically gone away.
 
 **Gerhard Lazu:** So the system is a lot more reliable today than it was two years ago.
 
@@ -108,11 +108,11 @@ But all in all, the scope of this task we are doing actually is, for instance, o
 
 **Saul Cullen:** That's a really good question. Gosh, I don't know what they were at the last count. We seem to add about one a week as we move over... And as Wycliffe says, we've been doing a lot of this migration. So we keep the services very specific to tasks - we have reviews-related services that handle everything to do with customer reviews, and bookings-related services... So probably you could count our number of services on your hands at the moment. But we anticipate that growing over time, and this new architecture allows us to very quickly add new services, test them... And like you were just saying, you get to that point of failure and find where your failure is much more quickly, and then you can iterate correct and get out what the customer actually wants. And I think that's actually an interesting area.
 
-\[00:16:36.14\] So these feedback loops is something that -- when you came along, Gerhard, I remember sitting down with you, and you said "We've got to get this DevOps cycle going, and get these feedback loops going really rapidly, so that you can learn from what you put out there and feed that back into what you're working on." That sticks in the back of my mind all the time really, and we're constantly thinking "How can we get these feedback loops going faster and faster?" And this new microservices-based architecture really has helped us with that, and we're shipping at much, much higher velocity than we were previously.
+\[16:36\] So these feedback loops is something that -- when you came along, Gerhard, I remember sitting down with you, and you said "We've got to get this DevOps cycle going, and get these feedback loops going really rapidly, so that you can learn from what you put out there and feed that back into what you're working on." That sticks in the back of my mind all the time really, and we're constantly thinking "How can we get these feedback loops going faster and faster?" And this new microservices-based architecture really has helped us with that, and we're shipping at much, much higher velocity than we were previously.
 
 Another thing we're starting to try as well is including things like feature flags. Instead of pushing out large chunks of code, we'll every day push out multiple new features and just flag them off and show them to specific sets of customers, or ourselves internally, we'll test those. And all of these sort of architectural choices actually do have very direct impact on the customer, on how rapidly features reach them, on how rapidly we can improve those features, learn what the customer wants... So I think it's definitely something that I've put a lot of thought into, and as a team we've put a lot of thought into that as well.
 
-**Break**: \[00:17:52.18\]
+**Break**: \[17:52\]
 
 **Gerhard Lazu:** I would like to go back, Saul, to how those microservices talk amongst themselves. First of all, my understanding is that those microservices are just collections of serverless functions that get deployed as one unit. So it's just a grouping of serverless functions. They all have their own data store, which is DynamoDB... And what I'm wondering is how do they talk amongst themselves? Or do they even talk among -- I mean, is there any need to communicate between services?
 
@@ -122,7 +122,7 @@ Another thing we're starting to try as well is including things like feature fla
 
 **Saul Cullen:** Absolutely... I mean, this is something that's an evolving area for us. There's lots of solutions that people tout out there... You know, people using gRPC to communicate between microservices... We're using AWS AppSync, and what we have is we have a separate API service. And that API service allows us to expose the AppSync service to each service. So everyone can use the API to query for whatever data it was.
 
-\[00:20:07.15\] We're still at the early stages of running with this and using it, but at the moment it is working really very well for us, for the most part. Don't know if Alan wants to add anything to that, because it's an area where Alan has really pioneered a lot of that...
+\[20:07\] We're still at the early stages of running with this and using it, but at the moment it is working really very well for us, for the most part. Don't know if Alan wants to add anything to that, because it's an area where Alan has really pioneered a lot of that...
 
 **Alan Cooney:** Yeah, so that's for synchronous communications specifically, which is actually quite a small part of total communication between services... And it's quite an unusual setup actually, in that the services are going back through AppSync -- because often you have a mutation to create a booking, and then the booking service will go back to AppSync, basically to the API, and say "How much availability does this particular date have? i.e. can we make the booking, or is already fully booked?" But the majority of communication happens asynchronously via an AWS Event Bridge, which is -- we ended up trying a lot of different services for this, but AWS Event Bridge has gained loads of traction recently in serverless communities, because... It's great. That's the short answer.
 
@@ -156,7 +156,7 @@ For example, the booking service, when you make a booking, that will put some ev
 
 So essentially, what this involves is the fetching between Next.js \[unintelligible 00:23:58.02\] The application is hosted on Vercel, which is the parent company of Next.js, or the company that builds Next.js and open-sources it.
 
-\[00:24:10.02\] Essentially, that goes directly to AppSync. At the moment we don't \[unintelligible 00:24:13.05\] but that might be an option for the future. So AppSync directly goes to the individual services to get the requested data, and then it does that through Next.js, which sort of caches some pages that don't change that frequently, so that the users get some pages much faster than it would involve getting them directly through AppSync \[unintelligible 00:24:34.20\]
+\[24:10\] Essentially, that goes directly to AppSync. At the moment we don't \[unintelligible 00:24:13.05\] but that might be an option for the future. So AppSync directly goes to the individual services to get the requested data, and then it does that through Next.js, which sort of caches some pages that don't change that frequently, so that the users get some pages much faster than it would involve getting them directly through AppSync \[unintelligible 00:24:34.20\]
 
 **Gerhard Lazu:** That makes sense. So Next.js - I imagine that is a JavaScript framework, right? Based on React. That's my understanding. So how do you serve that to users? So if a user goes, for example, to SkyhookAdventure.com, I imagine they load this Next.js-based response...
 
@@ -200,7 +200,7 @@ So essentially, what this involves is the fetching between Next.js \[unintelligi
 
 **Gerhard Lazu:** That sounds really interesting, and I really like that idea. I know Netlify does something similar. But I've never understood... For a stateful service - great. You have a feature environment. But what about the data? How do you do the data migration for that? How do you solve that problem?
 
-**Alan Cooney:** \[00:28:06.12\] We would love to have one complete backend built per PR a well, which is close to being feasible in the serverless world, because it costs pennies to run... And then really per PR you could have your own \[unintelligible 00:28:17.03\] your own environment. But we don't have that; it doesn't seem to be at least easy with AWS... So we have \[unintelligible 00:28:25.21\] but it goes to one staging backend which has a set amount of test data.
+**Alan Cooney:** \[28:06\] We would love to have one complete backend built per PR a well, which is close to being feasible in the serverless world, because it costs pennies to run... And then really per PR you could have your own \[unintelligible 00:28:17.03\] your own environment. But we don't have that; it doesn't seem to be at least easy with AWS... So we have \[unintelligible 00:28:25.21\] but it goes to one staging backend which has a set amount of test data.
 
 **Gerhard Lazu:** I see. Okay, and then I imagine that GitHub Actions does any migrations that it needs to do on the staging environment, so that the PR -- is that right? Or do you have like per-PR -- like, how does GitHub Actions know what to do on the staging environment based on the type of push or whatever action it is?
 
@@ -224,7 +224,7 @@ Then after that \[unintelligible 00:31:33.12\] The reason we do this is because 
 
 So all in all, depending on the amount of tests and the size of the codebase, that may take anwyhere between one to three minutes. On our new smaller services it's even faster than that.
 
-**Gerhard Lazu:** \[00:32:07.18\] Do you find yourself pushing changes at the same time to multiple services? Alan, you mentioned yesterday you made a change... What does that look like, I'm wondering, Alan?
+**Gerhard Lazu:** \[32:07\] Do you find yourself pushing changes at the same time to multiple services? Alan, you mentioned yesterday you made a change... What does that look like, I'm wondering, Alan?
 
 **Alan Cooney:** Yeah. I don't do it that often, to that many services, for sure. That was actually a change for billing tagging in AWS. But basically how it works is - for example, you want to update the website and your backend service. You can push those through at the same time, especially if the website feature is feature-flagged, or not available to users yet; you can push them at the same time, and that lets you encapsulate maybe a small piece of code that's spread across several areas, and see the change very quickly.
 
@@ -250,7 +250,7 @@ There's actually quite another cool feature here, which is that we use GitHub Ac
 
 **Alan Cooney:** And one of the things you said, which is obvious in hindsight, is "I really hate yaml, especially when it's 500 lines long for a service." And of course, our services - they're mostly not actually Lambda code; they're things like Simple Queue Service (SQS) queues, and lots of built-in AWS products to remove the amount of work we have to do. So we now deploy that using AWS CDK, which lets us write infrastructure in TypeScript, and it also means that we can create separate node modules. They basically have some pre-built defaults in them, so if you want to stream from DynamoDB to Event Bridge, so take your data and stream it to the event bus, you can add in three lines of code - basically a custom CDK construct that we've had - that behind the scenes creates a Lambda functions and queues and dead-letter queues that alarms if it fails; all this complexity. But it's just three lines of code that says "I want this DynamoDB table to stream to my event bus."
 
-**Gerhard Lazu:** \[00:35:58.16\] Okay, that sounds like a very good setup, I have to say... And I also would like to add that my relationship with yaml went through different cycles. It's definitely a love/hate sort of thing, I have to say that... But I think my biggest distaste from abusing yaml came from seeing it being used in CloudFormation, where it'd literally do increment, like an inc - can you imagine the string inc put in a list, and then you had two numbers which had to be incremented? A variable would be generated out of that... So basically, you'd program in yaml, which I think was abhorrent. You should never do that.
+**Gerhard Lazu:** \[35:58\] Okay, that sounds like a very good setup, I have to say... And I also would like to add that my relationship with yaml went through different cycles. It's definitely a love/hate sort of thing, I have to say that... But I think my biggest distaste from abusing yaml came from seeing it being used in CloudFormation, where it'd literally do increment, like an inc - can you imagine the string inc put in a list, and then you had two numbers which had to be incremented? A variable would be generated out of that... So basically, you'd program in yaml, which I think was abhorrent. You should never do that.
 
 I remember that moment, and I think I will remember it till the end of my days; that was horrible. Why would you do that? If you want to do that, then just use a programming language, like TypeScript. That makes a lot of sense. I remember that moment. So I'm really glad that you went down this path, because if you do have to do that, with any sort of templating, any sort of smart logic - don't do it in yaml, please. It's just horrible. So yeah, I'm very glad that that worked so well as well. Nice.
 
@@ -268,9 +268,9 @@ To answer your question, I think an area for me that is so important is developm
 
 So we are looking to technologies or solutions to help us into that area, so that we are able to \[unintelligible 00:40:06.23\] a little bit more, as different teams work on different solutions for different areas.
 
-**Gerhard Lazu:** \[00:40:17.07\] I think that makes a lot of sense... Being able to experiment with data, being able to do things at maybe a larger scale, production scale... Like, how does this impact production without taking production down? That would be nice, especially if you have to do migrations or big changes... So if anyone is listening to this that has an idea of how to do this better, if someone knows \[unintelligible 00:40:36.10\] AWS that are solving this problem or are thinking about it, I'm sure that Alan, Wycliffe and Saul would love to hear from you. So don't be shy. We're all friendly, all of us.
+**Gerhard Lazu:** \[40:17\] I think that makes a lot of sense... Being able to experiment with data, being able to do things at maybe a larger scale, production scale... Like, how does this impact production without taking production down? That would be nice, especially if you have to do migrations or big changes... So if anyone is listening to this that has an idea of how to do this better, if someone knows \[unintelligible 00:40:36.10\] AWS that are solving this problem or are thinking about it, I'm sure that Alan, Wycliffe and Saul would love to hear from you. So don't be shy. We're all friendly, all of us.
 
-**Break**: \[00:40:49.19\]
+**Break**: \[40:49\]
 
 **Gerhard Lazu:** Is there any particular incident or war story that you would like to share? Something that you've learned from. It doesn't have to be tech-related - it can be business-related - but something that obviously impacted your users. Because at the end of the day, everything that we do, whether it's coding, shipping, has an impact on our users. And when we get things wrong, they are the ones that suffer the most. So it doesn't always have to be code changes, or migrations... Sometimes it can be providers that you depend on that fail you, and in turn, you fail your users.
 
@@ -278,7 +278,7 @@ So we are looking to technologies or solutions to help us into that area, so tha
 
 We certainly came across an earlier incident where our payment provider disables refunds for us, unbeknownst to us. And of course, in the early stages of a pandemic occurring there's all manner of changes to bookings going on, customers no longer able to travel... And that was something that had really a very significant impact on us from an operational perspective. Suddenly, the tasks that we were working on one day had to be immediately shelved, and the immediate issue jumped upon... Because at the end of the day you've got to look after your customers. I'm a strong believer in customer experiences. As you know, Gerhard, there's a great book out there - shout-out to to Joseph Pine and James Gilmore on the Experience Economy. Great book, have a read.
 
-\[00:44:14.05\] So at the end of the day, experience for customers comes first from our perspective, so we jumped on this and tackled it in our own way, and patched the holes as best we could... But I think it was quite a realization for us that rolling with single providers for third-party services definitely -- it's an obvious thing, but it comes with a lot of risk. And when it's a core service such as payments, it's something that you really need to think about what your options are, in the worst-case scenario. It's something we're still working on.
+\[44:14\] So at the end of the day, experience for customers comes first from our perspective, so we jumped on this and tackled it in our own way, and patched the holes as best we could... But I think it was quite a realization for us that rolling with single providers for third-party services definitely -- it's an obvious thing, but it comes with a lot of risk. And when it's a core service such as payments, it's something that you really need to think about what your options are, in the worst-case scenario. It's something we're still working on.
 
 We've talked a lot about it actually since that occurrence, and we've got a lot of ideas of how we can fix it, there's tools out there like -- some of your listeners might have heard of things like Spreedly, where you're able to hook in with multiple payment providers rather than running a single provider like Stripe, or whoever it might be; you can maybe have two or more different providers that get selected, depending on various criteria that you can define, or allow Spreedly to define. They are a potential solution, but again, all the complexities in the specific travel world add another layer to solving that challenge. So it's a really interesting one, and I expect something a lot of people are experiencing right now.
 
@@ -296,7 +296,7 @@ So from this perspective, there was not really any risk as far as we were concer
 
 **Alan Cooney:** Yeah, it was really useful actually having this event system, because basically what happened was refunds \[unintelligible 00:47:47.01\] in various ways, and so we replayed our event stream, this time hooked up to a Lambda function which sent an email to the support team of our payments provider to resolve the issue, and triggered a to-do to ask for us to check that it had been resolved.
 
-**Gerhard Lazu:** \[00:48:04.29\] That's very clever.
+**Gerhard Lazu:** \[48:04\] That's very clever.
 
 **Alan Cooney:** A bit of a complex solution, but you have to think outside the box with these, so... Much credit to the team for creating that.
 
@@ -328,7 +328,7 @@ Okay, so - still thinking about your customers, the Skyhook Adventure customers,
 
 **Gerhard Lazu:** For sure, for sure. It just goes to show, there's many areas like that that you can always improve. Knowing which one to focus on, which is the most important one - that's where the business comes into play... And they say "You know what - this is what we need, because the company will be able to do these things if we do this thing first." This is the most important thing, because it unlocks other things...
 
-\[00:52:11.21\] So that is a very nice business working well with tech, and working well with maybe marketing, who knows... I don't know -- I mean, even though you're four people, all of you wear different hats, I know that, and you're all hands-on. That's one of my favorite things about startups - everybody gets to do everything and grow in different ways that they never experienced.
+\[52:11\] So that is a very nice business working well with tech, and working well with maybe marketing, who knows... I don't know -- I mean, even though you're four people, all of you wear different hats, I know that, and you're all hands-on. That's one of my favorite things about startups - everybody gets to do everything and grow in different ways that they never experienced.
 
 So how about you, Alan? Which is your favorite feature?
 
@@ -350,7 +350,7 @@ It sort of takes me onto a slightly tangential point actually about third-party 
 
 So what we started to do, given that we're a very small team at the moment, is to look for third-party tooling to give us rapid solutions that we can then -- you know, either they provide a long-term solution for us and they're really fully-featured and they do what we need without creating too many single points of failure or issues, or they can act as a proof of concept for us. "Is this something that customers really want, and should we invest team time in it?" Because as you mentioned earlier, when you've got a small team like this and you've got a pandemic going on, really prioritization is actually the crucial thing that we've got to get right. We've got a list of features as long as our arms that we could work on and we know customers would be asking for, but which one is gonna provide us with the most business value back and the most satisfaction for our customers?
 
-\[00:56:15.23\] So that's an area where we're turning to these third-party tools to prove some of these ideas and concepts really quickly, and reduce those feedback loops that we talked about earlier.
+\[56:15\] So that's an area where we're turning to these third-party tools to prove some of these ideas and concepts really quickly, and reduce those feedback loops that we talked about earlier.
 
 **Gerhard Lazu:** Any tools that you would like to mention, Saul?
 

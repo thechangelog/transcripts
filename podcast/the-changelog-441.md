@@ -36,7 +36,7 @@
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:03:49.06\] Let's start with this - not much changing this time around. A lot changed last time around. Our 2020 episode, which came out last October, was a big change... A lot going on, and some of the reaction to that episode was -- and we're on Kubernetes now, and it's like "Hey guys, you're on a three-tier web app website." You have a database and an application server, and NGINX, or whatever. Kubernetes is way overkill.
+**Jerod Santo:** \[03:49\] Let's start with this - not much changing this time around. A lot changed last time around. Our 2020 episode, which came out last October, was a big change... A lot going on, and some of the reaction to that episode was -- and we're on Kubernetes now, and it's like "Hey guys, you're on a three-tier web app website." You have a database and an application server, and NGINX, or whatever. Kubernetes is way overkill.
 
 So let's start there, Gerhard... What do you think about that? Do you agree with that?
 
@@ -60,7 +60,7 @@ What about the monitoring? How do you manage the monitoring? And again, it just 
 
 **Jerod Santo:** "Oh yes, baby..." \[laughs\] I remember CGI-bins. I wouldn't describe them as the good old times, but... You were probably better at them than I was.
 
-**Gerhard Lazu:** \[00:08:14.29\] Well, there you go... Perspectives. \[unintelligible 00:08:15.00\] and you remember the past much better than it actually was. So there's an element of that.
+**Gerhard Lazu:** \[08:14\] Well, there you go... Perspectives. \[unintelligible 00:08:15.00\] and you remember the past much better than it actually was. So there's an element of that.
 
 **Jerod Santo:** Right.
 
@@ -108,7 +108,7 @@ So a lot of the stuff made sense, and it was easy. Now, having said that, we sti
 
 **Gerhard Lazu:** So we had a replicated PostgreSQL, and we had downtime because it was replicated. You wouldn't expect that to happen.
 
-**Jerod Santo:** \[00:12:12.15\] Because it wasn't replicated, right?
+**Jerod Santo:** \[12:12\] Because it wasn't replicated, right?
 
 **Gerhard Lazu:** Because it was replicated. We had downtime because it WAS replicated.
 
@@ -176,7 +176,7 @@ It was a surprise to me - and I remember looking at this for a really long time,
 
 So how many metrics would we need to enable in the different layers of the stack, and how well would we need to know that stack to debug this issue? I think that's where a lot of people that hit issues with Kubernetes - that's where they're coming from. You wouldn't expect these -- these aren't normal problems; these are just almost like specific to the stack that we are running, which in this case is Kubernetes... So you kind of need to be an expert to kind of know how to look at this...
 
-\[00:16:16.03\] But I do hope that some technologies -- I think they've been around for a while, but again, it goes back to how do you pick and choose your components. So what I'm wondering is would Linkerd have helped with this? Could Linkerd show us the latency between the different services, and to see when it spikes?
+\[16:16\] But I do hope that some technologies -- I think they've been around for a while, but again, it goes back to how do you pick and choose your components. So what I'm wondering is would Linkerd have helped with this? Could Linkerd show us the latency between the different services, and to see when it spikes?
 
 **Jerod Santo:** What is Linkerd and how would it do that?
 
@@ -200,7 +200,7 @@ Now, we could enable all the metrics for PostgreSQL, but you need to find the da
 
 But all these things - first of all, they made us just understand the stack a little bit better; when I say "us", mostly me... And it made me realize that simple is best. So for the 2021 setup, we are running just a very simple, stateful set, single PostgreSQL instance that can restore from backup in less than one minute.
 
-\[00:20:14.07\] Let's say that you lose everything. If you backup frequently, which we do - every hour, by the way; and I have to change that setting. I've set it to be three hours, but I need to change it to one hour. It's super-simple. And then the database will back itself up every hour. We can lose an hour worth of data; we can back it up every 30 minutes. But it's very simple. And then you have backups, you can self-expire them... By the way, we backup to S3... And we backup the entire media as well.
+\[20:14\] Let's say that you lose everything. If you backup frequently, which we do - every hour, by the way; and I have to change that setting. I've set it to be three hours, but I need to change it to one hour. It's super-simple. And then the database will back itself up every hour. We can lose an hour worth of data; we can back it up every 30 minutes. But it's very simple. And then you have backups, you can self-expire them... By the way, we backup to S3... And we backup the entire media as well.
 
 These backups, the reason why they were important is because when we did the 2021 setup, all I had to do - I had to let this system restore from backup, to pull all our media, which is 85 gigabytes right now; all the files, all the mp3's, all that stuff. So to download that from S3 is fairly fast, especially for mp3's. They download like a few gigs per second. It's gigabits, not gigabytes, by the way, and we have 85 gigabytes. That's an important distinction. But it's all those avatars, all those small files when you have to download, they take slightly longer, because there's so many of them...
 
@@ -238,7 +238,7 @@ So did we need a multi-node Kubernetes cluster? The answer is no. What we needed
 
 Anyways, before we enabled caching, the Changelog website, the average latency - so we have San Francisco, Dallas, New York, London, Frankfurt, Bangalore, Sydney and Tokyo. These are all our probes. So the average latency across all probes was 818 milliseconds, before.
 
-**Jerod Santo:** \[00:24:06.11\] That's kind of embarrassing.
+**Jerod Santo:** \[24:06\] That's kind of embarrassing.
 
 **Gerhard Lazu:** Yup. Now it's 66 milliseconds. So how much is that? 880 by 66 - 13.3 times. Not quite 15, but not 10 either. It's more than 10.
 
@@ -258,7 +258,7 @@ Anyways, before we enabled caching, the Changelog website, the average latency -
 
 **Jerod Santo:** All the nines. We want all the nines.
 
-**Break:** \[00:24:32.29\]
+**Break:** \[24:32\]
 
 **Jerod Santo:** So this speaks to really geographic relocation of our assets, right? We had all of our images and mp3's and CSS and JavaScript assets served via CDN, all the way back to when we've set this system up.
 
@@ -282,7 +282,7 @@ Anyways, before we enabled caching, the Changelog website, the average latency -
 
 **Adam Stacoviak:** I think you resisted it, actually. Didn't he resist it for a little bit? You were like, "No, let's not do that."
 
-**Jerod Santo:** \[00:28:15.05\] Yeah, I think it was --
+**Jerod Santo:** \[28:15\] Yeah, I think it was --
 
 **Adam Stacoviak:** I'm not trying to call you out or anything, I'm just trying to know what were the circumstances for saying no, really.
 
@@ -326,7 +326,7 @@ I'm curious though about the average... Because you said 880 was the average. Su
 
 **Gerhard Lazu:** 200 milliseconds, exactly. And that's where the average -- and this is Dallas. Let's take London, for example, for me. London is 87 milliseconds, and the maximum is 400 milliseconds. Now, what we need to understand is that some of this is also related to probes. Do you see the uptime? It says it's 99.98%. Well, what that actually means is that some Grafana probes are either overloaded, because they take more than five seconds, which is exactly what happened here. They take more than five seconds. And that's a timeout; if a response takes more than five seconds to come back, it's considered an error. It may have taken longer, but it's considered "No, it didn't respond quickly enough." But maybe the probe was being overloaded.
 
-\[00:32:22.27\] I know that when we were looking at Bangalore - I think that was the one... Was it the Bangalore? See, for example these errors here - this was the fourth of May. The error rate was very high. But all it meant is that the probe may have been overloaded. Not necessarily the website, because I'm pretty sure Fastly was rock-solid around this period. You just have to think how many pops they have, how many points of presence. So once we get in the Fastly cache, any endpoint should be able to serve it.
+\[32:22\] I know that when we were looking at Bangalore - I think that was the one... Was it the Bangalore? See, for example these errors here - this was the fourth of May. The error rate was very high. But all it meant is that the probe may have been overloaded. Not necessarily the website, because I'm pretty sure Fastly was rock-solid around this period. You just have to think how many pops they have, how many points of presence. So once we get in the Fastly cache, any endpoint should be able to serve it.
 
 So we have a shield in New York, and then every other point of presence basically distributes from there. It reads it from that cache and it replicates across the whole world. And we have micro-cache, so we cache every response for 60 seconds, and then if there's any cache misses, it will continue serving stale content while asynchronously going back to the origin and requesting an update. So it should always serve cached content... Unless obviously the point was like down, or reloaded, or something like that, which very rarely happens, and then we re-route traffic. So typically, when there are issues with the high latency, it's most likely the probe.
 
@@ -348,7 +348,7 @@ We can see that the 99th percentile, the average 99th percentile is 707 millisec
 
 **Gerhard Lazu:** Exactly.
 
-**Adam Stacoviak:** \[00:36:09.15\] And if we're dealing with replication of databases - and this was sort of like attached to that. As you begin to --
+**Adam Stacoviak:** \[36:09\] And if we're dealing with replication of databases - and this was sort of like attached to that. As you begin to --
 
 **Gerhard Lazu:** Here's the thing... All this runs on a single, massive host. We have 32 CPUs, AMD Epyc, 64 gigs of RAM, or 128 gigs of RAM, SSDs, super-fast... It's a single host. So how can the 99th percentile between Ingress NGINX running on that host, and the app, which is running on the same host, be this high?
 
@@ -384,7 +384,7 @@ If you look at the external monitoring, everything looks good. Everything is fin
 
 But then you have all these smaller spikes. This is 1 PM, so not really... You had these spikes... And again, most of this stuff, if you look at the traffic that we serve, it's nothing. The server is not even 1% loaded. CPU is not an issue, and network is not an issue. Nothing is an issue. All the components are healthy, very little memory use... So it's not a problem. So is it a good thing? I think it refines your understanding. I think it makes you think about your setup in ways that you haven't thought before. So you really do feel like the master of your domain. And most things are easy to set up; I think it's just like knowing which things to set up. And what I'm hoping that we'll do with this, and with Ship It, is that we'll share some of those stories. We'll share the things that worked out and the things that didn't work out, so that others would have to do this.
 
-**Jerod Santo:** \[00:40:21.17\] Wait, wait, wait... What's this "Ship it" you just said? What's this thing? What are you talking about?
+**Jerod Santo:** \[40:21\] Wait, wait, wait... What's this "Ship it" you just said? What's this thing? What are you talking about?
 
 **Adam Stacoviak:** \[laughs\]
 
@@ -404,7 +404,7 @@ I would genuinely want to dig into this, with different people that have had sim
 
 So there's, again, a way to curate these problems, a way to understand them and to see what makes sense... Because Grafana Cloud does make sense for us, but it maybe doesn't for others. So what else is out there? We don't know. And it's not a fixed thing. It's changing all the time. Every KubeCon there's new tools, there's new approaches, there's just new people, new efforts going on. So what are they? It is a full-time job just keeping up with all the things. And it happens to be fun.
 
-**Break:** \[00:43:50.15\]
+**Break:** \[43:50\]
 
 **Jerod Santo:** So if you're listening to this in the Changelog Podcast and you're interested in our new show, Ship It, you can go right now to Changelog.com/shipit, subscribe there. If you happen to be subscribed to our master feed, which is your one-stop-shop for all Changelog podcasts, you're already gonna get it. We're gonna ship it right into your feed. But if you're interested in coming along this journey with Gerhard, and with us, and with our setup, and with other people's setups, and see where this thing goes, definitely subscribe to Ship It.
 
@@ -454,7 +454,7 @@ One thing which I would love to find out - I mean, I'm putting this out there in
 
 **Gerhard Lazu:** Very well put.
 
-**Jerod Santo:** \[00:48:07.25\] Gerhard, do you expect a community, or do you desire a community around this show? Do you think there'll be people involved, helping guide direction, ask for certain topics, certain interviews? What are your thoughts on who this is for, and how involved they're gonna be?
+**Jerod Santo:** \[48:07\] Gerhard, do you expect a community, or do you desire a community around this show? Do you think there'll be people involved, helping guide direction, ask for certain topics, certain interviews? What are your thoughts on who this is for, and how involved they're gonna be?
 
 **Gerhard Lazu:** I think we can approach it from multiple angles. I think a community would be nice, but a community -- I think it just needs to make sense for the community, rather than for us or for me. So if a community would find that useful - sure thing. But I think it's more around -- I mean, the CNCF... I just recently came back - and when I say "came back", it was right here, in front of the computer...
 
@@ -490,7 +490,7 @@ I think those episodes will be very time-specific. It's almost like, there will 
 
 **Gerhard Lazu:** They convey so much emotion.
 
-**Adam Stacoviak:** \[00:52:01.29\] In regards to the community though, we can say that we have a dev channel in our community Slack... And if I'm keying off of what Jerod's saying, it's like "Where can people hang out at?" So we already know that Changelog.com/community is there, it's free to join and it's open... We already have a dev channel. But are you saying maybe a Ship It channel makes more sense, where similar to JS Party - we have a JS Party channel and people hang out there, and chat during live shows... And maybe this show isn't live, but we can start to have "Hey, I like this show. I wanna invite this person. I wanna suggest that person." Well, where do people go and congregate? Where can that happen?
+**Adam Stacoviak:** \[52:01\] In regards to the community though, we can say that we have a dev channel in our community Slack... And if I'm keying off of what Jerod's saying, it's like "Where can people hang out at?" So we already know that Changelog.com/community is there, it's free to join and it's open... We already have a dev channel. But are you saying maybe a Ship It channel makes more sense, where similar to JS Party - we have a JS Party channel and people hang out there, and chat during live shows... And maybe this show isn't live, but we can start to have "Hey, I like this show. I wanna invite this person. I wanna suggest that person." Well, where do people go and congregate? Where can that happen?
 
 I think we've already paid for the price of admission, which is free, and the infra is there, thanks to a free Slack, and the community, all that good stuff - it's done. So a matter of moving some of that conversation from Dev to Ship It, or just promoting Dev to what could be Ship It?
 

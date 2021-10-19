@@ -4,7 +4,7 @@
 
 **Jerod Santo:** Nice to meet you, too. Well, let's get to know you a little bit, Paul, and your background, and what brings you to be the CTO and co-founder of WSO2.
 
-**Paul Fremantle:** \[00:03:56.26\] I grew up a complete geek. I had a ZX80 as soon it came out, when I was 12; I badgered my parents. My birthday is just near Christmas, and I got them to buy me the computer as a joint birthday, Christmas and all my savings put together.
+**Paul Fremantle:** \[03:56\] I grew up a complete geek. I had a ZX80 as soon it came out, when I was 12; I badgered my parents. My birthday is just near Christmas, and I got them to buy me the computer as a joint birthday, Christmas and all my savings put together.
 
 **Jerod Santo:** Now, do you get double presents around Christmas time because of that, or do you get a lack of presents?
 
@@ -32,7 +32,7 @@ And then we went from doing XML-based integration to REST and gRPC and event str
 
 I'm also quite big into IoT. I took some time out of WSO2 to finish up my doctorate, and I was really focused on IoT privacy and security, and how to build systems where you can manage your own IoT devices.
 
-\[00:08:02.14\] This kind of explosion of endpoints, this explosion of things... And to me, what's exciting then is how easy can you make it to program all that, how easy can you make it to interact and program and do these powerful distributed things. I think that's really kind of fun.
+\[08:02\] This kind of explosion of endpoints, this explosion of things... And to me, what's exciting then is how easy can you make it to program all that, how easy can you make it to interact and program and do these powerful distributed things. I think that's really kind of fun.
 
 **Jerod Santo:** Let's talk about WSO2 a little bit before we get into Ballerina. You said you're teenagers now... What does the company offer? Is it services, or contract, development? What's the kind of stuff that WSO2 does? I think that will help us understand Ballerina a little more when we start to dive into it.
 
@@ -44,7 +44,7 @@ So it's fundamentally software products, but we do help those customers as well,
 
 **Paul Fremantle:** So the next thing that we also do is we help people actually integrate those systems - both internal systems, external systems, APIs, legacy software databases. The way we've traditionally done that is with something called an enterprise service bus; that's a piece of software that you configure with a graphical interface and an XML configuration language, and it helps link together your Salesforce, SAP, Oracle databases, RESTful APIs and XML services and so forth.
 
-\[00:11:50.25\] That's the second of our products, and it's the oldest of our products, really. It's a highly successful product; it's used by probably more than 300 out of those 500 customers... But it's definitely a challenge to developers, because although it's got a lot of capabilities, lots of power, it doesn't really fit into the kind of edit, build, deploy, test cycle that developers like to do. So that kind of rapid, agile development cycle doesn't really fit with this kind of enterprise service bus type software.
+\[11:50\] That's the second of our products, and it's the oldest of our products, really. It's a highly successful product; it's used by probably more than 300 out of those 500 customers... But it's definitely a challenge to developers, because although it's got a lot of capabilities, lots of power, it doesn't really fit into the kind of edit, build, deploy, test cycle that developers like to do. So that kind of rapid, agile development cycle doesn't really fit with this kind of enterprise service bus type software.
 
 **Jerod Santo:** Because... Why?
 
@@ -62,7 +62,7 @@ So sometimes just starting fresh, even though it's tons of work to start fresh, 
 
 And then lastly, just the ambition. Anytime I see a new programming language, I think "This is an incredibly ambitious project", and that just impresses me. One thing I read just today - you guys have an article on The New Stack, and your CEO and I assume co-founder says that he envisions Ballerina replacing Java over the next decade. That's an incredibly ambitious thing to say and believe.
 
-\[00:16:19.22\] So these are a few things that caught my eye about Ballerina... But tell us about the start of this new programming language. You mention why it was needed, but even inside WSO2, was there arguments, was there a big decision? Was there a meeting that had to take place, or were you coding this on the side? How did it get started?
+\[16:19\] So these are a few things that caught my eye about Ballerina... But tell us about the start of this new programming language. You mention why it was needed, but even inside WSO2, was there arguments, was there a big decision? Was there a meeting that had to take place, or were you coding this on the side? How did it get started?
 
 **Paul Fremantle:** I think all your points are really valid, and they're really interesting. I'll come back to the replacing Java... \[laughter\] So Sanjiva, my co-founder, is much more bullish than I am. I'm very English and reserved, and I would never say that.
 
@@ -84,7 +84,7 @@ If you fast-forward 5-10 years, you can say "Well, what is Java gonna be used fo
 
 **Paul Fremantle:** So back to "How did this start?" Well, this started by -- honestly, we wrote this ESB product I talked about... It was in production ten years ago, and over the last ten years we've probably had about 40 meetings where we tried to say "Look, we did this... How can we do it better? How can we make a better ESB configuration model? How can we improve it? How can we write ESB version 2, the next big one?" and in all of those meetings we never really succeeded, because that model, that idea was to still have this configuration language, and every time you have a configuration language, you kind of end up with problems, and this lack of agility.
 
-\[00:20:16.10\] About three years ago, Sanjiva, the CEO and co-founder, he just said "Look, why don't we just write a language?" and that was kind of like a massive moment of truth. And the other thing that I think really influenced it, another really interesting aspect of this is he talked about the graphical syntax. The graphical syntax of most ESBs is sort of a flow, it's like a pipeline, with occasionally divergence. But when we actually sat down to build systems with customers, the pictures we ended up drawing the most, the ones we always drew, the mental images we'd have of these distributed systems was always a sequence diagram, where you have the columns, these lines coming down which represent different parts of the system, different entities, and then you draw the lines between them that capture the interactions between them.
+\[20:16\] About three years ago, Sanjiva, the CEO and co-founder, he just said "Look, why don't we just write a language?" and that was kind of like a massive moment of truth. And the other thing that I think really influenced it, another really interesting aspect of this is he talked about the graphical syntax. The graphical syntax of most ESBs is sort of a flow, it's like a pipeline, with occasionally divergence. But when we actually sat down to build systems with customers, the pictures we ended up drawing the most, the ones we always drew, the mental images we'd have of these distributed systems was always a sequence diagram, where you have the columns, these lines coming down which represent different parts of the system, different entities, and then you draw the lines between them that capture the interactions between them.
 
 So the other real inspiration here was to say "What if we used a sequence diagram as the kind of inspiration for a programming language?" That's kind of a weird thought, but it has real implications for the concurrency model, for how you manage workers and independent parties, how you think about services and endpoints... So that really kind of gave Ballerina kind of an amazing foundation to say, "Well, actually, we have a model for the language that's actually a sequence." That's something you've just mentioned - any Ballerina program, you can say "Show me what the sequence diagram is", and automatically we can draw that sequence diagram of the interactions that are happening between different parties.
 
@@ -94,9 +94,9 @@ So the other real inspiration here was to say "What if we used a sequence diagra
 
 With this website what's really nice is you don't draw the sequence diagram. What people have done for 20 years is pull up Visio or PowerPoint or CorelDRAW or something and physically lay out the lines, and everything. With web sequence diagrams you write a text, you program, you type a little definition of the sequence patent between the different parties, and it draws the diagram for you.
 
-\[00:24:08.21\] We sat in meetings doing this, and I think somehow behind the scenes this may have influenced the idea that maybe you could write a programming language on a sequence diagram. It's not the same thing, but I think there's a bit of a leap from one to the other... Or a massive leap; I'm not trying to say it's not a big leap, but... Maybe that inspiration came a bit from that.
+\[24:08\] We sat in meetings doing this, and I think somehow behind the scenes this may have influenced the idea that maybe you could write a programming language on a sequence diagram. It's not the same thing, but I think there's a bit of a leap from one to the other... Or a massive leap; I'm not trying to say it's not a big leap, but... Maybe that inspiration came a bit from that.
 
-**Break:** \[00:24:43.08\]
+**Break:** \[24:43\]
 
 **Jerod Santo:** So a few years back, Sanjiva said "Let's just make a programming language." What happens after that? Because to me, that's where my brain just explodes. When you decide "We're gonna do this", where do you go from there? What's the first step?
 
@@ -116,7 +116,7 @@ That's a luxury that I guess not many companies have, but it was a nice luxury f
 
 **Paul Fremantle:** I wasn't one of these people, and I regret that. I regret that. But you know, even sort of being a side player on this has been really fun. I don't take a lot of credit for this. I'm just the mouthpiece that gets to talk about it, really... But it's still an exciting initiative, and it's kind of really exciting for me, because I always -- you know, I love programming; I really am not a great programmer, to be honest. I shouldn't be telling you that \[laughter\].
 
-**Jerod Santo:** \[00:28:16.00\] Why not?
+**Jerod Santo:** \[28:16\] Why not?
 
 **Paul Fremantle:** I'm not a great programmer, but I love programming; I just adore it. And I said how annoying that XML syntax and the ESB stuff is - I like hacking on that; I like hacking on XML stuff. And you mentioned earlier that I teach... I teach some courses at Oxford University, and one of the courses I teach is on service-oriented architecture, and of course, as part of that, we do all sorts of things... We use Spring Boot and JAS-RX and all kinds of Java, and Node.js, and Python, HTTP stuff... And we would do an ESB example and show people what that's' like (that's part of the course), and the last couple of times I've run it, I've replaced the old ESB example with a Ballerina example... And a lab exercise that used to take people about two hours and lots of struggling, and kind of like "I don't get this", with Ballerina they just finished it off in between 30 and 40 minutes, and they get it instantly, and they love it. That kind of joy of programming, but doing kind of complex distributed stuff in a really easy way is quite liberating, it's quite kind of enlightening.
 
@@ -142,7 +142,7 @@ So what makes me not a programmer is that buzz I get from making it work the fir
 
 **Paul Fremantle:** Excellent. I once wrote a blog years ago about - it's probably still somewhere on the web - how before my first child was born I was really focused on the birth, getting this kid... And the birth is kind of difficult and tricky and whatever, but it was fine; she was born, she was fine, she was a perfectly healthy baby. And then we got her home, and then I realized that that was the wrong thing to focus on. It was the maintenance of Anna -- not the launch of Anna 1.0, but the maintenance of the project that was the challenge. \[laughs\]
 
-**Jerod Santo:** \[00:31:56.19\] Yeah. It's the same way with marriage. So many people focus on their wedding at first... I mean, that's the first thing you do, so of course it's a big focus, but... So much emphasis on the wedding, and the planning, and the cost, and where it's gonna be, and who you're gonna invite, and it has to be perfect, and this and that and the other thing. And then they don't realize that the wedding is not the marriage. The wedding is merely the first day of the marriage.
+**Jerod Santo:** \[31:56\] Yeah. It's the same way with marriage. So many people focus on their wedding at first... I mean, that's the first thing you do, so of course it's a big focus, but... So much emphasis on the wedding, and the planning, and the cost, and where it's gonna be, and who you're gonna invite, and it has to be perfect, and this and that and the other thing. And then they don't realize that the wedding is not the marriage. The wedding is merely the first day of the marriage.
 
 **Paul Fremantle:** It's day one, exactly.
 
@@ -166,7 +166,7 @@ The other thing that's really interesting is that null is not a part of -- thing
 
 **Paul Fremantle:** So in other words, it's just as easy to deal with an error as it is to deal with a null, so there's no point in using a null, if you see what I mean... So that's a really nice aspect.
 
-\[00:35:46.00\] And the concurrency model is based on communicating workers. This has some similarity to Go and the goroutines. They're based on CSP, which is a mathematical concept. In Go the channels have names; in other words, you have name channels. In Ballerina, the name is implicit, so you have a channel between two workers, and the name between those workers is really implicitly based on the two workers... But it's similar to that, you have these sort of channels between workers for communication.
+\[35:46\] And the concurrency model is based on communicating workers. This has some similarity to Go and the goroutines. They're based on CSP, which is a mathematical concept. In Go the channels have names; in other words, you have name channels. In Ballerina, the name is implicit, so you have a channel between two workers, and the name between those workers is really implicitly based on the two workers... But it's similar to that, you have these sort of channels between workers for communication.
 
 So those are some of the things that look like other languages, and it has imports, and it has a main function... But then there's some things that don't look anything like other languages. Firstly, a lot of programs don't have a main. They aren't really a "I start up, I do something, and then I exit." A lot of programs these days are providing a service; it just sits there and waits, and then gets called over the network by gRPC, or Kafka, or HTTP, of course...
 
@@ -182,13 +182,13 @@ So those are some of the things that look like other languages, and it has impor
 
 **Paul Fremantle:** It does imply some kind of network service... So that's kind of implicit. You've got some kind of endpoint there... An endpoint is another thing that's a first-class citizen of the language. So whenever you talk, whenever you listen for other people to call you, or whether you talk to others, there's an endpoint defined, and that's a key part of the language... Because here's how that's interesting, which is that there's a syntactic difference in the language between when you call an endpoint and when you call a local object.
 
-When you call a local object, like in most languages, you \[00:38:15.11\] but when you call a remote endpoint, there's a little arrow, and you say "I want to send a message to this HTTP client endpoint, this HTTP server over there", and I go \[00:38:34.17\]
+When you call a local object, like in most languages, you \[38:15\] but when you call a remote endpoint, there's a little arrow, and you say "I want to send a message to this HTTP client endpoint, this HTTP server over there", and I go \[38:34\]
 
 There's two things about this. One is it's giving the programmer a visual difference between distributed local calls, and I think that's -- you know, there has a lot been written about the fallacies of distributed programming, but it comes down to this, that distributed programming is not the same as local programming. So seeing that right there in front of you, "Hey, I'm making a remote call. At this point I have to now be aware of network errors, I have to be aware of load balancing, circuit-breaking discovery", all the kinds of things that happen when you do distributed computing... It's a pretty important thing.
 
 The other thing is that under the covers, we do everything in an async way. One of the challenges with building these network systems is "What do I do while I'm waiting for this web server across the internet to respond? Do I block a thread? Do I sit waiting, or do I do it in an async, non-blocking way?" and every time you use that arrow to call a remote endpoint, we under the covers are doing non-blocking I/O, but you don't have to worry about that in the language.
 
-**Jerod Santo:** \[00:40:01.15\] Nice.
+**Jerod Santo:** \[40:01\] Nice.
 
 **Paul Fremantle:** So if you're writing Node.js, you use callbacks, and I know there's a lot of great libraries in Node.js to make that better, but the fundamental model is quite difficult for developers, to kind of keep track of all these callbacks, and so forth.
 
@@ -218,7 +218,7 @@ Now, we can make life as easy as possible for you, and we have done a lot of thi
 
 **Jerod Santo:** Very cool. That makes a lot of sense. Alright, moving forward, what else have you got in terms of unique bits, or design decisions? Something that makes Ballerina stand out from the crowd.
 
-**Paul Fremantle:** \[00:44:12.10\] I think that those core things are really important. The other things we've done that are kind of nice, that some of them are unique, some of them are similar -- if you look at things like C\#, they have this thing called LINQ, which is Language Integrated Query... It's basically, instead of using SQL, you sort of jump into -- you have a real program syntax that is reminiscent of SQL, and it allows you to code queries.
+**Paul Fremantle:** \[44:12\] I think that those core things are really important. The other things we've done that are kind of nice, that some of them are unique, some of them are similar -- if you look at things like C\#, they have this thing called LINQ, which is Language Integrated Query... It's basically, instead of using SQL, you sort of jump into -- you have a real program syntax that is reminiscent of SQL, and it allows you to code queries.
 
 So we have the concept of a table in the language; effectively, you say "I have a record structure, and a table as a set of rows of that record structure", and you can query that table. That table can be backed by a real SQL database, or it could just be in memory. That's just like C\#'s stuff, but it's very nice. I'm not saying it's great - it's really cool, and it makes you very productive.
 
@@ -232,7 +232,7 @@ So that's one aspect I think is really cool. Another one that I think is really 
 
 There's two aspects of security and distributed systems that are kind of difficult. One is identity. Most people nowadays have moved to kind of trying to use token-based systems for identity across distributed systems, so things like OAuth tokens are very common. Google, Facebook, GitHub - everyone uses them all the time. But typically, that kind of identity model and the idea that I might say "Well, okay, I've got a request coming in. It's got an identity attached to it" - it's something that's handled through some libraries, or whatever... So we've built that right into the concept... The concept of identity of callers, and we're actually building the identity of the service itself into the language. That's some research we're doing right now around a standard called SPIFFE. We're kind of trying to build the identity of the service itself into the language.
 
-\[00:48:06.09\] But then the second thing that's a big problem in distributed systems is basically spoofing, and tainted data, and injection attacks. That's another big challenge, and we've built that kind of concept right into the language, as well. When you receive data over a network socket into Ballerina, we automatically realize that that is potentially tainted, and the taint analysis is part of the compiler and the compiler checks. So effectively, you as a developer - your code won't compile if there's potentially a SQL injection attack here... Because unless you've actually cleaned that data and validated it's not tainted, we won't let you use it somewhere where it's dangerous.
+\[48:06\] But then the second thing that's a big problem in distributed systems is basically spoofing, and tainted data, and injection attacks. That's another big challenge, and we've built that kind of concept right into the language, as well. When you receive data over a network socket into Ballerina, we automatically realize that that is potentially tainted, and the taint analysis is part of the compiler and the compiler checks. So effectively, you as a developer - your code won't compile if there's potentially a SQL injection attack here... Because unless you've actually cleaned that data and validated it's not tainted, we won't let you use it somewhere where it's dangerous.
 
 **Jerod Santo:** I'm just over here looking at your "Try the language with Ballerina by Example" on the Philosophy page... Because one thing that I think of with a new language -- you're just demonstrating how much you guys have already accomplished, and you always think "Well, it's brand new, or it's a few years old; surely there's a lot of missing pieces, or there's things that I cannot do", and I'm sure there are things that are missing, but I look at the list of things that are accomplishable, I'm just looking at your security section - like you mentioned, the taint checking, Secured Service with JWT, Basic Auth, OAuth2, you've got Swagger stuff, gRPC... I mean, it goes on and on. Testing built right in... What's not there yet? What's glaringly obvious? What are you trying to get to, or what am I missing here?
 
@@ -250,7 +250,7 @@ So what's missing? You know, I don't think there's anything really major missing
 
 So I think we want to get to the point where we think this is really a robust, resilient foundation for the future, and we're not quite there yet. Every time you make a nice tweak and you tidy it up a bit, you think "Well, hey, what if we did that there?"
 
-\[00:52:12.21\] The union type system that I was talking about earlier - a really good example of this is when you have JSON and XML built in. Now, you can just think of JSON as being a union of different things. JSON is either a string, or an int, or an array, or another JSON. So we put in this union type system and we're like "Oh, we could rebuild our JSON support just as a union type of other stuff."
+\[52:12\] The union type system that I was talking about earlier - a really good example of this is when you have JSON and XML built in. Now, you can just think of JSON as being a union of different things. JSON is either a string, or an int, or an array, or another JSON. So we put in this union type system and we're like "Oh, we could rebuild our JSON support just as a union type of other stuff."
 
 **Jerod Santo:** Yeah.
 
@@ -262,7 +262,7 @@ I guess the one thing I would say that is not there yet is the standard library.
 
 **Paul Fremantle:** So getting the standard library really up to the spec of the C standard library or the Java standard library is gonna still take a little bit of time.
 
-**Break:** \[00:54:06.11\]
+**Break:** \[54:06\]
 
 **Jerod Santo:** So as you mentioned, Ballerina - not quite a 1.0, but still very feature-complete, very useful, downloadable now, available for Linux, MacOS and Windows... Tell us what it's like using Ballerina building something from scratch. Take us maybe from like, I'm hitting the Download button on Ballerina.io, to I've written a simple service and I've somehow deployed this into a cloud, or into a production environment.
 

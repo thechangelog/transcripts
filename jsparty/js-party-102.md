@@ -12,7 +12,7 @@ A design system is, essentially, as I think about it, a formalization of how you
 
 You can consider it as a set of libraries for visuals. Instead of creating just a standard set of components from a code perspective, you're creating it from a visual perspective, from a graphic perspective, from a design and branding perspective. I also think of them as a way to create a shared language, a way to have -- as you're exploring the potentially infinite variety of how things could look on the page, having some sort of set of commonalities that you can use to discuss things. So when you say "Hey, I want a modal", you mean the same thing that everyone else in your company - whether it's engineering, design, product, marketing - when they say "modal", they think the same thing that you think when you say "modal." So that's how I think about a design system. Emma, how about you?
 
-**Emma Wedekind:** \[00:03:46.21\] I think from a theory perspective that was pretty spot on. It is a shared language, and it kind of formalizes our brand identity or our design principles into a living, breathing, tangible set of assets... Because on the design side we've got this -- ideally, you'd have a library of visual design components, like Sketch or Adobe, that you can actually use... I like to think of it as like a rubber stamp, where you create it once, and then you can stamp it into your high-fidelity mockups that you give to your engineers, if that's the way that you work. And then on the engineering side - we've got a component library, which we'll get into soon.
+**Emma Wedekind:** \[03:46\] I think from a theory perspective that was pretty spot on. It is a shared language, and it kind of formalizes our brand identity or our design principles into a living, breathing, tangible set of assets... Because on the design side we've got this -- ideally, you'd have a library of visual design components, like Sketch or Adobe, that you can actually use... I like to think of it as like a rubber stamp, where you create it once, and then you can stamp it into your high-fidelity mockups that you give to your engineers, if that's the way that you work. And then on the engineering side - we've got a component library, which we'll get into soon.
 
 But yeah, I think you're pretty spot on. I think there is no industry definition... This is such a new field, and I think that's maybe why it's such a hot topic at the moment, because it's catching on; a lot of big companies are using design systems. Google has Material Design, and IBM has Carbon, and Airbnb... And so people are now seeing the benefits.
 
@@ -28,7 +28,7 @@ When I was at IBM, a lot of my friends were on the Carbon team, and so they had 
 
 **Kevin Ball:** I would posit that probably it starts smaller than you think it does... And here's my thinking on that. One, I see a lot of companies that start off extremely engineering-driven, not thinking about design except as a "How do I make this a little prettier?" Something that you sprinkle on after the fact, which is in my perspective a very harmful way to think about product... But one of the results that comes of this is even as a small company, you have typically at least two - and probably three or four - different surface areas where people interact with you. You have your product itself that you've built. You have your marketing website. You have your social media presences. That's three at least already, and I see a lot of companies where those experiences are very disjoint; they feel very different.
 
-\[00:07:53.29\] The marketing page looks nothing like the application... And this makes sense, because we as developers or we as the people creating these - we compartmentalize really well. "Oh, the marketing page - that's owned by the marketing team", or the marketer, in a small company. The product team is separate from that, they're not thinking about that. But users don't interact with you in that way. This is all you, in their perspective. So when we have that level of disjoint experience, that's harmful.
+\[07:53\] The marketing page looks nothing like the application... And this makes sense, because we as developers or we as the people creating these - we compartmentalize really well. "Oh, the marketing page - that's owned by the marketing team", or the marketer, in a small company. The product team is separate from that, they're not thinking about that. But users don't interact with you in that way. This is all you, in their perspective. So when we have that level of disjoint experience, that's harmful.
 
 I would actually think about design systems similar to how I think about generalizing code. You don't wanna over-generalize upfront, because you don't know enough. The first time you build something, you don't know well enough to create a fully general/reusable library. But if you find yourself doing some of those same patterns over and over again, and in the example I just listed, thinking about the marketing side, application, mobile app - you're gonna have some similar elements. You're gonna have headers, you're gonna have your logos, you're gonna have the way that you lay out your copy. Those things are coming up.
 
@@ -46,7 +46,7 @@ But getting back to tone, one company who does content amazingly well and they h
 
 **Jerod Santo:** Absolutely.
 
-**Kevin Ball:** \[00:12:08.25\] I love that, because I describe front-end development to back-end people as -- like, in the back-end you're hacking servers, and in the front-end you're hacking brains. You are trying to figure out "How do I create an experience that causes people's brains to behave in some certain way?" ...whether it's get excited, feel trust, whatever it is. What we're doing with UI and interaction is really all about psychology. It's trying to trigger people into different emotional states and actions.
+**Kevin Ball:** \[12:08\] I love that, because I describe front-end development to back-end people as -- like, in the back-end you're hacking servers, and in the front-end you're hacking brains. You are trying to figure out "How do I create an experience that causes people's brains to behave in some certain way?" ...whether it's get excited, feel trust, whatever it is. What we're doing with UI and interaction is really all about psychology. It's trying to trigger people into different emotional states and actions.
 
 **Emma Wedekind:** Yeah. That's why we build products.
 
@@ -74,7 +74,7 @@ For me personally, in my professional experience, I tried to skip the foundation
 
 **Jerod Santo:** Bad idea. Bad idea.
 
-**Kevin Ball:** \[00:16:01.28\] So I'm gonna turn around and take the opposite side of that... Because while I love that approach, a lot of times what I've seen a design system addressing the pain points of are the funhouse mirror effect of "We have almost the same thing all over the place, but it's just slightly different and it bugs the heck out of you and creates 20 million unique CSS files as you do different versions of what should be the same thing..." And in that case, I think simply taking the set of patterns that you have and boiling them down and extracting them up into a system that is consistent creates a ton of value, even without a ton of brand foundational approach... Because you're working from a de facto situation.
+**Kevin Ball:** \[16:01\] So I'm gonna turn around and take the opposite side of that... Because while I love that approach, a lot of times what I've seen a design system addressing the pain points of are the funhouse mirror effect of "We have almost the same thing all over the place, but it's just slightly different and it bugs the heck out of you and creates 20 million unique CSS files as you do different versions of what should be the same thing..." And in that case, I think simply taking the set of patterns that you have and boiling them down and extracting them up into a system that is consistent creates a ton of value, even without a ton of brand foundational approach... Because you're working from a de facto situation.
 
 As Jerod points out, I think very few small companies have the kind of clarity of vision for their brand that might be nice to have as a foundation here, but they do have a lot of work on the ground, work that is out there in the form of components that have been developed, patterns that have been used... And those patterns are already in existence, they're just not formalized and they're being reused in different ways. "This time we've got 15 pixels of padding, and this time we've got 17 because of this situation. And this time we've got this", and all these different things where we can take those and extract them and come up and say "Hey, let's be consistent. Let's start to create a system that allows us to reuse our work, rather than having to do something from scratch every time, and be custom every time, or copy and paste and vary a little bit."
 
@@ -82,7 +82,7 @@ I think there's a lot to be said for that kind of pragmatic, derived version of 
 
 **Emma Wedekind:** Yeah, and I think it kind of all depends on "Are you starting from scratch with a product, or are you building from legacy products?" Because that's really gonna impact, if you've got a foundation to fix at all, or if you're just starting out with a blank page.
 
-**Break:** \[00:18:13.22\]
+**Break:** \[18:13\]
 
 **Emma Wedekind:** Alright, so in the first segment we talked a little bit about design systems in general... But now I wanna go a little bit deeper, and I wanna talk about component libraries, because we are JS Party... So let's jump into the JS side of things. Have you all worked with a proper component library before? If so, what type of component library did you work with?
 
@@ -94,7 +94,7 @@ I think there's a lot to be said for that kind of pragmatic, derived version of 
 
 **Jerod Santo:** Yeah.
 
-**Kevin Ball:** \[00:20:01.12\] So you could describe, for example, a Bootstrap, or Zurb Foundation, which I used to work on, as component libraries. They're primarily at that point CSS frameworks, with recommendations for how you set up your HTML; they may have JavaScript that you plug into, but that's not the key piece of it, or it's there maybe as a reference implementation. For those ones, then people will go and then make framework-specific libraries. I'll use Bootstrap, because it's the most widely known; there's Bootstrap Angular, there's Bootstrap React, there's Bootstrap Vue... There's all these different ports, which these are then very generalizable/extensible component libraries, where the goal is giving you a foundation to build on. Then you step into stuff that's built specifically for a particular framework.
+**Kevin Ball:** \[20:01\] So you could describe, for example, a Bootstrap, or Zurb Foundation, which I used to work on, as component libraries. They're primarily at that point CSS frameworks, with recommendations for how you set up your HTML; they may have JavaScript that you plug into, but that's not the key piece of it, or it's there maybe as a reference implementation. For those ones, then people will go and then make framework-specific libraries. I'll use Bootstrap, because it's the most widely known; there's Bootstrap Angular, there's Bootstrap React, there's Bootstrap Vue... There's all these different ports, which these are then very generalizable/extensible component libraries, where the goal is giving you a foundation to build on. Then you step into stuff that's built specifically for a particular framework.
 
 Bootstrap originally was not very customizable, so it was a design system or design language plus a component library. Then it became more flexible, similar to how Foundation was for a long time, where it's a component library, but not a design system, in the sense that you were then implementing your design system using it. It's a set of tools to build on top of.
 
@@ -116,7 +116,7 @@ There's questions around responsiveness - how well does this thing work? Respons
 
 **Jerod Santo:** Yeah. Where responsiveness relates to resource-constrained scenarios. So it's like a subset of overall accessibility, which includes ARIA attributes... And as we talked about in our live show, using buttons for buttons... Those kinds of things, right?
 
-**Kevin Ball:** \[00:23:46.11\] Yeah. So the more the component library makes it easy to do that, it should have accessibility baked in from the ground up. If you're using a component from a component library, for stuff that happens within that component it should just work, and then you should be able to plug into it in a reasonable way, to create for example larger-scale keyboard navigation, and things like that. You should be able to have it make sense for when you're navigating within the component, but then also have it go in and out of that component well.
+**Kevin Ball:** \[23:46\] Yeah. So the more the component library makes it easy to do that, it should have accessibility baked in from the ground up. If you're using a component from a component library, for stuff that happens within that component it should just work, and then you should be able to plug into it in a reasonable way, to create for example larger-scale keyboard navigation, and things like that. You should be able to have it make sense for when you're navigating within the component, but then also have it go in and out of that component well.
 
 **Emma Wedekind:** Hm. Yeah, and I think there's something to be said -- you had talked about the two different types of component libraries. My first run-in with any type of component library was definitely Bootstrap... But I would market those kinds of things - Bootstrap, Zurb Foundation, those kinds of thins - as UI frameworks almost, because they're a little bit lighter weight... But there are also drawbacks with using design systems.
 
@@ -146,7 +146,7 @@ So I think having an opinion, picking one can be hard, especially for someone wh
 
 **Jerod Santo:** Yeah, because you have to reimplement things that you'd otherwise get for free from the built-in SDK.
 
-**Emma Wedekind:** \[00:28:06.17\] Right, but then also your users are used to their native operating system paradigm for notifications, for things like that... And when you go and change it, you've gotta be certain that they're gonna understand it.
+**Emma Wedekind:** \[28:06\] Right, but then also your users are used to their native operating system paradigm for notifications, for things like that... And when you go and change it, you've gotta be certain that they're gonna understand it.
 
 **Jerod Santo:** My hot take on that is go native, and build a strong brand inside of that as much as possible, but do not reinvent the wheel and try to be super-custom... Because it's expensive, you have to reteach your user, and you end up doing things -- it's kind of like when you're just inventing your own wheels for all these little things inside your own website. You do it kind of like -- I wouldn't say halfway, but just not as well as the built-in, because they've dealt with a million different scenarios that you have... So it's more naive, perhaps. What are your thoughts on that, Kball?
 
@@ -176,7 +176,7 @@ I think this is actually the key point to think about as you're looking at these
 
 **Emma Wedekind:** Well, I think the problem with systems too is that people think it's a one and done project... And I forget who said -- design systems are not projects, they're products serving products. Because you don't create at once and throw it over the fence. This requires maintenance and support.
 
-**Kevin Ball:** \[00:31:59.02\] Yeah, I think that would actually be a really interesting area to dig into is what does it look like to maintain a design system? We've talked about some of the aspects that might go into building it, thinking about your foundation, your brand, composing, existing components... But as you go forward, what happens when you have something that isn't well accounted for in the design system? How do you evolve that? How do you change it over time? What's the process that you can do there without ending up back in the place where you have 20 different versions of the same component?
+**Kevin Ball:** \[31:59\] Yeah, I think that would actually be a really interesting area to dig into is what does it look like to maintain a design system? We've talked about some of the aspects that might go into building it, thinking about your foundation, your brand, composing, existing components... But as you go forward, what happens when you have something that isn't well accounted for in the design system? How do you evolve that? How do you change it over time? What's the process that you can do there without ending up back in the place where you have 20 different versions of the same component?
 
 **Emma Wedekind:** Yeah, I don't know, but that would definitely be interesting to study. The problem is it's such a new field we don't really have the numbers on it yet.
 
@@ -188,7 +188,7 @@ I think this is actually the key point to think about as you're looking at these
 
 **Jerod Santo:** It sounds like a wonderfully utopian idea. I wonder if it ever actually works in practice. \[laughter\]
 
-**Break:** \[00:33:53.24\]
+**Break:** \[33:53\]
 
 **Emma Wedekind:** Alright, so we've talked foundation of design systems, we've talked component libraries... Well, how do we actually document all these things, right? Now we're gonna talk about style guides. Kball, do you have any idea what a style guide is, and can you explain it to us, please?
 
@@ -202,7 +202,7 @@ I think this is actually the key point to think about as you're looking at these
 
 **Emma Wedekind:** Yeah, in my professional experience a style guide is the documentation site that houses all of the links to your visual design assets, links to your component library... It tells you how to actually use these components, so it'll typically have code snippets, or at least link to some Storybook documentation for your components. It will list out your content guidelines, or your accessibility guidelines. It literally houses all of the things in one website, essentially.
 
-**Kevin Ball:** \[00:36:02.27\] So to you then a style guide is the encapsulation of the design system in a website, for people to cruise and utilize.
+**Kevin Ball:** \[36:02\] So to you then a style guide is the encapsulation of the design system in a website, for people to cruise and utilize.
 
 **Emma Wedekind:** Yes.
 
@@ -234,7 +234,7 @@ I think with Storybook you essentially just add a Storybook file and you kind of
 
 Maybe you're using a modern framework for your app, but then your marketing site is built with WordPress, so you've gotta figure out how you apply those things. Having some place that you can go in and see what the actual code is, so you're not measuring pixels with an on-screen ruler, or things like that... You're actually just able to take the code and see what it should look like. It can be super-helpful.
 
-**Emma Wedekind:** \[00:39:51.03\] Yeah, for sure. If you go to IBM Carbon, for example -- so one of the goals is we don't wanna have redundant information; you kind of wanna have one place for everything, that's the source of truth... And the way that they do it is they have a vanilla JavaScript web component code snippet, but then if you click on the link to the React or the Angular components, it'll link you to the live Storybook site. So they're not duplicating the code in their style guide, they're just linking to external -- not external, but the Storybook documentation for it... Which I think is a good approach. Interesting.
+**Emma Wedekind:** \[39:51\] Yeah, for sure. If you go to IBM Carbon, for example -- so one of the goals is we don't wanna have redundant information; you kind of wanna have one place for everything, that's the source of truth... And the way that they do it is they have a vanilla JavaScript web component code snippet, but then if you click on the link to the React or the Angular components, it'll link you to the live Storybook site. So they're not duplicating the code in their style guide, they're just linking to external -- not external, but the Storybook documentation for it... Which I think is a good approach. Interesting.
 
 We have a question in the chat from Tony, who says "Do you have any stories about collaborating with designers/developers to create a design system?" I don't know, have either of you ever worked with a designer? Well, you haven't built design systems, have you? You've just consumed them, or...
 
@@ -260,7 +260,7 @@ I've worked with super-talented designers, who are great at design, but they're 
 
 **Jerod Santo:** For sure.
 
-**Emma Wedekind:** \[00:44:08.01\] It's a symbiotic relationship, or it should be, and I'm definitely a proponent of working in real-time. Doing design critiques in code. Because otherwise you fall into this waterfall approach to software development, which is not exactly the most productive... And if you have the luxury of sitting next to your designer, doing these design reviews in your codebase, so that they don't have to provide you red line designs with all the things you need to fix. How tedious is it for them to go in the sketch and add all this red line, like "Oh, the padding should be a multiple of four, versus a multiple of three..." Instead, you can just have a quick conversation and change it in the CSS file.
+**Emma Wedekind:** \[44:08\] It's a symbiotic relationship, or it should be, and I'm definitely a proponent of working in real-time. Doing design critiques in code. Because otherwise you fall into this waterfall approach to software development, which is not exactly the most productive... And if you have the luxury of sitting next to your designer, doing these design reviews in your codebase, so that they don't have to provide you red line designs with all the things you need to fix. How tedious is it for them to go in the sketch and add all this red line, like "Oh, the padding should be a multiple of four, versus a multiple of three..." Instead, you can just have a quick conversation and change it in the CSS file.
 
 **Kevin Ball:** Developer tools are your friend, and most designers can learn to use dev tools very quickly... So if you can hop in, you have a first implementation, you put it in there, you open it up, you have dev tools there, and you let them tweak these different parameters to show you what they mean... Because I find a lot of developers, particularly if you're coming from a back-end background, or some other non-visual background - we literally won't see the same things that the designers see. Spacing is a great example, and Tony is highlighting that. The way that designers think in terms of spacing is something that most developers who are not visually-savvy just will not see... So they'll implement a design and --
 
@@ -278,7 +278,7 @@ Framer is another super-cool tool. It spits out React components... I was skepti
 
 Another quick, interesting point I think Tony is trying to make - he's talking about... I think he's getting to "Do the component themselves in a component library have to worry about spacing in relation to other components, or should that be the responsibility of the components consuming them?"
 
-\[00:48:10.10\] Here's an example - let's say I have a button, and it's in a container. Does the button have margin on the outside, or does the container set padding in relation to the button? This is a very interesting idea, because I was having this conversation with someone at work the other day, about how -- oh, you know who it was? Mark -- I'm gonna butcher his last name; he's from Australia. He just gave a talk at React Conf, I think...
+\[48:10\] Here's an example - let's say I have a button, and it's in a container. Does the button have margin on the outside, or does the container set padding in relation to the button? This is a very interesting idea, because I was having this conversation with someone at work the other day, about how -- oh, you know who it was? Mark -- I'm gonna butcher his last name; he's from Australia. He just gave a talk at React Conf, I think...
 
 **Kevin Ball:** Dalgleish, or something?
 
@@ -320,7 +320,7 @@ So when we talk about stuff like spacing, that's something that is very holistic
 
 **Jerod Santo:** \[laughs\] Okay, maybe next week.
 
-**Break:** \[00:52:44.23\]
+**Break:** \[52:44\]
 
 **Emma Wedekind:** Oh, goodness...
 

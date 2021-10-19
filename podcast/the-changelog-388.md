@@ -14,7 +14,7 @@ For example, we looked at this like experience. No real effect. To the extent we
 
 **Jerod Santo:** That's weird...
 
-**William Nichols:** \[00:03:58.10\] Well, what it probably means is that the best programmers were being promoted out of programming into management.
+**William Nichols:** \[03:58\] Well, what it probably means is that the best programmers were being promoted out of programming into management.
 
 **Jerod Santo:** Well, that's definitely something--
 
@@ -46,7 +46,7 @@ Some of the later programs involved -- I think the most complicated was the next
 
 **William Nichols:** Yeah.
 
-**Jerod Santo:** \[00:07:54.03\] So tell us about what you were teaching. This PSP was not something I had even heard of before...
+**Jerod Santo:** \[07:54\] So tell us about what you were teaching. This PSP was not something I had even heard of before...
 
 **William Nichols:** Oh, okay.
 
@@ -78,7 +78,7 @@ In the first year of operations it had a total of downtime that was in the order
 
 So that was part of the benefit of doing things right the first way, doing things in a disciplined manner. That was kind of where all of this PSP training was coming from.
 
-**Jerod Santo:** \[00:12:07.03\] Gotcha.
+**Jerod Santo:** \[12:07\] Gotcha.
 
 **William Nichols:** But what that really led to - once I've got this large body of data from the PSP training, we could repurpose that for other things... Like knowing how well people can really estimate, what were the results at the beginning versus the end of the course. We can measure things like how many lines of code do normal programmers tend to be able to write? What's their variation?
 
@@ -118,7 +118,7 @@ And by just throwing these into bins and aggregating them, you can get a pretty 
 
 What I did initially was I said "Okay, everyone's done the same program." What was the variation of how long it took them to get that program done? I said "I'm not gonna complicate this by looking across different languages... Let's just look at the people who used the same language." That's why I trimmed it down to about 13% of the dataset, and just looked at the C programmers. I can do this with C++ and Java, with slightly smaller datasets. Beyond that it gets into really small data... But let's use the same program.
 
-\[00:15:56.19\] Okay... Now I it turned out there were 494 of these developers. I ranked them 1 through 494. I used 500 because it's close and it's a round number. There were essentially 500. Okay... And I could actually, rather than looking at the size of the program and lines of code or anything, I just said "How long did it take them to finish?" Okay. Then I did the same thing with the second program and the third. And one of the things that really struck me was that the distribution of the times was just remarkably consistent.
+\[15:56\] Okay... Now I it turned out there were 494 of these developers. I ranked them 1 through 494. I used 500 because it's close and it's a round number. There were essentially 500. Okay... And I could actually, rather than looking at the size of the program and lines of code or anything, I just said "How long did it take them to finish?" Okay. Then I did the same thing with the second program and the third. And one of the things that really struck me was that the distribution of the times was just remarkably consistent.
 
 The ratio of the fastest programmer to the 25th percentile, the median, the 75th - they looked like almost straight lines if you plot these across the ten programs. There was a lot of jitter when you looked at the outliers, the ones in the slowest 25%. A lot of variation there.
 
@@ -164,7 +164,7 @@ The ratio of the fastest programmer to the 25th percentile, the median, the 75th
 
 **Jerod Santo:** So what you found were these -- let's talk about the outliers a little bit... Because in my mind, that somewhat lends credence to the lore of the unicorn developer who is the 10x-er, who is the outlier. Isn't that kind of the mystique? That people are trying to hire those outliers, or find the people who really are that way.
 
-**William Nichols:** \[00:19:50.23\] There you go, that is the mystique. Now, the funny thing s when I looked at the data -- I looked at these things using a lot of different techniques. Some of them I borrowed from social science, looking at the variation. Tim Menzies told me "No one is going to understand this. It's too complicated. Let's try to simplify it." So that's why I started doing things by ranking them. Just doing ranked analyses. It turned out the same people were not in the same position in all ten programs. Nowhere near.
+**William Nichols:** \[19:50\] There you go, that is the mystique. Now, the funny thing s when I looked at the data -- I looked at these things using a lot of different techniques. Some of them I borrowed from social science, looking at the variation. Tim Menzies told me "No one is going to understand this. It's too complicated. Let's try to simplify it." So that's why I started doing things by ranking them. Just doing ranked analyses. It turned out the same people were not in the same position in all ten programs. Nowhere near.
 
 **Jerod Santo:** Gotcha.
 
@@ -190,7 +190,7 @@ It gets really hard to tell the difference between a good programmer and a prett
 
 **Jerod Santo:** Or the Great Recession...
 
-**Adam Stacoviak:** \[00:23:57.19\] So things would change obvious human behavior, so that might be an outlier, or that might be an indicator of data change... Because someone can go through a divorce, have a loss of life in their family... Different factors that weigh on them personally over time.
+**Adam Stacoviak:** \[23:57\] So things would change obvious human behavior, so that might be an outlier, or that might be an indicator of data change... Because someone can go through a divorce, have a loss of life in their family... Different factors that weigh on them personally over time.
 
 **William Nichols:** Oh, yeah.
 
@@ -226,7 +226,7 @@ So in a sense, I can replicate their data, but it seems to indicate that it mean
 
 So the message here is that that kind of variation, that kind of problem is normal. If you see that happening to yourself, it just means you're normal.
 
-**Break:** \[00:28:08.10\]
+**Break:** \[28:08\]
 
 **Jerod Santo:** Bill, if you were to summarize your findings -- I know we've talked about them some, but if you were to just lay it out, "Here's my take-away from my findings and doing this research and digging into this data I already had", could you give us the executive summary? What's your take on this scenario based on what you've found?
 
@@ -240,7 +240,7 @@ So the message here is that that kind of variation, that kind of problem is norm
 
 **William Nichols:** But if you're trying to put together a team that's going to build software, you need to find capable people. You wanna be above a cut line of capability. But beyond that, you're not gonna help yourself by trying to find the best 5% of programmers and stacking your team. It just isn't gonna work. Your best bet is to get a good set of programmers, capable, and then put them in an environment where they can succeed... And there are a lot of other things you can do environmentally to make the work process more effective.
 
-**Adam Stacoviak:** \[00:32:03.11\] This reminds me a lot of what you're suggesting here from that movie Moneyball. Anybody seen that movie Moneyball?
+**Adam Stacoviak:** \[32:03\] This reminds me a lot of what you're suggesting here from that movie Moneyball. Anybody seen that movie Moneyball?
 
 **Jerod Santo:** Mm-hm.
 
@@ -278,7 +278,7 @@ And going back to the baseball analogy, if Babe Ruth hits a lot of home runs, th
 
 **Jerod Santo:** That's right.
 
-**Adam Stacoviak:** \[00:36:03.17\] That's true. Absolutely true. What are your thoughts on people trying to derive insights from a repository of code? So rather than study the humans, study the artifacts, the output.
+**Adam Stacoviak:** \[36:03\] That's true. Absolutely true. What are your thoughts on people trying to derive insights from a repository of code? So rather than study the humans, study the artifacts, the output.
 
 **William Nichols:** There's a lot of work going on in looking at those artifacts... And I certainly thing there's a lot you can infer from them, but you've gotta be cautious too, because you don't necessarily know how it go there. All you have at the end of the day is the artifact.
 
@@ -312,7 +312,7 @@ So it's really a matter of -- you're taking these numbers entirely as a way of g
 
 **Adam Stacoviak:** No.
 
-**William Nichols:** \[00:39:52.25\] Oh, okay, look up "replication crisis". There's a lot of literature on that, especially since about 2005. A Stanford professor -- don't ask me to pronounce his name Ioannidis was noting that it was very hard to find results in social sciences that replicate. And a lot of that is because of a number of very predictable things. You're gonna have the file drawer effect... "If you don't find what you want, your study never sees the light of day." There are all sorts of things that people call, like p-hacking. P is the measure of statistical significance.
+**William Nichols:** \[39:52\] Oh, okay, look up "replication crisis". There's a lot of literature on that, especially since about 2005. A Stanford professor -- don't ask me to pronounce his name Ioannidis was noting that it was very hard to find results in social sciences that replicate. And a lot of that is because of a number of very predictable things. You're gonna have the file drawer effect... "If you don't find what you want, your study never sees the light of day." There are all sorts of things that people call, like p-hacking. P is the measure of statistical significance.
 
 So there are easy ways that if you wanna get a result, you can manipulate your data to kind of nudge it in that direction.
 
@@ -368,7 +368,7 @@ Now, these are players who we're watching do their jobs. They're keeping meticul
 
 So it's got some of that noise, but we knew "Was this defect injected in the requirements? Was it injected during design? Was it injected during the design of the product? Somewhere during the testing? Was it injected when they wrote the code? Where did you find it? Was it in one of the reviews, was it in an inspection, was it in a test, was this post-development?"
 
-\[00:44:07.02\] So we looked at the activity difference between when the defect was injected and when it was removed. Now, we happened to have stopwatch-level defect information on how long it took the developer to fix that problem... That is once it came back to the developer's desk, how long did this actually take to fix? Upfront acknowledgment - that's not including a wasted time the user had to spend figuring it out, writing up the report, or bookkeeping, the organization might have gone through taking in problems... But the actual developer-facing time.
+\[44:07\] So we looked at the activity difference between when the defect was injected and when it was removed. Now, we happened to have stopwatch-level defect information on how long it took the developer to fix that problem... That is once it came back to the developer's desk, how long did this actually take to fix? Upfront acknowledgment - that's not including a wasted time the user had to spend figuring it out, writing up the report, or bookkeeping, the organization might have gone through taking in problems... But the actual developer-facing time.
 
 We've found that, by and large, it just wasn't growing that fast. It was growing, but typically if you've found a defect during your development, it was pretty cheap. If you've found it after development, it took a factor typically a couple of times as big to fix.
 
@@ -412,7 +412,7 @@ Developer-facing time on fixing those things isn't all that different. Yeah, for
 
 **William Nichols:** Well, the team software process is really the industrial version of personal software process. We taught people PSP so that they would learn how to do things like record data, how to make estimates. The team software process was how to do this in a real industrial environment, so that you could coordinate with your team members, you could report up to management, you could make your estimates, you could see if an overall project was really on track. So the PSP was sort of subsumed into the team software process, but the team software process was for planning really big programs.
 
-\[00:48:10.08\] I have some TSP data for projects that spanned multiple years. So you would look at the data very differently, and one of the things you couldn't get from that is you're not gonna have the same programmers developing the same thing. It just doesn't happen. In the real world, everyone is developing a different piece of software. So they aren't really apples to apples comparisons anymore, and you can't treat them as such. You have to look at the data a little differently. But they record the same types of data - how long did something take, how big was it, were there defects, where did I find them, where did they come in?
+\[48:10\] I have some TSP data for projects that spanned multiple years. So you would look at the data very differently, and one of the things you couldn't get from that is you're not gonna have the same programmers developing the same thing. It just doesn't happen. In the real world, everyone is developing a different piece of software. So they aren't really apples to apples comparisons anymore, and you can't treat them as such. You have to look at the data a little differently. But they record the same types of data - how long did something take, how big was it, were there defects, where did I find them, where did they come in?
 
 **Jerod Santo:** Are these processes still taught today, or they have been subsumed by things like XP, and Scrum, and other processes? I was thinking about your personal software process and how different it is to TDD in a testing way, where you can make your tests pass the first time; well, TDD advocates will say "Never do that." Like red-green-refactor, it should fail, right? So it's at odds with a few of these other processes. I'm curious if it's still extant, if it's in the world of Academia... Tell us about it.
 
@@ -434,7 +434,7 @@ Superficially, it sounds like they're at odds. They really aren't. But the minds
 
 **William Nichols:** Yeah, one of the things we tried to teach was that testing alone is never enough, because you can't test everything. If you're doing something like the avionics DO-178C, where they have truly comprehensive testing - that's extraordinarily expensive. By and large the best testing I've found will find maybe about half the total defects, so you've got to do other things to find the edge cases... And that could be things like designing it so that it can't happen; doing inspections on your design and your code, so that you know these code conditions or these input conditions aren't going to hit, or that you're controlling for them. But it is almost impossible to test quality in the code. You need testing, but it shouldn't be your starting point in the quality; it's really your end point.
 
-**Break:** \[00:52:11.20\]
+**Break:** \[52:11\]
 
 **Jerod Santo:** So Bill, we've talked about a few of your research papers... Let's talk about some vapor research here, things that you have currently brewing, which is a very interesting cost/benefit analysis of static analysis, and doing that during development. This is something that you have in progress. Do you wanna talk about it?
 
@@ -448,7 +448,7 @@ Now, the flipside is this was just through the development. You're gonna have a 
 
 I have some anecdotal data from a guy at the veterans administration, and he was ready to pull his hair out at the quality of codes that were being given to him... So he basically said "You're not gonna give me this delivery until you've run it through this commercial static analysis tool, and resolved every defect that it finds." It doesn't mean you have to make all the changes, but you have to run this tool and you have to dispose of all of these problems - either it was a mistake or it wasn't - and until you've done that, you're not done. The first time he did that, he had like 109,000 reports on 100,000 lines of code.
 
-**Jerod Santo:** \[00:56:04.02\] Wow.
+**Jerod Santo:** \[56:04\] Wow.
 
 **Adam Stacoviak:** That's a lot.
 

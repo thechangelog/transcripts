@@ -112,7 +112,7 @@ Interesting dynamics, but I doubt any of those reasons I just said were the actu
 
 **Mikeal Rogers:** Yeah... And I think it's about time for a break with that. Let's have a little break now, and when we come back we will discuss the decentralized P2P web.
 
-**Break:** \[00:19:25.18\\\] to \[00:20:08.14\]
+**Break:** \[00:19:25.18\\\] to \[20:08\]
 
 **Mikeal Rogers:** And we're back! Alright, let's get into the decentralized web. P2P web, decentralized web - I think it's best described actually as a movement. It's not like a specific set of technology; there's a bunch of technologies, a bunch of projects, a bunch of people... But a lot of different people are trying to decentralize the web, trying to take a lot of the centralized cloud services that we've now become so reliant on and are basically all of our data to, and trying to actually build applications that are more P2P, more decentralized.
 
@@ -298,7 +298,7 @@ I think there's a couple ways that you can overcome the performance issues. If y
 
 **Mikeal Rogers:** Alright, so I think we're due for another break. When we come back, Alex might finish this Netflix interview... \[laughter\] We're actually gonna get into the projects of the week when we come back.
 
-**Break:** \[00:46:13.19\\\] to \[00:47:29.07\]
+**Break:** \[00:46:13.19\\\] to \[47:29\]
 
 **Mikeal Rogers:** And we're back! Alright, project of the week this week is PouchDB. Woohoo! Everybody out there who's a Nolan Lawson fan I think is gonna get a little giddy at this one.
 

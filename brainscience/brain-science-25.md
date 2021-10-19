@@ -16,7 +16,7 @@
 
 **Mireille Reece, PsyD:** Danielle and I actually met -- she might have funny stories about me, which again, we don't need to go into... \[laughter\] When I coached Danielle as a gymnast, as an adolescent. So we met when I lived and was working on my doctorate in graduate school in Southern California. So after I moved away and continued on my degree, our paths intersected again when I got involved with Beach Body or started working out again after having my second child. So it was super-exciting, because Danielle worked in product development relative to some of the awesome products that Beach Body has, which helped me get healthy after having my daughter. So Danielle, as far as I understand, you have always loved science, as I know... Danielle very much liked to stay within the lines.
 
-**Danielle Rath:** \[00:04:12.17\] Yes, yes... That's a nice way to put it, thank you. \[laughter\]
+**Danielle Rath:** \[04:12\] Yes, yes... That's a nice way to put it, thank you. \[laughter\]
 
 **Mireille Reece, PsyD:** But as far as I understand, what got you started studying caffeine was actually more so around when you went to college, and that you weren't necessarily a fan of coffee, dare I say...
 
@@ -44,7 +44,7 @@ So it's always been very difficult to address questions about caffeine safety, o
 
 **Danielle Rath:** Oh absolutely, yeah.
 
-**Adam Stacoviak:** \[00:07:57.05\] ...and then these other things are like cargo-culting onto or being added to, essentially... And your inability to really classify them is because what comes with caffeine often is so diverse that you're not sure, or able to pin down the right kind of research that says "Okay, this is how it performs unanimously." Because caffeine has sidecars, all the time.
+**Adam Stacoviak:** \[07:57\] ...and then these other things are like cargo-culting onto or being added to, essentially... And your inability to really classify them is because what comes with caffeine often is so diverse that you're not sure, or able to pin down the right kind of research that says "Okay, this is how it performs unanimously." Because caffeine has sidecars, all the time.
 
 **Danielle Rath:** Yes, absolutely. Because there's two important points to that. One is that in most of these drinks caffeine is doing all the work. If you take the stereotypical energy drink, Red Bull - Red Bull is the stereotype everyone thinks of, because it's the number one brand. Red Bull has caffeine, taurine, B vitamins. Caffeine is doing 90% of the work. Taurine is maybe affecting you, carnitine is maybe affecting you, B vitamins aren't really affecting you unless you're deficient... So caffeine is doing all the work here.
 
@@ -76,7 +76,7 @@ So there's that, and then there's caffeine sensitivity, which makes some people,
 
 **Danielle Rath:** They are related, but they're slightly different. So your caffeine sensitivity will always be the same. You will always have no effect on caffeine if you're not a responder, and you will always have a high tolerance if your sensitivity is low. You can't change your sensitivity, but you can change your tolerance.
 
-\[00:11:53.19\] If you're someone that always has negative side effects to having caffeine, whether it's from soda, or chocolate, or tea, then your tolerance isn't going to change that very much. If you're someone that can have a cup of coffee and you feel that alertness, then your tolerance means that having a cup of coffee every single day for a year - you might need two cups of coffee, or you might need three cups of coffee.
+\[11:53\] If you're someone that always has negative side effects to having caffeine, whether it's from soda, or chocolate, or tea, then your tolerance isn't going to change that very much. If you're someone that can have a cup of coffee and you feel that alertness, then your tolerance means that having a cup of coffee every single day for a year - you might need two cups of coffee, or you might need three cups of coffee.
 
 So I would say tolerance is kind of like a fine-tune on your sensitivity. Your sensitivity is where we start, and then you can kind of fine-tune that up or down by building a tolerance.
 
@@ -120,7 +120,7 @@ The second one to look for is a racing heartbeat. Caffeine mildly affects your h
 
 And then the third sign would be those jitters, if you're actually feeling some slight trampling. It's usually your hands. Sometimes it could be like not able to hold still with your legs; if you start tapping your foot incessantly, that's another sign that maybe you've had too much caffeine.
 
-**Adam Stacoviak:** \[00:16:00.10\] And you mentioned genetic disabilities or genetic indicators to, say, adverse effects with caffeine... What about autoimmune disorders, or things regarding metabolism, things that people may have or not be aware of. Almost everyone has some sort of thyroid skew towards the negative side... And when I say "everyone", I mean everyone in America.
+**Adam Stacoviak:** \[16:00\] And you mentioned genetic disabilities or genetic indicators to, say, adverse effects with caffeine... What about autoimmune disorders, or things regarding metabolism, things that people may have or not be aware of. Almost everyone has some sort of thyroid skew towards the negative side... And when I say "everyone", I mean everyone in America.
 
 **Danielle Rath:** Sure.
 
@@ -184,7 +184,7 @@ I have this filter on my phone that turns things in this nice shade of red when 
 
 **Mireille Reece, PsyD:** Well, because when is it ever that simple when it comes to our brain, right?
 
-**Adam Stacoviak:** \[00:20:08.08\] It's not, yeah.
+**Adam Stacoviak:** \[20:08\] It's not, yeah.
 
 **Mireille Reece, PsyD:** There's multiple systems working. And to say "Well, adenosine..." that's one thing, but dopamine is another. So I can talk about other drugs and how they actually burn out dopamine receptors, sort of similar to this adenosine, and going it blocks, so that dopamine just keeps giving you the hit, over and over, which is why you never will have the same sort of effect using the drug as you did that first time, when you had a pure altered state, right?
 
@@ -220,7 +220,7 @@ I have this filter on my phone that turns things in this nice shade of red when 
 
 **Mireille Reece, PsyD:** Which I was like "Hey, Mireille, what are you doing?" My nice internal dialogue, I've just made external...
 
-**Danielle Rath:** \[00:24:00.15\] Yeah.
+**Danielle Rath:** \[24:00\] Yeah.
 
 **Adam Stacoviak:** And truthfully, lattes - if you go in a Starbucks, or a decent, high-class coffee place, in many cases these things aren't just simply coffee, they're desserts. If you get a latte, you're gonna put caramel syrup in there potentially... You may not, but there's the temptation to add -- you know, with breve, or different things like that, to spice it up, and it's not just simply caffeine/coffee or the reward, now it's kind of a dessert, in some cases...
 
@@ -266,7 +266,7 @@ So if you're feeling this energy spike and then crash, it's because whatever you
 
 **Danielle Rath:** I'm advocating for energy drinks that don't have sugar or a high amount of caffeine...
 
-**Mireille Reece, PsyD:** \[00:28:13.19\] \[laughs\] Right...? But sugar is a huge variable in that. I find it humorous, and we'll see the long-term benefits, because my kids have stopped asking for dessert; they just ask for sugar.
+**Mireille Reece, PsyD:** \[28:13\] \[laughs\] Right...? But sugar is a huge variable in that. I find it humorous, and we'll see the long-term benefits, because my kids have stopped asking for dessert; they just ask for sugar.
 
 **Danielle Rath:** Oh, no... \[laughter\]
 
@@ -298,7 +298,7 @@ There's so many alternatives -- even if you don't like energy drinks, there's th
 
 **Danielle Rath:** Obviously, I can't speak to all companies, but speaking as a product developer, oftentimes you are forced to give the customer what they want, as opposed to what you wish they wanted. So for example, I know as a food scientist that 36 grams is too many grams of sugar. But my boss knows that if I put 36 grams of sugar, the drink is going to sell. So oftentimes people are put in this situation where they have to put larger doses of caffeine, very large doses of sugar, because caffeine is bitter; caffeine tastes horrible by itself. You need some kind of sweetener... And there are some people that would rather have natural sugar, even if it's two days' worth, as opposed to artificial sweeteners.
 
-\[00:31:53.22\] So you're kind of chasing how to make the product not taste horrible, and how to make a product that sells. And oftentimes that runs into your personal beliefs or your personal motivation, but the end goal is to make a product that's good, that sells, and I feel like that's consistent across the industry.
+\[31:53\] So you're kind of chasing how to make the product not taste horrible, and how to make a product that sells. And oftentimes that runs into your personal beliefs or your personal motivation, but the end goal is to make a product that's good, that sells, and I feel like that's consistent across the industry.
 
 **Adam Stacoviak:** So if you deliver the drink with not 36 grams, you delivered it with -- what would you desire with? Like, if you were making it for something, and you wanted them to "enjoy"...
 
@@ -348,7 +348,7 @@ So there are people out there that are trying to provide these options, and I th
 
 **Danielle Rath:** And I would recommend checking everything you drink, and everything you eat, through this website called caffeineinformer.com. It has the largest database of foods, and drugs, and drinks, like sodas, as well as coffees and teas and energy drinks. They will tell you how much caffeine is in your drink, which is very helpful when you're getting a latte from Starbucks and you don't have the amount of caffeine on the label.
 
-**Adam Stacoviak:** \[00:36:29.14\] Right. Do you know much about how much caffeine you get out of the beans? Starbucks isn't saying -- maybe they are saying, I don't know; I'm assuming that they're using the same kind of bean, to some degree, that everybody else can get off the shelf, except for they probably own the farm... The bean being the coffee bean; it originates as a cherry, it has a process to become the bean that you can actually grind up and turn into coffee by doing a process of \[unintelligible 00:36:56.19\] and all this stuff to get the coffee out of it, whatever - all that science; you may know more about it than I do. I'm just speaking as a coffee geek. But the point is that there's ways you can extract the coffee out of the bean, that extracts maybe more of less caffeine. Are they just doing a process that gets the maximum amount of caffeine, or is it just by nature that espresso is naturally more caffeinated?
+**Adam Stacoviak:** \[36:29\] Right. Do you know much about how much caffeine you get out of the beans? Starbucks isn't saying -- maybe they are saying, I don't know; I'm assuming that they're using the same kind of bean, to some degree, that everybody else can get off the shelf, except for they probably own the farm... The bean being the coffee bean; it originates as a cherry, it has a process to become the bean that you can actually grind up and turn into coffee by doing a process of \[unintelligible 00:36:56.19\] and all this stuff to get the coffee out of it, whatever - all that science; you may know more about it than I do. I'm just speaking as a coffee geek. But the point is that there's ways you can extract the coffee out of the bean, that extracts maybe more of less caffeine. Are they just doing a process that gets the maximum amount of caffeine, or is it just by nature that espresso is naturally more caffeinated?
 
 **Danielle Rath:** There's a lot of different factors that dictate how much caffeine you get out of the bean. And we're not just talking Arabica versus Robusta beans, we're also talking the water temperature, which is why cold-brew is a thing. Cold-brew, instead of getting the caffeine out of the bean using hot temperatures and short times, they get the caffeine out using cold temperatures and very long times, like several days. So that is affecting the amount of caffeine that's coming out of the bean. And also French press is different, and drip is different... This is why it's very difficult to generalize and say a standard cup of coffee has 100 milligrams, because it's like "Well, how did you make this cup of coffee? Is this the gas station or is this Starbucks? Because it's gonna change, it's gonna differ.
 
@@ -376,7 +376,7 @@ So there are people out there that are trying to provide these options, and I th
 
 **Danielle Rath:** Oh gosh, you're testing me... I wanna say it's 280. It's somewhere around 280 milligrams.
 
-**Adam Stacoviak:** \[00:39:58.26\] And that's because you tested it, or someone tested it; it's not on their label, right? Because you said coffee doesn't have to label the caffeine amounts.
+**Adam Stacoviak:** \[39:58\] And that's because you tested it, or someone tested it; it's not on their label, right? Because you said coffee doesn't have to label the caffeine amounts.
 
 **Danielle Rath:** No, it's not on the label. I think that was another caffeine informer to the rescue.
 
@@ -440,7 +440,7 @@ So there are people out there that are trying to provide these options, and I th
 
 **Danielle Rath:** It really does. The biggest, best example of this is that if you take something like stevia, which is like the best natural sweetener - I've tasted so many different samples of stevia in water, and some of them you get this awful, bitter, metallic taste. And some of them come from plants that can't pass an audit, because they have poor cleanliness, or poor manufacturing standards. So there's this beautiful, natural plant that becomes this awful thing you don't want to eat, because the supplier isn't following the manufacturing standards of cleanliness and good manufacturing.
 
-**Mireille Reece, PsyD:** \[00:44:19.01\] So we could dive deep into all of these --
+**Mireille Reece, PsyD:** \[44:19\] So we could dive deep into all of these --
 
 **Adam Stacoviak:** The nuance.
 
@@ -472,7 +472,7 @@ So there are people out there that are trying to provide these options, and I th
 
 **Adam Stacoviak:** Well, I think that's what I love about our audience. We are trying to get people to think differently. Think about what to think about, for one, and then two, investigate what lies beneath; so what are the things in the things we're consuming, thinking, eating etc. And then more so, there may not be strict regulations out there in terms of like "Oh, this is what you can and what you can't do", but if we have advocates like you and companies like Beach Body etc. in other different areas that they specialize in, can they have a brand that's focused on "Okay, we don't need regulation, because we care so much about our customers that we are our own good regulators, and our brand is built upon this trust", as you said before; you have to trust them. Then you sort of like weed out the shady people because the brand alone stands to test, and you've got advocates who advocate for them.
 
-\[00:48:23.23\] So long as you've got people that are rooting for the consumer, and not just the shareholders or stakeholders, or the profit keepers of the businesses - if that's what we're optimizing for, we've gotta optimize for the consumer, and we need people to optimize for that and be advocates of it.
+\[48:23\] So long as you've got people that are rooting for the consumer, and not just the shareholders or stakeholders, or the profit keepers of the businesses - if that's what we're optimizing for, we've gotta optimize for the consumer, and we need people to optimize for that and be advocates of it.
 
 **Danielle Rath:** Absolutely.
 
@@ -508,7 +508,7 @@ So there are people out there that are trying to provide these options, and I th
 
 **Mireille Reece, PsyD:** This is so much like a habit loop, of like I don't actually have to have the dopamine hit before my brain is like "Send it! Send the troops!" \[laughter\] If only our brains could really speak, real-time...
 
-**Danielle Rath:** \[00:52:14.12\] I know...
+**Danielle Rath:** \[52:14\] I know...
 
 **Adam Stacoviak:** It would be fun... And annoying. "Stop doing that!"
 
@@ -552,7 +552,7 @@ The second one is more about productivity and fatigue, and it's called "How to g
 
 **Danielle Rath:** I would love to. This is called "The five levels of fatigue", and it's a pyramid with level zero at the bottom of the pyramid, and level five at the tippy-tippy-top. The reason I made it a pyramid is because if you think about the X axis, that is your productivity. So the base of the pyramid is very wide. That's how alert and engaged and excited you feel about life. And as you get up to the tippy-top, the X axis, the tippy-top of the pyramid is very small. That's because when you get all the way to fatigue level five of five, your productivity is very low.
 
-\[00:56:29.11\] So with each level of fatigue there's different symptoms you might feel. For example, fatigue level one is commonly associated with dehydration and drowsiness. So if you're doing something that's boring and repetitive, or if you're doing something that you haven't had enough water recently, you can feel tired, but caffeine is not the solution. You might need water, you might need to get up, you might need to take a little break and change what you're doing. Caffeine is not the solution for fatigue level one, because your fatigue is coming from boredom and dehydration.
+\[56:29\] So with each level of fatigue there's different symptoms you might feel. For example, fatigue level one is commonly associated with dehydration and drowsiness. So if you're doing something that's boring and repetitive, or if you're doing something that you haven't had enough water recently, you can feel tired, but caffeine is not the solution. You might need water, you might need to get up, you might need to take a little break and change what you're doing. Caffeine is not the solution for fatigue level one, because your fatigue is coming from boredom and dehydration.
 
 At fatigue level two you're feeling more tired, and you might need some caffeine, but not a lot of it. You feel a little distracted, you feel a little lethargic, so you just need a little bit of caffeine, or you need someone to make you laugh. You might need something to boost that dopamine in other ways than caffeine.
 

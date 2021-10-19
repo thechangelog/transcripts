@@ -188,7 +188,7 @@ So there's a wide range of amount of feedback you can give, but the net result i
 
 **Jeff Meyerson:** I love it. Fiverr is like, it's -- I mean... Oh, gosh... It is the AWS for people, basically. It really is. Fiverr is very under the radar.
 
-**Break:** \[00:29:00.16\]
+**Break:** \[29:00\]
 
 **Adam Stacoviak:** Can I ask you a question real quick then on Fiverr, that relates probably back to FindCollabs? Have you considered this idea of portable reputation? It seems like you've been able to collaborate very well on Fiverr, similar to the way you might want to on FindCollabs... And one of the ways you've done that is by accessibility to talent, and being able to potentially see if they've done a good job elsewhere, they're reputable. Is there an idea where maybe there's a world where their reputation system is an API (for a lack of better terms) and you can share this gig economy reputation system? FindCollabs can use it, Fiverr can use it... Or is it simply just a proprietary world where you have to build your own each time?
 
@@ -388,7 +388,7 @@ I know I go on Amazon sometimes and I look at two products, and they both have t
 
 **Jeff Meyerson:** Well, we hope so...
 
-**Break:** \[00:47:37.16\]
+**Break:** \[47:37\]
 
 **Jerod Santo:** That does speak to another difference with collaboration versus these things. We're talking a lot about products and services. Amazon is products, Fiverr is services, Uber is a service, and it's a unidirectional review. Of course, there are opportunities for -- I think an Uber driver can also mark a writer as like a problem, or whatever...
 

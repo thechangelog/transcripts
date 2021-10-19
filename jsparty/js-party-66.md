@@ -32,7 +32,7 @@
 
 **Ashi Krishnan:** Yeah, I'm still trying to come up with a good name for it, but by that I mean -- I'm referring to my talks, basically, where I create talks that are stories with intense visuals, and some kind of poetic component to the language, usually. I think learning from machines and living things are a couple of the best examples of this.
 
-**Kevin Ball:** \[00:03:57.07\] I have to ask, since we're talking about words and naming things, a particular fascination of mine is the way people name themselves online and how that influences the way they present themselves. You have two different, distinct usernames that I saw. On Twitter, you are @rakshesha...?
+**Kevin Ball:** \[03:57\] I have to ask, since we're talking about words and naming things, a particular fascination of mine is the way people name themselves online and how that influences the way they present themselves. You have two different, distinct usernames that I saw. On Twitter, you are @rakshesha...?
 
 **Ashi Krishnan:** Rakshesha, yeah.
 
@@ -58,7 +58,7 @@ I got an iPad - the first kind of iPad that worked with the pencil, the first-ge
 
 **Ashi Krishnan:** Yeah...!
 
-**Suz Hinton:** \[00:08:03.17\] ...and I'm so fascinated by the fact that you have this really cool origin story of how you first got a foothold in the industry. I'm interested in how you went from that, which to me didn't sound as creative with the coding side of things, to what you're doing actually today. Because I know that you got into code in a similar way to me, with the Commodore 64 and println(), but then what made you go into the more creative side of things after you'd been in the industry for a while?
+**Suz Hinton:** \[08:03\] ...and I'm so fascinated by the fact that you have this really cool origin story of how you first got a foothold in the industry. I'm interested in how you went from that, which to me didn't sound as creative with the coding side of things, to what you're doing actually today. Because I know that you got into code in a similar way to me, with the Commodore 64 and println(), but then what made you go into the more creative side of things after you'd been in the industry for a while?
 
 **Ashi Krishnan:** I'd always been very interested in storytelling, and in graphics, and in putting together these interesting, creative, visual things... And I just kind of had a place to put the -- and I know it's like, "Oh, you can make a website and put your things on the website", and that's true, but the other part of that is "I haven't had deadlines or places where it's like "You're giving a talk on this day, and you are going to stand there on stage for 30 minutes, whether you've prepared a talk or not, so you should probably prepare something..." \[laughter\] That kind of deadline is really -- my friend said this is excellent for my creative process, and I have to agree, because it forces me to actually produce things that are \[unintelligible 00:09:17.10\] things and put them out into the world.
 
@@ -90,7 +90,7 @@ I've kind of always been doing experiments, and projects that I've kept to mysel
 
 **Ashi Krishnan:** Yeah, that was probably my most popular talk. I love the JS Confs, they're just very well put together.
 
-**Kevin Ball:** \[00:12:12.05\] They are. They're a lot of fun. So I wanna dig back a little bit into Suz's question, because you talked about how you got into that creative outlet, but I don't feel like we got as much about "How did you get going into programming?"
+**Kevin Ball:** \[12:12\] They are. They're a lot of fun. So I wanna dig back a little bit into Suz's question, because you talked about how you got into that creative outlet, but I don't feel like we got as much about "How did you get going into programming?"
 
 **Ashi Krishnan:** Yeah, so I have this story that I tell, and I wanna lead in by saying I have kind of mixed feelings about telling it, because it's very much the "started very young" narrative that I think can be discouraging to people. So I'll start out by saying that this is how I got into it, but people take many, many journeys and there are many amazing programmers who did not do this.
 
@@ -108,7 +108,7 @@ My dad stopped showing me anything, but we had these books that had programs in 
 
 **Kevin Ball:** I feel like we have this sort of fixed complexity budget of what we're able to manage, and as things have gotten easier, that means that we are doing more things, but we forget the details underlying. We don't manage those; we copy them, or use libraries, or what have you.
 
-**Ashi Krishnan:** \[00:15:57.22\] Yeah. Coding on the Commodore 64, or any of those early coding methods, they're so unbelievably painful. \[laughter\] You type in the whole line, you need to prefix it with a line number; if you get it wrong, you have to retype the whole thing. There's no command/ to comment something out. I'm not even clear how you remove a line. The emulator kept crashing... It's probably the worst programming experience I've had in years, and that's how I learned for like 10-15 years; I was just doing that. It's amazing to me, honestly... Without Google. There was no Google. How did I learn anything? I actually don't know; I couldn't tell you.
+**Ashi Krishnan:** \[15:57\] Yeah. Coding on the Commodore 64, or any of those early coding methods, they're so unbelievably painful. \[laughter\] You type in the whole line, you need to prefix it with a line number; if you get it wrong, you have to retype the whole thing. There's no command/ to comment something out. I'm not even clear how you remove a line. The emulator kept crashing... It's probably the worst programming experience I've had in years, and that's how I learned for like 10-15 years; I was just doing that. It's amazing to me, honestly... Without Google. There was no Google. How did I learn anything? I actually don't know; I couldn't tell you.
 
 **Suz Hinton:** Are there any parallels between this and the WebGL work you do? I ask this in a naive fashion, because I know that WebGL is a ton of math, but lower-level it is relatively stateless, and things like that. Did it sort of remind you of any of the early days of programming, when you got into it, given that JavaScript is much more highly abstracted?
 
@@ -122,11 +122,11 @@ My dad stopped showing me anything, but we had these books that had programs in 
 
 **Kevin Ball:** Awesome. Well, I think we're at a good place to take a short break. When we come back, I'm gonna switch up our plan, because we're talking about learning and stuff, so I wanna dig into -- I know that Ashi has done a lot of work at bootcamps, and teaching, and thinking about folks learn, and since we're already talking about learning, when we come back we'll be digging into "How are folks learning today? What are the challenges? How are the entry points?" and all the pieces of how you get into the industry today... But first, a quick break.
 
-**Break:** \[00:18:35.28\]
+**Break:** \[18:35\]
 
 **Kevin Ball:** Okay, welcome back, JS Party people! Let us talk now about another topic that Ashi has been involved with quite a bit; I was looking at this, Ashi - it looks like you worked at at least two different bootcamp or training types of things, and I'm kind of interested to hear your perspective on -- we talked about how you learned the industry, but how folks are getting into the industry now... There's been a lot of talk recently about the entry points into the industry, and there's this age-old debate about fundamentals versus framework-first, and various other things... So maybe first, starting out, just tell us what it's like working at a bootcamp.
 
-**Ashi Krishnan:** \[00:20:10.00\] Well, it's pretty intense, because everyone there - at least the bootcamps I was working at, and I imagine this is fairly typical across the industry... Everyone there is making a major life change. They've left their job, they're possibly living in a different city for a few months, and they're trying to cram a huge amount of knowledge - just facts, but also, in many cases, a whole new way of thinking - into their brain in 3-4 months, and then go get a job. The whole process, and thereby their entire life might collapse at any of those points.
+**Ashi Krishnan:** \[20:10\] Well, it's pretty intense, because everyone there - at least the bootcamps I was working at, and I imagine this is fairly typical across the industry... Everyone there is making a major life change. They've left their job, they're possibly living in a different city for a few months, and they're trying to cram a huge amount of knowledge - just facts, but also, in many cases, a whole new way of thinking - into their brain in 3-4 months, and then go get a job. The whole process, and thereby their entire life might collapse at any of those points.
 
 So everyone is under a ton of stress, and you can do your absolute level best yoga, zen, stand on one leg, be the calm in the center of the storm, but you're still collecting all of that energy and you're still being \[unintelligible 00:21:04.24\] around. In every single cohort there's a student crying in the bathroom, or many students crying in the bathroom at various different times... So it's an intense experience.
 
@@ -140,7 +140,7 @@ And similarly, I didn't know Angular when I started at Full Stack, and I didn't 
 
 **Ashi Krishnan:** There's definitely a lot of similarities. Right now, when I'm working with or mentoring more junior devs, I find myself doing a lot of similar things. We will goal-set, we will pair together... The way we'll go through things and the way that I'll find myself slipping into an explanatory mode -- I should maybe check it; maybe this is just annoying for all my colleagues, but I think there are definitely similarities.
 
-\[00:23:40.07\] There's also some notable differences, where because the timeframe of a bootcamp is so short, there are some aspects of software engineering that you can't delve into, technically. Testing, for example - we would encourage it as instructors, but it's really hard to see the benefits of it when the longest project you're ever gonna be working on is like a week and a half. That's just long enough to encounter your first "Oh, we broke everything and we don't know when we broke everything, and everything is falling to pieces", but it's not really -- it's actually almost not worth writing tests for a project that's only going to live that long. So those kinds of engineering practices are a little bit harder to teach, I think, in the context of a shorter bootcamp program.
+\[23:40\] There's also some notable differences, where because the timeframe of a bootcamp is so short, there are some aspects of software engineering that you can't delve into, technically. Testing, for example - we would encourage it as instructors, but it's really hard to see the benefits of it when the longest project you're ever gonna be working on is like a week and a half. That's just long enough to encounter your first "Oh, we broke everything and we don't know when we broke everything, and everything is falling to pieces", but it's not really -- it's actually almost not worth writing tests for a project that's only going to live that long. So those kinds of engineering practices are a little bit harder to teach, I think, in the context of a shorter bootcamp program.
 
 **Suz Hinton:** That makes a lot of sense.
 
@@ -172,7 +172,7 @@ I actually think React offers something like a glimpse at how we can handle asyn
 
 **Ashi Krishnan:** Yeah, and my comment about React was kind of alluding to how you have this materialized component hierarchy; you basically acquired all these resources and you have little -- almost like an Erlang services, but lines of communication are structured differently. You have all these little services, each of which represents an asynchronous resource, and data kind of flows through them at the pace that each of them are able to accept. So each little microservice -- it's not even a microservice; each little component is managing its own state, and managing its own invariance, and then the framework is structuring how data flows between all of them, and in particular how to set up and tear down those services as we need them or we stop needing them. I think we're going to start to see that model replicated in different spaces, and towards different ends.
 
-**Kevin Ball:** \[00:28:02.18\] That leads into a question that I had - a common criticism of bootcamps is that they end up teaching all about some framework, and students come out not understanding any of the fundamentals... And there are arguments back and forth on that, but I'm kind of curious both what approach the bootcamps you worked at took, and what your take is on how to design curriculum for folks trying to get into the industry after a three-month bootcamp.
+**Kevin Ball:** \[28:02\] That leads into a question that I had - a common criticism of bootcamps is that they end up teaching all about some framework, and students come out not understanding any of the fundamentals... And there are arguments back and forth on that, but I'm kind of curious both what approach the bootcamps you worked at took, and what your take is on how to design curriculum for folks trying to get into the industry after a three-month bootcamp.
 
 **Ashi Krishnan:** So how do design a curriculum post-bootcamp grad curriculum?
 
@@ -192,7 +192,7 @@ I remember in college I wrote some code and the instructor was like "Oh yeah, yo
 
 I actually think the students who do best are the ones who are able to look at something and be like "Okay, I kind of get that. Moving on..."
 
-**Suz Hinton:** \[00:32:16.10\] That makes a lot of sense.
+**Suz Hinton:** \[32:16\] That makes a lot of sense.
 
 **Ashi Krishnan:** ...which, honestly, is something we do a lot in coding. "Oh yeah, I kind of understand what's going on here."
 
@@ -210,7 +210,7 @@ I've had students who go on to do pretty standard web dev engineering with the s
 
 **Kevin Ball:** Awesome. Well, I think this is another good time for a break, so let's take a short break, and then when we come back we're gonna dig into developer tools, which is your most recent job, and thinking about what needs to be done there, where are we as an industry in terms of tooling, and maybe looking particularly at tooling within the React ecosystems, since we have been talking a lot about React. We'll be back shortly.
 
-**Break:** \[00:35:02.28\]
+**Break:** \[35:02\]
 
 **Kevin Ball:** Okay, welcome back! Let us talk about developer tools. Ashi, your new position, you said, is focused on developer tooling. Is that something that you've been working on in other places as well, or is this something that's a brand new area for you?
 
@@ -238,7 +238,7 @@ And then of course, in the WebGL side of things, when you get into the slightly 
 
 I also think anytime you can create extension opportunities, so any time you can offer an -- an API sounds so big; what I really want is the ability to write a little bit of code that talks to the program in a meta way. So if I can write a GraphQL query to query mutations that have happened to a particular variable, say, that would be nice. Or if I can write a little bit of JavaScript...
 
-\[00:39:59.18\] Okay, sidebar - I've been working on TypeScript a whole lot recently, and I think it's really cool, I think it's really great. There are numerous times when I just wish I could tell TypeScript that the type of this variable should be generated by this JavaScript function that runs in the compiler. There's no way to do that. I can understand how that breaks all kinds of mathematical -- this algebraic whatever form is impure if I'm allowed to write JavaScript that goes and computes what the return type should be, but I should be able to write JavaScript that goes and computes the return type of a function, given not the runtime values of the type, but the input types that it was called with.
+\[39:59\] Okay, sidebar - I've been working on TypeScript a whole lot recently, and I think it's really cool, I think it's really great. There are numerous times when I just wish I could tell TypeScript that the type of this variable should be generated by this JavaScript function that runs in the compiler. There's no way to do that. I can understand how that breaks all kinds of mathematical -- this algebraic whatever form is impure if I'm allowed to write JavaScript that goes and computes what the return type should be, but I should be able to write JavaScript that goes and computes the return type of a function, given not the runtime values of the type, but the input types that it was called with.
 
 So I think that kind of meta-ness, where you can write code that describes how this code should be assembled - that is something we're starting to get into, and I think it's actually going to be very powerful.
 
@@ -254,7 +254,7 @@ I recently for one of my talks wrote just this little preprocessor that takes a 
 
 **Ashi Krishnan:** I think yeah. The project I was describing just then actually ran on top of Parcel, or ran under Parcel. All that tool did was generate a bunch of files which I then Parceled up, or was Parceling up constantly. So yeah, I think those tools that give us the ability to glue together all these different languages, and JavaScript is kind of a lingua franca of all of them, so your CSS gets compiled into JavaScript, or TypeScript gets compiled into JavaScript... That is creating this very powerful ecosystem that we're just starting to understand the edges of; we're just starting to get into how powerful it is to be able to build all of these languages together, and I think that WebAssembly is just going to open up another huge, huge avenue for \[unintelligible 00:43:48.00\]
 
-**Kevin Ball:** \[00:43:50.24\] I do wonder a little bit how we walk that balance between simplicity of use for the vast majority of cases, while still empowering those who really want to mass-configure everything. Because meta-programming is one of those places where it's like, you've got plenty of rope to hang yourself, and if we push everybody to "You're gonna configure your code in code, and write self-generating code", we end up in a place where debugging and analysis gets really hard.
+**Kevin Ball:** \[43:50\] I do wonder a little bit how we walk that balance between simplicity of use for the vast majority of cases, while still empowering those who really want to mass-configure everything. Because meta-programming is one of those places where it's like, you've got plenty of rope to hang yourself, and if we push everybody to "You're gonna configure your code in code, and write self-generating code", we end up in a place where debugging and analysis gets really hard.
 
 **Ashi Krishnan:** Yeah, and this is where I think it's important to be able to trace a piece of data through all of the layers and understand how all of the different layers have -- or at least have something that understands how all of the different layers of compilation worked, and gets you back to some source file. Ideally, you'll be able to explain the problem that you're seeing at the end in terms that you as someone who wrote the input could understand... And we're definitely not there yet.
 
@@ -270,7 +270,7 @@ Outside of that... I have complaints about the framework in certain respects. I'
 
 On that note, something the whole world could benefit from is if TypeScript had a shape operator. There's no reason on God's green earth why the compiler can't see "shape of x" and be like "Okay, whatever I think the shape of X is, I'm gonna replace that expression with that JSON." That would enable all kinds of things. That would enable you to auto-generate prop types from the typings for a thing, that would enable you to auto-generate GraphQL from the typings of the thing.
 
-\[00:48:09.22\] There's a number of times when I've wanted to just get at runtime the type information for a variable; and I know that there's a way to do this by turning on experimental declarators and doing some reflect thing, but it seems like there are holes in that. That doesn't work with free-floating functions and a few other cases, and it would just be nice if I could just ask the compiler to tell me what it knows. "Tell what you know! Sing like Michael Cohen!" \[laughter\]
+\[48:09\] There's a number of times when I've wanted to just get at runtime the type information for a variable; and I know that there's a way to do this by turning on experimental declarators and doing some reflect thing, but it seems like there are holes in that. That doesn't work with free-floating functions and a few other cases, and it would just be nice if I could just ask the compiler to tell me what it knows. "Tell what you know! Sing like Michael Cohen!" \[laughter\]
 
 **Kevin Ball:** Oh, but then would we be able to trust it? \[laughter\]
 
@@ -294,7 +294,7 @@ I don't do a ton of production web front-end work these days, so I'm actually no
 
 **Suz Hinton:** I think those two levels definitely make sense.
 
-**Kevin Ball:** \[00:51:55.16\] Yeah. You talked about dev tools providing transparency - I think having a way to implement testing at each of those level and kind of transparently drilling down through and addressing the tests at different levels of abstraction would be super-valuable. We've seen tremendous progress in JavaScript unit test and things like that, but I think, Suz, you're on to something. Integration testing is still very hard, and maybe there are tools out there that folks have used really well, but they're not as well-marketed and discussed, or the tooling may just not exist.
+**Kevin Ball:** \[51:55\] Yeah. You talked about dev tools providing transparency - I think having a way to implement testing at each of those level and kind of transparently drilling down through and addressing the tests at different levels of abstraction would be super-valuable. We've seen tremendous progress in JavaScript unit test and things like that, but I think, Suz, you're on to something. Integration testing is still very hard, and maybe there are tools out there that folks have used really well, but they're not as well-marketed and discussed, or the tooling may just not exist.
 
 **Ashi Krishnan:** Yeah, I think it's hard, because when you start talking about integration testing web pages, you quickly get towards like "Oh, well I guess we better spin up Chromium, and spin up a renderer." And once you're spinning up Chromium, now you'd better test it in multiple renderers; and then you're in Selenium land, where you have all these different browsers installed, and you've got them in VM's, and it's all pretty hard. There must be cloud providers that do this, but I can see how it would be hard even to configure those. There's probably space here for some power provider to come in and be like "We will just do this. We will give you a Chrome extension that records you going through test cases in your app, and we will track what your app does, and you can tell us what you're expecting, and we will just create all these test cases and then run them on every platform you said you cared about."
 

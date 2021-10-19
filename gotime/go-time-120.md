@@ -38,7 +38,7 @@ Joining me today - Jaana B. Dogan. Hello, Jaana. Welcome back!
 
 We as software engineers can parameterize functions; we say "Oh, if I get this query string and it's this time of day, then do this thing" or something like that.
 
-\[00:04:05.23\] But an AI function or an AI model is essentially the same, in the sense that it's a function, it's just that the internals of that function are parameterized not through the developer's logic only, but through a process called training, which is basically like trial and error. So you give the computer a bunch of examples to learn from, it goes through some trial and error process called training to set these parameters of the function, but you end up with just a function written in code, and that's AI... Which might be disappointing for some people that think there's some type of robots always involved, or something... But it's related to robots.
+\[04:05\] But an AI function or an AI model is essentially the same, in the sense that it's a function, it's just that the internals of that function are parameterized not through the developer's logic only, but through a process called training, which is basically like trial and error. So you give the computer a bunch of examples to learn from, it goes through some trial and error process called training to set these parameters of the function, but you end up with just a function written in code, and that's AI... Which might be disappointing for some people that think there's some type of robots always involved, or something... But it's related to robots.
 
 **Mat Ryer:** That was a disappointment for me initially, I must admit. It's interesting you talk about these functions then. So what does it look like inside it? Because obviously, if we write our own functions in Go code, we can see inside that function and we know every step that it's gonna go through. Is that the same for machine learning models?
 
@@ -64,7 +64,7 @@ So AI, I think, is more of just the marketable name; any kind of learned or stat
 
 **Daniel Whitenack:** Yeah, that's excellent. That's a tricky question, because if you ask it at some AI conference, you'll get as many answers. It's kind of one of those, and various people are opinionated about it in various ways.
 
-**Mat Ryer:** \[00:08:02.25\] So in this problem then of trying to find a cat, you mentioned you could use if statements and things to go and check the pixels, but of course, you don't know where the cat is gonna be in the image, you don't know (like you said) what kind of cat it is, so you wouldn't be able to write code in the traditional sense... So it makes sense then that we're gonna use example data or training data to come up with whatever those internals have to be. Are there any tricks to that? How many examples do we need, and what sort of challenges are around actually that data?
+**Mat Ryer:** \[08:02\] So in this problem then of trying to find a cat, you mentioned you could use if statements and things to go and check the pixels, but of course, you don't know where the cat is gonna be in the image, you don't know (like you said) what kind of cat it is, so you wouldn't be able to write code in the traditional sense... So it makes sense then that we're gonna use example data or training data to come up with whatever those internals have to be. Are there any tricks to that? How many examples do we need, and what sort of challenges are around actually that data?
 
 **Daniel Whitenack:** Yeah, I kind of like to think about the training process essentially as almost like iterative testing, with table tests of some function. If you're thinking about the trial and error process, then you parameterize these bits of the function... And if you're wondering "Well, how good is my parameterization? How good did I pick my numbers?", then what you wanna do is you wanna try some examples and see how many you get right.
 
@@ -82,7 +82,7 @@ At the same time, we've seen various tricks that allow you to adapt or fine-tune
 
 **Jaana Dogan:** It's really interesting, one definition of machine learning back in the day -- I had a friend who decided to define it in a way that if you can't write the function, you just basically brute-force it, which really resembles what you're describing. If it's an easy function, you also have an easier option to maybe write it down yourself, if it's just one if, or whatever... But as soon as it's becoming more complicated \[unintelligible 00:11:53.16\] so the training phase is also getting more complicated.
 
-**Daniel Whitenack:** \[00:12:02.02\] Yeah, I totally agree with that. One of the things - and Miriah did a great job at describing the umbrella term of AI, but one of the main shifts we've seen in recent years is a shift towards neural networks, which if you think about what's happening there, if you have something like logistic regression, which is based on a simple formula, or different regressions, or maybe time series models that have to do with something with seasonality, and things that have some connection to reality (the model is based on some expert knowledge of how reality behaves), well that requires expert input into how you form this function.
+**Daniel Whitenack:** \[12:02\] Yeah, I totally agree with that. One of the things - and Miriah did a great job at describing the umbrella term of AI, but one of the main shifts we've seen in recent years is a shift towards neural networks, which if you think about what's happening there, if you have something like logistic regression, which is based on a simple formula, or different regressions, or maybe time series models that have to do with something with seasonality, and things that have some connection to reality (the model is based on some expert knowledge of how reality behaves), well that requires expert input into how you form this function.
 
 Whereas in recent times, the really interesting thing has happened where with these larger neural networks there's enough complexity in the neural network, there's enough parameters that you could essentially model any sort of relationship between your input and output, if you had enough data. So now we no longer have to rely on expert input as much in defining the function, we just kind of have a big function and a lot of data, and that allows us to do really interesting things. I'm not a linguist, but I can train a machine translation model, and know nothing about the two languages involved. That's pretty extraordinary.
 
@@ -102,7 +102,7 @@ Whereas in recent times, the really interesting thing has happened where with th
 
 Along with that... So it's data, it's compute, but then lastly it's kind of the realization that so many of these problems that we've been working on for so long, if you think about like edge detection in images - there were ways to do that before neural networks, or segmentation in images, or machine translation, or sentiment analysis... All of these things - there were methods for doing it before, but people have started to realize that all of these problems, this logic that we're interested in can be reformulated in the terms of a generalized machine learning problem, where you basically have some number of inputs in, a really complicated parameterized thing in the middle, and some number of inputs out. And most problems can be reformulated in that way without making it specialized to any domain. So now people have just kind of gone crazy with "Well, neural networks can do anything, if anything can be reformulated in this way."
 
-**Mat Ryer:** \[00:16:06.10\] Yeah, that's a really interesting thing. John on the Slack channel -- by the way, we're on GopherSlack, for anyone that wants to join the live recordings of Go Time... And you can ask questions, like this one from John; he's talking about the training data and the training process, and he asked "How does the model not just only learn what it's seen in the example data? How is it that it can see new data that it's never seen before? ...a new photograph of a cat, and it knows it's a cat still."
+**Mat Ryer:** \[16:06\] Yeah, that's a really interesting thing. John on the Slack channel -- by the way, we're on GopherSlack, for anyone that wants to join the live recordings of Go Time... And you can ask questions, like this one from John; he's talking about the training data and the training process, and he asked "How does the model not just only learn what it's seen in the example data? How is it that it can see new data that it's never seen before? ...a new photograph of a cat, and it knows it's a cat still."
 
 **Daniel Whitenack:** That's a great question, that indicates a real problem in these methods. If you had a billion-parameter function, and a thousand pictures of cats and non-cats, then what's going to happen? Well, you're just going to be able to find the cats and the non-cats in those pictures really accurately. Almost at 100%. But you're not gonna be able to generalize, like Jon mentioned. This is a problem called over-fitting, and this problem has to do with your model being very complicated, but there not being enough variability in your data to generalize that model. And there's various ways to deal with this in the training process, including splitting out your data and actually optimizing around data that the model hasn't seen yet, or stopping early if you're over-fitting to the data that you're already seeing.
 
@@ -114,7 +114,7 @@ There's even recent examples, like with OpenAI's work in robotics, where they in
 
 Say you have a whole bunch of different zoo animals and you have discovered that lemurs look really similar to cats, but you wanna still just figure out what a cat is - well, that's when you start manipulating your data. You can start adding random noise to it, and you can start adjusting size or pixel density... And then your model has to learn to pick out features that are not just maybe placement, or not maybe just ear size, but other things... And then it doesn't necessarily look like an actual cat anymore, because you've added different noises, but it helps to figure out the problem of only finding out what the cat is. So it really depends on what you're trying to look for and solve.
 
-**Daniel Whitenack:** \[00:20:25.09\] The example that I like to think of with this is if you train the models used in a self-driving car - let's say in Sweden, or somewhere - it's probably going to be pretty good in snow, and maybe certain types of environments. But if you say "Oh, now we've solved the self-driving car problem", and we ship this thing over to Australia - well, the first kangaroo that runs across the road, you're gonna crash your car and there's gonna be some catastrophic event. Your target environment definitely influences how you construct that data to train your models.
+**Daniel Whitenack:** \[20:25\] The example that I like to think of with this is if you train the models used in a self-driving car - let's say in Sweden, or somewhere - it's probably going to be pretty good in snow, and maybe certain types of environments. But if you say "Oh, now we've solved the self-driving car problem", and we ship this thing over to Australia - well, the first kangaroo that runs across the road, you're gonna crash your car and there's gonna be some catastrophic event. Your target environment definitely influences how you construct that data to train your models.
 
 **Jaana Dogan:** It's really interesting, because people have been saying that training is revealing some of the biases in the data that they have never seen before...
 
@@ -128,7 +128,7 @@ So your metric is very problem-dependent, and in machine translation you use thi
 
 There's a lot of people working on this problem. There's great tools from IBM and others that actually allow you to evaluate bias in various categories in your training data, and also integrate that into modifications in your training process such that you necessarily aren't creating these biases, even if it's at the cost of accuracy or whatever metric you're interested in.
 
-**Break:** \[00:23:42.27\]
+**Break:** \[23:42\]
 
 **Mat Ryer:** I think that gives us quite an interesting foundation of AI. Maybe we could shift now and talk a little bit about Go's role in this. When we built Machine Box, we had Python for a lot of the internals of these boxes, and we used Go around that to do different things. That decision really came out because of the maths libraries and some of the other libraries that had already been done... How far are we now in that? What are the options for Go programmers if they wanna do their own machine learning?
 
@@ -144,7 +144,7 @@ I feel like there's a lot of community support that's lacking in maintaining the
 
 **Jaana Dogan:** I always had this impression that there's nothing much out there, so maybe it could be more of a knowledge share problem. Is there a way good way to understand what is the current state of things? Is there a requisitory that just captures what is out there?
 
-**Daniel Whitenack:** \[00:27:59.04\] There are a few... One of the great resources that people don't know about - there's a data science channel in GopherSlack, which if you're looking for anything, that's probably the quickest answer that you're gonna get, because people are very active there.
+**Daniel Whitenack:** \[27:59\] There are a few... One of the great resources that people don't know about - there's a data science channel in GopherSlack, which if you're looking for anything, that's probably the quickest answer that you're gonna get, because people are very active there.
 
 **Miriah Peterson:** It's one of the most active channels I'm on.
 
@@ -168,7 +168,7 @@ The other thing I'll mention is, you know, as Mat said, Python has its strengths
 
 **Daniel Whitenack:** Personally, I haven't found it to be the main issue that I'm dealing with. Other people that are developing the libraries themselves - maybe they have other opinions, and I've seen also people mention that as well... So I don't know, Miriah, if you have any thoughts there...
 
-**Miriah Peterson:** \[00:32:04.13\] I feel pretty similarly. I think the generics question is more just people coming from a Pythonic way of doing it, and the way that it's worked before, and it just doesn't translate one-for-one back into Go. So there might be some workaround, but I don't think it's necessarily a hard block in the way.
+**Miriah Peterson:** \[32:04\] I feel pretty similarly. I think the generics question is more just people coming from a Pythonic way of doing it, and the way that it's worked before, and it just doesn't translate one-for-one back into Go. So there might be some workaround, but I don't think it's necessarily a hard block in the way.
 
 I think the bigger issue is there's just different thought processes, and we have to think without generics for the time being, or sometimes you've just gotta hack it.
 
@@ -190,7 +190,7 @@ Obviously, the culture around testing and robustness and integrity is something 
 
 On Practical AI we interviewed a couple of different people around this topic, but Joel Grus, who works at the Allen AI Institute - they have a package called AllenNLP, which is written in Python, and they really have to do a lot of work to enforce type labels, and utilize CI/CD to do that type-checking on all of their code to actually make sure that their code is robust and operating... So it takes a lot of extra work to build that stuff into Python, where for us it just comes for free.
 
-**Mat Ryer:** \[00:35:51.19\] Yeah, sometimes -- especially when people are new to Go from other dynamic languages, that's a bit frustrating that it's so strict... But of course, that pays dividends very quickly.
+**Mat Ryer:** \[35:51\] Yeah, sometimes -- especially when people are new to Go from other dynamic languages, that's a bit frustrating that it's so strict... But of course, that pays dividends very quickly.
 
 **Daniel Whitenack:** Yeah. I just pulled up -- there's this other package called SpaCy, which is a Python package, and their underlying library that they use for machine learning is called Thinc. And they just made a big new release of it and they branded it as "A refreshing functional take on deep learning", and one of their first bullet points of why it's so awesome is type checking. "Develop faster and catch bugs sooner with sophisticated type checking." And from the Python perspective, it's like "Oh, we can do that!" People are starting to realize that we're moving past this phase of "Let's train models as quick as we can", and into a phase of "Let's build products and integrate AI into products." And when you start thinking like that, then you'll have to consider a lot more than just training things quickly.
 
@@ -220,7 +220,7 @@ On Practical AI we interviewed a couple of different people around this topic, b
 
 **Daniel Whitenack:** Yeah, and I was gonna say, too... A part of what I mentioned around the rapid growth in AI is due to pre-trained models and transfer learning. These are two ideas that really benefit people that don't have a lot of data. So pre-trained models basically mean someone else has already trained a model for recognizing cats, which they definitely have, many times, on the internet. So you actually don't even have to go through that training process, you can just pull down a model from the internet and run it in your own code, just to do the predictions.
 
-\[00:39:50.13\] There's also tons of APIs where you can integrate this sort of functionality that's AI-driven via API. So whether that's sentiment analysis, like Miriah is talking about, machine translation, object recognition - all of these sorts of functionalities are already available out there... And then transfer learning is basically the idea that someone's already trained a model to do almost what you want; you just have to tweak it a little bit.
+\[39:50\] There's also tons of APIs where you can integrate this sort of functionality that's AI-driven via API. So whether that's sentiment analysis, like Miriah is talking about, machine translation, object recognition - all of these sorts of functionalities are already available out there... And then transfer learning is basically the idea that someone's already trained a model to do almost what you want; you just have to tweak it a little bit.
 
 This is something that I use all the time, because I work on a lot of technology for lower resource languages, natural languages, like languages that people speak... And the languages that we work with, typically we might have 30,000 samples of parallel data between English and this language. If you look at large-scale machine translation models, they might have nine million examples. So we have almost no data.
 
@@ -228,7 +228,7 @@ What we do is we really leverage things like "Oh, well there's a lot of data for
 
 **Miriah Peterson:** I've run into this - just to build off of a lot of what Daniel said... I've had people ask me a lot of times where to get started with AI, and I usually say find an API that works. Google's got great APIs, Microsoft's got great tools... And while you're using that API, start growing your data, so that you can find what you need -- I mean, so that you have good data, and once you get enough, you can start doing transfer learning and really fine-tune your use case. But don't push the problem off. Start with an API and then get ready to make it better.
 
-**Break:** \[00:41:57.05\]
+**Break:** \[41:57\]
 
 **Jaana Dogan:** We talked a lot about fine-tuning and tweaking things... Is this like you are tweaking the model primarily, or would you rather try to have a layer on top of that model to maybe eliminate some cases, or gather some more information about the incoming data, maybe pass things to different models, and so on? I've seen different approaches when it comes to composing different solutions... What's your opinion on this?
 
@@ -236,7 +236,7 @@ What we do is we really leverage things like "Oh, well there's a lot of data for
 
 **Miriah Peterson:** Squirrels, fuzzy-faced animals, some dogs...
 
-**Daniel Whitenack:** \[00:44:02.07\] Yeah, you could start -- like, if you wanted to adapt for raccoons, you're doing the same task, you're doing object recognition... So really, what you wanna do is tweak the parameters of the model; you don't necessarily want to change the model structure... Whereas a lot of times in natural language processing or in other areas there's open language models, which will tokenize your data and create a learned representation of language, but they won't complete the task that you want... Maybe that's sentiment analysis. In that case, you might have to add layers onto the model for the specific task.
+**Daniel Whitenack:** \[44:02\] Yeah, you could start -- like, if you wanted to adapt for raccoons, you're doing the same task, you're doing object recognition... So really, what you wanna do is tweak the parameters of the model; you don't necessarily want to change the model structure... Whereas a lot of times in natural language processing or in other areas there's open language models, which will tokenize your data and create a learned representation of language, but they won't complete the task that you want... Maybe that's sentiment analysis. In that case, you might have to add layers onto the model for the specific task.
 
 When people have heard of these things - maybe they've heard of BERT and ELMo, and Transformers, and GPT-2... These are all really large-scale language models; they really are meant to be fine-tuned to these different tasks, and meant to be generalized across them.
 
@@ -264,7 +264,7 @@ So yeah, I think that approach, transfer learning, using other APIs, using other
 
 **Mat Ryer:** Yeah. I think that's a good lesson. I think it's always worth thinking like that, frankly... Because too often we want - for good reason - to be able to do all the bits ourselves, and we don't need to; and sometimes it's better not to.
 
-\[00:48:05.19\] Barnaby in the Slack channel was asking about object recognition. When we were talking earlier about detecting cats, and things... With computer vision, how is AI different to that?
+\[48:05\] Barnaby in the Slack channel was asking about object recognition. When we were talking earlier about detecting cats, and things... With computer vision, how is AI different to that?
 
 **Daniel Whitenack:** Yeah, I think with computer vision -- if you think about how this was used... Let's take an example of manufacturing and automation, which was something that people think a lot when they think about AI... So cameras have been used in manufacturing for a long time to detect edges, and insert things into slots, and do all sorts of things... But in the sort of computer vision way of thinking it's almost like -- one of our guests on Practical AI described it this way, "It's like you're finding your way around in the dark. You find this edge, and then you move two centimeters this way, and do this operation with your robot, and then move two centimeters down." It really has no idea what the thing is, it just knows there's an edge here, and "I'm moving this far."
 
@@ -274,7 +274,7 @@ Whereas with object recognition or more modern methods, really you are saying "T
 
 Well, I think, Daniel, you jumped the shark a little, but it's time for our regular slot... It's time for Unpopular Opinions.
 
-**Jingle:** \[00:50:00.27\] to \[00:50:18.15\]
+**Jingle:** \[50:00\] to \[50:18\]
 
 **Mat Ryer:** So, let's see... Daniel, are you gonna stick with yours, or have you got another one? Chalkboards over blackboards, you prefer...
 
@@ -304,7 +304,7 @@ Well, I think, Daniel, you jumped the shark a little, but it's time for our regu
 
 **Mat Ryer:** Oh, that's a great one. That might not be that unpopular.
 
-**Miriah Peterson:** \[00:51:55.18\] I know, but it's not verbalized. It's not formalized, so it is unpopular if it's not formalized.
+**Miriah Peterson:** \[51:55\] I know, but it's not verbalized. It's not formalized, so it is unpopular if it's not formalized.
 
 **Mat Ryer:** Okay. That's the second one you got me on... \[laughter\] That's water-tight, legally, so I can't argue with that one, Miriah. Jaana, have you got an unpopular opinion these days?
 
@@ -376,7 +376,7 @@ So I would say if you're wanting to run machine learning/AI pipelines at scale, 
 
 **Mat Ryer:** And PHP, Jon said... Okay, that is all the time we have for today, so thank you so much to our special guests, Daniel, Miriah and Jaana, and we'll see you next week on Go Time!
 
-**Break:** \[00:55:13.03\]
+**Break:** \[55:13\]
 
 **Mat Ryer:** ...keep it short and sweet. Then this is where the music plays... But this is now the after-party, so... Now you can--
 

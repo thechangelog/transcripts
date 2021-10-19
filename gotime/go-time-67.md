@@ -18,7 +18,7 @@ Previously, I've worked in startups. I've been at a bunch of Go shops where prim
 
 Soon, we realized that "Wow, this is so much that it probably is actually a full-time job." That is what I'm doing as part of the team now. I'm taking a lot of these programs that I started as a community member and have worked on with many of you out there, and then bringing them to the Go team, to Google as organized programs that are supported and regulated, and made easily accessible. I guess that's kind of what I'm working on. \[laughs\] It's not super specific, and we can actually get into some specifics, but I am there to support the community in whatever ways are necessary at the time.
 
-**Carlisia Thompson:** \[00:04:02.24\] Yeah, to me that sounds fantastic. Instead of having a rigid job definition, you're trying to find out the community needs... At least it sounds like that to me. And that's brilliant.
+**Carlisia Thompson:** \[04:02\] Yeah, to me that sounds fantastic. Instead of having a rigid job definition, you're trying to find out the community needs... At least it sounds like that to me. And that's brilliant.
 
 **Cassandra Salisbury:** Absolutely. The community needs a lot. We're now looking at about 1.5 million Go users worldwide; enterprises are picking Go up left and right. The type of infrastructures that are being supported by Go is absolutely insane, so it needs a lot of work and support and great people.
 
@@ -28,7 +28,7 @@ Soon, we realized that "Wow, this is so much that it probably is actually a full
 
 I think that if you are in the position of asking your company to host a local meetup and get to know the community that way, or if you could put together a talk, or "The Top 5 Tips on X" and say "Do you think this is helpful?" or start to write about some cool tool that you used and run it through someone you know who is focused on blogs that you admire... I think that these are all ways that you can kind of jump in and discover what you're good at, and then where you're most useful.
 
-**Carlisia Thompson:** \[00:08:01.15\] I think that is a brilliant idea. As far as local meetups, I can vouch for what you said, because when I started out looking into Go and wanting to learn Go, I started going to my local meetup. And it took maybe two meetups, or three the most, and I was a meetup organizer, because... \[laughter\]
+**Carlisia Thompson:** \[08:01\] I think that is a brilliant idea. As far as local meetups, I can vouch for what you said, because when I started out looking into Go and wanting to learn Go, I started going to my local meetup. And it took maybe two meetups, or three the most, and I was a meetup organizer, because... \[laughter\]
 
 **Cassandra Salisbury:** It took me one.
 
@@ -44,7 +44,7 @@ I do see an interesting question kind of popping up, which is "Okay, I have star
 
 It's very interesting, because over the last week, internally at the Go team we've been talking a lot about resources, and then I've talked to many conference organizers over the last few weeks, and they have put out these tweets, and I don't know if you've seen them... Where it's "If you wanna help people build a CFP or an abstract (whichever word you want), then raise your hand, basically. So retweet, or say yes."
 
-\[00:12:10.03\] Russ Cox actually started a page on GitHub (we can add it to the show notes, or something like that). It's in the Go Wiki and it's called New Speakers. It is a list of people who have offered their services to help build abstracts, and I think that these types of collective information pools are going to make it easier for someone to go from a local impact to global impact... But to some extent there is some pressure on community organizers like myself to make sure those tools are available to our community.
+\[12:10\] Russ Cox actually started a page on GitHub (we can add it to the show notes, or something like that). It's in the Go Wiki and it's called New Speakers. It is a list of people who have offered their services to help build abstracts, and I think that these types of collective information pools are going to make it easier for someone to go from a local impact to global impact... But to some extent there is some pressure on community organizers like myself to make sure those tools are available to our community.
 
 **Carlisia Thompson:** Yes, absolutely, and hopefully with the work that you're doing, we will get that. Also, one thing for global impact - getting involved directly with organizations that have a broader reach is also a good way to just already start at that level. For example, getting involved with GoBride; you can go to the golangbridge.org website and get in touch with any of those folks there... I'm not active on GoBridge anymore, because I can't handle it, but I know for a fact there's a ton of work that they'd like to be doing and they're not, because there's just not enough people.
 
@@ -64,7 +64,7 @@ But just talking about our worldwide community a little, because I think that th
 
 **Cassandra Salisbury:** Yes.
 
-**Carlisia Thompson:** \[00:16:18.25\] So if someone is interested in anything, I'm sure they can contact you, right? Even like "I have no idea, just suggest something for me", because all of these things - I can't even imagine the amount of work that you could use help with.
+**Carlisia Thompson:** \[16:18\] So if someone is interested in anything, I'm sure they can contact you, right? Even like "I have no idea, just suggest something for me", because all of these things - I can't even imagine the amount of work that you could use help with.
 
 **Cassandra Salisbury:** I've been getting a lot of questions about "I don't know how to help", and initially, when I first came to Google, I thought that I would have those answers, but now I'm realizing that there just needs to be a little bit more structure around the How, and I think some of that will probably be done, and I think some of that will probably be done by the community working group; we're gonna relaunch it with some more narrowed focus to make it easier for contribution. Because the Go project is giant. It feels like there's so much and too much at scale that the "How do I help?" is not clear. So I'd like to really create some community charters where people know that "This is where I go to for help, this is what we need." And I think that the resources for new speakers is a great example of that. I think just going on the Go wiki and making sure that the conferences section is updated is important; I think that the sharing of content and great talks that you see -- just the sharing of content is such a huge impact on community growth and distribution of knowledge.
 
@@ -78,7 +78,7 @@ Tell us what this working group is, because you mentioned that a couple times an
 
 **Cassandra Salisbury:** Well, the working group is a collection of community members that are working toward goals that benefit the Go community, and I keep that really broad because I think that there's gonna be some changes to it. I know that there's going to be some changes to it, and I don't want to narrow down that focus prior to kind of having knowledge from the other leaders in that working group, that that's the direction we're gonna go. But if you go to Golang's GitHub [golang/cwg](https://github.com/golang/cwg/projects) you'll see that there is a board, there's projects, and each of those projects has issues within them, and I kind of arrange those so you could see, like "These are the initiatives"; each project board is an initiative, and then within those there are the issues, so essentially the tasks that need to happen to get to said project. Some of that might change over the next couple months, but that was the idea behind the working group in the beginning.
 
-**Carlisia Thompson:** \[00:20:39.26\] And all of these links that we are mentioning are going to be on the show notes, so don't stress about not finding this stuff; when the episode comes out, the links will be there.
+**Carlisia Thompson:** \[20:39\] And all of these links that we are mentioning are going to be on the show notes, so don't stress about not finding this stuff; when the episode comes out, the links will be there.
 
 Okay, that is very cool. Now, when this restructure takes place, how are people going to find out what this turns out to be, at least in the very next phase of this effort?
 
@@ -100,7 +100,7 @@ But yeah, we will make it well-known and distributed, but right now it's just no
 
 **Carlisia Thompson:** Now, for people to follow what is happening, what is changing, is there a mailing list or a specific Twitter account or a Facebook page? How do you suggest people keep track of this?
 
-**Cassandra Salisbury:** \[00:24:03.25\] Yes, Twitter is a great way. There is a Gophers mailing list; I'll have to look it up and we can put it in the show notes, because I don't wanna give the wrong one, because there's a lot... There's some that are more managed by the Go team, and there's some that are managed by external resources... Which was frankly a wiki that's on my list to start, because I think that's one of the wikis that we don't have - media and content distributions, but we will get into that. Twitter is a great way to stay up to date on some of these things...
+**Cassandra Salisbury:** \[24:03\] Yes, Twitter is a great way. There is a Gophers mailing list; I'll have to look it up and we can put it in the show notes, because I don't wanna give the wrong one, because there's a lot... There's some that are more managed by the Go team, and there's some that are managed by external resources... Which was frankly a wiki that's on my list to start, because I think that's one of the wikis that we don't have - media and content distributions, but we will get into that. Twitter is a great way to stay up to date on some of these things...
 
 **Carlisia Thompson:** Which account should people follow?
 
@@ -136,7 +136,7 @@ But yeah, we will make it well-known and distributed, but right now it's just no
 
 **Carlisia Thompson:** No pressure, but I was really excited when -- first when Steve Francia joined the Go team, and then when you joined... I was so thrilled. What I said was "I am looking forward to seeing how this community is going to be in two years." Of course not right away, right? This work takes time, but in two years I think we're going to start seeing a difference.
 
-**Cassandra Salisbury:** \[00:28:06.24\] I think that for me, coming from the startup world, I'm like "No, let's do it! Let's do it all! Let's do it right now!" and that's one of the things that I'm really having to take a step back and let myself a) be onboarded at Google, and b) really assess the right way, the strategic way to go after all the community organization that's necessary, and even more so, learn how I can best empower the leaders in the Go community that are outside of Google. That's been my main focus for the last three months - just trying to talk to people and figure out what are the real needs. So I know, let's hope. Fingers crossed! \[laughs\] There are some major improvements.
+**Cassandra Salisbury:** \[28:06\] I think that for me, coming from the startup world, I'm like "No, let's do it! Let's do it all! Let's do it right now!" and that's one of the things that I'm really having to take a step back and let myself a) be onboarded at Google, and b) really assess the right way, the strategic way to go after all the community organization that's necessary, and even more so, learn how I can best empower the leaders in the Go community that are outside of Google. That's been my main focus for the last three months - just trying to talk to people and figure out what are the real needs. So I know, let's hope. Fingers crossed! \[laughs\] There are some major improvements.
 
 **Carlisia Thompson:** You're so the right person for the job, just by what you've just said. I'm with you, I'm like "Let's get everything done right now! Let's do it, and I'll do it myself if it's necessary!" But it's too much work, and you need hands on board.
 
@@ -146,7 +146,7 @@ But yeah, we will make it well-known and distributed, but right now it's just no
 
 **Cassandra Salisbury:** I agree a hundred percent. So there was a [survey](https://research.hackerrank.com/developer-skills/2018/) that I think was from a couple weeks ago from Hacker Inc. that states that Go is the top language -- I think it was about 40,000 developers that they ran through and I'll include this in the notes as well; here, I'll share this in our Slack, so those of you who are listening can see this.
 
-\[00:31:42.17\] So about 40,000 developers, and Go is the top language that developers are planning on learning next. And that number has doubled in the last two years. So what that tells us is that there is going to be a lot of new developers coming into Go, and although it's kind of easy to say "No, you're welcome. Come to us, we want you", I also think we have to put it upon ourselves to not stick with just our friends when we're at a new conference... To look at that new face and walk up to them and say "Hey, what are you working on right now? Is this your first time at a conference? What have you learned so far?" and really engage with those newbies, because it is so intimidating to go up to people that you know have already been around for a year plus... So I'll just put that as a call to action for the community - really put out the effort to make people feel welcome, and address those needs in the moment.
+\[31:42\] So about 40,000 developers, and Go is the top language that developers are planning on learning next. And that number has doubled in the last two years. So what that tells us is that there is going to be a lot of new developers coming into Go, and although it's kind of easy to say "No, you're welcome. Come to us, we want you", I also think we have to put it upon ourselves to not stick with just our friends when we're at a new conference... To look at that new face and walk up to them and say "Hey, what are you working on right now? Is this your first time at a conference? What have you learned so far?" and really engage with those newbies, because it is so intimidating to go up to people that you know have already been around for a year plus... So I'll just put that as a call to action for the community - really put out the effort to make people feel welcome, and address those needs in the moment.
 
 **Carlisia Thompson:** Yes, I'm so glad you mentioned that. And you know, I wanna mention the other side of the coin of what you've just said... People who are new to the community, if somebody walks up to you - and especially if you know... Or it makes no difference, I guess, but if you're new to the community and somebody comes and says "How are you doing?" or whatever, try to be friendly, because it's super intimidating. Even when I go up to people, I notice somebody, I've never seen this person, and now it's so easy because I don't know most people when I go to a conference, or something... And I walk up to someone, it's so intimidating... Like, I want to do what you've just said, but even for me, who I can just -- you know, I can turn around and go hang out with my friends and sort of like recharge from that interaction, right? But it is hard, so just make it easy for us... \[laughs\] Please.
 
@@ -176,7 +176,7 @@ But yeah, we will make it well-known and distributed, but right now it's just no
 
 **Cassandra Salisbury:** Oh... Boy, it's not easy to be honest. I don't have a background as a developer, I don't have the benefit of having a college education, which means I didn't really have as many connections, and really what happened was I kind of fell in love with developer technology, so I joined my first startup and it was like a continuous integration platform, and I just enjoyed the straightforward "Will this make my life easier?" questions that you got from developers, and then that sort of didn't work out.
 
-\[00:36:29.17\] Then I had another company I was at that was in the midst of acquisition, and I knew I didn't really wanna stay there, but I learned everything that I possibly could about Salesforce and sales operations and marketing... And I left pretty quickly.
+\[36:29\] Then I had another company I was at that was in the midst of acquisition, and I knew I didn't really wanna stay there, but I learned everything that I possibly could about Salesforce and sales operations and marketing... And I left pretty quickly.
 
 Then I started to get into a few more companies that were very interesting and had some cool technologies, but it wasn't until I found Go that I really felt like I wanted to do this forever. And it's kind of a weird statement, but I was writing about this one time and I really fell in love with the Go community, and I think that it was partially the warmness and the openness, I think it was also the acceptance that even if I wasn't a developer, the acceptance of learning and that they needed to make improvements to make Go more accessible was there; it felt engaging, rather than discouraging, which is what I experienced in other communities in my other tech companies.
 
@@ -198,7 +198,7 @@ I don't know if that kind of answers your question of what kept me going (haha! 
 
 **Cassandra Salisbury:** Yeah.
 
-**Carlisia Thompson:** \[00:39:41.00\] [Dave Cheney](https://twitter.com/davecheney) was sort of leading that, really getting some fire behind people, for people to have release parties, and for people who don't know, a Go release party is just a celebration of every Go release, like the point something release, not just the major ones... But every point something release is a reason to celebrate, so the meetups will do something special, maybe do something different from what they do, or maybe just have a cake (with a gopher, of course). But the last one or two releases - I don't remember seeing anything. I remember we have celebrated here in San Diego in our meetup, but I don't remember seeing anything... I saw that there's a Go 1.10 release party planned. Is anybody leading this? How is it going? Is it making any difference to have these parties?
+**Carlisia Thompson:** \[39:41\] [Dave Cheney](https://twitter.com/davecheney) was sort of leading that, really getting some fire behind people, for people to have release parties, and for people who don't know, a Go release party is just a celebration of every Go release, like the point something release, not just the major ones... But every point something release is a reason to celebrate, so the meetups will do something special, maybe do something different from what they do, or maybe just have a cake (with a gopher, of course). But the last one or two releases - I don't remember seeing anything. I remember we have celebrated here in San Diego in our meetup, but I don't remember seeing anything... I saw that there's a Go 1.10 release party planned. Is anybody leading this? How is it going? Is it making any difference to have these parties?
 
 **Cassandra Salisbury:** I think one of the things that happen to the Go release parties other than being able to get together and say "Yay, we're still doing cool things, they're still happening!" is that we're able to really distribute the knowledge about what changes and improvements are happening, and I think that that is very beneficial and important to maintain.
 
@@ -214,7 +214,7 @@ I think that, honestly, the meetup organizers channels in Slack, and just making
 
 **Cassandra Salisbury:** Yeah, we've done the same thing ourselves for the GoSF meeting, where I know that slides have been borrowed from Dave or someone else who's created kind of the first batch. It would be nice to maybe have a group of people that are designated to help with the slides. I'd really love to see that in the future, but there's so many other things that also need to be done... I don't know if we'll get to that quite yet, but I agree; I think they're important, and I think that they can be a little bit more distributed.
 
-**Carlisia Thompson:** \[00:44:23.08\] Yes. And meetup organizers, don't feel ashamed to use that.
+**Carlisia Thompson:** \[44:23\] Yes. And meetup organizers, don't feel ashamed to use that.
 
 **Cassandra Salisbury:** Not at all! You are needed so much for the community. Please, don't stop!
 
@@ -240,7 +240,7 @@ It's really amazing to see how many conferences there have been added. Even in j
 
 I think that people get kind of bog down in some of the difficulties around building a CFP.
 
-**Carlisia Thompson:** \[00:48:29.00\] It really is difficult and intimidating... I mean, for me - I've done it before, and every time it's such a drag... "Oh, how do I do this?" As if I had never done it.
+**Carlisia Thompson:** \[48:29\] It really is difficult and intimidating... I mean, for me - I've done it before, and every time it's such a drag... "Oh, how do I do this?" As if I had never done it.
 
 **Cassandra Salisbury:** It is. But the other thing about a CFP is every CFP can be a blog post, every CFP can be another way of distributing your knowledge to other people, even if it's not accepted... So I always tell people, "Do it. Even if it's hard, just get it down in a few bullet points, and then expand on it from there."
 
@@ -268,7 +268,7 @@ I think that people get kind of bog down in some of the difficulties around buil
 
 **Cassandra Salisbury:** Yeah, I've kind of named them all, actually. I sent out that hacker survey where they talked about Go being the top next language for developers to learn in 2018, the amount of conferences and meetups that we have all over the world - all of those were kind of included, and just the scale that we're looking at over the next couple of years.
 
-**Carlisia Thompson:** \[00:51:55.24\] Very cool. Is there any last thing you would like to tell us, Cassandra?
+**Carlisia Thompson:** \[51:55\] Very cool. Is there any last thing you would like to tell us, Cassandra?
 
 **Cassandra Salisbury:** You know what I'm interested in that is sometimes hard to get feedback on is really just how people feel they would be most helped, so how community organizers feel they'd be most helped or what was the struggle in getting started, or if you are getting started, why is it difficult or why is it awesome, and I just -- I would love to hear some more stories about that. Again, you could contact me on Twitter, you can contact me on Gopher Slack, or my emails... All of that is fine. I've even debated starting a Twitter thread, so maybe I'll do that... But not everyone wants to share these things publicly and I respect that, which is why I kind of like the more personal, one-on-one you tell me.
 
@@ -292,7 +292,7 @@ I think the same for CFP's, honestly... I was kind of hoping that we would have 
 
 **Cassandra Salisbury:** Yeah, absolutely. It's also conference organizers' duty to make sure that they are not just looking for the most "famous" of the community to speak at their conferences, but also that they are looking for newbies and different levels of content, and luckily we have an amazing group of conference organizers, and they are putting a lot of effort and thought into how they are formatting their content this year. So I just wanna give a shout-out to all of these organizers, because I know how much work this is, and they're really trying.
 
-**Carlisia Thompson:** \[00:55:58.10\] Absolutely. Organizers of everything, I love all of you... All of you, so much!
+**Carlisia Thompson:** \[55:58\] Absolutely. Organizers of everything, I love all of you... All of you, so much!
 
 **Cassandra Salisbury:** Me too. I wanna get everyone to go for a hug. \[laughs\]
 

@@ -28,7 +28,7 @@ But let's start off learning a little bit more about you and your path to what w
 
 It just so happened that Aaron Patterson was -- I lived in Denver at the time, and he was in town for a local meetup to give a talk. I went out for drinks with him afterwards, and was like "Hey, I have this idea for this API." It sounds polite, but I was actually really drunk and kind of shouting at him about this API...
 
-**Jerod Santo:** \[00:03:58.03\] Whatever works.
+**Jerod Santo:** \[03:58\] Whatever works.
 
 **Sean Griffin:** But anyway, so he was like "Yeah, sure. Whatever. Do it." I think he was partially just trying to get me to stop asking him about this idea that I had, since the majority of people who do that are never gonna follow through...
 
@@ -56,7 +56,7 @@ Certainly, I would guess the percentage of the codebase has gone down, just beca
 
 **Jerod Santo:** So you opened up this massive PR, this idea that you were challenging there, and Patterson, who was then very involved with Rails - I'm not sure of his current status; in fact, he was full-time on Rails I believe working for AT&T Interactive, or somebody was paying him full-time to work on Rails back then. He now works at GitHub, and I'm assuming he's still very much involved. So he said "Go ahead and do it", you went out and accomplished this goal, and now a lot of the ActiveRecord codebase is your own, so you begin maintaining it. That doesn't get us to full-time at Shopify, so tell us the personal/business end of that same timeline, how you ended up being able to do this as your job.
 
-**Sean Griffin:** \[00:07:37.22\] Yeah, so I guess the first thing is when I decided that this is what I wanted to do... Because it's funny, you call it "living the dream", and to a certain extent I kind of call it "living the nightmare".
+**Sean Griffin:** \[07:37\] Yeah, so I guess the first thing is when I decided that this is what I wanted to do... Because it's funny, you call it "living the dream", and to a certain extent I kind of call it "living the nightmare".
 
 **Jerod Santo:** That's the great irony, isn't it?
 
@@ -104,7 +104,7 @@ It's interesting there, because you were very clearly stating at that time - and
 
 So I thought that was kind of funny, and perhaps written back when you were ready to go from consultant at ThoughtBot to maybe on the path that you're down today. So tell us, at Shopify - you got the job... Can you tell us what your official position is? You said it's more than just doing open source stuff. What all is involved in your role at Shopify?
 
-**Sean Griffin:** \[00:12:02.09\] Well, my official position is 10x hacker ninja guru.
+**Sean Griffin:** \[12:02\] Well, my official position is 10x hacker ninja guru.
 
 **Jerod Santo:** Oh, good.
 
@@ -124,7 +124,7 @@ I think we need people who are thinking about these things all the time, because
 
 It's interesting, because I've been finding it harder and harder as time goes on to convince people why they should upgrade to new Rails versions, because we just don't have as many killer features as we used to. But there's a lot of work that goes into each release, and I think a lot of the things that people are missing -- at Shopify I end up pairing with some people quite a bit on trickier test failures that they run into as part of upgrading Rails versions, and one of the ones that I've seen a lot recently was I changed how Dirty behaves in after\_save callbacks in ActiveRecord. Basically, if you ask if an attribute has changed inside an after\_save callback in 5.2, that's going to behave the same as if you had that code, rather than in a callback, if you actually just put that code directly after the call to save, so it behaves as if it was after save.
 
-\[00:16:01.19\] In 5.1 earlier, the way it works is we did a persistence, we would run the after\_save callbacks, and then we clear the dirty flags. In 5.2, the way that's gonna work is we do the persistence, then we clear the dirty flags, and then we run the callbacks. So it's a bunch of new methods that are also more clear on what question you're trying to ask.
+\[16:01\] In 5.1 earlier, the way it works is we did a persistence, we would run the after\_save callbacks, and then we clear the dirty flags. In 5.2, the way that's gonna work is we do the persistence, then we clear the dirty flags, and then we run the callbacks. So it's a bunch of new methods that are also more clear on what question you're trying to ask.
 
 The new methods are all named "Do you wanna know if there is a change that has yet to be saved, or do you wanna know if there is a change that was just persisted?"
 
@@ -158,7 +158,7 @@ So a lot of work goes into it. On the outside, when you're looking at the new fe
 
 **Adam Stacoviak:** And there's so much open source out there around Rails that's almost default for many Rails developers that's from ThoughtBot. So you would assume almost that ThoughtBot and management of ThoughtBot would see eye to eye with your future, Sean, and what you were trying to do; in hindsight, seeing this and this conversation has reminded me how prolific ThoughtBot is to Rails and open source, and... I don't know, I kind of have a question mark on that.
 
-**Sean Griffin:** \[00:20:12.03\] I don't wanna undersell their dedication to open source...
+**Sean Griffin:** \[20:12\] I don't wanna undersell their dedication to open source...
 
 **Adam Stacoviak:** Right, of course.
 
@@ -176,13 +176,13 @@ So a lot of work goes into it. On the outside, when you're looking at the new fe
 
 **Sean Griffin:** Yeah.
 
-**Break:** \[00:22:15.02\]
+**Break:** \[22:15\]
 
 **Jerod Santo:** Back to active storage now, because I've only read it in brief, but give us -- I think this is probably a big deal, in terms of like this is a flagship type of feature... Tell us a bit more about it, when it's coming and that kind of stuff.
 
 **Sean Griffin:** So it's coming to Rails 5.2, which as far as I know we haven't actually announced the date yet, but it's currently on Rails master. It's sort of the similar purpose to CarrierWave and Refile. I'm honestly not intimately familiar enough with either of those libraries or active storage to tell you specifically how it differs, other than generally, as with most things when they come into rails, API that kind of better suits what we see as the Rails way.
 
-\[00:24:01.02\] I think the one thing that it does much more upfront than any other solutions thus far is it has a big focus on making direct upload for servers like S3 much easier and more integrated, which is a big deal if you are expecting large file uploads and you're hosting on something like Heroku, where if your user takes more than 30 seconds to upload that file, you're screwed.
+\[24:01\] I think the one thing that it does much more upfront than any other solutions thus far is it has a big focus on making direct upload for servers like S3 much easier and more integrated, which is a big deal if you are expecting large file uploads and you're hosting on something like Heroku, where if your user takes more than 30 seconds to upload that file, you're screwed.
 
 Or actually, if the combined time for them to upload to your server and also for you to upload to S3 or otherwise transmit to your database or wherever else you're gonna store it - because you can't store it on a file system at the server...
 
@@ -198,7 +198,7 @@ One of the things I said on that episode was that I would love for there to be m
 
 And certainly, when I do just notice something that, regardless of Shopify or not, that just when I'm pairing with somebody, like "Oh, that's bad. We should fix that..." There's a certain benefit to just when you notice something during that sort of work to just be able to go and commit it. And then the other one is just having the resource available of a person who can answer questions that not many other people can, and can generally act as sort of a multiplier on the rest of the team.
 
-**Adam Stacoviak:** \[00:28:12.08\] You act as a liaison essentially too, answering questions in and around Rails to Shopify and the developers there.
+**Adam Stacoviak:** \[28:12\] You act as a liaison essentially too, answering questions in and around Rails to Shopify and the developers there.
 
 **Sean Griffin:** Yeah. And sometimes it's more beginner questions that other people could answer, and that's fine... There's also benefit to just having a flexible enough schedule to be able to spend as much time as people need answering questions, but every now and again there'll be a time where I'll be helping somebody debug something and we'll spend two or three hours on it, we'll figure it out, and it'll be this sort of thing where it would have taken them a day or two otherwise. Those are the days that I feel really good about my job.
 
@@ -218,7 +218,7 @@ With developers, I think at a certain point when so much of your infrastructure 
 
 **Jerod Santo:** I wonder if that's a metaphor that resonates with you guys, or if I'm just barking up the wrong tree.
 
-**Sean Griffin:** \[00:31:54.21\] No, it makes a lot of sense. To a certain extent, the reason I've tried to structure this position the way that it is for me is just because at the end of the day, if I'm working on the product, I'm not gonna be that much more effective at building a Rails app than any other developer is.
+**Sean Griffin:** \[31:54\] No, it makes a lot of sense. To a certain extent, the reason I've tried to structure this position the way that it is for me is just because at the end of the day, if I'm working on the product, I'm not gonna be that much more effective at building a Rails app than any other developer is.
 
 The majority of building a Rails app is boring, which is a good thing, but... I mean, not boring like "I don't wanna be doing it", but boring in that just about any developer is gonna be able to do an equally good job and take about the same amount of time. And I do think that there is a unique knowledge set that comes with just maintaining the framework that I wanna be able to apply as much as I can.
 
@@ -246,7 +246,7 @@ I think if more companies offered 20%-25% time for open source and also gave peo
 
 **Jerod Santo:** That's the safest way to answer that. Good answer.
 
-**Sean Griffin:** \[00:36:08.11\] That's my very political way of saying "No, but I'm gonna be more miserable doing anything else."
+**Sean Griffin:** \[36:08\] That's my very political way of saying "No, but I'm gonna be more miserable doing anything else."
 
 **Jerod Santo:** \[laughs\] Right.
 
@@ -286,7 +286,7 @@ I had inadvertently towards the end of my time at ThoughtBot become the 3D rende
 
 **Sean Griffin:** Basically, I wrote a 3D rendering engine; it turns out when you do one of those, there's a lot of 3D rendering engine contracts that come out of the weeds. And why I ended up having to write one is a story that'll take me ten minutes to tell, but basically out of necessity I ended up having to write one for a different project, at sort of the beginnings of WebGL being supported by browsers, and then the projects kept coming.
 
-\[00:40:10.16\] Anyway, so we're on this project that was C++, and it was for mobile, and because of the polycount requirements we couldn't take the overhead of a framework like Unity. So it was a kind of raw OpenGL engine. Rust had just gone 1.0 at this point in time, so for fun, on nights and weekends, I sort of ported it to Rust, just to get a feel for the language. And got sold on it if nothing else as a replacement for C++, because I had a segfault that was having a bear of a time tracking down, and this was like me just one-to-one, as close as I could porting the C++ code over. And this was not modern C++, this was a guy with a decent understanding of C trying to write C++, so not using templates in any meaningful way, certainly not using smart pointers the way I should have been...
+\[40:10\] Anyway, so we're on this project that was C++, and it was for mobile, and because of the polycount requirements we couldn't take the overhead of a framework like Unity. So it was a kind of raw OpenGL engine. Rust had just gone 1.0 at this point in time, so for fun, on nights and weekends, I sort of ported it to Rust, just to get a feel for the language. And got sold on it if nothing else as a replacement for C++, because I had a segfault that was having a bear of a time tracking down, and this was like me just one-to-one, as close as I could porting the C++ code over. And this was not modern C++, this was a guy with a decent understanding of C trying to write C++, so not using templates in any meaningful way, certainly not using smart pointers the way I should have been...
 
 So it was generally pretty easy to directly port to Rust, but then I finally figured out where the segfault was coming from, because it wouldn't compile. So I never shipped the Rust port, but just the act of porting it fixed a bug in my code. So I still \[unintelligible 00:41:23.13\] a replacement for C++ immediately there, but I don't generally write C++, because I'm very bad at it, so that wasn't terribly interesting... But I did realize how amazing its type system was as a part of that project.
 
@@ -310,7 +310,7 @@ I'm not gonna recap the whole talk; I don't know how long editing is, so it may 
 
 The example that everybody uses for this is singly linked lists, because that's really the only time you ever practically run into this. But in every example I've ever seen, you always have it be like it's a list of bytes specifically, because you don't wanna deal with generics, explaining this problem...
 
-\[00:44:15.04\] And I've always kind of hated that, because 1) not everybody knows or cares what a single linked list is, and 2) nobody's ever gonna be implementing a list of bytes.
+\[44:15\] And I've always kind of hated that, because 1) not everybody knows or cares what a single linked list is, and 2) nobody's ever gonna be implementing a list of bytes.
 
 I had this revelation when I was working on this talk. If I make it specifically a list of type car, I can call it list string, and number one, it becomes more tangible to people who don't know what singly linked lists are, and number two, I get to make fun of Haskell a lot during this talk. \[laughter\]
 
@@ -332,7 +332,7 @@ There were like three people in the audience who did Haskell as their full-time 
 
 **Sean Griffin:** She thought that one joke was funny, if nothing else. \[laughter\]
 
-**Break:** \[00:46:05.14\] to \[00:48:49.12\]
+**Break:** \[46:05\] to \[48:49\]
 
 **Jerod Santo:** You had mentioned that Diesel was an attempt to - I'm paraphrasing your words now - basically present Rust as a higher-level language...?
 
@@ -362,7 +362,7 @@ Go, for example, was originally presented to the world as a systems programming 
 
 **Sean Griffin:** Yeah... But I think that's telling, right? That the only reason I decided to actually take a look at it was as a replacement for C++. I was aware of it before it, I just never actually realized what it could do outside of "Oh yeah, you would use it for everything you would use C for."
 
-**Jerod Santo:** \[00:52:07.04\] Right. So you set out to see if it was good at such things as being an ORM, so you started building Diesel, and that was a while ago. Tell us where you got with that, where Diesel is at in its life... Just open up that a little bit for us.
+**Jerod Santo:** \[52:07\] Right. So you set out to see if it was good at such things as being an ORM, so you started building Diesel, and that was a while ago. Tell us where you got with that, where Diesel is at in its life... Just open up that a little bit for us.
 
 **Sean Griffin:** Yeah, so I shipped Diesel Thanksgiving Day 2015, because I was trying to avoid family... \[laughter\]
 
@@ -396,7 +396,7 @@ Ironically, as I've been going through this milestone, actually I've been findin
 
 So it wasn't so much to scratch an itch per se, because I didn't have an existing application in Rust that was missing a good database library. That said, good open source libraries are not built in a vacuum, so I very quickly realized I was gonna need an application. For me, that application was Crates.io, which was Rust's version of RubyGems.org, which does some surprisingly complex interactions with the database.
 
-**Jerod Santo:** \[00:56:09.13\] See, I would assume that that's relatively straightforward.
+**Jerod Santo:** \[56:09\] See, I would assume that that's relatively straightforward.
 
 **Sean Griffin:** You would think, but they're doing some interesting things in the database that a lot of people would have otherwise done in their native language. For example, one of the things that Diesel supports as a result of Crates.io is the ability to use arbitrary user-defined SQL functions in the query builder. That was because Crates.io has a function called canon crate name which is just where they canonicalize the name, replacing underscores and hyphens and changing the casing, and they do that in the database.
 

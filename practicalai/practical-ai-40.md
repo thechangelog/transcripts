@@ -14,7 +14,7 @@ About four years ago my time in the air force came to a natural end and I came b
 
 Anyway, so as you started, were you already interested in deep learning, reinforcement learning when you were in the air force, or did that come along some time thereafter?
 
-**Adam Stooke:** \[00:04:21.21\] No, this came along after, actually; only once I returned to graduate school. When I did get out of my time in the air force, it was just kind of by accident; it became the first exposure to me to a lot of programming and modeling and simulation in order to make informed decisions about technologies that we were gonna invest in and try to fly in space.
+**Adam Stooke:** \[04:21\] No, this came along after, actually; only once I returned to graduate school. When I did get out of my time in the air force, it was just kind of by accident; it became the first exposure to me to a lot of programming and modeling and simulation in order to make informed decisions about technologies that we were gonna invest in and try to fly in space.
 
 **Chris Benson:** What kind of tools were you using while you were doing that?
 
@@ -48,7 +48,7 @@ I found the robotics work happening kind of across the street on the campus ther
 
 The key thing is that you get a signal back from the task; that's what we call a reward. When you receive a positive reward, it says "Oh, you did a good thing, so do that more." When you receive a negative reward, it says "Oh, you did a bad thing, so do that less." Based on queuing off of those signals, through trial and error, gradually over time...
 
-**Chris Benson:** \[00:08:18.12\] You make an adjustment...
+**Chris Benson:** \[08:18\] You make an adjustment...
 
 **Adam Stooke:** ...you make an adjustment, you try again, and then eventually you can learn to do some pretty sophisticated tasks through this. So there's a whole mathematical formalism built up around this, that we don't necessarily need to go into the depths of all the terms with that... But it's pretty well established, and the more recent development is deep reinforcement learning, which simply refers to the application of deep learning to reinforcement learning. Deep learning meaning, for all practical purposes, using deep neural networks.
 
@@ -76,7 +76,7 @@ The key thing is that you get a signal back from the task; that's what we call a
 
 **Adam Stooke:** And it really is just a springboard for lots of more sophisticated and more interesting games, for instance, to come after that.
 
-**Chris Benson:** \[00:12:02.20\] So obviously it's been a while since the Atari news that came out in Nature, and stuff... Where did that take you, at that point? What captured your interest? What did you choose to do? What activities in terms of research did you want to engage in? What was that journey like? A lot of us out here who are very interested may not have had that experience, and I'm just very curious about how that evolved to where you are today, with the talks that you're giving at this point.
+**Chris Benson:** \[12:02\] So obviously it's been a while since the Atari news that came out in Nature, and stuff... Where did that take you, at that point? What captured your interest? What did you choose to do? What activities in terms of research did you want to engage in? What was that journey like? A lot of us out here who are very interested may not have had that experience, and I'm just very curious about how that evolved to where you are today, with the talks that you're giving at this point.
 
 **Adam Stooke:** Yeah, it actually ended up in combination with a certain course that I was taking on parallel computing. It actually led me down the path of scaling up implementations of deep reinforcement learning. So taking an algorithm - okay, this algorithm is shown to work, and here's how we run it. Maybe we're running it on a small computer, and it takes five or ten days to do one learning run and to see the thing go from losing every point in pong to winning every point in pong... It's like "Okay, this is exciting. This is working, and we've got something real to go on here. Now let's refine it and scale it up and adjust it to make much better use of the computers that are available today." Long story short, that has a lot to do with why I'm here at GTC.
 
@@ -98,7 +98,7 @@ The key thing is that you get a signal back from the task; that's what we call a
 
 **Chris Benson:** One of the things I was thinking as you were taking me through this - what were you trying to achieve with some of these projects? As you're doing these experiments and carrying it forward, what was your end goal in mind? What were you trying to get to?
 
-**Adam Stooke:** \[00:16:03.16\] The main project that I was working on over this period was really just -- man, we had a need for speed. We were just gonna explore these deep reinforcement learning algorithms and see how fast can we learn one Atari game, and see what kind of records we can set and otherwise blow out of the water. So it turns out that a lot of the same techniques for parallelism that were useful on the CPU setting - the same principles applied in the GPU setting, for using multiple GPUs inside of one computer to run the algorithm.
+**Adam Stooke:** \[16:03\] The main project that I was working on over this period was really just -- man, we had a need for speed. We were just gonna explore these deep reinforcement learning algorithms and see how fast can we learn one Atari game, and see what kind of records we can set and otherwise blow out of the water. So it turns out that a lot of the same techniques for parallelism that were useful on the CPU setting - the same principles applied in the GPU setting, for using multiple GPUs inside of one computer to run the algorithm.
 
 At about the same time that I was setting down that path anyway, we were lucky enough to have NVIDIA come by and donate a DGX-1 as part of the university research support.
 
@@ -134,7 +134,7 @@ At about the same time that I was setting down that path anyway, we were lucky e
 
 **Adam Stooke:** Looking back on it - I hadn't really thought about this before, but it was just incredibly fortunate timing... Because I was already on this project, I had already been tinkering around with the Knights Landing for some time, and was ready to move on, and move to GPUs. So the timing couldn't have been better when this came in.
 
-**Chris Benson:** \[00:20:09.04\] That sounds fantastic. As you were making this transition... So you now have this DGX-1 that's been gifted to you, and they're saying "Go do stuff with it" - what's going through your head? What kind of projects are you thinking about? You're now into deep reinforcement learning I assume, at this point, and you have the power to drive that forward... What were you thinking and what kinds of projects have you taken on over the last couple of years to take advantage of that?
+**Chris Benson:** \[20:09\] That sounds fantastic. As you were making this transition... So you now have this DGX-1 that's been gifted to you, and they're saying "Go do stuff with it" - what's going through your head? What kind of projects are you thinking about? You're now into deep reinforcement learning I assume, at this point, and you have the power to drive that forward... What were you thinking and what kinds of projects have you taken on over the last couple of years to take advantage of that?
 
 **Adam Stooke:** Again, a lot of the work at the beginning was just scaling out the reinforcement learning itself, taking existing algorithms and discovering that they can be scaled up to run on the entire system, so that we could use all eight GPUs and all 40 CPU cores within a DGX-1 to learn a single Atari game, and get basically linear speed-ups with that. So instead of taking 10 or 15 hours to master pong, we're getting it to like four minutes or so...
 
@@ -150,13 +150,13 @@ At about the same time that I was setting down that path anyway, we were lucky e
 
 **Adam Stooke:** Sure can. Basically, you're gonna have some way that you want to change the behavior of the neural net, which is this decision-making function inside your reinforcement learning agent, and you're going to change it based on experience that you have in the game. But instead of making updates on all the possible experience that you could gather, you'll gather a little bit of experience at a time, and then make a small adjustment; then gather a little bit of experience at a time, and make a small adjustment.
 
-**Break:** \[00:22:24.11\]
+**Break:** \[22:24\]
 
 **Chris Benson:** Okay, so having defined Stochastic Gradient Descent, take us forward on that.
 
 **Adam Stooke:** The next step into making Stochastic Gradient Descent run more efficiently on a GPU, which is itself a highly parallel computing platform - one way to do this is to increase the training batch size, so increase the amount of experience that you gather and use together each time you're gonna make a slight adjustment to this decision-making function. That gives you full utilization of this GPU, which is kind of like a fat and wide computing pipe... And if you wanna make full use of 8 GPUs, then you need to have an eight times bigger training batch size in your algorithm, because you need to fill up all eight of those GPUs in order to run them efficiently.
 
-\[00:24:27.00\] So it was a pretty interesting finding that we found that we were able to scale up the training batch size, even in a game as simple as pong, all the way to the point where we're making efficient use of eight GPUs in the full machine, and we're getting getting good linear scaling, where you're learning the game basically eight times as fast when using GPUs.
+\[24:27\] So it was a pretty interesting finding that we found that we were able to scale up the training batch size, even in a game as simple as pong, all the way to the point where we're making efficient use of eight GPUs in the full machine, and we're getting getting good linear scaling, where you're learning the game basically eight times as fast when using GPUs.
 
 **Chris Benson:** I know NVIDIA is working on some of the same problems, as they're learning to get the parallelism of the capacity out there, so that you can take advantage of all the GPUs. Are you still using the code that you wrote to handle that, or have you switched over to some of the stuff that NVIDIA was producing? I had the same experience working at a prior employer, where some of the things that we needed to do was out ahead of any release, so we had a similar problem... Have you just stuck with the code that you wrote to accomplish that, or...?
 
@@ -176,7 +176,7 @@ So far, the new projects we've been running -- it's interesting, you end up runn
 
 Tell us a little bit more about Deep Mind and OpenAI, and how that has influenced you.
 
-**Adam Stooke:** \[00:28:09.19\] Yeah, sure. I was fortunate enough to do a research internship at deep mind over the last fall, so I had some first-hand exposure to some of their techniques and their working methods, and such...
+**Adam Stooke:** \[28:09\] Yeah, sure. I was fortunate enough to do a research internship at deep mind over the last fall, so I had some first-hand exposure to some of their techniques and their working methods, and such...
 
 **Chris Benson:** Very cool.
 
@@ -218,7 +218,7 @@ Tell us a little bit more about Deep Mind and OpenAI, and how that has influence
 
 **Adam Stooke:** We're learning to play the games better to develop reinforcement learning maybe, for other things. I think another really exciting result that came out recently is in job scheduling, which is like managing paralel computing resources. I'll give a shout-out to another group, \[unintelligible 00:31:57.20\] from MIT, as the first author on a paper that came out in the fall, to do with reinforcement learning for job scheduling on data clusters, under the Apache Spark setup.
 
-**Chris Benson:** \[00:32:14.29\] We'll include a link to that in the show notes as well, for people to go reference.
+**Chris Benson:** \[32:14\] We'll include a link to that in the show notes as well, for people to go reference.
 
 **Adam Stooke:** Okay, great. Yeah, this is really exciting work, to see reinforcement learning applied to a real-world problem like this, scheduling hundreds or thousands of CPUs, basically, under diverse workloads from multiple users. They did a really nice job of laying out, "Okay, here's a couple of heuristic job scheduling algorithms that you might have for deciding which computing tasks need to run on which CPU, and when."
 
@@ -242,7 +242,7 @@ I think definitely robotics is a very ripe field for application. Obviously, the
 
 **Adam Stooke:** I think one possible way to approach this taking on a new field like this that I think could be productive is to take the time to practice it and do it yourself. There are starting to be more and more implementations of these deep reinforcement learning algorithms available out there on the internet. GitHub, for instance, I'm sure is full of them. I just released the code for accel\_rl; my project for scaling up on the DGX-1 is now out on GitHub...
 
-**Chris Benson:** \[00:36:23.09\] And of course, we'll add a link to that into the show notes there.
+**Chris Benson:** \[36:23\] And of course, we'll add a link to that into the show notes there.
 
 **Adam Stooke:** Okay. So there's one such example... But really, taking the time to -- okay, read off of those, but implement it yourself; make yourself rewrite it from scratch, and run it, and get all the way to the point where you're recreating the learning curve that is published in the literature... Because a lot of what happens with this work - there's so many programming concepts that are not too difficult to understand mainly and get in place, but there can be lots of little bugs, and lots of little gotchas, and maybe you didn't this hyperparameter just right, or maybe there's a detail that's a little bit obscured in the paper and maybe isn't revealed as clearly as could have been, so you need to go back and reference someone else's implementation to say "Oh, that number needs to be 0.25, instead of 1.25", and suddenly it works now. "Oh, this is new!" So make yourself go through all the stages, basically from scratch, to reproducing the learning curve that you see in the literature. Then you'll know that you're doing the full stack.
 

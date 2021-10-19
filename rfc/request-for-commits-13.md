@@ -6,7 +6,7 @@
 
 **Todd Gamblin:** Lawrence Livermore is one of three labs in the National Nuclear Security Agency. It's part of the DOE, and we're responsible for a whole lot of different national security missions. That includes things like nuclear non-proliferation, making sure that people don't sell nuclear materials... We're also responsible for the U.S. stockpile, making sure that it remains viable, and then we do work on a lot of just basic research projects. We do some climate simulation, we have people working on that, we're part of the -- I don't know if you remember Obama's Cancer Moonshot, we have people working on that initiative - there's a lot of interesting data analysis and machine learning there - and just general computation.
 
-\[00:03:55.26\] I think all sorts of missions at the Laboratory are based on computing and our Livermore Computing Center, which is where all the different clusters are that we run. I work both with the research organization and with the computing center, and also with the code teams, who are from all different parts of the Lab.
+\[03:55\] I think all sorts of missions at the Laboratory are based on computing and our Livermore Computing Center, which is where all the different clusters are that we run. I work both with the research organization and with the computing center, and also with the code teams, who are from all different parts of the Lab.
 
 **Nadia Eghbal:** So you play with nuclear weapons all day?
 
@@ -16,7 +16,7 @@ In the research role, what I do is I work with a lot of students in academia, I 
 
 **Nadia Eghbal:** Cool.
 
-**Mikeal Rogers:** \[00:05:52.97\] So in terms of like your team and everything... Is this a bunch of people in the same physical location? I think when people hear of a lab, they're thinking like some place with a giant hadron collider, or something... Is this institution slightly virtualized, as well? You mentioned you're working with different students, and stuff like that - are they all on-site in the same place, or is the institution a little bit more virtualized?
+**Mikeal Rogers:** \[05:52\] So in terms of like your team and everything... Is this a bunch of people in the same physical location? I think when people hear of a lab, they're thinking like some place with a giant hadron collider, or something... Is this institution slightly virtualized, as well? You mentioned you're working with different students, and stuff like that - are they all on-site in the same place, or is the institution a little bit more virtualized?
 
 **Todd Gamblin:** I would say it's both. Livermore itself is a one square mile laboratory in Livermore, California; it's like an hour from San Francisco. We do have a giant laser here... We have the National Ignition Facility, which is the world's largest and highest energy laser; basically, that's like 192 beams that focus on something smaller than a pea and try to implode it. That's a fusion experiment. Some of the simulations are simulating that, so we sort of iterate with them.
 
@@ -26,7 +26,7 @@ We also collaborate across the DOE and with a whole lot of universities. I have 
 
 To some extent they're similar, because they have large physics experiments on their sites too, and all those big labs have big computing centers, but... We travel around the different labs and also to conferences and do things like present papers... So it's a fairly diverse job, working for the DOE.
 
-\[00:08:10.26\] I like it a lot because I'm not always working with programmers or computer scientists, I also get to talk to people who are doing physical sciences and other stuff. It's a pretty cool environment from that perspective.
+\[08:10\] I like it a lot because I'm not always working with programmers or computer scientists, I also get to talk to people who are doing physical sciences and other stuff. It's a pretty cool environment from that perspective.
 
 **Nadia Eghbal:** Can you talk a little bit about your lab's history with open source? I think you've mentioned in previous conversations that your lab has open-sourced a bunch of other types of projects before, and I was wondering also how did you personally get into open source in your current role?
 
@@ -44,7 +44,7 @@ ZFS I think is one of the major ones now, and then Slurm is used all over the pl
 
 **Todd Gamblin:** Other labs deploy Slurm, and actually a lot of university computing centers will run that. Our Linux clusters all run Slurm; even our IBM Blue Gene machine - which is like a million and a half cores - runs Slurm, and other national labs also run Slurm on their systems.
 
-**Nadia Eghbal:** \[00:11:09.03\] The name makes me laugh every time.
+**Nadia Eghbal:** \[11:09\] The name makes me laugh every time.
 
 **Todd Gamblin:** Yeah, I think it's actually from Futurama... So yeah, we have lots of interestingly named tools. And then ZFS I think is used in the industry. I'm not a file systems expert, but I know that a lot of companies have started using ZFS on Linux; it's fairly widely used all over the place.
 
@@ -52,7 +52,7 @@ We ported ZFS because our interest is in -- so we also have developers who work 
 
 **Nadia Eghbal:** Was Spack the first project that you had open-sourced at Lawrence Livermore yourself?
 
-**Todd Gamblin:** \[00:12:03.00\] It wasn't, actually. In addition to Spack, I've had a bunch of different research projects. For my PhD I worked on a scalable clustering algorithm. That's open source, it's called Muster and it's on GitHub, too. That was sort of for finding nodes in a parallel application that very similar performance characteristics.
+**Todd Gamblin:** \[12:03\] It wasn't, actually. In addition to Spack, I've had a bunch of different research projects. For my PhD I worked on a scalable clustering algorithm. That's open source, it's called Muster and it's on GitHub, too. That was sort of for finding nodes in a parallel application that very similar performance characteristics.
 
 I don't think that really caught on... It was sort of a research project; it wasn't generally useful, like a package manager is. We also had a project here called -- well, originally I wanted to call it ClownCar, but that was deemed not serious enough, so we renamed it to CRAM, which stands for ClownCar Renamed to Appease Management. \[laughter\]
 
@@ -74,7 +74,7 @@ An open source nuclear weapon simulation sounds like a really bad idea, but some
 
 So yeah, there's a DOE document that says we should make this software open source from like 2004, and it's interesting because -- you know, that's something we're struggling with now... We do have an IP organization as part of the Laboratory. Livermore has had some successful commercial software come out of some of our projects. Dyna is a physics simulation package that a lot of auto manufacturers use to model things like crashes, and that's been very popular in the industry, and it was originally a Livermore product and I think we've made a significant number of royalties out of it.
 
-\[00:16:20.02\] But other projects, like Spack or a lot of this infrastructure stuff - I don't think we're gonna be able to sell that, and I don't necessarily think that we should, because we're in sort of a niche here. There aren't that many sites that do large-scale high-performance computing, and I think we have the same motivation that a lot of these larger industry open source projects do. We wanna share resources among the different computing sites, and try to develop a lot of the infrastructure together, instead of doing something siloed at different laboratories and developing it independently, because I think it's just redundant effort at that point.
+\[16:20\] But other projects, like Spack or a lot of this infrastructure stuff - I don't think we're gonna be able to sell that, and I don't necessarily think that we should, because we're in sort of a niche here. There aren't that many sites that do large-scale high-performance computing, and I think we have the same motivation that a lot of these larger industry open source projects do. We wanna share resources among the different computing sites, and try to develop a lot of the infrastructure together, instead of doing something siloed at different laboratories and developing it independently, because I think it's just redundant effort at that point.
 
 **Nadia Eghbal:** So what's it like when you think you have something that you might wanna open source? What does that process look like for your Lab? Do you have to talk to the IP Office?
 
@@ -90,11 +90,11 @@ I was on a working group here that was trying to come up with -- I guess it star
 
 **Adam Stacoviak:** After the break, Nadia and Mikeal talk with Todd about the back-story of Spack and where it's going. We talked about Spack's growing community, how they're finding contributors, especially in a government context. We also talked through the details of Spack becoming a NumFOCUS affiliated project and what that means for it. All this and more after the break.
 
-**Break:** \[00:20:15.21\]
+**Break:** \[20:15\]
 
 **Nadia Eghbal:** Todd, you've mentioned Spack a couple of times as an open source project that you've created while at Lawrence Livermore... Could you explain a little bit about what Spack is for people that are not high performance computing people, and what inspired you to create it.
 
-**Todd Gamblin:**\[00:21:47.50\] I have an easier time explaining Spack to people who are not high-performance computing people than to people who are high-performance computing people, in the sense that like I think people who are not high-performance computing people are familiar with package managers... Spack is a package manager; it's not a binary package manager, it builds things from source, and it's for running on these large machines that we care about. That's anything from like a Cray machine or like an IBM Blue Gene, or just a Linux cluster. We run lots of different things like that.
+**Todd Gamblin:**\[21:47\] I have an easier time explaining Spack to people who are not high-performance computing people than to people who are high-performance computing people, in the sense that like I think people who are not high-performance computing people are familiar with package managers... Spack is a package manager; it's not a binary package manager, it builds things from source, and it's for running on these large machines that we care about. That's anything from like a Cray machine or like an IBM Blue Gene, or just a Linux cluster. We run lots of different things like that.
 
 I think the reason that I built my own package manager is because the way that we distribute software in HPC is kind of different from what you would expect from most software products. People actually build their code from source on the supercomputers, typically because they wanna optimize it for hardware, but also because that's kind of how scientists put their code out there. If you download a simulation code, it comes as a tarball and it probably has dependencies on maybe some math libraries or a numerical solver, or something... And these can get really complicated.
 
@@ -104,7 +104,7 @@ But yeah, so one simulation could be 47, 70, maybe 100 libraries in C, C++, Fort
 
 And the other thing that we care about is exotic compilers. So we don't just build with GCC, we build with GCC, Clang, Intel compiler, Portland Group compiler, and then maybe the Cray compiler on the Cray machines... Lots of different ways to optimize your code. And there really wasn't a good package manager for experimenting with all that and swapping compilers and compiler flags, and for building lots of different versions of things.
 
-\[00:24:05.00\] Another problem with the software ecosystem here is that people will distribute their code, and maybe it relies on a very specific version of some research library, because maybe that research library is published like by a university, maybe they don't have the greatest release cycle set up, or maybe they don't even do releases. Maybe they just publish to the head of their repo. It's hard to rely on some of those things, and so we have to be specific about a specific commit, maybe a specific revision, or even like a specific version where something isn't broken. And you may get two packages that depend on two different versions of something. So we needed something to support all that.
+\[24:05\] Another problem with the software ecosystem here is that people will distribute their code, and maybe it relies on a very specific version of some research library, because maybe that research library is published like by a university, maybe they don't have the greatest release cycle set up, or maybe they don't even do releases. Maybe they just publish to the head of their repo. It's hard to rely on some of those things, and so we have to be specific about a specific commit, maybe a specific revision, or even like a specific version where something isn't broken. And you may get two packages that depend on two different versions of something. So we needed something to support all that.
 
 Essentially, Spack is a tool to build software the way that I was building it, where I would have lots and lots of different versions of things, and essentially any dependency graph that you make is a new version, so we assign a hash to that. And that's a lot like -- if people are familiar with Nix or Guix or some of these, they call them "functional" package managers... It's a lot like that, but we have the added requirement that we wanna rely on the vendor libraries. So when you get a super computer, it comes with an optimized version of MPI (message passing interface); that's what people use to communicate among the processes in their application. So we wanna be able to build packages that actually rely on vendor products, as well as things that we can build from open source. Putting all that together led to Spack.
 
@@ -122,7 +122,7 @@ Now we're starting to see more sharing in the community, and also this sort of p
 
 We have people who are really concerned with performance portability, which is another good reason to package your software and to use libraries that work across different architectures... For a long time - since like the '90s - if you could run on a Linux cluster you were probably okay and the processor architecture on a Cray maybe didn't look so different from what was on a Linux machine. But now, if you wanna get a really powerful system, you might need to use GPUs, you might need to use like a Xeon Phi, which is like a many-core from Intel... Or maybe you wanna run on ARM, or some other exotic type of architecture, and you have to take the same parallel code and get it to run into those models.
 
-\[00:28:14.16\] A GPU is very different from a Xeon Phi in terms of how you would parallelize code for it, and it's very different from your multicore processor. So I think people have started to realize that they have to rely on libraries for that. They really wanna separate that concern out and give it to someone else who works on maybe like the math library, or some abstraction layer for their loops, whereas historically the tuning was not so different across the different architectures that you had to outsource the task to someone else; the teams could get by by writing parallel code for their own system.
+\[28:14\] A GPU is very different from a Xeon Phi in terms of how you would parallelize code for it, and it's very different from your multicore processor. So I think people have started to realize that they have to rely on libraries for that. They really wanna separate that concern out and give it to someone else who works on maybe like the math library, or some abstraction layer for their loops, whereas historically the tuning was not so different across the different architectures that you had to outsource the task to someone else; the teams could get by by writing parallel code for their own system.
 
 **Nadia Eghbal:** So how does that play into thinking about getting contributors for an open source project like Spack? Because I imagine -- I noticed that Spack has a lot of contributors, and there are only so many people that are using Spack in the first place, or your total audience is smaller... Do you feel like you kind of know everyone who could contribute to it, or are there people out there that you think should be contributing but aren't aware of it?
 
@@ -142,7 +142,7 @@ So yeah, we targeted the HPC centers to try to get them to work together initial
 
 **Todd Gamblin:** I don't know that we're necessarily better or worse than the other labs... I think there's strengths and weaknesses in terms of the process. There is no standard process for releasing open source software; it kind of varies from lab to lab. In terms of actually having popular research software, I think -- Argonne has worked on MPICH for a really long time. MPICH is like the most popular -- well, I don't know if it's the most popular, because there's Open MPI now, but it's a major MPI implementation... So they've maintained that for years and they've actually got lots of funding to do that (or at least some funding). And then they also have developed math libraries like PETSc, Oak Ridge has developed IO libraries...
 
-\[00:32:19.25\] I think in large part -- I mean, all the different laboratories have had some large open source project that they've put out there. I think DOE has had an open source software ecosystem for a while. I don't know that they've always had licenses or thought about the licensing aspect of these things, or thought about building communities around them. I think a lot of them are sort of maybe confined to a team at a particular laboratory who maintains the tool.
+\[32:19\] I think in large part -- I mean, all the different laboratories have had some large open source project that they've put out there. I think DOE has had an open source software ecosystem for a while. I don't know that they've always had licenses or thought about the licensing aspect of these things, or thought about building communities around them. I think a lot of them are sort of maybe confined to a team at a particular laboratory who maintains the tool.
 
 Accepting pull requests wasn't really easy before GitHub; even setting up infrastructure outside your laboratory could be difficult. A lot of Livermore teams have had trouble setting up all the hosting infrastructure that you need to host an actual project with collaboration tools, Subversion, things like that. So we've had people actually host their projects outside the laboratory to make it easier to get the hosting done for the open source communities. Not all the teams were willing to do that...
 
@@ -160,7 +160,7 @@ I wouldn't say though that historically the labs have been against that, I just 
 
 **Nadia Eghbal:** In terms of where you decide to start going with Spack, I noticed that Spack joined NumFOCUS as an affiliated project... For anyone who's listening, NumFOCUS is an umbrella organization for a lot of scientific and academic related open source projects, so I was wondering why did you decide to join NumFOCUS, what does that mean to you and what was the process like?
 
-**Todd Gamblin:** \[00:36:25.23\] I don't know, it was kind kind of on a whim. I went to the NumFOCUS web page and I looked at their supported projects and their affiliated projects. I mean, I like all the stuff that NumFOCUS is doing; they're doing all kinds of awesome things, especially for the Python community, and R...
+**Todd Gamblin:** \[36:25\] I don't know, it was kind kind of on a whim. I went to the NumFOCUS web page and I looked at their supported projects and their affiliated projects. I mean, I like all the stuff that NumFOCUS is doing; they're doing all kinds of awesome things, especially for the Python community, and R...
 
 I think that was right after Fernando Perez, the Jupiter guy (he's at Berkeley Lab); he had come out and given a talk here. So I don't know, I was inspired to go and do it. They had a list of requirements and they were like "You can be a NumFOCUS affiliated project if you this, this and this", so I wrote them an email and said "Okay, here's why Spack fits all these criteria." I think one of them was you had to have a community of contributors, you had to have more than three core developers, or something else, and you had to make significant use of their supported projects... So I just wrote an email that says "We do that. We package like 12 out of 18 of them, and we have a community... So what do you think? Could Spack be an affiliated project?"
 
@@ -178,7 +178,7 @@ All you really had to do with Spack is clone it. It doesn't require you to be ab
 
 I think that has helped get the regular hackers to start using it. That, and we specifically chose Python because Python is a popular language for scientific computing. I should say that Spack is not the first attempt to build an HPC package manager, there have been others. Oak Ridge had an internal package manager that was based on Homebrew, but it was written in Ruby, and they had a lot of trouble getting people in this community to write packages, because nobody wanted to learn Ruby.
 
-\[00:40:07.15\] Actually, there's another popular package manager that's written in Python from HPC at the University of Ghent (that's in Belgium). It's called EasyBuild. They've done really good things for HPC packaging, but their tool is focused mostly on (I'd say) administrators of clusters, and it doesn't make it easy to say "Do things in your home directory." You can, but I think it's not the model that people are used to, where they just say "Install this thing." They're mostly focused on being like an installation and build tool, and they don't have a lot of the package management features, like uninstalling software and managing dependencies after the packages are installed, that we tried to put in to make things easy.
+\[40:07\] Actually, there's another popular package manager that's written in Python from HPC at the University of Ghent (that's in Belgium). It's called EasyBuild. They've done really good things for HPC packaging, but their tool is focused mostly on (I'd say) administrators of clusters, and it doesn't make it easy to say "Do things in your home directory." You can, but I think it's not the model that people are used to, where they just say "Install this thing." They're mostly focused on being like an installation and build tool, and they don't have a lot of the package management features, like uninstalling software and managing dependencies after the packages are installed, that we tried to put in to make things easy.
 
 I was kind of modeling the Spack contribution model on Homebrew, because that seemed like a successful thing, and it's actually something that people in this community use on their Macs, and it seemed like they did a really good job of making it easy to contribute. So to a large extent, I think it was because we made it easy for people to run it in their home directory that they've got us the casual contributors.
 
@@ -188,7 +188,7 @@ I was kind of modeling the Spack contribution model on Homebrew, because that se
 
 **Mikeal Rogers:** Coming up, we get into funding for Spack and how Todd keeps this thing alive, what it's like working on a project from grant to grant versus ongoing programmatic support, and the challenges for open source in government, especially the Department of Energy. Stay tuned.
 
-**Break:** \[00:41:54.27\]
+**Break:** \[41:54\]
 
 **Mikeal Rogers:** So let's dig into it a little bit... Tell us a little bit about how you get funding for your particular projects. You mentioned a couple projects already that get you a fair amount of funding... How does the funding flow into your project specifically?
 
@@ -196,7 +196,7 @@ I was kind of modeling the Spack contribution model on Homebrew, because that se
 
 There's lots of research funding in government and in DOE. We have an internal funding source, so for all the grants that we get at Livermore, we tax them and we have this thing called LDRD - I think a lot of the other labs do, too; it's called Lab-Directed Research and Development... So if you are doing research, you can propose a project there - that's not necessarily for development though, so I think that's one of the complications.
 
-\[00:44:08.26\] There's competitive funding grants from the Office of Science, so that's another part of DOE; it's outside the NNSA, but we can apply for funding from there. In fact, a lot of our basic science research is funded by that.
+\[44:08\] There's competitive funding grants from the Office of Science, so that's another part of DOE; it's outside the NNSA, but we can apply for funding from there. In fact, a lot of our basic science research is funded by that.
 
 Then internally we have some funding pots that are discretionary... Basically, the management of the computational organization LLNL has discretionary money that you can go after. I think it's a more informal proposal process, but that's for things like hardening and maybe porting something to a new platform... Things like that. Sort of more mundane things, not way out there research. Those are the main ways that people get funded.
 
@@ -222,7 +222,7 @@ Usually, the exit plan for a lot of projects here is get programmatic funding fo
 
 **Todd Gamblin:** Right, and I think that's actually -- I don't think people think about maintenance as much as they should. I think people think that once you do the research, that it's magic, or something, and the software continues to work because you've already done the development for it... But there's a ton of maintenance that we have to do, so we're pretty conscious of the maintenance cost for things.
 
-\[00:48:07.23\] Depending on the part of the organization it is, the compute center here is very conscious of the maintenance costs. I don't necessarily think that the people who are running research programs are always aware of that, or thinking about how that thing might take off after the research program. I mean, that's not 100% true because there are programs...
+\[48:07\] Depending on the part of the organization it is, the compute center here is very conscious of the maintenance costs. I don't necessarily think that the people who are running research programs are always aware of that, or thinking about how that thing might take off after the research program. I mean, that's not 100% true because there are programs...
 
 Tech Transfer is something that we care a lot about. We're supposed to make products viable for industry, and people like it when you do that... But on the software side, I think that -- I think one thing is that the labs... Like, we're fundamentally a science organization, right? We have a science mission, and we have national security missions that we support, so those are the main focuses of the lab. Software is something that supports those missions, but I don't necessarily think that we think about software maintenance in the same way that a software company or a dotcom would. I don't think there's as much consciousness of the ongoing maintenance costs and of what it takes to support software long-term.
 
@@ -242,7 +242,7 @@ That's actually something that I've tried to point out with Spack - I have this 
 
 **Nadia Eghbal:** I'm wondering, for getting contributions specifically... That must be influenced by academic cycles as well, right? So if you have people that are contributing while they're doing their post-doc, and afterwards they stop - is that a thing?
 
-**Todd Gamblin:** \[00:52:04.27\] Yeah, that's a really good point. I think that might be another aspect of the research funding structure that maybe doesn't work so well as the long-term sustainability strategy. In research you're really encouraged to be a PI (principle investigator) and to start new things, so to advance your career in research, you need to publish, you need to run things, you need to get grants, you need to start new projects, but maintaining the old thing doesn't get you additional research kudos necessarily.
+**Todd Gamblin:** \[52:04\] Yeah, that's a really good point. I think that might be another aspect of the research funding structure that maybe doesn't work so well as the long-term sustainability strategy. In research you're really encouraged to be a PI (principle investigator) and to start new things, so to advance your career in research, you need to publish, you need to run things, you need to get grants, you need to start new projects, but maintaining the old thing doesn't get you additional research kudos necessarily.
 
 I think some projects have managed to make it do that, projects that are widely used... I mentioned the ROSE compiler here. They've published tons of papers, and they always have new collaboration going on some piece of their compiler infrastructure. But there's only certain products that can do that.
 
@@ -261,7 +261,7 @@ I'm also the lead on a software productivity project - I'm the Livermore lead on
 
 That involves things like putting training out there, familiarizing scientists and some of these computational scientists who develop the applications with how to build communities and how to write documentation, how to use source control well, how to have a release cycle, things like that.
 
-\[00:56:12.29\] I think it's kind of new territory in a lot of ways, because I don't think we've had a coordinated effort to build a software stack quite as large, so one of the things we've been talking about lately is "How do we coordinate releases of 15 applications in 80 different software projects?" That's not easy. And "Do we need a coordinated release cycle, or should we teach teams to release things on their own pace?" Those are things we're debating here.
+\[56:12\] I think it's kind of new territory in a lot of ways, because I don't think we've had a coordinated effort to build a software stack quite as large, so one of the things we've been talking about lately is "How do we coordinate releases of 15 applications in 80 different software projects?" That's not easy. And "Do we need a coordinated release cycle, or should we teach teams to release things on their own pace?" Those are things we're debating here.
 
 **Nadia Eghbal:** And just to clarify, that is an open source software stack...
 

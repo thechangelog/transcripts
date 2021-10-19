@@ -12,7 +12,7 @@
 
 **Stephen Augustus:** Fair... \[laughs\] I think that's the part that makes it fun... Not so much the timezone shifts for a lot of people. We try not to do the MC-ing recorded, because it allows us to kind of react to the day and weave in stories from people who are experiencing KubeCon, maybe even for the first time...
 
-**Gerhard Lazu:** \[00:04:24.05\] Yeah, that's right. It makes a big difference. I know it's hard, and I've seen it... But you've done such an amazing job. So if this is like that, or if this was the way it was, considering all the things, how is Los Angeles going to be? I'm looking forward to that.
+**Gerhard Lazu:** \[04:24\] Yeah, that's right. It makes a big difference. I know it's hard, and I've seen it... But you've done such an amazing job. So if this is like that, or if this was the way it was, considering all the things, how is Los Angeles going to be? I'm looking forward to that.
 
 **Constance Caramanolis:** Los Angeles - we hope there's gonna be an in-person... \[unintelligible 00:04:40.25\] we hope the in-person part is gonna happen. So if the in-person part happens, we're kind of expecting it to be smaller than other North Americas, and also EU, partially, because we don't know what travel restrictions are, and we don't know \[unintelligible 00:04:55.18\] But we have some fun ideas... I come up with a lot of like -- you know, like the tinfoil hat; I come up with a lot of those ideas in terms of spicing things up, and so I have an idea for what we would do if there's an in-person component for the keynotes... So just to tease it out for people, if there is an in-person, this is gonna be like a favorite - at least in North America - game show with Bob. So just to give that as a clue for people.
 
@@ -60,7 +60,7 @@
 
 **Stephen Augustus:** Yeah, so I believe China was the first... Yeah, we've been doing it for a little bit now.
 
-**Gerhard Lazu:** \[00:08:18.18\] Nice. So for those that are still confused, they're not the co-chairs of China or Europe; they're co-chairs of KubeCon/CloudNativeCon Europe, China, North America. These are like the three big conferences in the cloud-native, Kubernetes (but mostly cloud-native) world.
+**Gerhard Lazu:** \[08:18\] Nice. So for those that are still confused, they're not the co-chairs of China or Europe; they're co-chairs of KubeCon/CloudNativeCon Europe, China, North America. These are like the three big conferences in the cloud-native, Kubernetes (but mostly cloud-native) world.
 
 **Stephen Augustus:** Just a quick clarification... The China event is now I believe OSS Summit China, maybe... So the primary KubeCon CloudNativeCon events are North America and EU. We do kind of like a region-specific for China moving forward... And Constance and I are not directly involved in that.
 
@@ -80,7 +80,7 @@ With Jasmine coming in - Jasmine is an engineering manager, and the engineering 
 
 **Stephen Augustus:** Yeah, definitely me. \[laughs\]
 
-**Constance Caramanolis:** \[00:12:02.14\] I don't necessarily have a tagline, but for people who know me, I always have questions... And I guess it kind of goes with observability. Observability is all about answering the questions you have, and I just ask a lot of questions. So I guess that maybe I'll be the question master. Yeah, I'll go with that.
+**Constance Caramanolis:** \[12:02\] I don't necessarily have a tagline, but for people who know me, I always have questions... And I guess it kind of goes with observability. Observability is all about answering the questions you have, and I just ask a lot of questions. So I guess that maybe I'll be the question master. Yeah, I'll go with that.
 
 **Stephen Augustus:** The riddler! \[laughs\]
 
@@ -104,7 +104,7 @@ I think part of bringing your entire self to the conference is expression, and p
 
 I think often the adrenaline of deadlines allows you to do things more effectively, even though it's not necessarily the best way to do things. So knowing that KubeCon was coming up, and I was like "I have no new clothes for the stage. I have to go shopping." \[laughs\]
 
-**Gerhard Lazu:** \[00:15:59.09\] That was a good one. And Constance was paying attention, because she knew that you're missing a hat. So maybe that's how the idea came about? Like "Hm... He bought everything except the hat. I'll make you a hat you cannot buy." And this is exactly what happened.
+**Gerhard Lazu:** \[15:59\] That was a good one. And Constance was paying attention, because she knew that you're missing a hat. So maybe that's how the idea came about? Like "Hm... He bought everything except the hat. I'll make you a hat you cannot buy." And this is exactly what happened.
 
 **Stephen Augustus:** Oh, we were churning on the tinfoil hat idea for a while prior to doing the promo video and everything... So we had that in preparation, we were just figuring out how to do it.
 
@@ -126,7 +126,7 @@ It's tedious to read... It's tedious because you're just seeing conference talk 
 
 I think when we have duplication of content, finding ways to put folks together in a room, maybe it's combining efforts with talks, maybe it is moving something to a different track and asking them to tweak the talk in the lens of that track... I think that observability is definitely a great example. I think customizing it and extending Kubernetes where you get lots of interesting takes... You've also got this end user play, where "How does this talk affect an end user?"
 
-\[00:19:45.16\] The 101 track is another great example, where we have a talk that the way that the story is told fits very nicely for someone who is just getting started with this type of content. And then maybe the talk that looks similar is more intermediate-advanced content that may belong on, say, the observability track, or the customizing/extending track. It's definitely a balance for all of the reviewers to provide really thoughtful feedback, and we do heavily depend on that feedback to structure the program. So like Constance said, thank you again for everyone who gets involved in the review process.
+\[19:45\] The 101 track is another great example, where we have a talk that the way that the story is told fits very nicely for someone who is just getting started with this type of content. And then maybe the talk that looks similar is more intermediate-advanced content that may belong on, say, the observability track, or the customizing/extending track. It's definitely a balance for all of the reviewers to provide really thoughtful feedback, and we do heavily depend on that feedback to structure the program. So like Constance said, thank you again for everyone who gets involved in the review process.
 
 **Gerhard Lazu:** I think there's a lot of nuance here that people just wouldn't think about. This must take a really long time... And not just that, a lot of mental effort. And to be honest, I still can't appreciate it, because I don't know what is the volume; how many talks do you have to go through? How many discussions, how many hours do you end up discussing? And when you look at the end result, you think "Oh, just a hundred talks. No big deal." But it is a very big deal. A very big deal, right?
 
@@ -140,13 +140,13 @@ I think when we have duplication of content, finding ways to put folks together 
 
 And for North America 2020 we accepted like 150, 160 maybe. That was I think out of 1,000 talks, but for in-person North America. In-person North America 2019 I don't know what the numbers are, but more talks were accepted than EU, so probably like 300 talks maybe. We had to cut a lot of accepted talks because of the virtual component.
 
-**Break:** \[00:22:27.16\]
+**Break:** \[22:27\]
 
 **Gerhard Lazu:** If you are going to submit a talk, what would you like to say to those that submit the talk, Constance and Stephen, for North America?
 
 **Constance Caramanolis:** One, thank you. We know it's really hard to put yourself out there. I think the one thing that usually ends up for me making things distinct from one talk over the other is clearly don't say like "I'm gonna tell you five benefits." Give me a hint, like "Hey, I have five benefits, and the first one is something different." Make sure you position yourself a little differently from other talks.
 
-\[00:23:52.24\] We do face this -- now that KubeCon's been going on for so long, especially when it comes to Kubernetes deployment, like "Hey, I deployed Kubernetes at my company." Those are valuable stories, but we've heard a lot of those. So if there isn't a lot of differentiation between all those previous talks, that might be a better blog post, because a blog post is a little bit more easy to digest.
+\[23:52\] We do face this -- now that KubeCon's been going on for so long, especially when it comes to Kubernetes deployment, like "Hey, I deployed Kubernetes at my company." Those are valuable stories, but we've heard a lot of those. So if there isn't a lot of differentiation between all those previous talks, that might be a better blog post, because a blog post is a little bit more easy to digest.
 
 So maybe think about like "Hey, I'm deploying Kubernetes at my company, and we have this ridiculous scale. Or we have this ridiculous requirement that's really unique." Calling that out, about why your problem is different than something else really highlights it.
 
@@ -174,7 +174,7 @@ At least for myself, whenever I'm searching for some problem-solving, if I have 
 
 **Stephen Augustus:** Well, I think it's playing to your strengths, too. To your point, everyone learns a little differently. We take SIG meetings, for example - like, I will not go back and view a recording. It needs to be something that I'm building for evidence, that will force me to go back and look for a recording. I don't like learning that way. I would prefer to see a digest, or something... There are some people who can easily churn out blogs. There are some people who are terrified of being on-stage.
 
-\[00:27:56.27\] Figuring out how to play to your strengths... You know, some of the talks that we saw around kind of like playing with the borders of delivering a talk, because it was now virtual, like you just had more opportunity... People who have video editing experience went crazy with it for a few of the talks. I think both \[unintelligible 00:28:15.27\] were just brilliant examples of tearing down the borders of what it means to just give a talk to an audience. They played with it, and I liked that.
+\[27:56\] Figuring out how to play to your strengths... You know, some of the talks that we saw around kind of like playing with the borders of delivering a talk, because it was now virtual, like you just had more opportunity... People who have video editing experience went crazy with it for a few of the talks. I think both \[unintelligible 00:28:15.27\] were just brilliant examples of tearing down the borders of what it means to just give a talk to an audience. They played with it, and I liked that.
 
 **Gerhard Lazu:** That's right. It's like a whole new world when you record yourself. Props. Sure. So easy, right? Do it again. It doesn't have to be the first time. Refine it. Give maybe an internal talk and see what people think, and then do it again. So it doesn't have to be the first time, right?
 
@@ -202,7 +202,7 @@ So yeah, I think taking time to assess what your strengths are and how to displa
 
 **Constance Caramanolis:** I think that we kind of forget that there's an element of tech fame, of having your talk accepted, and presenting yourself out there, but that's one element of being recognized. And granted, recognition and appreciation is incredibly important. I know I thrive on it, and I'm sure for a lot of people that's their source of validation... But I know so many people who are amazing contributors to the project, and public speaking or doing this presentation is horrible, but the way that they disseminate information is like being active in maintainer sessions, and within their smaller groups, responding to issues.
 
-\[00:32:06.13\] So this is one way to be recognized in the community... And maybe you do get a little larger audience. The individuals who don't like this venue of communicating and interacting with the larger community - they're doing a lot of hard work in terms of responding to issues and being involved there, and that's super-important. I guess we need to find a way to do more highlighting those people, too. We need to figure that out...
+\[32:06\] So this is one way to be recognized in the community... And maybe you do get a little larger audience. The individuals who don't like this venue of communicating and interacting with the larger community - they're doing a lot of hard work in terms of responding to issues and being involved there, and that's super-important. I guess we need to find a way to do more highlighting those people, too. We need to figure that out...
 
 **Gerhard Lazu:** That's a very good point.
 
@@ -218,7 +218,7 @@ If you saw the Kubernetes keynote updates, or anything that happened last KubeCo
 
 **Gerhard Lazu:** I think that takes special talent. Very few people can pull that off. If you don't have slides, very few people can pull that off. I know a few, and yes, I would agree with what you've just said, Stephen. You're one of them.
 
-**Break:** \[00:34:00.22\]
+**Break:** \[34:00\]
 
 **Gerhard Lazu:** Is there anything specific that you're looking forward to in the next KubeCon? Is there a specific element that you're looking forward to, whatever that may be?
 
@@ -228,7 +228,7 @@ If you saw the Kubernetes keynote updates, or anything that happened last KubeCo
 
 **Stephen Augustus:** I've not met Constance in person, I have not had the opportunity to take the keynote stage since I have been chair. Again, my favorite part - I say this in pretty much every interview - of any conference is the hallway track... And we're actively working to do more to make it feel like you're in the hallway virtually, but being able to see the maintainers that I work with all year round in person, even if it's the six feet apart, wave from across the hall... I think that's what I'm looking forward to.
 
-**Constance Caramanolis:** \[00:36:22.01\] Agreed.
+**Constance Caramanolis:** \[36:22\] Agreed.
 
 **Gerhard Lazu:** So for those that have never been to KubeCon, what is the hallway track, Constance?
 
@@ -248,7 +248,7 @@ As we head back into this, I would remind folks of the PacMan rule... Depending 
 
 I think we're all human, but definitely for me, I have a bunch of heroes in this community, and you could be standing shoulder-to-shoulder with one of your heroes... So give them an opportunity to have that experience and to have conversations.
 
-**Gerhard Lazu:** \[00:40:20.24\] That's a very good one. This is the first time I've heard that. That's really good. And what I would add to that is if the circle gets so big that you can't talk anymore, that's your limit, right? That's your limit. Stop expanding it. You can't talk.
+**Gerhard Lazu:** \[40:20\] That's a very good one. This is the first time I've heard that. That's really good. And what I would add to that is if the circle gets so big that you can't talk anymore, that's your limit, right? That's your limit. Stop expanding it. You can't talk.
 
 **Stephen Augustus:** I think that one of the fun things that ended up happening in -- it was Barcelona. Barcelona, there was a giant swarm party, and I think there was a DJ that they hired for the party... And I think people were kind of grouped up in their own groups... And we noticed that there weren't that many people dancing. As we were chatting, our group was kind of out on the floor, and we were like "There's no one dancing. This is a party. We need to start dancing", and it kind of started off as a circle of maybe four, five folks, and turned into a very large circle of maybe 20 folks by the end of it. So I would say your circle can get as big as it needs to get, for the space that it allows.
 
@@ -270,7 +270,7 @@ I think we're all human, but definitely for me, I have a bunch of heroes in this
 
 This also applies to other projects, too. Everyone, all these projects, and SIGs, and working groups \[unintelligible 00:43:40.03\] all these places have mechanisms for being involved and pulling information from them. So it's more a call-to-action for everyone to be more of an active participant instead of a passive participant. If you're curious about something, pull that information; get it yourself.
 
-\[00:43:57.27\] \[unintelligible 00:43:57.08\] did an amazing job, but it shouldn't be their responsibility to always update us. We should be active participants \[unintelligible 00:44:03.25\] and making sure that we're being healthy community members.
+\[43:57\] \[unintelligible 00:43:57.08\] did an amazing job, but it shouldn't be their responsibility to always update us. We should be active participants \[unintelligible 00:44:03.25\] and making sure that we're being healthy community members.
 
 **Gerhard Lazu:** How can people pull this information?
 
@@ -296,7 +296,7 @@ When we say \[unintelligible 00:46:57.20\] Pull information from the committees 
 
 **Constance Caramanolis:** Yeah.
 
-**Gerhard Lazu:** \[00:48:01.22\] So what I understand from what Stephen said - and you, Constance, as well - is that the content and the experience that is KubeCon, you pay for your ticket, but that doesn't give you the right to behave like an \*\*\*\*\* It's a gift. It's a privilege.
+**Gerhard Lazu:** \[48:01\] So what I understand from what Stephen said - and you, Constance, as well - is that the content and the experience that is KubeCon, you pay for your ticket, but that doesn't give you the right to behave like an \*\*\*\*\* It's a gift. It's a privilege.
 
 **Constance Caramanolis:** Nothing does. Nothing gives you that right.
 
@@ -318,7 +318,7 @@ I think that a lot of the things that we often see - we're on Twitter, we're on 
 
 **Stephen Augustus:** And I think there's a kind of aphorism that people agree and disagree with, which is "Assume good intent." And it's tricky, because when you walk into situations, there's of course a balance. I think that in the open source space you wanna be good, and kind, and true, and assume that people are operating in the best intentions of the community. At the same time, the flipside of that is you're often requesting that from people who have been historically marginalized and under-represented, so when you ask them to assume good intent from people who have not historically given/had good intentions for them, you're asking them to self-harm, essentially.
 
-\[00:52:22.01\] So I think that there is, for sure, a balance of having thoughtful discussions, and again, doing the work to be thoughtful in your communication to people. I guarantee you, anytime I see -- there are quite a few communities within the cloud-native space that I work on, across Kubernetes, across KubeCon, for the Technical Advisor Group, for Contributor Strategy, for Inclusive Naming Initiative, all these places; if I see you potentially causing harm to one of the contributors that I work with, I will say something about it. Every time. I will call you out.
+\[52:22\] So I think that there is, for sure, a balance of having thoughtful discussions, and again, doing the work to be thoughtful in your communication to people. I guarantee you, anytime I see -- there are quite a few communities within the cloud-native space that I work on, across Kubernetes, across KubeCon, for the Technical Advisor Group, for Contributor Strategy, for Inclusive Naming Initiative, all these places; if I see you potentially causing harm to one of the contributors that I work with, I will say something about it. Every time. I will call you out.
 
 **Gerhard Lazu:** I think everybody should do that. It shouldn't be just Stephen. It's all of us, right? It's the community that we build.
 
@@ -338,7 +338,7 @@ I think that a lot of the things that we often see - we're on Twitter, we're on 
 
 **Stephen Augustus:** When you decide to ignore, that makes you culpable.
 
-**Gerhard Lazu:** \[00:56:01.28\] That's how it starts.
+**Gerhard Lazu:** \[56:01\] That's how it starts.
 
 **Constance Caramanolis:** Yeah.
 

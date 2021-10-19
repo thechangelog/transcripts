@@ -44,7 +44,7 @@
 
 **Ben Ilegbodu:** Sure, yeah. Like you said, Ben Ilegbodu. I am a principal frontend engineer at Stitch Fix. Most of you have probably heard of Stitch Fix, hopefully have used Stitch Fix, but for those who haven't heard about us yet, we're an online right now focusing on clothing service; we combine engineering, and algorithms, and a human stylist, put them together to get you great clothes at a timing of your choosing, so hopefully we can make you more stylish over time, is the plan... And you not have to spend time clicking around on a site, trying to find something that fits.
 
-\[00:04:12.19\] So that's Stitch Fix... I'm a frontend engineer there, so I focused on our platform team; so not our features, but actually making the other developers awesome, and the features that they build awesome... Working on our design system, which is in TypeScript - we'll be talking about that more - and React, and then also focusing on kind of the backend of the frontend, or frontend DevOps, a.k.a. div ops, as I like it...
+\[04:12\] So that's Stitch Fix... I'm a frontend engineer there, so I focused on our platform team; so not our features, but actually making the other developers awesome, and the features that they build awesome... Working on our design system, which is in TypeScript - we'll be talking about that more - and React, and then also focusing on kind of the backend of the frontend, or frontend DevOps, a.k.a. div ops, as I like it...
 
 **Amal Hussein:** Oh, nice...
 
@@ -74,7 +74,7 @@
 
 **Ben Ilegbodu:** Yeah, it's been incremental. So I did it from scratch in the component library. So I was building the component library from scratch. That was nice. I did the workshop, people were excited, and then a team decided to do it in one of their features... So they kind of all mob-programmed on a PR, and each one of them had to change a file over to TypeScript, so they could all feel comfortable doing it in that PR. Then they merged that PR, and now as they go through other files, they convert over to TypeScript. So it's been incremental. I never suggest whole rewrites, because that's not beneficial to anyone, really.
 
-**Amal Hussein:** \[00:08:14.24\] That's throw out the baby with the bathwater, right?
+**Amal Hussein:** \[08:14\] That's throw out the baby with the bathwater, right?
 
 **Ben Ilegbodu:** Yeah...
 
@@ -114,7 +114,7 @@ There is a confusion though, because especially with interfaces versus types, yo
 
 **Amal Hussein:** My soapbox. I'll get off of it, yeah. Thank you.
 
-**Divya:** \[00:12:06.20\] I think it's a really interesting point, because having worked on TypeScript projects with non-JavaScript developers, it's interesting to see the assumptions that you know from JavaScript, and then other languages, too. If you write another language, like C, you would use an interface for things, and then a JavaScript person might use types instead... Because interfaces is not common to the language. So it's really interesting, having worked in a codebase with more like systems-level programmers writing TypeScript - they write TypeScript at a totally, completely different level than a JavaScript engineer... Because I'm like "I think I know TypeScript", and then I'll work with like a systems person on a TypeScript project, and I'll be like "I have no idea what you're writing..." Because they would do various bindings...
+**Divya:** \[12:06\] I think it's a really interesting point, because having worked on TypeScript projects with non-JavaScript developers, it's interesting to see the assumptions that you know from JavaScript, and then other languages, too. If you write another language, like C, you would use an interface for things, and then a JavaScript person might use types instead... Because interfaces is not common to the language. So it's really interesting, having worked in a codebase with more like systems-level programmers writing TypeScript - they write TypeScript at a totally, completely different level than a JavaScript engineer... Because I'm like "I think I know TypeScript", and then I'll work with like a systems person on a TypeScript project, and I'll be like "I have no idea what you're writing..." Because they would do various bindings...
 
 **Amal Hussein:** Do they create their own custom types?
 
@@ -148,7 +148,7 @@ There is a confusion though, because especially with interfaces versus types, yo
 
 **Ben Ilegbodu:** Yeah.
 
-**Divya:** \[00:15:45.04\] It's actually really interesting... I'm sort of similar, in that I've been watching TypeScript and having used it until maybe a year or so ago... And for me, writing TypeScript or understanding TypeScript required me learning a different language, and then coming back. I had to go learn a typed language like Go, and then come back and understand how it works... Because having worked in JavaScript, in vanilla and frameworks for a while, you sort of have assumptions on how things are written... So when you're for example faced with an interface, you're like "I don't understand how this works", so why I would use it, in what instances... And so when you work with a programming language where that's common, you sort of see use cases in which it's used. And for me, learning TypeScript - I've actually watched videos... Frontend Masters does a bunch of videos on TypeScript, and Egghead, and so on... I've watched those videos, trying to be like "Okay, you're gonna learn TypeScript", and I never understand it.
+**Divya:** \[15:45\] It's actually really interesting... I'm sort of similar, in that I've been watching TypeScript and having used it until maybe a year or so ago... And for me, writing TypeScript or understanding TypeScript required me learning a different language, and then coming back. I had to go learn a typed language like Go, and then come back and understand how it works... Because having worked in JavaScript, in vanilla and frameworks for a while, you sort of have assumptions on how things are written... So when you're for example faced with an interface, you're like "I don't understand how this works", so why I would use it, in what instances... And so when you work with a programming language where that's common, you sort of see use cases in which it's used. And for me, learning TypeScript - I've actually watched videos... Frontend Masters does a bunch of videos on TypeScript, and Egghead, and so on... I've watched those videos, trying to be like "Okay, you're gonna learn TypeScript", and I never understand it.
 
 **Ben Ilegbodu:** Interesting.
 
@@ -172,7 +172,7 @@ I've had that background, so I understand it, but I can put myself in plenty of 
 
 **Ben Ilegbodu:** Yeah, so I mentioned in passing that I did a workshop... So everybody kind of had experience with React, frontend engineers were writing React code, or whatever... So I was like "Well, this is how we do things in TypeScript and React." So it was really a -- it was obviously educational, but also a sales pitch as well. It was like "This is how you do props in TypeScript, and you use interfaces... And these are all the different benefits you get, versus the struggles we have with React PropTypes. So you have to define your props, you can't just use them in your code; you can't pass in additional props if they're not defined. They have to be the right types. You can to define the structure of objects that you're passing in." All these different things that are kind of loosey-goosey with React PropTypes, you have to do with TypeScript... So there's lots of benefits there. And then kind of slowly introducing common patterns you do in React - this is how you do it in TypeScript.
 
-\[00:20:12.19\] So it wasn't like a "Here's TypeScript. Oh, by the way, this is how you do it in React." It's like the reverse, to enable using TypeScript in an applied way. There was something else though, Amal, if I can jump in, that you said... Or continue, I guess.
+\[20:12\] So it wasn't like a "Here's TypeScript. Oh, by the way, this is how you do it in React." It's like the reverse, to enable using TypeScript in an applied way. There was something else though, Amal, if I can jump in, that you said... Or continue, I guess.
 
 **Amal Hussein:** Yeah, go for it.
 
@@ -188,7 +188,7 @@ I've had that background, so I understand it, but I can put myself in plenty of 
 
 **Amal Hussein:** And I can't say the word "idiosyncronacies", I think... I don't know. Well, I'll stop now.
 
-**Break:** \[00:21:59.08\]
+**Break:** \[21:59\]
 
 **Amal Hussein:** So Ben...
 
@@ -208,7 +208,7 @@ I've had that background, so I understand it, but I can put myself in plenty of 
 
 **Amal Hussein:** Something. So we have all these millions of packages written in JavaScript. Some of them ain't nobody gonna update. They've solved their problem, and it's widely adopted and used. We're not touching it. Redux is a good example of that, for example. But what happens when I have to use these packages in my TypeScript application, and there's no types, and the compiler barks... Can you talk to us about that journey, and how the community has kind of solved that problem?
 
-**Ben Ilegbodu:** \[00:24:22.05\] Yeah. Just taking a step back, in order to use TypeScript in a strict mode, all of your dependencies have to be typed as well. That's how you know that when you call this function that you imported, that it takes a string and gives you back a number, for instance. So if that package isn't written in TypeScript, or doesn't at least contribute TypeScript definitions itself, the best alternative is to look at this repo called DefinitelyTyped. DefinitelyTyped is a repository of types for all of these public or popular packages; there's probably some unpopular ones in there too, but... Popular packages that don't have types. React is in there; I use that a lot. Even the Node API and such are in there. Basically, any package you want hopefully should be in there. So you import... If you're using React, you would also import @types/react, so to use the types scope. And then, when you import from React in your code, then it will look inside the Types package to get the types... If that made sense.
+**Ben Ilegbodu:** \[24:22\] Yeah. Just taking a step back, in order to use TypeScript in a strict mode, all of your dependencies have to be typed as well. That's how you know that when you call this function that you imported, that it takes a string and gives you back a number, for instance. So if that package isn't written in TypeScript, or doesn't at least contribute TypeScript definitions itself, the best alternative is to look at this repo called DefinitelyTyped. DefinitelyTyped is a repository of types for all of these public or popular packages; there's probably some unpopular ones in there too, but... Popular packages that don't have types. React is in there; I use that a lot. Even the Node API and such are in there. Basically, any package you want hopefully should be in there. So you import... If you're using React, you would also import @types/react, so to use the types scope. And then, when you import from React in your code, then it will look inside the Types package to get the types... If that made sense.
 
 So that's how those two go together - TypeScript knows to look in that package if there are no definition files defined for it.
 
@@ -222,7 +222,7 @@ So that's how those two go together - TypeScript knows to look in that package i
 
 **Amal Hussein:** There's a way to do this, is what I'm trying to say. We just need a standard.
 
-**Ben Ilegbodu:** \[00:28:06.08\] There's a key in your package that says you're using types, because you point to your types in the package.json of your package... But the problem is that community types doing that association, that deprecation model - that doesn't exist.
+**Ben Ilegbodu:** \[28:06\] There's a key in your package that says you're using types, because you point to your types in the package.json of your package... But the problem is that community types doing that association, that deprecation model - that doesn't exist.
 
 **Amal Hussein:** Yeah. I can open an issue for this though. I think it's worth opening an issue and discussing this.
 
@@ -258,7 +258,7 @@ I've found it a really interesting exercise, but at the same time I was so scare
 
 **Suz Hinton:** It may be... I mean, it starts with A, so I don't have to scroll too much down the list when I'm doing my GitHub tree search...
 
-**Amal Hussein:** \[00:32:19.08\] Are you kidding me? Are we talking about avrgirl?
+**Amal Hussein:** \[32:19\] Are you kidding me? Are we talking about avrgirl?
 
 **Suz Hinton:** Yeah.
 
@@ -328,7 +328,7 @@ That actually did help me smoke out a lot of bugs with this system, and I ended 
 
 **Divya:** Yeah.
 
-**Break:** \[00:36:15.05\]
+**Break:** \[36:15\]
 
 **Divya:** TypeScript is really useful for many things, and one of the things that, Ben, you work on a lot is the integration of TypeScript and React, because that's the framework of your choice. I have no idea, because I don't use React anymore, what the general adoption rate of TypeScript is with React. Can you speak more to just the general ecosystem of TypeScript within React?
 
@@ -352,7 +352,7 @@ There's a lot of interest. I'm not sure how many people are applying it into the
 
 **Amal Hussein:** Not even create elements. I don't wanna take it that far... But I do have to say, everytime I use JSX, I know I'm doing something a little "dirty", you know what I mean? Because it's like writing my HTML in JavaScript that's not actually real HTML either, because there's certain things you can't do in JSX, that you can do in HTML... So that's the thing; that's the delta. So if we could just get rid of that delta, I'd be okay about it, because then I could just pretend I'm using string templates. There is a delta...
 
-**Ben Ilegbodu:** \[00:40:12.07\] That's the whole point, they're not string templates.
+**Ben Ilegbodu:** \[40:12\] That's the whole point, they're not string templates.
 
 **Amal Hussein:** No, no, no. Sorry, I meant tag template literals. I meant to be specific, sorry...
 
@@ -424,7 +424,7 @@ There's a lot of interest. I'm not sure how many people are applying it into the
 
 **Amal Hussein:** That's amazing. So how does TypeScript make React better? I'm just curious, because in addition to just type-checking with JavaScript, does using the React APIs get better, too? Are there less opportunities for footgunning if you use TypeScript? Can you give us some examples of that?
 
-**Ben Ilegbodu:** \[00:44:00.17\] Yeah, so because with your type definitions now if I'm writing -- let's just say I'm typing in an input field, it will autocomplete all of the different props or attributes that the input field has. I have an on-change handler for my input field, and I get back an e, the event. And I say "e dot" and it autocompletes what are all the options. And I say e.target - well, e.target is now a reference to an input field, and it tells me all of the options that I have for that. So I have value -- I actually found something new that apparently an input field has the other day. I forget what it was. It was something related to value, a different form of it. So just all that kind of information and autocompletion is helpful. I have an array of stuff, and I do an "array dot". It's like "Okay, map", and inside of that it tells me the first element is the first item, and it's of the right type, and what I can do to it... So it's like all these kind of micro helps. So it's not one big huge thing, like "Oh, this has changed the world. I couldn't do React before that." But it's all these little things to assure me that I have the right type and I'm doing the right thing... It's really helpful, I find.
+**Ben Ilegbodu:** \[44:00\] Yeah, so because with your type definitions now if I'm writing -- let's just say I'm typing in an input field, it will autocomplete all of the different props or attributes that the input field has. I have an on-change handler for my input field, and I get back an e, the event. And I say "e dot" and it autocompletes what are all the options. And I say e.target - well, e.target is now a reference to an input field, and it tells me all of the options that I have for that. So I have value -- I actually found something new that apparently an input field has the other day. I forget what it was. It was something related to value, a different form of it. So just all that kind of information and autocompletion is helpful. I have an array of stuff, and I do an "array dot". It's like "Okay, map", and inside of that it tells me the first element is the first item, and it's of the right type, and what I can do to it... So it's like all these kind of micro helps. So it's not one big huge thing, like "Oh, this has changed the world. I couldn't do React before that." But it's all these little things to assure me that I have the right type and I'm doing the right thing... It's really helpful, I find.
 
 **Divya:** I guess the big upside to TypeScript with React is that React was class-based, and a lot of TypeScript uses classes, so it's really easy to integrate quite simply... And the reason I bring that is because in Vue we have TypeScript also, but oftentimes writing Vue with TypeScript requires you to write a class, which is not common in Vue at all. So your Vue TypeScript code looks completely different from Vue without TypeScript. And I don't find that the case necessarily for working with React in TypeScript. Oftentimes it's sort of you're still writing React, you just see more types within it, some interfaces sprinkled in, and so on.
 
@@ -444,7 +444,7 @@ That parity is actually really nice, because you don't feel like you have to con
 
 **Amal Hussein:** Oh, God... So in all fairness, I'm very skeptical of new technology, as somebody who has to evaluate new tools for a living... I've seen the dark side of early adoption, or adopting the right tool without even investing in people knowing how to use it. So adopting a tool responsibly at scale within an engineering org - you have to do it responsibly. You have to have a plan, and a roadmap, and an implementation, and you have to have a bunch of change management around it...
 
-\[00:48:03.16\] So therefore, that's where that bias is coming from. I do see the benefit of TypeScript, absolutely, for large-scale projects with multiple engineers that are multi-year, no doubt. That's why Java is a thing. Java is great for large-scale enterprise multi-team, multi-year projects, because there's so much convention baked in; very hard to go off the rails. So I see the benefit.
+\[48:03\] So therefore, that's where that bias is coming from. I do see the benefit of TypeScript, absolutely, for large-scale projects with multiple engineers that are multi-year, no doubt. That's why Java is a thing. Java is great for large-scale enterprise multi-team, multi-year projects, because there's so much convention baked in; very hard to go off the rails. So I see the benefit.
 
 I think it's more that -- I just am not a fan of one solution for everything, meaning if I have to write a simple script, I'm not going to write a simple script in TypeScript and bring in a bunch of tooling, and this and that. It depends on what I'm doing. TypeScript - I have to have a need for it, and I have to be able to justify that need.
 
@@ -478,7 +478,7 @@ And then if you're not using Create React App, you obviously go the Babel plugin
 
 **Suz Hinton:** I'm interested to hear a little bit more about the component system that you implemented in with TypeScript, and things like that. I don't tend to see -- I'm not really in the pattern library community, so I'm always interested to hear how that's been going when you have a team that has to use them, and how TypeScript has helped with that too, especially when people are getting to know new components that you might have introduced.
 
-**Ben Ilegbodu:** \[00:52:05.00\] Yeah, TypeScript has been really great for component library, because there's always these weird associations between props, like "Oh, if you specify this prop, then you can't specify this prop." Or "This prop only makes sense if you specify this other prop." And you can make those kind of associations in TypeScript. They're more advanced associations, but you can do that in TypeScript, and be assured in the code that that contract was followed, which is really nice.
+**Ben Ilegbodu:** \[52:05\] Yeah, TypeScript has been really great for component library, because there's always these weird associations between props, like "Oh, if you specify this prop, then you can't specify this prop." Or "This prop only makes sense if you specify this other prop." And you can make those kind of associations in TypeScript. They're more advanced associations, but you can do that in TypeScript, and be assured in the code that that contract was followed, which is really nice.
 
 And then, one thing that I've borrowed from Material UI is this concept that root element can be changeable, I guess. So it's called -- I forget what the term is, but it's basically having an as prop for a component. So you can say "Oh, I have this link component, but I can set as to be a span instead of being an A tag, for instance. So now I'm able to have a link component and it has all of its props, but then if I change the underlying tag, now my component supports all the props of that underlying tag as well. So I could have a text component and then make it a label tag, and now it supports HTML 4, because I said it's a label, as opposed to being an h1, for instance. And now I get all of the props, and it's properly-typed as well because of that association. So using things like generics for your components really makes all those sorts of things possible.
 
@@ -502,7 +502,7 @@ I have a generic list, that you'd pass in a list of things, and then you have a 
 
 **Divya:** Awesome, yeah. I totally agree with the composability point, and I didn't even think much about that as well, until you mentioned it... But that makes a lot of sense. Because then you don't necessarily have to think about all the possible types that this particular component will -- or the different use cases that this component will be used for. You're just like, "Oh, here's a generic", and then you can just change it if you'd like.
 
-**Ben Ilegbodu:** \[00:56:11.07\] Yeah. And the nice thing - it's still type safe. Because normally, you'll just say "Oh, I'm just gonna take all these props, assume they did it right, and pass it on to the underlying element" and hope they didn't pass anything that the element doesn't support. But if it's typed such that I know or TypeScript knows what that underlying element is supposed to be, but it's generic, then depending on if it's a span, versus a label, versus whatever, the supported props changes, but it's always gonna be type-safe. So if I say it's a label, I can't pass in an hfref. Or if I say it's one other tag, I can't pass in something else. So that's the benefit. It's really, really hard to type, though... The TypeScript gymnastics you have to do to make that work is really hard, but once it's in place, then it's nice.
+**Ben Ilegbodu:** \[56:11\] Yeah. And the nice thing - it's still type safe. Because normally, you'll just say "Oh, I'm just gonna take all these props, assume they did it right, and pass it on to the underlying element" and hope they didn't pass anything that the element doesn't support. But if it's typed such that I know or TypeScript knows what that underlying element is supposed to be, but it's generic, then depending on if it's a span, versus a label, versus whatever, the supported props changes, but it's always gonna be type-safe. So if I say it's a label, I can't pass in an hfref. Or if I say it's one other tag, I can't pass in something else. So that's the benefit. It's really, really hard to type, though... The TypeScript gymnastics you have to do to make that work is really hard, but once it's in place, then it's nice.
 
 **Divya:** Yeah, I think there have been times when I've had to -- this is with a separate compiler I was writing for, but it's sort of like you're just trying to appease the compiler sometimes...
 

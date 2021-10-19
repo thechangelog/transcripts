@@ -22,7 +22,7 @@ Some of the stuff that's cool about Elm - 1) it's really, really reliable and ea
 
 **Richard Feldman:** Yeah... So now I have this graph that I like to show -- because we have a logging system that tells us if anything crashes. So now the chart is like 60,000 JavaScript runtime exceptions, like, from our JS code, and then... Like, it's not zero, but it's zero pixels on the graph...
 
-**Jerod Santo:** \[00:04:15.12\] The blip.
+**Jerod Santo:** \[04:15\] The blip.
 
 **Richard Feldman:** Right. So it is possible. It can technically happen.
 
@@ -72,7 +72,7 @@ My boss - full credit to him, it was his idea to see if we could hire Evan. Basi
 
 He basically has complete autonomy to take Elm in whatever direction he thinks is best, and we trust his judgment, because that's what has led us to embrace it in the first place. I don't know, I guess we're aware that that's not a common thing for a company our size. For context, I think it's 26 engineers now. This is probably a good time to mention that we're hiring, so if you wanna come work with me and Evan...
 
-**Jerod Santo:** \[00:08:15.08\] There you go.
+**Jerod Santo:** \[08:15\] There you go.
 
 **Richard Feldman:** ...on building stuff for teachers... We're super remote-friendly. I work remotely from Philadelphia, Evan works from Boston... The headquarters are in San Francisco, but we go anywhere from West Coast Pacific to Central European time as far as time zones go. The 26 engineers are pretty widely distributed across that.
 
@@ -94,7 +94,7 @@ So as far as absolute growth numbers, we don't really have a great way to measur
 
 **Jerod Santo:** Yeah. It's interesting you find so much growth of Elm inside of enterprise and inside of the workplace. It seems like small, new, niche languages start off at least - many that I'm thinking of - in the hobbyist realm... People tinkering, trying it out on their own time, and then maybe it starts to get penetration as they sneak it into their organizations often. What do you think is the selling point for Elm that's getting so many businesses to hop on? Is it that example, the one runtime errors -- I was gonna say "the zero runtime errors." \[laughter\] The very few runtime errors? Is that what gets people to really dive in and try it on work time?
 
-**Richard Feldman:** \[00:12:10.07\] That's a great question. I wanna go back a step though and just point out that I think -- we've gotten definitely increasing adoption over time, but I can't say Elm's like a runaway smash success. It's not on the level of like a React or an Angular, something like that. I like to say we've graduated from obscure to niche...
+**Richard Feldman:** \[12:10\] That's a great question. I wanna go back a step though and just point out that I think -- we've gotten definitely increasing adoption over time, but I can't say Elm's like a runaway smash success. It's not on the level of like a React or an Angular, something like that. I like to say we've graduated from obscure to niche...
 
 **Jerod Santo:** Nice.
 
@@ -114,7 +114,7 @@ We even get some back-end people who are interested in using Elm. They're like "
 
 **Jerod Santo:** That's interesting. It makes me think of -- kind of on a different angle of the same idea... Not only is it easier to hire because there's less enterprises that are hiring in Elm, but there's also somewhat of a relationship between a programmer who will learn a new thing on their own, and who's diving into these niches because they see the technical merits of a language, and the quality of that programmer. It reminds me on actually a Paul Graham essay from all the way back in 2004 - have you heard of this one, "The Python Paradox"?
 
-**Richard Feldman:** \[00:16:17.12\] The Python Paradox, yeah. Yeah, exactly.
+**Richard Feldman:** \[16:17\] The Python Paradox, yeah. Yeah, exactly.
 
 **Jerod Santo:** You've gotta put yourself in the time of 2004, but his point was that Python programmers -- well, I just have it pulled up here, let me read a little bit. He says:
 
@@ -142,11 +142,11 @@ That Python paradox that he's talking about no longer applies to Python, because
 
 **Richard Feldman:** Yeah... As long as it doesn't become a requirement, I think it's okay.
 
-**Break:** \[00:18:18.24\]
+**Break:** \[18:18\]
 
 **Jerod Santo:** Richard, as you said, Elm is moving from obscure to niche, and its impact has been, I would say, more than niche and more than obscure, because we've well documented it on this show... And one of the things I love about the Changelog and why we try to stay as polyglot as we can, even though that means we dive into things that sometimes we just can't quite swim that deep, is because the proliferation and the moving of ideas across different camps and different languages and different communities is hugely valuable.
 
-\[00:20:14.29\] I think two years ago when you and Evan were on, I asked Evan about the feeling he gets when some of his great ideas and some of the things that Elm has really paved the way for - thinking about the Elm architecture, thinking about just the niceties of the compiler, and these ideas have either been borrowed, or from the great artists have been stolen, and taken to other languages, other projects, other frameworks... Really a neat thing that has happened.
+\[20:14\] I think two years ago when you and Evan were on, I asked Evan about the feeling he gets when some of his great ideas and some of the things that Elm has really paved the way for - thinking about the Elm architecture, thinking about just the niceties of the compiler, and these ideas have either been borrowed, or from the great artists have been stolen, and taken to other languages, other projects, other frameworks... Really a neat thing that has happened.
 
 That being said, somebody who knows JavaScript today and doesn't know Elm can benefit from a lot of the stuff that Elm brought to the table, but what are still some reasons in 2018 to give it a try, even though a lot of the great ideas have been moved around to other places?
 
@@ -164,7 +164,7 @@ I think about, like, how many people's Babel - which is JavaScript to JavaScript
 
 So I think about it in terms of two things that are really exciting to me about Elm. One is the tools, the compiler and the tooling around it, the package manager, and the other one is the ecosystem, where basically everything is built in terms of Elm and I don't really have to worry about compatibility like I did in the JavaScript world. Basically, whenever I install a new package, I kind of expect it to just work immediately. I'll say "Install it", and then I expect to get the same experience I would get as if I were just using a new core library that shipped with the language. It's that level of smoothness.
 
-\[00:24:14.23\] Asset size is, I guess, another thing we should talk about, because that's maybe THE biggest selling point of Elm 0.19. But it's relatively new, so I don't hear a lot of people talking about it yet.
+\[24:14\] Asset size is, I guess, another thing we should talk about, because that's maybe THE biggest selling point of Elm 0.19. But it's relatively new, so I don't hear a lot of people talking about it yet.
 
 **Jerod Santo:** Well, it was news to me. You announced in the blog post, which is linked in our show notes, August 21st... We're recording this October 10th, so a couple months back... But this one didn't make the headlines as much as some of the other things I've seen from the Elm community, even though it's a pretty big deal, especially nowadays when we're trying so hard to get the time to first paint down to as small as possible for our web apps, so that they can reach as many people, as fast as they can. Elm 0.19 has made huge strides with regard to bundle size. Give us the details.
 
@@ -180,7 +180,7 @@ So I think about it in terms of two things that are really exciting to me about 
 
 So the punch line of the blog post is that the React, Angular and Ember ones have anywhere between 105 -- something a little bit over 100 kb of minified and gzipped assets for this whole application... Which is usually like (I don't know) a couple dozen files, and a bunch of dependencies, and so forth. And I think down to the 70's, depending on which of those more popular frameworks you're using... Whereas the Elm one, the entire compiled asset size, minified/gzipped is 29 kb, which is actually just smaller than React by itself. That was a really cool result because that means that if you're doing a React version of this, even with the most aggressive possible code-splitting, you still couldn't get it down to as small as the entire Elm app with no code-splitting... Which was really surprising.
 
-**Jerod Santo:** \[00:27:57.01\] How much of that 29 kb, if you could break it out, would be application code, and how much of it would be framework, or architecture code? Do you know the percentages?
+**Jerod Santo:** \[27:57\] How much of that 29 kb, if you could break it out, would be application code, and how much of it would be framework, or architecture code? Do you know the percentages?
 
 **Richard Feldman:** That's a good question, and it kind of gets into why it's hard to measure... The reason that Elm got this to be so small is basically that what 0.19 introduces is function-level dead code elimination. The way that works is -- ordinarily, you have your application, you install some packages that you depend on, and by default, in the old world, you would just get absolutely everything that you install with the package; all the code in that package gets compiled into your bundle.
 
@@ -212,7 +212,7 @@ As a consequence of that, it means you get the system-wide dead code elimination
 
 **Richard Feldman:** Yeah. And what's really cool about that is that it's a benefit that actually gets bigger the bigger your codebase is. If you have an example that's like, let's say, ten times the size of this application, and you've got a bunch more dependencies - because the bigger your project is, naturally, the more dependencies you're gonna end up having - as a general rule, the more you benefit from this, because each of those additional dependencies would otherwise represent all that code coming in... But instead, it's like "No, we're just gonna get what we actually use."
 
-\[00:32:23.02\] And the other cool thing is that Elm shares transitive dependencies. So if I install two packages that, let's say, both of them depend on the JSON library, it's gonna find some version of the JSON library that works with both of those packages and only install that once. So it can do the dead code elimination not only across your direct dependencies, but also across your indirect dependencies as well, with just the one shared version between them. So you really end up with kind of the minimal set of dependencies you can get.
+\[32:23\] And the other cool thing is that Elm shares transitive dependencies. So if I install two packages that, let's say, both of them depend on the JSON library, it's gonna find some version of the JSON library that works with both of those packages and only install that once. So it can do the dead code elimination not only across your direct dependencies, but also across your indirect dependencies as well, with just the one shared version between them. So you really end up with kind of the minimal set of dependencies you can get.
 
 There's some other cool stuff that it does, like automatic record renaming, like field renaming... One cool thing about that is it does stuff where if you've got records which are kind of like JavaScript objects, but simpler, they don't have "prototypes are this", or anything like that, and they're immutable... Maybe you'll have a user record that's got fields like username, email, stuff like that... When you run Elm Make with the "optimize" flag, what it'll do is it'll actually compile those down to the smallest JavaScript field names it can come up with. So instead of username and email, it'll compile them down to like A and B... Which is ordinarily not something that's super-safe for a minifier like Uglify to do, because you might be potentially relying on those with dynamic field access, using a string or a variable.
 
@@ -242,7 +242,7 @@ There's some other cool stuff that it does, like automatic record renaming, like
 
 So we're gonna have to see how those things look in practice before thinking about even further investments in the asset size.
 
-**Jerod Santo:** \[00:36:06.17\] When you say "code-splitting", you're referring to instead of having a single bundle, you'll have multiple bundles of smaller size, that are kind of loaded dynamically? Is that what you mean by code-splitting, or something else?
+**Jerod Santo:** \[36:06\] When you say "code-splitting", you're referring to instead of having a single bundle, you'll have multiple bundles of smaller size, that are kind of loaded dynamically? Is that what you mean by code-splitting, or something else?
 
 **Richard Feldman:** Yeah, exactly. Sorry. I should probably define my terms.
 
@@ -288,7 +288,7 @@ For us, honestly, the bigger benefit is the compile time, because now we've got 
 
 **Jerod Santo:** Yeah.
 
-**Richard Feldman:** \[00:40:00.09\] I see it in a couple different ways. One is Elm does have JavaScript interop. If worse came to worst, if I was starting a brand new project and there was some package on Npm that I was like "I can't live without this package", I would necessarily have to rewrite it in Elm. I could probably just do JavaScript interop and just get by with that. Of course, if I do that, then that chunk of code doesn't get me all of Elm's guarantees, all of its benefits, the function-level dead code elimination is not there...
+**Richard Feldman:** \[40:00\] I see it in a couple different ways. One is Elm does have JavaScript interop. If worse came to worst, if I was starting a brand new project and there was some package on Npm that I was like "I can't live without this package", I would necessarily have to rewrite it in Elm. I could probably just do JavaScript interop and just get by with that. Of course, if I do that, then that chunk of code doesn't get me all of Elm's guarantees, all of its benefits, the function-level dead code elimination is not there...
 
 **Jerod Santo:** Right.
 
@@ -302,7 +302,7 @@ For us, honestly, the bigger benefit is the compile time, because now we've got 
 
 **Richard Feldman:** Yeah, and I think a lot of this comes down to ergonomics. I have a whole series of thoughts I've been fleshing out about just comparing how JavaScript has evolved over the past ten years, since 2008, when it got fast enough to build web apps in, because of the great browser performance wars... And I think in a lot of ways, a lot of the churn people have been seeing and complaining about, with like "Oh my gosh, there's so much stuff coming out all the time, and things are changing so fast" really dates back to that, that performance war that led to JavaScript being really suitable to have rich web apps that are really client-side heavy.
 
-**Break:** \[00:42:44.10\]
+**Break:** \[42:44\]
 
 **Jerod Santo:** One question I do remember asking two years ago, and you were teasing that - and I wanted the state of it, because I haven't heard - was Elm on the server. Did anything come of that, or is it still just a pipedream, a sparkle in your eye? What's the situation, is that gonna happen?
 
@@ -316,7 +316,7 @@ Right now, Elm is actually very much intentionally designed to be a language tha
 
 Now, if Elm compiles to Web Assembly, that kind of opens the door to Elm on the server having a built-in way to get off the ground in an environment where concurrency actually matters a lot more, and you can have a lot more potential benefits from it. Because on the client-side, concurrency is basically a performance optimization, but on the server it can be a pretty fundamental thing as far as throughput, as far as how much the server can handle and what kind of a load it's actually capable of processing.
 
-\[00:48:18.23\] So the potential seems to be pretty high there, and I don't know if that actually ends up the way that we end up going with it, but it's been pretty fascinating to realize "Oh hey, this actually seems like not only a plausible path, but actually a likely path at this point." We've actually started basically making design considerations. Anytime we talk about any kind of change that might impact the language or the core libraries, one of the questions that always comes up is "Will this still be fine if we're compiling to Web Assembly instead?" and it's basically become something of a design constraint.
+\[48:18\] So the potential seems to be pretty high there, and I don't know if that actually ends up the way that we end up going with it, but it's been pretty fascinating to realize "Oh hey, this actually seems like not only a plausible path, but actually a likely path at this point." We've actually started basically making design considerations. Anytime we talk about any kind of change that might impact the language or the core libraries, one of the questions that always comes up is "Will this still be fine if we're compiling to Web Assembly instead?" and it's basically become something of a design constraint.
 
 **Jerod Santo:** Let me make sure I'm understanding you correctly - are you saying that the work to make Elm compile to Web Assembly is the kind of work that you would have to do to run it on the server and so the rearchitecting will help you, or are you saying that once you've compiled to Web Assembly, then you just magically build around that compiled WASM thing on the server?
 
@@ -344,7 +344,7 @@ Anyway, a lot of people were saying "Well, if I can compile Reason ML to JavaScr
 
 I guess technically you could do the same thing in Elm if you wanted to - just use Elm for your business logic, and then use a whole ton of interop to talk to Express. But that's not really the Elm experience that people are accustomed to. People are accustomed to things just working, and being reliable, and really only having to use interop in very exceptional cases, not as like a bread and butter type thing.
 
-\[00:52:17.15\] I think that's where the big amount of work to do exists - what's the design of a really nice system? And that's what brings me back to Web Assembly - what are the design constraints of that system? If one of the design constraints is we're running in this single-threaded, albeit asynchronous environment because we're compiling to JS and running it on Node, that really constrains the API design space, compared to if we're saying "Yeah, we just have complete control over concurrency, we have first-class threads that we can work with under the hood... We can offer a nicer API at a foundational level, on which that whole ecosystem can be built if we're compiling to something that has a really nice notion of threading."
+\[52:17\] I think that's where the big amount of work to do exists - what's the design of a really nice system? And that's what brings me back to Web Assembly - what are the design constraints of that system? If one of the design constraints is we're running in this single-threaded, albeit asynchronous environment because we're compiling to JS and running it on Node, that really constrains the API design space, compared to if we're saying "Yeah, we just have complete control over concurrency, we have first-class threads that we can work with under the hood... We can offer a nicer API at a foundational level, on which that whole ecosystem can be built if we're compiling to something that has a really nice notion of threading."
 
 This also gets into other questions... One of the things that Evan discovered in his research is that -- so Evans is a big admirer of Erlang's supervision tree model, and the way that they handle fault-tolerance and the way that they do servers... Which has a lot of really great benefits. And one of the things that came out of this exploration is that it seems like those ideas are absolutely at their most effective when they are part of the foundational primitives, as opposed to when you try to opt into them using a third-party package, which happens in a lot of languages. So that's also necessarily part of that initial design, and the way that Erlang is able to get really high throughput and really great fault-tolerance is because it has really great concurrency primitives and also supervision built-in from day one.
 
@@ -364,7 +364,7 @@ Philosophically, I think the phrase Evan used was "I built Elm because I wanted 
 
 **Jerod Santo:** Surely you've heard some of those people where they say, "Yeah, this just isn't the way I like it" or "That's up to snuff" or "I just can't get over this, that or the other thing." What are some things people have been saying of why they don't adopt Elm?"
 
-**Richard Feldman:** \[00:56:01.29\] That's a great question. You're right, I am very plugged into that, and I can rattle off a list... I would say they break down into a couple different categories. A common one is team buy-in. There'll be one person on the team who's really excited about Elm, and everybody else on the team is just kind of like "We don't really care. We don't wanna learn a new language", and the idea just kind of dies on the vine. That said - well, it happens, but at the same time, teams have to work together. I don't think there's really much hope for a success of adoption something (any technology) if only one out of n people actually wants to use it. So that's certainly a barrier.
+**Richard Feldman:** \[56:01\] That's a great question. You're right, I am very plugged into that, and I can rattle off a list... I would say they break down into a couple different categories. A common one is team buy-in. There'll be one person on the team who's really excited about Elm, and everybody else on the team is just kind of like "We don't really care. We don't wanna learn a new language", and the idea just kind of dies on the vine. That said - well, it happens, but at the same time, teams have to work together. I don't think there's really much hope for a success of adoption something (any technology) if only one out of n people actually wants to use it. So that's certainly a barrier.
 
 Another one that comes to mind is basically the learning curve. Elm is a different programming language. That's just an innately higher learning curve than learning a library, learning a framework... I kind of think that's the progression. A library tens to have the lowest learning curve, a framework is more than that, a language is more than that... Especially because sometimes when you get into languages, people end up with roadblocks that are not necessarily matters of "It's too difficult to learn", but rather than people are just not interested in learning because there's some aesthetic turn-off. Elm does have a different syntax than JavaScript.
 
@@ -380,7 +380,7 @@ Basically, in order for Elm to have the level of reliability it does, it needs t
 
 TypeScript basically does this the same way. It says "Trust me", and you say "Okay, I'm gonna give up type-checking right at the border. I'm not gonna have the compiler's help. I'm just gonna assume that this JSON sort of fit the shape that I expected and we'll just go from there." Whereas Elm is more serious about trying to maintain those guarantees as your program runs, and because the compiler can't possibly check what's coming out of your server because it's just a blob of data, it doesn't exist at compile time, there's nothing to check. Instead, it has this library for JSON decoding that will simultaneously parse the JavaScript, but also validate it against a schema, and say, if that schema doesn't match what we expected, then it will fail and you can do error handling, but you kind of have to specify the error handling upfront.
 
-\[00:59:53.23\] So it ends up resulting in a more reliable system, but it does mean that you actually have to write out a schema for all of your JSON endpoints, whereas in JavaScript you just don't. You just say "json.parse" and it's just like "Okay. Good luck." Elm's not really into the whole "Let's just pretend problems won't happen." It's like, "No, we're gonna try and actually handle the problems and do our best to make sure that if there is a bug, we know exactly where it happened and we can gracefully recover from it."
+\[59:53\] So it ends up resulting in a more reliable system, but it does mean that you actually have to write out a schema for all of your JSON endpoints, whereas in JavaScript you just don't. You just say "json.parse" and it's just like "Okay. Good luck." Elm's not really into the whole "Let's just pretend problems won't happen." It's like, "No, we're gonna try and actually handle the problems and do our best to make sure that if there is a bug, we know exactly where it happened and we can gracefully recover from it."
 
 **Jerod Santo:** This annoys some people because they're used to not having to do that, and now this feels cumbersome, or verbose.
 

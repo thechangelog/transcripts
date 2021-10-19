@@ -18,7 +18,7 @@ So as an approximation of the old JavaScript Assembly stuff, asm.js and stuff, b
 
 **Rachel White:** If this all really happens and people start adopting it, what kind of developer would it affect the most for adoption?
 
-**Alex Sexton:** \[00:03:47.23\] Definitely game developers will probably switch over to this. If you think about how Canvas works, or WebGL or something like that, it's like the DOM and JavaScript and all that kind of stuff provides this web API that is very good for making websites, but once you break out of that, you can go to Canvas and you start literally just printing pixels in a grid, and you're totally outside of accessibility and selectors and all that kind of stuff. You've kind of just exited from the stack already.
+**Alex Sexton:** \[03:47\] Definitely game developers will probably switch over to this. If you think about how Canvas works, or WebGL or something like that, it's like the DOM and JavaScript and all that kind of stuff provides this web API that is very good for making websites, but once you break out of that, you can go to Canvas and you start literally just printing pixels in a grid, and you're totally outside of accessibility and selectors and all that kind of stuff. You've kind of just exited from the stack already.
 
 People who are already exiting the stack to do things may find that they can write in a language or in a platform that can compile to Assembly, rather than in a JavaScript environment; there may already be great tooling around doing those things. So the nice thing is that you can have parts of your code that are Web Assembly, and run them in a worker or something like that, and then still build out your majority of your website and your interface and things like that, in regular web. Everything. So you don't necessarily have to go all in Web Assembly or all that. So if you wanted to build a graphics editor or something like that, you can have the tough parts written in Web Assembly, and then still do the interface in normal human JavaScript, or whatever.
 
@@ -38,7 +38,7 @@ People who are already exiting the stack to do things may find that they can wri
 
 I'd be very interested to see the benefit over -- I'm sure they have some benchmarks, I haven't seen... But just like "Here's an asm compiled thing... Web Assembly vs Assembly.js" - how much do the primitives and stuff that are added to this stack help? And I don't know what the fallback story is... Do you compile to asm and asm.js? And then if you don't have Web Assembly, it kind of falls back to asm.js? Does that make sense?
 
-**Mikeal Rogers:** \[00:08:23.14\] Yeah, I think that we should back up a little bit and explain asm.js a little bit more.
+**Mikeal Rogers:** \[08:23\] Yeah, I think that we should back up a little bit and explain asm.js a little bit more.
 
 **Alex Sexton:** Sure.
 
@@ -63,7 +63,7 @@ A lot of the NaCl stuff that you were talking about and some of the other kind o
 
 Then also I dug up the flag... It's only in Chrome Canary, not the other things, and flags enable Web Assembly in Firefox Nightly - it's in the About/Config - and then there are only preview versions of Microsoft Edge, and Safari has their "We think we'll support it in the future" type status page, but no one's ever seen it.
 
-**Mikeal Rogers:** \[00:12:04.02\] Right. Coming back to Brendan's concerns... He's pulling a lot on the history of JavaScript here and on the history of people trying to compete with JavaScript. There have been many groups and different browser vendors and VM implementers that have decided at some point that they just don't like JavaScript anymore. This happened in the main V8 team, and this is why they eventually went off and did Dart. They just decided "Bleah, JavaScript!"
+**Mikeal Rogers:** \[12:04\] Right. Coming back to Brendan's concerns... He's pulling a lot on the history of JavaScript here and on the history of people trying to compete with JavaScript. There have been many groups and different browser vendors and VM implementers that have decided at some point that they just don't like JavaScript anymore. This happened in the main V8 team, and this is why they eventually went off and did Dart. They just decided "Bleah, JavaScript!"
 
 There are a million reasons to get mad at JavaScript and table flip, but at the end of the day it is the language of the web, and we need to continue to make sure that it's fast and that it is the reference point for the web.
 
@@ -97,7 +97,7 @@ His concern with Web Assembly is that if it gets entrenched enough, he worries t
 
 **Rachel White:** While you two were going super in-depth as to what is going on, I was reading more of Lin Clark's awesome cartoon intro to what makes Web Assembly Web Assembly, and what is it... If anybody else doesn't know what the hell it is - like me - you should go read it, because it's really good. And it also makes comparisons in a really easy to understand way. I think that diagrams are great, and Lin explains it very accessibly.
 
-**Mikeal Rogers:** \[00:16:22.29\] Yeah. I haven't had a chance to really dive into it yet, but there's a module spec in Web Assembly as well, so I'm gonna have to dive into that and see what that means.
+**Mikeal Rogers:** \[16:22\] Yeah. I haven't had a chance to really dive into it yet, but there's a module spec in Web Assembly as well, so I'm gonna have to dive into that and see what that means.
 
 **Alex Sexton:** I think what that refers to is trying to cook into the JavaScript module system to where you can just import... Just like you would JavaScript, you would just do import blah from Web Assembly file. Maybe I'm thinking of something different, but that is a primary goal. But since none of that is actually fully spec-ed out even for the web with regular JavaScript, it's kind of just like a placeholder right now.
 
@@ -107,7 +107,7 @@ His concern with Web Assembly is that if it gets entrenched enough, he worries t
 
 **Mikeal Rogers:** Right. There's an export and import system, and stuff like that. Cool, okay... We're probably ready to move on to the next topic pretty soon, and when we come back we'll talk a bit about JavaScript in higher education.
 
-**Break:** \[00:17:44.27\]
+**Break:** \[17:44\]
 
 **Mikeal Rogers:** Alright, so what we're gonna get into now is a bit about JavaScript and how we teach computer science in higher education, like universities. Stanford announced that their CS106 course, which I don't know the significance of that, but apparently it is significant...
 
@@ -122,7 +122,7 @@ He says, "Java came out in 1995 and it's really stabilized, but they thought tha
 
 **Alex Sexton:** It runs everywhere.
 
-**Mikeal Rogers:** \[00:19:54.13\] Yeah, it runs everywhere - that was literally the slogan. But that didn't happen. This is not the language of the internet actually, and JavaScript kind of won that, so they're working to transition their 106 stuff over to JavaScript.
+**Mikeal Rogers:** \[19:54\] Yeah, it runs everywhere - that was literally the slogan. But that didn't happen. This is not the language of the internet actually, and JavaScript kind of won that, so they're working to transition their 106 stuff over to JavaScript.
 
 **Alex Sexton:** Yeah, that's great. I can tell you as someone who has a computer science degree, who did Java in his first two classes, that I spent 50% of my time understanding Java - which is fine... If you're learning Java, you should try to understand their primitives, and all that stuff... And then the other 50% of the time trying to run Java and set up my environment to the point where I could run Java.
 
@@ -138,7 +138,7 @@ So it's just a completely different and much faster and quicker to get to an err
 
 **Alex Sexton:** Back when I was in school, I'd have a problem that I hit a bug, and you'd search for the bug - this was true of PHP back then too, but you know, I'm an old man now... But you'd search for the bug and you wouldn't find someone solving it, you'd find a web page that's their contact form returns that error as the page, or whatever... \[laughter\] It had been indexed, but it was actually just an instance of the error occurring, not a solution to your problem. \[laughter\]
 
-\[00:24:19.07\] Unrelated to that, one thing I'd be interested in is how much it matters that people start with a dynamic, non-typed language. I feel like I'm in no way a purist when it comes to functional programming or typed languages... I pretty much thing that you can JIT your way out of all of those problems a lot of the times, and that typing is often overhead that I don't want or need. But the fact that I was forced to do types means that I had that option, if I come across a use case for it... So I wonder if they should do TypeScript or Flow, at least for some of their projects, like "Alright, run flow on this one and type all of your different things."
+\[24:19\] Unrelated to that, one thing I'd be interested in is how much it matters that people start with a dynamic, non-typed language. I feel like I'm in no way a purist when it comes to functional programming or typed languages... I pretty much thing that you can JIT your way out of all of those problems a lot of the times, and that typing is often overhead that I don't want or need. But the fact that I was forced to do types means that I had that option, if I come across a use case for it... So I wonder if they should do TypeScript or Flow, at least for some of their projects, like "Alright, run flow on this one and type all of your different things."
 
 I almost see it as a feature that because of Flow and TypeScript, JavaScript is at this point almost optionally type. So I think it would be really good, and I don't know if they're up on their JavaScript enough to know this, but it may be really solid of them to say "Alright, do this one functionally... JavaScript is flexible, so do this one purely functionally. Now do this one type, now do this one however you want..." Those types of things kind of excite me if I was writing the curriculum, but something tells me it's not gonna be quite that intense... But I like it. It's both scary from that standpoint if they don't cover that stuff, but also cool if they do.
 
@@ -160,7 +160,7 @@ I almost see it as a feature that because of Flow and TypeScript, JavaScript is 
 
 I don't know anybody who used to write Assembly and C who's writing JavaScript now going "You know what I really miss? I miss type errors. Type errors were rad." I just don't know those people... I've never met them.
 
-**Alex Sexton:** \[00:27:41.07\] I know a lot of people. I think people kind of avoid you sometimes, so... \[laughter\] I know plenty of people who feel very strongly about types, and have their good reasons. I don't necessarily agree with them, but I think it's silly to write off types as a thing that people don't need to learn. If you're getting a CS degree, only a certain percentage of those people are gonna end up writing JavaScript. Some large percentage are gonna end up working in typed languages, so I feel like the experience that I had in school when I did -- I mean, we used Haskell and Scheme and Java and C++ in a bunch of stuff, but I feel like the fact that I got that experience in a typed language means that when my company decides "Hey, we're gonna use flow", like, that's fine, I understand types; or whenever the web dies in two years again - I think we're due for the web being dead - then I can go write Elm, or whatever, in a native iOS platform, or whatever, and have types.
+**Alex Sexton:** \[27:41\] I know a lot of people. I think people kind of avoid you sometimes, so... \[laughter\] I know plenty of people who feel very strongly about types, and have their good reasons. I don't necessarily agree with them, but I think it's silly to write off types as a thing that people don't need to learn. If you're getting a CS degree, only a certain percentage of those people are gonna end up writing JavaScript. Some large percentage are gonna end up working in typed languages, so I feel like the experience that I had in school when I did -- I mean, we used Haskell and Scheme and Java and C++ in a bunch of stuff, but I feel like the fact that I got that experience in a typed language means that when my company decides "Hey, we're gonna use flow", like, that's fine, I understand types; or whenever the web dies in two years again - I think we're due for the web being dead - then I can go write Elm, or whatever, in a native iOS platform, or whatever, and have types.
 
 **Mikeal Rogers:** Well, when you learn a dynamic language, you learn about types... You just don't learn about static typing. You know what a string is, you know what an array is, you know that they're different, and then you also have to learn these coercion semantics, right?
 
@@ -176,7 +176,7 @@ I think types enable some very beautiful things outside of just build time check
 
 One major difference is that TypeScript allows you to fully -- actually I think Flow allows that, as well... They both allow you to fully externally type things, so you can actually just reference code from a separate type file, and say like "This function over there is this", so you actually don't even have to markup your code any differently. But there are compilers where if you wanna say, "Here's a function, and the first argument is list of people, and that is the type array where the elements are an array of strings", and then the next element is a boolean, whether you want them to do something.
 
-\[00:32:04.20\] So you can have these little type definitions inside your code, and then whenever you call a function somewhere else in your code and you send a string to the place where it expects a boolean, before you ever run your code, these little checkers can NPM-run Flow and it'll check to make sure that everywhere that you're using an API, you're sticking to the types...
+\[32:04\] So you can have these little type definitions inside your code, and then whenever you call a function somewhere else in your code and you send a string to the place where it expects a boolean, before you ever run your code, these little checkers can NPM-run Flow and it'll check to make sure that everywhere that you're using an API, you're sticking to the types...
 
 The coolest thing about it is that you can optionally enforce it. You can say "This little section of our code is really important that people use it correctly, and this section isn't. We have Flow here, we don't have Flow here." You could technically run like TypeScript and Flow in the same project, because it's all compiled down to JavaScript, much like Web Assembly, or ES.next, or any of these things that we talk about.
 
@@ -197,13 +197,13 @@ At Stripe, since we use Flow and we use some third-party things, we can also pul
 
 **Alex Sexton:** I mean, it has come up several times since then, but since these have come out, people are like "This is good enough." Everyone thinks that even with TypeScript, you can actually compile down to faster than JavaScript stuff with asm.js, because sometimes you have types that you can do better than the regular JIT with...
 
-**Mikeal Rogers:** \[00:35:55.28\] Yeah, so one of the arguments that VM implementers like to have about types is that they can make the VMs much faster if they know what the types are. But now we're seeing this case where actually tools are better at optimizing this kind of stuff than people are. So if you have things like Flow type and TypeScript, we can actually write tools that then turn into even better JavaScript code that can hit all the hot code paths depending on the types.
+**Mikeal Rogers:** \[35:55\] Yeah, so one of the arguments that VM implementers like to have about types is that they can make the VMs much faster if they know what the types are. But now we're seeing this case where actually tools are better at optimizing this kind of stuff than people are. So if you have things like Flow type and TypeScript, we can actually write tools that then turn into even better JavaScript code that can hit all the hot code paths depending on the types.
 
 **Alex Sexton:** I personally like types much better for documentation and people-related benefits, like IDEs and stuff like that, much more than I like it for safety and speed. It seems like everytime we think something about safety and speed is true with types, someone on the V8 team shows us that we're wrong. If what I just said is incorrect, please don't send me hate mail, but...
 
 **Mikeal Rogers:** \[laughs\] It's true, except sometimes it's the Firefox team; sometimes it's also the SpiderMonkey people. Okay, I think we're about ready to have another break now. Right after the break, when we come back, we're gonna get into the featured project of the week and some of our picks. We'll be right back.
 
-**Break:** \[00:37:06.00\]
+**Break:** \[37:06\]
 
 **Mikeal Rogers:** Alright, so let's get into the featured projects. I actually cheated and I threw in two featured projects for this, because I really wanna talk about some of the lesser know - for lack of a better term - JS Standards. These aren't Standards in Standards bodies, but these are standard APIs that inside of the JavaScript ecosystem for both Node and the browser we have these little APIs that act as glue between a bunch of higher-level stuff and a bunch of lower-level stuff.
 
@@ -239,7 +239,7 @@ Today I have two projects; one is called Abstract Blob Store, I believe... I los
 
 **Alex Sexton:** Sure.
 
-**Rachel White:** \[00:40:16.10\] Yeah, it wants to make people collaborate with sharing data more, too. I think they have a Knight Foundation grant too, so they do a bunch of cool stuff.
+**Rachel White:** \[40:16\] Yeah, it wants to make people collaborate with sharing data more, too. I think they have a Knight Foundation grant too, so they do a bunch of cool stuff.
 
 **Mikeal Rogers:** They actually have a bunch of grants, yeah. You can go to the RFC podcast on the Changelog network and there's a podcast on Request For Commits with Max where he talks about the grants and how to get them and how to grant-fund open source.
 
@@ -279,7 +279,7 @@ So people wrote some in the memory, and people wrote them to work in the browser
 
 **Mikeal Rogers:** I think these standards end up getting buried in the things that people are actually building, right? There's some really cool IPFS demos, and IPFS uses Abstract Blob Store internally, and Abstract stuff. In fact, there's an IPFS Abstract Blob Store that they expose to everybody else too, so you can use that as an upper-level storage mechanism. But even the underlying storage mechanisms where they store their internals also uses this abstract store. So those are some good examples.
 
-\[00:44:11.17\] I think that the biggest demo of all this stuff is probably the Dat Project and the stuff that they're building.
+\[44:11\] I think that the biggest demo of all this stuff is probably the Dat Project and the stuff that they're building.
 
 **Alex Sexton:** Cool. I think they'd get more traction if they didn't name it Abstract Blob Store.
 
@@ -313,7 +313,7 @@ One of the guys on my team found a bug in the invitation of Flow, and he wanted 
 
 **Mikeal Rogers:** \[laughs\] Rarely people that are really into typing. I'm looking at the Request definition in here, and it's really funny because so many of the Request functions take dynamic arguments... They'll take different types and then do different \[unintelligible 00:48:04.24\]
 
-**Alex Sexton:** \[00:48:06.26\] Massively overloaded...
+**Alex Sexton:** \[48:06\] Massively overloaded...
 
 **Mikeal Rogers:** Right, so there's all of these "declare any", "declare any" types... It's pretty funny.
 
@@ -369,7 +369,7 @@ There's this new community; the organizers of the community have just been pheno
 
 **Mikeal Rogers:** Okay, awesome. Also, JSConf EU I guess is a good pick; it's a great conference. Awesome kind of tent pole event. Rachel?
 
-**Rachel White:** \[00:51:53.15\] Yes. Okay, I do have a pick. If you're interested in data vizualization with D3 and other really cool stuff, there's two women... One lives in San Francisco, the other lives in Amsterdam, and they have this project called Data Sketches, where each month they are taking different topics and experimenting with data viz through exploration of how to show information based off of each of those topics. I saw one of them speak in January - Shirley Woo is one of them, and the other woman is Nadia Bremer (I hope I'm saying those names right).
+**Rachel White:** \[51:53\] Yes. Okay, I do have a pick. If you're interested in data vizualization with D3 and other really cool stuff, there's two women... One lives in San Francisco, the other lives in Amsterdam, and they have this project called Data Sketches, where each month they are taking different topics and experimenting with data viz through exploration of how to show information based off of each of those topics. I saw one of them speak in January - Shirley Woo is one of them, and the other woman is Nadia Bremer (I hope I'm saying those names right).
 
 It's just really interesting to see all the different ways that you can take data and have it be informational. They have seven months so far, and they each have the same topic for each month, except they take it in totally different directions. One month they picked books, and what one of the women did versus what the other woman did is completely different, and it's super cool to see the differences of how they made stuff. I'll post the link in the chat.
 

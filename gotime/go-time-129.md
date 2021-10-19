@@ -32,7 +32,7 @@ Joining me today, Johnny Boursiquot. Hello, Johnny!
 
 **Roberto Clapis:** Yes, yes... We found some things in Safari and they weren't happy about that, and they decided to make a funny blog post about it.
 
-**Mat Ryer:** \[00:03:57.09\] Okay, we'll have to put that in the show notes, and you can tell us more about it as well later... Because I need to welcome our final guest today. It's Tom Steele. Tom is one of the authors of the book Black Hat Go, and a research consulting directory at Atredis Partners. Did I say that right, Tom?
+**Mat Ryer:** \[03:57\] Okay, we'll have to put that in the show notes, and you can tell us more about it as well later... Because I need to welcome our final guest today. It's Tom Steele. Tom is one of the authors of the book Black Hat Go, and a research consulting directory at Atredis Partners. Did I say that right, Tom?
 
 **Tom Steele:** Yeah, you got it good enough.
 
@@ -90,7 +90,7 @@ So in that No Starch ecosystem there's -- I don't think there's a White Hat, but
 
 So I think more along the terms of what No Starch was thinking, was like these are more like attacking-based tools, versus what a defender would use. But typically with white hat/black hat, that historically has been more criminal versus authorized type of testing. However, we all go to Black Hat, the conference over here, and most of us are not criminals anymore... \[laughs\]
 
-**Johnny Boursiquot:** \[00:07:57.02\] Plus it'd probably boost sales too, right? \[laughs\] It's not dull and boring, it's more of "Yeah, you're going in the offensive. You're gonna poke holes in people's systems." That sounds way more fun to me.
+**Johnny Boursiquot:** \[07:57\] Plus it'd probably boost sales too, right? \[laughs\] It's not dull and boring, it's more of "Yeah, you're going in the offensive. You're gonna poke holes in people's systems." That sounds way more fun to me.
 
 **Tom Steele:** Yeah. So the goal for the book, when we got asked who the audience was, the audience wasn't people that know Go already. And I don't even think it's people that know Go, from the Go community. Certainly, if they wanted to go pick the book up and expose themselves to some things they might not be exposed to, that'd probably be a good choice, too. But the audience was really like the people that I work with in the security industry, or maybe people who are just getting started, or they wanted to learn a new language, and then they want useful tools that they can go apply.
 
@@ -108,7 +108,7 @@ I've really been enjoying this book, so kudos to you and the others. This is a r
 
 It was my first experience with Go in writing a tool that I actually needed at work... And it's a blast, because you just use Go, stuff that is in the standard library. Actually, in your book I think most of the imports you don't even mention them, because just running Go import on your snippet would import all the right packages, because you just use a lot of standard library and some external packages here and there, which I really appreciate.
 
-**Tom Steele:** \[00:12:06.21\] Yeah, you can get away with -- like you said, you implement a reader, you implement a writer, and all of a sudden you've got a tunnel.
+**Tom Steele:** \[12:06\] Yeah, you can get away with -- like you said, you implement a reader, you implement a writer, and all of a sudden you've got a tunnel.
 
 **Johnny Boursiquot:** Yeah...
 
@@ -138,7 +138,7 @@ It's also nice to see that it doesn't require that big machines, or beefy comput
 
 **Johnny Boursiquot:** So I kept thinking, when going through the book - and I'm still going through it - I've kind of been jumping around a little bit, and learning about the different projects, and whatnot... It kind of begs the question, how did you pick some of these projects? Because a lot of them are really fun. There's like credential harvesting, there's keylogging, there's building proxies to get around corporate networks, there's interacting with Metasploit over RPC, there's writing DNS tunneling... How do you pick those (to me) really fun projects? Do you pick the projects and say "Okay, what are we teaching here?", or do you say "Okay, we need to teach these things. What kind of projects would convey what we're trying to teach?"
 
-**Tom Steele:** \[00:16:13.16\] I would say the majority of the chapters came from thinking about how do we use Go during our testing, and what kind of utilities have we written and do we know a lot about? And how was it useful for us? So pretty much every single thing in that book, we've used that. There might be something small that we've used.
+**Tom Steele:** \[16:13\] I would say the majority of the chapters came from thinking about how do we use Go during our testing, and what kind of utilities have we written and do we know a lot about? And how was it useful for us? So pretty much every single thing in that book, we've used that. There might be something small that we've used.
 
 Now, the hard part was taking perhaps a bigger project and then pairing that down to something that you can actually digest in the book. So the stuff in the book is really useful, but it's all basically getting you started on "What can I do in addition to this?" But everything in there is pretty much -- like, we had used that first; there's something in there that we had used for a test.
 
@@ -156,13 +156,13 @@ So basically we built a huge list, and then we kind of paired it down to what we
 
 So we've done that before, where maybe some client's implementing TLS in a really weird way, and we've had to do that. But for the most part, for my use case and the stuff that you'll see in the book, it's more like shaping traffic, like being able to get in and out of networks, and around, and move things. So think like, you know, interesting style of reverse proxies type of thing.
 
-**Roberto Clapis:** \[00:19:45.17\] Since you mentioned rewriting the TLS package, one thing that I wrote a proxy for was the Metasploit; when you use it -- Metasploit is a common suite that collects exploits, and you just take the exploit and you run it. It uses Ruby, and it uses a specific client hello. So when you connect via TLS, some firewall detected that is the hello that usually comes from Metasploit, and other things... And the firewall is going to drop it, regardless what you send .
+**Roberto Clapis:** \[19:45\] Since you mentioned rewriting the TLS package, one thing that I wrote a proxy for was the Metasploit; when you use it -- Metasploit is a common suite that collects exploits, and you just take the exploit and you run it. It uses Ruby, and it uses a specific client hello. So when you connect via TLS, some firewall detected that is the hello that usually comes from Metasploit, and other things... And the firewall is going to drop it, regardless what you send .
 
 So with Go it's quite easy if you write your own reverse proxy to just take whatever comes from Metasploit, rewrite some headers, rewrite the client hello, because you can do that, specify the ciphers that you do... So you can clone perfectly the Chrome handshake, and the firewall is going to let you through. That is one kind of proxy that you do to yourself, to make the tools behave, which Go is great at.
 
 **Johnny Boursiquot:** I must say, that's scary, dude. \[laughs\] Honestly. I knew this was gonna be a fun episode, but really, some of the things you can do, and I've seen talked about in this book, and the stuff you're mentioning now - you can do that stuff with Go. It really blows my mind away.
 
-**Break:** \[00:21:00.06\]
+**Break:** \[21:00\]
 
 **Mat Ryer:** So it makes me wonder then, is this book potentially arming people with information that they could use to do some harm with?
 
@@ -174,7 +174,7 @@ So with Go it's quite easy if you write your own reverse proxy to just take what
 
 Showing someone how to do SQL injection, for example - that would be more like a script kiddie type of thing. You can go read about that stuff. But the best way to understand SQL injection is to go write your own SQL package. That's a great way to handle it, because now you know how to defend it and you know how to attack it. I don't have any qualms about ethically teaching \[unintelligible 00:24:04.28\]
 
-**Roberto Clapis:** \[00:24:08.14\] There's one other ethical standpoint, which is if you put the book out there, the attackers and the defenders have the same amount of knowledge. If instead this knowledge is just shared across attackers, maybe the defenders - which usually are software engineers - don't get access to this, so they might not know about this stuff. I've found that putting information out there is usually good for defense, even if it is aggressive, or black hat, or adversarial knowledge.
+**Roberto Clapis:** \[24:08\] There's one other ethical standpoint, which is if you put the book out there, the attackers and the defenders have the same amount of knowledge. If instead this knowledge is just shared across attackers, maybe the defenders - which usually are software engineers - don't get access to this, so they might not know about this stuff. I've found that putting information out there is usually good for defense, even if it is aggressive, or black hat, or adversarial knowledge.
 
 **Mat Ryer:** Yeah, it sounds like that answer is legally watertight, Roberto, if you actually had a lawyer check over that sentence... Because I think you've nailed it. \[laughter\]
 
@@ -210,7 +210,7 @@ You can say "We have this machine learning algorithm that blocks all this stuff.
 
 **Mat Ryer:** We didn't send Tom the link for this Zoom... So there's your answer.
 
-**Tom Steele:** \[00:27:56.23\] So the book talks about things in generalities... And yeah, they're known techniques, they're known flaws. And I think if you're on the defense side, if you're doing software development, knowing the attacks is definitely better than not knowing them. For example, you wanna know how to do SQL injections, so that when you're writing your application, you don't develop with that.
+**Tom Steele:** \[27:56\] So the book talks about things in generalities... And yeah, they're known techniques, they're known flaws. And I think if you're on the defense side, if you're doing software development, knowing the attacks is definitely better than not knowing them. For example, you wanna know how to do SQL injections, so that when you're writing your application, you don't develop with that.
 
 I think if you're writing software, you always wanna be like "Well, what can happen if someone does this?" I think those are really good questions to ask.
 
@@ -242,7 +242,7 @@ So it's almost like security, and making sure that your software isn't vulnerabl
 
 **Mat Ryer:** But it just didn't work at all, yeah. So it was just a bit too secure. And that was how I was pitching it... "If anything, we've made it a bit too secure..."
 
-**Roberto Clapis:** \[00:32:00.10\] Well-designed APIs are made in a way so that using them in a secure way is easier, and less effort than using them in a wrong way. That's usually what a library designer tries to do... Because otherwise people are going to go for the easy road, because they have to deploy.
+**Roberto Clapis:** \[32:00\] Well-designed APIs are made in a way so that using them in a secure way is easier, and less effort than using them in a wrong way. That's usually what a library designer tries to do... Because otherwise people are going to go for the easy road, because they have to deploy.
 
 **Mat Ryer:** Yeah, but they of course have to know what those things are, and that's where I think a book like this comes into play. Is Go good as a foundation for writing secure code? Because I've heard different things said on this subject. How does Go stack up when it comes to security?
 
@@ -282,7 +282,7 @@ Also, the paper that you were talking about, Tom - I think it's like several ten
 
 **Mat Ryer:** Well, the Go team read that kind of stuff for breakfast, don't they? That's what I like, because it's solved for us, and as developers we get to just use it. So thinking about that then, are there any common gotchas? And actually, this was a question I got from Kamal on Twitter. He asks "What are the most common mistakes that developers make that lead to exploits and security vulnerabilities?"
 
-**Tom Steele:** \[00:35:59.25\] Yeah, so I've thought about this... At Atredis we've actually tested quite a number of Go applications. We do a lot of software security type of things, and so the things that I see -- I was gonna go into that, this is actually a nice feature of Go... For example, say you wanna take JSON and you wanna move that into a struct that you eventually wanna insert into a database; this is a very common thing... The nice thing about Go is that you're explicitly defining the fields that you want in that struct. So you're not gonna get random fields.
+**Tom Steele:** \[35:59\] Yeah, so I've thought about this... At Atredis we've actually tested quite a number of Go applications. We do a lot of software security type of things, and so the things that I see -- I was gonna go into that, this is actually a nice feature of Go... For example, say you wanna take JSON and you wanna move that into a struct that you eventually wanna insert into a database; this is a very common thing... The nice thing about Go is that you're explicitly defining the fields that you want in that struct. So you're not gonna get random fields.
 
 For example, if you're using something like Node, we see this a lot, where they basically take request.body, if you're familiar with that, and they slam it into a database and now you've got real problems at hands.
 
@@ -308,7 +308,7 @@ We see that mass assignment issue... For whatever reason, when you've got cross-
 
 Basically, there needs to be an extra parameter that you strip away, but it needs to be there, and it needs to be tied to the user and to the session. Otherwise, attackers can craft those requests. I will link the package in the podcast.
 
-**Tom Steele:** \[00:39:57.18\] Yeah, and my advice there is -- yeah, the CSRF packages themselves are actually good. It's when you try to get clever. So my suggestion is be explicit. If you're building an HTTP application, build a handler that accepts only a POST request. Don't process HEAD, GET and POST in the same handler because that's when you're going to end up with what I've seen is they protected the POST verb with CSRF, but they will process a HEAD with the same value. That can be a big issue as well.
+**Tom Steele:** \[39:57\] Yeah, and my advice there is -- yeah, the CSRF packages themselves are actually good. It's when you try to get clever. So my suggestion is be explicit. If you're building an HTTP application, build a handler that accepts only a POST request. Don't process HEAD, GET and POST in the same handler because that's when you're going to end up with what I've seen is they protected the POST verb with CSRF, but they will process a HEAD with the same value. That can be a big issue as well.
 
 **Mat Ryer:** Hm. I'm just gonna go... \[laughter\]
 
@@ -342,7 +342,7 @@ I'm not super-happy with the way the validator libraries in Go work. There is on
 
 So the frameworks tend to hide and make things easy, and I remember back when I was doing Rails work, there were articles about how Rails basically prevents you from shooting yourself in the foot from a security standpoint. You can't get a little Bobby Tables kind of situation in your system if you're using Rails, because you're hoping that the framework is gonna take care of these things for you.
 
-\[00:43:57.20\] At the same time, when I think about it I'm like "Well, shouldn't I know as a developer why something is working or said it is working?" In order to be explicit - which is the advice we're giving here - that means you have to dive deeper; you have to go lower. Basically, leave the abstractions of the framework behind, get deeper, in order to know exactly what's going on. There must be some sort of happy medium there. I'm not sure where it is in the context of this conversation, but is it your advice to default to the explicitness, versus relying on packages and frameworks?
+\[43:57\] At the same time, when I think about it I'm like "Well, shouldn't I know as a developer why something is working or said it is working?" In order to be explicit - which is the advice we're giving here - that means you have to dive deeper; you have to go lower. Basically, leave the abstractions of the framework behind, get deeper, in order to know exactly what's going on. There must be some sort of happy medium there. I'm not sure where it is in the context of this conversation, but is it your advice to default to the explicitness, versus relying on packages and frameworks?
 
 **Roberto Clapis:** Personally, I think that if a framework is well-designed -- for example, Rails gives you a hand in Ruby. If a framework is well-designed or a package is well-designed, like the HTML template package, you should not know. You should be able to use it and not have vulnerabilities. That's how a framework should be done.
 
@@ -362,7 +362,7 @@ And then I guess the individual flaw that you won't see in other languages for t
 
 **Tom Steele:** ...trouble. I think the request limit on Go is 10 MB, so you can imagine an array of 10 MB; you can generate quite a bit of goroutines that way.
 
-**Break:** \[00:47:43.02\]
+**Break:** \[47:43\]
 
 **Mat Ryer:** It's funny, because you think of this stuff often as like hacking, and it's all low-level... If you believe the movies, of course, it's like 3D cubes that have to fit together. When it all lines up and lights up, you know you've hacked in somehow...
 
@@ -392,7 +392,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Roberto Clapis:** Fuzzing is going to be really useful, and also I think that the second or third most voted proposal on the Go public repo is about fuzzing. I would love to see it in the standard library, because fuzzing also makes it very easy to spot easy bugs and panics. I mean, a denial of service is usually a bad bug. It's not a memory corruption, it's not an RCE, but you don't want your server to go down. And the fuzzer will try to feed complicated input to your APIs, so you will find it EOS.
 
-**Tom Steele:** \[00:52:25.03\] Yeah, that was gonna be my unpopular opinion, was that denial of service is worse than you think. It's more critical than people think it is.
+**Tom Steele:** \[52:25\] Yeah, that was gonna be my unpopular opinion, was that denial of service is worse than you think. It's more critical than people think it is.
 
 **Mat Ryer:** Well, we'll get on to that. Before we do though, Thomas, I wanted to ask you one last question. What was your mother's maiden name? \[laughter\] Okay, good. Now you've passed the test.
 
@@ -400,7 +400,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Mat Ryer:** Nearly. Now you've passed -- it's too quick. It's too good. It is good. It's actually time, speaking on unpopular opinions... It's time for our regular slot, Unpopular Opinions.
 
-**Jingle:** \[00:53:07.14\] to \[00:53:26.26\]
+**Jingle:** \[53:07\] to \[53:26\]
 
 **Mat Ryer:** So Tom, you were saying your unpopular opinion...
 
@@ -446,7 +446,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Roberto Clapis:** I've had different experiences, probably with different clients... Because the most questions that I got was "Yeah, and then what?" You just prove that you can run arbitrary code on the server, and the answer is "Yeah, but then what?" You're like, "No, that's it... It doesn't go further than this." \[laughter\]
 
-**Mat Ryer:** \[00:56:02.12\] Is that not bad enough...?
+**Mat Ryer:** \[56:02\] Is that not bad enough...?
 
 **Roberto Clapis:** Yeah, exactly. It's like, "But what is it that you want? It makes you coffee, but it's made with milk. What do you want from me?!" \[laughter\]
 
@@ -504,7 +504,7 @@ So it's interesting that it's worth thinking of just the very practical ways of 
 
 **Tom Steele:** Maybe you guys can answer - so when you're gonna email a password reset email to a user, how do you get the domain name that you're gonna email the link from?
 
-**Mat Ryer:** \[00:58:49.24\] Oh... So I assume you don't just get it from the email address...
+**Mat Ryer:** \[58:49\] Oh... So I assume you don't just get it from the email address...
 
 **Tom Steele:** Let's say the password reset - you're gonna take in the user's email address, and then you're gonna generate a link to your domain for your application with a reset token. Let's say you're securely generating the token and everything's good there. How do you decide how to generate the URL?
 

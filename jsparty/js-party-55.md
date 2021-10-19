@@ -20,7 +20,7 @@ The purpose of the talk is to address what turns out to be a sort of surprising,
 
 **Kevin Ball:** That's a really interesting point. So are there surprising examples of things that people actually are all using?
 
-**Laurie Voss:** \[00:03:53.15\] There are tons of surprising examples of things that everybody is using. I think the one that's been getting the most gasps of surprise was the TypeScript stat, which is we asked people "Are you using TypeScript?", and 46% of people said yes. 46% of npm users is well over four million people, so that's a surprising usage space for TypeScript.
+**Laurie Voss:** \[03:53\] There are tons of surprising examples of things that everybody is using. I think the one that's been getting the most gasps of surprise was the TypeScript stat, which is we asked people "Are you using TypeScript?", and 46% of people said yes. 46% of npm users is well over four million people, so that's a surprising usage space for TypeScript.
 
 We were not expecting the result, and as a result, the question was kind of vague. Using TypeScript could mean that you are using some modules that are written in TypeScript, it could mean that you are writing TypeScript, it could mean that someone in your team is writing TypeScript and you have to use it, but you hate it. So when we run the survey again, which will be in a month or two from now, we're gonna be asking that question in a lot more detail, but at the moment, 46% is a lot; you can't ignore that. That's not just the Microsoft crowd, that's a whole bunch of people.
 
@@ -42,7 +42,7 @@ We were not expecting the result, and as a result, the question was kind of vagu
 
 There's definitely some bias there, but the bias is universally, across all groups, towards people who have some free time this afternoon.
 
-**Kevin Ball:** \[00:08:23.01\] Right. The survey is anonymous?
+**Kevin Ball:** \[08:23\] Right. The survey is anonymous?
 
 **Laurie Voss:** The survey is optionally nominated. One of the things that we wanted to do when we were doing the survey is share the data with everybody, but unfortunately, as a result of not strictly saying this should be anonymous, people put a ton of really important personal information into their survey responses, so it made it very hard to put out into the world. We had to put out aggregate results only, because people kept typing their email addresses and snippets of code into our survey boxes... We can't give that away, that's not safe.
 
@@ -62,7 +62,7 @@ And there's all these web developers, there's these great libraries - we should 
 
 So everybody has to transform JavaScript from one form of JavaScript to another form of JavaScript for the dominant use case. The dominant use case of npm is "I use a bunch of npm modules on the web", and that is the least convenient use case right now. And that's a huge problem for JavaScript in general.
 
-\[00:11:59.12\] One of the strengths of JavaScript historically has been that it's easy to get going. It's easy to learn, there's not a bunch of ceremony, you don't have to do a bunch of compilation, and we've sort of accidentally backed ourselves into this corner where that's not true anymore. I think one of the things that the popularity of TypeScript is showing is that if that's true, if to do JavaScript on the web you have to have a bunch of tooling and ceremony anyway, there's no reason that you would stick with vanilla JavaScript at all. You can adopt TypeScript; but now WASM has happened, WebAssembly, which allows you to compile any language into basically JavaScript bytecode that can run in the browser. And if you are a C++ or a Java or a Rust developer today, and you're like "Well, I could learn JavaScript, or I could just compile my language down into JavaScript and use it directly, with all of the npm modules working just fine, why would I do that? Why would I bother?"
+\[11:59\] One of the strengths of JavaScript historically has been that it's easy to get going. It's easy to learn, there's not a bunch of ceremony, you don't have to do a bunch of compilation, and we've sort of accidentally backed ourselves into this corner where that's not true anymore. I think one of the things that the popularity of TypeScript is showing is that if that's true, if to do JavaScript on the web you have to have a bunch of tooling and ceremony anyway, there's no reason that you would stick with vanilla JavaScript at all. You can adopt TypeScript; but now WASM has happened, WebAssembly, which allows you to compile any language into basically JavaScript bytecode that can run in the browser. And if you are a C++ or a Java or a Rust developer today, and you're like "Well, I could learn JavaScript, or I could just compile my language down into JavaScript and use it directly, with all of the npm modules working just fine, why would I do that? Why would I bother?"
 
 This is not a problem for npm. Whether or not people continue to use JavaScript or they use WASM compiled modules from other languages, the gravity well of these 800,000 libraries is gonna keep people putting them into the existing pool of libraries, so that they can use all of them at once... But it is a problem for JavaScript, right? JavaScript has always been the default language of the web. WebAssembly creates a universe where that doesn't have to be true, and if JavaScript doesn't basically get its act together, it risks losing this really privileged place it has right now as the default language of the web.
 
@@ -72,7 +72,7 @@ This is not a problem for npm. Whether or not people continue to use JavaScript 
 
 We have more data than anybody else about what people are using; we should be able to indicate to authors and users, you know, "Only 2% of users can't use this feature. It's safe. Or if 2% is too big for you, it's not safe." We can give ambient information, and without having to do any kind of hard and fast "You can't publish that feature anymore" stuff, which is totally contrary to our ethos; we can just nudge people towards "You can use this now, it's safe. We promise. We've got the data."
 
-**Break:** \[00:15:25.11\]
+**Break:** \[15:25\]
 
 **Nick Nisi:** Without getting too deep into a debate about the module syntax, do you see that as a way to smooth things out going forward for the web, as maybe more ES module support comes to modules that are published to npm? I mean, it's not even out yet, but as that goes forward...
 
@@ -94,7 +94,7 @@ One of the drags on React's growth recently has been people adopting Vue instead
 
 **Laurie Voss:** Most tools, most frameworks have usually a lifetime of about 4-5 years; that's what it looks like. They peak, and they nothing falls off a cliff, they just very, very slowly decline... That's because nobody takes an existing project and switches to a new framework. They maintain the old project in the framework it was written in, and they start new projects in the next thing. JavaScript frameworks in particular show this pattern of like a sudden peak, and then a slow decline, as something similar but better begins to absorb the new users.
 
-\[00:20:12.07\] My favorite example of this is Backbone, which at one point was 1% of all registry downloads, and now it's an afterthought. Most people don't think about Backbone, but backbone still gets 250,000 a day, because people are still maintaining a lot of stuff in Backbone.
+\[20:12\] My favorite example of this is Backbone, which at one point was 1% of all registry downloads, and now it's an afterthought. Most people don't think about Backbone, but backbone still gets 250,000 a day, because people are still maintaining a lot of stuff in Backbone.
 
 **Kevin Ball:** Well, the WordPress REST API stuff is still using Backbone collections and models... Even in Gutenberg, which is coming out in React, the stuff dealing with data structures is Backbone.
 
@@ -110,7 +110,7 @@ What I came away with was even the people who are most enthusiastic about Web Co
 
 They didn't like the way that you have to put stuff together; like you said, it's very imperative. There's a lot of DOM manipulation in JavaScript, and nobody likes doing that... And my conclusion - I don't put it in my future talk, because it doesn't have a bunch of data to back it up... My own personal gut-check prediction is that Web Components - they were a top-down effort by standards bodies to fix a problem without looking at the user space enough, and as such, they will fail, like all of the other times we've tried to do that... Like XHTML 2, and HTML 3, and all the other times when the web standards bodies tried to get ahead of what usage was, they guessed wrong, and nobody used it, and we abandoned those things.
 
-\[00:23:42.19\] The massive usage of React, the massive popularity of this pattern even outside of React, of stateful components and declarative structures - we should, as a JavaScript community, be thinking about blessing that. I would like JSX to be a part of the JavaScript standard, and every time I say this, people who are in JavaScript are like "No, it's fundamentally incompatible with JavaScript's syntax, there's ambiguities, it's not gonna work." I'm like, "We have dealt with much, much, MUCH worse fundamental incompatibilities in this platform. You are just whining. Get your stuff together and put JSX into JavaScript, so that it goes a lot faster and we can all stop using--", like, I would like to see React transcend, or something along the lines of React components transcend and just become the way that we do modules.
+\[23:42\] The massive usage of React, the massive popularity of this pattern even outside of React, of stateful components and declarative structures - we should, as a JavaScript community, be thinking about blessing that. I would like JSX to be a part of the JavaScript standard, and every time I say this, people who are in JavaScript are like "No, it's fundamentally incompatible with JavaScript's syntax, there's ambiguities, it's not gonna work." I'm like, "We have dealt with much, much, MUCH worse fundamental incompatibilities in this platform. You are just whining. Get your stuff together and put JSX into JavaScript, so that it goes a lot faster and we can all stop using--", like, I would like to see React transcend, or something along the lines of React components transcend and just become the way that we do modules.
 
 **Nick Nisi:** Yeah. And JSX, like syntax, almost did make it into the language, in ES4.
 
@@ -154,7 +154,7 @@ I wonder if there's other areas for that though... I don't know, maybe you have 
 
 **Laurie Voss:** I mean, what is the difference in your mind between that and Typescript? Typescript is a domain-specific language where they added a bunch of types. Typescript describes itself as a language, but Typescript is not a language; Typescript is a way of automatically writing tests in JavaScript. That's what types do - they add tests to your JavaScript, because of the way that you wrote it... It is a domain-specific language for testing, that also is your code at the same time. \[laughter\] I'm not sure in my own mind where the boundary is between a JavaScript alternative and a domain-specific language within JavaScript is.
 
-**Kevin Ball:** \[00:28:14.12\] Fair point. Yeah, I'm not sure. I think we get a little bit of that as we evolve the language, too. Or creating syntactic sugar for patterns that recur over and over again, to make the way that we're writing code more expressive for that.
+**Kevin Ball:** \[28:14\] Fair point. Yeah, I'm not sure. I think we get a little bit of that as we evolve the language, too. Or creating syntactic sugar for patterns that recur over and over again, to make the way that we're writing code more expressive for that.
 
 **Laurie Voss:** Yeah, I think one of the things that's been interesting in the last 4-5 years is as more and more people from other language communities have arrived in JavaScript land, usually against their will, they've sort of brought their favorite language features into JavaScript with them. Modern JavaScript certainly has a lot more Ruby structures in it than I would have ever predicted would get in there.
 
@@ -170,7 +170,7 @@ So expressiveness is good, but it's not without downsides. I don't think adding 
 
 **Laurie Voss:** Right. That's the problem with sufficient expressiveness - you can express anything, and no one can read it anymore.
 
-**Break:** \[00:30:40.17\]
+**Break:** \[30:40\]
 
 **Nick Nisi:** There's a lot of other nuances to the language now too, with async programming, and especially async/await. That's a really great syntax, and I love using it, but it can be very easy to shoot yourself in the foot with that as well, and not realize that you need to return a promise from this, or return a value in a specific way, and that could just get swallowed up if it's not -- it's a very subtle bug, that can go unnoticed easily.
 
@@ -198,7 +198,7 @@ There's people who are like, "Oh, if you don't understand pointer math, you don'
 
 **Laurie Voss:** ...which is one of the reasons that I describe myself as a web supremacist. I think it's great, I think it's awesome, I think it's better than any of the other platforms. I'm here for all of the platforms, but this is mine.
 
-**Kevin Ball:** \[00:36:01.25\] Yeah... I think the fundamentals debate is an interesting one, because I similarly -- I'll push back at folks who say "You've gotta do that first", but I also do think it is important that you keep in mind that there may be fundamentals that it's worth learning about. Don't learn React and say "I'm done." This is not an industry to be in if you don't wanna keep learning... Because stuff is gonna continue to change, but there's also layers upon layers -- like, the number of abstractions you have at the web is mind-boggling. How many places in human endeavors can you go down 10, 12, 15 levels of abstraction, at each one its own field of study?
+**Kevin Ball:** \[36:01\] Yeah... I think the fundamentals debate is an interesting one, because I similarly -- I'll push back at folks who say "You've gotta do that first", but I also do think it is important that you keep in mind that there may be fundamentals that it's worth learning about. Don't learn React and say "I'm done." This is not an industry to be in if you don't wanna keep learning... Because stuff is gonna continue to change, but there's also layers upon layers -- like, the number of abstractions you have at the web is mind-boggling. How many places in human endeavors can you go down 10, 12, 15 levels of abstraction, at each one its own field of study?
 
 **Laurie Voss:** Right. The chip designers are like "Everything is a level of abstraction to what's happening in the silicon", and we ignore that completely, until "Whoops!", it turns out that we made a performance enhancement in 1998 and it turns out it made all computers after 1998 vulnerable to timing attacks, and now we're screwed. That was a real case of the abstraction leak coming up to bite us; we were like, "Oh, well, it's in the silicon. There's no way we can patch this..."
 
@@ -224,7 +224,7 @@ But you make a good point, which is if all you know is the frameworks, and frame
 
 **Nick Nisi:** Going back to the data from the survey a little bit - has that transformed npm, the tool, in any way?
 
-**Laurie Voss:** \[00:39:40.27\] Absolutely. I think one of the strongest points of data that you can get is competition, and that brings up Yarn. Yarn was Facebook running into a problem before anybody else did. Facebook were writing bigger and more complicated web applications than anybody else, and as a result they were one of the first - they weren't THE first, but they were one of the first people to run into a problem with semver. When you had 20 modules in a tree and you were using npm's package.json and you had semver-compatible updates being pulled in automatically, that was fine; the chances of somebody having accidentally released a breaking change disguised as a security release were pretty low. But the average web app these days has 1,000 modules in it. Some of them have 2,000 modules in it, and the chances of nobody in that tree having messed up even once are nil.
+**Laurie Voss:** \[39:40\] Absolutely. I think one of the strongest points of data that you can get is competition, and that brings up Yarn. Yarn was Facebook running into a problem before anybody else did. Facebook were writing bigger and more complicated web applications than anybody else, and as a result they were one of the first - they weren't THE first, but they were one of the first people to run into a problem with semver. When you had 20 modules in a tree and you were using npm's package.json and you had semver-compatible updates being pulled in automatically, that was fine; the chances of somebody having accidentally released a breaking change disguised as a security release were pretty low. But the average web app these days has 1,000 modules in it. Some of them have 2,000 modules in it, and the chances of nobody in that tree having messed up even once are nil.
 
 Facebook was having every build be broken all the time, so they were like "No, this is untenable. We are locking everything down to minor versions", and that was literally yarn's major innovation. I don't wanna say their only innovation, but it was the big thing that Yarn was doing. It was like "We will lock everything by default." We'd been considering for a long time, and the adoption of Yarn showed us that we were overdue on that one. We took too long to do that.
 

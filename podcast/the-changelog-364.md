@@ -28,7 +28,7 @@ So let's talk about what you're maintaining. Mongoose, a very popular library, i
 
 **Valeri Karpov:** Yeah, ODM. ORM - object-relational mapper, and ODM stands for object-document mapper. Thing pretty much ORM, but for MongoDB. Although I think ORMs make a little bit more sense for MongoDB than they do for ORMs with SQL. There's a very key difference between Mongo's seven-year standard ORM, which is that your documents in Mongoose or what your object looks like in Mongoose is the same as what it looks like in MongoDB. So Mongoose doesn't scatter your data across different collections for you.
 
-**Jerod Santo:** \[00:04:13.29\] So tell me how you got involved in Mongoose. It seemed like you were with MongoDB, the company, for a while... Give us some of the back-story and how you got involved in this project, and still maintain it to this day.
+**Jerod Santo:** \[04:13\] So tell me how you got involved in Mongoose. It seemed like you were with MongoDB, the company, for a while... Give us some of the back-story and how you got involved in this project, and still maintain it to this day.
 
 **Valeri Karpov:** Yeah, so rewind all the way back to 2012, when I first started working with Node. I got into working with Node, started using Express, started using MongoDB... I really felt like it had clicked with me. But I started using the MongoDB driver; back then, the MongoDB driver required way too many callbacks for my tastes. At the time, you needed to pass in a callback to get a collection reference, and then use the collection reference to execute a find, in order to actually really do anything useful, or query a document from the database.
 
@@ -48,7 +48,7 @@ It ended up being probably the most low-touch hand-over I have ever seen. Aaron 
 
 **Jerod Santo:** Just like that.
 
-**Valeri Karpov:** \[00:07:58.11\] ...and then I was wondering "Wow, what did I get myself into here?" \[laughter\] I just kept wading through it, kept chugging along... Probably about 3-4 months after I started working at Mongoose, I ended up switching to working on the Node.js team on MongoDB... So I was actually working on Mongoose, and the MongoDB Node driver as my full-time job. That was something that made it a lot easier to work on Mongoose at the beginning.
+**Valeri Karpov:** \[07:58\] ...and then I was wondering "Wow, what did I get myself into here?" \[laughter\] I just kept wading through it, kept chugging along... Probably about 3-4 months after I started working at Mongoose, I ended up switching to working on the Node.js team on MongoDB... So I was actually working on Mongoose, and the MongoDB Node driver as my full-time job. That was something that made it a lot easier to work on Mongoose at the beginning.
 
 **Jerod Santo:** Absolutely. I'm looking at the license for Mongoose, it's still copyright 2010 LearnBoost. Isn't that Guillermo Rauch's company back in the day? I used Mongoose briefly, back when I was dinking around with MongoDB and doing some side projects with it, and just trying to understand document-oriented databases and whatnot. When the NoSQL craze really was hitting -- I don't know year that was... There was like a fever pitch for the hype cycle on NoSQL.
 
@@ -82,7 +82,7 @@ I'm curious -- you coined the MEAN stack phrase... What was that - Mongo, Expres
 
 **Jerod Santo:** Okay. There you go.
 
-**Valeri Karpov:** \[00:11:46.01\] So by virtue of that, Automattic took over the IP rights to Mongoose. So they still own the Mongoosejs.com domain name, they still have the repo underneath their org... However, I have not had much interaction with Automattic. There was one brief time when they accidentally took down the docs, because they were migrating it to HTTPS, so I had to find -- the person who pushed the commit was one of their sysadmins at Automattic, so I ended up finding him on Twitter and just angrily tweeting at him, like "Hey can you please reach out to me, I don't know what's going on with my docs site."
+**Valeri Karpov:** \[11:46\] So by virtue of that, Automattic took over the IP rights to Mongoose. So they still own the Mongoosejs.com domain name, they still have the repo underneath their org... However, I have not had much interaction with Automattic. There was one brief time when they accidentally took down the docs, because they were migrating it to HTTPS, so I had to find -- the person who pushed the commit was one of their sysadmins at Automattic, so I ended up finding him on Twitter and just angrily tweeting at him, like "Hey can you please reach out to me, I don't know what's going on with my docs site."
 
 **Jerod Santo:** Wow... That's funny. Interesting that there's all these goings-on around the property and the domain name and all this... But on your day-to-day, in your life, Val, it hasn't really affected you too much, besides that one terrible day, and then Twitter to the rescue, at least, in terms of reaching out and getting to the right person.
 
@@ -106,7 +106,7 @@ I'm curious -- you coined the MEAN stack phrase... What was that - Mongo, Expres
 
 **Jerod Santo:** Right. There you go.
 
-**Break:** \[00:13:58.09\]
+**Break:** \[13:58\]
 
 **Jerod Santo:** So let's talk about your life as a maintainer with Mongoose. I am surprised that you are pretty much the sole maintainer. "Used by", which is one of my favorite new GitHub features, to see all the dependencies of a package on GitHub - Mongoose is used by 736,140 other repos.
 
@@ -116,7 +116,7 @@ I'm curious -- you coined the MEAN stack phrase... What was that - Mongo, Expres
 
 **Valeri Karpov:** There have been people that have come and gone to help out with issues and new features. Let's see here... When I was at MongoDB I had a new grad rotation working on Mongoose at some point. The interns weren't working on Mongoose, but I did have some interns that were working on the Rust driver. That was fun.
 
-\[00:16:13.01\] There was one time I briefly had someone as a contractor, a former colleague, working on helping triage issues. That worked okay for about a year, a year and a half, but he ended up moving on. Yeah, sometimes people come and go to help out, but for the most part it's been me.
+\[16:13\] There was one time I briefly had someone as a contractor, a former colleague, working on helping triage issues. That worked okay for about a year, a year and a half, but he ended up moving on. Yeah, sometimes people come and go to help out, but for the most part it's been me.
 
 **Jerod Santo:** I see you currently have 286 issues, but only one open pull request... So it seems like you're maintaining the cleanliness of the repository, at least on the PR side, or maybe you don't get very many PRs. You have 1,422 closed, so you definitely get some PRs... Are most of those issues questions, or off-topics, or are they outstanding things that you're gonna work on and you're just not getting many pull requests to work on them? Tell me the situation of the community that surrounds you.
 
@@ -146,7 +146,7 @@ Have you ever thought about hanging it up, or passing the torch? Tweeting out, j
 
 **Valeri Karpov:** ...but it's not something that I'm planning on doing anytime in the near future. I think the nightmare scenario is like an event-stream, or something like that. No offense to Dominic Tarr, but that one was a bit of a mess.
 
-**Jerod Santo:** \[00:19:56.01\] Yeah, for sure. We had a whole episode on it. Dominic didn't feel bad, so I don't think you offend him, but... Definitely a thing that can happen. So you haven't really thought too much about hanging it up... What's your greatest challenge with this stuff? Is it time, is it knowing what to do next, dealing with humans?
+**Jerod Santo:** \[19:56\] Yeah, for sure. We had a whole episode on it. Dominic didn't feel bad, so I don't think you offend him, but... Definitely a thing that can happen. So you haven't really thought too much about hanging it up... What's your greatest challenge with this stuff? Is it time, is it knowing what to do next, dealing with humans?
 
 **Valeri Karpov:** \[laughs\] A little bit of both. The hardest challenge -- there's no one challenge that's particularly overwhelming, but you know, some day-to-day challenges... Let's see. Software always changes, and even though Mongoose itself has gone through -- I don't think I have really changed the fundamental ideas of Mongoose, or the fundamental concepts; they more or less stayed the same. But the JavaScript community around it has just evolved so much that now I have to be thinking about TypeScript, I have to be debugging bugs that only happen in Jest, because Jest is a weird JavaScript runtime, not a testing framework.
 
@@ -178,7 +178,7 @@ I've been looking forward to playing with Atomic, and I did back when it was som
 
 **Jerod Santo:** Too much stuff. Give me one command, or I'm out.
 
-**Valeri Karpov:** \[00:23:57.10\] Yeah, exactly. And you know, it's 2019, guys; Go has been a thing for so long that there's really not much reason for you to not offer at least some minimal statically-linked binary that you can just run to test something out.
+**Valeri Karpov:** \[23:57\] Yeah, exactly. And you know, it's 2019, guys; Go has been a thing for so long that there's really not much reason for you to not offer at least some minimal statically-linked binary that you can just run to test something out.
 
 **Jerod Santo:** Right. It's interesting on the -- ease of use is a thing, but also just system administration when you talk about a data store. I enjoyed Mongo when I was dinking around with it, and I remember distinctly getting to a point where I'm like "Okay, I need to take this now into production", and I just am more comfortable -- I've been a Postgres user for pretty much my entire career... And I just was like "I'm so much more comfortable deploying Postgres into production. Not that Mongo -- I don't know if Mongo is harder, or easier, or otherwise, but when I got to that point, I'm like "Oh, this is another thing I'm gonna have to learn - administration of a new data store." And that for me -- similar to you, where it's like "Give me the one command, or I'm out. Or the statically-linked thing." I don't wanna install stuff myself, or I'm out.
 
@@ -208,7 +208,7 @@ Mongoose does have a Slack channel, but I don't really check it as often as I wo
 
 **Jerod Santo:** Yeah.
 
-**Valeri Karpov:** \[00:28:04.17\] Also, setting up boundaries of expectations for issues on GitHub. The GitHub issue templates is something that I didn't adopt as quickly as I should have, but it's something that somebody put in a pull request for, and to be honest, it's been quite great, because it's kind of helped people see -- you know, people always say "There's this particular bug", and if I can't really reproduce it locally, if it's just a long, big paragraph of text that's saying "I'm just doing this one basic thing and everything is breaking", and I say "Well, we probably have a dozen tests that cover that case, so it's clearly not that. There's something else in here. There's some variable that you're not accounting for."
+**Valeri Karpov:** \[28:04\] Also, setting up boundaries of expectations for issues on GitHub. The GitHub issue templates is something that I didn't adopt as quickly as I should have, but it's something that somebody put in a pull request for, and to be honest, it's been quite great, because it's kind of helped people see -- you know, people always say "There's this particular bug", and if I can't really reproduce it locally, if it's just a long, big paragraph of text that's saying "I'm just doing this one basic thing and everything is breaking", and I say "Well, we probably have a dozen tests that cover that case, so it's clearly not that. There's something else in here. There's some variable that you're not accounting for."
 
 **Jerod Santo:** It seems like with a library that has both a language runtime, and it has a connection to another thing... You have a lot of moving parts in terms of what Mongoose has to do to do its thing. It seems like there's a lot of version mismatches that could just be problematic, like what version of Node are you running? What version of Mongo are you connecting to? What version of Mongoose are you using? These are things that probably if you have any of those older or outdated, you might run into bugs that have otherwise either been fixed already, or just don't happen with newer versions. A newer version of Node comes out... Do you have a lot of that stuff going on?
 
@@ -234,7 +234,7 @@ And now what happens if you have an old version of Connect Mongo that's using an
 
 **Valeri Karpov:** I've been tempted to try playing with TypeScript, but it's something that I haven't really found a use for yet. Mongoose would be one project where I would either be interested in someday supporting official TypeScript bindings, or maybe even porting parts of the project to TypeScript. But Mongoose is a very different project than most other projects.
 
-\[00:32:06.29\] In my day job I would not recommend we use TypeScript, and I've been very adamantly opposed to us using TypeScript at all, because -- well, we don't really have a very deep codebase in my day job; things end up being pretty flat, where it's just "Okay, here's an Express API, here's a route handler." We've got a little bit of wrappers around it to make it so that if we use Async/Await with Express... And then you just write a bunch of functions; they don't really share too much logic, other than a database connection. They just do their thing.
+\[32:06\] In my day job I would not recommend we use TypeScript, and I've been very adamantly opposed to us using TypeScript at all, because -- well, we don't really have a very deep codebase in my day job; things end up being pretty flat, where it's just "Okay, here's an Express API, here's a route handler." We've got a little bit of wrappers around it to make it so that if we use Async/Await with Express... And then you just write a bunch of functions; they don't really share too much logic, other than a database connection. They just do their thing.
 
 Our UI also is relatively flat, passing data down. The component tree isn't too deep, maybe two or three layers... So putting in TypeScript for that -- there aren't really too many massive pieces of code in our codebase that share a function call interface with each other... It's more just "Okay, here's a big, wide front-end, here's a big, wide HTTP API", they need to be able to communicate with each other, and TypeScript doesn't necessarily help with validating that, because TypeScript is compile-time only, not runtime, so if you're relying on TypeScript to check the parameters coming into your Express API, it will check that it's technically correct at compile time, but a malicious user can still throw in a bad request.
 
@@ -260,7 +260,7 @@ Let's see here... I do love ESLint. It took me a while to warm up to it, because
 
 **Valeri Karpov:** What I wanted to say about ESLint is that for a while I just didn't think I could get too much value out of it, and it seemed pretty overwhelming to lint the entire Mongoose codebase, because the style was a little inconsistent when I first started... But once I got past that initial hurdle, ESLint has been quite great; it helped me catch quite a few bugs. And there's a pretty surprising amount of cool things you can bake into ESLint.
 
-\[00:36:13.19\] The serve module on Npm - that one is also a pretty important module in my workflow. It's more of a command line tool for spinning up a web server, so just 'serve .' gives you a web server that just serves up the current directory over HTTP. That one is pretty amazing for testing doc sites, and I've been looking to migrate Mongoose over to using it... But most of my other stuff already uses serve. Serve is great.
+\[36:13\] The serve module on Npm - that one is also a pretty important module in my workflow. It's more of a command line tool for spinning up a web server, so just 'serve .' gives you a web server that just serves up the current directory over HTTP. That one is pretty amazing for testing doc sites, and I've been looking to migrate Mongoose over to using it... But most of my other stuff already uses serve. Serve is great.
 
 Another reason why I really like it is it has really great developer experience baked in... Little things like when you run serve. it automatically puts the URL to your clipboard, so you can just go to the browser, Ctrl+V and all of a sudden you're looking at your directory.
 
@@ -282,7 +282,7 @@ Another interesting little bit of back-story - I interned at Google back in the 
 
 **Valeri Karpov:** Yeah, yeah. So getting to work with Misko for a summer was pretty amazing. He taught me pretty much more about software engineering in 12 weeks than I learned in my first three years of college. So he was a big influence on me, and I look up to him a bit.
 
-\[00:39:31.00\] Another guy who used to be on the Angular team, Vojta Jina... He originally wrote Karma. Karma is one of those tools that I really thought was \[unintelligible 00:39:39.21\] Karma was actually Vojta's Masters thesis project. He wrote a thesis about it, and then implemented it as an open source project. It actually got great adoption, as well... So it was really great to see that whole process that he went through to make that happen. I'm not actually sure where he is right now. Last I talked to him he joined Apple for a while. I don't know what he's doing now. But yeah, his Karma was a pretty amazing tool at the time, really ground-breaking.
+\[39:31\] Another guy who used to be on the Angular team, Vojta Jina... He originally wrote Karma. Karma is one of those tools that I really thought was \[unintelligible 00:39:39.21\] Karma was actually Vojta's Masters thesis project. He wrote a thesis about it, and then implemented it as an open source project. It actually got great adoption, as well... So it was really great to see that whole process that he went through to make that happen. I'm not actually sure where he is right now. Last I talked to him he joined Apple for a while. I don't know what he's doing now. But yeah, his Karma was a pretty amazing tool at the time, really ground-breaking.
 
 **Jerod Santo:** Cool, Val. Well, last thing I wanna ask you is if you have a call-to-action or if you have anything in particular with regard to Mongoose...? Or I know you have some eBooks in the JavaScript space that you'd like to have the community rally around you, support you, help you, get involved with anything? What would you say to the open source community out there with regard to you and the projects that you're maintaining?
 

@@ -12,7 +12,7 @@ Today's show will be a debate on modern JS tooling and whether or not it is too 
 
 **Divya Sasidharan:** "Many packages. New frameworks built all the time. Config hell. Webpack." To start the conversation, it's worth talking about what exactly JavaScript tooling is. JavaScript tooling consists of tools, utilities, libraries that give developers the ability to build code for a specific target. I don't say web specifically or the browser, because now there's multiple build targets you can use for JavaScript. You can build JavaScript for mobile and for the browser, so any target you want. And then JavaScript tooling is often optimized for developer ergonomics. So tools like hot reload, test suites, compilation and build config things are all specifically for developers' satisfaction and to make their processes easier.
 
-\[00:04:09.12\] So in a way, JavaScript tooling and the ecosystem is idyllic, because it gives developers the ability to wrangle an otherwise behemoth system... But the problem is that the tooling is overly complex. There's so many tools that you have to work with now. And that's mainly because working with modern JavaScript you can't just take your code and put it on a browser and it runs; you have to go through multiple steps.
+\[04:09\] So in a way, JavaScript tooling and the ecosystem is idyllic, because it gives developers the ability to wrangle an otherwise behemoth system... But the problem is that the tooling is overly complex. There's so many tools that you have to work with now. And that's mainly because working with modern JavaScript you can't just take your code and put it on a browser and it runs; you have to go through multiple steps.
 
 So with the current standard, which is ES2015 and future versions, often times they're not always compatible with browsers, because browsers kind of take a long time to implement them... So as a result, you have to do things like transpiling, and then there's also the issue of modularizing your code, which is often a performance benefit, because you don't want to put all of your JavaScript and load that all at once, so you want to modularize. These add additional complexity, because you have to think about how exactly you want those systems to work.
 
@@ -42,7 +42,7 @@ When you think about programming languages or frameworks that "die", they often 
 
 What that essentially means is that unless you are in a part of the programming ecosystem that is growing, you have a problem; you are effectively sort of dying. If you aren't capturing at least as much growth as the entire field is growing, that can be problematic. It means that in the future you will just have less options than other developers. So I wanna come back - in that context I wanna come back to this lovely haiku, actually. It's perfect.
 
-\[00:08:10.02\] Many packages - this is said like it's a problem. Like, what an amazing problem to have... Ask a Haskell programmer - love the fact that when they want to use a package, it does not exist and they have to write it from scratch every single time. So we've effectively graduated on to second-order problems because we have been successful. New frameworks built all the time, new things being built all the time is a sign of success. It's also a sign of health. If you don't have new things built all the time replacing the old things, then that's a huge problem.
+\[08:10\] Many packages - this is said like it's a problem. Like, what an amazing problem to have... Ask a Haskell programmer - love the fact that when they want to use a package, it does not exist and they have to write it from scratch every single time. So we've effectively graduated on to second-order problems because we have been successful. New frameworks built all the time, new things being built all the time is a sign of success. It's also a sign of health. If you don't have new things built all the time replacing the old things, then that's a huge problem.
 
 One of the strange things that's happened actually in the last ten years - it used to be that languages only stagnated and they didn't really lose absolute users. But that actually did happen to Ruby a bit. If you look in the Ruby ecosystem, it's sort of a problem. Nothing is replacing Rails. It's just there, it's doing its thing forever; there is not a new thing that's coming in to replace it. In JavaScript, because we're always expanding, because we have all these new use cases that we're handling all the time, that means a huge set of new tools and frameworks are always coming in to replace the previous ones.
 
@@ -74,7 +74,7 @@ So if you look at the earlier days of Node, that was how the whole ecosystem wor
 
 **Feross Aboukhadijeh:** I guess I wanna just start off by saying that, in general, I'm very sympathetic to this argument that modern JS tooling is too complicated, and I've gone on my fair share of rants about it... Especially when dealing with some tool that I feel is more complicated than it needs to be. Whenever that happens, I do tend to feel like we've created a lot of problems for ourselves that we didn't need to create.
 
-\[00:12:01.23\] A lot of times I feel like when nerds are being nerds, they can invent unnecessary problems for themselves. An example of this that I encountered a lot a few years ago was people would send a pull request to an open source project that I was in charge of, and they would be like "I converted everything to the newest syntax for you. Here you go. Oh, and also, I added 15 Babel plugins, so that we can compile it back to ES5." And they change every single line in the project.
+\[12:01\] A lot of times I feel like when nerds are being nerds, they can invent unnecessary problems for themselves. An example of this that I encountered a lot a few years ago was people would send a pull request to an open source project that I was in charge of, and they would be like "I converted everything to the newest syntax for you. Here you go. Oh, and also, I added 15 Babel plugins, so that we can compile it back to ES5." And they change every single line in the project.
 
 **Mikeal Rogers:** You hated this so much you wrote standard.
 
@@ -96,7 +96,7 @@ We are doing a lot of hard things, like trying to make a website that loads inst
 
 **Adam Stacoviak:** Ding-ding-ding. Alright, so we have three takes in here. We began this debate thinking we'd have two teams, but we ended up with three - so we've got team Yep, team Nope, and team It Depends. When we come back, we're gonna dive a little bit into more of some back-and-forth, a little bit shorter segments, so we can kind of conversate around the complexity, and maybe switch sides even. We'll see.
 
-**Break:** \[00:15:29.10\]
+**Break:** \[15:29\]
 
 **Adam Stacoviak:** We are back. The question on our minds here is "Is modern JavaScript tooling too complicated?" We've got team Yep, team Nope, and team It Depends. Now we're moving into more of a section of shorter spurts; more conversational, some interruptions... But let's open it back up to Divya with team Yep. What do you wanna open up with here for your counter-argument? Or maybe an attack, who knows what's gonna happen here...
 
@@ -126,7 +126,7 @@ Yeah, performance is really important, but is it worth putting in that extra tim
 
 So in a sense, within the ecosystem there's this push towards "Yes. New. Doing things better", which is what Mikeal was mentioning, which is great, but it's also "Do we need to do this all the time?" If we have a solution that works, do we need to constantly iterate on it at the speed that we're currently iterating on, in order for us to be more effective, or to build better applications? I'd argue that's not the case. A lot of the times we introduce this complexity when we don't need it half the time.
 
-\[00:20:10.16\] For instance, React -- and I hate to throw specific frameworks under the bus... This is a specific part of it - they introduced Fiber, which is their new reconciliation algorithm... And to this day, I have no idea why I would use it. Maybe because the applications they've built have never been to the scale that it would require it... But I still can't fully grok why I would use it, and what use case. I've never actually put it in an application of any form, because for me that's a solution to a problem I do not have... But I know of use cases where people are like "This is great. I'm gonna start using it", even though you don't necessarily need it. And I hear this argument a lot.
+\[20:10\] For instance, React -- and I hate to throw specific frameworks under the bus... This is a specific part of it - they introduced Fiber, which is their new reconciliation algorithm... And to this day, I have no idea why I would use it. Maybe because the applications they've built have never been to the scale that it would require it... But I still can't fully grok why I would use it, and what use case. I've never actually put it in an application of any form, because for me that's a solution to a problem I do not have... But I know of use cases where people are like "This is great. I'm gonna start using it", even though you don't necessarily need it. And I hear this argument a lot.
 
 Same for TypeScript. I'm not someone who uses TypeScript, and I understand the arguments for it. I will not start using TypeScript because I'm like "This is a problem I currently do not have", and I do not want to add the added complexity just to be like "Oh, it supports TypeScript", because that is just not necessary.
 
@@ -144,7 +144,7 @@ I remember when React was launched, the whole thing was about DOM diffing. The v
 
 **Feross Aboukhadijeh:** The component model has been useful for getting people to sort of all write their components in the same way.
 
-**Mikeal Rogers:** \[00:24:06.24\] Yeah. And then now we have Web Components and they can't adopt it, because they're on their own pattern, so we can't take this feature upgrade from the platform. I think there's a ton of other examples of this where the platform starts to catch up, and then the frameworks can't.
+**Mikeal Rogers:** \[24:06\] Yeah. And then now we have Web Components and they can't adopt it, because they're on their own pattern, so we can't take this feature upgrade from the platform. I think there's a ton of other examples of this where the platform starts to catch up, and then the frameworks can't.
 
 If you wanna look for a model that is much better, look at what happened with CSS frameworks for the longest time. There was a new sort of bootstrappy thing every week for a couple years, and there's all these different grid frameworks, and Flexbox frameworks, and all these things, and they're all just like CSSthat you can add into a page. And because it's just that simple "Add that CSS into a page", when CSS Grid happened, we just stopped including those... CSS Grid is just better than all of those frameworks and components. When the platform caught up, we were actually able to remove complexity, even though we still have this big ecosystem; and now we're building a new, better ecosystem on top of Grid. And that's an argument for change, for more things happening, for more choices at the end of the day, and more complexity for you to deal with and sort through... But what you end up with is a toolchain and an application that fits your needs a lot better and is actually easier to reason that.
 
@@ -170,7 +170,7 @@ You can look at a lot of the patterns that Node developed internally, because th
 
 **Feross Aboukhadijeh:** One thing we should mention is that it's important to make sure that the tools you're using solve problems that you actually have. I think that's a huge source of unintentional complexity, or what I call incidental complexity earlier. If you adopt a tool because everyone else is adopting it, and that tool was meant for a company that's a thousand times your size, you're gonna have extra complexity; that's gonna be solving problems you don't have yet... And you might argue that maybe it's good to be using a tool that can scale when you're ready to handle that much traffic, but let's be honest, your app is probably not gonna get that popular.
 
-**Mikeal Rogers:** \[00:27:56.14\] If your app gets that popular, I guarantee you'll have very different problems. That' s the thing - any app of a particular scale is going to have unique problems to that app. This is the issue with cargo cult and culture in tech in general - if you're not Google, you don't have Google's problems; you probably don't need Kubernetes. Unless you're running a cloud provider, you don't need Kubernetes.
+**Mikeal Rogers:** \[27:56\] If your app gets that popular, I guarantee you'll have very different problems. That' s the thing - any app of a particular scale is going to have unique problems to that app. This is the issue with cargo cult and culture in tech in general - if you're not Google, you don't have Google's problems; you probably don't need Kubernetes. Unless you're running a cloud provider, you don't need Kubernetes.
 
 **Feross Aboukhadijeh:** Yes, I love this. I love that you brought this up.
 
@@ -190,7 +190,7 @@ I usually don't adopt new language features when they're not even in the stable 
 
 **Feross Aboukhadijeh:** There's this thing I like to say - technical bets are multiplicative. Basically, every time you make a decision to use a new piece of technology, you have to decide "What is the likelihood that this thing is gonna have a problem that's going to destroy my project, or be a huge source of work to rewrite?" You wanna know that adopting a new technology is not a pure good; there's a trade-off, and that trade-off is "What happens when it turns out it was a bad idea and I (obviously) thought that it was a good idea at the time? What happens if the community disappears, or it's replaced by another model and we have to rewrite everything?"
 
-\[00:32:07.23\] You can do a certain number of technical bets, but you don't wanna just -- everytime you have a decision about whether to use a risky technology or a safe technology, you don't wanna always choose the risky technology; that's just a recipe for disaster. You wanna be very careful about the risk you take on.
+\[32:07\] You can do a certain number of technical bets, but you don't wanna just -- everytime you have a decision about whether to use a risky technology or a safe technology, you don't wanna always choose the risky technology; that's just a recipe for disaster. You wanna be very careful about the risk you take on.
 
 Your example, Mikeal, of choosing a thing you know is on the standards track, and you know is very likely to stick around... I mean, you could have been wrong; decorators for example - those people thought were on a standards track, and now JavaScript decorators are stuck in stage 3, or stage 2.
 
@@ -204,7 +204,7 @@ Your example, Mikeal, of choosing a thing you know is on the standards track, an
 
 **Mikeal Rogers:** Yeah, yeah.
 
-**Break:** \[00:33:09.14\]
+**Break:** \[33:09\]
 
 **Adam Stacoviak:** So we're back, we've been debating this concept of -- I guess not really a concept; it's the truth, based on Divya, potentially... She may wanna switch sides here, but "Is modern JavaScript tooling too complicated?" I might actually wanna throw in a caveat to the question, which is like "For whom?" You might have different styles of developers out there; is it too complicated for a seasoned developer, or is it too complicated for a newer or green developer, or someone who's newer to the field? Maybe one extended version of that could be that question; take it if you like. But this is a chance to play round-robin, and maybe switch sides, maybe go rogue, pick a different team, whatever... So who wants to go first?
 
@@ -220,7 +220,7 @@ I'm somebody who severely limits my tooling. I've moved away even from graphical
 
 But that said, it's really important to have a diverse and broad and really high growth ecosystem. If you don't have all of those things, then you're sitting in a corner of just the technology sphere in general that might die off. We were also talking about risk earlier, and the risk that something may or may not be adopted... In ecosystems that do not have this growth problem, you literally run the risk of this whole thing that you're working with dying off and not that many people using it in the future...
 
-\[00:36:22.04\] So I think that this is a very good problem to have in general, and that we shouldn't throw up our hands and say "Oh, JavaScript fatigue" or "Tooling fatigue" or whatever. We want, and frankly we need an ecosystem of tools that is too many for you to know all of them and to make a decision, because that's the only sort of ecosystem that you can be confident will actually exist in the future and will still be solving the problems that you have.
+\[36:22\] So I think that this is a very good problem to have in general, and that we shouldn't throw up our hands and say "Oh, JavaScript fatigue" or "Tooling fatigue" or whatever. We want, and frankly we need an ecosystem of tools that is too many for you to know all of them and to make a decision, because that's the only sort of ecosystem that you can be confident will actually exist in the future and will still be solving the problems that you have.
 
 **Divya Sasidharan:** I think the growth of the ecosystem is always good. The fact that we have a lot of tooling and a lot of options... That is a good thing, because it is a sign, as Mikeal said, of a healthy language, in this case JavaScript. But one thing that I want all of this tooling to be more cognizant of is improving JavaScript as a language, rather than having these forks of JavaScript which currently exist.
 
@@ -234,7 +234,7 @@ I've heard rumblings of conversations where TC39 has been trying to reach out to
 
 **Feross Aboukhadijeh:** Yeah, I think the ecosystem is complex, and because of the arguments that we've made before, because we have problems and then we find solutions and then we open-source our solution, and then other people use the solution, even though they have no context of what the problem was, and then that results in overall it being complex... But I think there's two ideas - there's my application and the way that I use JavaScript is complex, and then there's the overall "Is the ecosystem complex?"
 
-\[00:40:11.19\] I think the point Mikeal was making, and I kind of agree with that, is that the ecosystem is incredibly lush with tools and libraries, so you can choose whichever you want. You can choose an incredibly pared-down version. If you want to use React Light, there's Preact. If you wanna use a more declarative framework, you can use Vue. There's all these options you can use, at your disposal... But I think there's also that part, which is "My application, or the thing that I'm working on, is complex, because I choose to add all these extra things to pre-optimize my codebase, because my application is obviously gonna be successful and scale."
+\[40:11\] I think the point Mikeal was making, and I kind of agree with that, is that the ecosystem is incredibly lush with tools and libraries, so you can choose whichever you want. You can choose an incredibly pared-down version. If you want to use React Light, there's Preact. If you wanna use a more declarative framework, you can use Vue. There's all these options you can use, at your disposal... But I think there's also that part, which is "My application, or the thing that I'm working on, is complex, because I choose to add all these extra things to pre-optimize my codebase, because my application is obviously gonna be successful and scale."
 
 That's kind of my issue with it - in a way, we shouldn't curb the growth of the community, because I think the fact that there's so many things means that people are actively contributing and actively working on things and thinking about problems, which I think is a great thing... But it's like, "How do we introduce that nuance to show developers, both seasoned and new, that certain tooling is not necessarily needed for every single use case?" Because a lot of the arguments I've heard for certain libraries have been "You have to use this, because your code will be better by it", which I think is incredibly subjective... Because I'm like "Sure, maybe. But will it, actually? And is it introducing more load and more weight to my codebase to solve one thing, that I might not even have a problem for?" So that's where I was coming from.
 
@@ -258,7 +258,7 @@ That's kind of my issue with it - in a way, we shouldn't curb the growth of the 
 
 **Adam Stacoviak:** Can you be more specific?
 
-**Mikeal Rogers:** \[00:44:03.07\] I think that looking at pika package is sort of enlightening... Because by literally drawing a line and just saying "We're only using these new features that are available in the platform", they're able to provide an experience that's just really, really good. Way nicer than what you can get with npm plus a bundler, for instance.
+**Mikeal Rogers:** \[44:03\] I think that looking at pika package is sort of enlightening... Because by literally drawing a line and just saying "We're only using these new features that are available in the platform", they're able to provide an experience that's just really, really good. Way nicer than what you can get with npm plus a bundler, for instance.
 
 **Feross Aboukhadijeh:** Can you go into that a little bit, what makes it nicer?
 
@@ -284,7 +284,7 @@ So things like that just don't actually go away once you have these giant dep tr
 
 The other thing too is that when you're building a new ecosystem or you're trying to adopt a new ecosystem feature, there are some pretty big advantages to breaking compatibility. If you just say "We actually don't work with everything before", you incentivize a new group of developers to be the first people to write all of those new things again.
 
-\[00:48:04.12\] One of the reasons why Node was so successful in the early days was because we were so incompatible with everything. We had to take all these old C libraries that use blocking I/O and rewrite them in pure JavaScript. Python and Ruby didn't have to do that, and so they ended up with just binding layers for all that, and we ended up with this big ecosystem.
+\[48:04\] One of the reasons why Node was so successful in the early days was because we were so incompatible with everything. We had to take all these old C libraries that use blocking I/O and rewrite them in pure JavaScript. Python and Ruby didn't have to do that, and so they ended up with just binding layers for all that, and we ended up with this big ecosystem.
 
 **Feross Aboukhadijeh:** So are there actually packages that are written using ES module syntax that don't work with old-fashioned bundlers?
 
@@ -328,7 +328,7 @@ It seems like all I get from switching to pika is I can use less modules. Unless
 
 **Divya Sasidharan:** I was just listening in on this conversation... It's interesting, because I haven't used pika, so I have no reason, similar to what Feross was saying, for switching just yet. And if anything, I would wait until there's a reason for me to switch, like there's an actual problem that I'm trying to solve... Which I don't have.
 
-\[00:52:02.19\] Because I know that pika apparently has -- I've heard a lot about its optimizations for tree shaking, and less module dependencies, and all of that, but I've never noticed that need in my applications for me to switch over. And I would use that argument for most tooling out there.
+\[52:02\] Because I know that pika apparently has -- I've heard a lot about its optimizations for tree shaking, and less module dependencies, and all of that, but I've never noticed that need in my applications for me to switch over. And I would use that argument for most tooling out there.
 
 **Feross Aboukhadijeh:** I'm actually excited to try pika. I don't wanna come across as like a hater, or anything. I just think that, like I was saying, you have a limited number of technical bets that you can make. If I'm already at my maximum limit -- like, this thing I'm working on is probably not gonna work, it's already so hard for me to do it, do I wanna add on the additional risk of like "Oh, now I'm using a bundler that is really bleeding edge"? Do I wanna be the one who's filing the bug reports, or do I want the people who came before me to have already figured out all the obvious bugs? It depends on if I have the bandwidth for that or not; and if I don't, then I wanna stick with more trusted, reliable tools.
 

@@ -20,7 +20,7 @@ From our perspective, it's how are we fostering the community in that way, and h
 
 **Maria Boland Ploessl:** We have a lot of ambitions as it pertains to the community, but it is 100% always rooted in service to the tech community... So success is -- you can look at metrics of what makes a healthy ecosystem, you could look at that; you could look at so many different things, of businesses being built, you could look at just the sheer numbers of technologists, but at the end of the day, if we are providing value to the community and we are constantly working to iterate to meet the needs of our community and make our community better - that's success to me.
 
-\[00:04:13.22\] This tech ecosystem has gotten so strong over the -- if you think about the last five years... And you look at something like Twin City Startup Week; that's been growing and growing and growing each year.
+\[04:13\] This tech ecosystem has gotten so strong over the -- if you think about the last five years... And you look at something like Twin City Startup Week; that's been growing and growing and growing each year.
 
 I think that there's so much potential in our community, and we're starting to get that national recognition of things that are happening... And I think that if we keep moving the needle, but with always looking at how are we making our table bigger, how are we bringing more people to the table, and how are we intentionally thinking about community in that way... That's kind of what I think about when I think of "Are we being successful?"
 
@@ -38,9 +38,9 @@ We have a lot of ideas. Last week we piloted our first brand new event in I don'
 
 **Maria Boland Ploessl:** Yeah, it was incredible. And we did a lot of reaching out and getting feedback from community members, specifically folks who were new to the community, who were themselves recent graduates... Kind of saying "What would be really beneficial to you at an event like this?" From that, we did also AMA-style conversation circles with tech leaders during the happy hour. We had a few different topics, like "Finding a job in the tech community" or "Opportunities for founders", and we had representatives from us, from Minnesota Cup, from Beta.mn, Lunar, we had folks that were talking about building your own company... And being able to grab a beer and talk to these people who have done this before.
 
-\[00:08:02.12\] That was really cool, we got a lot of good feedback from that, and it's just kind of keeping the momentum of who was not at the table and how do we help that, and how do we kind of push the needle on that?
+\[08:02\] That was really cool, we got a lot of good feedback from that, and it's just kind of keeping the momentum of who was not at the table and how do we help that, and how do we kind of push the needle on that?
 
-**Break:** \[00:08:17.25\]
+**Break:** \[08:17\]
 
 **Tim Smith:** Maria and her husband Cory have been married seven years now. They met in college, studied abroad together, and spent their first year of marriage in Brazil, on an English teaching fellowship. Now, Maria is eight months pregnant with their first baby, and she says the hardest thing for her has been communication.
 
@@ -62,7 +62,7 @@ I really kind of keep going back to everything that we've gone through as a unit
 
 **Tim Smith:** That's four. I don't remember the fifth one.
 
-**Maria Boland Ploessl:** \[00:12:08.25\] Oh, man... Oh, touch.
+**Maria Boland Ploessl:** \[12:08\] Oh, man... Oh, touch.
 
 **Tim Smith:** Oh. D'oh. Whoops.
 
@@ -96,7 +96,7 @@ I really kind of keep going back to everything that we've gone through as a unit
 
 **Maria Boland Ploessl:** ...and I'm just like "You're just gonna let me do this?" \[laughs\] I totally felt not adult enough for that. And it's one of those things where being in the last month -- I can always speak for myself, and I'm no expert; this is only my first time around... It's a lot of different emotions at the same time, where you're like "Oh my gosh, in a month I'm gonna be a mother..." I guess you could say I am right now, but "I'm gonna be a mother for the rest of my life", and the responsibility that comes with that... And wanting to do an amazing job at that.
 
-\[00:16:18.29\] There's that kind of trepidation feeling, but there's also the very physical, real feeling of like "I'm kind of done." \[laughs\] You get to the end, and it's uncomfortable, and you try and keep perspective of -- there's sometimes where you're like "Wow, this is just such a cool process and experience, to be creating life..." And I try and take a step back and remind myself of that anytime that I'm just like "Ugh, there's an elbow in my rib cage" or something like that... \[laughs\]
+\[16:18\] There's that kind of trepidation feeling, but there's also the very physical, real feeling of like "I'm kind of done." \[laughs\] You get to the end, and it's uncomfortable, and you try and keep perspective of -- there's sometimes where you're like "Wow, this is just such a cool process and experience, to be creating life..." And I try and take a step back and remind myself of that anytime that I'm just like "Ugh, there's an elbow in my rib cage" or something like that... \[laughs\]
 
 And especially for us, where it -- it took us a lot longer, and it took a lot of work. So I'm in a place where I'm feeling really grateful, while also having all of the normal feelings of like "Oh my god, what is even happening...? I have no idea." I'm just going into it just fully well-knowing -- I mean, as much of a planner as I am, I know that this is just gonna turn everything upside down, and just being okay with that...
 
@@ -114,7 +114,7 @@ But yeah, I totally took for granted that -- she got a lot of pushback, and that
 
 I remember one thing that my parents -- they wanted to be a united front. There's five kids in our family, right?
 
-**Tim Smith:** \[00:20:03.24\] Yeah.
+**Tim Smith:** \[20:03\] Yeah.
 
 **Maria Boland Ploessl:** So they wanted to make sure that decisions, or whatever -- they're a united front; you don't go to mom for one answer and dad for another, you know?
 
@@ -138,7 +138,7 @@ And just recognizing, like, we're all gonna do the best that we can... And I do 
 
 **Tim Smith:** That's Maria Boland Ploessl. She gave birth to an incredibly handsome baby boy, William Otis, earlier this month.
 
-**Break:** \[00:23:08.19\]
+**Break:** \[23:08\]
 
 **Tim Smith:** Before we go, Maria told me this funny story about the night she met Saint Paul's mayor at a MiniDemo.
 

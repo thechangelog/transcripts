@@ -20,7 +20,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** Browserified.
 
-**Jerod Santo:** \[00:03:52.17\] Thank you! And the fifth category is Essential Elements. Each of those has five choices, 100 points up to 500 points... And we'll start with our guest, because that's polite and kind. So Scott, you are up first, my friend.
+**Jerod Santo:** \[03:52\] Thank you! And the fifth category is Essential Elements. Each of those has five choices, 100 points up to 500 points... And we'll start with our guest, because that's polite and kind. So Scott, you are up first, my friend.
 
 **Scott Tolinski:** Oh, no.
 
@@ -156,7 +156,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** No questions allowed, sir. You can't ask questions... \[laughter\]
 
-**Scott Tolinski:** \[00:08:06.24\] I'm not asking questions here...
+**Scott Tolinski:** \[08:06\] I'm not asking questions here...
 
 **Jerod Santo:** He's talking to himself.
 
@@ -292,7 +292,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** CSS Tricks for 200. Floated objects do not add to the height of the object they reside in properly. To fix it, one must... How do you fix them?
 
-**Emma Bostian:** \[00:12:10.03\] Um... What is clear fix?
+**Emma Bostian:** \[12:10\] Um... What is clear fix?
 
 **Jerod Santo:** Clear the floats. Congratulations.
 
@@ -430,7 +430,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** He's way above, it doesn't matter anyway.
 
-**Jerod Santo:** \[00:16:12.17\] Okay, back to Scott... Please pick a category and a point value.
+**Jerod Santo:** \[16:12\] Okay, back to Scott... Please pick a category and a point value.
 
 **Scott Tolinski:** Let's do Essential Elements for $500, please.
 
@@ -548,7 +548,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Scott Tolinski:** Yeah, I don't know the answer to this... What is Modern Web Design.
 
-**Emma Bostian:** \[00:20:09.02\] \[laughs\]
+**Emma Bostian:** \[20:09\] \[laughs\]
 
 **Jerod Santo:** Incorrect, sir. Emma for the steal.
 
@@ -654,7 +654,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** It's mine... I'm gonna do the last Books and Authors, please.
 
-**Jerod Santo:** \[00:24:09.07\] Okay. Whether it's High-performance JavaScript or Understanding ECMAScript 6 that you want to learn, grab a book by this prolific human who codes. So now we're looking for the actual name of the author of these books.
+**Jerod Santo:** \[24:09\] Okay. Whether it's High-performance JavaScript or Understanding ECMAScript 6 that you want to learn, grab a book by this prolific human who codes. So now we're looking for the actual name of the author of these books.
 
 **Emma Bostian:** I feel like I know it, but I'm not 100% sure. But I lose either way, so...
 
@@ -766,7 +766,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Okay. This commonly used mixin contains methods and properties for objects that can have a parent.
 
-**Emma Bostian:** \[00:28:02.00\] Commonly used mixin, contains methods and properties for objects that can have a parent... I don't know.
+**Emma Bostian:** \[28:02\] Commonly used mixin, contains methods and properties for objects that can have a parent... I don't know.
 
 **Jerod Santo:** Is that your final answer?
 
@@ -884,7 +884,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** It's related, but wrong.
 
-**Scott Tolinski:** \[00:31:59.28\] Yeah, I know what it is now.
+**Scott Tolinski:** \[31:59\] Yeah, I know what it is now.
 
 **Jerod Santo:** Nick, would you like to steal?
 
@@ -926,7 +926,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** We'll see you in round two.
 
-**Break:** \[00:33:14.29\]
+**Break:** \[33:14\]
 
 **Jerod Santo:** We are back for round two. Some people call it Double Trouble, or Double Danger, or Double Down. I don't know, you pick your favorite. Our categories for this round are "Can I use?", Frameswork, Npm-Install, Bang Important, and "What a Character". Emma, you are first up. Please choose a category and a point value.
 
@@ -982,7 +982,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** But they're all wondering about it. So the correct answer is Flexbox...
 
-**Scott Tolinski:** \[00:36:15.19\] Stop wondering about it.
+**Scott Tolinski:** \[36:15\] Stop wondering about it.
 
 **Jerod Santo:** ...but it's because it's based on what people wanna know, I guess.
 
@@ -1012,7 +1012,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** It's a good guess. And we go to Nick for the steal?
 
-**Nick Nisi:** What is \[00:37:05.12\] NBSP?
+**Nick Nisi:** What is \[37:05\] NBSP?
 
 **Jerod Santo:** \[correct sound\] That is correct.
 
@@ -1080,7 +1080,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** What a Character for 200. Full of opinions, this developer rose to fame by looking at different JavaScript snippets and saying "Whaet?!"
 
-**Emma Bostian:** \[00:40:05.07\] Um... Define fame. \[laughter\]
+**Emma Bostian:** \[40:05\] Um... Define fame. \[laughter\]
 
 **Scott Tolinski:** I know, yeah... \[laughs\]
 
@@ -1198,7 +1198,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Good guess. We go to Nick for an opportunity to steal.
 
-**Nick Nisi:** \[00:44:15.10\] I'm gonna pass.
+**Nick Nisi:** \[44:15\] I'm gonna pass.
 
 **Jerod Santo:** We go to Scott for the steal.
 
@@ -1314,7 +1314,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** For 200?
 
-**Emma Bostian:** \[00:47:59.08\] Yeah, I'm just gonna keep complaining anyway. \[laughs\]
+**Emma Bostian:** \[47:59\] Yeah, I'm just gonna keep complaining anyway. \[laughs\]
 
 **Jerod Santo:** Okay. "Not allowed", "wait" and "help" are all possible values of this CSS property.
 
@@ -1436,7 +1436,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Okay, she goes for the gusto. Even Apple is experimenting with this image format, that supports lossy and lossless compression, as well as animation and alpha transparency.
 
-**Emma Bostian:** \[00:52:13.05\] Oh... I know this, because I've just read the Image Performance book... Shoot. Oh, no...
+**Emma Bostian:** \[52:13\] Oh... I know this, because I've just read the Image Performance book... Shoot. Oh, no...
 
 **Jerod Santo:** Even Apple is experimenting with this image format, that supports lossy and lossless compression, as well as animation and alpha transparency.
 
@@ -1552,7 +1552,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Yeah. \[laughs\] You can use it on 0% of browsers.
 
-**Nick Nisi:** \[00:56:15.06\] Um... This is a total shot in the dark, but I'm gonna say "What is Houdini?" \[fail sound\] I figured.
+**Nick Nisi:** \[56:15\] Um... This is a total shot in the dark, but I'm gonna say "What is Houdini?" \[fail sound\] I figured.
 
 **Jerod Santo:** Any steals? We go to Scott for the steal?
 
@@ -1574,7 +1574,7 @@ That's the end or round two. We have for round two - Scott scores 1,400...
 
 **Jerod Santo:** Emma scores -4,000. \[laughter\] And Nick scores 2,800. We'll come back for Final Trouble right after this.
 
-**Break:** \[00:57:21.13\]
+**Break:** \[57:21\]
 
 **Jerod Santo:** We are back for Final Trouble... And a couple of our contestants are in a lot of trouble. After tallying rounds one and two, we have Emma with -3,500, our special guest Scott Tolinski at -1,400, and Nick Nisi with 2,700. We now move to Final Trouble, in which I list a category, you all submit private wagers to me of how much you wager, I ask the question, and then you submit private answers for us to tally.
 

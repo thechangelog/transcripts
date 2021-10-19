@@ -26,7 +26,7 @@
 
 **Brandon Bayer:** Yeah... Anyways, so early as spring I had a phone call with a friend of mine who is a Ruby on Rails developer. We were going back and forth about the advantages and disadvantages of developing with Ruby on Rails, versus a single-page app with React, and a separated backend... And I got kind of frustrated because I couldn't win. Because with React you have this whole API layer that you have to have, where with Ruby on Rails that's an entire section of your app architecture that's not there, so it's a lot simpler. You don't have to do data fetching and all of that.
 
-**Jerod Santo:** \[00:04:08.18\] So when you say you couldn't win, you're saying he was beating you to the ground with Ruby on Rails features? Is that where you're saying you couldn't win?
+**Jerod Santo:** \[04:08\] So when you say you couldn't win, you're saying he was beating you to the ground with Ruby on Rails features? Is that where you're saying you couldn't win?
 
 **Brandon Bayer:** \[laughs\] Well, you know, it's tongue-in-cheek, but...
 
@@ -62,7 +62,7 @@
 
 The first one is "It's full-stack and monolithic." Now, we might have to define full-stack, because now there's full-stack front, JAMstack frontend full-stack... So maybe we'll have to talk about what that means, full-stack; I think it means actually fully full-stack. Full-stack and monolithic is your first principle. API not required is principle two. Convention over configuration - that one lifted directly from Rails, which is awesome. "Loose opinions" is your fourth principle. Five is "Easy to start, easy to scale", six is "Stability" and seven is "Community over code." That's a lot... I like that last one quite a bit. Any that you'd like to start off with and say "This is what Blitz is all about?"
 
-**Brandon Bayer:** \[00:08:32.12\] Well, API not required is definitely the biggest piece of Blitz.
+**Brandon Bayer:** \[08:32\] Well, API not required is definitely the biggest piece of Blitz.
 
 **Jerod Santo:** I think it's also the biggest differentiator from other competitors. Somebody in our Slack chat was asking "Well, what about Redwood?" Because we've just had Tom Preston-Werner on the show, and Redwood is another full-stack front-end JAMstack framework, trying to provide some batteries-included, a lot like Blitz is... But Redwood very specifically is API and frontend, full separation, right?
 
@@ -92,7 +92,7 @@ So we were just exploring different ways, and one day I was brainstorming and I 
 
 **Jerod Santo:** So it's a remote procedure call style JSON API that you guys auto-generate, and can be invisible to the end developer, unless they need to peek under the covers and access it directly, or... Invariably, as you build more complex applications, the law of leaky abstractions comes into play; and that abstraction, no matter how hard you try to make it great, can't map over perfectly the real world, so you'll have to get in-between there and access it directly... Or can you modify it, can you tweak it or anything, or is it just purely generated out of your model layers, or something like that?
 
-**Brandon Bayer:** \[00:12:19.17\] Most of it is purely generated. There's multiple things you can do. We have HTTP middleware that runs on the server, that can intercept that call. It's actually \[unintelligible 00:12:27.14\] Express-compatible, so you can use that on the server to intercept your Blitz queries and mutations which use the automatically generated API. And then if you need something else, you can do a custom API route, which is like the same as with Next, where you have your own endpoint, direct access to the \[unintelligible 00:12:49.16\] objects and you can do anything you want. So you can still use that like normal.
+**Brandon Bayer:** \[12:19\] Most of it is purely generated. There's multiple things you can do. We have HTTP middleware that runs on the server, that can intercept that call. It's actually \[unintelligible 00:12:27.14\] Express-compatible, so you can use that on the server to intercept your Blitz queries and mutations which use the automatically generated API. And then if you need something else, you can do a custom API route, which is like the same as with Next, where you have your own endpoint, direct access to the \[unintelligible 00:12:49.16\] objects and you can do anything you want. So you can still use that like normal.
 
 **Jerod Santo:** Can you give a concrete example of a function you would write server-side, import client-side and execute, that's a common thing, or that lots of apps are gonna do, so people can say "Oh, that's what he's talking about", versus trying to conceptualize it?
 
@@ -110,7 +110,7 @@ And then secondly, for the mutations, which is even a little bit more simple - y
 
 **Jerod Santo:** So it's my fault. \[laughs\]
 
-**Brandon Bayer:** \[00:16:01.16\] Yeah, we're not adding any extra stuff on there. It's just a simple connection between the function call and the server, and the client.
+**Brandon Bayer:** \[16:01\] Yeah, we're not adding any extra stuff on there. It's just a simple connection between the function call and the server, and the client.
 
 **Jerod Santo:** And you're just sending objects...
 
@@ -134,13 +134,13 @@ And then secondly, for the mutations, which is even a little bit more simple - y
 
 From the client, you could specify "Hey, I want this specific call to getUser to include some relationship entities." So at the various call sites, you can use the same query function at different locations, and each location in the frontend can specify different requirements for what it wants. It's just normal coding, just like you would in a local environment.
 
-**Break:** \[00:17:53.16\]
+**Break:** \[17:53\]
 
 **Jerod Santo:** So differentiated again from Redwood with the API not required. When I spoke with Tom about Redwood I was arguing for the simplicity of the design that you're espousing for Blitz, and one of the things he said is that with that architecture - which I think he agreed is simpler conceptually for developers, which is always nice - is that you give up the multi-client opportunity, which is... If you're gonna have a mobile app, if you're gonna have a public API, if you're gonna have multiple desktop -- if you have all these different clients that are gonna attach to your web app, you're gonna need that API anyways. You're gonna need a GraphQL API or a REST API. So not building it right away is myopic, is short-sighted. What do you think about that?
 
 **Brandon Bayer:** Well, number one, you can use the generated APIs from anywhere. It's just a standard API endpoint that you can add token authentication to, and you can use. So it doesn't automatically nullify multi-client situations. Now, yeah, it's not gonna be as nice as a GraphQL API, but it's essentially similar to a REST API; you're gonna have to look at the documentation of how to use it... But you can do it.
 
-\[00:20:05.14\] The other thing is definitely using the API from mobile apps is important, and we are planning on adding first-class support for React Native. I'm not sure quite how we're gonna do it yet, but the dream and what we're working towards is have a mobile app from the same repo, so you can share components if you want to, or at least business logic code. And then you could import those same queries and mutations into your React Native code, and then we could swap that out with a generated client.
+\[20:05\] The other thing is definitely using the API from mobile apps is important, and we are planning on adding first-class support for React Native. I'm not sure quite how we're gonna do it yet, but the dream and what we're working towards is have a mobile app from the same repo, so you can share components if you want to, or at least business logic code. And then you could import those same queries and mutations into your React Native code, and then we could swap that out with a generated client.
 
 **Jerod Santo:** That would be super-cool. Does that sound like it's long ways away, long ways down the road? Or are you working on it actively?
 
@@ -162,7 +162,7 @@ Another opinion is whenever you generate a new app, you have things already conf
 
 **Brandon Bayer:** TypeScript is amazing. My analogy is TypeScript is like running through a maze with your eyes open, but JavaScript is running through a maze with your eyes closed.
 
-**Jerod Santo:** \[00:23:56.24\] \[laughs\]
+**Jerod Santo:** \[23:56\] \[laughs\]
 
 **Brandon Bayer:** You have to slow down and kind of feel your way, like "Does this actually work? Okay, yeah, I can go this way..."
 
@@ -204,7 +204,7 @@ Now, we're not set on exactly like Ember does, with six weeks. We're open to fee
 
 One thing that's really crazy is anytime you put up a good first issue, something that's pretty easy, a lot of times that's fixed within an hour.
 
-**Jerod Santo:** \[00:28:20.27\] That's nice.
+**Jerod Santo:** \[28:20\] That's nice.
 
 **Brandon Bayer:** So we really appreciate our contributors.
 
@@ -266,11 +266,11 @@ So this allows you to organize pages by either domain model, or some type of dom
 
 **Jerod Santo:** And it sounds like in addition to that you do a lot of the scaffolding using Next. You'll code-generate a bunch of stuff in addition to allowing you to have separate pages directories, like you said, but you'll also do a bunch of code generation.
 
-**Brandon Bayer:** \[00:32:07.24\] Yeah. Especially if you're using the Blitz API data layer, then we have generators, just like Rails does, for generating -- we can generate end-to-end code, so all your queries and mutations, your pages, an empty form stub... So that's really nice.
+**Brandon Bayer:** \[32:07\] Yeah. Especially if you're using the Blitz API data layer, then we have generators, just like Rails does, for generating -- we can generate end-to-end code, so all your queries and mutations, your pages, an empty form stub... So that's really nice.
 
 One thing we're going to add beyond what Rails has here is the ability to override the templates, like customize them, and have the template definition right in your project. So you can customize that to fit how you're building your app. You can add new templates, so instead of using \[unintelligible 00:32:41.07\] you can just hook into the Blitz generator and then everything is really nice.
 
-**Break:** \[00:32:54.16\]
+**Break:** \[32:54\]
 
 **Jerod Santo:** So let's talk about that compilation step... Does Blitz compile itself a lot like Svelte would? Is there a runtime API with Blitz?
 
@@ -296,7 +296,7 @@ One thing we're going to add beyond what Rails has here is the ability to overri
 
 **Brandon Bayer:** The other thing is cold-start issues and database connection pooling.
 
-**Jerod Santo:** \[00:36:10.19\] Well, tell me more.
+**Jerod Santo:** \[36:10\] Well, tell me more.
 
 **Brandon Bayer:** So a Postgres database - let's say you have 20 connections, and so to run serverless you have to have a connection pool in front of that PgBouncer, or AWS's thing, which is RDS Proxy, I think... But that can only work inside AWS VPC (virtual private network), so you can't use that with Vercel... So right now, one of the only options is manage Postgres on DigitalOcean, which does have PgBouncer built in, so it's easy to turn on... But it's still another thing to think about.
 
@@ -334,7 +334,7 @@ So now that there's something like Vercel for full-stack, that has actually firs
 
 **Brandon Bayer:** Recipes come from Gatsby. Gatsby Recipes is a thing they've announced relatively recent. It's in alpha, I think. Essentially, a recipe is an MDX file that defines certain operations in your codebase. It can add dependencies to your project, it can add files to your project, it can update files in your project... So a recipe is a way to describe some type of modification.
 
-\[00:40:04.01\] For example, you can install a third-party library. So you could run blitz install styled-components, and that would install StyledComponents, it would add the necessary code in the Next.js root app component, so that SSR would work, and all of that stuff... So it's one command to do multiple things.
+\[40:04\] For example, you can install a third-party library. So you could run blitz install styled-components, and that would install StyledComponents, it would add the necessary code in the Next.js root app component, so that SSR would work, and all of that stuff... So it's one command to do multiple things.
 
 So if you're familiar with Next.js, all of their example apps - they have maybe hundreds of example apps on their repo of how to do these types of integrations... So we can basically take every one of those, turn it into a recipe, and you never have to go hunting the right repo, copy and paste... You just run a command and there you go.
 
@@ -358,7 +358,7 @@ So if you're familiar with Next.js, all of their example apps - they have maybe 
 
 **Brandon Bayer:** Yeah, yeah.
 
-**Jerod Santo:** \[00:42:54.13\] It sounds like Jekyll and Hyde kind of stuff. I'm gonna have to go look at some of this code.
+**Jerod Santo:** \[42:54\] It sounds like Jekyll and Hyde kind of stuff. I'm gonna have to go look at some of this code.
 
 **Brandon Bayer:** And then the other way -- it's composable. Just like you compose React components, you can compose all these different things together.
 

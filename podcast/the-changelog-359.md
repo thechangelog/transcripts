@@ -12,7 +12,7 @@ I was looking at your projects on GitHub, and you have 132 repos that you person
 
 **Feross Aboukhadijeh:** Yeah, that's a good question. I definitely think I've done more of the creating projects from scratch, to solve my own problems, and then becoming a maintainer of those. There is one time when I did a bit of contribution to something else, which was Browserify, which is a package for taking your JavaScript code and bundling it up so that it can work in a web browser. But besides that, yeah -- that's actually an interesting point. I've sort of come at it from like "I'm gonna make this stuff because it's useful for me, and I'm gonna put it out there" and then people just ended up using it, and then I became kind of responsible for keeping it in good shape.
 
-**Adam Stacoviak:** \[00:04:25.07\] What about starting out? How did you even get into open source? Sometimes the path for maintainers is somewhat even accidental. Did you intend to be "an open source software maintainer"?
+**Adam Stacoviak:** \[04:25\] What about starting out? How did you even get into open source? Sometimes the path for maintainers is somewhat even accidental. Did you intend to be "an open source software maintainer"?
 
 **Feross Aboukhadijeh:** No, I don't think I did. I think I admired open source, and I saw it as this thing that really great programmers could do, and I didn't really understand that anybody could publish open source at first... My first use of -- I remember actually installing open source when I was doing Ruby on Rails in college. I remember whenever I had a problem I would just google it and it would install this package, and it solves your problem. And I knew that somebody wrote that, and I remember thinking like "They must be really, really good", and it's almost like some kind of secret society that you have to be inducted into, or something. I didn't really understand the process for that. It wasn't really a thing I thought I could do.
 
@@ -30,7 +30,7 @@ But then I think where that started to change was -- I don't remember how I stum
 
 **Feross Aboukhadijeh:** Yeah. I think that's part of the reason why a lot more maintainers are getting burned out, because this is one of those things where it's like a blessing and a curse. It's obviously good that more people can get involved, and we lowered the barrier to entry, but it also means that as a maintainer you're gonna get way more issues from people, who have a lot of the times put in less effort into their issues, and just say "It broke. Fix, please." With no information. And you're like "Okay, I can't really help you."
 
-\[00:08:16.00\] You get way more people who less invested. But of course, the good that comes with that is that you get more people who would have never thought of contributing before, who find a GitHub page and open the code, crack it open and say "Oh wow, I actually can do this. This is cool."
+\[08:16\] You get way more people who less invested. But of course, the good that comes with that is that you get more people who would have never thought of contributing before, who find a GitHub page and open the code, crack it open and say "Oh wow, I actually can do this. This is cool."
 
 **Jerod Santo:** So of all the projects that you have out there - I mentioned WebTorrent and StandardJS appear to be the two biggest, just in terms of stars, and maybe effort. I'm curious which ones require the most hands-on maintenance to this day? Are those the ones where you're actively maintaining, or are they passive? Tell us about the burden - which of your projects bear the most burden?
 
@@ -48,7 +48,7 @@ I guess my point here is it seems like lots of your stuff is on a shifting found
 
 **Feross Aboukhadijeh:** Yeah. I think a lot of it is pure functions, and doesn't need a lot of active work. But yeah, anytime you're interacting with a web API, that stuff shifts all the time.
 
-**Adam Stacoviak:** \[00:11:52.01\] Since we're talking about these two projects in particular, WebTorrent and Standard - I'm noticing on both of them you have this notion of sponsors, one of them being Brave, which is the browser I tend to use day-to-day... What has open source enabled for you? These kinds of connections... I'm sure you've spoken with folks at Brave, there's some sort of relationship there. Can you share the back-story there?
+**Adam Stacoviak:** \[11:52\] Since we're talking about these two projects in particular, WebTorrent and Standard - I'm noticing on both of them you have this notion of sponsors, one of them being Brave, which is the browser I tend to use day-to-day... What has open source enabled for you? These kinds of connections... I'm sure you've spoken with folks at Brave, there's some sort of relationship there. Can you share the back-story there?
 
 **Feross Aboukhadijeh:** Yeah. The story there is that Brendan Eich, the creator of JavaScript - he's the CEO of Brave. At some point he reached out to me because he liked the web torrent stuff I was doing; so we got dinner and just talked --
 
@@ -98,7 +98,7 @@ Yeah, so that's one of the cool things - if you're the maintainer of a project a
 
 **Jerod Santo:** Your birth?
 
-**Feross Aboukhadijeh:** \[00:16:10.17\] Yeah, so... \[laughs\] I went to this conference called RealtimeConf. It was back in 2013, the first conference I ever spoke at... And I was giving a talk on WebRTC, which I had been learning a lot about at the time. I did a company called PeerCDN; this is what I did right after college, before I had really gotten into open source. I guess I will go a little bit into the back-story of that, since it's come up now... Is that okay?
+**Feross Aboukhadijeh:** \[16:10\] Yeah, so... \[laughs\] I went to this conference called RealtimeConf. It was back in 2013, the first conference I ever spoke at... And I was giving a talk on WebRTC, which I had been learning a lot about at the time. I did a company called PeerCDN; this is what I did right after college, before I had really gotten into open source. I guess I will go a little bit into the back-story of that, since it's come up now... Is that okay?
 
 **Adam Stacoviak:** We're pulling it out of you!
 
@@ -122,7 +122,7 @@ Anyway, getting back on track - so right about when that happened, I gave this t
 
 So I was like "What if we rebuilt PeerCDN, basically?" Rebuild it from scratch, but instead of saving money on bandwidth, we made a goal of decentralization, and we made it match the BitTorrent protocol as much as possible, because we know that already works, and that has a lot of users, and there's all this content on there, and there's a big community of people... So we could just make this -- basically, bring the BitTorrent protocol and put it into the browser. It was just an idea that I thought would be cool to work on, and I wanted to start working on it... So I threw in a slide at the very end of the talk, the last one minute or 30 seconds, and I said "I have this idea to make BitTorrent on the web. Here's what it would do. If you think this is a cool idea, come talk to me." I threw it out there, this thing that would -- I wanted people to come, I wanted to find collaborators.
 
-\[00:20:16.10\] But one of the people in the audience misunderstood what I said, and I did have a GitHub repo up with a readme in it, that just said what the project would do one day... And he tweeted it, and he had quite a few followers who clicked through this link and said "Dude, there's no code here. What is this project?" So then he messaged me and was like "Dude, I thought you had code. What did I tweet this out to all my followers? There's nothing here." And I was like "Dude, you could have looked at the readme, man. It was clear that it was just an idea." \[laughs\] So this guy basically launched WebTorrent for me, before
+\[20:16\] But one of the people in the audience misunderstood what I said, and I did have a GitHub repo up with a readme in it, that just said what the project would do one day... And he tweeted it, and he had quite a few followers who clicked through this link and said "Dude, there's no code here. What is this project?" So then he messaged me and was like "Dude, I thought you had code. What did I tweet this out to all my followers? There's nothing here." And I was like "Dude, you could have looked at the readme, man. It was clear that it was just an idea." \[laughs\] So this guy basically launched WebTorrent for me, before
 
 there was actually any code.
 
@@ -148,7 +148,7 @@ I just came back from the Decentralized Web Summit, which is this conference whe
 
 **Feross Aboukhadijeh:** And to get people who are interested to come and find you. By putting it out there, there were all these collaborators who sort of came out and actually introduced themselves to me and said "Hey, this is great. I wanna help." You can't really do that if you're just coding away by yourself.
 
-**Jerod Santo:** \[00:23:55.11\] If I could try to generalize your generalization, to go one more step... If you take code as art off the table and say we're talking about utilitarian code, there's really two kinds of projects. There's one where you're scratching your own itch, and if it's that style, then the right methodology is "We'll create the back-scratcher. I've got an itch; I'm gonna create the code first, and then if other people find it useful, now I have a successful open source project."
+**Jerod Santo:** \[23:55\] If I could try to generalize your generalization, to go one more step... If you take code as art off the table and say we're talking about utilitarian code, there's really two kinds of projects. There's one where you're scratching your own itch, and if it's that style, then the right methodology is "We'll create the back-scratcher. I've got an itch; I'm gonna create the code first, and then if other people find it useful, now I have a successful open source project."
 
 Then there's the other kind, which is "I need to find people with an itch that I would like to scratch." Or "I have an idea of a really cool, new back-scratcher. Do I build it and then hope people..."
 
@@ -198,7 +198,7 @@ Then the question was "What do I call this package?" I was gonna call it WebTorr
 
 **Adam Stacoviak:** \[laughs\] ...if you want.
 
-**Feross Aboukhadijeh:** \[00:28:06.01\] If you want, yeah.
+**Feross Aboukhadijeh:** \[28:06\] If you want, yeah.
 
 **Adam Stacoviak:** That's right.
 
@@ -264,7 +264,7 @@ So I would not have guessed that that was really gonna be the benefit of Standar
 
 **Feross Aboukhadijeh:** Yeah. Well, it helped a lot of other people, so... I'll take that backfire.
 
-**Break:** \[00:32:14.04\]
+**Break:** \[32:14\]
 
 **Adam Stacoviak:** Speaking of standards, at least on GitHub, and actually on the Standard repo, you've got the newest standard for sustaining and supporting projects, which is the Sponsor button, the funding.yml file. What has that done for Standard itself? Can you speak to GitHub sponsors, or just the sustainability of your projects? You mentioned before being at Brave, and that being one of the first times you were ever paid for your open source... So can you speak to the getting paid aspect, and what it means to you?
 
@@ -278,7 +278,7 @@ So I started having these feelings of guilt, like "I can't just abandon this stu
 
 So I started exploring different funding models in the beginning of 2018. I made this package called Thanks, which you could run it in your Node projects. You'd run "npx thanks", and that would just execute this Thanks program. And what it did is it would go through your package.json file and it would find all the packages you're depending upon, and their dependencies, and then it would look up and see, "Are any of the authors of these packages currently seeking donations on a platform like Patreon, or Open Collective?" And if so, it would print out a list of people you could donate to.
 
-\[00:36:04.26\] Then I started a Patreon as well, to sort of solicit donations from my users. And I thought this would be a great solution for funding it, because people would just be happy to give you money for the work that they rely on, you know? It turned out it didn't really work out quite as nicely as that, because people -- I don't know... I think people are just too used to getting stuff for free, and it's this optional step that they can do afterwards.
+\[36:04\] Then I started a Patreon as well, to sort of solicit donations from my users. And I thought this would be a great solution for funding it, because people would just be happy to give you money for the work that they rely on, you know? It turned out it didn't really work out quite as nicely as that, because people -- I don't know... I think people are just too used to getting stuff for free, and it's this optional step that they can do afterwards.
 
 A few people ran it, it raised awareness of what packages people were depending upon, and stuff like that... But it didn't really help me at all.
 
@@ -306,7 +306,7 @@ One big problem is what are you actually asking for from these companies? If you
 
 An example, what can you actually ask for? You can say "Okay, this is not a donation, this is a sponsorship. You're buying advertising, basically, on the project's website. We're gonna get your logo there and we're gonna put a link to your site. We're gonna say you support open source."
 
-**Adam Stacoviak:** \[00:40:21.19\] Right. You're not paying for the support, you're paying for the advertising of your support.
+**Adam Stacoviak:** \[40:21\] Right. You're not paying for the support, you're paying for the advertising of your support.
 
 **Feross Aboukhadijeh:** Yeah. And that's something they kind of understand, because they actually already have a budget for advertising.
 
@@ -334,7 +334,7 @@ Obviously, the downside to that is now you're spending a bunch of time emailing 
 
 The idea there is instead of maintainers having to interface with all these companies and trying to explain to them why they should be caring about their dependencies and the shape that those dependencies are in, Tidelift can just go out and do that, and they have a sales team of people who are just basically going out and talking to companies and trying to convince them to pay for open source.
 
-\[00:43:58.12\] And then they turn around and they give half of the money that they collect from those companies straight to the maintainers. I think they've promised that they're always gonna give at least half of their profits indefinitely.
+\[43:58\] And then they turn around and they give half of the money that they collect from those companies straight to the maintainers. I think they've promised that they're always gonna give at least half of their profits indefinitely.
 
 That's a cool model, because now suddenly I don't have to worry about talking to people, I don't have to worry about emailing people and doing all this sort of salesy stuff, which -- I mean, I don't mind doing it, because I like to push myself to learn new skills and to go outside my comfort zone, but I know a lot of maintainers don't wanna be spending their time basically being a salesperson... So this is actually a promising model.
 
@@ -368,7 +368,7 @@ There's also a side of it like "Well, we're open-sourcing our code. We're giving
 
 **Jerod Santo:** So that's what's tricky about it. We all agree that these companies who are -- I think they're also getting... I mean, okay, I've gotten out more than I've put in, but I'll just go out on a limb and say Instagram Inc. or whatever that entity is got out way more than it put in, right?
 
-**Adam Stacoviak:** \[00:48:08.16\] Especially if we're speaking in terms of monetary value.
+**Adam Stacoviak:** \[48:08\] Especially if we're speaking in terms of monetary value.
 
 **Jerod Santo:** Yeah, orders of magnitude. So that's where we stand, and I think it's the community's job to rally around this issue. \[unintelligible 00:48:20.05\] what we're doing, and finding solutions. That's why it's interesting to hear what's working for you, because as a single maintainer who does have some celebrity and audience, if it's not working for Feross, then if the person who's running that transitive dependency that nobody even knows about, and has a small following - it's really not working for that guy or that gal.
 
@@ -384,7 +384,7 @@ And the really paradoxical and unfair thing is that the better job that they do 
 
 **Jerod Santo:** I have a draft blog post about these people, and I'm comparing them to the offensive line in a football team. I don't know if either of you are football fans, but the offensive line is the most thankless job in football. All you do is you protect the quarterback, or the runningback, whoever it happens to be... And when you're doing your job great, nobody notices that you're even there.
 
-\[00:51:57.02\] And then the only time the camera comes on you is when you missed your block, and the quarterback gets sacked. Then everyone looks at you like "You dope... What are you doing?!" So it's a thankless thing, that only gets focused on when something goes wrong, and that's what these maintainers are. They're just like that. It's a shame...
+\[51:57\] And then the only time the camera comes on you is when you missed your block, and the quarterback gets sacked. Then everyone looks at you like "You dope... What are you doing?!" So it's a thankless thing, that only gets focused on when something goes wrong, and that's what these maintainers are. They're just like that. It's a shame...
 
 That's why the quarterback is always thanking the offensive line when these get interviewed after the game is over, because they're the ones that made it possible... But they don't get any of the glory, they just get all the shame. It's really unfortunate, but it's just -- there's multiple positions in the game, and they play offensive line.
 
@@ -422,7 +422,7 @@ If that's the idea, then you've got someone like Tidelift (or others who may com
 
 **Feross Aboukhadijeh:** I wanna quote Dominic Tarr here... He's the guy who maintained EventStream. That was the package that was in the news a little while ago; I think we talked about it on JS Party... The one where somebody came along and said "Hey, you haven't been maintaining this. I'll take care of it for you", and then Dominic gave the package over to this person who was a complete stranger, and that person ended up putting a backdoor into the package to steal Bitcoin...
 
-\[00:56:07.27\] One of the things that happened in the aftermath of that was he wrote this little post where he talked about what it's like to be a maintainer... And he said "If it's not fun anymore, you get literally nothing from maintaining a popular package." And then he gave this really funny anecdote about how he used to be a dish washer in a restaurant, and he did his job a little bit too well, so they promoted him to cook... And they only gave him 50 cents an hour more for that, but it was massively more responsibility... And he didn't feel like it was worth it, so I think he asked to be put back as a dishwasher. But he said that writing a popular module is like that, but times a million, and the pay increase that you get is zero. You just get infinite responsibility, no pay increase, and if you're not using the package anymore, then he feels like "What's the point?"
+\[56:07\] One of the things that happened in the aftermath of that was he wrote this little post where he talked about what it's like to be a maintainer... And he said "If it's not fun anymore, you get literally nothing from maintaining a popular package." And then he gave this really funny anecdote about how he used to be a dish washer in a restaurant, and he did his job a little bit too well, so they promoted him to cook... And they only gave him 50 cents an hour more for that, but it was massively more responsibility... And he didn't feel like it was worth it, so I think he asked to be put back as a dishwasher. But he said that writing a popular module is like that, but times a million, and the pay increase that you get is zero. You just get infinite responsibility, no pay increase, and if you're not using the package anymore, then he feels like "What's the point?"
 
 That's something that I think maybe Tidelift or something along these lines can change. Instead of popular packages being something that is a drain on you, especially if it's not fun anymore, if you're not using it anymore - what if instead it was an asset? Something like "Oh, if I take care of this package, Tidelift is gonna pay me however much per month", or some other kind of model.
 

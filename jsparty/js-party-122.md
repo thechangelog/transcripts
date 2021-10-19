@@ -14,7 +14,7 @@
 
 So Next.js had kind of a middle ground support for producing static pages in the past, but it was kind of an all or nothing system, you could run next build, and then next export, and then you would export a simplified version of your website that was fully static, and it required quite a bit of config, and it had some trade-offs... And what's been super-interesting about Next.js is that it's become a hybrid framework, where a lot of the flexibility that comes from using it is because you can make decisions on a per-page basis.
 
-\[00:04:19.08\] So with the new static site generation support we basically are giving people two methods - one called getStaticProps, which is an alternative to getInitialProps, which will be executed at build time, and therefore producing static HTML... And then getStaticPaths, which kind of goes hand-in-hand with a feature that we added a while back, which was dynamic path segments.
+\[04:19\] So with the new static site generation support we basically are giving people two methods - one called getStaticProps, which is an alternative to getInitialProps, which will be executed at build time, and therefore producing static HTML... And then getStaticPaths, which kind of goes hand-in-hand with a feature that we added a while back, which was dynamic path segments.
 
 So for those of you that are familiar with Next.js, we've always had file system-based routing, where inside the pages directory you define your JS files, and then URLs basically become paths.
 
@@ -32,7 +32,7 @@ And then there's certainly a performance benefit. A helpful mental model that I'
 
 **Divya Sasidharan:** Cool. So getStaticPaths is definitely creating those dynamic paths, so it does cache as well. So it does do the dynamic page generation, but it does utilize the cache as well?
 
-**Guillermo Rauch:** \[00:08:10.25\] Right, exactly. Basically, it just outputs HTML. The important part here is that you might have hundreds of blog posts, thousands of blog posts, millions of blog posts... So getStaticPaths allows you, the developer, to decide which ones are the ones that I wanna generate at build time.
+**Guillermo Rauch:** \[08:10\] Right, exactly. Basically, it just outputs HTML. The important part here is that you might have hundreds of blog posts, thousands of blog posts, millions of blog posts... So getStaticPaths allows you, the developer, to decide which ones are the ones that I wanna generate at build time.
 
 I think something that sets Next.js apart, and perhaps we're the first to do this, although I would have to do some peer review on this... But I'm pretty confident that we're the first to also let you grow that dataset at runtime, meaning that -- one of the limitations that ostensibly a static site generation has always had is, well, you can't generate two million pages. You're basically gonna have to make two million database calls, or headless CMS API calls at build time; even if you could, you might not really want to, because you enter this trade-off of like "Okay, for how long are we blocking the release to get that kind of de-risking and optimization that I mentioned earlier?" And most companies are not gonna want to wait for two million pages to be -- all the I/O, and all the network I/O, and so on.
 
@@ -50,7 +50,7 @@ When you go to a page that would be altogether new, and that was not know at bui
 
 **Divya Sasidharan:** ...which can take anywhere from a couple of minutes to hours. And I think that's the general criticism that JAMstack gets a lot, just because people are like -- I mean, users get the benefit of a faster site, but you as the key stakeholder, the people building the site have to incur the cost of having to wait for the entire site to build and update.
 
-**Guillermo Rauch:** \[00:12:13.23\] Totally. And I think what's been great about JAMstack, even prior to Next.js for example addressing this problem, is that you were still getting this very customer-friendly and end user-friendly benefits, which is why I think it's gained so much popularity... Because I've talked to people that have used very long build processes, and at the end of the day they were still happier relative to sometimes their website being down or being slow.
+**Guillermo Rauch:** \[12:13\] Totally. And I think what's been great about JAMstack, even prior to Next.js for example addressing this problem, is that you were still getting this very customer-friendly and end user-friendly benefits, which is why I think it's gained so much popularity... Because I've talked to people that have used very long build processes, and at the end of the day they were still happier relative to sometimes their website being down or being slow.
 
 But it is true that it's a false dichotomy. I think JAMstack can't scale to manage millions of pages, and I think the right balance to strike here is that you can do some of the work at build time, and then you can defer some of the work at runtime. So it hasn't been an all-or-nothing kind of situation ever, but for example if you wanted to do this today, by hand, it would be a little bit difficult. You would have to use a static site generator, then you would have to generate a skeleton for the page -- let's say you're creating an e-commerce site, and your store has millions of products. So you would have to have the page with no data, and then you would have to write the code path for using the JAMstack to render on the client side, when that fallback kicks in.
 
@@ -70,7 +70,7 @@ From the perspective of the developer, the only two APIs that they need to imple
 
 **Divya Sasidharan:** Oh definitely, yeah. And it's just a matter of prerender as much as possible, and then in the cases when you do update it, having that as the ability to almost -- it's sort of like serverless rendering. Because it's on the fly, you're essentially dynamically creating that, and in the background, without the user seeing, back-filling the cache, and making sure that things are up to date.
 
-**Guillermo Rauch:** \[00:16:06.01\] And something that's really cool, that I think Phil does touch on in that article is that we still are as fast as possible from the edge every time you hit one of these pages... Because basically, what we give you is the page as if it was an SPA. We give you the shape, or the skeleton of the page that's missing. So your customer is never held up waiting for a page that doesn't load, that doesn't feel immediately responsive... Or even a page that could fail in a way that is not recoverable.
+**Guillermo Rauch:** \[16:06\] And something that's really cool, that I think Phil does touch on in that article is that we still are as fast as possible from the edge every time you hit one of these pages... Because basically, what we give you is the page as if it was an SPA. We give you the shape, or the skeleton of the page that's missing. So your customer is never held up waiting for a page that doesn't load, that doesn't feel immediately responsive... Or even a page that could fail in a way that is not recoverable.
 
 **Divya Sasidharan:** Oh, definitely.
 
@@ -106,7 +106,7 @@ I think we have to make it fast, but not let the developer fall for traps where 
 
 But I'll add two more things that I think a lot about when I think about loading edge code... One of them is that loading code opens yourself back up to failure modes that are not as easy to anticipate, right?
 
-**Divya Sasidharan:** \[00:20:13.29\] Yeah.
+**Divya Sasidharan:** \[20:13\] Yeah.
 
 **Guillermo Rauch:** The most obvious and theoretical one is that a Turing-complete language like JS - we cannot decide ahead of time if the code is gonna halt or not. So you might deploy an edge worker that results for a certain subset of users into a deadlock, for example.
 
@@ -116,13 +116,13 @@ But I'll add two more things that I think a lot about when I think about loading
 
 And finally, there is the other one of like "Hey, am I handing errors correctly? Am I retrying correctly?" So edge code creates complexity. This is why for now we haven't really incorporated that into the model. What we're saying is Next.js will generate static pages, and then later on it can generate more static pages. The edge network basically only receives HTML JS and CSS, but I do think that there is a future where the developer can also run some just-in-time logic at the edge as well.
 
-**Break:** \[00:21:48.13\]
+**Break:** \[21:48\]
 
 **Jerod Santo:** I'd love to zoom out a little bit and talk about the industry trend toward JAMstack itself. I made a joke recently, I think on Changelog News, as I was linking to another CSS-Tricks article - how you can almost rename it JAMstack-Tricks at this point, because so much of CSS-Tricks is about the JAMstack. And then I started to get introspective and I was like "Wait a second, we've done Gatsby, and now Tom Preston-Werner with Redwood, and now Guillermo with Next, and it's like, maybe we need to be JAMstack Party instead of JS Party, because it's definitely a thing that's getting a lot of air time and thought time amongst developers.
 
 **Guillermo Rauch:** Yeah, and I'll also add something really interesting to that. I do think that JAMstack is the way to make JS successful at scale. I've sometimes told my team internally that I personally always thought that Node.js was gonna go further as an industry trend; I thought it was gonna get much bigger, I thought it was gonna have much more enterprise success. But then I realized, thinking really deeply about the way that you use Node.js, what it constitutes a Node.js app. And it's understandable that it didn't get as big as we once hoped, because I think the execution model for JavaScript as running a monolithic server that has to be up and running continuously, that has to manage memory optimally, that has to be really optimal in terms of throughput and latency...
 
-\[00:24:10.22\] I don't think JS is as -- I mean, it's great, don't get me wrong, but I actually think that JAMstack has picked up really the essence of where JS belongs, truly the good parts of JS... So much so that I think that JAMstack is superior to other programming models that use native programming languages. Because if you think about JAMstack and deploying code at the edge, for example, what better language could exist than a scripting language that compresses really well, that's very tiny, that can be minified, that can be iterated on very quickly, that can interact very quickly with new platform features, and browsers, and so on, and is all about being optimized for being loaded safely, securely and dynamically inside a browser sandbox. That is where JS belongs, where JAMstack has put it.
+\[24:10\] I don't think JS is as -- I mean, it's great, don't get me wrong, but I actually think that JAMstack has picked up really the essence of where JS belongs, truly the good parts of JS... So much so that I think that JAMstack is superior to other programming models that use native programming languages. Because if you think about JAMstack and deploying code at the edge, for example, what better language could exist than a scripting language that compresses really well, that's very tiny, that can be minified, that can be iterated on very quickly, that can interact very quickly with new platform features, and browsers, and so on, and is all about being optimized for being loaded safely, securely and dynamically inside a browser sandbox. That is where JS belongs, where JAMstack has put it.
 
 And then JAMstack has really also embraced serverless functions, and that's also a place where JS is shining relative to this, again, monolithic Node.js model. If you look at enterprises that adopted JS on the backend, the reality is that many of them ended up moving to Go, to Rust etc. But I do think that the serverless function model also makes Node.js and JS shine again, because it fixes a lot of the problems that JS has with managing concurrency, and scaling horizontally, and throughput. And if you have a memory leak, in some ways the old serverless functions also have your back.
 
@@ -136,7 +136,7 @@ You mentioned some in the first one, but I'd love for you to just highlight like
 
 It's also embraced a very rigorous testing methodology. A lot of people that are building in a JAMstack ecosystem, like Gatsby, Next.js, Netlify, Eleventy - they've all kind of embraced this performance-first mindset. You see it with -- we're always discussing Lighthouse, we're always discussing edge, we're always discussing CDN, we're talking about how much JS we're shipping... And this is why, again, it's so healthy for the ecosystem to go in this direction, because -- I don't think in the days of SSR... The user of SSR that went global - I think of WordPress, right? You would install it in Apache, you would set up PHP, and then you have your WordPress SSR. WordPress never really had the opportunity to optimize these two things. Availability was pretty bad; the error connecting to MySQL database, &lt;h1&gt; HTML kind of became synonymous with WordPress being stressed at scale...
 
-**Jerod Santo:** \[00:28:23.29\] Right. The old Slashdot effect, that became the Digg effect, then it became the Hacker News effect...
+**Jerod Santo:** \[28:23\] Right. The old Slashdot effect, that became the Digg effect, then it became the Hacker News effect...
 
 **Guillermo Rauch:** Totally. \[laughter\]
 
@@ -164,7 +164,7 @@ In the past, whenever we did web development, you had to split time between what
 
 **Guillermo Rauch:** Totally.
 
-**Divya Sasidharan:** \[00:32:26.01\] And then if you need extra functionality that's tacked on, you would just throw that in a serverless function and invoke it when you need, rather that loading it client-side and having it run constantly.
+**Divya Sasidharan:** \[32:26\] And then if you need extra functionality that's tacked on, you would just throw that in a serverless function and invoke it when you need, rather that loading it client-side and having it run constantly.
 
 **Guillermo Rauch:** And also, I think what's been important too is making sure that if you do need a function or a server, it's not blocking that delivery of that first interaction with the system... So the idea that there is an uncertainty of what happens and how long does this code take to execute - whether that happens upfront, or whether it happens later, I think makes a big difference.
 
@@ -186,7 +186,7 @@ So you're really optimizing for what the user is after. Think of the idea of get
 
 Something that's really cool about functions and I think doesn't get discussed enough is that, for example with ZEIT functions, we allow you to say what region you wanna deploy them to, and we tell you "Well, this region maps to this AWS region, or it's close to this Google Cloud region..." So say that your API provider, in this case, let's say is Stripe; for your billing, charges, customers, whatever. And they're in U.S. East, in the Virginia data center or around there. If you deploy your function far away from Stripe, if you're making lots of API calls to Stripe to get a certain result, you're gonna see very bad latency.
 
-\[00:36:29.00\] You're gonna see that your function takes multiple seconds to execute. However, if you deploy it right next to Stripe, it's basically like functions are literally augmenting the Stripe codebase, because you're literally deploying them to the same data center, and all of a sudden you go from like instead of a 90 millisecond roundtrip, you go to sub-millisecond, because it ends up being the same data center as the Stripe computers are in AWS.
+\[36:29\] You're gonna see that your function takes multiple seconds to execute. However, if you deploy it right next to Stripe, it's basically like functions are literally augmenting the Stripe codebase, because you're literally deploying them to the same data center, and all of a sudden you go from like instead of a 90 millisecond roundtrip, you go to sub-millisecond, because it ends up being the same data center as the Stripe computers are in AWS.
 
 So I see functions of this incredible, almost open plugin ecosystem for the world. I think longer-term we're gonna be writing functions that do very little in terms of, like I said, that low-level infrastructure stuff, and it's more like you're just gonna be invoking different API providers. It's happening a lot with databases. A lot of databases are moving to providing HTTP gateways for executing their payload... So it feels like when you're talking to Aurora MySQL in AWS, it feels like you're talking to just yet another RESTful API; only that it has more flexibility with regards to the queries that you send.
 
@@ -202,7 +202,7 @@ A great example is Discord recently wrote about how they maintain these very hig
 
 Now, if you think about Lambda functions, the misconception is that they're stateless. In reality, you can maintain some memory that is shared by previous invocations, and then subsequent invocations. The big limitation that they have is that that cache tier cannot really be relied upon that much, because each discrete invocation might start with no memory whatsoever when you started scaling up or down... You're not gonna have that high cache hit ratio that you would otherwise have with a server.
 
-\[00:40:11.16\] Now, that doesn't mean that the memory inside the function, or even the /temp directory doesn't exist. No. It's there, and you should use it. What I demonstrated in that demo is that you could even write a fully stateful system if you relied for example on Redis. So what I did to make that Pokémon demo work is that I moved the state into Redis, and then I didn't care if a certain function had this cache hit happening or not. And if it was a cache hit, because the same function keeps getting reused, I would take advantage of that.
+\[40:11\] Now, that doesn't mean that the memory inside the function, or even the /temp directory doesn't exist. No. It's there, and you should use it. What I demonstrated in that demo is that you could even write a fully stateful system if you relied for example on Redis. So what I did to make that Pokémon demo work is that I moved the state into Redis, and then I didn't care if a certain function had this cache hit happening or not. And if it was a cache hit, because the same function keeps getting reused, I would take advantage of that.
 
 So it's interesting to consider that, because when you're operating at a very high scale, or you're doing a lot of things that are very real-time, you do want to have some shared memory between lots of different requests. Now, this is why I think that functions in combination with these novel database systems like Dynamo, and CosmosDB and Fauna are gonna be really the way that we can solve this durable functions problem, of like "I need to not just do a trivial transformation in my function. I want to do I/O, and keep state, and scale correctly." We're gonna have to start heading towards the databases that are appropriate for those cases.
 
@@ -218,7 +218,7 @@ The crazy thing about functions is they're super-configurable, and they're super
 
 **Divya Sasidharan:** Definitely.
 
-**Guillermo Rauch:** \[00:43:53.01\] This is why some people keep saying "Oh, for my A, I'm still okay with Ruby on Rails. And I'll use JAMstack for the frontend." I think that comes from perhaps the function world being still nascent, in some ways.
+**Guillermo Rauch:** \[43:53\] This is why some people keep saying "Oh, for my A, I'm still okay with Ruby on Rails. And I'll use JAMstack for the frontend." I think that comes from perhaps the function world being still nascent, in some ways.
 
 **Divya Sasidharan:** Yeah. I think the other thing also that's worth mentioning is that with functions - and I think this is the case; it's ubiquitous across every functions offering out there - dependency management is a little bit clunky at the moment, just because of the way that you would serve a function. You would have to ship the function by zipping the entire thing, and having an executable, so that all the dependencies live with it, and then you have to make sure that that specific dependency is not -- it has to live in the same place that your function lives, so it has access to it...
 
@@ -244,7 +244,7 @@ Npm had to navigate that problem, too. I remember Seldo started realizing by loo
 
 **Guillermo Rauch:** Yeah, for example if Deno focuses on functions - which I think they are - from the get-go, then we can have a higher degree of certainty that if I write Deno functions, then they will have thought about these problems early on, and there is less of that bumping against the wall problem.
 
-**Break:** \[00:47:50.22\]
+**Break:** \[47:50\]
 
 **Jerod Santo:** So you two are deep in the weeds of this stuff, which is awesome to listen into and hear about the ins and outs of solving particular problems - with JAMstack, with SSGs, serverless, Lambda functions etc. I feel like I'm a little bit on the outside looking in, trying to look at the trend as a whole, and going back to this concept of the technology adoption lifecycle. I'm not sure if you guys are aware of this, but the of you have innovators, early adopters, early majority, late majority, laggards - this flow... And on this particular new type of web application all on the JAMstack, I'm just curious what you two think, where we are in that adoption lifecycle? If it's still in the innovator phase, or if it's moved beyond that, and then what stands between where we are today and some sort of mass adoption, where like most developers are building JAMstack style apps in their day-to-day use.
 
@@ -260,7 +260,7 @@ I've now seen customers tell me "Look, I went into this very interested in what 
 
 And then the other side of that is the developer satisfaction. I think that's where -- sure, there's some edges. Sometimes as projects grow, for some people the build times get longer, and whatever... But for the most part, as Divya was saying, for example now you're writing in one JS environment, and you're not worrying about the dual execution, and you're not worrying about servers, the dev workflow is simple and fast...
 
-\[00:52:07.12\] On the other side of that, not only do you get better business metrics, but you get more developer satisfaction... And what's happening in terms of that curve that you were talking about is developers tend to gravitate to the tools that they feel most productive in, and that give them the best results in terms of shipping your features, and iterating, and solving problems efficiently. We're seeing tons of momentum there. Next.js gave people a great DX for React applications, and we see, as you also mentioned, that frontend teams are now more and more eating companies, and being the decision-makers.
+\[52:07\] On the other side of that, not only do you get better business metrics, but you get more developer satisfaction... And what's happening in terms of that curve that you were talking about is developers tend to gravitate to the tools that they feel most productive in, and that give them the best results in terms of shipping your features, and iterating, and solving problems efficiently. We're seeing tons of momentum there. Next.js gave people a great DX for React applications, and we see, as you also mentioned, that frontend teams are now more and more eating companies, and being the decision-makers.
 
 I would say that we're past the innovation phase, because we've seen that it was front-end teams that took this technology into so many big names. When we talked to the Hulu team, it's like "Okay, how did this idea of using Next start?" and it typically starts with front-end developers, and it typically starts with that desire to create more interactive experiences, and shipping faster.
 
@@ -280,7 +280,7 @@ I think this is pretty unique to JAMstack itself, because typically -- I was par
 
 **Guillermo Rauch:** Yeah. And that's what I meant by the incremental adoption curve that I love - I think the trend that now is in the place of like the laggards or whatever is enterprises have been moving towards decoupling their front and their backends. Some chose REST, some are choosing GraphQL, but that trend is now mature. Companies know that there is a big benefit to exporting their systems as publicly-consumable APIs. And even that movement in itself I think has a lot of upside still. But let's say that that's a more mature trend.
 
-\[00:55:52.26\] So now when you think of JAMstack, which is a more young trend, it's really fitting in so well with where the ecosystem already was. If you're a larger established player, you already have that API. Or you were in the process of creating it. I think this trend also hops onto the rise of mobile, because mobile native needed GraphQL, needed REST. So now you come in and you create a frontend architecture that matches what you were already doing for mobile.
+\[55:52\] So now when you think of JAMstack, which is a more young trend, it's really fitting in so well with where the ecosystem already was. If you're a larger established player, you already have that API. Or you were in the process of creating it. I think this trend also hops onto the rise of mobile, because mobile native needed GraphQL, needed REST. So now you come in and you create a frontend architecture that matches what you were already doing for mobile.
 
 **Jerod Santo:** Right.
 

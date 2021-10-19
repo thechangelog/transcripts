@@ -10,7 +10,7 @@
 
 **Mireille B. Reece, Psy.D:** There were deadlines, so I was always pushing to get things done, and school wasn't just my only thing I was doing... So to practice figuring out what things would work - and I'm pretty sure it was early on that I was like "Oh, screw it!" I just ended up walking away, and sometimes that would be - if it were late at night, I'd just wake up early and try to get whatever it is done. And I've always then gone "That's my go-to move: walk away, go to bed, and revisit it in the morning", because it would take me a third of the time to figure something out or get where I wanted to be in the morning, than it would if I tried to push harder, or tried harder.
 
-**Adam Stacoviak:** \[00:04:26.09\] Well, think about what you're expressing there - you were stressed.
+**Adam Stacoviak:** \[04:26\] Well, think about what you're expressing there - you were stressed.
 
 **Mireille B. Reece, Psy.D:** Touché!
 
@@ -38,7 +38,7 @@ Think of the way in which we've talked about before, how with even memory and re
 
 **Mireille B. Reece, Psy.D:** Sure.
 
-**Adam Stacoviak:** \[00:07:54.04\] So to get a different perspective, a different vantage point of a problem, of a scenario, whatever it might be, you have to sort of move and maneuver, and the environment plays a key role in that, too. It's like, they're all systems, so sometimes just getting away kicks in a new system; maybe a new thought process, or a memory, or just anything, something different changes. You have a new view.
+**Adam Stacoviak:** \[07:54\] So to get a different perspective, a different vantage point of a problem, of a scenario, whatever it might be, you have to sort of move and maneuver, and the environment plays a key role in that, too. It's like, they're all systems, so sometimes just getting away kicks in a new system; maybe a new thought process, or a memory, or just anything, something different changes. You have a new view.
 
 **Mireille B. Reece, Psy.D:** Yes. It's interesting, whenever we're trying to exercise problem-solving, we're trying to relate or sort of figure out a way to make something fit within the constraints of previous knowledge. So I'm going "If this is what I already know, I'm gonna try to conjure that up and make it fit." And yet "What if..." then, which is super-common, because problems could be novel... I've never done them before, but yet I'm trying to use old data to resolve it. So this is where it comes into this process of looking at unconscious versus conscious awareness.
 
@@ -66,7 +66,7 @@ If we're talking about this, so that our listeners understand what we're referri
 
 But the challenge is the unconscious, according to -- so Freud, if any of you are familiar with him; pretty profound in the field of psychology... But he said that the unconscious mind is composed of all the information stored within us that's inaccessible to our conscious minds. So if you can think about it like an iceberg, conscious is what you see above the water, unconscious is what is below the water, that you might not have access to. So that's one of the challenges in even psychology mindset behavior. We don't know all of what's beneath the iceberg. We just know that it's there, and it can play a role in what we do see.
 
-**Adam Stacoviak:** \[00:12:23.05\] And this is why people can get quite confused, too... Because there's just so much learning involved in psychology, some debate, and in a lot of cases conflicting ideas potentially even... And just a lot of unknown, and still knowing, still learning what's happening. As you say, with the brain it's always a moving target. We're still always layering on new information, we're still learning new information, so what we know today isn't what we know tomorrow... So that sort of changes. So anyone listening is like "Well, this is kind of hard to grok, kind of hard to follow." Well, that's because it's kind of a moving target.
+**Adam Stacoviak:** \[12:23\] And this is why people can get quite confused, too... Because there's just so much learning involved in psychology, some debate, and in a lot of cases conflicting ideas potentially even... And just a lot of unknown, and still knowing, still learning what's happening. As you say, with the brain it's always a moving target. We're still always layering on new information, we're still learning new information, so what we know today isn't what we know tomorrow... So that sort of changes. So anyone listening is like "Well, this is kind of hard to grok, kind of hard to follow." Well, that's because it's kind of a moving target.
 
 **Mireille B. Reece, Psy.D:** Right. I mean, even when we talk about the brain and how we're electrochemical beings; there's brain structures, then there's neurotransmitters, there's neurons, there's electrical currents and chemical messengers that all exert an effect. So imagine whenever we're having these conversations around the brain - I'm trying to put a puzzle together, except nobody told me what the picture is supposed to look like, but I need to figure it out.
 
@@ -84,7 +84,7 @@ So which thing came first, and how does that work, and if I'm staring at one par
 
 **Mireille B. Reece, Psy.D:** And part of that has to do with all of these associations. So I'm always thankful for researchers who spend the time to go dig deeper, and that help all of us put this puzzle together a little bit better. A couple of those were Corinne Canter from the Human Synergistics, and then Dr. Trisha Stratford, who's a neuroscientist out of Sydney University of Technology. They looked at innovative thinking among business leaders to help understand more of the cognitive processes involved in problem-solving. Canter said that our unconscious mind does the bulk of our thinking. That's crazy to me... But it processes about 11 million bits of information, compared to the conscious mind, which does about 40. 11 million bits unconscious, to 40 bits conscious.
 
-**Adam Stacoviak:** \[00:16:32.24\] That's not even like in the millions, it's not even like in the thousands. It's just like 40.
+**Adam Stacoviak:** \[16:32\] That's not even like in the millions, it's not even like in the thousands. It's just like 40.
 
 **Mireille B. Reece, Psy.D:** Right.
 
@@ -118,7 +118,7 @@ So which thing came first, and how does that work, and if I'm staring at one par
 
 Beta waves range from 15 to 40 cycles in a second. I think of this like "Try harder." You are actively engaged, you're making a speech... This is the interesting thing in doing speaking - while I'm talking and I'm trying to remember the sequence of all the things I'm going to share with an audience, I'm doing the one thing, and the rest of my brain is still remembering the form of where I was gonna go, what I was gonna say... And if I went this way or that way, and I had a hiccup, or a question, or something else, I'm still tracking. So thinking multiple cognitive demands - that's beta waves at its finest.
 
-\[00:20:17.07\] Then we've got alpha waves. Alpha represents non-arousal. Sort of the contrast, dare I say, to beta. These are slower, and yet higher in amplitude. These are like 8 to 12 Hz. Someone who's done something and then sits down. Or if you're meditating, you're usually in this alpha state.
+\[20:17\] Then we've got alpha waves. Alpha represents non-arousal. Sort of the contrast, dare I say, to beta. These are slower, and yet higher in amplitude. These are like 8 to 12 Hz. Someone who's done something and then sits down. Or if you're meditating, you're usually in this alpha state.
 
 Or -- I love this... I think of it sort of like being out in nature, and those things that sort of speak to you - it's like, "Everything is alright with the world." Or it could just be the right Starbucks coffee.
 
@@ -156,7 +156,7 @@ So when we go to bed and read for a few minutes before we try to go to sleep, we
 
 The other thing that these researchers looked at were Gamma waves. This is sort of a newer, emerging thing that people are taking a look at. Gamma waves are the fastest of the brainwaves, and relate to this simultaneous processing of information from different brain areas. And I think this is why it's so significant. Brainwaves pass information both fast, but quiet. So our minds literally have to be quiet in order to access this Gamma.
 
-**Adam Stacoviak:** \[00:24:03.06\] Meaning, not cluttered...
+**Adam Stacoviak:** \[24:03\] Meaning, not cluttered...
 
 **Mireille B. Reece, Psy.D:** Mm-hm.
 
@@ -194,7 +194,7 @@ So this is why when we take our foot off the accelerator and back away and creat
 
 **Mireille B. Reece, Psy.D:** Yeah, so it's interesting - when I was in graduate school I actually had the opportunity to learn this type of therapeutic treatment modality called biofeedback, or neurofeedback. We mainly used it to treat people struggling with anxiety or attention deficit hyperactivity disorder... But what was fascinating - what we would do is actually hook up electrodes to different parts of people's heads. Then they would watch a computer screen, and they had to, through the feedback of a game on a computer screen, figure out how to make the spaceship go or pull back, just as based on what was going on. So imagine a sort of live feedback loop of whether or not you're calm or activated.
 
-\[00:28:13.04\] I just think it's super-fascinating, because there's actually some newer treatment modalities relative to depression, wherein it really is a sort of modification of brainwaves... Because these play a role in how we go about doing our lives. So what it is is really getting feedback that you go "Oh, my goodness... When I focus on an image or go into a certain place in my mind, it's very much a sort of learned practice, wherein this is the state where I function optimally."
+\[28:13\] I just think it's super-fascinating, because there's actually some newer treatment modalities relative to depression, wherein it really is a sort of modification of brainwaves... Because these play a role in how we go about doing our lives. So what it is is really getting feedback that you go "Oh, my goodness... When I focus on an image or go into a certain place in my mind, it's very much a sort of learned practice, wherein this is the state where I function optimally."
 
 **Adam Stacoviak:** Yeah. Well, it's instant feedback, too... Especially if you've got the electrodes on your brain, or on your head, and the computer screen or something showing you as you change your thoughts, this ship moves forward or backwards, because of your ability to influence these Beta waves or these brainwaves, essentially... It's sort of instant. Whereas if you don't have that, you're assuming, in a lot of waves... Based on how you feel, your emotions, potentially even solving the problem, if we're specifically talking about the "Try harder" method, and getting unstuck, and sort of disconnecting to get unstuck. The only way you really know if you've had a solution or that this has happened is because an outcome.
 
@@ -212,7 +212,7 @@ Canter said even though you are not attending to that problem anymore, you've ac
 
 **Adam Stacoviak:** Now it's game mindset, competition mindset, whatever is necessary to flip a switch, essentially, from everyday/normal/whatever to "Okay, now it's time to completely focus on competing and winning and doing our best", or whatever the mindset might need to be.
 
-**Mireille B. Reece, Psy.D:** \[00:32:05.11\] Right. And this is why even the brainwave research is relative to athletes, and that sort of optimal function is not being so energized; calm, but very present. Again, a sort of juxtaposition. When we were talking about this, Adam, I think you had mentioned a strategy that you've used a lot to help you.
+**Mireille B. Reece, Psy.D:** \[32:05\] Right. And this is why even the brainwave research is relative to athletes, and that sort of optimal function is not being so energized; calm, but very present. Again, a sort of juxtaposition. When we were talking about this, Adam, I think you had mentioned a strategy that you've used a lot to help you.
 
 **Adam Stacoviak:** It's called Pomodoro. It's a "getting things done" thing. It's just a way of helping you focus. But I find it similar to the whole "Do, step away. Do, step away." Sort of like this constraint of focused work with a reward of a break, and then after a certain amount of time you get another longer break.
 
@@ -240,7 +240,7 @@ So this Pomodoro effect, this Pomodoro techniques - if you just practice it at a
 
 **Adam Stacoviak:** Yeah, but always finding a way to layer in some sort of motion is key.
 
-**Mireille B. Reece, Psy.D:** \[00:35:49.00\] Yeah. So that brings me to talk about our emotions... Because if calm is the ideal state, then I have to be aware if my feelings are running interference with what I'm trying to do. So am I fearful, am I stressed? Because that is definitely not going to help me in doing creative thinking, active problem-solving. So this could look like work expectations, it could be even self-expectations about performance, or constraints around time... Like "Hey, you've gotta get this project done, and it needs to be done yesterday." These are going to impact how you perform, because they activate that fear-response.
+**Mireille B. Reece, Psy.D:** \[35:49\] Yeah. So that brings me to talk about our emotions... Because if calm is the ideal state, then I have to be aware if my feelings are running interference with what I'm trying to do. So am I fearful, am I stressed? Because that is definitely not going to help me in doing creative thinking, active problem-solving. So this could look like work expectations, it could be even self-expectations about performance, or constraints around time... Like "Hey, you've gotta get this project done, and it needs to be done yesterday." These are going to impact how you perform, because they activate that fear-response.
 
 **Adam Stacoviak:** I don't know though... There's some people though - and I can even look back at my life - are you advocating for these constraints, or against them?
 
@@ -266,7 +266,7 @@ So this Pomodoro effect, this Pomodoro techniques - if you just practice it at a
 
 **Mireille B. Reece, Psy.D:** Right? So now I'm under that stressful constraint... But then it takes me no time. And I'm like "Why did I do that? Why did I make it harder than it needed to be, because I created some aversion around it...", when if I just got in that gear...
 
-**Adam Stacoviak:** \[00:38:25.21\] Right. Well, that's the whole idea of thriving under pressure. A literal example is the way diamonds are formed with pressure. And that's a whole different scenario, but that's an example often used when it comes to like "Okay, just add pressure" and this beautiful thing happens. Take a piece of coal, add an immense amount of pressure, and a diamond gets created. That's a super-basic version of creating diamonds.
+**Adam Stacoviak:** \[38:25\] Right. Well, that's the whole idea of thriving under pressure. A literal example is the way diamonds are formed with pressure. And that's a whole different scenario, but that's an example often used when it comes to like "Okay, just add pressure" and this beautiful thing happens. Take a piece of coal, add an immense amount of pressure, and a diamond gets created. That's a super-basic version of creating diamonds.
 
 **Mireille B. Reece, Psy.D:** \[laughs\] Thank you.
 

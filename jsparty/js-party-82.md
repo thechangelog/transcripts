@@ -78,7 +78,7 @@ We know we have a very diverse module ecosystem, so then you sometimes have some
 
 The intent, once Bob is ready and it's there - we will be able to build the WHATWG stream implementation on top of it much more efficiently than we can on the existing stream stack. So Bob is one of the building blocks for WHATWG stream support in core, but it's not that implementation yet.
 
-**Break:** \[00:17:42.03\]
+**Break:** \[17:42\]
 
 **Audience member:** So how do you all feel about the current ECMAScript modules implementation? Either as it currently stands, or moving forward as it approaches moving out of experimental?
 
@@ -132,7 +132,7 @@ There's a number of Node core contributors who sometimes -- so we do feel free t
 
 **Kevin Ball:** Do we have other questions?
 
-**Audience member:** \[00:29:32.13\] With the popularity of Rust, and now having Deno, do you think there's going to be a collaboration in the future between the two projects? Rust and Node.js, or Node and Deno?
+**Audience member:** \[29:32\] With the popularity of Rust, and now having Deno, do you think there's going to be a collaboration in the future between the two projects? Rust and Node.js, or Node and Deno?
 
 **Anna Henningsen:** I wouldn't necessarily expect so, but it's good to have competition, right? \[laughter\] It drives change. Deno definitely has some things that I really wish Node would have. For example, source map support. That is something that we've been talking about with V8, and it's not entirely sure where that should end up, because in V8 it makes sense - every consumer of V8 potentially wants that... But Deno, they just did it. I'm kind of jealous of their ability to just do things, because they don't have to worry about backwards compatibility or arguing a lot, because they're just two people. \[laughs\]
 

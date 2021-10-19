@@ -16,7 +16,7 @@
 
 I spent the next few months just sort of helping triage issues, and tweak the docs... And about that time, Dan got hired to work on the React team at Facebook, and he messaged myself and another guy named Tim Door, and basically said "Hey, congratulations! You're the maintainers now. Here are the keys. Have fun!" It actually took me a little while to really feel like I actually had any permission to have an opinion on what the code itself should be like, but it kind of became my thing after that.
 
-**Amal Hussein:** \[00:04:13.14\] Yeah. And Mark is actually, again, being very humble... Because in addition to -- just having a lot of really great leadership over this incredibly important project for our ecosystem... Because Redux, although maybe it was popularized via the React community, because I think it was the most popular implementation of the Flux architecture, it really grew legs and it kind of quickly got adopted with lots of other communities... And I think what Mark has really done a great job of doing is I think practicing, I would say, a resistance... And you might be wondering "What is resistance?" Well, he's practicing resistance because he's resisted the urge to change Redux. It has such a small footprint, and the API has really been fairly consistent over many years. Of course, the wonderful thing about Redux is it has this wonderful pluggable architecture, and so there's this just vast ecosystem within Redux that's just incredible. I mean, how many packages are like Redux plugins, Markus? Like hundreds, right?
+**Amal Hussein:** \[04:13\] Yeah. And Mark is actually, again, being very humble... Because in addition to -- just having a lot of really great leadership over this incredibly important project for our ecosystem... Because Redux, although maybe it was popularized via the React community, because I think it was the most popular implementation of the Flux architecture, it really grew legs and it kind of quickly got adopted with lots of other communities... And I think what Mark has really done a great job of doing is I think practicing, I would say, a resistance... And you might be wondering "What is resistance?" Well, he's practicing resistance because he's resisted the urge to change Redux. It has such a small footprint, and the API has really been fairly consistent over many years. Of course, the wonderful thing about Redux is it has this wonderful pluggable architecture, and so there's this just vast ecosystem within Redux that's just incredible. I mean, how many packages are like Redux plugins, Markus? Like hundreds, right?
 
 **Mark Erikson:** Yeah... For a while, I was keeping up a running catalog of basically every Redux-related library and add-on that I could find, and that got up to about probably about 2,000 different packages before I just had to stop adding to that list, because I needed to focus on other things.
 
@@ -34,7 +34,7 @@ I spent the next few months just sort of helping triage issues, and tweak the do
 
 **Jerod Santo:** Right. That's amazing... It's just amazing that you wanna do that, because most of us can't be bothered. It's like "Ohh, another question... RTFM, dudes." You know, that's the typical response. But you're like "No, I am the manual. Here! I already read the manual, let me tell you what it says. It's amazing."
 
-**Mark Erikson:** \[00:08:08.28\] I actually just saw a really good blog post just yesterday...
+**Mark Erikson:** \[08:08\] I actually just saw a really good blog post just yesterday...
 
 **Amal Hussein:** I was just gonna talk about it. I retweeted that tweet; that was amazing. Such a good blog post.
 
@@ -50,7 +50,7 @@ So the idea is that you write all of your state-updating code in functions calle
 
 So there's a deliberate level of indirection here, compared to just saying myobject.value=123... But there's a lot of value in trying to centralize some of this management, as well as separating the process of what happened in the app from "how does my state update" in the application.
 
-**Amal Hussein:** \[00:11:58.13\] This kind of shift, of bringing pub/sub and one-way data flow into frontend applications was just game-changing... Previously, event and state management inside of frontend apps was just a nightmare; it was this Rube Goldberg, there was no real organization, no direction, no nothing. It's one of the reasons I personally think two-way binding in Angular was also popularized... Because I think it just took away some of the headaches around event and state management, where it was just like "Just link to the thing", you know? Real-time.
+**Amal Hussein:** \[11:58\] This kind of shift, of bringing pub/sub and one-way data flow into frontend applications was just game-changing... Previously, event and state management inside of frontend apps was just a nightmare; it was this Rube Goldberg, there was no real organization, no direction, no nothing. It's one of the reasons I personally think two-way binding in Angular was also popularized... Because I think it just took away some of the headaches around event and state management, where it was just like "Just link to the thing", you know? Real-time.
 
 **Jerod Santo:** Exactly.
 
@@ -68,7 +68,7 @@ Along with that, the process, because there's all these different ways you could
 
 So these were all very common pain points that people pointed to as reasons why Redux was hard to use, or they didn't like it... And even as far back as 2017, I had filed a discussion issue asking "What are some ways that we can offer some better built-in abstractions, make it easier to user Redux, make it easier to teach Redux?" And it took a while for some of these ideas to percolate through the system, but where we ended up is that in the late '18, early '19, we began working on an official package that we originally dubbed Redux Starter Kit. In it we would add some official utilities for these most common use cases, of things like setting up the store, writing reducers, action creators, action types... And trying to handle immutable updates in a way that's easier to read and write.
 
-\[00:16:09.29\] We officially published that as 1.0 in last October, and right about at the same time people were also pointing out to us that the name Starter Kit had its own issues. People assumed that it was either a pre-built boilerplate that you were supposed to clone, or it was only good when you were setting up a project, or it was only good for people who were beginners and had never used Redux before. And none of those was true. So we ended up renaming it to Redux Toolkit.
+\[16:09\] We officially published that as 1.0 in last October, and right about at the same time people were also pointing out to us that the name Starter Kit had its own issues. People assumed that it was either a pre-built boilerplate that you were supposed to clone, or it was only good when you were setting up a project, or it was only good for people who were beginners and had never used Redux before. And none of those was true. So we ended up renaming it to Redux Toolkit.
 
 **Amal Hussein:** I think I was in that camp, by the way... I was in the camp of "This is like training wheels. I don't need this. I'm a pro." I was in that camp, for the record... \[laughter\] I think I just assumed that it was for newbies, yeah.
 
@@ -92,7 +92,7 @@ Or, I just migrated our code from plain Redux to Redux Toolkit, and I cut the nu
 
 Redux requires that you write your updates immutably, which means you always have to make copies of objects and update the copies, rather than modifying the originals. And writing immutable update code in JavaScript is a royal pain, because you wind up having to do lots of nested object spread operators, and concat and map your arrays... It's really long, and it's very verbose, and hard to read, and really easy to make mistakes. And the number one mistake that I see people making with Redux has been accidentally mutating their state, either in or out of the reducer functions.
 
-\[00:20:20.22\] Meanwhile, Michel Westrate, the creator of the MobX library, made a separate package called Immer, which uses JavaScript proxies to wrap some data... And you provide a callback function that receives a draft object that looks like your original data, but it's actually been wrapped in a proxy. And you can actually write mutating code, like state.value=123, inside of the callback. Immer tracks the attempted changes and internally converts them into safe, immutable updates, so that the return result of this function is a new, immutably-updated object, as if you'd written all that spread operator code by hand yourself.
+\[20:20\] Meanwhile, Michel Westrate, the creator of the MobX library, made a separate package called Immer, which uses JavaScript proxies to wrap some data... And you provide a callback function that receives a draft object that looks like your original data, but it's actually been wrapped in a proxy. And you can actually write mutating code, like state.value=123, inside of the callback. Immer tracks the attempted changes and internally converts them into safe, immutable updates, so that the return result of this function is a new, immutably-updated object, as if you'd written all that spread operator code by hand yourself.
 
 So Redux Toolkit was built around using Immer from the very first prototype that I wrote. And while we could have written some of the other utilities well earlier, using Immer really is core to how Redux Toolkit works, and one of the key ways that it makes it easier to write your Redux logic.
 
@@ -100,7 +100,7 @@ So Redux Toolkit was built around using Immer from the very first prototype that
 
 **Mark Erikson:** To go back and answer your question, there's probably a few things that Dan and Andrew could have done differently, like, say, at least including the Thunk package out of the box, so you don't have to install a separate library... But given what they're aiming for and the constraints at the time, it was frankly a brilliant design.
 
-**Break:** \[00:21:55.17\]
+**Break:** \[21:55\]
 
 **Amal Hussein:** Mark, that was really a wonderful back-story into the reasons behind Toolkit's creation... Going back to the problems of Redux... I think with trying to serve the JavaScript community, you're always trying to serve the widest base possible, because JavaScript is so ubiquitous. Everybody's always writing JavaScript. Java devs are writing JavaScript, Python devs are writing JavaScript... Or maybe I should say Java devs are attempting to write JavaScript... \[laughs\]
 
@@ -112,7 +112,7 @@ So Redux Toolkit was built around using Immer from the very first prototype that
 
 **Amal Hussein:** But anyways - so it appeals to so many people, but then obviously there were certain things around boilerplate, for example, that was a problem... But quite frankly, that was part of the design, in the sense that from my understanding Dan Abramov was really trying to achieve something that was greppable... So to kind of coin the term "grep factor" - the grep factor of Redux is high, because you have this constant action creator, and you just grep for it, and you can see everywhere it's being used. You can very easily just grep your code and just see where this one action is -- how it's being traced throughout your source code... And for me, that's just huge, especially in terms of readability, maintainability... And I'm always one to err on the side of being a little more verbose for code that's supposed to be maintained by multiple people over many years... And so I'd rather have more readable code than short, abstracted code.
 
-\[00:24:37.17\] So my question is like - with Redux Toolkit you've built these abstractions, but what have we lost for power users, or for people who want more of that grep factor? And then also more so, from reading the docs, we have abstractions, but we also have more power. Things like Immer - they bring a lot more to the table right out the gate than previously. So can you just kind of speak to this dichotomy of giving people a jetpack, but then also giving them guard rails?
+\[24:37\] So my question is like - with Redux Toolkit you've built these abstractions, but what have we lost for power users, or for people who want more of that grep factor? And then also more so, from reading the docs, we have abstractions, but we also have more power. Things like Immer - they bring a lot more to the table right out the gate than previously. So can you just kind of speak to this dichotomy of giving people a jetpack, but then also giving them guard rails?
 
 **Mark Erikson:** Sure. So the Redux core, literally the library and the functions themselves are so minimal that you can use them in lots of different ways. This is then both a strength and a weakness... And I actually wrote two very long blog posts that talked about the intent behind Redux's design, what the library literally requires you to do in terms of how you write your code, but then why a lot of common usage patterns actually exist. I dubbed these posts "The Tao of Redux. Part I: Implementation and Intent" and "Part II: Practice and Philosophy."
 
@@ -132,7 +132,7 @@ As developers, we often put code of different types into different files or diff
 
 **Amal Hussein:** If Dan published his food and music and clothing schedule or whatever, I think people would just do it. They would just like "npm-install dan abramov". I think he's got a very serious fan club.
 
-**Jerod Santo:** \[00:28:07.04\] Do you think he has a clothing schedule, Amal? \[laughs\]
+**Jerod Santo:** \[28:07\] Do you think he has a clothing schedule, Amal? \[laughs\]
 
 **Amal Hussein:** Yeah, like "I wear this on Monday..." Or the brands that he wears...
 
@@ -166,7 +166,7 @@ From there, there's a couple of utilities like `createAction`, which generates a
 
 And `createReducer` also uses this Immer library inside to let you write what looks like mutating syntax in your reducers, but it's actually turned into safe, correct, immutable updates internally. So from there, we have an API called createSlice, and we've traditionally used the word "slice" to refer to the reducer for a single part of your Redux state. For example, if I have a blogging app with state.users, state.posts and state.comments, the users reducer and the users actions represent a slice of your state.
 
-\[00:31:55.03\] So createSlice builds on createAction and createReducer. You give it a set of reducer functions in an object, and you give them meaningful names. Giving the classic to-do app example, todoAdded, todoToggled, changeFilter, stuff like that... And it automatically generates the action creators and the action types internally, based on the names of the reducer functions that you provided. And this actually gets to that grepability factor that you were asking about earlier.
+\[31:55\] So createSlice builds on createAction and createReducer. You give it a set of reducer functions in an object, and you give them meaningful names. Giving the classic to-do app example, todoAdded, todoToggled, changeFilter, stuff like that... And it automatically generates the action creators and the action types internally, based on the names of the reducer functions that you provided. And this actually gets to that grepability factor that you were asking about earlier.
 
 One of the advantages of having all those action types as const variables in the codebase was that you could look at the Redux DevTools and see "Okay, I dispatched the Add\_todo" action type, and now I can Ctrl+Shift+F, search the whole codebase textually for uses of that action type.
 
@@ -188,7 +188,7 @@ So if I look at the dev tools and I see a todos/todoadded action type, I should 
 
 **Mark Erikson:** Sure. So after writing the Redux FAQ in the spring of 2016, I followed that with a recipes section called Structuring Reducers, which gives some guidelines on things like "Why do we split up reducer logic into multiple functions? What are some ways that you can organize that reducer logic? And one of the patterns that I'd seen being used just in the first year of Redux's existence was this idea of normalizing your state, which generally has two aspects of it. One is that you don't wanna have duplicate copies of data being kept in the store.
 
-\[00:35:59.13\] If we go back to that blogging example - so we've got users, posts and comments - every post probably has the user who created it. And if we fetch that data from the server, every post object might have a separate copy of the users object nested inside. We don't want to store 50 copies of the user object in the Redux state, we just want to have one copy of the object per each user. And there's a lot of cases where we want to be able to find a given user, a given post, a given comment by their ID.
+\[35:59\] If we go back to that blogging example - so we've got users, posts and comments - every post probably has the user who created it. And if we fetch that data from the server, every post object might have a separate copy of the users object nested inside. We don't want to store 50 copies of the user object in the Redux state, we just want to have one copy of the object per each user. And there's a lot of cases where we want to be able to find a given user, a given post, a given comment by their ID.
 
 So normalizing state generally implies that you're going to store things as a look-up table, where the keys are the IDs, and the values are the items themselves, rather than storing them as an array. And so I wrote a docs page called "Normalizing state shape" that describes what this pattern is, and specifically suggest it as a good idea.
 
@@ -200,7 +200,7 @@ The NgRx maintainers had created an add-on called createEntityAdapter, which bas
 
 So ultimately, I ended up porting it, but none of that would have existed if the NgRx folks hadn't created it in the first place... And it's really cool to see that cross-pollination of ideas going back and forth, because NgRx was inspired by Redux, our createEntityAdapter, was a port of theirs... So it allows you to skip having to write reducer logic in a lot of cases for the most common kinds of update scenarios that you might be dealing with when dealing with a collection of some items. And you can either use them as the entire reducer function for a given action type, or you can use them as helpers within a larger reducer function as part of the logic that you're writing.
 
-**Amal Hussein:** \[00:40:11.07\] I love how you're just like this uber-nerd about everything, Mark... It's awesome. \[laughs\] There's so many interesting points there. One is a really good segue into what we're gonna get into next, which is really not only the ecosystem, but more specifically state management as a whole inside of frontend applications, and the age-old debate of when to use what; local state versus application state. Then there's the whole data management, and fetching, and Apollo client. There's so many new things in the ecosystem, specifically even just React. React has some interesting new APIs, with like the Reducer Hook... Just very cool stuff. We'll get into that next.
+**Amal Hussein:** \[40:11\] I love how you're just like this uber-nerd about everything, Mark... It's awesome. \[laughs\] There's so many interesting points there. One is a really good segue into what we're gonna get into next, which is really not only the ecosystem, but more specifically state management as a whole inside of frontend applications, and the age-old debate of when to use what; local state versus application state. Then there's the whole data management, and fetching, and Apollo client. There's so many new things in the ecosystem, specifically even just React. React has some interesting new APIs, with like the Reducer Hook... Just very cool stuff. We'll get into that next.
 
 Really quickly, I wanted to say that one of the things that a lot of people complain about - so we talked about the three reasons being "Okay, configuring a Redux store is too complicated", the second thing being "I have to add a lot of Redux packages to get Redux to do anything useful", and the third complaint being "Redux requires too much boilerplate code" - I would say all of those things speak to my nerd heart, in the sense that I feel very attacked when I read that... Because for me, it's like -- I just love the open architecture of Redux. The fact that it stood this long and it's still relevant - it just goes to show it's the open architecture and the clean architecture that it has, that uses plugins etc. That's why it stood the test of time.
 
@@ -212,7 +212,7 @@ I get that people have -- okay, there's this baseline of packages that everybody
 
 **Amal Hussein:** Yeah, absolutely. Well, ladies and gentlemen, Redux - definitely not dead yet. We're gonna hear a lot more about when to use what and why in the next segment.
 
-**Break:** \[00:44:28.09\]
+**Break:** \[44:28\]
 
 **Jerod Santo:** So in the spirit of making your own lasagna, maybe you follow our recipe, but the stuff that Amal was talking about, where she's a Redux junkie and she wants to do it the way that she does it, and she loves to twiddle the bits and configure it just so... Is it advisable, Mark, to use Redux Toolkit in a recipe style reference?
 
@@ -228,7 +228,7 @@ Say you've got a large existing Redux app, and you want to start using Redux Too
 
 **Amal Hussein:** Actually, Mark, that brings me to the question - is there a diff out there that is viewable to the public, where it's like "Here's an actual app that used Redux, and here's the commit diff to use Redux Toolkit..."
 
-**Jerod Santo:** \[00:48:16.07\] Well, that would be awesome.
+**Jerod Santo:** \[48:16\] Well, that would be awesome.
 
 **Amal Hussein:** "...and here's all the negative lines of code removed", or whatever. I'm just curious, is that something that's available somewhere on the interwebs?
 
@@ -244,7 +244,7 @@ Another is that it does teach Redux Toolkit and the React Redux Hooks API as the
 
 Now, Redux Toolkit certainly does work best if you understand how to write that code by hand, so that you know what those abstractions are doing for you. But my goal was that you should be able to use it without necessarily knowing what's going on under the hood.
 
-**Amal Hussein:** \[00:52:00.29\] Yeah, that's our favorite thing as JavaScript developers - "It just works, we don't need to know how; let's just keep moving. I've got tickets to close, I've got users to make happy, so just get out of our way." \[laughs\]
+**Amal Hussein:** \[52:00\] Yeah, that's our favorite thing as JavaScript developers - "It just works, we don't need to know how; let's just keep moving. I've got tickets to close, I've got users to make happy, so just get out of our way." \[laughs\]
 
 **Jerod Santo:** There you go.
 
@@ -282,7 +282,7 @@ Now, Redux Toolkit certainly does work best if you understand how to write that 
 
 So in the case of Redux, it was invented as an implementation of the Flux architecture, which was in turn created to deal with limitations people had found in event-trigger-based state management, like Backbone specifically. So I set user.firstname, it triggers a "change first name" event, some other code is listening to that, it triggers another event... Next thing you know, you're 15 events down one big synchronous call stack, and you have no idea why this happened in the first place. That's what Flux was invented to solve, and Redux basically perfected that particular approach. And that was the problem people were trying to solve in 2015.
 
-\[00:56:18.25\] Now, it also happens that because React Redux used the old-style React Context API from its beginning, using Redux in a React app also kind of happened to somewhat accidentally solve another common problem, which is that a) many different parts of my app need to use the same state at the same time, and I would normally have to lift that state up maybe all the way to the root app component in order for many components to share the data. But if I do that, I would then have to prop-drill and pass that data as props through every level of the component tree, which is a royal pain. So using Redux with React to let people side-step that issue... And that is a reason why many people picked Redux in '15, '16, '17.
+\[56:18\] Now, it also happens that because React Redux used the old-style React Context API from its beginning, using Redux in a React app also kind of happened to somewhat accidentally solve another common problem, which is that a) many different parts of my app need to use the same state at the same time, and I would normally have to lift that state up maybe all the way to the root app component in order for many components to share the data. But if I do that, I would then have to prop-drill and pass that data as props through every level of the component tree, which is a royal pain. So using Redux with React to let people side-step that issue... And that is a reason why many people picked Redux in '15, '16, '17.
 
 Well, with React 16.3, React came out with a new, improved Context API, which unlike the old one, was recommended for production usage from the day it came out. And the only purpose of Context is to act as a dependency injection mechanism scoped to some portion of your subtree, where you say "Here is a value", and any portion of that component subtree can ask to read the value. That's literally all it does.
 

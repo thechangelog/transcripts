@@ -32,7 +32,7 @@ Finally, I was taking care of myself. I never went to the doctor. Something woul
 
 I think balancing those things too, between saying "Okay, well I'm helping other people..." -- you've gotta care for yourself, too. You've gotta take care of your emotional well-being, your mental health, your physical health... All those things. You've gotta be grounded, you can't just be chaotic. There's a lot of balance in there.
 
-**Break:** \[00:09:54.19\]
+**Break:** \[09:54\]
 
 **Tim Smith:** One of my favorite questions to ask business owners is what the scariest thing was about going out on their own. Justin's response, I think, is one of the most relatable I've heard.
 

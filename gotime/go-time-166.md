@@ -34,7 +34,7 @@ Joining me today - Johnny Boursiquot's back. Hello, Johnny.
 
 **Mat Ryer:** Thanks for coming back, thanks for accepting our invitation. Maybe you could just start off by telling us what's the process behind the proposal? What's the usual flow? How do they come about, and what happens to them?
 
-**Daniel Martí:** \[00:04:02.26\] So it's been a process that has iterated quite a lot in the past few years. Initially, as you can imagine with any open source project, people would open issues and be like "Hey, please do X or Y." With language features it was kind of messy, because sometimes you would get two lines of somebody saying "Hey, add generics", that kind of thing. Over time it became more formal. For really fancy changes, like generics or error checking, there's a formal process where you have to write a document and write an experimental implementation of your language change... But most changes that get proposed are smaller, so instead there's like a small template that you have to fill. And I think that's what most people end up doing.
+**Daniel Martí:** \[04:02\] So it's been a process that has iterated quite a lot in the past few years. Initially, as you can imagine with any open source project, people would open issues and be like "Hey, please do X or Y." With language features it was kind of messy, because sometimes you would get two lines of somebody saying "Hey, add generics", that kind of thing. Over time it became more formal. For really fancy changes, like generics or error checking, there's a formal process where you have to write a document and write an experimental implementation of your language change... But most changes that get proposed are smaller, so instead there's like a small template that you have to fill. And I think that's what most people end up doing.
 
 **Mat Ryer:** Right. And then what happens once they're out? We're talking open source, aren't we? So this is available for everyone to look at.
 
@@ -60,7 +60,7 @@ Joining me today - Johnny Boursiquot's back. Hello, Johnny.
 
 **Daniel Martí:** Fair enough.
 
-**Mat Ryer:** \[00:08:17.19\] Yeah. So one of the first ones on the list we have is this -- this is a really interesting one. It's issue 21670, which makes me feel like I'm in Star Trek by saying that... It is "Have functions auto-implement interfaces with only a single method of that same signature." So this is essentially how we have HandleFunc, which is a function type that implements the Handler interface... And you have to explicitly say that in the code, at the moment; it's quite a short amount of code usually, because all you're doing is creating a method that then calls itself... So it's not too difficult to do, but this proposal is about making it automatic. So given a handler interface that has a ServeHTTP method, you wouldn't ever have to have a HandleFunc type; you could always just make a func that matches that single method. It would only work for single-method interfaces, of course... What do we think about it? Daniel, what do you think about that one?
+**Mat Ryer:** \[08:17\] Yeah. So one of the first ones on the list we have is this -- this is a really interesting one. It's issue 21670, which makes me feel like I'm in Star Trek by saying that... It is "Have functions auto-implement interfaces with only a single method of that same signature." So this is essentially how we have HandleFunc, which is a function type that implements the Handler interface... And you have to explicitly say that in the code, at the moment; it's quite a short amount of code usually, because all you're doing is creating a method that then calls itself... So it's not too difficult to do, but this proposal is about making it automatic. So given a handler interface that has a ServeHTTP method, you wouldn't ever have to have a HandleFunc type; you could always just make a func that matches that single method. It would only work for single-method interfaces, of course... What do we think about it? Daniel, what do you think about that one?
 
 **Daniel Martí:** Somebody made a comment on this proposal which I think was a good point, which is that in Go you can go from a method to a function by using a method value... So we've got a variable of type bytes.Buffer, and you name it *buf*; you can do *buf.write*, and that is a function. So you can go from the method to the function, but you cannot go back, if that makes sense. If you have that function, you cannot easily say "Okay, now use it as a method." You have to statically define a new type to use that function.
 
@@ -78,7 +78,7 @@ I'm sure there's other use cases where it would be used, but from that perspecti
 
 **Mat Ryer:** Yeah, that's interesting... To Daniel's point - he makes quite an interesting point; if somebody made an interface that just returned a string... Say that it was called Identifier, and it had an ID string method. You could easily have a function that returned a string. And passing that in - I was just wondering about that case, about accidentally implementing an interface... But you're passing a function into a thing, so you're really aware of what you're doing at that point, aren't you? In fact, you're probably making the function anonymously, aren't you? ...so that you're doing it in-line, right there. I can't imagine that becoming a problem.
 
-**Kris Brandow:** \[00:12:34.23\] I think in some cases... But I think you could also just have package-level functions that you want to use as an interface... And I think as far as confusing interfaces, or accidentally implementing them, I think the only one that I've consistently accidentally implemented is stringer, which I just think is an issue with stringer overall that we're probably never gonna get away from. It's just like "Yeah, this thing will always print out whatever this method puts out if you pass it any of the fmt functions, because it implements stringer." But I've never really had that issue with any other interface, of like just accidentally implementing it.
+**Kris Brandow:** \[12:34\] I think in some cases... But I think you could also just have package-level functions that you want to use as an interface... And I think as far as confusing interfaces, or accidentally implementing them, I think the only one that I've consistently accidentally implemented is stringer, which I just think is an issue with stringer overall that we're probably never gonna get away from. It's just like "Yeah, this thing will always print out whatever this method puts out if you pass it any of the fmt functions, because it implements stringer." But I've never really had that issue with any other interface, of like just accidentally implementing it.
 
 **Mat Ryer:** Yeah, I think I'm probably the same. Johnny Boursiquot, what do you think about this idea of having functions automatically kind of magically implement an expected interface?
 
@@ -104,7 +104,7 @@ Again, I don't wanna be the curmudgeon in the corner saying no to everything... 
 
 **Mat Ryer:** Well, this doesn't add a new way to loop over; it just means you can write types that work with the current for range thing. The way you have to do it at the moment is either you build your own API, you have your own methods and you just implement your own iterator... Or if it's small enough data, you will just maybe have a method that creates a slice, and then that slice can be easily ranged over by the for block thing. That's right, isn't it, Daniel?
 
-**Daniel Martí:** \[00:16:29.16\] Yeah.
+**Daniel Martí:** \[16:29\] Yeah.
 
 **Mat Ryer:** I thought I saw you shaking your head in my periphery.
 
@@ -136,7 +136,7 @@ I just think this would definitely get abused in some ways, and lead to people j
 
 **Daniel Martí:** So I think ranges are already kind of confusing. This would maybe make them more confusing, but it's not binary, like suddenly they become bad.
 
-**Break:** \[00:20:43.11\]
+**Break:** \[20:43\]
 
 **Mat Ryer:** It's time to move on to the next proposal. Daniel, do you wanna tell us about this next one?
 
@@ -152,7 +152,7 @@ So this is a small language change to say "Only within those two built-in functi
 
 So yeah, I'm with you, actually. I quite like this one, too. I feel like you don't get really any benefit from repeating it, I suppose... So maybe that's the argument though - would there be a benefit if they're separated, those two types? Would you lose something, would you have to then go back to the type?
 
-**Johnny Boursiquot:** \[00:24:00.24\] I like that one. Of the ones so far, this was probably my favorite one. I could see using it, what we settle on in terms of how to indicate "Hey, we've already specified the type. Go figure it out", whether it's a three dot, or - the original post was proposing a type of keyword, which would definitely get abused everywhere... But I could definitely see that. Because we've already specified the information. The language can infer the type, so it's like saving a few keystrokes.
+**Johnny Boursiquot:** \[24:00\] I like that one. Of the ones so far, this was probably my favorite one. I could see using it, what we settle on in terms of how to indicate "Hey, we've already specified the type. Go figure it out", whether it's a three dot, or - the original post was proposing a type of keyword, which would definitely get abused everywhere... But I could definitely see that. Because we've already specified the information. The language can infer the type, so it's like saving a few keystrokes.
 
 Of the bunch we've seen so far, this is probably the one that I could see using... To borrow Kris' opinion, it would take me a little bit of getting used to, because I'm always used to specifying my types... But I could see myself getting used to it.
 
@@ -186,7 +186,7 @@ So yeah, if there was a way to reduce down what you used make and new for, I thi
 
 **Johnny Boursiquot:** It is awkward explaining new to a Go beginner, when to use it and when not to use it. Usually, they're like "Well, is that a constructor kind of thing? Can I use it to initialize a new thing? How does that work? I can only use make in certain cases, like with channels and other--" It becomes very confusing. But I don't think that's a bad thing; I think that's just Go. Once you learn how Go works, you kind of get over those minor issues. I call them minor, but... Again, I'm speaking for somebody who's been doing this for a little while, so my opinion is gonna be very different from somebody who's approaching the language, and I'll admit that. It's the curse of those who are experienced - you no longer see the problems beginners have, and I totally own up to that.
 
-**Mat Ryer:** \[00:28:27.06\] Yeah, I think that's fine. I like the curly brace to create new things, because it's the same for maps and slices and structs and stuff... So you can yourself choose to just do it one way. So I'd actually be happy with just that way. I think we should just only have that.
+**Mat Ryer:** \[28:27\] Yeah, I think that's fine. I like the curly brace to create new things, because it's the same for maps and slices and structs and stuff... So you can yourself choose to just do it one way. So I'd actually be happy with just that way. I think we should just only have that.
 
 **Daniel Martí:** Except basic types.
 
@@ -212,7 +212,7 @@ So yeah, if there was a way to reduce down what you used make and new for, I thi
 
 But I think if we can, as a community, figure out how to convey "This is the kind of things you should be using lazy evaluation for", I think it could be a very useful feature, in a wide range of software.
 
-**Mat Ryer:** \[00:32:23.28\] Yeah. You see, I've implemented almost this, but by using functions. So the idea is you've got some kind of loader, and you just pass in the function... And it works, because it can also be the method of a type as well. So you can even have it in services, or other higher-level object design situations as well. So it's nice - you pass the function in, and internally, depending on when you call it (if you even do), it only gets called at that point.
+**Mat Ryer:** \[32:23\] Yeah. You see, I've implemented almost this, but by using functions. So the idea is you've got some kind of loader, and you just pass in the function... And it works, because it can also be the method of a type as well. So you can even have it in services, or other higher-level object design situations as well. So it's nice - you pass the function in, and internally, depending on when you call it (if you even do), it only gets called at that point.
 
 The nice thing about doing it explicitly is you get to choose arguments, and things like this... Whereas this proposal - it almost looks a bit like defer, how you're calling that method immediately... But I guess, again, it's kind of trade-offs, and things... Johnny, did you have a chance to look at this one? This is the functions, lazy values...
 
@@ -250,7 +250,7 @@ Shall we talk about ints? Who uses ints in your programming life \[unintelligibl
 
 **Daniel Martí:** Yeah. So essentially, you don't have protection against that kind of error, where it essentially loops around and goes back to the bottom. And then there's int, which doesn't have a fixed size. So when 64-bit computers, like most laptops and desktops these days - it's 64 bits, but for example on small routers, which might still be 32 bits, it's gonna be 32 bits.
 
-\[00:36:15.25\] And this causes some bugs in real programs, because for example people might only test on 64-bit machines, and then their code might actually break on 32-bit machines with regular workloads... So this proposal is essentially to say "No, the int type without a size never wraps around. It's essentially infinitely-sized." And then it's up to the compiler to generate good code to implement that.
+\[36:15\] And this causes some bugs in real programs, because for example people might only test on 64-bit machines, and then their code might actually break on 32-bit machines with regular workloads... So this proposal is essentially to say "No, the int type without a size never wraps around. It's essentially infinitely-sized." And then it's up to the compiler to generate good code to implement that.
 
 **Mat Ryer:** So would you be able to go beyond int64 with this proposal as well?
 
@@ -284,7 +284,7 @@ Another case is if you cannot statically know that for sure, you can also say th
 
 **Mat Ryer:** Yeah. Like, I don't need it. But it's like, whenever I buy a laptop, I always get the most RAM I can get... And honestly, I try and find reasons now to use up RAM. If you've got any data you want me to store for you, let me know. Send it over. I've got loads of RAM going to waste.
 
-**Kris Brandow:** \[00:40:26.23\] I do wonder as well if there's maybe a corollary proposal - it probably already exists - to have a float type in a language that is arbitrary precision... I feel like that could be useful for perhaps financial applications, where you really need that arbitrary position. You can't use a float64 for money; please don't use a float64 for money, that's a bad idea. \[laughter\]
+**Kris Brandow:** \[40:26\] I do wonder as well if there's maybe a corollary proposal - it probably already exists - to have a float type in a language that is arbitrary precision... I feel like that could be useful for perhaps financial applications, where you really need that arbitrary position. You can't use a float64 for money; please don't use a float64 for money, that's a bad idea. \[laughter\]
 
 It's one of those things where I always wanna go to use a float, I'm always like "Oh yeah, float" and I'm like "Oh no, it has to be a float32 or a float64. I have to specify it." So I feel like adding that type there could also be useful if we're gonna change how int works and how uint works.
 
@@ -300,7 +300,7 @@ It's one of those things where I always wanna go to use a float, I'm always like
 
 **Daniel Martí:** And I feel like my overall stance on this is that I like the next proposal better, which kind of aims at the same problem, so maybe we should talk about that one.
 
-**Break:** \[00:42:00.00\]
+**Break:** \[42:00\]
 
 **Mat Ryer:** So the next one talks about having new types that are stricter; as well as like an int, you'd have an oint, which is a kind of overflow int, or overflow-protected... And it would panic if it was to overflow. So instead of just wrapping around like Pacman, it would be like if Pacman went off the screen and never came back, right?
 
@@ -336,7 +336,7 @@ So to me, this proposal feels quite Go-like... But at the same time, what I don'
 
 **Mat Ryer:** That would be a backwards-incompatible change though, I suppose, wouldn't it? Maybe? Maybe not, because -- is overflowing kind of unspecified behavior, or would there be people that rely on it?
 
-**Daniel Martí:** \[00:48:00.29\] It is specified to wrap around in the Go spec, but the thing is, does much code actually depend on that? If they do, this could be triggered by a new Go language version. So if your go.mod says "Go 1.17 or later", then suddenly ints and uints - they're all safe against overflow. And then if you do that upgrade and you want the overflow, you use the other type, that explicitly allows you to overflow without panicking.
+**Daniel Martí:** \[48:00\] It is specified to wrap around in the Go spec, but the thing is, does much code actually depend on that? If they do, this could be triggered by a new Go language version. So if your go.mod says "Go 1.17 or later", then suddenly ints and uints - they're all safe against overflow. And then if you do that upgrade and you want the overflow, you use the other type, that explicitly allows you to overflow without panicking.
 
 **Mat Ryer:** Okay, so you would have another type, but you'd flip it, so that the new type had the old behavior, and the default behavior was panicking overflows.
 
@@ -348,7 +348,7 @@ So to me, this proposal feels quite Go-like... But at the same time, what I don'
 
 **Mat Ryer:** Oh, I've made a fair point, too... \[laughter\] I wondered, because I'm trying to see if it's actually time for our regular slot... Unpopular Opinions!
 
-**Jingle:** \[00:49:00.28\] to \[00:49:16.12\]
+**Jingle:** \[49:00\] to \[49:16\]
 
 **Mat Ryer:** Okay... Who's gonna kick us off? Does anyone have an unpopular opinion?
 
@@ -400,7 +400,7 @@ So to me, this proposal feels quite Go-like... But at the same time, what I don'
 
 **Daniel Martí:** It's a mix of reasons. On one hand, I feel like Go succeeded the most when it was stable. A lot of the amazing software that came out in Go was conceived while Go was essentially frozen as a language... And I feel like if Go keeps growing and growing... It's not like it's growing very fast at the moment, but if it keeps the upward pace like that, I feel like it might lose this good quality of just being chill and letting other languages experiment, and then just taking the good bits and being a small language.
 
-**Mat Ryer:** \[00:52:19.14\] Hm. Interesting. Well, what do you think of that, Kris?
+**Mat Ryer:** \[52:19\] Hm. Interesting. Well, what do you think of that, Kris?
 
 **Kris Brandow:** I think that's popular. I think that's something I would like to see. I feel like especially over the last few years we've had some -- I don't think they were missteps, but I feel like we've been moving a little bit too fast, with a sense of urgency. I think modules is a pretty decent example of that. I feel like the end result has been good, and I think there was a need, but I feel like there was a lot of stuff with modules that was like, "Oh, how are we actually gonna make this work? How are we gonna get the tooling to be there for modules?"
 
@@ -434,7 +434,7 @@ Honestly, I think that's a nice way to actually get around the problem, although
 
 **Mat Ryer:** It's a bit of work for maintainers, because suddenly they might build their code one day and it doesn't build, because they've made breaking changes... But with a relatively simple fix, which is just change your imports, or fix your Go \[unintelligible 00:56:03.17\] Interesting approach. Has anyone got any views on that?
 
-**Daniel Martí:** \[00:56:11.08\] I think semantic import versioning had to happen, because otherwise it wouldn't have been possible to have semantic versioning work at large scale... Because for example with the GORM case, if I depend on one library that wants an old version, and I depend on another library that wants a newer version, if both are at the same version one module, there's a clash; there's like a diamond dependency problem. I can't build with both versions at the same time, because they're the same module. So that's what version 2+ is meant to fix - you can build with version one and two at the same time.
+**Daniel Martí:** \[56:11\] I think semantic import versioning had to happen, because otherwise it wouldn't have been possible to have semantic versioning work at large scale... Because for example with the GORM case, if I depend on one library that wants an old version, and I depend on another library that wants a newer version, if both are at the same version one module, there's a clash; there's like a diamond dependency problem. I can't build with both versions at the same time, because they're the same module. So that's what version 2+ is meant to fix - you can build with version one and two at the same time.
 
 But I kind of see Kris' point. We are kind of stuck with this version \[unintelligible 00:56:46.07\] but I think it's mostly gonna get better with better tooling, like the package site for example now, if you look at the docs for version one, and version three is the latest stable, it tells you "Hey, did you notice that you're not on the latest version?" And that's kind of a hint that users should be getting moving forward.
 

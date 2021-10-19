@@ -24,7 +24,7 @@ I think the tides are turning a little bit, maybe perception is changing - at le
 
 At the meetings themselves a lot of debate happens, a lot of discussion, presentations about different kinds of proposals, and just sort of analyzing where might there be problems, where do implementers think that there are gonna be issues, and then providing the feedback.
 
-\[00:04:06.13\] It's a process that takes a long time, and that's something that I think can't be overstated. A lot of folks get these ideas, they get very passionate about it and they wanna see it happen now, but we can't work at that pace when we're talking about changing the web. The web is a long-term platform, so we have to think about change management for it in a very thoughtful, pragmatic way.
+\[04:06\] It's a process that takes a long time, and that's something that I think can't be overstated. A lot of folks get these ideas, they get very passionate about it and they wanna see it happen now, but we can't work at that pace when we're talking about changing the web. The web is a long-term platform, so we have to think about change management for it in a very thoughtful, pragmatic way.
 
 The process does involve a lot of conversation, and getting a lot of people to think about it, debate, provide use cases, write tests... So that we know that the decisions that are being made are the right ones.
 
@@ -50,7 +50,7 @@ There's a proposal process that your listeners might be familiar with, where we 
 
 **Jory Burson:** Two things. One is that you join the member organization Ecma, and the other is that you can be an invited expert, and we're actually really open to that as well. So especially if you're thinking about joining, let us know, because we would be happy to invite you to come see what it looks like in person.
 
-\[00:07:58.23\] I think it's worth noting that it's a three-day event; the meeting has grown from maybe ten people -- it used to be less than ten people working on the standard, and now I think the last meeting we had like 60 people. We've gotta know who's coming, basically... It could grow to the size of a small conference if we weren't careful, but we do want to invite folks who are interested in participating to come do that as an invited guest, especially if you're thinking about joining... Or if there's an area that you would like to present to the committee about, we'd like to hear from you.
+\[07:58\] I think it's worth noting that it's a three-day event; the meeting has grown from maybe ten people -- it used to be less than ten people working on the standard, and now I think the last meeting we had like 60 people. We've gotta know who's coming, basically... It could grow to the size of a small conference if we weren't careful, but we do want to invite folks who are interested in participating to come do that as an invited guest, especially if you're thinking about joining... Or if there's an area that you would like to present to the committee about, we'd like to hear from you.
 
 **Amal Hussein:** Yeah, I'd love to chime in here... The TC39 are kind of put on this pedestal, and to some degree rightfully so, because it's really hard work, but it's also really a self-selecting group of people. It's really tedious work, and the output is lovely. We have wonderful features like async/await that are implemented in all browsers, that work... But it takes a lot to get there, and I think one of the things that really makes the TC's decisions very cumbersome sometimes is that there's multiple stakeholders, the first stakeholder (and the most important one) being the users of the web; the users of the web platform are very important, and we cannot break this for them... So backwards compatibility is important, making sure that implementations of new features don't break the web, any significant portion of it anyway. So that's one stakeholder.
 
@@ -68,19 +68,19 @@ So there's a lot of really hard decisions, and it's really humbling work. Being 
 
 **Amal Hussein:** And I'm okay with that personally, because the web is a public utility, it's something that's for everyone; it's how people pay their bills, it's how people communicate, it's people's only communication medium sometimes, if they're unable to communicate physically otherwise... So we can't break it, and we have to be careful with it.
 
-**Jory Burson:** \[00:12:20.20\] That's right.
+**Jory Burson:** \[12:20\] That's right.
 
 **Kevin Ball:** I'd be interested to hear a little bit -- Amal, you mentioned there are these different stakeholders, and there was some recent interesting discussion in the CSS world about the distribution of stakeholders and how it tends to be biased towards implementers... Is the same thing true in TC39? What is the balance of representation across different stakeholders?
 
 **Jory Burson:** That's a great question. The nature of it is we could come up with a dozen different specifications, but none of it matters unless it gets implemented. So the power is really in the hands of the implementers. But we have quite a few folks from companies you would be surprised to hear - Airbnb, PayPal... There are a couple smaller companies like Bocoup, Tilde, for example... So I would say that \[unintelligible 00:13:15.06\] is another one. If I were to give it a percentage, I might say it's 50/50. I feel like it's 50/50. But the latter voices are still the implementers, because ultimately if they don't put it in, it doesn't matter...
 
-**Break:** \[00:13:39.16\]
+**Break:** \[13:39\]
 
 **Kevin Ball:** So let's go back a little bit and talk about the staging of things. I think there was some interesting stuff we were talking about maybe covering, in terms of when do you jump in on something, what do the different stages mean, and what happens if you start using something before it's fully solidified? ...that sort of area. So what are those stages and what do they imply for developers?
 
 **Jory Burson:** Yes. I'm a conservative person, I'm fairly risk-averse, so my advice to people is don't implement it until it's actually published... But generally, if somebody wants to implement something in stage four, that's okay, that's a safe bet. Usually, if it's stage four, it's not coming out; it's going to be adopted in the final draft of the spec. It's when you start looking at things that are younger than that, less mature ideas, that you get into the super-danger zone... Again, the first stage being "This is an idea. You might want to implement it just as a test case, a proof of concept." By stage three we expect there to be tests, and some really solid use cases... And stage four - that's when you're in the safer zone.
 
-**Kevin Ball:** \[00:16:18.10\] What's the process for making decisions about what's moving from stage to stage?
+**Kevin Ball:** \[16:18\] What's the process for making decisions about what's moving from stage to stage?
 
 **Jory Burson:** What happens is somebody will author a proposal, and they will bring it to the meeting; a champion brings it to the meeting and just presents. There is discussion, and at the end of that discussion the champion might ask "What do you guys think? Do you think it's time? Can we move it to the next stage?" And the committee will say yes, or "No, we want to see more XYZ..."
 
@@ -100,7 +100,7 @@ Then the champion will take that feedback, or they'll get their green light to m
 
 Those tests are then used by implementers. They basically import that project, run it in their own CI process, and it helps implementers when they're adding features to test their code. So it's this wonderful validation, and it's something that really drives interoperability; it's really important for making sure that JavaScriptCore's implementation of generators is the same as Chrome's, and it's not gonna cause weird bugs, and everybody wins. So it's to push web interoperability, but it also heavily speeds up the development process for implementers... Because if they have tests and they're not having to think about it or write their own, it really helps aid the process tremendously.
 
-\[00:20:10.13\] I'm really proud to say that my teammates, Rick Waldron... Rick is technically my boss; he's my boss. My boss, Rick Waldron, my teammate Leo Balter, are maintainers for the project. It's a small body of maintainers... And I've contributed to that project as well.
+\[20:10\] I'm really proud to say that my teammates, Rick Waldron... Rick is technically my boss; he's my boss. My boss, Rick Waldron, my teammate Leo Balter, are maintainers for the project. It's a small body of maintainers... And I've contributed to that project as well.
 
 **Nick Nisi:** Is it a custom testing platform? It's not like Jest, or something, right? \[laughter\]
 
@@ -124,7 +124,7 @@ Those tests are then used by implementers. They basically import that project, r
 
 **Jory Burson:** Yeah.
 
-**Kevin Ball:** \[00:24:02.19\] I'd be curious to hear a little bit about what are the boundaries of what is and is not specified? One thing that came up in a recent JS Party that we were talking about was error messages, and the fact that the same error can have different error messages across every different browser. Where are the lines that are left up to the discretion of the implementer?
+**Kevin Ball:** \[24:02\] I'd be curious to hear a little bit about what are the boundaries of what is and is not specified? One thing that came up in a recent JS Party that we were talking about was error messages, and the fact that the same error can have different error messages across every different browser. Where are the lines that are left up to the discretion of the implementer?
 
 **Jory Burson:** That is a great question.
 
@@ -154,7 +154,7 @@ There's some things that are left up to the implementers because they're writing
 
 **Amal Hussein:** And it's a good segue into my -- You know, proposals are proposals, and they will change; they're almost guaranteed to change. Decorators is a prime example of that. Babel makes it really easy for us to use these stage zero, stage one presets, but now since they've added messages and warnings saying "FYI, this is going to change. This is not real JavaScript yet."
 
-\[00:28:13.24\] So just understand that it's a major maintenance burden for you and your teams moving forward. Like, yeah, somebody might write some automated way to refactor it, but it's still something that you have to do, and it's still decisions that need to be made by product teams and QA teams, and... You know, it's just not worth it. Be responsible and only use real JavaScript. \[laughter\] We should make like a "Real JavaScript" sticker.
+\[28:13\] So just understand that it's a major maintenance burden for you and your teams moving forward. Like, yeah, somebody might write some automated way to refactor it, but it's still something that you have to do, and it's still decisions that need to be made by product teams and QA teams, and... You know, it's just not worth it. Be responsible and only use real JavaScript. \[laughter\] We should make like a "Real JavaScript" sticker.
 
 **Jory Burson:** "Keep calm and use real JavaScript."
 
@@ -188,7 +188,7 @@ The idea is that the web is an evolving, moving target, and we have - as Jory so
 
 **Amal Hussein:** Basically, ASTs are this powerful thing that helps -- so when your code is basically processed by a language parser, it first gets broken down into a tree, and that tree is this predictable data structure, that then you can use to safely make changes to your code, and do an in-place regeneration... So those are the things that I'll be exploring tomorrow.
 
-**Break:** \[00:31:23.03\]
+**Break:** \[31:23\]
 
 **Nick Nisi:** There's a lot of tools around that, and there's even lots of ASTs... Do they all have similar data structures that they eventually get converted into, or do they all have their own subtle intricacies between them?
 
@@ -206,7 +206,7 @@ As we get more and more complex, another example is something where we have a co
 
 **Amal Hussein:** Yeah, and that's something that I get into, too. It's an ability for you to query your codebase, and understand "Where does the complexity lie? Where do I have seven function calls that are being made from one function? Where do I have 17 variables being defined?" It's a way for you to understand what are the patterns of your codebase, and then also take the opportunity to improve your custom linting rules as well.
 
-\[00:36:06.01\] If you make a transform, or if you've deprecated some API or whatever, you can also use ASTs to extend out your linter to be a bit more custom to your team's conventions. Or you can use it to reinforce this bug from never happening. So if you ever fix a bug, you should ask yourself, "Hey, is there a linting rule, or is there something that I can do to automate this, so that nobody else has to ever fix this bug again? If the answer is yes, then go do that." Then the next question should be "If the answer is no, then can I write a unit test, so that our build will--" and then if the answer is "No, I can't write a unit test", "Okay, then can I write an integration test?" and the answer will definitely be yes.
+\[36:06\] If you make a transform, or if you've deprecated some API or whatever, you can also use ASTs to extend out your linter to be a bit more custom to your team's conventions. Or you can use it to reinforce this bug from never happening. So if you ever fix a bug, you should ask yourself, "Hey, is there a linting rule, or is there something that I can do to automate this, so that nobody else has to ever fix this bug again? If the answer is yes, then go do that." Then the next question should be "If the answer is no, then can I write a unit test, so that our build will--" and then if the answer is "No, I can't write a unit test", "Okay, then can I write an integration test?" and the answer will definitely be yes.
 
 So there's multiple layers for stopping regressions from happening, and I'm trying to automate that and make that as binary as possible. It just takes the human emotion and human time out of it, which is really valuable. Does that make sense to you all?
 
@@ -256,13 +256,13 @@ So there's multiple layers for stopping regressions from happening, and I'm tryi
 
 In practice today that means we're working a lot on infrastructure tools, and primarily the test suites, but also Amal's team... If you wanna plug Gaia really quick...
 
-**Amal Hussein:** \[00:40:13.23\] Oh, yeah. At Bocoup, our model is we have engineers that work on our reliability standards and testing projects with our browser vendors. Then some of us also still kind of do what Bocoup was really famous for, which is we make amazing web apps; but we've really evolved from making amazing web apps, which we feel like the community is really there, but we're pushing the boundaries now with computer vision and augmented reality, games interactive media... So web applications that have all of those components, that are a little bit more niche.
+**Amal Hussein:** \[40:13\] Oh, yeah. At Bocoup, our model is we have engineers that work on our reliability standards and testing projects with our browser vendors. Then some of us also still kind of do what Bocoup was really famous for, which is we make amazing web apps; but we've really evolved from making amazing web apps, which we feel like the community is really there, but we're pushing the boundaries now with computer vision and augmented reality, games interactive media... So web applications that have all of those components, that are a little bit more niche.
 
 We're not really working on standard React Redux apps, we're working on really complex things that really leverage the web platform APIs heavily. Our expertise on these APIs really helps us help our customers, push the boundaries forward with what they can do with their web applications.
 
 **Jory Burson:** To your point about what's really the difference between that kind of service versus an agency, where we try and serve is in that sort of longer-term relationship and commitment, not just to the product, but also to the technology, and helping companies understand what the lifecycle of that technology is, how to work with it in a healthy, sustainable, maintainable kind of way, versus "We need an application for our car rental company", which has more of like a marketing and advertisement focus to it. We're really there for the tools and the teams behind the tools.
 
-**Kevin Ball:** \[00:42:11.14\] Got it. So you're doing consulting work, but focused on essentially open source infrastructure. "Here's how you're gonna be able to use these, here's how you plug into the web standards", and that sort of thing.
+**Kevin Ball:** \[42:11\] Got it. So you're doing consulting work, but focused on essentially open source infrastructure. "Here's how you're gonna be able to use these, here's how you plug into the web standards", and that sort of thing.
 
 **Jory Burson:** Yeah, exactly. "Here's how to think about where your company is, and its transition to maybe becoming more of a tech company." That's the thing that's of concern right now for a lot of companies - "How do we go about our digital transformation (that buzzword), and how do we do it in a responsible way? Because we can't just go chasing the next best framework, or whatever... That's not really gonna get it done. How do we need to organize, how do we need to think? What are some of the things we need to learn, some of the things we need to let go of?" That kind of thing.
 

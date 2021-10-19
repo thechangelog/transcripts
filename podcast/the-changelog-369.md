@@ -54,7 +54,7 @@
 
 **Jerod Santo:** They were always cool.
 
-**Adam Stacoviak:** \[00:03:59.11\] Or coolish... I mean, to some degree.
+**Adam Stacoviak:** \[03:59\] Or coolish... I mean, to some degree.
 
 **Quincy Larson:** Yeah.
 
@@ -118,7 +118,7 @@
 
 **Jerod Santo:** Yeah, exactly.
 
-**Quincy Larson:** Yeah, and we have SSH access, but if there's something catastrophic, we can ask them \[00:06:09.05\] flip the switches.
+**Quincy Larson:** Yeah, and we have SSH access, but if there's something catastrophic, we can ask them \[06:09\] flip the switches.
 
 **Jerod Santo:** Right. So the buck doesn't stop at you in terms of the -- you host it, but you've got help.
 
@@ -164,7 +164,7 @@
 
 **Jerod Santo:** \[laughs\] As we do...
 
-**Quincy Larson:** \[00:07:53.20\] Yeah. And since you've had the whole Request For Commits series, which is phenomenal, and I recommend everybody check it out... And I listened to that, and Nadia Eghbal and Mikeal Rogers... And that was really helpful for me as well, just thinking about open source and sustainability. Since I visited, we finally got the 501(c)(3) status, which is the U.S. government's tax-exempt status code. It's the same one that Doctors Without Borders and the Red Cross and all these big NGOs have.
+**Quincy Larson:** \[07:53\] Yeah. And since you've had the whole Request For Commits series, which is phenomenal, and I recommend everybody check it out... And I listened to that, and Nadia Eghbal and Mikeal Rogers... And that was really helpful for me as well, just thinking about open source and sustainability. Since I visited, we finally got the 501(c)(3) status, which is the U.S. government's tax-exempt status code. It's the same one that Doctors Without Borders and the Red Cross and all these big NGOs have.
 
 **Jerod Santo:** Right.
 
@@ -196,7 +196,7 @@ So I just wanna emphasize that we were coming from a position of great flexibili
 
 **Quincy Larson:** Yeah, we're breakeven, essentially... So what we did was as soon as it became clear that we were gonna get our tax-exempt status; not that we actually got it quite yet, but before that, we had always been just shifting -- "If you wanna support freeCodeCamp, here. Donate money instead to Women Who Code, or donate money to Hack Club, or donate money to Hacker Dojo", or some of these other nonprofits that are helping in developer education... Because we really wanted to make sure that people were able to deduct things, and the money was going to a proper nonprofit.
 
-\[00:11:48.06\] So once we got the nonprofit status, retroactively, all the donations to us were tax-deductible. And I remember just holding my newborn son, and holding up the certification that I got from the U.S. government, and that was kind of the light at the end of the tunnel. From there, we just worked really hard to get a whole lot of people doing monthly recurring donations to us, which is beneficial not only because a lot of people can afford $5, even $25 - we had a few people giving $250/month... A lot of people can afford that. And since it's monthly, it gives us the ability to project out a budget.
+\[11:48\] So once we got the nonprofit status, retroactively, all the donations to us were tax-deductible. And I remember just holding my newborn son, and holding up the certification that I got from the U.S. government, and that was kind of the light at the end of the tunnel. From there, we just worked really hard to get a whole lot of people doing monthly recurring donations to us, which is beneficial not only because a lot of people can afford $5, even $25 - we had a few people giving $250/month... A lot of people can afford that. And since it's monthly, it gives us the ability to project out a budget.
 
 For an organization like us, we just need to be able to budget. We're not trying to make huge fixed cost investments. We're just paying for servers, we're paying for people to be working at freeCodeCamp full-time.
 
@@ -246,7 +246,7 @@ For an organization like us, we just need to be able to budget. We're not trying
 
 I'm wondering if there's tips and tricks, or how are people having that level of success, of like "Yeah, I got through the program and I got a job", because like you said, the job is what most of us are after. So I'm just curious if the community helps on the job side, or if it's just like once you're through the program, you just are competent enough to get yourself a job?
 
-**Quincy Larson:** \[00:16:18.09\] Yeah, it's a great question. We've kind of made a neutrality setup, where we don't specifically guide people to specific companies. We built out a job board, and we were gonna have it to where people could apply for jobs directly through freeCodeCamp, but we just thought if somebody has a negative experience, or if there are people out there who are -- you know, you read about a lot of these Silicon Valley companies that basically just pretend that they've got all this VC funding, and things like that, and then the funding never materializes, and these people will have moved to this expensive city, and basically get stiffed on their paycheck.
+**Quincy Larson:** \[16:18\] Yeah, it's a great question. We've kind of made a neutrality setup, where we don't specifically guide people to specific companies. We built out a job board, and we were gonna have it to where people could apply for jobs directly through freeCodeCamp, but we just thought if somebody has a negative experience, or if there are people out there who are -- you know, you read about a lot of these Silicon Valley companies that basically just pretend that they've got all this VC funding, and things like that, and then the funding never materializes, and these people will have moved to this expensive city, and basically get stiffed on their paycheck.
 
 We didn't want to be associated with any sort of project like that, so we just decided we're gonna leave the job board stuff and the recruitment stuff to the experts, and we're just going to focus on training people. Now, we do have an interview preparation section, that has hundreds of additional algorithm challenges. We've updated a lot of the project Euler problems, Rosetta code problems, and made them interactive, with tests that you can run right in the browser instead of having -- you know, the old interface for project Euler was... It's like a 20-year-old website... But it's just like you enter a number, and it tells you whether you're right or wrong. It doesn't give you any more feedback than that, and it just takes a long time to enter it.
 
@@ -266,7 +266,7 @@ It is quite often for somebody who's finished freeCodeCamp or somebody who's gon
 
 **Jerod Santo:** From your vantage point, can you see trends there, in terms of it getting -- by no means is it easy, but is it trending up in terms of the entry-level opportunities, in your opinion, or has it just kind of been like a steady churn? Obviously, this would be from your vantage point, not like it's based on numbers, but...
 
-**Quincy Larson:** \[00:20:03.12\] So I could look at the numbers, and we do have quite a bit of data that we've made public, for the last three years; we didn't do it this year, just because we'd already done it so many times, and there was already so much data, and it's a lot of work... We did what's called "The New Coder Survey", and it shows how many -- it asks about 50 questions, and we had like 30,000 respondents, so it's a really huge dataset...
+**Quincy Larson:** \[20:03\] So I could look at the numbers, and we do have quite a bit of data that we've made public, for the last three years; we didn't do it this year, just because we'd already done it so many times, and there was already so much data, and it's a lot of work... We did what's called "The New Coder Survey", and it shows how many -- it asks about 50 questions, and we had like 30,000 respondents, so it's a really huge dataset...
 
 **Jerod Santo:** Nice, yeah.
 
@@ -314,7 +314,7 @@ If you learn your local meta, and if you're content to stay in the city you are 
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:24:05.06\] Plus, like you said, many companies that aren't traditional software companies need software people. As the old saying goes, "Software is eating the world." Every company is becoming a software company. Well, there's a lot more competition to work at the software company; they need developers, because they develop software for a living. But there's a lot of companies that just need one or two people, and maybe their bar is a little bit lower, the competition is gonna be less... Maybe you have a friend who works there... There's just lots of those, what you may consider non-traditional software opportunities, where it's like "Well, maybe they're not a software company, but they have software needs", and I bet you can pitch in there, maybe even more so than you could at the place that has 100 developers already.
+**Jerod Santo:** \[24:05\] Plus, like you said, many companies that aren't traditional software companies need software people. As the old saying goes, "Software is eating the world." Every company is becoming a software company. Well, there's a lot more competition to work at the software company; they need developers, because they develop software for a living. But there's a lot of companies that just need one or two people, and maybe their bar is a little bit lower, the competition is gonna be less... Maybe you have a friend who works there... There's just lots of those, what you may consider non-traditional software opportunities, where it's like "Well, maybe they're not a software company, but they have software needs", and I bet you can pitch in there, maybe even more so than you could at the place that has 100 developers already.
 
 **Adam Stacoviak:** Yeah. If getting a developer job is hard, does that mean that it's got something broken in the system? If it's hard to get a job that way, it's somewhat of an indicator that there's a broken system.
 
@@ -334,11 +334,11 @@ It doesn't work as well when you're hiring somebody who' s been out of the job m
 
 **Quincy Larson:** Our official mission is just to help as many people as possible learn to code. It's written at the bottom of every single page in our footer. That's our official NGO's mission. That said, virtually everybody who uses freeCodeCamp dreams of one day becoming more technical. Now, whether that's actually being a software engineer, or just being a designer who can code, or a marketer who can code, or somebody who wants to build a cool interface for their drone that they're flying around as a hobby, somebody who wants to build an Alexa app just to impress their kids... There are so many different use cases for programming knowledge, but it's all a net positive.
 
-\[00:28:04.16\] I like to say that back in the 1600's you didn't need to be able to read to go out and work. But the people who did sit down and take the time to read were infinitely - not infinitely, but they were dramatically better off as a result. Same thing in the 1920's - if you learned how to drive a car, suddenly you had all these new opportunities open to you. And more recently, like the 1990's, people really learned how to use spreadsheets, they learned how to use word processors, they learned how to use these slide-based tools like PowerPoint, and that opened up so many opportunities for people.
+\[28:04\] I like to say that back in the 1600's you didn't need to be able to read to go out and work. But the people who did sit down and take the time to read were infinitely - not infinitely, but they were dramatically better off as a result. Same thing in the 1920's - if you learned how to drive a car, suddenly you had all these new opportunities open to you. And more recently, like the 1990's, people really learned how to use spreadsheets, they learned how to use word processors, they learned how to use these slide-based tools like PowerPoint, and that opened up so many opportunities for people.
 
 So yeah, you can get by without it. You could be a congressperson in 2019 who doesn't know how to type and just relies on the secretary to do the typing for them, right? But real-life - you are better off just gathering those additional skills. And I think that soon people will awaken to the fact that being able to code is very helpful, and it does give you a whole lot of additional options.
 
-**Break:** \[00:29:12.21\]
+**Break:** \[29:12\]
 
 **Jerod Santo:** So figuring out the financials is one aspect of sustainability. Another aspect is making it so that Quincy doesn't have to do all the work...
 
@@ -352,7 +352,7 @@ But there are seven people who work for freeCodeCamp full-time, including myself
 
 Currently, the team is, again, me, doing just everything -- like, I do support, and I'm overseeing a couple different projects. Then we have Beau Carnes, who is running the freeCodeCamp YouTube channel, which recently became the biggest programming channel on YouTube. It's got 1.4 million subscribers now.
 
-\[00:32:02.29\] There's a channel called TheNewBoston that hasn't been updated in like 4-5 years, and they have more subscribers than we do... But other than them, I think we're the biggest. So Beau runs that, he creates a lot of the videos, he does a lot of the editing for our contributors, and Beau also is working with a curriculum... Beau worked as a teacher for 5-6 years prior to joining freeCodeCamp - a public school teacher up in Michigan.
+\[32:02\] There's a channel called TheNewBoston that hasn't been updated in like 4-5 years, and they have more subscribers than we do... But other than them, I think we're the biggest. So Beau runs that, he creates a lot of the videos, he does a lot of the editing for our contributors, and Beau also is working with a curriculum... Beau worked as a teacher for 5-6 years prior to joining freeCodeCamp - a public school teacher up in Michigan.
 
 We have Abbey (Abigail Rennemeyer). She is based in Portland, and she worked as an archeologist before. She has a totally different background. But she had been editing thousands of articles for the freeCodeCamp publication. She kept doing it, and I was like "Hey, do you wanna do this full-time?", so she's been doing that. She also runs the podcast... So if you've listened to the freeCodeCamp podcast, there's a good chance you've heard her interviewing people.
 
@@ -388,7 +388,7 @@ Then we also have Miya Liu, who is based in Suzhou, China. She's running the fre
 
 **Quincy Larson:** Yeah, that's a great question. What we're trying to do is just really make sure that we have everything rock-solid in Chinese. And Chinese is bigger than most of the other world languages combined... It's second only to English. If you look at Wikipedia usage - and this is what we used for our metrics, to plan internationalization... We looked at how Wikipedia was being used, and we looked at the world language usage for different translations on Wikipedia... Then we looked at the total number of speakers of those languages that were using the internet actively.
 
-\[00:36:01.05\] China is just exploding in terms of people adopting technology, and they're very enthusiastic about it. A lot of them are getting great jobs, and there's a lot of money going into just a lot of different aspects of artificial intelligence - machine learning, essentially. The real machine learning, and also the "if then" statements, and stuff like that...
+\[36:01\] China is just exploding in terms of people adopting technology, and they're very enthusiastic about it. A lot of them are getting great jobs, and there's a lot of money going into just a lot of different aspects of artificial intelligence - machine learning, essentially. The real machine learning, and also the "if then" statements, and stuff like that...
 
 Then also there is a whole lot of expertise in China. India - a lot of the great Indian engineers stay here, and a lot of the Chinese engineers go back to China and create companies. I'm trying to think of some names of famous engineers who've left Google, or have left teaching at Stanford, who've gone back to China... But there are a lot of really promising companies over there.
 
@@ -436,7 +436,7 @@ So we wanted to do China first. Personally maybe I'm a little bit biased, becaus
 
 **Quincy Larson:** So in many ways, if Wikipedia hadn't proved out the concept that you could have donor-supported commons of learning material - in their case more encyclopedic, in our case more procedural, skill-focused learning... FreeCodeCamp - probably we wouldn't have attempted it, because we needed that proof of concept. I'm not the kind of person who's gonna throw their entire livelihood behind a totally wild guess. But I sensed - I guess correctly, in retrospect - that there would be demand there, and that people that were graduating from freeCodeCamp and going on and getting these great jobs would turn around and donate back to the organization, and it would be sustainable.
 
-**Adam Stacoviak:** \[00:39:53.05\] Do you see somebody utilizing freeCodeCamp, and maybe a bootcamp as well, or some sort of intensive -- is there a scenario where it's only freeCodeCamp? I know you're not trying to do that, because you're very community-minded and oriented... But is the intention to be freeCodeCamp alone, or is it sort of like a companion to other learning opportunities?
+**Adam Stacoviak:** \[39:53\] Do you see somebody utilizing freeCodeCamp, and maybe a bootcamp as well, or some sort of intensive -- is there a scenario where it's only freeCodeCamp? I know you're not trying to do that, because you're very community-minded and oriented... But is the intention to be freeCodeCamp alone, or is it sort of like a companion to other learning opportunities?
 
 **Quincy Larson:** I've always viewed freeCodeCamp as a core curriculum, if you will... And a lot of coding bootcamps do use freeCodeCamp as either part of their curriculum, or they use it as their pre-course work... And we have a really good relationship with a lot of coding bootcamps. I'm very excited about the future of coding bootcamps... Really anything that can drive down the cost of adult education, because universities are \[unintelligible 00:40:30.00\]
 
@@ -464,7 +464,7 @@ We're gonna add four additional Python ones that will be either at the end of th
 
 So we're adding lots of tools, but these are not tools that are groundbreakingly new. These are things that academics and practitioners in the field have been using for years.
 
-**Jerod Santo:** \[00:44:14.11\] Sure. What about the small things, like -- I think of the JavaScript syntax, and the updates to the language. I mean, the nice thing about web development is it's mostly additive. New technologies add on top of HTML and on to of CSS. With trends in JavaScript, I think the big change between callbacks to promises to async/await - those are things that do get outdated. Do you just churn it out and keep it updated, or do you not fight those battles? What do you do there?
+**Jerod Santo:** \[44:14\] Sure. What about the small things, like -- I think of the JavaScript syntax, and the updates to the language. I mean, the nice thing about web development is it's mostly additive. New technologies add on top of HTML and on to of CSS. With trends in JavaScript, I think the big change between callbacks to promises to async/await - those are things that do get outdated. Do you just churn it out and keep it updated, or do you not fight those battles? What do you do there?
 
 **Quincy Larson:** We just update. For example CSS variables - we're probably gonna rip out our Sass section at this point... Because CSS is getting so many of the core features that those pre-processors offer...
 
@@ -510,7 +510,7 @@ So we're adding lots of tools, but these are not tools that are groundbreakingly
 
 **Quincy Larson:** Yeah, absolutely. JAMstack - JavaScript APIs and Markup is what JAMstack stands for. My friend Matt Biilmann over at Netlify coined that term in a bar at some point; I don't remember the exact story, but... He's been a big proponent of the security and the performance boost that you can get from just doing everything at build time and then just serving the static files, essentially.
 
-**Jerod Santo:** \[00:48:18.10\] Right.
+**Jerod Santo:** \[48:18\] Right.
 
 **Quincy Larson:** So now if you go to freeCodeCamp.org and you go into /learn app, pretty much everything is prepackaged, and you get the entire application; it just loads, and it'll work offline. It won't work offline perfectly right now, but we're working on getting it to be an offline-first app.
 
@@ -584,7 +584,7 @@ We locate everything in the same data center. It reduces latency. So if we have 
 
 **Jerod Santo:** Right. It's kind of like the "Yeah, it kind of failed at the cache invalidation part. Hard refresh." You have to go teach people how to hard refresh, versus regular refresh. I've been there, done that... \[laughs\]
 
-**Quincy Larson:** \[00:52:06.25\] So that's been the biggest drawback... And I think Netlify was under a DDOS attack the other day. We had some uptime issues with that. But again, they're doing the best they can, they're a pretty small organization compared to the AWSes of the world... We just wanna be there to support them, and we're just grateful that Netlify, Discourse, a whole lot of other organizations have given us in-kind sponsorship... So they're not giving us money, but they were giving us servers and services. That makes a big difference.
+**Quincy Larson:** \[52:06\] So that's been the biggest drawback... And I think Netlify was under a DDOS attack the other day. We had some uptime issues with that. But again, they're doing the best they can, they're a pretty small organization compared to the AWSes of the world... We just wanna be there to support them, and we're just grateful that Netlify, Discourse, a whole lot of other organizations have given us in-kind sponsorship... So they're not giving us money, but they were giving us servers and services. That makes a big difference.
 
 **Adam Stacoviak:** Yeah.
 
@@ -610,7 +610,7 @@ We also have a huge LinkedIn alumni network, and we get like two million impress
 
 **Quincy Larson:** So we're giving them a megaphone to reach a whole lot of people and to really raise their profile in the developer community, and they take that opportunity seriously.
 
-**Break:** \[00:56:18.22\]
+**Break:** \[56:18\]
 
 **Jerod Santo:** What kind of pieces are you looking for? Because I remember in your post you mentioned journalistic stuff eventually, or... I don't know. Tell us.
 

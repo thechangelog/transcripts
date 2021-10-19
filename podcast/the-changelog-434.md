@@ -28,7 +28,7 @@
 
 **Jerod Santo:** Wow.
 
-**Alexander Neumann:** \[00:04:03.04\] Because at that time we threw money together with a few friends and bought a small server, and hosted it in a data center to use as a backup box. But the thing was that there were several administrative users on that system. It was a bunch of friends, but some people I knew better of these friends, and some people I don't know that well... So it was always a concern that when I leave my data there, will it be secure? Because everybody with administrative privileges could obviously be deleting it. But on the other hand, it was like my personal data - financial statements, whatever - and I was concerned that whenever there's another administrative user, that they can access my files.
+**Alexander Neumann:** \[04:03\] Because at that time we threw money together with a few friends and bought a small server, and hosted it in a data center to use as a backup box. But the thing was that there were several administrative users on that system. It was a bunch of friends, but some people I knew better of these friends, and some people I don't know that well... So it was always a concern that when I leave my data there, will it be secure? Because everybody with administrative privileges could obviously be deleting it. But on the other hand, it was like my personal data - financial statements, whatever - and I was concerned that whenever there's another administrative user, that they can access my files.
 
 So I had to look at what other backup solutions were around there, and it basically fell into two categories. One category was the enterprisy thing, which means that there was like a daemon and a distributed system of agents, and they are meant to backup service... But I would like to just backup my working directory on my personal mobile machine, and so on... And this was too overblown. And they also tend to trust the central server with everything; the data is just collected by the agents, and the central server will just collect the data and store it somewhere, but the threat model for these implementations does not include another administrative user on the central machine, that is potentially trying to access data.
 
@@ -46,7 +46,7 @@ But Restic's design decisions are heavily influenced by what I see at work every
 
 **Jerod Santo:** So it's very intentional about that... Why don't you go ahead and give a few of the other things that Restic tries to do right out of the box, that you think are core to what makes Restic Restic.
 
-**Alexander Neumann:** \[00:08:05.15\] Yeah, what makes Restic Restic - that's a great question, actually. What makes Restic Restic is that it's really fast; it tries to maximally use all the resources that are available, but it tries to do that without shutting the machine down. We did that initially on accident; we can talk about that in a bit, if you like.
+**Alexander Neumann:** \[08:05\] Yeah, what makes Restic Restic - that's a great question, actually. What makes Restic Restic is that it's really fast; it tries to maximally use all the resources that are available, but it tries to do that without shutting the machine down. We did that initially on accident; we can talk about that in a bit, if you like.
 
 The other thing is that Restic must be easy to use. That's really important, because as I already said, whenever there's friction; when I have to look something up in the man page and I'm not able to find it - like the command line of tar, for example, is really awful to new users... And whenever you need, for example, while restoring an important file and your boss is on your back and breathing into your neck, and then you have to look up what the tar command line is - that is just not gonna work with backups.
 
@@ -60,7 +60,7 @@ On the other hand, we've built several layers of fail-safes into Restic, so that
 
 **Alexander Neumann:** It's basically a two-step process. The first thing is similar to Git, which Restic takes heavily inspiration from... You have to initialize a repository. So we try to use the same or similar works, and the same or similar meanings, so that people don't have to learn a completely new vocabulary.
 
-\[00:11:40.26\] The first thing is that you need to tell Restic where to store the files. For example, you would like to use a folder on a USB drive, or something like that. Then you would call restic--repository--repo, and tell it to store the files at /srv/external\_data, or something like that... And then you tell it to run the subcommand init, and that's about it. Then it initializes the repository and asks you for a password twice. And this password is very important. You can also give it to the program via, for example, a password file, or call an external program to get the password, or use an environment variable, or something like that... And this password is the most important thing about the repository, because if you ever lose it, then you won't be able to access any data. I made sure that this assumption holds.
+\[11:40\] The first thing is that you need to tell Restic where to store the files. For example, you would like to use a folder on a USB drive, or something like that. Then you would call restic--repository--repo, and tell it to store the files at /srv/external\_data, or something like that... And then you tell it to run the subcommand init, and that's about it. Then it initializes the repository and asks you for a password twice. And this password is very important. You can also give it to the program via, for example, a password file, or call an external program to get the password, or use an environment variable, or something like that... And this password is the most important thing about the repository, because if you ever lose it, then you won't be able to access any data. I made sure that this assumption holds.
 
 This was the first part... And the second part is just call restic--repo, with the path again, and then tell it to backup. This is the other subcommand that's important here. /home/jerod, for example, and then it will just start working.
 
@@ -84,7 +84,7 @@ We also support using another popular open source program called Rclone, which y
 
 **Alexander Neumann:** Backblaze the company has different services, as far as I know... And one is the popular backup program, and another one is just a simple blob storage. They're using their high-availability, multi-location storage thing, and you can just use it to store files. And this is what Restic uses. It's got nothing to do with the Backblaze backup service.
 
-**Jerod Santo:** \[00:16:12.07\] Gotcha. So it's kind of like a power user feature of Backblaze.
+**Jerod Santo:** \[16:12\] Gotcha. So it's kind of like a power user feature of Backblaze.
 
 **Alexander Neumann:** Yeah, something like that.
 
@@ -124,7 +124,7 @@ We also support using another popular open source program called Rclone, which y
 
 **Alexander Neumann:** Exactly, yeah. I also like explaining things to people, and usually our customers are very interested in what we find, so this is a very satisfying job, at least for me.
 
-**Break:** \[00:19:27.18\]
+**Break:** \[19:27\]
 
 **Jerod Santo:** So Alex, you've described to me how you use Restic... We haven't talked much about how Restic accomplishes what it does; we talked about it's written in Go, it's a single binary at the end of the day, so distribution is somewhat simple... But how does it work on the inside? Explain to us a few of the internals that are interesting.
 
@@ -152,7 +152,7 @@ In contrast to the other backup programs that have been out there for a long tim
 
 **Alexander Neumann:** Let's say you create a picture at the 1st of January - maybe a New Year's Eve celebration, something like that - and you store it in a folder that is saved by Restic. So at the 1st of January, Restic will reach the files, split it into chunks, and store these five chunks somewhere in the repository. Let's talk about that in a bit.
 
-\[00:24:11.10\] And on the subsequent days, whenever it sees the file, it will first recognize that it has seen this exact file before, so it will not store it again, but just use the list of blobs the file consists of from the previous backup done at the 1st of January.
+\[24:11\] And on the subsequent days, whenever it sees the file, it will first recognize that it has seen this exact file before, so it will not store it again, but just use the list of blobs the file consists of from the previous backup done at the 1st of January.
 
 And whenever you modify the file... For example, let's say you add a fancy border around it or something like that, and save it again - it will recognize that the file has been changed, and it will read the file again. A picture is not a good example here, because let's say only the beginning of the file and the end of the file have been modified. In the middle, the 20 MB file and the 15 MB in the middle are completely unchanged. Restic will read the files, see that the first few chunks at the beginning and the last few chunks at the end have been modified, so it'll make a new list of chunks the file consists of, and it will only store the new chunks that haven't been stored before in the repository.
 
@@ -182,7 +182,7 @@ Each of these snapshots are completely independent, which means that Restic stor
 
 **Alexander Neumann:** Yes, that's right. Right now, by the way, we've achieved complete version compatibility even with the first released versions of Restic. So you can still use a very old version of Restic to restore a repository that has been created recently with a recent version, and vice-versa.
 
-\[00:28:01.23\] What we also have, and which was really helpful, because people started to reimplement the repository algorithms that we used in other programming languages - we have a complete specification written down as a Markdown (I think) document, which is completely independent of the implementation of Restic itself. This was very handy to have.
+\[28:01\] What we also have, and which was really helpful, because people started to reimplement the repository algorithms that we used in other programming languages - we have a complete specification written down as a Markdown (I think) document, which is completely independent of the implementation of Restic itself. This was very handy to have.
 
 I've started with Restic and implemented the chunk-cutting algorithm and everything, but then I sat down and wrote the first version of the design document, which is, as I said, independent of the implementation. It is really valuable to get back to that, and improve the wording, and so on... And also, show it to other programmers who are interested in understanding the data structures involved, so we can just point to the document and say "Okay, this is the set of vocabulary that we use, these are the data structures..."
 
@@ -200,7 +200,7 @@ We have a forum where people can ask questions and usage stories about it, and o
 
 I also made sure that -- at the beginning I had the decision between which license I should use for Restic, and I've decided that at least for all of my code and all the code that's contributed to Restic it's the 2-Clause BSD License, which is one of the most permissive licenses there is... So it's no GPL, or anything like that. You can even take the code and use it commercially, without contributing back.
 
-**Jerod Santo:** \[00:32:20.19\] What led you to that decision?
+**Jerod Santo:** \[32:20\] What led you to that decision?
 
 **Alexander Neumann:** At first, when I started with free software in the late '90s, the GPL was really popular. If you're using GPL software and you're developing it further, then you have to contribute your changes back, at least when you start publishing your software. But in practice, what I also saw, for our customers for example - it was really hard sometimes to use GPL software in a commercial context, because of the considerations that the legal departments of the companies for example have against the GPL. So whenever you have -- like, they are not a user of a program, but they are modifying it and using it for internal processes, for example, then it's sometimes hard to get a GPL program or GPL library approved at all. And this is one other thing that can be a source of friction; whenever you have a license that you need to get approved before you can use a program, then maybe you postpone implementing backups until someday you need a restore and you don't have a backup.
 
@@ -222,7 +222,7 @@ What happened with other backup programs was also that once you have a code path
 
 **Jerod Santo:** But some things, you might want them to exist in duplicate, but you do not care about them being private, or secret, so you want the convenience. I'm sure you have better reasons than I would have why people might want that, but I could see where that would be something that certain folks would want.
 
-\[00:36:15.00\] That being said, the other advantage of staying strong on that particular feature is you don't have to bifurcate anything in the code; and I'm not sure how it's architected. Maybe this is a simple place where it's like "To encrypt or not to encrypt", and it's just like a toggle... But lots of times those kinds of decisions end up kind of permeating the codebase, where you have to check in a bunch of places what you're gonna do or not do. How's Restic designed? Would it be a simple change, or would it be a complex thing to allow for unencrypted back-ups?
+\[36:15\] That being said, the other advantage of staying strong on that particular feature is you don't have to bifurcate anything in the code; and I'm not sure how it's architected. Maybe this is a simple place where it's like "To encrypt or not to encrypt", and it's just like a toggle... But lots of times those kinds of decisions end up kind of permeating the codebase, where you have to check in a bunch of places what you're gonna do or not do. How's Restic designed? Would it be a simple change, or would it be a complex thing to allow for unencrypted back-ups?
 
 **Alexander Neumann:** It would be a really complex thing. Supplying a default password and just encrypting the data anyway - that would be a rather easy change. But everything in a Restic repository is encrypted, which means that a chunk of data, for example, coming back to the example of your photo that you took at the 1st of January... All the data chunks are encrypted and then signed, and then concatenated together as a file of multiple chunks, and then uploaded to the repository. And the metadata information for the folder that contains the file is a JSON document internally; it's encrypted, it is assigned, and then it is uploaded to the repository.
 
@@ -238,7 +238,7 @@ You could say that "Okay, let's not encrypt, but let's sign the data", which is 
 
 In general, the Restic program and the community around it is pretty opinionated. We took that from the Go project, which is also pretty opinionated. We're not trying to cater every use case.
 
-**Break:** \[00:39:28.09\]
+**Break:** \[39:28\]
 
 **Jerod Santo:** Alex, like I said in the beginning, one of the things I'm impressed by is how long you've been working on this project. Restic 0.12, your most recent release, February 14th. Still truckin'. Still making improvements. That one had many speed improvements, and a special thanks went out to Alexander Weisz, who did those. So you have a bunch of people helping you out here; it was a major release. A lot of cool things done by Alexander... Tell me about the community around Restic and how you've built it in to be something that people are making major contributions to.
 
@@ -252,7 +252,7 @@ And setting the tone in the beginning really set the tone for the whole project,
 
 We managed somehow - and I'm not sure how - to attract several great engineers, for example. There's Michael, who does a lot of the bug fixing and triaging things. There's Leo, who responds to issues, and there's Alexander Weisz, who from scratch (more or less) reimplemented the garbage collection algorithm that at the beginning took a lot of time, because I wrote the algorithm in the dumbest way that I can imagine, in order to be really sure that no data that is still used is accidentally removed.
 
-\[00:44:01.18\] I took a week of vacation last year to just read through all the code that he did to really make sure that there are no bugs that I could spot, and afterwards I merged it. These speed improvements are completely awesome, because we didn't have to change the repository format in any way. This was like -- changing the repository format is out of the question for most things... But setting people limits, in terms of technical limits, like, "The data structures are this way, and we have to keep backwards-compatible changes..." And sometimes they get really great ideas on how to improve the speed without changing the repository format, and without changing the barriers that I set them... And it is amazing.
+\[44:01\] I took a week of vacation last year to just read through all the code that he did to really make sure that there are no bugs that I could spot, and afterwards I merged it. These speed improvements are completely awesome, because we didn't have to change the repository format in any way. This was like -- changing the repository format is out of the question for most things... But setting people limits, in terms of technical limits, like, "The data structures are this way, and we have to keep backwards-compatible changes..." And sometimes they get really great ideas on how to improve the speed without changing the repository format, and without changing the barriers that I set them... And it is amazing.
 
 **Jerod Santo:** Let me back up for a second... You took a week off of vacation to work on Restic? I mean, talk about amazing...
 
@@ -270,7 +270,7 @@ At the moment, unfortunately, the project is way too large for me to manage it m
 
 The second thing is that sometimes people sound harsh on the internet, but it's not meant to be harsh... And sometimes it really helps to clearly point people out, like "Okay, you come across as very aggressive, or very demanding... Sarcasm doesn't help here. Can you please say it in another way?" Just write it in a GitHub issue, and most of the time they'll respond like "Oh, you're right. I'm really sorry. I wasn't in a bad mood, or something like that... So this is what happened."
 
-\[00:47:51.25\] Another trick that I've just copied from another open source project is that whenever you report a bug or a feature request for Restic on GitHub, you get a questionnaire of things that you'd like to do, like report the version number, which operating system are you on, what are you using for storing the repository... And at the end of the issue template, there is the question that "Did Restic help you today? Did it make you happy in any way?" And at the end of a bug report, whenever I read through a bug report, I can see "Okay, this failed. The user got a strange error message that I didn't manage to format in a nice way. The program spit a backtrace at the user and they are confused and they didn't know what to do... Maybe it was important", or something like that...
+\[47:51\] Another trick that I've just copied from another open source project is that whenever you report a bug or a feature request for Restic on GitHub, you get a questionnaire of things that you'd like to do, like report the version number, which operating system are you on, what are you using for storing the repository... And at the end of the issue template, there is the question that "Did Restic help you today? Did it make you happy in any way?" And at the end of a bug report, whenever I read through a bug report, I can see "Okay, this failed. The user got a strange error message that I didn't manage to format in a nice way. The program spit a backtrace at the user and they are confused and they didn't know what to do... Maybe it was important", or something like that...
 
 And at the end of the issue template, you read "Okay, Restic is an amazing program. It saved my ass several times already. Just keep continuing what you do", and oftentimes we have a really dry and maybe even bad/negative-sounding bug report, and at the end of it there is a really positive ending, because the user is really happy and would just like to improve the program and get a bit of help on how they can, for example, restore files... And this trick is really amazing, because it gives you a personal connection to the bug reporter, and it really makes it much easier to gauge is the user just pissed at the program - because it didn't work, or is it just like "Okay, you can fix this sometime. It's not important anyway."
 
@@ -286,7 +286,7 @@ I was completely blown away by how people use Restic. For example the CERN, the 
 
 **Jerod Santo:** Wow.
 
-**Alexander Neumann:** \[00:51:53.17\] And sometime in (I think it was) November, several years back, somebody opened an issue and said "Okay, Restic is not working here..." and I said "Okay, can you debug this and paste the output?" and he said "I can do that, but in order to download the debug binary, it will take until tomorrow." And I was like "Do you have some kind of problem with the downstream bandwidth? Why are you using a remote repository?" and so on... And it turned out they were on a ship, cruising through the Arctic in a scientific expedition, and they were using Restic with MinIO to back up all their research data.
+**Alexander Neumann:** \[51:53\] And sometime in (I think it was) November, several years back, somebody opened an issue and said "Okay, Restic is not working here..." and I said "Okay, can you debug this and paste the output?" and he said "I can do that, but in order to download the debug binary, it will take until tomorrow." And I was like "Do you have some kind of problem with the downstream bandwidth? Why are you using a remote repository?" and so on... And it turned out they were on a ship, cruising through the Arctic in a scientific expedition, and they were using Restic with MinIO to back up all their research data.
 
 **Jerod Santo:** Cool.
 
@@ -310,7 +310,7 @@ In the last 2-3 months I haven't really been able to do that regularly... But I'
 
 **Alexander Neumann:** That's a great question. At the beginning I made sure to not link the project to my person so much, so I created a GitHub organization for it, which is independent of my personal account... And I also made sure that other people have administrative access. So two of my best friends have administrative access to the organization in case I'm not available anymore, and there are, I think, around 10 or 12 people having write access to the most important repositories, for example Restic itself.
 
-\[00:56:20.07\] So whenever there's somebody who submits a pull request and one of the other people who have write access approves the pull request, then it can be merged, even without my intervention. And I made some notes -- there's a governance.md markdown file in the Restic repository to tell people how the project is structured... At the moment I'm the benevolent dictator for life, but it doesn't need to be like that forever. I can see that the Restic project is taken over by somebody else at some point in time.
+\[56:20\] So whenever there's somebody who submits a pull request and one of the other people who have write access approves the pull request, then it can be merged, even without my intervention. And I made some notes -- there's a governance.md markdown file in the Restic repository to tell people how the project is structured... At the moment I'm the benevolent dictator for life, but it doesn't need to be like that forever. I can see that the Restic project is taken over by somebody else at some point in time.
 
 So it works really well at the moment, with me being in the loop for big decisions, and for the day-to-day bug triaging many other people invest their resources... At the moment it works really well, but I can think of situations where I will step back whenever there's the need for it, and appoint somebody else as the new benevolent dictator for life.
 

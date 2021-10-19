@@ -32,7 +32,7 @@ So we're a piece of infrastructure on the internet that's kind of hidden, but it
 
 **Mat Ryer:** That's very cool. So did Go appeal when you saw channels in the language then? Was that something that appealed?
 
-**John Graham-Cumming:** \[00:03:54.24\] Yeah, that was an enormous part of it, because I had done -- we have to go right back into the late '80s, early '90s; I'd done a Ph.D. using a language called CSP (Communicating Sequential Processes, and a language related to it called Occam. Both of these have a concept essentially of channels and communication with synchronization over channels. When Go came along, one of the things in the actual Go introduction was -- it says "Oh yeah, we were inspired by CSP and the way in which did things." That was a big light bulb moment for me, because I was like "Wait, I was doing that a very long time ago." And I'd done loads of other programming, and I was like "Finally."
+**John Graham-Cumming:** \[03:54\] Yeah, that was an enormous part of it, because I had done -- we have to go right back into the late '80s, early '90s; I'd done a Ph.D. using a language called CSP (Communicating Sequential Processes, and a language related to it called Occam. Both of these have a concept essentially of channels and communication with synchronization over channels. When Go came along, one of the things in the actual Go introduction was -- it says "Oh yeah, we were inspired by CSP and the way in which did things." That was a big light bulb moment for me, because I was like "Wait, I was doing that a very long time ago." And I'd done loads of other programming, and I was like "Finally."
 
 I really liked that way of thinking and reasoning about how a program works, and so here it was... And here it was in a C-like language, I guess we could call it that, because I'd done a lot of C and C++. And something with garbage collection... I was like "Oh, this is an interesting combination of things", and that's what got me interested in Go right from the get-go.
 
@@ -50,7 +50,7 @@ So that idea of this explicit synchronization for communication makes it quite e
 
 **John Graham-Cumming:** Yeah, well -- I mean, I think that's actually true with a lot of theory. I think if you look at a lot of computer science, going backwards, you have (especially in the 1970's) a very rich vein of papers which are talking about the problems of distributed systems, clock synchronization, how are we gonna think about this, how are we gonna reason about it... Because I think people could see on the horizon that it was possible that there was gonna be many multiprocessor machines. And there were some early ones. The CDC 6600 I think had multiple function units. So people could already see "Oh, this is gonna happen."
 
-\[00:07:43.04\] What's funny is in a 1978 paper on Communicating Sequential Processes there's actually a line in there which is something like "...however, developments of processor technology suggest that a multi-processor machine constructed from a number of similar self-contained processes may become more powerful, capacious, reliable and economical than a machine which is disguised as a monoprocessor..." So you could kind of see, "Oh, this is gonna happen", in 1978... And then it did.
+\[07:43\] What's funny is in a 1978 paper on Communicating Sequential Processes there's actually a line in there which is something like "...however, developments of processor technology suggest that a multi-processor machine constructed from a number of similar self-contained processes may become more powerful, capacious, reliable and economical than a machine which is disguised as a monoprocessor..." So you could kind of see, "Oh, this is gonna happen", in 1978... And then it did.
 
 **Mat Ryer:** That's awesome. So how much Go is there then at Cloudflare? And was it there from the beginning, or were there other languages that pre-dated Go's use?
 
@@ -72,7 +72,7 @@ When I joined we were on 0.98, pre the first release. I had seen it and had been
 
 So this Railgun thing, the idea was if we took over the connection between the two and we didn't use HTTP, we could do all sorts of interesting things with compression; in particular, we could do what's called delta compression, which is to realize that websites don't actually change that fast, and if you request the same page multiple times, it's probably only changed by a few bytes. So you can get crazy amounts of compression, like 99.5% smaller than the original size.
 
-\[00:11:48.29\] But we're a shared environment, so what you're gonna have is you're gonna have these Railgun things talking to potentially thousands of web servers on the back-end, with thousands of connections. So if for every connection we had a goroutine, and some coordinating goroutines, and then channels all over the place...
+\[11:48\] But we're a shared environment, so what you're gonna have is you're gonna have these Railgun things talking to potentially thousands of web servers on the back-end, with thousands of connections. So if for every connection we had a goroutine, and some coordinating goroutines, and then channels all over the place...
 
 **Mat Ryer:** And your talk covers some practices and things that you can do with channels as well in Go, which I always still to this day refer back to when I wanna use some of those patterns as well...
 
@@ -98,7 +98,7 @@ So that's why we were running out of memory, because every time we gave memory b
 
 The other thing that was -- I mean, the syslog package needed some work; it wasn't quite compatible with the RFC, so I fixed that, because syslogging was very important... And the other thing that really was difficult right at the beginning was sync.Pool didn't exist.
 
-\[00:15:57.12\] In fact, there are some things I talk about in the Channel Compendium, which is "How do you recycle memory in Go pre the existence of sync.Pool?" and you can do it really nicely with channels. There's a really nice pattern for it. Because fundamentally, if you think about what was happening inside of Railgun, there was a lot of "We're doing this HTTP request, we're sending it over here", and then you're getting rid of it again. But then you need another one of these HTTP requests. If you go back and forth the heap, you just end up with this big mess and a huge amount of garbage... So I had to figure that out, and that was a big debugging effort.
+\[15:57\] In fact, there are some things I talk about in the Channel Compendium, which is "How do you recycle memory in Go pre the existence of sync.Pool?" and you can do it really nicely with channels. There's a really nice pattern for it. Because fundamentally, if you think about what was happening inside of Railgun, there was a lot of "We're doing this HTTP request, we're sending it over here", and then you're getting rid of it again. But then you need another one of these HTTP requests. If you go back and forth the heap, you just end up with this big mess and a huge amount of garbage... So I had to figure that out, and that was a big debugging effort.
 
 **Mat Ryer:** Did it put you off then, encountering these problems? Were these little red flags that you were sort of -- was it chipping away any sort of...? I don't know how to ask that question in a good way...
 
@@ -122,7 +122,7 @@ Then the other thing is we spend a lot of effort on optimization, particularly a
 
 **Mat Ryer:** That's awesome. Were there any situations where you felt like Go didn't fit? Where you maybe tried to solve a problem with it, but you were fighting with it too much and you opted for a different language, or something?
 
-**John Graham-Cumming:** \[00:19:52.27\] I mean, we don't use Go for everything... I think that it's very good if you have I/O bound stuff, and you need lots of parallelism, lots of concurrency. It's great for that kind of stuff. If we're doing low-level bit twiddling type stuff... For example, Cloudflare does a lot of image manipulation - resizing, resampling, all sorts of stuff. I think there are languages which are better suited for really fiddling around at a low level.
+**John Graham-Cumming:** \[19:52\] I mean, we don't use Go for everything... I think that it's very good if you have I/O bound stuff, and you need lots of parallelism, lots of concurrency. It's great for that kind of stuff. If we're doing low-level bit twiddling type stuff... For example, Cloudflare does a lot of image manipulation - resizing, resampling, all sorts of stuff. I think there are languages which are better suited for really fiddling around at a low level.
 
 I know in the early days there were some times where it felt like we were fighting a bit with the language, like in this garbage collection thing. Now I don't feel like that, and now it's a question of "Well, what's the right language to use for this particular problem we're solving?" I think Go is great for many, many things, and we use it a lot.
 
@@ -130,7 +130,7 @@ I know in the early days there were some times where it felt like we were fighti
 
 **John Graham-Cumming:** No, we don't have any formal guidelines about it. We have a lot of discussions internally, depending on the project, and then people are fairly free to choose the language they want to use at Cloudflare. We don't actually have a large number of languages people use, but mostly I think from the engineers we have, they'll make a choice about what they wanna use, and it's usually within one of a very small number of languages.
 
-**Break:** \[00:21:21.14\]
+**Break:** \[21:21\]
 
 **Jon Calhoun:** When you were adopting Go early on - I know one of the things we hear a lot from people is that picking up a new language like that is very hard to build a team around, because you can't say "Oh, I want a Go developer with two years of experience" when the language has only been around two years. That's just not gonna happen. Somebody actually asked Mat this on Twitter, I believe... Is that right, Mat?
 
@@ -140,7 +140,7 @@ I know in the early days there were some times where it felt like we were fighti
 
 There are lots of resources for learning about Go, it's an easy language to pick up, and we have lots of other Go programmers... Equally, we have lots of other Rust programmers. So I think that it would be a mistake if we said "You have to know Go." Yeah, it's great if you do. Super. But fundamentally, technology changes very rapidly, and I think of programming - especially in a very rapidly-changing environment like the one Cloudflare is in - as a learning job. You're gonna have to learn new stuff all the time; language is a part of it, libraries are a part of it. You've just gotta go for it.
 
-\[00:24:00.12\] I think if somebody came to us and said "I'm only willing to program in Go. That's the love of my life and that's what I do", I'd be a little bit worried that they would be somebody who'd just be in a rut, and never do anything else.
+\[24:00\] I think if somebody came to us and said "I'm only willing to program in Go. That's the love of my life and that's what I do", I'd be a little bit worried that they would be somebody who'd just be in a rut, and never do anything else.
 
 **Mat Ryer:** That's interesting... Because that sort of attitude flies in the face of a lot of the way that the recruitment stuff works. I saw somebody tweet the other day, they said "Go is ten years old, so I can finally apply for some of those jobs that need ten years of Go experience..." \[laughter\]
 
@@ -172,7 +172,7 @@ There are lots of resources for learning about Go, it's an easy language to pick
 
 **Mat Ryer:** I think coming from the CTO of Cloudflare, that's quite an important thing that you've just said, John... Because too often programmers are a little bit obsessed with that too early, of making it perfect, and "Don't worry about whether it's easy to read and maintain, we just care about squeezing out all that performance..." And obviously, if you do that too soon - this is the famous mistake that we all still are making, which is if you do it too soon, you make bad assumptions and things. And the kind of scale that Cloudflare runs at - that's really encouraging to hear that, I think.
 
-**John Graham-Cumming:** \[00:28:02.10\] Well, the thing is I started life as a C and assembly language programmer, writing network device drivers, and there every cycle matters. You don't LDA 0 you XOR AA because that's only one byte and it's all about less cycles. But that's appropriate for that environment. Now we have multiprocessor CPUs... It is very obvious that you should measure it, because one of the things about measuring performance is you frequently get surprised by what is the problem. You come to a point and you're like "Wait, why is that happening?" Whereas if you used your gut, it's often completely wrong, especially in large systems; you just don't necessarily know where things are.
+**John Graham-Cumming:** \[28:02\] Well, the thing is I started life as a C and assembly language programmer, writing network device drivers, and there every cycle matters. You don't LDA 0 you XOR AA because that's only one byte and it's all about less cycles. But that's appropriate for that environment. Now we have multiprocessor CPUs... It is very obvious that you should measure it, because one of the things about measuring performance is you frequently get surprised by what is the problem. You come to a point and you're like "Wait, why is that happening?" Whereas if you used your gut, it's often completely wrong, especially in large systems; you just don't necessarily know where things are.
 
 I know that programmers like to be really clever, and it's really tempting to optimize things. "I'm gonna write my own strcmp and make it even faster." It's like, "No, you're not."
 
@@ -192,7 +192,7 @@ One of the tools we've used a lot is a thing called a flame graph, which can sho
 
 Now, what's interesting is we're optimizing for different things. One of them is CPU utilization, because we'd like to buy less machines. Another one is latency, because we'd like you to have the fastest experience when you use our service, you go to a website. To a certain extent they're the same thing, but not always; it depends on what the actual workload is on the edge machine. Some things are not involved in the critical path/latency part, but might be using a lot of CPU.
 
-\[00:31:56.23\] So the only real trade-off tends to be "Is it better to build this new feature, or is it better to do an optimization?" That's probably the trade-off that comes into play... Because there might be some new product you wanna build, that you wanna get out, and there'll be some predicted revenue around that product, or you want to be first, or you want to beat a competitor, or something... Versus "Well, that same engineering team could save us X million dollars by shaving x% off of this CPU utilization globally."
+\[31:56\] So the only real trade-off tends to be "Is it better to build this new feature, or is it better to do an optimization?" That's probably the trade-off that comes into play... Because there might be some new product you wanna build, that you wanna get out, and there'll be some predicted revenue around that product, or you want to be first, or you want to beat a competitor, or something... Versus "Well, that same engineering team could save us X million dollars by shaving x% off of this CPU utilization globally."
 
 Those decisions have to be made, and we have a product management team that helps us make those decisions, about where to spend engineering resources.
 
@@ -216,7 +216,7 @@ Essentially, we're running a log file system globally; you push stuff in, and th
 
 **Mat Ryer:** Yeah, that's really cool. I'd love to learn more about that. I don't have a use case for it, but just sort of geeky curiosity, if you will...
 
-**John Graham-Cumming:** \[00:36:13.27\] Yes, absolutely.
+**John Graham-Cumming:** \[36:13\] Yes, absolutely.
 
 **Jaana Dogan:** Yeah, talking about that - you have tons of open source projects that people keep looking at as reference... How did it all start? Did you just want to just push things because that's part of your culture, or did you just specifically did it to share, because Go was very small in the beginning and you were one of the major users?
 
@@ -238,7 +238,7 @@ Now, a part of the reason we can do that is Matthew, the CEO of Cloudflare, has 
 
 We think we could just dump the whole of our internal Git and then say "Hey, here is everything", and it ultimately wouldn't hurt us long-term. Now, we're not gonna do it, because of the maintenance burden of doing that.
 
-**Mat Ryer:** \[00:40:03.27\] Does it run on AWS? \[laughs\]
+**Mat Ryer:** \[40:03\] Does it run on AWS? \[laughs\]
 
 **John Graham-Cumming:** God, no. No, definitely not.
 
@@ -260,11 +260,11 @@ We have a really fantastic illustrator, Carrie, who does illustrations for the b
 
 **Mat Ryer:** Right, yes.
 
-**Break:** \[00:42:29.22\]
+**Break:** \[42:29\]
 
-**Mat Ryer:** \[00:44:30\] Changing the subject a little, every year at [GopherCon UK](https://www.gophercon.co.uk/) (the U.K. Go conference) we have now a regular little tradition where we visit Bletchley Park. John, you have a connection to Alan Turing, don't you? I'd love for you to tell that story, if you could.
+**Mat Ryer:** \[44:30\] Changing the subject a little, every year at [GopherCon UK](https://www.gophercon.co.uk/) (the U.K. Go conference) we have now a regular little tradition where we visit Bletchley Park. John, you have a connection to Alan Turing, don't you? I'd love for you to tell that story, if you could.
 
-**John Graham-Cumming:** \[00:44:48\] Yeah, sure. I had lived abroad for a long time, as I am now doing again. But in 2009 I came back to the U.K, and I think I saw [a tweet from probably Stephen Fry](https://twitter.com/stephenfry/status/2292753666) saying "It would have been Alan Turing's 90-something birthday today, if he hadn't killed himself." And I knew the story of Turing because first of all I'm a computer scientist, and I'm interested in computer security... So you end up -- Turing pops up all over the place.
+**John Graham-Cumming:** \[44:48\] Yeah, sure. I had lived abroad for a long time, as I am now doing again. But in 2009 I came back to the U.K, and I think I saw [a tweet from probably Stephen Fry](https://twitter.com/stephenfry/status/2292753666) saying "It would have been Alan Turing's 90-something birthday today, if he hadn't killed himself." And I knew the story of Turing because first of all I'm a computer scientist, and I'm interested in computer security... So you end up -- Turing pops up all over the place.
 
 And I knew, of course, that he had killed himself, and I knew a lot about the history of the code-breaking stuff, and artificial intelligence stuff... And I was at home, and I just got really annoyed about it. I honestly thought to myself, you know, the problem here is that we don't talk about Alan Turing in general, because it's a kind of shameful thing which is sort of like "Well, he killed himself because he was gay, and because we prosecuted him and we treated him very badly..." So in a very typically British way we sort of forgot to talk about him.
 
@@ -278,7 +278,7 @@ So what I did was I wrote this ugly perl script that took the names and then sea
 
 I did that with Ian McEwan, the writer; his name was on there, and I found his email address. I emailed him and said "Are you the person who signed this?" He's like "Yes." And then I was like "Can I tell the press?" "Yes." I did stuff like that, and it grew and grew and grew.
 
-\[00:48:00.28\] Then just before the bank holiday at the end of August I emailed somebody I had met from the BBC, a journalist called Zoe Kleinman. I'd met her because I'd written this book before, and she's written a little bit about my book... And I sent her this really cheeky email which said "This is a really important story. You should write about this." So I was telling the BBC, "Get on with it." And she very kindly wrote back and said "You know what - I'm gonna write something. I'm going away for the bank holiday weekend; I'm gonna submit it to the editor. I have no idea if it's gonna get published." So she did, and I never saw it.
+\[48:00\] Then just before the bank holiday at the end of August I emailed somebody I had met from the BBC, a journalist called Zoe Kleinman. I'd met her because I'd written this book before, and she's written a little bit about my book... And I sent her this really cheeky email which said "This is a really important story. You should write about this." So I was telling the BBC, "Get on with it." And she very kindly wrote back and said "You know what - I'm gonna write something. I'm going away for the bank holiday weekend; I'm gonna submit it to the editor. I have no idea if it's gonna get published." So she did, and I never saw it.
 
 I went to sleep on the Sunday night, bank holiday Monday, I wake up... I have a graph of the number of signatures, and there's almost this vertical line in the number of signatures, because it's suddenly thousands and thousands of people signing... Because of course, BBC has this incredible authority. If the BBC says this is something, people read it, it gets copied around the world... After that I was on the TV and all over the place, talking about it. At that point, 30,000 people signed it.
 
@@ -314,7 +314,7 @@ So she reads it to me over the phone, and I thought it was great... It's a text 
 
 The first thing he said to me - and I'm not gonna forget this - he said "Hello, John. It's Gordon. I think you know why I'm calling..." And I thought "Bloody hell I'm glad I know why you're calling! I definitely paid all my taxes and I definitely have never had a parking ticket..." And then we had this very stilted conversation, because I felt terrible, and he's quite a serious man... And that was it. There you go. So that's my connection to Bletchley Park. After that, obviously, Turing got more recognition, and we were able to celebrate him, and I think it helped give Bletchley a leg up...
 
-**Mat Ryer:** \[00:51:54.20\] Yeah. And your apology - what you petitioned for an apology, and I feel like that was appropriate. They later went on to pardon him. And for me, that implies that there was something they did wrong somewhere. So a pardon I didn't feel appropriate, but the apology for sure.
+**Mat Ryer:** \[51:54\] Yeah. And your apology - what you petitioned for an apology, and I feel like that was appropriate. They later went on to pardon him. And for me, that implies that there was something they did wrong somewhere. So a pardon I didn't feel appropriate, but the apology for sure.
 
 **John Graham-Cumming:** Me neither. I didn't support the pardon campaign. Two things were important. One was I felt that the apology was good, because they apologized to Turing and everybody else who was convicted. That was important. The second thing is the coalition government - Cameron's government introduced... What was it called? It was something of freedom; it was the Protection of Freedom Act. And what this did is it decriminalized these homosexual acts... Because the problem is there are people alive today who had been convicted of this thing - it had never been expunged - because it was illegal at the time. So the Protection of Freedom Act fixed that. I felt that was all good, and I didn't feel like I needed to do more. I'd done more than I ever imagined.
 

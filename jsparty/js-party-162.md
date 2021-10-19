@@ -138,7 +138,7 @@ So you know, if we were debating whether native apps and web apps are different,
 
 **Jerod Santo:** With that fact, we will take a break and we'll begin round two right after this.
 
-**Break:** \[00:14:05.05\]
+**Break:** \[14:05\]
 
 **Jerod Santo:** Round two of Yep/Nope. We are debating "Are web apps and websites fundamentally different? Yep? Nope?" We're here to find out. Divya, it is now your turn. You have two minutes to state a case or refute something that your opponent said. Go ahead.
 
@@ -200,7 +200,7 @@ And I think if we were debating the difference between websites and native apps,
 
 **Jerod Santo:** And the winner of this debate is me, because the only way to win is by not participating. And I'm the only one here who did not actually play, so... I win. congratulations to me. After this break we're gonna come back and we're gonna peel back the veil; we're gonna talk about what our participants actually believe, maybe get into a real-world debate around the nuances here... Because there's no nuance in that premise, but there's a lot of nuance in this discussion. So we'll return and we will see what everybody really thinks right after this.
 
-**Break:** \[00:25:10.05\]
+**Break:** \[25:10\]
 
 **Jerod Santo:** Okay, so let's talk about what we really think about this. The premise was web apps and websites are fundamentally different, and that's worded in such a way that it is defensible from either side. I think Feross keyed in on the word "fundamental", which I thought was the strong argument myself, even though he still lost at the end of the day, but... \[laughter\] Remember, I was the only one that won, so... Sorry, but you participated, which was foolish. But what do you all really think? Do you make distinguishments? Are they different but not fundamentally different? If we can just relax and chat, what do you all really think about this?
 
@@ -350,7 +350,7 @@ I don't take it as speaking down to me to call me a developer versus an engineer
 
 **Jerod Santo:** Yes. So you win, Thomas. So thanks everybody for listening. This is our show for this week, and we'll talk to you next time.
 
-**Outro:** \[00:45:44.24\]
+**Outro:** \[45:44\]
 
 **Jerod Santo:** I had to fact-check you, because you'd just stated that one of your arguments is the other team got fact-checked... \[laughter\]
 
@@ -398,7 +398,7 @@ I don't take it as speaking down to me to call me a developer versus an engineer
 
 **Jerod Santo:** Pick it back up. \[laughter\] The show's not over.
 
-**Jingle:** \[00:48:22.14\]
+**Jingle:** \[48:22\]
 
 **Divya:** I love how Nick just said "Websites have content, and web apps..." \[laughter\]
 

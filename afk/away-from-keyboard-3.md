@@ -1,4 +1,4 @@
-**Tim Smith:** \[00:01:46\] Thirteen years ago Ashley Baxter's father passed away, and she herself says on her about page that some parents leave their kids jewelry, maybe a collection of some sort, but Ashley inherited an insurance business... Although Ashley isn't still running her dad's insurance company today, even after establishing a successful wedding photography business, there was something about the insurance industry that called her name.
+**Tim Smith:** \[01:46\] Thirteen years ago Ashley Baxter's father passed away, and she herself says on her about page that some parents leave their kids jewelry, maybe a collection of some sort, but Ashley inherited an insurance business... Although Ashley isn't still running her dad's insurance company today, even after establishing a successful wedding photography business, there was something about the insurance industry that called her name.
 
 Now, to most people, insurance isn't something you get excited about... But Ashley is not most people.
 
@@ -10,7 +10,7 @@ That's something that excites me now - having this mission... There are two mill
 
 **Tim Smith:** I would love to hear that explanation, because I definitely feel like one of those people. What is the value insurance brings to me? I mean, I've heard you explain that, kind of, in some of your YouTube videos as well, but I'd love to hear your shorter explanation as to why is this so valuable for freelancers?
 
-**Ashley Baxter:** \[00:03:56.19\] Yeah. Well, I mean, it's like any insurance, so you have a big group of people - in this case I have 300 customers, and not all of them are gonna use their insurance... But for the few that do, we've had 8 or 9 claims now, and as a result of these freelancers being insured, we have kept them in business. There have been situations which we've seen time and time again where you can perhaps work with a client who's a bit of a bully and tries to use scare tactics to get more out of you, or refuses to pay invoices... You know, we've seen just projects go wrong, being delivered late... Just various situations that lead to unhappy clients, who try to make a claim against you or threaten legal action.
+**Ashley Baxter:** \[03:56\] Yeah. Well, I mean, it's like any insurance, so you have a big group of people - in this case I have 300 customers, and not all of them are gonna use their insurance... But for the few that do, we've had 8 or 9 claims now, and as a result of these freelancers being insured, we have kept them in business. There have been situations which we've seen time and time again where you can perhaps work with a client who's a bit of a bully and tries to use scare tactics to get more out of you, or refuses to pay invoices... You know, we've seen just projects go wrong, being delivered late... Just various situations that lead to unhappy clients, who try to make a claim against you or threaten legal action.
 
 And if that freelancer doesn't have insurance -- I mean, our biggest claim was for 60,000 Pounds, and that would have put that person out of business; they could have potentially lost their home, they had a family... You know, you're essentially transferring the risk to somebody who can pay that amount, if that makes sense. That's what it's all about.
 
@@ -34,7 +34,7 @@ I'm getting to go and do public speaking and talk about this stuff in front of h
 
 **Tim Smith:** Yeah, that makes a lot of sense. And that's true, you have been doing, like we've mentioned before, a lot of YouTube videos and vlogs, but also some speaking as well, which I think you have enjoyed a lot, right?
 
-**Ashley Baxter:** \[00:08:13.26\] Oh no, I hate public speaking. Do you like it?
+**Ashley Baxter:** \[08:13\] Oh no, I hate public speaking. Do you like it?
 
 **Tim Smith:** Do I like public speaking? I do enjoy it, yes. I get nervous just like anybody else, but I enjoy public speaking, I enjoy being in front of a lot of people and sharing something that I've learned... So yeah, I enjoy it.
 
@@ -50,7 +50,7 @@ So that's my plan going forward - to have this one talk that I'll be doing for a
 
 **Ashley Baxter:** Yeah, absolutely. I think that if you listen to the stories about the successes, then if you are somebody who's thinking of starting a business or have just started a business, you're doing so under false pretense. For me, I've found that there's so much work and so much time of not making much money, and there's really long periods of putting in so much effort, and blood, sweat and tears and money into something and not seeing a return on investment. There's years of that part, but people don't really talk about that, which is what worries me, because we've got great websites, like Indie Hackers, which I love... All of these websites where it's a bit too easy to read those glamorous stories of success and get a bit too caught up in that... So that's why I think it's important to get the story out about "Well, here's how it looks for me, and it isn't that glamorous."
 
-**Break:** \[00:11:43.19\]
+**Break:** \[11:43\]
 
 **Tim Smith:** Running a small business has good days and bad days, but sometimes the bad days out-number the good days. According to Ashley, the key to making it through those bad days starts with the right motivation.
 
@@ -74,7 +74,7 @@ So I think having that support network has been key, and then also just really b
 
 **Tim Smith:** Or is that not a luxury that you get when you're building a business?
 
-**Ashley Baxter:** \[00:17:43.03\] No, I'm very much like -- I'm not somebody who's like 24/7 hustle, all of my life is about With Jack; that's not the case at all. I have a lot of other stuff going on and making time to do other things, but I think the reason that I've invested so much of myself, Ashley Baxter, into With Jack is because I really felt like insurance is so impersonal, and there are so many big faceless corporations, and I hate that. I hate the fact that if I deal with my insurer I'm gonna be speaking to one of 400 people in a call center at any given time... I don't know anything about the founder... You know, it's just faceless, and I don't like that.
+**Ashley Baxter:** \[17:43\] No, I'm very much like -- I'm not somebody who's like 24/7 hustle, all of my life is about With Jack; that's not the case at all. I have a lot of other stuff going on and making time to do other things, but I think the reason that I've invested so much of myself, Ashley Baxter, into With Jack is because I really felt like insurance is so impersonal, and there are so many big faceless corporations, and I hate that. I hate the fact that if I deal with my insurer I'm gonna be speaking to one of 400 people in a call center at any given time... I don't know anything about the founder... You know, it's just faceless, and I don't like that.
 
 That was definitely like a key factor, and when I was wanting to launch my own business, I knew that I wanted it to be a lot more personable. I think it has worked out quite well, especially with just that initial traction. So many people have seen how long I've been in insurance, they know how hard I've worked to get this off the ground, so they really trust it, placing their business with me and becoming those first customers... So I think that actually really helped me with that initial traction.
 
@@ -96,7 +96,7 @@ In my talk "Idea to Execution, and Beyond" that I've been doing at conferences, 
 
 It's a very complicated app, and there's no way I could build what I have in my mind myself... So just today I started working on that, and the idea is that if I can build something basic, that shows the basic functionality, then I can demo it to people to get their feedback and see if it is something people would find useful... And if it is, then I can go and spend the thousands and thousands of pounds that a developer would cost.
 
-\[00:22:29.25\] So it's been really beneficial in that sense. It's like, "Save me money, because I'm not spending 7k, 10k on a developer to launch an app that turns out to be completely bombs..." It's been useful in just like building quick versions of my ideas, testing them, and then if they've got legs, I can go to somebody and pay them to do it.
+\[22:29\] So it's been really beneficial in that sense. It's like, "Save me money, because I'm not spending 7k, 10k on a developer to launch an app that turns out to be completely bombs..." It's been useful in just like building quick versions of my ideas, testing them, and then if they've got legs, I can go to somebody and pay them to do it.
 
 **Tim Smith:** So the last thing I wanna talk to you about is a question that I've been asking a lot of people that I talk to these days, which is as creative people, a lot of the times we struggle with burnout, with lack of motivation; sometimes even our mental or physical health plays a factor in how we feel... How have you dealt with these things and still built a successful business?
 
@@ -108,7 +108,7 @@ I saw various doctors, and all of them kept saying to me "You're stressed out, a
 
 So I took a month off, and really just went back to the drawing board and was like "If I could start over from scratch, what would I be doing? Would I be a photographer? Would I be working in insurance? Let's just say there's no distractions, there's nothing stopping me - what would I be doing?" but I think that that's what got me over that burnout, and fortunately, I haven't been back there... Is that first of all I took that time to just think and ask that question, and I felt so confident with my choice in insurance.
 
-\[00:24:47.17\] Then when I decided to choose insurance, I made so many changes to my life. I got rid of the podcast, I got rid of the photo works I was doing, I shut down the commercial side of my photography business, and I even started phasing out weddings, like "This is my last year doing weddings." Don't get me wrong, I still do loads of things for fun; I play video games, I go to the gym and lift weights, I walk my dog, I love drinking coffee... I do loads of things for fun, but I really just decided work-wise I'm gonna stop saying yes to everything and I'm just gonna focus on the things that take me closer to this goal of building With Jack.
+\[24:47\] Then when I decided to choose insurance, I made so many changes to my life. I got rid of the podcast, I got rid of the photo works I was doing, I shut down the commercial side of my photography business, and I even started phasing out weddings, like "This is my last year doing weddings." Don't get me wrong, I still do loads of things for fun; I play video games, I go to the gym and lift weights, I walk my dog, I love drinking coffee... I do loads of things for fun, but I really just decided work-wise I'm gonna stop saying yes to everything and I'm just gonna focus on the things that take me closer to this goal of building With Jack.
 
 **Tim Smith:** I love that answer, because I just feel like "Man, I feel this all the time...", that I have so many creative things that I wanna be able to do, that I wanna be able to have time for... I would love to try my hand at making music, I've been really enjoying photography and videography, I love doing this show... But there's only so much of you to go around. There's only so much time in the day.
 

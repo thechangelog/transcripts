@@ -2,7 +2,7 @@
 
 We talked about their open source 180 repos give or take on GitHub. We talked about the way they model their open source, the way they choose what to open source, the way they nurture and support their open source, but more importantly how they look at community and how they're building community around open source.
 
-**Break:** \[00:00:48.01\]
+**Break:** \[00:48\]
 
 Alright, we're here with James Pearce. Jerod, this is a big show, open source at large at Facebook. We've obviously talked about React, we've talked about HHVM, we've talked about HipHop, we've talked about all sorts of things over these years, but never truly about open source at large. What do you think?
 
@@ -18,7 +18,7 @@ Alright, we're here with James Pearce. Jerod, this is a big show, open source at
 
 At that time we had one or two interesting projects that we had worked on, and David who is a real advocate for keeping things in the open, had worked on OAuth and various other standards himself, and we open source projects like Cassandra, projects like Tornado, projects like 320 for iOS, and really started to get the ball rolling in terms of giving engineers at Facebook the opportunity to share the projects they had worked on.
 
-\[00:04:07.23\] As you might imagine, the program grew over the subsequent years. David moved on to other things and unfortunately what happened is that a number of the projects that we had launched sort of fell into disrepair. I can talk about this a fair amount in terms of what we've learned from that, but a number of those early projects, the internal engineering teams either lost interest in the open source versions or they stopped using them in production, and things fell into disrepair a little bit.
+\[04:07\] As you might imagine, the program grew over the subsequent years. David moved on to other things and unfortunately what happened is that a number of the projects that we had launched sort of fell into disrepair. I can talk about this a fair amount in terms of what we've learned from that, but a number of those early projects, the internal engineering teams either lost interest in the open source versions or they stopped using them in production, and things fell into disrepair a little bit.
 
 So in 2013 we made a decision to reboot the program in a sense, and tidy up the portfolio, figure out which projects we were still prepared to support and get behind, which ones we weren't interested in or at least ones that we weren't able to support anymore. Yeah, we basically try to get things back in order and I took on responsibility for that.
 
@@ -58,7 +58,7 @@ You know, quite honestly the idea of open sourcing our designs has really helped
 
 More recently, a lot of that focus has obviously moved to machine learning, and we pride ourselves on a strong a research heritage in our machine learning teams in New York and in Menlo Park, and I think now in Paris. And again, true to the academic community's expectations, we want to share as much of that research as possible as we do it.
 
-\[00:11:54.25\] We are privileged obviously to be able to put resources into machine learning and it's clearly an area where there's still a huge amount to be done. And it just comes back to this underlying philosophy for why we do open source, which is we feel that the more people have access to this kind of work, the more people that can reproduce it and reuse it and tweak and augment it, the more that we can help the industry as a whole move forward.
+\[11:54\] We are privileged obviously to be able to put resources into machine learning and it's clearly an area where there's still a huge amount to be done. And it just comes back to this underlying philosophy for why we do open source, which is we feel that the more people have access to this kind of work, the more people that can reproduce it and reuse it and tweak and augment it, the more that we can help the industry as a whole move forward.
 
 And I think it's really interesting that in machine learning in particular, we're seeing Google doing the same kind of thing, we're seeing Amazon doing the same kind of thing, we're seeing Microsoft doing the same kind of thing, and I think it's a beautiful example of where we don't consider any of this to necessarily be a competitive environment. In fact, we think that together we can move thinking and the industry forward at a faster pace.
 
@@ -78,7 +78,7 @@ I would also surprisingly not characterize myself as having been an open source 
 
 **Jerod Santo:** Go back in your life and tell us... I think about my first interaction with open source software, and it's probably like Linux, maybe WordPress or Apache, and it was almost native to me as well, I didn't know life outside of it. How about yourself? Give us early software experience or early open source experience. What got its hooks into you?
 
-**James Pearce:** \[00:16:16.14\] I don't know whether I need to kind of open up my Pandora's box of the historical facts, but...
+**James Pearce:** \[16:16\] I don't know whether I need to kind of open up my Pandora's box of the historical facts, but...
 
 **Adam Stacoviak:** Do it.
 
@@ -98,7 +98,7 @@ Because again, I'd love to be able to bring some of those IDE expectations to th
 
 **James Pearce:** Oh my goodness, so we're talking about a different century now, I'm afraid. \[laughter\] Back in the 20th century when I was a young boy, I was... In fact, I know the date exactly. I know the date exactly, and the reason is that my grandparents decided they wanted to buy me a gift to celebrate Charles and Diana's royal wedding in the UK. So I know it was the summer of 1981.
 
-\[00:20:06.06\] And my grandparents wanted to buy me a silver spoon to commemorate the royal wedding, and my parents, very fortunately suggested to my grandparents that this was not the best thing to buy a young boy, and that perhaps they might invest that same amount of money in a simple computer to see what I would make of it. And at the time there was really only one in the UK which fit that bill, which was the Sinclair's ZX81. And I'm not sure whether that ZX81 ever made it to the US, but hopefully some of your international listeners will remember the Sinclair ZX81 and Spectrum with some fondness. I certainly do.
+\[20:06\] And my grandparents wanted to buy me a silver spoon to commemorate the royal wedding, and my parents, very fortunately suggested to my grandparents that this was not the best thing to buy a young boy, and that perhaps they might invest that same amount of money in a simple computer to see what I would make of it. And at the time there was really only one in the UK which fit that bill, which was the Sinclair's ZX81. And I'm not sure whether that ZX81 ever made it to the US, but hopefully some of your international listeners will remember the Sinclair ZX81 and Spectrum with some fondness. I certainly do.
 
 It was wonderful. It was this tiny little black box, you wired it up to your TV, you had a cassette tape for loading and saving, and 1K of memory was all you got; no games, no apps, nothing. And if you wanted to use this computer for anything, you basically had to type it in, which either meant going to your local newsagent's and buying a magazine from which you typed several hundred lines of ASCII text or you just made up your own stuff.
 
@@ -110,13 +110,13 @@ Within a few weeks of realizing this box didn't actually do much, I figured out 
 
 **Adam Stacoviak:** I mean, why have a memento when you can have a future, right? I mean, that's what it seems to be. This is what I take away from that story in terms of how you got into programming, into computers, and what a fun history. Let's take a quick break and when we come back, we'll dive much deeper into the history and the story of open source at Facebook. We'll be right back.
 
-**Break:** \[00:22:30.00\]
+**Break:** \[22:30\]
 
 **Adam Stacoviak:** Alright, we are back with James Pearce of Facebook; as a matter of fact, Head of Open Source at Facebook. Which Jerod, as we said earlier in the show, that's not a small thing. A hundred and eighty repos on GitHub that we're actually able to track that's public, or at least publicized right now...
 
 **Jerod Santo:** Roughly, yeah.
 
-**Adam Stacoviak:** \[00:24:00.20\] Roughly a hundred and eighty, but React, HHVM, HipHop Virtual Machine which was what that is obviously, Hack... So much fun stuff coming out of Facebook. James, I think the real question is - you kind of teased it a little bit earlier obviously with the reboot back in 2013 and your presence there, but why is Facebook interested in open source? And that's really where it comes from. Obviously, we have David's earlier work and then you're helping to reboot it, but why Facebook? Not just you, but why Facebook?
+**Adam Stacoviak:** \[24:00\] Roughly a hundred and eighty, but React, HHVM, HipHop Virtual Machine which was what that is obviously, Hack... So much fun stuff coming out of Facebook. James, I think the real question is - you kind of teased it a little bit earlier obviously with the reboot back in 2013 and your presence there, but why is Facebook interested in open source? And that's really where it comes from. Obviously, we have David's earlier work and then you're helping to reboot it, but why Facebook? Not just you, but why Facebook?
 
 **James Pearce:** So there are three or four answers to this question, actually. I think if we have the time, I'll run quickly through all of them. It's of course important to remember that Facebook itself was built on open source technology right from the start. If you can picture day zero of facebook.com or probably thefacebook.com as it was back then, Mark is sitting down in his bedroom and he's trying to figure out how to build this thing. I think he probably only had two choices.
 
@@ -132,7 +132,7 @@ We see that open source is kind of this conversation that can happen through cod
 
 The third thing - and this is kind of an interesting one - it turns out it means we write better software if we know we're open sourcing it, and that is extremely demonstrable. We've had many projects in the past where we've tried to open source them retrospectively, where something that we think is valuable that we realize we've built in our infrastructure and we try to tease it out and we have to try to drag all these tendrils of dependencies out from other parts of the Facebook internal stack in order to get it ready for open sourcing, and that's such a hard thing to do. I mean we have done it many times, but those projects where we know we're gonna open source it right from the start, where the team since down and figures out, "How are we gonna package this system or this project in a way that's going to be easily shareable later on?", those projects are just so much better architecturally.
 
-\[00:28:03.11\] They have much cleaner API's, they're gonna be much more modular, they've got much better documentation, they've got a much easier installation process, and we do all of that because we know that it's going to make it that much easier to push it out onto GitHub when we're ready. So the more that the open source philosophy bleeds out through the engineering organization as a whole, the better the systems we're building in the first place actually are.
+\[28:03\] They have much cleaner API's, they're gonna be much more modular, they've got much better documentation, they've got a much easier installation process, and we do all of that because we know that it's going to make it that much easier to push it out onto GitHub when we're ready. So the more that the open source philosophy bleeds out through the engineering organization as a whole, the better the systems we're building in the first place actually are.
 
 And slightly ironically, the fact that we've open-sourced a project increases the chances that it will get adopted internally, too. So we'll have a team that builds some piece of infrastructure and is obviously beneficial for that to be used throughout the company. We are a pretty large company at this point, so having a system that's really easy to install, nicely modular, sits on GitHub, easy to contribute to, actually increases the chances that it'll be used elsewhere inside the company, let alone outside. So that has actually been kind of an unexpected benefit of what we've done here.
 
@@ -154,7 +154,7 @@ That is a way for us to tell that story about the types of problems we have to s
 
 **Jerod Santo:** Yeah. I was gonna ask you, I was waiting for that one. I figured... Because that's your fourth point there - it's in your DNA, it's part of your mission, you write better software. And then the one that I thought was kind of the most... I don't know, I guess if you think about it the most capitalistic or the most obviously beneficial was there's so many engineers, you have so many needs, and you want people to come work at Facebook, and people like to see the hard problems being solved, they like to be involved in those things and so open source is a great way of going about that.
 
-**Adam Stacoviak:** \[00:32:06.14\] We saw that first hand with Dan Abramov. When he came on the show, I think that was his first week he was actually training in London and that was his process to get to get hired at Facebook, this similar model, the effects of what he's talking about.
+**Adam Stacoviak:** \[32:06\] We saw that first hand with Dan Abramov. When he came on the show, I think that was his first week he was actually training in London and that was his process to get to get hired at Facebook, this similar model, the effects of what he's talking about.
 
 **James Pearce:** Yeah, we actually every six months ask the new engineers at Facebook how aware they were of our various projects and the program as a whole, and we're obviously keen to make sure that as many people are aware of the projects we're working on and so that number, fortunately, is pretty healthy and it continues to go up. But the interesting fact is the number of people who join the company able to use those skills that they have worked on before they joined the company is really high.
 
@@ -172,7 +172,7 @@ That's not always true, by the way. There are certain communities that expect to
 
 Now on top of that, there's a certain amount of tooling that we think we can provide to make those best practices easier to enact. That's something that I think we're pretty proud of. We've worked hard to develop out tools which just allow engineers to do the right things when they're working on their projects by default. I'm happy to drill into some of those as well, because that's kind of an interesting topic all to itself.
 
-**Adam Stacoviak:** \[00:36:02.28\] I'm kind of curious that you mentioned React. Obviously, it's well known, but for those out there listening to this that may not exactly know what to emulate about React, what's successful about it, what do you know? What don't the rest the listeners know about React and the way it's developed, and the way the team is formed around it and the way it's open sourced, when the community operates, their conference, and various things that make it successful - what are those attributes to you to emulate? If you're feeling that is an example.
+**Adam Stacoviak:** \[36:02\] I'm kind of curious that you mentioned React. Obviously, it's well known, but for those out there listening to this that may not exactly know what to emulate about React, what's successful about it, what do you know? What don't the rest the listeners know about React and the way it's developed, and the way the team is formed around it and the way it's open sourced, when the community operates, their conference, and various things that make it successful - what are those attributes to you to emulate? If you're feeling that is an example.
 
 **James Pearce:** Right. I can't guarantee that I know exactly what the magic sauce is, but there are again three or four things that have worked really well for that particular project.
 
@@ -192,7 +192,7 @@ So we kept on working on it, and I guess this is the second thing that I think w
 
 And we actually put in place a number of ideas to help get that in a flywheel spinning. And one of the things I think React team did really well was a regular community roundup. Pretty much right from the start we did this monthly blog post where we would share all of the slides or YouTube videos or projects that people were working on that worked with React.
 
-\[00:40:07.03\] One, that creates this sense of community forming; two, it gave these individuals a kind of a brand that they could start capitalizing on and three, it encouraged them to go out and re-advocate for this project. And yeah, you just patiently wait for that inner ring to become the next ring out and that then becomes the next ring out and the next ring out and eventually, you've kind of hit this critical mass, this runaway kind of adoption of this thing, and before you know it even the skeptics have taken another look and figured out that, well, perhaps they've judged it too quickly the first time.
+\[40:07\] One, that creates this sense of community forming; two, it gave these individuals a kind of a brand that they could start capitalizing on and three, it encouraged them to go out and re-advocate for this project. And yeah, you just patiently wait for that inner ring to become the next ring out and that then becomes the next ring out and the next ring out and eventually, you've kind of hit this critical mass, this runaway kind of adoption of this thing, and before you know it even the skeptics have taken another look and figured out that, well, perhaps they've judged it too quickly the first time.
 
 But I would definitely credit that idea of community roundup as being pivotal to React's early success. And then I think another thing that has worked very well for us on React is that we are rigorously using the same version on Facebook product - all the Facebook products pretty much at this point - as we have on GitHub. So you are not looking at an old fork of a version that we're using internally, you're not looking at a monthly code dump from us. Basically, what you are looking at is the same version of React that we're using on facebook.com. We use pretty much master. So if you view source on facebook.com and you look at the version of the library, it's gonna be exactly same thing that everybody else is using.
 
@@ -204,7 +204,7 @@ So I think that's being critical and that's definitely something we've tried to 
 
 **Jerod Santo:** One quick question before the break about the kind of problems that you guys solve at Facebook and how that affects the open source community at large. Your problems are big. They're "web scale," you have billions of users, you have a huge code base with a legacy and a history behind it, so you've come up with solutions that apply to those problems. You also have a huge splash in the open source community whenever you release something, especially after React's success. The solutions to these big problems don't always scale down to smaller problems, like a small website or app or an engineering team of two or a website that doesn't get that much traffic, and yet when you make the big splash there's kind of a cargo cult mentality - "Facebook released it, it must be good," "Facebook released it, it must be for me." And so you have a lot of developers who are just like hopping on the bandwagon, perhaps grabbing tools that don't necessarily solve their problems. Is that a factor that you guys think about? I'd just like you to speak to that idea.
 
-**James Pearce:** \[00:43:53.22\] Yeah, that's a really interesting point. I don't think we pretend to have the solutions for every problem, and I think we worked quite hard, whether it's tech talks or in documentation, to talk about when a particular thing that we developed is appropriate, and I guess we perhaps implicitly talk about when it's not relevant. But I think the more acute example of this impedance mismatch is when the community starts to want to see certain items on a road map for a project that really are just not gonna fall in any of our plans, because they're not relevant to us.
+**James Pearce:** \[43:53\] Yeah, that's a really interesting point. I don't think we pretend to have the solutions for every problem, and I think we worked quite hard, whether it's tech talks or in documentation, to talk about when a particular thing that we developed is appropriate, and I guess we perhaps implicitly talk about when it's not relevant. But I think the more acute example of this impedance mismatch is when the community starts to want to see certain items on a road map for a project that really are just not gonna fall in any of our plans, because they're not relevant to us.
 
 **Jerod Santo:** Exactly.
 
@@ -218,9 +218,9 @@ You know, figuring out the API's and the ways that we can allow these other bind
 
 That is just a constant, ongoing governance question that I think we have to deal with, but it's a pretty interesting one. And I guess, just to kind of round out that thought, at some point these projects eventually become bigger than just Facebook alone. At some point projects needs to graduate to some kind of bigger governance model or some kind of more community-lead model, and that's also something we're looking at very aggressively on a project-by-project basis, looking to see when the community involvement is overtaking our own and then think about how to do that in a responsible way so that it goes on to become even more successful beyond our own walls. That's a whole like lifecycle story for open source projects that we're having to figure out as we go along, quite honestly, but it's a pretty exciting thing to think about for the future.
 
-**Jerod Santo:** \[00:47:56.11\] Alright, we are hitting up against our next break. Up next, we've talked about some of the stuff that Facebook has open source, we've talked about some of the processes or non-processes around the management of those communities... We're gonna talk about what you open source and how you decide what to open source and what to not open source, and are there gatekeepers to such decisions. We'll be right back.
+**Jerod Santo:** \[47:56\] Alright, we are hitting up against our next break. Up next, we've talked about some of the stuff that Facebook has open source, we've talked about some of the processes or non-processes around the management of those communities... We're gonna talk about what you open source and how you decide what to open source and what to not open source, and are there gatekeepers to such decisions. We'll be right back.
 
-**Break:** \[00:48:21.00\]
+**Break:** \[48:21\]
 
 **Jerod Santo:** So we're back with James Pearce, talking about all things open source at Facebook. It's so much fun to get an insight into the decision-making process, formalized processes... How do things come out of Facebook, how do they go in, who's in charge, that kind of things, James. And as the lead of the open source efforts there, you're definitely the guy to ask about not just how you go about open-sourcing things, but what about what to open source and what has to stay closed? And do engineers need to convince their managers that this should be open source? Give us the insight, how does that all work?
 
@@ -232,7 +232,7 @@ I tried to maintain as simple and lightweight a process as possible for deciding
 
 As long as a project fits well into the kind of the template of what we're looking for, we can really accelerate these things and publish them pretty quickly. There's not a many months-long bureaucratic process involving a lot of that decision making or death panels or whatever. It's very much fairly open-door for most types of projects to go through.
 
-\[00:51:53.16\] And I should say to some of my earlier points, really the main criterion of everything, out of everything is I need to be comfortable that a team is committed to maintaining the project after it has been launched. And this goes back to some of our experiences in the early days of our open source program where we literally pushed code out and walked away from it or we gave it to a foundation and walked away from it.
+\[51:53\] And I should say to some of my earlier points, really the main criterion of everything, out of everything is I need to be comfortable that a team is committed to maintaining the project after it has been launched. And this goes back to some of our experiences in the early days of our open source program where we literally pushed code out and walked away from it or we gave it to a foundation and walked away from it.
 
 Those all ended badly, because there wasn't that sense of ownership. We didn't give this project a chance to grow up and get traction with the community. So that is really the thing that I'm looking for. Is this team in it for the long run? Because the few months it takes to get something ready and the glory of open sourcing in the place is just tiny in comparison to the potentially multi-year commitment you have to keep the project going, keep it maintained, work with the community, et cetera, et cetera.
 
@@ -250,7 +250,7 @@ So yeah, we have this four or five kind of pillars or areas of software within t
 
 **James Pearce:** So obviously we want to know what the name is gonna to be, and we want to know whether it's gonna need to have a website, because we have a small design team that can help put nice logos onto these projects and build out websites. We're looking to know what sort of technical writing is going to be required to build out documentation for projects and these are often things engineers don't actually think about, but which my team can help put together.
 
-\[00:55:56.25\] We're also keen to find out whether the source of truth for the project is going to be internal, in which case we sink it out to GitHub, or whether it's gonna be on GitHub, in which case we sink it back in again. So we know how to organize the tooling around the actual code being transferred bidirectionally. Well, you know, that's basically it. It's a pretty short form, we don't ask a bunch of questions; we default to a very standard set of licenses and we have a fairly standard boilerplate for how people contribute and so forth.
+\[55:56\] We're also keen to find out whether the source of truth for the project is going to be internal, in which case we sink it out to GitHub, or whether it's gonna be on GitHub, in which case we sink it back in again. So we know how to organize the tooling around the actual code being transferred bidirectionally. Well, you know, that's basically it. It's a pretty short form, we don't ask a bunch of questions; we default to a very standard set of licenses and we have a fairly standard boilerplate for how people contribute and so forth.
 
 So yeah, most of it is pretty templated and we're just asking for the kind of the things that vary from project to project.
 

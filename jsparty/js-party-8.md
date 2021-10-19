@@ -26,7 +26,7 @@ What I found out when I dug into it was that they weren't referring to the Node 
 
 **Tracy Hinds:** \[laughs\] Yeah.
 
-**Rachel White:** \[00:04:00.26\] I feel like whenever I'm writing or working with a new language or project and I'm jumping in, if there's good documentation (which we'll talk about later) then it's super helpful, but I think that something else that people don't take into consideration is people have different learning styles too, so if there's other ways that people give you examples, you're gonna go and check those other sites.
+**Rachel White:** \[04:00\] I feel like whenever I'm writing or working with a new language or project and I'm jumping in, if there's good documentation (which we'll talk about later) then it's super helpful, but I think that something else that people don't take into consideration is people have different learning styles too, so if there's other ways that people give you examples, you're gonna go and check those other sites.
 
 **Tracy Hinds:** Yeah.
 
@@ -46,7 +46,7 @@ Now I'm actually wondering... Do you think that there's a responsibility of main
 
 **Tracy Hinds:** Well, Myles Borins and I were talking about this yesterday, and we were talking about like -- something that I struggle with for resources and education is there are so many ways to learn, even just online, not even in person... It's going to people who write blog posts, they're googling for it, Stack Overflow... And even Stack Overflow now has this really cool thing where it isn't just the questions section, they actually have example sections now... I think it's called documentation, and it's starting to be just plain examples. It's not just docs; what we think of docs often times are more like a definition, a How To, or a Getting Started... But I consider those documentation, I think it's really great.
 
-\[00:07:52.02\] For me, it's like I want there to be one source of truth. Also, having started in Python, I find that it's really easy for new learners, if they don't -- they're not inundated with so many places that they have to look at... But in Node, at this point, I don't think we get to choose that. So instead of trying to control it, it's like maybe we encourage people - maintainers, contributors, that if there's a place that they like to hang out, then they should voice their knowledge. "We have this place that you can go in the Node GitHub repo that you can go to ask for help. It's /help."
+\[07:52\] For me, it's like I want there to be one source of truth. Also, having started in Python, I find that it's really easy for new learners, if they don't -- they're not inundated with so many places that they have to look at... But in Node, at this point, I don't think we get to choose that. So instead of trying to control it, it's like maybe we encourage people - maintainers, contributors, that if there's a place that they like to hang out, then they should voice their knowledge. "We have this place that you can go in the Node GitHub repo that you can go to ask for help. It's /help."
 
 That's great, but as I've said, Stack Overflow is the number one place people are asking questions for Node, and it's kind of built for that. So that's great, but then maybe we should be encouraging people - what we consider subject matter experts - to be contributing there.
 
@@ -74,7 +74,7 @@ So I think that something like that can be really useful for getting -- automati
 
 But then on top of that, you kind of have to have -- then it becomes a cultural thing. It's like, "Are you allowed to ship something without writing words about why it works the way it works and how you might use it, or examples of how you might use it together?" At Stripe we actually have (I think we call it) a frontend explorer. So we have a bunch of components, and some are really generic... It's a button, or a date picker, or something like that... But some are like "This is the thing that you use in the selector for the settings where you change your avatar to..." -- like, it's very specific, but you still want to document that, so this is a place where you can throw example code of the different settings that you can put on it, and it will then automatically render that stuff, and then pull in all the types and render all the function calls.
 
-\[00:12:30.11\] A new developer at Stripe can go to this page and say, "I need a menu over here that I have to do... Let me look at these menus. Do I need to write a new one? Can I look at these?" So that's fully cultural, past the mandatory typing though. I think it's a good culture to build, it's extremely important.
+\[12:30\] A new developer at Stripe can go to this page and say, "I need a menu over here that I have to do... Let me look at these menus. Do I need to write a new one? Can I look at these?" So that's fully cultural, past the mandatory typing though. I think it's a good culture to build, it's extremely important.
 
 **Rachel White:** I agree. Tracy, or I guess either of you... What are some codebases that you've used that you are increasingly impressed by how they handle their documentation?
 
@@ -106,7 +106,7 @@ Django, you know... [James Socol](https://jamessocol.com/) was giving a great ta
 
 **Rachel White:** ...as I say with resentment, and Tracy knows why. \[laughter\] I wanna bring up Johnny-Five as an example for a special exception to documentation... Not because I'm biased and I love NodeBots -- well, yeah, I am biased and I do love NodeBots, but I think that the reason that I love NodeBots so much is because of how good the documentation is.
 
-\[00:16:26.24\] It touches on the API for using it, it gives you visual diagrams on how to use it, there's code examples for so many different microcontrollers... So you can come into it with so many different ways of your preferred learning style, and there's something there for everybody, and... I don't know. I think that's probably my favorite. It makes me very happy.
+\[16:26\] It touches on the API for using it, it gives you visual diagrams on how to use it, there's code examples for so many different microcontrollers... So you can come into it with so many different ways of your preferred learning style, and there's something there for everybody, and... I don't know. I think that's probably my favorite. It makes me very happy.
 
 **Alex Sexton:** I'm gonna toot Stripe's own horn a little bit, but Stripe is pretty well known for good documentation of their API, which is a little different than what we're talking about... But as a company, if you have something that people have to integrate into their software, you need pretty good documentation on that.
 
@@ -134,7 +134,7 @@ And one thing that Stripe does - that a lot of people still don't do, but people
 
 **Alex Sexton:** It's also true that in your first iteration of your application (or business or whatever you're documenting), the documentation kind of flows out because you have such a small service area, and you don't have any -- I mean, it's kind of like greenfield in code, you just write whatever you want. But as soon as you update something, now you have to manage both the old and the new, and then you update more, and the service area grows, and by the time you're 3.0, the docs are massive, all the examples are out of date... It's kind of a snowball of work. You would assume that since... You kind of touched on this before, Tracy, that docs are living and you have to keep updating them, because the code -- even if the code wasn't changing, you'd probably still need to continuously make them better. But the code is changing, so you have to keep updating them based on the changes in the code and making them better, all while not breaking anyone's workflow, or anything like that.
 
-\[00:20:13.26\] So the work actually increases over time. It feel like, "Oh, I wrote all the docs. Now I only have to do little updates in the future", but I feel like it kind of is this early big spike, and then it drops off, and then over time it far surpasses... Eventually you're a massive -- if you're successful and you have 12 people full-time, documentation writers and programmers and all that kind of stuff.
+\[20:13\] So the work actually increases over time. It feel like, "Oh, I wrote all the docs. Now I only have to do little updates in the future", but I feel like it kind of is this early big spike, and then it drops off, and then over time it far surpasses... Eventually you're a massive -- if you're successful and you have 12 people full-time, documentation writers and programmers and all that kind of stuff.
 
 **Tracy Hinds:** Yeah, the living dark situation is definitely -- I found it to be a problem that people don't make that-- or if there's a mixed, like a conflict in manage expectations, because I think there was for a time... James Snell spent an exorbitant amount of time updating a lot of the docs (I believe it was at the beginning of this year) for Node. Part of that was that there had been a ton of updates and releases... And people aren't pulling open source code for Node now; they're looking at the docs, which you would expect from a mature project, but the docs weren't keeping up quick enough, so then you had people arguing, saying "No, this is what the docs say", and I'd be like "The docs are out of date." We're working on it, but that's really tough, you know?
 
@@ -144,11 +144,11 @@ All documentation should have an example and it should have a known output, and 
 
 **Rachel White:** Alright, I think it's time for a break. When we come back, we'll be talking about non-blocking UI rendering.
 
-**Break:** \[00:22:57.25\]
+**Break:** \[22:57\]
 
 **Alex Sexton:** And we're back. During this next section, we're going to be talking a little bit about maybe a segment light about concurrency in the UI thread, or non-blocking rendering techniques to make the browser not lag whenever you try to do things or render things (render other things) or scroll.
 
-\[00:24:00.00\] We've talked a lot in the past about maybe network performance, and we talked somewhat last week about _Isomorphic JavaScript_. As a refresher, _Isomorphic JavaScript_ is a name that was given to code that renders on the server and the client by [Spike Brehm](https://www.linkedin.com/in/spikebrehm) at Airbnb back in the Backbone days when we used to do it the hard way. So _Isomorphic JavaScript_ refers to JavaScript that you can render on the server, and then whenever the page renders, the frontend code "rehydrates" (this is the word we use) all of the nodes that are already in the DOM, and then things start working, magically.
+\[24:00\] We've talked a lot in the past about maybe network performance, and we talked somewhat last week about _Isomorphic JavaScript_. As a refresher, _Isomorphic JavaScript_ is a name that was given to code that renders on the server and the client by [Spike Brehm](https://www.linkedin.com/in/spikebrehm) at Airbnb back in the Backbone days when we used to do it the hard way. So _Isomorphic JavaScript_ refers to JavaScript that you can render on the server, and then whenever the page renders, the frontend code "rehydrates" (this is the word we use) all of the nodes that are already in the DOM, and then things start working, magically.
 
 So you have a server side render, you get SEO, you get fast rendering. You might not get fast thing to work, so if your JavaScript still takes a really long time to parse and execute then none of your buttons work yet, but maybe your links do, or something like that; it'd be cool.
 
@@ -162,7 +162,7 @@ So where I think we're headed in this interesting space that is coming out of th
 
 When we're talking about rendering, much like you want to fit any animation you're doing inside of the requestAnimationFrame 12-millisecond block, you wanna fit any rendering that you're doing in your page inside that block as well, otherwise you're going to stop that requestAnimationFrame from being able to be called. You're going to stop the browser from being able to scroll smoothly; you're gonna stop anything that is in the UI thread - the rendering, the layout, all that stuff - from being able to happen, until you're done running your code.
 
-\[00:28:13.03\] In React, a lot of times we have DOM diffs and things like that and re-renders that take a lot more than 12 milliseconds. So even though we have this fast, cool virtual DOM diffing thing, we're in a situation where we're lagging the browser and we're causing jank and all that kind of stuff because of the rendering style... And it will take 30 milliseconds to render everything, or 300 milliseconds if it's crazy.
+\[28:13\] In React, a lot of times we have DOM diffs and things like that and re-renders that take a lot more than 12 milliseconds. So even though we have this fast, cool virtual DOM diffing thing, we're in a situation where we're lagging the browser and we're causing jank and all that kind of stuff because of the rendering style... And it will take 30 milliseconds to render everything, or 300 milliseconds if it's crazy.
 
 So the future here, I think, is in concurrent or non-blocking rendering engines. React has been working for a long time on this - it's called React Fiber. Other engines are also working on this... There's Ember Concurrency, which is not only for rendering; it can be doing other things. You're doing less than the UI thread, but it's not necessarily a piecemeal rendering of the DOM. But there's a good gist that I'll put in the show notes about what React Fiber is, when you can expect it... There's a talk at React Next 2016. There's a team at Facebook that works on React, and they've been researching how to make this good for like two years, and it's finally pretty close.
 
@@ -180,7 +180,7 @@ But then there was one for docs too, right? Do you remember? In order to get MDN
 
 **Tracy Hinds:** Yeah, while you were talking, I was trying to figure out -- I am always curious to see when something like this is coming along if there's like a not-framework version of it, because I came from the tiny percentage of people who were trying to write JavaScript without using a major framework, which turns into the no-framework framework... But I'm not seeing any incremental rendering packages that would be worth... I'd love to hear about it if somebody knows about it \[laughs\].
 
-**Alex Sexton:** \[00:32:09.27\] The idea of incremental rendering assumes you're doing -- maybe the reason why is because it assumes you're already using a library to do batch rendering, right? So it's kind of like a thing to undo a thing you added.
+**Alex Sexton:** \[32:09\] The idea of incremental rendering assumes you're doing -- maybe the reason why is because it assumes you're already using a library to do batch rendering, right? So it's kind of like a thing to undo a thing you added.
 
 **Tracy Hinds:** Right, and also there might just be too much going on.
 
@@ -188,7 +188,7 @@ But then there was one for docs too, right? Do you remember? In order to get MDN
 
 **Rachel White:** Right. We're gonna go to another break.
 
-**Break:** \[00:33:07.02\]
+**Break:** \[33:07\]
 
 **Rachel White:** So we're back! Next, we're gonna talk to Tracy about what it is like to work for the Node Foundation, what's going on with Node, what does she do - she's just gonna tell us all these good things about her job and the community. So tell us what it is that you do exactly for the Node Foundation.
 
@@ -200,7 +200,7 @@ There's the Node Project itself, which is comprised of the TSC, which is the Tec
 
 Then there's the Community Committee, which is very newly chartered. That is a place that was created that I helped get chartered at the beginning of this year, after we'd worked on it for quite some time, to give voice to community. So that's really interesting, because a lot of programming foundations don't have that level of voice.
 
-\[00:36:01.00\] Community is a very weird, ambiguous, handwavy word because it's communities - it's a whole ecosystem of groups around the world, and it can be people who are writing NPM packages, or it could be projects like Express, or... The TSC is part of the community, as well. Then you have all of these events, like Node School and NodeBots, who have helped keep Node a thing.
+\[36:01\] Community is a very weird, ambiguous, handwavy word because it's communities - it's a whole ecosystem of groups around the world, and it can be people who are writing NPM packages, or it could be projects like Express, or... The TSC is part of the community, as well. Then you have all of these events, like Node School and NodeBots, who have helped keep Node a thing.
 
 When their code isn't changing a lot or we're not really hearing a lot from the core project itself, there are people who are still around the world, using this in production, and using this for fun, and they still need to learn this code, so those communities are really helping keep that there.
 
@@ -216,7 +216,7 @@ For us, it's that we have this great opportunity and a lot of people wanna learn
 
 We want the codebase to be good, we want it to be stable, we want more people to wanna contribute, so that it sustains itself, and part of that is making it a better place to hang out and participate, and also making it easier to write that code.
 
-\[00:40:09.17\] There are concepts in Node that can get incredibly complicated and the learning curve can get steeper, but you have to know how to write JavaScript to write Node, and I don't think learning JavaScript is that difficult either, but there is definitely a lot of places that we can work and improve, both in JavaScript onboarding, as well as Node onboarding, to make that better.
+\[40:09\] There are concepts in Node that can get incredibly complicated and the learning curve can get steeper, but you have to know how to write JavaScript to write Node, and I don't think learning JavaScript is that difficult either, but there is definitely a lot of places that we can work and improve, both in JavaScript onboarding, as well as Node onboarding, to make that better.
 
 A lot of this year for me, the roadmap that I wrote out for education, is education and community. We need to work on the Getting Started. There are other programming languages I'm really envious of, because it's a huge investment. You have to spend time on multiple people working on this, on writing curriculum, on writing getting started guides, on working on the website so that it is easily discoverable to find these things and having it in official places.
 
@@ -228,7 +228,7 @@ Again, a conversation I was having this week was around supporting the community
 
 Technical writing is a really special skill, and we need more of that. We could also use project managers, we could also use designers, because design is a better user experience. It's also aesthetically more pleasing to people, and it can attract people to a project, it can also help display information in a different way than just words on a page... And then there's folks who maybe have a skill in technical writing via translation, because that's not just gonna be copying and pasting and changing out the words, it's the nuance of the different languages that you've got there as well. And we need all of that, and so many projects need this.
 
-\[00:44:28.27\] You need to start approaching it from the point that of course developers are important to the project, they're writing code, but maybe we've ignored the other roles for a bit. So it's nice to be able to have this making space for everyone there, and saying that "We need all of you."
+\[44:28\] You need to start approaching it from the point that of course developers are important to the project, they're writing code, but maybe we've ignored the other roles for a bit. So it's nice to be able to have this making space for everyone there, and saying that "We need all of you."
 
 **Rachel White:** Definitely.
 
@@ -244,7 +244,7 @@ But it's so helpful when other people come and help on your project. So if you h
 
 Informal education is how most people have learned Node up until this point, and there are exceptions to that, such as training, but community colleges, universities - they're not really teaching it. There is a very small subset of code schools who are teaching Node as well. I love JavaScript, I love full-stack JavaScript, I love the luxury of not having to context-switch, so I wanna see more people be able to do that, because I really do think that that helps more people learn. So that's the rest of my year, among many other things.
 
-**Rachel White:** \[00:48:18.29\] Cool, alright. Well, I think that's gonna be all that we're gonna talk about for our segments, and now we're gonna move on over to our picks of the week. Alex, do you wanna go first?
+**Rachel White:** \[48:18\] Cool, alright. Well, I think that's gonna be all that we're gonna talk about for our segments, and now we're gonna move on over to our picks of the week. Alex, do you wanna go first?
 
 **Alex Sexton:** I'd love to go first. My pick this week is called Prettier. It's by James Long (JLongster). He put out Prettier a little while ago... It is a code formatter. Much to everyone's surprise, there are a lot of code format checkers, ESLint and stuff like that, or there used to be JSCS, and JSHint would do some of it... But there wasn't anything that could take JavaScript and absolutely always perfectly re-render that JavaScript in the exact way that you wanted it to be rendered based on your rules.
 
@@ -254,7 +254,7 @@ There's some prior art with GoFormat and ReFormat - that's from Rust, or somethi
 
 **Tracy Hinds:** Sure, okay. My pick is Free Code Camp, and I think at this point a lot of people have run into it in some way or another. They're producing so much content which I find really helpful, they have really great blog posts... But in itself, it's sort of an online bootcamp and it has a ridiculous amount of coding challenges. I like the way that they've set it up, because it really allows people who are starting from nothing or next to nothing in terms of programming knowledge, and it builds you up with structured challenges. You can actually build up to getting certifications for frontend and backend and dataviz.
 
-\[00:50:58.26\] Once you've met all of those hours - and this is free, as far as I can tell; I've not experienced a paywall of any sort - you get to move on to working on real-world projects, pair-programming with somebody else who's at the same point that you are. And this includes - you get agile user stories, so you have to learn about that, which I think is really valuable for getting a job. And the work that you're doing is on real non-profits who have requested this work happen for websites or their apps. After that you get a certification. The team at FreeCodeCamp is actually helping you with interviewing challenges as well as part of this, and I think at the point where you're done with this, you have over 2,000 hours of work invested in this, so it's not a joke.
+\[50:58\] Once you've met all of those hours - and this is free, as far as I can tell; I've not experienced a paywall of any sort - you get to move on to working on real-world projects, pair-programming with somebody else who's at the same point that you are. And this includes - you get agile user stories, so you have to learn about that, which I think is really valuable for getting a job. And the work that you're doing is on real non-profits who have requested this work happen for websites or their apps. After that you get a certification. The team at FreeCodeCamp is actually helping you with interviewing challenges as well as part of this, and I think at the point where you're done with this, you have over 2,000 hours of work invested in this, so it's not a joke.
 
 I love how it covers the full range of skills and challenges that you would face as a programmer getting started, so I think this is really powerful.
 

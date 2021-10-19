@@ -18,7 +18,7 @@
 
 **Pia Mancini:** They're both growing, but that space last year grew at a rate that was completely unexpected. So this is the combination of OpenCollective the platform, plus the OpenCollective Foundation that is a 501c(3). It's a charity. The 501c(3) has never been very used, or we didn't grow very much until last year... In 2019 that entity had a revenue across all its collectives of -- I think it was something like 300k... And then it was close to five million dollars last year. So that level of scale made it quite interesting to survive, especially in the middle of a pandemic.
 
-**Adam Stacoviak:** \[00:04:31.28\] Yeah. And it's important to understand the full platform, too. I recall talking to you, Pia, before on Founders Talk, and then this show way back when, this idea of, as you mentioned, if you don't have a legal entity in your group; you just wanna collect together and raise funds for whatever they are, and distribute them transparently in the open. That platform did not exist then, and you sort of began in this open space where it wasn't really about open source or even software-driven communities... And then that space grew for you, and then now with the pandemic and things shifting as they had the last year (I guess a year and a half now), you're seeing more growth in the non-tech spaces.
+**Adam Stacoviak:** \[04:31\] Yeah. And it's important to understand the full platform, too. I recall talking to you, Pia, before on Founders Talk, and then this show way back when, this idea of, as you mentioned, if you don't have a legal entity in your group; you just wanna collect together and raise funds for whatever they are, and distribute them transparently in the open. That platform did not exist then, and you sort of began in this open space where it wasn't really about open source or even software-driven communities... And then that space grew for you, and then now with the pandemic and things shifting as they had the last year (I guess a year and a half now), you're seeing more growth in the non-tech spaces.
 
 **Pia Mancini:** Yeah, absolutely. A lot more than before. In hindsight, the common thread between both growth spurts that we've had in the open source or tech space and now in that kind of mutual aid or solidarity space, it has to do with the fact that OpenCollective is best suited for groups that are -- it's like zero to one. You're either able to fundraise or not. They are doing this level of mass-scale, global project-directed funding option. So an open source project, if it's someone in the U.S, someone in Mexico, someone in Germany, it's literally impossible for them to fundraise, because there is no legal entity that they can create. It doesn't exist. So it's like zero to one.
 
@@ -28,7 +28,7 @@ And for mutual aid groups, we've found that it was the same. It was literally im
 
 **Pia Mancini:** Yeah. And you know, we were doing a strategy very long call the other day... Because everyone else, we have limited capacity, and we need to decide what we are gonna say no to, and what we want to achieve... And we wanna focus on these spaces - whatever they are, but these spaces where it's just not a marginal improvement. It's this binary kind of situation, and scaling that. I think we did that with open source, in a way, for the vast majority of projects that are not under another foundation or are not newer, smaller, or more distributed, or whatever... We're also doing it now for these solidarity space--
 
-**Jerod Santo:** \[00:08:10.06\] So because of that do you see collectives or organizations outgrowing the platform? Do they need that marginal improvement and then the best thing for them is to move elsewhere?
+**Jerod Santo:** \[08:10\] So because of that do you see collectives or organizations outgrowing the platform? Do they need that marginal improvement and then the best thing for them is to move elsewhere?
 
 **Pia Mancini:** Yeah, absolutely. And look, right now, this year, for me it's about focusing a lot on the whole lifecycle of a collective. We've become really good at "You need to be up and running today? We've got you. This is what you need to sign, this is where you need to send the money, this is how you do it." It's super-clear, zero friction. But then as groups start to grow on the platform, we are not so good at taking care of that middle-sized group that -- you know, they manage anything between $500,000 to over a million budget, or $300,000 to over a million. Then they are like "Alright, at what point is it worth for me to start doing my own thing, my own entity? Is it now, is it later?"
 
@@ -48,7 +48,7 @@ So we're saying that it's a bit tricky sometimes, and it's a challenge of mine t
 
 **Jerod Santo:** Yeah. Has that happened with anybody?
 
-**Pia Mancini:** \[00:11:52.07\] Well, Gatsby is a good example. Gatsby was a collective, and now they are a super-big venture-backed, and the relationship between Gatsby the company -- I think it was well-managed, but it was well-managed because it wasn't a huge community in terms of a lot of people being very invested in that \[unintelligible 00:12:08.21\] turned into the company.
+**Pia Mancini:** \[11:52\] Well, Gatsby is a good example. Gatsby was a collective, and now they are a super-big venture-backed, and the relationship between Gatsby the company -- I think it was well-managed, but it was well-managed because it wasn't a huge community in terms of a lot of people being very invested in that \[unintelligible 00:12:08.21\] turned into the company.
 
 **Jerod Santo:** It's starting to happen some, yeah...
 
@@ -72,7 +72,7 @@ I think it's positive that open source projects find different business models, 
 
 **Pia Mancini:** Yeah, for sure. Radical transparency is never easy, and social pressure is tough... And it's also a hard ask on maintainers who are like -- most of them are really good developers, and great at what they do; they might not be the best at managing communities or people, because it's a different skillset. I wish all open source projects had a more diverse skillset. It's something that we should really strive for... And this is one of the reasons why there has to be -- you know, it's a lot of pressure on the maintainers to do what they do, earn what they can, raise money and also manage the social expectations of "Oh, how much you're getting paid for this work."
 
-\[00:16:07.09\] It's tough, I get it, but for us, that is a non-negotiable space, because I feel like the benefits of having this level of openness by far outweigh it. And also, the uncomfortable moments... Also, I think that as a community we should also take stock of how poorly some of these folks are paid, and we should be paying them more.
+\[16:07\] It's tough, I get it, but for us, that is a non-negotiable space, because I feel like the benefits of having this level of openness by far outweigh it. And also, the uncomfortable moments... Also, I think that as a community we should also take stock of how poorly some of these folks are paid, and we should be paying them more.
 
 One of the main goals of the Open Source Collective is making working for your open project, for your community something that is comparable to working for a corporation. And the only way of getting there is paying maintainers a competitive salary. We really wanna erase this choice of like "Oh, I need to be poor and work for my community" or "I'm gonna make money, but also I need to work for a corporation." If we can close that gap, narrow that, make it as comparable as possible, for us that's a huge win. But the only way of getting there is being open about the need to pay folks.
 
@@ -98,9 +98,9 @@ One of the main goals of the Open Source Collective is making working for your o
 
 **Pia Mancini:** Absolutely. We have for example an internet freedom technology fund under the OpenCollective Foundation where we are supporting a whole group of projects working with privacy, anti-surveillance protecting tools for human right activists, VPNs that are being deployed in countries like Myanmar, for example... We absolutely cannot expose them, so that's where we came to the limits of our very strong radical transparency kind of platform, very opinionated platform. That's where we hit the "What do we do now with this?" We have this money that we want to give to all of these projects doing technology that is keeping -- internet freedom technology that is keeping our activists or human rights activists safe. At the same time, we have this platform that is radically transparent and we cannot have that. So that's really for me the most difficult space to navigate, and we're still working with these projects and we're doing some special features to guarantee their safety.
 
-\[00:20:00.28\] I think transparency is interesting, and it's fantastic, but also you sometimes obviously run into this clash between transparency and privacy and identity protection that you need to navigate. And normally, the ones that are hurt the most or those protections are not in place are folks that are more exposed, or minorities... So yeah, it's an interesting problem for us, but yeah.
+\[20:00\] I think transparency is interesting, and it's fantastic, but also you sometimes obviously run into this clash between transparency and privacy and identity protection that you need to navigate. And normally, the ones that are hurt the most or those protections are not in place are folks that are more exposed, or minorities... So yeah, it's an interesting problem for us, but yeah.
 
-**Break:** \[00:20:20.25\]
+**Break:** \[20:20\]
 
 **Jerod Santo:** So you have a brand new initiative as of March, the Funds for Open Source project on Open Collective... And it's all about getting corporations better involved, more involved, bringing more corporate money into open source maintainers' hands, making that easy and accessible. Do you wanna tell us where that idea came from and what you've been working on?
 
@@ -120,7 +120,7 @@ One of the main goals of the Open Source Collective is making working for your o
 
 So what we did was this Funds for Open Source proposal, where companies have one payment, one purchasing order, a large tech... It's not surprising, but it's far easier to get $100,000 from a company than to get $10,000. A lot easier to get $100,000, because they understand that. The $10,000 raises a ton of flags. But a large tech to one not-for-profit that is already a vendor - it's a really easy process for everyone. And then what we do is we turn around and create a fund for this company. So they can obviously give money from that fund to collectives on Open Collective, or under the Open Source Collective umbrellas, which is really easy, but they can also use that fund to disburse money to other organizations.
 
-We have, for example, a CMS, the Google CMS fund. They gave us their whole budget, and then they wanted to give money to the Drupal Association. But instead of getting the Drupal Association that is now a very small organization in terms of staff to go through all the process of procurement with Google, we just sent them the money from the fund. \[00:24:12.25\] So it's a lot easier for everyone involved to give money to open source projects and other organizations.
+We have, for example, a CMS, the Google CMS fund. They gave us their whole budget, and then they wanted to give money to the Drupal Association. But instead of getting the Drupal Association that is now a very small organization in terms of staff to go through all the process of procurement with Google, we just sent them the money from the fund. \[24:12\] So it's a lot easier for everyone involved to give money to open source projects and other organizations.
 
 Funds for Open Source also has a grant-making feature built-in. So projects can apply to get funding from this grant.
 
@@ -162,7 +162,7 @@ Funds for Open Source also has a grant-making feature built-in. So projects can 
 
 **Pia Mancini:** It's not everyone though. It's really interesting, it's not just everyone who's an engineer that can vote. It's those who have contributed to open source. So they don't just want to get them to decide which project to fund, they also wanna get their staff to contribute more to open source. And that was suddenly a huge inspiration, and indeed has been very open about their blueprints, \[unintelligible 00:28:00.05\] the tooling that they use, and other bits and pieces... So I think they are really a role model in that.
 
-\[00:28:08.04\] And we just came in to, again, enable. That's what we do, we facilitate, we enable, we catalyze these things. We wanna make it so, so simple for companies to say "Okay, we're just gonna put this many here, and from here we'll decide how to spend. We'll spend here, there, we'll offer grants etc." But it's a hundred times easier because they have the money in one place.
+\[28:08\] And we just came in to, again, enable. That's what we do, we facilitate, we enable, we catalyze these things. We wanna make it so, so simple for companies to say "Okay, we're just gonna put this many here, and from here we'll decide how to spend. We'll spend here, there, we'll offer grants etc." But it's a hundred times easier because they have the money in one place.
 
 I guess the biggest example that we have is Chrome's fund. They have a pretty big fund on OpenCollective.com/chrome. I think it's about $700,000, and they've just committed another half a million for this year... So they've been great at this. And you can go in there, you can see -- not only they are kind of disbursing money to projects on Open Collective, they're creating special projects from communities; they're encouraging open source projects to join Open Collective so it's easier for them to give them money and also track how that money is spent. Addy Osmani at Chrome has been a really good partner here.
 
@@ -184,7 +184,7 @@ So we need to be better -- like, we, OpenCollective and Open Source Collective n
 
 **Pia Mancini:** ...I want to create something that survives me, and I believe that sustainable is a mission that survives its founders. So I think a lot about that, and I think a lot about that in the context of my relationship with all of these companies in the open source space. So I think that we need to do better tooling. We tried to do -- like, if you're an engineer and you need to move this up the chain, this is a letter that you can use to write to management, or this is what went well in this company, so read all of these use cases, or maybe try these 5-6 steps. We do a little bit of that, but not nearly enough.
 
-\[00:32:23.04\] Sustain was obviously a big part of that conversation of convincing companies that they need to invest in this space... So yeah, I think I would like to do something that is like a toolkit for -- you know, your sustainer toolkit. You're in a company, these are all the resources at hand, these are all the stats, this is a presentation you can use, use these five slides... And then keep inviting me to your show and talk about it. \[laughter\]
+\[32:23\] Sustain was obviously a big part of that conversation of convincing companies that they need to invest in this space... So yeah, I think I would like to do something that is like a toolkit for -- you know, your sustainer toolkit. You're in a company, these are all the resources at hand, these are all the stats, this is a presentation you can use, use these five slides... And then keep inviting me to your show and talk about it. \[laughter\]
 
 **Jerod Santo:** Well, you might be preaching to the choir with our show in particular, but... Point taken.
 
@@ -202,7 +202,7 @@ So we need to be better -- like, we, OpenCollective and Open Source Collective n
 
 The Internet Freedom Fund is another one, where we put money from Ford, Luminate, also Facebook started one with us to support this type of internet freedom technology projects. We're seeing both - single company, that's like "I'll give you my money. Please spend it on open source" and "Let's pool money together to support this specific type of projects." I'm a fan of anything that happens in funds for open source. I think it has been a really interesting initiative.
 
-**Adam Stacoviak:** \[00:36:05.23\] Yeah. Have you begun to quantify the impact? Because anytime you talk about organizing people and assembling these opportunities for corporations to participate, sometimes - as Jerod was saying - how do you convince, or encourage...
+**Adam Stacoviak:** \[36:05\] Yeah. Have you begun to quantify the impact? Because anytime you talk about organizing people and assembling these opportunities for corporations to participate, sometimes - as Jerod was saying - how do you convince, or encourage...
 
 **Pia Mancini:** Nudge...
 
@@ -218,11 +218,11 @@ The Internet Freedom Fund is another one, where we put money from Ford, Luminate
 
 One of the things that we are doing though is we're building proper metrics tooling for collectives and fiscal hosts. So we will have a much better understanding of, you know, "They've been spending money on this", or "From this budget, open source projects normally spend 90% of their budget on a monthly basis" or "They keep their budget forever." All of that metrics and readings, with the new metrics dashboard for collectives, are gonna be much easier for us to do and have at a glance.
 
-**Break:** \[00:38:02.17\]
+**Break:** \[38:02\]
 
 **Adam Stacoviak:** Could the impact be quantified, to some degree maybe, just simply new money in? Because it's assumed that the money is gonna go somewhere, and the money is gonna have some sort of impact. Do you have a metrics for new money in, or sort of how the total raised has gone up 25%? Or I'm looking at a budget for Indeed, for example - it is $125,000 total raise so far, and that's a new fund, so I'm assuming that's pretty much new money.
 
-**Pia Mancini:** \[00:40:01.24\] Yes, I have -- let me see... Let me open my Metabase dashboard. I have a fancy dashboard for this.
+**Pia Mancini:** \[40:01\] Yes, I have -- let me see... Let me open my Metabase dashboard. I have a fancy dashboard for this.
 
 **Jerod Santo:** Metabase.
 
@@ -306,7 +306,7 @@ One of the things that we are doing though is we're building proper metrics tool
 
 **Jerod Santo:** Yes, for sure.
 
-**Pia Mancini:** \[00:44:04.15\] I wish I could say "Nah, we incorporated our not-for-profit in Delaware. No one cares about how much we --" Like, no. We just went ahead and did it in California, thank you very much... So yes, a lot of external audits.
+**Pia Mancini:** \[44:04\] I wish I could say "Nah, we incorporated our not-for-profit in Delaware. No one cares about how much we --" Like, no. We just went ahead and did it in California, thank you very much... So yes, a lot of external audits.
 
 **Jerod Santo:** Oh, yeah...
 
@@ -348,7 +348,7 @@ One of the things that we are doing though is we're building proper metrics tool
 
 **Pia Mancini:** Yeah, someone to help you through dark times, and insecurities. In OpenCollective we changed -- you know, we've been tinkering with our business model for a while... This is something that I don't think a lot of people know, but most of our collectives are now on a tip basis. We don't even take a platform fee. So last year during the pandemic we went to zero platform fees for all Covid-related projects for three months initially, and then we extended it... So we just gave up all our revenue, because we felt like we needed to do something for this situation. We were seeing all of these people coming together, putting money together, supporting each other... And you know, we're like "What can we do -- besides enabling this, what's our role today?" and make this as easy as possible. So we just went to zero fees. That was in March last year, when we were still bleeding money every month. Now, it was the right decision, it was a no-brainer of a decision, because we knew that that's what we had to do, but it was a tough call also, in the sense of like "We are giving up all our revenue."
 
-\[00:47:44.08\] So that was in March, and half-way through March last year we decided to experiment with something that I've always wanted to have on OpenCollective, but we never had the guts to do it... That is tips. We're just gonna try and see if we can just sustain ourselves, instead of just getting a fee from the projects... Enabling donors to give a tip on top of their donations, and use that as a revenue.
+\[47:44\] So that was in March, and half-way through March last year we decided to experiment with something that I've always wanted to have on OpenCollective, but we never had the guts to do it... That is tips. We're just gonna try and see if we can just sustain ourselves, instead of just getting a fee from the projects... Enabling donors to give a tip on top of their donations, and use that as a revenue.
 
 We were so surprised... If for example OpenCollective was taking 5% platform fee, and then we moved to zero, when we went to tips, it was always over 6%-7% that we were making.
 
@@ -404,7 +404,7 @@ Now we have - I hate myself for saying this, but like an Apple Store kind of rel
 
 **Adam Stacoviak:** Two-and-a-half.
 
-**Pia Mancini:** \[00:51:44.21\] Two-and-a-half, yeah. \[laughter\] But you know what - the Open Collective Platform actually makes it really easy for us to manage all of these groups... So I guess it depends on how we wanna grow the hosts. For example, we started doing non-monetary asset holding for projects, we are starting to offer employment services for projects... Because we acknowledge that if we are coming into the world saying "We want the community to have economic power, and we want people to be able to make a decent living being paid by the community", we need to provide the services for that to happen, employment services. Every kind of thing that we add on top of our just bare-bones financial "Get money and spend it" proposition obviously scales our costs.
+**Pia Mancini:** \[51:44\] Two-and-a-half, yeah. \[laughter\] But you know what - the Open Collective Platform actually makes it really easy for us to manage all of these groups... So I guess it depends on how we wanna grow the hosts. For example, we started doing non-monetary asset holding for projects, we are starting to offer employment services for projects... Because we acknowledge that if we are coming into the world saying "We want the community to have economic power, and we want people to be able to make a decent living being paid by the community", we need to provide the services for that to happen, employment services. Every kind of thing that we add on top of our just bare-bones financial "Get money and spend it" proposition obviously scales our costs.
 
 **Jerod Santo:** Right.
 
@@ -452,7 +452,7 @@ Now we have - I hate myself for saying this, but like an Apple Store kind of rel
 
 **Adam Stacoviak:** I was gonna suggest maybe A/B testing it, versus at an individual level, or an individual collective... Maybe just A/B test, where it's like "Hey, for this transaction you show the 5% platform fee. For this next transaction, which is just maybe who knows what, the option to do a tip mechanism." So the current UI you have, just swap between the two and just test 100 transactions and see what the results might be... Rather than doing an opt-in, and involving other humans, and deliberating. Because if it's all transparent, you could just in that same ledger say "There's no platform fee, there's no tip." Or "There is a tip, and it's 7%." It's very clear in the ledger, that way you can kind of maintain your transparency, as you do already.
 
-**Pia Mancini:** \[00:56:07.24\] Yeah. Or even something like "This transaction has costs for the collective. Do you wanna cover them?" and that's it. Some very simple kind of thing.
+**Pia Mancini:** \[56:07\] Yeah. Or even something like "This transaction has costs for the collective. Do you wanna cover them?" and that's it. Some very simple kind of thing.
 
 **Adam Stacoviak:** Yeah. We've done that, too. Through our shows we've donated on hosts' behalf, and ten times out of ten we're adding too to cover the platform fees for the donation.
 

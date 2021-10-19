@@ -160,7 +160,7 @@ So there are these sort of like legible status markers that make it more possibl
 
 **Nadia Eghbal:** Yeah. And a lot of them use other platforms to build their reputation. So you can more easily get a sense of a prominent open source developer's reputation on Twitter, for example. But you head to their GitHub profile and it's almost often not even clear which projects are they known for; you can pin things to your profile... And GitHub is definitely making more and more steps in this direction, so it's not meant to be this cynical criticism, but it is just important to highlight that there are these responsibilities that platforms should have towards the creators.
 
-**Break:** \[00:31:45.24\]
+**Break:** \[31:45\]
 
 **Jerod Santo:** So while we're talking about GitHub and their role in everything - since you left, GitHub Sponsors has rolled out. I'd love to get your take on the implementation, the details... Do you think it is serving the community well so far? It's still early days for GitHub Sponsors, but it's out of beta, and it's in many languages and countries now. Undoubtedly, it was being worked on while you were there maybe - I'm not sure about that, but what's your take on GitHub Sponsors and how it's helping/not helping the community?
 
@@ -280,7 +280,7 @@ So yeah, I do think we see this broad spectrum of different projects taking diff
 
 **Nadia Eghbal:** This is the last, last podcast. I'm never doing one again. \[laughter\]
 
-**Break:** \[00:52:32.25\]
+**Break:** \[52:32\]
 
 **Adam Stacoviak:** So you came on this show 2016, first ever podcast, went on to do Request For Commits, ended up at GitHub. You learned a lot there. Was your plan to go to GitHub part of the overall plan to research, or was it part of this bigger thing? I think the bigger question I'm asking you is more like "What are you optimizing for?" You've got this book you've written, maybe it's your Magnum Opus, I don't know... You're talking about this as your last podcast... What are you trying to do? What have you been trying to do, Nadia?
 

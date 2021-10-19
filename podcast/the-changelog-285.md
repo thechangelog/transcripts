@@ -4,7 +4,7 @@
 
 I think after one year of learning math with him - even sometimes I was not going to the French course or stuff like that, and I was going to his course of math instead of going to the other one. After one year, I think, he started teaching me about computer science.
 
-**Adam Stacoviak:** \[00:04:03.21\] So it began with math, a passion for math, a teacher who was willing to invest in you...
+**Adam Stacoviak:** \[04:03\] So it began with math, a passion for math, a teacher who was willing to invest in you...
 
 **Maxime Coutté:** Yes.
 
@@ -48,7 +48,7 @@ I think after one year of learning math with him - even sometimes I was not goin
 
 **Maxime Coutté:** Yeah, exactly. And me, Gabriel and Jonas -- that's funny, because Jonas was the Latin guy, because he was studying Latin, the French guy because he was better than everyone in French, the math guy because in his class he was the best in math... And basically the same for Gabriel. And by the way, the funny thing is that my middle school was a really little one, but that was the first time that I met them.
 
-**Jerod Santo:** \[00:08:13.19\] So basically your buddies are top of the class and interested in mathematics, and your teacher, Jerome (that's my anglicized way of saying it), which you call him 'sensei' - I can see why - he gets you guys going in math, and then he basically kind of tricks you into computer science, with spreadsheets, right? He basically shows you those spreadsheets...
+**Jerod Santo:** \[08:13\] So basically your buddies are top of the class and interested in mathematics, and your teacher, Jerome (that's my anglicized way of saying it), which you call him 'sensei' - I can see why - he gets you guys going in math, and then he basically kind of tricks you into computer science, with spreadsheets, right? He basically shows you those spreadsheets...
 
 **Maxime Coutté:** Yeah.
 
@@ -78,7 +78,7 @@ I think after one year of learning math with him - even sometimes I was not goin
 
 **Adam Stacoviak:** It's interesting, so you had some time to kind of get to know one another as friends, but then also as peers, in terms of your skillset around math and computer science and programming, and working with hardware and creating software; you've had some time to kind of experiment and get to know one another, and then eventually this VR thing came around. How far down the line is that? When did you start to experiment with what we're currently talking about, which is relative?
 
-**Maxime Coutté:** \[00:12:00.06\] It was approximately one year ago. To be exact, the story is that two years ago we started working for one of the biggest robotics contests in France, and we made this project which was kind of -- when I say that, people are like "Wow, this is crazy!", but it wasn't; it was just a really simple operating system that was connected to really basic hardware that you can use to control your house device.
+**Maxime Coutté:** \[12:00\] It was approximately one year ago. To be exact, the story is that two years ago we started working for one of the biggest robotics contests in France, and we made this project which was kind of -- when I say that, people are like "Wow, this is crazy!", but it wasn't; it was just a really simple operating system that was connected to really basic hardware that you can use to control your house device.
 
 For instance, it was like a little bus with pin for serial communication, and you can just plug servo motors and some solar panel, and use the servo motor to control the solar panel, and with the little operating system implement first some script to control the solar panel, or stuff like that. It was a little project, but it was really fun to make.
 
@@ -112,7 +112,7 @@ We decided that we will watch again Sword Art Online, which is one of my favorit
 
 **Adam Stacoviak:** Be curious.
 
-**Jerod Santo:** \[00:16:00.17\] Yes. But the hiccup here, with your idea of "Let's live in a VR world", Max, is you guys could not afford an Oculus, right? That's the punch line there.
+**Jerod Santo:** \[16:00\] Yes. But the hiccup here, with your idea of "Let's live in a VR world", Max, is you guys could not afford an Oculus, right? That's the punch line there.
 
 **Maxime Coutté:** Yeah, exactly. Because we just sit down and said, "Okay, so what we need to do is buy an Oculus, and learn Unity and start creating war games." But the first step was just impossible, and I remember I was like "Okay, so how can we find this money to buy an Oculus?" and Gabriel said "Well, maybe it will be easy to build the VR headset ourselves."
 
@@ -138,9 +138,9 @@ So we bought them and we started trying them and seeing, "Oh, okay, so this is h
 
 **Maxime Coutté:** Yeah. We said that, and he said "Okay, I will teach you about antiderivatives." So we started learning about antiderivatives, acceleration and proper acceleration, and then a bit about Quaternion... And we started going each time a little deeper about those concepts in math, and I think we spent like two months learning about this math concept, and dig into them, and do some exercise, and really just focus on the math side.
 
-\[00:20:15.29\] Then we said, "Okay, this is how it works, so now let's find some good open source library to do that", because it seems that it's something that has already been done a lot of times. We programmed in Python, we created some funny things with antiderivatives and stuff like that to have the position, and we even created some Quaternion to alert angles and a lot of funny algorithms. Then we started implementing this. That was the first part - implementing those algorithms, which was not as hard as learning the math concepts.
+\[20:15\] Then we said, "Okay, this is how it works, so now let's find some good open source library to do that", because it seems that it's something that has already been done a lot of times. We programmed in Python, we created some funny things with antiderivatives and stuff like that to have the position, and we even created some Quaternion to alert angles and a lot of funny algorithms. Then we started implementing this. That was the first part - implementing those algorithms, which was not as hard as learning the math concepts.
 
-**Break:** \[00:21:10.23\]
+**Break:** \[21:10\]
 
 **Jerod Santo:** So Max, the first step in building this thing was to figure out how to manage all the math required to detect location, and distance, the physics and all that... It's pretty cool your teacher was basically using this VR headset project as a laboratory to teach you all kinds of math concepts, even ones that I haven't heard of before, like Quaternion, which apparently he's an expert in... And I'm just now finding it on Wikipedia, saying "Hm, interesting..."
 
@@ -148,7 +148,7 @@ So we bought them and we started trying them and seeing, "Oh, okay, so this is h
 
 **Jerod Santo:** Right. So that's pretty cool. What was interesting to me about that was what you found out as you would go and learn the math, apply it to the code, is that that was actually easier to implement and to get done than you thought it was going to be... Which is always great, when the light bulb moments happen. Tell us the next step. Once you get past those difficult concepts, you have some things working in the code - where did you go from there to get to a finished product?
 
-**Maxime Coutté:** \[00:23:52.08\] Yeah, he taught us those math concepts in a way that was really useful; he gave a course, then we did some exercises to be sure that we really understood the concept, and then we tried to code everything that we think that we understand, just to be sure that we really master the concepts. We've done this with the first component, the first accelerometer, and after having played with it and implementing some little thing, we switched from a component that is the MPU, and that of DMP, that does all the calculation and send us the Quaternion.
+**Maxime Coutté:** \[23:52\] Yeah, he taught us those math concepts in a way that was really useful; he gave a course, then we did some exercises to be sure that we really understood the concept, and then we tried to code everything that we think that we understand, just to be sure that we really master the concepts. We've done this with the first component, the first accelerometer, and after having played with it and implementing some little thing, we switched from a component that is the MPU, and that of DMP, that does all the calculation and send us the Quaternion.
 
 To be honest, we could have directly buy this component and use it with some documentation, and build the headset without knowing anything about the math concepts behind it, but we felt like we need to understand the math black boxes inside of these components. And I really feel like it was necessary to understand this math; if you don't know about those math concepts you can build the headset, you can improve it, you can even do better than us, you can improve it in a way that we haven't thought about, but we learned those math concepts just because it was a pleasure.
 
@@ -160,7 +160,7 @@ Doing that, there is some drift happening because of all antiderivative works. T
 
 **Maxime Coutté:** Yeah, exactly.
 
-**Jerod Santo:** \[00:27:54.20\] Okay. So you learned all of the math to do that, and you understand how to calculate acceleration, but at the end of the day am I hearing you right, that this MPU is basically giving you those readings for free?
+**Jerod Santo:** \[27:54\] Okay. So you learned all of the math to do that, and you understand how to calculate acceleration, but at the end of the day am I hearing you right, that this MPU is basically giving you those readings for free?
 
 **Maxime Coutté:** Yeah, the MPU sends us the angle in Quaternion, and what we learned is how to do this. But the MPU already does this.
 
@@ -190,7 +190,7 @@ The other aspect for democratizing something is the content. For the mouse, it's
 
 **Jerod Santo:** So let's talk about what you've come up with, because the pitch and the description of the project is "Build your own VR headset for $100", which as we said before, an Oculus in U.S. dollars is about 750 at the time of recording... Let's talk about the individual components, because you do list them out, and we can add them up and we can see where the price all comes in. Because $100 is quite a lot cheaper than $750.
 
-**Maxime Coutté:** \[00:32:12.22\] Yeah.
+**Maxime Coutté:** \[32:12\] Yeah.
 
 **Jerod Santo:** What all do you need? What are the different parts and how much do they cost?
 
@@ -232,7 +232,7 @@ The other aspect for democratizing something is the content. For the mouse, it's
 
 **Adam Stacoviak:** Have you found a difference in like the resolution playing a part in the quality of the experience? Like, is the less than a 2k, or even a 4k screen - does it make a difference since your eyes are so close to the screen?
 
-**Maxime Coutté:** \[00:35:57.23\] I haven't tested a 4k screen, but the comparison between full HD and 2k, I think - and this is why I recommend this screen - that a 2k screen... I'm sorry, I'm searching the American expression for it; like, when something has the right price.
+**Maxime Coutté:** \[35:57\] I haven't tested a 4k screen, but the comparison between full HD and 2k, I think - and this is why I recommend this screen - that a 2k screen... I'm sorry, I'm searching the American expression for it; like, when something has the right price.
 
 **Adam Stacoviak:** Oh, it's... What is that word? It's affordable.
 
@@ -270,7 +270,7 @@ The other aspect for democratizing something is the content. For the mouse, it's
 
 **Maxime Coutté:** Yeah, actually we will release soon a big update to Relative and the core of Relative, but the current version came with FastVR, which is an SDK for Unity that helps you create VR games really easily, and the SDK is really easy to understand and to customize.
 
-\[00:40:09.28\] I'm not sure that it will increase the number of VR games, but truly hope that some developers will be interested in the fact that this SDK is fully open source, and it will somehow help to create VR content. But actually, the most interesting thing about Relative is that it's compatible with Relative games, and soon we will release the update that will make Relative fully compatible with SteamVR What it means is that you will be able to play some Oculus or HTC games with it.
+\[40:09\] I'm not sure that it will increase the number of VR games, but truly hope that some developers will be interested in the fact that this SDK is fully open source, and it will somehow help to create VR content. But actually, the most interesting thing about Relative is that it's compatible with Relative games, and soon we will release the update that will make Relative fully compatible with SteamVR What it means is that you will be able to play some Oculus or HTC games with it.
 
 **Jerod Santo:** Awesome.
 
@@ -292,7 +292,7 @@ The other aspect for democratizing something is the content. For the mouse, it's
 
 **Maxime Coutté:** In fact, thanks to the fellowship, because they help a lot... What we do is there is a very cool project, OSVR, that is an open SDK for VR headsets. OSVR can be connected to SteamVR thanks to some plugin, and we just found a way to connect Relative to OSVR. And by connecting Relative to OSVR and connecting OSVR to SteamVR, it works.
 
-**Break:** \[00:42:50.23\]
+**Break:** \[42:50\]
 
 **Adam Stacoviak:** The reason why we're having this conversation, Max, is because 1) it's a cool subject, and your story is super cool, but on the flipside, you've open-sourced everything, and through this journey you got to level up your math skills, make some new friends, play with some cool new tech - potentially even say it's a bleeding edge tech - and in a lot of ways innovate, but then you've also gotten to meet people from the Oculus team, and I believe it was -- Atman is how you say his name? From the Oculus team?
 
@@ -332,7 +332,7 @@ Then Oussama Ammar arrived, and he saw me and he said "Hey, are you the high sch
 
 **Adam Stacoviak:** Wow...
 
-**Jerod Santo:** \[00:48:08.14\] That's so cool.
+**Jerod Santo:** \[48:08\] That's so cool.
 
 **Maxime Coutté:** We just sat and I told him the full story about sensei and my friends, and he listened really carefully to the story, and he told me "Listen, Max. I know it can seem to be a good idea to start a company, but I've done the same when I was 16, and it was not a good idea to start a company at this age. I really want to help you, but I don't think it's a good idea to set up a company. But what we can do is I can bring you to Silicon Valley and I can introduce you to some people that will give you good advice about what to do with this technology." I was like, "Oh, awesome. Yes."
 
@@ -348,7 +348,7 @@ My mother was like, "Who is this guy?" So my mother met him, and all my brothers
 
 **Maxime Coutté:** Yeah.
 
-**Adam Stacoviak:** \[00:51:54.05\] Right - if it's not Oculus... Obviously they've got many engineers behind that, maybe several senseis, you know? So they've got something up on you, obviously, but that doesn't mean it's not valuable; that doesn't mean what you did isn't worth something to the world.
+**Adam Stacoviak:** \[51:54\] Right - if it's not Oculus... Obviously they've got many engineers behind that, maybe several senseis, you know? So they've got something up on you, obviously, but that doesn't mean it's not valuable; that doesn't mean what you did isn't worth something to the world.
 
 **Maxime Coutté:** Yeah.
 
@@ -398,7 +398,7 @@ My mother was like, "Who is this guy?" So my mother met him, and all my brothers
 
 **Maxime Coutté:** That would be awesome.
 
-**Jerod Santo:** \[00:56:00.02\] It sounds like an awesome scenario. And secondly, I wanna point out what you say in the section about open-sourcing, just to get back to the story with Atman Binstock giving you the advice, and this whirlwind tour of rubbing shoulders with bigwigs... You decided to open-source it, and what you say - and I think we've all had this feeling, when we go to open-source something - is that you deleted all the code and you started rewriting it from scratch, when you decided... Tell us about that.
+**Jerod Santo:** \[56:00\] It sounds like an awesome scenario. And secondly, I wanna point out what you say in the section about open-sourcing, just to get back to the story with Atman Binstock giving you the advice, and this whirlwind tour of rubbing shoulders with bigwigs... You decided to open-source it, and what you say - and I think we've all had this feeling, when we go to open-source something - is that you deleted all the code and you started rewriting it from scratch, when you decided... Tell us about that.
 
 **Maxime Coutté:** \[laughs\] Yeah, I remember... It was on an Uber with Oussama Ammar in San Francisco, and I said, "You know what, Oussama? I will open-source everything", and he said, "Cool. What is the first step?" "Deleting all the code." \[laughter\] And he was like, "What?! What are you doing?" and I was like, "Yeah, there are some mistakes in the code, and it will be easier if I delete it."
 

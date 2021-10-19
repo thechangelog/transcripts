@@ -18,7 +18,7 @@ We've talked about these in earlier episodes, with sort of "shoulding" on yourse
 
 **Adam Stacoviak:** Aces of spades maybe...
 
-**Mireille Reece, PsyD:** \[00:04:15.15\] \[laughs\] Right? No, ACEs as an acronym.
+**Mireille Reece, PsyD:** \[04:15\] \[laughs\] Right? No, ACEs as an acronym.
 
 **Adam Stacoviak:** Nope.
 
@@ -46,7 +46,7 @@ We've talked about these in earlier episodes, with sort of "shoulding" on yourse
 
 **Adam Stacoviak:** Yeah.
 
-**Mireille Reece, PsyD:** \[00:07:52.04\] Substance abuse... If somebody else in the home was abusing substances... And then I don't know how much people think about this, but growing up, if you're a child and one of your primary caregivers has a mental health illness, like depression, wherein they really struggle to do the sort of fundamental activities of daily living - that would have an influence or an impact on someone else... And part of that really has to do with not having the buffer. If somebody is not doing well themselves and trying to manage their own mental illness, they just have less, fundamentally, to give and to assist with helping another little person with their own mind. And like we've talked about, one of the most significant things in development is relationship, right?
+**Mireille Reece, PsyD:** \[07:52\] Substance abuse... If somebody else in the home was abusing substances... And then I don't know how much people think about this, but growing up, if you're a child and one of your primary caregivers has a mental health illness, like depression, wherein they really struggle to do the sort of fundamental activities of daily living - that would have an influence or an impact on someone else... And part of that really has to do with not having the buffer. If somebody is not doing well themselves and trying to manage their own mental illness, they just have less, fundamentally, to give and to assist with helping another little person with their own mind. And like we've talked about, one of the most significant things in development is relationship, right?
 
 **Adam Stacoviak:** Yeah. Well, it's like a recipe missing an ingredient.
 
@@ -66,7 +66,7 @@ We've talked about these in earlier episodes, with sort of "shoulding" on yourse
 
 **Adam Stacoviak:** Is that similar to kids not having guard rails in terms of discipline or things like that, where you'll see -- for example, an organization like YoungLife might reach out to kids who have not so much non-caring parents, but they're just different, I suppose, and they have less rigidity, less curfew, less strictness in their life... And these are teens, 14 through 17, somewhere in that age range - just using this as an example - where they have no guard rails, and so they're a lot different than their peers because they don't have anybody putting a shape around them.
 
-**Mireille Reece, PsyD:** \[00:11:47.10\] Yeah. One of the other things is just relative to habits. If I've practiced a way of relating to myself, or this is what I learned, this is the way to grandma's house we go, as a child we don't tend to be as self-reflective, generally speaking...
+**Mireille Reece, PsyD:** \[11:47\] Yeah. One of the other things is just relative to habits. If I've practiced a way of relating to myself, or this is what I learned, this is the way to grandma's house we go, as a child we don't tend to be as self-reflective, generally speaking...
 
 **Adam Stacoviak:** No. Not at all. We're in the moment.
 
@@ -98,7 +98,7 @@ We've talked about these in earlier episodes, with sort of "shoulding" on yourse
 
 **Adam Stacoviak:** Yes... Yes. \[laughter\]
 
-**Mireille Reece, PsyD:** \[00:16:00.15\] It could be the thought that triggered a feeling, and this is why, again, there's so much hope for change, and thinking and feeling differently, because I can recognize "Oh, here's a pattern. When situation A occurs, I respond with B." Or "Wow, I tend to feel like B, and then I think A."
+**Mireille Reece, PsyD:** \[16:00\] It could be the thought that triggered a feeling, and this is why, again, there's so much hope for change, and thinking and feeling differently, because I can recognize "Oh, here's a pattern. When situation A occurs, I respond with B." Or "Wow, I tend to feel like B, and then I think A."
 
 **Adam Stacoviak:** So as we describe a few of these, or link to the list, if you identify them, thinking this way - well, what was the emotion or the cognition that sort of was a cause and effect of this distortion... Is that what you're saying?
 
@@ -132,7 +132,7 @@ We've talked about these in earlier episodes, with sort of "shoulding" on yourse
 
 **Mireille Reece, PsyD:** Well, let me go back and give you some other examples, so people have a little broader framework, too. What about "I feel overwhelmed and hopeless, therefore my problems must be impossible." So I'm using an emotion to make an inference. "I feel inadequate, therefore I must be worthless." So in some ways it's an emotion, and I'm making a generalization that isn't wholly accurate.
 
-**Adam Stacoviak:** \[00:20:23.02\] You're magnifying it even. So this one small area I'm not good at, so therefore my whole entire life is a disaster; my whole entire -- who I am is terrible at the core.
+**Adam Stacoviak:** \[20:23\] You're magnifying it even. So this one small area I'm not good at, so therefore my whole entire life is a disaster; my whole entire -- who I am is terrible at the core.
 
 **Mireille Reece, PsyD:** Right. Or I could say "Gosh, I just feel so fat", even though my doctor says "You're fine. Your weight is within the normal range." No matter the evidence, you're convinced you must be dumb or stupid, even though work reports, grades, you've got a degree or a few degrees... This would be like I'm using my emotions as the foundation for which I stand on.
 
@@ -164,7 +164,7 @@ We've talked about these in earlier episodes, with sort of "shoulding" on yourse
 
 **Mireille Reece, PsyD:** Yeah. So when I say "Get more data", it's like, build the broader scene; help yourself see other facets to what you're going through, what could be contributing to your feeling, or the way in which you're thinking. I feel guilty every time I don't meet my boss's expectations. Okay... Has your boss made it exactly clear, like "This is when X, Y or Z needs to be submitted"?
 
-\[00:24:06.22\] We've talked about this in the work from home episode, relative to not getting feedback when you're working from home, because nobody can see you... And going "How do I manage those thoughts?", like "Oh, man, I must not be doing enough. I'm not producing, I don't think I'm very valuable to my workplace, because I'm just not producing."
+\[24:06\] We've talked about this in the work from home episode, relative to not getting feedback when you're working from home, because nobody can see you... And going "How do I manage those thoughts?", like "Oh, man, I must not be doing enough. I'm not producing, I don't think I'm very valuable to my workplace, because I'm just not producing."
 
 **Adam Stacoviak:** Yeah.
 
@@ -196,7 +196,7 @@ We've talked about these in earlier episodes, with sort of "shoulding" on yourse
 
 **Adam Stacoviak:** Yeah. I think of it like "This might happen to everyone. Or has happened to someone at least once. Is feeling somebody's worthless?" So not that this is truth, but maybe you're just not fully aware. I think of clerks; convenience store clerks, grocery store clerks... People that are just part of your passer-by scenarios in life. Just checking out, human involved, not really checking in with them as a human; they're just sort of there. Not that they're worthless, but you don't say hello to them, maybe you don't say hi by the first name...
 
-\[00:28:16.14\] I made it a point to specifically look at their name tag and say "Hey Suzy", "Hey Ben", whatever that person's name was, and connect, and not emotionally tag them as worthless or meaningless in my day-to-day interactions. So I'm not saying those people are, I'm just saying that's a scenario too where you'll just do life, and you'll treat somebody like they're worthless or meaningless because someone in your brain you've mentally applied a label that says "Meaningless. Worthless", whatever.
+\[28:16\] I made it a point to specifically look at their name tag and say "Hey Suzy", "Hey Ben", whatever that person's name was, and connect, and not emotionally tag them as worthless or meaningless in my day-to-day interactions. So I'm not saying those people are, I'm just saying that's a scenario too where you'll just do life, and you'll treat somebody like they're worthless or meaningless because someone in your brain you've mentally applied a label that says "Meaningless. Worthless", whatever.
 
 **Mireille Reece, PsyD:** Right. It's really this extreme form of an over-generalization. It involves describing an event with language that's highly colored and emotionally loaded.
 
@@ -226,7 +226,7 @@ An example would be you hand in your portion of the project late, and say it was
 
 **Adam Stacoviak:** Own it.
 
-**Mireille Reece, PsyD:** \[00:31:52.24\] Yeah, yeah. You know, I'm not in charge of anybody else, and so even if -- or I like to use the word "while". While other people make other choices, you didn't. Now what are you gonna choose?
+**Mireille Reece, PsyD:** \[31:52\] Yeah, yeah. You know, I'm not in charge of anybody else, and so even if -- or I like to use the word "while". While other people make other choices, you didn't. Now what are you gonna choose?
 
 **Adam Stacoviak:** Right, right. That's why I think especially in teams in particular, having a foundation of love and respect is so crucial... Because you wouldn't -- I don't know if \[unintelligible 00:32:17.18\] But you may not make this choice if there's a foundation of love and respect. So if this were a real example, to examine further, that's where I would look - whether the strength of love and respect... And what I mean by that is not so much like literal love and affection love, but more like "Do you have care and concern for your teammates?" and if so, respect flows because of that. You respect your teammates, you respect and care for them, and so therefore you wouldn't label them as the reason for your mistake. It's foundational in other ways, and that might be part of the examination and the data gathering portion of this.
 
@@ -252,7 +252,7 @@ An example would be you hand in your portion of the project late, and say it was
 
 **Mireille Reece, PsyD:** I say "Do it like Dory!"
 
-**Adam Stacoviak:** \[00:36:02.17\] "Do it like Dory"? Do you say that?
+**Adam Stacoviak:** \[36:02\] "Do it like Dory"? Do you say that?
 
 **Mireille Reece, PsyD:** Yeah!
 
@@ -310,7 +310,7 @@ I want people to understand the actual positive emotions that can come, and the 
 
 I guess on the outside my first thought would be to accept people as they are, and to operate around who they are, rather than attempt and try and change them. That my future version of happiness with them isn't based upon change, it's based upon adaptation.
 
-**Mireille Reece, PsyD:** \[00:40:14.08\] Yeah. Well, I talk about it relative to like "Well, that would be ideal... Awesome."
+**Mireille Reece, PsyD:** \[40:14\] Yeah. Well, I talk about it relative to like "Well, that would be ideal... Awesome."
 
 **Adam Stacoviak:** Right. It sounds easy. Done. Check.
 
@@ -348,7 +348,7 @@ I guess on the outside my first thought would be to accept people as they are, a
 
 **Mireille Reece, PsyD:** We all be people. We all be people.
 
-**Adam Stacoviak:** \[00:44:02.03\] True that.
+**Adam Stacoviak:** \[44:02\] True that.
 
 **Mireille Reece, PsyD:** \[laughs\] Right? How's that for educated?
 

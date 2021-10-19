@@ -18,7 +18,7 @@ The third way I'm adding right now, because let's face it, word of mouth is real
 
 This goes on for the entire month of April. If you're listening live, that means you've got a couple weeks. If you're listening produced, that means time's about running out, so go ahead and get those entries in, and we are excited to give away that ticket. Thanks to our friends at NodeConf Colombia. We're very much looking forward to that show.
 
-\[00:04:05.14\] Okay, with that out of the way, let's get to know our new panelists a little bit. Emma, we just had you on the Changelog; it actually went live, published a few minutes ago, so a bunch of our listeners will get to know you... So let's start with you Divya. First of all, we're very excited to have you here, thanks for joining us. Tell us a little bit about yourself and what you're up to in the JS/Web world.
+\[04:05\] Okay, with that out of the way, let's get to know our new panelists a little bit. Emma, we just had you on the Changelog; it actually went live, published a few minutes ago, so a bunch of our listeners will get to know you... So let's start with you Divya. First of all, we're very excited to have you here, thanks for joining us. Tell us a little bit about yourself and what you're up to in the JS/Web world.
 
 **Divya Sasidharan:** I'm Divya, as Jerod mentioned, and I am currently a developer advocate at Netlify. Netlify is a cool product; if you haven't used it, you should check it out. Essentially, what I do is I travel a lot, go to conferences, talk about Netlify... Mostly about Vue, actually; and Kball knows this, because I've gone to multiple conferences and I've chatted people's ear off about Vue, because I really like the framework.
 
@@ -46,7 +46,7 @@ I also found that just like chatting with people on the core team was very easy.
 
 **Divya Sasidharan:** Nice!
 
-**Emma Wedekind:** \[00:07:57.07\] It's super-cool that you get to work on it, because I'm thrilled with the whole experience there. So yeah, I work at LogMeIn, currently. I'm a UX designer -- UX designer... Oh my gosh, it's late at night now... I'm a UX engineer, which essentially is a hybrid software engineer, and I have some skillset in the UX world, or in the visual design world... But my primary function is software engineering on the front-end side. I also kind of created this little open source project called Coding Coach, where we are really trying to connect mentors and mentees globally, and do it for free, so feel free to check that out as well. And... What else am I doing? I'm doing lots of miscellaneous things, but in my spare time I am a proud cat mother, which you would know -- if you follow me on Twitter, I only tweet about cats, and other things... And yeah, feel free to listen to my other podcast; I don't want to hijack this episode. It's really nice to be back, and I'm looking forward to chat with you both.
+**Emma Wedekind:** \[07:57\] It's super-cool that you get to work on it, because I'm thrilled with the whole experience there. So yeah, I work at LogMeIn, currently. I'm a UX designer -- UX designer... Oh my gosh, it's late at night now... I'm a UX engineer, which essentially is a hybrid software engineer, and I have some skillset in the UX world, or in the visual design world... But my primary function is software engineering on the front-end side. I also kind of created this little open source project called Coding Coach, where we are really trying to connect mentors and mentees globally, and do it for free, so feel free to check that out as well. And... What else am I doing? I'm doing lots of miscellaneous things, but in my spare time I am a proud cat mother, which you would know -- if you follow me on Twitter, I only tweet about cats, and other things... And yeah, feel free to listen to my other podcast; I don't want to hijack this episode. It's really nice to be back, and I'm looking forward to chat with you both.
 
 **Jerod Santo:** Well, one thing we didn't talk about on the Changelog was your cat motherhood, so maybe expand on that... \[laughter\] Have you got a lot of cats?
 
@@ -62,7 +62,7 @@ It gets me thinking a little bit -- I'm gonna throw a curveball at y'all, becaus
 
 **Jerod Santo:** Very good. Divya, how about yourself?
 
-**Divya Sasidharan:** \[00:12:07.23\] I feel like mine is not as profound... \[laughter\] Because mine is mainly -- I think the ability to remove pop-ups from the web inspector... \[laughter\]
+**Divya Sasidharan:** \[12:07\] I feel like mine is not as profound... \[laughter\] Because mine is mainly -- I think the ability to remove pop-ups from the web inspector... \[laughter\]
 
 **Jerod Santo:** Oh, yes!
 
@@ -90,7 +90,7 @@ And this is unrelated, but related, because my grandfather had -- do you know th
 
 **Divya Sasidharan:** Yeah, I think also just going back to your question, just the -- I mean, I don't know if this is unique to software, but as someone who's only done this, it's just the ability to problem-solve that I find has been applicable to so many different areas of my life... This example of looking at gadgets, just the step-by-step process of debugging can be applied to real-world problems.
 
-\[00:15:47.23\] I've noticed -- I'm gonna use my family as an example, but as the one software engineer, I've found that this is a unique thing that I have... And I'm not sure if it's because of the trade or field that I'm in, or if it's unique to being a software developer, but I've found just the ability to -- like, the fact that I'm used to debugging, and being frustrated about not knowing something, and having to go through and churn to figure out the proper solution... Yeah, I think the tenacity and determination - if anything, that's what software taught me a little.
+\[15:47\] I've noticed -- I'm gonna use my family as an example, but as the one software engineer, I've found that this is a unique thing that I have... And I'm not sure if it's because of the trade or field that I'm in, or if it's unique to being a software developer, but I've found just the ability to -- like, the fact that I'm used to debugging, and being frustrated about not knowing something, and having to go through and churn to figure out the proper solution... Yeah, I think the tenacity and determination - if anything, that's what software taught me a little.
 
 **Emma Wedekind:** That reminds me... I was getting ready the other morning, and I was like "How can I optimize my morning routine, so that I reduce the runtime of this..." and I'm like, "Oh, gosh...", I've reached max nerdy at that point.
 
@@ -116,7 +116,7 @@ And this is unrelated, but related, because my grandfather had -- do you know th
 
 **Emma Wedekind:** Oh, yeah. It did.
 
-**Break:** \[00:18:46.12\]
+**Break:** \[18:46\]
 
 **Jerod Santo:** Alright, for the rest of the show we thought it would be fun to talk about whatever it is that Divya and Emma would like to talk about, kind of as our guests of honor, our new panelists... Just open up the conversation about things that you find interesting, or important, or just are at the top of mind, and go from there. We're gonna start with Divya... What would you like to talk about today?
 
@@ -132,7 +132,7 @@ This is a segue, but for me it's really important to have a balance, because it 
 
 One of our old sayings is "We face our impostor syndrome, so you don't have to", because lots of times we're talking to people about the new hotness, and we don't feel like we know anything about it." So at the end of the day we do have to pick and choose, because there's so much out there now; there's so much open source, there's so many different areas of interest in programming and software development that you have to pick your battles, and you have to decide "Is this a fad, or is this gonna stick around? Is this a paradigm shift, or just a fad?"
 
-\[00:23:51.09\] Lots of times procrastination can help you out there, which is one of my greatest skills - putting things off. Because the thing about a fad is it stands for "For a Day", so fads come and go... And so sometimes the longevity and the perseverance of a particular idea or technology will eventually convince you that "Okay, this is not going away. This is worth me investing my time in."
+\[23:51\] Lots of times procrastination can help you out there, which is one of my greatest skills - putting things off. Because the thing about a fad is it stands for "For a Day", so fads come and go... And so sometimes the longevity and the perseverance of a particular idea or technology will eventually convince you that "Okay, this is not going away. This is worth me investing my time in."
 
 Besides that, the advice that I try to take is find a community of people that you respect in the space, that are tracking it either closer than you are, or maybe are a little slightly more bleeding edge than you are in any particular area, and then follow their lead. Don't feel like you have to forge all paths; you can find people who are good at a certain thing, and say "Well, I'm gonna follow this person because I trust their opinion."
 
@@ -148,7 +148,7 @@ So in terms of picking new things to learn, I struggle with this a lot, because 
 
 There are times where I feel like I should know something... A couple of years ago I was like "I should learn GraphQL", and then I kept trying to learn it... And just the schemas, the queries, mutations, all of that - I kept being like "This is weird..." And it is, because it's a huge shift from traditional REST API. So yeah, I wasn't in the proper mindset for learning, so I learned nothing. \[laughter\] And also, I think it's general excitement. If I'm invested in the technology, or if I feel like the reason for me to learn it is valid, then I'll learn it.
 
-\[00:27:53.14\] For example, I really like working on my own with WebGL, just for fun, just because I think it's weird and interesting... And it's difficult, because graphics on the web is hard. But at the same time I think I was really keen on learning it, just because I found so many use cases where I was like "Oh, there's maps, and there's data visualization, and there's animation." There's so many different use cases... And because I saw a direct application, I felt more compelled to learn that thing. So I picked up shaders, which is really hard, but for some reason my ability to see how I applied it allowed me to learn it quickly.
+\[27:53\] For example, I really like working on my own with WebGL, just for fun, just because I think it's weird and interesting... And it's difficult, because graphics on the web is hard. But at the same time I think I was really keen on learning it, just because I found so many use cases where I was like "Oh, there's maps, and there's data visualization, and there's animation." There's so many different use cases... And because I saw a direct application, I felt more compelled to learn that thing. So I picked up shaders, which is really hard, but for some reason my ability to see how I applied it allowed me to learn it quickly.
 
 This is my general approach to learning as well, which is I'm very much a practical application type person, which is why I didn't do a traditional computer science degree; it didn't make sense for me, because I can't just sit in a class and be told "This is data structures" without knowing why I'm learning it. So I think for me, my learning is the reverse, where I see an actual application and then I learn the actual theory behind it, and dig deeper as I go. But again, it's all tied, like I'm always saying, to my general interest and whether I care.
 
@@ -166,7 +166,7 @@ Also, just general comfort... Because I try to balance productivity; so if I try
 
 **Jerod Santo:** Pretty much anybody who knows Nick has had "the talk"... I'm just kidding, Nick. Okay, similar topic, a little bit shifting gears - I wanna pitch this back to you; this came up in chat... When we talk about learning, investing in ourselves and our knowledge, and learning new technologies, the other side of that coin is the balance that you talked about, Divya, the life balance. That's why so many of these new job requirements in the software ecosystem aren't really the best, because they require a certain amount of privilege or availability that some people lack because of their life circumstances, such as "You must be doing open source in your free time", "You have to have a good portfolio of side projects", "If you don't code after work, then you don't care about software..." Well, how do you balance the two? On one side you wanna learn and invest and advance, both in your personal career as well as the community and really the ecosystem of software that we work in; on the other side, we have lives. How do you maintain that balance?
 
-**Divya Sasidharan:** \[00:32:23.05\] For me, I time-box myself. I work remotely. Netlify is based in San Francisco, so that's Pacific Time, and I'm on Eastern Time in Boston... And for me it's really important to time-box; to be like "I'm gonna be working from these hours", and then not answer messages or do any work outside of those hours... Just because I think if you work remotely, it's really easy for work to bleed into your life. And especially if I'm working with such a -- it's three hours of a time difference; I'm sure Emma's time difference is crazier... But yeah, it's really easy for you to do work while you're having dinner, and not being engaged with or investing in your social life... Which honestly - I've mentioned this earlier, but it drives me insane if I don't have that balance. Like Emma was mentioning, I burn out as well.
+**Divya Sasidharan:** \[32:23\] For me, I time-box myself. I work remotely. Netlify is based in San Francisco, so that's Pacific Time, and I'm on Eastern Time in Boston... And for me it's really important to time-box; to be like "I'm gonna be working from these hours", and then not answer messages or do any work outside of those hours... Just because I think if you work remotely, it's really easy for work to bleed into your life. And especially if I'm working with such a -- it's three hours of a time difference; I'm sure Emma's time difference is crazier... But yeah, it's really easy for you to do work while you're having dinner, and not being engaged with or investing in your social life... Which honestly - I've mentioned this earlier, but it drives me insane if I don't have that balance. Like Emma was mentioning, I burn out as well.
 
 I take the time, similar to the procrastinating intentionally thing - I need the time out from work to be refreshed, to come back and be effective as a developer. Sometimes that means not doing development things and doing other things, hanging out with friends, or just anything.
 
@@ -178,7 +178,7 @@ In terms of work though - I also work with people on the West Coast, so it's lik
 
 I had this great conversation with my boss the other day about quality over quantity. It used to be that people were signing in with timestamps, and you were literally signing in and signing out to track your hours; but now that people are gravitating towards these salary jobs, or they're becoming more prominent, my mentality is "You're not paying me for 40 hours of work necessarily, you're paying me to get my stuff done and to do well... And if that takes me 32 or 35 hours, I'll use the remaining time to develop my skills." So for me it's about quality over quantity.
 
-**Break:** \[00:35:57.17\]
+**Break:** \[35:57\]
 
 **Jerod Santo:** And we're back from a break... And I don't normally even reference the breaks, but I will say another pitch for the live show - we just had a great conversation during the break. Y'all missed it; no big deal. This is the official show, but the live show is fun; we have lots of fun in-between times. But here we are back on the official party, and we're gonna talk about what Emma wants to talk about... So Emma, pitching over you... Your choice - what are we gonna talk about next?
 
@@ -194,7 +194,7 @@ So instead of focusing on those tangible checkbox things you can check off, focu
 
 The second thing that was so profound to me was this idea of habits. We all know habits are the things that allow us to become more disciplined, or potentially reach our goals, or define our systems... But he talked about changing your habits; this is very hard to do, but the deepest way to change your habits is to change your identity, in a sense, or change the way that you interact with the world.
 
-\[00:40:06.17\] He gave this example about smokers, someone who's trying to quit smoking. The first person is offered a cigarette, and they say "No, thanks. I'm trying to quit." The second person is offered a cigarette and says "Thanks, I'm not a smoker." That blew my mind, because it's like "Oh my gosh, it's a mindset shift." When you're struggling to learn a concept, instead of saying "Oh, I'm learning JavaScript" or "I'm learning how to code", change your identity and say "I'm a programmer. I'm a JavaScript engineer." It'll change the way that you learn.
+\[40:06\] He gave this example about smokers, someone who's trying to quit smoking. The first person is offered a cigarette, and they say "No, thanks. I'm trying to quit." The second person is offered a cigarette and says "Thanks, I'm not a smoker." That blew my mind, because it's like "Oh my gosh, it's a mindset shift." When you're struggling to learn a concept, instead of saying "Oh, I'm learning JavaScript" or "I'm learning how to code", change your identity and say "I'm a programmer. I'm a JavaScript engineer." It'll change the way that you learn.
 
 **Jerod Santo:** I like that idea. I'm gonna give that a try. I have to think of a context in which I can try that out, and then report back on how it worked.
 
@@ -208,7 +208,7 @@ The second thing that was so profound to me was this idea of habits. We all know
 
 **Divya Sasidharan:** That's a great point... I think this is for everyone - every year, at the beginning of the year, everyone is like "I want to do these things." Then you never really achieve them. I've been doing similar, and reading about how exactly to be motivated, how to change habits and so on, and a lot of it has to do with your reasoning behind it... Because I think on the subconscious level if you don't care, you will convince yourself and find excuses to not do the thing. But if you really nail down the core reason to why you wanna do something, and then that becomes your core belief, of like "This is something I really want", then that's already most of the motivation for you to do something.
 
-**Emma Wedekind:** \[00:44:24.06\] I think too, going back to this discussion about what it means to be great, I think the book is called The Outliers, and they discuss the fact that these people who are typically deemed great - there's a plethora of failures, what we would say are "failures". Not necessarily bad things, but they're learning experiences and they teach you how to find the right trajectory... But we only see the 1% or 2% of things that become notable in the world. So if you're struggling to learn programming, or you're having this impostor syndrome, everyone that you look up to in industry, in the world, in history, have gone through these trial and error type of things, and they've come out the other end, and there's no reason you can't do that as well.
+**Emma Wedekind:** \[44:24\] I think too, going back to this discussion about what it means to be great, I think the book is called The Outliers, and they discuss the fact that these people who are typically deemed great - there's a plethora of failures, what we would say are "failures". Not necessarily bad things, but they're learning experiences and they teach you how to find the right trajectory... But we only see the 1% or 2% of things that become notable in the world. So if you're struggling to learn programming, or you're having this impostor syndrome, everyone that you look up to in industry, in the world, in history, have gone through these trial and error type of things, and they've come out the other end, and there's no reason you can't do that as well.
 
 **Divya Sasidharan:** That's the one where he talks about the 10,000 rule, or something...?
 
@@ -242,7 +242,7 @@ The second thing that was so profound to me was this idea of habits. We all know
 
 **Jerod Santo:** Well, let me tell you about this new thing that I've recently found... And I should preface this and say "These folks are not a sponsor." This is gonna sound a lot like a sponsor read, but it's not. This is me actually just gushing, to a certain degree. I want them as sponsors, because I've been using their service for only a couple weeks now, but I'm very much in love... And it is Blinkist.
 
-\[00:47:59.03\] Blinkist is a service for people like myself who would love to read lots of books, and gets recommended lots of books, but going back to that life balance - I actually don't have the time to read the books; and I'm not going to make the time, I just know myself. I'm settled. I know I'm not going to read them, so this is a great service for books that you would like to read, but you just know deep down you're never actually gonna get around to it.
+\[47:59\] Blinkist is a service for people like myself who would love to read lots of books, and gets recommended lots of books, but going back to that life balance - I actually don't have the time to read the books; and I'm not going to make the time, I just know myself. I'm settled. I know I'm not going to read them, so this is a great service for books that you would like to read, but you just know deep down you're never actually gonna get around to it.
 
 It is an app and a website, it's a commercial service, where they will read the books for you and break down the books for you into summarized chunks. Now, I know for some book lovers this is like anathema. But especially for non-fiction, especially for business books and for self-help style books, where let's face it, a lot of these books have like one, maybe tops five good ideas in the book, and the rest is -- they had to meet their page minimum, kind of stuff or stories... And that's all well and good, but... Takeaways. You can usually summarize a takeaway of a good business book with like "Here are three things that will change your business or your life" but you didn't actually have to read the rest.
 
@@ -286,7 +286,7 @@ It's spectacular if you're a busy person like myself, and specifically for self-
 
 **Emma Wedekind:** Is that like recursive book writing...?
 
-**Divya Sasidharan:** \[00:52:09.02\] Yeah, it's kind of strange...
+**Divya Sasidharan:** \[52:09\] Yeah, it's kind of strange...
 
 **Jerod Santo:** Did you actually read it, or are you just telling us here...?
 
@@ -336,7 +336,7 @@ The second one, which is a classic, and this is the one that admittedly -- I'm a
 
 **Jerod Santo:** You bet.
 
-**Emma Wedekind:** \[00:55:50.12\] I wanna give a massive shout-out to Kyle Simpson for his "You don't know JavaScript" series. He's known as @getify on Twitter, and he is one of the most prolific teachers I've found. He also has courses on Frontend Masters, so if you don't enjoy reading, he does the same content on that platform. All of his books are for free, which is incredible; if you can afford to donate to him, please do, because all his content is incredible. He explains JavaScript in depth, using analogies that resonate... And it wasn't until he explained closures that I understood it. So his "You don't know JavaScript" is incredible.
+**Emma Wedekind:** \[55:50\] I wanna give a massive shout-out to Kyle Simpson for his "You don't know JavaScript" series. He's known as @getify on Twitter, and he is one of the most prolific teachers I've found. He also has courses on Frontend Masters, so if you don't enjoy reading, he does the same content on that platform. All of his books are for free, which is incredible; if you can afford to donate to him, please do, because all his content is incredible. He explains JavaScript in depth, using analogies that resonate... And it wasn't until he explained closures that I understood it. So his "You don't know JavaScript" is incredible.
 
 There's also two more I want to recommend. One is "Professional JavaScript for web developers." This one's quite a big book, and I pieced through it and I really enjoyed it... And the second one is more for beginners, I would say; it's called "JavaScript and jQuery." I only read the JavaScript portions of it, but they have an HTML and CSS one as well, and they use the most beautiful images and graphics to explain concepts like CSS selectors, and whatnot.
 

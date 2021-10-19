@@ -144,7 +144,7 @@ It's such a shame, because it's such an interesting field, with so many really i
 
 **Shubheksha Jalan:** Yeah. That's the plus side.
 
-**Break:** \[00:26:29.05\]
+**Break:** \[26:29\]
 
 **Mat Ryer:** I'm interested in Go's relationship in this world... Because I remember from the very first GopherCon - I remember that was the time when I started getting exposed to a lot more talks and ideas and things from this world. Docker obviously is a big, famous Go project... So I think Docker gave Go quite a lot of credibility in those early days, because we think of this world as very grown-up; this might be linked to what we were talking about, why it's difficult for juniors... But I certainly have this idea that infrastructure is very grown-up, it's very serious. Maybe you can't be as creative as you can - another perception I had, that it's not so creative, it's just very serious; it takes very grown-up attitudes and a very grown-up approach to it.
 
@@ -240,11 +240,11 @@ So yeah, there's always that, and I think the other danger is that it sort of se
 
 **Mat Ryer:** Brilliant.
 
-**Break:** \[00:46:57.08\]
+**Break:** \[46:57\]
 
 **Mat Ryer:** Well, it's that time again... It's time for our Unpopular Opinions!
 
-**Jingle:** \[00:48:14.13\]
+**Jingle:** \[48:14\]
 
 **Mat Ryer:** ...and the music plays... \[laughter\]
 

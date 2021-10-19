@@ -16,7 +16,7 @@ Three weeks went by and I barely knew what day it was at any given day of the we
 
 Thank God for our amazing cast of people that work with us to make all of our podcasts excellent... Because you and I alone would fail. I'm so thankful we have such an awesome crew to make what we do so special. So 200 episodes across all the podcasts... That's a lot. That's a lot of episodes...
 
-**Jerod Santo:** \[00:04:05.23\] Yeah, so 46 episodes of The Changelog, and last year we did 47, so we've just about hit that mark... I think the arrival of a new child is a good excuse to maybe fall slightly short... But 200 episodes across our entire catalog. It was an interesting year, it was a lot of work, but I think by the end of the year we've been operating like a well-oiled machine, if I do say so myself. We're in the groove, we're in the flow, and we're putting out weekly episodes of Practical AI, GoTime, The Changelog of course, Brain Science every other week(ish), JS Party every week... So lots of good podcasts in these different niches that we find so interesting.
+**Jerod Santo:** \[04:05\] Yeah, so 46 episodes of The Changelog, and last year we did 47, so we've just about hit that mark... I think the arrival of a new child is a good excuse to maybe fall slightly short... But 200 episodes across our entire catalog. It was an interesting year, it was a lot of work, but I think by the end of the year we've been operating like a well-oiled machine, if I do say so myself. We're in the groove, we're in the flow, and we're putting out weekly episodes of Practical AI, GoTime, The Changelog of course, Brain Science every other week(ish), JS Party every week... So lots of good podcasts in these different niches that we find so interesting.
 
 **Adam Stacoviak:** I've got some stats for you here. It's just basic math really, not really stats, but... Let's just conservatively say it takes about five hours of effort to produce one podcast episode, which is probably conservative. It's probably more than that... But let's just say five hours, because it's round, and that's a conservative number. So if we shipped 200 episodes last year, at 5 hours a clip, that's 1,000 hours of effort. And if we divide that 1,000 hours by 24, which is 24 hours in a day, that's 41.666 (which I hate saying 666), but...
 
@@ -42,7 +42,7 @@ One of the big things that happened was that Go Time came back this year in Apri
 
 **Adam Stacoviak:** Yes. That's my favorite. The model that JS Party put forward was this model of many voices. I just saw a lot of great things happening with that, and I knew that we had to do the same thing with Go Time, and we were able to... And it's turned out to be a really great show. I'm stoked about that show.
 
-**Jerod Santo:** \[00:07:51.16\] A milestone that Go Time hit this year, as well as coming back in April, was that they shipped their 100th episode this year. I can't remember the exact date that went out, but it was with Rob Pike and Robert Griesemer - two of the Robs who are the creators of the Go programming language... It was a blockbuster episode, and has gotten to over 20,000 listens, which is pretty good for Go Time.
+**Jerod Santo:** \[07:51\] A milestone that Go Time hit this year, as well as coming back in April, was that they shipped their 100th episode this year. I can't remember the exact date that went out, but it was with Rob Pike and Robert Griesemer - two of the Robs who are the creators of the Go programming language... It was a blockbuster episode, and has gotten to over 20,000 listens, which is pretty good for Go Time.
 
 **Adam Stacoviak:** Contrast that against episode (I believe) number three of The Changelog, back in 2009, with Rob Pike. During the creation process, the open source buddha process of Go the language... Really interesting, to be episode 100 of Go Time, a whole different podcast, on the same network, and to go to that depth... And instead of just talking about what could be of this language, what is of the language. That's pretty cool, to just have that experience, to be able to be in this kind of trench that kind of length of time.
 
@@ -80,7 +80,7 @@ One of the big things that happened was that Go Time came back this year in Apri
 
 **Jerod Santo:** ...and that's what I wanted to be... But I couldn't have possibly wanted to be a professional podcaster, because that just wasn't a thing. So you've been full-time on The Changelog since (I think) 2015, which we even commemorated that and talked about that... And for me it was just this last year, 2019, that we finally were able to bring me on full-time, in September, and it's been an amazing thing. So we do put work in, but we feel very blessed to be able to do this work, and it's one of the greatest things in the world.
 
-**Adam Stacoviak:** \[00:12:02.07\] It's surreal, to be quite honest with you. It's almost as surreal to say "You're a full-time open source software developer." That didn't exist many years ago.
+**Adam Stacoviak:** \[12:02\] It's surreal, to be quite honest with you. It's almost as surreal to say "You're a full-time open source software developer." That didn't exist many years ago.
 
 **Jerod Santo:** That's right.
 
@@ -136,7 +136,7 @@ One of the big things that happened was that Go Time came back this year in Apri
 
 **Jerod Santo:** And Practical AI as well, to a different subset... Definitely an overlapping subset, but Brain Science is one that I can point my wife's friends to and say "You might be interested in this", and they would actually be able to get something out of it... Whereas The Changelog, I'm just like "Meh... You can go subscribe if you wanna give us one more download every week, but that would just be a favor, because you're not gonna enjoy that show unless you're actively in software, or open source, or those kinds of things..."
 
-**Adam Stacoviak:** \[00:15:44.29\] Right. Speaking of Brain Science, this is how far out our norm of listenership we've gone - there's a field training officer in the Chicago Police Department, Greater Chicago Area... He reached out to me and Mireille via LinkedIn, individually, but said the same thing to both of us, pretty much... And he says "Hey, Adam. I loved this episode (speaking to one of the more recent ones, on respect, empathy and compassion) Respect, Empathy and Compassion on Brain Science. You and Mireille do a great job really explaining the how of compassion."
+**Adam Stacoviak:** \[15:44\] Right. Speaking of Brain Science, this is how far out our norm of listenership we've gone - there's a field training officer in the Chicago Police Department, Greater Chicago Area... He reached out to me and Mireille via LinkedIn, individually, but said the same thing to both of us, pretty much... And he says "Hey, Adam. I loved this episode (speaking to one of the more recent ones, on respect, empathy and compassion) Respect, Empathy and Compassion on Brain Science. You and Mireille do a great job really explaining the how of compassion."
 
 So it was interesting to see a field training office of a Police Department in Chicago reach out and say that to us... Because that's not our typical audience.
 
@@ -166,7 +166,7 @@ So it was interesting to see a field training office of a Police Department in C
 
 **Jerod Santo:** But no surprise that GitHub Actions and a show about it was popular amongst our audiences. As we said, we grew up with GitHub, and people have been waiting for a lot of these automation tools, and a lot of the things that Actions is or has become since the announcement for a while now... And I think there's excitement around this show because there's excitement around GitHub Actions.
 
-**Adam Stacoviak:** \[00:19:51.02\] Yeah. I wonder too if -- now I'm sure GitHub Actions is super-awesome, and the draw to listen, to learn more from Kyle and others about this super-cool thing is there... But I'm wondering if maybe calling it "the next big thing" in the title wasn't part of it, too...?
+**Adam Stacoviak:** \[19:51\] Yeah. I wonder too if -- now I'm sure GitHub Actions is super-awesome, and the draw to listen, to learn more from Kyle and others about this super-cool thing is there... But I'm wondering if maybe calling it "the next big thing" in the title wasn't part of it, too...?
 
 **Jerod Santo:** Good clickbait on that one, you're trying to say?
 
@@ -218,7 +218,7 @@ Number two most popular episode of last year, "Why smart engineers write bad cod
 
 **Adam Stacoviak:** \[laughs\] Well, it's interesting how that one framed out, because it was from a book... I can't recall how you discovered the book. It was a popular book, and it had a great title, obviously... So it made sense to borrow the title.
 
-**Jerod Santo:** \[00:24:07.26\] I think we just titled it with the exact same -- I think that is the book's title, or at least the subtitle of the book.
+**Jerod Santo:** \[24:07\] I think we just titled it with the exact same -- I think that is the book's title, or at least the subtitle of the book.
 
 **Adam Stacoviak:** Yeah. So it would make sense to borrow it, because that's the brand of the book. I do agree that, sure, that's one of the those things, like "Do they write bad code? Why?! Why are they smart and write bad code? Must find out..."
 
@@ -260,7 +260,7 @@ So to me it's not a surprise that that one is a popular one, in retrospect. But 
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:27:59.22\] When you get four people onto a podcast, especially in an interview, it's more complicated and it's more difficult to have an interview -- first of all, with two interviewers, which we do that week by week, so we're pretty used to it. But it is difficult to have two people interview one person, and it's much more difficult to have to people interview two people... Because there's conversational logistics, there's chemistry -- there's all these different things.
+**Jerod Santo:** \[27:59\] When you get four people onto a podcast, especially in an interview, it's more complicated and it's more difficult to have an interview -- first of all, with two interviewers, which we do that week by week, so we're pretty used to it. But it is difficult to have two people interview one person, and it's much more difficult to have to people interview two people... Because there's conversational logistics, there's chemistry -- there's all these different things.
 
 With those two I felt like the four of us had a great rapport, and I think it comes through on that episode, so definitely one of the better ones. Episode 354, which is the number four most popular episode of last year. It was recorded live from OSCON, was it not?
 
@@ -312,7 +312,7 @@ With those two I felt like the four of us had a great rapport, and I think it co
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[00:31:56.17\] This is one of those ones I wasn't sure -- even back to putting a face, a personality to a name... Uncle Bob Martin had been this figure in our community for many years, and I never really followed him well enough to know anything really about him other than he's beloved, to some degree, and respected quite well, and knows what he's talking about. And to finally meet up with him and talk through this book he's written...
+**Adam Stacoviak:** \[31:56\] This is one of those ones I wasn't sure -- even back to putting a face, a personality to a name... Uncle Bob Martin had been this figure in our community for many years, and I never really followed him well enough to know anything really about him other than he's beloved, to some degree, and respected quite well, and knows what he's talking about. And to finally meet up with him and talk through this book he's written...
 
 The most profound thing was really the doubling and the inertia of our community, and how the hockey stick and the growth curve of software developers from, say, the 1950's to today, and this idea that every five years - and this is paraphrasing from some of the stuff he said in the show, so definitely go listen to it, episode 367... He was talking about how every five years we double. And correct me if I'm off on the stats, Jerod, but...
 
@@ -344,7 +344,7 @@ For me it starts with -- really the show of the summer for me, and one that prob
 
 **Adam Stacoviak:** Yes. And we made it a little easier too for you listeners, so... If you go to the episode, the show notes do have an updated link to his keynote. So don't feel like you have to go to YouTube and search for it; we've already done that for you, it's in the show notes... So go to episode 353 on The Changelog and you'll see, it's the very first link to Adam's OSCON keynote.
 
-**Break:** \[00:36:42.04\]
+**Break:** \[36:42\]
 
 **Jerod Santo:** How about you? Let's go back and forth on these... Hit us with a favorite.
 
@@ -356,7 +356,7 @@ And what's really kind of interesting is that -- you'd mentioned the Agile Manif
 
 And then the side component to that, the one with David Kaplan on generative engineering cultures, which - I'm always a fan of having deep conversations, methodic conversations with people who really know about leading engineering teams. And these two, Ryan Singer and David Kaplan, are definitely those kinds of people. They're leaders in their field, they know how to help reshape and fine-tune the thinking of cultures and how teams operate to create great products... And that's why they're my favorites for this year. So I picked two.
 
-**Jerod Santo:** \[00:40:17.11\] Well, I picked three...
+**Jerod Santo:** \[40:17\] Well, I picked three...
 
 **Adam Stacoviak:** Oh, boy.
 
@@ -400,7 +400,7 @@ With Devon we talked about the making of GitHub Sponsors, episode 370. GitHub Sp
 
 **Jerod Santo:** Yes, the co-founder was a young man in Mexico, who he met on the internet, and...
 
-**Adam Stacoviak:** \[00:43:58.15\] Multi-million-dollar company, next thing you know...
+**Adam Stacoviak:** \[43:58\] Multi-million-dollar company, next thing you know...
 
 **Jerod Santo:** Yeah, they built a huge company out of it, and they've never met. Just some crazy stuff that happened there... Super-interesting.
 
@@ -462,7 +462,7 @@ So those are my favorites... A couple of honorable mentions - I love when we get
 
 **Jerod Santo:** So we did about seven episodes last year of Backstage, everything from "Hey, is that Burt Reynolds?", which... I don't even remember what it's about. Oh yeah, hot takes from Apple's March 2019 keynote... So some keynote hot takes. I brought Nick Janetakis backstage to talk about the Changelog platform, and Elixir, and such things... We were live at OSCON, just the two of us, kind of shooting the poop; that's "Dwayne Johnson’s movies are actually really educational"...
 
-**Adam Stacoviak:** \[00:48:03.12\] Which is true. That's a true statement.
+**Adam Stacoviak:** \[48:03\] Which is true. That's a true statement.
 
 **Jerod Santo:** Which is a phrase that you uttered, and I can't believe you ever said out loud... The John Wick show, like you mentioned, and then I also had Mat Ryer come Backstage to talk about the Changelog API, should we use GraphQL to build it, should we not, and I go into the pros and cons of the Go programming language. Mat is one of the panelists on Go Time and a fascinating guy, so... If you aren't listening to Backstage and you're not overwhelmed by podcasts, I would put that in your list, because it's just fun.
 
@@ -490,7 +490,7 @@ We've been really fortunate this year, Jerod. I like these retrospectives to loo
 
 **Jerod Santo:** Well, let's wrap this baby up by maybe casting forward - not too far, just 2020... Here we are, January 2020. What can folks expect from The Changelog, or from Changelog the network over this year? Pick one or two things that we either are thinking about trying, or definitely going to do, things that are in the works, or that you would love to see this year for us to go out there and do. What are you thinking?
 
-**Adam Stacoviak:** \[00:52:15.15\] Well, I'll say the easiest one - this is the easy goal for us... For me and Mireille, at least. It's to bring Brain Science to a weekly cadence, versus bi-weekly(ish) and somewhat inconsistent.
+**Adam Stacoviak:** \[52:15\] Well, I'll say the easiest one - this is the easy goal for us... For me and Mireille, at least. It's to bring Brain Science to a weekly cadence, versus bi-weekly(ish) and somewhat inconsistent.
 
 **Jerod Santo:** Okay.
 
@@ -530,7 +530,7 @@ Right now we don't have an answer to that, and we'd like to find a way - not for
 
 I would love to do more shows that are listener-requested. We haven't been using ping as much; we did move requests onto Changelog proper, which is just better for the workflow... So you can request episodes at Changelog.com/request. You can let us know what you wanna hear about, you can let us know why you wanna hear about it. We love doing shows that are requested by you, the listener, because that way we know we're serving directly at least person out there, versus trying to guess what you all want to hear... So more like that.
 
-\[00:55:52.06\] I wanna get nerdier, I wanna get more obscure, and then of course, we're always gonna be discussing the big picture and the community things going on in the open source and software worlds... So expect that, as always, but I definitely wanna get into some more technical nitty-gritties over the coming year.
+\[55:52\] I wanna get nerdier, I wanna get more obscure, and then of course, we're always gonna be discussing the big picture and the community things going on in the open source and software worlds... So expect that, as always, but I definitely wanna get into some more technical nitty-gritties over the coming year.
 
 **Adam Stacoviak:** That sounds awesome. I'm stoked for 2020. I'm not sure if I'll hear one more 2020 vision analogies of...
 

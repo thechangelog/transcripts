@@ -10,7 +10,7 @@ But on a more technical level, we could actually dive into the cloud native, wha
 
 **Adam Stacoviak:** Oh, nice.
 
-**Dan Kohn:** \[00:04:02.27\] It's a little dense, but it's only four sentences long, so I would read it to you if you're interested.
+**Dan Kohn:** \[04:02\] It's a little dense, but it's only four sentences long, so I would read it to you if you're interested.
 
 **Adam Stacoviak:** Let's do it!
 
@@ -38,7 +38,7 @@ What I like about the definition is that it's saying that over the last ten year
 
 **Dan Kohn:** I really appreciate that, and we're pretty pleased with that, as people found our stuff very confusing until we started printing that out. I will mention, if you go to l.cncf.io (Landscape CNCF) there's a link at the top to both the trail map, which is sort of the recommended path of how you can approach cloud native... And we say, look, the very first step is to containerize, and then you wanna do CICD, and only third should you be implementing orchestration and looking at these other more advanced technologies.
 
-\[00:08:07.16\] The trail map is the front page, and when you flip it over, if you get our printout, we have this insane cloud native landscape, and that has over 570 different open source projects and closed source products from all of these different vendors around the world. It kind of represents the ferment and the excitement in the space. But without that trail map, the landscape can feel a little overwhelming.
+\[08:07\] The trail map is the front page, and when you flip it over, if you get our printout, we have this insane cloud native landscape, and that has over 570 different open source projects and closed source products from all of these different vendors around the world. It kind of represents the ferment and the excitement in the space. But without that trail map, the landscape can feel a little overwhelming.
 
 **Jerod Santo:** We were kind of joking around before we hopped on with you, Dan, about this being an accidental kind of a cloud native month on the Changelog, because we had the Istio show, then we talked about a segment -- really a conversation around microservices and monorepos, and then last week I had a great conversation with Paul Fremantle about Ballerina, which is kind of a cloud native programming language, culminating with this conversation with you...
 
@@ -78,7 +78,7 @@ So it's been a lot of coverage, and I guess to our listeners out there who aren'
 
 **Dan Kohn:** So it really just speaks to the level of interest in this community.
 
-**Adam Stacoviak:** \[00:12:05.29\] The conference alone has got to be several folks' full-time day jobs to just manage - not only the sponsors, but 7,000 people. When I was there in December in Austin, that was around 4,200; the next one was in Copenhagen, you said 4,300, and now you're adding another -- a little shy of 2,000 people or so to the next U.S.-based conference. You're not only scaling your technologies, but also obviously scaling in the community, and that means having a community and a conference that can actually sustain that and entertain it, and make it worthwhile to spend whatever money it is, and the time involved to come there and actually get a benefit.
+**Adam Stacoviak:** \[12:05\] The conference alone has got to be several folks' full-time day jobs to just manage - not only the sponsors, but 7,000 people. When I was there in December in Austin, that was around 4,200; the next one was in Copenhagen, you said 4,300, and now you're adding another -- a little shy of 2,000 people or so to the next U.S.-based conference. You're not only scaling your technologies, but also obviously scaling in the community, and that means having a community and a conference that can actually sustain that and entertain it, and make it worthwhile to spend whatever money it is, and the time involved to come there and actually get a benefit.
 
 **Dan Kohn:** Yeah, and we are very cognizant that for the sponsors it's a significant outlay of money... I mean, we do offer great deals for small startups, but companies spend a lot of money on this for those 7,000 people; most of them are flying in, they're taking times away from their families, it's the hotel and such... So there are real expenses there.
 
@@ -98,7 +98,7 @@ For our event in Shanghai and Seattle, that's Liz Rice of Aqua Security and Jane
 
 And what's nice is that CNCF as an organization, we're part of the Linux Foundation, we're non-profit, so first of all, we don't have a way of collecting profits. I don't get a bonus or a commission or anything like that...
 
-**Adam Stacoviak:** \[00:16:15.14\] Right.
+**Adam Stacoviak:** \[16:15\] Right.
 
 **Dan Kohn:** But more to the point, our leaders, our membership, and particularly our governing board, which is primarily the platinum members, don't want us to run a significant profit. So we try and keep like a 5% reserve, just out of some financial conservatism. Then the rest of the money we're investing back into the community.
 
@@ -124,7 +124,7 @@ As an example, even though CNCF doesn't normally fund actual engineering and dev
 
 **Dan Kohn:** Definitely, yeah. You really don't wanna be out there with a non-certified version of Kubernetes. It would be the most natural thing for a customer to say "Why aren't you certified? Why did you fork it?"
 
-**Adam Stacoviak:** \[00:20:19.04\] Yeah, because it would almost be as if if they were anti being certified, what are the motivations for that? That might mean they're sort of anti the direction that CNCF and Kubernetes and Prometheus and all these others, the directions you're heading, essentially, for some reason, are against it... Figure out why.
+**Adam Stacoviak:** \[20:19\] Yeah, because it would almost be as if if they were anti being certified, what are the motivations for that? That might mean they're sort of anti the direction that CNCF and Kubernetes and Prometheus and all these others, the directions you're heading, essentially, for some reason, are against it... Figure out why.
 
 You mentioned also being able to use the Kubernetes brand name in product services, too.
 
@@ -144,7 +144,7 @@ So that's just another area where CNCF can invest in development infrastructure,
 
 **Jerod Santo:** Yeah, that's very neat; I was just pulling it up as you were talking about it, and it allows such tracking as hourly activity on GitHub, different stats around the communities, summaries, there's issues ages, all those kinds of metadata around these projects. I can see this being useful in general for any project.
 
-**Dan Kohn:** \[00:23:55.16\] Yeah. I would emphasize that it's an open source project on its own, and so for other projects that would like to get these statistics we'd really encourage you -- there's a couple that have started doing it, but we'd encourage you to give it a try, and if you do run into issues, kind of porting it over to your project. You can just file open issues on the repo with us, and we're happy to work with you on it.
+**Dan Kohn:** \[23:55\] Yeah. I would emphasize that it's an open source project on its own, and so for other projects that would like to get these statistics we'd really encourage you -- there's a couple that have started doing it, but we'd encourage you to give it a try, and if you do run into issues, kind of porting it over to your project. You can just file open issues on the repo with us, and we're happy to work with you on it.
 
 But as an example, we have the statistic that across all 26 CNCF projects there have been 40,086 unique contributors to them. It's really pretty amazing; I mean, that's obviously a massive number, but it's also just neat to be able to track all of that.
 
@@ -174,7 +174,7 @@ I guess one other project I might mention - I referred to it before - is CNCF's 
 
 And so this is, again, a free open source project and service that does all that for you. One of the powerful aspects is just a lot of filtering and sorting that we built into it. For example, if you're looking at it, and over on the left side under Example Filters, if you click Open Source by Age, since you're kind of historians of open source, you've been following this space - it's pretty interesting to see "Oh, here's the project in the cloud native space", and then if you click on Postgres, you can see "Oh, that was founded 22 years ago, and its latest commit was this week", which is really such an extraordinary level of success and engagement.
 
-\[00:28:09.18\] And then the next two are MariaDB and MySQL, and of course, they're forks of each other, so they were both founded 18 years ago. And then going forward, you see things like Ceph, that's 17 years ago, and NGINX, and MuleSoft, and Puppet, and others.
+\[28:09\] And then the next two are MariaDB and MySQL, and of course, they're forks of each other, so they were both founded 18 years ago. And then going forward, you see things like Ceph, that's 17 years ago, and NGINX, and MuleSoft, and Puppet, and others.
 
 So that's one view... But then another one that's kind of fun is click on Open Source by Stars - okay, you can see Kubernetes is number one there, with 40,000, but things like Elastic and Ansible, Redis, Serverless, Grafana... And then another neat one is Offerings from China, so that you can see that we're up to 55 products and projects that we're tracking. We have a total of 18,000 stars, the companies behind them have a market cap of a trillion dollars, and have raised funding of 158 million dollars.
 
@@ -190,13 +190,13 @@ So that's one view... But then another one that's kind of fun is click on Open S
 
 **Dan Kohn:** So we're essentially doing a lot of scraping, and then this automatically updates every day.
 
-**Break:** \[00:29:56.28\]
+**Break:** \[29:56\]
 
 **Adam Stacoviak:** So what I find kind of interesting looking at this Interactive Landscape is that the corporate economies out there, which is in a lot of ways what this represents - sure, it's startups, but it's economies of scale for different businesses, places of employment, new technologies, but the sheer dependence upon open source and the health of those communities, right? You see this gigantic market cap which we've just sort of like glossed over to some degree, and then the investments that went into it to make it happen, but... While it's very informative to what the landscape represents in terms of the companies and the projects and the influences, and the stars, and the start dates and all that stuff, what it really represents in some cases or maybe behind the scenes is the significance of the dependence of open source, and the reliance on the health of those communities, and... CNCF is operating very healthily, but that's what it represents to me. What do you guys think about that?
 
 **Dan Kohn:** I totally agree. I think you will recall that I helped co-found the Core Infrastructure Initiative...
 
-**Adam Stacoviak:** \[00:31:59.27\] That's right.
+**Adam Stacoviak:** \[31:59\] That's right.
 
 **Dan Kohn:** ...four years ago, and you previously had David Wheeler on the show, talking about the Badge app project, and I co-created that with him; that's the way of open source projects talking about their health, and things like the buzz factor, and licensing, and other kinds of stuff. And by the way, for any project to graduate CNCF, they're required to get that passing Best Practices badge. The first two projects this year graduated - Kubernetes and Prometheus.
 
@@ -214,7 +214,7 @@ But I think it is fair to say that I've seen now the entire range of open source
 
 **Dan Kohn:** Yeah, it's my view that's it's essentially -- there was a nice description of transistors 30 years ago that you have to waste them, or your cost structure will kill you, if you waste millions of them to make your TV screen look slightly nicer. It is my view today that if you're -- so every company is becoming a software company, software is definitely eating the world, but if you're not building on top of open source, it's essentially gonna be impossible for you to stay competitive and to keep up.
 
-\[00:36:09.13\] So I'm certainly eager to see more solutions that help companies understand all of the open source dependencies, all the library dependencies that they have, both closed source and open source. I think that's absolutely essential from a security standpoint. And then look at helping to have some funding solutions to go with that. The Linux Foundation is definitely actively investigating that space.
+\[36:09\] So I'm certainly eager to see more solutions that help companies understand all of the open source dependencies, all the library dependencies that they have, both closed source and open source. I think that's absolutely essential from a security standpoint. And then look at helping to have some funding solutions to go with that. The Linux Foundation is definitely actively investigating that space.
 
 **Jerod Santo:** It seems like an easier sale as well, in terms of like if I'm upper management at a profitable company and I have a budget for infrastructure costs, and I'm used to paying, historically, licenses, or paying for software, that is now being provided as open source - that just opened up a huge aspect of my budget, and it's because of open source that it opened it up... So maybe I don't put the entire budget into open source, but maybe I divvy it out and say "Okay, because I would be paying for licenses for this stuff, and this is better software than probably the proprietary stuff, because of the wisdom of the crowds, or just the joint efforts across all these different smart people... Well, it's not much of a stretch to then pour back into that, and really support it."
 
@@ -252,7 +252,7 @@ But I think it is fair to say that I've seen now the entire range of open source
 
 That worked fine at first, but I think almost like any organization or software company, you just have to put processes in place going forward. So we have something we call the Service Desk, and it's just a ticket tracking system... But any of the maintainers of any of those 26 projects can in principle ask for anything -- I mean, conveniently, we've had the budget so far that we haven't needed to turn them down for a lot or for much at all.
 
-\[00:39:58.28\] But the specific requests tend to be -- I mean, a lot of them are just like super-minor things, like "Oh, can we have an official Kubernetes slide deck that people can do community presentations without having to use their company's slide decks?" Or for Prometheus, it was "Hey, we wanna run a community event for about 250 people. Can you help us organize that, handle all the money for us for the sponsors that wanna come in, help us sell it, and such?", and so we're very happy to do it.
+\[39:58\] But the specific requests tend to be -- I mean, a lot of them are just like super-minor things, like "Oh, can we have an official Kubernetes slide deck that people can do community presentations without having to use their company's slide decks?" Or for Prometheus, it was "Hey, we wanna run a community event for about 250 people. Can you help us organize that, handle all the money for us for the sponsors that wanna come in, help us sell it, and such?", and so we're very happy to do it.
 
 And then, you know, presenting to our end-user community, engagement there... All of our projects are very eager to be involved in KubeCon + CloudNativeCon, so although we do have this competitive track system, we also have slots, internal deep-dive slots for each of the projects... So they definitely appreciate that opportunity to get in front of the audiences.
 
@@ -274,7 +274,7 @@ But the sort of bigger picture is that what a foundation needs to provide has ce
 
 **Adam Stacoviak:** Right. We almost logged that, I didn't do it.
 
-**Dan Kohn:** \[00:44:05.22\] Well, yeah. And for what it's worth, even the content of the article didn't have that as well, but obviously, the headline writer gets compensated by clicks, and that's what -- you know, maybe their A/B testing got more clicks.
+**Dan Kohn:** \[44:05\] Well, yeah. And for what it's worth, even the content of the article didn't have that as well, but obviously, the headline writer gets compensated by clicks, and that's what -- you know, maybe their A/B testing got more clicks.
 
 **Jerod Santo:** It seems like TechCrunch is moving beyond their core competencies in covering these technical things. I'm not gonna go there, but... I see a few articles on there, I'm like "Are they writing about this? This seems like nerdier than they're supposed to be writing about..."
 
@@ -290,7 +290,7 @@ What's interesting is that CNCF doesn't impose that on any of our projects. Ther
 
 That governance process was the last step for Kubernetes to graduate in March... And when that happened, there's several Google people on the steering committee, which is ultimately in charge of Kubernetes... But they're not a majority; there's no company that has a majority... So they gave up kind of governance control at that point. But then this was the kind of remaining issue, where to build Kubernetes, the actual software development infrastructure, is a huge undertaking... Unlike Linux, where most kernel developers can try something and recompile it right on their machine and see the effect of it on their own machine.
 
-\[00:48:17.03\] To really work with Kubernetes often requires a multi-server cluster of machines... So every pull request that comes in triggers a continuous integration run across many different machines, and that, for historical reasons, had always run on Google Cloud infrastructure. So that meant that, because they were internal Google accounts, that no external person from another company could manage that or be involved in that.
+\[48:17\] To really work with Kubernetes often requires a multi-server cluster of machines... So every pull request that comes in triggers a continuous integration run across many different machines, and that, for historical reasons, had always run on Google Cloud infrastructure. So that meant that, because they were internal Google accounts, that no external person from another company could manage that or be involved in that.
 
 So it was a somewhat involved process, and this is exactly the kind of role that CNCF was happy and eager to take... But Google went back and calculated how many runs that they're doing. And it was a little tricky, because they were conflating together their own service, Google Kubernetes Engine (GKE) with the Kubernetes project, because they originally hadn't been separated. So they have estimated that they think that nine million dollars in cloud credits will support the Kubernetes development for the next three years.
 
@@ -304,7 +304,7 @@ But that said, Google in no way is stepping back the Google folks who have been 
 
 And obviously, people are busy, so most folks really don't have the time to read the article if that headline did not give a good view on it. But I can confidently say that Google is as engaged as they ever have been. They're thrilled with the growth of the community, the level of adoption and engagement, and this is really answering a call from the community. It's essentially the last piece of the Kubernetes project that was Google-specific, that now Google does not have any more ownership or control than anyone else... Except that Google continues to contribute a huge amount of development and pull requests and fixes and such... And so that's the way that anyone has control in an open source project - by doing the work.
 
-**Break:** \[00:52:08.27\]
+**Break:** \[52:08\]
 
 **Adam Stacoviak:** Dan, the CNCF does - as you know, because you're a part of it, a leader of it - a bi-annual survey that sort of surveys the landscape... And some of the insights from that essentially is, you know, serverless is on the rise; we kind of see that, Jerod and I, as part of this show... On JS Party we're covering that, on this show we're covering that... Kubernetes is dominating, which this whole conversation was about the growth, that's clear... But then you also have cloud native production usage exploding, and some of the top challenges not being technically how to deploy containers. What are some of these things you wanna dive into that we can kind of cover from this survey, that are insights for you, that particularly stand out?
 

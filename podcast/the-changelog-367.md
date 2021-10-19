@@ -28,7 +28,7 @@ And I went to a conference a few years later, and people recognized me and they'
 
 **Jerod Santo:** Eighteen years later you're here to write about it, going back to the basics of Agile. Tell us what's happened; maybe introduce the folks to Agile. Many of us are just kind of living in a world where Agile is a bedrock of what we think we do, or we've been doing... And we know there was a group of people, and they wrote some stuff, and it has to do with not planning too much stuff upfront... But a lot of us are actually foreign to the concept, and then what's changed and what's happened, so kick us off in that direction.
 
-**Bob Martin:** \[00:04:08.08\] It's been a huge controversy and a long, long discussion... So back in the extremely early days of software, going back into the 1950's or the 1960's, there was no standard process for doing software. Nobody knew what the heck to do. The programmers at the time were generally older people; they were in their 30's or 40's or 50's, because there were no universities teaching software in those days, so they hired mathematicians and engineers and other people to do software, and these guys were older... And they very quickly adopted a style which today we would squint and call Agile, but in those days they didn't call it anything at all; it was just kind of the way they worked.
+**Bob Martin:** \[04:08\] It's been a huge controversy and a long, long discussion... So back in the extremely early days of software, going back into the 1950's or the 1960's, there was no standard process for doing software. Nobody knew what the heck to do. The programmers at the time were generally older people; they were in their 30's or 40's or 50's, because there were no universities teaching software in those days, so they hired mathematicians and engineers and other people to do software, and these guys were older... And they very quickly adopted a style which today we would squint and call Agile, but in those days they didn't call it anything at all; it was just kind of the way they worked.
 
 They worked in short cycles, and they verified the outcome of those short cycles on a regular basis, and they wrote tests, and so on. One example of that is the programmers who wrote the code for the Mercury space capsule, who worked in cycles that were one day long. They wrote their unit tests in the morning and they made them pass in the afternoon. That's just one example of how the style started to enter into software.
 
@@ -42,7 +42,7 @@ Apparently, people did not read the paper, they just looked at that first image.
 
 **Bob Martin:** Yeah, because now if the analysis is done, you know you're a third done. And when the design is done, you know you're two thirds done. And honestly, we believed this. I believed it, everybody believed it, it was so compelling. It descends from another branch of management called scientific management, which was a competing theory at the time... A very successful one back at the turn of the previous century.
 
-\[00:08:04.16\] Anyway, that dominated us for about 30 years. In the meantime, all of the original programmers who had been in their 40's and 50's and 60's - they all retired and quit, and those of us who joined in the '70s kind of grew up. And 30 years later we're all in our 50's and 40's and thinking "What the hell happened to us?" And a bunch of us got together at Snowbird in Utah in 2001 and said "Okay, how do we get out of this mess?"
+\[08:04\] Anyway, that dominated us for about 30 years. In the meantime, all of the original programmers who had been in their 40's and 50's and 60's - they all retired and quit, and those of us who joined in the '70s kind of grew up. And 30 years later we're all in our 50's and 40's and thinking "What the hell happened to us?" And a bunch of us got together at Snowbird in Utah in 2001 and said "Okay, how do we get out of this mess?"
 
 There'd been a substantial movement in lightweight processes since about 1995. Ken Schwaber and Jeff Sutherland and Mike Beedle and Martine Devos - they wrote a paper in 1995 about Scrum; a real early paper about Scrum. Jim Coplien in 1996 or 1997 wrote a paper about the processes used by the most successful organizations. These introduced some of the ideas of Agile.
 
@@ -58,7 +58,7 @@ Kent Beck started promoting his extreme programming ideas in about 1998-1999. Pe
 
 Now, at the end of the meeting we thought "Well, nothing's gonna happen with this..." Because that's the other thing about meetings like that - maybe they come to some kind of conclusion, and they leave a crater behind, and nobody ever cares to look into that crater again... But in this case, Ward Cunningham did something smart; he said "I'm gonna put this on a website, and I'm gonna let people sign it." And we were stunned. Tens of thousands of people signed this thing, and it started a movement.
 
-**Jerod Santo:** \[00:12:09.26\] There we go. So you had the four values, and 12 principles that came out of those four values...
+**Jerod Santo:** \[12:09\] There we go. So you had the four values, and 12 principles that came out of those four values...
 
 **Bob Martin:** Yeah, four values, 12 principles...
 
@@ -80,7 +80,7 @@ So that was very hard, and people would push back on the rules, and twist them, 
 
 **Bob Martin:** So Ken did this course... And I thought it was a dumb idea. Who wants to go to a course named "Certified..." -- who wants to have a certificate saying that you're a Scrum Master? Well, apparently lots of people did. So I was wrong about that. And a flood of people started taking these courses. Apparently, they liked the idea of certification a lot, and they liked the idea of having this piece of paper. What was very disturbing to me - and remains disturbing to me - is that these people were not programmers. These people were project managers. So there was a flood of project managers that poured into the Agile community, and literally took it over.
 
-\[00:15:52.07\] The Agile conferences went from being technical conferences to being management conferences, almost overnight. And literally, that didn't change. That has been the theme ever since. Agile has become a "soft skills, people management" kind of thing, with soft ideas, and loosey-goosey things, and "Oh, let's juggle" and "Let's play with mice", and things like that.
+\[15:52\] The Agile conferences went from being technical conferences to being management conferences, almost overnight. And literally, that didn't change. That has been the theme ever since. Agile has become a "soft skills, people management" kind of thing, with soft ideas, and loosey-goosey things, and "Oh, let's juggle" and "Let's play with mice", and things like that.
 
 I'm an engineer, I'm a programmer, and most of the guys who went to Snowbird were very technically-based... Weren't into the real soft skills thing too much - some of them were, but most of them weren't - and this was disturbing. And we suffered it for a while, and then at one point a group broke away and said "Look, somebody needs to be promoting the hard skills. Test-driven development. Pair programming. Simple design. Refactoring." That was the core of the technical skills within Agile. Somebody needs to be promoting that, and the Agile community is not promoting that. The Scrum folks had pretty much abandoned any of the technical practices that had come into Agile... So the craftsmanship movement was born.
 
@@ -94,7 +94,7 @@ The book is a back-to-basics book. It says "Hey, this is what Agile was 19 years
 
 **Adam Stacoviak:** So it's one part history, one part application, one part definition, and maybe some guidance.
 
-**Bob Martin:** \[00:19:49.18\] Yeah, that's a good way to put it. It does begin with history. That history I've just told you. It goes into that, at some detail. I ranted in it a fair bit about what has happened to Agile and what needs to now happen to Agile.
+**Bob Martin:** \[19:49\] Yeah, that's a good way to put it. It does begin with history. That history I've just told you. It goes into that, at some detail. I ranted in it a fair bit about what has happened to Agile and what needs to now happen to Agile.
 
 My views are not universal, so I included some people in the book who disagree with me. So there's a couple of chapters that are kind of point/counter-point chapters; they argue the other side of the case... Which I thought would be valuable for someone who is trying to understand what Agile is and what all the opinions are about.
 
@@ -132,7 +132,7 @@ My views are not universal, so I included some people in the book who disagree w
 
 If you don't have that, if you are not delivering something on an extremely regular basis, something that is deployable every single time, then you're not doing Agile. You are not doing Agile if you are not intensely communicating with stakeholders. The programmers and the stakeholders have intense communication all through the development cycle.
 
-\[00:23:27.28\] If you're working off of a set of requirements that are written down and the stakeholders are on the other side of the planet, you are not doing Agile. There's no way you can be doing Agile that way.
+\[23:27\] If you're working off of a set of requirements that are written down and the stakeholders are on the other side of the planet, you are not doing Agile. There's no way you can be doing Agile that way.
 
 You are not doing Agile if you are not writing tests. If you do not have a suite of tests that can verify that the system you are writing works as specified, you are not doing Agile. You are not doing Agile if you lose control of the code. If you look at the code and the code is a mess, and there's no way you can clean it up because it's just too hard, you are not doing Agile. An Agile team always keeps control over the code, always keeps the code clean, because they have tests, because they refactor, because they use simple design, because they use those engineering practices. There's a whole bunch of other tell-tales that you could go into, but those are the most obvious, I think.
 
@@ -140,7 +140,7 @@ You are not doing Agile if you are not writing tests. If you do not have a suite
 
 **Bob Martin:** Yes, well... \[laughter\] I've actually done that on stage, but never mind that...
 
-**Break:** \[00:24:42.07\]
+**Break:** \[24:42\]
 
 **Adam Stacoviak:** Bob, you said why you did this book, but why did you specifically -- you mentioned why it needed to be there, but why you particularly came back to this, this many years, to write not just this book, but a series of books around Agile and coding, and clean coding and these ways you prescribe things...? Why did you particularly come back to this subject matter?
 
@@ -148,7 +148,7 @@ You are not doing Agile if you are not writing tests. If you do not have a suite
 
 The need I felt to do that began probably about 15 years ago. At first, I thought "Who am I to tell people how to write code? Who am I...? I'm just a guy..." And then at some point I thought "No, somebody's gotta say this, somebody's gotta write these things down", and I started on this path of writing the Clean series - the Clean Code book, the Clean Coder book, the Clean Agile book, the Clean Architecture book... There will be a couple more to come yet. And I think the years that I've worked are the -- I don't know how to say this, but are the justification for me writing a series like that. How many programmers are there in the world now? I said there's something like a hundred million.
 
-**Jerod Santo:** \[00:28:15.05\] Yeah, I was wondering where that number came from...
+**Jerod Santo:** \[28:15\] Yeah, I was wondering where that number came from...
 
 **Bob Martin:** Well, that's a soft number; it's hard to get the number... It depends on if you count the VBA programmers or not.
 
@@ -180,7 +180,7 @@ So we're stuck in an industry that is in a state of perpetual inexperience, and 
 
 **Jerod Santo:** It's youngsters training youngsters, for the most part.
 
-**Bob Martin:** \[00:32:00.09\] Yeah. And of course, after a year or two they think they know it. "Oh yeah, we know how to do this." And of course, they don't. So our industry is in a very precarious position. Now, you put that on top of something else, and you get a real firestorm. The other thing you put it on top of is the fact that in 1960, our society lived without computers. Nobody had a computer at home, nobody had access to a computer. A computer was something in a movie maybe, a science fiction movie, or a computer was something in a laboratory somewhere, and it cost millions of dollars, and only people in white coats used it, and so on. But over the years, that's changed dramatically, to the point now that in your house there are probably hundreds of little computers.
+**Bob Martin:** \[32:00\] Yeah. And of course, after a year or two they think they know it. "Oh yeah, we know how to do this." And of course, they don't. So our industry is in a very precarious position. Now, you put that on top of something else, and you get a real firestorm. The other thing you put it on top of is the fact that in 1960, our society lived without computers. Nobody had a computer at home, nobody had access to a computer. A computer was something in a movie maybe, a science fiction movie, or a computer was something in a laboratory somewhere, and it cost millions of dollars, and only people in white coats used it, and so on. But over the years, that's changed dramatically, to the point now that in your house there are probably hundreds of little computers.
 
 On your body there are probably a dozen or so, if you count your car keys, and your phone, and the battery case, and your AirPods, and the watch, and whatever you've got on you... Literally, on your body, there's probably a dozen or so computers. In your house there's hundreds. In your community there are hundreds of thousands. If you go out on the road, every car out there has software running it. And a modern car - I don't mean a Tesla - has 100 million lines of code in it. And if you're a programmer, that should scare the hell out of you. "Who wrote that code?"
 
@@ -196,7 +196,7 @@ There have been a number of disasters, we can count them. There was Knight Capit
 
 **Bob Martin:** So we sit at this very interesting precipice. Our society depends on software, and the software is being written by vast numbers of people with almost no experience.
 
-**Adam Stacoviak:** \[00:36:09.21\] So that answers the question of basically why you wrote this book...
+**Adam Stacoviak:** \[36:09\] So that answers the question of basically why you wrote this book...
 
 **Bob Martin:** \[laughs out loud\]
 
@@ -240,7 +240,7 @@ There have been a number of disasters, we can count them. There was Knight Capit
 
 **Jerod Santo:** Is there anything that's inevitable though? I mean, good code or bad... Even the best Agile practitioners write code with bugs in it. So I'm not saying don't try, but I'm saying that if the numbers are there and this is going to happen, even if the code was really well written, the regulation is still gonna happen.
 
-**Bob Martin:** \[00:40:05.01\] The regulation is going to happen. There's no way to avoid that. In the end, it's got to happen. The question is whether we get to regulate ourselves or whether we are regulated by someone else. If the answer to the question -- they come and they point their finger at us and say "How could you have let this happen?", and if the answer to that question is "Look, this was an accident. It was terrible, it was horrible, but it was not because we were being negligent... And here's why. Here are the practices that we follow. Here are the disciplines that we follow. Here are the standards we uphold." If we can come back with that statement, then we will probably escape the worst of the regulations. They will still regulate us, but maybe they'll use our own regulations.
+**Bob Martin:** \[40:05\] The regulation is going to happen. There's no way to avoid that. In the end, it's got to happen. The question is whether we get to regulate ourselves or whether we are regulated by someone else. If the answer to the question -- they come and they point their finger at us and say "How could you have let this happen?", and if the answer to that question is "Look, this was an accident. It was terrible, it was horrible, but it was not because we were being negligent... And here's why. Here are the practices that we follow. Here are the disciplines that we follow. Here are the standards we uphold." If we can come back with that statement, then we will probably escape the worst of the regulations. They will still regulate us, but maybe they'll use our own regulations.
 
 That's what the doctors did. The government finally went to the doctors and said "You guys are out of control. We need to regulate you", and the doctors handed them a whole bunch of rules. "Oh, we've been working on these rules for 15 years." And the government said "Oh great, because we certainly don't wanna decide that stuff", and they just made the doctors' rules the law.
 
@@ -262,7 +262,7 @@ That's what the doctors did. The government finally went to the doctors and said
 
 So I've been writing this series as a kind of educational tools to inform programmers of what the future of programming ought to look like.
 
-**Break:** \[00:43:19.18\]
+**Break:** \[43:19\]
 
 **Adam Stacoviak:** Bob, in a section of your book called "Iron Cross" you mention this concept of Good, Fast, Cheap and Done, and that's the Iron Cross.
 
@@ -286,7 +286,7 @@ You can't ask programmers to come up with an estimate, and then expect them to h
 
 **Bob Martin:** Of course. So the first thing to realize is why it's difficult to estimate software in particular. The example I like to use is how long does it take you to tie your shoes? Maybe it takes you ten seconds...
 
-**Jerod Santo:** \[00:48:19.18\] Yeah. Five, ten...
+**Jerod Santo:** \[48:19\] Yeah. Five, ten...
 
 **Bob Martin:** If you're good at it, ten seconds; okay, 10-15 seconds. And you don't even think about it, right? The motions are baked into your fingers. You just zip-zip-zip and they're tied. Now, estimate how long it would take you to write down the instructions for tying shoes, and make sure that a robot can execute. A moron, a computer-driven robot... And all of a sudden, you're looking at months' worth of work. Months. To try and get that done. Why? Because writing down the instructions of things is much harder than actually doing the things... And when programmers estimate, they estimate something and think "Well, you know, that sounds awful simple..." and they forget that they are trying to write down the programs for a moron to execute, for an automaton to execute. Very difficult.
 
@@ -310,7 +310,7 @@ So you've got this very interesting probability distribution - 2, 3 and 10. And 
 
 **Bob Martin:** And programmers are not trained in dealing with intimidation. "We didn't get into this business because we like people."
 
-**Adam Stacoviak:** \[00:51:58.23\] \[laughs\]
+**Adam Stacoviak:** \[51:58\] \[laughs\]
 
 **Bob Martin:** "We got into this business because...
 
@@ -344,7 +344,7 @@ Programmers don't do that. Programmers get to the truth by doing the math. We're
 
 **Adam Stacoviak:** Back to the basics.
 
-**Bob Martin:** \[00:55:55.18\] Everybody is tempted to use a tool, but the problem I have with tools is not the tools themselves. The tools are fine. The problem is that teams will go to the tool first. They'll say "Okay, what tool do we need to manage our user stories?" and they'll buy one. And then the tool will dominate them. The tool's rules will dominate them, and they won't learn how to do it by themselves. So the advice I give to people is first couple of months use index cards, and get good at it, and then you'll be able to pick the tool, and then you can dominate the tool. Because you'll already know how to do it, so you will force the tool into your way of doing it, rather than the tool forcing you in its way of doing it. So that's my problem with tools...
+**Bob Martin:** \[55:55\] Everybody is tempted to use a tool, but the problem I have with tools is not the tools themselves. The tools are fine. The problem is that teams will go to the tool first. They'll say "Okay, what tool do we need to manage our user stories?" and they'll buy one. And then the tool will dominate them. The tool's rules will dominate them, and they won't learn how to do it by themselves. So the advice I give to people is first couple of months use index cards, and get good at it, and then you'll be able to pick the tool, and then you can dominate the tool. Because you'll already know how to do it, so you will force the tool into your way of doing it, rather than the tool forcing you in its way of doing it. So that's my problem with tools...
 
 **Adam Stacoviak:** Yeah. That's why Scrum software and Agile software is so hard to even make, because there's so many different variations of Agile. XP, Scrum, Lean...
 
@@ -402,7 +402,7 @@ And you keep doing it this way. The numbers are relative, they're not absolute. 
 
 **Jerod Santo:** Okay.
 
-**Bob Martin:** \[00:59:59.13\] If I say "Well, you know, it took us six years to get to the Moon. How long do you think it's gonna take to get to Mars?" You could come up with a relative estimate, right?
+**Bob Martin:** \[59:59\] If I say "Well, you know, it took us six years to get to the Moon. How long do you think it's gonna take to get to Mars?" You could come up with a relative estimate, right?
 
 **Jerod Santo:** "Longer than that..."
 

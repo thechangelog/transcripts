@@ -1,6 +1,6 @@
 **Adam Stacoviak:** Mireille, habits are something we all deal with, right? We all have good and bad habits, and these habits allow us to do things like behavior change when we are doing something we like, or dislike we just wanna change that... Sometimes it enables or inhibits burnout if you don't do life well and you can't bend your habits, or break them, or make them etc. And at the core of all that is this life balance that happens, because of this core thing that is really scientific - a habit. So let's open up with habits, how they affect us, and maybe even deeper into what they actually are.
 
-**Mireille B. Reece, Psy.D:** \[00:01:39.00\] So habits, i mean from a science perspective, just a neural network that's been built repeatedly over time. I don't know if you're familiar with the neurochemicals, but what I mean by that is sort of like the messengers that are specific to the brain. There's a key neurochemical that we call dopamine, that is really at the heart of habit formation. So habits are this embedded neural network, wherein this neurotransmitter says "That feels really good. Let's do that again."
+**Mireille B. Reece, Psy.D:** \[01:39\] So habits, i mean from a science perspective, just a neural network that's been built repeatedly over time. I don't know if you're familiar with the neurochemicals, but what I mean by that is sort of like the messengers that are specific to the brain. There's a key neurochemical that we call dopamine, that is really at the heart of habit formation. So habits are this embedded neural network, wherein this neurotransmitter says "That feels really good. Let's do that again."
 
 **Adam Stacoviak:** "That's a positive thing."
 
@@ -16,7 +16,7 @@
 
 So habits, fundamentally, are - there's a cue, then there is some anticipated response that goes with it, and then a reward that comes from that. This is why they're hard to break. Because remember that - and I think we've mentioned this in other episodes, but we are electrochemical beings... And that means that we have this energy, and so there's chemical processes, and there's electrical processes. So where I've mentioned about how neurons either fire or they don't, it's an all-or-nothing sort of gig that when our brains are cued to respond, the neuron fires, and then it connects to all these other neurons, which together we call a network... And that, when I have that same cue, it's like, the current just runs; it runs the same play.
 
-\[00:04:02.14\] There's a lot more research around this, even within the field of sports psychology, in terms of training... Because you want to practice training the way you wanna play, because your brain doesn't know the difference, whether it's a game or it's practice.
+\[04:02\] There's a lot more research around this, even within the field of sports psychology, in terms of training... Because you want to practice training the way you wanna play, because your brain doesn't know the difference, whether it's a game or it's practice.
 
 **Adam Stacoviak:** Michael Phelps is a famous example of that recently in the Olympics, with his training methodology... How he wanted to execute his run, his swim, whatever it was, his meet or whatever term they use for that... So his daily routine was as if it was a winning day every single day.
 
@@ -62,7 +62,7 @@ So habits, fundamentally, are - there's a cue, then there is some anticipated re
 
 **Mireille B. Reece, Psy.D:** So what they discovered was actually that even though just visualizing didn't build the same amount of strength in the thumb without doing the actual thing, it still did. It still did...!
 
-**Adam Stacoviak:** \[00:08:06.16\] I'm so hopeful...
+**Adam Stacoviak:** \[08:06\] I'm so hopeful...
 
 **Mireille B. Reece, Psy.D:** \[laughs\]
 
@@ -94,7 +94,7 @@ So we have to learn -- everybody has a habit they don't like, right? How do I th
 
 **Mireille B. Reece, Psy.D:** And so in all of our life, we're going to repeat things... It's like, whenever the energy is, no matter what. So if I can acknowledge that in some way, whatever I'm doing pays, then I can go "Alright, how do I hack it? How do I create an interrupt?" And interestingly, the way in which we hack it has to do with leaving the cue the same, and leaving the reward the same, but I'm going to run interference with that anticipated response, the middle.
 
-\[00:12:07.20\] So if it's in relationship, I'm always reacting, or I tend to yell when I don't want to yell. Or procrastination; I tend to put off, like "I know, I know it's not gonna pay to put this off, but it feels better right now to not do it."
+\[12:07\] So if it's in relationship, I'm always reacting, or I tend to yell when I don't want to yell. Or procrastination; I tend to put off, like "I know, I know it's not gonna pay to put this off, but it feels better right now to not do it."
 
 **Adam Stacoviak:** Yes...
 
@@ -130,7 +130,7 @@ So we have to learn -- everybody has a habit they don't like, right? How do I th
 
 **Adam Stacoviak:** Yeah, why would you wanna quit smoking whenever that's your buddy time, that's your hangout time...?
 
-**Mireille B. Reece, Psy.D:** \[00:16:06.26\] Exactly. So looking at going "Okay, in what way am I getting a hit of social connection when I do this habit?" I can talk about it from a more aversive standpoint, like looking at it from people who are fearful of or overwhelmed by going into the weight room in a gym.
+**Mireille B. Reece, Psy.D:** \[16:06\] Exactly. So looking at going "Okay, in what way am I getting a hit of social connection when I do this habit?" I can talk about it from a more aversive standpoint, like looking at it from people who are fearful of or overwhelmed by going into the weight room in a gym.
 
 **Adam Stacoviak:** I bet you about several thousand hands went up just now.
 
@@ -166,7 +166,7 @@ So I'm not going to then be prone to be like "Yeah, I think I'll go work out in 
 
 **Mireille B. Reece, Psy.D:** Okay.
 
-**Adam Stacoviak:** \[00:20:06.15\] So my initial hack to getting to where I'm at is "Let me find something that's fun to do as fitness, rather than feeling like a drone having to go to the gym, and being a robot etc." Not that that's bad. If it's for you, it's for you, whatever; it's not for me. So one layer to this is actually now that I really enjoy mountain biking and I realize that I'm less physically fit than I wanna be, while I do get my fitness from mountain biking, it doesn't mean I get stronger because of it. Over time I might, but it's not like lifting weights, or strength training, or even particular training you might wanna do to be better at mountain biking, which is a lot of upper-body movement, a lot of legs, a lot of back, a lot of core...
+**Adam Stacoviak:** \[20:06\] So my initial hack to getting to where I'm at is "Let me find something that's fun to do as fitness, rather than feeling like a drone having to go to the gym, and being a robot etc." Not that that's bad. If it's for you, it's for you, whatever; it's not for me. So one layer to this is actually now that I really enjoy mountain biking and I realize that I'm less physically fit than I wanna be, while I do get my fitness from mountain biking, it doesn't mean I get stronger because of it. Over time I might, but it's not like lifting weights, or strength training, or even particular training you might wanna do to be better at mountain biking, which is a lot of upper-body movement, a lot of legs, a lot of back, a lot of core...
 
 **Mireille B. Reece, Psy.D:** Yes.
 
@@ -200,7 +200,7 @@ I don't know if we've talked about this research study about the radishes and th
 
 **Mireille B. Reece, Psy.D:** Basically. And then they had plates of radishes and cookies in three different rooms. One group, they said "Hey, we just need you guys to sit here, and you can eat as many radishes or cookies as you want. Just wait, we'll be back in a little while."
 
-\[00:23:50.19\] The next group, they said "Hey, you guys can eat as many radishes as you want, but no cookies. You need to stay away from those." And the last group, they were like "I know you see this plates of radishes and cookies, but you need to just totally abstain, alright? We'll be back in a little while."
+\[23:50\] The next group, they said "Hey, you guys can eat as many radishes as you want, but no cookies. You need to stay away from those." And the last group, they were like "I know you see this plates of radishes and cookies, but you need to just totally abstain, alright? We'll be back in a little while."
 
 So after some time passed, they came in and gave the different groups puzzles to solve. The only problem was that these puzzles weren't actually solvable. Right, always psychologists, I'll tell you.
 
@@ -234,7 +234,7 @@ So how do we then hack these and change our habits, considering these other fact
 
 **Adam Stacoviak:** You won't.
 
-**Mireille B. Reece, Psy.D:** \[00:28:09.08\] Yeah. So then it's easy. It's not really a decision, because either I do it right now, or I don't. Period.
+**Mireille B. Reece, Psy.D:** \[28:09\] Yeah. So then it's easy. It's not really a decision, because either I do it right now, or I don't. Period.
 
 **Adam Stacoviak:** Yeah. Well, you have to think about your time, too. You might be able to put some time in in the evening time, but that would take away from other things you're optimizing for.
 
@@ -254,7 +254,7 @@ I really think that is a key part, because as we talked about initially too, fee
 
 **Mireille B. Reece, Psy.D:** Sure.
 
-**Adam Stacoviak:** \[00:32:04.18\] ...a bad habit may induce vulnerability, and a good habit may induce the opposite of vulnerability. Strength. So when we're in bad habit zone - if that's a figurative place to be - we feel vulnerable, and therefore we just feel less in control of our life.
+**Adam Stacoviak:** \[32:04\] ...a bad habit may induce vulnerability, and a good habit may induce the opposite of vulnerability. Strength. So when we're in bad habit zone - if that's a figurative place to be - we feel vulnerable, and therefore we just feel less in control of our life.
 
 **Mireille B. Reece, Psy.D:** Sure, and I would offer that part of that is really your experience, physiologically and emotionally, would be one wherein your locus of control lies outside of you. So I am only able to manage myself to the degree that I can manage everything in my world that I actually don't have a charge over... Which doesn't work.
 
@@ -296,7 +296,7 @@ I really think that is a key part, because as we talked about initially too, fee
 
 **Adam Stacoviak:** Yeah.
 
-**Mireille B. Reece, Psy.D:** \[00:35:56.05\] Second to that, we talk about having a sense of awareness, and the awareness would look like "Does it work for me? Does it take me closer to or farther from my goal?"
+**Mireille B. Reece, Psy.D:** \[35:56\] Second to that, we talk about having a sense of awareness, and the awareness would look like "Does it work for me? Does it take me closer to or farther from my goal?"
 
 **Adam Stacoviak:** Right, the things you're trying to do in life, whether it's career, or personal, or whatever the scenario is. What your long term goal is, essentially.
 
@@ -338,7 +338,7 @@ In the world of brain injury talked about our board of advisors, because their b
 
 **Adam Stacoviak:** Yeah.
 
-**Mireille B. Reece, Psy.D:** \[00:39:53.06\] If we're looking at the social component, identifying our resources, then go "What nuances, what am I going to now replace it with?" I've identified how it doesn't work, how it's gonna benefit me, so I can hold that... And sometimes even putting that in your visual field, because we're all sort of dense. We just forget because we'll be distracted by X, Y or Z...
+**Mireille B. Reece, Psy.D:** \[39:53\] If we're looking at the social component, identifying our resources, then go "What nuances, what am I going to now replace it with?" I've identified how it doesn't work, how it's gonna benefit me, so I can hold that... And sometimes even putting that in your visual field, because we're all sort of dense. We just forget because we'll be distracted by X, Y or Z...
 
 **Adam Stacoviak:** Oh, yeah.
 
@@ -370,7 +370,7 @@ In the world of brain injury talked about our board of advisors, because their b
 
 **Adam Stacoviak:** Yeah, that's so true. There's a lot of things in the moment we can't -- it often happens actually in forms like this, where you're speaking publicly, lots of people are listening, and you sort of get one chance to say it right; in retrospect, you're like "Oh man, I should have said that thing instead of this thing." But in the moment, there's just too much going on for you to truly recall what you might have wanted to do.
 
-**Mireille B. Reece, Psy.D:** \[00:43:50.18\] So imagine you're creating a forced choice option. I'm saying "I can take my clothes with me, I could change there at work, or I could figure out a way that a gym is in-between my work and my home, versus having to drive past my house. I could actually alter my route home so as to include that, or I could look at who I'm going to meet at work, or at home, or whatever, making myself accountable", so that I'm pulling on these different threads to help make me more accountable to the follow-through.
+**Mireille B. Reece, Psy.D:** \[43:50\] So imagine you're creating a forced choice option. I'm saying "I can take my clothes with me, I could change there at work, or I could figure out a way that a gym is in-between my work and my home, versus having to drive past my house. I could actually alter my route home so as to include that, or I could look at who I'm going to meet at work, or at home, or whatever, making myself accountable", so that I'm pulling on these different threads to help make me more accountable to the follow-through.
 
 **Adam Stacoviak:** So accountability, whether it's self-induced, or literally another human being - it seems like a key system to this as well.
 

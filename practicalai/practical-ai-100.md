@@ -100,7 +100,7 @@
 
 **Chris Benson:** True.
 
-**Jerod Santo:** \[00:04:30.05\] Regardless...
+**Jerod Santo:** \[04:30\] Regardless...
 
 **Chris Benson:** And we had to figure out if this whole AI thing was just a fad or not, you know...?
 
@@ -170,7 +170,7 @@
 
 **Daniel Whitenack:** I'm just looking at, for example -- I mean, Google Cloud, AWS, all these platforms have different things... So they have categories, like in Google Cloud they have \[unintelligible 00:07:55.17\] language, conversation, structured data and Cloud AutoML these object detection sort of things... Language... Of course, translation is very much used these days, but also transcription and speech recognition, and then there's conversation-type stuff, like chatbots, and like you're saying, sentiment analysis.
 
-**Jerod Santo:** \[00:08:20.27\] Right.
+**Jerod Santo:** \[08:20\] Right.
 
 **Daniel Whitenack:** Those are all definitely pre-built solutions for all of those things out there, for sure.
 
@@ -212,7 +212,7 @@ So when you're solving problems in other contexts -- you know, I think there's c
 
 **Chris Benson:** There is a rapidly-developing entire professional field that is addressing that, which is commonly called AI Ethics, or Responsible AI is another term for it; there are several terms that lend themselves to it, and they're tied into other terms, like Explainable AI... So yeah, there is definitely the recognition -- going back, Adam, to your determination to capture all your neighbors' images and enter them into the--
 
-**Adam Stacoviak:** \[00:12:13.18\] Yeah, I would do that with their knowledge. I would literally go to them with my iPhone and say "This is for my neural network to detect you, and not the (in quotes) bad guys or bad people that come into our cul-de-sac." Some realness behind that - our neighbor down the street... We live in a decent neighborhood, and our neighbor down the street got their tires stolen two days ago...
+**Adam Stacoviak:** \[12:13\] Yeah, I would do that with their knowledge. I would literally go to them with my iPhone and say "This is for my neural network to detect you, and not the (in quotes) bad guys or bad people that come into our cul-de-sac." Some realness behind that - our neighbor down the street... We live in a decent neighborhood, and our neighbor down the street got their tires stolen two days ago...
 
 **Chris Benson:** Oh, wow...
 
@@ -234,7 +234,7 @@ Also, I think there's still a perception that any sort of -- like, when develope
 
 **Jerod Santo:** It's funny, Daniel, I was listening to your guys' AI ethics episode, which was just recently, and I very much identified with you when you said that -- because Chris, you light up on this topic; I can tell you're into this. This is where you play, thinking at this level... And as a listener and a producer of the show, I feel like Daniel is more boots on the ground, slapping the code against the data kind of a person... And he's like "When I hear governance, or I hear these things...", he kind of resonated, and I was with him; \[unintelligible 00:15:44.13\] I'm just like "Oh, here we go again..."
 
-**Daniel Whitenack:** \[00:15:48.29\] Yeah, and I think it's what people don't realize though - and I don't think it's immediately obvious... In O'Reilly -- I forget who wrote the post. Maybe I can find it and put it in the show notes... But they wrote an article about doing good data science, ethical data science actually allows you to do better data science. I think that that is generally true in the sense that part of the whole governance aspect is understanding what data produced what AI model, that produced which predictions, at what time... And if you actually know those things, your development workflow can be sort of super-charged, because you're not duplicating your effort, you know what you did in the past, you can do some analysis to figure out what parameter space you've explored, and what issue popped up when you did what... So there is a lot of benefit there, and I think that's why certain of these practical tools plug in. We had an episode with Allegro AI recently, and they have an open source project called Trains, which helps you track a lot of these things...
+**Daniel Whitenack:** \[15:48\] Yeah, and I think it's what people don't realize though - and I don't think it's immediately obvious... In O'Reilly -- I forget who wrote the post. Maybe I can find it and put it in the show notes... But they wrote an article about doing good data science, ethical data science actually allows you to do better data science. I think that that is generally true in the sense that part of the whole governance aspect is understanding what data produced what AI model, that produced which predictions, at what time... And if you actually know those things, your development workflow can be sort of super-charged, because you're not duplicating your effort, you know what you did in the past, you can do some analysis to figure out what parameter space you've explored, and what issue popped up when you did what... So there is a lot of benefit there, and I think that's why certain of these practical tools plug in. We had an episode with Allegro AI recently, and they have an open source project called Trains, which helps you track a lot of these things...
 
 And there's other projects like Pachyderm, which is an open source project that helps track some of these things... So I think there is developing some tooling around it. It's still not super-streamlined. So still when you're on the ground, doing the development, it's not just like there's not road bump when you try to integrate these things.
 
@@ -256,9 +256,9 @@ I'm curious how the state of explainability has moved since you guys started the
 
 There's a book which you can actually read online, it's called Interpretable Machine Learning, by Christoph Molnar. You can just read through the entire book, and he talks about all sorts of things, from counterfactual explanations and adversarial examples... We just had a previous show on adversarial examples... So there is gradually more tooling and organized information out there, but I don't think there's a consensus on this subject either, like how to approach it... But there's just a series of tools in the toolbox that you can use. People are still developing those and still actively researching them.
 
-\[00:20:03.11\] And it depends too a little bit on the type of data and model, and such... When certain things happen, like there's a model that enhances an image and you put in Barack Obama's image, and then the enhanced image turns out like he's a white guy, and this blows up on Twitter, and stuff - that motivates a lot of... Like, in computer vision I think they've been struggling with this for quite some time. In other areas, like natural language processing it's probably a little bit newer.
+\[20:03\] And it depends too a little bit on the type of data and model, and such... When certain things happen, like there's a model that enhances an image and you put in Barack Obama's image, and then the enhanced image turns out like he's a white guy, and this blows up on Twitter, and stuff - that motivates a lot of... Like, in computer vision I think they've been struggling with this for quite some time. In other areas, like natural language processing it's probably a little bit newer.
 
-**Break:** \[00:20:37.07\]
+**Break:** \[20:37\]
 
 **Jerod Santo:** So let's talk about what has changed since that 2018 April to July timeframe, episode one through episode 100... I've been listening, I've been producing alongside, so I do know one thing; I'll cue you up, Chris, because I'd love for you to say it again, or say it to me... One thing you've seen and you've said, which I'm not quite sure I know what you mean by it is that you think that we're moving into a post-deep learning era... Or not post, but beyond deep learning era of AI. Can you say what you mean by that and explain it to me?
 
@@ -268,7 +268,7 @@ So it was a very exciting, very Wild West, you never know what's gonna happen ne
 
 So because we're seeing kind of an evolutionary progress, there's a lot of people in the space that are starting to say "Have we mined this for all the big new things?" Or maybe most of; I don't think we're there yet. But are we getting to a point where we had some maturity and we're having lots of just evolutionary improvements in the current space of deep learning? Because of that, a lot of people are turning back to AGI, which is Artificial General Intelligence - the idea of the AI that can kind of do multiple complex things, instead of this simple AI that we have, the narrow AI that is very good at doing one particular task.
 
-\[00:24:39.13\] So there's talk of something that if you would have said this to me two years ago when we started, I would have laughed, like "Ha-ha! There's no way." The idea of an AI winter at some point down the road - I don't think it's quite that, because... It may be that the research being in a slightly more mature area, it's focusing on lots of evolutionary things... But we probably have quite a ways to go before AGI. I think we might have a lot of commercialization over the next few years about what's already out here, because there's tons of industries that can use what's already been created and discovered... But how far are we from the next major step up revolutionary-wise, that's not just an evolution of the existing, but a new thing coming out...?
+\[24:39\] So there's talk of something that if you would have said this to me two years ago when we started, I would have laughed, like "Ha-ha! There's no way." The idea of an AI winter at some point down the road - I don't think it's quite that, because... It may be that the research being in a slightly more mature area, it's focusing on lots of evolutionary things... But we probably have quite a ways to go before AGI. I think we might have a lot of commercialization over the next few years about what's already out here, because there's tons of industries that can use what's already been created and discovered... But how far are we from the next major step up revolutionary-wise, that's not just an evolution of the existing, but a new thing coming out...?
 
 **Daniel Whitenack:** I always - and Chris knows. I kind of cringe a little bit when we talk about AGI and general intelligence, because I think what a lot of people mean by that doesn't mean what they think it means...
 
@@ -294,7 +294,7 @@ So because we're seeing kind of an evolutionary progress, there's a lot of peopl
 
 And to Chris' point as well - I think that people are gonna start trying new sorts of things. I've just looked up Sasha Rush from Hugging Face - we had him on the podcast a couple weeks ago... He was one of the organizers at ICLR, which is another one of the huge AI research conferences... And he posted a graph. He graphed over the last two years - while we've had the podcast - the keyword "growth" for certain topics in research over that 2018 to 2020, and I was actually somewhat shocked. So the top growth was a thing called graph neural networks, which is a new way of constructing neural networks to work on graph-structured data.
 
-\[00:28:00.10\] So I think that that's an indication that people are -- they pushed the architectures that people are used to pretty far, and they're searching for something new and exploring new areas and new types of structured data, new types of data, maybe multi-modal types of data, where multiple different types of data are linked... So that's really what I think of when I think of people pushing the boundaries of it.
+\[28:00\] So I think that that's an indication that people are -- they pushed the architectures that people are used to pretty far, and they're searching for something new and exploring new areas and new types of structured data, new types of data, maybe multi-modal types of data, where multiple different types of data are linked... So that's really what I think of when I think of people pushing the boundaries of it.
 
 **Chris Benson:** Yeah. But it's deep learning, specifically. If you think of AI as a broader collection of technologies that are advanced, these are more deep learning things... And I think some of the luminaries in this field talking more about what AGI means to them and what they think about that... And then you kind of have the co-commercialization thing going. So there's a little bit of divergence in some areas between the research community and the commercial interest, the commercial community... Because we're seeing deep learning models and architectures deployed in many different areas, but that is separate from what leading researchers at Google Brain or OpenAI or something like that would be focusing on.
 
@@ -324,7 +324,7 @@ We're already seeing models that in very specific areas can outperform any human
 
 **Chris Benson:** And has anyone noticed we have a princess bride theme going here? We keep saying the word "inconceivable"...
 
-**Jerod Santo:** \[00:32:01.05\] That's true.
+**Jerod Santo:** \[32:01\] That's true.
 
 **Chris Benson:** ...and we were saying "I don't think that thing means what you think that thing means..."
 
@@ -358,7 +358,7 @@ We're already seeing models that in very specific areas can outperform any human
 
 **Adam Stacoviak:** Exactly. I'd say that's the first magic trick to introduce this new generation of language prediction model and what it can do... It's very impressive that that blog post was generated. And then on some ethical level, do I trust that blog post less because it wasn't actually generated by a human? So why do I just trust humans so much more than anything else? That's an aside, but... I think like "Okay, this is the initial magic trick." What are the actual applications of it? What's beyond this blog post for GPT-3?
 
-**Daniel Whitenack:** \[00:36:18.19\] For me, I'm mostly interested in how people go about interacting with this model... Because the standard has been in the past that people train a model and then at some point a serialized version of that model is released, and you can load it into your own code and do nifty things with it. That's not going to happen in this case, for reasons that were on purpose, that they're releasing this via API; they're running it internally, they can shut it off when they want to... There's interaction patterns that are governed by that API, which aren't just kind of "You can do whatever you want." I think it'll be interesting to see how that influences how people are using it.
+**Daniel Whitenack:** \[36:18\] For me, I'm mostly interested in how people go about interacting with this model... Because the standard has been in the past that people train a model and then at some point a serialized version of that model is released, and you can load it into your own code and do nifty things with it. That's not going to happen in this case, for reasons that were on purpose, that they're releasing this via API; they're running it internally, they can shut it off when they want to... There's interaction patterns that are governed by that API, which aren't just kind of "You can do whatever you want." I think it'll be interesting to see how that influences how people are using it.
 
 Obviously, as you've already seen, there's a lot of creative uses already, but I think that -- I know these reasons why they did this, and that's within OpenAI's set of AI principles, but it also somewhat constrains or puts some boundaries on how you're going to use it. I'm mostly actually interested not so much in the application, because I think it'll be something similar to what we've seen in the past, maybe just leveled up a notch, but more how people figure out ways to use the API, or develop workarounds or creative uses, and that sort of thing. So workflow-wise it's very different.
 
@@ -374,7 +374,7 @@ So when you're detecting that, I think it's less about -- you know, it's not tha
 
 **Daniel Whitenack:** That fear element - to me, it comes down to a couple different pieces. One, this is trained on so much data in a sort of programmatic way that -- like, when you scrape 80 million websites, you don't always know what's gonna happen if you train a model on that, and what your output is gonna be... So there is this element of "How do you probe all of the unexpected things that could be output from this model?" That's a hard piece.
 
-\[00:40:01.27\] The other thing - yeah, any tool can be used for good and bad, but if you think of different tools... Like, we can all go get a hammer from the hardware store, and I can choose to hang a picture on my wall with that hammer, or I can choose to hit someone over the head with the hammer.
+\[40:01\] The other thing - yeah, any tool can be used for good and bad, but if you think of different tools... Like, we can all go get a hammer from the hardware store, and I can choose to hang a picture on my wall with that hammer, or I can choose to hit someone over the head with the hammer.
 
 **Chris Benson:** Don't do that.
 
@@ -386,7 +386,7 @@ Those Uyghurs - they can't go out to some store and get that same technology. Th
 
 I think it's not unique to AI, it's any tooling, but it's going really fast, in general... If you look at the fact that over just a decade we've made profound advancements in this area, that are usable... So this is part of society, this is part of culture. We have to get solutions to this, and it's not gonna stop any time soon; so rather than be afraid of it, we just need to be focused on answering it effectively. We need great minds to put their attention on it.
 
-**Break:** \[00:42:22.15\]
+**Break:** \[42:22\]
 
 **Jerod Santo:** So y'all have done 100 episodes, and I've been curious to ask you this for a while, which is that when we set out to do this show, we called it Practical AI, and that first word has really been a primary focus of the show, and maybe a guiding light, to a certain degree. I remember hearing Daniel oftentimes saying "It is Practical AI..." He'll use that as a way of turning the conversation into the practical aspects of deploying and using these technologies... But I'm wondering if you've felt like that's limited you, or made the show go in directions that you haven't wanted it to, or if there's maybe even an inkling of a regret of being pigeon-holed into the Practical AI podcast.
 
@@ -400,7 +400,7 @@ I think it's not unique to AI, it's any tooling, but it's going really fast, in 
 
 **Daniel Whitenack:** I don't know... I guess you could interpret practical as being practitioner, in the sense of tutorials and implementation tooling sort of things... But we have gone into things like ethics or like the use of AI for good, or telling stories, more so than just highlighting methods, I guess... And to me, that still fits within the practicalities. The same reason why you wanna see case studies or whatever when you're looking at a particular tool or a product, or something like that; you wanna get a sense of how people are using a thing, you wanna get a sense of how people are thinking about a thing that maybe you haven't thought about as much... So to me, I don't necessarily feel pigeon-holed. I think we have gone into certain of those things, but it's kept us away from... To me, it's brought a bit of focus, so that we're not always talking about Terminator, and those things...
 
-**Chris Benson:** \[00:44:29.27\] To be honest, and since you asked, I haven't thought of it that way... But I'm gonna actually say "Occasionally", just to give a different perspective. I would imagine that anyone whose listening to us for a while has heard me -- between the two of us, I tend to be the one that gets out there into the speculative realm more often...
+**Chris Benson:** \[44:29\] To be honest, and since you asked, I haven't thought of it that way... But I'm gonna actually say "Occasionally", just to give a different perspective. I would imagine that anyone whose listening to us for a while has heard me -- between the two of us, I tend to be the one that gets out there into the speculative realm more often...
 
 **Daniel Whitenack:** Yeah. I'm the downer that always is like "I don't know how to implement that for my terminal, so... I'm out."
 
@@ -440,7 +440,7 @@ I think it's not unique to AI, it's any tooling, but it's going really fast, in 
 
 **Chris Benson:** I think that we keep it, for the most part - and even me, despite my confession a moment ago - I think this is real life. When we were starting AI, it was still very young and cool, and most organizations didn't have that as a capability in-house; and that's still developing. But right now, it's no longer the thing where it's the strictly aspirational intent. It's now something that a lot of organizations are incorporating, and they have really practical problems to deal with, like "Okay, we now know how to address an architecture and produce a model that can be deployed, and how do I get that into our deployment methodology? How do we get it out to our customers? How do we do that?" I think that's where 99% of AI is and should be, I think. And for most people, if you're not strictly a researcher.
 
-\[00:48:10.14\] So I think my sense is that we've given a platform for that, for people to talk about it, and to come on the show and to help others, and I think one of the things that might have set us apart is that we're always thinking about "Is this gonna be meaningful for listeners who are trying to do it themselves out there?" I think that's where Daniel's "Well, this is Practical AI...", drawing us back on the line, is really important... Because it's fine to dream a little and it's fine to speculate a bit, but for the most part, people are trying to figure it out and get work done, and I think that we actually help them get there.
+\[48:10\] So I think my sense is that we've given a platform for that, for people to talk about it, and to come on the show and to help others, and I think one of the things that might have set us apart is that we're always thinking about "Is this gonna be meaningful for listeners who are trying to do it themselves out there?" I think that's where Daniel's "Well, this is Practical AI...", drawing us back on the line, is really important... Because it's fine to dream a little and it's fine to speculate a bit, but for the most part, people are trying to figure it out and get work done, and I think that we actually help them get there.
 
 **Daniel Whitenack:** Yeah. I think "useful" and "meaningful" are two words that have been mentioned in the past a couple of minutes that are to me important... So there are useful and meaningful things that are not code, or implemented on GitHub. There's things that influence our workflow and the problems that we solve that are still useful and meaningful, but not talking about a framework, or a specific open source project, or something like that... So yeah, I agree with that.
 
@@ -466,7 +466,7 @@ There was one representing a project from DataRobot, where they were trying to d
 
 **Daniel Whitenack:** Wojciech Zaremba...
 
-**Chris Benson:** \[00:51:55.01\] Oh, yeah...
+**Chris Benson:** \[51:55\] Oh, yeah...
 
 **Daniel Whitenack:** A lot of different people.
 
@@ -484,7 +484,7 @@ I really would like to see us be more successful in the next 100 episodes for tr
 
 **Chris Benson:** The reach, I think -- Daniel and I came into this not having ever done this before. And Adam, you and Jerod have been doing this for years, and you're real pros at it. I think it was very surprising to me when -- it wasn't a big deal kind of thing, but when I joined my current employer, and I'd meet some people and they'd say "Oh, I really enjoy your podcast, by the way. I just wanted to let you know that", as we're meeting... It was a quiet thing, and no big deal, but it was like "Wow, the reach is really there, and the conversation that that creates is really there." And I've ended up away from the podcast, having a lot of conversations about topics that we address, because you'll meet people out there and they're like "By the way, you did this episode on this topic, and it just really struck a cord with me", and you'll end up spending 15-20 minutes just \[unintelligible 00:56:02.10\] it might have been an episode from many months ago...
 
-\[00:56:07.04\] That's had a fairly profound impact on my awareness that that sense of community is not always completely apparent, but we have developed that. And AI is getting there, it's following other technical communities in that way. The need was recognized, and people are choosing to opt in, and that's something that's truly gratifying, from my standpoint.
+\[56:07\] That's had a fairly profound impact on my awareness that that sense of community is not always completely apparent, but we have developed that. And AI is getting there, it's following other technical communities in that way. The need was recognized, and people are choosing to opt in, and that's something that's truly gratifying, from my standpoint.
 
 **Jerod Santo:** So my interview skills failed me once again... I asked two questions, allowing you to slip the second question... But my persistence pays off, so I'll ask that one again - struggles. Doing podcasts is hard, getting to 100 is hard, most people fade, and there's a lot of work involved. What have been some struggles along the way. We know we had life problems, guests problems, scheduling problems... You know, it's not all roses and rainbows, so what have been some of the struggles along the way?
 

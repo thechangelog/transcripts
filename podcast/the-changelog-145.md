@@ -1,6 +1,6 @@
 **Adam Stacoviak:** Welcome back, everyone. This is The Changelog and I'm your host, Adam Stacoviak. This is episode 145, and today Jerod and I are talking to David Heinemeier Hansson, DHH as he's better known. He's one of the most influential software developers out there, and crazy as it might be, we've never had David on this show before... 145 episodes into The Changelog, several years into The Changelog and this is the first time we're having David on the show. But we have him on the show for a big show. One hour and forty-five minutes of nothing but me, Jerod and David talking about 10+ years of Rails... A fantastic show today, you're gonna love it.
 
-**Break:** \[00:00:46.28\]
+**Break:** \[00:46\]
 
 **Adam Stacoviak:** So we've got Jerod on the line... Jerod, say hello.
 
@@ -36,7 +36,7 @@
 
 **Adam Stacoviak:** Author, racer...
 
-**David Heinemeier Hansson:** \[00:04:13.27\] Yeah, I wrote a couple books.
+**David Heinemeier Hansson:** \[04:13\] Yeah, I wrote a couple books.
 
 **Adam Stacoviak:** I'm super interested to see that you actually drive a race car. That's so cool. I tried to drive a race car on the streets, it's called a Mustang, but whatever...
 
@@ -60,7 +60,7 @@ To try Ruby for Basecamp, I obviously needed just to build some stuff, because t
 
 **Jerod Santo:** You seem to hit upon a lot of ideas that were avant-garde at the time; nowadays, people who are new to web development, these are kind of -- they're not clichés, but they're tried and true things that other frameworks have borrowed over time. I think a few shows back we had Taylor Otwell on, of Laravel, the PHP framework which was getting a lot of traction, and he mentioned you a few times as an inspiration, and Rails itself.
 
-\[00:08:15.24\] Some of those things, like a conventional reconfiguration, the opinionated aspect of Rails and a few other things - where did those ideas come from?
+\[08:15\] Some of those things, like a conventional reconfiguration, the opinionated aspect of Rails and a few other things - where did those ideas come from?
 
 **David Heinemeier Hansson:** I had been exposed to PHP and I had been exposed to Java, as I said, and that obviously taught me a lot... And a lot of what it had taught me was things I did not want. I did not wanna waste my time doing -- we called it in the early days "XML sit-ups." That was a stable of configuring any web application in Java, that there was just a ton, a mountain of XML. I remember looking at applications and talking to people working on apps where the XML configuration files were larger than a working, functional copy of Basecamp... And that was, of course, just crazy, right? But that was accepted at the time; people thought "What? A 2,000-line XML file? Why do you say that's crazy? That's decoupled. Now we have it in XML, that means it's magically good."
 
@@ -70,7 +70,7 @@ That's a bit of an overstatement... Of course I wasn't feeling like crap all the
 
 The question wasn't "How do we make the programmer feel good?", the question was "How do we do all these other things that are sort of sympathetic to the machine, sympathetic to the compile process" or whatever else have you. They were not about "How do you make the programmer feel?" and they were certainly not about how do we pick the human over the computer when the two are at odds?" which very often happens. We do ludicrously inefficient things in Ruby and in Rails, to this day, because we pick the human. If we were picking the computer, we'd do things in a totally different way, but we're not.
 
-\[00:11:45.03\] That was just an a-ha moment, that Ruby sort of gave me permission to think those lines of thought. I already had this discontent, but I didn't know where to take the discontent and feeling like "This is not great... Ugh, it's frustrating! Why can't I get stuff done?" Then all of a sudden Ruby comes in and says "Ding! Let's turn on the light", and then all of a sudden I go "Oh, that's possible... Well, I'm gonna get on this horse, and I'm gonna ride it fast."
+\[11:45\] That was just an a-ha moment, that Ruby sort of gave me permission to think those lines of thought. I already had this discontent, but I didn't know where to take the discontent and feeling like "This is not great... Ugh, it's frustrating! Why can't I get stuff done?" Then all of a sudden Ruby comes in and says "Ding! Let's turn on the light", and then all of a sudden I go "Oh, that's possible... Well, I'm gonna get on this horse, and I'm gonna ride it fast."
 
 **Adam Stacoviak:** So that's where Rails came from with Basecamp then, basically... It was your love and passion for a rethinking of how you can program, and the idea that you had this open abyss, because Jason didn't care, and it was in your core to choose, so if you were choosing, you were choosing developer happiness, so if you're building something, you might as well do that. But at what point though when you were building Basecamp did you really think that you were building something that was a framework?
 
@@ -84,7 +84,7 @@ I remember thinking, "Yeah, they're probably not gonna have that if they just co
 
 **Jerod Santo:** You felt this sort of obligation to the open source community, and you have your Basecamp product coming out and you decided to go ahead and make a framework of it... You also did something which again was, I think, unique back in 2004, and nowadays is just kind of compulsory for everybody who wants to get a framework or a project out there that has some good coverages, which is you did a demo video... A 15-minute Rail demo. What did you do, building a blog in 15 minutes?
 
-**David Heinemeier Hansson:** \[00:16:08.21\] Yup, building a blog.
+**David Heinemeier Hansson:** \[16:08\] Yup, building a blog.
 
 **Jerod Santo:** That really seemed to work well... What made you decide to do that?
 
@@ -102,7 +102,7 @@ I remember from the early days of Rails advocacy that that was the insult that w
 
 **Jerod Santo:** Yeah, it's an idealist idea, that the cream always rises to the top. I know my dad used to always say that to me, and he's a bit of a romantic as well. I wish I could believe that, but I'm with you that you have to actually put stuff out there and you do have to advocate, especially because there's so much noise. If you're gonna be heard through all the noise, you've gotta speak up. I can just see how people would take that confidence as arrogance, but it worked.
 
-**Adam Stacoviak:** \[00:20:11.03\] I have a slightly different angle on this though, because while I remember your charismatic ways and your ability to get an audience enthusiastic about what you're showing off, I also remember the whoops, and I almost wonder if that was part of your marketing plea, because you were just so -- and you said you're a Dane, you've got an accent, and maybe that's something people say differently over there, I don't know... But I always remember that part being like the virality I guess of what you were doing, because you were like "Something that should be so easy, was so easy", and what you built, and then the whoops just sort of added to it.
+**Adam Stacoviak:** \[20:11\] I have a slightly different angle on this though, because while I remember your charismatic ways and your ability to get an audience enthusiastic about what you're showing off, I also remember the whoops, and I almost wonder if that was part of your marketing plea, because you were just so -- and you said you're a Dane, you've got an accent, and maybe that's something people say differently over there, I don't know... But I always remember that part being like the virality I guess of what you were doing, because you were like "Something that should be so easy, was so easy", and what you built, and then the whoops just sort of added to it.
 
 **David Heinemeier Hansson:** That's pretty funny, because at the same time that's one of the things that rubbed other people the wrong way, especially back in... I think the video recording is from 2004-2005.
 
@@ -118,7 +118,7 @@ What I then did was I basically -- I think I just played that audio in the backg
 
 These days of course any open source framework or library should have a slick marketing page. Of course it should have advocacy. These things were not true at that point, but now they are, and the world is a better place, in my opinion, for it. I don't care whether people remember that as how much did that video have to do with it... I just care about "Today is better", and that's really my primary motivation for a lot of things that I do; I just wanna make today and tomorrow better, and once they are, who cares what they byline really said?
 
-**Jerod Santo:** \[00:24:08.05\] Well, open source has grown up quite a bit since then, and nowadays who's not gonna ship a fancy marketing page and a video with their project? Of course, there's also a lot of money floating around open source; we know you have opinions on that, so we'll probably get to that a little bit later... This video is actually on YouTube, so anybody who wants a trip down memory lane, we'll link that up in the show notes.
+**Jerod Santo:** \[24:08\] Well, open source has grown up quite a bit since then, and nowadays who's not gonna ship a fancy marketing page and a video with their project? Of course, there's also a lot of money floating around open source; we know you have opinions on that, so we'll probably get to that a little bit later... This video is actually on YouTube, so anybody who wants a trip down memory lane, we'll link that up in the show notes.
 
 You can watch it on YouTube, but I got to thinking... You shipped this in 2004, but YouTube came around in 2005. Man, I don't even know how you'd get videos on the internet in 2004. Remember?
 
@@ -136,7 +136,7 @@ Yeah, there are a lot of things that we take for granted today that just didn't 
 
 **Adam Stacoviak:** And now a word from our sponsor.
 
-**Break:** \[00:25:32.00\]
+**Break:** \[25:32\]
 
 **Adam Stacoviak:** You know, we were talking here a bit about beginnings and whatnot; we talked a little bit about why you chose Ruby, and I think another question that comes from maybe opening up this idea of 10+ years of Rails is did you intend to build a framework and did you intend to influence the open source community to sort of begin building more frameworks and more boilerplates; Jerod and I talked in the pre-talk before about Java and other open source projects having frameworks, but it seems like if you go back in history, the spark of Rails sort of sparked this idea of "Wow, I can framework something and ship it as open source and do what David did."
 
@@ -144,7 +144,7 @@ Yeah, there are a lot of things that we take for granted today that just didn't 
 
 Strut was one of the major ones back in the day when I got started working. There were a couple other things... But there was enough there for me to learn from. So certainly by no means was Rails like an original idea as sort of a framework. Perhaps the thing that I tried to push and was sort of original at the time was the notion of the full stack
 
-**Adam Stacoviak:** \[00:28:00.10\] That's true.
+**Adam Stacoviak:** \[28:00\] That's true.
 
 **David Heinemeier Hansson:** Rails would ship with the whole thing, the whole enchilada. It would not be this compilation of just loosely coupled ideas that you had to piece together and configure yourself, because that was one of the things I truly hated about the Java approach - every single project, when they started out, they had to spend a week just configuring the bits and selecting the bits even, which required researching the bits, and contrasting the bits, and I just thought--
 
@@ -164,7 +164,7 @@ Most programmers are enamored with this idea of loosely coupled bits, the unit p
 
 If you have a very particular affinity for, say -- I love riffin' on this, so I'll do it again... RSpec as your testing environment - you can slot that into Rails, and it'll be great. If you don't have a specific thing -- Rails ships with something great in the box, with sort of a test unit style, and it'll work wonders for you, right? And everyone can do that. There's tiny little substitutions, but they don't have to prepare the whole thing from scratch.
 
-\[00:32:12.08\] What we're giving you is not just a bunch of ingredients and say "Hey, here's how you mix it." We give your finished 21-course meal, and then you can say "Alright, I don't like shellfish, so skip fish number seven."
+\[32:12\] What we're giving you is not just a bunch of ingredients and say "Hey, here's how you mix it." We give your finished 21-course meal, and then you can say "Alright, I don't like shellfish, so skip fish number seven."
 
 **Adam Stacoviak:** I like the analogy.
 
@@ -182,7 +182,7 @@ If you have a very particular affinity for, say -- I love riffin' on this, so I'
 
 **David Heinemeier Hansson:** And I embrace it. I agree with that point. Yes, the closer your app is to Basecamp, the closer you will be to having the same opinions as me on most things. Now, the point of derision that I don't agree with, of course, is that Basecamp is so very unique, that Basecamp is this special application that is unlike most other applications. I believe that the first statement is true, that Rails is a better fit for you the more your application is like Basecamp, because I also believe that Basecamp is like most applications most of the time, when it comes to the web. In fact, I'll go even further than that, I'll say that -- this is perhaps the point where we cross into arrogance - more applications would be better off if they were more like Basecamp more of the time. And I'm talking about that on a technical level, not necessarily on a UI level, although there is some bleeding going back and forth there.
 
-\[00:35:55.25\] I think that there's lots of applications out there that are trying to be needlessly novel in order to satisfy the egos of programmers who do not wanna feel like they're working in cookie-cutter domains, that they somehow attach their self-worth to how novel their application is... And then they create artificial novelness by picking technical stacks and so forth that are off the trodden path, just so they can feel special. That's a lot of third-party remote psychoanalysis, but there it is.
+\[35:55\] I think that there's lots of applications out there that are trying to be needlessly novel in order to satisfy the egos of programmers who do not wanna feel like they're working in cookie-cutter domains, that they somehow attach their self-worth to how novel their application is... And then they create artificial novelness by picking technical stacks and so forth that are off the trodden path, just so they can feel special. That's a lot of third-party remote psychoanalysis, but there it is.
 
 **Jerod Santo:** Yeah, I think there's probably some generalizations in there where, you know...
 
@@ -192,7 +192,7 @@ If you have a very particular affinity for, say -- I love riffin' on this, so I'
 
 **Adam Stacoviak:** And now, a word from our sponsor.
 
-**Break:** \[00:36:42.19\]
+**Break:** \[36:42\]
 
 **Jerod Santo:** Let's get back to a little bit of history, I think. 1.0, December 13th, 2005. What was Rails at 1.0? Was it just an ORM with an MVC? What all was in there?
 
@@ -202,7 +202,7 @@ We did not have Action Mailer, we did not have whatever else that we had if we d
 
 **Jerod Santo:** Yeah, it's funny, you have Basecamp, which is the de facto legacy Rails app, right? It's the longest one that's been around, but it's also made the migration step by step. Just to give a little bit of my background - I've been doing Ruby on Rails since about 2006 amongst other things, but I still support a Rails app for a customer that's sitting on 1.1.6. By the time I inherited it, it had been too far gone to get it up, and... It's really a maintenance project, just change this, change that, make sure things don't go down, but that -- what you've just said, it kind of resonates, because yeah, it's antiquated, there's things that are missing, that I go back to and I'm like "Oh, this is death", but the guts are still the same. It's still a Rails app. Not too far gone than what we're working with nine years later, or ten years later for 1.0.
 
-**David Heinemeier Hansson:** \[00:40:31.03\] I think that's the DNA. You can recognize the DNA. Because the fundamental opinions about being a full stack framework and an integrated system and the idea of NBC as the basic skeleton and so forth - those decisions remain as valid today as they were back then for Rails, so that's why you still recognize the DNA. We've had all sorts of change, but it's been mostly evolutionary change, and it's been change to deal with new problems that have been thrown at us, less revisiting the core assumptions of the original framework. And that's not by design; I don't feel necessarily better about that.
+**David Heinemeier Hansson:** \[40:31\] I think that's the DNA. You can recognize the DNA. Because the fundamental opinions about being a full stack framework and an integrated system and the idea of NBC as the basic skeleton and so forth - those decisions remain as valid today as they were back then for Rails, so that's why you still recognize the DNA. We've had all sorts of change, but it's been mostly evolutionary change, and it's been change to deal with new problems that have been thrown at us, less revisiting the core assumptions of the original framework. And that's not by design; I don't feel necessarily better about that.
 
 There's a lot of people who are like, "Oh yeah, I set that five years ago and it's still true. Am I not awesome because of that?" and I'm like, I don't give a hoot whether Rails looked the same 1.0 as it does at 5.0. That's not the important thing to me. The important thing to me is that we continue to work with a framework that we love working with, and we're making it better and we're making it the best it can be at all times. That's really the core for me. I would hate it if Rails was somehow tied to decisions ten years back if it meant stopping us from realizing the best Rails that Rails can be.
 
@@ -210,7 +210,7 @@ There might be lots of people that are like "Oh, Rails is outdated" and they wan
 
 **Jerod Santo:** Early on obviously it was just you making commits, and I'm curious if by 1.0 you had contributors yet, but today we see over 2,600 contributors. It takes more than one guy to start a revolution, so to speak, so obviously you weren't the only one involved, at least not after the video went viral... Who were some of those early adopters that really jumped on board, started committing and helping out early on?
 
-**David Heinemeier Hansson:** \[00:43:59.16\] Sure. Well, first of all, the 2,600 - that's just on GitHub. We actually track all the way back from when we were on SVN too, and I think we even have some history from CVS, and the full contributor count is I think 3,800. That was the tweet I was tweeting earlier today, it's just a staggering number of people.
+**David Heinemeier Hansson:** \[43:59\] Sure. Well, first of all, the 2,600 - that's just on GitHub. We actually track all the way back from when we were on SVN too, and I think we even have some history from CVS, and the full contributor count is I think 3,800. That was the tweet I was tweeting earlier today, it's just a staggering number of people.
 
 In any case - yeah, some of those early people... Quite early, quite quickly I realized when I started talking about Rails on the mailing list that there were indeed other people who worked on web stuff in Ruby at the time, even though it didn't seem so, because it wasn't very visible. Ruby as a thing was not very visible back in 2003.
 
@@ -240,7 +240,7 @@ Perhaps some of those people are pretty well known. There's a couple other guys 
 
 **Adam Stacoviak:** I had him at whoops.
 
-**David Heinemeier Hansson:** \[00:47:48.27\] Yeah, there's no way that I think anyone could have foreseen that. What I did foresee though was that it was gonna be popular. The reason I knew this was it just felt so much better. I knew pretty quickly into it that "Holy crap, this is not just like 10% better, 15% better than what I was doing before... This is multiple times, if not an order of magnitude better", and by better defined as enjoyable, productive and all these other things. At least for me. And I thought if I'm feeling an order of magnitude jump in productivity and enjoyment, when I release it maybe people won't get that order of magnitude, but maybe they'll get two times or three times; they won't get 15%.
+**David Heinemeier Hansson:** \[47:48\] Yeah, there's no way that I think anyone could have foreseen that. What I did foresee though was that it was gonna be popular. The reason I knew this was it just felt so much better. I knew pretty quickly into it that "Holy crap, this is not just like 10% better, 15% better than what I was doing before... This is multiple times, if not an order of magnitude better", and by better defined as enjoyable, productive and all these other things. At least for me. And I thought if I'm feeling an order of magnitude jump in productivity and enjoyment, when I release it maybe people won't get that order of magnitude, but maybe they'll get two times or three times; they won't get 15%.
 
 I thought if you're sitting on that kind of leap, there's no way that's not gonna have some uptake, there's no way that people are just gonna say "Meh, I don't care. So what if I can have like three times the amount of fun and be three times as productive...? No big deal to me" - absolutely not. But, it's still a huge, huge jump from that to where we are today.
 
@@ -258,7 +258,7 @@ Lots of people, they just look at "What was made with this? What can you make wi
 
 **David Heinemeier Hansson:** Okay, so you can make anything with anything, right? So it's kind of a funny test, but I think it's also just a very primal one. We wanna see "What was it up to?" and I think at the very least it just lends credibility to the builders. If the first app that was made with Rails was some crappy piece of crap that nobody wanted to use, and it looked terrible and it didn't have any customers and so on, that would have made it harder to sell Rails, of course it would, right?
 
-**Adam Stacoviak:** \[00:52:15.17\] We had a similar conversation recently with Rob Eisenberg. He created Durandal, and then recently two JavaScript client frameworks... And Durandal, the product he created with it, it had since failed not so much because of the framework, but because of the business model or the company or whatever - I'm not really sure the details, but I guess that's sort of unique to look at with Rails. It sounds like what you're saying is that Rails may have had some success because of the fact that you always had the great business behind Basecamp, and you always had one shining object at least -- you know, Shopify and many, many others of course; I'm not saying that Basecamp was the only one, because there's plenty of other really good successes out there, but you could always depend on Basecamp to say "Rails is good because Basecamp is good."
+**Adam Stacoviak:** \[52:15\] We had a similar conversation recently with Rob Eisenberg. He created Durandal, and then recently two JavaScript client frameworks... And Durandal, the product he created with it, it had since failed not so much because of the framework, but because of the business model or the company or whatever - I'm not really sure the details, but I guess that's sort of unique to look at with Rails. It sounds like what you're saying is that Rails may have had some success because of the fact that you always had the great business behind Basecamp, and you always had one shining object at least -- you know, Shopify and many, many others of course; I'm not saying that Basecamp was the only one, because there's plenty of other really good successes out there, but you could always depend on Basecamp to say "Rails is good because Basecamp is good."
 
 **David Heinemeier Hansson:** And there was this symbiotic relationship. Rails derived a lot of legitimacy from being extracted from Basecamp, and Basecamp got a lot of leads because people got interested in Rails. And sometimes people over-subscribe how much truly came out of that; these days, if you ask the vast majority of Basecamp customers do they know what Rails is, I guarantee you that they'll say "What? I don't know what that is", but in the early days it helped, and it helped because when you're sort of trying to get a business off the ground you don't need millions of people, you just need first a few hundred, and then a few thousand... And in those early days I think the association with Rails was part of that larger marketing strategy that we were gonna out-teach the competition. We were gonna share more than anybody else, we were gonna share more of our recipes and more of our technology...
 
@@ -278,7 +278,7 @@ And of course, even to this day, it's still a great way of attracting people. Ba
 
 **Jerod Santo:** Okay. Share a little bit on that; we don't have to go too far into the Merb and Rails history, but kind of how that came about and how Merb affected Rails during that time.
 
-**David Heinemeier Hansson:** \[00:56:02.01\] Sure. So at that time one of the big Rails shops was Engine Yard. They were doing hosting for Rails applications, and Ezra started Merb initially I believe - I'm a little fuzzy on the history, but as a sort of "Oh well, if you have some performance issues with these parts of Rails (which was something that they were seeing in their deployments), you can use this smaller, targeted thing." It was kind of -- at least as I saw it, it started more as sort of a Sinatra kind of thing, like "Let's create some microservices for a few things", and then it kind of just grew from there, to the point where a lot of what was going into Merb was just (from my perspective) a bit of a reimplementation of many of the things we had in Rails. When I looked at Merb, I didn't actually see a lot of philosophical differences, I didn't see a lot of things that like "Oh yeah, of course this can't be in Rails." I started wondering, "This is great work... Why do we not have these things in Rails itself?"
+**David Heinemeier Hansson:** \[56:02\] Sure. So at that time one of the big Rails shops was Engine Yard. They were doing hosting for Rails applications, and Ezra started Merb initially I believe - I'm a little fuzzy on the history, but as a sort of "Oh well, if you have some performance issues with these parts of Rails (which was something that they were seeing in their deployments), you can use this smaller, targeted thing." It was kind of -- at least as I saw it, it started more as sort of a Sinatra kind of thing, like "Let's create some microservices for a few things", and then it kind of just grew from there, to the point where a lot of what was going into Merb was just (from my perspective) a bit of a reimplementation of many of the things we had in Rails. When I looked at Merb, I didn't actually see a lot of philosophical differences, I didn't see a lot of things that like "Oh yeah, of course this can't be in Rails." I started wondering, "This is great work... Why do we not have these things in Rails itself?"
 
 If you're making let's say the router more efficient, why wouldn't we just make the Rails router more efficient? So I started talking to people at Engine Yard and -- I mean, it was still a little bit contentious at times, I'm not gonna lie... There was a little bit of -- obviously, Ezra and the team around it, they sort of had a thing of their own, even if they were reimplementing a fair amount of Rails stuff; they had created something standalone, and they had some affinity to that. So it took a fair amount of talks, both with Ezra and with Yehuda at the time to figure out "Do we actually have a shared philosophical base? Are these divisions that we're currently perceiving between Rails and Merb - are they really there? Or are we 'violently agreeing'?" I think it turned out, over a series of conversations, that we were violently in agreement.
 

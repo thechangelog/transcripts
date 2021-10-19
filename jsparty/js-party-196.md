@@ -16,7 +16,7 @@
 
 **Nick Nisi:** But why would you want to?
 
-**Doug Martin:** \[00:04:04.23\] I don't know, I honestly can't think of a reason you'd want to... \[laughs\] But NestJS is an interesting framework; it's one of the first ones I've found that really guides you into a nice architecture. Some of the things that initially drew me to it were that it had dependency injection built-in first class, and the way it really has you organize your modules, so you can expose your services to other modules... But you can be picky about what you wanna actually expose out, which is cool... It's built on top of Express or Fastify - you get to choose - and it kind of like abstracts some of that away from you.
+**Doug Martin:** \[04:04\] I don't know, I honestly can't think of a reason you'd want to... \[laughs\] But NestJS is an interesting framework; it's one of the first ones I've found that really guides you into a nice architecture. Some of the things that initially drew me to it were that it had dependency injection built-in first class, and the way it really has you organize your modules, so you can expose your services to other modules... But you can be picky about what you wanna actually expose out, which is cool... It's built on top of Express or Fastify - you get to choose - and it kind of like abstracts some of that away from you.
 
 Going back to the architecture point, one of the things that it does well is it provides you a place to kind of put everything. Before, I'd oftentimes find myself putting a lot of stuff into middleware, and wasn't really sure "Okay, where does this belong?", so I'd create another middleware. But NestJS - it really gives you pipes to transform the data that's coming in, you can do validation in there, you can do guards for authorization, and then interceptors to find logic before or after a request or a method. So for like logging, timing... Where before, you would all be shoving that into one place.
 
@@ -40,7 +40,7 @@ So I really like that it focuses on single responsibility, which is pretty neat.
 
 **Nick Nisi:** So it's definitely going the complete opposite way of tools like React and other modern frontend frameworks... Which is cool. I do think that it fits well, because it does give you a lot of structure... And maybe we could break down a little bit of that structure. So you mentioned being able to use -- what was it... There was pipes, and...
 
-**Doug Martin:** \[00:07:52.11\] Yeah, so there's pipes, guards, interceptors... I think one thing that's important to touch on is that it's kind of transport-agnostic. So as long as you have your structure in place, you can have REST, you can do microservices, you can do GraphQL and you'll feel at home in probably each one of those, because you can reuse your services. And then for each one of the endpoints that you're exposing, you can throw a guard on there to make sure that only certain people can access that. Or you can do the pipes to convert a request parameter coming into an int. Or validate that it matches some format, which is pretty interesting, especially when -- so when I started with NestJS, I was looking at REST at first, but I definitely wanted to start getting into GraphQL more... So I created basically a REST endpoint and a GraphQL endpoint, and they were both really similar. One's a controller and one's a resolver. That's the big difference. But then I could reuse the same services that back them. So I did have to really worry about changing any business logic, or how I'm accessing the database... I'm just purely flipping that out.
+**Doug Martin:** \[07:52\] Yeah, so there's pipes, guards, interceptors... I think one thing that's important to touch on is that it's kind of transport-agnostic. So as long as you have your structure in place, you can have REST, you can do microservices, you can do GraphQL and you'll feel at home in probably each one of those, because you can reuse your services. And then for each one of the endpoints that you're exposing, you can throw a guard on there to make sure that only certain people can access that. Or you can do the pipes to convert a request parameter coming into an int. Or validate that it matches some format, which is pretty interesting, especially when -- so when I started with NestJS, I was looking at REST at first, but I definitely wanted to start getting into GraphQL more... So I created basically a REST endpoint and a GraphQL endpoint, and they were both really similar. One's a controller and one's a resolver. That's the big difference. But then I could reuse the same services that back them. So I did have to really worry about changing any business logic, or how I'm accessing the database... I'm just purely flipping that out.
 
 And the same, I think, applies for a lot of the microservices stuff. So yeah, you can have requests coming in, you can connect a RabbitMQ, or a Kafka, or whatever, and really plug into that pretty seamlessly... And I think that's one thing I really appreciated about how they designed this framework - they really encourage you to have those separate layers. So you have your controller or resolver, you have your service, you have your entities and DTOs... It feels like a lot of files at first, but then once you start \[unintelligible 00:09:15.15\] your files become pretty short, and they're very pointed in what they're trying to address, which is -- like we talked about with Express - that sometimes got muddied up, when they definitely encourage you down a certain path.
 
@@ -68,7 +68,7 @@ So you could have like your cats controller, and then you could have your cats s
 
 **Nick Nisi:** Definitely. Then you also mentioned touching -- the service can access stuff from the database, and it's doing that through models. Let's talk about that a little bit. Are the models -- I guess this is where I'm a little hazy on it... Is it specifically tied to TypeORM as its ORM solution?
 
-**Doug Martin:** \[00:12:08.15\] No, it's not. So your service is really just an area to put your data access layer; you can do that in there. And then TypeORM -- Nest just kind of wraps this, so you do have a couple things, but oftentimes you call it an entity... And this is what's stored in your database. And that could be Mongo, that could be -- you can be using Typegoose, Sequelize, TypeORM, Prisma...
+**Doug Martin:** \[12:08\] No, it's not. So your service is really just an area to put your data access layer; you can do that in there. And then TypeORM -- Nest just kind of wraps this, so you do have a couple things, but oftentimes you call it an entity... And this is what's stored in your database. And that could be Mongo, that could be -- you can be using Typegoose, Sequelize, TypeORM, Prisma...
 
 **Nick Nisi:** Gotcha.
 
@@ -108,7 +108,7 @@ DTOs weren't something that I used a whole lot, until I really started to dive i
 
 **Doug Martin:** Yeah. So like in a RESTful API you create a controller and you do your get, put, post, delete, patch endpoints, and within GraphQL you have your queries, so your query endpoints and your mutation endpoints. So you create a resolver, and then you can decorate it with an @query decorator and say "Expose this method in my GraphQL API." And Nest will then use all the metadata collected from those decorators to then generate your schema for you at runtime. This is, of course, if you're going code-first. So you can create those different endpoints.
 
-\[00:16:27.13\] And what's really nice about GraphQL is that it takes away a lot of the boilerplate of ensuring that you document everything with Swagger. It gives you a lot of that documentation explorability out of the box. You can build a lot of that validation in in GraphQL, but just make sure that you aren't requesting things that aren't there. The query language that GraphQL provides is awesome. I really fell in love with that with the GitHub API, when they started transitioning stuff over, and playing with that more. That was really eye-opening, to see how explorable it was. I could just create and only fetch the data that I needed. And Nest makes that really easy with the resolvers.
+\[16:27\] And what's really nice about GraphQL is that it takes away a lot of the boilerplate of ensuring that you document everything with Swagger. It gives you a lot of that documentation explorability out of the box. You can build a lot of that validation in in GraphQL, but just make sure that you aren't requesting things that aren't there. The query language that GraphQL provides is awesome. I really fell in love with that with the GitHub API, when they started transitioning stuff over, and playing with that more. That was really eye-opening, to see how explorable it was. I could just create and only fetch the data that I needed. And Nest makes that really easy with the resolvers.
 
 **Nick Nisi:** Nice. Yeah, I agree. And you mentioned code-first, versus -- what would you call the other way?
 
@@ -140,7 +140,7 @@ DTOs weren't something that I used a whole lot, until I really started to dive i
 
 **Nick Nisi:** Yeah, agreed. It's just -- striving to be lazy. It's less code for me to write and maintain, and if I need to change something, it's just the DTO, in most cases, that I need to change it. And then re-generate files from there. I really like that... That's kind of the big, promising feature that I see of all of this, and it really makes approaching GraphQL on the backend quite easy, I think... Because you're really thinking about it in terms of entities and DTOs, and translating between them, and then exposing them.
 
-**Doug Martin:** \[00:20:22.17\] I mean, that's what it's all about for me, especially with a lot of these projects. It's like, how do you not have to do anything, and just get up and running quickly? So you can get back to writing React or whatever you wanna be doing that actually interests you.
+**Doug Martin:** \[20:22\] I mean, that's what it's all about for me, especially with a lot of these projects. It's like, how do you not have to do anything, and just get up and running quickly? So you can get back to writing React or whatever you wanna be doing that actually interests you.
 
 **Nick Nisi:** Absolutely.
 
@@ -148,7 +148,7 @@ DTOs weren't something that I used a whole lot, until I really started to dive i
 
 **Nick Nisi:** Yeah, absolutely. And to make that a little bit easier, you also have a project that you've created called Nestjs-query. We're going to introduce and talk about that here after the break.
 
-**Break:** \[00:20:47.06\]
+**Break:** \[20:47\]
 
 **Nick Nisi:** So in one segment we talked about NestJS and what it does, and we really only scratched the surface, because there's a big surface area, as you mentioned in the break, of what Nest can actually do... But those are the pieces that we're kind of excited about with it, and really leveraging it to empower us to quickly work on the things that we want to do, and expose it, so that we can go back to working on more fun things, like the frontend.
 
@@ -158,7 +158,7 @@ You also have a project called Nestjs-query, and I wanted to touch on that. It's
 
 Where a lot of that came from is - for the past five years we've been doing something similar internally at C2FO, where we had what we call the domain query... So it gave you a lot of the basic operators, like equal, not equal, like, not like, greater than, less than... All the standard ones, which is what you need 99% of the time, without exposing all these database details and all these database-specific operators. So we really abstracted that out, and that's the goal in Nestjs-query, is to make that really simple, so you don't have to think about a lot of that and you just get back to writing your frontend, and you can query all the data you need.
 
-\[00:24:08.29\] It is a little opinionated... It's become less so as more people have adopted it, and there's more features, but it's cursor-based pagination first, which - if you haven't used it before, it feels a little awkward, I think... But once you start diving into it, you don't have to maintain the state of where you're at with the previous offset, or limit, and all that stuff. You really get away from that and you can just use whatever objects you're currently at, take its cursor, and then you can start paging from there. So it's really good for continuous pagination.
+\[24:08\] It is a little opinionated... It's become less so as more people have adopted it, and there's more features, but it's cursor-based pagination first, which - if you haven't used it before, it feels a little awkward, I think... But once you start diving into it, you don't have to maintain the state of where you're at with the previous offset, or limit, and all that stuff. You really get away from that and you can just use whatever objects you're currently at, take its cursor, and then you can start paging from there. So it's really good for continuous pagination.
 
 Facebook, I think, is the one that originally pioneered it, and then we've kind of expanded on that. We allow you to do offset paging and things like that, getting total counts... You can aggregate a lot of stuff. So you can group by, and sum, and all those standard things... And on top of that, you get a lot of your create endpoints, and it standardizes -- between all your mutations, it standardizes and makes sure that everything uses the term "input". So developers aren't trying to think "Okay, what do they call this parameter?" It's the same every time, which I know I personally enjoy, because it's so easy for teams to diverge when they're writing their different endpoints, and you have one that names it the name of the type, the other one calls it input... Who knows what they'll name it next. So it really focuses on standardizing a lot of that.
 
@@ -172,7 +172,7 @@ Then we've added a few other decorators for your DTOs, like you can do authorize
 
 And one thing I don't care about in a lot of the ORMs is that you had these stub relations on your entity, that may or may not be populated, you're not sure if they'll be there... Nestjs-query kind of removes those from the DTO, and you do it through a decorator and you say "Hey, my to-do item is related to sub-tasks." So instead of having a sub-task field on your DTO - because it won't be there when you're actually using it, until you fetch it. And that makes it really lazy. And I think it pairs well with the generated schema, because with GraphQL you're only fetching what you need. So we can expose those things, you can do synthetic relations that you may not have in your entity, but you can throw them on there and throw an additional filter with it, and say "Only give me completed sub-tasks." Or "Give me uncompleted sub-tasks", and you can create these two different relationships on there, really decoupling your DTO from your entity and how it's stored.
 
-**Nick Nisi:** \[00:27:50.04\] Yeah, I like that a lot. And kind of bringing it down a little bit more... So you create those DTOs and the entities, and for -- like, if you just accept all of the opinions, and for a lot of the basic CRUD examples, that would really be it, right? You'd just then assemble those with your Nestjs-query module, and it will generate basically the resolver for you and the service for you, because it will know how to take that entity, and what it can grab from it, and it will know how to take the stuff that you're requesting through like a resolver, and pipe that to the service to give you back the data... And then also - you know, we're talking about GraphQL here - you only selected a partial subset of the actual data that's available... It's also going to automatically just filter out the fields that you don't need, so you're not sending back everything. It's just giving you exactly what you ask for.
+**Nick Nisi:** \[27:50\] Yeah, I like that a lot. And kind of bringing it down a little bit more... So you create those DTOs and the entities, and for -- like, if you just accept all of the opinions, and for a lot of the basic CRUD examples, that would really be it, right? You'd just then assemble those with your Nestjs-query module, and it will generate basically the resolver for you and the service for you, because it will know how to take that entity, and what it can grab from it, and it will know how to take the stuff that you're requesting through like a resolver, and pipe that to the service to give you back the data... And then also - you know, we're talking about GraphQL here - you only selected a partial subset of the actual data that's available... It's also going to automatically just filter out the fields that you don't need, so you're not sending back everything. It's just giving you exactly what you ask for.
 
 **Doug Martin:** Right.
 
@@ -198,7 +198,7 @@ Or, like with Sequelize, we had to create a different assembler to turn it into 
 
 **Nick Nisi:** Yeah, that's really cool. The actual code that you're writing becomes super-testable, because you can just test that assembler class in isolation, for example, without having to run everything... And then a lot of the code is just auto-generated for you, the schema is auto-generated for you... And is there a way to use this with the schema-first approach? Or do you have to go with the code-first?
 
-**Doug Martin:** \[00:32:20.14\] You have to go code-first currently. And I've kind of done that on purpose, mainly because I was doing code-first... But I suppose you could create your classes from there, but then because it's generating your schema for you entirely, you'd have to figure out how to merge the two, and I think it's more error-prone. If you just let the system generate it for you, it's way less likely to miss it out. So no schema-first... \[laughs\]
+**Doug Martin:** \[32:20\] You have to go code-first currently. And I've kind of done that on purpose, mainly because I was doing code-first... But I suppose you could create your classes from there, but then because it's generating your schema for you entirely, you'd have to figure out how to merge the two, and I think it's more error-prone. If you just let the system generate it for you, it's way less likely to miss it out. So no schema-first... \[laughs\]
 
 **Nick Nisi:** Yeah, that's okay. That's another opinion. And as long as you're willing to tolerate that, which I think is personally the way to go, just because I'd rather write classes in TypeScript than GraphQL schemas directly.
 
@@ -224,7 +224,7 @@ And then with the offset -- so if you don't wanna use cursor-based pagination at
 
 With each one of these strategies, offset and cursor, we also automatically include a page info. So you can get total page count, you can find out if you have next page, previous page... And with cursor you also get the start cursor and end cursor, so you don't need to look at every node in the response, or every edge in the response... So you can quickly just create a table and just plug it in, especially with a lot of relay support for these cursor-based pagination that's plug-and-play for the most part.
 
-**Nick Nisi:** \[00:36:03.12\] Yeah, that's really cool. And speaking to that too, when you're developing your DTOs, you don't have to worry about those edges and nodes pieces...
+**Nick Nisi:** \[36:03\] Yeah, that's really cool. And speaking to that too, when you're developing your DTOs, you don't have to worry about those edges and nodes pieces...
 
 **Doug Martin:** Yeah.
 
@@ -248,7 +248,7 @@ So sometimes a team may start up with offset-based pagination, and then they can
 
 **Nick Nisi:** Yeah, definitely.
 
-**Break:** \[00:39:51.15\]
+**Break:** \[39:51\]
 
 **Nick Nisi:** So Doug, specific to Nestjs-query, is there anything else that you want to highlight or touch on before we talk about more meta things in general?
 
@@ -266,7 +266,7 @@ The other thing that has been interesting working with Nest is how many amazing 
 
 **Nick Nisi:** Yeah.
 
-**Doug Martin:** \[00:44:09.13\] When you're writing something for an end user or a business application, you're trying to think of the ways they could break it. When you're writing something for an engineer, you're trying to think about the ways that they could use it, or would want to use it. So it's kind of a different frame of mind, especially when creating something like Nestjs-query or Goku, or FastCSV; there's all these different use cases... And then when you get an issue come in, you're like "Wow, I never thought about that before." It's really -- you have to take a lot more time to dive in and figure out "Okay, what are you trying to accomplish here?" and "How can I help you?"
+**Doug Martin:** \[44:09\] When you're writing something for an end user or a business application, you're trying to think of the ways they could break it. When you're writing something for an engineer, you're trying to think about the ways that they could use it, or would want to use it. So it's kind of a different frame of mind, especially when creating something like Nestjs-query or Goku, or FastCSV; there's all these different use cases... And then when you get an issue come in, you're like "Wow, I never thought about that before." It's really -- you have to take a lot more time to dive in and figure out "Okay, what are you trying to accomplish here?" and "How can I help you?"
 
 **Nick Nisi:** Yeah.
 
@@ -316,7 +316,7 @@ So TypeScript gives me the ability to come back and support projects, even thoug
 
 **Doug Martin:** We're getting old, Nick. We can't do it. \[laughter\] Oh, man... I think you and I were sitting next to each other when they announced TypeScript...
 
-**Nick Nisi:** \[00:50:40.14\] Yeah.
+**Nick Nisi:** \[50:40\] Yeah.
 
 **Doug Martin:** You know, "If I wanted TypeScript, I'd be using Java, right? Go to a typed language." How wrong we were... \[laughs\]
 
@@ -354,6 +354,6 @@ So TypeScript gives me the ability to come back and support projects, even thoug
 
 **Nick Nisi:** Thanks so much.
 
-**Outro:** \[00:53:18.09\]
+**Outro:** \[53:18\]
 
 **HorseJS:** Is JavaScript the language suffering?

@@ -28,7 +28,7 @@
 
 **Adam Stacoviak:** It is off the beaten path. Well, on that note, let's catch up a bit. I know that we can easily send folks back to those episodes and do a full-on, but you've got kind of the main topic today, Faktory, but what's going on with Sidekiq? That's like your claim to fame, so to speak, your sustaining in open source... And you came up with Inspeqtor... What's new for you?
 
-**Mike Perham:** \[00:03:54.09\] Yeah, so Sidekiq is definitely my meat and potatoes; that's what's paying the bills right now. But I've made my career for the last five years on background jobs, and so over the last year I've done some thinking about due directions that Sidekiq's architecture does not allow, so where I went with that is building a new under system called Faktory, which is sort of an inverse to the design of Sidekiq, and part of that inversion allows it to be language-independent... Whereas Sidekiq is tied to Ruby and sort of limits me in my customer base to people running Ruby, Faktory is designed to be language-independent.
+**Mike Perham:** \[03:54\] Yeah, so Sidekiq is definitely my meat and potatoes; that's what's paying the bills right now. But I've made my career for the last five years on background jobs, and so over the last year I've done some thinking about due directions that Sidekiq's architecture does not allow, so where I went with that is building a new under system called Faktory, which is sort of an inverse to the design of Sidekiq, and part of that inversion allows it to be language-independent... Whereas Sidekiq is tied to Ruby and sort of limits me in my customer base to people running Ruby, Faktory is designed to be language-independent.
 
 You can use Faktory with any language. The idea is that I can come out with this sort of opinionated background job framework that's useful for any business application, and it doesn't matter what language you're authoring your business application in, you can leverage Faktory as infrastructure to scale your app. We'll see how that goes, it's still early days obviously, but this is something that I wanna put my efforts into over the next year, and see what I can make happen.
 
@@ -48,7 +48,7 @@ So toward that end, about two weeks ago I first announced Faktory and unveiled i
 
 What drives the desire for you to get that much bigger potential customer base? Is it just wanting to grow the business, is it money, is it your board? Tell us some of your drivers to say "You know what, I'm gonna move outside of my meat and potatoes and try for a bigger pool."
 
-**Mike Perham:** \[00:07:56.15\] Well, ultimately I think background jobs are something that can benefit almost every business application out there, and a lot of the background jobs systems out there are language-specific, like Celery, for instance, or they are language-agnostic, like Beanstalk, but they are essentially abandoned now, where no one's maintaining them. On top of that, I think a lot of the background job systems that are out there that are language-agnostic don't have a lot of -- they don't have the years and years of additional really nice features that become super useful in building business applications.
+**Mike Perham:** \[07:56\] Well, ultimately I think background jobs are something that can benefit almost every business application out there, and a lot of the background jobs systems out there are language-specific, like Celery, for instance, or they are language-agnostic, like Beanstalk, but they are essentially abandoned now, where no one's maintaining them. On top of that, I think a lot of the background job systems that are out there that are language-agnostic don't have a lot of -- they don't have the years and years of additional really nice features that become super useful in building business applications.
 
 Sidekiq has sort of proven that there is a market for these frameworks that allow you to scale job processing across many machines along with the API's that you inevitably need when you're scaling your processing across many machines... Things like rate limiting, things like cron jobs - all this kind of stuff are really useful, generic tools that I wanna bring to everybody.
 
@@ -64,7 +64,7 @@ So all those worker processes, they all talk to what I call this dumb data store
 
 Now, with Faktory what I'm doing is I'm sort of embedding that data store into Faktory directly. So Faktory is a standalone daemon, kind of like Redis, where instead of exposing a bunch of data structure operations like Redis does, I expose a bunch of job operations. So all of my feature logic can be embedded in that Faktory server daemon that is sort of the central hub, and now all of your Faktory worker processes can be implemented in any language, because they don't have any of those more advanced job features that need to be implemented in them. All they do is pull a job and execute it, and then tell Faktory when the job is done.
 
-\[00:12:23.23\] Faktory does everything else. It keeps track -- it gives you the web UI so you can sort of track all the jobs that you have in your system, and errors that have occurred, and showing you your sets of worker processes that you have out there, and what they're working on at any given moment.
+\[12:23\] Faktory does everything else. It keeps track -- it gives you the web UI so you can sort of track all the jobs that you have in your system, and errors that have occurred, and showing you your sets of worker processes that you have out there, and what they're working on at any given moment.
 
 That really makes the Faktory worker processes much simpler than the Sidekiq worker process now. In the last two weeks since I announced it, I've had people implement Faktory workers in six different languages, which is pretty amazing to see.
 
@@ -94,7 +94,7 @@ That really makes the Faktory worker processes much simpler than the Sidekiq wor
 
 **Mike Perham:** Which means they've gotta make a billion dollars. But that means that their pricing needs to be commensurate with that funding and with that profit goal. I can keep my prices so low that it doesn't matter if some big corp wants to come in. As long as I'm making X thousand dollars a year, I can sustain myself forever. It doesn't matter if Amazon comes in and... You know, Amazon is gonna have SQS, RabbitMQ is a thing... There's all sorts of different queuing systems that are commercial. As long as the market is big enough for another entry -- it's not a winner-take-all thing.
 
-**Adam Stacoviak:** \[00:16:04.08\] That goes back to what you said, too - you've gotten over the years lots of people saying "Hey, Mike, is there a Sidekiq for my language?", so that's definitely indicators for what people might call a product market fit, where you've got an idea. Sidekiq as a model has worked for Ruby, and others see it and they're excited about it and they say "Well, how do I use that for my language?" and now you have waypoints to say "This is a good thing to invest in."
+**Adam Stacoviak:** \[16:04\] That goes back to what you said, too - you've gotten over the years lots of people saying "Hey, Mike, is there a Sidekiq for my language?", so that's definitely indicators for what people might call a product market fit, where you've got an idea. Sidekiq as a model has worked for Ruby, and others see it and they're excited about it and they say "Well, how do I use that for my language?" and now you have waypoints to say "This is a good thing to invest in."
 
 **Mike Perham:** Yeah, and people have -- you know, some of the pushback I got on my initial announcement was "Oh, people should just use job library X, or use Rabbit" or "If you're not only pure in the cloud, why would you use this instead of SQS?" or something like that. But that's kind of like asking "If the Honda Accord exists, why would you buy a Toyota Camry?" or "Why would you buy a Ford F150?" Well, they're different things; they mean different things to different people. Different brands mean different things; they have different capabilities and different opinions, and different use cases for different business apps.
 
@@ -106,7 +106,7 @@ A business app that needs to scale to billions of jobs per day might be better o
 
 In Faktory I try to bake as much stuff into it also; I try and sort of bake as much of value into it so that -- because ultimately that's what people are responding to... They wanna see the value in there, that this solves their problem and it comes with a lot of little nice bells and whistles that they can use.
 
-**Jerod Santo:** \[00:19:51.24\] One feature -- we'll talk about, I guess, a comparison, and one thing \[00:19:53.16\] is so new, it doesn't have feature parity with Sidekiq... You wouldn't have released it for a while to get that done. But one thing when we're talking about the secret sauce is the bits that you make sure are coming over is it does have a Sidekiq-inspired web UI, which has become something that as a long-time Sidekiq user I'm just very used to the web UI being there. So that at least seems like something that you know is very important to many people. Is that fair to say?
+**Jerod Santo:** \[19:51\] One feature -- we'll talk about, I guess, a comparison, and one thing \[19:53\] is so new, it doesn't have feature parity with Sidekiq... You wouldn't have released it for a while to get that done. But one thing when we're talking about the secret sauce is the bits that you make sure are coming over is it does have a Sidekiq-inspired web UI, which has become something that as a long-time Sidekiq user I'm just very used to the web UI being there. So that at least seems like something that you know is very important to many people. Is that fair to say?
 
 **Mike Perham:** For sure. Setting up the web UI for Sidekiq, for many people, can be a bit difficult, especially if they have a fairly complex web application... So baking it into Faktory so that it's just a HTTP port and they can hit it with their browser really simplifies a lot of that. And it's also - going back to what I was saying before - a big part of the value there. It's a nice, attractive web UI that is baked in. You looked at something like Gearman or Beanstalkd - I don't know that they have a UI that's built in. I think Beanstalkd, the web UI does not come with it and you have to download a third-party web UI and set that up, configure that, whereas with Faktory it's all built into the system.
 
@@ -120,7 +120,7 @@ For instance, the worker has to acknowledge that the job is finished, right? If 
 
 There's also API's like rate limiting. This is one example where your job may wanna do some sort of rate-limited operation, and if I build that into Faktory, that's fine, but the worker is going to have to call that rate limiting API to ensure that the rate limit is being enforced at any given moment. So yeah, there are some features that I can bake into Faktory sort of transparent to the worker process, but there are others that I can't. That'll influence a lot of the future feature design, and sort of the features that will be in commercial versions versus the open source version.
 
-**Break:** \[00:24:21.06\]
+**Break:** \[24:21\]
 
 **Jerod Santo:** So one of the major moving pieces that you've removed from Faktory - or I guess never included in Faktory - which is a big part of Sidekiq and you mentioned it previously is Redis... But you've gotta persist at queue somewhere, so tell us about that decision to remove Redis and what you're doing instead.
 
@@ -130,7 +130,7 @@ For instance, I can't package up Faktory as a module and distribute it because m
 
 So I looked around for a bunch of different things, and the best option that I sort of landed on today is RocksDB, which is an embedded key-value store that is built and maintained by Facebook. They use Rocks to power a lot of their internal services, and so to me that production quality is there. You never know if you're just using some random open source library. I wanted something that had a good production usage already.
 
-\[00:28:18.22\] Redis obviously has tons of production usage, so it's rock-solid, but Rocks has proven to be extremely fast, and its production story, at least at Facebook, is also good.
+\[28:18\] Redis obviously has tons of production usage, so it's rock-solid, but Rocks has proven to be extremely fast, and its production story, at least at Facebook, is also good.
 
 To me, that was the best option that I had. Rocks does have some tradeoffs, it has some drawbacks versus Redis, but like I said, it's the best of what's out there right now.
 
@@ -147,7 +147,7 @@ Give us some insight, how did you go about -- you said that it was production-gr
 
 When I first was looking for storage engines, I went straight to BoltDB, which has a really good reputation in the Go community as this nice embedded key-value store library. Ben Johnson, the maintainer, has a very good reputation as a good developer.
 
-\[00:32:04.28\] So I looked at Bolt. Bolt is great. The problem I found though is it's very slow for the use case that Faktory wants to use it for, which is a lot of inserts and deletes really fast. Bolt is more of like a binary tree type storage system where you don't necessarily insert a ton, but you maybe read a lot, so maybe for indexes and stuff like that it's really good. But with queues, you push a job into the queue and then you pop it off really fast. So you're inserting and deleting usually within microseconds or milliseconds of each other.
+\[32:04\] So I looked at Bolt. Bolt is great. The problem I found though is it's very slow for the use case that Faktory wants to use it for, which is a lot of inserts and deletes really fast. Bolt is more of like a binary tree type storage system where you don't necessarily insert a ton, but you maybe read a lot, so maybe for indexes and stuff like that it's really good. But with queues, you push a job into the queue and then you pop it off really fast. So you're inserting and deleting usually within microseconds or milliseconds of each other.
 
 So that's where RocksDB's design really shines, because it proved to be 100 to 1000x faster than BoltDB. RocksDB's design is what's called an LSM (log-structured merge tree, I believe). The idea is that every persistence operation writes to a log, and then regularly the system will take that log and sort of persist it to an actual file that is sort of a binary tree. But if the log just contains like an insert and then a delete, then it will actually never get into the binary tree. So your really fast writes prove to just be constant order time, instead of login. If you know anything about algorithmic complexity, that's a really nice advantage.
 
@@ -163,7 +163,7 @@ So that's where RocksDB's design really shines, because it proved to be 100 to 1
 
 **Jerod Santo:** Right. Yeah, it's tricky too, because on the other side of -- I don't know what you would call it... Haphazard selection dependencies, or pick the first one that looks good you go with - on the other side of that is some serious analysis paralysis which you can get into as well, right? On the far extreme is trying 15 different choices and running all these tests and spending months and months and still not pushing the needle forward. But that being said, I think the best way once you've gotten to a point where you maybe narrowed it down by features and by these other heuristics - support, and the other things that Mike has been talking about - you've just gotta see how it works for your use case.
 
-\[00:36:11.15\] You can use somebody else's blog post as a waypoint for your decision, but their use case may be even just slightly different than yours, like Mike noticed with a queue, the reads and writes, the pushing and the popping happening really fast... Well, if he would have read a blog post about Bolt and not tried it for himself, and just thrown it in and kept on building, he would have missed out on an opportunity to have a much better performing dependency.
+\[36:11\] You can use somebody else's blog post as a waypoint for your decision, but their use case may be even just slightly different than yours, like Mike noticed with a queue, the reads and writes, the pushing and the popping happening really fast... Well, if he would have read a blog post about Bolt and not tried it for himself, and just thrown it in and kept on building, he would have missed out on an opportunity to have a much better performing dependency.
 
 **Adam Stacoviak:** Mike, maybe pontificate on that. If you hadn't done that research, with the user experience of Faktory B if you went the other route, which was a thousand times slower in your case... Would it just be slower? Would you have released it? Where would you be at?
 
@@ -181,7 +181,7 @@ If you're doing -- well, I don't wanna pontificate on what the right use cases a
 
 Now, I couldn't find any other LevelDB clone for Go that was really sort of production hardened and that's why I went with Rocks... Because I would have preferred and loved to have seen something that was native Go, something that I could tell is running in production and is gonna be supported for the next n years... And I know that Facebook has several engineers working full-time on Rocks, and they're pushing new versions all the time. That is a very strong endorsement to use it in my own stuff.
 
-**Jerod Santo:** \[00:40:19.14\] Just found it here - we actually had Ben Johnson on The Changelog back in 2015, talking about BoltDB; I think he actually compared and contrasted with LevelDB at the time, so he's very well aware of these different architectures.
+**Jerod Santo:** \[40:19\] Just found it here - we actually had Ben Johnson on The Changelog back in 2015, talking about BoltDB; I think he actually compared and contrasted with LevelDB at the time, so he's very well aware of these different architectures.
 
 Adam, I don't think you were on that show; I think it was just me and Ben. We also had Ben on GoTime. He's somewhat of a regular around here as well, great developer, and these aren't things that he would take as a personal slight against Bolt, this is just the way that they're built - they're built for different optimizations, and BoltDB not fitting Faktory's use case.
 
@@ -199,7 +199,7 @@ But I gave Evan access from day one, so he had access to the Faktory code, and I
 
 What that means is that Faktory basically has a storage directory on your desk, where it places all these different data files that contain your persisted job data. All of that data is RocksDB, effectively. RocksDB owns the data in that directory, and I just point RocksDB to say "Here's the Faktory database. Please open it up and let's get started."
 
-**Jerod Santo:** \[00:44:02.12\] So the backups would be similar to just a disk copy... The files on disk.
+**Jerod Santo:** \[44:02\] So the backups would be similar to just a disk copy... The files on disk.
 
 **Mike Perham:** Not quite. RocksDB does surface, backup and restore API's, so you have to call the backup API and you have to call the restore of the API. Faktory exposes those API's as a command line tool. Faktory has a Faktory CLI command line tool, where you can say "Faktory CLI backup" and "Faktory CLI restore", and that's it. It does it all automatically for you based on the backups that you've taken.
 So I envision people taking a backup maybe every five minutes or every hour or whatever they wanna do, and if they find that their store has for some reason gotten corrupted or the disk breaks or whatever, then they can restore their latest backup and get back most of the data that has been lost.
@@ -212,7 +212,7 @@ Ultimately, Redis is a great thing. I love it. I will never consider ripping it 
 
 Rocks doesn't give me some of the things that Redis does have, like replication, so I can't run a replica in another availability zone or in another data center, and have sort of an almost real-time backup. So there are tradeoffs for sure, but ultimately, Redis didn't have that embedded mode that I had to have if I wanted to centralize the logic into a single binary. So the ease of use of Faktory is awesome because it's just a single binary you just run, but it comes at these tradeoffs of losing the built-in ops lore that Redis has in the community.
 
-**Break:** \[00:47:46.24\]
+**Break:** \[47:46\]
 
 **Jerod Santo:** So Mike, you mentioned that there is no SaaS for Faktory; there's one for Redis, you can get a Redis To Go URL, or your insert RedisSaaS\_URL. Here is that a thing? Because I'm thinking "What's better than having a single binary? It's having no binary." Like, let me just get my worker process and I'll just point it at a Faktory thing and be off to the races. Is that something that's on your radar?
 
@@ -234,7 +234,7 @@ So I can either sell it on premises for anybody that wants to run it internally,
 
 **Mike Perham:** Well, I think that Inspeqtor and Inspeqtor Pro were less of a success. I've essentially given up on the projects myself. Yeah, I guess Inspeqtor is a very -- how would I describe it...? It's very limited in what it does. It's sort of -- it's funny, I released the 1.0 and it's kind of a 100% of the functionality that I ever wanted in it, really... And the pro version I guess doesn't seem to really add that much value on top of the open source version, so I really haven't seen much uptake from the pro, I haven't seen that many sales from it.
 
-\[00:54:24.19\] It could also be that it's just kind of a nice-to-have, but an optional piece of infrastructure. It's not core to any application development, whereas I think background jobs and scaling business transactions across many machines - a lot more companies around the world see that as important to their app.
+\[54:24\] It could also be that it's just kind of a nice-to-have, but an optional piece of infrastructure. It's not core to any application development, whereas I think background jobs and scaling business transactions across many machines - a lot more companies around the world see that as important to their app.
 
 **Adam Stacoviak:** Another question on that is, you know, Inspeqtor is monitoring. I think back in the day when we had you on the show talking about this you mentioned it was sort of "Monit, but better", if I can recall back to some of the things you've said. But there's full-on businesses around monitoring, and the question Jerod asked you was like "Is this the next SaaS for you?" and you said that you don't really wanna do that, so I see monitoring as this -- not that I'm saying you missed it, but this could have been potentially a SaaS, and then here you are with Faktory that could be a SaaS... I'm not really saying any in particular, I'm just saying like these are opportunities that could not just be open source and pro, and going back to that, is that the right model?
 
@@ -252,7 +252,7 @@ Like I said, I'm gonna put another six months to a year into this and see what h
 
 **Jerod Santo:** Open core, thank you; I just blanked that. But then I start to ask people, is there another Webpack for that model? Is there another Mike? And I don't know if there is. Is there somebody else who's taken or done the same model that you've done in a similar scale with Sidekiq and made that exact same model work very well in a similar fashion that you have, that you know of?
 
-**Mike Perham:** \[00:57:51.07\] Well, I know that there's been a lot of Java application servers, like JBoss, or... I'm probably dating myself now, but you look at WebLogic and WebSphere - they all have sort of community editions, but then they also have the big corporate enterprise version. And typically, the enterprise version has additional features like replication, data grid caching across -- geo-replicated data caching and all this sort of stuff... So it is a thing to offer sort of a light community version and then a more sort of product enhanced, more enhanced commercial version on top of that.
+**Mike Perham:** \[57:51\] Well, I know that there's been a lot of Java application servers, like JBoss, or... I'm probably dating myself now, but you look at WebLogic and WebSphere - they all have sort of community editions, but then they also have the big corporate enterprise version. And typically, the enterprise version has additional features like replication, data grid caching across -- geo-replicated data caching and all this sort of stuff... So it is a thing to offer sort of a light community version and then a more sort of product enhanced, more enhanced commercial version on top of that.
 
 I think the Java world, the world of application servers -- and when you get right down to it, that's kind of what Sidekiq is. If you squint from really far away, Sidekiq is kind of a Ruby application server. It's using Rails for its major framework, but at the end of the day you're farming work out to a cluster of machines, and that's part of what an application server does.
 

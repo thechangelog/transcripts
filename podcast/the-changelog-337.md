@@ -20,7 +20,7 @@ So basically, one of those ones where scary at times, but thankfully all resolve
 
 **Adam Stacoviak:** That's the one. We linked this up around the time of happening to Changelog News, and the last question I think is interesting, and I'm curious what you think about this - he says "If I can gain access to commit in 30 minutes, what could a nation state with dedicated resources achieve against a team of 17 volunteers?"
 
-**Mike McQuaid:** \[00:04:04.26\] Yeah. I mean, it's a great question, to be honest, and I don't mean to scare people with this stuff, but... I mean, I'm very much of the belief that unless you are a very high-level security professional who has deep knowledge in this stuff, if you're going against a nation state, it's more or less, as they say "Game over, man."
+**Mike McQuaid:** \[04:04\] Yeah. I mean, it's a great question, to be honest, and I don't mean to scare people with this stuff, but... I mean, I'm very much of the belief that unless you are a very high-level security professional who has deep knowledge in this stuff, if you're going against a nation state, it's more or less, as they say "Game over, man."
 
 That side of things is scary, but I think the thing with Homebrew at least is that it has been designed such that - and we kind of said this even at the time when we were debating as maintainers - with stuff like this there are vulnerabilities which can be introduced silently, and then you'd never really know, the system would never really catch them, and then there's vulnerabilities that you would notice, and because we have everything built on top of Git and because our CDN is immutable after 30 days, and because we have a two-level hashing structure even without binary packages, where we maintain the hashes for those packages, and the packages are maintained elsewhere, on separate infrastructure, that it means that the chances of someone like a nation state being able to comprise Homebrew... basically, if you have one of the relatively big super-powers trying to do something like that, the chance that they could compromise Homebrew I feel would be relatively high if they put their mind to it, but the chance that they could do so without any maintainers or the community noticing - that's something I'm not convinced about. I feel like we would notice and we would be able to spot that that happened, and disclose that information, and stuff like that.
 
@@ -34,7 +34,7 @@ So it's just one of these things where -- yeah, I mean, he got it done in 30 min
 
 **Mike McQuaid:** Yeah. And I think the interesting thing from our perspective is that -- others may well draw different conclusions, but our perspective would probably be that it was an example of our weakness being exploited, which is what, I guess like other open source projects, most of us would rather be writing code than doing system administration... So as a result, we have a Jenkins instance, and -- I mean, shout-out to anyone working on Jenkins here; it's great software, that we've used for a very long time, but compared to what we're increasingly used to with, say, Travis CI, and Azure pipelines, which is what we use now, and a lot of these cloud tools, where effectively keeping everything up to date and keeping the configuration sane is not something you need to worry about yourself... Whereas any of these open source projects where you're installing the software yourself, you're maintaining it on that system. Getting the balance right between applying all the security updates in Jenkins, and then all the plugins, which then change behavior between versions...
 
-\[00:08:01.03\] This was one of these annoying cases where it was an intersection between plugins, where one plugin which had previously filtered out the tokens was updated, and then that responsibility was delegated to another plugin, which had been configured to do it correctly, and all this type of thing... And it's kind of tricky, because it slips through the cracks, and our longer-term solution that we're working towards now is basically just get rid of any infrastructure we have to maintain ourselves.
+\[08:01\] This was one of these annoying cases where it was an intersection between plugins, where one plugin which had previously filtered out the tokens was updated, and then that responsibility was delegated to another plugin, which had been configured to do it correctly, and all this type of thing... And it's kind of tricky, because it slips through the cracks, and our longer-term solution that we're working towards now is basically just get rid of any infrastructure we have to maintain ourselves.
 
 In an ideal world, we would all be on Travis and EC2 and Azure pipelines, and that would be the end of the day... But unfortunately, again, the complexity of our project is that we have to build binary packages on macOS, and there is not a freely available macOS hosting platform for building stuff at the scale that we need, yet. We're getting optimistic that there will be in the future; we've had some really good conversations with Microsoft about Azure pipelines, but right now as of today we still need to maintain our own infrastructure, which in this case the configuration of that infrastructure is the weak point.
 
@@ -58,7 +58,7 @@ But the question becomes, on the large, how do we engage in a battle as a commun
 
 **Jerod Santo:** Right.
 
-**Mike McQuaid:** \[00:11:56.02\] Yeah, exactly. But again, that's one of the big things I think the open source community in general is good at - stepping up and being responsible and disclosing this stuff... Because in this case, the level of this vulnerability here - I'm sure that happened to 100 companies around the world this year, almost an identical problem. Are they gonna write on their company blog that they disclose this? Well, some companies will, and hat tip to them, but most won't, and that's a problem.
+**Mike McQuaid:** \[11:56\] Yeah, exactly. But again, that's one of the big things I think the open source community in general is good at - stepping up and being responsible and disclosing this stuff... Because in this case, the level of this vulnerability here - I'm sure that happened to 100 companies around the world this year, almost an identical problem. Are they gonna write on their company blog that they disclose this? Well, some companies will, and hat tip to them, but most won't, and that's a problem.
 
 I guess the other thing that somewhat ties to what you were saying earlier is that you need to just accept with some of this stuff that you're not gonna have the time and the resources for the open source projects that you would like to. Again, if Homebrew was a commercial company, I wouldn't hire me to do half the stuff that I'm doing, because I'm not qualified, and I know there's better people to do that. And even on the coding end, if me at work was to review my code quality that I have on Homebrew, then I would probably leaving lots of requested changes all over the place, because at the end of the day I don't have the time and the resources to do things to as high a standard in open source always as I do when we're getting issues that are affecting millions of people, potentially, the onus is on fixing it right now. And when you don't have lots of very smart co-workers around you who can help bounce ideas off, and it's just down to you, then it's like, well, you're not gonna do it as well.
 
@@ -86,7 +86,7 @@ And again, it depends on your release model, and your verification model and thi
 
 **Jerod Santo:** Yeah.
 
-**Mike McQuaid:** \[00:15:57.05\] I think that's the nice thing with the open source community in general, as well - if you go out of your way to do things properly on the security side, then even the kind of grey hats in the middle are not gonna get a lot of kudos from going and really making idiots of an open source project who are trying their best to do the right thing with this stuff..
+**Mike McQuaid:** \[15:57\] I think that's the nice thing with the open source community in general, as well - if you go out of your way to do things properly on the security side, then even the kind of grey hats in the middle are not gonna get a lot of kudos from going and really making idiots of an open source project who are trying their best to do the right thing with this stuff..
 
 **Jerod Santo:** Right.
 
@@ -126,7 +126,7 @@ But again, that's the flipside of open source projects; people who are involved 
 
 **Jerod Santo:** This HackerOne site is cool, and I think it's a necessary thing to really bring together two disparate communities - we're talking about security researchers and open source developers. In my experience - and you guys can tell me yours - there doesn't seem to be too much overlap; there's a few people who play in both pools, but it seems like there's a somewhat strict divide there, in those two communities, and really to all of our disbenefit... That's not even a word, but I guess to our harm... Because there's a lot that we have to offer in terms of open source developers, to security researchers, and vice-versa. So anywhere that we can create places that we can come together and collaborate, and they can hack on our code, and we can fix things as they find problems, those are things that are necessary.
 
-\[00:20:34.12\] Just thinking about some of the stuff you're saying about what happens at GitHub - there's a lot of best practices; you were mentioning the principle of least power, and defense in depth... There's a lot of things that we can do as developers that really mitigates the problem. It's similar to "Well, if I get hacked, at least they don't have root access. There's no god mode immediately." So we can do things that help mitigate when there are breaches, but if we don't have those things taught to us or explained to us, or reiterated or exampled to us, we just don't know what to do, how to do it well... So it's cool that they offer this free for open source.
+\[20:34\] Just thinking about some of the stuff you're saying about what happens at GitHub - there's a lot of best practices; you were mentioning the principle of least power, and defense in depth... There's a lot of things that we can do as developers that really mitigates the problem. It's similar to "Well, if I get hacked, at least they don't have root access. There's no god mode immediately." So we can do things that help mitigate when there are breaches, but if we don't have those things taught to us or explained to us, or reiterated or exampled to us, we just don't know what to do, how to do it well... So it's cool that they offer this free for open source.
 
 It made me think of proprietary companies, and the advantage that they have is that they can actually offer cash for bugs, cash for vulnerabilities. As open source people, we can't even get any cash to buy a sandwich, let alone to fund some security audits.
 
@@ -146,7 +146,7 @@ There's various people saying that they've owned a GitHub Pages site and stuff l
 
 **Mike McQuaid:** Yeah, I think so. Yeah, I think I would still recommend going to HackerOne and getting an account, because it's a workflow that I think makes more sense to security professionals, really. I guess in the same respect people might say "Where should I create my open source project now?" and I would say GitHub, and they might say "Oh, well I hear you've got a lot of issues, or drive-by's, or whatever." I'd like, "Yeah, that's the case, but at the same time, it's still the place where it's happening and the place that makes the most sense." And as far as I can tell, HackerOne is the same sort of deal - it's not all rosy, but it's definitely better than anything else I've found out there, and in our case at least it seems to have really encouraged really responsible disclosure from people who know what they're doing, who as you said, wouldn't perhaps otherwise get involved... So I feel like that's a sunny upland for us.
 
-**Jerod Santo:** \[00:23:59.20\] I just wanna highlight this note on your HackerOne page - we'll link it in the show notes, hackerone.com/homebrew - in the Exclusion section; this just made me chuckle while researching... "We ask that you refrain from..." and one of them is "Social engineering, including fishing of Homebrew maintainers or contributors." It's just hilarious that you have to actually say that.
+**Jerod Santo:** \[23:59\] I just wanna highlight this note on your HackerOne page - we'll link it in the show notes, hackerone.com/homebrew - in the Exclusion section; this just made me chuckle while researching... "We ask that you refrain from..." and one of them is "Social engineering, including fishing of Homebrew maintainers or contributors." It's just hilarious that you have to actually say that.
 
 **Mike McQuaid:** Well, I think that was actually one of their templates.
 
@@ -162,7 +162,7 @@ There's various people saying that they've owned a GitHub Pages site and stuff l
 
 **Mike McQuaid:** Yeah, or at least socially engineer them during work time. \[laughter\]
 
-**Break:** \[00:25:04.08\]
+**Break:** \[25:04\]
 
 **Jerod Santo:** Mike, the big Homebrew 2.0 started this month... It shot up the charts of Changelog News to number one quickly. Everybody was super-excited. Of course, the huge announcement is the official support for Linux and Windows 10. A little bit of an asterisk by the Windows support, we're gonna talk about that... But tell us about Homebrew 2.0 and the big release. How was it received?
 
@@ -174,7 +174,7 @@ There's been another project that's been running for quite a while now that was 
 
 So basically we did that, and we got all the Linux code back into Homebrew, done in a nice, properly abstracted fashion, and we'd actually been running Homebrew on Linux for some of our CI stuff - stuff like uploading packages, and generating our package browser, our data, and stuff like that for a little while now. So yeah, it kind of segued in nicely, and it was fairly smooth, and it's been a nice transition and selling point for Homebrew, I think.
 
-**Jerod Santo:** \[00:28:23.18\] Yeah. So if you were on a recent version of Homebrew, would it auto-upgrade you to 2.0? Because I saw the news and then like "Oh, I wanna go get it." Then I did a -- I don't know what I did; brew -v, or... I already had it was the long story short.
+**Jerod Santo:** \[28:23\] Yeah. So if you were on a recent version of Homebrew, would it auto-upgrade you to 2.0? Because I saw the news and then like "Oh, I wanna go get it." Then I did a -- I don't know what I did; brew -v, or... I already had it was the long story short.
 
 **Mike McQuaid:** Yeah, so that's the sad thing that people end up with, that Homebrew -- so our version numbers in some ways are just like notifying people of what has changed underneath you while you haven't been paying attention.
 
@@ -210,7 +210,7 @@ We've kind of changed that now, and I guess like the update stuff, by default no
 
 **Adam Stacoviak:** That's funny...
 
-**Jerod Santo:** \[00:32:29.29\] ...because I think you remember talking about being able to opt out of that back then.
+**Jerod Santo:** \[32:29\] ...because I think you remember talking about being able to opt out of that back then.
 
 **Adam Stacoviak:** I was Googling while we were talking here, too. I'm gonna read something that Mike had actually said, it looks like in October 2016. It's documented in the main page, and instead of opting out - Mike, you might remember saying this, you recommend setting the time period between checks to a higher value instead of opting out.
 
@@ -240,7 +240,7 @@ I have some issues once in a while with upgrading Postgres specifically, but tha
 
 **Adam Stacoviak:** Yeah. So between Homebrew itself, Cask and MAS, it's pretty seamless to just start a new machine app... And literally, I just run a command, and minutes later the machine is ready.
 
-**Mike McQuaid:** \[00:35:53.07\] Yeah. Well, I may make your life even better now, because I'm gonna do a shout-out to another project that I created - an old project called Strap, that replaced the Boxen project at GitHub. So basically it's the same sort of thing you were talking about there for setting up your machine. It's really minimal; I guess like the laptop script, it's basically just a small Bash script, but it will generate your GitHub tokens for you itself as well.
+**Mike McQuaid:** \[35:53\] Yeah. Well, I may make your life even better now, because I'm gonna do a shout-out to another project that I created - an old project called Strap, that replaced the Boxen project at GitHub. So basically it's the same sort of thing you were talking about there for setting up your machine. It's really minimal; I guess like the laptop script, it's basically just a small Bash script, but it will generate your GitHub tokens for you itself as well.
 
 The cool thing about Strap, I guess, in comparison to the Laptop script, or Boxen and stuff like that, is that it doesn't actually install really any software for you, it just installs stuff that you can use to install other software. So it installs Homebrew for you, and the Xcode command line tools, and enables full disk encryption...
 
@@ -270,7 +270,7 @@ I made a little script as well that will pull my SSH keys out of 1Password, and 
 
 **Adam Stacoviak:** That's pretty cool.
 
-**Mike McQuaid:** \[00:40:02.20\] Yeah, so that's my happy place - it's just automating things completely unnecessarily. I definitely spend more time on the script.
+**Mike McQuaid:** \[40:02\] Yeah, so that's my happy place - it's just automating things completely unnecessarily. I definitely spend more time on the script.
 
 **Jerod Santo:** Well, I was just gonna say that, because first of all, this is super-cool. Total geek cred on this. But the reason why I've never used these -- because Adam has talked about thoughtbot's... What's it called -- Bootstrap, or Laptop...?
 
@@ -318,11 +318,11 @@ So that's it, to answer the question of why you -- I mean, I'm one of those peop
 
 **Mike McQuaid:** Oh yeah, and then it embeds it in it, yeah.
 
-**Adam Stacoviak:** \[00:44:07.08\] So it's still using that same kind of concept that you're talking about, Mike.
+**Adam Stacoviak:** \[44:07\] So it's still using that same kind of concept that you're talking about, Mike.
 
 **Mike McQuaid:** And that's the thing that makes me happy about this, because again, that's when I was working in Boxen, Boxen was very much more of a monolithic system. And the thing that makes me happy with the way that we built this solution to replace this at GitHub is, in my opinion, the more Unixy way of doing things, and that you build a bunch of tools which will interoperate nicely, and you create a system from combining those tools... But it means if anyone says - like the Laptop project - that "Oh, one part of this toolchain looks useful to us and the other parts don't", then they can still get all the benefits of that one part of the toolchain, and they can still be part of that ecosystem... And I feel like that makes things better for everyone really, when you have segmentable tools that combine together, rather than having one big, monolithic system you can't really swap bits in and out of.
 
-**Break:** \[00:45:09.02\]
+**Break:** \[45:09\]
 
 **Jerod Santo:** Mike, we mentioned the support for Windows and Linux, and I said there's an asterisk by the Windows support, mostly because you had a few people out there saying "This isn't real Windows support" because it's a Windows Subsystem for Linux. Can you tell us what that means? Are there things missing? Do you consider it official Windows support, or what's your perspective on that?
 
@@ -330,7 +330,7 @@ So that's it, to answer the question of why you -- I mean, I'm one of those peop
 
 The really cool thing about it is it's not transparently running a VM in the background, but it's actually running native Linux binaries through -- I can't remember exactly how it runs under the hood, but it's some sort of kernel syscall mapping. I guess in a vague way it seems to be a little bit like Wine, if any of you are familiar with that, but in reverse, and at the kernel level, I believe. And it's easier for Microsoft to do that obviously, because they can see what the Linux syscall interface is, because it's all open source, and they've been involved with Linux development in the last few years, and stuff like that.
 
-\[00:47:55.17\] It's basically a way of running native Linux stuff on your Windows machine, so as a result you can run Linuxbrew under that. Then when Linuxbrew joins Homebrew, then you can run Homebrew onto that as well... So it's one of our kind of officially supported platforms, more or less because it's just a relatively simple way of being able to run Homebrew on a Windows system.
+\[47:55\] It's basically a way of running native Linux stuff on your Windows machine, so as a result you can run Linuxbrew under that. Then when Linuxbrew joins Homebrew, then you can run Homebrew onto that as well... So it's one of our kind of officially supported platforms, more or less because it's just a relatively simple way of being able to run Homebrew on a Windows system.
 
 I used to do proper, native Windows development in the past, and it's certainly not that... It's not a native Windows package manager; for that you have things like NuGet and Chocolatey, and things like that. But if you want to be able to dabble in things that are in the Homebrew ecosystem and try them out on a Windows machine without having to spin up a Linux VM, or a Mac VM or whatever, then it's a way of doing that.
 
@@ -362,7 +362,7 @@ Basically, the reasoning is the original motivation of all the people who work o
 
 So the way they generally have to build their own software is they just build stuff in their home directory, by themselves, and without really any support... And LinuxBrew has allowed some of those folks to be able to have an actual package manager that they can use, and they can just install stuff in their home directory.
 
-\[00:52:14.28\] Or if they want to use LinuxBrew's binary packages, then they can - I've been informed this is an a lot easier ask - they can say "Hey, can you set up a new user on that system? It doesn't need to be root." And you use our core LinuxBrew and then all the binary packages are kind of built so that they can be used on their home LinuxBrew, and then the system manager can kind of set that up and they can go and then benefit from some of the binary packages as well.
+\[52:14\] Or if they want to use LinuxBrew's binary packages, then they can - I've been informed this is an a lot easier ask - they can say "Hey, can you set up a new user on that system? It doesn't need to be root." And you use our core LinuxBrew and then all the binary packages are kind of built so that they can be used on their home LinuxBrew, and then the system manager can kind of set that up and they can go and then benefit from some of the binary packages as well.
 
 **Jerod Santo:** What about the brew file with the bundle? Is that something that's only on the Mac side? I assume there's definitely -- like the Cask stuff and the other stuff wouldn't be available on the Linux side, but would you at least be able to have a project with a brew file that's the lowest common denominator, so that somebody on Linux and somebody on Mac could both use the same root file and get their setups going?
 
@@ -382,7 +382,7 @@ So yeah, it's been great having more people get involved with the project, and m
 
 Then there's been a few -- if you browse through the Homebrew issues you can kind of see that there's been a little bit of tension with that on occasion, because people don't necessarily agree, understandably, that you have someone who's in a position of authority, with no clear way of removing them if they stop working on the project in the future, or start to abuse their authority, or whatever. So we kind of talked for a while about in the future trying to have some better governance model, and maybe looking at some of the older, more senior open source projects than us and seeing how they do some of this stuff.
 
-\[00:56:07.27\] Then, I guess as a result of that, again, as you mentioned, we've had a reasonable amount of money coming in through Patreon now, and we're part of the Software Freedom Conservancy and we've had some donations through there... So we kind of thought, "Well, something which we can do with that money that would be valuable is have a bunch of Homebrew maintainers come together and meet up." So 14 of us all came to Brussels around the time of FOSDEM, because it's a big open source conference that is free to attend as well... So we got there, and then we had the day after FOSDEM was over - we basically just rented a meeting room in a hotel and all kind of got together, and had lunch and dinner, and had a... Basically, what you guys call it - not to be too grandiose - when the founding fathers all met together to plot...
+\[56:07\] Then, I guess as a result of that, again, as you mentioned, we've had a reasonable amount of money coming in through Patreon now, and we're part of the Software Freedom Conservancy and we've had some donations through there... So we kind of thought, "Well, something which we can do with that money that would be valuable is have a bunch of Homebrew maintainers come together and meet up." So 14 of us all came to Brussels around the time of FOSDEM, because it's a big open source conference that is free to attend as well... So we got there, and then we had the day after FOSDEM was over - we basically just rented a meeting room in a hotel and all kind of got together, and had lunch and dinner, and had a... Basically, what you guys call it - not to be too grandiose - when the founding fathers all met together to plot...
 
 **Adam Stacoviak:** The convening...!
 

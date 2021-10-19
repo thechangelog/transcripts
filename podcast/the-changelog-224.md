@@ -2,7 +2,7 @@
 
 Our sponsors today are Code School and Toptal.
 
-**Break:** \[00:00:50.28\]
+**Break:** \[00:50\]
 
 **Adam Stacoviak:** Alright, we're back for another show. We've got Bertrand Le Roy, and obviously I'm gonna say that not exactly right, because he's French. Jerod, this is a show covering .NET, Microsoft, .NET Core, but it's been a while, right?
 
@@ -26,7 +26,7 @@ Our sponsors today are Code School and Toptal.
 
 **Bertrand Le Roy:** Yeah, so I started working with .NET a long time ago, back when the first version was in beta. I was working in France at the time, I was working for a small web company, and I had built a CMS using .NET, maybe the first CMS on .NET.
 
-\[00:04:04.05\] There was the .com burst and all that at that time, so I started wondering about what was next, and I looked at Microsoft. I was living in France, so it was a big change for me. They hired me, to my great astonishment, and I started working on ASP.NET. I've worked on ASP.NET 3-4 years and then I left. I created a startup with a friend, and I did that for a few years. Then I came back to Microsoft a little more than a year ago to work on .NET. So all my \[\\00:04:46.14\] at Microsoft has been around .NET, and I've seen a lot of change happening during that time.
+\[04:04\] There was the .com burst and all that at that time, so I started wondering about what was next, and I looked at Microsoft. I was living in France, so it was a big change for me. They hired me, to my great astonishment, and I started working on ASP.NET. I've worked on ASP.NET 3-4 years and then I left. I created a startup with a friend, and I did that for a few years. Then I came back to Microsoft a little more than a year ago to work on .NET. So all my \[\\00:04:46.14\] at Microsoft has been around .NET, and I've seen a lot of change happening during that time.
 
 **Jerod Santo:** Why did you leave the first time? Was it because you wanted to do a startup, or for other reasons?
 
@@ -44,7 +44,7 @@ Now open source is the norm, and when you do something new, you basically have t
 
 **Adam Stacoviak:** Speaking of open source and Microsoft, we had in a recent Changelog Weekly a link to Francesc Campoy who works at Google, on the Google Cloud platform. His post on Medium was, "Is Microsoft The Biggest Open Source Software Contributor?" He mentioned he's a Google employee obviously, and a fan of open source. Give us some of this rundown; a lot more has been happening at Microsoft around open source.
 
-**Bertrand Le Roy:** \[00:07:41.23\] Yeah, I saw that. It's a question that's actually very difficult to answer, because how do you measure that? I've seen the numbers, and you can always argue that... I believe in those numbers, Google and Angular \[unintelligible 00:07:56.05\] something like that. You always have some caveats, statistics, \[unintelligible 00:08:00.23\] and so on.
+**Bertrand Le Roy:** \[07:41\] Yeah, I saw that. It's a question that's actually very difficult to answer, because how do you measure that? I've seen the numbers, and you can always argue that... I believe in those numbers, Google and Angular \[unintelligible 00:07:56.05\] something like that. You always have some caveats, statistics, \[unintelligible 00:08:00.23\] and so on.
 
 The fact remains that today Microsoft is one of the most important contributors to open source. Not just projects that were initiated by Microsoft... I think it's interesting to see how teams such as my own are actually contributing to other open source projects.
 
@@ -68,7 +68,7 @@ Maybe that was starting to change already when Ballmer was still there, but it s
 
 **Bertrand Le Roy:** It's always been a problem for me to pronounce this word correctly, ironically.
 
-**Adam Stacoviak:** \[00:11:53.10\] For a second I thought you said ArtShop, and I was like...
+**Adam Stacoviak:** \[11:53\] For a second I thought you said ArtShop, and I was like...
 
 **Bertrand Le Roy:** I know, I know... The same way you cannot pronounce Bertrand, I cannot pronounce this one. \[laughter\] It's been a pain.
 
@@ -96,7 +96,7 @@ That's one of the first things that I worked on concerning open source at Micros
 
 **Jerod Santo:** We're getting close to our first break. Before that, let's give your YouTube show a plug here, Bertrand - On .NET. Many people say we don't cover Microsoft technologies enough; we try to cover all that we can, but we only get one show a week. We're doing our best, and we could probably do a little bit better, but if you're just dying for lots of .NET coverage in the form of a podcast or video, Bertrand is your man. He has a weekly chat with the .NET team and guests. Can you tell us about On .NET?
 
-**Bertrand Le Roy:** \[00:15:44.15\] Yeah, so one of the things that's really important for me is recognition of contributions from everybody in the community. It may sound like something very obvious, but community is one of the most important things for a software platform. I wanted to do something that would recognize what people out there are doing around .NET, because that's what's making what .NET is today.
+**Bertrand Le Roy:** \[15:44\] Yeah, so one of the things that's really important for me is recognition of contributions from everybody in the community. It may sound like something very obvious, but community is one of the most important things for a software platform. I wanted to do something that would recognize what people out there are doing around .NET, because that's what's making what .NET is today.
 
 Every week I'm interviewing somebody who can be someone from inside of Microsoft or outside of Microsoft; I'm trying to keep a balance of both. We chat about .NET and we look at demos that they make of what they are doing with .NET. We're trying to build something that is interesting to watch, every week.
 
@@ -118,13 +118,13 @@ I also write a weekly column on the .NET blog, where I give a list of links, I g
 
 **Jerod Santo:** Very cool. Well, we will have links to all those things in our show notes. Check the show notes if you are interested in On .NET and other stuff that Bertrand is up to. Let's take our first break. On the other side, we'll get into the core of our conversation. Oh, that was... Totally cheesy. \[laughs\] We'll talk about .NET Core catch up after a couple of years of open sourcing. 1.0 announced in June and all that that entails. We'll be right back.
 
-**Break:** \[00:18:34.04\]
+**Break:** \[18:34\]
 
 **Jerod Santo:** Alright, we are back with Bertrand Le Roy, talking about all things open source and Microsoft. We mentioned before the break that Bertrand was one of the actors in the company's shift towards more open source, and obviously an advocate and proponent for open source software. He also has his name on 12 patents for Microsoft... You probably did those under their employ.
 
 **Bertrand Le Roy:** Yeah.
 
-**Jerod Santo:** \[00:20:03.27\] But you have your own opinions on software patents, don't you? We'd love to hear what you think about patents in general, and software patents in particular.
+**Jerod Santo:** \[20:03\] But you have your own opinions on software patents, don't you? We'd love to hear what you think about patents in general, and software patents in particular.
 
 **Bertrand Le Roy:** Yeah, that's definitely the point where I should say that I'm just a guy working for Microsoft, not the Microsoft official \[unintelligible 00:20:22.27\] or anything like that. So opinions are my own, not necessarily the opinions of the company. My opinion on patents is that they have become an obstacle to innovation, whereas originally my understanding is that they were supposed to be driving innovation; they were supposed to be a way for companies to be able to benefit from their inventions.
 
@@ -142,7 +142,7 @@ There's places where you're almost forced into it as a business, but you're like
 
 **Adam Stacoviak:** And they want to have some security in their choices basically, which turns into lack of freedom for the rest of the world. We asked that question simply because when we were researching this call we saw that you had 12 patents from Microsoft; we were kind of curious what your stance was on it, especially in light of you being an actor in the company's shift towards more open source, and the beliefs you had. As you mentioned, you're not a mouthpiece for Microsoft, but your own opinions, and I thought that was a pretty interesting subject to talk to you about, especially as we lead into .NET Core 1.0 and recently here in June, or at least the release of that later in June's month there, and that conversation we also had back with Immo and Varun (episode \#134).
 
-\[00:23:49.01\] Let's continue that piece there. .NET Core now is open source, it has been for a bit. Maybe give us the lay of the land. I know Jerod and I in our pre-call were thinking like, there are so many pieces to .NET that as an outsider it's hard to peek in and know for sure, unless you're actually inside and a .NET developer. Can you give us a lay of the land of what .NET Core is, what other pieces to .NET there are, and the overall landscape of what this platform is?
+\[23:49\] Let's continue that piece there. .NET Core now is open source, it has been for a bit. Maybe give us the lay of the land. I know Jerod and I in our pre-call were thinking like, there are so many pieces to .NET that as an outsider it's hard to peek in and know for sure, unless you're actually inside and a .NET developer. Can you give us a lay of the land of what .NET Core is, what other pieces to .NET there are, and the overall landscape of what this platform is?
 
 **Bertrand Le Roy:** Yes, what you're saying is interesting because obviously we don't want it to be hard to understand for people who haven't been doing .NET before... So yeah, that's kind of a bummer, what you're saying. \[laughs\]
 
@@ -182,7 +182,7 @@ All that can seem a little bit complicated, but if you are new to .NET, you have
 
 **Jerod Santo:** Gotcha.
 
-**Adam Stacoviak:** \[00:27:54.03\] But in light of that, and it being approachable, what is the draw to -- we're gonna talk about .NET Core 1.0 in a bit, but I'm camping on this thought here... Being approachable - what is it that draws people to .NET? What is the draw to developers to look at this platform as something that they should look at as a developer? What attracts people? The community, the language, the platform?
+**Adam Stacoviak:** \[27:54\] But in light of that, and it being approachable, what is the draw to -- we're gonna talk about .NET Core 1.0 in a bit, but I'm camping on this thought here... Being approachable - what is it that draws people to .NET? What is the draw to developers to look at this platform as something that they should look at as a developer? What attracts people? The community, the language, the platform?
 
 **Bertrand Le Roy:** That's a great question. Traditionally, we've been pushing the .NET brand, and to new developers it's not necessarily the way you want to approach things. When you look at other platforms, you don't say... You talk about the language first, you know? You develop in Java, you develop in Python, you develop in Go, right? The only example that I can think of that doesn't start from the language is Node, maybe. But Node is also pretty much tied to JavaScript, so really it's not that different.
 
@@ -204,7 +204,7 @@ Async/await, for example, is a great feature that started on C\# and is continui
 
 **Bertrand Le Roy:** No, it's not very JavaScript-y, it's more... I think the F\# folks, the people from the F\# team talk about a multi-paradigm functional language, or something like that, which is maybe a little too buzzwordy, but pretty accurate nonetheless. I mean, it is multiparadigm, you can do many different things with it; it's not limited to one specific domain, but it is essentially functional in orientation.
 
-**Jerod Santo:** \[00:31:59.00\] So in terms of people that are using .NET, probably we could say the majority are on C\#, and then you have some using F\#, and then you still have some other languages - doesn't VB run on .NET still? Isn't there some more legacy languages?
+**Jerod Santo:** \[31:59\] So in terms of people that are using .NET, probably we could say the majority are on C\#, and then you have some using F\#, and then you still have some other languages - doesn't VB run on .NET still? Isn't there some more legacy languages?
 
 **Bertrand Le Roy:** Oh yeah, absolutely. Actually, I know that I'm going to have the VB folks scream at me for not mentioning VB, of course.
 
@@ -258,7 +258,7 @@ Async/await, for example, is a great feature that started on C\# and is continui
 
 **Jerod Santo:** I'll just mention one other, which is not a technical advantage, but let's face it, it's a real advantage, especially if you have a young developer and she's wondering "Should I learn .NET or should I learn Java, or Ruby?" - there are many, many large corporations that make a lot of money and they meet .NET programmers. So you tend to have -- I wouldn't say an easy time, but lucrative job opportunities if you are well-versed in these technologies. I think we'd be remiss not to mention that as a real draw to the platform.
 
-**Bertrand Le Roy:** \[00:36:18.21\] Yeah. I will mention another one, since you mentioned kids learning how to program... Video games are usually very popular with the young ones, and there is a platform called Unity that you may have heard about, and Unity runs on .NET. Actually, nowadays most of the independent gaming companies are using Unity to build their games. Most of the games you have on your cell phone have probably been built on Unity.
+**Bertrand Le Roy:** \[36:18\] Yeah. I will mention another one, since you mentioned kids learning how to program... Video games are usually very popular with the young ones, and there is a platform called Unity that you may have heard about, and Unity runs on .NET. Actually, nowadays most of the independent gaming companies are using Unity to build their games. Most of the games you have on your cell phone have probably been built on Unity.
 
 **Adam Stacoviak:** There was a recent announcement too back at Build, they were talking about \[unintelligible 00:36:56.19\] Unity joins the .NET Foundation. I'm guessing there's more to that than just what they announced at Build before, this year.
 
@@ -276,7 +276,7 @@ The 1.0 version means that the runtime is completely stable; you can build produ
 
 **Bertrand Le Roy:** Yes!
 
-**Jerod Santo:** \[00:39:57.14\] So I think probably we should talk about what went into that, and perhaps what that means for us MacOS or Linux-based developers.
+**Jerod Santo:** \[39:57\] So I think probably we should talk about what went into that, and perhaps what that means for us MacOS or Linux-based developers.
 
 **Bertrand Le Roy:** That's a great question. .NET started mostly as a Windows technology, there are also some APIs in the full .NET Framework that don't necessarily make a lot of sense for cross-platform implementation such as .NET Core. I mean, who cares about the registry on Linux? Well, it doesn't even exist, right? \[laughter\] There are a few concepts like that that just don't translate, so we have to decide what we are doing with those. Do we keep the APIs in there and make them slow when you are not on an OS that can support the capability? Do you exclude the API? It's really on a case-by-case basis, and there is a lot of work going into that. Immo Landwerth, whom you've had on the show, is the person working on that.
 
@@ -302,7 +302,7 @@ Then there is tooling, because it used to be the case that .NET was only tied to
 
 **Adam Stacoviak:** Gotcha, okay.
 
-**Bertrand Le Roy:** \[00:43:51.19\] So they are very different. It may be a text editor, VS Code, but it also has some pretty advanced features in terms of debugging, code completion and so on. You are still in a very comfortable environment.
+**Bertrand Le Roy:** \[43:51\] So they are very different. It may be a text editor, VS Code, but it also has some pretty advanced features in terms of debugging, code completion and so on. You are still in a very comfortable environment.
 
 **Jerod Santo:** I'm pretty sure our GoTime community is excited about Visual Studio Code...
 
@@ -330,7 +330,7 @@ But we find that there's like a second-class citizen of platforms in the open so
 
 **Jerod Santo:** What are the odds that MacOS specifically... Because I think Linux, because there are so many servers, like you said, and you probably have large corporations and customers that are running .NET on Linux servers, but what about... I could see where MacOS could become the second-class citizen of .NET Core's open source cross-platform. Is there a dedicated team inside Microsoft, running MacOS and making sure that that doesn't happen, or is that a real possibility?
 
-**Bertrand Le Roy:** \[00:48:16.08\] Well, actually a lot of people on the team are using Macs every day. It's actually kind of encouraged. When you buy a laptop, the first choice - on our team, I'm not talking about Microsoft engineers - or the default kind of is a Mac.
+**Bertrand Le Roy:** \[48:16\] Well, actually a lot of people on the team are using Macs every day. It's actually kind of encouraged. When you buy a laptop, the first choice - on our team, I'm not talking about Microsoft engineers - or the default kind of is a Mac.
 
 **Jerod Santo:** Things have changed.
 
@@ -350,7 +350,7 @@ But we find that there's like a second-class citizen of platforms in the open so
 
 **Bertrand Le Roy:** So there are definitely things that are going to happen in terms of what implementation of the base class library each is using, and there is some convergence going on, so that we actually don't maintain three different codebases; there is a lot that is being put in common, obviously. But we still have the runtime itself, and we have great implementations of .NET running on iOS and Android, and I'm not sure why exactly we would necessarily convert those on .NET Core. But I don't know. Maybe. I really don't know. It might happen at some point. You would have to ask the question to somebody else than me.
 
-\[00:52:16.02\] It's also a problem of where you put your focus and where you put your energies. We have many things to do, and everything takes time.
+\[52:16\] It's also a problem of where you put your focus and where you put your energies. We have many things to do, and everything takes time.
 
 **Adam Stacoviak:** So we've covered cross-platform; we obviously understand how important that is, because no longer are you tied to simply those who have Windows machines; you're able to attract MacOS developers, or anybody using a Macintosh computer. You're also attracting those who are on Linux, so that's a good thing; your focus on the command line... Is the command line to .NET Core new? Is that something that's never been there for .NET Core?
 
@@ -380,7 +380,7 @@ I think you guys have some work to do with your branding and your cohesive story
 
 **Jerod Santo:** I wish that it wasn't quite this hard to peel back layers of the onion or see the whole picture, but no doubt you guys will probably get there. Let me ask you this... Ubuntu support now has Bash on Windows - we talked about that - and what I wanna know is what would happen if somebody ran .NET on Linux, on Bash, on Windows? \[laughter\] Would the world implode, or what's gonna happen there?
 
-**Bertrand Le Roy:** \[00:56:07.05\] I don't know, that's an interesting question. You should try it.
+**Bertrand Le Roy:** \[56:07\] I don't know, that's an interesting question. You should try it.
 
 **Jerod Santo:** Maybe I will. Maybe I'll get Dustin Kirkland to try it.
 

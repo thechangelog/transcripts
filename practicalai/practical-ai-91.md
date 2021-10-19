@@ -12,7 +12,7 @@ Today I'm really excited to have an expert on this topic with us, and not only a
 
 **Sheldon Fernandez:** Yeah, it's quite the interesting story. I went to the University of Waterloo here in Canada, so I'm right now speaking to you from Toronto, Canada, home of the NBA champion Toronto Raptors, and we'll be champions for a little bit longer, it looks like...
 
-**Daniel Whitenack:** \[00:04:10.22\] \[laughs\] And Waterloo is kind of a tech hub, right?
+**Daniel Whitenack:** \[04:10\] \[laughs\] And Waterloo is kind of a tech hub, right?
 
 **Sheldon Fernandez:** Correct.
 
@@ -68,7 +68,7 @@ Then (very quickly) although I did an engineering degree, I took some time off i
 
 **Daniel Whitenack:** As I was looking through the Darwin AI website and some of your work - I'll link to your website in our show notes - I was looking specifically through the information about the platform, but also this page you have about research, and it seemed like there were a few themes popping out that were really focus areas, one of those being edge computing and running AI at the edge. I see things like Edge SegNet, which is a compact network for segmentation, Edge SpeechNet for speech recognition at the edge...
 
-\[00:08:17.01\] I also saw a theme of generative machines and generating networks, in some way... And then of course, what we've talked about a little bit at the beginning, which was related to explainability. So I was wondering if you could give a little background on how those themes came up, maybe starting with the edge case.
+\[08:17\] I also saw a theme of generative machines and generating networks, in some way... And then of course, what we've talked about a little bit at the beginning, which was related to explainability. So I was wondering if you could give a little background on how those themes came up, maybe starting with the edge case.
 
 **Sheldon Fernandez:** Yeah.
 
@@ -98,7 +98,7 @@ And then the third was it was so painstaking to do this, because you had no unde
 
 **Sheldon Fernandez:** Exactly. So Google will give it to you for free, but you've gotta do it in GCP, and that's where they get you. It's not free. Whereas we will look at your data and then synthesize a new network from scratch. It's a lot more granular in terms of how we do it. But it is conceptually similar. So yeah, that's the process that these guys invented. And then of course, we asked the question, when we started the business, "Okay, what's the commercial potential? What do you do with this?" And one of the first ones - this addresses your first question - is the edge-based scenario. What do you do when you need to deploy deep learning to a GPU or CPU? You don't have 3 or 4 servers to run it. So that was the first place and crevice that we found when we started thinking about this tech.
 
-**Daniel Whitenack:** \[00:12:26.10\] Yeah. And what have you seen now that you've kind of explored that space a bit? ...working with clients and people that are doing things at the edge, what do you see as the real-world driving factor of people wanting to deploy AI at the edge? Because from my perspective, I hear different things, I hear on the one side privacy is the main issue, which I could definitely see that, if data is not leaving the device...
+**Daniel Whitenack:** \[12:26\] Yeah. And what have you seen now that you've kind of explored that space a bit? ...working with clients and people that are doing things at the edge, what do you see as the real-world driving factor of people wanting to deploy AI at the edge? Because from my perspective, I hear different things, I hear on the one side privacy is the main issue, which I could definitely see that, if data is not leaving the device...
 
 **Sheldon Fernandez:** Yeah.
 
@@ -122,17 +122,17 @@ In consumer electronics and health, privacy is probably the more predominant fac
 
 **Daniel Whitenack:** Gotcha. And in these cases, what is the biggest concern or hurdle when you're getting to the edge? You talk about compact networks... Obviously, for a thing that is lower-power, if we're thinking about like a small computer, or a smart camera, or something like that - that's gonna be low-power; it's not gonna have that much power and storage space, and RAM, and all of that stuff. So the compactness - is it dual-purpose, both for getting it on the device AND the efficiency, or what's the blocker there?
 
-**Sheldon Fernandez:** \[00:16:25.23\] Again, it depends on the vertical. In the case of, for example, defense, they have pretty powerful devices already that are outfitted on whatever it is that they're trying to do, so it's efficiency on those devices. "How many concurrent systems can I run with this hardware that I've already agreed is gonna be on the device?" In autonomous vehicles I need my perception network to recognize the scene in front of me in ten milliseconds, and I therefore need it to be really fast on this hardware.
+**Sheldon Fernandez:** \[16:25\] Again, it depends on the vertical. In the case of, for example, defense, they have pretty powerful devices already that are outfitted on whatever it is that they're trying to do, so it's efficiency on those devices. "How many concurrent systems can I run with this hardware that I've already agreed is gonna be on the device?" In autonomous vehicles I need my perception network to recognize the scene in front of me in ten milliseconds, and I therefore need it to be really fast on this hardware.
 
 With consumer electronics it's a bit different. Accuracy is important, but it's not as mission-critical as finding a child in a scene when a car is driving. When you're talking to Siri and it gets your last name wrong - okay, you just re-say it again. In that case its performance, accuracy on the device is usually the predominant factor. So again, it differs, depending on your use case.
 
 **Daniel Whitenack:** Yeah.
 
-**Break:** \[00:17:28.00\]
+**Break:** \[17:28\]
 
 **Daniel Whitenack:** Okay, so I would love to maybe dive into this generative model technology a little bit more. You mentioned that there's this sort of -- I think what you're calling "inquisitor model" that studies something... I'm not sure if I'm clear exactly the process that that goes through... So I guess from a practical perspective, when we're talking about this, is this a case where I still am using the same types of models? ...like I have a convolutional net, or I have a recurrent neural network, or whatever it is, and I have another model that's performing this function? Or is everything happening together in the same sort of different model of some type?
 
-**Sheldon Fernandez:** \[00:19:50.29\] Right, so it's happening underneath the hood, with this technology that uses this \[unintelligible 00:19:54.15\] you're giving it a neural network and you're getting a number of neural networks generated that are more compact, and work against your data with usually the same accuracy, and they're faster.
+**Sheldon Fernandez:** \[19:50\] Right, so it's happening underneath the hood, with this technology that uses this \[unintelligible 00:19:54.15\] you're giving it a neural network and you're getting a number of neural networks generated that are more compact, and work against your data with usually the same accuracy, and they're faster.
 
 **Daniel Whitenack:** Gotcha.
 
@@ -162,7 +162,7 @@ We have enough experience to know "Look, we're giving you a tool that takes away
 
 **Daniel Whitenack:** I know one of the things - I forget where I saw this; I think maybe it was at a TensorFlow dev summit when they were talking about AutoML. One of the things that they saw as interesting in this process is not so much automating away everything, but just learning new architectures that they wouldn't have guessed prior. Is that something that you've found in doing this different -- it's a different approach, but you are still generating new graphs, like you say... In looking at those new graphs and those new architectures - have surprising things come out from that in terms of what's actually needed to solve certain problems, or...?
 
-**Sheldon Fernandez:** \[00:23:42.22\] That's a great question, and one I would have to ask our deep researchers. Do they look at the new architecture, and does that give them an idea? The fact of the matter is very few people are designing networks from the ground up. The big five basically do it, because they've got the intellectual horsepower to do it. Now, where we do have insights thought - and maybe we'll get to this - is the explainability piece of why certain things are being made... That is intriguing, and that teaches you things that just never would have occurred to you before.
+**Sheldon Fernandez:** \[23:42\] That's a great question, and one I would have to ask our deep researchers. Do they look at the new architecture, and does that give them an idea? The fact of the matter is very few people are designing networks from the ground up. The big five basically do it, because they've got the intellectual horsepower to do it. Now, where we do have insights thought - and maybe we'll get to this - is the explainability piece of why certain things are being made... That is intriguing, and that teaches you things that just never would have occurred to you before.
 
 **Daniel Whitenack:** Yeah, I totally agree with you. When I teach classes, I say most of AI in practice is not drawing networks on the chalkboard, and starting with a blank chalkboard and then going. It's more like cooking, in the sense that you get a recipe, and then you have to bring your ingredients to it, your data to it... And you might have to change the recipe a bit, because you don't have these ingredients or those...
 
@@ -190,7 +190,7 @@ A very practical example I can give you - in the early days of Darwin we worked 
 
 So we were able to help them debug that they had done the training for the turning scenario in the Nevada desert when the color of the sky was this shade of purpose, and that was the correlation the car had made. But in order to understand those nonsensical correlations, in order to identify the edge cases, you need to have some insight into why the neural network is doing what it's doing. So that is why explainability is so important - it's to make more robust networks and give the data scientist and the deep learning developer tools to make those more robust networks.
 
-**Daniel Whitenack:** \[00:28:17.09\] Yeah, I think you really summarized that well... And I think some of this is beginning to be on my mind so much more as I develop. Just last week - just to shout-out one of my favorite podcasts, which is the NLP Highlights Podcast from the Allen Institute of AI... His name is Marco Ribeiro on there; he's from Microsoft, and he was talking about behavioral testing of NLP models. He basically used a bunch of commercially-available systems in his paper, like from Microsoft, and Google, and Amazon... That they sell for example for like sentiment analysis. And he did some very -- what he called minimum functionality tests, that were not based on a training set that they used to train the model, but just for the minimum functionality you'd expect from a sentiment analysis... Like can it get "I don't like food", the sentiment of that.
+**Daniel Whitenack:** \[28:17\] Yeah, I think you really summarized that well... And I think some of this is beginning to be on my mind so much more as I develop. Just last week - just to shout-out one of my favorite podcasts, which is the NLP Highlights Podcast from the Allen Institute of AI... His name is Marco Ribeiro on there; he's from Microsoft, and he was talking about behavioral testing of NLP models. He basically used a bunch of commercially-available systems in his paper, like from Microsoft, and Google, and Amazon... That they sell for example for like sentiment analysis. And he did some very -- what he called minimum functionality tests, that were not based on a training set that they used to train the model, but just for the minimum functionality you'd expect from a sentiment analysis... Like can it get "I don't like food", the sentiment of that.
 
 But then what he did is he made perturbations on that, like changing "I don't like burritos" to "I don't like oranges." Simple perturbations that should not change the sentiment from negative to positive, or changing "I like the U.S." to "I like Turkey", and then seeing if the change in -- he actually found these huge percentage of failures in these commercially-available systems for these minimum functionality tests.
 
@@ -210,7 +210,7 @@ Now, sometimes you will actually learn from explainability. The neural network w
 
 **Sheldon Fernandez:** So there's a second benefit, in that sometimes - not often, but occasionally - it will actually teach the subject matter expert about a new way of thinking about the domain.
 
-**Break:** \[00:32:05.23\]
+**Break:** \[32:05\]
 
 **Daniel Whitenack:** So as we're thinking about this explainability piece, I'm kind of curious -- we've motivated why explainability, and some of the pitfalls that people can fall into, and also this sort of dual benefit of also learning in some cases from explainability... But I'm curious, from a practical perspective, as I'm using this system and I'm learning about my network, what is the range of thing that I can learn, since there could be so many different types of features that could be contributing to something?
 
@@ -226,7 +226,7 @@ When you remove the predominant inputs that our explainability algorithm detects
 
 **Daniel Whitenack:** Yeah, I know that there's some interesting attempts out there... Actually, we had a guy on the podcast who was talking about recurrent units in a neural network, and how those behave in terms of the memory, or what they pay attention to previously or forward in a text sequence... And visualizing that sort of thing. That was really interesting, I'll link that one in the show notes. Maybe there's some things that are possible there. I could definitely see that in itself is a research topic almost...
 
-**Sheldon Fernandez:** \[00:35:56.06\] Onto itself, yeah.
+**Sheldon Fernandez:** \[35:56\] Onto itself, yeah.
 
 **Daniel Whitenack:** Yeah, yeah. That's interesting. So in terms of the system, how do you make decisions about... Like, do you provide -- and I'm kind of curious about this, just from an AI startup perspective... Because there's a lot of people out there trying to do different things, and some are like "Well, our system bolts onto TensorFlow, or has a TensorFlow backend, or PyTorch etc." Are you kind of providing a self-service for people to do things, where the frameworks and that sort of thing are transparent, and they're really just kind of importing models, and that sort of thing? Or is it an augmentation to their existing workflow?
 
@@ -244,7 +244,7 @@ When you remove the predominant inputs that our explainability algorithm detects
 
 **Sheldon Fernandez:** I think one of the big things is really seeing significant deep learning use cases realized in the next couple years. There's this concept of the adjacent possible that you may have heard about, which is "What can you do with your technology, given where the world is at? And sometimes at Darwin -- you know, we were maybe a year or two early when we started... So the industry is now catching up and grappling with the problems that our academics knew they would have ten years ago. So what excites me is now that they're actually doing it, now that Lockheed is trying to do AI and implement robust AI at the edge, the problems we foresaw are ones our toolset helps with.
 
-\[00:39:57.00\] So it's seeing how those use cases play out, and just knowing what deep learning can do, and the number of different areas where it can be used. Healthcare, to cite an obvious example - the amount of interest we've gotten because that vertical is really looking seriously at experimental technologies to create a vaccine is incredible. Digital learning, and so many things. I think just the general applicability of it is what fascinates me.
+\[39:57\] So it's seeing how those use cases play out, and just knowing what deep learning can do, and the number of different areas where it can be used. Healthcare, to cite an obvious example - the amount of interest we've gotten because that vertical is really looking seriously at experimental technologies to create a vaccine is incredible. Digital learning, and so many things. I think just the general applicability of it is what fascinates me.
 
 I say sometimes, it sort of reminds me of the internet in the early '90s. I don't know if you remember that, but I was a teenager in high school... And we didn't think in 1992 or 1993 that these little signals going over telephone wires with modems would reimagine the world and reimagine industries. To me, it's the same thing with artificial intelligence, only greater. The potential there is incredible for me.
 
@@ -270,7 +270,7 @@ I say sometimes, it sort of reminds me of the internet in the early '90s. I don'
 
 **Daniel Whitenack:** Oh, great.
 
-**Sheldon Fernandez:** \[00:43:45.10\] ...which goes over traditional techniques... So if you follow us on our Twitter, @DarwinAI, or our LinkedIn page, we post this all. So that's a really good place to start, because we go over why the problem exists, what the common techniques are, what our technique is, our scholarship around this... So I think that's a really good starting point for people that are grappling with this and thinking about addressing the problem.
+**Sheldon Fernandez:** \[43:45\] ...which goes over traditional techniques... So if you follow us on our Twitter, @DarwinAI, or our LinkedIn page, we post this all. So that's a really good place to start, because we go over why the problem exists, what the common techniques are, what our technique is, our scholarship around this... So I think that's a really good starting point for people that are grappling with this and thinking about addressing the problem.
 
 **Daniel Whitenack:** Yeah, great. And in light of a lot of the things going on in our nation and otherwise too, I'd definitely recommend one thing that I've found really useful out there in terms of exposing maybe on the data side the biases and the fairness in your data - there's a great toolkit from IBM, IBM Fairness 360. Even if you don't use their toolkit, you can learn a lot about the various ways people are looking at bias and data and other things like that... So just for our listeners who might be interested on that topic.
 

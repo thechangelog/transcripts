@@ -14,7 +14,7 @@ So what happened is I essentially pulled a nerve, it got inflamed and irritated,
 
 I went to the doctor -- or rather I zoomed with my doctor, because of the times we're living in... And he said, essentially, it's probably something called Cubital Tunnel Syndrome, which is a type of ulnar neuropathy. The idea is you have a nerve that runs from your neck to your pinkie, and that nerve is getting compressed because it's been irritated.
 
-\[00:04:50.10\] It's essentially just a mild burning pain that progressively gets less and less mild if you don't stop what you're doing... So I was essentially only able to type in really short bursts. And if I tried to do that for more than like a dozen times a day, my arm would just be very unhappy with me, and the next day it would be worse.
+\[04:50\] It's essentially just a mild burning pain that progressively gets less and less mild if you don't stop what you're doing... So I was essentially only able to type in really short bursts. And if I tried to do that for more than like a dozen times a day, my arm would just be very unhappy with me, and the next day it would be worse.
 
 Essentially, for a couple of months I wasn't using computers at all. I essentially took the opportunity to just go on lots of walks, and play video games... Because for whatever reason, video games -- holding a joystick wasn't as bad. I also of course experimented with lots and lots of other remedies. I got myself a standing desk, I saw a new physiotherapist, I saw an occupational therapist, I tried a whole bunch of different antiinflamatories, I got custom splints made, a lot of different exercises... Lots of stuff. Essentially, I ran the gamut. I have three or four different ergonomic keyboards... I tried a lot of things, and none of them really helped.
 
@@ -30,7 +30,7 @@ I was getting that exact same problem, and I was beginning to think "What if I c
 
 I couldn't find a solution for the longest time. I tried ergonomic keyboards... One person said "Get those relaxation metal balls that you twirl in your hand..." I can't remember what those are called... "Because that will help your -- move it around, take frequent breaks", all that kind of stuff.
 
-\[00:08:04.02\] Eventually, I found the solution, which was simple, in my case. My particular problem was merely because of the way I shifted my left hand to reach the lower left hand key, which was the Ctrl key on that keyboard... Because it's tons of keyboard shortcuts, the Ctrl key. So I was doing this - and listeners can't see me, but I'm basically moving my left wrist to the left, down and to the left, over and over, every time I used a keyboard shortcut. As a developer, we're copy and pasting, we're doing all sorts of things in Vim etc.
+\[08:04\] Eventually, I found the solution, which was simple, in my case. My particular problem was merely because of the way I shifted my left hand to reach the lower left hand key, which was the Ctrl key on that keyboard... Because it's tons of keyboard shortcuts, the Ctrl key. So I was doing this - and listeners can't see me, but I'm basically moving my left wrist to the left, down and to the left, over and over, every time I used a keyboard shortcut. As a developer, we're copy and pasting, we're doing all sorts of things in Vim etc.
 
 So I found that all I had to do was switch my Caps Lock and my Ctrl key, and it just took that one motion away. Over time, the problem just went away, and I was very fortunate for that reason... Because I was thinking "As a developer, I need a few things, really...", which is way less than a lot of other people. "I need my brain to function correctly, I need my eyes, and I need my hands." That's kind of what we need, right? Those are the faculties of our body that are most important for writing software...
 
@@ -62,7 +62,7 @@ So I found that all I had to do was switch my Caps Lock and my Ctrl key, and it 
 
 That said, it has started to get better. I briefly mentioned, but I've shifted away now... I still use dictation a fair bit, but I'd say I can get 4-5 hours of keyboard typing time a day now, which is a lot better than the 4-5 minutes. And funnily enough, it wasn't like some exercise -- and I don't even think it was a matter of time; the shift that happened was more mental than anything.
 
-\[00:12:03.15\] So a bunch of people kept telling me to read this book, The Mindbody Prescription. And the idea with this book - and it's not like generally recognized as actual medicine; it's a little bit on the fringe, let me state that right upfront... But the idea is a lot of chronic pain conditions - so not acute pain; not the 6-8 weeks things when you break a leg... Chronic pain is often caused by the brain. Essentially, you have unresolved emotional turmoil, and the brain sees this as an opportunity to draw your attention to this physical problem, because it can be a little bit less stressful when dealing with emotional things.
+\[12:03\] So a bunch of people kept telling me to read this book, The Mindbody Prescription. And the idea with this book - and it's not like generally recognized as actual medicine; it's a little bit on the fringe, let me state that right upfront... But the idea is a lot of chronic pain conditions - so not acute pain; not the 6-8 weeks things when you break a leg... Chronic pain is often caused by the brain. Essentially, you have unresolved emotional turmoil, and the brain sees this as an opportunity to draw your attention to this physical problem, because it can be a little bit less stressful when dealing with emotional things.
 
 Now, I've done a lot of soul searching, I have yet to figure out what the underlying emotional turmoil is, but the idea that it could be mental alone has gotten me thinking about things a little bit differently. One of the things that really resonated with me was the idea of this Pavlovian response. So in the same way that like for 6-7 months now ( maybe a little bit longer), whenever I go to type, I feel pain. And after enough time, that just becomes an ingrained response.
 
@@ -82,7 +82,7 @@ The thing that I have been watching for, and that other people should watch for,
 
 **Jerod Santo:** I have seen other people do this. In fact, in your blog post you reference Emily Shea and her Python -- what was her talk? Let me grab it real quick.
 
-**Josh Comeau:** \[00:16:13.17\] It's called Perl Out Loud.
+**Josh Comeau:** \[16:13\] It's called Perl Out Loud.
 
 **Jerod Santo:** Perl Out Loud, not Python. There was a Python one and a Perl one. Emily Shea is Perl Out Loud.
 
@@ -114,7 +114,7 @@ Another example is if you wanna switch windows, you can just say Cmd+Tab on the 
 
 **Jerod Santo:** I can do it -- it's second-nature, with just my fingers, not even thinking about it.
 
-**Josh Comeau:** \[00:20:05.25\] Yeah, it adds a little bit of friction to just about everything that you do. That can be annoying when you're trying to get something done. You can feel like your brain is now moving faster than your voice; same with typing too, but especially with this... But yeah, the silver lining to that is definitely that it discourages behavior that -- it just doesn't feel as worthwhile to spend the time switching over to Twitter.
+**Josh Comeau:** \[20:05\] Yeah, it adds a little bit of friction to just about everything that you do. That can be annoying when you're trying to get something done. You can feel like your brain is now moving faster than your voice; same with typing too, but especially with this... But yeah, the silver lining to that is definitely that it discourages behavior that -- it just doesn't feel as worthwhile to spend the time switching over to Twitter.
 
 **Adam Stacoviak:** Can you talk a bit about the phonetic alphabet that you use? I know it's kind of different than -- I was in the military, so I'm familiar with Alpha, Beta, Charlie -- Alpha, Bravo, Charlie, all that stuff... I said Beta, but I was wrong... \[laughter\]
 
@@ -152,7 +152,7 @@ But yeah, it's essentially just this carefully-designed language where each lett
 
 Selecting text is interesting. The way that I've done it - and truthfully, there probably is maybe better ways to do this - I've kind of just gotten stuck in my ways - is you can say "Go left" if you wanna move the cursor left, the same as the left arrow on your keyboard, and you can give that a repetition number. So if I say "Go left eighth", it goes left by eight spaces.
 
-\[00:24:14.26\] "Eighth" is kind of a weird -- so they're ordinals. Usually, you would describe this as like the eighth of the month, or -- you wouldn't usually say "Do this eighth times", but the reason you don't just use "Do this once" or you don't say "Go back eight" is that eight is the vocalization to put the number eight, so there's a bit of a conflict with it.
+\[24:14\] "Eighth" is kind of a weird -- so they're ordinals. Usually, you would describe this as like the eighth of the month, or -- you wouldn't usually say "Do this eighth times", but the reason you don't just use "Do this once" or you don't say "Go back eight" is that eight is the vocalization to put the number eight, so there's a bit of a conflict with it.
 
 **Jerod Santo:** Right...
 
@@ -174,7 +174,7 @@ It's kind of like if you were to write code on a whiteboard - it's similar in pr
 
 **Josh Comeau:** Well, it depends on which one, but let's go with the e-a-k. It would be "bat, red, each, air, crunch."
 
-**Break:** \[00:27:08.24\]
+**Break:** \[27:08\]
 
 **Adam Stacoviak:** So we're gonna do some live coding via voice, Josh, and... You'll obviously lead the way, because you're the one who does this...
 
@@ -190,7 +190,7 @@ It's kind of like if you were to write code on a whiteboard - it's similar in pr
 
 **Adam Stacoviak:** Take it away, Josh. Do some live coding for us. Set the stage. What are you gonna do?
 
-**Josh Comeau:** \[00:28:20.29\] Yeah, so I'll give this a shot. I should also say that it's all very -- the reason this works for me is I've set up a bunch of little macros that do kind of standard tasks for me. So if you go ahead and - anyone who's listening and trying to follow along, the commands that I'm saying won't work for you, because they're custom commands that I've built in. But I'll essentially just do a little audio demo of how I would go about adding a couple of HTML elements, and some styles for them. I'll be doing this with React, because that's what my binding is set up for, but ultimately, it's gonna sound quite similar to if I was just doing it in vanilla HTML and CSS.
+**Josh Comeau:** \[28:20\] Yeah, so I'll give this a shot. I should also say that it's all very -- the reason this works for me is I've set up a bunch of little macros that do kind of standard tasks for me. So if you go ahead and - anyone who's listening and trying to follow along, the commands that I'm saying won't work for you, because they're custom commands that I've built in. But I'll essentially just do a little audio demo of how I would go about adding a couple of HTML elements, and some styles for them. I'll be doing this with React, because that's what my binding is set up for, but ultimately, it's gonna sound quite similar to if I was just doing it in vanilla HTML and CSS.
 
 First, I have to make sure that I've enabled it, because... There we are. So essentially, what I would do is I would start by saying "elm h1". Actually, I'm gonna code a bunch -- because I'm already getting distracted. I'm gonna code a bunch of stuff, and then I'll explain it afterwards.
 
@@ -234,7 +234,7 @@ And then when I said "Rule, color red", rule is my own little shortcut, and what
 
 **Adam Stacoviak:** Right. When you're doing this kind of coding, having had the ability to do it with your hands, \[unintelligible 00:31:59.26\] but just with some pain at some point, but then via voice... Is there a preference? Would you prefer to do it with your hands? Do you find it somewhat maybe even different in what you're able to create with your voice? Because there might be an obvious preference, but I'm just not sure.
 
-**Josh Comeau:** \[00:32:18.17\] Yeah, that's a fair question. I'd say that overall I do think that I prefer typing. And part of that too is that, you know, I have 3-4 months of dictation practice, and 25 years of typing experience. So there is a little bit of an asymmetry there, just in terms of practice. I'd say for about 10% to 20% of the things that I do, dictation actually is better and faster. A good example would be creating a StyledComponent. If I was to do that with typing, I would have to type "const TheNameOfTheThing = styled.TheElement the tick", I'd have to press Enter, a second tick... There's a lot of fussing about. Whereas if I say "Styled title heading" or "Styled heading title", it's much faster to say that than to type all those characters.
+**Josh Comeau:** \[32:18\] Yeah, that's a fair question. I'd say that overall I do think that I prefer typing. And part of that too is that, you know, I have 3-4 months of dictation practice, and 25 years of typing experience. So there is a little bit of an asymmetry there, just in terms of practice. I'd say for about 10% to 20% of the things that I do, dictation actually is better and faster. A good example would be creating a StyledComponent. If I was to do that with typing, I would have to type "const TheNameOfTheThing = styled.TheElement the tick", I'd have to press Enter, a second tick... There's a lot of fussing about. Whereas if I say "Styled title heading" or "Styled heading title", it's much faster to say that than to type all those characters.
 
 So there are cases in which it's faster, but the cases in which it's faster are cases that I do often enough that I've taken the time to explicitly write a little Python to have that work.
 
@@ -264,7 +264,7 @@ The process of actually vocalizing stuff is making you lose your train of though
 
 **Adam Stacoviak:** I'm assuming you probably could do it in a coffee shop, but it might be difficult, because -- does Talon know your voice in particular? Is it able to only channel your voice? I know whenever I'm speaking to even like phone numbers you call, like 800 numbers for your bank or whatever - I can't have anybody in the background saying a thing, because next thing you know, option 1 is pressed instead of option 2, or whatever... You know, any noise in the background totally disrupts the flow of what I'm trying to do. What is it like for you?
 
-**Josh Comeau:** \[00:36:08.24\] Yeah, so there's two aspects to that. One is how much does the environment affect the technology, and the other is "How can you do this when surrounded by people? Does this bother the people around you? Is it problematic in that way?" For the first one -- actually, for both of these, thanks to Emily's talk, Perl Out Loud, I discovered that they sell this thing... It's like, you strap it over your face; it's like a mask with a built-in microphone. It looks a little silly, but I imagine that would solve both of these problems, where it really makes it so that your voice is the only thing being picked up... And it muffles your voice to the point that you're probably not disturbing people around you.
+**Josh Comeau:** \[36:08\] Yeah, so there's two aspects to that. One is how much does the environment affect the technology, and the other is "How can you do this when surrounded by people? Does this bother the people around you? Is it problematic in that way?" For the first one -- actually, for both of these, thanks to Emily's talk, Perl Out Loud, I discovered that they sell this thing... It's like, you strap it over your face; it's like a mask with a built-in microphone. It looks a little silly, but I imagine that would solve both of these problems, where it really makes it so that your voice is the only thing being picked up... And it muffles your voice to the point that you're probably not disturbing people around you.
 
 My snarky answer anyway - because a couple of people have said "You couldn't do this in an open office. It would make working in an open office miserable", and my thing is always like "Isn't it already? Is it really gonna make it that much worse?"
 
@@ -306,7 +306,7 @@ But then my right arm started exactly the same thing. Not sure why. I had the sa
 
 **Adam Stacoviak:** So you may have cared beforehand, maybe after dealing with this, and then obviously having to do such measures to continue to do your job, and to enjoy what you do... It probably has to give you a different perspective on implementing and caring about, being a frontliner, essentially, in the \[unintelligible 00:40:03.23\] world and accessibility world. The frontenders are pretty much who implements that stuff, so it's us who cares anyways, but you double-care now.
 
-**Josh Comeau:** \[00:40:14.26\] Yeah, and I would have told you before all of this that accessibility was important, and I always knew it was important, but it was theoretical. I had never watched someone struggle to use a thing that I had built because I neglected to take into account how they were using computers... So it was always this abstract notion. "I wanna do this because it's the right thing to do."
+**Josh Comeau:** \[40:14\] Yeah, and I would have told you before all of this that accessibility was important, and I always knew it was important, but it was theoretical. I had never watched someone struggle to use a thing that I had built because I neglected to take into account how they were using computers... So it was always this abstract notion. "I wanna do this because it's the right thing to do."
 
 Essentially, you're just following a style guide and just hoping that it works... Whereas now, you get to realize that "Oh, this is actually how people use the internet", and it is awful, in a lot of cases, because so many websites have neglected the absolute -- like, the stuff that you get for free; the little focus outline that everyone hides, because they think it's not cosmetic... Until I got the eye-tracker - and we should talk about eye-tracking - I was essentially a keyboard user in terms of how it worked, because I would say the word "Tab", and it would navigate me. And I could do the same, like "Tab fifth" to jump by five spaces. But that was my way of navigating, because I couldn't use a mouse, because my right arm was bothering me, and I hadn't yet discovered eye-tracking. It was like a 2-3 week period, so it wasn't long... But it was enough, just in your day-to-day internet usage. I felt like "Oh, this is really awful." You have to make educated guesses as to what's being focused right now.
 
@@ -324,7 +324,7 @@ I know that Jen Luker has made this point - if you're holding a baby, in that mo
 
 **Josh Comeau:** Yeah. I'd say that also that it's tricky, because it's not just one thing. It's not just like "My site is accessible because it's keyboard-navigable", because what about people that are colorblind? Can they use it? Often, you have competing interests. I'm really into animation, and this is something I struggle with sometimes, where for people that have vestibular disorders, animation can cause motion sickness, and you can get nauseous, get a headache... But animation can also be a usability win, because it can make things a little bit easier to understand for people that have cognitive disabilities.
 
-\[00:43:59.05\] So there are sometimes trade-offs there, and fortunately, I think browser vendors and operating systems, manufacturers are starting to become aware of this and giving that control to users. Specifically with motion, there's a media query "prefers reduced motion", and that way users can specify "Hey, I don't wanna have any of this sweeping motion." The developer still has to take that into account, but at least we have that control now. We can tune the experience for the user.
+\[43:59\] So there are sometimes trade-offs there, and fortunately, I think browser vendors and operating systems, manufacturers are starting to become aware of this and giving that control to users. Specifically with motion, there's a media query "prefers reduced motion", and that way users can specify "Hey, I don't wanna have any of this sweeping motion." The developer still has to take that into account, but at least we have that control now. We can tune the experience for the user.
 
 **Jerod Santo:** Well, we shouldn't go too far without talking about the eye-tracking, because we teased it twice at this point, and it's pretty intriguing...
 
@@ -352,7 +352,7 @@ The way that it works is you look at where you want to click and you make a litt
 
 **Jerod Santo:** A lot of people, the mouse is specifically what gives them the pain. It's the weight of it, and dragging it... So switching to a trackpad, or sometimes they have those ergonomic mice that are vertical, and it's like a ball that you roll around like that - that will oftentimes be good enough. But if not, and you have no trouble with typing, then maybe eye-tracking is for you.
 
-**Josh Comeau:** \[00:48:03.25\] Yeah. And what I've come to realize is there's a lot of mouse interactions that I don't even think of, that I use heavily. Dragging and dropping is a good example. Scrolling, using a mouse wheel is another. Dragging and dropping you can do. I don't do it often enough to remember off-hand, but you say something, instead of making the pop noise. So you make the pop to zoom in, then you say something, and then you kind of move the mouse and say something else to release it, in that case. And it works surprisingly well.
+**Josh Comeau:** \[48:03\] Yeah. And what I've come to realize is there's a lot of mouse interactions that I don't even think of, that I use heavily. Dragging and dropping is a good example. Scrolling, using a mouse wheel is another. Dragging and dropping you can do. I don't do it often enough to remember off-hand, but you say something, instead of making the pop noise. So you make the pop to zoom in, then you say something, and then you kind of move the mouse and say something else to release it, in that case. And it works surprisingly well.
 
 Scrolling, I don't know... That's one of the activities that I just use the trackpad for now, because I've gotten accustomed enough. One of the things, too - when I started, I would still have the mouse and keyboard on the desk, and I would forget, and I wouldn't remember until my elbow starts burning a few minutes later, and then I'd regret it the next day. So I've removed all that stuff from my desk. But now I've gotten comfortable enough, both because it's getting better, but also because I've gotten used to this alternative setup; I just always have a trackpad. If I need to scroll, I'll use that. If I need to click, I'll just use the popping, and it works pretty well.
 
@@ -372,7 +372,7 @@ Scrolling, I don't know... That's one of the activities that I just use the trac
 
 **Josh Comeau:** It is the kind of thing where sometimes if your mouth is right -- like, you start noticing all the subtle different environmental factors of your mouth that affect that.
 
-**Adam Stacoviak:** Absolutely. I've got a less than one-year-old, so I'm always going \[00:49:32.23\] to that kid. So unless my lips are a little bit moist, it ain't happening. It just turns out into like a buzz, or something like that.
+**Adam Stacoviak:** Absolutely. I've got a less than one-year-old, so I'm always going \[49:32\] to that kid. So unless my lips are a little bit moist, it ain't happening. It just turns out into like a buzz, or something like that.
 
 **Josh Comeau:** Yeah.
 
@@ -392,9 +392,9 @@ So I imagine five years of this and you probably wouldn't even think about it in
 
 **Josh Comeau:** It does feel a little bit like everything is going wrong all at once. Yeah, it can be discouraging, especially because you're often in a discouraging situation already. But I always just kind of try to keep on the bright side and just think that maybe this is a good opportunity to -- and granted, it also didn't help that this was during lockdown, so it was like "Let's go out and do something!" Well, you can't really do that either.
 
-\[00:51:58.12\] But you know, just take a moment to be present and enjoy -- essentially, take it as an opportunity... You're blocked from doing work, but -- for myself at least, I find that I'm always raring to get stuff done, and part of this has just been being comfortable not doing that, and just living your life. Go make a nice meal, and spend time with my partner... Do those nice things that I always didn't save enough time for.
+\[51:58\] But you know, just take a moment to be present and enjoy -- essentially, take it as an opportunity... You're blocked from doing work, but -- for myself at least, I find that I'm always raring to get stuff done, and part of this has just been being comfortable not doing that, and just living your life. Go make a nice meal, and spend time with my partner... Do those nice things that I always didn't save enough time for.
 
-**Break:** \[00:52:35.01\]
+**Break:** \[52:35\]
 
 **Jerod Santo:** So this experience has given you renewed vigor with regards to the importance of accessibility. Anything else you've learned over the last few months as you put this into place, and been able to slowly move back into somewhat more of a regular life as a coder? What have you learned through this process?
 
@@ -410,7 +410,7 @@ Takeaway number two is a bit more positive, which is just that it is not catastr
 
 **Josh Comeau:** Oh, yeah.
 
-**Jerod Santo:** \[00:55:58.28\] That's good to know for people, like "Well, if worse comes to worst, this is an option for people."
+**Jerod Santo:** \[55:58\] That's good to know for people, like "Well, if worse comes to worst, this is an option for people."
 
 **Josh Comeau:** Yeah, absolutely. I think that if you have enough of a will, the technology exists to provide a way. So that's the second thing. The third thing is just like don't dilly-dally with the things that you wanna do in life. I've had this idea in the back of my head for a few years now, that I wanted to start some sort of online education thing. I've been teaching at a bootcamp part-time for the past couple of years... It's always been something I've been interested in. But in my mind, I had like an infinite span of time ahead of me. So I'm enjoying my job, just working as an individual contributor... Why not keep doing that? And you know, this experience -- I consider this kind of a close call, in the sense that it's not catastrophic. My life was never in danger. But it was still like enough of a wake-up call. You don't have unlimited output. You have a finite amount of typing you will do in your life, and if there's something you wanna do, spend that resource wisely.
 

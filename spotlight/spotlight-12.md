@@ -1,6 +1,6 @@
-**Adam Stacoviak:** \[00:00:31\] Welcome to our Spotlight series titled The Future Of Node, recorded at Node interactive 2016, in Austin, Texas. We produced this in partnership with the Linux Foundation, the Node.js Foundation and it's sponsored by IBM and StrongLoop.
+**Adam Stacoviak:** \[00:31\] Welcome to our Spotlight series titled The Future Of Node, recorded at Node interactive 2016, in Austin, Texas. We produced this in partnership with the Linux Foundation, the Node.js Foundation and it's sponsored by IBM and StrongLoop.
 
-**Break:** \[00:00:43.29\]
+**Break:** \[00:43\]
 
 In this episode I talk with Mikeal Rogers about some of the back-story of Node over the past few years to get to where we are today. We talked about io.js, the fork of Node, what's happened in the community and the code since that timeframe, how the Node Foundation has helped to solidify the foundation on which the Node ecosystem is being built on, initiatives and focuses in the near future, and more. Take a listen.
 
@@ -20,7 +20,7 @@ In this episode I talk with Mikeal Rogers about some of the back-story of Node o
 
 **Mikeal Rogers:** Yeah, so they announced intent to form, they had some initial members signed up, but they needed more members. Those members, in turn, wanted to put the fork to bed and bring a merger in... So I negotiated with the foundation and the io.js community to kind of bring everything in and merge the projects back together. And part of that was taking the governance model pretty much wholesale, but it's important to remember that the governance policies and practices are mutable, and they're mutable for a reason - because as we scale, we need to change things.
 
-\[00:03:48.22\] Even just merging into Node required us to immediately iterate on a lot of these policies. In io.js we really didn't have to worry about a lot of backwards compatibility or breaking changes and things like that. Because it's a new project, not everybody's already depending on it; you can do a lot more. So when we moved and started to merge in, a big part of that was adopting this new release plan where we would kind of balance a lot of the enterprise needs and a lot of the "don't break things" needs with this really diverse, broad community that wants to see change and new things happening. So we kind of get the best of both worlds.
+\[03:48\] Even just merging into Node required us to immediately iterate on a lot of these policies. In io.js we really didn't have to worry about a lot of backwards compatibility or breaking changes and things like that. Because it's a new project, not everybody's already depending on it; you can do a lot more. So when we moved and started to merge in, a big part of that was adopting this new release plan where we would kind of balance a lot of the enterprise needs and a lot of the "don't break things" needs with this really diverse, broad community that wants to see change and new things happening. So we kind of get the best of both worlds.
 
 We have a really liberal policy about getting stuff into master and making some changes, then we have a really good cycle and a longer review process to get things into the LTS releases that enterprises depend on.
 
@@ -51,7 +51,7 @@ The person who runs the CTC meetings now, the meetings that are kind of about ma
 
 **Mikeal Rogers:** GitHub has very good data when you're looking at recent activity and when you're looking at top line activity. You really need to dig into the API to get at some of these metrics... In particular, one of the things that we really like to look at is which contributors that are brand new contributors have contributed each month, so how many pull requests have we gotten from people that have never sent one before - we keep track of that, and that requires some API work.
 
-\[00:07:54.01\] We onboard a lot of new committers all the time, so we need to be looking at what are the last month or three months of contributions from people that don't have a commit yet, like what does that look like and who is that list, so that we can prioritize who to onboard.
+\[07:54\] We onboard a lot of new committers all the time, so we need to be looking at what are the last month or three months of contributions from people that don't have a commit yet, like what does that look like and who is that list, so that we can prioritize who to onboard.
 
 We're approaching a hundred committers in core now... It's crazy.
 
@@ -97,7 +97,7 @@ We have a lot of challenges in terms of continuing to keep things simple, keep t
 
 **Mikeal Rogers:** Yeah. This is a Linux Foundation conference. The Node Foundation pays for it and we contract the Linux Foundation to run it, essentially. But this entire thing is new, for sure.
 
-**Adam Stacoviak:** \[00:12:06.20\] It's a great conference. Great location, a lot of diversity efforts... I like the stickers that were out there, the college stickers, the offering of childcare... It's very inviting, inclusive, respectful... I don't know what better adjective to use.
+**Adam Stacoviak:** \[12:06\] It's a great conference. Great location, a lot of diversity efforts... I like the stickers that were out there, the college stickers, the offering of childcare... It's very inviting, inclusive, respectful... I don't know what better adjective to use.
 
 **Mikeal Rogers:** Yeah, Node.js is a pretty nice community. It's definitely a more diverse community than others, especially certain sectors. You look at the Nodebots community, for instance, and it's really great and diverse. So we benefit from a lot of community support for that kind of stuff, but also now we benefit from some institutional support. There are some Linux Foundation-wide efforts... I don't think we would have been able to do the childcare component if the Linux Foundation hadn't already built up a service doing that, knowing how to run it, how to get all that going.
 
@@ -143,7 +143,7 @@ So it's been great to get, at this event, a big mix of the foundation bringing a
 
 Tracy works for the foundation now, she's a community manager. She's amazing. Having her come in and being able to know what we can do as a foundation and then work with the community to figure out what we can do for them has been really great. We're not just guessing anymore.
 
-**Adam Stacoviak:** \[00:15:55.06\] Right. The post I was referring to was titled "Working towards a safer, inclusive event", talking about this even here in particular, talking about the various things you've done... Again, I love those stickers that you did. For the listeners, there's a red, green, blue -- there's probably one more color in there... Yeah, four colors; I'm not an idiot, except for when I'm on the mic... And they all kind of label how open you are to mixed streams, I suppose. I'm probably wording it poorly, but...
+**Adam Stacoviak:** \[15:55\] Right. The post I was referring to was titled "Working towards a safer, inclusive event", talking about this even here in particular, talking about the various things you've done... Again, I love those stickers that you did. For the listeners, there's a red, green, blue -- there's probably one more color in there... Yeah, four colors; I'm not an idiot, except for when I'm on the mic... And they all kind of label how open you are to mixed streams, I suppose. I'm probably wording it poorly, but...
 
 **Mikeal Rogers:** Well, and also don't photograph...
 
@@ -169,7 +169,7 @@ Tracy, in general, has been a pioneer in diversity/inclusivity work in community
 
 **Mikeal Rogers:** The VM neutrality for me is really, really cool, for a bunch of reasons. It's gonna be great for users... Even if you've never swapped out a VM, it's gonna be great for users. One, it's gonna really increase the competition between VM developers. I've gotten to know a lot more VM developers over the last few years, and they're surprisingly driven by vanity benchmarks.
 
-\[00:19:52.02\] There's not a lot of people that can do VM development, right? It's a relatively small pool to do that kind of work, and they're in really high demand. So all these different places that hire these developers -- what was the term that Brandon used? "Birds in gilded cages", or something? They're given a lot of freedom to do whatever they want...
+\[19:52\] There's not a lot of people that can do VM development, right? It's a relatively small pool to do that kind of work, and they're in really high demand. So all these different places that hire these developers -- what was the term that Brandon used? "Birds in gilded cages", or something? They're given a lot of freedom to do whatever they want...
 
 **Adam Stacoviak:** ...within a box.
 
@@ -203,7 +203,7 @@ That's another great thing that comes for all of our users. You're gonna be able
 
 **Mikeal Rogers:** Yeah... Basically, that's what Node binds to, and if you have a VM, you can expose that API and we will bind to it. That allows native add-on developers to just bind to that API and work with every VM and new versions of VMs, without having to go through a whole recompile because the API changed, or whatever.
 
-\[00:24:00.00\] This is something that I don't think would have been possible without the Node Foundation. We got all these different stakeholders to the table and committed to supporting that API long-term. If we still had a relationship with V8 where they were working on a VM and threw it over a wall and then we bound to it, we would never be able to do something like a neutral API, because how can we guarantee that they're gonna support it long-term? Even if we're writing the binding layer, how do we know that there aren't gonna be low-level changes in V8 that are just completely incompatible with this?
+\[24:00\] This is something that I don't think would have been possible without the Node Foundation. We got all these different stakeholders to the table and committed to supporting that API long-term. If we still had a relationship with V8 where they were working on a VM and threw it over a wall and then we bound to it, we would never be able to do something like a neutral API, because how can we guarantee that they're gonna support it long-term? Even if we're writing the binding layer, how do we know that there aren't gonna be low-level changes in V8 that are just completely incompatible with this?
 
 Being able to bring all these different people to the table to come up with this API that we can all commit to supporting long-term has been really valuable.
 
@@ -237,7 +237,7 @@ I mean, when you're growing a hundred percent a year, you can't double the engin
 
 **Mikeal Rogers:** Yeah, and still they have that problem, right? But they're definitely putting a ton of resources into it. I don't think that any company could have doubled every year their investment in Node.js at the time. So eventually, Isaac also left the project and handed it over to another person at Joyent... And this was around the time that we could see how the community really wants to be involved in the project and really can't under the current governance model; they can't really own it, there's a lot of older development practices that they were not able to change, and we're seeing in our own community a lot of amazing, new governance models driving things.
 
-\[00:28:04.18\] Rod blew out his voice so he couldn't join us today, but Rod Vagg, who's now elected to the TSC chair, he didn't write any core code before io.js, but he had the chops to do it; there wasn't that technical barrier. He wrote NAN, which is the native binding layer that everybody uses; it's all C++ code, it's really deep in the guts of Node and into V8 - he wrote that. He definitely had the chops to work on it, but he didn't feel enough ownership or agency over it.
+\[28:04\] Rod blew out his voice so he couldn't join us today, but Rod Vagg, who's now elected to the TSC chair, he didn't write any core code before io.js, but he had the chops to do it; there wasn't that technical barrier. He wrote NAN, which is the native binding layer that everybody uses; it's all C++ code, it's really deep in the guts of Node and into V8 - he wrote that. He definitely had the chops to work on it, but he didn't feel enough ownership or agency over it.
 
 Rod had pioneered a lot of governance models around liberal contribution agreements in the level down community and even around then... So he just didn't get involved. And when io.js happened and it had its open governance, he immediately got involved. Now he is elected to be the leader of the project. These are the people that we just weren't able to attract or retain under that kind of closed governance model that we had before, and now we can. We went to from five to almost 100 committers now.
 
@@ -255,7 +255,7 @@ I also think that if you're currently a Nodebots or IoT developer, one of the bi
 
 In terms of other things to get excited about... Oh wow, let me back up a little bit and try to take my head out of just thinking about really specific -- oh, I'm excited about the security work that we're doing. Security has become more and more top of mind in end developers and enterprises and everywhere. Security is something that everybody has always said is important, but it's always the last thing that people think about, and that is really changing. We're starting to view our applications not as these things that we throw up and hope that people don't try to break into, to now when we put services live, we're entering a hostile environment. We need to really think about this.
 
-**Adam Stacoviak:** \[00:32:02.07\] Right. Do you have any examples?
+**Adam Stacoviak:** \[32:02\] Right. Do you have any examples?
 
 **Mikeal Rogers:** Examples of things that have happened recently...?
 
@@ -287,7 +287,7 @@ But just taking more responsibility for the Node ecosystem - which is what every
 
 **Mikeal Rogers:** So I'm not too worried about that kind of stuff. One of the reasons that we hired Tracy this year is that the focus on the Node Foundation needs to be on education; when half of your users every year are new, because you're doubling in size every year, you really need to worry about what the onboarding and education looks like for the platform.
 
-\[00:36:04.28\] We've now entered a point in enterprise adoption where it's not a new team that gets spun up -- this still happens, but there's a team that gets spun up, they adopt Node.js, they have a lot of success, they're on microservices, they're doing all this kind of new technology stuff, they're trying to drive digital transformation inside of an organization...
+\[36:04\] We've now entered a point in enterprise adoption where it's not a new team that gets spun up -- this still happens, but there's a team that gets spun up, they adopt Node.js, they have a lot of success, they're on microservices, they're doing all this kind of new technology stuff, they're trying to drive digital transformation inside of an organization...
 
 We're now getting to the point where at a very high level - CIO/CTO level - they decide to make a decision to invest in Node, which means hiring sometimes hundreds of Node developers, or retraining hundreds of Node developers - that means people that used to write Java and .NET. When those kinds of developers come to Node and look for education resources, the kinds of resources that they're used to, that they used to learn the last platform sometimes aren't there.
 
@@ -326,7 +326,7 @@ Right now he is living on his own savings, focused on this open source project..
 
 **Mikeal Rogers:** Right. So I've spent some surprising amount of time looking at this space, because it's one of the few areas that we haven't seen a huge amount of growth in.
 
-**Adam Stacoviak:** \[00:40:03.12\] Haven't seen what?
+**Adam Stacoviak:** \[40:03\] Haven't seen what?
 
 **Mikeal Rogers:** A huge of amount of growth in, the kind of growth that we see in other places. I've spent a lot of time actually figuring out what we could do here and what our current barriers are. One barrier which I think is a problem and it needs to get resolved, but it's not the number one problem, but it is a problem - JavaScript standards have not given us some of the tools that we need at the language level to do some of this.
 This is kind of hilarious - now that Brandon has a company that's doing Crypto in the browser, he is shifting some of his focus... Because he does a bunch of standards work as well, and there are some new 64-bit stuff and some new math stuff coming out that Brandon is pushing forward into TC39; also, the Node Foundation in partnership with the JS Foundation - the JS Foundation is a member of TC39 \[unintelligible 00:40:55.19\] they've started to send me to those meetings.
@@ -340,7 +340,7 @@ So do we wanna enable a broader ecosystem of people building that kind of stuff 
 
 I don't think that we're going to figure out a way to have a better Fortran binding layer, or cross-compile these Fortran libraries. R is mostly Fortran code. It's a layer of bindings on top of a lot of very old Fortran code that SciPy also binds to and their libraries bind to. We're not gonna get to a point where that is compelling. I think we're gonna have a slower road to it, but we're eventually gonna get to a better place where we have a more modular ecosystem of independent algorithms that can be plugged together really easily. I'm excited for the future of what this looks like, but it is gonna be a long road.
 
-\[00:43:58.02\] I think lastly SciPy - R as well, but SciPy, I really look at... They did a ton of outreach and community building with the academic community to get them onto SciPy. Over the years, I've met a few of the people that have really pioneered that work. It's hard community work, you're working with a lot of older institutions, you've gotta have a real passion for it. But I would love to see us as an institution take on some of that. It's one of the things that me and Tracy wanna try to get to at some point - building much deeper inroads with the academic community and building that up.
+\[43:58\] I think lastly SciPy - R as well, but SciPy, I really look at... They did a ton of outreach and community building with the academic community to get them onto SciPy. Over the years, I've met a few of the people that have really pioneered that work. It's hard community work, you're working with a lot of older institutions, you've gotta have a real passion for it. But I would love to see us as an institution take on some of that. It's one of the things that me and Tracy wanna try to get to at some point - building much deeper inroads with the academic community and building that up.
 
 Python is not uniquely good at scientific computing; I mean, not a knock against Python, it's just not better than any other particular language for that. They don't have great bindings to all these old Fortran libraries, it's relatively slow... They've just built a great community and a great support system for it. They've done a phenomenal job. They have great documentation, they have a lot of people that have written great blog posts about it, there's a ton of knowledge about it, and there are just people out there doing the hard work, getting adoption. I think that's the thing that we can strive for and we can actually make an impact with at an institutional level in the Node Foundation.
 
@@ -355,7 +355,7 @@ I think a big part of this is that you have really passionate people at differen
 
 **Adam Stacoviak:** So we're two years past the biggest shift in the Node community, which was the fork of io, merger back into Node, Node Foundation, several iterations of this conference, year-over-year growth at a hundred percent rate, so a growing community... You've touched on educational pieces, you've touched on ways you can support module developers or people like Athan that are experimental, so to speak... We talked about diversity... What else can we talk about?
 
-**Mikeal Rogers:** \[00:48:05.28\] That's a lot of hot points, isn't it?
+**Mikeal Rogers:** \[48:05\] That's a lot of hot points, isn't it?
 
 **Adam Stacoviak:** Yeah, that's a lot of highlights, I think, and it's pretty close, but just in case there was something that we couldn't leave this conversation without you talking about...
 

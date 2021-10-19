@@ -8,13 +8,13 @@
 
 **Jerod Santo:** Glad to hear it, and ahoy-hoy back to you, sir. So we have a fun show planned for you all today. We're gonna play an old game; pull it out, try it on for size, Explain It Like I'm 5. Now, if you recall, the last time we did some recurring segments, we had a good friend from Go Time, Mat Ryer on the show, and we ambushed him \[unintelligible 00:02:50.17\] asked him to come up with some new jingles on the spot... Well, unfortunately, Mat is not here, and we do not have an Explain It Like I'm 5 jingle. But I thought if I exploited Mat Ryer to get a jingle, who else could I exploit to get a jingle? And I realized I have kids, and I can use them to our great advantage. So I have a brand new jingle, ready for you right here.
 
-**Jingle:** \[00:03:15.16\] to \[00:03:21.20\]
+**Jingle:** \[03:15\] to \[03:21\]
 
 **Jerod Santo:** So, Explain It Like I'm 5. It's self-explanatory if you're older than five. We take complex technical subjects and we try to break it down, or metaphorize them, or do something to explain it to somebody who's younger than ourselves, maybe around five years old. So today we're gonna tackle three topics of varying degrees of difficulty. I think they're probably all pretty hard to explain. Web Assembly, React hooks, and Bitcoin.
 
 So we randomly selected people to explain these -- no, we decided who is gonna explain these before the show, and it turns out Kball is going to Web Assembly for us. Kball, can you explain Web Assembly like we're five?
 
-**Kevin Ball:** \[00:04:03.16\] Explain Web Assembly like we're five... Alright. So I was trying to think about different ways we could explain this, and I'm gonna try LEGOs. When you get a LEGO set, you've got these super-small, basic pieces, and then you have these instructions that kind of build up those basic pieces into larger chunks, and then you put the chunks together and you get a full, awesome Hogwarts castle, which was the biggest LEGO set we did recently.
+**Kevin Ball:** \[04:03\] Explain Web Assembly like we're five... Alright. So I was trying to think about different ways we could explain this, and I'm gonna try LEGOs. When you get a LEGO set, you've got these super-small, basic pieces, and then you have these instructions that kind of build up those basic pieces into larger chunks, and then you put the chunks together and you get a full, awesome Hogwarts castle, which was the biggest LEGO set we did recently.
 
 So if you think about that the other way, if you start from the vision of what you wanna do, that's the most descriptive.
 
@@ -34,7 +34,7 @@ Traditionally, on the web, the only way we've been able to do that is we get it 
 
 **Jerod Santo:** So in this LEGO blocks metaphor, where does these other languages... Like, there's Rust bindings -- not bindings, but cross-compiled to Web Assembly, Go can compile to Web Assembly, I believe... Are these like LEGO instructions that are written in other people's languages, or...?
 
-**Kevin Ball:** \[00:08:01.22\] Sure. Yeah, I think that's reasonable.
+**Kevin Ball:** \[08:01\] Sure. Yeah, I think that's reasonable.
 
 **Jerod Santo:** Dang it, I shouldn't have given you an out like that. That was such a good out.
 
@@ -94,7 +94,7 @@ Now, the chief developer learned the class-based way of her people, and she was 
 
 **Jerod Santo:** You might get us banned.
 
-**Nick Nisi:** \[00:12:04.07\] Yeah. \[laughs\] So she thought of the class-based approach to what they were doing was just too verbose, and she constantly pushed for a new way of doing things, but she was shut down because classes are the way of her people, of her development team.
+**Nick Nisi:** \[12:04\] Yeah. \[laughs\] So she thought of the class-based approach to what they were doing was just too verbose, and she constantly pushed for a new way of doing things, but she was shut down because classes are the way of her people, of her development team.
 
 **Kevin Ball:** And did she know the way?
 
@@ -136,7 +136,7 @@ Now, Monad continued to explain the basics of useState, useMemo, and useEffect t
 
 **Jerod Santo:** Teh Class... Are you done?
 
-**Nick Nisi:** \[00:16:11.05\] Almost...
+**Nick Nisi:** \[16:11\] Almost...
 
 **Jerod Santo:** Okay. \[laughs\] Because you stopped like you were waiting for an applause. I feel like we're not quite there yet. Please, continue.
 
@@ -156,11 +156,11 @@ Now, with this new power she returned to her people, and once and for all replac
 
 **Jerod Santo:** You had time to write this story because your Vim and TypeScript tools just wrote themselves today, I suppose... Well, I surely can't follow that, so we'll have to break right here, so I have some time between me and that, to come up with my EILI5... So let's break. We'll be back in a bit.
 
-**Break:** \[00:17:50.19\]
+**Break:** \[17:50\]
 
 **Jerod Santo:** So, since Bitcoin is back in its bull run... It's just been a few years in a bear market and then came roaring back from something like $4,000 a year ago, to 60k per coin, and around there today... People are interested once again in this crazy world of cryptocurrencies, and so we thought it'd be fun to explain Bitcoin like you're five, because it is a difficult thing to explain, difficult to talk about, a lot of ins, a lot of outs, a lot of what-have-yous...
 
-\[00:19:57.18\] The first way I would like to explain this is by stealing a tweet from Theophite on Twitter, which I thought that was a hilarious way to explain Bitcoin... Somebody tweeted out "I still don't get Bitcoin", and Theophite replied "Imagine if keeping your \[unintelligible 00:20:13.18\] for 24/7 produced solved Sudokus you could trade in for heroin." \[laughter\] That's pretty classic, right?
+\[19:57\] The first way I would like to explain this is by stealing a tweet from Theophite on Twitter, which I thought that was a hilarious way to explain Bitcoin... Somebody tweeted out "I still don't get Bitcoin", and Theophite replied "Imagine if keeping your \[unintelligible 00:20:13.18\] for 24/7 produced solved Sudokus you could trade in for heroin." \[laughter\] That's pretty classic, right?
 
 So of course, there's your bear explanation, and there are lots of downsides with Bitcoin specifically around energy use and whatnot... But there is also some real value to the network. And I'm not gonna explain how Bitcoin works like we're five, but I thought maybe I'd try to explain why some people think it's valuable like you're five... So here we go.
 
@@ -196,7 +196,7 @@ Now, there are thin clients and stuff, where they don't have to have that, and y
 
 **Nick Nisi:** Gotta keep those kids entertained.
 
-**Jerod Santo:** \[00:24:03.26\] It could be... \[laughs\]
+**Jerod Santo:** \[24:03\] It could be... \[laughs\]
 
 **Kevin Ball:** I also liked how you focused on the financial piece of it, and not the whole blockchain thing... Because I feel like a lot of people go all-out on blockchain being a solution for stuff, rather than being a really slow distributed database...
 
@@ -222,7 +222,7 @@ I used to do that, and when I saw folks who were involved with the React core te
 
 **Jerod Santo:** Right. Yeah, it's kind of interesting, because you borrow from the strength of the brand, which is powerful. This borrows from Vue's brand. Same people, same expectations etc. And WMR borrows from the Preact people's brand... But then by doing that, you also kind of pigeonhole yourself, at least in people's perceptions... Which can ultimately limit your exposure. So it's kind of a catch-22. But I definitely thought this was just a Vue thing for a very long time... Until today, honestly.
 
-**Kevin Ball:** \[00:28:19.11\] Yeah, I saw you put the tweet out talking about Vite, the Vue project, and I was like "Um, Jerod, we're gonna have to put you right."
+**Kevin Ball:** \[28:19\] Yeah, I saw you put the tweet out talking about Vite, the Vue project, and I was like "Um, Jerod, we're gonna have to put you right."
 
 **Jerod Santo:** Yup, I hadn't done my homework yet. \[laughs\] Put me right, Kball. Put me right. So one thing that's cool about the way this works - and we can go through some of the comparisons, because it is similar to a lot of other tools out there right now - SnowPack and WMR specifically... One of the things they do that make it conceptually different or interesting is they kind of bifurcate the idea of not just development and production, but the idea of dependencies and source code. Did you guys see that?
 
@@ -238,7 +238,7 @@ Whereas your source code - you're changing it constantly, there's certain aspect
 
 What else about Vite do y'all find interesting?
 
-**Nick Nisi:** \[00:31:48.28\] Let me ask... Do you see Vite and WMR -- would you put it on the same level as things like esbuild, or is that at a different level in the stack? Or I guess another way to put it - do you see this as the modern descendence to things like WebPack and Parcel? More modern tooling written for modern ES module JavaScript?
+**Nick Nisi:** \[31:48\] Let me ask... Do you see Vite and WMR -- would you put it on the same level as things like esbuild, or is that at a different level in the stack? Or I guess another way to put it - do you see this as the modern descendence to things like WebPack and Parcel? More modern tooling written for modern ES module JavaScript?
 
 **Kevin Ball:** I think it's introducing a layer. So you have WebPack, and you have WebPack Dev Server, and they kind of ship together... And I think they're reasonably entangled; or at least WebPack Dev Server just works with WebPack. This is built on top of esbuild and Rollup, and it is just that Dev server layer of utilizing the underlying bundling tools in a smarter (potentially) or at least taking more advantage of modern practices way... But it's handling the web server piece of it. How do we use these tools to package things together and do a Dev web environment that works really well, and that also then translates to production.
 
@@ -254,7 +254,7 @@ The scopes are very similar. I'm not sure exactly if they work the same way... I
 
 **Kevin Ball:** \[unintelligible 00:35:53.12\] Moana?
 
-**Jerod Santo:** \[00:35:56.19\] Yes, exactly. We'll get all sorts of copyright problems if we continue hitting up Disney properties like this. Just poke around, see if we find anything interesting in the bits. Now, I guess a meta-question for you two, that I'll also throw in on a little bit, is when you come to a project and you're maybe beyond "I'm just gonna use this." You're kind of thinking "I wanna learn from this. I wanna read about it. I wanna read it. I wanna consume this and play with it maybe", and you land on the GitHub page, what do you do from there? How do you approach a new piece of source code in terms of grokking it, or trying to figure out how it all fits together?
+**Jerod Santo:** \[35:56\] Yes, exactly. We'll get all sorts of copyright problems if we continue hitting up Disney properties like this. Just poke around, see if we find anything interesting in the bits. Now, I guess a meta-question for you two, that I'll also throw in on a little bit, is when you come to a project and you're maybe beyond "I'm just gonna use this." You're kind of thinking "I wanna learn from this. I wanna read about it. I wanna read it. I wanna consume this and play with it maybe", and you land on the GitHub page, what do you do from there? How do you approach a new piece of source code in terms of grokking it, or trying to figure out how it all fits together?
 
 **Nick Nisi:** The first thing I try and do is find the entrypoint into it. If it's a library or something, when I call this, what's the thing that I'm hitting first, and then how does it get routed to something else from there? It's typically what I'll look into.
 
@@ -278,7 +278,7 @@ Now, it's different whether you're trying to actually just understand it, or if 
 
 And then also package.json. A lot of times you can figure out things about a project by its dependencies, and also its npm scripts, and stuff. If you go look at the scripts key in the package.json, you'll find a lot of the entry points. And this one is no different. At least you'll find out how to run the tests, what they're using, the subcommands they're using in order to run the tests... Tests are also a great place to start.
 
-\[00:40:01.02\] So this is a monorepo. If you go inside packages, you can find out "Well, it has a plugin architecture. So there's a Vite directory, and then there's plugin Vue, plugin Vue JSX, plugin React Refresh, plugin Legacy. So now I know "Okay, there's some sort of plugin architecture that's being used, and these are the official first-party plugins. And this Vite directory is probably where the bulk of the logic is."
+\[40:01\] So this is a monorepo. If you go inside packages, you can find out "Well, it has a plugin architecture. So there's a Vite directory, and then there's plugin Vue, plugin Vue JSX, plugin React Refresh, plugin Legacy. So now I know "Okay, there's some sort of plugin architecture that's being used, and these are the official first-party plugins. And this Vite directory is probably where the bulk of the logic is."
 
 Then they also have the Playground, which -- is that... Maybe that's part of whatever monorepo system they're doing... Or is Playground a pretty typical directory path for monorepos or for projects? It's not something that I'm used to. Is that directory Playground pretty common?
 
@@ -306,13 +306,13 @@ Anyways, as we dig in - you mentioned the SSR stuff... Kball, anything else piqu
 
 **Nick Nisi:** I want to get into it, I just haven't found a reason yet.
 
-**Break:** \[00:42:22.05\]
+**Break:** \[42:22\]
 
 **Jerod Santo:** So we do have a bit of a playground, Nick and I (but mostly Nick), is our quiz show repo... So if you ever listen to JS Danger or watched it on YouTube, you know that there's a pretty cool JS Danger gameboard that I imagined and Nick coded up, and Cody Peterson designed much of it... And it was originally written in Dojo, right Nick?
 
 **Nick Nisi:** Yup.
 
-**Jerod Santo:** \[00:44:14.13\] And it's still written in Dojo today. So if you wanna see a Dojo application written by Nick, that he's very proud of - I'm not sure about that last part, but... It's out there, it works...
+**Jerod Santo:** \[44:14\] And it's still written in Dojo today. So if you wanna see a Dojo application written by Nick, that he's very proud of - I'm not sure about that last part, but... It's out there, it works...
 
 **Nick Nisi:** Of course!
 
@@ -360,7 +360,7 @@ And I got the concept of that working in my completely broken React branch... Bu
 
 **Nick Nisi:** Yeah. So it is just vanilla CSS. The .m signifies it as modular CSS, so it'll be scoped to that component; in that case app, or there's like a contestant on m.css, I think... And that has classes that will only be scoped to that, meaning that at build time the class names will be rewritten to something random, that is specific to that, so you kind of lose the cascade part of CSS, and it'll only be scoped to that file; it won't bleed out styles anywhere else.
 
-\[00:48:17.18\] The .m.css.d.ts file is very simple to talk about, but it's just -- that's actually generated by the build system... So it's not something that I wrote directly.
+\[48:17\] The .m.css.d.ts file is very simple to talk about, but it's just -- that's actually generated by the build system... So it's not something that I wrote directly.
 
 The build tool is going in and looking at that CSS, and it sees all of the class names, and then it creates basically an interface for all of those classnames. So it's saying that when I import this module, this app.m.css - when I import that in my TypeScript, it's going to give me this interface that looks like this, so that I can have IntelliSense on my classnames, and then those will just be replaced with the random strings that get generated at build time. But it's just a way to have typed modular CSS, and then those files are just checked in.
 
@@ -408,7 +408,7 @@ So I have replaced these .m.css.d.ts with extremely long Tailwind strings right 
 
 **Kevin Ball:** But that's kind of a Tailwind problem though, isn't it?
 
-**Nick Nisi:** \[00:51:58.21\] Yeah, totally. One thing that I have been playing around with is -- well, at work I use Material-UI. That's a React library that's based on Material, and it has a whole bunch of components... And one in particular that I really like is called Box. And it's just like the most generic component, that has all of these properties that you can set on it. So you can set "my" for your padding \[unintelligible 00:52:21.29\] in both of those examples. You can just set all of these, and then it will pull those out and generate custom CSS and inject that into the page for that... So it's like, I go out of my way to just write what I want on these props, that are nice and neatly organized in the component itself, and then CSS is generated for them later.
+**Nick Nisi:** \[51:58\] Yeah, totally. One thing that I have been playing around with is -- well, at work I use Material-UI. That's a React library that's based on Material, and it has a whole bunch of components... And one in particular that I really like is called Box. And it's just like the most generic component, that has all of these properties that you can set on it. So you can set "my" for your padding \[unintelligible 00:52:21.29\] in both of those examples. You can just set all of these, and then it will pull those out and generate custom CSS and inject that into the page for that... So it's like, I go out of my way to just write what I want on these props, that are nice and neatly organized in the component itself, and then CSS is generated for them later.
 
 **Jerod Santo:** Some real-time follow-up - I just ran Cloc on our repo. That's the command line tool Cloc, which counts lines of code... And there's about 682 lines of TypeScript and 300 lines of CSS, and 11 lines of HTML. That doesn't make sense... Or maybe it does. So under 1,000 lines of code project.
 

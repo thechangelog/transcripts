@@ -18,7 +18,7 @@
 
 **Chris Benson:** I am actually trying to do as little AI as possible right now. The weather has been just too nice outside, and if I even look at my laptop, my wife gives me a scathing look, like "You idiot! What are you doing?"
 
-**Daniel Whitenack:** \[00:04:03.29\] "Why are you not hiking, or...?"
+**Daniel Whitenack:** \[04:03\] "Why are you not hiking, or...?"
 
 **Chris Benson:** Exactly. Look outside the window. So we're trying to get some outdoor time in when we're not working right now.
 
@@ -82,7 +82,7 @@ Covid's been really interesting, because it has kind of flipped everything, and 
 
 **Chris Benson:** We're \[unintelligible 00:08:07.02\] physicists have gone to AI. What's going on with that?
 
-**Hamish Ogilvy:** \[00:08:12.00\] I know, it's funny... I was one of the rare few when I first made that path into this space, and now I think the university has got full programs set up around transitioning people down that line. But yeah, I did a Ph.D. in physics, I used to design lasers...
+**Hamish Ogilvy:** \[08:12\] I know, it's funny... I was one of the rare few when I first made that path into this space, and now I think the university has got full programs set up around transitioning people down that line. But yeah, I did a Ph.D. in physics, I used to design lasers...
 
 **Chris Benson:** Oh, cool.
 
@@ -104,7 +104,7 @@ So there's this huge correlation between speed and performance... But then a lot
 
 **Daniel Whitenack:** That's definitely true. And it's like, you read about this cool model and you wanna make it work, but then you read about "Oh, how do you make it performant?" "Oh, you get this GPU server..."
 
-**Hamish Ogilvy:** \[00:12:14.22\] You take the smarts out.
+**Hamish Ogilvy:** \[12:14\] You take the smarts out.
 
 **Daniel Whitenack:** Yeah. Just brute-force it, which not all of us have the capability to do; maybe some fortunate people do.
 
@@ -132,7 +132,7 @@ The second aspect of this is that in user testing we've actually had customers c
 
 **Chris Benson:** I was just gonna say, I've noticed that especially -- I will go through other avenues myself, but I do notice, my wife - she goes to the search box for absolutely everything. I mean, everything. She almost doesn't use navigation other than that.
 
-**Hamish Ogilvy:** \[00:15:59.11\] And user testing is showing that more and more and more. It's just becoming a base-level expectation, which is kind of interesting. But the other side to that is that you actually get people's intent. So we talk about it in terms of intent analytics. A cable TV company that's a customer, for instance, "cancel" is their biggest search. And when people search for "cancel", they may happen to know their account ID, so they can automatically do things like feed retention programs... You can't do these things as easily if people are navigating around, because you don't know specifically what their intention is. But if they type it in, you've got a pretty good idea that you know what it is.
+**Hamish Ogilvy:** \[15:59\] And user testing is showing that more and more and more. It's just becoming a base-level expectation, which is kind of interesting. But the other side to that is that you actually get people's intent. So we talk about it in terms of intent analytics. A cable TV company that's a customer, for instance, "cancel" is their biggest search. And when people search for "cancel", they may happen to know their account ID, so they can automatically do things like feed retention programs... You can't do these things as easily if people are navigating around, because you don't know specifically what their intention is. But if they type it in, you've got a pretty good idea that you know what it is.
 
 The other thing that we see is that if you have searches that are by far and away bigger than anything else, then they probably should be navigation components. So there's a whole suite of -- it's a workflow where you can just continually improve user experience.
 
@@ -156,7 +156,7 @@ The other thing that we see is that if you have searches that are by far and awa
 
 **Hamish Ogilvy:** Yeah... It's really interesting, because when you see things like AI and machine learning and where they can apply in search, it's not just one area; it's many different areas that they can apply on. I think historically we saw search engines split away from databases because you wanted to be able to run these really long tail language-based queries that used to just absolutely crush databases... So search engines enabled you to basically write out indexes that were mutable, that you could have very high query concurrency on... But then that came with trade-offs, where you couldn't update the data as fast... And then we fast-forward through the years and machine learning became more and more involved in search...
 
-\[00:20:06.14\] So I guess we sort of transitioned to learn to rank models, where people could re-rank a set of results with machine learning, and that started becoming popular. We've got NLP entity extraction, and things like that... So if you go to an eCommerce site and you search for "size 14 black shoes", then you should get size 14, black shoes, but most often you don't... Which is really interesting. So there's this sort of language extraction aspect to it.
+\[20:06\] So I guess we sort of transitioned to learn to rank models, where people could re-rank a set of results with machine learning, and that started becoming popular. We've got NLP entity extraction, and things like that... So if you go to an eCommerce site and you search for "size 14 black shoes", then you should get size 14, black shoes, but most often you don't... Which is really interesting. So there's this sort of language extraction aspect to it.
 
 And then you've got things like reinforcement learning, which we're big fans of. Say you don't wanna build a model, and one of the challenges that we have is that we have hundreds of customers, and so we can't go and build a custom model for somebody paying with a credit card; it's not economical. So how do you improve performance for them without the added overhead? Reinforcement learning is one of the ways that we see, that work really well. So there's a lot... It's a hard question to answer, really. It's so broad.
 
@@ -176,7 +176,7 @@ You said you're big fans of reinforcement learning... I know there's still some 
 
 **Chris Benson:** It took me a moment, too... \[laughter\]
 
-**Daniel Whitenack:** \[00:24:11.28\] I thought you were talking about the goop you put on one's face...
+**Daniel Whitenack:** \[24:11\] I thought you were talking about the goop you put on one's face...
 
 **Chris Benson:** The green face, right? With the towel...
 
@@ -212,7 +212,7 @@ But for us, that's always been one of our main things, and it's probably getting
 
 **Chris Benson:** That makes sense.
 
-**Hamish Ogilvy:** \[00:27:59.01\] Yeah, yeah... It does, except the implementation is very difficult, because you actually have to be able to live edit the reverse indexes, which historically in searches that is a no-no, basically. Search indexes have immutable, particularly the scoring... And I think it was a few years ago LinkedIn - they released a few different libraries around actually being able to update the scores for intersections in reverse indexes in place... And part of the logic behind that was they don't have to rebuild the entire index every time they do it.
+**Hamish Ogilvy:** \[27:59\] Yeah, yeah... It does, except the implementation is very difficult, because you actually have to be able to live edit the reverse indexes, which historically in searches that is a no-no, basically. Search indexes have immutable, particularly the scoring... And I think it was a few years ago LinkedIn - they released a few different libraries around actually being able to update the scores for intersections in reverse indexes in place... And part of the logic behind that was they don't have to rebuild the entire index every time they do it.
 
 So it's not a common thing there... It's one of those things that if you're used to immutable index structures, you would probably not even try to do this, because it would seem so foreign... But because we build our own index from the ground up, we were thinking about this from day one, basically. So yeah, it probably it makes it a little bit different, I guess.
 
@@ -228,11 +228,11 @@ Originally, when search indexes were first done, they were immutable because of 
 
 I'll give you an example, delta encoding - if you know the maximum or minimum number in a l ist of numbers, then you can massively cut down the size of the storage for those numbers because you know that you can basically add an offset to recreate the number. There's always compression techniques that allow them to get the indexes very small. When you're working with mutable indexes, you can't do that the same way, because you may change a number, and then that would change the boundaries for how things are encoded. You just have a different set of trade-offs that you have to deal with. From an algorithmic standpoint, it works okay today with things like Elastic and Solr, because people have built in these differential -- when you delete something or when you edit something, they don't actually make that deletion or edit straight away; they buffer them and then re-merge them out to disk...
 
-\[00:31:48.16\] So you kind of buffer up the changes and then you pay for them in one big hit, as they're remerged out to disk. So just different trade-offs there, but from an algorithmic standpoint, that's why a learn to rank is typically a second for however many passes, where you get the initial set of results and then you basically re-rank them with a model externally; so the model you can update more frequently, and it's totally decoupled from the way that the indexes work.
+\[31:48\] So you kind of buffer up the changes and then you pay for them in one big hit, as they're remerged out to disk. So just different trade-offs there, but from an algorithmic standpoint, that's why a learn to rank is typically a second for however many passes, where you get the initial set of results and then you basically re-rank them with a model externally; so the model you can update more frequently, and it's totally decoupled from the way that the indexes work.
 
 So we kind of went a different route, where we said we wanted to have the indexes more involved in that initial ranking process; we wanted to better initial ranking process. So it's just a different way of solving the problem.
 
-**Break:** \[00:32:35.04\]
+**Break:** \[32:35\]
 
 **Chris Benson:** So I guess to get very practical, given that we are Practical AI, I wanted to ask - if I am in charge of an organization's website and we are trying to figure out what to do, and I decide "Hey, I wanna put your toolset into my website to be able to apply search", what does that workflow look like to me as that practitioner who has to actually get it up and running? What am I experiencing? What do I need to know? What kind of prerequisites are there that I need to be thinking about? Can you describe that whole process of how you go implement it?
 
@@ -244,7 +244,7 @@ Even the other day I went to buy a jacket online, and it wouldn't go through. It
 
 So you could tell that the search and the frontend was not aware that it was sold out, so it was kind of letting me, but then when it went through to the purchase, it wasn't. So the need for real-time data integration is much more important with things like e-commerce.
 
-**Chris Benson:** \[00:35:59.28\] So given those integrations and given the fact that -- you know that's a whole bunch of different dependencies that you have to deal with, those integrations... Would you almost think of an implementation sort of as a system of systems, based on whatever that user is needing... And as you address that, obviously you've talked about the speed and all the things that you've done to make your service fantastic - how do you keep these integrations that are depending on APIs beyond your control from impacting, if something does go down, them thinking that it is your service, as opposed to another? How do you manage that process?
+**Chris Benson:** \[35:59\] So given those integrations and given the fact that -- you know that's a whole bunch of different dependencies that you have to deal with, those integrations... Would you almost think of an implementation sort of as a system of systems, based on whatever that user is needing... And as you address that, obviously you've talked about the speed and all the things that you've done to make your service fantastic - how do you keep these integrations that are depending on APIs beyond your control from impacting, if something does go down, them thinking that it is your service, as opposed to another? How do you manage that process?
 
 **Hamish Ogilvy:** It's a really good question, and it's one that we think about all the time. At the moment, we're kind of taking this approach of middleware, where we have a translation layer that does the connection with the external services, but then once it's inside, it's all kind of the same for us... So it's much easier for us to have a consistent view and see when something connecting to external is broken... But there are interesting implications as well, because say things like we're trying to generate a decent ranking algorithm for you out of the box... If we say that you have something like a size or a color, then we're trying to add in the NLP automatically, to be able to pick that out, so that if somebody does come along and search for size 14, black shoes, it will automatically map exactly to your categories, so you'll get that exact result. So there's interesting implications here; if you come along and then you get rid of sizes tomorrow - although I don't see why you would do that - then what's the implication there?
 
@@ -260,7 +260,7 @@ So there's not only the connecting the data, but there's also how it's inferred 
 
 **Daniel Whitenack:** \[laughs\] That's funny.
 
-**Chris Benson:** \[00:39:53.20\] I'm curious, as you look forward... You know, we're kind of going through this time over the last couple of years where voice has become a big mode of making queries, instead of everything being through a keyboard, or touch... And as we look forward and there are other modes of interaction that are on the horizon, how does that change how you think about the process of search on the frontend, and maybe given the fact that not all modes of interaction yield the same information at the same place, does that change how you have to architect your solution to accommodate those? Any thoughts on where you're going with that?
+**Chris Benson:** \[39:53\] I'm curious, as you look forward... You know, we're kind of going through this time over the last couple of years where voice has become a big mode of making queries, instead of everything being through a keyboard, or touch... And as we look forward and there are other modes of interaction that are on the horizon, how does that change how you think about the process of search on the frontend, and maybe given the fact that not all modes of interaction yield the same information at the same place, does that change how you have to architect your solution to accommodate those? Any thoughts on where you're going with that?
 
 **Hamish Ogilvy:** Definitely. And it raises a really important point, because when people use voice queries, they have a lot more context. Google went through this period where the query length, the average query length got shorter and shorter and shorter, and now we're in a period where it's getting longer and longer and longer. And that is definitely due to technology. Being able to take longer queries, understand the context... At the start of this, when we were talking about academic search, three or four keywords and you get no results. That doesn't happen today, and that's because there's a better understanding of how to map that text through into the indexes. So I think as voice gets more and more, you're gonna see these hybrid models.
 
@@ -272,7 +272,7 @@ Keywords aren't going away. If you search for very specific things, then you wan
 
 **Hamish Ogilvy:** Yeah, it's really interesting... I wish we went to e-commerce earlier than we did, in a way; we always planned to, and it's a natural area for us, because we have so much focus on improving the transaction rate. We always talk about the flywheel of improvement, how do you get continuous improvement in search, that drives more revenue etc. And I wish we switched into e-commerce sooner, but this year's been incredible. I think it's about a 350% growth in e-commerce queries from e-commerce customers. They're just growing at such a rapid rate, it's crazy.
 
-\[00:43:06.19\] There's definitely demand there, but then there's also fatigue in e-commerce, because some of them have just been trying to keep the machine working... I don't know if you guys have wouldn't have seen this, but in Australia the Kmart brand had a virtual queue; because they got so busy, it would actually say "You're fifth in the queue. You have to wait three minutes before you can shop online", which is -- it seems kind of crazy for today, but you have to remember that a lot of these companies are still operating on some legacy systems that don't scale. So they've had to deal with those, they've had to deal with increase in inventory, and all sorts of other problems. So it's top of mind, but they're also busy, if you know what I mean.
+\[43:06\] There's definitely demand there, but then there's also fatigue in e-commerce, because some of them have just been trying to keep the machine working... I don't know if you guys have wouldn't have seen this, but in Australia the Kmart brand had a virtual queue; because they got so busy, it would actually say "You're fifth in the queue. You have to wait three minutes before you can shop online", which is -- it seems kind of crazy for today, but you have to remember that a lot of these companies are still operating on some legacy systems that don't scale. So they've had to deal with those, they've had to deal with increase in inventory, and all sorts of other problems. So it's top of mind, but they're also busy, if you know what I mean.
 
 **Chris Benson:** I do. I guess as you're looking forward, as we're kind of winding up here, and you're kind of thinking about the future of your company, how you're implementing these algorithms, and you're busy tracking the future of AI on one side, and more specifically the future of search on the other, whether it includes AI or the other non-AI components of it - that's a lot to track together. What are you expecting and hoping to see and how do you think that will impact your own services, how you develop this over the next few years? What's your whole future outlook at this point?
 

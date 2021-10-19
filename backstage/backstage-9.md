@@ -22,7 +22,7 @@ First, Adam, I just wanna learn a little bit about you. What was your early life
 
 **Quincy Larson:** If there were any really formative experiences in your childhood, go for it.
 
-**Adam Stacoviak:** \[00:03:47.09\] I would say for me probably the one thing that wouldn't seem obvious is I grew up poor. From a town that people either go to jail, become alcoholics... Just not a lot of hope. And I came from a place where I would say that to be where I'm at today, if people see me that I met and went to school with years and years ago, just don't believe it.
+**Adam Stacoviak:** \[03:47\] I would say for me probably the one thing that wouldn't seem obvious is I grew up poor. From a town that people either go to jail, become alcoholics... Just not a lot of hope. And I came from a place where I would say that to be where I'm at today, if people see me that I met and went to school with years and years ago, just don't believe it.
 
 My dad died when I was really young, so it was a big part of my life to have a father figure missing in my life. My mom was amazing; she raised me and my brother, single mom... And I love her. She has since passed away in 2008, but she was always my encourager, always my believer in me... And quite honestly, she's the reason why I'm at where I'm at, because I guess ages ago when blogging was cool, back in 2003-2004...
 
@@ -46,7 +46,7 @@ It was literally that moment, when she said that, that I sort of internalized th
 
 **Adam Stacoviak:** Sheer luck. Sheer luck, God's will... Gosh, man - I look back on these times... I was the person that didn't have any money for college, and many of my close friends had some sort of plan, because their parents were fortunate enough to have money in the bank and make that plan. For me, I didn't have that plan. I didn't even have great grades in high school. I was terrible... And not because I wasn't smart, but because I just didn't have anybody really, aside from my mom and a couple others, really helping me to apply things.
 
-\[00:07:30.07\] When I graduated high school, I barely graduated. It was terrible. I missed so many days of school the last year in my high school year... I just didn't wanna be there anymore, I wanted to move on to whatever was next. And when I left high school - this is going super-deep, but when I left high school I kind of told myself "I need to make a plan." So the cool thing to say would be "I'm taking a year off, prior to going to college." But I just didn't have any money to go. I didn't have a plan, like "How am I gonna get there?"
+\[07:30\] When I graduated high school, I barely graduated. It was terrible. I missed so many days of school the last year in my high school year... I just didn't wanna be there anymore, I wanted to move on to whatever was next. And when I left high school - this is going super-deep, but when I left high school I kind of told myself "I need to make a plan." So the cool thing to say would be "I'm taking a year off, prior to going to college." But I just didn't have any money to go. I didn't have a plan, like "How am I gonna get there?"
 
 So I spent the next year after high school sort of like making some sort of plan. I worked at this place called Reese Brothers, where they did telemarketing. I was a telemarketer at one point in my life. I actually may have called you at one point to ask you about AT&T long-distance. It was probably ten cents, or whatever, and I can give you a great deal if you bought today... Hey, that's how that worked.
 
@@ -66,7 +66,7 @@ So one day I'm staying in the third line of formation, and the drill sergeant sa
 
 I started to press my uniform, shine my boots... They call it "Dress Right, Dress" in the military. All the angles are squared, and whatnot... So I guess I was given an opportunity to lead, which is why I'm a huge advocate for just helping somebody that doesn't even think they deserve it or know how to do it - give them a chance. Encourage them into a leadership position.
 
-\[00:11:55.05\] I was not the best. I probably failed a lot, and that didn't matter though... Because where I'm at today as a man, as a dad, as a father, as a leader or any sort is because of some of those moments.
+\[11:55\] I was not the best. I probably failed a lot, and that didn't matter though... Because where I'm at today as a man, as a dad, as a father, as a leader or any sort is because of some of those moments.
 
 **Quincy Larson:** Well, he must have seen a lot in you if he gave you that responsibility... So it's possible that--
 
@@ -104,7 +104,7 @@ If I could find them, somehow, someway, I would be like "Thank you so much for s
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[00:16:00.22\] We worked with DK quite a bit... He went to film school in Orlando, Florida, at a place called Full Sail, really well known for audio, visual, directing film, all that good stuff... So I left the military with this SGLI Bill, thinking "I'm gonna go to Florida and I'm gonna go to film school, or I'm gonna go to audio school..." So I'd wanted to do either directing of films, or getting into audio stuff around films. I loved it. I didn't know how to do it, but I liked the idea of it, which is so ironic of what I do now. And... Yeah, I never went to school. I never went, I never ended up making it there... Which is kind of an interesting story, if you wanna go there; I can take you to the next--
+**Adam Stacoviak:** \[16:00\] We worked with DK quite a bit... He went to film school in Orlando, Florida, at a place called Full Sail, really well known for audio, visual, directing film, all that good stuff... So I left the military with this SGLI Bill, thinking "I'm gonna go to Florida and I'm gonna go to film school, or I'm gonna go to audio school..." So I'd wanted to do either directing of films, or getting into audio stuff around films. I loved it. I didn't know how to do it, but I liked the idea of it, which is so ironic of what I do now. And... Yeah, I never went to school. I never went, I never ended up making it there... Which is kind of an interesting story, if you wanna go there; I can take you to the next--
 
 **Quincy Larson:** Yeah.
 
@@ -180,7 +180,7 @@ If you haven't heard of Muzak, if you've been into, say Old Navy, or a Banana Re
 
 **Jerod Santo:** Nice.
 
-**Adam Stacoviak:** \[00:23:56.10\] And the very first time I had my own laptop was at this job. The first time I really used a computer for anything that was not like online chats, or whatever, dinking around, was at this job. So I'd kind of gotten into -- I don't know if they're still around, but it was called Act! An Act! database. Maybe you've seen this, Jerod... But it was a databasing system for like a basic CRM. And I started to tinker with that; I was never really good at it, but I'd sort of taken some classes around it, and just realized that I had this sort of inkling into like a geek, or what I considered a geek at that time... Geeky things. And Muzak had a really interesting brand, a really clean design, a real focus on how they say things...
+**Adam Stacoviak:** \[23:56\] And the very first time I had my own laptop was at this job. The first time I really used a computer for anything that was not like online chats, or whatever, dinking around, was at this job. So I'd kind of gotten into -- I don't know if they're still around, but it was called Act! An Act! database. Maybe you've seen this, Jerod... But it was a databasing system for like a basic CRM. And I started to tinker with that; I was never really good at it, but I'd sort of taken some classes around it, and just realized that I had this sort of inkling into like a geek, or what I considered a geek at that time... Geeky things. And Muzak had a really interesting brand, a really clean design, a real focus on how they say things...
 
 And it's funny, one thing we actually have that's a behind the scenes repo on GitHub - it's a repo we call OneVoice, so that Jerod and I can sort of like say the same things and define the same things around our business, to say "When we talk to somebody around a partnership, or a sales opportunity, or our guest guide", various things are in this so that Jerod and I can have (and begin to develop) one voice for whomever - sort of leads, commands, and interacts with these levels of our business. So that's something that they had; they actually had this entire book called One Voice, and I was like "That's really interesting, how much you think about the emotion that you wanna invoke as a part of your brand." Who you say you are really mattered to Muzak... And it could have just been they had some really good branding people, and people believe in it... But hey, I drank the Kool-Aid, man; I was all in it. So that's kind of what got me into it.
 
@@ -202,7 +202,7 @@ I'd mentioned at some point I moved to Canada... I moved to Canada as part of my
 
 **Adam Stacoviak:** Yeah. You did all of it on servers. Citrix was like -- you know, you had a thin client that was kind of stupid, and all it was, it was just a terminal to your server... So everything was server-based. And it was just an interesting era. This was around 2003-2005 timeframe. That's kind of the era then. I learned about servers, what they were, all that good stuff... And it's just pretty crazy to think this job at IT Weapons opened up doors into software, hardware, technology... And at one point I didn't even know what a server was. I'd hear people say server, but like - what's a server?
 
-**Quincy Larson:** \[00:28:04.24\] Wow. And from there, at what point did you get increasingly technical?
+**Quincy Larson:** \[28:04\] Wow. And from there, at what point did you get increasingly technical?
 
 **Adam Stacoviak:** I'm still working on that...
 
@@ -230,7 +230,7 @@ He was like "Do you just wanna become a partner in my business and help me do th
 
 We built out this really awesome site in Rails, and I think I just kind of stumbled into it, because I wasn't trying to be -- even though I know my mom said I'm really good at it, I wasn't really thinking I would be a web developer. I kind of like just was doing it. I was into biz dev... I really liked to create and develop relationships, and I just see that as one more way to do it, because I could do it well; no one else was really doing it. I had an opportunity, I could cultivate clients, I could do a lot of these interesting things, and... The door just opened up.
 
-**Quincy Larson:** \[00:31:47.17\] Yeah. And I imagine a lot of the job was communicating with the clients and understanding their needs, and you've got your stakeholder...
+**Quincy Larson:** \[31:47\] Yeah. And I imagine a lot of the job was communicating with the clients and understanding their needs, and you've got your stakeholder...
 
 **Adam Stacoviak:** Yeah. I would talk to clients for hours even. On the phone, for hours, talking through things and figuring things out... A lot of iteration, a lot of feedback from them... It was really fun.
 
@@ -272,7 +272,7 @@ Now you have to deliver a show that sounds really good. We used to get away with
 
 But he was in this crossroads because he had just decided to leave his consultancy and go a new direction, and so did I. So we were both in this sort of like "Let's establish our name for ourselves. Let's etch out some new territory." And obviously, I had a background in at least doing something with podcasting, so talking about things...
 
-\[00:36:04.28\] And I was like "What if we were both talking about how fast open source was moving...?" I'm like "You know what people just need? They need a way-finder through the versions; so if something changes, if Rails 1.0 versus 1.8, or whatever it might be, somebody just needs to chronicle the changelog of a software product, or a software open source whatever. Someone needs to tell that story. That's what's missing - what happened here and what happened here, and what's happening in between. People don't have that. So what if we just did a show called Changelog?" So it was just Changelog at first. And Wynn was like "What about The Changelog?" \[laughter\]
+\[36:04\] And I was like "What if we were both talking about how fast open source was moving...?" I'm like "You know what people just need? They need a way-finder through the versions; so if something changes, if Rails 1.0 versus 1.8, or whatever it might be, somebody just needs to chronicle the changelog of a software product, or a software open source whatever. Someone needs to tell that story. That's what's missing - what happened here and what happened here, and what's happening in between. People don't have that. So what if we just did a show called Changelog?" So it was just Changelog at first. And Wynn was like "What about The Changelog?" \[laughter\]
 
 **Quincy Larson:** It sounds like the opposite of The Facebook to Facebook...
 
@@ -344,7 +344,7 @@ But he was in this crossroads because he had just decided to leave his consultan
 
 **Jerod Santo:** How did it sound? Did you like it?
 
-**Quincy Larson:** \[00:39:51.13\] It was pretty rough. I've got a podcast tool that just makes it very easy to pull up old podcasts... I don't know how they archive it. Because even when I go on iTunes and try to scroll all the way down, it doesn't go all the way back...
+**Quincy Larson:** \[39:51\] It was pretty rough. I've got a podcast tool that just makes it very easy to pull up old podcasts... I don't know how they archive it. Because even when I go on iTunes and try to scroll all the way down, it doesn't go all the way back...
 
 **Adam Stacoviak:** It's terrible, yeah.
 
@@ -410,7 +410,7 @@ No one was really interested in the Sass... They were like "Why not just do a CS
 
 **Adam Stacoviak:** Right. So to me that's super-cool. That's what really got me into loving this medium - it was because... Even with our show, we can go back and chronicle the paths of some developers. We've had some people on four times, three times, several times, and we've seen not only their changes as individual people, but the software they command, or the things they maintain, or the communities they lead... It's just really interesting.
 
-\[00:44:09.01\] I love the fact that we get a chance to be kind of what that drill sergeant was to me - the encourager. We like to shine our light in places where it's not always being shined, and just encourage people to press forward, to congratulate them for working really hard.
+\[44:09\] I love the fact that we get a chance to be kind of what that drill sergeant was to me - the encourager. We like to shine our light in places where it's not always being shined, and just encourage people to press forward, to congratulate them for working really hard.
 
 Maintainers who don't get any thanks - we love to pat them on the back and say "Keep going, you're doing an awesome job", and just do what we can to put more focus on the things they're working on.
 
@@ -460,7 +460,7 @@ For a while there people actually thought that Changelog was owned by GitHub. Th
 
 **Quincy Larson:** Yeah. So let's talk about that - that struggle for the soul of The Changelog.
 
-**Adam Stacoviak:** \[00:47:41.13\] Okay, so... Slight back-story on that, too... So Wynn and I both met this guy named Josh Copher, who was starting a nonprofit. He actually met Wynn first. Wynn and I were both freelancing, as I mentioned, and doing The Changelog podcast as a hobby, fun thing just to do... And when Wynn was building his team for Pure Charity, this nonprofit that Josh Copher was forming, to be a place for nonprofits to coalesce, to get information on how to best fundraise, how to lead their charges, how to unify their followers, their supporters (for a lack of better terms), Wynn was like one of the first picks.
+**Adam Stacoviak:** \[47:41\] Okay, so... Slight back-story on that, too... So Wynn and I both met this guy named Josh Copher, who was starting a nonprofit. He actually met Wynn first. Wynn and I were both freelancing, as I mentioned, and doing The Changelog podcast as a hobby, fun thing just to do... And when Wynn was building his team for Pure Charity, this nonprofit that Josh Copher was forming, to be a place for nonprofits to coalesce, to get information on how to best fundraise, how to lead their charges, how to unify their followers, their supporters (for a lack of better terms), Wynn was like one of the first picks.
 
 I was the second hire after him, so I guess I was the first pick... He was like "Adam, do you wanna do this kind of thing?" So next thing you know, we're working for this nonprofit called Pure Charity. Wynn was CTO, I think I was UX designer, or something like that; I don't remember what my title was. It doesn't matter. The point was we were just sort of like fleshing out our careers a bit more, and about two years pass and the majors call. Wynn is in the farm club, at Pure Charity, the majors, GitHub calls and says "Hey Wynn, do you wanna come out to San Francisco? We've gotta talk to you about some things..."
 
@@ -488,7 +488,7 @@ So I was just really in this whole space where I was just questioning whether it
 
 **Jerod Santo:** Yeah. He could find gems... And you know, over the years I've tried to imitate that and I've gotten pretty okay at it... I like to find things, too. New open source projects here, a new technique, a great blog post. And so I was following the blog, mostly. I was also a podcast junkie back then, and that's why I know about Gitsplosion, where most people don't even realize that was a podcast... I'm like "The GitHub guys have a podcast? I'll listen to it." And so I was a listener of the show, and I really appreciated the blog, because I was in Omaha, Nebraska, doing my thing, writing software for people, and I very much felt like I was on an island, so to speak, in the open source world.
 
-\[00:51:56.17\] I cut my teeth on Unix, and Linux, and networks, and I was a Vim guy early on... I was just always in open source. I learned Perl, and then I learned Ruby, and then Rails blew my mind, and I was building Rails websites... So I was in the open source universe. I didn't even really realize that there was much else, even though there was this entire Microsoft side of things that I just didn't -- people started talking to me about C\# and I didn't know what they were talking about early on... And then they started to fade.
+\[51:56\] I cut my teeth on Unix, and Linux, and networks, and I was a Vim guy early on... I was just always in open source. I learned Perl, and then I learned Ruby, and then Rails blew my mind, and I was building Rails websites... So I was in the open source universe. I didn't even really realize that there was much else, even though there was this entire Microsoft side of things that I just didn't -- people started talking to me about C\# and I didn't know what they were talking about early on... And then they started to fade.
 
 **Adam Stacoviak:** He said "Nooooo...!"
 
@@ -552,7 +552,7 @@ So Wynn, that I think had actually moved on already - it was all behind the scen
 
 **Jerod Santo:** In fact, you were on the show about four years ago and we might have got your origin story as well... And we stopped doing those over time, because we found that they were kind of hit or miss. The first one that I remember was Kong, or Mashape, I think. Ahmad Nassri.
 
-**Adam Stacoviak:** \[00:55:53.15\] Mashape, yeah.
+**Adam Stacoviak:** \[55:53\] Mashape, yeah.
 
 **Jerod Santo:** He had an amazing origin story.
 

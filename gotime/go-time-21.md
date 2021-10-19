@@ -32,7 +32,7 @@ In fact, my colleague at the time - he's also an OG - Keith Rarick and I really 
 
 **Blake Mizerany:** Well, we didn't have to do any real formal benchmarking. Writing a quick little *Hello World* in Go, compiling and running it was... I mean, just a few little pokes at it with a browser; if it was a web server it was an obvious night and day difference from anything that we had written in Ruby.
 
-\[00:04:08.24\] It was pretty obvious at that point that that was the direction that we wanted to go, to start using Go.
+\[04:08\] It was pretty obvious at that point that that was the direction that we wanted to go, to start using Go.
 
 **Erik St. Martin:** I wanna say at that time, in 2009, to just hit an endpoint in Ruby on Rails was still three-digit response time; it was like 100-115 milliseconds, so the dropdown to single digits meant the world.
 
@@ -56,7 +56,7 @@ That really spoke to the power of the language. You can work on some pretty hard
 
 **Erik St. Martin:** So with that project, how much Ruby baggage do you feel like you brought along? Because that kind of turns out to be the thing whenever you adopt a new language.
 
-**Blake Mizerany:** \[00:08:02.09\] Right... One of the first things Keith and I wrote was an assert package for the testing suite. Not long after that we implemented a small Sinatra-style router called Pat, and within probably three to four weeks after creating both of those we ditched them and just never used them again, and continued to use the standard library. Although I think Pat continues to be pretty successful; I haven't looked at it in a really long time, but I think Gorilla adopted it at some point. But I avoid a lot of those frameworks. I'm not really familiar with where they are... But to speak to that, yes, we brought a lot of stuff over from Ruby earlier on.
+**Blake Mizerany:** \[08:02\] Right... One of the first things Keith and I wrote was an assert package for the testing suite. Not long after that we implemented a small Sinatra-style router called Pat, and within probably three to four weeks after creating both of those we ditched them and just never used them again, and continued to use the standard library. Although I think Pat continues to be pretty successful; I haven't looked at it in a really long time, but I think Gorilla adopted it at some point. But I avoid a lot of those frameworks. I'm not really familiar with where they are... But to speak to that, yes, we brought a lot of stuff over from Ruby earlier on.
 
 I remember looking for certain things to exist in Go that I was used to having in Ruby and it took me a while to break that habit. Once I did, everything got better.
 
@@ -74,7 +74,7 @@ I think some people are also looking for, you know, "I've got a checklist of thi
 
 **Blake Mizerany:** Right. Usually what I advocate in those scenarios is I go look for something that does what you're looking for and then copy and paste it into your code. Obviously, you can give attribution as well, but usually what I see when people ask that is that they're looking for a quick fix, for something that's already... How do I phrase this...? I think they're assuming the solution to their problem is going to be much harder and much more complicated than it really is. That's why people will reach for something...
 
-\[00:12:07.13\] Not to point fingers to anyone, but I've seen libraries where people have written an entire library to do exponential backoff. To me, that's a really simple four-loop and a random sleep; it's nothing too complicated. What I see in those libraries also is that what they wind up doing is you wind up with something that's much harder to use and requires more code to use that thing than if would had you just implemented it yourself. Usually that's what I see. Just really dissect the problem down to what it really is, and try to come up with the simplest solution. A lot of times it can be solved with a four-loop.
+\[12:07\] Not to point fingers to anyone, but I've seen libraries where people have written an entire library to do exponential backoff. To me, that's a really simple four-loop and a random sleep; it's nothing too complicated. What I see in those libraries also is that what they wind up doing is you wind up with something that's much harder to use and requires more code to use that thing than if would had you just implemented it yourself. Usually that's what I see. Just really dissect the problem down to what it really is, and try to come up with the simplest solution. A lot of times it can be solved with a four-loop.
 
 **Carlisia Thompson:** That is a very good point. I started writing a greenfield app that I know is going to be in production sometime soon, and of course my being new to Go, my first reaction was "Well, let me look for some libraries that do this stuff that I haven't done, since I worked with Java." I haven't done codes that directly access a database for ages, because I had been working with Ruby and I have libraries that do that; Rails itself did that. So I was looking for the framework just to give me a little bit of an edge, so I didn't have so much of a learning curve; like, I'm learning things in Go still, and I don't wanna be looking into all of that at the same time. But now that I'm very comfortable with what I'm doing, I'm thinking "The next project I do, I don't even want to use the libraries." I want to focus more on using the standard library, learning what the standard library offers and be more intimate with that, because I think it's going to be to my benefit knowing that, and also using idiomatic Go, and not depend so much on what framework is out there. It might be that this framework would be good for this, that framework would be good for that... No framework is going to be good for everything, and you might as well just know how to do it.
 
@@ -94,7 +94,7 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Blake Mizerany:** Right. I implemented the first Postgres driver for Go for the database SQL package, and I'm here to tell you that it's not something you just wanna do. I had to do it at the time, because nothing existed, but I would have preferred someone else did it.
 
-**Erik St. Martin:** \[00:16:08.23\] That's a good question, too... Because you came in so early and there weren't a lot of libraries existing already, so you kind of had to pave the way anyway. Do you feel like that kind of influences your desire to just kind of write it from scratch most of the time? Or is it really just you don't want the overhead of pulling in ten thousand lines of code to save yourself one four-loop?
+**Erik St. Martin:** \[16:08\] That's a good question, too... Because you came in so early and there weren't a lot of libraries existing already, so you kind of had to pave the way anyway. Do you feel like that kind of influences your desire to just kind of write it from scratch most of the time? Or is it really just you don't want the overhead of pulling in ten thousand lines of code to save yourself one four-loop?
 
 **Blake Mizerany:** It depends on what we're trying to do... When I say "we", I mean us at Backplane. We're trying to get something done by the end of the week; there's no problem with bringing a dependency in, but we'll definitely reevaluate it pretty quickly. But there is this strong urge a lot of times where I just want to go off and say "Oh, I'm just gonna do this myself, it sounds like fun", but then I have to stop myself, because a lot of things that people work on are hard problems. A lot of these packages out there, it's not worth rewriting. Does that answer your question?
 
@@ -114,7 +114,7 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Blake Mizerany:** Right. I think what's great about Go is that it's easy to learn, so if you're having trouble finding people that aren't as senior as you might hope, the great thing about it is that people can learn extremely fast. I did spend quite a bit of time - probably I spent too much time early on trying to find extremely seasoned Go engineers, and they're extremely hard to come by and they're in very high demand. You don't have to go after those people; you can easily find people that are extremely intelligent and extremely willing to learn and who are extremely hungry and want to learn and they learn really fast when they're in that mindset. So don't try to go find the rockstars all the time. If you can get them, great, but the language lends itself to be learned very easily.
 
-**Brian Ketelsen:** \[00:20:18.17\] Very good. Alright, we know that you've gotta go quickly, so we will say our thanks and goodbyes. We appreciate you coming on the show today.
+**Brian Ketelsen:** \[20:18\] Very good. Alright, we know that you've gotta go quickly, so we will say our thanks and goodbyes. We appreciate you coming on the show today.
 
 **Blake Mizerany:** Thank you for having me.
 
@@ -134,7 +134,7 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Erik St. Martin:** Before we jump on this, why don't we talk about one of our sponsors? Because this is a nice, clean break, and then we can jump into some interesting Go projects and news.
 
-**Break:** \[00:21:05.05\]
+**Break:** \[21:05\]
 
 **Erik St. Martin:** You had mentioned too that all of the new Changelog stuff is hosted on Linode - which, if anybody has not seen yet, you should go check out the new Changelog site and the new GoTime.fm site. Adam and Jerod and the team have been working tirelessly on this for I don't know how many months, and it is finally here and it is fantastic. Also, it's backed by Fastly's CDN, which Carlisia's working for right now.
 
@@ -154,7 +154,7 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Brian Ketelsen:** If you're subscribed to Changelog Weekly, you'll see it at the top of the coolest GitHub repository list. Oh, that's the Changelog Nightly... Never mind. That's my trigger to go to bed, did I ever mention that? Changelog Nightly comes out at midnight every night, and I'm like "Oh shoot, it's time to go to bed." \[laughs\]
 
-**Erik St. Martin:** \[00:23:56.13\] See, I get all these newsletters and there's always cool things in there and I don't have time, so I'll typically have multiple browser windows open, which are kind of like context, work and non-work, and the non-work one is always full of all the tabs that come from these emails and Twitter, and people sending me direct links. And they hang out there, there'll be 30 tabs, and then I'll look at two or three of them and eventually I abandon the rest, because they've been hanging out there too long. I just leave Brian to curate it for me. He tells me what the good stuff is.
+**Erik St. Martin:** \[23:56\] See, I get all these newsletters and there's always cool things in there and I don't have time, so I'll typically have multiple browser windows open, which are kind of like context, work and non-work, and the non-work one is always full of all the tabs that come from these emails and Twitter, and people sending me direct links. And they hang out there, there'll be 30 tabs, and then I'll look at two or three of them and eventually I abandon the rest, because they've been hanging out there too long. I just leave Brian to curate it for me. He tells me what the good stuff is.
 
 **Brian Ketelsen:** Well, that's a problem... I've been so busy lately I haven't even looked at most of the good stuff. I have a giant list of things that look interesting to touch, and I haven't played with them at all, which makes me sad. Although I did do something pretty cool this week that's kind of funded. If you follow me on Twitter, you'd have seen it. I embedded a term.js terminal inside Go's present tool, and hacked up the present tool to understand a syntax to open and create and attach to a Docker container, so that you could have a live terminal embedded in your presentation. That was probably the most fun hack I've done in months and months. It was so cool.
 
@@ -180,7 +180,7 @@ It's JSON-to-Go... We'll put a link on the show notes. Basically, you drop some 
 
 **Carlisia Thompson:** Yeah, right? Because you do this all the time. You're pinging an API, and you need to receive a struct. It's so handy to have that... You basically just copy the struct and put it in your code, and voila! In the same way, he has a curl-to-go tool, where you paste a cURL, let's say a call to an API, and it will give you the Go client to make that call, and you place it in your code and it will work. It's like magic. So thank you, Matt, for doing those tools.
 
-**Brian Ketelsen:** \[00:27:55.09\] Those are great, good call.
+**Brian Ketelsen:** \[27:55\] Those are great, good call.
 
 **Erik St. Martin:** I've got a fun one that I ran across, it was created by Nate Finch. I wanna say it's pronounced Gorram. It's really cool, it's like a command line application where you can specify a package, a method and parameters that you wanna call, all on the command line. It's like writing single-line Go apps from the command line, which is just ridiculously cool. I've started writing some shell scripts using it, because it's easier to do than Bash.
 
@@ -212,7 +212,7 @@ So it's kind of like doing the same thing and you wonder how much you wanna cros
 
 **Brian Ketelsen:** It looks very Go-ish, and it's really not bad. The fundamental problem I have with it is that you have to understand React before you can use Go React, and in order to understand React you've got to learn from all of the tutorials and places out there that are using the JavaScript version, or the JSX version, or whatever those are called. So there's a mental disconnect when you're reading these tutorials on how you're going to implement that on the Go side of things, and that makes it a little bit harder. If you know React really well already, then it's probably not a big deal. But learning to use a transpiler like that gets complicated.
 
-**Erik St. Martin:** \[00:32:10.02\] I think that falls into the leaky abstraction category, where you're trying to abstract some concept but you still have to have some deep understanding of the thing you're abstracting.
+**Erik St. Martin:** \[32:10\] I think that falls into the leaky abstraction category, where you're trying to abstract some concept but you still have to have some deep understanding of the thing you're abstracting.
 
 **Brian Ketelsen:** Yeah.
 
@@ -246,7 +246,7 @@ So it's kind of like doing the same thing and you wonder how much you wanna cros
 
 **Erik St. Martin:** I think Brian and I are guilty of that too, because the Go Tampa Meetup... I don't think we've had a Meetup in a while, and it's mainly because we feel like it's hard to prepare presentations; we're always so busy, so trying to make the time to create presentations gets difficult, and then we don't end up scheduling a Meetup. But really, I think people just wanna hang out and talk Go, so I think we need to do a better job of doing stuff like that - just get everybody together and help each other with projects and problems that we're working on... Or even if it's just beers and socializing and talking about Go, I think that there's still value in that. I need to connect with that myself, that there doesn't have to be a presentation ready to run it.
 
-**Carlisia Thompson:** \[00:36:10.02\] And I stand corrected - there is a section on that repo that talks about options other than having speakers. And I agree with you, Erik. I see people struggling to find speakers sometimes, so it's nice to know that you can do other things as well.
+**Carlisia Thompson:** \[36:10\] And I stand corrected - there is a section on that repo that talks about options other than having speakers. And I agree with you, Erik. I see people struggling to find speakers sometimes, so it's nice to know that you can do other things as well.
 
 **Erik St. Martin:** We had a Ruby Meetup here that was doing a really cool thing. I forget what frequency they were doing them on, but basically what they would do is they would pose a small problem, almost like the exercism.io problems, and everybody would submit them anonymously to the Meetup organizers, and then in order to attend you had to have submitted, and then basically everybody would kind of sit there and together, collectively code review all of the submissions in kind of like this anonymous fashion. Nobody had to feel guilty that people were saying something about them personally, or would know that they made some silly mistake, or something like that.
 
@@ -278,7 +278,7 @@ It was actually a really cool idea. It wouldn't be bad to try that in the Go wor
 
 **Erik St. Martin:** Yeah, I have to take a look at that, and think of use cases where I don't typically just use strconv, or whatever. Everybody has different pronunciations of these standard library packages. I'd love to get a list of just... Because you don't really say these things, right? Everybody now knows it's fumt (fmt), right? \[laughter\] But nobody knew that before.
 
-**Brian Ketelsen:** \[00:40:15.24\] I don't think everybody knows that still. The 1,500 people at GopherCon were all shocked the first time they heard that.
+**Brian Ketelsen:** \[40:15\] I don't think everybody knows that still. The 1,500 people at GopherCon were all shocked the first time they heard that.
 
 **Erik St. Martin:** Yeah, I think people call it stirconv... I used to pronounce it string.
 
@@ -312,7 +312,7 @@ I think it uses Otto, which is a...
 
 **Erik St. Martin:** Yes, @GoTimeFM. Okay, so I think that it's about time for another sponsor break. What do we have?
 
-**Break:** \[00:43:06.13\]
+**Break:** \[43:06\]
 
 **Erik St. Martin:** But still, regardless of the history of Code School and who now owns it, their training has always been really cool. I've just pulled up their site too, and they've got a bunch more training stuff, like Surviving APIs with Rails, Rails for Zombie Outlaws...
 
@@ -348,7 +348,7 @@ I know that they're building a commercial product on top of Kubernetes called Te
 
 I think that we owe them a ton of gratitude for all the things that they're doing in the Go world and in the container and orchestration space.
 
-**Brian Ketelsen:** \[00:48:00.25\] Yeah, and we didn't even mention Rocket and how much work they've done in Kubernetes... Good folks over there at CoreOS.
+**Brian Ketelsen:** \[48:00\] Yeah, and we didn't even mention Rocket and how much work they've done in Kubernetes... Good folks over there at CoreOS.
 
 **Erik St. Martin:** Yes. How about you, Carlisia?
 
@@ -404,7 +404,7 @@ I'm trying to break my habit, because I'm just used to typing "dig" or "nslookup
 
 **Brian Ketelsen:** No, because I only use it for one thing, to find out who's listening on the damn port I'm trying to open.
 
-**Erik St. Martin:** \[00:51:53.20\] One of my all-time favorite Linux commands is *lsof* List Open Files. That's awesome, to be able to see who has a port or a file open, or to see what files your process has open. You can go the other way around, too. I think that's pretty cool.
+**Erik St. Martin:** \[51:53\] One of my all-time favorite Linux commands is *lsof* List Open Files. That's awesome, to be able to see who has a port or a file open, or to see what files your process has open. You can go the other way around, too. I think that's pretty cool.
 
 **Brian Ketelsen:** Yeah, that's where I've used *lsof* - trying to move binary from one machine to the other, and call *lsof* to see which shared libraries it's using or where it finds its configuration. That was another thing I used it for. "Where is the damn configuration file for this?" You call *lsof* and "Oh, there it is."
 
@@ -456,7 +456,7 @@ We should put in the show notes links to people's Twitter handles so everybody c
 
 **Carlisia Thompson:** And there's this site called webpagetest.org where enter your URL and you get grades for different aspects of your website - it mostly hast to do with speed - and it went from an F to an A. It was amazing. I didn't even tweak anything on the Fastly site, because there were a lot of things I can tweak; I just added the CDN. So there we go, Fastly is awesome.
 
-**Brian Ketelsen:** \[00:56:03.27\] Wow... I'm testing GopherCon.com right now, because I've gotta know.
+**Brian Ketelsen:** \[56:03\] Wow... I'm testing GopherCon.com right now, because I've gotta know.
 
 **Carlisia Thompson:** Test all the things, this is awesome.
 

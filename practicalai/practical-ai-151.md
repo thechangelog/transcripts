@@ -84,7 +84,7 @@ So what are some positive results from focusing on human intelligence when you'r
 
 **Chris Benson:** I do. So not everyone does think that way, but it is value. And the older I get, the more I care about that. In most problems, there's the basic problem and there's a whole bunch of surrounding concerns around that, and you have to figure out what you're going to address. So for me, I see benefit to that.
 
-**Break:** \[00:16:23.02\]
+**Break:** \[16:23\]
 
 **Daniel Whitenack:** So Chris, I think you brought up a couple of interesting things related to the positive results from focusing on human intelligence to solve the hypothetical problem we're considering. So humans being the target, it sort of breeds trust, maybe, so I'm going to bring up the word trust.
 

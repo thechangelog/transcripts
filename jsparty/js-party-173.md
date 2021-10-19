@@ -20,7 +20,7 @@ Awesome. I know a lot of folks are interested in this idea of working in open so
 
 **Jenn Creighton:** Yes. I kind of fell into it by accident, which is to say that I was already working with open source technologies at my job. I worked with React for 5-6 years, and decided that I wanted to speak at events about React, and sort of brought myself into open source that way... And also, occasionally, you could find me in the middle of the night kind of like scrolling through the React codebase, trying to understand how things worked. I was just curious about what was going on.
 
-\[00:04:25.04\] And then Apollo reached out to me with this opportunity and I was like "Getting paid to do open source? Yeah, I'm gonna try that out. I'm gonna see what that is like." It's a wild ride... \[laughs\] It's a whole new thing from product engineering.
+\[04:25\] And then Apollo reached out to me with this opportunity and I was like "Getting paid to do open source? Yeah, I'm gonna try that out. I'm gonna see what that is like." It's a wild ride... \[laughs\] It's a whole new thing from product engineering.
 
 **Kevin Ball:** Absolutely, absolutely. So in that context, are you primarily doing coding, or are you managing community? I know when I was paid to work on open source it was like a whole lot of things that maybe I hadn't even thought about as part of engineering prior to getting involved.
 
@@ -40,7 +40,7 @@ Awesome. I know a lot of folks are interested in this idea of working in open so
 
 **Kevin Ball:** That's a random tangent, but I love the metaphor "software is magic." It's got all of the same things of like bizarre incantations, very strange lines between what is easy and what is hard, and... I don't know, the only question in my mind is "Is it better represented as black magic, or just magic in general?"
 
-**Jenn Creighton:** \[00:07:45.12\] I think of it as -- there's some shows that have magic in them, but they take a scientific approach to it, where they're like "Actually, this is all about just manipulating molecules, depending on how you do X, Y and Z..." So it's not magic in this sense of unknown, how it's working; you actually do know how it's working. And that is really close to code. Because if you really fundamentally break it down to the smallest possible unit, you're gonna figure out how the code works. It's not ultimately something you can't understand... But yeah, I love "Code is magic", too.
+**Jenn Creighton:** \[07:45\] I think of it as -- there's some shows that have magic in them, but they take a scientific approach to it, where they're like "Actually, this is all about just manipulating molecules, depending on how you do X, Y and Z..." So it's not magic in this sense of unknown, how it's working; you actually do know how it's working. And that is really close to code. Because if you really fundamentally break it down to the smallest possible unit, you're gonna figure out how the code works. It's not ultimately something you can't understand... But yeah, I love "Code is magic", too.
 
 **Kevin Ball:** Totally agree. The best magic systems have their internal logic, and it's totally sealed up, and it works, and it's bizarre if you don't understand that internal logic. \[laughter\]
 
@@ -72,7 +72,7 @@ Awesome. I know a lot of folks are interested in this idea of working in open so
 
 If you wanna interact with the tab system, you have to kind of put that on a list of saying "I wanna use the tab system", and then you can use it, and then Chrome extensions always go through a review process. So it's like a very laborious process, and you're just trying to deal with passing messages back and forth all over the place. It's kind of a nightmare.
 
-\[00:12:05.02\] Also, once you get the thing actually working, that doesn't mean that it's gonna work on everyone's browser with everyone's system, because you just never know what they're dealing with on their end of their setup... So we just get a lot of issues that are like "Well, this doesn't work. I need to know a little bit more about your setup to fix that for you. I will fix it for you, but you've gotta tell me more than it just doesn't work."
+\[12:05\] Also, once you get the thing actually working, that doesn't mean that it's gonna work on everyone's browser with everyone's system, because you just never know what they're dealing with on their end of their setup... So we just get a lot of issues that are like "Well, this doesn't work. I need to know a little bit more about your setup to fix that for you. I will fix it for you, but you've gotta tell me more than it just doesn't work."
 
 **Amal Hussein:** I feel like anytime software at scale is outside of the standards process, it just gets into this weird world... But I feel like browser extensions are so due for just better standardization, so developers don't go insane...
 
@@ -90,11 +90,11 @@ If you wanna interact with the tab system, you have to kind of put that on a lis
 
 Folder structures, as it turns out, kind of matter, and so putting everything that actually lives in the tab space under the tab folder actually makes sense, as opposed to everything that lives in the DevTools space, as opposed to everything that actually does live in the background; it turns out that's helpful for your mental model.
 
-**Break:** \[00:14:15.04\]
+**Break:** \[14:15\]
 
 **Kevin Ball:** So let's hop back into things and talk about Apollo Client. Jenn, can you explain a little bit, what is the role that the client plays? If I'm somebody coming in who doesn't know anything about the GraphQL ecosystem, where should I put this in my mental map of how I'm gonna start using this thing?
 
-**Jenn Creighton:** \[00:15:56.17\] If you ever built an application with React and Redux, you would swap out Redux for Apollo Client when you're working with GraphQL. Apollo Client is just made to work with caching your GraphQL responses on the frontend, and allowing you to do things on the frontend with those GraphQL responses. That would be really difficult for you to do with another library. Because your data is now in a graph model, you actually need a caching strategy that understands that it's a graph model, and how to store those things properly. So that's what we do.
+**Jenn Creighton:** \[15:56\] If you ever built an application with React and Redux, you would swap out Redux for Apollo Client when you're working with GraphQL. Apollo Client is just made to work with caching your GraphQL responses on the frontend, and allowing you to do things on the frontend with those GraphQL responses. That would be really difficult for you to do with another library. Because your data is now in a graph model, you actually need a caching strategy that understands that it's a graph model, and how to store those things properly. So that's what we do.
 
 **Kevin Ball:** Got it. And that actually fits interestingly with this idea of GraphQL as an evolution of state management. On the frontend we've gone through this evolution of how we think about state, and looking at state in terms of "Does it make sense to be done on the component, versus some sort of centralized state manager, and all these different pieces?" GraphQL, in some ways is - or at least I think of it as - extending that state model in a way that maps to our backend representation a little bit more, so that we've got a unified state model for the communication between backend and frontend, but we don't have to do that mapping all in our frontend.
 
@@ -112,7 +112,7 @@ It turns out being able to push that on to the client team to decide what they'r
 
 **Kevin Ball:** And your tooling can tell you, because it's declared.
 
-**Jenn Creighton:** \[00:20:00.28\] Yes...! There's so much tooling you can do with GraphQL that it's just amazing. It's a space that's very rapidly evolving at Apollo about what we wanna push the graph to do, what we want companies to be able to do with their graph... You get into this with Apollo Federation, which we can definitely talk about; it's very cool. And being at a company that's at a forefront of that, you are on just like a wild rollercoaster ride. You're just learning a lot. I've learned so much in the past year at Apollo... Because to be honest, I wasn't working with GraphQL before I joined the company, and I had to really amp up all my knowledge about this in a year... And still, every day, someone says something else that I'm like "Oh, what? What are we doing? Why are we doing it? Oh, my God... What? You can do that?" It's great.
+**Jenn Creighton:** \[20:00\] Yes...! There's so much tooling you can do with GraphQL that it's just amazing. It's a space that's very rapidly evolving at Apollo about what we wanna push the graph to do, what we want companies to be able to do with their graph... You get into this with Apollo Federation, which we can definitely talk about; it's very cool. And being at a company that's at a forefront of that, you are on just like a wild rollercoaster ride. You're just learning a lot. I've learned so much in the past year at Apollo... Because to be honest, I wasn't working with GraphQL before I joined the company, and I had to really amp up all my knowledge about this in a year... And still, every day, someone says something else that I'm like "Oh, what? What are we doing? Why are we doing it? Oh, my God... What? You can do that?" It's great.
 
 **Amal Hussein:** You're the second person I know who's joined Apollo in the past year who didn't really use GraphQL... It's a trend that -- I love it, that they're recruiting folks that are not necessarily users.
 
@@ -126,7 +126,7 @@ So one, just wrapping your brain around how different this is from hitting your 
 
 I would say if you wanna spin up an express API real quick and have some data, versus invest in GraphQL - okay, that's fine. It's cool. It really just depends on your trade-offs. And if you early on have a really great use case for the fact that your data is gonna be really graph-heavy - yeah, you probably should just go ahead in early. But if you don't - okay, build your express API. Maybe try out GraphQL at some point and see if it gives you anything that you really want. I mean, it does have some really nice features to it, but... By no means does everyone have to adopt GraphQL at all times. Not even other people at Apollo believe this, so...
 
-**Kevin Ball:** \[00:24:13.24\] To jump in a little bit on some of those trade-offs... Some of the things that we've found at Humu where I'm working, where we are using GraphQL, but we do have some REST endpoints as well... So on the drawbacks side, partly because of our setup, but partly also just because of how GraphQL is, there's more boilerplate to set up. There's more things that you have to declare, there's more stuff that you put out there. So if you're setting something up quick and dirty, you're setting things up -- it is more work to set up the GraphQL side of it.
+**Kevin Ball:** \[24:13\] To jump in a little bit on some of those trade-offs... Some of the things that we've found at Humu where I'm working, where we are using GraphQL, but we do have some REST endpoints as well... So on the drawbacks side, partly because of our setup, but partly also just because of how GraphQL is, there's more boilerplate to set up. There's more things that you have to declare, there's more stuff that you put out there. So if you're setting something up quick and dirty, you're setting things up -- it is more work to set up the GraphQL side of it.
 
 That being said, some of the things you get from it are 1) you get end-to-end typing, which - if you're working all in TypeScript front-to-back, you may already have some of that. We have Python on our backend and TypeScript on the frontend, so having end-to-end typing across languages in that way just out of the box is beautiful, and it works really well.
 
@@ -150,7 +150,7 @@ So I've found that even though conceptually, REST APIs seem like they should be 
 
 So the hype thing is what's weird for me, because you see people using it to power their blogs, or very simple websites with just -- you're putting it in front of one or two REST APIs, and like "Is that really necessary?" So just weigh your trade-offs, kids, before adopting... That's all.
 
-**Jenn Creighton:** \[00:28:09.28\] That is also 100% how I feel about TypeScript or people using React for something that I'm like "But you could have just written the HTML yourself... Why are you doing this...?"
+**Jenn Creighton:** \[28:09\] That is also 100% how I feel about TypeScript or people using React for something that I'm like "But you could have just written the HTML yourself... Why are you doing this...?"
 
 **Amal Hussein:** Or a basic templating language, or something... Yeah, I'm with you. I think we have a lot of bias as engineers, and that bias tends to skew towards over-engineering, and...
 
@@ -218,7 +218,7 @@ Speaking of someone who's never used it before, one thing that I'm also kind of 
 
 **Jenn Creighton:** Yeah. When we're talking about the tooling that can be done, that's part of it. You can generate a schema from things, which is very useful. The other part of the schema though is that you may not be getting your data straight from a database. You might be getting it from somewhere else.
 
-\[00:31:55.27\] So GraphQL is really agnostic about where you're getting it from, but it does need to know what it's getting... And that is then provided to anyone who wants to use your GraphQL endpoint. So it is important, I think, to have that schema layer and have it not have to be hooked into something specific like a database; it can just be generated somewhere else.
+\[31:55\] So GraphQL is really agnostic about where you're getting it from, but it does need to know what it's getting... And that is then provided to anyone who wants to use your GraphQL endpoint. So it is important, I think, to have that schema layer and have it not have to be hooked into something specific like a database; it can just be generated somewhere else.
 
 **Kevin Ball:** One really nice feature of that is you can have computed fields, essentially, in your schema... And some of them maybe quite expensive to compute. But you only have to compute them when someone requests them.
 
@@ -242,11 +242,11 @@ Speaking of someone who's never used it before, one thing that I'm also kind of 
 
 **Kevin Ball:** I mean, I wouldn't call it the original GraphQL necessarily, but I think that idea of being able to put a data pipeline layer where you source from many different possible sources, and then having that generate a kind of universally queriable middle layer is a really valuable concept... And you could do that in sort of a pre-processed manner, which Google search does, I think, and Gatsby does, or you could do that in an on-the-fly manner, where you're wrapping other APIs with a GraphQL layer or some other layer that does that... But I think that concept of being able to create a linchpin data layer that you can then have a single format that all of your different clients can talk to is one of the incredible, powerful concepts that GraphQL adopts.
 
-**Break:** \[00:34:25.27\]
+**Break:** \[34:25\]
 
 **Kevin Ball:** Let's dig into some of these more advanced features... So you briefly mentioned, Jenn, Apollo Federation. Can you flesh it out a little bit more for us? What is that?
 
-**Jenn Creighton:** \[00:35:55.16\] So Apollo Federation -- it's a technology and an architecture. To break it down into a concept - if you have REST microservices and different teams working on these microservices, if you replace that REST with GraphQL, how does that work? So how can everyone have their slice of the data graph, but also there will be reusable parts of that that need to span across the teams, so how does that work.
+**Jenn Creighton:** \[35:55\] So Apollo Federation -- it's a technology and an architecture. To break it down into a concept - if you have REST microservices and different teams working on these microservices, if you replace that REST with GraphQL, how does that work? So how can everyone have their slice of the data graph, but also there will be reusable parts of that that need to span across the teams, so how does that work.
 
 It used to be that you would use a process called schema stitching to integrate all your separate microservice graphs together into the one big graph. That was a really manual process that you did on the server... So Apollo Federation is a way to do this without having to do that manual process. It has a declarative process that you use in the schema to say when you're extending a certain type, and there's a gateway that sits in front of your different microservices that will do the orchestration for you, of picking what it needs from which graph.
 
@@ -268,7 +268,7 @@ So all the small pieces of the graph come together into one endpoint that you ca
 
 **Jenn Creighton:** I know that for Apollo federation is the future. We're investing very heavily in federation. We see it as the way that companies can really adopt the graph more easily, and get the most benefits out of this graph. We're building a lot of tooling around it, we're really working heavily on it. That's important to Apollo.
 
-\[00:40:05.06\] As far as GraphQL and the spec in general, there hasn't been as much going on with that as of late, from what I know. I do know that defer @defer and @stream directives are still not fully adopted, though some GraphQL servers have already adopted them... So we are going to, in Apollo, start to adopt those as well, including on the client. So we're gonna be working on that next, as part of our big Apollo Client roadmap. That's really all I've got on that side of things.
+\[40:05\] As far as GraphQL and the spec in general, there hasn't been as much going on with that as of late, from what I know. I do know that defer @defer and @stream directives are still not fully adopted, though some GraphQL servers have already adopted them... So we are going to, in Apollo, start to adopt those as well, including on the client. So we're gonna be working on that next, as part of our big Apollo Client roadmap. That's really all I've got on that side of things.
 
 By the way, the spec is one of the nicer specs to read through. It's actually quite clear. It's nice bedtime reading. It's real chill bedtime reading.
 
@@ -288,7 +288,7 @@ By the way, the spec is one of the nicer specs to read through. It's actually qu
 
 A lot of Apollo's open source work now too is really shoring up the projects like Apollo Server and Apollo Client. Apollo Client, for instance - my co-worker on that, the lead architect on the project, Ben, rewrote all of Apollo Client, basically, for a huge 3.0 release that changed a lot of how we were doing caching on the frontend. It used to be a little bit more of a manual thing; now you can declare things a little bit more declaratively, and it's very nice... So that's sort of where our focus has been. Less on, I would say, pushing the GraphQL spec to certain places and more on making sure that if you wanna work with GraphQL, we're still giving you the best experience possible.
 
-**Amal Hussein:** \[00:43:09.17\] Yeah, it's very much like a Ferrari experience, I would say, Apollo Client. It's like, lots is in there. I mean, my only feedback to you all would be consider breaking it apart; doing the Lodash thing and letting people import certain modules... Because I think people don't use all of it, and then there's just a lot of bloat sometimes, if you're trying to be conservative with your bundle size. That's my only gripe with it, but... It's pretty impressive.
+**Amal Hussein:** \[43:09\] Yeah, it's very much like a Ferrari experience, I would say, Apollo Client. It's like, lots is in there. I mean, my only feedback to you all would be consider breaking it apart; doing the Lodash thing and letting people import certain modules... Because I think people don't use all of it, and then there's just a lot of bloat sometimes, if you're trying to be conservative with your bundle size. That's my only gripe with it, but... It's pretty impressive.
 
 **Jenn Creighton:** There was some work done on that in 3.0. You can import specific things in 3.0 and leave a bunch of stuff out...
 
@@ -348,6 +348,6 @@ Apollo Client as an open source project is really difficult to dig into... So by
 
 Alright, take care, y'all. This is Kball, signing out!
 
-**Outro:** \[00:46:30.12\]
+**Outro:** \[46:30\]
 
 **Horse JS:** Hey, JS buds. I know lots of you have had some "moments".

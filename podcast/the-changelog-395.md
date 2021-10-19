@@ -12,7 +12,7 @@
 
 So while I was ultimately the person in charge of all technology still in that role, we have transitioned and split the two duties, so that I now exclusively look at Horizon 3 - is what we call that in the office of the CTO - type things, and we have somebody else who runs day-to-day product or day-to-day engineering or day-to-day security... And I have transitioned those duties to those folks, and now I'm looking exclusively at Horizon 3.
 
-**Jerod Santo:** \[00:04:16.15\] I would love to ask you what Horizon 3 looks like, but I'm not sure if you wanna talk about that, or if you know exactly what it looks like.
+**Jerod Santo:** \[04:16\] I would love to ask you what Horizon 3 looks like, but I'm not sure if you wanna talk about that, or if you know exactly what it looks like.
 
 **Jason Warner:** There's a lot of unknown. The way I look at this, if you think about Horizon 1, 2 and 3...
 
@@ -44,7 +44,7 @@ Horizon 2 is probably pretty well known, but not maybe fully baked yet... But le
 
 **Jason Warner:** I do... Way back in the day I used to joke about this. I had a Yahoo! notebook, I had a Google notebook, I had a Salesforce one when I was there, and then i gave up on that one after I left... I had a Microsoft one before I joined; I still keep a Microsoft one. I do think about other companies a lot. The ones I really think about though are the mid-to-late stage startup companies...
 
-**Jerod Santo:** \[00:08:01.02\] Such as...
+**Jerod Santo:** \[08:01\] Such as...
 
 **Jason Warner:** A good one would be Hashi at the moment. Hashi is in our space, kind of equivalent to us. I've got a lot of friends over there, I know their product well... But what might they want to be doing in the future, what's the vision look like, where could it be... I do it a lot, because 1) it's fun. It's one of those things that I like to do. The other is I try to imagine myself, if I'm the CEO coming into that company now, what would I do, and why? And the why part is really important, because that helps you get better at honing the gut instinct or some of the data amalgamation. If you can articulate the why, I think you can do a stellar job at that. So in some ways it's my version of practicing for a future role.
 
@@ -70,7 +70,7 @@ Well, GitHub very clearly went from code, to build, to ship. And - well, what do
 
 So if it comes down to that it's a feature, or it's a nice-to-have, or it's a shiny button type of scenario, that is not what we're after. We're after something that completely changes it again. It either takes software from level A and levels it up entirely to level B - that's what we want to do.
 
-\[00:12:01.27\] So when ideas come to us, is this basically worth our time to go look at this? Will this change everybody at once? Will this change the industry? Will this make something x% easier - or x times easier, which is actually what were after - or x times better? That sort of scenario. That's how we have to think. And the truth is that most things that people come up with are friction-reduction ideas. "This thing is hard" or "This is hard" or "This is awkward", but that's not what we're after. We're not after minor percentage change friction-reduction if we wanna change everything. The minor change friction-reductions are incredibly important to GitHub, but that's what Horizon 1 and 2 are for.
+\[12:01\] So when ideas come to us, is this basically worth our time to go look at this? Will this change everybody at once? Will this change the industry? Will this make something x% easier - or x times easier, which is actually what were after - or x times better? That sort of scenario. That's how we have to think. And the truth is that most things that people come up with are friction-reduction ideas. "This thing is hard" or "This is hard" or "This is awkward", but that's not what we're after. We're not after minor percentage change friction-reduction if we wanna change everything. The minor change friction-reductions are incredibly important to GitHub, but that's what Horizon 1 and 2 are for.
 
 **Adam Stacoviak:** What's a good example then? ...if you can hypothesize what a Horizon 3 might be. Is there anything fictitious...?
 
@@ -108,7 +108,7 @@ But we've been along for the ride, as this podcast has existed pretty much the s
 
 **Adam Stacoviak:** Our friends, essentially. \[unintelligible 00:15:51.13\]
 
-**Jerod Santo:** \[00:15:53.25\] Yup. And very happy to just kind of ride the open source wave alongside y'all... I'm curious what your high-level - or even tactical advice - to people who are maybe in a small business/technology company that has a trajectory similar to GitHub's, and they're like "Wow, I'm overwhelmed by all these customers, all these features... I've gotta hire real fast, we've overwhelmed", maybe the website's down... In that milieu, how do you succeed, what do you tell people?
+**Jerod Santo:** \[15:53\] Yup. And very happy to just kind of ride the open source wave alongside y'all... I'm curious what your high-level - or even tactical advice - to people who are maybe in a small business/technology company that has a trajectory similar to GitHub's, and they're like "Wow, I'm overwhelmed by all these customers, all these features... I've gotta hire real fast, we've overwhelmed", maybe the website's down... In that milieu, how do you succeed, what do you tell people?
 
 **Jason Warner:** Well, first - congratulations. If you're in that sort of scenario, just enjoy it.
 
@@ -138,7 +138,7 @@ A good example of this is GitHub in the early days talked very much about a flat
 
 **Jason Warner:** Yeah. I think I'll talk about that. But one of the main things I do talk about is the most critical thing for nailing startups and growth - it's communication... Communicating out what maybe a long-term vision and mission for the company is, what's important right now and why, what our principles are, what our values are, how we're going to measure success, and then how you're going to organize yourself to do those sorts of things. That itself is kind of the art of companies in general, and scaling organizations... And I've learned that through engineering, because engineering is usually one of the first places you have to really, really meticulously organize yourself... Otherwise you can't get anything done. And companies themselves had that same struggle, you just don't know it nearly as well; you can't feel it as ethereally as you can in engineering.
 
-**Jerod Santo:** \[00:20:21.14\] It seems like most companies start off maybe with a vision, or maybe with a mission, but often not both, or not much clarity. There's a lot of just iteration and testing. Is this a thing the market will -- you know, trying to find product-market fit, and it's just like "We're trying to figure out something that's gonna be a business, or that people are gonna wanna buy", or whatever it happens to be.
+**Jerod Santo:** \[20:21\] It seems like most companies start off maybe with a vision, or maybe with a mission, but often not both, or not much clarity. There's a lot of just iteration and testing. Is this a thing the market will -- you know, trying to find product-market fit, and it's just like "We're trying to figure out something that's gonna be a business, or that people are gonna wanna buy", or whatever it happens to be.
 
 Are you saying that you should have this mission and vision day one, or are you saying once you find product-market fit -- like, you need to figure this out eventually. Again, the timing on this is interesting, because sometimes the advice is "Just head West", like "Well, you've gotta just start building the thing." But then you can also just get lost in the middle of the Midwest and never make it over to the gold rush.
 
@@ -176,7 +176,7 @@ The best example that might be in our market is - well, they were much bigger th
 
 **Adam Stacoviak:** So how do you then really define hyper-growth then? Is it simply you've found fit, and you kind of see some semblance of a market, but now you know that that market where you're at currently is nowhere near where you could be, so hyper-growth is know exactly where you've gotta go, and grow as fast as possible to achieve that mass?
 
-**Jason Warner:** \[00:24:20.00\] I think with hyper-growth what it really comes down to is it's much easier to understand when you're in a SaaS model, that if you wake up every day and you see some number somewhere ticking, basically kind of like passive income style - where you don't have to do any customer acquisition, any customer development; it's kind of just coming to you organically - you're likely in either the start, or already hyper-growth mode, in terms of your product take-off. And that's really what it's about. I don't think hyper-growth should be about scaling your organization per se; it should be that your product is ready to kind of go off on its own. It hit some sort of exit velocity from you having to manifest it into the market. The awareness shift happened.
+**Jason Warner:** \[24:20\] I think with hyper-growth what it really comes down to is it's much easier to understand when you're in a SaaS model, that if you wake up every day and you see some number somewhere ticking, basically kind of like passive income style - where you don't have to do any customer acquisition, any customer development; it's kind of just coming to you organically - you're likely in either the start, or already hyper-growth mode, in terms of your product take-off. And that's really what it's about. I don't think hyper-growth should be about scaling your organization per se; it should be that your product is ready to kind of go off on its own. It hit some sort of exit velocity from you having to manifest it into the market. The awareness shift happened.
 
 Maybe a popular example might be a Superhuman, the email client; it may be - what, 18 months ago? So before - I might have that timeline wrong, but there was a period of time where it was under the radar, but some people used it and had it, but then for whatever reason there was this VC moment where every VC was talking about Superhuman and the way that was happening. Well, that was their kind of hyper-growth moment; they were able to raise a crap-ton of money off of that, they were able to do a whole bunch of stuff. Now, they didn't scale their organization past that there, but their production adoption number went off the roof.
 
@@ -194,7 +194,7 @@ But on the flipside, you've got other types of businesses that are very classica
 
 **Jason Warner:** I like to look at data from the data-informed side, as opposed to the data-dictated decision-making side. I think it's easy because of my seat in the business, and it's not -- I don't run a government, I don't run a hedge fund... I don't run a lot of things in life, so maybe my advice explicitly is for software companies, and particularly ones where you're serving a wide audience, too. A good example would be here that GitHub serves every developer in the world. That means infrastructure developers, that means JavaScript developers, that means Salesforce developers. None of them are going to need all of the features that GitHub will release; none of them are going to ask specifically for a certain set of things.
 
-\[00:28:16.14\] So we have to intuit a lot from disparate pieces of data, or feedback, or even positive and negative criticism... And we have to kind of use what we think as well from that. So that's what I mean by "trust your gut" in some of these, as opposed to be exclusively led by the data.
+\[28:16\] So we have to intuit a lot from disparate pieces of data, or feedback, or even positive and negative criticism... And we have to kind of use what we think as well from that. So that's what I mean by "trust your gut" in some of these, as opposed to be exclusively led by the data.
 
 Another good example of this - and I'll use one from GiHub's history - is GitHub did not build CI for a long time. I had that decision at one point to make while it was pre-acquisitioning GitHub as well, and a lot of people wanted us to build CI. A lot of people did. But we looked at it and we said "We can't afford to build CI, because it is such a COGS suck for us." But we could change the notion, we could skip it; skip the build step and go right to deploying workflows, and give them a pseudo-ability to do CI. It won't be the full solution, but it'll be enough where the really forward-looking people can understand what we're hat-tipping what we're going to build in the future... But we're not going to do that right now.
 
@@ -230,13 +230,13 @@ I think it put those folks -- not on notice, because that would be the wrong ter
 
 **Jerod Santo:** It was. But what does it not need?
 
-**Jason Warner:** \[00:32:01.09\] It doesn't need the same long-lived tasks that certain builds need.
+**Jason Warner:** \[32:01\] It doesn't need the same long-lived tasks that certain builds need.
 
 **Jerod Santo:** Okay...
 
 **Jason Warner:** So you could do essentially -- think of it as the original GitHub Actions that we built was more of a functions-based solution, whereas this one has to be more like long-lived tasks... Kind of a different architectural approach.
 
-**Break:** \[00:32:27.13\]
+**Break:** \[32:27\]
 
 **Jerod Santo:** So Jason, you mentioned that you had these notebooks with plans of what companies should do over the next n years, five years or so... And what we've just learned during the break is that you actually had a GitHub notebook. So you've talked about your notebooks for other companies, but you had a GitHub notebook, and it seems like it was somewhat \[unintelligible 00:34:20.00\] Can you tell us the story of your GitHub notebook and what was in there?
 
@@ -248,7 +248,7 @@ I think it put those folks -- not on notice, because that would be the wrong ter
 
 That didn't work out, so I just kept iterating on my notebook, because I said "What would I do if I had GitHub? What would I do? GitHub sits in the most interesting market position in software development... What would I do?" That goes from a product perspective, but then you have to take into account the company's maturity, and the leadership's maturity and other things, too... So I just kind of put together a couple-year plan on what I would do. One of my favorite artifacts from that time - I will not lose that notebook; it's sitting in my library, and I am going to keep it out on the shelf, always.
 
-\[00:35:58.15\] The fun story with that one is I had in that notebook, June of -- I think it was 2019 I put it on there; I said get acquisition offer. I had it circled several times with a star next to it. Not that we would take an acquisition offer, that's not the goal. But to get an actual, legitimate, at-our-value acquisition offer - gotta think about that as a goal, because we wanna drive the perceived value of the company to that point, where we need it. And I'm pretty happy with that.
+\[35:58\] The fun story with that one is I had in that notebook, June of -- I think it was 2019 I put it on there; I said get acquisition offer. I had it circled several times with a star next to it. Not that we would take an acquisition offer, that's not the goal. But to get an actual, legitimate, at-our-value acquisition offer - gotta think about that as a goal, because we wanna drive the perceived value of the company to that point, where we need it. And I'm pretty happy with that.
 
 **Adam Stacoviak:** You were in the role of senior vice president of technology at that point, right?
 
@@ -296,7 +296,7 @@ Essentially, between myself, the head of sales, and the CFO, we were running eve
 
 **Jason Warner:** We did not do the champagne thing... However, there was a moment. The head of sales - he's a good friend of mine now. He's since retired and he's moved to Chicago. He and his husband are there with their kids... And we had a thing; he said "Hey, if you're able to pull this off, I'm gonna take you and your family to Hawaii." So just "Hawaii-Hawaii-Hawaii" became a thing with us. And there was a moment when I looked at him and he looked at me, and we just kind of said "Hawaii!" It was that moment for us, it was that kind of emotional thing... And it felt ridiculous; it felt amazing. We couldn't believe we were able to do it.
 
-\[00:40:21.14\] You know the grind of running a company... Particularly one that you're trying to help along out of certain things, let's just say, and when you're able to see that done. But acquisition offers are hard. There was a long period of time between getting the offer, signing the letter of intent, and closing the deal. It was a long time. Long. We had to go through a lot of diligence.
+\[40:21\] You know the grind of running a company... Particularly one that you're trying to help along out of certain things, let's just say, and when you're able to see that done. But acquisition offers are hard. There was a long period of time between getting the offer, signing the letter of intent, and closing the deal. It was a long time. Long. We had to go through a lot of diligence.
 
 **Adam Stacoviak:** Nine months, right? Was it roughly nine months or more?
 
@@ -328,7 +328,7 @@ So to just go from there, in the mid-'90s to a 7,5 billion-dollar transaction th
 
 **Adam Stacoviak:** That's not true though, unless you can find yourself (let's say) 15 billion dollars and you can own it. It's not that hard, right?
 
-**Jerod Santo:** \[00:43:52.08\] \[laughs\]
+**Jerod Santo:** \[43:52\] \[laughs\]
 
 **Adam Stacoviak:** It could one day be yours, Jason.
 
@@ -356,7 +356,7 @@ So here's what I encourage... I do talk to a lot of early and younger engineerin
 
 **Adam Stacoviak:** Well, that's to some degree visible, I suppose, in GitHub, because earlier on GitHub was run in many ways just simply by engineers. As we were on that subject earlier, I was thinking in terms of what got GitHub to where it was at - it was more like those things, in terms of this flat culture, "It got us here, but it's not what's gonna get us there." And the "there" is that 7.5 billion dollar acquisition.
 
-\[00:47:50.11\] So in many ways, you needed that mindset of engineers running things to get GitHub to where it needed to be, to get to where it needed to go. So past that position, you get to that -- there's only so far, I suppose... And that's not unanimous, but your aspect of sales, engineers, that kind of thing, and leading and running - I know many engineers, Jerod being one of them, he's very smart... And at the same time there's another side of the spectrum that can lead well as well... And engineers sometimes have this whole back, I suppose; I don't know how to describe it, but there's something that others can do maybe better, to some degree, like you're saying.
+\[47:50\] So in many ways, you needed that mindset of engineers running things to get GitHub to where it needed to be, to get to where it needed to go. So past that position, you get to that -- there's only so far, I suppose... And that's not unanimous, but your aspect of sales, engineers, that kind of thing, and leading and running - I know many engineers, Jerod being one of them, he's very smart... And at the same time there's another side of the spectrum that can lead well as well... And engineers sometimes have this whole back, I suppose; I don't know how to describe it, but there's something that others can do maybe better, to some degree, like you're saying.
 
 **Jason Warner:** I think this is one of those things that we see in the industry, which is if you basically grow up through the engineering ranks, in a lot of companies, particularly late '90s, early 2000's companies, you would have one career track, which was you either management or an engineer; or IC, but engineer, specifically.
 
@@ -368,11 +368,11 @@ There's a couple of engineers that I know -- obviously, many engineers I know th
 
 I was an average developer, but I was a better team lead, and a much better architect, and a much better director, and an excellent VP, and it just keeps going up - because what happens is I'm a generalist, and the purview changes. And as you can be more general and you have a large purview, and you can hold all that information in your head - that skillset is augmented. Some engineers - and particularly the really talented and technical ones - that would be a torture job for them. But what they really like to do is they like to build the systems, and they're excellent at that, and we should liberate both sides of those engineering systems.
 
-**Break:** \[00:50:09.28\]
+**Break:** \[50:09\]
 
 **Jerod Santo:** So one of the things we're guaranteed in the software industry is change, and things have changed over the years at GitHub... And things have changed quite a bit drastically not just industry-wide, but worldwide, in the last couple of months. GitHub has always had an HQ - I've always enjoyed visiting the GitHub HQ - but also remote workers. I'm just curious what the Covid-19 quarantine has done for GitHub in terms of logistically running the business, but also scaling teams, and engineering, and some of the changes y'all have had to go through, or haven't had to go through because of the way it works. Let us know how this has affected GitHub and the engineering teams.
 
-**Jason Warner:** \[00:51:53.10\] I think for the most part at GitHub not much has really changed. About 70% of all of GitHub was remote or distributed, or is remote and distribute. Now obviously 100% of it is. If anything, I think what has changed is there is a set of people who had never worked outside of HQ, including a lot of the exec staff. Now they have, and they are... And so interestingly, I think that they're coming to realize that they themselves can do it, and not have a loss of efficiency.
+**Jason Warner:** \[51:53\] I think for the most part at GitHub not much has really changed. About 70% of all of GitHub was remote or distributed, or is remote and distribute. Now obviously 100% of it is. If anything, I think what has changed is there is a set of people who had never worked outside of HQ, including a lot of the exec staff. Now they have, and they are... And so interestingly, I think that they're coming to realize that they themselves can do it, and not have a loss of efficiency.
 
 Now, there is Zoom fatigue, and certain things are harder, or maybe slightly easier to do in office... But it's possible. And when it's possible, then you talk about what you want to do, and that I think is an interesting conversation, because I think many people in the industry - executives in particular, and then really particular VCs thought "You can't do it. The best software is always developed in-office, with a team, in San Francisco. Fight me on it. You're never gonna convince me."
 
@@ -390,7 +390,7 @@ And now all of a sudden all their tunes have changed; everybody's tune has chang
 
 **Jerod Santo:** That's a balance though, because I like the idea of merging more of my life into my work, but I don't like the idea of merging more of my work into my life. I still want there to be a separation, at times at least. To me, blending is like "Am I working? Am I living? I don't even know." It's all one big bubble of life, and I think that's hard to sustain. I think maybe that is beneficial in the short-term, but over the long-term can really drain you.
 
-**Adam Stacoviak:** \[00:55:58.17\] Well, the specifics on the blend vs. the balance is more around -- like, I still believe in the times, so 9-to-5 I think there's a time constraint. You still have that balance of that. I don't ever wanna be working outside of this room, so that's the balance... But the blend is sort of like I can take 45 minutes in the afternoon if I'm having let's say a frustrating morning, or something like that. Or maybe a great morning, and go celebrate. Go to lunch instead. And maybe now it's a little different with going to lunch, because maybe it's lunch out in my kitchen, versus lunch in a nearby restaurant, or something like that.
+**Adam Stacoviak:** \[55:58\] Well, the specifics on the blend vs. the balance is more around -- like, I still believe in the times, so 9-to-5 I think there's a time constraint. You still have that balance of that. I don't ever wanna be working outside of this room, so that's the balance... But the blend is sort of like I can take 45 minutes in the afternoon if I'm having let's say a frustrating morning, or something like that. Or maybe a great morning, and go celebrate. Go to lunch instead. And maybe now it's a little different with going to lunch, because maybe it's lunch out in my kitchen, versus lunch in a nearby restaurant, or something like that.
 
 But the blending is more just on the lines of like rather than trying to balance the two, why not blend the two. But I do understand what you mean, Jerod; the blending can only go so far, until you have to start to have harm.
 

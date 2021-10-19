@@ -12,7 +12,7 @@ I was on a phone call -- I sat in on a conference call with a Fortune 50 company
 
 **Ryan Singer:** It's interesting, it does expose different weaknesses or sort of highlights the areas where people are struggling. So there's been folks who've reached out and say "This has alerted us to quality problems that we didn't know we had, in terms of performance of the programmers." There's other teams that have said "We sort of unlocked the potential of our programmers now, and everyone's killing it in a way they weren't before."
 
-\[00:03:50.14\] Other people - it starts to reveal issues on the leadership side, where it's like "Oh, we tried Shape Up, but we were having a hard time getting everybody at the betting table to align with each other." And then you also see the opposite, where people say like "Finally, we feel like we're steering the company, instead of just asking for stuff and crossing our fingers and hoping it gets done eventually." So in a way, it mirrors what's working and what's not working in the org structure.
+\[03:50\] Other people - it starts to reveal issues on the leadership side, where it's like "Oh, we tried Shape Up, but we were having a hard time getting everybody at the betting table to align with each other." And then you also see the opposite, where people say like "Finally, we feel like we're steering the company, instead of just asking for stuff and crossing our fingers and hoping it gets done eventually." So in a way, it mirrors what's working and what's not working in the org structure.
 
 **Adam Stacoviak:** Yeah. You get to see relationally who's missing from the table, so to speak, even.
 
@@ -38,7 +38,7 @@ I was on a phone call -- I sat in on a conference call with a Fortune 50 company
 
 So already even just kind of in the traditional doing shaping for a product that is already up and running, we aren't really addressing those more open strategy questions about what to shape. That's something that the book deliberately doesn't get into, because that's a whole other book... And it's a fascinating subject, and it's something I've been really thinking a lot about and working a lot with lately, because I'm working on a lot of new projects for BC4 right now; a very, very early version of the next version of Basecamp. So that's been at the top of my mind.
 
-\[00:08:20.20\] What's different about working on a new product versus an existing product is that even if you take the strategy piece out of it, and you take all the questions about revenue, and business model, and the stuff that you raised - even if you take all of that out of it, until you have something that's standing, where the key pieces of functionality are built and they're running in code, and that architecture is there... Before you have that, it's just way too open-ended. The first commits to a totally new piece of software - you know how you just end up throwing all that stuff away. You totally change the schema, you significantly change certain model relationships, even stupid stuff -- stuff that you think is a one-to-one becomes a one-to-many... There's fundamental things in the architecture that you have to figure out.
+\[08:20\] What's different about working on a new product versus an existing product is that even if you take the strategy piece out of it, and you take all the questions about revenue, and business model, and the stuff that you raised - even if you take all of that out of it, until you have something that's standing, where the key pieces of functionality are built and they're running in code, and that architecture is there... Before you have that, it's just way too open-ended. The first commits to a totally new piece of software - you know how you just end up throwing all that stuff away. You totally change the schema, you significantly change certain model relationships, even stupid stuff -- stuff that you think is a one-to-one becomes a one-to-many... There's fundamental things in the architecture that you have to figure out.
 
 And what happens is when you're doing a completely new product, there's just so much scrap that if you try and delegate it away to a team, you're going to find out in week one, like "Oh, wait a minute. That's not the right way. That's not what we want." So there's this phase that we call the R&D phase, that comes before the production phase. The production phase is where I've got the architecture there, the main pieces of how this thing hangs together in terms of the schema, the model, the key functions - those things are all there. It's like the pillars are there, and now it's more about "How do we fill in all the details and all the extra functionality that we want?" But those load-bearing pillars - they have to be there before you can delegate projects to other people... Or even to yourself if you're a really small team, to make that promise to yourself of like "I'm gonna build this feature next, and I'm sure that I'm gonna be able to get to the end of it and it's gonna be done the way that I think it's gonna be from the beginning." You can't just do that if it's totally open-ended.
 
@@ -46,7 +46,7 @@ So in the R&D phase, the first phase of a new product, we actually have to mix s
 
 So he'll be really involved, and then Jason - or in the case of HEY we had another designer Jonas, who's one of our more senior designers, who is working basically in tandem with Jason and David... And the three of them were building a little bit, and then throwing it out, and then building a little bit and then throwing it out, and trying this and trying that... And they did that for a few cycles. So there wasn't any clear shaping other than "This is what we think we wanna pursue." There was an appetite, in the sense of like "We're gonna spend six weeks exploring this area, but we don't really know what's gonna come out of it." And that's very different than straight Shape Up.
 
-**Adam Stacoviak:** \[00:12:08.23\] Well, especially R&D - it's like, you're almost exploring anyways with R&D. You're kind of expecting to throw things away. You're not expecting to have rigidity in your process; you're expecting free-flow... You kind of want no boundaries, in a way...
+**Adam Stacoviak:** \[12:08\] Well, especially R&D - it's like, you're almost exploring anyways with R&D. You're kind of expecting to throw things away. You're not expecting to have rigidity in your process; you're expecting free-flow... You kind of want no boundaries, in a way...
 
 **Ryan Singer:** Exactly.
 
@@ -74,7 +74,7 @@ But then what happens is after -- I don't know, maybe sometimes two, sometimes t
 
 **Jerod Santo:** Anyways, whoever flags the actual location for the house, flagged it off by like 15 feet. And then the builder came and dug a hole, and then they poured the foundation, and then they realized. "We've put it in the wrong place."
 
-**Ryan Singer:** \[00:16:02.27\] Oh, man...
+**Ryan Singer:** \[16:02\] Oh, man...
 
 **Jerod Santo:** And at that point, it's very expensive to fix that problem. So you've gotta get your foundation right. And side note - they came to my brother and sister and said "Hey, can we just give you a discount and leave the house there?" And they said "Nope. That's not where the house was scoped to go, so you're gonna need to tear out all the concrete, dig a new hole, and put the foundation in where it's supposed to go."
 
@@ -96,7 +96,7 @@ But then what happens is after -- I don't know, maybe sometimes two, sometimes t
 
 **Ryan Singer:** But if you look at the software in terms of what does it do for users, and what does it do for customers? You can segment in terms of primary functions and secondary functions. For example, Basecamp has a feature to tweak whether or not you get your notifications via email or you just get them in-app. It's not a primary feature of Basecamp. People don't buy Basecamp because they're gonna go change a notification setting, right? The primary features of Basecamp have to do with enabling people to know the same information that used to be scattered in different places. For example, the way that a group of people can all access the same to-do list and see the same thing is a primary function of Basecamp. Or the fact that you can post a message and a predefined group of people is all gonna get notified of that message, and that message is gonna be accessible within this sort of accessibility sphere that these people are all part of - that's super-fundamental. And any feature we add to (let's say) a Basecamp project is gonna depend on that mechanism of who can see what in a project, and what is a project, as a collection of data with access rules around it. That's really the core.
 
-\[00:19:54.17\] So David designed a model that's part of Basecamp 3, which is what we call bucket access. Bucket is the abstraction of a project, and access is the way that we relate users to buckets. And there's some serious concrete there, because we've made certain trade-offs early on in the design that simplify the design for the use cases we cared about, that as a consequence cut off all kinds of other options. For example, access in Basecamp is all based on the assumption that everybody sees the same thing. And anytime you want to make a custom rule that "This person on this project can see this, but this person can't", you completely run your face up against the -- it's like, you're grinding your nose against the grain of the concrete. It does not want you to do that. \[laughter\]
+\[19:54\] So David designed a model that's part of Basecamp 3, which is what we call bucket access. Bucket is the abstraction of a project, and access is the way that we relate users to buckets. And there's some serious concrete there, because we've made certain trade-offs early on in the design that simplify the design for the use cases we cared about, that as a consequence cut off all kinds of other options. For example, access in Basecamp is all based on the assumption that everybody sees the same thing. And anytime you want to make a custom rule that "This person on this project can see this, but this person can't", you completely run your face up against the -- it's like, you're grinding your nose against the grain of the concrete. It does not want you to do that. \[laughter\]
 
 That's the kind of thing where if we wanted to have finer-grained permissions of who can see what within a project, we would have to significantly rethink that... And it's not -- it goes back to just the dependency analysis of if you look at the graph of what depends on what, what is a project and what is access, and how do we define that in terms of the model and the code, that's really low in the system.
 
@@ -122,7 +122,7 @@ That's the kind of thing where if we wanted to have finer-grained permissions of
 
 I think the velvet rope case that you're pointing out is really important too, but it's a very different type of risk. It's not a risk that the team is going to run into a scope explosion. The risk is that they're gonna successfully ship it, and then we're gonna end up in a market position that we didn't wanna be in, serving people that we didn't intend to serve, or getting feedback that doesn't relate to the core of how we make money, or that kind of a thing.
 
-**Adam Stacoviak:** \[00:23:53.01\] Right. That foundation is the DNA of Basecamp, right?
+**Adam Stacoviak:** \[23:53\] Right. That foundation is the DNA of Basecamp, right?
 
 **Ryan Singer:** Yeah.
 
@@ -150,7 +150,7 @@ There was a feature I came up with which was a pretty substantial, kind of new, 
 
 **Ryan Singer:** It's not part of a software project, it's not part of a repo, it's like this stashy kind of a thing. Anyway, it doesn't matter. It's gonna drive me crazy; I'm gonna end up looking up, like 'What is this thing called?"
 
-**Adam Stacoviak:** \[00:28:07.05\] We'll put it in the show notes. You'll figure it out.
+**Adam Stacoviak:** \[28:07\] We'll put it in the show notes. You'll figure it out.
 
 **Ryan Singer:** \[laughs\] Anyway.
 
@@ -196,7 +196,7 @@ There was a feature I came up with which was a pretty substantial, kind of new, 
 
 **Ryan Singer:** So that's a huge part of it - what are we trying to do, and does the thing that we're trying to do actually require a new chassis or not? And how valuable is it? Is it so valuable that we're willing to do this crazy thing of pouring new concrete and building a new chassis? That was true for 2 and 3.
 
-\[00:31:57.11\] Actually, we don't believe that's true for 4, as of where we are right now. David recently shared this new pattern called delagatable type, and it's at the core of BC3. I mentioned that we've got this thing called a bucket, which is an abstraction of a thing that people have access to... And a bucket is a team, it's a project, it's the HQ, it's a circle of people who are all on the same ping, which is like a direct message.
+\[31:57\] Actually, we don't believe that's true for 4, as of where we are right now. David recently shared this new pattern called delagatable type, and it's at the core of BC3. I mentioned that we've got this thing called a bucket, which is an abstraction of a thing that people have access to... And a bucket is a team, it's a project, it's the HQ, it's a circle of people who are all on the same ping, which is like a direct message.
 
 There's a bunch of different things that are buckets because they have access, but the way that's implemented is that you have a bucket, which actually is just basically an ID and a way to relate the users to this thing. It's just kind of a nexus of relationships, but it has no content. And the actual content - the name of the project, and the description of the project, and stuff like that is actually on what's called a bucketable. So a bucket has a bucketable. And the bucketable is actually an immutable thing that is kind of the value of the bucket.
 
@@ -212,7 +212,7 @@ We look at the code for BC3 and we're like "This is awesome. We love this. This 
 
 And then we look at the things we wanna do, that seem hard or maybe divergent in BC4, and none of them are running in conflict with this architecture. So we're heading down a path right now for BC4 where actually we think it's gonna be the first major new version we've ever done, that completely stays on the same platform, and the existing customers will actually get all the changes.
 
-**Break:** \[00:35:36.10\]
+**Break:** \[35:36\]
 
 **Adam Stacoviak:** I came across this word on your Twitter recently, "longitudinally". You said good design requires thinking longitudinally. Now, it's a hard word to even say it, let alone grok what it means, so where's your headspace with this?
 
@@ -228,7 +228,7 @@ And then we look at the things we wanna do, that seem hard or maybe divergent in
 
 **Jerod Santo:** Long walks on the beach.
 
-**Ryan Singer:** \[00:39:38.00\] It's a snapshot, and it's just a clump of attributes. There's no time in there. There's no dynamics in there. There's no movement in there. So rather than knowing that 30% of customers like to eat pizza, what I wanna know is when one person is in the situation that I'm designing for, what needs to happen next? You feel that rotation in your mind, it's like a 90-degrees turn from looking at a whole bunch of attributes that are frozen, to following a path forward down a vector. And that's a huge shift. So when we talk about longitudinal, we talk about following individuals over time, and it's a big mindset thing.
+**Ryan Singer:** \[39:38\] It's a snapshot, and it's just a clump of attributes. There's no time in there. There's no dynamics in there. There's no movement in there. So rather than knowing that 30% of customers like to eat pizza, what I wanna know is when one person is in the situation that I'm designing for, what needs to happen next? You feel that rotation in your mind, it's like a 90-degrees turn from looking at a whole bunch of attributes that are frozen, to following a path forward down a vector. And that's a huge shift. So when we talk about longitudinal, we talk about following individuals over time, and it's a big mindset thing.
 
 Now, of course, there is a place for saying "30% is like this, and 20% is like that", but it's not the place that tells you how to make the right thing and how to make it work. So if I identify that there's a specific person that I can be when I'm designing, and say "When I'm in that situation, it's not about their age or their preferences, it's about when --" I always go back to the Snickers story; it's the perfect example. When I miss a meal and my energy is getting low and I have to keep going, what's a way that I can quickly replenish my energy? I grab a Snickers, I eat it, and I'm done, and I'm back to what I'm doing.
 
@@ -258,7 +258,7 @@ Now, of course, there is a place for saying "30% is like this, and 20% is like t
 
 It's about making this mental flip of n of 1, and then following that functionality through time, and thinking of it more in terms of individual threads of cause and effect. That's the kind of headspace that we need to be in to make a design decision.
 
-**Jerod Santo:** \[00:43:51.01\] It seems like a design decision needs to be -- I mean, you need to have a vision, and a vision that is an n of 1 is de facto short-sighted. There's a myopic single point in time that you're designing for, and it's difficult to then take that perspective and design something that has historic implications, or long-lasting implications. I may be thinking about it slightly different than you are, because it seems like you're talking about longitudinal in the small.
+**Jerod Santo:** \[43:51\] It seems like a design decision needs to be -- I mean, you need to have a vision, and a vision that is an n of 1 is de facto short-sighted. There's a myopic single point in time that you're designing for, and it's difficult to then take that perspective and design something that has historic implications, or long-lasting implications. I may be thinking about it slightly different than you are, because it seems like you're talking about longitudinal in the small.
 
 **Ryan Singer:** Yeah, longitudinal is necessarily in the small, because I can't understand -- I can't blur ten people together and then understand anything in terms of cause and effect.
 
@@ -278,7 +278,7 @@ I was scratching my head a few weeks ago, working on this new concept I have for
 
 I'm looking at like 50,000 customers, overlaid onto some cool graph, that looks very impressive, and I'm learning nothing. And then I think to myself, okay, how do I look at this through time? And I pull up a single project from our account, and I just followed the history of events; because we drop events every time anything happens. And I looked at who created the project, when they first invited two other people, what they posted, when they invited a few other people, and then when they invited the whole rest of the company... And by looking at one project, created by one person, all of my questions went away and I had a whole design concept... Because I could see the cause and effect of like "Oh, you don't invite everybody on the first day, because you don't have anything that's ready for everybody else to see." First, you just invite the person that you're collaborating with, but then there's kind of a cover-your-ass factor, and you invite a superior who you want them to know that you're doing this thing, but you're not actually working with them...
 
-**Jerod Santo:** \[00:48:00.26\] Yeah.
+**Jerod Santo:** \[48:00\] Yeah.
 
 **Ryan Singer:** And then you reach a point where you get a few tasks done, you get a few other things done, and now you have something to announce. And now it's like "Okay, I've gotta bring everybody else in, so they can see this thing that's done, that's ready for them to comment on." So I've got all of these dynamics of how projects evolve, and who you invite, and why, and when, all from just looking at a single thread and a single project. So that maybe gives you a little bit of the intuition behind this way of thinking.
 
@@ -308,7 +308,7 @@ So this is the kind of thing that these higher-level clusters come out... But th
 
 **Ryan Singer:** Like, "I'm gonna give everybody else in the company--" Because we have this habit at Basecamp that we invite everybody in the company to all the projects... And the whole notion - it's about inclusion; we want everyone to be able to know what's going on. But the thing is when I looked at the actual thread, I saw a contradiction immediately, which was that the creator of the project - she invited someone who was working hands-on with her, and she invited two people who weren't at all working hands-on, but who were impacted by it.
 
-\[00:52:25.23\] So all of a sudden I had this real data point in my face of like oh, there's a difference between including somebody because you want them to feel included, which is a kind of social thing, versus including somebody because they need to know, because this impacts a project that they're doing; or you need to get cover from them because they're superior to you, and they need to know that you want them to know that you're working on the right thing... You know what I mean? There's a huge difference there, and that difference is gonna manifest in -- so let's say I knew that one person is given access for purpose of inclusion, and another person was given access because they should actually know what's going on here, right?
+\[52:25\] So all of a sudden I had this real data point in my face of like oh, there's a difference between including somebody because you want them to feel included, which is a kind of social thing, versus including somebody because they need to know, because this impacts a project that they're doing; or you need to get cover from them because they're superior to you, and they need to know that you want them to know that you're working on the right thing... You know what I mean? There's a huge difference there, and that difference is gonna manifest in -- so let's say I knew that one person is given access for purpose of inclusion, and another person was given access because they should actually know what's going on here, right?
 
 **Jerod Santo:** Right.
 
@@ -338,7 +338,7 @@ So this is the kind of thing that these higher-level clusters come out... But th
 
 **Adam Stacoviak:** It doesn't. You don't have enough information...
 
-**Jerod Santo:** \[00:56:08.13\] No shortcuts.
+**Jerod Santo:** \[56:08\] No shortcuts.
 
 **Adam Stacoviak:** So this is the highly-detailed path.
 

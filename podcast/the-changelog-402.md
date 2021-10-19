@@ -6,7 +6,7 @@
 
 **José Valim:** Oh, sure. It feels like such a long time ago, because this year has been so crazy so far... So Nubank - they acquihired Plataformatec; when the whole thing happened -- since it was an acquihire, they were interested in our talent... And it's interesting, because I think for everybody outside Brazil, Plataformatec was really known because of its open source work. Started back in Rails, we've devised a simple form, and then later with Elixir... And that was one of the reasons - we always had a very good technical team, and that was one of the reasons for the acquihire. But in Brazil, Plataformatec was really known because of the way we manage projects, and our "processes"; I'm doing air quotes when I say "processes", but you know, the whole way we would do project management and work with clients... And that was also another very important aspect behind the acquihire. It's actually a part I'm not super-involved, so I don't know how to explain everything we did...
 
-**Jerod Santo:** \[00:04:21.10\] Sure.
+**Jerod Santo:** \[04:21\] Sure.
 
 **José Valim:** In Brazil, when we would work with clients, it was one of the big reasons why they wanna work with us, besides the technology aspect. So yeah, that was basically why it happened. But I think what is more interesting first to talk about from the Changelog perspective I guess is about how does that affect all the open source that we have been doing... Does that make sense?
 
@@ -24,7 +24,7 @@ But yeah, so the whole process - I think it's normal. When there was the acquihi
 
 **Adam Stacoviak:** Sure. How much did the Plataformatec bankroll Elixir development? In the acquisition mentioned by Nubank they say that "We're confident that the language, its contributors and projects will keep growing and developing independently from Nubank", but it kind of depends on how much Elixir was really depending upon funding, or "bankrolling" the language.
 
-**José Valim:** \[00:08:02.27\] Yeah, that's a very good question. Basically, Plataformatec funded me, working on Elixir. Initially it was part-time, when I started back in 2012, but I would say from 2014 or so I have been full-time. So the cost, if you don't factor in the opportunity cost, but the cost would be a developer full-time for like eight years or so. At the end - we can talk about these when we talk about Dashbit - we had more developers working on Elixir, but most of it was me full-time.
+**José Valim:** \[08:02\] Yeah, that's a very good question. Basically, Plataformatec funded me, working on Elixir. Initially it was part-time, when I started back in 2012, but I would say from 2014 or so I have been full-time. So the cost, if you don't factor in the opportunity cost, but the cost would be a developer full-time for like eight years or so. At the end - we can talk about these when we talk about Dashbit - we had more developers working on Elixir, but most of it was me full-time.
 
 And that's the thing... One of the things that I have always been careful - and all of my co-founders, we agreed with this decision since the beginning - is that it cannot be seen as a company effort. We always need to have the community involved since the beginning. So Plataformatec was sure -- we were the creator, the catalyst, but as soon as it didn't depend on us, on Plataformatec as a company for the language to evolve, that would be the best... What I like to say is it's not the best way to think about it, but just as an example, if you think about programming languages today, and programming languages "competing" for market share (I'm doing air quotes again), we're talking about like Swift from Apple, Rust from Mozilla, Go from Google, F\# for Microsoft... So how can a company that had 70-80 employees compete at this level?
 
@@ -60,7 +60,7 @@ I think there's a recent -- I haven't seen it, but there's a recent documentary 
 
 **Jerod Santo:** I think he's actually taller... \[laughter\] Regardless, they were definitely a one-two punch... And Jordan was the superstar, but Scottie Pippen was the glue.
 
-**José Valim:** \[00:12:14.25\] Yeah, so we can say maybe Jordan did not go, according to your metaphor, but there were like three Scottie going there, and helping them.
+**José Valim:** \[12:14\] Yeah, so we can say maybe Jordan did not go, according to your metaphor, but there were like three Scottie going there, and helping them.
 
 **Jerod Santo:** Okay.
 
@@ -88,7 +88,7 @@ But the other aspect as well is that -- so let's start heading a little bit into
 
 And the thing is that this vision - it has been running inside Plataformatec since 2018. So in 2018 basically I had a conversation with my co-founders.
 
-\[00:16:15.16\] We had been investing in Elixir - mostly me - for six years (since 2012 to 2018) and I would love to have more people working on Elixir together. That would be fantastic. That's something we always tried, but it's always hard to make that dynamic work in a consultancy... Because what you do - maybe somebody is outside of a project for two months, and then they can do open source, but then they need to go back to a project, so what about the work that they worked on two months. So it requires more long-term investment.
+\[16:15\] We had been investing in Elixir - mostly me - for six years (since 2012 to 2018) and I would love to have more people working on Elixir together. That would be fantastic. That's something we always tried, but it's always hard to make that dynamic work in a consultancy... Because what you do - maybe somebody is outside of a project for two months, and then they can do open source, but then they need to go back to a project, so what about the work that they worked on two months. So it requires more long-term investment.
 
 When we launched Elixir development subscription it was like "Can we think of a way that we can help companies adopt Elixir, and that can be a kind of recurrent revenue for us to continue investing in open source, and for us to grow our team?" So this experiment has started inside Plataformatec, and it worked out well. It started only with me, and then Wojtek joined our team. Wojtek worked on Ecto, a way to communicate with the database in Elixir. He works on the Hex package manager... And then later, Marlus joined my team. Marlus has evolved things like the ElixirSense, which is like if you're using Elixir and you use an editor, and you have autocompletion, ElixirSense helps with that. So we were able to grow the team and we were able to multiply a lot what we have been producing in terms of open source since this effort started.
 
@@ -98,7 +98,7 @@ So I would do that, and then I would give the feedback, I would write a report, 
 
 So we started this inside Plataformatec. When Plataformatec - the acquihire process started, and I just could not announce at the time... That's why I said in the blog post that I will continue to be involved in the same way, because I knew that me and my team, Marlus and Wojtek, we would just -- you know, we already have the infrastructure running, we already have everything running, and we are just going to put up a new front, and everything inside that shop, everything is how it was working before, and we would continue to be working with our clients and we would continue to be involved in open source.
 
-**Break:** \[00:19:19.18\]
+**Break:** \[19:19\]
 
 **Jerod Santo:** So the Elixir development subscription, which was created inside Plataformatec, really becomes the major first feature of your new company, Dashbit, with your two collaborators. Is it pretty much the exact same thing? And did you also get to take over existing clients as part of the shift over to Dashbit, get a leg up because you had some people already doing this, or did you have to start from scratch?
 
@@ -122,7 +122,7 @@ So yeah, when Dashbit came, it was literally like "Hey, \[unintelligible 00:22:2
 
 **Adam Stacoviak:** I love the goal that's listed here on "Why Dashbit?" The goal is to advance the Elixir ecosystem through continuous adoption and sustainable open source development. That to me - the José I know, that's more your heart than the heart where you're doing consulting; I guess you're still doing that through the subscription, but that goal being an overarching goal of this shift for you is super-cool.
 
-**Jerod Santo:** \[00:24:00.17\] Are there any other setups like this? I mean, we've talked about some of the other popular languages; most are bankrolled by major tech firms... Others are just smaller or more niche, some are started inside a company... This development subscription, and the fact that it could just transition right out of Plataformatec, right into a brand new thing and still be -- I would say, from my perspective as a member of the Elixir community, was like "This doesn't bother me. This doesn't worry me." This didn't bother me.
+**Jerod Santo:** \[24:00\] Are there any other setups like this? I mean, we've talked about some of the other popular languages; most are bankrolled by major tech firms... Others are just smaller or more niche, some are started inside a company... This development subscription, and the fact that it could just transition right out of Plataformatec, right into a brand new thing and still be -- I would say, from my perspective as a member of the Elixir community, was like "This doesn't bother me. This doesn't worry me." This didn't bother me.
 
 A lot of times when there's an announcement like this, it's a shake-up, and people wonder "What's gonna happen?" Even just Npm, acquired by GitHub, like "What's gonna happen?" But from my perspective, I was just kind of like "Oh, cool." You never know with an acquihire - is this a congratulations or an "I'm sorry". I think it was a congratulations here in the story, so congrats to the whole team, and I'm not worried about Elixir's future. That was just my own personal response to the announcement. When you say everybody has been behind you, has that been kind of the community reaction? Has there been any pushback, or worries, or fears stated to you about Elixir's future?
 
@@ -142,7 +142,7 @@ So there was definitely a little bit of pushback, some things that rubbed me the
 
 First of all, tell folks what Broadway is, for those who haven't heard of it... Because it's pretty cool, and we haven't talked about it before. What's this Broadway project?
 
-**José Valim:** \[00:27:42.04\] Yeah, so Broadway is a library for doing data ingestions in data pipelines in Elixir. If you want to consume data from SQS, or RabbitMQ, or Google Cloud Pub/Sub or Kafka in a very efficient way, utilizing all the cores in your machine and doing batching, automatic acknowledgments, all those kinds of things that are expected from a robust data processing pipeline or data ingestion, Broadway is exactly for that.
+**José Valim:** \[27:42\] Yeah, so Broadway is a library for doing data ingestions in data pipelines in Elixir. If you want to consume data from SQS, or RabbitMQ, or Google Cloud Pub/Sub or Kafka in a very efficient way, utilizing all the cores in your machine and doing batching, automatic acknowledgments, all those kinds of things that are expected from a robust data processing pipeline or data ingestion, Broadway is exactly for that.
 
 And you know what's the coolest thing about Broadway? It's how and why we created it. That goes directly to what Adam was saying about the heart of the company... So when we started the subscription - this was still back at Plataformatec - we were working with different clients, and we were using a library called GenStage. So Broadway is built on top of GenStage, and it's called Broadway exactly because it coordinates these stages for you; that's kind of the pun in the name.
 
@@ -170,7 +170,7 @@ We work with big companies, that have more than 100 engineers, so it wouldn't ma
 
 **Jerod Santo:** Like MariaDB, for example...
 
-**José Valim:** \[00:32:01.23\] Yes, another example... And I know there are open source projects where their model for sustainability is based on top of support, as well. So it's definitely there. There are definitely other people doing this. I don't know if there are other people doing the mixture that we do today, which is - it's not really about support, but working with your team, being together in code reviews and participating on decisions. I don't know if there is that mix.
+**José Valim:** \[32:01\] Yes, another example... And I know there are open source projects where their model for sustainability is based on top of support, as well. So it's definitely there. There are definitely other people doing this. I don't know if there are other people doing the mixture that we do today, which is - it's not really about support, but working with your team, being together in code reviews and participating on decisions. I don't know if there is that mix.
 
 I assume that if I hire MariaDB and I'm going to design something, I can probably jump on a meeting with them in the support and talk about this stuff. But for us, that's something that is very important, and that's how we actually work with our clients most of the time - it's actually through code reviews.
 
@@ -200,7 +200,7 @@ So to answer your question directly, when we ask ourselves this question, the an
 
 **Adam Stacoviak:** I think you'd find that out at scale. I think if it's working and we've already identified the goals, it's personally working for you; however, there is a bottleneck in the fact that it's the three of you. So you have to sort of take on clients, or subscriptions (using your terminology), you have to scrutinize them more, because "Does it take you away from the open source?", you said. So I guess the question is "Is this something that you could scale, desire to scale, or plan to scale?" Meaning bringing in more Elixir developers to take your seat in the seats metaphor, and enable you to add more and grow even further. Is that part of the plan?
 
-**José Valim:** \[00:35:52.14\] So right now the answer is no. I don't want to grow our team beyond us three. I feel like if it could grow our team, it could have a really good, positive outcome, which is - now we are three people working on the Elixir community and project; what if we are five, what if we are ten, and everybody's contributing? I feel like that would be great if we could have ten, but I'm worried what is going to happen with me if I am the person who is making it grow?
+**José Valim:** \[35:52\] So right now the answer is no. I don't want to grow our team beyond us three. I feel like if it could grow our team, it could have a really good, positive outcome, which is - now we are three people working on the Elixir community and project; what if we are five, what if we are ten, and everybody's contributing? I feel like that would be great if we could have ten, but I'm worried what is going to happen with me if I am the person who is making it grow?
 
 Maybe if we are ten and then I can come back on this show and then you ask "Hey, José, is it working for you personally?", maybe my answer would be no, because I'm like "No, man. I'm not doing open source anymore. And that's why I was doing this thing in the first place." So maybe it can scale if somebody else comes and wants to make it scale and worry with that part of the business, so I don't have to... But at the same time -- right now, it's like, when you find the perfect temperature in the A/C, and you're like "Don't change it. Don't touch it." Right?
 
@@ -216,7 +216,7 @@ Maybe if we are ten and then I can come back on this show and then you ask "Hey,
 
 **José Valim:** Yeah. I'm not curious to find out at the moment. Maybe in the future my mind will change... But at the moment I am enjoying staying small. I was at a company where we were 70-80 employees. I've kind of seen how that works. I want to celebrate staying small for now and enjoying that... And it may change in the future.
 
-**Break:** \[00:37:43.14\]
+**Break:** \[37:43\]
 
 **Jerod Santo:** So you weren't busy enough and you had another big idea, which is Bytepack, which - I'm reading on the website, it was actually a yak shave from another idea... So you've got things working at Dashbit in addition to the development subscription. Tell us about Bytepack and what you've been working on on the side.
 
@@ -232,7 +232,7 @@ So the yak shave came where we said "Well, what if instead of solving this probl
 
 So the idea with Bytepack is that we help you sell, package and deliver software products to other developers and to companies, to enterprises. So the idea is that if you are a developer and you want to sell a pro version of an Npm package, for example, you will be able to do that for Bytepack. You're going to push the package to Bytepack, your clients are going to receive the versions, they can audit the versions, they can control, they can download it... So that's what we started working on. And I think maybe 2-3 week ago we launched a landing page to collect feedback on our idea. We have a beta that we're already using internally, but what are the features that people think we should focus for, \[unintelligible 00:44:04.29\] are most interested on, and so on.
 
-**Jerod Santo:** \[00:44:10.00\] So it's kind of like an iOS app store, where Apple handles all of the nitty-gritty - the distribution, the payments, the spammers and scammers, taxes, all that kind of stuff. You just upload your binary to Apple and let them distribute it. With Bytepack you just kind of send your package to Bytepack, and set some pricing or whatever, and then folks just install it from there - is that it, in a nutshell?
+**Jerod Santo:** \[44:10\] So it's kind of like an iOS app store, where Apple handles all of the nitty-gritty - the distribution, the payments, the spammers and scammers, taxes, all that kind of stuff. You just upload your binary to Apple and let them distribute it. With Bytepack you just kind of send your package to Bytepack, and set some pricing or whatever, and then folks just install it from there - is that it, in a nutshell?
 
 **José Valim:** Yeah, that's one way to phrase it... But the thing about the app store - it doesn't necessarily give a lot of visibility to the team and the person who maintained or created that product.
 
@@ -256,7 +256,7 @@ I think it's very good with the app store, but there is a line we need to draw t
 
 **José Valim:** Right, so that's a good point. I am torn on something like that, because on one side, if we can help people be successful on the platform and that's one of the features that people evaluate and they think they are getting a lot of value out of it, then that can be great. That's we put the landing page out, to see what things people are actually interested in and see what they need... Because part of the goal with Bytepack is exactly to help people -- I like to say it's to allow people to play with the numbers, especially when you're talking about sustaining open source...
 
-\[00:48:05.09\] Because a lot of the times when you're talking to people about sustainable open source, it's a numbers game. If you are a really big project and you want to be sustainable, if you're really popular, if you have a good onboarding experience for contributors and so on, you're going to have a lot of people contributing and joining the team, and that's going to happen naturally, and you can achieve sustainability for that... But when you consider the long tail, or if you're a big project and you're going for donations - sure, you're going to potentially get a lot of donations, but when you look at the long tail, I want to allow people to play with the possibilities...
+\[48:05\] Because a lot of the times when you're talking to people about sustainable open source, it's a numbers game. If you are a really big project and you want to be sustainable, if you're really popular, if you have a good onboarding experience for contributors and so on, you're going to have a lot of people contributing and joining the team, and that's going to happen naturally, and you can achieve sustainability for that... But when you consider the long tail, or if you're a big project and you're going for donations - sure, you're going to potentially get a lot of donations, but when you look at the long tail, I want to allow people to play with the possibilities...
 
 Well, which one is easier - is it easier to find 1,000 people who are going to donate $5/month, or is it easier to find 100 companies that would pay $50/month to use the pro version of my product? So if doing everybody's taxes sounds horrible... \[laughter\] If doing everybody's taxes can help with that, then I think that can be really cool... But you know, maybe that's not where most of our value is going to be, and that's something we will have to figure out.
 
@@ -276,7 +276,7 @@ And the other thing is most companies - they will do that, because nobody wants 
 
 So with the license - we are going to do a lot to make sure that if it's through license, we are going to have the UI to manage that. And you know, for the organization it's also great, because if you're a big organization and somebody is removed from the organization, you need to make sure they did not have access for those packages and this kind of stuff, because it can be a liability. So if somebody gets some paid software out of a company, it's actually the responsibility of that company to make sure it doesn't happen... So the corporations are also interested in making sure that all of this works together, but a lot of it will be \[unintelligible 00:52:14.21\] And again, it goes back to the idea of supporting the team, supporting the open source project, and everybody understanding those goals and making the correct decisions, and the legal decisions as well.
 
-**Jerod Santo:** \[00:52:30.10\] So would an ideal customer for Bytepack be Mike Perham, with Sidekiq and Sidekiq Pro, where you have an open source, free version and then you have a freemium or an upgradable -- I guess it's an open core, basically, where the additional features are then distributed via Bytepack. So maybe I use Sidekiq, and it's also .rubygems.org, and then I use Sidekiq Pro and it's hosted on Bytepack's infrastructure...
+**Jerod Santo:** \[52:30\] So would an ideal customer for Bytepack be Mike Perham, with Sidekiq and Sidekiq Pro, where you have an open source, free version and then you have a freemium or an upgradable -- I guess it's an open core, basically, where the additional features are then distributed via Bytepack. So maybe I use Sidekiq, and it's also .rubygems.org, and then I use Sidekiq Pro and it's hosted on Bytepack's infrastructure...
 
 **José Valim:** Yeah, Mike Perham would be a great example... And similar ideas, like -- I like to give examples about \[unintelligible 00:53:01.02\] you want to have an admin dashboard... And I've seen in my life a lot of people starting those kinds of dashboards, and then with time, the project goes unmaintained... Because it's a huge effort making an admin thing that works for everybody.
 
@@ -298,7 +298,7 @@ I think even Mike Perham that you mentioned - he actually had to try a couple th
 
 **Jerod Santo:** Okay.
 
-**José Valim:** \[00:56:01.00\] It can be a fee, it can be a flat fee, I think... Since we launched the page -- and the page is out there, so it people want to try it out and still submit feedback, there is a form where you can say if you're interested... We are talking to a lot of people and see what works for them. You mentioned the app store, right? The other thing is the app store has -- what is it, like 30%, which is just absurd...?
+**José Valim:** \[56:01\] It can be a fee, it can be a flat fee, I think... Since we launched the page -- and the page is out there, so it people want to try it out and still submit feedback, there is a form where you can say if you're interested... We are talking to a lot of people and see what works for them. You mentioned the app store, right? The other thing is the app store has -- what is it, like 30%, which is just absurd...?
 
 **Jerod Santo:** Yeah.
 

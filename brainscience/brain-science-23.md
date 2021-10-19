@@ -34,7 +34,7 @@
 
 **Mireille Reece, PsyD:** Well, really how they feel. People come in and they're dealing with oftentimes anxiety, or depression, or even trauma... A lot of times it's relational challenges, of "I have this family member, or co-worker, or some person with whom I routinely have to interface, and I've gotta figure out a way to navigate our exchanges differently, because it hurts. Literally."
 
-**Adam Stacoviak:** \[00:04:19.10\] So what role does our genes play into these things? This idea - we'll talk about epigenetics, even neuroplasticity - what role do these kinds of overarching sciency things play into everyday life for people?
+**Adam Stacoviak:** \[04:19\] So what role does our genes play into these things? This idea - we'll talk about epigenetics, even neuroplasticity - what role do these kinds of overarching sciency things play into everyday life for people?
 
 **Mireille Reece, PsyD:** Well, genes are really what we're born with... So this is an area that I often have to do a lot of educating patients around, in terms of "We are not solely our genes. Just because this is what I was born with doesn't mean "Here's your future, it's predetermined. Sorry. Deal with it."
 
@@ -58,7 +58,7 @@ In the same way with mental health - we can say "Hey, this is in my family linea
 
 **Mireille Reece, PsyD:** And that's just it. It's not all bad, right? But if you're aware of -- I like to think of genes like propensities. Like, "I'm more prone, I'm more likely..."
 
-**Adam Stacoviak:** \[00:08:04.18\] Right, yes.
+**Adam Stacoviak:** \[08:04\] Right, yes.
 
 **Mireille Reece, PsyD:** If I'm faced with a fork in the road, my brain goes "Go this way. This is the way."
 
@@ -84,7 +84,7 @@ That's also a learned behavior, too. I didn't always do good at that. I haven't 
 
 **Mireille Reece, PsyD:** Sure. And so that's just it. You've practiced a skill, and as we've talked about with building habits, you've sort of honed or sort of restructured yourself relative to habits that you engaged in routinely. So it makes a difference. And this is why -- if you can imagine, whatever we practice doing over and over again is going to have an effect. If I practice this skill, or I practice even what I choose to eat on a daily basis - that's going to take me down a road. So this is where the hope is of recognizing the way in which my choices actually influence my overall brain and my health, and how I feel.
 
-**Adam Stacoviak:** \[00:12:16.20\] Yeah.
+**Adam Stacoviak:** \[12:16\] Yeah.
 
 **Mireille Reece, PsyD:** Because guess what - if I realize I don't like the way that I'm going, for example even naming it differently for you and saying "This is somewhat obsessive", you can go like "Is this disproportionate? Am I spending too much time in this one area of my life?" For example mountain-biking. You're like "Well, it started out just fine, and this is a great, healthy habit for me to engage in", but now it's like "I can do that work later. Oh, I'm sorry, family, I've gotta go bike. Sorry, friends, I'm hitting the bike." Right?
 
@@ -122,7 +122,7 @@ That's also a learned behavior, too. I didn't always do good at that. I haven't 
 
 **Adam Stacoviak:** Oh, yes.
 
-**Mireille Reece, PsyD:** \[00:16:07.17\] They sort of highlighted it, and it said "Hey, hot donuts now!" And they happened to install one on my way between my house and my school.
+**Mireille Reece, PsyD:** \[16:07\] They sort of highlighted it, and it said "Hey, hot donuts now!" And they happened to install one on my way between my house and my school.
 
 **Adam Stacoviak:** No... No...!
 
@@ -150,7 +150,7 @@ That's also a learned behavior, too. I didn't always do good at that. I haven't 
 
 I mean, I say obesity just because I ironically never necessarily reflected on that. I just know, looking back through -- I mean, certain maternal/paternal sides, looking back through who has struggled with obesity... Like, "Wow, there's more than I had really thought about before." And that, combined with even my environment - I've talked about having been a gymnast, starting from a very young age, and I danced, which has a very narrow margin for weight. Like, if you're going to be successful, you can't have a lot of excess, right? Those things coming together, that intersection looks like I've been very deliberate around health habits.
 
-**Adam Stacoviak:** \[00:19:59.29\] Because of those reasons, yeah.
+**Adam Stacoviak:** \[19:59\] Because of those reasons, yeah.
 
 **Mireille Reece, PsyD:** Yeah. It's not surprising even that I took the trajectory to go into the field of psychology recognizing the overlap of how my mind and how my feelings impact my decisions and henceforth my performance, both in the gym and in life as a whole.
 
@@ -180,7 +180,7 @@ I mean, I say obesity just because I ironically never necessarily reflected on t
 
 **Adam Stacoviak:** We don't know. Let's turn. \[laughter\]
 
-**Mireille Reece, PsyD:** \[00:24:00.15\] So what we're talking about though is conceptually neuroplasticity. And if you haven't heard about this, what it is is literally the brain's ability to reorganize itself by forming new neural connections throughout your life. So neuroplasticity allows neurons, which are nerve cells in the brain, to compensate for injury and diseases and adjust their activities in response to new situations or changes.
+**Mireille Reece, PsyD:** \[24:00\] So what we're talking about though is conceptually neuroplasticity. And if you haven't heard about this, what it is is literally the brain's ability to reorganize itself by forming new neural connections throughout your life. So neuroplasticity allows neurons, which are nerve cells in the brain, to compensate for injury and diseases and adjust their activities in response to new situations or changes.
 
 One way in which I could say that it'd be helpful to know your genes is relative to autoimmune issues... Because we've talked about stress as it relates to our immune system, and going "Hey, if I know that I've got a long line, or even multiple people in my family who've had auto-immune things, I wanna be very considerate around how I manage my stress." Because diseases - generally speaking - don't just sort of pop up unexpectedly. There's been a sort of repetition of exposure and navigating things in a certain way... Right?
 
@@ -202,7 +202,7 @@ I appreciate that it was Dr. Alvaro Pascual-Leone out of Harvard's Medical Schoo
 
 **Mireille Reece, PsyD:** I know. So this is our hope. This is where I wanna camp out. And really, epigenetics is this study of the way in which our genes and our environment intersect. So a researcher going "How did these show up? What do we do? How can people change their genes?", so to speak. And it really isn't \[unintelligible 00:28:00.07\] but it does. It changes the trajectory. So it doesn't necessarily change the gene itself, but it changes the direction of things for the future.
 
-**Adam Stacoviak:** \[00:28:15.04\] Yeah... I mean, it interesting how the brain plays such a role in these things. I wouldn't imagine that neuroplasticity would allow me to override my genome, to be able to adapt. The brain has that much ability; once we understand its capabilities and how we can play a role in the subconscious things that seem to happen... You know, I'm not taking an hour a day for my neuroplasticity class, so I'm rejiggering my mind. Maybe I am, through mindfulness or thinking over things or whatever; maybe that's the way you do it. But I'm not sitting there literally mentally changing my brain. It's just wild how that can do that, but then it has that power.
+**Adam Stacoviak:** \[28:15\] Yeah... I mean, it interesting how the brain plays such a role in these things. I wouldn't imagine that neuroplasticity would allow me to override my genome, to be able to adapt. The brain has that much ability; once we understand its capabilities and how we can play a role in the subconscious things that seem to happen... You know, I'm not taking an hour a day for my neuroplasticity class, so I'm rejiggering my mind. Maybe I am, through mindfulness or thinking over things or whatever; maybe that's the way you do it. But I'm not sitting there literally mentally changing my brain. It's just wild how that can do that, but then it has that power.
 
 **Mireille Reece, PsyD:** Right. So if we're using this metaphor relative to a house, and our genes are the foundation... So I might have, again, the case of schizophrenia; there is a genetic component to that disorder. So there's a crack in my foundation already. Well, then over time in my -- I never developed skills or strategies to manage anxiety or stress, and now I'm all by myself in a really stressful situation. I've got the family history, so the gene is there... Now I get whacked right on that crack. And then I have the expression that looks like schizophrenia. Does that make sense?
 
@@ -230,7 +230,7 @@ I appreciate that it was Dr. Alvaro Pascual-Leone out of Harvard's Medical Schoo
 
 **Mireille Reece, PsyD:** Yeah, so if I can geek out again for just a little bit... I wanna talk about this one specific protein (or gene) that's called BDNF, brain-derived neurotrophic factor. Can you say that five times fast?
 
-**Adam Stacoviak:** \[00:32:23.02\] No, I can't say it once...
+**Adam Stacoviak:** \[32:23\] No, I can't say it once...
 
 **Mireille Reece, PsyD:** \[laughs\] So BDNF is a gene that provides instructions for making a protein that's found in the brain and spinal cord. And what this does is promotes the survival of nerve cells by playing a role in the growth, what we call as maturation or differentiation of neurons, and the maintenance of these cells. So this protein is active at the connection between our synapses where this cell-to-cell communication occurs... So these can change and adapt over time in response to an experience, which is what we're talking about relative to neuroplasticity.
 
@@ -268,7 +268,7 @@ I appreciate that it was Dr. Alvaro Pascual-Leone out of Harvard's Medical Schoo
 
 **Adam Stacoviak:** That would be fun. Yeah, because not all physical exercise is the same. You've got high-intensity running, for example, which is like short spurts of running, and it's way different than marathon-style running, where you're running for many miles at a time. Short spurts - it's different on the heart, it's different on the brain... There's a lot of different things that happen with different styles of exercise; heavy weight lifting of course is obviously that... But as you get older, it gets harder to be in the gym just simply to lift weights. At some point you have to think about flexibility and other things, so it would make sense that all these different exercise forms play a role.
 
-\[00:35:45.18\] It's interesting how Omega 3s fit in there. I always see in the milk area the milk that is organic and it has Omega 3 DHA in it. We're trying to bring this into our diets more, because no one's taking it as a supplement, or eating let's say wild-caught salmon. That's where you're gonna get some of those things, because those are foods that are higher in it; so if you're not eating foods, if you're eating McDonald's every day for example, you might wanna supplement Omega 3s. Maybe that's a different story altogether, but the point is if you're not getting it from the foods that have it occurring naturally, you have to supplement it, so you're gonna wanna get it in your milk. That's one way to get it at least.
+\[35:45\] It's interesting how Omega 3s fit in there. I always see in the milk area the milk that is organic and it has Omega 3 DHA in it. We're trying to bring this into our diets more, because no one's taking it as a supplement, or eating let's say wild-caught salmon. That's where you're gonna get some of those things, because those are foods that are higher in it; so if you're not eating foods, if you're eating McDonald's every day for example, you might wanna supplement Omega 3s. Maybe that's a different story altogether, but the point is if you're not getting it from the foods that have it occurring naturally, you have to supplement it, so you're gonna wanna get it in your milk. That's one way to get it at least.
 
 **Mireille Reece, PsyD:** Yeah. I'm totally forgetting the author off-hand, but there was a book written a number of years ago called Spark... And it highlights the way in which exercise actually improves brain flexibility. So it's super important relative to learning and memory. And this is the heart of it. If you wanna have hope for the future, if you wanna feel differently, think differently, you have to learn new things, do things differently, and engaging in certain behaviors... Managing what you eat and moving differently contributes to improving the flexibility of your own brain.
 
@@ -282,7 +282,7 @@ I appreciate that it was Dr. Alvaro Pascual-Leone out of Harvard's Medical Schoo
 
 **Adam Stacoviak:** Yeah. Well, that's what I mean, too... Just have hope that if exercise in and of itself doesn't motivate you or doesn't excite you, and you feel like yet another thing is telling you "Okay, well the key to a good life is exercise. I have heard this a thousand times", just find a way to name it differently is what I'm trying to say... Because that's what helped me at least. That's my perspective. I gave it a different name, I gave it a different style, and it wasn't just simply exercise for the sake of exercise. It was, like you said, playful. And my wife plays a role in it. She loves to see me go out and bike. My son loves it, too. My son's a little shredder now. So now it's a key component, it's a relational thing between me and my son. And my new son, who will one day I'm sure wanna be a little shredder, too.
 
-\[00:40:02.11\] So it's got so many different facets, where before it was just simply, "Well, Adam, you know, to be healthy, or to enable BDNF or neuroplasticity (which I didn't know about before), if you wanna influence this more fertile ground for these BDNF proteins to occur, to enable neuroplaticity, which is great, you've gotta exercise." Well, it was harder to just frame it as exercise.
+\[40:02\] So it's got so many different facets, where before it was just simply, "Well, Adam, you know, to be healthy, or to enable BDNF or neuroplasticity (which I didn't know about before), if you wanna influence this more fertile ground for these BDNF proteins to occur, to enable neuroplaticity, which is great, you've gotta exercise." Well, it was harder to just frame it as exercise.
 
 **Mireille Reece, PsyD:** Right. Right. Well, it's interesting, because all of why we have these conversations is so that people can know different information, to then do different. And one of the ways in which therapists often help patients change is this one modality or method in therapy that we call motivational interviewing. Have you ever heard of this?
 
@@ -304,7 +304,7 @@ So if we're talking diet, what you choose to eat, if we're talking exercise, if 
 
 **Adam Stacoviak:** Moderation is an interesting word, because it's a word -- I think that we say "Well, that's a bad thing to do. That's a bad thing to eat. That's a bad way to do things." Well, maybe... But in moderation, healthy moderation, most things that are in that lane at least can be done. Sneakers once a year, sneakers once a month, a donut once a month, or whatever it might be, in moderation... Moderation is a really keyword. There's so many people that over-indulge or under-indulge, and moderation can be very helpful to not force you to never have a donut again.
 
-**Mireille Reece, PsyD:** \[00:44:05.16\] Right. I like to think about it like flexible, or flexibility. And then I wanna have strength, I wanna have structure, but I wanna be flexible around that. And that's what you're getting at in that moderation, of saying "I can have it some of the time" or "I could do this some of the time", but I need to be considerate of the implications if I do that repeatedly.
+**Mireille Reece, PsyD:** \[44:05\] Right. I like to think about it like flexible, or flexibility. And then I wanna have strength, I wanna have structure, but I wanna be flexible around that. And that's what you're getting at in that moderation, of saying "I can have it some of the time" or "I could do this some of the time", but I need to be considerate of the implications if I do that repeatedly.
 
 **Adam Stacoviak:** Exactly.
 

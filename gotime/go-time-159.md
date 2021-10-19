@@ -22,7 +22,7 @@ We're joined by Hana Kim, from the Go team. Hello, Hana!
 
 **Derek Parker:** Hello, everybody.
 
-**Mat Ryer:** \[00:04:15.05\] Hello. Welcome to Go Time/GopherCon lunchtime session.
+**Mat Ryer:** \[04:15\] Hello. Welcome to Go Time/GopherCon lunchtime session.
 
 **Derek Parker:** Thank you. And good evening, good morning for me on the West Coast... I'm having my second cup of coffee.
 
@@ -50,7 +50,7 @@ I would say weird things can happen, like running on a different architecture co
 
 **Mat Ryer:** Yeah. And when you come to debugging then, with techniques and tools, do you have a particular favorite? What's the first thing you do when you've noticed something's wrong? Does it depend, or...?
 
-**Grant Seltzer Richman:** \[00:07:51.11\] So I will say that I think there's a sort of a half-joke within all of the tech industry, that adding print statements to your code is wrong, or like an amateur approach... But to be honest, if your program compiles particularly quickly, there's no reason that adding a print statement should be looked at as like a dirty way of doing it. So the feedback loop - when you're debugging, you wanna have a quick feedback loop.
+**Grant Seltzer Richman:** \[07:51\] So I will say that I think there's a sort of a half-joke within all of the tech industry, that adding print statements to your code is wrong, or like an amateur approach... But to be honest, if your program compiles particularly quickly, there's no reason that adding a print statement should be looked at as like a dirty way of doing it. So the feedback loop - when you're debugging, you wanna have a quick feedback loop.
 
 So if it's a simple enough program where you could just add a print statement at a certain point, that's printing out the contents of variables, I don't think there's anything wrong with that, because it's an intuitive interface. You know that like "I wanna know what happens at this point in the program..." If it's a particularly complex program, or the compile time is long and you need a faster feedback loop or something like that, that's when I would typically use a debugger or some type of tracing tool. But... Nothing wrong with print statements.
 
@@ -76,7 +76,7 @@ Hana, you work on the Go team, and you're working on the VS Code plugin for Go, 
 
 **Derek Parker:** No. \[laughter\] As a human.
 
-**Mat Ryer:** \[00:12:08.25\] Got it. That was a half-joke, like what Grant did earlier. \[laughter\] Go on, sorry.
+**Mat Ryer:** \[12:08\] Got it. That was a half-joke, like what Grant did earlier. \[laughter\] Go on, sorry.
 
 **Derek Parker:** I liked the way that Jason explained what a tool like a debugger is. I think the name debugger is a bit of a misnomer. The tool itself doesn't actually fix the bug for you; it's just a tool that you can use to understand your program. It's a way to just understand what your program is doing, and then once you figure out what's going wrong, you can fix the bug.
 
@@ -108,7 +108,7 @@ So it gives you a little bit more of like real-time interaction... Getting back 
 
 Go by default will build that into all binaries. You have to opt out of it specifically. And the only reason why you would opt out of it would be maybe you really care about binary size, and you wanna get out every last bit that you can to shrink your binary as much as possible. But by default, that information is going to be in there.
 
-\[00:16:16.03\] The only other thing that Delve does by default, and I would recommend folks do if they're gonna try to debug their Go applications/processes etc. is Go also by default will put in optimizations. If you're familiar with GCC or some other compiler, you have to explicitly tell it what level of optimization you want, and you kind of have to opt into some of the more extreme optimizations. But Go does that by default, and that's great for when you're building a production binary - if you wanna ship it off, it's gonna be fast and performant, and all that. But it could hamper debugging a little bit, because in-lining functions can get weird sometimes... Delve handles it really well now, and the Go compiler has gotten a lot better at providing information for telling debuggers how to handle that. But there's still certain weirdness there that you can run into when trying to debug and optimize a binary. So that's the only caveat that I would explicitly mention.
+\[16:16\] The only other thing that Delve does by default, and I would recommend folks do if they're gonna try to debug their Go applications/processes etc. is Go also by default will put in optimizations. If you're familiar with GCC or some other compiler, you have to explicitly tell it what level of optimization you want, and you kind of have to opt into some of the more extreme optimizations. But Go does that by default, and that's great for when you're building a production binary - if you wanna ship it off, it's gonna be fast and performant, and all that. But it could hamper debugging a little bit, because in-lining functions can get weird sometimes... Delve handles it really well now, and the Go compiler has gotten a lot better at providing information for telling debuggers how to handle that. But there's still certain weirdness there that you can run into when trying to debug and optimize a binary. So that's the only caveat that I would explicitly mention.
 
 **Mat Ryer:** That's interesting. Hana, when you talk about the VS Code plugin, and it has debugger support, does it support Delve?
 
@@ -126,9 +126,9 @@ So the idea is to provide the best user experience and visualize the data coming
 
 So the VS Code team - they tried to standardize the interaction between debugger, just generally a debugger, and the editor. It's called the Debug Adapter Protocol, and the VS Code Go extension speaks the Delve adapter protocol and there is a small, tiny Delve debug adapter that actually talks Delve RPC. So it's a little bit complicated, but we try to simplify this communication path, so that the next version, I hope, the communication is more efficient. So that is the general direction we're heading in.
 
-**Mat Ryer:** \[00:20:16.16\] That's really cool. It's nice, because as users of this, we don't have to worry about that. That's something that happens behind the scenes. We get to just use the VS Code interface. That's really great.
+**Mat Ryer:** \[20:16\] That's really cool. It's nice, because as users of this, we don't have to worry about that. That's something that happens behind the scenes. We get to just use the VS Code interface. That's really great.
 
-**Break:** \[00:20:35.23\]
+**Break:** \[20:35\]
 
 **Mat Ryer:** I'm interested - Grant, is your talk on Friday?
 
@@ -154,7 +154,7 @@ So the VS Code team - they tried to standardize the interaction between debugger
 
 **Grant Seltzer Richman:** My talk is about tracing Go programs with eBPF. eBPF has been talked about a lot at various different conferences for the past 2-3 years, it's been getting a lot of momentum... And it's a feature of the Linux kernel, so it's certainly Linux-specific... But what it allows you to do is add ad-hoc app logic to the Linux kernel. And I know that's very abstract, but the way that it's often put - Brendan Gregg, a leader in the eBPF space likes to put it as "eBPF does to the Linux kernel what JavaScript does to HTML."
 
-\[00:24:05.01\] So you can attach eBPF programs, you can think of them as scripts, and attach them to various hooks, such as to network sockets every time a packet comes in, and have some logic. Or to kernel probes, every time source code is executed within the Linux kernel itself.
+\[24:05\] So you can attach eBPF programs, you can think of them as scripts, and attach them to various hooks, such as to network sockets every time a packet comes in, and have some logic. Or to kernel probes, every time source code is executed within the Linux kernel itself.
 
 In particular, what my talk is about is attaching eBPF programs to something called uprobes. Uprobes attach to what essentially is source code symbols. So if you have a Go program that has a function called test function, you can attach a uprobe to that, and attach an eBPF program to that uprobe, so that every time a process executes that function - so if you run that program and it's a running service, or whatever else, you could have essentially a script respond to that function every time it's called; so you could print out what the arguments are, you could have some logic for inspecting another area of memory, and it's useful for debugging, for monitoring, potentially for fuzzing or fault injection as well.
 
@@ -174,7 +174,7 @@ So the application there is, you know, for debugging purposes, let's say you wan
 
 It's also useful for -- not that I'm saying that this is the greatest idea; it's still a developing ecosystem, but you could attach these two services running in production, because it has such a minimal effect on the performance of the service. And you could attach it to running programs, as well.
 
-**Mat Ryer:** \[00:28:01.00\] That is really interesting. Can you interact -- I guess you can't change things in these little eBPF programs, can you?
+**Mat Ryer:** \[28:01\] That is really interesting. Can you interact -- I guess you can't change things in these little eBPF programs, can you?
 
 **Grant Seltzer Richman:** I have a little example of how you can, actually, in my talk. There's a really good talk that was given at some security conference (I can link it later) of how you can write essentially malicious code with eBPF... But even for non-malicious purposes, you could actually write to memory from eBPF. So you can change the value of parameters, which I do in my talk.
 
@@ -200,7 +200,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Grant Seltzer Richman:** Yeah, that's fair. I will say that the goal of my talk is to show how accessible the technology is. You don't have to have any expertise in the low levels of Linux, or even of Go, for that matter. You could really start playing around with it, and it can make a whole new class of problems much more accessible to so many more people.
 
-**Mat Ryer:** \[00:31:56.11\] Have you ever used it, Derek? Are you aware of it?
+**Mat Ryer:** \[31:56\] Have you ever used it, Derek? Are you aware of it?
 
 **Derek Parker:** Yeah, I've done a few things with eBPF a little bit here and there. Actually, Delve has a trace functionality which works somewhat similar, but it works at a higher level, using ptrace and some of those other kinds of syscalls. I've thought about experimenting a little bit, replacing -- on Linux systems I supported replacing that with an eBPF-backed tracing system... So Grant, if you ever wanna send a pull request, we'd love to have it. \[laughter\]
 
@@ -216,7 +216,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Derek Parker:** I think with eBPF you can make the case that it's easier and a little bit safer, and more rational to do in a production environment. I wouldn't recommend doing a Delve trace on a production system unless you really had to. You're just gonna run into some performance penalties there; that's really the biggest issue.
 
-**Break:** \[00:34:19.13\]
+**Break:** \[34:19\]
 
 **Mat Ryer:** Hana, you mentioned earlier that Delve has an RPC API... What is that? What does that look like? How do you consume that? How does VS Code -- is it an HTTP API? Is it a protobuf? How does that actually work?
 
@@ -224,7 +224,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Mat Ryer:** Hm. So you start the program, start the debugger, Delve, and does it then return back some endpoint for you to hit, or how does it work?
 
-**Hana Kim:** \[00:35:59.00\] Yeah, so just a connecter to the socket... At the port, and then create a socket, and communication over the socket.
+**Hana Kim:** \[35:59\] Yeah, so just a connecter to the socket... At the port, and then create a socket, and communication over the socket.
 
 **Mat Ryer:** Very cool. Well, I ask that, because that's quite interesting - I think there's a whole space of tooling, particularly static analysis, or even other runtime tools, like debuggers... And there's a lot of choice for how to build those things so that they can be easily consumed by plugins, and things... So it always is quite interesting to know about that.
 
@@ -262,7 +262,7 @@ You could also, if you have a compiled and running service, and you wanna see if
 
 **Derek Parker:** Yeah, it's one of those things where it's still constantly evolving. We have a few big things planned. We always work to keep up to date with the latest Go release. Go 1.16 is coming out soon. With each release like that there's subtle things that may change in the runtime, or how the binaries are put together that Delve has to adapt to... So we continuously work on supporting the latest release, making sure that by the time that release comes out, there's a Delve version that can support and debug it. So that's always kind of a big thing for us.
 
-\[00:40:15.19\] We also have a few interesting features coming up down the line... My co-maintainer is working on a feature where during an interactive debug session you can create and produce a core dump from the process that you're debugging. It's similar to gcore, if folks have ever used something like that, but it works a little bit differently. So that's a cool feature that's coming up.
+\[40:15\] We also have a few interesting features coming up down the line... My co-maintainer is working on a feature where during an interactive debug session you can create and produce a core dump from the process that you're debugging. It's similar to gcore, if folks have ever used something like that, but it works a little bit differently. So that's a cool feature that's coming up.
 
 Another big push that we're trying to do is improve the overall architecture support. Right now, Delve actually only supports a subset of all of the architectures that Go can actually run on... And it supports the main ones that folks actually use. You know, AMD64, ARM64, things like that. But there are some outlier architectures that Go supports that Delve doesn't yet, that we're also working on as well.
 
@@ -290,11 +290,11 @@ So all that to say we use lldb-server on the backend, so there's some changes th
 
 **Derek Parker:** It depends. So a lot of that we would get for free a little bit, by the kind of debug information that's provided from Go binaries, and things like that. So it would kind of be up to the Go compiler and linker to produce the correct information that Delve needs to be able to debug that stuff properly. And with big, new features like that, sometimes the support is there, sometimes it's not. Sometimes we have to work with folks upstream to get that in, or submit some patches ourselves, and things like that. But a lot of it comes with just coordination with the Go team.
 
-\[00:44:06.09\] There's certain things that are Go-specific that we've had to work really closely with the Go team to be able to achieve... For example function calls; this is something that actually requires support from the Go runtime, and we had to work with the Go team to make that happen. It was a coordinated effort. So sometimes there's more coordination, sometimes we get stuff for free.
+\[44:06\] There's certain things that are Go-specific that we've had to work really closely with the Go team to be able to achieve... For example function calls; this is something that actually requires support from the Go runtime, and we had to work with the Go team to make that happen. It was a coordinated effort. So sometimes there's more coordination, sometimes we get stuff for free.
 
 **Mat Ryer:** Cool. Okay, well, it's time for our regular slot, it's time for Unpopular Opinions.
 
-**Jingle:** \[00:44:33.23\] to \[00:44:49.24\]
+**Jingle:** \[44:33\] to \[44:49\]
 
 **Mat Ryer:** So who wants to kick us off with an unpopular opinion?
 
@@ -380,7 +380,7 @@ So all that to say we use lldb-server on the backend, so there's some changes th
 
 **Derek Parker:** Yeah, thank you for inviting me on.
 
-**Break:** \[00:48:35.15\]
+**Break:** \[48:35\]
 
 **Derek Parker:** I never know a joke when somebody asks me for a joke. It's one of those things, like "Tell me the dumbest joke you know." At that moment, it's like, I've never heard a joke in my entire life.
 
@@ -388,7 +388,7 @@ So all that to say we use lldb-server on the backend, so there's some changes th
 
 **Derek Parker:** Right.
 
-**Mat Ryer:** It's like, "I can't. You should have told me you were gonna do that, and then \[00:50:46.09\]"
+**Mat Ryer:** It's like, "I can't. You should have told me you were gonna do that, and then \[50:46\]"
 
 **Derek Parker:** Right. \[laughs\]
 

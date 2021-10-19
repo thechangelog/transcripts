@@ -58,7 +58,7 @@ So the size of that funnel, your possible monetization gets bigger, hugely bigge
 
 **Adam Jacob:** Yeah. Like, who exactly are we protecting here? Because the last time I checked, they were public and killing it.
 
-**Break:** \[00:16:16.22\]
+**Break:** \[16:16\]
 
 **Adam Stacoviak:** Next up is Heather Meeker. Heather is a well-respected open source lawyer and a specialist in open source software licensing and strategy. She wrote the book Open Source for Business, and it serves as a guide to open source software licensing. We're talking to Heather because she's a lawyer who wrote a license. The SSPL license is a result of her work with MongoDB, and we wanted to understand the design and the intention of the license. Alright, here we go with Heather.
 
@@ -118,7 +118,7 @@ So we looked at the open source definition, we definitely avoided license restri
 
 **Heather Meeker:** It was first of all a very well-drafted license. It was professionally done. It did address labor conditions, and again, I'm paraphrasing, but the license says you can't use the software if you are violating the international labor standards. And it was intended to raise consciousness about labor practices in China. But what was really interesting about that is that the license was released on GitHub, and -- by the way, I think it may have been more a thought experiment than anything else... But it then caused that GitHub repository to become a vehicle for people to discuss the issue. So it became almost like a social networking initiative to raise consciousness about the issue, rather than specifically to develop a licensed document. So I thought that was a very interesting phenomenon from the point of view of what happened around putting the license in GitHub, and around the development of the license.
 
-**Break:** \[00:25:58.25\]
+**Break:** \[25:58\]
 
 **Adam Stacoviak:** It's interesting how there's so many usages of licenses... And you'd mentioned the OSI approval process and how it was contextual in terms of Mongo's intent of the license change, and the intent of the SSPL license in general... And you also mentioned the OSD and its criteria in your blog post on the COSS.community. You mentioned how many of the legacy licenses in the OSI, approved long ago, would probably not be approved today... And then you'd mentioned that the criteria for the approval has changed, but the OSD has not. So it seems like there's a lot of moving targets in terms of getting approved by the OSI, and Jerod mentioned in terms of "This isn't an OSI-approved license. Do you feel it is open source?"
 
@@ -196,7 +196,7 @@ I do think that what you quoted was overstating the risk somewhat, but you know,
 
 I would say the reality is that most companies are actually going to use licenses that are truly restrictive, in a way, rather than SSPL. So I would say anybody who is using SSPL is at least trying to go down something like an open source route, even if you don't believe it's open source.
 
-**Break:** \[00:41:00.00\]
+**Break:** \[41:00\]
 
 **Adam Stacoviak:** Up next we're talking to Manish Jain, founder and CTO at Dgraph Labs. Manish came on this podcast a little over two years ago on episode 322, talking about licensing and relicensing Dgraph, so we thought it'd be fitting to get him on this episode as well... Here we go.
 

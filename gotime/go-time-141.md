@@ -28,7 +28,7 @@ Okay, so let's start then... Just quickly, for beginners, in case somebody's rea
 
 **Daniel Martí:** It's practically everywhere. Practically, every language out there that's modern today has to have JSON support, because you just do... And your computer - you might not see it, but it definitely is running JSON at some level.
 
-**Mat Ryer:** \[00:03:54.22\] Yeah. So it's like an object, and it has fields, and those fields have some types... And it's the types that we're used to as well in Go, like strings, and numbers, and booleans. And, you know, there's other objects, arrays, those kinds of things. I think that might be the whole list. And why did it get such popular use on the web? I mean, it is kind of perfect for web technologies.
+**Mat Ryer:** \[03:54\] Yeah. So it's like an object, and it has fields, and those fields have some types... And it's the types that we're used to as well in Go, like strings, and numbers, and booleans. And, you know, there's other objects, arrays, those kinds of things. I think that might be the whole list. And why did it get such popular use on the web? I mean, it is kind of perfect for web technologies.
 
 **Daniel Martí:** I would say it came from all the success that browsers had, the modern web had... And suddenly, HTTP, HTML, CSS and JavaScript and JSON - all these technologies kind of took everybody by surprise. Initially, everybody thought they were just toys, but now suddenly people are building real companies on top of them... And JSON has too much momentum. I don't think anything is ever going to replace it at this point, honestly.
 
@@ -52,7 +52,7 @@ What about any gotchas with working with JSON? Is there anything that beginners 
 
 Another thing that's quite weird is that -- by default, I think the numbers are all float64 type. If you're working with generic data, you can use the map[string] interface type in Go to unmarshal JSON into, and it will work; it will fill that map up like it's the object. But of course, if there's then numbers in there, it's not sure whether it's a floating point number, or an integer, or whatever... So it just uses the most useful type, or the most versatile type, the float64. I found that to be quite strange when I first started working with JSON in Go.
 
-**Daniel Martí:** \[00:08:13.16\] And actually, I think numbers are a really interesting point, because I think JSON could have gone one of two ways. One of them would have been -- you know, we've got integers on one side, and you've got floats on the other, and then you define what the sizes in bits of those are. For example, if this was Go, you could have said *int64* and *float64*. And that has some advantages; it's stricter, so if you want to use one or the other, it's guaranteed that it's gonna stay that way, and you're not gonna lose any precision, or anything like that.
+**Daniel Martí:** \[08:13\] And actually, I think numbers are a really interesting point, because I think JSON could have gone one of two ways. One of them would have been -- you know, we've got integers on one side, and you've got floats on the other, and then you define what the sizes in bits of those are. For example, if this was Go, you could have said *int64* and *float64*. And that has some advantages; it's stricter, so if you want to use one or the other, it's guaranteed that it's gonna stay that way, and you're not gonna lose any precision, or anything like that.
 
 But on the other hand, if you just say it's gonna be a number, then that opens the door to, for example, supporting arbitrary precision numbers, a.k.a. big numbers, which Go also supports with a different package.
 
@@ -82,7 +82,7 @@ But on the other hand, if you just say it's gonna be a number, then that opens t
 
 **Mat Ryer:** Linux.
 
-**Break:** \[00:10:40.28\]
+**Break:** \[10:40\]
 
 **Mat Ryer:** Daniel, what are the challenges? Why is it stressful maintaining the encoding/json package?
 
@@ -108,7 +108,7 @@ So there's a constant stream of feature requests, but there's also a constant st
 
 **Daniel Martí:** Yes. Actually, checking that your package is well-tested is kind of an art, I would say, because you can obviously look at the code coverage from the Go tools, but that doesn't cover everything... Because you might be covering a line, but you might not be covering all the logic that's encoded within that line of code... Or you might not be hitting one of the edge cases that might panic, or something like that.
 
-**Mat Ryer:** \[00:16:03.22\] Yeah. See, I always tell people not to shoot for 100% code coverage in their application code, just because you can kind of tightly-couple really your tests to your implementation. Is this an exception to that? Does it make sense in this package to have 100% code coverage?
+**Mat Ryer:** \[16:03\] Yeah. See, I always tell people not to shoot for 100% code coverage in their application code, just because you can kind of tightly-couple really your tests to your implementation. Is this an exception to that? Does it make sense in this package to have 100% code coverage?
 
 **Daniel Martí:** I would say for the most part it does make sense to try to go as high as possible, because for the most part the package is just if-elses with logic. But there are also some places with panics of things that should never happen, or also things like -- I'm trying to think of another edge case... Well, there are certain edge cases that you say "This really should never happen, and it's gonna panic." So you could write tests that catch those and recover, and I guess you could say even that you should, but I don't think they do at the moment.
 
@@ -122,7 +122,7 @@ I like the standard library, I like using the standard library, because - maybe 
 
 Again, Dave Cheney's own experimentation, which is published, and hopefully -- I wish he was here to discuss it, but there's that sort of... I'm curious to understand when is a good reason to deviate from, say, the standard library's approach. Everybody wants fast, right? "Oh, it's faster. I should use that." Well, there are trade-offs there, too. You don't pick it just because it's faster... But I'm curious your take as to why pick one over the other, what sort of trade-offs you're making along those lines.
 
-**Daniel Martí:** \[00:20:08.19\] I think that topic is at the heart of this whole discussion, because it is to a lot of people one of the fastest JSON decoders out there, and some of them might not realize the trade-offs at play... And I have mixed opinions and feelings about all the third-party JSON implementations out there. I think some of them do make sense; for example, one use case is you do absolutely want the most performance you can get, because maybe this is a bottleneck for you, and you don't mind Go generating some code to then write/generate automatically a decoder for you for JSON. So you can use packages like easyjson for that, which is pretty popular... And the trade-off there is you have to run go generate, and your binary is gonna weigh quite a little bit more, because it has quite a lot of extra code. But that extra code - it just encodes all the logic directly in binary code, in machine code; so there's no reflect, there's no dereferences, there's no extra work involved. So I think that's clearly one of the cases where it might make sense for your use case.
+**Daniel Martí:** \[20:08\] I think that topic is at the heart of this whole discussion, because it is to a lot of people one of the fastest JSON decoders out there, and some of them might not realize the trade-offs at play... And I have mixed opinions and feelings about all the third-party JSON implementations out there. I think some of them do make sense; for example, one use case is you do absolutely want the most performance you can get, because maybe this is a bottleneck for you, and you don't mind Go generating some code to then write/generate automatically a decoder for you for JSON. So you can use packages like easyjson for that, which is pretty popular... And the trade-off there is you have to run go generate, and your binary is gonna weigh quite a little bit more, because it has quite a lot of extra code. But that extra code - it just encodes all the logic directly in binary code, in machine code; so there's no reflect, there's no dereferences, there's no extra work involved. So I think that's clearly one of the cases where it might make sense for your use case.
 
 **Mat Ryer:** I like how you framed that as well; you were saying "Maybe it's a bottleneck in your case..." And that's the thing - once you've seen that this is a place where an improvement is gonna make a difference for you, then it's worth taking on the extra pain, whether it's complexity, or learning a new API, or whatever it is. I like that approach, because -- well, I think it's what we should always be doing. As you alluded to, Johnny, we can get a bit obsessed with "Why wouldn't we want the fastest possible thing?" and the answer is "It might be good enough just using the standard library."
 
@@ -138,7 +138,7 @@ What are some of the packages, and how are they different?
 
 One use case that I've used JSON for before in quite a strange - or maybe not - way was just a command line tools which took in through standard input lines of JSON, and then their output were lines of JSON. And just to that, we had a series of different tools that we could chain together in different ways, just kind of passing around different JSON objects, each one on its own line... And the JSON -- when you create the marshaler, you create the decoder or the encoder, those types take an *io.Reader*, so that they can unmarshal an object; they break at the line feed, and then you can reuse it and keep unmarshaling objects in that way.
 
-\[00:24:11.04\] So that as a design was perfect for this situation, because these tools basically didn't do anything until a line of JSON came in through standard in, they then process it, and then you get the line printed out. There's also directly using the marshal and unmarshal functions, too. What's the key difference between those?
+\[24:11\] So that as a design was perfect for this situation, because these tools basically didn't do anything until a line of JSON came in through standard in, they then process it, and then you get the line printed out. There's also directly using the marshal and unmarshal functions, too. What's the key difference between those?
 
 **Daniel Martí:** I think most people would say that the difference is the streaming. So if you use marshal or unmarshal, you can look at the function types and you can see that they take and give a slice of byte... So it's pretty easy to tell that, you know, if you're unmarshaling a chunk of JSON, you have to have that chunk of JSON in memory. And if you look at the decoder, it takes a reader; you might then suspect that "Oh, this is gonna stream the JSON in, so I don't have to load it all into memory", but that's actually not the case. And I think it's one of my main gripes with the current API. I'm not gonna say it's wrong, but it's misleading, to a certain degree... Because what it will do is it will buffer an entire JSON value such as an object. And then once it's buffered the whole thing, then it's gonna decode it. There's a good reason for that, and the reason is because the encoding/json package essentially prefers correctness over everything else... And it has some semantics for -- when you decode into a value, it's gonna merge that decoded data into that value.
 
@@ -156,7 +156,7 @@ But most people, they just decode into an empty value. They don't care about wha
 
 If you want to quickly look at this, and then if it's X, then do that, otherwise do something else - if you want to encode that logic into your code, using something like that package might be a little bit easier for you. But I would say that for most people, they do know what their JSON is gonna look like.
 
-**Mat Ryer:** \[00:28:02.08\] Yeah. In my experience, it's better if you do know what the JSON is gonna look like. Don't be tempted by this idea that your app can just support any data structure, because that will come back to bite you, is my experience. What does that raw message actually do then? Is it just like a string type, or a slice of bytes, or something? What is it?
+**Mat Ryer:** \[28:02\] Yeah. In my experience, it's better if you do know what the JSON is gonna look like. Don't be tempted by this idea that your app can just support any data structure, because that will come back to bite you, is my experience. What does that raw message actually do then? Is it just like a string type, or a slice of bytes, or something? What is it?
 
 **Daniel Martí:** It is exactly a named slice of byte, and it implements unmarshaled JSON. All it does is it just takes the JSON and stores it. That's it. It's really powerful, because it essentially lets you do whatever you want.
 
@@ -164,7 +164,7 @@ I was gonna say, before we go on, I'm close to getting full, so I'm gonna stop t
 
 **Mat Ryer:** Sounds good, sure. Take a break. Yeah, stop the world.
 
-**Break:** \[00:28:50.20\]
+**Break:** \[28:50\]
 
 **Daniel Martí:** So that's an interesting bug that I have with this program... It seems to just keep using more and more memory as long as I record, and then after I close it completely, after saving the file, and then just start anew...
 
@@ -180,7 +180,7 @@ I was gonna say, before we go on, I'm close to getting full, so I'm gonna stop t
 
 **Daniel Martí:** Yup, that is a good question. I think there's two kinds of thing that I would fix. One of them are high-level API changes. We talked earlier about the readers and writers making it seem like it's streaming, but it's not actually streaming, it's buffering... But changing those would break practically every program using JSON, so it's not something that I would ever change in v1; it's just out of the question.
 
-\[00:31:47.29\] The other kind is subtle bugs and historical problems that have kind of become the de facto behavior that everybody has ended up -- some people have ended up depending upon. And one example was there's a type called json.number, and json.number essentially lets you easily support big numbers, and it's just a string type. So when you use it to decode a number, such as a 50-digit number, it doesn't matter if that wouldn't fit in an int32 or an int64, because it's gonna keep the string exactly as is. So that would be the simplest way to implement big numbers.
+\[31:47\] The other kind is subtle bugs and historical problems that have kind of become the de facto behavior that everybody has ended up -- some people have ended up depending upon. And one example was there's a type called json.number, and json.number essentially lets you easily support big numbers, and it's just a string type. So when you use it to decode a number, such as a 50-digit number, it doesn't matter if that wouldn't fit in an int32 or an int64, because it's gonna keep the string exactly as is. So that would be the simplest way to implement big numbers.
 
 And the way a JSON number is implemented, if the input JSON is actually a string containing the digits, it's gonna accept that, even though it's not a JSON number. That is not documented behavior. The documented behavior says it decodes a number; it doesn't say anything about strings. So I tried to fix that - or I think it was somebody else and then I reviewed, I can't remember - and then as you would expect, a bunch of people said "This broke my code!" And I showed "Look, with three lines of code you can fix it. It's really simple, and I'm getting them to you. Here's a Playground link." But they said "No, no, no, no. This is breaking production, this is breaking the guarantee."
 
@@ -210,7 +210,7 @@ And the way a JSON number is implemented, if the input JSON is actually a string
 
 **Mat Ryer:** In a way, it is kind of streaming, in a way... It takes the reader. For each object it buffers it, I guess, but it discards that previous object, doesn't it?
 
-**Daniel Martí:** \[00:36:06.14\] Yup.
+**Daniel Martí:** \[36:06\] Yup.
 
 **Mat Ryer:** ...the next time. Right. So in a sense, it's streaming.
 
@@ -266,7 +266,7 @@ And the way a JSON number is implemented, if the input JSON is actually a string
 
 **Mat Ryer:** Yeah, you'd get EOF... Huh. So you could support it by having a loop, and just keep looping and keep decoding, but again -- I don't know, it's quite strange, I think... When you think about an array in JSON, an array can be - well, it is, often - many objects inside an array. That could be the payload, and that would actually still work, wouldn't it? It wouldn't hit that bug. It's just for if you're using new line-separate JSON objects.
 
-**Daniel Martí:** \[00:39:59.02\] Yeah. And in that case, you can fix the code pretty easily. You can just add a check at the end that says "If the decoder has more tokens to be decoded, then give some error." You can do that. But the thing is that, obviously, people have to remember to do that. And to begin with, nobody knew to do that... So I would say it's a complicated API design, because it's very easy to misuse.
+**Daniel Martí:** \[39:59\] Yeah. And in that case, you can fix the code pretty easily. You can just add a check at the end that says "If the decoder has more tokens to be decoded, then give some error." You can do that. But the thing is that, obviously, people have to remember to do that. And to begin with, nobody knew to do that... So I would say it's a complicated API design, because it's very easy to misuse.
 
 **Mat Ryer:** Yeah, but to be honest, mate, I don't know of any API where you send multiple lines of JSON like that. I could be wrong, but I don't think I've seen that.
 
@@ -302,7 +302,7 @@ And the way a JSON number is implemented, if the input JSON is actually a string
 
 **Daniel Martí:** But I do think there's one point that we might have missed here, which is defining your data model... And I think that's probably the place where JSON falls short the most, and where it bites people the most. And that's where things like JSON Schema come in... But I wouldn't say they're very good solutions. They mostly try to port the XML solutions from 20 years ago to JSON. I don't think they're a very good approach. I think a proper schema language like protobuf and gRPC are better... So you have to choose the trade-off between "Do I use something simple like JSON and then just get going, or do I choose a schema language that's gonna let me define my types properly, and so on?"
 
-**Mat Ryer:** \[00:44:11.01\] Yeah, and that's probably use case-driven as well, isn't it? In some situations, if you are working with generic data and you don't know the shape of that data... And that does happen sometimes. I've worked on projects for sure where it's a kind of platform and you don't know what the data is ahead of time... Then that does kind of lead you one way or the other.
+**Mat Ryer:** \[44:11\] Yeah, and that's probably use case-driven as well, isn't it? In some situations, if you are working with generic data and you don't know the shape of that data... And that does happen sometimes. I've worked on projects for sure where it's a kind of platform and you don't know what the data is ahead of time... Then that does kind of lead you one way or the other.
 
 The nice thing about JSON though is that you can always add fields to it, can't you? You can always add fields, and previous code will just continue to work... Because in a struct in Go, if there's a field missing in the struct but it's present in the JSON by default, it just gets ignored, doesn't it?
 
@@ -340,7 +340,7 @@ The nice thing about JSON though is that you can always add fields to it, can't 
 
 **Daniel Martí:** It doesn't do that. What it does is it tokenizes a value (for example a JSON object ) once; it starts going through the bytes, and goes "token, token, token", but it forgets them, because there's the first pass. It just wants to check if the JSON is valid. And once it reaches the end, for example the closing brace for the initial brace, then it goes all the way back to the beginning of the buffer, and then it tokenizes again... But this time when it encounters for example "open object", then it actually goes and starts an object in the destination value. And if it sees a string, then it tries to decode that into whatever the current destination is, and so on.
 
-**Mat Ryer:** \[00:48:12.03\] That's interesting. I'm surprised it does that... Because you'd think it would just do it once, wouldn't you? Why does it do it like that?
+**Mat Ryer:** \[48:12\] That's interesting. I'm surprised it does that... Because you'd think it would just do it once, wouldn't you? Why does it do it like that?
 
 **Daniel Martí:** The reason it does it twice is to prevent partial decodes. So if I give you, for example, an array of 9,000 elements, and there's no closing token, that isn't valid JSON. So what are you gonna do? Are you gonna spend all the time to decode all those 9,000 elements into your destination, and probably mess with your destination data if you had anything there before? Which for an array it doesn't make sense, but imagine a map, for example...
 
@@ -376,7 +376,7 @@ The nice thing about JSON though is that you can always add fields to it, can't 
 
 **Johnny Boursiquot:** We definitely should not run out of time to squeeze in some unpopular opinions...
 
-**Jingle:** \[00:51:34.21\] to \[00:51:52.21\]
+**Jingle:** \[51:34\] to \[51:52\]
 
 **Daniel Martí:** So my unpopular opinion is that encoding/json is fast enough...
 
@@ -392,7 +392,7 @@ The nice thing about JSON though is that you can always add fields to it, can't 
 
 **Johnny Boursiquot:** \[laughs\]
 
-**Mat Ryer:** Sure. Well, that's because we gave them the tools to benchmark things. I don't know what you expect. Of course \[00:53:03.07\]
+**Mat Ryer:** Sure. Well, that's because we gave them the tools to benchmark things. I don't know what you expect. Of course \[53:03\]
 
 **Daniel Martí:** I take them back. \[laughter\]
 
@@ -402,7 +402,7 @@ The nice thing about JSON though is that you can always add fields to it, can't 
 
 **Mat Ryer:** Yeah, thank you very much. Thanks everyone for listening, and we'll see you next time.
 
-**Outro:** \[00:53:32.24\]
+**Outro:** \[53:32\]
 
 **Daniel Martí:** By the way, I've found what the bug was.
 

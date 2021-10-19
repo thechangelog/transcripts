@@ -14,7 +14,7 @@ It was interesting, I was reading some research study and it was talking about e
 
 **Adam Stacoviak:** That's right, yeah. I think the reason why that research that you read is possible is because we have a limited attention span. The human brain has a really hard time on doing two or even three high-intensive things. Try driving and talking on the phone... Pretty hard. Try driving and taking notes... Not gonna happen. Something like that. So I think, as you're walking into your office or doing your day, or just living your life, you're not seeing the details, which really is our thoughts.
 
-**Mireille B. Reece, Psy.D:** \[00:04:14.29\] Yeah, and so if I were to ask you, Adam, "Do you know if there's a problem with how you think?", do you know what you would answer?
+**Mireille B. Reece, Psy.D:** \[04:14\] Yeah, and so if I were to ask you, Adam, "Do you know if there's a problem with how you think?", do you know what you would answer?
 
 **Adam Stacoviak:** I would wanna say "No, I'm perfect. I'm amazing." But I think if I examine them a little bit closer... I would need a frame of reference, you know?
 
@@ -48,7 +48,7 @@ One of the distortions, so to speak, is catastrophic thinking. The word itself g
 
 **Adam Stacoviak:** Yeah. We have hurricanes here, in Houston, often... Floods even too, because of it. Geez, it's terrible.
 
-**Mireille B. Reece, Psy.D:** \[00:08:01.22\] Right. Some researchers have looked at this too, when it comes to like losing a loved one... Because obviously, we've talked about loss in relationships, and that that would feel wretched, devastating. Nobody creates a relationship, invests in it for the purpose of having that good connection go away.
+**Mireille B. Reece, Psy.D:** \[08:01\] Right. Some researchers have looked at this too, when it comes to like losing a loved one... Because obviously, we've talked about loss in relationships, and that that would feel wretched, devastating. Nobody creates a relationship, invests in it for the purpose of having that good connection go away.
 
 **Adam Stacoviak:** And be destroyed, yeah.
 
@@ -72,7 +72,7 @@ Imagine that I have these different aspects, and so -- I'll go with the health a
 
 **Mireille B. Reece, Psy.D:** Yeah. I think of it like a symphony, and that there's different sections. So there's woodwind, and percussion, and we want all of the sounds to come together, because that's what makes it beautiful, is this sort of harmonious sound. And so if I try to amputate an aspect of myself and be like "You don't get to play! No, you fearful little kid side of you... You have to shut up and shut down." Well, that didn't help me do it any better, and now I'm just in trouble and now I feel bad for feeling the way that I do, or now I'm in trouble for thinking what I do in fact think. That's not gonna help me do myself any better.
 
-**Adam Stacoviak:** \[00:12:10.25\] So because you're having these negative thoughts about Mount Rainier exploding and killing all of Seattle or whatever might happen, you're feeling negative, so you're thoughts are sort of affecting how you feel, and that's sort of this kind of circle of life with your thoughts; you just keep going round and round - negative thought, negative feeling, negative thought, negative feeling.
+**Adam Stacoviak:** \[12:10\] So because you're having these negative thoughts about Mount Rainier exploding and killing all of Seattle or whatever might happen, you're feeling negative, so you're thoughts are sort of affecting how you feel, and that's sort of this kind of circle of life with your thoughts; you just keep going round and round - negative thought, negative feeling, negative thought, negative feeling.
 
 **Mireille B. Reece, Psy.D:** Right, so then it definitely becomes like "Which came first, the chicken or the egg?" Well, it's perpetuating, and that is why we have to start with the awareness... Because if I'm not aware, like "Hey, Mireille, you realize you're imagining a catastrophe right now?" "Oh...!" Yeah, so then I'm like, "Do I wanna keep focusing on that, or what else might you choose to focus on?"
 
@@ -102,7 +102,7 @@ I could actually look - and we've talked about this in terms of coping - to iden
 
 **Mireille B. Reece, Psy.D:** So, "some of the time..." or like-- it's specific. I'll think about it in the context of interpersonal relationships, in articulating a scenario in which they did do what you're trying to tell them about. Like, I wanna tell my partner about a time in which they wounded me. So I would say "When you don't take out the trash, it upsets me. I feel hurt, I feel unimportant."
 
-**Adam Stacoviak:** \[00:16:14.20\] "That trash is really important around here."
+**Adam Stacoviak:** \[16:14\] "That trash is really important around here."
 
 **Mireille B. Reece, Psy.D:** \[laughs\]
 
@@ -126,7 +126,7 @@ I could actually look - and we've talked about this in terms of coping - to iden
 
 **Mireille B. Reece, Psy.D:** So out comes UnderArmor and this awesome product. Well, then they realized that all of their smalls kept disappearing, and they were like "What is going on?" So then they moved it over into women, and they'd like shrink it and pink it, just change it up, and they moved it into another lane, and then had to build on that. So imagine that this all-or-nothing thinking is rooted to some degree too in fear and failure, and that just because you struggle, you're gonna run interference with it and go "We're just starting at novice and struggle is a normal part, because it's new and it's different... So what can I do to help bolster myself, so that I can have some successes?" So now, I've tethered in positive emotions, so guess what I'm gonna wanna do? I wanna go practice more and get better at cultivating that skill.
 
-**Adam Stacoviak:** \[00:19:59.23\] Yeah. Awareness plays a big part of this... Awareness and expectation. If you are aware of -- like you had said, if I'm gonna go into this as a novice, I should expect certain things and be aware of how that's different from when I'm an expert, as an example.
+**Adam Stacoviak:** \[19:59\] Yeah. Awareness plays a big part of this... Awareness and expectation. If you are aware of -- like you had said, if I'm gonna go into this as a novice, I should expect certain things and be aware of how that's different from when I'm an expert, as an example.
 
 **Mireille B. Reece, Psy.D:** Yeah.
 
@@ -164,7 +164,7 @@ I could actually look - and we've talked about this in terms of coping - to iden
 
 **Adam Stacoviak:** Okay.
 
-**Mireille B. Reece, Psy.D:** \[00:23:53.12\] Yes, yes. Because it's a qualitative feel, and that's why the should can be, to some people, oppressive. Because I would say too that to some degree personality style and past experiences play a role in this. I know from my experience in sports and athletics -- I mean, my coaches weren't always the most kind of individuals... Not that they didn't have my best interest at heart, but I can hear very much a sort of internal narrative that's demeaning, that's unrelenting, that it's like "I don't really care that you're not sleeping, or that you're sleeping three hours a night. You \*should\* be able to get this done. Everybody else does. Look at what they're doing." And you see how even in my tone I changed.
+**Mireille B. Reece, Psy.D:** \[23:53\] Yes, yes. Because it's a qualitative feel, and that's why the should can be, to some people, oppressive. Because I would say too that to some degree personality style and past experiences play a role in this. I know from my experience in sports and athletics -- I mean, my coaches weren't always the most kind of individuals... Not that they didn't have my best interest at heart, but I can hear very much a sort of internal narrative that's demeaning, that's unrelenting, that it's like "I don't really care that you're not sleeping, or that you're sleeping three hours a night. You \*should\* be able to get this done. Everybody else does. Look at what they're doing." And you see how even in my tone I changed.
 
 **Adam Stacoviak:** Yeah. You were like "You \*should\*." It was not nice.
 
@@ -228,7 +228,7 @@ I could actually look - and we've talked about this in terms of coping - to iden
 
 **Adam Stacoviak:** Yeah.
 
-**Mireille B. Reece, Psy.D:** \[00:28:00.00\] Does that make sense? Some people are more indifferent, careless... They're just not as concerned with all of the factors, and so then that would contribute to hearing should in a different way. Because if I'm already at 95% and then my boss, or a friend, or my spouse is like "Hey, let me remind you of this 25% you're really not doing so hot on..."
+**Mireille B. Reece, Psy.D:** \[28:00\] Does that make sense? Some people are more indifferent, careless... They're just not as concerned with all of the factors, and so then that would contribute to hearing should in a different way. Because if I'm already at 95% and then my boss, or a friend, or my spouse is like "Hey, let me remind you of this 25% you're really not doing so hot on..."
 
 **Adam Stacoviak:** It feels like crap.
 
@@ -258,7 +258,7 @@ So if I then focus on a detail, imagine that I just blow up that balloon bigger 
 
 **Adam Stacoviak:** Yeah. I think living in denial, or this naive aspect, this bliss aspect, is not good. You have to be -- you can't lie to yourself about the positive and negative. You can't discount the negative for the positive, and vice versa. It's kind of like the idea of bitter and sweet - you can't have the sweet without the bitter, and you can't have the bitter without the sweet. It's kind of like ying-yang, it's this sort of coupling that happens throughout many, many examples in humanity and life.
 
-**Mireille B. Reece, Psy.D:** \[00:31:59.05\] Yeah, so much of why I wanna talk about these and why this is helpful is just recognizing if your channel of your thoughts is always on the negative, you're probably not gonna feel very good going about your day.
+**Mireille B. Reece, Psy.D:** \[31:59\] Yeah, so much of why I wanna talk about these and why this is helpful is just recognizing if your channel of your thoughts is always on the negative, you're probably not gonna feel very good going about your day.
 
 **Adam Stacoviak:** Yeah.
 
@@ -300,7 +300,7 @@ So if I then focus on a detail, imagine that I just blow up that balloon bigger 
 
 **Mireille B. Reece, Psy.D:** \[laughs\] Right, got the T-shirt. But what am I going to do so that I can change and move in that direction. I want to be intentional about the way that I live, that I am looking for the things that help me feel better and do better, because guess what I'm then going to build a snowball around? "How I feel is better, and look at the effort I made, and there's a positive outcome to that effort", and like "Oh, this sucked and it was so hard for me and I didn't want to do it, but I did it!" And so now I am practicing tethering, ironically, my positive emotions to my efforts and not to outcomes. This is so important.
 
-\[00:35:53.01\] We talk about it in learning, because we're not always in charge of outcomes, and this is part of managing our humanity. I can imagine losing someone I love and just how horrific that would feel to me. I don't think there's any amount of time I could spend with those I love that I would be like "That's good! I've had enough."
+\[35:53\] We talk about it in learning, because we're not always in charge of outcomes, and this is part of managing our humanity. I can imagine losing someone I love and just how horrific that would feel to me. I don't think there's any amount of time I could spend with those I love that I would be like "That's good! I've had enough."
 
 **Adam Stacoviak:** "I've had enough", yeah.
 
@@ -332,7 +332,7 @@ There is a psychologist who wrote this book some years go called The Happiness A
 
 **Adam Stacoviak:** Yeah, they're not based on facts.
 
-**Mireille B. Reece, Psy.D:** \[00:39:43.18\] Right? And we're all different, and so I want to recognize that I am different than everybody else, and nobody's had my experiences, nobody has my exact genetics... All of those things. I always find it fascinating with siblings, because people are raised in the same house, by the same parents, but are they the same people or remember the same things?
+**Mireille B. Reece, Psy.D:** \[39:43\] Right? And we're all different, and so I want to recognize that I am different than everybody else, and nobody's had my experiences, nobody has my exact genetics... All of those things. I always find it fascinating with siblings, because people are raised in the same house, by the same parents, but are they the same people or remember the same things?
 
 **Adam Stacoviak:** No.
 

@@ -14,7 +14,7 @@
 
 **Nick O'Leary:** Going back a ways, in a previous role at this company, I worked on MQTT, the now fairly ubiquitous protocol for IoT. And this is probably about ten years ago, so before IoT was a term, before anyone outside of IBM knew about MQTT.
 
-\[00:04:09.15\] I was working on a very small footprint implementation of MQTT and its clients, so doing a lot around - and this was in the Java world - what we then called "pervasive messaging." At the time, I thought one of the ugliest pits of the API our broker had was how you define when a message arrives on one topic, what allowed you to define some code that would get run on that message to republish it on another topic. We had the Java API for that, and it was horrible.
+\[04:09\] I was working on a very small footprint implementation of MQTT and its clients, so doing a lot around - and this was in the Java world - what we then called "pervasive messaging." At the time, I thought one of the ugliest pits of the API our broker had was how you define when a message arrives on one topic, what allowed you to define some code that would get run on that message to republish it on another topic. We had the Java API for that, and it was horrible.
 
 At the time, I dreamt of "Wouldn't it be cool to have some way to quickly and easily visually describe that in a UI?" At the time, I had a quick go trying to see how you could visualize that in the browser. I got so far in terms of just how you can draw in the browser ten years ago, so it probably only worked in one browser type, and barely even then... But the idea faded and I sort of stopped playing with that idea.
 
@@ -30,7 +30,7 @@ Then a couple of days later my colleague needed to plug a serial port in, so he 
 
 **Nick O'Leary:** Yeah. We shamelessly overload a bunch of terminology... And again, being a visual thing, it's one of those things that I'm far more used talking about being able to point at a screen, and showing it, and letting a picture speak for itself.
 
-\[00:08:06.18\] So in Node-RED you have these nodes. A node is some sort of functionality, and it's a well-defined piece of functionality. You might have, as I mentioned, a node that represents reading from a serial port, or a node that lets you set properties on a message; a node that lets you talk to Twitter and send tweets... Whatever it might be. So each node is self-contained, it's well-defined, and the key thing is nodes don't know what they're wired to. They are just given some data, or they listen for an event, they do some work, and then they send out a message in response. That message \[unintelligible 00:08:45.13\] is a plain JavaScript object, which can have whatever key-value pairs you want on it. But by convention - and this kind of reveals some of MQTT heritage - messages have a payload property... And we like to say the payload property is where the interesting information goes.
+\[08:06\] So in Node-RED you have these nodes. A node is some sort of functionality, and it's a well-defined piece of functionality. You might have, as I mentioned, a node that represents reading from a serial port, or a node that lets you set properties on a message; a node that lets you talk to Twitter and send tweets... Whatever it might be. So each node is self-contained, it's well-defined, and the key thing is nodes don't know what they're wired to. They are just given some data, or they listen for an event, they do some work, and then they send out a message in response. That message \[unintelligible 00:08:45.13\] is a plain JavaScript object, which can have whatever key-value pairs you want on it. But by convention - and this kind of reveals some of MQTT heritage - messages have a payload property... And we like to say the payload property is where the interesting information goes.
 
 So in the case of a serial port, a data we read from the serial port will be in the payload property. But there might be other properties, depending on what the node is doing. For example, the Twitter node that listens to tweets - we put the text of the tweet in the payload, but then we set a property called "tweet" to the full however many kilobytes of metadata that come along with every tweet these days. And it's that flexibility, again, which speaks to how you can easily extend what you do with Node-RED. You're not constrained to only being able to set certain properties. This convention of using the payload does mean nodes can be written to by-and-large just work when you start wiring them together, because they know to use the payload.
 
@@ -40,7 +40,7 @@ So in the case of a serial port, a data we read from the serial port will be in 
 
 Again, one of the things we found very early on was about two months into the project we ended up doing a project in an ice-cream factory, where we had to retro-fit a whole bunch of sensors to this particular line, so that they could gather data and do some interesting data on Linux... But we were there just to help them gather the data from the sensors. And that was three Raspberry Pi's, Arduinos, things wired in, and Node-RED on each Raspberry Pi to coordinate and synchronize gathering data.
 
-\[00:12:08.04\] And this place was like 200 miles away from the office, so it's not somewhere we can just pop in... And they phoned up saying they'd had to replace one of the sensors on the Arduinos, so the 0-to-5 volts reading now mapped to a different pressure range; when could we come back to rebuild the code to get sensible data.
+\[12:08\] And this place was like 200 miles away from the office, so it's not somewhere we can just pop in... And they phoned up saying they'd had to replace one of the sensors on the Arduinos, so the 0-to-5 volts reading now mapped to a different pressure range; when could we come back to rebuild the code to get sensible data.
 
 Whilst I'm on the phone with them I logged into the VPN, fired up the web browser, and in Node-RED I could just change the one number to represent the new mapping. I hit deploy before he finished asking when would we be able to come back on-site to fix the code.
 
@@ -60,7 +60,7 @@ So I think we didn't exactly know how many different sensors we were strapping o
 
 **Christopher Hiller:** Right, yeah. I think it makes sense then. Every Pi has an Arduino, and the Arduino is not on the network itself; well, something's gotta be on the network. Node-RED already has this serial node, so you just pull the data out and send it with Node-RED. That makes sense to me.
 
-\[00:16:09.00\] I guess that's probably because now I tend not to build things that don't have Wi-Fi in them, or some sort of network connectivity... So it's like "Oh, well..." I guess before we had an ESP8266 you would need to plug your Arduino into something else to get that over the network.
+\[16:09\] I guess that's probably because now I tend not to build things that don't have Wi-Fi in them, or some sort of network connectivity... So it's like "Oh, well..." I guess before we had an ESP8266 you would need to plug your Arduino into something else to get that over the network.
 
 **Nick O'Leary:** Yeah. And in this case, when we turned up, they showed us the big steel box that all of our kit would be living inside... Because at the end of every day they get the pressure hose and the whole thing gets washed, because it's food production. This big steel box was not conducive to Wi-Fi, so we had literally one Ethernet cable coming into this box, so... Interesting constraints of real-world environments.
 
@@ -74,7 +74,7 @@ So I think we didn't exactly know how many different sensors we were strapping o
 
 I've got a whole ton of Node-RED flows running on the internet, handling a whole bunch of GitHub webhooks, for example. It just makes it really quick and easy. I've got a whole bunch of Alexa Skills at home that are backed by Node-RED running in the cloud, just because it makes it so quick and easy just to spin something up to handle the request, and again, not have to worry about all that boilerplate code you need to do it.
 
-**Break:** \[00:19:18.21\]
+**Break:** \[19:18\]
 
 **Christopher Hiller:** Alright, so what company is there out there using Node-RED right now, and what are they using it for?
 
@@ -96,7 +96,7 @@ And then the building management systems, those sorts of things... Again, they'r
 
 So you've got device people, and then you've got people using it in the cloud. I mentioned Hitachi, I know Siemens have got an offering around Node-RED, NetApp have got a modified version of Node-RED for one of their products... Particle.io, a great IoT company, creating really cool devices; they've got their current beta of their Particle Rules Engine, so you can actually define rules for your IoT data using Node-RED... And then there's a long list of companies, big and small, who are playing around with Node-RED. Some already have commercial offerings based around it. Lots of people are using it internally, and rather than creating products on the back of it, just using it for what it's meant to be used for internally, that type of stuff.
 
-\[00:24:11.08\] So it's quite rich and varied, and I think it does reflect the fact -- traditionally, it has come from an IoT background, so lots of those examples are IoT-based, but we know there's some interesting companies doing... I mean, there's one in particular who does chat services for massively multiplayer online games, and they have built a system using Node-RED that takes a real-time stream of all of the chat messages going on in a game, and the service they provide is it allows linguists to define rules to identify abuse, and people griefing other players... And it allows the game publisher to choose how do we respond in-game to when you see one player being abusive to another.
+\[24:11\] So it's quite rich and varied, and I think it does reflect the fact -- traditionally, it has come from an IoT background, so lots of those examples are IoT-based, but we know there's some interesting companies doing... I mean, there's one in particular who does chat services for massively multiplayer online games, and they have built a system using Node-RED that takes a real-time stream of all of the chat messages going on in a game, and the service they provide is it allows linguists to define rules to identify abuse, and people griefing other players... And it allows the game publisher to choose how do we respond in-game to when you see one player being abusive to another.
 
 A great example where you need language experts, because it has to handle -- it's not just English, of course; it has to handle every human language. So you have the linguists who are experts in understanding those rules and patterns of behavior - Node-RED allows them to define that logical flow of how they can detect the behavior where they don't have to write code to do it. That's a great example, completely away from the IoT domain. And yeah, a whole host -- some people use it for integrations of systems... Lots of different things.
 
@@ -108,7 +108,7 @@ One of the interesting challenges is -- and this is one \[unintelligible 00:25:2
 
 **Suz Hinton:** One way that I get around this with open source hardware and the libraries that I maintain - if anyone opens an issue or a request, I will immediately ask them "By the way, would you mind sharing what you're doing with it?" Because that's really the only way that you can find out. But in your case, Nick, you actually have something that might give you a few clues, which is when you go on Npm right now, if you just put in the term Node-RED, you get a ton of results. I'm talking nearly 3,000 packages that at least referenced Node-RED. At a guesstimate, how many of those are community-contributed, compared to ones that you've actually authored yourself? And does that give you clues about how it's being used?
 
-**Nick O'Leary:** \[00:27:43.15\] I can tell you as of right this moment there are 2,216 Npm modules that contribute extra nodes into the Node-RED palette. So 2,216 - I forget how many of those are ours, but I think about 100 of those might be ones that we in the Node-RED have published at one time or another. So there's well over 2,000 truly third-party modules out there for Node-RED. And I think, again, in terms of how you go about building a community on a tool like Node-RED, the real strength was always about not gatekeeping who could extend its functionality.
+**Nick O'Leary:** \[27:43\] I can tell you as of right this moment there are 2,216 Npm modules that contribute extra nodes into the Node-RED palette. So 2,216 - I forget how many of those are ours, but I think about 100 of those might be ones that we in the Node-RED have published at one time or another. So there's well over 2,000 truly third-party modules out there for Node-RED. And I think, again, in terms of how you go about building a community on a tool like Node-RED, the real strength was always about not gatekeeping who could extend its functionality.
 
 Each of these nodes -- it is an Npm module, and as long as the module has got the Node-RED keyword, then our flow library will pick it up; it regularly scans Npm, looking for modules with the Node-RED keyword. We do a bit of work to examine it and say "Does this actually contain a node, or is someone just using the keyword for the fun of it?" And if it contains a node, it automatically gets listed in our flow library.
 
@@ -126,7 +126,7 @@ Then there's an HTML file which defines the edit dialogue of the node in the edi
 
 So Node-RED will load the modules; as long as they load okay, when you open up the editor, the HTML file gets sent up to the editor to register it in the editor side. So it's really only those two things - the JavaScript file, the runtime behavior, the HTML for the editor, and the package.json metadata to pull all those together. And a single Npm module can contain multiple nodes, can contain multiple of those files, as long as they're all listed in the package.json file.
 
-\[00:31:54.09\] So the node object that you have to implement is quite a simple thing. The node registers a listener on the input event, which will get triggered whenever the node is handed a message. It can do whatever it wants, and at some point it will call the Send function on its prototype, to send the message on to whoever it might be wired to. That's it at its most simple. It can get more complicated, but at its heart, that's all it is - you just register an event to handle messages coming in, and you either send a message on or you don't.
+\[31:54\] So the node object that you have to implement is quite a simple thing. The node registers a listener on the input event, which will get triggered whenever the node is handed a message. It can do whatever it wants, and at some point it will call the Send function on its prototype, to send the message on to whoever it might be wired to. That's it at its most simple. It can get more complicated, but at its heart, that's all it is - you just register an event to handle messages coming in, and you either send a message on or you don't.
 
 **Christopher Hiller:** There's two sides then to every node - there's the runtime, and this is what the node's actual behavior is. So if that is a node that wants to tweet, or something like that, that is a node module, and it runs in Node.js, and it reaches out to Twitter.com, and listens for events, and sends events on. And then there's this portion that runs in the browser; that's the front-end. So when you load up Node-RED, if you install it and then you go to the server in your browser and you see this big layout -- and I think it might not be obvious to people who haven't used it before... Could you explain the difference between the runtime and staging? When you make changes in the browser and draw things out, what happens when you click that button that says "Okay, stage this. Publish this"?
 
@@ -140,7 +140,7 @@ A Node-RED flow is essentially JSON code, or a JSON string. So it's not doing co
 
 There's a brilliant node - and I've never really dug into who's created it - that can give you a list of German public holidays. It's been around for a long time, and I keep meaning just to ping its owner and find out, with no sense of criticism, why; it's awesome that you've created that, and I'd love to know your use case for needing a node that can tell you the German public holidays.
 
-\[00:36:02.08\] But it's also great seeing -- I always get a buzz when you see a node that's obviously being made and maintained by a company for their own API, rather than someone in the open source community creating a node for someone else's API... Because that's also a nice sense of validation that "Here's a company who are paying attention to what can be done, and are embracing the open source community by getting their thing (whatever it may be) enabled within the Node-RED ecosystem."
+\[36:02\] But it's also great seeing -- I always get a buzz when you see a node that's obviously being made and maintained by a company for their own API, rather than someone in the open source community creating a node for someone else's API... Because that's also a nice sense of validation that "Here's a company who are paying attention to what can be done, and are embracing the open source community by getting their thing (whatever it may be) enabled within the Node-RED ecosystem."
 
 **Suz Hinton:** That's very cool. Could you also just quickly tell us why you're so popular in Japan with Node-RED, and what happened there? What's the story?
 
@@ -154,7 +154,7 @@ Again, that has certainly helped the fact that, you know, here's a tool that if 
 
 **Suz Hinton:** Yeah, absolutely.
 
-**Break:** \[00:39:23.25\]
+**Break:** \[39:23\]
 
 **Suz Hinton:** We wanted to finish up by talking about what sort of exciting things are happening with Node-RED in the future. I heard that there's an upcoming release happening, which is version 1.0, which is a big deal... Can you tell us a little bit about that?
 
@@ -172,7 +172,7 @@ We're going fully asynchronous with 1.0, so every event of a message going betwe
 
 **Christopher Hiller:** That's awesome. No more Zalgo in Node-RED, where you're not sure if it's gonna be synchronous or asynchronous. I know I've been bit by that before, and that's great to hear that that's getting done, especially.
 
-**Nick O'Leary:** \[00:43:54.02\] Yeah, it is an interesting challenge. We've all taken this opportunity to make some what would be breaking changes, but we're trying to absolutely minimize the breakage to a smaller subset of users, and as containable as possible. Because I could take a flow that I created on the second week of the project's existence and import it today, and it will still work. That's being part of our mantra around stability of Node-RED. Getting to 1.0 will improve that stability moving forward, and like I said, it unlocks a whole bunch of interesting stuff that we can then start getting to in the future.
+**Nick O'Leary:** \[43:54\] Yeah, it is an interesting challenge. We've all taken this opportunity to make some what would be breaking changes, but we're trying to absolutely minimize the breakage to a smaller subset of users, and as containable as possible. Because I could take a flow that I created on the second week of the project's existence and import it today, and it will still work. That's being part of our mantra around stability of Node-RED. Getting to 1.0 will improve that stability moving forward, and like I said, it unlocks a whole bunch of interesting stuff that we can then start getting to in the future.
 
 **Suz Hinton:** When you say "we", I know that you're still responsible for the bulk of this work, and you work on this a lot. Given that you have a day job and you work at IBM, do you get an opportunity to work on this as part of being on the clock, or is this completely off-the-clock, or can we talk about this? Because I wanna make sure that there's credit where credit's due.
 
@@ -190,7 +190,7 @@ We know there are others with interest, and it's that perpetual challenge with o
 
 That's been one of the great things about the community - we've got a really strong community of people willing just to take time to help others. That's a workload that I keep an eye on, but I don't have to step in very often at all, because our great community is there, helping each other.
 
-**Christopher Hiller:** \[00:48:13.00\] Even though there's a Subreddit, and it gets new messages (I would say) every day...
+**Christopher Hiller:** \[48:13\] Even though there's a Subreddit, and it gets new messages (I would say) every day...
 
 **Nick O'Leary:** Yeah, yeah. And I had to admit, the Subreddit is one I don't spend any time in. Likewise, there's a Facebook group I stumbled across, and I've joined it, and I've now been made an admin, but I do tend just to keep an eye on it, and when someone asks a really meaty question, I give them a hand, but then I do point them to our Discourse forum, just because that's where the real activity is, and that's where the real heart of the community is. We try to help people where they ask the question, but also trying to steer them to where the bulk of people are, just to help not spread things too thin.
 

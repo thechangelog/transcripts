@@ -38,7 +38,7 @@
 
 **Amal Hussein:** Did Google have to hard-code something in the search algorithm to get that to pop up?
 
-**Paul Bakaus:** \[00:03:57.16\] Yeah... You know what - I still think we have to work on that, to be honest. No, to be honest, I haven't considered SEO when I started the whole thing. I really thought more about the term "blogger", and how if you go to a high school class today and you ask them "Who wants to be a blogger?" then you'll get zero hands raised. So my idea here was to shift that... To say, "Look, can we call this profession something that is a little bit more in the zeitgeist maybe of high school kids that want to become creators?" That's really the reason behind this.
+**Paul Bakaus:** \[03:57\] Yeah... You know what - I still think we have to work on that, to be honest. No, to be honest, I haven't considered SEO when I started the whole thing. I really thought more about the term "blogger", and how if you go to a high school class today and you ask them "Who wants to be a blogger?" then you'll get zero hands raised. So my idea here was to shift that... To say, "Look, can we call this profession something that is a little bit more in the zeitgeist maybe of high school kids that want to become creators?" That's really the reason behind this.
 
 **Amal Hussein:** Wow, that is super-practical, and super-german. I would expect nothing less from you, Paul.
 
@@ -66,11 +66,11 @@ And now there's another aspect of this, which is bringing innovation back to con
 
 So first of all, we're gonna have lots of fun stuff in the show links, so everyone should check this stuff out, because it is super-cool. I think the vibe around the education arc and the roll-out of this program is just super-cool... So we're gonna play some audio for y'all. I hope you enjoy it.
 
-**Extract:** \[00:07:44.09\] Bloggers. Journalists. Editors. Content marketers. Fan artists. Curators. Activists. A diverse group on their own journeys, and yet they all have something in common - they all create on and for the web. But it's not the wide, wide web of the '90s anymore, where I could \[unintelligible 00:07:59.01\] and GIFs together to satisfy my audience.
+**Extract:** \[07:44\] Bloggers. Journalists. Editors. Content marketers. Fan artists. Curators. Activists. A diverse group on their own journeys, and yet they all have something in common - they all create on and for the web. But it's not the wide, wide web of the '90s anymore, where I could \[unintelligible 00:07:59.01\] and GIFs together to satisfy my audience.
 
 Creating on the web has become more complicated, especially if you're not technical. Mobile users have higher expectations and less patience, and there's not a lot of guidance out there to help you on your journey... Which is super-weird, right? Because the web is such a wonderful place. As the only truly open platform in the world, with an estimated four billion users, your own website allows you to own your audience, your content, and your monetization strategy.
 
-\[00:08:25.13\] Whether you're a blogger, a journalist, or a small business on the web, we're all facing similar challenges, and we can probably learn a lot from each other. So if we're stronger together, why don't we have a shared identity? We're convinced we can help each other as fellow web creators.
+\[08:25\] Whether you're a blogger, a journalist, or a small business on the web, we're all facing similar challenges, and we can probably learn a lot from each other. So if we're stronger together, why don't we have a shared identity? We're convinced we can help each other as fellow web creators.
 
 At Google, we deeply care about the web and wanna support you the best we can. Not just with developer and search guidance, but with a completely dedicated set of content, outreach and social channels we call Google Web Creators.
 
@@ -108,7 +108,7 @@ The second one is yes, there are a ton of what we call modern creators, for a la
 
 **Jerod Santo:** So you kind of need help in multiple facets of this thing, otherwise you have to go where the audience is, don't you?
 
-**Paul Bakaus:** \[00:11:56.24\] I guess that's true, yeah. To be honest, I think it's not a zero-sum game either. So it's not like we're trying to shift everyone to the web exclusively. That I think is also important to consider, because even if you're a successful fashion blogger or food blogger today, then social media is gonna be a big part of your strategy. We're not trying to say "Stop your Instagram account and come to the web." No. It's diversification that matters here. It's the same with the stock market. You're not just gonna invest in one stock and be happy with that if you're a smart broker. You will diversify your strategy there.
+**Paul Bakaus:** \[11:56\] I guess that's true, yeah. To be honest, I think it's not a zero-sum game either. So it's not like we're trying to shift everyone to the web exclusively. That I think is also important to consider, because even if you're a successful fashion blogger or food blogger today, then social media is gonna be a big part of your strategy. We're not trying to say "Stop your Instagram account and come to the web." No. It's diversification that matters here. It's the same with the stock market. You're not just gonna invest in one stock and be happy with that if you're a smart broker. You will diversify your strategy there.
 
 **Amal Hussein:** Yeah, be in all the places.
 
@@ -136,7 +136,7 @@ But the crucial thing is that we're always trying to find that compromise that k
 
 **Amal Hussein:** Yeah. So to kind of summarize, this Web Creators project is - at least the first big thing that y'all are tackling is bringing Web Stories, which is a format of content, to the open web. So that's what we're talking about here. And we'll get into the tooling, and the how, and the deploy, and the what as we go through this show... But to kind of set the stage for that context, you mentioned that Google even got criticized for AMP, and all these initiatives to really just focus on "What can we desperately do to fight the native app mind share of the web experience? How do we bring folks into the web through browsers, and using open clients?" This kind of battle - Google have really been leading that effort. In some ways, obviously, there's a huge incentive for Google; Google sells ads, ads pay the bills... It's in Google's interest that the web stays healthy, vibrant etc. So luckily, the intentions are aligned with something good here.
 
-**Paul Bakaus:** \[00:16:24.24\] I'm glad you're mentioning this, because so many people come to me and like "What's in it for you? Why are you doing this? I don't trust Google. Why is Google trying to do something good here? There must be some hidden intention here, right?" The fact is if you look at all the Fortune 500 companies, which company would suffer the most when open web goes away?
+**Paul Bakaus:** \[16:24\] I'm glad you're mentioning this, because so many people come to me and like "What's in it for you? Why are you doing this? I don't trust Google. Why is Google trying to do something good here? There must be some hidden intention here, right?" The fact is if you look at all the Fortune 500 companies, which company would suffer the most when open web goes away?
 
 **Amal Hussein:** Google, for sure.
 
@@ -150,7 +150,7 @@ What I will say is I think social media has a role to play for a creator, and we
 
 **Amal Hussein:** Yeah, true that. Well, in the next segment we're gonna dig into the How. How do we discover this content? How is that created? All that fun stuff. We'll be right back, kids...
 
-**Break:** \[00:18:30.18\]
+**Break:** \[18:30\]
 
 **Amal Hussein:** Alrighty, so... Web Stories. How do we find them, how do we link to them? What is this thing?
 
@@ -180,7 +180,7 @@ So a Web Stories TL;DR - they're taking that existing story format that you are 
 
 We don't actually think that a lot of developers should hand-code them. Maybe the biggest platforms that create sort of an automated pipeline to create them - yes. But for the general content creator, they would go into like a Photoshop-like tool to drag those stories together and hit Publish, and then ultimately their website. So a story is just a website - a glorified website, in some ways - that has a very clear user experience that relates to what consumers relate to on mobile.
 
-**Nick Nisi:** \[00:24:08.18\] The idea of the Web Stories - is that more of just like a spec? And not necessarily like -- if I wanna go create a story, it's not something that is hosted on Google, right? It's more of just like "This is how it would work, and how you can implement it."
+**Nick Nisi:** \[24:08\] The idea of the Web Stories - is that more of just like a spec? And not necessarily like -- if I wanna go create a story, it's not something that is hosted on Google, right? It's more of just like "This is how it would work, and how you can implement it."
 
 **Paul Bakaus:** That's right.
 
@@ -240,7 +240,7 @@ Bing has their own AMP cache, for example. So if you search on Bing and you land
 
 **Paul Bakaus:** But I cannot break news yet. What I will say is that -- so Jerod, you asked about how can you discover stories. And in fact, they're web pages. So nothing stops you from linking to them on your own site. Nothing stops you from having a Carrousel experience on your own site. And some people are thinking "Well, who's gonna do that? That's weird", because the experience is so different. But in fact -- I'll just give you an example here. There's this \[unintelligible 00:28:03.15\] a third-party company in France, and they're called Join Stories. A bunch of clients in France, like big retailers, big websites, that now have stories on their sites.
 
-\[00:28:18.01\] You will be thinking, "Well, that's weird", because if you'd know more about the launch role out of Discover and Search, then you would know that we actually haven't launched this Discover carrousel in France. We have launched it so far in the U.S. and in Brazil and in India. So some people have been asking "What's in it for them?" and in fact, they just have it on their own website. They have integrated super-well into their experience, and it's working for them. So there's definitely a way to just bring it to a site.
+\[28:18\] You will be thinking, "Well, that's weird", because if you'd know more about the launch role out of Discover and Search, then you would know that we actually haven't launched this Discover carrousel in France. We have launched it so far in the U.S. and in Brazil and in India. So some people have been asking "What's in it for them?" and in fact, they just have it on their own website. They have integrated super-well into their experience, and it's working for them. So there's definitely a way to just bring it to a site.
 
 **Amal Hussein:** We'll have to link to that.
 
@@ -274,7 +274,7 @@ So we're using the same format for stories, we're using the same kind of tap-tap
 
 **Paul Bakaus:** Yeah. I mean, for everyone in this room, for everyone who's technical who's a web developer, nothing stops you from coding them from scratch. So yes, under the hood it's just HTML, but it is using the AMP library, the AMP framework.
 
-\[00:31:52.28\] So you pull in the JS library from AMP, and then you use the flavor of HTML that we call AMP HTML. So there's like an AMP story web component, and then there's like AMP grid page, and so on... So there's a bunch of special components that I use to construct the story. And there are certain tags that are not allowed, because they kind of destroy the experience. As I mentioned earlier, we don't wanna have someone clickjack the whole thing etc.
+\[31:52\] So you pull in the JS library from AMP, and then you use the flavor of HTML that we call AMP HTML. So there's like an AMP story web component, and then there's like AMP grid page, and so on... So there's a bunch of special components that I use to construct the story. And there are certain tags that are not allowed, because they kind of destroy the experience. As I mentioned earlier, we don't wanna have someone clickjack the whole thing etc.
 
 **Amal Hussein:** Scripts...
 
@@ -326,7 +326,7 @@ But yeah, I would hope for that kind of ecosystem to flourish in that way, so th
 
 **Jerod Santo:** Are there stories for those features inside Web Stories, or how does that work? It'd be tough to get somebody who's making money posting stories all day to Instagram to come over to the open web if they can't make money somehow, or even as easy?
 
-**Paul Bakaus:** \[00:36:10.10\] For sure. this is a great question, and something that I think about, that keeps my up at night every day, because the experience of onboarding someone like that onto the web is almost comically bad. It's essentially like on Instagram the entire experience is completely integrated, as an example. The app that you consume and you create, going from consumer to creator is super-frictionless. How often do you worry about performance optimization on an Instagram post? Never. Because that whole thing is completely abstracted away for you.
+**Paul Bakaus:** \[36:10\] For sure. this is a great question, and something that I think about, that keeps my up at night every day, because the experience of onboarding someone like that onto the web is almost comically bad. It's essentially like on Instagram the entire experience is completely integrated, as an example. The app that you consume and you create, going from consumer to creator is super-frictionless. How often do you worry about performance optimization on an Instagram post? Never. Because that whole thing is completely abstracted away for you.
 
 And how often do developers for Instagram complain about the fact that they can't do something? Never, because the platform started that way. But then if we take toys away with something like AMP, then the whole web ecosystem goes like "Oh my God, I can't drive and drink anymore?! Blasphemy."
 
@@ -360,13 +360,13 @@ I think if we could focus on what makes the web awesome - that sells more Web Cr
 
 **Amal Hussein:** Yeah. "It's disappearing." Anyways. So yeah, no FOMO on the web. It's about your bibliography.
 
-**Paul Bakaus:** \[00:40:11.14\] Yeah. One thing I just wanted to call out is that there's two separate goals here. One is to really make the creator experience on the web better, to make sure that we can onboard creators to the web for many years to come, and that they're successful, and that there's enough ROI - to use a businessy term - for them to stay on the web and to find it valuable... But then the other goal - and this is also actually really why we think Web Stories matters - is to make sure that the user experience of the web is not as frustrating as it is today. And it is frustrating. I think we all notice. But the part of the web that is the content web - you might be landing on one really good blog post, and you click on another blog post, and then have like a newsletter capture, and you have GDPR dialogues, whatever... There's massive plasters of ads... There's so much that has been going wrong over the last couple of years. That's something we're trying to control with that Web Stories experience on the consumer side.
+**Paul Bakaus:** \[40:11\] Yeah. One thing I just wanted to call out is that there's two separate goals here. One is to really make the creator experience on the web better, to make sure that we can onboard creators to the web for many years to come, and that they're successful, and that there's enough ROI - to use a businessy term - for them to stay on the web and to find it valuable... But then the other goal - and this is also actually really why we think Web Stories matters - is to make sure that the user experience of the web is not as frustrating as it is today. And it is frustrating. I think we all notice. But the part of the web that is the content web - you might be landing on one really good blog post, and you click on another blog post, and then have like a newsletter capture, and you have GDPR dialogues, whatever... There's massive plasters of ads... There's so much that has been going wrong over the last couple of years. That's something we're trying to control with that Web Stories experience on the consumer side.
 
 **Amal Hussein:** It's interesting - we're taking one little segment and trying to say "Okay, let's do a social experiment and see if this will make the web better", right? But we need lots of efforts like that. But what we're really missing is a framework, that easy onboarding... And it's a really tough competition with native closed source platforms, so there's a lot to improve here...
 
 We're gonna get into kind of the future, and folks who are using this stuff, and all kinds of other good stuff in the next segment y'all, so stay tuned...
 
-**Break:** \[00:41:33.18\]
+**Break:** \[41:33\]
 
 **Amal Hussein:** Alrighty everyone, we're back... So how many times do y'all think we've said "stories" in the past 30-40 minutes? Probably quite a bit...
 
@@ -386,7 +386,7 @@ We're gonna get into kind of the future, and folks who are using this stuff, and
 
 **Amal Hussein:** The most interesting things for me, and something that I've been talking about for a while, and we'll drop some clips here in a minute to show that I sort of predicted the future, that we'd be having this conversation, but - I really care about democratizing who's pushing to the web, and not just folks that are employed, not just folks who are from Western countries... We need more people pushing to the web, not just pulling it... This movement really feels like it's opening that door for higher-quality content for more people, hopefully.
 
-\[00:44:07.27\] I'm curious - this project has been going on for a few months now; it's fairly new, about seven months... What's the reach been like? Are you seeing a push in the right way that way, with new creators coming on the web?
+\[44:07\] I'm curious - this project has been going on for a few months now; it's fairly new, about seven months... What's the reach been like? Are you seeing a push in the right way that way, with new creators coming on the web?
 
 **Paul Bakaus:** Yeah, great question. I think it's too early to tell, to be honest, because we're still in our first baby steps to grow those new channels and initiatives. But everything you're saying is exactly what I'm trying to do... And to be honest, this has been the kind of reason for why I've started a lot of things over the last couple of years. In a previous life - I don't know if you're still familiar with this part of my journey - I worked on jQuery and jQuery UI.
 
@@ -420,7 +420,7 @@ For instance, one of the things I'm doing right now is I'm contracting a bunch o
 
 **Jerod Santo:** And it's such a shame -- I mean, it's useful. We syndicate podcasts that way. I still RSS feeds, that's how I subscribe to bloggers. I've got Nick's blog, just waiting for him to write that next post. As soon as he does, it's gonna come right into my reader. I think that's one way--
 
-**Nick Nisi:** \[00:48:09.23\] I just have to refactor the whole site...
+**Nick Nisi:** \[48:09\] I just have to refactor the whole site...
 
 **Jerod Santo:** \[laughs\] Yeah, he's just gotta rewrite the site, and then he'll have his next post. I really think it's such a great tool--
 
@@ -454,7 +454,7 @@ But maybe - again, the tooling, the moderation tools, trouble with spam... Thing
 
 Everyone I talk to are saying the same thing here, which is "Just let me create content", but 80% of my day is focused on all the stuff around it. And this is a huge problem. If you need to fight the trolls and counterattacks from everywhere, do your taxes... There are so many aspects of being a creator that are not about creating content, and I think anything we can do as a platform and as a web community to make this easier would be amazing.
 
-**Amal Hussein:** \[00:51:57.23\] Yeah, we need frameworks for content authorship, making it easy to go from zero to hero, without blocking power users... So just like a ramp. It seems like Google would be in a great position to make something like that, Paul, for what it's worth.
+**Amal Hussein:** \[51:57\] Yeah, we need frameworks for content authorship, making it easy to go from zero to hero, without blocking power users... So just like a ramp. It seems like Google would be in a great position to make something like that, Paul, for what it's worth.
 
 **Paul Bakaus:** Yes, I think so. We're trying, we're trying to do something here. I think there's also the challenge here that the web means something else to everyone. The beautiful thing about the web is that it's a content platform but also an application platform, and also (to some) a social platform, and so on. I feel like we're doing moderately well; as I mentioned earlier, we're doing moderately well when it comes to the application web.
 
@@ -490,7 +490,7 @@ I think really with the web it's like, own your content. Own your own domain. Co
 
 **Jerod Santo:** That's why, like Paul said, people are doing these email newsletters, because at least with that you have a direct relationship with a person's email. So sometimes you actually have to learn the hard way.
 
-**Paul Bakaus:** \[00:55:57.11\] Yeah. I mean, for the browser thing too, I wish that was a surprise, that kids today don't really get it anymore... But no, it's not a surprise, because -- I mean, that browser is a gateway to the web. That's what the browser is. It's an empty shell, and the web makes it awesome. If you don't understand what's valuable about the web, then why download that empty gateway? If you're a kid today and you get a phone as your first computing platform, then everything that you put on your homescreen needs to deserve its place. It has to have value on its own. And the browser in itself doesn't provide. It's the web and all the content that you get in there that provides the value. Pun intended, right? ...and tell that story the right way, then that's not great.
+**Paul Bakaus:** \[55:57\] Yeah. I mean, for the browser thing too, I wish that was a surprise, that kids today don't really get it anymore... But no, it's not a surprise, because -- I mean, that browser is a gateway to the web. That's what the browser is. It's an empty shell, and the web makes it awesome. If you don't understand what's valuable about the web, then why download that empty gateway? If you're a kid today and you get a phone as your first computing platform, then everything that you put on your homescreen needs to deserve its place. It has to have value on its own. And the browser in itself doesn't provide. It's the web and all the content that you get in there that provides the value. Pun intended, right? ...and tell that story the right way, then that's not great.
 
 **Amal Hussein:** I couldn't have said it any better, Paul. That's such a compelling story. We've got a tough fight ahead of us as web folks, you know? We've gotta make this platform relevant, and compelling, and more engaging, and more organized, and keep it open...
 

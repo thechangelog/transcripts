@@ -18,7 +18,7 @@ In this talk I talk about npm, I talk about JavaScript's package manager, I talk
 
 And because I was an insider in part of the story, I could talk about that part of the story. It turns out that when you run something at that scale, it does cost money to run, and it's probably not a consequential number when you talk about giant businesses. I think Laurie Voss, the chief operating office at the time, figured that you could run npm the company for 99 years for the amount of money Uber burned in a single quarter...
 
-**Jerod Santo:** \[00:04:19.18\] Oh, wow.
+**Jerod Santo:** \[04:19\] Oh, wow.
 
 **CJ Silverio:** ...which is scale - that tells you it's actually pretty small on the cost scale. But it's still a notable amount of money as far as human beings are concerned. When you're talking about tens of thousands of dollars a month - well, you know, $30,000 and up - in AWS bills and network bills, that's notable; you have to have a story for how you're gonna pay to run a package registry that every single JavaScript developer uses for free.
 
@@ -54,7 +54,7 @@ I think the talk, and Entropic the project come from my realization that I was f
 
 **CJ Silverio:** ...this is what their timeline is for getting a return on their investment. And you can't opt out of that. Once you've handed over a chunk of your company to them in exchange for this money, they in fact want that payoff, and you have handed control over your company to them in exchange for that payoff. Sometimes that's exactly the right tradeoff to make.
 
-\[00:07:51.18\] I'm working for a company right now that VC funding makes perfect sense; external funding makes perfect sense, because the money has a very clear thing you can do with it, it has a very clear way to accelerate the business, and there's a very clear exit story that makes sense, aligns with VC goals. And for something like a language ecosystem, this is not a short-term project. This is not a "Go big or go home" project. It's not a "We're gonna grow, we're gonna be the biggest possible, we're gonna make a lot of money, we're gonna have an exit... Or we're just gonna go bust and we're gonna be on that Tumblr blog of like 'My incredible journey', where you shut down everything."
+\[07:51\] I'm working for a company right now that VC funding makes perfect sense; external funding makes perfect sense, because the money has a very clear thing you can do with it, it has a very clear way to accelerate the business, and there's a very clear exit story that makes sense, aligns with VC goals. And for something like a language ecosystem, this is not a short-term project. This is not a "Go big or go home" project. It's not a "We're gonna grow, we're gonna be the biggest possible, we're gonna make a lot of money, we're gonna have an exit... Or we're just gonna go bust and we're gonna be on that Tumblr blog of like 'My incredible journey', where you shut down everything."
 
 **Jerod Santo:** Right. The startup graveyard.
 
@@ -78,7 +78,7 @@ The service-level agreements - you never really sign up for that with npm, but p
 
 And the uptime - again, when something is run by volunteers, you have a level of forgiveness that they might not be awake at 3 AM in their timezone. But npm, because it was a company, and because it could afford to run operations 24/7, we had a team of contractors in Eastern Europe helping us on the times that we were asleep.
 
-\[00:12:18.21\] Because all that support was there, the expectation became that it would be up, that it would be fast, that you would get professional-level support... Because it was a company, and it could do this. And this, I think, let it reach a scale and a ubiquity and an unthinking use level that is harder for languages that didn't do this to reach.
+\[12:18\] Because all that support was there, the expectation became that it would be up, that it would be fast, that you would get professional-level support... Because it was a company, and it could do this. And this, I think, let it reach a scale and a ubiquity and an unthinking use level that is harder for languages that didn't do this to reach.
 
 **Jerod Santo:** We have a lot of listeners in the JavaScript and npm ecosystem, and I'll just say - for many years, npm was kind of a bastion of JavaScript in the ecosystem, because of the support, the people that were there are awesome... And it hasn't been until the last maybe 6-8 months, maybe a year where we started to see the chinks in the armor, we started to see the problems come about. But for those people who are maybe writing Go day-to-day, or are not in that ecosystem, can you describe a few of the things - why is this a problem; what are we seeing where we're thinking "Maybe we made a bad decision." You said specifically you would have made a different decision back then maybe.
 
@@ -104,7 +104,7 @@ And the uptime - again, when something is run by volunteers, you have a level of
 
 **CJ Silverio:** Exactly, exactly. And if you do your job as a company, if you come up with a product that pays the bills... If npm had found a way to monetize the public registry, we wouldn't be having this conversation. Everything would feel differently. But they never found a way to make their biggest expense turn into income.
 
-\[00:16:04.08\] All of those grillions of downloads, that nearly exponential downloads graph represents cost. We were able to, with solid engineering work - I won't say brilliant engineering work, but solid, straightforward engineering work, the kind you can feel good about... That turned it mostly into linear costs in response to that exponential growth. But still, costs continue to rise.
+\[16:04\] All of those grillions of downloads, that nearly exponential downloads graph represents cost. We were able to, with solid engineering work - I won't say brilliant engineering work, but solid, straightforward engineering work, the kind you can feel good about... That turned it mostly into linear costs in response to that exponential growth. But still, costs continue to rise.
 
 **Jerod Santo:** Yeah. I mean, that was the goal of the new CEO, right? We had Isaac on Founders Talk...
 
@@ -134,7 +134,7 @@ We set out to make something that would make it possible for everyone to run the
 
 I was deeply inspired not by Mastodon's API, but Mastodon the concept of ActivityPub and how you can have something that replaces the centralization of Twitter with something where I can run a Mastodon. I do run a Mastodon instance, and my friends are on it, and we participate in this wider ecosystem, and I don't have to be Twitter-sized in order to do that. I thought "Why can't I do this with package management?"
 
-\[00:19:59.29\] The other thing - we had Chris, my partner, in this project (Chris Dickinson), and we're now joined by Kat Marchán, but Kat wasn't part of the project at the time of the announcement. Chris Dickinson and I had spent the previous four years (more or less) running npm's registry, coping with the scaling challenges inherent in it... And we had a very good understanding of the set of problems you have to solve in order to do this at scale. We had a very clear idea of the problems with npm's data model. So I think quite like living with something, and needing to make it go big to understand exactly why it was a bad idea. You never know that when you start it.
+\[19:59\] The other thing - we had Chris, my partner, in this project (Chris Dickinson), and we're now joined by Kat Marchán, but Kat wasn't part of the project at the time of the announcement. Chris Dickinson and I had spent the previous four years (more or less) running npm's registry, coping with the scaling challenges inherent in it... And we had a very good understanding of the set of problems you have to solve in order to do this at scale. We had a very clear idea of the problems with npm's data model. So I think quite like living with something, and needing to make it go big to understand exactly why it was a bad idea. You never know that when you start it.
 
 We knew what was wrong with the API, we knew what a good API would look like, we had some very clear ideas about how to make this achievable for normal human beings. We didn't have an enormous AWS account and bandwidth to burn... So we said "Okay, let's do it." We were there for the mission, let's keep working on the mission. Let's make it so that whoever does this next doesn't need VC-level to make it work, so you can take control of your data.
 
@@ -160,7 +160,7 @@ I just want people to run a registry themselves. And I thought -- it's an ambiti
 
 **CJ Silverio:** "We're gonna solve it." It was a mission statement for me. It was like "Here's why I'm here. Here's why this matters. Okay, I'm not just complaining - here's what I'm doing."
 
-**Break**: \[00:22:57.26\]
+**Break**: \[22:57\]
 
 **Jerod Santo:** So your announcement talk was late May, early June(ish) 2019, and you brought code, but you said "Don't use it, it's not ready yet." Props on bringing the solution to the table; it's very much in development. How long had you been working on it by then and when did this idea begin and the code start to go?
 
@@ -202,7 +202,7 @@ There'd been people like this in my career I've enjoyed writing code with... It'
 
 The npm data model is based on this tarball. You take a package, you take a bunch of JavaScript code that's sitting in this directory and you just \[unintelligible 00:27:52.16\] You have these rules for deciding what goes into the tarball, and then you put it in the tarball, and then you ship the tarball around. The tarball is the unit of communication. There's metadata on top of that; there's like the packaged JSON, which is a big, vague document... It's like package metadata and metadata for each package version.
 
-\[00:28:13.15\] These are the fundamental building blocks of the existing npm API... And we said "Alright, what if we write our own CLI for this? What would the API be, and what does this actually let us do with the data model?" These are the important things to get right, I think, because implementations are kind of less important than getting these building blocks solid. If we have modeled the data of what should be in a JavaScript package correctly, and we have documented an API that's good enough, then our implementation of Entropic shouldn't matter; you should be able to go write your own. So that's where all the work is right now - taking what we wrote and throwing it away with something that's like the right thing for the future.
+\[28:13\] These are the fundamental building blocks of the existing npm API... And we said "Alright, what if we write our own CLI for this? What would the API be, and what does this actually let us do with the data model?" These are the important things to get right, I think, because implementations are kind of less important than getting these building blocks solid. If we have modeled the data of what should be in a JavaScript package correctly, and we have documented an API that's good enough, then our implementation of Entropic shouldn't matter; you should be able to go write your own. So that's where all the work is right now - taking what we wrote and throwing it away with something that's like the right thing for the future.
 
 Okay, so the tarball - why is the tarball not good? I can tell you why...
 
@@ -236,7 +236,7 @@ Chunking it up at the unit of files lets you also do things like the secret of T
 
 **CJ Silverio:** And this - again, going back to the data model, going super-nerdy insider baseball here on the tails of the npm data model, but this is like... You can hear how excited I am about this; this is the fun part for me. Packages -- if you ever type "npm info" in a package, or if you get a packaged JSON and you curl it from the npm registry, it could be really huge. It could be megabytes large, because it's effectively unbounded. You've got the top-level package information - what its name is, what its description is, all that stuff. And then you have per-version data. And the per-version data - it just grows, unbounded, because you can infinity versions for a package. I used to hate it, too; there were some npm packages that had over 5,000 versions on them. Eventually, these users would split off and do a new package just because it became so unwieldy to download a package...
 
-**Jerod Santo:** \[00:32:04.02\] This speaks to the same anxiety I expressed back when we were talking about blockchains, Adam. It's like, all you do is add to the -- like, you just add, add, add...
+**Jerod Santo:** \[32:04\] This speaks to the same anxiety I expressed back when we were talking about blockchains, Adam. It's like, all you do is add to the -- like, you just add, add, add...
 
 **CJ Silverio:** Add, add, add, yeah...
 
@@ -282,7 +282,7 @@ Anti-goals would be things like -- CocoaPods has a perfectly great solution for 
 
 **CJ Silverio:** Yeah. This right here...
 
-**Jerod Santo:** \[00:35:56.20\] That's a huge one, right?
+**Jerod Santo:** \[35:56\] That's a huge one, right?
 
 **CJ Silverio:** ...is super-important. Npm also is a centralized place; every published package goes through Adam Baldwin's beautifully suspicious hands... \[laughter\]
 
@@ -358,7 +358,7 @@ And then you have another set of security questions, which are like "Are these b
 
 **Jerod Santo:** The reaction time to that.
 
-**CJ Silverio:** \[00:39:47.05\] Yeah. There's a reaction time because you can afford to pay Adam Baldwin and a team to be looking at these things all the time. But there are other fundamental security questions that I felt while I was at npm that npm didn't have good answers for... And it was difficult to make progress on them because of resources. Things like package signing. Everyone wants package signing, and it's actually tricky - "What is package signing? What are you signing? Why are you signing it? What are you defending against when you sign a package?" These are the questions, by the way, that I'm working on right now with Entropic, because the data model is different. We have a top-level package metadata, and then an immutable version metadata object that is separate.
+**CJ Silverio:** \[39:47\] Yeah. There's a reaction time because you can afford to pay Adam Baldwin and a team to be looking at these things all the time. But there are other fundamental security questions that I felt while I was at npm that npm didn't have good answers for... And it was difficult to make progress on them because of resources. Things like package signing. Everyone wants package signing, and it's actually tricky - "What is package signing? What are you signing? Why are you signing it? What are you defending against when you sign a package?" These are the questions, by the way, that I'm working on right now with Entropic, because the data model is different. We have a top-level package metadata, and then an immutable version metadata object that is separate.
 
 We have a thing that we could consider signing; that content-addressable manifest of files is a thing we could reasonably have an author sign. And what's more, if you use existing signing networks, like if you use Keybase, which is essentially a usable PGP, you also have an identity trail, which is really interesting. I can figure out if the John-David Dalton who signed this package is the same John-David Dalton who's using this GitHub account, and is the same John-David Dalton who's on this Twitter account. I still don't know if it's the same person I meet in real life unless they tell me that, but...
 
@@ -386,7 +386,7 @@ This is the thing - let's suppose we have three of these things. I publish a Twi
 
 And let's suppose you wanna use that for a different Twitter bot. Do you have to go back home to me? What if I've gone away? You can get those bits from the middle one. How do you know that those bits are the same bits? Okay, if we have a web of trust and signatures that we can trust and verify, then you can depend on getting the same bits.
 
-\[00:44:01.17\] This is not a solution to the problem of "Are those bits malicious?" That I think in the end still depends on expert humans looking at things. You could imagine the Node Foundation running a -- I keep calling it the Node Foundation; they're the OpenJS Foundation now...
+\[44:01\] This is not a solution to the problem of "Are those bits malicious?" That I think in the end still depends on expert humans looking at things. You could imagine the Node Foundation running a -- I keep calling it the Node Foundation; they're the OpenJS Foundation now...
 
 **Jerod Santo:** They were that for a long time... \[laughter\]
 
@@ -416,7 +416,7 @@ These are interesting problems, and we could get them wrong. Do you wanna talk a
 
 **CJ Silverio:** ...enough federation that we will never be in a situation like we're in now, where we are depending on a VC-financed company that could go away.
 
-**Break:** \[00:45:42.15\]
+**Break:** \[45:42\]
 
 **Adam Stacoviak:** So we've talked about doubts... We've got our doubts, obviously, but Ceej, I'm sure that yours are better positioned than ours, simply because we're outsiders. What are your doubts with Entropic? Where are the holes in the cheese, so to speak?
 
@@ -432,7 +432,7 @@ The other interesting thing that we're discovering is that it's even harder beca
 
 **Adam Stacoviak:** Right, you've got limited time.
 
-**CJ Silverio:** \[00:47:58.20\] Yeah. Are people gonna be okay with the pace at which it's happening? Can we do this without burning out? Open source burnout is a real problem. I'm sure people have talked about this with you before - you're not getting paid for this work; you are doing it as a labor of love, you're doing it because it's fun... And suddenly, you've got 1,000 users and they want bug fixes, and they're all entitled, or they're mad at you because you ruined their day with that bug. But that's not how you make a living, and you've got a life to go back to.
+**CJ Silverio:** \[47:58\] Yeah. Are people gonna be okay with the pace at which it's happening? Can we do this without burning out? Open source burnout is a real problem. I'm sure people have talked about this with you before - you're not getting paid for this work; you are doing it as a labor of love, you're doing it because it's fun... And suddenly, you've got 1,000 users and they want bug fixes, and they're all entitled, or they're mad at you because you ruined their day with that bug. But that's not how you make a living, and you've got a life to go back to.
 
 So we've spent a lot of time talking about how we wanna work and how we wanna make decisions, and the pace at which we wanna work... And it's to be seen whether we can actually pull that part off. I think we're up to the technical challenges of the design. Chris and Kat are two very smart people; I'm very privileged to be trailing along after them, watching what they do... So I think they'll solve the technical problems. Will they fail to burn out? Can I prevent them from burning out? Chris has some very thoughtful insights on this...
 
@@ -468,7 +468,7 @@ This to me is like recapitulating the history of open source projects of the pas
 
 **CJ Silverio:** But we now have an open chat. We have a Discord that we invite people to come in if they wanna chat with us. Kat is most active right now on it, because she's got a month off between jobs, so she's there all the time... We're trying to do our conversation there.
 
-\[00:51:53.09\] We also try to kind of codify the way we've worked together for years now, which is -- we don't actually do anything out of the blue. We bounce ideas around first, before we do anything. We never lead with code; we lead with "What if this...? Here's three paragraphs of what I think we might try to do and why." We lead with writing and talking, and then that progresses finally to code. Code is like the last step, and often the easiest step once you've worked out what you wanna do.
+\[51:53\] We also try to kind of codify the way we've worked together for years now, which is -- we don't actually do anything out of the blue. We bounce ideas around first, before we do anything. We never lead with code; we lead with "What if this...? Here's three paragraphs of what I think we might try to do and why." We lead with writing and talking, and then that progresses finally to code. Code is like the last step, and often the easiest step once you've worked out what you wanna do.
 
 **Jerod Santo:** So tie that back into how that's gonna prevent the burnout... Because you're gonna have more contributors, because you're gonna talk more?
 
@@ -512,7 +512,7 @@ I'm playing a long game here. I don't need it to be successful in six months. I 
 
 **CJ Silverio:** I'm thinking I work very carefully with the Node project. I think I need to be there to satisfy their needs and to make sure that I'm scratching their itch, and that they understand this is the eventual home for this code. I think if the Node project finds a use for this, it'll be okay. So they matter to me more than anything else. I'm only in this because I actually really love Node and I really love writing Node code.
 
-\[00:56:12.07\] Like, why did I get involved in npm in the first place? Because Node was having a hard time, because npm was down, and I was having a hard time with my team at the time; we were trying to write Node and we couldn't, because npm was down. So I'm like "I'm here to make Node win." Absolutely sincerely.
+\[56:12\] Like, why did I get involved in npm in the first place? Because Node was having a hard time, because npm was down, and I was having a hard time with my team at the time; we were trying to write Node and we couldn't, because npm was down. So I'm like "I'm here to make Node win." Absolutely sincerely.
 
 So I wanna satisfy their needs, and I think if we do that, the adoption follows. But again, who knows...?!
 

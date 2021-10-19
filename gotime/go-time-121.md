@@ -14,7 +14,7 @@ So let us start -- well, where to start...? This is such a broad field... We can
 
 **Thorsten Ball:** I would say the number one tool that I would need on any computer that I work with would be a terminal, a shell. I often think about this question, because it's an interview question where I work, at Sourcegraph, so I get to ask it a bunch of times and discuss it a lot... And I think my answer would be a Unix environment, a shell, where you can boot up a bunch of tools.
 
-\[00:04:08.00\] I use Vim, so I start up Vim a bunch of times, I put it in a background with Ctrl+Z, I run ripgrep, everything is in a tmux session... I spawn a ton of different shells, close them, spawn new ones, close them...
+\[04:08\] I use Vim, so I start up Vim a bunch of times, I put it in a background with Ctrl+Z, I run ripgrep, everything is in a tmux session... I spawn a ton of different shells, close them, spawn new ones, close them...
 
 When I tried to switch to VS Code, for example, this was the thing that I noticed the most - it's not a specific syntax highlighting or theme or whatever, it is the ability to quickly run stuff in the shell and close the shell. So that's my number one must-have tool.
 
@@ -52,7 +52,7 @@ But I do agree with you fully that a Unix environment is something that is reall
 
 A long time ago, when I first started doing coding and whatnot, all the tools that I needed to use were being built for Linux or Mac machines. So that sort of drove me towards adopting these tools, because that's where all the best tooling - at least for doing command-line kind of work, which I really enjoy doing - was being built, at least first. Over time, they were being ported, and... You know, with the Windows environment it always felt like we had to use some sort of a graphical user interface to use these tools.
 
-\[00:07:56.06\] The moment I got a taste of the CLI, I was like "Okay, I wanna do everything in the command line." And Windows back then was just not -- and I'm talking like Windows '98, Windows 2000... To this day, Windows 2000 still remains my personal favorite, because that was the last one I used before I jumped to using a Mac... Actually, I went through Ubuntu first... But yeah, it feels like - and I'm sure some folks that are hearing this later are gonna corroborate that, and some folks in the channel with sort of jump in as well... The Windows story for tooling and development has gotten much better over the years.
+\[07:56\] The moment I got a taste of the CLI, I was like "Okay, I wanna do everything in the command line." And Windows back then was just not -- and I'm talking like Windows '98, Windows 2000... To this day, Windows 2000 still remains my personal favorite, because that was the last one I used before I jumped to using a Mac... Actually, I went through Ubuntu first... But yeah, it feels like - and I'm sure some folks that are hearing this later are gonna corroborate that, and some folks in the channel with sort of jump in as well... The Windows story for tooling and development has gotten much better over the years.
 
 **Thorsten Ball:** Yeah.
 
@@ -82,7 +82,7 @@ But yeah, these days you can really -- with containerization you can kind of... 
 
 **Johnny Boursiquot:** We're the laggards on the hype curve?
 
-**Jon Calhoun:** \[00:11:54.15\] I've lagged a little bit with some of it. I mean, mostly because a lot of my projects are just me, so I don't experience the same problems that teams experience... But I have been on teams where -- I worked on one Rails project where one of the libraries we required got pulled from a package manager, or wherever it was... I think it was on Brew, or something, but it got pulled.
+**Jon Calhoun:** \[11:54\] I've lagged a little bit with some of it. I mean, mostly because a lot of my projects are just me, so I don't experience the same problems that teams experience... But I have been on teams where -- I worked on one Rails project where one of the libraries we required got pulled from a package manager, or wherever it was... I think it was on Brew, or something, but it got pulled.
 
 So every new person who came to the team would go to get set up and it wouldn't work, because that wouldn't be there, and the newer version would break something... When you experience that, you're like "Okay, I understand why this exists, and I definitely want it", but by the time Docker came around, I was no longer on that project so it didn't matter as much. Sometimes you don't learn and you're like, "Meh, I'll wait till I need it", and then when you need it, you're smacking your head off the wall.
 
@@ -106,7 +106,7 @@ There's this meme out there of folks using Kubernetes around blogs, or something
 
 Speaking of that stuff, and things where people jump around, let's talk about some tools that you guys used for databases, and that sort of thing. I say "speaking of that", because you see people jump from one database to the next hot one... Whenever MongoDB came out, I remember every tutorial and everything on the internet was MongoDB... You know, the NoSQL phase, and all of those phases. I'm curious, what are you guys using? When you're building a new project or doing something like that, what sort of tools do you find helpful on that front?
 
-**Thorsten Ball:** \[00:16:15.19\] Postgres as the database. I don't know how it's pronounced, actually. I got confused a couple days ago. Somebody wrote somewhere it's PostgreSQL, or something...
+**Thorsten Ball:** \[16:15\] Postgres as the database. I don't know how it's pronounced, actually. I got confused a couple days ago. Somebody wrote somewhere it's PostgreSQL, or something...
 
 **Jon Calhoun:** I think it's usually referred to as Postgres, but it is like--
 
@@ -134,7 +134,7 @@ Then if the application were to shut down, it'll handle signals gracefully; it'l
 
 **Jon Calhoun:** I can give one example... When I first launched Gophercises, which was just like a free coding course type thing, my user system was very basic. You basically signed up, I would email you a URL that would log you in, and that URL would basically stay the same forever for each person... But each person had a unique URL to log in. And that entire system was built with BoltDB backing it.
 
-\[00:20:07.13\] So while I did have to write users, it was such a rare occurrence that it didn't matter that it was BoltDB, because 99% of the time I was just reading data... And reading when a user logged in, or reading if they were trying to access different course materials, things like that. So it worked really well... And I wasn't hitting some millions of users scale; I think the highest that setup ever went to was like 25k-30k users, but it was never concurrently. It was spread out. And because of the way the app worked, people refresh a page once every ten minutes when they're done with the video. It's not like they're hitting multiple pages... So it just worked really well for that, and it made deployments and everything like that really easy. Even backing up the system was as simple as copying a BoltDB file and being like "Okay, I've got a back-up of my database now."
+\[20:07\] So while I did have to write users, it was such a rare occurrence that it didn't matter that it was BoltDB, because 99% of the time I was just reading data... And reading when a user logged in, or reading if they were trying to access different course materials, things like that. So it worked really well... And I wasn't hitting some millions of users scale; I think the highest that setup ever went to was like 25k-30k users, but it was never concurrently. It was spread out. And because of the way the app worked, people refresh a page once every ten minutes when they're done with the video. It's not like they're hitting multiple pages... So it just worked really well for that, and it made deployments and everything like that really easy. Even backing up the system was as simple as copying a BoltDB file and being like "Okay, I've got a back-up of my database now."
 
 **Johnny Boursiquot:** One of the little pet projects that I'm working on right now is writing a port scanner, and basically just being able to ship a binary and say "Hey, you write the results of your port scans to this BoltDB database." Then at some point I send that to an S3 bucket, I just package it up as an object, store that, and I get the guarantee that S3 is not gonna go down on me... At least that's more reliable than anything I can build.
 
@@ -156,7 +156,7 @@ And even if I have a highly concurrent program, I sort of have a fan out/fan in 
 
 **Thorsten Ball:** Yeah, I mean... Hacker News is file based as far as I know... So I think it comes down to what exactly do you do with the data. Hacker News, for example - you have posts, comments, whatever; it's a pretty simple hierarchy. You can see how you can map that onto a file system. Every post is a folder, every comment is a file, whatever. Then you can use the file system... And the file systems nowadays are incredibly optimized and fast. We have SSDs... As soon as you can query the data you want without having to use an index, which is one of the big benefits of a database, then I guess you're fine. But as soon as you need different queries, and you need to group data, and you want it to be performant without loading it into memory - I guess then you need a database.
 
-**Johnny Boursiquot:** \[00:24:07.10\] Yeah. If your needs extend to wanting to actually slice and dice a data, then I'd say "Hey, get the data out into some format you can actually work with." If you need to do SQL queries on that thing, dump it out; have some sort of transformer that takes the serialized format that's in the file and converts it into records in a database. Or if you wanted to use some NoSQL, whatever the latest and greatest thing is, that everybody is jumping onto, if you wanna do that, then write a transformer for that, too.
+**Johnny Boursiquot:** \[24:07\] Yeah. If your needs extend to wanting to actually slice and dice a data, then I'd say "Hey, get the data out into some format you can actually work with." If you need to do SQL queries on that thing, dump it out; have some sort of transformer that takes the serialized format that's in the file and converts it into records in a database. Or if you wanted to use some NoSQL, whatever the latest and greatest thing is, that everybody is jumping onto, if you wanna do that, then write a transformer for that, too.
 
 So you can transform the data into whatever format is optimal for your use case, for what you're trying to get done.
 
@@ -190,7 +190,7 @@ Some others that stuck out to me like that were things like Postman, and Paw, an
 
 **Thorsten Ball:** Ngrok is one of these tools you recommended to somebody if they're working with webhooks, for example, and they always say "This is amazing. I just boot it up, it works. I get a little URL... This is my web app now, exposed to the internet securely etc. How could I live without this?" Then you don't have to work with webhooks anymore, and suddenly you never use it again. It's one of these tools, as soon as you need it, it fits the use case perfectly.
 
-**Break:** \[00:27:43.23\]
+**Break:** \[27:43\]
 
 **Jon Calhoun:** Another one that I've noticed along those lines... So there's the new GitHub CLI tool that came out. And when it came out, it reminded me of the hub tool which I found -- again, one of those ones where like when I was creating a lot of new repos and doing certain things like that with the team, I found myself using that tool more often. Then later - I don't know why - I just stopped using it as much. I don't know if it was that I wasn't interacting with a large team as much, so I didn't really have as much of like an issue process, and all the other stuff... I could just use Git and figure out things that way. I'm curious if there's any others along that line.
 
@@ -206,7 +206,7 @@ He often had problems when he tried to rebase or he pushed to a branch or someth
 
 **Johnny Boursiquot:** \[laughs\]
 
-**Thorsten Ball:** \[00:32:19.11\] There's some (I think) advantage to knowing the abstraction layers, in a sense. You know, I haven't used it, so I can't really speak from experience, but I can imagine that if you do stuff in a graphical Git UI client that abstracts a lot of stuff away, it is as easy to shoot yourself into the foot as with Git on the command line... Because you don't actually know what's happening in the background, and for some use cases you might need to know.
+**Thorsten Ball:** \[32:19\] There's some (I think) advantage to knowing the abstraction layers, in a sense. You know, I haven't used it, so I can't really speak from experience, but I can imagine that if you do stuff in a graphical Git UI client that abstracts a lot of stuff away, it is as easy to shoot yourself into the foot as with Git on the command line... Because you don't actually know what's happening in the background, and for some use cases you might need to know.
 
 **Jon Calhoun:** I view it as similar to people who use a framework or an ORM when they don't know SQL, for example. It's one of those cases where it's great to get you started and get you familiar and get you some sort of framework to learn from, but you shouldn't stop at that point. You should look at other ways to use it, and maybe sort of get slightly familiar with the command line, so that you really understand what it's doing behind the scenes... And then I think from that point on you can sort of branch out and actually be a little bit more sophisticated with what you're doing.
 
@@ -226,7 +226,7 @@ So if it means using a graphical user interface to get something done that I don
 
 For example, I don't know how you guys typically do your PRs, but one of the things that I've been really adamant about, I guess, is that I like one commit to sort of be one complete change, like one idea... So where some people do a PR that's actually composed of ten commits, I will actually in my own personal history squash that all together into one big commit. And there are some problems with that, depending on what review tools you use, and things like that... But it is very helpful in some situations.
 
-\[00:36:14.09\] If you've ever been on a team where you're trying to figure out where was this bug introduced, or when was this feature implemented or something, sometimes having that "every commit is one complete thing" is really helpful. I think that's something that'd be hard to explain to somebody the differences and the nuances, unless they have a broad overview of how Git works... And sometimes the graphical stuff can be useful to get that across. But then, like you said, if you really wanna get that mastery for it, you're unlikely to get that in a graphical user interface.
+\[36:14\] If you've ever been on a team where you're trying to figure out where was this bug introduced, or when was this feature implemented or something, sometimes having that "every commit is one complete thing" is really helpful. I think that's something that'd be hard to explain to somebody the differences and the nuances, unless they have a broad overview of how Git works... And sometimes the graphical stuff can be useful to get that across. But then, like you said, if you really wanna get that mastery for it, you're unlikely to get that in a graphical user interface.
 
 **Thorsten Ball:** First of all, I have to add that I was really anal about my Git history. Perfectly written commit messages; I did fantastic commit messages. I put so much love into them. And now at work we do squash and merge of pull requests. So they're all gone, like tears in the rain...
 
@@ -244,7 +244,7 @@ I think this is the same when you talk about IDEs, for example, where you have a
 
 **Jon Calhoun:** I think some of it comes from figuring out which of those tools are the ones you need to replace too, though. Because like Johnny said, we don't have enough time to use everything. And even when it comes to tooling, one of the things I'm very guilty of, and I'm curious if you too are as well, is I will install all these different things and be like "Oh, this is gonna help me be so productive." I'll set up keyboard shortcuts and all these things, and a month later I'll have forgotten 95% of them. And that 5% that I've retained is like "Okay, cool. That's really helpful." But I'm still just like "Why did I spend all that time setting all these other things up, when I just don't use them often enough for that to stick in my head?" Whatever problem I thought it was gonna solve wasn't a problem that was big enough to justify a tool.
 
-**Johnny Boursiquot:** \[00:40:03.16\] I have a guilty conscience with some of the tools that I use... Because I've found that sometimes I use the hunt for new tools to do things perhaps I already know how to do one way, albeit "the long way", or something... I'll go on a hunt for tools that helps speed things up. And when I sit back and I reflect, I'm like "Why did I spend two hours of my time? Two hours that I know I could have spent somewhere else, on something more productive. Why did I spend this time experimenting with these other things, with these other tools that would shave maybe 5 seconds on something/whatever I'm doing now. I've figured out that I use that as a form of procrastination to not do the actual work.
+**Johnny Boursiquot:** \[40:03\] I have a guilty conscience with some of the tools that I use... Because I've found that sometimes I use the hunt for new tools to do things perhaps I already know how to do one way, albeit "the long way", or something... I'll go on a hunt for tools that helps speed things up. And when I sit back and I reflect, I'm like "Why did I spend two hours of my time? Two hours that I know I could have spent somewhere else, on something more productive. Why did I spend this time experimenting with these other things, with these other tools that would shave maybe 5 seconds on something/whatever I'm doing now. I've figured out that I use that as a form of procrastination to not do the actual work.
 
 **Thorsten Ball:** That sounds bad, but I would also add that... It's fun.
 
@@ -290,7 +290,7 @@ It's silly, but at the same time that's just something I've trained my brain to 
 
 **Thorsten Ball:** Actually, I think Trello... They started -- if you had a Trello card in a Trello board and you didn't move it for a couple of days, it started to show cracks, or something. It aged--
 
-**Johnny Boursiquot:** \[00:44:20.09\] Oh, some sort of visual cue?
+**Johnny Boursiquot:** \[44:20\] Oh, some sort of visual cue?
 
 **Thorsten Ball:** Yeah.
 
@@ -302,13 +302,13 @@ It's silly, but at the same time that's just something I've trained my brain to 
 
 So it's almost like you need some way of handling that, whether it's that aging process, or something... But it's hard to find tools that take that into account, I think.
 
-**Break:** \[00:45:13.07\]
+**Break:** \[45:13\]
 
 **Johnny Boursiquot:** That's actually a good segue into the non-developer-related tools that we use. We touched a little bit on the project management stuff, but that's gonna be part of lives, right? So if I sit down to do work for eight hours for my employer, a lot of things are happening. It's not like I'm sitting there from 9 o'clock to five o'clock without moving, without doing things, without having the world trying to get my attention for something... There's a bill that needs to get paid, I need to pick up my kids from the bus stop... All these things are always going on, and like you say, John, you need to be able to offload things out of your mind.
 
 I'll be in the middle of writing a lot of code, and all of a sudden I remember something that I need to do in the house somewhere. I'm like "Oh, I forgot about that thing", and I need to quickly be able to make a note about it somewhere and get back to what I'm doing. That's how our brains work. it doesn't give you a choice as to when things pop up. Heck, books have been written about how we try to facilitate our brain to get into flow... But we have no control over that, so we have to be able to adjust and roll with the punches, so to speak, that our brain keeps throwing our way, to sort of still manage to get things done.
 
-\[00:47:54.18\] So along those lines, I use a test management tool called Things. It has a nice keyboard shortcut, it quickly brings up a little HUD display, I quickly type something in, and I hit enter, and it's not on my brain... I think. I hope.
+\[47:54\] So along those lines, I use a test management tool called Things. It has a nice keyboard shortcut, it quickly brings up a little HUD display, I quickly type something in, and I hit enter, and it's not on my brain... I think. I hope.
 
 So things like that, like task management - that's something I rely on quite a bit. And I use my calendar, believe it or not, to actually track my time. What I'm working on when, where does my time go... At the end of the day I go through a process where I look at my day and I'm like "Hey, what did you get done today?"
 
@@ -338,7 +338,7 @@ My wife has always yelled at me because I would sit in the kitchen and be like "
 
 It turns out I do this a bunch of times, I delete my to-read, all of the books I wanna read, all of the music I wanna listen, podcasts I wanna listen to, all of this... And I delete it every half year, or something, and it turns out I'm not missing anything. If it's really important, either I do it right away or it stays somewhere in my conscious for the next week or so. Otherwise it's just not important. Or if it becomes important, it will pop up again.
 
-\[00:52:12.06\] I don't know if it's anxiety or whatever it is that you feel stressed out, or I feel stressed out, as in "Oh no, I cannot delete my to-read list", or whatever it is. Like, 50 books I've been collecting as "I want to read these for three years." It turns out no, I'm not gonna read them, and it's okay if I just delete this list.
+\[52:12\] I don't know if it's anxiety or whatever it is that you feel stressed out, or I feel stressed out, as in "Oh no, I cannot delete my to-read list", or whatever it is. Like, 50 books I've been collecting as "I want to read these for three years." It turns out no, I'm not gonna read them, and it's okay if I just delete this list.
 
 **Jon Calhoun:** I think generally speaking you're right, getting rid of the list is completely fine. One quick example where it was not that was I started doing an algorithms course and I knew I was gonna be doing this, but I had to finish a couple other projects. So I'm like "It's like six months out." So when I'd come across something where I'm like "Oh, this is a really good inspiration" or something that I thought I'd wanna read it around that time, then I needed to have a list for that specific thing. But usually, I was like "I know exactly where this gets categorized." So it just came down to like "I need to get it to something that's for when that time comes." So it wouldn't be like a backlog task list, it would be like "This course, reading list", so I'd actually know how to classify it.
 
@@ -362,7 +362,7 @@ If you search in any app store for lists, you will find to-do lists. Things you 
 
 **Jon Calhoun:** So every time I see these tools that are like "Let me give you a life", I'm like "I've written so much markdown at this point that that does not help me." But I definitely think any developer - that's something they should get familiar with, because I don't see markdown going away any time soon, and I suspect their life would be at least more proficient when they're writing docs, if they know how markdown works.
 
-**Thorsten Ball:** \[00:56:04.07\] Yeah. The problem is once you have to start using a product that doesn't support markdown. Then you get mad... Like Confluence, for example. I don't wanna pick out a single tool, but... I do all my writing in markdown, locally, in a file somewhere; for example, Google Docs. There's no easy way to transfer markdown to Google docs, so you have to do this whole dance of previewing markdown in a tool that lets you copy the preview with the styling, so you can then paste it in Google Docs, including the formatting and all of that... And that is really, really bad.
+**Thorsten Ball:** \[56:04\] Yeah. The problem is once you have to start using a product that doesn't support markdown. Then you get mad... Like Confluence, for example. I don't wanna pick out a single tool, but... I do all my writing in markdown, locally, in a file somewhere; for example, Google Docs. There's no easy way to transfer markdown to Google docs, so you have to do this whole dance of previewing markdown in a tool that lets you copy the preview with the styling, so you can then paste it in Google Docs, including the formatting and all of that... And that is really, really bad.
 
 **Jon Calhoun:** Yeah. It's like you said, when you leave the one tool you're leaving to go somewhere else, it's problematic. And that's not even one that you would expect to have that same issue. But even the tools that do support it... Like, Dropbox Paper has a way you can export into markdown, and then you can basically paste markdown in there, and it pretty much always works. But sometimes the way they export just isn't quite -- I don't know, it's just weird sometimes. I feel like it doesn't always match exactly what I'd expect it to be, so it's still tricky... But I still encourage people to learn markdown, because I'm like, "This is something I use a lot."
 
@@ -378,7 +378,7 @@ If you search in any app store for lists, you will find to-do lists. Things you 
 
 **Johnny Boursiquot:** Yeah, I'll stick with that one... Speaking of Unpopular Opinions.
 
-**Jingle**: \[00:58:06.22\]
+**Jingle**: \[58:06\]
 
 **Johnny Boursiquot:** Thorsten, do you have one?
 

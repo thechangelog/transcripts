@@ -34,7 +34,7 @@ Once you have the tree, you can do a certain amount of - I think you would call 
 
 Some compilers go straight from tree to code generation, and in fact the Go compiler used to do that about -- God, I can't even remember which release it was. I guess we lit up SSA in 1.7, we added a phase... Keith Randall talked about this at GopherCon, and that talk will be online in a little while. But we added a lower-level phase; it's somewhat closer to the machine code, but it is also structured, and it makes it easy to express a lot of optimizations, and it was surprisingly easy to do our ports too, when we went from supporting it on one platform to all of them.
 
-\[00:04:23.07\] So the Go compilers, again - characters come in, scan and parse into an [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree), do semantic analysis to enforce rules, transform AST to [SSA](https://en.wikipedia.org/wiki/Static_single_assignment_form) and do a certain amount of optimization. Then we interface to the Go Assembler, and out comes machine code.
+\[04:23\] So the Go compilers, again - characters come in, scan and parse into an [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree), do semantic analysis to enforce rules, transform AST to [SSA](https://en.wikipedia.org/wiki/Static_single_assignment_form) and do a certain amount of optimization. Then we interface to the Go Assembler, and out comes machine code.
 
 That's a crude description. There are certain important analyses that we do on the tree-based form still, and it would actually be a lot of work to get some of them out... [Escape analysis](https://en.wikipedia.org/wiki/Escape_analysis) is actually interprocedural within the package that's being compiled, and on top of all the packages that it requires. And it would be nice to move that into the SSA framework, but it would require several changes to the SSA framework, and in particular it would require us to do the entire package at one time in SSA, which is not what it's built to do just yet.
 
@@ -54,7 +54,7 @@ Escape analysis runs over all the identifiers that have their address taken, or 
 
 **Ashley McNamara:** It's fine, I'll read them.
 
-**David Chase:** \[00:07:52.22\] So my personal hobby horse this month is that we need better benchmarks, but that's not the same as the technical work on the compiler, even though it's really important... Because our benchmarks are not the things that people run that they actually care about. Not all the architectures receive the same amount of attention. If someone were, say, a particular fan of ARM or ARM64 or PowerPC64, or MIPS -- we have people who look at MIPS and MIPS64... And it's possible that there are idioms that we're getting wrong, and we could do better.
+**David Chase:** \[07:52\] So my personal hobby horse this month is that we need better benchmarks, but that's not the same as the technical work on the compiler, even though it's really important... Because our benchmarks are not the things that people run that they actually care about. Not all the architectures receive the same amount of attention. If someone were, say, a particular fan of ARM or ARM64 or PowerPC64, or MIPS -- we have people who look at MIPS and MIPS64... And it's possible that there are idioms that we're getting wrong, and we could do better.
 
 So I'm thinking about what's the most accessible part of the compiler, and the most accessible part of the compiler is to me at least - I could be wrong - where we lower the code from generic SSA to the various architectures' instruction sets. That's pattern matching, and it's pretty obvious to see what it's doing. There have been cases where we just didn't have the right pattern for something, or we were missing a pattern. Some of them could be a little grotty, but they're not all, and that's (I'd say) a good place to start. You can look at it and you can understand what's happening, if that makes any sense.
 
@@ -86,7 +86,7 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 **David Chase:** There used to be one... [LCC](https://en.wikipedia.org/wiki/LCC_(compiler)) had a reputation. It's by Fraser and Hanson. Some of this is a little old, but it was a relatively small, relatively easy to comprehend compiler. I don't think that the Go compiler is necessarily that scary.
 
-**Ashley McNamara:** \[00:12:04.26\] I don't know, it seems pretty scary to me. I want you to explain everything like I'm five.
+**Ashley McNamara:** \[12:04\] I don't know, it seems pretty scary to me. I want you to explain everything like I'm five.
 
 **David Chase:** Yeah, so the problem is I'm sitting here thinking of the compilers I've worked in, and what happens is that anything that's successful gets ported to a lot of architectures, and then as soon as it gets ported to a lot of architectures, that introduces all the generality that you need to support a bunch of architectures. Then people want it to go faster and you start getting more and more hair and optimizations. The Go compiler is not bad.
 
@@ -114,7 +114,7 @@ So I'm thinking about what's the most accessible part of the compiler, and the m
 
 We have been getting more and more trouble with loop. So I've mentioned that the cooperative scheduling in Go is enforced by the compiler, and right now it's kind of lightly enforced. It enforces it when you enter a function or method. But if you are running in a tight loop that has no function calls within it, it does not enforce any cooperation there. This is a particular problem - Rhys Hiltner mentioned this in his tutorial or his [talk also at GopherCon](https://www.youtube.com/watch?v=V74JnrGTwKA) - where the garbage collector needs to interrupt all the threads right at the beginning of a GC, just for a few microseconds, but it does need to interrupt all of them. It does this by asking them to reschedule themselves; they all reschedule, they discover that a garbage collection is in process and they go stand in a corner and wait till the GC does its thing and then says "Yeah, back in the pool. Go!"
 
-\[00:16:21.10\] Then there's this one guy running a tight loop, and the GC tries to tap him on the shoulder and he does not respond... And does not respond, and does not respond, and does not respond, so everything hangs up, and it can be an appreciable fraction of your pause time for GC. In some rare cases, it can be long.
+\[16:21\] Then there's this one guy running a tight loop, and the GC tries to tap him on the shoulder and he does not respond... And does not respond, and does not respond, and does not respond, so everything hangs up, and it can be an appreciable fraction of your pause time for GC. In some rare cases, it can be long.
 
 We need to fix that and we need to change the compiler to add a preemption check on every loop package. The problem with that is it slows down your loops a little bit, and some loops it slows down a lot. So there's follow-up work to try to figure out if we can mitigate this cost using a clever implementation. We have already tried loop unrolling, and for whatever reason it was not helpful. Either we did it wrong... We probably did it wrong, because we did it kind of in a very bloody-minded way. Just take the loop, don't get smart about the indexing or anything, just do the check over and over -- I wanna say make two copies of the body, but check after every execution of the body, so twice per loop, whereas in many counted loops you could say "Well, I'm gonna unroll by two, increment by two, and then I'll worry about the odd case at the end." We didn't do anything that clever... So that's also for 1.10, dealing with that and the knock-on problems there.
 
@@ -136,7 +136,7 @@ The garbage collector guys are looking into whether they can make generational c
 
 **David Chase:** So if I were to say "Look at the proposals that went by in the last year or so for Go 2", the one that I almost thought they could have put in - I think it had syntax that would have allowed us to put it in if we wanted to - was the multidimensional slices. That's really kind of my Fortran background speaking there. It's one of these things where people who don't write that kind of code are like "Yeah, it's easy. You just code it and it's fine." And you know, it's the usual thing... Anything that I don't actually have to do that someone else has to do, that must be easy, and it's really much nicer to have the multidimensional syntax, and it's really much better in terms of generating code and doing balance check elimination if you have it built into the language.
 
-\[00:20:12.11\] It's tremendously useful for a certain kind of computing, and the people for whom it's useful - this is the Fortran crowd. They've sort of been stuck at Fortran for ages. C++ has done amazing things for them, but often you have to be willing to sign up for crazy C++ templates.
+\[20:12\] It's tremendously useful for a certain kind of computing, and the people for whom it's useful - this is the Fortran crowd. They've sort of been stuck at Fortran for ages. C++ has done amazing things for them, but often you have to be willing to sign up for crazy C++ templates.
 
 Go is just a nice, clean, comprehendable language; this is a little thing, and you could do -- it appeals to me. _Generics_? Oh yeah, _Generics_ would be cool if we could agree on what they meant, and if we could agree on their implementation characteristics of what we want it to do, and there's all sorts of risks where it might not make it a better language.
 
@@ -158,7 +158,7 @@ Go is just a nice, clean, comprehendable language; this is a little thing, and y
 
 **David Chase:** I mean, his question is loaded... Absolutely, there are things, there are optimizations that we are unlikely to do because the implementation costs are too high. Otherwise, it is just kind of a pain, and you sort of live with it. In some cases it means that you -- you know, it's one of these usual "three good things, choose two." Because you could make a compiler that did more optimization, and also ran quickly(ish), but that often means that you would be using really hairy algorithms. And we've had to do this already so...
 
-\[00:24:03.25\] You know, returning to the SSA representation, it's really interesting because it lets you express a number of optimizations in a very clean way, and it lets you express these transformations in a very clean way. But if you actually look at how SSA is generated, there is a step in there that for some inputs the first time we did it just caused the compiler to go ape. 6 gigabytes, 40 minutes, that kind of crazy. And we read papers, and so we had to go and implement stuff from papers.
+\[24:03\] You know, returning to the SSA representation, it's really interesting because it lets you express a number of optimizations in a very clean way, and it lets you express these transformations in a very clean way. But if you actually look at how SSA is generated, there is a step in there that for some inputs the first time we did it just caused the compiler to go ape. 6 gigabytes, 40 minutes, that kind of crazy. And we read papers, and so we had to go and implement stuff from papers.
 
 We have also had bugs once in a while, where someone very cleverly took a recursive depth for search numbering transformation kind of an algorithm and they derecursed it and they turned it into something that maintained its own stack, and they subtly perturbed the depth for search numbering; it wasn't really depth for search anymore. And you'd get these crazy bugs that you would not catch with any simple example.
 
@@ -186,7 +186,7 @@ So again, you have a nice, fast compiler, but some of the algorithm's underpinni
 
 **David Chase:** So I don't have direct experience with them, so I wanna be careful I don't go out on a limb and make stuff up. A verified compiler is one where you have proved formally that it's transformations are formally correct. And part of the reason that you don't have these is because if you're gonna talk about actual dotted i's and crossed t's correctness, you need to have an exact specification of the input language and its intended behavior, and then you need to have an exact specification of how the hardware is gonna behave.
 
-\[00:28:15.13\] Or in the case of so much of our hardware, you have to have an exact specification of how the subset that you use of the hardware behaves, so in particular -- if you don't know for sure what some of these instructions do, then you don't do those instructions.
+\[28:15\] Or in the case of so much of our hardware, you have to have an exact specification of how the subset that you use of the hardware behaves, so in particular -- if you don't know for sure what some of these instructions do, then you don't do those instructions.
 
 So part of the obstacle is getting the specifications (clean specs) for the endpoints, and then the rest of the problem is that you get back to the "Boy, I want my code to run fast and I want my compiler to compile code quickly." This forces you either to have a great -- you either end up with a giant compiler, you end up with the tricky algorithms, and you might not have a proof for some of them. Is that getting in a vague direction? But you've actually proved that it's gonna do the right thing, and you have a proof, you don't just have testing.
 
@@ -212,7 +212,7 @@ So part of the obstacle is getting the specifications (clean specs) for the endp
 
 **David Chase:** I assume it has to happen eventually, but I think it's our intent to put it off as long as we can, because every flag that you add then becomes something that you have to test, and then every flag that you add becomes something that you have to document. It complicates everything - it complicates your bug reporting. What happens if you have a bunch of packages that you depend upon and some of them are compiled one way and some of them are compiled the other way, and then you have a bug, and then you have to report the bug...? Does the bug report have to include the compilation flags for each of the packages that you have in it?
 
-\[00:31:59.25\] I mean, I assume nonetheless that it will have to happen. There will come a time when there's enough extra performance to be had for something that's sufficiently important, but it hasn't happened yet.
+\[31:59\] I mean, I assume nonetheless that it will have to happen. There will come a time when there's enough extra performance to be had for something that's sufficiently important, but it hasn't happened yet.
 
 **Brian Ketelsen:** So in terms of performance, I know that the [LLVM](https://en.wikipedia.org/wiki/LLVM0) ecosystem was considered very early on in Go, and it's changed quite a bit in the last ten years since they looked at it. Is there a possibility for back-end for Go and LLVM in the future?
 
@@ -290,7 +290,7 @@ So part of the obstacle is getting the specifications (clean specs) for the endp
 
 **David Chase:** It's okay... I mean, pie is good. I'm trying to think of which pie -- pecan has to win, actually.
 
-**Ashley McNamara:** \[00:36:05.16\] I don't know, I'm all about apple à la Mode...
+**Ashley McNamara:** \[36:05\] I don't know, I'm all about apple à la Mode...
 
 **Brian Ketelsen:** Now, you guys, we asked David this question; you can't tell him he's wrong... Telling him his answer is wrong. \[unintelligible 00:36:14.20\]
 
@@ -352,7 +352,7 @@ Then there's a cool game engine that I noticed on GitHub about two weeks ago tha
 
 **Ashley McNamara:** Okay! So exciting!
 
-**Brian Ketelsen:** \[00:40:08.16\] Yeah, it looks very cool, and has very few dependencies underneath, which I think is probably the best part. When I was reading -- I actually did a couple of their examples and ran code and it worked really beautifully, and it has very, very few dependencies. The only thing on Linux is an audio dependency, so it's very self-contained, which is kind of slick.
+**Brian Ketelsen:** \[40:08\] Yeah, it looks very cool, and has very few dependencies underneath, which I think is probably the best part. When I was reading -- I actually did a couple of their examples and ran code and it worked really beautifully, and it has very, very few dependencies. The only thing on Linux is an audio dependency, so it's very self-contained, which is kind of slick.
 
 **Ashley McNamara:** This is happy!
 
@@ -398,7 +398,7 @@ On the topic of schedulers, I wanted to make sure we mention [Cindy Sridharan's]
 
 **Brian Ketelsen:** Now I know what you're talking about. Good, we should put the link to that up on the show notes, too.
 
-**Carlisia Thompson:** \[00:44:03.26\] Yeah, I just dropped it. I'm not sure if I'm using the right document, but...
+**Carlisia Thompson:** \[44:03\] Yeah, I just dropped it. I'm not sure if I'm using the right document, but...
 
 **Brian Ketelsen:** Oh, perfect. Yes, Cindy is really active in the San Francisco Go community.
 
@@ -440,7 +440,7 @@ Yesterday I found out that you can write documentation for each of your packages
 
 **Brian Ketelsen:** That's awesome. So we do have some statistics from [Jess Frazelle](https://twitter.com/jessfraz). 44 new open CLs, of which 22 were merged, as of 2:46 this afternoon. That is awesome! Great news.
 
-\[00:48:06.29\] And we can't even talk about this without me thinking about [Brad Fitzpatrick's](https://twitter.com/bradfitz) picture of him with his "Looks good to me" shirt on and a handful of Gophers stacked around him as he was helping us remotely take care of business, which was awesome. So we should definitely thank [Steve Francia](https://twitter.com/spf13) for putting that whole thing together, and everybody who contributed in the room, from the mentors all the way to the people who learned how to contribute the first time. It was fabulous.
+\[48:06\] And we can't even talk about this without me thinking about [Brad Fitzpatrick's](https://twitter.com/bradfitz) picture of him with his "Looks good to me" shirt on and a handful of Gophers stacked around him as he was helping us remotely take care of business, which was awesome. So we should definitely thank [Steve Francia](https://twitter.com/spf13) for putting that whole thing together, and everybody who contributed in the room, from the mentors all the way to the people who learned how to contribute the first time. It was fabulous.
 
 **Ashley McNamara:** Yeah, it was so good.
 
@@ -458,7 +458,7 @@ Yesterday I found out that you can write documentation for each of your packages
 
 **Brian Ketelsen:** Now, I have a question for you on the MacPorts, since we've got just a moment... How do you find it in terms of quality and completion? I used MacPorts maybe 2006 or 2005 - quite a while ago - and abandoned it for [Homebrew](https://brew.sh/), because MacPorts just didn't seem to be that stable. Do you have any issues with MacPorts, or is it solid for you?
 
-**David Chase:** \[00:50:55.21\] It is more solid now than it was. I don't know why I didn't do Homebrew... Back then I don't know if there was Homebrew; there was Fink, and I tried both and I ended up settling on MacPorts. It's better now. They do a better job in terms of the dependency tracking and the rebuild tracking and the cleanup. It used to be more often you'd get wedged and have to uninstall a bunch of stuff and reinstall clean, and I can't remember the last time I had to do that.
+**David Chase:** \[50:55\] It is more solid now than it was. I don't know why I didn't do Homebrew... Back then I don't know if there was Homebrew; there was Fink, and I tried both and I ended up settling on MacPorts. It's better now. They do a better job in terms of the dependency tracking and the rebuild tracking and the cleanup. It used to be more often you'd get wedged and have to uninstall a bunch of stuff and reinstall clean, and I can't remember the last time I had to do that.
 
 At the time - as late as five years ago, so 2012-2011 - we were hosting a big ol' track thing on it -- I mean, we were hosting track on another box, but I was actually mirroring the server on my laptop, and it was using MacPorts to get me everything that I needed, and everything that I needed - they included track and Python and SQLite, and Mercurial... The whole tech toolchain. This was for this crazy website that would run \[unintelligible 00:52:16.02\] it would use Emacs in bash-mode and \[unintelligible 00:52:17.25\] to do processing to turn your code into something formatted in a pretty mathematical style. And it worked.
 

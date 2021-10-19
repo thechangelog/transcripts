@@ -12,7 +12,7 @@ It's April right now. Everyone who makes some kind of open source contribution d
 
 **Duane O'Brien:** We run this once a month. Every month we give away $10,000. We gave away $120,000 last year to the open source projects that we use. We're slated to give away $160,000 the same way this year. We added a quarterly event. So we'll do a $10,000 once a month, and then an additional $10,000 once a quarter.
 
-**Adam Stacoviak:** \[00:04:11.05\] Gotcha. So each month there's one project that gets supported.
+**Adam Stacoviak:** \[04:11\] Gotcha. So each month there's one project that gets supported.
 
 **Duane O'Brien:** Right. That's correct.
 
@@ -42,7 +42,7 @@ In some larger projects they've put it into a scholarship fund, other projects h
 
 **Adam Stacoviak:** Theoretically... Right? For the most part...
 
-**Duane O'Brien:** \[00:08:01.22\] Yeah, maintainers know what they're doing. They know what the project needs, and in a lot of cases they've offered to engage with us in other ways as a result. We've had some Zoom calls, we've talked about ways to do mini-hackathons with some of those projects... And it just opens up a conversation with them in a way that wasn't open before.
+**Duane O'Brien:** \[08:01\] Yeah, maintainers know what they're doing. They know what the project needs, and in a lot of cases they've offered to engage with us in other ways as a result. We've had some Zoom calls, we've talked about ways to do mini-hackathons with some of those projects... And it just opens up a conversation with them in a way that wasn't open before.
 
 **Adam Stacoviak:** Yeah. That's interesting to think about, too. Initially, this began as a contribution of dollars; you've been doing this for two years now... I mean, has there been any other side benefits to it? Like you mentioned, hackathons, other tangential ways, once you've identified who to fund? Let's say they win that month; now that you're part of this -- I don't wanna say club, but once you're part of the pool of projects in this fund, that you have some benefits... Like, "Okay, you've got a small network to tap into. You can initiate some sort of hackathon, we'll cover some of the costs", or whatever... Have you considered those things too, where once you're past that funding point, to do other tangential things to support?
 
@@ -60,7 +60,7 @@ Money tends to be an easy lever for companies to flip. It's easier for most comp
 
 **Adam Stacoviak:** Yeah. I wanna get into the mechanics of building this fund, which you've played a perfect hand into, but I kind of wanna rewind a little bit to sort of paint, to some degree, your history with Indeed... Because you haven't been there forever. I think it's been around the two(ish) year mark; I could be wrong, you can help me out on the timeline, but... You came in as - I'm just gonna make up a term - an open source czar... I don't know, advocate, huge -- you came in to run open source for Indeed, and in many ways what you're trying to do is advocate for open source... And this contributor fund is one part of your work. So I'm curious of like the change, if you can speak to that, at Indeed around open source, if there was a change, and then how that led to defining this blueprint for other companies to potentially follow to support open source.
 
-**Duane O'Brien:** \[00:12:03.10\] Sure. Yeah, I joined Indeed just after Thanksgiving in 2017, to build out their open source program. I didn't pitch the title "open source czar" when I came in; that might have been an easy sell. I just went with "head of open source" and moved on.
+**Duane O'Brien:** \[12:03\] Sure. Yeah, I joined Indeed just after Thanksgiving in 2017, to build out their open source program. I didn't pitch the title "open source czar" when I came in; that might have been an easy sell. I just went with "head of open source" and moved on.
 
 **Adam Stacoviak:** It's got a good ring to it though.
 
@@ -92,7 +92,7 @@ For most people that I have talked with who are involved in open source program 
 
 And I'd love to say that there was a diligent, intentional thought process that led me down this path. It would be more accurate to say that the alignment of those three things sort of occurred to me at one point, and I blasted it out to my boss, and I had no particular expectations that he was gonna go for it. I knew it was a big ask, but it worked out.
 
-**Adam Stacoviak:** \[00:15:54.20\] What I like about that though is how the value changes -- I said that before, when a company (especially in an open source program) is asked "How do we give back?" and just donating straight dollars to the community, it's difficult if you don't have... Just simply say yes, because of course you want to support open source, and in particular even the four bullet points of like "Must be in use by the company or subsidiaries, have necessary open sourceness", and one of the core ways you define that, which is debatable, depending on who you speak with, is the OSI-Approved license. There are some people who will debate that, to some degree... And some of the other mechanics around it.
+**Adam Stacoviak:** \[15:54\] What I like about that though is how the value changes -- I said that before, when a company (especially in an open source program) is asked "How do we give back?" and just donating straight dollars to the community, it's difficult if you don't have... Just simply say yes, because of course you want to support open source, and in particular even the four bullet points of like "Must be in use by the company or subsidiaries, have necessary open sourceness", and one of the core ways you define that, which is debatable, depending on who you speak with, is the OSI-Approved license. There are some people who will debate that, to some degree... And some of the other mechanics around it.
 
 When you just give money, it's difficult to just say "What do we get in return?" Where in this case, to me, one of the core values for the company is like we get to enable our employees, who are deeply - as you said - these unknown, passionate open source people that you didn't even know of, that have now bubbled up to you, because of them voting for certain projects... Well, now it gets everybody thinking about open source differently. Whereas in a traditional model, just giving money - which is great, does work - it has less of this sort of like stickiness... This - terrible word to use right now - infectiousness, that other people think "Okay, this is how open source is used. This is how it gets benefitted by our company and us using it, and then funding it, too. And then finding other ways to support it in the future." To me, that's genius.
 
@@ -104,7 +104,7 @@ So not only does it give people the opportunity to voice where our dollars go, b
 
 **Duane O'Brien:** My feelings around it haven't changed specifically. I still think $10,000 is a good place to keep it pinned for us. But I recognize that there's a lot of room to try different models there, and try different things. There's been proposals to break it up; maybe do like a 5k, a 3k and a 2k donation one month. Or to just take it and divide it evenly between all the people who were nominated, and be done with it.
 
-\[00:20:06.26\] One of the problems with doing this on a monthly basis is you get about 12 different chances for an experiment in a given year. And if you want consistency in the program, you want to maintain the way you're doing things over the course of the year. So you don't get as many opportunities to try new things as maybe you would like.
+\[20:06\] One of the problems with doing this on a monthly basis is you get about 12 different chances for an experiment in a given year. And if you want consistency in the program, you want to maintain the way you're doing things over the course of the year. So you don't get as many opportunities to try new things as maybe you would like.
 
 One of the benefits I see of opening the program up for other companies to adopt and helping other companies to adopt it and to encourage them to run their own experiments is that they can run it in their context, tweak the criteria in a way that works for them, and we can double how much we're learning; we can triple how much we're learning. The more of us that do this and that try different things while we're running our FOSS Contributor Fund, the more we can all learn together... And that, I think, pretty exciting.
 
@@ -116,7 +116,7 @@ I have been resistant to changing things on a month-to-month basis, but when we 
 
 The Q1 event - we ended up taking the funds that we had earmarked for that and directing it toward the Open Source speed dating event that the MOSS Fund folks did at FOSDEM, where they issued seed grants toward projects who had ideas that could move forward with a little bit of assistance. We showed up with some funds, the MOSS Fund folks showed up with some funds, as well as the Ford and Sloan foundations.
 
-**Break:** \[00:22:46.00\]
+**Break:** \[22:46\]
 
 **Adam Stacoviak:** So thankfully, you've done all the hard work for most anybody listening to this that might be wanting to use this contributor fund as a blueprint for their business or their organization to fund open source. So you've got the FOSS Contributor Fund... As an overview, on GitHub, it's an open source repo, it's on IndeedEng. Was it you particularly that -- you're the only contributor who's... I've got two contributors here. Was it just you and someone else? Did you do most of the work? Who else has written this with you?
 
@@ -132,7 +132,7 @@ The Q1 event - we ended up taking the funds that we had earmarked for that and d
 
 You would have some support that's given based on analysis... So someone has taken a look at what you use and made some kind of determination about which of these things is most important... There'd be some kind of advocacy coming from higher levels, people who are senior in the company, who recognize that a project is important to be used and supported... And then that third area is asking. Putting out the call to other folks in the company and giving opportunities for them to talk about or request that the company support projects.
 
-\[00:28:07.16\] A lot of companies can benefit from implementing a project like FOSS Fund as a way to ask people in the company what they should be using, and kind of democratize that decision-making process out. We wanted to make it as easy as possible for other folks to adopt, and we continue to work on documentation that will enable that.
+\[28:07\] A lot of companies can benefit from implementing a project like FOSS Fund as a way to ask people in the company what they should be using, and kind of democratize that decision-making process out. We wanted to make it as easy as possible for other folks to adopt, and we continue to work on documentation that will enable that.
 
 **Adam Stacoviak:** And based on the timeline from Git -- I can't tell if this is the initial commit... I guess the last commit was six months ago.
 
@@ -154,7 +154,7 @@ Some of that is about making sure that things are being treated evenly and fairl
 
 **Adam Stacoviak:** Well, I think the point is not to invest time in those kind of things, but to invest time into the nominations, the process, helping etc. I think OSI-Approved license is a great place to start; my point was just that some people - I'm thinking like open core companies, who still want contributions that are sort of like open eventually, like Sentry might be, for example... I had David Cramer on the Changelog late last year, talking about their change to open source. So there's this blurred line. While David says he's open source, and he agrees he's open source eventually, it's just those kinds of projects get -- and maybe that's the great case, because it is an open source business... So that would be not the best use of Indeed's money, or other open source offices' funds, so that would make sense... But OSI-Approved license is a great place to start. My point was just that some people debate "What is open source these days?" and that's not me that debated, it's just that that's often the thing.
 
-\[00:32:21.21\] I think what I wanna cover really is some of the takeaways. So we talked about the blueprint itself... There's some learning process. When you put something like this into work, and then document it, and then ask others to follow it, what are some of the things you've learned over time after launching it? What are some of the takeaways you've gathered by doing this for so long around this kind of thing for a business, for a company like Indeed, to support open source?
+\[32:21\] I think what I wanna cover really is some of the takeaways. So we talked about the blueprint itself... There's some learning process. When you put something like this into work, and then document it, and then ask others to follow it, what are some of the things you've learned over time after launching it? What are some of the takeaways you've gathered by doing this for so long around this kind of thing for a business, for a company like Indeed, to support open source?
 
 **Duane O'Brien:** One of them is that obviously what works for us is not gonna work perfectly for the next company. We have a process where we can kind of vet nominations more or less by hand. If we had ten times the number of developers that we do have, that would get really hard. The nomination process is kind of an interesting one. I had identified in that FOSDEM talk that you referenced earlier that we might have to ultimately curate nominations for a number of reasons... And we learned fairly early on that there was a disconnect in how we were talking about the nomination process with folks. They expected that once something was nominated, it would continue to show up as a nominated project until it fell off the list, or won.
 
@@ -182,7 +182,7 @@ Where we landed was we carry some nominations over from the last month if nomina
 
 There's a couple other organizations that are in various states of standing one up, and who have not yet made public statements about it, so I don't want to out them without their permission... But a couple of very large organizations who are gonna learn completely different things from the things that we learned, or the things that Salesforce has learned in their context. Some of them are very unique. I'm really excited to see those announcements come out here later in the year, probably in the next couple of months, as their work continues to evolve.
 
-\[00:36:06.12\] In addition to the blueprint document, we released the Starfish Voter Eligibility Tool, which is the thing that we use to decide who gets to vote in a given month, that basically ingests a list of GitHub IDs and checks against GitHub to see if it sees activity in open source projects within a certain window of time, and returns a list of people who should be invited to vote. That was another resource that we made available for running the fund.
+\[36:06\] In addition to the blueprint document, we released the Starfish Voter Eligibility Tool, which is the thing that we use to decide who gets to vote in a given month, that basically ingests a list of GitHub IDs and checks against GitHub to see if it sees activity in open source projects within a certain window of time, and returns a list of people who should be invited to vote. That was another resource that we made available for running the fund.
 
 As one of the companies who's been bootstrapping their program, as they have been using Starfish, they hit some limits that we didn't hit, and have been contributing changes back into that as well.
 
@@ -216,7 +216,7 @@ We reached out to them and said "Hey, here's what happened. What do you wanna do
 
 I don't believe they're running it as a FOSS Contributor Fund type thing, but... It was a really interesting learning in the process, and a really great outcome from that learning, because it certainly -- giving $10,000 to a large project, that was sort of fully-owned by a VC-backed startup wasn't the kind of thing that I was envisioning when I put out the call for what projects we should be supporting. And that is one of the learnings that feeds into the idea of having sort of a nomination committee who vets and curates the nominations a little bit to make sure that projects that come through for vote are consistent with the spirit of the program.
 
-\[00:40:28.28\] In this case, had we filtered Sentry out from that list, they wouldn't have matched the donation, they wouldn't have passed it on down to their own dependencies, they wouldn't likely have created a fund for their own program to support open source projects... So it was a good outcome.
+\[40:28\] In this case, had we filtered Sentry out from that list, they wouldn't have matched the donation, they wouldn't have passed it on down to their own dependencies, they wouldn't likely have created a fund for their own program to support open source projects... So it was a good outcome.
 
 **Adam Stacoviak:** That's interesting too, that aspect. I didn't expect them to be on the list, and I mentioned David and Sentry and their change of license, and I'd left out the fact that the conversation David and I had was about their move to BSL license, and the ramifications to Sentry and the open source project thereof because of that... So that was one detail I left out of my mention of that... But yeah, David is great; I love the fact that they took this and said "You know what - thank you. Let's double the money and give it to a project" and kind of come up with their own criteria... And even if just for one instance, to some degree adopted, this FOSS Fund you've got. I mean, that's kind of what they did - they took an internal look, from Sentry engineers etc. to nominate projects, similar. So not maybe the full fund process you've got, but a variation of it, as a result. Which is cool.
 
@@ -230,7 +230,7 @@ Definitely, when they relicensed after winning the nomination, it was a thing we
 
 The other project that put us in that position was OpenStreetMap, because it's an open data project. And an open data license can't conform to the OSD, and can't be an OSI-Approved license. It's just not actually possible for it, I don't think. But when it won the nomination, we kind of went back and looked at it. OpenStreetMap is an OSI affiliate; they were sponsored to be an OSI affiliate based on the actions of a board member of the OSI, and it was about as strong of a recommendation that you could get for them to be qualified... So we let it stand, as it were.
 
-\[00:44:13.10\] cURL was another interesting one, because cURL's license is almost MIT, but not quite. But it was widely-recognized to be an open source license, and at the time it was the largest single cash donation that cURL had received from any one entity. That record stood for about a month, and then somebody else wrote them a larger check.
+\[44:13\] cURL was another interesting one, because cURL's license is almost MIT, but not quite. But it was widely-recognized to be an open source license, and at the time it was the largest single cash donation that cURL had received from any one entity. That record stood for about a month, and then somebody else wrote them a larger check.
 
 **Adam Stacoviak:** And cURL is interesting, too. I mean, we've had some conversations with Daniel Stenberg and we've sort of mapped that -- it's an interesting open source project too, generally, because it's largely Daniel's work. Obviously, there's a lot of community involvement there, but it's largely Daniel's opus. His life's work, essentially, is cURL, and that's an interesting perspective.
 
@@ -238,7 +238,7 @@ I think it comes back to, when I hear you say these two examples - and if there'
 
 **Duane O'Brien:** Right. And at the end of the day, for the projects that were arguably on the bubble, it was good to be able to err on the side of generosity. These were projects that were -- someone at the company felt passionately enough about them and how we used them that they nominated them for us to support... And so finding a reason to say yes to those just felt more aligned with what we were trying to do.
 
-**Break:** \[00:46:24.13\]
+**Break:** \[46:24\]
 
 **Adam Stacoviak:** There's a new initiative you're working on now, it's called FOSS Responders. If I understand correctly, it started out as an organic thing led by you and Megan; I'm not sure how to say her last name, so I'm not gonna try, but maybe you can for me... What's this about?
 
@@ -272,7 +272,7 @@ In that metaphor, this wide range of cancelations is like a reef bleaching event
 
 **Adam Stacoviak:** I hadn't considered it like that. I'm glad you framed it that way.
 
-**Duane O'Brien:** \[00:52:04.11\] Yeah... That's not a metaphor of the entire FOSS Responders group, it's just the way that I've explained it to people... Like, why is it important to support these events? Because this is where our community gathers. And we want them to be able to gather at these places the next year. And some of the events won't survive, and that's kind of the nature of things, but we want as many of them to be around here for us and for the community next year as we can.
+**Duane O'Brien:** \[52:04\] Yeah... That's not a metaphor of the entire FOSS Responders group, it's just the way that I've explained it to people... Like, why is it important to support these events? Because this is where our community gathers. And we want them to be able to gather at these places the next year. And some of the events won't survive, and that's kind of the nature of things, but we want as many of them to be around here for us and for the community next year as we can.
 
 This was also an intentional choice to not try to address with everything that could possibly be addressed within the open source community in response to Covid-19. There's so much work that's being done there, between open source ventilator designs that are going around, and open data projects that are going around, and the MOSS Fund folks announcing their initiative to provide seed grants for open source projects that are doing work in this area... There's a lot of different kinds of work that are being done. We wanted to focus our effort on this particular area, and really prioritize support for people who might otherwise fall through the cracks of the support system. So I'm much more interested in seeing us supporting that meetup organizers who's out a couple thousand dollars, or that small regional conference organizers who is out a few thousand dollars, because they're the folks that are gonna take it on the chin. But there's a range of impacts.
 
@@ -298,7 +298,7 @@ That second button is really about event organizers, and that third one is sort 
 
 **Adam Stacoviak:** Well, to put it into perspective, you've got a dynamic list there, an Airtable that is tech events canceled due to this crisis, this full pandemic we're in, with Covid-19 and Coronavirus.
 
-**Duane O'Brien:** \[00:56:05.12\] That Airtable link that you're referencing is maintained by the wider community. So this is not a list of curated events that FOSS Responders is looking to address; it is the events known by the community that have been canceled. The last time I looked there were I think approaching 70 events in there.
+**Duane O'Brien:** \[56:05\] That Airtable link that you're referencing is maintained by the wider community. So this is not a list of curated events that FOSS Responders is looking to address; it is the events known by the community that have been canceled. The last time I looked there were I think approaching 70 events in there.
 
 **Adam Stacoviak:** Well, it's more than that now. It's 151 based on its dynamicism.
 

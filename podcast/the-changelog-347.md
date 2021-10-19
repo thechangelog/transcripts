@@ -32,7 +32,7 @@ By the way, listeners, if you're writing interesting stuff and you want us to he
 
 **Victor Zhou:** Cool.
 
-**Jerod Santo:** \[00:04:05.15\] So maybe before we dive into the gaming side of it, tell us about your writing while you're going to school; you're writing about things -- I suppose you're learning them there and writing about them. What's up with your writing, and maybe with the motivation for you doing that?
+**Jerod Santo:** \[04:05\] So maybe before we dive into the gaming side of it, tell us about your writing while you're going to school; you're writing about things -- I suppose you're learning them there and writing about them. What's up with your writing, and maybe with the motivation for you doing that?
 
 **Victor Zhou:** Yeah, sure. I kind of started writing pretty recently. I believe it was February of this year, so I'm right up around three months of doing this. Basically, I just write about stuff that -- it's pretty much like you said; I've learned it maybe recently. There are a lot of things that I think are explained maybe in a really complicated manner, and sometimes I feel like I have a way that is a little bit simpler to approach some of these things, so a lot of my writing is kind of like that - how to do X for beginners, or X explained for a beginner.
 
@@ -50,7 +50,7 @@ People will sign up for classes, they'll be like "Oh, I wanna learn how to barte
 
 **Victor Zhou:** Right, yeah... So my first post that kind of blew up was I wrote this introduction to neural networks. I think it was like "Simple neural networks", or something. Basically, it walks through what a neural network is, and then it implements one from scratch in Python. We only use NumPy, it's not just like importing another library, or something; we kind of bare-bones it... And I believe someone posted that post of mine to Changelog, and I got the email about it. I was like "What is this email?" I clicked through it, and then I kind of did this deep dive, rabbit hole dive into Changelog. I was looking through all the podcasts, looking through all the histories and stuff, and I was like "This is really interesting." That's basically how I found Changelog and why I started posting there.
 
-**Adam Stacoviak:** \[00:08:18.03\] Look at that, it's the one I logged - "Machine learning for beginners", back in March 6th.
+**Adam Stacoviak:** \[08:18\] Look at that, it's the one I logged - "Machine learning for beginners", back in March 6th.
 
 **Jerod Santo:** Did you rename it, or...?
 
@@ -104,7 +104,7 @@ People will sign up for classes, they'll be like "Oh, I wanna learn how to barte
 
 **Victor Zhou:** So when that one came out, it was actually (I believe) developed by this one nineteen-year-old dude, off somewhere by himself. He launched it, and then it just went viral; it blew up, everyone started playing it. Basically, I think it's because of how simple it is. In general, this genre of .io games, the game is -- you go to a website, like agar.io, you show up, and there's a Play button for you, and there's maybe like a username input field. And you can just click Play and jump into a game with 50 other people immediately.
 
-\[00:11:58.14\] There's very little friction to start playing the game. You can do it anywhere. It's great to play in class, or at work, or wherever you want... And so people started playing this game a lot. Then game developers realized "This is a game model that works, and people really like to play these games", and so people started making similar games, but just with different game mechanics.
+\[11:58\] There's very little friction to start playing the game. You can do it anywhere. It's great to play in class, or at work, or wherever you want... And so people started playing this game a lot. Then game developers realized "This is a game model that works, and people really like to play these games", and so people started making similar games, but just with different game mechanics.
 
 I think the next one that came after that was probably Slither.io, like you mentioned. That one is kind of like -- you play as this snake, you go around eating food, and then if some other snake crashes into your snake body, they die. It's very simple, there's no learning curve. Anyone can play, you just jump in. You can play with your friends. There's a leaderboard for people to climb, people who wanna top that...
 
@@ -142,7 +142,7 @@ After those three -- there's just tons and tons of .io games out there. And ther
 
 **Victor Zhou:** I think they are pretty addicting. I think honestly what makes them addicting is the leaderboard. People basically will join into these games; maybe they don't even know how to play the game, and you kind of figure out how to play as you play, and you gain score along the way. And eventually, if you go long enough without dying -- let's say you're in this game for five minutes. You go long enough without dying and you start seeing yourself on the leaderboard, and you realize that if you die, you lose all the progress you've made over the past five minutes. So it's kind of like you wanna keep playing because you wanna keep increasing that score, and you really don't wanna die because it feels like you've invested so much already; you have to keep going.
 
-**Adam Stacoviak:** \[00:16:06.11\] So the ease of getting in leads to potentially deep investment, which keeps you in.
+**Adam Stacoviak:** \[16:06\] So the ease of getting in leads to potentially deep investment, which keeps you in.
 
 **Victor Zhou:** Exactly, yeah. I've seen people have an hour and a half long games, and they just can't seem to die, and they'll have other things they need to get done, or other things they need to go to, and they just can't do it. They have to keep playing. If you're in a game for an hour and a half, you don't wanna give that up, right?
 
@@ -166,7 +166,7 @@ The game starts with usually 8, 9, 10 people, and slowly it goes down to 4 peopl
 
 It was a fun game. I played it a lot with a couple of my friends. We got really high up on the leaderboard. We were starting to figure out what the best tactics were for this game, and stuff. But the game wasn't too popular, and we felt like there were a couple pain points about the game. One of them was that the game pace was way, way too slow. I think the way they had it set up was that one move took two seconds, I believe... And you can think about that, you can imagine making a move and then waiting two seconds for it to happen; and you can only make 30 moves minute.
 
-\[00:20:05.14\] For young people like us who are used to playing these super fast-paced action games, like first-person shooters, whatever, it feels way too slow. We get impatient. So that was kind of an annoyance.
+\[20:05\] For young people like us who are used to playing these super fast-paced action games, like first-person shooters, whatever, it feels way too slow. We get impatient. So that was kind of an annoyance.
 
 There were some other things that happened, like there were some bugs in the game that I don't really remember, but... You can imagine - bugs in the game, it's a little bit annoying to play. Sometimes you would spawn in a location that would basically be impossible to win from, which is annoying, because it's like "Why?" This could be controlled. With a little bit better map design, you could make it a little more fair for everyone. In their defense, it's pretty hard, because all the maps are randomly generated...
 
@@ -180,13 +180,13 @@ Eventually, one day - I wanna say it was the January after that fall semester - 
 
 **Victor Zhou:** So that was a crazy, crazy day for me. I remember it was a Saturday. Luckily, it was a Saturday, otherwise I might have been doing other stuff... But I spent that entire day just putting out fires, moving the game to beefier servers, like handling support questions, and stuff... People telling me that their games were crashing, or whatever. There was a ton of stuff to do that day, and I still -- it was a good time, it was a fun time, and I learned a lot that day.
 
-\[00:24:00.06\] From that day on, a bunch of people -- I mean, that's what happens if you're the top post on Hacker News; the game stayed really popular. I kept on building more features, I kept on adding onto it, because I was not motivated. I had a real player base. There were a lot of people playing this game. You go to the game at like 4 AM on a Tuesday night and there's people queuing up with you to play, which is just crazy to me, because I've never had a game be that popular before.
+\[24:00\] From that day on, a bunch of people -- I mean, that's what happens if you're the top post on Hacker News; the game stayed really popular. I kept on building more features, I kept on adding onto it, because I was not motivated. I had a real player base. There were a lot of people playing this game. You go to the game at like 4 AM on a Tuesday night and there's people queuing up with you to play, which is just crazy to me, because I've never had a game be that popular before.
 
 So I worked on this game, probably almost full-time. Yeah, I'm a student, but I was spending at least 30 hours a week just developing this game, because I'm the only guy running the show. If I don't do it, it's not gonna get done. So in the year after that Hacker News post I basically worked full-time on this game while studying at Princeton, I guess, and I implemented a bunch of stuff. There was a lot of growth in the game over that year.
 
 Then eventually I think I just got tired, I guess... There were some other things that I wanted to do, and I felt like there wasn't so much more for me to do with Generals. It kind of felt like it reached a natural ending point... So I had actually been looking for kind of a way out. I felt like I couldn't just quit on the game. I obviously wasn't gonna shut it down, because it was making me a good amount of money from ad revenue, and stuff, but I had already kind of started thinking about looking for a way to exit, looking for a way to maybe hand it off to someone else... And then I get an email out of the blue; it's this guy who runs this small gaming company, who's interested in buying out Generals from me. We talk, and then two months later, that's it. I sold Generals to him. That company is still the company running Generals to this day.
 
-**Break:** \[00:26:07.19\]
+**Break:** \[26:07\]
 
 **Adam Stacoviak:** Help us understand the kind of dollars behind this. You said you were running ads, then you got this offer from someone else to buy it, and then eventually you sold it... So break down the figures for us. What's in this?
 
@@ -194,7 +194,7 @@ Then eventually I think I just got tired, I guess... There were some other thing
 
 Then the second way was Generals had this kind of supporter feature, where you could basically donate some money, and you would get a supporter tag on your profile for X amount of months, and being a supporter kind of unlocked some special benefits for you. Kind of cosmetics, basically. But that one didn't contribute so much monetarily.
 
-\[00:28:04.02\] But let's see - at peak, I was making... I'm trying to think about the numbers again; it's been a while. So the month that I topped Hacker News, Generals made me probably $3,000 or $4,000. Then after that of course the traffic is gonna decline, but it kind of leveled off to around $1,000 a month. Then eventually when I was contacted to sell the game, I sold it for kind of like mid-five-figures range.
+\[28:04\] But let's see - at peak, I was making... I'm trying to think about the numbers again; it's been a while. So the month that I topped Hacker News, Generals made me probably $3,000 or $4,000. Then after that of course the traffic is gonna decline, but it kind of leveled off to around $1,000 a month. Then eventually when I was contacted to sell the game, I sold it for kind of like mid-five-figures range.
 
 **Jerod Santo:** Nice.
 
@@ -236,7 +236,7 @@ Then the second way was Generals had this kind of supporter feature, where you c
 
 **Victor Zhou:** The other one I made was called GeoArena.online. So not actually the .io TLD, but later -- it's now GeoArena.io, but anyways, that's unrelated. Originally, when I launched it, it was called GeoArena.online. Basically, that was a game that -- I think I started it freshman year; that was a game that I had been thinking about for a while in high school, and I thought would be cool to try to implement as a web game, because that was the time when I was getting into it a little bit. I was kind of trying to learn more about web development, and I have always liked making games.
 
-\[00:31:59.16\] That game is actually sort of similar to diep.io. That's the tank game that I mentioned earlier. Some people like to refer to GeoArena as like diep.io, but 1v1. Diep.io - you get into this big arena, you're playing with 50 other players, you're kind of just one ship in a sea of many ships... But in GeoArena is much more personal. You customize a ship, and then you enter into a queue, and the game will match-make you with another player based on your skill level, basically.
+\[31:59\] That game is actually sort of similar to diep.io. That's the tank game that I mentioned earlier. Some people like to refer to GeoArena as like diep.io, but 1v1. Diep.io - you get into this big arena, you're playing with 50 other players, you're kind of just one ship in a sea of many ships... But in GeoArena is much more personal. You customize a ship, and then you enter into a queue, and the game will match-make you with another player based on your skill level, basically.
 
 You have this in-game rating system called -- I believe it's called GeoCrystals. But anyways, it's just like an \[unintelligible 00:32:44.25\] rating system. So the game matches you with another player, and then it's just the two of you in this arena, Diep.io style, battling it up. It's last one standing wins. You move around, you can fight the other player, you can find the non-player characters if you wanna level up, things like that. You can upgrade. There are a bunch of different strategies that you can use. Ultimately, at the end of the day, it's kind of just this 1v1 skills test.
 
@@ -264,7 +264,7 @@ Actually, to this day, literally two hours ago, one of my friends just sent me a
 
 **Jerod Santo:** So one thing they have going on right now - because I am checking it out while you talk - is like a 1v1 tournament going on. Is that new features they've built beyond, or did you have that going when you sold it?
 
-**Victor Zhou:** \[00:36:14.10\] That's definitely a new thing that they wanted to do. We actually talked about that. I talked about that with the buyer when we were making the transaction. That's a thing that they've started running kind of recently. People like to have these tournaments, and there are a lot of really competitive Generals players out there... Surprisingly. Even though it's a really simple game. But it actually goes deeper than you would think.
+**Victor Zhou:** \[36:14\] That's definitely a new thing that they wanted to do. We actually talked about that. I talked about that with the buyer when we were making the transaction. That's a thing that they've started running kind of recently. People like to have these tournaments, and there are a lot of really competitive Generals players out there... Surprisingly. Even though it's a really simple game. But it actually goes deeper than you would think.
 
 I think they run these 1v1 tournaments every ten weeks, something like that. And I know that at least the last time I checked in on them, they were somewhat popular. It's definitely a fun thing that you can do as a community.
 
@@ -290,7 +290,7 @@ So there were definitely technical challenges, but at the end of the day I think
 
 **Victor Zhou:** Thank you. I appreciate it.
 
-**Jerod Santo:** \[00:40:05.29\] So this all started with your post "How to build a multiplayer (.io) web game", and we haven't talked about that yet... I'm sure that some of the hackers in our audience out there are thinking "Hm, I might try my hand at this because I like games, I'm a good developer, and maybe (just maybe) there's some success and some money at the end of this rainbow." So you have this big, long post -- actually, it's a two-part post, which we'll link up both of those, just for people that wanna read... But I would love to heard the breakdown maybe on the high-level, what all goes into these games, how they work...
+**Jerod Santo:** \[40:05\] So this all started with your post "How to build a multiplayer (.io) web game", and we haven't talked about that yet... I'm sure that some of the hackers in our audience out there are thinking "Hm, I might try my hand at this because I like games, I'm a good developer, and maybe (just maybe) there's some success and some money at the end of this rainbow." So you have this big, long post -- actually, it's a two-part post, which we'll link up both of those, just for people that wanna read... But I would love to heard the breakdown maybe on the high-level, what all goes into these games, how they work...
 
 If we want the nitty-gritty, I think we can keep that into your written form, because it's much easier to consume that way, versus a conversation... But maybe just high-level, help us understand what they're built with and how they work. We know they're web games, so web technologies are involved somehow... But give us a breakdown.
 
@@ -304,7 +304,7 @@ Other than that, you're gonna probably have a database of some sort if you keep 
 
 And then also I've been talking about this replay feature that I had with my other two games - I believe some other games have it, but I don't think it's so common right now... But the way that I've been implementing that is just, like I said, storing those replays in an AWS bucket, and then downloading those when I need them.
 
-\[00:44:11.19\] That's about it... Client - JavaScript. Server - JavaScript. We have websockets for the communication channel between the two, and then we've got some database and some other storage solutions behind the scenes to make it all work together.
+\[44:11\] That's about it... Client - JavaScript. Server - JavaScript. We have websockets for the communication channel between the two, and then we've got some database and some other storage solutions behind the scenes to make it all work together.
 
 **Jerod Santo:** The thing with games that I always get tripped up on is when I start to think of the actual visual interaction with the end user; maybe the sprites, or the graphics.
 
@@ -330,7 +330,7 @@ As far as collision detection and anything else like that goes - all of that is 
 
 I really wanted to be able to write everything myself, and be able to customize any little tiny thing that I want, and that's something that you sacrifice a bit if you're gonna use a library like Phaser.js.
 
-\[00:48:01.29\] So I have basically had to write all of those things that I might have gotten from one of those libraries myself. Like you said, the collision detection and everything like that, I implemented myself. I have to optimize myself, and I'm in charge of it myself, for better or for worse.
+\[48:01\] So I have basically had to write all of those things that I might have gotten from one of those libraries myself. Like you said, the collision detection and everything like that, I implemented myself. I have to optimize myself, and I'm in charge of it myself, for better or for worse.
 
 **Adam Stacoviak:** Well, beyond libraries, what about platform? IoGames.space -- I know you've got a couple of your games here; is this a platform where you can go and build your game on their existing platform, and skip this coding part, or is there a way to by-pass some of the things that Jerod has issues with, like being intimidated by the graphics portion of it? Just sort of by-passing the things that you don't do so well, or don't wanna do at all.
 
@@ -350,7 +350,7 @@ I really wanted to be able to write everything myself, and be able to customize 
 
 **Victor Zhou:** Right, yeah. Unfortunately, I think you just have to have all the skills for now.
 
-**Break:** \[00:49:35.11\]
+**Break:** \[49:35\]
 
 **Jerod Santo:** So you sold two games... Are you one-and-done? No, that doesn't make sense... Are you two-and-done? Are you kicking up a new .io game? Have you got any fresh ideas? What are your ambitions here with regards to these games? Is it just teaching other people how to do it, so you can play even more cool games? What are you thinking?
 
@@ -370,7 +370,7 @@ I really wanted to be able to write everything myself, and be able to customize 
 
 **Victor Zhou:** I think I see .io games sticking around for at least another five years. I don't think they're gonna go anywhere. I don't think this is just a fast trend. I think there's actual demand for this, and people will keep playing these kinds of games.
 
-\[00:51:53.11\] As far as specific games go, I don't really have any right now, because I haven't been playing .io games for a while. I think it kind of happened after I finished the sales, and I kind of moved on into other things. I've been out of the .io game for a while. But just check out ioGames.space. There's a lot of good stuff there.
+\[51:53\] As far as specific games go, I don't really have any right now, because I haven't been playing .io games for a while. I think it kind of happened after I finished the sales, and I kind of moved on into other things. I've been out of the .io game for a while. But just check out ioGames.space. There's a lot of good stuff there.
 
 As far as the rest of video games, I don't know. There's that new trend with all the Fortnite-type games, right?
 
@@ -398,7 +398,7 @@ As far as the rest of video games, I don't know. There's that new trend with all
 
 Part of it is just I'm really young, I'm kind of inexperienced, I don't know so much about the tech world yet, so I think there's a lot for me to do there still, and I think coming out of college -- yeah, it's a little bit of a safe move; get a nice paycheck, whatever... But I think part of it is also just being at a big company for these next few years is gonna be a good way for me to grow.
 
-**Adam Stacoviak:** \[00:56:14.17\] Let me just say that's a wise response to that, I would say. It seems like you've put a lot of thought into it; it's not just like "Hey, Facebook's big. Hope for the best." I think that makes sense. You're gonna level up your skillset, you're gonna level up your network, which is very smart moves; it's playing to your future, which makes sense.
+**Adam Stacoviak:** \[56:14\] Let me just say that's a wise response to that, I would say. It seems like you've put a lot of thought into it; it's not just like "Hey, Facebook's big. Hope for the best." I think that makes sense. You're gonna level up your skillset, you're gonna level up your network, which is very smart moves; it's playing to your future, which makes sense.
 
 **Victor Zhou:** Yeah. It's not to say that I won't ever go off and do something entrepreneurial. I think I have it in me.
 

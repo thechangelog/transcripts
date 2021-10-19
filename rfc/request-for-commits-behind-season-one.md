@@ -26,7 +26,7 @@ I tend to tell a lot of stories and come from that end, and then Nadia is much m
 
 Nadia, tell us about these notes, because you all gotta see some of the Google Docs that Nadia can crank out...
 
-**Adam Stacoviak:** \[00:04:01.15\] They're theses, basically...
+**Adam Stacoviak:** \[04:01\] They're theses, basically...
 
 **Jerod Santo:** I think the word is "thorough"...
 
@@ -70,7 +70,7 @@ Nadia essentially just does a lot of research and has a lot of possible discussi
 
 We rarely talk about somebody's entire history, because it's usually not relevant. I mean, there are some exceptions... Heather Meeker has an amazing legal history, and I think all of it is probably relevant to her views on the legal side of open source. But for most people we don't do that at all, because so much of what they do isn't really relevant. And we almost never ask them about the project that they're working on right now, which is what most podcasts do, because usually they are on to talk about a project they are promoting but we're like, "No, no, no... This thing that you've been working on for ten years, that is sort of like an underpinning of open source sustainability - let's get into that."
 
-**Adam Stacoviak:** \[00:08:11.02\] They're very - I wouldn't say "timeless", where you could just listen to them forever, but it's not like you can say, "Oh, that was recorded November 2016" or "That was in October, for sure." From the perspective of the show it's not really like a timestamp on it; it's almost timeless to a degree.
+**Adam Stacoviak:** \[08:11\] They're very - I wouldn't say "timeless", where you could just listen to them forever, but it's not like you can say, "Oh, that was recorded November 2016" or "That was in October, for sure." From the perspective of the show it's not really like a timestamp on it; it's almost timeless to a degree.
 
 **Mikeal Rogers:** Yeah, and some are better than others for that. You know, Brendan is working on a lot of really relevant stuff right now, so I think that his one is probably a little bit more timestamped, especially the third section of that one. I think that discussion we had with Karl Fogel will basically...
 
@@ -114,7 +114,7 @@ Let's talk about some favorite moments then from this season. I know that I've g
 
 **Mikeal Rogers:** Yeah, yeah... I mean, we scheduled that one for a two-parter, because we knew that it would take so long. Me and Nadia both talked to Karl before, and had an understanding of how long that it could go. With most of these people, like we were saying, there is an aspect of their work that we wanna talk about, and so that's gonna be an hour, because it's not all of their work. But with Karl, he has views on every angle of open source sustainability and community, so it was gonna be huge.
 
-\[00:12:14.07\] I don't know if you felt like this, Nadia, but I felt like we didn't have enough time...
+\[12:14\] I don't know if you felt like this, Nadia, but I felt like we didn't have enough time...
 
 **Nadia Eghbal:** Oh, yeah... I mean, he was the original inspiration for this show, and we were like "Oh, we should just do a podcast with Karl"; we could have done every episode on him. \[laughter\]
 
@@ -156,7 +156,7 @@ Let's talk about some favorite moments then from this season. I know that I've g
 
 **Nadia Eghbal:** Yeah, a lot. I'm kind of curious to go back and listen to that episode, because I think a lot has changed. The thing I felt really solid on this whole year has been that there is a problem that should be talked about. Figuring out what to do about the problem is obviously the hardest part, and I think takes a long time. Over this -- I mean, doing this show too has been an excuse to think really in depth about some of these ideas. I don't know that venture is the right place to start, I'll put it that way.
 
-\[00:15:55.19\] When I was first thinking about this stuff it was like, "How do you just get money into the problem in the first place and coming straight from VC?", that was my first thought. But I'm thinking more about "How do we create a sustainable system of support?" and that's not gonna be the best-aligned place, in my opinion.
+\[15:55\] When I was first thinking about this stuff it was like, "How do you just get money into the problem in the first place and coming straight from VC?", that was my first thought. But I'm thinking more about "How do we create a sustainable system of support?" and that's not gonna be the best-aligned place, in my opinion.
 
 **Jerod Santo:** So looking back at those deep conversations that you were able to have during season one, what are some highlights from your perspective, favorite moments or episodes?
 
@@ -188,7 +188,7 @@ I think we ended up following that conversation a lot; more than most of them, w
 
 **Jerod Santo:** Yeah, that was interesting. So you have the authorship side from the lawyer perspective or from the business perspective; if you have proprietary license, you have to hire somebody (a lawyer) to write that, and on the receiving side as well. So if you say "This is MIT", we have a preconceived understanding of what that means. But if every proprietary license is different, you have to actually have lawyers vet it on the receiving side, even if it is like Adam said, a copy/paste from a previous proprietary license; it doesn't matter. So you have costs on both sides, which I had never even considered.
 
-**Adam Stacoviak:** \[00:19:56.04\] I also appreciated - and this isn't exactly accurate, but something she said was pretty funny... "I'm not a lawyer, but I play one on Reddit." \[laughter\] Which is not true; I mean, she's a lawyer...
+**Adam Stacoviak:** \[19:56\] I also appreciated - and this isn't exactly accurate, but something she said was pretty funny... "I'm not a lawyer, but I play one on Reddit." \[laughter\] Which is not true; I mean, she's a lawyer...
 
 **Jerod Santo:** She is a lawyer!
 
@@ -220,7 +220,7 @@ If all of your product and all of your engineering is dependent on open source, 
 
 **Nadia Eghbal:** But that's a good thing, it means we had the same message for this show. Again, Mikeal had said when we started this about how it'd be really interesting to talk to these people who are known and accomplished for certain aspects of their life and they don't get to talk or think about the other aspects... That was my goal with this show - bringing sustainability to the forefront of the conversation and showing that there are a lot of different facets to that as well. It's not just about, "How do I get paid for the work that I do?", but it's "How do you think about your community? How do you think about grants/business stuff, if that interests you?" There's a lot of different aspects to it, and being able to explore all that really deeply in a sense just helps legitimize that this is something you should be thinking about if you work in open source.
 
-\[00:24:08.10\] In the beginning of this year maybe that was less obvious, and now I feel like it's becoming more obvious. We've talked about how there's some people who think this stuff doesn't matter at all, so there's a lot of history that has to be overcome to say "This stuff actually matters. It's a really big part of the work that you do, and we should be talking about, we should be going in-depth about it", instead of just talking about the code or the technical side of your work.
+\[24:08\] In the beginning of this year maybe that was less obvious, and now I feel like it's becoming more obvious. We've talked about how there's some people who think this stuff doesn't matter at all, so there's a lot of history that has to be overcome to say "This stuff actually matters. It's a really big part of the work that you do, and we should be talking about, we should be going in-depth about it", instead of just talking about the code or the technical side of your work.
 
 **Adam Stacoviak:** In light of that, who is the listener of this show? What types of people? Is it maintainers, is it people inside of companies, CTOs, executives? Who should be listening to this show? Who's our audience?
 
@@ -250,7 +250,7 @@ If all of your product and all of your engineering is dependent on open source, 
 
 **Mikeal Rogers:** It's still The Nadia Show, by the way... \[laughter\]
 
-**Jerod Santo:** \[00:27:57.27\] ...and I was like, "No, Nadia's fine." But then Nadia's like, "Well, I really think Mikeal would add to it", and I was like "Wow, I mean... I'm willing to give that a shot, as well", and I actually think, Nadia, you were probably right and we were probably wrong. I think the show definitely is better for having you and Mikeal as a team. You guys are making a great team, I think. You guys bring the alternating perspectives, with the battle-hardened veteran of open source and the thorough journalist asking questions... Kind of from the inside and from the outside, so I think it's turned out great. But yeah, we were a little pro-Nadia at first... We needed to be convinced.
+**Jerod Santo:** \[27:57\] ...and I was like, "No, Nadia's fine." But then Nadia's like, "Well, I really think Mikeal would add to it", and I was like "Wow, I mean... I'm willing to give that a shot, as well", and I actually think, Nadia, you were probably right and we were probably wrong. I think the show definitely is better for having you and Mikeal as a team. You guys are making a great team, I think. You guys bring the alternating perspectives, with the battle-hardened veteran of open source and the thorough journalist asking questions... Kind of from the inside and from the outside, so I think it's turned out great. But yeah, we were a little pro-Nadia at first... We needed to be convinced.
 
 **Adam Stacoviak:** I'm gonna share - hopefully, Nadia, you're not worried about this, or get any anxiety about it - a little piece that was in the original email from Nadia back to us.
 
@@ -298,7 +298,7 @@ Then when Node first started, there was a podcast called NodeUp that I hosted fo
 
 **Mikeal Rogers:** ...and the editing, and everything. I listed to a lot of podcasts, and it's noticeable how ones that don't sound as well or aren't as well put together, I will start listening to less, just because it takes more mental energy to listen to them. So yeah, that's just been phenomenal.
 
-**Adam Stacoviak:** \[00:32:07.19\] Awesome. Well, that's a big part of producing podcasts, we feel - quality content. There's so many facets to the idea of quality content. It's not only the content you're creating and making it engaging and informative, but also taking a positive stance towards good mics, good post-processing, good EQ, good mixing, and the awesome website we're launching on now... All the work behind all these things - there's so many moving parts... I never thought I would ever be part of producing a podcast. Jerod, my mind is blown by how far we have taken our desire for quality content. \[unintelligible 00:32:48.24\] But it's fun, though.
+**Adam Stacoviak:** \[32:07\] Awesome. Well, that's a big part of producing podcasts, we feel - quality content. There's so many facets to the idea of quality content. It's not only the content you're creating and making it engaging and informative, but also taking a positive stance towards good mics, good post-processing, good EQ, good mixing, and the awesome website we're launching on now... All the work behind all these things - there's so many moving parts... I never thought I would ever be part of producing a podcast. Jerod, my mind is blown by how far we have taken our desire for quality content. \[unintelligible 00:32:48.24\] But it's fun, though.
 
 So let's wrap up with the plan for season two. Unless there's anything else y'all wanna share about season one, let's move on to some plans on season two. Anything before we open that up yet?
 
@@ -334,7 +334,7 @@ Let's talk about that, then, unless we have any more before we open up the expec
 
 **Adam Stacoviak:** We're gonna try hard. I think what's different too about this, and it's helped me see a different side of podcasting, because I've always been like "You gotta do it weekly for it to be successful", and I think something this show has helped me realize is a different side; this is to anybody out there who produces podcasts - maybe you don't always have to produce a weekly show. Maybe it can simply just be seasonal, maybe it can be 11 awesome episodes that stand on their own for several months, and they're timeless, and then you can come back a few months later and record some more...
 
-\[00:36:25.19\] As long as you set the expectation to the listening audience and do a good job of being top of mind at some point in the near future, like Nadia, the work that you do, Mikeal, the work that you do - you're both relevant in the community, so your personal relevance keeps the DNA of the show live because later on whenever we produce the new seasons, you all can share that it's out there again and anybody who's a fan of you will be a fan of the next season. I think it's helped me change my perspective on the cadence of a show.
+\[36:25\] As long as you set the expectation to the listening audience and do a good job of being top of mind at some point in the near future, like Nadia, the work that you do, Mikeal, the work that you do - you're both relevant in the community, so your personal relevance keeps the DNA of the show live because later on whenever we produce the new seasons, you all can share that it's out there again and anybody who's a fan of you will be a fan of the next season. I think it's helped me change my perspective on the cadence of a show.
 
 **Nadia Eghbal:** I'm glad it's worked out that way, because I don't know that we could have done it weekly, but I love the idea of having these nice little bundles of information... Like with season one, we were thinking about a theme for each of those episodes, and they all kind of fit together into this one complete package. I'm always a fan of TV shows, like I cancel it after one or two seasons, because they end up becoming these cult favorites, and everyone just like dissects every single episode, so maybe I'll end up doing that.
 
@@ -354,7 +354,7 @@ There's one guest that we've been talking about for at least three months, and I
 
 **Adam Stacoviak:** Which I think is the exact thing I personally needed on the perspective of podcasts, because we feel like -- maybe it's more of a me thing (I don't know, Jerod, if you share this feeling or not), but we almost have this pressure in our position to create blockbuster podcasts... Good podcasts that get -- it's not even about listens, it's more about the popularity of it. And to not have simply the popularity to focus -- to laser focus on a single season, an overarching topic across that, the right kind of guest to share that message... To me it shows a depth and thoughtfulness that I hadn't -- not so much not considered, but hadn't considered mostly because the cadence of podcasts typically is like any podcast you listen to out there, 9 times out of 10 it's weekly. And to sort of be free of those shackles was very refreshing with this podcast.
 
-**Mikeal Rogers:** \[00:40:04.25\] Yeah, it's just different. I love both... I love Saturday Night Live, but they don't put together sketches because they're all the best sketches, they put it together because it's Saturday and it's midnight and they have to do a show.
+**Mikeal Rogers:** \[40:04\] Yeah, it's just different. I love both... I love Saturday Night Live, but they don't put together sketches because they're all the best sketches, they put it together because it's Saturday and it's midnight and they have to do a show.
 
 **Jerod Santo:** Exactly, yeah.
 
@@ -374,7 +374,7 @@ That's not what the whole season will be about. There's a bunch of other great p
 
 And then also the concept of unsung hero is not just people that we don't know, but also people doing the kinds of work on open source projects that might not always get attention. So when I put out a request about this, a couple of people were talking about conferences and events, and events being a really big part of any thriving open source community, whether you're launching your project in person or you're meeting other people... Developers are really big on in-person events, and that's something that people don't always think about; it's not that events in themselves always sustain your projects - although they do sometimes - but it's more just that there's all this other necessary work that isn't just about code that we kind of take for granted... So I think I would like to dive into some of those perspectives, as well.
 
-**Jerod Santo:** \[00:44:32.23\] How about a place or a way that people can contact and give the unsung heroes an opportunity to be on RFC season two? If you have somebody who you know is perfect for this, or they're doing something that they haven't gotten much spotlight, or respect, and they wanna reach out to either Nadia or Mikeal, how's the best way to submit those? Twitter?
+**Jerod Santo:** \[44:32\] How about a place or a way that people can contact and give the unsung heroes an opportunity to be on RFC season two? If you have somebody who you know is perfect for this, or they're doing something that they haven't gotten much spotlight, or respect, and they wanna reach out to either Nadia or Mikeal, how's the best way to submit those? Twitter?
 
 **Mikeal Rogers:** Twitter's fine, yeah. Send it to us on Twitter. Also, don't hound us... We've had a couple people that are a little bit too persistent. There's a lot that we consider when we think about a guest.
 

@@ -28,7 +28,7 @@ By the way, we would love to hear from you. If you love this segment and you wan
 
 So let's start. Segment one - this is going to be starting with team Ferball. Person one is Feross. Feross, you've got four minutes to introduce your side of the argument, "Websites should work without JS", and you are gonna say Yep. Go ahead.
 
-**Feross Aboukhadijeh:** \[00:04:11.12\] Great. So our premise is that websites should work without JS, and I wanna start by emphasizing the word "websites" in the premise. There's an important distinction to make here between websites and web apps. Because the premise is focusing on websites and not web apps, I think that it'll be a lot easier for our side to argue this premise. We're talking about websites, which are devoted to mainly conveying content to users, not delivering an interactive experience... So I want to just, in advance, say to our listeners that if our esteemed opponents on the other side try to switch the argument to focusing on web apps, that that's not the right way to be thinking about this debate. So just in advance I wanted to get that out of the way.
+**Feross Aboukhadijeh:** \[04:11\] Great. So our premise is that websites should work without JS, and I wanna start by emphasizing the word "websites" in the premise. There's an important distinction to make here between websites and web apps. Because the premise is focusing on websites and not web apps, I think that it'll be a lot easier for our side to argue this premise. We're talking about websites, which are devoted to mainly conveying content to users, not delivering an interactive experience... So I want to just, in advance, say to our listeners that if our esteemed opponents on the other side try to switch the argument to focusing on web apps, that that's not the right way to be thinking about this debate. So just in advance I wanted to get that out of the way.
 
 If you're focusing on websites, then one of the things to think about is default behavior that the browser gives us. If we use just HTML and CSS to build our websites, we get amazing default behaviors, specifically around links. Links will just work. Instead of implementing a link as a div with an on-click handler, where you can to basically then become responsible for all of the various click behavior that the browser does for you, like Cmd+Click to open a new tab, or middle-click to open a link in a new tab, or Right-Click not causing a navigation - these are all things that are really easy to get wrong if you implement a link as a div, for example, that has an on-click handler.
 
@@ -58,7 +58,7 @@ I think those are my main arguments.
 
 **Jerod Santo:** You're representing team Shortskull. Yeah, well - he's representing the Nope side, so I think he'll say nope to the response. But go ahead, Divya, with your Nope.
 
-**Divya Sasidharan:** \[00:07:58.09\] Okay. Alright, so I'm not gonna rebut anything that was said, I'm just gonna state what the premise is, which is that websites should not work without JavaScript (it's a double negative), and that's because I believe that JavaScript is an essential part of the web, and it drives interactivity.
+**Divya Sasidharan:** \[07:58\] Okay. Alright, so I'm not gonna rebut anything that was said, I'm just gonna state what the premise is, which is that websites should not work without JavaScript (it's a double negative), and that's because I believe that JavaScript is an essential part of the web, and it drives interactivity.
 
 I know that I said I wasn't gonna address the rebuttal part of it, but I want to make the distinction between websites and web apps, which I think is a ridiculous distinction and difference, because a lot of the times it's really hard to define what exactly a web app is, versus a website. So I'm just gonna throw that away. But... \[laughter\]
 
@@ -88,7 +88,7 @@ So I would argue that a lot of the things that make a website terrible with Java
 
 **Jerod Santo:** \[laughs\]
 
-**Kevin Ball:** \[00:11:49.19\] Progressive enhancement is the idea that a website or application should function just fine without JavaScript, and JavaScript then adds something progressively on top of it. So thank you, Divya. I could stop there, but I'm gonna continue going by reading statements from Hacker News comments that make our point for us... Because if we're making debates, why not make it interesting...?
+**Kevin Ball:** \[11:49\] Progressive enhancement is the idea that a website or application should function just fine without JavaScript, and JavaScript then adds something progressively on top of it. So thank you, Divya. I could stop there, but I'm gonna continue going by reading statements from Hacker News comments that make our point for us... Because if we're making debates, why not make it interesting...?
 
 The statement that JavaScript should be required, that sites should not work without JavaScript and that you have to enable JavaScript - a statement from dozzie, on December 28th, 2015: "Sorry, but your statement is ridiculous. Unless the website is an application, that is it does something useful, it's just a bunch of text and images. You should not expect people to give you full Turing capacity just because you're too full of your awesomeness that you can write a program."
 
@@ -132,7 +132,7 @@ The other people that don't see the JavaScript when they visit a website are pro
 
 The other point I'd like to make then is if your audience excludes people who don't necessarily have JavaScript running - and we can say this is not their choice; "choice" I mean the angry nerd who turns it off... If you're expecting your audience to have JavaScript, it may not be pragmatic to spend the engineering resources to make your site degrade when it's been designed from the ground-up as an interactive experience. So oftentimes it may take extra work to get that done, and designers may need to go in and say "Okay, this is what the site is gonna have to look like when there's no JavaScript, this is how things are going to have to act..." And as a developer there's always this push and pull between the time that you're allowed and the resources you're allowed, and time to ship, and it may not be pragmatic, it may not make business sense.
 
-**Break:** \[00:17:14.29\]
+**Break:** \[17:14\]
 
 **Jerod Santo:** Well, it was a heated debate. We're gonna continue this, a little bit shorter spurts, passing it back, team-to-team... I know team Shortskull took issue with the website/web app distinction. I know team Ferball loves that distinction, but do they really believe it? I don't know, we'll find out more. Let's let Shortskull speak more about that distinction, or any points you wanna make in rebuttal to the Ferballs.
 
@@ -154,7 +154,7 @@ The other point I'd like to make then is if your audience excludes people who do
 
 The nice thing about JavaScript and using JavaScript today is that you have access to a lot of APIs that allow you to query someone's bandwidth. There's the network API -- what is it called? Yeah, the Network Information API, that basically allows you to check whether or not what connection someone's on - if they're on a cellular or a Wi-Fi connection - and then based on that connection load the scripts that will allow them to view images or whatever interactivity that they would need. Using that, it gives you the power of selectively loading specific things, so that you're not giving them the bulk of JavaScript that will make it really slow and will be render-blocking overall.
 
-\[00:20:16.09\] So this idea of kind of like selectively loading or selectively giving people scripts is something that I think was brought up in a BBC article a couple of years ago, which is this idea of cutting the mustard, which is just being able to load scripts based on whichever device someone is on. If someone's on a low-powered device, you give them less JavaScript, versus someone who's on a high-powered device, you give them more JavaScript. The idea is that JavaScript is necessary, because you want to give them just some kind of interactivity, somewhat.
+\[20:16\] So this idea of kind of like selectively loading or selectively giving people scripts is something that I think was brought up in a BBC article a couple of years ago, which is this idea of cutting the mustard, which is just being able to load scripts based on whichever device someone is on. If someone's on a low-powered device, you give them less JavaScript, versus someone who's on a high-powered device, you give them more JavaScript. The idea is that JavaScript is necessary, because you want to give them just some kind of interactivity, somewhat.
 
 **Jerod Santo:** Time. Okay, Ferballs.
 
@@ -184,7 +184,7 @@ So it's not about making your site work without JS for the Hacker News trolls, i
 
 **Divya Sasidharan:** \[laughs\]
 
-**Jerod Santo:** \[00:24:13.03\] You're not gonna quote Hacker News again, are you?
+**Jerod Santo:** \[24:13\] You're not gonna quote Hacker News again, are you?
 
 **Divya Sasidharan:** \[laughs\] He's always trying..
 
@@ -232,7 +232,7 @@ The nice thing when websites like Slack - or I guess web apps; whatever - web th
 
 **Divya Sasidharan:** ...for web things like Slack to work you would need JavaScript, because you want those niceties of that interactivity; you can also do a lot of pre-loading, you can make sure that resources are fetched beforehand, so that you can optimize for offline experiences, as I mentioned earlier, which is something you cannot do without JavaScript. Sure, you could load a static page, but you can't really -- all hyperlinks do not work when you're offline anymore. Versus if something was client-side rendered and you were using a PWA for instance, which is a progressive web application which requires JavaScript, which is optimized for progressive enhancement, you have the ability to load all of those pages so you can still access and use it as you would need, without even noticing they are offline. So if you're kicked offline, you can continue sending email, doing whatever you need to do, and then when you come back online, all of those actions are then sent over the wire. So that's the nice thing about JavaScript and why web apps - or web thangs - like Slack need JavaScript.
 
-**Christopher Hiller:** \[00:27:51.23\] I wanted to jump in and talk about one point that's been mentioned in passing, which is accessibility. It's a misconception that sites with JavaScript are inaccessible, especially to screen readers. Nowadays a screen reader does not care about your JavaScript. The way a screen reader works is it cares about the markup. And regardless of whether or not your site has JavaScript, if that JavaScript is good or bad or whatever, if your markup is not semantic, if you're not using the ARIA attributes and accessibility features built into the HTML platform, then your site will be accessible, regardless of JavaScript. So just because the site needs JavaScript doesn't necessarily mean it's going to be inaccessible to a screen reader.
+**Christopher Hiller:** \[27:51\] I wanted to jump in and talk about one point that's been mentioned in passing, which is accessibility. It's a misconception that sites with JavaScript are inaccessible, especially to screen readers. Nowadays a screen reader does not care about your JavaScript. The way a screen reader works is it cares about the markup. And regardless of whether or not your site has JavaScript, if that JavaScript is good or bad or whatever, if your markup is not semantic, if you're not using the ARIA attributes and accessibility features built into the HTML platform, then your site will be accessible, regardless of JavaScript. So just because the site needs JavaScript doesn't necessarily mean it's going to be inaccessible to a screen reader.
 
 **Feross Aboukhadijeh:** By the way, on that point - I just meant that if you already have something like a server-side rendering setup and you're getting HTML back from the server, and then you disable JS, that's just like an easy way to test whether you are using all of those nice, properly-semantic tags... Because now you don't have all the on-click handlers attached to stuff that the JavaScript would have done, you just have the raw elements. So it's just like a nice, easy way to test whether your site is minimally-accessible. Do you agree with that?
 
@@ -254,7 +254,7 @@ The nice thing when websites like Slack - or I guess web apps; whatever - web th
 
 **Feross Aboukhadijeh:** One nice thing you can do, by the way, is just use a select element, and then the JS can see the select element there and then replace it with something at runtime... So if the JS doesn't actually load, you still have the select element; it might not be as nice as your fancy little component widget-thingy-majigger, but will still work.
 
-**Divya Sasidharan:** \[00:32:15.28\] Yes. The thing about JavaScript that makes it nice when you wanna access that branch or that element on tree is that events work really nicely with accessibility, so if you were to trigger events, you're like "Clicking this button does this other thing", it opens a pop-up or whatever, like you were mentioning, Kball... Currently there's no way for you to manage what exactly happens with the accessibility tree. So if you want that interactivity to work, which is often the case, then you would need access to that tree, so that you can make sure that the event propagates properly, and that screen readers have the ability to handle that appropriately, without just it bubbling up wherever it goes... Which is very jarring. Viewing the web as someone who has an impairment is very frustrating... So the ability to handle those events as they propagate, because events are obviously what happen -- event delegation, all of that thing is kind of standard on the web at this point...
+**Divya Sasidharan:** \[32:15\] Yes. The thing about JavaScript that makes it nice when you wanna access that branch or that element on tree is that events work really nicely with accessibility, so if you were to trigger events, you're like "Clicking this button does this other thing", it opens a pop-up or whatever, like you were mentioning, Kball... Currently there's no way for you to manage what exactly happens with the accessibility tree. So if you want that interactivity to work, which is often the case, then you would need access to that tree, so that you can make sure that the event propagates properly, and that screen readers have the ability to handle that appropriately, without just it bubbling up wherever it goes... Which is very jarring. Viewing the web as someone who has an impairment is very frustrating... So the ability to handle those events as they propagate, because events are obviously what happen -- event delegation, all of that thing is kind of standard on the web at this point...
 
 **Kevin Ball:** Once you add JavaScript.
 
@@ -298,7 +298,7 @@ The nice thing when websites like Slack - or I guess web apps; whatever - web th
 
 **Jerod Santo:** You heard it here first.
 
-**Break:** \[00:34:51.21\]
+**Break:** \[34:51\]
 
 **Jerod Santo:** Alright, we're back for the behind-the-scenes of the debate. The post-debate - you know, I have to talk about who wins and who loses... Well, we're not gonna do that. We want you to do that maybe, if you like. If you're on team Ferball, let us know, if you think the Ferballs represent. If you're on team Shortskull, holler back. The Yeps versus the Nopes. You can click on the show notes, there's a Discuss on Changelog News button - it will all be on that commentary - or hit us up, @jspartyfm on Twitter if you prefer; let us know what you think.
 
@@ -318,7 +318,7 @@ But on the other hand, accessibility is an example where you actually do take a 
 
 So in general, I think it's kind of a ridiculous conundrum that way, and I'm very much of the opinion -- I believe in progressive enhancement, as everyone has so far mentioned, just because I think that that's the ability to make sure that your site works in all scenarios. Because ultimately, you want the content to load, so people can at least see what's happening on the page... But of course, you also want to optimize for the time to first interactive, because it's really frustrating if everything loads content-wise, but then it doesn't work.
 
-\[00:40:09.11\] So I believe it's kind of a balancing act. You don't go like "No JavaScript at all", but you wanna make sure that it works at a minimal amount. To make time to first interactive better there's a lot of ways that you can make sure -- you can use HTTP Server Push, so you're making sure that your resources load as fast as possible, so that time is improved... And there's a lot more techniques. I think Addy Osmani wrote a post called "The cost of JavaScript" in (maybe) 2017 or 2018, talking about just how to make that time to first interactive... Which is actually perceptible to people; people notice that, so trying to improve that using various techniques as developers and trying to be responsible for that.
+\[40:09\] So I believe it's kind of a balancing act. You don't go like "No JavaScript at all", but you wanna make sure that it works at a minimal amount. To make time to first interactive better there's a lot of ways that you can make sure -- you can use HTTP Server Push, so you're making sure that your resources load as fast as possible, so that time is improved... And there's a lot more techniques. I think Addy Osmani wrote a post called "The cost of JavaScript" in (maybe) 2017 or 2018, talking about just how to make that time to first interactive... Which is actually perceptible to people; people notice that, so trying to improve that using various techniques as developers and trying to be responsible for that.
 
 **Jerod Santo:** Kball, you were strongly on the Yep... So are you strongly on the Yep?
 
@@ -338,7 +338,7 @@ So I think the statement "Your site or application should work without JavaScrip
 
 **Kevin Ball:** Yeah. If I'm ever overseas and connecting through my phone, through one of those super-slow connections, I'm so grateful that that exists. I'll have my laptop open, because it's easier to deal with things on the laptop, but I'll be connecting through something that's really slow, and Gmail will automatically say "Hey, our JavaScript-intensive experience is taking a long time to load. Do you wanna go to the static version?" And it makes it possible to use Gmail in scenarios where otherwise you really can't; like, it's unusable. I am in that slice of users that once a year or so I'm like "Oh, I'm so grateful this exists!"
 
-**Jerod Santo:** \[00:44:03.14\] But if you think about an email client, it really isn't a thing that should require -- I mean, the fallback is you load a page, you read the stuff, you enter stuff into a form, you push submit, it posts it... It's a very normal web flow. Whereas something like WebRTC is a dramatically different web flow. Anything that's socket-based stuff - dramatically different.
+**Jerod Santo:** \[44:03\] But if you think about an email client, it really isn't a thing that should require -- I mean, the fallback is you load a page, you read the stuff, you enter stuff into a form, you push submit, it posts it... It's a very normal web flow. Whereas something like WebRTC is a dramatically different web flow. Anything that's socket-based stuff - dramatically different.
 
 So that's where it's like "Okay, is there a progressive enhancement?" If I'm building a collaborative video tool such as Appear.in, which we tried and it works pretty well (it's WebRTC), is there like a fallback for that? Where it's like "Hey, we'll give you an ASCII version of what you guys look like..." \[laughter\]
 
@@ -376,7 +376,7 @@ I'm frustrated with the new Twitter interface. What the heck...?! The old one wa
 
 **Feross Aboukhadijeh:** Can you imagine if physical products worked the same way that tech products do? Especially cloud-based ones, where they can change out from under you at any time... Imagine if your toaster's buttons suddenly were on the other side, rearranged, and you didn't even decide; you just wake up one day and you can't find the buttons. The manufacturer is like "Oh yeah, we changed them around. You know, following trends..."
 
-**Divya Sasidharan:** \[00:48:08.03\] But I think that's the argument with microwaves and ovens, right? Having all these extra settings that you don't need, where it's like "Oh... For popcorn and for chicken nuggets."
+**Divya Sasidharan:** \[48:08\] But I think that's the argument with microwaves and ovens, right? Having all these extra settings that you don't need, where it's like "Oh... For popcorn and for chicken nuggets."
 
 **Feross Aboukhadijeh:** Oh my gosh, I totally agree. I've always wanted to have a microwave that just has a +30 seconds button and nothing else.
 

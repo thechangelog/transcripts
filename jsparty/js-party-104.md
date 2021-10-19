@@ -126,7 +126,7 @@ And of course, there were also some downsides coming with all this attention on 
 
 **Emma Wedekind:** The hard things. You were kind of keeping me in line and rubber-ducking things when I needed it, so... Yeah, I appreciate that. We're gonna take a quick break here, but when we come back, we're gonna talk about some things that make a good mentorship and some things that maybe could hinder your mentorships, and then talk about how you can find a mentor in the tech industry.
 
-**Break**: \[00:21:19.13\]
+**Break**: \[21:19\]
 
 **Emma Wedekind:** Alright, so let's talk a little bit about what actually makes a good mentorship. Kahlil, from our mentorship, what do you think are some of the characteristics about it that has made it so successful?
 
@@ -212,7 +212,7 @@ And there are other initiatives that we wanna employ as well. We do have a very 
 
 **Emma Wedekind:** Let's take one more break, and when we come back, let's just talk about maybe some cool things that we're learning.
 
-**Break:** \[00:37:29.10\]
+**Break:** \[37:29\]
 
 **Emma Wedekind:** Alright, so before we talk about some of the cool things we're learning, I'm gonna kick it over to Kahlil to just talk about when is the right time to end a mentorship. How do you know when the time has come to gracefully part ways?
 

@@ -12,7 +12,7 @@ Let's start off with your academics in general. Tell us about what you do, what 
 
 **Adam Stacoviak:** What's interesting about this field - which again, I'm nowhere near you, I'm just a novice, somebody who is curious, I would just say - is that you can go back in time... Ice is essentially some level of a time machine when it comes to research. Is that what got you into -- what piqued your interest to get into this field?
 
-**Anders Damsgaard:** \[00:03:58.25\] Yeah, it's definitely -- it's actually climate record also, because you have snowfall, of course, being precipitated on the surface of the ice, and then you have layers upon layers being compacted. So if you try to drill through these ice sheets, it's actually going back in time, and just like tree rings, you can count out as individual years of precipitation. So it can go back thousands of years and understand what happens in terms of precipitation change and climate change, also going back in time. So that's the direct measure on the ice sheets themselves within the ice... But you can also look at previous extent of ice sheets and see how they grew from the Northern latitudes and spread on Northern America and the European Lowland, and you can see how it just drastically reshaped the surface during previous glaciations.
+**Anders Damsgaard:** \[03:58\] Yeah, it's definitely -- it's actually climate record also, because you have snowfall, of course, being precipitated on the surface of the ice, and then you have layers upon layers being compacted. So if you try to drill through these ice sheets, it's actually going back in time, and just like tree rings, you can count out as individual years of precipitation. So it can go back thousands of years and understand what happens in terms of precipitation change and climate change, also going back in time. So that's the direct measure on the ice sheets themselves within the ice... But you can also look at previous extent of ice sheets and see how they grew from the Northern latitudes and spread on Northern America and the European Lowland, and you can see how it just drastically reshaped the surface during previous glaciations.
 
 We know from the past that these ice sheets can really cause massive change on a global scale, and we're trying to wrap our heads around exactly how that happens, physically speaking.
 
@@ -40,7 +40,7 @@ Let me ask you guys both kind of a funny/off-topic question... And you might lau
 
 **Anders Damsgaard:** I work on improving the physical mechanisms and physical parameterizations in these ice sheet models. I'm sitting in front of the computer, trying to understand and model this system to a better degree than we can do today... So specifically what I'm working on at the moment is the fact that the glacier is actually not really governed by how the ice itself flows.
 
-\[00:08:12.19\] You probably both know that glaciers and ice sheets move from high altitudes to lower altitudes, because ice is a viscous fluid. But it's actually not to a primary extent the ice flow itself that really controls how the ice sheet moves and why it moves in the patterns that we see... But instead, it's actually sediments like sand, and clays, and gravel, and stones at the base that are very weak, because we have a lot of melt water down there. So these sediments are actually breaking, and what we see on the surface is actually an expression at the base of the ice sheet of where these sediments are failing and where they are weak, and where they actually are contributing to lubricating the glacier flow.
+\[08:12\] You probably both know that glaciers and ice sheets move from high altitudes to lower altitudes, because ice is a viscous fluid. But it's actually not to a primary extent the ice flow itself that really controls how the ice sheet moves and why it moves in the patterns that we see... But instead, it's actually sediments like sand, and clays, and gravel, and stones at the base that are very weak, because we have a lot of melt water down there. So these sediments are actually breaking, and what we see on the surface is actually an expression at the base of the ice sheet of where these sediments are failing and where they are weak, and where they actually are contributing to lubricating the glacier flow.
 
 These physics are actually not very well understood, and more or less not included in the models that we today use to quantify the sea level rise in future climate scenarios. So the estimates that in the year 2100 say that we will have maybe half a meter of sea level rise, maybe one meter of sea level rise, they are based on more primitive models... And it's really hard to exactly quantify these maybe less or maybe more important mechanisms such as the one that I'm working on.
 
@@ -54,7 +54,7 @@ We really have to be smart about our computing, and we have to be very efficient
 
 **Anders Damsgaard:** Yeah, that's exactly right. You have to make the right simplifications, so you really can do something with your insight, and actually apply to bigger purposes.
 
-**Jerod Santo:** \[00:12:04.14\] Do you also have to focus in on specific glaciers in order to do real-world results? Because it seems like, in my layman's understanding, I would think that different glaciers and different geographies, under different circumstances, are gonna also react differently. So that's probably a challenge as well.
+**Jerod Santo:** \[12:04\] Do you also have to focus in on specific glaciers in order to do real-world results? Because it seems like, in my layman's understanding, I would think that different glaciers and different geographies, under different circumstances, are gonna also react differently. So that's probably a challenge as well.
 
 **Anders Damsgaard:** Absolutely, and we already see that happening today. For instance, on the Antarctic continent there is one area which is immensely affected by current climate change, while other glaciers are actually growing. So there is a lot of regional variability, and just because the setting is different, that actually means a lot to the outcome.
 
@@ -72,7 +72,7 @@ I would say pretty much anybody who has gone online and tried to look for papers
 
 I chose to spend a little bit of time to sharpen my toolset and build something that could help me get around all of these issues and streamline the workflow... And I guess many of your listeners are probably the same way. We probably all have a set of dotfiles which we just very much value and continuously tweak in order to just get rid of little hurdles that might occur every day in our workflow.
 
-**Jerod Santo:** \[00:16:08.06\] I'm curious if you are unique amongst your peers in your research, or if you are commonplace in terms of somebody who is doing climate science, glaciology, and yet spends time writing scripts, software programming basically, in order to help them along in their way. Do a lot of climate scientists have your skillset, or are you unique? How did you get these programming skills?
+**Jerod Santo:** \[16:08\] I'm curious if you are unique amongst your peers in your research, or if you are commonplace in terms of somebody who is doing climate science, glaciology, and yet spends time writing scripts, software programming basically, in order to help them along in their way. Do a lot of climate scientists have your skillset, or are you unique? How did you get these programming skills?
 
 **Anders Damsgaard:** I'd say a lot of climate scientists are actually pretty good programmers. When I was at \[unintelligible 00:16:39.13\] in the U.S, I was at this climate modeling facility, and people have been writing Fortran programming there since the '60s... And they know everything about making really efficient code. So a lot of people in that sub-niche are actually pretty good programmers and do everything they can on the command line.
 
@@ -84,7 +84,7 @@ But I did my undergrad in a Geoscience Department, and there it's the stereotypi
 
 Actually, something like version control is pretty recent in the modeling community, I'd say, so of course, there are so many benefits to having proper development pipelines that, and so on; that's just a complete necessity in modern development. So a lot of good things are coming out of combining people with different skills.
 
-**Break:** \[00:18:59.19\]
+**Break:** \[18:59\]
 
 **Jerod Santo:** So you were bumping into this problem with your research, of going out and getting the publication's PDFs, in most cases - probably almost all cases - and you wrote in your post about the announcement for the Scholarref Tools, that the common tasks you're doing, including downloading PDFs of publications, and getting references into your bibliography... And you said, "However, I'm not a fan of navigating the slow, bloated, tracker-filled and distracting web pages of academic journals and publication aggregators", so you came up with this solution. Why don't you tell us about it?
 
@@ -96,7 +96,7 @@ The problems with that kind of workflow are actually many. As you mentioned, I'm
 
 I've found out that there's this API publicly-available, which I can simply query from a search query. That actually works really well. Alternatively, I also make it possible to just feed in a PDF document. One of these tools in the Scholarref Toolset will try to extract the UI, which is the unique identifier for that publication. So you're not getting any kind of wrong results. The last thing you want is to get the reference for the wrong publication, and even worse is if you don't manage to actually correct that mistake before submitting.
 
-\[00:24:12.18\] I've tried to make these tools modular so in some instances you might only need the UI of the publication, in other instances you might need the full reference in a consistent format... And finally, in some cases, you might actually need the PDF itself.
+\[24:12\] I've tried to make these tools modular so in some instances you might only need the UI of the publication, in other instances you might need the full reference in a consistent format... And finally, in some cases, you might actually need the PDF itself.
 
 Another benefit from keeping these tools really minimal and simple is that they are quite portable, so they have very minimal dependencies on the host system, which makes them easier to distribute. And secondly, it also makes it possible to work with them from your favorite editing environment. For instance, I'm a guy that likes to stick to old-school terminal text editors, vi specifically. And there are \[unintelligible 00:24:58.10\] set of keys and get the reference in a very convenient manner. You can do that in pretty much any editor that you can think of, because these are just shell scripts, so that just makes them much more portable than many other solutions.
 
@@ -132,7 +132,7 @@ Also, something like just a POSIX shell is much more rapid than a more complex s
 
 **Anders Damsgaard:** Oh, these are quite simple. Most of the source code is actually \[unintelligible 00:27:47.18\] the help text itself, and version info, and so on... So the scripts are really minimal. But you're absolutely right, if you want to do something complex, you should go for Python. But then again, something like the lag just from starting a Python program is quite significant.
 
-**Jerod Santo:** \[00:28:05.25\] You mean startup lag, by the time you type the command in...
+**Jerod Santo:** \[28:05\] You mean startup lag, by the time you type the command in...
 
 **Anders Damsgaard:** Startup lag, specifically.
 
@@ -176,7 +176,7 @@ Also, something like just a POSIX shell is much more rapid than a more complex s
 
 **Jerod Santo:** The old Zen Garden? CSS Zen Garden?
 
-**Adam Stacoviak:** \[00:32:04.15\] Well, not like that, but where you can actually put it into Chrome, or Brave, or whatever browser you use, where you can actually restyle a website, so "Make GitHub look like this."
+**Adam Stacoviak:** \[32:04\] Well, not like that, but where you can actually put it into Chrome, or Brave, or whatever browser you use, where you can actually restyle a website, so "Make GitHub look like this."
 
 **Jerod Santo:** Oh, yeah.
 
@@ -226,7 +226,7 @@ So yeah, I think there are lots of reasons to look beyond these mega source code
 
 **Anders Damsgaard:** Well, of course, it will always be a trade-off... So because you kind of leave many of these GitHub niceties behind, you might also put yourself at risk with damaging any collaboration that might otherwise present itself. But then again, if people are interested enough, you get pull requests which go beyond just correcting basic typos, and things like that...
 
-**Jerod Santo:** \[00:36:20.24\] Right.
+**Jerod Santo:** \[36:20\] Right.
 
 **Anders Damsgaard:** If people want to contribute and really make something significant and provide some significant changes to a software project, I think they'll get in touch no matter what the communication platform is, to be honest.
 
@@ -250,7 +250,7 @@ I looked into what it would actually take to set up something like that, and it 
 
 That being said, there are casualties along the way. Adam, I interviewed Ned Batchelder for our Maintainer Spotlight series, Ned told me a story of a guy who was like a -- I told you about him; he was like this traveling contributor... Remember that? He would pick a project for three months or so, and he would contribute to that project heavily, not casually. He'd get all into it, he'd make major contributions, and then he'd move on to the next project. It's just the way he did open source, which was very unique. And his name is Loïc Dachary, I think is how you say his last name in French; a French fella.
 
-\[00:40:11.08\] And Ned had benefitted from his contributions and was just kind of singing his praises, and I said "We should get Loïc on the show." And the other day I went looking for Loïc, and he's not on GitHub. I couldn't find him. I found his website, and he left GitHub. Similar to Anders, he closed his account... And his was specifically the day Microsoft acquired GitHub; he was gone.
+\[40:11\] And Ned had benefitted from his contributions and was just kind of singing his praises, and I said "We should get Loïc on the show." And the other day I went looking for Loïc, and he's not on GitHub. I couldn't find him. I found his website, and he left GitHub. Similar to Anders, he closed his account... And his was specifically the day Microsoft acquired GitHub; he was gone.
 
 I'm curious if he's still doing open source. He's not doing it on GitHub like he was, so there's definitely been downsides along the way.
 
@@ -264,7 +264,7 @@ Because everyone's there. And when I say "everyone", it's only in masses, not ev
 
 **Jerod Santo:** Which is the beauty of Git and distributed version control - as long as you don't extend into the full feature set, or you're willing to give up certain aspects of the feature set, like GitHub issues, you are still in control. They are hosting a version, a snapshot, or many snapshots of your code over time... But as long as you don't couple yourself to that corporation, you can always go set up your own deal (StaGit), because you have everything, and moving away is feasible. Maybe it's gonna be more painful the more you buy in, but it's still feasible at any moment... So when something bad happens, you are free to leave. Whereas with other things - they have everything. They have your data; you don't have your data, they have it. It's on their computers, not yours. At least with Git it's on both computers.
 
-**Adam Stacoviak:** \[00:44:11.07\] That's actually the exact beauty of Git - there is multiple copies, and someone can recover it should something happen to one of the versions of it elsewhere, or the nodes of it elsewhere, the copies of it elsewhere.
+**Adam Stacoviak:** \[44:11\] That's actually the exact beauty of Git - there is multiple copies, and someone can recover it should something happen to one of the versions of it elsewhere, or the nodes of it elsewhere, the copies of it elsewhere.
 
 I'm curious, Anders - this may be going one more layer deeper - are you against having your code on GitHub? Did you wipe all of your code away? Did you just sort of like vacate and stop being there, or did you delete?
 
@@ -276,7 +276,7 @@ You know the saying that if you're not paying for it, you're not the customer, b
 
 **Anders Damsgaard:** Sure. I absolutely agree with that.
 
-**Break:** \[00:46:21.00\]
+**Break:** \[46:21\]
 
 **Adam Stacoviak:** What are the ideal users for this tool? I mean, if we're looking at who could become a drive-by user - not a contributor; that's a more difficult path, as we've mentioned... But a user seems a little easier - Git clone, that's pretty possible. But who's using this tool and what's needed in this space?
 
@@ -292,7 +292,7 @@ They often have quite good documentation also, that kind of helps developers or 
 
 For instance, it's pretty easy to get things up and running on Travis and similar CI platforms, so it doesn't necessarily take a lot of effort to get different models up and running on these testing frameworks. That allows the developers behind these models to really make much more clever development as they go, because they can see if the intended changes do the correct thing that they wanted to do.
 
-\[00:52:24.07\] So there are a lot of things that maybe people with purely developer backgrounds can contribute just from their skillset to these kinds of models and communities... So we're all opened arms in that regard, and I think people would be very well welcomed to that community.
+\[52:24\] So there are a lot of things that maybe people with purely developer backgrounds can contribute just from their skillset to these kinds of models and communities... So we're all opened arms in that regard, and I think people would be very well welcomed to that community.
 
 **Adam Stacoviak:** That's good to hear, because sometimes when you get into certain fields -- I've heard this at least from Mireille, the co-host on Brain Science with me, about the brain science field, the neuroscience field, that it can be kind of...
 
@@ -334,7 +334,7 @@ For instance, it's pretty easy to get things up and running on Travis and simila
 
 **Anders Damsgaard:** It is... But I sold it, because I ended up just sitting at the computer, doing spots healing in Photoshop anyway... So now I'm using film cameras and I'm developing pictures in the darkroom, in a spare bathroom that we have...
 
-**Jerod Santo:** \[00:56:12.05\] Oh, that's cool.
+**Jerod Santo:** \[56:12\] Oh, that's cool.
 
 **Anders Damsgaard:** ...completely analog, in the red lights, like a dad from the '70s, or something like that. So it's a lot of fun...
 

@@ -22,7 +22,7 @@ But I had a conversation with them, and they've agreed to be on the podcast toda
 
 **Daniel Whitenack:** Yeah, please do... If you wanna introduce yourself, and then we'll ask Tony to do the same.
 
-**Timo Möeller:** \[00:03:58.13\] Okay. Hey, I'm Timo, and I'm the co-founder of an NLP startup in Berlin, and I would say a total NLP (natural language processing) geek. I studied data science and computational neuroscience, and then co-founded this startup, Deepset, two years ago in Berlin... Which is actually a really great place for a startup. A lot of talents are coming here, and also a lot of the open source companies are based in Berlin... For example SpaCy, or maybe you know Rasa.
+**Timo Möeller:** \[03:58\] Okay. Hey, I'm Timo, and I'm the co-founder of an NLP startup in Berlin, and I would say a total NLP (natural language processing) geek. I studied data science and computational neuroscience, and then co-founded this startup, Deepset, two years ago in Berlin... Which is actually a really great place for a startup. A lot of talents are coming here, and also a lot of the open source companies are based in Berlin... For example SpaCy, or maybe you know Rasa.
 
 **Daniel Whitenack:** Yeah, we had SpaCy on the podcast a little bit ago. Yeah, Berlin sounds like quite a place to be a developer. I definitely need to make a trip there.
 
@@ -50,7 +50,7 @@ A lot of what I've been doing has been in the medical imaging space, so CTs, MRI
 
 So that's what we've been doing... Obviously, we've been really busy at Intel, just working - as everybody is around the planet, basically trying to figure out ways we can help with COVID... And obviously, we're a tech company, so -- we're not healthcare, we're not gonna be able to go out there and do magic, like healthcare providers are doing, but we're gonna do what we can... And this is one of the ways we think we can really make a difference.
 
-**Chris Benson:** \[00:08:14.29\] This is just such an unprecedented time, and it's moving so fast, that -- for context, for listeners who are tuning in, we're actually recording this on Tuesday, March 31st... And we don't normally say that, when we record episodes, but given the topic and given how fast this is evolving, I thought that a point in time was worth having... Just to set the context, and then I'd like to come back over to you, Tony, for a little level-setting for us.
+**Chris Benson:** \[08:14\] This is just such an unprecedented time, and it's moving so fast, that -- for context, for listeners who are tuning in, we're actually recording this on Tuesday, March 31st... And we don't normally say that, when we record episodes, but given the topic and given how fast this is evolving, I thought that a point in time was worth having... Just to set the context, and then I'd like to come back over to you, Tony, for a little level-setting for us.
 
 I know that right now we're at a point where there's 203 countries, areas and territories that have COVID-19 cases. As of today, the World Health Organization said 754,000 (and change; pardon me, I'll just round out the numbers) of cases. There's almost 37,000 cases around the world that resulted in death in the U.S. We're at 163,500 cases, and we are approaching 3,000 deaths, which we may hit today, based on the current run rate here in the U.S, which would put us on the same as 9/11 in terms of that...
 
@@ -70,7 +70,7 @@ I think that's what's just kind of curious about this - I feel like I wanna be o
 
 **Timo Möeller:** Yeah, exactly. Of course, social media is quite difficult to dissemble really truthful information, and this is exactly how we started the COVID-QA project. Two weekends ago, there was a hackathon organized by the German government authorities; it was actually a huge event, 45,000 people in one Slack workspace...
 
-**Daniel Whitenack:** \[00:12:11.22\] All virtual.
+**Daniel Whitenack:** \[12:11\] All virtual.
 
 **Timo Möeller:** Yeah, and all remote... And like a beehive buzzing about. Part of this hackathon - we decided to focus on getting factual information. That's why we looked at the official government pages, and already saw quickly that if you look at a single government page, there's not so much information... And that the information need is actually spread across a lot of official pages. This is exactly the birth hour of COVID-QA, where we wanted to aggregate these official sources and make them available and searchable in a meaningful way.
 
@@ -86,7 +86,7 @@ Afterwards, after this hackathon, there's also people now interacting, but also 
 
 Then what I thought was interesting was coming in to add the second group, which is going to be the researchers that want to look for new things. These are the data scientists, and geneticists, and physicians, and epidemiologists that wanna come in and actually do research on Covid and on Coronavirus...
 
-\[00:16:07.29\] So one of the things that Timo and I talked about was there was a dataset that was released on Kaggle by the Allen Institute, by the White House, NIH, Georgetown, CZI, MSR... It was a whole group that put it out called CORD-19, the Coronavirus Open Research Dataset Challenge... And it's something like 25,000 PubMed articles. These are peer-reviewed, high-quality articles that -- basically, just a search on Coronavirus, and virus, and got all the articles, basically.
+\[16:07\] So one of the things that Timo and I talked about was there was a dataset that was released on Kaggle by the Allen Institute, by the White House, NIH, Georgetown, CZI, MSR... It was a whole group that put it out called CORD-19, the Coronavirus Open Research Dataset Challenge... And it's something like 25,000 PubMed articles. These are peer-reviewed, high-quality articles that -- basically, just a search on Coronavirus, and virus, and got all the articles, basically.
 
 So the idea was "Well, BERT and all of these great models have things called Extraction AI, where you get to a question and answer system for this large body of articles." So the question would be -- you know, when the Kaggle thing went out, it was like "Here's a bunch of data. Can you find interesting things to do with it?" And I thought "Well, the first thing you need with a mountain of data is a way to sift through it for data that's actionable." Timo's group had something called Haystack, which was like trying to sift through a haystack for a needle... And I thought "What if we take this, we annotate it using the Stanford Q&A type of models, the SQuAD models, and be able to actually give researchers a free tool that they can go through the core dataset and be able to type in random questions that are things that are not gonna be how to wash your hands, but things that are like "the beta subunit of the globulin of the such-and-such", whatever... And it will actually give you a relevant answer and a few published articles that you can actually look to, and go through these 25,000 articles and get the real meat of the issue.
 
@@ -94,7 +94,7 @@ So the idea was "Well, BERT and all of these great models have things called Ext
 
 And then, this dual use for the general public, and as Tony mentioned, for the researchers, this will be incredibly useful to speed up the innovation process.
 
-**Break:** \[00:18:48.29\]
+**Break:** \[18:48\]
 
 **Chris Benson:** Coming out of that and looking at the next layer - we've talked about what COVID-QA is, and we talked about it being based on the CORD-19 dataset... I'm wondering if at this point, now that everyone has a sense of what you're trying to accomplish, if you could dive into specifically what this is that you're putting out there and making available to the public, and as we get a sense of that, we'll dive into how it works and what's the technology underlying it.
 
@@ -114,7 +114,7 @@ There we used a really nice library, Sentence Transformers. It's from a German N
 
 This whole network is trained end-to-end with exactly these user questions, and the questions you have. This works really great. The more data you feed into this network, the better it can match questions.
 
-\[00:23:51.18\] We've then also seen over the course of the hackathon that this is the way to go, and we need to extend this also to other languages... Because the questions from official FAQ pages are phrased in a very official tone, and people who want questions write in a colloquial manner, and also there are spelling mistakes. These models cover this part quite well. This is why we're actually trying to push in this direction more and more.
+\[23:51\] We've then also seen over the course of the hackathon that this is the way to go, and we need to extend this also to other languages... Because the questions from official FAQ pages are phrased in a very official tone, and people who want questions write in a colloquial manner, and also there are spelling mistakes. These models cover this part quite well. This is why we're actually trying to push in this direction more and more.
 
 **Daniel Whitenack:** I'm pretty curious about that, and Chris can probably guess that I'm very curious about that because of my interest in languages, which we've talked about a lot...
 
@@ -132,7 +132,7 @@ This, we hope, will scale to other languages and all the data that is coming fro
 
 **Timo Möeller:** This is in the second stage, where we have a more extractive QA that takes some unstructured text database, like the CORD-19 dataset, for example, and then extracts questions. We think that this will be related to researchers, but we could also envision that more text that the general public would be interested could be searchable with this system. The only problem there is that these extractive QA mechanisms are incredibly hard to scale to a huge amount of users... So we would possibly do this for the general public in more like an offline way, where we collect questions, and if a lot of questions come up that cannot be answered, we might need to use these extractive QA models to answer them from different data sources.
 
-**Daniel Whitenack:** \[00:28:10.28\] Yeah, so just to follow up on that - I think that it's worth noting here that I think it's really cool how you've approached this, because there is existing question and answer data out there, that's from a trusted source... So let's say FAQ pages from the World Health Organization, or something like that.
+**Daniel Whitenack:** \[28:10\] Yeah, so just to follow up on that - I think that it's worth noting here that I think it's really cool how you've approached this, because there is existing question and answer data out there, that's from a trusted source... So let's say FAQ pages from the World Health Organization, or something like that.
 
 So in the first case, where you're talking about doing this matching with the transformer models, you're actually matching a user query to a trusted source answer for that question, because it was posted on an FAQ site. But then, in the second piece, where you're just talking about it in terms of extractive QA... Really now what we're talking about is saying -- and correct me if I'm wrong, but I think the goal here would be to say "Well, the user isn't asking exactly what's on the FAQ site", or maybe the user isn't sort of general public user, but they're a research user...
 
@@ -146,7 +146,7 @@ So they have existing things like SciBERT and BioBERT, which are BERT models tha
 
 The first rule of data science is the data is always gonna be dirty coming in... So what we did is we said -- I'm an MD, and Intel has a lot of contacts... So I contacted people from the American Medical Association, and people that I knew, and just basically put out a call and said "Hey, could we get some domain experts? ...physicians, nurses, PhD's in biosciences?" People that are probably in some cases sitting at home. I heard on the radio that third and fourth year medical students are being told to stay home. And I was a third year medical student... I mean, I know how difficult it is; you wanna be there, you wanna be doing something, you're incredibly intelligent, and you have all of these skills that you've spent the last two years doing...
 
-\[00:32:05.13\] So I just put out a call, and we set up a Slack channel, and Timo's group had -- you know, Deepset had this annotation server, so we put up this core dataset. Essentially, the Slack channel allows -- I think we've got like 24 in the Slack channel right now. We just started yesterday on the annotation, and right now we've got over 100 question and answers off the dataset, just in the first day.
+\[32:05\] So I just put out a call, and we set up a Slack channel, and Timo's group had -- you know, Deepset had this annotation server, so we put up this core dataset. Essentially, the Slack channel allows -- I think we've got like 24 in the Slack channel right now. We just started yesterday on the annotation, and right now we've got over 100 question and answers off the dataset, just in the first day.
 
 These are things like -- I'll read you some of the ones that I'm looking at now from the website. "How many amino acids are in the SARS-CoV protein?" and the answer is 76 amino acids.
 
@@ -164,7 +164,7 @@ So if they had the genomic sequence or something like that, if that were in the 
 
 So if I put up a brand new article, if I put up a genomics article to this website and asked some questions, it should know where to look for in the text. And that's what's coming back. The model is not just making up words, it's identifying/highlighting the text, and saying "Here's the highlighted answer in the text. Does this seem right to you?"
 
-**Break:** \[00:35:32.08\]
+**Break:** \[35:32\]
 
 **Daniel Whitenack:** We've talked about the QA annotation that Tony has helped spin up, and really utilizing that expert input from doctors, from medical students, from medical professionals on the CORD-19 dataset... I was curious to kind of push that back to you, Timo, and see what your thoughts are in terms of -- let's say that Tony was able to get all this annotation in place (it sounds like there's a great start on that), how do you see that being integrated into the COVID-QA system itself? And maybe how do you see the two sides of the COVID-QA system developing?
 
@@ -178,7 +178,7 @@ Then you need a two-stage process. In the first stage you pre-select documents t
 
 So we can take these labels that Tony and the collaborators produce and stick them into frameworks to train end-to-end systems that answer questions on this large CORD-19 dataset.
 
-**Daniel Whitenack:** \[00:40:08.14\] I'm curious -- you mentioned the scale of the data, and SIL has been working to get translations in place over the past days... Definitely translations in the thousands seem within reach; annotations in the hundreds of thousands is definitely a tough thing, especially when you're relying on experts. But I was wondering if you could speak to -- I know some of these domain-adapted models, SciBERTs or other ones... Do I have it right that those are transfer-learned from another model? So if you have a model trained on the SQuAD dataset for question and answer, which is a totally general domain, is it possible to then transfer-learn a domain-adapted question and answer model with the data that Tony is working on?
+**Daniel Whitenack:** \[40:08\] I'm curious -- you mentioned the scale of the data, and SIL has been working to get translations in place over the past days... Definitely translations in the thousands seem within reach; annotations in the hundreds of thousands is definitely a tough thing, especially when you're relying on experts. But I was wondering if you could speak to -- I know some of these domain-adapted models, SciBERTs or other ones... Do I have it right that those are transfer-learned from another model? So if you have a model trained on the SQuAD dataset for question and answer, which is a totally general domain, is it possible to then transfer-learn a domain-adapted question and answer model with the data that Tony is working on?
 
 **Timo Möeller:** It's a little bit different. You have to separate a base language model that can just transform text to vectors, and then you have to take this language model and adjust it to suit your task at hand. For example a document classification, or an extraction of named entities like persons and cities... And add also question answering. You have to attach a prediction \[unintelligible 00:41:19.12\] another small neural network on top of this language model, and then train this whole joint network on this target task.
 
@@ -198,7 +198,7 @@ Some of the other things that are useful, even if you're not one of those expert
 
 I'm getting good response so far, but I'd love to always get more. As we talked in the beginning, just people that are at home, trying to figure out things to do... Again, we've got geneticists who might not be doing anything right now. We've got people with biochemistry degrees that maybe they're not doing anything right now, or maybe they're grad students... Perfectly, I would love to talk to them and try to onboard them for this. If you have an internet connection and know how to use a web browser, you're set.
 
-**Chris Benson:** \[00:44:10.05\] I had a daughter who's a third-year med student, so I'm definitely a--
+**Chris Benson:** \[44:10\] I had a daughter who's a third-year med student, so I'm definitely a--
 
 **Tony Reina:** Oh, perfect! Have her contact me, absolutely. We'll get her going today.
 
@@ -230,7 +230,7 @@ On the development part, for computer scientists of any sorts, there's a lot of 
 
 You also mentioned then that bringing this question-matching to other languages - this is something that is personally very important to me, because I think this will create the biggest societal impact. And there's a lot to do, because for now we have the question-matching algorithm, with sentence transformers and BERT just implemented for English... But making this work for other languages, with multilingual language models, for example, with this cross-lingual language model open-sourced by Facebook, for example. This would improve the experience a lot. This on the modeling side...
 
-\[00:48:10.17\] And then also a huge help we need on getting this actually to people. After the hackathon we got contacted by a person - I don't even know his/her name; it's the Apache 64. This person just programmed a Telegram integration. This service has an API where it can match questions, and you can call this API and integrate it into Telegram. This bot is just working, and we also integrated the feedback mechanism to feed back the user information back into our system.
+\[48:10\] And then also a huge help we need on getting this actually to people. After the hackathon we got contacted by a person - I don't even know his/her name; it's the Apache 64. This person just programmed a Telegram integration. This service has an API where it can match questions, and you can call this API and integrate it into Telegram. This bot is just working, and we also integrated the feedback mechanism to feed back the user information back into our system.
 
 This help is really appreciated, but what I think could be important there would be maybe a WhatsApp integration, and maybe even if we extend this really to low-resource languages, where people might not have access to mobile phones with internet... Maybe have like a text message interaction. But this would be a little bit further away, I would say.
 

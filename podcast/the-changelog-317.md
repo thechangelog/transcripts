@@ -20,7 +20,7 @@ Back to your question of why - I mean, it's a pretty simple program that's focus
 
 **Daniel Zaltsman:** The event kit came about three years ago, actually... And since then we've just continued to invest resources into that area, because we continue to see community members coming together offline. So not from the very beginning, but it's really taking off, so we're just trying to support it because we see the community just taking it from -- you know, they're just doing their own thing, and we're just getting out of the way, really just supporting them, doing whatever they need. We already have 35 events actually organized for Hacktoberfest 2018, and it's--
 
-**Adam Stacoviak:** \[00:07:08.09\] It's a lot.
+**Adam Stacoviak:** \[07:08\] It's a lot.
 
 **Daniel Zaltsman:** ...October 1st is just starting.
 
@@ -76,7 +76,7 @@ At Hacktoberfest, the added aspect to that is now it's the fifth year... It's ki
 
 Maybe how it works, maybe how it's changed... Has it been exactly 50 commits to any open source repo, and that's how it's always worked? Maybe just some of the details on the actual program... Because I know right now what we're all thinking is "Okay, how do I get one of these stinkin' shirts? I want one."
 
-**Daniel Zaltsman:** \[00:10:55.02\] Yeah, it was 50 commits. That was only the first year. The next year we decided to shift the methodology completely to pull requests. We thought there was more meaning to that in terms of the contribution, and more quality... So the past three years (2015, 2016 and 2017) it's been four pull requests. This is a good time for me to say - we're changing that up this year.
+**Daniel Zaltsman:** \[10:55\] Yeah, it was 50 commits. That was only the first year. The next year we decided to shift the methodology completely to pull requests. We thought there was more meaning to that in terms of the contribution, and more quality... So the past three years (2015, 2016 and 2017) it's been four pull requests. This is a good time for me to say - we're changing that up this year.
 
 **Adam Stacoviak:** Oh, boy.
 
@@ -112,7 +112,7 @@ I think that when the community has values and principles guided by that communi
 
 **Jerod Santo:** I think it's sad, but it also makes total sense that people would actually game a system in order to win or earn a T-shirt, right? Because it goes back to the pride point of like you associate yourself with this thing when you're wearing a T-shirt, and so it says something about you... So you're gaming a system to wear a T-shirt for a thing that you didn't legitimately earn - it just seems like backwards to me, but that's a developer and somebody who likes to poke and prod at the rules of systems... I definitely understand the desire to be like "Hm, what's the minimum I can do to get myself one of these T-shirts?"
 
-**Adam Stacoviak:** \[00:15:26.00\] And still be valid(ish)... The -ish part, you know?
+**Adam Stacoviak:** \[15:26\] And still be valid(ish)... The -ish part, you know?
 
 **Jerod Santo:** Yeah, exactly.
 
@@ -150,13 +150,13 @@ I think that when the community has values and principles guided by that communi
 
 **Daniel Zaltsman:** If I didn't secure partners, I think we would have shifted the mechanics of the program to limit the amount of shirts that we can give out and figure out other ways to reward community members.
 
-\[00:18:58.16\] Of course, another option that we were considering is having the program be self-funded, and a great program that existed before Hacktoberfest and still powers on is 24 Pull Requests, and that's also a really effective, meaningful program giving back to open source that's community-organized. DigitalOcean, I would say, pushes Hacktoberfest forward, but at this point the community could do it on its own. I think it's interesting looking into how this year goes, what the lessons are gonna be, and going into next year.
+\[18:58\] Of course, another option that we were considering is having the program be self-funded, and a great program that existed before Hacktoberfest and still powers on is 24 Pull Requests, and that's also a really effective, meaningful program giving back to open source that's community-organized. DigitalOcean, I would say, pushes Hacktoberfest forward, but at this point the community could do it on its own. I think it's interesting looking into how this year goes, what the lessons are gonna be, and going into next year.
 
 **Adam Stacoviak:** Yeah, we've actually covered 24 Pull Requests a couple weeks back, in the December timeframe too, and it was a lot of fun talking through that with Andrew Nesbitt... And just the sheer weight of that and its impact. I was gonna ask you about other models similar to that. I can't recall if you came first or they came first, and it's not really a matter of who did, but just how what you learn contributes back to other programs similar to this... Or if there's any communication at all.
 
 **Daniel Zaltsman:** We honestly haven't had a whole lot of communication; it's more about cross-promotion. I think that's what it's been centered around. Through these two programs, the model is pretty evident, what works.
 
-**Break:** \[00:20:26.26\]
+**Break:** \[20:26\]
 
 **Jerod Santo:** Daniel, let's talk about who should be involved in this, how to get involved... Of course, the emphasis is on community, and you said even bringing new folks to the open source community... But when it comes to Hacktoberfest, you have a lot of different perspectives or angles that you can come at participation. You can say "I strictly want a T-shirt. How am I gonna earn a T-shirt?" and we talked about that a little bit. You can be a maintainer of an open source repository and you would love those extra commits this month... Maybe you're a business, like you mentioned, SendGrid getting involved with their own T-shirt... So from these different perspectives, give us some information on the best ways to go about participating.
 
@@ -174,7 +174,7 @@ I think that when the community has values and principles guided by that communi
 
 **Jerod Santo:** Wow... You're good at this. Alright, let's go.
 
-**Daniel Zaltsman:** \[00:22:52.19\] I wanted to package it for you guys. So the first thing is beginners. Beginners hear about Hacktoberfest through their friends, and they want a T-shirt. "That sounds exciting. Let's get a T-shirt! Wait, what? We have to do open source? GitHub? Git? What is this stuff?" So beginners actually, while it seems -- I think it can come off as kind of intimidating, but there's so much great content, there's so much community involvement and there's so much past experience within the Hacktoberfest community that beginners actually have a lot of routes they could take to get a foot in the door and participate in Hacktoberfest if (if!) they stay committed throughout the month. Because I do hear stories of folks who are like "I got my first pull request. Oh, no! Suddenly it's October 29th. Ugh... Okay, it's too late. I'm not gonna get it."
+**Daniel Zaltsman:** \[22:52\] I wanted to package it for you guys. So the first thing is beginners. Beginners hear about Hacktoberfest through their friends, and they want a T-shirt. "That sounds exciting. Let's get a T-shirt! Wait, what? We have to do open source? GitHub? Git? What is this stuff?" So beginners actually, while it seems -- I think it can come off as kind of intimidating, but there's so much great content, there's so much community involvement and there's so much past experience within the Hacktoberfest community that beginners actually have a lot of routes they could take to get a foot in the door and participate in Hacktoberfest if (if!) they stay committed throughout the month. Because I do hear stories of folks who are like "I got my first pull request. Oh, no! Suddenly it's October 29th. Ugh... Okay, it's too late. I'm not gonna get it."
 
 That's why I encourage beginners to really stay in it and do the upfront hard work of learning how to get up and running with Git and setup in GitHub and starting to learn how to find opportunities to contribute, and seek out meetups to participate in, and look for friends who are talking about it on Twitter. There's a lot of ways to work your way to getting a shirt, and it's really rewarding is what I've seen, as I told the story of Victoria... Another story that comes to mind is Aditya who was just getting started with open source through Hacktoberfest, and fast-forward is now a maintainer of Homebrew Cask, because that's a project that he was passionate about, and started from contributor to maintainer.
 
@@ -206,7 +206,7 @@ So if you wanna get involved and you are afraid or intimidated by the coding sid
 
 **Adam Stacoviak:** Absolutely.
 
-**Daniel Zaltsman:** \[00:27:10.03\] Cool. Perfect. Contributors - the best thing to do is really go on GitHub and search, and just start to spend time on GitHub throughout October, jumping in and using GitHub search to find issues that are related to things that you're interested in.
+**Daniel Zaltsman:** \[27:10\] Cool. Perfect. Contributors - the best thing to do is really go on GitHub and search, and just start to spend time on GitHub throughout October, jumping in and using GitHub search to find issues that are related to things that you're interested in.
 
 One route you can go take is think about the technologies that you're using on a regular basis, or that you've come to love through your experience contributing. That's a really natural first step for you to jump into. If projects aren't coming to mind when that prompt comes up, just go on GitHub and maybe search by the language that you are predominantly using... Or once again, the search functionality is just super-effective, and just looking through a whole lot of different types of contributions that you can make...
 
@@ -230,7 +230,7 @@ The other thing I would say to maintainers is don't necessarily label everything
 
 **Adam Stacoviak:** So this is before October 1st, so some timing to mention for listeners... We're recording this before, obviously, so currently the site doesn't represent what it will represent on October 1st. I'm assuming the "Coming soon" means this kind of stuff will come when October 1st hits.
 
-**Daniel Zaltsman:** \[00:31:10.22\] Exactly.
+**Daniel Zaltsman:** \[31:10\] Exactly.
 
 **Jerod Santo:** Thank you for explaining my ignorance here, Adam... We are looking at a splash page, which by the time this airs, will be a much better or much more informative page with that stuff, so that's why I don't know the answer to that... Even though if you're at the website you probably know that already.
 
@@ -264,7 +264,7 @@ For instance Adam, who actually works at DigitalOcean, has been a Hacktoberfest 
 
 It seems like for maintainers and community organizers - specifically more maintainers, but also organizers - it would be nice to have or to help out somehow with resources, or knowledge on... It sounds ikey to say "turning somebody into a contributor", but you know what I'm saying - taking a casual contributor from Hacktoberfest, that never would have found you, but they've found you on the website because you had the label, and now they're interested... But how do you actually convert them from casual to repeated? Are there tried and true methods?
 
-**Daniel Zaltsman:** \[00:35:08.29\] How do you guys do it?
+**Daniel Zaltsman:** \[35:08\] How do you guys do it?
 
 **Adam Stacoviak:** We be nice, we welcome, we thank... Talk about the thing we did from Kent C. Dodds, Jerod. That's a pretty interesting thing. The contributor sections of readme.
 
@@ -294,7 +294,7 @@ You know, we thank people on Twitter, we show that it matters to us... The thing
 
 The event kit has just been phenomenal at giving folks a template of how to put together an event, and how to make it an awesome event. And what I'm seeing is communities are actually organizing for the second or third year in a row Hacktoberfest events. So that's telling me that something is working.
 
-\[00:39:11.27\] Samantha and Joe were really active... This year they're actually gonna be releasing some webinars, and there's gonna be a video on the site (you should see it in the event kit section) that's gonna show you a Q&A with them and them providing an overview of how to put together an event yourself... So also a helpful resource for the community organizer side of things.
+\[39:11\] Samantha and Joe were really active... This year they're actually gonna be releasing some webinars, and there's gonna be a video on the site (you should see it in the event kit section) that's gonna show you a Q&A with them and them providing an overview of how to put together an event yourself... So also a helpful resource for the community organizer side of things.
 
 **Adam Stacoviak:** Is there a list of community-driven events anywhere that I missed? Or will it appear whenever the 1st hits and then there's some information, more so for like "Hey, I'm in Houston, Texas, and somebody has already started this. You don't have to begin from scratch, you can just join up."
 
@@ -320,7 +320,7 @@ SendGrid - I mentioned them earlier - their statistics... They got 43 pull reque
 
 So that's where I sort of push for this business side of things, because I really think that any business who has an open source component can benefit from this.
 
-**Break:** \[00:43:25.09\]
+**Break:** \[43:25\]
 
 **Adam Stacoviak:** Daniel, we were talking about businesses getting involved, and there's different angles here. You've got SendGrid, which you can quote, obviously; lots of cool stuff happening there. I'm sure you have a close relationship because of this. Lots of small businesses getting involved that are seeing benefits from the impact of Hacktoberfest... And just the sheer inertia of what a T-shirt can do to a developer's motivation... What else have you got? I know you've got Microsoft you mentioned... They threw in their hat -- I'm not sure what the involvement is. Can you walk us through more of the business side of things? Either SendGrid or Microsoft, and what's happening there.
 
@@ -338,7 +338,7 @@ I'm overselling it now, but clearly the overselling, whatever it is, there's -- 
 
 **Adam Stacoviak:** And I think this is just an open door. If your business is at all influenced by open source, this is an opportunity to just, you know, get in the DigitalOcean shadow and do some of this stuff with Hacktoberfest. It's just a loss if you don't plan for this. That's what I would think. And you know, we're gonna do some stuff this year, too. We're still working on some fun ways to do some stuff, but this podcast is just one way that we're gonna get involved, and throw our hat into the ring and do some fun stuff.
 
-\[00:49:09.00\] So I'm gonna sell it with you - I think if you're a business that relies on open sources, or built in technology, get involved. Find a way. Is there any previews that you're aware of? I know Ashley is designing the T-shirt for Microsoft... Have you seen it? Do you care to know about it as organizers of this? Is this something that you're like "Let's see the T-shirt. What's it look like?" Do you get involved on those levels? Like, this is an unofficial involvement; it's not like they said "Hey, DigitalOcean, can we participate? They just did it."
+\[49:09\] So I'm gonna sell it with you - I think if you're a business that relies on open sources, or built in technology, get involved. Find a way. Is there any previews that you're aware of? I know Ashley is designing the T-shirt for Microsoft... Have you seen it? Do you care to know about it as organizers of this? Is this something that you're like "Let's see the T-shirt. What's it look like?" Do you get involved on those levels? Like, this is an unofficial involvement; it's not like they said "Hey, DigitalOcean, can we participate? They just did it."
 
 **Daniel Zaltsman:** We have brand guidelines on the Hacktoberfest site that we encourage communities to use. They've actually been really helpful for community organizers who don't want to take the time to create yet another event poster... So we've done the work for you, community organizers. Just find the event kit, and in there you'll find the community guidelines, which will allow you to leverage the Hacktoberfest branding for your communities and projects.
 
@@ -358,7 +358,7 @@ Let's talk about - since we're on this kick of branding - how important it is to
 
 **Daniel Zaltsman:** Yeah, I talked about the branding side a little bit, and the importance to have a consistent design experience... And as you can see, the Hacktoberfest is something brand new, crafted in our design lab year after year; it's something that everyone internally gets really excited about when the new designs come out. I know my co-pilot and partner in this program for many years now, Lee Riley at GitHub - the excitement also builds even more when I share the designs with the GitHub team. So that's the design side of it.
 
-\[00:53:10.17\] As you said, the feel of the shirt - that's super important too, I agree with you. I think that a shirt that feels good is gonna have more mileage than one that's cheap. With Hacktoberfest, we wanna create the first kind of experience.
+\[53:10\] As you said, the feel of the shirt - that's super important too, I agree with you. I think that a shirt that feels good is gonna have more mileage than one that's cheap. With Hacktoberfest, we wanna create the first kind of experience.
 
 We actually are using -- are you guys familiar with District tees?
 
@@ -384,7 +384,7 @@ It takes a lot of effort and a lot of time, and I appreciate all the patience th
 
 **Daniel Zaltsman:** The answer is no, initially... We first started shipping things out at the end of October. We would wait for the program to end, we'd tally up all the results, and then we'd start shipping in November... So there you go, that certainly wasn't desirable in terms of like the quick turnaround. But we changed that, and last year we started shipping out as early as the first week of October. So that was an improvement.
 
-\[00:57:04.16\] But as I said, the challenge last year was a lot of shirts, specifically in a few countries, just have a really hard time getting through customs, and they just don't make it... So we're using different tactics, like dropshipment this year, and paying a little bit extra for different fulfillment services, so that the percentage of shirts that don't make it actually decreases. We really care about this... So I'd say that's one of the behind-the-scenes changes that we've made this year.
+\[57:04\] But as I said, the challenge last year was a lot of shirts, specifically in a few countries, just have a really hard time getting through customs, and they just don't make it... So we're using different tactics, like dropshipment this year, and paying a little bit extra for different fulfillment services, so that the percentage of shirts that don't make it actually decreases. We really care about this... So I'd say that's one of the behind-the-scenes changes that we've made this year.
 
 And once again, repeating the important changes that we've made this year, it's five pull requests and 50k shirts. I mean... Yeah. Talking to you guys is really making me feel like some community support here... \[laughter\] Because it's huge, guys. It's really--
 

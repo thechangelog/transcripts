@@ -10,7 +10,7 @@ Hello, contestants! Let's see who we've got. I can see Kat Zień. Hello, Kat!
 
 **Mat Ryer:** Yeah. Well, that's alright... It happens to everyone. We've also got Ellen Körbes. Hello, Ellen.
 
-**L Körbes:** \[00:04:01.18\] I am very impressed that you managed to pronounce the surname correctly... Which is disappointing, because I only came here to make fun of you. So yeah, that sucks.
+**L Körbes:** \[04:01\] I am very impressed that you managed to pronounce the surname correctly... Which is disappointing, because I only came here to make fun of you. So yeah, that sucks.
 
 **Mat Ryer:** Okay. Well, there'll be plenty of opportunity to do that anyway. You are a dev rel at Tilt, right?
 
@@ -94,7 +94,7 @@ And we do have a prize, by the way... You will win, whoever wins this, a Raspber
 
 **Mark Bates:** I'm not that good at that either... Go on.
 
-**Mat Ryer:** \[00:08:06.00\] Groups Who Go - the answers are groups from around the world, groups of Gophers. That's a cool one. And we've got Pike's Proverbs, where you are gonna be asked to fill in the blanks from Rob Pike's Go proverbs.
+**Mat Ryer:** \[08:06\] Groups Who Go - the answers are groups from around the world, groups of Gophers. That's a cool one. And we've got Pike's Proverbs, where you are gonna be asked to fill in the blanks from Rob Pike's Go proverbs.
 
 Okay, now we know the categories... Kat, would you like to pick your first square, please?
 
@@ -238,7 +238,7 @@ Okay, now we know the categories... Kat, would you like to pick your first squar
 
 **Mat Ryer:** Groups Who Go, for 400. 2,442 developer names and emails are listed in this group on Golang.org. What could it be...? It's a prominent group.
 
-**Kat Zień:** \[00:12:07.07\] It's a random guess, so I'm gonna completely randomly guess... But "Who are Release Managers?'
+**Kat Zień:** \[12:07\] It's a random guess, so I'm gonna completely randomly guess... But "Who are Release Managers?'
 
 **Mat Ryer:** \[fail sound\] Good guess, but it's not right, I'm afraid. L, do you wanna steal?
 
@@ -358,7 +358,7 @@ Okay, now we know the categories... Kat, would you like to pick your first squar
 
 **Mat Ryer:** Okay, let's have a look. "Don't communicate by sharing memory, share memory by... What."
 
-**Kat Zień:** \[00:16:05.27\] Is it communicating?
+**Kat Zień:** \[16:05\] Is it communicating?
 
 **Mat Ryer:** Is it? \[win sound\] Yes! You got an 8-bit fanfare.
 
@@ -496,7 +496,7 @@ Okay, now we know the categories... Kat, would you like to pick your first squar
 
 **Mat Ryer:** Okay... Kat, you get to steal this then, if you wanna have a Go. You've met the person, you spoke to them about their meetup...
 
-**Kat Zień:** \[00:20:19.28\] That's the thing, but I don't wanna mess up the meetup name...
+**Kat Zień:** \[20:19\] That's the thing, but I don't wanna mess up the meetup name...
 
 **Mat Ryer:** Right. What's your guess then, mate?
 
@@ -620,7 +620,7 @@ Okay, now we know the categories... Kat, would you like to pick your first squar
 
 **Mat Ryer:** Let's have a look at the scores. We have a way-behind, unfortunately, on -800; it's L. Next it's Kat at 600, but taking the lead there is Mr. Bates, with thirteen hundred, or one thousand three hundred, depending on whose side you're on. Well done! How do you feel so far about your quiz?
 
-**Kat Zień:** \[00:24:17.28\] Not great, not terrible. I'm in the middle. \[laughs\]
+**Kat Zień:** \[24:17\] Not great, not terrible. I'm in the middle. \[laughs\]
 
 **Mat Ryer:** Okay. Yeah, we can have some chat now. This is chat time, so let's get to meet our guests a little more. Mark, what's your guilty pleasure?
 
@@ -660,7 +660,7 @@ Okay, now we know the categories... Kat, would you like to pick your first squar
 
 **L Körbes:** I know...
 
-**Break:** \[00:25:37.13\]
+**Break:** \[25:37\]
 
 **Mat Ryer:** Okay, shall we move on to round two, shall we?
 
@@ -690,7 +690,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **L Körbes:** Oh, cool.
 
-**Kat Zień:** \[00:28:06.10\] Yeah, nobody ever gets that the first time they guess.
+**Kat Zień:** \[28:06\] Yeah, nobody ever gets that the first time they guess.
 
 **Mat Ryer:** Yeah, fair enough, ain't it.
 
@@ -764,7 +764,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **L Körbes:** You guys are really old, right? \[laughter\]
 
-**Mark Bates:** \[00:30:47.13\] yes. But yes, I used to own GoBots. They were like the really cheap transformers; my mother would buy them at like CVS. They were terrible.
+**Mark Bates:** \[30:47\] yes. But yes, I used to own GoBots. They were like the really cheap transformers; my mother would buy them at like CVS. They were terrible.
 
 **Mat Ryer:** Yeah, don't lumber me in the geriatric bucket with Mr. Bates, please. \[laughter\] Kat, it's time for you to choose a square.
 
@@ -796,7 +796,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **Mat Ryer:** Standard Librarians, for 400. Implements formatted IO with functions analogous to C's printf and scanf.
 
-**L Körbes:** \[00:31:58.09\] That is the fmt package.
+**L Körbes:** \[31:58\] That is the fmt package.
 
 **Mat Ryer:** \[win sound\] It sure is. Nice one. And you're off the mark. Speaking of marks... Bates, pick a square, please.
 
@@ -926,7 +926,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **Mat Ryer:** Okay.
 
-**Kat Zień:** \[00:36:14.01\] All based on Martini. \[laughs\]
+**Kat Zień:** \[36:14\] All based on Martini. \[laughs\]
 
 **Mat Ryer:** The answer was Gin. That's the one we were looking for.
 
@@ -1056,7 +1056,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **Mat Ryer:** \[win sound\] Correct. Well done. I don't think that was as easy as it seems...
 
-**Mark Bates:** \[00:39:58.16\] Well, because you could have said Docker, which was at one point the correct answer, and then it moved... And that's why I was like, Moby.
+**Mark Bates:** \[39:58\] Well, because you could have said Docker, which was at one point the correct answer, and then it moved... And that's why I was like, Moby.
 
 **Mat Ryer:** Well, you got it right. Kat, what do you fancy?
 
@@ -1182,7 +1182,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **Mat Ryer:** \[win sound\] Yes, you've stolen it. Okay. L, it's your turn for this last one... Goldy Gopher cheers alongside students at this American university.
 
-**L Körbes:** \[00:44:11.11\] I barely understand the sentence. \[laughter\]
+**L Körbes:** \[44:11\] I barely understand the sentence. \[laughter\]
 
 **Mark Bates:** I think it's a mascot. There's a mascot called Goldy Gopher.
 
@@ -1258,7 +1258,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **Mark Bates:** Yeah, exactly...
 
-**Break:** \[00:47:16.02\]
+**Break:** \[47:16\]
 
 **Mat Ryer:** Okay, we're gonna go into our final round... This one's different. What's gonna happen is we're gonna show you a category; here's the category, it's Local Host. And there's gonna be one question. You can bet/wager as much as you like. And actually, to make things a little bit more interesting, we're gonna add 700 to everyone's score. So we're gonna bring L up to 500, and we're gonna add 700 for Kat, and we're gonna add 700 for Bates.
 
@@ -1282,7 +1282,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **Mat Ryer:** Good point. Okay... Selling literally dozens of copies, this 2015 book was written by none other than your Go Panic host, Mat Ryer. So that's me. I didn't write this question.
 
-**Jingle:** \[00:50:43.17\]
+**Jingle:** \[50:43\]
 
 **Mat Ryer:** This music will help you think.
 
@@ -1322,7 +1322,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **Mat Ryer:** ...a different title. Yeah. So L, you're down to zero, I'm afraid... Kat, that paid off for you. You have 1,400. But the winner of the Raspberry Pi 400, with 4,000 points - it's Mr. Mark Bates.
 
-**Mark Bates:** \[00:52:26.27\] Thank you, thank you. Thank you very much.
+**Mark Bates:** \[52:26\] Thank you, thank you. Thank you very much.
 
 **Mat Ryer:** Oh, he's such an annoying winner...
 
@@ -1424,7 +1424,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **Mat Ryer:** Yeah. And that's more expensive, so I am net down, basically, in the end, once I do my books at the end of the month... \[laughter\] I find that I've wasted it. Yeah, I don't know...
 
-\[00:56:19.10\] Well, that's why I like the Go community, because it's so all-accepting, and everyone's welcoming, and things... So it's okay if you do have a forehead like this; or as my cousin called it, a fivehead.
+\[56:19\] Well, that's why I like the Go community, because it's so all-accepting, and everyone's welcoming, and things... So it's okay if you do have a forehead like this; or as my cousin called it, a fivehead.
 
 **Mark Bates:** Or if you're incredibly old and geriatric, like I am...
 

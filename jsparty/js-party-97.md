@@ -52,7 +52,7 @@ First off, Divya Sasidharan. Divya, how are you doing?
 
 **Kevin Ball:** This will be fun.
 
-**Jerod Santo:** \[00:04:00.17\] But the point is it will be fun, and you all should come. Of course, we're gonna tape it, we're gonna produce it, it's gonna be an episode, so if you're gonna miss it or you don't live in a place where it makes sense to make it to North Carolina, don't have any fear; you will be able to listen to it. But if you wanna come on stage, we will have some swag, and it's gonna be awesome. So - All Things Open, October 14th. Come hang with us.
+**Jerod Santo:** \[04:00\] But the point is it will be fun, and you all should come. Of course, we're gonna tape it, we're gonna produce it, it's gonna be an episode, so if you're gonna miss it or you don't live in a place where it makes sense to make it to North Carolina, don't have any fear; you will be able to listen to it. But if you wanna come on stage, we will have some swag, and it's gonna be awesome. So - All Things Open, October 14th. Come hang with us.
 
 **Kevin Ball:** Super-cool, yeah. Bring your awkward questions. Try to make Jerod feel really awkward.
 
@@ -74,7 +74,7 @@ I know people who are incredibly able to learn, to take everything in all at onc
 
 And then we had a class more engineering and electronics-related, and it was going really fast and you kind of had to start from the pragmatics of "What's the minimum I need to get to to get this to work?" and very sort of -- what you're describing as application-oriented learning... And suddenly, I was flying, and they were struggling. I think that was the first time I realized that those are just two very different learning modalities. And some topics work better in one or the other.
 
-**Jerod Santo:** \[00:07:58.00\] Yeah, for me it's just such a big question that it's hard to answer it, because it's so contextual, and it depends on -- okay, what to learn, but why? Why are you learning? It kind of goes back to our conversation a while back about -- what were we talking about? Well, how do you know - I haven't told you yet. \[laughter\] We were talking about conferences, like how to pick a conference. It's like "Well, why are you going to a conference? What are your goals?" So the answer to how to learn or what to learn has a lot to do with what are your goals. Are you just trying to satiate a fascination? Well, then just dive into some books and read the deep history, and get in all that. That's actually the easiest stuff, because you're already fascinated, so you don't need as much advice...
+**Jerod Santo:** \[07:58\] Yeah, for me it's just such a big question that it's hard to answer it, because it's so contextual, and it depends on -- okay, what to learn, but why? Why are you learning? It kind of goes back to our conversation a while back about -- what were we talking about? Well, how do you know - I haven't told you yet. \[laughter\] We were talking about conferences, like how to pick a conference. It's like "Well, why are you going to a conference? What are your goals?" So the answer to how to learn or what to learn has a lot to do with what are your goals. Are you just trying to satiate a fascination? Well, then just dive into some books and read the deep history, and get in all that. That's actually the easiest stuff, because you're already fascinated, so you don't need as much advice...
 
 Are you trying to get a job? Are you trying to break into the industry for the first time? Well, I think what to learn and how to learn in that case is way different than, for myself personally, what am I gonna learn. I have continuing education needs, I need to stay relevant, but I have a lot of foundation after over a decade in this industry that a lot of people - they need to get that before they can learn the way that I do. And that's not an arrogant thing, it's just like an experience thing; I've been through a lot of the learning.
 
@@ -90,7 +90,7 @@ You just no longer are motivated, because you're just very easily demoralized...
 
 For example, when I was in college I was interested in building for the web, and being a web developer... And there was a point where I was like "Oh, maybe I should switch majors to become a computer science major." And I took a couple of classes, but I was like "I don't understand why I'm learning this. I want to be a web developer, and none of this applies." I mean, sure, a lot of the concepts translate now, now that I'm deep into -- not really deep into my career, but you know, many years in... Now I'm like "Oh, okay, I see why I should learn specific algorithms, and whatever." But at the time it didn't make sense, because it was so abstracted.
 
-\[00:11:56.22\] So for me, going back to what I was saying, "just in time" - when I approach a problem and then it becomes important that I need to know that, then I learn it, and there's a likelihood that I'll actually master that technique or that concept, and not the reverse.
+\[11:56\] So for me, going back to what I was saying, "just in time" - when I approach a problem and then it becomes important that I need to know that, then I learn it, and there's a likelihood that I'll actually master that technique or that concept, and not the reverse.
 
 **Kevin Ball:** Yeah, there's something really important there. I was remembering an episode we did -- episode 80, where we talked with Chris Ferdinandi, who's the vanilla JavaScript guy... And he brought up this concept that he called "learning inertia." It's actually really hard to learn new things, and we have this innate -- if we're not learning new things right now, it's really hard to get started; we have this innate resistance, and it's really hard to just kind of sit there... So having some sort of strong motivation that's gonna pull you and get you moving and get you going is really important.
 
@@ -126,7 +126,7 @@ Now the question becomes "How do I pick? How do I decide where I'm gonna spend m
 
 **Kevin Ball:** But if I'm not motivated, I'm not gonna be able to do it. The second thing is momentum. Where is this going to get me? Is this something that learning it is going to enable me to learn other things? Is it going to open new doors, is it going to give me new concepts? I think I was much more interested in learning React initially because I saw that it was actually gonna open the door to all the different front-end frameworks. The concepts in React are super-common now, they're going across all the different frameworks.
 
-\[00:16:19.23\] I would be less interested in learning something that's very different, unless I had reason to believe that that was going to really pick up a lot of momentum down the road, and really turn into something new, or set me up for something in the future.
+\[16:19\] I would be less interested in learning something that's very different, unless I had reason to believe that that was going to really pick up a lot of momentum down the road, and really turn into something new, or set me up for something in the future.
 
 And the final one is money. I prefer to work or to learn something on the job where I'm getting paid to do it. Second-level, if I can see there's a business opportunity, that's also gonna drive me looking there... And I think that's for me, honestly, of the three, probably the weakest, but it is the pragmatic piece of me saying "I've gotta actually pay attention to how I'm gonna be making money and supporting myself." And I think depending on where you are in your career, you can prioritize those different pieces differently... And you know yourself.
 
@@ -146,7 +146,7 @@ Maybe you had a Me in there - a mentor. Maybe add that to your list. So you've g
 
 **Kevin Ball:** I think you can get some hints on that. And some of that comes from finding the mentors, and looking at what's going on. React is a good example - somebody coming into the market now might be looking at React, they might be looking at Angular, they might be looking at Vue, they might be looking at Ember, they might be looking at Svelte, and if they're trying to optimize for money, they're gonna look around and say "Okay, what are folks hiring for around here?
 
-\[00:20:00.01\] If they don't already have a position or some sort of opportunity there, and they're in a place where money is higher on their ranking scale - maybe they're new, or maybe they're a freelancer who's not overwhelmed with work, or what have you, they can look around and say "Okay, if I look at freelancer request job listings, React is an order of magnitude higher than pretty much everything else." Okay, it might be slightly lower on my motivation scale than learning Vue or Svelte; momentum - maybe I don't know, maybe I have some feelings, what have you, but the money side, you can often get a sense of "Hey, people are hiring for this right now."
+\[20:00\] If they don't already have a position or some sort of opportunity there, and they're in a place where money is higher on their ranking scale - maybe they're new, or maybe they're a freelancer who's not overwhelmed with work, or what have you, they can look around and say "Okay, if I look at freelancer request job listings, React is an order of magnitude higher than pretty much everything else." Okay, it might be slightly lower on my motivation scale than learning Vue or Svelte; momentum - maybe I don't know, maybe I have some feelings, what have you, but the money side, you can often get a sense of "Hey, people are hiring for this right now."
 
 **Jerod Santo:** Yeah.
 
@@ -170,7 +170,7 @@ People talk a lot about passion in our industry... This is also a damn good way 
 
 **Kevin Ball:** Anyway, I think we've beaten it to death, this sort of motivation, how are we deciding what to learn... Let's take a quick break and come back to talk about learning techniques; what we do that's gonna help us learn faster, better, stronger... All those fun things. Alright, catch you on the other side.
 
-**Break:** \[00:23:22.19\]
+**Break:** \[23:22\]
 
 **Kevin Ball:** Let's talk about learning techniques. There's so many things out there right now... There are millions of blog posts, and articles, and tutorials. There are hundreds of thousands of online courses. There are workshops, there are things you can do at work, there are meetups, there are conferences, there are masterminds... There are so many different things. Let's maybe talk through some of the ups and downs of those. Maybe it actually works best to start with for you personally, how do you learn. What's the best way for you to learn? Let me throw that first to -- Jerod, you made a noise, so I'm gonna throw it to your first. Jerod.
 
@@ -190,7 +190,7 @@ In terms of what kind of a learner am I - I'm an audio learner; I like listening
 
 At least when I write, it tends to be me fighting with the concept, and being like "This is how I understand it. I think this is how I understand it", and then as I'm writing, the process of putting words on a page makes me contend with it on a deeper level than just reading about it. Because when you read about it -- I don't sleep listening to podcasts... That's actually a whole other level of dedication; I do not have -- but I do listen to a lot of podcasts. But for me, it's still pretty passive... And it's important, because it still allows you to take in knowledge. It's a really great way for you to take in things. But for me to actually properly learn something, I need to be active about it.
 
-\[00:28:04.17\] So the passive stuff helps me internalize things, which like - in a conversation, I could bring it up, but I might not be as eloquent with that idea. I'd be like "Oh, I listened to this podcast and they talked about this." And then the moment someone digs into it, I'm like "I don't know..." And then I'll be like "I think that's what it said", and then it would just be kind of a very nebulous thing that I have no idea, and the breadth of my knowledge just disappears.
+\[28:04\] So the passive stuff helps me internalize things, which like - in a conversation, I could bring it up, but I might not be as eloquent with that idea. I'd be like "Oh, I listened to this podcast and they talked about this." And then the moment someone digs into it, I'm like "I don't know..." And then I'll be like "I think that's what it said", and then it would just be kind of a very nebulous thing that I have no idea, and the breadth of my knowledge just disappears.
 
 But the moment I try to contend with it actively... Blog posts is a great one. If you do like videos, that's also a really great way to do it, because you're actually talking and trying to explain it. Essentially, the act of teaching... I've taught before, and it's really hard, because you have to question your own assumptions. Often when you learn something, you come to it with prior notions of how things work. But the moment you have to teach someone, you have to almost throw all of those assumptions out the window and approach it from where they're coming from. So if you teach in a class setting, either a workshop or just a general class, people come with different understandings of different things... And so when you teach, you have to try to bring all of those things together. So by teaching, you're strengthening your knowledge of that domain.
 
@@ -208,7 +208,7 @@ So when I was teaching that class, I had to actually deep-dive into how D3 was m
 
 **Kevin Ball:** Yeah. I think what you're highlighting there is that there's actually a lot of different types of learning, and that different mediums are useful for different pieces of that. I've heard this described for conferences as well. I personally find conferences and podcasts and newsletters as really good resources for exposing me to the types of things that I might want to learn about.
 
-\[00:32:04.20\] It gives me a sense of moving those things from the unknown unknowns into known unknowns, where I know they're there, I just don't know how they work. And sometimes even to the scent of "Here's a high-level understanding of how this works. What's the big picture, what are some of the concepts behind it."
+\[32:04\] It gives me a sense of moving those things from the unknown unknowns into known unknowns, where I know they're there, I just don't know how they work. And sometimes even to the scent of "Here's a high-level understanding of how this works. What's the big picture, what are some of the concepts behind it."
 
 Then you get down into essentially tactics. "How do I actually apply this thing? How does it actually work? What are the things that I need to type, or say, or do, or whatever, step by step, that are gonna make this a reality?" And there, having articles, digging into -- sometimes courses are good for that... But things where it's very tactical are much more helpful than those big-picture conferences, or listening to podcasts, or things like that.
 
@@ -234,7 +234,7 @@ I'm really good at starting courses and going through about a third of them, bec
 
 **Kevin Ball:** Yeah.
 
-**Divya Sasidharan:** \[00:35:59.12\] Because you're like "This is the domain that I'm currently working within, and this is the knowledge I need to learn in order to be more effective", and then you can go down that route now, because you're like "This is my motivation. It obviously translates into money, and various other things that I need... And I can then employ techniques to learn, which will make me more effective overall."
+**Divya Sasidharan:** \[35:59\] Because you're like "This is the domain that I'm currently working within, and this is the knowledge I need to learn in order to be more effective", and then you can go down that route now, because you're like "This is my motivation. It obviously translates into money, and various other things that I need... And I can then employ techniques to learn, which will make me more effective overall."
 
 It's interesting that you highlighted that, because it's very subjective. It's focused on what you're working on and what you're interested in as well, and then that allows you to apply the techniques you used to learn in order to get to where you need to get.
 
@@ -260,7 +260,7 @@ Same for cooking... There's a cooking channel I absolutely love. His name is Che
 
 **Divya Sasidharan:** \[laughs\] His name is John, and he goes by Chef John. He has a YouTube video series called Food Wishes, and a blog as well, and it's amazing just to watch videos of him cooking.
 
-\[00:40:00.06\] I've used a lot of his recipes... I think there's a YouTube channel called Binging With Babish, where he cooks recipes from movies, and he always talks about the videos from Chef John. So for cooking-related stuff, I also go to YouTube. I never read blogs, ever, for food, because all food blogs are terrible. I don't know if you've read food blogs, but they hide their recipes; they're like "Let me tell you a long story about my life, and my grandparents' life, and how we moved here..." And I was like "That's great, but I literally do not care. I just came here to find a recipe for Chicken Tikka Massala (or whatever), and I don't care about anything else. But I have to read all that, and then there's advertisements and marketing stuff, and it's a lot of noise. YouTube will be like "Here's the video, and here are the steps to do it." It's so easy.
+\[40:00\] I've used a lot of his recipes... I think there's a YouTube channel called Binging With Babish, where he cooks recipes from movies, and he always talks about the videos from Chef John. So for cooking-related stuff, I also go to YouTube. I never read blogs, ever, for food, because all food blogs are terrible. I don't know if you've read food blogs, but they hide their recipes; they're like "Let me tell you a long story about my life, and my grandparents' life, and how we moved here..." And I was like "That's great, but I literally do not care. I just came here to find a recipe for Chicken Tikka Massala (or whatever), and I don't care about anything else. But I have to read all that, and then there's advertisements and marketing stuff, and it's a lot of noise. YouTube will be like "Here's the video, and here are the steps to do it." It's so easy.
 
 So yeah, it depends on what you're trying to learn, because I think different avenues -- I don't even know if there's a curated place for finding cooking shows, but usually I just follow specific people; you subscribe, and then you just watch those videos.
 
@@ -276,7 +276,7 @@ For a lot of things though, once I have sort of an understanding of what's going
 
 But I use video platforms like YouTube, and a lot of the courses that I've taken, if it's about a concept level, rather than I have to see the exact details of what you're doing - I'll use it just for the audio. And part of that is the way that I perceive things. I perceive things faster reading than I do audio, and I'm not super-visual when it comes to how I learn. I learn in words, and I learn faster in words when they're written. So if I'm learning in words from a non-written source, it's because I'm in a situation where I can't be paying attention visually, so I just want the audio.
 
-**Jerod Santo:** \[00:43:55.00\] Yeah. I get frustrated very quickly with video when I'm trying to, for example learn -- like, tactically learning by example, or watching somebody do a thing. I want to do the thing, or I'm learning alongside. Just the constant back-and-forth of like scrubbing back, seeing what they wrote, watching them type it out again, or whatever - I get incredibly frustrated. Text is such a better medium for that, not to mention because you can actually copy and paste if you want to save the time... But it's subpar for me in terms of like bang for the buck, so I do not turn to video for those reasons.
+**Jerod Santo:** \[43:55\] Yeah. I get frustrated very quickly with video when I'm trying to, for example learn -- like, tactically learning by example, or watching somebody do a thing. I want to do the thing, or I'm learning alongside. Just the constant back-and-forth of like scrubbing back, seeing what they wrote, watching them type it out again, or whatever - I get incredibly frustrated. Text is such a better medium for that, not to mention because you can actually copy and paste if you want to save the time... But it's subpar for me in terms of like bang for the buck, so I do not turn to video for those reasons.
 
 And when it comes to -- you use basically video as audio, Kball... I'm back to podcasts again. So I'm like "Just the audio, please." I know there's lots of YouTube shows which also have a companion audio version; I would just grab that, so I can consume it in ways that are just better fit into my life.
 
@@ -294,7 +294,7 @@ And I've also heard people who create on YouTube being frustrated with the model
 
 **Kevin Ball:** "You can get some of it, but if you want everything, you've got come over here and actually pay me." Because yeah, it's not a good way to get paid. Alright, we are long on this segment as well, so let's take a quick break and come back at the end with some resources for learning, things that we can recommend to folks, places to go, things to do, maybe some tips, and whatever is gonna help someone in the moment. "I wanna learn this thing, where do I go to do it?" Alright, catch you on the other side, after I go get even more coffee.
 
-**Break:** \[00:47:31.04\]
+**Break:** \[47:31\]
 
 **Kevin Ball:** Let's talk about some specific resources and things people can do to learn. We started the last segment with Jerod because he made a noise, so let's start with Divya this time. Divya, what are some resources that you use, that you maybe have heard about, things that you recommend?
 
@@ -310,7 +310,7 @@ I feel like the learning resource is so broad... Curated is a really great way t
 
 I was working recently with plugins for VuePress, because that's a project that I'm working on now, and I have no ideas how plugins for VuePress -- I know how plugins for Vue work, like Vue CLI, and a little bit about Nuxt, but no idea for VuePress. And for me to learn that, I pretty much found an existing plugin within the plugin for VuePress ecosystem, and then I dug into the source code and I'm like "How are the files organized, and how are things being called?" and then I try to replicate the exact same thing. It's not super-effective, because you can adopt bad practices really easily... Because someone else might have made a mistake, or done something really hacky, and then now you're doing the hacky thing without knowing why you're doing it... Learning is so imperfect.
 
-**Jerod Santo:** \[00:52:04.12\] Hm... I agree. Kball, what about you?
+**Jerod Santo:** \[52:04\] Hm... I agree. Kball, what about you?
 
 **Kevin Ball:** Alright, me... I 100% agree with the curation approach, though a lot of what I try to do is I will find people that I really like, that I think their stuff is really good, and follow them. So if you like the Udemy style courses, and you like the fact that they discount them every single month to $10 or $11 or whatever it is... There's a teacher there named Maximilian Schwarzmüller; I probably mispronounced his name, but...
 
@@ -338,7 +338,7 @@ So if you're interested, check that out. Sorry, minor plug, but I'm super-pumped
 
 **Kevin Ball:** And as I said, I will be launching some educational, paid stuff. Right now it's all free. One of the things I'm looking at is doing a mastermind, so folks who are in tech, wanting to become more leaders, whether they're wanting to become a tech lead, they just became a tech lead, they're trying to figure out "How do I better interact with stakeholders, designers?", if you're in the frontend, "How do I interact with the backend folks?", that sort of thing...
 
-\[00:56:09.29\] People who are trying and actively working on that, setting up a weekly/bi-weekly call where we all work on that together and get better at it... Because I think it's a skill that has been tremendously valuable for me. It's something that people have asked me "Hey, how do you do that? Can you show me? Can you teach me?" and it's something that I think we all have to learn as we go forward... So we'll be working on that.
+\[56:09\] People who are trying and actively working on that, setting up a weekly/bi-weekly call where we all work on that together and get better at it... Because I think it's a skill that has been tremendously valuable for me. It's something that people have asked me "Hey, how do you do that? Can you show me? Can you teach me?" and it's something that I think we all have to learn as we go forward... So we'll be working on that.
 
 **Divya Sasidharan:** Cool!
 
@@ -356,7 +356,7 @@ If they do not have those resources, then maybe that's not the community for you
 
 Disclaimer - I would advise, if you have a question, respect the other people, think it through yourself, google a little bit, make it well-worded, communicate it well, so that you get the response back and aren't wasting folks' time... But definitely do that.
 
-**Divya Sasidharan:** \[00:59:48.12\] This is also super-cliché, but I find that when you're interested in a project, or a framework, or whatever, if you lurk in the GitHub issues, that's a great way to just figure out what people are working on, or what certain problems might be... And even contributing to it is a great way to start being active in that community.
+**Divya Sasidharan:** \[59:48\] This is also super-cliché, but I find that when you're interested in a project, or a framework, or whatever, if you lurk in the GitHub issues, that's a great way to just figure out what people are working on, or what certain problems might be... And even contributing to it is a great way to start being active in that community.
 
 Open source gets a really bad rep, but I like to think that - as Jerod was mentioning - sometimes you can judge the community based on how they treat you on GitHub.
 

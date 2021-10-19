@@ -28,7 +28,7 @@
 
 **Adam Stacoviak:** You have to choose a lexicon that everybody gets, right?
 
-**Adam Jacob:** \[00:04:11.01\] Yeah... And I'm a systems administrator, and I hate that DevOps became a job title, because I feel like it meant that my people gave up their identity... But nobody cares, so whatever... I call them DevOps engineers, like everybody else.
+**Adam Jacob:** \[04:11\] Yeah... And I'm a systems administrator, and I hate that DevOps became a job title, because I feel like it meant that my people gave up their identity... But nobody cares, so whatever... I call them DevOps engineers, like everybody else.
 
 **Jerod Santo:** I still call Adam out, because he uses the word "literally" non-literally... And it's just like "Jerod, give it up, man. You've lost that battle." \[laughter\]
 
@@ -74,7 +74,7 @@ Then in the end, what we learned was that we could just never get the mix right,
 
 **Jerod Santo:** \[laughs\] We've put two and two together on that one...
 
-**Adam Jacob:** \[00:08:00.21\] Yeah. And then Barry Steinglass, who was our -- well, I don't know what your listeners are thinking... And then our fourth partner was Barry Steinglass, but he joined right after we named it, so he was the S in Solutions.
+**Adam Jacob:** \[08:00\] Yeah. And then Barry Steinglass, who was our -- well, I don't know what your listeners are thinking... And then our fourth partner was Barry Steinglass, but he joined right after we named it, so he was the S in Solutions.
 
 **Jerod Santo:** That's a nice hack.
 
@@ -124,7 +124,7 @@ When I think about open source though, I don't think about companies, I think ab
 
 **Jerod Santo:** And it really did go through WordPress, I think... So it was like Perl, and Linux command line stuff, and then WordPress brought me to the web... And then I also went the Ruby on Rails route, so I was on Ruby etc. But it was definitely just the simplest, like "I can just use all this software for free." And that was awesome.
 
-**Adam Jacob:** \[00:12:02.20\] It is awesome. And then there's this moment where it goes from that to being a source of opportunity, where if you want to build something, or you wanna make something, or you wanna try something, or you wanna have a career - it's all available to you, it's all open to you. We don't all start out in life in the same position. We don't come from the same families, we don't come from the same economic backgrounds, the same countries... There's a million things in our lives that influence where we can end up, or where we can go, or what we can do... And open source is this lovely thing where it turns out you can always take this software and do what you need to do with it to make your life better. And there might be other reasons why you can't take advantage of that resource existing, but that resource does exist, and no one can take it away from you, and no one can tell you not to do it, and no one can tell you not to start... And then there's even more beautiful than that - as soon as you start, you're gonna find this community of people who embrace you for doing it, who love you for doing it. Who then also benefitted from that moment. And then all of a sudden there's this huge web of people whose lives are infinitely better than they would have been before. That for me - that's it, that's what I care about.
+**Adam Jacob:** \[12:02\] It is awesome. And then there's this moment where it goes from that to being a source of opportunity, where if you want to build something, or you wanna make something, or you wanna try something, or you wanna have a career - it's all available to you, it's all open to you. We don't all start out in life in the same position. We don't come from the same families, we don't come from the same economic backgrounds, the same countries... There's a million things in our lives that influence where we can end up, or where we can go, or what we can do... And open source is this lovely thing where it turns out you can always take this software and do what you need to do with it to make your life better. And there might be other reasons why you can't take advantage of that resource existing, but that resource does exist, and no one can take it away from you, and no one can tell you not to do it, and no one can tell you not to start... And then there's even more beautiful than that - as soon as you start, you're gonna find this community of people who embrace you for doing it, who love you for doing it. Who then also benefitted from that moment. And then all of a sudden there's this huge web of people whose lives are infinitely better than they would have been before. That for me - that's it, that's what I care about.
 
 And when I think about all the other things in open source that I'm nerdy about - and I'm nerdy about all of it - that for me is what mattered. And it took a lot of soul-searching to figure that out; I didn't know that's how I felt until I spent a really significant amount of time reading philosophy and giving myself therapy and being like "What is it that I want? Why do I care? What is this thing that matters to me, and why does it matter?" It was hard.
 
@@ -162,7 +162,7 @@ We were sitting on a porch, drinking beer, being like "We should figure out how 
 
 **Adam Stacoviak:** Yeah.
 
-**Adam Jacob:** \[00:15:46.19\] I don't want it to seem like I'm some kind of saint. I wanted to get rich, and it worked. And I'm rich now. And it's better to be rich than not to be rich. I don't feel a lot of shame about it. And then also, the thing about it that mattered - if I hadn't gotten rich, it would have been fine, because the amount of opportunity and the relationships that happened and the community that happened from those things, and the relationships I had with those people would have been worth it either way. If that whole thing had gone the other way - and it totally could have; there were a million moments where it could have gone the other way... Like, it would have been fine; it would have been great. I was already fine. Do you know what I mean?
+**Adam Jacob:** \[15:46\] I don't want it to seem like I'm some kind of saint. I wanted to get rich, and it worked. And I'm rich now. And it's better to be rich than not to be rich. I don't feel a lot of shame about it. And then also, the thing about it that mattered - if I hadn't gotten rich, it would have been fine, because the amount of opportunity and the relationships that happened and the community that happened from those things, and the relationships I had with those people would have been worth it either way. If that whole thing had gone the other way - and it totally could have; there were a million moments where it could have gone the other way... Like, it would have been fine; it would have been great. I was already fine. Do you know what I mean?
 
 **Adam Stacoviak:** Yeah.
 
@@ -214,7 +214,7 @@ One of the best things to me about venture capital is that I can come up with a 
 
 **Adam Stacoviak:** That's your point of view...
 
-**Adam Jacob:** \[00:19:55.10\] \[laughs\] Thanks, man. But yeah, I don't think so... I think what's changed is that early on, with HJK, and then with Chef, and Opscode, all of us who started that company shared this point of view, which is we had something to prove to ourselves about who we were. Forget about proving it to the outside world... That question of "Who am I?" and "What can I do?", there's a great hardcore lyric I really like, which is "You shouldn't seek what you already are." I don't need to strive to be who I am. I'm already who I am.
+**Adam Jacob:** \[19:55\] \[laughs\] Thanks, man. But yeah, I don't think so... I think what's changed is that early on, with HJK, and then with Chef, and Opscode, all of us who started that company shared this point of view, which is we had something to prove to ourselves about who we were. Forget about proving it to the outside world... That question of "Who am I?" and "What can I do?", there's a great hardcore lyric I really like, which is "You shouldn't seek what you already are." I don't need to strive to be who I am. I'm already who I am.
 
 Then, I don't think we knew who we were. And who we wanted to believe we were, were people who could start companies, who could make products, who could sell product, who could run venture capital businesses... We wanted to be those people, but we didn't know if we were those people, and everything was fraught with peril. It was like a motorcycle gang. We all joined together, we were bonded by blood, and we were going for it. And that was beautiful and lovely, and also really hard, and very emotional, and not everybody always made their best decisions, because it's really hard to make those good decisions when you're also trying to understand who you are. You know, you're growing up.
 
@@ -236,7 +236,7 @@ And that's the secret about all of this stuff - everybody wants to make it out l
 
 I think the other thing that you need is you sort of have to be convinced that you can win. And not in like an egotistical way, where it's like, "I'm gonna win because I'm the man." But simply because -- you have to believe that winning is possible. Because if in your heart you believe that winning is impossible, then even showing up and doing the work, you'll kind of sabotage yourself a little. Do you know what I mean?
 
-**Adam Stacoviak:** \[00:24:02.00\] Yeah.
+**Adam Stacoviak:** \[24:02\] Yeah.
 
 **Adam Jacob:** Because it's hard.
 
@@ -250,7 +250,7 @@ I think the other thing that you need is you sort of have to be convinced that y
 
 **Adam Stacoviak:** ...why show up and swing?
 
-**Break**: \[00:24:14.28\]
+**Break**: \[24:14\]
 
 **Jerod Santo:** So do you think you learned through Chef that the Red Hat style that you guys eventually adopted - is that the way to go? If you're trying to do what y'all did...
 
@@ -272,7 +272,7 @@ What we do with open source businesses is open source tends to mean that I can h
 
 **Jerod Santo:** Right.
 
-**Adam Jacob:** \[00:28:02.00\] And that model we know works. If you build something of value and you wanna sell it for money, people will pay for it, because they want it. And it's pretty straightforward. When we do open source, we're making it more complicated every time. So in the most traditional one, we would do open core, where we say "Well, yeah, the main part of what we do", which is usually the most valuable thing you do, because if it's not valuable, then the open source users don't need it... Is completely free. It's zero dollars, and it's open source; you can take the source and build derivatives, and do whatever you want with it. And then there's some other thing we build on top of it, that's even more valuable than the first thing was, to certain target markets. You know, analytics for the enterprise would be a good answer, or SAML support. If you want SAML support, it costs extra.
+**Adam Jacob:** \[28:02\] And that model we know works. If you build something of value and you wanna sell it for money, people will pay for it, because they want it. And it's pretty straightforward. When we do open source, we're making it more complicated every time. So in the most traditional one, we would do open core, where we say "Well, yeah, the main part of what we do", which is usually the most valuable thing you do, because if it's not valuable, then the open source users don't need it... Is completely free. It's zero dollars, and it's open source; you can take the source and build derivatives, and do whatever you want with it. And then there's some other thing we build on top of it, that's even more valuable than the first thing was, to certain target markets. You know, analytics for the enterprise would be a good answer, or SAML support. If you want SAML support, it costs extra.
 
 The problem with the open core model is that you always get it wrong, and you gave away the most valuable asset, which is probably whatever it was you did in open source. So in the case of Chef, the most valuable thing you got from Chef was Chef. You had configuration management, it ran Facebook for free. That's amazing.
 
@@ -290,7 +290,7 @@ And in all those cases, that tends to swing you right back to the proprietary on
 
 So yes, I believe the Red Hat model is better, because what you get is all the upside of open source. You get all of that community building, you get all of that good juice, you get all of that human goodness that comes from doing it that way... And then you also get basically the exact same upsides of a proprietary business, which is - if I create value, I charge you for it... And that's the deal. And it simplifies everything.
 
-\[00:32:07.05\] Every other variation is this convoluted model that really only its mother could love. If you mapped out open core business models on paper, it's insane that that's what you would do. It's nuts. You would never do it to yourself on purpose. And so now we're seeing a lot of -- all the commercial open source stuff, like Cockroach, or Elastic, or those things. They're not even open source anymore, they're just proprietary software again... What they're doing is reinventing the proprietary business model, but then they're also saying "Well, but you can look at the source code." Maybe you could fix a bug on my behalf. That to me is just like -- who cares? You took all of the human goodness part away from it, you showed me the source code, but why do I give a s\*\*\*? What's in it for me? Nothing. Which doesn't mean your product is bad, because I pay money for software all the time; I like paying money for software. I've got no problem paying you money for good software... But it's not a community. It's users. It's a community the way that Excel has a community. Not a community the way that Linux or WordPress is a community.
+\[32:07\] Every other variation is this convoluted model that really only its mother could love. If you mapped out open core business models on paper, it's insane that that's what you would do. It's nuts. You would never do it to yourself on purpose. And so now we're seeing a lot of -- all the commercial open source stuff, like Cockroach, or Elastic, or those things. They're not even open source anymore, they're just proprietary software again... What they're doing is reinventing the proprietary business model, but then they're also saying "Well, but you can look at the source code." Maybe you could fix a bug on my behalf. That to me is just like -- who cares? You took all of the human goodness part away from it, you showed me the source code, but why do I give a s\*\*\*? What's in it for me? Nothing. Which doesn't mean your product is bad, because I pay money for software all the time; I like paying money for software. I've got no problem paying you money for good software... But it's not a community. It's users. It's a community the way that Excel has a community. Not a community the way that Linux or WordPress is a community.
 
 **Adam Stacoviak:** Right. A group is not a community.
 
@@ -342,7 +342,7 @@ So yes, I believe the Red Hat model is better, because what you get is all the u
 
 **Jerod Santo:** Right.
 
-**Adam Jacob:** \[00:35:51.21\] So then there's venture capital success. It's a different game you're playing. In the venture capital game, what you're playing is "I believe that I can take this risky product idea and bring it to market and turn it into a giant company. And succeed or fail, that's my bet." Whereas if I'm starting a company to feed myself, the conditions are incredibly different. Now the conditions are "If that thing fails, I don't eat." So the bar of success is how comfortable am I at eating? Is my life supported? It's those things.
+**Adam Jacob:** \[35:51\] So then there's venture capital success. It's a different game you're playing. In the venture capital game, what you're playing is "I believe that I can take this risky product idea and bring it to market and turn it into a giant company. And succeed or fail, that's my bet." Whereas if I'm starting a company to feed myself, the conditions are incredibly different. Now the conditions are "If that thing fails, I don't eat." So the bar of success is how comfortable am I at eating? Is my life supported? It's those things.
 
 And venture capital people sometimes talk about those as like lifestyle businesses, and it becomes this, like, whatever - like a sneer... I don't think it's a sneer at all; I just think it's a good example of -- I can't think of a big business to consumer open source company, in the venture capital sense... Whereas in the business to business --
 
@@ -386,7 +386,7 @@ So I think the real question for people trying to go from zero to one is "What k
 
 **Jerod Santo:** Right.
 
-**Adam Jacob:** \[00:39:44.29\] I think that's the same if it's your open source project, or whatever it's gonna be. The difference is your success criteria for that little spreadsheet. If it's "Can I feed myself and my family and buy a house?", that's one thing. If it's "Can it become to be viable for venture capital?", then the upside of that spreadsheet has to be "It's gonna ring the bell and go public." So it has to be "It's gonna be trading on the New York Stock Exchange, and it's worth billions of dollars." And it's the same spreadsheet, it's just the bar to say "This is a good idea or a bad idea is dramatically different."
+**Adam Jacob:** \[39:44\] I think that's the same if it's your open source project, or whatever it's gonna be. The difference is your success criteria for that little spreadsheet. If it's "Can I feed myself and my family and buy a house?", that's one thing. If it's "Can it become to be viable for venture capital?", then the upside of that spreadsheet has to be "It's gonna ring the bell and go public." So it has to be "It's gonna be trading on the New York Stock Exchange, and it's worth billions of dollars." And it's the same spreadsheet, it's just the bar to say "This is a good idea or a bad idea is dramatically different."
 
 **Adam Stacoviak:** You mentioned Cockroach and Elastic, and you said they're not open source...
 
@@ -428,7 +428,7 @@ We're creating this sense where -- you wanna have a Cockroach DB community, wher
 
 The other thing they're doing is creating a different lens on competition. So in open source, part of what they're protecting against is they're afraid of AWS, or they're afraid of Microsoft, or GitHub taking their software and launching it as a service.
 
-\[00:44:00.29\] And the thing of it is - if what you're building as a product is successful enough, then you're gonna get big enough that there will be competition. There's no successful product that doesn't have competition. That doesn't exist. Because it's so obvious that what you should do is compete with someone. It's not a difficult mental leap. That spreadsheet is really easy to build when you have an example already that tells you it works. You riff on the theme just a \[unintelligible 00:44:25.12\] and you're like --
+\[44:00\] And the thing of it is - if what you're building as a product is successful enough, then you're gonna get big enough that there will be competition. There's no successful product that doesn't have competition. That doesn't exist. Because it's so obvious that what you should do is compete with someone. It's not a difficult mental leap. That spreadsheet is really easy to build when you have an example already that tells you it works. You riff on the theme just a \[unintelligible 00:44:25.12\] and you're like --
 
 **Adam Stacoviak:** You are the spreadsheet.
 
@@ -462,7 +462,7 @@ Now, if it was open source and they gave me extra optionality, all of a sudden I
 
 **Adam Stacoviak:** Right, right.
 
-**Adam Jacob:** \[00:47:50.13\] I think ultimately, the reality -- what it says is "I don't trust that my community is a true community. I trust that they're users." And the thing about true community is when it's hard, they hold you up. Chef went through many, many disruptive cycles. Docker disrupted us, Kubernetes disrupted us... Over and over again, extinction-level threats to our business happened. And the thing that made that business succeed in the end was that community of people who loved Chef, because they wanted it to win. Because Chef winning meant they won. That wouldn't have been true without that thing.
+**Adam Jacob:** \[47:50\] I think ultimately, the reality -- what it says is "I don't trust that my community is a true community. I trust that they're users." And the thing about true community is when it's hard, they hold you up. Chef went through many, many disruptive cycles. Docker disrupted us, Kubernetes disrupted us... Over and over again, extinction-level threats to our business happened. And the thing that made that business succeed in the end was that community of people who loved Chef, because they wanted it to win. Because Chef winning meant they won. That wouldn't have been true without that thing.
 
 **Adam Stacoviak:** What did you do special to make that happen?
 
@@ -490,7 +490,7 @@ And you can rely on that community to get you through those hard things. And whe
 
 **Adam Jacob:** And it's because they've been there, and you've been there, and that thing has been genuine. I don't think you can fake it. I don't think that's a thing you can manufacture. I think it happens because you show up. It happens because you legitimately care about each other. That is the thing I'm most proud of about Chef. Early on in its life we had people come into the IRC channel, it was \#chef on FreeNode when FreeNode was a thing... And they asked us what they should cook; they had their first date in their whole life. So they finally got a date, and they wanted to cook for their first date... And they were like, "What should I make for this person on my first date, to make a good impression?" And this IRC channel full of hundreds of people - like, I've never seen it more engaged than it was in debating what thing this person should cook.
 
-**Adam Stacoviak:** \[00:52:03.15\] Absolutely.
+**Adam Stacoviak:** \[52:03\] Absolutely.
 
 **Adam Jacob:** They were not in the right place, man... But they just assumed that's what it was about.
 
@@ -528,7 +528,7 @@ And you can rely on that community to get you through those hard things. And whe
 
 **Adam Jacob:** ...and also, at the core of what we all hope for. I think that's really what we all hope for. And we've got this little pocket of the universe where there's this precious thing, and we happen to have done it in software. I think that happened in software because the resources are infinite. If you have power in a computer, you can do what you want. So it's effectively infinite within its own sphere. It's not, because power and access to computers, and all that stuff... But if you put that stuff aside, it is this infinite resource, where it costs nothing to let other people have it. That is a beautiful thing, it's a lovely vision, and it makes me infinitely hopeful for what it can do and be.
 
-**Break**: \[00:54:52.19\]
+**Break**: \[54:52\]
 
 **Jerod Santo:** So now you're working on System Initiative, and you've been working on it since the last time you were on the show... And if you go to the homepage now, it's like, "Hey, request an invite." So a lot of work being done, but kind of like stealth mode... Tell us what you're up to, and the progress, and all that.
 

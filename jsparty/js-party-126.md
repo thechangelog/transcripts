@@ -24,7 +24,7 @@ So let's hop right into the news... And it seems like Node 14 - possibly the big
 
 **Christopher Hiller:** Yeah, so Node 14 was released, I don't even know how long ago. Not very long ago at all. So there are a few things that you might wanna check out. ECMAScript module support has been in Node, it's in Node 12, it's behind the flag... But also now in Node 14 it's not behind a flag. However, it's important to know that the ECMAScript module support is still considered experimental, so that means it might break; the API might break. It doesn't mean you can't use it, it doesn't mean you shouldn't try it out; it doesn't mean that we expect it to be full of bugs, it just means the API might change... And it might change before the next major.
 
-\[00:04:25.23\] I don't have any visibility into -- you know, I'm not on the modules team, I don't know how they feel about it, but they were confident enough to drop the requirement for the flag. And I think you don't get a warning anymore either; I'm not sure exactly, I can't recall... But you might not even get a warning when you use it. But it's important to realize that it's still considered an experimental API.
+\[04:25\] I don't have any visibility into -- you know, I'm not on the modules team, I don't know how they feel about it, but they were confident enough to drop the requirement for the flag. And I think you don't get a warning anymore either; I'm not sure exactly, I can't recall... But you might not even get a warning when you use it. But it's important to realize that it's still considered an experimental API.
 
 So yeah, that is cool, and I think they wanna push people to try it out a little bit more, and give it a go. There's still time to collect feedback, and implement feedback from the community who's trying these things out, and say "Oh, well this isn't working very well for whatever", and maybe it was a thing they didn't see... So that's what this time it's for; it's still experimental, and it can be changed if it needs to.
 
@@ -42,7 +42,7 @@ Another cool thing - and I actually didn't know about this before it landed - is
 
 The original one in Node was Domain, which allows you to kind of like trap things at a certain level... But Domain had a lot of problems, so it was deprecated. Some years later async hooks was added to Node, which is another attempt at this sort of thing, but it's very low-level and difficult to use... So now, a couple more years later, async local storage was added. This is more of a high-level API into doing really cool stuff with async tasks, and being able to essentially instrument them or respond in different ways.
 
-\[00:08:23.00\] I think people working for APM companies who are instrumenting Node might be interested in async local storage. It's an experimental API, but it looks cool, and I actually wanna go check it out, because I've wanted something like this for a long time, to be able to detect "Hey, did this code start an async process? Is it possible that this code that I just ran could throw an uncaught exception somewhere else that I might not know about?" So with async local storage - you can learn about that. I assume that's how this works; you could do that with async hooks.
+\[08:23\] I think people working for APM companies who are instrumenting Node might be interested in async local storage. It's an experimental API, but it looks cool, and I actually wanna go check it out, because I've wanted something like this for a long time, to be able to detect "Hey, did this code start an async process? Is it possible that this code that I just ran could throw an uncaught exception somewhere else that I might not know about?" So with async local storage - you can learn about that. I assume that's how this works; you could do that with async hooks.
 
 So Node 14 is out, it's the crude release. It's not LTS yet. LTS is still 12. 14 will enter LTS (long-term support) in October 2020.
 
@@ -122,7 +122,7 @@ In October, when 14 becomes active LTS, Node 12 will be in maintenance LTS, whic
 
 **Jerod Santo:** So that was the reason...
 
-**Nick Nisi:** \[00:12:11.21\] That's the reason.
+**Nick Nisi:** \[12:11\] That's the reason.
 
 **Divya:** I mean, I'm often asking myself why people use Reason... I guess that's one reason.
 
@@ -166,7 +166,7 @@ And then, of course, it's a cool thing to be working on, I think. It's really in
 
 **Divya:** It's a growing trend, for sure. So it's really cool to see people actually using it in the applications -- well, Evan to be pushing people to be using it... And I think this will help grow adoption overall, because now a lot of people are aware of the possibilities of ESM, and ES imports, and stuff like that. You might use it because of the syntax, if you use various Node packages and so on, but I think this is really cool and interesting to see, especially as kind of a first prototype of what is possible. We'll see where it goes from there... I'm not sure in terms of future of where this is going, but I think the whole point of how this was built was purely as a proof of concept, to see if it was possible, and to optimize for development purposes.
 
-\[00:16:11.04\] Lots of interesting technology... And I think it's also -- I mean, I don't wanna speak for anyone, but it's also kind of a stopgap for anyone who's really excited for Vue and kind of tired because the release date is not anywhere near... \[laughs\] It's like, "Here you go. Here's a really quick thing for you to work on while we continue..."
+\[16:11\] Lots of interesting technology... And I think it's also -- I mean, I don't wanna speak for anyone, but it's also kind of a stopgap for anyone who's really excited for Vue and kind of tired because the release date is not anywhere near... \[laughs\] It's like, "Here you go. Here's a really quick thing for you to work on while we continue..."
 
 Vue 3 is pretty much in beta, so you can actually work on it now. It's not behind a flag, or anything like that. So if you really want to use it in production, you can; it's just not officially released.
 
@@ -200,7 +200,7 @@ So he updated that, and there's just a lot of metadata issues that went wrong wi
 
 **Nick Nisi:** Right.
 
-**Christopher Hiller:** But promise implementations have been in the ecosystem since long before that \[00:19:24.04\] and before that queue, if you ever used queue... And others.
+**Christopher Hiller:** But promise implementations have been in the ecosystem since long before that \[19:24\] and before that queue, if you ever used queue... And others.
 
 **Nick Nisi:** jQuery.Deferred...
 
@@ -210,7 +210,7 @@ So that's why you need something like is-promise, because you need to be able to
 
 **Nick Nisi:** Yeah.
 
-**Jerod Santo:** \[00:20:19.01\] Wow...
+**Jerod Santo:** \[20:19\] Wow...
 
 **Christopher Hiller:** If something has a then( ) function, it's a promise...
 
@@ -254,7 +254,7 @@ So yeah, it was only three hours, on a Saturday, so probably not a huge disrupti
 
 **Jerod Santo:** I win. Alright, let's take a break. We'll be back with some unpopular opinions.
 
-**Break:** \[00:23:19.20\]
+**Break:** \[23:19\]
 
 **Jerod Santo:** So we've got some work from home tips, we've got some unpopular opinions... We're gonna start on the wholesome, happy isolation side, which is working from home... And this is gonna be Chris and Nick sharing a couple of tips on working from home. Then we're gonna get into the squared circle, the octagon, and share some unpopular opinions from Divya and myself. Let's start with Nick... What have you got, Nick? Working from home, what should we be doing?
 
@@ -296,13 +296,13 @@ What we ended up doing was setting up a temporary desk for her elsewhere in the 
 
 You've gotta have a space to yourself, you've gotta have a quiet space. A space where there's nobody else. Unless you and your spouse, or what have you, are working at the same company, on the same team, on the same project, you probably don't wanna be sharing a space.
 
-\[00:27:54.21\] If you're finding yourself in a situation where you're in close quarters and you need to get work done, somebody's gotta go somewhere else. I was about to move into the garage, for example... I don't know. So it's just like -- you really need that, and it's just better for your mental health. This goes for -- it's not just an introvert thing; I don't know how people in open office plans do it, because it seems like it's kind of like that, except it's not like a den... It's not this million voices all at once, it's one loud voice next to you, and it's impossible to tune that out. So you need your own space, that's my tip.
+\[27:54\] If you're finding yourself in a situation where you're in close quarters and you need to get work done, somebody's gotta go somewhere else. I was about to move into the garage, for example... I don't know. So it's just like -- you really need that, and it's just better for your mental health. This goes for -- it's not just an introvert thing; I don't know how people in open office plans do it, because it seems like it's kind of like that, except it's not like a den... It's not this million voices all at once, it's one loud voice next to you, and it's impossible to tune that out. So you need your own space, that's my tip.
 
 **Jerod Santo:** Very good. Now, we're gonna get to Unpopular Opinions, and I should say that this segment idea is shamelessly stolen by our rival gang over at Go Time - they actually do Unpopular Opinions each and every episode... And I thought, "Hey, we can do that." We can do that, but better. We can do that, but more unpopular, more interesting. Fierier even.
 
 They do it so often they've written a theme song for the segment... And while I was stealing ideas, I was like "Let's just steal the theme song, why don't we?"
 
-**Jingle:** \[00:29:14.22\]
+**Jingle:** \[29:14\]
 
 **Nick Nisi:** Amazing.
 
@@ -330,7 +330,7 @@ I think that something -- it's almost the elephant in the room when it comes to 
 
 What this leads to, because people don't talk about that as a problem, there's not a lot of focus on building the community. So we talk about open source, being a community, but oftentimes when people want to put in place measures like code of conducts, or contributing guidelines, there's a lot of backlash that happens... Because there's this strange hypocrisy that happens, where people are like "Open source is about the community, but the code is more important than the community." They're antithetical almost.
 
-\[00:32:14.09\] If you want a good community, code is important, but the community is way more important, I would argue... Because if you build people up, I think it overall leads to a better outcome, because more people are contributing, there are more voices... Obviously, you need a core team of people who make decisions, but I think having RFCs and a way for people to be involved and feel like their voices are heard is very important.
+\[32:14\] If you want a good community, code is important, but the community is way more important, I would argue... Because if you build people up, I think it overall leads to a better outcome, because more people are contributing, there are more voices... Obviously, you need a core team of people who make decisions, but I think having RFCs and a way for people to be involved and feel like their voices are heard is very important.
 
 I can give you examples, because I've spoken quite broadly... But I'll bring this back to JavaScript. This happened in 2015 -- again, it's anecdotal, but this is one example, just to solidify this concept. Ashley Williams is huge in the Node community. She's done so much in terms of building a community and making people feel inclusive. She started the Node Inclusivity Working Group in 2014 and 2015, and she got so much backlash from that. There were so many people who opened issues... There was this eggplant thing that people just kept sending her, and it was just horrible, because people didn't see the value that she was bringing or the point she was making, which is that in order for Node to succeed, the community needs to rally behind Node, and you need to be more inclusive of the people who are in Node and contributing to Node.
 
@@ -348,7 +348,7 @@ JavaScript is a large community, but then you go open source, and there's every 
 
 **Jerod Santo:** My question would be like "What would you love to see change?" Demonstrable steps towards a better world, in this space.
 
-**Divya:** \[00:36:04.18\] I think a first step - and I know the moment this is mentioned, people get really defensive... Like, just as a baseline, having a code of conduct is just one way of setting precedent. And it's not saying "Oh, you're pandering to people's feelings", or whatever; it's just more like setting a baseline for "This is how we interact on this particular project." And then anytime people contribute to it, you're like "I have read the code of conduct and I agree to abide by this." That's just a way of like "I'm agreeing to be a decent human being, and this is how I want to act and how I will interact."
+**Divya:** \[36:04\] I think a first step - and I know the moment this is mentioned, people get really defensive... Like, just as a baseline, having a code of conduct is just one way of setting precedent. And it's not saying "Oh, you're pandering to people's feelings", or whatever; it's just more like setting a baseline for "This is how we interact on this particular project." And then anytime people contribute to it, you're like "I have read the code of conduct and I agree to abide by this." That's just a way of like "I'm agreeing to be a decent human being, and this is how I want to act and how I will interact."
 
 When you set that baseline, then you have something to come back to as a sense of like "Hey, you agreed to this code of conduct, and you reacted in this way that is counter to this code of conduct..." So it becomes more of a "You didn't abide by this contract that we all signed", rather than "I have this feeling and you hurt my feeling." Because the moment you talk about feelings, people tend to question it. They're like "I think that's just you, and your emotions. You're too emotional", and whatever. I think this happens a lot, especially -- I hate doing the gender thing, but oftentimes women get shafted, because they're like "I have these emotions", and people are like "You're always emotional." It's very not useful; it's a not-useful discussion. So when you automatically have that baseline of "This is the code of conduct, this is how we wanna interact..."
 
@@ -366,7 +366,7 @@ So if you're busy, you can say that. Like, "It'll take a couple of weeks for us 
 
 So off the bat, if you have a good set of contributing guidelines, you set precedent and expectations between both parties, so you know what to expect, automatically, off the bat.
 
-**Nick Nisi:** \[00:40:02.27\] Yeah, it seems like common sense that everyone should want that, some kind of guidelines to follow... That's definitely something that anyone can champion. You don't have to be from an under-represented group to push for that on the projects that you love.
+**Nick Nisi:** \[40:02\] Yeah, it seems like common sense that everyone should want that, some kind of guidelines to follow... That's definitely something that anyone can champion. You don't have to be from an under-represented group to push for that on the projects that you love.
 
 **Jerod Santo:** Right. It seems so basic, like house rules. Everybody has the right (or whatever) to make the rules of their own house. Maybe when you're coming to my house you have to take your shoes off when you enter the house. Maybe that's my rule. But if you go to Nick's house, maybe he doesn't care so much. "Hey, wear your shoes. I want it to be a more relaxed place."
 
@@ -384,7 +384,7 @@ So by listening and by getting to know people and being part of a community - th
 
 **Nick Nisi:** Oh, no...
 
-**Jerod Santo:** \[00:44:09.09\] ...your tools - most of that is time not well spent.
+**Jerod Santo:** \[44:09\] ...your tools - most of that is time not well spent.
 
 **Divya:** \[laughs\] Amazing.
 
@@ -442,7 +442,7 @@ I will say, if this gives you joy, and this is something you enjoy, go do it. Be
 
 **Christopher Hiller:** Just like Nick said, if I have to switch over to VS Code or whatever, I'm stuck.
 
-**Nick Nisi:** \[00:48:02.27\] I actually wrote a custom script once, that would let someone -- I would type the script out, put their username in, and it would go to GitHub, pull down their public key, add it to my authorized keys on my machine, and set it up so that they can SSH in paswordlessly into my machine, directly into the tmux session I was in, and then we could work together in there. I tried it exactly once, and it was just completely useless, because whoever is SSH-ing in and trying to work with me has no idea about any of the key bindings that I have. So it wasn't practical... Whereas something like Visual Studio Code's live share feature is amazing.
+**Nick Nisi:** \[48:02\] I actually wrote a custom script once, that would let someone -- I would type the script out, put their username in, and it would go to GitHub, pull down their public key, add it to my authorized keys on my machine, and set it up so that they can SSH in paswordlessly into my machine, directly into the tmux session I was in, and then we could work together in there. I tried it exactly once, and it was just completely useless, because whoever is SSH-ing in and trying to work with me has no idea about any of the key bindings that I have. So it wasn't practical... Whereas something like Visual Studio Code's live share feature is amazing.
 
 **Divya:** Yeah. I agree with the customization thing. I used to do the same. It's interesting, because I did it when I was a newer programmer, just because I felt like that was being an elite programmer, was just like doing these crazy customizations... And I think at the time I was using Sublime, and I had this wrong opinion obviously that anyone using Sublime wasn't as elite, and cool, and hacker-like as someone who used Vim.
 
@@ -468,13 +468,13 @@ Or you see somebody else do something that you routines do slowly, they do it re
 
 Emmet is a great example. By the way, I think this is an unpopular opinion, because we've lit up the chat room with all sorts of statements... And \[unintelligible 00:51:45.02\] is talking about using Emmet, which is the text expansion tool, where you can \[unintelligible 00:51:52.09\] and it'll expand a whole bunch of HTML for you. That's an easy thing to learn, and a huge win over time. So that's not problematic, in my opinion. It's like writing in your own stuff, picking where that pain point is, and solving it - fine. But extreme "Pimp my ride" style customization, which I've done tons of... I think it's kind of a young person's game - that's maybe an old person talking - because I used to think it was worth it, and now I'm like "Ain't nobody got time for that."
 
-\[00:52:26.16\] So maybe that's ageist or something, but I feel like it's kind of -- I shouldn't say a young person's game. It's something that I think people who have the time and enjoy it do more of it, because it is incredibly enjoyable; I'm not trying to take that away from everybody. But you've gotta feel the pain before you fix the pain, and you have to also judge how much work is it gonna be for me to fix this pain, or try to just live with it. I think oftentimes live with it is the right answer.
+\[52:26\] So maybe that's ageist or something, but I feel like it's kind of -- I shouldn't say a young person's game. It's something that I think people who have the time and enjoy it do more of it, because it is incredibly enjoyable; I'm not trying to take that away from everybody. But you've gotta feel the pain before you fix the pain, and you have to also judge how much work is it gonna be for me to fix this pain, or try to just live with it. I think oftentimes live with it is the right answer.
 
 **Nick Nisi:** Yeah, most of the time. But the 55th time that you come across the "Man, I could just write a macro to do this, if I only knew macros..." Like, I know that they're a thing, in whatever editor you're using... Eventually, you have to take a little bit of time to sharpen your axe.
 
 **Jerod Santo:** Well, I'm with you. I've been writing Apple scripts for the last few days, so I'll share that in our shout-outs, why that is... There's a time and a place. I just think we misjudge it oftentimes.
 
-**Break:** \[00:53:25.20\]
+**Break:** \[53:25\]
 
 **Jerod Santo:** Alright, we are back for one of my favorite segments, because it's a chance for us to say thanks to folks, or to point to cool things... Really give shout-outs to people and projects or whatever it happens to be that we think deserves a shout-out. So let's get right to it. Divya, you are up, my friend.
 
@@ -496,7 +496,7 @@ Also, their templates look nicer... I don't know. They added new ones, and just 
 
 So I wanna shout-out the team \[unintelligible 00:55:36.18\] and all of the others who contributed to the project. This one really focuses on our widget library. I've written a number of widgets and converted a number of widgets to use the more modern Dojo. It's really cool, really awesome, it has a whole new themeing section, including a custom Dojo theme, and also a material theme that ships with it. It's really great. If you like React, I think you'll like Dojo better, so you should give it a shot.
 
-**Jerod Santo:** \[00:56:08.08\] You said you didn't have any unpopular opinions. That would have been a great one. \[laughter\] "If you like React, you'll like Dojo better!" Alright, Chris, you're up.
+**Jerod Santo:** \[56:08\] You said you didn't have any unpopular opinions. That would have been a great one. \[laughter\] "If you like React, you'll like Dojo better!" Alright, Chris, you're up.
 
 **Christopher Hiller:** I wanna shout out to Wes Todd. Wes works at Netflix, he's the maintainer of Express, and he's been doing really good work in the Express community. He's been working with the package maintenance group in Node, and he's been working with the Node Tooling Group, and probably other stuff, but he's doing a whole lot right now, and I really appreciate what he's doing... So thanks, Wes.
 
@@ -520,7 +520,7 @@ So shout-out to Keynote for the second time. Grab a gradient background theme an
 
 **Jerod Santo:** Yeah, absolutely. If you're following @jspartyfm on Twitter, you've seen some of those videos. All of the videos that we do, where we take the audio clips from the show, and we have the text, and who's talking's face lights up, and it's basically like quotes out of our podcasts - they're all created in Keynote.
 
-**Christopher Hiller:** \[00:59:44.19\] Yeah, I've never watched any of this...
+**Christopher Hiller:** \[59:44\] Yeah, I've never watched any of this...
 
 **Jerod Santo:** Come on, Chris... You've probably been in them.
 

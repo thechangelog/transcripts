@@ -14,9 +14,9 @@
 
 So looking at this repo, I had a few thoughts. First of all, what are the commands that developers actually use on a regular basis? I have a sample size of one, but I thought I'd get you on here to ask you that question as well, Nick - what are the common commands? What job do these commands perform for us? What are we trying to do with them? How are they serving us? And then are the age-old versions sufficient? Or are they long in the tooth? Do they have things that just don't keep up with what we do in modern times?
 
-\[00:04:19.29\] And then we have all these modern replacements, and it's like "Are the modern versions better? How are they better? Is it worth the installation?" and so on and so forth. So that's the idea for today, I thought we would take up these topics. What do you think?
+\[04:19\] And then we have all these modern replacements, and it's like "Are the modern versions better? How are they better? Is it worth the installation?" and so on and so forth. So that's the idea for today, I thought we would take up these topics. What do you think?
 
-**Nick Janetakis:** Yeah, I think that's a great idea, because -- yeah, I've looked at that repo before at a glance, and there's maybe 10, 15, 20 different tools there... But in terms of "What do I use in my day-to-day?", you know, besides the super-basic ones like cd or ls or whatever, I'm using \[00:04:50.11\] sed... Cut? Do you know the cut utility?
+**Nick Janetakis:** Yeah, I think that's a great idea, because -- yeah, I've looked at that repo before at a glance, and there's maybe 10, 15, 20 different tools there... But in terms of "What do I use in my day-to-day?", you know, besides the super-basic ones like cd or ls or whatever, I'm using \[04:50\] sed... Cut? Do you know the cut utility?
 
 **Jerod Santo:** I've used it in like a pipeline before, but I can't remember what it does. Can you tell us
 
@@ -76,7 +76,7 @@ So those are probably my go-to's in my day-to-day. There's so many specific litt
 
 **Jerod Santo:** Yeah.
 
-**Nick Janetakis:** \[00:08:02.27\] Yeah, I'm the same way. If I'm running Debian or Ubuntu, you just apt install tree and you're good to go.
+**Nick Janetakis:** \[08:02\] Yeah, I'm the same way. If I'm running Debian or Ubuntu, you just apt install tree and you're good to go.
 
 **Adam Stacoviak:** Yeah.
 
@@ -116,7 +116,7 @@ What else does GNU do? The GPL, the GNU General Public License, GNU's Compiler C
 
 So GNU had a lot of things going, but they didn't really have a working kernel. There was GNU Hurd, which was being worked on back in the early '90s but didn't totally work yet when Linux came around. Of course, Linus Torvalds released Linux back in 1991, and that's a kernel. So the Linux kernel is an operating system kernel, it's not an entire operating system.
 
-\[00:11:59.17\] He released that as GPL, so it got integrated with a bunch of other GPL stuff... And then there's also the BSD Unix effort, which was released in 1992. That led to NetBSD, FreeBSD, later on OpenBSD, and I think DragonFly... A few others. I obviously don't know very much about BSD's. I do know there are some people that are very passionate about BSD, but I don't know very much about BSD. What about you, Nick? Have you dove into the BSD side of things at all?
+\[11:59\] He released that as GPL, so it got integrated with a bunch of other GPL stuff... And then there's also the BSD Unix effort, which was released in 1992. That led to NetBSD, FreeBSD, later on OpenBSD, and I think DragonFly... A few others. I obviously don't know very much about BSD's. I do know there are some people that are very passionate about BSD, but I don't know very much about BSD. What about you, Nick? Have you dove into the BSD side of things at all?
 
 **Nick Janetakis:** I have not. It's funny - you know that story behind Richard Stallman, where... And I'm not calling him out to make fun of his philosophies or whatever, but - you know, Linux was called Linux, but then he thinks it should be called GNU Linux, because really, it's like, you're getting the Linux kernel, but you're also getting these GNU programs, like ls, and grep, and set, and all of them... So it kind of makes sense that you're combining both of these together to give you an endgame solution, so that we, the end user, actually have something to run in user land code.
 
@@ -152,7 +152,7 @@ So when we talk about Unix tools, or modern Unix, we are mostly referring to pro
 
 **Adam Stacoviak:** Well, the important thing with this discussion too, when you say "modern Unix tooling/tools that you can install" is that you don't have to accept the set that it comes with. You can accept an alternate that may be community-driven, which I think is empowering to users. Being able to install tree despite it not being installed directly on the OS.
 
-\[00:16:09.12\] That's sort of par for the course, but new folks coming to the command-line even, being a daunting thing for them, understanding how they can choose the different tooling, maybe even installing it via Homebrew with their own macOS, or apt-get, or on Linux, or a different version of that - I think that's cool. Being able to say "Well, this version of ls comes with Unix", the GNU version, or whatever the history is that you've just described... But if that doesn't work for you, there's a community-driven version of it that might have different features, or different things, or maybe in this case modern, with the way modern things are going...
+\[16:09\] That's sort of par for the course, but new folks coming to the command-line even, being a daunting thing for them, understanding how they can choose the different tooling, maybe even installing it via Homebrew with their own macOS, or apt-get, or on Linux, or a different version of that - I think that's cool. Being able to say "Well, this version of ls comes with Unix", the GNU version, or whatever the history is that you've just described... But if that doesn't work for you, there's a community-driven version of it that might have different features, or different things, or maybe in this case modern, with the way modern things are going...
 
 In fact, behind the scenes we have a unikernels post coming out soon by Ian Eyberg, and it talks a lot about how Unix, as you mentioned, Jerod, being developed by Bell Labs back in the '70s was built for computing in that day, where if we consider what an operating system for that data center might be, like, today, in 2021, how would we design that. And I think you might get different results with maybe -- ls is maybe not a good example, because it's just simply listing directories. But maybe sed might be different, or -- you know, with some of these tools you're gonna get different results based upon today's needs.
 
@@ -184,7 +184,7 @@ So I'd be curious to know -- like, you know, I haven't used the custom version o
 
 **Jerod Santo:** Yeah. So I think that's a good example. I think a lot of these tools - we're gonna talk through some of them - some are meant to be direct replacements. So in the case of exa - we're gonna get into this with ls - basically, you could alias exa to ls, and not know the difference, and just keep typing ls, and it's supposed to be a drop-in replacement. Other ones are not really API-compatible. But command-compatible... I mean, the flags, for instance - I guess the flags are an API, to a certain extent - they're meant to be used instead of, but not really to plop on top of, or replace one-to-one an older version. So we can talk through some of those. I know I'm kind of in the "keep it vanilla" camp, Nick. I'm not sure -- it sounds like you're kind of in that one as well...
 
-**Nick Janetakis:** \[00:20:32.28\] Yeah.
+**Nick Janetakis:** \[20:32\] Yeah.
 
 **Jerod Santo:** ...but I think it's kind of like progressive enhancement on the web. So I have my personal cd built-in, wrapped with a cd function that I wrote, which provides additional functionality. And mostly what it does - I think maybe just the only thing it does - is it just automatically calls ls anytime I change to a directory, because I've just found what I did every single time... Like, what do you do right after you cd? ls, cd, ls. So I just monkey-patch my cd to just do the ls for me, right when I enter any directory. Just go ahead and display what's in there. I find that to be additive though, kind of like a progressive enhancement. Because when I go to another system that doesn't have that, then it just doesn't do it. It's like an operator overload, but you're not making it do some sort of destructive or random thing that you wouldn't expect, so I don't find it problematic that way.
 
@@ -202,7 +202,7 @@ So yeah, you're basically just calling ls after you do what you're gonna do, wit
 
 **Nick Janetakis:** Yeah. I've got similar aliases for Vim. I happen to use Vim on the command line, but you can use Vim to diff two files side by side, which is kind of nice. You kind of get like a GitHub side-by-side view of that... But as far as I know, Vim doesn't have a really great way to do diffing two different directories, multiple files in a directory... So I wrote a little alias that either runs Vim if you're passing in two files as arguments, but if you're passing in two directories, then it just runs a different command, which is like a Vim plugin that handles doing a directory diff. But from my point of view, I just run one command, and it figures out the dirty work behind the scenes.
 
-**Adam Stacoviak:** \[00:23:57.06\] Yeah, one more shout-out to Oh My Zsh... I just do dot dot to move around as well. So if I'm in a directory and I wanna go back, rather than coing cd, space, dot-dot, I just type dot-dot.
+**Adam Stacoviak:** \[23:57\] Yeah, one more shout-out to Oh My Zsh... I just do dot dot to move around as well. So if I'm in a directory and I wanna go back, rather than coing cd, space, dot-dot, I just type dot-dot.
 
 **Jerod Santo:** Oh, man. It's so efficient.
 
@@ -248,7 +248,7 @@ So yeah, you're basically just calling ls after you do what you're gonna do, wit
 
 **Adam Stacoviak:** Yeah.
 
-**Break**: \[00:26:10.02\]
+**Break**: \[26:10\]
 
 **Jerod Santo:** So you've probably used cat...
 
@@ -272,7 +272,7 @@ So yeah, you're basically just calling ls after you do what you're gonna do, wit
 
 **Jerod Santo:** Yeah, I think it is...
 
-**Nick Janetakis:** \[00:28:01.08\] But it's one of those things where it kind of is up there probably, as like a top(ish) type of command, along with git.
+**Nick Janetakis:** \[28:01\] But it's one of those things where it kind of is up there probably, as like a top(ish) type of command, along with git.
 
 **Jerod Santo:** Let's see... Here it is. History, pipe into sed, pipe into sort, pipe into unique-c, pipe into sort-rn, head-10. So here's a good use of the Unix command line right here. I will throw it in the chat and we can all execute this... And you can see what makes your top ten. I don't have cat in here. Do you have cat?
 
@@ -350,7 +350,7 @@ But yeah, I've got drafts - it's like a custom alias I created that helps me cre
 
 **Jerod Santo:** Okay.
 
-**Adam Stacoviak:** \[00:32:09.06\] Yeah. It seems like maybe it's a sed thing, because sed is actually \[unintelligible 00:32:11.25\]
+**Adam Stacoviak:** \[32:09\] Yeah. It seems like maybe it's a sed thing, because sed is actually \[unintelligible 00:32:11.25\]
 
 **Jerod Santo:** Can't you just launch a Bash prompt somehow? Can't you just say like "Bash..."
 
@@ -458,7 +458,7 @@ So you do cat, file one, file two, and then you do the greater-then (&gt;) to di
 
 **Adam Stacoviak:** 24 hours of Changelog Master feed.
 
-**Nick Janetakis:** \[00:35:56.16\] That's very cool. I never knew that. You can also use the star operator with cat as well. If you have to match on a file pattern, you can just do something like -- well, I've done this before in the past, where I have my notes set up to where I have like "2021-" and then 07.txt, like July 2021. But you can replace that 07 with a star, and then redirect with a greater-than sign, and export out to 2021, and now suddenly all the monthly notes got redirected out to a single file for the year 2021.
+**Nick Janetakis:** \[35:56\] That's very cool. I never knew that. You can also use the star operator with cat as well. If you have to match on a file pattern, you can just do something like -- well, I've done this before in the past, where I have my notes set up to where I have like "2021-" and then 07.txt, like July 2021. But you can replace that 07 with a star, and then redirect with a greater-than sign, and export out to 2021, and now suddenly all the monthly notes got redirected out to a single file for the year 2021.
 
 **Jerod Santo:** Very cool.
 
@@ -502,7 +502,7 @@ So if you're cat-ing files together the way you're talking about with multiple t
 
 **Nick Janetakis:** Yeah. In that regard, I try to set up my servers so that I don't have to SSH into them. And if I do, it's very one-off things, like "Oh, go through this NGINX log and grep a couple things out."
 
-**Adam Stacoviak:** \[00:40:04.19\] Yeah. So I mean mean if you're tricking your personal, for lack of a better term, pc out then trick away, and don't take the tools with you. Or don't feel like you have to. But you know, Jerod, a long time ago you said -- this must have been like four years ago, we were both upgrading operating systems at the same time, we happened to be getting new machines in the same timeframe, and I think you did just before me, and you were like "You know what - I'm not installing any extra stuff on this machine. I'm gonna keep it pristine... I'm using Terminal..."
+**Adam Stacoviak:** \[40:04\] Yeah. So I mean mean if you're tricking your personal, for lack of a better term, pc out then trick away, and don't take the tools with you. Or don't feel like you have to. But you know, Jerod, a long time ago you said -- this must have been like four years ago, we were both upgrading operating systems at the same time, we happened to be getting new machines in the same timeframe, and I think you did just before me, and you were like "You know what - I'm not installing any extra stuff on this machine. I'm gonna keep it pristine... I'm using Terminal..."
 
 **Jerod Santo:** Yeah.
 
@@ -550,7 +550,7 @@ I am a fan of only installing what you use, and I do appreciate a purge every on
 
 **Nick Janetakis:** So I use the regular, standard Vim, but Neovim 0.5 - it was a couple of years in the making, and I think one of the biggest features as far as I know is the built-in LSP support. So some of those nice things that you get from VS Code, like being able to do code complete, with really nice IntelliSense - functionality now is something you get with Neovim out of the box, without having to run an external LSP server, as far as I know.
 
-**Jerod Santo:** \[00:44:12.08\] Gotcha.
+**Jerod Santo:** \[44:12\] Gotcha.
 
 **Nick Janetakis:** It's now built into the editor as maybe a core plugin, or something like that.
 
@@ -618,7 +618,7 @@ So you can just start typing a command -- let's say you have long git command, o
 
 **Nick Janetakis:** Well, you might use grep to grep through a file to filter out some content of the file, like if you're looking for specific log entries or whatever. This is more just like "Show me commands I've run in the past without me having to type in the start of the command, or whatever." Just like opening a file with a couple of characters... Like if you're opening up your mix.exs file or something like that, you can just type in like ix or something, and hit Enter.
 
-**Jerod Santo:** \[00:48:18.07\] Yeah.
+**Jerod Santo:** \[48:18\] Yeah.
 
 **Nick Janetakis:** That's a bad example, because it's such a short file name in the root of the project anyways, but you get the idea.
 
@@ -668,7 +668,7 @@ Exa does have tree view built in. So there you go - if you install exa...
 
 **Adam Stacoviak:** Yeah. Why would you not do that, basically?
 
-**Break**: \[00:52:17.29\]
+**Break**: \[52:17\]
 
 **Jerod Santo:** So next step we have man... Good old man pages, versus tldr, which is probably the best name for a modern Unix tool out there. Definitely not a one-to-one replacement for man, but trying to do something slightly different. And this project admits that we all love man pages, but we don't actually love the contents of the man pages, because many of them are old, not well-written, barebones perhaps, terse, don't have any examples... And tldr is kind of a new take on an old idea, mostly focused around "Hey, let's provide some examples." I think they actually use tar as the one that says "Well, what if we just showed you a bunch of ways you can use tar and what that does?" That's better than reading through a man page, which --
 
@@ -684,7 +684,7 @@ This tldr is a collaborative thing, which is cool... So it's not just gonna be t
 
 **Nick Janetakis:** Very cool. That's interesting though... So when you run the command and search through it, is it actually doing a network of requests out to somewhere, or is it all installed locally? Would you need to get a new build to get the new information that's contributed by the community?
 
-**Jerod Santo:** \[00:56:13.18\] Great question. I just ran tldr tar, and it says "Local data is older than two weeks. Use --update to update it." So it sounds like it will cache locally probably the first time you run it, and then you have to manually go out and grab whatever is new. I don't think you have to update tldr itself. It probably just has some sort of source for the information that it caches and greps from, so...
+**Jerod Santo:** \[56:13\] Great question. I just ran tldr tar, and it says "Local data is older than two weeks. Use --update to update it." So it sounds like it will cache locally probably the first time you run it, and then you have to manually go out and grab whatever is new. I don't think you have to update tldr itself. It probably just has some sort of source for the information that it caches and greps from, so...
 
 **Nick Janetakis:** Yeah, it's a good way to go about t.
 

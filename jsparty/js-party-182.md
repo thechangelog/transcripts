@@ -22,7 +22,7 @@
 
 **Nick Reese:** Yeah, so I've only been writing meaningful code for like three years, and it's kind of funny, because I never really identified as being a developer/coder anything like that prior to this. I've built several ICO companies and startups and had several exits... Essentially, I have to have something to do with my time, and I find building out useful websites for consumers is kind of where I spend that. I built a static site generator for fun, and it kind of grew into something I decided to open-source and that has meaningful usage in the world. It's kind of strange, because I've never had my code critiqued; it works, that's what I know... And it feels a little strange to imagine people picking through my code and saying "Oh, this could be more efficient" or whatnot, but everyone has some of that.
 
-**Jerod Santo:** \[00:04:01.01\] Yeah, absolutely. Well, congratulations on the success. Sometimes just the confidence to put it out there is what it takes to overcome that feeling of "This is not good enough to open up or to release", and being willing to face the fire of a bunch of fellow nerds poking and prodding and saying "Why did you do this? Why did you do that? You shouldn't have done this, you shouldn't have done that." Sometimes that's the scary thing. But you've got past that, and you've got some people interested, so that's a cool thing.
+**Jerod Santo:** \[04:01\] Yeah, absolutely. Well, congratulations on the success. Sometimes just the confidence to put it out there is what it takes to overcome that feeling of "This is not good enough to open up or to release", and being willing to face the fire of a bunch of fellow nerds poking and prodding and saying "Why did you do this? Why did you do that? You shouldn't have done this, you shouldn't have done that." Sometimes that's the scary thing. But you've got past that, and you've got some people interested, so that's a cool thing.
 
 **Nick Reese:** Yeah, it's been fun. It's been really enjoyable to have actual feedback to my code. Before this, essentially, my team would just commit my code because I was the boss. And now, seeing people using my code because it's actually useful, it's pretty nice... \[laughter\] So yeah, it's definitely a flip of the tables. I've never really had code review, so it's cool to see other people reviewing my code, and say how things can be more efficient. It's a nice feedback loop to improve.
 
@@ -46,7 +46,7 @@ So I love to see folks coming to coding late in their careers, or midway in thei
 
 I've always been a really big fan of really tiny teams, like more than seven people. None of my companies should be larger than that, because if you can't do that, suddenly your communication explodes exponentially. You have politics, you have everything else... And for me, I like to move fast. If I'm the bottleneck and my typing speed is the bottleneck, that's generally what matters to me, and that's the reason why I've been attracted to developing in general.
 
-**Kevin Ball:** \[00:08:01.13\] Yeah, prototypes even are one of the most effective ways to communicate an idea. Can you create a prototype that shows what you have in mind? For me as well, doing that in code is way faster than trying to do that in some sort of GUI tool or some other thing.
+**Kevin Ball:** \[08:01\] Yeah, prototypes even are one of the most effective ways to communicate an idea. Can you create a prototype that shows what you have in mind? For me as well, doing that in code is way faster than trying to do that in some sort of GUI tool or some other thing.
 
 **Nick Reese:** I one hundred percent agree.
 
@@ -84,7 +84,7 @@ Just recently on a project we're building - I can talk about it later, but it's 
 
 **Jerod Santo:** Yeah.
 
-**Amal Hussein:** \[00:12:02.14\] So I think JavaScript frameworks have historically taken on a big burden when it comes to the orchestra of concerns. There's a lot of abstraction around multiple layers of user interactions that are just kind of simplified for developers, but it's really cool to see that y'all have taken it a step further with Elder. That's great.
+**Amal Hussein:** \[12:02\] So I think JavaScript frameworks have historically taken on a big burden when it comes to the orchestra of concerns. There's a lot of abstraction around multiple layers of user interactions that are just kind of simplified for developers, but it's really cool to see that y'all have taken it a step further with Elder. That's great.
 
 **Kevin Ball:** I feel like this is a trend that's going on right now in the JavaScript ecosystem. JavaScript for quite a while was all-in on the fragmentation, and many small packages, and all of these different pieces, and we're seeing more and more folks going the route that we saw in some other ecosystems, where it's like "No, we want end-to-end understanding of the system, because we can do these types of optimizations." We want sensible defaults that maybe you can configure. I'm thinking frameworks like Redwood trying to do this, I'm thinking toolchains like Rome trying to do this... We're seeing this idea -- and in the tech industry we do this all the time.
 
@@ -102,7 +102,7 @@ The nice thing about a software is you buy a hammer, it's a hammer. But with sof
 
 **Nick Reese:** Sorry to interject here - when I was writing Elder.js, I wanted to make sure plugins were essentially first-class citizens. So there's like an entire hook system that enforces what -- basically, Elder.js under the hood has a global scope everywhere, but there's like a hook system that doesn't allow you to change things that shouldn't be mutated on different hooks. What that allowed us to do is -- or the idea here was to basically make sure that plugins could be first-class citizens.
 
-\[00:16:09.23\] For instance, the number of times I've written resizing of images in order to do responsive images is just crazy. I think I've done it 4-5 times. But now, because plugins are a first-class citizen, I can just take that old code and basically put it into a plugin and now anyone can use it.
+\[16:09\] For instance, the number of times I've written resizing of images in order to do responsive images is just crazy. I think I've done it 4-5 times. But now, because plugins are a first-class citizen, I can just take that old code and basically put it into a plugin and now anyone can use it.
 
 That's what I love about what I've built there - all of my old tools that I have, of like hidden repositories that aren't public, I'm slowly peeling them off and making a little ecosystem for Elder.js, because now they have a place. Just a standalone package that resizes all your images doesn't really -- you know, that's cool, there's lots of those, and most people would reach for something like Sharp in the JavaScript ecosystem to resize stuff. But by having it as a part of the Elder.js ecosystem, you can now use it if you're using Elder.js's static site generator, or if you're using -- you can use the same code if you have a dashboard where you're uploading images for an internal by your team, you can still use that on an Elder site. So it's kind of nice to be tightly coupled, simlar to how Apple controls the hardware and the software. It's really nice, I really enjoy that.
 
@@ -120,7 +120,7 @@ So that's the main reason why I went all-in on SEO for Elder.js. Does it do anyt
 
 **Amal Hussein:** You know, "Love of JavaScript may cause using too much JavaScript to do all things."
 
-**Jerod Santo:** \[00:19:56.17\] Right. Sleepiness, drowsiness...
+**Jerod Santo:** \[19:56\] Right. Sleepiness, drowsiness...
 
 **Amal Hussein:** Sleepiness, drowsiness, too much JavaScript...
 
@@ -144,7 +144,7 @@ So that's the main reason why I went all-in on SEO for Elder.js. Does it do anyt
 
 **Nick Reese:** Yeah, it was really surprising to me to find that there wasn't a single framework that really allowed you to just serve static JavaScript, or just static HTML, that was generated by JavaScript. You had to have all this client whiz-bang. You had to have full hydration, you had to have a service worker, you had to have all this stuff. And debugging service workers because you're having SEO issues is not fun. That was an issue that we had that was the closest thing that we could point to when we had issues with Gatsby - they made a major change to the default service worker, and we just had to rip out the service worker in order to do it. It seemed like everything was overkill, and I decided to spend an afternoon building my own little framework, and it worked, but then it started growing... And you know how those things go.
 
-**Break**: \[00:21:41.17\]
+**Break**: \[21:41\]
 
 **Jerod Santo:** So Nick, let's just answer the question that's burning on everyone's mind right now - why Elder.js? Do only old people use this thing? What's with the name?
 
@@ -156,7 +156,7 @@ So that's the main reason why I went all-in on SEO for Elder.js. Does it do anyt
 
 **Jerod Santo:** I'll give you this - it certainly has attributes of a good name. It's easy to say out loud and to spell. So if I say it, you can spell it, so you can get there. There's no namespace clashes on Elder. It's two syllables... It's kind of a good name, actually. And I did notice that you do have the docs on your ElderGuide.com site, and I thought "This guy knows his SEO", because that's actually a nice marketing move, to put the docs right there.
 
-**Nick Reese:** \[00:24:06.14\] Yeah. Also, I think as a user, going to it - I've gotten the feedback a couple of times that people are like "What is this site?" and then it hits them, that this is like a very meta thing, because you're on the site that was generated by this tool. And I like that effect of it as well.
+**Nick Reese:** \[24:06\] Yeah. Also, I think as a user, going to it - I've gotten the feedback a couple of times that people are like "What is this site?" and then it hits them, that this is like a very meta thing, because you're on the site that was generated by this tool. And I like that effect of it as well.
 
 **Amal Hussein:** All the good puns too, right? Respect your elders... There's just so many --
 
@@ -206,7 +206,7 @@ So that's the main reason why I went all-in on SEO for Elder.js. Does it do anyt
 
 **Nick Reese:** Yeah, it's a great question. So before this, I ran several SEO companies, and all the way back -- basically I have said that SEO has paid the bills since I've had bills to pay. 2006 is when I built my first website. Obviously, it was on WordPress. I scale that company into having hundreds of websites built on Wordpress, and what we've found is when we had many different developers working on it, we generally just hired freelancers. It was really easy for a WordPress install to get pretty gnarly pretty quickly. So what we did is we chose a single template that had its own custom-built hooks in it. It was called Thesis Theme. We've had all of our sites ported to Thesis, and all the complexity had to live in a hooks.php file. That was our rule. And it allowed us to basically use developers interchangeably.
 
-\[00:28:02.18\] So if one developer took a different job, we were able to hire someone else, and we knew all the complexity always lived in the hooks.php. And that philosophy allowed us to scale really well. I tried to do that with Elder.js. Essentially, Elder.js started as a static site generator; it still can be an SSR framework, but right now, us as a company, we use it as an SSR framework, but most people are interested in the static site generation side of things.
+\[28:02\] So if one developer took a different job, we were able to hire someone else, and we knew all the complexity always lived in the hooks.php. And that philosophy allowed us to scale really well. I tried to do that with Elder.js. Essentially, Elder.js started as a static site generator; it still can be an SSR framework, but right now, us as a company, we use it as an SSR framework, but most people are interested in the static site generation side of things.
 
 One of the main things that I wanted here was hooks. And you can plug in any part of the page generation process or the build process and fully customize it. You can also disable almost all the features that Elder.js offers for you and plug in your own.
 
@@ -236,7 +236,7 @@ Does it get annoying for users that there's so much opinion though, I'm curious.
 
 **Nick Reese:** My goal in writing Elder.js was to have the framework get out of your way... And anytime you make that decision, you trade that for complexity upfront of learning the framework. So I actually think it's worse when you pick up a framework that's too easy to pickup, it's super-easy to pick up, but it has opinions that you can't change. So I would say that yes, Elder.js does have a learning curve. But it's gonna get out of your way if you need to customize something.
 
-\[00:32:04.20\] Astro has gotten a lot of exposure recently for doing partial hydration across Svelte, Vue and React... But when I look at their model, I'm concerned that if I wanna do anything that's against them, I'm gonna run into errors and issues. So when I look at Elder.js, I know that I can customize every part of the flow, or the users can customize every part of the flow. They can disable everything that Elder.js does internally, and write their own, or they can augment it as they please. So yes, there's a steeper learning curve, but I think with that learning curve comes power.
+\[32:04\] Astro has gotten a lot of exposure recently for doing partial hydration across Svelte, Vue and React... But when I look at their model, I'm concerned that if I wanna do anything that's against them, I'm gonna run into errors and issues. So when I look at Elder.js, I know that I can customize every part of the flow, or the users can customize every part of the flow. They can disable everything that Elder.js does internally, and write their own, or they can augment it as they please. So yes, there's a steeper learning curve, but I think with that learning curve comes power.
 
 **Amal Hussein:** Yeah. I think that's what's really cool here, actually - both the open and closed design, and the open architecture that you've built with these plugins and "hooks". It's just a good way to write software, because it's infinitely extensible... So yeah, kudos on that.
 
@@ -266,7 +266,7 @@ Does it get annoying for users that there's so much opinion though, I'm curious.
 
 **Kevin Ball:** Got it. So I guess part of what I'm trying to understand is -- so for a small team and small projects, or small team and large projects even, but for a small team, having everything in one place where you're continually working with global things is great, and it makes a ton of sense. And I'm trying to understand whether Elder.js is essentially limited to that type of project environment, or if it's something that can scale to larger teams, where being able to isolate segments of the site, segments of the codebase, and apply locally-scoped things.
 
-\[00:35:56.04\] It sounds like I'm hearing if I wanted to create that type of isolation, for example, I have two independent teams that are working on different parts of the site, and the want to be able to do local applications of changes via hooks, or something like that. It sounds like what they would need to do is structure -- either they're both working in the same file and having to think about the interactions, or they're structuring those local changes as plugins, so that they're entirely scoped.
+\[35:56\] It sounds like I'm hearing if I wanted to create that type of isolation, for example, I have two independent teams that are working on different parts of the site, and the want to be able to do local applications of changes via hooks, or something like that. It sounds like what they would need to do is structure -- either they're both working in the same file and having to think about the interactions, or they're structuring those local changes as plugins, so that they're entirely scoped.
 
 **Nick Reese:** Exactly.
 
@@ -290,7 +290,7 @@ Another thing is under the hood Elder.js has several different debug flags. So i
 
 One of the things I'm most proud of is the partial hydration. Essentially, when you're going to hydrate a component, in just about any framework, you have to del with what the server rendered, and then you have to take those same props and then mount another component on a target div or element... And that's a really tedious process, and it's really surprising to me that none of these frontend frameworks - when you do server-side hydration, they just don't give you the hydration code right away; it's very surprising to me that -- like, when you pass it into the server-side object, we don't care about the bundle size that much of the server-side object; just pass me back the client-side code. All I need to do is pass in the folder structure. So that's where Elder.js kind of started... And now, if you need a hydrated component, you just go into one of your Svelte server files, you type "hydrate-client", and all those props will be hydrated under the hood for you automatically, really makes the islands approach, so to speak, or this modular "I'm only gonna hydrate what needs interactivity." Incredibly easy to do.
 
-**Break:** \[00:40:05.10\]
+**Break:** \[40:05\]
 
 **Kevin Ball:** So I'd love to dig a little bit more into what you're talking about in terms of hydration. I'm not super-familiar with the islands approach you're referencing, so maybe a little bit of a high-level explanation of what that is... But the key problem that I have seen across a number of frameworks that do server-side rendering plus client-side hydration is what's sort of the Uncanny Valley effect, where the user sees the page, it looks as though it should be able to be interactive, but there's a second, two seconds, sometimes even three or four seconds before they can actually interact with the page; clicking or hovering does not have effect in the way they'd expect. So I'm curious, one, if that's a problem within Elder.js, and if not, how you resolved it.
 
@@ -298,7 +298,7 @@ One of the things I'm most proud of is the partial hydration. Essentially, when 
 
 As far as the input delay, or the interactivity that's not there - how we've approached it on Elder.js is currently all components use an intersection observer. So on body load, it triggers an intersection observer that allows you to - you know, essentially, when you scroll into view, it mounts the component. Now, on Elder.js next what we do is we have a requestIdleCallback as the default, so now it's essentially going to -- whenever your browser's not doing anything, it's going to be hydrated. But you can override all of those features by just saying - hydration options is very clearly spelled out in the documentation... You can do it the moment the page is loaded, it can be preloaded... You can do all these different things. The assets can be preloaded. The JavaScript can be so it executes faster. In general, Svelte components mount pretty quickly, and if you're mounting very large Svelte components, what we're doing on FindEnergy - they need a lot of data; it can be a little bit slower if you're using that prop compression idea that I had suggested. In my experience, that can be like 36 milliseconds or something like that, on really major amounts of data; sometimes a bit higher on slower browsers, but in general, I haven't seen any input delay issues. And if you see them, please let me know, because I'd love to troubleshoot those.
 
-**Jerod Santo:** \[00:43:49.12\] So a couple of other things as we're winding down here... But I think these are important. Production, installations and stability. So one thing that we're all aware of in the JavaScript space is how fast everything moves and changes. And one thing that caught my eye about Elder - you say it right there on the homepage - is that stability is a priority for you.
+**Jerod Santo:** \[43:49\] So a couple of other things as we're winding down here... But I think these are important. Production, installations and stability. So one thing that we're all aware of in the JavaScript space is how fast everything moves and changes. And one thing that caught my eye about Elder - you say it right there on the homepage - is that stability is a priority for you.
 
 **Nick Reese:** Basically, I'm committed to funding or personally developing the site until 2023 or 2024. As long as I have sites that are in production that are running on it, it's going to be maintained. That's essentially the reality of it. Today I essentially run a -- you could call it a startup studio, where I make several different investments in different sites, and I have different projects that all run on Elder.js... And I don't see that ending any time soon, because some of these projects are starting to get substantial traction. As soon as the projects are self-sustaining, someone's gonna be hired to maintain Elder.js full-time. That's my goal.
 
@@ -314,7 +314,7 @@ It's working... And I built it for my own needs, and I'm sharing it because I wa
 
 For me, on the different sites, it's like - having control of something and adding features based on my experience is really useful. Something we haven't touched base on is shortcodes. I think shortcodes -- I'm just very surprised they're not popularized in the JavaScript community. When you have static content, and you have a team that's managing static content, they don't wanna touch code, and you don't wanna have to interface with that team, you just wanna empower them. And shortcodes are a fantastic way to future-proof content. Instead of embedding a YouTube embed 50 different times, 50 different embeds, you just copy that off of YouTube, you can create one shortcode, and then when your content team needs to put out a video, they use that shortcode, and suddenly YouTube changes the embed code; you change it in one place. It future-proofs your content.
 
-\[00:47:58.28\] For me, Elder.js is always going to have the things that we need to build flagship SEO sites... Because we need them. And I see no downside to open-sourcing it, because SEO is a hard game. If other teams start adopting this framework - great. I hope they contribute to it. And to be 100% honest, one of the other driving factors for releasing Elder.js is hiring is really hard. Hiring talented developers is hard, and if you have people who are picking up a cutting edge framework and they're using Svelte, and they're kind of at the bleeding edge, you have passionate people. When I'm in the hiring seat, so to speak, it's a lot harder to see if someone's really passionate. But already, I'm hiring people out of the Svelte community because they are passionate; they're using Elder.js, they know Svelte... And I'm looking for people that have diverse backgrounds. One guy is amazing at huge datasets. Can he pick up Svelte and Elder.js? He picked it up super-fast.
+\[47:58\] For me, Elder.js is always going to have the things that we need to build flagship SEO sites... Because we need them. And I see no downside to open-sourcing it, because SEO is a hard game. If other teams start adopting this framework - great. I hope they contribute to it. And to be 100% honest, one of the other driving factors for releasing Elder.js is hiring is really hard. Hiring talented developers is hard, and if you have people who are picking up a cutting edge framework and they're using Svelte, and they're kind of at the bleeding edge, you have passionate people. When I'm in the hiring seat, so to speak, it's a lot harder to see if someone's really passionate. But already, I'm hiring people out of the Svelte community because they are passionate; they're using Elder.js, they know Svelte... And I'm looking for people that have diverse backgrounds. One guy is amazing at huge datasets. Can he pick up Svelte and Elder.js? He picked it up super-fast.
 
 So part of it for Elder.js - it's a way of hiring for me. It's also a way of casting that net, because hiring is expensive and hard. Finding good people is really what makes a difference in a business. So there's a lot of motivating factors for me to continue maintaining it.
 
@@ -330,7 +330,7 @@ In some cases there was one user that was testing Elder.js against Hugo, and we 
 
 **Nick Reese:** Definitely. A good example is that I've worked with the same HTML/CSS guy for years. He knows some JavaScript, and he picked up Vue... He's been someone that I've worked with for a long time, and I was like "Hey, try this out. Tell me what you think." He's like "I can do things that I never thought I could do." Giving people superpowers allows a small team to move much faster, and I think Svelte does that in a way that I didn't see in the Vue or React ecosystems.
 
-\[00:52:08.27\] So yeah, you don't have the huge libraries, you don't have React Table or any of these other major libraries, but building a table interface is an hour work. It's not that hard to make your own reusable components. We haven't been limited by that at all. In a lot of ways -- we also probably ship a lot less JavaScript, because we write it all in-house.
+\[52:08\] So yeah, you don't have the huge libraries, you don't have React Table or any of these other major libraries, but building a table interface is an hour work. It's not that hard to make your own reusable components. We haven't been limited by that at all. In a lot of ways -- we also probably ship a lot less JavaScript, because we write it all in-house.
 
 **Jerod Santo:** Very cool. Well, we have to wrap here. Of course, listeners, all the links to all the things, ElderGuide and Elder.js, and any other links that Nick gives -- I'm sure he'll give us a bunch, because he's the SEO guy... So we'll link them up in the show notes for you guys to click through on.
 
@@ -340,7 +340,7 @@ Nick, we really appreciate you coming on the show, we appreciate you kicking you
 
 **Nick Reese:** Thanks for having me. It's been a blast.
 
-**Outro**: \[00:53:35.24\]
+**Outro**: \[53:35\]
 
 **Kevin Ball:** I 100% talk to my code.
 
@@ -366,7 +366,7 @@ Nick, we really appreciate you coming on the show, we appreciate you kicking you
 
 **Jerod Santo:** Hah! Okay...
 
-**Break**: \[00:55:04.27\]
+**Break**: \[55:04\]
 
 **Jerod Santo:** Break right here? Break. That was a great ending to the thing. You know how these things go...
 

@@ -22,7 +22,7 @@ Let's talk about Apple News+, because this is something that -- I don't know, do
 
 Recently I watched a minimalism video from a guy on YouTube named Matt D'Avella; shout-out to Matt if he's listening... If you're a listener, that's awesome. But he was like, "Here's how you make your phone not distract you, basically." So at his advice, I took that and removed that and other things from your swipe left... So long story short - I used to.
 
-**Jerod Santo:** \[00:04:11.20\] The big difference now from the previous Apple News... "Long story short, I used to..." \[laughter\] I like how you like to give the long story, and then you give the TL;DR.
+**Jerod Santo:** \[04:11\] The big difference now from the previous Apple News... "Long story short, I used to..." \[laughter\] I like how you like to give the long story, and then you give the TL;DR.
 
 **Adam Stacoviak:** That's right, yeah.
 
@@ -40,7 +40,7 @@ Recently I watched a minimalism video from a guy on YouTube named Matt D'Avella;
 
 **Jerod Santo:** A couple of things there, maybe on the production or the business side, as well as a little bit on the developer side... So I do wonder how as a creator, like if you think you're working for Wired Magazine, how the actual production of these magazine assets that get shipped into the news app work, and if they're going to be very similar to whatever the spread that you would do for the magazine itself, like the layout there, and the artwork, and all that... Obviously, they have more stuff because it's digital, and the part that you liked was the live covers, where they have this Parallax effect, there's video integration... It's kind of this idea of rich media experience, which Apple has been kind of promoting for years now, even with the iBooks author, and with their iBooks... None of it has really -- I don't know, it hasn't been like a huge hit. I think it's solid...
 
-\[00:08:10.11\] I know there's lots of people who have complained about how it's difficult to produce good iBooks using the iBooks authoring tooling, and all that... I just wonder how that works with Apple News magazines for the people who are putting those things together, and then also how Apple is going about the personalization and the curation, because because of the privacy thing, they're saying "Hey, we don't know what you're reading. We don't let advertisers track anything in Apple News, but it is personalized and it is curated based on your likes", so how do they accomplish that? And it sounds like that on-device machine learning, where everything is localized, it never hits their servers - which they've started doing I think in iOS 11, or at least promoting it back then... And it seems like it's working.
+\[08:10\] I know there's lots of people who have complained about how it's difficult to produce good iBooks using the iBooks authoring tooling, and all that... I just wonder how that works with Apple News magazines for the people who are putting those things together, and then also how Apple is going about the personalization and the curation, because because of the privacy thing, they're saying "Hey, we don't know what you're reading. We don't let advertisers track anything in Apple News, but it is personalized and it is curated based on your likes", so how do they accomplish that? And it sounds like that on-device machine learning, where everything is localized, it never hits their servers - which they've started doing I think in iOS 11, or at least promoting it back then... And it seems like it's working.
 
 The question was, you know, Google's fashion of personalization, which is ship everything off to Google servers, that's where the best machine learning can happen, because they know the most about you... And then ship the answers back - versus Apple's style. The question was "Can Apple actually deliver quality curation with on-device only machine learning, versus having this huge amount of knowledge about you?" I'd say so far it seems like they're doing a pretty good job of it.
 
@@ -58,7 +58,7 @@ I would say Apple News has pretty much done a good job of recommending things th
 
 **Jerod Santo:** A12 Bionic, I've found it. The smartest, most powerful chip in the smartphone. It has a built-in neural engine etc. full-on chip, and it's really focused on those particular CPU-heavy tasks... Yeah.
 
-**Adam Stacoviak:** \[00:12:01.29\] This is interesting about Apple - they wanna be a privacy-focused company, as a brand... But it requires, in their case, the way they deliver products, particular hardware, and in this case technological breakthroughs, in this kind of device, to have that many chips and that much smarts behind a smartphone. Without this technology enhancement, they couldn't be - well, I'm sure they could be, but they would just be a little further behind - the company they wanna be. So on the iPhone, on the iPad - each was there. Now, what I didn't hear was how that affects Apple TV... Because I'm not sure what Apple TV has for machine learning, or this other stuff; so it wasn't a case played there, but they mentioned of the Apple Arcade, where... Hey, I just wrote "privacy" again, and I'm like "No... Hey, this is the third time we're hearing about privacy." Third new thing, third time they mention privacy as a feature... You know, you're just seeing this marriage of a company's desire, and it requires hard work, it requires technology advancements, it requires a particular perspective when it comes to respecting your customer, too.
+**Adam Stacoviak:** \[12:01\] This is interesting about Apple - they wanna be a privacy-focused company, as a brand... But it requires, in their case, the way they deliver products, particular hardware, and in this case technological breakthroughs, in this kind of device, to have that many chips and that much smarts behind a smartphone. Without this technology enhancement, they couldn't be - well, I'm sure they could be, but they would just be a little further behind - the company they wanna be. So on the iPhone, on the iPad - each was there. Now, what I didn't hear was how that affects Apple TV... Because I'm not sure what Apple TV has for machine learning, or this other stuff; so it wasn't a case played there, but they mentioned of the Apple Arcade, where... Hey, I just wrote "privacy" again, and I'm like "No... Hey, this is the third time we're hearing about privacy." Third new thing, third time they mention privacy as a feature... You know, you're just seeing this marriage of a company's desire, and it requires hard work, it requires technology advancements, it requires a particular perspective when it comes to respecting your customer, too.
 
 **Jerod Santo:** Absolutely. Let's put a bow on the Apple News+ discussion with saying a little bit more -- well, we've got some answers here, but there's some open questions, especially on the production side. Is this good or bad for journalists, for newspapers, for magazine companies, on the long run? We're not sure. There's been talk that maybe Apple was forcing a 50% take. It's a $10/month subscription and it's gonna divvy out based on how much time you spend reading these particular publications; you know, who gets what kind of money, is this gonna work out well, is it gonna save journalism, is it gonna squash journalism?
 
@@ -76,7 +76,7 @@ We've seen this before with Facebook and instant articles a couple years back. T
 
 **Jerod Santo:** Yeah. Here's why it might get me... I'm not excited about the magazines, I don't think I would really read them. I do like to flip through a magazine every once in a while, but I read their websites; I like Wired.com, for example. That being said, I had almost considered subscribing to the Wall Street Journal a few times this last (maybe) 18 months, where they just -- I've been linked to them enough times where I'm like, "Man, maybe I should just subscribe to this", because it'll have a lot of the synopsis, and you can read the takeaways, but the details are behind a paywall... So I've almost subscribed to the Wall Street Journal. And if I get that for free as part of this, bundled into that, for $10 plus all the other stuff, plus it's an easy one-click, added to my subscriptions - hm, I might give it a shot.
 
-**Adam Stacoviak:** \[00:16:24.22\] Maybe.
+**Adam Stacoviak:** \[16:24\] Maybe.
 
 **Jerod Santo:** So Apple Pay - the big news with the new Apple Pay stuff is Apple Card. Apple Pay, they give a bunch of stats - 10 billion transactions this year, so it seems like it's gaining adoption. 70% merchant penetration in the United States. Not quite as good (I don't believe) in Canada, but there's some places where it integrates much better with their current infrastructure. It has even better than that penetration... But they're adding their own Apple Card, which is a collaboration with Goldman Sachs on the back-end... This card is pretty compelling. What do you think?
 
@@ -116,7 +116,7 @@ We've seen this before with Facebook and instant articles a couple years back. T
 
 **Jerod Santo:** Who knows...? This is the inner machinations of large corporations, and who knows how certain deals go down and why. You can go back to the iPhone and say "Well, why did it roll out on AT&T and not on Verizon back in the day, and the reason was because Verizon wouldn't bend, and AT&T would, so Steve Jobs got his way. Why is it Mastercard and not Visa? Who knows... I don't know. Maybe for that exact reason; maybe Visa wouldn't bend, Mastercard would. That being said, having an Apple card would be cool, but Mastercard - everyone's got one of those.
 
-**Adam Stacoviak:** \[00:19:57.00\] Maybe it's something that everyone can really identify with, is when you read your credit card statement, and you're like "What the heck is that?" They're using machine learning in their Apple Maps to reduce the obfuscation of their merchant names, which is like "Hey, this is literally the 7-Eleven on the corner" versus whatever it might be...
+**Adam Stacoviak:** \[19:57\] Maybe it's something that everyone can really identify with, is when you read your credit card statement, and you're like "What the heck is that?" They're using machine learning in their Apple Maps to reduce the obfuscation of their merchant names, which is like "Hey, this is literally the 7-Eleven on the corner" versus whatever it might be...
 
 **Jerod Santo:** \[event audio playing in the background\] Whoops... I just reloaded the event, without intention. Sorry.
 
@@ -150,7 +150,7 @@ We've seen this before with Facebook and instant articles a couple years back. T
 
 **Adam Stacoviak:** Well, I think the accessibility definitely is good credit, I would imagine.
 
-**Jerod Santo:** \[00:24:02.13\] Yeah, that's true. One thing to talk about is how do they actually give the percentage, what's the interest rate? They didn't talk about any of that. It's just based on your credit, right?
+**Jerod Santo:** \[24:02\] Yeah, that's true. One thing to talk about is how do they actually give the percentage, what's the interest rate? They didn't talk about any of that. It's just based on your credit, right?
 
 **Adam Stacoviak:** Yeah, they didn't say interest rate at all.
 
@@ -182,7 +182,7 @@ I guess you wouldn't know that you're using an Apple Card unless you're using th
 
 **Jerod Santo:** I think you could. I don't think you could extract all the information that is on the card, but I think you could -- I mean, there has to be devices that can read the chip, right? That's what all these devices are. So you would have your own hardware that would be able to read whatever the chip is there to display. Now, I know there's \[unintelligible 00:27:13.27\] and there's one-time use codes that happen with these transactions, so... I'm not sure exactly how much you could get off, if you could replay it, those kinds of things; I know that they're way more secure than they used to be, than the swipe... Because the swipe was really just an obfuscated number, basically... Whereas these chips - there is a live communication back and forth on the payment network, with unique, one-time use strings and whatnot... Which is why they were slow at first, because it's like, "Well, you're at a Kwik-E-Mart, with a dial-up connection to a thing, and it's gotta go back and forth five times..." They've started to make that process much faster. I don't know the technology behind it, but I'm pretty sure if you have hardware access to it, plus your own -- like, you're a cracker who has means and you have your own hardware, I think you could probably get at whatever information is necessary.
 
-**Adam Stacoviak:** \[00:28:08.18\] I guess the good thing though is that it is just that one thing on the card, aside from your name. So your name plus that chip is the only thing that sort of identifies this Apple Card as different from yours and mine. The difference is the name and the chip...
+**Adam Stacoviak:** \[28:08\] I guess the good thing though is that it is just that one thing on the card, aside from your name. So your name plus that chip is the only thing that sort of identifies this Apple Card as different from yours and mine. The difference is the name and the chip...
 
 **Jerod Santo:** Right.
 
@@ -252,7 +252,7 @@ I guess you wouldn't know that you're using an Apple Card unless you're using th
 
 **Adam Stacoviak:** That's right.
 
-**Jerod Santo:** \[00:32:08.16\] But it is cool it's being added to transit, especially if you're trying to get onto the subway real fast, and you've just got your watch on... And it's not like someone's standing there watching you, and it's socially awkward; it's just faster and easier. I think that's cool.
+**Jerod Santo:** \[32:08\] But it is cool it's being added to transit, especially if you're trying to get onto the subway real fast, and you've just got your watch on... And it's not like someone's standing there watching you, and it's socially awkward; it's just faster and easier. I think that's cool.
 
 **Adam Stacoviak:** What's cool too is Portland and Chicago and New York City - these are the places they're launching in in the U.S. These are all cities that their inner cities totally rely upon public transit like that... So you've got lots of people probably wasting lots of time recharging, charging, getting new cards...
 
@@ -280,7 +280,7 @@ So Apple has come out and said "We are backing the development", so they're actu
 
 **Jerod Santo:** I've got Stardew Valley in my head; that's a game on Nintendo Switch... Or Alto's Adventure. Games like these. But it's just gotten harder and harder with so many -- they said 300,000 games in the App Store? And so much riskier. Pretty much coming out with an awesome game, putting two years of your life into it, and charging $4.99 on the App Store - that worked back in 2010 and 2011, but it just doesn't work anymore. There's way too much risk. These are like starving artists, the people who continue to invest in the platform and do these amazing games...
 
-\[00:36:09.24\] So it's really cool that Apple has taken the risk off of the developers, and hopefully they're financing them upfront, as they work on these things. I think it's going to really leave a -- I don't know if "legacy" is the right word, but it's gonna produce a lot of these awesome games, and I'm super-excited for that.
+\[36:09\] So it's really cool that Apple has taken the risk off of the developers, and hopefully they're financing them upfront, as they work on these things. I think it's going to really leave a -- I don't know if "legacy" is the right word, but it's gonna produce a lot of these awesome games, and I'm super-excited for that.
 
 **Adam Stacoviak:** Also playable offline too, which is kind of getting into some of the features part of it. No ads, no other purchases are required, as you mentioned, playable offline... So you don't have to be connected to the internet to play. I assume you can do that. It's like airplane mode. "Hey, I'm in airplane mode. I can't play this game because it requires some sort of communication."
 
@@ -318,7 +318,7 @@ Privacy, again, was in the feature set. I don't know what they said about that, 
 
 I think they're gonna not only make more money as game developers, they're also gonna be having, I believe, more people playing their games than are now, which ultimately as an artist that's what you want - people benefitting from your work.
 
-**Adam Stacoviak:** \[00:40:38.18\] Right. What I see happening here is Apple now developing subscription services around marketplaces. That's what they did with News - it's a marketplace (for a lack of better terms) for distributing and consuming news; now they layered on a subscription to it. Same thing with Arcade. Arcade is essentially a subscription service laid on top of the existing app store, which was a marketplace. Same thing with Apple TV is happening there... I think that's an interesting business model to establish a platform, a marketplace, and then find ways to curate the best of the best, and in this case in particular, potentially back the best, or back the best like they're doing here. We haven't really talked about Apple TV+ yet, but that's the same thing they're doing there - they're literally throwing lots of money into this.
+**Adam Stacoviak:** \[40:38\] Right. What I see happening here is Apple now developing subscription services around marketplaces. That's what they did with News - it's a marketplace (for a lack of better terms) for distributing and consuming news; now they layered on a subscription to it. Same thing with Arcade. Arcade is essentially a subscription service laid on top of the existing app store, which was a marketplace. Same thing with Apple TV is happening there... I think that's an interesting business model to establish a platform, a marketplace, and then find ways to curate the best of the best, and in this case in particular, potentially back the best, or back the best like they're doing here. We haven't really talked about Apple TV+ yet, but that's the same thing they're doing there - they're literally throwing lots of money into this.
 
 I think one piece that hasn't been underscored enough is exclusive - it's what they said about Apple Arcade; these are games you can't play anywhere else. This is content on the future Apple TV+ that you can't watch anywhere else.
 
@@ -332,7 +332,7 @@ I think it was pretty interesting, the fact that in traditional fashion, they di
 
 **Jerod Santo:** What's funny is I heard the description of the Morning Show - that's the show those three are doing on Apple TV+. I just heard the description a few weeks back, and I was like, "Meh. Okay." But then I saw Steve Carell and the two of them on stage - Reese Witherspoon and Jennifer Aniston - and I thought "I wanna watch this show. This is a show that I actually do wanna watch." I think for me at least it was effective as an advertising platform. For what these exclusive cultural things are, it looks like some pretty decent shows that they're putting together.
 
-**Adam Stacoviak:** \[00:44:27.18\] Yeah. The Morning Show reminded me of Newsroom, which was on HBO. Andrew Sorkin I believe it was... I don't know if that's his name or not, but Sorkin for sure is his last name.
+**Adam Stacoviak:** \[44:27\] Yeah. The Morning Show reminded me of Newsroom, which was on HBO. Andrew Sorkin I believe it was... I don't know if that's his name or not, but Sorkin for sure is his last name.
 
 **Jerod Santo:** But it's not Andrew.
 
@@ -396,7 +396,7 @@ I think it was pretty interesting, the fact that in traditional fashion, they di
 
 **Jerod Santo:** \[laughs\] Do not subscribe to this, or you won't have any time to write code. You will just be watching Oprah and Steve Carell, and these awesome shows, all day. You can't develop anything, you're right. I don't know...
 
-\[00:47:43.00\] You could split up the Apple TV announcements into what we've just talked about, which is the content, Apple TV +, and there's also the Apple TV software. On that side, we see a few things going on... Remember there's the Apple TV itself, the product, the hardware, which has the tvOS, so there's the OS on which the apps run... Then there's the Apple TV app that runs on that OS - that's confusing - and that's really where all the announcements in software happened today, was in the Apple TV app itself... And they're really remaking it, in a certain degree stealing a lot of ideas from Netflix, by the way, with the Skip Intro and the trailers right there as you scroll, those kinds of things... And they're expanding it beyond the Apple TV hardware. So coming soon the Apple TV app will be on your Roku, it'll be on your Samsun Smart TV, it'll be on your Amazon Fire TV Stick, which is very interesting.
+\[47:43\] You could split up the Apple TV announcements into what we've just talked about, which is the content, Apple TV +, and there's also the Apple TV software. On that side, we see a few things going on... Remember there's the Apple TV itself, the product, the hardware, which has the tvOS, so there's the OS on which the apps run... Then there's the Apple TV app that runs on that OS - that's confusing - and that's really where all the announcements in software happened today, was in the Apple TV app itself... And they're really remaking it, in a certain degree stealing a lot of ideas from Netflix, by the way, with the Skip Intro and the trailers right there as you scroll, those kinds of things... And they're expanding it beyond the Apple TV hardware. So coming soon the Apple TV app will be on your Roku, it'll be on your Samsun Smart TV, it'll be on your Amazon Fire TV Stick, which is very interesting.
 
 So there's some software side there... I'm not sure there's moves that developers can consider with regard to that, unless you're writing Apple TV apps, but...
 
@@ -422,7 +422,7 @@ You know, the natural thing here is that in order to launch this sort of Apple T
 
 **Jerod Santo:** Apple is starting to want a slice of that. Amazon wants that. And Facebook wants it. So they really are playing a zero-sum game across these different areas of our lives, and it doesn't seem like any of them are happy to only have your -- we're here to provide you the best mapping experience ever, and we're just happy being the best map, or we're here to be the best TV channel, or we're here to be the best operating system. It doesn't seem like any of the big players in our space -- they don't have any tact; they're going for the zero-sum "We want it all", and that's... That's interesting to watch. I do think it's problematic on the long-term, but it's interesting nonetheless.
 
-\[00:52:01.24\] And yeah, having the Apple TV app on an Amazon Fire TV Stick, you can't help but think "If I want access to all my Apple stuff, but I don't wanna spend 200 bucks on the Apple TV, why wouldn't I spend $20 or $30 on a Fire TV Stick and just use the app?" So it seems like in that regard they're kind of shooting themselves in the foot on their hardware sales, potentially...
+\[52:01\] And yeah, having the Apple TV app on an Amazon Fire TV Stick, you can't help but think "If I want access to all my Apple stuff, but I don't wanna spend 200 bucks on the Apple TV, why wouldn't I spend $20 or $30 on a Fire TV Stick and just use the app?" So it seems like in that regard they're kind of shooting themselves in the foot on their hardware sales, potentially...
 
 **Adam Stacoviak:** Well, I don't think so.
 
@@ -468,7 +468,7 @@ Now, the other thing with an Apple TV that we use a lot is - this is so cool; I 
 
 **Adam Stacoviak:** We get to spend the better part of an hour just re-sharing and re-enjoying those moments, and getting deeper into it. We were on the train at the zoo recently - I know this is going a little far, but this is super-cool... I pulled out my phone, recorded it, because I know we had fun in the moment, and it was too easy for me to stay engaged and be present; so I wasn't not engaged and not present because I was recording... I just held up my phone and got what we got, and when we got back to the house, I was like "Dang, we can actually re-ride this train", because I took the video of it, which was pretty cool.
 
-**Jerod Santo:** \[00:56:09.16\] How long was that video? Like 30 minutes?
+**Jerod Santo:** \[56:09\] How long was that video? Like 30 minutes?
 
 **Adam Stacoviak:** About two minutes. Two and a half minutes.
 
@@ -508,7 +508,7 @@ And then my last thought, talking about the Amazon Prime app, because we're just
 
 **Jerod Santo:** Yeah. And it says who he's playing. Sometimes it'll say the location where the scene was shot, stuff like that... So there's all this little extra information that they surface when you turn on the X-Ray. It's just a really neat feature. I don't know how they accomplish it actually, because it's gotta be metadata on maybe like a second-by-second basis, because it changes based on who's currently on camera. It's super-cool, check it out if you haven't yet.
 
-**Adam Stacoviak:** \[00:59:52.21\] I wonder if it's a second pass on like, just a point Because you do this -- it's called tracking whenever you're doing stuff in After Effects or whatever, you can mark an object and attach text to it, or an effect, or whatever; you can track a subject. So I would imagine, similar to the way they do camera technology, when you pull out your phone (even your iPhone), it's got facial recognition, it can recognize the faces. I would imagine there's probably some (like you said) metadata attached to that.
+**Adam Stacoviak:** \[59:52\] I wonder if it's a second pass on like, just a point Because you do this -- it's called tracking whenever you're doing stuff in After Effects or whatever, you can mark an object and attach text to it, or an effect, or whatever; you can track a subject. So I would imagine, similar to the way they do camera technology, when you pull out your phone (even your iPhone), it's got facial recognition, it can recognize the faces. I would imagine there's probably some (like you said) metadata attached to that.
 
 **Jerod Santo:** Well, that's one thing I was thinking at first - maybe there's metadata, but maybe there's facial recognition that's happening, computer vision, and when you pause it, it just scans the current image and matches them as fast as they can.
 

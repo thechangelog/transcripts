@@ -32,7 +32,7 @@
 
 **Gerhard Lazu:** So when I deleted the old token, because that's what it was in DNSimple, that just stopped working. So things broke.
 
-**Jerod Santo:** \[00:04:12.29\] I see.
+**Jerod Santo:** \[04:12\] I see.
 
 **Gerhard Lazu:** But it gets a bit more interesting than that. Apparently, there's two sets of tokens. There's one token which you get by user settings and the user access token, and those are the ones that we were looking at the last time, trying to figure out why is this token missing, where is the token. But there's also account automation tokens, which is another submenu in a different page. Those were the tokens that I couldn't find the last time; I confirmed that it was definitely not there, so I worked all that out.
 
@@ -76,7 +76,7 @@ So the ability to go back to it, which I now have scrolled back to it; it was Ju
 
 **Jerod Santo:** Now that you know how bad my memory is, you can just \[unintelligible 00:07:35.20\] that for me... I'm seeing some details here about it, and if I could click through somehow to Incident.io from the Slack incident, then I'm sure there'll be even more information. But in this particular channel, or maybe -- oh, here we go. I've gotta click through to the -- each incident gets its own channel; so there's the Incidents channel, and then the incidents get their own channel... Which I can come and go, and I could read all of the details here, I think. Yeah. So now I'm looking at this, it's kind of loading in, screenshots etc. So it's great for just outsourcing your memory, I think.
 
-**Gerhard Lazu:** \[00:08:14.15\] Yeah.
+**Gerhard Lazu:** \[08:14\] Yeah.
 
 **Jerod Santo:** And that's about what I would use it for.
 
@@ -126,7 +126,7 @@ I don't wanna spoil it too much, because the episode that soon follows we will b
 
 **Gerhard Lazu:** Yes.
 
-**Adam Stacoviak:** \[00:12:01.07\] So when something happens, you create an incident here, you summarize it, it asks you some questions, there's some interactive process that Incident integrates with Slack to let us use the Slack channel Incidents, the Incidents channel, as our pointer to all incidents that happen now or in the future.
+**Adam Stacoviak:** \[12:01\] So when something happens, you create an incident here, you summarize it, it asks you some questions, there's some interactive process that Incident integrates with Slack to let us use the Slack channel Incidents, the Incidents channel, as our pointer to all incidents that happen now or in the future.
 
 **Gerhard Lazu:** Correct.
 
@@ -154,7 +154,7 @@ So Alex added that and said "Hey, there's a bunch of other stuff that we can cut
 
 Now, the roll-out to that caused this incident, and it's all coming back to me... He had a typo in the production config, which of course it's only in prod... So none of our test environment runs it, in dev you're not gonna see it, in tests you're not gonna see it... And so I did all my due diligence except for in prod, and then we did our due diligence in prod when we deployed it, and everything broke. Now, this is pointing out this insufficiency in our deployment process, right Gerhard? Because this should have never went live. Is that right?
 
-**Gerhard Lazu:** \[00:15:52.10\] Yes. So first of all, I'd like to thank Charity Majors for coining and popularizing the term -- I'm not sure about coining, but definitely popularizing the term "test in prod." Like, until you test in prod, you're not really testing; you're pretending to be testing. I'm being facetious now, because it's not quite like that, but the listeners that know this slogan, where it came from, from Charity Majors, know what I mean.
+**Gerhard Lazu:** \[15:52\] Yes. So first of all, I'd like to thank Charity Majors for coining and popularizing the term -- I'm not sure about coining, but definitely popularizing the term "test in prod." Like, until you test in prod, you're not really testing; you're pretending to be testing. I'm being facetious now, because it's not quite like that, but the listeners that know this slogan, where it came from, from Charity Majors, know what I mean.
 
 To come back to Jerod's point - yes. This release should have never gone out, in the sense that when the new version came out, because it failed to boot, it should not have been put behind a service, because it was never ready. It would never boot. For some reason, it was, and even to this day, I didn't spend enough time on this to understand why that happened... Because the system in this case being Kubernetes should not have updated the new pod; it should not have put it behind the surface, because it was never healthy. It never booted long enough, it never started. Why it happened? I don't know.
 
@@ -170,7 +170,7 @@ Now, this actually affected only a subset of users. The CDN will serve stale con
 
 **Jerod Santo:** Yeah, exactly. So it's kind of like a degraded performance is what it becomes, because there's certain endpoints, certain pages, whether you're logged in or logged out, that don't work... And I think it was actually a redirect that we were used to having there was failing because of a 503 when it finally hits the app, and so for certain people - I think it was for signed in people only, which is like, you want your signed in users to have their best experience, but they actually get the worst... It was just down for them. So that's what happened, and of course, fixing that was paramount. But according to the world at large, we were still up.
 
-**Break:** \[00:19:30.12\]
+**Break:** \[19:30\]
 
 **Gerhard Lazu:** One of the other things that we improved since episode 10 were more redirects at the edge, specifically in Fastly. So now we have \[unintelligible 00:20:48.02\] redirects in Fastly, and things happen very quickly, rather than going all the way to our app. HTTP to HTTPS redirects, which also happen in Fastly... And I think there are a couple more changes around the health checks frequency, because we were getting just way too many health checks. I think we were getting close to a thousand every minute, from all the Fastly pops...
 
@@ -198,7 +198,7 @@ So we had these issues where it's easier to go from Apex to www than the other w
 
 So that was happening at Fastly, but it wasn't happening universally... So Gerhard, you had kind of turned it on, turned it off over the course of time, because weird things would happen. One of those weird things Adam spotted, which is Safari would redirect sometimes, and then fail to redirect other times. And it would only happen in Safari. So only Adam and myself, every once in a while, would catch up on it... But in Curl everything is fine, in Google everything is fine, in Brave everything is fine... But Safari would fail to redirect.
 
-\[00:23:59.18\] And the reason for that was that we had basically a bad conditional in our Fastly config, which would match every request, and add a location header to every request, even non-redirect requests... So you'd get like a 200 okay to Changelog.com route, and it would have a location header in there, which - most browsers are like "Well, I've got a 200. I don't need to look for a location header", so it ignores it. Well, Safari would not ignore it; they'd pick up on it anyways, so it caused some issues, with the redirects working -- redirecting where it's not supposed to. All sorts of weird things.
+\[23:59\] And the reason for that was that we had basically a bad conditional in our Fastly config, which would match every request, and add a location header to every request, even non-redirect requests... So you'd get like a 200 okay to Changelog.com route, and it would have a location header in there, which - most browsers are like "Well, I've got a 200. I don't need to look for a location header", so it ignores it. Well, Safari would not ignore it; they'd pick up on it anyways, so it caused some issues, with the redirects working -- redirecting where it's not supposed to. All sorts of weird things.
 
 It took me a long time to figure that out, because you're not looking at the headers when you're looking at the response codes, and you look at the header -- you're a lot like a browser, right? When I see a 301 or a 302, then I look at the location header. But otherwise, I didn't realize "No, the location header is being added every single request by Fastly", so I had to go in there and rewrite that condition to basically have two checks. One is this request that's going to be redirected, and -- well, that was the one I added; it was make sure it's a redirected request in order to add the location header.
 
@@ -250,7 +250,7 @@ So this time around I used another domain, which I just had sitting... Because e
 
 **Adam Stacoviak:** Yeah.
 
-**Gerhard Lazu:** \[00:28:10.26\] Yeah. Ping Pong, yeah. That's like an Erlang joke. Or not like an Erlang joke, but whenever you ping nodes, they respond with pong. And they respond Pang if they can't ping other nodes... So yeah, it's very relevant to the Changelog infrastructure and our app... But anyways.
+**Gerhard Lazu:** \[28:10\] Yeah. Ping Pong, yeah. That's like an Erlang joke. Or not like an Erlang joke, but whenever you ping nodes, they respond with pong. And they respond Pang if they can't ping other nodes... So yeah, it's very relevant to the Changelog infrastructure and our app... But anyways.
 
 **Adam Stacoviak:** I checked it out, I was like "What is this domain?" I'm like, "That's weird. Okay... Surely, Gerhard must know what he's doing..." \[laughs\]
 
@@ -300,7 +300,7 @@ So this time around I used another domain, which I just had sitting... Because e
 
 **Adam Stacoviak:** So just to call it out for the listeners - if you're listening to this and you're curious what the deeper story is, episode 15, ClickOps, Dan Mangum...
 
-**Gerhard Lazu:** \[00:31:57.28\] That was a great one, so thank you, Dan. We will make it happen, for sure. Upbound Cloud, it's in the future as well... But anyways, let's leave that for another time, because this is one thing which I find myself doing - I get excited about so many things, and I wanna do everything, and it's physically impossible... So I have to focus a bit more. So let's do just that - let's focus a bit more on the incidents that we had, on the things that we've fixed, because that's what this episode is about.
+**Gerhard Lazu:** \[31:57\] That was a great one, so thank you, Dan. We will make it happen, for sure. Upbound Cloud, it's in the future as well... But anyways, let's leave that for another time, because this is one thing which I find myself doing - I get excited about so many things, and I wanna do everything, and it's physically impossible... So I have to focus a bit more. So let's do just that - let's focus a bit more on the incidents that we had, on the things that we've fixed, because that's what this episode is about.
 
 Cool. So there were two more incidents which happened shortly after our second one, the origin, the PR\#378, and they all had to do with Linode networking issues and Linode LKE unavailability. I'll link it in the show notes, the specific incidents, which we called them out... But as a result, August 3, August 26th, incident 3 and incident 4... By the way, if you go to the Incidents Slack channel, you'll find them. You can click, you can go through them; they're publicly available on our Slack.
 
@@ -336,7 +336,7 @@ The other one was around, again, CDN Fastly. The website was available 100%. 100
 
 **Jerod Santo:** Oh, yes.
 
-**Gerhard Lazu:** \[00:35:56.00\] Until we have that, we can only run a single instance, because the volume is just local; it can only exist in a single region. Things get very complicated if we use multi regions. I know there are solutions, but the trade-offs - I wouldn't want to make them. It'd be much easier --
+**Gerhard Lazu:** \[35:56\] Until we have that, we can only run a single instance, because the volume is just local; it can only exist in a single region. Things get very complicated if we use multi regions. I know there are solutions, but the trade-offs - I wouldn't want to make them. It'd be much easier --
 
 **Adam Stacoviak:** And that's a Linode thing, right? That's not a -- that block storage, essentially. That's what that is, is just local storage.
 
@@ -356,7 +356,7 @@ There are some folks who've picked up the mantle and run with it, and it's actua
 
 **Adam Stacoviak:** Yeah.
 
-**Break:** \[00:38:30.03\]
+**Break:** \[38:30\]
 
 **Gerhard Lazu:** There is one more thing which I wanna talk about before we tackle the next steps, which I'm a big fan of - what happens between episode 20 and episode 30. The thing that I wanna talk about before we cover next steps is the errors in Sentry that we've been seeing. So between July 15th and September, basically, between the two episodes, we had 3.2k errors.
 
@@ -372,7 +372,7 @@ So I haven't fixed it, I haven't opened an issue yet... I hope that somebody jus
 
 **Gerhard Lazu:** So a function call that this library is making no longer exists. Crypto HMAC with an arity of 3, which takes three arguments - it's undefined in Erlang 24. It must have been removed. So we can go to Erlang 23, it wouldn't take much, really... But 24 - it came out in July; it's a much better one. So many improvements.
 
-\[00:44:18.10\] Other than this, we haven't seen any issues. So it's a good upgrade to make. We are on the latest major of Erlang. Erlang 25 is coming out next year. They ship once a year, in the summer, June/July, sometimes May... But it's usually June. So I see two things. Either someone from the library just says like "Parker Selbert from Oban helped us improve things..." That was a great contribution, and that actually would be a nice reward for these episodes that we make, where we talk about these things...
+\[44:18\] Other than this, we haven't seen any issues. So it's a good upgrade to make. We are on the latest major of Erlang. Erlang 25 is coming out next year. They ship once a year, in the summer, June/July, sometimes May... But it's usually June. So I see two things. Either someone from the library just says like "Parker Selbert from Oban helped us improve things..." That was a great contribution, and that actually would be a nice reward for these episodes that we make, where we talk about these things...
 
 **Jerod Santo:** Yeah, absolutely.
 
@@ -406,7 +406,7 @@ The other source of errors, which -- by the way, these are only three days ago..
 
 **Adam Stacoviak:** Send them through an infinite loop if they're a robot. Sent them to a -- crash their machine.
 
-**Jerod Santo:** \[00:48:00.01\] Okay.
+**Jerod Santo:** \[48:00\] Okay.
 
 **Adam Stacoviak:** Instead of 404-ing it. That's too obvious.
 
@@ -460,7 +460,7 @@ The other source of errors, which -- by the way, these are only three days ago..
 
 **Gerhard Lazu:** So what happens next? Next steps between episode 20 and episode 30. What is the first thing that you would like to see happen, Jerod? Let's go around. Or Adam, if you have one already queued up...
 
-**Adam Stacoviak:** \[00:51:50.11\] Well, I know we've been talking about exploring more... I'm all about 1% improvements; I would say let's make progress on the front, not so much accomplish the front... But let's explore what it might be to consider something like Fly, considering their new hire recently, and their focus on Elixir; we're an Elixir stack, so it makes sense to explore the advantages of different platforms and how it works... And you know, 1) get around the networking issue that we had there, and so what if it could be multi-cloud... You mentioned Upbound and the ability to have a plane that goes across different clouds, and whatnot; so maybe that makes sense to continue to explore down. Or share what you've currently explored so far.
+**Adam Stacoviak:** \[51:50\] Well, I know we've been talking about exploring more... I'm all about 1% improvements; I would say let's make progress on the front, not so much accomplish the front... But let's explore what it might be to consider something like Fly, considering their new hire recently, and their focus on Elixir; we're an Elixir stack, so it makes sense to explore the advantages of different platforms and how it works... And you know, 1) get around the networking issue that we had there, and so what if it could be multi-cloud... You mentioned Upbound and the ability to have a plane that goes across different clouds, and whatnot; so maybe that makes sense to continue to explore down. Or share what you've currently explored so far.
 
 **Gerhard Lazu:** Yeah, that's a good one. So the person that Adam is talking about is Chris McCord, creator of the Phoenix framework. It's exactly what changelog.com the app is using... And he joined --
 
@@ -496,7 +496,7 @@ So my top of the list - I really like what you've mentioned, Jerod and Adam, and
 
 What we see - and this is, by the way, in a Rawkode livestream which is coming up, and it will be out, by the way, by the time you listen to this; I can add it to the show notes... It's that the tail latencies -- this is Ingress NGINX, our tail latencies to the app are really high.
 
-\[00:55:54.22\] So our 90th percentile - this is Ingress NGINX to Phoenix, to PostgreSQL, the request coming back to NGINX, the maximum 90th percentile is 286 milliseconds. It's fairly high, but it's okay, not that high. The 95th one is 841 milliseconds, so almost a second. So some requests can take almost a second to come back, and that's fairly slow. But the 99th percentile - this is the long tail that I've been talking about - can be as high as a minute. So which requests are taking more than a minute to service?
+\[55:54\] So our 90th percentile - this is Ingress NGINX to Phoenix, to PostgreSQL, the request coming back to NGINX, the maximum 90th percentile is 286 milliseconds. It's fairly high, but it's okay, not that high. The 95th one is 841 milliseconds, so almost a second. So some requests can take almost a second to come back, and that's fairly slow. But the 99th percentile - this is the long tail that I've been talking about - can be as high as a minute. So which requests are taking more than a minute to service?
 
 **Adam Stacoviak:** Oh, my gosh... That's a long time, a minute... I mean, a full second is a long time. A minute is 60 times that.
 

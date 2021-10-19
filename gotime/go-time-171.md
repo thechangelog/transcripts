@@ -14,7 +14,7 @@
 
 **Mark Bates:** I'm all myth. It's just all a myth.
 
-**Mat Ryer:** \[00:04:05.09\] \[laughs\] Well, hopefully we have some real people here, too... Let's meet them. We're joined by Wayne Ashley Berry. Hello. Wayne is a principal engineer at GoDaddy, and... Wayne, you're an artist, right? Welcome to the show.
+**Mat Ryer:** \[04:05\] \[laughs\] Well, hopefully we have some real people here, too... Let's meet them. We're joined by Wayne Ashley Berry. Hello. Wayne is a principal engineer at GoDaddy, and... Wayne, you're an artist, right? Welcome to the show.
 
 **Wayne Ashley Berry:** Thank you for having me. Long-time listener and very excited to be on the show.
 
@@ -44,7 +44,7 @@ So yeah, you wanna be able to deploy. Having that easy-to-ship binary. And wheth
 
 **Carl Johnson:** Well, another example is the Hugo Static Site Generator, which was created by Steve Francia... That has internal templates. So it's a tool for creating your own website, and you give it your templates and tell it how to make your website. But it also has some internal templates. And right now, if you look at the source code for it, they have the HTML files in one part, and then they have a Go file that is essentially the exact same file, and it has like a comment at the top saying "Auto-generated. Do not edit." And they just have to keep them in sync, that whenever the internal file changes, they change the Go file to match it.
 
-**Mat Ryer:** \[00:08:12.22\] So they probably have some kind of script or something that does that for them automatically, right?
+**Mat Ryer:** \[08:12\] So they probably have some kind of script or something that does that for them automatically, right?
 
 **Carl Johnson:** Yeah. They have a go generate script that does that. So that's an example where the Hugo binary is just one file, it's just a single executable. You can get it for Mac, or Windows, or Linux, and it has everything it needs in it. And so then that means that they have to go through this kind of annoying build process where they take these templates that they wanna ship with it and turn them into Go code, so that they can put it into the binary.
 
@@ -72,7 +72,7 @@ I think the Go team has been really good about paving the grass -- I don't know 
 
 We mentioned modules before - that was a real problem people were having, of like "How do we incorporate open source software into our programs, into a way where we know what version we're getting in and what versions are coming out?" and all that works...
 
-\[00:12:02.02\] So this is another one where people have been doing lots and lots of tools over the years, including Packer, Go-bindata, and Static etc. the list goes on, and now we have it built into the Go tool. So I think for those of us who have been using those tools, it's very exciting to see it built in.
+\[12:02\] So this is another one where people have been doing lots and lots of tools over the years, including Packer, Go-bindata, and Static etc. the list goes on, and now we have it built into the Go tool. So I think for those of us who have been using those tools, it's very exciting to see it built in.
 
 **Wayne Ashley Berry:** Yeah, this reminds me of when I started using Go... And you get this promise of a single toolchain. There's a built-in command for compiling, for testing... You get that single static binary that -- I've actually sent some binaries to people over Slack before... It's quite useful.
 
@@ -102,7 +102,7 @@ We mentioned modules before - that was a real problem people were having, of lik
 
 **Mark Bates:** So to Carl's example, you could have a version string just like you do now... But you can use //go:embed to embed the version number into that string or slice of bytes directly.
 
-**Mat Ryer:** \[00:16:18.15\] Yeah, I guess you'd still need to run a script before to prepare that other file, but it saves you from messing around with those fiddly flags, the linter flags or the linker flags that you have to pass in.
+**Mat Ryer:** \[16:18\] Yeah, I guess you'd still need to run a script before to prepare that other file, but it saves you from messing around with those fiddly flags, the linter flags or the linker flags that you have to pass in.
 
 **Wayne Ashley Berry:** Yeah, and the nice thing there is that you'll get a compiler error if the file that you expect isn't there... As opposed to ldflags or some other hacky solution where sometimes you just get a silent error, and then you ship the binary with no vision information in it at all.
 
@@ -132,13 +132,13 @@ We mentioned modules before - that was a real problem people were having, of lik
 
 **Mark Bates:** See, this is great... We have all these old, hacky solutions we could start getting rid of now.
 
-**Break:** \[00:17:39.24\]
+**Break:** \[17:39\]
 
 **Mat Ryer:** Okay, so maybe we could explore a little bit more then about how //go:embed works... It's a kind of special comment, isn't it? And this is unusual in Go. It's one of the unusual things I think of, the design, where specific comments have special meaning. Go generate is another one, and there are build tags, but how does it actually work? How would you use //go:embed if you wanted to bring in a file into a string?
 
 **Mark Bates:** It's actually quite pleasant and easy, fairly straightforward to use. I'm obviously hesitant -- I never wanna say the word "easy", or "simple", because it's never that... As a matter of fact, I struggled with trying to figure out how to embed files by an extension, \[unintelligible 00:20:05.22\] Basically, what you do is you set up the variable that you want to embed into, whether it's a string, a slice of bytes, or an embed.fs variable. Those are kind of your three choices. Somebody please stop me if I forgot one, but I'm pretty sure those are your three choices that you can put this directive above.
 
-\[00:20:27.14\] So you've got your little go:embed directive, and then you tell it what kind of files you want. And those files - and as somebody who's written these systems, this is what I love... Those files that you're asking for are relative to the source code. So there's this kind of consistency to it. If I'm in cmd/foo/main.go and I reference template/css, it's gonna expect templates to be right next to main.go, and so on. And that sort of resolution can be really tricky to do if you don't have the Go tooling behind you, like if you're not in the Go tooling; if you have to do it all after market. Because those are the kind of problems you do.
+\[20:27\] So you've got your little go:embed directive, and then you tell it what kind of files you want. And those files - and as somebody who's written these systems, this is what I love... Those files that you're asking for are relative to the source code. So there's this kind of consistency to it. If I'm in cmd/foo/main.go and I reference template/css, it's gonna expect templates to be right next to main.go, and so on. And that sort of resolution can be really tricky to do if you don't have the Go tooling behind you, like if you're not in the Go tooling; if you have to do it all after market. Because those are the kind of problems you do.
 
 And it works for, like I said, all three of those. And you can do -- you know, I want templates, so I can do template/\*, so there's a wildcard... You can also use \*.css, for example. The struggle I came into was I had assets/css/ and then a bunch of CSS files, and then I just did, for my embed directive, assets/\*.css. So it was only looking into one directory, so I needed another star, another slash to kind of recurse through all of them. But once I've figured that out, it was great.
 
@@ -164,7 +164,7 @@ What I was amazed at is - my editor, I use Neovim with vim-go, and I'd get go ve
 
 **Mark Bates:** So right there in my editor I was getting a nice little warning saying "Oh, that pattern doesn't work."
 
-**Mat Ryer:** \[00:24:07.15\] That's nice. And it would be a build error too, right?
+**Mat Ryer:** \[24:07\] That's nice. And it would be a build error too, right?
 
 **Mark Bates:** Yeah, I believe so.
 
@@ -200,7 +200,7 @@ What I was amazed at is - my editor, I use Neovim with vim-go, and I'd get go ve
 
 **Mark Bates:** Yeah. So that's a really nice way... And obviously, you could test against that if you wanted to... But then you start testing against the language too, I think... But the tooling shows you that information. So if you are like "What is happening? What is actually being put in here?", you don't have to go digging through debug logs; you can just quickly run go list -json. "Those are the six files it's embedding. I thought it was supposed to be embedding 106 files. My pattern is wrong, or I'm missing a whole folder stuff." So it helps you immediately jump back to where that problem is.
 
-**Wayne Ashley Berry:** \[00:28:25.23\] It is interesting how in Go generally -- it's a very simple language, there's very little magic, but then sometimes you get these opinions baked into the language... So automatically excluding files starting with an underscore. If you don't know about that, then it's not very clear, and it seems a little -- if feels a bit more like a framework than a language sometimes, because the Go authors have taken opinions... And generally, I find it's best to just lean into them and enjoy them, and it just keeps everything nice and simple and clear. But you do need to figure out what those opinions are.
+**Wayne Ashley Berry:** \[28:25\] It is interesting how in Go generally -- it's a very simple language, there's very little magic, but then sometimes you get these opinions baked into the language... So automatically excluding files starting with an underscore. If you don't know about that, then it's not very clear, and it seems a little -- if feels a bit more like a framework than a language sometimes, because the Go authors have taken opinions... And generally, I find it's best to just lean into them and enjoy them, and it just keeps everything nice and simple and clear. But you do need to figure out what those opinions are.
 
 **Carl Johnson:** That's a really good way to put it.
 
@@ -234,7 +234,7 @@ What I was amazed at is - my editor, I use Neovim with vim-go, and I'd get go ve
 
 **Wayne Ashley Berry:** I tend to put all of my embedded resources in a single file. So top-level I have a resources directory, Resources.go, and that's the only place I'll embed anything... And then all other packages can import from there. They don't need to know about embeds at all. But it is one area where I hope that the tooling can maybe get a little bit better... Because you know, if VS Code or Vim or Neovim could detect you're using 1.16, you have a //go:embed directive in your code, it could just import that for you, as opposed to not.
 
-**Mat Ryer:** \[00:32:23.14\] I think it will.
+**Mat Ryer:** \[32:23\] I think it will.
 
 **Carl Johnson:** I'm sure goimports will be updated with that functionality eventually, if it hasn't been already.
 
@@ -248,7 +248,7 @@ What I was amazed at is - my editor, I use Neovim with vim-go, and I'd get go ve
 
 **Mat Ryer:** \[laughs\]
 
-**Break:** \[00:33:00.22\]
+**Break:** \[33:00\]
 
 **Mat Ryer:** Just a quick question, and I'll put this to all three of you... What's the best thing you've ever embedded? Mark, you can go first... Don't laugh away from the mic. We need that. I really need that.
 
@@ -284,7 +284,7 @@ So if you wanna make a program that can print itself out, all you have to do is 
 
 **Mark Bates:** Yes, I believe so.
 
-**Wayne Ashley Berry:** \[00:36:07.09\] This was June last year...? And one of the first things that he did was embed the file, but within a function. And it's funny, because that was the first thing I tried to do when 1.16 came out, but you actually can't. You have to embed at a package-level variable, which I don't know how I feel about, to be honest...
+**Wayne Ashley Berry:** \[36:07\] This was June last year...? And one of the first things that he did was embed the file, but within a function. And it's funny, because that was the first thing I tried to do when 1.16 came out, but you actually can't. You have to embed at a package-level variable, which I don't know how I feel about, to be honest...
 
 **Mat Ryer:** Yeah... Interesting, because a lot of us are trying to avoid global state altogether... But in a way, is it okay that this breaks that rule?
 
@@ -304,7 +304,7 @@ It was too confusing, and so then they decided "Let's make it so that you can on
 
 **Carl Johnson:** So Mat, the issue I think you're talking about is that if you have this slice of bytes and it's at the top level, you could of course change it. But if it was in a function, you could change it and then you would re-run the function; and should you get a fresh copy that was the original, or should you get back the embedded one that just got changed? If you're used to C or C-based languages, they have a concept of a static variable, where every time you run it it's the same variable...
 
-**Mat Ryer:** \[00:40:03.14\] It's the first one.
+**Mat Ryer:** \[40:03\] It's the first one.
 
 **Carl Johnson:** ...and if you change it, it's the same between runs... But there's no such concept in Go, so they would have had to basically invent it for it to make sense.
 
@@ -340,7 +340,7 @@ So just any different kind of format where you have a bunch of files together, y
 
 **Mat Ryer:** So since this happens at build time, is there a way that you can have a situation where you can just be editing the CSS files and just sort of refreshing things in order to see those updates? Or do you have to rebuild? Do you know what I mean? Is there a way to have a sort of passive mode where it will just read, or would you just build that yourself in your particular case?
 
-**Carl Johnson:** \[00:44:00.21\] So that's where the fs.fs comes in. You could have in your program, depending on how you do command line arguments and flags and variograms or variables and whatever it is you do - but you could say "If this value is true, then you use the embed.fs, and if it's false, then you use the os.fs, and switch between those two as necessary." So that could be a really good way for development for things like Buffalo, where you wanna have things refreshing as the files get changed on disk. But then, when it's time to build it and ship it either to the server or to the user, you can bake it in and make sure that it's concrete.
+**Carl Johnson:** \[44:00\] So that's where the fs.fs comes in. You could have in your program, depending on how you do command line arguments and flags and variograms or variables and whatever it is you do - but you could say "If this value is true, then you use the embed.fs, and if it's false, then you use the os.fs, and switch between those two as necessary." So that could be a really good way for development for things like Buffalo, where you wanna have things refreshing as the files get changed on disk. But then, when it's time to build it and ship it either to the server or to the user, you can bake it in and make sure that it's concrete.
 
 **Wayne Ashley Berry:** I actually like that that's not the default behavior, because I don't often do that kind of work, and I've found that with the pre-existing solutions, the third-party tools we're doing this kind of thing, I would have so many problems with local file system embedded files, generated code that's lying around, and it would be so difficult to know which files were actually being read. I actually prefer that there's one way of doing it, you know the files are always embedded the same way, whether you're running locally, or shipping and deploying in some way... So I actually love this, but that interface is incredible as well, because now I can just go through all our libraries, and the standard library as well... It can become that common point of abstraction.
 
@@ -370,7 +370,7 @@ So just any different kind of format where you have a bunch of files together, y
 
 **Mark Bates:** And that's the other thing too, is you could write interfaces now for S3, that just look like regular files... And you can write a file system interface that talks to S3. Or talks to a database. So you can use Postgres now as a virtual file system if you want to. You could do all these different things. You can, like you said, use S3 as this virtual read-only file system... SQLite, if you're doing, say, an embedded thing.
 
-**Carl Johnson:** \[00:47:59.01\] One of the nice features of Go has always been the io package. When you're a new gopher, it can be a little bit confusing... Like, "What is package io? What are these read and write methods? Why do I have to do them? Why can't I just use a string?" But when you get to understand them, how they work is basically an io reader is a read-only file, and an io writer is a write-only file... And it lets you abstract away what exactly the file is. Is the file on disk? Is the file an HTTP response that you're reading? Is the file an S3 bucket somewhere that you're reading from?
+**Carl Johnson:** \[47:59\] One of the nice features of Go has always been the io package. When you're a new gopher, it can be a little bit confusing... Like, "What is package io? What are these read and write methods? Why do I have to do them? Why can't I just use a string?" But when you get to understand them, how they work is basically an io reader is a read-only file, and an io writer is a write-only file... And it lets you abstract away what exactly the file is. Is the file on disk? Is the file an HTTP response that you're reading? Is the file an S3 bucket somewhere that you're reading from?
 
 Go has always had a way of abstracting away an individual file using package io. But now with package io.fs you can abstract away a file system. And so it's not just the one file that you're looking at anymore... Because you could always say "I'm getting this io reader from S3" or "I'm getting this io reader from a zip file" or whatever. But now you can have a whole system.
 
@@ -386,7 +386,7 @@ Go has always had a way of abstracting away an individual file using package io.
 
 **Mat Ryer:** I've seen some of it. Great. Well, what's gonna be abstracted next? All the things. It's actually time, if you check your timepieces, for Unpopular Opinions.
 
-**Jingle:** \[00:49:33.18\] to \[00:49:50.29\]
+**Jingle:** \[49:33\] to \[49:50\]
 
 **Mat Ryer:** Okay, so who's got an unpopular opinion for us today? Carl, what do you think?
 
@@ -398,7 +398,7 @@ And then the other way that we fund software is through the Patreon model. So th
 
 The pushback that I've gotten on this opinion is like "You're saying that the government should pay the Leftpad guy?" \[laughter\] I think that's a fair criticism, but I don't think that that would really happen in practice... Because if you look at how science is funded, usually the government will put together some sort of grant, and the grant will say something like "Can you research how to cure the Coronavirus?" And then you go to that grant committee and you say "I have these scientists working in my team. We have this theory about how we could build a vaccine. We've done these vaccines in the past, that show that we're qualified to do this", and they evaluate your grant proposal and give it a score, and the proposals that score highest get the actual money.
 
-\[00:52:20.07\] So in this case there would be some sort of board of software funding where people would look at "Oh, Go is a popular programming language. It has millions of developers worldwide, and they all say that they would be really excited to use this embed feature... So why don't we give $10,000, $50,000 to this developer, and then get some number of months of his/her time and they can work on the feature so that everyone else can benefit?"
+\[52:20\] So in this case there would be some sort of board of software funding where people would look at "Oh, Go is a popular programming language. It has millions of developers worldwide, and they all say that they would be really excited to use this embed feature... So why don't we give $10,000, $50,000 to this developer, and then get some number of months of his/her time and they can work on the feature so that everyone else can benefit?"
 
 I think something like that -- I don't see it happening anytime soon. That's why I'm putting it in Unpopular Opinions... It seems like everybody wants to cut government funding, instead of increasing government funding... But I think it would really be helpful just to have this third stream of ways that you could fund open source software and prevent developers from getting burned out, or the situation where the corporation changes its mind about what it wants to work on and it walks away.
 
@@ -426,7 +426,7 @@ I think in software if you're gonna run your code against MySQL, then test your 
 
 **Mat Ryer:** Yeah.
 
-**Carl Johnson:** \[00:55:59.21\] Well, how do you consider fs.fs? Is that a mock, or is that an interface? If in production you're using the embed.fs, but in development you're using the os.fs - do you consider that a mock, or do you consider that something different?
+**Carl Johnson:** \[55:59\] Well, how do you consider fs.fs? Is that a mock, or is that an interface? If in production you're using the embed.fs, but in development you're using the os.fs - do you consider that a mock, or do you consider that something different?
 
 **Mark Bates:** It's an implementation of an interface. I can see what you're saying...
 

@@ -1,4 +1,4 @@
-**Tim Smith:** \[00:01:46\] Almost eight years ago Suz Hinton decided to make one of the biggest decisions of her life - leave her home country of Australia. Suz is originally from Melbourne, the capital of Victoria, which was interestingly declared as the second most livable city by CNN in 2018. Suz says that some Australians really downplay the differences between our cultures, but for her, the change was huge.
+**Tim Smith:** \[01:46\] Almost eight years ago Suz Hinton decided to make one of the biggest decisions of her life - leave her home country of Australia. Suz is originally from Melbourne, the capital of Victoria, which was interestingly declared as the second most livable city by CNN in 2018. Suz says that some Australians really downplay the differences between our cultures, but for her, the change was huge.
 
 **Suz Hinton:** I felt like I was going crazy because I just feel that every tiny little thing I was observing as different just screamed out to me, and so I feel that it's really different in the little details, but it's obviously quite a straightforward jump if you're moving from an English-speaking country to another English-speaking country where you're seeing similar brand names, you can generally get similar peanut butter and things like that from the stores... But to me, I'm a very sensitive person and I'm an incredibly observant person, so it felt like a huge jump for me, given that I've lived in the same city and I didn't really travel a lot at all. This was my first big overseas trip, and it was to move to America, which was very scary.
 
@@ -8,7 +8,7 @@
 
 **Tim Smith:** Wow, that's very interesting. So what moved you to say yes to move from your home country, especially to one that's so far away?
 
-**Suz Hinton:** \[00:03:36.04\] I had an opportunity presented to me, and I remember thinking "If I didn't do this, I would be a very silly person." Like, "Something it's presenting itself to me and I don't really want to do it, but I think that it would be good for me." I was dating someone at the time, we'd been in a long-term relationship for a few years, and he was reached out to by a company in the U.S. who wanted to hire him for a year to work on their product... And it's always been his dream to go to America, to make it big in Silicon Valley and do all that kind of thing, and the job was actually not offered in Silicon Valley, but he saw it as a stepping stone. It's like, "Maybe I could then go and work somewhere else, and make it to California."
+**Suz Hinton:** \[03:36\] I had an opportunity presented to me, and I remember thinking "If I didn't do this, I would be a very silly person." Like, "Something it's presenting itself to me and I don't really want to do it, but I think that it would be good for me." I was dating someone at the time, we'd been in a long-term relationship for a few years, and he was reached out to by a company in the U.S. who wanted to hire him for a year to work on their product... And it's always been his dream to go to America, to make it big in Silicon Valley and do all that kind of thing, and the job was actually not offered in Silicon Valley, but he saw it as a stepping stone. It's like, "Maybe I could then go and work somewhere else, and make it to California."
 
 I remember him calling me, and he said "Okay, so I have this offer, and I think I'm gonna take it. I just wanted to know what you wanted to do - do you wanna come with me, do you wanna just hang out for a year and we'll be long-distance and I'll come back?" and things like that. That's when I knew, I was like "I need to do this." I obviously want to still spend time and go through that adventure with my boyfriend, but also this would be really good for me for growth, and things like that.
 
@@ -26,7 +26,7 @@ These days it's more just -- I miss the people culture, but I also am just so lu
 
 **Tim Smith:** What made you stay?
 
-**Suz Hinton:** \[00:07:38.28\] So we amicably split up; we're still really good friends... So when we split up, it was partially relationship stuff, but it was also that I knew that he wanted to sort of go and leave the city we were in. He wanted to leave, but I loved my job so much, and I realized that we went through so much effort and hardship, and we went through so many things together just to move here, that going home after 11 months just felt like throwing in the towel, if that makes sense.
+**Suz Hinton:** \[07:38\] So we amicably split up; we're still really good friends... So when we split up, it was partially relationship stuff, but it was also that I knew that he wanted to sort of go and leave the city we were in. He wanted to leave, but I loved my job so much, and I realized that we went through so much effort and hardship, and we went through so many things together just to move here, that going home after 11 months just felt like throwing in the towel, if that makes sense.
 
 **Tim Smith:** Right.
 
@@ -34,11 +34,11 @@ These days it's more just -- I miss the people culture, but I also am just so lu
 
 I was working at Zappos, and that place was just such a huge growth experience for me working there, that I knew (again) that I would be silly not to just try and do the hard thing instead.
 
-**Break:** \[00:08:47.24\]
+**Break:** \[08:47\]
 
 **Tim Smith:** I moved away from home at 19. It was scary and exciting all at the same time, but the thing I remember the most is feeling like there were so many things I didn't know, and many more that I didn't know I didn't know, if that makes sense. It quickly became pretty clear to me that I probably wasn't adequately prepared for a move like this, and all I did was move a few states over. Suz felt that on a whole other level.
 
-**Suz Hinton:** \[00:11:50.16\] I had moved to the States basically in debt, I didn't have any savings... I think I had $2,000 in the bank, but that was obviously not going towards paying off the debt that I had either... Just because I wasn't prepared to move to the States, so I wasn't in a financial position where I could. I was working for a startup where sometimes the paychecks were a little sporadic, and so managing your day-to-day expenses becomes quite difficult, and before you know it, sometimes you end up just in debt because it's hard to forecast when you're gonna have to pay for things, and stuff like that.
+**Suz Hinton:** \[11:50\] I had moved to the States basically in debt, I didn't have any savings... I think I had $2,000 in the bank, but that was obviously not going towards paying off the debt that I had either... Just because I wasn't prepared to move to the States, so I wasn't in a financial position where I could. I was working for a startup where sometimes the paychecks were a little sporadic, and so managing your day-to-day expenses becomes quite difficult, and before you know it, sometimes you end up just in debt because it's hard to forecast when you're gonna have to pay for things, and stuff like that.
 
 So that was really challenging, and so I had to sort of go into further debt just to be able to live for the four months before I could actually start my job... And the reason why my paperwork took especially long was because I don't have a university degree, which is usually required for the work visa that I'm on. So we had to do an audit of my entire career at that point...
 
@@ -58,7 +58,7 @@ I got my first two or three opportunities from that school because they called a
 
 **Suz Hinton:** My mom is really cool. I call her a scientist, because it's the easiest description, because she's done so many things. She has a full chemistry degree, and she went through that similarly to how I went through being one of the only women who went through it, and things like that... She became very battle-hardened in the jobs; she's been everything from a lab technician in schools, to just working in labs as well in the start of her career, and then also working -- her last job was in the nuclear and radiation agency that's contracted by the Australian government.
 
-\[00:16:01.14\] She was doing things like testing the UV reflection properties of clothing, for certifications and things like that. Also, testing things like tea for radiation after the Japan earthquakes a while ago, which had the nuclear spill, and things like that. She's done a lot in her life; she's gone to Antarctica to help calibrate some of the UV radiation measuring equipment, but at first she didn't really understand the whole computer thing. She wasn't sure if I could make money doing it, and you know, I was basically just like on the computer all the time, which is incredibly anti-social... And especially if you don't understand what I'm doing, it can be hard to sort of justify it, and things like that.
+\[16:01\] She was doing things like testing the UV reflection properties of clothing, for certifications and things like that. Also, testing things like tea for radiation after the Japan earthquakes a while ago, which had the nuclear spill, and things like that. She's done a lot in her life; she's gone to Antarctica to help calibrate some of the UV radiation measuring equipment, but at first she didn't really understand the whole computer thing. She wasn't sure if I could make money doing it, and you know, I was basically just like on the computer all the time, which is incredibly anti-social... And especially if you don't understand what I'm doing, it can be hard to sort of justify it, and things like that.
 
 So she didn't understand at first, but she gets it now, and she's a complete wizard on her iPad, and on the computer... It enriches her life every day, and she's actually very clever with computers now. She puts together newsletters for clubs that she's part of, and things like that. When she figured out that this was something that I was really good at and that it is a viable career, then she was very supportive.
 
@@ -70,7 +70,7 @@ My dad was really supportive of computers. He was the one that brought our first
 
 He was always really supportive, and then he joked that I took his knowledge, but then I just went and ran with it, and sort of knew more about computers than he did, eventually... But yeah, I really enjoyed holding the flashlight for him while he swapped out the RAM, and upgraded our computer. And he always didn't think it was strange that a girl was interested in it. He was just like "Yeah, if you wanna know about it, let's talk about it." I really appreciate that in him encouraging me.
 
-**Tim Smith:** \[00:19:33.03\] Alright, so I wanna kind of make a drastic change here - I'd love to talk about some of the struggles that I think a lot of us face at one point or another. Especially on this show, I try to talk to people about burnout, about mental health... Have you had your bouts with burnout, and what have you done to deal with it and try to -- I don't think "overcome" is the right word, because some of these things don't really go away... But at least deal with them.
+**Tim Smith:** \[19:33\] Alright, so I wanna kind of make a drastic change here - I'd love to talk about some of the struggles that I think a lot of us face at one point or another. Especially on this show, I try to talk to people about burnout, about mental health... Have you had your bouts with burnout, and what have you done to deal with it and try to -- I don't think "overcome" is the right word, because some of these things don't really go away... But at least deal with them.
 
 **Suz Hinton:** I think that last thing you've just said was a really good point. It's sort of like accumulating debt. If you can figure out a way to just keep paying the debt down, so that it's not actually increasing, if you can just keep coming back to it and sort of like mowing some of it down, then that ends up being my approach to do that, for sure. So I think that's a really good way of putting it, where sometimes you just never really fully get over it, but you find ways to actually manage that.
 
@@ -88,7 +88,7 @@ It was one of those opportunity moments again, where I thought "I can at least g
 
 I was very timid in my new role, and I was very defensive at first with things like code reviews, and it definitely took a year to undo that and really start to flourish again.
 
-**Tim Smith:** \[00:24:10.20\] Yeah, and you see, that's another thing that you don't hear very often, that it can often not take very long for you to burn out, but the recovery from it is a lot longer. What are some lessons that you feel like you've learned from all of these things that we've talked about?
+**Tim Smith:** \[24:10\] Yeah, and you see, that's another thing that you don't hear very often, that it can often not take very long for you to burn out, but the recovery from it is a lot longer. What are some lessons that you feel like you've learned from all of these things that we've talked about?
 
 **Suz Hinton:** I think the biggest thing for me is to find your allies that want you to succeed, because when you're having those moments where you're like "This is a mistake" or "I never should have done this" or "I'm screwing this up" or "I'm not sure if this situation is because of the other person or not", someone can always ground you and remind you and give you that more objective feedback about something.
 
@@ -96,7 +96,7 @@ Being able to reach out and ask for help is definitely the thing that I needed t
 
 Asking for help is not hindering you from succeeding at all. It's basically saying "This is a moment for growth, and I'm gonna find someone who can actually help me grow." Doubt is the biggest thing that has come out from both moving to a new country and just having to start your life over again; you need people to help you with that. But also burnout. Burnout is when you need help the most, and it is one of the hardest scenarios to actually acknowledge that you need that help.
 
-**Break:** \[00:26:08.04\]
+**Break:** \[26:08\]
 
 **Tim Smith:** The day that I recorded this show with Suz was a crazy day for her. She explains why.
 

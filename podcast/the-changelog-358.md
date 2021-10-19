@@ -32,7 +32,7 @@
 
 **Eric Holscher:** But thinking about open source as a whole - what is the institution that can really lead us through the transition of becoming the default software development stack in the world, the introductions of all these Fortune 5 companies...
 
-**Adam Stacoviak:** \[00:04:14.10\] Right.
+**Adam Stacoviak:** \[04:14\] Right.
 
 **Jerod Santo:** Yeah.
 
@@ -88,7 +88,7 @@ You're completely legally able to install it, we're not saying you can't do that
 
 **Eric Holscher:** And the fact that as an organization we were able to do that and put something on paper means we have internal cohesion. And it's like, five people. Luckily, the five of us could agree on something. And then you scale it up to the Python community - that would be a much harder thing to do... Like, how do we get together and say "This is as a community what we care about"? Because we're not all gonna agree on that set of priorities.
 
-\[00:08:22.05\] In the PSF, luckily, we have an institution that could help manage that. Now, I'm not saying that Python should even have a document like that. We are a much more broad organization, of course... But we at least have the institutions to shepherd the community through that process, to really help be the authority that people would hopefully respect the decision if we had to make one... Guido being the classic example in the code side of things.
+\[08:22\] In the PSF, luckily, we have an institution that could help manage that. Now, I'm not saying that Python should even have a document like that. We are a much more broad organization, of course... But we at least have the institutions to shepherd the community through that process, to really help be the authority that people would hopefully respect the decision if we had to make one... Guido being the classic example in the code side of things.
 
 But then you look a step higher beyond Python or open source, and you're like "Who is that? What is that? How do we all agree?" There were some great keynotes this morning from the Chef folks, Adam, VM - I'm gonna mingle her last name, but... Just about that - being more inclusive in open source, but then also "How do we move the definition forward?"
 
@@ -142,7 +142,7 @@ But then you look a step higher beyond Python or open source, and you're like "W
 
 **Eric Holscher:** Sure. Read the Docs is a documentation hosting platform that started around 2010. For a long time I was one of the core contributors and co-founders, and it just kept growing to millions of pageviews a month... But we didn't have any revenue. We were an open source project, we had Rackspace, or Mozilla, or someone who was giving us free hosting... It was very bootstrap. Over time it really started to burn me out, and I've talked about that a little bit in other avenues, just -- I will say, wearing a pager for free, for a website, on the weekend... Like, I can't go camping because I'm wearing a pager for my side project that I don't get paid for. That's a pretty hard thing, and that burns you out real quick.
 
-**Adam Stacoviak:** \[00:12:21.15\] Yeah, I bet.
+**Adam Stacoviak:** \[12:21\] Yeah, I bet.
 
 **Eric Holscher:** So yeah, we really had to solve this problem. We're effectively a documentation publishing platform. Advertising is the way that you make money in publishing... But we didn't wanna do what a lot of the internet has done, which is this kind of tracking-based thing, where it's like "We'll put a cookie on your browser and then we'll retarget you. When you go to our site, we'll put it on the Google network, and then they'll track you around the internet, and show you ads, and we can pay less money because the website you're on is cheaper than the amount of money that we give you for the retargeting..." It's a really big arbitrage thing. It actually works out the worst for the publishers. The advertiser gets more value, the publishers get less money. It's not great. But anyway...
 
@@ -164,7 +164,7 @@ Look at Stack Overflow - there was a thing the other day on like "Why is my Stac
 
 **Adam Stacoviak:** I love those ideas of offsetting. I think there's a spot for promotion in advertising, so to speak, in the publishing, and I think that's a good spot. I think not having it as your primary source of revenue is probably pretty smart... But I like the idea of offsetting, and even letting the audience know "Hey, if you subscribe or you commit in these ways...", either -- I wouldn't say donation, but some sort of thing that gives them value; some sort of value-based transaction "...to offset our need for and reliance upon", I'd support it.
 
-**Eric Holscher:** \[00:16:21.21\] Totally, yeah. And we let people opt out of advertising if they've contributed code, or if you're a library that we're using in our stuff... Obviously, we'll just be like "Yeah, sure." We just won't put ads on it.
+**Eric Holscher:** \[16:21\] Totally, yeah. And we let people opt out of advertising if they've contributed code, or if you're a library that we're using in our stuff... Obviously, we'll just be like "Yeah, sure." We just won't put ads on it.
 
 The other thing is we let people opt out of paid advertising. This is kind of a cool program that we call Community Ads. So any of our projects can say "We don't want paid advertising", so instead what we'll do is we'll show ads for community projects. A lot of conferences that don't have a marketing budget, a lot of that kind of stuff.
 
@@ -240,7 +240,7 @@ The other thing is we let people opt out of paid advertising. This is kind of a 
 
 **Adam Stacoviak:** Right. If you're unhappy -- let's say generally... Obviously, we take criticism, but if you're unhappy because we have a lowly-relevant advertiser or a sponsor or partner that we're working with, then we wanna make sure that we're tying in. We wanna promote brands that developers should know and trust.
 
-**Eric Holscher:** \[00:20:10.03\] You're tying yourself -- we definitely view advertising as a powerful tool. And the people we work with -- we're not advertising some random ICO, or whatever. We have pretty high standards for...
+**Eric Holscher:** \[20:10\] You're tying yourself -- we definitely view advertising as a powerful tool. And the people we work with -- we're not advertising some random ICO, or whatever. We have pretty high standards for...
 
 **Adam Stacoviak:** Right, there's ethics involved.
 
@@ -306,7 +306,7 @@ I wrote a blog post about it maybe 3-4 years ago, and now it's at PyCon, it's at
 
 This first really hit me at a conference called XOXO, which is also here in Portland. It's kind of a media and arts, kind of independent -- I don't quite know how to describe it, but... They were like "We are all here in the same room to meet each other and talk to each other. And there might be people that are you impressed by or scared to meet, but literally, your job here is to meet everyone else in the room."
 
-\[00:24:12.23\] That gave me the courage to join a group of people when I might not have... And I try to give people that same permission in my events, where I'm like "You are in this room because you were meant to talk to anyone else in this room. While you're here, break out of your introvert shell and just know that is your job. No one is gonna turn you away."
+\[24:12\] That gave me the courage to join a group of people when I might not have... And I try to give people that same permission in my events, where I'm like "You are in this room because you were meant to talk to anyone else in this room. While you're here, break out of your introvert shell and just know that is your job. No one is gonna turn you away."
 
 Then you take the Pac-Man rule, and that's how you actually implement that in space. It gives people a little bit more nerve to know they can join that group if they see people standing that way. It's kind of a social cue that people are gonna welcome you.
 
@@ -366,7 +366,7 @@ But the fact that it has been so widely adopted shows that there is a need for m
 
 **Eric Holscher:** Yeah. There we go.
 
-**Jerod Santo:** \[00:28:02.08\] Let me real quick add my Amen to something you touched upon when you giving your Medium answer - is that you have to write it down. I've been one of a handful of organizers of a local JavaScript conference for the last few years, and we're always looking for new experiments, new ideas... And in our team Slack, people are always pasting in "This conference did this thing", and somebody wrote about it, whether it's the organizer themselves, saying "This worked" or "It did not work", or it's somebody who attended the event and says "This was an amazing little touch" or "I felt welcomed because X, Y or Z..." Well, those people who are interested in doing good events - they're looking for those kinds of things...
+**Jerod Santo:** \[28:02\] Let me real quick add my Amen to something you touched upon when you giving your Medium answer - is that you have to write it down. I've been one of a handful of organizers of a local JavaScript conference for the last few years, and we're always looking for new experiments, new ideas... And in our team Slack, people are always pasting in "This conference did this thing", and somebody wrote about it, whether it's the organizer themselves, saying "This worked" or "It did not work", or it's somebody who attended the event and says "This was an amazing little touch" or "I felt welcomed because X, Y or Z..." Well, those people who are interested in doing good events - they're looking for those kinds of things...
 
 **Eric Holscher:** Totally.
 
@@ -434,7 +434,7 @@ I'm a firm believer that giving people that opportunity for the first time is im
 
 **Jerod Santo:** You too.
 
-**Break:** \[00:32:19.28\]
+**Break:** \[32:19\]
 
 **Jerod Santo:** Okay, we're here with Ali Spittel, one fourth of the Ladybugs...
 
@@ -484,7 +484,7 @@ We've done a couple episodes so far. The first one was how to career-change into
 
 **Adam Stacoviak:** Yeah. How do you choose the topics? Is there a big fight about things? Is it like "No, I want this one..." Is it a voting process, is it anonymous?
 
-**Ali Spittel:** \[00:36:09.29\] Not yet. We have a conversation about it. We have a Trello board with a bunch of different potential topics, and then we try to kind of distribute them between career ones, technical ones, and then something else, so that we're attracting all the different audiences and keeping everybody engaged.
+**Ali Spittel:** \[36:09\] Not yet. We have a conversation about it. We have a Trello board with a bunch of different potential topics, and then we try to kind of distribute them between career ones, technical ones, and then something else, so that we're attracting all the different audiences and keeping everybody engaged.
 
 **Jerod Santo:** So if you were in charge of the Ladybugs and you've gotta pick the topic... Like "Ali, this is your show. Choose a topic, we'll talk about whatever you want", what would you do? What would you talk about?
 
@@ -492,7 +492,7 @@ We've done a couple episodes so far. The first one was how to career-change into
 
 **Adam Stacoviak:** What specifically about teaching code? What's your favorite part of that?
 
-**Ali Spittel:** I think seeing the light bulbs go off, and also seeing people just love it. The magic you have when you first write code and something appears on the page where you get to build something for the first time and it's like "Oh wow, this is actually how this works. This is kind of magical." I definitely had that experience when I was learning to code, and when I wrote my first \[00:37:35.18\] and was like "Oh, I can tell a computer to do something and it does it... This is the coolest thing ever."
+**Ali Spittel:** I think seeing the light bulbs go off, and also seeing people just love it. The magic you have when you first write code and something appears on the page where you get to build something for the first time and it's like "Oh wow, this is actually how this works. This is kind of magical." I definitely had that experience when I was learning to code, and when I wrote my first \[37:35\] and was like "Oh, I can tell a computer to do something and it does it... This is the coolest thing ever."
 
 I think bringing that to other people and making it as accessible and exciting as possible is something that I just have the most fun doing.
 
@@ -520,7 +520,7 @@ I think that's the hardest part of being self-taught. There's so much out there,
 
 **Jerod Santo:** Some people I think are self-starters that don't necessarily need someone pushing them, or holding their hand, and they can go to Free Code Camp and just go through it. Then there's other people that it's like "If I don't have structure in my life, I just know I'm not gonna stick with it", so a bootcamp in that regards, or some sort of accountability is very helpful to get you over those humps. So yeah, I guess the better you know yourself, the better you can get started. But if not, you can try, start with the fastest, cheapest thing, like go to Free Code Camp, or go online and just see what you get going. Then if you struggle with that method, then maybe try something else.
 
-**Ali Spittel:** \[00:40:03.09\] Yeah. I think no matter what, try to teach yourself first, because then you know that you enjoy it. If you're trying to invest in a bootcamp or going back to school, that's a huge investment, both of time and of money... So make sure that you at least enjoy programming first.
+**Ali Spittel:** \[40:03\] Yeah. I think no matter what, try to teach yourself first, because then you know that you enjoy it. If you're trying to invest in a bootcamp or going back to school, that's a huge investment, both of time and of money... So make sure that you at least enjoy programming first.
 
 It may be more difficult for you to learn by yourself, and doing a bootcamp may be a more accelerated process, but at least try to play with it yourself and know that you at least enjoy programming before you invest all that time and money.
 
@@ -570,7 +570,7 @@ Then there's maybe the more practitioner, like "Well, just pick a JavaScript fra
 
 **Jerod Santo:** That would have been big to know.
 
-**Ali Spittel:** \[00:43:47.17\] Although I was also learning at that time when it was like -- ES6 was just coming out, so all the documentation was changing for that... But yeah, I really think that you can't go wrong with learning the fundamentals, because HTML, CSS and JavaScript are evolving, but they are pretty stable, and a lot of the fundamentals stay the same from time to time; then these frameworks - there's one that comes up, and... You know, React has maybe won the framework battle to some extent, for now... You know, Vue and all the others are awesome too, but React is probably the dominant one right now. So it's definitely worth learning, but I think learning the JavaScript fundamentals will only make learning React easier down the road, when you're trying to learn React.
+**Ali Spittel:** \[43:47\] Although I was also learning at that time when it was like -- ES6 was just coming out, so all the documentation was changing for that... But yeah, I really think that you can't go wrong with learning the fundamentals, because HTML, CSS and JavaScript are evolving, but they are pretty stable, and a lot of the fundamentals stay the same from time to time; then these frameworks - there's one that comes up, and... You know, React has maybe won the framework battle to some extent, for now... You know, Vue and all the others are awesome too, but React is probably the dominant one right now. So it's definitely worth learning, but I think learning the JavaScript fundamentals will only make learning React easier down the road, when you're trying to learn React.
 
 **Jerod Santo:** Yeah. I think specifically with HTML and CSS, not only is it that they're pretty stable, but that all the advancements are additive. They're adding to the language - they're adding elements, they're adding selector style... They're adding technologies on top, but that doesn't obsolete any of the existing things.
 
@@ -616,7 +616,7 @@ Then there's maybe the more practitioner, like "Well, just pick a JavaScript fra
 
 **Ali Spittel:** Yeah. And teaching people to teach themselves, too. Teaching people how to read documentation, teaching people how to break problems into smaller problems... All of those fundamental things that are so much more important than any one piece of a language, or any language in itself... Because all these technologies change, and the one thing that stays consistent is the ability to learn those new things when they come out.
 
-**Adam Stacoviak:** \[00:48:07.09\] The human element.
+**Adam Stacoviak:** \[48:07\] The human element.
 
 **Ali Spittel:** Yeah.
 
@@ -700,7 +700,7 @@ With bootcamps it's that it's an accelerated format and you can't learn everythi
 
 **Adam Stacoviak:** ...when we had that conversation, it was before you went to Dev. So what are you doing now?
 
-**Ali Spittel:** \[00:52:17.20\] I am a software engineer and developer advocate. I write code for the codebase; it's an open source codebase, so anybody can contribute... But I do a lot of front-end development. My favorite thing with writing code is doing experimental art and code stuff. I built their offline page, and you can draw pictures on it, which is really fun; that's kind of what I do on that side of my job.
+**Ali Spittel:** \[52:17\] I am a software engineer and developer advocate. I write code for the codebase; it's an open source codebase, so anybody can contribute... But I do a lot of front-end development. My favorite thing with writing code is doing experimental art and code stuff. I built their offline page, and you can draw pictures on it, which is really fun; that's kind of what I do on that side of my job.
 
 Then I also come to things like OSCON, and speak, and write blog posts, and all those things too.
 
@@ -760,7 +760,7 @@ Then I found Dev.to on Twitter, and started cross-posting to there as well. And 
 
 I think for me, I get more critiques of me as a person, which is a little bit weirder to deal with...
 
-**Adam Stacoviak:** \[00:56:02.02\] Wow.
+**Adam Stacoviak:** \[56:02\] Wow.
 
 **Jerod Santo:** Yeah... It's harder to deal with those things.
 
@@ -824,7 +824,7 @@ I think for me, I get more critiques of me as a person, which is a little bit we
 
 **Ali Spittel:** Thank you!
 
-**Break:** \[00:57:59.10\]
+**Break:** \[57:59\]
 
 **Jerod Santo:** Hong, thanks so much for sitting down with us here. We're at OSCON, in the expo hall, and... You're speaking.
 

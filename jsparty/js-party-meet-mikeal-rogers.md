@@ -31,7 +31,7 @@ I was doing everything that you could do to make something fast in Python, and t
 
 **Jerod Santo:** So were you using Python Twisted in the evented tools, so that \[unintelligible 00:03:52.21\]
 
-**Mikeal Rogers:** \[00:03:58.17\] So I had used Twisted. I worked for the Open Source Applications Foundation on a project called Chandler, and that was using Twisted... And there was an early version of Windmill where I tried to use Twisted, but in that environment it wasn't that big of a wind, compared to just using WSJI with a generator and getting iterative responses that way. There wasn't quite enough parallelization going on with one test browser to really justify all the overhead of Twisted. So it didn't make it much faster, but you did need to iteratively return the responses, so that things would start rendering right when you got data. I was familiar with that.
+**Mikeal Rogers:** \[03:58\] So I had used Twisted. I worked for the Open Source Applications Foundation on a project called Chandler, and that was using Twisted... And there was an early version of Windmill where I tried to use Twisted, but in that environment it wasn't that big of a wind, compared to just using WSJI with a generator and getting iterative responses that way. There wasn't quite enough parallelization going on with one test browser to really justify all the overhead of Twisted. So it didn't make it much faster, but you did need to iteratively return the responses, so that things would start rendering right when you got data. I was familiar with that.
 
 In the Mozilla stuff that I was using, I was also using Asyncore, which is another non-blocking library -- not as bulky as Twisted, but also much buggier than Twisted, and it comes with the standard library, so you know it's terrible. \[laughter\] So I had done all the things that you could do to make Python programs fast.
 
@@ -51,7 +51,7 @@ Also, when I first got involved in the community and started with Ryan and all t
 
 So there wasn't a very strong focus on being very good at parallelization, actually parallelizing I/O tasks... So not thinking about threads, and stuff like that. Anyway... I really felt like the Python core community wasn't listening to what people actually needed to do with it, and when I started to get involved in Node, there was a huge focus on "What are people doing with it? What do we need to do to enable this big community? How do we keep the core really small and enable a ton of innovation on top of it so that we don't have to hold anybody back?"
 
-\[00:08:01.22\] Everybody had their head on straight in the early days, and I felt like it was a very good opportunity for me... At that point I'd been working in open source nonprofits for four years straight. I was one of the first people to try and get people using GitHub inside of Mozilla, I had a lot of thoughts about building community, about how to grow and gain a lot of traction in the ecosystem, and it was a really good place to do that work - it's a brand new language, with a BDFL that really does not want to maintain a giant standard library, so he's more than willing to create a great ecosystem instead... It was a good place to be.
+\[08:01\] Everybody had their head on straight in the early days, and I felt like it was a very good opportunity for me... At that point I'd been working in open source nonprofits for four years straight. I was one of the first people to try and get people using GitHub inside of Mozilla, I had a lot of thoughts about building community, about how to grow and gain a lot of traction in the ecosystem, and it was a really good place to do that work - it's a brand new language, with a BDFL that really does not want to maintain a giant standard library, so he's more than willing to create a great ecosystem instead... It was a good place to be.
 
 **Jerod Santo:** Yeah... Coming from a scenario where you're a user of Python, which is an established, large language with a huge ecosystem around it and where you probably wouldn't have as much of a voice, here is Node - a brand new scenario where your voice can be heard and your desires could be expressed...
 
@@ -67,7 +67,7 @@ It did go really well, and I'm still with the Node.js Foundation. From the time 
 
 **Adam Stacoviak:** It's a lot of work too that you put in. I remember when we first met you around the io.js timeframe, and the side chats... We had a couple emails, we talked to Scott Hammond from Joyent, I got some advice from you on how to best navigate that conversation... And I just remember thinking how busy you were; I think you were at DigitalOcean at the time and you were transitioning to different roles, and I was just thinking, "You do this for the community in your spare time." I couldn't believe just how much work that people like you would put out into these communities, outside of your day-to-day "I've gotta ship something". I was just astounded by it.
 
-**Mikeal Rogers:** \[00:12:15.01\] Yeah, that was a really crazy time. I think one of the reasons why I was working so hard was that there weren't a lot of people that had history in the community that everyone that needed to be involved in the conversation would still speak to. A lot of what you didn't see at the surface was that it took a long time for things to get into the kind of bad state that they were in, and it wasn't just, "Hey, everybody is mad at Joyent..." A lot of people started to also get upset with themselves. Once there's conflict at all around something, everybody will start to conflict with each other.
+**Mikeal Rogers:** \[12:15\] Yeah, that was a really crazy time. I think one of the reasons why I was working so hard was that there weren't a lot of people that had history in the community that everyone that needed to be involved in the conversation would still speak to. A lot of what you didn't see at the surface was that it took a long time for things to get into the kind of bad state that they were in, and it wasn't just, "Hey, everybody is mad at Joyent..." A lot of people started to also get upset with themselves. Once there's conflict at all around something, everybody will start to conflict with each other.
 
 I had stayed out of daily core development as of 2012 - I think that was the last time that I put code id - and focused a lot more on the ecosystem. But because I had been there early, I had a lot of relationships with all those people, because I continued to do community conferences and a lot of general community work. People mostly like me, I think - or at least would still speak to me - so I felt like I was one of the only people in the position to bring everybody to the table and get everybody on the same page.
 
@@ -79,7 +79,7 @@ We've got some awesome music, a fun theme where it's a party every single week, 
 
 **Mikeal Rogers:** I'm really interested in chronicling the web platform expanding beyond the browser into IoT, into mobile, into now desktop applications... It's crazy. So not just extending what the web can do, but also how we use it. Obviously, Node has been a critical component in enabling that to happen, but it's an enabler, it's not the story. If you're gonna talk about IoT, Node is a part of that; Node enables JavaScript to be on IoT, but without Johnny-Five I don't think that anybody would be using it, right? \[laughs\]
 
-\[00:16:03.00\] There's even more to that story, as well... Johnny-Five wouldn't have been written without Serialport from Chris Williams who started JSConf, and I don't think we would have a community if it weren't for JSConf, so... There's a lot going on there, and I think a lot of it is somewhat untold, and as it continues to expand, I'd really wanna dig deep into that story. It took us a while to really figure out what hosts would be good for this...
+\[16:03\] There's even more to that story, as well... Johnny-Five wouldn't have been written without Serialport from Chris Williams who started JSConf, and I don't think we would have a community if it weren't for JSConf, so... There's a lot going on there, and I think a lot of it is somewhat untold, and as it continues to expand, I'd really wanna dig deep into that story. It took us a while to really figure out what hosts would be good for this...
 
 **Adam Stacoviak:** Or even format - what was the best way to roll it out... Jerod, I gotta hand it to you, man; the original name for this was a bit pretentious - JS Matters. We wanted it to be a play on words, like JavaScript matters - like it does matter, but then also talk about JavaScript matters of substance... That was one thing, but you're always this -- I don't know how to describe it, but one day you're like, "JS Party", and as soon as we both heard it (Mikeal and I), I know for sure it was like, "Yeah, that's it." \[laughter\]
 
@@ -101,7 +101,7 @@ When we sit down and talk to Alex Sexton and Rachel White about their story, lik
 
 **Mikeal Rogers:** Yeah, he's great with that. He was the first person that I thought of for that. Also, he has a very different perspective than I do. He came in it much more from the frontend world, from building websites and then getting involved in the web platform. And then he has a lot of context around the other web platform work that I really haven't been all that involved in. But then, when I thought about having the two of us on there... It's like, we're roughly the same age, we've been speaking about the same amount of time... That didn't feel like rounded enough for me at all, so I immediately started thinking of like "Who are some of the newer voices with really, really different perspectives than we have, that we could bring on?" and that was how I thought of Rachel, who's amazing.
 
-\[00:20:09.14\] She's relatively new to the whole scene, but is at the top of most of our speaking lists for different conferences and stuff like that. She's just been amazing. And she comes from this IoT community that I think me and Alex know about, but aren't involved enough in to really know what's going on. We know enough to know that there's a ton of stuff going on there that we have no idea what's going on with that.
+\[20:09\] She's relatively new to the whole scene, but is at the top of most of our speaking lists for different conferences and stuff like that. She's just been amazing. And she comes from this IoT community that I think me and Alex know about, but aren't involved enough in to really know what's going on. We know enough to know that there's a ton of stuff going on there that we have no idea what's going on with that.
 
 **Adam Stacoviak:** Yeah. Well, I didn't know Rachel until you introduced me to her, and my new question for her every time I see her now is, "What have you built lately? What's the latest robot you've built?" And she's always got something funny, and every single time it's got something to do with cats... That's Rachel. She's awesome.
 
@@ -117,7 +117,7 @@ The first time I met Rachel... I think it was actually the first time that she s
 
 But in light of our desire not to just be Node-specific, not to be just hardcore "people talking about V8" or just talking about frontend, new APIs that are in the browser... We wanna make something for all of us - frontenders, CSS design people, JavaScript hardcore programmers... If you touch the web platform and JS is in any part of your life, this show is for you. At least time will tell; that is our goal, whether or not we achieve that. So in light of those desires and what we're trying to pull off in terms of a celebration every week where we can all come together and talk, what are some of the things people can expect in terms of topics, conversations that we'll be having...? What do you expect -- of course, I'm asking you to prognosticate, because it will probably change as we go... We are iterating, and it'll probably be different by the time this ships than it is right now, but what do you expect in terms of topics that people can come and listen about?
 
-**Mikeal Rogers:** \[00:24:20.01\] So because we're doing it every week and we're trying to be really consistent, I think that we will pick up things that are topical. If some big web news thing goes out, or some new library ships that everybody's talking about - that will end up being a subject, for sure. We will follow that, and that will be kind of fun.
+**Mikeal Rogers:** \[24:20\] So because we're doing it every week and we're trying to be really consistent, I think that we will pick up things that are topical. If some big web news thing goes out, or some new library ships that everybody's talking about - that will end up being a subject, for sure. We will follow that, and that will be kind of fun.
 
 I don't know about you, but whenever I see people talking about an announcement like that that goes out and I know a lot about it, everybody misses all of the context and all the subtlety, and there's a couple podcasts in the political space and in the economic space that do a really good job of deconstructing that and really coming back to like, "What does this really mean, with some of the background that's going on here?" So I hope that we can actually do that as well with some of these news items. I think that we have enough people and context to really suss that out.
 
@@ -145,7 +145,7 @@ When Nolan Lawson wrote that piece on progressive web apps, I think that everybo
 
 **Mikeal Rogers:** I think that if you work on the web, if you use web technologies to build anything, whether it's CSS or JavaScript, if you work on IoT, on serverless, on any of that - we're gonna get into all of those subjects. If we aren't doing enough job of unwinding these topics so that everybody is on the same page, give us that feedback and we will continue to work to do a better a job to unwind that enough so that everybody can understand it.
 
-\[00:28:09.01\] Because especially with the breadth of the topics that we're talking about, even if you really understood one thing that we went and talked about, you wouldn't understand the next. You're not gonna have the deep, low-level network knowledge and the CSS knowledge, right?
+\[28:09\] Because especially with the breadth of the topics that we're talking about, even if you really understood one thing that we went and talked about, you wouldn't understand the next. You're not gonna have the deep, low-level network knowledge and the CSS knowledge, right?
 
 If we're not doing a good enough job of explaining it, just let us know and we will continue to get better at that and continue to actively unwind this stuff, so that everybody working on the web can really learn more about this, understand more of this. And as all of these new news items and framework etc. come out, I really hope that we can share more of what the "insiders" know about this with the general public. Having been in this for so long, you really forget how much insider knowledge there is around all of this, that is required for your context if you're gonna be involved.
 
@@ -169,7 +169,7 @@ We've got some awesome music from Breakmaster Cylinder; we've worked so hard wit
 
 **Adam Stacoviak:** Give me a second, let me set this up. Alright, here we go.
 
-\[00:31:52.27\] \[music playing\]
+\[31:52\] \[music playing\]
 
 **Jerod Santo:** I'm bouncing already.
 
@@ -193,7 +193,7 @@ We've got some awesome music from Breakmaster Cylinder; we've worked so hard wit
 
 Alright... Mikeal, anything else you wanna share with the listeners who are either brand new to this show as we're launching it, or coming to this first episode months down the road, catching up?
 
-**Mikeal Rogers:** \[00:34:52.26\] Good question. No, I can't think of anything, actually... Welcome to the party!
+**Mikeal Rogers:** \[34:52\] Good question. No, I can't think of anything, actually... Welcome to the party!
 
 **Adam Stacoviak:** Yeah, welcome to the party, for sure. I just hope that our ideas today are true three months from now.
 
