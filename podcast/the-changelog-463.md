@@ -172,19 +172,19 @@ FFmpeg - I give it praise often. It's one of the most robust tools I've ever see
 
 **Jerod Santo:** No, I just google that immediately and end up on Stack Overflow.
 
-**Matt Rickard:** I'll admit that this advice would have been good yesterday actually for me...
+**Adam Stacoviak:** I'll admit that this advice would have been good yesterday actually for me...
 
 **Jerod Santo:** \[laughs\] Matt, you're a day too late, man... A day late and a dollar short...
 
-**Matt Rickard:** So I'm having Matt Biilmann and Christian Bach from Netlify on Founders Talk soon, and I was digging into my personal site, which actually is using Netlify. And so I was gonna make some updates to it. It's a Jekyll site essentially... And I'm using a plugin called Jekyll Assets. And something changed with Jekyll since the last time I updated it in 2019, to 2021...
+**Adam Stacoviak:** So I'm having Matt Biilmann and Christian Bach from Netlify on Founders Talk soon, and I was digging into my personal site, which actually is using Netlify. And so I was gonna make some updates to it. It's a Jekyll site essentially... And I'm using a plugin called Jekyll Assets. And something changed with Jekyll since the last time I updated it in 2019, to 2021...
 
 **Jerod Santo:** Of course.
 
-**Matt Rickard:** ...so now I guess Jekyll Assets works differently. So things that were working once were now broken, and I was digging through documentation rather than source code, and I wasn't finding my answers. I think if I had taken your advice and just dove into the source code a bit more I can understand a bit more how I might be able to pull assets like I'm expecting... Because I can see the code change.
+**Adam Stacoviak:** ...so now I guess Jekyll Assets works differently. So things that were working once were now broken, and I was digging through documentation rather than source code, and I wasn't finding my answers. I think if I had taken your advice and just dove into the source code a bit more I can understand a bit more how I might be able to pull assets like I'm expecting... Because I can see the code change.
 
 **Jerod Santo:** That's a great example.
 
-**Matt Rickard:** Rather than the documentation be obsolete or non-existent for my use case, I can actually read the docs on how Assets calls an image, for example, and what happens as a result.
+**Adam Stacoviak:** Rather than the documentation be obsolete or non-existent for my use case, I can actually read the docs on how Assets calls an image, for example, and what happens as a result.
 
 **Jerod Santo:** Let me add on -- I think it's a great example there... And let me add this to what Matt is saying, because I believe this to be true. If you have a library dependency that your application relies upon, and you're afraid to, or for whatever reason will not peek under the covers and grok its source code, you should not be using that piece of software. You should be ready, willing and able to read the source code of your dependencies.
 
