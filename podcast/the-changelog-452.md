@@ -56,11 +56,11 @@ So - Fastly. I would like to mention that, because Fastly, our partner - amazing
 
 **Gerhard Lazu:** Yes. I jumped in, switched Fastly... Basically every routed traffic; so DNS updates, and Changelog.com would start resolving directly to the Linode host, talking to the Linode load balancer, node balancer, and Fastly was basically taken out of the picture. But because of how DNS is cached, it took a couple of more minutes to propagate... But that was it. And CDN as well, re-routed it...
 
-I was basically chilling, it was like a day off... It was a great one. I was in the garden, just chilling. \[unintelligible 00:09:20.25\] As you do, exactly... And then the phone started going off like crazy. That was really like "What?!" I got SMS messages, because we have multiple systems... When something is down, you really wanna know about it, so I got texts, I got Pingdom alerts... Oh, and what I didn't get was Telegram notifications, because guess who else was down? Grafana Cloud.
+I was basically chilling, it was like a day off... It was a great one. I was in the garden, just chilling. Yeah, as you do, exactly... And then the phone started going off like crazy. That was really like "What?!" I got SMS messages, because we have multiple systems... When something is down, you really wanna know about it, so I got texts, I got Pingdom alerts... Oh, and what I didn't get was Telegram notifications, because guess who else was down? Grafana Cloud.
 
 **Jerod Santo:** Grafana, yeah. You didn't let me guess. I was gonna guess it.
 
-**Adam Stacoviak:** I thought you were saying you had a day off because of all the down \[unintelligible 00:09:52.11\]
+**Adam Stacoviak:** I thought you were saying you had a day off because of all the down time was giving you nothing to do.
 
 **Jerod Santo:** Grafana? Was it Grafana?
 
@@ -72,7 +72,7 @@ I was basically chilling, it was like a day off... It was a great one. I was in 
 
 **Adam Stacoviak:** I misunderstood.
 
-**Jerod Santo:** \[unintelligible 00:10:04.14\]
+**Jerod Santo:** I wasn't doing anything anyways.
 
 **Gerhard Lazu:** I was just chilling. It was a gorgeous day, sunny, and it was a day off; I was sunbathing. I won't go into more details with that. \[laughs\]
 
@@ -102,7 +102,7 @@ Now, the pipeline that orchestrates all of that will be interesting... But this 
 
 **Adam Stacoviak:** \[15:58\] Yeah, that's that cost that Jerod was talking about - how much does the redundancy cost, and how much does it gain you?
 
-**Gerhard Lazu:** So from a CDN perspective we just basically have multiple DNS entries; you point both Fastly and Cloudflare to the same origin - or origins in this case... \[unintelligible 00:16:14.15\] The configuration is maybe slightly different, but we don't have too many rules in Fastly. How do they map to Cloudflare? I don't know. But again, there's not that much stuff. I think the biggest problem is around stats. We keep hitting that.
+**Gerhard Lazu:** So from a CDN perspective we just basically have multiple DNS entries; you point both Fastly and Cloudflare to the same origin - or origins in this case... let's just start with the one origin. The configuration is maybe slightly different, but we don't have too many rules in Fastly. How do they map to Cloudflare? I don't know. But again, there's not that much stuff. I think the biggest problem is around stats. We keep hitting that.
 
 **Jerod Santo:** Yes. And I looked at Cloudflare - it was probably two years ago now - with regards to serving our mp3's, and where I ran into problems was their visibility into the logs and getting that information out paled in comparison to what Fastly provides. So we would lose a lot of fidelity in those logs, like with regard to IP addresses... Fastly will actually resolve with their own MaxMind database or whatever their GeoIP database is; they will give you the state and the country of the request, stuff that we wouldn't have to do... And Cloudflare - at least at the time (a couple years ago) just didn't provide any sort of that visibility, so it was like, I would lose a lot of what I have in my stats using Cloudflare. And if I was gonna go multi-CDN, which is kind of like multi-cloud, I would have to go lowest common denominator with my analytics in order to do that... So it really didn't seem worth it at the time. But maybe it's different now.
 
@@ -198,7 +198,7 @@ So what I would like to do is first of all capture this problem in a way that we
 
 **Gerhard Lazu:** Yeah, that was me.
 
-**Adam Stacoviak:** If this is Central timezone, because that's where I'm at \[unintelligibl 00:24:30.03\] it's 7:16 in the morning. I'm definitely not deleting things at that time besides Z's in my brain. I don't get up that early. That's how we know.
+**Adam Stacoviak:** If this is Central timezone, because that's where I'm at, I'm in the site, it's 7 in the morning. Yeah, 7:16 in the morning. I'm definitely not deleting things at that time besides Z's in my brain. I don't get up that early. That's how we know.
 
 **Jerod Santo:** Maybe you accidentally deleted two. It was a two for one deal that morning.
 
@@ -428,7 +428,7 @@ Charity Majors - I don't know which episode, but she will be on the show very so
 
 **Gerhard Lazu:** Exactly.
 
-**Adam Stacoviak:** Well, what is it that -- does every git push, which is from local to presumably GitHub in our case (it could be another code host), is there a way to scrutinize, like "Oh, this is just \[unintelligible 00:49:50.18\] and CSS changing to make that deployment faster"? You know, like it was not involving images or a bunch of other stuff... Like, why does a deployment of let's say -- let's just say it's a typo change in HTML, and a dark style to the page, for some reason. Whatever. If it's just simply CSS, or an EEx file change in our case, could that be faster? Is there a way to have a smarter pipeline? These are literally just an HTML and CSS update. Of course, you're gonna wanna minimize or minify that CSS that Sass produces, in our case etc. But 15 minutes is way long for something like that.
+**Adam Stacoviak:** Well, what is it that -- does every git push, which is from local to presumably GitHub in our case (it could be another code host), is there a way to scrutinize, like "Oh, this is just views and CSS changing to make that deployment faster"? You know, like it was not involving images or a bunch of other stuff... Like, why does a deployment of let's say -- let's just say it's a typo change in HTML, and a dark style to the page, for some reason. Whatever. If it's just simply CSS, or an EEx file change in our case, could that be faster? Is there a way to have a smarter pipeline? These are literally just an HTML and CSS update. Of course, you're gonna wanna minimize or minify that CSS that Sass produces, in our case etc. But 15 minutes is way long for something like that.
 
 **Gerhard Lazu:** You're right. So the steps that we go through - they're always the same. We could make the pipeline smarter, in that for example if the code doesn't change, you don't need to run the tests. The tests themselves, they don't take long to run. But to run the tests, you need to get the dependencies. And we don't distinguish -- like, if the CSS changed, you know what, you don't need to get dependencies. So we don't distinguish between the type of push that it was, because then you start putting smarts -- I mean, you have to declare that somehow; you have to define that logic somewhere. And then maybe that logic becomes, first of all, difficult to declare, brittle to change... What happens if you add another path? What happens if, for example, you've changed a Node.js dependency which right now we use, and then we remove Node.js and we compile assets differently? And then by the way, now you need to watch that, because the paths, the CSS that gets generated actually depends on some Elixir dependencies, I don't know. I think esbuild, we were looking at that? Or thinking...?
 
@@ -448,7 +448,7 @@ Charity Majors - I don't know which episode, but she will be on the show very so
 
 **Gerhard Lazu:** And that's exactly why I'm thinking, use Honeycomb just to try and visualize those steps, what they are, how they work, and stuff like that...
 
-**Jerod Santo:** \[unintelligible 00:53:44.24\]
+**Jerod Santo:** Yeah, see the workflow.
 
 **Gerhard Lazu:** Exactly.
 
@@ -456,11 +456,13 @@ Charity Majors - I don't know which episode, but she will be on the show very so
 
 **Gerhard Lazu:** Second thing is -- and I think this can either be a managed PostgreSQL database, so that either CockroachDB or anyone that manages PostgreSQL, like one of our partners, one of our sponsors, I would like us to offload that problem... And we just get the metrics out of it, understand how well it behaves, what can we optimize, and stuff like that, in our queries. But otherwise, I don't think we should continue hosting PostgreSQL. I mean, we have a single instance, it's simple, really simple; it backups... It's not different than SQLite, for example, the way we use it right now... But it works. We didn't have any problems since we switched from a clustered PostgreSQL to a single-node PostgreSQL. Not one. We used to have countless problems before when we had the cluster. So it's hard is what I'm saying; what we have now works, but what if we remove the problem altogether?
 
-**Adam Stacoviak:** I remember slacking "How can our Postgres be out of memory?" It's like \[unintelligible 00:54:46.01\]
+**Adam Stacoviak:** I remember slacking "How can our Postgres be out of memory?" It's like... wasn't it with the backup? The backup got... something happened with the backup...
+
+**Jerod Santo:** The WAL files.. the cache got full.
 
 **Gerhard Lazu:** Yeah, the replication got stuck, and it was broken, it just wouldn't resume, and the disk would fill up crazy. Crazy, crazy.
 
-**Adam Stacoviak:** And that's the reason you would wanna use a \[unintelligible 00:55:00.06\]because they handle a lot of that stuff for you.
+**Adam Stacoviak:** And that's the reason you would wanna use a managed because they handle a lot of that stuff for you.
 
 **Gerhard Lazu:** Exactly. And if it can be distributed, that means that we can run multiple instances of our app, was it not for the next point, which is an S3 object store for all the media assets, instead of local disk. Right now when we restore from backups, that's actually what takes the most time, because we have like 90 gigs at this point... So restoring that will take some number of minutes. I think moving to an S3 one and a managed PostgreSQL, which we don't have -- we can have multiple instances of Changelog. We can run them in multi-clouds... I mean, it opens up so much possibility if we did that.
 
@@ -472,7 +474,7 @@ Charity Majors - I don't know which episode, but she will be on the show very so
 
 So because of that reason, and because I was new to Elixir and I didn't know exactly the best way to do it in the cloud, I just said "Let's keep it simple. We're just gonna upload the files to the local disk." We had a big VPS with a big disk on it, and were like "Don't complicate things." So that's what we did.
 
-**Adam Stacoviak:** \[unintelligible 00:57:03.01\]
+**Adam Stacoviak:** Yeah, must use it.
 
 **Jerod Santo:** And know full well -- I mean, even back then I had done client work where I would put their assets on S3. It was just because this mp3 thing and the ID3, we ran FFmpeg against it, and like "How do you that in the cloud?" etc. So that was the initial decision-making, and we've been kind of bumping up against that ever since. Now, the technical debt part is that our assets uploader library in Elixir that I use is pretty much unmaintained at this point. It's a library called Arc, and in fact the last release was cut version 0.11, in October of 2018. So it hasn't changed, and it's a bit long in the tooth. Is that a saying, long in the tooth? I think it is. And I know it works pretty well, I've used it very successfully, so it served us very well, but there's technical debt there...
 
@@ -502,7 +504,7 @@ I think in this case, this S3 and the database, which is not managed, have the p
 
 Unfortunately, there's not an ID3v2 Elixir library, and the way that we do our ID3 tags right now, by way of Arc, is with FFmpeg. So we shell out FFmpeg, and we tell FFmpeg what to do to the mp3 file, and it does all the ID3 magic, and then we take it from there.
 
-So the idea was - well, if we could not depend on FFmpeg, first of all, that simplifies our deploys, because we don't have a dependency that's like a Linux binary \[unintelligible 01:01:08.28\] But we'd be able to also do chaptering, so we'd get some features, as well as simplify the setup. And that is only partially to do with Arc. Really, that has to do with the lack of that ID3v2 library in Elixir. That functionality does not exist in native Elixir. If it did, I could plug that into Arc's pipeline and get that done currently. If FFmpeg supported the feature, we wouldn't need it anyway, we would just do it in an FFmpeg, but it does not seem like something that they're interested in... Because mp3 chaptering is not a new whiz-bang feature. It's been around for a decade, maybe more.
+So the idea was - well, if we could not depend on FFmpeg, first of all, that simplifies our deploys, because we don't have a dependency that's like a Linux binary, although that's a small thing. But we'd be able to also do chaptering, so we'd get some features, as well as simplify the setup. And that is only partially to do with Arc. Really, that has to do with the lack of that ID3v2 library in Elixir. That functionality does not exist in native Elixir. If it did, I could plug that into Arc's pipeline and get that done currently. If FFmpeg supported the feature, we wouldn't need it anyway, we would just do it in an FFmpeg, but it does not seem like something that they're interested in... Because mp3 chaptering is not a new whiz-bang feature. It's been around for a decade, maybe more.
 
 So the fact that it doesn't exist in FFmpeg, which - if you've ever seen, it's one of the most feature-full tools in the world. I mean, FFmpeg is an amazing piece of software, that does so many things... But it doesn't support mp3 chaptering. So it's kind of a slightly related, but different initiative that I've also never executed on.
 
