@@ -1,6 +1,6 @@
 **Mat Ryer:** Hello, and welcome to Go Time. I'm Mat Ryer, and today we're talking about eBPF. eBPF is a technology that allows you to run programs safely in a sandbox, without having to change kernels, or code, or install modules, or anything like that. And this is typically the perfect place really for solving problems like networking, security or observability, because of course, the kernel controls everything, it can see everything... So it's kind of perfect, really. But because it is such a core component means that it's actually difficult to change. If you think about your own code, if you've got a core service or something that is a dependency for lots of other systems, you can see where that gets to be quite difficult to change; and you know, when you can't change something, you can't innovate there.
 
-\[00:04:14.28\] So that was typically the story, really, for changing the kernel - it'd not really be an option... Until eBPF comes along, apparently, to change the rules. Let's find out more about it, because we're doing an episode on it right now. And joining me on this episode, I've got Derek Parker. Hello, Derek!
+\[04:14\] So that was typically the story, really, for changing the kernel - it'd not really be an option... Until eBPF comes along, apparently, to change the rules. Let's find out more about it, because we're doing an episode on it right now. And joining me on this episode, I've got Derek Parker. Hello, Derek!
 
 **Derek Parker:** Hello.
 
@@ -46,7 +46,7 @@ So who wants to give us a bit of a background on eBPF? Where did it come from, a
 
 **Grant Seltzer Richman:** No, you could actually change things, and you could make responses. There's certainly limitations, because safety is certainly a concern... You don't wanna just be able to put anything into your running operating system, especially in production... But yeah, there's a lot you can do. You can take action, you could prevent a process from occurring... In the case of routing networks, you can re-route packets as you please...
 
-**Johnny Boursiquot:** \[00:08:10.26\] I've got all kids of spidey senses going off right now, but we'll get to that... \[laughs\]
+**Johnny Boursiquot:** \[08:10\] I've got all kids of spidey senses going off right now, but we'll get to that... \[laughs\]
 
 **Derek Parker:** Yeah, I've seen pure eBPF-based load balancing, and that kind of stuff, which I think is reallly cool and really interesting. And the other interesting thing about the eBPF programs in and of themselves is like -- so you write them in essentially C, but it's kind of like a stripped-down version of C. Instead of fighting like a typical C compiler, you have to fight the BTF verifier or whatever, which complains "You can't have loops in your BPF programs." You have to be really careful with how much stack space you allocate, because there's stringent requirements there... Because it has to be safe, as it's running in the kernel; even though it's sandboxed, the program still has to terminate, so you can't have loops and things like that where the verifier can't verify that the program is actually gonna terminate stuff.
 
@@ -70,7 +70,7 @@ So there's some interesting things that you have to do in that aspect when you'r
 
 **Johnny Boursiquot:** So I'm trying to visualize the concept between user space and kernel space, and everything else... And for those who really are still trying to wrap their heads around this - generally speaking, when you and I write a program in our favorite programming language, like Go for example, we're writing user space programs that when they need to do something at the operating system level, they make a system call and say "Hey, I wanna open a file."
 
-\[00:12:04.16\] So for us, the developers, we're using the standard library. And Go is saying "Hey, can I please open up this file? Because I wanna read content", or whatever it is. So that's a system call that then gets handled, and basically all the operating system level stuff gets done for us, and then we get back that result. But all that happens in the user space, right? So what we're talking about here is actually the ability to write programs that run in kernel space. So going that level basically deeper, to actually listen and react to and potentially change what the actual kernel is doing.
+\[12:04\] So for us, the developers, we're using the standard library. And Go is saying "Hey, can I please open up this file? Because I wanna read content", or whatever it is. So that's a system call that then gets handled, and basically all the operating system level stuff gets done for us, and then we get back that result. But all that happens in the user space, right? So what we're talking about here is actually the ability to write programs that run in kernel space. So going that level basically deeper, to actually listen and react to and potentially change what the actual kernel is doing.
 
 **Grant Seltzer Richman:** Precisely, yeah. You get a lot of advantage to that. Let's take the example of a system call, where the flow of events is that your Go program tries to write to a file; under the hood, the Go standard library is using the right system call. Leading up to the system call, your Go program puts whatever information it needs to in the correct registers, and then it executes a system call instruction, and then the kernel takes over, executes the system call, returns back to user space with "Hey, we were able to write to that file" or whatnot.
 
@@ -88,7 +88,7 @@ I did a tweet a while back, when I first started working on it, of like the over
 
 And then I timed it using the ptrace-based tracing that Delve had been using prior, and it bumped up to like 2.3 seconds. So you go from microseconds to actual seconds, which is like -- you can't have that kind of overhead if you're tracing something in production. So that was kind of what got me interested in it, having these really small, targeted programs that can be called as a result of something, that don't do context-switching between kernel and user space, and stop the program for as little time as possible, and really get kind of performant, detailed, but also ad-hoc tracing.
 
-\[00:16:01.14\] The other difficult thing was making it ad-hoc. So a lot of times when people write eBPF programs, they're very, very targeted. You already know when you're writing the function what corresponding function it's gonna be attached to; what kernel function, or whatever... You generally already know; so you kind of know the arguments to expect, and things like that. But in the case of Delve, and what I was doing with eBPF, I was kind of abusing it a little bit to try to do just -- I wanna attach this probe to a completely arbitrary function, where I don't know how many arguments or return arguments it has. I know nothing about it, but I wanna get all the information out of it. How do I do that?
+\[16:01\] The other difficult thing was making it ad-hoc. So a lot of times when people write eBPF programs, they're very, very targeted. You already know when you're writing the function what corresponding function it's gonna be attached to; what kernel function, or whatever... You generally already know; so you kind of know the arguments to expect, and things like that. But in the case of Delve, and what I was doing with eBPF, I was kind of abusing it a little bit to try to do just -- I wanna attach this probe to a completely arbitrary function, where I don't know how many arguments or return arguments it has. I know nothing about it, but I wanna get all the information out of it. How do I do that?
 
 So that opened up a lot of questions of how to write a generic eBPF program, and how to communicate between that program and Delve, communicate between the kernel space and the user space, in a way that also won't introduce back the slowness that I was trying to get rid of.
 
@@ -118,7 +118,7 @@ With Go there's also a bunch of different libraries that you can use on the user
 
 **Grant Seltzer Richman:** Yeah, macOS has a -- I don't remember the exact name, but some type of security framework with a recent version of macOS that is comparable, but there's no interoperability there.
 
-**Break**: \[00:20:26.24\]
+**Break**: \[20:26\]
 
 **Johnny Boursiquot:** Let's talk a little bit about the use cases. I'm interested in understanding really where the sweet spot is for eBPF programs. We've talked about observability and knowing when certain things happen, and Derek mentioned that this is a very targeted tool, right? So you already know what system calls you want to get callbacks about, other than cases where you're trying to get everything... Which I'm assuming is a very different approach to writing these kinds of programs as opposed to having something very targeted you're looking for, like a file open, or something like that.
 
@@ -130,11 +130,11 @@ Observability - you can use it in production (BPF, that is) for determining the 
 
 **Johnny Boursiquot:** That level of observability that we're talking about here - this is something slightly different from these days more common usage of the term, "observability", and things like that. So when we think of observability, we're thinking "Okay, I need a dashboard, I need a Honeycomb, or a DataDog, or whatever it is. I'm watching my services - are they up? Are they down? What's the latency?" that kind of thing. What we're talking about here is a different kind of observability. A much lower level, yes?
 
-**Grant Seltzer Richman:** \[00:24:03.26\] Yeah, certainly. You have access to raw memory in most of these cases, or all of these cases, really. You could see the full contents of the package, or full contents of memory from a user space program. But you still have that -- even if you're not inspecting memory, you could still just have these BPF programs trigger and just say "Hey, this happened", in the same way as, you know, if you were to add a line of code to your Go program, and then recompile it and run it... Let's say a println - instead of editing source code and recompiling it, you can add a BPF program attached to a certain space in memory, and find out when that certain line executes. That's what Delve does.
+**Grant Seltzer Richman:** \[24:03\] Yeah, certainly. You have access to raw memory in most of these cases, or all of these cases, really. You could see the full contents of the package, or full contents of memory from a user space program. But you still have that -- even if you're not inspecting memory, you could still just have these BPF programs trigger and just say "Hey, this happened", in the same way as, you know, if you were to add a line of code to your Go program, and then recompile it and run it... Let's say a println - instead of editing source code and recompiling it, you can add a BPF program attached to a certain space in memory, and find out when that certain line executes. That's what Delve does.
 
 **Mat Ryer:** So do we have to write all of these things ourselves? Are there not already some tools around that we could use? Are there any tools that do monitoring memory allocation, say, and collecting that in Prometheus, and put that in a dashboard, or something? Are there existing tools that are springing up around this? Is there like an ecosystem?
 
-**Derek Parker:** Yeah, I know that there's a range -- from the sysadmin's perspective, Brendan Gregg, who Grant mentioned earlier, he's from Netflix, a dev ops extraordinaire... He has a whole suite of eBPF-based tools and scripts and one-liners that you can use to inspect your system. I think he has -- I can't remember if this is explicitly wrapped up into it, but he has a great blog post of what to do within the first five minutes or something like that of debugging a production issue, and it goes through all of these scripts and tools and stuff that you can use, and a lot of them are eBPF-based.
+**Derek Parker:** Yeah, I know that there's a range -- from the sysadmin's perspective, Brendan Gregg, who Grant mentioned earlier, he's from Netflix, a DevOps extraordinaire... He has a whole suite of eBPF-based tools and scripts and one-liners that you can use to inspect your system. I think he has -- I can't remember if this is explicitly wrapped up into it, but he has a great blog post of what to do within the first five minutes or something like that of debugging a production issue, and it goes through all of these scripts and tools and stuff that you can use, and a lot of them are eBPF-based.
 
 But I think the question you were alluding to was the productization of this, and feeding this into metrics-gathering systems, and things like that... And I know there's a lot of efforts in that space right now.
 
@@ -146,7 +146,7 @@ But I think the question you were alluding to was the productization of this, an
 
 **Grant Seltzer Richman:** Yeah. I would even add on - and relating to the last question, about what the ecosystem is like... I would say that you really don't have to -- you know, if this is a technology that excites you, or I should say, having this level of visibility excites you, but you're perhaps intimidated, or don't even want to bother writing this eBPF code, there's certainly a developing, maturing ecosystem around this. There's a lot of products that are being developed for gaining that kind of visibility.
 
-\[00:28:12.23\] And then follow-up to that is that - yeah, you don't have to recompile your code at all, which is good for like... I think a lot of the use cases for eBPF applies to perhaps like SREs, or security folks, and maybe not -- let's say if you're like a backend web developer, you might not be as interested in writing the eBPF code... But certainly if you're an SRE, and you have this running service that you're trying to figure out what's going on, being able to write a BPF program that inspects different areas of memory on the fly, and being able to iterate on the BPF program without restarting your service is something that's really valuable, and something that you can get a lot of advantage of.
+\[28:12\] And then follow-up to that is that - yeah, you don't have to recompile your code at all, which is good for like... I think a lot of the use cases for eBPF applies to perhaps like SREs, or security folks, and maybe not -- let's say if you're like a backend web developer, you might not be as interested in writing the eBPF code... But certainly if you're an SRE, and you have this running service that you're trying to figure out what's going on, being able to write a BPF program that inspects different areas of memory on the fly, and being able to iterate on the BPF program without restarting your service is something that's really valuable, and something that you can get a lot of advantage of.
 
 **Mat Ryer:** And what about higher level slightly than that? Could you implement like a file watched using this, if you had something that's gonna auto-reload, if you were a web developer? Could you write an eBPF program that would notice when files have changed in a certain path, and then do take some action, alert you somehow, so you can refresh?
 
@@ -190,7 +190,7 @@ But I think the question you were alluding to was the productization of this, an
 
 **Derek Parker:** I think a lot of the eBPF space, and the technology in general is really big in the cloud-native, CNCF land; cloud-native, Kubernetes type ecosystem. That's where a lot of the community hangs out. And then it kind of dips into programming language communities a little bit, for people who wanna implement things, and stuff like that. But yeah, a lot of the interest and a lot of the community is in cloud-native land.
 
-**Johnny Boursiquot:** \[00:32:06.00\] Much of the body of examples I've seen out there in my short looking into eBPF seems to be around BCC, in Python land, or something... And I've seen examples of that. I'm wondering -- when I saw that, I was like, "Okay, so we're writing some Python here, Python there, in the middle somewhere we've got just a giant string of C..." And we can see where the hooks are, but it's like, okay... Which kind of harks it back to the developer experience I was talking about earlier. I'm wondering, what is it like to write these kinds of programs in Go, what libraries is sort of your go-to in the Go ecosystem for sort of interacting with and writing these kinds of programs?
+**Johnny Boursiquot:** \[32:06\] Much of the body of examples I've seen out there in my short looking into eBPF seems to be around BCC, in Python land, or something... And I've seen examples of that. I'm wondering -- when I saw that, I was like, "Okay, so we're writing some Python here, Python there, in the middle somewhere we've got just a giant string of C..." And we can see where the hooks are, but it's like, okay... Which kind of harks it back to the developer experience I was talking about earlier. I'm wondering, what is it like to write these kinds of programs in Go, what libraries is sort of your go-to in the Go ecosystem for sort of interacting with and writing these kinds of programs?
 
 **Derek Parker:** I'll steal this one for a second... I'll also evangelize the libbpfgo framework, because that's what I'm using in Delve to implement the eBPF-based tracing backend. So there's a lot of good tooling for writing and loading eBPF programs, and using them against Go. There is some trickiness with certain features of eBPF and combining that with Go... To circle back, since this is Go Time Podcast... For example - and not to hijack the question, but just some of the trickiness that you might run into if you're using probes with a Go program is -- there's two kinds of probes. There's uprobes -- well, of user space probes. There's uprobes and uretprobes. So uprobes - you can attach to the entrypoint of a function, and then ureprobes, attached to the return of the function. So you can kind of see, like, at function entry, and then when the function returns; you can kind of hook into both of those spots.
 
@@ -204,7 +204,7 @@ In Delve we had to do some really tricky stuff, use ptrace to see when the Go ru
 
 **Grant Seltzer Richman:** Sure. Yeah, perhaps the thing that we've missed when talking about BPF programs is what are the things that a BPF program can actually do. So one of the main things that BPF programs are interacting with are various forms of maps; in the same way that you have a map in Go, you have various different types of maps that you can use to store information, and you can have a map that is shared between user space and kernel space, or the BPF program itself... Or multiple BPF programs sharing this map in memory.
 
-\[00:36:09.00\] So you could have something like a ring buffer that lets you -- let's say if you have a simple BPF program that is triggered every time a certain function is called, or let's say a system call... Every time a system call is triggered. In that BPF program you can just have a little message that says "Hey, the system call was triggered. Put that in, let's say, a string, and send it to user space using this ring buffer." And then on the user space side you just have a goroutine that is picking up these events and printing them to screen. So you have these buffers, these maps that you can use to share memory between user space, and share memory between different BPF programs.
+\[36:09\] So you could have something like a ring buffer that lets you -- let's say if you have a simple BPF program that is triggered every time a certain function is called, or let's say a system call... Every time a system call is triggered. In that BPF program you can just have a little message that says "Hey, the system call was triggered. Put that in, let's say, a string, and send it to user space using this ring buffer." And then on the user space side you just have a goroutine that is picking up these events and printing them to screen. So you have these buffers, these maps that you can use to share memory between user space, and share memory between different BPF programs.
 
 **Mat Ryer:** So do you literally get a channel interface then in the Go side, where you can \[unintelligible 00:36:55.18\]
 
@@ -230,7 +230,7 @@ Before, something that you might have written a kernel module to do, something t
 
 **Mat Ryer:** Could that be put into a package? Could that little hack be solved once?
 
-**Derek Parker:** \[00:39:58.15\] It's possible... I mean, it's solved right now in a way on a pending pull request in Delve... There's a lot that goes into implementing this workaround. It's some knowledge of Dwarf, which is like debug info that goes into binaries, using ptrace and having permission to use ptrace on top of eBPF... There's a few things that are stacked that are esoteric and non-standard for a typical Go programming adventure. So there's some dragons there, for sure... But yeah, I would say that everything else is pretty safe to use with Go, but uretprobes are gonna blow things up.
+**Derek Parker:** \[39:58\] It's possible... I mean, it's solved right now in a way on a pending pull request in Delve... There's a lot that goes into implementing this workaround. It's some knowledge of Dwarf, which is like debug info that goes into binaries, using ptrace and having permission to use ptrace on top of eBPF... There's a few things that are stacked that are esoteric and non-standard for a typical Go programming adventure. So there's some dragons there, for sure... But yeah, I would say that everything else is pretty safe to use with Go, but uretprobes are gonna blow things up.
 
 **Mat Ryer:** And what would they be used for?
 
@@ -250,7 +250,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 **Mat Ryer:** Yeah, absolutely.
 
-**Break:** \[00:41:46.27\]
+**Break:** \[41:46\]
 
 **Mat Ryer:** Well, I was gonna ask - what do you think is gonna be the future for eBPF? Do we feel like this is the start of something that's just gonna keep getting more and more exciting?
 
@@ -264,7 +264,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 **Grant Seltzer Richman:** I would definitely say that the ecosystem is very much maturing, or I should say "just starting to mature", but there's really so many use cases that haven't been tapped yet. Libbpf hasn't even hit 1.0 yet. I think a lot of people are entering the community who are just learning about BPF... So there's a lot of talk on the kernel side about BPF eating Linux, about rewriting large swathes of the Linux kernel in BPF code, to make it a much more module.
 
-\[00:43:53.23\] One area is like the scheduler, for example, being able to put logic into the scheduler on the fly for changing how we schedule processes. Certainly, drivers is another concept that people are thinking about... But really, a high-level - I don't wanna go too thought leader on all of you, but...
+\[43:53\] One area is like the scheduler, for example, being able to put logic into the scheduler on the fly for changing how we schedule processes. Certainly, drivers is another concept that people are thinking about... But really, a high-level - I don't wanna go too thought leader on all of you, but...
 
 **Johnny Boursiquot:** Please do. Please do.
 
@@ -272,7 +272,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 **Mat Ryer:** Okay, well that brings us to our regular segment... It's time for Unpopular Opinions.
 
-**Jingle:** \[00:45:11.25\] to \[00:45:29.04\]
+**Jingle:** \[45:11\] to \[45:29\]
 
 **Mat Ryer:** Grant Seltzer, do you have an unpopular opinion for us?
 
@@ -314,7 +314,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 **Derek Parker:** That would be ideal.
 
-**Mat Ryer:** \[00:47:43.23\] It's definitely true when you're designing systems that security is one of the key things that you think of. And you're right, sometimes you can just make design decisions that make systems more robust. If they're idempotent, so that you can just retry something lots of times, and kind of better safe than sorry, because you've designed it a certain way, it's not gonna break. You can do that same thing with security issues, too. Just by making certain design choices, you're sort of necessarily more secure. So yeah, an interesting one... We're gonna definitely test that one on Twitter. We would test it on Facebook, but I think we all know why we're not gonna do that...
+**Mat Ryer:** \[47:43\] It's definitely true when you're designing systems that security is one of the key things that you think of. And you're right, sometimes you can just make design decisions that make systems more robust. If they're idempotent, so that you can just retry something lots of times, and kind of better safe than sorry, because you've designed it a certain way, it's not gonna break. You can do that same thing with security issues, too. Just by making certain design choices, you're sort of necessarily more secure. So yeah, an interesting one... We're gonna definitely test that one on Twitter. We would test it on Facebook, but I think we all know why we're not gonna do that...
 
 **Grant Seltzer Richman:** \[unintelligible 00:48:25.07\]
 
@@ -388,7 +388,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 **Mat Ryer:** I can't wait to meet the first engineer that does actually call their kid something like \_, something like that. I would love it.
 
-**Derek Parker:** \[00:52:03.03\] \[laughs\]
+**Derek Parker:** \[52:03\] \[laughs\]
 
 **Mat Ryer:** That's a good one then. So - Johnny, are you sold on that?
 
