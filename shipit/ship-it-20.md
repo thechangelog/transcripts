@@ -74,7 +74,7 @@ So the ability to go back to it, which I now have scrolled back to it; it was Ju
 
 **Gerhard Lazu:** I'm pretty sure I said Happy Birthday back then, but now that you mentioned it...
 
-**Jerod Santo:** Now that you know how bad my memory is, you can just \[unintelligible 00:07:35.20\] that for me... I'm seeing some details here about it, and if I could click through somehow to Incident.io from the Slack incident, then I'm sure there'll be even more information. But in this particular channel, or maybe -- oh, here we go. I've gotta click through to the -- each incident gets its own channel; so there's the Incidents channel, and then the incidents get their own channel... Which I can come and go, and I could read all of the details here, I think. Yeah. So now I'm looking at this, it's kind of loading in, screenshots etc. So it's great for just outsourcing your memory, I think.
+**Jerod Santo:** Now that you know how bad my memory is, you can just retcon that for me... I'm seeing some details here about it, and if I could click through somehow to Incident.io from the Slack incident, then I'm sure there'll be even more information. But in this particular channel, or maybe -- oh, here we go. I've gotta click through to the -- each incident gets its own channel; so there's the Incidents channel, and then the incidents get their own channel... Which I can come and go, and I could read all of the details here, I think. Yeah. So now I'm looking at this, it's kind of loading in, screenshots etc. So it's great for just outsourcing your memory, I think.
 
 **Gerhard Lazu:** \[08:14\] Yeah.
 
@@ -114,7 +114,7 @@ I don't wanna spoil it too much, because the episode that soon follows we will b
 
 **Jerod Santo:** Haah...!
 
-**Adam Stacoviak:** \[unintelligible 00:11:45.18\] I've been using the word "on deck" lately.
+**Adam Stacoviak:** It's near! It's on deck. I've been using the word "on deck" lately.
 
 **Gerhard Lazu:** Right.
 
@@ -166,13 +166,13 @@ To come back to Jerod's point - yes. This release should have never gone out, in
 
 **Gerhard Lazu:** So the incident was that the origin was returning 503 responses. What that means is that the CDN, Fastly - it proxies these requests, it forwards these requests to LKE, Linode, where our app is running. And the origin in this case being LKE, our app running in LKE, was returning 503. This is Ingress NGINX. Ingress NGINX serving 503, the backend is not available, so the CDN was basically forwarding these requests.
 
-Now, this actually affected only a subset of users. The CDN will serve stale content for all get requests. Obviously, not the dynamic ones, not like post, patch, stuff like that. But get, head - all of those, they will serve stale content. If you're logged in, because you're an author and you have like a token and a cookie, obviously, none of those requests will be cached. So the website will be down for each who were logged in. So Adam, Jerod, myself, when we logged in the app, we would see that it's down. But anyone listening to our feed, or podcasts, listening to episodes, they don't even see this. Browsing the website - they wouldn't see this, especially if they're not logged in. So that part behaved as it should, that was good, but obviously, we detected it and now \[unintelligible 00:18:51.07\] and we could see straight away that it was down.
+Now, this actually affected only a subset of users. The CDN will serve stale content for all get requests. Obviously, not the dynamic ones, not like post, patch, stuff like that. But get, head - all of those, they will serve stale content. If you're logged in, because you're an author and you have like a token and a cookie, obviously, none of those requests will be cached. So the website will be down for each who were logged in. So Adam, Jerod, myself, when we logged in the app, we would see that it's down. But anyone listening to our feed, or podcasts, listening to episodes, they don't even see this. Browsing the website - they wouldn't see this, especially if they're not logged in. So that part behaved as it should, that was good, but obviously, we detected it and now we're alerting detecting it and we could see straight away that it was down.
 
 **Jerod Santo:** Yeah, exactly. So it's kind of like a degraded performance is what it becomes, because there's certain endpoints, certain pages, whether you're logged in or logged out, that don't work... And I think it was actually a redirect that we were used to having there was failing because of a 503 when it finally hits the app, and so for certain people - I think it was for signed in people only, which is like, you want your signed in users to have their best experience, but they actually get the worst... It was just down for them. So that's what happened, and of course, fixing that was paramount. But according to the world at large, we were still up.
 
 **Break:** \[19:30\]
 
-**Gerhard Lazu:** One of the other things that we improved since episode 10 were more redirects at the edge, specifically in Fastly. So now we have \[unintelligible 00:20:48.02\] redirects in Fastly, and things happen very quickly, rather than going all the way to our app. HTTP to HTTPS redirects, which also happen in Fastly... And I think there are a couple more changes around the health checks frequency, because we were getting just way too many health checks. I think we were getting close to a thousand every minute, from all the Fastly pops...
+**Gerhard Lazu:** One of the other things that we improved since episode 10 were more redirects at the edge, specifically in Fastly. So now we have www to the root domain to the apex, redirects in Fastly, and things happen very quickly, rather than going all the way to our app. HTTP to HTTPS redirects, which also happen in Fastly... And I think there are a couple more changes around the health checks frequency, because we were getting just way too many health checks. I think we were getting close to a thousand every minute, from all the Fastly pops...
 
 **Jerod Santo:** Oh, wow.
 
@@ -266,7 +266,7 @@ So this time around I used another domain, which I just had sitting... Because e
 
 **Gerhard Lazu:** It's up to you. You ask me the question, okay?
 
-**Adam Stacoviak:** What's that ch \[unintelligible 00:29:21.10\] Let's resolve this now. What is it?
+**Adam Stacoviak:** What .ch do you mean? Let's resolve this now. What is it?
 
 **Gerhard Lazu:** Okay. So ch is a TLD for Switzerland. Switzerland is a really special place for me. It's the one place where I feel like home; it doesn't matter when I go, whether it's summer, whether it's winter... Every single opportunity I have to go there, I go there. DevOps Days Zurich happens today, and I think yesterday, and I was really bummed that I couldn't make it... Maybe next year. It happens once a year. It's a really special place, and it is a future home, for sure. It's also a present home, but it's more like a spiritual home rather than an actual physical home... But it's in the future. A few years, a couple of years... Who knows? But it's definitely there. We have to go as a family to Switzerland at least once a year. It's perfect. And this year was amazing.
 
