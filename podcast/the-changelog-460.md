@@ -428,7 +428,7 @@ We're creating this sense where -- you wanna have a Cockroach DB community, wher
 
 The other thing they're doing is creating a different lens on competition. So in open source, part of what they're protecting against is they're afraid of AWS, or they're afraid of Microsoft, or GitHub taking their software and launching it as a service.
 
-\[44:00\] And the thing of it is - if what you're building as a product is successful enough, then you're gonna get big enough that there will be competition. There's no successful product that doesn't have competition. That doesn't exist. Because it's so obvious that what you should do is compete with someone. It's not a difficult mental leap. That spreadsheet is really easy to build when you have an example already that tells you it works. You riff on the theme just a \[unintelligible 00:44:25.12\] and you're like --
+\[44:00\] And the thing of it is - if what you're building as a product is successful enough, then you're gonna get big enough that there will be competition. There's no successful product that doesn't have competition. That doesn't exist. Because it's so obvious that what you should do is compete with someone. It's not a difficult mental leap. That spreadsheet is really easy to build when you have an example already that tells you it works. You riff on the theme just a snudge and you're like --
 
 **Adam Stacoviak:** You are the spreadsheet.
 
@@ -590,7 +590,7 @@ So System Initiative is really about figuring out how do we look at that whole p
 
 **Jerod Santo:** Just people like you, sys admins who nerd out about it.
 
-**Adam Jacob:** Yeah, but even we don't think it's fun. We think the tinkering is fun. But we don't think \[unintelligible 01:04:44.00\] You know what I mean?
+**Adam Jacob:** Yeah, but even we don't think it's fun. We think the tinkering is fun. But we don't think that oper - that's not like - You know what I mean?
 
 **Adam Stacoviak:** What are you doing today? A bunch of configuring. It's going to be fun.
 
