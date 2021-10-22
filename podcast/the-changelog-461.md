@@ -152,7 +152,7 @@ We fundamentally don't really believe in the classic polyglot persistence attitu
 
 **Evan Weaver:** That is true. Most of my -- although I studied bioinformatics in grad school and I worked on gene orthologs in chickens, most of my career (really all my career) has been working around problems in the data systems.
 
-After grad school I worked at SAP briefly, and then I worked at \[unintelligible 00:43:06.12\] And Urban Baby was a threaded, asynchronous, real-time chat for moms, which has a lot of similarities with Twitter, if you stop limiting the audience only to moms...
+After grad school I worked at SAP briefly, and then I worked at CNetwork and I did chow.com and urbanbaby.com. And Urban Baby was a threaded, asynchronous, real-time chat for moms, which has a lot of similarities with Twitter, if you stop limiting the audience only to moms...
 
 **Jerod Santo:** \[laughs\]
 
