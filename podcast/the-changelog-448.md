@@ -8,7 +8,7 @@
 
 **Adam Stacoviak:** \[04:26\] It totally is. What do you mean by consumption model?
 
-**Spencer Kimball:** Yeah, just think of this sort of generationally... I'm sure this has been true at least partially, for most of the listeners. The older listeners will have a more visceral reaction to the way things were, let's say pre or late '90s. If you wanted to use software back in the '80s, the '90s, and also the aughts and even today - if it were closed source, it was a pretty difficult procurement road. You had to identify the piece of software that you were interested in, and then contact sales of whatever vendor was selling it; that would go through your procurement department, you had to get all kinds of different \[unintelligible 00:05:08.02\] just to use this software.
+**Spencer Kimball:** Yeah, just think of this sort of generationally... I'm sure this has been true at least partially, for most of the listeners. The older listeners will have a more visceral reaction to the way things were, let's say pre or late '90s. If you wanted to use software back in the '80s, the '90s, and also the aughts and even today - if it were closed source, it was a pretty difficult procurement road. You had to identify the piece of software that you were interested in, and then contact sales of whatever vendor was selling it; that would go through your procurement department, you had to get all kinds of different sign-offs, and that's just to use this software.
 
 \[05:12\] Then you got printed manuals shipped to you... There wasn't much a community to ask questions of. You could contact support and so forth, but all of these things were just much slower, more tedious; considerably slower - let's call it an order of magnitude, potentially more - in order to actually use software, put it into production, kick the tires, whatever it is that you wanted to get done as a developer. Open source just dramatically improved that. And I'd say that more so, for example, than having the ideas free, or even the price tag being free. Those are two aspects of free that people talk about with open source. But it's the speed with which open source technologies could be downloaded, compiled locally, and then run and explored and even put into production; that was such an improvement, and it ultimately led to open source eating the world, as has been said by Andreessen Horowitz. That is the paradigm that existed, I would say, in 2015, when Cockroach was really conceived of as a product and then as a company.
 
@@ -112,7 +112,7 @@ I've started three companies now, and Cockroach Labs is the only company where i
 
 So you say, "Okay, we're gonna use two databases. We'll put half of our customers on the first database, half on the second", and maybe at some point you start reaching capacity on those two, and so then you say "We're gonna use four" or "We're gonna use five" etc. It got up to about 32, I think, when I was at that project at Google... And all these different problems started to occur as we sharded. The application complexity became quite high. It just went ridiculous...
 
-Practical example - the MySQL databases had too many connections coming into them, and that started to cause them to \[unintelligible 00:29:17.17\] And so we solved these problems -- every morning we had these Ads War Room to solve the latest set of problems related to this scalability challenge with the database.
+Practical example - the MySQL databases had too many connections coming into them, and that started to cause them to cavitate. And so we solved these problems -- every morning we had these Ads War Room to solve the latest set of problems related to this scalability challenge with the database.
 
 I will just say that in Google AdWords, by the time they replaced that sharded MySQL architecture, they'd gotten to a thousand shards. So it became a thousand MySQL instances. And I've heard that Facebook has hundreds of thousands of MySQL instances. So there's kind of no end to both how scalable that architecture is, but also how much time you have to put in to truly keep scaling it.
 
@@ -132,7 +132,7 @@ Google started to play around with better ways to do that as early as 2004-2006.
 
 **Spencer Kimball:** Yeah. The reason that -- well, let me just say this... There's nothing new under the sun in computer science. Or maybe the number of new things are vanishingly small. Everything's been thought of before, so making sharding more automatic - this has existed far earlier than Google created Bigtable and sort of launched the idea of NoSQL. NoSQL - the word NoSQL, the term, predates Google or at least Bigtable for five or six years... At least the earliest mention of it that I've been able to find.
 
-So ultimately, the popularization, as opposed to the innovation of these kinds of things, whether it's consensus-based replication, or elastic scalability in a cloud-native fashion - I think the popularization of these things and the widespread adoption has to have a lot of different confluent factors all aligning... The cloud is a big example of why these things are possible. Google had their own version of what looks like the public cloud \[unintelligible 00:35:09.28\] in 2020, they had that in the aughts. They had data centers all over the world, and Borg to control access to resources in a very frictionless fashion.
+So ultimately, the popularization, as opposed to the innovation of these kinds of things, whether it's consensus-based replication, or elastic scalability in a cloud-native fashion - I think the popularization of these things and the widespread adoption has to have a lot of different confluent factors all aligning... The cloud is a big example of why these things are possible. Google had their own version of what looks like the public cloud to any startup today in 2020, they had that in the aughts. They had data centers all over the world, and Borg to control access to resources in a very frictionless fashion.
 
 Once you start to have capabilities like that, you start to think that "Hey, we could write databases differently. We could use all these commodity resources and build a bigger database than anyone's ever had."
 
@@ -162,7 +162,7 @@ I just felt like I didn't necessarily wanna spend my whole life being a Google e
 
 \[40:04\] And that's where the idea of Cockroach was initially born. It was really "Okay, well Spanner is great. We wanna have Spanner-like capabilities. But it has to be open source, and it has to be something that you can run on a laptop, and it has to be something that any startup could use." And the idea of calling it Cockroach is really because cockroaches are so damn resilient. They say after World War III they'd be the only things left alive... It's probably true actually, based on my experience living in New York...
 
-**Adam Stacoviak:** \[unintelligible 00:40:36.27\] WALL-E.
+**Adam Stacoviak:** All in WALL-E.
 
 **Spencer Kimball:** That's right.
 
