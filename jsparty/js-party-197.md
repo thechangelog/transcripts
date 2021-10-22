@@ -16,13 +16,13 @@ So yeah, Matteo, before we get into the specifics on the libraries, why don't yo
 
 **Matteo Collina:** Okay. So this could be the show, right? You have asked me that question - I'll try to limit it. It's a long story; I'm going to cut it very shortly. I started coding very early; way too early that's healthy for a kid, so that's probably maybe not something that we all want to do with our kids... I don't know if I'm going to put my kid in front of a keyboard, coding at four... That was my dad -- I was watching my dad coding when I was four. That was probably a little bit too early.
 
-\[00:04:17.27\] Anyway, that was the starting time. I started wobbling into the open source world and community... I started using Linux when I was a teenager, something like that. Linux came in CDs at the time; that was a long, long time ago. Then - what else? Well, after that I went to a very, very normal thing; I went to uni. I did my Bachelor and Master...
+\[04:17\] Anyway, that was the starting time. I started wobbling into the open source world and community... I started using Linux when I was a teenager, something like that. Linux came in CDs at the time; that was a long, long time ago. Then - what else? Well, after that I went to a very, very normal thing; I went to uni. I did my Bachelor and Master...
 
 **Amal Hussein:** Did you finish?
 
 **Matteo Collina:** I finished them all. I enjoyed my time. And then it was not enough, and then I did a Ph.D. Well, I went back one year in the industry here in Italy. I did not like what I saw in the industry. During my time at my Master I was studying how to build custom databases, robot arms, how to do the equations to send a rocket to the atmosphere... That was the type of stuff that I was doing.
 
-After that, I ended up writing the \[00:05:14.22\] WSDL, SOAP... A lot of libraries that start with a J at the beginning...
+After that, I ended up writing the \[05:14\] WSDL, SOAP... A lot of libraries that start with a J at the beginning...
 
 **Nick Nisi:** \[laughs\] PTSD for me.
 
@@ -44,7 +44,7 @@ Then I went one year in the industry, didn't like what I saw, tried to get a job
 
 **Amal Hussein:** But you do have more engineers, right? There are more software engineers in Europe.
 
-**Matteo Collina:** \[00:07:56.29\] I don't know the stats. What I know is that the consumers expect a certain level of quality now. And it's driven by big U.S. companies. So they want that same level of quality for products built in Europe. So even for internal company software, that's usually not very nice. So they expect this level of technology and this level of user experience. Because of that, that has crippled down into "How can we implement those things? How can we improve the user experience for our products?" So this has been pushing the technology in Europe to catch up.
+**Matteo Collina:** \[07:56\] I don't know the stats. What I know is that the consumers expect a certain level of quality now. And it's driven by big U.S. companies. So they want that same level of quality for products built in Europe. So even for internal company software, that's usually not very nice. So they expect this level of technology and this level of user experience. Because of that, that has crippled down into "How can we implement those things? How can we improve the user experience for our products?" So this has been pushing the technology in Europe to catch up.
 
 So it's catching up. It's still not probably there, it's probably a little bit late, at least on a certain class of companies, but it's catching up quickly. We start to see some good class of startups emerging, producing really interesting technology, especially in London, Amsterdam... We even have a few interesting startups in Italy, which - you know, one that raised 300 million this year.
 
@@ -66,13 +66,13 @@ At that same time there were people trying to put JS everywhere. So they were do
 
 **Matteo Collina:** ...mind-blown. Then I tried Npm, and when I tried Npm, it was totally clear to me Node.js was going to take over the industry. The reason - it's Maven.
 
-**Jingle:** \[00:10:51.09\] Please hold, we're having technical difficulties. \[00:11:02.03\]
+**Jingle:** \[10:51\] Please hold, we're having technical difficulties. \[11:02\]
 
 **Matteo Collina:** One of the key fundamental issues in Maven was that you could not have the same library at two different versions at the same time. So let's say that you wanted to use a library that had a certain version of a utility library. Now, that utility library yourself, your software will not compile, because it needed to all be at the same version, which meant that people could not break backward compatibility and innovate freely. Npm allows this. Npm allows the same dependency to be present thousands of times, at all the possible versions, which means that we have solved the reusing software problem. It also means that Node modules become the heaviest subject in the Universe. We have been successful at it. We have been trying hard to make that happen for at least as long as I've been in the industry, and with Npm we actually reached that state.
 
 **Amal Hussein:** Okay, so I feel like it's not an issue for me, them being the heaviest objects in the universe, because it's a server technology, it's never getting shipped in the browser... But I feel like these issues with dependencies really became a problem once the frontend community hijacked Node as their build chain and their dependency management.
 
-**Matteo Collina:** \[00:12:18.09\] It's totally fine. They are not shipping them in the \[unintelligible 00:12:20.17\] Node modules, most of them is not stuff that you want to ship in the browser anyway. It's all the toolchain. In fairness, it's bytes on disk, disk is very cheap; it's bytes on network, and bytes on the wire are somewhat cheap in the vast majority of the world where you would develop software anyway... So the reality is that that's fine. And that's the price for using a lot of software. You can build everything yourself and not have all those things you have to download.
+**Matteo Collina:** \[12:18\] It's totally fine. They are not shipping them in the \[unintelligible 00:12:20.17\] Node modules, most of them is not stuff that you want to ship in the browser anyway. It's all the toolchain. In fairness, it's bytes on disk, disk is very cheap; it's bytes on network, and bytes on the wire are somewhat cheap in the vast majority of the world where you would develop software anyway... So the reality is that that's fine. And that's the price for using a lot of software. You can build everything yourself and not have all those things you have to download.
 
 But I don't know, for all my time, I have been -- you know, at some point, in order to have the new version of Red Hat, I needed to receive a CD. You see, that was slow. Downloading a few megabytes over the wire - well, it's not slow. But that thing would actually -- the full disk was 600 MB, and now a Node module is a hundred and something...
 
@@ -88,7 +88,7 @@ But I don't know, for all my time, I have been -- you know, at some point, in or
 
 **Matteo Collina:** Yeah, totally. I code things for myself. No, it's not necessarily true -- I code these because I need them to exist. So I'm not necessarily certain that I need -- I first try small, with low investments of time, to develop something, and then invest more time as I see if something is getting popular and it's useful. So it's a slow curve. Typically, I am the first client of all my modules. I need something to exist in order to what I want to do. This is also part of my job... I work for a company called NearForm, I am essentially a consultant... I help companies using JavaScript. That's part of what NearForm does... Which means that we have teams, we have our clients and so on that might need something.
 
-\[00:16:08.09\] So I have a very good pulse of -- I always had a very good pulse... I've been at this company for seven years and nine months, or something, so I have a good pulse on what the user needs. I can see what is missing and I can start developing it. Or I can foretell problems and plan for the worst, and start something, so that when the time is right, you have it done. And that was kind of what happened. So that's kind of what I've done so far. In between, I ended up doing a Ph.D, and that's a story on itself. Then I worked for NearForm. That was the gap that we didn't cover.
+\[16:08\] So I have a very good pulse of -- I always had a very good pulse... I've been at this company for seven years and nine months, or something, so I have a good pulse on what the user needs. I can see what is missing and I can start developing it. Or I can foretell problems and plan for the worst, and start something, so that when the time is right, you have it done. And that was kind of what happened. So that's kind of what I've done so far. In between, I ended up doing a Ph.D, and that's a story on itself. Then I worked for NearForm. That was the gap that we didn't cover.
 
 **Amal Hussein:** And then somewhere you also joined the Node.js Technical Steering Committee...
 
@@ -122,7 +122,7 @@ The problems that we fix at the TSC can be hard, it can be a lot of drama... The
 
 **Amal Hussein:** And then also modules. That's a huge, huge win. I don't know if people really fully understand how difficult it is to implement a modules system in Node... Because Node had its own module system; getting that to work, and be back-compat, and not break the web... That's a huge, huge accomplishment. So really, kudos to the team.
 
-**Break:** \[00:20:34.05\]
+**Break:** \[20:34\]
 
 **Nick Nisi:** That was a fascinating journey through the early days of Node and your early career... Very exciting. You were also on JS Party 103, talking about Streams. So we've definitely heard some great things from you, more great history, and we were just talking in the break about how we need to have you back. So we will definitely do that. But I definitely wanted to segue us into your libraries, and particularly Fastify and Pino. If I understand correctly, Fastify came out of Pino, so maybe let's start with Pino, talk about what it is and how it came to be...
 
@@ -132,7 +132,7 @@ The problems that we fix at the TSC can be hard, it can be a lot of drama... The
 
 **Matteo Collina:** Or Logrotate! Okay. So one of the earliest problems in Node was - when Node came to be, people started developing loggers, that are useful for creating structured information from your application. And they are often required even for some regulations, or for actually knowing what is going on in your app the moment you have a bug. So - very useful. It saved my life a few times already. You really want a good logging library in your system, and use it.
 
-\[00:24:04.07\] So what happened at the time was the popular ones were -- we're talking about 2016, something like that. In 2016, there were two main popular logging libraries; one was Bunyan, developed by Joyent, and one was Winston, maintained by our friend, Charlie Robbins, Indexzero. However, they both had the same approach, which is "Oh, I follow the Java approach for loggers, which is I have a logger that wraps a logger, that wraps a logger (three, four times) before I am going to write down to a file." And they have this approach of nesting things, and being able to create multiple loggers, and so on, create multiple destinations, and so on and so forth.
+\[24:04\] So what happened at the time was the popular ones were -- we're talking about 2016, something like that. In 2016, there were two main popular logging libraries; one was Bunyan, developed by Joyent, and one was Winston, maintained by our friend, Charlie Robbins, Indexzero. However, they both had the same approach, which is "Oh, I follow the Java approach for loggers, which is I have a logger that wraps a logger, that wraps a logger (three, four times) before I am going to write down to a file." And they have this approach of nesting things, and being able to create multiple loggers, and so on, create multiple destinations, and so on and so forth.
 
 The typical problem those loggers had - one was throughput, and the other one was memory usage. So it was very hard to control the amount of memory those loggers were using before writing. You know, you want your log -- you do console log, right? Node.js is a synchronous platform. But you're not waiting for that log line to be written to continue. However, you're doing something synchronous, but it's something that is asynchronous in nature, or synchronous in nature. So you have this dichotomy. And in some cases, memory could actually explode, because let's say that you want to send all your logs to Elasticsearch, for example - then you might produce more logs than what you can ship to Elasticsearch in time, and in the meanwhile, your memory will start ballooning. All of that comes to be very complicated, okay?
 
@@ -162,7 +162,7 @@ We at the company do some performance optimizations and so on, and then we reach
 
 **Matteo Collina:** Yes, of course.
 
-**Amal Hussein:** \[00:28:11.21\] All of your packages were actually Italian. I mean, what's the Italian way to say "fast"?
+**Amal Hussein:** \[28:11\] All of your packages were actually Italian. I mean, what's the Italian way to say "fast"?
 
 **Matteo Collina:** Veloce.
 
@@ -198,7 +198,7 @@ So I started doing some research... However, I picked one choice. Writing a web 
 
 So I know it was a massive, Gargantuan task, so I decided "Well, I can't do this alone, and I can't get NearForm to pay for it, because it's a new web framework and it will take years to get it done. So how can we get it done?" I decided, "Well, let's see if there is somebody else that is seeing the same problems, and if they wanted to join me on that journey."
 
-\[00:31:59.07\] At that time I was giving a Node.js workshop in Bologna. One of the students that came there was a university graduate; he was a university student, he was just finishing his degree... Anyway, we were doing that, and at that time he asked me "Well, I want to get into open source", and I said "Well, of course. We can build this together." And he said "Sure, why not.
+\[31:59\] At that time I was giving a Node.js workshop in Bologna. One of the students that came there was a university graduate; he was a university student, he was just finishing his degree... Anyway, we were doing that, and at that time he asked me "Well, I want to get into open source", and I said "Well, of course. We can build this together." And he said "Sure, why not.
 
 We started developing this thing together. Then I used a little bit of my open source conference time to develop it. At the beginning it was really conference-driven development, I call it. So you write a talk, and your pitch for a talk, and then you write the software to sustain that talk. I don't know, at the beginning it was something like that to create some attention. However, it became the concept of "Well, if you want something -- it's a very open community, so if you want something to happen, you should join the community." That makes sense; it's an open community.
 
@@ -226,7 +226,7 @@ So this is the source of the problem with Express and Restify. So those communit
 
 **Amal Hussein:** Oh, my God... Alright. Well, that's great to know. Thank you for sharing that incredible story. We're gonna take another break and we're gonna get into some of the more specific perks around these really key libraries in the Node.js ecosystem. And then yet, I'm still gonna ask that burning question, "Matteo, what do you think of Deno?" So stay tuned, kids. We'll be right back.
 
-**Break:** \[00:35:43.12\]
+**Break:** \[35:43\]
 
 **Nick Nisi:** Let's talk about Fastify and get into a little bit more of its features and its API. I guess we can start off and probably presume that it's fast, given the name.
 
@@ -238,7 +238,7 @@ So given that focus on not adding overhead, we add a certain class of features t
 
 **Matteo Collina:** There was more at the beginning than there is now. We have been able to do most things at this point in time. A key part of that experience has been to embrace the concept of plugins. And this is part of the great success of the framework. So instead of middlewares, which is the most popular thing in Express land, we have the concept of plugins. And plugins can either add some functionality to the library... Oh, by the way, Fastify is one critical feature that Express does not have, nor Restify, or Koa, or others. It has a boot sequence. So you can start a Fastify server and it's an asynchronous startup sequence. So you can do your database connections, do your pre-rendering if you want to do pre-rendering of your things... And it's all asynchronous, so you don't need to have that complex codebase at the beginning to bootstrap your Node process... Which can get very ugly. This is a critical feature, because then it enables very fine-grained unit testing of the library. So this is the type of decisions where you can have a great user experience, because testing is as important as the rest.
 
-**Amal Hussein:** \[00:40:06.07\] Before we get into testing though, could you explain to me why this boot sequence is important? Because if I write my asynchronous code with some control flow, I could mimic that boot sequence, yes?
+**Amal Hussein:** \[40:06\] Before we get into testing though, could you explain to me why this boot sequence is important? Because if I write my asynchronous code with some control flow, I could mimic that boot sequence, yes?
 
 **Matteo Collina:** Yes, of course. Of course. So here is a typical problem. You want to start your application, and then you need to connect to your Postgres, Mongo, Redis, MySQL database, or whatever you want to connect to. Then you want to listen, to open the port and listen. Once you know that all your dependencies are up and running, you want to open the port to the world and say "Hey, I am exposing my -- here, I am available. It is a port. You can start sending me HTTP requests." The reason why you want your boot sequence to be controlled, fine-grain-controlled, is because you want to be able to unit-test them. And this -- I'm going back to testing. You want to be able to spin up multiple instances of your app, one for each of your tests. The predominant pattern back in 2015-2016 was - and it still is, to some extent, in certain companies, is to have one global Express app, or Restify, or Hapi, that's more or less exposed as a singleton, and it's there to exist.
 
@@ -254,7 +254,7 @@ So while Express, for example, \[unintelligible 00:43:42.21\] very quickly, even
 
 **Amal Hussein:** Yeah. And order matters.
 
-**Matteo Collina:** \[00:44:06.10\] In Fastify order matters, but they are created in a shared data structure, so it's called a tree, and it's a radix prefix tree, and it's a complex data structure, built more or less for this specific use case, where all the routes are being inserted in. And it's actually pretty fast.
+**Matteo Collina:** \[44:06\] In Fastify order matters, but they are created in a shared data structure, so it's called a tree, and it's a radix prefix tree, and it's a complex data structure, built more or less for this specific use case, where all the routes are being inserted in. And it's actually pretty fast.
 
 **Amal Hussein:** What kind of a tree did you say it was?
 
@@ -306,7 +306,7 @@ So while Express, for example, \[unintelligible 00:43:42.21\] very quickly, even
 
 **Amal Hussein:** Honestly, that's what I want out of a web framework, is routing.
 
-**Matteo Collina:** \[00:47:58.02\] Yes. So it decides what routes you're going to hit. And this is one of the limitations of the framework. In Express you could do "Oh, I'm writing a route, but if I can decide I'm not handling this payload, I can bump it to the next one in the chain."
+**Matteo Collina:** \[47:58\] Yes. So it decides what routes you're going to hit. And this is one of the limitations of the framework. In Express you could do "Oh, I'm writing a route, but if I can decide I'm not handling this payload, I can bump it to the next one in the chain."
 
 **Amal Hussein:** Yeah.
 
@@ -344,7 +344,7 @@ The logic that I cannot write -- and you were right, there's no Next, in the sen
 
 **Matteo Collina:** It's a migration benefit. Let's say that you want to migrate your application from using Express to use Fastify. You can do that. Or maybe there is a chunk of your applications that you don't want to migrate, for whatever reason, and you can keep it there and use the rest somewhere else. There's a few companies that have done this, because it's simpler dong that than rewrite that piece, essentially.
 
-**Amal Hussein:** \[00:52:16.27\] Okay. That's very cool. I love the migration benefit... That's very forward-thinking.
+**Amal Hussein:** \[52:16\] Okay. That's very cool. I love the migration benefit... That's very forward-thinking.
 
 **Matteo Collina:** Yes. We introduced this on Fastify v3. That was not possible in Fastify v2. But we reached that level in Fastify v3 last year.
 
@@ -382,7 +382,7 @@ But it also supports AsyncAwait, so you can just return from your async function
 
 **Amal Hussein:** Yeah, I'm saying -- you can't use it with Node 11 or 10.
 
-**Matteo Collina:** \[00:56:02.21\] Well, yes, but you should not be using those anyway, because \[unintelligible 00:56:03.07\]
+**Matteo Collina:** \[56:02\] Well, yes, but you should not be using those anyway, because \[unintelligible 00:56:03.07\]
 
 **Amal Hussein:** Agree, I'm with you. I'm 100% with you. But believe it or not, you and I both know there's lots of servers in the world running --
 
