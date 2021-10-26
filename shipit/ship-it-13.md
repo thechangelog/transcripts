@@ -10,7 +10,7 @@
 
 **Alan Cooney:** Essentially, at its heart, Skyhook is basically a website where you can book adventure trips, like hiking to Everest base camp... Really unique trips. Or canoeing all the way across Scotland. And when you do that, you're actually booking with a local guide. Not a big company, typically a one-man operation. We find that gives you a really, really unique, authentic experience.
 
-So that's kind of from the guest side or the customer side, in a way... But we're also on the other side, we're a business product as well; we're a place where the guides can manage their trips and do all this kind of admin that you usually do with your trip, that can take a few hours a day, and just automate \[unintelligible 00:05:00.09\] that way.
+So that's kind of from the guest side or the customer side, in a way... But we're also on the other side, we're a business product as well; we're a place where the guides can manage their trips and do all this kind of admin that you usually do with your trip, that can take a few hours a day, and just automate most of that away.
 
 **Gerhard Lazu:** So from that, what you've just said, how did we end up with serverless? Because that's what's happening in the backend, right? What's the link between these adventures -- do you have to be really adventurous to choose serverless?
 
@@ -58,7 +58,7 @@ So we continued down that route for some time. The database grew and the zooming
 
 **Gerhard Lazu:** So what is better about the new setup?
 
-**Alan Cooney:** \[11:56\] I can give you the business side, and it will be interesting to hear as well on the technical side. From a business side, it's way more reliable. And you know, you have these problems as a startup, but to give you the example of a host adding their trip - so the guest or customer experience of booking a trip has always been quite smooth... But in terms of adding trips and editing trips, it's been very clunky and very bug-prone, so we'd \[unintelligible 00:12:20.08\] support tickets every day. If you gave a demo, there was a good chance it would break \[unintelligible 00:12:25.01\] obviously quite embarrassing... And that's basically gone away.
+**Alan Cooney:** \[11:56\] I can give you the business side, and it will be interesting to hear as well on the technical side. From a business side, it's way more reliable. And you know, you have these problems as a startup, but to give you the example of a host adding their trip - so the guest or customer experience of booking a trip has always been quite smooth... But in terms of adding trips and editing trips, it's been very clunky and very bug-prone, so we'd seen multiple support tickets every day. If you gave a demo, there was a good chance it would break to a host which is obviously quite embarrassing... And that's basically gone away.
 
 **Gerhard Lazu:** So the system is a lot more reliable today than it was two years ago.
 
@@ -98,7 +98,7 @@ But all in all, the scope of this task we are doing actually is, for instance, o
 
 **Gerhard Lazu:** Wow. Okay...
 
-**Wycliffe Maina:** Yeah. \[unintelligible 00:15:16.17\] the better.
+**Wycliffe Maina:** Yeah. The faster I can see results of what I'm working on the better.
 
 **Gerhard Lazu:** Speed is addictive, right? And first of all, as you mentioned, very important - the quicker you can understand your mistake in production, the quicker you can fix it... And if you can do it so quickly that people don't even notice it, isn't that the best?
 
@@ -260,7 +260,7 @@ I remember that moment, and I think I will remember it till the end of my days; 
 
 **Saul Cullen:** We're constantly looking for improvements. We're working with what I think a lot of people would consider as bleeding edge technology, and that means that some of the decisions that we make don't always pan out to be the best ones. It can take trying them out to actually realize that it isn't the best tool for the job for us. That was something we talked about previously. We went down the route of using RDS as a single database store, and found that actually it made more sense to go down the Dynamo route.
 
-What we're always constantly struggling against those is how we use our time... So we can seek to change things like we are currently - we're doing a number of migrations \[unintelligible 00:38:23.17\] services, but what that means is we reduce the amount of business value that we ship. So there's this push and pull constraint that we're working against with what may be best for the dev side, and what we want to work on, what we want to chop out, change, improve, go back and fix, versus what we need to ship to customers to improve their lives and to release more business value and grow the company.
+What we're always constantly struggling against though is how we use our time... So we can seek to change things like we are currently - we're doing a number of migrations of all the services, but what that means is we reduce the amount of business value that we ship. So there's this push and pull constraint that we're working against with what may be best for the dev side, and what we want to work on, what we want to chop out, change, improve, go back and fix, versus what we need to ship to customers to improve their lives and to release more business value and grow the company.
 
 To answer your question, I think an area for me that is so important is development; the development experience is something where we still need to make quite a few improvements. You mentioned your questions about how our data is set up, and whether we refresh our data and things in our staging environment... And you know, we need to improve that so that the development experience is more fluid and more true to what we then push out to production. I know Wycliffe's got a few thoughts around this, so maybe you can jump in there Wycliffe.
 
@@ -294,7 +294,7 @@ So from this perspective, there was not really any risk as far as we were concer
 
 **Gerhard Lazu:** I like where this is going...
 
-**Alan Cooney:** Yeah, it was really useful actually having this event system, because basically what happened was refunds \[unintelligible 00:47:47.01\] in various ways, and so we replayed our event stream, this time hooked up to a Lambda function which sent an email to the support team of our payments provider to resolve the issue, and triggered a to-do to ask for us to check that it had been resolved.
+**Alan Cooney:** Yeah, it was really useful actually having this event system, because basically what happened was refunds were shown they succeeded and failed in various ways, and so we replayed our event stream, this time hooked up to a Lambda function which sent an email to the support team of our payments provider to resolve the issue, and triggered a to-do to ask for us to check that it had been resolved.
 
 **Gerhard Lazu:** \[48:04\] That's very clever.
 
